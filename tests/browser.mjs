@@ -372,7 +372,9 @@ try {
   await page.locator('#btn-clear-filters').click();
   await page.waitForFunction(() => document.querySelector('#explore-creature-grid')?.getAttribute('aria-busy') === 'false');
   for (const axis of ['power','threat','fear']) assert.equal(await page.locator(`#filter-${axis}`).inputValue(), 'all');
-  await page.locator('#filter-power').selectOption('transcendent');
+  // Data from data/power can fill any single tier, so the empty state uses a combination no being can hold.
+  await page.locator('#filter-power').selectOption('mortal');
+  await page.locator('#filter-threat').selectOption('t7');
   await page.locator('#empty-clear-btn').waitFor();
   await go('creature/garuda');
   await page.locator('#tab-power').click();
