@@ -1,6 +1,6 @@
 # Review batch-053
 
-Diperiksa 2026-10-06T15:33:04.368Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md.
+Diperiksa 2026-10-06T19:11:44.222Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md.
 
 ## shiranui-optical-phenomenon — lulus-otomatis
 
@@ -594,21 +594,21 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## amatsumara — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**warn**
-- `claims (amatsumara-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | amatsumara-c01 | exact | en.wikipedia.org | Amatsumara is a Shinto kami associated with ironworking. | Amatsumara(天津麻羅) (“one eye of heaven”) or (ironworker of heaven) also known as “Amenomahitotsu” (Heaven's Eye One Kami) is the Shinto kami of ironworking and blacksmiths. |
 | amatsumara-c02 | exact | en.wikipedia.org | Blacksmiths regard him as a patron deity. | He is also the patron kami for blacksmiths. |
-| amatsumara-c03 | exact | en.wikipedia.org | Myth gives him a smith’s role among the heavenly gods. | He acts as a blacksmith for the gods up in Takamagahara. |
+| amatsumara-c03 | exact | en.wikipedia.org | He acts as a blacksmith for the gods in Takamagahara. | He acts as a blacksmith for the gods up in Takamagahara. |
 | amatsumara-c04 | exact | en.wikipedia.org | One story connects his work with a mirror used to bring Amaterasu from hiding. | In many versions, he made a mirror with the help of Ishikori-dome no Mikoto, which was used to lure Amaterasu from her hiding place in the rock cave of heaven. |
 | amatsumara-c05 | exact | www.kokugakuin.ac.jp | The cave ritual calls for the smith Amatsumara after iron is gathered. | iron from the Amenokanayama 天金山 mountain and sought out the smith Amatsumara 天津麻羅 (4). |
+| amatsumara-c06 | exact | d-museum.kokugakuin.ac.jp | According to the Kojiki, as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors, using the "hard rocks of heaven" and the "metal mountain of heaven". | Kojiki states that as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors, using the "hard rocks of heaven" and the "metal mountain of heaven" |
+| amatsumara-c07 | exact | d-museum.kokugakuin.ac.jp | The Kogo shūi describes Amatsumara as a follower of Futodama and states that, when Amaterasu hid in the rock cave of heaven, Amenomahitotsu no kami ("the one-eyed kami of heaven") was assigned to make metal weapons. | Kogo shūi describes Amatsumara as a follower of Futodama; it also states that at the time of Amaterasu's hiding away in the rock cave of heaven, Amenomahitotsu no kami ("the one-eyed kami of heaven") was assigned to make metal weapons |
+| amatsumara-c08 | exact | d-museum.kokugakuin.ac.jp | The name Amatsuma(u)ra refers to the ancestral tutelary of the blacksmith occupational groups and was apparently also used as a common name. | The name Amatsuma(u)ra refers to the ancestral tutelary (sojin) of the blacksmith occupational groups, and was apparently also used as a common name. |
+| amatsumara-c09 | exact | d-museum.kokugakuin.ac.jp | The name Amatsumara means ma-ura ("eye divination"), which some believe means "one-eyed", a reference to an occupational hazard of blacksmiths. | The name Amatsumara means ma-ura ("eye divination"), which some believe means "one-eyed," a reference to an occupational hazard of blacksmiths. |
+| amatsumara-c10 | exact | kotobank.jp | A Japanese dictionary describes him as the smithing kami of the Kojiki who, together with Ishikoridome, made a ritual mirror to draw Amaterasu out, and who is also said to be the same kami as Amenomahitotsu. | 「古事記」に見える鍛冶の神。天の岩屋戸に隠れた天照大神を導き出すため、伊斯許理度売命(いしこりどめのみこと)とともに、祭祀用の鏡を作った。天目一箇神(あめのまひとつのかみ)と同じ神ともいわれる。 |
+| amatsumara-c11 | exact | en.wikipedia.org | He is discussed in the Kojiki and is associated with the giant yokai Daidarabocchi. | He was discussed in the Kojiki and is associated to the giant yōkai Daidarabocchi. |
 
 
 ## amemasu — lulus-otomatis
@@ -641,10 +641,7 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## fengli — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -654,6 +651,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | fengli-c04 | exact | en.wikipedia.org | Other descriptions compare it with a monkey or rabbit. | Alternate sources say the beast resembles a vanishingly short-tailed monkey, or a rabbit. |
 | fengli-c05 | exact | en.wikipedia.org | Stories give it flight or gliding among trees and rocks. | It is capable of flying or gliding across trees or jutted rocks, eating fruits. |
 | fengli-c06 | exact | en.wikipedia.org | One named form is said to favor spiders as food. | Sources say that its alias fengshengshou favors eating spiders. |
+| fengli-c07 | exact | zh.wikisource.org | The classical Chinese text on Wikisource says the fengli, also called fengmu and fengshengshou, can leap by means of the wind, dies and revives when it catches the wind, and also treats wind ailments, which is why it has "wind" in its name. | 風母(《綱目》)、風生獸(同)、時珍曰..風狸能因風騰越,死則得風複生,而又治風疾,故得風名。 |
+| fengli-c08 | exact | zh.wikisource.org | The text says the animal lives in the mountain forests of Lingnan and beyond the western frontier of Shu; it is as big as a li or an otter, looks like a small monkey with red eyes and a tail so short as to be absent, and is blue-yellow and black with markings like a leopard. | 其獸生嶺南及蜀西徼外山林中。其大如狸如獺,其狀如猿猴而小,其目赤,其尾短如無,其色青黃而黑,其文如豹。 |
+| fengli-c09 | exact | zh.wikisource.org | The text says it eats spiders; by day it curls up motionless like a hedgehog, and by night it leaps very nimbly with the wind, crossing cliffs and trees like a bird flying through the air. | 其性食蜘蛛,亦啖薰陸香。晝則蜷伏不動如蝟,夜則因風騰躍甚捷,越岩過樹,如鳥飛空中。 |
+| fengli-c10 | exact | zh.wikisource.org | The text says that if struck it dies suddenly but revives shortly afterward if its mouth faces the wind; it dies only if its bones are smashed and its brain destroyed. | 人撾擊之,倏然死矣,以口向風,須臾複活。惟碎其骨、破其腦乃死。 |
+| fengli-c11 | exact | zh.wikisource.org | The text says that according to one account blades do not cut it and fire does not scorch it, and it rises again when it gets the wind; only plugging its nose with sweet flag (石菖蒲) kills it at once. | 一云刀斫不入,火焚不焦,打之如皮囊,雖鐵擊其頭破,得風複起;惟石菖蒲塞其鼻,即死也。 |
+| fengli-c12 | exact | zh.wikisource.org | The text says that according to one account the animal always carries a small staff; whatever it points at cannot escape, and a person who obtains the staff can point at things to get what they wish. | 一云此獸常持一小杖,遇物則指,飛走悉不能去,見人則棄之。人獲得擊打至極,乃指示人。人取以指物,令所欲如意也。 |
+| fengli-c13 | exact | zh.wikisource.org | The text records the fengli’s brain soaked in wine as a remedy for wind ailments, and its urine as a remedy for various wind ailments and for the great wind disease. | 腦 【主治】 酒浸服,愈風疾(時珍。出《嶺南志》)。和菊花服至十斤,可長生(《十洲記》)。 尿 【主治】 諸風(藏器)。大風疾(《虞衡志》)。 |
+| fengli-c14 | exact | en.wikipedia.org | Wikipedia says the fengli has a number of other aliases, including fengmu (風母, "wind mother"; Japanese fūbo), fengshengshou (風生獸), and pinghou (平猴, "flat monkey"). | The fengli bears a number of other aliases, including fengmu ( 风母; 風母; fēng mǔ; Japanese: fūbo, literally "wind mother"), fengshengshou ( 风生兽; 風生獸; fēng shēng shòu), pinghou ( 平猴; píng hóu, 'flat monkey'), etc. |
+| fengli-c15 | exact | en.wikipedia.org | Wikipedia notes the hypothesis that the lore could be based on real fauna: the fengli may have been the colugo according to one hypothesis, or a palm civet or a slow loris according to others. | The beast lore could have been based on actual fauna; the fengli may in fact have been the colugo according to one hypothesis, or a palm civet or a slow loris according to others. |
 
 
 ## furu-utsubo — lulus-otomatis
@@ -675,10 +681,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## futodama — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -687,14 +690,17 @@ Klaim 5 (loose 1, exact 4), sumber 2, gambar 0.
 | futodama-c03 | exact | en.wikipedia.org | A myth assigns divination to Futodama and Ame-no-Koyane. | Futodama and Ame-no-Koyane were tasked with performing a divination. |
 | futodama-c04 | exact | en.wikipedia.org | The story gives him a rope used to keep Amaterasu from returning to the cave. | After Amaterasu left the cave, Futodama used a shimenawa to prevent her from going back to the cave again. |
 | futodama-c05 | exact | www.kokugakuin.ac.jp | The ritual uses a deer’s shoulder blade in a divination involving Futodama. | They summoned Amenokoya no mikoto 天児屋命 (7) and Futodama no mikoto 布刀玉命 (8) and had them extract the shoulder blade of a stag from the Amenokaguyama 天香山 mountain, take [bark from] a hahaka cherry tree (9) from Amenokaguyama, and perform a divination (10). |
+| futodama-c06 | exact | d-museum.kokugakuin.ac.jp | When Amaterasu hid in the rock cave of heaven, Futodama and Amenokoyane performed divination by erecting "five-hundred true sakaki trees", many-branched sakaki decorated with jewels, mirrors, and "blue and white" cloth offerings (nigite). | At the time of Amaterasu's hiding away in the rock cave of heaven, he and Amenokoyane performed divination by erecting "five-hundred true sakaki trees" (many-branched sakaki trees decorated with jewels, mirrors, and "blue and white" cloth offerings [nigite]). |
+| futodama-c07 | exact | d-museum.kokugakuin.ac.jp | He was also sent as one of the five clan heads accompanying Ninigi at the time of his descent as Heavenly Grandchild (tenson kōrin). | He was also sent as one of the five clan heads accompanying Ninigi at the time of his descent as Heavenly Grandchild (tenson kōrin). |
+| futodama-c08 | exact | d-museum.kokugakuin.ac.jp | The Kogo shūi describes Futodama as the principal leader of the series of divine rites performed at the time of the rock cave incident. | Kogo shūi describes Futodama as the principal leader of the series of divine rites performed at the time of the rock cave incident |
+| futodama-c09 | exact | kotobank.jp | The Heibonsha encyclopedia says that, to draw Amaterasu out of the heavenly rock cave, he performed the rite holding magatama, a mirror, and nigite offerings, and that it succeeded. | 天の岩屋戸に隠れた天照大神(あまてらすおおかみ)を招き出すために,勾玉(まがたま),鏡,和幣(にきて)などを取り持って祭りを行って成功したという。 |
+| futodama-c10 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, the Kogo shūi records Futodama as the child of Takuhatachijihime and grandchild of Takamimusuhi no kami. | Kogo shūi records Futodama as the child of Takuhatachijihime, and grandchild of Takamimusuhi no kami. |
+| futodama-c11 | exact | en.wikipedia.org | According to Wikipedia, the Kogo Shūi records Futodama as the son of Takamimusubi and brother of Takuhadachiji-hime and Ame-no-Oshihi-no-Mikoto. | In the Kogo Shūi, Futodama is recorded as the son of Takamimusubi, and brother of Takuhadachiji-hime and Ame-no-Oshihi-no-Mikoto. |
 
 
 ## haniyasuhiko-and-haniyasuhime — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -703,6 +709,10 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | haniyasuhiko-and-haniyasuhime-c03 | exact | en.wikipedia.org | Tradition describes them as both siblings and spouses. | The pair are considered husband and wife as well as siblings. |
 | haniyasuhiko-and-haniyasuhime-c04 | exact | en.wikipedia.org | One interpretation links the name with softening or kneading earth. | The name Haniyasu is thought to mean “to knead earth so as to make it soft” or “clay easy”. |
 | haniyasuhiko-and-haniyasuhime-c05 | exact | kojiki.kokugakuin.ac.jp | The Kojiki birth account links both deities to Izanami’s excrement. | Then, from her excrement a deity named Haniyasubiko no kami 波 迩 夜 湏 毗 古 神 came into existence. Next [appeared] Haniyasubime no kami 波迩夜湏毗売神 (4). |
+| haniyasuhiko-and-haniyasuhime-c06 | exact | d-museum.kokugakuin.ac.jp | Haniyasu no kami is a tutelary kami of earth; according to an "alternate writing" in the Nihongi, the kami was produced by Izanagi and Izanami after they finished giving birth to the "Great Eight-Island Country" (Ōyashimaguni). | A tutelary kami of earth. According to an "alternate writing" recorded in Nihongi, Haniyasu no kami was produced by Izanagi and Izanami after they had completed giving birth to the "Great Eight-Island Country" (Ōyashimaguni). |
+| haniyasuhiko-and-haniyasuhime-c07 | exact | d-museum.kokugakuin.ac.jp | Haniyasu no kami is worshiped even today alongside other deities, frequently on the occasion of groundbreaking rituals (jichinsai). | Haniyasu no kami is worshiped even today alongside other deities, frequently on the occasion of groundbreaking rituals (jichinsai). |
+| haniyasuhiko-and-haniyasuhime-c08 | exact | d-museum.kokugakuin.ac.jp | Kami with similar names include Haniyamahiko and Haniyamabime, two kami thought to have the same divine virtues and powers (shintoku), collectively known by the name Haniyasu no kami. | Kami with similar names include Haniyamahiko and Haniyamabime, two kami thought to have the same divine virtues and powers (shintoku), and which are collectively known by the name Haniyasu no kami. |
+| haniyasuhiko-and-haniyasuhime-c09 | exact | kotobank.jp | A Japanese dictionary describes Haniyasu no kami as a kami found in the Nihon Shoki, a child of Izanagi, and a god of earth. | 「日本書紀」に見える神。伊奘諾尊(いざなきのみこと)の子。土の神。 |
 
 
 ## hashihime — lulus-otomatis
@@ -725,10 +735,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hasshaku-sama — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -736,6 +743,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hasshaku-sama-c02 | exact | en.wikipedia.org | An early online story was posted to 2channel in August 2008. | Hasshaku-sama's origins are unknown, but the earliest known of her appearance comes from an anonymous ghost story that was posted on 26 August 2008, from "洒落にならないほど恐い話を集めてみない？196 (Want to Gather Scary Stories Too Terrifying to Laugh At? 196)," a Japanese textboard channel called 2channel. |
 | hasshaku-sama-c03 | exact | en.wikipedia.org | The figure is portrayed as tall and pale, wearing a one-piece dress. | Hasshaku-sama is depicted particularly as an 8 foot tall modern yōkai, a gigantic woman with pale skin and a one-piece dress. |
 | hasshaku-sama-c04 | exact | en.wikipedia.org | Stories give her a hat and a repeated po po po sound. | She is said to always appears as a woman with a hat, and she makes an odd "po po po" sound when she appears. |
+| hasshaku-sama-c05 | exact | ja.wikipedia.org | According to Japanese Wikipedia, she laughs with an odd, human-yet-mechanical woman’s voice saying "po po po" and attacks people; she kills her target within days and tends to target the young, especially children. | 「ぽぽぽ」という、人間のような機械のような奇妙な女の声で笑い、人間を襲う。狙った人間を数日以内に取り殺すが、成人前の若者、特に子供を狙う傾向がある。 |
+| hasshaku-sama-c06 | exact | ja.wikipedia.org | Japanese Wikipedia says she can freely change her voice, lures a target by imitating the voice of an acquaintance, and sometimes makes noises by knocking on doors and windows. | 声色を自由に変える能力を持ち、狙った人間の知人の声を出しておびき寄せたり、ドアや窓を叩いて音を鳴らすことがある。 |
+| hasshaku-sama-c07 | exact | ja.wikipedia.org | Japanese Wikipedia records the handed-down countermeasures: carrying a talisman, shutting oneself in a room with salt in its four corners until seven in the morning while praying, and, if met, neither speaking to her nor pointing at her. | 護符を肌身離さず持ち、四隅に塩を盛った部屋に朝の7時まで閉じこもり、神仏に祈るという対策が言い伝えられている。また、出会ってしまった時は話しかけず、指を指したりしてはいけない。 |
+| hasshaku-sama-c08 | exact | ja.wikipedia.org | Japanese Wikipedia says a Jizo statue once sealed Hasshaku-sama in a particular area, but it has now been destroyed so she can appear anywhere. | かつては地蔵が八尺様を特定の地域に封印していたが、現在は何者かに、その地蔵が壊されており、八尺様は自由にどこにでも出没できる状態となっている。 |
+| hasshaku-sama-c09 | exact | ja.wikipedia.org | Japanese Wikipedia notes she is sometimes said to be a "giant-woman yokai" handed down in the San'in region. | 助かった者は誰一人いないとされる。 山陰地方に伝わる「大女の妖怪」であるとされることがある。 |
+| hasshaku-sama-c10 | exact | automaton-media.com | Automaton West reports that indie developer Neruneko launched the Steam page for the comedy horror game Hyakushaku-sama, which riffs off the Japanese urban legend of Hachishaku-sama (roughly "Ms. Eight Feet Tall"). | Neruneko has launched the Steam page for their upcoming comedy horror point-and-click 3D adventure title Hyakushaku-sama. Riffing off the Japanese urban legend of the Hachishaku-sama (roughly translated to "Ms. Eight Feet Tall"), the game |
+| hasshaku-sama-c11 | exact | ja.wikipedia.org | Japanese Wikipedia says that, as her name suggests, she appears as a tall woman of eight shaku (about 240 cm) of indeterminate age: young, middle-aged, or old. | 名前の通り、8尺(約240cm)ある高身長の女性の姿をしており、若い女性、中年女性、老婆など、年齢不特定である。 |
 
 
 ## himegami — lulus-otomatis
@@ -754,10 +768,7 @@ Klaim 6 (loose 4, exact 2), sumber 2, gambar 0.
 
 ## hyosube — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -765,14 +776,21 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | hyosube-c02 | exact | en.wikipedia.org | Its legends are reported in Saga and Miyazaki, among other areas. | There are legends about them in many areas such as Saga Prefecture and Miyazaki Prefecture. |
 | hyosube-c03 | exact | en.wikipedia.org | One description places this child-sized river being in underwater caves. | It is a child-sized river monster from Kyūshū that lives in underwater caves. |
 | hyosube-c04 | exact | en.wikipedia.org | Stories associate it with nighttime activity and eating eggplant. | It prefers to come out at night and loves to eat eggplants. |
+| hyosube-c05 | exact | yokai.com | Yokai.com calls hyōsube cousins of the kappa and garappa that are more savage and belligerent. | Cousins of kappa and garappa, they are more savage and belligerent. |
+| hyosube-c06 | exact | yokai.com | According to Yokai.com, simply looking at a hyōsube can cause a terrible and contagious fever that can spread and turn into an epidemic. | Simply looking at a hyōsube can cause a terrible and contagious fever, which can spread and turn into an epidemic. |
+| hyosube-c07 | exact | yokai.com | According to Yokai.com, hyōsube cackle with an evil laughter; a person who hears it and laughs too will be struck with fever and die within hours. | Hyōsube cackle with an evil laughter which is also contagious; an unlucky person who hears a hyōsube laugh, and who laughs himself, will be struck with fever and die within hours. |
+| hyosube-c08 | exact | yokai.com | According to Yokai.com, a hyōsube’s thick hair builds up dirt and grime, and they love nothing more than to sneak into houses at night and slip into the bathtub. | A hyōsube's thick hair builds up with dirt and grime; they love nothing more than to sneak into houses at night and slip into the bathtub. |
+| hyosube-c09 | exact | yokai.com | Farmers living in areas inhabited by hyōsube often leave offerings of the first eggplants of the harvest in the hope that the hyōsube will spare their fields for the rest of the year. | Farmers living in areas inhabited by hyōsube often leave offerings of the first eggplants of the harvest in hopes that the hyōsube will spare their fields for the remainder of the year. |
+| hyosube-c10 | exact | yokai.com | According to Yokai.com, hyōsube are occasionally honored at local Shinto shrines, usually worshiped as gods of war for some military service performed for villagers in the past. | Hyōsube are occasionally honored at local Shinto shrines, usually worshiped as gods of war for some military service performed for villagers in the past. |
+| hyosube-c11 | exact | yokai.com | Yokai.com says the name is said to come from the "hyo hyo" call they make, though written in kanji the characters have a martial connotation. | Their name is said to come from the "hyo hyo" call that they make. However, written in kanji, the characters have a martial connotation. |
+| hyosube-c12 | exact | kotobank.jp | A Japanese dictionary describes it as a yokai said to appear along mountain streams around the spring and autumn higan seasons, with lore centered on Kyushu, mainly Saga and Miyazaki, and also called Hyōsue, Hyōsubo, or Hyōsunbo. | 日本の妖怪。山間部の渓流沿いに春秋の彼岸の時期に現れるとされる。佐賀県、宮崎県を中心とする九州地方に伝承があり、「ヒョウスエ」「ヒョウスボ」「ヒョウスンボ」などとも呼ばれる。 |
+| hyosube-c13 | exact | ja.wikipedia.org | Japanese Wikipedia says one yokai illustrated guide writes that a hyōsube laughs and anyone who laughs along develops a fever and dies, but this is pointed out as probably an invention. | 佐藤有文『いちばんくわしい日本妖怪図鑑』には「ひょうすべが人に出遭うとヒッヒッヒッと笑い、もらい笑いした人は熱を出して死ぬ」とあるが、これは創作であろうと指摘されている。 |
+| hyosube-c14 | exact | yokai.com | Yokai.com lists the alternate names hyōsue, hyōsubo, hyōsunbo, and hyōsunbe, with a habitat of rivers and streams, found primarily on Kyushu and in West Japan. | Alternate names: hyōsue, hyōsubo, hyōsunbo, hyōsunbe Habitat: rivers and streams; found primarily on Kyūshū and in West Japan |
 
 
 ## ishikoridome — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -781,6 +799,11 @@ Klaim 5 (loose 1, exact 4), sumber 2, gambar 0.
 | ishikoridome-c03 | exact | en.wikipedia.org | A myth gives the deity a mirror used to draw Amaterasu from her cave. | In Japanese mythology, she created the exquisite Yata-no-kagami mirror which lures the sun goddess Amaterasu out of her cave and returns light to the world. |
 | ishikoridome-c04 | exact | en.wikipedia.org | The deity is worshiped by mirror makers and stonecutters. | Due to this achievement, Ishikori-dome is worshipped by makers of mirrors and stonecutters. |
 | ishikoridome-c05 | exact | www.kokugakuin.ac.jp | The Kojiki ritual assigns the making of a mirror to Ishikoridome. | They had the deity Ishikoridome no mikoto 伊斯許 理度売命 (5) see to the fashioning of a mirror. |
+| ishikoridome-c06 | exact | d-museum.kokugakuin.ac.jp | When Amaterasu hid in the rock cave of heaven, Omoikane no mikoto had bellows made from a deer’s hide and ordered Ishikoridome to forge a mirror from metal of the mountain Amanokaguyama. | At the time of Amaterasu's hiding away in the rock cave of heaven, the deity Omoikane no mikoto had bellows made from a deer's hide, and ordered Ishikoridome to forge a mirror from metal of the mountain Amanokaguyama. |
+| ishikoridome-c07 | exact | d-museum.kokugakuin.ac.jp | The Kogo shūi states that the first mirror forged was unsatisfactory and was enshrined at the Hinokuma Jingū in Kii Province, while the second was perfect and was enshrined at the Grand Shrines of Ise (Ise Jingū). | Kogo shūi states that the first mirror forged at this time was unsatisfactory, and was enshrined at the Hinokuma Jingū in Kii Province. The second mirror forged was perfect and subsequently enshrined at the Grand Shrines of Ise (Ise Jingū). |
+| ishikoridome-c08 | exact | d-museum.kokugakuin.ac.jp | Ishikoridome is also identified as one of the "chiefs of the five clans" who accompanied Ninigi at the Descent of the Heavenly Grandchild (tenson kōrin) and was placed in charge of forging ritual mirrors. | Also identified as one of the "chiefs of the five clans" who accompanied Ninigi at the time of the Descent of the Heavenly Grandchild (tenson kōrin), he was placed in charge of forging ritual mirrors. |
+| ishikoridome-c09 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, Ishikoridome is the offspring of Amanonukato no mikoto and is claimed as ancestral deity of the Kagami-zukuri, or "mirror-maker" clan. | Offspring of Amanonukato no mikoto, and claimed as ancestral deity of the Kagami-zukuri, or "mirror-maker" clan. |
+| ishikoridome-c10 | exact | kotobank.jp | The Heibonsha encyclopedia says Ishikoridome made the Yata mirror to draw Amaterasu out of the rock cave and descended with the heavenly grandchild; the Nihon Shoki is also said to record that this deity made spears and bellows. | 天照大神(あまてらすおおかみ)を岩屋戸から引き出すために八咫鏡(やたのかがみ)を作り,また天孫に随行して天下った。《日本書紀》には矛(ほこ)やふいごを作ったともある。 |
 
 
 ## kasuga-gongen — lulus-otomatis
@@ -799,10 +822,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## kikurihime — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -810,6 +830,14 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | kikurihime-c02 | exact | en.wikipedia.org | The Nihon Shoki mentions her, while the Kojiki does not. | She is mentioned in the Nihongi (Nihon Shoki), but not in the Kojiki. |
 | kikurihime-c03 | exact | en.wikipedia.org | One myth gives her a mediating role between Izanagi and Izanami. | She mediated between Izanagi and Izanami after the former escaped from the land of the dead, Yomi no Kuni. |
 | kikurihime-c04 | exact | en.wikipedia.org | She is also venerated at other Japanese shrines. | She is also venerated at Yasukuni Shrine in Tokyo and at Yōrō Shrine in Gifu Prefecture. |
+| kikurihime-c05 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, at that time the kami Kukurihime is said to have mediated on behalf of Izanami, although the specific contents of her speech are not recorded. | At that time, the kami Kukurihime is said to have mediated on behalf of Izanami, although the specific contents of her speech are not recorded. |
+| kikurihime-c06 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto describes Kukurihime as a kami of mediation and negotiation. | Kukurihime no kami] (Nihongi) A kami of mediation and negotiation. |
+| kikurihime-c07 | exact | d-museum.kokugakuin.ac.jp | This account is found in an "alternate writing" of the Nihongi and also in the Sendai kuji hongi, but it is omitted in the Kojiki. | While this account can be found in an "alternate writing" of Nihongi and also in Sendai kuji hongi, it is omitted in Kojiki. |
+| kikurihime-c08 | exact | d-museum.kokugakuin.ac.jp | From the medieval period on, the kami came to be the central object of worship of the Shirayama Myōri Gongen shrine in Kaga Province and was generally identified with that shrine’s deity, Shirayamahime no kami. | From the medieval period on, the kami came to be the central object of worship (saijin) of the Shirayama Myōri Gongen shrine in Kaga Province, and was generally identified with the deity of that shrine, Shirayamahime no kami. |
+| kikurihime-c09 | exact | ja.wikipedia.org | Japanese Wikipedia says "Kukuri" in the goddess’s name is thought to mean "to bind", from her mediating between Izanagi and Izanami. | 神名の「ククリ」は「括り」の意で、伊奘諾尊と伊弉冉尊の仲を取り持ったことからの神名と考えられる。 |
+| kikurihime-c10 | exact | ja.wikipedia.org | Japanese Wikipedia notes there are also views that she is Izanami’s aramitama or nigimitama, or another name for Izanami. | 伊弉冉尊の荒魂(あらみたま)もしくは和魂(にぎみたま)、あるいは伊弉冉尊(イザナミ)の別名という説もある。 |
+| kikurihime-c11 | exact | ja.wikipedia.org | Japanese Wikipedia says that from this tale she is regarded as having reconciled Izanagi and Izanami, and is therefore treated as a kami of matchmaking. | この説話から、菊理媛神は伊奘諾尊と伊弉冉尊を仲直りさせたとして、縁結びの神とされている。 |
+| kikurihime-c12 | exact | d-museum.kokugakuin.ac.jp | According to an account transmitted by the Nihongi, after the death of his wife Izanami, Izanagi went to the underworld (Yomi) to retrieve her; having broken the taboo against viewing his dead wife, he was chased back to the visible world and at the "Even Pass of the Underworld" (Yomotsuhirasaka) debated with the dead woman. | According to an account transmitted by Nihongi, following the death of his wife Izanami, Izanagi went to the underworld (Yomi) to retrieve her; breaking the taboo (kinki) against viewing his dead wife, Izanagi was chased back to the visible world, and at the "Even Pass of the Underworld" (Yomotsuhirasaka), engaged in a debate with the dead woman. |
 
 
 ## kosode-no-te — lulus-otomatis
