@@ -1,4 +1,4 @@
-# Tugas Claude Cloud Code: validasi 55 entri dan perkaya 1.968 entri Mythics
+# Tugas Claude Cloud Code: riset batch-154 dan perkaya entri Mythics yang tidak lengkap
 
 Kamu agen utama. Kamu bekerja di repositori ini lewat Claude Code di cloud, jadi satu-satunya jalan agar pekerjaanmu tidak hilang adalah **commit dan push ke GitHub**. Penelitiannya dikerjakan oleh beberapa subagent sekaligus. Tugasmu membagi pekerjaan, memeriksa hasilnya, dan menyimpannya.
 
@@ -25,6 +25,8 @@ Baca sendiri, sekali saja: `.claude/agents/peneliti-mythics.md` (aturan untuk su
 - Cara menentukan `<n>`: ambil angka `-fix-N` terbesar yang sudah ada untuk batch itu di `data/gemini/inbox/`, lalu tambah 1. Kalau belum ada, `n = 1`.
 
 ## Tahap 1: validasi batch 140 dan 141 (55 entri lengkap-tidak-valid)
+
+**Sudah selesai pada 6 Oktober** oleh sesi cloud pertama: kedua batch sudah diterima, dan hasilnya sudah ada di `main`. **Lewati tahap ini** dan mulai dari Tahap 1b. Langkah di bawah hanya disimpan sebagai catatan.
 
 Kedua batch ini sudah diriset ulang dan memenuhi target, tetapi belum pernah diterima. Saat dicek pada 6 Oktober, tiga entri batch-140 gagal karena artikel Wikipedia-nya sudah berubah: mokele-mbembe, oshunmare, dan mbielu-mbielu-mbielu.
 
@@ -57,7 +59,7 @@ Sejak 6 Oktober, makhluk dari karya sastra boleh masuk (§12). Batch-154 berisi 
 2. Setelah semua selesai, jalankan `node scripts/gemini/verify.mjs batch-154` lalu `npm run -s gemini:done -- batch-154 --agent claude-cloud --catatan "makhluk dari karya sastra"`.
 3. Commit dan push: `data/gemini/inbox/batch-154-*`, `data/gemini/reviews/batch-154.*`, dan `data/gemini/progress/batch-154.json`.
 
-## Tahap 2: perkaya entri tidak lengkap (1.968 entri)
+## Tahap 2: perkaya entri tidak lengkap (1.793 entri per 6 Oktober sore)
 
 ```bash
 npm run -s gemini:enrich-queue
