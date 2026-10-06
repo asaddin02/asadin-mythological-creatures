@@ -49,13 +49,21 @@ Kedua batch ini sudah diriset ulang dan memenuhi target, tetapi belum pernah dit
    ```
    Kalau batch itu tidak punya berkas fix baru, hapus pola `-fix-*` dari `git add` supaya perintahnya tidak gagal.
 
+## Tahap 1b: riset baru batch-154 (14 makhluk dari karya sastra)
+
+Sejak 6 Oktober, makhluk dari karya sastra boleh masuk (§12). Batch-154 berisi Sun Wukong, Zhu Bajie, Sha Wujing, White Dragon Horse, Bull Demon King, Red Boy, Princess Iron Fan, Baigujing, Six-Eared Macaque, Erlang Shen, Nezha, Count Dracula, Cthulhu, dan Frankenstein's monster.
+
+1. Bagi ke subagent dengan tugas `baru`, paling banyak 5 makhluk per subagent. Setiap subagent memakai nomor fix yang berbeda (1, 2, 3).
+2. Setelah semua selesai, jalankan `node scripts/gemini/verify.mjs batch-154` lalu `npm run -s gemini:done -- batch-154 --agent claude-cloud --catatan "makhluk dari karya sastra"`.
+3. Commit dan push: `data/gemini/inbox/batch-154-*`, `data/gemini/reviews/batch-154.*`, dan `data/gemini/progress/batch-154.json`.
+
 ## Tahap 2: perkaya entri tidak lengkap (1.968 entri)
 
 ```bash
 npm run -s gemini:enrich-queue
 ```
 
-Perintah ini menulis `data/gemini/enrich-queue.json`, berisi batch berurutan dengan entri yang gambarnya ditahan di depan. Ambil batch dari atas. Bagi entri setiap batch menjadi potongan paling banyak 10. Batch dengan 45 entri dikerjakan oleh satu subagent dalam beberapa tugas berurutan (fix-n, fix-n+1, …), bukan oleh beberapa subagent sekaligus.
+Perintah ini menulis `data/gemini/enrich-queue.json`, berisi batch berurutan **dari nama terbesar** (edisi Wikipedia terbanyak: Shiva, Zeus, Athena, Odin, Ra, Anubis, …). Untuk nama besar, utamakan klaim tentang **kekuatan, ranah, dan perbuatannya**, karena penilaian kekuatan dan gambar mereka hanya boleh berdasar klaim. Ambil batch dari atas. Bagi entri setiap batch menjadi potongan paling banyak 10. Batch dengan 45 entri dikerjakan oleh satu subagent dalam beberapa tugas berurutan (fix-n, fix-n+1, …), bukan oleh beberapa subagent sekaligus.
 
 Setiap kali sebuah subagent selesai:
 

@@ -3,7 +3,9 @@
  * Worklist for the next editorial illustration batch: every "lengkap-informasi" creature (complete, valid
  * research without an approved image), with its accepted research embedded unchanged.
  *
- *   node scripts/prepare-artwork-batch.mjs --tool "Gemini image generation (Antigravity)" --worker gemini [--limit 100]
+ *   node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex [--limit 100] [--slugs a,b,c] [--policy nama-besar]
+ *     --slugs        only these creatures (they must still be lengkap-informasi)
+ *     --policy nama-besar  the dramatic style for big names (data/artwork-nama-besar.json → policy)
  *
  * Writes data/artwork-batch-<N>.json, where N = active illustrations + selected items (like 797 and 1000).
  * Creatures that an earlier batch left out (no documented bodily form) stay in the list with that reason
@@ -16,7 +18,8 @@ import { computeFillStatus } from './gemini/fill-lib.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, ROOT), 'utf8'));
-const { values: args } = parseArgs({ options: { tool: { type: 'string' }, worker: { type: 'string' }, limit: { type: 'string' } } });
+const { values: args } = parseArgs({ options: { tool: { type: 'string' }, worker: { type: 'string' }, limit: { type: 'string' }, slugs: { type: 'string' }, policy: { type: 'string' } } });
+const only = args.slugs ? new Set(args.slugs.split(',').map(s => s.trim()).filter(Boolean)) : null;
 if (!args.tool?.trim() || !/^[a-z0-9-]+$/.test(args.worker || '')) {
   console.error('Pemakaian: node scripts/prepare-artwork-batch.mjs --tool "<nama alat>" --worker <nama> [--limit N]');
   process.exit(1);
@@ -37,7 +40,7 @@ const statement = claim => (typeof claim.statement === 'string' ? claim.statemen
 const appearance = /\b(?:appears? as|appearances?|form of|pictured|portrayed|depicted|described as|body|heads?|hair|eyes?|skin|beards?|wings?|horns?|claws?|feet|foot|tail|serpent|dragon|giant|dwarf|elk|wolf|horse|fish|frog|owl|insect|coat|cloak|shawl|robe|cap|hats?|tunics?|dress|trousers|goat|spider|cobra|eagle|bird|light|fireball|dog|cat|beast)\b/i;
 
 const eligible = Object.entries(status)
-  .filter(([slug, v]) => v.status === 'lengkap-informasi' && !manifest.artworks[slug] && !exclusions[slug])
+  .filter(([slug, v]) => v.status === 'lengkap-informasi' && !manifest.artworks[slug] && !exclusions[slug] && (!only || only.has(slug)))
   .map(([slug]) => slug);
 const missing = eligible.filter(slug => !entries.has(slug));
 let selected = eligible.filter(slug => entries.has(slug)).map(slug => {
@@ -85,7 +88,7 @@ const batch = {
     'The accepted research entry is embedded unchanged; the image may only depict what its claims document.',
     'Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar.',
   ],
-  user_policy: {
+  user_policy: args.policy === 'nama-besar' ? (await read('data/artwork-nama-besar.json')).policy : {
     instruction_date: '2026-10-06',
     only_complete_information: true,
     fidelity: 'Do not invent. Every bodily feature, attribute and the scene must follow the documented claims of this research entry.',

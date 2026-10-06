@@ -10,6 +10,7 @@ Kamu peneliti Mythics, ensiklopedia makhluk mitologi dwibahasa (Indonesia dan In
 
 - **perkaya**: entrinya sudah valid tetapi di bawah target tier (`kurang` menyebut kekurangannya). Tambahkan klaim dan sumber sampai target terpenuhi.
 - **validasi**: entrinya sudah memenuhi target tetapi belum lolos atau belum diterima. Perbaiki kesalahan yang dilaporkan verifier sampai lulus.
+- **baru**: makhluknya belum punya entri (`task: new`). Baca `docs/gemini/batches/<batch>.md` untuk identitas dan catatannya, lalu tulis entri lengkap sesuai format §7 dan aturan §12 sampai memenuhi target tier. Untuk makhluk dari karya sastra (§12), sumber utamanya adalah teks karya itu sendiri. Tulis ke `data/gemini/inbox/<batch>-fix-<n>.md` seperti tugas lain, dan periksa dengan verifier **tanpa** `--changed`.
 
 ## Wajib dibaca sekali, sebelum mulai
 

@@ -28,6 +28,14 @@ Claude memeriksa ke-14 gambar itu terhadap klaim risetnya. **Lima lolos dan suda
 
 Sisa entri lengkap tanpa gambar belum dibagikan. Untuk batch berikutnya, jalankan `node scripts/prepare-artwork-batch.mjs --tool "<alat>" --worker <nama>`: skrip itu membuat daftar kerja dari status terbaru, dengan alat dan pekerja apa pun.
 
+## Tambahan 6 Oktober sore: tokoh sastra, nama besar, dan kekuatan
+
+Keputusan pemilik proyek:
+- **Makhluk dari karya sastra boleh masuk**, klasik maupun modern. Film, anime, komik, dan game tetap tidak. Manusia tetap dilewati, jadi Tang Sanzang dan Rulai (Buddha) tidak dibuat entri. Aturannya ada di §12 `00-instruksi-utama.md`. Batch-154 berisi 14 makhluk: Sun Wukong, Zhu Bajie, Sha Wujing, White Dragon Horse, Bull Demon King, Red Boy, Princess Iron Fan, Baigujing, Six-Eared Macaque, Erlang Shen, Nezha, Count Dracula, Cthulhu, dan Frankenstein's monster. Risetnya dikerjakan sesi Claude Cloud pengayaan (Tahap 1b).
+- **Antrean pengayaan mendahulukan nama besar**, yaitu makhluk dengan edisi Wikipedia terbanyak (Shiva, Zeus, Athena, Odin, Ra, Anubis, …). Hampir semua nama besar masih tidak lengkap.
+- **Nama besar mendapat gambar yang sangar, dengan efek kekuatan yang terdokumentasi.** Daftar dan aturan gayanya ada di `data/artwork-nama-besar.json` (`node scripts/nama-besar.mjs`). Dikerjakan **Codex** dengan [`docs/PROMPT-CODEX-NAMA-BESAR.md`](PROMPT-CODEX-NAMA-BESAR.md): 143 siap digambar (56 mengganti gambar lama, termasuk Lucifer, Ra, dan Medusa), dan 235 menunggu risetnya lengkap.
+- **Penilaian Power, Threat, dan Fear** untuk sekitar 890 makhluk yang sudah tampil dikerjakan **sesi Claude Cloud kedua** dengan [`docs/gemini/PROMPT-CLOUD-KEKUATAN.md`](gemini/PROMPT-CLOUD-KEKUATAN.md), memakai subagent `penilai-kekuatan-mythics`. Setiap level wajib merujuk klaim riset. Data ditulis ke `data/power/<batch>.json`, lalu `node scripts/build-power.mjs` membuat `js/power-assessments.js` untuk situs. Makhluk yang risetnya belum membahas kekuatan ditandai `perlu_riset`, dan diperkaya setelah sesi pengayaan selesai. Contohnya Lucifer: risetnya hanya membahas nama dan bintang fajar.
+
 ## Claude Code lokal: pemeriksa akhir
 
 Claude Code lokal bekerja setelah Claude Cloud Code melapor selesai.
@@ -36,6 +44,14 @@ Claude Code lokal bekerja setelah Claude Cloud Code melapor selesai.
 1. `git pull`, lalu `node scripts/gemini/fill-status.mjs` dan `npm run gemini:enrich-queue`.
 2. Baca sampel klaim baru per batch: `statement` harus sesuai `quote`, dan prosa tidak boleh melebihi klaim. Kalau ada yang salah, tulis berkas fix atau kembalikan entrinya ke versi sebelumnya.
 3. Commit `data/gemini/fill-status.json` dan push. Deploy berjalan otomatis setelah CI lulus.
+
+**Hasil sesi kekuatan**
+1. Gabungkan branch-nya, lalu jalankan `node scripts/build-power.mjs`. Jalankan juga `npm test`, yang ikut memeriksa bahwa `js/power-assessments.js` mutakhir.
+2. Cek sampel level tinggi terhadap klaimnya, lalu commit `data/power/` dan `js/power-assessments.js`.
+
+**Hasil Codex**
+1. Lihat setiap gambar, cocokkan wujud dan efeknya dengan klaim, lalu tulis `root_visual_review` dengan reviewer `claude`.
+2. Gambar baru: `prepare-reviewed-artwork-records`, `integrate-artwork-batch <N>`, lalu audit. Gambar pengganti: alat revisi umum yang dibuat Codex.
 
 ## Yang masih terbuka
 

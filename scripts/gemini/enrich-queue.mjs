@@ -7,8 +7,9 @@
  *     those are new research, worked on elsewhere;
  *   - entries already recorded as "mentok" in data/gemini/enrich/<batch>.json (no more sources found).
  *
- * Order: batches with held images first (an entry that reaches its target gets its image back), then the
- * batches with the most entries to enrich. Within a batch, held-image entries first.
+ * Order (since 6 October 2026, owner's request): big names first. Batches are ordered by the most Wikipedia
+ * language editions (sitelinks in data/gemini/worklist.json) among their entries, then by held images (an entry
+ * that reaches its target gets its image back). Within a batch: most sitelinks first.
  *
  * Writes data/gemini/enrich-queue.json and prints a summary.
  *   node scripts/gemini/enrich-queue.mjs [--top 10]
@@ -26,6 +27,7 @@ const { values: args } = parseArgs({ options: { top: { type: 'string', default: 
 const read = async (path, fallback) => JSON.parse(await readFile(new URL(path, ROOT), 'utf8').catch(e => { if (fallback !== undefined) return JSON.stringify(fallback); throw e; }));
 
 const creatures = await read('data/creatures.json');
+const sitelinks = new Map((await read('data/gemini/worklist.json')).items.map(i => [i.slug, i.sitelinks || 0]));
 const { status } = await computeFillStatus(creatures);
 const progress = await readProgress();
 const logs = {};
@@ -54,16 +56,16 @@ for (const [batch, items] of byBatch) {
   const planned = new Map((await read(`data/gemini/batches/${batch}.json`)).entries.map(e => [e.slug, e]));
   const entries = todo
     .filter(i => log[i.slug]?.hasil !== 'mentok')
-    .map(i => ({ slug: i.slug, nama: planned.get(i.slug)?.canonical_name, tier: planned.get(i.slug)?.tier, berkas: reviewed.get(i.slug)?.file, kurang: i.kurang, ...(i.gambar_ditahan ? { gambar_ditahan: true } : {}) }))
-    .sort((a, b) => Number(!!b.gambar_ditahan) - Number(!!a.gambar_ditahan) || a.slug.localeCompare(b.slug));
+    .map(i => ({ slug: i.slug, nama: planned.get(i.slug)?.canonical_name, tier: planned.get(i.slug)?.tier, sitelinks: sitelinks.get(i.slug) || 0, berkas: reviewed.get(i.slug)?.file, kurang: i.kurang, ...(i.gambar_ditahan ? { gambar_ditahan: true } : {}) }))
+    .sort((a, b) => b.sitelinks - a.sitelinks || Number(!!b.gambar_ditahan) - Number(!!a.gambar_ditahan) || a.slug.localeCompare(b.slug));
   if (!entries.length) continue;
-  batches.push({ batch, jumlah: entries.length, gambar_ditahan: entries.filter(e => e.gambar_ditahan).length, mentok: todo.length - entries.length, entri: entries });
+  batches.push({ batch, jumlah: entries.length, sitelinks_tertinggi: entries[0].sitelinks, gambar_ditahan: entries.filter(e => e.gambar_ditahan).length, mentok: todo.length - entries.length, entri: entries });
 }
-batches.sort((a, b) => b.gambar_ditahan - a.gambar_ditahan || b.jumlah - a.jumlah || a.batch.localeCompare(b.batch));
+batches.sort((a, b) => b.sitelinks_tertinggi - a.sitelinks_tertinggi || b.gambar_ditahan - a.gambar_ditahan || b.jumlah - a.jumlah || a.batch.localeCompare(b.batch));
 
 const total = batches.reduce((n, b) => n + b.jumlah, 0);
 const held = batches.reduce((n, b) => n + b.gambar_ditahan, 0);
 await writeFile(new URL('data/gemini/enrich-queue.json', ROOT), JSON.stringify({ computed_at: new Date().toISOString(), entri: total, gambar_ditahan: held, batch: batches, dikecualikan: excluded }, null, 2) + '\n');
 console.log(`Antrean pengayaan: ${total} entri di ${batches.length} batch (${held} dengan gambar ditahan). Ditulis ke data/gemini/enrich-queue.json.`);
-for (const b of batches.slice(0, Number(args.top))) console.log(`  ${b.batch}  ${String(b.jumlah).padStart(3)} entri${b.gambar_ditahan ? `, ${b.gambar_ditahan} gambar ditahan` : ''}`);
+for (const b of batches.slice(0, Number(args.top))) console.log(`  ${b.batch}  ${String(b.jumlah).padStart(3)} entri${b.gambar_ditahan ? `, ${b.gambar_ditahan} gambar ditahan` : ''}; terbesar: ${b.entri.slice(0, 3).map(e => `${e.slug} (${e.sitelinks})`).join(', ')}`);
 if (excluded.length) console.log(`Dikecualikan (riset baru, dikerjakan di tempat lain): ${excluded.map(e => e.batch).join(', ')}`);

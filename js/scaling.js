@@ -29,13 +29,15 @@ export const SCALES = {
   ],
 };
 
+import { POWER_ASSESSMENTS } from './power-assessments.js';
+
 // Interpretations of the corresponding archive entry, not canonical cultural rankings.
 // Each axis has its own rationale. Absence of an assessment must never become a low tier.
 const entry = (power, threat, fear, reasonsId, reasonsEn) => ({
   power, threat, fear,
   reasons: Object.fromEntries(['power', 'threat', 'fear'].map((axis, i) => [axis, { id: reasonsId[i], en: reasonsEn[i] }])),
 });
-export const ASSESSMENTS = {
+const EDITORIAL_ASSESSMENTS = {
   garuda: entry('divine', 't4', 'f3',
     ['Sosok dewata dan wahana Wisnu; kuasa ilahinya menjadi dasar Divine.', 'Pertarungan melawan kaum naga ditafsirkan berpotensi berdampak regional, bukan bukti kehancuran dunia.', 'Penerbangan dan kekuatan dewata melampaui hukum alam; peran pelindung tidak berarti predator.'],
     ['A divine being and Vishnu’s mount; divine authority supports this tier.', 'Conflict with the nagas is interpreted as a regional potential, not evidence of world destruction.', 'Divine flight and strength exceed natural law; a protector is not necessarily a predator.']),
@@ -63,6 +65,10 @@ export const ASSESSMENTS = {
   'wewe-gombel': entry('superhuman', 't1', 'f3', ['Sifat arwah dan kemampuan menghilang melampaui manusia.', 'Kisah penculikan anak ditafsirkan sebagai ancaman terhadap individu.', 'Kehadiran arwah gaib menjadi dasar Fear 3; motif pelindung tidak dihapus.'], ['Spirit nature and invisibility exceed human abilities.', 'Child-abduction stories are interpreted as individual threats.', 'A supernatural spirit supports Fear 3 without erasing its protective motives.']),
   banaspati: entry('superhuman', 't1', 'f3', ['Wujud api terbang merupakan kemampuan supernatural.', 'Ringkasan kisah menekankan bahaya membakar korban individu.', 'Api yang bergerak sebagai makhluk merupakan fenomena supernatural.'], ['A flying fire form is a supernatural ability.', 'The story summary emphasizes the danger of burning individual victims.', 'Fire moving as a living being is a supernatural phenomenon.']),
 };
+
+// Assessments from data/power/ (built by scripts/build-power.mjs, each citing research claims) take
+// precedence over the hand-written entries above.
+export const ASSESSMENTS = { ...EDITORIAL_ASSESSMENTS, ...POWER_ASSESSMENTS };
 
 export function getAssessment(creature) {
   return Object.hasOwn(ASSESSMENTS, creature.slug) ? ASSESSMENTS[creature.slug] : { power: null, threat: null, fear: null, reasons: {} };

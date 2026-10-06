@@ -1,5 +1,5 @@
 {
-  "note": "Makhluk mitologi yang terlewat oleh build-worklist.mjs karena kelas Wikidata-nya di luar akar yang dipakai (mis. 'legendary figure'). Hanya makhluk mitologi, cerita rakyat, atau agama tradisional; bukan manusia, rasul, nabi, orang suci, atau tokoh sejarah. Jalankan: node scripts/gemini/add-manual.mjs",
+  "note": "Makhluk yang terlewat oleh build-worklist.mjs. Sejak 6 Oktober 2026 (keputusan pemilik proyek), makhluk dari karya sastra klasik maupun modern boleh masuk; tokoh film, anime, komik, dan game tetap tidak. Bukan manusia, rasul, nabi, orang suci, pendiri agama, atau tokoh sejarah. Jalankan: node scripts/gemini/add-manual.mjs",
   "items": [
     {
       "slug": "ryomen-sukuna",
@@ -8,12 +8,26 @@
       "tier": "core",
       "jenis": "makhluk legenda",
       "description_en": "character described at Nihon Shoki",
-      "classes": ["legendary figure"],
+      "classes": [
+        "legendary figure"
+      ],
       "wiki_links": [
-        { "wiki": "jawiki", "title": "両面宿儺" },
-        { "wiki": "zhwiki", "title": "兩面宿儺" },
-        { "wiki": "rowiki", "title": "Ryōmen Sukuna" },
-        { "wiki": "hywiki", "title": "Ռյոմեն Սուկունա" }
+        {
+          "wiki": "jawiki",
+          "title": "両面宿儺"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "兩面宿儺"
+        },
+        {
+          "wiki": "rowiki",
+          "title": "Ryōmen Sukuna"
+        },
+        {
+          "wiki": "hywiki",
+          "title": "Ռյոմեն Սուկունա"
+        }
       ],
       "hint": "Makhluk dari Nihon Shoki (両面宿儺), bukan tokoh Jujutsu Kaisen. Item Wikidata Q105037685 dan artikel tentang anime/manga Jujutsu Kaisen bukan sumber tradisi; Jujutsu Kaisen hanya boleh masuk ke modern_depictions dengan sumbernya sendiri. Ditambahkan manual 2026-10-03 (kelas Wikidata 'legendary figure' tidak tercakup worklist)."
     },
@@ -24,9 +38,538 @@
       "tier": "core",
       "jenis": "makhluk legenda",
       "description_en": "Finnish legendary creature",
-      "classes": ["legendary figure"],
-      "wiki_links": [{ "wiki": "fiwiki", "title": "Istervo" }],
+      "classes": [
+        "legendary figure"
+      ],
+      "wiki_links": [
+        {
+          "wiki": "fiwiki",
+          "title": "Istervo"
+        }
+      ],
       "hint": "Ditambahkan manual 2026-10-03 (kelas Wikidata 'legendary figure' tidak tercakup worklist)."
+    },
+    {
+      "slug": "sun-wukong",
+      "canonical_name": "Sun Wukong",
+      "qid": "Q11773777",
+      "tier": "rich",
+      "jenis": "makhluk legenda",
+      "description_en": "mythical character from Journey to the West",
+      "classes": [
+        "mythological or legendary monkey",
+        "fictional monkey",
+        "fictional humanoid",
+        "literary character",
+        "film character",
+        "television character"
+      ],
+      "sitelinks": 48,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Sun Wukong"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "孙悟空"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Sun Go Kong"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "孫悟空"
+        },
+        {
+          "wiki": "dewiki",
+          "title": "Sun Wukong"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Sun Wukong"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Raja Kera. Tang Sanzang (manusia) dan Rulai (Buddha) tidak dibuat entri sendiri. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "zhu-bajie",
+      "canonical_name": "Zhu Bajie",
+      "qid": "Q1148977",
+      "tier": "rich",
+      "jenis": "makhluk campuran",
+      "description_en": "character of the novel Journey to the West",
+      "classes": [
+        "fictional humanoid",
+        "literary character",
+        "mythical creature",
+        "television character",
+        "fictional pig",
+        "anthropomorphic pig"
+      ],
+      "sitelinks": 26,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Zhu Bajie"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "猪八戒"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Zhu Bajie"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "猪八戒"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Zhu Bajie"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Di Indonesia dikenal sebagai Cu Pat Kay. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "sha-wujing",
+      "canonical_name": "Sha Wujing",
+      "qid": "Q1197711",
+      "tier": "rich",
+      "jenis": "makhluk air",
+      "description_en": "character of the classic Chinese novel Journey to the West",
+      "classes": [
+        "literary character",
+        "mythical creature",
+        "fictional human",
+        "television character"
+      ],
+      "sitelinks": 19,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Sha Wujing"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "沙僧"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Sha Wujing"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "沙悟浄"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Sha Wujing"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Di Indonesia dikenal sebagai Sha Wu Jing / Wu Ching. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "white-dragon-horse",
+      "canonical_name": "White Dragon Horse",
+      "qid": "Q2913871",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "description_en": "character in the Chinese novel Journey to the West",
+      "classes": [
+        "literary character",
+        "water deity",
+        "Loong",
+        "fictional horse"
+      ],
+      "sitelinks": 7,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "White Dragon Horse"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "白龙马"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "玉龍"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Longwang Sanjun"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Bai Long Ma, pangeran naga yang menjadi kuda Tang Sanzang. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "bull-demon-king",
+      "canonical_name": "Bull Demon King",
+      "qid": "Q834590",
+      "tier": "core",
+      "jenis": "monster",
+      "description_en": "character in the novel Journey to the West",
+      "classes": [
+        "yaoguai",
+        "literary character",
+        "film character",
+        "television character"
+      ],
+      "sitelinks": 10,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Bull Demon King"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "牛魔王"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "牛魔王"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Roi-démon taureau"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Niu Mowang. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "red-boy",
+      "canonical_name": "Red Boy",
+      "qid": "Q3276134",
+      "tier": "core",
+      "jenis": "monster",
+      "description_en": "Journey to the West character",
+      "classes": [
+        "literary character",
+        "fictional human",
+        "yaoguai",
+        "television character"
+      ],
+      "sitelinks": 11,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Red Boy"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "紅孩兒"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "紅孩児"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Garçon rouge"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Hong Hai'er, putra Bull Demon King. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "princess-iron-fan",
+      "canonical_name": "Princess Iron Fan",
+      "qid": "Q3275599",
+      "tier": "core",
+      "jenis": "iblis/setan",
+      "description_en": "character from the Chinese classic novel Journey to the West",
+      "classes": [
+        "literary character",
+        "fictional human",
+        "film character",
+        "television character"
+      ],
+      "sitelinks": 11,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Princess Iron Fan"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "鐵扇公主"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "鉄扇公主"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Princesse à l'éventail de fer"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Tieshan Gongzhu / Luocha Nü; tulis wujudnya sesuai novel (raksasi), bukan sebagai manusia biasa. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "baigujing",
+      "canonical_name": "Baigujing",
+      "qid": "Q2879822",
+      "tier": "core",
+      "jenis": "pengubah wujud",
+      "description_en": "demon from the novel Journey to the West",
+      "classes": [
+        "literary character",
+        "yaoguai",
+        "fictional human",
+        "television character"
+      ],
+      "sitelinks": 10,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Baigujing"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "白骨精"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "白骨夫人"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Baigu Jing"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Siluman Tulang Putih. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "six-eared-macaque",
+      "canonical_name": "Six-Eared Macaque",
+      "qid": "Q28416369",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "description_en": "Journey to the West character",
+      "classes": [
+        "literary character",
+        "fictional monkey",
+        "television character"
+      ],
+      "sitelinks": 2,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Six-Eared Macaque"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "六耳獼猴"
+        }
+      ],
+      "hint": "Tokoh novel klasik Tiongkok Perjalanan ke Barat (Xiyouji, abad ke-16, Wu Cheng'en). Sumber utama: teks novelnya sendiri (terjemahan domain publik di Gutenberg/Wikisource, mis. Timothy Richard 1913 atau Helen Hayes 1930) dan kajian tentang novel itu; tulis apa yang dikatakan novelnya dan sebutkan bahwa ini tokoh sastra. Kembaran palsu Sun Wukong. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "erlang-shen",
+      "canonical_name": "Erlang Shen",
+      "qid": "Q247019",
+      "tier": "rich",
+      "jenis": "dewa",
+      "description_en": "Chinese deity associated with flood control",
+      "classes": [
+        "water deity",
+        "fictional human",
+        "literary character"
+      ],
+      "sitelinks": 13,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Erlang Shen"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "二郎神"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "二郎神"
+        },
+        {
+          "wiki": "dewiki",
+          "title": "Erlang Shen"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Erlang Shen"
+        }
+      ],
+      "hint": "Dewa pengendali banjir dalam agama rakyat Tiongkok, juga tokoh Perjalanan ke Barat dan Fengshen Yanyi. Bedakan tradisi agama rakyat dari penggambaran dalam novel. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "nezha",
+      "canonical_name": "Nezha",
+      "qid": "Q547105",
+      "tier": "rich",
+      "jenis": "dewa",
+      "description_en": "protection deity in Chinese folk religion",
+      "classes": [
+        "Taoist deity",
+        "fictional human",
+        "deity",
+        "television character"
+      ],
+      "sitelinks": 25,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Nezha"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "哪吒"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Nezha"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "哪吒"
+        },
+        {
+          "wiki": "dewiki",
+          "title": "Ne Zha"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Nezha"
+        }
+      ],
+      "hint": "Dewa pelindung dalam agama rakyat Tiongkok, juga tokoh Fengshen Yanyi dan Perjalanan ke Barat. Bedakan tradisi agama rakyat dari penggambaran dalam novel. Film animasi Ne Zha (2019) hanya untuk modern_depictions. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "count-dracula",
+      "canonical_name": "Count Dracula",
+      "qid": "Q3266236",
+      "tier": "rich",
+      "jenis": "monster",
+      "description_en": "title character of Bram Stoker's 1897 gothic horror novel Dracula",
+      "classes": [
+        "vampire in a work of fiction",
+        "literary character",
+        "fictional shapeshifter",
+        "film character",
+        "television character",
+        "animated character",
+        "video game character",
+        "mythical character"
+      ],
+      "sitelinks": 61,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Count Dracula"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "德古拉"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Drakula"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "ドラキュラ伯爵"
+        },
+        {
+          "wiki": "dewiki",
+          "title": "Graf Dracula"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Dracula (personnage)"
+        }
+      ],
+      "hint": "Vampir dari novel Dracula karya Bram Stoker (1897). Sumber utama: teks novel (domain publik, Gutenberg) dan kajian sastra; tulis apa yang dikatakan novelnya. Film dan game hanya untuk modern_depictions. Vlad III (manusia historis) bukan subjek entri ini. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "cthulhu",
+      "canonical_name": "Cthulhu",
+      "qid": "Q12038",
+      "tier": "rich",
+      "jenis": "monster",
+      "description_en": "fictional cosmic entity",
+      "classes": [
+        "Great Old One"
+      ],
+      "sitelinks": 57,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Cthulhu"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "克蘇魯"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Cthulhu"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "クトゥルフ"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Cthulhu"
+        }
+      ],
+      "hint": "Entitas kosmik dari cerpen The Call of Cthulhu karya H. P. Lovecraft (1928). Sumber utama: teks cerpennya (Wikisource/Gutenberg bila tersedia) dan kajian sastra. Game dan film hanya untuk modern_depictions. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
+    },
+    {
+      "slug": "frankensteins-monster",
+      "canonical_name": "Frankenstein's monster",
+      "qid": "Q2021531",
+      "tier": "rich",
+      "jenis": "monster",
+      "description_en": "1818 fictional character by Mary Shelley",
+      "classes": [
+        "fictional humanoid",
+        "fictional organism",
+        "literary character",
+        "undead in a work of fiction",
+        "monster",
+        "film character",
+        "television character"
+      ],
+      "sitelinks": 35,
+      "wiki_links": [
+        {
+          "wiki": "enwiki",
+          "title": "Frankenstein's monster"
+        },
+        {
+          "wiki": "zhwiki",
+          "title": "弗兰肯斯坦的怪物"
+        },
+        {
+          "wiki": "idwiki",
+          "title": "Monster Frankenstein"
+        },
+        {
+          "wiki": "jawiki",
+          "title": "フランケンシュタインの怪物"
+        },
+        {
+          "wiki": "dewiki",
+          "title": "Frankensteins Monster"
+        },
+        {
+          "wiki": "frwiki",
+          "title": "Monstre de Frankenstein"
+        }
+      ],
+      "hint": "Makhluk ciptaan dari novel Frankenstein karya Mary Shelley (1818). Sumber utama: teks novel (domain publik, Gutenberg) dan kajian sastra; jangan memakai wujud versi film 1931 (baut di leher, kepala datar) sebagai wujud novel. Film hanya untuk modern_depictions. Ditambahkan manual 2026-10-06 (tokoh sastra; dulu tersaring sebagai literary character)."
     }
   ]
 }
