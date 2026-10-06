@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-075",
-  "checked_at": "2026-10-06T19:26:05.286Z",
+  "checked_at": "2026-10-06T19:40:23.887Z",
   "files": [
     "batch-075.md",
     "batch-075-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-075-fix-3.md",
     "batch-075-fix-4.md",
     "batch-075-fix-5.md",
-    "batch-075-fix-6.md"
+    "batch-075-fix-6.md",
+    "batch-075-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4795,20 +4796,15 @@
     },
     {
       "slug": "dharanendra",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "3c64c7de09b365225de0e0347b1d34cfa70642079247596e144175c233440d6f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dharanendra-c01",
@@ -4869,27 +4865,81 @@
           "quote": "Western Ganga literature states that Nāga-rāja Dharaṇendra was worshipped for acquiring sons.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "dharanendra-c07",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the Wisdomlib glossary, Dharaṇendra (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha, the twenty-third of twenty-four Tīrthaṃkaras, and the Yakṣiṇī is called Padmāvatī.",
+          "statement_id": "Menurut glosarium Wisdomlib, Dharaṇendra (atau Pārśva, Vāmana) adalah nama Yakṣa yang mendampingi Pārśvanātha, Tīrthaṃkara kedua puluh tiga dari dua puluh empat, dan Yakṣiṇī-nya disebut Padmāvatī.",
+          "quote": "Dharaṇendra (धरणेन्द्र) (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha: the twenty-third of twenty-four Tīrthaṃkaras or Jinas, commonly depicted in Jaina iconography. ... His Yakṣa is called Pārśva or Vāmana or Dharaṇendra and Yakṣiṇī is called Padmāvatī.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dharanendra-c08",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In his iconography this Yakṣa bears abundant snake symbols besides the snake hoods, and he holds Vāsuki, the king of snakes.",
+          "statement_id": "Dalam ikonografinya, Yakṣa ini dilengkapi banyak lambang ular selain tudung ular, dan ia memegang Vāsuki, raja ular.",
+          "quote": "In actual iconography, we find this Yakṣa has snake-symbols abundantly besides the snake-hoods. He holds also Vāsuki, the king of snakes",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dharanendra-c09",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The glossary interprets the name Dharaṇendra, or Dharaṇīdhara, as clearly signifying his identity with Śeṣanāga, the king of the serpents.",
+          "statement_id": "Glosarium itu menafsirkan bahwa nama Dharaṇendra atau Dharaṇīdhara jelas menunjukkan identitasnya dengan Śeṣanāga, raja para naga-ular.",
+          "quote": "The very name Dharaṇendra, or Dharaṇīdhara clearly signifies his identity with Śeṣanāga, the king of the serpents.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dharanendra-c10",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The glossary says his vehicle is a tortoise, which might suggest his superiority over Kamaṭha, who had been his and his master's enemy for ages.",
+          "statement_id": "Glosarium itu menyebut kendaraannya berupa kura-kura, yang mungkin menunjukkan keunggulannya atas Kamaṭha, musuhnya dan musuh tuannya selama berabad-abad.",
+          "quote": "His vehicle of a tortoise might suggest his superiority over Kamaṭha (Kamaṭha=tortoise) , who had been his and his master’s enemy for ages.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dharanendra-c11",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Kamaṭha was Pārśvanātha's enemy and Dharaṇendra his friend, as the result of an incident in a former birth.",
+          "statement_id": "Kamaṭha adalah musuh Pārśvanātha dan Dharaṇendra adalah sahabatnya, akibat peristiwa pada kelahiran sebelumnya.",
+          "quote": "Kamaṭha was Pārśvanātha’s enemy and Dharaṇendra his friend, as the result of an incident in a former birth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dharanendra-c12",
+          "source_id": "dharanendra-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the 11th-century Jñānārṇava, a treatise on Jain yoga, Dharaṇendra refers to the \"chief of the snakes\".",
+          "statement_id": "Menurut Jñānārṇava abad ke-11, risalah tentang yoga Jain, Dharaṇendra dirujuk sebagai \"kepala para ular\".",
+          "quote": "Dharaṇendra (धरणेन्द्र) refers to the “chief of the snakes”, according to the 11th century Jñānārṇava, a treatise on Jain Yoga",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a3cce57f857d360e1141816fa8110d57a6f09e7dfd729639a4ab72c366c60d0b"
+      "images": []
     },
     {
       "slug": "goho-doji",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "02e0f5890866c2de78bded1ef355fe35d67284f54e440e6cd6f577b29580b6e5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "goho-doji-c01",
@@ -4920,25 +4970,95 @@
           "quote": "It flies through the air by riding a Wheel of Dharma.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "goho-doji-c04",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "According to this Heibonsha encyclopedia, gohō broadly means spirits and kijin that take refuge in the Buddha's teaching and guard the Three Jewels; narrowly it means spirits and kijin employed by eminent monks versed in esoteric teachings and by Shugendō practitioners and yamabushi.",
+          "statement_id": "Menurut Heibonsha, secara luas gohō berarti golongan roh dan kijin yang berlindung pada ajaran Buddha dan menjaga Tiga Permata; secara sempit berarti roh dan kijin yang dipekerjakan oleh biksu tinggi ahli ajaran rahasia, serta oleh pertapa Shugendō dan yamabushi.",
+          "quote": "広義では，仏法に帰依して三宝を守護する神霊・鬼神の類を意味するが，狭義では，密教の奥義をきわめた高僧や修験道の行者・山伏たちの使役する神霊・鬼神を意味する。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c05",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "Gohō are often described in the form of a child (dōji), which is why the name gohō dōji became widely established; however, they are sometimes shown as oni or animals.",
+          "statement_id": "Gohō sering digambarkan berwujud anak (dōji), sehingga sebutan gohō dōji menjadi umum; namun ia kadang ditampilkan dalam wujud oni atau hewan.",
+          "quote": "童子形で語られることが多いため護法童子と呼ぶことが広く定着している。しかし，鬼や動物の姿で示されることもある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c06",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "Zenki and Goki, said to have been employed by En no Gyōja, are of the oni kind, and the gohō of Mount Haguro is a crow, as the Karasu-tobi ritual shows.",
+          "statement_id": "Zenki dan Goki yang dipekerjakan En no Gyōja termasuk golongan oni, dan gohō di Gunung Haguro berwujud gagak seperti terlihat dalam upacara Karasu-tobi.",
+          "quote": "役行者（えんのぎようじや）が使役したという前鬼（ぜんき）・後鬼（ごき）は鬼の類であり，羽黒山の護法は，烏飛びの神事に示されるようにカラスである。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c07",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "Attributes of the gohō include the ability to fly, swift running and great strength, personal attendance, and possessing people; especially important was its use to drive away evil spirits that had possessed the sick.",
+          "statement_id": "Atribut gohō antara lain kemampuan terbang, kecepatan lari dan kekuatan luar biasa, mengurus keperluan sehari-hari, dan merasuki orang; yang terpenting adalah dipakai untuk mengusir roh jahat yang merasuki orang sakit.",
+          "quote": "護法の属性として，飛行能力，駿足・怪力，身の回りの世話，人に憑依（ひようい）すること，などいろいろと挙げることができるが，病人に取り憑（つ）いている悪霊を追い払うために用いられたということがとりわけ重要な属性であった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c08",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "Child-form gohō are depicted in many tale collections and picture scrolls from ancient to medieval times, beginning with the Nihon Ryōiki and including the Konjaku Monogatarishū; the best known is the \"sword gohō\" employed by Myōren, the protagonist of the Shigisan Engi.",
+          "statement_id": "Gohō berwujud anak banyak digambarkan dalam kumpulan kisah dan gulungan bergambar dari zaman kuno hingga abad pertengahan, termasuk Nihon Ryōiki dan Konjaku Monogatarishū; yang paling terkenal adalah \"gohō pedang\" yang dipekerjakan Myōren, tokoh utama Shigisan Engi.",
+          "quote": "童子形の護法は，《日本霊異記》をはじめ《今昔物語集》など古代から中世にかけての説話集や絵巻などに数多く描かれており，《信貴山縁起》の主人公命蓮の使役する〈剣の護法〉はもっともよく知られている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c09",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "The sword gohō was also employed to cure the illness of the Engi emperor (Emperor Daigo).",
+          "statement_id": "Gohō pedang juga dipekerjakan untuk menyembuhkan penyakit Kaisar Engi (Kaisar Daigo).",
+          "quote": "剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "goho-doji-c10",
+          "source_id": "goho-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "The entry's author interprets gohō employed by yamabushi and others as the embodiment of those practitioners' spiritual power.",
+          "statement_id": "Penulis entri menafsirkan gohō yang dipekerjakan yamabushi dan sejenisnya sebagai perwujudan kekuatan gaib mereka.",
+          "quote": "剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。山伏などに使役される護法は，彼らの呪力の形象化されたものといえる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "616ccc56e5fd9933fee23202f759d6bf06c22f4f63f25884a988b8719da21780"
+      "images": []
     },
     {
       "slug": "golden-haired-hou",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "c90a05b94be512241727cb9c63cb7de02d93e1b0ecd656ce42fe326bc2aabd99",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "relations[1].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Sun Wukong. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -5001,27 +5121,91 @@
           "quote": "He abducted the Golden Sage Queen (金聖皇后), one of the king's consorts, and forced her to live with him. The king became ill after her disappearance.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c07",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this novel's text Guanyin says the monster is the Golden-Haired Hou she rides; because a herd boy dozed off and failed to keep watch, the creature bit through its iron chain and came, to dispel calamity for the king of Zhuzi.",
+          "statement_id": "Dalam teks novel ini, Guanyin menyatakan bahwa siluman itu adalah Golden-Haired Hou yang ia tunggangi; karena gembala tertidur dan lengah, makhluk itu menggigit putus rantai besi dan pergi, untuk meredakan malapetaka bagi raja Zhuzi.",
+          "quote": "原來是觀音菩薩，左手托著淨瓶，右手拿著楊柳 ... 菩薩道：「他是我跨的個金毛犼。因牧童盹睡，失於防守，這孽畜咬斷鐵索走來，卻與朱紫國王消災也。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c08",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guanyin says she was riding the hou and heard the words together with it; the hou took note and came to deceive the queen to dispel the king's calamity, and after three years the old offence was fulfilled.",
+          "statement_id": "Guanyin berkata ia menunggangi hou itu dan bersama-sama mendengar ucapan itu; hou itu mencamkannya, lalu menipu sang permaisuri demi meredakan malapetaka sang raja, dan setelah tiga tahun kesalahan lama itu genap.",
+          "quote": "我跨著這犼，同聽此言。不期這孽畜留心，故來騙了皇后，與王消災。至今三年，冤愆滿足，幸你來救治王患。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c09",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "At Guanyin's command the monster rolled over, revealed its original form and shook its fur, and Guanyin mounted it.",
+          "statement_id": "Atas perintah Guanyin, siluman itu berguling, kembali ke wujud aslinya, mengibaskan bulunya, lalu Guanyin menungganginya.",
+          "quote": "那菩薩才喝了一聲：「孽畜！還不還原，待何時也？」只見那怪打個滾，現了原身，將毛衣抖抖，菩薩騎上。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c10",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guanyin looks for the three golden bells at the hou's neck and says that had Wukong not stolen the bells, not even ten Wukongs would dare come near it.",
+          "statement_id": "Guanyin mencari tiga lonceng emas di leher hou itu dan menyatakan bahwa tanpa Wukong mencuri lonceng itu, sepuluh Wukong pun tidak berani mendekatinya.",
+          "quote": "菩薩又望項下一看，不見那三個金鈴。菩薩道：「悟空，還我鈴來。」行者道：「老孫不知。」菩薩喝道：「你這賊猴！若不是你偷了這鈴，莫說一個悟空，就是十個，也不敢近身。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c11",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When Wukong grasps the three bells and rings them together, red fire, green smoke and yellow sand pour out and burn trees and the mountain.",
+          "statement_id": "Ketika Wukong menggenggam ketiga lonceng itu dan membunyikannya serentak, api merah, asap hijau, dan pasir kuning menyembur keluar dan membakar pohon serta gunung.",
+          "quote": "好猴子，一把揝了三個鈴兒，一齊搖起。你看那紅火、青煙、黃沙，一齊滾出，骨都都燎樹燒山。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c12",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guanyin warns Wukong that if he uses his staff on the creature, it will die.",
+          "statement_id": "Guanyin mengingatkan Wukong bahwa bila ia memakai tongkatnya terhadap makhluk itu, makhluk itu akan mati.",
+          "quote": "悟空，你既知我臨凡，就當看我分上，一發都饒了罷，也算你一番降妖之功；若是動了棍子，他也就是死了。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-haired-hou-c13",
+          "source_id": "golden-haired-hou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Guanyin fits the bells back on the hou's neck, mounts it and returns to the Southern Sea.",
+          "statement_id": "Guanyin memasang kembali lonceng itu di leher hou, naik ke punggungnya, dan kembali ke Laut Selatan.",
+          "quote": "菩薩將鈴兒套在犼項下，飛身高坐。你看他四足蓮花生焰焰，滿身金縷迸森森。大慈悲回南海不題。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c757177a8d6c31ca61ad40ea98a79cb702008c4202ea656c717e0f78b78978fa"
+      "images": []
     },
     {
       "slug": "kangla-sha",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "71b6b78bfaaa84275ecadd70a4089db97e4bc113d7ceb19074167a0b475a72b9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kangla-sha-c01",
@@ -5072,27 +5256,101 @@
           "quote": "During the British conquest of the Anglo Manipur War of 1891, the British forces led by Captain Allen demolished the two statues of the Kangla Sha dragons by blasting them by artillery fire into pieces on 20 July 1891.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c06",
+          "source_id": "kangla-sha-s2",
+          "host": "books.e-pao.net",
+          "statement": "Kangla-Sha, a twin-horned dragon, is called a myth-associated icon of the kings of Manipur; its statues at the entrance of the royal palace were the place of pride (holiest of holy) for all royal ceremonies.",
+          "statement_id": "Kangla-Sha, naga bertanduk dua, disebut ikon mitos raja-raja Manipur; patung-patungnya di pintu masuk istana kerajaan menjadi tempat kehormatan (tersuci) bagi semua upacara kerajaan.",
+          "quote": "Yet another myth-associated icon of Manipur kings used to be Kangla-Sha (twin-horned dragon as shown in an actual photograph published in T.C.Hodson's The Meitheis (1908) (Photoplate:2-4) whose sculptured statues at the entrance of the royal Palace (UTTARA) used to be the place of pride (holiest of holy) for all royal ceremonies",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c07",
+          "source_id": "kangla-sha-s2",
+          "host": "books.e-pao.net",
+          "statement": "In the Lamchel race each runner tries to outrun the others and finally jump up and touch the Kangla-Sha first, as the finishing point.",
+          "statement_id": "Dalam lomba Lamchel, setiap pelari berusaha mengungguli yang lain lalu melompat menyentuh Kangla-Sha lebih dulu sebagai garis akhir.",
+          "quote": "each runner's headlong attempt in race Lamchel is to outrun others and ultimately jump up and touch the Kangla-Sha first as finishing point.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c08",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in 1804 the Meitei king Chourjit Singh constructed two huge structures of the Kangla Sha dragon lions in front of the Kangla Uttra Shanglen.",
+          "statement_id": "Menurut Wikipedia, pada 1804 raja Meitei Chourjit Singh membangun dua struktur besar naga-singa Kangla Sha di depan Kangla Uttra Shanglen.",
+          "quote": "In the year 1804, Meitei king Chourjit Singh ... constructed two huge structures of the \"Kangla Sha\" dragon lions in front of the Kangla Uttra Shanglen (or simply called the \"Uttra\") inside the present day Kangla Fort.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c09",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (1819-1826), Meitei for 'Seven Years Devastation'.",
+          "statement_id": "Kedua patung itu dihancurkan pasukan Burma pada masa Chahi Taret Khuntakpa (1819-1826), yang dalam bahasa Meitei berarti 'Tujuh Tahun Kehancuran'.",
+          "quote": "constructed two huge structures of the \"Kangla Sha\" dragon lions ... These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (Meitei for 'Seven Years Devastation') (1819–1826).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c10",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2006 the statues of the Kangla Sa (Kangla Sha) were reconstructed by the Government of Manipur.",
+          "statement_id": "Pada 2006 patung-patung Kangla Sa (Kangla Sha) dibangun kembali oleh Pemerintah Manipur.",
+          "quote": "Later, in the year 2006, the statues of the \"Kangla Sa\" (\"Kangla Sha\") were reconstructed by the Government of Manipur.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c11",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The government of Manipur recognised the illustration of the Meitei mythical animal Kangla Sha as the state emblem in 1980.",
+          "statement_id": "Pemerintah Manipur mengakui gambar hewan mitos Meitei Kangla Sha sebagai lambang negara bagian pada 1980.",
+          "quote": "The government of Manipur recognised the illustration of Meitei mythical animal \"Kangla Sha\" as the state emblem in the year 1980.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c12",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On 18 June 2021 the \"Kaba Khanba\" of the Kangla Sha statues were removed by the Government of Manipur because the authorities perceived that the rods pained Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur.",
+          "statement_id": "Pada 18 Juni 2021 batang \"Kaba Khanba\" pada patung Kangla Sha dilepas oleh Pemerintah Manipur karena pihak berwenang menganggap batang itu menyakiti Kangla Sha dan menyebabkan kemunduran serta ketidakbahagiaan rakyat Manipur.",
+          "quote": "On 18 June 2021, the \"Kaba Khanba\" ... of the Kangla Sha statues were removed by the Government of Manipur ... due to the perception by the authorities concerned that the rods gave pains to Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kangla-sha-c13",
+          "source_id": "kangla-sha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The removal of the rods drew criticism from RK Nimai, a retired IAS officer, who said it showed the utter lack of knowledge of the so-called experts even in Meitei tradition.",
+          "statement_id": "Pelepasan batang itu dikritik RK Nimai, pensiunan pejabat IAS, yang menyebutnya menunjukkan ketidaktahuan para \"ahli\" tentang tradisi Meitei.",
+          "quote": "However, this event of the removal of rods drew criticism by RK Nimai, a retired IAS officer, as “The removal of kabak of the two kanglashas at Kangla which was shown in the local TV channels indicates the utter lack of knowledge of the so-called experts even in Meitei tradition.”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "829b292e1346eff7e4f055f96d987e3ea49d1312d46b22904a0056a0a6cb8849"
+      "images": []
     },
     {
       "slug": "khyah-legendary-creature",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "d4eb09017ce9a9b45741aec6a9cd62bc73bd69cb6d2418312db744f9a468b792",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khyah-legendary-creature-c01",
@@ -5153,27 +5411,91 @@
           "quote": "During the Yenya festival in Kathmandu, dance performances are held at market squares and the Durbar Square where actors dressed in Khyah costumes give dance performances. The dances, known as Khyāh Pyākhan (ख्याः प्याखं), consist of antics and tumbling.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c07",
+          "source_id": "khyah-legendary-creature-s2",
+          "host": "www.asianart.com",
+          "statement": "In Newar masked-dance troupes the khyāh, an ape-like hairy creature, wears a black cowl and a black woollen pelisse that gives him the appearance of a bear, with a red tongue dangling from his mouth.",
+          "statement_id": "Dalam trup tari topeng Newar, khyāh digambarkan sebagai makhluk berbulu mirip kera yang mengenakan tudung hitam dan jubah wol hitam sehingga tampak seperti beruang, dengan lidah merah menjulur dari mulutnya.",
+          "quote": "Each troupe also features one or two skeletons kavã ... Their associate, the jostler khyāh, an ape-like hairy creature wears a black cowl over his head; he is dressed in a black woollen pelisse, that gives him the appearance of a bear, with a red tongue dangling from his mouth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c08",
+          "source_id": "khyah-legendary-creature-s2",
+          "host": "www.asianart.com",
+          "statement": "The khyāh in the performance does acrobatics on stage, tumbles and rolls over the floor, and occasionally rushes around making scatological gestures at young ladies in the audience.",
+          "statement_id": "Khyāh dalam pertunjukan itu berakrobat di panggung, berguling-guling di lantai, dan sesekali berlari sambil membuat gerakan jorok kepada gadis-gadis di antara penonton.",
+          "quote": "the jostler khyāh, an ape-like hairy creature ... Both perform a series of acrobatics on stage. They tumble and roll over the floor. Occasionally, they rush around making scatological gestures at young ladies in the audience.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c09",
+          "source_id": "khyah-legendary-creature-s2",
+          "host": "www.asianart.com",
+          "statement": "In a Newar masked-dance troupe of gods and goddesses, khyāh accompany them with skeletons, demons and betāh, jumping and rolling around on the floor (gwara-gwara tulegu).",
+          "statement_id": "Dalam trup tari topeng para dewa dan dewi Newar, khyāh ikut menyertai bersama kerangka, raksasa, dan betāh, melompat dan berguling-guling di lantai (gwara-gwara tulegu).",
+          "quote": "These gods and goddesses are accompanied by skeletons (kawã), demons (rākshas), betāh and khyāh who jump and roll around on the floor (gwara-gwara tulegu)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c10",
+          "source_id": "khyah-legendary-creature-s3",
+          "host": "himalayancultures.com",
+          "statement": "According to Newari legend the old Gods gave birth to the Khyahs: a child was born to the old gods, they tussled to hold it, its skin detached, and from the flesh came Khyah while Kavam emerged as the skeleton.",
+          "statement_id": "Menurut legenda Newar, dewa-dewa tua melahirkan Khyah; dalam kisah itu, seorang anak lahir dari dewa-dewa tua, mereka berebut memegangnya, kulitnya terlepas, lalu dari dagingnya muncul Khyah dan Kavam muncul sebagai kerangka.",
+          "quote": "According to Newari legend, the old Gods gave birth to the terrible Khyahs. It is said that a child was born to the old gods, and a tussle began between them to hold the baby. The struggle led to the detachment of the skin, and the child only remained with flesh and bones. Out of the flesh came Khyah, and Kavam emerged as the skeleton.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c11",
+          "source_id": "khyah-legendary-creature-s3",
+          "host": "himalayancultures.com",
+          "statement": "To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk; in Khyah Pyakhan, dancers dressed as Khyah dance to the beat of a Dhimay.",
+          "statement_id": "Untuk mengendalikan kekuatan si kembar itu, para dewa membuat alat musik Newar bernama Dhimay dari batang pohon; dalam Khyah Pyakhan, penari berkostum Khyah menari mengikuti tabuhan Dhimay.",
+          "quote": "To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk. During Khyah Pyakhan, the traditional Newari dance, dancers dressed as Khyah, dance to the beat of a Dhimay.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c12",
+          "source_id": "khyah-legendary-creature-s3",
+          "host": "himalayancultures.com",
+          "statement": "Khyahs often appear in the Newari Gufa tradition, a ritual for young girls before menstruation, in which the girls stay in a dark room with a small doll representing Bahra Khyah.",
+          "statement_id": "Khyah sering muncul dalam tradisi Gufa Newar, ritual bagi gadis sebelum haid pertama, di mana para gadis berada di ruang gelap bersama boneka kecil yang mewakili Bahra Khyah.",
+          "quote": "Khyahs often make significant appearances in the Newari Gufa tradition, a ritual meant for young girls before the beginning of their menstruation. During this ritual, girls remain inside a dark room with a small doll that represents Bahra Khyah.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyah-legendary-creature-c13",
+          "source_id": "khyah-legendary-creature-s3",
+          "host": "himalayancultures.com",
+          "statement": "According to this author, Khyahs always dwell in the dark as they are afraid of the light, and there are two types, white and black; the white ones are the good ones.",
+          "statement_id": "Menurut penulis ini, Khyah selalu tinggal di tempat gelap karena takut cahaya, dan ada dua jenis Khyah, putih dan hitam; yang putih adalah yang baik.",
+          "quote": "Khyahs always dwell in the dark as they are afraid of the light. There are two types of Khyahs; white and black. The white ones are the good ones",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "84a7b6892f738e6452720a64a59d35f614ddb3085b05166ed4b5b80c232a2944"
+      "images": []
     },
     {
       "slug": "kichkandi",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-7.md",
+      "entry_sha256": "e1e65409479416f58e5edf4870248c4eb196a0c434045d262ea5e73f5399db6a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kichkandi-c01",
@@ -5234,10 +5556,119 @@
           "quote": "In Bhoot Police, a 2021 Bollywood film, the tea estate of the character Maya(played by Yami Gautam) is haunted by a kichkandi.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "kichkandi-c07",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "According to this journal article, the kichkini (also called kichkinni, kichkanya or kichkandi) is a young, beautiful female ghost, a woman who had died in \"unnatural circumstances\": by suicide, during childbirth or through murder.",
+          "statement_id": "Menurut artikel jurnal ini, kichkini (juga disebut kichkinni, kichkanya, atau kichkandi) adalah hantu perempuan muda yang cantik, seorang perempuan yang meninggal dalam \"keadaan tidak wajar\": bunuh diri, saat melahirkan, atau dibunuh.",
+          "quote": "the kichkini (also known as kichkinni, kichkanya, or kichkandi), a young, beautiful, female ghost. She was a woman who had died in “unnatural circumstances,” by suicide, during childbirth, or through murder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c08",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "She wanders alone at night searching for men to seduce; she is alluring but deadly, and any man who came into contact with her would fall ill or die.",
+          "statement_id": "Ia berkeliaran sendirian pada malam hari mencari laki-laki untuk dirayu; ia memikat tetapi mematikan, dan laki-laki yang bersentuhan dengannya akan jatuh sakit atau mati.",
+          "quote": "She wanders alone at night, searching for men to seduce. She is alluring but deadly; any man with whom she came into contact would fall ill, or die.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c09",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "She appears as a real woman, but her feet, unnaturally twisted backward, identify her as a supernatural being.",
+          "statement_id": "Ia tampak seperti perempuan sungguhan, tetapi kakinya yang terpelintir ke belakang menandainya sebagai makhluk gaib.",
+          "quote": "Appearing as a real woman, her feet— unnaturally twisted backward—identify her as a supernatural being.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c10",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "A research informant said that kichkini walk alone at night, particularly around small villages and alongside rivers and cremation grounds.",
+          "statement_id": "Seorang informan penelitian menuturkan bahwa kichkini berjalan sendirian pada malam hari, terutama di sekitar desa kecil serta di tepi sungai dan tempat kremasi.",
+          "quote": "Laxmi informed me that kichkini would walk alone at night, particularly around small villages and alongside rivers and cremation grounds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c11",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "An informant described objects associated with femininity as protection: men travelling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution.",
+          "statement_id": "Seorang informan menyebut benda yang berkaitan dengan kewanitaan sebagai perlindungan: laki-laki yang bepergian malam ke tempat yang dipercaya dihantui kichkini membawa perhiasan, termasuk gelang kaki, sebagai tindakan berjaga.",
+          "quote": "Anil described the use of objects associated with femininity as protection against kichkini. He said men traveling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c12",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "An informant said kichkini are said to be unable to cross water, so men in haunted places can escape by quickly crossing a river.",
+          "statement_id": "Seorang informan mengatakan kichkini dikatakan tidak dapat menyeberangi air, sehingga laki-laki di tempat angker dapat lolos dengan cepat menyeberangi sungai.",
+          "quote": "However, kichkini are said to be unable to cross water, so men who find themselves in haunted places can escape by quickly crossing a river.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c13",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "An informant said that in all kichkini stories a bone with the string tied around it is found at a crematorium, and that the bone must be burned to get rid of the kichkini.",
+          "statement_id": "Seorang informan menyatakan bahwa dalam semua kisah kichkini selalu ditemukan tulang yang diikat benang di krematorium, dan tulang itu harus dibakar untuk menyingkirkan kichkini.",
+          "quote": "All stories of kichkini end up in a crematorium. A bone is always found that the string is tied around. You must burn the bone to get rid of the kichkini",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c14",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "One informant was unsure of the motives behind kichkini attacks but suspected they may be acting out of revenge for previous mistreatment.",
+          "statement_id": "Seorang informan tidak yakin akan motif serangan kichkini, tetapi menduga mereka mungkin bertindak karena balas dendam atas perlakuan buruk sebelumnya.",
+          "quote": "Laxmi was unsure of the motives behind kichkini attacks; however, she suspected they may be acting out of revenge for previous mistreatment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c15",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "Another informant held that kichkini are not trying to kill and are not looking for revenge, but may just be looking for love.",
+          "statement_id": "Informan lain berpendapat kichkini tidak berusaha membunuh dan tidak mencari balas dendam, melainkan mungkin hanya mencari cinta.",
+          "quote": "They are not trying to kill you. They are not looking for revenge, they may just be looking for love.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c16",
+          "source_id": "kichkandi-s2",
+          "host": "journals.ed.ac.uk",
+          "statement": "The article's author suggests that kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them.",
+          "statement_id": "Penulis artikel menafsirkan bahwa kichkini dapat mewakili ancaman yang dirasakan dari seksualitas perempuan terhadap struktur patrilineal dan dipakai untuk membenarkan pembatasan serta kekerasan terhadap perempuan.",
+          "quote": "Kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kichkandi-c17",
+          "source_id": "kichkandi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These women while alive were treated unfairly in some manner or died during childbirth or pregnancy.",
+          "statement_id": "Perempuan ini semasa hidup diperlakukan tidak adil dengan suatu cara atau meninggal saat melahirkan atau hamil.",
+          "quote": "These women while alive were treated unfairly in some manner or died during childbirth or pregnancy.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2e9a7652c23e7d7bca4c1e45eb97392c1fc8d936a4ee6c114b855fadccdf5eca"
+      "images": []
     }
   ]
 }

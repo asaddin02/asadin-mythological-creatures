@@ -1,6 +1,6 @@
 # Review batch-075
 
-Diperiksa 2026-10-06T19:26:05.286Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md.
+Diperiksa 2026-10-06T19:40:23.887Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md.
 
 ## keibu-keioiba — lulus-otomatis
 
@@ -751,10 +751,7 @@ Klaim 6 (exact 3, loose 1, unreachable 2), sumber 3, gambar 0.
 
 ## dharanendra — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -764,28 +761,38 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | dharanendra-c04 | exact | en.wikipedia.org | Dharanendra and Padmavati later shelter Parshvanatha from Meghalin. | They then sheltered ascetic Pārśvanātha when he was harassed by Meghalin (Kamaṭha’s reborn). |
 | dharanendra-c05 | exact | en.wikipedia.org | Svetambara tradition does not place Padmavati among Dharanendra's queens. | Whereas, the Śvetāmbara tradition does not list Padmāvatī among the queens of Dharaṇendra. |
 | dharanendra-c06 | exact | en.wikipedia.org | Western Ganga literature records worship of Dharanendra to obtain sons. | Western Ganga literature states that Nāga-rāja Dharaṇendra was worshipped for acquiring sons. |
+| dharanendra-c07 | exact | www.wisdomlib.org | According to the Wisdomlib glossary, Dharaṇendra (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha, the twenty-third of twenty-four Tīrthaṃkaras, and the Yakṣiṇī is called Padmāvatī. | Dharaṇendra (धरणेन्द्र) (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha: the twenty-third of twenty-four Tīrthaṃkaras or Jinas, commonly depicted in Jaina iconography. ... His Yakṣa is called Pārśva or Vāmana or Dharaṇendra and Yakṣiṇī is called Padmāvatī. |
+| dharanendra-c08 | exact | www.wisdomlib.org | In his iconography this Yakṣa bears abundant snake symbols besides the snake hoods, and he holds Vāsuki, the king of snakes. | In actual iconography, we find this Yakṣa has snake-symbols abundantly besides the snake-hoods. He holds also Vāsuki, the king of snakes |
+| dharanendra-c09 | exact | www.wisdomlib.org | The glossary interprets the name Dharaṇendra, or Dharaṇīdhara, as clearly signifying his identity with Śeṣanāga, the king of the serpents. | The very name Dharaṇendra, or Dharaṇīdhara clearly signifies his identity with Śeṣanāga, the king of the serpents. |
+| dharanendra-c10 | exact | www.wisdomlib.org | The glossary says his vehicle is a tortoise, which might suggest his superiority over Kamaṭha, who had been his and his master's enemy for ages. | His vehicle of a tortoise might suggest his superiority over Kamaṭha (Kamaṭha=tortoise) , who had been his and his master’s enemy for ages. |
+| dharanendra-c11 | exact | www.wisdomlib.org | Kamaṭha was Pārśvanātha's enemy and Dharaṇendra his friend, as the result of an incident in a former birth. | Kamaṭha was Pārśvanātha’s enemy and Dharaṇendra his friend, as the result of an incident in a former birth. |
+| dharanendra-c12 | exact | www.wisdomlib.org | According to the 11th-century Jñānārṇava, a treatise on Jain yoga, Dharaṇendra refers to the "chief of the snakes". | Dharaṇendra (धरणेन्द्र) refers to the “chief of the snakes”, according to the 11th century Jñānārṇava, a treatise on Jain Yoga |
 
 
 ## goho-doji — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | goho-doji-c01 | loose | en.wikipedia.org | Goho doji are guardian spirits of Japanese Buddhist folklore serving followers of the dharma. | A gohō dōji (護法童子) (child of the defense of the Law) is a type of guardian spirit from Japanese Buddhist folklore devoted to serving followers of the dharma. In classic stories from medieval collections such as the Uji Shui Monogatari, it is generally depicted as a young boy wearing a collar of swords, with a large sword in one hand and a noose in the other. |
 | goho-doji-c02 | exact | en.wikipedia.org | Classic tales portray a young boy with a collar of swords, a large sword and a noose. | it is generally depicted as a young boy wearing a collar of swords, with a large sword in one hand and a noose in the other. |
 | goho-doji-c03 | exact | en.wikipedia.org | It flies through the air riding a Wheel of Dharma. | It flies through the air by riding a Wheel of Dharma. |
+| goho-doji-c04 | exact | kotobank.jp | According to this Heibonsha encyclopedia, gohō broadly means spirits and kijin that take refuge in the Buddha's teaching and guard the Three Jewels; narrowly it means spirits and kijin employed by eminent monks versed in esoteric teachings and by Shugendō practitioners and yamabushi. | 広義では，仏法に帰依して三宝を守護する神霊・鬼神の類を意味するが，狭義では，密教の奥義をきわめた高僧や修験道の行者・山伏たちの使役する神霊・鬼神を意味する。 |
+| goho-doji-c05 | exact | kotobank.jp | Gohō are often described in the form of a child (dōji), which is why the name gohō dōji became widely established; however, they are sometimes shown as oni or animals. | 童子形で語られることが多いため護法童子と呼ぶことが広く定着している。しかし，鬼や動物の姿で示されることもある。 |
+| goho-doji-c06 | exact | kotobank.jp | Zenki and Goki, said to have been employed by En no Gyōja, are of the oni kind, and the gohō of Mount Haguro is a crow, as the Karasu-tobi ritual shows. | 役行者（えんのぎようじや）が使役したという前鬼（ぜんき）・後鬼（ごき）は鬼の類であり，羽黒山の護法は，烏飛びの神事に示されるようにカラスである。 |
+| goho-doji-c07 | exact | kotobank.jp | Attributes of the gohō include the ability to fly, swift running and great strength, personal attendance, and possessing people; especially important was its use to drive away evil spirits that had possessed the sick. | 護法の属性として，飛行能力，駿足・怪力，身の回りの世話，人に憑依（ひようい）すること，などいろいろと挙げることができるが，病人に取り憑（つ）いている悪霊を追い払うために用いられたということがとりわけ重要な属性であった。 |
+| goho-doji-c08 | exact | kotobank.jp | Child-form gohō are depicted in many tale collections and picture scrolls from ancient to medieval times, beginning with the Nihon Ryōiki and including the Konjaku Monogatarishū; the best known is the "sword gohō" employed by Myōren, the protagonist of the Shigisan Engi. | 童子形の護法は，《日本霊異記》をはじめ《今昔物語集》など古代から中世にかけての説話集や絵巻などに数多く描かれており，《信貴山縁起》の主人公命蓮の使役する〈剣の護法〉はもっともよく知られている。 |
+| goho-doji-c09 | exact | kotobank.jp | The sword gohō was also employed to cure the illness of the Engi emperor (Emperor Daigo). | 剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。 |
+| goho-doji-c10 | exact | kotobank.jp | The entry's author interprets gohō employed by yamabushi and others as the embodiment of those practitioners' spiritual power. | 剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。山伏などに使役される護法は，彼らの呪力の形象化されたものといえる。 |
 
 
 ## golden-haired-hou — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `relations[1].target_name` Tidak muncul di kutipan mana pun: Sun Wukong. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -795,14 +802,18 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | golden-haired-hou-c04 | exact | en.wikipedia.org | In Journey to the West it is Guanyin's mount. | In Journey to the West, the Golden-Haired Hou is the mount of Guanyin. He overhears that Mahamayuri has cursed a prince of the Kingdom of Purpuria (朱紫國) after the prince accidentally killed two of her followers while hunting. As punishment, the prince is made to suffer from lovesickness for three years. |
 | golden-haired-hou-c05 | exact | en.wikipedia.org | It escapes and becomes the demon Sai Taisui. | He became the demon Sai Taisui (賽太歲) and lived at Xiezhi Cave on Unicorn Mountain (麒麟山獬豸洞), where he commanded a group of demons. |
 | golden-haired-hou-c06 | exact | en.wikipedia.org | It abducts the Golden Sage Queen, causing the king to fall ill. | He abducted the Golden Sage Queen (金聖皇后), one of the king's consorts, and forced her to live with him. The king became ill after her disappearance. |
+| golden-haired-hou-c07 | exact | zh.wikisource.org | In this novel's text Guanyin says the monster is the Golden-Haired Hou she rides; because a herd boy dozed off and failed to keep watch, the creature bit through its iron chain and came, to dispel calamity for the king of Zhuzi. | 原來是觀音菩薩，左手托著淨瓶，右手拿著楊柳 ... 菩薩道：「他是我跨的個金毛犼。因牧童盹睡，失於防守，這孽畜咬斷鐵索走來，卻與朱紫國王消災也。」 |
+| golden-haired-hou-c08 | exact | zh.wikisource.org | Guanyin says she was riding the hou and heard the words together with it; the hou took note and came to deceive the queen to dispel the king's calamity, and after three years the old offence was fulfilled. | 我跨著這犼，同聽此言。不期這孽畜留心，故來騙了皇后，與王消災。至今三年，冤愆滿足，幸你來救治王患。 |
+| golden-haired-hou-c09 | exact | zh.wikisource.org | At Guanyin's command the monster rolled over, revealed its original form and shook its fur, and Guanyin mounted it. | 那菩薩才喝了一聲：「孽畜！還不還原，待何時也？」只見那怪打個滾，現了原身，將毛衣抖抖，菩薩騎上。 |
+| golden-haired-hou-c10 | exact | zh.wikisource.org | Guanyin looks for the three golden bells at the hou's neck and says that had Wukong not stolen the bells, not even ten Wukongs would dare come near it. | 菩薩又望項下一看，不見那三個金鈴。菩薩道：「悟空，還我鈴來。」行者道：「老孫不知。」菩薩喝道：「你這賊猴！若不是你偷了這鈴，莫說一個悟空，就是十個，也不敢近身。 |
+| golden-haired-hou-c11 | exact | zh.wikisource.org | When Wukong grasps the three bells and rings them together, red fire, green smoke and yellow sand pour out and burn trees and the mountain. | 好猴子，一把揝了三個鈴兒，一齊搖起。你看那紅火、青煙、黃沙，一齊滾出，骨都都燎樹燒山。 |
+| golden-haired-hou-c12 | exact | zh.wikisource.org | Guanyin warns Wukong that if he uses his staff on the creature, it will die. | 悟空，你既知我臨凡，就當看我分上，一發都饒了罷，也算你一番降妖之功；若是動了棍子，他也就是死了。 |
+| golden-haired-hou-c13 | exact | zh.wikisource.org | Guanyin fits the bells back on the hou's neck, mounts it and returns to the Southern Sea. | 菩薩將鈴兒套在犼項下，飛身高坐。你看他四足蓮花生焰焰，滿身金縷迸森森。大慈悲回南海不題。 |
 
 
 ## kangla-sha — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 2, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -811,14 +822,19 @@ Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
 | kangla-sha-c03 | exact | en.wikipedia.org | Traditional race winners are declared after symbolically touching its statue. | In Meitei traditional race competitions, winners of the race are declared only after symbolically touching the statue of the dragon "Kangla Sha". |
 | kangla-sha-c04 | loose | en.wikipedia.org | Raja Nara Singh reconstructs two Kangla Sha statues in 1844. | During the months of June and July in the year 1844, Meitei king Raja Nara Singh (Meitei: ꯅꯤꯡꯊꯧ ꯅꯔꯁꯤꯡꯍ) reconstructed the two statues of the Kangla Sha dragons once again. |
 | kangla-sha-c05 | exact | en.wikipedia.org | British troops destroy the two statues with artillery fire on 20 July 1891. | During the British conquest of the Anglo Manipur War of 1891, the British forces led by Captain Allen demolished the two statues of the Kangla Sha dragons by blasting them by artillery fire into pieces on 20 July 1891. |
+| kangla-sha-c06 | exact | books.e-pao.net | Kangla-Sha, a twin-horned dragon, is called a myth-associated icon of the kings of Manipur; its statues at the entrance of the royal palace were the place of pride (holiest of holy) for all royal ceremonies. | Yet another myth-associated icon of Manipur kings used to be Kangla-Sha (twin-horned dragon as shown in an actual photograph published in T.C.Hodson's The Meitheis (1908) (Photoplate:2-4) whose sculptured statues at the entrance of the royal Palace (UTTARA) used to be the place of pride (holiest of holy) for all royal ceremonies |
+| kangla-sha-c07 | exact | books.e-pao.net | In the Lamchel race each runner tries to outrun the others and finally jump up and touch the Kangla-Sha first, as the finishing point. | each runner's headlong attempt in race Lamchel is to outrun others and ultimately jump up and touch the Kangla-Sha first as finishing point. |
+| kangla-sha-c08 | exact | en.wikipedia.org | According to Wikipedia, in 1804 the Meitei king Chourjit Singh constructed two huge structures of the Kangla Sha dragon lions in front of the Kangla Uttra Shanglen. | In the year 1804, Meitei king Chourjit Singh ... constructed two huge structures of the "Kangla Sha" dragon lions in front of the Kangla Uttra Shanglen (or simply called the "Uttra") inside the present day Kangla Fort. |
+| kangla-sha-c09 | exact | en.wikipedia.org | These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (1819-1826), Meitei for 'Seven Years Devastation'. | constructed two huge structures of the "Kangla Sha" dragon lions ... These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (Meitei for 'Seven Years Devastation') (1819–1826). |
+| kangla-sha-c10 | exact | en.wikipedia.org | In 2006 the statues of the Kangla Sa (Kangla Sha) were reconstructed by the Government of Manipur. | Later, in the year 2006, the statues of the "Kangla Sa" ("Kangla Sha") were reconstructed by the Government of Manipur. |
+| kangla-sha-c11 | exact | en.wikipedia.org | The government of Manipur recognised the illustration of the Meitei mythical animal Kangla Sha as the state emblem in 1980. | The government of Manipur recognised the illustration of Meitei mythical animal "Kangla Sha" as the state emblem in the year 1980. |
+| kangla-sha-c12 | exact | en.wikipedia.org | On 18 June 2021 the "Kaba Khanba" of the Kangla Sha statues were removed by the Government of Manipur because the authorities perceived that the rods pained Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur. | On 18 June 2021, the "Kaba Khanba" ... of the Kangla Sha statues were removed by the Government of Manipur ... due to the perception by the authorities concerned that the rods gave pains to Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur. |
+| kangla-sha-c13 | exact | en.wikipedia.org | The removal of the rods drew criticism from RK Nimai, a retired IAS officer, who said it showed the utter lack of knowledge of the so-called experts even in Meitei tradition. | However, this event of the removal of rods drew criticism by RK Nimai, a retired IAS officer, as “The removal of kabak of the two kanglashas at Kangla which was shown in the local TV channels indicates the utter lack of knowledge of the so-called experts even in Meitei tradition.” |
 
 
 ## khyah-legendary-creature — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 1, exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -828,14 +844,18 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | khyah-legendary-creature-c04 | exact | en.wikipedia.org | Household khyah dwell in attics and dark storerooms. | Household Khyahs usually dwell in the attic and dark storerooms. They are said to fear electric lighting. |
 | khyah-legendary-creature-c05 | exact | en.wikipedia.org | Khyah and Kawancha appear in sacred dance dramas and as temple guardians. | The antithesis of the Khyah is the Kawanchā, a skeleton. Khyahs and Kawanchas appear as supporting characters in sacred dance dramas of the Newars. Images of Khyahs and Kawanchas are also placed at temples as guardians of the shrine. |
 | khyah-legendary-creature-c06 | exact | en.wikipedia.org | Khyah Pyakhan dances at the Yenya festival feature actors in khyah costumes. | During the Yenya festival in Kathmandu, dance performances are held at market squares and the Durbar Square where actors dressed in Khyah costumes give dance performances. The dances, known as Khyāh Pyākhan (ख्याः प्याखं), consist of antics and tumbling. |
+| khyah-legendary-creature-c07 | exact | www.asianart.com | In Newar masked-dance troupes the khyāh, an ape-like hairy creature, wears a black cowl and a black woollen pelisse that gives him the appearance of a bear, with a red tongue dangling from his mouth. | Each troupe also features one or two skeletons kavã ... Their associate, the jostler khyāh, an ape-like hairy creature wears a black cowl over his head; he is dressed in a black woollen pelisse, that gives him the appearance of a bear, with a red tongue dangling from his mouth. |
+| khyah-legendary-creature-c08 | exact | www.asianart.com | The khyāh in the performance does acrobatics on stage, tumbles and rolls over the floor, and occasionally rushes around making scatological gestures at young ladies in the audience. | the jostler khyāh, an ape-like hairy creature ... Both perform a series of acrobatics on stage. They tumble and roll over the floor. Occasionally, they rush around making scatological gestures at young ladies in the audience. |
+| khyah-legendary-creature-c09 | exact | www.asianart.com | In a Newar masked-dance troupe of gods and goddesses, khyāh accompany them with skeletons, demons and betāh, jumping and rolling around on the floor (gwara-gwara tulegu). | These gods and goddesses are accompanied by skeletons (kawã), demons (rākshas), betāh and khyāh who jump and roll around on the floor (gwara-gwara tulegu) |
+| khyah-legendary-creature-c10 | exact | himalayancultures.com | According to Newari legend the old Gods gave birth to the Khyahs: a child was born to the old gods, they tussled to hold it, its skin detached, and from the flesh came Khyah while Kavam emerged as the skeleton. | According to Newari legend, the old Gods gave birth to the terrible Khyahs. It is said that a child was born to the old gods, and a tussle began between them to hold the baby. The struggle led to the detachment of the skin, and the child only remained with flesh and bones. Out of the flesh came Khyah, and Kavam emerged as the skeleton. |
+| khyah-legendary-creature-c11 | exact | himalayancultures.com | To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk; in Khyah Pyakhan, dancers dressed as Khyah dance to the beat of a Dhimay. | To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk. During Khyah Pyakhan, the traditional Newari dance, dancers dressed as Khyah, dance to the beat of a Dhimay. |
+| khyah-legendary-creature-c12 | exact | himalayancultures.com | Khyahs often appear in the Newari Gufa tradition, a ritual for young girls before menstruation, in which the girls stay in a dark room with a small doll representing Bahra Khyah. | Khyahs often make significant appearances in the Newari Gufa tradition, a ritual meant for young girls before the beginning of their menstruation. During this ritual, girls remain inside a dark room with a small doll that represents Bahra Khyah. |
+| khyah-legendary-creature-c13 | exact | himalayancultures.com | According to this author, Khyahs always dwell in the dark as they are afraid of the light, and there are two types, white and black; the white ones are the good ones. | Khyahs always dwell in the dark as they are afraid of the light. There are two types of Khyahs; white and black. The white ones are the good ones |
 
 
 ## kichkandi — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 1, exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -845,4 +865,15 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | kichkandi-c04 | exact | en.wikipedia.org | Her feet are said to face backward. | It is said that they can be identified by looking at their feet, which face backward. |
 | kichkandi-c05 | exact | en.wikipedia.org | She lures a solitary male traveller and drains his life force. | People usually describe them as alluring and young female, who lures a lonely male traveler and saps their life force. The victims are said to turn out drained of their life and skinny. According to other tales told by locals and cab drivers, these spirits are also known to hitchhike late at night. |
 | kichkandi-c06 | exact | en.wikipedia.org | The film Bhoot Police portrays Maya's tea estate as haunted by a kichkandi. | In Bhoot Police, a 2021 Bollywood film, the tea estate of the character Maya(played by Yami Gautam) is haunted by a kichkandi. |
+| kichkandi-c07 | exact | journals.ed.ac.uk | According to this journal article, the kichkini (also called kichkinni, kichkanya or kichkandi) is a young, beautiful female ghost, a woman who had died in "unnatural circumstances": by suicide, during childbirth or through murder. | the kichkini (also known as kichkinni, kichkanya, or kichkandi), a young, beautiful, female ghost. She was a woman who had died in “unnatural circumstances,” by suicide, during childbirth, or through murder. |
+| kichkandi-c08 | exact | journals.ed.ac.uk | She wanders alone at night searching for men to seduce; she is alluring but deadly, and any man who came into contact with her would fall ill or die. | She wanders alone at night, searching for men to seduce. She is alluring but deadly; any man with whom she came into contact would fall ill, or die. |
+| kichkandi-c09 | exact | journals.ed.ac.uk | She appears as a real woman, but her feet, unnaturally twisted backward, identify her as a supernatural being. | Appearing as a real woman, her feet— unnaturally twisted backward—identify her as a supernatural being. |
+| kichkandi-c10 | exact | journals.ed.ac.uk | A research informant said that kichkini walk alone at night, particularly around small villages and alongside rivers and cremation grounds. | Laxmi informed me that kichkini would walk alone at night, particularly around small villages and alongside rivers and cremation grounds. |
+| kichkandi-c11 | exact | journals.ed.ac.uk | An informant described objects associated with femininity as protection: men travelling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution. | Anil described the use of objects associated with femininity as protection against kichkini. He said men traveling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution. |
+| kichkandi-c12 | exact | journals.ed.ac.uk | An informant said kichkini are said to be unable to cross water, so men in haunted places can escape by quickly crossing a river. | However, kichkini are said to be unable to cross water, so men who find themselves in haunted places can escape by quickly crossing a river. |
+| kichkandi-c13 | exact | journals.ed.ac.uk | An informant said that in all kichkini stories a bone with the string tied around it is found at a crematorium, and that the bone must be burned to get rid of the kichkini. | All stories of kichkini end up in a crematorium. A bone is always found that the string is tied around. You must burn the bone to get rid of the kichkini |
+| kichkandi-c14 | exact | journals.ed.ac.uk | One informant was unsure of the motives behind kichkini attacks but suspected they may be acting out of revenge for previous mistreatment. | Laxmi was unsure of the motives behind kichkini attacks; however, she suspected they may be acting out of revenge for previous mistreatment. |
+| kichkandi-c15 | exact | journals.ed.ac.uk | Another informant held that kichkini are not trying to kill and are not looking for revenge, but may just be looking for love. | They are not trying to kill you. They are not looking for revenge, they may just be looking for love. |
+| kichkandi-c16 | exact | journals.ed.ac.uk | The article's author suggests that kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them. | Kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them. |
+| kichkandi-c17 | exact | en.wikipedia.org | These women while alive were treated unfairly in some manner or died during childbirth or pregnancy. | These women while alive were treated unfairly in some manner or died during childbirth or pregnancy. |
 

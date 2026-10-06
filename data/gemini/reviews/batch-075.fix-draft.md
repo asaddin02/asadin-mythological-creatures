@@ -9,3 +9,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 
 ## suiten
 - `timeline[0].description`: Tidak muncul di kutipan mana pun: Januari, Shingon-in, January. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+
+## golden-haired-hou
+- `relations[1].target_name`: Tidak muncul di kutipan mana pun: Sun Wukong. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
