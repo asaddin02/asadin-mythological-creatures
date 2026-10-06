@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-06T14:43:26.775Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md.
+Diperiksa 2026-10-06T14:57:07.145Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -212,24 +212,22 @@ Klaim 14 (exact 11, loose 3), sumber 2, gambar 0.
 
 ## dragon-turtle — lulus-otomatis
 
-Klaim 3 (loose 2, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dragon-turtle-c01 | loose | en.wikipedia.org | The dragon turtle is a Chinese legendary creature combining a turtle shell with a dragon body. | A dragon turtle (Chinese : 龍龜, pinyin : Lóngguī) is a legendary Chinese creature that combines two of the four celestial animals of Chinese mythology: the shell of a turtle with a dragon's body is promoted as a positive ornament in Feng Shui, symbolizing courage, determination, fertility, longevity, power, success, and support. |
 | dragon-turtle-c02 | loose | en.wikipedia.org | In feng shui, its ornament is associated with courage, longevity, and success. | A dragon turtle (Chinese : 龍龜, pinyin : Lóngguī) is a legendary Chinese creature that combines two of the four celestial animals of Chinese mythology: the shell of a turtle with a dragon's body is promoted as a positive ornament in Feng Shui, symbolizing courage, determination, fertility, longevity, power, success, and support. |
 | dragon-turtle-c03 | exact | en.wikipedia.org | One tale links Fuxi with a diagram on a dragon turtle's back. | When Fuxi wanted to create more divine patterns, He discovered a "square diagram" on the back of a dragon turtle. |
+| dragon-turtle-c04 | exact | en.wikipedia.org | Decorative carvings or statuettes of the creature are traditionally placed facing the window. | Decorative carvings or statuettes of the creature are traditionally placed facing the window. |
+| dragon-turtle-c05 | exact | en.wikipedia.org | Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition. | Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition. |
+| dragon-turtle-c06 | exact | en.wikipedia.org | A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode "The Garden of Zinn", its poisonous bite setting up the events of the episode. | A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode, "The Garden of Zinn", its poisonous bite setting up the events of the episode. |
+| dragon-turtle-c07 | exact | www.syfy.com | According to this news article, dragon turtles are getting different age and challenge-rating varieties in the new Dungeons & Dragons book, with the "standard" dragon turtle equivalent to an "ancient dragon". | Dragon turtles are getting different age and challenge rating varieties (the “standard” dragon turtle is the equivalent of an “ancient dragon”) and the book’s introducing an even more fearsome variety of dragon. |
 
 
 ## feilian — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -239,14 +237,17 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | feilian-c04 | exact | en.wikipedia.org | Houyi is portrayed as keeping Feilian in check. | In Feilian's identity as Fengbo, he carries wind with him in a bag and stirs up trouble. Feilian is kept in check by Houyi, the heavenly archer and Shang legendary culture hero. Feilian has become attached to the later mythology of the Yellow Emperor, against whom he contended under the leadership of Chiyou. |
 | feilian-c05 | exact | en.wikipedia.org | Feilian was once believed able to grant immortality. | Before consolidation into the Fengbo entity, Feilian was also thought to be able to grant immortality. |
 | feilian-c06 | exact | en.wikipedia.org | Emperor Wu of Han commissioned worship buildings in pursuit of that immortality. | Emperor Wu of Han ... believed this sufficiently to order the construction of several buildings dedicated to Feilian worship in pursuit of this gift of eternal life. |
+| feilian-c07 | exact | zh.wikisource.org | In this poem text the poet has Wangshu go ahead as outrider and Feilian follow behind running in attendance; the luan-huang birds give warning in front, and the Thunder Master says things are not yet ready. | 前望舒使先驅兮，後飛廉使奔屬。 鸞皇為余先戒兮，雷師告余以未具。 |
+| feilian-c08 | exact | zh.wikisource.org | According to this historical text, the Shiji, Gongsun Qing advised that immortals like to dwell in multi-storied buildings; the emperor then ordered the 蜚廉桂觀 (Feilian-Guiguan) built at Chang'an and the Yiyanshou Guan at Ganquan. | 公孫卿曰：「僊人可見，而上往常遽，以故不見。今陛下可為觀，如緱氏城，置脯棗，神人宜可致。且僊人好樓居。」於是上令長安則作蜚廉桂觀，甘泉則作益延壽觀 |
+| feilian-c09 | exact | en.wikipedia.org | In the Huainanzi, Feilian is mentioned as a creature one can ride astride into the world of spirits where nothing perishes. | In the Huainanzi, Feilian is mentioned as a creature one can ride astride into the world of spirits where nothing perishes. |
+| feilian-c10 | exact | en.wikipedia.org | Eastern Han commentator Ying Shao defined Feilian as a sacred beast able to control the winds; the Jin commentator Jin Zhuo described it with a deer's body and a bird's head, horns, a snake's tail, and markings like a leopard's spots. | Eastern Han commentator Ying Shao defined Feilian as a sacred beast, able to control the winds. Jin dynasty commentator Jin Zhuo provided a more detailed description, saying Feilian had a deer's body with a bird's head, horns, and a snake's tail, with markings like a leopard's spots. |
+| feilian-c11 | exact | en.wikipedia.org | Modern English-language sources state Feilian is a winged dragon with the head of a deer and the tail of a snake; Hawkes states it is commonly depicted as a winged deer. | Modern English language sources state Feilian is a winged dragon with the head of a deer and the tail of a snake. Hawkes states Feilian is commonly depicted as a winged deer, |
+| feilian-c12 | exact | en.wikipedia.org | In histories of the Zhou conquest of Shang, the Duke of Zhou pursued the Shang king Di Xin's minister Feilian to the seacoast and killed him there. | the Duke of Zhou pursued Shang king Di Xin's minister Feilian to the seacoast and killed him there. |
 
 
 ## qiongqi — lulus-otomatis
 
-Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -254,27 +255,32 @@ Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
 | qiongqi-c02 | loose | en.wikipedia.org | Its name is interpreted as exhaustively strange. | Qiongqi (窮奇) literally means "exhaustively strange". |
 | qiongqi-c03 | exact | en.wikipedia.org | The Records of the Grand Historian portrays it as Shaohao's child acting disloyally and lying. | Qiongqi is mentioned in the Records of the Grand Historian as Shaohao's failed child, devoid of ability, who would act in bad faith, decry loyalty, and would speak only lies. Causing chaos across the Three Sovereigns and Five Emperors period, he would eventually be banished by Emperor Shun of the Youyu clan to the far reaches of the region. |
 | qiongqi-c04 | exact | en.wikipedia.org | The Shanhaijing gives two conflicting descriptions of Qiongqi. | Qiongqi is given two conflicting descriptions in the Classic of Mountains and Seas. |
+| qiongqi-c05 | exact | zh.wikisource.org | This text says that on Mount Gui there lives a beast shaped like an ox with hedgehog-like bristles, named Qiongqi, whose cry is like a barking dog, and that it "eats people". | 曰邽〈音圭〉山。其上有獸焉，其狀如牛，猬毛，名曰窮奇，音如獆狗，是食人 |
+| qiongqi-c06 | exact | zh.wikisource.org | This text says Qiongqi is shaped like a winged tiger, eats people starting from the head, the people it eats have disheveled hair, and it lives north of Taoquan; another version says it starts from the feet. | 窮奇狀如虎，有翼，食人從首始，所食被髮，在蜪犬北。一曰從足。 |
+| qiongqi-c07 | exact | en.wikipedia.org | The Book of Gods and Strange Things embellishes the second description, adding that Qiongqi understands human speech; if it hears people fighting it eats the one in the right, if it hears one who is loyal and trustworthy it eats their nose, and if it hears someone wicked it kills a beast to feed them. | The second account is embellished in the Book of Gods and Strange Things, which, in addition to the above description, also claims that Qiongqi understands human speech. ... If it hears people fighting, it will eat the one in the right, and if it hears one who is loyal and trustworthy, it will eat their nose. If it hears someone wicked, it will kill a beast to feed them. |
+| qiongqi-c08 | exact | en.wikipedia.org | The Zuo Zhuan speaks to similar effect but goes further, stating that the Qiongqi elevated lies, spread false accusations, and would stay quiet before slandering people. | The Zuo Zhuan speaks to similar effect, but goes further, stating that the Qiongqi elevated lies, spread false accusations, and would stay quiet before slandering people. |
+| qiongqi-c09 | exact | en.wikipedia.org | In the biographies it is also written that Qiongqi resides in a place called Yunmeng in the State of Chu. | In the biographies, he also writes that it resides in a place called Yunmeng (雲夢 ) in the State of Chu. |
+| qiongqi-c10 | exact | en.wikipedia.org | Qiongqi is featured in the Shin Megami Tensei franchise, particularly the Devil Children games, as a recruitable demon, using the description from the Classic of the Northern Seas' Inner Realm in the Classic of Mountains and Seas. | Qiongqi is featured in the Shin Megami Tensei franchise, particularly the Devil Children games, as a recruitable demon, using the description from the Classic of the Northern Seas' Inner Realm (海內北經 ) of the Classic of Mountains and Seas. |
 
 
 ## shenlong — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shenlong-c01 | exact | en.wikipedia.org | Shenlong is a Chinese mythological spirit dragon governing rain and tempests. | Shenlong (simplified Chinese: 神龙; traditional Chinese: 神龍; pinyin: shén lóng, literally "god dragon" or "divine dragon", Japanese: 神龍, shinryū) is the spirit dragon from Chinese mythology who is the dragon god of the tempest and also a master of rain. |
 | shenlong-c02 | exact | en.wikipedia.org | Shenlong is described as a god of tempest and master of rain. | is the spirit dragon from Chinese mythology who is the dragon god of the tempest and also a master of rain. |
+| shenlong-c03 | exact | zh.wikisource.org | This classical text, the Guanzi, states that the dragon (龍) is born in water and roams wearing five colors, hence it is "shen" (divine); it can shrink to a silkworm, grow so large it hides beneath heaven, rise above the clouds or descend into deep springs, and its changes are not bound to day or time. | 龍生於水，被五色而游，故神。欲小則化如蠶蠋，欲大則藏於天下，欲上則凌於雲氣，欲下則入於深泉。變化無日，上下無時，謂之神。 |
+| shenlong-c04 | exact | en.wikipedia.org | The spiritual dragon is azure-scaled and governs the storms, clouds and rain on which all agricultural life depends. | The spiritual dragon is azure-scaled and governs the storms, clouds, and rain on which all agricultural life depends. |
+| shenlong-c05 | exact | zh.wikisource.org | In the classical dictionary text Shuowen Jiezi, the dragon (龍) is the chief of scaly creatures; it can be hidden or bright, small or huge, short or long, rising to heaven at the spring equinox and diving into the deep at the autumn equinox. | 龍（ ）：鱗蟲之長。能幽，能明，能細，能巨，能短，能長；春分而登天，秋分而潛淵。 |
+| shenlong-c06 | exact | zh.wikisource.org | Li Shizhen's Bencao Gangmu says the dragon has a "Boshan", also called "chimu", on its head, without which it cannot ascend to heaven, and that its breath forms clouds and it can change into water or fire. | 頭上有博山，又名尺木，龍無尺木不能升天。呵氣成雲，既能變水，又能變火。 |
+| shenlong-c07 | exact | zh.wikisource.org | According to the Bencao Gangmu, the dragon's nature is rough and fierce; it loves fine jade and kongqing and is fond of swallow meat, and fears iron, wangcao grass, centipedes, chinaberry leaves and five-colored silk. | 龍性粗猛，而愛美玉、空青，喜嗜燕肉，畏鐵及菵草、蜈蚣、楝葉、五色絲。 |
 
 
 ## shojo — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -283,14 +289,17 @@ Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
 | shojo-c03 | exact | en.wikipedia.org | Shōjō also denotes orangutans and may describe people fond of alcohol. | The Chinese characters are also a Japanese (and Chinese) word for orangutan, and can also be used in Japanese to refer to someone who is particularly fond of alcohol. |
 | shojo-c04 | exact | en.wikipedia.org | Shōjō names a Noh mask and a Kabuki stage-makeup type. | A Noh mask called the shōjō exists (cf. §Noh); also, in Kabuki, a type of stage makeup (kumadori) is called the shōjō. |
 | shojo-c05 | exact | en.wikipedia.org | Japanese tale portrayals give it a red face and hair and a fondness for alcohol. | The shōjō has been represented as a sea spirit with a red face and hair and a fondness for alcohol as part of Japanese folktale tradition. |
+| shojo-c06 | exact | zh.wikisource.org | This classical text, the Shanhaijing, mentions a beast shaped like a yu (a monkey-like animal) with white ears that goes bent over but runs like a person, named 狌狌 (shengsheng), and eating it makes one good at running. | 有獸焉，其狀如禺〈禺似獼猴而大赤目，長者不了此物名禺。作牛字圖，亦做牛形或作猴，皆失之也。禺字音遇，〉而白耳，伏行人走，其名曰狌狌〈狌狌，禺獸。狀如猿，伏行交足亦此類也。見《京房易》〉，食之善走。 |
+| shojo-c07 | exact | zh.wikisource.org | This classical text, the Shanhaijing, puts the forest 氾林, three hundred li square, east of the 狌狌; the 狌狌 know the names of people, are beasts like pigs but with human faces, and are located west of Shun's burial place. | 氾林方三百里，在狌狌東。 狌狌知人名，其為獸如豕而人面，在舜葬西。 |
+| shojo-c08 | exact | en.wikipedia.org | In the passage on the Bencao Gangmu, citing Ruan Qian, the method Vietnamese locals in the Fengxi area used to capture the xingxing is described: they would leave straw sandals and liquor by the roadside to lure them; they examine the goods and go away at first, but return to try on the sandals and drink the wine, at which point they can be captured. | It cites Ruan Qian (阮汧 ) from the Tang dynasty period regarding the method the Vietnamese locals in Fengxi (封溪 ) county used to capture the xingxing. ... They would leave straw sandals and liquor by the roadside to lure them; the creatures examine these goods but go away at first, but they return to try on the sandals and drink the wine, at which point they can be captured. |
+| shojo-c09 | exact | en.wikipedia.org | In the Noh play Shōjō, the shōjō disguised as a human buys sake in large quantity yet his face never flushes; he then appears in his true form, drinks, dances ecstatically and rewards the seller by making his sake vat perpetually refill itself. | The protagonist (shite) shōjō disguised as a human buys from him in large quantity, but his face never becomes flushed despite the heavy drinking. ... The shōjō appears in its true form, drinks the sake, getting drunk and dancing ecstatically, then rewarding the sake seller by making his sake vat perpetually refill itself. |
+| shojo-c10 | exact | en.wikipedia.org | The Shōjō doll was a hariko (papier-mâché) like the daruma, considered a lucky item (engimono) placed on the hearth, and was supposed to contract the pox in place of the family. | The Shōjō doll was a hariko (papier-mâché) like the daruma ... It was considered a lucky item (engimono), placed on the hearth (kamado), and was supposed to contract the pox in place of the family. |
+| shojo-c11 | exact | en.wikipedia.org | The shōjō has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since it is a popular subject for these carvings. | It has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since the shōjō is a popular subject for these carvings. |
 
 
 ## tiangou — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -300,14 +309,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tiangou-c04 | exact | en.wikipedia.org | The adverse variant portrays it as a black dog that eats the moon. | As a bad spirit, it is a black dog that eats the Moon. According to the legends, as an interpretation of a lunar eclipse, after Houyi shot down the nine Suns in the sky, he was awarded with an immortality-granting pill by the Queen Mother of the West. Before he could eat it, his wife Chang'e consumed the elixir of immortality. Chang'e felt her body getting lighter and flew away. |
 | tiangou-c05 | exact | en.wikipedia.org | One tale describes the Queen Mother of the West capturing the dog and making it heaven's gatekeeper. | After being informed of this, the Queen Mother of the West captured the dog. Surprised to see that the dog was actually Hou Yi's, she assigned him to guard the gates of heavens and bestowed upon him the title of Tiangou. Tiangou spat the Moon and Chang'e back out, and Chang'e continued living on the Moon. |
 | tiangou-c06 | exact | en.wikipedia.org | Zhang Xian is portrayed as its adversary using a bow and arrows. | Zhang Xian (Chinese: 張仙; pinyin: Zhāng Xiān) is the enemy of the tiangou. It is said that he protects his children from the dog god with his bow and arrows. He is often depicted aiming at the sky, waiting for the beast to appear. |
+| tiangou-c07 | exact | zh.wikisource.org | This classical text, the Shanhaijing, says that on Mount Yin there is a beast shaped like a 狸 (a wildcat-like small animal) with a white head, named Tiangou ("heavenly dog"), whose cry sounds like "liuliu", and which can be used to ward off calamity. | 曰陰山。濁浴之水出焉，而南流注于蕃澤，其中多文貝〈餘泉蚳之𩔖也，見爾雅。〉。有獸焉，其狀如狸〈或作豹。〉而白首，名曰天狗，其音如榴榴〈或作猫猫。〉，可以禦凶。 |
+| tiangou-c08 | exact | zh.wikisource.org | This historical text, the Shiji, describes the 天狗 as a heavenly sign shaped like a great shooting star, with sound, whose lower part settles on the ground resembling a dog; where it falls it looks like blazing fire reaching heaven, and it portends armies broken and generals killed for a thousand li. | 天狗，狀如大奔星，〈【集解】孟康曰：「星有尾，旁有短彗，下有如狗形者，亦太白之精。」〉有聲，其下止地，類狗。所墮及，望之如火光炎炎〈【索隱】艷音也。〉衝天。其下圜如數頃田處，上兌者則有黃色，千里破軍殺將。 |
+| tiangou-c09 | exact | en.wikipedia.org | Zhang Xian is the god of birth and the protector of male children; many sought him to give them male offspring and to protect their living sons. | Zhang Xian (Chinese: 張仙; pinyin: Zhāng Xiān) is the enemy of the tiangou. ... He is the god of birth and the protector of male children. Many sought for him to give them male offspring and to protect their living sons. |
+| tiangou-c10 | exact | en.wikipedia.org | In the legend, a black dog Hou Yi was rearing went into Chang'e's room and licked the remains of the immortality pill, chased after her getting bigger and bigger, and ate the Moon along with Chang'e. | Seeing this, a black dog that Hou Yi was rearing went inside her room and licked the remains of the pill. He then chased after Chang'e, getting bigger and bigger. Chang'e, terrified, hid on the Moon. The black dog then ate the Moon, along with Chang'e. |
+| tiangou-c11 | exact | en.wikipedia.org | In the tale, Tiangou spat the Moon and Chang'e back out, and Chang'e continued living on the Moon. | Tiangou spat the Moon and Chang'e back out, and Chang'e continued living on the Moon. |
 
 
 ## xingtian — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -317,14 +328,16 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | xingtian-c04 | exact | en.wikipedia.org | Chapter seven of the Shanhaijing records Xingtian's resistance. | Xingtian appears in chapter 7 of the Classic of Mountains and Seas, which states that he fought and lost against the supreme god to become the supreme divinity. The god decapitated Xingtian and buried his head on Changyang Mountain. However, Xingtian persevered, using his nipples as his eyes, using his navel as his mouth, and brandishing his shield and axe. |
 | xingtian-c05 | exact | en.wikipedia.org | He uses his nipples as eyes and navel as mouth while dancing with axe and shield. | Xingtian and the Supreme God Di came to this place and struggled against each other for ultimate power. The Supreme God cut off Xingtian's head and buried him at Eternally Auspicious Mountain. Xiangtian's nipples then transformed into eyes, and his navel became a mouth. He performs a dance with an axe and shield." |
 | xingtian-c06 | exact | en.wikipedia.org | Luo Mi's Lushi links him to music for farming activities. | In Luo Mi's Lushi from the Southern Song period, Xingtian is described as a minister of the Yan Emperor, who composed music for farmers for plowing and harvesting. |
+| xingtian-c07 | exact | zh.wikisource.org | This classical text says Xingtian (written 刑天, with a variant 形天) contended with the Di for divinity; the Di cut off his head and buried it on Mount Changyang, and he then used his nipples as eyes and his navel as a mouth, wielding shield and axe in dance. | 刑一作「形」天與帝 爭神一作「至此爭神」，帝斷其首，葬之常羊之山，乃以乳為目，以臍為口，操干戚以舞。 |
+| xingtian-c08 | exact | zh.wikisource.org | In this poem the poet writes that Jingwei holds twigs in her bill to fill the deep-blue sea, and Xingtian dances with shield and axe, his fierce will ever present; after blending with things no anxieties remain, and after transforming no regrets. | 精衛銜微木，將以填滄海； 刑天舞干戚，猛志故常在。 同物既無慮，化去不復悔。 |
+| xingtian-c09 | exact | en.wikipedia.org | The scholar Guo Pu celebrated Xingtian's defiant spirit in an encomium, mentioning the similarity between Xingtian and the corpse of Geng of the Xia since both were characters who regenerated and continued their resistance. | The scholar Guo Pu celebrated Xingtian's defiant spirit in an encomium. ... He mentions the similarity between Xingtian and the corpse of Geng of the Xia, since they were both characters who regenerated and continued their resistance. |
+| xingtian-c10 | exact | en.wikipedia.org | In the Huainanzi, Xingtian is called the corpse of Xingcan (形殘之尸). | In the Huainanzi, Xingtian is called the corpse of Xingcan |
+| xingtian-c11 | exact | en.wikipedia.org | Xingtian symbolizes the indomitable spirit which maintains the will to resist no matter what tribulations one may undergo or what troubles one may encounter. | Xingtian symbolizes the indomitable spirit which maintains the will to resist no matter what tribulations one may undergo or what troubles one may encounter. |
 
 
 ## bashe — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -332,6 +345,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | bashe-c02 | exact | en.wikipedia.org | Its name combines elements for an elephant-eating snake and a serpent. | The term bashe compounds ba 巴 "elephant-eating snake" and she 蛇 "snake; serpent". |
 | bashe-c03 | exact | en.wikipedia.org | Bashe has also been used as an alternative name for pythons. | Bashe not only names this mythical giant reptile but is also a variant Chinese name for the South Asian ran 蚺 or mang 蟒 "python" (and South American "boa constrictor" or African "mamba"). |
 | bashe-c04 | exact | en.wikipedia.org | Early Bashe references occur in the Chu Ci and Shanhaijing. | The earliest references to the legendary bashe 巴蛇 are in the Chuci and Shanhaijing, two Chinese classic texts containing Warring States period (475 BCE – 221 BCE) materials compiled during the Han dynasty (206 BCE – 220 CE). |
+| bashe-c05 | exact | zh.wikisource.org | This classical text says the 巴蛇 eats elephants and disgorges the bones after three years; a gentleman who takes it has no illness of heart or belly; the snake is green-blue, yellow, red or black, with another account of a black snake with a green-blue head, located west of the rhinoceros. | 巴蛇食象，三歲而出其骨，君子服之，無心腹之疾。其為蛇青黃赤黑。一曰黑蛇青首，在犀牛西。 |
+| bashe-c06 | exact | en.wikipedia.org | Guo Pu's commentary on the Shanhaijing compares the ba snake with the southern ran 蚺 (python), which after eating a large animal can wind around a tree trunk and expel the bones from between its scales, and notes they could grow up to 100 xun in length. | The Shanhaijing commentary by Guo Pu (276–324 CE) compares the ba snake with the southern ran 蚺 "python", which after eating a large animal can wind around a tree trunk and expel the bones from between its scales and notes they could grow up to a length of 100 xun |
+| bashe-c07 | exact | en.wikipedia.org | In literary usage, bashe is found in the four-character idiom bashetunxiang (巴蛇吞象, "ba-snake gulping down an elephant"), meaning inordinately greedy and extremely insatiable. | In literary usage, bashe is found in the four-character idiom bashetunxiang 巴蛇吞象 (lit. "ba-snake gulping down an elephant") meaning "inordinately greedy; extremely insatiable". |
+| bashe-c08 | exact | en.wikipedia.org | The folklore scholar Wolfram Eberhard links bashe with the legendary archer Houyi, who descended from heaven to destroy evildoers; one of Houyi's victims was a monstrous serpent in Lake Dongting. | The Chinese folklore scholar Wolfram Eberhard links bashe with the legendary archer Houyi 后翌 who descended from heaven to destroy evildoers. One of Houyi's victims was a monstrous serpent in Lake Dongting, |
 
 
 ## kui-chinese-mythology — lulus-otomatis
@@ -366,10 +383,7 @@ Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
 
 ## luanniao — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -378,6 +392,9 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | luanniao-c03 | exact | en.wikipedia.org | The Shuowen Jiezi describes red coloring, five-colored markings, and a chicken-like body. | The Shuowen Jiezi defines the bird as born from the sperm of Chìdì. It is red in colour with five-coloured markings. Its body is shaped like that of a chicken. It sings in the five standard pitches and appears when hymns of praise are sung to rulers. It also described the luan as being "the essence of divine birds". |
 | luanniao-c04 | exact | en.wikipedia.org | The Sancai Tuhui calls this bird a transformation of a divine spirit. | The Sancai Tuhui states that the bird is the transformation of a divine spirit. |
 | luanniao-c05 | exact | en.wikipedia.org | The Wakan Sansai Zue says its blood can serve as adhesive for musical-instrument strings. | The Japanese Wakan Sansai Zue of the Edo period further states that due to the viscosity of the luan's blood, it could be used as an adhesive for attaching strings to musical instruments. |
+| luanniao-c06 | exact | zh.wikisource.org | This classical text says that on Mount Nüchuang there is a bird shaped like a zhai (a long-tailed bird) with five-colored markings, named Luanniao, and when it is seen the world is at peace. | 曰女牀之山，其陽多赤銅，其陰多石涅〈即楚石也，楚人名為涅石，秦名為羽涅也，本草經亦名曰石涅也。〉，其獸多虎豹犀兕。有鳥焉，其狀如翟而五采文〈翟似雉而大長尾，或作𪇱。𪇱，鵰屬也。〉，名曰鸞鳥，見則天下安寧 |
+| luanniao-c07 | exact | en.wikipedia.org | Like the fenghuang, a sighting of the luan indicates an omen of peace; an early legend says the luan was presented as tribute by northwestern tribes to King Cheng of Zhou as a symbol of submission to his virtue. | Like the fenghuang, a sighting of the luan indicates an omen of peace. An early legend thought to be from the Warring States period states that the luan was presented as a tribute by northwestern tribes to King Cheng of Zhou as a symbol of submission to his virtue. |
+| luanniao-c08 | exact | en.wikipedia.org | In the Classic of Mountains and Seas, the luan is described as one of the three five-coloured birds, along with the huang and feng birds; the luan would sing while the feng would dance to accompany it. | In the Classic of Mountains and Seas, the luan is described as being one of the three five-coloured birds, along with huang and feng bird. The luan would sing while the feng would dance to accompany it. |
 
 
 ## qianliyan — lulus-otomatis
@@ -462,10 +479,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## zouyu — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 1, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -475,6 +489,9 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | zouyu-c04 | exact | en.wikipedia.org | Zouyu appears fierce like a tiger but is gentle and strictly vegetarian. | The zouyu appears in a number of later works, where it is described as a "righteous" animal that, similarly to a qilin, only appears during the rule of a benevolent and sincere monarch. It is said to be as fierce-looking as a tiger, but gentle and strictly vegetarian, and described in some books (already in Shuowen Jiezi) as a white tiger with black spots. |
 | zouyu-c05 | exact | en.wikipedia.org | In 1404, Zhu Su sent a creature described as Zouyu to the Yongle Emperor. | In 1404, during the reign of the Yongle Emperor, Prince Zhu Su, his relative from Kaifeng (in modern-day Henan province) sent him a captured zouyu spotted and captured in Shenhou |
 | zouyu-c06 | exact | en.wikipedia.org | Some modern authors propose the giant panda as the animal identified as Zouyu. | Puzzled about the real zoological identity of the zouyu said to be captured during the Yongle era, Duyvendak exclaimed, "Can it possibly have been a Pandah?" Following him, some modern authors consider zouyu to refer to the giant panda. |
+| zouyu-c07 | exact | zh.wikisource.org | This classical text, the Shanhaijing, says the land of Linshi has a rare beast as large as a tiger, with all five colors, a tail longer than its body, named 騶吾 (zouwu), and that riding it one can cover a thousand li in a day. | 林氏國有珍獸，大若虎，五采畢具，尾長于身，名曰騶吾，乘之日行千里。 |
+| zouyu-c08 | exact | en.wikipedia.org | The zouyu sightings were mentioned by contemporaneous authors as good omens, along with the Yellow River running clear and the delivery of a qilin by a Bengal delegation that arrived in China aboard Zheng He's fleet. | The zouyu sightings were mentioned by contemporaneous authors as good omens, along with the Yellow River running clear and the delivery of a qilin (i.e., an African giraffe) by a Bengal delegation that arrived to China aboard Zheng He's fleet. |
+| zouyu-c09 | exact | en.wikipedia.org | Riordan & Shi (2016) propose that zouyu and other words for some enigmatic pantherine predators in ancient Chinese texts possibly denoted snow leopards. | Riordan & Shi (2016) propose that zouyu ("驺瑜 [sic]") and other words for some enigmatic pantherine predators in ancient Chinese texts possibly denoted snow leopards. |
 
 
 ## egg-ghost — lulus-otomatis
