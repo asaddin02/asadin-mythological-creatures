@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-145",
-  "checked_at": "2026-09-30T09:11:47.900Z",
+  "checked_at": "2026-10-06T15:15:46.223Z",
   "files": [
-    "batch-145.md"
+    "batch-145.md",
+    "batch-145-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "mogollon-monster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "948a3552394bf23019e855fb6ebe8ebc7dc13b6ff67d9bad1fbebccd85e7ea2f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mogollon-monster-c01",
@@ -63,6 +59,126 @@
           "quote": "In numerous reports, the monster has been said to emit a \"blood-curdling\" scream; described as sounding like a woman in \"great distress\".",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c05",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its body is said to be covered with long black or reddish brown hair, except for the chest, face, hands and feet.",
+          "statement_id": "Tubuhnya konon tertutup rambut panjang hitam atau cokelat kemerahan, kecuali dada, wajah, tangan, dan kaki.",
+          "quote": "Its body is said to be covered with long black or reddish brown hair, with the exclusion of the chest, face, hands and feet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c06",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Reports claim it has a strong, pungent odor described as that of dead fish, a skunk with bad body odor, decaying peat moss and the musk of a snapping turtle.",
+          "statement_id": "Laporan menyebut ia berbau tajam dan menyengat, digambarkan seperti ikan mati, sigung yang berbau badan, lumut gambut yang membusuk, dan musk kura-kura buas.",
+          "quote": "Reports claim it has a strong and pungent odor described as that of \"dead fish, a skunk with bad body odor, decaying peat moss and the musk of a snapping turtle\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c07",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is generally reported to mimic birds, coyotes and other wildlife, emit unusual whistle sounds, explore campsites after dark, build nests out of pine needles, twigs and leaves, and hurl stones from hidden locations.",
+          "statement_id": "Makhluk ini umumnya dilaporkan meniru burung, coyote, dan satwa liar lain, mengeluarkan siulan aneh, menjelajahi perkemahan setelah gelap, membuat sarang dari daun pinus, ranting, dan dedaunan, serta melempar batu dari tempat yang tersembunyi.",
+          "quote": "mimic birds, coyotes and other wildlife; emit unusual whistle sounds; explore campsites after dark; build nests out of pine needles, twigs, and leaves; and hurl stones from locations that are hidden from view.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c08",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Generally, the scientific community attributes sightings of the creature to either hoaxes or misidentification.",
+          "statement_id": "Pada umumnya komunitas ilmiah menganggap penampakan makhluk ini sebagai tipuan atau salah kenal.",
+          "quote": "Generally, the scientific community attributes creature sightings to either hoaxes or misidentification.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c09",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The oldest known reported sighting was in the 1903 edition of The Arizona Republican, in which I.W. Stevens described a creature seen near the Grand Canyon.",
+          "statement_id": "Laporan penampakan tertua yang diketahui terdapat dalam edisi 1903 The Arizona Republican, tempat I.W. Stevens menggambarkan makhluk yang terlihat di dekat Grand Canyon.",
+          "quote": "The oldest known reported sighting was in the 1903 edition of The Arizona Republican, in which I.W. Stevens described a creature seen near the Grand Canyon",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c10",
+          "source_id": "mogollon-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He later stated that after he discovered the creature drinking the blood of two cougars, it threatened him with a club.",
+          "statement_id": "Ia kemudian menyatakan bahwa setelah ia menemukan makhluk itu sedang meminum darah dua ekor puma, makhluk itu mengancamnya dengan pentungan.",
+          "quote": "He later stated that after he discovered the creature drinking the blood of two cougars, it threatened him with a club",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c11",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "The first-known report of a mysterious creature living in the area comes from a 1903 newspaper account by a man named I.W. Stevens.",
+          "statement_id": "Laporan pertama yang diketahui tentang makhluk misterius di kawasan itu berasal dari catatan surat kabar tahun 1903 oleh seorang pria bernama I.W. Stevens.",
+          "quote": "The first-known report of a mysterious creature living in the area comes from a 1903 newspaper account by a man named I.W. Stevens.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c12",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "Stevens said the monster gave out an unearthly scream and threatened him with a large club; he also claimed the creature beat two young mountain lions to death and ate them.",
+          "statement_id": "Stevens mengatakan makhluk itu mengeluarkan jeritan yang tidak wajar dan mengancamnya dengan pentungan besar; ia juga mengaku melihatnya memukuli dua ekor singa gunung muda sampai mati lalu memakannya.",
+          "quote": "Stevens said the monster gave out an “unearthly” scream and threatened him with a large club. He also claimed the creature beat two young mountain lions to death and ate them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c13",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "One story says the monster was once a Native American chief exiled from his tribe, who transformed into a creature that wandered the pine forests seeking revenge for his mistreatment.",
+          "statement_id": "Menurut satu cerita, makhluk itu dulunya kepala suku Indian Amerika yang diasingkan dari sukunya; sang kepala suku berubah menjadi makhluk yang berkelana di hutan pinus untuk membalas perlakuan buruk padanya.",
+          "quote": "Another story says the monster was once a Native American chief who was exiled from his tribe. The chief transformed into a creature that wandered the pine forests seeking revenge for his mistreatment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c14",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "Although no credible scientific evidence has been found for the monster’s existence, the creature has become engrained in local folklore and has even inspired an annual endurance race in the region.",
+          "statement_id": "Meski belum ditemukan bukti ilmiah yang kredibel tentang keberadaannya, makhluk ini telah mengakar dalam cerita rakyat setempat dan bahkan mengilhami lomba ketahanan tahunan di daerah itu.",
+          "quote": "Although no credible scientific evidence has been found for the monster’s existence, the creature has become engrained in local folklore and has even inspired an annual endurance race in the region.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c15",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "Although almost unknown outside of the Mogollon Rim area, the creature has become part of the local cultural landscape.",
+          "statement_id": "Meski nyaris tidak dikenal di luar kawasan Mogollon Rim, makhluk ini telah menjadi bagian dari lanskap budaya setempat.",
+          "quote": "Although almost unknown outside of the Mogollon Rim area, the creature has become part of the local cultural landscape.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mogollon-monster-c16",
+          "source_id": "mogollon-monster-s2",
+          "host": "www.ebsco.com",
+          "statement": "It has been the subject of a folk song warning children not to litter and is the namesake of the annual Mogollon Monster 100, a 106-mile endurance race typically held in September.",
+          "statement_id": "Makhluk ini menjadi subjek lagu rakyat yang memperingatkan anak-anak agar tidak membuang sampah sembarangan dan menjadi nama lomba ketahanan tahunan Mogollon Monster 100 sepanjang 106 mil yang biasanya digelar pada September.",
+          "quote": "It has been the subject of a folk song warning children not to litter and is the namesake of the annual Mogollon Monster 100, a 106-mile endurance race typically held in September.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
@@ -84,24 +200,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ea1bff79ebbb8701f2fb61b35ab076a6c0384aea8f9cdabf426504e9c51362cc"
     },
     {
       "slug": "nguruvilu",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "eb2025f360fedfbcde33296d802a006ae0330041f21511658cfa0d305a108cf8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nguruvilu-c01",
@@ -152,26 +264,131 @@
           "quote": "causing the natives to avoid bathing in the lakes where the beast occurs.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c06",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides Nguruvilu, the creature is also called Guruvilu, Guirivilu and Guirivilo.",
+          "statement_id": "Selain Nguruvilu, makhluk ini disebut juga Guruvilu, Guirivilu, dan Guirivilo.",
+          "quote": "The Nguruvilu or Guruvilu, Guirivilu, Guirivilo, etc.,",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c07",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nguruvilus live in dangerous whirlpools that kill people trying to cross rivers; they make the water shallow on either ford so that crossing seems safe.",
+          "statement_id": "Nguruvilu hidup di pusaran air berbahaya yang membunuh orang yang mencoba menyeberangi sungai; mereka membuat air dangkal di kedua sisi arungan agar penyeberangan tampak aman.",
+          "quote": "Nguruvilus live in dangerous whirlpools which kill people who try to cross rivers. The creatures make the water shallow on either ford, to encourage people to try to cross it making it seem safe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c08",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Later sources describe the nguruvilu with the face of a puma or wildcat and a clawed tail (or many claws).",
+          "statement_id": "Sumber-sumber yang lebih belakangan menggambarkan nguruvilu berwajah puma atau kucing liar dengan ekor bercakar (atau banyak cakar).",
+          "quote": "Later sources describe the nguruvilu with the face of a puma or wildcat and a clawed tail (or many claws).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c09",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "For a layman, the only way to get rid of a nguruvilu is through a machi (shaman) or a good kalku (sorcerer).",
+          "statement_id": "Bagi orang awam, satu-satunya cara menyingkirkan nguruvilu adalah lewat jasa seorang machi (dukun) atau kalku (penyihir) yang baik.",
+          "quote": "(For a layman), the only way to get rid of a nguruvilu is through the offices of a machi (shaman) or good kalku \"sorcerer\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c10",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kalku (male or female) wades through the river to the whirlpool and dives in, then swims to the surface having captured the Nguruvilu in their arms with powerful magical abilities.",
+          "statement_id": "Kalku (laki-laki atau perempuan) mengarungi sungai sampai ke pusaran lalu menyelam, kemudian berenang ke permukaan sambil memeluk Nguruvilu yang ditangkapnya dengan kemampuan sihirnya.",
+          "quote": "The kalku (who may be male or female) wades through the river until they reach the whirlpool and then dives in. Afterwards, they swim to the surface having captured the Nguruvilu in their arms with their powerful magical abilities.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c11",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lehmann-Nitsche (1902) wrote that, according to his informant Nahuelpi, the fox-viper was believed to do no harm so long as a certain form of worship was performed.",
+          "statement_id": "Lehmann-Nitsche (1902) menulis bahwa menurut informannya, Nahuelpi, ular-rubah dipercaya tidak mencelakai selama orang menjalankan bentuk ibadah tertentu.",
+          "quote": "Lehmann-Nitsche (1902) wrote that according to his informant Nahuelpi, it was believed that the fox-viper did no harm so long as they performed a certain form of worship.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c12",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was taboo to call it by name, and the circumlocution \"lord of the water\" was used.",
+          "statement_id": "Memanggil namanya langsung dianggap tabu, dan sebutan lain \"penguasa air\" dipakai sebagai gantinya.",
+          "quote": "It was taboo to call it by name, and the circumlocution \"lord of the water\" was used.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c13",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Anthropologist Robert Lehmann-Nitsche was of the opinion that the myth of this creature originated from observations of the otter, specifically the marine otter Lutra felina.",
+          "statement_id": "Antropolog Robert Lehmann-Nitsche berpendapat bahwa mitos makhluk ini berasal dari pengamatan terhadap berang-berang, khususnya berang-berang laut Lutra felina.",
+          "quote": "Anthropologist Robert Lehmann-Nitsche was of the opinion that the myth of this creature originated from observations of the otter, more particularly Lutra felina G. I. Molina, i.e. marine otter",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c14",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some described it as fox-headed with a serpent's body, but others claimed it was like a round, bloated ox hide.",
+          "statement_id": "Sebagian menggambarkannya berkepala rubah dan bertubuh ular, tetapi yang lain menyebutnya seperti kulit lembu yang bundar dan menggembung.",
+          "quote": "Some described it as fox-headed with the body of a serpent (as its name suggests), but others claimed it was like a round bloated ox hide",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c15",
+          "source_id": "nguruvilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Mapuche sourced by Tomás Guevara (1908), it is a river-dwelling beast with a cat-like head, a small slender body and an extremely long fox-like tail.",
+          "statement_id": "Menurut orang Mapuche yang menjadi narasumber Tomás Guevara (1908), ia binatang sungai berkepala mirip kucing, bertubuh kecil dan ramping, dengan ekor sangat panjang seperti rubah.",
+          "quote": "a river-dwelling beast with a cat-like head, a small and slender body, and an extremely long tail like the fox's, according to the Mapuche sourced by ethnologist Tomás Guevara (1908)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nguruvilu-c16",
+          "source_id": "nguruvilu-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "A mythology dictionary describes a monster half fox and half serpent that usually lives in muddy waters.",
+          "statement_id": "Sebuah kamus mitologi memerikan monster setengah rubah setengah ular yang biasanya hidup di perairan berlumpur.",
+          "quote": "mitad zorro y mitad serpiente que suele vivir en aguas cenagosas",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "pincoya",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "a8e74feccff10a585389a1ac08274a1ae83e1e8011c301297fda69dc165e43bd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pincoya-c01",
@@ -242,26 +459,81 @@
           "quote": "The three siblings lead and guide the drowned sailors onto a large phantom ship, the Caleuche",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pincoya-c08",
+          "source_id": "pincoya-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "She is described with a naked body, hair between reddish and blond, and beautiful feminine lines.",
+          "statement_id": "Ia digambarkan bertubuh telanjang, berambut antara kemerahan dan pirang, dengan lekuk tubuh perempuan yang indah.",
+          "quote": "PINCOYA: f. ... Su cuerpo desnudo, su cabellera entre rojiza y rubia, y sus hermosas lineas femeninas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoya-c09",
+          "source_id": "pincoya-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "The enchantresses with their powers kept her under their control and, through sowings and other rituals, made the Pincoya fertilize a beach, an estuary or a fishing or shellfish site.",
+          "statement_id": "Para encantadoras dengan kekuatannya dianggap mengendalikannya dan, lewat penaburan dan ritual lain, membuat Pincoya menyuburkan pantai, muara, atau tempat menangkap ikan dan kerang.",
+          "quote": "Las encantadoras con sus poderes la mantenian bajo su control y, mediante siembras ... y otros rituales, lograban que la Pincoya fertilizara una playa, un estero o un sitio de pesca o marisca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoya-c10",
+          "source_id": "pincoya-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "Unlike the Sirena, the Pincoya has no fish tail.",
+          "statement_id": "Berbeda dengan Sirena, Pincoya tidak berekor ikan.",
+          "quote": "PINCOYA: f. ... A diferencia de la Sirena, ... no posee cola de pescado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoya-c11",
+          "source_id": "pincoya-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "The Pincoya is a protective patroness of the shellfish and fish of the coast.",
+          "statement_id": "Pincoya adalah pelindung kerang-kerangan dan ikan di pesisir.",
+          "quote": "PINCOYA: f. Patrona protectora de ... mariscos y peces de la costa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoya-c12",
+          "source_id": "pincoya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chiloean mythology is appreciative of the Pincoya, who is believed to be good, beautiful and humanitarian.",
+          "statement_id": "Mitologi Chiloé menghargai Pincoya, yang dipercaya baik, cantik, dan peduli pada sesama manusia.",
+          "quote": "Chiloean mythology is appreciative of the Pincoya, believed to be good, beautiful and humanitarian.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoya-c13",
+          "source_id": "pincoya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ship appears briefly intact with sounds of a party on board but quickly vanishes; myth has it that once on board the dead can resume an existence as if alive.",
+          "statement_id": "Kapal itu tampak utuh sebentar dengan suara pesta di atasnya lalu cepat lenyap; menurut mitos, setelah naik ke kapal orang mati dapat hidup kembali seolah masih hidup.",
+          "quote": "The ship appears briefly intact with sounds of a party on board, but quickly vanishes. Myth has it that, once on board, the dead can resume an existence as if they were alive again.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "qiqirn",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "c27a849b3bcbb8894b90ad59d87963a98fccfbc0a53f9705a901935e5cb32dca",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qiqirn-c01",
@@ -312,26 +584,81 @@
           "quote": "In Rudyard Kipling's short story \"Quiquern\", the creature is described as a giant, phantasmal, toothless and hairless dog with six or eight pairs of legs.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "qiqirn-c06",
+          "source_id": "qiqirn-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A similar term, also from Inuit mythology, is keelut, a malevolent earth spirit that also appears as a hairless dog.",
+          "statement_id": "Istilah serupa dari mitologi Inuit adalah keelut, roh bumi jahat yang juga tampil sebagai anjing tak berbulu.",
+          "quote": "A similar term, also from Inuit mythology, is keelut, a malevolent earth spirit which also appears as a hairless dog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiqirn-c07",
+          "source_id": "qiqirn-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story \"Quiquern\", Quiquern is the phantom of a gigantic toothless, hairless dog said to live in the far North and to wander the country just before things are going to happen.",
+          "statement_id": "Dalam cerita \"Quiquern\", Quiquern adalah hantu anjing raksasa tak bergigi dan tak berbulu yang konon hidup di Utara yang jauh dan berkeliaran tepat sebelum suatu peristiwa terjadi.",
+          "quote": "Quiquern, too, is the phantom of a gigantic toothless dog without any hair, who is supposed to live in the far North, and to wander about the country just before things are going to happen.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "qiqirn-c08",
+          "source_id": "qiqirn-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story, not even the sorcerers care to speak about Quiquern, and he makes the dogs go mad.",
+          "statement_id": "Dalam cerita itu, bahkan para dukun tidak mau membicarakan Quiquern, dan ia membuat anjing-anjing menjadi gila.",
+          "quote": "but not even the sorcerers care to speak about Quiquern. He makes the dogs go mad.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "qiqirn-c09",
+          "source_id": "qiqirn-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story, the girl, sobbing with laughter, pushes the two shamefaced creatures towards Kotuko and cries that this is Quiquern, who led them to safe ground, with eight legs and a double head.",
+          "statement_id": "Dalam cerita itu, sang gadis sambil terisak tertawa mendorong dua makhluk yang malu itu ke arah Kotuko dan berseru bahwa itulah Quiquern yang menuntun mereka ke tanah aman, dengan delapan kaki dan kepala ganda.",
+          "quote": "The girl pushed the two shamefaced creatures towards Kotuko, and, sobbing with laughter, cried, “That is Quiquern, who led us to safe ground. Look at his eight legs and double head!”",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "qiqirn-c10",
+          "source_id": "qiqirn-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story, each of the pair was fastened sidelong to the other's neck, and this, with the freedom of hunting on their own account, must have helped to cure their madness.",
+          "statement_id": "Dalam cerita itu, masing-masing dari pasangan tersebut terikat menyamping pada leher temannya, dan hal itu bersama kebebasan berburu sendiri tentu membantu menyembuhkan kegilaan mereka.",
+          "quote": "each was fastened sidelong to his neighbour’s neck. That, with the freedom of hunting on their own account, must have helped to cure their madness.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "qiqirn-c11",
+          "source_id": "qiqirn-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two young Inuit hunters, desperate to find food for their starving tribe, believe they are guided by Quiquern, only to discover that the many-legged \"spirit\" is actually a pair of sled dogs whose collars had become entangled.",
+          "statement_id": "Dua pemburu Inuit muda yang putus asa mencari makanan untuk sukunya yang kelaparan mengira dituntun Quiquern, lalu mendapati \"roh\" berkaki banyak itu ternyata sepasang anjing penarik kereta yang kalungnya terjerat.",
+          "quote": "Two young Inuit hunters, desperate to find food for their starving tribe, believe they are being guided by Quiquern, only to discover that the many-legged \"spirit\" is actually a pair of sled dogs whose collars had become entangled.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "red-ghost-folklore",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "c5e00c9fda7985f40d0c843fe625748eeb895843277cd0300e2680c36776c8e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "red-ghost-folklore-c01",
@@ -382,26 +709,131 @@
           "quote": "When the two men returned, they found the other's wife had been trampled to death.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c06",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "In 1893, The Mohave County Miner reported on what is now an Arizona legend: the Red Ghost, a rampant camel with a dead man strapped to its back.",
+          "statement_id": "Pada 1893, The Mohave County Miner memberitakan legenda Arizona yang kini dikenal: Red Ghost, unta mengamuk dengan mayat terikat di punggungnya.",
+          "quote": "In 1893, The Mohave County Miner reported on what is now an Arizona legend: the Red Ghost, a rampant camel with a dead man strapped to its back.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c07",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "A hunter named Si Hamlin caught sight of the Red Ghost from a distance and reported he thought that the thing on its back was the body of a dead man.",
+          "statement_id": "Seorang pemburu bernama Si Hamlin melihat Red Ghost dari kejauhan dan melaporkan bahwa ia mengira benda di punggungnya adalah tubuh orang mati.",
+          "quote": "A hunter named Si Hamlin caught sight of the Red Ghost from a distance and reported he thought that something was the body of a dead man.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c08",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "When a priest named Mizoo Hastings finally shot it, he found the camel's back knotted with rawhide straps that had presumably once held on a corpse, by now disintegrated.",
+          "statement_id": "Ketika seorang pastor bernama Mizoo Hastings akhirnya menembaknya, ia mendapati punggung unta itu terikat tali kulit mentah yang tampaknya dulu menahan sesosok mayat yang kini sudah hancur.",
+          "quote": "When a priest named Mizoo Hastings finally shot it, he found the camel’s back had been knotted with rawhide straps, presumably once holding on a corpse that had by now disintegrated.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c09",
+          "source_id": "red-ghost-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend remained popular until 1893, when farmer Mizoo Hastings found the creature eating in his yard and shot it dead with a single shot.",
+          "statement_id": "Legenda ini tetap populer sampai 1893, ketika petani Mizoo Hastings mendapati makhluk itu makan di halamannya lalu menembaknya hingga mati dengan satu tembakan.",
+          "quote": "The legend remained popular until 1893, when farmer Mizoo Hastings found the creature eating in his yard and proceeded to shoot it, killing it in a single shot.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c10",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "Though the newspaper claimed sightings had been reported for ten years before the camel's death at Mr. Hastings's hands, there is no trace of earlier reports.",
+          "statement_id": "Meski surat kabar itu menyebut penampakan sudah dilaporkan selama sepuluh tahun sebelum unta itu mati di tangan Hastings, tidak ada jejak laporan yang lebih awal.",
+          "quote": "Though the newspaper claimed sightings had been reported for ten years before the camel’s death at Mr. Hastings’s hands, there is no trace of earlier reports.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c11",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "Camels did briefly roam the deserts of Arizona, set loose after the 1863 dissolution of the US Camel Corps, an army experiment in using camels to carry explorers and supplies through southwestern deserts.",
+          "statement_id": "Unta memang sempat berkeliaran di gurun Arizona setelah dilepaskan pascabubarnya US Camel Corps pada 1863, eksperimen militer memakai unta untuk mengangkut penjelajah dan perbekalan melintasi gurun barat daya.",
+          "quote": "Camels did briefly roam the deserts of Arizona, having been set loose in the aftermath of the 1863 dissolution of the US Camel Corps, an army experiment in using camels to carry explorers and supplies through southwestern deserts.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c12",
+          "source_id": "red-ghost-folklore-s2",
+          "host": "www.intermountainhistories.org",
+          "statement": "The author suggests the Red Ghost may well have been a remnant of dissolved government plans or business enterprise hopes.",
+          "statement_id": "Penulis menduga Red Ghost bisa jadi sisa dari rencana pemerintah yang dibubarkan atau harapan usaha dagang tersebut.",
+          "quote": "Our Red Ghost may well have been a remnant of either of these dissolved government plans or business enterprise hopes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c13",
+          "source_id": "red-ghost-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some posit that the corpse was a prospector dying of thirst who tied himself to the camel's back hoping it would lead him to water, while others allege a soldier was learning to ride a camel when it suddenly bolted off.",
+          "statement_id": "Ada yang menduga mayat itu seorang pendulang yang sekarat kehausan dan mengikat dirinya ke punggung unta dengan harapan unta menuntunnya ke air, sementara yang lain menyebut seorang prajurit yang sedang belajar menunggang unta ketika hewan itu tiba-tiba kabur.",
+          "quote": "with some positing that the corpse was that of a prospector dying of thirst who tied himself to the camel's back, hoping that the animal would lead him to water, while others alleged that a soldier was learning to ride a camel when the animal suddenly bolted off.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c14",
+          "source_id": "red-ghost-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One tale described the creature killing and eating a grizzly bear and another said it disappeared into thin air when chased, but the skeleton of a man on its back was a common element across the stories.",
+          "statement_id": "Satu kisah menggambarkan makhluk itu membunuh dan memakan beruang grizzly, kisah lain menyebut ia lenyap ke udara saat dikejar, tetapi kerangka manusia di punggungnya menjadi unsur umum dalam kisah-kisah itu.",
+          "quote": "one described the creature killing and eating a grizzly bear, while another said it disappeared into thin air when chased, but the skeleton of a man on its back was a common element among the stories",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c15",
+          "source_id": "red-ghost-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one sighting the creature was described as 30 feet tall and knocking over two wagons.",
+          "statement_id": "Pada satu penampakan, makhluk itu digambarkan setinggi 30 kaki dan menggulingkan dua gerobak.",
+          "quote": "this time being described as 30 feet (9.1 m) tall and knocking over two wagons",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "red-ghost-folklore-c16",
+          "source_id": "red-ghost-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A sculpture of the camel was erected in Quartzsite, Arizona, near the grave of Hi Jolly, an Ottoman camel driver who worked for the Camel Corps.",
+          "statement_id": "Sebuah patung unta itu didirikan di Quartzsite, Arizona, di dekat makam Hi Jolly, pengemudi unta Utsmaniyah yang bekerja untuk Camel Corps.",
+          "quote": "A sculpture of the camel was erected in Quartzsite, Arizona, near the grave of Hi Jolly, an Ottoman camel driver who worked for the Camel Corps.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "snallygaster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "7a9e9943f8e7a2fb1a6bfa942c1591cf709f2270b1ba56bddbba965278a62f03",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "snallygaster-c01",
@@ -452,26 +884,121 @@
           "quote": "The snallygaster was rumored to swoop silently from the sky to pick up and carry off its victims.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "snallygaster-c06",
+          "source_id": "snallygaster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest stories claim the monster sucked the blood of its victims; seven-pointed stars, which reputedly kept the snallygaster at bay, can still be seen painted on local barns.",
+          "statement_id": "Kisah-kisah paling awal menyebut monster ini menghisap darah korbannya; bintang bersudut tujuh, yang konon menjaga snallygaster tetap jauh, masih terlihat dicat di lumbung setempat.",
+          "quote": "The earliest stories claim that this monster sucked the blood of its victims. Seven-pointed stars, which reputedly kept the snallygaster at bay, can still be seen painted on local barns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c07",
+          "source_id": "snallygaster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was also said to have octopus-like tentacles.",
+          "statement_id": "Makhluk ini juga dikatakan memiliki tentakel seperti gurita.",
+          "quote": "It was also said to have octopus-like tentacles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c08",
+          "source_id": "snallygaster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Newspaper accounts throughout February and March 1909 describe encounters between residents and a beast with enormous wings, a long pointed bill, claws like steel hooks and an eye in the center of its forehead.",
+          "statement_id": "Laporan surat kabar sepanjang Februari dan Maret 1909 menggambarkan perjumpaan warga dengan binatang bersayap sangat besar, berparuh panjang runcing, bercakar seperti kait baja, dan bermata satu di tengah dahi.",
+          "quote": "Newspaper accounts throughout February and March 1909 describe encounters between local residents and a beast with \"enormous wings, a long pointed bill, claws like steel hooks, and an eye in the center of its forehead.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c09",
+          "source_id": "snallygaster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was later revealed that these reports were part of a hoax by Middletown Valley Register editor George C. Rhoderick and reporter Ralph S. Wolfe to increase readership.",
+          "statement_id": "Belakangan terungkap bahwa laporan-laporan itu bagian dari tipuan editor Middletown Valley Register George C. Rhoderick dan reporter Ralph S. Wolfe untuk menaikkan jumlah pembaca.",
+          "quote": "It was later revealed that these reports were part of a hoax perpetrated by Middletown Valley Register editor George C. Rhoderick and reporter Ralph S. Wolfe in an attempt to increase readership.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c10",
+          "source_id": "snallygaster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Early sightings led to a particular association with the Frederick County areas of South Mountain, Braddock Heights and the Middletown Valley.",
+          "statement_id": "Penampakan awal mengaitkan makhluk ini terutama dengan kawasan South Mountain, Braddock Heights, dan Middletown Valley di Frederick County.",
+          "quote": "Early sightings led to a particular association with the Frederick County areas of South Mountain, Braddock Heights, and the Middletown Valley.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c11",
+          "source_id": "snallygaster-s2",
+          "host": "preservationmaryland.org",
+          "statement": "Reports of the Snallygaster, a strange beast prowling the woods of Frederick County, have been made since the 1730s, making it one of Maryland's oldest legends.",
+          "statement_id": "Laporan tentang Snallygaster, binatang aneh yang berkeliaran di hutan Frederick County, sudah ada sejak 1730-an sehingga menjadi salah satu legenda tertua Maryland.",
+          "quote": "Reports of the Snallygaster, a strange beast prowling the woods of Frederick County, have been made since the 1730s, making it one of Maryland’s oldest legends.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c12",
+          "source_id": "snallygaster-s2",
+          "host": "preservationmaryland.org",
+          "statement": "Eighteenth-century accounts by the early German settlers refer to the beast as a Schneller Geist, or quick ghost, that rapidly pounced upon its unsuspecting prey.",
+          "statement_id": "Catatan abad ke-18 para pemukim Jerman awal menyebut binatang itu Schneller Geist atau \"hantu cepat\" yang menerkam mangsanya yang tak curiga dengan cepat.",
+          "quote": "18th-century accounts by the early German settlers refer to the beast as a Schneller Geist or quick ghost that rapidly pounced upon its unsuspecting prey.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c13",
+          "source_id": "snallygaster-s2",
+          "host": "preservationmaryland.org",
+          "statement": "In December 1932 the Hagerstown Morning Herald reported the death of the Snallygaster, purportedly lured to a moonshine still in Frog Hollow in Washington County, overcome by the noxious fumes and drowned in the alcoholic vat.",
+          "statement_id": "Pada Desember 1932, Hagerstown Morning Herald memberitakan kematian Snallygaster: konon ia dipancing ke alat penyulingan minuman keras ilegal di Frog Hollow, Washington County, dan tewas karena asapnya lalu tenggelam di bak alkohol.",
+          "quote": "Then, in December 1932, the Hagerstown Morning Herald reported on the death of the Snallygaster. It was purportedly lured to a moonshine still in Frog Hollow in Washington County and was overcome by the noxious fumes and drowned in the alcoholic vat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c14",
+          "source_id": "snallygaster-s2",
+          "host": "preservationmaryland.org",
+          "statement": "Some have suggested that the accounts beginning in 1909 were a veiled attempt at scaring away would-be ne'er-do-wells from Middletown and the surrounding region.",
+          "statement_id": "Ada yang menduga laporan sejak 1909 adalah upaya terselubung menakut-nakuti calon pembuat onar agar menjauh dari Middletown dan sekitarnya.",
+          "quote": "Some have suggested that the accounts beginning in 1909 were a veiled attempt at scaring away would be ne’er-do-wells from Middletown and the surrounding region.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "snallygaster-c15",
+          "source_id": "snallygaster-s2",
+          "host": "preservationmaryland.org",
+          "statement": "Others explain that the original letter from T.C. Harbaugh is the explanation, as Thomas Chalmers Harbaugh was a native of Middletown and an accomplished author with a passion for the area's history and culture.",
+          "statement_id": "Yang lain menjelaskan bahwa surat asli T.C. Harbaugh-lah penyebabnya, karena Thomas Chalmers Harbaugh adalah warga asli Middletown dan penulis mumpuni yang mencintai sejarah dan budaya kawasan itu.",
+          "quote": "Others have explained that the original letter from T.C. Harbaugh is the explanation – as Thomas Chalmers Harbaugh was a native of Middletown and an accomplished author with a passion for the area’s history and culture.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tlahuelpuchi",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "44abf4e4df2bd4bd84d07ebc479b5b9d0ead676b88ebe84a738326e241c97be8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tlahuelpuchi-c01",
@@ -532,26 +1059,101 @@
           "quote": "Garlic, onions and metal repel the tlahuelpuchi.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c07",
+          "source_id": "tlahuelpuchi-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The dictionary translates tlahuipochtli as \"sorcerer or animal spirit\", sometimes paired with nahualli, and lists tlahuelpuchi among its orthographic variants.",
+          "statement_id": "Kamus itu menerjemahkan tlahuipochtli sebagai \"penyihir atau roh hewan\", kadang dipasangkan dengan nahualli; tlahuelpuchi tercantum sebagai salah satu variannya.",
+          "quote": "Headword: tlahuipochtli. Principal English Translation: sorcerer or animal spirit, sometimes paired with nahualli (see attestations) Orthographic Variants: tlahuipochin, tlahuihpochtli, tlahuihpochin, tlahuelpuchi",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c08",
+          "source_id": "tlahuelpuchi-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The dictionary cites tlahuipochtin as those who walked about at night spitting fire and causing madness, sickness or death in their victims.",
+          "statement_id": "Kamus itu mengutip tlahuipochtin sebagai mereka yang berjalan-jalan pada malam hari, menyemburkan api dan menyebabkan kegilaan, sakit, atau kematian pada korbannya.",
+          "quote": "tlahuipochtin = those who walked about at night \"spitting fire and causing madness, sickness, or death in their victims\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c09",
+          "source_id": "tlahuelpuchi-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The dictionary also refers to the tlahuelpuchi/tlahuepoche, or \"fiery red smoke\", in Tlaxcala and the Sierra Poblana.",
+          "statement_id": "Kamus itu juga menyebut tlahuelpuchi/tlahuepoche, atau \"asap merah menyala\", di Tlaxcala dan Sierra Poblana.",
+          "quote": "In reference to the tlahuelpuchi/tlahuepoche or “fiery red smoke” in Tlaxcala and the Sierra Poblana",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c10",
+          "source_id": "tlahuelpuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tlahuelpuchi can change form by detaching their body from their legs, which are left in the witch's house, and then go hunting, usually as a bird such as a turkey or a vulture.",
+          "statement_id": "Tlahuelpuchi dapat berubah wujud dengan melepaskan tubuh dari kakinya (yang ditinggalkan di rumah si penyihir), lalu berburu, biasanya dalam wujud burung seperti kalkun atau burung nasar.",
+          "quote": "Tlahuelpuchi are able to change form by detaching their body from their legs (which are left in the house of the witch). They then go hunting, usually in the form of some bird like a turkey or a vulture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c11",
+          "source_id": "tlahuelpuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tlahuelpuchi must fly over the house in the shape of a cross, from north to south and east to west.",
+          "statement_id": "Tlahuelpuchi harus terbang di atas rumah membentuk salib, dari utara ke selatan dan timur ke barat.",
+          "quote": "The tlahuelpuchi must fly over the house in the shape of a cross from north to south, east to west.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c12",
+          "source_id": "tlahuelpuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most tlahuelpuchi are female, and female tlahuelpuchi are more powerful than males.",
+          "statement_id": "Sebagian besar tlahuelpuchi adalah perempuan, dan tlahuelpuchi perempuan lebih kuat daripada yang laki-laki.",
+          "quote": "Most tlahuelpuchi are female and the female tlahuelpuchi are more powerful than males.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c13",
+          "source_id": "tlahuelpuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A tlahuelpuchi cannot be detected except by catching them in the act; their family protects them out of shame and because the curse passes to a family member responsible for a tlahuelpuchi's death.",
+          "statement_id": "Tlahuelpuchi tidak bisa dikenali kecuali tertangkap basah; keluarganya melindunginya karena malu dan karena kutukan akan berpindah kepada anggota keluarga yang bertanggung jawab atas kematiannya.",
+          "quote": "There is no way to detect a tlahuelpuchi except by catching them in the act. Their family protects them out of shame and because if a family member is responsible for the death of a tlahuelpuchi the curse will be passed down to them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tlahuelpuchi-c14",
+          "source_id": "tlahuelpuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The curse cannot be lifted, and if a tlahuelpuchi is identified they must be killed on the spot.",
+          "statement_id": "Kutukan itu tidak dapat dicabut, dan jika seorang tlahuelpuchi teridentifikasi, ia harus dibunuh di tempat.",
+          "quote": "The curse cannot be lifted, and if a tlahuelpuchi is identified, they must be killed on the spot.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tlaloque",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "cb4927bd6b9246912a5a2cc3ae3f23815bbdef5c9f677d10d227fac93ae055c7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tlaloque-c01",
@@ -592,26 +1194,81 @@
           "quote": "The precinct on the summit of the mountain contains 5 stones which are thought to represent Tláloc and his four Tlaloque, who are responsible for providing rain for the land.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "tlaloque-c05",
+          "source_id": "tlaloque-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Tláloc was also considered the ruler of the Tlaloque, a motley group of rain, weather and mountain gods.",
+          "statement_id": "Tláloc juga dianggap penguasa Tlaloque, sekelompok dewa hujan, cuaca, dan gunung yang beraneka ragam.",
+          "quote": "Tláloc was also considered the ruler of the Tlaloque - a motley group of rain, weather and mountain gods",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tlaloque-c06",
+          "source_id": "tlaloque-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The dictionary translates Tlaloque as deities associated with rain and with Tlaloc, the deity of rain and celestial waters.",
+          "statement_id": "Kamus itu menerjemahkan Tlaloque sebagai dewa-dewa yang berkaitan dengan hujan dan dengan Tlaloc, dewa hujan dan air langit.",
+          "quote": "Headword: Tlaloque. Principal English Translation: deities, associated with rain and with Tlaloc, the deity of rain and celestial waters",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tlaloque-c07",
+          "source_id": "tlaloque-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "In the text the dictionary quotes, these gods were called Tlalocs, and clouds, rain, hail, snow, mist, sheet lightning, thunder and lightning bolts that struck men were attributed to them.",
+          "statement_id": "Dalam teks yang dikutip kamus itu, dewa-dewa ini disebut Tlalocs, dan kepada mereka dikaitkan awan, hujan, hujan es, salju, kabut, kilat lembaran, guntur, dan sambaran petir yang mengenai manusia.",
+          "quote": "These [gods] were called Tlalocs. To them were attributed clouds, rain, hail, snow, mist, sheet lightning, thunder, and lighting bolts which struck men.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tlaloque-c08",
+          "source_id": "tlaloque-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were deities of pulque), and the tepictoton, small legless figures.",
+          "statement_id": "Tlaloque lain adalah Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (salah satu dari empat ratus kelinci, dewa pulque), dan tepictoton, sosok kecil tanpa kaki.",
+          "quote": "Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were deities of pulque), and the tepictoton, small legless figures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tlaloque-c09",
+          "source_id": "tlaloque-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The Tlaloques were \"rain dwarfs\", lesser deities associated with various climatological phenomena such as snow, sleet and lightning.",
+          "statement_id": "Tlaloque disebut \"kurcaci hujan\", yaitu dewa-dewa yang lebih rendah yang dikaitkan dengan berbagai gejala cuaca seperti salju, hujan es, dan petir.",
+          "quote": "The Tlaloques were \"rain dwarfs\"; namely, lesser deities associated with various climatological phenomena such as snow, sleet, and lightning.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tlaloque-c10",
+          "source_id": "tlaloque-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The ceremonial relationship between human beings and the Tlaloques was primarily based on food exchange.",
+          "statement_id": "Hubungan upacara antara manusia dan Tlaloque terutama berdasar pertukaran makanan.",
+          "quote": "The ceremonial relationship between human beings and the Tlaloques was primarily based on food exchange.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wekufe",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "a08dde0fcb86b7210cc70197a7c95756d905225056147a3133ffa09de92d072f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wekufe-c01",
@@ -652,26 +1309,151 @@
           "quote": "In this way they cause illness, destruction, death, and other calamities amongst the Mapuche.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wekufe-c05",
+          "source_id": "wekufe-s2",
+          "host": "www.everyculture.com",
+          "statement": "The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form.",
+          "statement_id": "Kekuatan jahat disebut wekufe dan terdiri dari tiga jenis utama: fenomena alam, hantu, dan yang berwujud hewan.",
+          "quote": "The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c06",
+          "source_id": "wekufe-s2",
+          "host": "www.everyculture.com",
+          "statement": "Among contemporary Araucanians there are two kinds of sickness: one caused by supernatural agents, the wekufe and the perrimontu, and the other by natural agents or environmental factors.",
+          "statement_id": "Di kalangan orang Araucania masa kini ada dua jenis penyakit: yang disebabkan agen gaib, yaitu wekufe dan perrimontu, dan yang disebabkan faktor alam atau lingkungan.",
+          "quote": "Among contemporary Araucanians, however, there are two kinds of sickness: one caused by supernatural agents, the wekufe and the perrimontu, and the other by natural agents or environmental factors.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c07",
+          "source_id": "wekufe-s2",
+          "host": "www.everyculture.com",
+          "statement": "The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack the persons they envy.",
+          "statement_id": "Kekuatan jahat diaktifkan ketika orang yang iri meminta kalku memakai roh jahat untuk menyerang orang yang menjadi sasaran iri mereka.",
+          "quote": "The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c08",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapuche believe that many wekufes allow themselves to be manipulated by kalkus (Mapuche sorcerers, equivalent to witches or wizards who work with black magic), who use them as a mystic medium for obtaining power.",
+          "statement_id": "Orang Mapuche percaya banyak wekufe membiarkan diri dimanfaatkan kalku (penyihir Mapuche, setara penyihir yang memakai ilmu hitam), yang menjadikan mereka perantara mistik untuk memperoleh kekuatan.",
+          "quote": "The Mapuche believe that many wekufes allow themselves to be manipulated by kalkus (Mapuche sorcerers, equivalent to witches or wizards who work with black magic), who use them as a mystic medium for obtaining power.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c09",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike other living beings or spirits that possess their own soul, wekufes are soulless.",
+          "statement_id": "Berbeda dengan makhluk hidup atau roh lain yang memiliki jiwa sendiri, wekufe tidak berjiwa.",
+          "quote": "Unlike other living beings or spirits that possess their own soul, wekufes are soulless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c10",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The best known of the wekufes are Trelke-wekufe (El Cuero or cow hide) and Canillo, both powerful wekufes able to change into solid form.",
+          "statement_id": "Wekufe yang paling terkenal adalah Trelke-wekufe (El Cuero atau kulit sapi) dan Canillo, keduanya wekufe kuat yang mampu berubah menjadi wujud padat.",
+          "quote": "The best known of the wekufes are Trelke-wekufe (El Cuero or cow hide), and Canillo, both of which are powerful wekufes with the ability to change into solid form.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c11",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The wekufe also have the power to capture and enslave the pillú (spirit of the recently deceased that is reluctant to leave its body) before it transforms into an alwe (more mature spirit).",
+          "statement_id": "Wekufe juga mampu menangkap dan memperbudak pillú (roh orang yang baru meninggal dan enggan meninggalkan tubuhnya) sebelum berubah menjadi alwe (roh yang lebih matang).",
+          "quote": "The wekufe also have the power to capture and enslave the pillú (spirit of the recently deceased that is reluctant to leave its body) before it transforms into an alwe (more mature spirit).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c12",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The machitún ceremony must be performed in order to release the wekufe.",
+          "statement_id": "Upacara machitún harus dilakukan untuk melepaskan wekufe.",
+          "quote": "The machitún ceremony must be performed in order to release the wekufe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c13",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the more southerly regions it was said that the wekufe, serving the Pillán and bringing disease to the hut (ruca), the cattle and the fields, could only be exorcised by burning foiqe or cinnamon branches.",
+          "statement_id": "Di wilayah yang lebih ke selatan dikatakan wekufe yang melayani Pillán dan membawa penyakit ke pondok (ruca), ternak, dan ladang hanya dapat diusir dengan membakar cabang foiqe atau kayu manis.",
+          "quote": "In the more southerly regions, it was said that the wekufe, serving the Pillán, bringing disease to the hut (ruca), the cattle, and the fields could only be exorcised by burning the foiqe or cinnamon branches.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c14",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wekufes entered the Mapu world as a consequence of the mythical battle amongst the Pillán spirits, which resulted in the breaking of the Admapu.",
+          "statement_id": "Wekufe memasuki dunia Mapu sebagai akibat pertempuran mitos di antara roh-roh Pillán, yang mengakibatkan rusaknya Admapu.",
+          "quote": "Wekufes entered the Mapu world as a consequence of the mythical battle amongst the Pillán spirits, which resulted in the breaking of the Admapu",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c15",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mapuche legends say that wekufes come from Minchenmapu, located to the west beyond Mapu.",
+          "statement_id": "Legenda Mapuche menyebut wekufe berasal dari Minchenmapu, yang terletak di sebelah barat di seberang Mapu.",
+          "quote": "Mapuche legends say that wekufes come from Minchenmapu, which is located to the west beyond Mapu",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c16",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As long as the Mapuche obey the admapu laws and perform the guillatún ceremony, the Ngen and Pillán spirits will continue to keep the wekufe under control.",
+          "statement_id": "Selama orang Mapuche menaati hukum admapu dan menjalankan upacara guillatún, roh Ngen dan Pillán akan terus mengendalikan wekufe.",
+          "quote": "As long as the Mapuche people obey the admapu laws and perform the guillatún ceremony, then the Ngen and Pillán spirits will continue to keep the wekufe under control.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wekufe-c17",
+          "source_id": "wekufe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mapuche language, Mapudungun, the word wekufe can be attributed to any person who tells lies or is deceptive.",
+          "statement_id": "Dalam bahasa Mapuche, Mapudungun, kata wekufe dapat dikenakan pada siapa pun yang berbohong atau menipu.",
+          "quote": "In the Mapuche language, Mapudungun, the word wekufe can be attributed to any person that tells lies or is deceptive.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "werejaguar",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-1.md",
+      "entry_sha256": "8a805030c3a54669826d7814cd18593977ed4ce8e564a683899ec08f6a4f14e9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "werejaguar-c01",
@@ -721,6 +1503,96 @@
           "statement_id": "Istilahnya berasal dari kata Inggris Kuno were (\"manusia\") dan jaguar.",
           "quote": "The term is derived from Old English were, meaning \"man\", and jaguar",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c06",
+          "source_id": "werejaguar-s2",
+          "host": "publications.essex.ac.uk",
+          "statement": "The essential elements of the Were-Jaguar or Jaguar-Baby are the V-shaped cleft, clawed or paw-like feet or hands, and a feline head with, in some cases, a tail.",
+          "statement_id": "Unsur utama Were-Jaguar atau Jaguar-Baby adalah belahan berbentuk V, kaki atau tangan bercakar atau seperti cakar, dan kepala kucing yang dalam beberapa kasus berekor.",
+          "quote": "The essential elements of the Were-Jaguar or Jaguar-Baby are, the ‘V’ shaped cleft, clawed or paw like feet or hands and a feline head with, in some cases, a tail.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c07",
+          "source_id": "werejaguar-s2",
+          "host": "publications.essex.ac.uk",
+          "statement": "One view: the jaguar was a \"power animal\" of a shaman caste and stood for a \"spirit journey\", recalling a shared religious experience.",
+          "statement_id": "Salah satu pandangan: jaguar adalah \"hewan kekuatan\" kasta dukun dan melambangkan \"perjalanan roh\" yang mengingatkan pada pengalaman keagamaan bersama.",
+          "quote": "that the jaguar was a “power animal” of a shaman caste and stood for a “spirit journey,” recalling a shared religious experience",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c08",
+          "source_id": "werejaguar-s2",
+          "host": "publications.essex.ac.uk",
+          "statement": "Another view: the Olmec believed themselves to be descended from the jaguar.",
+          "statement_id": "Pandangan lain: orang Olmec meyakini diri mereka keturunan jaguar.",
+          "quote": "that the Olmec believed themselves to be descended from the jaguar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c09",
+          "source_id": "werejaguar-s2",
+          "host": "publications.essex.ac.uk",
+          "statement": "Another view: the jaguar was a representative tool functioning as a symbol of the dominance of the ruling class.",
+          "statement_id": "Pandangan lain: jaguar adalah alat representasi yang berfungsi sebagai lambang dominasi kelas penguasa.",
+          "quote": "that the jaguar was a representative tool, functioning as a symbol of the dominance of the ruling class",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c10",
+          "source_id": "werejaguar-s2",
+          "host": "publications.essex.ac.uk",
+          "statement": "These representations come in a variety of forms: delicate greenstone figurines, votive axes, incised celts and large basalt sculptures.",
+          "statement_id": "Penggambaran ini muncul dalam berbagai bentuk: patung batu hijau yang halus, kapak persembahan, kapak batu bergores, serta patung basal besar.",
+          "quote": "These representations come in a variety of forms; delicate greenstone figurines, votive axes (with the forms realised in 3 dimensions) and incised celts as well as large basalt sculptures",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c11",
+          "source_id": "werejaguar-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to archaeologist Peter Furst, werejaguar figurines were likely used as household gods for many people and as spirit helpers or familiars for priests or shamans, aiding in transformative acts and other rituals.",
+          "statement_id": "Menurut arkeolog Peter Furst, patung werejaguar kemungkinan dipakai sebagai dewa rumah tangga bagi banyak orang dan sebagai pembantu roh bagi pendeta atau dukun dalam tindakan transformasi dan ritual lain.",
+          "quote": "According to archaeologist Peter Furst, werejaguar figurines were likely used as household gods for many people and as spirit helpers or familiars for priests or shamans, aiding in transformative acts and other rituals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c12",
+          "source_id": "werejaguar-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some researchers have therefore refined the werejaguar supernatural, specifically equating it with the Olmec rain deity.",
+          "statement_id": "Sebagian peneliti karena itu mempersempit makhluk gaib werejaguar dengan menyamakannya secara khusus dengan dewa hujan Olmec.",
+          "quote": "Some researchers have therefore refined the werejaguar supernatural, specifically equating it with the Olmec rain deity",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c13",
+          "source_id": "werejaguar-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An overarching werejaguar theory cannot explain the diversity and complexity of Olmec supernaturals; only one, the Rain Baby, clearly seems to be a human-jaguar blend.",
+          "statement_id": "Menurut satu pendapat ilmiah, teori menyeluruh werejaguar tidak dapat menjelaskan keragaman dan kerumitan makhluk gaib Olmec; hanya satu, Rain Baby, yang jelas tampak sebagai perpaduan manusia dan jaguar.",
+          "quote": "An overarching [werejaguar] theory cannot explain the diversity and complexity of Olmec supernaturals. Only one, the Rain Baby, clearly seems to be a human-jaguar blend.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werejaguar-c14",
+          "source_id": "werejaguar-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Peter Furst, among others, has suggested that the werejaguar actually represents a variety of native toad.",
+          "statement_id": "Peter Furst, antara lain, mengusulkan bahwa werejaguar sebenarnya mewakili sejenis kodok asli setempat.",
+          "quote": "Peter Furst, among others, has suggested that the werejaguar actually represents a variety of native toad",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -774,7 +1646,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a76058a96ae40d5767480bc48470021e1f9b5927acbc2cc11162dc2af33fc03"
     },
     {
       "slug": "anchimayen",
@@ -824,7 +1697,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f99814dece846f94676c1d01114edd5055ca7ba2fa686d56ea4bd6057d782694"
     },
     {
       "slug": "argopelter",
@@ -874,7 +1748,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c263cd962def1518ac76d5fce911969fdd47addb04756e7f6689ae854e29c162"
     },
     {
       "slug": "atabey",
@@ -934,7 +1809,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1f25072ee25302da8afd60466df1fe1c7ce7ff0b58276381dc36f3bd4b570f5f"
     },
     {
       "slug": "atshen",
@@ -964,7 +1840,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c4fc134cb1233c4b9179cc73acdcb0ccded87405f843d8fda0d8ba74bdc693fc"
     },
     {
       "slug": "axehandle-hound",
@@ -1024,7 +1901,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "01b152fd05dc893ae369e40b287022820b1adab402aa9d77856e302ceeca3600"
     },
     {
       "slug": "ball-tailed-cat",
@@ -1084,7 +1962,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "14b576ebd05ae1d9ee027cea932d714168f379e0a40aa9914ca33ebd1240e757"
     },
     {
       "slug": "beaman-monster",
@@ -1134,7 +2013,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "434ca1243dd07132e8d8ae48a4ec1c7a9305b9096f43f194e82127faa99d34f2"
     },
     {
       "slug": "bear-lake-monster",
@@ -1194,7 +2074,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6973385e617a966c1302de1d25d1d9788c751138ccdec04c7e262a74aebd94e5"
     },
     {
       "slug": "boto",
@@ -1274,7 +2155,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec6b4805d764cabab66a137aada85809ae17f723739e65a12d7b788e378d5d12"
     },
     {
       "slug": "cabra-cabriola",
@@ -1324,7 +2206,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f1abc543ab5ba230142191ae721a4b9417cdc42e020f0ab2d43c7d951503337a"
     },
     {
       "slug": "carbuncle-legendary-creature",
@@ -1384,7 +2267,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9ee7110a39e80ba986a8e0cde2d73be3ae178cf09156ca843db048341850c89e"
     },
     {
       "slug": "chaneque",
@@ -1444,7 +2328,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f079667429906c14ae86865e39f572089f49171a5f8d0a98a93998d1365d49e4"
     },
     {
       "slug": "colo-colo-mythology",
@@ -1504,7 +2389,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fb201acf6fd14cbd75fca180716497ea037c1ba23fd354d00ba413523dd287eb"
     },
     {
       "slug": "cuero-legendary-creature",
@@ -1554,7 +2440,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f0579dc95a20d1acfc3c0a749228ab165c9c29eb2f525d7cf914dec6c2a57597"
     },
     {
       "slug": "el-silbon",
@@ -1614,7 +2501,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a0e35774698fcdf1a11dff0d029b00546003cb414db3b480c63fccdc44b7092b"
     },
     {
       "slug": "huay-chivo",
@@ -1674,7 +2562,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b42973c2351dd338b86dd8045068c4e68fe353988d28e0df4e01a5505ada0820"
     },
     {
       "slug": "idliragijenget",
@@ -1693,7 +2582,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "b9e418b434848879b249d66d1086eeb25c0e0e2aa3f0e06fc902e275d92a6d40"
     },
     {
       "slug": "iliamna-lake-monster",
@@ -1753,7 +2643,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fbce820b4cbee58a5dcf4aaeb8939a0b70bb44c4e6897c8ed2edcfac3e0920d0"
     },
     {
       "slug": "kalku",
@@ -1813,7 +2704,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e562e339a35e88b90852772c42ee823675e50a9bbd13abeade90ff7ef463ba84"
     },
     {
       "slug": "lady-in-red",
@@ -1863,7 +2755,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e289c398866e01b8e14161e5964ac1a8e03d8066c0dea736551457cef68fa280"
     },
     {
       "slug": "lake-worth-monster",
@@ -1923,7 +2816,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0c6f44e45d167da9e1a49416912fe2724a6a60543c29555c3cc960b3415b86ad"
     },
     {
       "slug": "lava-bear",
@@ -1983,7 +2877,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "907be5750f204adc0fbd43dbbd1b40327a9b839457b0ab55070d89a62e90493b"
     },
     {
       "slug": "monster-of-lake-tota",
@@ -2043,7 +2938,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eac14d744dfd4b05a7f85fd334f7b7566a70a20586c7231da921745b5a6dadfb"
     },
     {
       "slug": "muelona",
@@ -2083,7 +2979,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "abe8786aea0a532a9e99a1cac981f4af608be5325e2005e01231fe164feefe7b"
     },
     {
       "slug": "nain-rouge",
@@ -2153,7 +3050,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f13f78371fd35d60dc0979874f4569cef8b210492cf612f0d6a975e952e456b5"
     },
     {
       "slug": "nootaikok",
@@ -2183,7 +3081,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31120c0ed684dc37b6ce0bec76ea11c5c8e9416b22f21327ba88db199eff58a4"
     },
     {
       "slug": "obia-folklore",
@@ -2233,7 +3132,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a8451ad79194e58b58e80303b02aa27f11875055b0069e8fa2bbcc4903399773"
     },
     {
       "slug": "qallupilluit",
@@ -2293,7 +3193,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b96c1d35708cea72453c40e3d3221ff0f670a11dde10e9b4bdacb80fc4ea4745"
     },
     {
       "slug": "sayona",
@@ -2353,7 +3254,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0ac904c7d79fdec1a15df3ca5935fd59fc5f91d5735fe9c6aea9fc488137bc00"
     },
     {
       "slug": "the-hairy-leg",
@@ -2413,7 +3315,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f67e8e7791d765235614f515dc496af15250d157181119554a9c21932ecf0163"
     },
     {
       "slug": "ti-malice-and-bouki",
@@ -2463,7 +3366,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eaf425a0f708042c90a5d894c154a3eddde695fad086090fcfd86c9185956c3c"
     },
     {
       "slug": "tunda",
@@ -2513,7 +3417,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ebbad6d57d99133508a4475979aa2d00a25af7944fcfaccb1d056c42a916c9de"
     },
     {
       "slug": "two-toed-tom",
@@ -2563,7 +3468,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "056b4641f5a863e9c00112ebd867ddc8462697f5a3174122a2c39d46a0d537af"
     },
     {
       "slug": "wayob",
@@ -2613,7 +3519,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a13816fdb8fdf5fe25037be2c2e7ebb21748706bc6c7c535abf3817de3d1834d"
     }
   ]
 }

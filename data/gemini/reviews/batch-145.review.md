@@ -1,13 +1,10 @@
 # Review batch-145
 
-Diperiksa 2026-09-30T09:11:47.900Z. Berkas: batch-145.md.
+Diperiksa 2026-10-06T15:15:46.223Z. Berkas: batch-145.md, batch-145-fix-1.md.
 
 ## mogollon-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,6 +12,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | mogollon-monster-c02 | exact | en.wikipedia.org | It is usually described as a large biped over 7 feet tall with large red eyes. | The Mogollon Monster is commonly described as a large bipedal creature, over 7 feet (2 m) tall with large, red eyes. |
 | mogollon-monster-c03 | exact | en.wikipedia.org | Anecdotal reports say it is nocturnal, omnivorous, territorial and sometimes violent. | Anecdotal reports indicate the creature is allegedly nocturnal, omnivorous, territorial and sometimes violent. |
 | mogollon-monster-c04 | exact | en.wikipedia.org | Many reports say it gives a blood-curdling scream like a woman in great distress. | In numerous reports, the monster has been said to emit a "blood-curdling" scream; described as sounding like a woman in "great distress". |
+| mogollon-monster-c05 | exact | en.wikipedia.org | Its body is said to be covered with long black or reddish brown hair, except for the chest, face, hands and feet. | Its body is said to be covered with long black or reddish brown hair, with the exclusion of the chest, face, hands and feet. |
+| mogollon-monster-c06 | exact | en.wikipedia.org | Reports claim it has a strong, pungent odor described as that of dead fish, a skunk with bad body odor, decaying peat moss and the musk of a snapping turtle. | Reports claim it has a strong and pungent odor described as that of "dead fish, a skunk with bad body odor, decaying peat moss and the musk of a snapping turtle". |
+| mogollon-monster-c07 | exact | en.wikipedia.org | It is generally reported to mimic birds, coyotes and other wildlife, emit unusual whistle sounds, explore campsites after dark, build nests out of pine needles, twigs and leaves, and hurl stones from hidden locations. | mimic birds, coyotes and other wildlife; emit unusual whistle sounds; explore campsites after dark; build nests out of pine needles, twigs, and leaves; and hurl stones from locations that are hidden from view. |
+| mogollon-monster-c08 | exact | en.wikipedia.org | Generally, the scientific community attributes sightings of the creature to either hoaxes or misidentification. | Generally, the scientific community attributes creature sightings to either hoaxes or misidentification. |
+| mogollon-monster-c09 | exact | en.wikipedia.org | The oldest known reported sighting was in the 1903 edition of The Arizona Republican, in which I.W. Stevens described a creature seen near the Grand Canyon. | The oldest known reported sighting was in the 1903 edition of The Arizona Republican, in which I.W. Stevens described a creature seen near the Grand Canyon |
+| mogollon-monster-c10 | exact | en.wikipedia.org | He later stated that after he discovered the creature drinking the blood of two cougars, it threatened him with a club. | He later stated that after he discovered the creature drinking the blood of two cougars, it threatened him with a club |
+| mogollon-monster-c11 | exact | www.ebsco.com | The first-known report of a mysterious creature living in the area comes from a 1903 newspaper account by a man named I.W. Stevens. | The first-known report of a mysterious creature living in the area comes from a 1903 newspaper account by a man named I.W. Stevens. |
+| mogollon-monster-c12 | exact | www.ebsco.com | Stevens said the monster gave out an unearthly scream and threatened him with a large club; he also claimed the creature beat two young mountain lions to death and ate them. | Stevens said the monster gave out an “unearthly” scream and threatened him with a large club. He also claimed the creature beat two young mountain lions to death and ate them. |
+| mogollon-monster-c13 | exact | www.ebsco.com | One story says the monster was once a Native American chief exiled from his tribe, who transformed into a creature that wandered the pine forests seeking revenge for his mistreatment. | Another story says the monster was once a Native American chief who was exiled from his tribe. The chief transformed into a creature that wandered the pine forests seeking revenge for his mistreatment. |
+| mogollon-monster-c14 | exact | www.ebsco.com | Although no credible scientific evidence has been found for the monster’s existence, the creature has become engrained in local folklore and has even inspired an annual endurance race in the region. | Although no credible scientific evidence has been found for the monster’s existence, the creature has become engrained in local folklore and has even inspired an annual endurance race in the region. |
+| mogollon-monster-c15 | exact | www.ebsco.com | Although almost unknown outside of the Mogollon Rim area, the creature has become part of the local cultural landscape. | Although almost unknown outside of the Mogollon Rim area, the creature has become part of the local cultural landscape. |
+| mogollon-monster-c16 | exact | www.ebsco.com | It has been the subject of a folk song warning children not to litter and is the namesake of the annual Mogollon Monster 100, a 106-mile endurance race typically held in September. | It has been the subject of a folk song warning children not to litter and is the namesake of the annual Mogollon Monster 100, a 106-mile endurance race typically held in September. |
 
 
 ## nerrivik — skip
@@ -30,10 +39,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## nguruvilu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -42,14 +48,22 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | nguruvilu-c03 | exact | en.wikipedia.org | It snatches waders with its long clawed tail and devours or drains its victims. | which snatches wading people with its (clawed) long tail, and devours or blood-sucks its victim. |
 | nguruvilu-c04 | exact | en.wikipedia.org | Its etymology is "fox" + "serpent". | The etymology is given as "fox" + "serpent" |
 | nguruvilu-c05 | exact | en.wikipedia.org | This led the natives to avoid bathing in lakes where it lives. | causing the natives to avoid bathing in the lakes where the beast occurs. |
+| nguruvilu-c06 | exact | en.wikipedia.org | Besides Nguruvilu, the creature is also called Guruvilu, Guirivilu and Guirivilo. | The Nguruvilu or Guruvilu, Guirivilu, Guirivilo, etc., |
+| nguruvilu-c07 | exact | en.wikipedia.org | Nguruvilus live in dangerous whirlpools that kill people trying to cross rivers; they make the water shallow on either ford so that crossing seems safe. | Nguruvilus live in dangerous whirlpools which kill people who try to cross rivers. The creatures make the water shallow on either ford, to encourage people to try to cross it making it seem safe. |
+| nguruvilu-c08 | exact | en.wikipedia.org | Later sources describe the nguruvilu with the face of a puma or wildcat and a clawed tail (or many claws). | Later sources describe the nguruvilu with the face of a puma or wildcat and a clawed tail (or many claws). |
+| nguruvilu-c09 | exact | en.wikipedia.org | For a layman, the only way to get rid of a nguruvilu is through a machi (shaman) or a good kalku (sorcerer). | (For a layman), the only way to get rid of a nguruvilu is through the offices of a machi (shaman) or good kalku "sorcerer". |
+| nguruvilu-c10 | exact | en.wikipedia.org | The kalku (male or female) wades through the river to the whirlpool and dives in, then swims to the surface having captured the Nguruvilu in their arms with powerful magical abilities. | The kalku (who may be male or female) wades through the river until they reach the whirlpool and then dives in. Afterwards, they swim to the surface having captured the Nguruvilu in their arms with their powerful magical abilities. |
+| nguruvilu-c11 | exact | en.wikipedia.org | Lehmann-Nitsche (1902) wrote that, according to his informant Nahuelpi, the fox-viper was believed to do no harm so long as a certain form of worship was performed. | Lehmann-Nitsche (1902) wrote that according to his informant Nahuelpi, it was believed that the fox-viper did no harm so long as they performed a certain form of worship. |
+| nguruvilu-c12 | exact | en.wikipedia.org | It was taboo to call it by name, and the circumlocution "lord of the water" was used. | It was taboo to call it by name, and the circumlocution "lord of the water" was used. |
+| nguruvilu-c13 | exact | en.wikipedia.org | Anthropologist Robert Lehmann-Nitsche was of the opinion that the myth of this creature originated from observations of the otter, specifically the marine otter Lutra felina. | Anthropologist Robert Lehmann-Nitsche was of the opinion that the myth of this creature originated from observations of the otter, more particularly Lutra felina G. I. Molina, i.e. marine otter |
+| nguruvilu-c14 | exact | en.wikipedia.org | Some described it as fox-headed with a serpent's body, but others claimed it was like a round, bloated ox hide. | Some described it as fox-headed with the body of a serpent (as its name suggests), but others claimed it was like a round bloated ox hide |
+| nguruvilu-c15 | exact | en.wikipedia.org | According to the Mapuche sourced by Tomás Guevara (1908), it is a river-dwelling beast with a cat-like head, a small slender body and an extremely long fox-like tail. | a river-dwelling beast with a cat-like head, a small and slender body, and an extremely long tail like the fox's, according to the Mapuche sourced by ethnologist Tomás Guevara (1908) |
+| nguruvilu-c16 | exact | www.memoriachilena.gob.cl | A mythology dictionary describes a monster half fox and half serpent that usually lives in muddy waters. | mitad zorro y mitad serpiente que suele vivir en aguas cenagosas |
 
 
 ## pincoya — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -60,14 +74,17 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | pincoya-c05 | exact | en.wikipedia.org | Other legends make her the daughter of Millalobo, king of the sea, and the human Huenchula. | According to other legends, Pincoya is the daughter of Millalobo (king of sea, in chilote mythology) and the human Huenchula. |
 | pincoya-c06 | exact | en.wikipedia.org | Her sister is the Sirena chilota and her brother Pincoy, who is also her husband. | Her sister is the Sirena chilota (a type of Mermaid) and her brother is Pincoy (who also is her husband). |
 | pincoya-c07 | exact | en.wikipedia.org | The three siblings guide drowned sailors onto the phantom ship Caleuche. | The three siblings lead and guide the drowned sailors onto a large phantom ship, the Caleuche |
+| pincoya-c08 | exact | www.memoriachilena.gob.cl | She is described with a naked body, hair between reddish and blond, and beautiful feminine lines. | PINCOYA: f. ... Su cuerpo desnudo, su cabellera entre rojiza y rubia, y sus hermosas lineas femeninas |
+| pincoya-c09 | exact | www.memoriachilena.gob.cl | The enchantresses with their powers kept her under their control and, through sowings and other rituals, made the Pincoya fertilize a beach, an estuary or a fishing or shellfish site. | Las encantadoras con sus poderes la mantenian bajo su control y, mediante siembras ... y otros rituales, lograban que la Pincoya fertilizara una playa, un estero o un sitio de pesca o marisca. |
+| pincoya-c10 | exact | www.memoriachilena.gob.cl | Unlike the Sirena, the Pincoya has no fish tail. | PINCOYA: f. ... A diferencia de la Sirena, ... no posee cola de pescado. |
+| pincoya-c11 | exact | www.memoriachilena.gob.cl | The Pincoya is a protective patroness of the shellfish and fish of the coast. | PINCOYA: f. Patrona protectora de ... mariscos y peces de la costa. |
+| pincoya-c12 | exact | en.wikipedia.org | Chiloean mythology is appreciative of the Pincoya, who is believed to be good, beautiful and humanitarian. | Chiloean mythology is appreciative of the Pincoya, believed to be good, beautiful and humanitarian. |
+| pincoya-c13 | exact | en.wikipedia.org | The ship appears briefly intact with sounds of a party on board but quickly vanishes; myth has it that once on board the dead can resume an existence as if alive. | The ship appears briefly intact with sounds of a party on board, but quickly vanishes. Myth has it that, once on board, the dead can resume an existence as if they were alive again. |
 
 
 ## qiqirn — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -76,14 +93,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | qiqirn-c03 | exact | en.wikipedia.org | But it fears humans and runs away if an angakkuq sees it. | However, it is frightened of humans and will run away if an angakkuq sees it. |
 | qiqirn-c04 | exact | en.wikipedia.org | Daniel Merkur suggested the fits it causes allude to shamanic initiations. | Daniel Merkur suggested that the fits caused by the qiqirn were allusions to shamanic initiations. |
 | qiqirn-c05 | exact | en.wikipedia.org | In Rudyard Kipling's short story "Quiquern" it is a giant, phantasmal, toothless, hairless dog with six or eight pairs of legs. | In Rudyard Kipling's short story "Quiquern", the creature is described as a giant, phantasmal, toothless and hairless dog with six or eight pairs of legs. |
+| qiqirn-c06 | exact | en.wikipedia.org | A similar term, also from Inuit mythology, is keelut, a malevolent earth spirit that also appears as a hairless dog. | A similar term, also from Inuit mythology, is keelut, a malevolent earth spirit which also appears as a hairless dog. |
+| qiqirn-c07 | exact | www.gutenberg.org | In the story "Quiquern", Quiquern is the phantom of a gigantic toothless, hairless dog said to live in the far North and to wander the country just before things are going to happen. | Quiquern, too, is the phantom of a gigantic toothless dog without any hair, who is supposed to live in the far North, and to wander about the country just before things are going to happen. |
+| qiqirn-c08 | exact | www.gutenberg.org | In the story, not even the sorcerers care to speak about Quiquern, and he makes the dogs go mad. | but not even the sorcerers care to speak about Quiquern. He makes the dogs go mad. |
+| qiqirn-c09 | exact | www.gutenberg.org | In the story, the girl, sobbing with laughter, pushes the two shamefaced creatures towards Kotuko and cries that this is Quiquern, who led them to safe ground, with eight legs and a double head. | The girl pushed the two shamefaced creatures towards Kotuko, and, sobbing with laughter, cried, “That is Quiquern, who led us to safe ground. Look at his eight legs and double head!” |
+| qiqirn-c10 | exact | www.gutenberg.org | In the story, each of the pair was fastened sidelong to the other's neck, and this, with the freedom of hunting on their own account, must have helped to cure their madness. | each was fastened sidelong to his neighbour’s neck. That, with the freedom of hunting on their own account, must have helped to cure their madness. |
+| qiqirn-c11 | exact | en.wikipedia.org | Two young Inuit hunters, desperate to find food for their starving tribe, believe they are guided by Quiquern, only to discover that the many-legged "spirit" is actually a pair of sled dogs whose collars had become entangled. | Two young Inuit hunters, desperate to find food for their starving tribe, believe they are being guided by Quiquern, only to discover that the many-legged "spirit" is actually a pair of sled dogs whose collars had become entangled. |
 
 
 ## red-ghost-folklore — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -92,14 +112,22 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | red-ghost-folklore-c03 | exact | en.wikipedia.org | Background: War Secretary Jefferson Davis's proposal to use camels was approved in 1855 in what became the Camel Corps. | with a proposal by then Secretary of War Jefferson Davis ultimately being approved in 1855 with a budget of $30,000 in an experiment that would later become known as the Camel Corps. |
 | red-ghost-folklore-c04 | exact | en.wikipedia.org | The legend began in 1883, when two men left their ranch house near Eagle Creek. | The legend began in 1883, when two men left their ranch house near Eagle Creek to check on their cattle. |
 | red-ghost-folklore-c05 | exact | en.wikipedia.org | On returning, they found one wife trampled to death. | When the two men returned, they found the other's wife had been trampled to death. |
+| red-ghost-folklore-c06 | exact | www.intermountainhistories.org | In 1893, The Mohave County Miner reported on what is now an Arizona legend: the Red Ghost, a rampant camel with a dead man strapped to its back. | In 1893, The Mohave County Miner reported on what is now an Arizona legend: the Red Ghost, a rampant camel with a dead man strapped to its back. |
+| red-ghost-folklore-c07 | exact | www.intermountainhistories.org | A hunter named Si Hamlin caught sight of the Red Ghost from a distance and reported he thought that the thing on its back was the body of a dead man. | A hunter named Si Hamlin caught sight of the Red Ghost from a distance and reported he thought that something was the body of a dead man. |
+| red-ghost-folklore-c08 | exact | www.intermountainhistories.org | When a priest named Mizoo Hastings finally shot it, he found the camel's back knotted with rawhide straps that had presumably once held on a corpse, by now disintegrated. | When a priest named Mizoo Hastings finally shot it, he found the camel’s back had been knotted with rawhide straps, presumably once holding on a corpse that had by now disintegrated. |
+| red-ghost-folklore-c09 | exact | en.wikipedia.org | The legend remained popular until 1893, when farmer Mizoo Hastings found the creature eating in his yard and shot it dead with a single shot. | The legend remained popular until 1893, when farmer Mizoo Hastings found the creature eating in his yard and proceeded to shoot it, killing it in a single shot. |
+| red-ghost-folklore-c10 | exact | www.intermountainhistories.org | Though the newspaper claimed sightings had been reported for ten years before the camel's death at Mr. Hastings's hands, there is no trace of earlier reports. | Though the newspaper claimed sightings had been reported for ten years before the camel’s death at Mr. Hastings’s hands, there is no trace of earlier reports. |
+| red-ghost-folklore-c11 | exact | www.intermountainhistories.org | Camels did briefly roam the deserts of Arizona, set loose after the 1863 dissolution of the US Camel Corps, an army experiment in using camels to carry explorers and supplies through southwestern deserts. | Camels did briefly roam the deserts of Arizona, having been set loose in the aftermath of the 1863 dissolution of the US Camel Corps, an army experiment in using camels to carry explorers and supplies through southwestern deserts. |
+| red-ghost-folklore-c12 | exact | www.intermountainhistories.org | The author suggests the Red Ghost may well have been a remnant of dissolved government plans or business enterprise hopes. | Our Red Ghost may well have been a remnant of either of these dissolved government plans or business enterprise hopes. |
+| red-ghost-folklore-c13 | exact | en.wikipedia.org | Some posit that the corpse was a prospector dying of thirst who tied himself to the camel's back hoping it would lead him to water, while others allege a soldier was learning to ride a camel when it suddenly bolted off. | with some positing that the corpse was that of a prospector dying of thirst who tied himself to the camel's back, hoping that the animal would lead him to water, while others alleged that a soldier was learning to ride a camel when the animal suddenly bolted off. |
+| red-ghost-folklore-c14 | exact | en.wikipedia.org | One tale described the creature killing and eating a grizzly bear and another said it disappeared into thin air when chased, but the skeleton of a man on its back was a common element across the stories. | one described the creature killing and eating a grizzly bear, while another said it disappeared into thin air when chased, but the skeleton of a man on its back was a common element among the stories |
+| red-ghost-folklore-c15 | exact | en.wikipedia.org | In one sighting the creature was described as 30 feet tall and knocking over two wagons. | this time being described as 30 feet (9.1 m) tall and knocking over two wagons |
+| red-ghost-folklore-c16 | exact | en.wikipedia.org | A sculpture of the camel was erected in Quartzsite, Arizona, near the grave of Hi Jolly, an Ottoman camel driver who worked for the Camel Corps. | A sculpture of the camel was erected in Quartzsite, Arizona, near the grave of Hi Jolly, an Ottoman camel driver who worked for the Camel Corps. |
 
 
 ## snallygaster — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -108,14 +136,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | snallygaster-c03 | exact | en.wikipedia.org | Early accounts describe a monster called Schneller Geist, "quick ghost" in German. | Early accounts describe the community being terrorized by a monster called a Schneller Geist, meaning "quick ghost" in German. |
 | snallygaster-c04 | exact | en.wikipedia.org | It was described as half reptile, half bird, with a metallic beak lined with razor-sharp teeth. | The snallygaster was described as being half-reptile and half-bird, possessing a metallic beak lined with razor-sharp teeth. |
 | snallygaster-c05 | exact | en.wikipedia.org | It reportedly swooped silently from the sky to carry off its victims. | The snallygaster was rumored to swoop silently from the sky to pick up and carry off its victims. |
+| snallygaster-c06 | exact | en.wikipedia.org | The earliest stories claim the monster sucked the blood of its victims; seven-pointed stars, which reputedly kept the snallygaster at bay, can still be seen painted on local barns. | The earliest stories claim that this monster sucked the blood of its victims. Seven-pointed stars, which reputedly kept the snallygaster at bay, can still be seen painted on local barns. |
+| snallygaster-c07 | exact | en.wikipedia.org | It was also said to have octopus-like tentacles. | It was also said to have octopus-like tentacles. |
+| snallygaster-c08 | exact | en.wikipedia.org | Newspaper accounts throughout February and March 1909 describe encounters between residents and a beast with enormous wings, a long pointed bill, claws like steel hooks and an eye in the center of its forehead. | Newspaper accounts throughout February and March 1909 describe encounters between local residents and a beast with "enormous wings, a long pointed bill, claws like steel hooks, and an eye in the center of its forehead." |
+| snallygaster-c09 | exact | en.wikipedia.org | It was later revealed that these reports were part of a hoax by Middletown Valley Register editor George C. Rhoderick and reporter Ralph S. Wolfe to increase readership. | It was later revealed that these reports were part of a hoax perpetrated by Middletown Valley Register editor George C. Rhoderick and reporter Ralph S. Wolfe in an attempt to increase readership. |
+| snallygaster-c10 | exact | en.wikipedia.org | Early sightings led to a particular association with the Frederick County areas of South Mountain, Braddock Heights and the Middletown Valley. | Early sightings led to a particular association with the Frederick County areas of South Mountain, Braddock Heights, and the Middletown Valley. |
+| snallygaster-c11 | exact | preservationmaryland.org | Reports of the Snallygaster, a strange beast prowling the woods of Frederick County, have been made since the 1730s, making it one of Maryland's oldest legends. | Reports of the Snallygaster, a strange beast prowling the woods of Frederick County, have been made since the 1730s, making it one of Maryland’s oldest legends. |
+| snallygaster-c12 | exact | preservationmaryland.org | Eighteenth-century accounts by the early German settlers refer to the beast as a Schneller Geist, or quick ghost, that rapidly pounced upon its unsuspecting prey. | 18th-century accounts by the early German settlers refer to the beast as a Schneller Geist or quick ghost that rapidly pounced upon its unsuspecting prey. |
+| snallygaster-c13 | exact | preservationmaryland.org | In December 1932 the Hagerstown Morning Herald reported the death of the Snallygaster, purportedly lured to a moonshine still in Frog Hollow in Washington County, overcome by the noxious fumes and drowned in the alcoholic vat. | Then, in December 1932, the Hagerstown Morning Herald reported on the death of the Snallygaster. It was purportedly lured to a moonshine still in Frog Hollow in Washington County and was overcome by the noxious fumes and drowned in the alcoholic vat. |
+| snallygaster-c14 | exact | preservationmaryland.org | Some have suggested that the accounts beginning in 1909 were a veiled attempt at scaring away would-be ne'er-do-wells from Middletown and the surrounding region. | Some have suggested that the accounts beginning in 1909 were a veiled attempt at scaring away would be ne’er-do-wells from Middletown and the surrounding region. |
+| snallygaster-c15 | exact | preservationmaryland.org | Others explain that the original letter from T.C. Harbaugh is the explanation, as Thomas Chalmers Harbaugh was a native of Middletown and an accomplished author with a passion for the area's history and culture. | Others have explained that the original letter from T.C. Harbaugh is the explanation – as Thomas Chalmers Harbaugh was a native of Middletown and an accomplished author with a passion for the area’s history and culture. |
 
 
 ## tlahuelpuchi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -125,14 +160,19 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tlahuelpuchi-c04 | exact | en.wikipedia.org | Tlahuelpuchi are born with their curse and learn of it around puberty. | Tlahuelpuchi are born with their curse and cannot avoid it. They first learn of what they are sometime around puberty. |
 | tlahuelpuchi-c05 | exact | en.wikipedia.org | Tlahuelpuchi must feed on blood at least monthly or die. | Tlahuelpuchi must feast on blood at least once a month or they die. |
 | tlahuelpuchi-c06 | exact | en.wikipedia.org | Garlic, onions and metal repel the tlahuelpuchi. | Garlic, onions and metal repel the tlahuelpuchi. |
+| tlahuelpuchi-c07 | exact | nahuatl.wired-humanities.org | The dictionary translates tlahuipochtli as "sorcerer or animal spirit", sometimes paired with nahualli, and lists tlahuelpuchi among its orthographic variants. | Headword: tlahuipochtli. Principal English Translation: sorcerer or animal spirit, sometimes paired with nahualli (see attestations) Orthographic Variants: tlahuipochin, tlahuihpochtli, tlahuihpochin, tlahuelpuchi |
+| tlahuelpuchi-c08 | exact | nahuatl.wired-humanities.org | The dictionary cites tlahuipochtin as those who walked about at night spitting fire and causing madness, sickness or death in their victims. | tlahuipochtin = those who walked about at night "spitting fire and causing madness, sickness, or death in their victims" |
+| tlahuelpuchi-c09 | exact | nahuatl.wired-humanities.org | The dictionary also refers to the tlahuelpuchi/tlahuepoche, or "fiery red smoke", in Tlaxcala and the Sierra Poblana. | In reference to the tlahuelpuchi/tlahuepoche or “fiery red smoke” in Tlaxcala and the Sierra Poblana |
+| tlahuelpuchi-c10 | exact | en.wikipedia.org | Tlahuelpuchi can change form by detaching their body from their legs, which are left in the witch's house, and then go hunting, usually as a bird such as a turkey or a vulture. | Tlahuelpuchi are able to change form by detaching their body from their legs (which are left in the house of the witch). They then go hunting, usually in the form of some bird like a turkey or a vulture. |
+| tlahuelpuchi-c11 | exact | en.wikipedia.org | The tlahuelpuchi must fly over the house in the shape of a cross, from north to south and east to west. | The tlahuelpuchi must fly over the house in the shape of a cross from north to south, east to west. |
+| tlahuelpuchi-c12 | exact | en.wikipedia.org | Most tlahuelpuchi are female, and female tlahuelpuchi are more powerful than males. | Most tlahuelpuchi are female and the female tlahuelpuchi are more powerful than males. |
+| tlahuelpuchi-c13 | exact | en.wikipedia.org | A tlahuelpuchi cannot be detected except by catching them in the act; their family protects them out of shame and because the curse passes to a family member responsible for a tlahuelpuchi's death. | There is no way to detect a tlahuelpuchi except by catching them in the act. Their family protects them out of shame and because if a family member is responsible for the death of a tlahuelpuchi the curse will be passed down to them. |
+| tlahuelpuchi-c14 | exact | en.wikipedia.org | The curse cannot be lifted, and if a tlahuelpuchi is identified they must be killed on the spot. | The curse cannot be lifted, and if a tlahuelpuchi is identified, they must be killed on the spot. |
 
 
 ## tlaloque — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -140,14 +180,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tlaloque-c02 | exact | en.wikipedia.org | The Atlcahualo festival (12 February–3 March) was dedicated to the Tlaloque and involved child sacrifice on sacred peaks such as Cerro Tláloc. | The Atlcahualo festivals was celebrated from 12 February until 3 March. Dedicated to the Tlaloque, this veintena involved the sacrifice of children on sacred mountaintops, like Cerro Tláloc. |
 | tlaloque-c03 | exact | en.wikipedia.org | The winter veintena of Atemoztli (9–28 December) was also dedicated to the Tlaloque. | The winter veintena of Atemoztli (9 December – 28 December) was also dedicated to the Tlaloque. |
 | tlaloque-c04 | exact | en.wikipedia.org | The summit precinct holds five stones thought to represent Tláloc and his four Tlaloque, who provide rain for the land. | The precinct on the summit of the mountain contains 5 stones which are thought to represent Tláloc and his four Tlaloque, who are responsible for providing rain for the land. |
+| tlaloque-c05 | exact | www.worldhistory.org | Tláloc was also considered the ruler of the Tlaloque, a motley group of rain, weather and mountain gods. | Tláloc was also considered the ruler of the Tlaloque - a motley group of rain, weather and mountain gods |
+| tlaloque-c06 | exact | nahuatl.wired-humanities.org | The dictionary translates Tlaloque as deities associated with rain and with Tlaloc, the deity of rain and celestial waters. | Headword: Tlaloque. Principal English Translation: deities, associated with rain and with Tlaloc, the deity of rain and celestial waters |
+| tlaloque-c07 | exact | nahuatl.wired-humanities.org | In the text the dictionary quotes, these gods were called Tlalocs, and clouds, rain, hail, snow, mist, sheet lightning, thunder and lightning bolts that struck men were attributed to them. | These [gods] were called Tlalocs. To them were attributed clouds, rain, hail, snow, mist, sheet lightning, thunder, and lighting bolts which struck men. |
+| tlaloque-c08 | exact | nahuatl.wired-humanities.org | Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were deities of pulque), and the tepictoton, small legless figures. | Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were deities of pulque), and the tepictoton, small legless figures. |
+| tlaloque-c09 | exact | www.encyclopedia.com | The Tlaloques were "rain dwarfs", lesser deities associated with various climatological phenomena such as snow, sleet and lightning. | The Tlaloques were "rain dwarfs"; namely, lesser deities associated with various climatological phenomena such as snow, sleet, and lightning. |
+| tlaloque-c10 | exact | www.encyclopedia.com | The ceremonial relationship between human beings and the Tlaloques was primarily based on food exchange. | The ceremonial relationship between human beings and the Tlaloques was primarily based on food exchange. |
 
 
 ## wekufe — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -155,14 +198,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wekufe-c02 | exact | en.wikipedia.org | The word became tied to demons only after Catholicism brought the Mapuche the concept of evil. | It was only after the arrival of Catholicism when the Mapuche people had gained the concept of evil that the word became associated with demons. |
 | wekufe-c03 | exact | en.wikipedia.org | It is generally a generic name for Mapuche mythical beings with harmful intentions toward humans. | The word is generally used as a generic name in order to describe creatures from Mapuche mythology that usually have harmful intentions towards human beings. |
 | wekufe-c04 | exact | en.wikipedia.org | They thus cause illness, destruction, death and other calamities among the Mapuche. | In this way they cause illness, destruction, death, and other calamities amongst the Mapuche. |
+| wekufe-c05 | exact | www.everyculture.com | The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form. | The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form. |
+| wekufe-c06 | exact | www.everyculture.com | Among contemporary Araucanians there are two kinds of sickness: one caused by supernatural agents, the wekufe and the perrimontu, and the other by natural agents or environmental factors. | Among contemporary Araucanians, however, there are two kinds of sickness: one caused by supernatural agents, the wekufe and the perrimontu, and the other by natural agents or environmental factors. |
+| wekufe-c07 | exact | www.everyculture.com | The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack the persons they envy. | The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy. |
+| wekufe-c08 | exact | en.wikipedia.org | The Mapuche believe that many wekufes allow themselves to be manipulated by kalkus (Mapuche sorcerers, equivalent to witches or wizards who work with black magic), who use them as a mystic medium for obtaining power. | The Mapuche believe that many wekufes allow themselves to be manipulated by kalkus (Mapuche sorcerers, equivalent to witches or wizards who work with black magic), who use them as a mystic medium for obtaining power. |
+| wekufe-c09 | exact | en.wikipedia.org | Unlike other living beings or spirits that possess their own soul, wekufes are soulless. | Unlike other living beings or spirits that possess their own soul, wekufes are soulless. |
+| wekufe-c10 | exact | en.wikipedia.org | The best known of the wekufes are Trelke-wekufe (El Cuero or cow hide) and Canillo, both powerful wekufes able to change into solid form. | The best known of the wekufes are Trelke-wekufe (El Cuero or cow hide), and Canillo, both of which are powerful wekufes with the ability to change into solid form. |
+| wekufe-c11 | exact | en.wikipedia.org | The wekufe also have the power to capture and enslave the pillú (spirit of the recently deceased that is reluctant to leave its body) before it transforms into an alwe (more mature spirit). | The wekufe also have the power to capture and enslave the pillú (spirit of the recently deceased that is reluctant to leave its body) before it transforms into an alwe (more mature spirit). |
+| wekufe-c12 | exact | en.wikipedia.org | The machitún ceremony must be performed in order to release the wekufe. | The machitún ceremony must be performed in order to release the wekufe. |
+| wekufe-c13 | exact | en.wikipedia.org | In the more southerly regions it was said that the wekufe, serving the Pillán and bringing disease to the hut (ruca), the cattle and the fields, could only be exorcised by burning foiqe or cinnamon branches. | In the more southerly regions, it was said that the wekufe, serving the Pillán, bringing disease to the hut (ruca), the cattle, and the fields could only be exorcised by burning the foiqe or cinnamon branches. |
+| wekufe-c14 | exact | en.wikipedia.org | Wekufes entered the Mapu world as a consequence of the mythical battle amongst the Pillán spirits, which resulted in the breaking of the Admapu. | Wekufes entered the Mapu world as a consequence of the mythical battle amongst the Pillán spirits, which resulted in the breaking of the Admapu |
+| wekufe-c15 | exact | en.wikipedia.org | Mapuche legends say that wekufes come from Minchenmapu, located to the west beyond Mapu. | Mapuche legends say that wekufes come from Minchenmapu, which is located to the west beyond Mapu |
+| wekufe-c16 | exact | en.wikipedia.org | As long as the Mapuche obey the admapu laws and perform the guillatún ceremony, the Ngen and Pillán spirits will continue to keep the wekufe under control. | As long as the Mapuche people obey the admapu laws and perform the guillatún ceremony, then the Ngen and Pillán spirits will continue to keep the wekufe under control. |
+| wekufe-c17 | exact | en.wikipedia.org | In the Mapuche language, Mapudungun, the word wekufe can be attributed to any person who tells lies or is deceptive. | In the Mapuche language, Mapudungun, the word wekufe can be attributed to any person that tells lies or is deceptive. |
 
 
 ## werejaguar — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -171,6 +224,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | werejaguar-c03 | exact | en.wikipedia.org | It was once thought the main Olmec deity but is now seen as one of many. | The werejaguar supernatural was once considered to be the primary deity of the Olmec culture but is now thought to be only one of many. |
 | werejaguar-c04 | exact | en.wikipedia.org | Many scholars first tied it to a myth of a jaguar mating with a woman. | Originally, many scholars believed that the werejaguar was tied to a myth concerning a copulation between a jaguar and a woman. |
 | werejaguar-c05 | exact | en.wikipedia.org | The term comes from Old English were ("man") and jaguar. | The term is derived from Old English were, meaning "man", and jaguar |
+| werejaguar-c06 | exact | publications.essex.ac.uk | The essential elements of the Were-Jaguar or Jaguar-Baby are the V-shaped cleft, clawed or paw-like feet or hands, and a feline head with, in some cases, a tail. | The essential elements of the Were-Jaguar or Jaguar-Baby are, the ‘V’ shaped cleft, clawed or paw like feet or hands and a feline head with, in some cases, a tail. |
+| werejaguar-c07 | exact | publications.essex.ac.uk | One view: the jaguar was a "power animal" of a shaman caste and stood for a "spirit journey", recalling a shared religious experience. | that the jaguar was a “power animal” of a shaman caste and stood for a “spirit journey,” recalling a shared religious experience |
+| werejaguar-c08 | exact | publications.essex.ac.uk | Another view: the Olmec believed themselves to be descended from the jaguar. | that the Olmec believed themselves to be descended from the jaguar. |
+| werejaguar-c09 | exact | publications.essex.ac.uk | Another view: the jaguar was a representative tool functioning as a symbol of the dominance of the ruling class. | that the jaguar was a representative tool, functioning as a symbol of the dominance of the ruling class |
+| werejaguar-c10 | exact | publications.essex.ac.uk | These representations come in a variety of forms: delicate greenstone figurines, votive axes, incised celts and large basalt sculptures. | These representations come in a variety of forms; delicate greenstone figurines, votive axes (with the forms realised in 3 dimensions) and incised celts as well as large basalt sculptures |
+| werejaguar-c11 | exact | en.wikipedia.org | According to archaeologist Peter Furst, werejaguar figurines were likely used as household gods for many people and as spirit helpers or familiars for priests or shamans, aiding in transformative acts and other rituals. | According to archaeologist Peter Furst, werejaguar figurines were likely used as household gods for many people and as spirit helpers or familiars for priests or shamans, aiding in transformative acts and other rituals. |
+| werejaguar-c12 | exact | en.wikipedia.org | Some researchers have therefore refined the werejaguar supernatural, specifically equating it with the Olmec rain deity. | Some researchers have therefore refined the werejaguar supernatural, specifically equating it with the Olmec rain deity |
+| werejaguar-c13 | exact | en.wikipedia.org | An overarching werejaguar theory cannot explain the diversity and complexity of Olmec supernaturals; only one, the Rain Baby, clearly seems to be a human-jaguar blend. | An overarching [werejaguar] theory cannot explain the diversity and complexity of Olmec supernaturals. Only one, the Rain Baby, clearly seems to be a human-jaguar blend. |
+| werejaguar-c14 | exact | en.wikipedia.org | Peter Furst, among others, has suggested that the werejaguar actually represents a variety of native toad. | Peter Furst, among others, has suggested that the werejaguar actually represents a variety of native toad |
 
 
 ## yacumama — lulus-otomatis
