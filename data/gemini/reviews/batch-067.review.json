@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-067",
-  "checked_at": "2026-10-06T15:35:37.846Z",
+  "checked_at": "2026-10-06T19:25:42.520Z",
   "files": [
     "batch-067.md",
     "batch-067-fix-1.md",
     "batch-067-fix-2.md",
     "batch-067-fix-3.md",
     "batch-067-fix-4.md",
-    "batch-067-fix-5.md"
+    "batch-067-fix-5.md",
+    "batch-067-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3756,20 +3757,15 @@
     },
     {
       "slug": "pulao-dragon",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "444ecb7db540ea0c5441d6350a5653ec7ac566130fd9c1ac42bcc37745e7e992",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pulao-dragon-c01",
@@ -3820,27 +3816,61 @@
           "quote": "During the Ming dynasty, the pulao (in the form tulao) appeared in the influential list of fantastic creatures appearing in architecture and applied art, which was compiled by Lu Rong (1436-1494) in his Miscellaneous records from the bean garden (菽園雜記, Shuyuan zaji).",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "pulao-dragon-c06",
+          "source_id": "pulao-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A note in this text quotes Xue Zong saying there is a beast named Pulao (蒲牢) that has always feared the whale; whenever the whale strikes it, Pulao cries out loudly.",
+          "statement_id": "Catatan dalam teks ini mengutip Xue Zong yang menyebut ada binatang bernama Pulao (蒲牢) yang sejak dulu takut kepada ikan paus; setiap kali paus memukulnya, Pulao menjerit keras.",
+          "quote": "薛綜注西京賦云：「海中有大魚名鯨，又有獸名蒲牢。蒲牢素畏鯨魚，鯨魚擊蒲牢，蒲牢輒大鳴呼。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pulao-dragon-c07",
+          "source_id": "pulao-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same note says that to make a bell sound loud, a Pulao is made on top of it, and the bell-striker is named a whale.",
+          "statement_id": "Catatan yang sama menyebut bahwa untuk membuat bunyi lonceng keras, Pulao dibuat di atasnya, dan pemukul lonceng dinamai ikan paus.",
+          "quote": "蒲牢輒大鳴呼。凡鐘欲令其聲大者，故作蒲牢於其上，撞鐘者名為鯨魚。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pulao-dragon-c08",
+          "source_id": "pulao-dragon-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The list in the Shuyuan zaji says the Tulao (徒牢) looks like a dragon but small, is by nature given to roaring, has divine strength, and so bells are hung from it.",
+          "statement_id": "Daftar dalam Shuyuan zaji menyebut Tulao (徒牢) berwujud seperti naga tetapi kecil, bersifat suka meraung, memiliki kekuatan gaib, sehingga lonceng digantungkan padanya.",
+          "quote": "螭吻，其形似獸，性好望，故立屋角上。徒牢，其形似龍而小，性吼呌，有神力，故懸於鐘上。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pulao-dragon-c09",
+          "source_id": "pulao-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Pulao was later integrated into various lists of the Nine Children of the Dragon compiled by later Ming authors such as Li Dongyang and Yang Shen.",
+          "statement_id": "Menurut artikel ini, Pulao kemudian dimasukkan ke berbagai daftar Sembilan Anak Naga yang disusun penulis Ming belakangan seperti Li Dongyang dan Yang Shen.",
+          "quote": "Later on, the pulao, with similar descriptions, was integrated into various lists of the Nine Children of the Dragon compiled by later Ming dynasty authors such as Li Dongyang and Yang Shen.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cafcca09a5e342c397d550dd899bb6ed1af2fac6beef75a2f4f8cfb5637ef0e5"
+      "images": []
     },
     {
       "slug": "shen-clam-monster",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "d7af89867bdf0d6e6f048411ae3d56ea03dc85fce33a7ed239d2c040c5231dd7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shen-clam-monster-c01",
@@ -3891,27 +3921,81 @@
           "quote": "\"It is not clear why these mussels were placed into the tombs,\" he admits",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c06",
+          "source_id": "shen-clam-monster-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji text says the vapour (氣) of the 蜄 beside the sea resembles towers and terraces, while the vapour over broad plains forms palaces and gates; each vapour resembles the mountains, rivers and gatherings of people.",
+          "statement_id": "Teks Shiji menyebut bahwa uap (氣) dari 蜄 di tepi laut menyerupai menara dan panggung, sedangkan uap di padang luas membentuk istana dan gerbang; uap-uap itu masing-masing menyerupai gunung, sungai, dan tempat berkumpulnya manusia.",
+          "quote": "金寶之上，皆有氣，不可不察。海旁蜄氣象樓臺；廣野氣成宮闕然。雲氣各象其山川人民所聚積。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c07",
+          "source_id": "shen-clam-monster-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shuowen Jiezi dictionary defines 蜃: a pheasant enters the sea and transforms into a 蜃; the 蜃 kind has three types, all born in the sea, formed by the transformation of other creatures such as swallows and old bats.",
+          "statement_id": "Kamus Shuowen Jiezi mendefinisikan 蜃: burung pegar masuk ke laut dan berubah menjadi 蜃; jenis-jenis 蜃 ada tiga, semuanya lahir di laut, dan terbentuk dari perubahan makhluk lain seperti burung layang-layang dan kelelawar tua.",
+          "quote": "蜃：雉入海，化爲蜃。从虫辰聲。 𧊧：蜃屬。有三，皆生於海。千歲化爲𧊧，秦謂之牡厲。又云百歲燕所化。魁𧊧，一名復累，老服翼所化。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c08",
+          "source_id": "shen-clam-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A scholar quoted in the article says that by early medieval times the shen had become a monster lurking in submarine grottoes, sometimes endowed with dragon or nāga attributes, belching up bubbles and frothy clots.",
+          "statement_id": "Seorang pakar yang dikutip artikel ini menyatakan bahwa pada awal abad pertengahan shen menjadi monster yang bersembunyi di gua bawah laut, kadang dilengkapi sifat naga atau nāga, dan mengeluarkan gelembung dan gumpalan berbusa.",
+          "quote": "Finally, by early medieval times, it had become a monster lurking in submarine grottoes, and was sometimes endowed with the attributes of a dragon – or, more likely, under Indian influence, a nāga. It expressed its artistic nature by belching up bubbles and frothy clots.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c09",
+          "source_id": "shen-clam-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A scholar quoted in the article states that the clam-monster's plastic exhalations sometimes burst the surface film and appeared to astonished mariners as stunning mansions adrift on the deep.",
+          "statement_id": "Seorang pakar yang dikutip artikel ini menyatakan bahwa embusan lentur sang monster kerang kadang memecah selaput permukaan dan tampak bagi pelaut yang terkejut sebagai istana megah yang melayang di permukaan laut.",
+          "quote": "The plastic exhalations of the clam-monster sometimes burst the film of surface tension and appeared to astonished mariners as stunning mansions adrift on the surface of the deep.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c10",
+          "source_id": "shen-clam-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the 1596 Compendium of Materia Medica describes the shen under the jiaolong entry with a quote: a kind of crocodile shaped like a huge serpent, horned like a dragon with a red mane, scales inversely arranged below mid-back, living on swallows, spurting clouds of vapour in huge rings, and appearing when rain is coming.",
+          "statement_id": "Menurut artikel ini, Compendium of Materia Medica (1596) menguraikan shen dalam entri jiaolong dengan kutipan: sejenis buaya berbentuk ular besar, bertanduk seperti naga, bersurai merah, bersisik terbalik di bawah tengah punggung, hidup dari burung layang-layang, menyemburkan awan uap dalam lingkaran besar, dan muncul saat akan hujan.",
+          "quote": "The 1596 Compendium of Materia Medica describes the shèn under the jiaolong entry with quotes from the Yueling and Lu Dian's Piya. ... A kind of crocodile shaped like a huge serpent. Horned like a dragon, with a red mane. Below the middle of the back it has scales inversely arranged. It lives on swallows. It spurts forth clouds of vapour in huge rings. It appears when it is going to rain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shen-clam-monster-c11",
+          "source_id": "shen-clam-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, in Chinese folklore swallows are a favorite food of both long (龍) and shen (蜃) dragons.",
+          "statement_id": "Menurut artikel ini, dalam cerita rakyat Tiongkok burung layang-layang adalah makanan kesukaan naga long (龍) dan naga shen (蜃).",
+          "quote": "According to Chinese folklore, swallows are a favorite food of both lóng 龍 and shèn 蜃 dragons.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "645b678752775d14f4bd2b03411ae02d9c08696d6ceb7f616da02e8f6284fed1"
+      "images": []
     },
     {
       "slug": "suanni",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "5c7d92caef0fe2dc70054fe7a2dabd2be3e0d25c70c0cdda36fd01fad024ce8c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "suanni-c01",
@@ -3962,27 +4046,51 @@
           "quote": "銅鏡、各神獣鏡の意匠、特に唐の時代に作られた「海獣葡萄鏡」に多数見受けられる瑞獣を海獣または狻猊と呼ぶことがある。なお、海獣とは砂漠の向こうに住む「海外の獣」という意味であるという。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "suanni-c06",
+          "source_id": "suanni-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary quotes the Erya (Shishou) that the Suanni (狻麑) resembles a striped cat and eats tigers and leopards, and its commentary says it is the lion, coming from the Western Regions.",
+          "statement_id": "Kamus Kangxi mengutip Erya (Shishou) bahwa Suanni (狻麑) menyerupai kucing belang dan memakan harimau serta macan tutul, dan komentarnya menyebut makhluk itu singa yang berasal dari Wilayah Barat.",
+          "quote": "《爾雅·釋獸》狻麑，如虦猫，食虎豹。《註》卽獅子也。出西域。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suanni-c07",
+          "source_id": "suanni-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary records that in the time of Emperor Shun of Han the king of Shule presented an ox and a lion, and quotes the Mu Tianzi Zhuan that the Suanni (狻猊) runs five hundred li a day.",
+          "statement_id": "Kamus Kangxi mencatat bahwa pada masa Kaisar Shun dari Han, raja Shule mempersembahkan sapi dan singa, dan mengutip Mu Tianzi Zhuan bahwa Suanni (狻猊) berlari lima ratus li sehari.",
+          "quote": "出西域。漢順帝時，疏勒王獻幇牛及獅子。《穆天子傳》狻猊日走五百里。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suanni-c08",
+          "source_id": "suanni-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Mu Tianzi Zhuan text names famous beasts that rely on their legs, including the Suanni (狻猊) and the wild horse running five hundred li; a note within says the Suanni is the lion and also eats tigers and leopards.",
+          "statement_id": "Teks Mu Tianzi Zhuan menyebut hewan terkenal yang mengandalkan kaki, termasuk Suanni (狻猊) dan kuda liar yang berlari lima ratus li; catatan di dalamnya menyatakan Suanni adalah singa dan juga memakan harimau serta macan tutul.",
+          "quote": "名獸使足︰□走千里，狻猊□野馬走五百里，〈狻猊，師子，亦食虎豹。野馬，亦如馬而小。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8af36e46a7cbc06fbf66cff766657600e7e0489ab450fb2cf6ecca7b48d9c78f"
+      "images": []
     },
     {
       "slug": "tianlong",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "d4e658908689af406737ef574051a11aa95fc4d2e9a2be5e7936082c53b800fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tianlong-c01",
@@ -4033,27 +4141,71 @@
           "quote": "Among Chinese classic texts, tian \"heaven\" and long \"dragon\" were first used together in Zhou dynasty (1122 BCE – 256 BCE) writings, but the word tianlong was not recorded until the Han dynasty (207 BCE – 220 CE).",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "tianlong-c06",
+          "source_id": "tianlong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, in the Mahayana tradition tianlong is the first of four nāga classes, who guard the Heavenly Palace and carry it so that it does not fall.",
+          "statement_id": "Menurut artikel ini, dalam tradisi Mahayana tianlong adalah kelas nāga pertama dari empat kelas, yang menjaga Istana Langit dan memikulnya agar tidak jatuh.",
+          "quote": "First, tianlong 天龍 means \"heavenly dragon/nāga\" as the first of four nāga classes in Mahayana tradition. ... who guard the Heavenly Palace and carry it so that it does not fall.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tianlong-c07",
+          "source_id": "tianlong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Eberhard notes that when the dragon star appeared in the sky it was customary to make a sacrifice supplicating for rain, and this springtime dragon festival occurs on the 2nd day of the 2nd month.",
+          "statement_id": "Menurut artikel ini, Eberhard mencatat bahwa ketika bintang naga muncul di langit, lazim diadakan persembahan untuk memohon hujan, dan festival naga musim semi itu jatuh pada hari kedua bulan kedua.",
+          "quote": "Wolfram Eberhard notes, \"When the dragon star appeared in the sky it was customary to make a sacrifice supplicating for rain,\" and this springtime dragon festival occurs on the 2nd day of the 2nd month.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tianlong-c08",
+          "source_id": "tianlong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Tianlong (天龍, Heavenly Dragon) is the 3rd star in Fangxiu (the Room mansion) and corresponds to the Western constellation Scorpius.",
+          "statement_id": "Menurut artikel ini, Tianlong (天龍, Naga Langit) adalah bintang ketiga di Fangxiu (rumah Kamar) dan sepadan dengan rasi Barat Scorpius.",
+          "quote": "Tianlong 天龍 \"Heavenly Dragon\" is the 3rd star in Fangxiu 房宿 \"Room (Chinese constellation)\" and corresponds to the Western constellation Scorpius.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tianlong-c09",
+          "source_id": "tianlong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Fanyi Mingyi Ji text quotes a commentary saying dragons are of four kinds, the first guarding heavenly palaces and holding them so they do not fall; dragon images are made on human roofs, and the other kinds bring clouds and rain, open rivers and channels, or guard treasure.",
+          "statement_id": "Teks Fanyi Mingyi Ji mengutip sebuah komentar yang menyebut naga ada empat jenis, yang pertama menjaga istana langit dan menahannya agar tidak jatuh; patung naga dibuat di atas atap rumah manusia, dan jenis lain membawa awan dan hujan, membuka sungai dan saluran, atau menjaga harta karun.",
+          "quote": "别行䟽云龍有四種一守天宫殿持令不落人間屋上作龍像之爾二興雲致雨〉 〈益人間者三地龍決江開瀆四伏藏守轉輪王大福人藏也龍有四生俱舎云𡖉生金翅鳥能食四生龍〉 〈罵意經云",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tianlong-c10",
+          "source_id": "tianlong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Fangyan dictionary says a dragon that has not yet ascended to heaven (未陞天龍) is called a panlong (蟠龍, coiled dragon).",
+          "statement_id": "Kamus Fangyan menyatakan bahwa naga yang belum naik ke langit (未陞天龍) disebut panlong (蟠龍, naga melingkar).",
+          "quote": "度高為揣。 半步為跬。 半盲為睺。 未陞天龍謂之蟠龍。 裔，夷狄之揔名。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "65a0d870a41fa66d16fac3fc536042732a10d38bc5b0d0d85263a52401ca17e3"
+      "images": []
     },
     {
       "slug": "zigu",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "f692675f146296ef95d963ef84fc78da4034a580c4b5df70224ef57a8ca5f8ba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zigu-c01",
@@ -4104,27 +4256,101 @@
           "quote": "In Chinese mythology, there are six household deities. The two most notable categories of these are the \"door gods\" and the \"toilet gods\". Toilet gods have been worshipped since the Six Dynasties period. The door gods and toilet gods were very popular during the Tang and Song dynasties.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "zigu-c06",
+          "source_id": "zigu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Yiyuan text says it has long been told that Zigu (紫姑) was a family's concubine, hated by the principal wife, who often had her do filthy chores, and who died of anguish on the fifteenth day of the first month.",
+          "statement_id": "Teks Yiyuan menyebut bahwa sejak dulu diceritakan Zigu (紫姑) adalah selir sebuah keluarga yang dibenci istri utama, yang kerap menyuruhnya mengerjakan urusan kotor, dan ia mati karena terharu dan sakit hati pada hari kelima belas bulan pertama.",
+          "quote": "世有紫姑神，古來相傳云是人家妾，為大婦所嫉 ... 每以穢事相次役，正月十五日感激而死。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c07",
+          "source_id": "zigu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Yiyuan text says that on that day people made her likeness and welcomed her at night by the latrine or pigsty, calling \"Zixu is not here\" (her husband's name), \"Cao has also gone back\" (the principal wife) and \"little sister may come out to play\"; when the one holding it feels it grow heavy, the spirit has come.",
+          "statement_id": "Teks Yiyuan menyebut bahwa pada hari itu orang membuat rupanya dan menyambutnya pada malam hari di jamban atau kandang babi sambil berseru \"Zixu tidak ada\" (nama suaminya) dan \"Cao juga sudah pergi\" (istri utamanya), \"Adik kecil boleh keluar bermain\"; bila orang yang memegangnya merasa berat, berarti sang dewi datang.",
+          "quote": "故世人以其日作其形，夜於廁間或豬欄邊迎之，祝曰：「子胥不在」，是其婿名也。「曹姑亦歸」，曹即其大婦也。「小姑可出戲。」捉者覺重，便是神來。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c08",
+          "source_id": "zigu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Yiyuan text says the spirit can divine many matters and silkworm outcomes, is good at the hook-guessing game (射鉤): dancing when the result is good and lying on its back when bad; a Meng who did not believe tried to seize it, and it leapt through the thatched roof and was lost for good.",
+          "statement_id": "Teks Yiyuan menyebut bahwa sang dewi dapat meramalkan berbagai hal dan ulat sutra, pandai permainan menebak kait (射鉤): menari bila hasilnya baik dan berbaring telentang bila buruk; seorang pria bermarga Meng yang tidak percaya mencoba menangkapnya dan ia meloncati atap jerami lalu lenyap selamanya.",
+          "quote": "能占眾事，卜未來 ... 蠶桑。又善射鉤，好則大舞，惡便仰眠。平昌孟氏恆不信，躬試往捉，便自躍茅 ... 屋而去。永失所在也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c09",
+          "source_id": "zigu-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Jingchu Suishi Ji text says that on that evening people welcome Zigu (紫姑) to divine the coming silkworm harvest and many other matters.",
+          "statement_id": "Teks Jingchu Suishi Ji menyebut bahwa pada malam itu orang menyambut Zigu (紫姑) untuk meramal hasil ulat sutra mendatang dan berbagai hal lain.",
+          "quote": "其夕，迎紫姑，以卜將來蠶桑，并占衆事。 按：劉敬叔《異苑》云︰「紫姑本人家妾，為大婦所妬，正月十五日感激而死",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c10",
+          "source_id": "zigu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, women worshipped her as a homemade doll on the fifteenth day of the first month, when she was ritually summoned in the latrine at night with prayers that the husband and wife had gone and she could come out safely.",
+          "statement_id": "Menurut artikel ini, perempuan memuja Zigu dalam bentuk boneka buatan sendiri pada hari kelima belas bulan pertama, ketika ia dipanggil secara ritual di jamban pada malam hari dengan doa bahwa suami dan istri sudah pergi dan ia boleh keluar dengan aman.",
+          "quote": "Women worshipped her in the form of a homemade doll on the fifteenth day of the first month each year, when she was ritually summoned in the latrine during the night. Prayers were said to the doll, telling her that the husband and wife had gone and that she could come out safely.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c11",
+          "source_id": "zigu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the doll's motions, sometimes manifested as automatic writing, were used by the worshippers for fortune telling.",
+          "statement_id": "Menurut artikel ini, gerakan boneka, kadang berupa tulisan otomatis, dipakai para pemuja untuk meramal.",
+          "quote": "The motions of the doll – sometimes manifested as automatic writing – were used for fortune telling by the worshippers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c12",
+          "source_id": "zigu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, a popular novel of the Ming period portrayed the latrine deity as three sisters responsible for the Primeval Golden Dipper (hunyuan jindou) or celestial toilet bowl, from which all beings were born.",
+          "statement_id": "Menurut artikel ini, sebuah novel populer zaman Ming menggambarkan dewi jamban sebagai tiga bersaudari yang bertanggung jawab atas Gayung Emas Purba (hunyuan jindou) atau kloset langit, tempat semua makhluk lahir.",
+          "quote": "Another interpretation came from a popular novel of the Ming period, which portrayed the latrine deity as three sisters who were responsible for the Primeval Golden Dipper (hunyuan jindou) or celestial toilet bowl, from which all beings were born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zigu-c13",
+          "source_id": "zigu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, other legends say her real name is He Mingmei, with the word Liqing, from Laiyang, Shandong.",
+          "statement_id": "Menurut artikel ini, legenda lain menyebut nama aslinya He Mingmei, dengan sebutan Liqing, dari Laiyang, Shandong.",
+          "quote": "Other legends say that her real name is He Mingmei, and the word is Liqing, from Laiyang, Shandong.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "93b0e31cf81ff820c019f555e2d8c618099cb6444853a620fc16c004b0b078d5"
+      "images": []
     },
     {
       "slug": "bulgae",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "8c1bd237836a5451dee43bc27ff3b3d749930ec58c2970d23972f90b0e5b5d17",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bulgae-c01",
@@ -4165,27 +4391,101 @@
           "quote": "According to the myth recorded in the Hangug-ui seolwo (Folk Myths from Korea), there were many realms of heaven. One of them, the kingdom of darkness, was called Gamangnara, the Dark World. The king of Gamangnara was concerned and weary with the darkness and desired the light of the Sun and Moon for his kingdom.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bulgae-c05",
+          "source_id": "bulgae-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the king sent one of the gigantic fiery hounds, the Bulgae, to chase the Sun and bring it to his realm, but the Sun was too hot for the dog to hold on to, so it gave up and ran back to the king.",
+          "statement_id": "Menurut artikel ini, raja mengirim salah satu anjing api raksasa, Bulgae, untuk mengejar Matahari dan membawanya ke negerinya, tetapi Matahari terlalu panas sehingga anjing itu tidak dapat menahannya, menyerah, dan lari kembali kepada raja.",
+          "quote": "He sent one of the gigantic fiery hounds, the Bulgae, belonging to one of his dark world subjects, to chase the Sun and bring it to his realm. However, when the Bulgae tried to bite the Sun, the Sun was too hot, which made the dog unable to hold on to it, resulting in him giving up, and running back to the king.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c06",
+          "source_id": "bulgae-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the king sent another, more ruthless dog to steal the Moon, but the Moon was so cold that the dog's mouth froze and the Bulgae dropped the Moon from its mouth.",
+          "statement_id": "Menurut artikel ini, raja mengirim anjing lain yang lebih kejam untuk mencuri Bulan, tetapi Bulan begitu dingin sehingga mulut anjing itu membeku dan Bulgae menjatuhkan Bulan dari mulutnya.",
+          "quote": "In another attempt to get rid of the darkness he sent another more ruthless dog to steal the Moon. When the Bulgae tried to carry the Moon in its mouth, the Moon was so cold, that the mouth of the dog was icy and frozen, and caused the Bulgae to drop the Moon from its mouth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c07",
+          "source_id": "bulgae-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the king kept sending ever fiercer fire dogs but none could collect the Sun and Moon; in the Korean eclipse belief, the dark sections during an eclipse are where the dogs are biting, and when the eclipse is over the dogs give up and run back to Gamangnara.",
+          "statement_id": "Menurut artikel ini, raja terus mengirim anjing api yang makin garang tetapi tidak ada yang berhasil mengambil Matahari dan Bulan; menurut kepercayaan gerhana Korea, bagian gelap saat gerhana adalah bagian yang digigit anjing-anjing itu, dan setelah gerhana usai mereka menyerah dan kembali ke Gamangnara.",
+          "quote": "He continued to send fire dogs that were fiercer than the others, but none were able to collect the Sun and Moon. According to the Korean eclipse belief, during a solar eclipse or lunar eclipse, the dark sections are the parts where the dogs are biting. When the eclipses are over, the dogs have given up and run away back to Gamangnara.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c08",
+          "source_id": "bulgae-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Bulgae are strong and fierce dogs, or hairy dogs, likely the indigenous Korean dog breed Sapsali, meaning \"ghost chasing dog\".",
+          "statement_id": "Menurut artikel ini, Bulgae adalah anjing kuat dan garang atau anjing berbulu yang kemungkinan adalah anjing asli Korea, Sapsali, yang berarti \"anjing pengejar hantu\".",
+          "quote": "Bulgae are strong and fierce dogs or hairy dogs which are likely to be the indigenous Korean dog breed Sapsali, which means \"ghost chasing dog\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c09",
+          "source_id": "bulgae-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia says the king of Gamak-nara (가막나라), worried that his country was dark, summoned the fierce Bulgae (불개) kept by his people and told them to steal the sun and the moon.",
+          "statement_id": "Wikipedia bahasa Korea menyebut raja Gamak-nara (가막나라), karena cemas negerinya gelap, memanggil Bulgae (불개) ganas milik rakyatnya dan menyuruhnya mencuri matahari dan bulan.",
+          "quote": "가막나라의 임금은 나라가 어두운 것을 걱정하여, 백성들이 기르던 사나운 불개를 불러 해와 달을 훔쳐오라고 하였다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c10",
+          "source_id": "bulgae-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia says that each time the Bulgae bit the sun and moon that part looked dark, and solar and lunar eclipses are said to be caused by the Bulgae of Gamak-nara.",
+          "statement_id": "Wikipedia bahasa Korea menyebut bahwa setiap kali Bulgae menggigit matahari dan bulan bagian itu tampak gelap, dan gerhana matahari dan bulan konon terjadi karena Bulgae dari Gamak-nara.",
+          "quote": "이렇게 불개들이 해와 달을 물 때마다 그 부분이 어둡게 보였고, 일식과 월식이 가막나라의 불개 때문에 생긴다고 전해진다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c11",
+          "source_id": "bulgae-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia records that this tale appears in Son Jin-tae's Joseon Mindamjip (1930) under the title \"Solar and Lunar Eclipses\", collected in Hamhung in 1923.",
+          "statement_id": "Wikipedia bahasa Korea mencatat bahwa kisah ini dimuat dalam Joseon Mindamjip (1930) karya Son Jin-tae dengan judul \"Gerhana Matahari dan Bulan\", dikumpulkan di Hamhung pada 1923.",
+          "quote": "1930년 발간된 손진태의 《조선민담집》(朝鮮民譚集)에서는 〈일식과 월식〉이라는 이름으로 위 이야기를 1923년 함흥에서 채록한 것으로 기록하였으며",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bulgae-c12",
+          "source_id": "bulgae-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia records that \"Bulgae\" (The Fire Dogs) in Jeong In-seop's Folktales from Korea (1952) is stated to be collected in Eonyang in 1912, and Im Seok-jae's Hanguk Gujeon Seolhwa includes a version collected in Sunchang in 1915.",
+          "statement_id": "Wikipedia bahasa Korea mencatat bahwa \"Bulgae\" (The Fire Dogs) dalam Folktales from Korea (1952) karya Jeong In-seop dicatat berasal dari Eonyang pada 1912, dan Hanguk Gujeon Seolhwa karya Im Seok-jae memuat versi dari Sunchang tahun 1915.",
+          "quote": "1952년 발간된 정인섭의 《한국의 설화》(Folktales from Korea)에 수록된 〈불개〉(The Fire Dogs)는 1912년 언양에서 채록한 것으로 원전을 밝히고 있다. 임석재(任晳宰, 1903~1998)의 《한국구전설화》(韓國口傳說話)에서는 1915년 순창에서 채록본을 수록하고 있다.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8ea1cc1e3969101c7f862ba9c1f80719286ed9dacb7048fd9565218f4935858b"
+      "images": []
     },
     {
       "slug": "fangfeng",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "351ad18b2b0aaecb3e52063c5060e1c01627508f4040ef530fbd4b3944461e0b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fangfeng-c01",
@@ -4216,27 +4516,71 @@
           "quote": "Because Fangfeng was a giant (of nearly 33 feet), the executioner had to build a large dike in order to reach his head.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "fangfeng-c04",
+          "source_id": "fangfeng-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji text records that when Wu attacked Yue and demolished Kuaiji, a bone joint filling a whole cart was found; Confucius answered that Yu gathered the gods at Mount Kuaiji, Fangfeng (防風氏) arrived late, Yu killed and beheaded him, and his joints filled a cart.",
+          "statement_id": "Teks Shiji mencatat bahwa ketika Wu menyerang Yue dan merobohkan Kuaiji, ditemukan tulang ruas yang memenuhi satu kereta; Konfusius menjawab bahwa Yu mengumpulkan para dewa di Gunung Kuaiji, Fangfeng (防風氏) datang terlambat, Yu membunuh dan memenggalnya, dan ruas tulangnya memenuhi satu kereta.",
+          "quote": "吳伐越，墮會稽，得骨節專車。吳使使問仲尼：「骨何者最大？」仲尼曰：「禹致羣神於會稽山，防風氏後至，禹殺而戮之，其節專車，此為大矣。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fangfeng-c05",
+          "source_id": "fangfeng-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji text records that, asked what Fangfeng (防風) guarded, Confucius answered that the lord of the Wangwang clan guarded the mountains Feng and Yu, bore the surname 釐, was called Wangwang under Yu, Xia and Shang, Changdi under Zhou, and is now called \"great people\".",
+          "statement_id": "Teks Shiji mencatat bahwa ketika ditanya apa yang dijaga Fangfeng (防風), Konfusius menjawab bahwa penguasa kaum Wangwang (汪罔氏) menjaga gunung Feng dan Yu, bermarga 釐, disebut Wangwang pada masa Yu, Xia, dan Shang, Changdi pada masa Zhou, dan kini disebut \"orang besar\".",
+          "quote": "客曰：「防風何守？」仲尼曰：「汪罔氏之君守封、禺之山，為釐姓。在虞、夏、商為汪罔，於周為長翟，今謂之大人。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fangfeng-c06",
+          "source_id": "fangfeng-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, modern myths and legends in China tend to emphasize that Fangfeng was wrongly executed: he was late because he met a local flood on the way and tried to end it to save the people.",
+          "statement_id": "Menurut artikel ini, mitos dan legenda modern di Tiongkok cenderung menekankan bahwa Fangfeng dihukum mati secara tidak adil: ia terlambat karena di jalan menjumpai banjir setempat dan berusaha menghentikannya demi menyelamatkan rakyat.",
+          "quote": "Modern myths and legends regarding Fangfeng in China tend to emphasize that Fangfeng was wrongly executed; that the reason Fangfeng was late for the assembly was that on his way there he encountered a local flood and his delay was caused by his efforts to end the flood and save the people.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fangfeng-c07",
+          "source_id": "fangfeng-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, as a god, worship of Fangfeng was most prominent in the Six Dynasties regions of Wu and Yue (modern Zhejiang, Jiangsu and Shanghai).",
+          "statement_id": "Menurut artikel ini, sebagai dewa, pemujaan Fangfeng paling menonjol di wilayah Wu dan Yue pada zaman Enam Dinasti (kini Zhejiang, Jiangsu, dan Shanghai).",
+          "quote": "As a god, worship of Fangfeng was most prominent in the Six Dynasties regions of Wu and Yue (modern Zhejiang, Jiangsu, and Shanghai).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fangfeng-c08",
+          "source_id": "fangfeng-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, a common depiction of Fangfeng was that of a giant with one eye and brow, the head of a dragon, and the ears of an ox.",
+          "statement_id": "Menurut artikel ini, penggambaran umum Fangfeng adalah raksasa bermata dan beralis satu, berkepala naga, dan bertelinga lembu.",
+          "quote": "A common depiction of Fangfeng was that of a giant with one eye and brow with the head of a dragon, and the ears of an ox.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b2ddc736123966b2321455ca2fe1d1abb43137f136a55af5a2dc0cb06d8216d5"
+      "images": []
     },
     {
       "slug": "huoshu",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "180fa44c9e59ec426662d6308c25d15a215c6e26d7f52ec800e566dc860356c1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huoshu-c01",
@@ -4297,27 +4641,51 @@
           "quote": "There is also the huo guang shou ... which lists it as fauna of Yan zhou ... describing it as rat-like and rat-sized, with hairs 3 or 4 cun long.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "huoshu-c07",
+          "source_id": "huoshu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shenyijing text says that in the fire among inexhaustible trees there is a mouse weighing a thousand jin with hair over two chi long, fine as silk; it dwells in the fire, glowing red, sometimes comes out with white hair, and dies if chased and drenched with water.",
+          "statement_id": "Teks Shenyijing menyebut bahwa dalam api pada pohon yang tak habis terbakar ada seekor tikus seberat seribu jin dengan bulu panjang lebih dari dua chi sehalus sutra; ia tinggal di dalam api, tampak merah menyala, kadang keluar dengan bulu putih, dan mati bila diusir dan disiram air.",
+          "quote": "不尽木火中有鼠，重千斤，毛長二尺餘，細如絲。但居火中，洞赤，時時出外，而毛白，以水逐而沃之，即死。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huoshu-c08",
+          "source_id": "huoshu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shenyijing text says its hair is spun and woven into cloth, and when the cloth is soiled, burning it in fire makes it clean.",
+          "statement_id": "Teks Shenyijing menyebut bahwa bulunya dipintal dan ditenun menjadi kain, dan bila kain itu kotor, membakarnya dengan api membuatnya bersih.",
+          "quote": "以水逐而沃之，即死。取其毛績紡，織以為布，用之若有垢涴，以火燒之則凈。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huoshu-c09",
+          "source_id": "huoshu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shenyijing text says beyond the southern wilds there is a fire mountain forty li long and fifty li wide where inexhaustible trees grow, and the fire rat (火鼠) is born within.",
+          "statement_id": "Teks Shenyijing menyebut bahwa di luar wilayah liar selatan ada gunung api sepanjang empat puluh li dan selebar lima puluh li, tempat tumbuh pohon-pohon yang tak habis terbakar, dan tikus api (火鼠) hidup di dalamnya.",
+          "quote": "南荒之外有火山，長四十里，廣五十里。其中皆生不烬之木，火鼠生其中。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1b06d8b4205f065ef173890b02e5e0e80dc70f188a47bd341090043050e71955"
+      "images": []
     },
     {
       "slug": "korean-virgin-ghost",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "8ed1091424498c8ae5d51e3dfe0e990481575ad360cbfaa9c3aaa5235c7ec772",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "korean-virgin-ghost-c01",
@@ -4368,27 +4736,111 @@
           "quote": "Since ancient times, it has been thought that the resentment was very deep when a virgin died. There is a myth that if anyone gets possessed by a virgin ghost, they will harbor strong resentment or that they will not be able to get married.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c06",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The Encyclopedia of Korean Culture (entry Songaksi, 손각시) says this ghost is also called Sonmalmyeong, Wangsin or \"virgin ghost\"; a girl of marriageable age who dies unmarried becomes an evil spirit through resentment, attaching mainly to girls of her own age and harming them.",
+          "statement_id": "Ensiklopedia Kebudayaan Korea (entri Songaksi, 손각시) menyebut hantu ini juga disebut Sonmalmyeong, Wangsin, atau \"hantu perawan\"; gadis usia nikah yang mati tanpa menikah menjadi arwah jahat karena dendam, yang terutama menempel pada gadis sebayanya dan menyakiti mereka.",
+          "quote": "일명 ‘손말명’ · ‘왕신’ · ‘처녀귀신’이라고도 한다. 혼기에 찬 처녀가 시집을 가지 못하고 죽어 한이 되어 악귀로 화하여 주로 자기 또래의 혼기에 차 있는 처녀에게 붙어 괴롭히고 해를 입힌다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c07",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The same entry says the Wangsin can even ruin a household, so it is specially enshrined as a household god (gasin).",
+          "statement_id": "Entri yang sama menyebut bahwa Wangsin bahkan dapat menghancurkan keluarga sehingga dipuja secara khusus sebagai dewa rumah tangga (gasin).",
+          "quote": "특히 왕신은 집안을 망치기까지 하여 특별히 가신으로 모시기도 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c08",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The same entry says that when a family member marries out, one who does not first inform the Wangsin is said to suffer great misfortune.",
+          "statement_id": "Entri yang sama menyebut bahwa bila ada anggota keluarga yang menikah keluar, orang yang tidak lebih dulu memberi tahu Wangsin konon akan tertimpa malapetaka besar.",
+          "quote": "가족 중에 출가하는 사람이 있을 경우, 먼저 왕신에게 고하지 않으면 큰 화를 입는다고 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c09",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The same entry records the legend of the resentful spirit Okneo (옥녀) of Okneobong peak (옥녀봉) on Saryang island: since her death, brides whose palanquins pass beneath the peak get down and walk.",
+          "statement_id": "Entri yang sama mencatat legenda arwah penasaran Okneo (옥녀) di Puncak Okneo (옥녀봉) di Pulau Saryang: setelah ia meninggal, pengantin yang tandunya melewati bawah puncak itu turun dari tandu dan berjalan kaki.",
+          "quote": "과년해진 옥녀가 홀로 된 아버지의 성적 요구에 괴로워한 나머지 옥녀봉에 올라가서 떨어져 자살하였다. 그 뒤부터 동네에서 처녀가 시집갈 때 신부가 탄 가마가 옥녀봉 밑을 지날 때에는 가마에서 내려 걸어간다고 한다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c10",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The same entry says that, for fear that the spirit of a marriageable girl who died would become a Songaksi, the body was sometimes dressed in men's clothes and buried upside down, or quietly buried at a busy crossroads.",
+          "statement_id": "Entri yang sama menyebut bahwa karena takut arwah gadis usia nikah yang meninggal menjadi Songaksi, jenazahnya kadang dikenakan pakaian pria dan dikubur terbalik, atau dikubur diam-diam di persimpangan yang ramai dilalui orang.",
+          "quote": "혼기가 된 처녀가 죽게 되면 그 혼령이 손각시가 되는 걸 두려워하여 매장할 때 남자의 옷을 입혀 거꾸로 묻거나, 사람의 내왕이 빈번한 십자로의 교차되는 곳에 은근히 묻어주는 경우도 있었는데",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c11",
+          "source_id": "korean-virgin-ghost-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The same entry says that when a Songaksi attaches to a girl, she falls ill or suffers and cannot marry.",
+          "statement_id": "Entri yang sama menyebut bahwa bila Songaksi menempel pada seorang gadis, ia jatuh sakit atau menderita dan tidak dapat menikah.",
+          "quote": "처녀에게 손각시가 붙으면 병이 들거나 괴로움을 당하여 시집을 못 간다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c12",
+          "source_id": "korean-virgin-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, they haunt with anger and revenge those who harmed them, are also known to haunt newly married couples, and are considered to bring illnesses and accidents.",
+          "statement_id": "Menurut artikel ini, mereka menghantui dengan amarah dan balas dendam orang-orang yang menyakiti mereka, juga dikenal menghantui pasangan pengantin baru, dan dianggap membawa penyakit dan kecelakaan.",
+          "quote": "They haunt with anger and revenge to those who caused them harm and are also known to haunt newly married couples. They are considered to bring illnesses and accidents.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c13",
+          "source_id": "korean-virgin-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the Korean virgin ghost is considered removable only through exorcism or \"soul weddings\" between virgin and bachelor ghosts so that their souls rest in peace, and can also be moved to the afterlife by erecting phallic statues.",
+          "statement_id": "Menurut artikel ini, hantu perawan Korea dianggap hanya dapat dilenyapkan lewat ritual pengusiran atau \"pernikahan arwah\" antara hantu perawan dan hantu bujang agar arwah mereka tenang, dan dapat dipindahkan ke alam baka dengan mendirikan patung berbentuk falus.",
+          "quote": "It is considered that the Korean virgin ghost can only be eliminated by performing the ritual of exorcism or by “soul weddings” (영혼결혼식, yeonghongyeolhonsig) which is a wedding held for the cheonyeo (\"virgin\") and chonggak (\"bachelor\") “couple” so that their souls may rest in peace. Virgin ghosts can also be made to move to afterlife by traditionally erecting phallic statues.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-virgin-ghost-c14",
+          "source_id": "korean-virgin-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the spirit has a pale white face with dark circles and a little blood dripping from the side of her mouth.",
+          "statement_id": "Menurut artikel ini, roh itu berwajah putih pucat dengan lingkaran hitam di mata dan setetes darah mengalir dari sudut mulutnya.",
+          "quote": "The spirit has a pale white face with dark circles and a small amount of blood drips from the side of her mouth.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c8ad66c5a62cdc13bcdc0e3b905c3190ce833f63bf55b5884bd593fa216a4df2"
+      "images": []
     },
     {
       "slug": "nine-headed-bird",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-6.md",
+      "entry_sha256": "ff98b8a6ab24e7587c6cccdeba9ee221ad68e6afb0ab1d17debe9cd92cd9880d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nine-headed-bird-c01",
@@ -4439,10 +4891,89 @@
           "quote": "In Records of Doubtful Matters, Lu Changyuan noted that the bird was an evil omen, stating, \"During the cold food period in the second and third months of spring, on a night of light rain and gloomy skies, a harsh, grating bird call was heard. As it passed over the courtyard, the family grew increasingly terrified, crying out that it was the nine-headed bird carrying ghosts.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c06",
+          "source_id": "nine-headed-bird-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu says the Guiche (鬼車) flies and cries in the dark, can enter people's homes and take their souls; the bird is said once to have had ten heads, one bitten by a dog leaving nine, and one neck keeps dripping blood that brings misfortune to the house it falls on.",
+          "statement_id": "Bencao Gangmu menyebut Guiche (鬼車) terbang sambil berkicau dalam kegelapan, dapat masuk ke rumah orang dan mengambil roh mereka; konon burung ini dahulu berkepala sepuluh, satu digigit anjing sehingga tersisa sembilan, dan satu leher terus meneteskan darah yang membawa nasib buruk bagi rumah yang terkena.",
+          "quote": "鬼車，晦瞑則飛鳴，能入人家，收人魂氣。相傳此鳥昔有十首，犬嚙其一，猶余九首。其一常滴血，血著人家則凶。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c07",
+          "source_id": "nine-headed-bird-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu says people of Jing-Chu who heard it cry at night put out lamps, struck doors and twisted dogs' ears to ward it off, since the bird is said to fear dogs.",
+          "statement_id": "Bencao Gangmu menyebut orang Jing-Chu yang mendengar kicauannya pada malam hari mematikan lampu, memukul pintu, dan memelintir telinga anjing untuk menolaknya, karena konon burung itu takut anjing.",
+          "quote": "其一常滴血，血著人家則凶。荊楚人夜聞其飛鳴，但滅燈、打門、捩狗耳以厭之，言其畏狗也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c08",
+          "source_id": "nine-headed-bird-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Li Shizhen writes in the entry that the larger Guiche (鬼車) have wings spanning about a zhang, are blind by day but see at night, and fall when they see firelight.",
+          "statement_id": "Li Shizhen menulis dalam entri itu bahwa Guiche (鬼車) yang besar sayapnya membentang sekitar satu zhang, buta pada siang hari tetapi melihat pada malam hari, dan jatuh bila melihat cahaya api.",
+          "quote": "時珍曰︰鬼車狀如鵂 ，而大者翼廣丈許，晝盲夜了，見火光輒墮。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c09",
+          "source_id": "nine-headed-bird-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu quotes a record that Li Shouweng of the Song, while governing Changsha, once caught this bird: like a wild duck, red, with a round winnowing-basket body, ten necks clustered and nine heads, the one headless neck dripping fresh blood.",
+          "statement_id": "Bencao Gangmu mengutip catatan bahwa Li Shouweng dari Dinasti Song, saat menjaga Changsha, pernah menangkap burung ini: mirip bebek liar, berwarna merah, bertubuh bundar seperti nyiru, dengan sepuluh leher berkelompok dan sembilan kepala, satu leher tanpa kepala meneteskan darah segar.",
+          "quote": "宋‧李壽翁守長沙，曾捕得此鳥。狀類野鳧，赤色，身圓如箕。十頸環簇，有九頭，其一獨無而滴鮮血。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c10",
+          "source_id": "nine-headed-bird-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text mentions a deity with nine heads, a human face and a bird's body, named Jiufeng (九鳳, Nine Phoenix); it also mentions another deity with a tiger's head that holds snakes, named Qiangliang.",
+          "statement_id": "Teks Shanhaijing menyebut dewa berkepala sembilan, berwajah manusia dan bertubuh burung, bernama Jiufeng (九鳳, Sembilan Phoenix); juga disebut dewa lain berkepala harimau yang menggigit dan memegang ular, bernama Qiangliang.",
+          "quote": "有神，九首人面鳥身，名曰九鳳。又有神衘蛇操蛇，其狀虎首人身，四蹏長肘，名曰彊良。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c11",
+          "source_id": "nine-headed-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, owing to the hostile relationship between the Kingdom of Chu and its former overlord, the Zhou dynasty, the nine-headed bird, as the totem creature of the Chu people, was demonised.",
+          "statement_id": "Menurut artikel ini, karena hubungan yang bermusuhan antara Kerajaan Chu dan bekas penguasanya, dinasti Zhou, burung berkepala sembilan sebagai makhluk totem rakyat Chu dijelekkan.",
+          "quote": "Due to the hostile relationship between the Kingdom of Chu and its former overlord, the reigning Zhou dynasty, the nine-headed bird, being the totem creature of the Chu people, was demonised as a result.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c12",
+          "source_id": "nine-headed-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, in modern China \"nine-headed bird\" is a derogatory term for Hubei people, used to mock them as \"cunning and deceitful\".",
+          "statement_id": "Menurut artikel ini, di Tiongkok modern \"burung berkepala sembilan\" adalah istilah merendahkan bagi orang Hubei, dipakai untuk mengejek mereka sebagai \"licik dan curang\".",
+          "quote": "In modern China, \"nine-headed bird\" is a derogatory term for Hubei people, used to mock Hubei people for being \"cunning and deceitful.\"",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nine-headed-bird-c13",
+          "source_id": "nine-headed-bird-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu lists the names of the Guiche (鬼車) as Ghost Bird (鬼鳥) and Nine-headed Bird (九頭鳥), and Li Shizhen calls the Guiche an uncanny bird whose name takes its sense from the Book of Changes.",
+          "statement_id": "Bencao Gangmu mencantumkan nama Guiche (鬼車) sebagai Burung Hantu (鬼鳥) dan Burung Berkepala Sembilan (九頭鳥), dan Li Shizhen menyebut Guiche sebagai burung siluman yang namanya mengambil makna dari Kitab Perubahan.",
+          "quote": "【釋名】 鬼鳥（《拾遺》）、九頭鳥（同上）、蒼 （《白澤圖》）、奇 。時珍曰︰鬼車，妖鳥也，取周易載鬼一車之義。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2c2de8828b1561f53fdd1b393fb7696a3637bf34b9dd22df173446902a550f79"
+      "images": []
     },
     {
       "slug": "sansei-folklore",
