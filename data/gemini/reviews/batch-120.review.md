@@ -1,579 +1,1025 @@
 # Review batch-120
 
-Diperiksa 2026-10-01T07:45:04.564Z. Berkas: batch-120.md.
+Diperiksa 2026-10-04T16:51:34.566Z. Berkas: batch-120-p1.md, batch-120-p2.md, batch-120-p3.md, batch-120-p4.md, batch-120-p5.md, batch-120-q1.md, batch-120-q2.md, batch-120-q3.md, batch-120-r1.md, batch-120-r2.md, batch-120.md.
 
 ## dormarch — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dormarch-c01 | exact | en.wikipedia.org | Dormarch is documented as dormarch wild hunt in regional lore. | Dormarch The wild hunt of Odin Creature information Other name Dormath Grouping Legendary creature Folklore Welsh mythology Origin Country Wales Habitat Clouds on mountain peaks |
+| dormarch-c01 | exact | en.wikipedia.org | Dormarch, or possibly Dormarth, is a hound; in Welsh mythology Dormarch's master is Gwynn ap Nudd, though it was formerly owned by Maelgwn Gwynedd, a 6th-century king of Gwynedd. | Dormarch or possibly Dormarth is a hound, normally used to assist hunters by tracking or chasing the animal that is being hunted, however in Welsh mythology Dormarch's master is Gwynn ap Nudd although formerly owned by Maelgwn Gwynedd, a 6th-century king of Gwynedd. |
+| dormarch-c02 | exact | en.wikipedia.org | As king of the Tylwyth Teg (fairy folk), Gwynn ap Nudd ruled Annwn and is closely associated with the Wild Hunt, escorting the newly deceased souls of British warriors from the battlefield to the afterlife. | As king of the Tylwyth Teg or fairy folk, Gwynn ap Nudd was the ruler of Annwn ... he is closely associated with the Wild Hunt where he is responsible for escorting newly deceased souls of British warriors from the battlefield to the afterlife. |
+| dormarch-c03 | exact | en.wikipedia.org | Dormarch has a single head, two front legs, and a body that narrows rapidly from the chest and ends in three fish-like tails. | Dormarch has a single head, two front legs, and a body that narrows rapidly from the chest and terminates in three fish-like tails. |
+| dormarch-c04 | exact | en.wikipedia.org | The Dormarch's natural habitat is described in Welsh as 'ar wybir', 'riding on the clouds' that haunt the mountain peaks. | The Dormarch's natural habitat is described in Welsh as being 'ar wybir', that is 'riding on the clouds' which haunt the mountain peaks. |
+| dormarch-c05 | exact | en.wikipedia.org | Gwyn gathers the souls of fallen British warriors with the help of his hounds, making Dormarch a member of the Cŵn Annwn, the 'Hounds of Annwn'. | gathering the souls of fallen British warriors with the help of his hounds, thereby making Dormarch a member of the Cŵn Annwn, the 'Hounds of Annwn'. |
+| dormarch-c06 | exact | en.wikipedia.org | The Dialogue of Gwyn ap Nudd and Gwyddno Garanhir is found in the Black Book of Carmarthen. | The Dialogue of Gwyn ap Nudd and Gwyddno Garanhir is found in the Black Book of Carmarthen |
+| dormarch-c07 | exact | en.wikipedia.org | Dormarch is pictured on page 97 of Evans' Black Book of Carmarthen in a Christianised form that reduces its canine traits and draws on whales of Biblical legend, typically that of Jonah. | Dormarch is shown as a pictorial representation on page 97 of Evans' Black Book of Carmarthen in a Christianised form that reduces the canine attributes and instead draws from influences such as whales in Biblical legends, typically that of Jonah. |
+| dormarch-c08 | exact | en.wikipedia.org | The form 'Dormarth' has been interpreted as 'Death's door', though contradictory evidence exists, and the word 'mach' translates as 'a bail or surety'. | The form "Dormarth" has been interpreted as 'Death's door' although contradictory evidence exists and the word "mach" translates as 'a bail or surety'. |
+| dormarch-c09 | exact | en.wikipedia.org | Similar Wild Hunt hounds are found in other traditions, such as the Gabriel Hounds, Ratchets, Yell Hounds (Isle of Man) and Herne the Hunter's hounds. | Similar Wild Hunt hounds are found in other traditions, such as the Gabriel Hounds, Ratchets, Yell Hounds (Isle of Man), Herne the Hunter's hounds, etc. |
+| dormarch-c10 | exact | en.wikipedia.org | In one translation of the poem the dog is called Dormath, which belonged to Maelgwyn. | Dormath was he, which belonged to Maelgwyn. |
+| dormarch-c11 | exact | archive.org | Evans compares it with Cerberus, a bodiless three-headed monster with a serpent's tail; Dormarch differs in having two front legs and but one head. | Cerberus was a bodiless three-headed monster, with a serpent's tail. Dormarch differs in having two front legs, and but one head. |
+| dormarch-c12 | exact | archive.org | According to Evans, his body is attenuated into a sort of forked tail ending in fan-like ends. | His body, however, is attenuated into a sort of forked tail, terminating in fan-like ends. |
+| dormarch-c13 | exact | archive.org | The text informs us that he moved 'ar wybir', i.e. rode on the clouds which haunt mountain-tops. | our text informs us that he moved ar wybir, i.e. rode on the clouds which haunt mountain-tops. |
+| dormarch-c14 | exact | archive.org | The form and meaning of the dog's name are uncertain; the scribe wrote Dormarch twice, but the r has been erased, probably by a later hand. | The form and meaning of the dog's name are uncertain. The scribe wrote Dormarch twice, but the r has been erased, probably by a later hand. |
+| dormarch-c15 | exact | archive.org | Mach, the amended syllable, means 'a bail, a surety'. | Mach, the amended syllable, means 'a bail, a surety.' |
+| dormarch-c16 | exact | archive.org | In the poem the speaker calls himself Gwyn, the son of Nud, the lover of Creurdilad, the daughter of Llud. | Whilst I am called Gwyn, the son of Nud, The lover of Creurdilad, the daughter of Llud. |
+| dormarch-c17 | exact | archive.org | In Skene's translation the dog is praised as handsome, round-bodied and truly the best of dogs; it belonged to Maelgwn. | Handsome my dog and round-bodied, And truly the best of dogs ; Dorraach was he, which belonged to Maelgwn. |
+| dormarch-c18 | exact | archive.org | The poem calls Dormach the one with the ruddy nose, a gazer upon the speaker, and notices his wanderings on Gwibir Vynyd. | Dormach with the ruddy nose ! what a gazer Thou art upon me ! because I notice Thy wanderings on Gwibir Vynyd. |
 
 
 ## drudwyn — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| drudwyn-c01 | exact | de.wikipedia.org | Drudwyn is a mythological figure documented in folklore records. | Drudwyn (Aussprache [ dɾɪˈdwɪn]) ist in der walisischen Mythologie einer der Cŵn Annwn, der Hunde Annwns. |
+| drudwyn-c01 | exact | de.wikipedia.org | In Welsh mythology (walisischen Mythologie) Drudwyn is one of the Cŵn Annwn, the hounds of Annwn (Hunde Annwns). | ist in der walisischen Mythologie einer der Cŵn Annwn, der Hunde Annwns. |
+| drudwyn-c02 | exact | de.wikipedia.org | According to the German Wikipedia article, he is the young dog (junge Hund) of Greid and a son of Eri (Sohn von Eri). | Er ist der junge Hund von Greid und ein Sohn von Eri. |
+| drudwyn-c03 | exact | de.wikipedia.org | Drudwyn has red ears (rote Ohren) and a white body (weißen Körper). | Drudwyn hat rote Ohren und einen weißen Körper. |
+| drudwyn-c04 | exact | de.wikipedia.org | He could be controlled only by Mabon ap Modron and caught the wild boar (wilden Eber) Twrch Trwyth for him, so that Mabon could snatch the comb and scissors (Kamm und Schere) from it. | Er war nur durch Mabon ap Modron zu kontrollieren und fing für ihn den wilden Eber Twrch Trwyth ... so dass Mabon ihm Kamm und Schere entreißen konnte. |
+| drudwyn-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The tale in which Drudwyn appears is titled Kilhwch and Olwen, or the Twrch Trwyth in Guest's translation. | KILHWCH AND OLWEN OR THE TWRCH TRWYTH |
+| drudwyn-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | One of the tasks: it will not be possible to hunt Twrch Trwyth without Drudwyn the whelp of Greid, the son of Eri. | It will not be possible to hunt Twrch Trwyth without Drudwyn the whelp of Greid, the son of Eri. |
+| drudwyn-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Throughout the world there is not a leash that can hold him, except the leash of Cwrs Cant Ewin. | Throughout the world there is not a leash that can hold him, except the leash of Cwrs Cant Ewin. |
+| drudwyn-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Throughout the world there is not a huntsman who can hunt with this dog, except Mabon the son of Modron. | Throughout the world there is not a huntsman who can hunt with this dog, except Mabon the son of Modron. |
+| drudwyn-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | According to Kai, no leash in the world can hold Drudwyn save a leash made from the beard of Dillus Varvawc. | he is Dillus Varvawc, and no leash in the world will be able to hold Drudwyn, the cub of Greid the son of Eri, save a leash made from the beard of him thou seest yonder. |
+| drudwyn-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | When Arthur asked which marvel was best to seek next, the answer was Drudwyn, the cub of Greid the son of Eri. | It is best for us to seek Drudwyn, the cub of Greid the son of Eri. |
+| drudwyn-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In the hunt of Yskithyrwyn Penbaedd, Mabon the son of Mellt came with the two dogs of Glythmyr Ledewic and Drudwyn. | And Mabon the son of Mellt came with the two dogs of Glythmyr Ledewic in his hand, and Drudwyn, the cub of Greid the son of Eri. |
+| drudwyn-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The boar was not slain by the dogs that Yspaddaden had mentioned, but by Cavall, Arthur's own dog. | Now the boar was not slain by the dogs that Yspaddaden had mentioned, but by Cavall, Arthur’s own dog. |
+| drudwyn-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | When hunting Twrch Trwyth, Arthur sent men; Eli and Trachmyr were leading Drudwyn the whelp of Greid the son of Eri. | Arthur sent men to hunt him; Eli and Trachmyr, leading Drudwyn the whelp of Greid the son of Eri |
+| drudwyn-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Jacobs' version also says Turch Truith cannot be hunted without Drudwyn, and only Mabon the son of Modron can hunt with this dog. | It will not be possible to hunt Turch Truith without Drudwyn the whelp of Greid, the son of Eri, and know that throughout the world there is not a huntsman who can hunt with this dog, except Mabon the son of Modron. |
 
 
 ## dunnie — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dunnie-c01 | exact | en.wikipedia.org | Dunnie is documented as dunnie small brownie in regional lore. | A Dunnie is a small Brownie-like being in the folklore of the Anglo-Scottish borders, specifically Northumberland, the most famous being that of the Hazlerigg Dunnie of Hazlerigg in the parish of Chatton, Northumberland. |
+| dunnie-c01 | exact | en.wikipedia.org | A Dunnie is a small Brownie-like being in the folklore of the Anglo-Scottish borders, specifically Northumberland; the most famous is the Hazlerigg Dunnie of Hazlerigg in the parish of Chatton. | A Dunnie is a small Brownie-like being in the folklore of the Anglo-Scottish borders, specifically Northumberland, the most famous being that of the Hazlerigg Dunnie of Hazlerigg in the parish of Chatton, Northumberland. |
+| dunnie-c02 | exact | en.wikipedia.org | The Dunnie has been known to take the form of a horse to trick a rider into mounting him, then disappear and leave them in the muddiest part of the road. | The Dunnie has been known to take the form of a horse in order to trick a rider into mounting him before disappearing and leaving them in the muddiest part of the road. |
+| dunnie-c03 | exact | en.wikipedia.org | He is also said to disguise himself as plough-horses, only to vanish when the ploughman takes him into the stalls. | He also is said to disguise as plough-horses only to vanish when the ploughman takes him into the stalls. |
+| dunnie-c04 | exact | en.wikipedia.org | The Dunnie was also said to wander the crags and dales of the Cheviots singing. | The Dunnie was also said to wander the crags and dales of the Cheviots singing |
+| dunnie-c05 | exact | en.wikipedia.org | His song says there is gear enough at Cockenheugh and more at Collierheugh, for he has lost the key o' the Bounders. | Cockenheugh there's gear enough, Collierheugh there's mair, For I've lost the key o' the Bounders |
+| dunnie-c06 | exact | en.wikipedia.org | The Dunnie is thus thought to be the ghost of a reiver who hoarded his loot in the fells and guards his ill-gotten gains to this day. | The Dunnie is thus thought to be a ghost of a reiver who hoarded his loot in the fells and guards his ill-gotten gains to this day. |
+| dunnie-c07 | exact | archive.org | Henderson says this sprite is called the Dunnie, appears to be of the Brownie type, and is located at Haselrigg, in the parish of Chatton, in Northumberland. | sprite is called the Dunnie ; he appears to be of the Brownie type, and is located at Haselrigg, in the parish of Chatton, in Northumberland. |
+| dunnie-c08 | exact | archive.org | Like others of his race, he is much addicted to mischievous, troublesome tricks. | Like others of his race, he is much addicted to mischievous, troublesome tricks |
+| dunnie-c09 | exact | archive.org | When a farmer's family wants the midwife and the master goes out to saddle his horse to fetch her, the Dunnie will take its form. | When the midwife is wanted in a farmer's family, and the master goes out to saddle his horse that he may fetch her, the Dunnie will take its form. |
+| dunnie-c10 | exact | archive.org | On the way back he will suddenly vanish and leave the unhappy pair floundering in the mud. | he will suddenly vanish, and leave the unhappy pair floundering in the mud. |
+| dunnie-c11 | exact | archive.org | A ploughman who thinks he has harnessed his horse will see the harness come 'slap to the ground' while the steed kicks up his heels and starts across the country like the wind. | see the harness come " slap to the ground," while the steed kicks up his heels and starts across the country like the wind. |
+| dunnie-c12 | exact | archive.org | Some years ago the Dunnie was often seen wandering among the crags of the Cheviots and heard repeating a verse again and again in a melancholy voice. | Some years ago, the Dunnie was often seen wandering among the crags of the Cheviots, and heard repeating the following verse again and again, in a melancholy voice |
+| dunnie-c13 | exact | archive.org | Hence it has been thought that the Dunnie is really the ghost of a 'reiver' who hoarded his ill-gotten pelf in those crags and therefore haunts them constantly. | Hence it has been thought that the Dunnie is really the ghost of a " reiver," who had hoarded his ill-gotten pelf in those crags, and therefore haunts them constantly. |
+| dunnie-c14 | exact | archive.org | A friend pointed to the steepest part of the rocks and said it was there that Dunnie used to hang his legs over when he sat on the crags at night. | a friend pointed to the steepest part of the rocks, and said it was there that Dunnie used to hang over his legs when he sat on the crags at night. |
+| dunnie-c15 | exact | archive.org | According to Henderson's footnote, the Dunnie, Brag and Hedley Kow are probably the same as the Nick or Nippeu. | The Dunnie, Brag, and Hedley Kow are probably the same as the Nick or Nippeu. |
 
 
 ## dyrnwch — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dyrnwch-c01 | exact | de.wikipedia.org | Dyrnwch is a mythological figure documented in folklore records. | Dyrnwch, Beiname „der Riese“, auch Diwrnach, Beiname „der Ire“, Dyrnog, Tyrnog, irisch Diugurach, ist eine Sagengestalt aus der walisischen Mythologie. |
-
-
-## dyrnwch-gawr — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| dyrnwch-gawr-c01 | exact | cy.wikipedia.org | Dyrnwch Gawr is documented as cawr cymreig gysylltir in regional lore. | Cawr Cymreig a gysylltir â'r Hen Ogledd ac â Gwent yw Dyrnwch Gawr (amrywiad, Dyrnhwch Gawr). |
-
-
-## eog-llyn-llyw — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| eog-llyn-llyw-c01 | exact | cy.wikipedia.org | Eog Llyn Llyw is documented as bedwyr gefn llyn in regional lore. | Cai a Bedwyr ar gefn Eog Llyn Llyw yn cyrraedd carchar Mabon fab Modron |
-
-
-## eryr-gwern-abwy — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| eryr-gwern-abwy-c01 | exact | cy.wikipedia.org | Eryr Gwern Abwy is documented as cyfeirir eryr mytholegol in regional lore. | Cyfeirir at yr eryr mytholegol hwn yn chwedl Culhwch ac Olwen. |
-
-
-## fat-lips — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| fat-lips-c01 | exact | en.wikipedia.org | Fat Lips is documented as lips fatlips given in regional lore. | Fat Lips (or Fatlips) is the name given to a legendary spirit dwelling in Dryburgh Abbey in Berwickshire, Scotland. |
-
-
-## finfolk — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| finfolk-c01 | exact | en.wikipedia.org | Finfolk is documented as orkney folklore finfolk in regional lore. | In Orkney folklore, Finfolk (sometimes Finnfolk) are sorcerous shapeshifters of the sea, the dark mysterious race from Finfolkaheem who regularly make an amphibious journey from the depths of the Finfolk ocean home to the Orkney Islands. |
-
-
-## freybug — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| freybug-c01 | exact | en.wikipedia.org | Freybug is documented as freybug monstrous black in regional lore. | Freybug is a monstrous Black Dog that is stated to come from medieval English folklore, specifically from Norfolk. |
+| dyrnwch-c01 | exact | de.wikipedia.org | Dyrnwch, nicknamed 'the Giant' (der Riese), also Diwrnach, nicknamed 'the Irishman' (der Ire), Dyrnog, Tyrnog, Irish Diugurach, is a figure of legend (Sagengestalt) from Welsh mythology (walisischen Mythologie). | Dyrnwch, Beiname „der Riese“, auch Diwrnach, Beiname „der Ire“, Dyrnog, Tyrnog, irisch Diugurach, ist eine Sagengestalt aus der walisischen Mythologie. |
+| dyrnwch-c02 | exact | de.wikipedia.org | In the tale Kulhwch ac Olwen, Olwen's father, the giant (Riese) Ysbaddaden, sets the suitor Kulhwch several hard tasks (schwere Aufgaben). | In der Erzählung Kulhwch ac Olwen („Die Geschichte von Kulhwch und Olwen“) wird berichtet, dass Olwens Vater, der Riese Ysbaddaden, dem Freier Kulhwch einige schwere Aufgaben stellt |
+| dyrnwch-c03 | exact | de.wikipedia.org | One of the tasks is to win the cauldron (Kessel) of the Irish giant (irischen Riesen) Dyrnwch, called Diwrnach in the text, for the wedding feast (Hochzeitsmahl). | Eine der Aufgabe ist, den Kessel des irischen Riesen Dyrnwch, im Text Diwrnach genannt, für das Hochzeitsmahl zu erringen. |
+| dyrnwch-c04 | exact | de.wikipedia.org | The cauldron (Kessel) can tell bad people (böse) from good people (guten Menschen): for bad people it cooks no food (Essen), for the others it readies a dish very quickly. | Dieser Kessel hat die mythische Bedeutung, böse von guten Menschen unterscheiden zu können. Für schlechte Menschen kocht er kein Essen, bei den anderen ist er schnellstens mit einer Speise fertig. |
+| dyrnwch-c05 | exact | de.wikipedia.org | Diwrnach refuses (weigert sich) to hand over the cauldron (Kessel). | Diwrnach weigert sich, den Kessel herzugeben. |
+| dyrnwch-c06 | exact | de.wikipedia.org | So Bedwyr fab Bedrawg takes the cauldron (Kessel) and has it carried away; his companions kill (töten) Diwrnach and all the Irish (Iren) who want to fight for it. | Deshalb entwendet Bedwyr fab Bedrawg den Kessel und lässt ihn wegbringen. Seine Gefährten töten Diwrnach und alle Iren, die um den Kessel kämpfen wollen. |
+| dyrnwch-c07 | exact | de.wikipedia.org | This cauldron (Kessel) is one of the Tri Thlws ar Ddeg Ynys Prydain, 'the Thirteen Treasures of the Island of Britain' (dreizehn Schätze der Insel Britannien). | Dieser Kessel zählt zu den Tri Thlws ar Ddeg Ynys Prydain („Die dreizehn Schätze der Insel Britannien“). |
+| dyrnwch-c08 | exact | de.wikipedia.org | The Welsh name (kymrische Name) Diwrnach derives from Irish Diugurach (irischen Diugurach), emphasising the Irish origin of the cauldron's owner. | Der kymrische Name Diwrnach wird vom irischen Diugurach abgeleitet, damit wird die irische Herkunft des Kesselbesitzers betont. |
+| dyrnwch-c09 | exact | de.wikipedia.org | Originally the tales of Dyrnwch's cauldron and Diwrnach's cauldron were separate (getrenntes Erzählgut); in Culhwch ac Olwen they were merged over time into a single myth (einzigen Mythos). | Ursprünglich waren die Sagen vom Kessel Dyrnwchs und vom Kessel Diwrnachs getrenntes Erzählgut, in Culhwch ac Olwen wurden sie im Laufe der Zeit zu einem einzigen Mythos vereinigt. |
+| dyrnwch-c10 | exact | en.wikipedia.org | The Cauldron of Dyrnwch the Giant (Pair Dyrnwch Gawr): meat for a coward would never boil in it, but meat for a brave man would boil quickly, so that the brave could be distinguished from the cowardly. | The Cauldron of Dyrnwch the Giant (Pair Dyrnwch Gawr ... "if meat for a coward were put in it to boil, it would never boil; but if meat for a brave man were put in it, it would boil quickly (and thus the brave could be distinguished from the cowardly)". |
+| dyrnwch-c11 | exact | en.wikipedia.org | Although Dyrnwch is not himself described as an Irishman, his name probably goes back to Diwrnach. | Although Dyrnwch is not himself described as an Irishman, it is probable that his name goes back to Diwrnach. |
+| dyrnwch-c12 | exact | en.wikipedia.org | The manuscripts of Tri Thlws ar Ddeg also give the spellings Dyrnog and Tyrnog, without the Irish-sounding ending, best explained as Welsh approximations of a foreign name. | The extant manuscripts of Tri Thlws ar Ddeg also present such variant spellings as Dyrnog and Tyrnog, without the Irish-sounding ending, but on balance, these are best explained as Welsh approximations of a foreign name. |
+| dyrnwch-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Guest's translation the task is to obtain the cauldron of Diwrnach Wyddel, the steward of Odgar the son of Aedd, king of Ireland, to boil the meat for the marriage feast. | The cauldron of Diwrnach Wyddel, the steward of Odgar the son of Aedd, king of Ireland, to boil the meat for thy marriage feast. |
+| dyrnwch-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Diwrnach swore that Arthur should not even be allowed to look at the cauldron. | Diwrnach said, “Heaven is my witness, if it would avail him anything even to look at it, he should not do so.” |
+| dyrnwch-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Bedwyr arose, seized the cauldron and placed it on the back of Hygwyd, Arthur's servant. | Bedwyr arose and seized hold of the cauldron, and placed it upon the back of Hygwyd, Arthur’s servant |
+| dyrnwch-c16 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | They slew Diwrnach Wyddel and his company. | And they slew Diwrnach Wyddel and his company. |
+| dyrnwch-c17 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Arthur and his men went to the ship carrying away the cauldron full of Irish money. | Arthur with his men went forward to the ship, carrying away the cauldron full of Irish money. |
 
 
 ## frid — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| frid-c01 | exact | gd.wikipedia.org | Frìd is a mythological figure documented in folklore records. | 'S e bodach-sìthe beag a th' ann am Frìd. |
+| frid-c01 | exact | gd.wikipedia.org | The Frìd is a small fairy man (bodach-sìthe beag). | 'S e bodach-sìthe beag a th' ann am Frìd. |
+| frid-c02 | exact | gd.wikipedia.org | It lives in rock crevices (còsan nan creag) and in banks (bruaichean) in the Highlands (Gàidhealtachd). | Tha e a' còmhnaidh ann an còsan nan creag agus anns na bruaichean air a' Ghàidhealtachd. |
+| frid-c03 | exact | gd.wikipedia.org | It lives on the same food (lòn) as people, and so depends on people (dhaoine) for its sustenance. | Tha e a' tighinn beò air an aon lòn ri sluagh an t-saoghail; mar sin, tha e an eisimeil dhaoine airson theachd-an-tìr. |
+| frid-c04 | exact | gd.wikipedia.org | Crumbs of food (spruilleach bìdh) used to be left for it on a knoll (cnoc). | Bhite a' fàgail spruilleach bìdh dha air cnoc an gorma. |
+| frid-c05 | exact | archive.org | Frid or fride is glossed as gnome, pigmy, elf or rock elfin. | Frid, fride,' gnome, pigmy, elf, rock elfin. |
+| frid-c06 | exact | archive.org | The term is applied to creatures alleged to dwell inside the rocks and in the innermost parts of the earth. | to creatures which they allege dwell in the internal rocks and in the innermost parts of the earth. |
+| frid-c07 | exact | archive.org | People say these gnomes eat and drink like men, and that it is not right to deprive them of crumbs that fall to the ground. | They say that these gnomes eat and drink like men, and that it is not right to deprive them of the crumbs that fall to the ground. |
+| frid-c08 | exact | archive.org | When crumbs of food or drops of milk fall on the floor, the old people object to removing them, saying many needy mouths are awaiting it. | When crumbs of food or drops of milk fall on the floor, the old people deprecate removing them, saying ... let it be, many are the needy mouths awaiting it. |
+| frid-c09 | exact | archive.org | Macmhuirich Mor of Staoligearry was losing his cattle. | Macmhuirich Mor ' of Staoligearry was losing his cattle through |
+| frid-c10 | exact | archive.org | He ordered that food fragments never again be removed from the floor, as they were the rightful dues of the "fridich nan creag", the gnomes of the rocks. | never again remove the fragments of food from the floor, they are the rightful dues of " fridich nan creag," the gnomes of the rocks |
+| frid-c11 | exact | archive.org | As long as Macvuirich lived he went daily to the knoll with crumbs of bread and drops of milk for the gnomes. | And as long as Macvuirich lived he went daily to the knoll ... crumbs of bread and drops of milk to the gnomes. Never again did |
+| frid-c12 | exact | archive.org | After that he never again lost his kine, his sheep or his horses. | lose his kine or his sheep or his horses. |
+| frid-c13 | exact | archive.org | Glen Liadail in South Uist was much inhabited by these gnomes, friendly to the people of the glen but resentful of strangers. | Glen Liadail in South Uist was much inhabited by gnomes who, while friendly to the people of the glen, resented the intrusion of strangers. |
+| frid-c14 | exact | archive.org | The fridich are said to go about in clouds like midges, but invisible to mortal eyes. | who go about in clouds like midges, but invisible to mortal eyes. |
+| frid-c15 | exact | archive.org | Being intensely sensitive to flattery, they did no harm to the lonely woman or her helpless child. | They, being intensely sensitive to flattery, did no harm to the lonely woman nor to the helpless child |
 
 
 ## girt-dog-of-ennerdale — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (exact 20), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| girt-dog-of-ennerdale-c01 | exact | en.wikipedia.org | Girt dog of Ennerdale is documented as girt ennerdale known in regional lore. | The Girt Dog of Ennerdale (also known as the Vampire Dog of Ennerdale or Demon Dog of Ennerdale) was a dog believed to have killed between 300 and 400 sheep in the fells of Cumberland, England, from May to September 1810. |
+| girt-dog-of-ennerdale-c01 | exact | en.wikipedia.org | The Girt Dog of Ennerdale was a dog believed to have killed between 300 and 400 sheep in the fells of Cumberland, England, from May to September 1810. | was a dog believed to have killed between 300 and 400 sheep in the fells of Cumberland, England, from May to September 1810. |
+| girt-dog-of-ennerdale-c02 | exact | en.wikipedia.org | It is also known as the Vampire Dog of Ennerdale or the Demon Dog of Ennerdale. | also known as the Vampire Dog of Ennerdale or Demon Dog of Ennerdale |
+| girt-dog-of-ennerdale-c03 | exact | en.wikipedia.org | The adjective "girt" is Cumbrian for "great". | The adjective "girt" is Cumbrian for "great". |
+| girt-dog-of-ennerdale-c04 | exact | en.wikipedia.org | The dog was first seen by Mr Mossop of Thornholme on 10 May 1810 and soon began killing and eating local sheep. | The dog was first observed by Thornholme resident Mr Mossop on 10 May 1810, and began killing and eating local sheep shortly afterwards. |
+| girt-dog-of-ennerdale-c05 | exact | en.wikipedia.org | Its origins are uncertain, though it was speculated that the dog had escaped from "some gipsy troop." | Its origins are uncertain, although it was speculated that the dog had escaped from "some gipsy troop." |
+| girt-dog-of-ennerdale-c06 | exact | en.wikipedia.org | Some suggested it may have been a cross between a mastiff and a greyhound. | Some suggested it may have been a cross between a mastiff and a greyhound. |
+| girt-dog-of-ennerdale-c07 | exact | en.wikipedia.org | The Girt Dog usually killed livestock at night. | The Girt Dog of Ennerdale would usually kill livestock at night. |
+| girt-dog-of-ennerdale-c08 | exact | en.wikipedia.org | According to one account, the dog drank the sheep's blood directly from the jugular vein. | According to one account, the dog would drink the sheep's blood directly from the jugular vein. |
+| girt-dog-of-ennerdale-c09 | exact | en.wikipedia.org | Throughout its killing spree the dog was "never known to utter a vocal sound". | Throughout its killing spree, the dog was "never known to utter a vocal sound". |
+| girt-dog-of-ennerdale-c10 | exact | en.wikipedia.org | John Russell, owner of a brewery in Whitehaven and a sheep farm in Ennerdale, offered a £10 reward for the dog's capture, dead or alive. | John Russell, who owned a brewery in Whitehaven and a sheep farm in Ennerdale, offered a £10 reward for the dog's capture, dead or alive. |
+| girt-dog-of-ennerdale-c11 | exact | en.wikipedia.org | On 12 September 1810 the dog was finally shot dead by John Steel of Asby; its carcass weighed 8 imperial stones (51 kg). | On 12 September 1810, the dog was finally shot and killed by John Steel, a resident of Asby. Its carcass weighed 8 imperial stones (51 kg). |
+| girt-dog-of-ennerdale-c12 | exact | en.wikipedia.org | Until the late 1800s its taxidermied skin was displayed in Hutton's Museum at Keswick, Cumbria, and was later discarded as it began to rot. | Until the late 1800s, the animal's taxidermied skin was on display in the Hutton's Museum at Keswick, Cumbria; it was discarded at some point due to the corpse beginning to rot. |
+| girt-dog-of-ennerdale-c13 | exact | lakelandhuntingmemories.com | The smooth-haired dog of a tawny mouse-colour with dark tiger-like streaks over his coat began his murderous career; he weighed eight stones. | smooth-haired dog of a tawny mouse-colour, with dark streaks in tiger fashion over his coat, started his murderous career. He weighed eight stones |
+| girt-dog-of-ennerdale-c14 | exact | lakelandhuntingmemories.com | Seven or eight sheep were frequently found destroyed in one night. | Seven or eight sheep were frequently found destroyed in one night |
+| girt-dog-of-ennerdale-c15 | exact | lakelandhuntingmemories.com | A reign of terror lay over the neighbourhood; the canine gone wild was never known to emit a bark or howl. | A reign of terror lay over the neighbourhood. One peculiarity was noted about the canine gone wild. He was never known to emit a bark or howl. |
+| girt-dog-of-ennerdale-c16 | exact | lakelandhuntingmemories.com | He was shot by John Steel while being chivvied in Eskett Woods near Rowrah, and John Steel received his reward. | was shot by John Steel as he was being chivvied in Eskett Woods, near Rowrah. John Steel received his |
+| girt-dog-of-ennerdale-c17 | exact | lakelandhuntingmemories.com | The dog is still a legendary figure in the Ennerdale district. | The dog is still a legendary figure in the Ennerdale district. |
+| girt-dog-of-ennerdale-c18 | exact | lakelandhuntingmemories.com | It is now commonly believed that the Girt Dog was in fact a thylacine (Tasmanian Tiger or Tasmanian Wolf). | It is now commonly believed that the Girt Dog of Ennerdale was, in fact, a thylacine (otherwise known as the Tasmanian Tiger or Tasmanian Wolf.) |
+| girt-dog-of-ennerdale-c19 | exact | futilitycloset.com | Its description matches the thylacine, a wolflike marsupial native to Tasmania; possibly an exotic predator had escaped from a traveling menagerie. | curiously matches that of the thylacine (above), a wolflike marsupial native to Tasmania. Possibly an exotic predator had escaped from a traveling menagerie |
+| girt-dog-of-ennerdale-c20 | exact | futilitycloset.com | It ignored poisoned meat left for it and led frustrated farmers on fruitless chases of 20 miles and more. | ignored poisoned meat left for it and led frustrated farmers on fruitless chases of 20 miles and more |
 
 
 ## glaistig — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| glaistig-c01 | exact | gd.wikipedia.org | Glaistig is documented as stic glaistig anns in regional lore. | 'S e stic a bh' ann an Glaistig anns an robh mòran de phratan aimlisgeach. |
+| glaistig-c01 | exact | gd.wikipedia.org | The Glaistig was fearsome in appearance, with the body of a woman (com boireannaich) and the rest of a goat (gobhar). | Bha a' Ghlaistig eagalach na coltas le com boireannaich agus a' chuid eile na gobhar. |
+| glaistig-c02 | exact | gd.wikipedia.org | Travellers of the dusk (luchd-siubhail an anamoich) dreaded her. | Bha uamhann aig luchd-siubhail an anamoich roimpe. |
+| glaistig-c03 | exact | gd.wikipedia.org | She dwelt about the banks of streams (sruthan uisge) and lonely lochs (lochan uaigneach). | Bhiodh i a' tàmh mu bhruachan sruthan uisge agus lochan uaigneach. |
+| glaistig-c04 | exact | gd.wikipedia.org | The Glaistig was an imp (stic) full of mischievous pranks (pratan aimlisgeach). | 'S e stic a bh' ann an Glaistig anns an robh mòran de phratan aimlisgeach. |
+| glaistig-c05 | exact | gd.wikipedia.org | She tied knots (snaidhmeannan) in clumps of rushes (luachair) over footpaths to trip the old men (bodach) walking the road. | Bhiodh i a' cur snaidhmeannan air badan de luachair a bhios a' fàs thairis air na ceuman coise airson a bhith a' leagail nam bodach chòir a bhiodh a' gabhail an rathaid. |
+| glaistig-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Glaistig was a tutelary being shaped like a thin grey little woman with long yellow hair to her heels, dressed in green, haunting certain sites or farms. | The Glaistig was a tutelary being in the shape of a thin grey (tana glas) little woman, with long yellow hair reaching to her heels, dressed in green, haunting certain sites or farms |
+| glaistig-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | She is said to have first been a woman of honourable position, a former mistress of the house, who was put under enchantments and given a Fairy nature. | She is said to have been at first a woman of honourable position, a former mistress of the house, who had been put under enchantments and now had a Fairy nature given her. |
+| glaistig-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | She disliked dogs and took fools and people of weak intellect under her particular charge. | She disliked dogs, and took fools and people of weak intellect under her particular charge. |
+| glaistig-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Her strength was very great, far greater than any Fairy, and one yell of hers could waken the echoes of distant hills. | Her strength was very great, much greater than that of any Fairy, and one yell of hers was sufficient to waken the echoes |
+| glaistig-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Every evening a portion of milk was set apart for her in a hole in a stone; otherwise something was found amiss in the dairy next morning. | A portion of milk was set apart for her every evening, in a hole for the purpose in some convenient stone, and unless this was done, something was found amiss in the dairy next morning. |
+| glaistig-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Her name is derived from glas, grey, wan or pale-green, and stìg, a sneaking or crouching object. | Her name is derived from glas, grey, wan, or pale-green, and stìg, a sneaking or crouching object |
+| glaistig-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | A dictionary calls her a she-devil or hag in the shape of a goat, a definition accepted by M'Leod and Dewar, but Campbell calls this a mistake. | she is called "a she-devil, or hag, in the shape of a goat," and the definition is accepted by M'Leod and Dewar. This, however, is a mistake. |
+| glaistig-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Glaistig and her near relation the Brownie are among the most harmless beings. | the Glaistig and her near relation the Brownie are among the most harmless. |
+| glaistig-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | When her house was levelled the Glaistig made a lamentable outcry, left, and was never afterwards seen or heard. | the Glaistig made a lamentable outcry, left, and was never afterwards seen or heard. |
+| glaistig-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | A shoemaker's awl in the door-post of his bothy kept a Glaistig from entering. | So also a shoemaker's awl in the door-post of his bothy kept a Glaistig from entering. |
+| glaistig-c16 | exact | en.wikipedia.org | The glaistig is a ghost from Scottish mythology, a type of fuath, also known as maighdean uaine. | is a ghost from Scottish mythology, a type of fuath. It is also known as maighdean uaine |
+| glaistig-c17 | exact | en.wikipedia.org | Some stories have her luring men to her lair with song or dance and then drinking their blood. | Some stories have her luring men to her lair via either song or dance, where she would then drink their blood. |
+| glaistig-c18 | exact | en.wikipedia.org | In some benign incarnations the glaistig is a tutelary spirit and protector of cattle and herders. | In some benign incarnations, the glaistig is a type of tutelary spirit and protector of cattle and herders. |
 
 
 ## gogfran-gawr — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (exact 20), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gogfran-gawr-c01 | exact | cy.wikipedia.org | Gogfran Gawr is documented as rhai traddodiadau cymraeg in regional lore. | Yn ôl rhai traddodiadau Cymraeg, tad Gwenhwyfar, gwraig Arthur, oedd Gogfran Gawr. |
-
-
-## grant-folklore — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| grant-folklore-c01 | exact | en.wikipedia.org | Grant (folklore) is documented as grant gyant creature in regional lore. | Grant, or Gyant, is a creature of English folklore described in the medieval Latin work Otia Imperialia by Gervase of Tilbury. |
-
-
-## gwedros-gawr — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| gwedros-gawr-c01 | exact | cy.wikipedia.org | Gwedros Gawr is documented as cawr oedd gwedros in regional lore. | Cawr oedd Gwedros Gawr (hefyd, Gwedraws neu Gwaedros) a oedd, yn ôl chwedloniaeth, yn byw yng Nghaerwedros yng Ngheredigion. |
-
-
-## gwyllion — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| gwyllion-c01 | exact | en.wikipedia.org | Gwyllion is documented as according folklorist wirt in regional lore. | According to folklorist Wirt Sikes the gwyllion are female fairies of frightful aspect who haunt lonely roads in the Welsh mountains and lead travellers astray. |
-
-
-## hampton-court-ghost — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| hampton-court-ghost-c01 | exact | en.wikipedia.org | Hampton Court ghost is documented as hampton court ghost in regional lore. | Hampton Court ghost refers to a figure seen in a CCTV footage/image near Hampton Court Palace in October 2003. |
-
-
-## hwch-ddu-gwta — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| hwch-ddu-gwta-c01 | exact | cy.wikipedia.org | Hwch Ddu Gwta is documented as hwch rywogaeth baeddon in regional lore. | Hwch (o rywogaeth baeddon neu foch) oruwchnaturiol yn llên gwerin Cymru a gysylltir â Nos Galan Gaeaf yw'r Hwch Ddu Gwta (Hwch Ddu Gota yn y De). |
-
-
-## iannic-ann-od — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| iannic-ann-od-c01 | exact | en.wikipedia.org | Iannic-ann-ôd is documented as breton folklore iannic in regional lore. | In Breton folklore, Iannic-ann-ôd or Yannig an Aod ( Breton: [ˈjãniɡ ən ˈoːt] ; meaning "Little John of the shore"), are said to be the lost souls of those drowned at sea and were never recovered. |
+| gogfran-gawr-c01 | exact | cy.wikipedia.org | According to some Welsh (Cymraeg) traditions, Gogfran Gawr was the father of Gwenhwyfar, wife of Arthur. | Yn ôl rhai traddodiadau Cymraeg, tad Gwenhwyfar, gwraig Arthur, oedd Gogfran Gawr. |
+| gogfran-gawr-c02 | exact | cy.wikipedia.org | The giant (cawr) is linked with the old kingdoms of Powys and Brycheiniog. | Cysylltir y cawr â hen deyrnasoedd Powys a Brycheiniog. |
+| gogfran-gawr-c03 | exact | cy.wikipedia.org | Gogfran is the most common form (ffurf), but Ogfran also occurs, as do the variants Gogrfran, Gogyrfran and Ogrfran. | Gogfran yw'r ffurf fwyaf cyffredin, ond ceir yn ogystal y ffurf Ogfran. Ceir hefyd yr amrywiadau Gogrfran, Gogyrfran ac Ogrfran. |
+| gogfran-gawr-c04 | exact | cy.wikipedia.org | 'Caer Ogyrfan' is an old name for the hillfort (bryngaer) 'Hen Ddinas' near Croesoswallt. | Ceir 'Caer Ogyrfan' yn hen enw ar fryngaer 'Hen Ddinas' ger Croesoswallt. |
+| gogfran-gawr-c05 | exact | cy.wikipedia.org | Rachel Bromwich suggests that this Og(y)rfan was an early hero (arwr) of Powys (Bowys). | Awgryma Rachel Bromwich mai arwr cynnar o Bowys oedd yr Og(y)rfan hwn. |
+| gogfran-gawr-c06 | exact | cy.wikipedia.org | It seems likely that the tradition mixes two different characters: a hero from Powys and the Gororau (Marches), and a giant (cawr) who is father of Gwenhwyfar. | Ymddengys yn debygol felly fod cymysgedd yn y traddodiad rhwng dau gymeriad gwahanol, un yn arwr o Bowys a'r Gororau a'r llall yn gawr sy'n dad i Wenhwyfar. |
+| gogfran-gawr-c07 | exact | cy.wikipedia.org | To the cywydd poets (cywyddwyr) the element -fran in the name was clearly "brân" (crow). | Daw'n amlwg mai "brân" oedd yr elfen -fran yn yr enw i'r cywyddwyr. |
+| gogfran-gawr-c08 | exact | cy.wikipedia.org | There is a stream (ffrwd) called Ogran in Sir Fynwy, on which basis the element ogr- is suggested to mean "llym" (sharp), if the form Ogrfan is accepted. | Ceir ffrwd o'r enw Ogran yn Sir Fynwy, ac ar sail hynny awgrymir mai "llym" yw ystyr yr elfen ogr-, os derbynnir y ffurf Ogrfan. |
+| gogfran-gawr-c09 | exact | cy.wikipedia.org | Siôn Dafydd Rhys refers to the giant (cawr) as Gogfran Gawr and says he dwelt near Aberhonddu in Brycheiniog. | cyfeiria Siôn Dafydd Rhys at y cawr dan yr enw Gogfran Gawr a dweud ei fod yn trigo ger Aberhonddu ym Mrycheiniog. |
+| gogfran-gawr-c10 | exact | en.wikipedia.org | In one Welsh Triad there are three Gwenhwyfars married to Arthur; the third is the daughter of (G)og(y)rfan Gawr ("the Giant"). | The first is the daughter of Cywryd of Gwent, the second of Gwythyr ap Greidawl (a supernatural figure), and the third of (G)og(y)rfan Gawr ("the Giant"). |
+| gogfran-gawr-c11 | exact | en.wikipedia.org | In a variant of another Welsh Triad (Trioedd Ynys Prydein, no. 54), only the daughter of Gogfran Gawr is mentioned. | In a variant of another Welsh Triad (Trioedd Ynys Prydein ... only the daughter of Gogfran Gawr is mentioned. |
+| gogfran-gawr-c12 | exact | en.wikipedia.org | There was once a popular folk rhyme in Wales about Gwenhwyfar: "Gwenhwyfar, daughter of Ogrfan Gawr, bad when little, worse when great." | There was once a popular folk rhyme known in Wales concerning Gwenhwyfar: "Gwenhwyfar ferch Ogrfan Gawr / Drwg yn fechan, gwaeth yn fawr |
+| gogfran-gawr-c13 | exact | en.wikipedia.org | Welsh adaptations of Geoffrey, such as Brut y Brenhinedd, portray her as a daughter of the giant Og[y]vran by a mother of Roman ancestry. | Welsh adaptations of Geoffrey, such as Brut y Brenhinedd, portray her as a daughter of the giant Og[y]vran from a mother of Roman ancestry. |
+| gogfran-gawr-c14 | exact | en.wikipedia.org | The 14th-century Welsh poet Dafydd ap Gwilym calls her Ogfran the Giant's daughter in one of his poems. | The 14th-century Welsh poet Dafydd ap Gwilym alludes to it in one of his poems, calling her Ogfran the Giant's daughter. |
+| gogfran-gawr-c15 | exact | maryjones.us | In the land of Brycheiniog near the town of Aber Hodni, Gogfran Gawr lived in Aber Ysgyr in the caer above the river. | In the land of Brycheiniog near to the town of Aber Hodni: Gogfran Gawr lived in Aber Ysgyr in the caer above the river. |
+| gogfran-gawr-c16 | exact | maryjones.us | Some brothers of Gwenhwyfar, daughter of Gogyrfan Gawr, were imprisoned by some of the giants at Bron Wrgan. | there were some brothers to Gwenhwyfar, the daughter of Gogyrfan Gawr, who were imprisoned by some of these giants. |
+| gogfran-gawr-c17 | exact | maryjones.us | Arthur saved each one of them, killing the giants. | But Arthur saved them each one, killing the giants |
+| gogfran-gawr-c18 | exact | maryjones.us | This list of giants was compiled by Sion Dafydd Rhys around 1600. | Sion Dafydd Rhys, ca. 1600 Peniarth MS 118 f.829-837 |
+| gogfran-gawr-c19 | exact | en.wikipedia.org | In Welsh mythology the father of Gwenhwyfar (Guinevere) is a giant named Ogyruan/Ogyrvan, or Gogyrfan, mentioned in Middle Welsh texts. | In Welsh mythology, the father of Gwenhwyfar (Guinevere) is instead a giant named Ogyruan/Ogyrvan, or Gogyrfan, mentioned in Middle Welsh texts. |
+| gogfran-gawr-c20 | exact | en.wikipedia.org | In Arthurian legend Leodegrance is Guinevere's father; when his daughter marries Arthur, he gives the young king the table as a dowry. | When his daughter, Princess Guinevere, marries Arthur, Leodegrance gives the young king the table in dowry. |
 
 
 ## joan-the-wad — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| joan-the-wad-c01 | exact | en.wikipedia.org | Joan the Wad is documented as joan mythological character in regional lore. | Joan the Wad is a mythological character in Cornish folklore. |
+| joan-the-wad-c01 | exact | en.wikipedia.org | Joan the Wad is a mythological character in Cornish folklore; she is the Queen of the Pixies, tiny mythical creatures usually associated with the counties of Cornwall and Devon in England. | Joan the Wad is a mythological character in Cornish folklore. She is the Queen of the Pixies, which are tiny mythical creatures usually associated with the counties of Cornwall and Devon in England. |
+| joan-the-wad-c02 | exact | en.wikipedia.org | Wad is an Eastern Cornwall colloquial term for a torch or a bundle of straw. | Wad is an Eastern Cornwall colloquial term for torch or bundle of straw. |
+| joan-the-wad-c03 | exact | en.wikipedia.org | Joan the Wad has been associated with Jack o' the Lantern, King of the Pixies; both may be considered will-o'-the-wisp type characters who lead travellers astray on lonely moors. | Joan the Wad has been associated with Jack o' the Lantern, the King of the Pixies. ... The two may also be considered will-o'-the-wisp type characters who lead travellers astray on lonely moors |
+| joan-the-wad-c04 | exact | en.wikipedia.org | Joan is also thought to use her Wad (torch) to light the way to safety and good luck. | Joan is also thought to use her Wad (Torch) to light the way to safety and good luck |
+| joan-the-wad-c05 | exact | en.wikipedia.org | Joan the Wad is often depicted naked and associated with fire and water elements. | Joan the Wad is often depicted naked and associated with fire and water elements. |
+| joan-the-wad-c06 | exact | en.wikipedia.org | In the last century there was a thriving cottage industry in Joan the Wad lucky charms; people carried small figures of her for good luck. | In the last century, there was a thriving cottage industry in Joan the Wad lucky charms. ... People carried small figures of Joan the Wad for good luck |
+| joan-the-wad-c07 | exact | en.wikipedia.org | A small collection of such antique figures is housed at the Museum of Witchcraft in Boscastle; her image also appears on door knockers as a protective spirit. | a small collection of such antique figures is housed at the Museum of Witchcraft in Boscastle. ... Her image also appears on door knockers to serve as a protective spirit. |
+| joan-the-wad-c08 | exact | museumofwitchcraftandmagic.co.uk | A brass good luck charm shows Joan the Wad, Queen of the Cornish Piskies, seated with one arm curved over her head, inscribed "Joan the Wad" and with a hanging ring. | Brass good luck charm - Joan the Wad, Queen of the Cornish Piskies. Joan is seated with one arm curved over her head, with an inscription "Joan the Wad" and a ring for hanging above her. |
+| joan-the-wad-c09 | exact | museumofwitchcraftandmagic.co.uk | 'Wad' means 'torch', perhaps linking Joan the Wad to Jack O'Lantern as another spirit who leads travellers astray with a mysterious light. | 'Wad' means 'torch', perhaps linking Joan the Wad to Jack O'Lantern as another spirit who leads travellers astray with a mysterious light. |
+| joan-the-wad-c10 | exact | museumofwitchcraftandmagic.co.uk | However, it could also indicate a connection with Hecate, Goddess of the Witches, one of whose symbols is a flaming torch. | However, it could also indicate a connection between her and Hecate, Goddess of the Witches, one of whose symbols is a flaming torch. |
+| joan-the-wad-c11 | exact | museumofwitchcraftandmagic.co.uk | These Joan the Wad charms seem to have been devised by F.T. Nettleinghame, who registered them in 1932. | These Joan the Wad charms seem to have been devised by F.T. Nettleinghame, who registered them in 1932. |
+| joan-the-wad-c12 | exact | archive.org | Joan the Wad is the name of an elf or pisky. | Joan the Wad, the name of an elf or pisky. |
 
 
 ## joint-eater — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| joint-eater-c01 | exact | en.wikipedia.org | Joint-eater is documented as celtic mythology joint in regional lore. | In Celtic mythology, a Joint-eater, Just-halver or Alp-luachra (Ireland) is a type of fairy who sits invisibly and consumes half of their victim's food. |
+| joint-eater-c01 | exact | en.wikipedia.org | In Celtic mythology a Joint-eater, Just-halver or Alp-luachra (Ireland) is a type of fairy that sits invisibly and consumes half of its victim's food. | In Celtic mythology, a Joint-eater, Just-halver or Alp-luachra (Ireland) is a type of fairy who sits invisibly and consumes half of their victim's food. |
+| joint-eater-c02 | exact | en.wikipedia.org | When a person falls asleep beside a spring or stream, the Alp-luachra appears as a newt and crawls down the person's mouth, feeding off the food they have eaten. | When a person falls asleep by the side of a spring or stream, the Alp-luachra appears in the form of a newt and crawls down the person's mouth, feeding off the food that they had eaten. |
+| joint-eater-c03 | exact | en.wikipedia.org | A man haunted by a joint-eater never grows fat, because the fairy consumes the pith or quintessence of his food; people who consume newts are thought to be plagued this way. | A man haunted by a joint-eater will never grow fat, because the pith or quintessence of the food is consumed by the fairy. ... People who consume newts are thought to be plagued in this way. |
+| joint-eater-c04 | exact | en.wikipedia.org | To rid oneself of an Alp-luachra one should eat a large quantity of salt beef without drinking, then lie by a running stream with the mouth wide open. | to rid one's self of an Alp-Luachra, one should eat a large quantity of salt beef, without drinking anything, and then lie by a running stream with their mouth wide open |
+| joint-eater-c05 | exact | en.wikipedia.org | After a long wait the Alp-luachra becomes thirsty and jumps into the stream to drink. | after a long wait, the Alp-Luachra will become thirsty, and will jump into the stream to drink. |
+| joint-eater-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Kirk says a Heluo or Great-eater has a voracious elf attending him, called a Joint-eater or Just-halver, feeding on the Pith or Quintessence of what the man eats, so that he stays lean like a hawk or heron despite his devouring appetite. | They avouch that a Heluo, or Great-eater, hath a voracious Elve to be his attender, called a Joint-eater or Just-halver, feeding on the Pith or Quintessence of what the Man eats; and that therefoir he continues Lean like a Hawke or Heron, notwith standing his devouring Appetite |
+| joint-eater-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | With an airy being of this kind the Highlanders explained false or morbid appetite: a joint-eater inhabited the patient, so that "he feeds two when he eats". | By an airy being of this kind the Highlanders explained the false or morbid appetite. A “joint-eater” inhabited the patient; “he feeds two when he eats.” |
+| joint-eater-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Hyde's tale a beggarman says that anywhere in Ireland this herb grows there is an alt-pluachra near it, and that the sick man has swallowed one. | Any place in Ireland that this herb grows, there be’s an alt-pluachra near it, and you have swallowed an alt-pluachra. |
+| joint-eater-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | That is why the sick man keeps so thin: of every bit he eats, the alt-pluachra gets the good out of it. | that’s the reason you’re keeping so thin, for every bit you’re eating the alt-pluachra is getting the good out of it |
+| joint-eater-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The tale opens with a wealthy farmer in Connacht who had plenty of substance and a fine family. | There was once a wealthy farmer in Connacht, and he had plenty of substance and a fine family |
+| joint-eater-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The prince whispers that thirst is coming on them because of the salt in the beef, so they will come out. | “Now the thirst’s coming on them; the salt that was in the beef is working them; now they’ll come out.” |
+| joint-eater-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The prince counts a dozen of them, the clutch, while the old mother has not yet come out. | “There’s a dozen of them now,” said the prince; “that’s the clutch; the old mother didn’t come yet.” |
+| joint-eater-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Hyde wrote down "The Alp-luachra" from notes made when he first heard it; it was told by Seamus o h-Airt (James Hart), a game-keeper in the barony of Frenchpark. | The story of “The Alp-luachra” is written down from notes made at the time I first heard the story. It was told me by Seamus o h-Airt (James Hart), a game-keeper, in the barony of Frenchpark |
+| joint-eater-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The book, published in 1893, reproduces an 1815 printing of Rev. Robert Kirk's 1691 manuscript; an Introduction and Notes were added by Andrew Lang for the 1893 edition. | This book was published in 1893 and is a careful reproduction of a book printed in 1815 from a manuscript of 1691 by Rev. Robert Kirk. An Introduction and Notes have been added by Andrew Lang for the 1893 publication. |
+| joint-eater-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Rev. Robert Kirk, author of The Secret Commonwealth, studied theology at St. Andrews. | The Rev. Robert Kirk, the author of The Secret Commonwealth, was a student of theology at St. Andrews |
 
 
 ## lavellan — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 12 (exact 11, unreachable 1), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lavellan-c01 | exact | en.wikipedia.org | Lavellan is documented as scottish folklore lavellan in regional lore. | In Scottish folklore, the lavellan, làbh-allan, la-mhalan, or la-bhallan is a rodent- or lizard-like creature with a venomous bite. |
+| lavellan-c01 | exact | en.wikipedia.org | In Scottish folklore the lavellan (làbh-allan, la-mhalan, la-bhallan) is a rodent- or lizard-like creature with a venomous bite. | In Scottish folklore, the lavellan, làbh-allan, la-mhalan, or la-bhallan is a rodent- or lizard-like creature with a venomous bite. |
+| lavellan-c02 | exact | en.wikipedia.org | It reportedly lives in bodies of water and features in tales from both Sutherland and Caithness. | It reportedly lives in bodies of water. ... It features in tales from both Sutherland and Caithness. |
+| lavellan-c03 | exact | en.wikipedia.org | Robert Sibbald's Scotia Illustrata described the lavellan as an animal common in Caithness that stays in water, with a head and colouring like a weasel, whose breath does harm. | The lavellan was described in Robert Sibbald's Scotia Illustrata as "an animal common in Caithness, it stays in water, it has a head similar to the weasel, and is a beast of the same colouring. The breath from these beasts does harm." |
+| lavellan-c04 | exact | en.wikipedia.org | At the settlement of Ausdale Thomas Pennant asked local people about the lavellan; they believed it was particularly harmful to cattle. | In the settlement of Ausdale, Thomas Pennant asked the local people about the lavellan. They reportedly believed that the lavellan was particularly harmful to cattle |
+| lavellan-c05 | exact | en.wikipedia.org | Pennant posited that the lavellan was actually a water shrew (Neomys fodiens); according to researcher Lee Raye, this view is now generally accepted. | Pennant posited that the mythical lavellan was, in actuality, a water shrew (Neomys fodiens). According to researcher Lee Raye, Pennant's view is now generally accepted as accurate. |
+| lavellan-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Campbell writes that the lavellan is peculiar to the north, where it is said to hurt cattle from forty yards away. | Lavellan.—This animal is peculiar to the north, where it is said to be able to hurt cattle from a distance of forty yards |
+| lavellan-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Sibbald's Latin, quoted by Campbell: the Lavellan is an animal common in Caithness (Cathanesia), living in water (in aquis), with a head like a weasel (mustelae), harming beasts with its breath (halitu). | Lavellan, animal in Cathanesia frequens, in aquis degit, capite mustelae sylvestri simile, ejusdemque coloris, bestia est. Halitu Bestiis nocet. |
+| lavellan-c08 | unreachable (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan) | www.gutenberg.org | According to the Latin text, the remedy (remedium) is for the beasts to drink water (aqua) in which its head (caput) has been boiled. | Remedium autem est, si de aqua bibant in quâ ejus caput coctum est. |
+| lavellan-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Pennant wrote that he inquired after the Lavellan and from the description suspected it to be the water shrew mouse. | I inquired here after the Lavellan, which, from description, I suspect to be the water shrew mouse. |
+| lavellan-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Country people thought it noxious to cattle; they kept its skin and, as a cure for sick beasts, gave them water in which it had been dipped. | The country people have a notion that it is noxious to cattle; they preserve the skin, and, as a cure for their sick beasts, give them the water in which it has been dipt. |
+| lavellan-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Pennant believed it to be the same animal called the water mole in Sutherland. | I believe it to be the same animal which, in Sutherland, is called the water mole. |
+| lavellan-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | It is also mentioned by Rob Donn, the Sutherland bard, in his satirical song on "Mac Rorie's Breeches": let him not leave the houses for moss or wood, lest the Lavellan come and smite him. | It is also mentioned by Rob Donn, the Sutherland bard, in his satirical song on “Mac Rorie’s Breeches”: “Let him not go away from the houses, to moss or wood, lest the Lavellan come and smite him.” |
 
 
 ## lazy-laurence — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lazy-laurence-c01 | exact | en.wikipedia.org | Lazy Laurence is documented as lazy laurence pixie in regional lore. | Lazy Laurence is a pixie and nature spirit in English folklore who inhabits the New Forest area of Hampshire and Dorset. |
-
-
-## little-people-of-the-pryor-mountains — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| little-people-of-the-pryor-mountains-c01 | exact | en.wikipedia.org | Little People of the Pryor Mountains is documented as little pryor mountains in regional lore. | The Little People of the Pryor Mountains (known as Nirumbee or Awwakkulé in the Crow language) are a race of ferocious dwarfs in the folklore of the Crow Tribe, a Native American tribe. |
-
-
-## lurikeen — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| lurikeen-c01 | exact | fr.wikipedia.org | Lurikeen is a mythological figure documented in folklore records. | Dans le folklore irlandais (en) , le Lurikeen est un lutin et esprit familier des « tinkers » (ferblantiers itinérants), lié à la misère et aux défaites. |
+| lazy-laurence-c01 | exact | en.wikipedia.org | Lazy Laurence is a pixie and nature spirit in English folklore who inhabits the New Forest area of Hampshire and Dorset. | Lazy Laurence is a pixie and nature spirit in English folklore who inhabits the New Forest area of Hampshire and Dorset. |
+| lazy-laurence-c02 | exact | en.wikipedia.org | He is traditionally associated with protecting orchards and cider, and is known to send people to sleep beneath fruit trees, make them lazy or dithering, or give them stomach cramps. | He is traditionally associated with the protection of orchards and of cider, and known to send people to sleep beneath fruit trees, make them lazy, make them dither, or to give them stomach cramps. |
+| lazy-laurence-c03 | exact | en.wikipedia.org | Lazy Laurence is most associated with the New Forest, where he gives apple scrumpers and rude tourists indigestion and sends people into a dreaming, dithery state. | Lazy Laurence is most prominently associated with the New Forest, where he regularly gives apple scrumpers and rude tourists indigestion, and sends people into a dreaming, dithery state. |
+| lazy-laurence-c04 | exact | en.wikipedia.org | Laurence was once also known in the neighbouring counties of Sussex and Somerset, where he was used as a bogeyman to scare children. | Laurence was once also known of in the neighbouring counties of Sussex and Somerset, where he was used as a bogeyman to scare children |
+| lazy-laurence-c05 | exact | en.wikipedia.org | He was also known in the dialects of Devon and Cornwall, where his laziness was emphasised. | as well as in the dialects of Devon and Cornwall, where his laziness was emphasised. |
+| lazy-laurence-c06 | exact | en.wikipedia.org | An early literary reference to the figure is a small pamphlet from the 1770s titled "The Pleasant history of lazy Laurence". | An early literary reference to the figure is in a small pamphlet from the 1770s titled "The Pleasant history of lazy Laurence" |
+| lazy-laurence-c07 | exact | en.wikipedia.org | Brewer's Dictionary of Phrase and Fable notes the suggestion that the name alludes to the heat prevalent around the feast of St Lawrence (10 August). | it has been suggested that there is an allusion to the heat prevalent around the time of the feast of St Lawrence (10 August). |
+| lazy-laurence-c08 | exact | en.wikipedia.org | Another conjecture is a joke that when the martyr St Lawrence told his torturers to turn him on his gridiron, he was too lazy to move himself. | Another conjecture is that there was a joke to the effect that when the martyr St Lawrence told his torturers to turn him round on his gridiron, it was because he was too lazy to move by himself. |
+| lazy-laurence-c09 | exact | en.wikipedia.org | The earthwork where Lazy Laurence is believed to live, Laurence's Barrow, is a small bell barrow on Beaulieu Heath near two other barrows (Watt's Parlour and Cold Pixies' Cave). | The earthwork where Lazy Laurence is traditionally believed to reside, Laurence's Barrow, is a small bell barrow situated on Beaulieu Heath, near to two other barrows (Watt's Parlour and Cold Pixies' Cave) |
+| lazy-laurence-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Wise writes that fairies still dwell in the Forest; the mischievous sprite Laurence still holds men by his spell and makes them idle. | Here in the Forest still dwell fairies. The mischievous sprite, Laurence, still holds men by his spell and makes them idle. |
+| lazy-laurence-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | If a peasant is lazy, it is proverbially said "Laurence has got upon him" or "He has got a touch of Laurence"; he is still regarded with awe and barrows are named after him. | If a peasant is lazy, it is proverbially said, “Laurence has got upon him,” or, “He has got a touch of Laurence.” He is still regarded with awe, and barrows are called after him. |
+| lazy-laurence-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Superstition connects the barrows with fairies, so on Beaulieu Plain there are two mounds known as the Pixey's Cave and Laurence's Barrow. | superstition connects them with the fairies; and so we find on Beaulieu Plain two mounds known as the Pixey’s Cave and Laurence’s Barrow. |
 
 
 ## ly-erg — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ly-erg-c01 | exact | en.wikipedia.org | Ly Erg is documented as fairy scottish folklore in regional lore. | The Ly Erg is a fairy from Scottish folklore, particularly associated with the area in and around the Glenmore Forest, part of the present-day Cairngorms National Park. |
+| ly-erg-c01 | exact | en.wikipedia.org | The Ly Erg is a fairy from Scottish folklore, particularly associated with the area in and around Glenmore Forest, part of the present-day Cairngorms National Park. | The Ly Erg is a fairy from Scottish folklore, particularly associated with the area in and around the Glenmore Forest, part of the present-day Cairngorms National Park. |
+| ly-erg-c02 | exact | en.wikipedia.org | It is dressed as a soldier, distinguishable from a real one only by its red right hand, said to be stained with its victims' blood. | It is dressed as a soldier, distinguishable from a real soldier only by its red right hand, said to be stained with the blood of its victims. |
+| ly-erg-c03 | exact | en.wikipedia.org | While walking it stops near water and, raising its right hand, challenges passersby to fight. | While out walking it will stop near water, and by raising its right hand challenge passersby to fight. |
+| ly-erg-c04 | exact | en.wikipedia.org | Anyone who fights the Ly Erg will be dead within a fortnight, win or lose. | But anyone who engages in combat with the Ly Erg will be dead within a fortnight, win or lose. |
+| ly-erg-c05 | exact | en.wikipedia.org | Writing in 1847, the antiquarian Joseph Robertson told of three brothers who fought the Ly Erg, each dying immediately after the encounter. | Writing in 1847, the antiquarian Joseph Robertson tells of three brothers who fought the Ly Erg, each of them dying immediately after their encounter. |
+| ly-erg-c06 | exact | archives.collections.ed.ac.uk | The archive holds a story of the Ly Erg and three brothers: the Ly Erg, dressed as a soldier with one red hand, challenged three brothers to a fight, after which they all died. | Story about the Ly Erg and three brothers in which Ly Erg, dressed as a soldier and with one red hand, challenged three brothers to a fight immediately after which they all died. |
+| ly-erg-c07 | exact | archives.collections.ed.ac.uk | The story of the Ly Erg and three brothers was recorded in July 1909 in the Carmichael-Watson Collection, University of Edinburgh Library Heritage Collections. | Story about the Ly Erg and three brothers, July 1909, Coll-97/CW117/16. The Carmichael-Watson Collection, Coll-97. University of Edinburgh Library Heritage Collections. |
 
 
 ## madam-pigott — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| madam-pigott-c01 | exact | en.wikipedia.org | Madam Pigott is documented as madam pigott madam in regional lore. | Madam Pigott or Madam Piggott is a ghost supposed to haunt the area of Chetwynd Park and the surrounding market town of Newport, Shropshire. |
-
-
-## maelor-gawr — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| maelor-gawr-c01 | exact | en.wikipedia.org | Maelor Gawr is documented as maelor gawr early in regional lore. | Maelor Gawr is an early Celtic king and giant of Welsh mythology, who lived in Castell Maelor, Pen Dinas also known as (Dinas Maelor) in Penparcau, a village near Aberystwyth before "the coming of Brutus to this island". |
+| madam-pigott-c01 | exact | en.wikipedia.org | Madam Pigott or Madam Piggott is a ghost said to haunt Chetwynd Park and the nearby market town of Newport, Shropshire; she resembles other White Ladies in British folklore. | Madam Pigott or Madam Piggott is a ghost supposed to haunt the area of Chetwynd Park and the surrounding market town of Newport, Shropshire. She bears similarities to other White Ladies in British folklore. |
+| madam-pigott-c02 | exact | en.wikipedia.org | If a rider passed, Madam Pigott would leap onto the horse behind him; her spirit could not cross water, so she let go when the rider crossed a stream. | If a rider passed through the area, Madam Pigott would leap onto the horse behind him. Her spirit was unable to cross water, so when the rider crossed a stream, she would let go. |
+| madam-pigott-c03 | exact | en.wikipedia.org | Sightings of "Madame Piggott" have been recorded as recently as 2014. | "Madame Piggott" sightings have been recorded as recently as 2014. |
+| madam-pigott-c04 | exact | en.wikipedia.org | She has been said to appear around the A41 road between Newport and Market Drayton. | She has been said to appear around the A41 road between Newport and Market Drayton. |
+| madam-pigott-c05 | exact | en.wikipedia.org | The Silky of Black Heddon is a similar White Lady, with a favourite tree known as the Silky's Chair. | The Silky of Black Heddon is a similar White Lady. She had a preferred tree known as the Silky's Chair. |
+| madam-pigott-c06 | exact | archive.org | Burne calls Madam Pigott a far more appalling 'Madam', the ancient terror of Chetwynd and Edgmond. | A far more appalling ‘Madam’ is Madam Pigott, the ancient terror of Chetwynd and Edgmond. |
+| madam-pigott-c07 | exact | archive.org | Her husband said 'one should lop the root to save the branch'; neither mother nor child survived, and because he had so cruelly willed her death, Madam Pigott's spirit could find no rest. | ‘one should lop the root to save the branch.’ Neither mother nor child survived, but after her husband had thus cruelly willed her death, Madam Pigott’s spirit could find no rest. |
+| madam-pigott-c08 | exact | archive.org | Night after night, exactly at twelve o'clock, she came out of a trap-door in the roof of Chetwynd (old) Rectory. | Night after night, exactly at twelve o'clock, she issued from a trap-door in the roof of Chetwynd (old) Rectory |
+| madam-pigott-c09 | exact | archive.org | Her favourite haunt was the steep, dark, high-banked lane properly called Cheney Hill. | Her favourite haunt was the steep, dark, high-banked lane, properly called Cheney Hill |
+| madam-pigott-c10 | exact | archive.org | On a tree-root called Madam Pigott's Armchair, or on the old stone wall of Chetwynd Park above it, Madam Pigott used to sit on a moonlit night combing her baby's hair. | tree-root, called Madam Pigott’s Armchair. On this, or else on the old stone wall of Chetwynd Park just above it, Madam Pigott used to sit, ‘on a moonshiny night,’ combing her baby’s hair |
+| madam-pigott-c11 | exact | archive.org | She and her black cat would spring up behind the rider and cling fast until they came to running water, beyond which she could go no farther. | she and her black cat would spring up behind him and cling fast, notwithstanding all his efforts, till she came to a ‘ running water,’ then she could go no farther. |
+| madam-pigott-c12 | exact | archive.org | Twelve local clergy were summoned to lay her by incessantly reading Psalms until they made her obedient to their power. | were summoned to lay her, by incessantly reading Psalms till they made her obedient to their power. |
+| madam-pigott-c13 | exact | archive.org | One clergyman succeeded because he continued to 'read' after all the others were exhausted. | for he continued to ‘read ’ after all the others were exhausted. |
+| madam-pigott-c14 | exact | archive.org | This wild and gruesome myth is familiar to poor folk for miles around Chetwynd. | This wild and gruesome myth is familiar to the poor folk for miles around Chetwynd. |
+| madam-pigott-c15 | exact | archive.org | The version told by Dimiti and recorded by Groome: at Chetwynd End near Newport a young lady, Miss Pigott, was out hunting when her horse ran up a big sandy bank, threw her off and killed her. | It was at Chetwynd End, near Newport, just by the parson's house ; and there was a young lady. Miss Pigott, out hunting; and the horse run up a great big sandy bank, and threw her off his back, and killed her. |
+| madam-pigott-c16 | exact | archive.org | She was laid and thrown into Chetwynd Pool, but the bottle holding her broke (someone skating, it was thought), and she returned as bad as before, jumping onto men's horses. | then they laid her, threw her into Chetwynd Pool. And somehow the bottle they'd put her in got broken (somebody skating, I think it was); and she come as bad again after that, and got jumping on the men's horses. |
+| madam-pigott-c17 | exact | archive.org | Groome notes that Dimiti then began a legend which, in his view, certainly has no claim to Gipsy origin, though it recalls the Fisherman in the Arabian Nights. | the priest in it started Dimiti off on a legend, that certainly has no claim to Gipsy origin, though it reminds one of the Fisherman in the Arabian Nights |
 
 
 ## metheringham-lass — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (exact 20), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| metheringham-lass-c01 | exact | en.wikipedia.org | Metheringham Lass is documented as metheringham lass given in regional lore. | The Metheringham Lass is the name given to an apparition which has been reported at RAF Metheringham. |
+| metheringham-lass-c01 | exact | en.wikipedia.org | The Metheringham Lass is the name given to an apparition reported at RAF Metheringham. | The Metheringham Lass is the name given to an apparition which has been reported at RAF Metheringham. |
+| metheringham-lass-c02 | exact | en.wikipedia.org | Reports state that the woman, wearing a jacket bearing RAF insignia, approaches cars as they pass the old airfield, sometimes even physically interacting with the car. | Reports have stated that the woman, wearing a jacket bearing RAF insignia, approaches cars as they pass the old airfield, sometimes even physically interacting with the car. |
+| metheringham-lass-c03 | exact | en.wikipedia.org | She begs the driver to help her boyfriend, injured in a motorcycle accident, but vanishes when the driver exits the car to help. | She begs the driver to help her boyfriend who has been injured in a motorcycle accident. However, when the driver exits the car to help, she vanishes. |
+| metheringham-lass-c04 | exact | en.wikipedia.org | The apparition is said to be accompanied first by the smell of lavender, followed by the smell of decomposing flesh. | The apparition is said to be accompanied first by the smell of lavender, followed by the smell of decomposing flesh. |
+| metheringham-lass-c05 | exact | en.wikipedia.org | It has been speculated that the apparition is Catherine Bystock, who died aged nineteen when her flight sergeant boyfriend crashed the motorcycle carrying them both after a dance. | It has been speculated that the reported apparition is of Catherine Bystock, who died at the age of nineteen when her flight sergeant boyfriend crashed his motorcycle after a dance with them both on board. |
+| metheringham-lass-c06 | exact | lincolnshirefolktalesproject.com | This is a variant of the 'phantom hitchhiker' legend, common in twentieth-century and contemporary ghost folklore. | This is a variant of the ‘phantom hitchhiker’ legend, common in twentieth-century and contemporary folklore concerning ghosts. |
+| metheringham-lass-c07 | exact | lincolnshirefolktalesproject.com | The ghost of a young woman is said to flag down motorists at night on a road beside the former RAF Metheringham, saying her boyfriend has fallen off his motorbike. | The ghost of a young woman is said to flag down unsuspecting motorists at night, on a road adjacent to the former RAF Metheringham, saying her boyfriend has fallen off his motorbike. |
+| metheringham-lass-c08 | exact | lincolnshirefolktalesproject.com | In some versions or alleged sightings she wears a green mac and a grey headscarf, and the last thing people see before she vanishes is her skull facing them from beneath her scarf. | In some versions, or alleged sightings, she is wearing a green mac and a grey headscarf, and the last people see of her before she vanishes is her skull facing them from beneath her scarf. |
+| metheringham-lass-c09 | exact | lincolnshirefolktalesproject.com | Bruce Barrymore Halpenny's rendition in his book Ghost Stations (1986) is the main source of the tale. | Bruce Barrymore Halpenny, whose rendition of this story in his book Ghost Stations (1986) is the main source of the tale. |
+| metheringham-lass-c10 | exact | lincolnshirefolktalesproject.com | Halpenny claims that nineteen-year-old Catherine Bystock was killed here in 1945 when her Flight Sergeant boyfriend, stationed at RAF Metheringham, lost control of his motorcycle. | He claims that a nineteen-year-old woman called Catherine Bystock was killed here in 1945, when her Flight Sergeant boyfriend, stationed at RAF Metheringham, lost control of his motorcycle. |
+| metheringham-lass-c11 | exact | lincolnshirefolktalesproject.com | There is, however, no evidence to support this sad backstory. | There is no evidence to support this sad backstory, though. |
+| metheringham-lass-c12 | exact | lincolnshirefolktalesproject.com | In 2022 a group called Retford Ghost Hunters claimed to have photographed her, and national and international media picked this up. | In 2022, a group called Retford Ghost Hunters claimed to have taken a photograph of her, and this was picked up by national and international media. |
+| metheringham-lass-c13 | exact | lincolnshirefolktalesproject.com | Rory Waterman includes a modernised adaptation in Come Here to This Gate (Carcanet, 2024), where the apparition is a young man's delusion. | Rory Waterman includes a modernised adaptation of the story in Come Here to This Gate (Carcanet, 2024), in which the apparition is a young man’s delusion. |
+| metheringham-lass-c14 | exact | lincolnshirefolktalesproject.com | The tale now has its own episode of the BBC's 'Secret Lincolnshire' (2024). | This tale now has its own episode of the BBC’s ‘Secret Lincolnshire’ (2024), narrated by Rory. |
+| metheringham-lass-c15 | exact | lincolnshirefolktalesproject.com | A lonely lane now crosses the site of the base (operational 1942-5), atop its only partly remaining runway. | A lonely lane now crosses the site of the base (operational 1942-5), atop its only partly-remaining runway. |
+| metheringham-lass-c16 | exact | lincolnshirefolktalesproject.com | There are several broadly similar anecdotes of ghost sightings in this part of Lincolnshire. | There are several broadly similar anecdotes of ghost sightings in this part of Lincolnshire. |
+| metheringham-lass-c17 | exact | www.forcesnews.com | The figure allegedly appearing is a young woman named Catherine Bystock, a member of the Women's Auxiliary Air Force engaged to a Flight Sergeant. | The figure of a young woman named Catherine Bystock, a member of the Women's Auxiliary Air Force who had been engaged to a Flight Sergeant, allegedly appears. |
+| metheringham-lass-c18 | exact | www.forcesnews.com | The ghost appears in the summer months at around 9:30 pm, the time she was supposedly killed, and always after dusk starts to fall. | The ghost appears in the summer months at around 9:30 pm – the time she was supposedly killed and always after dusk starts to fall. |
+| metheringham-lass-c20 | exact | lincolnshirefolktalesproject.com | She then disappears, leaving behind the smells of rotting meat and, in some accounts, lavender. | She then disappears, leaving behind the smells of rotting meat and, in some accounts, lavender. |
+| metheringham-lass-c19 | exact | www.forcesnews.com | She is said to have haunted the spot for more than 60 years. | She is said to have haunted the spot for more than 60 years. |
 
 
 ## muckie — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| muckie-c01 | exact | en.wikipedia.org | Muckie is documented as irish folklore muckie in regional lore. | In Irish folklore, Muckie is the name given to an alleged mysterious creature said to inhabit the Lakes of Killarney in Ireland. |
+| muckie-c01 | exact | en.wikipedia.org | In Irish folklore, Muckie is the name given to an alleged mysterious creature said to inhabit the Lakes of Killarney in Ireland. | In Irish folklore, Muckie is the name given to an alleged mysterious creature said to inhabit the Lakes of Killarney in Ireland. |
+| muckie-c02 | exact | en.wikipedia.org | In 2003, scientists conducted a series of sonar scans to determine local fish populations. | In 2003, scientists conducted a series of sonar scans to determine local fish populations. |
+| muckie-c03 | exact | en.wikipedia.org | A large solid object in the water was recorded, which led to the theory that the lake is inhabited by some form of lake monster, similar to the famed "Nessie" of Loch Ness. | However, a large solid object in the water was recorded, which has led to the theory that the lake is inhabited by some form of lake monster, similar to the famed "Nessie" of Loch Ness. |
+| muckie-c04 | exact | en.wikipedia.org | It has been suggested that witnesses may have seen seals which, travelling in pairs, dive and rise opposite each other, giving the impression of one larger animal. | It has been suggested that witnesses might have seen seals which, when travelling in pairs, will dive and rise opposite to each other, giving the impression of being a single larger animal. |
+| muckie-c05 | exact | en.wikipedia.org | The name Muckie is a portmanteau of Muckross (one of the three Killarney lakes) and the -ie suffix mimicking "Nessie" of Loch Ness. | The name Muckie comes from a portmanteau of Muckross (one of the three Killarney lakes) and the -ie suffix to mimic "Nessie" of Loch Ness. |
+| muckie-c06 | exact | en.wikipedia.org | Tourism interests have tried to encourage the legend. | Tourism interests have tried to encourage the legend. |
+| muckie-c07 | exact | en.wikipedia.org | In October 2004, a Japanese TV crew spent a week in the region looking for Muckie. | In October 2004, a Japanese TV crew spent a week in the region looking for Muckie. |
+| muckie-c08 | exact | www.irishtimes.com | A hydro-acoustic study of Muckross Lake, one of Ireland's deepest lakes, produced a baffling image of a lurking "thing" the size of a small house in the south-eastern part of the lake. | A hydro-acoustic study of Muckross Lake, one of the deepest lakes in Ireland, has thrown up a baffling image of a deep lurking "thing" the size of a small house in the south-eastern part of the lake. |
+| muckie-c09 | exact | www.irishtimes.com | Scientists studying the rare Arctic char in the lakes of Killarney have hooked a "monster". | Scientists trying to find out more about the rare Arctic char in the lakes of Killarney have hooked a "monster". |
+| muckie-c10 | exact | www.irishtimes.com | Instead of the usual small signals indicating individual fish, monitoring staff picked up something much larger in around 10 metres of water last April. | Instead of the normal small signals indicating individual fish, monitoring personnel got something much larger in around 10 metres of water, last April. |
+| muckie-c11 | exact | www.irishtimes.com | They have been unable to identify the image, and it was not a computer or logging error, as the sonar equipment was working normally. | They have been unable to identify the image. It was not due to a computer or logging error, as the sonar equipment was functioning normally |
+| muckie-c12 | exact | www.irishtimes.com | Muckross Lake is up to 70 metres deep, making it, with its sister lake Lough Leane, the deepest lake in Ireland. | Muckross Lake is up to 70 metres deep - this makes it, along with its sister lake, Lough Leane, the deepest lake in Ireland |
+| muckie-c13 | exact | www.irishtimes.com | Scottish fisheries expert and monster hunter Ron Greer was to lead a study of the lake in September. | Scottish fisheries expert and monster hunter Mr Ron Greer, who has written extensively on the giant Scottish ferox trout, is to lead a study of the lake in September. |
+| muckie-c14 | exact | web.archive.org | Muckie, the legendary monster prowling beneath the surface of the Lakes of Killarney, has attracted an international television crew. | MUCKIE, the legendary monster prowling beneath the surface of the Lakes of Killarney, has attracted the attention of an international television crew |
+| muckie-c15 | exact | web.archive.org | A Japanese film crew searched for Muckie on Lough Leane and interviewed local fishermen and jarveys who swear they saw something big and mysterious in the daytime. | A Japanese film crew has spent the past week searching for Muckie on Lough Leane and interviewing local fishermen and jarveys who swear that witnessed something big and mysterious going bump in the daytime. |
 
 
-## murigen — lulus-otomatis
+## murigen — skip
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Identitas 'dewi danau Wales' (deskripsi Wikidata Q6938699) tidak dapat dipastikan dari sumber mana pun. Satu-satunya artikel Wikipedia (en: Murigen) adalah pengalihan ke 'Lí Ban (mermaid)': Muirgen/Muirgein adalah nama baptis Lí Ban, perempuan Irlandia yang menjadi duyung lalu dibaptis St. Comgall dan tercatat sebagai Saint Muirgen. Tokoh itu sudah ada di Mythics sebagai slug li-ban-mermaid; tidak ada sumber yang mendukung dewi Wales bernama Murigen. (https://en.wikipedia.org/wiki/Murigen).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| murigen-c01 | exact | en.wikipedia.org | Murigen is documented as help learn edit in regional lore. | Help Learn to edit Community portal Recent changes Upload file Special pages |
 
 
 ## nelly-longarms — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nelly-longarms-c01 | exact | en.wikipedia.org | Nelly Longarms is documented as nelly longarms nellie in regional lore. | Nelly Longarms (or Nellie Longarms) is a hag and water spirit in English folklore who dwells at the bottom of deep ponds, rivers and wells. |
-
-
-## petticoat-loose — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| petticoat-loose-c01 | exact | ga.wikipedia.org | Petticoat Loose is documented as gceist petticoat loose in regional lore. | Is éard atá i gceist le Petticoat Loose ná sprid nó taibhse mná agus í ina hábhar scéalta i mbéaloideas na Mumhan. |
-
-
-## portunes — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| portunes-c01 | exact | en.wikipedia.org | Portunes is documented as portunes neptunes creatures in regional lore. | Portunes, or Neptunes, are creatures of English folklore described only in the medieval Latin work Otia Imperialia by Gervase of Tilbury. |
-
-
-## pyewacket-familiar-spirit — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| pyewacket-familiar-spirit-c01 | exact | en.wikipedia.org | Pyewacket (familiar spirit) is documented as pyewacket familiar spirits in regional lore. | Pyewacket was said to be one of the familiar spirits of a convicted witch accused by the claimed Witchfinder General Matthew Hopkins in March 1644 in the town of Manningtree, Essex, England. |
-
-
-## searrach-uisge — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| searrach-uisge-c01 | exact | nl.wikipedia.org | Searrach Uisge is documented as searrach uisge naam in regional lore. | Searrach Uisge is de naam van een 'monster' uit de Schotse mythologie dat zou leven in het Schotse Loch Suainbhal. |
-
-
-## segeta — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| segeta-c01 | exact | fr.wikipedia.org | Segeta is a mythological figure documented in folklore records. | Segeta ou Segesta est une déesse de la mythologie celtique, déesse de la Loire et divinité éponyme du peuple ségusiave. |
-
-
-## seileag — lulus-otomatis
-
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| seileag-c01 | exact | ga.wikipedia.org | Seileag is documented as cheaptar bheith loch in regional lore. | Is ollphéist a cheaptar a bheith ina gcónaí i Loch Seile, Comhairle na Gàidhealtachd í Niseag nó an Seileag. |
+| nelly-longarms-c01 | exact | en.wikipedia.org | Nelly Longarms (or Nellie Longarms) is a hag and water spirit in English folklore who dwells at the bottom of deep ponds, rivers and wells. | Nelly Longarms (or Nellie Longarms) is a hag and water spirit in English folklore who dwells at the bottom of deep ponds, rivers and wells. |
+| nelly-longarms-c02 | exact | en.wikipedia.org | Like the Grindylow, Peg Powler and Jenny Greenteeth, she reaches out with her long sinewy arms and drags children beneath the water if they get too close. | Like the Grindylow, Peg Powler and Jenny Greenteeth she will reach out with her long sinewy arms and drag children beneath the water if they get too close. |
+| nelly-longarms-c03 | exact | en.wikipedia.org | She is regarded as a bogeyman figure invoked by parents to frighten children into appropriate behaviour. | She is regarded as a bogeyman figure who is invoked by parents to frighten children into appropriate behaviour. |
+| nelly-longarms-c04 | exact | en.wikipedia.org | The legend originates around St Margaret's Garth, Durham, England; residents have reported sightings and strange sounds, especially at night, since the early 18th century. | The legend finds its origins around St Margaret's Garth, Durham, England. Residents have reported sightings and strange sounds, especially at night, since the early 18th Century. |
+| nelly-longarms-c05 | exact | en.wikipedia.org | Nelly Longarms must typically be invited into a property before she can drag children into the water, and most sightings are at the threshold of properties, often heard slamming or opening doors. | Nelly Longarms must typically be invited into a property for her to drag children into the water, and most sightings of the spirit are at the threshold of properties, often heard slamming or opening doors. |
+| nelly-longarms-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | According to Wright, Grindylow, Jenny Green-teeth and Nelly Long-arms (Yks. Lan. Chs. Der. Shr.) are various names of one nymph or water-demon said to lurk at the bottom of deep pits, ponds and wells. | Grindylow, Jenny Green-teeth, and Nelly Long-arms (Yks. Lan. Chs. Der. Shr.) are the various names of a nymph or water-demon who is said to lurk at the bottom of deep pits, ponds, and wells. |
+| nelly-longarms-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | When children come near the edge of her domain, she stretches out her long, sinewy arms, seizes them and drags them under the water, holding them there till they are drowned. | near to the edge of her domain, she will stretch out her long, sinewy arms, seize them, and drag them under the water, holding them there till they are drowned. |
+| nelly-longarms-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Her presence is indicated by a green scum on the surface of the water. | Her presence is indicated by a green scum on the surface of the water. |
+| nelly-longarms-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | If there is no pond or deep water nearby, she was supposed to lodge temporarily in the tops of trees, where after nightfall she may be heard moaning. | If there is no pond or deep water for her near by, she has been supposed to take up a temporary lodging in the tops of trees, where after nightfall she may be heard moaning |
+| nelly-longarms-c10 | exact | en.wikipedia.org | Peg Powler, Nelly Longarms and Jenny Greenteeth are similar water spirits (to the Grindylow). | Peg Powler, Nelly Longarms, and Jenny Greenteeth are similar water spirits. |
 
 
 ## shug-monkey — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| shug-monkey-c01 | exact | en.wikipedia.org | Shug Monkey is documented as folklore cambridgeshire shug in regional lore. | In the folklore of Cambridgeshire, the Shug Monkey is a creature that shares features of a dog and monkey, which reportedly haunted Slough Hill Lane (a street that leads from the village of West Wratting to nearby Balsham). |
+| shug-monkey-c01 | exact | en.wikipedia.org | In Cambridgeshire folklore the Shug Monkey is a creature sharing features of a dog and monkey, reportedly haunting Slough Hill Lane, a street from the village of West Wratting to Balsham. | In the folklore of Cambridgeshire, the Shug Monkey is a creature that shares features of a dog and monkey, which reportedly haunted Slough Hill Lane (a street that leads from the village of West Wratting to nearby Balsham). |
+| shug-monkey-c02 | exact | en.wikipedia.org | The creature was believed to have the body of a jet-black shaggy sheepdog and the face of a monkey with staring eyes, and was believed to be a supernatural ghost or demon. | The creature, believed to have the body of a jet-black shaggy sheepdog and the face of a monkey with staring eyes, was believed to be a supernatural ghost or demon. |
+| shug-monkey-c03 | exact | en.wikipedia.org | Local writer and broadcaster James Wentworth Day, who first related stories of the Shug Monkey in Here Are Ghosts and Witches (1954), described it as a curious variation of Black Shuck. | Local writer and broadcaster James Wentworth Day, who first related stories of the Shug Monkey in Here Are Ghosts and Witches (1954), described it as a curious variation of Black Shuck |
+| shug-monkey-c04 | exact | en.wikipedia.org | Local folklorist Polly Howat suggests that both share common origins in Norse mythology. | while local folklorist Polly Howat suggests that both share common origins in Norse mythology. |
+| shug-monkey-c05 | exact | en.wikipedia.org | According to Howat, sightings of the Shug Monkey have not been reported since before World War II. | According to Howat, sightings of the Shug Monkey have not been reported since before World War II. |
+| shug-monkey-c06 | exact | hiddenea.com | According to the witness, it was a cross between a big rough-coated dog and a monkey with big shining eyes; sometimes it would shuffle along on its hind legs and at other times whiz past on all fours. | It was, he says, 'a cross between a big rough-coated dog and a monkey with big shining eyes. Sometimes it would shuffle along on its hind legs and at other times it would whiz past on all fours. |
+| shug-monkey-c07 | exact | hiddenea.com | The lane on the road from West Wratting to Balsham was haunted by an extraordinary thing called the Shug Monkey. | this lane which is on the road from West Wratting to Balsham was haunted by an extraordinary thing called 'the Shug Monkey.' |
+| shug-monkey-c08 | exact | hiddenea.com | The witness said that the children gave the place a wide berth after dark. | You can guess that we children gave the place a wide berth after dark! |
+| shug-monkey-c09 | exact | hiddenea.com | The Shug-monkey haunts the short stretch of road, and the adjacent lanes, between West Wratting and Balsham. | haunts the short stretch of road, and the adjacent lanes, between West Wratting and Balsham |
+| shug-monkey-c10 | exact | capturingcambridge.org | This lane was once the haunt of the Shug Monkey, a giant spectral dog with links to Viking myth, described with the body of a large shaggy dog and the face of a monkey with huge eyes. | This lane was once the haunt of the ‘Shug Monkey’, a giant spectral dog with links to Viking myth. It was described as having the body of a large shaggy dog, the face of a monkey with huge eyes. |
+| shug-monkey-c11 | exact | hiddenea.com | Wentworth Day was told by Police Constable A. Taylor of Cambridge about his youth. | Police Constable A. Taylor, of The Tiled House, Panton Street, Cambridge, tells me that, in his youth |
 
 
 ## sleih-beggey — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 22 (exact 22), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sleih-beggey-c01 | exact | en.wikipedia.org | Sleih beggey is documented as wide variety individual in regional lore. | A wide variety of individual mythical creatures come under the umbrella of sleih beggey, with both benevolent and malevolent fairies. |
+| sleih-beggey-c01 | exact | en.wikipedia.org | Sleih beggey (Manx for little people, also Beggys, Sleigh veggy, Sleigh beggey and Ferrishyn from English faeries) is the umbrella term for Manx fairies. | Manx for Little people, also Beggys , Sleigh veggy , Sleigh beggey , and Ferrishyn from the English: faeries ) is the umbrella term for Manx fairies. |
+| sleih-beggey-c02 | exact | en.wikipedia.org | A wide variety of mythical creatures come under the umbrella of sleih beggey, with both benevolent and malevolent fairies. | A wide variety of individual mythical creatures come under the umbrella of sleih beggey, with both benevolent and malevolent fairies. |
+| sleih-beggey-c03 | exact | en.wikipedia.org | Sleih beggey are generally seen as stocky domestic fairies who lived in burghs, fond of hunting, music and abducting humans. | Generally, the Sleih beggey are seen as stocky in stature, and as domestic fairies, who lived in burghs. They are fond of hunting, music, and abducting humans. |
+| sleih-beggey-c04 | exact | en.wikipedia.org | They dislike ashes, artificial light, salt and baptisms, and commonly wore green clothes. | They dislike ashes, artificial light, salt, and baptisms. They commonly wore green clothes. |
+| sleih-beggey-c05 | exact | en.wikipedia.org | John Rhys noted that Manx and Welsh fairies were similar in most aspects, but Manx fairies had no issue using weapons to attack humans, unlike the Welsh fairies. | John Rhys noted that Manx and Welsh fairies were similar in most aspects, but that Manx fairies had no issue using weapons to attack humans, unlike the Welsh fairies. |
+| sleih-beggey-c06 | exact | en.wikipedia.org | The Ferrish are described as a particular tribe of fairies one to three foot tall, who rode horses and kept hunting dogs, with no named king or queen, known to replace human babies with changelings. | The Ferrish have been described as a particular tribe of fairies, standing between one and three foot tall, who rode horses and kept dogs for hunting, having no named king or queen. They were known to replace human babies with changelings |
+| sleih-beggey-c07 | exact | en.wikipedia.org | In the manga and anime The Ancient Magus' Bride, the Sleigh Beggy are a special type of mage. | In the manga and anime The Ancient Magus' Bride, the Sleigh Beggy are a special type of mage. |
+| sleih-beggey-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Manx they are called sleih beggey, or little people, and ferrishyn, seemingly from the English word fairies; like the Welsh fairies, they kidnap babies. | They are called in Manx, sleih beggey, or little people, and ferrishyn, from the English word fairies, as it would seem. Like the Welsh fairies, they kidnap babies |
+| sleih-beggey-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Like Welsh fairies, they also take possession of the hearth after the farmer and his family are gone to bed. | Like Welsh fairies, also, they take possession of the hearth after the farmer and his family are gone to bed. |
+| sleih-beggey-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Like the Welsh fairies, the Manx ones take men away with them and detain them for years. | Like the Welsh fairies, the Manx ones take men away with them and detain them for years. |
+| sleih-beggey-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Like Welsh fairies, the Manx ones had horses to ride and also dogs. | Like Welsh fairies, the Manx ones had, as the reader will have seen, horses to ride; they had also dogs, just as the Welsh ones had. |
+| sleih-beggey-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | They are supposed to be like human beings in form and feature, though very much smaller and more delicately constructed. | They are supposed to be like human beings in form and feature, though very much smaller and more delicately constructed. |
+| sleih-beggey-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | They are usually represented clad in blue or green with red peaked caps, living in green hill sides, especially the ancient tumuli. | They are usually represented as being clad in blue or green, with red peaked caps. They live in green hill sides, more especially affecting the ancient tumuli. |
+| sleih-beggey-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Some are benevolent, curing men of diseases and delivering them from misfortune; others are malevolent, stealing children, even abducting grown people, and bringing misfortune. | Some of them are benevolent, curing men of diseases and delivering them from misfortune. Others are malevolent, stealing children, even abducting grown people, and bringing misfortune. |
+| sleih-beggey-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | They are called the little people or the good people, the word Fairy never being mentioned, as they are supposed not to like it. | they are called “the little people”, or “the good people”, the word Fairy being never mentioned, as they are supposed not to like it. |
+| sleih-beggey-c16 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | As protection against the fairies, salt is very efficacious, and so is iron. | Thus, salt is very efficacious, and so is iron, as will be seen from stories which follow. |
+| sleih-beggey-c17 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Manx word Ferrish is merely a recent corruption of the English word, there being no such word in the Manx language 150 years ago. | Indeed, the Manx word Ferrish is merely a recent corruption of the English word, there being no such word in the Manx language 150 years ago. |
+| sleih-beggey-c18 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Campbell, quoted by Moore, wrote that they are known by the name of Ferish, which a Mankman assured him was a genuine Manks word. | are known by the name of Ferish, which a Mankman assured me was a genuine Manks word. |
+| sleih-beggey-c19 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | A Kirk Andreas man was absent from his people for four years, which he spent with the fairies. | Thus a Kirk Andreas man was absent from his people for four years, which he spent with the fairies. |
+| sleih-beggey-c20 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | According to Campbell, the Manx fairies are not supposed to throw arrows as they are said still to do in the Highlands. | They are not supposed to throw arrows as they are said still to do in the Highlands. |
+| sleih-beggey-c21 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The fairies are also called the Mooinjer-Veggey (Fairies). | as this was deemed displeasing to the Mooinjer-Veggey (Fairies) |
+| sleih-beggey-c22 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The flint arrow heads occasionally picked up are the weapons with which the Fairies avenge themselves upon human beings who had wronged them. | The flint arrow heads which are occasionally picked up, are the weapons with which the Fairies avenge themselves upon human beings who had wronged them. |
 
 
 ## sockburn-worm — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 24 (exact 24), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sockburn-worm-c01 | exact | en.wikipedia.org | Sockburn Worm is documented as folklore northumbria sockburn in regional lore. | In the folklore of Northumbria, the Sockburn Worm was a ferocious wyvern that laid waste to the village of Sockburn in Durham. |
+| sockburn-worm-c01 | exact | en.wikipedia.org | In Northumbrian folklore the Sockburn Worm was a ferocious wyvern that laid waste to the village of Sockburn in Durham, said to have finally been slain by John Conyers. | In the folklore of Northumbria, the Sockburn Worm was a ferocious wyvern that laid waste to the village of Sockburn in Durham. It was said that the beast was finally slain by John Conyers. |
+| sockburn-worm-c02 | exact | en.wikipedia.org | The tale is said to have inspired Lewis Carroll's poem Jabberwocky, written while he was in Croft-on-Tees and Whitburn. | The tale is said to be the inspiration for Lewis Carroll's poem Jabberwocky which he wrote while in Croft-on-Tees and Whitburn. |
+| sockburn-worm-c03 | exact | en.wikipedia.org | The tale of the worm may be inspired by the longships of marauding Vikings, who carved worm heads (Ormr) on the bow. | The tale of the worm may be inspired by the longships of marauding Vikings, who carved the heads of Worms (Ormr) on the bow |
+| sockburn-worm-c04 | exact | en.wikipedia.org | However, this does not account for the commonness of dragons in Germanic folklore including Northumbria (see the Laidly and Lambton Worms and the Worm of Linton). | however, this does not take into account the commonness of dragons in Germanic folklore including that of Northumbria (see the Laidly and Lambton Worms as well as the Worm of Linton). |
+| sockburn-worm-c05 | exact | en.wikipedia.org | The tradition lapsed from 1771, the sword was given to Durham Cathedral in 1947, and the ceremony was revived by Bishop David Jenkins in 1984. | The tradition lapsed from 1771 and the sword was given to Durham Cathedral in 1947. The ceremony was revived by bishop David Jenkins in 1984 |
+| sockburn-worm-c06 | exact | en.wikipedia.org | The Sockburn Worm, with the falchion embedded in it, appears on the district badge of the Darlington & District Scout Association. | The Sockburn Worm, with the falchion embedded in it, appears on the district badge of the local Darlington & District Scout Association. |
+| sockburn-worm-c07 | exact | www.durhamcathedral.co.uk | According to legend, in 1063 the head of the family, Sir John Conyers, killed a fearsome dragon terrorising the area, known as the Sockburn Worm. | According to legend, this was because in 1063 the head of the family, Sir John Conyers, had killed a fearsome dragon which had been terrorising the area, known as the Sockburn Worm. |
+| sockburn-worm-c08 | exact | www.durhamcathedral.co.uk | The ceremonial speech: this falchion is the one with which the champion Conyers slew the worm, dragon or fiery flying serpent that destroyed man, woman and child; in memory of which the king gave him the manor of Sockburn. | My Lord Bishop. I hereby present you with the falchion wherewith the champion Conyers slew the worm, dragon or fiery flying serpent which destroyed man, woman and child; in memory of which the king then reigning gave him the manor of Sockburn |
+| sockburn-worm-c09 | exact | www.durhamcathedral.co.uk | The custom fell out of use in 1771, the sword was given to the Cathedral in 1947, and the ceremony was revived in 1984, with the Mayor of Darlington now presenting the sword to the Bishop. | The custom fell out of use in 1771, and the sword was given to the Cathedral in 1947. The tenure ceremony was revived in 1984, the sword now being presented to the Bishop by the Mayor of Darlington |
+| sockburn-worm-c10 | exact | www.durhamcathedral.co.uk | The Sockburn Worm story was almost certainly the inspiration for Lewis Carroll's nonsense poem Jabberwocky; Carroll lived in Croft-on-Tees as a boy. | The story of the Sockburn Worm was almost certainly the inspiration for Lewis Carroll’s famous nonsense poem ‘Jabberwocky’. Carroll lived in nearby Croft-on-Tees as a boy |
+| sockburn-worm-c11 | exact | www.durhamcathedral.co.uk | In the poem the hero wields a vorpal blade to kill the monster, a weapon probably based on the falchion. | In the poem, the hero wields a ‘vorpal blade’ to kill the monster, a weapon probably based on the falchion. |
+| sockburn-worm-c12 | exact | reed-ne.webspace.durham.ac.uk | The story tells of a young knight, Sir John Conyers, who fought to save his lands from a great dragon that had haunted the region for seven years. | telling the story of a young knight named Sir. John Conyers, who fought to save his lands from a great dragon who had haunted the region for seven years. |
+| sockburn-worm-c13 | exact | reed-ne.webspace.durham.ac.uk | After praying at a nearby chapel, Sir John slew the foul-breathed serpent with his falchion, left its body in the River Tees, and buried what remained under the Grey Stone still visible today. | After offering his prayers at a nearby chapel, Sir John slew the foul-breathed serpent with his trusty falchion, letting its decimated body rest in the River Tees. He buried what was left of the beast under the great ‘Grey Stone’ still visible today |
+| sockburn-worm-c14 | exact | reed-ne.webspace.durham.ac.uk | Heraldry book: Sir John Conyers of Storkburn slew the monstrous, venomous (venoms) and poisonous wyvern (wiverns) or worme that overthrew and devoured (Devourd) many people. | Sr. Jo. Conyers of Storkburn [sic] Knt who slew [th]e monstrous venoms and poysons wiverns Ask or worme which overthrew and Devourd many people in fight |
+| sockburn-worm-c15 | exact | reed-ne.webspace.durham.ac.uk | A book of heraldry dating from the early seventeenth century recalls the legend. | A book of heraldry dating from the early seventeenth century recalls the legend |
+| sockburn-worm-c16 | exact | reed-ne.webspace.durham.ac.uk | In the North East, tales of dragons (known as worms) seem to have dominated the popular imagination, with at least twenty separate stories recorded in Northumbria, Co. Durham and Yorkshire alone. | In the North East, tales of dragons (known as ‘worms’) seem to have dominated the popular imagination, with at least twenty separate stories recorded in Northumbria, Co. Durham and Yorkshire alone. |
+| sockburn-worm-c17 | exact | reed-ne.webspace.durham.ac.uk | During these tumultuous times of religious and social upheaval, the story of the Sockburn Worm reigned supreme. | During these tumultuous times of religious and social upheaval, the story of the Sockburn Worm reigned supreme |
+| sockburn-worm-c18 | exact | reed-ne.webspace.durham.ac.uk | Bishop Cosin records the pomp and excitement of the ceremony in 1661. | Bishop Cosin records the pomp and excitement associated with the ceremony in 1661 |
+| sockburn-worm-c19 | exact | thisisdurham.com | Sockburn was a village under siege from the ferocious Sockburn Worm, which terrorised locals, devoured livestock and laid waste to the land. | Sockburn was a village under siege from the ferocious Sockburn Worm, who terrorised locals, devoured livestock and lay waste to the land. |
+| sockburn-worm-c20 | exact | thisisdurham.com | A worm is the name given to a wyvern, a winged dragon with an arrow-tipped tail and two legs instead of four. | A worm is the name given to a wyvern, a winged dragon sporting a tail with an arrow-shaped tip and has two legs instead of four. |
+| sockburn-worm-c21 | exact | thisisdurham.com | From that time to the present day, whenever a new Bishop of Durham first enters the Diocese by crossing the River Tees at Croft on Tees, a welcoming ceremony is held on the bridge. | From that time on to the present day, whenever a new Bishop of Durham enters the Diocese for the first time by crossing the River Tees at Croft on Tees, a welcoming ceremony is conducted on the bridge. |
+| sockburn-worm-c22 | exact | reed-ne.webspace.durham.ac.uk | The reputation and pedigree of the Conyers family was firmly linked to the dragon their ancestor slew, and the Sockburn Worm was tied to the ceremonial ritual of the Palatinate. | The reputation and pedigree of the Conyers family was firmly linked to the dragon their ancestor had slayed. The Sockburn Worm was tied to the ceremonial ritual of the Palatinate. |
+| sockburn-worm-c23 | exact | reed-ne.webspace.durham.ac.uk | For his efforts he received the lands of Sockburn from the Bishop of Durham. | and received the lands of Sockburn for his efforts from the Bishop of Durham. |
+| sockburn-worm-c24 | exact | en.wikipedia.org | Each newly appointed Bishop of Durham, on crossing the River Tees and entering the bishopric for the first time at Croft-on-Tees, received the sword. | Each newly appointed Bishop of Durham, on crossing the River Tees and entering the bishopric for the first time at Croft-on-Tees |
+
+
+## dyrnwch-gawr — lulus-otomatis
+
+Klaim 16 (exact 16), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dyrnwch-gawr-c01 | exact | cy.wikipedia.org | Dyrnwch Gawr (variant: Dyrnhwch Gawr) is a Welsh giant (cawr Cymreig) associated with the Hen Ogledd and with Gwent. | Cawr Cymreig a gysylltir â'r Hen Ogledd ac â Gwent yw Dyrnwch Gawr (amrywiad, Dyrnhwch Gawr). |
+| dyrnwch-gawr-c02 | exact | cy.wikipedia.org | Dyrnwch Gawr is named in the list Tri Thlws ar Ddeg Ynys Prydain as the owner (perchennog) of a special cauldron (pair). | Enwir Dyrnwch Gawr yn y rhestr Tri Thlws ar Ddeg Ynys Prydain fel perchennog pair arbennig |
+| dyrnwch-gawr-c03 | exact | cy.wikipedia.org | If meat (cig) for a coward (llwfr) were put in to boil, it would never boil (ni ferwai fyth); if meat for a brave man (dewr), it would boil (berwi) quickly. | pe rhoid ynddo gig i ŵr llwfr i ferwi, ni ferwai fyth; o rhoid iddo gig i ŵr dewr, berwi a wnâi yn ebrwydd |
+| dyrnwch-gawr-c04 | exact | cy.wikipedia.org | A similar virtue is attributed to the Pair Pen Annwn mentioned in the poem 'Preiddiau Annwn' in Llyfr Taliesin, which does not boil (berwi) a coward's (llwfrgi) food. | Priodolir rhinwedd cyffelyb i'r Pair Pen Annwn y cyfeirir ato yn y gerdd 'Preiddiau Annwn' yn Llyfr Taliesin, sydd ddim yn berwi bwyd llwfrgi. |
+| dyrnwch-gawr-c05 | exact | cy.wikipedia.org | It is almost certain that the story of the cauldron (pair) is based on a reference in the tale Culhwch ac Olwen to 'bair Diwrnach Wyddel' (the cauldron of Diwrnach Wyddel). | Mae hi bron yn sicr fod y stori am y pair yn seiliedig ar gyfeiriad yn y chwedl Culhwch ac Olwen am "bair Diwrnach Wyddel". |
+| dyrnwch-gawr-c06 | exact | cy.wikipedia.org | The Tri Thlws ar Ddeg are associated with the Hen Ogledd, but Dyrnwch (Ddyrnwch) is not mentioned in the genealogies (achau), e.g. Bonedd Gwŷr y Gogledd. | Cysylltir y Tri Thlws ar Ddeg â'r Hen Ogledd, ond ni cheir cyfeiriad at Ddyrnwch yn yr achau (e.e. Bonedd Gwŷr y Gogledd). |
+| dyrnwch-gawr-c07 | exact | cy.wikipedia.org | The name Dyrn(h)wch is given by Siôn Dafydd Rhys at the end of the 16th century (16g) in his list (rhestr) of the giants of Cymru (gewri Cymru). | ceir enw Dyrn(h)wch gan Siôn Dafydd Rhys ar ddiwedd y 16g yn ei restr o gewri Cymru |
+| dyrnwch-gawr-c08 | exact | cy.wikipedia.org | Dyrnhwch Gawr in the land (gwlad) of Ewias. | Dyrnhwch Gawr yng ngwlad Ewias. |
+| dyrnwch-gawr-c09 | exact | cy.wikipedia.org | Because the names (enwau) Dyrnwch and Diwrnach are so alike, the former is probably a later form (ffurf ddiweddar) of the latter. | Am fod yr enwau Dyrnwch a Diwrnach mor debyg i'w gilydd mae'n debygol fod y cyntaf yn ffurf ddiweddar ar yr ail |
+| dyrnwch-gawr-c10 | exact | cy.wikipedia.org | There may be a link (cysylltiad) between Wrnach Gawr and Diwrnach Wyddel, and Dyrnwch Gawr may be a later development (datblygiad diweddarach) of those characters, but this cannot be proven conclusively. | Efallai fod cysylltiad rhwng Wrnach Gawr a Diwrnach Wyddel, er bod yr hanesion amdanynt yn wahanol, a bod Dyrnwch Gawr yn ddatblygiad diweddarach seiliedig ar y cymeriadau hynny, ond nid oes modd profi hynny'n derfynol. |
+| dyrnwch-gawr-c11 | exact | en.wikipedia.org | The cauldron (pair) of Dyrnwch the Giant is said to discriminate between cowards and brave men: it would not boil meat for a coward but would boil quickly meat belonging to a brave man. | The cauldron (pair) of Dyrnwch the Giant is said to discriminate between cowards and brave men: whereas it would not boil meat for a coward, it would boil quickly if that meat belonged to a brave man. |
+| dyrnwch-gawr-c12 | exact | en.wikipedia.org | Although Dyrnwch is not himself described as an Irishman, his name probably goes back to Diwrnach. | Although Dyrnwch is not himself described as an Irishman, it is probable that his name goes back to Diwrnach. |
+| dyrnwch-gawr-c13 | exact | en.wikipedia.org | The extant manuscripts of Tri Thlws ar Ddeg also give the variant spellings Dyrnog and Tyrnog, without the Irish-sounding ending. | The extant manuscripts of Tri Thlws ar Ddeg also present such variant spellings as Dyrnog and Tyrnog, without the Irish-sounding ending |
+| dyrnwch-gawr-c14 | exact | www.mysteriousbritain.co.uk | Pair Dyrnwch Gawr means The Cauldron of Dyrnwch the Giant. | Pair Dyrnwch Gawr: The Cauldron of Dyrnwch the Giant |
+| dyrnwch-gawr-c15 | exact | www.mysteriousbritain.co.uk | These treasures are ancient magical items of Welsh tradition mentioned in 15th and 16th century manuscripts; most of them are from 'The North' of the Island of Britain. | These treasures are ancient magical items of Welsh tradition that are mentioned in 15th and 16th Century manuscripts. Most of the treasures are from and in ‘The North’ of the Island of Britain. |
+| dyrnwch-gawr-c16 | exact | en.wikipedia.org | The Thirteen Treasures of the Island of Britain (Welsh: Tri Thlws ar Ddeg Ynys Prydain) are a series of items in late-medieval Welsh tradition. | The Thirteen Treasures of the Island of Britain (Welsh: Tri Thlws ar Ddeg Ynys Prydain) are a series of items in late-medieval Welsh tradition. |
+
+
+## hampton-court-ghost — lulus-otomatis
+
+Klaim 15 (exact 15), sumber 5, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| hampton-court-ghost-c01 | exact | en.wikipedia.org | The Hampton Court ghost refers to a figure seen in CCTV footage near Hampton Court Palace in October 2003. | Hampton Court ghost refers to a figure seen in a CCTV footage/image near Hampton Court Palace in October 2003. |
+| hampton-court-ghost-c02 | exact | en.wikipedia.org | The figure was seen in a long robe-like cloth, allegedly haunting the place for a couple of days or months. | The figure was seen in a long robe-like cloth allegedly haunting the place for a couple of days or months. |
+| hampton-court-ghost-c03 | exact | en.wikipedia.org | The figure was first reported in early 2001; a similar incident in 2015 was later debunked. | The figure was first reported in early-2001. A similar incident happened in 2015 but was later debunked. |
+| hampton-court-ghost-c04 | exact | news.bbc.co.uk | Security guards noticed fire doors kept opening in an exhibition area, checked the footage and saw a figure in period dress. | Security guards spotted that fire doors kept opening in an exhibition area, and on one occasion checked the footage and saw a figure in period dress. |
+| hampton-court-ghost-c05 | exact | news.bbc.co.uk | Warder James Faukes said it was spooky because the face just didn't look human. | It was incredibly spooky because the face just didn't look human," he said. |
+| hampton-court-ghost-c06 | exact | news.bbc.co.uk | Warder Ian Franklin described someone in a full cloak walking forward, bringing in both doors and closing them behind them. | State apartment warder Ian Franklin added: "Someone who appears to be in a full cloak walks forward, brings one door in, another door in and then closes it behind them. |
+| hampton-court-ghost-c07 | exact | news.bbc.co.uk | CCTV cameras picked up the vision at the 16th-century Surrey palace, which has a reputation for being haunted. | CCTV cameras picked up the vision at the 16th Century Surrey palace, which has a reputation for being haunted. |
+| hampton-court-ghost-c08 | exact | edition.cnn.com | The first footage showed the doors flying open with no evidence why; the second time a ghostly figure in period dress appeared on screen and closed the doors. | On the first occasion the footage showed the doors flying wide open, but no evidence of why they had. On the second, the guards were stunned when a ghostly figure in period dress suddenly appeared on the screen and closed the doors. |
+| hampton-court-ghost-c09 | exact | edition.cnn.com | The same happened on a third day with no figure appearing; a visitor had also noted in the palace visitor book that she thought she had seen a ghost in that area. | The same thing happened on a third day, but again no figure appeared. Stranger still was that a visitor had noted in the palace's visitor book that she thought she had seen a ghost in that area. |
+| hampton-court-ghost-c10 | exact | www.nbcnews.com | The area around the man is somewhat blurred, and his face appears unnaturally white compared with his outstretched hand. | The area around the man is somewhat blurred, and his face appears unnaturally white compared with his outstretched hand. |
+| hampton-court-ghost-c11 | exact | www.nbcnews.com | In the still photograph, a man in a robelike garment is shown stepping from the shadowy doorway, one arm reaching for the door handle. | In the still photograph, the figure of a man in a robelike garment is shown stepping from the shadowy doorway, one arm reaching out for the door handle. |
+| hampton-court-ghost-c12 | exact | www.nbcnews.com | A dark, distorted figure appeared in a picture taken by a 12-year-old girl while visiting the palace. | A dark, distorted figure popped up in a picture recently taken by a 12-year-old girl while she and a cousin were visiting the tourist-friendly palace. |
+| hampton-court-ghost-c13 | exact | www.nbcnews.com | Mick West says the 2015 photo looks like the effect created when someone walks through your line of sight while taking an iPhone panorama. | Metabunk.org's Mick West says it looks like the weird effect that's created when someone walks through your line of sight while you're taking an iPhone panorama. |
+| hampton-court-ghost-c14 | exact | news.bbc.co.uk | The warder first thought someone was having a laugh, but the costumed guides don't own a costume like that. | I thought someone was having a laugh but our costumed guides don't own a costume like that. |
+| hampton-court-ghost-c15 | exact | www.nbcnews.com | The 2015 picture purported to show the Grey Lady, the shade of a servant said to have nursed Queen Elizabeth I and died of smallpox in 1562. | This time, it's about a picture purporting to show the "Grey Lady," the shade of a servant who is said to have nursed Queen Elizabeth I and died of smallpox in 1562. |
+
+
+## searrach-uisge — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| searrach-uisge-c01 | exact | nl.wikipedia.org | Searrach Uisge is the name of a 'monster' from Scottish mythology (Schotse mythologie) said to live (zou leven) in the Scottish Loch Suainbhal. | Searrach Uisge is de naam van een 'monster' uit de Schotse mythologie dat zou leven in het Schotse Loch Suainbhal. |
+| searrach-uisge-c02 | exact | nl.wikipedia.org | The existence (bestaan) of this creature (wezen), like that of its compatriots Nessie and Morag, has never been proven (nooit aangetoond). | Het bestaan van dit wezen is evenals dat van landgenoten Nessie en Morag nooit aangetoond. |
+| searrach-uisge-c03 | exact | nl.wikipedia.org | The Searrach Uisge is said to have the shape (vorm) of a capsized boat (gekapseisde boot) and be ten to thirteen metres (tien tot dertien meter) long. | Searrach Uisge zou de vorm hebben van een gekapseisde boot en tien tot dertien meter lang zijn. |
+| searrach-uisge-c04 | exact | nl.wikipedia.org | The first testimonies (eerste getuigenissen) of having seen the creature date from the early second half of the 19th century (19e eeuw). | De eerste getuigenissen die verklaren het wezen gezien te hebben, dateren uit de vroege tweede helft van de 19e eeuw. |
+| searrach-uisge-c05 | exact | nl.wikipedia.org | According to tradition (overlevering), the local population once offered lambs (lammeren) to the Searrach Uisge once a year (eens per jaar). | Volgens de overlevering offerde vroeger de lokale bevolking eens per jaar lammeren aan Searrach Uisge. |
+| searrach-uisge-c06 | exact | www.mysteriousbritain.co.uk | The creature referred to as the Searrach Uisge is possibly a water horse of Loch Suainbhal. | The creature, possibly a water horse of Loch Suainbhal is referred to as the Searrach Uisge. |
+| searrach-uisge-c07 | exact | www.mysteriousbritain.co.uk | The creature was said to have inhabited the loch for over a century, and in the nineteenth century it was described as like a capsized boat when seen swimming around. | The creature was said to inhabit the loch for over a century and in the nineteenth century it was described as being like an capsized boat when it was seen swimming around. |
+| searrach-uisge-c08 | exact | www.mysteriousbritain.co.uk | Another description has it forty feet long and eel-like. | Another description has it being forty foot long and eel like. |
+| searrach-uisge-c09 | exact | www.mysteriousbritain.co.uk | It is said that locals offered lambs to the creature as an annual sacrifice to appease the beast. | It is said that lambs would be offered to the creature by the locals as an annual sacrifice to appease the beast. |
+
+
+## segeta — lulus-otomatis
+
+Klaim 16 (exact 16), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| segeta-c01 | exact | fr.wikipedia.org | Segeta or Segesta is a goddess (déesse) of Celtic mythology (mythologie celtique), goddess of the Loire and eponymous deity of the Segusiavi people (peuple ségusiave). | Segeta ou Segesta est une déesse de la mythologie celtique, déesse de la Loire et divinité éponyme du peuple ségusiave. |
+| segeta-c02 | exact | fr.wikipedia.org | Associated with thermal waters (eaux thermales), she was also a healing goddess (déesse guérisseuse). | Associée aux eaux thermales, c'était également une déesse guérisseuse. |
+| segeta-c03 | exact | fr.wikipedia.org | Her name (nom) is thought to be based on the Gaulish (gaulois) Sego-, 'force, victory' (force, victoire). | Son nom serait basé sur le gaulois Sego- « force, victoire ». |
+| segeta-c04 | exact | fr.wikipedia.org | She was celebrated (célébrée) particularly at Moingt, then a Gallo-Roman spa (station thermale gallo-romaine) attested under the name Aquis Segeta. | Elle était célébrée plus particulièrement à Moingt, alors station thermale gallo-romaine attestée sous le nom d’Aquis Segeta |
+| segeta-c05 | exact | fr.wikipedia.org | Aquis Segeste is identified with Sceaux-du-Gâtinais, one of the fifty-two spa towns (villes d'eau) of the Roman Empire (Empire romain) that were important places of pilgrimage (pèlerinage). | On identifie Aquis Segeste à Sceaux-du-Gâtinais, l’une des cinquante-deux villes d’eau de l’Empire romain qui ont été un lieu de pèlerinage important. |
+| segeta-c06 | exact | fr.wikipedia.org | A circular plaque (plaque circulaire) of pink marble (marbre rose), 0.60 m in diameter, found at Sceaux-du-Gâtinais/Aquis Segeste in 1973, bears an inscription (inscription). | Une plaque circulaire en marbre rose d'un diamètre de 0,60 m, trouvée sur le site de Sceaux-du-Gâtinais/Aquis Segeste en 1973, porte l'inscription suivante |
+| segeta-c07 | exact | fr.wikipedia.org | Translation of the inscription: to the august goddess (déesse) Segeta, T. Marius Priscinus fulfilled his vow (vœu) willingly; Maria Sacra, his daughter (sa fille), saw to its making. | « À l'auguste déesse Segeta, T. Marius Priscinus s'est acquitté de son vœu de bonne grâce : Maria Sacra, sa fille, a pris soin de le réaliser » |
+| segeta-c08 | exact | fr.wikipedia.org | Segeta had at least two important sanctuaries (sanctuaires), both thermal establishments (établissements thermaux): at Aquis Segeste, Sceaux-du-Gâtinais, and at Moingt. | Segeta avait au moins deux sanctuaires importants où elle était honorée, tous deux des établissements thermaux, le premier à Aquis Segeste, à Sceaux-du-Gâtinais, le deuxième à Moingt. |
+| segeta-c09 | exact | fr.wikipedia.org | It seems that many of the pilgrims (pèlerins) were women (femmes) coming to implore or thank the goddess over problems of sterility (stérilité) or after childbirth (postnataux). | Il semblerait qu'une grande partie des pèlerins étaient des femmes venant implorer ou remercier la déesse pour des problèmes de stérilité ou postnataux. |
+| segeta-c10 | exact | fr.wikipedia.org | Segeta has many similarities (similitudes) with other Gaulish goddesses (déesses gauloises) of springs or thermal waters, such as Sirona and Damona. | Segeta possède de nombreuses similitudes avec d'autres déesses gauloises des eaux de sources ou thermales, comme les déesses Sirona et Damona. |
+| segeta-c11 | exact | fr.wikipedia.org | Other inscriptions (inscriptions) dedicated to Segeta were found at Bussy-Albieux and Feurs. | D'autres inscriptions dédiées à Segeta ont été trouvées à Bussy-Albieux, Feurs |
+| segeta-c12 | exact | www.persee.fr | The Gaulish goddess (déesse gauloise) Segeta is associated with waters (eaux) through the place names Aquae Segetae at Moingt; she was worshipped in Gaul. | La déesse gauloise Segeta est associée aux eaux avec les lieux-dits Aquae Segetae de Moingt |
+| segeta-c13 | exact | www.persee.fr | She may have been the principal goddess (déesse principale) of the Segusiavi (Ségusiaves), and her name may derive from Sego, 'force, victory' (force, victoire). | elle a peut-être été la déesse principale chez les Ségusiaves et son nom dériverait de Sego, force, victoire. |
+| segeta-c14 | exact | www.persee.fr | It is customary to distinguish two goddesses (deux déesses): one is a Roman goddess (déesse romaine) Segetia whose cult is attested at Rome. | Rappelons qu'il est d'usage de distinguer deux déesses : — une déesse romaine Segetia dont le culte est attesté à Rome |
+| segeta-c15 | exact | www.persee.fr | Nony's aim is to bring the Segetia of the coin (monnaie) of Gallienus (Gallien) into the Gaulish pantheon (panthéon gaulois). | Notre propos d'aujourd'hui est de faire entrer la Segetia de la monnaie de Gallien dans le panthéon gaulois |
+| segeta-c16 | exact | fr.wikipedia.org | Since those goddesses were also prayed to alongside Apollo (Apollon), often honoured at thermal spas (stations thermales), Segeta may likewise have been associated (associée) with him. | Ces dernières ayant été également priées seules ou conjointement avec Apollon, souvent honoré dans des stations thermales, il est possible que Segeta ait été pareillement associée à ce dernier |
+
+
+## seileag — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| seileag-c01 | exact | ga.wikipedia.org | The Seileag (an Seileag) is a monster (ollphéist) thought to live in Loch Seile (Loch Shiel), Highland (Comhairle na Gàidhealtachd). | Is ollphéist a cheaptar a bheith ina gcónaí i Loch Seile, Comhairle na Gàidhealtachd í Niseag nó an Seileag. |
+| seileag-c02 | exact | en.wikipedia.org | The list covers lochs in Scotland said to contain monsters in Scottish folklore. | List of Scottish loch-monsters is a list of lochs in Scotland said to contain monsters in Scottish folklore. |
+| seileag-c03 | exact | en.wikipedia.org | The Loch Shiel monster, Seileag, is described as having three humps and being 70 ft long. | Loch Shiel Seileag three humps and 70 ft long |
+| seileag-c04 | exact | en.wikipedia.org | Loch Shiel (Scottish Gaelic: Loch Seile) is a deep freshwater loch 20 kilometres west of Fort William in Lochaber, Scotland. | Loch Shiel (Scottish Gaelic: Loch Seile ... is a deep freshwater loch situated 20 kilometres (12 mi) west of Fort William in Lochaber, Scotland. |
+| seileag-c05 | exact | en.wikipedia.org | Loch Shiel is the longest loch to have retained a natural outflow without regulation of its water level, being 120 m deep. | is the longest to have retained a natural outflow without any regulation of its water level, being 120 m (393 ft) deep. |
+| seileag-c06 | exact | en.wikipedia.org | Its nature changes along its length: deep and enclosed by mountains in the north east, shallow and surrounded by bog and rough pasture in the south west. | Its nature changes considerably along its length, being deep and enclosed by mountains in the north east and shallow surrounded by bog and rough pasture in the south west |
+
+
+## eog-llyn-llyw — lulus-otomatis
+
+Klaim 16 (exact 16), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| eog-llyn-llyw-c01 | exact | cy.wikipedia.org | Eog Llyn Llyw is the oldest (hynaf) and wisest (doethaf) of the Oldest Animals (Anifeiliaid Hynaf) named in the tale (chwedl) Culhwch ac Olwen. | Eog Llyn Llyw yw'r hynaf a'r doethaf o'r Anifeiliaid Hynaf a nodir yn chwedl Culhwch ac Olwen. |
+| eog-llyn-llyw-c02 | exact | cy.wikipedia.org | One of the Anoethau (impossible tasks, tasgau amhosibl) set on the hero Culhwch by Ysbaddaden Bencawr in the tale is to free (rhyddhau) Mabon fab Modron from his prison (garchar). | Un o'r Anoethau (tasgau amhosibl) a osodir ar yr arwr Culhwch gan Ysbaddaden Bencawr yn y chwedl yw rhyddhau Mabon fab Modron o'i garchar. |
+| eog-llyn-llyw-c03 | exact | cy.wikipedia.org | Eryr Gwern Abwy leads (tywys) them to Eog Llyn Llyw. | Mae Eryr Gwern Abwy yn eu tywys i Eog Llyn Llyw. |
+| eog-llyn-llyw-c04 | exact | cy.wikipedia.org | The Salmon (Eog) explains that it used to swim (nofio) along the river (afon) every night until it came to the walls of Caerloyw (Gloucester), where it heard terrible groaning from the castle tower. | Mae'r Eog yn esbonio fel ei fod yn arfer nofio ar hyd yr afon bob nos hyd daw i furiau Caerloyw lle mae'n clywed griddfan ofnadwy yn dod o dŵr y castell. |
+| eog-llyn-llyw-c05 | exact | cy.wikipedia.org | It offers to carry (cludo) Gwrhyr and Eidoel on its shoulders (ysgwyddau) to see for themselves; they manage to speak with the prisoner (carcharor), who is none other than Mabon fab Modron. | Mae'n cynnig cludo Gwrhyr ac Eidoel ar ei ysgwyddau i weld drostynt eu hunain. Llwyddant i siarad â'r carcharor sydd neb llai na Mabon fab Modron. |
+| eog-llyn-llyw-c06 | exact | cy.wikipedia.org | Cei and Bedwyr go along the river (afon) on the shoulders (ysgwyddau) of Eog Llyn Llyw; they reach the tower on the river bank, and Cei tears down the walls (muriau) and frees (rhyddhau) Mabon. | aiff Cei a Bedwyr ar hyd yr afon ar ysgwyddau Eog Llyn Llyw. Cyrhaeddent y tŵr ar lan yr afon ac mae Cei yn rhwygo'r muriau ac yn rhyddhau Mabon. |
+| eog-llyn-llyw-c07 | exact | cy.wikipedia.org | Eog Llyn Llyw can be classed with the many examples of supernatural salmon (eogiaid goruwchnaturiol) in the Celtic world (byd y Celtiaid); the salmon (eog) is associated with knowledge (gwybodaeth) and wisdom (doethineb). | Gellir dosbarthu Eog Llyn Llyw gyda'r sawl enghraifft o eogiaid goruwchnaturiol ym myd y Celtiaid. Cysylltir yr eog â gwybodaeth a doethineb. |
+| eog-llyn-llyw-c08 | exact | cy.wikipedia.org | The Irish hero (arwr Gwyddelig) Finn mac Cumaill, for example, gains the gift of a prophet (proffwyd) and sage after putting his thumb in his mouth having touched a special salmon (eog). | Mae'r arwr Gwyddelig Finn mac Cumaill er enghraifft yn cael dawn proffwyd a doethwr ar ôl rhoi ei fawd yn ei geg ar ôl cyffwrdd eog arbennig. |
+| eog-llyn-llyw-c09 | exact | cy.wikipedia.org | The location (lleoliad) of Llyn Llyw is uncertain (ansicr), but the fact that the Salmon (Eog) swims upriver to Caerloyw (Gaerloyw) suggests it lies around the lower part of Afon Hafren. | Mae lleoliad Llyn Llyw yn ansicr, ond mae'r ffaith fod yr Eog yn nofio i fyny'r afon i Gaerloyw yn awgrymu ei fod o gwmpas rhan isaf Afon Hafren. |
+| eog-llyn-llyw-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The eagle tells how it went in search of food as far as Llyn Llyw and struck its talons into a salmon, but the salmon drew it into the deep and it was scarcely able to escape. | went in search of food as far as Llyn Llyw. And when I came there, I struck my talons into a salmon, thinking he would serve me as food for a long time. But he drew me into the deep, and I was scarcely able to escape from him. |
+| eog-llyn-llyw-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The eagle then went with its whole kindred to attack the salmon, but the salmon sent messengers, made peace, and besought the eagle to take fifty fish spears out of its back. | After that I went with my whole kindred to attack him, and to try to destroy him, but he sent messengers, and made peace with me; and came and besought me to take fifty fish spears out of his back. |
+| eog-llyn-llyw-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The salmon says that with every tide it goes up the river until it comes near the walls of Gloucester, and there it has found such wrong as it never found elsewhere. | With every tide I go along the river upwards, until I come near to the walls of Gloucester, and there have I found such wrong as I never found elsewhere |
+| eog-llyn-llyw-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | So Kai and Gwrhyr Gwalstawt Ieithoedd went upon the two shoulders of the salmon and proceeded until they came to the wall of the prison. | So Kai and Gwrhyr Gwalstawt Ieithoedd went upon the two shoulders of the salmon, and they proceeded until they came unto the wall of the prison |
+| eog-llyn-llyw-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Kai and Bedwyr went upon the shoulders of the fish while Arthur's warriors attacked the castle. | Kai and Bedwyr went upon the shoulders of the fish, whilst the warriors of Arthur attacked the castle. |
+| eog-llyn-llyw-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Guest's translation the owl names the Eagle of Gwern Abwy as the oldest animal in this world and the one that has travelled most. | the place where is the oldest animal in this world, and the one that has travelled most, the Eagle of Gwern Abwy. |
+| eog-llyn-llyw-c16 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Jacobs's retelling the eagle addresses the 'Salmon of Llyn Llyw' and says it has come with an embassy from Arthur. | So they went thither, and the eagle said, "Salmon of Llyn Llyw, I have come to thee with an embassy from Arthur |
+
+
+## hwch-ddu-gwta — lulus-otomatis
+
+Klaim 12 (exact 12), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| hwch-ddu-gwta-c01 | exact | cy.wikipedia.org | The Hwch Ddu Gwta is a supernatural (goruwchnaturiol) sow in Welsh folklore (llên gwerin Cymru) associated with Nos Galan Gaeaf; in the south (De) she is called Hwch Ddu Gota. | oruwchnaturiol yn llên gwerin Cymru a gysylltir â Nos Galan Gaeaf yw'r Hwch Ddu Gwta (Hwch Ddu Gota yn y De) |
+| hwch-ddu-gwta-c02 | exact | cy.wikipedia.org | In Wales (Cymru) she is linked mainly with the north-west (gogledd-orllewin), especially Ynys Môn, but traditions about her are also found in Clwyd and Morgannwg. | Yng Nghymru fe'i cysylltir yn bennaf â'r gogledd-orllewin, yn enwedig Ynys Môn, ond ceir traddodiadau amdani yng Nghlwyd a Morgannwg yn ogystal. |
+| hwch-ddu-gwta-c03 | exact | cy.wikipedia.org | The Hwch Ddu Gwta was believed to take shape from the last sparks of the bonfire (coelcerth) and rush after the last (olaf) to leave in order to eat them. | Credid bod yr Hwch Ddu Gwta yn ymrithio o wreichion olaf y goelcerth ac yn rhuthro ar ôl yr olaf i adael i'w bwyta. |
+| hwch-ddu-gwta-c04 | exact | cy.wikipedia.org | In the Mynydd Hiraethog area of Clwyd, everyone would run home (adref) shouting. | Yn ardal Mynydd Hiraethog, Clwyd, byddai pawb yn ei heglu hi adref gan weiddi, |
+| hwch-ddu-gwta-c05 | exact | cy.wikipedia.org | The tradition (traddodiad) was especially strong in Môn, even in the first half of the 19th century (19g). | Roedd y traddodiad yn arbennig o gryf ym Môn, hyd yn oed yn hanner cyntaf y 19g. |
+| hwch-ddu-gwta-c06 | exact | cy.wikipedia.org | In Arfon and around, the Hwch Ddu Gwta was believed to sit on top of the stile (camfa) awaiting her chance. | Yn Arfon a'r cylch credid bod yr Hwch Ddu Gwta yn eistedd ar ben y gamfa yn aros ei chyfle. |
+| hwch-ddu-gwta-c07 | exact | cy.wikipedia.org | In the borderlands (y Gororau) she was also seen, with a round tail (cynffon gron), writhing on top of the stile. | Ar y Gororau roedd hi i'w gweld hefyd, gyda chynffon gron, yn ymdroelli ar ben y gamfa. |
+| hwch-ddu-gwta-c08 | exact | cy.wikipedia.org | The Nos Galan Gaeaf bonfire custom derives from the time of the Celts (Celtiaid) and rites linked to the festival of Samhain. | Mae'n arfer sy'n deillio o gyfnod y Celtiaid a defodau sy'n gysylltiedig â gŵyl Samhain |
+| hwch-ddu-gwta-c09 | exact | museum.wales | On that night the ghosts of the dead were believed to be seen at midnight on every stile; in different parts of Wales these ghosts took different characters, one of the most common being the ladi wen (white lady). | Not only were spirits said to roam freely but it was believed that the ghosts of the dead were to be seen at midnight on every stile. In different parts of Wales these ghosts took on different characters but two of the most common were the ladi wen [white lady] |
+| hwch-ddu-gwta-c10 | exact | museum.wales | Another common one, mainly in North Wales, was the tail-less black sow (hwch ddu gwta), associated with bonfires after dark; as the fire died down people feared the black sow's appearance. | mainly in North Wales the tail-less black sow [hwch ddu gwta] and was associated with lighting bonfires after dark, as the fire died down they feared the appearance of the black sow |
+| hwch-ddu-gwta-c11 | exact | museum.wales | The rhyme urges being first at home, since the tail-less black sow is sure to roam. | Be sure you are the first at home, the tail-less black sow is sure to roam. |
+| hwch-ddu-gwta-c12 | exact | museum.wales | Another rhyme says the black sow and headless white lady will try and catch the last to leave. | The black sow and headless white lady, Will try and catch the last to leave |
+
+
+## eryr-gwern-abwy — lulus-otomatis
+
+Klaim 12 (exact 12), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| eryr-gwern-abwy-c01 | exact | cy.wikipedia.org | Eryr Gwern Abwy (the Eagle of Gwern Abwy) is one of the Oldest Animals (Anifeiliaid Hynaf) in the mythology of Wales (Cymru) and is mentioned in the tale Culhwch ac Olwen. | Un o'r Anifeiliaid Hynaf yn chwedloniaeth Cymru yw Eryr Gwern Abwy. Cyfeirir at yr eryr mytholegol hwn yn chwedl Culhwch ac Olwen. |
+| eryr-gwern-abwy-c02 | exact | cy.wikipedia.org | The owl (tylluan) directs the envoys to Eryr Gwern Abwy; the eagle does not know, but guides them to Eog Llyn Llyw (the Salmon of Llyn Llyw). | Cyfarwydda'r dylluan hwy at Eryr Gwern Abwy. Ni ŵyr yr eryr, ond mae'n eu tywys at Eog Llyn Llyw |
+| eryr-gwern-abwy-c03 | exact | cy.wikipedia.org | In the Trioedd (Triads), the Tri Hynaif Byd (Three Oldest of the World) are named as Tylluan Cwm Cowlyd, Eryr Gwern Abwy and Mwyalchen Gelli Gadarn. | Yn y Trioedd, enwir Tri Hynaif Byd fel Tylluan Cwm Cowlyd, Eryr Gwern Abwy a Mwyalchen Gelli Gadarn. |
+| eryr-gwern-abwy-c04 | exact | cy.wikipedia.org | The eagle (eryr) is an important bird in Celtic mythology (y Celtiaid) and is associated with the Sun (yr Haul). | Mae'r eryr yn aderyn pwysig ym mytholeg y Celtiaid. Fe'i cysylltir â'r Haul. |
+| eryr-gwern-abwy-c05 | exact | cy.wikipedia.org | The location of Gwern Abwy is unknown (anhysbys). | Mae lleoliad Gwern Abwy yn anhysbys. |
+| eryr-gwern-abwy-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The owl guides the envoys to the oldest animal in this world, and the one that has travelled most, the Eagle of Gwern Abwy. | the place where is the oldest animal in this world, and the one that has travelled most, the Eagle of Gwern Abwy. |
+| eryr-gwern-abwy-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Eagle says that when he first came there was a rock from whose top he pecked at the stars every evening, and now it is not so much as a span high. | when I first came hither there was a rock here, from the top of which I pecked at the stars every evening; and now it is not so much as a span high. |
+| eryr-gwern-abwy-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Eagle says he has never heard of the man they seek, except once when he went in search of food as far as Llyn Llyw. | I have never heard of the man for whom you inquire, except once when I went in search of food as far as Llyn Llyw. |
+| eryr-gwern-abwy-c09 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | At Llyn Llyw the Eagle struck his talons into a salmon, but the salmon drew him into the deep and he could scarcely escape. | I struck my talons into a salmon, thinking he would serve me as food for a long time. But he drew me into the deep, and I was scarcely able to escape from him. |
+| eryr-gwern-abwy-c10 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Eagle says only the salmon may know, and offers to guide the envoys to where he is. | Unless he know something of him whom you seek, I cannot tell who may. However, I will guide you to the place where he is. |
+| eryr-gwern-abwy-c11 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Arthur's envoys ask the Eagle of Gwern Abwy whether he knows anything of Mabon the son of Modron. | we have come to thee an embassy from Arthur, to ask thee if thou knowest aught of Mabon the son of Modron |
+| eryr-gwern-abwy-c12 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | The Eagle addresses the Salmon of Llyn Llyw as an embassy from Arthur. | Salmon of Llyn Llyw, I have come to thee with an embassy from Arthur |
+
+
+## fat-lips — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| fat-lips-c01 | exact | en.wikipedia.org | Fat Lips (Fatlips) is the name given to a legendary spirit dwelling in Dryburgh Abbey in Berwickshire, Scotland. | Fat Lips (or Fatlips) is the name given to a legendary spirit dwelling in Dryburgh Abbey in Berwickshire, Scotland. |
+| fat-lips-c02 | exact | en.wikipedia.org | The spirit was associated with a homeless woman who moved into a vault beneath the ruins of the abbey some time after the 1745 Jacobite rising. | The spirit was associated with a homeless woman who moved into a vault beneath the ruins of the abbey some time after the 1745 Jacobite rising. |
+| fat-lips-c03 | exact | en.wikipedia.org | According to the woman, Fatlips was a little man who tidied the room while she was away and kept her cell dry by stamping moisture from the ground with his heavy iron boots. | was a little man who tidied the room while she was away, and kept the cell she lived in dry by stamping moisture away from the ground with his heavy iron boots. |
+| fat-lips-c04 | exact | neonvagabond.xyz | An unfortunate female wanderer lived in a dark vault among the ruins of Dryburgh Abbey, which she never left during the day. | an unfortunate female wanderer took up her residence in a dark vault, among the ruins of Dryburgh Abbey, which during the day, she never quitted. |
+| fat-lips-c05 | exact | neonvagabond.xyz | The woman said her dwelling was arranged by a spirit she named Fatlips, describing him as a little man in heavy iron shoes who trampled the clay floor of the vault to dispel the damps. | her habitation was arranged by a spirit, to whom she gave the uncouth name of Fatlips, describing him as a little man, wearing heavy iron shoes, with which he trampled the clay floor of the vault, to dispel the damps. |
+| fat-lips-c06 | exact | neonvagabond.xyz | Because of this, the well-informed regarded her with compassion as deranged in understanding, and the common people regarded her with some terror. | This circumstance caused her to be regarded, by the well-informed, with compassion, as deranged in her understanding; and by the vulgar, with some degree of terror. |
+| fat-lips-c07 | exact | neonvagabond.xyz | Her way of life was believed to stem from a vow that, while the man to whom she was attached was away, she would never look upon the sun. Her lover never returned. | It was, however, believed to have been occasioned by a vow that, during the absence of a man to whom she was attached, she would never look upon the sun. Her lover never returned. |
+| fat-lips-c08 | exact | neonvagabond.xyz | The lover fell during the civil war of 1745-46, and she never again beheld the light of day. | He fell during the civil war of 1745-46, and she never more would behold the light of day. |
+| fat-lips-c09 | exact | neonvagabond.xyz | The vault where the woman lived and died still bears the name of the supernatural being with which, in the author's words, her disturbed imagination peopled its gloom, and few neighbouring peasants dare enter it by night. | The vault, or rather dungeon, in which this unfortunate woman lived and died, passes still by the name of the supernatural being with which its gloom was tenanted by her disturbed imagination, and few of the neighbouring peasants dare enter it by night. |
+
+
+## finfolk — lulus-otomatis
+
+Klaim 13 (exact 13), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| finfolk-c01 | exact | en.wikipedia.org | In Orkney folklore, Finfolk (sometimes Finnfolk) are sorcerous shapeshifters of the sea, the dark mysterious race from Finfolkaheem. | In Orkney folklore, Finfolk (sometimes Finnfolk) are sorcerous shapeshifters of the sea, the dark mysterious race from Finfolkaheem |
+| finfolk-c02 | exact | en.wikipedia.org | The Finfolk (both Finman and Finwife) kidnap unsuspecting fishermen or frolicking youth near the shore and force them into lifelong servitude as a spouse. | The Finfolk (both Finman and Finwife) kidnap unsuspecting fishermen, or frolicking youth, near the shore and force them into lifelong servitude as a spouse. |
+| finfolk-c03 | exact | en.wikipedia.org | The Finman is said to have many magical powers, such as rowing between Norway and Orkney in seven oar-strokes, making his ship invisible and creating fleets of phantom boats. | He is said to have many magical powers, such as rowing between Norway and Orkney in seven oar-strokes, making his ship invisible and creating fleets of phantom boats. |
+| finfolk-c04 | exact | en.wikipedia.org | The Finman may sometimes be deterred by drawing a cross on the bottom of a craft with chalk or tar, for the Finfolk abhor the sign of the Christian cross. | though he may sometimes be deterred by drawing a cross on the bottom of a craft with chalk or tar, for Finfolk abhor the sign of the Christian cross |
+| finfolk-c05 | exact | en.wikipedia.org | The Finwife starts her life as a beautiful mermaid bent on acquiring a human husband. | The Finwife starts her life as a beautiful mermaid bent on acquiring a human husband. |
+| finfolk-c06 | exact | en.wikipedia.org | The Finfolk were said to have two homes: the magical underwater world of Finfolkaheem where they lived in the winter, and the island of Hildaland. | The Finfolk were said to have two homes: the magical underwater world of Finfolkaheem where they lived in the winter, and the island of Hildaland. |
+| finfolk-c07 | exact | en.wikipedia.org | Hildaland is described as a paradisiacal island said to be invisible, hidden just underwater, or surrounded by magical fog. | a paradisiacal island that was said to either be invisible, hidden just underwater, or surrounded by magical fog. |
+| finfolk-c08 | exact | en.wikipedia.org | Besides their lust for humans, Finfolk have a weakness for silver; according to legend, a way to escape abduction is to toss silver coins away from oneself. | Finfolk, in addition to their lust for humans, have a weakness for silver, including silver coins and jewelry. According to legend, a possible way to escape abduction is to exploit this Finfolk weakness by tossing silver coins away from oneself. |
+| finfolk-c09 | exact | www.mysteriousbritain.co.uk | The Fin Folk are described as a mythological race unique to Orkney and Shetland. | One mythological race of beings which embodies all of the influences discussed above is the Fin Folk, who are unique to Orkney and Shetland. |
+| finfolk-c10 | exact | www.mysteriousbritain.co.uk | The Fin Folk are an amphibious sea people who can step from the water onto land at will, and are described as both threatening and benevolent. | their race is that of an amphibious sea people who can step out of the water onto land as they choose, and live comfortably between the two worlds. They are both threatening and benevolent. |
+| finfolk-c11 | exact | www.mysteriousbritain.co.uk | Known as powerful sorcerers, Fin Folk can control the weather; they may reward fishermen with pleasant seas or punish them with treacherous storms. | Known as powerful sorcerers, Fin Folk can control the weather. They may reward fishermen with pleasant sea waters, or punish them with treacherous storms. |
+| finfolk-c12 | exact | www.mysteriousbritain.co.uk | Fin Folk value silver greatly and are loath to part with it. | But never silver, for Fin Folk value silver greatly and are loathe parting with it. |
+| finfolk-c13 | exact | www.mysteriousbritain.co.uk | Female Fin children are born with the fish tail of a mermaid, which they wear until maturity when the tail splits into legs. | Female Fin children, however, are born with the fish tail of a mermaid, which they wear until they reach maturity when their tail will split into legs. |
+
+
+## freybug — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| freybug-c01 | exact | en.wikipedia.org | Freybug is a monstrous Black Dog that is stated to come from medieval English folklore, specifically from Norfolk. | Freybug is a monstrous Black Dog that is stated to come from medieval English folklore, specifically from Norfolk. |
+| freybug-c02 | exact | en.wikipedia.org | Like most supernatural black dogs, it was roughly the size of a calf and wandered country roads terrifying travelers. | Like most supernatural black dogs, it was roughly the size of a calf, and wandered country roads terrifying travelers. |
+| freybug-c03 | exact | en.wikipedia.org | The English martyr Laurence Saunders mentioned Fray-bugs in his letters to his wife in 1555. | The English martyr Laurence Saunders mentioned Fray-bugs in his letters to his wife in 1555. |
+| freybug-c04 | exact | en.wikipedia.org | The author John Brand suggested that the Fray-bug was a Black Dog similar to the Barghest. | suggested that the Fray-bug was a Black Dog similar to the Barghest. |
+| freybug-c05 | exact | wehd.com | The dictionary defines fray-bug as an object of fear, a bogy or spectre, and fray-boggard as a scarecrow. | fray-boggard, a scarecrow; fray-bug, an object of fear; a bogy, spectre |
+| freybug-c06 | exact | wehd.com | The dictionary cites a 1555 writing of Saunders that reads "It fantasyeth forsooth much feare of fray bugges". | It fantasyeth forsooth much feare of *fray bugges. |
+
+
+## grant-folklore — lulus-otomatis
+
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| grant-folklore-c01 | exact | en.wikipedia.org | Grant, or Gyant, is a creature of English folklore described in the medieval Latin work Otia Imperialia by Gervase of Tilbury. | Grant, or Gyant, is a creature of English folklore described in the medieval Latin work Otia Imperialia by Gervase of Tilbury. |
+| grant-folklore-c02 | exact | en.wikipedia.org | Gervase's account is the only known medieval source to name the creature. | Gervase's account is the only known medieval source to name the creature. |
+| grant-folklore-c03 | exact | en.wikipedia.org | Francis Young links the Grant to a wider motif in Britain and Ireland of horse-like bogies met by travellers on isolated roads, such as the púca, kelpie or shagfoal. | Francis Young links the Grant to a wider motif in Britain and Ireland of horse-like bogies encountered on isolated roads by travellers, such as the púca, kelpie, or shagfoal |
+| grant-folklore-c04 | exact | en.wikipedia.org | Joseph Pentangelo instead argues that it was probably a hare, and that the description in the Otia Imperialia may reflect embellishment by Gervase or his informant. | Joseph Pentangelo instead argues that it was probably a hare, and that the description in the Otia Imperialia may reflect embellishment by Gervase or his informant. |
+| grant-folklore-c05 | exact | gutenberg.org | Gervase (as quoted by Keightley) writes that in England there is a certain kind of demon whom they call Grant in their language. | in England a certain kind of demon whom in their language they call Grant |
+| grant-folklore-c06 | exact | gutenberg.org | It looks like a yearling foal, erect on its hind legs, with sparkling eyes. | like a yearling foal, erect on its hind legs, with sparkling eyes. |
+| grant-folklore-c07 | exact | gutenberg.org | If danger is impending the following day or night, it runs about the streets provoking the dogs to bark. | If there is any danger impending on the following day or night, it runs about the streets provoking the dogs to bark |
+| grant-folklore-c08 | exact | gutenberg.org | This illusion warns the inhabitants to beware of fire; the friendly demon terrifies those who see him but by his coming puts the ignorant on their guard. | This illusion warns the inhabitants to beware of fire, and the friendly demon, while he terrifies those who see him, puts by his coming the ignorant on their guard. |
+
+
+## gwedros-gawr — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| gwedros-gawr-c01 | exact | cy.wikipedia.org | Gwedros Gawr (also Gwedraws or Gwaedros) was a giant (cawr) who, according to legend, lived at Caerwedros in Ceredigion. | Cawr oedd Gwedros Gawr (hefyd, Gwedraws neu Gwaedros) a oedd, yn ôl chwedloniaeth, yn byw yng Nghaerwedros yng Ngheredigion. |
+| gwedros-gawr-c02 | exact | cy.wikipedia.org | Gwedros is named in the book of the 17th-century antiquarian Siôn Dafydd Rhys, which contains over fifty names of the giants (cewri) of Wales (Cymru). | Mae Gwedros yn cael ei enwi yn llyfr yr hynafiaethydd o'r 17g Siôn Dafydd Rhys, sy'n cynnwys dros hanner cant o enwau cewri Cymru. |
+| gwedros-gawr-c03 | exact | cy.wikipedia.org | The book is part of the Peniarth Manuscripts collection (Peniarth 118) in the National Library of Wales (Llyfrgell Genedlaethol Cymru). | Mae'r llyfr yn rhan o gasgliad Llawysgrifau Peniarth (Peniarth 118) yn Llyfrgell Genedlaethol Cymru. |
+| gwedros-gawr-c04 | exact | maryjones.us | According to Rhys, in the land of Aberteifi and the parish of Llan Dyssiliaw is a place called Caer Wedros, named so because Gwedros Gawr once lived there. | In the land of Aberteifi and in the parish of Llan Dyssiliaw is a place called Caer Wedros. And that caer was called thus, and is still so called because Gwedros Gawr formerly lived there. |
+| gwedros-gawr-c05 | exact | en.wikipedia.org | Caerwedros is a small village in western Ceredigion, Wales, in the community of Llandysiliogogo. | is a small village in western Ceredigion, Wales, in the community of Llandysiliogogo. |
+| gwedros-gawr-c06 | exact | en.wikipedia.org | The site of Caerwedros Castle is today a mound of earth on the west side of the village. | The site of Caerwedros Castle, is today a mound of earth on the west side of the village. |
+
+
+## gwyllion — lulus-otomatis
+
+Klaim 15 (exact 15), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| gwyllion-c01 | exact | en.wikipedia.org | According to folklorist Wirt Sikes, the gwyllion are female fairies of frightful aspect who haunt lonely roads in the Welsh mountains and lead travellers astray. | According to folklorist Wirt Sikes the gwyllion are female fairies of frightful aspect who haunt lonely roads in the Welsh mountains and lead travellers astray. |
+| gwyllion-c02 | exact | en.wikipedia.org | They are gloomy spirits more akin to hags or witches, as distinct from the Welsh ellyllon (elves), which are more benevolent. | They are gloomy spirits more akin to hags or witches, as distinct from the Welsh ellyllon (elves) that are more benevolent. |
+| gwyllion-c03 | exact | en.wikipedia.org | One gwyll in particular was known as the Old Woman of the Mountain who haunted Llanhyddel Mountain in Monmouthshire. | One gwyll in particular was known as the Old Woman of the Mountain who haunted Llanhyddel Mountain in Monmouthshire |
+| gwyllion-c04 | exact | en.wikipedia.org | Those who met them by night or on a misty day were sure to lose their way even if perfectly familiar with the road. | Those who encountered them either by night or on a misty day would be sure to lose their way even if they were perfectly familiar with the road. |
+| gwyllion-c05 | exact | en.wikipedia.org | Welsh ghosts and fairies were afraid of knives and could be banished by them. | Welsh ghosts and fairies were afraid of knives and could be banished by them. |
+| gwyllion-c06 | exact | en.wikipedia.org | The Gwyllion appears as the main antagonist in the 2013 CGI animated film Barbie: Mariposa and the Fairy Princess. | The Gwyllion is featured as the main antagonist in the 2013 CGI animated film Barbie: Mariposa and the Fairy Princess. |
+| gwyllion-c07 | exact | gutenberg.org | The Gwyllion are female fairies of frightful characteristics who haunt lonely roads in the Welsh mountains and lead night-wanderers astray. | The Gwyllion are female fairies of frightful characteristics, who haunt lonely roads in the Welsh mountains, and lead night-wanderers astray. |
+| gwyllion-c08 | exact | gutenberg.org | The Welsh word gwyll is variously used to signify gloom, shade, duskiness, a hag, a witch, a fairy and a goblin. | The Welsh word gwyll is variously used to signify gloom, shade, duskiness, a hag, a witch, a fairy, and a goblin |
+| gwyllion-c09 | exact | gutenberg.org | Its special application is to these mountain fairies of gloomy and harmful habits, as distinct from the Ellyllon of the forest glades and dingles, which are more often beneficent. | but its special application is to these mountain fairies of gloomy and harmful habits, as distinct from the Ellyllon of the forest glades and dingles, which are more often beneficent. |
+| gwyllion-c10 | exact | gutenberg.org | The Old Woman of the Mountain typifies all her kind. | and the Old Woman of the Mountain typifies all her kind. |
+| gwyllion-c11 | exact | gutenberg.org | The popular tradition in that district was that the Old Woman of the Mountain was the spirit of one Juan White, who lived time out of mind in those parts and was thought to be a witch. | The popular tradition in that district was that the Old Woman of the Mountain was the spirit of one Juan White, who lived time out of mind in those parts, and was thought to be a witch |
+| gwyllion-c12 | exact | gutenberg.org | In Wales, according to Jones, the Gwyllion often came into the houses of the people at Aberystruth, especially in stormy weather. | In Wales, according to Jones, the Gwyllion often came into the houses of the people at Aberystruth, especially in stormy weather |
+| gwyllion-c13 | exact | gutenberg.org | Inmates welcomed them by providing clean water and taking care that no knife or cutting tool lay in the corner near the fire where the fairies sat. | providing clean water for them, and taking especial care that no knife, or other cutting tool, should be in the corner near the fire, where the fairies would go to sit. |
+| gwyllion-c14 | exact | gutenberg.org | So he drew out his knife, and the fairies vanished directly. | So he drew out his knife, and the fairies vanished directly. |
+| gwyllion-c15 | exact | en.wikipedia.org | A man tried to overtake her but she led him further astray, always out of reach, until he found himself in a marsh. | He tried to overtake her but she led him further astray, always out of reach, until he found himself in a marsh. |
+
+
+## iannic-ann-od — lulus-otomatis
+
+Klaim 13 (exact 13), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| iannic-ann-od-c01 | exact | en.wikipedia.org | In Breton folklore the being is called Iannic-ann-ôd or Yannig an Aod. | In Breton folklore, Iannic-ann-ôd or Yannig an Aod |
+| iannic-ann-od-c02 | exact | en.wikipedia.org | Iannic-ann-ôd are said to be the lost souls of those drowned at sea who were never recovered. | are said to be the lost souls of those drowned at sea and were never recovered. |
+| iannic-ann-od-c03 | exact | fr.wikisource.org | The drowned (les noyés) whose bodies were not found and buried in sacred ground wander eternally along the coasts. | Les noyés, dont le corps n’a pas été retrouvé et enseveli en terre sacrée, errent éternellement le long des côtes. |
+| iannic-ann-od-c04 | exact | fr.wikisource.org | It is not rare to hear them cry out dismally in the night (crier, dans la nuit, lugubrement), with the call "Iou! Iou!". | Il n’est pas rare qu’on les entende crier, dans la nuit, lugubrement : |
+| iannic-ann-od-c05 | exact | fr.wikisource.org | The cry goes that Iannic-ann-ôd, "Petit-Jean de la grève" (Little John of the shore), is howling. | E-man-Iannic-ann-ôd o iouall ! (Voilà Iannic-ann-ôd, — Petit-Jean de la grève, — qui hurle !) |
+| iannic-ann-od-c06 | exact | fr.wikisource.org | The phrase is spoken in the country of Cornouailles (pays de Cornouailles). | On dit alors, dans le pays de Cornouailles : |
+| iannic-ann-od-c07 | exact | fr.wikisource.org | All these howling drowned are instinctively called Iannic-ann-ôd. | Tous ces noyés hurleurs sont instinctivement appelés Iannic-ann-ôd. |
+| iannic-ann-od-c08 | exact | fr.wikisource.org | Iannic-ann-ôd is not wicked (n'est pas méchant), provided one does not amuse oneself by sending back his sinister lament. | Iannic-ann-ôd n’est pas méchant, pourvu qu’on ne s’amuse pas à lui renvoyer sa plainte sinistre. |
+| iannic-ann-od-c09 | exact | fr.wikisource.org | If answered once he leaps half the distance toward you; a second time, half of the remainder; a third time, he breaks your neck (vous rompt le cou). | si vous répondez une première fois, Iannic-ann-ôd franchit d’un bon la moitié de la distance qui le sépare de vous ; si vous répondez une deuxième fois, il franchit la moitié de cette moitié ; si vous répondez une troisième fois, il vous rompt le cou. |
+| iannic-ann-od-c10 | exact | fr.wikisource.org | In one tale a farm servant (domestique de ferme) was coming back from driving the animals to the fields one summer evening. | Un domestique de ferme revenait de conduire les bêtes aux champs, un soir d’été, dans le temps où l’on commence à leur faire passer les nuits dehors. |
+| iannic-ann-od-c11 | exact | fr.wikisource.org | The servant waited until he was close to the farm before answering the shrill "Iou" calls of the beach prowler (rôdeur de plages) behind him. | il attendit d’être assez près de la ferme, avant de répondre aux « Iou » stridents, que poussait derrière lui le rôdeur de plages. |
+| iannic-ann-od-c12 | exact | fr.wikisource.org | After the third answer a tremendous blow struck the door from outside, as if it were flying to pieces (volait en éclats). | Un formidable coup s’abattit du dehors sur la porte ; on eût juré qu’elle volait en éclats. |
+| iannic-ann-od-c13 | exact | fr.wikisource.org | The voice outside threatens: it will pass this once, but if the servant tries it again he will be made "un homme". | Passe pour une fois : mais si tu y reviens, je ferai de toi un homme ! |
+
+
+## little-people-of-the-pryor-mountains — lulus-otomatis
+
+Klaim 20 (exact 20), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| little-people-of-the-pryor-mountains-c01 | exact | en.wikipedia.org | The Little People of the Pryor Mountains (known as Nirumbee or Awwakkulé in the Crow language) are a race of ferocious dwarfs in the folklore of the Crow Tribe, a Native American tribe. | The Little People of the Pryor Mountains (known as Nirumbee or Awwakkulé in the Crow language) are a race of ferocious dwarfs in the folklore of the Crow Tribe, a Native American tribe. |
+| little-people-of-the-pryor-mountains-c02 | exact | en.wikipedia.org | According to Crow folklore they live in the Pryor Mountains, a small mountain range in Carbon County and Bighorn County, Montana. | live in the Pryor Mountains, a small mountain range in Carbon County, Montana and Bighorn County, Montana. |
+| little-people-of-the-pryor-mountains-c03 | exact | en.wikipedia.org | The Crow said petroglyphs on rocks in the mountains were made by these demon-like creatures, and because the Little People live there the mountains are sacred to the Crow. | Petroglyphs on rocks in the mountains, the Crow said, were made by these demon-like creatures. Because the Little People live there, the mountains are sacred to the Crow. |
+| little-people-of-the-pryor-mountains-c04 | exact | en.wikipedia.org | The Pryor Mountains Little People were also known for stealing children, food, medicine and tobacco. | The Pryor Mountains Little People were also known for stealing children, food, medicine, and tobacco. |
+| little-people-of-the-pryor-mountains-c05 | exact | en.wikipedia.org | The Crow also believed the Little People made stone arrowheads, since the Crow themselves knew only how to make bone arrowheads. | The Crow also believed that the Little People created stone arrowheads, for the Crow themselves only knew how to make bone arrowheads. |
+| little-people-of-the-pryor-mountains-c06 | exact | en.wikipedia.org | Generally the Crow would refuse to enter the Pryor Mountains because of their belief in the Little People. | Generally speaking, the Crow would refuse to enter the Pryor Mountains due to their belief in the Little People. |
+| little-people-of-the-pryor-mountains-c07 | exact | en.wikipedia.org | Other offerings such as beads, cloth or tobacco could also be left to win safe passage through the mountains. | However, other kinds of offerings, such as beads, cloth, or tobacco, could also be left in order to win safe passage through the mountains. |
+| little-people-of-the-pryor-mountains-c08 | exact | en.wikipedia.org | The Little People were also integral to the Crow practice of the Sun Dance. | The Little People also were integral to the Crow practice of the Sun Dance. |
+| little-people-of-the-pryor-mountains-c09 | exact | en.wikipedia.org | The Little People are said to be no more than 18 inches (46 cm), or knee, high. | The Little People are said to be no more than 18 inches (46 cm) (or knee) high. |
+| little-people-of-the-pryor-mountains-c10 | exact | en.wikipedia.org | They are described as incredibly strong but with short arms and legs and little or no neck. | and incredibly strong but short arms and legs; and little or no neck. |
+| little-people-of-the-pryor-mountains-c11 | exact | en.wikipedia.org | In the vision the chief of the Little People also prophesied that Plenty Coups would become chief of his people if he used his wits. | He also prophesied that Plenty Coups would become chief of his people, if he used his wits |
+| little-people-of-the-pryor-mountains-c12 | exact | en.wikipedia.org | Each year the Crow made an offering to the Little People at Medicine Rocks. | Each year, the Crow made an offering to the Little People at Medicine Rocks |
+| little-people-of-the-pryor-mountains-c13 | exact | objects.lib.uidaho.edu | The Little People of the Pryor Mountains have been known to the Crow for generations; to many they are spiritual guides and helpers, to others they are considered mischievous and to be avoided. | The Little People of the Pryor Mountains have been known to the Crow for generations; to many they are spiritual guides and helpers of the Crow, to others they are considered mischievous and are to be avoided. |
+| little-people-of-the-pryor-mountains-c14 | exact | objects.lib.uidaho.edu | However they are thought of, the Crow teach respect for these powerful beings, who are to be treated as Elders. | Regardless of how they are thought of, the Crow teach respect for these powerful beings; they are to be treated as Elders. |
+| little-people-of-the-pryor-mountains-c15 | exact | objects.lib.uidaho.edu | In one story the Little People adopted a Crow boy at a very young age when he was lost in the Pryor Mountains, separated from his Crow family. | The Little People adopted a Crow boy at a very young age when he was lost in the Pryor Mountains, separated from his Crow family. |
+| little-people-of-the-pryor-mountains-c16 | exact | objects.lib.uidaho.edu | The Crow were told to shoot arrows at the face of the cliff as they passed for safe passage to their destination, giving the place the name Arrow Rock. | They were told to shoot arrows at the face of the cliff, giving the place the name Arrow Rock, as they passed by for safe passage to their final destination. |
+| little-people-of-the-pryor-mountains-c17 | exact | objects.lib.uidaho.edu | They were also instructed to pile rocks at the base of the cliff as prayer offerings, leave meat for the Little People to eat, and women were told to leave beads and jewelry for the Little Women to wear. | They were also instructed to pile rocks at the base of the cliff as prayer offerings, leave meat for the Little People to eat, and women were told to leave beads and jewelry for the Little Women to find and wear. |
+| little-people-of-the-pryor-mountains-c18 | exact | objects.lib.uidaho.edu | The Little People are described as dwarves that are both human and supernatural beings and can act as spiritual guides for the Crow Tribe. | The Little People are described as dwarves that are both human and supernatural beings that can act as spiritual guides for the Crow Tribe. |
+| little-people-of-the-pryor-mountains-c19 | exact | objects.lib.uidaho.edu | They have been described as between twenty inches and 4 feet in height and looking like miniature adults, hence the name Little People. | They have been described as being between twenty inches and 4 feet in height and look like adults in miniature size, hence the name Little People. |
+| little-people-of-the-pryor-mountains-c20 | exact | objects.lib.uidaho.edu | Based on Crow oral histories, Arrow Shot Into Rock is the place where the Crow first met the Little People. | Based on Crow oral histories Arrow Shot Into Rock is the place where the Crow encountered the Little People for the first time. |
+
+
+## lurikeen — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lurikeen-c01 | exact | fr.wikipedia.org | In Irish folklore (folklore irlandais), the Lurikeen is a lutin (sprite) and familiar spirit of tinkers (itinerant tinsmiths), linked to misery and defeats. | Dans le folklore irlandais ... le Lurikeen est un lutin et esprit familier des « tinkers » (ferblantiers itinérants), lié à la misère et aux défaites. |
+| lurikeen-c02 | exact | sites.pitt.edu | In the Kildare tale the Lurikeen is shown working like vengeance at a little old brogue only fit for the foot of a fairy. | the Lurikeen, working like vengeance at a little old brogue only fit for the foot of a fairy like himself. |
+| lurikeen-c03 | exact | sites.pitt.edu | He bores his holes and jerks his waxed ends, wearing a little three-cornered hat with gold lace and knee-breeches, with a jug of beer at his side and a pipe in his mouth. | There he was, boring his holes, and jerking his waxed ends, with his little three-cornered hat with gold lace, his knee-breeches, his jug of beer by his side, and his pipe in his mouth. |
+| lurikeen-c04 | exact | sites.pitt.edu | He was so busy at his work and so taken up singing an old ballad in Irish that he did not notice Breedheen until she had him by the scruff of the neck. | He was so busy at his work, and so taken up with an old ballad he was singing in Irish, that he did not mind Breedheen till she had him by the scruff o' the neck |
+| lurikeen-c05 | exact | sites.pitt.edu | The girl demands the Lurikeen's money and refuses to take hand or eye from him until she has a fine lob of it. | It's your money I want, and I won't take hand or eye from you till you put me in possession of a fine lob of it. |
+| lurikeen-c06 | exact | sites.pitt.edu | At the brow of the hill the Lurikeen looked over the ditch, gave a great screech and shouted as if a bugle horn were blown at her ears, crying that Castle Carberry was afire. | he looked up over the ditch, gave a great screetch, and shouted just as if a bugle horn was blew at her ears |
+| lurikeen-c07 | exact | sites.pitt.edu | The moment she turned to the castle she lost the weight of the Lurikeen, and he vanished without a trace, as if it had all been a dream. | The same moment she missed the weight of the Lurikeen, and when her eyes fell where he was a moment before, there was no more sign of him than if everything that passed was a dream. |
+| lurikeen-c08 | exact | sites.pitt.edu | The only instance of a Wexford Lurikeen the author can recall differs only slightly from this Kildare tale. | The only instance of a Wexford Lurikeen that we can recall, differs only slightly from this. |
+| lurikeen-c09 | exact | sites.pitt.edu | Wexford Molly was as vigilant as Kildare Biddy and did not take eye or hand off him until he pointed out the very stalk of booliaun bui under which the treasure lay. | Wexford Molly was as vigilant as Kildare Biddy, and never took eye or hand off him till he pointed out the very stalk of booliaun bui under which the treasure lay. |
+| lurikeen-c10 | exact | sites.pitt.edu | When Molly returned half an hour later with her father and brothers carrying spades and picks, the whole spot was as thick with booliauns as a plantation of young trees. | when Molly returned in half an hour, attended by father and brothers with spades and picks, all round the spot, to a considerable distance, was as thick with booliauns as a plantation with young trees. |
+
+
+## maelor-gawr — lulus-otomatis
+
+Klaim 15 (exact 15), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| maelor-gawr-c01 | exact | en.wikipedia.org | Maelor Gawr is an early Celtic king and giant of Welsh mythology. | Maelor Gawr is an early Celtic king and giant of Welsh mythology |
+| maelor-gawr-c02 | exact | en.wikipedia.org | The tale of Maelor and his three sons, Cornippyn, Crygyn and Bwba, is recorded in a late sixteenth-century Welsh text. | The tale of Maelor and his three sons, Cornippyn, Crygyn and Bwba, is recorded in the late sixteenth century Welsh text |
+| maelor-gawr-c03 | exact | en.wikipedia.org | The older text uses the antiquarian spelling Maylor Gawr. | with the antiquarian spelling Maylor Gawr |
+| maelor-gawr-c04 | exact | en.wikipedia.org | On the third blast the intensity of the sound caused the horn to break into small pieces. | On the third blast of his horn the intensity of the force of the sound caused the horn to be broken into small pieces. |
+| maelor-gawr-c05 | exact | en.wikipedia.org | The other sons, Crygyn and Bwba, lived in Llanilar and Llanbadarn Fawr respectively and murdered any man who approached their stronghold. | The other sons, Crygyn and Bwba, lived in Llanilar and Llanbadarn Fawr respectively, and murdered any man who approached their stronghold. |
+| maelor-gawr-c06 | exact | en.wikipedia.org | Contemporary stories still tell of one of the more unusual residents of Penparcau village, the headless dog of the son of King Maelor. | Contemporary stories still relate to one of the more unusual residents of Penparcau village, the headless dog of King Maelor |
+| maelor-gawr-c07 | exact | maryjones.us | According to Rhys, in the country of Aberteifi before Brutus came to this island there lived Maylor Gawr, and his dwelling is still called Castell Maylor. | And in the country of Aberteifi, before the coming of Brutus to this island, there formerly lived Maylor Gawr, and the place where he lived is still called Castell Maylor |
+| maelor-gawr-c08 | exact | maryjones.us | Maylor Gawr had three sons: Cornippin Gawr, Crygyn Gawr and Bwba Gawr. | To this Maylor Gawr were three sons, namely, Cornippin Gawr, and Crygyn Gawr, and Bwba Gawr. |
+| maelor-gawr-c09 | exact | maryjones.us | Maylor Gawr was taken prisoner at a place called Cyfeilog, about twelve miles from his own castle. | And it came to pass that Maylor Gawr was taken prisoner in a place called Cyfeilog, about twelve miles from his own castle |
+| maelor-gawr-c10 | exact | maryjones.us | When about to be put to death he begged his enemies to let him blow his horn three times. | he begged of his enemies to permit him to blow his horn three times before suffering death |
+| maelor-gawr-c11 | exact | maryjones.us | On the second blast, so great was the force of the sound that all his finger and toe-nails fell off. | And on the second blast of his horn, so great was the strength and force of the sounding that all his finger and toe-nails fell off completely. |
+| maelor-gawr-c12 | exact | maryjones.us | Cornippin rode with such haste and swiftness that he tore the head of his hound from its body. | in riding with such haste and swiftness, he tore the head of his hound off its body |
+| maelor-gawr-c13 | exact | maryjones.us | He spurred his steed until the horse leapt in a single bound over the Ystwyth River. | he spurred his steed until the horse leapt at one bound over the Ystwyth River |
+| maelor-gawr-c14 | exact | maryjones.us | Cornippin reached his father and, after fighting, was also killed. | Cornippin came up to his father, where after fighting he also was killed. |
+| maelor-gawr-c15 | exact | maryjones.us | These giants lived in Wales before Brutus came to this island, and their custom was to kill whatever men came to lodge within their strongholds. | These giants lived in Wales before Brutus came to this island, and their custom while they lived was to kill whatever men should come to lodge within their strongholds |
+
+
+## petticoat-loose — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| petticoat-loose-c01 | exact | ga.wikipedia.org | Petticoat Loose is the spirit or ghost (taibhse) of a woman who features in the folklore (béaloideas) of Munster (Mumhan). | Is éard atá i gceist le Petticoat Loose ná sprid nó taibhse mná agus í ina hábhar scéalta i mbéaloideas na Mumhan. |
+| petticoat-loose-c02 | exact | ga.wikipedia.org | Petticoat Loose is believed to attack travellers (taistealaithe) at night, frightening and tormenting them. | Mar a chreidtear, bíonn Petticoat Loose ag ionsaí taistealaithe istoíche, á n-imeaglú agus á gcrá. |
+| petticoat-loose-c03 | exact | ga.wikipedia.org | Béal Locha in County Waterford (Contae Phort Láirge) is named as her home place, though some say she was from Coilleagán in the same county, and folklore says she can be seen throughout Munster. | Is é Béal Locha, Contae Phort Láirge, is áit dúchais do Phetticoat (ach deirtear freisin gurb as Coilleagán sa chontae chéanna di), ach deir an béaloideas go mbíonn sí le feiceáil fud fad na Mumhan. |
+| petticoat-loose-c04 | exact | ga.wikipedia.org | According to folklore Petticoat's name was Cáit (or Máire) Ní Annagáin, and she was married to a man surnamed Ó Scanláin. | De réir an bhéaloidis is é an t-ainm agus an sloinne a bhí ar Phetticoat ná Cáit (nó Máire) Ní Annagáin, agus bhí sí pósta ar fhear dar shloinne Ó Scanláin. |
+| petticoat-loose-c05 | exact | ga.wikipedia.org | Among the reasons given for her becoming a ghost: she was wild and angry and struck her own mother, and she killed an unbaptised child (leanbh gan bhaiste). | Bhí sí fiain feargach, agus bhuaileadh sí a máthair féin. Mharaigh sí leanbh gan bhaiste. |
+| petticoat-loose-c06 | exact | ga.wikipedia.org | In one version her name comes from a night of entertainment when her skirt (sciorta) caught on a nail in the wall; she danced wildly until the skirt tore and only the petticoat was left. | nuair a ghreamaigh a sciorta de thairne sa bhalla. Thosaigh sí ag damhsa go fiain, agus ansin réabadh an sciorta di, ionas nár fágadh ach an peireacót uirthi. |
+| petticoat-loose-c07 | exact | ga.wikipedia.org | The Irish dramatist M. J. Molloy wrote a play titled Petticoat Loose in 1979. | Scríobh an drámadóir Éireannach M. J. Molloy dráma faoin teideal Petticoat Loose sa bhliain 1979. |
+| petticoat-loose-c08 | exact | duchas.ie | In the dúchas.ie Schools' Collection, Petticoat Loose was an unfortunate woman killed on the road to Co. Kilkenny who then haunted it and would not let a car pass. | Petticoat Loose was an unfortunate woman. She was killed on the road to Co. Kilkenny, and then she haunted it. She would not let a car pass. |
+| petticoat-loose-c09 | exact | duchas.ie | She told the priest she had killed her own child without baptism, and the priest said that was what damned her. | Then she told him that she had killed her own child without baptism, and the priest said that that was what damned her. |
+| petticoat-loose-c10 | exact | duchas.ie | The priest said he would banish her to the Red Sea; she replied that if he did she would let no ship or steamer pass without drowning it. | The priest said that he would banish her to the Red Sea. She said if he would she would not leave a ship or a steamer pass but she would drown. |
+
+
+## portunes — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| portunes-c01 | exact | en.wikipedia.org | Portunes, or Neptunes, are creatures of English folklore described only in the medieval Latin work Otia Imperialia by Gervase of Tilbury. | Portunes, or Neptunes, are creatures of English folklore described only in the medieval Latin work Otia Imperialia by Gervase of Tilbury. |
+| portunes-c02 | exact | en.wikipedia.org | In Gervase's account Portunes enter peasant houses at night, warm themselves by the fire, and roast small frogs which they carry in their pockets. | Portunes enter peasant houses at night, warm themselves by the fire, and roast small frogs which they carry in their pockets. |
+| portunes-c03 | exact | en.wikipedia.org | K. M. Briggs classes them as a type of fairy, arguing that Gervase's account was the first description of small English fairies. | K. M. Briggs classes them as a type of fairy, arguing that Gervase's account was the first description of small English fairies. |
+| portunes-c04 | exact | en.wikipedia.org | C. C. Oman argues that the description of the size of the Portunes is corrupted because their size is incompatible with the housework they do. | C. C. Oman argues that the description of the size of the Portunes is corrupted because the size of the creatures is incompatible with the housework they do |
+| portunes-c05 | exact | en.wikipedia.org | S. E. Banks and J. W. Binns dispute this, arguing that the manuscripts agree and Gervase clearly meant to describe them as very small. | S. E. Banks and J. W. Binns dispute this, arguing that the manuscripts are in agreement and Gervase clearly intended to describe them as very small. |
+| portunes-c06 | exact | en.wikipedia.org | Young considers a link between the English name and the Roman god Portunus but argues a direct relationship is unlikely because there is no evidence for a cult of Portunus in Roman Britain. | Young also considers a link between the English name and the Roman god Portunus, but argues that a direct relationship is unlikely because there is no evidence for a cult of Portunus in Roman Britain |
+| portunes-c07 | exact | gutenberg.org | Gervase (as quoted by Keightley) writes that in England there are certain demons, though he doubts whether to call them demons or figures of a secret and unknown generation, which the French call Neptunes and the English Portunes. | They have in England certain demons, though I know not whether I should call them demons or figures of a secret and unknown generation, which the French call Neptunes, the English Portunes. |
+| portunes-c08 | exact | gutenberg.org | It is their nature to embrace the simple life of comfortable farmers. | It is their nature to embrace the simple life of comfortable farmers |
+| portunes-c09 | exact | gutenberg.org | They have the countenance of old men with wrinkled cheeks and are of very small stature, not quite half-an-inch high. | They have the countenance of old men, with wrinkled cheeks, and they are of a very small stature, not being quite half-an-inch high. |
+| portunes-c10 | exact | gutenberg.org | If anything is to be carried into the house or any laborious work done, they lend a hand and finish it sooner than any man could; their nature is to have the power to serve but not to injure. | if anything is to be carried into the house, or any laborious work to be done, they lend a hand, and finish it sooner than any man could. It is their nature to have the power to serve, but not to injure. |
+| portunes-c11 | exact | gutenberg.org | The Portune sometimes invisibly joins a lone horseman, at last takes the reins and leads the horse into a slough, then goes off with a loud laugh once the horse is floundering in it. | the Portune sometimes invisibly joins the horseman; and when he has accompanied him a good while, he at last takes the reins, and leads the horse into a neighbouring slough; and when he is fixed and floundering in it, the Portune goes off with a loud laugh |
+
+
+## pyewacket-familiar-spirit — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| pyewacket-familiar-spirit-c01 | exact | en.wikipedia.org | Pyewacket was said to be one of the familiar spirits of a convicted witch accused by the self-styled Witchfinder General Matthew Hopkins in March 1644 in the town of Manningtree, Essex, England. | Pyewacket was said to be one of the familiar spirits of a convicted witch accused by the claimed Witchfinder General Matthew Hopkins in March 1644 in the town of Manningtree, Essex, England. |
+| pyewacket-familiar-spirit-c02 | exact | en.wikipedia.org | Hopkins claimed he spied on the witches as they held their meeting close by his house and heard them mention the name of a local woman. | Hopkins claimed he spied on the witches as they held their meeting close by his house, and heard them mention the name of a local woman. |
+| pyewacket-familiar-spirit-c03 | exact | en.wikipedia.org | The woman was arrested and deprived of sleep for four nights, at the end of which she confessed and called out the names of her familiars, describing the forms in which they should appear. | She was arrested and deprived of sleep for four nights, at the end of which she confessed and called out the names of her familiars, describing the forms in which they should appear. |
+| pyewacket-familiar-spirit-c04 | exact | en.wikipedia.org | Elemanzer, Pyewacket, Peck in the Crown and Grizzel Greedigut are listed as imps. | Elemanzer, Pyewacket, Peck in the Crown, Grizzel Greedigut, described as imps |
+| pyewacket-familiar-spirit-c05 | exact | en.wikipedia.org | In the Hollywood film Bell, Book and Candle (1958), Pyewacket is the name of the brown sealpoint Siamese cat and familiar of Gillian Holroyd, a witch played by Kim Novak. | In the Hollywood film Bell, Book and Candle (1958), Pyewacket is the name of the brown sealpoint Siamese cat / familiar of Gillian Holroyd, a witch played by Kim Novak. |
+| pyewacket-familiar-spirit-c06 | exact | en.wikipedia.org | Pyewacket is the title of a 2017 horror film. | Pyewacket is a 2017 horror film. |
+| pyewacket-familiar-spirit-c07 | exact | gutenberg.org | Hopkins writes that in March 1644 some seven or eight witches lived in the town where he lived, a town in Essex called Maningtree. | in March 1644 he had some seven or eight of that horrible sect of Witches living in the Towne where he lived, a Towne in Essex called Maningtree |
+| pyewacket-familiar-spirit-c08 | exact | gutenberg.org | On the fourth night she called them in by their several names and told them what shapes to take, a quarter of an hour before they came in, ten of them being in the room. | which the fourth night she called in by their severall names, and told them what shapes, a quarter of an houre before they came in, there being ten of us in the roome |
+| pyewacket-familiar-spirit-c09 | exact | gutenberg.org | Immediately after, the witch confessed several other witches and named the imps' names, as Elemanzer, Pyewacket, Peckin the Crown, Grizzel, Greedigut, and so on. | Immediately after this Witch confessed severall other Witches, from whom she had her Imps, and named to divers women where their marks were, the number of their Marks, and Imps, and Imps names, as Elemanzer, Pyewacket, Peckin the Crown, Grizzel, Greedigut, &c. |
 
 
 ## stray-sod — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| stray-sod-c01 | exact | en.wikipedia.org | Stray sod is documented as contemporary fantasy literature in regional lore. | In contemporary fantasy literature, a stray sod is a clump of grass enchanted by faeries. |
+| stray-sod-c01 | exact | en.wikipedia.org | A stray sod is a clump of grass enchanted by faeries. | a stray sod is a clump of grass enchanted by faeries. |
+| stray-sod-c02 | exact | en.wikipedia.org | A person who steps on one becomes disoriented and lost, even in familiar surroundings. | If a person steps on one, they will become disoriented and lost, even in familiar surroundings. |
+| stray-sod-c03 | exact | en.wikipedia.org | Wearing an item of clothing inside-out breaks the enchantment, allowing the person to find their way again. | Wearing an item of clothing inside-out breaks the enchantment, allowing the person to find their way again. |
+| stray-sod-c04 | exact | en.wikipedia.org | The concept and phrase appear to originate in ancient Celtic mythology, specifically Irish folklore. | The concept and phrase appear to originate in ancient Celtic mythology, specifically Irish folklore. |
+| stray-sod-c05 | exact | en.wikipedia.org | In more modern Christianized interpretations, the source of the enchantment may not be fairies. | In more modern Christianized interpretations, the source of the enchantment may not be fairies. |
+| stray-sod-c06 | exact | en.wikipedia.org | Stray sods appear in the series The Spiderwick Chronicles, disorienting travelers. | Stray sods appear in the series The Spiderwick Chronicles, disorienting travelers. |
+| stray-sod-c07 | exact | duchas.ie | The dúchas.ie Schools' Collection says there is a stray sod in Tom Lee's hill in Derreen, and several people went astray on it. | There is said to be a stray sod in Tom Lee's hill in Derreen. Several people went astray on it. |
+| stray-sod-c08 | exact | duchas.ie | One night Mick Winters was coming home late and went astray on it. | One night Mick Winters was coming home late and he went astray on it. |
+| stray-sod-c09 | exact | duchas.ie | When he sat down a crowd of little red men came and got him to play cards. | And when he did so a crowd of little red men came and got him to play cards. |
+| stray-sod-c10 | exact | duchas.ie | He said he must have walked on a fairies' pass. | He said he must have walked on a fairies pass. |
 
 
 ## the-black-dog-of-newgate — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| the-black-dog-of-newgate-c01 | exact | en.wikipedia.org | The Black Dog of Newgate is documented as black newgate legend in regional lore. | The Black Dog of Newgate is a legend concerning the haunting of the former Newgate Prison of London, which was located next to the Old Bailey (The Central Criminal Court), close to St. |
+| the-black-dog-of-newgate-c01 | exact | en.wikipedia.org | The Black Dog of Newgate is a legend concerning the haunting of the former Newgate Prison of London, which stood next to the Old Bailey. | The Black Dog of Newgate is a legend concerning the haunting of the former Newgate Prison of London, which was located next to the Old Bailey |
+| the-black-dog-of-newgate-c02 | exact | en.wikipedia.org | The account is an example of the English Black Dog category of supernatural manifestations, featuring a spectral hound of ill omen or malicious intent. | is an example of the English Black Dog category of supernatural manifestations, featuring a spectral hound of ill-omen or malicious intent |
+| the-black-dog-of-newgate-c03 | exact | en.wikipedia.org | The earliest recorded account of the legend dates from 1596 and is credited to a prison inmate called Luke Hutton. | the earliest recorded account of the legend dates from 1596, and is credited to a prison inmate called Luke Hutton. |
+| the-black-dog-of-newgate-c04 | exact | en.wikipedia.org | In the story, during a famine in the reign of King Henry III of England, a scholar with the reputation of being a sorcerer was incarcerated in Newgate Prison. | during a famine in the reign of King Henry III of England, a scholar was incarcerated in Newgate Prison who had the reputation of being a sorcerer |
+| the-black-dog-of-newgate-c05 | exact | en.wikipedia.org | Shortly after the crime, the inmates guilty of his death reportedly began seeing the spectre of a monstrous black dog walking up and down the prison. | Shortly after this crime was committed, the inmates guilty of his death reportedly began seeing the spectre of a monstrous black dog walking up and down the Prison |
+| the-black-dog-of-newgate-c06 | exact | en.wikipedia.org | This being reportedly killed and consumed those responsible one by one, until the last survivors, driven mad by fear, broke out of the gaol and escaped. | This being reportedly killed and consumed those responsible one by one, until the last survivors, driven mad by fear, broke out of the gaol and escaped. |
+| the-black-dog-of-newgate-c07 | exact | en.wikipedia.org | Towards the end of the narrative the unnamed stranger claims the tale of the spiritual dog is untrue and that the only Black Dog he has heard of is a great blacke Stone standing in the dungeon. | Towards the end of the narrative the unnamed stranger claims that the tale of the spiritual dog is untrue, and that the only Black Dog he has heard any account of is a great blacke Stone standing in the dungeon called |
+| the-black-dog-of-newgate-c08 | exact | en.wikipedia.org | The story was intended as a morality tale preaching against the low behaviour and base living of the prison's inmates. | Intended as a morality tale preaching against the low behaviour and base living of the inmates of the prison |
+| the-black-dog-of-newgate-c09 | exact | en.wikipedia.org | There is some speculation whether this haunting is also connected to nearby Amen Court. | There is some speculation as to whether this haunting of the Black Dog of Newgate is also connected to nearby Amen Court |
+| the-black-dog-of-newgate-c10 | exact | blackcablondon.net | This sinister legend is said to have originated in 1596 when a man was thrown into Newgate for dabbling in sorcery. | This sinister legend is said to have originated in 1596 when a chap was thrown into Newgate for dabbling in sorcery. |
+| the-black-dog-of-newgate-c11 | exact | blackcablondon.net | Starving to death, some prisoners within Newgate had turned to cannibalism. | Starving to death, some prisoners within Newgate had turned to cannibalism |
+| the-black-dog-of-newgate-c12 | exact | blackcablondon.net | Amen Court is said to be haunted by the dog, with many accounts describing a shapeless black form slithering along walls and giving off a hideous odour. | It is said that Amen Court is haunted by the dog, with numerous accounts reporting that its ghost appears as a shapeless, black form, slithering along walls and giving off a hideous odour. |
+| the-black-dog-of-newgate-c13 | exact | blackcablondon.net | Witnesses often state that the apparition is accompanied by the sound of dragging footsteps. | Whenever this apparition appears, witnesses often state that the visitation is accompanied by the sound of dragging footsteps. |
 
 
 ## the-mermaids-of-staithes — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 11 (exact 6, unreachable 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 5 kutipan tidak bisa dicek otomatis: livrepository.liverpool.ac.uk (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| the-mermaids-of-staithes-c01 | exact | en.wikipedia.org | The Mermaids of Staithes is documented as mermaids staithes mentioned in regional lore. | The Mermaids of Staithes are mentioned in a legend from the village of Staithes in Yorkshire. |
+| the-mermaids-of-staithes-c01 | exact | en.wikipedia.org | The Mermaids of Staithes are mentioned in a legend from the village of Staithes in Yorkshire. | The Mermaids of Staithes are mentioned in a legend from the village of Staithes in Yorkshire. |
+| the-mermaids-of-staithes-c02 | exact | en.wikipedia.org | The legend tells of two mermaids who came ashore and were made prisoners by the villagers. | tells of two mermaids who came ashore and were made prisoners by the villagers. |
+| the-mermaids-of-staithes-c03 | exact | en.wikipedia.org | When they reached the sea one of them cursed the village with a prophecy declaring that one day the sea would flow to Jackdaw's Well. | when they reached the sea one of them cursed the village with a prophecy declaring that one day |
+| the-mermaids-of-staithes-c04 | exact | en.wikipedia.org | The oldest verbal and published accounts of the legend on record date from January and March 1924. | The oldest verbal and published accounts of the legend on record date from January and March 1924 |
+| the-mermaids-of-staithes-c05 | exact | en.wikipedia.org | Jackdaw's Well was a key water source for the village, containing minerals with curative and preservative properties. | was a key water source for the village, containing minerals with curative and preservative properties. |
+| the-mermaids-of-staithes-c06 | exact | en.wikipedia.org | Egg-broth, the water in which eggs have been boiled, features in a number of folktales where it is used to reveal changelings. | Egg-broth, or the water in which eggs have been boiled, features in a number of folktales, where it is used to reveal changelings. |
+| the-mermaids-of-staithes-c07 | unreachable (HTTP 403) | livrepository.liverpool.ac.uk | The vengeful tale of the mermaids of Staithes is well known locally along the north-east coast of Yorkshire, England. | The vengeful tale of the mermaids of Staithes is well known locally along the north-east coast of Yorkshire, England. |
+| the-mermaids-of-staithes-c08 | unreachable (HTTP 403) | livrepository.liverpool.ac.uk | The tale concerns the capture and escape of two mermaids who speak enigmatically about egg-broth and curse the community that hurts them. | Concerning the capture and escape of two mermaids, who speak enigmatically about egg-broth and curse the community that hurts them |
+| the-mermaids-of-staithes-c09 | unreachable (HTTP 403) | livrepository.liverpool.ac.uk | The tale has notable parallels with other mermaid stories from Cornwall, Wales, Scotland and the Isle of Man. | the tale has notable parallels with other mermaid stories from Cornwall, Wales, Scotland, and the Isle of Man |
+| the-mermaids-of-staithes-c10 | unreachable (HTTP 403) | livrepository.liverpool.ac.uk | The article identifies analogues to the egg-broth motif, which may attest to the story's emergence much earlier. | identifies analogues to the egg-broth motif, which may attest to the story |
+| the-mermaids-of-staithes-c11 | unreachable (HTTP 403) | livrepository.liverpool.ac.uk | Its first occurrence in print can be connected to recurrent inundations and the economic decline of Staithes. | connect its first occurrence in print to recurrent inundations and the economic decline of Staithes |
 
 
 ## tiddy-mun — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| tiddy-mun-c01 | exact | en.wikipedia.org | Tiddy Mun is documented as tiddy legendary spirit in regional lore. | Tiddy Mun was a legendary bog spirit in England, who was believed to have the ability to control the waters and mists of The Fens of South Lincolnshire, The Carrs of North Lincolnshire and fens of the Isle of Ely. |
+| tiddy-mun-c01 | exact | en.wikipedia.org | Tiddy Mun was a legendary bog spirit in England believed able to control the waters and mists of the Fens of South Lincolnshire, the Carrs of North Lincolnshire and the fens of the Isle of Ely. | Tiddy Mun was a legendary bog spirit in England, who was believed to have the ability to control the waters and mists of The Fens of South Lincolnshire, The Carrs of North Lincolnshire and fens of the Isle of Ely. |
+| tiddy-mun-c02 | exact | en.wikipedia.org | The belief in Tiddy Mun was first documented in June 1891 in an article by M. C. Balfour in the Folklore Society journal Folk-Lore. | The belief in Tiddy Mun was first documented in June 1891 in an article by M. C. Balfour in the Folklore Society journal Folk-Lore. |
+| tiddy-mun-c03 | exact | en.wikipedia.org | In the article she recalls a story, collected in the Ancholme Valley, told to her by an older person. | In the article she recalls a story, collected in the Ancholme Valley, told to her by an older person |
+| tiddy-mun-c04 | exact | en.wikipedia.org | In the story Tiddy Mun cast a curse of pestilence upon a village, angered at the draining of the Fens by the Dutch led by Cornelius Vermuyden in the seventeenth century. | a curse of pestilence that had been cast upon his village by the Tiddy Mun, who was angered at the draining of the Fens by the Dutch, led by Cornelius Vermuyden, in the seventeenth century. |
+| tiddy-mun-c05 | exact | en.wikipedia.org | According to the story Tiddy Mun was eventually placated after the villagers gathered at twilight at the new moon, poured buckets of water into the dyke and apologised for the damage caused. | According to the story the Tiddy Mun was eventually placated after the villagers gathered at twilight at the time of the new moon, poured buckets of water into the dyke and apologised for the damage caused. |
+| tiddy-mun-c06 | exact | en.wikipedia.org | He was not exclusively malevolent: if the Fens flooded and the waters reached the villages, people would go out at night and call Tiddy Mun. | He was not exclusively malevolent; if the Fens flooded and the waters reached the villages, people would go out at night and call Tiddy Mun |
+| tiddy-mun-c07 | exact | en.wikipedia.org | Balfour in 1891 described Tiddy Mun as no bigger than a three-year-old child but looking like an old man with long, tangled white hair and a matted white beard. | The Tiddy Mun was described, by folklorist M.C. Balfour in 1891, as being no bigger than a three-year-old child, but looking like an old man with long, tangled white hair and a matted white beard. |
+| tiddy-mun-c08 | exact | en.wikipedia.org | He is said to have worn a grey gown so that at dusk he was difficult to see, and his laughter was said to resemble the call of the peewit. | He is said to have worn a grey gown so that at dusk he was difficult to see. His laughter was said to resemble the call of the peewit. |
+| tiddy-mun-c09 | exact | en.wikipedia.org | Writing in 1955, E. H. Rudkin records another Ancholme Valley belief in an imp-like race generally considered mischievous but benevolent. | Writing in 1955, folklorist E. H. Rudkin also records another Ancholme Valley belief of an imp-like race of beings who were generally considered mischievous but benevolent. |
+| tiddy-mun-c10 | exact | en.wikipedia.org | The Tiddy people would dance by moonlight on large flat stones known as Strangers Stones. | The Tiddy people would dance, by moonlight, on large flat stones, known as Strangers Stones, found in the area. |
+| tiddy-mun-c11 | exact | en.wikipedia.org | Darwin Horn argues that Tiddy Mun's curses may be connected to misfortune and disease brought about by the draining of the fenland. | may be connected to misfortune and disease brought about by the effect of draining the fenland. |
+| tiddy-mun-c12 | exact | archive.org | In Balfour's dialect text Tiddy Mun dwelt in the water-holes (watter-holes), and the Dutch (Dutchies) were emptying them out. | Tiddy Mun dwelt i' tha watter-holes, an' noo tha Dutchies wor a emptyin' 'em out |
+| tiddy-mun-c13 | exact | archive.org | He was called Tiddy Mun because he was none bigger than a three-year-old child (three year's bairn), but had no real name. | for a wor none bigger 'n a three year's bairn, but a hadn't rightly no sort of a name |
+| tiddy-mun-c14 | exact | archive.org | The old teller claims to have seen him limping by in the fog, all grey and white and screeching like the pyewipe (peewit). | a've seen un mysel, limpin' by i' tha fog, all grey an' white an' screechin' like tha pyewipe |
+| tiddy-mun-c15 | exact | archive.org | At every new moon people poured water into the dyke crying to Tiddy Mun without a name: "Here's watter for thee!" (here is water for thee). | Tiddy Mun wi-out a name Here's watter for thee ! |
+| tiddy-mun-c16 | exact | archive.org | The teller guesses Tiddy Mun has been frightened away by all the new ways and gear, so folk no longer know him. | Tiddy Mun 's bin' frighted away wi' a' tha new ways an' gear, for folk dinna ken un no more |
 
 
-## wd-q12287283 — lulus-otomatis
+## wd-q12287283 — skip
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Identitas 'Мойви (Moivi), roh air yang menenggelamkan pelaut dalam legenda Inggris' tidak dapat dipastikan. Satu-satunya artikel Wikipedia (bg: Мойви) ditandai pengelolanya sendiri sebagai tanpa sumber dan mungkin tidak lengkap, tidak akurat, atau seluruhnya keliru; isinya (kulit hijau, rambut seperti ganggang, 'gelombang kematian') tidak ditemukan di sumber lain mana pun. Pencarian web tidak menemukan tokoh bernama Moivi dalam cerita rakyat Inggris; ciri yang disebut mirip Jenny Greenteeth, tetapi menyamakannya adalah dugaan tanpa sumber. (https://bg.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B9%D0%B2%D0%B8).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q12287283-c01 | exact | bg.wikipedia.org | Мойви is a mythological figure documented in folklore records. | Мойвите са водни духове, които удавят моряци. |
 
 
 ## yallery-brown — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| yallery-brown-c01 | exact | en.wikipedia.org | Yallery Brown is documented as yallery brown mischievous in regional lore. | Yallery Brown is a mischievous fairy-like nature spirit in an old Lincolnshire folk tale from England, which itself is usually named after the creature. |
+| yallery-brown-c01 | exact | en.wikipedia.org | Yallery Brown is a mischievous fairy-like nature spirit in an old Lincolnshire folk tale from England, which is itself usually named after the creature. | Yallery Brown is a mischievous fairy-like nature spirit in an old Lincolnshire folk tale from England, which itself is usually named after the creature. |
+| yallery-brown-c02 | exact | en.wikipedia.org | The story was first cited by M. C. Balfour in 1891 within a set of stories collected in the Ancholme Valley of North Lincolnshire and published in the Folklore Society journal Folklore. | This story was first cited by M C Balfour in 1891 within a set of stories collected in the Ancholme Valley of North Lincolnshire, and published in the Folklore Society journal Folklore |
+| yallery-brown-c03 | exact | en.wikipedia.org | The story was also sent to Joseph Jacobs and included in his More English Fairy Tales. | The story was also sent to Joseph Jacobs and included in his More English Fairy tales. |
+| yallery-brown-c04 | exact | en.wikipedia.org | In Balfour's version the teller speaks in the first person. | Balfour's tale has the teller speaking in first person. |
+| yallery-brown-c05 | exact | gutenberg.org | In Jacobs's version, a young lad of eighteen or so named Tom Tiver worked on the Hall Farm. | there was a young lad of eighteen or so named Tom Tiver working on the Hall Farm. |
+| yallery-brown-c06 | exact | gutenberg.org | After the stone is lifted, a tiddy thing lies on its back in the hole, blinking up at the moon and at Tom. | And there in the hole lay a tiddy thing on its back, blinking up at the moon and at him. |
+| yallery-brown-c07 | exact | gutenberg.org | It had long matted hair and beard twisted round its body so that its clothes could not be seen. | but it had long cotted hair and beard, twisted round and round its body so that you couldn't see its clothes |
+| yallery-brown-c08 | exact | gutenberg.org | Its skin was the colour of freshly turned earth in spring, brown as brown could be. | the skin was the colour of the fresh turned earth in the spring—brown as brown could be |
+| yallery-brown-c09 | exact | gutenberg.org | The creature himself tells Tom to call him Yallery Brown, "'t is my nature", and says it will do as a name like any other. | Yallery Brown thou mayst call me, Yallery Brown; 't is my nature seest thou, and as for a name 't will do as any other. |
+| yallery-brown-c10 | exact | gutenberg.org | Yallery Brown agrees to help but warns that if Tom ever thanks him, Tom will never see him more. | I'll help thee and welcome, but if ever thou sayest that to me—if ever thou thankest me, see'st thou, thou 'lt never see me more. |
+| yallery-brown-c11 | exact | gutenberg.org | Day after day all Tom's work was done by Yallery Brown, and better than Tom could have done it himself. | And so it went on day after day, all the work done by Yallery Brown, and better done, too, than he could have done it himself. |
+| yallery-brown-c12 | exact | gutenberg.org | If Tom's work was done for him, the other lads' work was undone; his buckets were filled while theirs were upset. | If the work was done for Tom, 't was undone for the other lads; if his buckets were filled, theirs were upset |
+| yallery-brown-c13 | exact | gutenberg.org | Tom never saw Yallery Brown in daylight; only in the dark did he see him hopping about like a Will-o-th'-wyke without his lantern. | For he never saw Yallery Brown in daylight; only in the darklins he saw him hopping about, like a Will-o-th'-wyke without his lanthorn. |
+| yallery-brown-c14 | exact | gutenberg.org | After Tom thanks him, the creature says he was safe under the stone and could do no harm, but Tom let him out himself and cannot put him back. | I was nice and safe under the stone, Tom, and could do no harm; but thou let me out thyself, and thou can't put me back again! |
+| yallery-brown-c15 | exact | gutenberg.org | The curse came true: the children died, the crops rotted, the beasts never fattened, and nothing ever did well with Tom. | And the children died, and the crops rotted—the beasts never fatted, and nothing ever did well with him |
 

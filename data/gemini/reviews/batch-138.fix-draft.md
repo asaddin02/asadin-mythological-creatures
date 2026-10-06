@@ -4,13 +4,5 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
-## ergene-iyesi
-- `claims (ergene-iyesi-c05)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-## carsamba-kar-s
-- `era.text`: Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `short_description`: Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin`: Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
-## demirk-ynak
-- `era.text`: Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+## tarla-iyesi
+- `long_description[0]`: Tidak muncul di kutipan mana pun: Moğolca-nya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.

@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-139",
-  "checked_at": "2026-10-04T22:48:53.945Z",
+  "checked_at": "2026-10-05T16:28:44.743Z",
   "files": [
     "batch-139-q1.md",
     "batch-139-q2.md",
@@ -8,27 +8,19 @@
     "batch-139-s4.md",
     "batch-139-u3.md",
     "batch-139-u4.md",
+    "batch-139-v3.md",
+    "batch-139-v4.md",
     "batch-139.md"
   ],
   "parse_problems": [],
   "missing": [
-    "nihang-mythology",
-    "oci-koci",
-    "oymaq-iy-si",
-    "pir",
-    "rbuk",
-    "unuqay",
-    "wd-q13166364",
-    "wd-q19714498",
     "wd-q25506634",
     "wd-q25598410",
     "wd-q25598411",
     "wd-q4461617",
     "wd-q4502809",
-    "wd-q4532797",
     "wd-q65313108",
-    "zuzulo",
-    "halmasti"
+    "zuzulo"
   ],
   "entries": [
     {
@@ -2325,20 +2317,14 @@
     },
     {
       "slug": "susulu-mythology",
-      "file": "batch-139-u4.md",
+      "file": "batch-139-v3.md",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 13,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "relations[0].target_name",
-          "message": "Tidak muncul di kutipan mana pun: Mermaid. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "susulu-mythology-c01",
@@ -2695,6 +2681,1417 @@
           "statement": "In Turkic culture (Türk kültüründe) the earth is likened to a great tent, so Yurt means both home and fatherland (hem ev hem de vatan).",
           "statement_id": "Dalam budaya Turk (Türk kültüründe) bumi diibaratkan tenda besar, sehingga Yurt berarti rumah sekaligus tanah air (hem ev hem de vatan).",
           "quote": "Türk kültüründe yeryüzü büyük bir çadıra benzetilir, dolayısıyla Yurt hem ev hem de vatan demektir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "nihang-mythology",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 13,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "nihang-mythology-c01",
+          "source_id": "nihang-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nihang are mythical water dragons from the Chitrali mythology in northwestern Pakistan.",
+          "statement_id": "Nihang adalah naga air mitos (mythical water dragons) dalam mitologi Chitrali di Pakistan barat laut.",
+          "quote": "Nihang are mythical water dragons from the Chitrali mythology in northwestern Pakistan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c02",
+          "source_id": "nihang-mythology-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The lake-dwelling dragons of Chitrali mythology are called Nihang; the name derives from the Persian word nahang for crocodiles, classically also used for various sea creatures.",
+          "statement_id": "Naga penghuni danau (lake-dwelling dragons) dalam mitologi Chitrali disebut Nihang; namanya berasal dari kata Persia nahang untuk buaya, yang secara klasik juga dipakai untuk berbagai makhluk laut.",
+          "quote": "Other creatures of fame in Chitrali Mythology are the lake-dwelling dragons, known as Nihang, the name being derived from the Persian word nahang for crocodiles but classically used for various sea creatures.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c03",
+          "source_id": "nihang-mythology-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The author suggests these creatures are better called winged serpents; they were gigantic scaly creatures known for their golden manes.",
+          "statement_id": "Penulis menilai makhluk ini lebih tepat disebut ular bersayap (winged serpents); mereka raksasa bersisik yang dikenal karena surai emasnya (golden manes).",
+          "quote": "Perhaps a better term for these creatures would be winged serpents, also found in many parts of mainland Pakistan. These gigantic scaly creatures were known for their golden manes,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c04",
+          "source_id": "nihang-mythology-s2",
+          "host": "www.worldhistory.org",
+          "statement": "One of them inhabited a lake in Chitral and terrorized the populace until an ancient warrior stood up against it with a double-hilted sword.",
+          "statement_id": "Salah satunya menghuni sebuah danau di Chitral dan meneror penduduk, sampai seorang pendekar kuno melawannya dengan pedang bergagang ganda (double-hilted sword).",
+          "quote": "one of them inhabited a lake in Chitral where it terrorized the local populace, but its reign of terror ended when one day an ancient warrior stood up against it using a double-hilted sword.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c05",
+          "source_id": "nihang-mythology-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The Chitrali dragon looks wholly East Asian, with a thick fur-like mane, aquatic habitat and long slender serpent-like body, but unlike Eastern dragons it is a malevolent creature that terrorizes its vicinity.",
+          "statement_id": "Wujud naga Chitrali tampak sepenuhnya Asia Timur (East Asian): surai tebal seperti bulu, habitat air, dan tubuh panjang ramping seperti ular; namun tidak seperti naga Timur, ia makhluk jahat (malevolent) yang meneror sekitarnya.",
+          "quote": "the physical description of the dragon appears to be completely East Asian with the thick furlike mane, aquatic habitat, and a long slender serpent-like body, however, unlike the Eastern dragons, the Chitrali dragon appears to be a malevolent creature bent on keeping a reign of terror upon its vicinity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c06",
+          "source_id": "nihang-mythology-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Lake-dwelling creatures seem to be an ancient belief of the Hindu Kush mountains.",
+          "statement_id": "Makhluk penghuni danau tampaknya merupakan kepercayaan kuno di pegunungan Hindu Kush (Hindu Kush mountains).",
+          "quote": "Lake dwelling creatures seem to be an ancient belief of the Hindu Kush mountains.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c07",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "The river by Mastuj once formed a large lake below the town; an enormous dragon is said to have lived there, preying on all living things from fish to animals, and later began to attack humans.",
+          "statement_id": "Sungai yang mengalir di dekat Mastuj dulu membentuk danau besar di bawah kota; konon seekor naga raksasa (enormous dragon) tinggal di sana, memangsa segala makhluk hidup dari ikan hingga hewan, lalu mulai menyerang manusia.",
+          "quote": "The river which flows by Mastuj, once formed a large lake just below the town. It is said that an enormous dragon lived in the lake. He preyed upon all living things, ranging from fish to animals. With the passage of time, he began to attack humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c08",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "The huge reptile was invulnerable to weapons; arrows did not reach it from afar, and approaching it was difficult and risky.",
+          "statement_id": "Reptil raksasa itu kebal senjata (invulnerable to weapons); anak panah tidak mencapainya dari jauh, sedangkan mendekatinya sulit dan berbahaya.",
+          "quote": "The huge reptile was invulnerable to weapons. Arrows didn’t reach him from a long distance, while going near it was difficult and risky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c09",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "The brave man had a blacksmith make a long sharp sword with a hilt on both ends.",
+          "statement_id": "Sang pemberani memesan kepada pandai besi (blacksmith) sebilah pedang panjang dan tajam dengan gagang di kedua ujungnya.",
+          "quote": "Afterwards he ordered a blacksmith to make a long and sharp sword, with a hilt on both ends.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c10",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "When the dragon pulled the man towards its mouth, the razor-sharp blade sliced its jaws apart, and poison finished the job.",
+          "statement_id": "Ketika naga menyedot sang pria ke mulutnya, bilah pedang yang sangat tajam membelah rahangnya (jaws), dan racun (poison) menuntaskan sisanya.",
+          "quote": "As soon as he pulled the man towards its mouth, the razor sharp blade of the sword began slicing his jaws apart. Soon he went down to its belly, poison swiftly completed the rest of the job.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c11",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "The brave man cut one of the golden locks from the dragon's mane and rode to the royal court.",
+          "statement_id": "Sang pemberani memotong seikat rambut emas (golden locks) dari surai naga lalu memacu kudanya ke istana raja.",
+          "quote": "The brave man cut one of the golden locks from the dragon’s mane and galloped his horse towards the royal court.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c12",
+          "source_id": "nihang-mythology-s3",
+          "host": "mahraka.com",
+          "statement": "The lake no longer exists, but the place is still called Nahangu Chhat (The Dragon's Lake).",
+          "statement_id": "Danau itu kini sudah tidak ada, tetapi tempatnya masih disebut Nahangu Chhat (The Dragon's Lake, Danau Naga).",
+          "quote": "The Lake no more exists today but the place is still called Nahangu Chhat (The Dragon’s Lake).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nihang-mythology-c13",
+          "source_id": "nihang-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The place name Nahangu Chhat means The Dragon's Lake in the Khowar language.",
+          "statement_id": "Nama tempat Nahangu Chhat berarti Danau Naga (The Dragon's Lake) dalam bahasa Khowar.",
+          "quote": "Though the lake is gone, the place is still called Nahangu Chhat, which means \"The Dragon’s Lake\" in the Khowar language.",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "oci-koci",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "oci-koci-c01",
+          "source_id": "oci-koci-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Oçokoçi or Oçi Koçi (ოჩოკოჩი) is a mountain-dwelling (dağda yaşayan) figure in Gürcü-Megrel-Laz mythology.",
+          "statement_id": "Oçokoçi atau Oçi Koçi (ოჩოკოჩი) adalah sosok yang tinggal di gunung (dağda yaşayan) dalam mitologi Gürcü-Megrel-Laz.",
+          "quote": "Oçokoçi veya Oçi Koçi (Gürcüce: ოჩოკოჩი), Gürcü-Megrel-Laz mitolojisinde dağda yaşayan bir kişilik.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c02",
+          "source_id": "oci-koci-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "In Megrel folk belief it is a demon (iblis) of human appearance with a hair-covered body that haunts villages in winter and eats boys and calves in the barn.",
+          "statement_id": "Dalam kepercayaan rakyat Megrel, ia iblis (iblis) berwujud manusia bertubuh penuh bulu yang mendatangi desa pada musim dingin dan memakan anak laki-laki serta anak sapi di kandang.",
+          "quote": "Megrel halk inanışında kışın köylere dadanan ve erkek çocuklarla ahırdaki inek yavrularını yiyen vücudu kıllarla kaplı insan görünümünde bir iblistir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c03",
+          "source_id": "oci-koci-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Oçokoçi cannot speak, but the sound it makes is unbearable to people; its whole body is covered in jet-black (simsiyah) hair and it has long sharp claws.",
+          "statement_id": "Oçokoçi tidak bisa berbicara, tetapi suaranya tak tertahankan bagi manusia; seluruh tubuhnya berbulu hitam pekat (simsiyah) dan cakarnya panjang serta tajam.",
+          "quote": "Oçokoçi, konuşmasını bilmez, ama çıkardığı ses insanlar için dayanılmaz bir sestir. Oçokoçi'nin bütün vücudu simsiyah tüylerle kaplıdır. Uzun ve keskin pençeleri vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c04",
+          "source_id": "oci-koci-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "It carries an axe-like tool (baltaya benzer) and splits in two the people who oppose it.",
+          "statement_id": "Ia membawa alat mirip kapak (baltaya benzer) dan membelah dua orang yang melawannya dengan alat itu.",
+          "quote": "Yanında baltaya benzer bir alet taşır ve kendisine karşı gelen insanları bu aletle ikiye ayırır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c05",
+          "source_id": "oci-koci-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "An Oçokoçi killed by people comes back to life (canlanır) if it is shot a second time.",
+          "statement_id": "Oçokoçi yang dibunuh manusia hidup kembali (canlanır) bila ditembak untuk kedua kalinya.",
+          "quote": "İnsanlar tarafından öldürülen Oçokoçi, ikinci kez ateş edildiğinde canlanır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c06",
+          "source_id": "oci-koci-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Ochokochi, literally goat-man, is a figure from Georgian mythology, particularly of the Colchian and Mingrelian groups.",
+          "statement_id": "Ochokochi secara harfiah berarti manusia-kambing (goat-man) dan merupakan sosok mitologi Georgian, khususnya kelompok Colchian dan Mingrelian.",
+          "quote": "literally goat-man) is a figure from Georgian mythology, particularly the Colchian and Mingrelian ethnic groups.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c07",
+          "source_id": "oci-koci-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Instead of hair on his breast he has a protuberance shaped like a pointed bone or a stone-axe; he attacks passers-by and kills them by embracing them.",
+          "statement_id": "Alih-alih bulu di dadanya, ia memiliki tonjolan berbentuk tulang runcing atau kapak batu (stone-axe); ia menyerang orang lewat dan membunuh mereka dengan memeluk (embracing).",
+          "quote": "Instead of hair on his breast, he has a protuberance in the form of a pointed bone or a stone-axe. He attacks passers by, whom he kills by embracing them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c08",
+          "source_id": "oci-koci-s2",
+          "host": "en.wikipedia.org",
+          "statement": "He is infatuated with the beauty of the Queen of the Forest, Tkashi-Mapa, and chases her, but his attempts are often thwarted by hunters who visit her forest.",
+          "statement_id": "Ia tergila-gila pada kecantikan Ratu Hutan (Queen of the Forest), Tkashi-Mapa, dan mengejarnya, tetapi usahanya sering digagalkan para pemburu (hunters) yang datang ke hutannya.",
+          "quote": "He is infatuated by the beauty of the Queen of the Forest, Tkashi-Mapa, after whom he chases. However, his attempts to catch her are often thwarted by the hunters who visit her forest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oci-koci-c09",
+          "source_id": "oci-koci-s3",
+          "host": "proceedings.taas.ge",
+          "statement": "In legends the representatives of the pagan pantheon (Tkashmapa, Ochokochi) appear near people and have magical qualities that make them obedient to humans; they also give people the fortune to hunt.",
+          "statement_id": "Dalam legenda, wakil panteon pagan (Tkashmapa, Ochokochi) muncul di dekat manusia dan memiliki sifat magis (magical qualities) yang membuat mereka patuh kepada manusia; mereka juga memberi keberuntungan berburu (fortune to hunt).",
+          "quote": "the representatives of the pagan pantheon (Tkashmapa, Ochokochi) appear next to people and possess the magical qualities that make them obedient to humans. They also give people the fortune to hunt.",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250912223909id_/https://proceedings.taas.ge/index.php/taas/article/view/5238",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "oci-koci-c10",
+          "source_id": "oci-koci-s3",
+          "host": "proceedings.taas.ge",
+          "statement": "Ochococh (Ochokochi) occupies an important place in the Megrelian pagan pantheon.",
+          "statement_id": "Ochococh (Ochokochi) menempati tempat penting dalam panteon pagan Megrelian (Megrelian pagan pantheon).",
+          "quote": "And Ochococh occupies an important place in the Megrelian pagan pantheon.",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250912223909id_/https://proceedings.taas.ge/index.php/taas/article/view/5238",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "oymaq-iy-si",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "oymaq-iy-si-c01",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Oymaq iyəsi is the protective spirit (qoruyucu ruhu) of a clan or tribe in türk, monqol and altay mythologies.",
+          "statement_id": "Oymaq iyəsi adalah roh pelindung (qoruyucu ruhu) kabilah atau suku dalam mitologi türk, monqol, dan altay.",
+          "quote": "Oymaq iyəsi — türk, monqol və altay mifologiyalarında qəbilənin və ya tayfanın qoruyucu ruhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c02",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "It is also known as Oyu (Oyuv, Uyıv) iyəsi.",
+          "statement_id": "Ia juga dikenal sebagai Oyu (Oyuv, Uyıv) iyəsi.",
+          "quote": "Oymaq iyəsi və ya Oyu (Oyuv, ​​Uyıv) iyəsi olaraq da bilinər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c03",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The term Uruk (Uruğ, Urıv) iyəsi is sometimes used with a similar meaning; the Monqollar (Mongols) know it as Aymag Ezen; every tribe has its own protective spirit.",
+          "statement_id": "Istilah Uruk (Uruğ, Urıv) iyəsi kadang dipakai dengan makna serupa; orang Monqol (Monqollar) mengenalnya sebagai Aymag Ezen; setiap suku punya roh pelindung sendiri.",
+          "quote": "Bəzən Uruk (Uruğ, Urıv) iyəsi təbiri də bənzər bir məna ifadə etmək üçün istifadə edilir. Monqollar Aymag Ezen olaraq bilərlər. Hər tayfanın fərqli bir qoruyucu ruhu vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c04",
+          "source_id": "oymaq-iy-si-s2",
+          "host": "archive.org",
+          "statement": "The dictionary lists Oymak İyesi as the protective spirit of the oymak (Oymağın Koruyucu Ruhu).",
+          "statement_id": "Kamus mencatat Oymak İyesi sebagai roh pelindung oymak (Oymağın Koruyucu Ruhu).",
+          "quote": "OYMAK İYESİ: Oymağın Koruyucu Ruhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c05",
+          "source_id": "oymaq-iy-si-s2",
+          "host": "archive.org",
+          "statement": "Every oymak (aşîret, clan) has its own protective spirit; among the old Turks (Eski Türklerde), the oymak was the first stage of social organization above family and lineage.",
+          "statement_id": "Setiap oymak (aşîret, kabilah) memiliki roh pelindung sendiri; pada orang Turk kuno (Eski Türklerde), oymak adalah tahap pertama organisasi sosial di atas keluarga dan dinasti.",
+          "quote": "Her oymağın (aşîretin) kendi koruyucu ruhu vardır. Eski Türklerde aile ve sülale gibi alt birimlerin üzerinde, toplumsal örgütlenmenin ilk aşaması oymaklardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c06",
+          "source_id": "oymaq-iy-si-s2",
+          "host": "archive.org",
+          "statement": "Oymaks join to form boys (tribes); many a boy or oymak has a founding ancestor bearing its name, and this ancestor (ata) is generally regarded as the protector of the oymak, and in time of the boy and even the nation.",
+          "statement_id": "Gabungan oymak membentuk boy (suku); banyak boy atau oymak memiliki leluhur pendiri yang namanya dipakai, dan leluhur (ata) itu umumnya dianggap pelindung oymak, kemudian boy, bahkan bangsa.",
+          "quote": "Oymaklar bir araya gelerek boyları oluşturur. Pek çok boyun veyâ oymağın kurucusu olan ve kendi adını taşıyan bir atası bulunur. Bu ata genellikle o oymağın (ve zamanla boyun, hattâ ulusun) koruyucusu olarak kabul görür.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c07",
+          "source_id": "oymaq-iy-si-s2",
+          "host": "archive.org",
+          "statement": "An example is Kırgız Han, founder of the Kırgız nation, who dwells at the source of the Yenisey river (Yenisey Irmağı).",
+          "statement_id": "Contohnya Kırgız Han, pendiri bangsa Kırgız, yang bersemayam di hulu Sungai Yenisey (Yenisey Irmağı).",
+          "quote": "Kırgız Han: Kırgız ulusunun kurucucusudur. Yenisey Irmağı'nın kaynağında oturur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c08",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Merde Xan is believed to be the ancestor and protector of the Altay Turks and has the power to bring rain (Yağış yağdırma gücü).",
+          "statement_id": "Merde Xan dipercaya sebagai leluhur dan pelindung orang Altay türk, dan memiliki kekuatan menurunkan hujan (Yağış yağdırma gücü).",
+          "quote": "Merde Xan: Altay türklərinin atası və qoruyucusu olduğuna inanılar. Yağış yağdırma gücü vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c09",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Oba iyəsi is the protective spirit of the oba (encampment) in türk folk belief; each oba is believed to have its own protective spirit.",
+          "statement_id": "Oba iyəsi adalah roh pelindung oba (perkemahan) dalam kepercayaan rakyat türk; setiap oba dipercaya punya roh pelindung sendiri.",
+          "quote": "Oba iyəsi, türk xalq inancında obanın qoruyucu ruhudur. Hər obanın öz qoruyucu ruhu olduğuna inanırlar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c10",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Oba iyəsi should be considered together with Oymak iyəsi because it has similar and close (bənzər və yaxın) features.",
+          "statement_id": "Oba iyəsi perlu dinilai bersama Oymak iyəsi karena memiliki sifat yang mirip dan dekat (bənzər və yaxın).",
+          "quote": "Oba iyəsi də Oymak iyəsi ilə birlikdə qiymətləndirilməsi lazım olan, çünki bənzər və yaxın xüsusiyyətlər daşıyan bir varlıqdır.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oymaq-iy-si-c11",
+          "source_id": "oymaq-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The word derives from the root (Oy/Uy/Ay); in Monqol it appears as Aymag, in mancur as Ayman, and Monqol Oyoh means to bind (bağlamaq).",
+          "statement_id": "Kata ini berasal dari akar (Oy/Uy/Ay); dalam bahasa Monqol menjadi Aymag, dalam bahasa mancur Ayman, dan Oyoh dalam bahasa Monqol berarti mengikat (bağlamaq).",
+          "quote": "(Oy/Uy/Ay) kökündən törəmişdir. Monqolca Aymag, mancur dilində Ayman olaraq keçər. Monqolca Oyoh bağlamaq mənası daşıyır.",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "pir",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 12,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "pir-c01",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Pir (Пир; Iranian for old, elder, knowledgeable elder) is the patron (колдоочусу) of various occupations in the mythology of Turkic-speaking peoples (түрк тилдүү элдердин).",
+          "statement_id": "Pir (Пир; dari bahasa Iran: tua, orang tua, orang tua yang berilmu) adalah pelindung (колдоочусу) berbagai pekerjaan dalam mitologi bangsa-bangsa berbahasa Turk (түрк тилдүү элдердин).",
+          "quote": "Пир (иранча эски, кары, билерман кары) — түрк тилдүү элдердин мифологиясында ар кандай иштин колдоочусу.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c02",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "The concept is widely developed in Turkic mythology; with the rise of Islam (Ислам), many pirs appeared in Muslim (мусулман) mythology.",
+          "statement_id": "Konsep ini berkembang luas dalam mitologi Turk; dengan munculnya agama Islam (Ислам), banyak pir muncul dalam mitologi Muslim (мусулман).",
+          "quote": "Түрк мифологиясында кеңири өнүккөн. Ислам дининин пайда болушу менен мусулман мифологиясында көптөгөн П-лер келип чыккан.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c03",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "For example, the pir of dogs is Кумайык, the pir of water is Сулайман, and the pir of sheep is Чолпон-Ата.",
+          "statement_id": "Misalnya, pir anjing adalah Кумайык, pir air adalah Сулайман, dan pir domba adalah Чолпон-Ата.",
+          "quote": "Мисалы, иттин П-н — Кумайык, суунун П-и — Сулайман, Койдун П-и — Чолпон-Ата,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c04",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "People worshipped in the names of these pirs and believed that they protected (колдойт) them.",
+          "statement_id": "Orang-orang memuja nama para pir itu dan percaya bahwa mereka melindungi (колдойт).",
+          "quote": "Элдер ошол П-лердин атына сыйынган, алар колдойт деп ишенишкен.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c05",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "In the epic (Эпосто), the pir accompanies a hero or wise person of special virtue and helps him in hard times; sometimes the pir becomes visible to the person it protects.",
+          "statement_id": "Dalam epos (Эпосто), pir menyertai pahlawan atau orang bijak yang memiliki keistimewaan dan menolongnya di saat sulit; kadang pir menampakkan diri kepada orang yang dilindunginya.",
+          "quote": "Эпосто П. өзгөчө касиетке ээ, баатыр, акылман адамды жылоолоп жүргөн, кыйын-кыстоо жерде аны колдогон. П. кээде колдоочу адамынын көзүнө көрүнгөн.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c06",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "In religious belief, the pir is considered sacred and holy like the ancestral spirits (арбак).",
+          "statement_id": "Dalam kepercayaan agama, pir dianggap suci dan keramat seperti arwah leluhur (арбак).",
+          "quote": "Диний ишенимде П. арбак сыяктуу эле касиеттүү ыйык делип эсептелет.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c07",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "The baby who had slipped out of his swaddling was found being suckled by a white deer (ак бугу) with 12 tines.",
+          "statement_id": "Bayi yang tergelincir dari bedongnya ditemukan sedang disusui rusa putih (ак бугу) bercabang 12.",
+          "quote": "Кундагынан суурулуп чыгып кеткен баланы 12 айры ак бугу эмизип турган болот.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c08",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Thus the white deer is spoken of as the pir that had protected Семетей since birth.",
+          "statement_id": "Jadi rusa putih itu disebut sebagai pir yang telah melindungi Семетей sejak lahir.",
+          "quote": "Демек, ак бугу Семетейди төрөлгөндөн эле колдоп жүргөн П-и катары айтылат.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c09",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Sometimes a highly respected, very wise elder held sacred by some people (адамы) is also regarded as a pir.",
+          "statement_id": "Kadang orang tua yang terpandang, sangat bijak, dan dihormati sebagai suci oleh sebagian orang (адамы) juga dianggap pir.",
+          "quote": "Кээде зоболосу бийик, ашкере акылман, көсөм карыя, бирөөлөр ыйык туткан адамы да П. деп эсептелет.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c10",
+          "source_id": "pir-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Although the pirs protecting a person are many, shaking hands with twelve (он экисине) of them and gaining their protection is accepted in the epic as a religious rite.",
+          "statement_id": "Walaupun pir pelindung manusia banyak, berjabat tangan dengan dua belas (он экисине) di antaranya dan memperoleh perlindungan mereka diterima dalam epos sebagai ritus keagamaan.",
+          "quote": "Ошондуктан, адамды колдоочу П-лер көп болсо да, анын он экисине кол берүү, он экисинин колдоосуна ээ болуу эпосто да диний ырым катары кабыл алынган.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c11",
+          "source_id": "pir-s2",
+          "host": "archive.org",
+          "statement": "The dictionary defines Pir (from Farsça) as a spiritual leader (Manevî önder): a person or being (varlık) believed to head the blessed beings and to show the way.",
+          "statement_id": "Kamus menjelaskan Pir (dari Farsça) sebagai pemimpin spiritual (Manevî önder): sosok atau makhluk (varlık) yang dipercaya mengepalai makhluk-makhluk suci dan memberi petunjuk jalan.",
+          "quote": "Pir (Farsça, Pir): Manevî önder. Kutlu varlıkların başında bulunduğuna, yol gösterdiğine inanılan kişi veya varlık.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pir-c12",
+          "source_id": "pir-s2",
+          "host": "archive.org",
+          "statement": "A pir is also regarded as the founder of a profession, for example the Pir of the blacksmiths (Demircilerin Piri).",
+          "statement_id": "Pir juga dianggap pendiri sebuah profesi, misalnya Pir para pandai besi (Demircilerin Piri).",
+          "quote": "Bir mesleğin kurucusu olarak da kabul edilir. Örneğin; Demircilerin Piri gibi...",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "rbuk",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "rbuk-c01",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Ərbükə is a supernatural being (fövqəltəbii varlı) found mostly in the tales and stories of central and eastern Anadolu; below the waist it is a snake (ilan) and above it is human (insan), and it finds remedies for people's troubles.",
+          "statement_id": "Ərbükə adalah makhluk gaib (fövqəltəbii varlı) yang terutama dijumpai dalam dongeng dan cerita Anadolu tengah dan timur; dari pinggang ke bawah berwujud ular (ilan) dan bagian atasnya manusia (insan), serta menemukan obat bagi derita manusia.",
+          "quote": "daha çox orta və şərq Anadolu nağıllarında, hekayələrində rast gəlinən, bellərindən aşağısı ilan üstü isə insan şəklində təyin olunan, insanların dərdinə çarə tapan fövqəltəbii varlı",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c02",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "It is also called Erböke; these beings are headed by İlan Ana or İlan Ata.",
+          "statement_id": "Ia juga disebut Erböke; makhluk-makhluk ini dipimpin oleh İlan Ana atau İlan Ata.",
+          "quote": "Erböke də adlandırılır. Bu varlıqların başında İlan Ana və ya İlan Ata tapılar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c03",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "For the females (Dişi) the name İşbükə is used; in Anadolu they are also known as Maran (from Farsca: Məran, snake/ilan).",
+          "statement_id": "Untuk yang betina (Dişi) dipakai nama İşbükə; di Anadolu mereka juga dikenal sebagai Maran (dari Farsca: Məran, ular/ilan).",
+          "quote": "Dişi olanları üçün \"İşbükə\" istifadə olunur. Anadoluda Maran (Farsca: Məran \"ilan\") olaraq da bilinirler.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c04",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The clever snakes (ağıllı ilanların) living in an underground world are headed by a queen (kraliça) named Şahmaran.",
+          "statement_id": "Ular-ular cerdas (ağıllı ilanların) yang hidup di dunia bawah tanah dipimpin oleh seorang ratu (kraliça) bernama Şahmaran.",
+          "quote": "Yeraltındaki bir dünyada yaşayan ağıllı ilanların başında Şahmaran adlı bir kraliça vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c05",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "It is said that the marans do not yet know Şahmaran was killed; the moment they hear of her death they will come out of their land, attack the cities (şəhərlərə) of people and raze them.",
+          "statement_id": "Konon para maran belum tahu bahwa Şahmaran telah dibunuh; saat mendengar kematiannya, mereka akan keluar dari negeri mereka, menyerang kota-kota (şəhərlərə) manusia, dan meratakannya.",
+          "quote": "Şahmaranın öldürüldüyünü hələ bilməyən, maranların onun ölümünü duyduqları an ölkələrindən çıxıb insanların yaşadıqları şəhərlərə hücum edəcəkləri və yerlə bir edəcəkləri deyilər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c06",
+          "source_id": "rbuk-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The name joins Ər (insan, human) and Bükə (əjdaha, ilan: dragon, snake); in Türk folk belief it is a being half human and half snake.",
+          "statement_id": "Nama ini gabungan kata Ər (insan, manusia) dan Bükə (əjdaha, ilan: naga, ular); dalam kepercayaan rakyat Türk ia makhluk setengah manusia setengah ular.",
+          "quote": "Ər \"insan\" və Bükə \"əjdaha, ilan\" sözlərinin birləşməsidir. Türk xalq inancında yarı insan, yarı ilan olan varlıqdır.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c07",
+          "source_id": "rbuk-s2",
+          "host": "archive.org",
+          "statement": "The dictionary describes the Erbüke as a half-human, half-snake being (Yarı insan yarı yılan) headed by Yılan Ana and/or Yılan Ata.",
+          "statement_id": "Kamus mencatat Erbüke sebagai makhluk setengah manusia setengah ular (Yarı insan yarı yılan) yang dipimpin oleh Yılan Ana dan/atau Yılan Ata.",
+          "quote": "Yarı insan yarı yılan olan varlık. Bu varlıkların başında Yılan Ana ve/veyâ Yılan Ata bulunur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c08",
+          "source_id": "rbuk-s2",
+          "host": "archive.org",
+          "statement": "In tales (masallarda) they are mostly depicted as snake (yılan) from the waist down and human (insan) above.",
+          "statement_id": "Dalam dongeng (masallarda) mereka umumnya digambarkan berbentuk ular (yılan) dari pinggang ke bawah dan manusia (insan) di bagian atas.",
+          "quote": "Daha çok masallarda bellerinden aşağısı yılan, üst kısmı ise insan şeklinde betimlenirler.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c09",
+          "source_id": "rbuk-s2",
+          "host": "archive.org",
+          "statement": "The belief that these creatures are a cure (şifâ) for human illnesses is linked to the view of the snake (yılan) as the symbol of medicine (tıbbın simgesi).",
+          "statement_id": "Kepercayaan bahwa makhluk ini menjadi obat (şifâ) bagi penyakit manusia dikaitkan dengan pandangan bahwa ular (yılan) adalah simbol pengobatan (tıbbın simgesi).",
+          "quote": "Bu yaratıkların insanların hastalıklarına şifâ olduğuna inanılması ise yılanın tıbbın simgesi olarak görülmesi anlayışı ile de alâkalıdır.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c10",
+          "source_id": "rbuk-s2",
+          "host": "archive.org",
+          "statement": "For the females (Dişi) the term Eşbüke/İşbüke is used.",
+          "statement_id": "Untuk yang betina (Dişi) dipakai istilah Eşbüke/İşbüke.",
+          "quote": "Dişi olanları için \"Eşbüke/İşbüke\" tâbiri kullanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rbuk-c11",
+          "source_id": "rbuk-s2",
+          "host": "archive.org",
+          "statement": "According to the dictionary, Erbüke combines Er (erkek, male) and Büke (yılan, snake) and means Snake-Man (Yılan-Adam).",
+          "statement_id": "Menurut kamus, Erbüke gabungan kata Er (erkek, laki-laki) dan Büke (yılan, ular) dan berarti Manusia-Ular (Yılan-Adam).",
+          "quote": "Anlam - Erbüke: \"Er\" (erkek) ve \"Büke\" (yılan) sözcüklerinin bileşimidir. Yılan-Adam demektir.",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "unuqay",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 19,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "unuqay-c01",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Unuqay, or the goat transformation (keçi dönərgəsi) of Hal anası, is a monster (bədheybət) in Azerbaijan (Azərbaycan) mythology.",
+          "statement_id": "Unuqay, atau wujud kambing (keçi dönərgəsi) Hal anası, adalah makhluk mengerikan (bədheybət) dalam mitologi Azerbaijan (Azərbaycan).",
+          "quote": "Unuqay və ya Hal anasının keçi dönərgəsi — Azərbaycan mifologiyasında bədheybət.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c02",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "It appears before riders and cart drivers in the form of a goat (keçi), deceives them, and causes long-lasting defects (kəkələmə, axsama: stammering, limping).",
+          "statement_id": "Ia muncul di depan penunggang kuda dan kusir dalam wujud kambing (keçi), menipu mereka, dan menimbulkan cacat yang lama (kəkələmə, axsama: gagap, pincang).",
+          "quote": "Atlıların və arabaçıların qarşısına keçi formasında çıxaraq onları aldadır və uzun müddət davam edəcək tibbi qüsurlara (kəkələmə, axsama) səbəb olur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c03",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Unuqay is seen around cemeteries (qəbiristanlıq) and meets people mainly at dusk, as darkness falls (qaranlıq çökərkən).",
+          "statement_id": "Unuqay terlihat di sekitar kuburan (qəbiristanlıq) dan terutama menjumpai orang saat senja, ketika gelap turun (qaranlıq çökərkən).",
+          "quote": "Unuqay qəbiristanlıq ətrafı ərazilərdə görülür. O, əsasən axşamüstü, qaranlıq çökərkən insanların rastına çıxır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c04",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Once the traveller realises the goat is a monster, its legs begin to lengthen (ayaqları uzanmağa), and with this Unuqay's strength (gücü) grows.",
+          "statement_id": "Setelah pengembara tahu kambing itu makhluk mengerikan, kakinya mulai memanjang (ayaqları uzanmağa), dan seiring itu kekuatan (gücü) Unuqay bertambah.",
+          "quote": "Yolçu keçinin bədheybət olduğunu bildikdən sonra onun ayaqları uzanmağa başlayır. Ayaqlarının uzanması ilə birlikdə Unuqayın gücü də artır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c05",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "After some way on the road, the warmed-up goat's legs lengthen, and it sits on the horse like a person (adam kimi) and squeezes the rider.",
+          "statement_id": "Setelah beberapa lama di jalan, kaki kambing yang menghangat itu memanjang, lalu ia duduk di atas kuda seperti manusia (adam kimi) dan menjepit penunggangnya.",
+          "quote": "Bir qədər yol getdikdən sonra isə canına istilənmə gələn keçinin ayaqları uzanır və atın üstündə adam kimi oturub atlını sıxır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c06",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Like Hal's female form, it fears needles and pins (iynədən, sancaqdan); therefore needles and pins can be used to catch Unuqay.",
+          "statement_id": "Seperti wujud perempuan Hal, ia takut jarum dan peniti (iynədən, sancaqdan); karena itu jarum dan peniti dapat dipakai untuk menangkap Unuqay.",
+          "quote": "Halın qadın dönərgəsi kimi iynədən, sancaqdan qorxur. Buna görə də Unuqayı tutmaq üçün iynə və sancaq taxıb işlətmək olar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c07",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Unuqay's weak spots where the needle is to be stuck are the neck and the vein of the lower back (boyun və bel damarı).",
+          "statement_id": "Titik lemah Unuqay tempat jarum ditusukkan adalah leher dan urat pinggang (boyun və bel damarı).",
+          "quote": "Unuqayda iynənin sancılacağı zəif yerlər boyun və bel damarıdır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c08",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "In rare texts, as in stories about jinn (cinlərlə), Unuqay lures people into the cemetery, or climbs on a sleeping pregnant woman and destroys the child.",
+          "statement_id": "Dalam teks yang jarang, seperti kisah tentang jin (cinlərlə), Unuqay memperdaya orang dan membawanya ke dalam kuburan, atau naik ke atas perempuan hamil yang tidur dan membinasakan bayinya.",
+          "quote": "Nadir mətnlərdə Unuqay cinlərlə bağlı hekayələrdə olduğu kimi adamları aldadıb onları qəbiristanlığın içinə aparır və ya hamilə qadın yatarkən onun üstünə çıxıb uşağı tələf edir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c09",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The mythological figure Unuqay is often met in the Göynük villages of Şəki (Aşağı Göynük and Baş Göynük); 16 texts about Unuqay were recorded there.",
+          "statement_id": "Tokoh mitologis Unuqay sering dijumpai di desa-desa Göynük di Şəki (Aşağı Göynük dan Baş Göynük); di sana tercatat 16 teks tentang Unuqay.",
+          "quote": "Şəkinin Göynük kəndlərində (Aşağı Göynük və Baş Göynük) Unuqay mifoloji qəhrəmanına tez-tez rast gəlinir. Burada Unuqayla bağlı 16 mətn qeydə alınmışdır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c10",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The lengthening limbs seen in Unuqay also occur in the monster Çıntırqayış (Kəndirqayış), recorded in the Sədərək district of Naxçıvan.",
+          "statement_id": "Ciri anggota badan yang memanjang pada Unuqay juga ada pada makhluk Çıntırqayış (Kəndirqayış) yang tercatat di distrik Sədərək, Naxçıvan.",
+          "quote": "Unuqayda görülən ətraf üzvlərin uzanması xüsusiyyəti Naxçıvanın Sədərək rayonunda qeydə alınmış Çıntırqayış (Kəndirqayış) bədheybətində də vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c11",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Its animal form is a billy goat or kid (oğlaq); in most texts it is white (ağ), and in only one text black (qara).",
+          "statement_id": "Wujud hewannya kambing jantan atau anak kambing (oğlaq); dalam sebagian besar teks warnanya putih (ağ), hanya dalam satu teks hitam (qara).",
+          "quote": "Erkək keçi, oğlaq formasındadır. Keçinin rəngi mifoloji mətnlərin çoxunda ağ, yalnız bircə mətndə qaradır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c12",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Nənəqay is considered a variant of Unuqay, although no text mentions it by name.",
+          "statement_id": "Nənəqay dianggap varian Unuqay, meskipun tidak ada teks yang menyebut namanya.",
+          "quote": "Nənəqay. Adı keçən mətn olmasa da, Unuqayın variantı hesab edilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c13",
+          "source_id": "unuqay-s1",
+          "host": "az.wikipedia.org",
+          "statement": "In the Şəki texts the main name of the goat form is Unuqay; another name, Maşşax, is also used by Göynük people for blue-eyed (göy) persons.",
+          "statement_id": "Dalam teks Şəki nama utama wujud kambing itu Unuqay; nama lain, Maşşax, juga dipakai orang Göynük untuk orang bermata biru (göy).",
+          "quote": "Şəki mətnlərində keçi dönərgəsinə verilən əsas ad Unuqaydır. Digər istifadə olunan ad olan Maşşax göynüklülər tərəfindən gözlərinin rəngi göy olan insanlara da deyilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c14",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "The compiler recorded from this area many mythological characters unknown to Azerbaijan (Azərbaycan) folklore, with analogues in the folklore of other türk peoples; one is Unuqay, the goat form of Hal (Halın keçi dönərgəsi).",
+          "statement_id": "Penyusun mencatat dari daerah ini banyak tokoh mitologis yang belum dikenal dalam folklor Azerbaijan (Azərbaycan), dengan padanan dalam folklor bangsa türk lain; salah satunya Unuqay, wujud kambing Hal (Halın keçi dönərgəsi).",
+          "quote": "Bu bölgədən Azərbaycan folkloru üçün naməlum olan xeyli mifoloji personaj və mətn qeydə almışıq ki, onların analoji variantları ilə biz digər türk xalqlarının folklorunda qarşılaşırıq. Halın keçi dönərgəsi Unuqay",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c15",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "A narrator said it is called Maşşax, Unuqay and Kafdar, but mainly Unuqay (Əsas Unuqay).",
+          "statement_id": "Seorang penutur berkata makhluk itu disebut Maşşax, Unuqay, dan Kafdar, tetapi yang utama Unuqay (Əsas Unuqay).",
+          "quote": "Huna Maşşax diyilər, Unuqay diyilər, Kafdar diyilər. Əsas Unuqay diyilər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c16",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "According to the narrator, the xortdan and Unuqay fear the needle and the shovel (iyneynən lapatqadan), because the shroud (kəfən) is sewn with a needle and the grave (qavır) is dug with a shovel.",
+          "statement_id": "Menurut penutur, xortdan dan Unuqay takut jarum dan sekop (iyneynən lapatqadan), karena dengan jarum kain kafan (kəfən) dijahit dan dengan sekop kubur (qavır) digali.",
+          "quote": "Xortdeydi, Unuqaydı, iyneynən lapatqadan qorxuylər. Ona görə ki, iyneynən kəfən tikiliy, lapatqeynən qavır qazılıy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c17",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "In one account Unuqay was found stuck on top of the horse (atın üsdünə), and people stuck a needle (iynə) into its neck and lower-back vein (bel damarına).",
+          "statement_id": "Dalam satu kisah, Unuqay didapati menempel di atas kuda (atın üsdünə), lalu orang menusukkan jarum (iynə) ke leher dan urat pinggangnya (bel damarına).",
+          "quote": "gördux ki, Unuqay oturufdu atın üsdünə, yapışıfdı. Boynünə, bel damarına iynə sanciylər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c18",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "A narrator says Unuqay fears light and needles (İynədən, işıxdan qorxuy).",
+          "statement_id": "Seorang penutur menyebut Unuqay takut cahaya dan jarum (İynədən, işıxdan qorxuy).",
+          "quote": "İşıxdan qorxuy də. İynədən, işıxdan qorxuy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unuqay-c19",
+          "source_id": "unuqay-s2",
+          "host": "arxiv.folklor.az",
+          "statement": "After that the man's speech became slurred (dili pəltehləşdi) and he began to walk with a limp (axsax).",
+          "statement_id": "Setelah kejadian itu, lidah lelaki itu menjadi pelat (dili pəltehləşdi) dan ia mulai berjalan pincang (axsax).",
+          "quote": "Unnan sora dili pəltehləşdi ho kişinin. Sora da başdiyi axsax gəzmağa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "wd-q13166364",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 12,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "wd-q13166364-c01",
+          "source_id": "wd-q13166364-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Ачбуудан is the war horse of Жолой and the tulpar (тулпары, champion steed) he raced.",
+          "statement_id": "Ачбуудан adalah kuda perang Жолой dan tulpar (тулпары, kuda unggul) yang ia pacu dalam lomba.",
+          "quote": "Жолойдун жоого минген аты, байгеге чапкан тулпары.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c02",
+          "source_id": "wd-q13166364-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "In the horse race at Көкөтөй's memorial feast (ашындагы) it finishes after Аккула; it always saved Жолой from death (өлүмдөн).",
+          "statement_id": "Dalam lomba kuda pada pesta peringatan (ашындагы) Көкөтөй ia tiba setelah Аккула; ia selalu menyelamatkan Жолой dari maut (өлүмдөн).",
+          "quote": "Көкөтөйдүн ашындагы ат чабышта Аккуладан кийин келет. Жолойду ар качан өлүмдөн куткарган.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c03",
+          "source_id": "wd-q13166364-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "In one variant, when Манас is about to kill Жолой, Ачбуудан gains the power of speech (тил бүтүп) and begs for Жолой's blood (канын), that is, his life.",
+          "statement_id": "Dalam satu varian, ketika Манас hendak membunuh Жолой, Ачбуудан mendadak bisa berbicara (тил бүтүп) dan memohon darah (канын) Жолой, yakni nyawanya.",
+          "quote": "Бир вариантта Манас Жолойду өлтүрөөрдө Ачбууданга тил бүтүп, Жолойдун канын сурап калат.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c04",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "According to legend (уламыш), Акас мерген owned the Кула mare that foaled the famous tulpars Аккула, Ачбуудан and Мааникер.",
+          "statement_id": "Menurut legenda (уламыш), Акас мерген adalah pemilik kuda betina Кула yang melahirkan tulpar termasyhur Аккула, Ачбуудан, dan Мааникер.",
+          "quote": "Акас мерген — уламыш боюнча атактуу тулпарлар Аккула, Ачбуудан, Мааникерди тууган Кула бээнин ээси.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c05",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "The Кула mare foaled with no stallion present (Айгыр жок), to people's wonder; the wise elders said she had foaled from the unseen world (кайыптан).",
+          "statement_id": "Kuda betina Кула melahirkan anak kuda tanpa ada kuda jantan (Айгыр жок), sehingga orang heran; para tetua bijak berkata ia melahirkan dari alam gaib (кайыптан).",
+          "quote": "Айгыр жок туруп эле Кула бээнин Кула кулун тууп коюшу, элди кубандырат, бир чети таң калтырат. Айылдагы акылман аксакалдар Кула бээ кайыптан тууду деп айтышат.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c06",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "The following spring the Кула mare foaled a grey (Сур кулун) colt with a pale tail (куйругу агыш).",
+          "statement_id": "Musim semi berikutnya kuda betina Кула melahirkan anak kuda kelabu (Сур кулун) berekor pucat (куйругу агыш).",
+          "quote": "Кийинки жазда да Кула бээ куйругу агыш Сур кулун тууйт.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c07",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "A merchant (соодагер) bought the pale-tailed (Ач куйрук, сур тай) colt for fifteen mares with foals and fifteen horses; then Жолой bought it from the merchant at the bazaar and named it.",
+          "statement_id": "Seorang pedagang (соодагер) membeli anak kuda ekor pucat (Ач куйрук, сур тай) itu seharga lima belas kuda betina beranak dan lima belas kuda; kemudian Жолой membelinya dari pedagang itu di pasar dan memberinya nama.",
+          "quote": "Ач куйрук тайды (сур тай) кулундуу он беш бээ, он беш атка бир соодагер сатып алып ... Базардан соодагер жетелеп турган ач куйрукту Жолой сатып алып, атын",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c08",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "At one point a blue stallion (көпкөк айгыр) came out of the lake (көлдөн) and sniffed at the Кула mare.",
+          "statement_id": "Suatu ketika seekor kuda jantan biru (көпкөк айгыр) keluar dari danau (көлдөн) dan mendekati kuda betina Кула.",
+          "quote": "Бир маалда көлдөн көпкөк айгыр чыгып келип Кула бээни жыттагылап калат.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c09",
+          "source_id": "wd-q13166364-s2",
+          "host": "ky.wikipedia.org",
+          "statement": "The legend is set in a time of war when the калмактар attacked the кыргыз and ten households (10 түтүн) of кыргыз were cut off and stayed in the mountains.",
+          "statement_id": "Legenda ini berlatar masa perang ketika калмактар menyerang кыргыз dan sepuluh keluarga (10 түтүн) кыргыз terpisah dan tinggal di pegunungan.",
+          "quote": "Жоокерчилик заманда калмактар кыргызга кол салып, аларды туш тарапка таратканда 10 түтүн кыргыз бөлүнүп, тоо арасында калып калат.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c10",
+          "source_id": "wd-q13166364-s3",
+          "host": "ky.wikipedia.org",
+          "statement": "When Манас captured Жолой, Ачбуудан begged Манас for its master's life (жанын).",
+          "statement_id": "Ketika Манас menawan Жолой, Ачбуудан memohon kepada Манас nyawa (жанын) tuannya.",
+          "quote": "Манас Жолойду колго түшүргөндө, Ачбуудан Манастан ээсинин жанын сурайт:",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c11",
+          "source_id": "wd-q13166364-s3",
+          "host": "ky.wikipedia.org",
+          "statement": "Having said this, the horse plunged into the blazing fire (алоолонгон отко) and vanished (кайып болуп); such images are common in the epic (эпосто).",
+          "statement_id": "Setelah berkata demikian, kuda itu masuk ke dalam api yang berkobar (алоолонгон отко) dan lenyap (кайып болуп); citra seperti ini banyak dijumpai dalam epos (эпосто).",
+          "quote": "деп алоолонгон отко түшүп кайып болуп кетет. Ошондой эле эпосто мындай образдар көп кездешет.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13166364-c12",
+          "source_id": "wd-q13166364-s3",
+          "host": "ky.wikipedia.org",
+          "statement": "In epics (эпостордо), animals and inanimate things speak and think like humans (адамча сүйлөп) and gain human qualities; the third article discusses Ачбуудан as an example.",
+          "statement_id": "Dalam epos (эпостордо), hewan dan benda mati dapat berbicara dan berpikir seperti manusia (адамча сүйлөп) serta memiliki sifat manusia; artikel ketiga membahas Ачбуудан sebagai contohnya.",
+          "quote": "эпостордо жан-жаныбарлар (айбанат, канаттуу) жана жансыз нерселер (тооташ, суу, өсүмдүктөр) адамча сүйлөп, ойлоп кишидеги касиетке да ээ болушат.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "wd-q19714498",
+      "file": "batch-139-v3.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "wd-q19714498-c01",
+          "source_id": "wd-q19714498-s1",
+          "host": "bxr.wikipedia.org",
+          "statement": "It is said that when a person dies (наһа барахада), their soul (һүнэһэниинь) becomes a боохолдой; this is held mostly among the буряад of Эрхүү.",
+          "statement_id": "Konon ketika seseorang meninggal (наһа барахада), jiwanya (һүнэһэниинь) menjadi боохолдой; kepercayaan ini terutama ada pada буряад di Эрхүү.",
+          "quote": "хүнэй наһа барахада (ехэнхиинь Эрхүү буряадуудта), һүнэһэниинь боохолдой болоно гэдэг.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c02",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Бохолдои are the souls of dead shamans (шаманов и шаманок); shamanists offer them sacrifices and ask them to protect animals from other бохолдои that can bring people illness and even death.",
+          "statement_id": "Бохолдои adalah jiwa para dukun (шаманов и шаманок) yang telah mati; penganut perdukunan memberi mereka sesaji dan meminta mereka melindungi hewan dari бохолдои lain yang dapat mendatangkan penyakit, bahkan kematian.",
+          "quote": "Бохолдои – это души умерших шаманов и шаманок, которым шаманисты приносят жертву и просят их быть защитниками животных от таких-же бохолдоев, могущих причинить с корыстной целью людям болезни, даже смерть.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c03",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "According to бурят ideas, a бохолдой has different degrees of strength and power, depending on its утха (shamanic lineage): the stronger the утха, the stronger the бохолдой and the shaman.",
+          "statement_id": "Menurut pandangan бурят, бохолдой memiliki tingkatan kekuatan yang berbeda, bergantung pada утха (garis keturunan dukun) mereka: makin kuat утха, makin kuat бохолдой dan dukunnya.",
+          "quote": "По понятиям бурят, бохолдой имеет разные степени по силе и могуществу; это зависит от их утха; чем сильнее утха, тем сильнее бохолдой и шаман;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c04",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Dead shamans remember their kin (родство) and, when needed, protect living relatives and those who seek their protection.",
+          "statement_id": "Dukun yang telah mati mengingat kerabatnya (родство) dan, bila perlu, melindungi kerabat yang masih hidup serta orang yang meminta perlindungan mereka.",
+          "quote": "умершие шаманы помнят родство и свойство и в случае надобности и возможности покровительствует оставшимся в живых родным и ближним и прибегающим к их защите.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c05",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Death can also be accidental, sent by a бохолдой; such death can be averted by sprinkling (брызгания) and sacrifices, if performed properly.",
+          "statement_id": "Kematian dapat juga bersifat kebetulan, dikirim oleh бохолдой; kematian semacam itu dapat dihindari dengan percikan (брызгания) dan sesaji, asalkan dilakukan dengan tepat.",
+          "quote": "Во-вторых, смерть может быть случайная, насланная бохолдоем, от подобной смерти можно избавиться посредством брызгания и жертвоприношений и то, если они совершаются впопад;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c06",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Second-rank бохолдои with a shamanic утха are sprinkled with wine or тарасун but receive no livestock sacrifice; very minor бохолдои are merely given drops.",
+          "statement_id": "Бохолдои tingkat kedua yang memiliki утха dukun hanya diperciki anggur atau тарасун tanpa kurban ternak; бохолдои yang sangat kecil hanya ditetesi.",
+          "quote": "Если бохолдои второстепенные, имеющие шаманское утха, таким брызгают вином или тарасуном, но скота в жертву не приносят. Бохолдоям совсем незначительным только капают,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c07",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Ухэр-эзы are the lowest grade of бохолдой; ухэры are the souls of sinful women who died an unnatural death (неестественной смертью).",
+          "statement_id": "Ухэр-эзы adalah tingkat бохолдой yang paling rendah; ухэры adalah jiwa perempuan berdosa yang mati secara tidak wajar (неестественной смертью).",
+          "quote": "Ухэр-эзы – это самая последняя степень бохолдоя. Ухэры – души грешных женщин, умерших неестественной смертью.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c08",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "Shamanists believe each person has three souls (три души); the second soul stays in this world, becomes a бохолдой, and lives with its own house and household as the dead person did in life.",
+          "statement_id": "Penganut perdukunan percaya setiap orang punya tiga jiwa (три души); jiwa kedua tetap di dunia ini, menjadi бохолдой, dan hidup dengan rumah dan rumah tangganya seperti semasa hidup orang itu.",
+          "quote": "Шаманисты верят, что у каждого человека по три души. ... Вторая душа остается на этом свете, делается бохолдоем и живет своим домом и хозяйством, как жил при жизни умерший человек.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c09",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "During the waning moon (в ущерб луны) shamanists do not travel far or start undertakings, because then many бохолдой and эрлык roam the world to catch human souls.",
+          "statement_id": "Saat bulan menyusut (в ущерб луны) penganut perdukunan tidak bepergian jauh atau memulai usaha, karena saat itu banyak бохолдой dan эрлык berkeliaran untuk menangkap jiwa manusia.",
+          "quote": "Вообще шаманисты в ущерб луны никуда далеко не выезжают и никаких предприятий не делают, потому что в это время много рыскает по белому свету разные бохолдоев и эрлыков, для ловли душ у людей.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q19714498-c10",
+          "source_id": "wd-q19714498-s2",
+          "host": "uolib.ru",
+          "statement": "The duty of the найжи (a child's shaman guardian) is to protect the child from анахай and бохолдой and from the illness and death they cause.",
+          "statement_id": "Tugas найжи (dukun pelindung anak) adalah menjaga anak dari анахай dan бохолдой serta dari penyakit dan kematian yang datang dari mereka.",
+          "quote": "Обязанность найжи состоит в том, чтобы охранять ребенка от анахаев и бохолдоев и от происходящих от них болезней и смерти;",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "halmasti",
+      "file": "batch-139-v4.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 14,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description[3]",
+          "message": "Tidak muncul di kutipan mana pun: Sumerian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "did_you_know",
+          "message": "Tidak muncul di kutipan mana pun: China. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "halmasti-c01",
+          "source_id": "halmasti-s1",
+          "host": "simple.wikipedia.org",
+          "statement": "Halmasti, or the Celestial Hound, is an evil horse-sized hound in the Chitrali mythology of northern Pakistan.",
+          "statement_id": "Halmasti atau Anjing Langit (Celestial Hound) adalah anjing jahat sebesar kuda dalam mitologi Chitrali di Pakistan utara.",
+          "quote": "Halmasti or the Celestial Hound is a large horse-sized evil hound in Chitrali mythology of northern Pakistan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c02",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Halmasti is a notorious demonic hound of Chitrali mythology associated with the heavens; its name, halmasti, means thunder.",
+          "statement_id": "Halmasti adalah anjing iblis (demonic hound) yang sangat terkenal dalam mitologi Chitrali dan dikaitkan dengan langit; namanya, halmasti, berarti guntur (thunder).",
+          "quote": "Halmasti is a demonic hound that occupies a position of sheer notoriety in Chitrali mythology and is associated with the heavens, as evident by its name, halmasti meaning 'thunder'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c03",
+          "source_id": "halmasti-s1",
+          "host": "simple.wikipedia.org",
+          "statement": "Its link to the heavens shows in its name, halmasti, which means thunder in Khowar.",
+          "statement_id": "Kaitannya dengan langit tampak dari namanya, halmasti, yang berarti guntur (thunder) dalam bahasa Khowar.",
+          "quote": "It is connected to the heavens, showing by its name, halmasti, which means 'thunder' in Khowar.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c04",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "It looks like a large wolf with dark red fur, long appendages and a large muzzle.",
+          "statement_id": "Wujudnya menyerupai serigala besar (large wolf) berbulu merah gelap, dengan anggota tubuh panjang dan moncong besar.",
+          "quote": "It resembles a large wolf in appearance and has a coat of dark red fur with long appendages and a large muzzle,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c05",
+          "source_id": "halmasti-s1",
+          "host": "simple.wikipedia.org",
+          "statement": "Some stories say it can even breathe out fire.",
+          "statement_id": "Beberapa cerita menyebut makhluk ini bahkan dapat menyemburkan api (breathe out fire).",
+          "quote": "Some stories say it can even breathe out fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c06",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "It mostly appears where a child is born or a corpse is washed before burial; neither place should be left for seven days and nights.",
+          "statement_id": "Halmasti kebanyakan muncul di tempat kelahiran anak atau tempat jenazah dimandikan sebelum dikubur; kedua tempat itu tidak boleh ditinggalkan selama tujuh hari tujuh malam (seven days and nights).",
+          "quote": "it mostly appears in places where either a child is born or a corpse is washed before burial. Neither place should be abandoned for seven days and nights;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c07",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Rounds of Quran recitation were held around corpses, and lullabies were sung to newborns.",
+          "statement_id": "Pembacaan Quran dilakukan berkeliling di sekitar jenazah, dan bayi yang baru lahir dinyanyikan lagu nina bobo (lullabies).",
+          "quote": "rounds of recitation of the Quran were conducted around corpses and lullabies were sung to newborns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c08",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "People were especially careful with newborns because the Halmasti could harm them; babies were never left alone, and if necessary an iron weapon was placed under the pillow for protection.",
+          "statement_id": "Orang lebih berhati-hati terhadap bayi karena Halmasti dapat mencelakai mereka; bayi tidak ditinggal sesaat pun, dan bila terpaksa, senjata dari besi (weapon of iron) diletakkan di bawah bantalnya sebagai pelindung.",
+          "quote": "People were more cautious around newborns since the Halmasti could physically harm them and that is why babies were not abandoned for a moment, but if an extreme need arose, a weapon of iron would be placed under the newborn's pillow for protection.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c09",
+          "source_id": "halmasti-s1",
+          "host": "simple.wikipedia.org",
+          "statement": "It was believed that the Halmasti hated and avoided the metal and that iron was its weakness.",
+          "statement_id": "Diyakini Halmasti membenci dan menghindari logam itu, dan besi (iron) adalah kelemahannya.",
+          "quote": "It was believed that the Halmasti hated and avoided the metal and that iron was its weakness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c10",
+          "source_id": "halmasti-s1",
+          "host": "simple.wikipedia.org",
+          "statement": "Seeing a Halmasti was thought to bring bad luck.",
+          "statement_id": "Melihat Halmasti dianggap membawa nasib buruk (bad luck).",
+          "quote": "Seeing a Halmasti was thought to bring bad luck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c11",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the second source, Halmasti originated in ancient Sumer as the female demon Littu, adopted by Semitic peoples as Lillith, a child snatcher, while western Iranic tribes called it Al or Hal, a child-snatching witch.",
+          "statement_id": "Menurut penulis artikel kedua, asal-usul Halmasti ada di Sumer kuno sebagai iblis perempuan Littu, yang diambil bangsa Semit sebagai Lillith (penculik anak), sedangkan suku Iran barat menyebutnya Al atau Hal, penyihir penculik anak.",
+          "quote": "The origin of Halmasti was in ancient Sumer where it was known as a female demon known as Littu which was adopted by the Semitic people as Lillith and spread all over European mythology, mainly as a child snatcher, whereas the Western Iranic tribes adopted it by the name of 'Al' or 'Hal', another child-snatching witch.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c12",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In the Turkic world a female spirit, Al-Basti, hunts guilty souls; the Chitralis most probably inherited its Turkic name but not its female description.",
+          "statement_id": "Di dunia Turkik ada roh perempuan Al-Basti yang memburu jiwa bersalah; orang Chitral kemungkinan besar mewarisi nama Turkiknya, tetapi tidak menggambarkannya sebagai sosok perempuan.",
+          "quote": "In the Turkic world, a female spirit known as Al-Basti hunts guilty souls from whom the Chitralis most probably inherited it. The Chitralis adopted its Turkic name but not its description as a female entity,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c13",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The Chitrali image of Halmasti mirrors the Tiangou (Heavenly Dog), a celestial hound of ancient Chinese mythology that came down from the skies with thunderous lightning to eat the sun and moon, causing eclipses.",
+          "statement_id": "Gambaran Halmasti di Chitral mirip Tiangou (Heavenly Dog), anjing langit mitologi Tiongkok kuno yang turun dari langit dengan kilat bergemuruh untuk memakan matahari dan bulan sehingga terjadi gerhana.",
+          "quote": "the Chitrali description of the Halmasti mirrors the Tiangou (Heavenly Dog) which was a celestial hound of ancient Chinese mythology that used to descend from the skies with thunderous lightning to eat the sun and moon to cause eclipses",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "halmasti-c14",
+          "source_id": "halmasti-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The author considers Halmasti the most peculiar creature of Chitrali mythology because it shows Chitral's synthesis of the Turkic, Iranic and Sinitic worlds.",
+          "statement_id": "Penulis menilai Halmasti makhluk paling unik dalam mitologi Chitrali karena memperlihatkan perpaduan dunia Turkik, Iran, dan Sinitik (Turkic, Iranic, and Sinitic) di Chitral.",
+          "quote": "The Halmasti is certainly the most peculiar creature of Chitrali mythology because it shows not only how folklore develops differently in different regions but also how Chitral, at the juncture of the Turkic, Iranic, and Sinitic worlds, shows a synthesis of all three.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "wd-q4532797",
+      "file": "batch-139-v4.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 13,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "relations[1].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Шуйттан (Shuittan). Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "wd-q4532797-c01",
+          "source_id": "wd-q4532797-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Esrel is an anthropomorphic psychopomp spirit (дух-психопомп) in Chuvash mythology, the personification of the end of life.",
+          "statement_id": "Эсрель (Esrel) adalah roh pengantar jiwa (дух-психопомп) berwujud manusia dalam mitologi Chuvash, personifikasi akhir hidup.",
+          "quote": "антропоморфный дух-психопомп в чувашской мифологии, персонификация конца жизни.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c02",
+          "source_id": "wd-q4532797-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to belief, when the lifespan allotted by God (Турӑ) runs out, Esrel (Эсрель) comes to take the person's soul to the afterlife.",
+          "statement_id": "Menurut kepercayaan, ketika masa hidup yang ditetapkan Tuhan (Турӑ) habis, Esrel (Эсрель) datang untuk membawa jiwa manusia ke alam baka.",
+          "quote": "Согласно верованиям, когда истекает отведённый Богом (чув. Турӑ) срок жизни, Эсрель является к человеку, чтобы забрать его душу в загробный мир",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c03",
+          "source_id": "wd-q4532797-s2",
+          "host": "cyberleninka.ru",
+          "statement": "The journal article names the soul-taking spirit Чун илли (Chun illi); household items were cleansed of invisible bloodstains (пятен крови) left after its visit.",
+          "statement_id": "Artikel jurnal menyebut roh pengambil jiwa itu Чун илли (Chun illi); barang rumah tangga dibersihkan dari noda darah tak kasatmata (пятен крови) yang tersisa setelah kunjungannya.",
+          "quote": "от невидимых пятен крови покойника, которые остались после посещения его духом отнимающего душу — Чун илли",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c04",
+          "source_id": "wd-q4532797-s2",
+          "host": "cyberleninka.ru",
+          "statement": "The name Эсрел (Esrel) comes from the Arabic Азраил (Azrail).",
+          "statement_id": "Nama Эсрел (Esrel) berasal dari bahasa Arab Азраил (Azrail).",
+          "quote": "Чун илли (букв.: «отнимающий душу») или Эсрел (от арабского Азраил",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c05",
+          "source_id": "wd-q4532797-s2",
+          "host": "cyberleninka.ru",
+          "statement": "In Chuvash (чуваш) belief, Esrel, the spirit of death (дух смерти), comes invisibly to the dying person with a scythe (косой) in hand and severs all their joints.",
+          "statement_id": "Menurut kepercayaan Chuvash (чуваш), Esrel (дух смерти, roh kematian) datang tanpa terlihat kepada orang yang sekarat dengan sabit (косой) di tangan dan memotong semua sendinya.",
+          "quote": "по поверью чуваш, к умирающему человеку, невидимо для глаз человеческих, является с косой в руках Эсрель (дух смерти), который, надрезая косой, расчленяет все суставы человека",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c06",
+          "source_id": "wd-q4532797-s2",
+          "host": "cyberleninka.ru",
+          "statement": "At that moment the dying person's blood may spatter invisibly and defile (осквернить) the things in the room.",
+          "statement_id": "Pada saat itu darah orang yang sekarat dapat memercik tanpa terlihat dan menajiskan (осквернить) barang-barang di ruangan.",
+          "quote": "в это время кровь умирающего, невидимо для глаз, может брызнуть и осквернить имеющиеся в комнате вещи",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c07",
+          "source_id": "wd-q4532797-s2",
+          "host": "cyberleninka.ru",
+          "statement": "This belief was explained by К. П. Прокопьев, who published a detailed study in the early 20th century (начале ХХ в.).",
+          "statement_id": "Kepercayaan ini dijelaskan oleh К. П. Прокопьев, yang menerbitkan kajian rinci pada awal abad ke-20 (начале ХХ в.).",
+          "quote": "Указанное представление достаточно точно истолковал К. П. Прокопьев, который в начале ХХ в. опубликовал обстоятельное",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c08",
+          "source_id": "wd-q4532797-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Esrel (Эсреля) was often imagined as a white or black figure, sometimes as tall as a house, human-like but made only of bones, with eyes on the back of the head and a scythe (косой) in hand.",
+          "statement_id": "Esrel (Эсреля) sering dibayangkan sebagai sosok putih atau hitam, kadang setinggi rumah, menyerupai manusia tetapi hanya terdiri dari tulang, bermata di tengkuk, dan memegang sabit (косой).",
+          "quote": "Представляли Эсреля чаще в виде белой или чёрной фигуры (иногда очень высокой — ростом с дом), напоминающей человеческую и состоящей из одних костей, с глазами на затылке и с косой в руках.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c09",
+          "source_id": "wd-q4532797-s3",
+          "host": "cv.wikipedia.org",
+          "statement": "In the Chuvash-language article, Эсрел (Esrel) is called the god of death (вилĕм турри) and the taker of souls (чун илекен).",
+          "statement_id": "Dalam artikel berbahasa Chuvash, Эсрел (Esrel) disebut dewa kematian (вилĕм турри) dan pengambil jiwa (чун илекен).",
+          "quote": "Эсрел, — вилĕм турри, чун илекен хаяр.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c10",
+          "source_id": "wd-q4532797-s3",
+          "host": "cv.wikipedia.org",
+          "statement": "Esrel (Вăл) moves both in Леш тĕнче (the other world) and Çут тĕнче (the world of light), and keeps contact with Аслă Турă, Шуйттан and Хаямат.",
+          "statement_id": "Esrel (Вăл) bergerak di Леш тĕнче (alam baka) maupun Çут тĕнче (dunia terang), dan berhubungan dengan Аслă Турă, Шуйттан, dan Хаямат.",
+          "quote": "Вăл Леш тĕнчере те, Çут тĕнчере те çӳрет; Аслă Турăпа, Шуйттанпа, Хаяматпа çыхăну тытать.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c11",
+          "source_id": "wd-q4532797-s3",
+          "host": "cv.wikipedia.org",
+          "statement": "According to this article, the Chuvash (чăвашсем) did not worship Эсрел or give it offerings (парне паман); people appreciated that Эсрел did not discriminate between rich and poor.",
+          "statement_id": "Menurut artikel ini, orang Chuvash (чăвашсем) tidak menyembah dan tidak memberi persembahan (парне паман) kepada Эсрел; rakyat menyukai bahwa Эсрел tidak membedakan kaya dan miskin.",
+          "quote": "Эсреле чăвашсем пуççапман, парне паман. Эсрел пуяннипе чухăна тиркеменни халăха килĕшнĕ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c12",
+          "source_id": "wd-q4532797-s3",
+          "host": "cv.wikipedia.org",
+          "statement": "In folktales (Юмах-халап), Esrel (эсреле) is often tricked, for instance with a louse skin, or shut in a coffin (тупăка).",
+          "statement_id": "Dalam dongeng (Юмах-халап), Esrel (эсреле) sering ditipu, misalnya dengan kulit kutu, atau dikurung dalam peti mati (тупăка).",
+          "quote": "Юмах-халапра эсреле улталани час тĕл пулать. Ăна пыйтă тирĕпе улталаççĕ, тупăка хупаççĕ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4532797-c13",
+          "source_id": "wd-q4532797-s3",
+          "host": "cv.wikipedia.org",
+          "statement": "Yet at the end of the tale Эсрел frees itself and takes the people who tricked it along with it.",
+          "statement_id": "Namun di akhir dongeng, Эсрел membebaskan diri dan membawa serta orang-orang yang menipunya.",
+          "quote": "Çавах та юмах вĕçĕнче Эсрел тварăнса улталанă çынсене хăйĕнпе перле илсе каять.",
           "context": "traditional-belief",
           "status": "exact"
         }

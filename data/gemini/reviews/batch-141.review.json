@@ -1,38 +1,21 @@
 {
   "batch_id": "batch-141",
-  "checked_at": "2026-10-04T22:45:22.731Z",
+  "checked_at": "2026-10-05T16:31:39.962Z",
   "files": [
     "batch-141-s1.md",
     "batch-141-u7.md",
+    "batch-141-v7.md",
+    "batch-141-v8.md",
     "batch-141.md"
   ],
   "parse_problems": [],
   "missing": [
-    "oba",
-    "obayifo",
-    "ayao",
-    "egbere",
-    "ogbanje",
-    "usiququmadevu",
-    "holawaka",
     "iansan",
-    "ilomba",
     "lukwata",
-    "mbwiri",
     "aruan-of-udo",
     "biher",
-    "kamappa",
-    "koolakamba",
-    "mazomba",
-    "panti",
-    "vaitakere",
-    "yumboes",
-    "deverangwena",
-    "hira-mythical-monster",
-    "jobar-monster",
     "kokolampo",
     "mangwe",
-    "moussa-gname",
     "pie-q7191324",
     "takhar",
     "talafsa",
@@ -205,25 +188,14 @@
     },
     {
       "slug": "abada-unicorn",
-      "file": "batch-141-s1.md",
+      "file": "batch-141-v7.md",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 15,
         "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (abada-unicorn-c15)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"is viewed as a sign of good fortune and a supernatural source…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abada-unicorn-c01",
@@ -537,6 +509,2648 @@
           "statement_id": "Dalam satu cerita, suami Di-kishi jelas berkepala lebih dari satu karena ia ingin perempuan itu melahirkan anak berkepala dua.",
           "quote": "husband has evidently more than one head, as he wants the woman to give him two-headed children.",
           "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "oba",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 17,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "oba-c01",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ọba (known as Obá in Latin America) is the orisha of the River Oba, whose source lies near Igbon, where her worship originates.",
+          "statement_id": "Ọba (dikenal sebagai Obá di Amerika Latin) adalah orisha sungai Oba (River Oba); hulu sungai itu dekat Igbon, tempat pemujaannya berasal.",
+          "quote": "(known as Obá in Latin America) is the orisha of the River Oba, the source of which lies near Igbon, where her worship originates.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c02",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the wars of the 19th century her centers of worship moved to the more secure town of Ogbomosho.",
+          "statement_id": "Pada masa perang abad ke-19, pusat pemujaannya pindah ke kota Ogbomosho yang lebih aman.",
+          "quote": "During the wars of the 19th century, her centers of worship moved to the more secure town Ogbomosho.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c03",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is traditionally identified as the senior wife of Shango.",
+          "statement_id": "Secara tradisional ia dikenal sebagai istri senior (senior wife) Shango.",
+          "quote": "She is traditionally identified as the senior wife of Shango",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c04",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She represents stability and sacred bonds and is syncretized with Saint Catherine of Siena.",
+          "statement_id": "Ia melambangkan kestabilan dan ikatan suci, dan disinkretiskan dengan Santa Katarina dari Siena (Saint Catherine of Siena).",
+          "quote": "She represents stability and sacred bonds. She is syncretized with Saint Catherine of Siena.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c05",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most popular myth in West Africa, Brazil and Cuba has Oba cut off her ear to serve to her husband Shango as food, because a co-wife (most often Oshun) convinced her it would secure Shango's attention.",
+          "statement_id": "Mitos paling populer di Afrika Barat, Brasil, dan Kuba (West Africa, Brazil, Cuba) menceritakan Oba memotong telinganya untuk disajikan sebagai makanan bagi suaminya Shango, karena seorang madunya (paling sering Oshun) meyakinkannya bahwa itu akan menarik perhatian Shango.",
+          "quote": "the most popular myth found in West Africa, Brazil, and Cuba has Oba cutting off her ear to serve to her husband Shango as food, because one of her co-wives (most often Oshun) has convinced her this will secure Shango's attention.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c06",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Once Shango sees the ear and realizes Oba has mutilated herself, he chases her from his house into permanent exile.",
+          "statement_id": "Ketika Shango melihat telinga itu dan sadar Oba melukai dirinya sendiri, ia mengusir Oba dari rumahnya ke pengasingan permanen.",
+          "quote": "Once Shango sees the ear and realizes Oba has mutilated herself, he chases her from his house and into permanent exile.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c07",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bascom notes that though the story is known in many parts of Yoruba country, her priest in Ogbomosho did not recognize it.",
+          "statement_id": "Bascom mencatat bahwa kisah ini dikenal di banyak bagian negeri Yoruba, tetapi tidak diakui oleh pendetanya di Ogbomosho.",
+          "quote": "Bascom notes that though this story is known in many parts of Yoruba country, it was not recognized by her priest in Ogbomosho.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c08",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There are a few variations of the myth in Cuba where Oya rather than Oshun tricks Oba.",
+          "statement_id": "Ada beberapa variasi mitos di Kuba ketika Oya, bukan Oshun, yang menipu Oba.",
+          "quote": "There are a few variations of the myth in Cuba where Oya rather than Oshun tricks Oba.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c09",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the verses of the Odu Ifá, Oba lends her ear on the advice of Ifá and this successfully ties Shango to Oba.",
+          "statement_id": "Dalam ayat-ayat Odu Ifá, Oba meminjamkan telinganya atas nasihat Ifá, dan langkah itu berhasil mengikat Shango kepada Oba.",
+          "quote": "in the verses of the Odu Ifá, Oba lends her ear at the advice of Ifá and the measure successfully ties Shango to Oba",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c10",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Grieving, she became the Oba river, which intersects with the Oshun river.",
+          "statement_id": "Dalam duka, ia menjadi sungai Oba (Oba river) yang bersilangan dengan sungai Oshun.",
+          "quote": "Grieving, she became the Oba river which intersects with the Oshun river",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c11",
+          "source_id": "oba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "González-Wippler describes her as the daughter of Yemoja and one of the consorts of Shango.",
+          "statement_id": "González-Wippler menggambarkannya sebagai putri Yemoja dan salah satu pasangan Shango.",
+          "quote": "describes her as the daughter of Yemoja and one of the consorts of Shango",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c12",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Obba is an orisha (Orisha) who represents repressed love (amor reprimido), sacrifice for a loved one, suffering, and marital fidelity (fidelidad conyugal).",
+          "statement_id": "Obba adalah seorang orisha (Orisha) yang melambangkan cinta yang terpendam (amor reprimido), pengorbanan bagi orang yang dicintai, penderitaan, dan kesetiaan suami-istri (fidelidad conyugal).",
+          "quote": "Obba es una Orisha y representa el amor reprimido y el sacrificio por el ser que uno ama, el sufrimiento y simboliza la fidelidad conyugal.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c13",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "She is associated with lakes and lagoons (lagos, lagunas).",
+          "statement_id": "Ia dikaitkan dengan danau dan laguna (lagos, lagunas).",
+          "quote": "Está relacionada con los lagos y las lagunas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c14",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Together with Oyá and Yewá she dwells in cemeteries (cementerios), and they represent fearless women warriors (guerreras temerarias).",
+          "statement_id": "Bersama Oyá dan Yewá ia berdiam di pemakaman (cementerios), dan mereka melambangkan para pejuang perempuan yang berani (guerreras temerarias).",
+          "quote": "Junto con Oyá y Yewá habita en los cementerios y representan a guerreras temerarias.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c15",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Her name comes from Yorùbá Òbbá (Òbè: soup, sopa; Obá: king, rey), literally \"she of the king's soup\" (La de la sopa del rey).",
+          "statement_id": "Namanya berasal dari kata Yorùbá Òbbá (Òbè: sup, sopa; Obá: raja, rey), secara harfiah \"dia yang memegang sup raja\" (La de la sopa del rey).",
+          "quote": "Su nombre proviene del Yorùbá Òbbá (Òbè: sopa - Obá: rey), literalmente \"La de la sopa del rey\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c16",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "She is female, strong, feared and energetic, considered stronger than many male orishas (Orishas masculinos); the only one who defeated her in battle was Oggun.",
+          "statement_id": "Ia perempuan, kuat, ditakuti, dan energik, dianggap lebih kuat daripada banyak orisha laki-laki (Orishas masculinos); satu-satunya yang berhasil mengalahkannya dalam pertempuran adalah Oggun.",
+          "quote": "Femenina, fuerte, temida, enérgica, considerada más fuerte que muchos Orishas masculinos. El único que logró derrotarla en batalla fue Oggun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oba-c17",
+          "source_id": "oba-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Out of shame the orisha ran to her father Obbatalá and wept so much that her tears (lágrimas) created rivers and lagoons (ríos y lagunas).",
+          "statement_id": "Karena malu, sang orisha lari kepada ayahnya Obbatalá dan menangis begitu banyak hingga air matanya (lágrimas) menciptakan sungai dan laguna (ríos y lagunas).",
+          "quote": "y la orisha, por vergüenza, corrió donde su padre Obbatalá, y en eso, lloró tanto, que creó ríos y lagunas con sus lágrimas",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ayao",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "ayao-c01",
+          "source_id": "ayao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ayao is an orisha in the Santería pantheon; she is the orisha of the air and is considered to reside in the forest and in the eye of the tornado.",
+          "statement_id": "Ayao adalah orisha dalam panteon Santería; ia orisha udara (air) dan dianggap berdiam di hutan (forest) serta di mata tornado.",
+          "quote": "Ayao is an orisha in the Santería pantheon. She is the orisha of the air, and is considered to reside in both the forest and in the eye of the tornado.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c02",
+          "source_id": "ayao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She works closely with Ọsanyìn and is a fierce warrior.",
+          "statement_id": "Ia bekerja erat dengan Ọsanyìn dan merupakan pejuang yang garang (fierce warrior).",
+          "quote": "She works closely with Ọsanyìn and is a fierce warrior.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c03",
+          "source_id": "ayao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ayao's implements include a crossbow with a serpent, a quill and nine stones.",
+          "statement_id": "Di antara perlengkapan Ayao terdapat busur silang dengan ular (crossbow with a serpent), sebatang bulu pena, dan sembilan batu.",
+          "quote": "Ayao has among her implements a crossbow with a serpent, a quill, and nine stones.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c04",
+          "source_id": "ayao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is commonly placed next to her sister Oya; her colors are brown and green.",
+          "statement_id": "Ia biasanya ditempatkan di samping saudarinya, Oya; warnanya cokelat dan hijau (brown and green).",
+          "quote": "She is commonly placed next to her sister, Oya. Her colors are brown and green.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c05",
+          "source_id": "ayao-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ayao's cult was thought to be lost among adherents, but a growing number of olorichas have her in their possession.",
+          "statement_id": "Pemujaan Ayao sempat dianggap hilang di kalangan penganut, tetapi semakin banyak olorichas yang memilikinya (have her in their possession).",
+          "quote": "Ayao's cult was thought to be lost among various adherents; however, a growing number of olorichas have her in their possession.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c06",
+          "source_id": "ayao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "Aiaó (in Castilian: Ayaó) is an orixá of the Lucumi/Santeria pantheon.",
+          "statement_id": "Aiaó (dalam bahasa Kastila: Ayaó) adalah seorang orixá dalam panteon Lucumi/Santeria.",
+          "quote": "Aiaó (em castelhano: Ayaó) é uma orixá do panteão Lucumi/Santeria.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c07",
+          "source_id": "ayao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "Aiaó's cult was thought lost among followers (sectários), but a growing number of initiates (iniciados) receive her during possessions (possessões).",
+          "statement_id": "Pemujaan Aiaó dikira telah hilang di antara para penganut (sectários), tetapi makin banyak inisiat (iniciados) menerimanya dalam kerasukan (possessões).",
+          "quote": "Pensava-se que o culto a Aiaó tivesse se perdido entre os sectários. Mas um crescente número de iniciados recebem-na durante as possessões.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c08",
+          "source_id": "ayao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "Some individuals take the bow and arrow (arco e flecha) from Oiá's crown and place it in Aiaó's receptacle (receptáulo).",
+          "statement_id": "Sebagian orang mengambil busur dan panah (arco e flecha) dari mahkota Oiá dan menaruhnya di wadah (receptáulo) Aiaó.",
+          "quote": "Alguns indivíduos retiram o arco e flecha da coroa de Oiá e colocam no receptáulo de Aiaó.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c09",
+          "source_id": "ayao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "She usually appears beside her sister (irmã) Oiá; her colors are brown (marrom) and green (verde).",
+          "statement_id": "Ia biasanya muncul di samping saudarinya (irmã), Oiá; warnanya cokelat (marrom) dan hijau (verde).",
+          "quote": "Ela aparece em geral ao lado da irmã, Oiá ou na abóboda; as cores são marrom e verde.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c10",
+          "source_id": "ayao-s3",
+          "host": "cs.wikipedia.org",
+          "statement": "Ayao is an oriša (božstvo, deity) in the pantheon of the Caribbean (karibského) religion Santería; she is the oriša of the air (vzduchu).",
+          "statement_id": "Ayao adalah oriša (božstvo, dewa) dalam panteon agama Karibia (karibského) Santería; ia oriša udara (vzduchu).",
+          "quote": "Ayao je oriša (božstvo) v panteonu karibského nábožensrtví Santería. Je orišou vzduchu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ayao-c11",
+          "source_id": "ayao-s3",
+          "host": "cs.wikipedia.org",
+          "statement": "Ayao dwells in the forest (lese) and in the eye of the tornado (oku tornáda).",
+          "statement_id": "Ayao berdiam di hutan (lese) dan di mata tornado (oku tornáda).",
+          "quote": "Ayao pobývá v lese a v oku tornáda.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "egbere",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "egbere-c01",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Yoruba mythology, Egbere are malevolent humanoid supernatural beings believed to live in the woods and to be active only at night.",
+          "statement_id": "Dalam mitologi Yoruba, Egbere adalah sejenis makhluk gaib mirip manusia yang jahat (malevolent humanoid), dipercaya tinggal di hutan (woods) dan hanya aktif pada malam hari.",
+          "quote": "In Yoruba mythology, Egbere are a type of malevolent humanoid supernatural being believed to reside in the woods and active only at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c02",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Oxford's A Dictionary of the Yoruba language defines Egbere as a Yoruba word for fairy or goblin.",
+          "statement_id": "Kamus Yoruba terbitan Oxford (A Dictionary of the Yoruba language) mendefinisikan Egbere sebagai kata Yoruba untuk peri atau goblin (fairy or goblin).",
+          "quote": "Oxford's A Dictionary of the Yoruba language defines Egbere as a Yoruba word for fairy or goblin.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c03",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to William Taylor's 1898 account, written in a colonial and often condescending tone, Egbere inhabit graves.",
+          "statement_id": "Menurut catatan William Taylor tahun 1898, yang ditulis dengan nada kolonial dan sering merendahkan, Egbere menghuni kuburan (graves).",
+          "quote": "According to William Taylor's 1898 account, written in a colonial and often condescending tone, Egbere inhabit graves.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c04",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Egbere are described as short in stature.",
+          "statement_id": "Egbere digambarkan bertubuh pendek (short in stature).",
+          "quote": "Egbere are described as being short in stature",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c05",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Egbere are associated with a small mat; it is believed that whoever takes the mat of wealth from an Egbere will attain unimaginable riches.",
+          "statement_id": "Egbere dikaitkan dengan sehelai tikar kecil (small mat); ada kepercayaan bahwa siapa pun yang berhasil merebut tikar kekayaan (mat of wealth) dari Egbere akan memperoleh kekayaan tak terbayangkan.",
+          "quote": "are associated with a small mat. There is a belief that anyone who manages to take the mat of wealth from an Egbere will attain unimaginable riches.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c06",
+          "source_id": "egbere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are said to cry constantly, though the sincerity of these tears is questionable.",
+          "statement_id": "Mereka konon terus-menerus menangis (constantly cry), meskipun ketulusan air mata itu diragukan.",
+          "quote": "They are said to constantly cry, though the sincerity of these tears is questionable.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c07",
+          "source_id": "egbere-s2",
+          "host": "archive.org",
+          "statement": "There are spirits called Egbere, who are said to exert an evil influence in the world.",
+          "statement_id": "Ada roh (spirits) yang disebut Egbere, yang konon memberi pengaruh jahat (evil influence) di dunia.",
+          "quote": "There are spirits called Egbere, who are said to exert an evil influence in the world.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c08",
+          "source_id": "egbere-s2",
+          "host": "archive.org",
+          "statement": "Locals declare these spirits can be seen, leaving the graves they inhabit at midnight and returning before daybreak.",
+          "statement_id": "Menurut penduduk setempat, roh-roh ini dapat dilihat; mereka meninggalkan kuburan yang mereka huni pada tengah malam (midnight) dan kembali sebelum fajar (daybreak).",
+          "quote": "The native declares these spirits can be seen, and that they leave graves they inhabit at midnight, to return to them before daybreak.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c09",
+          "source_id": "egbere-s2",
+          "host": "archive.org",
+          "statement": "It is whispered that riding sheep is the delight of the Egbere and that they cause sheep to perish from disease.",
+          "statement_id": "Dibisikkan bahwa menunggangi domba (sheep riding) adalah kegemaran Egbere, dan mereka menjadi penyebab domba binasa karena penyakit (disease).",
+          "quote": "It is whispered that sheep riding is the delight of the Egbere, and that they are the cause of the destruction of sheep by disease.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "egbere-c10",
+          "source_id": "egbere-s2",
+          "host": "archive.org",
+          "statement": "The medicine man is often called to drive them away or to supply a charm or fetich as protection.",
+          "statement_id": "Dukun (medicine man) sering dipanggil untuk mengusir mereka atau memberikan jimat (charm or fetich) sebagai pelindung.",
+          "quote": "The medicine man is often called to drive them away, or to supply a charm or fetich as a protection.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mbwiri",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 12,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "mbwiri-c01",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mbwiri is a Central African demon said to possess people; those he possesses would usually be diagnosed with epilepsy by a doctor.",
+          "statement_id": "Mbwiri adalah iblis (demon) dari Afrika Tengah yang konon merasuki orang; orang yang dirasukinya biasanya akan didiagnosis dokter menderita epilepsi.",
+          "quote": "Mbwiri is a Central African demon who is said to possess people. Those he possesses would usually be diagnosed with epilepsy by a doctor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c02",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mbwiri is said to abhor good living, and this is the best way to drive him out.",
+          "statement_id": "Mbwiri konon membenci hidup enak (good living), dan karena itu cara ini dianggap terbaik untuk mengusirnya.",
+          "quote": "Mbwiri is said to abhor good living and this is the best way to drive him out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c03",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The patient will be the only one who knows that he is possessed.",
+          "statement_id": "Hanya si pasien yang tahu bahwa dirinya kerasukan (possessed).",
+          "quote": "The patient will be the only one who knows that he is possessed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c04",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sometimes the process appears to result in madness, and some patients run away into the bush.",
+          "statement_id": "Kadang proses itu tampaknya berujung pada kegilaan (madness), dan sebagian pasien melarikan diri ke semak belukar (bush).",
+          "quote": "Sometimes, however, the process appears to result in madness, and some patients run away into the bush.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c05",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "In Central Africa the sufferer is supposed to be possessed by Mbwiri and can be relieved only by the intervention of the medicine-man or fetish.",
+          "statement_id": "Di Afrika Tengah, penderita dianggap dirasuki Mbwiri dan hanya dapat dipulihkan lewat campur tangan dukun (medicine-man) atau fetis.",
+          "quote": "In Central Africa the sufferer is supposed to be possessed by Mbwiri, and he can be relieved only by the intervention of the medicine-man or fetish.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c06",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "A hut is built for him in the middle of the street, where he stays with the priest and his disciples until cured or maddened.",
+          "statement_id": "Di tengah jalan dibangun sebuah pondok (hut) untuknya, dan di sana ia tinggal bersama pendeta dan murid-muridnya sampai sembuh atau menjadi gila.",
+          "quote": "In the middle of the street a hut is built for his accommodation, and there he resides until cured, or maddened, along with the priest and his disciples.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c07",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "There a continuous revel is held for ten days or a fortnight.",
+          "statement_id": "Di sana selama sepuluh hari atau dua minggu (ten days or a fortnight) diadakan pesta pora tanpa henti (continuous revel).",
+          "quote": "There for ten days or a fortnight a continuous revel is held",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c08",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "For obvious reasons the fetish-man gives out that Mbwiri regards good living with aversion.",
+          "statement_id": "Dengan alasan yang jelas, sang fetis (dukun) menyatakan bahwa Mbwiri tidak menyukai hidup enak (good living).",
+          "quote": "For obvious reasons the fetish gives out that Mbwiri regards good living with aversion.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c09",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "The patient dances, usually shamming madness, until the epileptic attack comes on.",
+          "statement_id": "Pasien menari, biasanya berpura-pura gila, sampai serangan epilepsi (epileptic attack) datang.",
+          "quote": "The patient dances, usually shamming madness, until the epileptic attack comes on",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c10",
+          "source_id": "mbwiri-s2",
+          "host": "archive.org",
+          "statement": "After a cure he avoids certain kinds of food and performs certain duties; sometimes the process ends in the patient's insanity.",
+          "statement_id": "Setelah sembuh, ia menghindari jenis makanan tertentu dan menjalankan kewajiban tertentu; kadang proses itu berakhir dengan kegilaan (insanity) si pasien.",
+          "quote": "avoids certain kinds of food, and performs certain duties. Sometimes the process terminates in the patient's insanity",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c11",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When such a possession occurs the shaman is called, and a hut is built where the afflicted stays with the shaman and his assistants until cured.",
+          "statement_id": "Bila kerasukan seperti itu terjadi, dukun (shaman) dipanggil; sebuah pondok (hut) dibangun tempat penderita tinggal bersama dukun dan para pembantunya sampai sembuh.",
+          "quote": "When such a possession occurs, the shaman is called. A hut is built in which the afflicted resides along with the shaman and his assistants until he is cured.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mbwiri-c12",
+          "source_id": "mbwiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "For ten days or a fortnight these people eat and drink at the expense of the patient's relatives and dance to flute and drum.",
+          "statement_id": "Selama sepuluh hari atau dua minggu, mereka makan dan minum atas biaya kerabat pasien (patient's relatives) serta menari diiringi seruling dan gendang (flute and drum).",
+          "quote": "For ten days or a fortnight, these people eat and drink at the expense of the patient's relatives and dance to the music of flute and drum.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "kamappa",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 16,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "kamappa-c01",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khanyapa is a mythical creature of the Basotho people of Southern Africa.",
+          "statement_id": "Khanyapa adalah makhluk mitos dari orang Basotho di Afrika bagian selatan (Southern Africa).",
+          "quote": "is a mythical creature from the Basotho people of Southern Africa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c02",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is described as a shapeless, gluttonous monster that swallows every living thing it meets and grows larger the more it swallows; it has multiple sharp tongues used as weapons.",
+          "statement_id": "Ia digambarkan sebagai monster rakus tanpa bentuk (shapeless, gluttonous monster) yang menelan semua makhluk hidup yang dijumpainya dan makin besar setiap kali menelan; ia punya banyak lidah tajam yang dipakai sebagai senjata.",
+          "quote": "It is described as a shapeless, gluttonous monster that swallows everything living it comes by and gets larger and larger the more it swallows. It has multiple sharp tongues which it uses as weapons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c03",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khanyapa is the main antagonist of the story of Ditaolane, where the monster symbolizes all that holds back humanity and is killed by the hero.",
+          "statement_id": "Khanyapa adalah tokoh antagonis utama dalam kisah Ditaolane; di sana monster itu melambangkan segala hal yang menahan kemanusiaan (holds back humanity) dan dibunuh oleh sang pahlawan.",
+          "quote": "Khanyapa is the main antagonist in the story of Ditaolane where the monster is symbolic of all that holds back humanity and is killed by the hero.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c04",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kgodumodumo is an archaic Sotho term most likely meaning \"great noise\".",
+          "statement_id": "Kgodumodumo adalah istilah Sotho kuno yang kemungkinan besar berarti \"suara besar\" (great noise).",
+          "quote": "Kgodumodumo is an archaic Sotho term, most likely meaning “great noise”.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c05",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Archeologists believe Khanyapa was influenced by the San people's python god.",
+          "statement_id": "Para arkeolog meyakini Khanyapa dipengaruhi oleh dewa piton (python god) orang San.",
+          "quote": "Archeologists believe Khanyapa is influenced by the San people’s python god.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c06",
+          "source_id": "kamappa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also known as Kholumolumo in Lesotho Sesotho and Kgodumodumo in South African Sesotho.",
+          "statement_id": "Makhluk ini juga dikenal sebagai Kholumolumo dalam bahasa Sesotho Lesotho dan Kgodumodumo dalam bahasa Sesotho Afrika Selatan (South African Sesotho).",
+          "quote": "also known as Kholumolumo in Lesotho Sesotho and Kgodumodumo in South African Sesotho",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c07",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "An animal called Kammapa devoured them all, large and small; it was a horrible beast.",
+          "statement_id": "Seekor binatang luar biasa bernama Kammapa melahap semua manusia, besar dan kecil; ia binatang yang mengerikan (horrible beast).",
+          "quote": "called Kammapa, devoured them all, large and small. It was a horrible beast",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c08",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "Its body was so long that the sharpest eyes could hardly see it all at once.",
+          "statement_id": "Tubuhnya begitu panjang sehingga mata paling tajam pun hampir tak dapat melihat seluruhnya sekaligus (sharpest eyes could hardly see it all at once).",
+          "quote": "that the sharpest eyes could hardly see it all at once.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c09",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "The child (Litaolane) had already reached the stature of a full-grown man and was uttering words full of wisdom.",
+          "statement_id": "Bayi itu (Litaolane) sudah mencapai tinggi orang dewasa (full-grown man) dan mengucapkan kata-kata penuh hikmat.",
+          "quote": "the child had already reached the stature of a full-grown man, and was uttering words full of wisdom.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c10",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "He went to attack the devourer of the world; Kammapa opened his frightful jaws and swallowed him up.",
+          "statement_id": "Ia pergi menyerang sang pelahap dunia (devourer of the world); Kammapa membuka rahangnya yang mengerikan dan menelannya.",
+          "quote": "the devourer of the world. Kammapa opened his frightful jaws, and swallowed him up",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c11",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "Armed with his knife he entered the monster's stomach and tore its entrails; Kammapa gave a terrible roar and fell.",
+          "statement_id": "Bersenjatakan pisau (knife), ia masuk ke perut monster itu dan merobek isi perutnya; Kammapa meraung dahsyat lalu tumbang.",
+          "quote": "he entered, armed with his knife, into the stomach of the monster, and tore his entrails. Kammapa gave a terrible roar, and fell.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c12",
+          "source_id": "kamappa-s2",
+          "host": "archive.org",
+          "statement": "Casalis adds that the natives declare themselves unable to explain this extraordinary legend.",
+          "statement_id": "Casalis menambahkan bahwa penduduk setempat (natives) menyatakan diri tidak mampu menjelaskan legenda yang luar biasa ini.",
+          "quote": "I must add that the natives declare themselves incapable of giving the explanation of this extraordinary legend.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c13",
+          "source_id": "kamappa-s3",
+          "host": "archive.org",
+          "statement": "Long ago a huge, shapeless thing called Khodumodumo (some call it Kammapa) appeared and swallowed every living creature in its way.",
+          "statement_id": "Menurut orang Basuto, dahulu muncul sesuatu yang sangat besar tanpa bentuk bernama Khodumodumo (sebagian orang menyebutnya Kammapa) yang menelan setiap makhluk hidup di jalannya.",
+          "quote": "Once upon a time there appeared in our country a huge, shapeless thing called Khodumodumo (but some people call it Kammapa). It swallowed every living creature that came in its way.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c14",
+          "source_id": "kamappa-s3",
+          "host": "archive.org",
+          "statement": "On reaching the narrow pass (nek) at the valley entrance it had swelled so much that it could not get through and had to stay there.",
+          "statement_id": "Saat mencapai celah sempit (nek) di mulut lembah, tubuhnya sudah begitu membengkak sehingga tak bisa lewat dan terpaksa diam di situ.",
+          "quote": "when it reached the narrow pass (or nek) at the entrance to the valley it had swelled to such a size that it could not get through, and was forced to stay where it was.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c15",
+          "source_id": "kamappa-s3",
+          "host": "archive.org",
+          "statement": "A woman smeared herself all over with ashes and ran into the calves' pen.",
+          "statement_id": "Seorang perempuan melumuri seluruh tubuhnya dengan abu (ashes) lalu lari ke kandang anak sapi (calves' pen).",
+          "quote": "smeared herself all over with ashes, and ran into the calves’ pen",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamappa-c16",
+          "source_id": "kamappa-s3",
+          "host": "archive.org",
+          "statement": "The Basuto tell the legend as follows.",
+          "statement_id": "Orang Basuto menuturkan legenda ini sebagai berikut.",
+          "quote": "The Basuto tell the legend as follows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "usiququmadevu",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 13,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "usiququmadevu-c01",
+          "source_id": "usiququmadevu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Usiququmadevu or Isiququmadevu is a creature of Zulu mythology, a bearded, bloated monster who eats every living thing she comes across.",
+          "statement_id": "Usiququmadevu atau Isiququmadevu adalah makhluk dari mitologi Zulu; ia monster betina berjanggut dan menggembung (bearded, bloated monster) yang memakan setiap makhluk hidup yang dijumpainya.",
+          "quote": "Usiququmadevu or Isiququmadevu is a creature from Zulu mythology. She is a bearded, bloated monster who eats every living thing she comes across.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c02",
+          "source_id": "usiququmadevu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Usiququmadevu is said to have a husband of the same name.",
+          "statement_id": "Usiququmadevu konon memiliki suami (husband) dengan nama yang sama.",
+          "quote": "Usiququmadevu is said to have a husband of the same name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c03",
+          "source_id": "usiququmadevu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend she came upon a chief's unguarded children and quickly swallowed them.",
+          "statement_id": "Menurut legenda, suatu hari ia menemukan anak-anak seorang kepala suku (chief) yang tidak dijaga dan segera menelan mereka.",
+          "quote": "According to legend, one day she came upon the children of a chief. As they were unguarded, she quickly swallowed them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c04",
+          "source_id": "usiququmadevu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He soon found her and killed her by stabbing her in the hump; his children came out unscathed from her mouth.",
+          "statement_id": "Sang kepala suku segera menemukannya dan membunuhnya dengan menikam punuknya (hump); anak-anaknya keluar tanpa cedera dari mulutnya.",
+          "quote": "Soon he did and killed her by stabbing her in the hump; his children emerged unscathed from her mouth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c05",
+          "source_id": "usiququmadevu-s2",
+          "host": "it.wikipedia.org",
+          "statement": "Usiququmadevu, also known as Isiququmadevu, is a creature of Zulu mythology: a bearded, bloated female monster (mostro barbuto e gonfio di sesso femminile) that eats every living creature in its path.",
+          "statement_id": "Usiququmadevu, juga dikenal sebagai Isiququmadevu, adalah makhluk mitologi Zulu: monster betina berjanggut dan menggembung (mostro barbuto e gonfio di sesso femminile) yang memakan setiap makhluk hidup di jalannya.",
+          "quote": "Usiququmadevu, conosciuta anche con il nome di Isiququmadevu, è una creatura appartenente alla mitologia Zulu. È un mostro barbuto e gonfio di sesso femminile, che mangia ogni creatura vivente che trova nel suo cammino.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c06",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "The monster lives in the Ilulange, a mythical river that cannot be located today; the names used for it in the story show it is regarded as female.",
+          "statement_id": "Monster ini tinggal di Ilulange, sungai mitis (mythical river) yang kini tak dapat ditemukan lokasinya; nama-nama yang dipakai dalam kisah menunjukkan bahwa ia dianggap betina (female).",
+          "quote": "lives in the Ilulange, a mythical river not to be located nowadays. The names applied to this monster in the course of the story show that it is looked upon as a female.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c07",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "Callaway explains the word as meaning a bloated, squatting, bearded monster.",
+          "statement_id": "Callaway menjelaskan kata ini berarti monster yang menggembung, berjongkok, dan berjanggut (bloated, squatting, bearded monster).",
+          "quote": "Callaway explains this word to mean ... a bloated, squatting, bearded monster",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c08",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "The creature appears in the Zulu tale of Untombinde.",
+          "statement_id": "Makhluk ini muncul dalam kisah Zulu tentang Untombinde (tale of Untombinde).",
+          "quote": "In the Zulu tale of Untombinde the isiququmadevu",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c09",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "Untombinde, who refused to petition the monster, was immediately seized and dragged down into the water.",
+          "statement_id": "Untombinde, yang menolak memohon kepada monster itu, langsung ditangkap dan diseret ke dalam air (water).",
+          "quote": "and was immediately seized by the monster and dragged down into the water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c10",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "The warriors found the monster squatting on the river-bank and were all swallowed before they could attack her.",
+          "statement_id": "Para prajurit (warriors) yang dikirim menemukan monster itu berjongkok di tepi sungai dan semuanya ditelan sebelum sempat menyerang.",
+          "quote": "The warriors found the monster squatting on the river-bank, and were swallowed up, every one, before they could attack her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c11",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "She then swallowed all the inhabitants of the chief's kraal with their dogs and cattle, and all the people of the surrounding country.",
+          "statement_id": "Ia lalu menelan seluruh penghuni kraal kepala suku beserta anjing dan ternak mereka (dogs and cattle), juga semua orang di sekitarnya.",
+          "quote": "swallowed up all the inhabitants, with their dogs and their cattle, as well as all the people in the surrounding country.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c12",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "The father came and stabbed the lump, and so the monster died.",
+          "statement_id": "Sang ayah datang dan menikam benjolan (lump) itu, dan monster itu pun mati.",
+          "quote": "came and stabbed the lump, and so the hiququmadevu died.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "usiququmadevu-c13",
+          "source_id": "usiququmadevu-s3",
+          "host": "archive.org",
+          "statement": "Werner notes that the father as deliverer is an important variation.",
+          "statement_id": "Werner mencatat bahwa sang ayah sebagai penyelamat (father as deliverer) merupakan variasi penting.",
+          "quote": "The father as deliverer is an important variation.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "obayifo",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 13,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "obayifo-c01",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An obayifo is a vampire/witch-like mythological creature from West Africa, from the folklore of the Ashanti.",
+          "statement_id": "Obayifo adalah makhluk mitologis mirip vampir/penyihir (vampire/witch-like) dari Afrika Barat yang berasal dari cerita rakyat Ashanti.",
+          "quote": "An obayifo is a vampire/witch-like mythological creature from West Africa coming from the folklore of the Ashanti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c02",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ashanti folklore obayifo are very common and may inhabit the bodies of any man or woman; they are described as having shifty eyes and being obsessed with food.",
+          "statement_id": "Dalam cerita rakyat Ashanti, obayifo sangat umum dan dapat menghuni tubuh laki-laki atau perempuan mana pun; mereka digambarkan bermata jelalatan (shifty eyes) dan terobsesi pada makanan.",
+          "quote": "In Ashanti folklore, obayifo are very common and may inhabit the bodies of any man or woman. They are described as having shifty eyes and being obsessed with food.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c03",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When travelling at night they are said to emit a phosphorescent light from their armpits and anus.",
+          "statement_id": "Saat bepergian pada malam hari, mereka konon memancarkan cahaya fosforesen (phosphorescent light) dari ketiak dan anus.",
+          "quote": "When travelling at night they are said to emit a phosphorescent light from their armpits and anus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c04",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The obayifo is regarded as similar to the asiman of the Dahomey people, a creature that can shapeshift and fly, turning into a ball of light and hunting prey in the night sky.",
+          "statement_id": "Obayifo dianggap serupa dengan asiman pada orang Dahomey, makhluk yang dapat berubah wujud dan terbang, menjadi bola cahaya, dan berburu mangsa di langit malam.",
+          "quote": "The obayifo is known as a similar entity to the asiman by the Dahomey people, a creature that can shapeshift and fly, turning itself into a ball of light and hunting for prey in the night sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c05",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ashanti Twi the word for witchcraft is bayi, though the etymology of bayi is still uncertain.",
+          "statement_id": "Dalam bahasa Twi Ashanti, kata untuk ilmu sihir (witchcraft) adalah bayi; meski begitu, etimologi bayi masih belum pasti.",
+          "quote": "In Ashanti Twi, the word used to describe witchcraft is bayi. Despite this, the etymology of bayi is still uncertain.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c06",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another possible reading is oba meaning \"child\" and yi meaning to remove.",
+          "statement_id": "Kemungkinan lain adalah oba yang berarti \"anak\" (child) dan yi yang berarti mengambil atau menyingkirkan (to remove).",
+          "quote": "Another possible variation is oba meaning \"child\" and yi meaning to remove.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c07",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People, typically women, who practiced bayi turned into the obayifo.",
+          "statement_id": "Orang yang mempraktikkan bayi, biasanya perempuan (typically women), berubah menjadi obayifo.",
+          "quote": "People, typically women, who practiced bayi turned into the obayifo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c08",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Obansam, meaning wizard, was used exclusively for males, while obayifo was sometimes used exclusively for women.",
+          "statement_id": "Obansam, yang berarti penyihir laki-laki (wizard), dipakai khusus untuk laki-laki, sedangkan obayifo kadang dipakai khusus untuk perempuan.",
+          "quote": "obansam, meaning wizard, was a term used for the males exclusively as obayifo was sometimes only used for women exclusively.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c09",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Obayifo describes both men and women who practiced bayi and turned into the monster.",
+          "statement_id": "Istilah obayifo dipakai untuk laki-laki maupun perempuan yang mempraktikkan bayi dan berubah menjadi monster (turned into the monster).",
+          "quote": "Although obayifo is used to describe both the men and women who practiced bayi and turned into the monster",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c10",
+          "source_id": "obayifo-s2",
+          "host": "cs.wikipedia.org",
+          "statement": "Obayifo is a vampire-like (podobná upírovi) mythological being from West Africa (Západní Afriky), from the folklore of the Ashanti (Ašanti).",
+          "statement_id": "Obayifo adalah makhluk mitologis mirip vampir (podobná upírovi) dari Afrika Barat (Západní Afriky) yang berasal dari folklor suku Ashanti (Ašanti).",
+          "quote": "Obayifo je mytologická bytost podobná upírovi ze Západní Afriky, která pochází z místního folklóru kmene Ašanti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c11",
+          "source_id": "obayifo-s2",
+          "host": "cs.wikipedia.org",
+          "statement": "Obayifo was also regarded as a kind of witch (čarodějnice).",
+          "statement_id": "Obayifo juga dianggap sejenis penyihir perempuan (čarodějnice).",
+          "quote": "Obayifo byl považován také za druh čarodějnice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c12",
+          "source_id": "obayifo-s2",
+          "host": "cs.wikipedia.org",
+          "statement": "When travelling at night (v noci) they are said to give off a phosphorescent light (fosforeskující světlo) from their armpits and anus.",
+          "statement_id": "Saat bepergian pada malam hari (v noci), mereka konon memancarkan cahaya fosforesen (fosforeskující světlo) dari ketiak dan dubur.",
+          "quote": "Při cestování v noci mají vydávat fosforeskující světlo vycházející z jejich podpaží a řitního otvoru.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obayifo-c13",
+          "source_id": "obayifo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The reading \"to remove a child\" here highlights a close association of infant mortality and fertility with witchcraft.",
+          "statement_id": "Tafsiran \"menyingkirkan anak\" dalam hal ini menyoroti kaitan erat antara kematian bayi (infant mortality), kesuburan, dan ilmu sihir.",
+          "quote": "in this case highlights a close association of infant mortality and fertility to the likes of witchcraft.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ogbanje",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 18,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "ogbanje-c01",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ọgbanje is a term in Odinani for what was thought to be an evil spirit that would deliberately plague a family with misfortune.",
+          "statement_id": "Ọgbanje adalah istilah dalam Odinani untuk apa yang dahulu dianggap roh jahat (evil spirit) yang sengaja menimpakan kemalangan pada sebuah keluarga.",
+          "quote": "is a term in Odinani ... for what was thought to be an evil spirit that would deliberately plague a family with misfortune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c02",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Belief in ọgbanje in Igboland is not as strong as it once was, although there are still some believers.",
+          "statement_id": "Kepercayaan pada ọgbanje di tanah Igbo (Igboland) tidak sekuat dahulu, walaupun masih ada yang memercayainya.",
+          "quote": "Belief in ọgbanje in Igboland is not as strong as it once was, although there are still some believers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c03",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its literal meaning in the Igbo language is \"children who come and go\".",
+          "statement_id": "Arti harfiahnya dalam bahasa Igbo adalah \"anak-anak yang datang dan pergi\" (children who come and go).",
+          "quote": "Its literal meaning in the Igbo language is \"children who come and go\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c04",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word ọgbanje is often translated as changeling because of its similarity to the fairy changelings of Celtic and broader European mythology.",
+          "statement_id": "Kata ọgbanje sering diterjemahkan sebagai changeling karena kemiripannya dengan changeling peri dalam mitologi Kelt (Celtic) dan Eropa (European) pada umumnya.",
+          "quote": "The word ọgbanje is often translated as changeling, due to the similarities they share with the fairy changelings of Celtic and broader European mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c05",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some theorists hypothesize that these ideas were mythological ways of understanding once-unknown diseases that often killed children (such as SIDS and sickle cell disease).",
+          "statement_id": "Sejumlah teoretikus menduga konsep ini menjadi cara mitologis untuk memahami penyakit yang dahulu belum dikenal dan sering merenggut nyawa anak-anak (seperti SIDS dan penyakit sel sabit, sickle cell disease).",
+          "quote": "Some theorists have hypothesized that these conceptions serve as mythological ways of understanding what were once unknown diseases that often claimed the lives of children (such as SIDS and sickle cell disease)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c06",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ọgbanje was believed to deliberately die and be reborn into the family's next child, repeating the cycle and causing much grief.",
+          "statement_id": "Ọgbanje dipercaya sengaja mati lalu lahir kembali sebagai anak berikutnya dalam keluarga itu dan mengulang siklusnya, menimbulkan banyak duka (grief).",
+          "quote": "the ọgbanje would deliberately die and then be reborn into the next child of the family and repeat the cycle, causing much grief.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c07",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The evil spirits are said to have stones called iyi-uwa, which they bury somewhere secret.",
+          "statement_id": "Roh-roh jahat ini konon memiliki batu yang disebut iyi-uwa (stones called iyi-uwa) yang mereka kubur di tempat rahasia.",
+          "quote": "The evil spirits are said to have stones called iyi-uwa, which they bury somewhere secret.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c08",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Finding the evil spirits' iyi-uwa ensures the ọgbanje will never again plague the family with misfortune.",
+          "statement_id": "Menemukan iyi-uwa roh jahat itu menjamin ọgbanje tidak lagi menimpakan kemalangan (misfortune) pada keluarga tersebut.",
+          "quote": "Finding the evil spirits' iyi-uwa ensures the ọgbanje would never again plague the family with misfortune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c09",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The iyi-uwa is dug out by a priest and destroyed.",
+          "statement_id": "Iyi-uwa digali oleh seorang pendeta (priest) lalu dihancurkan.",
+          "quote": "The iyi-uwa is dug out by a priest and destroyed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c10",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To keep the ọgbanje from returning after the child's death, the body would be cut or mutilated; yet some ọgbanje were said to return bearing the scars.",
+          "statement_id": "Untuk mencegah ọgbanje kembali setelah anak itu meninggal, jasadnya dilukai atau dimutilasi (cut or mutilated); namun ada ọgbanje yang konon kembali dengan membawa bekas luka mutilasi itu (scars).",
+          "quote": "To prevent the ọgbanje from returning after the child's death, they would be cut or mutilated. Some ọgbanje, however, were said to return bearing the physical scars of the mutilation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c11",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other signs that helped families identify them were birthmarks, a child's first words, and behavior resembling the child who had been reincarnated.",
+          "statement_id": "Tanda lain yang membantu keluarga mengenalinya adalah tanda lahir (birthmarks), kata-kata pertama, dan kemiripan perilaku dengan anak yang bereinkarnasi.",
+          "quote": "Other things that have helped families identify them are birthmarks the child had, the first words they said, and behavior similarities from the child that has been reincarnated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c12",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Chinua Achebe's novel Things Fall Apart (1958), the character Ezinma was considered an ọgbanje.",
+          "statement_id": "Dalam novel Chinua Achebe, Things Fall Apart (1958), tokoh Ezinma dianggap seorang ọgbanje.",
+          "quote": "In the critically acclaimed novel by Chinua Achebe, Things Fall Apart (1958), the character Ezinma was considered an ọgbanje",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c13",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the novel Freshwater by Akwaeke Emezi (2018), the main character Ada is an ọgbanje.",
+          "statement_id": "Dalam novel Freshwater karya Akwaeke Emezi (2018), tokoh utamanya, Ada, adalah seorang ọgbanje.",
+          "quote": "In the novel Freshwater by Akwaeke Emezi (2018), the main character, Ada, is an ọgbanje",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c14",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ben Okri's Booker Prize-winning novel The Famished Road (1991) also features the figure.",
+          "statement_id": "Novel Ben Okri pemenang Booker Prize, The Famished Road (1991), juga memuat sosok ini.",
+          "quote": "In Ben Okri's Booker Prize-winning novel, The Famished Road (1991)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c15",
+          "source_id": "ogbanje-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The character Azaro is a spirit child, or ogbanje, who travels between worlds.",
+          "statement_id": "Tokoh Azaro adalah anak roh (spirit child) atau ogbanje yang berkelana di antara dunia-dunia.",
+          "quote": "the character Azaro is a spirit child, or ogbanje, who travels between worlds.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c16",
+          "source_id": "ogbanje-s2",
+          "host": "ig.wikipedia.org",
+          "statement": "Its plain translation in the Igbo language (asụsụ Igbo) is \"children who come and go\" (ụmụaka ndị na-abịa ma na-aga).",
+          "statement_id": "Terjemahan harfiahnya dalam bahasa Igbo (asụsụ Igbo) adalah \"anak-anak yang datang dan pergi\" (ụmụaka ndị na-abịa ma na-aga).",
+          "quote": "Nsụgharị nkịtị ya n'asụsụ Igbo bụ \"ụmụaka ndị na-abịa ma na-aga\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c17",
+          "source_id": "ogbanje-s2",
+          "host": "ig.wikipedia.org",
+          "statement": "Belief in Ọgbanje in the Igbo land (ala Igbo) is not as strong as before (adịghị ike dịka ọ dịrị na mbụ), though some still believe in it.",
+          "statement_id": "Kepercayaan pada Ọgbanje di tanah Igbo (ala Igbo) tidak sekuat dahulu (adịghị ike dịka ọ dịrị na mbụ), walau masih ada yang memercayainya.",
+          "quote": "Nkwenye n' Ọgbanje n'ala Igbo adịghị ike dịka ọ dịrị na mbụ ọ bụ ezie na-enwekwara ụfọdụ ndị kwere na ya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogbanje-c18",
+          "source_id": "ogbanje-s2",
+          "host": "ig.wikipedia.org",
+          "statement": "Sickle cell disease (Ọrịa Sickle cell) may have contributed to this belief (nkwenkwe a).",
+          "statement_id": "Penyakit sel sabit (Ọrịa Sickle cell) mungkin turut menyumbang pada kepercayaan ini (nkwenkwe a).",
+          "quote": "Ọrịa Sickle cell nwere ike inye aka na nkwenkwe a",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "holawaka",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "holawaka-c01",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the mythology of the Oromo people of Ethiopia, Holawaka is a legendary bird sent by the gods as a messenger to humanity.",
+          "statement_id": "Dalam mitologi orang Oromo di Etiopia (Ethiopia), Holawaka adalah burung legendaris yang diutus para dewa sebagai pembawa pesan bagi umat manusia.",
+          "quote": "In the mythology of the Oromo people of Ethiopia, Holawaka is a legendary bird sent by the gods as a messenger to humanity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c02",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The gods told Holawaka to tell humans they would be immortal and need only strip off their skins to be rejuvenated.",
+          "statement_id": "Para dewa memerintahkan Holawaka memberi tahu manusia bahwa mereka akan abadi (immortal) dan cukup melepaskan kulit (strip off their skins) untuk menjadi muda kembali.",
+          "quote": "The gods instructed Holawaka to tell humans that they would be immortal and all that they needed to do to be rejuvenated was to strip off their skins.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c03",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On its way to deliver the message, however, Holawaka met a snake eating an animal carcass.",
+          "statement_id": "Namun dalam perjalanan menyampaikan pesan itu, Holawaka bertemu seekor ular (snake) yang sedang memakan bangkai hewan.",
+          "quote": "However, on its way to deliver the message, Holawaka encountered a snake eating an animal carcass.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c04",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bird begged the snake to share the food, and the snake agreed only when Holawaka offered to share the message it carried.",
+          "statement_id": "Burung itu memohon agar ular berbagi makanan, tetapi ular baru setuju setelah Holawaka menawarkan untuk membagi pesan (message) yang dibawanya.",
+          "quote": "The bird pleaded with the snake to share some of the food, but the snake only agreed when Holawaka offered to share the message it was carrying.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c05",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It told the snake that humans will die when they grow old, but snakes need only shed their skin to become young again.",
+          "statement_id": "Holawaka berkata kepada ular bahwa manusia akan mati bila menua, sedangkan ular cukup berganti kulit (shed their skin) untuk muda kembali.",
+          "quote": "It told the snake that when humans grow old they will die, but when snakes grow old all they have to do is shed their skin to become young again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c06",
+          "source_id": "holawaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As punishment for dooming mankind to mortality, the gods inflicted a terrible disease on Holawaka, so that it cries out in pain forever.",
+          "statement_id": "Sebagai hukuman karena membuat manusia fana (mortal), para dewa menimpakan penyakit mengerikan (terrible disease) pada Holawaka sehingga ia menjerit kesakitan selamanya.",
+          "quote": "As punishment for dooming mankind to a mortal existence, the gods inflicted a terrible disease upon Holawaka, causing it to cry out in pain forever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c07",
+          "source_id": "holawaka-s2",
+          "host": "it.wikipedia.org",
+          "statement": "Holawaka, in the mythology of the galla of Ethiopia (Etiopia), is a legendary messenger bird (leggendario uccello messaggero).",
+          "statement_id": "Holawaka, dalam mitologi orang galla di Etiopia (Etiopia), adalah burung pembawa pesan yang legendaris (leggendario uccello messaggero).",
+          "quote": "Holawaka, nella mitologia dei galla dell'Etiopia, è un leggendario uccello messaggero.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c08",
+          "source_id": "holawaka-s2",
+          "host": "it.wikipedia.org",
+          "statement": "During the journey, out of hunger (per fame), it revealed the secret to a snake (serpente), which gave it food in return.",
+          "statement_id": "Dalam perjalanan, karena lapar (per fame), ia membocorkan rahasia itu kepada seekor ular (serpente) yang sebagai gantinya memberinya makan.",
+          "quote": "Durante il viaggio per fame rivelò il segreto ad un serpente che in cambio gli diede da mangiare.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "holawaka-c09",
+          "source_id": "holawaka-s2",
+          "host": "it.wikipedia.org",
+          "statement": "For this misdeed the gods (divinità) inflicted a terrible disease (terribile malattia) on the bird, so that its cries of pain are still heard today.",
+          "statement_id": "Karena kesalahan ini para dewa (divinità) menimpakan penyakit mengerikan (terribile malattia) pada burung itu, sehingga jeritan kesakitannya masih terdengar hingga kini.",
+          "quote": "Per questo misfatto le divinità inflissero al volatile una terribile malattia, per cui ancora oggi si odono e sue grida di dolore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ilomba",
+      "file": "batch-141-v7.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Africa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ilomba-c01",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ilomba is a sea snake with destructive powers in the mythology of the Lozi people of Zambia.",
+          "statement_id": "Ilomba adalah ular laut (sea snake) berkekuatan merusak dalam mitologi orang Lozi di Zambia.",
+          "quote": "Ilomba is a sea snake with destructive powers in the mythology of the Lozi people of Zambia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c02",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is made from the maker's finger nails and blood from the forehead, back and chest.",
+          "statement_id": "Ia dibuat dari kuku jari (finger nails) dan darah dari dahi, punggung, dan dada pembuatnya.",
+          "quote": "It is made with their finger nails and blood from their forehead, back, and chest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c03",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When young it is usually fed eggs and porridge because its fangs are not fully developed.",
+          "statement_id": "Saat masih muda ia biasanya diberi makan telur dan bubur (eggs and porridge) karena taringnya belum tumbuh sempurna.",
+          "quote": "It is usually fed with eggs and porridge when it is young because its fangs are not fully developed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c04",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It takes on the identity of its owner, and the owner commands it to kill a person.",
+          "statement_id": "Ia mengambil identitas orang yang memilikinya (owner), dan pemiliknya akan memerintahkannya membunuh seseorang.",
+          "quote": "It takes on the identity of the person that owns it. The owner will command it to kill a person.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c05",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The victim sees the witch doctor's face in place of the Ilomba's, while others see a normal snake; it bites its prey and then consumes its soul.",
+          "statement_id": "Korbannya melihat wajah dukun (witch doctor) sebagai wajah Ilomba, sedangkan orang lain melihatnya sebagai ular biasa; ia menggigit mangsanya lalu memakan jiwanya (soul).",
+          "quote": "The victim will see the witch doctor's face in place of the Ilomba's, but the other people will view it as a normal snake. It bites into its prey then consumes its soul.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c06",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If it is killed, the owner feels the pain and then dies; if the owner dies, it dies.",
+          "statement_id": "Jika Ilomba dibunuh, pemiliknya merasakan sakit lalu mati; jika pemiliknya mati, Ilomba pun mati.",
+          "quote": "If it is killed, the owner feels the pain, and then dies. If the owner dies, it dies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c07",
+          "source_id": "ilomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If the witch doctor stops feeding it, it will turn on its master and consume him.",
+          "statement_id": "Jika dukun berhenti memberinya makan, ia akan berbalik menyerang tuannya (master) dan memangsanya.",
+          "quote": "If the witch doctor stops supplying food to it, it will turn on its master and consume them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c08",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "The ilomba is a water-snake familiar created by a sorcerer either for himself or for a client.",
+          "statement_id": "Ilomba adalah familiar berwujud ular air (water-snake familiar) yang dibuat oleh tukang sihir (sorcerer) untuk dirinya sendiri atau untuk kliennya.",
+          "quote": "The ilomba is a water-snake familiar which is created by a sorcerer either for himself or for a client.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c09",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "Its body is a snake's, but its head is human in form and closely resembles its owner's head.",
+          "statement_id": "Tubuhnya berupa ular, tetapi kepalanya berbentuk manusia dan sangat mirip kepala pemiliknya (head of its owner).",
+          "quote": "The body of the creature is that of a snake, but the head is human in form and closely resembles the head of its owner.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c10",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "The ilomba is so closely linked to its owner that its destruction must result in the owner's death.",
+          "statement_id": "Ilomba begitu erat terikat dengan pemiliknya sehingga kehancurannya pasti menyebabkan kematian sang pemilik (death of the latter).",
+          "quote": "so closely linked to their owners that their destruction must result in the death of the latter.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c11",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "It is also known as lilombamema or, among the Kaonde, mulombe.",
+          "statement_id": "Ilomba juga dikenal sebagai lilombamema, atau mulombe oleh orang Kaonde.",
+          "quote": "otherwise known as lilombamema or, by the Kaonde, mulombe",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c12",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "Reynolds calls it the best known of all central African familiars and the only one with much literature.",
+          "statement_id": "Reynolds menyebut ilomba sebagai familiar paling terkenal di Afrika tengah (central African familiars) dan satu-satunya yang banyak dibahas dalam literatur.",
+          "quote": "The best known of all central African familiars, and the only one on which there is much literature",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c13",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "Soon it demands meat: a foetus, then a babe and finally an adult.",
+          "statement_id": "Tak lama kemudian ia menuntut daging (meat): janin, lalu bayi, dan akhirnya orang dewasa.",
+          "quote": "Soon it demands meat—a foetus, then a babe and finally an adult.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c14",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "In one account the snake chose to live in the river, and its owner found that it could talk.",
+          "statement_id": "Dalam satu kesaksian, ular itu memilih tinggal di sungai (river) dan pemiliknya mendapati bahwa ia bisa berbicara.",
+          "quote": "The snake chose to live in the river, and he found that it could talk.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ilomba-c15",
+          "source_id": "ilomba-s2",
+          "host": "archive.org",
+          "statement": "Another fate for the ilomba's owner is its discovery by a witchdoctor, who shoots it with a wuta wawufuku.",
+          "statement_id": "Nasib lain bagi pemilik ilomba adalah bila ilomba ditemukan oleh dukun (witchdoctor) yang menembaknya dengan senapan wuta wawufuku.",
+          "quote": "An alternative fate for the owner of the ilomba is its discovery by a witchdoctor who then shoots it with a wuta wawufuku",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "deverangwena",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "deverangwena-c01",
+          "source_id": "deverangwena-s1",
+          "host": "sn.wikipedia.org",
+          "statement": "In chiKaranga folklore (munhema/ruambanhema), the Deverangwena is said to be a kind of beast (chikara) resembling a fish (chinenge hove).",
+          "statement_id": "Dalam cerita rakyat (munhema/ruambanhema) chiKaranga, Deverangwena disebut sejenis binatang (chikara) yang menyerupai ikan (chinenge hove).",
+          "quote": "Deverangwena munhema (kana ruambanhema) dze chiKaranga inonzi imhando ye chikara cheruandhle chinenge hove,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "deverangwena-c02",
+          "source_id": "deverangwena-s1",
+          "host": "sn.wikipedia.org",
+          "statement": "It is said to follow (chinotevera) the crocodile (ngwena or garwe) in the water (mumvuura).",
+          "statement_id": "Makhluk itu dikatakan mengikuti (chinotevera) buaya (ngwena atau garwe) di dalam air (mumvuura).",
+          "quote": "chainzi chinotevera ngwena (kana garwe) mumvuura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "deverangwena-c03",
+          "source_id": "deverangwena-s1",
+          "host": "sn.wikipedia.org",
+          "statement": "Because of that habit (tsika), people (vanhu) called it deverangwena.",
+          "statement_id": "Karena kebiasaan (tsika) itulah orang-orang (vanhu) menyebutnya deverangwena.",
+          "quote": "Nekuda kwe tsika yayo iyoyo, zvakakonzera kuti vanhu vaidane kuti deverangwena.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "deverangwena-c04",
+          "source_id": "deverangwena-s1",
+          "host": "sn.wikipedia.org",
+          "statement": "Moreover, it has no equivalent name in English (paChingezi).",
+          "statement_id": "Selain itu, tidak ada padanan namanya dalam bahasa Inggris (paChingezi).",
+          "quote": "uyezve hapana fanadudziro rayo paChingezi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "deverangwena-c05",
+          "source_id": "deverangwena-s2",
+          "host": "sn.wikipedia.org",
+          "statement": "Garwe or ngwena (crocodile in English) is an animal that lives in water (mumvura).",
+          "statement_id": "Garwe atau ngwena (crocodile dalam bahasa Inggris) adalah hewan yang hidup di air (mumvura).",
+          "quote": "Garwe, ngwena, gambinga, gomombo (crocodile in English) imhuka inogara mumvura",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "deverangwena-c06",
+          "source_id": "deverangwena-s2",
+          "host": "sn.wikipedia.org",
+          "statement": "The Bemba, Fwe, Zigula and Yao also say ngwena (crocodile) for garwe.",
+          "statement_id": "Orang Bemba, Fwe, Zigula, dan Yao juga menyebut buaya (crocodile) ngwena.",
+          "quote": "VaBemba, VaFwe, VaZigula neVaYao vanoti ngwena (crocodile) kureva garwe.",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hira-mythical-monster",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 17,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "hira-mythical-monster-c01",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hira is a mythical monster in epic and folk tales of the Songhai people, especially the Bozo, who traditionally lived by hunting and fishing along the Niger River.",
+          "statement_id": "Hira adalah monster mitos dalam kisah epik dan cerita rakyat orang Songhai, khususnya orang Bozo yang secara tradisional hidup dari berburu dan menangkap ikan di sepanjang Sungai Niger.",
+          "quote": "The Hira is a mythical monster who occurs in epic and folklore tales of the Songhai people, particularly the Bozo people who traditionally lived from hunting and fishing along the Niger River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c02",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The main source is the tales collected by M. A. Dupuis Yakouba at the start of the twentieth century.",
+          "statement_id": "Sumber utamanya adalah kisah-kisah yang dikumpulkan M. A. Dupuis Yakouba pada awal abad ke-20 (twentieth century).",
+          "quote": "The main source are the tales collected by M. A. Dupuis Yakouba at the start of the twentieth century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c03",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hira is a legendary kind of buffalo known for incredible force and brutality.",
+          "statement_id": "Hira adalah sejenis kerbau (buffalo) legendaris yang terkenal karena kekuatan luar biasa dan kebrutalannya.",
+          "quote": "The Hira is a legendary variety of buffalo known for incredible force and brutality.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c04",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hira is the main opponent in one of the epic tales about the culture hero Moussa Gname.",
+          "statement_id": "Hira adalah lawan utama (main opponent) dalam salah satu kisah epik tentang pahlawan budaya Moussa Gname.",
+          "quote": "The Hira is the main opponent in one of the epic tales about the culture hero Moussa Gname",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c05",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A second Hira comes, and a diviner says it can only be killed by a female elephant disguised as the chief's girlfriend.",
+          "statement_id": "Hira kedua datang, dan seorang peramal (diviner) berkata monster itu hanya bisa dibunuh oleh seekor gajah betina (female elephant) yang menyamar sebagai kekasih sang kepala.",
+          "quote": "A second Hira comes, and a diviner says that the monster can only be killed by a female elephant--who is disguised as the chief's girlfriend.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c06",
+          "source_id": "hira-mythical-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She pulls four hairs from its tail and gives them to Moussa; next day Moussa only has to show the Hira its own hairs for it to lie down and be killed.",
+          "statement_id": "Gajah betina itu mencabut empat helai bulu ekor Hira (four hairs from his tail) dan memberikannya kepada Moussa; esoknya Moussa cukup menunjukkan bulu itu agar monster itu berbaring dan dibunuh.",
+          "quote": "She pulls four hairs from his tail and gives them to Moussa; the next day, all Moussa has to do is show the Hira his own hairs for the monster to lie down and be killed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c07",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "The Hira is a buffalo (buffle) famed for its strength (force) and brutality.",
+          "statement_id": "Hira adalah kerbau (buffle) yang terkenal karena kekuatan (force) dan kebrutalannya.",
+          "quote": "Hira, buffle réputé pour sa force et sa brutalité.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c08",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "It was a wicked beast (bête méchante) that terrorised the whole bush (brousse).",
+          "statement_id": "Hira adalah binatang jahat (bête méchante) yang meneror seluruh semak belantara (brousse).",
+          "quote": "C'était une bête méchante qui terrorisait toute la brousse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c09",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "No hunter (chasseur) went hunting any more, and nobody dared venture into the bush.",
+          "statement_id": "Tidak ada pemburu (chasseur) yang berani berburu, dan tak seorang pun berani masuk ke semak belantara.",
+          "quote": "Aucun chasseur n'allait plus à la chasse : personne n'osait s'aventurer dans la brousse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c10",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "Kourouyoré struck the Hira with his spear (lance) and it broke; his arrows (flèches) broke too.",
+          "statement_id": "Kourouyoré menusuk Hira dengan tombak (lance) dan tombak itu patah; panah-panahnya (flèches) pun patah.",
+          "quote": "Il le frappa de sa lance, elle se brisa ; il lui jeta des flèches, elles se brisèrent;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c11",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "The Hira seized Kourouyoré, lifted him and threw him to the ground (jeta à terre).",
+          "statement_id": "Hira mengangkat Kourouyoré dan membantingnya ke tanah (jeta à terre).",
+          "quote": "Le Hira le prit, le souleva et le jeta à terre;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c12",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "Mousa drew his knife (couteau) and cut the Hira's throat.",
+          "statement_id": "Mousa mencabut pisaunya (couteau) dan menggorok Hira.",
+          "quote": "Mousa tira son couteau et égorgea le Hira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c13",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "The Hira rose and changed into an elephant (se transforma en éléphant), and Meynsata fought it.",
+          "statement_id": "Hira bangkit lagi dan berubah wujud menjadi gajah (se transforma en éléphant), lalu Meynsata melawannya.",
+          "quote": "Il se leva et se transforma en éléphant; Meynsata lui rom-",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c14",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "Mousa struck the elephant and turned it into a lion (lion), then broke its neck.",
+          "statement_id": "Mousa memukul gajah itu dan mengubahnya menjadi singa (lion), lalu mematahkan lehernya.",
+          "quote": "Mousa aussi frappa l'éléphant et le transforma en lion, il lui rompit aussi le cou.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c15",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "An elephant (éléphant), Sanou-Mandigné's friend, gave him the four hairs (quatre poils) and went back to the bush.",
+          "statement_id": "Seekor gajah (éléphant), sahabat Sanou-Mandigné, memberinya empat helai bulu (quatre poils) lalu kembali ke semak belantara.",
+          "quote": "l'éléphant lui donna les quatre poils et retourna dans la brousse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c16",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "Facing the Hira, Mousa showed it the four hairs of its tail (quatre poils de sa queue) and threw them at it.",
+          "statement_id": "Ketika berhadapan dengan Hira, Mousa menunjukkan empat helai bulu ekornya (quatre poils de sa queue) dan melemparkannya kepadanya.",
+          "quote": "Quand il fut en présence du Hira, Mousa lui montra les quatre poils de sa queue et les lui jeta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hira-mythical-monster-c17",
+          "source_id": "hira-mythical-monster-s2",
+          "host": "archive.org",
+          "statement": "The Hira lay down (se coucha), and the Gow came up and cut its throat.",
+          "statement_id": "Hira pun berbaring (se coucha), lalu para Gow mendekat dan menggoroknya.",
+          "quote": "Le Hira se coucha. Les Gow s'approchèrent et l'égorgèrent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "jobar-monster",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "jobar-monster-c01",
+          "source_id": "jobar-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jobar is a monster from the folklore of the Tuareg of Niger.",
+          "statement_id": "Jobar adalah monster dari cerita rakyat orang Tuareg di Niger.",
+          "quote": "Jobar is a monster from folklore of the Tuareg of Niger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c02",
+          "source_id": "jobar-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was described as a giant camel-like beast and served as a boogeyman that would eat naughty children.",
+          "statement_id": "Jobar digambarkan sebagai binatang raksasa mirip unta (camel) dan berperan sebagai momok (boogeyman) yang memakan anak nakal.",
+          "quote": "It was described as a giant beast like a camel, and was as a boogeyman that would eat naughty children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c03",
+          "source_id": "jobar-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dinosaur Jobaria was named after Jobar.",
+          "statement_id": "Dinosaurus Jobaria dinamai menurut Jobar.",
+          "quote": "The dinosaur Jobaria was named after Jobar",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c04",
+          "source_id": "jobar-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bones of Jobaria eroding out of rocks were identified as belonging to Jobar.",
+          "statement_id": "Tulang-tulang Jobaria yang tersingkap dari batuan dianggap (identified) sebagai tulang Jobar.",
+          "quote": "as the bones of Jobaria eroding out of rocks were identified as belonging to Jobar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c05",
+          "source_id": "jobar-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because the rocks showed a flood, there is a story of Jobars dying in a flood and a palaeontological theory that Jobaria died in one.",
+          "statement_id": "Karena batuan itu menunjukkan bekas banjir, ada kisah Jobar mati dalam banjir (flood) dan teori paleontologi bahwa Jobaria mati dalam banjir.",
+          "quote": "hence why there is a story of Jobars dying in a flood and a palaeontological theory Jobaria died in a flood.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c06",
+          "source_id": "jobar-monster-s2",
+          "host": "australian.museum",
+          "statement": "The name of this dinosaur found in Niger comes from a mythical African creature called a Jobar, which was like a bogeyman.",
+          "statement_id": "Nama dinosaurus yang ditemukan di Niger ini berasal dari makhluk mitos Afrika (African) bernama Jobar yang mirip momok (bogeyman).",
+          "quote": "The imaginative name given to this monster found In Niger comes from a mythical African creature called a Jobar, who was like a bogeyman.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c07",
+          "source_id": "jobar-monster-s3",
+          "host": "www.radiofrance.fr",
+          "statement": "Tuareg children may be told: if you are not good (sage), the Jobar will come for you tonight (cette nuit).",
+          "statement_id": "Anak-anak Tuareg kadang diberi tahu: kalau kamu tidak baik (sage), Jobar akan datang menjemputmu malam ini (cette nuit).",
+          "quote": "Si tu n’es pas sage, le Jobar viendra te chercher cette nuit",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c08",
+          "source_id": "jobar-monster-s3",
+          "host": "www.radiofrance.fr",
+          "statement": "The Jobar is a giant monster (monstre géant) belonging to Tuareg (touarègue) mythology.",
+          "statement_id": "Jobar adalah monster raksasa (monstre géant) yang menjadi bagian dari mitologi Tuareg (touarègue).",
+          "quote": "Monstre géant, le Jobar fait partie de la mythologie touarègue",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jobar-monster-c09",
+          "source_id": "jobar-monster-s3",
+          "host": "www.radiofrance.fr",
+          "statement": "It is also the name archaeologists gave a very large dinosaur (très grand dinosaure) whose skeleton was found in 1990 in the Agadez region.",
+          "statement_id": "Jobar juga menjadi nama yang diberikan para arkeolog kepada dinosaurus sangat besar (très grand dinosaure) yang kerangkanya ditemukan pada 1990 di wilayah Agadez.",
+          "quote": "c’est aussi le nom que des archéologues ont donné à un très grand dinosaure, dont le squelette a été retrouvé en 1990 dans la région d’Agadez.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "koolakamba",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "koolakamba-c01",
+          "source_id": "koolakamba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Koolakamba or Kooloo-Kamba is a purported hybrid species of chimpanzees and gorillas.",
+          "statement_id": "Koolakamba atau Kooloo-Kamba adalah spesies yang diduga hibrida (hybrid) simpanse dan gorila.",
+          "quote": "The Koolakamba or Kooloo-Kamba is a purported hybrid species of chimpanzees and gorillas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c02",
+          "source_id": "koolakamba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This alleged hybrid ape has been reported in Africa since the mid 19th century, but no empirical evidence supports its existence.",
+          "statement_id": "Kera hibrida yang diduga ini dilaporkan di Afrika sejak pertengahan abad ke-19, tetapi tidak ada bukti empiris (empirical evidence) yang menguatkan keberadaannya.",
+          "quote": "This alleged hybrid ape species has been reported in Africa as early as the mid 19th century. No empirical evidence has been found to substantiate the existence of the creature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c03",
+          "source_id": "koolakamba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Du Chaillu named the ape Koolakamba from words used by the indigenous Nkomi and Bakalai peoples in the Ovenga River region of West Central Africa, modern Gabon.",
+          "statement_id": "Du Chaillu menamai kera ini Koolakamba berdasarkan kata-kata penduduk asli (Nkomi dan Bakalai) di wilayah Sungai Ovenga, Afrika Barat Tengah, kini Gabon.",
+          "quote": "Du Chaillu refers to the ape as Koolakamba based upon his description of words used by the indigenous peoples (Nkomi and Bakalai) in the region of the Ovenga River of West Central Africa, modernly Gabon.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c04",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "The Goumbi people called it kooloo-kamba from its noise or call, together with the Camma word kamba, which means to speak.",
+          "statement_id": "Orang Goumbi menyebutnya kooloo-kamba dari bunyi atau panggilannya (noise or call), ditambah kata Camma kamba yang berarti berbicara.",
+          "quote": "It was called kooloo-kamba by the Goumbi people, from its noise or call, ... and the Camma word kamba, which means",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c05",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "The Bakalai call it simply Koola.",
+          "statement_id": "Orang Bakalai menyebutnya cukup dengan Koola.",
+          "quote": "The Bakalai call it simply Koola.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c06",
+          "source_id": "koolakamba-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "The Koolakamba is supposed to be larger (plus grand), flatter-faced and more bipedal than the chimpanzee (chimpanzé).",
+          "statement_id": "Koolakamba dianggap lebih besar (plus grand), berwajah lebih datar, dan lebih bipedal daripada simpanse (chimpanzé).",
+          "quote": "Le Koolakamba est censé être plus grand, avoir une face plus plate et une posture plus bipède que le chimpanzé.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c07",
+          "source_id": "koolakamba-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "The koolakamba was described as early as 1852 by Doctor Franquet in his report on the great apes of Gabon (grands Singes du Gabon).",
+          "statement_id": "Koolakamba sudah dideskripsikan pada 1852 oleh dokter Franquet dalam laporannya tentang kera besar Gabon (grands Singes du Gabon).",
+          "quote": "Le koolakamba est décrit dès 1852 par le docteur Franquet dans son rapport Notes manuscrites sur les grands Singes du Gabon",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c08",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "The animal that was shot was a full-grown male four feet three inches high.",
+          "statement_id": "Hewan yang ditembak itu jantan dewasa setinggi empat kaki tiga inci (four feet three inches).",
+          "quote": "The animal was a full-grown male four feet three inches high.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c09",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "The kooloo-kamba's distinctive marks are a very round head, whiskers running round the face and below the chin, a round face, prominent cheek-bones and sunken cheeks.",
+          "statement_id": "Ciri khas kooloo-kamba adalah kepala sangat bulat, cambang (whiskers) yang melingkari wajah sampai bawah dagu, wajah bulat, tulang pipi menonjol, dan pipi cekung.",
+          "quote": "The kooloo-kamba has for distinctive marks a very round head; whiskers running quite round the face and below the chin; the face is round; the cheek-bones prominent; the cheeks sunken",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c10",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "Its hair is black and long on the arm, though the arm was partly bare.",
+          "statement_id": "Rambutnya hitam (black), panjang di lengan, meski lengan itu sebagian gundul.",
+          "quote": "The hair is black; long on the arm, which was, however, partly bare.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c11",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "Local people knew only that it was found more often farther interior and that, like the gorilla, it was very shy and hard to approach.",
+          "statement_id": "Penduduk setempat hanya tahu bahwa ia lebih sering ditemukan lebih jauh di pedalaman (farther interior) dan, seperti gorila, sangat pemalu dan sulit didekati.",
+          "quote": "Of its habits these people could tell me nothing, except that farther interior it was found more frequently, and that it was, like the gorilla, very shy and hard of approach.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c12",
+          "source_id": "koolakamba-s3",
+          "host": "archive.org",
+          "statement": "According to the author, of the great apes then known the kooloo most nearly approaches man in the structure of its head.",
+          "statement_id": "Menurut penulis, di antara kera besar yang dikenal saat itu, kooloo paling mendekati manusia (approaches man) dalam struktur kepalanya.",
+          "quote": "The kooloo is, however, the ape, of all the great apes now known, which most nearly approaches man in the structure of its head.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c13",
+          "source_id": "koolakamba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In November 1996 a picture of an unusual ape from the Yaounde Zoo, Cameroon, was featured in the newsletter of the Internal Primate Protection League.",
+          "statement_id": "Pada November 1996, foto seekor kera yang tidak biasa (unusual ape) dari Kebun Binatang Yaounde, Kamerun, dimuat dalam buletin Internal Primate Protection League.",
+          "quote": "In November 1996, a picture of an unusual ape (taken by Peter Jenkins and Liza Gadsby at the Yaounde Zoo, Cameroon) was featured in the Newsletter of the Internal Primate Protection League (IPPL).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c14",
+          "source_id": "koolakamba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Scientifically it remains undetermined whether the Koolakamba is a chimpanzee subspecies, a gorilla-chimpanzee hybrid or simply a product of individual variation.",
+          "statement_id": "Secara ilmiah belum dipastikan apakah Koolakamba adalah subspesies simpanse, hibrida gorila-simpanse, atau sekadar hasil variasi individu (individual variation).",
+          "quote": "Scientifically, it has not been determined if the Koolakamba is a subspecies of chimpanzee, a gorilla-chimpanzee hybrid, or perhaps simply a product of individual variation.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "koolakamba-c15",
+          "source_id": "koolakamba-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "The hypothesis more likely reflects the zoologists' poor understanding at the time of morphological variation (variation morphologique) in these great apes than any real hybridisation (hybridation).",
+          "statement_id": "Hipotesis ini lebih mungkin mencerminkan kurangnya pemahaman para zoolog masa itu tentang variasi morfologi (variation morphologique) kera besar daripada adanya hibridisasi (hybridation) nyata.",
+          "quote": "L'émission de cette hypothèse reflète plus vraisemblablement la méconnaissance, par les zoologistes de l'époque, de la variation morphologique inter-spécifique chez ces grands singes que l'existence d'une hybridation récente entre ces deux genres de primates.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mazomba",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "mazomba-c01",
+          "source_id": "mazomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mazomba is a giant fish in the mythology of the Chaga people of Tanzania.",
+          "statement_id": "Mazomba adalah ikan raksasa (giant fish) dalam mitologi orang Chaga di Tanzania.",
+          "quote": "Mazomba is a giant fish in the mythology of the Chaga people of Tanzania.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c02",
+          "source_id": "mazomba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mazomba is also the name of a crater on Triton, a moon of Neptune.",
+          "statement_id": "Mazomba juga menjadi nama sebuah kawah (crater) di Triton, bulan Neptunus.",
+          "quote": "It is also the name of a crater on Triton, a moon of Neptune.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c03",
+          "source_id": "mazomba-s2",
+          "host": "ff.wikipedia.org",
+          "statement": "Mazomba is a large fish (liɗɗi mawɗi) in the lore of the Chaga people (leñol Chaga) in Tanzania (Tansani).",
+          "statement_id": "Mazomba adalah ikan besar (liɗɗi mawɗi) dalam kisah suku Chaga (leñol Chaga) di Tanzania (Tansani).",
+          "quote": "Mazomba ko liɗɗi mawɗi e nder daartol leñol Chaga to Tansani.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c04",
+          "source_id": "mazomba-s3",
+          "host": "planetarynames.wr.usgs.gov",
+          "statement": "The crater name's origin: a mythical large fish from Chaga (Tanzania) tradition.",
+          "statement_id": "Asal nama kawah ini: ikan besar mitos (mythical large fish) dari tradisi Chaga, Tanzania.",
+          "quote": "Chaga (Tanzania) mythical large fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c05",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "The author discusses a Chaga tale as a more meaningful version of an episode of a heartless practical joke.",
+          "statement_id": "Penulis membahas sebuah kisah Chaga (Chaga tale) sebagai versi yang lebih masuk akal dari sebuah episode lelucon kejam.",
+          "quote": "There seems no point in this beyond a senseless and heartless practical joke, but a Chaga tale",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c06",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "In the tale the leopards direct the mother to creatures called nsenzi, and they send her on to the Mazomba (large fishes), who then speak to her.",
+          "statement_id": "Dalam kisah itu, macan tutul (leopards) menunjukkan jalan si ibu kepada makhluk nsenzi, lalu nsenzi mengarahkannya kepada Mazomba (ikan-ikan besar, large fishes) yang kemudian berbicara kepadanya.",
+          "quote": "The leopards directed her on to certain creatures called nsenzi (which Dr. Macdonald takes to be birds), and they to the Mazomba (Masomba? — large fishes), who said,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c07",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "The woman is seeking the dwelling-place of Mulungu, as becomes clear later in the tale.",
+          "statement_id": "Perempuan itu sedang mencari tempat tinggal Mulungu (dwelling-place of Mulungu), sebagaimana tampak kemudian dalam kisah.",
+          "quote": "She does not here say that she wants to find the dwelling-place of Mulungu, but this appears later.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c08",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "The woman is not asked to render any services to the beings she meets.",
+          "statement_id": "Perempuan itu tidak diminta memberi jasa (render any services) kepada makhluk-makhluk yang ditemuinya.",
+          "quote": "The woman is not asked to render any services to those she meets",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c09",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "When she reaches the village of Mulungu, Mulungu calls the crocodile and restores her child.",
+          "statement_id": "Setibanya di desa Mulungu, Mulungu memanggil buaya (crocodile) dan mengembalikan anaknya.",
+          "quote": "When she reaches “ the village of Mu- lungu ” and tells her story, Mulungu calls the crocodile and restores her child.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mazomba-c10",
+          "source_id": "mazomba-s4",
+          "host": "archive.org",
+          "statement": "Her companions, hearing what had happened, at once threw their babies into the water and climbed the tree.",
+          "statement_id": "Teman-temannya, setelah mendengar kejadian itu, segera melempar bayi mereka ke air dan memanjat pohon (climbed the tree).",
+          "quote": "Her companions, when they heard what had happened, at once threw their babies into the water and climbed the tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "moussa-gname",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 14,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "moussa-gname-c01",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Moussa Gname is a culture hero in epic and folk tales of the Songhai people in West Africa.",
+          "statement_id": "Moussa Gname adalah pahlawan budaya (culture hero) dalam kisah epik dan cerita rakyat orang Songhai di Afrika Barat (West Africa).",
+          "quote": "is a culture hero in epic and folklore tales of the Songhai people, in West Africa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c02",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The main source for the hero is the epics collected by M. A. Dupuis Yakouba at the start of the twentieth century.",
+          "statement_id": "Sumber utama tentang pahlawan ini adalah epos yang dikumpulkan M. A. Dupuis Yakouba pada awal abad ke-20 (twentieth century).",
+          "quote": "The main source for the hero are the epics collected by M. A. Dupuis Yakouba at the start of the twentieth century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c03",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Moussa's origin is mythical and, like Moses, his father is unknown; he is born of a woman who sleeps under a tree and is impregnated by the spirit dwelling in it.",
+          "statement_id": "Asal-usul Moussa bersifat mitis; seperti Musa (Moses), ayahnya tidak diketahui. Ia lahir dari perempuan yang tertidur di bawah pohon dan dihamili roh (spirit) penghuni pohon itu.",
+          "quote": "Moussa's origin is mythical, and his father, like Moses unknown. He is born of a woman who falls asleep under a tree and is impregnated by a spirit that dwells in the tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c04",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A local leader, Kuruyore, sees Moussa as the future leader, but people do not believe him and Moussa is bullied by other children.",
+          "statement_id": "Pemimpin setempat, Kuruyore, melihat Moussa sebagai calon pemimpin, tetapi orang-orang tidak percaya, dan Moussa dirundung (bullied) anak-anak lain.",
+          "quote": "A local leader, Kuruyore, sees in him the future leader of their people but they don't believe him, and Moussa is bullied by the other children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c05",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His mother sends him to the tree where his spirit-father teaches him hunting magic.",
+          "statement_id": "Ibunya menyuruhnya ke pohon tempat ayah-rohnya (spirit-father) mengajarinya sihir berburu (hunting magic).",
+          "quote": "Finally, he goes to his mother, who in turn sends him to the tree where his spirit-father teaches him hunting magic.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c06",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He accepts the position of chief on condition that nobody eats cooked food in the bush.",
+          "statement_id": "Ia menerima kedudukan kepala (chief) dengan syarat tak seorang pun makan makanan masak di semak belantara (bush).",
+          "quote": "he accepts his position as chief on the condition that none of the people will eat cooked food in the bush.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c07",
+          "source_id": "moussa-gname-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His greatest heroic feat, while still young, was defeating the mythical monster the Hira.",
+          "statement_id": "Kepahlawanan terbesarnya, saat masih muda, adalah mengalahkan monster mitos Hira.",
+          "quote": "His greatest heroic feat, performed while still young, was to defeat the mythical monster the Hira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c08",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "Mousa-Gnamé's father is a Genie (Génie); his mother was named Gnamé, a Gow and aunt of Kouarondembo.",
+          "statement_id": "Ayah Mousa-Gnamé adalah Genie (Génie), dan ibunya bernama Gnamé, seorang Gow, bibi Kouarondembo.",
+          "quote": "Mousa-Gnamé. Son père est un Génie, sa mère se nommait Gnamé, elle était gow et tante de Kouarondembo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c09",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "He would be called Mousa-Gnamé (after his mother's name) or Mousa-Djinni (because of his father).",
+          "statement_id": "Ia akan dinamai Mousa-Gnamé (dari nama ibunya) atau Mousa-Djinni (karena ayahnya).",
+          "quote": "On t'appellera Mousa-Gnamé (nom de sa mère) ou Mousa-Djinni (à cause de son père)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c10",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "The Genies taught him spells (sortilèges) to fly (voler) and to turn into rain (pluie).",
+          "statement_id": "Para Genie mengajarinya sihir (sortilèges) untuk terbang (voler) dan untuk berubah menjadi hujan (pluie).",
+          "quote": "Ils lui enseignèrent des sortilèges pour voler, pour se tranformer en pluie.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c11",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "He married Kamankiri's daughter (fille de Kamankiri) and had a daughter named Fatimata-Mousa.",
+          "statement_id": "Ia menikahi putri Kamankiri (fille de Kamankiri) dan mempunyai anak perempuan bernama Fatimata-Mousa.",
+          "quote": "Il se maria avec la fille de Kamankiri, en eut une fille nommée Fatimata-Mousa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c12",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "He became general chief of the Gow (chef général des Gow) after Kourouyoré resigned.",
+          "statement_id": "Ia menjadi kepala umum para Gow (chef général des Gow) setelah Kourouyoré mengundurkan diri.",
+          "quote": "Il devint chef général des Gow, après la démission de Kourouyoré.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c13",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "Mousa drew his knife (couteau) and cut the Hira's throat.",
+          "statement_id": "Mousa mencabut pisaunya (couteau) dan menggorok Hira.",
+          "quote": "Mousa tira son couteau et égorgea le Hira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moussa-gname-c14",
+          "source_id": "moussa-gname-s2",
+          "host": "archive.org",
+          "statement": "They stayed in the village (village), and Mousa married Meynsata.",
+          "statement_id": "Mereka tinggal di desa (village), dan Mousa menikahi Meynsata.",
+          "quote": "Ils restèrent au village et Mousa épousa Meynsata.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "panti",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "panti-c01",
+          "source_id": "panti-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Chickasaw mythology, Panti is a fabulous beast with exceptionally lovely teeth.",
+          "statement_id": "Dalam mitologi Chickasaw, Panti adalah hewan ajaib (fabulous beast) yang giginya luar biasa indah.",
+          "quote": "In Chickasaw mythology, Panti is a fabulous beast with exceptionally lovely teeth",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panti-c02",
+          "source_id": "panti-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its lovely teeth will be exchanged for lost baby teeth.",
+          "statement_id": "Gigi indahnya akan ditukarkan dengan gigi susu (baby teeth) yang tanggal.",
+          "quote": "with exceptionally lovely teeth which it will exchange for lost baby teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panti-c03",
+          "source_id": "panti-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is similar to creatures such as the Tooth Fairy and Ratoncito Pérez.",
+          "statement_id": "Panti mirip dengan makhluk seperti Peri Gigi (Tooth Fairy) dan Ratoncito Pérez.",
+          "quote": "It is similar to creatures like the Tooth Fairy and Ratoncito Pérez.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "panti-c04",
+          "source_id": "panti-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The information on Panti is referenced to the dictionary Chickasaw: An Analytical Dictionary (University of Oklahoma Press, 1994).",
+          "statement_id": "Keterangan tentang Panti dirujuk ke kamus Chickasaw: An Analytical Dictionary (University of Oklahoma Press, 1994).",
+          "quote": "Chickasaw: An Analytical Dictionary. Norman: University of Oklahoma Press, 1994.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "panti-c05",
+          "source_id": "panti-s2",
+          "host": "ig.wikipedia.org",
+          "statement": "Panti is likened to the Tooth Fairy (Eze Fairy) and Ratoncito Pérez.",
+          "statement_id": "Panti disamakan dengan Peri Gigi (Eze Fairy) dan Ratoncito Pérez.",
+          "quote": "Ọ dị ka Eze Fairy nke Ratoncito Pérez dere.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "panti-c06",
+          "source_id": "panti-s2",
+          "host": "ig.wikipedia.org",
+          "statement": "In Chickasaw folklore (akụkọ ifo Chickasaw), Panti is an animal (anụ ọhịa).",
+          "statement_id": "Dalam cerita rakyat Chickasaw (akụkọ ifo Chickasaw), Panti adalah seekor hewan (anụ ọhịa).",
+          "quote": "Na akụkọ ifo Chickasaw, Panti bụ anụ ọhịa",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "vaitakere",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "vaitakere-c01",
+          "source_id": "vaitakere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Cook Islands mythology, Vaitakere is the father-in-law of Tangaroa.",
+          "statement_id": "Dalam mitologi Kepulauan Cook (Cook Islands), Vaitakere adalah ayah mertua (father-in-law) Tangaroa.",
+          "quote": "In Cook Islands mythology, Vaitakere is the father-in-law of Tangaroa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c02",
+          "source_id": "vaitakere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He discovered breadfruit in the mountains and his wife discovered the chestnut.",
+          "statement_id": "Ia menemukan sukun (breadfruit) di pegunungan, dan istrinya menemukan kastanye (chestnut).",
+          "quote": "He discovered breadfruit in the mountains and his wife discovered the chestnut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c03",
+          "source_id": "vaitakere-s2",
+          "host": "ff.wikipedia.org",
+          "statement": "He found the bread-fruit (mburu), and his wife (debbo makko) found the chestnut (kastan).",
+          "statement_id": "Ia menemukan buah roti (mburu), dan istrinya (debbo makko) menemukan kastanye (kastan).",
+          "quote": "O yiyti mburu e nder koye makko, debbo makko yiyti kastan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c04",
+          "source_id": "vaitakere-s3",
+          "host": "archive.org",
+          "statement": "One food was the breadfruit Vaitakere, father-in-law of Tangaroa, found growing in the mountains; the other was ii, probably the Tahitian ifi or ihi, the chestnut, found by Vaitakere's wife.",
+          "statement_id": "Salah satu makanan itu adalah sukun (breadfruit) yang ditemukan Vaitakere, ayah mertua Tangaroa, tumbuh di pegunungan; yang lain adalah ii, mungkin ifi atau ihi Tahiti (Tahitian), yaitu kastanye, yang ditemukan istri Vaitakere.",
+          "quote": "one was the breadfruit discovered growing in the mountains by Vaitakere, the father-in-law of Tangaroa, the other ii, probably the Tahitian ifi, ihi, or chestnut, discovered by Vaitakere's wife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c05",
+          "source_id": "vaitakere-s3",
+          "host": "archive.org",
+          "statement": "According to Polynesian traditions, two new foods were discovered in Hawaiki and the use of vari was given up.",
+          "statement_id": "Menurut tradisi Polinesia (Polynesian traditions), di Hawaiki ditemukan dua makanan baru (two new foods), dan penggunaan vari ditinggalkan.",
+          "quote": "in Polynesian traditions it was in Hawaiki ... two new foods were discovered, and the use of vari",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c06",
+          "source_id": "vaitakere-s3",
+          "host": "archive.org",
+          "statement": "These islanders, in one of their traditions, call vari the food of the people when they lived in Atia.",
+          "statement_id": "Para penduduk pulau itu (Rarotonga) dalam salah satu tradisinya menyebut vari sebagai makanan orang-orang ketika masih tinggal di Atia.",
+          "quote": "And these islanders in one of their traditions make vari the name of the food of the people when living in Atia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vaitakere-c07",
+          "source_id": "vaitakere-s3",
+          "host": "archive.org",
+          "statement": "This tradition is given in the karakias of the Rarotongans.",
+          "statement_id": "Tradisi ini disebut dalam karakia (mantra/doa) orang Rarotonga (Rarotongans).",
+          "quote": "as it is put in the karakias of the Rarotongans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "yumboes",
+      "file": "batch-141-v8.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 19,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "yumboes-c01",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their alternative name Bakhna Rakhna literally means good people.",
+          "statement_id": "Nama lain mereka, Bakhna Rakhna, secara harfiah berarti orang baik (good people).",
+          "quote": "Their alternatively used name Bakhna Rakhna literally means good people.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c02",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yumboes are spirits of the dead and, like many supernatural beings in African beliefs, are entirely pearly-white.",
+          "statement_id": "Yumboes adalah roh orang mati (spirits of the dead) dan, seperti banyak makhluk gaib dalam kepercayaan Afrika (African), seluruhnya berwarna putih mutiara.",
+          "quote": "Yumboes are the spirits of the dead and, like many supernatural beings in African beliefs, they are completely of a pearly-white colour.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c03",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are sometimes said to have silver hair.",
+          "statement_id": "Kadang dikatakan mereka berambut perak (silver hair).",
+          "quote": "They are sometimes said to have silver hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c04",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only known source for yumboe legends is Thomas Keightley's book The Fairy Mythology.",
+          "statement_id": "Satu-satunya sumber legenda yumboes yang diketahui adalah buku Thomas Keightley, The Fairy Mythology.",
+          "quote": "The only known source for legends on yumboes is Thomas Keightley's book The Fairy Mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c05",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Keightley got his account from a woman who as a child lived on Goree Island off Senegal and heard of the yumboes from a Wolof maid.",
+          "statement_id": "Keightley mendapat ceritanya dari seorang perempuan yang semasa kecil tinggal di Pulau Goree, lepas pantai Senegal, yang mendengar tentang yumboes dari pelayan Wolof.",
+          "quote": "Keightley received his account from a woman who had lived on Goree Island, off the coast of Senegal, when she was a child. She had heard about the yumboes from a Wolof maid.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c06",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They also resemble ancestral ghosts described in many African countries.",
+          "statement_id": "Mereka juga mirip arwah leluhur (ancestral ghosts) yang digambarkan di banyak negara Afrika.",
+          "quote": "They also bear a resemblance to ancestral ghosts described in many African countries.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c07",
+          "source_id": "yumboes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yumboes appear as helpful fairies in the 2021 novel Skin of the Sea by Nigerian Welsh writer Natasha Bowen.",
+          "statement_id": "Yumboes muncul sebagai peri penolong dalam novel Skin of the Sea (2021) karya Natasha Bowen, penulis Nigeria-Wales (Nigerian Welsh).",
+          "quote": "Yumboes appear as helpful fairies in the 2021 novel Skin of the Sea by Nigerian Welsh writer Natasha Bowen.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c08",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Jaloff people of the African mainland opposite Goree believe in beings strikingly similar to the Gothic fairies.",
+          "statement_id": "Penduduk Jaloff di daratan Afrika (Africa), di seberang Pulau Goree, percaya pada sejenis makhluk yang sangat mirip dengan peri Gotik (Gothic Fairies).",
+          "quote": "The Jaloff inhabitants of the mainland of Africa, opposite the isle of Goree, believe in a species of beings who have a striking and surprising correspondence with the Gothic Fairies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c09",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They call them Yumboes and describe them as about two feet high and white, as all preternatural things are in Africa.",
+          "statement_id": "Mereka menyebutnya Yumboes dan menggambarkannya setinggi sekitar dua kaki (two feet) serta berwarna putih, seperti segala yang gaib di Afrika (Africa).",
+          "quote": "They call them Yumboes, and describe them as being about two feet high, of a white colour, as every thing preternatural is in Africa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c10",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Africans call the Yumboes Bakhna Rakhna, or Good People.",
+          "statement_id": "Orang Afrika (Africans) menyebut Yumboes sebagai Bakhna Rakhna, atau orang baik (Good People).",
+          "quote": "the Africans call the Yumboes, Bakhna Rakhna, or Good People.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c11",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The dress of the Yumboes matches that of the natives exactly, and they imitate their actions in every particular.",
+          "statement_id": "Pakaian Yumboes persis sama dengan pakaian penduduk setempat (natives), dan mereka meniru tindakan penduduk dalam segala hal.",
+          "quote": "the Yumboes exactly corresponds with that of the natives, and they imitate their actions in every particular.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c12",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They attach themselves to particular families; when a member dies, the Yumboes are heard lamenting and dancing on the graves.",
+          "statement_id": "Mereka melekat pada keluarga tertentu; bila anggota keluarga itu meninggal, Yumboes terdengar meratapinya dan menari di atas kuburnya (graves).",
+          "quote": "They attach themselves to particular families; and whenever any of their members die, the Yumboes are heard to lament them, and to dance upon their graves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c13",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Moors believe the Yumboes are the souls of their deceased friends.",
+          "statement_id": "Orang Moor (Moors) percaya Yumboes adalah jiwa sahabat mereka yang telah meninggal.",
+          "quote": "The Moors believe the Yumboes to be the souls of their deceased friends.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c14",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Yumboes' chief abode is an underground dwelling on the Paps, hills about three miles from the coast.",
+          "statement_id": "Tempat tinggal utama Yumboes adalah hunian bawah tanah di Paps, perbukitan (hills) sekitar tiga mil (three miles) dari pantai.",
+          "quote": "The chief abode of the Yumboes is a subterraneous dwelling on the Paps, the hills about three miles distant from the coast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c15",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "There nothing but hands and feet could be seen, laying and removing the dishes.",
+          "statement_id": "Di sana yang terlihat hanya tangan dan kaki (hands and feet) yang menata dan mengangkat hidangan.",
+          "quote": "how nothing but hands and feet were to be seen, which laid and removed the various dishes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c16",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They creep to the huts where the women are pounding coos-coos, or corn, in mortars.",
+          "statement_id": "Mereka mengendap ke gubuk tempat para perempuan menumbuk coos-coos atau jagung (corn) di lesung.",
+          "quote": "They steal to the huts, where the women are pounding in mortars the coos-coos, or corn,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c17",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They are also seen at night in their canoes, fishing in the bay.",
+          "statement_id": "Mereka juga terlihat pada malam hari (at night) di kano, menangkap ikan di teluk.",
+          "quote": "They are also seen at night in their canoes, out fishing in the bay.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c18",
+          "source_id": "yumboes-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They bury palm-wine, drink it when sour until drunk, and then make a great noise beating Jaloff drums on the hills.",
+          "statement_id": "Mereka mengubur tuak sawit (palm-wine), meminumnya setelah masam sampai mabuk, lalu membuat keributan dengan menabuh genderang Jaloff di perbukitan.",
+          "quote": "They bury palm-wine, and when it becomes sour they drink of it till it intoxicates them, and then make a great noise, beating Jaloff drums on the hills.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yumboes-c19",
+          "source_id": "yumboes-s3",
+          "host": "ff.wikipedia.org",
+          "statement": "Their name Bakhna Rakhna means good people (yimɓe moƴƴuɓe).",
+          "statement_id": "Nama yang mereka pakai, Bakhna Rakhna, berarti orang-orang baik (yimɓe moƴƴuɓe).",
+          "quote": "Innde maɓɓe nde ɓe kuutortoo nde Bakhna Rakhna firti ko yimɓe moƴƴuɓe.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
