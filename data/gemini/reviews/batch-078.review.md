@@ -1,6 +1,6 @@
 # Review batch-078
 
-Diperiksa 2026-10-06T14:41:56.021Z. Berkas: batch-078.md, batch-078-fix-1.md, batch-078-fix-2.md, batch-078-fix-3.md.
+Diperiksa 2026-10-06T15:10:18.587Z. Berkas: batch-078.md, batch-078-fix-1.md, batch-078-fix-2.md, batch-078-fix-3.md, batch-078-fix-4.md.
 
 ## meretseger — lulus-otomatis
 
@@ -357,135 +357,147 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 ## el-naddaha — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | el-naddaha-c01 | exact | en.wikipedia.org | El Naddaha is a female spirit in Egyptian legend who calls men to the Nile, leading to death or disappearance. | En-Naddāha (Egyptian Arabic: النداهة "the caller") is an Egyptian legend of a naiad-like female spirit who calls men to the Nile, leading to their death or disappearance. It is especially well known in the rural and agriculture-based areas of Egypt along the Nile and the Nile's water canals. |
-| el-naddaha-c02 | exact | en.wikipedia.org | The legend’s origin is uncertain and it is more popular in rural settings. | The exact origin of this legend is unknown. The story was more popular during the 20th century when Egypt was less urban than it is now, and people would spend more time close to the Nile and the Nile's water canals. Children would play by its shores after school, and young men would chat there at night. |
+| el-naddaha-c02 | exact | en.wikipedia.org | The exact origin of this legend is unknown; the story was more popular in the 20th century, when Egypt was less urban and people spent more time near the Nile and its water canals. | The exact origin of this legend is unknown. The story was more popular during the 20th century when Egypt was less urban than it is now, and people would spend more time close to the Nile and the Nile's water canals. Children would play by its shores after school, and young men would chat there at night. |
 | el-naddaha-c03 | exact | en.wikipedia.org | She calls men by name and makes them follow her voice in a hypnotized state. | En-Naddaha takes the form of stunningly beautiful woman who appears, as if by chance, to men walking by the Nile or the Nile's water canals at night. The men are usually a pair. The creature calls one by his first name, rendering him speechless, hypnotized, and obedient to her voice which he blindly follows, while the other man is unaffected, and attempts to pull the other back. |
-| el-naddaha-c04 | exact | en.wikipedia.org | She is depicted as a beautiful young woman with long hair and loose clothing. | Usually the men do not get close enough to the Nile to get a glimpse of what the creature looks like before they run away. In rare instances, they get a glimpse of her. She is described as being a very beautiful young woman; tall, slender, with long flowing hair down her back. |
-| el-naddaha-c05 | exact | en.wikipedia.org | Some tales delay the victim’s departure for several nights after the call. | In rural Egypt, where the legend is prominent, the creature may call for men in their homes by the shores of the Nile and the Nile's water canals, who then eagerly attempt to leave home for her. In other tales, the affected man will not immediately try to follow, but he will enter a state of disturbed distraction for a few nights before at last departing late at night. |
+| el-naddaha-c04 | exact | en.wikipedia.org | She is described as a very beautiful young woman, tall and slender, with long flowing hair down her back. | Usually the men do not get close enough to the Nile to get a glimpse of what the creature looks like before they run away. In rare instances, they get a glimpse of her. She is described as being a very beautiful young woman; tall, slender, with long flowing hair down her back. |
+| el-naddaha-c05 | exact | en.wikipedia.org | In rural Egypt the creature may call men in their homes; in other tales the affected man does not follow immediately but is distractedly disturbed for a few nights before at last departing late at night. | In rural Egypt, where the legend is prominent, the creature may call for men in their homes by the shores of the Nile and the Nile's water canals, who then eagerly attempt to leave home for her. In other tales, the affected man will not immediately try to follow, but he will enter a state of disturbed distraction for a few nights before at last departing late at night. |
+| el-naddaha-c06 | exact | scalar.usc.edu | A contributor to the Civic Imagination project writes that the myth of Al Naddaha ("the caller") originated in Egypt's more provincial areas among Egyptian peasants of the Nile Delta. | It’s the myth of Al Naddaha (the caller) which originated in Egypt’s more provincial areas among Egyptian peasants of the Nile Delta. |
+| el-naddaha-c07 | exact | scalar.usc.edu | According to the legend, Al Naddaha is a beautiful woman with a hypnotizing voice who calls men to join her in the Nile; she is purported to be a type of genie (in Islamic tradition) or a naiad (in Greek mythology). | According to the legend, Al Naddaha is beautiful woman with a hypnotizing voice who calls upon men to join her into the Nile. She is purported to be a type of Genie (in Islamic tradition) or a naiad (in Greek mythology). |
+| el-naddaha-c08 | exact | scalar.usc.edu | According to the legend, men are not immediately affected but usually suffer a period of disturbance, then stop resisting and follow her sweet voice into the Nile; Al Naddaha drowns her victims or takes them away with her to the underworld. | According to the legend, Al Naddaha is beautiful woman ... While men are not immediately affected by her, they usually suffer a period of disturbance after which they stop resisting and follow her sweet voice into the Nile. According to the legend, Al Naddah drowns her victims or takes them away with her to the underworld. |
+| el-naddaha-c09 | exact | en.wikipedia.org | People in rural Egypt believe that a man called by En-Naddaha is doomed and curing him is often impossible. No instance has been recorded of a man seen devoured by her, but many old local citizens believe she consumes or pulls her victims into the Nile and drowns them. | People in rural Egypt believe that a man who is called for by En-Naddaha is doomed, curing him is often impossible. Not a single instance has been recorded where a man is seen devoured by her. But many old local citizens believe she consumes or pulls her victims into the Nile and drowns them. |
+| el-naddaha-c10 | exact | en.wikipedia.org | The creature calls one man by his first name until he is speechless, hypnotized and obedient to her voice; the second, unaffected man tries to pull him back and at last succeeds in reviving him from his trance. | The creature calls one by his first name, rendering him speechless, hypnotized, and obedient to her voice which he blindly follows, while the other man is unaffected, and attempts to pull the other back. The creature calls in a soft, sleepy, hypnotizing voice until the second unaffected man succeeds at last in reviving the called man from his trance. |
+| el-naddaha-c11 | exact | en.wikipedia.org | The Egyptian writer Ahmed Khaled Tawfik, in his The Legend of Al Naddaha, says that a man who prevents the called man from reaching the creature by any means would be the next to be called. | The Egyptian writer Ahmed Khaled Tawfik, in his The Legend of Al Naddaha, says that a man who prevents the called man from reaching the creature by any means would be the next to be called. |
+| el-naddaha-c12 | exact | en.wikipedia.org | According to Wikipedia, El Nadaha shows up in many Egyptian horror TV series and movies, most notably in the Netflix series Paranormal. | El Nadaha shows up in many Egyptian horror tv series and movies most notably in the Netflix series Paranormal |
 
 
 ## eurryroe — lulus-otomatis
 
-Klaim 3 (exact 1, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| eurryroe-c01 | exact | fr.wikipedia.org | Eurryroe is a naiad and river spirit in Greek mythology, daughter of Nilus and wife of Aegyptus. | Dans la mythologie grecque, Euryrrhoë ou Eurryroé (en grec ancien Εùρυῥῤόης) est une naïade et une potamide, fille du dieu fleuve Nil et épouse d'Égyptos. |
-| eurryroe-c02 | loose | fr.wikipedia.org | According to Hippostratus she is the sole mother of Aegyptus’s fifty sons. | Selon Hippostrate (en), Eurryroé aurait été la mère unique des 50 fils du roi Égyptos d'Égypte. Sa sœur Europe aurait quant à elle donné naissance aux 50 filles du roi libyen Danaos, frère d'Égyptos. |
-| eurryroe-c03 | loose | fr.wikipedia.org | Other accounts give Aegyptus’s sons several mothers, including Caliadne. | Alternativement, les épouses d'Égyptos et de Danaos sont données respectivement leurs cousines (et nièces), Isaïa (en) et Mélia. Elles étaient filles du roi Agénor de Tyre et de Damno (en) (une fille du roi Bélos d'Égypte). Selon un récit, les enfants d'Égyptos auraient été nés de mères différentes, dont Argyphia (en), Tyria (en), la naïade Caliadne, Gorgo et Héphaïstine (en). |
+| eurryroe-c01 | exact | fr.wikipedia.org | In Greek mythology, Eurryroe (Euryrrhoë) is a naiad and a potamid, daughter of the river god Nile and wife of Égyptos (Aegyptus). | Dans la mythologie grecque, Euryrrhoë ou Eurryroé (en grec ancien Εùρυῥῤόης) est une naïade et une potamide, fille du dieu fleuve Nil et épouse d'Égyptos. |
+| eurryroe-c02 | exact | fr.wikipedia.org | According to Hippostratus she is the sole mother of Aegyptus’s fifty sons. | Selon Hippostrate ... Eurryroé aurait été la mère unique des 50 fils du roi Égyptos d'Égypte. Sa sœur Europe aurait quant à elle donné naissance aux 50 filles du roi libyen Danaos |
+| eurryroe-c03 | exact | fr.wikipedia.org | Other accounts give Aegyptus’s sons several mothers, including Caliadne. | Alternativement, les épouses d'Égyptos et de Danaos sont données respectivement leurs cousines (et nièces), Isaïa ... et Mélia. Elles étaient filles du roi Agénor de Tyre et de Damno ... Selon un récit, les enfants d'Égyptos auraient été nés de mères différentes, dont Argyphia ... la naïade Caliadne, Gorgo et Héphaïstine |
+| eurryroe-c04 | exact | www.theoi.com | In Tzetzes' text Aegyptus has fifty sons and Danaus fifty daughters, by several women according to some and by one single woman according to others; Hippostratus says that Aegyptus begot his fifty sons only by Eurryroe, the daughter of Nilus. | Aegyptus fathers fifty sons, Danaus, in turn, fathers fifty daughters, By several women, by one single woman according to others. Hippostratus says that Aegyptus has begotten only by Eurryroe, The daughter of Nilus, fifty sons; |
+| eurryroe-c05 | exact | www.theoi.com | According to Hippostratus in Tzetzes' text, Aegyptus begot his sons only by Eurryroe, while Danaus begot all his daughters by Europa, the daughter of Nilus. | Hippostratus says that Aegyptus has begotten only by Eurryroe ... As well as Danaus has begotten all his daughters, By Europa, the daughter of Nilus, of whom I have spoken. |
+| eurryroe-c06 | exact | en.wikipedia.org | In Greek mythology, Eurryroe was the daughter of the Egyptian river-god Nilus. | In Greek mythology, Eurryroe ... was the daughter of the Egyptian river-god Nilus. |
+| eurryroe-c07 | exact | en.wikipedia.org | According to Hippostratus, Eurryroe was said to be the sole mother of the 50 sons of King Aegyptus of Egypt; her sister Europa bore the 50 daughters of the Libyan king Danaus. | According to Hippostratus, Eurryroe was said to be the mother alone of the 50 sons of King Aegyptus of Egypt. Her sister Europa, also bore the Libyan king Danaus's 50 daughters. |
 
 
 ## abdu-fisch — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | abdu-fisch-c01 | exact | de.wikipedia.org | The Abdu-Fisch is an unidentified fish with a role in Egyptian mythology. | Der Abdu-Fisch (auch Abdju-Fisch oder Abydos-Fisch) ist ein nicht identifizierter Speisefisch, der eine besondere Rolle in der ägyptischen Mythologie spielte. |
-| abdu-fisch-c02 | exact | de.wikipedia.org | With the Ant-Fisch it escorts the solar barque and watches over water. | Zusammen mit dem Ant-Fisch geleitete er mitunter die Sonnenbarke und wachte über das Wasser. Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden. Der Sonnengott selbst wurde manchmal selbst als „großer Abdu-Fisch“ bezeichnet. |
-| abdu-fisch-c03 | exact | de.wikipedia.org | Its task is to announce the approaching serpent enemy. | Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden. |
-| abdu-fisch-c04 | exact | de.wikipedia.org | It is sometimes linked with Osiris through the similarity of the name Abydos. | Möglicherweise hatte der Fisch auch eine besondere Bedeutung im ägyptischen Totenglauben. Der Abdu wurde wegen der Namensähnlichkeit zu Abydos vereinzelt mit Osiris in Verbindung gebracht. In einigen thebanischen Gräbern der Ramessidenzeit (z. B. Grab des Chabechnet) ist die osirisgleiche Mumie als Abdu-Fisch auf der Bahre eingewickelt. |
-| abdu-fisch-c05 | exact | de.wikipedia.org | Interpretations of fish beside mummies differ between a wish to see the sun and a form of the soul. | In hellenistischer Zeit wurden Oxyrhynchos-Fische über der Mumie des Toten dargestellt. Nach Hans Bonnet wäre es denkbar, dass der Abdu-Fisch schon in früherer Zeit ähnlich abgebildet wurde und im Laufe der Zeit die Oxyrhynchos-Form annahm. |
+| abdu-fisch-c02 | exact | de.wikipedia.org | Together with the Ant-Fisch, the Abdu-Fisch at times escorted the solar barque and watched over the water. | Der Abdu-Fisch (auch Abdju-Fisch oder Abydos-Fisch) ist ein nicht identifizierter Speisefisch ... Zusammen mit dem Ant-Fisch geleitete er mitunter die Sonnenbarke und wachte über das Wasser. |
+| abdu-fisch-c03 | exact | de.wikipedia.org | The Abdu-Fisch's task was to announce the approach of the serpent enemy. | Der Abdu-Fisch (auch Abdju-Fisch oder Abydos-Fisch) ist ein nicht identifizierter Speisefisch ... Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden. |
+| abdu-fisch-c04 | exact | de.wikipedia.org | Because the name resembles Abydos, the Abdu was occasionally linked with Osiris; in some Theban tombs of the Ramesside period the Osiris-like mummy is wrapped as an Abdu-Fisch on the bier. | Möglicherweise hatte der Fisch auch eine besondere Bedeutung im ägyptischen Totenglauben. Der Abdu wurde wegen der Namensähnlichkeit zu Abydos vereinzelt mit Osiris in Verbindung gebracht. In einigen thebanischen Gräbern der Ramessidenzeit (z. B. Grab des Chabechnet) ist die osirisgleiche Mumie als Abdu-Fisch auf der Bahre eingewickelt. |
+| abdu-fisch-c05 | exact | de.wikipedia.org | In the Hellenistic period Oxyrhynchos fish were depicted above the mummy of the dead; according to Hans Bonnet the Abdu-Fisch may have been depicted similarly earlier and over time took the Oxyrhynchos form. | In hellenistischer Zeit wurden Oxyrhynchos-Fische über der Mumie des Toten dargestellt. Nach Hans Bonnet wäre es denkbar, dass der Abdu-Fisch schon in früherer Zeit ähnlich abgebildet wurde und im Laufe der Zeit die Oxyrhynchos-Form annahm. |
+| abdu-fisch-c06 | exact | www.gutenberg.org | In a footnote to Budge's translation, the Abtu and Ant fishes swam before the Boat of Ra and guided it. | The Abtu and Ant Fishes swam before the Boat of Ra and guided it. |
+| abdu-fisch-c07 | exact | de.wikipedia.org | The fish was used as a mysterious symbol of life, like the frog, and was regarded as a form of Osiris, who himself occasionally took the role of "the submerged one". | Der Fisch wurde ähnlich wie der Frosch als geheimnisvolles Lebenssymbol verwendet und galt als Gestaltung des Osiris, welcher selbst gelegentlich die Rolle des „Untergetauchten“ übernahm. |
+| abdu-fisch-c08 | exact | de.wikipedia.org | The sun god himself was sometimes called the "great Abdu-Fisch". | Der Sonnengott selbst wurde manchmal selbst als „großer Abdu-Fisch“ bezeichnet. |
+| abdu-fisch-c09 | exact | de.wikipedia.org | The dead person probably wished to express the hope of seeing the sun, whereas according to Wilhelm Spiegelberg the fish were only a form of the soul. | Nach Hans Bonnet wäre es denkbar, dass der Abdu-Fisch schon in früherer Zeit ähnlich abgebildet wurde und im Laufe der Zeit die Oxyrhynchos-Form annahm. Der Tote wollte damit vermutlich den Wunsch ausdrücken, die Sonne zu schauen, während nach Wilhelm Spiegelberg die Fische nur eine Gestalt der Seele darstellten. |
 
 
 ## akhekh — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | akhekh-c01 | exact | en.wikipedia.org | Akhekh is a legendary creature in Egyptian mythology and art said to live in the deserts west of the Nile. | The Akhekh (also transliterated as Akekhu) is a legendary creature in Egyptian mythology and art. Ancient Egyptian myth writes of the Akhekh living in the deserts west of the Nile. |
-| akhekh-c02 | exact | en.wikipedia.org | Its name is linked with kkw meaning darkness. | The name comes from kkw, the Egyptian word for darkness. |
+| akhekh-c02 | exact | en.wikipedia.org | The name Akhekh comes from kkw, the Egyptian word for darkness. | The Akhekh (also transliterated as Akekhu) is a legendary creature in Egyptian mythology and art ... The name comes from kkw, the Egyptian word for darkness. |
 | akhekh-c03 | exact | en.wikipedia.org | General descriptions give it four legs and bird wings, while its specific form varies. | All descriptions of the creature have it as a quadruped with bird's wings, though different sources diverge: one description is that of an Oryx with a bird's wings and beak as well as serpent's tail, while French archaeologist Paul Pierret gave it in a book of his as a winged lion akin to the griffin of European mythology. |
 | akhekh-c04 | exact | en.wikipedia.org | Some traditions depict it as a serpentine dragon with a crocodile-like snout. | Some Egyptian traditions depict the Akhekh as a dragon with a serpentine shape and a crocodile-like snout, though other interpretations portray it with a bird-like head, resembling the griffin or hippogriff (and the axex may be the same as it). Additionally, it is often interpreted as a seclusive dragon or serpent of darkness, as well as a creature of the night. |
-| akhekh-c05 | exact | en.wikipedia.org | It is associated with Set, darkness, the western desert, chaos and water. | The Akhekh was associated with the god Set, as well as his domains of darkness, the western desert, chaos, and water. Much like the Sha, it was either an ally of the god or an incarnation of Set. It also symbolised power and strength of the pharaoh during wartime, such as Ramesses II being compared to the Akhekh as he conquered the Hittites and terrorised them. |
+| akhekh-c05 | exact | en.wikipedia.org | The Akhekh was associated with the god Set and his domains of darkness, the western desert, chaos and water. Like the Sha, it was an ally or incarnation of Set, and symbolised the pharaoh's power in wartime, for example Ramesses II being compared to the Akhekh as he conquered and terrorised the Hittites. | The Akhekh was associated with the god Set, as well as his domains of darkness, the western desert, chaos, and water. Much like the Sha, it was either an ally of the god or an incarnation of Set. It also symbolised power and strength of the pharaoh during wartime, such as Ramesses II being compared to the Akhekh as he conquered the Hittites and terrorised them. |
+| akhekh-c06 | exact | en.wikisource.org | In this text by Paul Carus (1900), the symbols of Set (Seth), whom the Greeks called Typhon, are the griffin (akhekh), the hippopotamus, the crocodile, the swine, the tortoise and, above all, the serpent. | SET, OR SETH, whom the Greeks called Typhon ... his symbols are the griffin (akhekh), the hippopotamus, the crocodile, the swine, the tortoise, and, above all the serpent |
+| akhekh-c07 | exact | en.wikipedia.org | The Metternich stele in particular depicts an Akhekh pulling an archer's chariot over two crocodiles. | The Metternich stele in particular depicts an Akhekh pulling an archer's chariot over two crocodiles. |
+| akhekh-c08 | exact | en.wikipedia.org | A common trait of the Akhekh is that its body resembles an antelope and its head is adorned with three uraei (snake heads). | A common trait of the Akhekh is that its body resembles an antelope and its head is adorned with three uraei (snake heads). |
 
 
 ## apshait — lulus-otomatis
 
-Klaim 2 (exact 1, unreachable 1), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| apshait-c01 | exact | en.wikipedia.org | Apshait is a corpse-eating being in Egyptian mythology mentioned in chapter 36 of the Book of the Dead. | The Apshait is a monster in Egyptian mythology, described as a large flesh-eating beetle that eats corpses. It is mentioned in the Book of the Dead, under chapter 36. |
-| apshait-c02 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | Renouf states that identifying the apshai insect is difficult and rejects the tortoise interpretation. | The insect called āpšai or āpsȧit is difficult of identification. It is certainly not a tortoise as was formerly thought |
+| apshait-c01 | exact | en.wikipedia.org | The Apshait is a monster in Egyptian mythology, described as a large flesh-eating beetle that eats corpses; it is mentioned in the Book of the Dead, under chapter 36. | The Apshait is a monster in Egyptian mythology, described as a large flesh-eating beetle that eats corpses. It is mentioned in the Book of the Dead, under chapter 36. |
+| apshait-c02 | exact | www.gutenberg.org | Renouf states that the insect called āpšai or āpsȧit is difficult to identify and is certainly not a tortoise as formerly thought. | The insect called āpšai or āpsȧit is difficult of identification. It is certainly not a tortoise as was formerly thought |
+| apshait-c03 | exact | www.gutenberg.org | Chapter XXXVI of the Book of the Dead in Renouf's translation is titled "Chapter whereby the Āpshait is kept back". | Chapter whereby the Āpshait is kept back. |
+| apshait-c04 | exact | www.gutenberg.org | The text of the chapter whereby the Āpshait is kept back reads "Away from me, thou with parted lips! I am Chnemu, the Lord of Shennu, who am bringing the words of the gods to Rā. And I announce the news to Nebes." | Chapter whereby the Āpshait is kept back. Away from me, thou with parted lips! I am Chnemu, the Lord of Shennu, who am bringing the words of the gods to Rā. And I announce the news to Nebes. |
+| apshait-c05 | exact | www.gutenberg.org | Renouf judges the insect āpšai or āpsȧit difficult to identify, certainly not a tortoise as formerly thought, but looking rather like the voracious Blatta orientalis. | The insect called āpšai or āpsȧit is difficult of identification. It is certainly not a tortoise as was formerly thought, but looks rather like the voracious Blatta orientalis. |
+| apshait-c06 | exact | www.gutenberg.org | According to Renouf's note, the last word of the chapter is doubtful: the most recent papyri have "their Lord", the Turin copy and the oldest papyrus have "her Lord", and Bekenrenef has Nebes, a lion-headed goddess. | The last word of the chapter is doubtful. The most recent papyri have ‘their Lord,’ which gives a very good sense, but even the Turin copy has ‘her Lord’ which agrees with the oldest papyrus. Bekenrenef has Nebes, a lion-headed goddess. |
 
 
 ## esprits-de-l-ouest — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | esprits-de-l-ouest-c01 | exact | fr.wikipedia.org | The Western Spirits are Egyptian netjeri depicted as three or four black jackals towing Ra’s barque. | Les esprits de l'Ouest sont considérés comme des génies (Netjeri) plutôt que comme des dieux de la religion égyptienne. Ils sont représentés par un groupe de trois ou quatre chacals noirs qui tirent la barque solaire de Rê lors de son voyage nocturne. Ils sont aussi amenés à le protéger contre le mal. |
-| esprits-de-l-ouest-c02 | exact | fr.wikipedia.org | They protect Ra from evil. | Ils sont aussi amenés à le protéger contre le mal. Ils sont également parfois représentés comme des oiseaux à têtes de chacals |
+| esprits-de-l-ouest-c02 | exact | fr.wikipedia.org | The esprits de l'Ouest (Western Spirits) are also meant to protect Rê from evil. | Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... qui tirent la barque solaire de Rê lors de son voyage nocturne. Ils sont aussi amenés à le protéger contre le mal. |
 | esprits-de-l-ouest-c03 | exact | fr.wikipedia.org | The name Baou Imenty means spirits of the west. | Baou Imenty (Bȝw Imnty) est le nom égyptien des esprits de l'Ouest. Il signifie « esprits de l'Occident ». |
-| esprits-de-l-ouest-c04 | exact | fr.wikipedia.org | Their images are known from Ramesside times and occur in afterlife texts. | Ils sont apparus pour la première fois au cours de la période ramesside au Nouvel Empire. Mais il y a quelques mentions d'eux, un peu avant, dans les textes des sarcophages et le Livre des Morts. Ils figurent dans de nombreux textes sur l'au-delà et il n'est pas rare de les voir sur des situles en bronze, sortes de seaux cérémoniels en forme de poitrine. |
+| esprits-de-l-ouest-c04 | exact | fr.wikipedia.org | The esprits de l'Ouest first appeared in the Ramesside period of the New Kingdom, with a few mentions slightly earlier in the Coffin Texts and the Book of the Dead. | Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... Ils sont apparus pour la première fois au cours de la période ramesside au Nouvel Empire. Mais il y a quelques mentions d'eux, un peu avant, dans les textes des sarcophages et le Livre des Morts. |
 | esprits-de-l-ouest-c05 | exact | fr.wikipedia.org | The Book of Day and Night describes them towing the barque through Nut’s body. | Dans le Livre du jour et de la nuit, les esprits de l'Ouest remorquent la barque solaire à travers le corps de Nout : |
+| esprits-de-l-ouest-c06 | exact | collezionepapiri.museoegizio.it | According to the Museo Egizio papyrus catalogue, the motif of the "Westerners bA-souls" (bA.w imn.tyw), represented as jackals towing the solar barque, is well known, especially from the Book of the Day and the Book of the Night. | the motif of the “Westerners bA-souls”, the so-called bA.w imn.tyw, represented as jackals towing the solar barque, is well known, especially from the Book of the Day and the Book of the Night |
+| esprits-de-l-ouest-c07 | exact | collezionepapiri.museoegizio.it | The jackals towing the solar barque have the function of protecting the Sun-god and repelling his enemies during the last phases of his journey. | the motif of the “Westerners bA-souls”, the so-called bA.w imn.tyw, represented as jackals towing the solar barque ... The jackals' function is to protect the Sun-god and repel his enemies during the last phases of his journey. |
+| esprits-de-l-ouest-c08 | exact | collezionepapiri.museoegizio.it | In the top part of this papyrus, four jackals tow the solar vessel through the watery heaven vault, pulling a snake-headed hawser (a thick rope for mooring or towing boats). | In the top part, four jackals tow the solar vessel through the waterly heaven vault pulling a snake-headed hawser (a thick rope for mooring or towing boats). |
+| esprits-de-l-ouest-c09 | exact | fr.wikipedia.org | The esprits de l'Ouest are also sometimes depicted as birds with jackal heads. | Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... Ils sont également parfois représentés comme des oiseaux à têtes de chacals |
 
 
 ## greif — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | greif-c01 | exact | de.wikipedia.org | The Greif is a hybrid creature in Egyptian mythology appearing on predynastic palettes. | „Greif“ (altägyptisch Sefer, Sefre, Seferer, Sefrer; auch Achech, Teschtesch; demotisch Sereref, Serref) ist die Bezeichnung eines Fabelwesens in der altägyptischen Mythologie, das unter anderem bereits auf der Zwei-Hunde-Palette der prädynastischen Epoche fester Bestandteil des Bildprogrammes war. |
-| greif-c02 | exact | de.wikipedia.org | Its form develops from predatory-bird features into forms with pantherlike hide and a falcon head. | Der frühdynastische Greif hatte raubtierartige Züge eines Geiers, der kammähnliche Flügel auf der Mitte des Rückens besaß. Im Mittleren Reich entwickelte sich eine ähnliche Form mit flachem Kopf; zusätzlich mit pantherähnlichem Fell, Menschenkopf zwischen den Flügeln und Halsband. Sein Wesen war unter anderem darauf ausgerichtet, Dämonen und unheilvolle Handlungen abzuwenden. |
+| greif-c02 | exact | de.wikipedia.org | The early dynastic griffin had predatory, vulture-like features with comb-like wings in the middle of its back; in the Middle Kingdom a similar form developed with a flat head, panther-like fur, a human head between the wings and a collar. Its nature was, among other things, to avert demons and evil acts. | Der frühdynastische Greif hatte raubtierartige Züge eines Geiers, der kammähnliche Flügel auf der Mitte des Rückens besaß. Im Mittleren Reich entwickelte sich eine ähnliche Form mit flachem Kopf; zusätzlich mit pantherähnlichem Fell, Menschenkopf zwischen den Flügeln und Halsband. Sein Wesen war unter anderem darauf ausgerichtet, Dämonen und unheilvolle Handlungen abzuwenden. |
 | greif-c03 | exact | de.wikipedia.org | In the Eighteenth Dynasty its depiction receives influences from outside Egypt. | In der 18. Dynastie fand ein neuer ikonografischer Typus des Greifs mit außerägyptischen Einflüssen Eingang in die altägyptische Mythologie. Der Kopf, der wieder einem Geier ähnelte, wies in Kombination mit pferdeähnlichen Beinen schlankere Proportionen auf, die möglicherweise aus dem syrischen Raum stammten. |
-| greif-c04 | exact | de.wikipedia.org | One fable gives it a falcon’s beak, human eyes, lion limbs, fish ears and a snake tail. | „Sein Schnabel ist der eines Falken, seine Augen die eines Menschen, seine Glieder die eines Löwen, seine Ohren die eines Fisches, sein Schwanz der einer Schlange.“ |
+| greif-c04 | exact | de.wikipedia.org | In the Ptolemaic period the griffin appears as a winged hybrid combined with the sun eye; the demotic fable "Die Seherin und die Hörerin" describes it with a falcon's beak, human eyes, lion limbs, fish ears and a snake's tail. | In der ptolemäischen Periode trat der Greif als geflügeltes Mischwesen in Kombination mit dem Sonnenauge auf. Er wird in der demotischen Fabel Die Seherin und die Hörerin entsprechend beschrieben: ... „Sein Schnabel ist der eines Falken, seine Augen die eines Menschen, seine Glieder die eines Löwen, seine Ohren die eines Fisches, sein Schwanz der einer Schlange.“ |
 | greif-c05 | exact | de.wikipedia.org | It can function as a protective solar eye or a desert hunting creature. | Der Greif ist bereits sehr früh als mythologisches Jagdtier belegt, das in der Wüste tätig war. Alternativ fungierte der Greif in seiner Erscheinungsform als schützendes Sonnenauge, das vom Sonnengott Re als Vergeltung eingesetzt wurde: |
+| greif-c06 | exact | ashmolean.org | According to the Ashmolean Museum, on the reverse of the Two Dog Palette a mixture of fabulous and real wild animals occupies the left-hand side of the scene and attacks herbivores native to North Africa; from the top there are a pair of lions, a serpopard, a leopard, a hyena and a griffin with comb-like wings. | this example, the Two Dog Palette ... On the reverse of the palette, a mixture of fabulous and real wild animals occupy the left-hand side of the scene from where they attack a range of herbivores native to North Africa. From the top, there are a pair of lions, a serpopard, a leopard, a hyena and a griffin with comb-like wings. |
+| greif-c07 | exact | ashmolean.org | According to the Ashmolean Museum, between 3300–3000 BC stone palettes made of siltstone were transformed into ritual objects with images associated with kingship; the most famous examples were excavated at Hierakonpolis and include the Narmer Palette and the Two Dog Palette. | From around 4400 BC stone palettes ... Between 3300–3000 BC, however, they were transformed into ritual objects with images associated with kingship carved in shallow relief on both sides. The most famous examples were excavated at the site of Hierakonpolis in southern Egypt and include the Narmer Palette (now in the Egyptian Museum in Cairo) and this example, the Two Dog Palette. |
+| greif-c08 | exact | de.wikipedia.org | In the further course of the Middle Kingdom the griffin received a new appearance through a falcon head similar to the god Horus. | Im weiteren Verlauf des Mittleren Reiches erhielt der Greif durch einen Falkenkopf, ähnlich dem Gott Horus, ein neues Aussehen. |
+| greif-c09 | exact | de.wikipedia.org | Since the Late Period the griffin, under the ancient Egyptian designation Sfrr, took on especially a protective function. | Seit der Spätzeit übernahm der Greif unter der altägyptischen Bezeichnung Sfrr insbesondere eine Schutzfunktion. |
 
 
 ## nehah-re — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 2 (exact 2), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nehah-re-c01 | exact | ms.wikipedia.org | Nehah-Re is a serpent connected with Egyptian solar cults. | Nehah-Ré merupakan ular yang dikaitkan dengan kultus suria. |
+| nehah-re-c01 | exact | ms.wikipedia.org | According to the Malay Wikipedia article, Nehah-Ré is a serpent associated with the solar cult. | Nehah-Ré merupakan ular yang dikaitkan dengan kultus suria. |
+| nehah-re-c02 | exact | ms.wikipedia.org | The same article places Nehah-Ré in the context of an Egyptian civilization that had existed for more than 3,000 years, in which the development of ancient Egyptian religion helped create many gods and goddesses worshipped for various reasons. | Peradapan Mesir telah wujud lebih 3,000 tahun dan perkembangan ugama di Mesir kuno telah membantu mewujudkan banyak dewa dewi yang disembah bagi pelbagai sebab |
 
 
 ## dewa-nun — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dewa-nun-c01 | exact | ms.wikipedia.org | The Malay Dewa Nun article identifies its figure as a god of chaos and primordial time. | Dewa Nun merupakan dewa kacau bilau dan zaman awal ("primordial.") |
-| dewa-nun-c02 | exact | www.worldhistory.org | Nun in the accompanying source is primordial water before the world emerges. | Nu (Nun) and Naunet - Nu was the personification of the primordial chaos from which the world arose. Naunet is his female aspect and consort. Nu is commonly regarded as "Father of the Gods" while Naunet is only referenced regarding the Ogdoad, the grouping of eight primordial gods, four males matching four females, who represent the original elements of creation. |
+| dewa-nun-c01 | exact | ms.wikipedia.org | According to the Malay Wikipedia article, Dewa Nun is a god of chaos and the primordial age. | Dewa Nun merupakan dewa kacau bilau dan zaman awal ("primordial.") |
+| dewa-nun-c02 | exact | www.worldhistory.org | According to World History Encyclopedia, Nu (Nun) was the personification of the primordial chaos from which the world arose; Naunet is his female aspect and consort, and Nu is commonly regarded as "Father of the Gods". | Nu (Nun) and Naunet - Nu was the personification of the primordial chaos from which the world arose. Naunet is his female aspect and consort. Nu is commonly regarded as "Father of the Gods" while Naunet is only referenced regarding the Ogdoad, the grouping of eight primordial gods, four males matching four females, who represent the original elements of creation. |
+| dewa-nun-c03 | exact | en.wikipedia.org | In ancient Egyptian religion, Nun ("The Inert One") or Nu ("Watery One") is the personification of the primordial watery abyss that existed at the time of creation and from which the creator sun god Ra arose. | Nun ("The Inert One") or Nu ("Watery One") ... in ancient Egyptian religion, is the personification of the primordial watery abyss which existed at the time of creation and from which the creator sun god Ra arose. |
+| dewa-nun-c04 | exact | en.wikipedia.org | Nun is one of the eight deities of the Ogdoad, representing ancient Egyptian primordial Chaos from which the primordial mound arose. | Nun is one of the eight deities of the Ogdoad representing ancient Egyptian primordial Chaos from which the primordial mound arose. |
+| dewa-nun-c05 | exact | en.wikipedia.org | Beginning with the Middle Kingdom, Nun is described as "the father of the gods" and is depicted on temple walls throughout the rest of ancient Egyptian religious history. | Beginning with the Middle Kingdom, Nun is described as "the father of the gods" and he is depicted on temple walls throughout the rest of ancient Egyptian religious history. |
+| dewa-nun-c06 | exact | en.wikipedia.org | Nun was depicted as a large anthropomorphic figure personifying the primordial waters and holding a notched palm branch; he was also depicted in human form with the head of a frog, and was typically shown holding aloft the solar barque or the sun disc. | Nun was depicted as an anthropomorphic large figure and a personification of the primordial waters, holding a notched palm branch. Nun was also depicted in anthropomorphic form but with the head of a frog, and he was typically depicted in ancient Egyptian art holding aloft the solar barque or the sun disc. |
+| dewa-nun-c07 | exact | en.wikipedia.org | In ancient Egyptian creation accounts, the original mound of land comes forth from the waters of the Nun. | In ancient Egyptian creation accounts, the original mound of land comes forth from the waters of the Nun. |
+| dewa-nun-c08 | exact | en.wikipedia.org | During the Late Period, when Egypt was occupied by foreign powers, the negative aspect of Nun (that is, chaos) became the dominant perception. | During the Late Period when Egypt was occupied by foreign powers, the negative aspect of Nun (ie. chaos) became the dominant perception |
 
 
 ## naunet — lulus-otomatis

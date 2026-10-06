@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-078",
-  "checked_at": "2026-10-06T14:41:56.021Z",
+  "checked_at": "2026-10-06T15:10:18.587Z",
   "files": [
     "batch-078.md",
     "batch-078-fix-1.md",
     "batch-078-fix-2.md",
-    "batch-078-fix-3.md"
+    "batch-078-fix-3.md",
+    "batch-078-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2047,20 +2048,15 @@
     },
     {
       "slug": "el-naddaha",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "ad52e77a66bb65e790ee2d8bb7dbb6360b9b9bf295338f2f10534b69395c84f4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "el-naddaha-c01",
@@ -2076,8 +2072,8 @@
           "id": "el-naddaha-c02",
           "source_id": "el-naddaha-s1",
           "host": "en.wikipedia.org",
-          "statement": "The legend’s origin is uncertain and it is more popular in rural settings.",
-          "statement_id": "Asal legenda ini tidak pasti dan lebih populer dalam lingkungan pedesaan.",
+          "statement": "The exact origin of this legend is unknown; the story was more popular in the 20th century, when Egypt was less urban and people spent more time near the Nile and its water canals.",
+          "statement_id": "Asal-usul pasti legenda ini tidak diketahui; kisahnya lebih populer pada abad ke-20, ketika Mesir kurang urban dan orang lebih banyak menghabiskan waktu di dekat Nil dan kanal-kanal airnya.",
           "quote": "The exact origin of this legend is unknown. The story was more popular during the 20th century when Egypt was less urban than it is now, and people would spend more time close to the Nile and the Nile's water canals. Children would play by its shores after school, and young men would chat there at night.",
           "context": "historical-record",
           "status": "exact"
@@ -2096,8 +2092,8 @@
           "id": "el-naddaha-c04",
           "source_id": "el-naddaha-s1",
           "host": "en.wikipedia.org",
-          "statement": "She is depicted as a beautiful young woman with long hair and loose clothing.",
-          "statement_id": "Ia digambarkan sebagai perempuan muda cantik dengan rambut panjang dan busana longgar.",
+          "statement": "She is described as a very beautiful young woman, tall and slender, with long flowing hair down her back.",
+          "statement_id": "Ia digambarkan sebagai perempuan muda yang sangat cantik, tinggi, langsing, dengan rambut panjang tergerai di punggung.",
           "quote": "Usually the men do not get close enough to the Nile to get a glimpse of what the creature looks like before they run away. In rare instances, they get a glimpse of her. She is described as being a very beautiful young woman; tall, slender, with long flowing hair down her back.",
           "context": "traditional-belief",
           "status": "exact"
@@ -2106,39 +2102,103 @@
           "id": "el-naddaha-c05",
           "source_id": "el-naddaha-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some tales delay the victim’s departure for several nights after the call.",
-          "statement_id": "Sebagian kisah menunda keberangkatan korban sampai beberapa malam setelah panggilan.",
+          "statement": "In rural Egypt the creature may call men in their homes; in other tales the affected man does not follow immediately but is distractedly disturbed for a few nights before at last departing late at night.",
+          "statement_id": "Di Mesir pedesaan, makhluk itu dapat memanggil laki-laki di rumah mereka; dalam kisah lain, laki-laki yang terpengaruh tidak langsung mengikutinya melainkan terganggu selama beberapa malam sebelum akhirnya pergi larut malam.",
           "quote": "In rural Egypt, where the legend is prominent, the creature may call for men in their homes by the shores of the Nile and the Nile's water canals, who then eagerly attempt to leave home for her. In other tales, the affected man will not immediately try to follow, but he will enter a state of disturbed distraction for a few nights before at last departing late at night.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c06",
+          "source_id": "el-naddaha-s2",
+          "host": "scalar.usc.edu",
+          "statement": "A contributor to the Civic Imagination project writes that the myth of Al Naddaha (\"the caller\") originated in Egypt's more provincial areas among Egyptian peasants of the Nile Delta.",
+          "statement_id": "Seorang kontributor proyek Civic Imagination menulis bahwa mitos Al Naddaha (\"sang pemanggil\") berasal dari daerah-daerah Mesir yang lebih pedesaan di antara petani Mesir di Delta Nil.",
+          "quote": "It’s the myth of Al Naddaha (the caller) which originated in Egypt’s more provincial areas among Egyptian peasants of the Nile Delta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c07",
+          "source_id": "el-naddaha-s2",
+          "host": "scalar.usc.edu",
+          "statement": "According to the legend, Al Naddaha is a beautiful woman with a hypnotizing voice who calls men to join her in the Nile; she is purported to be a type of genie (in Islamic tradition) or a naiad (in Greek mythology).",
+          "statement_id": "Menurut legenda itu, Al Naddaha adalah perempuan cantik dengan suara yang menghipnotis yang memanggil laki-laki untuk ikut bersamanya ke Nil, dan dianggap sejenis jin (dalam tradisi Islam) atau naiad (dalam mitologi Yunani).",
+          "quote": "According to the legend, Al Naddaha is beautiful woman with a hypnotizing voice who calls upon men to join her into the Nile. She is purported to be a type of Genie (in Islamic tradition) or a naiad (in Greek mythology).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c08",
+          "source_id": "el-naddaha-s2",
+          "host": "scalar.usc.edu",
+          "statement": "According to the legend, men are not immediately affected but usually suffer a period of disturbance, then stop resisting and follow her sweet voice into the Nile; Al Naddaha drowns her victims or takes them away with her to the underworld.",
+          "statement_id": "Menurut legenda itu, laki-laki tidak langsung terpengaruh, tetapi biasanya mengalami masa gangguan lalu berhenti melawan dan mengikuti suaranya yang manis ke Nil; Al Naddaha menenggelamkan korbannya atau membawa mereka ke dunia bawah.",
+          "quote": "According to the legend, Al Naddaha is beautiful woman ... While men are not immediately affected by her, they usually suffer a period of disturbance after which they stop resisting and follow her sweet voice into the Nile. According to the legend, Al Naddah drowns her victims or takes them away with her to the underworld.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c09",
+          "source_id": "el-naddaha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People in rural Egypt believe that a man called by En-Naddaha is doomed and curing him is often impossible. No instance has been recorded of a man seen devoured by her, but many old local citizens believe she consumes or pulls her victims into the Nile and drowns them.",
+          "statement_id": "Orang di Mesir pedesaan percaya bahwa laki-laki yang dipanggil En-Naddaha ditakdirkan celaka dan sering mustahil disembuhkan. Belum tercatat kasus laki-laki terlihat dimangsa olehnya, tetapi banyak warga lama percaya ia memangsa atau menarik korbannya ke Nil dan menenggelamkan mereka.",
+          "quote": "People in rural Egypt believe that a man who is called for by En-Naddaha is doomed, curing him is often impossible. Not a single instance has been recorded where a man is seen devoured by her. But many old local citizens believe she consumes or pulls her victims into the Nile and drowns them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c10",
+          "source_id": "el-naddaha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature calls one man by his first name until he is speechless, hypnotized and obedient to her voice; the second, unaffected man tries to pull him back and at last succeeds in reviving him from his trance.",
+          "statement_id": "Makhluk itu memanggil salah satu laki-laki dengan nama depannya hingga ia terdiam, terhipnotis, dan patuh pada suaranya; laki-laki kedua yang tidak terpengaruh berusaha menariknya kembali dan akhirnya berhasil menyadarkannya dari trans.",
+          "quote": "The creature calls one by his first name, rendering him speechless, hypnotized, and obedient to her voice which he blindly follows, while the other man is unaffected, and attempts to pull the other back. The creature calls in a soft, sleepy, hypnotizing voice until the second unaffected man succeeds at last in reviving the called man from his trance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c11",
+          "source_id": "el-naddaha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Egyptian writer Ahmed Khaled Tawfik, in his The Legend of Al Naddaha, says that a man who prevents the called man from reaching the creature by any means would be the next to be called.",
+          "statement_id": "Penulis Mesir Ahmed Khaled Tawfik, dalam The Legend of Al Naddaha, menyatakan bahwa orang yang menghalangi laki-laki yang dipanggil mencapai makhluk itu akan menjadi orang berikutnya yang dipanggil.",
+          "quote": "The Egyptian writer Ahmed Khaled Tawfik, in his The Legend of Al Naddaha, says that a man who prevents the called man from reaching the creature by any means would be the next to be called.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "el-naddaha-c12",
+          "source_id": "el-naddaha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, El Nadaha shows up in many Egyptian horror TV series and movies, most notably in the Netflix series Paranormal.",
+          "statement_id": "Menurut Wikipedia, El Nadaha muncul di banyak serial televisi dan film horor Mesir, terutama dalam serial Netflix Paranormal.",
+          "quote": "El Nadaha shows up in many Egyptian horror tv series and movies most notably in the Netflix series Paranormal",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4fc42347050df65d1fc1ccac99e24db8b0cc3b7c066f27549c06775b44304d75"
+      "images": []
     },
     {
       "slug": "eurryroe",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "c2041fb6a4a20b459618f79c67113a7a8d56568597dcdb67b083ece3a4ba56e5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "eurryroe-c01",
           "source_id": "eurryroe-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Eurryroe is a naiad and river spirit in Greek mythology, daughter of Nilus and wife of Aegyptus.",
-          "statement_id": "Eurryroe adalah naiad dan roh sungai dalam mitologi Yunani, putri Nilus dan istri Aegyptus.",
+          "statement": "In Greek mythology, Eurryroe (Euryrrhoë) is a naiad and a potamid, daughter of the river god Nile and wife of Égyptos (Aegyptus).",
+          "statement_id": "Dalam mitologi Yunani, Eurryroe (Euryrrhoë) adalah naiad dan potamide, putri dewa sungai Nil dan istri Égyptos (Aegyptus).",
           "quote": "Dans la mythologie grecque, Euryrrhoë ou Eurryroé (en grec ancien Εùρυῥῤόης) est une naïade et une potamide, fille du dieu fleuve Nil et épouse d'Égyptos.",
           "context": "traditional-belief",
           "status": "exact"
@@ -2149,9 +2209,9 @@
           "host": "fr.wikipedia.org",
           "statement": "According to Hippostratus she is the sole mother of Aegyptus’s fifty sons.",
           "statement_id": "Menurut Hippostratus ia adalah ibu tunggal kelima puluh putra Aegyptus.",
-          "quote": "Selon Hippostrate (en), Eurryroé aurait été la mère unique des 50 fils du roi Égyptos d'Égypte. Sa sœur Europe aurait quant à elle donné naissance aux 50 filles du roi libyen Danaos, frère d'Égyptos.",
+          "quote": "Selon Hippostrate ... Eurryroé aurait été la mère unique des 50 fils du roi Égyptos d'Égypte. Sa sœur Europe aurait quant à elle donné naissance aux 50 filles du roi libyen Danaos",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "eurryroe-c03",
@@ -2159,30 +2219,64 @@
           "host": "fr.wikipedia.org",
           "statement": "Other accounts give Aegyptus’s sons several mothers, including Caliadne.",
           "statement_id": "Kisah lain menyebut beberapa ibu bagi putra Aegyptus, termasuk Caliadne.",
-          "quote": "Alternativement, les épouses d'Égyptos et de Danaos sont données respectivement leurs cousines (et nièces), Isaïa (en) et Mélia. Elles étaient filles du roi Agénor de Tyre et de Damno (en) (une fille du roi Bélos d'Égypte). Selon un récit, les enfants d'Égyptos auraient été nés de mères différentes, dont Argyphia (en), Tyria (en), la naïade Caliadne, Gorgo et Héphaïstine (en).",
+          "quote": "Alternativement, les épouses d'Égyptos et de Danaos sont données respectivement leurs cousines (et nièces), Isaïa ... et Mélia. Elles étaient filles du roi Agénor de Tyre et de Damno ... Selon un récit, les enfants d'Égyptos auraient été nés de mères différentes, dont Argyphia ... la naïade Caliadne, Gorgo et Héphaïstine",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
+        },
+        {
+          "id": "eurryroe-c04",
+          "source_id": "eurryroe-s2",
+          "host": "www.theoi.com",
+          "statement": "In Tzetzes' text Aegyptus has fifty sons and Danaus fifty daughters, by several women according to some and by one single woman according to others; Hippostratus says that Aegyptus begot his fifty sons only by Eurryroe, the daughter of Nilus.",
+          "statement_id": "Dalam teks Tzetzes, Aegyptus memiliki lima puluh putra dan Danaus lima puluh putri, dari beberapa perempuan menurut sebagian sumber atau dari satu perempuan menurut yang lain; Hippostratus menyatakan Aegyptus memperoleh kelima puluh putranya hanya dari Eurryroe, putri Nilus.",
+          "quote": "Aegyptus fathers fifty sons, Danaus, in turn, fathers fifty daughters, By several women, by one single woman according to others. Hippostratus says that Aegyptus has begotten only by Eurryroe, The daughter of Nilus, fifty sons;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eurryroe-c05",
+          "source_id": "eurryroe-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Hippostratus in Tzetzes' text, Aegyptus begot his sons only by Eurryroe, while Danaus begot all his daughters by Europa, the daughter of Nilus.",
+          "statement_id": "Menurut Hippostratus dalam teks Tzetzes, Aegyptus memperoleh putra-putranya hanya dari Eurryroe, sedangkan Danaus memperoleh semua putrinya dari Europa, putri Nilus.",
+          "quote": "Hippostratus says that Aegyptus has begotten only by Eurryroe ... As well as Danaus has begotten all his daughters, By Europa, the daughter of Nilus, of whom I have spoken.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eurryroe-c06",
+          "source_id": "eurryroe-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Greek mythology, Eurryroe was the daughter of the Egyptian river-god Nilus.",
+          "statement_id": "Dalam mitologi Yunani, Eurryroe adalah putri dewa sungai Mesir, Nilus.",
+          "quote": "In Greek mythology, Eurryroe ... was the daughter of the Egyptian river-god Nilus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eurryroe-c07",
+          "source_id": "eurryroe-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Hippostratus, Eurryroe was said to be the sole mother of the 50 sons of King Aegyptus of Egypt; her sister Europa bore the 50 daughters of the Libyan king Danaus.",
+          "statement_id": "Menurut Hippostratus, Eurryroe dikatakan satu-satunya ibu dari 50 putra Raja Aegyptus dari Mesir; saudarinya Europa melahirkan 50 putri raja Libya, Danaus.",
+          "quote": "According to Hippostratus, Eurryroe was said to be the mother alone of the 50 sons of King Aegyptus of Egypt. Her sister Europa, also bore the Libyan king Danaus's 50 daughters.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d78c43499f66caacfa1f0a11ebc5689265736545a9ae4200d12ceee02a596d3d"
+      "images": []
     },
     {
       "slug": "abdu-fisch",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "8078afa98c1c8768cc1d817455467fb8386ef62571deedad911479c6d47013fd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abdu-fisch-c01",
@@ -2198,9 +2292,9 @@
           "id": "abdu-fisch-c02",
           "source_id": "abdu-fisch-s1",
           "host": "de.wikipedia.org",
-          "statement": "With the Ant-Fisch it escorts the solar barque and watches over water.",
-          "statement_id": "Ia bersama Ant-Fisch mengawal bahtera matahari dan menjaga air.",
-          "quote": "Zusammen mit dem Ant-Fisch geleitete er mitunter die Sonnenbarke und wachte über das Wasser. Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden. Der Sonnengott selbst wurde manchmal selbst als „großer Abdu-Fisch“ bezeichnet.",
+          "statement": "Together with the Ant-Fisch, the Abdu-Fisch at times escorted the solar barque and watched over the water.",
+          "statement_id": "Bersama Ant-Fisch, Abdu-Fisch kadang mengawal bahtera matahari dan menjaga air.",
+          "quote": "Der Abdu-Fisch (auch Abdju-Fisch oder Abydos-Fisch) ist ein nicht identifizierter Speisefisch ... Zusammen mit dem Ant-Fisch geleitete er mitunter die Sonnenbarke und wachte über das Wasser.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2208,9 +2302,9 @@
           "id": "abdu-fisch-c03",
           "source_id": "abdu-fisch-s1",
           "host": "de.wikipedia.org",
-          "statement": "Its task is to announce the approaching serpent enemy.",
-          "statement_id": "Tugasnya memberi tahu kedatangan musuh ular.",
-          "quote": "Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden.",
+          "statement": "The Abdu-Fisch's task was to announce the approach of the serpent enemy.",
+          "statement_id": "Tugas Abdu-Fisch adalah memberi tahu kedatangan musuh berwujud ular.",
+          "quote": "Der Abdu-Fisch (auch Abdju-Fisch oder Abydos-Fisch) ist ein nicht identifizierter Speisefisch ... Seine Aufgabe war es, das Herannahen des Schlangenfeindes zu melden.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2218,9 +2312,9 @@
           "id": "abdu-fisch-c04",
           "source_id": "abdu-fisch-s1",
           "host": "de.wikipedia.org",
-          "statement": "It is sometimes linked with Osiris through the similarity of the name Abydos.",
-          "statement_id": "Ia kadang dikaitkan dengan Osiris melalui kemiripan nama Abydos.",
-          "quote": "Möglicherweise hatte der Fisch auch eine besondere Bedeutung im ägyptischen Totenglauben. Der Abdu wurde wegen der Namensähnlichkeit zu Abydos vereinzelt mit Osiris in Verbindung gebracht. In einigen thebanischen Gräbern der Ramessidenzeit (z. B. Grab des Chabechnet) ist die osirisgleiche Mumie als Abdu-Fisch auf der Bahre eingewickelt.",
+          "statement": "Because the name resembles Abydos, the Abdu was occasionally linked with Osiris; in some Theban tombs of the Ramesside period the Osiris-like mummy is wrapped as an Abdu-Fisch on the bier.",
+          "statement_id": "Karena kemiripan nama dengan Abydos, Abdu kadang dikaitkan dengan Osiris; di beberapa makam Teban dari zaman Ramesside, mumi yang disamakan dengan Osiris dibungkus sebagai Abdu-Fisch di atas usungan.",
+          "quote": "Möglicherweise hatte der Fisch auch eine besondere Bedeutung im ägyptischen Totenglauben. Der Abdu wurde wegen der Namensähnlichkeit zu Abydos vereinzelt mit Osiris in Verbindung gebracht. In einigen thebanischen Gräbern der Ramessidenzeit (z. B. Grab des Chabechnet) ist die osirisgleiche Mumie als Abdu-Fisch auf der Bahre eingewickelt.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2228,32 +2322,66 @@
           "id": "abdu-fisch-c05",
           "source_id": "abdu-fisch-s1",
           "host": "de.wikipedia.org",
-          "statement": "Interpretations of fish beside mummies differ between a wish to see the sun and a form of the soul.",
-          "statement_id": "Penafsiran gambar ikan dekat mumi berbeda, antara harapan melihat matahari dan bentuk jiwa.",
+          "statement": "In the Hellenistic period Oxyrhynchos fish were depicted above the mummy of the dead; according to Hans Bonnet the Abdu-Fisch may have been depicted similarly earlier and over time took the Oxyrhynchos form.",
+          "statement_id": "Pada masa Helenistik, ikan Oxyrhynchos digambarkan di atas mumi orang mati; menurut Hans Bonnet, Abdu-Fisch mungkin sudah digambarkan serupa pada masa lebih awal dan lama-kelamaan berbentuk Oxyrhynchos.",
           "quote": "In hellenistischer Zeit wurden Oxyrhynchos-Fische über der Mumie des Toten dargestellt. Nach Hans Bonnet wäre es denkbar, dass der Abdu-Fisch schon in früherer Zeit ähnlich abgebildet wurde und im Laufe der Zeit die Oxyrhynchos-Form annahm.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "abdu-fisch-c06",
+          "source_id": "abdu-fisch-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a footnote to Budge's translation, the Abtu and Ant fishes swam before the Boat of Ra and guided it.",
+          "statement_id": "Dalam catatan kaki terjemahan Budge, ikan Abtu dan ikan Ant berenang di depan Bahtera Ra dan memandunya.",
+          "quote": "The Abtu and Ant Fishes swam before the Boat of Ra and guided it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "abdu-fisch-c07",
+          "source_id": "abdu-fisch-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The fish was used as a mysterious symbol of life, like the frog, and was regarded as a form of Osiris, who himself occasionally took the role of \"the submerged one\".",
+          "statement_id": "Ikan itu dipakai sebagai lambang kehidupan yang misterius, mirip katak, dan dianggap wujud Osiris, yang sendiri kadang berperan sebagai \"yang terbenam\".",
+          "quote": "Der Fisch wurde ähnlich wie der Frosch als geheimnisvolles Lebenssymbol verwendet und galt als Gestaltung des Osiris, welcher selbst gelegentlich die Rolle des „Untergetauchten“ übernahm.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "abdu-fisch-c08",
+          "source_id": "abdu-fisch-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The sun god himself was sometimes called the \"great Abdu-Fisch\".",
+          "statement_id": "Dewa matahari sendiri kadang disebut \"Abdu-Fisch agung\".",
+          "quote": "Der Sonnengott selbst wurde manchmal selbst als „großer Abdu-Fisch“ bezeichnet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abdu-fisch-c09",
+          "source_id": "abdu-fisch-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The dead person probably wished to express the hope of seeing the sun, whereas according to Wilhelm Spiegelberg the fish were only a form of the soul.",
+          "statement_id": "Orang mati itu mungkin ingin menyatakan harapan melihat matahari, sedangkan menurut Wilhelm Spiegelberg ikan-ikan itu hanya wujud jiwa.",
+          "quote": "Nach Hans Bonnet wäre es denkbar, dass der Abdu-Fisch schon in früherer Zeit ähnlich abgebildet wurde und im Laufe der Zeit die Oxyrhynchos-Form annahm. Der Tote wollte damit vermutlich den Wunsch ausdrücken, die Sonne zu schauen, während nach Wilhelm Spiegelberg die Fische nur eine Gestalt der Seele darstellten.",
           "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a9c8b446a4adfd58c13231de282758f8a78b9e1192364e3570ef6eda89d92ed5"
+      "images": []
     },
     {
       "slug": "akhekh",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "39ab43baf8f9df137b5260b94d03bef3baec70ea565ad8f3e75499f418b9fe93",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akhekh-c01",
@@ -2269,9 +2397,9 @@
           "id": "akhekh-c02",
           "source_id": "akhekh-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its name is linked with kkw meaning darkness.",
-          "statement_id": "Namanya dikaitkan dengan kata kkw yang berarti kegelapan.",
-          "quote": "The name comes from kkw, the Egyptian word for darkness.",
+          "statement": "The name Akhekh comes from kkw, the Egyptian word for darkness.",
+          "statement_id": "Nama Akhekh berasal dari kkw, kata Mesir untuk kegelapan.",
+          "quote": "The Akhekh (also transliterated as Akekhu) is a legendary creature in Egyptian mythology and art ... The name comes from kkw, the Egyptian word for darkness.",
           "context": "etymology",
           "status": "exact"
         },
@@ -2299,44 +2427,63 @@
           "id": "akhekh-c05",
           "source_id": "akhekh-s1",
           "host": "en.wikipedia.org",
-          "statement": "It is associated with Set, darkness, the western desert, chaos and water.",
-          "statement_id": "Ia terkait Set, kegelapan, gurun barat, kekacauan, dan air.",
+          "statement": "The Akhekh was associated with the god Set and his domains of darkness, the western desert, chaos and water. Like the Sha, it was an ally or incarnation of Set, and symbolised the pharaoh's power in wartime, for example Ramesses II being compared to the Akhekh as he conquered and terrorised the Hittites.",
+          "statement_id": "Akhekh dikaitkan dengan dewa Set serta ranahnya: kegelapan, gurun barat, kekacauan, dan air. Seperti Sha, ia sekutu atau inkarnasi Set, dan melambangkan kekuatan firaun pada masa perang, misalnya Ramesses II dibandingkan dengan Akhekh ketika menaklukkan dan menakut-nakuti bangsa Het (Hittites).",
           "quote": "The Akhekh was associated with the god Set, as well as his domains of darkness, the western desert, chaos, and water. Much like the Sha, it was either an ally of the god or an incarnation of Set. It also symbolised power and strength of the pharaoh during wartime, such as Ramesses II being compared to the Akhekh as he conquered the Hittites and terrorised them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akhekh-c06",
+          "source_id": "akhekh-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text by Paul Carus (1900), the symbols of Set (Seth), whom the Greeks called Typhon, are the griffin (akhekh), the hippopotamus, the crocodile, the swine, the tortoise and, above all, the serpent.",
+          "statement_id": "Menurut teks Paul Carus tahun 1900 ini, simbol-simbol Set (Seth), yang oleh orang Yunani disebut Typhon, adalah griffin (akhekh), kuda nil, buaya, babi, kura-kura, dan terutama ular.",
+          "quote": "SET, OR SETH, whom the Greeks called Typhon ... his symbols are the griffin (akhekh), the hippopotamus, the crocodile, the swine, the tortoise, and, above all the serpent",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "akhekh-c07",
+          "source_id": "akhekh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Metternich stele in particular depicts an Akhekh pulling an archer's chariot over two crocodiles.",
+          "statement_id": "Stela Metternich secara khusus menggambarkan seekor Akhekh menarik kereta perang seorang pemanah di atas dua buaya.",
+          "quote": "The Metternich stele in particular depicts an Akhekh pulling an archer's chariot over two crocodiles.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akhekh-c08",
+          "source_id": "akhekh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A common trait of the Akhekh is that its body resembles an antelope and its head is adorned with three uraei (snake heads).",
+          "statement_id": "Ciri umum Akhekh adalah tubuhnya menyerupai antelop dan kepalanya dihiasi tiga uraeus (kepala ular).",
+          "quote": "A common trait of the Akhekh is that its body resembles an antelope and its head is adorned with three uraei (snake heads).",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f118b931d83ffd13598a1b2dd9e6bd02df8c458e783cb2d69303b9db768475a2"
+      "images": []
     },
     {
       "slug": "apshait",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "ce9a07ea37add6101e63be5cbb2057f48c84593d9dfb064eb5255238eb6fca01",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "apshait-c01",
           "source_id": "apshait-s1",
           "host": "en.wikipedia.org",
-          "statement": "Apshait is a corpse-eating being in Egyptian mythology mentioned in chapter 36 of the Book of the Dead.",
-          "statement_id": "Apshait adalah makhluk pemakan jasad dalam mitologi Mesir yang disebut pada bab 36 Kitab Orang Mati.",
+          "statement": "The Apshait is a monster in Egyptian mythology, described as a large flesh-eating beetle that eats corpses; it is mentioned in the Book of the Dead, under chapter 36.",
+          "statement_id": "Apshait adalah monster dalam mitologi Mesir, dijelaskan sebagai kumbang besar pemakan daging yang memakan jasad; ia disebut dalam Kitab Orang Mati pada bab 36.",
           "quote": "The Apshait is a monster in Egyptian mythology, described as a large flesh-eating beetle that eats corpses. It is mentioned in the Book of the Dead, under chapter 36.",
           "context": "traditional-belief",
           "status": "exact"
@@ -2345,33 +2492,66 @@
           "id": "apshait-c02",
           "source_id": "apshait-s2",
           "host": "www.gutenberg.org",
-          "statement": "Renouf states that identifying the apshai insect is difficult and rejects the tortoise interpretation.",
-          "statement_id": "Renouf menyatakan identifikasi serangga apshai sulit dan menolak penafsiran sebagai kura-kura.",
+          "statement": "Renouf states that the insect called āpšai or āpsȧit is difficult to identify and is certainly not a tortoise as formerly thought.",
+          "statement_id": "Renouf menyatakan serangga yang disebut āpšai atau āpsȧit sulit diidentifikasi dan jelas bukan kura-kura seperti anggapan sebelumnya.",
           "quote": "The insect called āpšai or āpsȧit is difficult of identification. It is certainly not a tortoise as was formerly thought",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
+        },
+        {
+          "id": "apshait-c03",
+          "source_id": "apshait-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Chapter XXXVI of the Book of the Dead in Renouf's translation is titled \"Chapter whereby the Āpshait is kept back\".",
+          "statement_id": "Bab XXXVI Kitab Orang Mati dalam terjemahan Renouf berjudul \"Bab yang menahan Āpshait\".",
+          "quote": "Chapter whereby the Āpshait is kept back.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apshait-c04",
+          "source_id": "apshait-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The text of the chapter whereby the Āpshait is kept back reads \"Away from me, thou with parted lips! I am Chnemu, the Lord of Shennu, who am bringing the words of the gods to Rā. And I announce the news to Nebes.\"",
+          "statement_id": "Teks bab yang menahan Āpshait berbunyi \"Pergilah dariku, kau yang berbibir terbuka! Akulah Chnemu, Tuan Shennu, yang membawa kata-kata para dewa kepada Rā. Dan aku mengumumkan kabar itu kepada Nebes.\"",
+          "quote": "Chapter whereby the Āpshait is kept back. Away from me, thou with parted lips! I am Chnemu, the Lord of Shennu, who am bringing the words of the gods to Rā. And I announce the news to Nebes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apshait-c05",
+          "source_id": "apshait-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Renouf judges the insect āpšai or āpsȧit difficult to identify, certainly not a tortoise as formerly thought, but looking rather like the voracious Blatta orientalis.",
+          "statement_id": "Renouf menilai serangga āpšai atau āpsȧit sulit diidentifikasi, jelas bukan kura-kura seperti anggapan sebelumnya, tetapi lebih mirip Blatta orientalis yang rakus.",
+          "quote": "The insect called āpšai or āpsȧit is difficult of identification. It is certainly not a tortoise as was formerly thought, but looks rather like the voracious Blatta orientalis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apshait-c06",
+          "source_id": "apshait-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Renouf's note, the last word of the chapter is doubtful: the most recent papyri have \"their Lord\", the Turin copy and the oldest papyrus have \"her Lord\", and Bekenrenef has Nebes, a lion-headed goddess.",
+          "statement_id": "Menurut catatan Renouf, kata terakhir bab itu meragukan: papirus terbaru memuat \"Tuan mereka\", salinan Turin dan papirus tertua memuat \"Tuan perempuan itu\", dan Bekenrenef memuat Nebes, dewi berkepala singa.",
+          "quote": "The last word of the chapter is doubtful. The most recent papyri have ‘their Lord,’ which gives a very good sense, but even the Turin copy has ‘her Lord’ which agrees with the oldest papyrus. Bekenrenef has Nebes, a lion-headed goddess.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7245de2959cac25b11cd8458d3733b04120a519a831d8c492aef457796e9b9e6"
+      "images": []
     },
     {
       "slug": "esprits-de-l-ouest",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "fb326078fbd61b3bf9f88dd9abb776d203fa54b570eee751e85a6e69b176b675",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "esprits-de-l-ouest-c01",
@@ -2387,9 +2567,9 @@
           "id": "esprits-de-l-ouest-c02",
           "source_id": "esprits-de-l-ouest-s1",
           "host": "fr.wikipedia.org",
-          "statement": "They protect Ra from evil.",
-          "statement_id": "Mereka melindungi Ra dari kejahatan.",
-          "quote": "Ils sont aussi amenés à le protéger contre le mal. Ils sont également parfois représentés comme des oiseaux à têtes de chacals",
+          "statement": "The esprits de l'Ouest (Western Spirits) are also meant to protect Rê from evil.",
+          "statement_id": "Para esprit de l'Ouest (roh-roh Barat) juga bertugas melindungi Rê dari kejahatan.",
+          "quote": "Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... qui tirent la barque solaire de Rê lors de son voyage nocturne. Ils sont aussi amenés à le protéger contre le mal.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2407,9 +2587,9 @@
           "id": "esprits-de-l-ouest-c04",
           "source_id": "esprits-de-l-ouest-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Their images are known from Ramesside times and occur in afterlife texts.",
-          "statement_id": "Gambar mereka dikenal dari masa Ramesside dan muncul dalam teks akhirat.",
-          "quote": "Ils sont apparus pour la première fois au cours de la période ramesside au Nouvel Empire. Mais il y a quelques mentions d'eux, un peu avant, dans les textes des sarcophages et le Livre des Morts. Ils figurent dans de nombreux textes sur l'au-delà et il n'est pas rare de les voir sur des situles en bronze, sortes de seaux cérémoniels en forme de poitrine.",
+          "statement": "The esprits de l'Ouest first appeared in the Ramesside period of the New Kingdom, with a few mentions slightly earlier in the Coffin Texts and the Book of the Dead.",
+          "statement_id": "Para esprit de l'Ouest pertama kali muncul pada periode Ramesside di Kerajaan Baru, dengan beberapa penyebutan sedikit lebih awal dalam Teks Peti Mati dan Kitab Orang Mati.",
+          "quote": "Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... Ils sont apparus pour la première fois au cours de la période ramesside au Nouvel Empire. Mais il y a quelques mentions d'eux, un peu avant, dans les textes des sarcophages et le Livre des Morts.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -2422,27 +2602,61 @@
           "quote": "Dans le Livre du jour et de la nuit, les esprits de l'Ouest remorquent la barque solaire à travers le corps de Nout :",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "esprits-de-l-ouest-c06",
+          "source_id": "esprits-de-l-ouest-s2",
+          "host": "collezionepapiri.museoegizio.it",
+          "statement": "According to the Museo Egizio papyrus catalogue, the motif of the \"Westerners bA-souls\" (bA.w imn.tyw), represented as jackals towing the solar barque, is well known, especially from the Book of the Day and the Book of the Night.",
+          "statement_id": "Menurut katalog papirus Museo Egizio, motif \"jiwa-ba Barat\" (bA.w imn.tyw) yang digambarkan sebagai jakal penarik bahtera matahari terkenal, terutama dari Kitab Siang dan Kitab Malam.",
+          "quote": "the motif of the “Westerners bA-souls”, the so-called bA.w imn.tyw, represented as jackals towing the solar barque, is well known, especially from the Book of the Day and the Book of the Night",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "esprits-de-l-ouest-c07",
+          "source_id": "esprits-de-l-ouest-s2",
+          "host": "collezionepapiri.museoegizio.it",
+          "statement": "The jackals towing the solar barque have the function of protecting the Sun-god and repelling his enemies during the last phases of his journey.",
+          "statement_id": "Fungsi jakal-jakal penarik bahtera matahari itu adalah melindungi dewa Matahari dan mengusir musuh-musuhnya pada fase terakhir perjalanannya.",
+          "quote": "the motif of the “Westerners bA-souls”, the so-called bA.w imn.tyw, represented as jackals towing the solar barque ... The jackals' function is to protect the Sun-god and repel his enemies during the last phases of his journey.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "esprits-de-l-ouest-c08",
+          "source_id": "esprits-de-l-ouest-s2",
+          "host": "collezionepapiri.museoegizio.it",
+          "statement": "In the top part of this papyrus, four jackals tow the solar vessel through the watery heaven vault, pulling a snake-headed hawser (a thick rope for mooring or towing boats).",
+          "statement_id": "Pada bagian atas papirus ini, empat jakal menarik bahtera matahari melalui kubah langit berair dengan menarik tali tambat berkepala ular.",
+          "quote": "In the top part, four jackals tow the solar vessel through the waterly heaven vault pulling a snake-headed hawser (a thick rope for mooring or towing boats).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "esprits-de-l-ouest-c09",
+          "source_id": "esprits-de-l-ouest-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The esprits de l'Ouest are also sometimes depicted as birds with jackal heads.",
+          "statement_id": "Para esprit de l'Ouest juga kadang digambarkan sebagai burung berkepala jakal.",
+          "quote": "Les esprits de l'Ouest sont considérés comme des génies (Netjeri) ... Ils sont également parfois représentés comme des oiseaux à têtes de chacals",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cd6e86a049d9feb0c832f454e0a76bbd323abb48e4b16bd2086e44495872dd92"
+      "images": []
     },
     {
       "slug": "greif",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "fb95da0862452e1accacff0e652b751d0de2ad99ec6a360e40d9866250e15b7b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "greif-c01",
@@ -2458,8 +2672,8 @@
           "id": "greif-c02",
           "source_id": "greif-s1",
           "host": "de.wikipedia.org",
-          "statement": "Its form develops from predatory-bird features into forms with pantherlike hide and a falcon head.",
-          "statement_id": "Bentuknya berkembang dari ciri burung pemangsa menjadi wujud dengan kulit mirip panter dan kepala elang.",
+          "statement": "The early dynastic griffin had predatory, vulture-like features with comb-like wings in the middle of its back; in the Middle Kingdom a similar form developed with a flat head, panther-like fur, a human head between the wings and a collar. Its nature was, among other things, to avert demons and evil acts.",
+          "statement_id": "Griffin awal dinasti memiliki ciri pemangsa seperti burung bangkai dengan sayap berbentuk jengger di tengah punggung; pada Kerajaan Tengah berkembang bentuk serupa dengan kepala pipih, bulu mirip macan kumbang, kepala manusia di antara sayap, dan kalung. Sifatnya antara lain untuk menangkal setan dan perbuatan jahat.",
           "quote": "Der frühdynastische Greif hatte raubtierartige Züge eines Geiers, der kammähnliche Flügel auf der Mitte des Rückens besaß. Im Mittleren Reich entwickelte sich eine ähnliche Form mit flachem Kopf; zusätzlich mit pantherähnlichem Fell, Menschenkopf zwischen den Flügeln und Halsband. Sein Wesen war unter anderem darauf ausgerichtet, Dämonen und unheilvolle Handlungen abzuwenden.",
           "context": "traditional-belief",
           "status": "exact"
@@ -2478,9 +2692,9 @@
           "id": "greif-c04",
           "source_id": "greif-s1",
           "host": "de.wikipedia.org",
-          "statement": "One fable gives it a falcon’s beak, human eyes, lion limbs, fish ears and a snake tail.",
-          "statement_id": "Satu dongeng memberi paruh elang, mata manusia, anggota singa, telinga ikan, dan ekor ular.",
-          "quote": "„Sein Schnabel ist der eines Falken, seine Augen die eines Menschen, seine Glieder die eines Löwen, seine Ohren die eines Fisches, sein Schwanz der einer Schlange.“",
+          "statement": "In the Ptolemaic period the griffin appears as a winged hybrid combined with the sun eye; the demotic fable \"Die Seherin und die Hörerin\" describes it with a falcon's beak, human eyes, lion limbs, fish ears and a snake's tail.",
+          "statement_id": "Pada periode Ptolemeus, griffin muncul sebagai makhluk campuran bersayap yang berpadu dengan Mata Matahari; fabel demotik \"Die Seherin und die Hörerin\" menggambarkannya dengan paruh elang, mata manusia, anggota badan singa, telinga ikan, dan ekor ular.",
+          "quote": "In der ptolemäischen Periode trat der Greif als geflügeltes Mischwesen in Kombination mit dem Sonnenauge auf. Er wird in der demotischen Fabel Die Seherin und die Hörerin entsprechend beschrieben: ... „Sein Schnabel ist der eines Falken, seine Augen die eines Menschen, seine Glieder die eines Löwen, seine Ohren die eines Fisches, sein Schwanz der einer Schlange.“",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2493,17 +2707,57 @@
           "quote": "Der Greif ist bereits sehr früh als mythologisches Jagdtier belegt, das in der Wüste tätig war. Alternativ fungierte der Greif in seiner Erscheinungsform als schützendes Sonnenauge, das vom Sonnengott Re als Vergeltung eingesetzt wurde:",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "greif-c06",
+          "source_id": "greif-s2",
+          "host": "ashmolean.org",
+          "statement": "According to the Ashmolean Museum, on the reverse of the Two Dog Palette a mixture of fabulous and real wild animals occupies the left-hand side of the scene and attacks herbivores native to North Africa; from the top there are a pair of lions, a serpopard, a leopard, a hyena and a griffin with comb-like wings.",
+          "statement_id": "Menurut Ashmolean Museum, pada sisi belakang Palet Dua Anjing, hewan liar fantastis dan nyata menempati sisi kiri adegan dan menyerang herbivora Afrika Utara; dari atas terdapat sepasang singa, serpopard, macan tutul, hiena, dan griffin bersayap seperti jengger.",
+          "quote": "this example, the Two Dog Palette ... On the reverse of the palette, a mixture of fabulous and real wild animals occupy the left-hand side of the scene from where they attack a range of herbivores native to North Africa. From the top, there are a pair of lions, a serpopard, a leopard, a hyena and a griffin with comb-like wings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "greif-c07",
+          "source_id": "greif-s2",
+          "host": "ashmolean.org",
+          "statement": "According to the Ashmolean Museum, between 3300–3000 BC stone palettes made of siltstone were transformed into ritual objects with images associated with kingship; the most famous examples were excavated at Hierakonpolis and include the Narmer Palette and the Two Dog Palette.",
+          "statement_id": "Menurut Ashmolean Museum, antara 3300–3000 SM palet batu diubah menjadi benda ritual dengan gambar yang berkaitan dengan kerajaan; contoh terkenalnya digali di Hierakonpolis dan mencakup Palet Narmer serta Palet Dua Anjing.",
+          "quote": "From around 4400 BC stone palettes ... Between 3300–3000 BC, however, they were transformed into ritual objects with images associated with kingship carved in shallow relief on both sides. The most famous examples were excavated at the site of Hierakonpolis in southern Egypt and include the Narmer Palette (now in the Egyptian Museum in Cairo) and this example, the Two Dog Palette.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "greif-c08",
+          "source_id": "greif-s1",
+          "host": "de.wikipedia.org",
+          "statement": "In the further course of the Middle Kingdom the griffin received a new appearance through a falcon head similar to the god Horus.",
+          "statement_id": "Pada kelanjutan Kerajaan Tengah, griffin mendapat tampilan baru berupa kepala elang yang mirip dewa Horus.",
+          "quote": "Im weiteren Verlauf des Mittleren Reiches erhielt der Greif durch einen Falkenkopf, ähnlich dem Gott Horus,  ein neues Aussehen.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "greif-c09",
+          "source_id": "greif-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Since the Late Period the griffin, under the ancient Egyptian designation Sfrr, took on especially a protective function.",
+          "statement_id": "Sejak Periode Akhir, griffin dengan sebutan Mesir kuno Sfrr terutama mengemban fungsi pelindung.",
+          "quote": "Seit der Spätzeit übernahm der Greif unter der altägyptischen Bezeichnung Sfrr insbesondere eine Schutzfunktion.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ee003a3f78218822ffffd5097f6093acc15539cc22d3917c1b3bd8e3ad10f640"
+      "images": []
     },
     {
       "slug": "nehah-re",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "0f22bdfde6ea27e7e2be177be7ac12144f9ec4a8afaa1f18ca1230ad68cd6041",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -2511,7 +2765,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2519,39 +2773,43 @@
           "id": "nehah-re-c01",
           "source_id": "nehah-re-s1",
           "host": "ms.wikipedia.org",
-          "statement": "Nehah-Re is a serpent connected with Egyptian solar cults.",
-          "statement_id": "Nehah-Re adalah ular yang dihubungkan dengan kultus matahari Mesir.",
+          "statement": "According to the Malay Wikipedia article, Nehah-Ré is a serpent associated with the solar cult.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Melayu, Nehah-Ré adalah ular yang dikaitkan dengan kultus matahari.",
           "quote": "Nehah-Ré merupakan ular yang dikaitkan dengan kultus suria.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nehah-re-c02",
+          "source_id": "nehah-re-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The same article places Nehah-Ré in the context of an Egyptian civilization that had existed for more than 3,000 years, in which the development of ancient Egyptian religion helped create many gods and goddesses worshipped for various reasons.",
+          "statement_id": "Artikel yang sama menempatkan Nehah-Ré dalam konteks peradaban Mesir yang telah ada lebih dari 3.000 tahun, tempat perkembangan agama Mesir kuno membantu melahirkan banyak dewa dan dewi yang disembah karena berbagai alasan.",
+          "quote": "Peradapan Mesir telah wujud lebih 3,000 tahun dan perkembangan ugama di Mesir kuno telah membantu mewujudkan banyak dewa dewi yang disembah bagi pelbagai sebab",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f1b0da76586e72af2e4e84e232ee7ad1ffc03efec1a175cdc69525d748f2957b"
+      "images": []
     },
     {
       "slug": "dewa-nun",
-      "file": "batch-078.md",
+      "file": "batch-078-fix-4.md",
+      "entry_sha256": "86c4489aa172c72ce99e1d06a4f907969ebee268c4d2a76a49ce5afee22ba6c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dewa-nun-c01",
           "source_id": "dewa-nun-s1",
           "host": "ms.wikipedia.org",
-          "statement": "The Malay Dewa Nun article identifies its figure as a god of chaos and primordial time.",
-          "statement_id": "Artikel Melayu Dewa Nun mengenali tokohnya sebagai dewa kekacauan dan masa primordial.",
+          "statement": "According to the Malay Wikipedia article, Dewa Nun is a god of chaos and the primordial age.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Melayu, Dewa Nun adalah dewa kekacauan dan zaman awal (\"primordial\").",
           "quote": "Dewa Nun merupakan dewa kacau bilau dan zaman awal (\"primordial.\")",
           "context": "religious-tradition",
           "status": "exact"
@@ -2560,15 +2818,74 @@
           "id": "dewa-nun-c02",
           "source_id": "dewa-nun-s2",
           "host": "www.worldhistory.org",
-          "statement": "Nun in the accompanying source is primordial water before the world emerges.",
-          "statement_id": "Nun dalam sumber pendamping merupakan air primordial sebelum dunia muncul.",
+          "statement": "According to World History Encyclopedia, Nu (Nun) was the personification of the primordial chaos from which the world arose; Naunet is his female aspect and consort, and Nu is commonly regarded as \"Father of the Gods\".",
+          "statement_id": "Menurut World History Encyclopedia, Nu (Nun) adalah personifikasi kekacauan purba tempat dunia muncul; Naunet adalah aspek perempuan sekaligus pasangannya, dan Nu lazim dianggap \"Bapa para Dewa\".",
           "quote": "Nu (Nun) and Naunet - Nu was the personification of the primordial chaos from which the world arose. Naunet is his female aspect and consort. Nu is commonly regarded as \"Father of the Gods\" while Naunet is only referenced regarding the Ogdoad, the grouping of eight primordial gods, four males matching four females, who represent the original elements of creation.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c03",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In ancient Egyptian religion, Nun (\"The Inert One\") or Nu (\"Watery One\") is the personification of the primordial watery abyss that existed at the time of creation and from which the creator sun god Ra arose.",
+          "statement_id": "Dalam agama Mesir kuno, Nun (\"Yang Lembam\") atau Nu (\"Yang Berair\") adalah personifikasi jurang air purba yang ada pada saat penciptaan dan tempat dewa matahari pencipta Ra muncul.",
+          "quote": "Nun (\"The Inert One\") or Nu (\"Watery One\") ... in ancient Egyptian religion, is the personification of the primordial watery abyss which existed at the time of creation and from which the creator sun god Ra arose.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c04",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Nun is one of the eight deities of the Ogdoad, representing ancient Egyptian primordial Chaos from which the primordial mound arose.",
+          "statement_id": "Nun adalah satu dari delapan dewa Ogdoad yang mewakili Kekacauan purba Mesir kuno tempat gundukan purba muncul.",
+          "quote": "Nun is one of the eight deities of the Ogdoad representing ancient Egyptian primordial Chaos from which the primordial mound arose.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c05",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Beginning with the Middle Kingdom, Nun is described as \"the father of the gods\" and is depicted on temple walls throughout the rest of ancient Egyptian religious history.",
+          "statement_id": "Sejak Kerajaan Tengah, Nun disebut \"bapa para dewa\" dan digambarkan pada dinding kuil sepanjang sisa sejarah agama Mesir kuno.",
+          "quote": "Beginning with the Middle Kingdom, Nun is described as \"the father of the gods\" and he is depicted on temple walls throughout the rest of ancient Egyptian religious history.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c06",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Nun was depicted as a large anthropomorphic figure personifying the primordial waters and holding a notched palm branch; he was also depicted in human form with the head of a frog, and was typically shown holding aloft the solar barque or the sun disc.",
+          "statement_id": "Nun digambarkan sebagai sosok besar berwujud manusia yang mempersonifikasikan air purba dan memegang pelepah palem bertakik; ia juga digambarkan berwujud manusia berkepala katak, dan lazim digambarkan mengangkat bahtera matahari atau cakram matahari.",
+          "quote": "Nun was depicted as an anthropomorphic large figure and a personification of the primordial waters, holding a notched palm branch. Nun was also depicted in anthropomorphic form but with the head of a frog, and he was typically depicted in ancient Egyptian art holding aloft the solar barque or the sun disc.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c07",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In ancient Egyptian creation accounts, the original mound of land comes forth from the waters of the Nun.",
+          "statement_id": "Dalam kisah penciptaan Mesir kuno, gundukan tanah purba muncul dari perairan Nun.",
+          "quote": "In ancient Egyptian creation accounts, the original mound of land comes forth from the waters of the Nun.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dewa-nun-c08",
+          "source_id": "dewa-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "During the Late Period, when Egypt was occupied by foreign powers, the negative aspect of Nun (that is, chaos) became the dominant perception.",
+          "statement_id": "Pada Periode Akhir, ketika Mesir diduduki kekuatan asing, aspek negatif Nun (yaitu kekacauan) menjadi pandangan yang dominan.",
+          "quote": "During the Late Period when Egypt was occupied by foreign powers, the negative aspect of Nun (ie. chaos) became the dominant perception",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e1241f2f1344ef8a005fc5378c96fc955f74f7609fd7e2e6e8582cc89fad366a"
+      "images": []
     },
     {
       "slug": "naunet",
