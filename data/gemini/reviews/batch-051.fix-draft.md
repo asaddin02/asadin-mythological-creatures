@@ -4,15 +4,6 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
-## penghou
-- `claims (penghou-c02)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-## ningen-folklore
-- `claims (ningen-folklore-c04)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-## nuppeppo
-- `claims (nuppeppo-c04)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
 ## stolas
 - `claims (stolas-c03)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 

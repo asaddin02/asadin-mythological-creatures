@@ -1,6 +1,6 @@
 # Review batch-051
 
-Diperiksa 2026-10-06T14:39:47.373Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md, batch-051-fix-3.md.
+Diperiksa 2026-10-06T14:56:31.838Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md, batch-051-fix-3.md, batch-051-fix-4.md.
 
 ## basan-legendary-bird — lulus-otomatis
 
@@ -342,65 +342,78 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## penghou — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `claims (penghou-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | penghou-c01 | exact | en.wikipedia.org | Penghou is a tree spirit in Chinese lore. | The Penghou (Chinese: 彭侯; pinyin: Pénghóu; Wade–Giles: P'eng-hou, pronounced [pʰə̌ŋ.xǒʊ]; literally: "drumbeat marquis") is a tree spirit from Chinese mythology and folklore. |
-| penghou-c02 | exact | en.wikipedia.org | Two early Chinese writings preserve related accounts of it. | Two Chinese classics record similar versions of the Penghou myth. |
-| penghou-c03 | exact | en.wikipedia.org | One text describes it as arising from the essence of wood. | It describes the Penghou: A creature that has evolved from the essence of wood is called Penghou. |
-| penghou-c04 | exact | en.wikipedia.org | The same tradition gives it the shape of a black dog without a tail. | It looks like a black dog with no tail and its meat can be prepared as food. |
+| penghou-c02 | exact | en.wikipedia.org | Two Chinese classics record similar versions of the Penghou myth. | Two Chinese classics record similar versions of the Penghou myth. |
+| penghou-c03 | exact | en.wikipedia.org | The text says a creature that has evolved from the essence of wood is called Penghou. | It describes the Penghou: A creature that has evolved from the essence of wood is called Penghou. |
+| penghou-c04 | exact | en.wikipedia.org | The Penghou looks like a black dog with no tail, and its meat can be prepared as food. | It looks like a black dog with no tail and its meat can be prepared as food. |
+| penghou-c05 | exact | zh.wikisource.org | The author (時珍) quotes the 白澤圖 that the spirit of wood is named Penghou, looks like a black dog without a tail, and may be cooked and eaten. | 時珍曰︰按《白澤圖》云︰木之精名曰彭侯，狀如黑狗，無尾，可烹食。 |
+| penghou-c06 | exact | zh.wikisource.org | Its meat is described as sweet, sour, warm and nontoxic; eating it wards off evil and strengthens the will. | 肉 【氣味】 甘、酸，溫，無毒。 【主治】 食之辟邪，令人志壯〈《白澤》〉。 |
+| penghou-c07 | exact | zh.wikisource.org | In the time of the first ruler of Wu, Lu Jingshu, governor of Jian'an, had a great camphor tree felled; blood came out, and a creature with a human face and a dog's body emerged from the tree. He named it Penghou, then cooked and ate it. | 吳先主時，陸敬叔為建安郡太守。使人伐大樟樹，不數斧，有血出，樹斷，有物人面狗身，從樹中出。敬叔曰，此名「彭侯」。乃烹食之。 |
+| penghou-c08 | exact | ja.wikipedia.org | Penghou is said to possess trees that have grown for a thousand years; according to the Soushenji, in the Wu era Jingshu felled a large camphor tree and a dog-like Penghou with a human face appeared, which tasted like dog when stewed. | 生えてから1000年たった木に取り憑くといわれている。中国の怪異説話集『捜神記』によると、呉の時代に敬叔と言う人物がクスノキの大木を切ると、血が流れて人の顔を持つ犬のような彭侯が現れ、煮て食べると犬の味がしたとある。 |
+| penghou-c09 | exact | ja.wikipedia.org | Because the echo in the mountains (yamabiko) was thought to be caused by a tree spirit, Penghou was at one time sometimes identified with yamabiko. | 山中の音の反響現象である山彦は、木霊（木の霊）が起こすと考えられたことから、かつて彭侯は山彦と同一視されることもあった。 |
+| penghou-c10 | exact | ja.wikipedia.org | The name Penghou reached Edo-period Japan and was introduced as a Chinese yōkai in the Kokon Hyakumonogatari Hyōban, the Wakan Sansai Zue and Toriyama Sekien's Konjaku Hyakki Shūi. | 彭侯の名は江戸時代の日本にも伝わっており、当時の怪談集『古今百物語評判』、百科事典『和漢三才図会』、鳥山石燕による妖怪画集『今昔百鬼拾遺』にも中国の妖怪として紹介されている。 |
 
 
 ## suijin — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| suijin-c01 | loose | en.wikipedia.org | Suijin is a name for a water deity in Japanese belief. | Suijin or Mizugami (水神, すいじん, みずがみ; lit. "water god/deity") is a general name for the god of water in Japanese mythology. |
-| suijin-c02 | exact | en.wikipedia.org | The term encompasses varied divine and creature forms linked to fresh water. | The term refers to the heavenly and earthly manifestations of the benevolent Shinto divinity of water (mainly freshwater), as well as to a wide variety of mythical and magical creatures found in lakes, ponds, springs, and wells, including serpents (snakes, dragons, eels, fish, turtles), and the flesh-eating kappa. |
-| suijin-c03 | exact | en.wikipedia.org | People continue to venerate Suijin at religious sites. | Mizu-no-kamisama, Mizugami, or Suijin is popularly revered and worshipped in temples and continues to influence Japanese culture. |
-| suijin-c04 | loose | en.wikipedia.org | Suiten and Suiō are other names associated with this water deity. | Other names of Suijin include Suiten (水天; lit. "water heaven") and Suiō (水王; lit. "water lord/king"). |
+| suijin-c01 | exact | en.wikipedia.org | Suijin or Mizugami ("water god/deity") is a general name for the god of water in Japanese mythology. | Suijin or Mizugami ... lit. "water god/deity") is a general name for the god of water in Japanese mythology. |
+| suijin-c02 | exact | en.wikipedia.org | The term refers to the heavenly and earthly manifestations of the benevolent Shinto divinity of water (mainly freshwater) and to many mythical creatures in lakes, ponds, springs and wells, including serpents, dragons, eels, fish, turtles and the flesh-eating kappa. | The term refers to the heavenly and earthly manifestations of the benevolent Shinto divinity of water (mainly freshwater), as well as to a wide variety of mythical and magical creatures found in lakes, ponds, springs, and wells, including serpents (snakes, dragons, eels, fish, turtles), and the flesh-eating kappa. |
+| suijin-c03 | exact | en.wikipedia.org | Mizu-no-kamisama, Mizugami or Suijin is popularly revered and worshipped in temples and continues to influence Japanese culture. | Mizu-no-kamisama, Mizugami, or Suijin is popularly revered and worshipped in temples and continues to influence Japanese culture. |
+| suijin-c04 | exact | en.wikipedia.org | Other names of Suijin include Suiten ("water heaven") and Suiō ("water lord/king"). | Other names of Suijin include Suiten ... lit. "water heaven") and Suiō ... lit. "water lord/king"). |
+| suijin-c13 | exact | en.wikipedia.org | Shrines devoted to the water god are called Suitengū Shrines. | Shrines devoted to the worship of the Water God are called Suitengū Shrines. |
+| suijin-c05 | exact | kotobank.jp | The water deity takes many forms, but the most typical is the guardian of rice-paddy farmers; it brings fertility, is identified with the rice-field deity, and is enshrined at irrigation weirs or stone shrines beside paddies; when enshrined at mountain water sources as the water-distributing deity (mikumari), it is identified with the mountain deity. | 水神の実態は複雑多様であるが，もっとも典型的なのは農耕社会における水田稲作民にとっての守護神である。水神は豊穣をもたらす神であり，田の神と同一視されている。一般には，水田の用水堰か水田のほとりの石祠に祭られている。また山中の水源地に水分（みくまり）神として祭られる場合は，山の神と同一視される。 |
+| suijin-c06 | exact | kotobank.jp | The typical emblem of the water deity is the kappa; many folk tales imagine the water deity taking kappa form, and it is believed also to take the form of a dragon, snake, eel, monkey or spider. | 水神の表徴として代表的なのは河童である。水の妖怪であるが，水神が河童の姿をとったと想像される民間伝承は多い。また水神は，竜やヘビ，ウナギ，サル，クモなどの姿をとると信じられている。 |
+| suijin-c07 | exact | en.wikipedia.org | The Shinto water god is believed to be the guardian of fishermen and the patron of fertility, motherhood and painless childbirth. | The Shinto water god is believed to be the guardian of fishermen and the patron saint of fertility, motherhood, and painless childbirth. |
+| suijin-c08 | exact | en.wikipedia.org | People worship Suijin with offerings, believing this ensures pure and unpolluted water for drinking, agriculture and sanitation and brings success in fishing, fertility, motherhood and easy childbirth. | People worship Suijin with offerings, believing that doing so will ensure pure and unpolluted water for drinking, agriculture, and sanitation, and will bring success in fishing trips, fertility, motherhood, and easy childbirth. |
+| suijin-c09 | exact | en.wikipedia.org | Suijin is often conflated with Ryūjin, the Japanese dragon god associated with water. | Suijin is often conflated with Ryūjin, the Japanese dragon god associated with water. |
+| suijin-c10 | exact | kotobank.jp | The water deity is often represented as a goddess, a mother deity with a young child; one view imagines a shrine maiden serving the water deity by the water, and the water deity is linked to the worldwide belief in mother-and-child deities. | 水神はしばしば女神しかも少童をもつ母神として表現されており，水辺にあって水神に奉仕した巫女の姿を想定する考え方がされている。すなわち水神は，世界的な母子神信仰の問題に関連しているのである。 |
+| suijin-c11 | exact | kotobank.jp | A Japanese dictionary defines suijin as a deity who presides over water, including drinking water and water for rice fields; also called suihaku. | すい‐じん【水神】 水をつかさどる神。飲み水や田の水などを支配する神。水伯。 |
+| suijin-c12 | exact | en.wikipedia.org | Suijin appears as a stone plaque or even a small stone set upright near the emergence of a spring. | Suijin appears as a stone plaque or even a small stone set upright near the emergence of a spring. |
 
 
 ## sukunabikona — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sukunabikona-c01 | exact | en.wikipedia.org | Sukunabikona is a Shinto kami linked with healing and agriculture. | Sukunabikona or Sukuna bikona (少彦名神, also known as Sukuna-biko, Sukuna-biko-na, Sukuna hikona) is the Shinto kami of the onsen (hot springs), agriculture, healing, magic, brewing sake and knowledge. |
-| sukunabikona-c02 | exact | en.wikipedia.org | The sources describe a small deity closely associated with Ōkuninushi. | His name means "the small lord of renown." He is often described as being a dwarf and is frequently paired with Ōkuninushi. |
-| sukunabikona-c03 | exact | en.wikipedia.org | One tale begins with Ōkuninushi seeing a little boat on the sea. | One day while Ōkuninushi was at Miho Bay, he saw a small boat on the whitecap waves. |
-| sukunabikona-c04 | exact | en.wikipedia.org | That boat is described as being made from a plant pod. | The boat was made of a Metaplexis pod. |
+| sukunabikona-c01 | exact | en.wikipedia.org | Sukunabikona is the Shinto kami of the onsen (hot springs), agriculture, healing, magic, brewing sake and knowledge. | Sukunabikona or Sukuna bikona (少彦名神, also known as Sukuna-biko, Sukuna-biko-na, Sukuna hikona) is the Shinto kami of the onsen (hot springs), agriculture, healing, magic, brewing sake and knowledge. |
+| sukunabikona-c02 | exact | en.wikipedia.org | His name means "the small lord of renown"; he is often described as a dwarf and is frequently paired with Ōkuninushi. | His name means "the small lord of renown." He is often described as being a dwarf and is frequently paired with Ōkuninushi. |
+| sukunabikona-c03 | exact | en.wikipedia.org | One day while Ōkuninushi was at Miho Bay, he saw a small boat on the whitecap waves. | One day while Ōkuninushi was at Miho Bay, he saw a small boat on the whitecap waves. |
+| sukunabikona-c04 | exact | en.wikipedia.org | The boat was made of a Metaplexis pod. | The boat was made of a Metaplexis pod. |
+| sukunabikona-c05 | exact | en.wikipedia.org | As part of his quest to help Ōkuninushi complete the building of the land, Sukuna-biko-na invented medicines and cures for illnesses and diseases, including magical protective spells. | As part of his quest to help Ōkuninushi complete construction of the land, Sukuna-biko-na invented medicines and cures for illnesses and diseases, including magical spells for protection. |
+| sukunabikona-c06 | exact | en.wikipedia.org | In addition to his other domains, he is a master of magic and wizardry. | In addition to his other domains, he is a master of magic and wizardry. |
+| sukunabikona-c07 | exact | en.wikipedia.org | Ōkuninushi put Sukuna-biko in the hot spring water to revive him; after a nap he awoke cured and danced on a stone. | Ōkuninushi put Sukuna-biko in the hot spring water to revive him. Sukuna hikona then took a nap. When he awoke, he was cured, and Sukuna danced on a stone. |
+| sukunabikona-c08 | exact | en.wikipedia.org | Tradition holds that Sukuna-biko-na left this world at Awaji Island by climbing a grain of millet, which dipped under his weight and rebounded, flinging him into Tokoyo no Kuni. | Tradition holds that Sukuna-biko-na left this world at Awaji Island by climbing a grain of millet, which then dipped under his weight and rebounded, flinging him into Tokoyo no Kuni. |
+| sukunabikona-c09 | exact | en.wikipedia.org | Some sources also credit him with the invention of sake; he taught the people how to brew the beverage from rice. | Some sources credit him as well with the invention of Sake. He taught the people how to brew the beverage from rice. |
+| sukunabikona-c10 | exact | en.wikipedia.org | Inside the boat was a small dwarf, no bigger than a thumb. | Inside was a small dwarf, no bigger than a thumb. |
+| sukunabikona-c11 | exact | kotobank.jp | A Japanese dictionary calls him a small-bodied deity of Japanese mythology, a child of 神産巣日神 in the Kojiki and of 高皇産霊尊 in the Nihon Shoki, who built the land together with 大国主神 and later returned to 常世国, and is regarded as a deity of medicine. | 日本神話の神。古事記では 神産巣日神 かむむすひのかみ の子、日本書紀では 高皇産霊尊 たかひむすひのみこと の子。体の小さい神で、大国主神と協力して国づくりを行い、のち、 常世国 とこよのくに に帰った。医薬の神とされる。 |
+| sukunabikona-c12 | exact | en.wikipedia.org | He is known as an immigrant deity, in that he came from across the sea and then departed the land. | He is known as an immigrant deity, in that he came from across the sea and then departed the land. |
+| sukunabikona-c13 | exact | en.wikipedia.org | When Kuebiko saw the dwarf, he said that it was Sukuna, son of Kami-Musubi. | When Kuebiko saw the dwarf, he said "That is Sukuna son of Kami-Musubi." |
 
 
 ## ukanomitama — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ukanomitama-c01 | exact | en.wikipedia.org | Ukanomitama is a Japanese kami associated with food and farming. | Ukanomitama (宇迦之御魂神 – Mighty Soul of Sustenance - Kojiki) (倉稲魂命 - Nihongi) is a kami in classical Japanese mythology, associated with food and agriculture, often identified with Inari, the deity of rice. |
-| ukanomitama-c02 | exact | en.wikipedia.org | The Kojiki names Susanoo and Kamu-Ōichihime as this deity's parents. | The Kojiki identifies Ukanomitama (宇迦之御魂神 Ukanomitama-no-Kami) as the child of Susanoo by his second wife Kamu-Ōichihime (神大市比売), who was a daughter of Ōyamatsumi (大山津見神), the god of mountains. |
-| ukanomitama-c03 | exact | en.wikipedia.org | It makes Ukanomitama the younger sibling of another harvest deity. | This text portrays Ukanomitama as the younger sibling of the harvest deity Ōtoshi-no-Kami. |
-| ukanomitama-c04 | exact | en.wikipedia.org | A variant in the Nihon Shoki gives different parents, Izanagi and Izanami. | A variant account recorded in the Nihon Shoki meanwhile portrays Ukanomitama (here referred to as 倉稲魂命 Ukanomitama-no-Mikoto) as an offspring of Izanagi and Izanami who was born when the two became hungry. |
+| ukanomitama-c01 | exact | en.wikipedia.org | Ukanomitama (宇迦之御魂神 in the Kojiki, 倉稲魂命 in the Nihongi) is a kami of classical Japanese mythology associated with food and agriculture, often identified with Inari, the deity of rice. | Ukanomitama (宇迦之御魂神 – Mighty Soul of Sustenance - Kojiki) (倉稲魂命 - Nihongi) is a kami in classical Japanese mythology, associated with food and agriculture, often identified with Inari, the deity of rice. |
+| ukanomitama-c02 | exact | en.wikipedia.org | The Kojiki identifies Ukanomitama as the child of Susanoo by Susanoo's second wife Kamu-Ōichihime, a daughter of Ōyamatsumi, the god of mountains. | The Kojiki identifies Ukanomitama (宇迦之御魂神 Ukanomitama-no-Kami) as the child of Susanoo by his second wife Kamu-Ōichihime (神大市比売), who was a daughter of Ōyamatsumi (大山津見神), the god of mountains. |
+| ukanomitama-c03 | exact | en.wikipedia.org | This text portrays Ukanomitama as the younger sibling of the harvest deity Ōtoshi-no-Kami. | This text portrays Ukanomitama as the younger sibling of the harvest deity Ōtoshi-no-Kami. |
+| ukanomitama-c04 | exact | en.wikipedia.org | A variant account in the Nihon Shoki portrays Ukanomitama as an offspring of Izanagi and Izanami who was born when the two became hungry. | A variant account recorded in the Nihon Shoki meanwhile portrays Ukanomitama (here referred to as 倉稲魂命 Ukanomitama-no-Mikoto) as an offspring of Izanagi and Izanami who was born when the two became hungry. |
+| ukanomitama-c05 | exact | kotobank.jp | A Japanese dictionary calls the deity one found in the Kojiki and Nihon Shoki, a deified rice spirit presiding over the five grains and food; in the Nihon Shoki the deity is a child of 伊奘諾尊 and 伊奘冉尊. | 記・紀にみえる神。 稲の精霊が神格化されたもので,五穀,食物をつかさどる。「日本書紀」では伊奘諾尊(いざなぎのみこと)と伊奘冉(いざなみの)尊の子。 |
+| ukanomitama-c06 | exact | kotobank.jp | In the Kojiki the deity is a child of 須佐之男命 and 神大市比売, and the name is written 宇迦之御魂神. | 「古事記」では須佐之男命と神大市比売(かみおおいちひめ)の子で,宇迦之御魂神とかく。 |
+| ukanomitama-c07 | exact | en.wikipedia.org | The deity's name is understood as derived from uka no mitama, "august spirit (mitama) of food (uka)". | The deity's name is understood as being derived from uka no mitama, "august spirit (mitama) of food (uka)". |
+| ukanomitama-c08 | exact | en.wikipedia.org | Although the texts are silent on the deity's gender, Ukanomitama has long been interpreted as female, perhaps because of association with other agricultural deities such as Toyouke or Ukemochi. | While the above texts are silent regarding the deity's gender, Ukanomitama has long been interpreted to be female, perhaps due to association with other agricultural deities such as Toyouke or Ukemochi. |
 
 
 ## aim — lulus-otomatis
@@ -530,98 +543,121 @@ Klaim 13 (loose 1, exact 12), sumber 3, gambar 0.
 
 ## hiderigami — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| hiderigami-c01 | loose | en.wikipedia.org | Hiderigami is a drought-causing being in Chinese and Japanese lore. | Hiderigami (Japanese: 日照り神; "god of drought"), or Hanba (Chinese: 旱魃; pinyin: hànbá), is a mythical species of yaoguai or yōkai in Chinese and Japanese folklore that holds the power to cause droughts. |
-| hiderigami-c02 | exact | en.wikipedia.org | Its Chinese tradition is placed in a prehistoric setting. | The legend in Han Chinese started with the pre-historic time in China. |
-| hiderigami-c03 | exact | en.wikipedia.org | In a tale of the Yellow Emperor, the goddess Ba joins a battle. | Then, Huang Di sent the goddess Ba to battle. |
-| hiderigami-c04 | exact | en.wikipedia.org | Her heat causes a storm to disperse. | In black clothes, bald, and radiating great light and heat, she came before the army and used her power, the storm dissipated, and Huang Di was able to capture and kill Chiyou. |
+| hiderigami-c01 | exact | en.wikipedia.org | Hiderigami ("god of drought"), or Hanba, is a mythical species of yaoguai or yōkai in Chinese and Japanese folklore that holds the power to cause droughts. | is a mythical species of yaoguai or yōkai in Chinese and Japanese folklore that holds the power to cause droughts. |
+| hiderigami-c02 | exact | en.wikipedia.org | The legend in Han Chinese tradition started in prehistoric China. | The legend in Han Chinese started with the pre-historic time in China. |
+| hiderigami-c03 | exact | en.wikipedia.org | Then Huang Di sent the goddess Ba to battle. | Then, Huang Di sent the goddess Ba to battle. |
+| hiderigami-c04 | exact | en.wikipedia.org | In black clothes, bald and radiating great light and heat, she came before the army and used her power; the storm dissipated, and Huang Di was able to capture and kill Chiyou. | In black clothes, bald, and radiating great light and heat, she came before the army and used her power, the storm dissipated, and Huang Di was able to capture and kill Chiyou. |
+| hiderigami-c05 | exact | en.wikipedia.org | Yinglong and Hanba had great achievements but lost their godly power; unable to return to the heavens, Yinglong stayed in the south of China, where there is much water and rain, while Hanba stayed in the north, where there is much drought, and cursed wherever she went was from then called Hanba. | Yinglong and Hanba had great achievements but also lost their godly power. Unable to return to the heavens, Yinglong stayed in the south of China, where there is much water and rain; Hanba stayed in the north, where there is much drought. Cursed everywhere she went, from then she was called Hanba |
+| hiderigami-c06 | exact | en.wikipedia.org | It was rumored that the hanba struck and took all the water of Yanchi; the Emperor sought help from Celestial Master Zhang, who sent Guan Yu, and Guan fought for seven days and defeated the monster. | it was rumored that the hanba struck and took all the water of Yanchi. The Emperor then sought help from Celestial Master Zhang, who sent Guan Yu to defeat the hanba. Guan fought for seven days and defeated the monster. |
+| hiderigami-c07 | exact | en.wikipedia.org | From early Qin to Han, the hanba appears as a goddess with the traits of a woman in black, being both god and monster; people treated it as the god of drought and tried to drive it away with sunshine, flood and tigers to bring rain. | From early-Qin to Han, the hanba appears in a goddess form, with characteristics of a woman in black. This period's hanba has both the identity of a god and a monster, people treated it as the god of drought, and attempted to drive it away with sunshine, flood, and tigers to achieve the goal of bringing rain. |
+| hiderigami-c08 | exact | en.wikipedia.org | According to a quote from the Bencao Gangmu in the Edo-period encyclopedia Wakan Sansai Zue, the Hiderigami is sixty to ninety centimeters long, has eyes on the top of its head and moves quickly like the wind. | According to a quote from the Bencao Gangmu in the Edo period encyclopedia Wakan Sansai Zue, the Hiderigami is "from sixty to ninety centimeters long, has eyes on the top of its head, and moves quickly like the wind." |
+| hiderigami-c09 | exact | en.wikipedia.org | In Toriyama Sekien's Illustrated One Hundred Demons from the Present and the Past it is called Hiderigami and drawn as a beast with one arm and one eye. | In Toriyama Sekien's Illustrated One Hundred Demons from the Present and the Past, it is referred to as Hiderigami ... and is drawn as a beast with one arm and one eye. |
+| hiderigami-c10 | exact | ja.wikipedia.org | Japanese Wikipedia calls 魃 a god of drought appearing in Chinese mythology; it is not the name of one specific god but of drought-causing gods in the mountains and rivers of various places, each differing in form and nature. | 魃（ばつ、ひでりがみ）は、中国神話に登場する旱魃の神である。 特定の神の名ではなく、各地の山川に旱魃を起こす神がおり、それぞれにより姿も性質も異なる。 |
+| hiderigami-c11 | exact | ja.wikipedia.org | It is said to have eyes on top of its head and to run like the wind; when it appears a great drought occurs, but it dies if thrown into a privy. | 頭の上に目があり、風のように走り、これが現れると大旱魃になるが、厠に投げ込むと死んでしまうという。 |
+| hiderigami-c12 | exact | ja.wikipedia.org | The power of 魃 brings drought to its surroundings merely by being present; since she could not be executed, 黄帝 had no choice but to confine her on the mountain 係昆山 north of the river 赤水. | 魃の力はそこにいるだけで周囲に旱魃をもたらす。彼女を処刑することもできないため、やむなく黄帝は彼女を赤水河の北方の係昆山へ幽閉した。 |
+| hiderigami-c13 | exact | kotobank.jp | A Japanese dictionary explains that in the word kanbatsu (旱魃), 魃 is the god of drought. | 《「魃」は、ひでりの神》ひでり。特に、農作物に必要な雨が長い間降らないこと。 |
+| hiderigami-c14 | exact | ja.wikipedia.org | The goddess 魃's original name was 妭 and she was a daughter of 黄帝; in antiquity 妭 and 魃 were the same character. | もとの名は妭（ばつ）。黄帝の娘である。古代においては「妭」と「魃」は同一の字だった。 |
 
 
 ## kunekune-urban-legend — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kunekune-urban-legend-c01 | loose | en.wikipedia.org | Kunekune is a slender white figure in a modern Japanese story. | In Japanese folklore, the Kunekune (くねくね; 'wriggling body') is a fictional being typically described as having a slender, white, paper (or fabric-like) humanoid shape, which is usually said to appear in fields on hot summer days. |
-| kunekune-urban-legend-c02 | exact | en.wikipedia.org | The legend first spread through websites around 2001. | The story originated on the Internet as a Japanese urban legend, being first mentioned on websites in 2001. |
-| kunekune-urban-legend-c03 | exact | en.wikipedia.org | Its name refers to its wriggling movement. | Its name, Kunekune, is derived from its alleged behavior of wiggling its limbs. |
-| kunekune-urban-legend-c04 | exact | en.wikipedia.org | Some descriptions compare it to paper or light fabric. | The Kunekune is said to resemble a slender, white humanoid shape, like a paper mannequin or a piece of fine fabric. |
+| kunekune-urban-legend-c01 | exact | en.wikipedia.org | In Japanese folklore, the Kunekune is a fictional being typically described as a slender, white, paper- (or fabric-) like humanoid shape, usually said to appear in fields on hot summer days. | In Japanese folklore, the Kunekune ... is a fictional being typically described as having a slender, white, paper (or fabric-like) humanoid shape, which is usually said to appear in fields on hot summer days. |
+| kunekune-urban-legend-c02 | exact | en.wikipedia.org | The story originated on the Internet as a Japanese urban legend, first mentioned on websites in 2001. | The story originated on the Internet as a Japanese urban legend, being first mentioned on websites in 2001. |
+| kunekune-urban-legend-c03 | exact | en.wikipedia.org | The name Kunekune is derived from its alleged behavior of wiggling its limbs. | Its name, Kunekune, is derived from its alleged behavior of wiggling its limbs. |
+| kunekune-urban-legend-c04 | exact | en.wikipedia.org | The Kunekune is said to resemble a slender white humanoid shape, like a paper mannequin or a piece of fine fabric. | The Kunekune is said to resemble a slender, white humanoid shape, like a paper mannequin or a piece of fine fabric. |
+| kunekune-urban-legend-c05 | exact | ja.wikipedia.org | Kunekune is a ghost story that has circulated on the internet since around 2003; unlike many internet tales of vague origin, its first source has been identified. | くねくねは、2003年頃からインターネット上で流布している怪談である。起源があいまいであることが多いインターネット上の伝承としては珍しく、最初の発信源が特定されている事例である。 |
+| kunekune-urban-legend-c06 | exact | ja.wikipedia.org | The Kunekune is a white or black wriggling presence seen in rice fields or across rivers; it is said that learning its true nature unhinges the mind. | 「くねくね」とは田や川向こうなどに見える白色または黒色のくねくね動く存在であり、その正体を知ると精神に異常をきたす、とされている。 |
+| kunekune-urban-legend-c07 | exact | ja.wikipedia.org | Its origin is traced to a story posted on a ghost-story site in 2000 (presumed fiction), altered by another person and posted with a note that it was fiction to the 2channel "occult board" in 2003. | 2000年にある怪談投稿サイトに投稿された話（おそらく創作と推定される）が起源とされる。その話が、別の者により改変され、さらにこの話が創作である旨を明記した上で、2003年に2ちゃんねるの「オカルト板」に投稿された。 |
+| kunekune-urban-legend-c08 | exact | ja.wikipedia.org | Watching the Kunekune from afar is no problem, but if its details become visible and one understands what it is, the mind is immediately unhinged. | くねくねを遠くから眺める程度では問題は無いが、詳細が見え、それが何者であるかを理解すると、途端に精神に異常を来たす |
+| kunekune-urban-legend-c09 | exact | ja.wikipedia.org | On the forum, various theories were put forward: linking it with rural beliefs such as タンモノ様 and snake gods or older yōkai, treating it as a kind of doppelgänger, or a heatstroke hallucination. | そこでは、タンモノ様や蛇神といった農村部の土着信仰や古来伝わる妖怪と関連付ける説や、ドッペルゲンガーの一種とする説、熱中症による幻覚説など、通俗的民俗学のイメージに沿うような様々な説が挙げられていた。 |
+| kunekune-urban-legend-c10 | exact | en.wikipedia.org | The Kunekune may be explained by people being confused by the appearance of scarecrows or wick drains. | The Kunekune may be explained by people being confused by the appearance of scarecrows or wick drains. |
+| kunekune-urban-legend-c11 | exact | en.wikipedia.org | The Kunekune lingers in widely extended rice fields or acres, and in rare cases might be found over the open sea. | The Kunekune lingers in widely extended rice fields or acres, in rare cases it might be found over the open sea. |
+| kunekune-urban-legend-c12 | exact | en.wikipedia.org | Its limbs are said to wiggle permanently, as if in a straight gust of wind, even on a windless day. | Its limbs are said to wiggle permanently, as if there was a straight gust of wind, even if it was a windless day. |
+| kunekune-urban-legend-c13 | exact | en.wikipedia.org | This behaviour gave the being the Japanese name "Kunekune", meaning "to twist", "to wiggle" or "to meander". | This behaviour gave the being the Japanese name "Kunekune", meaning "to twist", "to wiggle" or "to meander". |
 
 
 ## kuzunoha — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kuzunoha-c01 | loose | en.wikipedia.org | Kuzunoha is a fox character in Japanese folklore. | Kuzunoha (葛の葉, Kuzunoha), also written Kuzu-no-Ha, is the name of a popular kitsune character in Japanese folklore. |
-| kuzunoha-c02 | exact | en.wikipedia.org | Her name is associated with the arrowroot leaf. | Her name means leaf of arrowroot. |
-| kuzunoha-c03 | exact | en.wikipedia.org | The legend makes her the mother of Abe no Seimei. | Legend states that she is the mother of Abe no Seimei, the famous onmyōji. |
-| kuzunoha-c04 | exact | en.wikipedia.org | The story says she took human form to help the man who rescued her. | She is the fox he saved, adopting human form in order to tend to his wounds. |
+| kuzunoha-c01 | exact | en.wikipedia.org | Kuzunoha, also written Kuzu-no-Ha, is the name of a popular kitsune character in Japanese folklore. | also written Kuzu-no-Ha, is the name of a popular kitsune character in Japanese folklore. |
+| kuzunoha-c02 | exact | en.wikipedia.org | Her name means leaf of arrowroot. | Her name means leaf of arrowroot. |
+| kuzunoha-c03 | exact | en.wikipedia.org | Legend states that she is the mother of Abe no Seimei, the famous onmyōji. | Legend states that she is the mother of Abe no Seimei, the famous onmyōji. |
+| kuzunoha-c04 | exact | en.wikipedia.org | She is the fox he saved, adopting human form in order to tend to his wounds. | She is the fox he saved, adopting human form in order to tend to his wounds. |
+| kuzunoha-c05 | exact | en.wikipedia.org | Several years later, while Kuzunoha views some chrysanthemums, her son glimpses the tip of her tail; her true nature revealed, she prepares to return to her life in the wild. | Several years later, while Kuzunoha is viewing some chrysanthemums, her son catches sight of the tip of her tail. Her true nature revealed, Kuzunoha prepares to return to her life in the wild. |
+| kuzunoha-c06 | exact | en.wikipedia.org | Yasuna and his son search for Kuzunoha and she eventually appears to them as a fox; revealing that she is the kami, or spirit, of Shinoda Shrine, she gives her son Seimei a gift allowing him to understand the language of animals. | Yasuna and his son search for Kuzunoha, and eventually she appears to them as a fox. Revealing that she is the kami, or spirit, of Shinoda Shrine, she gives her son Seimei a gift, allowing him to understand the language of animals. |
+| kuzunoha-c07 | exact | en.wikipedia.org | Kuzunoha realizes that her son has inherited part of her supernatural power. | Kuzunoha realizes that her son has inherited part of her supernatural power. |
+| kuzunoha-c08 | exact | kotobank.jp | A Japanese dictionary calls her the white fox of the Shinodazuma legend who changed into a woman and became the wife of 安倍保名, bearing 安倍童子, later 晴明, until her true form was revealed and she hid in the Shinoda forest (信太の森). | 信太妻 しのだづま 伝説中の 白狐 しろぎつね 。女に姿を変えて 安倍保名 あべのやすな の妻となり、安倍童子、のちの晴明を産むが、正体が現れて信太の森に姿を隠す。 |
+| kuzunoha-c09 | exact | kotobank.jp | She is described as a white fox living in Shinoda forest who borrowed a human form and name, became the wife of her benefactor 安倍保名 and bore a child, until her true form was seen by her child and she vanished leaving the poem 「恋しくば…」; the tale is based on a human-and-other-being marriage story from the Yamato (Nara) region. | 信太(しのだ)の森にすむ白狐。人の姿と名とをかりて恩人安倍保名(あべの-やすな)の妻となり,子をなすが,正体をわが子にみられ,「恋しくば尋ねきてみよいづみなるしのだの森のうらみ葛の葉」の歌をのこして姿をけす。大和(奈良県)地方につたわる異類婚姻譚がもとになっている。 |
+| kuzunoha-c10 | exact | en.wikipedia.org | Kuzunoha figures in kabuki and bunraku plays based on her legend, including the five-part Ashiya Dōman Ōuchi Kagami. | Kuzunoha figures in kabuki and bunraku plays based on her legend, including the five-part Ashiya Dōman Ōuchi Kagami |
+| kuzunoha-c11 | exact | kotobank.jp | Kuzunoha is also the name of a jōruri and the kabuki play based on it, titled 蘆屋道満大内鑑, by 初世竹田出雲, first performed in 1734. | 浄瑠璃，またこれに基づく歌舞伎劇。本外題《蘆屋道満大内鑑(あしやどうまんおおうちかがみ)》。初世竹田出雲作。1734年初演。 |
+| kuzunoha-c12 | exact | en.wikipedia.org | In Izumi there is a Kuzunoha Inari shrine, said to be built at the place where Kuzunoha departed, leaving her farewell poem on a silk screen. | In Izumi there is a Kuzunoha Inari shrine, said to be built upon the place at which Kuzunoha departed, leaving her farewell poem on a silk screen. |
 
 
 ## ningen-folklore — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `claims (ningen-folklore-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ningen-folklore-c01 | exact | en.wikipedia.org | Ningen is a whale-like aquatic figure in modern Japanese online lore. | In modern Japanese folklore, the Ningen (ニンゲン) is a humanoid whale-like or mermaid-like aquatic creature said to inhabit the subantarctic oceans and Antarctic ice sheets. |
-| ningen-folklore-c02 | exact | en.wikipedia.org | Its story developed on the textboard 2channel in the mid-2000s. | The legend emerged among users of the Japanese textboard 2channel in the mid-2000s, with contributions from participants elsewhere in the world. |
-| ningen-folklore-c03 | exact | en.wikipedia.org | One account circulated through an online post in 2007. | The modern story of the Ningen emerged from a 2007 post on the Japanese online forum 2channel, which described a purported encounter by the crew of a whale research vessel off the Antarctic coast. |
-| ningen-folklore-c04 | exact | en.wikipedia.org | Some supposed images have also been interpreted as icebergs or whales. | In late 2007, the Japanese paranormal magazine Mu published an article about a mysterious white figure reportedly observed on Google Earth off the coast of Namibia |
+| ningen-folklore-c01 | exact | en.wikipedia.org | In modern Japanese folklore, the Ningen is a humanoid whale-like or mermaid-like aquatic creature said to inhabit the subantarctic oceans and Antarctic ice sheets. | In modern Japanese folklore, the Ningen (ニンゲン) is a humanoid whale-like or mermaid-like aquatic creature said to inhabit the subantarctic oceans and Antarctic ice sheets. |
+| ningen-folklore-c02 | exact | en.wikipedia.org | The legend emerged among users of the Japanese textboard 2channel in the mid-2000s, with contributions from participants elsewhere in the world. | The legend emerged among users of the Japanese textboard 2channel in the mid-2000s, with contributions from participants elsewhere in the world. |
+| ningen-folklore-c03 | exact | en.wikipedia.org | The modern story of the Ningen emerged from a 2007 post on the Japanese forum 2channel describing a purported encounter by the crew of a whale research vessel off the Antarctic coast. | The modern story of the Ningen emerged from a 2007 post on the Japanese online forum 2channel, which described a purported encounter by the crew of a whale research vessel off the Antarctic coast. |
+| ningen-folklore-c04 | exact | en.wikipedia.org | In late 2007 the Japanese paranormal magazine Mu published an article about a mysterious white figure reportedly seen on Google Earth off the coast of Namibia, suggesting a human-shaped creature known as a ningen or hitogata. | In late 2007, the Japanese paranormal magazine Mu published an article about a mysterious white figure reportedly observed on Google Earth off the coast of Namibia, suggesting that it might be a human-shaped creature known as a ningen or hitogata. |
+| ningen-folklore-c07 | exact | en.wikipedia.org | The article acknowledged the creature's origins on 2channel while also linking it to an earlier report of an unusual sighting by the crew of the research vessel Soya-maru in 1958. | The article acknowledged the creature's origins on 2channel while also linking it to an earlier report of an unusual sighting by the crew of the research vessel Soya-maru in 1958. |
+| ningen-folklore-c09 | exact | www.southernfriedscience.com | Ningens are allegedly up to 30 meters long, with a human-like body and a tail. | Allegedly, Ningens are up to 30 meters long, have a human like body, and a tail. |
+| ningen-folklore-c10 | exact | www.southernfriedscience.com | Despite their size, there are very few actual reports of Ningen, and the author finds none before 2007. | Despite their impressive size, there are very few actual reports of Ningen, and none that I can find before 2007. |
+| ningen-folklore-c11 | exact | www.southernfriedscience.com | The author judges the Ningen more likely a case of pareidolia, the perception of recognizable shapes in a random pattern; of the thousands of large icebergs around the Southern Ocean a few are probably vaguely human-shaped. | More likely is that the Ningen is a case of pareidolia, the perception of recognizable shapes in a random pattern. Of the thousands of large icebergs floating around the Southern Ocean, a few of them are probably vaguely human shaped. |
 
 
 ## nuppeppo — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (nuppeppo-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nuppeppo-c01 | loose | en.wikipedia.org | Nuppeppō is a yōkai shown in illustrated books of the Edo period. | The nuppeppō (Japanese: ぬっぺふほふ or ぬっぺっぽう) is a yōkai that appears in Edo Period yōkai emaki such as the Gazu Hyakki Yagyō and the Hyakkai Zukan. |
-| nuppeppo-c02 | exact | en.wikipedia.org | It is drawn as an indistinct mass of flesh and wrinkles. | It is depicted with indistinguishable wrinkles on its face and body as a one head blob of meat. |
-| nuppeppo-c03 | exact | en.wikipedia.org | Some early pictures give little more than a name and image. | In the emaki, it has nothing more than a name and picture, and there is almost no explanatory text, but from its name and the passage "there is a monster (bakemono) called nuppeppō. |
-| nuppeppo-c04 | exact | en.wikipedia.org | One scholar connects its old depiction with early ideas about noppera-bō. | Also, the yōkai researcher Katsumi Tada notes that while in modern times, the nopperabō is known as the yōkai with no eyes or nose on its face, in older times it was shaped like this nuppeppō with no distinction between face and body. |
+| nuppeppo-c01 | exact | en.wikipedia.org | The nuppeppō is a yōkai that appears in Edo-period yōkai emaki such as the Gazu Hyakki Yagyō and the Hyakkai Zukan. | is a yōkai that appears in Edo Period yōkai emaki such as the Gazu Hyakki Yagyō and the Hyakkai Zukan. |
+| nuppeppo-c02 | exact | en.wikipedia.org | It is depicted with indistinguishable wrinkles on its face and body as a one-headed blob of meat. | It is depicted with indistinguishable wrinkles on its face and body as a one head blob of meat. |
+| nuppeppo-c03 | exact | en.wikipedia.org | In the emaki it has nothing more than a name and a picture, with almost no explanatory text. | In the emaki, it has nothing more than a name and picture, and there is almost no explanatory text |
+| nuppeppo-c04 | exact | en.wikipedia.org | The yōkai researcher Katsumi Tada notes that the nopperabō is now known as a yōkai without eyes or nose, but in older times it was shaped like this nuppeppō, with no distinction between face and body. | Also, the yōkai researcher Katsumi Tada notes that while in modern times, the nopperabō is known as the yōkai with no eyes or nose on its face, in older times it was shaped like this nuppeppō with no distinction between face and body. |
+| nuppeppo-c05 | exact | yokai.com | The nuppeppō's habitat is given as graveyards and old temples. | Habitat: graveyards, old temples |
+| nuppeppo-c06 | exact | yokai.com | Nuppeppō usually appear only at night and are not known to cause any particular harm or mischief other than being disgusting. | Nuppeppō appear usually only at night, and are not known to cause any particular harm or mischief—other than being disgusting. |
+| nuppeppo-c07 | exact | yokai.com | They look like large, flabby, roughly humanoid chunks of flesh about the size of a child, with lumpy, undeveloped hands and feet and vaguely indiscernible facial features. | They look like large, flabby, roughly humanoid chunks of flesh about the size of child, with lumpy, undeveloped hands and feet, and vaguely indiscernible facial features. |
+| nuppeppo-c08 | exact | yokai.com | These creatures are known for their revolting appearance and smell; they give off a strong odor of rotten meat. | These creatures are known for their revolting appearance and smell; they give off a strong odor of rotten meat. |
+| nuppeppo-c09 | exact | yokai.com | They can cause chaos by running around and disgusting people, and by outrunning angry villagers who try to chase them down and kill them. | They can cause chaos and havoc by running around and disgusting people, and outrunning angry villagers who would try to chase them down and kill them. |
+| nuppeppo-c10 | exact | en.wikipedia.org | The Shingo Zade Hōdai Mōgyū also writes that it sucks the fat of the dead and eats its fill with a needle; in the past it came disguised as a doctor, but now it comes as it is. | The aforementioned Shingo Zade Hōdai Mōgyū also writes, "it sucks the fat of the dead and eats to the fullest with a needle. In the past, they'd come disguised as a doctor, but now they just come as is |
+| nuppeppo-c11 | exact | en.wikipedia.org | The name "nuppeppō" is a corruption of the derogatory slang nupperi, used to describe a woman who applies too much make-up. | The name "nuppeppō" is a corruption of the derogatory slang nupperi ... used to describe a woman who applies too much make-up. |
+| nuppeppo-c12 | exact | en.wikipedia.org | In 1609 (Keichō 14), at the courtyard of Sunpu Castle, something that looked like a blob of meat appeared, with the form of a young child and hands but no fingers. | In 1609 (Keichō 14), at the courtyard of Sunpu Castle, someone that looked like a blob of meat appeared. It had the form of a young child, and it had hands but no fingers |
+| nuppeppo-c13 | exact | yokai.com | The origins of the nuppeppō are mysterious; they may be a variation of the nopperabō, a faceless spirit, or botched transformations of inexperienced shape-shifting yōkai such as a mujina or tanuki. | Nuppeppō’s origins are mysterious. They may be a variation of another famous yokai called nopperabō, a faceless spirit who likes to scare people. Or they may in fact be botched transformations of inexperienced shape-shifting yōkai, such as a mujina or tanuki. |
 
 
 ## omoikane — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| omoikane-c01 | exact | en.wikipedia.org | Omoikane is a Shinto kami of wisdom. | Omoikane (思兼 or 思金) is a Shinto Kami of wisdom and intelligence. |
-| omoikane-c02 | exact | en.wikipedia.org | His name evokes the thoughtfulness of many people. | His name means "having the wisdom and thoughtfulness of many people". |
-| omoikane-c03 | exact | en.wikipedia.org | The heavenly gods call on him for counsel. | A heavenly deity who is called upon to "ponder" and give good counsel in the deliberations of the heavenly deities. |
-| omoikane-c04 | exact | en.wikipedia.org | A story assigns him the task of bringing Amaterasu out of a cave. | In the myth where Amaterasu hid in a cave, he was entrusted with the task of finding a way to get her out. |
+| omoikane-c01 | exact | en.wikipedia.org | Omoikane (思兼 or 思金) is a Shinto kami of wisdom and intelligence. | Omoikane (思兼 or 思金) is a Shinto Kami of wisdom and intelligence. |
+| omoikane-c02 | exact | en.wikipedia.org | His name means "having the wisdom and thoughtfulness of many people". | His name means "having the wisdom and thoughtfulness of many people". |
+| omoikane-c03 | exact | en.wikipedia.org | He is a heavenly deity who is called upon to "ponder" and give good counsel in the deliberations of the heavenly deities. | A heavenly deity who is called upon to "ponder" and give good counsel in the deliberations of the heavenly deities. |
+| omoikane-c04 | exact | en.wikipedia.org | In the myth where Amaterasu hid in a cave, he was entrusted with the task of finding a way to get her out. | In the myth where Amaterasu hid in a cave, he was entrusted with the task of finding a way to get her out. |
+| omoikane-c05 | exact | en.wikipedia.org | Carpenters pray to him during the construction of pillars in a building, and Japanese people usually pray to Omoikane for success in school and exams. | Carpenters pray to him during the construction of pillars in a building. Usually, Japanese people pray to Omoikane for success in school and exams. |
+| omoikane-c06 | exact | en.wikipedia.org | He is the son of the creator deity Takamimusubi and the older brother of Takuhatachiji-hime. | He is the son of creator deity Takamimusubi ... and the older brother of Takuhatachiji-hime |
+| omoikane-c07 | exact | en.wikipedia.org | In the Kujiki, Omoikane descends to Shinano Province to become the ancestor of Shina-no-achihouri. | Omoikane descends to Shinano Province ... to become the ancestor of Shina-no-achihouri |
+| omoikane-c08 | exact | kotobank.jp | A Japanese dictionary calls him a deity of the Kiki, a child of 高皇産霊尊 and deity of deliberation; he devised the plan to lure 天照大神 out of the heavenly rock cave and descended following 瓊瓊杵尊; he is also named 八意思兼神. | 記紀に見える神。高皇産霊尊(たかみむすひのみこと)の子。思慮の神。天の岩屋戸に隠れた天照大神を慰め誘い出すためのはかりごとを行なった。天孫降臨の際、瓊瓊杵尊(ににぎのみこと)に従って天降った。八意(やこころ)思兼神。 |
+| omoikane-c09 | exact | kotobank.jp | In the myth of the heavenly rock cave, various plans based on this deity's deliberation succeeded in drawing out 天照大神, who had secluded herself in the cave; in the myth of the transfer of the land he offers proposals in response to Amaterasu's consultation. | 天（あま）の岩屋戸の神話では，この神のおもんぱかりにもとづくさまざまな策によって，岩屋戸にこもった天照大神（あまてらすおおかみ）を引き出すことに成功した。また国譲り神話では，アマテラスの諮問に応じて献策する。 |
+| omoikane-c10 | exact | kotobank.jp | The name means a deity who combines deliberation and whose role is to discuss matters, and the Nihon Shoki says he has far-sighted planning and the wisdom of deliberation. | 思慮を兼ねそなえ，事を議（はか）ることを役目とする神の意で，《日本書紀》には〈深謀遠慮〉〈思慮の智〉ありとある。 |
+| omoikane-c11 | exact | en.wikipedia.org | He is also known by other names, such as Tokoyo-no-Omoikane. | He is known by other names as Tokoyo-no-Omoikane |
 
 
 ## shinatsuhiko — lulus-otomatis
