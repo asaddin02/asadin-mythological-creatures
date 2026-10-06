@@ -184,6 +184,12 @@ html = siteURL
       .replace(ogURL, `<meta property="og:url" content="${siteURL}/">\n  <link rel="canonical" href="${siteURL}/">`)
       .replaceAll('content="/assets/logo.png"', `content="${siteURL}/assets/logo.png"`)
   : html.replace(`  ${ogURL}\n`, '');
+// Google Search Console ownership: GOOGLE_SITE_VERIFICATION is the content of its meta tag (or the whole tag).
+const verificationInput = (process.env.GOOGLE_SITE_VERIFICATION || '').trim();
+const verification = verificationInput.match(/content="([^"]*)"/)?.[1] ?? verificationInput;
+if (verificationInput && !/^[\w-]{20,100}$/.test(verification))
+  throw new Error('GOOGLE_SITE_VERIFICATION must be the content of the google-site-verification meta tag');
+if (verification) html = html.replace('</head>', `  <meta name="google-site-verification" content="${verification}">\n</head>`);
 await writeFile(join(dist, 'index.html'), html);
 // Unknown paths answer 404 (so a missing /api/… file is an error, not the page) but still open the app.
 await writeFile(join(dist, '404.html'), html);
@@ -194,7 +200,15 @@ await writeFile(
     .map(([name, value]) => `  ${name}: ${value}`)
     .join('\n')}\n/api/*\n  Cache-Control: public, max-age=300\n/css/*\n  Cache-Control: no-cache\n/js/*\n  Cache-Control: no-cache\n/assets/ornaments/*\n  Cache-Control: no-cache\n${mediaBase ? `${mediaBase}/*\n  Cache-Control: public, max-age=86400\n` : ''}`
 );
-await writeFile(join(dist, 'robots.txt'), 'User-agent: *\nAllow: /\n# The JSON API is for the app, not for search engines.\nDisallow: /api/\n');
+await writeFile(
+  join(dist, 'robots.txt'),
+  `User-agent: *\nAllow: /\n# The JSON API is for the app, not for search engines.\nDisallow: /api/\n${siteURL ? `\nSitemap: ${siteURL}/sitemap.xml\n` : ''}`
+);
+if (siteURL)
+  await writeFile(
+    join(dist, 'sitemap.xml'),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${siteURL}/</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod></url>\n</urlset>\n`
+  );
 
 async function size(dir) {
   let count = 0;

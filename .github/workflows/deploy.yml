@@ -4,7 +4,7 @@
 # under /media/ by functions/media/[[path]].js (MEDIA_BASE=/media); the token needs Pages and R2 edit rights.
 # The editorial console is not published; it runs only on the local server (npm run dev).
 # Setup (once): repository variable CLOUDFLARE_PAGES_PROJECT, secrets CLOUDFLARE_API_TOKEN and
-# CLOUDFLARE_ACCOUNT_ID, optional variable SITE_URL. Until the variable exists this workflow is skipped.
+# CLOUDFLARE_ACCOUNT_ID, optional variables SITE_URL and GOOGLE_SITE_VERIFICATION. Until the variable exists this workflow is skipped.
 name: Deploy
 
 on:
@@ -53,6 +53,8 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.pages.dev', vars.CLOUDFLARE_PAGES_PROJECT) }}
           MYTHICS_PUBLISH: complete
           MEDIA_BASE: /media
+          # Optional: the content of Google Search Console's verification meta tag.
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
       # The Cloudflare credentials are only given to the steps that need them.
       - name: Create the Pages project on the first deploy
         env:
