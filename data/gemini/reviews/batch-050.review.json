@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-050",
-  "checked_at": "2026-10-06T06:34:43.979Z",
+  "checked_at": "2026-10-06T06:38:46.725Z",
   "files": [
     "batch-050.md",
     "batch-050-fix-1.md",
     "batch-050-fix-2.md",
-    "batch-050-fix-3.md"
+    "batch-050-fix-3.md",
+    "batch-050-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3695,20 +3696,15 @@
     },
     {
       "slug": "raiju",
-      "file": "batch-050.md",
+      "file": "batch-050-fix-4.md",
+      "entry_sha256": "d93f1b6c31bd12d164f878932a0f73447d5c5969bfddb061d298793612c535c2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "raiju-c01",
@@ -3769,10 +3765,119 @@
           "quote": "Raijū is the companion of Raijin, the Shinto god of lightning.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "raiju-c07",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "A raijū is the embodiment of lightning in animal form, with long sharp claws and ferocious faces.",
+          "statement_id": "Raijū adalah perwujudan kilat dalam bentuk hewan, dengan cakar panjang yang tajam dan wajah garang.",
+          "quote": "A raijū is the embodiment of lightning into an animal form. They had long, sharp claws and ferocious faces.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c08",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Raijū were generally thought to resemble wolves, dogs, tanuki, or even weasels or cats.",
+          "statement_id": "Umumnya raijū dianggap mirip serigala, anjing, tanuki, atau bahkan musang dan kucing.",
+          "quote": "Generally, they were thought to look like wolves, dogs, tanuki, or even weasels or cats.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c09",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Raijū are said to live in the sky, a world totally off limits to humans before the 20th century.",
+          "statement_id": "Raijū disebut hidup di langit, dunia yang sebelum abad ke-20 sama sekali tak terjangkau manusia.",
+          "quote": "Raijū live in the sky—a world which was totally off limits to humans before the 20th century.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c10",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Raijū are said to ride bolts of lightning to earth when thunder claps and to create mayhem wherever they land.",
+          "statement_id": "Raijū disebut menunggangi sambaran kilat turun ke bumi saat guntur menggelegar dan membuat kekacauan di tempat mereka mendarat.",
+          "quote": "They ride bolts of lightning to earth when thunder claps, and create mayhem wherever they land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c11",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Long ago raijū were seen as divine beasts, akin to the thunder gods (raijin).",
+          "statement_id": "Pada masa lampau raijū dipandang sebagai binatang ilahi yang setara dengan dewa-dewa guntur (raijin).",
+          "quote": "Long ago, raijū were seen as divine beasts, akin to the thunder gods (raijin).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c12",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Small raijū are said to burrow into human belly buttons to hide from angry thunder gods, the origin of a Japanese superstition about covering the belly button when thunder is heard.",
+          "statement_id": "Raijū kecil disebut menyusup ke pusar manusia untuk bersembunyi dari dewa guntur yang murka; inilah asal takhayul Jepang untuk menutupi pusar saat mendengar guntur.",
+          "quote": "Small raijū like burrow into humans’ belly buttons to hide from angry thunder gods. This is the origin of a Japanese superstition which says to cover your belly button when you hear thunder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c13",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Mummified and taxidermied remains of cats, monkeys, and dogs were presented as raijū in traveling shows.",
+          "statement_id": "Sisa-sisa kucing, monyet, dan anjing yang dimumikan atau diawetkan dipamerkan sebagai raijū dalam pertunjukan keliling.",
+          "quote": "Mummified and taxidermined remains of cats, monkeys, and dogs were presented as raijū and toured around the country in traveling shows.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c14",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "In the Meiji period society changed rapidly with foreign science and technology, and yōkai like raijū were among the first victims of that modernization.",
+          "statement_id": "Pada zaman Meiji, masyarakat berubah cepat akibat masuknya sains dan teknologi asing, dan yōkai seperti raijū termasuk korban pertama modernisasi itu.",
+          "quote": "During the Meiji period, society was rapidly transformed due to the influx of foreign science and technology. Yōkai like raijū were one of the first victims of this modernization.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c15",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "One legend tells of the samurai Tachibana Dōsetsu, who one night sheltered from a storm under a tree when lightning struck.",
+          "statement_id": "Sebuah legenda menyebut samurai Tachibana Dōsetsu yang suatu malam berteduh dari badai di bawah pohon ketika petir menyambar.",
+          "quote": "Another legend involves the samurai Tachibana Dōsetsu. One night he was taking shelter from a storm under a tree when lightning struck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c16",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "When the smoke cleared a dead raijū lay on the ground beside him, and afterwards he named his sword Raikiri.",
+          "statement_id": "Setelah asap hilang, tampak raijū yang mati di tanah di sampingnya, dan sesudahnya ia menamai pedangnya Raikiri.",
+          "quote": "When the smoke had cleared, there was a dead raijū on the ground next to him. Afterwards, he named his sword Raikiri",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "raiju-c17",
+          "source_id": "raiju-s2",
+          "host": "yokai.com",
+          "statement": "Because they were so scary, raijū usually appear in stories as beasts to be slain, like oni.",
+          "statement_id": "Karena sangat menakutkan, raijū biasanya muncul dalam cerita sebagai binatang yang harus dibunuh, seperti oni.",
+          "quote": "Because they were so scary, raijū are usually presented in stories as beasts to be slain, like oni.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1e70a889a1f93f4ff3f10d0bce7a05ccce543b308cb225d1083026ff6fd129f3"
+      "images": []
     },
     {
       "slug": "satori-folklore",
@@ -4676,20 +4781,15 @@
     },
     {
       "slug": "nure-onna",
-      "file": "batch-050.md",
+      "file": "batch-050-fix-4.md",
+      "entry_sha256": "0509b368ff320d7cd61f39f3a272c85686d13abcca3b7cf41c7dd43a431349a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nure-onna-c01",
@@ -4750,10 +4850,99 @@
           "quote": "Many Edo Period publications such as the Hyakkai Zukan, Gazu Hyakki Yagyō, among others, depict this yōkai as a woman with a snake body, which would make it appear as if this was a well-known yōkai of the time, but there are no stories about a snake-bodied nure-onna in the classical literature of the time that can be found.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nure-onna-c07",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Nure onna are described as vampiric sea serpents who haunt shores and rivers looking for humans to eat.",
+          "statement_id": "Nure onna digambarkan sebagai ular laut penghisap darah yang menghantui pantai dan sungai untuk mencari manusia yang bisa dimakan.",
+          "quote": "Nure onna are vampiric sea serpents who haunt shores and rivers looking for humans to eat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c08",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Nure onna are most commonly found on the shores of Kyūshū, with stories of encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture.",
+          "statement_id": "Nure onna paling sering dijumpai di pesisir pulau Kyūshū, tetapi ada cerita perjumpaan hingga sejauh Prefektur Niigata di utara dan Prefektur Fukushima di timur.",
+          "quote": "They are most commonly found on the shores of the island of Kyūshū, but there are stories of nure onna encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c09",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes two variations of nure onna: one without arms, resembling an enormous sea serpent with a woman's head, and one with human-like arms.",
+          "statement_id": "Yokai.com menyebut dua ragam nure onna: yang tanpa lengan, mirip ular laut raksasa berkepala perempuan, dan yang berlengan seperti manusia.",
+          "quote": "There are two variations of this yōkai: one without arms, which resembles an enormous sea serpent with a woman’s head, and one with human-like arms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c10",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Their faces are hideous with serpent-like features such as a forked tongue, and long black hair sticks to their dripping bodies.",
+          "statement_id": "Wajahnya buruk rupa dengan ciri ular seperti lidah bercabang, dan rambut hitamnya yang panjang menempel pada tubuhnya yang basah menetes.",
+          "quote": "Their faces are hideous and betray serpent-like features such as a forked tongue. They have long black hair which sticks to their dripping bodies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c11",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Nure onna magically disguise themselves as a distressed woman carrying a bundled baby and cry out for help from fishers, sailors, or passersby.",
+          "statement_id": "Nure onna menyamar secara gaib sebagai perempuan malang yang menggendong bayi terbungkus, lalu memanggil nelayan, pelaut, atau siapa pun yang lewat untuk meminta tolong.",
+          "quote": "Nure onna magically disguise themselves as a distressed woman carrying a bundled up baby. They cry out for help from fishers, sailors, or anybody passing by.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c12",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "When the prey approaches, a nure onna pleads with the victim to hold her baby for a moment so she can rest.",
+          "statement_id": "Saat mangsa mendekat, nure onna memohon agar korban menggendong bayinya sebentar supaya ia bisa beristirahat.",
+          "quote": "When the prey approaches, a nure onna will plead with their victim to hold her baby for just a moment so that she can rest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c13",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "If the victim agrees and takes the bundle, the \"baby\" becomes as heavy as a boulder and the victim cannot move.",
+          "statement_id": "Jika korban setuju dan menerima bungkusan itu, \"bayi\" menjadi seberat batu besar dan korban tak bisa bergerak.",
+          "quote": "If he agrees and takes the bundle, the “baby” becomes as heavy as a boulder. The victim is unable to move.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c14",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "The nure onna is then free to attack her helpless victim, draining his blood with her long, serpentine tongue.",
+          "statement_id": "Nure onna lalu bebas menyerang korban yang tak berdaya dan menghisap darahnya dengan lidahnya yang panjang menyerupai ular.",
+          "quote": "The nure onna is then free to attack her helpless victim, feeding by draining his blood with her long, serpentine tongue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nure-onna-c15",
+          "source_id": "nure-onna-s2",
+          "host": "yokai.com",
+          "statement": "Nure onna frequently appear together and cooperate with ushi oni, as they share the same environments and diet.",
+          "statement_id": "Nure onna sering muncul bersama dan bekerja sama dengan ushi oni karena berbagi lingkungan dan makanan yang sama.",
+          "quote": "Nure onna frequently appear together and cooperate with ushi oni, as they inhabit the same environments and share the same diet.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ae08e672d020d1e29b1920e9657ca6335c30c76efe3e251db1bd328d44020050"
+      "images": []
     },
     {
       "slug": "sarutahiko-okami",
@@ -4842,25 +5031,15 @@
     },
     {
       "slug": "shirime",
-      "file": "batch-050.md",
+      "file": "batch-050-fix-4.md",
+      "entry_sha256": "bd0ae1d18db8b875bed411d273674f78403816260c4a737af146d8ec1db6e6a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (shirime-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shirime-c01",
@@ -4876,8 +5055,8 @@
           "id": "shirime-c02",
           "source_id": "shirime-s1",
           "host": "en.wikipedia.org",
-          "statement": "It is depicted faceless, with an eye in its buttocks.",
-          "statement_id": "Ia digambarkan tanpa wajah, dengan mata di bagian bokong.",
+          "statement": "It has no facial features, but has an eye in its butt, in the place of its anus.",
+          "statement_id": "Shirime tidak punya ciri wajah, tetapi memiliki mata di bagian pantatnya, di tempat lubang anusnya.",
           "quote": "It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus.",
           "context": "traditional-belief",
           "status": "exact"
@@ -4921,10 +5100,69 @@
           "quote": "Its joy comes from scaring people.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "shirime-c07",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "From a distance shirime appears to be a normal human being, but up close it becomes apparent that it is a yōkai.",
+          "statement_id": "Dari jauh shirime tampak seperti manusia biasa, tetapi dari dekat ternyata ia yōkai.",
+          "quote": "From a distance, shirime appears to be a normal human being. When close enough, however, it becomes apparent that it is a yokai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shirime-c08",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "Shirime has no facial features; a large eye that shines like lightning sits in its butt hole.",
+          "statement_id": "Shirime tak punya ciri wajah, tetapi ada mata besar yang bersinar seperti kilat di lubang pantatnya.",
+          "quote": "It has no facial features, but located in its butt hole is a large eye which shines like lightning.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shirime-c09",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "Shirime approaches travelers on the road late at night looking like a man in a kimono, and asks if they have a moment to spare.",
+          "statement_id": "Shirime mendekati pengelana di jalan larut malam dengan rupa pria berkimono, lalu menanyakan apakah mereka punya waktu sebentar.",
+          "quote": "Shirime approaches travelers on the road late at night, looking like a man wearing a kimono. Once it has their attention, it asks them if they have a moment to spare.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shirime-c10",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "Before they can answer, shirime drops its kimono, bends over, and reveals the giant shining eye in its butt hole.",
+          "statement_id": "Sebelum mereka menjawab, shirime menjatuhkan kimononya, membungkuk, dan memperlihatkan mata raksasa yang bersinar di lubang pantatnya.",
+          "quote": "Before they can answer, the shirime drops its kimono to the ground and bends over, spreading its butt cheeks and revealing the giant, shining eye located inside of its butt hole.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shirime-c11",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "Other than its startling behavior shirime does nothing harmful, and appears to thrive solely on the joy of scaring people.",
+          "statement_id": "Selain perilakunya yang mengejutkan, shirime tidak melakukan hal yang merugikan, dan tampaknya hanya senang menakut-nakuti orang.",
+          "quote": "Other than its very startling behavior, shirime does not do anything harmful. It appears to thrive solely on the joy of scaring people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shirime-c12",
+          "source_id": "shirime-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com judges that, because of its alternate name nuppori-bōzu and its shocking behavior, shirime is very likely a close relative of the noppera-bō, another faceless ghost.",
+          "statement_id": "Yokai.com menilai, karena nama lainnya nuppori-bōzu dan perilakunya yang mengejutkan, shirime sangat mungkin kerabat dekat noppera-bō, hantu tanpa wajah lainnya.",
+          "quote": "because of its alternate name (nuppori-bōzu) and its shocking behavior, it is very likely that shirime is a close relative of the noppera-bō, another faceless ghost.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0bee5f4cd6f5c3459104e50f57d423ba92cbb0f66e43e8ce302c882cdbba84c7"
+      "images": []
     },
     {
       "slug": "takamimusubi",

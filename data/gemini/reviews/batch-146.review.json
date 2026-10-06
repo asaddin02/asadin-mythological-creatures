@@ -1,10 +1,12 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-10-06T05:54:51.927Z",
+  "checked_at": "2026-10-06T06:39:22.513Z",
   "files": [
     "batch-146.md",
     "batch-146-fix-1.md",
-    "batch-146-fix-2.md"
+    "batch-146-fix-2.md",
+    "batch-146-fix-3.md",
+    "batch-146-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2770,20 +2772,15 @@
     },
     {
       "slug": "hudson-river-monster",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "994c0c044f6eacdbb974c3631f06d8774a1e255c71eafa4ceb07fb0af949b055",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hudson-river-monster-c01",
@@ -2824,27 +2821,91 @@
           "quote": "Though many sources allege that \"Kipsy\" was described in Native American legends or spotted by Henry Hudson's crew as the sailed up the Hudson River on the Halve Maen, none provide any documentation in support of these claims.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c05",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "According to this encyclopedia, Kipsy is named for Poughkeepsie, and its local legends tell of an ancient creature that many sailors spotted on the Hudson River, described as a shark, manatee, sea serpent, or dinosaur.",
+          "statement_id": "Menurut ensiklopedia ini, Kipsy dinamai dari kota Poughkeepsie, dan legenda setempat bercerita tentang makhluk purba yang dilihat banyak pelaut di Sungai Hudson, digambarkan sebagai hiu, manatee, ular laut, atau dinosaurus.",
+          "quote": "Poughkeepsie is the city for which Kipsy is named, and its local legends talk about an ancient creature that many sailors spotted on the Hudson River, describing the creature as a shark, manatee, sea serpent, or dinosaur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c06",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "In 1886, dozens of people insisted they had seen a 100-foot-long sea serpent with a huge head in the Hudson River, repeatedly rearing as high as ten feet in the air.",
+          "statement_id": "Pada 1886, puluhan orang bersikeras telah melihat ular laut sepanjang 100 kaki berkepala besar di Sungai Hudson yang berulang kali menegak setinggi sepuluh kaki ke udara.",
+          "quote": "In 1886 dozens of people insisted they had seen a 100-foot-long sea serpent with a huge head in the Hudson River repeatedly rearing as high as ten feet in the air.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c07",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "According to this encyclopedia, the so-called monster was identified as a burned timber from the steamship Daniel Drew.",
+          "statement_id": "Menurut ensiklopedia ini, makhluk yang disebut-sebut itu akhirnya diidentifikasi sebagai balok kayu terbakar dari kapal uap Daniel Drew.",
+          "quote": "As it turned out, the so-called monster was identified as a burned timber from the steamship Daniel Drew.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c08",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "Kipsy reappeared in the New York Times in 2006 when witnesses at Chelsea Piers, Westchester County, and Kingsland Point in Sleepy Hollow reported seeing a manatee weighing 1,000 pounds.",
+          "statement_id": "Kipsy muncul kembali di New York Times pada 2006 ketika saksi di Chelsea Piers, Westchester County, dan Kingsland Point di Sleepy Hollow melaporkan telah melihat manatee seberat 1.000 pon.",
+          "quote": "Kipsy reappeared in the New York Times in 2006 when witnesses at Chelsea Piers, Westchester County, and Kingsland Point in Sleepy Hollow reported that they had seen a manatee with a weight of 1,000 pounds.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c09",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "According to this encyclopedia, the only images of Kipsy that exist are paintings, because no one has succeeded in photographing the lake monster.",
+          "statement_id": "Menurut ensiklopedia ini, satu-satunya gambar Kipsy yang ada adalah lukisan, karena belum ada yang berhasil memotret monster danau itu.",
+          "quote": "So far, the only images of Kipsy that exist are paintings because no one has been successful in photographing the lake monster.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c10",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "A Poughkeepsie mural by local artists Margaret and Richard Crenson on the Hudson Valley Office Furniture building in 1989 shows Kipsy as a mythical serpent living in the Hudson River.",
+          "statement_id": "Mural di Poughkeepsie karya seniman lokal Margaret dan Richard Crenson pada gedung Hudson Valley Office Furniture tahun 1989 menampilkan Kipsy sebagai ular mitos yang hidup di Sungai Hudson.",
+          "quote": "a Poughkeepsie mural created by local artists Margaret and Richard Crenson on the Hudson Valley Office Furniture building in 1989 shows Kipsy as a mythical serpent living in the Hudson River.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c11",
+          "source_id": "hudson-river-monster-s2",
+          "host": "erenow.org",
+          "statement": "In her 2009 visual artwork series Bodice of the Goddess—The Secret Life of the Hudson River, American artist Carla Goldberg portrayed Kipsy playing ball with one of the river goddess's heads.",
+          "statement_id": "Dalam serial karya seni visualnya tahun 2009, Bodice of the Goddess—The Secret Life of the Hudson River, seniman Amerika Carla Goldberg menggambarkan Kipsy bermain bola dengan salah satu kepala dewi sungai.",
+          "quote": "In her 2009 visual artwork series Bodice of the Goddess—The Secret Life of the Hudson River, American artist Carla Goldberg portrayed Kipsy as playing ball with one of the river goddess’s heads.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "01f2a65498bfdbe63504e42bde8b99f751be5baaebb3814cbae34629a8784e65"
+      "images": []
     },
     {
       "slug": "jenu",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "bec81a17913484ed186c0f70c26351e8606abf27e5aefa3b9e68631756a4413d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jenu-c01",
@@ -2895,27 +2956,71 @@
           "quote": "Jenua are comparable to the Wendigo of Anishinaabe and Cree mythology (and, to a lesser extent, Sasquatch).",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "jenu-c06",
+          "source_id": "jenu-s2",
+          "host": "www.everyculture.com",
+          "statement": "Micmac religious belief is highly syncretic, and non-Christian supernatural beings live on alongside Christian belief; these include Kukwes, a giant cannibal, Wiklatmuj, little forest people, and Jenu, northern ice giants.",
+          "statement_id": "Kepercayaan Micmac sangat sinkretis, dan makhluk gaib non-Kristen juga tetap hidup berdampingan dengan kepercayaan Kristen; di antaranya Kukwes, raksasa kanibal, Wiklatmuj, manusia kecil hutan, dan Jenu, raksasa es dari utara.",
+          "quote": "Micmac religious belief is highly syncretic, and other non-Christian supernatural beings also live on in tandem with Christian belief. These include Kukwes, a giant cannibal, Wiklatmuj, little forest people, Jenu, northern ice giants,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c07",
+          "source_id": "jenu-s3",
+          "host": "www.native-languages.org",
+          "statement": "The page lists Jenu, Cenu, Chenu, Jinu, Cinu, Djenu, Chinu, Cheno and Tsi-noo as alternate spellings of the name Chenoo, with tribal affiliation Micmac, Maliseet and Passamaquoddy.",
+          "statement_id": "Halaman ini mencantumkan Jenu, Cenu, Chenu, Jinu, Cinu, Djenu, Chinu, Cheno, dan Tsi-noo sebagai ejaan lain dari nama Chenoo, dengan afiliasi suku Micmac, Maliseet, dan Passamaquoddy.",
+          "quote": "Name: Chenoo Tribal affiliation: Micmac, Maliseet, Passamaquoddy Alternate spellings: Jenu, Cenu, Chenu, Jinu, Cinu, Djenu, Chinu, Cheno, Chenu, Tsi-noo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c08",
+          "source_id": "jenu-s3",
+          "host": "www.native-languages.org",
+          "statement": "Chenoos are the evil man-eating ice giants of northern Wabanaki legends; a Chenoo was once a human who became possessed by an evil spirit or committed a terrible crime (especially cannibalism or withholding food from a starving person), causing his heart to turn to ice.",
+          "statement_id": "Chenoo adalah raksasa es pemakan manusia yang jahat dalam legenda Wabanaki utara; dahulu ia manusia yang dirasuki roh jahat atau melakukan kejahatan berat (terutama kanibalisme atau menolak memberi makan orang yang kelaparan), sehingga hatinya menjadi es.",
+          "quote": "Chenoos are the evil man-eating ice giants of northern Wabanaki legends. A Chenoo was once a human being who either became possessed by an evil spirit or committed a terrible crime (especially cannibalism or withholding food from a starving person), causing his heart to turn to ice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c09",
+          "source_id": "jenu-s3",
+          "host": "www.native-languages.org",
+          "statement": "In a few legends a human has been successfully rescued from the frozen heart of a Chenoo, but usually once a person has been transformed into a Chenoo, their only escape is death.",
+          "statement_id": "Dalam beberapa legenda, manusia berhasil diselamatkan dari hati beku seorang Chenoo, tetapi biasanya setelah seseorang berubah menjadi Chenoo, satu-satunya jalan keluar adalah kematian.",
+          "quote": "In a few legends a human has been successfully rescued from the frozen heart of a Chenoo, but usually once a person has been transformed into a Chenoo, their only escape is death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c10",
+          "source_id": "jenu-s3",
+          "host": "www.native-languages.org",
+          "statement": "The page lists related figures in other tribes: Kee-wakw (Abenaki), Windigo (Anishinabe) and Wihtiko (Cree).",
+          "statement_id": "Halaman ini mencantumkan tokoh terkait di suku lain: Kee-wakw (Abenaki), Windigo (Anishinabe), dan Wihtiko (Cree).",
+          "quote": "Related figures in other tribes: Kee-wakw (Abenaki), Windigo (Anishinabe), Wihtiko (Cree)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bc813f1adb741e95d877dc08c805fd3551c4e5809cf9af3d1e6066e232ddfb5b"
+      "images": []
     },
     {
       "slug": "la-bolefuego",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "0740eeee77f84ed350995c29a83462aec165eec587e7caf27df47766003cb197",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "la-bolefuego-c01",
@@ -2956,27 +3061,91 @@
           "quote": "Those facing her are advised not to pray; unlike other evil entities, the Bolefuego is attracted by prayers.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c05",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "According to this folklore book on Portuguesa state, many beliefs are woven around the Bola de Fuego's origin: the soul in torment of a sinful bishop, a son who cursed his mother, two comadres who quarreled on Holy Thursday, the wandering Jew, the tyrant Aguirre, or the wandering spirit of a loving couple who made love during Holy Week.",
+          "statement_id": "Menurut buku folklor negara bagian Portuguesa ini, asal-usul Bola de Fuego diceritakan dalam banyak kepercayaan: jiwa gentayangan seorang uskup berdosa, seorang anak yang mengutuk ibunya, dua comadre yang bertengkar pada Kamis Putih, Yahudi pengembara, tiran Aguirre, atau roh pengembara sepasang kekasih yang bercinta pada hari-hari Pekan Suci.",
+          "quote": "Sobre su origen se tejen muchas creencias, entre ellas que se trata del alma en pena de un obispo pecador, de un hijo que maldijo a su madre, de dos comadres que pelearon un jueves santo, del judío errante, del tirano Aguirre, o del espíritu vagante de una pareja enamorada que hizo el amor en los días de la Semana Santa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c06",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "There is no specific zone of Portuguesa where the Bola de Fuego or bola de candela can be located; it comes and goes across the whole state, even all corners of the Venezuelan plains.",
+          "statement_id": "Tidak ada zona khusus di Portuguesa tempat Bola de Fuego (bola de candela) bisa dipastikan; ia berkeliaran di seluruh wilayah negara bagian itu, bahkan di setiap sudut dataran Venezuela.",
+          "quote": "No hay una zona específica de Portuguesa donde se pueda ubicar la Bola de Fuego o bola de candela, ella anda y desanda por toda la geografía del estado, e incluso por todos los rincones del llano venezolano.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c07",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "In one testimony, if one looks at it fixedly it looks like a person burning inside with open arms as if begging for mercy; the older women began to curse it and swear at it, and it began to move away.",
+          "statement_id": "Dalam salah satu kesaksian, jika dipandang lekat-lekat ia tampak seperti seseorang yang menyala di dalamnya dengan lengan terbuka seolah memohon belas kasihan; para perempuan yang lebih tua mulai mengutuk dan memakinya, lalu ia menjauh.",
+          "quote": "Si uno la mira fijo se ve como una persona prendida adentro, se ven los brazos abiertos como pidiendo clemencia. Yo recuerdo que las mujeres más grandes comenzaron a maldecirla y a decirle groserías y ella comenzó a alejarse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c08",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "In another testimony, when a man among them started praying to it, the uncle told him to stop because those are lost souls, and the more one prays to them the more they stick to one from behind.",
+          "statement_id": "Dalam kesaksian lain, ketika seorang pria di antara mereka mulai berdoa kepadanya, sang paman menyuruhnya berhenti karena itu adalah arwah-arwah tersesat, dan semakin didoakan semakin ia menempel di belakang mereka.",
+          "quote": "un señor que andaba con nosotros se puso a rezarle y mi tío le dijo: Dejá de está rezando que esas son ánimas perdidas que andan desandando y mientras más le recéis más se nos va a pegar atrás.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c09",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "In another testimony, the ball of fire or light was a strange object that gave off no heat but lit the whole road.",
+          "statement_id": "Dalam kesaksian lain, bola api atau cahaya itu adalah benda aneh yang tidak menghasilkan panas tetapi menerangi seluruh jalan.",
+          "quote": "Esta bola de candela o de luz era un objeto extraño, no producía ningún calor, pero sí nos alumbraba todo el camino.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c10",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "One witness says he was not afraid because his parents had told him about it and never said it did harm.",
+          "statement_id": "Seorang saksi menyatakan ia tidak takut karena orang tuanya pernah bercerita tentangnya dan tidak pernah mengatakan bahwa ia berbahaya.",
+          "quote": "A mí no me dio miedo porque mis padres me habían hablado de ella y jamás me dijeron que hacía daño.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c11",
+          "source_id": "la-bolefuego-s2",
+          "host": "bibliofep.fundacionempresaspolar.org",
+          "statement": "One witness reports that scientists say the phenomenon is accumulated gases that produce light or an explosion, but having seen it himself he cannot believe that.",
+          "statement_id": "Seorang saksi menyebut bahwa para ilmuwan mengatakan fenomena itu adalah gas yang terakumulasi dan menimbulkan cahaya atau ledakan, tetapi karena telah melihatnya sendiri ia tidak dapat mempercayainya.",
+          "quote": "Por haber visto este fenómeno yo no puedo creer en el concepto de lo que dicen los científicos: que son gases acumulados que hacen luz o explosión.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "72f0e4c59d6e1d10943d2e89b8bb85ed627170d8ffeccbf1e7854608e863cec0"
+      "images": []
     },
     {
       "slug": "la-diablesse",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "35c0a9b49923833e5957c0168ccd602963dbebc4a05be561fb384c50823308b8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "la-diablesse-c01",
@@ -3027,27 +3196,61 @@
           "quote": "La Diablesse is referred by Derek Walcott in his play Dream on Monkey Mountain.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c06",
+          "source_id": "la-diablesse-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The book Two Years in the French West Indies is by Lafcadio Hearn.",
+          "statement_id": "Buku Two Years in the French West Indies ditulis oleh Lafcadio Hearn.",
+          "quote": "Title: Two Years in the French West Indies Author: Lafcadio Hearn",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c07",
+          "source_id": "la-diablesse-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Hearn writes that the \"guiablesse\" (in Bitaco idiom) represents a singular Martinique superstition: it is said that sometimes at noonday a beautiful woman passes silently through an isolated plantation, smiling at the workers in the cane-fields and tempting men to follow her, and he who follows her never comes back.",
+          "statement_id": "Hearn menulis bahwa \"guiablesse\" (dalam ungkapan Bitaco) mewakili takhayul khas Martinik: konon kadang pada tengah hari seorang perempuan cantik lewat diam-diam di perkebunan terpencil, tersenyum kepada para pekerja ladang tebu dan menggoda laki-laki agar mengikutinya, dan yang mengikutinya tidak pernah kembali.",
+          "quote": "The deviless (in true Bitaco idiom, \"guiablesse\") represents a singular Martinique superstition. It is said that sometimes at noonday, a beautiful negress passes silently through some isolated plantation,—smiling at the workers in the cane-fields,—tempting men to follow her. But he who follows her never comes back again",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c08",
+          "source_id": "la-diablesse-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Hearn's chapter \"La Guiablesse\", none ever saw her by night; her hour is the fulness of the sun's flood-tide, and she comes in the dead hush and white flame of windless noons.",
+          "statement_id": "Dalam bab \"La Guiablesse\" karya Hearn, tidak ada yang pernah melihatnya pada malam hari; jamnya adalah puncak pasang surut matahari, ia datang dalam keheningan dan nyala putih tengah hari tanpa angin.",
+          "quote": "None ever saw her by night. Her hour is the fulness of the sun's flood-tide: she comes in the dead hush and white flame of windless noons",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c09",
+          "source_id": "la-diablesse-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Hearn's tale her face transforms into goblin horror and she shrieks with hideous laughter; he, smitten to the brain with the sight of her, reels, falls backward two thousand feet and dies upon the rocks of a mountain torrent.",
+          "statement_id": "Dalam kisah Hearn, wajahnya berubah menjadi kengerian mirip goblin dan ia menjerit dengan tawa mengerikan; \"ia\" yang terguncang oleh pemandangan wajahnya terhuyung, jatuh ke belakang sejauh dua ribu kaki, dan tewas di bebatuan sungai gunung.",
+          "quote": "the goblin horror of her face transformed,—shrieks with a burst of hideous laughter: ... smitten to the brain with the sight of her, reels, recoils, and, backward falling, crashes two thousand feet down to his death upon the rocks of a mountain torrent.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "733a9acf08781ad190b542475c1af90543983e5f9c390400952de836c5f86ac9"
+      "images": []
     },
     {
       "slug": "lagahoo",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "ca606aca537a5a75106752e15d7152f961b7d1c1a443f5408e6d346cff91adf9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lagahoo-c01",
@@ -3108,27 +3311,71 @@
           "quote": "To kill the Lagahoo one must beat the creature with a stick which has been anointed with holy water and holy oil for nine days.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lagahoo-c07",
+          "source_id": "lagahoo-s2",
+          "host": "caribbeanreviewofbooks.com",
+          "statement": "The Trinidadian version of the universal shape-shifter is the lagahoo; the word comes from the French loup-garou, meaning werewolf.",
+          "statement_id": "Versi Trinidad dari pengubah wujud universal adalah lagahoo; kata itu berasal dari bahasa Prancis loup-garou, yang berarti manusia serigala.",
+          "quote": "The Trinidadian version of the universal shape-shifter is the lagahoo — the word comes from the French loup-garou, meaning werewolf.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "lagahoo-c08",
+          "source_id": "lagahoo-s2",
+          "host": "caribbeanreviewofbooks.com",
+          "statement": "The poet James Aboud quotes Gerard Besson's Folklore of Trinidad as an epigraph: the Lagahoo could change his shape into any beast or form and roam the streets or forests.",
+          "statement_id": "Penyair James Aboud mengutip Folklore of Trinidad karya Gerard Besson sebagai epigraf: Lagahoo dapat mengubah wujudnya menjadi binatang atau bentuk apa pun dan berkeliaran di jalan atau hutan.",
+          "quote": "As an epigraph to his new book of poems, James Aboud quotes Gerard Besson’s Folklore of Trinidad: Lagahoo could change his shape into any beast or form and roam the streets or forests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lagahoo-c09",
+          "source_id": "lagahoo-s2",
+          "host": "caribbeanreviewofbooks.com",
+          "statement": "In the same quoted passage, to see him properly one had to put the yampee, or mucus from a dog's eye, in one's own eye and look through the keyhole at midnight.",
+          "statement_id": "Dalam kutipan folklor yang sama, untuk melihatnya dengan jelas orang harus mengoleskan yampee, yaitu lendir dari mata anjing, ke matanya sendiri lalu mengintip lewat lubang kunci pada tengah malam.",
+          "quote": "In order to see him properly, you had to put the yampee or mucus from a dog’s eye in your own eye and look through your keyhole at midnight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lagahoo-c10",
+          "source_id": "lagahoo-s2",
+          "host": "caribbeanreviewofbooks.com",
+          "statement": "In the same quoted passage, in everyday life he could be an Obeah man, or even a man of some learning, living a quiet, solitary life.",
+          "statement_id": "Dalam kutipan folklor yang sama, dalam kehidupan sehari-hari ia bisa menjadi seorang Obeah man, atau bahkan orang yang terpelajar, hidup tenang dan menyendiri.",
+          "quote": "In everyday life, he could be an Obeah man, or even a man of some learning, living a quiet, solitary life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lagahoo-c11",
+          "source_id": "lagahoo-s2",
+          "host": "caribbeanreviewofbooks.com",
+          "statement": "In the same quoted passage, he was a genius at maiming or killing, and people said that sometimes he became so tall that his head disappeared above the trees.",
+          "statement_id": "Dalam kutipan folklor yang sama, ia ahli melukai atau membunuh, dan konon kadang ia menjadi begitu tinggi sehingga kepalanya hilang di atas pepohonan.",
+          "quote": "He was a genius at maiming or killing. People said that sometimes he became so tall that his head disappeared above the trees.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "23eb965e56e5cceb6546031bf0b48daa01f667f4b86c6bcf65bf085693a32a37"
+      "images": []
     },
     {
       "slug": "letiche",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "716f161fb0db14fc68aa300a966503c7e0c1bba3bdee5725a6ef25a0bc8d921a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "letiche-c01",
@@ -3159,27 +3406,71 @@
           "quote": "The letiche is said to lurk in the bayous and upset boats and attack travelers.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "letiche-c04",
+          "source_id": "letiche-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem Evangeline, a character tells children tales of the Loup-garou in the forest, of the goblin that came in the night to water the horses, and of the white Létiche, the ghost of a child who died unchristened and was doomed to haunt unseen the chambers of children.",
+          "statement_id": "Dalam puisi Evangeline, seorang tokoh menceritakan kepada anak-anak kisah Loup-garou di hutan, goblin yang datang malam hari untuk memberi minum kuda, dan Létiche putih, hantu anak yang meninggal tanpa dibaptis dan dikutuk menghantui kamar anak-anak tanpa terlihat.",
+          "quote": "For he told them tales of the Loup-garou in the forest, And of the goblin that came in the night to water the horses, And of the white Létiche, the ghost of a child who unchristened Died, and was doomed to haunt unseen the chambers of children;",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "letiche-c05",
+          "source_id": "letiche-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Evangeline: A Tale of Acadie is by Henry Wadsworth Longfellow.",
+          "statement_id": "Evangeline: A Tale of Acadie adalah karya Henry Wadsworth Longfellow.",
+          "quote": "Title: Evangeline: A Tale of Acadie Author: Henry Wadsworth Longfellow",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "letiche-c06",
+          "source_id": "letiche-s3",
+          "host": "archive.org",
+          "statement": "According to this compilation, the letiche is an animal whose form is scarcely defined, of dazzling whiteness, seen only at night and disappearing the moment anyone tries to touch it.",
+          "statement_id": "Menurut kompilasi ini, letiche adalah makhluk berwujud samar, putih menyilaukan, hanya terlihat pada malam hari, dan lenyap begitu ada yang mencoba menyentuhnya.",
+          "quote": "It is an animal whose form is scarcely defined, of dazzling whiteness, which is only seen in the night-time, and disappears the moment any one attempts to touch it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "letiche-c07",
+          "source_id": "letiche-s3",
+          "host": "archive.org",
+          "statement": "According to this compilation, letiches are believed to be the souls of infants dead without baptism, and the compiler suggests this pretty little spirit was most probably no other than the agile and timid ermine of Normandy and Britanny (spelling as in the source).",
+          "statement_id": "Menurut kompilasi ini, letiche dipercaya sebagai jiwa bayi yang meninggal tanpa pembaptisan, dan penyusunnya menduga roh kecil ini kemungkinan besar tidak lain adalah ermine yang lincah dan pemalu dari Normandia dan Britanny (ejaan sumber).",
+          "quote": "souls of infants dead without baptism. Most probably this pretty little spirit was no other than the agile and timid ermine of Normandy and Britanny.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "letiche-c08",
+          "source_id": "letiche-s4",
+          "host": "pantheon.org",
+          "statement": "According to Encyclopedia Mythica, in superstitious belief at Bayeux, Normandy, the letiche is an animal of scarcely defined form and dazzling whiteness, seen only at night and disappearing when touched; letiches are believed to be the souls of infants who died without having been baptized.",
+          "statement_id": "Menurut Encyclopedia Mythica, dalam kepercayaan takhayul di Bayeux, Normandia, letiche adalah hewan berwujud samar, putih menyilaukan, hanya terlihat pada malam hari dan lenyap saat disentuh; letiche dipercaya sebagai jiwa bayi yang meninggal tanpa dibaptis.",
+          "quote": "In superstitious belief at Bayeux, Normandy, an animal whose form is scarcely defined, of dazzling whiteness, which is only seen at night time, and disappears the moment any one attempts to touch it. The letiches are believed to be the souls of infants who died without having been baptized.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6874a3f9100b591940ff79d9c75d02d96f157dc4fbc1acc3d2f84af545d8b0bc"
+      "images": []
     },
     {
       "slug": "madre-de-aguas",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "7f6b6e73b1194d4c4c7c1766a261da5d5dd7f880da277db47abf62aeb927c32b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "madre-de-aguas-c01",
@@ -3240,27 +3531,51 @@
           "quote": "Madre de aguas never dies, and anyone who tries to kill or capture it dies.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "madre-de-aguas-c07",
+          "source_id": "madre-de-aguas-s2",
+          "host": "oncubanews.com",
+          "statement": "An OnCubaNews editor's note quotes Feijóo in the book Mitología cubana (1986): in his research on the Cuban Madres de aguas he traveled through three provinces, Las Villas, Camaguey and La Habana.",
+          "statement_id": "Sebuah catatan editor OnCubaNews mengutip Feijóo dalam buku Mitología cubana (1986): dalam penelitiannya tentang Madres de aguas Kuba ia menempuh tiga provinsi, yaitu Las Villas, Camaguey, dan La Habana.",
+          "quote": "En el libro “Mitología cubana”, Ediciones Cubanas, 1986; Feijóo cuenta: “En nuestras investigaciones tras las Madres de aguas cubanas recorrimos tres provincias: Las Villas, Camaguey y La Habana,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "madre-de-aguas-c08",
+          "source_id": "madre-de-aguas-s2",
+          "host": "oncubanews.com",
+          "statement": "In a quoted field testimony, a speaker says everyone tells him there is a Madre de aguas in the Laguna del Itabo, a snake with horns (\"tarros\"), and that the lagoon never dries up because it has a Madre de aguas.",
+          "statement_id": "Dalam kesaksian lapangan yang dikutip, seorang narasumber mengatakan semua orang bilang di Laguna del Itabo ada Madre de aguas, seekor ular bertanduk (\"tarros\"), dan laguna itu tidak pernah kering karena Madre de aguas tinggal di sana.",
+          "quote": "A mí me dice todo el mundo que aquí en la Laguna del Itabo hay un Madre de aguas, una serpiente con tarros. Esa laguna nunca se seca porque tiene Madre de aguas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "madre-de-aguas-c09",
+          "source_id": "madre-de-aguas-s2",
+          "host": "oncubanews.com",
+          "statement": "In the same testimony, fishermen are said to have grabbed it by hand but had to let it go because it pulls hard and was taking them down.",
+          "statement_id": "Dalam kesaksian yang sama, para nelayan konon pernah menangkapnya dengan tangan tetapi harus melepaskannya karena ia menarik kuat dan membawa mereka ke bawah.",
+          "quote": "pescadores que se han metido ahí, que hasta la han agarrado con la mano, y han tenido que soltarla porque ella jala mucho, y se los llevaba para abajo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0165e8a99a88e36cc8f167975bbacfddec3656495280461aa6704436e7e7bad5"
+      "images": []
     },
     {
       "slug": "midnight-beauty",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "224e40a75be93f0912a4f6d884d60e46b0cea49ad1c08341f8c6415da05aa02d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "midnight-beauty-c01",
@@ -3331,27 +3646,51 @@
           "quote": "Se ele realmente trair, ela poderá matá-lo; caso contrário, ela apenas irá feri-lo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "midnight-beauty-c08",
+          "source_id": "midnight-beauty-s2",
+          "host": "www.portaldotransito.com.br",
+          "statement": "Portal do Trânsito writes that the legend of the woman in white has many variants in various parts of the world, and in Brazil she is also called Bela da Noite or Mulher da meia-noite.",
+          "statement_id": "Portal do Trânsito menulis bahwa legenda perempuan berbaju putih punya banyak varian di berbagai belahan dunia, dan di Brasil ia juga disebut Bela da Noite atau Mulher da meia-noite.",
+          "quote": "A assustadora lenda da mulher de branco possui diversas variantes em várias partes do mundo. No Brasil, a mulher de branco também recebe os nomes de Bela da Noite ou Mulher da meia-noite.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "midnight-beauty-c09",
+          "source_id": "midnight-beauty-s2",
+          "host": "www.portaldotransito.com.br",
+          "statement": "One of the main versions tells of a young woman dressed as a bride who appears on roads, asking lone drivers for a ride and for help getting home.",
+          "statement_id": "Salah satu versi utamanya menceritakan seorang gadis berpakaian seperti pengantin yang muncul di jalan, meminta tumpangan kepada pengemudi yang sendirian dan meminta bantuan untuk pulang.",
+          "quote": "Uma das principais versões conta a lenda de uma jovem vestida como uma noiva. Ela aparece em estradas pedindo carona para motoristas solitários e pedindo ajuda para voltar para casa.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "midnight-beauty-c10",
+          "source_id": "midnight-beauty-s2",
+          "host": "www.portaldotransito.com.br",
+          "statement": "As they pass in front of a cemetery, she suddenly disappears from inside the car, leaving the drivers confused and terrified. The apparition is supposedly the spirit of a bride who died in an accident on the eve of her wedding.",
+          "statement_id": "Ketika mereka melewati sebuah pemakaman, ia mendadak lenyap dari dalam mobil dan membuat pengemudi bingung dan ketakutan. Konon penampakan itu adalah roh seorang pengantin yang tewas dalam kecelakaan pada malam sebelum pernikahannya.",
+          "quote": "No momento que passam em frente a algum cemitério, ela desaparece subitamente de dentro do carro, deixando os motoristas confusos e apavorados. Supostamente, a assombração seria a manifestação do espírito de uma noiva que morreu em um acidente na véspera de seu casamento.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a15f8da5f8f2fc2a9ecb59469f4ad700af4ff518b8cc57d68731703a6431fe1b"
+      "images": []
     },
     {
       "slug": "mixtecatl",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "c5d8ead611bc24f5befa4584fe0dada3443617f8f9d4132d66b8e347bc5674cd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mixtecatl-c01",
@@ -3372,27 +3711,81 @@
           "quote": "The fifth son who founded Mixtlan from where the natives of the region known today as Mixteca come from.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c03",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "In this Nahoa cosmogony poem, a being of many jaws and bloody tongues, by a metamorphosis, is sanctified and takes the rare name of Ilancuéye.",
+          "statement_id": "Dalam puisi kosmogoni Nahoa ini, sosok berahang banyak dan berlidah berdarah, lewat suatu metamorfosis, disucikan dan mengambil nama langka Ilancuéye.",
+          "quote": "With many jaws and bloody tongues; By such a metamorphosis is sanctified, And takes the rare name of Ilancuéye:",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c04",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "In the poem, the \"ferocious serpent of white cloud\" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races.",
+          "statement_id": "Dalam puisi itu, \"ular ganas dari awan putih\" yang tinggal di Citlálco bersatu dengannya, dan persatuan itu melahirkan enam tlacámes (laki-laki); saudara-saudara ini hidup di bumi dan menjadi sumber banyak bangsa.",
+          "quote": "the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races:",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c05",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "In the poem, the valiant Mixtécatl guards himself from Mixtecápan in the barren hills; footnote 32 states that it is today called simply Mixteca.",
+          "statement_id": "Dalam puisi itu, Mixtécatl yang gagah berani berlindung dari Mixtecápan di perbukitan tandus; catatan kaki 32 menyatakan bahwa kini ia disebut sederhana Mixteca.",
+          "quote": "The valiant Mixtécatl guards himself From Mixtecápan in the barren hills; (32) ... (32) Today is called simply Mixteca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c06",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "A footnote in the same book explains that the name Iztamixcóhuatl is composed of iztac (white), mixtli (cloud) and cohuatl (serpent).",
+          "statement_id": "Catatan kaki dalam buku yang sama menjelaskan bahwa nama Iztamixcóhuatl tersusun dari iztac (putih), mixtli (awan), dan cohuatl (ular).",
+          "quote": "Iztamixcóhuatl is composed of iztac, white, mixtli, cloud, and cohuatl, serpent;",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c07",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "A footnote explains that Ilancueye means \"old frog\" and says Mr. Orozco y Berra, following Torquemada, fell into the error of calling this goddess Ilancueitl.",
+          "statement_id": "Catatan kaki menjelaskan bahwa Ilancueye berarti \"katak tua\" dan menyebut Orozco y Berra, mengikuti Torquemada, keliru menyebut sang dewi Ilancueitl.",
+          "quote": "Ilancueye is composed of ilamatl or ilantli, old, and of cueye, corruption of cueyatl, \"frog; old frog.\" Mr. Orozco y Berra, following Torquemada, fell into the error of calling this goddess Ilancueitl",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mixtecatl-c08",
+          "source_id": "mixtecatl-s2",
+          "host": "archive.org",
+          "statement": "A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin.",
+          "statement_id": "Catatan kaki dalam buku yang sama menyatakan bahwa orang Indian percaya bumi pertama kali dihuni raksasa, dan tulang besar fosil yang ditemukan dalam penggalian dianggap sisa mereka; mereka menyebutnya quinametzin.",
+          "quote": "The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin,",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "80d8b988852e062124d30b69829aa65a13f8d10610ddc66a835c9932e52b78cd"
+      "images": []
     },
     {
       "slug": "otomitl",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "bcd4bb3c32bfb6cc06d15b071d3246a6ab45622540860845d91e82b6929bc2a0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "otomitl-c01",
@@ -3413,27 +3806,81 @@
           "quote": "The sixth son who climbed the mountains near Mexico, and raised the populations of Xilotepec, Tollan, and Otompan.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "otomitl-c03",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "In this Nahoa cosmogony poem, the \"ferocious serpent of white cloud\" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races.",
+          "statement_id": "Dalam puisi kosmogoni Nahoa ini, \"ular ganas dari awan putih\" yang tinggal di Citlálco bersatu dengannya, enam tlacáme (laki-laki) lahir, dan saudara-saudara itu tinggal di bumi serta menjadi sumber banyak bangsa.",
+          "quote": "the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races:",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "otomitl-c04",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin.",
+          "statement_id": "Catatan kaki dalam buku yang sama menyebut bahwa orang Indian percaya bumi mula-mula dihuni raksasa, dan tulang besar yang ditemukan dalam keadaan fosil di galian dianggap sisa-sisa mereka; mereka menyebutnya quinametzin.",
+          "quote": "The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "otomitl-c05",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "The poem names the six brothers in turn: Xélhua the firstborn (a giant), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, and Otómitl, \"the Xocóyotl\".",
+          "statement_id": "Puisi itu menyebut keenam bersaudara berurutan: Xélhua si sulung (raksasa), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, dan Otómitl, \"Xocóyotl\".",
+          "quote": "The firstborn, the giant Xélhua, ... Tenoch, the great ... The strong Cuetlaxcoápan founded Ulmécatl; ... Xicaláncatl; ... The valiant Mixtécatl guards himself ... Otómitl, the Xocóyotl, lives ever",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "otomitl-c06",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "Robelo's footnote says Xocóyotl means \"the last son\", and that the Aztec expression \"socoyote\" was formed from this word.",
+          "statement_id": "Catatan kaki buku itu menyatakan bahwa Xocóyotl berarti \"putra terakhir\", dan dari kata itu terbentuk ungkapan Aztek \"socoyote\".",
+          "quote": "Xocóyotl means “the last son.“ From this word was formed the Aztec expression",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "otomitl-c07",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "In Robelo's poem, Otómitl, the Xocóyotl, lives always in the mountains around Mexico and prospers in rich populations such as Túllan, Xilatepéc and Otómpan.",
+          "statement_id": "Dalam puisi itu, Otómitl, sang Xocóyotl, selalu tinggal di pegunungan di sekitar Mexico dan makmur di permukiman padat seperti Túllan, Xilatepéc, dan Otómpan.",
+          "quote": "Otómitl, the Xocóyotl, lives ever ... In the mountains that lie around Mexico And there prospers in rich populations, Such as Túllan, of wisdom the emporium, Xilatepéc and Otómpan, of labor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "otomitl-c08",
+          "source_id": "otomitl-s2",
+          "host": "archive.org",
+          "statement": "Robelo's footnote states that these populations now carry the names Tula, Jilotepec and Otumba, and all belong to the state of Hidalgo.",
+          "statement_id": "Catatan kaki buku itu menyatakan bahwa permukiman-permukiman itu kini bernama Tula, Jilotepec, dan Otumba, dan semuanya termasuk negara bagian Hidalgo.",
+          "quote": "These populations now carry the names of Tula, Jilotepec, Otumba and all belong to the state of Hidalgo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d69930cf669441658d1c56956ed0c1f08ec0b966a1e27651a3bbdbfced15e541"
+      "images": []
     },
     {
       "slug": "pincoy",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "5c0fb7c28a9685b984b3ffe0a94cded1d9db30cab4c211e3cf9d238800fafe4b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pincoy-c01",
@@ -3484,27 +3931,101 @@
           "quote": "he is responsible of singing a beautiful and strange song, so that the Pincoya start her magical dance, for fertility of the sea.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pincoy-c06",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Chiloé Mitológico, the Pincoy has the body of a large seal in bright silver, with a handsome, manly human face and a thick golden mane.",
+          "statement_id": "Menurut Chiloé Mitológico, Pincoy bertubuh anjing laut besar berwarna perak mengilap, dengan wajah manusia yang tampan dan jantan serta surai emas yang lebat.",
+          "quote": "tiene cuerpo de foca de gran tamaño, color plateado brillante, con hermoso y varonil rostro humano, luciendo poblada melena dorada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c07",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The Pincoy is the administrator of his father's domains, a strict inspector of the faithful fulfilment of his father's orders, and a careful watcher over all processes taking place in the seas.",
+          "statement_id": "Pincoy adalah pengelola wilayah kekuasaan ayahnya, pengawas yang ketat atas pelaksanaan perintah sang ayah, dan penjaga yang teliti atas jalannya semua proses di laut.",
+          "quote": "Es el administrador en los dominios de su padre; inspector severo del fiel cumplimiento de sus mandatos; vigilante acucioso del normal desenvolvimiento de todos los procesos que se desarrollan en los mares;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c08",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "He always keeps watch over the activities of his sisters, the Pincoya and the Sirena.",
+          "statement_id": "Ia selalu mengawasi kegiatan saudari-saudarinya, Pincoya dan Sirena.",
+          "quote": "Permanece siempre atento a las actividades de sus hermanas, la Pincoya y la Sirena",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c09",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Between the Pincoya and the Pincoy there is a rare union: the tale presents them as brother and sister and as husband and wife at the same time.",
+          "statement_id": "Antara Pincoya dan Pincoy ada ikatan yang aneh: kisah menyebut mereka sekaligus bersaudara dan suami istri.",
+          "quote": "Entre la Pincoya y el Pincoy, existe una rara unión. El relato los señala como hermanos y esposos al mismo tiempo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c10",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The author suggests this may be explained as a duplication of the same legend, that of the marriage of Millalobo with Huenchula.",
+          "statement_id": "Penulis menafsirkan bahwa kenyataan ini mungkin dijelaskan sebagai penggandaan legenda yang sama, yaitu perkawinan Millalobo dengan Huenchula.",
+          "quote": "Podrían explicarse estos hechos, como una duplicación de la misma leyenda, del matrimonio del Millalobo con la Huenchula;",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c11",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "All versions agree that he is very handsome and attractive and likes music, especially the sound of a flute made of colihue; the author presumes his name comes from this fondness (Pinculhue = flute).",
+          "statement_id": "Semua versi sepakat bahwa ia sangat tampan dan memikat serta menyukai musik, terutama suara seruling dari colihue; penulis menduga namanya berasal dari kegemaran ini (Pinculhue = seruling).",
+          "quote": "Todas las versiones coinciden en decir que es muy hermoso, atrayente y que le agrada la música, sintiendo atracción muy especial, por la que produce la flauta hecha de colihue (a esta afición debe seguramente su nombre: de Pinculhue=flauta).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c12",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "It is told that on the island of Alao, in the house of a girl admired for her beauty, a child with a seal's head was born who lived only a few hours, and paternity was blamed on the Pincoy.",
+          "statement_id": "Diceritakan bahwa di pulau Alao, di rumah seorang gadis yang dikagumi karena kecantikannya, lahir seorang anak berkepala anjing laut yang hidup hanya beberapa jam, dan ayahnya dituduhkan kepada Pincoy.",
+          "quote": "En la isla de Alao, se cuenta, que en la casa donde vivía una muchacha admirada como hermosa, nació un niño con cabeza de foca, que sólo vivió escasas horas y cuya paternidad se culpó al Pincoy;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pincoy-c13",
+          "source_id": "pincoy-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Fishermen of the island of Llingua, famous for their seamanship, say they have seen the Pincoy while fishing, swimming at extraordinary speed and shining like a silver ray.",
+          "statement_id": "Nelayan pulau Llingua, yang terkenal karena kecakapan melautnya, mengaku pernah melihat Pincoy berenang dengan kecepatan luar biasa, berkilau seperti sinar perak, saat mereka menangkap ikan.",
+          "quote": "Pescadores de la isla Llingua, famosos por sus proezas marineras, cuentan haber visto al Pincoy, durante sus faenas de pesca, nadando a velocidad extraordinaria, brillando como un rayo plateado",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7444d5b531050a4ad9bbefa1791192f804c10b313628dfa9e6f7563eda0b7311"
+      "images": []
     },
     {
       "slug": "qailertetang",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "5bb65c98685e448ba2753a4c3ce2a47e715c3ff9037d4ec069b43e7585be3f62",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qailertetang-c01",
@@ -3565,27 +4086,81 @@
           "quote": "Inuit scholars Laugrand and Oosten call them the representatives of Sedna.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "qailertetang-c07",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Out of a hut stalk two gigantic figures wearing heavy boots, their legs swelled to a wonderful thickness with several pairs of breeches.",
+          "statement_id": "Dari sebuah pondok keluar dua sosok raksasa yang memakai sepatu bot berat, dengan kaki membengkak tebal oleh beberapa lapis celana.",
+          "quote": "out of which stalk two gigantic figures. They wear heavy boots; their legs are swelled out to a wonderful thickness with several pairs of breeches;",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qailertetang-c08",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The qailertetang approach the assembly silently with long strides, while the people, screaming, press back from them.",
+          "statement_id": "Para qailertetang mendekati kerumunan dengan diam dan langkah panjang, sementara orang-orang berteriak dan mundur dari mereka.",
+          "quote": "Silently, with long strides, the qailertetang (Fig. 535) approach the assembly, who, screaming, press back from them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qailertetang-c09",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "After this duty the qailertetang stride down to the shore and invoke the good north wind, which brings fair weather, while warning off the unfavorable south wind.",
+          "statement_id": "Setelah tugas itu, para qailertetang melangkah ke pantai dan memanggil angin utara yang baik, pembawa cuaca cerah, sambil mengusir angin selatan yang tidak menguntungkan.",
+          "quote": "Having performed this duty, the qailertetang stride down to the shore and invoke the good north wind, which brings fair weather, while they warn off the unfavorable south wind.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qailertetang-c10",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "As soon as the incantation is over, all the men attack the qailertetang with great noise, acting as if they had weapons and would kill both spirits.",
+          "statement_id": "Begitu mantra selesai, semua pria menyerang para qailertetang dengan gaduh, berlagak membawa senjata dan hendak membunuh kedua \"roh\" itu.",
+          "quote": "As soon as the incantation is over, all the men attack the qailertetang with great noise. They act as if they had weapons in their hands and would kill both spirits.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qailertetang-c11",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Each man fills his sealskin with water, passes them a cup, and asks about the future, the fortunes of the hunt and the events of life; the qailertetang answer in murmurs that the questioner must interpret himself.",
+          "statement_id": "Tiap pria mengisi kantong kulit anjing lautnya dengan air, menyodorkan cangkir kepada mereka, dan bertanya tentang masa depan, nasib perburuan, dan peristiwa hidup; para qailertetang menjawab dengan gumaman yang harus ditafsirkan sendiri oleh penanya.",
+          "quote": "Each man fills his sealskin with water, passes a cup to them, and inquires about the future, about the fortunes of the hunt and the events of life. The qailertetang answer in murmurs which the questioner must interpret for himself.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qailertetang-c12",
+          "source_id": "qailertetang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Akudnirmiut celebrate the feast without the qailertetang; other masks called mirqussang, representing a man and his wife, take their place.",
+          "statement_id": "Orang Akudnirmiut merayakan pesta itu tanpa qailertetang; topeng lain yang disebut mirqussang, yang mewakili seorang pria dan istrinya, menggantikannya.",
+          "quote": "The Akudnirmiut celebrate the feast in the following way: The qailertetang do not act a part there, but other masks take their place. They are called mirqussang and represent a man and his wife.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7d027777ffe394e8b0a0b6d26622507a84e0bfda460e13d5a93fa2575dd0fe6d"
+      "images": []
     },
     {
       "slug": "muki-mythology",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-3.md",
+      "entry_sha256": "0aa07426c1eb5fa3ed68ed2887175ede79a8b56b1c7a7fcef350ffcf1fc19d43",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "muki-mythology-c01",
@@ -3646,27 +4221,101 @@
           "quote": "Elders advise that, when dealing with the muki, one should use his/her belt to battle him without succumbing to fear.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c07",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "Legends of the Muki are shared in isolated mining camps from Colombia in the north to Bolivia in the south, and in the Peruvian Andes between; its name differs by region, for example chinchiliku in the Moquegua region and jusshi in the Cajamarca region.",
+          "statement_id": "Legenda Muki dituturkan di kamp-kamp tambang terpencil dari Kolombia di utara hingga Bolivia di selatan dan di Andes Peru di antaranya; namanya berbeda antardaerah, misalnya chinchiliku di wilayah Moquegua dan jusshi di wilayah Cajamarca.",
+          "quote": "Legends of the Muki have been consistently shared over the years in isolated mining camps as far north as Colombia, as far south as Bolivia, and in the Peruvian Andes in between. However, its name differs from region to region – people in the Moquegua region in the south of Peru speak of a chinchiliku, and those in the northern Cajamarca region call it the jusshi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c08",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "According to this article, the word muki comes from the Quechua word murik, meaning \"to smother\" or \"to strangle\", a reference to the often lethal dust and silica that would fill miners' lungs.",
+          "statement_id": "Menurut artikel ini, kata muki berasal dari kata Quechua murik yang berarti \"mencekik\" atau \"menyesakkan\", merujuk pada debu dan silika yang sering mematikan dan memenuhi paru-paru penambang.",
+          "quote": "The word muki comes from the Quechua word murik, which means “to smother” or “to strangle,” a reference to the often lethal dust and silica that would fill miners’ lungs.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c09",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "One common theme in Muki lore is its tendency to make deals with miners; it is said to trade valuable mining knowledge or help for luxuries such as alcohol or coca.",
+          "statement_id": "Satu tema umum dalam cerita Muki adalah kecenderungannya membuat kesepakatan dengan penambang; ia konon menukar pengetahuan atau bantuan penambangan yang berharga dengan barang mewah seperti alkohol atau koka.",
+          "quote": "One common theme in Muki lore is the tendency for the creature to make deals with miners. The Muki is said to trade valuable mining knowledge or help in exchange for luxuries such as alcohol or coca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c10",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "However, the Muki plays the part of a trickster or demon, and these deals can backfire badly for miners who are greedy and indiscreet about their luck.",
+          "statement_id": "Namun Muki berperan sebagai penipu atau iblis, dan kesepakatan itu bisa berbalik buruk bagi penambang yang serakah dan ceroboh membicarakan keberuntungannya.",
+          "quote": "However, the Muki plays the part of a trickster or demon, and these deals can backfire badly for miners who are greedy and indiscreet about their luck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c11",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "The article calls the most plausible explanation for the rise and spread of Muki legends that the creature personifies the dangers and risks miners accept in their line of work.",
+          "statement_id": "Artikel ini menyebut penjelasan paling masuk akal bagi munculnya legenda Muki adalah bahwa makhluk itu mempersonifikasikan bahaya dan risiko yang diterima penambang dalam pekerjaan mereka.",
+          "quote": "The most plausible – and unfortunate – explanation for the rise and spread of Muki legends involve the creature as a personification of the dangers and risks miners accept in their line of work.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c12",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "Some stories paint the creature in a more positive light, as a mysterious but helpful figure who can lead miners to productive ore deposits or warn them of dangers underground.",
+          "statement_id": "Sebagian cerita menggambarkannya secara lebih positif, sebagai tokoh misterius tetapi suka menolong yang dapat menuntun penambang ke endapan bijih yang produktif atau memperingatkan mereka akan bahaya di bawah tanah.",
+          "quote": "Some stories paint the creature in a more positive light, as a mysterious but helpful figure who can lead miners to productive ore deposits or warn them of dangers underground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c13",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "Some legends paint him as a predatory goblin searching for unsuspecting children or isolated miners to attack, but in general the Muki has become a catch-all for the mysterious goings-on underground.",
+          "statement_id": "Sebagian legenda menggambarkannya sebagai goblin pemangsa yang mencari anak-anak atau penambang terpencil untuk diserang, tetapi pada umumnya keberadaan Muki menjadi penjelasan serba guna untuk kejadian misterius di bawah tanah.",
+          "quote": "while some legends paint him as something of a predatory goblin searching for unsuspecting children or isolated miners to attack, in general the existence of the Muki has become a sort of catch-all for the mysterious goings-on underground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c14",
+          "source_id": "muki-mythology-s2",
+          "host": "magazine.cim.org",
+          "statement": "According to oral tradition, the Muki is no more than two feet tall yet disproportionately muscular, with a deep voice; his skin is described as ghostly pale, with long blond hair and dazzling eyes that reflect the light like the metals in the mines.",
+          "statement_id": "Menurut tradisi lisan, Muki tidak lebih tinggi dari dua kaki namun berotot tidak proporsional dan bersuara dalam; kulitnya digambarkan pucat seperti hantu, dengan rambut pirang panjang dan mata berkilau yang memantulkan cahaya seperti logam di tambang.",
+          "quote": "According to oral tradition, the Muki is no more than two feet in height, yet is disproportionately muscular, with a deep voice. His skin is described as ghostly pale, with long blond hair framing dazzling eyes that reflect the light, like the metals in the mines he inhabits.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1d3ce6a9c02d3e440dee700219664337642c5050762b19174559f8d6dceaacfa"
+      "images": []
     },
     {
       "slug": "mussie",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "39bdc91a1edc5b6352a895892c389371a95337e455ed9f299ef050514af12e30",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mussie-c01",
@@ -3717,27 +4366,91 @@
           "quote": "Mussie has become a cultural mascot of the area, appearing on signs welcoming visitors to Cobden and in front of the Home Hardware store in the village.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "mussie-c06",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "Mussie is said to live in Muskrat Lake, a large, very deep lake 75 miles northwest of Ottawa, near the village of Cobden.",
+          "statement_id": "Mussie konon hidup di Muskrat Lake, danau besar yang sangat dalam sekitar 75 mil di barat laut Ottawa, dekat desa Cobden.",
+          "quote": "Mussie is said to live in Muskrat Lake, a large, very deep lake 75 miles northwest of Ottawa, near the village of Cobden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c07",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "The creature is said to have three eyes, sharp teeth and to tower over the water whenever it raises its head; or perhaps it looks like a sturgeon.",
+          "statement_id": "Makhluk itu konon bermata tiga, bergigi tajam, dan menjulang di atas air setiap kali mengangkat kepala; atau mungkin rupanya seperti ikan sturgeon.",
+          "quote": "The creature is said to have three eyes, sharp teeth and towers over the water whenever it raises its head. Or maybe it looks like a sturgeon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c08",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "Some say Mussie started with Samuel de Champlain, although the article states that Champlain never wrote about the monster.",
+          "statement_id": "Sebagian orang menyebut Mussie bermula dari Samuel de Champlain, padahal menurut artikel ini Champlain tidak pernah menulis tentang monster itu.",
+          "quote": "Others will tell you, no, Mussie started with Samuel de Champlain, even though Champlain never wrote about the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c09",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "For many years the village of Cobden used the Loch Ness-style depiction, a three-eyed monster, on its Welcome to Cobden sign.",
+          "statement_id": "Selama bertahun-tahun desa Cobden memakai gambaran ala Loch Ness, yaitu monster bermata tiga pada papan selamat datang desa itu.",
+          "quote": "For many years the village of Cobden went with the Loch-Ness-monster depiction, showing a monster with three eyes on its Welcome to Cobden sign.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c10",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "In the local tale reported by the article, Mussie was some sort of pre-historic animal trapped in the lake when the last glaciers retreated 10,000 years ago.",
+          "statement_id": "Dalam kisah setempat yang dilaporkan artikel ini, Mussie adalah semacam hewan prasejarah yang terperangkap di danau ketika gletser terakhir surut 10.000 tahun lalu.",
+          "quote": "Mussie was some sort of pre-historic animal, trapped in the lake when the last glaciers retreated 10,000 years ago.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c11",
+          "source_id": "mussie-s2",
+          "host": "ottawasun.com",
+          "statement": "According to the article's author, any good lake monster story needs a witness, and for the Monster of Muskrat Lake that witness was Donnie Humphries.",
+          "statement_id": "Menurut penulis artikel, kisah monster danau yang baik butuh saksi, dan bagi Monster of Muskrat Lake saksinya adalah Donnie Humphries.",
+          "quote": "any good lake monster story needs a witness and for the Monster of Muskrat Lake, that witness was Donnie Humphries.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c12",
+          "source_id": "mussie-s3",
+          "host": "copeh-canada.org",
+          "statement": "Muskrat Lake in the Ottawa Valley has a long and storied history as the home of a lake monster affectionately called Mussie, or more formally Hapyxelor.",
+          "statement_id": "Muskrat Lake di Ottawa Valley memiliki sejarah panjang sebagai tempat tinggal monster danau yang disebut dengan sayang Mussie, atau secara lebih resmi Hapyxelor.",
+          "quote": "Muskrat Lake in the Ottawa Valley has a long and storied history of being the home to a lake monster affectionately called Mussie, or more formally named Hapyxelor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "796d633a608510f968ec910224a0c6ef7351eec1bbda03f2e9fb0ef08eed76bf"
+      "images": []
     },
     {
       "slug": "north-shore-monster",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "8eaa95cdf46a19c5da927bed2f68bb851376fe8cc11b5bbfca24a91db33b8643",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "north-shore-monster-c01",
@@ -3788,27 +4501,71 @@
           "quote": "However, the Deseret News suggested that the report should be taken \"with a few grains of salt.\"",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c06",
+          "source_id": "north-shore-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "J.H. McNeil of Kelton, Box Elder County, and several other men were working for the Barnes and Company saltworks on the northern shore near Monument Point and the Central Pacific railroad line in early July 1877 when they heard a frightful bellow.",
+          "statement_id": "J.H. McNeil dari Kelton, Box Elder County, dan beberapa pria lain bekerja untuk tambang garam Barnes and Company di tepi utara dekat Monument Point dan jalur kereta Central Pacific pada awal Juli 1877 ketika mereka mendengar raungan yang menakutkan.",
+          "quote": "J.H. McNeil of Kelton, Box Elder County, and several other men were working for the Barnes and Company saltworks on the northern shore near Monument Point and the Central Pacific railroad line in early July of 1877 when they heard a frightful bellow.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c07",
+          "source_id": "north-shore-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "As McNeil tells it, they saw an awful creature with a crocodile-like body and a horse's head; when it saw the men it charged toward them and they fled to the mountains.",
+          "statement_id": "Menurut penuturan McNeil, mereka melihat makhluk mengerikan bertubuh mirip buaya dan berkepala kuda; ketika makhluk itu melihat para pria, ia menyerbu ke arah mereka dan mereka lari ke pegunungan.",
+          "quote": "As McNeil tells it, they looked up and saw an awful creature with a crocodile-like body and the head of a horse. As it saw the men, it charged toward them and they fled to the mountains.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c08",
+          "source_id": "north-shore-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "McNeil signed an affidavit of the account, and a story on the sighting was published in the Corinne Record and later in the Deseret News.",
+          "statement_id": "McNeil menandatangani afidavit atas kisah itu, dan berita tentang penampakan tersebut dimuat di Corinne Record lalu di Deseret News.",
+          "quote": "McNeil signed an affidavit of the account, and a story on the sighting was published in the Corinne Record and later the Deseret News.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c09",
+          "source_id": "north-shore-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "According to another account, huge overturned boulders marked the trail of the marauding beast.",
+          "statement_id": "Menurut catatan lain, batu-batu besar yang terbalik menandai jejak makhluk yang mengamuk itu.",
+          "quote": "According to another account, huge overturned boulders marked the trail of the marauding beast.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c10",
+          "source_id": "north-shore-monster-s2",
+          "host": "www.deseret.com",
+          "statement": "Some believe the monster may have been a buffalo.",
+          "statement_id": "Sebagian orang percaya bahwa monster itu mungkin seekor kerbau (bison).",
+          "quote": "Some believe the monster may have been a buffalo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "34c75fbcd2c47d9a2dc8f3645e9eea73697df69442c360b753405f49716d1226"
+      "images": []
     },
     {
       "slug": "seelkee",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "f8af098c85f02ca470289797103e1eafe0271f90e013d107e76345a1721668f4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "seelkee-c01",
@@ -3859,27 +4616,101 @@
           "quote": "Some of the longhouses in the local Stó:lō villages were defined by large house posts with Seelkee designs accented with red paint.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "seelkee-c06",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "Living in winding channels and marshlands, s’í:lhqey are normally described as serpents with two heads.",
+          "statement_id": "Hidup di saluran berkelok dan rawa, s’í:lhqey biasanya digambarkan sebagai ular berkepala dua.",
+          "quote": "Living in winding channels and marshlands, s’í:lhqey are normally described as serpents with two heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c07",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "S’í:lhqey have the power to cause a person’s body to twist and become sick until death if a person runs upon seeing the creature.",
+          "statement_id": "S’í:lhqey memiliki kuasa membuat tubuh seseorang terpelintir dan sakit sampai mati jika orang itu lari ketika melihat makhluk tersebut.",
+          "quote": "have the power to cause a person’s body to twist and become sick until death if a person runs upon seeing the creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c08",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "In a recollection quoted by the museum, it was like a big snake, only with a horse's head, long and smooth, with a long mouth and long ears like a horse's.",
+          "statement_id": "Dalam kesaksian yang dikutip museum, makhluk itu seperti ular besar, hanya kepalanya seperti kepala kuda, panjang dan halus, dengan mulut panjang dan telinga panjang seperti kuda.",
+          "quote": "It was like a big snake only the head like a horse’s head - long and smooth - a long mouth - long ears like a horse’s",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c09",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "According to a recollection quoted by the museum, the creature could fly from lake to lake.",
+          "statement_id": "Menurut kesaksian yang dikutip museum, makhluk itu bisa terbang dari danau ke danau.",
+          "quote": "how that thing could fly I don’t know; but the Indian said that thing could fly from lake to lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c10",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "In one quoted account, a man swam out to the serpent, grabbed it and threw grass into its mouth, which killed it.",
+          "statement_id": "Dalam satu kisah yang dikutip, seorang pria berenang ke arah ular itu, menangkapnya, dan memasukkan rumput ke mulutnya sehingga ia mati.",
+          "quote": "To kill it, the man swam out to it and grabbed it and threw grass into its mouth, which killed it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c11",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "In the same account, the man painted a picture of the serpent across the front of his big house, over the door, to protect that house.",
+          "statement_id": "Dalam kisah yang sama, pria itu melukis gambar ular di depan rumah besarnya, di atas pintu, untuk melindungi rumah tersebut.",
+          "quote": "painted a picture of the serpent across the front of his big house, over the door. ... he pictured the shape of that serpent over the door to protect that house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c12",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "The captions on the museum page are taken from Oliver N. Wells, Myths and Legends: STAW-loh INDIANS of South Western British Columbia (Vancouver, 1970).",
+          "statement_id": "Keterangan gambar pada halaman museum itu diambil dari Oliver N. Wells, Myths and Legends: STAW-loh INDIANS of South Western British Columbia (Vancouver, 1970).",
+          "quote": "Captions provided from: Wells, Oliver N. Myths and Legends: STAW-loh INDIANS of South Western British Columbia. Vancouver, BC: Frank T. Coan Ltd, 1970.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c13",
+          "source_id": "seelkee-s2",
+          "host": "www.aroundchilliwack.ca",
+          "statement": "In the recollection quoted by the museum about the two-headed flying creature, the speaker says that this is what they called a SEEL-kee.",
+          "statement_id": "Dalam kesaksian yang dikutip museum tentang makhluk berkepala dua yang bisa terbang itu, penuturnya berkata bahwa itulah yang disebut SEEL-kee.",
+          "quote": "That’s a *SEEL-kee - that’s what they called it.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4d9d384121407ea4772cfb2e4effc340fce58d99922a798fcff221240c4e986d"
+      "images": []
     },
     {
       "slug": "si-te-cah",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "33178c5a51c4733d0d8ee0c9f35273b6d02f8ea48b0dae5934a33cb8f80dc296",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "si-te-cah-c01",
@@ -3930,27 +4761,111 @@
           "quote": "They expressed doubts over whether these were real historical traditions or whether, \"they should be regarded as an attempt by the Northern Paiute to explain the archaeological remains of a cultural period preceding their own\".",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c06",
+          "source_id": "si-te-cah-s2",
+          "host": "archive.org",
+          "statement": "The author records one of her people's traditions: a small tribe of \"barbarians\" who lived along the Humboldt River many hundred years ago and waylaid her people, killing and eating them.",
+          "statement_id": "Penulis menyebut salah satu tradisi bangsanya: suku kecil \"barbar\" yang dahulu tinggal di sepanjang Sungai Humboldt, ratusan tahun lalu, yang menghadang orang-orangnya lalu membunuh dan memakan mereka.",
+          "quote": "Among the traditions of our people is one of a small tribe of barbarians who used to live along the Humboldt River. It was many hundred years ago. They used to waylay my people and kill and eat them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c07",
+          "source_id": "si-te-cah-s2",
+          "host": "archive.org",
+          "statement": "In the tradition, they then made tule (bulrush) boats and went into Humboldt Lake, but could not live there very long without fire.",
+          "statement_id": "Dalam tradisi itu, mereka kemudian membuat perahu dari tule (bulrush) dan masuk ke Danau Humboldt, tetapi tidak bisa hidup lama di sana tanpa api.",
+          "quote": "Then they went to work and made tuly or bulrush boats, and went into Humboldt Lake. They could not live there very long without fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c08",
+          "source_id": "si-te-cah-s2",
+          "host": "archive.org",
+          "statement": "The author's people gathered wood and began to fill up the mouth of the cave; those inside pulled the wood inside until the cave was full, and then the author's people set it on fire.",
+          "statement_id": "Orang-orang penulis mengumpulkan kayu dan menyumbat mulut gua; yang di dalam menarik kayu itu masuk sampai gua penuh, lalu kayu itu dibakar.",
+          "quote": "gathered wood, and began to fill up the mouth of the cave. Then the poor fools began to pull the wood inside till the cave was full. At last my people set it on fire",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c09",
+          "source_id": "si-te-cah-s2",
+          "host": "archive.org",
+          "statement": "According to the author's people, the tribe they exterminated had reddish hair; the author says she has some of their hair, handed down from father to son.",
+          "statement_id": "Menurut orang-orang penulis, suku yang mereka musnahkan itu berambut kemerahan; penulis menyebut menyimpan sebagian rambut mereka yang diwariskan dari ayah ke anak.",
+          "quote": "My people say that the tribe we exterminated had reddish hair. I have some of their hair, which has been handed down from father to son.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c10",
+          "source_id": "si-te-cah-s3",
+          "host": "archive.org",
+          "statement": "The Northern Paiute have a legend that the cave was once the home of a tribe to whom they apply the name Sai-i.",
+          "statement_id": "Orang Paiute Utara punya legenda bahwa gua itu dahulu rumah suatu suku yang mereka beri nama Sai-i.",
+          "quote": "relates that the cave was once the home of a tribe to whom the Northern Paiute apply the name Sai-i",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c11",
+          "source_id": "si-te-cah-s3",
+          "host": "archive.org",
+          "statement": "According to the legend, they made their living from the lake and were enemies of the Northern Paiute, especially unpopular for capturing Northern Paiute women who came to the northwest side of Humboldt lake to gather tule rushes for mats.",
+          "statement_id": "Menurut legenda itu, mereka hidup dari danau dan menjadi musuh Paiute Utara, terutama karena menangkap perempuan Paiute Utara yang datang ke sisi barat laut Danau Humboldt untuk mengumpulkan rumput tule bagi tikar.",
+          "quote": "These people made their living from the lake, and were enemies of the Northern Paiute, among whom they made themselves especially unpopular by capturing the Northern Paiute women when the latter visited the northwest side of Humboldt lake to gather tule rushes for mats.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c12",
+          "source_id": "si-te-cah-s3",
+          "host": "archive.org",
+          "statement": "The authors judge that, unlike beliefs in northwestern California about an ancient race of supernatural beings, the \"former people\" of Nevada seem to have been ordinary human beings living an entirely rational human life.",
+          "statement_id": "Para penulis menilai bahwa, berbeda dari kepercayaan di California barat laut tentang ras purba supernatural, \"orang-orang dahulu\" Nevada tampak sebagai manusia biasa yang menjalani hidup rasional.",
+          "quote": "there seems to be the difference that the former people of Nevada were ordinary human beings living an entirely rational human life.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c13",
+          "source_id": "si-te-cah-s3",
+          "host": "archive.org",
+          "statement": "The authors say the fire-arrow foreshafts found tend to confirm the Northern Paiute legend of the assault on the cave.",
+          "statement_id": "Para penulis menyebut bahwa ujung panah api yang ditemukan cenderung menguatkan legenda Paiute Utara tentang serangan ke gua.",
+          "quote": "Tending to confirm the Northern Paiute legend of the assault on the cave are the fire-arrow foreshafts shown in plate 46c, d.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c14",
+          "source_id": "si-te-cah-s3",
+          "host": "archive.org",
+          "statement": "But the authors also say the specimens of the Later Period are much more like Northern Paiute products than like those of the Pit River people, who the legend states were the cave dwellers, which tends to refute the legend.",
+          "statement_id": "Namun para penulis juga menyebut bahwa benda-benda Periode Akhir lebih mirip hasil karya Paiute Utara daripada karya orang Pit River, yang menurut legenda adalah penghuni gua, sehingga cenderung membantah legenda itu.",
+          "quote": "but tending to refute it is the fact that the specimens of the Later Period are much more like Northern Paiute products than like those of the Pit River people who, the legend states, were the cave dwellers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d5c58ed7f9ecf61874f3baa668de4ffbe064274b97ca8924fbf0d63f33cbff9"
+      "images": []
     },
     {
       "slug": "tulevieja",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "db2d944677fb61dfc4eb2684b04c5c967785a33cf7ff73913ca00f96c0454855",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tulevieja-c01",
@@ -4001,27 +4916,81 @@
           "quote": "The only way to save oneself once encountering her is to recite the prayer \"Alabado sea el Santísimo\" (\"Praised be the Most Holy Sacrament\"), which causes her to take flight and disappear toward the sun.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tulevieja-c06",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the legend, a beautiful girl had a secret relationship with a man from her town and became pregnant, drowned the child in a river and was punished by God by being turned into a hideous creature (in some versions she also drowns herself).",
+          "statement_id": "Dalam legenda, seorang gadis cantik menjalin hubungan rahasia dengan seorang pria di kotanya hingga hamil, menenggelamkan anaknya di sungai, lalu dihukum Tuhan menjadi makhluk mengerikan (dalam beberapa versi ia juga menenggelamkan diri).",
+          "quote": "In the legend, a beautiful girl had a secret relationship with a man from her town, resulting in pregnancy. She drowned the child in a river and was punished by God by being transformed into a hideous creature (in some versions she drowns herself as well).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c07",
+          "source_id": "tulevieja-s2",
+          "host": "mep.janium.net",
+          "statement": "In this version published by the Costa Rican education ministry, she was a little old woman who lived near the Virilla river in a dilapidated shack and wore a big tule hat to shield herself from the sun.",
+          "statement_id": "Dalam versi yang disusun kementerian pendidikan Kosta Rika ini, ia adalah seorang nenek yang tinggal dekat Sungai Virilla di gubuk reyot dan memakai topi besar dari tule untuk melindungi diri dari matahari.",
+          "quote": "Esta era una viejita que vivía cerca del río Virilla en una casucha destartalada por el tiempo, usaba para taparse del sol un gran sombrero de",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c08",
+          "source_id": "tulevieja-s2",
+          "host": "mep.janium.net",
+          "statement": "In this version she is described with bare breasts, hawk legs (gavilán), bat wings, a witch's face and a load of firewood.",
+          "statement_id": "Dalam versi ini ia dilukiskan dengan dada telanjang, kaki elang pemangsa (gavilán), sayap kelelawar, wajah penyihir, dan membawa kayu bakar.",
+          "quote": "pechos al desnudo, patas de gavilán, alas de murciélago, rostro de bruja y carga de leña.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c09",
+          "source_id": "tulevieja-s2",
+          "host": "mep.janium.net",
+          "statement": "It is said that she takes flight and falls upon a person in mortal sin, tearing the person to pieces.",
+          "statement_id": "Dikatakan ia terbang lalu jatuh menimpa orang yang sedang berdosa berat dan mencabik-cabiknya.",
+          "quote": "Se dice que alza vuelo y cae sobre la persona despedazándola cuando esta se encuentra en pecado mortal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c10",
+          "source_id": "tulevieja-s2",
+          "host": "mep.janium.net",
+          "statement": "Mocking children gave her the nickname Tulevieja and took pleasure in tormenting her.",
+          "statement_id": "Anak-anak yang suka mengejek memberinya julukan Tulevieja dan senang mengganggunya.",
+          "quote": "La chiquillería burlona le puso el apodo de Tulevieja, y se complacía en molestarla.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c11",
+          "source_id": "tulevieja-s2",
+          "host": "mep.janium.net",
+          "statement": "One day the wind blew her hat into the turbulent waters of the then swollen Tiribi river, carrying it away; she went after it and the head of water of the great flood drowned her.",
+          "statement_id": "Suatu hari angin menerbangkan topinya jatuh ke arus deras Sungai Tiribi yang sedang banjir; ia mengejarnya dan dihanyutkan banjir besar hingga tenggelam.",
+          "quote": "Un día el viento le voló el sombrero que cayó sobre las turbulentas aguas del entonces crecido río Tiribi, arrastrándolo en su corriente. Ella voló en su persecución. La cabeza de agua de la gran creciente la ahogó.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bb45ec610f376865cc4afa06d180cf443c521bf7d6933870323f11beeb848157"
+      "images": []
     },
     {
       "slug": "turtle-lake-monster",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "07cbb2aa09c70c71b590ea371556183d0346bf188a13611288ee5cca67654188",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "turtle-lake-monster-c01",
@@ -4062,27 +5031,91 @@
           "quote": "There is speculation that the monster sightings may be attributed to sightings of an unusually large lake sturgeon, or a relict population of prehistoric plesiosaurs.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c05",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "Turtle Lake is about 100 km north of North Battleford.",
+          "statement_id": "Turtle Lake berjarak sekitar 100 km di utara North Battleford.",
+          "quote": "Turtle Lake is about 100 km north of North Battleford.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c06",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "Some people who have seen it say it is about three to nine metres long, some say smooth-skinned and others scaly, and witnesses also say it has a horse-like or dog-like head.",
+          "statement_id": "Sebagian orang yang pernah melihatnya menyebut panjangnya sekitar tiga hingga sembilan meter; ada yang menyebut kulitnya halus, ada yang bersisik, dan saksi juga menyebut kepalanya mirip kuda atau anjing.",
+          "quote": "Some people who have seen the TLM say it’s about three to nine metres long. Some say it’s smooth-skinned. Others say it’s scaly. Witnesses also say it has a horse-like or dog-like head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c07",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "A man who wrote to the article's publisher recalled that as a child in 1985 he and his brother spotted the monster, which he described as a large fishlike creature perhaps seven to 10 feet long.",
+          "statement_id": "Seorang pria yang menulis kepada penerbit artikel mengenang bahwa pada 1985, saat masih anak-anak, ia dan saudaranya melihat monster itu, yang ia gambarkan sebagai makhluk besar mirip ikan, mungkin sepanjang tujuh hingga sepuluh kaki.",
+          "quote": "recalling how as a child in 1985, he and his brother spotted the TLM. ... it was a large fishlike creature, perhaps seven to 10 feet long.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c08",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "Skeptics think it could be a moose out for a swim.",
+          "statement_id": "Kaum skeptis menduga makhluk itu mungkin seekor moose yang sedang berenang.",
+          "quote": "Skeptics think it could be a moose out for a swim.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c09",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "Fisheries staff said they did depth soundings of Turtle Lake and never saw anything that suggested a monster lived there.",
+          "statement_id": "Staf perikanan mengatakan mereka melakukan pengukuran kedalaman Turtle Lake dan tidak pernah melihat apa pun yang menunjukkan adanya monster di sana.",
+          "quote": "The fisheries staff said they did depth soundings of Turtle Lake and never saw anything that suggested a monster lived there.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c10",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "An 84-year-old First Nation woman interviewed for an article recalled that after she moved to Turtle Lake, people told her to stay away from the eastern shore, near the deepest points of the lake where the monster lived.",
+          "statement_id": "Seorang perempuan First Nation berusia 84 tahun yang diwawancarai untuk sebuah artikel mengenang bahwa setelah pindah ke Turtle Lake, orang-orang menyuruhnya menjauhi tepi timur, dekat titik terdalam danau tempat monster itu tinggal.",
+          "quote": "an 84-year-old First Nation woman interviewed for the article recalled ... Later when she moved to Turtle Lake, people told her to stay away from the Eastern shore, near the deepest points of the lake where the monster lived.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c11",
+          "source_id": "turtle-lake-monster-s2",
+          "host": "theflatlander.ca",
+          "statement": "According to the article, the initial purpose of these lake monster stories, regardless of continental origin, is to teach children to respect the water as dangerous.",
+          "statement_id": "Menurut artikel itu, tujuan awal cerita-cerita monster danau semacam ini, apa pun asal benuanya, adalah mengajari anak-anak menghormati air sebagai sesuatu yang berbahaya.",
+          "quote": "The initial purpose of these stories, regardless of continental origin, is to teach children to respect the water as dangerous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d7929207d54a7b2968ad87717c3d10737e7f462f25ee3ac97cb691e14c9d49f"
+      "images": []
     },
     {
       "slug": "ulmecatl",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-4.md",
+      "entry_sha256": "2be6b34067f427cea94020ad081265388342bf87f4779cfb1fcc23813d060229",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ulmecatl-c01",
@@ -4103,10 +5136,49 @@
           "quote": "The third son who founded Cuetlachoapan, the place where Puebla is now, in addition to Tontonihuacan and Huitzilapan.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ulmecatl-c03",
+          "source_id": "ulmecatl-s2",
+          "host": "archive.org",
+          "statement": "In this Nahoa cosmogony poem, the \"ferocious serpent of white cloud\" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races.",
+          "statement_id": "Dalam puisi kosmogoni Nahoa ini, \"ular ganas dari awan putih\" yang tinggal di Citlálco bersatu dengannya, enam tlacáme (laki-laki) lahir, dan saudara-saudara itu tinggal di bumi serta menjadi sumber banyak bangsa.",
+          "quote": "the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races:",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ulmecatl-c04",
+          "source_id": "ulmecatl-s2",
+          "host": "archive.org",
+          "statement": "A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin.",
+          "statement_id": "Catatan kaki dalam buku yang sama menyebut bahwa orang Indian percaya bumi mula-mula dihuni raksasa, dan tulang besar yang ditemukan dalam keadaan fosil di galian dianggap sisa-sisa mereka; mereka menyebutnya quinametzin.",
+          "quote": "The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ulmecatl-c05",
+          "source_id": "ulmecatl-s2",
+          "host": "archive.org",
+          "statement": "The poem names the six brothers in turn: Xélhua the firstborn (a giant), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, and Otómitl, \"the Xocóyotl\".",
+          "statement_id": "Puisi itu menyebut keenam bersaudara berurutan: Xélhua si sulung (raksasa), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, dan Otómitl, \"Xocóyotl\".",
+          "quote": "The firstborn, the giant Xélhua, ... Tenoch, the great ... The strong Cuetlaxcoápan founded Ulmécatl; ... Xicaláncatl; ... The valiant Mixtécatl guards himself ... Otómitl, the Xocóyotl, lives ever",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ulmecatl-c06",
+          "source_id": "ulmecatl-s2",
+          "host": "archive.org",
+          "statement": "A footnote says Cuetlaxcoapan was the place where the city of Puebla stands today, and that Ulmécatl founded other places besides it.",
+          "statement_id": "Catatan kaki menyatakan bahwa Cuetlaxcoapan adalah tempat kota Puebla kini berada, dan bahwa Ulmécatl mendirikan (tempat-tempat) lain di samping itu.",
+          "quote": "Cuetlaxcoapan was the place where today is the city of Puebla. (Ulmécatl) founded besides",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d5e74a3c4cd18d1390a53acb1b082a40f65d6b2c2a2d2f875c947f1aaa26d323"
+      "images": []
     },
     {
       "slug": "unhcegila",

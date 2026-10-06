@@ -1,6 +1,6 @@
 # Review batch-050
 
-Diperiksa 2026-10-06T06:34:43.979Z. Berkas: batch-050.md, batch-050-fix-1.md, batch-050-fix-2.md, batch-050-fix-3.md.
+Diperiksa 2026-10-06T06:38:46.725Z. Berkas: batch-050.md, batch-050-fix-1.md, batch-050-fix-2.md, batch-050-fix-3.md, batch-050-fix-4.md.
 
 ## yatagarasu — lulus-otomatis
 
@@ -626,10 +626,7 @@ Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 ## raiju — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 1, exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -639,6 +636,17 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | raiju-c04 | exact | en.wikipedia.org | Its name appears in Edo essays and later folklore records. | Its name appears frequently in Edo period essays and modern folklore materials. |
 | raiju-c05 | exact | en.wikipedia.org | Raijū is described as made of or wrapped in lightning. | A raijū's body is composed of (or wrapped in) lightning. |
 | raiju-c06 | exact | en.wikipedia.org | Raijū is described as the companion of the thunder god Raijin. | Raijū is the companion of Raijin, the Shinto god of lightning. |
+| raiju-c07 | exact | yokai.com | A raijū is the embodiment of lightning in animal form, with long sharp claws and ferocious faces. | A raijū is the embodiment of lightning into an animal form. They had long, sharp claws and ferocious faces. |
+| raiju-c08 | exact | yokai.com | Raijū were generally thought to resemble wolves, dogs, tanuki, or even weasels or cats. | Generally, they were thought to look like wolves, dogs, tanuki, or even weasels or cats. |
+| raiju-c09 | exact | yokai.com | Raijū are said to live in the sky, a world totally off limits to humans before the 20th century. | Raijū live in the sky—a world which was totally off limits to humans before the 20th century. |
+| raiju-c10 | exact | yokai.com | Raijū are said to ride bolts of lightning to earth when thunder claps and to create mayhem wherever they land. | They ride bolts of lightning to earth when thunder claps, and create mayhem wherever they land. |
+| raiju-c11 | exact | yokai.com | Long ago raijū were seen as divine beasts, akin to the thunder gods (raijin). | Long ago, raijū were seen as divine beasts, akin to the thunder gods (raijin). |
+| raiju-c12 | exact | yokai.com | Small raijū are said to burrow into human belly buttons to hide from angry thunder gods, the origin of a Japanese superstition about covering the belly button when thunder is heard. | Small raijū like burrow into humans’ belly buttons to hide from angry thunder gods. This is the origin of a Japanese superstition which says to cover your belly button when you hear thunder. |
+| raiju-c13 | exact | yokai.com | Mummified and taxidermied remains of cats, monkeys, and dogs were presented as raijū in traveling shows. | Mummified and taxidermined remains of cats, monkeys, and dogs were presented as raijū and toured around the country in traveling shows. |
+| raiju-c14 | exact | yokai.com | In the Meiji period society changed rapidly with foreign science and technology, and yōkai like raijū were among the first victims of that modernization. | During the Meiji period, society was rapidly transformed due to the influx of foreign science and technology. Yōkai like raijū were one of the first victims of this modernization. |
+| raiju-c15 | exact | yokai.com | One legend tells of the samurai Tachibana Dōsetsu, who one night sheltered from a storm under a tree when lightning struck. | Another legend involves the samurai Tachibana Dōsetsu. One night he was taking shelter from a storm under a tree when lightning struck. |
+| raiju-c16 | exact | yokai.com | When the smoke cleared a dead raijū lay on the ground beside him, and afterwards he named his sword Raikiri. | When the smoke had cleared, there was a dead raijū on the ground next to him. Afterwards, he named his sword Raikiri |
+| raiju-c17 | exact | yokai.com | Because they were so scary, raijū usually appear in stories as beasts to be slain, like oni. | Because they were so scary, raijū are usually presented in stories as beasts to be slain, like oni. |
 
 
 ## satori-folklore — lulus-otomatis
@@ -785,10 +793,7 @@ Klaim 14 (exact 14), sumber 2, gambar 0.
 
 ## nure-onna — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 1, exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -798,6 +803,15 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | nure-onna-c04 | exact | en.wikipedia.org | Tales place nure-onna at seas or rivers. | They are similar to the yōkai called isoonna of Kyushu, and like the isoonna, they are said to appear at seas or rivers. |
 | nure-onna-c05 | exact | en.wikipedia.org | Its name is linked to hair that is always wet. | Their name comes from how their hair is always wet in legends. |
 | nure-onna-c06 | exact | en.wikipedia.org | Edo illustrated books show a snake-bodied woman, though no classical tale of that form has been identified. | Many Edo Period publications such as the Hyakkai Zukan, Gazu Hyakki Yagyō, among others, depict this yōkai as a woman with a snake body, which would make it appear as if this was a well-known yōkai of the time, but there are no stories about a snake-bodied nure-onna in the classical literature of the time that can be found. |
+| nure-onna-c07 | exact | yokai.com | Nure onna are described as vampiric sea serpents who haunt shores and rivers looking for humans to eat. | Nure onna are vampiric sea serpents who haunt shores and rivers looking for humans to eat. |
+| nure-onna-c08 | exact | yokai.com | Nure onna are most commonly found on the shores of Kyūshū, with stories of encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture. | They are most commonly found on the shores of the island of Kyūshū, but there are stories of nure onna encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture. |
+| nure-onna-c09 | exact | yokai.com | Yokai.com describes two variations of nure onna: one without arms, resembling an enormous sea serpent with a woman's head, and one with human-like arms. | There are two variations of this yōkai: one without arms, which resembles an enormous sea serpent with a woman’s head, and one with human-like arms. |
+| nure-onna-c10 | exact | yokai.com | Their faces are hideous with serpent-like features such as a forked tongue, and long black hair sticks to their dripping bodies. | Their faces are hideous and betray serpent-like features such as a forked tongue. They have long black hair which sticks to their dripping bodies. |
+| nure-onna-c11 | exact | yokai.com | Nure onna magically disguise themselves as a distressed woman carrying a bundled baby and cry out for help from fishers, sailors, or passersby. | Nure onna magically disguise themselves as a distressed woman carrying a bundled up baby. They cry out for help from fishers, sailors, or anybody passing by. |
+| nure-onna-c12 | exact | yokai.com | When the prey approaches, a nure onna pleads with the victim to hold her baby for a moment so she can rest. | When the prey approaches, a nure onna will plead with their victim to hold her baby for just a moment so that she can rest. |
+| nure-onna-c13 | exact | yokai.com | If the victim agrees and takes the bundle, the "baby" becomes as heavy as a boulder and the victim cannot move. | If he agrees and takes the bundle, the “baby” becomes as heavy as a boulder. The victim is unable to move. |
+| nure-onna-c14 | exact | yokai.com | The nure onna is then free to attack her helpless victim, draining his blood with her long, serpentine tongue. | The nure onna is then free to attack her helpless victim, feeding by draining his blood with her long, serpentine tongue. |
+| nure-onna-c15 | exact | yokai.com | Nure onna frequently appear together and cooperate with ushi oni, as they share the same environments and diet. | Nure onna frequently appear together and cooperate with ushi oni, as they inhabit the same environments and share the same diet. |
 
 
 ## sarutahiko-okami — lulus-otomatis
@@ -817,22 +831,22 @@ Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
 
 ## shirime — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**warn**
-- `claims (shirime-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shirime-c01 | loose | en.wikipedia.org | Shirime is a yōkai that looks human at a distance. | Shirime (Japanese: 尻目; lit. "buttocks eye") is a yōkai, but when close enough, however, it appears that it is a human. |
-| shirime-c02 | exact | en.wikipedia.org | It is depicted faceless, with an eye in its buttocks. | It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus. |
+| shirime-c02 | exact | en.wikipedia.org | It has no facial features, but has an eye in its butt, in the place of its anus. | It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus. |
 | shirime-c03 | exact | en.wikipedia.org | In its tale, a glittering eye opens before a traveler. | A huge glittering eye then opened up where the strange man's anus should have been. |
 | shirime-c04 | exact | en.wikipedia.org | The poet and painter Buson included it in several yōkai pictures. | This creature was so liked by the haiku poet and artist Buson, he included it in many of his yōkai paintings. |
 | shirime-c05 | exact | en.wikipedia.org | The tale says it does not intend to harm people. | Although Shirime appears to have a very startling appearance, it does not mean to harm people. |
 | shirime-c06 | exact | en.wikipedia.org | The creature enjoys frightening people. | Its joy comes from scaring people. |
+| shirime-c07 | exact | yokai.com | From a distance shirime appears to be a normal human being, but up close it becomes apparent that it is a yōkai. | From a distance, shirime appears to be a normal human being. When close enough, however, it becomes apparent that it is a yokai. |
+| shirime-c08 | exact | yokai.com | Shirime has no facial features; a large eye that shines like lightning sits in its butt hole. | It has no facial features, but located in its butt hole is a large eye which shines like lightning. |
+| shirime-c09 | exact | yokai.com | Shirime approaches travelers on the road late at night looking like a man in a kimono, and asks if they have a moment to spare. | Shirime approaches travelers on the road late at night, looking like a man wearing a kimono. Once it has their attention, it asks them if they have a moment to spare. |
+| shirime-c10 | exact | yokai.com | Before they can answer, shirime drops its kimono, bends over, and reveals the giant shining eye in its butt hole. | Before they can answer, the shirime drops its kimono to the ground and bends over, spreading its butt cheeks and revealing the giant, shining eye located inside of its butt hole. |
+| shirime-c11 | exact | yokai.com | Other than its startling behavior shirime does nothing harmful, and appears to thrive solely on the joy of scaring people. | Other than its very startling behavior, shirime does not do anything harmful. It appears to thrive solely on the joy of scaring people. |
+| shirime-c12 | exact | yokai.com | Yokai.com judges that, because of its alternate name nuppori-bōzu and its shocking behavior, shirime is very likely a close relative of the noppera-bō, another faceless ghost. | because of its alternate name (nuppori-bōzu) and its shocking behavior, it is very likely that shirime is a close relative of the noppera-bō, another faceless ghost. |
 
 
 ## takamimusubi — lulus-otomatis

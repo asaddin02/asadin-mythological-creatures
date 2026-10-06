@@ -1,6 +1,6 @@
 # Review batch-146
 
-Diperiksa 2026-10-06T05:54:51.927Z. Berkas: batch-146.md, batch-146-fix-1.md, batch-146-fix-2.md.
+Diperiksa 2026-10-06T06:39:22.513Z. Berkas: batch-146.md, batch-146-fix-1.md, batch-146-fix-2.md, batch-146-fix-3.md, batch-146-fix-4.md.
 
 ## wihwin — lulus-otomatis
 
@@ -417,10 +417,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## hudson-river-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -428,14 +425,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hudson-river-monster-c02 | exact | en.wikipedia.org | The name "Kipsy" is believed to come from Poughkeepsie, a city on the river. | The name "Kipsy" is believed to derive from Poughkeepsie, a city located along the river. |
 | hudson-river-monster-c03 | exact | en.wikipedia.org | It was first reported in 1886 newspaper articles that called it simply "the sea serpent." | The creature was first reported in a series of newspaper articles published in 1886, in which it is referred to simply as "the sea serpent." |
 | hudson-river-monster-c04 | exact | en.wikipedia.org | Many sources claim Kipsy appears in Native American legends or was seen by Henry Hudson's crew, but none provide documentation. | Though many sources allege that "Kipsy" was described in Native American legends or spotted by Henry Hudson's crew as the sailed up the Hudson River on the Halve Maen, none provide any documentation in support of these claims. |
+| hudson-river-monster-c05 | exact | erenow.org | According to this encyclopedia, Kipsy is named for Poughkeepsie, and its local legends tell of an ancient creature that many sailors spotted on the Hudson River, described as a shark, manatee, sea serpent, or dinosaur. | Poughkeepsie is the city for which Kipsy is named, and its local legends talk about an ancient creature that many sailors spotted on the Hudson River, describing the creature as a shark, manatee, sea serpent, or dinosaur. |
+| hudson-river-monster-c06 | exact | erenow.org | In 1886, dozens of people insisted they had seen a 100-foot-long sea serpent with a huge head in the Hudson River, repeatedly rearing as high as ten feet in the air. | In 1886 dozens of people insisted they had seen a 100-foot-long sea serpent with a huge head in the Hudson River repeatedly rearing as high as ten feet in the air. |
+| hudson-river-monster-c07 | exact | erenow.org | According to this encyclopedia, the so-called monster was identified as a burned timber from the steamship Daniel Drew. | As it turned out, the so-called monster was identified as a burned timber from the steamship Daniel Drew. |
+| hudson-river-monster-c08 | exact | erenow.org | Kipsy reappeared in the New York Times in 2006 when witnesses at Chelsea Piers, Westchester County, and Kingsland Point in Sleepy Hollow reported seeing a manatee weighing 1,000 pounds. | Kipsy reappeared in the New York Times in 2006 when witnesses at Chelsea Piers, Westchester County, and Kingsland Point in Sleepy Hollow reported that they had seen a manatee with a weight of 1,000 pounds. |
+| hudson-river-monster-c09 | exact | erenow.org | According to this encyclopedia, the only images of Kipsy that exist are paintings, because no one has succeeded in photographing the lake monster. | So far, the only images of Kipsy that exist are paintings because no one has been successful in photographing the lake monster. |
+| hudson-river-monster-c10 | exact | erenow.org | A Poughkeepsie mural by local artists Margaret and Richard Crenson on the Hudson Valley Office Furniture building in 1989 shows Kipsy as a mythical serpent living in the Hudson River. | a Poughkeepsie mural created by local artists Margaret and Richard Crenson on the Hudson Valley Office Furniture building in 1989 shows Kipsy as a mythical serpent living in the Hudson River. |
+| hudson-river-monster-c11 | exact | erenow.org | In her 2009 visual artwork series Bodice of the Goddess—The Secret Life of the Hudson River, American artist Carla Goldberg portrayed Kipsy playing ball with one of the river goddess's heads. | In her 2009 visual artwork series Bodice of the Goddess—The Secret Life of the Hudson River, American artist Carla Goldberg portrayed Kipsy as playing ball with one of the river goddess’s heads. |
 
 
 ## jenu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -444,14 +445,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | jenu-c03 | exact | en.wikipedia.org | Once transformed, Jenu look hairy and emaciated, with bones poking through the skin. | Once transformed, Jenu appear hairy and emaciated, with bones poking through the skin. |
 | jenu-c04 | exact | en.wikipedia.org | Jenu are most active in winter, when humans move less and are easier to hunt. | Jenu are most active during the winter because humans move less and are easier to hunt. |
 | jenu-c05 | exact | en.wikipedia.org | Jenu are comparable to the Wendigo of Anishinaabe and Cree mythology and, less so, to Sasquatch. | Jenua are comparable to the Wendigo of Anishinaabe and Cree mythology (and, to a lesser extent, Sasquatch). |
+| jenu-c06 | exact | www.everyculture.com | Micmac religious belief is highly syncretic, and non-Christian supernatural beings live on alongside Christian belief; these include Kukwes, a giant cannibal, Wiklatmuj, little forest people, and Jenu, northern ice giants. | Micmac religious belief is highly syncretic, and other non-Christian supernatural beings also live on in tandem with Christian belief. These include Kukwes, a giant cannibal, Wiklatmuj, little forest people, Jenu, northern ice giants, |
+| jenu-c07 | exact | www.native-languages.org | The page lists Jenu, Cenu, Chenu, Jinu, Cinu, Djenu, Chinu, Cheno and Tsi-noo as alternate spellings of the name Chenoo, with tribal affiliation Micmac, Maliseet and Passamaquoddy. | Name: Chenoo Tribal affiliation: Micmac, Maliseet, Passamaquoddy Alternate spellings: Jenu, Cenu, Chenu, Jinu, Cinu, Djenu, Chinu, Cheno, Chenu, Tsi-noo |
+| jenu-c08 | exact | www.native-languages.org | Chenoos are the evil man-eating ice giants of northern Wabanaki legends; a Chenoo was once a human who became possessed by an evil spirit or committed a terrible crime (especially cannibalism or withholding food from a starving person), causing his heart to turn to ice. | Chenoos are the evil man-eating ice giants of northern Wabanaki legends. A Chenoo was once a human being who either became possessed by an evil spirit or committed a terrible crime (especially cannibalism or withholding food from a starving person), causing his heart to turn to ice. |
+| jenu-c09 | exact | www.native-languages.org | In a few legends a human has been successfully rescued from the frozen heart of a Chenoo, but usually once a person has been transformed into a Chenoo, their only escape is death. | In a few legends a human has been successfully rescued from the frozen heart of a Chenoo, but usually once a person has been transformed into a Chenoo, their only escape is death. |
+| jenu-c10 | exact | www.native-languages.org | The page lists related figures in other tribes: Kee-wakw (Abenaki), Windigo (Anishinabe) and Wihtiko (Cree). | Related figures in other tribes: Kee-wakw (Abenaki), Windigo (Anishinabe), Wihtiko (Cree) |
 
 
 ## la-bolefuego — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -459,14 +462,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | la-bolefuego-c02 | exact | en.wikipedia.org | It is a bright apparition of the dark nights of Los Llanos, like a flashing lantern that spins and shakes violently. | It is said to be a bright apparition, found in the dark nights of Los Llanos. It is described as a flashing lantern that turns and shakes violently. |
 | la-bolefuego-c03 | exact | en.wikipedia.org | The Bolefuego is said to be the spirit of a woman burned alive at home with her two children; she attacks travelers. | The Bolefuego is said to be the spirit of a woman that was burned alive in her home, along with her two children. She attacks travelers. |
 | la-bolefuego-c04 | exact | en.wikipedia.org | Those facing her are told not to pray; unlike other evil beings, she is attracted by prayers. | Those facing her are advised not to pray; unlike other evil entities, the Bolefuego is attracted by prayers. |
+| la-bolefuego-c05 | exact | bibliofep.fundacionempresaspolar.org | According to this folklore book on Portuguesa state, many beliefs are woven around the Bola de Fuego's origin: the soul in torment of a sinful bishop, a son who cursed his mother, two comadres who quarreled on Holy Thursday, the wandering Jew, the tyrant Aguirre, or the wandering spirit of a loving couple who made love during Holy Week. | Sobre su origen se tejen muchas creencias, entre ellas que se trata del alma en pena de un obispo pecador, de un hijo que maldijo a su madre, de dos comadres que pelearon un jueves santo, del judío errante, del tirano Aguirre, o del espíritu vagante de una pareja enamorada que hizo el amor en los días de la Semana Santa. |
+| la-bolefuego-c06 | exact | bibliofep.fundacionempresaspolar.org | There is no specific zone of Portuguesa where the Bola de Fuego or bola de candela can be located; it comes and goes across the whole state, even all corners of the Venezuelan plains. | No hay una zona específica de Portuguesa donde se pueda ubicar la Bola de Fuego o bola de candela, ella anda y desanda por toda la geografía del estado, e incluso por todos los rincones del llano venezolano. |
+| la-bolefuego-c07 | exact | bibliofep.fundacionempresaspolar.org | In one testimony, if one looks at it fixedly it looks like a person burning inside with open arms as if begging for mercy; the older women began to curse it and swear at it, and it began to move away. | Si uno la mira fijo se ve como una persona prendida adentro, se ven los brazos abiertos como pidiendo clemencia. Yo recuerdo que las mujeres más grandes comenzaron a maldecirla y a decirle groserías y ella comenzó a alejarse. |
+| la-bolefuego-c08 | exact | bibliofep.fundacionempresaspolar.org | In another testimony, when a man among them started praying to it, the uncle told him to stop because those are lost souls, and the more one prays to them the more they stick to one from behind. | un señor que andaba con nosotros se puso a rezarle y mi tío le dijo: Dejá de está rezando que esas son ánimas perdidas que andan desandando y mientras más le recéis más se nos va a pegar atrás. |
+| la-bolefuego-c09 | exact | bibliofep.fundacionempresaspolar.org | In another testimony, the ball of fire or light was a strange object that gave off no heat but lit the whole road. | Esta bola de candela o de luz era un objeto extraño, no producía ningún calor, pero sí nos alumbraba todo el camino. |
+| la-bolefuego-c10 | exact | bibliofep.fundacionempresaspolar.org | One witness says he was not afraid because his parents had told him about it and never said it did harm. | A mí no me dio miedo porque mis padres me habían hablado de ella y jamás me dijeron que hacía daño. |
+| la-bolefuego-c11 | exact | bibliofep.fundacionempresaspolar.org | One witness reports that scientists say the phenomenon is accumulated gases that produce light or an explosion, but having seen it himself he cannot believe that. | Por haber visto este fenómeno yo no puedo creer en el concepto de lo que dicen los científicos: que son gases acumulados que hacen luz o explosión. |
 
 
 ## la-diablesse — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -475,14 +482,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | la-diablesse-c03 | exact | en.wikipedia.org | She can bewitch an unsuspecting male victim, lead him into the forest and then vanish. | She can cast spells on her unsuspecting male victim, whom she leads into the forest. When in the forest, she disappears. |
 | la-diablesse-c04 | exact | en.wikipedia.org | The confused, lost victim runs through the forest until he falls into a ravine or river, or is eaten. | The victim (confused, lost, and scared) runs around the forest until he falls into a ravine or river, or gets eaten. |
 | la-diablesse-c05 | exact | en.wikipedia.org | Derek Walcott refers to La Diablesse in his play Dream on Monkey Mountain. | La Diablesse is referred by Derek Walcott in his play Dream on Monkey Mountain. |
+| la-diablesse-c06 | exact | www.gutenberg.org | The book Two Years in the French West Indies is by Lafcadio Hearn. | Title: Two Years in the French West Indies Author: Lafcadio Hearn |
+| la-diablesse-c07 | exact | www.gutenberg.org | Hearn writes that the "guiablesse" (in Bitaco idiom) represents a singular Martinique superstition: it is said that sometimes at noonday a beautiful woman passes silently through an isolated plantation, smiling at the workers in the cane-fields and tempting men to follow her, and he who follows her never comes back. | The deviless (in true Bitaco idiom, "guiablesse") represents a singular Martinique superstition. It is said that sometimes at noonday, a beautiful negress passes silently through some isolated plantation,—smiling at the workers in the cane-fields,—tempting men to follow her. But he who follows her never comes back again |
+| la-diablesse-c08 | exact | www.gutenberg.org | In Hearn's chapter "La Guiablesse", none ever saw her by night; her hour is the fulness of the sun's flood-tide, and she comes in the dead hush and white flame of windless noons. | None ever saw her by night. Her hour is the fulness of the sun's flood-tide: she comes in the dead hush and white flame of windless noons |
+| la-diablesse-c09 | exact | www.gutenberg.org | In Hearn's tale her face transforms into goblin horror and she shrieks with hideous laughter; he, smitten to the brain with the sight of her, reels, falls backward two thousand feet and dies upon the rocks of a mountain torrent. | the goblin horror of her face transformed,—shrieks with a burst of hideous laughter: ... smitten to the brain with the sight of her, reels, recoils, and, backward falling, crashes two thousand feet down to his death upon the rocks of a mountain torrent. |
 
 
 ## lagahoo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -492,28 +500,32 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | lagahoo-c04 | exact | en.wikipedia.org | It can change into horses, pigs or goats and often takes a centaur-like form. | It can shapeshift into various animals, including horses, pigs or goats, and said to often take the form of a creature similar to a centaur |
 | lagahoo-c05 | exact | en.wikipedia.org | The Lagahoo can change its size from tiny to gigantic in an instant. | The Lagahoo also possesses the ability to alter its size from tiny to gigantic in an instant. |
 | lagahoo-c06 | exact | en.wikipedia.org | To kill it, one must beat it with a stick anointed with holy water and holy oil for nine days. | To kill the Lagahoo one must beat the creature with a stick which has been anointed with holy water and holy oil for nine days. |
+| lagahoo-c07 | exact | caribbeanreviewofbooks.com | The Trinidadian version of the universal shape-shifter is the lagahoo; the word comes from the French loup-garou, meaning werewolf. | The Trinidadian version of the universal shape-shifter is the lagahoo — the word comes from the French loup-garou, meaning werewolf. |
+| lagahoo-c08 | exact | caribbeanreviewofbooks.com | The poet James Aboud quotes Gerard Besson's Folklore of Trinidad as an epigraph: the Lagahoo could change his shape into any beast or form and roam the streets or forests. | As an epigraph to his new book of poems, James Aboud quotes Gerard Besson’s Folklore of Trinidad: Lagahoo could change his shape into any beast or form and roam the streets or forests. |
+| lagahoo-c09 | exact | caribbeanreviewofbooks.com | In the same quoted passage, to see him properly one had to put the yampee, or mucus from a dog's eye, in one's own eye and look through the keyhole at midnight. | In order to see him properly, you had to put the yampee or mucus from a dog’s eye in your own eye and look through your keyhole at midnight. |
+| lagahoo-c10 | exact | caribbeanreviewofbooks.com | In the same quoted passage, in everyday life he could be an Obeah man, or even a man of some learning, living a quiet, solitary life. | In everyday life, he could be an Obeah man, or even a man of some learning, living a quiet, solitary life. |
+| lagahoo-c11 | exact | caribbeanreviewofbooks.com | In the same quoted passage, he was a genius at maiming or killing, and people said that sometimes he became so tall that his head disappeared above the trees. | He was a genius at maiming or killing. People said that sometimes he became so tall that his head disappeared above the trees. |
 
 
 ## letiche — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | letiche-c01 | exact | en.wikipedia.org | The letiche is a creature of Cajun folklore in Louisiana, United States, that haunts the bayous (swamps). | The letiche is a creature in Cajun folklore in Louisiana, United States, which haunts the bayous (swamps). |
 | letiche-c02 | exact | en.wikipedia.org | It is described as the soul of an illegitimate unbaptized infant, or a child raised by alligators. | It is variously described as the soul of an illegitimate unbaptized infant, or a human child raised by alligators. |
 | letiche-c03 | exact | en.wikipedia.org | The letiche lurks in the bayous, upsetting boats and attacking travelers. | The letiche is said to lurk in the bayous and upset boats and attack travelers. |
+| letiche-c04 | exact | www.gutenberg.org | In the poem Evangeline, a character tells children tales of the Loup-garou in the forest, of the goblin that came in the night to water the horses, and of the white Létiche, the ghost of a child who died unchristened and was doomed to haunt unseen the chambers of children. | For he told them tales of the Loup-garou in the forest, And of the goblin that came in the night to water the horses, And of the white Létiche, the ghost of a child who unchristened Died, and was doomed to haunt unseen the chambers of children; |
+| letiche-c05 | exact | www.gutenberg.org | Evangeline: A Tale of Acadie is by Henry Wadsworth Longfellow. | Title: Evangeline: A Tale of Acadie Author: Henry Wadsworth Longfellow |
+| letiche-c06 | exact | archive.org | According to this compilation, the letiche is an animal whose form is scarcely defined, of dazzling whiteness, seen only at night and disappearing the moment anyone tries to touch it. | It is an animal whose form is scarcely defined, of dazzling whiteness, which is only seen in the night-time, and disappears the moment any one attempts to touch it. |
+| letiche-c07 | exact | archive.org | According to this compilation, letiches are believed to be the souls of infants dead without baptism, and the compiler suggests this pretty little spirit was most probably no other than the agile and timid ermine of Normandy and Britanny (spelling as in the source). | souls of infants dead without baptism. Most probably this pretty little spirit was no other than the agile and timid ermine of Normandy and Britanny. |
+| letiche-c08 | exact | pantheon.org | According to Encyclopedia Mythica, in superstitious belief at Bayeux, Normandy, the letiche is an animal of scarcely defined form and dazzling whiteness, seen only at night and disappearing when touched; letiches are believed to be the souls of infants who died without having been baptized. | In superstitious belief at Bayeux, Normandy, an animal whose form is scarcely defined, of dazzling whiteness, which is only seen at night time, and disappears the moment any one attempts to touch it. The letiches are believed to be the souls of infants who died without having been baptized. |
 
 
 ## madre-de-aguas — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -523,14 +535,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | madre-de-aguas-c04 | exact | en.wikipedia.org | She has two horn-like projections on her head and thick scales impenetrable to bullets. | has two extrusions similar to horns in the frontal region of her head, and is covered in scales thick and distributed inversely as present in other boa snakes, which is impenetrable to bullets. |
 | madre-de-aguas-c05 | exact | en.wikipedia.org | She inhabits rivers and lakes, which never dry while she lives there. | It is said that it inhabits rivers and lakes, which never dry out while it lives there. |
 | madre-de-aguas-c06 | exact | en.wikipedia.org | The Madre de aguas never dies, and anyone who tries to kill or capture her dies. | Madre de aguas never dies, and anyone who tries to kill or capture it dies. |
+| madre-de-aguas-c07 | exact | oncubanews.com | An OnCubaNews editor's note quotes Feijóo in the book Mitología cubana (1986): in his research on the Cuban Madres de aguas he traveled through three provinces, Las Villas, Camaguey and La Habana. | En el libro “Mitología cubana”, Ediciones Cubanas, 1986; Feijóo cuenta: “En nuestras investigaciones tras las Madres de aguas cubanas recorrimos tres provincias: Las Villas, Camaguey y La Habana, |
+| madre-de-aguas-c08 | exact | oncubanews.com | In a quoted field testimony, a speaker says everyone tells him there is a Madre de aguas in the Laguna del Itabo, a snake with horns ("tarros"), and that the lagoon never dries up because it has a Madre de aguas. | A mí me dice todo el mundo que aquí en la Laguna del Itabo hay un Madre de aguas, una serpiente con tarros. Esa laguna nunca se seca porque tiene Madre de aguas. |
+| madre-de-aguas-c09 | exact | oncubanews.com | In the same testimony, fishermen are said to have grabbed it by hand but had to let it go because it pulls hard and was taking them down. | pescadores que se han metido ahí, que hasta la han agarrado con la mano, y han tenido que soltarla porque ella jala mucho, y se los llevaba para abajo. |
 
 
 ## midnight-beauty — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -541,40 +553,46 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | midnight-beauty-c05 | exact | pt.wikipedia.org | In Mexico she was named "La Llorona". | No México recebeu o nome de "La Llorona" |
 | midnight-beauty-c06 | exact | pt.wikipedia.org | One Brazilian version: a beautiful young woman who appears on roads asking men for rides. | Uma bela jovem que aparece em estradas e pede carona para os homens. |
 | midnight-beauty-c07 | exact | pt.wikipedia.org | If the man truly betrays his partner she may kill him; otherwise she only wounds him. | Se ele realmente trair, ela poderá matá-lo; caso contrário, ela apenas irá feri-lo. |
+| midnight-beauty-c08 | exact | www.portaldotransito.com.br | Portal do Trânsito writes that the legend of the woman in white has many variants in various parts of the world, and in Brazil she is also called Bela da Noite or Mulher da meia-noite. | A assustadora lenda da mulher de branco possui diversas variantes em várias partes do mundo. No Brasil, a mulher de branco também recebe os nomes de Bela da Noite ou Mulher da meia-noite. |
+| midnight-beauty-c09 | exact | www.portaldotransito.com.br | One of the main versions tells of a young woman dressed as a bride who appears on roads, asking lone drivers for a ride and for help getting home. | Uma das principais versões conta a lenda de uma jovem vestida como uma noiva. Ela aparece em estradas pedindo carona para motoristas solitários e pedindo ajuda para voltar para casa. |
+| midnight-beauty-c10 | exact | www.portaldotransito.com.br | As they pass in front of a cemetery, she suddenly disappears from inside the car, leaving the drivers confused and terrified. The apparition is supposedly the spirit of a bride who died in an accident on the eve of her wedding. | No momento que passam em frente a algum cemitério, ela desaparece subitamente de dentro do carro, deixando os motoristas confusos e apavorados. Supostamente, a assombração seria a manifestação do espírito de uma noiva que morreu em um acidente na véspera de seu casamento. |
 
 
 ## mixtecatl — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mixtecatl-c01 | exact | en.wikipedia.org | Mixtecatl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli (or Ilancueitl) who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Mixtecatl (From Nahuatl, 'Inhabitant of the land of clouds') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli or Ilancueitl that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology. |
 | mixtecatl-c02 | exact | en.wikipedia.org | He was the fifth son, founder of Mixtlan, origin of the people of the region now called Mixteca. | The fifth son who founded Mixtlan from where the natives of the region known today as Mixteca come from. |
+| mixtecatl-c03 | exact | archive.org | In this Nahoa cosmogony poem, a being of many jaws and bloody tongues, by a metamorphosis, is sanctified and takes the rare name of Ilancuéye. | With many jaws and bloody tongues; By such a metamorphosis is sanctified, And takes the rare name of Ilancuéye: |
+| mixtecatl-c04 | exact | archive.org | In the poem, the "ferocious serpent of white cloud" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races. | the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races: |
+| mixtecatl-c05 | exact | archive.org | In the poem, the valiant Mixtécatl guards himself from Mixtecápan in the barren hills; footnote 32 states that it is today called simply Mixteca. | The valiant Mixtécatl guards himself From Mixtecápan in the barren hills; (32) ... (32) Today is called simply Mixteca. |
+| mixtecatl-c06 | exact | archive.org | A footnote in the same book explains that the name Iztamixcóhuatl is composed of iztac (white), mixtli (cloud) and cohuatl (serpent). | Iztamixcóhuatl is composed of iztac, white, mixtli, cloud, and cohuatl, serpent; |
+| mixtecatl-c07 | exact | archive.org | A footnote explains that Ilancueye means "old frog" and says Mr. Orozco y Berra, following Torquemada, fell into the error of calling this goddess Ilancueitl. | Ilancueye is composed of ilamatl or ilantli, old, and of cueye, corruption of cueyatl, "frog; old frog." Mr. Orozco y Berra, following Torquemada, fell into the error of calling this goddess Ilancueitl |
+| mixtecatl-c08 | exact | archive.org | A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin. | The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin, |
 
 
 ## otomitl — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | otomitl-c01 | exact | en.wikipedia.org | Otomitl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Otomitl (From Nahuatl, 'Jute bone' or 'Where the otomies are') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology. |
 | otomitl-c02 | exact | en.wikipedia.org | He was the sixth son, who climbed the mountains near Mexico and raised the settlements of Xilotepec, Tollan and Otompan. | The sixth son who climbed the mountains near Mexico, and raised the populations of Xilotepec, Tollan, and Otompan. |
+| otomitl-c03 | exact | archive.org | In this Nahoa cosmogony poem, the "ferocious serpent of white cloud" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races. | the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races: |
+| otomitl-c04 | exact | archive.org | A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin. | The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin, |
+| otomitl-c05 | exact | archive.org | The poem names the six brothers in turn: Xélhua the firstborn (a giant), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, and Otómitl, "the Xocóyotl". | The firstborn, the giant Xélhua, ... Tenoch, the great ... The strong Cuetlaxcoápan founded Ulmécatl; ... Xicaláncatl; ... The valiant Mixtécatl guards himself ... Otómitl, the Xocóyotl, lives ever |
+| otomitl-c06 | exact | archive.org | Robelo's footnote says Xocóyotl means "the last son", and that the Aztec expression "socoyote" was formed from this word. | Xocóyotl means “the last son.“ From this word was formed the Aztec expression |
+| otomitl-c07 | exact | archive.org | In Robelo's poem, Otómitl, the Xocóyotl, lives always in the mountains around Mexico and prospers in rich populations such as Túllan, Xilatepéc and Otómpan. | Otómitl, the Xocóyotl, lives ever ... In the mountains that lie around Mexico And there prospers in rich populations, Such as Túllan, of wisdom the emporium, Xilatepéc and Otómpan, of labor. |
+| otomitl-c08 | exact | archive.org | Robelo's footnote states that these populations now carry the names Tula, Jilotepec and Otumba, and all belong to the state of Hidalgo. | These populations now carry the names of Tula, Jilotepec, Otumba and all belong to the state of Hidalgo. |
 
 
 ## pincoy — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -583,14 +601,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | pincoy-c03 | exact | en.wikipedia.org | He is the son of Millalobo, king of the seas, and the human Huenchula; his sisters are the Sirena chilota and the Pincoya, who is also his wife. | He is the son of Millalobo (mythical king of the seas of Chiloé) and the human Huenchula; his sisters, are the Sirena chilota and the Pincoya (which also is his wife). |
 | pincoy-c04 | exact | en.wikipedia.org | With his sisters he carries the dead from the sea to the Caleuche. | With his sisters he carries the dead from the sea unto the Caleuche. |
 | pincoy-c05 | exact | en.wikipedia.org | He sings a beautiful, strange song so the Pincoya begins her magical dance for the fertility of the sea. | he is responsible of singing a beautiful and strange song, so that the Pincoya start her magical dance, for fertility of the sea. |
+| pincoy-c06 | exact | chiloemitologico.cl | According to Chiloé Mitológico, the Pincoy has the body of a large seal in bright silver, with a handsome, manly human face and a thick golden mane. | tiene cuerpo de foca de gran tamaño, color plateado brillante, con hermoso y varonil rostro humano, luciendo poblada melena dorada. |
+| pincoy-c07 | exact | chiloemitologico.cl | The Pincoy is the administrator of his father's domains, a strict inspector of the faithful fulfilment of his father's orders, and a careful watcher over all processes taking place in the seas. | Es el administrador en los dominios de su padre; inspector severo del fiel cumplimiento de sus mandatos; vigilante acucioso del normal desenvolvimiento de todos los procesos que se desarrollan en los mares; |
+| pincoy-c08 | exact | chiloemitologico.cl | He always keeps watch over the activities of his sisters, the Pincoya and the Sirena. | Permanece siempre atento a las actividades de sus hermanas, la Pincoya y la Sirena |
+| pincoy-c09 | exact | chiloemitologico.cl | Between the Pincoya and the Pincoy there is a rare union: the tale presents them as brother and sister and as husband and wife at the same time. | Entre la Pincoya y el Pincoy, existe una rara unión. El relato los señala como hermanos y esposos al mismo tiempo. |
+| pincoy-c10 | exact | chiloemitologico.cl | The author suggests this may be explained as a duplication of the same legend, that of the marriage of Millalobo with Huenchula. | Podrían explicarse estos hechos, como una duplicación de la misma leyenda, del matrimonio del Millalobo con la Huenchula; |
+| pincoy-c11 | exact | chiloemitologico.cl | All versions agree that he is very handsome and attractive and likes music, especially the sound of a flute made of colihue; the author presumes his name comes from this fondness (Pinculhue = flute). | Todas las versiones coinciden en decir que es muy hermoso, atrayente y que le agrada la música, sintiendo atracción muy especial, por la que produce la flauta hecha de colihue (a esta afición debe seguramente su nombre: de Pinculhue=flauta). |
+| pincoy-c12 | exact | chiloemitologico.cl | It is told that on the island of Alao, in the house of a girl admired for her beauty, a child with a seal's head was born who lived only a few hours, and paternity was blamed on the Pincoy. | En la isla de Alao, se cuenta, que en la casa donde vivía una muchacha admirada como hermosa, nació un niño con cabeza de foca, que sólo vivió escasas horas y cuya paternidad se culpó al Pincoy; |
+| pincoy-c13 | exact | chiloemitologico.cl | Fishermen of the island of Llingua, famous for their seamanship, say they have seen the Pincoy while fishing, swimming at extraordinary speed and shining like a silver ray. | Pescadores de la isla Llingua, famosos por sus proezas marineras, cuentan haber visto al Pincoy, durante sus faenas de pesca, nadando a velocidad extraordinaria, brillando como un rayo plateado |
 
 
 ## qailertetang — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -600,14 +623,17 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | qailertetang-c04 | exact | en.wikipedia.org | Before hunts, shamans serve her and Sedna in rituals to ensure success. | Before hunts, she, along with Sedna, are served by shamans on behalf of the rest of the tribe in rituals designed to ensure success in said hunts |
 | qailertetang-c05 | exact | en.wikipedia.org | The word also names two ritual figures in Quviasukvik, the most important Inuit new year holiday. | The word also used to refer to two ritual figures in the Inuit new year holiday, Quviasukvik, the most important Inuit holiday. |
 | qailertetang-c06 | exact | en.wikipedia.org | Inuit scholars Laugrand and Oosten call them representatives of Sedna. | Inuit scholars Laugrand and Oosten call them the representatives of Sedna. |
+| qailertetang-c07 | exact | www.gutenberg.org | Out of a hut stalk two gigantic figures wearing heavy boots, their legs swelled to a wonderful thickness with several pairs of breeches. | out of which stalk two gigantic figures. They wear heavy boots; their legs are swelled out to a wonderful thickness with several pairs of breeches; |
+| qailertetang-c08 | exact | www.gutenberg.org | The qailertetang approach the assembly silently with long strides, while the people, screaming, press back from them. | Silently, with long strides, the qailertetang (Fig. 535) approach the assembly, who, screaming, press back from them. |
+| qailertetang-c09 | exact | www.gutenberg.org | After this duty the qailertetang stride down to the shore and invoke the good north wind, which brings fair weather, while warning off the unfavorable south wind. | Having performed this duty, the qailertetang stride down to the shore and invoke the good north wind, which brings fair weather, while they warn off the unfavorable south wind. |
+| qailertetang-c10 | exact | www.gutenberg.org | As soon as the incantation is over, all the men attack the qailertetang with great noise, acting as if they had weapons and would kill both spirits. | As soon as the incantation is over, all the men attack the qailertetang with great noise. They act as if they had weapons in their hands and would kill both spirits. |
+| qailertetang-c11 | exact | www.gutenberg.org | Each man fills his sealskin with water, passes them a cup, and asks about the future, the fortunes of the hunt and the events of life; the qailertetang answer in murmurs that the questioner must interpret himself. | Each man fills his sealskin with water, passes a cup to them, and inquires about the future, about the fortunes of the hunt and the events of life. The qailertetang answer in murmurs which the questioner must interpret for himself. |
+| qailertetang-c12 | exact | www.gutenberg.org | The Akudnirmiut celebrate the feast without the qailertetang; other masks called mirqussang, representing a man and his wife, take their place. | The Akudnirmiut celebrate the feast in the following way: The qailertetang do not act a part there, but other masks take their place. They are called mirqussang and represent a man and his wife. |
 
 
 ## muki-mythology — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -617,14 +643,19 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | muki-mythology-c04 | exact | en.wikipedia.org | In some mining traditions he has two horns to break rocks and point to mineral veins. | In some mining traditions, he has two horns that are used to break the rocks and point at the mineral veins. |
 | muki-mythology-c05 | exact | en.wikipedia.org | Sometimes he turns into an animal or a blond white man to deceive the miners. | Sometimes he shape-shifts into an animal or a blonde white man to appear to the miners and deceive them. |
 | muki-mythology-c06 | exact | en.wikipedia.org | Elders advise fighting the muki with one's belt without giving in to fear. | Elders advise that, when dealing with the muki, one should use his/her belt to battle him without succumbing to fear. |
+| muki-mythology-c07 | exact | magazine.cim.org | Legends of the Muki are shared in isolated mining camps from Colombia in the north to Bolivia in the south, and in the Peruvian Andes between; its name differs by region, for example chinchiliku in the Moquegua region and jusshi in the Cajamarca region. | Legends of the Muki have been consistently shared over the years in isolated mining camps as far north as Colombia, as far south as Bolivia, and in the Peruvian Andes in between. However, its name differs from region to region – people in the Moquegua region in the south of Peru speak of a chinchiliku, and those in the northern Cajamarca region call it the jusshi. |
+| muki-mythology-c08 | exact | magazine.cim.org | According to this article, the word muki comes from the Quechua word murik, meaning "to smother" or "to strangle", a reference to the often lethal dust and silica that would fill miners' lungs. | The word muki comes from the Quechua word murik, which means “to smother” or “to strangle,” a reference to the often lethal dust and silica that would fill miners’ lungs. |
+| muki-mythology-c09 | exact | magazine.cim.org | One common theme in Muki lore is its tendency to make deals with miners; it is said to trade valuable mining knowledge or help for luxuries such as alcohol or coca. | One common theme in Muki lore is the tendency for the creature to make deals with miners. The Muki is said to trade valuable mining knowledge or help in exchange for luxuries such as alcohol or coca. |
+| muki-mythology-c10 | exact | magazine.cim.org | However, the Muki plays the part of a trickster or demon, and these deals can backfire badly for miners who are greedy and indiscreet about their luck. | However, the Muki plays the part of a trickster or demon, and these deals can backfire badly for miners who are greedy and indiscreet about their luck. |
+| muki-mythology-c11 | exact | magazine.cim.org | The article calls the most plausible explanation for the rise and spread of Muki legends that the creature personifies the dangers and risks miners accept in their line of work. | The most plausible – and unfortunate – explanation for the rise and spread of Muki legends involve the creature as a personification of the dangers and risks miners accept in their line of work. |
+| muki-mythology-c12 | exact | magazine.cim.org | Some stories paint the creature in a more positive light, as a mysterious but helpful figure who can lead miners to productive ore deposits or warn them of dangers underground. | Some stories paint the creature in a more positive light, as a mysterious but helpful figure who can lead miners to productive ore deposits or warn them of dangers underground. |
+| muki-mythology-c13 | exact | magazine.cim.org | Some legends paint him as a predatory goblin searching for unsuspecting children or isolated miners to attack, but in general the Muki has become a catch-all for the mysterious goings-on underground. | while some legends paint him as something of a predatory goblin searching for unsuspecting children or isolated miners to attack, in general the existence of the Muki has become a sort of catch-all for the mysterious goings-on underground. |
+| muki-mythology-c14 | exact | magazine.cim.org | According to oral tradition, the Muki is no more than two feet tall yet disproportionately muscular, with a deep voice; his skin is described as ghostly pale, with long blond hair and dazzling eyes that reflect the light like the metals in the mines. | According to oral tradition, the Muki is no more than two feet in height, yet is disproportionately muscular, with a deep voice. His skin is described as ghostly pale, with long blond hair framing dazzling eyes that reflect the light, like the metals in the mines he inhabits. |
 
 
 ## mussie — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -633,14 +664,18 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | mussie-c03 | exact | en.wikipedia.org | The legend likely began around 1916, though it is claimed Samuel de Champlain wrote of it in the early seventeenth century. | The legend of Mussie likely began around 1916, though legend claims that Canadian pioneer Samuel de Champlain wrote about it in the early seventeenth century. |
 | mussie-c04 | exact | en.wikipedia.org | Its name was originally Hapyxelor (or Hapaxelor), later changed to Mussie, short for The Monster of Muskrat Lake. | The creature's name was originally cited as Hapyxelor, alternately spelled Hapaxelor, but changed simply to Mussie, short for The Monster of Muskrat Lake, sometime later. |
 | mussie-c05 | exact | en.wikipedia.org | Mussie has become a local mascot, appearing on signs welcoming visitors to Cobden. | Mussie has become a cultural mascot of the area, appearing on signs welcoming visitors to Cobden and in front of the Home Hardware store in the village. |
+| mussie-c06 | exact | ottawasun.com | Mussie is said to live in Muskrat Lake, a large, very deep lake 75 miles northwest of Ottawa, near the village of Cobden. | Mussie is said to live in Muskrat Lake, a large, very deep lake 75 miles northwest of Ottawa, near the village of Cobden. |
+| mussie-c07 | exact | ottawasun.com | The creature is said to have three eyes, sharp teeth and to tower over the water whenever it raises its head; or perhaps it looks like a sturgeon. | The creature is said to have three eyes, sharp teeth and towers over the water whenever it raises its head. Or maybe it looks like a sturgeon. |
+| mussie-c08 | exact | ottawasun.com | Some say Mussie started with Samuel de Champlain, although the article states that Champlain never wrote about the monster. | Others will tell you, no, Mussie started with Samuel de Champlain, even though Champlain never wrote about the monster. |
+| mussie-c09 | exact | ottawasun.com | For many years the village of Cobden used the Loch Ness-style depiction, a three-eyed monster, on its Welcome to Cobden sign. | For many years the village of Cobden went with the Loch-Ness-monster depiction, showing a monster with three eyes on its Welcome to Cobden sign. |
+| mussie-c10 | exact | ottawasun.com | In the local tale reported by the article, Mussie was some sort of pre-historic animal trapped in the lake when the last glaciers retreated 10,000 years ago. | Mussie was some sort of pre-historic animal, trapped in the lake when the last glaciers retreated 10,000 years ago. |
+| mussie-c11 | exact | ottawasun.com | According to the article's author, any good lake monster story needs a witness, and for the Monster of Muskrat Lake that witness was Donnie Humphries. | any good lake monster story needs a witness and for the Monster of Muskrat Lake, that witness was Donnie Humphries. |
+| mussie-c12 | exact | copeh-canada.org | Muskrat Lake in the Ottawa Valley has a long and storied history as the home of a lake monster affectionately called Mussie, or more formally Hapyxelor. | Muskrat Lake in the Ottawa Valley has a long and storied history of being the home to a lake monster affectionately called Mussie, or more formally named Hapyxelor. |
 
 
 ## north-shore-monster — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -649,14 +684,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | north-shore-monster-c03 | exact | en.wikipedia.org | The best-known sighting was on July 8, 1877, when J.H. McNeil and saltworks workers near Monument Point claimed to meet a large creature. | The most well-known sighting occurred on July 8, 1877, when J.H. McNeil and other workers at the Barnes and Co. saltworks near Monument Point on the lake's northern shore claimed to have encountered a large creature |
 | north-shore-monster-c04 | exact | en.wikipedia.org | McNeil estimated it at about 75 feet long. | McNeil estimated the creature to be about 75 feet long. |
 | north-shore-monster-c05 | exact | en.wikipedia.org | However, the Deseret News suggested taking the report "with a few grains of salt." | However, the Deseret News suggested that the report should be taken "with a few grains of salt." |
+| north-shore-monster-c06 | exact | www.deseret.com | J.H. McNeil of Kelton, Box Elder County, and several other men were working for the Barnes and Company saltworks on the northern shore near Monument Point and the Central Pacific railroad line in early July 1877 when they heard a frightful bellow. | J.H. McNeil of Kelton, Box Elder County, and several other men were working for the Barnes and Company saltworks on the northern shore near Monument Point and the Central Pacific railroad line in early July of 1877 when they heard a frightful bellow. |
+| north-shore-monster-c07 | exact | www.deseret.com | As McNeil tells it, they saw an awful creature with a crocodile-like body and a horse's head; when it saw the men it charged toward them and they fled to the mountains. | As McNeil tells it, they looked up and saw an awful creature with a crocodile-like body and the head of a horse. As it saw the men, it charged toward them and they fled to the mountains. |
+| north-shore-monster-c08 | exact | www.deseret.com | McNeil signed an affidavit of the account, and a story on the sighting was published in the Corinne Record and later in the Deseret News. | McNeil signed an affidavit of the account, and a story on the sighting was published in the Corinne Record and later the Deseret News. |
+| north-shore-monster-c09 | exact | www.deseret.com | According to another account, huge overturned boulders marked the trail of the marauding beast. | According to another account, huge overturned boulders marked the trail of the marauding beast. |
+| north-shore-monster-c10 | exact | www.deseret.com | Some believe the monster may have been a buffalo. | Some believe the monster may have been a buffalo. |
 
 
 ## seelkee — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -665,14 +702,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | seelkee-c03 | exact | en.wikipedia.org | Most commonly it is a 10- to 15-foot sea-serpent-like beast with a horse's head. | The most common description of Seelkee is a 10- to 15-foot-long (3.0 to 4.6 m) sea serpent-like beast with the head of a horse. |
 | seelkee-c04 | exact | en.wikipedia.org | It is often portrayed as a two-headed snake, mostly black with red circular designs. | Descriptions often portray the creature as snake-like with two heads. Furthermore, the coloration has been described as mostly black with red circular designs. |
 | seelkee-c05 | exact | en.wikipedia.org | Some Stó:lō longhouses had large house posts with red-painted Seelkee designs. | Some of the longhouses in the local Stó:lō villages were defined by large house posts with Seelkee designs accented with red paint. |
+| seelkee-c06 | exact | www.aroundchilliwack.ca | Living in winding channels and marshlands, s’í:lhqey are normally described as serpents with two heads. | Living in winding channels and marshlands, s’í:lhqey are normally described as serpents with two heads. |
+| seelkee-c07 | exact | www.aroundchilliwack.ca | S’í:lhqey have the power to cause a person’s body to twist and become sick until death if a person runs upon seeing the creature. | have the power to cause a person’s body to twist and become sick until death if a person runs upon seeing the creature. |
+| seelkee-c08 | exact | www.aroundchilliwack.ca | In a recollection quoted by the museum, it was like a big snake, only with a horse's head, long and smooth, with a long mouth and long ears like a horse's. | It was like a big snake only the head like a horse’s head - long and smooth - a long mouth - long ears like a horse’s |
+| seelkee-c09 | exact | www.aroundchilliwack.ca | According to a recollection quoted by the museum, the creature could fly from lake to lake. | how that thing could fly I don’t know; but the Indian said that thing could fly from lake to lake. |
+| seelkee-c10 | exact | www.aroundchilliwack.ca | In one quoted account, a man swam out to the serpent, grabbed it and threw grass into its mouth, which killed it. | To kill it, the man swam out to it and grabbed it and threw grass into its mouth, which killed it. |
+| seelkee-c11 | exact | www.aroundchilliwack.ca | In the same account, the man painted a picture of the serpent across the front of his big house, over the door, to protect that house. | painted a picture of the serpent across the front of his big house, over the door. ... he pictured the shape of that serpent over the door to protect that house. |
+| seelkee-c12 | exact | www.aroundchilliwack.ca | The captions on the museum page are taken from Oliver N. Wells, Myths and Legends: STAW-loh INDIANS of South Western British Columbia (Vancouver, 1970). | Captions provided from: Wells, Oliver N. Myths and Legends: STAW-loh INDIANS of South Western British Columbia. Vancouver, BC: Frank T. Coan Ltd, 1970. |
+| seelkee-c13 | exact | www.aroundchilliwack.ca | In the recollection quoted by the museum about the two-headed flying creature, the speaker says that this is what they called a SEEL-kee. | That’s a *SEEL-kee - that’s what they called it. |
 
 
 ## si-te-cah — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -681,14 +723,20 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | si-te-cah-c03 | exact | en.wikipedia.org | In Northern Paiute, "Si-Te-Cah" means "tule-eaters". | "Si-Te-Cah" means "tule-eaters" in the Northern Paiute language. |
 | si-te-cah-c04 | exact | en.wikipedia.org | To escape the Paiutes, they reportedly lived on tule rafts on Lake Humboldt. | In order to escape harassment from the Paiutes, the Si-Te-Cahs were said to have lived on rafts made of tule on Lake Humboldt. |
 | si-te-cah-c05 | exact | en.wikipedia.org | Archaeologists Loud and Harrington doubted whether these were real traditions or an attempt by the Northern Paiute to explain earlier archaeological remains. | They expressed doubts over whether these were real historical traditions or whether, "they should be regarded as an attempt by the Northern Paiute to explain the archaeological remains of a cultural period preceding their own". |
+| si-te-cah-c06 | exact | archive.org | The author records one of her people's traditions: a small tribe of "barbarians" who lived along the Humboldt River many hundred years ago and waylaid her people, killing and eating them. | Among the traditions of our people is one of a small tribe of barbarians who used to live along the Humboldt River. It was many hundred years ago. They used to waylay my people and kill and eat them. |
+| si-te-cah-c07 | exact | archive.org | In the tradition, they then made tule (bulrush) boats and went into Humboldt Lake, but could not live there very long without fire. | Then they went to work and made tuly or bulrush boats, and went into Humboldt Lake. They could not live there very long without fire. |
+| si-te-cah-c08 | exact | archive.org | The author's people gathered wood and began to fill up the mouth of the cave; those inside pulled the wood inside until the cave was full, and then the author's people set it on fire. | gathered wood, and began to fill up the mouth of the cave. Then the poor fools began to pull the wood inside till the cave was full. At last my people set it on fire |
+| si-te-cah-c09 | exact | archive.org | According to the author's people, the tribe they exterminated had reddish hair; the author says she has some of their hair, handed down from father to son. | My people say that the tribe we exterminated had reddish hair. I have some of their hair, which has been handed down from father to son. |
+| si-te-cah-c10 | exact | archive.org | The Northern Paiute have a legend that the cave was once the home of a tribe to whom they apply the name Sai-i. | relates that the cave was once the home of a tribe to whom the Northern Paiute apply the name Sai-i |
+| si-te-cah-c11 | exact | archive.org | According to the legend, they made their living from the lake and were enemies of the Northern Paiute, especially unpopular for capturing Northern Paiute women who came to the northwest side of Humboldt lake to gather tule rushes for mats. | These people made their living from the lake, and were enemies of the Northern Paiute, among whom they made themselves especially unpopular by capturing the Northern Paiute women when the latter visited the northwest side of Humboldt lake to gather tule rushes for mats. |
+| si-te-cah-c12 | exact | archive.org | The authors judge that, unlike beliefs in northwestern California about an ancient race of supernatural beings, the "former people" of Nevada seem to have been ordinary human beings living an entirely rational human life. | there seems to be the difference that the former people of Nevada were ordinary human beings living an entirely rational human life. |
+| si-te-cah-c13 | exact | archive.org | The authors say the fire-arrow foreshafts found tend to confirm the Northern Paiute legend of the assault on the cave. | Tending to confirm the Northern Paiute legend of the assault on the cave are the fire-arrow foreshafts shown in plate 46c, d. |
+| si-te-cah-c14 | exact | archive.org | But the authors also say the specimens of the Later Period are much more like Northern Paiute products than like those of the Pit River people, who the legend states were the cave dwellers, which tends to refute the legend. | but tending to refute it is the fact that the specimens of the Later Period are much more like Northern Paiute products than like those of the Pit River people who, the legend states, were the cave dwellers. |
 
 
 ## tulevieja — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -697,14 +745,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | tulevieja-c03 | exact | en.wikipedia.org | Her hallmark is eagle or hawk legs and claws that leave reversed footprints so she cannot be followed. | her most characteristic features are her legs and claws of an eagle or hawk instead of human legs, which leave reversed footprints so that she cannot be followed. |
 | tulevieja-c04 | exact | en.wikipedia.org | She reportedly eats charcoal and ashes, so her tracks appear near recently doused campfires. | She is said to feed on charcoal and ashes, which is why it is common to find her tracks around recently extinguished campfires. |
 | tulevieja-c05 | exact | en.wikipedia.org | The only escape is to recite "Alabado sea el Santísimo", which makes her fly off toward the sun. | The only way to save oneself once encountering her is to recite the prayer "Alabado sea el Santísimo" ("Praised be the Most Holy Sacrament"), which causes her to take flight and disappear toward the sun. |
+| tulevieja-c06 | exact | en.wikipedia.org | In the legend, a beautiful girl had a secret relationship with a man from her town and became pregnant, drowned the child in a river and was punished by God by being turned into a hideous creature (in some versions she also drowns herself). | In the legend, a beautiful girl had a secret relationship with a man from her town, resulting in pregnancy. She drowned the child in a river and was punished by God by being transformed into a hideous creature (in some versions she drowns herself as well). |
+| tulevieja-c07 | exact | mep.janium.net | In this version published by the Costa Rican education ministry, she was a little old woman who lived near the Virilla river in a dilapidated shack and wore a big tule hat to shield herself from the sun. | Esta era una viejita que vivía cerca del río Virilla en una casucha destartalada por el tiempo, usaba para taparse del sol un gran sombrero de |
+| tulevieja-c08 | exact | mep.janium.net | In this version she is described with bare breasts, hawk legs (gavilán), bat wings, a witch's face and a load of firewood. | pechos al desnudo, patas de gavilán, alas de murciélago, rostro de bruja y carga de leña. |
+| tulevieja-c09 | exact | mep.janium.net | It is said that she takes flight and falls upon a person in mortal sin, tearing the person to pieces. | Se dice que alza vuelo y cae sobre la persona despedazándola cuando esta se encuentra en pecado mortal. |
+| tulevieja-c10 | exact | mep.janium.net | Mocking children gave her the nickname Tulevieja and took pleasure in tormenting her. | La chiquillería burlona le puso el apodo de Tulevieja, y se complacía en molestarla. |
+| tulevieja-c11 | exact | mep.janium.net | One day the wind blew her hat into the turbulent waters of the then swollen Tiribi river, carrying it away; she went after it and the head of water of the great flood drowned her. | Un día el viento le voló el sombrero que cayó sobre las turbulentas aguas del entonces crecido río Tiribi, arrastrándolo en su corriente. Ella voló en su persecución. La cabeza de agua de la gran creciente la ahogó. |
 
 
 ## turtle-lake-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -712,19 +763,27 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | turtle-lake-monster-c02 | exact | en.wikipedia.org | It is usually described as 3 to 9 m long, with no dorsal fin and a head like a dog, seahorse or pig. | The monster is usually described as a creature 3–9 m (9.8–29.5 ft) long, scaly or smooth, with no dorsal fin, and a head resembling either a dog, a seahorse, or a pig. |
 | turtle-lake-monster-c03 | exact | en.wikipedia.org | Reports go back to pre-settlement days, when the Cree told of people who entered its territory and vanished. | Reports date back to pre-settlement days when the local Cree had a legend about people who ventured into the Turtle Lake Monster's territory and vanished without a trace. |
 | turtle-lake-monster-c04 | exact | en.wikipedia.org | Sightings may be of an unusually large lake sturgeon, or relict plesiosaurs. | There is speculation that the monster sightings may be attributed to sightings of an unusually large lake sturgeon, or a relict population of prehistoric plesiosaurs. |
+| turtle-lake-monster-c05 | exact | theflatlander.ca | Turtle Lake is about 100 km north of North Battleford. | Turtle Lake is about 100 km north of North Battleford. |
+| turtle-lake-monster-c06 | exact | theflatlander.ca | Some people who have seen it say it is about three to nine metres long, some say smooth-skinned and others scaly, and witnesses also say it has a horse-like or dog-like head. | Some people who have seen the TLM say it’s about three to nine metres long. Some say it’s smooth-skinned. Others say it’s scaly. Witnesses also say it has a horse-like or dog-like head. |
+| turtle-lake-monster-c07 | exact | theflatlander.ca | A man who wrote to the article's publisher recalled that as a child in 1985 he and his brother spotted the monster, which he described as a large fishlike creature perhaps seven to 10 feet long. | recalling how as a child in 1985, he and his brother spotted the TLM. ... it was a large fishlike creature, perhaps seven to 10 feet long. |
+| turtle-lake-monster-c08 | exact | theflatlander.ca | Skeptics think it could be a moose out for a swim. | Skeptics think it could be a moose out for a swim. |
+| turtle-lake-monster-c09 | exact | theflatlander.ca | Fisheries staff said they did depth soundings of Turtle Lake and never saw anything that suggested a monster lived there. | The fisheries staff said they did depth soundings of Turtle Lake and never saw anything that suggested a monster lived there. |
+| turtle-lake-monster-c10 | exact | theflatlander.ca | An 84-year-old First Nation woman interviewed for an article recalled that after she moved to Turtle Lake, people told her to stay away from the eastern shore, near the deepest points of the lake where the monster lived. | an 84-year-old First Nation woman interviewed for the article recalled ... Later when she moved to Turtle Lake, people told her to stay away from the Eastern shore, near the deepest points of the lake where the monster lived. |
+| turtle-lake-monster-c11 | exact | theflatlander.ca | According to the article, the initial purpose of these lake monster stories, regardless of continental origin, is to teach children to respect the water as dangerous. | The initial purpose of these stories, regardless of continental origin, is to teach children to respect the water as dangerous. |
 
 
 ## ulmecatl — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ulmecatl-c01 | exact | en.wikipedia.org | Ulmecatl is one of the six giant sons of Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Ulmecatl (from Nahuatl, 'where the rubber is born') is one of the six giants sons of Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec Mythology. |
 | ulmecatl-c02 | exact | en.wikipedia.org | He was the third son, founder of Cuetlachoapan, where Puebla now stands, as well as Tontonihuacan and Huitzilapan. | The third son who founded Cuetlachoapan, the place where Puebla is now, in addition to Tontonihuacan and Huitzilapan. |
+| ulmecatl-c03 | exact | archive.org | In this Nahoa cosmogony poem, the "ferocious serpent of white cloud" who lives in Citlálco is joined with her, six tlacámes (men) are engendered, and these brothers dwell on the earth and become the source of many races. | the «ferocious serpent Of white cloud» which lives in Citlálco, (24) With her is joined in sweet union, Of love, which six tlacámes engender; (25) These brothers dwell on the earth And become the source of many races: |
+| ulmecatl-c04 | exact | archive.org | A footnote in the same book says the Indians believed the earth was first inhabited by giants, and that the large fossilized bones found in excavations were their remains; they called them quinametzin. | The Indians believed that the earth was first inhabited by giants, and the large pachyderm bones that were found in a fossilized state in excavations, were their remains. They called them quinametzin, |
+| ulmecatl-c05 | exact | archive.org | The poem names the six brothers in turn: Xélhua the firstborn (a giant), Tenoch, Ulmécatl, Xicaláncatl, Mixtécatl, and Otómitl, "the Xocóyotl". | The firstborn, the giant Xélhua, ... Tenoch, the great ... The strong Cuetlaxcoápan founded Ulmécatl; ... Xicaláncatl; ... The valiant Mixtécatl guards himself ... Otómitl, the Xocóyotl, lives ever |
+| ulmecatl-c06 | exact | archive.org | A footnote says Cuetlaxcoapan was the place where the city of Puebla stands today, and that Ulmécatl founded other places besides it. | Cuetlaxcoapan was the place where today is the city of Puebla. (Ulmécatl) founded besides |
 
 
 ## unhcegila — lulus-otomatis
