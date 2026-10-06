@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-10-06T14:54:34.150Z",
+  "checked_at": "2026-10-06T15:09:46.211Z",
   "files": [
     "batch-095.md",
     "batch-095-fix-1.md",
-    "batch-095-fix-2.md"
+    "batch-095-fix-2.md",
+    "batch-095-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1831,20 +1832,15 @@
     },
     {
       "slug": "steropes",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "541f6f13083f04228698b8c7ede574ac3d34b15e672384283c61768c8216c761",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "steropes-c01",
@@ -1875,25 +1871,85 @@
           "quote": "The later Latin poet Ovid also has the Hesiodic Cyclopes, Brontes and Steropes (along with a third Cyclops named Acmonides), work at forges in Sicilian caves.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "steropes-c04",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony (trans. Evelyn-White), the Kyklopes, Brontes, Steropes and stubborn-hearted Arges, gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the middle of their foreheads, and strength, might and craft were in their works.",
+          "statement_id": "Dalam Theogony karya Hesiodos (terjemahan Evelyn-White), para Kyklopes, yaitu Brontes, Steropes, dan Arges yang berhati keras, memberi Zeus guruh dan membuat petir; dalam segala hal lain mereka seperti para dewa, tetapi hanya satu mata terpasang di tengah dahi mereka, dan dalam karya mereka ada kekuatan, daya, dan kecakapan.",
+          "quote": "Hesiod, Theogony 139 ff (trans. Evelyn-White) ... the Kyklopes (Cyclopes), overbearing in spirit, Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads. ... Strength and might and craft were in their works.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "steropes-c05",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus' Bibliotheca (trans. Aldrich), Ouranos (Uranus) sired the Kyklopes, named Arges (Flash), Steropes (Lightning) and Brontes (Thunder), each with one eye in his forehead; Ouranos then bound them and threw them into Tartaros (Tartarus).",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus (terjemahan Aldrich), Ouranos (Uranus) melahirkan para Kyklopes bernama Arges (Kilatan), Steropes (Kilat), dan Brontes (Guruh), masing-masing bermata satu di dahinya; lalu Ouranos membelenggu mereka dan melemparkannya ke Tartaros (Tartarus).",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 1 - 4 (trans. Aldrich) ... After these he sired the Kyklopes (Cyclopes), by name Arges (Flash), Steropes (Lightning), and Brontes (Thunder), each of whom had one eye in his forehead. But Ouranos (Uranus, Sky) bound these and threw them into Tartaros (Tartarus)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "steropes-c06",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus' Bibliotheca, after Ouranos' rule was overthrown the Titanes retrieved their brothers from Tartaros and gave the power to Kronos, but Kronos once again bound the Kyklopes and confined them in Tartaros.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus, setelah Ouranos digulingkan, para Titanes mengeluarkan saudara-saudara mereka dari Tartaros dan menyerahkan kekuasaan kepada Kronos; tetapi Kronos kembali membelenggu para Kyklopes dan mengurung mereka di Tartaros.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 1 - 4 (trans. Aldrich) ... Thus having overthrown Ouranos' rule the Titanes retrieved their brothers from Tartaros and gave the power to Kronos. But Kronos once again bound the Kyklopes and confined them in Tartaros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "steropes-c07",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "According to this encyclopedia, the Cyclopes provided Zeus with thunderbolts and lightning, Pluto with a helmet and Poseidon with a trident; afterwards they remained the ministers of Zeus, but were later killed by Apollo for having furnished Zeus with the thunderbolts that killed Asclepius.",
+          "statement_id": "Menurut ensiklopedia ini, para Cyclops memberi Zeus petir dan kilat, Pluto sebuah helm, dan Poseidon sebuah trisula; sesudahnya mereka tetap menjadi pelayan Zeus, tetapi kemudian dibunuh Apollo karena telah menyediakan petir yang dipakai Zeus untuk membunuh Asclepius.",
+          "quote": "the Cyclopes provided Zeus with thunderbolts and lightning, Pluto with a helmet, and Poseidon with a trident. ... Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "steropes-c08",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "In Virgil's Aeneid (trans. Day-Lewis), the Cyclopes were hard at work in an underground iron foundry, Brontes and Steropes with Pyracmon stripped to the buff; they made a thunderbolt of the kind the Father of heaven (Zeus) shoots down in great numbers at the earth from all over the sky.",
+          "statement_id": "Dalam Aeneid karya Vergilius (terjemahan Day-Lewis), para Cyclops giat bekerja di pandai besi bawah tanah, Brontes dan Steropes bersama Pyracmon yang digambarkan \"stripped to the buff\"; mereka membuat petir seperti yang ditembakkan Bapa langit (Zeus) ke bumi dalam jumlah besar dari seluruh penjuru langit.",
+          "quote": "Virgil, Aeneid 8. 418 ff (trans. Day-Lewis) ... The Cyclopes were hard at work in this underground iron-foundry--Brontes and Steropes, Pyracmon stripped to the buff. They manufactured a thunderbolt, such as the Father of heaven [Zeus] shoots down in such great numbers at earth from all over the sky",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "steropes-c09",
+          "source_id": "steropes-s2",
+          "host": "www.theoi.com",
+          "statement": "In Valerius Flaccus' Argonautica (trans. Mozley), the god of Delos (Apollon) pays for having struck down the Cyclops Steropes with his thankless bow.",
+          "statement_id": "Dalam Argonautica karya Valerius Flaccus (terjemahan Mozley), dewa Delos (Apollon) membayar karena telah menjatuhkan sang Cyclops Steropes dengan busurnya yang tak tahu terima kasih.",
+          "quote": "Valerius Flaccus, Argonautica 1. 445 ff (trans. Mozley) ... for it is in thy fields that the god of Delos [Apollon] pays for having struck down [the Cylcops] Steropes with his thankless bow.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3debce255e15190c2f2def9ebe9bbd28cfbf0e8fff70d851c599c592e3b408e6"
+      "images": []
     },
     {
       "slug": "liriope",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "e4ce62886025bd8bce6a04206f922d2f0b45f68f741e40bea2f1f182b93066e6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia, Theoi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1926,25 +1982,65 @@
           "quote": "Liriope's name means \"face of the narcissus\" from the Greek words leirion \"narcissus\" and ops \"face.\"",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "liriope-c04",
+          "source_id": "liriope-s2",
+          "host": "www.theoi.com",
+          "statement": "Liriope was a Naiad nymph of Phokis (in central Greece). She bore the river god Kephisos (Cephisus) a beautiful son named Narkissos (Narcissus), who was transformed into the flower that shares his name.",
+          "statement_id": "Liriope adalah nimfa naiad dari Phokis (di Yunani tengah). Ia melahirkan seorang putra yang rupawan, Narkissos (Narcissus), dari dewa sungai Kephisos (Cephisus); putranya itu diubah menjadi bunga yang senama dengannya.",
+          "quote": "LIRIOPE was a Naiad-nymph of Phokis (in central Greece). She bore the river-god Kephisos (Cephisus) a beautiful son named Narkissos (Narcissus) who was transformed into his namesake flower.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liriope-c05",
+          "source_id": "liriope-s2",
+          "host": "www.theoi.com",
+          "statement": "Liriope was probably identified with Lilaia, the Naiad nymph of the springs of the river Kephisos.",
+          "statement_id": "Liriope kemungkinan besar disamakan dengan Lilaia, nimfa naiad mata air sungai Kephisos.",
+          "quote": "Liriope was probably identified with Lilaia, the Naiad-nymph of the springs of the river Kephisos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "liriope-c06",
+          "source_id": "liriope-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses (trans. Melville), Liriope is the wave-blue water nymph whom Cephisos once embraced and ravished in his winding flow.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius (terjemahan Melville), Liriope adalah nimfa air berwarna biru ombak yang pernah dipeluk dan dirudapaksa oleh Cephisos dalam alirannya yang berkelok.",
+          "quote": "Ovid, Metamorphoses 3. 342 ff (trans. Melville) ... Wave-blue water-nymph Liriope, whom once Cephisos in his sinuous flow embracing held and ravished.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liriope-c07",
+          "source_id": "liriope-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses (trans. Melville), the nymph bore a fine infant boy and named him Narcissus. She asked the seer whether he would enjoy long years and a ripe old age, and was answered: 'If he shall himself not know.'",
+          "statement_id": "Dalam Metamorphoses karya Ovidius (terjemahan Melville), sang nimfa melahirkan seorang putra yang menawan dan menamainya Narcissus. Ia bertanya kepada peramal apakah anaknya akan menikmati umur panjang, dan dijawab: \"Jika ia sendiri tidak mengenal dirinya.\"",
+          "quote": "Ovid, Metamorphoses 3. 342 ff (trans. Melville) ... the lovely Nymphe bore a fine infant boy, from birth adorable, and named her son Narcissus; and of him she asked the seer ... would he long years and ripe old age enjoy, who answered ‘If he shall himself not know.’",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0a45d03f9b28423d41925d9aaab9668cdd0c4df781b41adaf8173d69c577703a"
+      "images": []
     },
     {
       "slug": "macris",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "45e1e053d63f55fad51fe3ae5f2ad5f842d2aeddefb713b2f0e505f0c76266e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Theoi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1967,27 +2063,101 @@
           "quote": "Macris was a daughter of Aristaeus, a rustic god and son of Apollo. She was also called Nysa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "macris-c03",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "Makris (Macris) was a nymph, daughter of the rustic god Aristaios (Aristaeus), who nursed the infant Dionysos in a cave on the island of Euboia.",
+          "statement_id": "Makris (Macris) adalah nimfa putri dewa pedesaan Aristaios (Aristaeus) yang mengasuh Dionysos yang masih bayi di sebuah gua di pulau Euboia.",
+          "quote": "MAKRIS (Macris) was a nymph daughter of the rustic-god Aristaios (Aristaeus) who nursed the infant Dionysos in a cave on the island of Euboia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c04",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "She was later driven from her home by the wrathful goddess Hera and settled on Korkyra, home of the Phaiakes (Phaeacians).",
+          "statement_id": "Ia kemudian diusir dari rumahnya oleh dewi Hera yang murka dan menetap di Korkyra, tempat tinggal bangsa Phaiakes (Phaeacians).",
+          "quote": "She was later driven from her home by the wrathful goddess Hera and settled on Korkyra (Corycra), home of the Phaiakes (Phaeacians).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c05",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "In Apollonius Rhodius' Argonautica, Makris in Euboia took the infant Dionysos to her bosom and moistened his parched lips with honey, after Hermes had rescued him from the flames and brought him to her.",
+          "statement_id": "Dalam Argonautica karya Apollonius Rhodius, Makris di Euboia mengambil bayi Dionysos ke dadanya dan membasahi bibirnya yang kering dengan madu, setelah Hermes menyelamatkan sang bayi dari api dan membawanya kepadanya.",
+          "quote": "Apollonius Rhodius, Argonautica 4. 1128 ff ... It was Makris, who in Abantian Euboia (Euboea), took the infant Dionysos to her bosom and moistened his parched lips with honey, when Hermes had rescued him from the flames and brought him to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c06",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Argonautica, Hera saw this and in her anger banished Makris from Euboia. Makris came to the remote Phaiakian land, where she lived in the sacred cave and brought abundance to the people.",
+          "statement_id": "Dalam Argonautica, Hera melihat hal itu dan dalam amarahnya mengusir Makris dari Euboia. Makris pun tiba di negeri Phaiakia yang jauh, tinggal di gua suci, dan membawa kelimpahan bagi penduduknya.",
+          "quote": "Apollonius Rhodius, Argonautica 4. 1128 ff ... But Hera saw this and in her anger banished her from Euboia. So Makris came to the remote Phaiakian land, where she lived in the sacred cave and brought abundance to the people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c07",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "Makris' name was derived from the Greek word makros, meaning \"far away\", or makaria, meaning \"blessed\".",
+          "statement_id": "Nama Makris berasal dari kata Yunani makros yang berarti \"jauh\" atau makaria yang berarti \"diberkati\".",
+          "quote": "Makris' name was derived from the Greek word makros meaning \"far away\" or makaria meaning \"blessed\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c08",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "Makris was also known as Nysa and in this guise was often multiplied into a troupe of Nysiades.",
+          "statement_id": "Makris juga dikenal sebagai Nysa, dan dalam wujud ini ia sering digandakan menjadi sekelompok Nysiades.",
+          "quote": "Makris was also known as Nysa and in this guise was often multiplied into a troupe of Nysiades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c09",
+          "source_id": "macris-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus' Library of History, Ammon (Zeus) came and brought the child (Dionysos) and gave him into the care of Nysa, one of the daughters of Aristaios.",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus, Ammon (Zeus) datang membawa sang anak (Dionysos) dan menyerahkannya kepada Nysa, salah satu putri Aristaios.",
+          "quote": "Diodorus Siculus, Library of History 3. 70. 1 (trans. Oldfather) ... Ammon [Zeus] came and brought the child [Dionysos] and gave him into the care of Nysa, one of the daughters of Aristaios (Aristaeus)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "macris-c10",
+          "source_id": "macris-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Hermes or Zeus himself later took the infant Dionysus to Macris, who nursed him and fed him honey.",
+          "statement_id": "Menurut Wikipedia, Hermes atau Zeus sendiri kemudian membawa Dionysus yang masih bayi kepada Macris, yang menyusuinya dan memberinya madu.",
+          "quote": "Some time later, Hermes or Zeus himself took the infant Dionysus and brought him to Macris, who nursed him and fed him honey.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "241bf71f408649c205c35fa2209810baca6cb927b4ee3cc9d83c5a938b4b33a2"
+      "images": []
     },
     {
       "slug": "podarge",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "5076998205b51f99ee91962d74411a58bd7a806386cbce1431eaab8a9d51231d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "podarge-c01",
@@ -2008,25 +2178,75 @@
           "quote": "She is the mother of Balius and Xanthus — two divine horses renowned for their swiftness and who were gifted to Achilles",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "podarge-c03",
+          "source_id": "podarge-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homer's Iliad (trans. Lattimore), Xanthos and Balios, horses that raced with the speed of the winds, were conceived by stormy Podarge (a Harpy) of Zephyros (the West Wind) and borne as she grazed in the meadow beside the swirl of Okeanos.",
+          "statement_id": "Dalam Iliad karya Homeros (terjemahan Lattimore), Xanthos dan Balios, kuda-kuda secepat angin, dikandung oleh Podarge yang berbadai (seorang harpy) dari Zephyros (angin barat) dan dilahirkannya saat ia merumput di padang di tepi pusaran Okeanos.",
+          "quote": "Homer, Iliad 16. 148 ff (trans. Lattimore) ... Xanthos (Xanthus) and Balios (Balius), who tore with the winds' speed, horses stormy Podarge [a Harpyia (Harpy)] once conceived of Zephyros (the West Wind) and bore, as she grazed in the meadow beside the swirl of Okeanos (Oceanus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "podarge-c04",
+          "source_id": "podarge-s2",
+          "host": "www.theoi.com",
+          "statement": "In Stesichorus' Fragment 178 (from the Etymologicum Magnum), Hermes gave the Dioskouri Phlogeus and Harpagos, swift foals of Podarge, while Hera gave them Xanthos and Kyllaros.",
+          "statement_id": "Dalam Fragmen 178 Stesichorus (dikutip dari Etymologicum Magnum), Hermes memberi para Dioskouri Phlogeus dan Harpagos, anak kuda yang cepat milik Podarge, sedangkan Hera memberi mereka Xanthos dan Kyllaros.",
+          "quote": "Stesichorus, Fragment 178 (from Etymologicum Magnum) ... Stesichorus in his Funeral Games of Pelias says that Hermes gave the Dioskouri (Dioscuri) ... Phlogeus and Harpagos, swift foals of Podarge, while Hera gave them Xanthos (Xanthus) and Kyllaros (Cyllarus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "podarge-c05",
+          "source_id": "podarge-s2",
+          "host": "www.theoi.com",
+          "statement": "According to this encyclopedia, in the Homeric poems the Harpies (\"the swift robbers\") are nothing but personified storm winds, and Homer names only one, Podarge, who was married to Zephyrus and gave birth to Achilles' two horses, Xanthus and Balius.",
+          "statement_id": "Menurut ensiklopedia ini, dalam puisi-puisi Homeros para harpy (\"perampas yang cepat\") tak lebih dari angin badai yang dipersonifikasikan, dan Homeros hanya menyebut satu nama, yaitu Podarge, yang menikah dengan Zephyrus dan melahirkan dua kuda Achilles, Xanthus dan Balius.",
+          "quote": "HARPYIAE (Harpuiai), that is, \"the swift robbers,\" are, in the Homeric poems, nothing but personified storm winds. ... Homer mentions only one by name, viz. Podarge, who was married to Zephyrus, and gave birth to the two horses of Achilles, Xanthus and Balius.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "podarge-c06",
+          "source_id": "podarge-s2",
+          "host": "www.theoi.com",
+          "statement": "The Harpyiai (Harpies), the kind of being to which Podarge belongs, were the spirits (daimones) of sudden, sharp gusts of wind. They were known as the hounds of Zeus and were despatched by the god to snatch people and things away from the earth.",
+          "statement_id": "Para Harpyiai (harpy), golongan makhluk tempat Podarge termasuk, adalah roh (daimones) embusan angin yang tiba-tiba dan tajam. Mereka dikenal sebagai anjing pemburu Zeus yang diutus untuk menyambar orang dan benda dari bumi.",
+          "quote": "THE HARPYIAI (Harpies) were the spirits (daimones) of sudden, sharp gusts of wind. They were known as the hounds of Zeus and were despatched by the god to snatch away ... people and things from the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "podarge-c07",
+          "source_id": "podarge-s2",
+          "host": "www.theoi.com",
+          "statement": "The Harpyiai were depicted as winged women, sometimes with ugly faces or with the lower bodies of birds.",
+          "statement_id": "Para Harpyiai digambarkan sebagai wanita bersayap, kadang berwajah buruk atau bertubuh bawah burung.",
+          "quote": "The Harpyiai were depicted as winged women, sometimes with ugly faces, or with the lower bodies of birds.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "243ed5b162d4264dc95d0c026418822f76dcf41667c4e0a5f9187567d506baed"
+      "images": []
     },
     {
       "slug": "stilbe",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "adbea55418b87dd1a6a429794318582286ca3964970fb9bc86aa9a27a8e256a6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "conflicts[0].positions[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2049,25 +2269,85 @@
           "quote": "She bore Apollo twin sons, Centaurus, ancestor of the Centaurs, and Lapithus, ancestor of the Lapiths.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "stilbe-c03",
+          "source_id": "stilbe-s2",
+          "host": "www.theoi.com",
+          "statement": "Stilbe was the Naiad nymph of the spring, well or fountain of the main town of the Lapithai (Lapiths) in Thessalia (northern Greece), possibly Gyrton.",
+          "statement_id": "Stilbe adalah nimfa naiad dari mata air, sumur, atau pancuran di kota utama bangsa Lapithai (Lapith) di Thessalia (Yunani utara), mungkin Gyrton.",
+          "quote": "STILBE was the Naiad-nymph of the spring, well or fountain of the main town--possibly Gyrton--of the Lapithai (Lapiths) in Thessalia (northern Greece).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stilbe-c04",
+          "source_id": "stilbe-s2",
+          "host": "www.theoi.com",
+          "statement": "She was loved by the god Apollon and bore him Lapithes, the first king of the tribe, who gave it his name, and some say also Kentauros (Centaurus), who mated with mares to produce the tribe of Kentauroi (Centaurs).",
+          "statement_id": "Ia dicintai dewa Apollon dan melahirkan Lapithes, raja pertama suku itu yang namanya menjadi nama sukunya, dan menurut sebagian orang juga Kentauros (Centaurus), yang kawin dengan kuda betina sehingga lahirlah suku Kentauroi (Centaur).",
+          "quote": "She was loved by the god Apollon and bore him Lapithes, the eponymous first king of the tribe, and some say Kentauros (Centaurus), who mated with mares to produce the tribe of Kentauroi (Centaurs).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stilbe-c05",
+          "source_id": "stilbe-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus' Library of History (trans. Oldfather), the river god Peneios (Peneus) lay with the Nymphe Kreusa (Creusa) and begat Hypseus and Stilbe, and Apollon lay with Stilbe and begat Lapithes and Kentauros (Centaurus).",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus (terjemahan Oldfather), dewa sungai Peneios (Peneus) bersama nimfa Kreusa (Creusa) memperanakkan Hypseus dan Stilbe, dan Apollon bersama Stilbe memperanakkan Lapithes dan Kentauros (Centaurus).",
+          "quote": "Diodorus Siculus, Library of History 4. 69. 1 (trans. Oldfather) ... He [the river-god Peneios (Peneus)] lay with the Nymphe named Kreusa (Creusa) and begat as children Hypseus and Stilbe, and with the latter Apollon lay and begat Lapithes and Kentauros (Centaurus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stilbe-c06",
+          "source_id": "stilbe-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus' Library of History, Lapithes is the son of Apollon and Stilbe, the daughter of Peneios (Peneus).",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus, Lapithes adalah putra Apollon dan Stilbe, putri Peneios (Peneus).",
+          "quote": "Diodorus Siculus, Library of History 5. 61. 3 ... Lapithes, the son of Apollon and Stilbe, the daughter of Peneios (Peneus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stilbe-c07",
+          "source_id": "stilbe-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi lists two versions of Stilbe's parents: Peneios and Kreouse (Diodorus Siculus 4.69.1), and Okeanos and Tethys (Hyginus Preface).",
+          "statement_id": "Theoi mencatat dua versi orang tua Stilbe: Peneios dan Kreouse (menurut Diodorus Siculus 4.69.1), serta Okeanos dan Tethys (menurut Hyginus, Preface).",
+          "quote": "PARENTS [1] PENEIOS & KREOUSE (Diodorus Siculus 4.69.1) [2] OKEANOS & TETHYS (Hyginus Preface)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c522407ebd4abf6b10d6532f9eb66d1205f7285da72d477588ea70f4813467b4"
+      "images": []
     },
     {
       "slug": "adrasteia",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "e8de7dd6773f858fe4fdc512e0d528e106614ba41e91ed2f1f2510e3481ae080",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[3].note",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "conflicts[0].positions[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2090,25 +2370,95 @@
           "quote": "C'est la fille d'Ananké et de Mélissé, ainsi que la sœur d'Ida.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "adrasteia-c03",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Ida and Adrasteia were nymphs of Mount Ida in Krete (Crete) who were entrusted with the care of the infant god Zeus. They hid him away in the secluded Diktaion cave, nursing him on honey and the milk of the she-goat Amaltheia.",
+          "statement_id": "Menurut Theoi, Ida dan Adrasteia adalah nimfa Gunung Ida di Kreta yang dipercaya merawat dewa Zeus yang masih bayi. Mereka menyembunyikannya di gua Diktaion yang terpencil, memberinya makan madu dan susu kambing betina Amaltheia.",
+          "quote": "IDA and ADRASTEIA were nymphs of Mount Ida in Krete (Crete) who were entrusted with the care of the infant god Zeus. They hid him away in the secluded Diktaion (Dictaean) cave, nursing him on honey and the milk of the she-goat Amaltheia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adrasteia-c04",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, as a reward for their service Zeus placed Ida and Adrasteia among the stars as the constellations Ursa Major and Minor (the Bears).",
+          "statement_id": "Menurut Theoi, sebagai ganjaran atas pengabdian mereka, Zeus menempatkan Ida dan Adrasteia di antara bintang sebagai rasi Beruang Besar dan Beruang Kecil.",
+          "quote": "IDA and ADRASTEIA were nymphs of Mount Ida in Krete (Crete) ... As a reward for their service, Zeus placed the pair amongst the stars as the constellations Ursa Major and Minor (the Bears).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adrasteia-c05",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus' Bibliotheca (trans. Aldrich), the baby was put in the care of the Kouretes and the nymphs Adrasteia and Ide, daughters of Melisseus (Honey-Man); the nymphs nursed the baby with the milk of Amaltheia.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus (terjemahan Aldrich), sang bayi dititipkan kepada para Kouretes dan nimfa Adrasteia dan Ide, putri Melisseus (Si Manusia Madu); para nimfa itu menyusui sang bayi dengan susu Amaltheia.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 4 - 5 (trans. Aldrich) ... She put him in the care of both the Kouretes (Curetes) and the Nymphai (Nymphs) Adrasteia and Ide, daughters of Melisseus (Honey-Man). These Nymphai nursed the baby with the milk of Amaltheia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adrasteia-c06",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Callimachus' Hymn 1 to Zeus (trans. Mair), Adrasteia laid Zeus to rest in a cradle of gold, and he sucked the rich teat of the she-goat Amaltheia.",
+          "statement_id": "Dalam Himne 1 untuk Zeus karya Callimachus (terjemahan Mair), Adrasteia membaringkan Zeus dalam buaian emas, dan sang dewa menghisap puting susu kambing betina Amaltheia yang kaya.",
+          "quote": "Callimachus, Hymn 1 to Zeus 42 ff (trans. Mair) ... and Adrasteia laid thee to rest in a cradle of gold, and thou didst suck the rich teat of the she-goat Amaltheia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adrasteia-c07",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Apollonius Rhodius' Argonautica (trans. Rieu), one of Zeus's toys was made by his fond nurse Adresteia (Adrasteia) in the Idaian cave when he was still a child and liked to play; it is a perfect ball.",
+          "statement_id": "Dalam Argonautica karya Apollonius Rhodius (terjemahan Rieu), salah satu mainan Zeus dibuat oleh pengasuhnya yang penyayang, Adresteia (Adrasteia), di gua Ida ketika ia masih kecil dan suka bermain; mainan itu bola yang sempurna.",
+          "quote": "Apollonius Rhodius, Argonautica 3. 132 ff (trans. Rieu) ... Then I will give you one of Zeus's lovely toys, the one that his fond nurse Adresteia (Adrasteia) made for him in the Idaian cave when he was still a child and liked to play. It is a perfect ball;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adrasteia-c08",
+          "source_id": "adrasteia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus' Library of History, the Kretans who settled in Sicily built a temple to the Mothers (that is, Ida and Adrasteia) and accorded these goddesses unusual honours, adorning their temple with many votive offerings.",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus, orang Kreta yang menetap di Sisilia membangun kuil bagi para Ibu (yakni Ida dan Adrasteia), memberi para dewi itu penghormatan luar biasa, dan menghiasi kuil mereka dengan banyak persembahan nazar.",
+          "quote": "Diodorus Siculus, Library of History 4. 79. 7 - 80. 6 ... They [the Kretans (Creteans) who settled in Sicily] built a temple to the Mothers [i.e. Ida and Adrasteia] and accorded these goddesses unusual honours, adorning their temple with many votive offerings.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bd4329e64f394c7b51ec38beb0f65f81d17aa856f32235b4514e92c6ac2b5846"
+      "images": []
     },
     {
       "slug": "ampelos",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "5800ce77d4a586de65a1b4c2062c476b5e5fb3ba6b9ea01ff5756a49253f4188",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "conflicts[0].positions[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "conflicts[0].positions[2].summary",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2141,10 +2491,69 @@
           "quote": "According to Nonnus, Ampelos was gored to death by a wild bull after he mocked the goddess Selene",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ampelos-c04",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Ampelos was a handsome young Thrakian Satyros (Satyr) loved by the god Dionysos.",
+          "statement_id": "Menurut Theoi, Ampelos adalah seorang Satyros (satir) muda dari Thrakia yang tampan dan dicintai dewa Dionysos.",
+          "quote": "AMPELOS was a handome, young Thrakian Satyros (Satyr) loved by the god Dionysos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ampelos-c05",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, there were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set among the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes).",
+          "statement_id": "Menurut Theoi, ada dua kisah tentang kematiannya. Dalam satu kisah ia dibunuh banteng liar dan diubah oleh sang dewa yang berduka menjadi pohon anggur pertama. Dalam kisah lain Ampelos jatuh dari pohon elm saat memetik anggur dan ditempatkan di antara bintang sebagai rasi Vindemitor atau Vindiatrix (lebih dikenal sebagai Bootes).",
+          "quote": "There were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set amongst the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ampelos-c06",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti (trans. Boyle), beardless Ampelos, they say a nymph's and a satyr's son, was loved by Bacchus (Dionysos) on Ismarian hills (in Thrace). Bacchus trusted him with a vine hanging from the leaves of an elm; it is now named for the boy.",
+          "statement_id": "Dalam Fasti karya Ovidius (terjemahan Boyle), Ampelos yang belum berjanggut, kata orang, putra seorang nimfa dan seorang satir, dicintai Bacchus (Dionysos) di perbukitan Ismaria (di Thrakia). Bacchus mempercayakan kepadanya sulur anggur yang menggantung dari dedaunan pohon elm; sulur itu kini dinamai menurut sang pemuda.",
+          "quote": "Ovid, Fasti 3. 407 ff (trans.Boyle) ... Beardless Ampelos, they say, a Nympha's and a Satyrus' (Satyr's) son, was loved by Bacchus [Dionysos] on Ismarian hills [in Thrace]. He trusted him with a vine hanging from the leaves of an elm; it is now named for the boy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ampelos-c07",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti (trans. Boyle), the reckless youth fell while picking gaudy grapes on a branch, and Liber (Dionysos) lifted the lost boy to the stars.",
+          "statement_id": "Dalam Fasti karya Ovidius (terjemahan Boyle), sang pemuda nekat jatuh saat memetik anggur berwarna-warni di sebuah dahan, dan Liber (Dionysos) mengangkat anak yang hilang itu ke bintang-bintang.",
+          "quote": "Ovid, Fasti 3. 407 ff (trans.Boyle) ... The reckless youth fell picking gaudy grapes on a branch. Liber [Dionysos] lifted the lost boy to the stars.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ampelos-c08",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Nonnus' Dionysiaca (trans. Rouse), Ampelos shouted boldly to the full-faced Moon (Mene): \"Give me best, Selene, horned driver of cattle! Now I am both, I have horns and I ride a bull!\"",
+          "statement_id": "Dalam Dionysiaca karya Nonnus (terjemahan Rouse), Ampelos berseru dengan berani kepada Bulan berwajah penuh (Mene): \"Akuilah aku lebih unggul, Selene, penggiring ternak bertanduk! Kini aku keduanya: aku bertanduk dan aku menunggang banteng!\"",
+          "quote": "Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... He shouted boldly to the fullfaced Moon (Mene)--‘Give me best, Selene, horned driver of cattle! Now I am both--I have horns and I ride a bull!’",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ampelos-c09",
+          "source_id": "ampelos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Nonnus' Dionysiaca, Selene looked with a jealous eye to see how Ampelos rode on the murderous marauding bull. She sent a cattle-chasing gadfly, and the bull, pricked continually by the sharp sting, galloped away like a horse through pathless tracts.",
+          "statement_id": "Dalam Dionysiaca karya Nonnus, Selene memandang dengan mata cemburu untuk melihat bagaimana Ampelos menunggang banteng buas yang membahayakan. Ia mengirim seekor lalat pengejar ternak, dan banteng itu, ditusuk terus-menerus oleh sengatnya yang tajam, berlari seperti kuda melintasi daerah tanpa jalan.",
+          "quote": "Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... Selene looked with a jealous eye through the air, to see how Ampleos rode on the murderous marauding bull. She sent him a cattlechasing gadfly; and the bull, pricked continually all over by the sharp sting, galloped away like a horse through pathless tracts.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7b0da995dc5f694f2cff9577234a49691a6ef0e66dcff1db6aea42dd50f8da96"
+      "images": []
     },
     {
       "slug": "canens",
@@ -2189,20 +2598,15 @@
     },
     {
       "slug": "catoblepas",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "de93699187ffde98eeb13dd0b843c4806be80763a5612648428929c55ca257da",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "catoblepas-c01",
@@ -2233,27 +2637,81 @@
           "quote": "The catoblepas is often thought to be based on real-life encounters with wildebeest",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "catoblepas-c04",
+          "source_id": "catoblepas-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Pliny the Elder's Natural History (Bostock and Riley translation), among the Hesperian Æthiopians is the fountain of Nigris, by many supposed to be the head of the Nile; near this fountain is found a wild beast called the catoblepas.",
+          "statement_id": "Dalam The Natural History karya Plinius Tua (terjemahan Bostock dan Riley), di antara orang Æthiopia Hesperia terdapat mata air Nigris, yang oleh banyak orang dianggap hulu sungai Nil; di dekat mata air itu ditemukan binatang buas yang disebut catoblepas.",
+          "quote": "Pliny the Elder, The Natural History ... Among the Hesperian Æthiopians is the fountain of Nigris, by many, supposed to be the head of the Nile. ... Near this fountain, there is found a wild beast, which is called the catoblepas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "catoblepas-c05",
+          "source_id": "catoblepas-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Pliny the Elder's Natural History, the catoblepas is an animal of moderate size, sluggish in the movement of the rest of its limbs; its head is remarkably heavy and carried only with the greatest difficulty, always bent down towards the earth.",
+          "statement_id": "Dalam The Natural History karya Plinius Tua, catoblepas berukuran sedang dan lamban dalam gerak anggota badan lainnya; kepalanya sangat berat sehingga hanya dapat dibawanya dengan susah payah dan selalu tertunduk ke arah tanah.",
+          "quote": "Pliny the Elder, The Natural History ... which is called the catoblepas ... an animal of moderate size, and in other respects sluggish in the movement of the rest of its limbs; its head is remarkably heavy, and it only carries it with the greatest difficulty, being always bent down towards the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "catoblepas-c06",
+          "source_id": "catoblepas-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Pliny the Elder's Natural History, were it not for that circumstance of its head the catoblepas would prove the destruction of the human race, for all who behold its eyes fall dead on the spot.",
+          "statement_id": "Dalam The Natural History karya Plinius Tua, seandainya bukan karena keadaan kepalanya itu, catoblepas akan membinasakan umat manusia, sebab semua orang yang melihat matanya jatuh mati di tempat.",
+          "quote": "Pliny the Elder, The Natural History ... which is called the catoblepas ... Were it not for this circumstance, it would prove the destruction of the human race; for all who behold its eyes, fall dead upon the spot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "catoblepas-c07",
+          "source_id": "catoblepas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) gave a fuller description; in his description the animal's gaze was not lethal, but its breath was poison, since it ate only poisonous vegetation.",
+          "statement_id": "Menurut Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) memberi uraian yang lebih lengkap; dalam uraiannya tatapan hewan itu tidak mematikan, tetapi napasnya beracun karena ia hanya memakan tumbuhan beracun.",
+          "quote": "Claudius Aelianus (On the Nature of Animals, 7.6) provided a fuller description ... In his description, the animal's gaze was not lethal, but its breath was poison, since it ate only poisonous vegetation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "catoblepas-c08",
+          "source_id": "catoblepas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) described the creature as a mid-sized herbivore, about the size of a domestic bull, with a heavy mane, narrow bloodshot eyes, a scaly back and shaggy eyebrows.",
+          "statement_id": "Menurut Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) menggambarkan makhluk itu sebagai herbivora berukuran sedang, sebesar banteng piaraan, dengan surai lebat, mata sempit yang merah, punggung bersisik, dan alis lebat.",
+          "quote": "Claudius Aelianus (On the Nature of Animals, 7.6) provided a fuller description: the creature was a mid-sized herbivore, about the size of a domestic bull, with a heavy mane, narrow, bloodshot eyes, a scaly back and shaggy eyebrows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "catoblepas-c09",
+          "source_id": "catoblepas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Pomponius Mela (Chorographia, 3.98) echoes Pliny the Elder's description but also notes that the creature is fairly passive and not known to attack others physically.",
+          "statement_id": "Menurut Wikipedia, Pomponius Mela (Chorographia, 3.98) mengulang uraian Plinius Tua, tetapi juga mencatat bahwa makhluk itu cukup pasif dan tidak diketahui menyerang orang secara fisik.",
+          "quote": "Pomponius Mela (Chorographia, 3.98) echoes the description given by Pliny the Elder though also notes that the creature is fairly passive and not known to physically attack others.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fd5adb551eed39383a2afea03005631a700780c4a14ed24c330c7617354c1829"
+      "images": []
     },
     {
       "slug": "delphyne",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "661e83fb32266225c5990d959b7ae926a2f7797de72fdb04cf84b29ec903433b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "delphyne-c01",
@@ -2284,10 +2742,49 @@
           "quote": "According to the Suda, Delphi was named after Delphyne.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "delphyne-c04",
+          "source_id": "delphyne-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 3 to Apollo, near Delphoi was a sweet flowing spring, and there the lord, the son of Zeus, killed with his strong bow the bloated, great Drakaina, a fierce monster wont to do great mischief to men on earth and to their thin-shanked sheep, for she was a very bloody plague.",
+          "statement_id": "Dalam Himne Homeros 3 untuk Apollo, di dekat Delphoi ada mata air yang manis mengalir, dan di sana sang tuan, putra Zeus, dengan busur kuatnya membunuh Drakaina yang besar dan bengkak, monster ganas yang biasa mencelakai manusia di bumi dan domba-domba mereka yang berkaki ramping, sebab ia wabah yang sangat berdarah.",
+          "quote": "Homeric Hymns 3 to Apollo 300 ff ... But near by [Delphoi (Delphi)] was a sweet flowing spring, and there with his strong bow the lord, the son of Zeus, killed the bloated, great Drakaina (Dracaena), a fierce monster wont to do great mischief to men upon earth, to men themselves and to their thin-shanked sheep: for she was a very bloody plague.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "delphyne-c05",
+          "source_id": "delphyne-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 3 to Apollo (trans. Evelyn-White), whoever met the Drakaina, the day of doom would sweep him away, until the lord Apollon, who deals death from afar, shot a strong arrow at her.",
+          "statement_id": "Dalam Himne Homeros 3 untuk Apollo (terjemahan Evelyn-White), siapa pun yang bertemu Drakaina akan disapu hari ajal, sampai sang tuan Apollon, yang menyebar maut dari jauh, menembakkan panah kuat kepadanya.",
+          "quote": "Homeric Hymn 3 to Apollo 356 ff (trans. Evelyn-White) ... Whosoever met the Drakaina, the day of doom would sweep him away, until the lord Apollon, who deals death from afar, shot a strong arrow at her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "delphyne-c06",
+          "source_id": "delphyne-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 3 to Apollo (trans. Evelyn-White; Theoi labels it Greek epic C7th - 4th B.C.), large-eyed queenly Hera straightway took Typhaon and gave him to the Drakaina, and she received him.",
+          "statement_id": "Dalam Himne Homeros 3 untuk Apollo (terjemahan Evelyn-White; Theoi menandainya sebagai epos Yunani abad ke-7 sampai ke-4 SM), Hera yang bermata besar dan agung segera mengambil Typhaon dan menyerahkannya kepada Drakaina; Drakaina menerimanya.",
+          "quote": "Homeric Hymn 3 to Apollo 356 ff (trans. Evelyn-White) (Greek epic C7th - 4th B.C.) ... Straightway large-eyed queenly Hera took him [Typhaon (Typhoeus)] and bringing one evil thing to another such, gave him to the Drakaina (Dracaena) [Python]; and she received him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "delphyne-c07",
+          "source_id": "delphyne-s2",
+          "host": "www.theoi.com",
+          "statement": "In Apollonius Rhodius' Argonautica (trans. Rieu), Orpheus told the Argonauts in song how Apollon long ago, when still a beardless youth rejoicing in his locks, slew the monster Delphyne with his bow beneath the rocky brow of Parnassos.",
+          "statement_id": "Dalam Argonautica karya Apollonius Rhodius (terjemahan Rieu), Orpheus menyanyikan kepada para Argonaut bagaimana Apollon dahulu, ketika masih pemuda tak berjanggut yang bangga akan rambutnya, membunuh monster Delphyne dengan busurnya di bawah dahi berbatu Parnassos.",
+          "quote": "Apollonius Rhodius, Argonautica 2. 703 ff (trans. Rieu) ... [Orpheus] told them [the Argonauts] in song how Apollon long ago, when he was still a beardless youth rejoicing in his locks, slew the monster Delphyne [Python] with his bow beneath the rocky brow of Parnassos (Parnassus).",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "396131ca46bd2a4b3f68f48896bfc91c84a18eedb268bb3ea24697d12b05db9f"
+      "images": []
     },
     {
       "slug": "dragons-in-greek-mythology",
@@ -2342,20 +2839,15 @@
     },
     {
       "slug": "ichthyocentaur",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-3.md",
+      "entry_sha256": "18f69581f7fb4a17c17b21791562aebdd4ad897da528d41680f5c75ba294b246",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ichthyocentaur-c01",
@@ -2376,10 +2868,69 @@
           "quote": "The earliest example dates to the 2nd century BC, among the friezes in the Pergamon Altar.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c03",
+          "source_id": "ichthyocentaur-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, the Ikhthyokentauroi (Ichthyocentaurs) were a pair of centaurine sea gods with the upper bodies of men, the lower forequarters of horses and the serpentine tails of fish; their brows were crowned with a pair of lobster-claw horns.",
+          "statement_id": "Menurut Theoi, para Ikhthyokentauroi (ichthyocentaur) adalah sepasang dewa laut mirip centaur dengan tubuh atas manusia, bagian depan bawah kuda, dan ekor ikan yang berlekuk seperti ular; dahi mereka dimahkotai sepasang tanduk berbentuk capit lobster.",
+          "quote": "THE IKHTHYOKENTAUROI (Ichthyocentaurs) were a pair of centaurine sea-gods with the upper bodies of men, the lower fore-quarters of horses, and the serpentine tails of fish. Their brows were crowned with a pair of lobster-claw horns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c04",
+          "source_id": "ichthyocentaur-s2",
+          "host": "www.theoi.com",
+          "statement": "The fish-centaurs were named Bythos (Sea-Depths) and Aphros (Sea-Foam). They were brothers of the wise centaur Kheiron (Chiron) and, like him, were perhaps regarded as wise teachers.",
+          "statement_id": "Para centaur ikan itu bernama Bythos (Kedalaman Laut) dan Aphros (Buih Laut). Mereka saudara centaur bijak Kheiron (Chiron) dan, seperti dia, mungkin dianggap guru yang bijak.",
+          "quote": "The fish-centaurs were named Bythos (Sea-Depths) and Aphros (Sea-Foam). They were brothers of the wise kentauros Kheiron (centaur Chiron) and like him were perhaps regarded as wise teachers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c05",
+          "source_id": "ichthyocentaur-s2",
+          "host": "www.theoi.com",
+          "statement": "According to this encyclopedia, an ichthyocentaurus is a fish-centaur, or a particular kind of Triton. They differed from the ordinary Tritons, which were simply half men and half fish and had not the feet of horses.",
+          "statement_id": "Menurut ensiklopedia ini, ichthyocentaurus adalah centaur ikan, atau jenis Triton tertentu. Mereka berbeda dari Triton biasa, yang hanya setengah manusia dan setengah ikan dan tidak berkaki kuda.",
+          "quote": "ICHTHYOCENTAURUS (Ichthuokentauros), that is, a fish-centaur, or a particular kind of Triton. ... They differed from the ordinary Tritons by the fact that the latter were simply half men and half fish, and had not the feet of horses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c06",
+          "source_id": "ichthyocentaur-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, in one mosaic from Zeugma a pair of fish-centaurs labelled Aphros and Bythos carry the cockle-shell craft of the goddess Aphrodite.",
+          "statement_id": "Menurut Theoi, dalam satu mosaik dari Zeugma sepasang centaur ikan berlabel Aphros dan Bythos mengusung kendaraan kerang milik dewi Aphrodite.",
+          "quote": "In one mosaic (ref: Z10.1 below) from Zeugma a pair of fish-centaurs labelled Aphros and Bythos carry the cockle-shell craft of the goddess Aphrodite.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c07",
+          "source_id": "ichthyocentaur-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, the sea-centaurs were probably derived from the Fish-Deities of Syrian mythology that carried Ashtarte ashore after her birth.",
+          "statement_id": "Menurut Theoi, centaur laut itu mungkin berasal dari dewa-dewa ikan dalam mitologi Syria yang membawa Ashtarte ke pantai setelah kelahirannya.",
+          "quote": "The sea-centaurs were probably derived from the Fish-Deities of Syrian mythology which carried Ashtarte ashore after her birth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ichthyocentaur-c08",
+          "source_id": "ichthyocentaur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the term ichthyocentaur is of late coinage, attributable to the Byzantine writer John Tzetzes in the 12th century, and thus they are also called sea-centaurs.",
+          "statement_id": "Menurut Wikipedia, istilah ichthyocentaur muncul belakangan, dikaitkan dengan penulis Bizantium John Tzetzes pada abad ke-12, sehingga makhluk ini juga disebut centaur laut.",
+          "quote": "The term ichthyocentaur is of late coinage, attributable to the Byzantine writer John Tzetzes in the 12th century, and thus they are also referred as sea-centaurs.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "856e9d3f4e0f37a844a426289acb38f532f5b46f60ef2508d5029eb8c7713693"
+      "images": []
     },
     {
       "slug": "leuce",

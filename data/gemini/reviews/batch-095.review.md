@@ -1,6 +1,6 @@
 # Review batch-095
 
-Diperiksa 2026-10-06T14:54:34.150Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md.
+Diperiksa 2026-10-06T15:09:46.211Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md, batch-095-fix-3.md.
 
 ## chloris — lulus-otomatis
 
@@ -316,96 +316,134 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## steropes — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | steropes-c01 | exact | en.wikipedia.org | In Hesiod's Theogony, Steropes is one of the Cyclopes (with Brontes and Arges), sons of Uranus and Gaia who made Zeus's thunderbolt. | In Hesiod's Theogony, the Cyclopes are Brontes, Steropes, and Arges, sons of Uranus and Gaia and creators of Zeus's characteristic weapon, the thunderbolt. |
 | steropes-c02 | exact | en.wikipedia.org | The name Steropes means "Lightning", reflecting their role as thunderbolt makers. | The names that Hesiod gives them, Arges (Bright), Brontes (Thunder), and Steropes (Lightning), reflect their fundamental role as thunderbolt makers. |
 | steropes-c03 | exact | en.wikipedia.org | Ovid also has Brontes and Steropes working at forges in Sicilian caves. | The later Latin poet Ovid also has the Hesiodic Cyclopes, Brontes and Steropes (along with a third Cyclops named Acmonides), work at forges in Sicilian caves. |
+| steropes-c04 | exact | www.theoi.com | In Hesiod's Theogony (trans. Evelyn-White), the Kyklopes, Brontes, Steropes and stubborn-hearted Arges, gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the middle of their foreheads, and strength, might and craft were in their works. | Hesiod, Theogony 139 ff (trans. Evelyn-White) ... the Kyklopes (Cyclopes), overbearing in spirit, Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads. ... Strength and might and craft were in their works. |
+| steropes-c05 | exact | www.theoi.com | In Pseudo-Apollodorus' Bibliotheca (trans. Aldrich), Ouranos (Uranus) sired the Kyklopes, named Arges (Flash), Steropes (Lightning) and Brontes (Thunder), each with one eye in his forehead; Ouranos then bound them and threw them into Tartaros (Tartarus). | Pseudo-Apollodorus, Bibliotheca 1. 1 - 4 (trans. Aldrich) ... After these he sired the Kyklopes (Cyclopes), by name Arges (Flash), Steropes (Lightning), and Brontes (Thunder), each of whom had one eye in his forehead. But Ouranos (Uranus, Sky) bound these and threw them into Tartaros (Tartarus) |
+| steropes-c06 | exact | www.theoi.com | In Pseudo-Apollodorus' Bibliotheca, after Ouranos' rule was overthrown the Titanes retrieved their brothers from Tartaros and gave the power to Kronos, but Kronos once again bound the Kyklopes and confined them in Tartaros. | Pseudo-Apollodorus, Bibliotheca 1. 1 - 4 (trans. Aldrich) ... Thus having overthrown Ouranos' rule the Titanes retrieved their brothers from Tartaros and gave the power to Kronos. But Kronos once again bound the Kyklopes and confined them in Tartaros. |
+| steropes-c07 | exact | www.theoi.com | According to this encyclopedia, the Cyclopes provided Zeus with thunderbolts and lightning, Pluto with a helmet and Poseidon with a trident; afterwards they remained the ministers of Zeus, but were later killed by Apollo for having furnished Zeus with the thunderbolts that killed Asclepius. | the Cyclopes provided Zeus with thunderbolts and lightning, Pluto with a helmet, and Poseidon with a trident. ... Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius. |
+| steropes-c08 | exact | www.theoi.com | In Virgil's Aeneid (trans. Day-Lewis), the Cyclopes were hard at work in an underground iron foundry, Brontes and Steropes with Pyracmon stripped to the buff; they made a thunderbolt of the kind the Father of heaven (Zeus) shoots down in great numbers at the earth from all over the sky. | Virgil, Aeneid 8. 418 ff (trans. Day-Lewis) ... The Cyclopes were hard at work in this underground iron-foundry--Brontes and Steropes, Pyracmon stripped to the buff. They manufactured a thunderbolt, such as the Father of heaven [Zeus] shoots down in such great numbers at earth from all over the sky |
+| steropes-c09 | exact | www.theoi.com | In Valerius Flaccus' Argonautica (trans. Mozley), the god of Delos (Apollon) pays for having struck down the Cyclops Steropes with his thankless bow. | Valerius Flaccus, Argonautica 1. 445 ff (trans. Mozley) ... for it is in thy fields that the god of Delos [Apollon] pays for having struck down [the Cylcops] Steropes with his thankless bow. |
 
 
 ## liriope — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Wikipedia, Theoi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | liriope-c01 | exact | en.wikipedia.org | Liriope is a Boeotian naiad of Thespiae, probably daughter of a Boeotian or Phocian river god. | is a Boeotian naiad of Thespiae, who was probably the daughter of one of the Boeotian or Phocian river gods. |
 | liriope-c02 | exact | en.wikipedia.org | She bore the river god Cephissus a son, Narcissus. | Liriope was raped by the river-god Cephissus, who was himself the son of Pontus and Thalassa, and bore his son Narcissus. |
 | liriope-c03 | exact | en.wikipedia.org | Liriope's name means "face of the narcissus". | Liriope's name means "face of the narcissus" from the Greek words leirion "narcissus" and ops "face." |
+| liriope-c04 | exact | www.theoi.com | Liriope was a Naiad nymph of Phokis (in central Greece). She bore the river god Kephisos (Cephisus) a beautiful son named Narkissos (Narcissus), who was transformed into the flower that shares his name. | LIRIOPE was a Naiad-nymph of Phokis (in central Greece). She bore the river-god Kephisos (Cephisus) a beautiful son named Narkissos (Narcissus) who was transformed into his namesake flower. |
+| liriope-c05 | exact | www.theoi.com | Liriope was probably identified with Lilaia, the Naiad nymph of the springs of the river Kephisos. | Liriope was probably identified with Lilaia, the Naiad-nymph of the springs of the river Kephisos. |
+| liriope-c06 | exact | www.theoi.com | In Ovid's Metamorphoses (trans. Melville), Liriope is the wave-blue water nymph whom Cephisos once embraced and ravished in his winding flow. | Ovid, Metamorphoses 3. 342 ff (trans. Melville) ... Wave-blue water-nymph Liriope, whom once Cephisos in his sinuous flow embracing held and ravished. |
+| liriope-c07 | exact | www.theoi.com | In Ovid's Metamorphoses (trans. Melville), the nymph bore a fine infant boy and named him Narcissus. She asked the seer whether he would enjoy long years and a ripe old age, and was answered: 'If he shall himself not know.' | Ovid, Metamorphoses 3. 342 ff (trans. Melville) ... the lovely Nymphe bore a fine infant boy, from birth adorable, and named her son Narcissus; and of him she asked the seer ... would he long years and ripe old age enjoy, who answered ‘If he shall himself not know.’ |
 
 
 ## macris — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Theoi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | macris-c01 | exact | en.wikipedia.org | Macris is a daughter of Aristaeus who raised the young Hera before incurring her wrath and being banished. | is a daughter of Aristaeus who reared the goddess Hera in her youth, before incurring the wrath of the goddess and being banished by her. |
 | macris-c02 | exact | en.wikipedia.org | Macris was a daughter of Aristaeus, a rustic god and son of Apollo; she was also called Nysa. | Macris was a daughter of Aristaeus, a rustic god and son of Apollo. She was also called Nysa. |
+| macris-c03 | exact | www.theoi.com | Makris (Macris) was a nymph, daughter of the rustic god Aristaios (Aristaeus), who nursed the infant Dionysos in a cave on the island of Euboia. | MAKRIS (Macris) was a nymph daughter of the rustic-god Aristaios (Aristaeus) who nursed the infant Dionysos in a cave on the island of Euboia. |
+| macris-c04 | exact | www.theoi.com | She was later driven from her home by the wrathful goddess Hera and settled on Korkyra, home of the Phaiakes (Phaeacians). | She was later driven from her home by the wrathful goddess Hera and settled on Korkyra (Corycra), home of the Phaiakes (Phaeacians). |
+| macris-c05 | exact | www.theoi.com | In Apollonius Rhodius' Argonautica, Makris in Euboia took the infant Dionysos to her bosom and moistened his parched lips with honey, after Hermes had rescued him from the flames and brought him to her. | Apollonius Rhodius, Argonautica 4. 1128 ff ... It was Makris, who in Abantian Euboia (Euboea), took the infant Dionysos to her bosom and moistened his parched lips with honey, when Hermes had rescued him from the flames and brought him to her. |
+| macris-c06 | exact | www.theoi.com | In the Argonautica, Hera saw this and in her anger banished Makris from Euboia. Makris came to the remote Phaiakian land, where she lived in the sacred cave and brought abundance to the people. | Apollonius Rhodius, Argonautica 4. 1128 ff ... But Hera saw this and in her anger banished her from Euboia. So Makris came to the remote Phaiakian land, where she lived in the sacred cave and brought abundance to the people. |
+| macris-c07 | exact | www.theoi.com | Makris' name was derived from the Greek word makros, meaning "far away", or makaria, meaning "blessed". | Makris' name was derived from the Greek word makros meaning "far away" or makaria meaning "blessed". |
+| macris-c08 | exact | www.theoi.com | Makris was also known as Nysa and in this guise was often multiplied into a troupe of Nysiades. | Makris was also known as Nysa and in this guise was often multiplied into a troupe of Nysiades. |
+| macris-c09 | exact | www.theoi.com | In Diodorus Siculus' Library of History, Ammon (Zeus) came and brought the child (Dionysos) and gave him into the care of Nysa, one of the daughters of Aristaios. | Diodorus Siculus, Library of History 3. 70. 1 (trans. Oldfather) ... Ammon [Zeus] came and brought the child [Dionysos] and gave him into the care of Nysa, one of the daughters of Aristaios (Aristaeus) |
+| macris-c10 | exact | en.wikipedia.org | According to Wikipedia, Hermes or Zeus himself later took the infant Dionysus to Macris, who nursed him and fed him honey. | Some time later, Hermes or Zeus himself took the infant Dionysus and brought him to Macris, who nursed him and fed him honey. |
 
 
 ## podarge — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | podarge-c01 | exact | en.wikipedia.org | Podarge is a harpy, personification of a swift wind and mate of Zephyrus, the West Wind. | is a harpy, a personification of a swift wind and mate of Zephyrus, the West Wind. |
 | podarge-c02 | exact | en.wikipedia.org | She is the mother of Balius and Xanthus, two swift divine horses given to Achilles. | She is the mother of Balius and Xanthus — two divine horses renowned for their swiftness and who were gifted to Achilles |
+| podarge-c03 | exact | www.theoi.com | In Homer's Iliad (trans. Lattimore), Xanthos and Balios, horses that raced with the speed of the winds, were conceived by stormy Podarge (a Harpy) of Zephyros (the West Wind) and borne as she grazed in the meadow beside the swirl of Okeanos. | Homer, Iliad 16. 148 ff (trans. Lattimore) ... Xanthos (Xanthus) and Balios (Balius), who tore with the winds' speed, horses stormy Podarge [a Harpyia (Harpy)] once conceived of Zephyros (the West Wind) and bore, as she grazed in the meadow beside the swirl of Okeanos (Oceanus). |
+| podarge-c04 | exact | www.theoi.com | In Stesichorus' Fragment 178 (from the Etymologicum Magnum), Hermes gave the Dioskouri Phlogeus and Harpagos, swift foals of Podarge, while Hera gave them Xanthos and Kyllaros. | Stesichorus, Fragment 178 (from Etymologicum Magnum) ... Stesichorus in his Funeral Games of Pelias says that Hermes gave the Dioskouri (Dioscuri) ... Phlogeus and Harpagos, swift foals of Podarge, while Hera gave them Xanthos (Xanthus) and Kyllaros (Cyllarus). |
+| podarge-c05 | exact | www.theoi.com | According to this encyclopedia, in the Homeric poems the Harpies ("the swift robbers") are nothing but personified storm winds, and Homer names only one, Podarge, who was married to Zephyrus and gave birth to Achilles' two horses, Xanthus and Balius. | HARPYIAE (Harpuiai), that is, "the swift robbers," are, in the Homeric poems, nothing but personified storm winds. ... Homer mentions only one by name, viz. Podarge, who was married to Zephyrus, and gave birth to the two horses of Achilles, Xanthus and Balius. |
+| podarge-c06 | exact | www.theoi.com | The Harpyiai (Harpies), the kind of being to which Podarge belongs, were the spirits (daimones) of sudden, sharp gusts of wind. They were known as the hounds of Zeus and were despatched by the god to snatch people and things away from the earth. | THE HARPYIAI (Harpies) were the spirits (daimones) of sudden, sharp gusts of wind. They were known as the hounds of Zeus and were despatched by the god to snatch away ... people and things from the earth. |
+| podarge-c07 | exact | www.theoi.com | The Harpyiai were depicted as winged women, sometimes with ugly faces or with the lower bodies of birds. | The Harpyiai were depicted as winged women, sometimes with ugly faces, or with the lower bodies of birds. |
 
 
 ## stilbe — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | stilbe-c01 | exact | en.wikipedia.org | Stilbe is a nymph, daughter of the river god Peneus and the Naiad Creusa. | Stilbe, a nymph, daughter of the river god Peneus and the Naiad Creusa. |
 | stilbe-c02 | exact | en.wikipedia.org | She bore Apollo twins: Centaurus, ancestor of the Centaurs, and Lapithus, ancestor of the Lapiths. | She bore Apollo twin sons, Centaurus, ancestor of the Centaurs, and Lapithus, ancestor of the Lapiths. |
+| stilbe-c03 | exact | www.theoi.com | Stilbe was the Naiad nymph of the spring, well or fountain of the main town of the Lapithai (Lapiths) in Thessalia (northern Greece), possibly Gyrton. | STILBE was the Naiad-nymph of the spring, well or fountain of the main town--possibly Gyrton--of the Lapithai (Lapiths) in Thessalia (northern Greece). |
+| stilbe-c04 | exact | www.theoi.com | She was loved by the god Apollon and bore him Lapithes, the first king of the tribe, who gave it his name, and some say also Kentauros (Centaurus), who mated with mares to produce the tribe of Kentauroi (Centaurs). | She was loved by the god Apollon and bore him Lapithes, the eponymous first king of the tribe, and some say Kentauros (Centaurus), who mated with mares to produce the tribe of Kentauroi (Centaurs). |
+| stilbe-c05 | exact | www.theoi.com | In Diodorus Siculus' Library of History (trans. Oldfather), the river god Peneios (Peneus) lay with the Nymphe Kreusa (Creusa) and begat Hypseus and Stilbe, and Apollon lay with Stilbe and begat Lapithes and Kentauros (Centaurus). | Diodorus Siculus, Library of History 4. 69. 1 (trans. Oldfather) ... He [the river-god Peneios (Peneus)] lay with the Nymphe named Kreusa (Creusa) and begat as children Hypseus and Stilbe, and with the latter Apollon lay and begat Lapithes and Kentauros (Centaurus). |
+| stilbe-c06 | exact | www.theoi.com | In Diodorus Siculus' Library of History, Lapithes is the son of Apollon and Stilbe, the daughter of Peneios (Peneus). | Diodorus Siculus, Library of History 5. 61. 3 ... Lapithes, the son of Apollon and Stilbe, the daughter of Peneios (Peneus). |
+| stilbe-c07 | exact | www.theoi.com | Theoi lists two versions of Stilbe's parents: Peneios and Kreouse (Diodorus Siculus 4.69.1), and Okeanos and Tethys (Hyginus Preface). | PARENTS [1] PENEIOS & KREOUSE (Diodorus Siculus 4.69.1) [2] OKEANOS & TETHYS (Hyginus Preface) |
 
 
 ## adrasteia — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `relations[3].note` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | adrasteia-c01 | exact | fr.wikipedia.org | Adrasteia is a nymph whom Rhea charged, with her sister Ida, to protect the infant Zeus from Cronus. | est une nymphe que Rhéa a chargée, avec sa sœur Ida, de protéger Zeus enfant contre Cronos. |
 | adrasteia-c02 | exact | fr.wikipedia.org | She is the daughter of Ananke and Melisse and sister of Ida. | C'est la fille d'Ananké et de Mélissé, ainsi que la sœur d'Ida. |
+| adrasteia-c03 | exact | www.theoi.com | According to Theoi, Ida and Adrasteia were nymphs of Mount Ida in Krete (Crete) who were entrusted with the care of the infant god Zeus. They hid him away in the secluded Diktaion cave, nursing him on honey and the milk of the she-goat Amaltheia. | IDA and ADRASTEIA were nymphs of Mount Ida in Krete (Crete) who were entrusted with the care of the infant god Zeus. They hid him away in the secluded Diktaion (Dictaean) cave, nursing him on honey and the milk of the she-goat Amaltheia. |
+| adrasteia-c04 | exact | www.theoi.com | According to Theoi, as a reward for their service Zeus placed Ida and Adrasteia among the stars as the constellations Ursa Major and Minor (the Bears). | IDA and ADRASTEIA were nymphs of Mount Ida in Krete (Crete) ... As a reward for their service, Zeus placed the pair amongst the stars as the constellations Ursa Major and Minor (the Bears). |
+| adrasteia-c05 | exact | www.theoi.com | In Pseudo-Apollodorus' Bibliotheca (trans. Aldrich), the baby was put in the care of the Kouretes and the nymphs Adrasteia and Ide, daughters of Melisseus (Honey-Man); the nymphs nursed the baby with the milk of Amaltheia. | Pseudo-Apollodorus, Bibliotheca 1. 4 - 5 (trans. Aldrich) ... She put him in the care of both the Kouretes (Curetes) and the Nymphai (Nymphs) Adrasteia and Ide, daughters of Melisseus (Honey-Man). These Nymphai nursed the baby with the milk of Amaltheia |
+| adrasteia-c06 | exact | www.theoi.com | In Callimachus' Hymn 1 to Zeus (trans. Mair), Adrasteia laid Zeus to rest in a cradle of gold, and he sucked the rich teat of the she-goat Amaltheia. | Callimachus, Hymn 1 to Zeus 42 ff (trans. Mair) ... and Adrasteia laid thee to rest in a cradle of gold, and thou didst suck the rich teat of the she-goat Amaltheia |
+| adrasteia-c07 | exact | www.theoi.com | In Apollonius Rhodius' Argonautica (trans. Rieu), one of Zeus's toys was made by his fond nurse Adresteia (Adrasteia) in the Idaian cave when he was still a child and liked to play; it is a perfect ball. | Apollonius Rhodius, Argonautica 3. 132 ff (trans. Rieu) ... Then I will give you one of Zeus's lovely toys, the one that his fond nurse Adresteia (Adrasteia) made for him in the Idaian cave when he was still a child and liked to play. It is a perfect ball; |
+| adrasteia-c08 | exact | www.theoi.com | In Diodorus Siculus' Library of History, the Kretans who settled in Sicily built a temple to the Mothers (that is, Ida and Adrasteia) and accorded these goddesses unusual honours, adorning their temple with many votive offerings. | Diodorus Siculus, Library of History 4. 79. 7 - 80. 6 ... They [the Kretans (Creteans) who settled in Sicily] built a temple to the Mothers [i.e. Ida and Adrasteia] and accorded these goddesses unusual honours, adorning their temple with many votive offerings. |
 
 
 ## ampelos — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[2].summary` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ampelos-c01 | exact | en.wikipedia.org | Ampelos was a personification of the grapevine and lover of Dionysus (Bacchus). | was a personification of the grapevine and lover of Dionysus in Greek and Bacchus in Roman mythology. |
 | ampelos-c02 | exact | en.wikipedia.org | He was a satyr whom Dionysus turned into a constellation or the grapevine. | He was a satyr that Dionysus either turned into a constellation or the grape vine. |
 | ampelos-c03 | exact | en.wikipedia.org | According to Nonnus, Ampelos was gored by a wild bull after mocking Selene. | According to Nonnus, Ampelos was gored to death by a wild bull after he mocked the goddess Selene |
+| ampelos-c04 | exact | www.theoi.com | According to Theoi, Ampelos was a handsome young Thrakian Satyros (Satyr) loved by the god Dionysos. | AMPELOS was a handome, young Thrakian Satyros (Satyr) loved by the god Dionysos. |
+| ampelos-c05 | exact | www.theoi.com | According to Theoi, there were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set among the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes). | There were two accounts of his death. In one he was slain by a wild bull and transformed by the grieving god into the first grapevine. In the other Ampelos fell from an elm tree while picking grapes and was set amongst the stars as the constellation Vindemitor or Vindiatrix (better known as Bootes). |
+| ampelos-c06 | exact | www.theoi.com | In Ovid's Fasti (trans. Boyle), beardless Ampelos, they say a nymph's and a satyr's son, was loved by Bacchus (Dionysos) on Ismarian hills (in Thrace). Bacchus trusted him with a vine hanging from the leaves of an elm; it is now named for the boy. | Ovid, Fasti 3. 407 ff (trans.Boyle) ... Beardless Ampelos, they say, a Nympha's and a Satyrus' (Satyr's) son, was loved by Bacchus [Dionysos] on Ismarian hills [in Thrace]. He trusted him with a vine hanging from the leaves of an elm; it is now named for the boy. |
+| ampelos-c07 | exact | www.theoi.com | In Ovid's Fasti (trans. Boyle), the reckless youth fell while picking gaudy grapes on a branch, and Liber (Dionysos) lifted the lost boy to the stars. | Ovid, Fasti 3. 407 ff (trans.Boyle) ... The reckless youth fell picking gaudy grapes on a branch. Liber [Dionysos] lifted the lost boy to the stars. |
+| ampelos-c08 | exact | www.theoi.com | In Nonnus' Dionysiaca (trans. Rouse), Ampelos shouted boldly to the full-faced Moon (Mene): "Give me best, Selene, horned driver of cattle! Now I am both, I have horns and I ride a bull!" | Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... He shouted boldly to the fullfaced Moon (Mene)--‘Give me best, Selene, horned driver of cattle! Now I am both--I have horns and I ride a bull!’ |
+| ampelos-c09 | exact | www.theoi.com | In Nonnus' Dionysiaca, Selene looked with a jealous eye to see how Ampelos rode on the murderous marauding bull. She sent a cattle-chasing gadfly, and the bull, pricked continually by the sharp sting, galloped away like a horse through pathless tracts. | Nonnus, Dionysiaca 11. 185 ff (trans. Rouse) ... Selene looked with a jealous eye through the air, to see how Ampleos rode on the murderous marauding bull. She sent him a cattlechasing gadfly; and the bull, pricked continually all over by the sharp sting, galloped away like a horse through pathless tracts. |
 
 
 ## canens — lulus-otomatis
@@ -423,30 +461,34 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## catoblepas — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | catoblepas-c01 | exact | en.wikipedia.org | The catoblepas is a legendary creature of Aethiopia first described by Pliny the Elder and later Claudius Aelianus. | is a legendary creature from Aethiopia, first described by Pliny the Elder and later by Claudius Aelianus. |
 | catoblepas-c02 | exact | en.wikipedia.org | One description likens it to a cape buffalo whose heavy head always hangs down; its stare or breath could kill. | One known description of the Catoblepas is said to resemble a cape buffalo, with its head always pointing downwards due to its great weight. Its stare or breath could kill people. |
 | catoblepas-c03 | exact | en.wikipedia.org | It is often thought to be based on encounters with wildebeest. | The catoblepas is often thought to be based on real-life encounters with wildebeest |
+| catoblepas-c04 | exact | www.perseus.tufts.edu | In Pliny the Elder's Natural History (Bostock and Riley translation), among the Hesperian Æthiopians is the fountain of Nigris, by many supposed to be the head of the Nile; near this fountain is found a wild beast called the catoblepas. | Pliny the Elder, The Natural History ... Among the Hesperian Æthiopians is the fountain of Nigris, by many, supposed to be the head of the Nile. ... Near this fountain, there is found a wild beast, which is called the catoblepas |
+| catoblepas-c05 | exact | www.perseus.tufts.edu | In Pliny the Elder's Natural History, the catoblepas is an animal of moderate size, sluggish in the movement of the rest of its limbs; its head is remarkably heavy and carried only with the greatest difficulty, always bent down towards the earth. | Pliny the Elder, The Natural History ... which is called the catoblepas ... an animal of moderate size, and in other respects sluggish in the movement of the rest of its limbs; its head is remarkably heavy, and it only carries it with the greatest difficulty, being always bent down towards the earth. |
+| catoblepas-c06 | exact | www.perseus.tufts.edu | In Pliny the Elder's Natural History, were it not for that circumstance of its head the catoblepas would prove the destruction of the human race, for all who behold its eyes fall dead on the spot. | Pliny the Elder, The Natural History ... which is called the catoblepas ... Were it not for this circumstance, it would prove the destruction of the human race; for all who behold its eyes, fall dead upon the spot. |
+| catoblepas-c07 | exact | en.wikipedia.org | According to Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) gave a fuller description; in his description the animal's gaze was not lethal, but its breath was poison, since it ate only poisonous vegetation. | Claudius Aelianus (On the Nature of Animals, 7.6) provided a fuller description ... In his description, the animal's gaze was not lethal, but its breath was poison, since it ate only poisonous vegetation. |
+| catoblepas-c08 | exact | en.wikipedia.org | According to Wikipedia, Claudius Aelianus (On the Nature of Animals, 7.6) described the creature as a mid-sized herbivore, about the size of a domestic bull, with a heavy mane, narrow bloodshot eyes, a scaly back and shaggy eyebrows. | Claudius Aelianus (On the Nature of Animals, 7.6) provided a fuller description: the creature was a mid-sized herbivore, about the size of a domestic bull, with a heavy mane, narrow, bloodshot eyes, a scaly back and shaggy eyebrows. |
+| catoblepas-c09 | exact | en.wikipedia.org | According to Wikipedia, Pomponius Mela (Chorographia, 3.98) echoes Pliny the Elder's description but also notes that the creature is fairly passive and not known to attack others physically. | Pomponius Mela (Chorographia, 3.98) echoes the description given by Pliny the Elder though also notes that the creature is fairly passive and not known to physically attack others. |
 
 
 ## delphyne — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | delphyne-c01 | exact | en.wikipedia.org | Delphyne is, in some accounts, the name of the monstrous serpent Apollo killed at Delphi. | is the name given, by some accounts, to the monstrous serpent killed by Apollo at Delphi. |
 | delphyne-c02 | exact | en.wikipedia.org | In the earliest account, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent later called Delphyne. | in the earliest known account of this story, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent (drakaina), subsequently called Delphyne. |
 | delphyne-c03 | exact | en.wikipedia.org | According to the Suda, Delphi was named after Delphyne. | According to the Suda, Delphi was named after Delphyne. |
+| delphyne-c04 | exact | www.theoi.com | In Homeric Hymn 3 to Apollo, near Delphoi was a sweet flowing spring, and there the lord, the son of Zeus, killed with his strong bow the bloated, great Drakaina, a fierce monster wont to do great mischief to men on earth and to their thin-shanked sheep, for she was a very bloody plague. | Homeric Hymns 3 to Apollo 300 ff ... But near by [Delphoi (Delphi)] was a sweet flowing spring, and there with his strong bow the lord, the son of Zeus, killed the bloated, great Drakaina (Dracaena), a fierce monster wont to do great mischief to men upon earth, to men themselves and to their thin-shanked sheep: for she was a very bloody plague. |
+| delphyne-c05 | exact | www.theoi.com | In Homeric Hymn 3 to Apollo (trans. Evelyn-White), whoever met the Drakaina, the day of doom would sweep him away, until the lord Apollon, who deals death from afar, shot a strong arrow at her. | Homeric Hymn 3 to Apollo 356 ff (trans. Evelyn-White) ... Whosoever met the Drakaina, the day of doom would sweep him away, until the lord Apollon, who deals death from afar, shot a strong arrow at her. |
+| delphyne-c06 | exact | www.theoi.com | In Homeric Hymn 3 to Apollo (trans. Evelyn-White; Theoi labels it Greek epic C7th - 4th B.C.), large-eyed queenly Hera straightway took Typhaon and gave him to the Drakaina, and she received him. | Homeric Hymn 3 to Apollo 356 ff (trans. Evelyn-White) (Greek epic C7th - 4th B.C.) ... Straightway large-eyed queenly Hera took him [Typhaon (Typhoeus)] and bringing one evil thing to another such, gave him to the Drakaina (Dracaena) [Python]; and she received him. |
+| delphyne-c07 | exact | www.theoi.com | In Apollonius Rhodius' Argonautica (trans. Rieu), Orpheus told the Argonauts in song how Apollon long ago, when still a beardless youth rejoicing in his locks, slew the monster Delphyne with his bow beneath the rocky brow of Parnassos. | Apollonius Rhodius, Argonautica 2. 703 ff (trans. Rieu) ... [Orpheus] told them [the Argonauts] in song how Apollon long ago, when he was still a beardless youth rejoicing in his locks, slew the monster Delphyne [Python] with his bow beneath the rocky brow of Parnassos (Parnassus). |
 
 
 ## dragons-in-greek-mythology — lulus-otomatis
@@ -465,15 +507,18 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## ichthyocentaur — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ichthyocentaur-c01 | exact | en.wikipedia.org | An ichthyocentaur is a centaur-like sea being with a human upper body, a horse's forequarters and a fish's tail. | is a centaurine sea being with the upper body of a human, the lower anterior half and forelegs of a horse, and the tailed posterior half of a fish. |
 | ichthyocentaur-c02 | exact | en.wikipedia.org | The earliest example dates to the 2nd century BC, on the Pergamon Altar friezes. | The earliest example dates to the 2nd century BC, among the friezes in the Pergamon Altar. |
+| ichthyocentaur-c03 | exact | www.theoi.com | According to Theoi, the Ikhthyokentauroi (Ichthyocentaurs) were a pair of centaurine sea gods with the upper bodies of men, the lower forequarters of horses and the serpentine tails of fish; their brows were crowned with a pair of lobster-claw horns. | THE IKHTHYOKENTAUROI (Ichthyocentaurs) were a pair of centaurine sea-gods with the upper bodies of men, the lower fore-quarters of horses, and the serpentine tails of fish. Their brows were crowned with a pair of lobster-claw horns. |
+| ichthyocentaur-c04 | exact | www.theoi.com | The fish-centaurs were named Bythos (Sea-Depths) and Aphros (Sea-Foam). They were brothers of the wise centaur Kheiron (Chiron) and, like him, were perhaps regarded as wise teachers. | The fish-centaurs were named Bythos (Sea-Depths) and Aphros (Sea-Foam). They were brothers of the wise kentauros Kheiron (centaur Chiron) and like him were perhaps regarded as wise teachers. |
+| ichthyocentaur-c05 | exact | www.theoi.com | According to this encyclopedia, an ichthyocentaurus is a fish-centaur, or a particular kind of Triton. They differed from the ordinary Tritons, which were simply half men and half fish and had not the feet of horses. | ICHTHYOCENTAURUS (Ichthuokentauros), that is, a fish-centaur, or a particular kind of Triton. ... They differed from the ordinary Tritons by the fact that the latter were simply half men and half fish, and had not the feet of horses. |
+| ichthyocentaur-c06 | exact | www.theoi.com | According to Theoi, in one mosaic from Zeugma a pair of fish-centaurs labelled Aphros and Bythos carry the cockle-shell craft of the goddess Aphrodite. | In one mosaic (ref: Z10.1 below) from Zeugma a pair of fish-centaurs labelled Aphros and Bythos carry the cockle-shell craft of the goddess Aphrodite. |
+| ichthyocentaur-c07 | exact | www.theoi.com | According to Theoi, the sea-centaurs were probably derived from the Fish-Deities of Syrian mythology that carried Ashtarte ashore after her birth. | The sea-centaurs were probably derived from the Fish-Deities of Syrian mythology which carried Ashtarte ashore after her birth. |
+| ichthyocentaur-c08 | exact | en.wikipedia.org | According to Wikipedia, the term ichthyocentaur is of late coinage, attributable to the Byzantine writer John Tzetzes in the 12th century, and thus they are also called sea-centaurs. | The term ichthyocentaur is of late coinage, attributable to the Byzantine writer John Tzetzes in the 12th century, and thus they are also referred as sea-centaurs. |
 
 
 ## leuce — lulus-otomatis
