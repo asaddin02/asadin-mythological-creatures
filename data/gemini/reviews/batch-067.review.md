@@ -1,13 +1,10 @@
 # Review batch-067
 
-Diperiksa 2026-10-01T13:23:52.481Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md.
+Diperiksa 2026-10-06T14:43:26.775Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md.
 
 ## jiaolong — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 13, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,14 +14,19 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 | jiaolong-c04 | exact | en.wikipedia.org | Ancient texts describe Yue tattoos as protection against these creatures. | A number of scholars point to non-Sinitic southern origins for the legendary creature and ancient texts chronicle that the Yue people once tattooed their bodies to ward against these monsters. |
 | jiaolong-c05 | exact | en.wikipedia.org | Translations of jiao include flood dragon, scaled dragon, and crocodile. | In English translations, jiao has been variously rendered as "jiao-dragon", "crocodile", "flood dragon", "scaly dragon", or even "kraken". |
 | jiaolong-c06 | loose | en.wikipedia.org | Equivalent names include Japanese kōryū and Vietnamese giao long. | The Japanese equivalent term is kōryō or kōryū (蛟竜). The Vietnamese equivalent is giao long, considered synonymous to Vietnamese Thuồng luồng. |
+| jiaolong-c07 | exact | en.wikipedia.org | The Shuowen Jiezi dictionary glosses the jiao as a type of dragon, and the Piya dictionary adds that the jiao hatch from eggs. | The Shuowen Jiezi dictionary (121 CE) glosses the jiao as "a type of dragon (long), as does the Piya dictionary (11th c.), which adds that the jiao are oviparous (hatch from eggs). |
+| jiaolong-c08 | exact | en.wikipedia.org | Several texts allude to the jiao as lord of aquatic beings, and the jiaolong is called the "god of the water animals". | Several texts allude to the jiao being the lord of aquatic beings. The jiaolong is called the "god of the water animals". |
+| jiaolong-c09 | exact | en.wikipedia.org | According to the source, people in the southern state of Wu called it fahong ("swell into a flood") because they believed flooding resulted when jiao hatched. | people in the southern state of Wu called it fahong 發洪 "swell into a flood" because they believed flooding resulted when jiao hatched. |
+| jiaolong-c10 | exact | en.wikipedia.org | According to Guo Pu's commentary, the jiao has a small head and narrow neck with a white goiter, is oviparous, and large ones could swallow a person whole. | Guo adds that the jiao possesses a "small head and a narrow neck with a white goiter " and that it is oviparous, and "large ones were more than ten arm spans in width and could swallow a person whole". |
+| jiaolong-c11 | exact | en.wikipedia.org | In the Dragon Boat Festival legend, the naked rice cakes offered in the river were eaten by the jiaolong dragons, and the cakes had to be wrapped in chinaberry leaves and tied with colored strings, two things the dragons abhor. | the naked rice cakes being offered for him in the river are all being eaten by the dragons (jiaolong), and the cakes need to be wrapped in chinaberry (Melia; Chinese: 楝; pinyin: liàn) leaves and tied with color strings, which are two things the dragons abhor. |
+| jiaolong-c12 | exact | zh.wikisource.org | In this classical dictionary text, 蛟 is a kind of dragon; when a pond holds 3,600 fish, a jiao comes to lead them and can take them flying away; if a fish trap is set in the water, the jiao leaves. | 蛟：龍之屬也。池魚滿三千六百，蛟來爲之長，能率魚飛。置笱水中，卽蛟去。 |
+| jiaolong-c13 | exact | zh.wikisource.org | According to a passage from Pei Yuan quoted in Li Shizhen's Bencao Gangmu, the jiao is over a zhang long, snake-like but four-legged, with a small head and thin neck bearing white tassels, a sienna chest, blue-green spots on its back, and fleshy rings on its tail. | 裴淵《廣州記》云︰蛟長丈餘，似蛇而四足，形廣如楯, 小頭細頸，頸有白嬰。胸前赭色, 背上靑斑, 脇邊若錦, 尾有肉環, 大者數圍 |
+| jiaolong-c14 | exact | zh.wikisource.org | The Bencao Gangmu cites Ren Fang: the jiao belongs to the dragons and is so named because its eyebrows grow crossed; the scaled kind is jiaolong, the winged kind yinglong, the horned kind qiulong, and the hornless kind chilong. | 按任昉《述異記》云, 蛟乃龍屬, 其眉交生, 故謂之蛟, 有鱗曰蛟龍, 有翼曰應龍, 有角曰虯龍, 無角曰螭龍也。 |
 
 
 ## nuba — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 2, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -34,14 +36,18 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | nuba-c04 | exact | en.wikipedia.org | Her drought power counters the opposing forces of wind and rain. | Ba is the daughter of the Yellow Emperor (Huangdi) whom she aided during his Battle at Zhuolu against Chiyou. After Chiyou had fielded a wind god (Feng Bo) and a rain god (Yu Shi), Ba descended from heaven to use her drought power to defeat their wind and rain powers. |
 | nuba-c05 | exact | en.wikipedia.org | The Shanhaijing portrays her wearing dark clothing. | Ba is described in the Shanhaijing as dressed in dark clothes. In the Shenyijing of the Han dynasty or Six Dynasties times, she is described as being about two to three chis in height, but otherwise looking like a person, who walked naked as fast as the wind. |
 | nuba-c06 | exact | en.wikipedia.org | Rites to drive Ba away aimed to end drought and obtain rain. | Up through the middle of the twentieth century, ceremonies to produce rain were held in many regions of China. The basic idea of these ceremonies, which could last several hours, was to drive Ba out of the region. Once Ba was chased away, then the drought was thought to depart along with her and rain would then be sure to soon commence. |
+| nuba-c07 | exact | zh.wikisource.org | This text mentions a person in dark-blue clothes named Ba, daughter of the Yellow Emperor; Chiyou attacked the Yellow Emperor, Yinglong held back water, Chiyou summoned the Wind Earl and Rain Master who unleashed a great storm, then the Yellow Emperor sent down the heavenly woman named Ba, the rain stopped, and Chiyou was killed. | 有人衣青衣，名曰黄帝女魃。蚩尤作兵伐黄帝，黄帝乃令應龍攻之冀州之野。應龍畜水。蚩尤請風伯雨師，縱大風雨。黄帝乃下天女曰魃，雨止，遂殺蚩尤。 |
+| nuba-c08 | exact | zh.wikisource.org | The text says Ba could not go back up and no rain fell where she dwelt; Shu Jun told the emperor, Ba was afterwards placed north of the Red River, and Shu Jun became the ancestor of the fields (tianzu). | 魃不得復上，所居不雨。叔均言之帝，後置之赤水之北。叔均乃為田祖。 |
+| nuba-c09 | exact | zh.wikisource.org | The text adds that whoever wishes to drive her away commands "Deity, go north!" and first clears the waterways and opens drains and ditches. | 魃時亡之，所欲逐之者，令曰：「神北行！」先除水道，决通溝瀆。 |
+| nuba-c10 | exact | en.wikipedia.org | After descending from Heaven to aid Huangdi at Zhuolu, Ba did not return to heaven but wandered to the northern parts of the earth; wherever she appeared there was a drought. | After having descended from Heaven to aid Huangdi at Zhuolu, instead of returning to heaven, Ba wandered to the northern parts of the earth. Wherever Ba appeared, there would be a drought. |
+| nuba-c11 | exact | en.wikipedia.org | In the Book of the Later Han, Yinglong was connected as a companion to Nüba in the myth, and they fought simultaneously against Chiyou's forces. | In the Book of the Later Han, Yinglong was connected as a companion to Nüba in the myth. They fought simultaneously against Chiyou's forces. |
+| nuba-c12 | exact | en.wikipedia.org | In the Shenyijing she is described as about two to three chis tall but otherwise looking like a person, who walked naked as fast as the wind. | In the Shenyijing of the Han dynasty or Six Dynasties times, she is described as being about two to three chis in height, but otherwise looking like a person, who walked naked as fast as the wind. |
+| nuba-c13 | exact | en.wikipedia.org | She is described as one of the first goddesses attested in Chinese literature, appearing in the early poetry collection Shijing and in the later Shanhaijing. | She is one of the first goddesses attested to in Chinese literature, appearing in the early collection of poetry, the Shijing, as well as in the later Shanhaijing. |
 
 
 ## ao-guang — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -50,44 +56,59 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ao-guang-c03 | exact | en.wikipedia.org | One Buddhist interpretation associates him with the Dragon King Sagara. | In Buddhism, the Dragon King sea sutra reveals, there were eight dragon kings. Ao Guang is referred as the Dragon King Sagara. The Avataṃsaka Sūtra reveals that he is the nāgaraja that presides over the world's supply of rain. |
 | ao-guang-c04 | exact | en.wikipedia.org | One tale describes the Jade Emperor punishing dragon kings for sending unauthorized rain. | The Four Dragon Kings were punished by the Jade Emperor for defying the Heavenly court and bringing rain on Earth without permission during the times of drought. |
 | ao-guang-c05 | exact | en.wikipedia.org | In an Avalokiteśvara tale, Ao Guang seeks help after a fisherman captures his son. | In the Complete Tale of Avalokiteśvara and the Southern Seas, his third son was accidentally captured by the fisherman and he pleads Avalokiteśvara(Guanyin) for help. Avalokiteśvara saves the third dragon prince and also takes Ao Guang's daughter, Longnü (Naga Kanya) as his disciple. |
+| ao-guang-c06 | exact | en.wikipedia.org | According to Fengshen Yanyi, after many years Ao Guang had brought chaos to the world by creating droughts, storms, and other disasters. | According to Fengshen Yanyi, after the passage of many years, Ao Guang had brought chaos to the world by creating droughts, storms, and other disasters. |
+| ao-guang-c07 | exact | en.wikipedia.org | In Fengshen Yanyi, Nezha washed himself at a stream near the East Sea until Ao Guang's palace shook; after Li Gen and Ao Guang's third son Ao Bing were killed by Nezha, Ao Guang went to speak to Nezha's father, Li Jing. | One day, Nezha cleansed himself at a neighboring stream of the East Sea, causing Ao Guang's palace to shake at an annoying level. After Ao Guang's favorite investigator Li Gen and third son Ao Bing were both killed by Nezha, Ao Guang set out to talk to Nezha's father, Li Jing. |
+| ao-guang-c08 | exact | en.wikipedia.org | In Fengshen Yanyi, Ao Guang was forced to turn himself into a small snake and go with Nezha back to the Old Pond Pass. | Ao Guang was forced to turn himself into a small snake and come with Nezha back to the Old Pond Pass to forget about the incident completely. |
+| ao-guang-c09 | exact | en.wikipedia.org | In Journey to the West, the monkey king Sun Wukong obtained his Ruyi Jingu Bang, a magically expanding iron rod, from Ao Guang. | In Journey to the West, the monkey king Sun Wukong obtained his Ruyi Jingu Bang, a magically expanding, gold-ringed iron rod weapon, from Ao Guang. |
+| ao-guang-c10 | exact | en.wikipedia.org | In Journey to the West, Ao Guang provides torrential rain to try to stop Red Boy's fire, but the fire cannot be stopped by ordinary water. | Ao Guang provides torrential rain in an attempt to stop Red Boy's fire, but the fire cannot be stopped by ordinary water. |
+| ao-guang-c11 | exact | zh.wikisource.org | In this chapter's text, an attendant reports that Sun Wukong of the mountain 花果山 has arrived; the Dragon King of the East Sea Ao Guang hurriedly rises and, with his dragon sons, dragon grandsons, shrimp soldiers and crab generals, comes out of the palace to greet him, saying "Please come in". | 外面有個花果山天生聖人孫悟空，口稱是大王緊鄰，將到宮也。」東海龍王敖廣即忙起身，與龍子、龍孫、蝦兵、蟹將出宮迎道：「上仙請進，請進。」 |
+| ao-guang-c12 | exact | zh.wikisource.org | In his memorial to the Jade Emperor, Ao Guang states that he bowed down and presented the magic iron staff, the golden cap with phoenix wings, the chain-mail armor and the cloud-treading boots, and saw the guest out with courtesy. | 通明殿外有東海龍王敖廣進表，聽天尊宣詔。」玉皇傳旨：「著宣來。」 ... 臣敖廣舒身下拜，獻神珍之鐵棒，鳳翅之金冠，與那鎖子甲、步雲履，以禮送出。 |
 
 
 ## batutut — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | batutut-c01 | exact | de.wikipedia.org | Batutut, or Người Rừng, is a legendary cryptid of northern Vietnam. | Als Nguoi Rung (vietnamesisch Người Rừng, auch Batutut oder Ujit) (Waldmensch oder Wilder Mensch) wird ein nach örtlichen Legenden existierendes Fabelwesen (Kryptid) aus Nordvietnam bezeichnet. |
 | batutut-c02 | exact | de.wikipedia.org | Reports describe an upright humanoid about two meters tall, while other details vary. | Während der Kryptid sich in den Erzählungen in Körpergröße, Fellfarbe und Sozialwesen unterscheidet, behaupten alle Berichte übereinstimmend, dass der Nguoi Rung ein aufrecht gehender, etwa 2 m großer Affenmensch sei. |
 | batutut-c03 | exact | de.wikipedia.org | Legends associate it with sleeping in caves, using fire, and climbing trees. | Zum Schlafen sucht er angeblich Grotten oder Felsspalten auf. Legenden einheimischer Völker berichten, dass der Kryptid gezielt Feuerstellen aufsuche, aber auch selbst in der Lage sei ein Feuer zu entzünden. Er soll nicht nur schnell laufen können, sondern auch behände auf Bäumen klettern. Nguoi Rungs sollen Menschen gegenüber aggressiv sein, diese anfallen, sogar töten und auch verzehre |
+| batutut-c04 | exact | www.wearethemighty.com | U.S. troops in Kontum Province, Vietnam, reported seeing a strange creature that was not quite human and not quite ape, which locals call Nguoi Rung, "the people of the Forest". | In the Kontum Province of Vietnam, near the borders with Laos and Cambodia, there were a surprisingly large number of bizarre reports from U.S. troops on patrols. They claimed to have seen a strange, not-quite-human but not-quite-ape creature that the locals call Nguoi Rung, or “the people of the Forest.” |
+| batutut-c05 | exact | www.wearethemighty.com | Toward the end of the war, Viet Cong and NVA soldiers reported so many sightings of the reddish-brown, hair-covered Nguoi Rung that the North Vietnamese communist party secretariat ordered scientists to investigate. | Toward the end of the war, Viet Cong and NVA soldiers reported so many sightings of the reddish-brown hair-covered Nguoi Rung that the North Vietnamese communist party secretariat ordered scientists to investigate. |
+| batutut-c06 | exact | www.wearethemighty.com | Dr. Vo Quy, an ornithologist and environmental researcher from Hanoi, found what he believed to be a Nguoi Rung footprint on the forest floor and cast it; the cast was wider than a human foot and too big for any known ape. | Dr. Vo Quy, a respected ornithologist and environmental researcher from Hanoi, discovered what he believed to be a Nguoi Rung footprint on the forest floor and made a cast of it. The cast was wider than a human foot and too big for any known ape. |
+| batutut-c07 | exact | www.wearethemighty.com | The Nguoi Rung is an oft-told tale in Southeast Asia, but despite endless sightings and folklore attached to it there is no concrete evidence that it exists. | the Nguoi Rung is an oft-told tale in the area of Southeast Asia, but despite the endless sightings and folklore attached to the semi-mythical creature, there’s no concrete evidence it exists. |
+| batutut-c08 | exact | www.wearethemighty.com | A U.S. soldier, Gary Linderer, reported a creature with deep-set eyes and a prominent brow, about five feet tall with long muscular arms, that walked upright with broad shoulders and a heavy torso. | Gary Linderer was on a six-man long-range reconnaissance patrol with the 101st Airborne Division when he deployed to South Vietnam. While struggling through some underbrush one day, he ran into “deep-set eyes on a prominent brow… five feet tall, with long muscular arms.” The creature “walked upright with broad shoulders and a heavy torso. |
+| batutut-c09 | exact | de.wikipedia.org | According to the accounts, Nguoi Rungs are aggressive toward people: they attack, even kill and eat them. | Nguoi Rungs sollen Menschen gegenüber aggressiv sein, diese anfallen, sogar töten und auch verzehren. |
+| batutut-c10 | exact | de.wikipedia.org | Because they are said to master fire, some cryptozoologists speculate that the Nguoi Rung might be surviving Homo erectus. | Da sie angeblich den Umgang mit Feuer beherrschen, spekulieren einige Kryptozoologen, dass es sich bei den Nguoi Rungs um überlebende Homo erectus handeln könnte. |
+| batutut-c11 | exact | de.wikipedia.org | Heuvelmans published an article describing the "Minnesota Iceman" as a new species, Homo pongoides, and assumed it was a Nguoi Rung; the Minnesota Iceman was later identified as a forgery, a rubber doll. | gab Heuvelmans einen medienwirksamen Artikel heraus, der es als neue Art der Gattung Homo, Homo pongoides, beschrieb. Er nahm an, es handele sich um einen Nguoi Rung ... Später wurde der „Minnesota-Iceman“ als Fälschung identifiziert; Es handelte sich um eine Gummipuppe. |
 
 
 ## lake-tianchi-monster — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lake-tianchi-monster-c01 | exact | en.wikipedia.org | Lake Tianchi Monster names a cryptid reportedly inhabiting the lake on Mount Baekdu. | Lake Tianchi Monster is the name given to what is said to be a cryptid that lives in Heaven Lake (known as Cheonji in Korean) located in the peak of Baekdu Mountain within the Baekdu-daegan and Changbai mountain ranges encompassing Jilin Province of China and Ryanggang Province of North Korea. |
+| lake-tianchi-monster-c01 | exact | en.wikipedia.org | Lake Tianchi Monster is the name given to a cryptid said to live in Heaven Lake (Cheonji in Korean) at the peak of Baekdu Mountain, within the Baekdu-daegan and Changbai mountain ranges encompassing Jilin Province of China and Ryanggang Province of North Korea. | Lake Tianchi Monster is the name given to what is said to be a cryptid that lives in Heaven Lake (known as Cheonji in Korean) located in the peak of Baekdu Mountain within the Baekdu-daegan and Changbai mountain ranges encompassing Jilin Province of China and Ryanggang Province of North Korea. |
 | lake-tianchi-monster-c02 | exact | en.wikipedia.org | An early sighting report dated 1903 describes a buffalo-like creature retreating into water after being shot. | The first reported sighting was in 1903. It was claimed that a large buffalo-like creature attacked three people, but was shot six times. The monster then retreated under the water. |
 | lake-tianchi-monster-c03 | exact | en.wikipedia.org | An August 1962 report describes two creatures chasing each other in the water. | In 21 to 23 August 1962, a person using a telescope reportedly saw two of the monsters chasing each other in water. More than a hundred people reported the sightings. |
 | lake-tianchi-monster-c04 | exact | en.wikipedia.org | Other reports describe a human-like head on a neck about 1.5 meters long. | More recent reports describe the monster as having a human-like head attached to a 1.5-meter (5 ft) neck. It is said to have a white ring around the bottom of its neck, and the rest of its skin is grey and smooth. |
 | lake-tianchi-monster-c05 | exact | en.wikipedia.org | In 2007, Zhuo Yongsheng claimed to film six unidentified creatures in the lake. | In 2007, Zhuo Yongsheng, a Chinese TV reporter said he had shot a 20-minute video of six unidentified creatures in the volcanic lake on 6 September. He later sent still photos to Xinhua's Jilin provincial bureau. According to a news report one of these showed the six "Nessies" swimming in parallel in three pairs. |
+| lake-tianchi-monster-c06 | exact | www.practicalfishkeeping.co.uk | On the morning of July 11, several local government cadres saw a school of mysterious creatures swimming through the lake in the Changbai mountains, in Jilin province, according to the Beijing Youth Daily. | On the morning of July 11, several local government cadres caught sight of a school of mysterious creatures swimming through the lake in the Changbai mountains, in north-eastern Jilin province, the Beijing Youth Daily said on Tuesday. |
+| lake-tianchi-monster-c07 | exact | www.practicalfishkeeping.co.uk | A provincial forestry official was quoted as saying the monsters appeared five times within about 50 minutes, at times one, at times several, as many as about 20 the last time. | "Within about 50 minutes, the monsters appeared five times," it quoted one of the officials, provincial forestry bureau vice-director Zhang Lufeng, as saying. "At times there was one, at times there were several. The last time, there was as many as about 20." |
+| lake-tianchi-monster-c08 | exact | www.practicalfishkeeping.co.uk | He said the creatures, two to three kilometres in the distance, appeared only as white or black spots, but from the ripples in the water he and others determined the spots were living beings. | He said the creatures, two to three kilometres (1.25-2 miles) in the distance, appeared only as white or black spots. But from the ripples in the water, he and others determined the spots were "living beings. |
+| lake-tianchi-monster-c09 | exact | www.practicalfishkeeping.co.uk | Another sighting compared the monster's head to a human head but with big round eyes and a protruding mouth, a neck 1.2 to 1.5 metres long, a white ring separating neck and torso, and smooth grey skin. | Another sighting compared the head of the monster to that of a human, except with big round eyes, a protruding mouth and a neck 1.2 to 1.5 metres long. It also had a white ring separating its neck and torso and smooth, grey skin. |
+| lake-tianchi-monster-c10 | exact | www.practicalfishkeeping.co.uk | Hundreds of sightseers reported a black monster with a horse-like head; a local tourism official was quoted as saying it was spotted about 10 metres from the bank, jumping out of the water from time to time like a seal. | Hundreds of sightseers visiting the area have also reported spotting a black monster with a horse-like head. A Chinese paper quoted local tourism official Meng Fanying as saying that the creature was spotted just 10 metres from the bank, jumping out of the water from time to time like a seal. |
+| lake-tianchi-monster-c11 | exact | www.practicalfishkeeping.co.uk | Scientists dismiss the reports, saying volcanic eruptions as recently as 300 years ago would make life hazardous for any animal living in the 373-metre deep lake. | Scientists dismiss the reports, saying volcanic eruptions as recently as 300 years ago would make life hazardous for any animal making the 373-metre deep lake its home. |
+| lake-tianchi-monster-c12 | exact | mg.co.za | Local journalist Zhuo Yongsheng shot footage of six "seal-like" creatures in Tianchi Lake; as quoted by Xinhua, they could swim as fast as yachts, at times all disappeared in the water, and their fins or wings were longer than their bodies. | Local journalist Zhuo Yongsheng shot footage of six “seal-like” creatures in the north-eastern Tianchi Lake, which local legend has long said is home to Loch Ness-style monsters. “They could swim as fast as yachts and at times they would all disappear in the water,” the Xinhua news agency quoted Zhuo as saying. “Their fins, or maybe wings, were longer than their bodies.” |
+| lake-tianchi-monster-c13 | exact | mg.co.za | Scientists dismissed the reports, saying the lake was too cold for life, and that volcanic eruptions would also make life extremely hazardous for any animal making its home there. | However, scientists dismissed the reports, saying the lake was too cold for life. Volcanic eruptions would also make life extremely hazardous for any animal making its home there, they said. |
+| lake-tianchi-monster-c14 | exact | en.wikipedia.org | According to Beijing Youth Daily, an estimated 20 monsters were reported; however scientists are skeptical that any large creature could survive in the lake given its recent volcanic history, and skeptics say it is all imagination or just a floating volcanic rock. | According to Beijing Youth Daily, an estimated 20 monsters were reported; however, "scientists are skeptical that any large creature would be able to survive in the lake given its recent history of volcanic activity", and skeptics say "it's all in the imagination, or just a floating volcanic rock". |
 
 
 ## mogwai-chinese-culture — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 4, exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -95,14 +116,18 @@ Klaim 4 (loose 4), sumber 1, gambar 0.
 | mogwai-chinese-culture-c02 | loose | en.wikipedia.org | The mo element is linked to Sanskrit māra. | The word mogwai is the transliteration of the Cantonese word 魔鬼 (Jyutping: mo1 gwai2; Standard Mandarin: 魔鬼; pinyin: móguǐ) meaning 'monster', 'evil spirit', 'devil' or 'demon'. The term mo derives from the Sanskrit māra (मार), meaning 'evil beings' (literally 'death'). |
 | mogwai-chinese-culture-c03 | loose | en.wikipedia.org | Mogui is used for demons in Buddhist and Christian religious contexts. | Mogui 魔鬼 refers to demons in the religious sense (魔鬼: 宗教中指引诱人犯罪的恶鬼). It is therefore used to refer to demons in the sense of both Buddhist and Christian scripture, and to truly evil spiritual entities. |
 | mogwai-chinese-culture-c04 | loose | en.wikipedia.org | Examples include yaksha and rakshasa transmitted from Indian traditions. | Examples of Chinese demons include the yaksha (夜叉) and the raksasha (罗刹), amongst others. Both the yaksha and raksasha are derived from Indian folklore, and in the Chinese version, are violent and ferocious beings with sadistic tendencies. |
+| mogwai-chinese-culture-c05 | exact | en.wiktionary.org | According to Wiktionary, 魔 is a clipping of 魔羅, from Sanskrit māra ("killing; death; destroyer; demon"). | Clipping of 魔羅 (MC ma la), from Sanskrit मार (māra, “killing; death; destroyer; demon”). |
+| mogwai-chinese-culture-c06 | exact | en.wiktionary.org | Wiktionary definitions of 魔 include (in Buddhism) mara, devil, demon, evil spirit, fiend, and a harmful or evil thing or person. | (Buddhism) mara (demon) devil; demon; evil spirit fiend; harmful or evil thing or person |
+| mogwai-chinese-culture-c07 | exact | en.wiktionary.org | Wiktionary defines 魔鬼 (literally or figuratively) as devil, demon, fiend, or an embodiment of evil. | 魔鬼 (literally or figuratively) devil; demon; fiend; an embodiment of evil |
+| mogwai-chinese-culture-c08 | exact | en.wikipedia.org | Mogui (demons) can be distinguished from yaoguai (goblins, sprites), folkloric supernatural beings associated with abnormal phenomena that are more akin to the unseelie fae of European folklore. | Mogui 魔鬼 (demons) can be distinguished from yaoguai 妖怪 (goblins, sprites), which refer to folkloric supernatural beings associated with abnormal phenomena (妖怪: 怪异 - 反常的事物与现象 ), and who are more akin in their nature and quality to the unseelie fae of European folklore. |
+| mogwai-chinese-culture-c09 | exact | en.wikipedia.org | The raksasha are described as bloodthirsty malevolent demons with ugly appearances, derived from Indian legend and entering China through Buddhism, evil man-eaters of large stature capable of swift and terrifying flight. | Raksasha guardians in a temple Bloodthirsty malevolent demons with ugly appearances derived from Indian legend and entering China through the influence of Buddhism. They are described as evil man-eaters of large appearance and stature, and capable of swift and terrifying flight. |
+| mogwai-chinese-culture-c10 | exact | en.wikipedia.org | Air-traversing yaksha (空行夜叉) are described as flying through the night with a pair of wings and radiating a strange glowing darkness; they are said to have red, blue or yellow complexions and animal heads and take pleasure in afflicting human beings. | Air-traversing yaksha (空行夜叉 ) are described as flying through the night with a pair of wings and radiating a strange glowing darkness. They are variously said to have red, blue or yellow complexions and animal heads. They take pleasure in afflicting human beings. |
+| mogwai-chinese-culture-c11 | exact | www.gutenberg.org | A translator's footnote in this book says the Chinese term translated "Cannibals" is an imitation by two Chinese characters of the Sanskrit yakcha, certain demons who feed upon human flesh. | The Chinese term--here translated “Cannibals”--is a meaningless imitation by two Chinese characters of the Sanscrit _yakcha_, or certain demons who feed upon human flesh. |
 
 
 ## nine-sons-of-the-dragon — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 11, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -111,14 +136,18 @@ Klaim 5 (exact 4, loose 1), sumber 3, gambar 0.
 | nine-sons-of-the-dragon-c03 | exact | en.wikipedia.org | Several Ming texts provide versions of the nine-dragon-offspring list. | Several Ming Dynasty texts list what were claimed as the Nine Offspring of the Dragon (Chinese: 龍生九子), and subsequently these feature prominently in popular Chinese stories and writings. There are four principal versions of the list: |
 | nine-sons-of-the-dragon-c04 | exact | en.wikipedia.org | The same name can denote different creatures according to the author. | As seen in the table, some names are assigned to different creatures by different authors. Aside from these names, there are other variants in use, such as 負屭 for the dragons depicted on the tops of steles, or 龜趺 for the turtle found beneath the steles. The word "dragon head" (螭首) may be applied to some of the mentioned structures. |
 | nine-sons-of-the-dragon-c05 | exact | digitalarchive.npm.gov.tw | The National Palace Museum identifies nine-dragon-offspring imagery on an inkstick inscribed Jiu zi. | 白色牛舌形墨，色略黃，整器表面滿覆龍紋，對照墨面所模印的「九子」篆款，可知龍紋是表現龍九子之圖象。 |
+| nine-sons-of-the-dragon-c06 | exact | ja.wikipedia.org | In the list given by 『升庵外集』 (Yang Shen) and 『天禄識余』, 贔屓 looks like a turtle, likes to bear heavy loads, and is the turtle-shaped base under a stone pillar. | 『升庵外集』（楊慎, 1488–1559）や『天禄識余』（高士奇, 1645-1704）は次の9種とする。 贔屓（ひいき） 形は亀に似て、重きを背負うことを好む。石の柱の下の亀の形の台座である。 |
+| nine-sons-of-the-dragon-c07 | exact | ja.wikipedia.org | In the list of 『懐麓堂集』 (Li Dongyang), 囚牛 loves music and its image survives on the head of today's 胡琴. | 『懐麓堂集』（李東陽, 1447-1516）は次の9種とする。 囚牛（しゅうぎゅう） 音楽を好み、今の胡琴の頭にその像を遺す。 |
+| nine-sons-of-the-dragon-c08 | exact | ja.wikipedia.org | In Yang Shen's list, 狴犴 looks like a tiger and, being strong, is placed at the gate of a prison. | 『升庵外集』（楊慎, 1488–1559）や『天禄識余』（高士奇, 1645-1704）は次の9種とする。 ... 狴犴（へいかん） 形は虎に似て、力が強いので牢の門に置かれる。 |
+| nine-sons-of-the-dragon-c09 | exact | ja.wikipedia.org | In Li Dongyang's list, 蚩吻 likes to swallow and its image survives as the beast head on the main roof ridge today. | 『懐麓堂集』（李東陽, 1447-1516）は次の9種とする。 ... 蚩吻（しふん） 呑むことを好み、今の殿脊（屋根の大棟）の獣頭にその像を遺す。 |
+| nine-sons-of-the-dragon-c10 | exact | en.wikipedia.org | Yang Shen's list includes nine creatures and is the most widely found version. | Yang Shen's (楊慎 , 1488–1559) list, which also includes 9 creatures — this version is the most widely found one |
+| nine-sons-of-the-dragon-c11 | exact | en.wikipedia.org | Some of these creatures are based on earlier mythological beasts such as pulao or bixi, but most have no other mythological background and are merely used as names for decorative structures. | Some of these creatures are based on earlier mythological beasts, such as pulao or bixi, but most of them have no other mythological background and are merely used as names for decorative structures. |
+| nine-sons-of-the-dragon-c12 | exact | en.wikipedia.org | Other creatures with dragon features are not listed among the "nine sons of the dragon", including Kirin, Longma, Pixiu, and Denglong. | There are other creatures that have features of the dragon, but are not listed among the "nine sons of the dragon", including Kirin, Longma, Pixiu, and Denglong |
 
 
 ## bulgasari-creature — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (loose 2, exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -127,14 +156,22 @@ Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
 | bulgasari-creature-c03 | exact | en.wikipedia.org | One reading of its name denotes something impossible to kill. | In Korean, the name "Bulgasari" translates to "something impossible to kill"; however, swapping the first Chinese character for a Korean character of the same pronunciation and choosing the corresponding Chinese character to that Korean character results in a spelling that translates to "something that can be killed by fire". |
 | bulgasari-creature-c04 | exact | en.wikipedia.org | Some tales portray its destruction as punishment of evil. | The Bulgasari is often portrayed as heroic in mythology because it causes destruction to punish evil in society, although negative folktales about it also exist. |
 | bulgasari-creature-c05 | exact | en.wikipedia.org | One version describes a rice figure growing after being fed needles. | According to legend, the Bulgasari is a bloodthirsty beast that grows in size as it eats metal. Myth states that it was created by a Buddhist monk who was fleeing persecution because Buddhism was illegal in Goryeo-era Korea. He created a small figure out of rice grains, which he fed needles, and it began to grow. |
+| bulgasari-creature-c06 | exact | encykorea.aks.ac.kr | The Encyclopedia of Korean Culture explains that 불가살이 means, as its Chinese characters indicate, a being that cannot be killed no matter how one tries. | ‘불가살(不可殺)이’는 한자의 의미처럼, 아무리 죽이려고 해도 죽일 수 없는 존재를 의미한다. |
+| bulgasari-creature-c07 | exact | encykorea.aks.ac.kr | Because it cannot be killed by any means yet can be killed by fire, it is also called 화가살 (火可殺); this rests on Five Phases thought, according to which fire opposes metal and overcomes it. | 어떻게 해도 죽일 수 없지만 불로는 죽일 수 있다고 해서 ‘화가살(火可殺)’이라고도 한다. 이는 오행(五行) 사상에 근거한 것으로, 오행에 따르면 불은 쇠와 상극이며 쇠를 이긴다. |
+| bulgasari-creature-c08 | exact | encykorea.aks.ac.kr | The Korean bulgasari and the Chinese 맥 (貘) share the feature of eating metal but are understood to have developed separately. | 우리나라에 전해지는 ‘불가살이’와 중국의 ‘맥’은 쇠를 먹는다는 공통점이 있지만, 별개로 발전한 것으로 파악된다. |
+| bulgasari-creature-c09 | exact | encykorea.aks.ac.kr | Because it could not be killed by any means it was called 불가살; salt, incantations, switches and fire were used to remove it, and in the end it is burned away. | 어떠한 방법으로도 죽일 수 없어서 ‘불가살’이라고 불렸다. ... 소금과 주문, 회초리와 불 등이 동원되는데, 결국 ‘불가살이’는 불에 태워져 없어진다는 내용이다. |
+| bulgasari-creature-c10 | exact | encykorea.aks.ac.kr | In this tale a monk hiding in a wall cupboard makes a strange beast out of grains of rice; the beast eats any metal it finds and its body grows ever larger. | 중은 벽장에 숨어 밥을 먹으며 밥풀로 괴상한 짐승을 만들었다. ... 쇠붙이를 닥치는 대로 먹어치워서 몸집이 점점 거대해졌고 |
+| bulgasari-creature-c11 | exact | encykorea.aks.ac.kr | When the bows and swords the state used to kill the creature proved useless, they tried to burn it away; but it did not die and roamed about with its body turned into a ball of fire, so that places everywhere became seas of flame. | 나라에서 괴물을 죽이려고 활과 칼을 써봐도 소용이 없자 불을 질러 없애려고 했다. 그러나 괴물은 죽지 않고 불덩이가 된 몸으로 돌아다녀 곳곳이 불바다가 되었다. |
+| bulgasari-creature-c12 | exact | encykorea.aks.ac.kr | According to the 『대동운부군옥』, the bulgasari is an imaginary beast shaped like a bear that wards off nightmares and evil energy; in folk custom it is regarded as preventing disaster and fire and is drawn on folding screens or chimneys. | 『대동운부군옥(大東韻府群玉)』에 따르면 불가사리는 상상의 짐승으로 곰같이 생겼으며 악몽과 요사한 기운을 물리친다고 했다고 했다. 불가사리는 설화에서는 환상 속 괴물로 형상화 되지만, 민속에서는 재앙과 화재를 예방해 주는 존재로 여겨 병풍이나 굴뚝에 그려넣기도 한다. |
+| bulgasari-creature-c13 | exact | encykorea.aks.ac.kr | Versions of the tale differ on how it vanishes: a monk sticks a talisman on it, a monk swings a staff so that it spews out all the metal it ate and disappears, its tail is set on fire and burned black, and so on. | 소멸되는 방법은 중이 부적을 불가사리에 붙이는 경우, 중이 지팡이를 휘두르자 그 동안 먹었던 쇠붙이를 모두 쏟아내고 사라지는 경우 ... 불가사리 꼬리에 불을 붙여 까맣게 태우는 경우, 무당의 참언(讖言)으로 고려가 멸망하면서 극성을 부르던 불가사리도 자동 소멸되는 경우 등이 있다. |
+| bulgasari-creature-c14 | exact | en.wikipedia.org | According to legend, it can defeat nightmares and evil spirits, protect against incubi, and prevent plagues and natural disasters; as a result it was sculpted as a sentry on walls, chimneys, railings and pillars. | According to legend, it can defeat nightmares and evil spirits, protect against incubi, and prevent plagues and natural disasters. As a result, it was sculpted as a sentry on walls, chimneys, railings, and pillars. |
+| bulgasari-creature-c15 | exact | en.wikipedia.org | The legend of the Bulgasari originated in the late 14th century. | The legend of the Bulgasari originated in the late 14th century. |
+| bulgasari-creature-c16 | exact | en.wikipedia.org | Myths differ on the fate of the Bulgasari: some say it still lives to this day, while others say it was defeated by monks. | Myths differ on the fate of the Bulgasari; some say that it still lives to this day, while others say that it was defeated by monks. |
 
 
 ## chi-mythology — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -143,22 +180,34 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | chi-mythology-c03 | loose | en.wikipedia.org | The chi character combines an insect component with a phonetic component. | The Chinese character for 螭; chī; 'hornless dragon', combines the "bug radical" 虫 (Kangxi radical #142)—typically used in words for insects, reptiles, and dragons—with a phonetic symbol, (离; 'mountain demon', 'leave'). This phonetic element 离 is pronounced either chī when used for 螭 "demon; dragon" or lí when used for 離; 'leave', 'part'. The c. |
 | chi-mythology-c04 | loose | en.wikipedia.org | A chi character variant also occurs in chimei, denoting mountain and forest demons. | This 螭; chī; "hornless dragon" is also a variant Chinese character for 魑; chī (differentiated with the "ghost radical" 鬼) "mountain demon", which only occurs in the compound 魑魅; chīmèi; "mountain and forest demons; evil spirits; goblins". 魑魅; Chīmèi is sometimes written 螭魅 or 螭鬽 with 螭; chi. |
 | chi-mythology-c05 | exact | en.wikipedia.org | The Shuowen Jiezi contains definitions for characters related to chi. | The Shuowen Jiezi (121 CE), which was the first Chinese dictionary of characters, gives 离, 螭; chī, and 魑 definitions. |
+| chi-mythology-c06 | exact | zh.wikisource.org | In this classical dictionary text, 螭 is described as like a dragon and yellow, called dìlóu (地螻) in the north; some also say a hornless dragon is called chi. The next entry defines 虯 as a horned dragon offspring. | 螭：若龍而黃，北方謂之地螻。从虫离聲。或云無角曰螭。 虯：龍子有角者。 |
+| chi-mythology-c07 | exact | en.wikipedia.org | Wei Zhao's commentary on the Hanshu describes the chi demon as "resembling a tiger with scales". | a possible explanation might be found in the Hanshu (揚雄傳 ) commentary of Wei Zhao, which describes the chī ( 螭) demon as "resembling a tiger with scales". |
+| chi-mythology-c08 | exact | en.wikipedia.org | Many later dictionaries define a contrast between qiu (horned dragon) and chi (hornless dragon). | Many later dictionaries—for instance, the Guangya (c. 230 CE), Longkan Shoujian (997 CE), and Piya (c. 1080 CE)—define a contrast between qiu ( 虯; "horned dragon") and chi ( 螭; "hornless dragon"). |
+| chi-mythology-c09 | exact | en.wikipedia.org | Du Yu's commentary glosses chimei as "born in the strange qi of mountains and forests, harmful to humans". | Du Yu's commentary glosses chīmèi as "born in the strange qi of mountains and forests, harmful to humans". |
+| chi-mythology-c10 | exact | en.wikipedia.org | The chimei-wangliang context records how Yu the Great, legendary founder of the Xia dynasty, cast nine instructional bronze ding to acquaint people with all the dangerous creatures in China's Nine Provinces. | The chīmèi-wǎngliǎng ( 螭魅罔兩) context records how Yu the Great, legendary founder of the Xia dynasty, cast nine instructional bronze ding "tripod cauldrons" to acquaint people with all the dangerous creatures in China's Nine Provinces. |
+| chi-mythology-c11 | exact | en.wikipedia.org | Wang Chong's Lunheng considers the chimei a dragon hybrid, on the grounds that they are said to be dragon-like beings. | Wang Chong's Lùnhéng ( 論衡) (late 1st century CE) considers the chīmèi as a dragon hybrid, "Those who give their opinion on the ch'i, state that they are dragon-like beings; |
 
 
 ## chiwen — lulus-otomatis
 
-Klaim 5 (exact 2, loose 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 11, loose 3), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| chiwen-c01 | exact | en.wikipedia.org | Chiwen is a Chinese dragon with fish features and the name of a roof ornament motif. | Chiwen (Chinese: 蚩吻; pinyin: chīwěn; Wade–Giles: ch'ih-wen; lit. 'hornless-dragon mouth') is a roof ornamental motif in traditional Chinese architecture and art. |
-| chiwen-c02 | exact | en.wikipedia.org | Chiwen is counted among the nine dragon offspring. | Chiwen (Chinese: 蚩吻; pinyin: chīwěn; Wade–Giles: ch'ih-wen; lit. 'hornless-dragon mouth') is a roof ornamental motif in traditional Chinese architecture and art. |
+| chiwen-c01 | exact | en.wikipedia.org | Chiwen is a roof ornamental motif in traditional Chinese architecture and art. | Chiwen (Chinese: 蚩吻; pinyin: chīwěn; Wade–Giles: ch'ih-wen; lit. 'hornless-dragon mouth') is a roof ornamental motif in traditional Chinese architecture and art. |
+| chiwen-c02 | exact | en.wikipedia.org | Chiwen is also the name of a Chinese dragon that mixes features of a fish, and in Chinese mythology is one of the nine sons of the dragon, which are also used as imperial roof decorations. | Chiwen is also the name of a Chinese dragon that mixes features of a fish, and in Chinese mythology is one of the nine sons of the dragon, which are also used as imperial roof decorations. |
 | chiwen-c03 | loose | en.wikipedia.org | Its name combines elements denoting a hornless dragon and an animal's mouth. | The name for this dragon is chīwěn (蚩吻), which compounds chī (蚩; 'hornless dragon', 'young dragon') and wěn (吻; 'animal's mouth'). Chīshǒu (螭首) and Chītóu (螭頭), both literally meaning "hornless-dragon head". |
 | chiwen-c04 | loose | en.wikipedia.org | An alternative spelling associates chiwen with an owl's mouth. | Chiwen is alternatively written 鴟吻; 'owl mouth', using the homophonous character chī (鴟; 'owl', 'bird of prey'). The chīwěi (鴟尾; 'owl tail') and chīméng (鴟甍; 'owl roof-ridge') are additional birdlike roof decorations. |
 | chiwen-c05 | loose | en.wikipedia.org | The earlier chiwei ornament appears on Han-era ceramic architectural models. | The origin of the roof decoration of chiwen can be traced to the roof decoration alternatively named as chiwei (鸱尾), the earliest visual examples found in the Han dynasty on many ceramic architectural models, que-towers, and tomb murals and stone-reliefs. |
+| chiwen-c06 | exact | en.wikipedia.org | According to the Ming Dynasty Wuzazu, the ch'i-wen, which like swallowing, are placed on both ends of the ridgepoles of roofs (to swallow all evil influences). | According to the Ming Dynasty Wuzazu ( 五雜俎) "The ch'i-wen, which like swallowing, are placed on both ends of the ridgepoles of roofs (to swallow all evil influences)." |
+| chiwen-c07 | exact | en.wikipedia.org | The chiwen is the fish-like, hornless dragon with a very truncated body and large wide mouth usually found along roof ridges; its presence on roofs is also said to guard against fires. | This is the fish-like, hornless dragon with a very truncated body and large, wide mouth usually found along roof ridges (as if swallowing the roof beams). His presence on roofs is also said to guard against fires. |
+| chiwen-c08 | exact | en.wikipedia.org | A paragraph in the Tang dynasty book Su Shi Yan Yi by Su E says a mythical sea creature called the chi wen was put on the roofs of buildings during the Han dynasty to protect the structures from fire hazards. | A paragraph in the Tang dynasty book Su Shi Yan Yi ( 蘇氏演義) by Su E ( 蘇鶚) says that a mythical sea creature called the chi wen [sic] was put on the roofs of buildings during the Han dynasty to protect the structures from fire hazards. |
+| chiwen-c09 | exact | en.wikipedia.org | In Fengshui theory, a chiwen or chiwei supposedly protects not only against fires but also against floods and typhoons. | In Fengshui theory, a chiwen or chiwei supposedly protects against not only fires, but also floods and typhoons. |
+| chiwen-c10 | exact | en.wikipedia.org | The chiwen is listed second or third among the Long sheng jiuzi ("dragon gives birth to nine young"), traditional mythological creatures that have become feng shui architectural decorations; each of the nine dragons has a protective function. | The chiwen is listed second or third among the Lóng shēng jiǔzǐ ( 龍生九子; 'dragon gives birth to nine young'), "Nine Dragons" ( 九龍; jiǔlóng), which are traditional mythological creatures that have become traditional Chinese feng shui architectural decorations. Each one of the nine dragons has a protective function. |
+| chiwen-c11 | exact | en.wikipedia.org | Over the course of the mid-Tang dynasty the fish-like chiwen became another prevailing ornamental motif alongside the chiwei; in the Song dynasty chiwen fully replaced the chiwei and adopted a more dragon-like appearance while retaining some bird-like features such as wings or a bird's head. | Over the course of the mid-Tang dynasty, the fish-like chiwen became another prevailing ornamental motif alongside the chiwei. In the Song dynasty, chiwen fully replaced the chiwei and adopted a more dragon-like appearance while also retaining some of their predecessor's bird-like features such as wings or bird's head. |
+| chiwen-c12 | exact | art.nelson-atkins.org | The museum's gallery label states that dragons controlled storms and water and were thought to protect buildings from lightning and other natural calamities. | Dragons controlled storms and water and were thought to protect buildings from lightning and other natural calamities. |
+| chiwen-c13 | exact | art.nelson-atkins.org | According to the museum label, this tile originally decorated one end of the roof ridge of a temple, and the large dragon, facing inwards, appears to be swallowing the roof ridge. | This tile originally decorated one end of the roof ridge of a temple. Facing inwards, the large dragon appears to be swallowing the roof ridge. |
+| chiwen-c14 | exact | art.nelson-atkins.org | The museum's description of the tile states that the larger dragon bites the roof ridge with wide-open jaws and its winding tail turns upward. | The larger dragon is biting the roof ridge with wide-open jaws and its winding tail turns upward. |
 
 
 ## dragon-turtle — lulus-otomatis
