@@ -21,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { fetchImageInfo, plainText } from '../../server/ingest/commons.mjs';
 import { fetchJson } from '../../server/ingest/http.mjs';
 import { ABILITIES, HABITATS } from '../../server/ingest/taxonomy.mjs';
+import { tierShortfall } from './tier.mjs';
 
 const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 const batchId = process.argv[2];
@@ -61,19 +62,6 @@ const ENUM = {
 const BLOCKED_HOST = /(^|\.)(fandom\.com|wikia\.(com|org)|pinterest\.[a-z.]+|quora\.com|reddit\.com|tiktok\.com|youtube\.com|youtu\.be|facebook\.com|instagram\.com|twitter\.com|x\.com)$/i;
 // Pages whose text is rendered client-side or behind a viewer: a missing quote there is not proof of fabrication.
 const DYNAMIC_HOST = /(^|\.)(books\.google\.[a-z.]+|google\.[a-z.]+|archive\.org|jstor\.org|academia\.edu|researchgate\.net|scribd\.com|sciencedirect\.com)$/i;
-const TIER_MIN = { rich: { claims: 15, sources: 3, nonWiki: 2 }, core: { claims: 6, sources: 2, nonWiki: 0 } };
-/** Publisher family of a URL: every Wikipedia language edition counts as one. */
-function familyOf(url) {
-  try {
-    const parts = new URL(url).hostname.replace(/^www\./, '').split('.');
-    if (parts.slice(-2).join('.') === 'wikipedia.org') return 'wikipedia.org';
-    const n = /^(co|ac|go|or|com|net|org|edu|gov|sch|web|my)$/.test(parts.at(-2)) && parts.at(-1).length === 2 ? 3 : 2;
-    return parts.slice(-n).join('.');
-  } catch {
-    return null;
-  }
-}
-
 // ---------------------------------------------------------------- text helpers
 const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', hellip: '…', lsquo: '‘', rsquo: '’', ldquo: '“', rdquo: '”', laquo: '«', raquo: '»', shy: '' };
 const decodeEntities = s => s.replace(/&(#\d+|#x[0-9a-f]+|[a-z]+);/gi, (m, e) => {
@@ -502,16 +490,9 @@ function checkEntry(entry, expected) {
   claims.forEach(c => {
     if (c?.id && !usedClaims.has(c.id)) add('warn', `claims (${c.id})`, 'Klaim ini tidak dirujuk bagian teks mana pun.');
   });
-  const min = TIER_MIN[entry.tier];
   const gaps = list(entry.gaps, 'gaps');
-  if (min) {
-    const nonWiki = new Set(sources.map(s => familyOf(s?.url)).filter(f => f && f !== 'wikipedia.org')).size;
-    const short = [];
-    if (claims.length < min.claims) short.push(`${claims.length} klaim (target ${min.claims})`);
-    if (sources.length < min.sources) short.push(`${sources.length} sumber (target ${min.sources})`);
-    if (nonWiki < min.nonWiki) short.push(`${nonWiki} penerbit selain Wikipedia (target ${min.nonWiki}; Wikipedia semua bahasa dihitung satu)`);
-    if (short.length) add(gaps.length ? 'manual' : 'warn', 'tier', `Di bawah target ${entry.tier}: ${short.join(', ')}.${gaps.length ? ' gaps sudah diisi; nilai apakah pencariannya memadai.' : ' Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari.'}`);
-  }
+  const short = tierShortfall(entry);
+  if (short.length) add(gaps.length ? 'manual' : 'warn', 'tier', `Di bawah target ${entry.tier}: ${short.join(', ')}.${gaps.length ? ' gaps sudah diisi; nilai apakah pencariannya memadai.' : ' Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari.'}`);
   return { issues, claimsById, sourcesById };
 }
 
