@@ -1,6 +1,6 @@
 # Review batch-078
 
-Diperiksa 2026-10-02T00:46:14.770Z. Berkas: batch-078.md, batch-078-fix-1.md, batch-078-fix-2.md.
+Diperiksa 2026-10-06T14:41:56.021Z. Berkas: batch-078.md, batch-078-fix-1.md, batch-078-fix-2.md, batch-078-fix-3.md.
 
 ## meretseger — lulus-otomatis
 
@@ -214,33 +214,36 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## serpopard — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| serpopard-c01 | exact | en.wikipedia.org | The serpopard is a mythical animal of Egyptian and Mesopotamian art with a great cat’s body and long neck. | is a mythical animal known from ancient Egyptian and Mesopotamian art. |
+| serpopard-c01 | exact | en.wikipedia.org | The serpopard is a mythical animal known from ancient Egyptian and Mesopotamian art. | is a mythical animal known from ancient Egyptian and Mesopotamian art. |
 | serpopard-c02 | exact | en.wikipedia.org | Serpopard is a modern name blending serpent and leopard. | The word "serpopard" is a modern coinage. It is a portmanteau of "serpent" and "leopard" |
 | serpopard-c03 | exact | en.wikipedia.org | Its image appears on the Narmer and Oxford palettes. | Examples include the Narmer Palette and the Oxford Palette. |
 | serpopard-c04 | exact | en.wikipedia.org | Two beings are usually shown with intertwined necks. | Typically, two creatures are depicted, with their necks intertwined. |
 | serpopard-c05 | exact | en.wikipedia.org | The depiction is also interpreted as an unusually long-necked lioness. | The image generally is classified as a feline, and with close inspection resembles an unusually long-necked lioness. |
 | serpopard-c06 | exact | en.wikipedia.org | One interpretation reads the being as chaos outside Egypt subdued by the king. | It has been suggested that in Ancient Egyptian art the serpopard represents "a symbol of the chaos that reigned beyond Egypt's borders", which the king must tame. They are normally shown conquered or restrained, as in the Narmer Palette, or attacking other animals. But in Mesopotamian art they are shown in pairs, with intertwined necks. |
+| serpopard-c07 | exact | www.worldhistory.org | World History Encyclopedia describes the largest engraving on the Narmer Palette as two men entwining the serpentine necks of unknown beasts. | Beneath this scene is the largest engraving on the palette of two men entwining the serpentine necks of unknown beasts. |
+| serpopard-c08 | exact | www.worldhistory.org | These creatures have been interpreted as representing Upper and Lower Egypt, but nothing in this section justifies that interpretation, and no one has conclusively interpreted what it means. | two men entwining the serpentine necks of unknown beasts. These creatures have been interpreted as representing Upper and Lower Egypt but there is nothing in this section to justify that interpretation. No one has conclusively interpreted what this section means. |
+| serpopard-c09 | exact | en.wikipedia.org | There is no known name for the creature in any ancient texts. | There is no known name for the creature in any ancient texts. |
+| serpopard-c10 | exact | en.wikipedia.org | The image appears specifically on decorated cosmetic palettes from Egypt's Predynastic period, and more extensively as a design motif on cylinder seals of the Protoliterate period in Mesopotamia (circa 3500–3000 BC). | The serpopard (also known as monstrous lion) is a mythical animal known from ancient Egyptian and Mesopotamian art. ... The image is featured specifically on decorated cosmetic palettes from the Predynastic period of Egypt, and more extensively, as design motifs on cylinder seals in the Protoliterate period of Mesopotamia (circa 3500–3000 BC). |
+| serpopard-c11 | exact | en.wikipedia.org | Because birth tusks are associated with protecting mother and child during birth or birth ceremonies, serpopards are thought to play a role in this protection. | Due to birth tusks being associated with the protection of mother and child during birth or birth ceremonies, serpopards are thought to play a role in this protection. |
 
 
 ## wadj-wer — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wadj-wer-c01 | exact | en.wikipedia.org | Wadj-wer is an Egyptian fertility deity connected with the Mediterranean and the Nile Delta’s waters. | Wadj-wer, also spelled Uatch-ur is an Egyptian god of fertility and the personification of the Mediterranean Sea, whose name means the "great green". He also symbolizes the richness of the waters of the Nile Delta. |
 | wadj-wer-c02 | exact | en.wikipedia.org | Another interpretation links him with Nile Delta lagoons and lakes rather than only the Mediterranean. | It was commonly believed that Wadj-wer was a personification of the Mediterranean Sea; however, he also rather represented the lagoons and lakes in the northernmost Nile Delta, as suggested by some texts describing the "great green" as dry lands which could be crossed by foot, possibly a mention of pathways between two or more lakes. |
 | wadj-wer-c03 | exact | en.wikipedia.org | He is attested in Sahure’s mortuary temple at Abusir in the Fifth Dynasty. | The earliest known attestation of Wadj-wer is dated back to the 5th Dynasty, in the mortuary temple of the pyramid of Sahure, at Abusir; here he appears similar to the god Hapi, but with his body filled by water ripples. |
+| wadj-wer-c04 | exact | www.worldhistory.org | World History Encyclopedia describes Wadj-Wer (Uat-Ur) as the personification of the Mediterranean Sea whose name means "The Great Green". | Wadj-Wer (Uat-Ur) - The personification of the Mediterranean Sea whose name means "The Great Green". |
+| wadj-wer-c05 | exact | www.worldhistory.org | Recent scholarship has changed the traditional view of this god; he is now believed to have personified the lakes, swamps and lagoons of the Delta region near the Mediterranean. | Wadj-Wer (Uat-Ur) - The personification of the Mediterranean Sea whose name means "The Great Green". Recent scholarship has changed the traditional view of this god and he is now believed to have personified the lakes, swamps, and lagoons of the Delta region near to the Mediterranean. |
+| wadj-wer-c06 | exact | www.worldhistory.org | Wilkinson notes inscriptions that refer to "crossing the great green" on foot, which would indicate a land crossing through the Delta region rather than the sea. | Wilkinson notes inscriptions which reference "crossing the great green" by foot which would indicate a land-crossing through the Delta region instead of the sea. |
+| wadj-wer-c07 | exact | www.worldhistory.org | He was worshipped as early as the Old Kingdom (c. 2613-2181 BCE) and continued to be referenced through the rest of Egypt's history, especially on protective amulets and in tomb inscriptions. | Wadj-Wer (Uat-Ur) - The personification of the Mediterranean Sea ... He was worshipped as early as the Old Kingdom (c. 2613-2181 BCE) and continues to be referenced through the rest of Egypt's history, especially through protective amulets and tomb inscriptions. |
 
 
 ## buchis — lulus-otomatis
@@ -259,42 +262,44 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nemty — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nemty-c01 | exact | en.wikipedia.org | Nemty is an Egyptian god with a cult centre at Antaeopolis in Upper Egypt. | In Egyptian mythology, Nemty (Antaeus in Greek, but probably not connected to the Antaeus in Greek mythology) was a god whose worship centered at Antaeopolis in the northern part of Upper Egypt. |
 | nemty-c02 | exact | en.wikipedia.org | He has cult priests by at least the Second Dynasty. | Nemty's worship is quite ancient, dating from at least the 2nd dynasty, at which point he already had priests dedicated to his cult. Originally, Nemty appears to have been the patron of the ancient area around Badari, which was the center of the cult of Horus. |
-| nemty-c03 | exact | en.wikipedia.org | He becomes a ferrymen’s god shown as a falcon on a boat. | Over time, Nemty became considered simply as the god of ferrymen and was consequently depicted as a falcon standing on a boat, a reference to Horus, who was originally considered as a falcon. As god of ferrymen, he gained the title Nemty, meaning "(one who) travels". His later cult center was in Antaeopolis, but also in Per-Nemty (House of Nemty) in the 12th Upper Egyptian nome. |
-| nemty-c04 | exact | en.wikipedia.org | In the Contendings of Horus and Seth, Isis disguises herself so Nemty ferries her despite Set’s prohibition. | Isis disguises herself as an old woman and unknowingly Nemty takes her across after being paid a gold ring |
+| nemty-c03 | exact | en.wikipedia.org | Over time Nemty became considered the god of ferrymen and was depicted as a falcon standing on a boat, a reference to Horus; his later cult centre was in Antaeopolis and also in Per-Nemty (House of Nemty) in the 12th Upper Egyptian nome. | Over time, Nemty became considered simply as the god of ferrymen and was consequently depicted as a falcon standing on a boat, a reference to Horus, who was originally considered as a falcon. As god of ferrymen, he gained the title Nemty, meaning "(one who) travels". His later cult center was in Antaeopolis, but also in Per-Nemty (House of Nemty) in the 12th Upper Egyptian nome. |
+| nemty-c04 | exact | en.wikipedia.org | In the tale The Contendings of Horus and Seth, Isis disguises herself as an old woman and Nemty unknowingly takes her across after being paid a gold ring. | Nemty appears in the tale The Contendings of Horus and Seth which describes the settlement of the inheritance of Osiris ... Isis disguises herself as an old woman and unknowingly Nemty takes her across after being paid a gold ring |
 | nemty-c05 | exact | en.wikipedia.org | Two Sixth-Dynasty pharaohs have names incorporating Nemty. | Two pharaohs bore theophoric names incorporating Nemty's, both during the Sixth Dynasty of Egypt at the end of the Old Kingdom period, Merenre Nemtyemsaf I and Merenre Nemtyemsaf II. Here Nemtyemsaf means "Nemty is his protection". |
 | nemty-c06 | exact | en.wikipedia.org | Older readings Anti or Anty are judged incorrect by several studies. | In older literature, the hieroglyphs of the god were read as Anti or Anty. Several studies confirmed that this reading is not correct. |
+| nemty-c07 | exact | de.wikipedia.org | Nemti (formerly read Anti) is an ancient Egyptian deity securely attested from the Second Dynasty but possibly much older. | Nemti (zu dt. „Der Reisende“), früher noch Anti gelesen, ist eine altägyptische Gottheit, die seit der 2. Dynastie sicher belegt ist, aber viel älter sein könnte. |
+| nemty-c08 | exact | de.wikipedia.org | He was regarded as the ferryman of the afterlife who carried the souls of the dead across the river of the underworld. | Nemti (zu dt. „Der Reisende“), früher noch Anti gelesen, ist eine altägyptische Gottheit, die seit der 2. Dynastie sicher belegt ist, aber viel älter sein könnte. Er galt als Fährmann des Jenseits und transportierte die Seelen der Verstorbenen über den Jenseitsfluss. |
+| nemty-c09 | exact | de.wikipedia.org | He already appears on ceremonial palettes and mace heads of the Naqada II and Naqada III periods. | Nemti hat eine erstaunlich lange Kultgeschichte. Er erscheint bereits auf Prunkpaletten und Keulenknaufen der Naqada II und Naqada-III-Epoche. |
+| nemty-c10 | exact | en.wikipedia.org | Because little information survives, Nemty's original function is not well known, nor whether he was more than just a title of Horus referring to some specific function. | Due to lack of surviving information, it is not very well known what the original function of Nemty was or whether he was more than just a title of Horus referring to some specific function. |
+| nemty-c11 | exact | en.wikipedia.org | Seth fears magical intervention by Isis and so holds the gathering on an island, instructing Nemty not to allow anyone resembling Isis to be ferried there. | Seth fears magical intervention by Isis, Horus' wife (in early Egyptian mythology), and so holds the gathering on an island, instructing Nemty not to allow anyone resembling Isis to be ferried there. |
 
 
 ## imsety — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| imsety-c01 | exact | ja.wikipedia.org | Imsety is a son of Horus, human-headed and guarding the deceased’s liver. | イムセティは、人間の頭を持ち、死者の肝臓を守り、一方で女神イシスに守護される。ホルスからは、「持ち上げろ」と命じられており、死者を復活させるのを助ける役目を担っていたと見られる。 |
+| imsety-c01 | exact | ja.wikipedia.org | Imsety has a human head and guards the liver of the deceased, while the goddess Isis protects him. | イムセティは、人間の頭を持ち、死者の肝臓を守り、一方で女神イシスに守護される。ホルスからは、「持ち上げろ」と命じられており、死者を復活させるのを助ける役目を担っていたと見られる。 |
 | imsety-c02 | exact | ja.wikipedia.org | Isis protects Imsety. | イムセティは、人間の頭を持ち、死者の肝臓を守り、一方で女神イシスに守護される。 |
-| imsety-c03 | exact | ja.wikipedia.org | He is connected with the south. | 死者の書の第148章でホルスの4人の息子と4方位が対応付けされている。イムセティは南に対応する。 ドゥアムトエフ |
-| imsety-c04 | exact | www.worldhistory.org | The accompanying encyclopedia confirms that Imsety guards the jar containing the liver. | Imsety - A protector god, one of the Four Sons of Horus who protected the canopic jar holding the liver. He presided over the south, had the form of a human male, and was watched over by Isis. |
+| imsety-c03 | exact | ja.wikipedia.org | In chapter 148 of the Book of the Dead the four sons of Horus are matched with the four directions, and Imsety corresponds to the south. | 死者の書の第148章でホルスの4人の息子と4方位が対応付けされている。イムセティは南に対応する。 ドゥアムトエフ |
+| imsety-c04 | exact | www.worldhistory.org | World History Encyclopedia describes Imsety as a protector god, one of the Four Sons of Horus who protected the canopic jar holding the liver; he presided over the south, had the form of a human male, and was watched over by Isis. | Imsety - A protector god, one of the Four Sons of Horus who protected the canopic jar holding the liver. He presided over the south, had the form of a human male, and was watched over by Isis. |
+| imsety-c05 | exact | en.wikipedia.org | Most commonly, Imsety protected the liver, Hapy the lungs, Duamutef the stomach and Qebehsenuef the intestines, but this pattern often varied. | Most commonly, Imsety protected the liver, Hapy the lungs, Duamutef the stomach, and Qebehsenuef the intestines, but this pattern often varied. |
+| imsety-c06 | exact | en.wikipedia.org | In the latter part of the New Kingdom the four sons took on their most distinctive iconography: Imsety is portrayed as a human, Hapy as a baboon, Duamutef as a jackal and Qebehsenuef as a falcon; they had originally been portrayed as humans. | The four sons of Horus were a group of four deities in ancient Egyptian religion ... Although they were originally portrayed as humans, in the latter part of the New Kingdom (c. 1550–1070 BC), they took on their most distinctive iconography, in which Imsety is portrayed as a human, Hapy as a baboon, Duamutef as a jackal, and Qebehsenuef as a falcon. |
+| imsety-c07 | exact | en.wikipedia.org | The Egyptologist James P. Allen translates Imsety's name as "He of the Dill"; another Egyptologist, Joshua Roberson, believes Imsety originated as a personification of this herb. | The Egyptologist James P. Allen translates Hapy's name as "He of Haste" and Imsety as "He of the Dill"; another Egyptologist, Joshua Roberson, believes Imsety originated as a personification of this herb. |
+| imsety-c08 | exact | en.wikipedia.org | Imsety (jmstj, also Amset) is first mentioned in the Pyramid Texts, the earliest ancient Egyptian funerary texts, in the late Old Kingdom (24th and 23rd centuries BC). | Imsety (jmstj, also Amset), Hapy (ḥpy), Duamutef (dwꜣ-mwt.f), and Qebehsenuef (qbḥ-snw.f) are first mentioned in the Pyramid Texts, the earliest ancient Egyptian funerary texts, in the late Old Kingdom (24th and 23rd centuries BC). |
+| imsety-c09 | exact | en.wikipedia.org | Imsety's name also resembled the Egyptian word for "liver" (mjst), which may be the reason he became specifically linked with the liver. | Imsety's name also resembled the Egyptian word for "liver" (mjst), which may be the reason why he became specifically linked with the liver. |
+| imsety-c10 | exact | en.wikipedia.org | In numerous sources, such as Spell 541 of the Pyramid Texts, the four sons are stated to be the children of Horus, one of the major deities of the Egyptian pantheon. | Imsety (jmstj, also Amset), Hapy (ḥpy), Duamutef (dwꜣ-mwt.f), and Qebehsenuef (qbḥ-snw.f) are first mentioned in the Pyramid Texts, the earliest ancient Egyptian funerary texts, in the late Old Kingdom (24th and 23rd centuries BC). In numerous sources, such as Spell 541 of the Pyramid Texts, they are stated to be the children of Horus, one of the major deities of the Egyptian pantheon. |
 
 
 ## hatmehit — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -303,35 +308,51 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | hatmehit-c03 | exact | de.wikipedia.org | She is worshipped at Mendes and depicted in Amun’s temple at Hibis. | Verehrt wurde Hatmehit in Mendes, jedoch finden sich auch Darstellungen im Amun-Tempel von Hibis. Die Göttin wurde in der Spätzeit als Gattin des Widder von Mendes angesehen. Seit der 3. Zwischenzeit bilden beide mit Harpokrates die sogenannte Dreiheit von Mendes. |
 | hatmehit-c04 | exact | de.wikipedia.org | With the Ram of Mendes and Harpocrates she forms the Mendes triad. | Seit der 3. Zwischenzeit bilden beide mit Harpokrates die sogenannte Dreiheit von Mendes. |
 | hatmehit-c05 | exact | www.worldhistory.org | Hatmehit’s name means Foremost of the Fish. | Her name means "Foremost of the Fish". |
+| hatmehit-c06 | exact | www.worldhistory.org | Hatmehit (also written Hatmehyt) was a fish goddess worshipped in the Delta region of Mendes. | Hatmehit (Hatmehyt) - She was a fish goddess worshipped in the Delta region of Mendes. |
+| hatmehit-c07 | exact | www.worldhistory.org | According to World History Encyclopedia, she arose from the totemic symbol of the nome (province) around Mendes, which was a fish. | Hatmehit (Hatmehyt) - She was a fish goddess worshipped in the Delta region of Mendes. Her name means "Foremost of the Fish". She arose from the totemic symbol of the nome (province) of the region around Mendes, which was a fish. |
+| hatmehit-c08 | exact | en.wikipedia.org | Hatmehit was part of the Mendesian triad, which consisted of her, the god Banebdjedet and Harpocrates (Horus the child). | Hatmehit was part of the Mendesian triad which consisted of her, the god Banebdjedet, and Harpocrates (Horus the child). |
+| hatmehit-c09 | exact | en.wikipedia.org | Hatmehit's cult was mainly localized to Nome 16 of Lower Egypt around Mendes, but depictions of her are found widely in Egypt. | Hatmehit was part of the Mendesian triad which consisted of her, the god Banebdjedet, and Harpocrates (Horus the child). Her cult was localized mainly to Nome 16 of Lower Egypt around Mendes although there are depictions of her found widely around Egypt. |
+| hatmehit-c10 | exact | en.wikipedia.org | Because Mendes was a centre of perfume production, Hatmehit became associated with good scents and perfumery; her epithets included "Lady of Punt", "Lady of myrrh" and "She who creates everyone's scent". | Due to Mendes' role as a center for perfume production, Hatmehit gained an association with good scents and perfumery. Some of her epithets included "Lady of Punt", "Lady of myrrh", and "She who creates everyone's scent". |
+| hatmehit-c11 | exact | en.wikipedia.org | In later periods Hatmehit takes on the iconography of Isis and Hathor, her fish standard or crown replaced by the horns and sun disk that both shared. | In later periods Hatmehit takes on the iconography of Isis and Hathor, with her fish standard or crown replaced by the horns and sun disk that both shared. |
+| hatmehit-c12 | exact | en.wikipedia.org | Her name is sometimes considered to mean "Foremost of the Inundation", with a connection drawn between the floodwaters and the fish that come with them. | Hatmehit's name is typically translated as "Foremost of Fish" ... Therefore her name is sometimes considered to mean "Foremost of the Inundation", with a connection drawn between the floodwaters and the fish that come with them. |
+| hatmehit-c13 | exact | en.wikipedia.org | From the Third Intermediate Period onwards, Isis began to take the role of Hatmehit in the local cult, and Hatmehit was considered a form of Isis particular to Mendes. | from the Third Intermediate Period onwards, Isis would begin to take the role of Hatmehit in the local cult, with Hatmehit being considered a form of Isis particular to Mendes. |
+| hatmehit-c14 | exact | en.wikipedia.org | Hatmehit was an ancient Egyptian goddess associated with the city in the Nile Delta. | Hatmehit or Hatmehyt ... was an Ancient Egyptian goddess associated with the city in the Nile Delta |
 
 
 ## set-animal — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| set-animal-c01 | exact | en.wikipedia.org | The Set animal or sha is the animal associated with Set in Egyptian art. | In ancient Egyptian art, the Set animal, or sha, is the affiliated animal of the god Set. Because Set was identified with the Greek monster Typhon, the animal is also commonly known as the Typhonian animal or Typhonic beast. |
+| set-animal-c01 | exact | en.wikipedia.org | In ancient Egyptian art, the Set animal, or sha, is the animal affiliated with the god Set; because Set was identified with the Greek monster Typhon, the animal is also commonly known as the Typhonian animal or Typhonic beast. | In ancient Egyptian art, the Set animal, or sha, is the affiliated animal of the god Set. Because Set was identified with the Greek monster Typhon, the animal is also commonly known as the Typhonian animal or Typhonic beast. |
 | set-animal-c02 | exact | en.wikipedia.org | Its identification with a real animal is uncertain and it may be fully mythical. | Unlike other totemic animals, the Set animal is not easily identifiable in the modern animal world. It may have been fully mythological, or based on a combination of characteristics from real animals. The Set animal is one of the most frequently demonstrated animal determinatives. |
 | set-animal-c03 | exact | en.wikipedia.org | A hieroglyph also depicts Set as a seated god with this animal’s head. | The Set animal (Gardiner E20, E21,) is one of the portrayals of the god Set. The other common hieroglyph used to represent Set is a seated god with the head of the Set animal. |
 | set-animal-c04 | exact | en.wikipedia.org | Its hieroglyph is a determinative for words connected with suffering, violence and storms. | The linguistic use of these hieroglyphs in the Egyptian language is as the determinative for words portraying "items with chaos", example words related to "suffering, violence, perturbation", and also for "violent storms" of the atmosphere, a "tempest". |
 | set-animal-c05 | exact | en.wikipedia.org | Its distinctive features are a stiff tail, angular upright ears and long muzzle. | The sha is usually depicted as a slender canid, resembling a greyhound, fennec fox, or a jackal, with three distinguishing features: a stiff tail, often forked at the end, which stands straight up or at an angle, whether the animal is sitting, standing, or walking; its ears, also held erect, are usually depicted as squarish or triangular, narrowest at the base and widest at the squarish  |
+| set-animal-c06 | exact | www.worldhistory.org | World History Encyclopedia says Set is sometimes depicted as a shaggy red dog-like beast known as a sha (or, to modern-day scholars, the Set Animal). | Set, also known as Seth and Suetekh, was the Egyptian god of war, chaos, and storms ... He is sometimes depicted as a red-haired beast with a forked tail and cloven hooves or a shaggy red dog-like beast known as a sha (or, to modern-day scholars, as the Set Animal) |
+| set-animal-c07 | exact | www.worldhistory.org | Some scholars claim the sha was modeled on the Saluki breed, while others maintain it was a purely mythological creature imagined specifically to represent Set. | a shaggy red dog-like beast known as a sha (or, to modern-day scholars, as the Set Animal) which some scholars claim was modeled on the Saluki breed while others maintain was a purely mythological creature imagined specifically to represent Set |
+| set-animal-c08 | exact | en.wikipedia.org | Drawings of the sha appear in Egyptian artwork from Naqada III until at least the New Kingdom, a span of some two thousand years. | Drawings of the sha appear in Egyptian artwork from Naqada III until at least the period of the New Kingdom, a period of some two thousand years. |
+| set-animal-c09 | exact | en.wikipedia.org | According to Egyptologist Richard H. Wilkinson, the first known use of the Set animal was on the Scorpion Macehead of Scorpion II of Naqada III. | According to Egyptologist Richard H. Wilkinson, the first known use of the Set animal was upon the Scorpion Macehead of Scorpion II of Naqada III. |
+| set-animal-c10 | exact | en.wikipedia.org | Was-sceptres represent the Set animal or Khnum; they were carried by gods, pharaohs and priests as a symbol of power and, in later use, of control over the force of chaos (Set). | Was-sceptres represent the Set animal or Khnum. Was-sceptres were carried by gods, pharaohs and priests as a symbol of power and, in later use, control over the force of chaos (Set). |
+| set-animal-c11 | exact | en.wikipedia.org | Egyptologist Ken Moss suggested that the Set animal is in fact the Saluki, an ancient breed of sighthound. | Egyptologist Ken Moss suggested the Set animal is in fact the Saluki, an ancient breed of sighthound. |
+| set-animal-c12 | exact | en.wikipedia.org | The sha has no independent mythology outside its association with Set that could aid identification, whether as a real or a fantastic animal. | The sha has no independent mythology associated with it that could aid with identification in either reality or fantasy, outside of its association with Set. |
 
 
 ## medjed-fish — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| medjed-fish-c01 | exact | cs.wikipedia.org | Medjed is an Egyptian sacred elephantfish worshipped at Oxyrhynchus. | Medžed je staroegyptská posvátná ryba, zástupce čeledi rypounovitých. Uctívána byla hlavně ve městě Oxyrhynchu (Permedžedu), jehož egyptský název znamená „Dům Medžedův“. |
+| medjed-fish-c01 | exact | cs.wikipedia.org | Medjed is a sacred ancient Egyptian fish of the elephantfish family, worshipped mainly in Oxyrhynchus (Per-Medjed), whose Egyptian name means "House of Medjed". | Medžed je staroegyptská posvátná ryba, zástupce čeledi rypounovitých. Uctívána byla hlavně ve městě Oxyrhynchu (Permedžedu), jehož egyptský název znamená „Dům Medžedův“. |
 | medjed-fish-c02 | exact | cs.wikipedia.org | In the myth, the fish swallows Osiris’s penis after Set scatters his body parts. | Ve staroegyptské mytologii spolkla tato ryba Usirův pyj poté, co Usira rozsekav na kusy rozptýlil jeho bratr Sutech po celém Egyptě. |
+| medjed-fish-c03 | exact | en.wikipedia.org | A settlement in Upper Egypt, Per-Medjed, was named after them. They are now better known by their Greek name Oxyrhynchus, meaning "sharp-nosed", a nod to the Egyptian depiction of the fish. | Medjed were a kind of elephantfish worshipped at Oxyrhynchus ... A settlement in Upper Egypt, Per-Medjed, was named after them. They are now better known by their Greek name Oxyrhynchus, meaning "sharp-nosed", a nod to the Egyptian depiction of the fish. |
+| medjed-fish-c04 | exact | en.wikipedia.org | As a sacred fish, they are frequently depicted wearing horned sun-discs. Some figurines have rings so that they can be worn as pendant amulets. | Medjed were a kind of elephantfish worshipped at Oxyrhynchus ... As a sacred fish, they are frequently depicted wearing horned sun-discs. Some figurines have rings to enable their wear as pendant amulets. |
+| medjed-fish-c05 | exact | en.wikipedia.org | The Oxyrhynchus fish depicted as bronze figurines, mural paintings or wooden fish-shaped coffins with downturned snouts and horned sun-disc crowns like those of the goddess Hathor have been described as resembling members of the genus Mormyrus. | The Oxyrhynchus fish depicted as bronze figurines, mural paintings, or wooden coffins in the shape of fish with downturned snouts, with horned sun-disc crowns like those of the goddess Hathor, have been described as resembling members of the genus Mormyrus. |
+| medjed-fish-c06 | exact | en.wikipedia.org | The fish were believed to have eaten the penis of the god Osiris after his brother Set had dismembered and scattered his body. | Medjed were a kind of elephantfish worshipped at Oxyrhynchus ... The fish were believed to have eaten the penis of the god Osiris after his brother Set had dismembered and scattered his body. |
+| medjed-fish-c07 | exact | www.gutenberg.org | In Plutarch's account (Budge's text at Gutenberg), Isis was never able to find Osiris's phallus, which had been devoured by the Lepidotus, the Phagrus and the Oxyrhynchus, fish which for this reason the Egyptians above all others avoid. | Isis was never able to discover the phallus of Osiris ... had been devoured by the Lepidotus, the Phagrus, and the Oxyrhynchus, fish which above all others, for this reason, the Egyptians have in more especial avoidance. |
+| medjed-fish-c08 | exact | www.gutenberg.org | In Plutarch's account (Budge's text at Gutenberg), the inhabitants of Oxyrhynchus will not touch fish taken with a hook, because they pay especial reverence to the Oxyrhynchus fish. | the inhabitants of Oxyrhynchus ... will not touch any that have been taken with an angle; for as they pay especial reverence to the Oxyrhynchus Fish |
 
 
 ## el-naddaha — lulus-otomatis
@@ -469,15 +490,18 @@ Klaim 2 (exact 2), sumber 2, gambar 0.
 
 ## naunet — lulus-otomatis
 
-Klaim 2 (loose 1, exact 1), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| naunet-c01 | loose | en.wikipedia.org | Naunet is the Egyptian goddess who is Nun’s consort or feminine aspect. | Nun's consort (or his female aspect) was the goddess Nunut or Naunet (Ancient Egyptian: 𓏌𓐱𓏌𓐰𓏌𓐰𓇯𓈗𓏏𓐰𓆇𓁐, romanized: nnwt). |
-| naunet-c02 | exact | www.worldhistory.org | Naunet is Nu’s feminine counterpart in this source’s Ogdoad. | Nu (Nun) and Naunet - Nu was the personification of the primordial chaos from which the world arose. Naunet is his female aspect and consort. Nu is commonly regarded as "Father of the Gods" while Naunet is only referenced regarding the Ogdoad, the grouping of eight primordial gods, four males matching four females, who represent the original elements of creation. |
+| naunet-c01 | exact | en.wikipedia.org | Nun's consort (or his female aspect) was the goddess Nunut or Naunet. | Nun's consort (or his female aspect) was the goddess Nunut or Naunet |
+| naunet-c02 | exact | www.worldhistory.org | World History Encyclopedia calls Naunet the female aspect and consort of Nu, referenced only in connection with the Ogdoad, the grouping of eight primordial gods. | Nu (Nun) and Naunet - Nu was the personification of the primordial chaos from which the world arose. Naunet is his female aspect and consort. Nu is commonly regarded as "Father of the Gods" while Naunet is only referenced regarding the Ogdoad, the grouping of eight primordial gods, four males matching four females, who represent the original elements of creation. |
+| naunet-c03 | exact | en.wikipedia.org | Naunet (also spelt Nunet) is the female aspect, which is the name Nu with a female gender ending; the male aspect, Nun, is written with a male gender ending. | Naunet (also spelt Nunet) is the female aspect, which is the name Nu with a female gender ending. The male aspect, Nun, is written with a male gender ending. |
+| naunet-c04 | exact | www.worldhistory.org | According to World History Encyclopedia, the Ogdoad is the eight gods representing primordial elements of creation: Nu and Naunet (water), Heh and Hauhet (infinity), Kek and Kauket (darkness), and Amun and Amaunet (hiddenness, obscurity). | Ogdoad - The eight gods representing primordial elements of creation: Nu and Naunet (water); Heh and Hauhet (infinity); Kek and Kauket (darkness); Amun and Amaunet (hiddenness, obscurity). |
+| naunet-c05 | exact | en.wikipedia.org | The Ogdoad includes Naunet and Nun, Amaunet and Amun, Hauhet and Heh, and Kauket and Kek. | The Ogdoad includes along with Naunet and Nun, Amaunet and Amun; Hauhet and Heh; and Kauket and Kek. |
+| naunet-c06 | exact | www.encyclopedia.com | According to Encyclopedia.com, the Ogdoad is a group of deities that includes Nu(n) and Naunet (representing the primeval water and formlessness), Huh and Huhet, Kek and Keket, and Amun and Amaunet. | The gods of this cosmogony form an Ogdoad, or group of eight pairs of deities. This group includes Nu(n) and Naunet (representing the primeval water and formlessness), Huh and Huhet (spaciousness), Kek and Keket (darkness), and Amun and Amaunet (concealment). |
+| naunet-c07 | exact | www.worldhistory.org | According to World History Encyclopedia, Ptah was sometimes known as Ptah-Nun or Ptah-Naunet in his creative aspect, linking him with the primordial substances of the Ogdoad. | Ptah - One of the oldest Egyptian gods ... He was sometimes known as Ptah-Nun or Ptah-Naunet in his creative aspect, linking him with the primordial substances of the Ogdoad. |
+| naunet-c08 | exact | en.wikipedia.org | In ancient Egyptian religion, Nun, the male aspect paired with Naunet, is the personification of the primordial watery abyss that existed at the time of creation and from which the creator sun god Ra arose. | Nun ("The Inert One") or Nu ("Watery One") ... in ancient Egyptian religion, is the personification of the primordial watery abyss which existed at the time of creation and from which the creator sun god Ra arose. |
 
 
 ## abyzou — lulus-otomatis
@@ -496,17 +520,18 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## caliadne — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | caliadne-c01 | exact | en.wikipedia.org | Caliadne is a Nile naiad in Greek mythology, possibly a daughter of the river god Nilus. | in Greek mythology, was a naiad of the river Nile, presumably one of the daughters of the river-god Nilus. |
-| caliadne-c02 | exact | en.wikipedia.org | She becomes Aegyptus’s wife and mother of twelve sons. | She was one of the wives of King Aegyptus of Egypt, bearing him twelve sons |
+| caliadne-c02 | exact | en.wikipedia.org | She was one of the wives of King Aegyptus of Egypt and bore him twelve sons. | She was one of the wives of King Aegyptus of Egypt, bearing him twelve sons |
 | caliadne-c03 | exact | en.wikipedia.org | Her sons marry Polyxo and Danaus’s daughters and are killed on their wedding night. | These sons married and were murdered by the daughters of her sister Polyxo and King Danaus of Libya during their wedding night. |
-| caliadne-c04 | exact | www.theoi.com | The Apollodorus quotation names Kaliadne as a naiad and describes her sons drawing lots to marry Polyxo’s daughters. | a Naias Nymphe (Naiad Nymph) named Kaliadne (Caliadne) drew lots for the daughters of [Danaus and] Polyxo, also a Naias (Naiad). |
+| caliadne-c04 | exact | www.theoi.com | The Apollodorus quotation at Theoi names a Naiad nymph called Kaliadne (Caliadne) in connection with drawing lots for the daughters of Polyxo, also a Naiad. | a Naias Nymphe (Naiad Nymph) named Kaliadne (Caliadne) drew lots for the daughters of [Danaus and] Polyxo, also a Naias (Naiad). |
+| caliadne-c05 | exact | www.theoi.com | The sons were named Eurylochus, Phantes, Peristhenes, Hermus, Dryas, Potamon, Cisseus, Lixus, Imbros, Bromios, Polyctor and Chthonius. | a Naias Nymphe (Naiad Nymph) named Kaliadne (Caliadne) drew lots for the daughters of [Danaus and] Polyxo, also a Naias (Naiad). The sons were named Eurylokhos (Eurylochus), Phantes, Peristhenes, Hermos (Hermus), Dryas, Potamon, Kisseus (Cisseus), Lixos (Lixus), Imbros, Bromios, Polyktor (Polyctor), and Khthonios (Chthonius) |
+| caliadne-c06 | exact | en.wikipedia.org | According to Hippostratus, Aegyptus had his progeny by a single woman called Eurryroe, daughter of the river-god Nilus. | According to Hippostratus, Aegyptus had his progeny by a single woman called Eurryroe, daughter of the river-god Nilus. |
+| caliadne-c07 | exact | www.theoi.com | In Apollodorus (Frazer's translation at Theoi), the twelve sons of Egyptus by the Naiad nymph Caliadne cast lots for the daughters of Danaus by the Naiad nymph Polyxo. | The twelve sons of Egyptus by the Naiad nymph Caliadne cast lots for the daughters of Danaus by the Naiad nymph Polyxo |
+| caliadne-c08 | exact | www.theoi.com | In Apollodorus, Lynceus and Proteus had been borne to Egyptus by a woman of royal blood, Argyphia, so Egyptus had sons by several mothers. | for Lynceus and Proteus had been borne to Egyptus by a woman of royal blood, Argyphia |
 
 
 ## aani — skip
