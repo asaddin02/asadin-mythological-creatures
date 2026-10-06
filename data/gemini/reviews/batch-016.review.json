@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-016",
-  "checked_at": "2026-09-29T12:49:23.076Z",
+  "checked_at": "2026-10-06T19:20:31.461Z",
   "files": [
-    "batch-016.md"
+    "batch-016.md",
+    "batch-016-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "batibat",
-      "file": "batch-016.md",
+      "file": "batch-016-fix-1.md",
+      "entry_sha256": "ebf75854e7d3645794ca1fee66c946180a308da0a4f7d046d3602510029d5348",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "batibat-c01",
@@ -83,26 +79,131 @@
           "quote": "The 2020 horror film Evil Takes Root: The Curse of the Batibat features one of these creatures.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "batibat-c07",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "These spirits are blamed as the cause of the fatal nocturnal disease called bangungot, or SUNDS (sudden unexplained nocturnal death syndrome).",
+          "statement_id": "Roh-roh ini disalahkan sebagai penyebab penyakit malam hari yang mematikan bernama bangungot atau SUNDS (sindrom kematian malam hari mendadak tanpa sebab yang jelas).",
+          "quote": "These spirits are blamed as the cause of the fatal nocturnal disease called bangungot or *SUNDS (sudden unexplained nocturnal death syndrome).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c08",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "A batibat takes the form of a huge, old, fat woman who resides in trees; when such trees are cut down for house posts, the home owner may find they have inherited an unwanted guest.",
+          "statement_id": "Batibat berwujud perempuan tua yang besar dan gemuk dan tinggal di pohon; bila pohon itu ditebang untuk dijadikan tiang rumah, pemilik rumah bisa mendapati bahwa ia mewarisi tamu yang tidak diinginkan.",
+          "quote": "A Batibat takes the form of a huge, old, fat woman that resides in trees. When these trees are cut down to make posts for a house, the home owner may find that they have inherited an unwanted guest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c09",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "The batibat migrates into holes in the posts and gets particularly cranky when someone dares to sleep near it; it transforms and sits on the chest of its victim until he suffocates.",
+          "statement_id": "Batibat berpindah ke lubang-lubang pada tiang dan menjadi sangat gusar bila ada yang berani tidur di dekatnya; ia berubah wujud dan duduk di dada korbannya sampai korban sesak napas.",
+          "quote": "The Batibat migrates into holes found in the posts and gets particularly cranky when someone dares to sleep near it. The Batibat will transform and sit on the chest of its victim until he suffocates.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c10",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "In the case of the batibat, nobody would have the option of a heroic battle: she is believed to be so heavy and large that even the burliest of men would be suffocated under her mass.",
+          "statement_id": "Dalam kasus batibat, tak seorang pun punya kesempatan melawan secara heroik: ia dipercaya begitu berat dan besar sehingga lelaki paling kekar pun akan sesak napas di bawah tubuhnya.",
+          "quote": "In the case of the Batibat, nobody would have the option of a heroic battle – she is believed to be so heavy and large, that even the burliest of men would be suffocated under her mass.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c11",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "The batibat can be warded off by biting your thumb or wiggling your toes, which apparently wakes you from a batibat-induced nightmare.",
+          "statement_id": "Batibat dapat ditangkal dengan menggigit ibu jari atau menggerakkan jari kaki, yang konon membangunkan orang dari mimpi buruk akibat batibat.",
+          "quote": "you can ward off the batibat by biting your thumb or wiggle your toes – which will apparently wake you up from a Batibat induced nightmare.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c12",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "In the Philippines, SUNDS is called bangungot in the vernacular and affects 43 per 100,000 each year among young Filipinos; most victims are male.",
+          "statement_id": "Di Filipina, SUNDS disebut bangungot dalam bahasa sehari-hari dan menimpa 43 per 100.000 orang tiap tahun di kalangan orang Filipina muda; sebagian besar korbannya laki-laki.",
+          "quote": "In the Philippines, where it is referred to in the vernacular as bangungot, SUNDS affects 43 per 100,000 each year among young Filipinos. Most of the victims are males.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c13",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "According to the article, doctors recently found a trend among men who died from bangungot: they consumed a lot of starchy food and alcohol right before going to bed.",
+          "statement_id": "Menurut artikel ini, dokter akhir-akhir ini menemukan pola pada pria yang meninggal karena bangungot: mereka makan banyak makanan bertepung dan minum alkohol tepat sebelum tidur.",
+          "quote": "In recent years, doctors have discovered a trend with the men who have died from bangungot – they consumed a lot of starchy food and alcohol right before they went to bed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c14",
+          "source_id": "batibat-s2",
+          "host": "aswangproject.com",
+          "statement": "The article author argues that an enormous angry spirit smothering a sleeper was a better answer than doctors saying \"we don't know\", and that in the case of SUNDS the batibat offered closure to those who lost a loved one.",
+          "statement_id": "Menurut penulis artikel, roh raksasa yang marah dan menindih orang tidur terasa lebih baik daripada jawaban dokter \"kami tidak tahu\"; bagi keluarga yang kehilangan, batibat memberi penutup atas kematian akibat SUNDS.",
+          "quote": "An enormous angry spirit smothering a person in their sleep was still a better answer than doctors offering, 'we don't know'. Closure can be important for those who lose a loved one, and in the case of SUNDS, the Batibat offered it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c15",
+          "source_id": "batibat-s3",
+          "host": "www.avclub.com",
+          "statement": "In the recap of the Sabrina episode, Batibat is revealed as the demon Sabrina accidentally freed in the prior episode after solving her father's puzzle.",
+          "statement_id": "Dalam resensi episode serial Sabrina, batibat diungkap sebagai iblis yang tanpa sengaja dibebaskan Sabrina pada episode sebelumnya setelah ia memecahkan teka-teki milik ayahnya.",
+          "quote": "Batibat is revealed as the demon Sabrina accidentally freed in the prior episode after solving her father's puzzle.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c16",
+          "source_id": "batibat-s3",
+          "host": "www.avclub.com",
+          "statement": "In the series, the demon gets trapped in the Spellman house, which is what it wants, since it is trying to get revenge on the Spellmans.",
+          "statement_id": "Dalam serial itu, iblis tersebut terperangkap di rumah keluarga Spellman, yang memang diinginkannya karena ia berusaha membalas dendam kepada keluarga Spellman.",
+          "quote": "The demon gets trapped in the Spellman house, which is actually what it wants, since it's trying to get revenge on Spellmans.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "batibat-c17",
+          "source_id": "batibat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A batibat named Maganda is referenced in the eleventh episode of Lost Girl's second season, \"Can't see the Fae-Rest\", as a Balinese tree nymph.",
+          "statement_id": "Seorang batibat bernama Maganda disebut dalam episode kesebelas musim kedua Lost Girl, berjudul \"Can't see the Fae-Rest\", sebagai nimfa pohon Bali.",
+          "quote": "A Batibat named Maganda is referenced in the eleventh episode of Lost Girl's second season, titled \"Can't see the Fae-Rest\" as a Balinese tree nymph.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bungisngis",
-      "file": "batch-016.md",
+      "file": "batch-016-fix-1.md",
+      "entry_sha256": "9688870de4f7751fd7a8377b311034cc5bacebbf6def624a9dc4ee18e446603f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bungisngis-c01",
@@ -133,24 +234,165 @@
           "quote": "In the Filipino tale \"The Three Friends – The Monkey, The Dog and The Carabao,\" the giant is able to lift the carabao and throw it with such force that it lands knee-deep in the ground. However, despite its strength, the bungisngis is easily outwitted and quickly panics.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bungisngis-c04",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The tale \"The Three Friends: The Monkey, the Dog, and the Carabao\" in Fansler's collection was narrated by José M. Hilario, a Tagalog from Batangas.",
+          "statement_id": "Kisah \"Tiga Sahabat: Monyet, Anjing, dan Kerbau\" dalam kumpulan Fansler dituturkan oleh José M. Hilario, orang Tagalog dari Batangas.",
+          "quote": "The Three Friends,--The Monkey, the Dog, and the Carabao. Narrated by José M. Hilario, a Tagalog from Batangas, Batangas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c05",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale, the Buñgisñgis in the forest hears the noise of frying, goes up to the carabao to fill his stomach and says the carabao has prepared food for him.",
+          "statement_id": "Dalam kisah itu, Buñgisñgis di hutan mendengar bunyi daging digoreng, lalu mendatangi kerbau untuk mengisi perutnya dan berkata bahwa kerbau telah menyiapkan makanan untuknya.",
+          "quote": "Unfortunately the noise of the frying was heard by the Buñgisñgis in the forest. Seeing this chance to fill his stomach, the Buñgisñgis went up to the carabao, and said, \"Well, friend, I see that you have prepared food for me.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c06",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When the carabao attacked him, the Buñgisñgis was angered, seized the carabao by the horn and threw him knee-deep into the earth, then ate all the food and disappeared.",
+          "statement_id": "Ketika kerbau menyerangnya, Buñgisñgis marah, memegang kerbau pada tanduknya dan melemparnya sampai terbenam sedalam lutut ke tanah, lalu menghabiskan semua makanan dan menghilang.",
+          "quote": "For an answer, the carabao made a furious attack on him. The Buñgisñgis was angered by the carabao's lack of hospitality, and, seizing him by the horn, threw him knee-deep into the earth. Then the Buñgisñgis ate up all the food and disappeared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c07",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Buñgisñgis did not dare attack all three friends at once, for in union there is strength.",
+          "statement_id": "Buñgisñgis tidak berani menyerang ketiga sahabat sekaligus karena persatuan adalah kekuatan.",
+          "quote": "The Buñgisñgis saw them cooking, but he did not dare attack all three of them at once, for in union there is strength.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c08",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The monkey jerked a leg of the chair, sending the Buñgisñgis tumbling into the pit, and then filled the pit with earth.",
+          "statement_id": "Monyet menarik kaki kursi sehingga Buñgisñgis jatuh ke dalam lubang, lalu menimbunnya dengan tanah.",
+          "quote": "The monkey took hold of a leg of the chair, gave a jerk, and sent his guest tumbling into the pit. He then filled the pit with earth, so that the Buñgisñgis was buried with no solemnity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c09",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Buñgisñgis was still alive; he jumped out, killed the dog and lamed the carabao, while the monkey escaped by climbing a tree.",
+          "statement_id": "Buñgisñgis ternyata masih hidup, melompat keluar, membunuh si anjing dan membuat si kerbau pincang, sedangkan si monyet lolos dengan memanjat pohon.",
+          "quote": "Unfortunately the Buñgisñgis was still alive. He jumped out, and killed the dog and lamed the carabao; but the monkey climbed up a tree, and so escaped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c10",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Becoming impatient, the Buñgisñgis pulled the vine, and the bees immediately buzzed about him and punished him for his curiosity.",
+          "statement_id": "Karena tidak sabar, Buñgisñgis menarik sulur, dan lebah-lebah segera berdengung di sekelilingnya serta menghukumnya atas rasa ingin tahunya.",
+          "quote": "the Buñgisñgis, becoming impatient, pulled the vine. The bees immediately buzzed about him, and punished him for his curiosity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c11",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The monkey placed the boa-constrictor around the Buñgisñgis's body and pinched the boa, which soon made an end of his enemy.",
+          "statement_id": "Si monyet melilitkan boa ke tubuh Buñgisñgis lalu mencubit ular itu, dan boa itu segera mengakhiri hidup musuhnya.",
+          "quote": "The monkey placed the boa-constrictor around the body of the Buñgisñgis. Then he pinched the boa, which soon made an end of his enemy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c12",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to the notes, the narrator defines Buñgisñgis as \"a large strong man that is always laughing\", and the word derives from the root ñgisi, \"to show the teeth\" (Tag.).",
+          "statement_id": "Menurut catatan Fansler, penutur mengartikan Buñgisñgis sebagai \"seorang lelaki besar dan kuat yang selalu tertawa\", dan katanya berasal dari akar ñgisi, \"menunjukkan gigi\" (Tag.).",
+          "quote": "Buñgisñgis is defined by the narrator as meaning \"a large strong man that is always laughing.\" The word is derived from the root ñgisi, \"to show the teeth\" (Tag.).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c13",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to the notes, this giant is described as of herculean size and strength, sly, with an upper lip so large that when thrown back it covers the face completely; it can lift a huge animal as easily as a feather.",
+          "statement_id": "Menurut catatan Fansler, raksasa ini digambarkan berukuran dan berkekuatan seperti Herkules, licik, dan berbibir atas sebesar itu sehingga bila disingkapkan ke belakang menutupi seluruh wajah; ia mampu mengangkat hewan besar semudah mengangkat bulu.",
+          "quote": "This giant has been described to me as being of herculean size and strength, sly, and possessing an upper lip so large that when it is thrown back it completely covers the demon's face. The Buñgisñgis can lift a huge animal as easily as if it were a feather.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c14",
+          "source_id": "bungisngis-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Fansler's notes state that the two superhuman demons of these tales, the Buñgisñgis among them, have to be overcome with strategy, not muscle, so the heroes are beings endowed with cleverness.",
+          "statement_id": "Catatan Fansler menyatakan bahwa kedua iblis adikuasa dalam kisah-kisah itu, termasuk Buñgisñgis, harus dikalahkan dengan siasat, bukan otot, sehingga pahlawannya adalah makhluk yang cerdik.",
+          "quote": "The Buñgisñgis can lift a huge animal as easily as if it were a feather. ... Obviously these two superhuman demons have to be overcome with strategy, not muscle. The heroes, consequently, are beings endowed with cleverness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c15",
+          "source_id": "bungisngis-s3",
+          "host": "aswangproject.com",
+          "statement": "According to the Aswang Project article, the Bungisngis's origin is easy to trace thanks to a similar being in the Ibalong Epic, where the cyclopean giant is called Buring, while in the Hindu epic it is called Kabandha.",
+          "statement_id": "Menurut artikel Aswang Project, asal-usul Bungisngis mudah dilacak berkat makhluk serupa dalam Epos Ibalong, tempat raksasa bermata satu itu disebut Buring, sedangkan dalam epos Hindu disebut Kabandha.",
+          "quote": "Tracing the origin of the Bungisngis was actually quite easy, thanks to a similar being existing in the Ibalong Epic. ... In the Ibalong, the cyclopean giant is known as “Buring“, while in the Hindu epic it is known as “Kabandha”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c16",
+          "source_id": "bungisngis-s3",
+          "host": "aswangproject.com",
+          "statement": "In the Batangas tale, the Bungisngis was led by his hearing to where a carabao was frying meat in the woods.",
+          "statement_id": "Dalam kisah dari Batangas, Bungisngis dituntun oleh pendengarannya ke tempat seekor kerbau menggoreng daging di hutan.",
+          "quote": "In the Batangas tale, Bungisngis was led by his hearing to where a carabao was frying meat in the woods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bungisngis-c17",
+          "source_id": "bungisngis-s3",
+          "host": "aswangproject.com",
+          "statement": "According to the Aswang Project, the Bungisngis is not part of a Batangas epic but plays a central role in the folk story \"The Three Friends: The Monkey, the Dog, and the Carabao\".",
+          "statement_id": "Menurut Aswang Project, Bungisngis bukan bagian dari epos Batangas, tetapi berperan sentral dalam cerita rakyat \"Tiga Sahabat: Monyet, Anjing, dan Kerbau\".",
+          "quote": "While the Bungisngis is not part of a Batangas epic, it does play a central role in the folk story, “The Three Friends,–The Monkey, the Dog, and the Carabao.“",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cha-kla",
-      "file": "batch-016.md",
+      "file": "batch-016-fix-1.md",
+      "entry_sha256": "bfeb758a3405fc27b9a2025f2edd0c1a570891aa3fb0f55ffeef7ae849bfc223",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -193,26 +435,131 @@
           "quote": "According to legend, Cha kla possesses a deadly aura. Even the mere sight or touch of it can cause death.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cha-kla-c05",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At first glance, the cha kla may appear no different from a normal house cat.",
+          "statement_id": "Sekilas, cha kla tampak tidak berbeda dari kucing rumah biasa.",
+          "quote": "At first glance, Cha kla may appear no different from a normal house cat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c06",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cha kla fears humans, and whenever it encounters people or is spotted by people, it immediately flees into its burrow.",
+          "statement_id": "Cha kla takut pada manusia, dan setiap bertemu orang atau terlihat orang, ia segera lari masuk ke liangnya.",
+          "quote": "It fears humans, and whenever it encounters people, or when people spot it, it immediately flees into its burrow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c07",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These creatures are said to dig underground holes for shelter, rarely venturing out during the day.",
+          "statement_id": "Makhluk ini konon menggali lubang di bawah tanah sebagai tempat berlindung dan jarang keluar pada siang hari.",
+          "quote": "These creatures are said to dig underground holes for shelter, rarely venturing out during the day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c08",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cha kla is considered a traditional Thai ghost belief with long-standing roots.",
+          "statement_id": "Cha kla dianggap sebagai kepercayaan hantu tradisional Thailand yang berakar lama.",
+          "quote": "Cha kla is considered a traditional Thai ghost belief with long-standing roots.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c09",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A case was said to have occurred in Krabi province where an entire family was found dead at home; according to medical reports the official cause was \"sudden cardiac failure\", but the victims' relatives believed it was the work of the cha kla.",
+          "statement_id": "Konon pernah terjadi di Provinsi Krabi satu keluarga ditemukan tewas di rumahnya; menurut laporan medis penyebab resminya adalah \"gagal jantung mendadak\", tetapi kerabat korban meyakini itu perbuatan cha kla.",
+          "quote": "One such chilling event was said to have occurred in Krabi province, where an entire family was found dead in their home. The official cause, according to medical reports, was \"sudden cardiac failure\". However, the victims' relatives believed it was the work of Cha kla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c10",
+          "source_id": "cha-kla-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On investigating the house, a strange deep burrow was found behind it, with tufts of black fur around its entrance, believed to be from a cat.",
+          "statement_id": "Ketika rumah itu diperiksa, ditemukan liang dalam yang aneh di belakangnya, dan di sekitar mulut liang terdapat gumpalan bulu hitam yang diduga bulu kucing.",
+          "quote": "Upon investigating the house, they found a strange deep burrow behind it, and around the entrance were tufts of black fur, believed to be from a cat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c11",
+          "source_id": "cha-kla-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "The journal article glosses cha kla (จะกละ) as a kind of ghost believed to take the form of a cat, living in the forest, kept by forest sorcerers to harm enemies, and a type of ghost that likes to eat filth.",
+          "statement_id": "Artikel jurnal ini memberi definisi: cha kla (จะกละ) adalah sejenis hantu yang dipercaya berwujud kucing, tinggal di hutan, dipelihara dukun hutan untuk mencelakai musuh, dan sejenis hantu yang suka makan barang kotor.",
+          "quote": "จะกละ (ชื่อผีชนิดหนึ่ง เชื่อกันวEามีรูปเปUนแมว อยูEในปXาซึ่งหมอผีชาวปXาเลี้ยงไวPใหPทํา รPายศัตรู, ผีพวกหนึ่งชอบกินของโสโครก)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c12",
+          "source_id": "cha-kla-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "The journal article says the Phra Aiyakan Betset section on chomop, cha kla, krasue and krahang has 20 articles, covering among other things accusing, reviling and slandering someone of being these ghosts.",
+          "statement_id": "Artikel jurnal ini menyebut bagian hukum Phra Aiyakan Betset tentang chomop, cha kla, krasue, dan krahang berisi 20 pasal, antara lain tentang tuduhan, cacian, dan fitnah bahwa seseorang adalah hantu-hantu itu.",
+          "quote": "พระอัยการเบ็ดเสร็จวEาดPวยเรื่องฉมบ จะกละ กระสือ และกระหาง 20 มาตรา ไดPแกE การกลEาวหา ดEา วEา ตูE วEาเปUนฉมบ จะกละ กระสือ กระหาง การทํายาเบื่อยาเมายาแฝด",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c13",
+          "source_id": "cha-kla-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "According to the article, an accusation that someone is a chomop, cha kla, krasue or krahang was an important charge requiring proof, because it was a form of social punishment that made people fear and shun the accused.",
+          "statement_id": "Menurut artikel itu, tuduhan bahwa seseorang adalah chomop, cha kla, krasue, atau krahang merupakan tuduhan penting yang harus dibuktikan, karena menjadi hukuman sosial yang membuat orang takut dan tidak mau bergaul.",
+          "quote": "การกลEาวหา ดEา วEา ตูE วEาเปUนฉมบ จะกละ กระสือ กระหาง เปUนขPอหาสําคัญ ที่ตPองมีการพิสูจน<และสืบคPนความจริง เหตุเพราะการกลEาวหาดังกลEาวเปUนการลงโทษ ทางสังคมอยEางหนึ่งที่ทําใหPผูPคนเกิดความหวาดกลัวและไมEคบคPาสมาคม",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c14",
+          "source_id": "cha-kla-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "According to the article, the Tra Sam Duang law has rules on houses harmed by, or farm animals stolen and eaten by, the krasue, krahang, chomop or cha kla ghosts; a person identified as one of these ghosts would be punished.",
+          "statement_id": "Menurut artikel itu, hukum Tiga Segel (ตราสามดวง) memuat aturan tentang rumah yang diganggu atau hewan pertaniannya dicuri dan dimakan oleh hantu krasue, krahang, chomop, atau cha kla; orang yang diketahui sebagai hantu-hantu itu akan dihukum.",
+          "quote": "ซึ่งกฎหมายนั้นก็คือกฎหมาย ตราสามดวง ไดPระบุถึงกฎตEางๆ รวมไปถึงกฎหมายที่เกี่ยวกับความเชื่อเรื่องผี เชEน บPาน ใดถูกผีกระสือ กระหาง ฉมบ จะกละทํารPายหรือลักกินสัตว<ที่ใชPในการทําเกษตร ถPารูPตัว วEาผูPใดเปUนผีเหลEานี้ก็จะถูกลงโทษ",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cha-kla-c15",
+          "source_id": "cha-kla-s3",
+          "host": "so06.tci-thaijo.org",
+          "statement": "This journal article describes phi ka or phi cha kla (ผีกะ หรือ ผีจะกละ) as a ghost that often possesses people so as to demand food; the possessed act abnormally and eat voraciously.",
+          "statement_id": "Artikel jurnal ini menyebut phi ka atau phi cha kla (ผีกะ หรือ ผีจะกละ) sebagai hantu yang suka merasuki orang agar menuntut makanan; orang yang dirasuki bertingkah tidak wajar dan memakan makanan dengan rakus.",
+          "quote": "ผีกะ หรือ ผีจะกละ เป็น ผี ที่ มั ก เข้ า สิ งผู้ ค นเพื่ อ เรี ย กร้ อ งจะกิ น อาหารเมื่ อ เข้ า สิ งใคร ก็ จ ะแสดงกิ ริ ย าผิ ด ปกติ ไป เมื่ อ คน สังเกตเห็นก็มักร้องขอกินอาหารและจะกินอย่างตะกละตะกลาม",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "khamot",
-      "file": "batch-016.md",
+      "file": "batch-016-fix-1.md",
+      "entry_sha256": "b3620479c8c30f7ff6ca224447a689e373bed75f03f6d3f728b87e24f2d4f61f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khamot-c01",
@@ -263,24 +610,125 @@
           "quote": "In Lamphun province, northern Thailand, there is a local tradition called Loy Khamot (ลอยโขมด), held during the full moon of the twelfth lunar month, which coincides with the Loy Krathong festival",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "khamot-c06",
+          "source_id": "khamot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The khamot has no definite form; in some accounts it appears as a floating ball of light, a large flickering glow seen at night, especially in damp or marshy areas.",
+          "statement_id": "Khamot tidak berwujud tetap; dalam sebagian kisah ia tampak sebagai bola cahaya melayang, pendar besar yang berkedip pada malam hari, terutama di daerah lembap atau berawa.",
+          "quote": "It has no definite form. In some accounts, it appears as a floating ball of light, a large flickering glow seen at night, especially in damp or marshy areas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c07",
+          "source_id": "khamot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When travelers approach, the light suddenly disappears, only to reappear surrounding them from all directions.",
+          "statement_id": "Ketika para pelancong mendekat, cahaya itu tiba-tiba lenyap lalu muncul kembali mengelilingi mereka dari segala arah.",
+          "quote": "When they approach, the light suddenly disappears, only to reappear surrounding them from all directions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c08",
+          "source_id": "khamot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some regions, the khamot is described as a type of forest spirit that manifests as a floating light at night.",
+          "statement_id": "Di beberapa daerah, khamot digambarkan sebagai sejenis roh hutan yang menampakkan diri sebagai cahaya melayang pada malam hari.",
+          "quote": "In some regions, it is described as a type of forest spirit that manifests as a floating light at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c09",
+          "source_id": "khamot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The khamot is considered a spirit related to the krasue and phong ghosts.",
+          "statement_id": "Khamot dianggap roh yang berkerabat dengan hantu krasue dan phong.",
+          "quote": "It is considered a spirit related to Krasue and Phong ghosts.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c10",
+          "source_id": "khamot-s2",
+          "host": "www.finearts.go.th",
+          "statement": "According to the Thai Fine Arts Department site, the khamot (ผีโขมด) is a name for a forest ghost that goes out at night, with a glow of fire seen at intervals like the krasue ghost; hence the Lanna people call the floating-lantern festival \"loy khamot\".",
+          "statement_id": "Menurut situs Departemen Seni Rupa Thailand, khamot (ผีโขมด) adalah nama hantu hutan yang keluar mencari makan pada malam hari, dengan kobaran api yang terlihat sesekali seperti hantu krasue; karena itu orang Lanna menyebut perayaan lampu apung itu \"loy khamot\".",
+          "quote": "ทำให้เกิดแสงแวววาวกระทบกับผิวน้ำในคืนวันเพ็ญคล้ายกับดวงไฟของผีโขมด ซึ่งผีโขมดนี้ เป็นชื่อเรียก ผีป่า ที่ออกหากินในเวลากลางคืน มีพะเนียงไฟมองเห็นเป็นระยะอย่างผีกระสือ ชาวล้านนา จึงเรียกว่า ลอยโขมด",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c11",
+          "source_id": "khamot-s2",
+          "host": "www.finearts.go.th",
+          "statement": "The loy khamot festival is held by villagers of Ban Ton Thong, Mueang district, Lamphun, and nearby areas on the full-moon night of the Lanna second month (twelfth month); villagers make banana-stem krathong and float them on the Kuang River in front of Wat Romaniyaram with lit candles.",
+          "statement_id": "Perayaan loy khamot diadakan warga Ban Ton Thong, Kabupaten Mueang, Lamphun, dan sekitarnya pada malam bulan purnama bulan kedua Lanna (bulan kedua belas); warga membuat krathong dari pelepah pisang, lalu menghanyutkannya di Sungai Kuang di depan Wat Romaniyaram dengan lilin menyala.",
+          "quote": "ประเพณีลอยโขมดเป็นประเพณีที่ชาวบ้านต้นธง ต.ต้นธง อ.เมือง จ.ลำพูน รวมถึงชาวบ้านในพื้นที่ใกล้เคียง จัดขึ้นในช่วงยี่คืนวันเพ็ญในเดือนยี่เป็ง หรือเพ็ญเดือนสิบสอง ชาวบ้านจะมีการนำกาบกล้วยมาทำเป็นกระทงทรงกระโจมสำหรับใส่สิ่งของต่างๆ ลอยไปตามลำน้ำกวงบริเวณหน้าวัดรมณียาราม หรือวัดกู่ระมัก ในเวลากลางคืนพร้อมทั้งจุดเทียนไปในกระทงนั้นด้วย",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c12",
+          "source_id": "khamot-s2",
+          "host": "www.finearts.go.th",
+          "statement": "The loy khamot festival is believed to originate from the legend of Chamthewi Wong, the chronicle of Hariphunchai, and the Jinakalamali, composed in the Lanna period.",
+          "statement_id": "Perayaan loy khamot dipercaya berasal dari legenda Chamthewi Wong, kronik kota Hariphunchai, dan Chinakalamali yang disusun pada masa Lanna.",
+          "quote": "ประเพณีการลอยโขมดเชื่อว่ามีต้นเค้ามาจากตำนานจามเทววีวงศ์ พงศาวดารเมืองหริภุญไชย และชินกาลมาลีนี ที่แต่งขึ้นในสมัยล้านนา",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c13",
+          "source_id": "khamot-s3",
+          "host": "www.finearts.go.th",
+          "statement": "According to the Trang national library, the khamot is a kind of forest ghost often appearing as a light at night that vanishes when approached; some say it is a fierce forest ghost that can take various forms and haunts people walking in the forest.",
+          "statement_id": "Menurut perpustakaan nasional cabang Trang, khamot adalah sejenis hantu hutan yang sering tampak sebagai cahaya pada malam hari dan lenyap bila didekati; sebagian orang menyebutnya hantu hutan galak yang dapat menampakkan berbagai rupa dan menghantui pejalan di hutan.",
+          "quote": "๔. ผีโขมด เป็นผีป่าชนิดหนึ่ง มักปรากฏเป็นดวงไฟในยามค่ำคืน เมื่อเข้าใกล้จะหายไป บ้างก็ว่าเป็นผีป่าดุร้าย ปรากฏรูปร่างได้ต่างๆ หลอกหลอนคนเดินป่า",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c14",
+          "source_id": "khamot-s4",
+          "host": "so05.tci-thaijo.org",
+          "statement": "The journal article states that khamot is the name of a forest ghost that likes to go out at night and appears as an intermittent glow of fire like the krasue ghost.",
+          "statement_id": "Artikel jurnal ini menyatakan bahwa kata khamot adalah nama hantu hutan yang suka keluar mencari makan pada malam hari dan tampak sebagai kobaran api sesekali seperti hantu krasue.",
+          "quote": "ลอยโขมด คำว่า โขมด เป็นชื่อผีป่า เรียกกันว่า ผีโขมด ชอบออกหากินกลางคืน จะมี พะเนียงไฟเห็นเป็นระยะอย่างผีกระสือ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khamot-c15",
+          "source_id": "khamot-s4",
+          "host": "so05.tci-thaijo.org",
+          "statement": "According to the article's abstract, the significance of the loy khamot festival is to float away misfortune and sin, letting the misfortunes in oneself flow away with the water during the second-month festival.",
+          "statement_id": "Menurut abstrak artikel itu, makna perayaan loy khamot adalah menghanyutkan nasib buruk dan dosa, yakni mengurangi malapetaka dalam diri agar mengalir bersama air pada perayaan bulan kedua.",
+          "quote": "ความสำคั ญของประเพณี ลอยโขมด เป็นการลอยเคราะห์ลอยบาป ต้องการลดเคราะห์เสนียด จัญไรในตัวให้ไหลไปตามน้ำในเทศกาลเดือนยี่",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mandurugo",
-      "file": "batch-016.md",
+      "file": "batch-016-fix-1.md",
+      "entry_sha256": "bb40c349456583f8ebd55d56f03ecad68f84f2f79d32cf465af80c07cba9f9a1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -331,6 +779,106 @@
           "statement": "Films such as The Vampire People (1966) were products of vampire folklore and mainstream culture.",
           "statement_id": "Film seperti The Vampire People (1966) lahir dari cerita rakyat vampir dan budaya arus utama.",
           "quote": "Films such as The Vampire People (1966) were the product of vampire folklore and mainstream culture.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c06",
+          "source_id": "mandurugo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tale, her husband, described as an over-weight youth, withers away to bones in less than a year.",
+          "statement_id": "Dalam kisah \"Gadis dengan Banyak Cinta\", suaminya, seorang pemuda yang digambarkan gemuk, menyusut sampai tinggal tulang dalam waktu kurang dari setahun.",
+          "quote": "Her husband, described as an over-weight youth, withers away to bones in less than a year.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c07",
+          "source_id": "mandurugo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After he dies, the woman marries again and again with the same result, until she reaches her fourth husband.",
+          "statement_id": "Setelah suaminya meninggal, perempuan itu menikah lagi berulang kali dengan hasil yang sama sampai tiba pada suami keempat.",
+          "quote": "After he dies, the woman marries again and again with the same result, until she reaches her fourth husband.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c08",
+          "source_id": "mandurugo-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project compendium, a precise term designating the vampire is the Tagalog word mandurugo, blood (sucker); a pretty girl in the tale \"The Girl of Many Loves\" proved to be a mandurugo, \"blood sucker\".",
+          "statement_id": "Menurut kompendium Aswang Project, istilah tepat untuk vampir adalah kata Tagalog mandurugo, \"(penghisap) darah\"; seorang gadis cantik dalam kisah \"The Girl of Many Loves\" ternyata mandurugo, \"penghisap darah\".",
+          "quote": "A precise term designating the vampire is the Tagalog word mandurugo, blood (sucker). A pretty girl in the tale “The Girl of Many Loves” proved to be a mandurugo, ‘blood sucker’.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c09",
+          "source_id": "mandurugo-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The mandurugo is said to fly from Capiz between midnight and the first cockrow.",
+          "statement_id": "Konon mandurugo terbang dari Capiz antara tengah malam dan kokok ayam pertama.",
+          "quote": "Is said to fly from Capiz between midnight and the first cockrow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c10",
+          "source_id": "mandurugo-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The mandurugo becomes powerless at dawn and can be killed with a knife.",
+          "statement_id": "Mandurugo menjadi tak berdaya saat fajar dan dapat dibunuh dengan pisau.",
+          "quote": "Becomes powerless at dawn and can be killed with a knife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c11",
+          "source_id": "mandurugo-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Wikipedia article on aswang, the vampire aswang takes on the appearance of a beautiful woman and shares a diet of blood with Western vampires, but sucks blood with a proboscis-like tongue rather than sharpened teeth.",
+          "statement_id": "Menurut artikel Wikipedia tentang aswang, aswang vampir menyerupai perempuan cantik, memakan darah seperti vampir Barat, tetapi mengisap darah dengan lidah mirip belalai, bukan taring tajam.",
+          "quote": "The vampire aswang assumes on the appearance of a beautiful woman. It shares a diet of blood with vampires from Western cultures; however, it differs in that it sucks blood using a proboscis-like tongue rather than sharpened teeth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c12",
+          "source_id": "mandurugo-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Wikipedia article on aswang gives the Tagalog mandurugo as an example of a vampire aswang, said to live in the region of Capiz.",
+          "statement_id": "Artikel Wikipedia tentang aswang menyebut mandurugo Tagalog sebagai contoh aswang vampir, yang konon tinggal di wilayah Capiz.",
+          "quote": "One example of a vampire aswang is the Tagalog mandurugo, said to live in the region of Capiz.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c13",
+          "source_id": "mandurugo-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Wikipedia article on aswang, the vampire aswang does not reside in tombs.",
+          "statement_id": "Menurut artikel Wikipedia tentang aswang, aswang vampir tidak tinggal di makam.",
+          "quote": "Furthermore, aswang does not reside in tombs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c14",
+          "source_id": "mandurugo-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to Maximo Ramos, \"aswang\" is an aggregate term for many Filipino supernatural creatures that can be organized into five categories, one of them the vampire.",
+          "statement_id": "Menurut Maximo Ramos, istilah \"aswang\" adalah istilah gabungan bagi banyak makhluk gaib Filipina, yang dapat digolongkan ke dalam lima kategori, salah satunya vampir.",
+          "quote": "According to Maximo Ramos, the term \"aswang\" can be thought of as an aggregate term for a multitude of Filipino supernatural creatures. These creatures can be organized into five categories that parallel creatures from Western traditions. These categories are the vampire, the self-segmenting viscera sucker, the weredog, the witch, and the ghoul.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mandurugo-c15",
+          "source_id": "mandurugo-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the anime Blade features the manananggal and the mandurugo (harpy-like), two flying variants of aswang.",
+          "statement_id": "Menurut Wikipedia, anime Blade menampilkan manananggal dan mandurugo (mirip harpi), dua varian aswang yang terbang.",
+          "quote": "The anime Blade features the manananggal (self-segmenting) and mandurugo (harpy-like, two flying variants of aswangs.",
           "context": "modern-popular-culture",
           "status": "exact"
         }
