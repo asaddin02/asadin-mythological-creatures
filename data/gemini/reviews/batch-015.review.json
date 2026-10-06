@@ -1,35 +1,31 @@
 {
   "batch_id": "batch-015",
-  "checked_at": "2026-09-29T12:46:55.678Z",
+  "checked_at": "2026-10-06T19:26:16.584Z",
   "files": [
-    "batch-015.md"
+    "batch-015.md",
+    "batch-015-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "tiyanak",
-      "file": "batch-015.md",
+      "file": "batch-015-fix-1.md",
+      "entry_sha256": "af01ef3092e024d57f6a41d15f0cb0e872b11500ccaec58acac025b7db5032cb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 39,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tiyanak-c01",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "The tiyanak (also tianak) is a vampiric creature of Philippine mythology in the form of a toddler or baby, usually a crying newborn in the jungle luring travellers; once picked up it reverts and attacks; it also likes to mislead travellers or abduct children.",
-          "statement_id": "Tiyanak (juga tianak) adalah makhluk pengisap darah dalam mitologi Filipina yang berwujud balita atau bayi, biasanya bayi baru lahir yang menangis di hutan untuk memikat pejalan; begitu diangkat ia kembali ke wujud asli dan menyerang; ia juga senang menyesatkan pejalan atau menculik anak.",
+          "statement": "The tiyanak is a vampiric creature of Philippine mythology in the form of a toddler or baby, usually a newborn crying in the jungle to attract travellers; once picked up it reverts to its true form and attacks the victim.",
+          "statement_id": "Tiyanak adalah makhluk pengisap darah dalam mitologi Filipina yang berwujud balita atau bayi, biasanya bayi baru lahir yang menangis di hutan untuk memikat pejalan; begitu diangkat ia kembali ke wujud asli dan menyerang korbannya.",
           "quote": "is a vampiric creature in Philippine mythology that takes on the form of a toddler or baby. Although there are various types, it typically takes the form of a newborn baby and cries in the jungle to attract unwary travelers. Once it is picked up by an unfortunate passerby, it reverts to its true form and attacks the victim.",
           "context": "traditional-belief",
           "status": "exact"
@@ -48,9 +44,9 @@
           "id": "tiyanak-c03",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "According to Martinez de Zuniga (1803) and San Antonio (1738-44), to counter the patianac the husband stripped naked and brandished a sword until his wife was delivered.",
-          "statement_id": "Menurut catatan Martinez de Zuniga (1803) dan San Antonio (1738-44), untuk melawan patianac sang suami menanggalkan pakaian dan mengayunkan pedang sampai istrinya selesai bersalin.",
-          "quote": "To counteract the malignity of this spirit, the husband, fastening the door, reduces himself to a state of complete nudity, lights a fire, and arming himself with his sword, continues to flourish it furiously, until the woman is delivered.",
+          "statement": "According to Martinez de Zuniga, Estadismo (1803), to counteract the patianac spirit the husband fastened the door, stripped completely naked, lit a fire and flourished his sword furiously until the woman was delivered.",
+          "statement_id": "Menurut Estadismo karya Martinez de Zuniga (1803), untuk melawan roh patianac sang suami mengunci pintu, menanggalkan seluruh pakaian, menyalakan api, dan mengayunkan pedang dengan garang sampai istrinya selesai bersalin.",
+          "quote": "To counteract the malignity of this spirit, the husband, fastening the door, reduces himself to a state of complete nudity, lights a fire, and arming himself with his sword, continues to flourish it furiously, until the woman is delivered. ... Fr. Martinez de Zuniga, Estadismo (1803)",
           "context": "historical-record",
           "status": "exact"
         },
@@ -58,8 +54,8 @@
           "id": "tiyanak-c04",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "In one version it keeps a baby's shape but grows sharp claws and fangs; in another its true form is a little old man with wrinkled skin and a long beard and moustache.",
-          "statement_id": "Dalam satu versi tiyanak tetap berbentuk bayi tetapi menumbuhkan cakar dan taring tajam; dalam versi lain wujud aslinya kakek kecil berkulit keriput dengan janggut dan kumis panjang.",
+          "statement": "In one version the tiyanak retains the general shape of a baby but forms sharp claws and fangs to attack its victim.",
+          "statement_id": "Dalam satu versi tiyanak tetap berbentuk umum seperti bayi tetapi menumbuhkan cakar dan taring tajam untuk menyerang korbannya.",
           "quote": "In one version, it retains the general shape of a baby but then forms sharp claws and fangs to attack its victim.",
           "context": "traditional-belief",
           "status": "exact"
@@ -68,8 +64,8 @@
           "id": "tiyanak-c05",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "In the Central Luzon version, especially Pampanga, tiyanak are small nut-brown people floating in the air; in a Mindoro legend it turns into a black bird.",
-          "statement_id": "Dalam versi Luzon Tengah, terutama Pampanga, tiyanak adalah orang kecil berkulit cokelat yang melayang di udara; dalam legenda Mindoro ia berubah menjadi burung hitam.",
+          "statement": "In a version from Central Luzon, especially Pampanga, the tiyanak are described as small, nut-brown people who do not walk on the ground but float on air.",
+          "statement_id": "Dalam versi dari Luzon Tengah, terutama Pampanga, tiyanak digambarkan sebagai orang kecil berkulit cokelat kacang yang tidak berjalan di tanah melainkan melayang di udara.",
           "quote": "In another version from Central Luzon, especially in Pampanga, the tiyanak are described as small, nut-brown people who don't walk on the ground but rather float on air.",
           "context": "traditional-belief",
           "status": "exact"
@@ -78,8 +74,8 @@
           "id": "tiyanak-c06",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Mandaya of Mindanao say the tiyanak is the spirit of a child whose mother died before giving birth; a similar Malay being is the pontianak.",
-          "statement_id": "Orang Mandaya di Mindanao percaya tiyanak adalah arwah anak yang ibunya meninggal sebelum melahirkan; makhluk serupa dalam cerita rakyat Melayu adalah pontianak.",
+          "statement": "The Mandaya people of Mindanao claim that the tiyanak is the spirit of a child whose mother died before giving birth.",
+          "statement_id": "Orang Mandaya di Mindanao menyatakan bahwa tiyanak adalah arwah anak yang ibunya meninggal sebelum melahirkan.",
           "quote": "The Mandaya people of Mindanao claim that the tiyanak is the spirit of a child whose mother died before giving birth.",
           "context": "traditional-belief",
           "status": "exact"
@@ -88,8 +84,8 @@
           "id": "tiyanak-c07",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "With 16th-century Spanish colonization, the tiyanak myth merged with Catholicism: tiyanak became souls of infants who died unbaptized, and today also aborted fetuses returning for revenge.",
-          "statement_id": "Dengan penjajahan Spanyol pada abad ke-16, mitos tiyanak dipadukan dengan Katolik: tiyanak dianggap arwah bayi yang meninggal sebelum dibaptis, dan kini juga janin yang digugurkan yang kembali membalas dendam.",
+          "statement": "With the Spanish colonization of the Philippines in the 16th century the tiyanak myth was integrated into Catholicism; in the Catholic version tiyanak were supposedly the souls of infants who died before being baptized.",
+          "statement_id": "Dengan penjajahan Filipina oleh Spanyol pada abad ke-16, mitos tiyanak dipadukan dengan Katolik; dalam versi Katolik tiyanak dianggap arwah bayi yang meninggal sebelum dibaptis.",
           "quote": "With the Spanish colonization of the Philippines in the 16th century, the tiyanak myth was integrated into Catholicism. The tiyanak in the Catholic version were supposedly the souls of infants that died before being baptized.",
           "context": "religious-tradition",
           "status": "exact"
@@ -98,8 +94,8 @@
           "id": "tiyanak-c08",
           "source_id": "tiyanak-s1",
           "host": "en.wikipedia.org",
-          "statement": "Those led astray by its cries can break the spell by turning their clothes inside out; loud noises like New Year celebrations are also believed to drive it away.",
-          "statement_id": "Orang yang tersesat karena tangisannya dapat mematahkan pesonanya dengan membalik pakaian; suara keras seperti perayaan Tahun Baru juga dipercaya mengusirnya.",
+          "statement": "Those led astray by the creature’s cries are believed able to break the enchantment by turning their clothes inside out.",
+          "statement_id": "Orang yang tersesat karena tangisan makhluk itu dipercaya dapat mematahkan pesonanya dengan membalik pakaian mereka.",
           "quote": "Those that were led astray by the creature's cries are believed to be able to break the enchantment by turning their clothes inside out.",
           "context": "traditional-belief",
           "status": "exact"
@@ -113,33 +109,328 @@
           "quote": "Fr. Juan de Plasencia of the Tagalogs (1589)",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "tiyanak-c10",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tiyanak is also written tianak or tianac.",
+          "statement_id": "Tiyanak juga ditulis tianak atau tianac.",
+          "quote": "The tiyanak (also tianak or tianac ... is a vampiric creature in Philippine mythology that takes on the form of a toddler or baby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c11",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tiyanak is also depicted as taking malevolent delight in leading travellers astray or abducting children.",
+          "statement_id": "Tiyanak juga digambarkan senang secara jahat menyesatkan pejalan atau menculik anak-anak.",
+          "quote": "The tiyanak is also depicted to take malevolent delight in leading travelers astray, or in abducting children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c12",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The stories agree on the tiyanak's ability to mimic an infant, including imitating an infant's cries to lure victims.",
+          "statement_id": "Berbagai legenda sepakat bahwa tiyanak mampu meniru bayi, termasuk meniru tangisan bayi untuk memikat korban.",
+          "quote": "the stories all agree on its ability to mimic an infant, able to imitate an infant's cries for luring victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c13",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one version the \"true\" form of the tiyanak is a little old man with wrinkled skin, a long beard and moustache, a flat nose and eyes the size of peseta coins.",
+          "statement_id": "Dalam satu versi, wujud \"sejati\" tiyanak adalah kakek kecil berkulit keriput, berjanggut dan berkumis panjang, berhidung pesek, dengan mata sebesar koin peseta.",
+          "quote": "In this version, the \"true\" form of the tiyanak is that of a little old man with wrinkled skin, a long beard and mustache, a flat nose and eyes the size of peseta coins.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c14",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another story the tiyanak is seen supernaturally flying through the forest (still in the form of a baby), and in a legend from the island of Mindoro it turns into a black bird before flying away.",
+          "statement_id": "Dalam cerita lain tiyanak terlihat terbang secara gaib di hutan (masih berwujud bayi), dan dalam legenda dari pulau Mindoro ia berubah menjadi burung hitam sebelum terbang pergi.",
+          "quote": "In yet another story it is seen supernaturally flying through the forest (still in the form of a baby) and in a legend from the island of Mindoro it transforms into a black bird before flying away",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c15",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Batangas version the tiyanak are described as regular babies who were lost in the wild.",
+          "statement_id": "Dalam versi Batangas, tiyanak digambarkan sebagai bayi biasa yang tersesat di alam liar.",
+          "quote": "In the Batangas version, the tiyanak are described as regular babies who were lost in the wild.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c16",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A similar supernatural creature in Malay folklore is the Pontianak, which was a woman who died before giving birth.",
+          "statement_id": "Makhluk gaib serupa dalam cerita rakyat Melayu adalah pontianak, yang berasal dari perempuan yang meninggal sebelum melahirkan.",
+          "quote": "A similar supernatural creature in Malay folklore is the Pontianak, which was a woman who died before giving birth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c17",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern-day Philippines this definition has extended to aborted fetuses that returned from death to take revenge on those who deprived them of life.",
+          "statement_id": "Di Filipina masa kini, pengertian ini meluas hingga mencakup janin yang digugurkan yang kembali dari kematian untuk membalas dendam kepada mereka yang merenggut hidupnya.",
+          "quote": "In modern-day Philippines, this definition has extended to that of aborted fetuses that returned from death to seek revenge on those who deprived them of life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c18",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Loud noises such as a New Year's celebration are also thought to be enough to drive the tiyanak away from the vicinity.",
+          "statement_id": "Suara keras seperti perayaan Tahun Baru juga dianggap cukup untuk mengusir tiyanak dari sekitar.",
+          "quote": "Loud noises such as a New Year's celebration are also thought to be enough to drive the tiyanak away from the vicinity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c19",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Jose A. Samson, a common belief among albularyos in rural Luzon for warding off the tiyanak is to play the guitar.",
+          "statement_id": "Menurut Jose A. Samson, kepercayaan umum di kalangan albularyo (tabib tradisional) di pedesaan Luzon untuk menangkal tiyanak adalah memainkan gitar.",
+          "quote": "According to Jose A. Samson, a common belief among albularyos in rural Luzon in how to ward off the tiyanak is to play the guitar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c20",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tiyanak is the subject of many Philippine films, among them Tianak (1953) and Tiyanak (1988).",
+          "statement_id": "Tiyanak menjadi subjek banyak film Filipina, di antaranya Tianak (1953) dan Tiyanak (1988).",
+          "quote": "The tiyanak is the subject of many Philippine films: Tianak (1953) Tiyanak (1988)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c21",
+          "source_id": "tiyanak-s2",
+          "host": "en.wikisource.org",
+          "statement": "After recording the patianac, the source states that among all the Tagalogs not a trace of this is left.",
+          "statement_id": "Setelah mencatat patianac, sumber itu menyatakan bahwa di antara semua orang Tagalog tidak ada lagi jejak kepercayaan ini.",
+          "quote": "May the honor and glory be God our Lord's, that among all the Tagalos not a trace of this is left",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c22",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Cronicas by Francisco de San Antonio (1738–44), when a woman is about to give birth some men undress completely; they say this is to keep the patianac and the osuang away, witches who come to obstruct the childbirth and suck out the souls of children.",
+          "statement_id": "Menurut Cronicas karya Francisco de San Antonio (1738–44), ketika seorang perempuan hendak melahirkan, sejumlah pria menanggalkan pakaian; mereka mengatakan itu untuk menjauhkan patianac dan osuang, penyihir yang datang menghalangi kelancaran persalinan dan menyedot jiwa anak-anak.",
+          "quote": "When a woman is about to give birth, some men undress until they are stark naked. ... They say that it is to keep the patiànac and the osuàng away from the woman. These are witches among them who come to obstruct the success of the childbirth, and to suck out the souls of children ... Fr. Francisco de San Antonio, Cronicas (1738–44)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c23",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In 1589 the Franciscan missionary Juan de Plasencia included the patianac among beings feared by Tagalog communities. His description does not present the familiar monster disguised as an abandoned baby but concerns a woman and child who die in childbirth and are said to be heard lamenting at night.",
+          "statement_id": "Pada 1589 misionaris Fransiskan Juan de Plasencia memasukkan patianac di antara makhluk yang ditakuti komunitas Tagalog. Uraiannya tidak menggambarkan monster bayi terlantar yang dikenal sekarang, melainkan seorang perempuan dan anaknya yang mati saat melahirkan dan konon terdengar meratap pada malam hari.",
+          "quote": "In 1589, the Franciscan missionary Juan de Plasencia included the patianac among beings feared by Tagalog communities. His short description does not present the familiar monster disguised as an abandoned baby. Instead, it concerns a woman and child who die during childbirth and are said to be heard lamenting at night.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c24",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Accounts from Malolos, Malabon, Batangas, Mindoro, Pampanga and other places describe deceptive crying, altered sight, lost time, a child on a banana leaf, uneven legs, claws or a sudden transformation. These details sometimes overlap but do not form a single fixed anatomy.",
+          "statement_id": "Catatan dari Malolos, Malabon, Batangas, Mindoro, Pampanga, dan tempat lain menggambarkan tangisan yang menipu, penglihatan yang berubah, waktu yang hilang, anak di atas daun pisang, kaki tak sama panjang, cakar, atau perubahan mendadak. Rincian itu kadang tumpang tindih tetapi tidak membentuk satu anatomi baku.",
+          "quote": "Accounts from Malolos, Malabon, Batangas, Mindoro, Pampanga, and other places describe deceptive crying, altered sight, lost time, a child on a banana leaf, uneven legs, claws, or a sudden transformation. These details sometimes overlap, but they do not form a single fixed anatomy.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c25",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In one account two boys found what appeared to be a naked, unusually plump newborn lying on a banana leaf; while they fondled it the round infant body became that of a small old man.",
+          "statement_id": "Dalam satu catatan, dua anak lelaki menemukan sesuatu yang tampak seperti bayi baru lahir yang telanjang dan montok di atas daun pisang; saat mereka mengelusnya, tubuh bulat bayi itu berubah menjadi tubuh seorang kakek kecil.",
+          "quote": "two boys found what appeared to be a naked, unusually plump newborn lying on the side of a banana leaf. ... The child changed while they fondled it. The round infant body became that of a small old man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c26",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the same account one leg of the being was much shorter than the other, so it could not move with an ordinary human stride and travelled in abrupt leaps.",
+          "statement_id": "Dalam catatan yang sama, satu kaki makhluk itu jauh lebih pendek daripada yang lain sehingga ia tidak dapat melangkah seperti manusia biasa dan bergerak dengan lompatan mendadak.",
+          "quote": "One leg was much shorter than the other, so the being could not move with an ordinary human stride. It travelled in abrupt leaps.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c27",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In one story villagers of a barrio suspected that the tianak had taken an elderly fishpond watchman; the search party struck tin cans continuously, hoping the racket would frighten the beings and force them to release their victim.",
+          "statement_id": "Dalam satu kisah, warga kampung menduga tianak telah membawa seorang penjaga kolam ikan yang tua; rombongan pencari memukul kaleng timah terus-menerus dengan harapan kegaduhan itu menakuti makhluk-makhluk tersebut dan memaksa mereka melepaskan korbannya.",
+          "quote": "People in the barrio suspected that the tianak had taken him. They did not search quietly. The party carried tin cans and struck them continuously, hoping that a tremendous racket would frighten the beings and force them to release their victim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c28",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In a Tagalog tale of a young couple, the infant they found in the forest fastened onto the wife’s breast and bit her; she was later found dead and her husband saw the infant flying away among the trees.",
+          "statement_id": "Dalam kisah Tagalog tentang sepasang suami istri, bayi yang mereka temukan di hutan menempel pada dada sang istri dan menggigitnya; sang istri kemudian ditemukan mati, dan suaminya melihat bayi itu terbang pergi di antara pepohonan.",
+          "quote": "The Tianak — Tagalog ... The wife held it to her breast even though she had not yet borne a child and had no milk to give. The infant fastened onto her. A moment later she cried out that it had bitten her. ... She was dead. The infant was no longer beside her. Looking into the forest, he saw it flying away among the trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c29",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the patianak story from Oriental Mindoro, the baby a mother nursed would not stop feeding while her strength drained until she died; the infant then changed into a black bird and flew from the house.",
+          "statement_id": "Dalam kisah patianak dari Mindoro Oriental, bayi yang disusui seorang ibu tidak berhenti menyusu sementara tenaga sang ibu terkuras sampai ia meninggal; setelah itu bayi tersebut berubah menjadi burung hitam dan terbang dari rumah.",
+          "quote": "The Patianak — Tagalog, Oriental Mindoro ... The baby would not stop feeding. It remained fixed at her breast while her strength drained away. She became weaker and weaker until she died. Once she was dead, the infant changed into a black bird and flew from the house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c30",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Tagalog story of Bata explains the Tianac as a child who died without baptism; such beings were said to wander lonely places, become visible or invisible and mislead young people, and turning one’s clothing inside out was given as a way to break their power of deception.",
+          "statement_id": "Kisah Tagalog tentang Bata menjelaskan tianac sebagai anak yang meninggal tanpa dibaptis; makhluk semacam itu dikatakan berkeliaran di tempat sunyi, dapat menampakkan diri atau tidak terlihat, dan menyesatkan anak muda. Membalik pakaian disebut sebagai cara mematahkan daya tipunya.",
+          "quote": "Bata and the Tianac — Tagalog ... The story closes by explaining the Tianac as a child who died without baptism. Such beings were said to wander lonely places, become visible or invisible, and mislead young people. Turning one’s clothing inside out was given as a way to break their power of deception.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c31",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the Kapampangan story small nut-brown beings appeared around a man; some floated in the air and they had large noses, wide mouths and fierce eyes.",
+          "statement_id": "Dalam kisah Kapampangan, makhluk-makhluk kecil berkulit cokelat kacang muncul mengelilingi seorang lelaki; sebagian melayang di udara, berhidung besar, bermulut lebar, dan bermata garang.",
+          "quote": "Vicente Meets a Crowd of Tianac — Kapampangan ... Small beings appeared around him. They were nut-brown and some floated in the air. They had large noses, wide mouths, and fierce eyes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c32",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the Kapampangan story, a man named Vicente once encountered many tianac on Mount Arayat.",
+          "statement_id": "Menurut kisah Kapampangan, seorang lelaki bernama Vicente pernah bertemu banyak tianac di Gunung Arayat.",
+          "quote": "Vicente Meets a Crowd of Tianac — Kapampangan ... An elderly servant told the narrator that Vicente had once encountered many tianac on Mount Arayat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c33",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the story the man removed his clothes, turned them inside out and put them on again, and the crowd vanished immediately.",
+          "statement_id": "Dalam kisah itu, sang lelaki melepas pakaiannya, membaliknya, lalu memakainya lagi, dan kerumunan makhluk itu langsung lenyap.",
+          "quote": "Vicente Meets a Crowd of Tianac — Kapampangan ... He removed his clothes, turned them inside out, and put them on again. The crowd vanished immediately.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c34",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the same story Vicente learned only afterwards that it was Monday; he had entered the mountain on Saturday and believed he was merely an hour late for the meeting.",
+          "statement_id": "Dalam kisah yang sama, Vicente baru mengetahui bahwa hari sudah Senin; ia masuk gunung pada hari Sabtu dan mengira hanya terlambat satu jam dari pertemuan.",
+          "quote": "Vicente Meets a Crowd of Tianac — Kapampangan ... Only then did he learn that it was Monday. Vicente had entered the mountain on Saturday and believed that he was merely an hour late for the meeting.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c35",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Muntianak is a related name reported in parts of the southern Philippines; it should not be assumed to share every Tagalog detail.",
+          "statement_id": "Muntianak adalah nama terkait yang dilaporkan di beberapa bagian Filipina selatan; tidak boleh diasumsikan memiliki semua rincian versi Tagalog.",
+          "quote": "Muntianak — a related name reported in parts of the southern Philippines; it should not be assumed to share every Tagalog detail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c36",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the article, pregnancy and labour could be dangerous, infant mortality was common and an unexplained cry outside the settlement demanded a moral response; the listener is placed in an impossible position, since ignoring a child would be cruel but answering the cry may expose the rescuer to danger.",
+          "statement_id": "Menurut artikel itu, kehamilan dan persalinan bisa berbahaya, kematian bayi lazim, dan tangisan tak dikenal di luar permukiman menuntut tanggapan moral; pendengar berada dalam posisi yang mustahil: mengabaikan anak itu kejam, tetapi menjawab tangisannya dapat membahayakan penolong.",
+          "quote": "Pregnancy and labour could be dangerous, infant mortality was common, and an unexplained cry outside the settlement demanded a moral response. The listener is placed in an impossible position: ignoring a child would be cruel, but answering the cry may expose the rescuer to danger.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c37",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Modern writers and artists continue to reinterpret the tiyanak; Acuña proposes that the tiyanak can be read as more than a mindless killer, as a newborn trying to understand a violent world created by adults.",
+          "statement_id": "Penulis dan seniman modern terus menafsirkan ulang tiyanak; Acuña mengusulkan bahwa tiyanak dapat dibaca sebagai lebih dari pembunuh tanpa pikiran, yaitu bayi yang berusaha memahami dunia kejam ciptaan orang dewasa.",
+          "quote": "Modern writers and artists continue to reinterpret the Tiyanak. ... Acuña proposes that the Tiyanak can be read as more than a mindless killer: the figure may also be approached as a newborn trying to understand a violent world created by adults.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c38",
+          "source_id": "tiyanak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "A cry resembling that of an abandoned infant draws a traveller toward the roadside, forest, field or swamp, where the helpless child proves to be something dangerous.",
+          "statement_id": "Tangisan menyerupai bayi terlantar memikat pejalan menuju tepi jalan, hutan, ladang, atau rawa, tempat anak yang tak berdaya itu ternyata berbahaya.",
+          "quote": "a cry resembling that of an abandoned infant draws a traveller toward the roadside, forest, field, or swamp, where the helpless child proves to be something dangerous.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c39",
+          "source_id": "tiyanak-s4",
+          "host": "www.gutenberg.org",
+          "statement": "A footnote in the story collection explains patianac as mischievous birth-spirits that live in the woods and fields and lead travellers astray at night.",
+          "statement_id": "Catatan kaki dalam kumpulan cerita itu menjelaskan patianac sebagai roh kelahiran yang jahil, tinggal di hutan dan ladang, dan menyesatkan pejalan pada malam hari.",
+          "quote": "Patianac, mischievous birth-spirits that live in the woods and fields, and lead travellers astray at night.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wakwak",
-      "file": "batch-015.md",
+      "file": "batch-015-fix-1.md",
+      "entry_sha256": "89103f83333d8a4fd0b60f12aed23e6ef88752166ed892790cf4852c093584a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wakwak-c01",
           "source_id": "wakwak-s1",
           "host": "en.wikipedia.org",
-          "statement": "The wakwak is a vampiric bird-like creature of Philippine mythology that snatches humans at night, like the manananggal and ekek; unlike the manananggal it cannot separate its torso; some call it a vampire, others a night bird linked to witches.",
-          "statement_id": "Wakwak adalah makhluk mirip burung pengisap darah dalam mitologi Filipina yang menyambar manusia pada malam hari, mirip manananggal dan ekek; bedanya, wakwak tak dapat memisahkan tubuhnya; sebagian menganggapnya vampir, sebagian burung malam yang dikaitkan dengan penyihir.",
+          "statement": "The wakwak is a vampiric, bird-like creature of Philippine mythology said to snatch humans at night as prey, like the manananggal and the ekek in rural areas of the Philippines; unlike the manananggal, it cannot separate its torso from its body.",
+          "statement_id": "Wakwak adalah makhluk mirip burung pengisap darah dalam mitologi Filipina yang konon menyambar manusia pada malam hari sebagai mangsa, seperti manananggal dan ekek di pedesaan Filipina; berbeda dari manananggal, wakwak tidak dapat memisahkan torsonya dari tubuhnya.",
           "quote": "The Wakwak is a vampiric, bird-like creature in Philippine mythology. It is said to snatch humans at night as prey, similar to the manananggal and the Ekek in rural areas of the Philippines. The difference between the Manananggal and the Wakwak is that Wakwak cannot separate its torso from its body while the Manananggal can.",
           "context": "traditional-belief",
           "status": "exact"
@@ -158,10 +449,170 @@
           "id": "wakwak-c03",
           "source_id": "wakwak-s1",
           "host": "en.wikipedia.org",
-          "statement": "The wakwak has long sharp talons and knife-sharp bat-like wings used to slash victims and take their hearts.",
-          "statement_id": "Wakwak digambarkan bercakar panjang tajam dan bersayap seperti kelelawar yang setajam pisau, dipakai untuk mencabik korban dan mengambil jantungnya.",
+          "statement": "The wakwak is often described as having long sharp talons and a pair of wings like those of a bat; it uses its talons or claws to slash its victims and take their hearts.",
+          "statement_id": "Wakwak sering digambarkan memiliki cakar panjang yang tajam dan sepasang sayap seperti sayap kelelawar; ia memakai cakarnya untuk mencabik korban dan mengambil jantungnya.",
           "quote": "The Wakwak is often described as having long sharp talons and a pair of wings similar to those of a bat. It uses its talons or claws to slash its victims and to get their heart",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c04",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some believe the wakwak is a type or form of vampire; others contend it is a Philippine night bird associated with witches.",
+          "statement_id": "Sebagian orang meyakini wakwak sebagai jenis atau wujud vampir; yang lain berpendapat wakwak adalah burung malam Filipina yang dikaitkan dengan penyihir.",
+          "quote": "Some believe that the Wakwak is a type or form of a vampire. Other people contend that a Wakwak is a Philippine night bird associated with witches.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c05",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sound of a wakwak (Yaya) is usually associated with the presence of an Unglu (vampire) or Ungo (ghost or monster).",
+          "statement_id": "Bunyi wakwak (Yaya) biasanya dikaitkan dengan kehadiran Unglu (vampir) atau Ungo (hantu atau monster).",
+          "quote": "The sound of a Wakwak (Yaya) is usually associated with the presence of an Unglu (vampire) or Ungo (ghost or monster).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c06",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sound a tuko (common house gecko) makes at night when out of sight was found by an American who spent much time in the Philippines to be attributed to a wakwak.",
+          "statement_id": "Bunyi tuko (cicak rumah biasa) pada malam hari ketika tak terlihat ternyata oleh seorang Amerika yang lama tinggal di Filipina dikaitkan dengan wakwak.",
+          "quote": "The sound that a tuko (common house gecko) makes at night when out of sight was discovered by an American who spent much time in the Philippines to be attributed to a Wakwak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c07",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The manananggal and wakwak are described as other types of evil creatures in the same league as the aswang.",
+          "statement_id": "Manananggal dan wakwak disebut jenis makhluk jahat lain yang sekelas dengan aswang.",
+          "quote": "the Manananggal and Wakwak are other types of evil creatures in the same league as the Aswang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c08",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to this writer, in some areas, particularly the Visayas, locals call the manananggal (a pretty woman by day that becomes a half-bodied, viscera-eating monster at night) the wakwak, so named for the sound its wing makes while hovering or flying.",
+          "statement_id": "Menurut penulis ini, di beberapa daerah, terutama Visayas, penduduk menyebut manananggal (perempuan cantik di siang hari yang berubah menjadi monster pemakan jeroan berbadan separuh pada malam hari) sebagai wakwak, nama yang berasal dari bunyi sayapnya saat melayang atau terbang.",
+          "quote": "Legend says the Manananggal is a pretty woman by day that transforms into a vicious, half bodied, viscera-eating monster by nightfall. ... In some areas in the Philippines particularly the Visayas, the locals call it the Wakwak. The Wakwak is so named for the sound its wing makes while hovering or flying.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c09",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Wakwak, recorded in several Visayan traditions, may name a dangerous night-flying being or imitate its cry.",
+          "statement_id": "Wakwak, yang tercatat dalam beberapa tradisi Visayas, dapat menamai makhluk terbang malam yang berbahaya atau meniru jeritannya.",
+          "quote": "Wakwak, recorded in several Visayan traditions, may name a dangerous night-flying being or imitate its cry.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c10",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The folklorist Maximo D. Ramos placed the manananggal and wakwak within his \"viscera-sucker\" category.",
+          "statement_id": "Folklorwan Maximo D. Ramos menempatkan manananggal dan wakwak dalam kategori \"penyedot jeroan\" (viscera-sucker) buatannya.",
+          "quote": "Maximo D. Ramos, the Filipino folklorist whose comparative studies helped organize a very large body of Philippine material, placed the manananggal and wakwak within his “viscera-sucker” category.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c11",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The Aklanon narrative \"Encounter with a Wakwak\" describes a night encounter in which the being first resembles an unusually large black bat and then appears as a long-haired woman; the narrator associates it with the repeated cry wak, wak, wak, and the account does not describe a detachable lower body.",
+          "statement_id": "Narasi Aklanon \"Encounter with a Wakwak\" menggambarkan pertemuan malam hari: makhluk itu mula-mula menyerupai kelelawar hitam yang sangat besar lalu tampak sebagai perempuan berambut panjang; penutur mengaitkannya dengan seruan berulang wak, wak, wak, dan kisah itu tidak menyebut bagian bawah tubuh yang dapat terlepas.",
+          "quote": "the Aklanon narrative “Encounter with a Wakwak” describes a night encounter in which the being first resembles an unusually large black bat and then appears as a long-haired woman. The narrator associates it with the repeated cry wak, wak, wak. This account does not describe a detachable lower body",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c12",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "A 1924 record from Carcar, Cebu, and a 1924 Bohol collection both use the terms ongo and wakwak.",
+          "statement_id": "Catatan tahun 1924 dari Carcar, Cebu, dan koleksi tahun 1924 dari Bohol sama-sama memakai istilah ongo dan wakwak.",
+          "quote": "Ceferino P. Canaya’s 1924 record from Carcar, Cebu, uses ongo and wakwak. Francisco B. Reyes’s 1924 Bohol collection also records ongo and wakwak",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c13",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "A writer recounts his mother's account: in her teens, in the rice fields of her hometown of Dulag in Eastern Leyte, she saw what she thought was a large, tawny bird with sharp black talons a few feet above her head.",
+          "statement_id": "Seorang penulis menuturkan kisah ibunya, yang di masa remaja di sawah di kota asalnya, Dulag, Leyte Timur, melihat apa yang ia kira burung besar berwarna kuning kecokelatan dengan cakar hitam tajam beberapa kaki di atas kepalanya.",
+          "quote": "My Mother’s account of the Wakwak ... my mother has seen one in her teens, out in the rice fields, back in her hometown of Dulag in Eastern Leyte. ... She said she saw what she thought was a large, tawny looking bird with sharp, black talons just a few feet above her head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c14",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In the same account the creature had a pretty humanoid, feminine face with yellow curly hair, like a doll's face, and its wings were a bird's, not a bat's.",
+          "statement_id": "Dalam kisah yang sama, makhluk itu berwajah mirip manusia, cantik dan feminin, berambut ikal kuning, seperti wajah boneka, dan sayapnya sayap burung, bukan kelelawar.",
+          "quote": "She says the thing had a pretty humanoid and feminine face with yellow curly hair. She described its face as looking “like a doll.” Its wings were that of a bird, not a bat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c15",
+          "source_id": "wakwak-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The writer says films normally portray the wakwak flying upright, but his father, who grew up in Antique on the island of Panay, says a relative saw a wakwak flying over a bamboo grove upside down.",
+          "statement_id": "Penulis menyebut film biasanya menggambarkan wakwak terbang tegak, tetapi menurut ayahnya, yang besar di Antique, Pulau Panay, seorang kerabatnya melihat wakwak terbang di atas rumpun bambu dalam posisi terbalik.",
+          "quote": "In the movies it is normally portrayed as flying in an upright position. My father who grew up in Antique, in the island of Panay, says this is not so. He has a relative who saw a Wakwak flying over a bamboo grove. Dad’s kin says with all lucidity and sobriety that the thing flew upside down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c16",
+          "source_id": "wakwak-s3",
+          "host": "www.aswangproject.com",
+          "statement": "A Bato-bato account recommends placing citrus branches beneath a house where a pregnant woman lives so that a wakwak cannot eat her.",
+          "statement_id": "Sebuah catatan dari Bato-bato menganjurkan menaruh ranting jeruk di bawah rumah tempat perempuan hamil tinggal agar wakwak tidak dapat memakannya.",
+          "quote": "A Bato-bato account recommends placing citrus branches beneath a house where a pregnant woman lives so that a wakwak cannot eat her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c17",
+          "source_id": "wakwak-s4",
+          "host": "www.aswangproject.com",
+          "statement": "The names tiktik and wakwak are connected with sounds interpreted as signs of a dangerous nocturnal being; the relationship between sound, bird and aswang varies by account.",
+          "statement_id": "Nama tiktik dan wakwak dikaitkan dengan bunyi yang ditafsirkan sebagai tanda makhluk malam yang berbahaya; hubungan antara bunyi, burung, dan aswang berbeda-beda menurut catatan.",
+          "quote": "Tiktik and wakwak ... These names are connected with sounds interpreted as signs of a dangerous nocturnal being. The relationship between sound, bird, and aswang varies by account.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c18",
+          "source_id": "wakwak-s5",
+          "host": "escholarship.org",
+          "statement": "According to this journal article, aswang are often heard before they are seen: their attacks are presaged by bird cries or by the sound of flapping wings on the roof (wakwak or kaskas).",
+          "statement_id": "Menurut artikel jurnal ini, aswang sering terdengar sebelum terlihat: serangannya didahului pekik burung atau bunyi kepakan sayap di atap (wakwak atau kaskas).",
+          "quote": "Aswang are often heard before they are seen: their attacks are presaged by bird cries emitted either by aswang themselves or their animal familiars (tiktik, kikik), or by the sound of flapping wings on the roof (wakwak or kaskas).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c19",
+          "source_id": "wakwak-s5",
+          "host": "escholarship.org",
+          "statement": "Many names of the aswang in diverse Philippine ethnolinguistic regions are onomatopoeic words approximating these noises; wakwak, kiki or kaskas are used in Negros Oriental and Cebu.",
+          "statement_id": "Banyak nama aswang di berbagai wilayah etnolinguistik Filipina adalah kata onomatope yang menirukan bunyi itu; wakwak, kiki, atau kaskas dipakai di Negros Oriental dan Cebu.",
+          "quote": "Many of the aswang’s names in diverse Philippine ethnolinguistic regions are onomatopoeic words that approximate these noises (tiktik in Aklan, kikik or kakak in Bicol, wakwak, kiki, or kaskas in Negros Oriental and Cebu)",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -169,20 +620,15 @@
     },
     {
       "slug": "alan-legendary-creature",
-      "file": "batch-015.md",
+      "file": "batch-015-fix-1.md",
+      "entry_sha256": "b5211626a76964568b175972e078438f6e43e46d22795e93f488b2a6778eb4de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 26,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "alan-legendary-creature-c01",
@@ -203,33 +649,268 @@
           "quote": "The Alan are said to take drops of menstrual blood, miscarried fetuses, afterbirth, or other reproductive waste and transform them into human children, whom they then raise as their own. They live near springs in extremely fine houses, made of gold and other valuables.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c03",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to this collection the alan are today considered deformed spirits who live in the forests: as large as people, with wings and able to fly, with toes at the back of their feet and fingers pointing backwards from their wrists.",
+          "statement_id": "Menurut koleksi ini, alan kini dianggap roh bercacat yang tinggal di hutan: sebesar manusia, bersayap dan dapat terbang, dengan jari kaki di belakang telapak dan jari tangan menghadap ke belakang dari pergelangan.",
+          "quote": "The alan, just mentioned, are to-day considered as deformed spirits who live in the forests: “They are as large as people but have wings and can fly; their toes are at the back of their feet and their fingers point backwards from their wrists.”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c04",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "These spirits appear time after time as the foster mothers of the leading characters: generally they secure a drop of menstrual blood, a miscarriage or the afterbirth and, unknown to the real parents, change them into children and raise them.",
+          "statement_id": "Roh-roh ini berulang kali muncul sebagai ibu asuh tokoh-tokoh utama kisah: umumnya mereka mengambil setetes darah haid, keguguran, atau ari-ari, lalu tanpa sepengetahuan orang tua sebenarnya mengubahnya menjadi anak dan membesarkannya.",
+          "quote": "These spirits appear time after time as the foster mothers of the leading characters: Generally they secure a drop of menstrual blood, a miscarriage, or the afterbirth, and all unknown to the real parents, change them into children and raise them",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c05",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "These foster children are pictured as living in houses of gold situated near springs whose pebbles are of gold or beads.",
+          "statement_id": "Anak-anak asuh itu digambarkan tinggal di rumah emas di dekat mata air yang kerikilnya terbuat dari emas atau manik-manik.",
+          "quote": "These foster children are pictured as living in houses of gold situated near springs, the pebbles of which are of gold or beads",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c06",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When the true relationships of these children are established they always go to their blood parents, carrying these riches with them, which are a source of wonder and comment.",
+          "statement_id": "Ketika hubungan darah anak-anak itu terungkap, mereka selalu pergi kepada orang tua kandungnya sambil membawa kekayaan itu, yang menjadi sumber kekaguman dan pembicaraan.",
+          "quote": "When the true relationships of these children are established they always go to their blood parents, carrying with them these riches, which are a source of wonder and comment",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c07",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Some alan are addressed as \"you alan of the springs\", and in one instance a man dives down into the water where the alan live.",
+          "statement_id": "Sebagian alan disapa sebagai \"kalian alan dari mata air\", dan dalam satu kisah seorang lelaki menyelam ke air tempat alan tinggal.",
+          "quote": "Some of them are addressed as “you alan of the springs,” and in one instance a man dives down into the water where the alan live",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c08",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In general the homes of the alan seem similar to but much finer than those of the people of Kadalayapan and Kaodanan.",
+          "statement_id": "Secara umum rumah alan tampak mirip tetapi jauh lebih bagus daripada rumah orang-orang Kadalayapan dan Kaodanan.",
+          "quote": "but in general their homes seem to be similar to but much finer than those of the people of Kadalayapan and Kaodanan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c09",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In one tale two men hunt wild pig and have no fire to singe it; one goes looking for fire and finds it in the house of an alan.",
+          "statement_id": "Dalam satu kisah, dua lelaki berburu babi hutan dan tidak punya api untuk membakar bulunya; salah satunya mencari api dan mendapati api itu berada di rumah seekor alan.",
+          "quote": "Two men went to hunt wild pig. They killed one, but had no fire to singe it, so one man climbed a tree to see if he could see where was a fire. He saw a little fire at a distance and went to get it. When he got where the fire was, he saw it was in the house of an alan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c10",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale the alan gives him the fire, goes with her big basket to where the pig is, cuts it up with her nails and gives the liver to the man to feed her baby.",
+          "statement_id": "Dalam kisah itu, alan memberikan api, ikut membawa keranjang besarnya ke tempat babi, memotong babi dengan kukunya, lalu menyerahkan hati babi kepada lelaki itu untuk diberikan kepada bayinya.",
+          "quote": "Then the alan gave him the fire, and she took her big basket and went with him to where the pig was. They singed the pig, and the alan cut it up with her nails. Then she gave the liver to the man, and told him to take it to her house and feed the baby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c11",
+          "source_id": "alan-legendary-creature-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale the alan climbs the tree feet first on a vine; the men cut the vine so that she falls and dies, and they then find three jars in her house: one of dung, one of beads and one of gold.",
+          "statement_id": "Dalam kisah itu, alan memanjat pohon dengan kaki lebih dulu memegang sulur; para lelaki memotong sulur itu sehingga alan jatuh dan mati, lalu mereka mendapati tiga guci di rumahnya: berisi kotoran, manik-manik, dan emas.",
+          "quote": "“We climbed up feet first.” Then the alan seized a vine and started up the tree feet first. When she had almost reached them, they cut the vine and the alan fell to the ground and was dead. The men came down from the tree and went to the house of the alan. When they got there, they saw three jars: the first was full of dung; the second, of beads; the third, of gold.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c12",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The article describes the alan as a mysterious race of small, deformed half-human, half-avian creatures whose elongated fingers and feet are said to point backwards, which they use to hang upside down from trees.",
+          "statement_id": "Artikel itu menyebut alan sebagai ras misterius makhluk kecil, cacat, setengah manusia setengah burung; jari tangan dan kaki mereka yang panjang dikatakan menghadap ke belakang dan dipakai untuk bergantung terbalik dari pohon.",
+          "quote": "a mysterious race of small, deformed half-human, half-avian creatures. Their elongated fingers and feet are said to point backwards, which they use to hang upside down from trees with.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c13",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the article the alan are relatively harmless and are even rumoured to adopt children who have been lost in the jungle.",
+          "statement_id": "Menurut artikel itu, alan relatif tidak berbahaya dan bahkan dikabarkan mengadopsi anak-anak yang tersesat di hutan.",
+          "quote": "As horrific as this may sound, they are relatively harmless. They are even rumoured to adopt children who have been lost in the jungle.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c14",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The alan are said to procreate by collecting menstrual blood, aborted fetuses and afterbirth from humans, which they form into alan children.",
+          "statement_id": "Alan dikatakan berkembang biak dengan mengumpulkan darah haid, janin yang digugurkan, dan ari-ari dari manusia, yang mereka bentuk menjadi anak-anak alan.",
+          "quote": "They are said to procreate by collecting menstrual blood, aborted fetuses, and afterbirth from humans, which they form into Alan children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c15",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the writer, as far as he can find, alan folktales originate with the Itneg people (sometimes called Tinguian or Tingguian), the Austronesian ethnic group from the upland province of Abra in northwestern Luzon.",
+          "statement_id": "Menurut penulis, sejauh yang ia temukan, asal kisah alan ada pada orang Itneg (kadang disebut Tinguian atau Tingguian), kelompok etnis Austronesia dari provinsi dataran tinggi Abra di Luzon barat laut.",
+          "quote": "the origin of Alan folktales are with the Itneg people (sometimes referred to as “Tinguian”/“Tingguian”), the Austronesian ethnic group from the upland province of Abra in northwestern Luzon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c16",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Alan stories are sometimes confused or combined with the stories of the \"aran\" (who had cannibalistic tendencies) from the Isnag people.",
+          "statement_id": "Kisah alan kadang dikacaukan atau digabung dengan kisah \"aran\" (yang berkecenderungan kanibal) dari orang Isnag.",
+          "quote": "This is sometimes confused or combined with the stories of the “Aran” (who had cannibalistic tendencies) from the Isnag people",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c17",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In The Creatures of Philippine Lower Mythology the alan was combined with stories of the aran, both under the ogre classification.",
+          "statement_id": "Dalam The Creatures of Philippine Lower Mythology, alan digabung dengan kisah aran, keduanya di bawah klasifikasi raksasa pemakan manusia (ogre).",
+          "quote": "In The Creatures of Philippine Lower Mythology the Alan was combined with stories of the Aran – both under the Ogre classification.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c18",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the recorded tales an alan hung upside down from a tree like a bat.",
+          "statement_id": "Dalam kisah yang dicatat, seekor alan bergantung terbalik dari pohon seperti kelelawar.",
+          "quote": "Activities: An alan hung upside down from a tree like a bat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c19",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the retelling printed in the article, the men find in the alan's house a jar full of beads and another of gold.",
+          "statement_id": "Dalam versi tutur yang dimuat artikel itu, para lelaki menemukan di rumah alan sebuah guci penuh manik-manik dan satu guci emas.",
+          "quote": "The Alan and the Hunters ... Then the men came down and went to the Alan’s house, where they found a jar full of beads and another of gold, and these they brought with them when they returned home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c20",
+          "source_id": "alan-legendary-creature-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The writer notes the alan's recent inclusion in \"The Lost Journal of Alejandro Pardo\", with an artistic imagining by Mervin Malonzo.",
+          "statement_id": "Penulis menyebut alan baru-baru ini muncul dalam \"The Lost Journal of Alejandro Pardo\" dengan gambaran artistik oleh Mervin Malonzo.",
+          "quote": "I’ve always been fascinated with the Alan, and the recent inclusion in “The Lost Journal of Alejandro Pardo” and accompanying artistic imagining by Mervin Malonzo, reinvigorated that interest.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c21",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In one tale a wizened old alan lived in the depths of a dark forest where people seldom went.",
+          "statement_id": "Dalam satu kisah, seorang alan tua yang keriput tinggal di kedalaman hutan gelap yang jarang dikunjungi orang.",
+          "quote": "In the depths of a dark forest where people seldom went, lived a wizened old Alan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c22",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale the alan's wrinkled face had skin as tough as carabao hide, her long arms had fingers pointing back from the wrist, and she had a son named Sayen who was as handsome as she was ugly.",
+          "statement_id": "Dalam kisah itu, kulit wajah alan yang keriput sekeras kulit kerbau, lengannya panjang dengan jari menghadap ke belakang dari pergelangan, dan ia memiliki putra bernama Sayen yang setampan ibunya seburuk rupa.",
+          "quote": "The skin on her wrinkled face was as tough as a carabao hide, and her long arms with fingers pointing back from the wrist were horrible to look at. Now this frightful creature had a son whose name was Sayen, and he was as handsome as his mother was ugly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c23",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In \"Man and the Alan\" the alan hang from the limbs of a tree with their heads down like bats; they have wings to fly and their toes are at the back of their feet.",
+          "statement_id": "Dalam kisah \"Man and the Alan\", alan bergantung dari dahan pohon dengan kepala di bawah seperti kelelawar; mereka bersayap untuk terbang dan jari kakinya berada di belakang kaki.",
+          "quote": "Man and the Alan ... hanging from the limbs of the tree with their heads down like bats. They had wings to fly, and their toes were at the back of their feet",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c24",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "When a man fell on his face the alan wailed loudly, believing him dead, and came down from the tree with gold and beads to lay on him.",
+          "statement_id": "Ketika seorang lelaki jatuh terkapar, para alan meratap keras karena mengira ia mati dan turun dari pohon membawa emas dan manik-manik untuk diletakkan di atasnya.",
+          "quote": "At this the Alan began to wail loudly, for they saw him fall and believed him dead And they came down out of the tree with gold and beads which they laid on him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c25",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "When the man refused their request the alan were angry and threatened to burn his house; very soon after, his house burned, for the alan kept their word.",
+          "statement_id": "Ketika lelaki itu menolak permintaan mereka, para alan marah dan mengancam akan membakar rumahnya; tak lama kemudian rumah itu terbakar karena para alan menepati kata-kata mereka.",
+          "quote": "When the man refused to do this, they were angry and turned away, crying, \"Then we are going to burn your house, for you are a bad man.\" ... Thereupon the man went home as fast as he could go, but very soon after that his house burned, for the Alan kept their word.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c26",
+          "source_id": "alan-legendary-creature-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the compiler's note, this treatment of the alan is typical of that given to the less powerful spirits by the Tinguian today: at ceremonies they often make fun of them and cheat them in the sacrifices.",
+          "statement_id": "Menurut catatan kaki kompilator, perlakuan terhadap alan lazim diberikan kepada roh yang kurang berkuasa oleh orang Tinguian masa kini: dalam upacara mereka sering mengolok-olok dan menipu roh itu dalam persembahan.",
+          "quote": "This treatment of the Alan is typical of that accorded to the less powerful of the spirits by the Tinguian today. At the ceremonies they often make fun of them and cheat them in the sacrifices.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amalanhig",
-      "file": "batch-015.md",
+      "file": "batch-015-fix-1.md",
+      "entry_sha256": "286677f74b3c71e15206b6121edab5bd1de33eb1d3ca6552cf34855152453246",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 15,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amalanhig-c01",
           "source_id": "amalanhig-s1",
           "host": "en.wikipedia.org",
-          "statement": "Amalanhig (also maranhig or amaranhig) are beings of Visayan mythology, especially among Hiligaynon speakers: aswangs that failed to transfer their monstrosity, rising from their graves to kill by biting necks; another version says they tickle victims to death.",
-          "statement_id": "Amalanhig (juga maranhig atau amaranhig) adalah makhluk mitologi Visayas, terutama di kalangan penutur Hiligaynon: aswang yang gagal mewariskan sifat monsternya sehingga bangkit dari kubur dan membunuh manusia dengan menggigit lehernya; versi lain menyebut mereka menggelitik korban sampai mati.",
+          "statement": "Amalanhig (also called maranhig or amaranhig) are creatures in Visayan mythology, particularly among Hiligaynon speakers; they are aswangs that failed to transfer their monstrosity, causing them to rise from their graves to kill humans by biting their necks.",
+          "statement_id": "Amalanhig (juga disebut maranhig atau amaranhig) adalah makhluk dalam mitologi Visayas, terutama di kalangan penutur Hiligaynon; mereka adalah aswang yang gagal mewariskan sifat monsternya sehingga bangkit dari kubur untuk membunuh manusia dengan menggigit leher.",
           "quote": "Amalanhig (also called 'Maranhig' or 'Amaranhig') are creatures in Visayan mythology, particularly among Hiligaynon speaking groups. Amalanhig are Aswangs who failed to transfer their monstrosity causing them to rise from their graves to kill humans by biting their necks.",
           "context": "traditional-belief",
           "status": "exact"
@@ -243,26 +924,151 @@
           "quote": "The Amalanhig are depicted as externally identical to humans, though there is an enlargement of the upper canines in most individuals. The Amalanhig is a variant of the vampire native to the Philippines.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "amalanhig-c03",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The article's writer calls what some locals from the Visayas call the maranhig (also amalanhig or amaranhig) the Philippines' native version of the undead, set against the zombies the West has.",
+          "statement_id": "Penulis artikel menyebut apa yang oleh sebagian penduduk Visayas disebut maranhig (juga amalanhig atau amaranhig) sebagai versi asli Filipina dari mayat hidup, dibandingkan dengan zombi yang dimiliki Barat.",
+          "quote": "If the West has zombies, here in the Philippines, there is what some locals from the Visayas call the Maranhig (also Amalanhig or Amaranhig), our native version of the undead.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c04",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the writer, Wikipedia's description of the amaranhig was based on a list of mythical creatures as depicted in \"Pedro Penduko\", a popular Philippine comic-book superhero portrayed many times on TV and in cinema.",
+          "statement_id": "Menurut penulis, deskripsi Wikipedia tentang amaranhig didasarkan pada daftar makhluk mitos sebagaimana digambarkan dalam \"Pedro Penduko\", pahlawan super komik populer Filipina yang berkali-kali tampil di TV dan bioskop.",
+          "quote": "According to Wikipedia, the Amaranhig is an aswang who has “failed to transfer their monstrosity causing them to rise from their graves to kill humans by biting their necks.” The description was based on a list of mythical creatures as depicted in “Pedro Penduko,” a popular Philippines comic book superhero which had been portrayed many times in TV and cinema.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c05",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the writer, stories of Maranhig sightings usually fall into the \"my uncle's cousin's grandpa saw it\" category and are rarely reliable or informative.",
+          "statement_id": "Menurut penulis, cerita penampakan maranhig biasanya tergolong cerita \"pamanku-sepupu-kakeknya melihatnya\" dan jarang dapat diandalkan atau informatif.",
+          "quote": "Usual stories about Maranhig sightings usually fall under the “my-uncle’s-cousin’s-grandpa saw it” category and are rarely reliable and informative.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c06",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The writer says his father heard about it as a child in his home province but never mentioned seeing anything that fits the description; he speaks from accounts of people who allegedly \"saw\" it.",
+          "statement_id": "Penulis menuturkan bahwa ayahnya mendengar tentang maranhig sejak kecil di provinsi asalnya, tetapi tidak pernah menyebut melihat sesuatu yang cocok dengan deskripsi itu; ia berbicara berdasarkan cerita orang yang konon pernah \"melihatnya\".",
+          "quote": "My father described hearing about it as a child growing up in his home province but he never mentioned seeing anything that remotely fits the description above and otherwise. He says based on accounts of people who allegedly “saw” it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c07",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to that account the maranhig are more zombie than aswang: undead corpses whose presence is announced by the overpowering stench of decaying flesh.",
+          "statement_id": "Menurut penuturan itu, maranhig lebih mirip zombi daripada aswang: mayat hidup yang kehadirannya ditandai bau busuk daging membusuk yang menyengat.",
+          "quote": "They are more zombie than aswang – undead corpses whose presence is announced by the overpowering stench of decaying flesh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c08",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "A former soldier told the writer that his unit saw a group of maranhig on one of their Mindanao sorties and that the way they walked resembled zombies in the movies.",
+          "statement_id": "Seorang mantan tentara menuturkan kepada penulis bahwa ia dan rekannya melihat sekelompok maranhig dalam salah satu operasi di Mindanao, dan cara mereka berjalan mirip zombi di film.",
+          "quote": "that they saw a group of Maranhigs on one of their Mindanao sorties. He said the way these things walk were somehow similar to the way zombies are portrayed in the movies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c09",
+          "source_id": "amalanhig-s2",
+          "host": "www.aswangproject.com",
+          "statement": "By the soldier's description the maranhig walked quietly in a line, naked, with rotting flesh and skin hanging from their bones like old curtains.",
+          "statement_id": "Menurut gambaran tentara itu, para maranhig berjalan diam-diam berbaris, telanjang, dengan daging dan kulit membusuk bergelantungan dari tulang seperti tirai tua.",
+          "quote": "Based on his description, the Maranhigs were walking quietly in a line. They were naked but rotting flesh and skin hung from their bones like old curtains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c10",
+          "source_id": "amalanhig-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The physical attributes of the bal-bal have been adopted into many other tales of flesh-eating creatures in the Philippines, including the Visayan version of the aswang, the amalanhig and the busaw.",
+          "statement_id": "Ciri fisik bal-bal telah diadopsi ke banyak kisah makhluk pemakan daging lain di Filipina, termasuk versi Visayas dari aswang, amalanhig, dan busaw.",
+          "quote": "The physical attributes of the Bal-Bal have been adopted into many other tales of flesh eating creatures throughout the Philippines – such as the Visayan version of the Aswang, the Amalanhig, and the Busaw.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c11",
+          "source_id": "amalanhig-s4",
+          "host": "escholarship.org",
+          "statement": "This journal article names one type of aswang called maranhig in Hiliganynon, mangkukulam in Tagalog and other names elsewhere, often translated as bruja by Spanish chroniclers and as \"witch\" by folklore scholars writing in English.",
+          "statement_id": "Artikel jurnal ini menyebut satu jenis aswang yang disebut maranhig dalam bahasa Hiliganynon (ejaan sumber), mangkukulam dalam bahasa Tagalog, dan nama lain di tempat lain, yang sering diterjemahkan sebagai bruja oleh para kronikus Spanyol dan sebagai \"penyihir\" oleh sarjana folklor berbahasa Inggris.",
+          "quote": "One type of aswang, called mangkukulam in Tagalog, maranhig in Hiliganynon, manggagamod in Ilokano, and barangan or ongo by Visayans, is often translated as bruja by Spanish chroniclers and as “witch” by folklore scholars writing in English.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c12",
+          "source_id": "amalanhig-s4",
+          "host": "escholarship.org",
+          "statement": "According to the article such witches may be male or female and can take various forms, especially animals: birds, wild pigs or large dogs (called sigbin in Cebuano).",
+          "statement_id": "Menurut artikel itu, penyihir semacam itu dapat laki-laki atau perempuan dan dapat berwujud macam-macam, terutama hewan: burung, babi hutan, atau anjing besar (disebut sigbin dalam bahasa Cebuano).",
+          "quote": "Such witches may be male or female, and can take various forms, especially the guise of animals: birds, wild pigs or large dogs (called sigbin in Cebuano).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c13",
+          "source_id": "amalanhig-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the list of mythical creatures encountered by Pedro Penduko on television, the amalanhig is portrayed by Luz Fernandez, with the note that the Hiligaynon believe in beings called amalanhigs.",
+          "statement_id": "Dalam daftar makhluk mitos yang dijumpai Pedro Penduko di televisi, amalanhig diperankan oleh Luz Fernandez, dengan keterangan bahwa orang Hiligaynon percaya pada makhluk bernama amalanhig.",
+          "quote": "encountered by Pedro Penduko on television ... Amalanhig (portrayed by Luz Fernandez) - Hiligaynon believe in certain beings called Amalanhigs.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c14",
+          "source_id": "amalanhig-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the list of creatures encountered by Pedro Penduko on television, a victim can escape an amalanhig by running in a zigzag (its stiff body lets it walk only straight), climbing a tree or high platform, or running into lakes and rivers because it fears deep water.",
+          "statement_id": "Dalam daftar makhluk yang dijumpai Pedro Penduko di televisi, korban dapat lolos dari amalanhig dengan berlari zigzag (karena tubuhnya kaku sehingga hanya berjalan lurus), memanjat pohon atau tempat tinggi, atau masuk ke danau dan sungai karena amalanhig takut perairan dalam.",
+          "quote": "encountered by Pedro Penduko on television ... In order to escape from the Amanlanhigs, a potential victim needs to either run in a zigzag direction (as Amalanhigs can only walk in a straight direction due to the stiffness of their body), climb a tree or high platform to put themselves out of their reach, or run into lakes and rivers since Amanlanhigs are scared of deep bodies of water.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c15",
+          "source_id": "amalanhig-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The list of creatures encountered by Pedro Penduko on television likewise describes the amalanhig as aswangs that failed to transfer their monstrosity and so rise from their graves to kill humans by biting their necks.",
+          "statement_id": "Daftar makhluk yang dijumpai Pedro Penduko di televisi juga menyebut amalanhig sebagai aswang yang gagal mewariskan sifat monsternya sehingga bangkit dari kubur dan membunuh manusia dengan menggigit leher.",
+          "quote": "encountered by Pedro Penduko on television ... They are Aswangs who failed to transfer their monstrosity; causing them to rise from their graves to kill humans by biting their necks.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bal-bal",
-      "file": "batch-015.md",
+      "file": "batch-015-fix-1.md",
+      "entry_sha256": "35206f56f1c66a5ebcd6984339860b761eb0f2b301aa32df396784d3eb71d4c0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 15,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bal-bal-c01",
@@ -282,6 +1088,136 @@
           "statement_id": "Bal-bal dikaitkan dengan aswang, amalanhig, dan busaw, sesama pemakan daging, dan tergolong makhluk paling menakutkan di Filipina.",
           "quote": "Bal-Bal was also associated to Aswang, Amalanhig, and even to Busaw, which were all flesh eaters. They were classified to one of the most fearful creatures in the Philippines because of their appearance.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c04",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The writer calls the bal-bal perhaps the most gruesome of the Philippine corpse thieves.",
+          "statement_id": "Penulis menyebut bal-bal sebagai mungkin yang paling mengerikan di antara para pencuri jenazah di Filipina.",
+          "quote": "Enter, the BAL-BAL – perhaps the most gruesome of the Philippine corpse thieves.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c05",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Stories say the bal-bal steals corpses to feed on the rotting flesh, using sharp claws and teeth to tear through muscle and bone; once it has fed it leaves the trunk of a banana tree in the coffin, creating an illusion of the stolen body.",
+          "statement_id": "Menurut kisah-kisah, bal-bal mencuri jenazah untuk memakan dagingnya yang membusuk, memakai cakar dan gigi tajam untuk mengoyak otot dan tulang; setelah makan, ia meninggalkan batang pohon pisang di peti mati sehingga tercipta ilusi jenazah yang dicuri.",
+          "quote": "Stories say the Bal-Bal is a creature who steals corpses to feed on the rotting flesh – using sharp claws and teeth for tearing through muscle and bone. Once the Bal Bal has fed, it will leave the trunk of a banana tree in the coffin, creating an illusion of the stolen body.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c06",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The physical attributes of the bal-bal have been adopted into many other tales of flesh-eating creatures throughout the Philippines, such as the Visayan version of the aswang, the amalanhig and the busaw.",
+          "statement_id": "Ciri fisik bal-bal telah diadopsi ke dalam banyak kisah makhluk pemakan daging lain di Filipina, seperti versi Visayas dari aswang, amalanhig, dan busaw.",
+          "quote": "The physical attributes of the Bal-Bal have been adopted into many other tales of flesh eating creatures throughout the Philippines – such as the Visayan version of the Aswang, the Amalanhig, and the Busaw.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c07",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Modern tales say the bal-bal walks in regular human form until drenched by the light of the full moon, when he shape-shifts into a disfigured bone collector.",
+          "statement_id": "Kisah-kisah modern menyebut bal-bal berjalan dalam wujud manusia biasa sampai tersiram cahaya bulan purnama, lalu berubah wujud menjadi pengumpul tulang yang cacat.",
+          "quote": "Modern tales of the Bal-Bal say he walks in regular human form until drenched by the light of the full moon, where he will shape-shift into a disfigured bone collector.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c08",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Other stories say that anyone who utters the name \"Bal-Bal\" will be sought out and have their flesh devoured.",
+          "statement_id": "Kisah lain menyebut bahwa orang yang mengucapkan nama \"Bal-Bal\" akan dicari dan dagingnya dimakan.",
+          "quote": "Other stories say if you utter his name “Bal-Bal” (I do not recommended trying this at home), he will seek you out and devour your flesh.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c09",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In The Creatures of Philippine Lower Mythology, Maximo Ramos traced tales of the bal-bal back to the Tagbanua people, who are mainly found in the central and northern regions of Palawan.",
+          "statement_id": "Dalam The Creatures of Philippine Lower Mythology, Maximo Ramos mengembalikan kisah bal-bal kepada orang Tagbanua, yang terutama ditemukan di Palawan bagian tengah dan utara.",
+          "quote": "In The Creatures of Philippine Lower Mythology, Dr. Maximo Ramos credited tales of the Bal-Bal back to the Tagbanua people. The Tagbanua are mainly found in the central and northern regions of Palawan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c10",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Dean C. Worcester wrote that while a corpse is awaiting burial the Tagbanua are in dread of a mythical creature called balbal, which they say comes from the Moro country.",
+          "statement_id": "Dean C. Worcester menulis bahwa selama jenazah menunggu dikubur, orang Tagbanua takut pada makhluk mitos bernama balbal yang menurut mereka berasal dari negeri Moro.",
+          "quote": "Dean C. Worcester (Philippine Islands) wrote a vivid description of the balbal which the Tagbanua believe in: ... While a corpse is awaiting burial, the Tagbanua are in dread of a mythical creature called balbal, which they say comes from the Moro country.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c11",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In Dean C. Worcester's description the balbal sails through the air like a flying squirrel.",
+          "statement_id": "Dalam uraian Dean C. Worcester, balbal meluncur di udara seperti bajing terbang.",
+          "quote": "Dean C. Worcester (Philippine Islands) wrote a vivid description of the balbal which the Tagbanua believe in: ... It sails through the air like a flying squirrel.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c12",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In Dean C. Worcester's description the balbal is manlike, with curved nails used to tear up thatch houses and a long tongue with which it reaches down to \"lick up\" the bodies.",
+          "statement_id": "Dalam uraian Dean C. Worcester, balbal berwujud mirip manusia, dengan kuku melengkung yang dipakai untuk merobek rumah beratap rumbia dan lidah panjang untuk \"menjilat\" jenazah.",
+          "quote": "Dean C. Worcester (Philippine Islands) wrote a vivid description of the balbal which the Tagbanua believe in: ... In form it is manlike, with curved nails which it uses to tear up the thatch houses, and a long tongue with which it reaches down to “lick up” the bodies",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c13",
+          "source_id": "bal-bal-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The writer suggests the raucous vigil custom is probably a social habit surviving from the days when fierce ghouls were believed to try to steal the corpse and snatch those standing vigil over the deceased.",
+          "statement_id": "Penulis menduga kebiasaan ramai pada penjagaan jenazah mungkin merupakan sisa dari masa ketika hantu pemakan mayat yang ganas diyakini berusaha mencuri jenazah dan menyambar orang yang berjaga.",
+          "quote": "This custom is probably a social habit surviving from the days when fierce ghouls were believed to try to steal the corpse and snatch those who were standing vigil over the deceased.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c14",
+          "source_id": "bal-bal-s3",
+          "host": "www.aswangproject.com",
+          "statement": "One Duero record says a balbal may assume the form of a bird, dog, black cat, enormous pig, or even a house.",
+          "statement_id": "Sebuah catatan dari Duero menyebut balbal dapat menjelma burung, anjing, kucing hitam, babi raksasa, atau bahkan rumah.",
+          "quote": "One Duero record says a balbal may assume the form of a bird, dog, black cat, enormous pig, or even a house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c15",
+          "source_id": "bal-bal-s4",
+          "host": "en.wikisource.org",
+          "statement": "According to the book, while a Tagbanua corpse is above ground it is liable to be eaten by a vampire called the balbal that lives on Mindanao and has the form of a man with wings and great claws.",
+          "statement_id": "Menurut buku itu, selama jenazah Tagbanua masih di atas tanah, jenazah itu dapat dimakan oleh vampir bernama balbal yang tinggal di Mindanao dan berwujud manusia bersayap dengan cakar besar.",
+          "quote": "While a Tagbanua corpse is above ground it is liable to be eaten by a vampire called the balbal that lives on Mindanao, has the form of a man with wings and great claws",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c16",
+          "source_id": "bal-bal-s4",
+          "host": "en.wikisource.org",
+          "statement": "The balbal tears open the thatch of houses and consumes bodies by means of a long tongue which it thrusts through the opening in the roof.",
+          "statement_id": "Balbal merobek atap rumbia rumah dan melahap jenazah dengan lidah panjang yang dijulurkannya melalui lubang di atap.",
+          "quote": "tears open the thatch of houses and consumes bodies by means of a long tongue, which it thrusts through the opening in the roof.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],

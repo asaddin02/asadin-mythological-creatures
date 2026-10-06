@@ -1,32 +1,28 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-10-06T06:39:22.513Z",
+  "checked_at": "2026-10-06T19:26:16.939Z",
   "files": [
     "batch-146.md",
     "batch-146-fix-1.md",
     "batch-146-fix-2.md",
     "batch-146-fix-3.md",
-    "batch-146-fix-4.md"
+    "batch-146-fix-4.md",
+    "batch-146-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "wihwin",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-5.md",
+      "entry_sha256": "7ce409e7589586100e6b32e02210ed08a7cac2957a96f799604b97ff8bea5b36",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wihwin-c01",
@@ -67,27 +63,41 @@
           "quote": "The horse-shaped monster has \"jaws fenced round with horrid teeth\", which it uses to consume humans and other prey it finds on its nocturnal hunts.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wihwin-c05",
+          "source_id": "wihwin-s2",
+          "host": "archive.org",
+          "statement": "Bassett records that the Mosquito people said Wihwin was a demon in the shape of a horse.",
+          "statement_id": "Bassett mencatat bahwa orang Mosquito (Miskito) mengatakan Wihwin adalah iblis yang berbentuk kuda.",
+          "quote": "Mosquito ... said Wihwin a demon in the shape of a horse",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wihwin-c06",
+          "source_id": "wihwin-s2",
+          "host": "archive.org",
+          "statement": "According to that record Wihwin came out of the sea to devour men.",
+          "statement_id": "Menurut catatan itu, Wihwin keluar dari laut untuk memangsa manusia.",
+          "quote": "Wihwin a demon in the shape of a horse, came out of the sea to devour men.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "29ec45ec0b3fd0009ced1f7463c57ae3942b0388aca7f678834a63ee22e1867f"
+      "images": []
     },
     {
       "slug": "xicalancatl",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-5.md",
+      "entry_sha256": "fd41203a29274c78284d4734fc72d1049c71f35261a6ee8a5c343f8d558d0ef3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xicalancatl-c01",
@@ -118,10 +128,59 @@
           "quote": "the six brothers on earth dwell and are the trunk of various races",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "xicalancatl-c04",
+          "source_id": "xicalancatl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to this dictionary entry summarizing Torquemada, Xicalancatl was the fourth son of Iztac Mixcoatl; together with Ulmecatl he settled the provinces around the present city of Los Angeles and Totomihuacan and the cities of Xicalanco and Cuauthazualco.",
+          "statement_id": "Menurut entri kamus ini yang merangkum Torquemada, Xicalancatl adalah putra keempat Iztac Mixcoatl; bersama Ulmecatl ia mendiami provinsi-provinsi di sekitar kota Los Angeles (sekarang) dan Totomihuacan serta kota Xicalanco dan Cuauthazualco.",
+          "quote": "XICALANCATL Torquemada l. Cuarto de los hijos de Iztac Mixcoatl, quien en compañía de ... Ulmecatl poblaron las provincias de la ahora ciudad de los Angeles y Totomihuacan y las ciudades de Xicalanco y Cuauthazualco",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xicalancatl-c05",
+          "source_id": "xicalancatl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to the entry summarizing Mendieta, Xicalancatl was one of the six sons of Iztac Mixcohuatl and Ilancuey, lived in Chicomoztoc, and great generations are said to descend from him.",
+          "statement_id": "Menurut entri yang merangkum Mendieta, Xicalancatl adalah salah satu dari enam putra Iztac Mixcohuatl dan Ilancuey, tinggal di Chicomoztoc, dan dari dialah diturunkan banyak generasi besar.",
+          "quote": "Mendieta. Uno de los seis hijos de Iztac Mixcohuatl (vide), e Ilancuey, vivían en Chicomoztoc y de él se hacen descender grandes generaciones",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xicalancatl-c06",
+          "source_id": "xicalancatl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to the entry summarizing Motolinia's Memoriales, Xicalancatl and his brother Ulmecatl founded many towns; later they fought great wars and their opponents destroyed Uicilapan and Cuetlaxcoapan, after which some settled toward Cazacualco and others toward Xicalanco.",
+          "statement_id": "Menurut entri yang merangkum Memoriales karya Motolinia, Xicalancatl bersama saudaranya Ulmecatl mendirikan banyak permukiman; kemudian mereka berperang besar dan lawan-lawan menghancurkan Uicilapan dan Cuetlaxcoapan, lalu sebagian menetap ke arah Cazacualco dan sebagian ke arah Xicalanco.",
+          "quote": "Motolinia, Memoriales. \"Xicalancalh\" hijo de Iztacmixcoatl ... junto con su hermano Ulmecatlh funda muchos pueblos; andando el tiempo tuvieron grandes guerras y sus contrarios les destruyeron Uicilapan y Cuetlaxcoapan que es donde hoy está la Ciudad de los Angeles, fueron poblando hacia Cazacualco y otros fueron hacia Xicalanco",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xicalancatl-c07",
+          "source_id": "xicalancatl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to the entry summarizing Gómara, Xicalancatlh was the fourth son of Iztacmixcoatlh and Ilancueitl; he reached the \"North Sea\" and founded two main towns called Xicalanco, one in the province of Maxcalcinco near Veracruz and another near Tabasco.",
+          "statement_id": "Menurut entri yang merangkum Gómara, Xicalancatlh adalah putra keempat Iztacmixcoatlh dan Ilancueitl; ia mencapai \"Laut Utara\" dan mendirikan dua permukiman utama bernama Xicalanco, satu di provinsi Maxcalcinco dekat Veracruz dan satu lagi dekat Tabasco.",
+          "quote": "Gómara 11. \"Xicalancatlh\" cuarto hijo de Iztacmixcoatlh y de Ilancueitl. Este llegó a la \"Mar del Norte\" y fundó dos pueblos principales que fueron Xicalanco, en la provincia de Maxcalcinco cerca de Veracruz y otro Xicalanco cerca de Tabasco",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xicalancatl-c08",
+          "source_id": "xicalancatl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to the entry summarizing Dr. Hernández, the Mexicans by their hieroglyphs came from Chicomoztoc and had Yztac Mixcoatl as father, who had two wives; one of them, Ilancueitl, bore six sons: Xelqua, Tenuch, Ulmecatl, Xicalancatl, Mixtecatl and Otomitl.",
+          "statement_id": "Menurut entri yang merangkum Dr. Hernández, orang Meksiko berdasarkan hieroglif mereka berasal dari Chicomoztoc dan berayah Yztac Mixcoatl, yang memiliki dua istri; salah satunya, Ilancueitl, melahirkan enam putra: Xelqua, Tenuch, Ulmecatl, Xicalancatl, Mixtecatl, dan Otomitl.",
+          "quote": "Doctor Hernández. Hijo de Iztac Mixcoatl. Los mexicanos según sus jeroglificos salieron de la ciudad de Chicomoztoc y tuvieron por padre a Yztac Mixcoatl quien tuvo dos mujeres una de ellas llamada Ilancueitl que tuvo seis hijos llamados Xelqua, Tenuch, Ulmecatl, Xicalancatl, Mixtecatl y Otomitl",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ee796ec26b56d1d612c1c2be06b417e01d1566641225d322d58d6189668548f8"
+      "images": []
     },
     {
       "slug": "adjassou-linguetor",
@@ -5182,20 +5241,15 @@
     },
     {
       "slug": "unhcegila",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-5.md",
+      "entry_sha256": "6ae4672fbfbfe16bde3d8eff1a163f5360404b828f1e3d818f711beb24d12c51",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 21,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "unhcegila-c01",
@@ -5236,27 +5290,191 @@
           "quote": "Her weakness is the seventh spot on her torso, behind which lies her heart. To kill her, one has to shoot a medicine arrow at this flaw in her natural armor.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "unhcegila-c05",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She was first described as having no real shape or form, with eyes of fire and a fanged mouth shrouded in a smoky or cloudy mass.",
+          "statement_id": "Pada mulanya ia digambarkan tanpa bentuk yang nyata, bermata api, dengan mulut bertaring yang diselubungi massa seperti asap atau awan.",
+          "quote": "She was described at first as having no real shape or form; she had eyes of fire, and a fanged mouth that was shrouded in a smoky or cloudy mass.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c06",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her eyes burned with wrathful hunger, her claws were like iron and her voice raged like thunder rolling in the clouds.",
+          "statement_id": "Matanya menyala dengan kelaparan murka, cakarnya seperti besi, dan suaranya mengamuk seperti guntur bergulung di awan.",
+          "quote": "Her eyes burned with wrathful hunger, her claws were like iron, and her voice raged like thunder rolling in the clouds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c07",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the accounts, the creature and her companion finally made their way to the Black Hills (Pahá Sápa) and sought a new home in the mountains.",
+          "statement_id": "Menurut kisah-kisah itu, makhluk ini dan pasangannya akhirnya sampai ke Black Hills (Pahá Sápa) dan mencari rumah baru di pegunungan.",
+          "quote": "Until they made their way to the Black Hills (Pahá Sápa) and sought a new home in the mountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c08",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one myth Unk Cekula fights and kills a giant bear, whose fallen body produced Bear Butte in the Black Hills.",
+          "statement_id": "Dalam satu mitos, Unk Cekula bertarung dengan beruang raksasa dan membunuhnya; tubuh beruang yang rubuh itu membentuk Bear Butte di Black Hills.",
+          "quote": "In one myth, Unk Cekula fights with and kills a giant bear, whose fallen body produced the Bear Butte in the Black Hills.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c09",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Alternatively, two twin brothers, one of them blind, killed Unk Cekula with arrows given to them by a medicine woman.",
+          "statement_id": "Menurut versi lain, dua saudara kembar, salah satunya buta, membunuh Unk Cekula dengan panah pemberian seorang tabib perempuan.",
+          "quote": "Alternatively, two twin brothers, one of whom was blind, killed Unk Cekula using arrows given to them by a medicine woman.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c10",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another myth Unk Cekula emerged from the primordial waters and flooded the land; the devastation angered Wakinyan, who flapped his wings to create a great storm to dry the land and shoot lightning, killing Unk Cekula.",
+          "statement_id": "Dalam mitos lain, Unk Cekula muncul dari perairan purba dan membanjiri daratan; kehancuran itu membuat Wakinyan murka, yang mengepakkan sayapnya menciptakan badai besar untuk mengeringkan tanah dan menembakkan petir sehingga membunuh Unk Cekula.",
+          "quote": "In another myth, Unk Cekula emerged from the primordial waters to flood the land. The resulting devastation angered Wakinyan, who flapped his wings to create a great storm to dry up the land and shoot lightning, killing Unk Cekula.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c11",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As she finally died the Sun scorched her flesh and dried up the land, resulting in the arid rock formations and skeletons found in the Badlands.",
+          "statement_id": "Ketika ia akhirnya mati, Matahari menghanguskan dagingnya dan mengeringkan tanah, menghasilkan formasi batu gersang dan kerangka yang ditemukan di Badlands.",
+          "quote": "As she finally died, the Sun scorched her flesh and dried up the land, resulting in the arid rock formations and skeletons found in the Badlands",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c12",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was learned that the creature had offspring, and the tribes had to kill them when they began feeding on people.",
+          "statement_id": "Diketahui makhluk itu memiliki keturunan, dan suku-suku harus membunuh mereka ketika mulai memangsa manusia.",
+          "quote": "It was learned that the creature had offspring, and the tribes had to kill them when they began feeding on people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c13",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A fictionalized version of the myth appeared in a Marvel Comics Presents story arc starring Wolverine.",
+          "statement_id": "Versi fiksi mitos ini muncul dalam alur cerita Marvel Comics Presents dengan Wolverine sebagai bintang.",
+          "quote": "A fictionalized version of the myth appeared in a Marvel Comics Presents story arc starring Wolverine.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c14",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She appears in a story told in the 2003 film Dreamkeeper, in which Eagle Boy slays her with weapons given to him by an old woman.",
+          "statement_id": "Ia muncul dalam kisah yang dituturkan dalam film Dreamkeeper (2003), tempat Eagle Boy membunuhnya dengan senjata pemberian seorang perempuan tua.",
+          "quote": "She appears in a story told in the 2003 film Dreamkeeper, in which Eagle Boy is the one who slays her with weapons given to him by an old woman.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c15",
+          "source_id": "unhcegila-s2",
+          "host": "www.native-languages.org",
+          "statement": "According to Native Languages of the Americas, Unktehila is the horned water serpent of Lakota and Dakota mythology, the diametrical opponent of the Thunderbird Wakinyan, with many legends of epic fights between the two.",
+          "statement_id": "Menurut Native Languages of the Americas, Unktehila adalah ular air bertanduk dalam mitologi Lakota dan Dakota, lawan utama Burung Guntur Wakinyan, dan ada banyak legenda tentang pertarungan dahsyat keduanya.",
+          "quote": "Unktehila is the horned water serpent of Lakota and Dakota mythology. It is the diametrical opponent of the Thunderbird Wakinyan, and there are many legends about epic fights between the two.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c16",
+          "source_id": "unhcegila-s2",
+          "host": "www.native-languages.org",
+          "statement": "The page lists the name Unktehila, tribal affiliation Dakota and Lakota, with alternate spellings Uncegila, Unhcegila and Unktehi.",
+          "statement_id": "Halaman itu mencantumkan nama Unktehila, berafiliasi suku Dakota dan Lakota, dengan ejaan lain Uncegila, Unhcegila, dan Unktehi.",
+          "quote": "Name: Unktehila Tribal affiliation: Dakota, Lakota Alternate spellings: Uncegila, Unhcegila, Unktehi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c17",
+          "source_id": "unhcegila-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Dorsey writes that the Unkteḣi (subaquatic and subterranean powers) are many gods, the most powerful of all; in outward form they are said to resemble the ox but of immense proportions, and they can extend their horns and tails to reach the skies.",
+          "statement_id": "Dorsey menulis bahwa para Unkteḣi (kekuatan bawah air dan bawah tanah) adalah banyak dewa, yang paling berkuasa dari semuanya; rupa luarnya disebut seperti sapi jantan berukuran sangat besar, dan mereka dapat memanjangkan tanduk dan ekornya hingga mencapai langit.",
+          "quote": "THE UNKTEḢI, OR SUBAQUATIC AND SUBTERRANEAN POWERS. ... The gods of this name, for there are many, are the most powerful of all. In their external form they are said to resemble the ox, only they are of immense proportions. They can extend their horns and tails so as to reach the skies.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c18",
+          "source_id": "unhcegila-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Dorsey, in the Dakota cosmogony this was done by the Unkteḣi, called in the Teton dialect Ŭñktcexila or Uŋkćeġila.",
+          "statement_id": "Menurut Dorsey, dalam kosmogoni Dakota hal itu dilakukan oleh Unkteḣi, yang dalam dialek Teton disebut Ŭñktcexila atau Uŋkćeġila.",
+          "quote": "According to the Dakota cosmogony, this was done by the Unkteḣi, called in the Teton dialect Ŭñktcexila or Uŋkćeġila.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c19",
+          "source_id": "unhcegila-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Dorsey, the Unkteḣi are thought to feed on the spirits of human beings, as referred to in the mystic songs.",
+          "statement_id": "Menurut Dorsey, Unkteḣi dianggap memakan roh manusia, dan hal itu disinggung dalam lagu-lagu mistik.",
+          "quote": "The Unkteḣi are thought to feed on the spirits of human beings, and references to this occur in the mystic songs.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c20",
+          "source_id": "unhcegila-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Dorsey, the subordinates of the Unkteḣi are serpents, lizards, frogs, ghosts, owls and eagles, and the Unkteḣi made the earth and men.",
+          "statement_id": "Menurut Dorsey, bawahan Unkteḣi adalah ular, kadal, katak, hantu, burung hantu, dan elang, dan Unkteḣi menciptakan bumi dan manusia.",
+          "quote": "The subordinates of the Unkteḣi are serpents, lizards, frogs, ghosts, owls, and eagles. The Unkteḣi made the earth and men",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c21",
+          "source_id": "unhcegila-s4",
+          "host": "en.wikisource.org",
+          "statement": "According to Gatschet, Unktéhi or Unktéxi was their \"Neptune\" or divine ruler of the waters, and the name also designated a fabled monster of the deep and the whale of the salt water.",
+          "statement_id": "Menurut Gatschet, Unktéhi atau Unktéxi adalah \"Neptunus\" atau penguasa ilahi perairan bagi mereka, dan namanya juga menyebut monster laut dalam yang diceritakan serta paus air asin.",
+          "quote": "It will, however, suffice to mention Unktéhi, or Unktéxi, their Neptune or divine ruler of the waters, whose name also designated a fabled monster of the deep and the whale of the salt-water.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "35f7355fa50368631e3bfede0a27d1185d4f4ff7fee3906cdfee9e48703e3fc5"
+      "images": []
     },
     {
       "slug": "yahui",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-5.md",
+      "entry_sha256": "d9b2cfd81ad0bb01925ab17ff15b1273d1eb3c0e5c17f9912cb47fd21522319a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yahui-c01",
@@ -5307,27 +5525,101 @@
           "quote": "At times, the nahual figures holds sacrificial knives and perform sacrificial rites or other ceremonial activities.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "yahui-c06",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In animal form the yahui combines a reptilian head with a tortoise-shell body, reptilian arms and legs, claws and the flint-fire motif on the tips of the tail and nose; the animal yahui appears in cosmogony scenes illustrating the origins of ritual and cultural phenomena.",
+          "statement_id": "Dalam wujud hewan, yahui menggabungkan kepala reptil dengan tubuh bercangkang kura-kura, lengan dan kaki reptil, cakar, dan motif api-batu api pada ujung ekor dan hidung; yahui hewan tampil dalam adegan kosmogoni yang menggambarkan asal-usul ritual dan gejala budaya.",
+          "quote": "In the animal form, a reptilian head is combined with a tortoise shell body, reptilian arms and legs, claws and the flint-fire motif on the tips of the tail and nose. The animal yahui appears in cosmogony scenes illustrating the origins of ritual and cultural phenomena.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c07",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Depictions of yahui figures appear in several Mixtec codices, including the Codex Zouche-Nuttall, Codex Vindobonensis Mexicanus I, Codex Selden, Codex Bodley, Codex Egerton and Codex Becker I/II.",
+          "statement_id": "Gambar sosok yahui muncul dalam beberapa kodeks Mixtec, termasuk Codex Zouche-Nuttall, Codex Vindobonensis Mexicanus I, Codex Selden, Codex Bodley, Codex Egerton, dan Codex Becker I/II.",
+          "quote": "Depictions of yahui-figures appear in several Mixtec codices, including the Codex Zouche-Nuttall, Codex Vindobonensis Mexicanus I, Codex Selden, Codex Bodley, Codex Egerton, and Codex Becker I/II.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c08",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In nahual form the yahui's animal imagery is combined with a male human head; in some depictions the nahual has reptilian claws, in others human hands.",
+          "statement_id": "Dalam wujud nahual, citra hewan yahui dipadukan dengan kepala manusia laki-laki; pada sebagian gambar nahual bercakar reptil, pada gambar lain bertangan manusia.",
+          "quote": "In the nahual form, the yahui animal imagery is combined with a male, human head. In some depictions, the nahual possesses reptilian claws, while other depictions portray the figure with human hands.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c09",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The yahui appears in a few other pre-Columbian works of art; one can be viewed by the public in one of the Zapotec tombs in Zaachila.",
+          "statement_id": "Yahui juga muncul dalam beberapa karya seni pra-Kolumbus lain; salah satunya dapat dilihat publik di salah satu makam Zapotek di Zaachila.",
+          "quote": "The yahui appears in a few other works of art from the pre-Columbian era. One of these depictions is viewable by the public in one of the Zapotec tombs in Zaachila.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c10",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a real historical figure, the yahui probably performed cosmological rites in caves and on hilltops.",
+          "statement_id": "Sebagai tokoh sejarah nyata, yahui kemungkinan besar melakukan ritus kosmologis di gua dan di puncak bukit.",
+          "quote": "As a real, historical figure, the yahui probably performed cosmological rites in caves and on hilltops.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c11",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mary Elizabeth Smith identified the yahui as the \"xiuhcoatl-turtle-sacrificer\".",
+          "statement_id": "Mary Elizabeth Smith mengidentifikasi yahui sebagai \"xiuhcoatl-kura-kura-pelaku kurban\".",
+          "quote": "Mary Elizabeth Smith identified the yahui as the \"xiuhcoatl-turtle-sacrificer\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c12",
+          "source_id": "yahui-s2",
+          "host": "www.famsi.org",
+          "statement": "According to Pohl's description of page 11 of the Codex Selden, the River of the Twisted Serpent is surmounted by a jaguar, a coyote, a fire serpent priest called a yahui, and an eagle.",
+          "statement_id": "Menurut uraian Pohl atas halaman 11 Codex Selden, Sungai Ular Berpilin dimahkotai seekor jaguar, seekor coyote, seorang imam ular api yang disebut yahui, dan seekor elang.",
+          "quote": "Page 11, Band IV: River of the Twisted Serpent is surmounted by a jaguar, a coyote, a fire serpent priest called a yahui, and an eagle (61).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c13",
+          "source_id": "yahui-s2",
+          "host": "www.famsi.org",
+          "statement": "According to Pohl's description of page 12 of the Codex Selden, human hearts, perhaps those of Thirteen Deer and another captured man, are delivered to the Sun God by a yahui priest and an eagle before the Temple of Jaltepec.",
+          "statement_id": "Menurut uraian Pohl atas halaman 12 Codex Selden, jantung manusia, mungkin milik Thirteen Deer dan seorang tawanan lain, dipersembahkan kepada Dewa Matahari oleh seorang imam yahui dan seekor elang di depan Kuil Jaltepec.",
+          "quote": "Page 12, Band II: Human hearts, perhaps those of Thirteen Deer and the other man who was captured on Page 12, Band I, are delivered to the Sun God by a yahui priest and an eagle before the Temple of Jaltepec.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2c449db785c01249b411a81eacb807a032b1c135c958dc3f495640f72ec2529f"
+      "images": []
     },
     {
       "slug": "zapam-zucum",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-5.md",
+      "entry_sha256": "f6c9de653dc2afe2c2dcbe2a64b76ee32d894bfb638837758d26c29b80425aa7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 20,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zapam-zucum-c01",
@@ -5378,10 +5670,159 @@
           "quote": "The goddess protects baby and juvenile animals from predatory beasts and hunters",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c06",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a variant telling, the logger's children are spirited away.",
+          "statement_id": "Dalam versi lain, anak-anak si penebang yang diculik secara gaib.",
+          "quote": "In a variant telling, the logger's children get spirited away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c07",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sometimes she wreaks vengeance on evil and abusive men by seducing and suffocating them.",
+          "statement_id": "Kadang ia membalas dendam kepada lelaki jahat dan kasar dengan merayu dan mencekik mereka.",
+          "quote": "Sometimes she will wreak vengeance upon evil and abusive men by seducing and suffocating them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c08",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some regions it is told that she appears in gigantic form to hunt down lazy men who loafed off work in the fields, capture them with her enormous breasts and carry them off.",
+          "statement_id": "Di beberapa daerah diceritakan ia tampil dalam wujud raksasa untuk memburu lelaki malas yang menghindar dari kerja di ladang, menangkap mereka dengan payudaranya yang sangat besar, dan membawa mereka pergi.",
+          "quote": "In some regions, it is told how she will appear in gigantic form to hunt down lazy men who have loafed off of working in the fields, capture the men with her enormous breasts, and carry them off somewhere.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c09",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She has long black hair and black eyes, but supple white hands of a skin tone different from her dark complexion; with those hands she crafts a cradle out of leaves and tucks the toddlers in to nap.",
+          "statement_id": "Ia berambut dan bermata hitam, tetapi bertangan putih lembut yang warnanya berbeda dari kulitnya yang gelap; dengan tangan itu ia membuat buaian dari daun dan menidurkan anak-anak balita.",
+          "quote": "She has long black hair and black eyes, but supple white hand of a skin-tone different from her general dark complexion. With those hands she will craft a cradle out of leaves and tuck in the toddlers to nap.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c10",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Aymara, who live in La Rioja Province in the Argentine Northwest, Bolivia and northern Chile, the algarrobo tree (\"carob\") is held sacred.",
+          "statement_id": "Di kalangan orang Aymara, yang tinggal di Provinsi La Rioja di barat laut Argentina, Bolivia, dan Chile utara, pohon algarrobo (\"carob\") dianggap suci.",
+          "quote": "Among the Aymara, whose population dwell in La Rioja Province in the Argentine Northwest, Bolivia, and northern Chile, the algarrobo tree (\"carob\") is held sacred.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c11",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her breasts are enormous and make the \"Zapam... Zucum\" sound when she moves, hence her name.",
+          "statement_id": "Payudaranya sangat besar dan menimbulkan bunyi \"Zapam... Zucum\" ketika ia bergerak, itulah asal namanya.",
+          "quote": "Her breasts are enormous, and makes the aforesaid \"Zapam... Zucum\" sound when she maneuvers, hence her name.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c12",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, the ancients who saw her painted her as a still-young woman in the fullness of vigor, her face tanned by the sun, with black eyes and hair and a pair of enormous brown-and-pink breasts as her particular sign.",
+          "statement_id": "Menurut teks itu, orang-orang zaman dahulu yang pernah melihatnya melukiskan seorang perempuan yang masih muda, penuh tenaga hidup, berwajah terbakar matahari, bermata dan berambut hitam, dengan sepasang payudara besar yang kecokelatan dan kemerahan.",
+          "quote": "Quienes la han visto, entre los antiguos, la pintan una mujer joven aún, arrebolada por los colores de una vida en la plenitud de su vigor, tostado de sol el rostro; ojos y cabellos negros y como signo particular, un par de enormes senos morenos y rosados a la vez",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c13",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, the hungry children who wake up suckle at the goddess's bountiful breasts instead of their mothers'.",
+          "statement_id": "Menurut teks itu, anak-anak kecil yang lapar dan terbangun menyusu pada dada sang dewi yang murah hati sebagai ganti dada ibu mereka.",
+          "quote": "Pero los pequeños tienen hambre y se despiertan, y en vez del seno materno, se amamantan en los pechos próvidos de la diosa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c14",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, mothers who leave their children under Zapam-Zucum's shelter know a solicitous providence will watch over them.",
+          "statement_id": "Menurut teks itu, para ibu yang meninggalkan anak mereka di bawah naungan Zapam-Zucum tahu bahwa penyelenggaraan yang penuh perhatian akan menjaga mereka.",
+          "quote": "Las madres, al dejarlos bajo el amparo de la Zapam-Zucum, saben que una providencia solícita velará sobre ellos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c15",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, near the camp where only the sleeping little ones were left, one hears the resounding, characteristic sound announcing the approach of the favorable deity.",
+          "statement_id": "Menurut teks itu, dekat perkemahan tempat hanya anak-anak yang tidur ditinggalkan, terdengar bunyi tegas dan khas yang menandakan dekatnya dewa yang berbaik hati.",
+          "quote": "se siente, próximo al campamento, donde sólo quedaron los pequeños dormidos, el sonido rotundo y característico que anuncia la proximidad del numen propicio",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c16",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, Zapam-Zucum is the mother and providence of children and of the algarrobo trees; she tends and defends the trees so their fruits may be offered to poor people, and delights in the simple festivals held under the trees.",
+          "statement_id": "Menurut teks itu, Zapam-Zucum adalah ibu dan penyelenggara anak-anak dan pohon algarrobo; ia merawat dan membela pohon itu agar buahnya dapat diberikan kepada orang miskin, dan senang dengan pesta sederhana yang diadakan di bawah pohon.",
+          "quote": "La Zapam-Zucum es la madre y providencia de los niños y de los algarrobos. Cuida a éstos y los defiende, para ofrecer sus frutos a las pobres gentes y se complace con las fiestas sencillas que se celebran debajo de los árboles",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c17",
+          "source_id": "zapam-zucum-s2",
+          "host": "diocesislarioja.com.ar",
+          "statement": "According to the text, woe to the reckless person who needlessly destroys her heritage and temple, hacks the algarrobo trees, strips their branches or knocks down green fruit or flower with ill intent: Zapam-Zucum takes horrible revenge, stealing the wrongdoer's children and never returning them.",
+          "statement_id": "Menurut teks itu, celakalah orang nekat yang merusak tanpa alasan warisan dan kuilnya, menebang pohon algarrobo, menggugurkan daunnya, atau menjatuhkan buah dan bunganya dengan niat jahat: Zapam-Zucum membalas dengan mengerikan, mencuri anak si jahat dan tidak mengembalikannya.",
+          "quote": "¡Y guay del osado que destroce inmotivadamente su heredad y templo, que hache los algarrobos, que deshoje sus ramas o voltee, con espíritu de hacer mal, sus frutos verdes aún o la pishuca de la flor! La Zapam-Zucum se venga en forma horrible, roba los hijos del malvado y no los devuelve más.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c18",
+          "source_id": "zapam-zucum-s3",
+          "host": "www.cuco.com.ar",
+          "statement": "According to this dictionary of myths, the name comes from a sound.",
+          "statement_id": "Menurut kamus mitos ini, nama itu berasal dari sebuah bunyi.",
+          "quote": "Este nombre proviene de un sonido",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c19",
+          "source_id": "zapam-zucum-s3",
+          "host": "www.cuco.com.ar",
+          "statement": "According to this dictionary of myths, she punishes those who cut green algarroba and those who chop the algarrobo trees, and the text mentions a child who is not to be returned.",
+          "statement_id": "Menurut kamus mitos ini, ia menghukum orang yang memotong algarroba hijau dan yang menebang pohon algarrobo, dan teks menyebut seorang anak yang tidak akan dikembalikan.",
+          "quote": "Castiga a los que cortan algarroba verde y a los que hachan los algarrobos con ... un hijo para no devolverlo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c20",
+          "source_id": "zapam-zucum-s3",
+          "host": "www.cuco.com.ar",
+          "statement": "According to this dictionary of myths, she is the great friend of those left behind while the mothers harvest into sacks; when they wake she nurses them at her breasts and they go back to sleep.",
+          "statement_id": "Menurut kamus mitos ini, ia sahabat besar mereka yang ditinggalkan selagi para ibu memanen dengan karung; ketika mereka terbangun ia menyusui mereka dan mereka tidur kembali.",
+          "quote": "la gran amiga de los ... abandonados mientras las madres cocechan en costales; cuando despiertan los amamanta con sus pechos y vuelven a dormir",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f90a9bbbb8143d431cfc6aeec96cf84416b7e2806cbd0765a0f87def85243a9e"
+      "images": []
     },
     {
       "slug": "ahola",
