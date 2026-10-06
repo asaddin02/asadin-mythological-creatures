@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-008",
-  "checked_at": "2026-09-29T12:20:32.510Z",
+  "checked_at": "2026-10-06T14:42:37.651Z",
   "files": [
-    "batch-008.md"
+    "batch-008.md",
+    "batch-008-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "sundel-bolong",
-      "file": "batch-008.md",
+      "file": "batch-008-fix-1.md",
+      "entry_sha256": "294bc1da46d9ae807ad837b764476edbe2ac3cad5a1e140c6da55457479bc02c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 13,
-        "sources": 3,
+        "claims": 32,
+        "sources": 6,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 13 klaim (target 15), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sundel-bolong-c01",
@@ -153,33 +149,218 @@
           "quote": "\"Sundal\" umumnya merujuk pada \"wanita jalang\" atau \"pelacur\", dan \"bolong\" adalah bahasa Jawa yang berarti \"berlubang tembus\"",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c15",
+          "source_id": "sundel-bolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In folklore the baby came out of her back when she died in childbirth, which is why the hole is in her back; the hole is concealed from men by her long black hair.",
+          "statement_id": "Menurut cerita rakyat, bayi keluar dari punggungnya saat ia meninggal waktu bersalin, dan itulah sebab lubang di punggungnya; lubang itu disembunyikan dari laki-laki oleh rambut hitamnya yang panjang.",
+          "quote": "or who died during childbirth and the baby came out from her back (this is the reason why the hole was created in her back) which is concealed from men by her long black hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c16",
+          "source_id": "sundel-bolong-s2",
+          "host": "id.wikipedia.org",
+          "statement": "The sundel bolong is said to often appear as a beautiful woman walking alone on a quiet road.",
+          "statement_id": "Hantu sundel bolong dikatakan sering menjelma sebagai wanita cantik yang berjalan seorang diri di jalan yang sunyi.",
+          "quote": "Hantu sundel bolong dikatakan sering menjelma sebagai wanita cantik yang berjalan seorang diri di jalan yang sunyi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c17",
+          "source_id": "sundel-bolong-s2",
+          "host": "id.wikipedia.org",
+          "statement": "According to the myth, the sundel bolong is deeply ashamed of the hole in her body and always tries to cover it.",
+          "statement_id": "Menurut mitos, sundel bolong sangat malu dengan lubang di badannya dan selalu berusaha menutupinya.",
+          "quote": "Sundel bolong menurut mitos sangat malu dengan lubang pada badannya dan selalu berusaha menutupinya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c18",
+          "source_id": "sundel-bolong-s2",
+          "host": "id.wikipedia.org",
+          "statement": "The sundel bolong often appears, especially to men, at the place where she was killed, as a warning; she also appears to men who intend harm to women, looking as she did when last alive.",
+          "statement_id": "Sundel bolong sering menampakkan diri, terutama kepada laki-laki di tempat ia dibunuh, sebagai peringatan; ia juga muncul kepada laki-laki yang berniat jahat terhadap perempuan, dengan penampilan seperti terakhir kali ia hidup.",
+          "quote": "Sundel Bolong sering menampakkan diri terutama pada laki-laki di area tempat dia dibunuh sebagai peringatan. Selain itu juga akan muncul pada laki-laki yang berniat jahat pada perempuan dengan penampilan seperti terakhir kali dia hidup.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c19",
+          "source_id": "sundel-bolong-s2",
+          "host": "id.wikipedia.org",
+          "statement": "The sundel bolong is pictured with a hole in her back that goes through to the front; the position of the hole is said to depend on the last wound at the time of death.",
+          "statement_id": "Hantu sundel bolong digambarkan punya lubang di punggung yang tembus ke depan; letak lubang itu disebut bergantung pada luka terakhir saat ia meninggal.",
+          "quote": "hantu sundel bolong yang mempunyai lubang di bagian punggungnya yang terlihat tembus ke depan. Letak lubang bergantung pada luka terakhir saat meninggal",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c20",
+          "source_id": "sundel-bolong-s2",
+          "host": "id.wikipedia.org",
+          "statement": "The sundel bolong is generally pictured as a beautiful woman with long hair and a long white dress, with a back pierced through that is slightly covered by her hair so that abdominal organs are visible.",
+          "statement_id": "Sundel bolong umumnya digambarkan sebagai wanita cantik berambut panjang dan bergaun putih panjang, dengan punggung berlubang tembus yang sedikit tertutup rambut sehingga organ perut terlihat.",
+          "quote": "wanita cantik berambut panjang dan bergaun panjang warna putih yang bolong (\"berlubang tembus\") di bagian punggung yang sedikit tertutup rambut panjangnya sehingga organ-organ tubuh bagian perut terlihat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c21",
+          "source_id": "sundel-bolong-s4",
+          "host": "www.atlantis-press.com",
+          "statement": "The term sundel bolong comes from two Javanese words, sundel (prostitute or immoral woman) and bolong (hole); her defining trait is a large hole in her back exposing her internal organs from back to front.",
+          "statement_id": "Istilah sundel bolong berasal dari dua kata Jawa: sundel (pelacur atau perempuan tak bermoral) dan bolong (lubang); cirinya yang utama adalah lubang besar di punggung yang memperlihatkan organ dalam dari belakang hingga depan.",
+          "quote": "The term Sundel Bolong comes from two Javanese words: Sundel, meaning prostitute or immoral woman, and Bolong, meaning hole. Her defining trait is a large hole in her back that exposes her internal organs from behind through to the front.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c22",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "The sundel bolong is a ghost story from Indonesia whose writer is unknown, since it is part of oral literature.",
+          "statement_id": "Sundel bolong adalah kisah hantu dari Indonesia yang penulisnya tidak diketahui karena merupakan bagian dari sastra lisan.",
+          "quote": "Sundel Bolong is a ghost story from Indonesia whose writer is unknown, as the story is part of an oral literature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c23",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "The sundel bolong is regarded as one of the most popular stories in Indonesia.",
+          "statement_id": "Sundel bolong dianggap sebagai salah satu kisah paling populer di Indonesia.",
+          "quote": "Sundel Bolong is regarded as one of the most popular stories in Indonesia",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c24",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "The name sundel bolong derives from sundal (prostitute) and bolong (hole). The study reads the name as hinting that this ghost form is depicted negatively: a prostitute with a hole in her back full of maggots and blood, emphasizing a repugnant body.",
+          "statement_id": "Nama sundel bolong berasal dari sundal (pelacur) dan bolong (lubang). Menurut kajian ini, nama itu menyiratkan bahwa sosok hantu ini digambarkan secara negatif: pelacur dengan lubang di punggung yang penuh belatung dan darah, yang menekankan tubuh yang menjijikkan.",
+          "quote": "The name ‘Sundel Bolong’ is derived from two words: ‘sundal’ (a prostitute) and ‘bolong’ (a hole). This name itself hints at a symbolic meaning that this form of ghost is depicted negatively, not as a good woman, but as a prostitute who has a hole in her back full of maggots and blood, emphasizing a repugnant body.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c25",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "The study analyses SB (1981), an Indonesian movie about a woman named Alisa who used to be a commercial sex worker.",
+          "statement_id": "Studi ini menganalisis SB (1981), film Indonesia tentang seorang perempuan bernama Alisa yang dahulu pekerja seks komersial.",
+          "quote": "SB (1981) is an Indonesian movie about a woman named Alisa who used to be a commercial sex worker.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c26",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "In that movie, after Alisa died she became a ghost named Sundel Bolong to avenge herself by haunting those who hurt her in life; Sundel Bolong seduces and kills all men who rape.",
+          "statement_id": "Dalam film itu, setelah Alisa meninggal ia menjadi hantu bernama Sundel Bolong untuk membalas dendam dengan menghantui orang yang menyakitinya semasa hidup; Sundel Bolong menggoda dan membunuh semua laki-laki yang memerkosa.",
+          "quote": "After Alisa died, she became a ghost named Sundel Bolong to avenge herself by haunting people who hurt her when she was alive. Sundel Bolong seduces and kills all men that rape.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c27",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "In the movie analysed, the sundel bolong is depicted as physically strong: she can, among other things, move a car, make a building crack, and push over a fence.",
+          "statement_id": "Dalam film yang dianalisis, sundel bolong digambarkan kuat secara fisik: ia, antara lain, dapat menggerakkan mobil, membuat bangunan retak, dan merobohkan pagar.",
+          "quote": "Sundel Bolong is also depicted as physically strong. She can among other things move a car, make a building crack, and push over a fence.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c28",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "In the movie analysed, she first seduces men in the form of a beautiful woman and, after seducing them, changes her appearance to the sundel bolong ghost.",
+          "statement_id": "Dalam film yang dianalisis, ia mula-mula menggoda laki-laki dalam rupa perempuan cantik, lalu setelah menggoda mereka ia berubah ke rupa hantu sundel bolong.",
+          "quote": "She also makes fun of these men by first seducing them in the form of a beautiful woman, and after she seduces these men, she changes her appearance to the Sundel Bolong ghost.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c29",
+          "source_id": "sundel-bolong-s5",
+          "host": "journal.ugm.ac.id",
+          "statement": "At the end of the movie’s story, a group of men made up of Hendarto (Alisa’s husband), a kiai, police and villagers calmed the sundel bolong by saying prayers; she left once calmed and no longer haunted people.",
+          "statement_id": "Di akhir kisah film itu, sekelompok laki-laki terdiri atas Hendarto (suami Alisa), seorang kiai, polisi, dan warga desa menenangkan sundel bolong dengan membaca doa; ia pergi setelah ditenangkan dan tidak lagi menghantui orang.",
+          "quote": "At the end of the story, a group of men consisting of Hendarto, Alisa’s husband, a Muslim preacher (Kiai), police, and village people, calmed Sundel Bolong (the ghost of Alisa) by saying prayers. Sundel Bolong left after being calmed by this group of men led by a kiai and did not haunt people anymore.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c30",
+          "source_id": "sundel-bolong-s6",
+          "host": "cinemapoetica.com",
+          "statement": "The sundel bolong has been represented in cinema since 1971.",
+          "statement_id": "Sundel bolong telah diwujudkan dalam sinema sejak 1971.",
+          "quote": "Another figure that has been represented in the cinema since 1971 is Sundelbolong",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c31",
+          "source_id": "sundel-bolong-s6",
+          "host": "cinemapoetica.com",
+          "statement": "According to this author, the first film telling the story of the sundel bolong was Awaludin’s Beranak Dalam Kubur.",
+          "statement_id": "Menurut penulis ini, film pertama yang menceritakan sundel bolong adalah Beranak Dalam Kubur karya Awaludin.",
+          "quote": "The first film telling the story of sundelbolong was Awaludin’s Beranak Dalam Kubur",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c32",
+          "source_id": "sundel-bolong-s6",
+          "host": "cinemapoetica.com",
+          "statement": "The title refers to the ghost who emerges from a woman who dies in childbirth, interpreted cinematically with a hole like a gaping wound in her abdomen.",
+          "statement_id": "Judulnya merujuk pada hantu yang muncul dari perempuan yang meninggal saat bersalin, yang dalam film ditafsirkan dengan lubang seperti luka menganga di perutnya.",
+          "quote": "The title refers to the ghost who emerges from a woman who dies during childbirth—interpreted cinematically with a hole like a gaping wound in her abdomen.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sundel-bolong-c33",
+          "source_id": "sundel-bolong-s4",
+          "host": "www.atlantis-press.com",
+          "statement": "Sundel Bolong first appeared in Indonesian horror cinema when the film of the same name was released in 1981.",
+          "statement_id": "Sundel Bolong pertama kali muncul dalam sinema horor Indonesia ketika film berjudul sama dirilis pada 1981.",
+          "quote": "Sundel Bolong first appeared in Indonesian horror cinema when the film of the same name was released in 1981.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "toyol",
-      "file": "batch-008.md",
+      "file": "batch-008-fix-1.md",
+      "entry_sha256": "9a7ab932d7fccd4be32a38574a9481b2101d35668242ec88b3aa508391b6c1cc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 1,
+        "claims": 37,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "toyol-c01",
           "source_id": "toyol-s1",
           "host": "en.wikipedia.org",
-          "statement": "The toyol or tuyul is an undead infant of Indonesian and Malay folklore, also in other Southeast Asian mythologies, typically summoned by shamans (dukun, pawang, bomoh) through black magic, mainly to rob people, similar to the babi ngepet; it brings luck to its host and misfortune to those it meets.",
-          "statement_id": "Toyol atau tuyul adalah bayi mayat hidup dalam cerita rakyat Indonesia dan Melayu, juga dalam mitologi Asia Tenggara lain, yang biasa dipanggil dukun, pawang, atau bomoh dengan ilmu hitam, terutama untuk mencuri harta orang, mirip babi ngepet; ia membawa untung bagi pemiliknya dan celaka bagi yang ditemuinya.",
+          "statement": "The toyol or tuyul is an undead infant of Indonesian and Malay folklore, also in other Southeast Asian mythologies, typically invoked as a helper by shamans (dukun, pawang, bomoh) through black magic; a common use is financial gain, robbing people of their riches, similar to the babi ngepet.",
+          "statement_id": "Toyol atau tuyul adalah bayi mayat hidup dalam cerita rakyat Indonesia dan Melayu, juga muncul dalam mitologi Asia Tenggara lain, dan biasanya dipanggil sebagai pembantu oleh dukun, pawang, atau bomoh dengan ilmu hitam; pemakaiannya yang umum adalah untuk keuntungan uang, dengan mencuri harta orang, mirip babi ngepet.",
           "quote": "A toyol or tuyul is an undead infant in Indonesian and Malay folklore. It also appears in the various other mythologies of Southeast Asia and is typically invoked as a helper by shamans (dukun, pawang, or bomoh) by means of black magic. A common use for the toyol includes using it for financial gain, where the creature robs people of their riches, making it similar to the Babi ngepet",
           "context": "traditional-belief",
           "status": "exact"
@@ -208,8 +389,8 @@
           "id": "toyol-c04",
           "source_id": "toyol-s1",
           "host": "en.wikipedia.org",
-          "statement": "The toyol behaves like a playful child fond of sweets, toys and clothes; it is said to steal only half of a person's valuables.",
-          "statement_id": "Sifat toyol dikatakan seperti anak kecil yang suka bermain dan menyukai permen, mainan, dan pakaian; konon ia hanya mencuri separuh barang berharga seseorang.",
+          "statement": "The toyol behaves like a playful child fond of sweets, toys and clothes.",
+          "statement_id": "Perilaku toyol dikatakan seperti anak kecil yang suka bermain, menyukai permen, mainan, dan pakaian.",
           "quote": "The toyol's behaviour and personality is typically said to be similar to that of a playful child, where it enjoys sweets, toys, and clothes.",
           "context": "traditional-belief",
           "status": "exact"
@@ -288,9 +469,9 @@
           "id": "toyol-c12",
           "source_id": "toyol-s1",
           "host": "en.wikipedia.org",
-          "statement": "Malik Selamat directed the 1980 Malay horror film Toyol; the 2011 Malaysian comedy Alamak... Toyol! also features a toyol.",
-          "statement_id": "Malik Selamat menyutradarai film horor Melayu Toyol (1980); film komedi Malaysia Alamak... Toyol! (2011) juga menampilkan toyol.",
-          "quote": "Malik Selamat directed a 1980 Malay horror film Toyol",
+          "statement": "Malik Selamat directed the 1980 Malay horror film Toyol, starring Sidek Hussain and Mahmud June.",
+          "statement_id": "Malik Selamat menyutradarai film horor Melayu Toyol (1980) yang dibintangi Sidek Hussain dan Mahmud June.",
+          "quote": "Malik Selamat directed a 1980 Malay horror film Toyol [ms], starring Sidek Hussain and Mahmud June.",
           "context": "modern-popular-culture",
           "status": "exact"
         },
@@ -323,6 +504,226 @@
           "quote": "Modern depictions often give the toyol a goblin-like appearance with green or grey skin, pointed ears, and clouded eyes.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "toyol-c16",
+          "source_id": "toyol-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The toyol is popularly known to bring good luck to its host, but mishap to those who are unfortunate to encounter it.",
+          "statement_id": "Toyol dikenal luas membawa keberuntungan bagi tuannya, tetapi kemalangan bagi orang yang sial bertemu dengannya.",
+          "quote": "As such, the toyol is popularly known to bring good luck to its host, but mishap to those who are unfortunate to encounter them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c17",
+          "source_id": "toyol-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its small size and childish tendencies are said to render it harmless.",
+          "statement_id": "Ukurannya yang kecil dan sifat kekanak-kanakannya dikatakan membuatnya tidak berbahaya.",
+          "quote": "Its small size and childish tendencies are said to render it harmless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c18",
+          "source_id": "toyol-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides being widely known for helping its guardian pilfer, the toyol carries out other mischievous acts when commanded.",
+          "statement_id": "Selain dikenal membantu tuannya mencuri, toyol melakukan perbuatan jahil lain bila diperintah.",
+          "quote": "While widely known to help its guardian pilfer, the toyol carries out other mischievous acts when commanded.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c19",
+          "source_id": "toyol-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bottled toyol was handed to the local state museum, whose director noted its red eyes and black clothing.",
+          "statement_id": "Toyol yang ditemukan dalam botol itu diserahkan ke museum negeri setempat, yang direkturnya mencatat mata merah dan pakaian hitamnya.",
+          "quote": "The toyol was handed over to the local state museum where the director noted its red eyes and black clothing.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c20",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "According to this paper, a toyol appears as a naked child with red eyes and sharp teeth, kept by a human master in a bottle and trained to steal from others.",
+          "statement_id": "Menurut makalah ini, toyol tampak seperti anak telanjang bermata merah dan bergigi tajam, dipelihara tuan manusianya dalam botol dan dilatih mencuri dari orang lain.",
+          "quote": "A toyol appears as a naked child with red eyes and sharp teeth. It is kept by a human master in a bottle and trained to steal from others.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c21",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "The master of the toyol has to feed it every night by letting it suck blood from his toes.",
+          "statement_id": "Tuan toyol harus memberinya makan setiap malam dengan membiarkannya mengisap darah dari jari kakinya.",
+          "quote": "The master of the toyol has to feed it every night by letting it suck blood from his toes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c22",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Its master can make it steal expensive jewelry in an instant; it moves so fast that people cannot catch it.",
+          "statement_id": "Tuannya dapat menyuruhnya mencuri perhiasan mahal dalam sekejap; ia bergerak begitu cepat sehingga orang tidak dapat menangkapnya.",
+          "quote": "The host or master can make it steal expensive jewelries in an instant. It moves fast that people cannot catch it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c23",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "A toyol can be bought from people who practice black magic, like the dukun in Indonesia and the pawang in Malaysia.",
+          "statement_id": "Toyol dapat dibeli dari orang yang mempraktikkan ilmu hitam, seperti dukun di Indonesia dan pawang di Malaysia.",
+          "quote": "It can be bought from people who practice black magic like the dukun or shaman in Indonesia and pawang from Malaysia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c24",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Since people can ask the toyol to steal for them, it is also vital that they tame it to have a better relationship with the creature.",
+          "statement_id": "Karena orang dapat menyuruh toyol mencuri untuk mereka, penting pula bagi mereka menjinakkannya agar hubungan dengan makhluk ini lebih baik.",
+          "quote": "Since people can ask the toyol to steal things for them, it is also vital that they tame the toyol to have a better relationship with this creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c25",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "The toyol is like a baby that should also be fed milk each morning, and it is delighted at the sight of toys, clothes and food, especially candies.",
+          "statement_id": "Toyol seperti bayi yang juga harus diberi susu tiap pagi, dan senang melihat mainan, pakaian, dan makanan, terutama permen.",
+          "quote": "The toyol is like a baby that also should be fed with milk each morning. They are also delighted at the sight of toys, clothes and food especially candies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c26",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Since the toyol really wants to play, toys can distract it so that it forgets about stealing from the houses it has entered; it also fears seeing its reflection, so mirrors can be used to scare it away.",
+          "statement_id": "Karena toyol sangat ingin bermain, mainan dapat mengalihkan perhatiannya sehingga ia lupa mencuri di rumah yang dimasukinya; ia juga takut melihat bayangannya sendiri, sehingga cermin dapat dipakai untuk mengusirnya.",
+          "quote": "Since toyol really wants to play, toys can be a good distraction. The toyol can forget about stealing from the houses they’ve intruded once they see toys they can play with. The toyol also fears looking at their reflection that mirrors can also be an effective instrument to scare toyol away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c27",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Unlike the tiyanak, the toyol is not harmful and does not devour people; it is closer to a child: playful and in need of a nurturing home.",
+          "statement_id": "Berbeda dari tiyanak, toyol tidak berbahaya dan tidak memangsa orang; sifatnya lebih mirip anak kecil yang suka bermain dan butuh rumah yang merawatnya.",
+          "quote": "Unlike the tiyanak, the toyol is not harmful and do not devour people and leave them lifeless. It is closer to the characteristics that of a child: playful and needy of nurturing home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c28",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Without a master a toyol lives happily and freely in the woods; it is the master who can turn it into a monster, since a toyol only takes orders from its master.",
+          "statement_id": "Tanpa tuan, toyol hidup bahagia dan bebas di hutan; tuannyalah yang dapat menjadikannya monster karena toyol hanya menuruti perintah tuannya.",
+          "quote": "Without a host or master a toyol will be happy and freely living in the woods. It is the host or master who can turn a toyol into a monster since toyol only take orders from its master.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c29",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "According to accounts from people who claim to have met one, it is the size of a newborn baby with round red eyes, pointed ears, sharp teeth and green skin; it can climb high walls and house roofs and steal from there.",
+          "statement_id": "Menurut penuturan orang yang mengaku pernah bertemu, ukurannya sebesar bayi baru lahir dengan mata bulat merah, telinga runcing, gigi tajam, dan kulit hijau; ia dapat memanjat dinding tinggi dan atap rumah lalu mencuri dari sana.",
+          "quote": "its size is that of a new born baby but its appearance is scary with its red round eyes, pointed ears, sharp teeth and green skin color. They have the capability to climb high walls and even the roof of the houses and then steal from it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c30",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "People who went from rags to riches are often suspected of keeping a toyol in their houses; toyols are usually hidden in jars inside their host’s house.",
+          "statement_id": "Orang yang naik dari miskin menjadi kaya sering dicurigai memelihara toyol di rumahnya; toyol biasanya disembunyikan dalam guci di dalam rumah tuannya.",
+          "quote": "People who went from rags to riches are often suspected to have toyol in their houses. They are usually hidden in the jars inside the house of their host.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c31",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "With rituals performed by the dukun, one can instantly obtain the riches one dreamt of, in exchange for blood that a female member of the family gives through breastfeeding instead of milk.",
+          "statement_id": "Dengan ritual yang dilakukan dukun, orang dapat seketika memperoleh kekayaan yang diimpikannya, dengan imbalan darah yang diberikan anggota keluarga perempuan lewat menyusui sebagai ganti susu.",
+          "quote": "With the help of some rituals to be performed by the dukun or shaman, one can instantly have the riches he dreamt for. This is in exchange of the blood the female member of the family can give from breastfeeding instead of milk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c32",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "Belief in child supernatural creatures can be rooted in the belief, especially in Asia, that all entities have a spirit or soul, including a baby.",
+          "statement_id": "Kepercayaan pada makhluk gaib berwujud anak dapat berakar pada keyakinan, terutama di Asia, bahwa semua makhluk punya roh atau jiwa, termasuk bayi.",
+          "quote": "The belief in child supernatural creatures can be rooted from the belief, most especially in Asia, that all entities have a spirit or soul including a baby.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c33",
+          "source_id": "toyol-s2",
+          "host": "papers.iafor.org",
+          "statement": "According to this paper, the tiyanak, toyol and koman-tong are mischievous and sometimes disturbed spirits in baby form, which met a bad fate leading them to die before they were born.",
+          "statement_id": "Menurut makalah ini, tiyanak, toyol, dan koman-tong adalah roh jahil dan kadang terganggu yang berwujud bayi, yang bernasib buruk hingga mati sebelum lahir.",
+          "quote": "The tiyanak, toyol and koman-tong are spirits, mischievous and sometimes disturbed, that takes the form of a baby. They suffered a bad fate that leads them to die even before they were born.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c34",
+          "source_id": "toyol-s3",
+          "host": "jurnal.iainponorogo.ac.id",
+          "statement": "Citing George Quinn, this paper describes Javanese folklore about owning a tuyul as a damning moral judgment about the economic order that weighs so crushingly on the poor.",
+          "statement_id": "Makalah ini, mengacu pada George Quinn, menyebut folklor Jawa tentang memiliki tuyul sebagai penilaian moral yang pedas terhadap tatanan ekonomi yang menindas orang miskin.",
+          "quote": "George Quinn in his research has a difficult information about tuyul in society around the site of the ritual of money-spinning because of the folklore spreading of Javanese in owing tuyul as a damning moral judgment about the economic order that weighs so crushingly on the poor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c35",
+          "source_id": "toyol-s3",
+          "host": "jurnal.iainponorogo.ac.id",
+          "statement": "According to this paper, there is an assumption that the petilasan at Langsih Cave has a tuyul kingdom, which leads visitors to regard it as a suitable place to get rich quickly through magic.",
+          "statement_id": "Menurut makalah ini, ada anggapan bahwa petilasan di Gua Langsih memiliki kerajaan tuyul, sehingga para pengunjung menganggapnya tempat yang cocok untuk cepat kaya lewat ilmu gaib.",
+          "quote": "The assumption that this petilasan specifically in Langsih Cave has the tuyul kingdom spread around the visitors like advocate this suitable place to get rich quickly through magic.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c36",
+          "source_id": "toyol-s4",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "There was even a horror-themed comedy film, Mat Sentol’s Mat Toyol (1969), featuring a toyol.",
+          "statement_id": "Ada pula film komedi bertema horor Mat Toyol (1969) karya Mat Sentol yang menampilkan toyol.",
+          "quote": "There was even a horror-themed comedy film: Mat Sentol’s Mat Toyol (1969), featuring a toyol",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "toyol-c37",
+          "source_id": "toyol-s4",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "The toyol in that film is a child-sized spirit used by a Malay shaman as a servant.",
+          "statement_id": "Toyol dalam film itu digambarkan sebagai roh seukuran anak yang dipakai dukun Melayu sebagai pelayan.",
+          "quote": "featuring a toyol, a child-sized spirit used by a Malay shaman as a servant.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
@@ -344,24 +745,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ae20be99f0efe44b2ee87adb591ef116adcc20252ab604b53ec8d5e8194b28f6"
     },
     {
       "slug": "orang-minyak",
-      "file": "batch-008.md",
+      "file": "batch-008-fix-1.md",
+      "entry_sha256": "cd4dff4f977ca5d9281c23592bcbd130a79a3ae82f5a31dc366b3601d4483f1c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
+        "claims": 20,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orang-minyak-c01",
@@ -424,16 +821,6 @@
           "status": "exact"
         },
         {
-          "id": "orang-minyak-c07",
-          "source_id": "orang-minyak-s2",
-          "host": "asianfilmarchive.org",
-          "statement": "Sumpah Orang Minyak was released alongside Orang Minyak and Serangan Orang Minyak (1958); this run of films raised the legend to peak fame in 1950s–60s Malaya.",
-          "statement_id": "Sumpah Orang Minyak dirilis bersamaan dengan Orang Minyak dan Serangan Orang Minyak (1958); rangkaian film ini melambungkan legenda itu ke puncak ketenarannya pada 1950-an dan 1960-an di Malaya.",
-          "quote": "was released alongside Cathay-Keris’s own Orang Minyak (The Oily Man, 1958) and Serangan Orang Minyak (The Oily Man Strikes Again, 1958) in the same year. The spate of movies catapulted the folklore legend to the peak of its notoriety and screen fame in 1950s and 1960s of Malaya.",
-          "context": "modern-popular-culture",
-          "status": "exact"
-        },
-        {
           "id": "orang-minyak-c08",
           "source_id": "orang-minyak-s1",
           "host": "en.wikipedia.org",
@@ -454,12 +841,122 @@
           "status": "exact"
         },
         {
-          "id": "orang-minyak-c10",
-          "source_id": "orang-minyak-s3",
-          "host": "asianfilmarchive.org",
-          "statement": "The film Orang Minyak was digitally restored by the Asian Film Archive in 2018.",
-          "statement_id": "Film Orang Minyak direstorasi secara digital oleh Asian Film Archive pada 2018.",
-          "quote": "Orang Minyak was digitally restored by the Asian Film Archive in 2018 using a 16mm black & white composite release print from its collection.",
+          "id": "orang-minyak-c11",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to some folklorists, the Orang Minyak has been alternately described as appearing naked or wearing \"a black pair of swimming trunks\".",
+          "statement_id": "Menurut sebagian ahli folklor, Orang Minyak kadang digambarkan telanjang, kadang mengenakan \"celana renang hitam\".",
+          "quote": "According to some folklorists, the Orang Minyak has been alternately described as appearing naked, or wearing \"a black pair of swimming trunks\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c12",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that version of the story, the devil offered the Orang Minyak help and powers of the black arts, but only if he worshipped the devil and raped 21 virgins within a week.",
+          "statement_id": "Dalam kisah versi itu, iblis menawarkan bantuan dan kekuatan ilmu hitam kepada Orang Minyak, tetapi hanya jika ia memuja iblis dan memerkosa 21 perawan dalam seminggu.",
+          "quote": "According to the story, the devil offered to help the creature and give him powers of the black arts, but only if the Orang Minyak worshipped him and raped 21 virgins within a week.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c13",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version, the creature is under the control of an evil shaman or witch doctor.",
+          "statement_id": "Dalam versi lain, makhluk ini berada di bawah kendali dukun atau tabib jahat.",
+          "quote": "In another version, the creature is under control of an evil shaman or witch doctor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c14",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Radford, if a person actually covered himself that way, greasy hands and feet would make it difficult to turn doorknobs or run around, let alone crawl up the sides of buildings or grab a struggling captive.",
+          "statement_id": "Menurut Radford, jika orang sungguh melumuri diri demikian, tangan dan kaki yang berminyak akan menyulitkan memutar gagang pintu atau berlari, apalagi memanjat sisi bangunan atau menangkap tawanan yang meronta.",
+          "quote": "According to Radford, \"if a person actually covered himself that way, greasy hands and feet would make it difficult to turn doorknobs or run around, not to mention crawl up the sides of buildings or grab a struggling captive\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c15",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several years earlier, local newspapers carried sensational reports of a knife-wielding rapist covered in oil, ostensibly in imitation of the Orang Minyak.",
+          "statement_id": "Beberapa tahun sebelumnya, surat kabar setempat memuat laporan sensasional tentang pemerkosa bersenjata pisau yang berlumur minyak, yang tampaknya meniru Orang Minyak.",
+          "quote": "Several years earlier, local newspapers carried sensational reports of a knife-wielding rapist covered in oil, ostensibly in imitation of the Orang Minyak.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c16",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend appeared in the film Oily Maniac (1976), from the Shaw Brothers, directed by Meng Hua Ho.",
+          "statement_id": "Legenda ini muncul dalam film Oily Maniac (1976) dari Shaw Brothers, disutradarai Meng Hua Ho.",
+          "quote": "Oily Maniac (1976), from the Shaw Brothers, directed by Meng Hua Ho",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c17",
+          "source_id": "orang-minyak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend also appeared in the film Pontianak vs Orang Minyak (2012), directed by Afdlin Shauki.",
+          "statement_id": "Legenda ini juga muncul dalam film Pontianak vs Orang Minyak (2012) karya Afdlin Shauki.",
+          "quote": "Pontianak vs Orang Minyak (2012), directed by Afdlin Shauki",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c18",
+          "source_id": "orang-minyak-s4",
+          "host": "www.livescience.com",
+          "statement": "An eyewitness quoted in the article said he saw it crawling up the stairs of a house like Spider-man, then jump onto the roof and disappear.",
+          "statement_id": "Seorang saksi mata yang dikutip artikel ini mengaku melihatnya merayap menaiki tangga rumah seperti Spider-man, lalu melompat ke atap dan menghilang.",
+          "quote": "crawling up the stairs of the house, just like Spider-man. When it reached the top it suddenly jumped onto the roof. I don't think a human could do that. It then just disappeared",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c19",
+          "source_id": "orang-minyak-s4",
+          "host": "www.livescience.com",
+          "statement": "According to the article, villagers do not trust the police to protect them and have taken to citizen patrols, armed with machetes, to seek out the monster.",
+          "statement_id": "Menurut artikel ini, warga tidak percaya polisi akan melindungi mereka dan berpatroli sendiri dengan parang untuk mencari makhluk itu.",
+          "quote": "Villagers don't trust police to protect them and have instead taken to the streets on citizen patrol, armed with machetes, to seek out the monster.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c20",
+          "source_id": "orang-minyak-s4",
+          "host": "www.livescience.com",
+          "statement": "The creature is said to have been occasionally sighted for decades but never captured.",
+          "statement_id": "Makhluk ini disebut sesekali terlihat selama puluhan tahun tetapi tidak pernah tertangkap.",
+          "quote": "The creature has been occasionally sighted for decades, but never captured.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c21",
+          "source_id": "orang-minyak-s5",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "L. Krishan’s Orang Minyak and Serangan Orang Minyak, and Sumpah Orang Minyak (all released in 1958) featured a supernatural \"oily man\" who sexually assaults women.",
+          "statement_id": "Orang Minyak, Serangan Orang Minyak, dan Sumpah Orang Minyak (semuanya dirilis 1958) menampilkan \"manusia berminyak\" gaib yang menyerang perempuan secara seksual.",
+          "quote": "L. Krishan’s Orang Minyak, Serangan Orang Minyak and Sumpah Orang Minyak (all released in 1958) featured a supernatural “oily man” who sexually assaults women",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-minyak-c22",
+          "source_id": "orang-minyak-s5",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "In Sumpah Orang Minyak the figure was memorably played by a young P. Ramlee.",
+          "statement_id": "Dalam Sumpah Orang Minyak, tokoh ini diperankan secara mengesankan oleh P. Ramlee yang masih muda.",
+          "quote": "memorably played by a young P. Ramlee in Sumpah Orang Minyak",
           "context": "modern-popular-culture",
           "status": "exact"
         }
@@ -468,19 +965,15 @@
     },
     {
       "slug": "vietnamese-dragon",
-      "file": "batch-008.md",
+      "file": "batch-008-fix-1.md",
+      "entry_sha256": "ab1a1d482115abf7e7fcfbe9b56c720ca226390a5decaf8fd7739a9511fee1ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 30,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Dragon (Le dynasty, Vietnam).jpg)",
@@ -492,11 +985,11 @@
           "id": "vietnamese-dragon-c01",
           "source_id": "vietnamese-dragon-s1",
           "host": "en.wikipedia.org",
-          "statement": "Vietnamese dragons (Rồng; Sino-Vietnamese: Long; 龍) are symbolic creatures of Vietnamese folklore and mythology; an ancient origin myth says the Vietnamese descend from a dragon and an Immortal.",
-          "statement_id": "Naga Vietnam (Rồng; Sino-Vietnam: Long; 龍) adalah makhluk simbolis dalam cerita rakyat dan mitologi Vietnam; menurut mitos asal-usul kuno, bangsa Vietnam keturunan naga dan makhluk abadi.",
-          "quote": "Vietnamese dragons (Vietnamese: Rồng; chữ Nôm: 蠬/蠪; Sino-Vietnamese: Long; chữ Hán: 龍) are symbolic creatures in Vietnamese folklore and mythology. According to an ancient origin myth, the Vietnamese people are descended from a dragon and an Immortal.",
+          "statement": "Vietnamese dragons (Rồng; Sino-Vietnamese: Long; 龍) are symbolic creatures of Vietnamese folklore and mythology; according to an ancient origin myth, the Vietnamese people are descended from a dragon and an Immortal.",
+          "statement_id": "Naga Vietnam (Rồng; Sino-Vietnam: Long; 龍) adalah makhluk simbolis dalam cerita rakyat dan mitologi Vietnam; menurut mitos asal-usul kuno, bangsa Vietnam adalah keturunan seekor naga dan seorang makhluk abadi.",
+          "quote": "Vietnamese dragons (Vietnamese: Rồng ... chữ Nôm: 蠬/蠪; Sino-Vietnamese: Long; chữ Hán: 龍) are symbolic creatures in Vietnamese folklore and mythology. According to an ancient origin myth, the Vietnamese people are descended from a dragon and an Immortal.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "vietnamese-dragon-c02",
@@ -532,8 +1025,8 @@
           "id": "vietnamese-dragon-c05",
           "source_id": "vietnamese-dragon-s1",
           "host": "en.wikipedia.org",
-          "statement": "Lý-era dragons (1010–1225) have 12 body sections for the 12 months, small regular back fins and an upright head with long mane and beard but no horns; they can change the weather, are responsible for crops, and always hold a jewel.",
-          "statement_id": "Naga masa Lý (1010–1225) bertubuh 12 ruas yang melambangkan 12 bulan, bersirip punggung kecil teratur, berkepala tegak dengan surai panjang dan janggut, tanpa tanduk; naga ini dapat mengubah cuaca, bertanggung jawab atas panen, dan selalu menggigit permata.",
+          "statement": "The Lý-era dragon has a body of 12 sections symbolizing the 12 months of the year, small regular fins on its back, and a high-held head with a long mane, beard, prominent eyes and a crest on the nose, but no horns.",
+          "statement_id": "Naga masa Lý bertubuh 12 ruas yang melambangkan 12 bulan dalam setahun, bersirip kecil teratur di punggung, berkepala tegak dengan surai dan janggut panjang, mata menonjol, dan jambul di hidung, tetapi tanpa tanduk.",
           "quote": "The body has 12 sections, symbolizing 12 months in the year. On the dragon's back are small, uninterrupted, regular fins. The head, held high, is in proportion with the body, and has a long mane, beard, prominent eyes, crest on nose (pointing forwards), but no horns.",
           "context": "historical-record",
           "status": "exact"
@@ -562,9 +1055,229 @@
           "id": "vietnamese-dragon-c08",
           "source_id": "vietnamese-dragon-s1",
           "host": "en.wikipedia.org",
-          "statement": "These dragons can change the weather and are responsible for crops.",
-          "statement_id": "Naga-naga ini dapat mengubah cuaca dan bertanggung jawab atas panen.",
-          "quote": "These dragons are able to change the weather, and are responsible for crops.",
+          "statement": "The Lý-era dragons always keep a châu (gem/jewel) in their mouths, a symbol of humanity, nobility and knowledge; these dragons are able to change the weather and are responsible for crops.",
+          "statement_id": "Naga masa Lý selalu menyimpan châu (permata) di mulutnya, lambang kemanusiaan, kebangsawanan, dan pengetahuan; naga-naga ini dapat mengubah cuaca dan bertanggung jawab atas panen.",
+          "quote": "the dragons always keep a châu (gem/jewel) in their mouths (a symbol of humanity, nobility and knowledge). These dragons are able to change the weather, and are responsible for crops.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c09",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The slender, flowing dragon of the Lý period represents the vassal kingdom; its rounded body curves lithely in a long sinuous shape, tapering gradually to the tail.",
+          "statement_id": "Naga masa Lý yang langsing dan mengalir melambangkan kerajaan bawahan; tubuhnya yang bulat melengkung luwes dalam bentuk panjang berliku dan mengecil bertahap ke ekor.",
+          "quote": "The slender, flowing dragon of this period represents the vassal kingdom. These dragons rounded bodies curve lithely, in a long sinuous shape, tapering gradually to the tail.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c10",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Trần dragon symbolized the martial arts, because the Trần emperors were descended from a mandarin commander.",
+          "statement_id": "Naga masa Trần melambangkan seni bela diri karena para kaisar Trần keturunan seorang panglima mandarin.",
+          "quote": "The Trần dragon symbolized the martial arts, because the Trần emperors were descended from a mandarin commander.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c11",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dragons of the Lê-Mạc period were majestic, with lion-heads; instead of a fiery crest they have a large nose, their bodies curve in only two sections, and their feet have five sharp claws.",
+          "statement_id": "Naga masa Lê-Mạc megah dengan kepala singa; alih-alih jambul api, mereka berhidung besar, tubuhnya hanya melengkung di dua bagian, dan kakinya berkuku tajam lima.",
+          "quote": "These dragons were majestic, with lion-heads. Instead of a fiery crest, they have a large nose. Their bodies only curve in two sections. Their feet have five sharp claws.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c12",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dragons of the Nguyễn dynasty represent the powerful southern emperors with glory and honor.",
+          "statement_id": "Naga masa Nguyễn mewakili para kaisar selatan yang perkasa dengan kemuliaan dan kehormatan.",
+          "quote": "Dragons of Nguyễn dynasty represent the powerful southern emperors with glory and honor.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c13",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One group of dragons found on archaeological objects is the crocodile-dragons, with the head of a crocodile and the body of a snake.",
+          "statement_id": "Salah satu kelompok naga yang ditemukan pada benda arkeologis adalah naga-buaya, berkepala buaya dan bertubuh ular.",
+          "quote": "One group is that of the crocodile-dragons, with the head of a crocodile and the body of a snake.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c14",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1010 Emperor Lý Thái Tổ moved the capital from Hoa Lư to Đại La; his proclamation explained that he saw a golden dragon (rồng vàng) fly in the clear blue sky, so he renamed Đại La as Thăng Long.",
+          "statement_id": "Pada 1010 Kaisar Lý Thái Tổ memindahkan ibu kota dari Hoa Lư ke Đại La; dalam maklumatnya ia menyatakan melihat seekor rồng vàng (naga emas) terbang di langit biru cerah, lalu mengganti nama Đại La menjadi Thăng Long.",
+          "quote": "In 1010, Emperor Lý Thái Tổ moved the capital from Hoa Lư to Đại La, which decision was explained in his Chiếu dời đô (Royal proclamation of moving capital): he saw a Rồng vàng (golden dragon) fly around on the clear blue sky, so he changed the name of Đại La to Thăng Long",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c15",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many Vietnamese place-names incorporate the word for dragon, for example Hạ Long Bay (\"Bay of Descending Dragon\") and Cửu Long (\"nine dragons\"), the section of the Mekong river flowing through Vietnam.",
+          "statement_id": "Banyak nama tempat di Vietnam memuat kata long atau rồng, misalnya Teluk Hạ Long (\"Teluk Naga Turun\") dan Cửu Long (\"sembilan naga\"), bagian Sungai Mekong yang mengalir di Vietnam.",
+          "quote": "Hạ Long Bay (vịnh Hạ Long, lit. \"Bay of Descending Dragon\"), the section of the Mekong river flowing through Vietnam contains 9 branches and is called Cửu Long (\"nine dragons\")",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c16",
+          "source_id": "vietnamese-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Vietnamese dragon has been depicted multiple times as a national symbol on flags, national emblems and currency.",
+          "statement_id": "Naga Vietnam berkali-kali digambarkan sebagai lambang nasional pada bendera, lambang negara, dan mata uang.",
+          "quote": "The Vietnamese dragon has been depicted multiple times as national symbols on flags, national emblems, and currency.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c17",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "For Vietnamese peasants the dragon was a vivid symbol of the fourfold deity of clouds, rain, thunder and lightning. Dragons, represented by an S shape, appear on artifacts from the Dong Son-Au Lac culture that existed in northern Vietnam in the first millennium B.C.",
+          "statement_id": "Bagi petani Vietnam, naga adalah lambang yang hidup dari dewa empat rupa: awan, hujan, guntur, dan kilat. Naga digambarkan berbentuk S pada benda-benda dari budaya Đông Sơn-Âu Lạc yang ada di Vietnam utara pada milenium pertama SM.",
+          "quote": "For Vietnamese peasants, the dragon was a vivid symbol of the fourfold deity-clouds, rain, thunder and lighting. Represented by an S shape, dragons are depicted on artifacts dating back to the Dong Son-Au Lac culture, which existed in northern Vietnam in the first millennium B.C.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c18",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "Lac Long Quan (King Dragon of the Lac Bird Clan) is known as the forefather of the Vietnamese people; he is said to be the son of a dragon, while his wife Au Co was the child of a fairy. Their eldest son, King Hung, taught the people to tattoo dragon images on their chests, bellies and thighs to protect themselves from aquatic monsters.",
+          "statement_id": "Lạc Long Quân (Raja Naga dari Suku Burung Lạc) dikenal sebagai leluhur bangsa Vietnam; ia disebut putra seekor naga, sedangkan istrinya, Âu Cơ, anak seorang peri. Putra sulung mereka, Raja Hùng, mengajari rakyat mentato dada, perut, dan paha dengan gambar naga untuk melindungi diri dari monster air.",
+          "quote": "Lac Long Quan (King Dragon of the Lac Bird Clan) is known as the forefather of the Vietnamese people. He is said to have been the son of a dragon, while his wife, Au Co, was the child of a fairy. Their eldest son, King Hung, taught the people to tattoo their chests, bellies and thighs with dragon images to protect themselves from aquatic monsters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c19",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "The Lý dragon was derived from India’s mythical Naga, which Southeast Asian peoples influenced by Indian mythology had transformed into a sea god.",
+          "statement_id": "Naga masa Lý diturunkan dari Naga mitos India, yang oleh bangsa-bangsa Asia Tenggara yang dipengaruhi mitologi India diubah menjadi dewa laut.",
+          "quote": "The Ly dragon was derived from India’s mythical Naga, which Southeast Asian peoples influenced by Indian mythology had transformed into a sea god.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c20",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "Initially, dragons in Vietnam were associated with water and Yin energy; common people believed rain was created by nine dragons that took water from the sea to pour down on the rice paddies.",
+          "statement_id": "Pada mulanya naga di Vietnam dikaitkan dengan air dan energi yin. Rakyat jelata percaya hujan diciptakan sembilan naga yang mengambil air dari laut untuk dicurahkan ke sawah.",
+          "quote": "Initially, dragons in Vietnam were associated with water and Yin energy. Dragons were popular among the common people, who believed that rain was created by nine dragons, which took water from the sea to pour down on the rice paddies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c21",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "The dragon dance, a great favorite among people of all walks of life, was used to invoke rain.",
+          "statement_id": "Tarian naga, favorit semua lapisan masyarakat, digunakan untuk memohon hujan.",
+          "quote": "The dragon dance, a great favorite among people of all walks of life, was used to invoke rain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c22",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "Unlike Chinese dragons, shown descending from heaven and spitting fire, Vietnamese dragons were shown ascending from water; though imposing and fierce, they were never threatening.",
+          "statement_id": "Berbeda dari naga Tiongkok yang digambarkan turun dari langit dan menyemburkan api, naga Vietnam digambarkan naik dari air; walau megah dan garang, naga Vietnam tidak pernah mengancam.",
+          "quote": "But unlike the Chinese dragons, which were shown descending from heaven and spitting fire, the Vietnamese dragons were shown asecending from water. Though imposing and fierce, the Vietnamese dragons were never threatening.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c23",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "An ancient text states: \"Golden dragons for emperors, black dragons for kings.\"",
+          "statement_id": "Sebuah naskah kuno menyatakan: \"naga emas untuk kaisar, naga hitam untuk raja\".",
+          "quote": "“Golden dragons for emperors, black dragons for kings,” states this ancient text.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c24",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "Like Chinese monarchs, Vietnamese sovereigns chose the dragon as the symbol of their power.",
+          "statement_id": "Seperti raja-raja Tiongkok, penguasa Vietnam memilih naga sebagai lambang kekuasaan mereka.",
+          "quote": "Like Chinese monarchs, Vietnamese sovereigns chose the dragon as the symbol of their power.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c25",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "The Lý king had shops and inns built up to the walls of an ancient temple once dedicated to the dragon deity; one night the dragon deity revealed himself as a violent northerly wind that knocked down all the houses but left the temple intact.",
+          "statement_id": "Raja Lý membangun deretan toko dan penginapan hingga ke dinding sebuah kuil kuno yang dahulu dipersembahkan bagi dewa naga. Suatu malam dewa naga menampakkan diri sebagai angin utara yang dahsyat, merobohkan semua rumah tetapi membiarkan kuil itu utuh.",
+          "quote": "The Ly king had a cluster of shops and inns built up to the walls of an ancient temple once dedicated to the dragon deity. One night, the dragon deity revealed himself in the form of a violent northerly wind, which knocked down all of the houses but left the temple intact.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c26",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "The dragon took on a whole new appearance under the Lê dynasty (early 15th to end of 18th centuries): a raised head, forked horn, wide forehead, prominent nose, large forceful eyes, five claws and two splayed feet; one dragon creeps up the balustrade of the central staircase of Kinh Thien Hall.",
+          "statement_id": "Naga mendapat rupa yang sama sekali baru pada masa dinasti Lê (awal abad ke-15 hingga akhir abad ke-18): berkepala tegak, bertanduk bercabang, berdahi lebar, berhidung menonjol, bermata besar dan tajam, berkuku lima, dan berkaki dua yang terentang; seekor naga merayap naik di pagar tangga tengah Aula Kính Thiên.",
+          "quote": "The dragon took on a whole new appearance under the Le Dynasty (early 15th to end of 18th centuries). With a raised head, forked horn, wide forehead, prominent nose, large, forceful eyes, five claws, and two splayed feet, a dragon crept up the balustrade of Kinh Thien Hall’s central staircase.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c27",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "Taking it as a good omen, the king named the new capital Thang Long, or City of the Soaring Dragon; the modern city of Hanoi stands on the same site.",
+          "statement_id": "Menganggapnya pertanda baik, raja menamai ibu kota baru Thang Long, atau Kota Naga yang Terbang Menjulang; kota Hanoi modern berdiri di lokasi yang sama.",
+          "quote": "Taking this as a good omen, he named the new capital Thang Long, or City of the Soaring Dragon. The modern city of Hanoi stands on this same site.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c28",
+          "source_id": "vietnamese-dragon-s2",
+          "host": "baotanglichsuquocgia.vn",
+          "statement": "The association of dragons (long) with royalty is revealed by the names given to the king’s effects and person, such as long con (royal tunics), long chau (royal boat), long thi (royal person) and long dien (royal countenance).",
+          "statement_id": "Kaitan naga dengan kerajaan tampak pada nama benda dan pribadi raja, seperti long con (jubah raja), long chau (perahu raja), long thi (pribadi raja), dan long dien (wajah raja).",
+          "quote": "That dragons, or long, associated with royalty, are revealed by the names given to the king’s personal effects and person, such as long con (royal tunics), long chau (royal boat), long thi (royal person), and long dien (royal countenance).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c29",
+          "source_id": "vietnamese-dragon-s3",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "According to Vietnamese folklore, the Hùng Vương were descendants of dragons and fairies; a sea dragon lord, Lạc Long Quân, was said to have fathered a hundred children by a mountain princess named Âu Cơ.",
+          "statement_id": "Menurut cerita rakyat Vietnam, para Hùng Vương adalah keturunan naga dan peri; seorang penguasa naga laut bernama Lạc Long Quân dikatakan memperanakkan seratus anak dengan seorang putri gunung bernama Âu Cơ.",
+          "quote": "According to Vietnamese folklore, the Hung Vuong were descendants of dragons and fairies. A sea dragon lord, known as Lac Long Quan, was said to have fathered a hundred children by a princess of the mountains, named Au Co.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vietnamese-dragon-c30",
+          "source_id": "vietnamese-dragon-s3",
+          "host": "biblioasia.nlb.gov.sg",
+          "statement": "Lạc Long Quân returned to the watery depths with 50 of their children, while Âu Cơ settled in what is today the Red River Delta with the remaining 50, one of whom became the first Hùng king.",
+          "statement_id": "Lạc Long Quân kembali ke kedalaman air bersama 50 anak mereka, sedangkan Âu Cơ menetap di wilayah yang kini menjadi Delta Sungai Merah bersama 50 anak lainnya, yang salah satunya menjadi raja Hùng pertama.",
+          "quote": "Lac Long Quan returned to the watery depths with 50 of their children, while Au Co settled in an area, which is the present-day Red River Delta, with the remaining 50, one of whom became the first Hung king.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -597,13 +1310,14 @@
             "sl.wikipedia.org: Vietnamski zmaj",
             "sv.wikipedia.org: Österländsk drake",
             "vi.wikipedia.org: Rồng Việt Nam",
+            "vi.wikipedia.org: Điện Kính Thiên",
             "www.wikidata.org: Q2512040"
           ],
           "auto_evidence": [
             "deskripsi berkas",
             "dipakai di en.wikipedia.org: Vietnamese dragon"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-008/vietnamese-dragon-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-008/vietnamese-dragon-1.jpg"
         }
       ]
     }
