@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-055",
-  "checked_at": "2026-10-06T19:08:38.144Z",
+  "checked_at": "2026-10-06T19:34:33.449Z",
   "files": [
     "batch-055.md",
     "batch-055-fix-1.md",
     "batch-055-fix-2.md",
     "batch-055-fix-3.md",
-    "batch-055-fix-4.md"
+    "batch-055-fix-4.md",
+    "batch-055-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3529,20 +3530,15 @@
     },
     {
       "slug": "wani-dragon",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "373a244c9518943b3d0bec0361002d6c28e26d50ac2923fc1f67326fdd6d9987",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wani-dragon-c01",
@@ -3583,27 +3579,171 @@
           "quote": "The Kojiki uses wani 和邇 several times as a proper name (e.g., the Confucianist scholar Wani) and as a sea-monster in two contexts.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c05",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wani is a fundamental theme in the myth of the demigod brothers Hoori and Hoderi: the sea god Watatsumi or Ryūjin summons all the wani and chooses one to escort his pregnant daughter Toyotama-hime and her husband Hoori from the palace back to land.",
+          "statement_id": "Wani adalah tema pokok dalam mitos saudara-saudara setengah dewa Hoori dan Hoderi: dewa laut Watatsumi atau Ryūjin mengumpulkan semua wani, lalu memilih satu untuk mengantar putrinya Toyotama-hime yang sedang hamil dan suaminya Hoori dari istana kembali ke daratan.",
+          "quote": "Second, wani is a fundamental theme in the myth of the demigod brothers Hoori and Hoderi. The sea god Watatsumi or Ryūjin \"summoned together all the crocodiles\" and chose one to escort his pregnant daughter Toyotama-hime and her husband Hoori from the Ryūgū-jō palace back to land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c06",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sea god's daughter makes a request concerning her shapeshifting into a wani, and at the moment of delivery she turns into a \"crocodile\" eight fathoms long that crawls and writhes about.",
+          "statement_id": "Putri dewa laut meminta agar ia dapat berubah menjadi wani, dan pada saat melahirkan ia berubah menjadi \"buaya\" sepanjang delapan depa yang merayap dan menggeliat.",
+          "quote": "the beautiful Toyatama-hime made a bizarre request concerning her shapeshifting into a wani ... when she turned into a crocodile eight fathoms [long], and crawled and writhed about",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c07",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tale of the White Hare of Inaba, told by the hare, the wani are tricked into lying in a row; the hare treads on them while counting, and the wani lying last seizes it and strips off all its \"clothing\".",
+          "statement_id": "Dalam kisah Kelinci Putih dari Inaba yang dituturkan sang kelinci, wani ditipu sehingga berbaris di laut; kelinci itu menginjak mereka sambil menghitung, dan wani yang berbaring paling akhir menyambar serta melucuti \"pakaian\" kelinci itu.",
+          "quote": "they were deceived and lay down in a row, and I trod on them and counted them as I came across, and was just about to get on land, when I said: 'You have been deceived by me.' As soon as I had finished speaking, the crocodile who lay the last of all seized me and stripped off all my clothing. ... This was the White Hare of Inaba.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c08",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Nihongi uses the word kuma-wani (\"bear-wani\", i.e. giant or strong) and describes the sea god Kotoshiro-nushi as a ya-hiro no kuma-wani, an \"8-fathom bear-wani\".",
+          "statement_id": "Nihongi memakai kata kuma-wani (\"wani beruang\", yaitu raksasa atau kuat) dan menyebut dewa laut Kotoshironushi sebagai ya-hiro no kuma-wani, \"wani beruang sepanjang delapan depa\".",
+          "quote": "The Nihongi likewise uses wani several times as a proper name ... and twice in the word kuma-wani 熊鰐 \"bear (i.e., giant or strong) shark/crocodile\". First, the mythical sea god Kotoshiro-nushi-no-kami (see Ebisu) is described as a ya-hiro no kuma-wani 八尋熊鰐 \"8-fathom bear-wani\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c09",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aston wrote that there can be little doubt that the wani is really the Chinese dragon, which is frequently so represented in Japanese pictures.",
+          "statement_id": "Aston menulis bahwa hampir pasti wani sebenarnya adalah naga Tiongkok, yang sering digambarkan demikian dalam gambar Jepang.",
+          "quote": "Aston later wrote that. There can be little doubt that the wani is really the Chinese dragon. It is frequently so represented in Japanese pictures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c10",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "De Visser discussed the wani in detail and gave his opinion that the wani is an old Japanese dragon- or serpent-shaped sea-god.",
+          "statement_id": "De Visser membahas wani secara rinci dan berpendapat bahwa wani adalah dewa laut Jepang kuno berwujud naga atau ular.",
+          "quote": "Marinus Willem de Visser discussed the wani in detail. ... In my opinion the wani is an old Japanese dragon- or serpent-shaped sea-god",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c11",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chamberlain justified translating wani as \"crocodile\" in a footnote, judging that the accounts point to an amphibious creature somewhat similar to the serpent rather than to a fish.",
+          "statement_id": "Chamberlain membenarkan terjemahan \"buaya\" dalam catatan kaki dan menilai bahwa keterangan lama menunjuk pada makhluk amfibi yang agak mirip ular, bukan ikan.",
+          "quote": "Chamberlain justified translating \"crocodile\" in a footnote. ... the accounts point rather to an amphibious creature, conceived of as being somewhat similar to the serpent, than to a fish",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c12",
+          "source_id": "wani-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aston, who argued against translating wani as \"crocodile\", held that the wani inhabits the sea and not rivers and is plainly a mythical creature.",
+          "statement_id": "Aston berpendapat bahwa wani tinggal di laut dan bukan di sungai, dan jelas merupakan makhluk mitos; karena itu ia tidak menerjemahkannya sebagai \"buaya\".",
+          "quote": "William George Aston justified not translating wani as \"crocodile\". ... The wani, too, inhabits the sea and not rivers, and is plainly a mythical creature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c13",
+          "source_id": "wani-dragon-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Heibonsha encyclopedia entry, applying the Japanese word wani to the crocodile was an error of ancient central literati; wani is a San'in-region dialect word for the large shark (fuka), and there is a longline fishery for wani.",
+          "statement_id": "Menurut entri ensiklopedia Heibonsha, penerapan kata Jepang wani pada buaya adalah kekeliruan para sastrawan pusat Jepang kuno; wani adalah dialek wilayah San'in untuk hiu besar (fuka), dan di sana ada penangkapan wani dengan tali pancing panjang.",
+          "quote": "日本語のワニをこれに当てたのは古代日本の中央文人の誤りで，山陰地方における鱶（ふか）の方言であり，ワニのはえなわ漁がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c14",
+          "source_id": "wani-dragon-s2",
+          "host": "kotobank.jp",
+          "statement": "The same entry says the Izumo no Kuni Fudoki also has a legend of a wani that, in love with the deity of a mountain village in Nita District, tried to swim up the river.",
+          "statement_id": "Menurut entri yang sama, Izumo no Kuni Fudoki memuat legenda wani yang mencintai dewa sebuah desa di pegunungan Distrik Nita dan mencoba menyusuri sungai ke hulu.",
+          "quote": "神聖な魚とみられたのであろう。《出雲国風土記》にも仁多郡の山間の阿伊村の神を恋うワニが川をさかのぼろうとしたという伝説がある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c15",
+          "source_id": "wani-dragon-s2",
+          "host": "kotobank.jp",
+          "statement": "The Hizen no Kuni Fudoki records a tradition that a wani went up a river to the place where a deity was, with many sea fish following it.",
+          "statement_id": "Hizen no Kuni Fudoki mencatat tradisi bahwa wani menyusuri sungai ke tempat dewa berada, dan banyak ikan laut mengikutinya.",
+          "quote": "《肥前国風土記》でもワニが川をさかのぼって神のいる場所にいき，海魚が多くこれに従うという伝承を記している。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c16",
+          "source_id": "wani-dragon-s2",
+          "host": "kotobank.jp",
+          "statement": "In Izumo City, when a wani (shark) was caught, the pectoral fin and cheek meat of one fish were customarily taken to the Ono family at Hinomisaki; the author surmises it was regarded as a sacred fish.",
+          "statement_id": "Di Kota Izumo, ketika wani (hiu) ditangkap, sirip dada dan daging pipi seekor ikan dahulu dibawa ke keluarga Ono di Hinomisaki; penulis menduga ikan itu dipandang sebagai ikan suci.",
+          "quote": "出雲市ではかまぼこの材料はモバワニの肉がよいといい，これを捕獲するとその1尾のワイワビ（脇鰭）と頰肉とを切り取って日御碕（ひのみさき）の小野家に持参する習わしがあった。神聖な魚とみられたのであろう。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c17",
+          "source_id": "wani-dragon-s3",
+          "host": "en.wikisource.org",
+          "statement": "In this Nihongi translation, Toyo-tama-hime changes into an enormous \"sea-monster\" of eight fathoms that wriggles about on her belly.",
+          "statement_id": "Dalam terjemahan Nihongi ini, Toyo-tama-hime berubah menjadi \"monster laut\" raksasa sepanjang delapan depa yang menggeliat di atas perutnya.",
+          "quote": "At this time Toyo-tama-hime had become changed into an enormous sea-monster of eight fathoms, and was wriggling about on her belly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c18",
+          "source_id": "wani-dragon-s3",
+          "host": "en.wikisource.org",
+          "statement": "In this Nihongi translation, the courser on which the Sea-God rides is a sea-monster eight fathoms in length who stays with fins erect in the small orange-tree house.",
+          "statement_id": "Dalam terjemahan Nihongi ini, tunggangan Dewa Laut disebut monster laut sepanjang delapan depa yang berdiri dengan sirip tegak di rumah jeruk kecil.",
+          "quote": "The courser on which the Sea-God rides is a sea-monster eight fathoms in length, who with fins erect stays in the small orange-tree house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wani-dragon-c19",
+          "source_id": "wani-dragon-s3",
+          "host": "en.wikisource.org",
+          "statement": "In this Nihongi translation, the sea-monsters are summoned together, and the one-fathom sea-monsters are sent as his escort.",
+          "statement_id": "Dalam terjemahan Nihongi ini, para monster laut dikumpulkan, dan monster laut sepanjang satu depa dikirim sebagai pengawal.",
+          "quote": "Then he summoned together the sea-monsters ... The one-fathom sea-monsters were accordingly sent with him as his escort.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e208565f310fe92cb51badf1cf67ee502a8ef672c75d9a685b9c808edaadf527"
+      "images": []
     },
     {
       "slug": "wd-q15925032",
-      "file": "batch-055-fix-1.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "d2c3a2a725ec67df2ffbcc8b8fb84d90b5e624aa7aebe69b24cf92631ff78252",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q15925032-c01",
@@ -3644,32 +3784,141 @@
           "quote": "精怪的代表可算狐狸精，其次還有蛇精、樹精和花精等等。稱呼時大多稱為「〔原形名〕+精」。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c05",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "According to this Chinese Wikipedia article, the Soushenji holds that all things have spirits which over time turn into monsters; Chinese jing have a complete genealogy according to works such as the Baize Jingguai Tu, and include non-living things such as utensils besides animals and plants.",
+          "statement_id": "Menurut artikel Wikipedia berbahasa Mandarin ini, Soushenji menganggap segala sesuatu memiliki roh yang lama-kelamaan menjadi siluman; jing dalam Tiongkok memiliki silsilah lengkap menurut Baize Jingguai Tu dan sejenisnya, dan selain hewan serta tumbuhan juga mencakup benda mati seperti perkakas.",
+          "quote": "东晋干宝搜神记认为万物有灵，久了就会化作妖怪。中国的精，依《白泽精怪图》等书的记载有一个完整的谱系，其中印度的传入也汇进这个谱系。同时，中国的精除动植物之外，也有非生物包括器具，日本的精有较多受中国影响。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c06",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "It is widely believed that all things, living or not, that live or are kept for a hundred or a thousand years or more absorb the essence of nature and become jing, also called jingguai.",
+          "statement_id": "Secara umum dipercaya bahwa segala hal, hidup maupun tidak, yang hidup atau tersimpan seratus atau seribu tahun lebih akan menyerap sari alam dan menjadi jing, yang juga disebut jingguai.",
+          "quote": "普遍认为各种事物包括生物和非生物，只要活或保存百年、千年以上时间就会吸收自然界的精华成精，亦稱為精怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c07",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "According to Chinese legend, some strange phenomena involving people may be influenced by jingguai; the legends say they have abilities such as transformation and illusion arts and may lodge in certain objects.",
+          "statement_id": "Menurut legenda Tiongkok, sebagian kejadian ganjil yang berkaitan dengan manusia mungkin dipengaruhi jingguai; legenda menyebut jingguai memiliki kemampuan seperti berubah wujud dan ilmu ilusi, serta dapat bersemayam pada benda-benda tertentu.",
+          "quote": "中国传说认为包括与人有关的怪异现象可能有些是精怪影响的，传说精怪会包括变身、幻术等不同能力，还会寄宿在一些物体上。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c08",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Besides China, regions such as Japan have a similar concept, for example the legend of old utensils becoming tsukumogami.",
+          "statement_id": "Selain Tiongkok, Jepang juga memiliki konsep serupa, misalnya legenda perkakas tua yang menjadi tsukumogami.",
+          "quote": "除了中国，其他一些地区如日本亦有类似成精的概念，如陈旧器具变「付喪神」的传说。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c09",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "In Eastern cultures a yaoguai is sometimes called a yaojing, and in speech the characters yao, jing and guai are often used together and sometimes interchangeably.",
+          "statement_id": "Dalam budaya Timur, yaoguai kadang disebut yaojing, dan dalam percakapan huruf yao, jing, dan guai sering dipakai bersama atau saling menggantikan.",
+          "quote": "在东方文化妖怪有时也叫妖精，在口語中，「妖」、「精」、「怪」幾個字經常連用，有時候還能相互替換。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c10",
+          "source_id": "wd-q15925032-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The example given is Sun Wukong in the Xiyouji, a stone that became a jing and turned into a monkey.",
+          "statement_id": "Contoh yang disebut: Sun Wukong dalam Xiyouji adalah batu yang menjadi jing lalu berubah menjadi monyet.",
+          "quote": "然后变成其他生物、非生物或人形态。（如西游记孙悟空就石头成精变猴子）",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c11",
+          "source_id": "wd-q15925032-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Baopuzi, the jing of all aged things can all assume human form to dazzle people's eyes and constantly test them, but cannot change their true form in a mirror.",
+          "statement_id": "Menurut Baopuzi, jing semua benda yang sudah tua dapat menyamar sebagai manusia untuk menyilaukan mata dan terus menguji orang, tetapi tidak dapat mengubah wujud aslinya di dalam cermin.",
+          "quote": "又萬物之老者，其精悉能假讬人形，以眩惑人目而常試人，唯不能於鏡中易其真形耳。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c12",
+          "source_id": "wd-q15925032-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Baopuzi, ancient Daoists entering the mountains hung a bright mirror nine cun or more in diameter behind their backs, so that the old spirits (laomei) dared not come near people.",
+          "statement_id": "Menurut Baopuzi, para daoshi zaman dahulu yang masuk gunung menggantungkan cermin terang berdiameter sembilan cun atau lebih di punggung mereka, sehingga laomei (siluman tua) tidak berani mendekat.",
+          "quote": "是以古之入山道士，皆以明鏡徑九寸已上，懸於背後，則老魅不敢近人。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c13",
+          "source_id": "wd-q15925032-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Baopuzi, if the visitor is a bird- or beast-spirit its form shows in the mirror; an old spirit that comes also leaves walking backwards and has no heels.",
+          "statement_id": "Menurut Baopuzi, jika yang datang adalah siluman burung atau hewan, wujudnya tampak di cermin; siluman tua yang datang juga pergi dengan berjalan mundur dan tidak punya tumit.",
+          "quote": "若是鳥獸邪魅，則其形貌皆見鏡中矣。又老魅若來，其去必卻行，行可轉鏡對之，其後而視之，若是老魅者，必無踵也",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c14",
+          "source_id": "wd-q15925032-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In a Baopuzi tale of two men in a stone chamber, a visitor dressed as a person appears as a deer in the mirror; when addressed as an old deer he turns into a deer and runs off.",
+          "statement_id": "Dalam kisah Baopuzi tentang dua orang di sebuah gua batu, seorang pengunjung berpakaian seperti manusia tampak sebagai rusa di cermin; ketika ditegur sebagai rusa tua, ia berubah menjadi rusa dan lari.",
+          "quote": "於是二人顧視鏡中，乃是鹿也。因問之曰：汝是山中老鹿，何敢詐為人形。言未絕，而來人即成鹿而走去。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c15",
+          "source_id": "wd-q15925032-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to a saying quoted in the Soushenji from the Baize Tu, between two mountains there is a jing like a small child named Xinang that stretches out a hand to pull people, and it dies if drawn away from its old place.",
+          "statement_id": "Menurut ucapan yang dikutip dalam Soushenji dari Baize Tu, di antara dua gunung ada jing berupa anak kecil bernama Xinang yang mengulurkan tangan untuk menarik orang, dan ia mati bila ditarik dari tempat asalnya.",
+          "quote": "此事在白澤圖內；曰：『兩山之間，其精如小兒，見人，則伸手欲引人，名曰「傒囊」，引去故地，則死。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925032-c16",
+          "source_id": "wd-q15925032-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Soushenji quotes a saying that the jing of wood is \"Youguang\" and the jing of metal is \"Qingming\".",
+          "statement_id": "Soushenji mengutip ucapan bahwa jing kayu adalah \"Youguang\" dan jing logam adalah \"Qingming\".",
+          "quote": "索縛，則可得食。」王子曰：「木精為『游光』，金精為『清明』也。」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "51977e43d16645e2b1cd1dd260cd53a47bf762873ac582f1bd03bba9bd8d9dc0"
+      "images": []
     },
     {
       "slug": "yakusaikazuchi",
-      "file": "batch-055-fix-1.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "23571fcded21cfae8a3a20cc3f270a52cf1db21fb344ae7143d844fe46b32ee3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (yakusaikazuchi-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yakusaikazuchi-c01",
@@ -3705,8 +3954,8 @@
           "id": "yakusaikazuchi-c04",
           "source_id": "yakusaikazuchi-s1",
           "host": "en.wikipedia.org",
-          "statement": "One account links their origin with Izanami’s decaying body.",
-          "statement_id": "Satu kisah menghubungkan asalnya dengan tubuh Izanami yang membusuk.",
+          "statement": "Some tellings say the eight deities came from the maggots of Izanami's rotting corpse.",
+          "statement_id": "Beberapa penuturan menyebut kedelapan dewa itu berasal dari belatung jasad Izanami yang membusuk.",
           "quote": "Some tellings say that the eight deities were from the maggots of Izanami's rotting corpse.",
           "context": "religious-tradition",
           "status": "exact"
@@ -3740,27 +3989,101 @@
           "quote": "However, the Nihon Shoki says that Kuro-ikazuchi was in Izanami's rectum.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c08",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, the Yakusa no ikazuchi no kami of the Kojiki are the \"eight kinds of thunder kami\" that festered inside Izanami's corpse as seen by her consort Izanagi in the underworld of Yomi.",
+          "statement_id": "Menurut Ensiklopedia Shinto, Yakusa no ikazuchi no kami dalam Kojiki adalah \"delapan jenis kami petir\" yang membusuk di dalam jasad Izanami, seperti dilihat suaminya Izanagi di dunia bawah Yomi.",
+          "quote": "[Yakusa no ikazuchi no kami] (Kojiki) The \"eight kinds of thunder kami\" that festered inside Izanami's corpse as seen by her consort Izanagi in the underworld of Yomi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c09",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Kojiki, the eight thunders were in the corpse's head (great thunder), breast (fire thunder), belly (black thunder), genitals (cleft thunder), left hand (young thunder), right hand (earth thunder), left leg (sounding thunder) and right leg (reposing thunder).",
+          "statement_id": "Menurut Kojiki, kedelapan petir itu berada di kepala (petir besar), dada (petir api), perut (petir hitam), kemaluan (petir belah), tangan kiri (petir muda), tangan kanan (petir tanah), kaki kiri (petir bergema), dan kaki kanan (petir beristirahat) Izanami.",
+          "quote": "According to Kojiki, in her head was the \"great thunder,\" in her breast was the \"fire thunder,\" in her belly was the \"black thunder,\" in her genitals was the \"cleft thunder,\" in her left hand was the \"young thunder,\" in the right hand was the \"earth thunder,\" in her left leg was the \"sounding thunder,\" and in her right leg was the \"reposing thunder.\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c10",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "An \"alternate writing\" transmitted by the Nihongi states that great thunder was in her head, fire thunder in her breast, earth thunder in her belly, young thunder in her back, black thunder in her rectum, mountain thunder in her hands, field thunder in her feet and cleft thunder in her genitals.",
+          "statement_id": "Satu \"tulisan alternatif\" dalam Nihongi menyebut petir besar di kepala, petir api di dada, petir tanah di perut, petir muda di punggung, petir hitam di dubur, petir gunung di tangan, petir ladang di kaki, dan petir belah di kemaluan.",
+          "quote": "An \"alternate writing\" transmitted by Nihongi, however, states that \"great thunder\" was in her head, \"fire thunder\" was in her breast, \"earth thunder\" was in her belly, \"young thunder\" was in her back, \"black thunder\" was in her rectum, \"mountain thunder\" was in her hands, \"field thunder\" was in her feet, and \"cleft thunder\" was in her genitals.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c11",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Of the eight thunders, three have the same name and place in the two accounts, three agree in name only, and the remaining two are different.",
+          "statement_id": "Dari delapan petir itu, tiga memiliki nama dan tempat yang sama dalam dua catatan, tiga hanya sama namanya, dan dua sisanya berbeda.",
+          "quote": "Of the eight thunders, three have the same name and place in the two accounts, three agree in name only, and the remaining two are different.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c12",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The eight thunders produced in Izanami's dead body parallel the eight kami produced from the dismembered body of the fire kami Kagutsuchi; eight is considered a sacred number but is here likely used merely to denote \"a great many\".",
+          "statement_id": "Lahirnya delapan petir dari jasad Izanami disamakan dengan lahirnya delapan kami dari tubuh Kagutsuchi yang terpotong; delapan dianggap angka suci, tetapi di sini mungkin hanya berarti \"sangat banyak\".",
+          "quote": "The fact that eight thunders were produced in Izanami's dead body parallels the fact that eight kami were produced from the dismembered body of the fire kami Kagutsuchi. While eight is considered a sacred number, it is here likely used merely to denote \"a great many.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c13",
+          "source_id": "yakusaikazuchi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the various Kojiki and Nihongi accounts, Izanami ordered the \"hags of Yomi\" and the eight thunder kami to chase Izanagi; Izanagi threw down magical peaches at Yomotsuhirasaka and thus dispersed his pursuers.",
+          "statement_id": "Menurut berbagai catatan Kojiki dan Nihongi, Izanami memerintahkan \"nenek-nenek Yomi\" dan delapan kami petir mengejar Izanagi; Izanagi melempar buah persik gaib di Yomotsuhirasaka dan mengusir para pengejarnya.",
+          "quote": "According to the various Kojiki and Nihongi accounts mentioned above, Izanami ordered the \"hags of Yomi\" and the eight thunder kami to chase Izanagi ... Izanagi, however, threw down magical peaches at Yomotsuhirasaka (the \"Even Pass of Yomi\"), and thus dispersed his pursuers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c14",
+          "source_id": "yakusaikazuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Wikipedia list gives Fusu-ikazuchi (couchant thunder) and Hono-ikazuchi (fire thunder); the Kojiki says Hono-ikazuchi came from Izanami's breasts.",
+          "statement_id": "Daftar Wikipedia mencantumkan Fusu-ikazuchi (petir berbaring) dan Hono-ikazuchi (petir api); Kojiki menyebut Hono-ikazuchi berasal dari dada Izanami.",
+          "quote": "Fusu-ikazuchi: (Couchant thunder) Hono-ikazuchi: (Fire thunder) the Kojiki says that this kami came from Izanami's breasts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yakusaikazuchi-c15",
+          "source_id": "yakusaikazuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Both the Kojiki and the Nihon Shoki state that Ō-ikazuchi (great thunder) came from Izanami's head.",
+          "statement_id": "Kojiki dan Nihon Shoki sama-sama menyebut Ō-ikazuchi (petir besar) berasal dari kepala Izanami.",
+          "quote": "Ō-ikazuchi: (Great thunder) both the Kojiki and the Nihon Shoki state that Ō-ikazuchi came from Izanami's head.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "56d5938f2bd0f0899aca77aac7ef3ebf2b6d289a724e10b46dbe275a17440cb9"
+      "images": []
     },
     {
       "slug": "yamabito",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "18c9f10230c4e0f3307149007658a1557d77ff486824dcdb12d0f81b44fef207",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 19,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yamabito-c01",
@@ -3801,27 +4124,171 @@
           "quote": "Yanagita wrote down these folktales in the book Tono Monogatari",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "yamabito-c05",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, residents who once lived in the mountains were called yamabito or yamaotoko by villagers and thought to be descendants of the indigenous people; tales of meeting them were often told in villages until the Meiji era, reflecting farmers' awe of mountain dwellers.",
+          "statement_id": "Menurut Nipponica, penduduk yang dahulu tinggal di pegunungan disebut yamabito atau yamaotoko oleh penduduk desa dan dianggap keturunan penduduk asli; cerita perjumpaan dengan mereka sering dituturkan di desa hingga zaman Meiji, dan mencerminkan rasa takut petani terhadap orang pegunungan.",
+          "quote": "かつては村人に対して、山中にいた住民を山人または山男とよんで、先住民の子孫と考えられていた。明治時代まで村ではこの人々に出会ったという話がよく伝えられた。町の市(いち)などに現れたとか、山中に大男が寝ていて、脱いだ大きな履き物があったとかいう。農民にとって、山間に住む人への畏怖(いふ)感の反映がみられる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c06",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, the Tankai (1795) by Tsumura Sōan records that at Hakone in Sagami Province (Kanagawa Prefecture) there was a yamaotoko who was naked, wore leaves and bark, lived deep in the mountains, and made his living catching akahara fish.",
+          "statement_id": "Menurut Nipponica, Tankai (1795) karya Tsumura Sōan mencatat bahwa di Hakone, Provinsi Sagami (Prefektur Kanagawa), ada seorang yamaotoko yang telanjang, berpakaian daun dan kulit kayu, tinggal di pegunungan dalam, dan mencari ikan akahara.",
+          "quote": "江戸時代、津村淙庵(そうあん)の著した『譚海(たんかい)』（1795）に次のような記事がある。 ... 相模(さがみ)国（神奈川県）箱根に山男というものがいた。裸体で木葉樹皮を衣とし深山中に住んで赤腹魚をとるのを業としていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c07",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "In the same account, he knew there was a market, brought the fish to exchange for rice, said little beyond trading, and afterwards returned like a flying bird through places with no road.",
+          "statement_id": "Menurut kisah yang sama, ia tahu ada pasar, membawa ikan itu untuk ditukar dengan beras, tidak banyak bicara selain berdagang, dan pulang seperti burung terbang lewat tempat tanpa jalan.",
+          "quote": "市があるのを知っていてこの魚をもってきて米と交換した。交易のほか多言せず、交易が終わると道のない所を鳥の飛ぶように帰っていった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c08",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Heibonsha World Encyclopedia, traditions about yamabito could be heard in mountain villages across the country, and most are of the yokai kind such as yamaotoko, yamauba, tengu and oni.",
+          "statement_id": "Menurut Ensiklopedia Dunia Heibonsha, tradisi tentang yamabito bisa didengar di desa pegunungan di seluruh negeri, dan sebagian besar berupa jenis yokai seperti yamaotoko, yamauba, tengu, dan oni.",
+          "quote": "山人の伝承は全国の山間の村で聞くことができたが，その多くは山男，山姥（やまうば），天狗，鬼などの妖怪の類である。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c09",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the same encyclopedia, lowland rice farmers saw the mountains as a foreign space held in awe, which gave rise to many strange occurrences.",
+          "statement_id": "Menurut ensiklopedia yang sama, penduduk dataran yang bertani padi sawah memandang gunung sebagai ruang asing yang ditakuti, sehingga banyak kejadian ganjil lahir dari sana.",
+          "quote": "里に住んで水田稲作農業に従事している人々からは，山は異質の空間であると認識され，畏怖の観念でとらえられていたため，多くの怪異を生み出したのである。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c10",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "Yanagita assumed that yamabito really existed: indigenous people driven into the mountains by immigrant rice-farming people who worshipped the heavenly kami (amatsukami), non-rice-farmers who worshipped the earthly kami (kunitsukami).",
+          "statement_id": "Yanagita Kunio berasumsi bahwa yamabito benar-benar ada: penduduk asli yang diusir ke pegunungan oleh bangsa pendatang petani padi pemuja dewa langit (amatsukami), dan mereka adalah orang non-petani padi pemuja dewa bumi (kunitsukami).",
+          "quote": "柳田は山人が実在したことを仮定して，天津神（あまつかみ）を奉ずる渡来民族（水田稲作農耕民）によって山に追われた先住民が山人であるとし，山人は国津神（くにつかみ）を奉じた非稲作民であったとしている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c11",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "Yanagita named the yamabito's character as honest, scrupulous, brave, stubborn, tenacious, unwilling to lose and vengeful, presenting a rich picture of them.",
+          "statement_id": "Yanagita menyebut watak yamabito: jujur, bersih, berani, keras kepala, gigih, tidak mau kalah, dan pendendam; dengan itu ia menyajikan gambaran yamabito yang kaya.",
+          "quote": "山人の性格として，正直，潔癖，剛気，片意地，執着，負けぎらい，復讐心などが備わっていたことをあげていて，豊かな山人像を提示したのである。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c12",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "Orikuchi held that yamabito include indigenous people but also villagers who went into the mountains and coastal people who migrated to the mountains, without limiting their origin to one thing.",
+          "statement_id": "Orikuchi Shinobu berpendapat bahwa yamabito mencakup penduduk asli, tetapi juga orang desa yang masuk gunung dan orang pesisir yang pindah ke pegunungan, tanpa membatasi asal-usulnya pada satu hal.",
+          "quote": "折口は山人には先住民もいるが，里に住んだ者が山に入り，さらに海岸の民が山地に移住した者によって構成されているとして，その成立を一義的に限定していない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c13",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Britannica International Encyclopedia, they are said to be naked, large-bodied and red-faced; in Tōhoku, Shinshū and Kyūshū it is told that a yamaotoko came to a mountain hut and begged for mochi.",
+          "statement_id": "Menurut Ensiklopedia Britannica Internasional, mereka dikatakan telanjang, bertubuh besar, dan berwajah merah; di Tōhoku, Shinshū, dan Kyūshū diceritakan bahwa yamaotoko datang ke pondok gunung dan meminta mochi.",
+          "quote": "裸体で体躯が大きく赤ら顔といわれる。東北地方，信州，九州などで山小屋へ山男が来て餅をせがんだという話が伝えられている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c14",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Mypedia, yamabito are imagined as descendants of indigenous people, a mountain kami or its servants, or yokai such as oni and tengu; they are also said to be naked red-faced giants who appear in villages asking for salt.",
+          "statement_id": "Menurut Mypedia, yamabito dibayangkan sebagai keturunan penduduk asli, dewa gunung atau pelayannya, atau yokai seperti oni dan tengu; mereka juga dikatakan raksasa telanjang berwajah merah yang muncul di desa meminta garam.",
+          "quote": "先住民の子孫，山の神またはその奉仕者，鬼や天狗(てんぐ)などの妖怪と想像されている。赤顔裸体の巨人で，里に現れて塩を求めるともいわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c15",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, the word yamabito already appears in ancient documents, but it is unclear whether it then meant indigenous people; old documents record yamabito going to the capital and serving at court, and the Gōke Shidai (1111) says they performed the niwabi role.",
+          "statement_id": "Menurut Nipponica, kata yamabito sudah tampak dalam naskah kuno, tetapi tidak jelas apakah ketika itu berarti penduduk asli; naskah lama mencatat yamabito datang ke ibu kota dan mengabdi di istana, dan Gōke Shidai (1111) menyebut mereka bertugas dalam niwabi.",
+          "quote": "山人という語は、古代の文献にもみえているが、それが当時においても先住民を意味していたかどうかはよくわからない。古文献によると、山人が都に出て宮廷に仕えた記事もあり、『江家次第(ごうけしだい)』（1111）によると庭燎(にわび)の役を勤めたとある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c16",
+          "source_id": "yamabito-s2",
+          "host": "kotobank.jp",
+          "statement": "Yanagita carried out a large survey of 50 mountain villages across the country over three years from 1934, trying to grasp the reality of the yamabito remaining in the mountains.",
+          "statement_id": "Yanagita mengadakan survei besar-besaran ke 50 desa pegunungan di seluruh negeri selama tiga tahun sejak 1934 untuk menangkap kenyataan yamabito yang tersisa di gunung.",
+          "quote": "柳田は，その山に残った山人の実体をとらえようとして，1934年から3年間をかけて全国50の山村の調査を大々的に行った",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c17",
+          "source_id": "yamabito-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Minakata Kumagusu was highly critical of Yanagita's research, heaping severe criticism and ridicule on belief that the Yamabito ever existed.",
+          "statement_id": "Minakata Kumagusu sangat mengkritik penelitian Yanagita, mencela keyakinan bahwa yamabito pernah ada.",
+          "quote": "Minakata Kumagusu was highly critical of Yanagita's research, \"heaping severe criticism and ridicule on belief that ... the Yamabito ever existed.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c18",
+          "source_id": "yamabito-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to records, between 1915 and 1916 the two scholars exchanged letters debating the existence of the Yamabito.",
+          "statement_id": "Menurut catatan, antara 1915 dan 1916 kedua sarjana itu bertukar surat memperdebatkan keberadaan yamabito.",
+          "quote": "According to records, between 1915 and 1916, the two scholars exchanged letters debating the existence of the Yamabito.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamabito-c19",
+          "source_id": "yamabito-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One of the concepts Yanagita presents in Tono Monogatari is kamikakushi, being literally spirited away.",
+          "statement_id": "Salah satu konsep yang disajikan Yanagita dalam Tono Monogatari adalah kamikakushi, yaitu \"disembunyikan oleh kami\".",
+          "quote": "One of the concepts Yanagita presents in Tono Monogatari is that of, literally, being spirited away, or kamikakushi.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b67339407d9c335947c9e208c406e271efde3952902bf6c0d106ea0abdbfd3e6"
+      "images": []
     },
     {
       "slug": "yashima-no-hage-tanuki",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "9a336631acb02f51780eaef84304b4a7cab13812b7d8a0b5b12eff54bec98b05",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yashima-no-hage-tanuki-c01",
@@ -3862,27 +4329,181 @@
           "quote": "After the Taira clan was ruined, Hage-tanuki became the protector deity of Yashima-ji, the 84th temple on the Shikoku 88-temple pilgrimage.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c05",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His skill at transformation was called the best in Japan, and he achieved the rank of supreme commander of the tanuki in Shikoku.",
+          "statement_id": "Kemampuan transformasinya disebut yang terbaik di Jepang, dan ia mencapai pangkat panglima tertinggi para tanuki di Shikoku.",
+          "quote": "His skill at transformation was called the best in Japan, and he achieved the rank of supreme commander of the tanuki in Shikoku.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c06",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In times of extreme cold, 300 tanuki of his household would gather together, and he would show phantom magic to Minamoto no Yoshitsune's Yasō Tobi and Yumi Nagashi, as happened during the Genpei War.",
+          "statement_id": "Dalam cuaca sangat dingin, 300 tanuki rumah tangganya berkumpul, dan ia memperlihatkan sihir bayangan pada Yasō Tobi dan Yumi Nagashi milik Minamoto no Yoshitsune, seperti terjadi pada Perang Genpei.",
+          "quote": "In times of extreme cold, 300 tanuki of his household would gather together, and he would show phantom magic to Minamoto no Yoshitsune's Yasō Tobi (八艘飛び) and Yumi Nagashi (弓流し), as happened during the Genpei War.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c07",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One story says Hage-tanuki was shot and killed by a hunter; in another version he died in a contest of disguises with Shibaemon-tanuki of Awaji.",
+          "statement_id": "Satu kisah menyebut Hage-tanuki tewas ditembak pemburu; versi lain menyebut ia mati dalam adu penyamaran melawan Shibaemon-tanuki dari Awaji.",
+          "quote": "One story of Hage-tanuki's death is that he was shot and killed by a hunter. In another version, he died in a contest of disguises with Shibaemon-tanuki of Awaji.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c08",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the contest, the fleet had been Hage-tanuki's disguise, successfully tricking Shibaemon; when Hage-tanuki praised Shibaemon loudly he was reprimanded by a soldier for insolence and killed by a spear, since it had been the real Daimyo's procession.",
+          "statement_id": "Dalam adu penyamaran itu, armada kapal perang adalah penyamaran Hage-tanuki yang berhasil menipu Shibaemon; ketika Hage-tanuki memuji Shibaemon dengan lantang, ia ditegur seorang prajurit karena lancang dan dibunuh dengan tombak, sebab arak-arakan itu adalah arak-arakan daimyo yang sebenarnya.",
+          "quote": "The fleet had been Hage-tanuki's disguise, successfully tricking Shibaemon. ... Hage-tanuki praised Shibaemon in a loud voice, but was reprimanded by a soldier for his insolence and was killed by a spear; it had been the real Daimyo's procession.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c09",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After Hage-tanuki's death, his spirit moved to dwell in Awa Province (now Tokushima Prefecture) and started to possess humans.",
+          "statement_id": "Setelah Hage-tanuki mati, rohnya pindah ke Provinsi Awa (kini Prefektur Tokushima) dan mulai merasuki manusia.",
+          "quote": "After Hage-tanuki's death, his spirit moved to dwell in Awa Province (now Tokushima Prefecture), and started to possess humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c10",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the years of Kaei, in Hayashimura, Awa district, he possessed a female hairdresser, made predictions, and was said to have dropped a tanukitsuki (tanuki possession).",
+          "statement_id": "Pada tahun-tahun Kaei di Hayashimura, distrik Awa, ia merasuki seorang penata rambut perempuan, membuat ramalan, dan konon menjatuhkan tanukitsuki (kerasukan tanuki).",
+          "quote": "In the years of Kaei, in Hayashimura, Awa district (now Awa city), he possessed a female hairdresser, made predictions, and was said to have dropped a tanukitsuki (tanuki possession).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c11",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After Kinkyō-tanuki and Rokuemon-tanuki killed each other, their offspring were about to take revenge on each other, and Yashima no Hage-tanuki arbitrated between them and settled the issue.",
+          "statement_id": "Setelah Kinkyō-tanuki dan Rokuemon-tanuki saling membunuh, keturunan mereka hendak saling membalas dendam, tetapi Yashima no Hage-tanuki menengahi dan menyelesaikan masalah itu.",
+          "quote": "After Kinkyō-tanuki and Rokuemon-tanuki killed each other, their offspring were about to try to take revenge on each other, and Yashima no Hage-tanuki arbitrated between them and settled the issue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c12",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because he performed many good deeds, in Takamatsu he is now called Minoyama Daimyōjin; he is the god of family happiness, marriage, and the entertainment business, and is believed to bring good fortune to children.",
+          "statement_id": "Karena banyak perbuatan baiknya, di Takamatsu ia kini disebut Minoyama Daimyōjin; ia dewa kebahagiaan keluarga, pernikahan, dan dunia hiburan, dan dipercaya membawa keberuntungan bagi anak-anak.",
+          "quote": "Yashima no Hage-tanuki performed many good deeds, so now in Takamatsu he is called Minoyama Daimyōjin (蓑山大明神). He is the god of family happiness, marriage, and the entertainment business; and is believed to bring about good fortune to children.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c13",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is counted as one of the \"three famous tanuki of Japan\", along with Danzaburou-danuki of Sado and Shibaemon-tanuki of Awaji.",
+          "statement_id": "Ia dihitung sebagai salah satu dari \"tiga tanuki termasyhur Jepang\", bersama Danzaburō-danuki dari Sado dan Shibaemon-tanuki dari Awaji.",
+          "quote": "He is counted as one of the \"three famous tanuki of Japan\", along with Danzaburou-danuki of Sado and Shibaemon-tanuki of Awaji.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c14",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Afterwards, in the First Sino-Japanese and Russo-Japanese wars, Hage-tanuki departed with many of his followers towards Manchuria.",
+          "statement_id": "Setelah itu, pada Perang Tiongkok-Jepang Pertama dan Perang Rusia-Jepang, Hage-tanuki berangkat bersama banyak pengikutnya ke Manchuria.",
+          "quote": "Afterwards, in the First Sino-Japanese and Russo-Japanese wars, Hage-tanuki departed with many of his followers towards Manchuria.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c15",
+          "source_id": "yashima-no-hage-tanuki-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "According to the Japan Tourism Agency explanation database, the sanctuary is dedicated to Minoyama Daimyojin, a legendary local spirit who took the form of a tanuki but was believed to be able to shape-shift at will, and the deity is said to bring good luck in family life, marriage and the nighttime entertainment business.",
+          "statement_id": "Menurut basis data penjelasan Badan Pariwisata Jepang, kuil itu dipersembahkan bagi Minoyama Daimyojin, roh lokal legendaris berwujud tanuki yang dipercaya dapat berubah wujud sesuka hati, dan dewa ini dikatakan membawa keberuntungan bagi kehidupan keluarga, pernikahan, dan bisnis hiburan malam.",
+          "quote": "The sanctuary is dedicated to Minoyama Daimyojin, a legendary local spirit who took the form of a tanuki but was believed to be able to shape-shift at will. The deity is said to bring good luck in family life and marriage, and to the nighttime entertainment business.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c16",
+          "source_id": "yashima-no-hage-tanuki-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "The Traditional Chinese text on the same page says the deity enshrined, Minoyama Daimyojin, is named Yashima Tasaburō-tanuki, one of Japan's three famous tanuki, usually appearing in tanuki form and able to change form at will, with transformation ability the best in Japan.",
+          "statement_id": "Teks bahasa Mandarin tradisional pada halaman yang sama menyebut dewa yang dipuja, Minoyama Daimyojin, bernama Yashima Tasaburō-tanuki, salah satu dari tiga tanuki termasyhur Jepang, yang biasanya tampil sebagai tanuki dan dapat berubah wujud sesuka hati, dengan kemampuan transformasi yang terbaik di Jepang.",
+          "quote": "這座小神社供奉的是「蓑山大明神」，衪是傳說中的當地神明，名叫「屋島太三郎狸」，是日本三大名狸之一，平時以狸貓的形象出現，擁有隨意變幻形象的能力，其幻化能力堪稱冠絕日本。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c17",
+          "source_id": "yashima-no-hage-tanuki-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Although Japanese mythology often describes shape-shifting tanuki as mischievous, the story goes that Minoyama Daimyojin helped the priest Kukai (774-835) when he became lost in the mist on Yashima, appearing disguised as an old man in a cloak and guiding him safely to the top of the mountain.",
+          "statement_id": "Meskipun tanuki pengubah wujud sering digambarkan jahil dalam mitologi Jepang, kisahnya menyebut Minoyama Daimyojin menolong pendeta Kūkai (774-835) yang tersesat dalam kabut di Yashima: dewa itu menjelma menjadi lelaki tua berjubah dan menuntunnya selamat ke puncak gunung.",
+          "quote": "Although Japanese mythology often describes shape-shifting tanuki as mischievous, the story goes that Minoyama Daimyojin helped the priest Kukai (774–835) when he became lost in the mist on Yashima. The deity appeared to Kukai disguised as an old man in a cloak and guided him safely to the top of the mountain.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c18",
+          "source_id": "yashima-no-hage-tanuki-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "A small shrine beside the main hall at Yashimaji, with a tunnel of red torii gates, has an entrance flanked by two large tanuki statues rather than the fox statues usual at an Inari shrine.",
+          "statement_id": "Sebuah kuil kecil di samping aula utama Yashimaji, dengan lorong gerbang torii merah, pintu masuknya dijaga dua patung besar tanuki, bukan patung rubah seperti lazimnya kuil Inari.",
+          "quote": "A tunnel of red torii gates leads to a small shrine beside the main hall (hondo) at Yashimaji Temple. This type of tunnel usually marks the entrance to an Inari shrine, with fox statues on either side of the path. However, the entrance to this shrine is flanked by two large statues of tanuki (racoon dogs).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c19",
+          "source_id": "yashima-no-hage-tanuki-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "According to the database, the legendary tanuki also appeared in the Studio Ghibli animated film Pom Poko (1994).",
+          "statement_id": "Menurut basis data itu, tanuki legendaris ini juga muncul dalam film animasi Studio Ghibli Pom Poko (1994).",
+          "quote": "This is just one of several stories involving the legendary tanuki, who also made an appearance in the Studio Ghibli animated film Pom Poko (1994).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "yashima-no-hage-tanuki-c20",
+          "source_id": "yashima-no-hage-tanuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the past, a tanuki wounded by a fatal arrow was saved by Taira no Shigemori; to repay the debt, the tanuki swore to protect the Taira clan, and its descendant is said to be Yashima no Hage-tanuki.",
+          "statement_id": "Dahulu ada seekor tanuki yang terluka panah maut tetapi diselamatkan Taira no Shigemori; sebagai balas budi, tanuki itu bersumpah melindungi klan Taira, dan keturunannya disebut Yashima no Hage-tanuki.",
+          "quote": "In the past, there was a tanuki who was wounded by a fatal arrow shot, but was saved by Taira no Shigemori. To pay his debt of gratitude, the tanuki swore to protect the Taira clan. This wounded tanuki's descendant is said to be Yashima no Hage-tanuki.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d3b8914aa7273fb1bf944b3384d872231e8f49735aa8cf0f58e1269c349c099"
+      "images": []
     },
     {
       "slug": "yazi",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "3ddc10c33986922f4ab5f56ab2ce9bed28c0e2dbfaee4024a74b7f77f1f6d2f9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yazi-c01",
@@ -3923,27 +4544,71 @@
           "quote": "よって、刀の環（刀を佩びるための輪）や、剣の鯉口、武器や罪人を処刑するための鎌や矛に彫られ、古代（三国志時代）には軍旗などの図案に多く用いられた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yazi-c05",
+          "source_id": "yazi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Shuolue, the nine sons of the dragon are not dragons and each has its own fondness: Yazi likes killing and is used to adorn sword hilts; the others are Qiuniu, Chaofeng, Pulao, Suanni, Baxia, Bi'an, Xixi and Chiwen.",
+          "statement_id": "Menurut Shuolue, sembilan putra naga bukan naga dan masing-masing punya kegemaran: Yazi gemar membunuh dan dipakai menghiasi gagang pedang; delapan lainnya adalah Qiuniu, Chaofeng, Pulao, Suanni, Baxia, Bi'an, Xixi, dan Chiwen.",
+          "quote": "龍生九子，不成龍，各有所好。囚牛，好音樂，以飾胡琴。睚眦，好殺，以飾刀柄。嘲風，好險，在殿角。蒲牢，好鳴，取為鐘紐。狻猊，好座，取為佛座。霸下，好負重，為碑座。狴犴，好訟，為獄門。屓屭，好文，在碑兩傍。蚩吻，好吞，在殿脊。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yazi-c06",
+          "source_id": "yazi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Shuolue, in the Hongzhi era a palace official asked Li Dongyang for the names of the dragon's nine sons; he could not give them all, Liu Ji obtained them from an old register of unknown origin, and the author judged the account unfounded (bujing).",
+          "statement_id": "Menurut Shuolue, pada masa Hongzhi seorang pejabat istana bertanya tentang nama kesembilan putra naga kepada Li Dongyang, yang tidak dapat menyebutkannya; Liu Ji lalu mendapatkannya dari sebuah catatan lama yang asal-usulnya tidak diketahui, dan penulis menilai uraian itu tidak berdasar (bujing).",
+          "quote": "弘治間，泰陵令中官問龍生九子名目於李少師東陽，李不能悉，詢於吏部劉員外績，乃得其說，於故冊面上所錄，然亦不知所從出，因據以復。余憶十一、二時，曾見其說於《對類總龜》中，近因歴考傳記，乃知其說為不經。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yazi-c07",
+          "source_id": "yazi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Shuolue, the term 睚眦 appears in the Zhanguoce in a line about the worthy being moved by a slight resentment; the note explains ya as \"raising the eyes\" and zi as \"the eye socket\".",
+          "statement_id": "Menurut Shuolue, istilah 睚眦 muncul dalam Zhanguoce dengan kalimat \"Orang berbudi tergerak oleh sedikit kemarahan\"; catatannya menjelaskan ya sebagai \"mengangkat mata\" dan zi sebagai \"rongga mata\".",
+          "quote": "睚眦，《戰國策》聶政曰：賢者以感忿睚眦之意。注：睚，舉眼也；眦，目匡也。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yazi-c08",
+          "source_id": "yazi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, the character 睚 derives from the edge of the eye and 眦 from the part where the eye just begins to open; both mean the corner of the eye.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, 睚 berasal dari tepi mata dan 眦 dari bagian mata yang baru mulai terbuka; keduanya berarti sudut mata.",
+          "quote": "『睚』の字の由来は目のきわ、『眦』は目のわずかに開きはじめた部分、で、どちらも、まなじりや目じりという意味である。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yazi-c09",
+          "source_id": "yazi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Both characters also mean \"to glare\"; 睚眦 means to look in anger and, by extension, \"slight\"; the 睚眦之怨 of the Shiji is a grudge as small as being glared at.",
+          "statement_id": "Kedua huruf itu juga berarti \"melotot\"; 睚眦 berarti menatap marah dan, secara luas, \"sedikit\"; 睚眦之怨 dalam Shiji adalah dendam setingkat dipelototi sedikit.",
+          "quote": "また、どちらに字にも『にらむ』という意味があり、転じて『睚眦』には『目を怒らして見る。にらむ』という意味があり、転じて『わずか』という意味もある。史記・范雎伝にある『睚眦之怨』（がいさいのうらみ）は、ちょっとにらまれた程度の恨み、という意味である。",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ba6caed7add785ed8184a3c933770731afe79cc67ffe49ac48761f14ceaac864"
+      "images": []
     },
     {
       "slug": "zao-gongen",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "e4136e991eaaebb450cefdcc19eabeffddcd407da34dc4a5b03777f61183abe7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 19,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zao-gongen-c01",
@@ -3979,32 +4644,176 @@
           "id": "zao-gongen-c04",
           "source_id": "zao-gongen-s1",
           "host": "ja.wikipedia.org",
-          "statement": "The figure combines Shaka, Kannon and Miroku.",
-          "statement_id": "Sosok itu memadukan Shaka, Kannon, dan Miroku.",
+          "statement": "Zaō Gongen is regarded as a combination of Shaka Nyorai, Senju Kannon and Miroku Bosatsu, and three nearly identical images are enshrined side by side as principal image in the Zaō-dō at Yoshino.",
+          "statement_id": "Zaō Gongen dianggap penggabungan Shaka Nyorai, Senju Kannon, dan Miroku Bosatsu, dan tiga arca yang nyaris sama dipuja berdampingan sebagai arca utama di Zaō-dō, Yoshino.",
           "quote": "釈迦如来、千手観音、弥勒菩薩の三尊の合体したものとされ、今でも吉野山の蔵王堂には互いにほとんど同じ姿をした三体の蔵王権現像が並んで本尊として祀られている。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c05",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Heibonsha World Encyclopedia, he is a bodhisattva who subdues demonic obstacles, an incarnation of Shakyamuni's wrathful form, said to have been perceived by En no Gyōja, founder of Shugendō, at the summit of Mt. Kinpu after praying for the salvation of beings.",
+          "statement_id": "Menurut Ensiklopedia Dunia Heibonsha, ia adalah bodhisatwa penakluk rintangan setan, jelmaan murka Buddha Shakya, yang dikatakan dirasakan En no Gyōja, pendiri Shugendō, di puncak Gunung Kinpu setelah berdoa demi menyelamatkan makhluk hidup.",
+          "quote": "修験道の開祖役行者（えんのぎようじや）が金峰山（きんぷせん）の頂上で衆生済度のため祈請して感得したと伝える魔障降伏の菩薩で，釈迦仏の教令輪身。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c06",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the same encyclopedia, his form has one face, three eyes and two arms, with a blue-black body in a wrathful aspect; the left hand forms a sword mudra at the waist, the right holds a three-pronged vajra high overhead, the left foot treads a boulder and the right leaps into the air.",
+          "statement_id": "Menurut ensiklopedia yang sama, wujudnya berwajah satu bermata tiga berlengan dua, berkulit biru kehitaman dalam rupa murka; tangan kiri membentuk mudra pedang di pinggang, tangan kanan mengangkat vajra bercabang tiga di atas kepala, kaki kiri menginjak batu karang, dan kaki kanan melompat ke udara.",
+          "quote": "形像は一面三目二臂（ひ），身色青黒の忿怒形（ふんぬぎよう）で，左手は剣印を結んで腰につけ，右手は三鈷杵（さんこしよ）を奉持して頭上高く掲げ，左足は磐石を踏み，右足は空中に躍らす。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c07",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "He does not appear in the sutras and ritual manuals; he is a distinctive gongen born within the mountain worship of Japan, apparently derived from the worship of great rocks.",
+          "statement_id": "Ia tidak tercantum dalam kitab sutra, melainkan gongen khas yang lahir dalam pemujaan gunung Jepang, dan tampaknya berasal dari pemujaan batu besar.",
+          "quote": "経軌（きようき）には見えず，日本の山岳信仰の中で生まれた独自の権現で，磐境（いわさか）の巨石信仰に由来すると思われる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c08",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "In the mid-Heian period, when Miroku worship flourished, Mt. Kinpu was likened to the inner court of Tusita and Kongō Zaō was regarded as an incarnation of Miroku.",
+          "statement_id": "Pada pertengahan zaman Heian, ketika pemujaan Maitreya (Miroku) berkembang, Gunung Kinpu disamakan dengan surga Tusita dan Kongō Zaō dianggap penjelmaan Miroku.",
+          "quote": "平安中期に弥勒（みろく）信仰が盛んになり，金峰山は弥勒浄土の兜率（とそつ）内院に擬せられ，金剛蔵王は弥勒の化身とされた。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c09",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "The oldest image is a fine-line engraved mirror image held at Sōjiji (Nishiarai Daishi), Tokyo, a national treasure, made in 1001.",
+          "statement_id": "Arca tertua adalah cermin berukir halus milik Sōjiji (Nishiarai Daishi), Tokyo, sebuah harta nasional, yang dibuat pada 1001.",
+          "quote": "最古の像は東京都総持寺（西新井大師）所蔵の毛彫鏡像（国宝）で，1001年（長保3）の作である。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c10",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Britannica International, the name Zaō Gongen came into use from the mid-Heian period; the oldest example is the inscription on a sutra cylinder that Fujiwara no Michinaga buried in 1007 at the Mt. Kinpu sutra mound in Yamato.",
+          "statement_id": "Menurut Britannica Internasional, nama Zaō Gongen dipakai sejak pertengahan zaman Heian; contoh tertuanya adalah tulisan pada tabung sutra yang dikubur Fujiwara no Michinaga pada 1007 di situs kuburan sutra Gunung Kinpu, Yamato.",
+          "quote": "蔵王権現というようになったのは平安時代中期頃からで，藤原道長が寛弘4 (1007) 年に大和の金峯山経塚に埋めた経筒の銘文に記されたのが古い例である。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c11",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, in Shugendō people undergo patient discipline on steep mountains to subdue the demons in their hearts and gain power; Zaō Gongen was born from this, not from sutras or ritual manuals.",
+          "statement_id": "Menurut Nipponica, dalam Shugendō orang menjalani latihan sabar di gunung terjal untuk menaklukkan setan dalam hati dan memperoleh kekuatan; Zaō Gongen lahir dari latihan itu, bukan dari kitab sutra atau tata cara ritual.",
+          "quote": "修験道では険峻(けんしゅん)な山で忍苦の行(ぎょう)をし、心中の悪魔を降伏して験力を得ようとするが、そのようななかから生み出されたものであり、経軌(きょうき)（経典や儀軌）によるものではない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c12",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Because the Honchō Hokke Genki tells of the monk Tenjō (d. 849) visiting the presence of Kongō Zaō at Mt. Kinpu in his lifetime, it is certain that he was already enshrined in the early Heian period.",
+          "statement_id": "Karena Honchō Hokke Genki memuat kisah biksu Tenjō (wafat 849) yang menziarahi hadapan Kongō Zaō di Gunung Kinpu semasa hidup, dapat dipastikan bahwa ia sudah dipuja pada awal zaman Heian.",
+          "quote": "《本朝法華験記》に，849年（嘉祥2）に没した僧転乗が生前金峰山の金剛蔵王宝前に参詣した話を載せているので，平安初期に奉斎されていたことは確実である。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c13",
+          "source_id": "zao-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, this is the wrathful demon-subduing image that En no Ozunu is said to have perceived on Mt. Kinpu, Nara Prefecture, after severe discipline; a three-eyed face with bristling hair, right hand brandishing a three-pronged vajra, left hand forming a sword mudra, standing on his left foot alone on a rock.",
+          "statement_id": "Menurut Nipponica, ini adalah arca murka penakluk setan yang dikatakan dirasakan En no Ozunu di Gunung Kinpu, Prefektur Nara, setelah latihan keras; wajah bermata tiga dengan rambut berdiri, tangan kanan mengayunkan vajra bercabang tiga, tangan kiri membentuk mudra pedang, dan berdiri pada satu kaki kiri di atas batu.",
+          "quote": "奈良時代の呪術者(じゅじゅつしゃ)役小角(えんのおづぬ)が、奈良県金峰山(きんぶせん)上で難行苦行ののち、感得したと伝える悪魔降伏(ごうぶく)の忿怒(ふんぬ)相の像。三目の顔で怒髪(どはつ)天をつき、右手は三鈷杵(さんこしょ)を握って高く振り上げ、左手は剣印を結んで腰部に当て、右足を振り上げ、左足のみにて岩石上に立つ形をとる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c14",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, the right-hand vajra shows crushing heavenly demons, the left-hand sword mudra a sharp blade cutting off all desire and afflictions, the left foot treading holds down demons underground, the raised right foot sweeps away demons between heaven and earth, and the flames behind represent great wisdom.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, vajra tangan kanan melambangkan penghancuran iblis langit, mudra pedang tangan kiri pedang tajam yang memutus nafsu dan kekotoran batin, injakan kaki kiri menekan iblis di bawah tanah, tendangan kaki kanan mengusir iblis antara langit dan bumi, dan api di belakangnya kearifan besar.",
+          "quote": "右手の三鈷杵は天魔を粉砕する相を示し、左手の刀印は一切の情欲や煩悩を断ち切る利剣を示す。左足の踏みつけは地下の悪魔を押さえつけており、右足の蹴り上げは天地間の悪魔を払っている姿、背後の炎は大智慧をあらわしている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c15",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Shinto-Buddhist syncretic teaching he was regarded as the same deity as Emperor Ankan, so at the Meiji-era separation of Shinto and Buddhism many shrines other than Kinpusen-ji made Emperor Ankan their enshrined deity.",
+          "statement_id": "Dalam ajaran sinkretisme Shinto-Buddha ia dianggap satu dewa dengan Kaisar Ankan, sehingga pada pemisahan Shinto-Buddha zaman Meiji banyak kuil selain Kinpusen-ji menjadikan Kaisar Ankan sebagai dewa utama.",
+          "quote": "神仏習合の教説では安閑天皇（広国押建金日命）と同一の神格とされたため、明治時代の神仏分離の際には、本山である金峯山寺以外の蔵王権現を祀っていた神社では祭神を安閑天皇としたところも多い。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c16",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Shinto, Zaō Gongen was syncretized and identified with Kuninotokotachi, Ōnamuchi, Sukunahikona, Yamato Takeru, Kanayamabiko and others, so shrines enshrining him mainly came to worship those five groups of deities.",
+          "statement_id": "Dalam Shinto, Zaō Gongen disinkretiskan dan disamakan dengan Kuninotokotachi, Ōnamuchi, Sukunahikona, Yamato Takeru, Kanayamabiko, dan lainnya, sehingga kuil yang memujanya terutama memuliakan kelima kelompok dewa tersebut.",
+          "quote": "また神道において、蔵王権現は国常立尊、大己貴命、少彦名命、日本武尊 、金山毘古命等と習合し、同一視された。その為蔵王権現を祭る神社では、主に上記の5組の神々らを祭神とするようになった。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c17",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, \"Kongō Zaō\" means a king who embodies ultimate indestructible truth and rules over all things, and gongen means a kami or buddha who appears in a provisional form.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, \"Kongō Zaō\" berarti raja yang mewujudkan kebenaran tertinggi yang tak binasa dan menguasai segala sesuatu, dan gongen berarti dewa-buddha yang tampil dalam rupa sementara.",
+          "quote": "「金剛蔵王」とは究極不滅の真理を体現し、あらゆるものを司る王という意。 ... 権現とは「権（かり）の姿で現れた神仏」の意。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c18",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the medieval period Susanoo, the enshrined deity of Izumo Taisha, was regarded as the same being as Zaō Gongen, the principal image of Gakuen-ji.",
+          "statement_id": "Pada abad pertengahan, Susanoo, dewa Izumo Taisha, dianggap satu wujud dengan Zaō Gongen, dewa utama Gakuenji.",
+          "quote": "上記の5組の神々らを祭神とするようになった。 また、中世出雲大社の祭神スサノオが鰐淵寺の本尊蔵王権現と同体とされていた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zao-gongen-c19",
+          "source_id": "zao-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Zaō range on the border of Miyagi and Yamagata prefectures, formerly called Kattamine or Wasurezu no Yama, came to be called Mt. Zaō after Zaō Gongen was invited from Yoshino and ascetics trained there in the Heian period.",
+          "statement_id": "Pegunungan Zaō di perbatasan Prefektur Miyagi dan Yamagata, dahulu bernama Kattamine atau Wasurezu no Yama, disebut Gunung Zaō karena Zaō Gongen dipindahkan dari Yoshino dan para pertapa berlatih di sana pada zaman Heian.",
+          "quote": "宮城県と山形県との県境にある日本百名山の蔵王連峰（蔵王山）は、古くは刈田嶺（かったみね、かったね、かりだのみね）、または、不忘山（わすれずのやま）と呼ばれていた山岳信仰および歌枕の山であったが、吉野から蔵王権現が勧請され、平安時代には修験者が修行するようになったため蔵王山とも呼ばれるようになったとされる。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cc793900d04e46dc3de3a5199217338e2d734b45f6b9d80829b77222f8fb5f2f"
+      "images": []
     },
     {
       "slug": "amanomichine",
-      "file": "batch-055-fix-1.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "c3c7cb6a62a02dbe329a3a1466ae575a402fa8a624b44ee7a9d7e6eb24936287",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amanomichine-c01",
@@ -4020,8 +4829,8 @@
           "id": "amanomichine-c02",
           "source_id": "amanomichine-s1",
           "host": "ja.wikipedia.org",
-          "statement": "A classical account lists him among thirty-two deities escorting Nigihayahi.",
-          "statement_id": "Kisah klasik mencatatnya di antara tiga puluh dua dewa pengiring Nigihayahi.",
+          "statement": "According to the Sendai Kuji Hongi he is one of the 32 deities escorting Nigihayahi, and the Kokuzō Shidai transmitted by the Kii kuni no miyatsuko family says Emperor Jinmu appointed him first Kii kuni no miyatsuko.",
+          "statement_id": "Menurut Sendai Kuji Hongi, ia salah satu dari 32 dewa pengawal Nigihayahi, dan Kokuzō Shidai yang diwariskan keluarga kuni no miyatsuko Kii menyebut Kaisar Jinmu mengangkatnya sebagai kuni no miyatsuko Kii pertama.",
           "quote": "『先代旧事本紀』天神本紀によれば高天原から葦原中国へ降臨する事となった饒速日尊の護衛として付き従った32神の1柱で、同書国造本紀や紀伊国造家が伝える『国造次第』によれば神武天皇によって初代の紀伊国造に任じられた。",
           "context": "religious-tradition",
           "status": "exact"
@@ -4045,10 +4854,109 @@
           "quote": "「天御食持命の次」の「次」をどのように解するかに問題があり、これを弟と見て神皇産霊尊の子神とすることもできるが、5世の孫とする所伝の方が多い。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "amanomichine-c05",
+          "source_id": "amanomichine-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihonjinmei Daijiten, he is a deity who appears in the Kuji Hongi and a descendant of Kamimusubi.",
+          "statement_id": "Menurut Nihonjinmei Daijiten, ia adalah dewa yang muncul dalam Kuji Hongi dan keturunan Kamimusubi.",
+          "quote": "「旧事本紀(くじほんぎ)」にみえる神。 神皇産霊尊(かみむすびのみこと)の子孫。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c06",
+          "source_id": "amanomichine-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the same dictionary, he is one of the thirty-two deities sent down from heaven as guards at the descent of the heavenly grandchild, became kuni no miyatsuko of Kii in the time of Emperor Jinmu, and is ancestral deity of the Ki and Kawase clans.",
+          "statement_id": "Menurut kamus yang sama, ia salah satu dari tiga puluh dua dewa yang diturunkan dari langit sebagai pengawal pada turunnya cucu langit, menjadi kuni no miyatsuko Kii pada masa Kaisar Jinmu, dan leluhur klan Ki dan Kawase.",
+          "quote": "天孫降臨の際,警護のため天からくだされた三十二神の一神。神武天皇のときに紀伊国造(きのくにのみやつこ)となったという。紀氏,川瀬氏らの祖先神。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c07",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Shinsen Shōjiroku, he is a fifth-generation descendant of Kamimusubi (the same as Kamimusubi no Mikoto), and is said to be ancestor of several clans such as Shigeno, Ōsaka, Ki and Kawase.",
+          "statement_id": "Menurut Shinsen Shōjiroku, ia cicit keempat Kamimusubi (disebut juga Kamimusubi), dan dikatakan leluhur sejumlah klan seperti Shigeno, Ōsaka, Ki, dan Kawase.",
+          "quote": "『新撰姓氏録』では神魂命（神皇産霊尊に同じ）の5世の孫で、滋野宿祢、大坂直、紀直、大村直田連、川瀬造、また伊蘇氏（伊蘇志）・楢原氏・滋野氏の祖と伝わる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c08",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to a variant in the \"Kokuzō-ke fu\" recorded in the Kii Zoku Fudoki, he followed the descent of Hinokuma no Ōkami and Kunikakasu no Ōkami and served them, then during Emperor Jinmu's eastern expedition brought the two sacred treasures, the sun-image mirror and the sun spear, to Nagusa District in Kii Province, enshrined them at Kotonoura in Kemi, and prayed for the emperor's success; the Hinokuma shrine stands at Akizuki, Wakayama City, and Kemi is now part of Wakayama.",
+          "statement_id": "Menurut versi lain dalam \"Kokuzō-ke fu\" yang dimuat Kii Zoku Fudoki, ia mengiringi turunnya Hinokuma no Ōkami dan Kunikakasu no Ōkami dan melayani mereka, lalu pada penaklukan timur Kaisar Jinmu membawa dua pusaka, cermin Hinokata dan tombak Hinoboko, ke Distrik Nagusa, Provinsi Kii, memantapkannya di Kotonoura di Kemi, dan berdoa bagi keberhasilan sang kaisar; Hinokuma-gu terletak di Akizuki, Kota Wakayama, dan Kemi kini termasuk Wakayama.",
+          "quote": "異伝として『紀伊続風土記』所載の「国造家譜」は、日前大神と国懸大神（紀伊国造が奉斎する和歌山県和歌山市秋月鎮座の日前宮の祭神）の降臨に随従して以後両大神に仕え、後に神武天皇の東征に際して両大神の神体である日像鏡と日矛の2種の神宝を奉戴して紀伊国名草郡に到来し、毛見郷（現和歌山市毛見）の琴ノ浦にそれを鎮座させて天皇の東征の成功を祈念した",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c09",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Kii Kokuzō Keizu, when Amaterasu hid in the heavenly rock cave the gods of Takamagahara entrusted Amenomichine with two sacred treasures, a sun-image mirror and a sun spear cast by Ishikoridome, and he venerated them as Amaterasu's \"Sakinomitama\".",
+          "statement_id": "Menurut Kii Kokuzō Keizu, ketika Amaterasu bersembunyi di gua langit, para dewa Takamagahara menitipkan kepada Amenomichine dua pusaka, cermin matahari dan tombak matahari yang dituang oleh Ishikoridome, dan ia memujanya sebagai \"Sakinomitama\" Amaterasu.",
+          "quote": "天道根命は天照大神の天岩戸隠れに際して石凝姥命によって鋳造された日像鏡と日矛の2種の神宝を高天原の神々から託され、高天原においてこれを天照大神の「前霊（さきのみたま）」として奉斎していたが",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c10",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to that genealogy, he married Jidōme, daughter of a local deity, and had Hikoma, whose descendants served the Hinokuma and Kunikakasu shrines; it ends by calling him a \"long-lived deity\" who lived from the time of Kamimusubi to the reign of Emperor Jinmu.",
+          "statement_id": "Menurut silsilah itu, ia menikahi Jidōme, putri dewa setempat, dan memiliki putra Hikoma yang keturunannya melayani kuil Hinokuma dan Kunikakasu; ia berakhir sebagai \"dewa berumur panjang\" yang hidup dari zaman Kamimusubi hingga masa Kaisar Jinmu.",
+          "quote": "現地の神の女である地道女命を娶って比古麻命を儲け、以来その子孫が国造として日前・国懸両神宮を奉斎するよう受け継いだといい、最後に「神皇産霊尊の時より神武天皇の御宇に至る」まで在世した「長寿の神」であったと結ばれている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c11",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "On Amenomichine's descent, some say he followed the two great kami Hinokuma and Kunikakasu, others the \"descent of the heavenly grandchild\", and for the latter views divide on whether the principal was Ninigi or Nigihayahi.",
+          "statement_id": "Tentang turunnya Amenomichine, ada yang menyebut ia mengiringi dua dewa besar Hinokuma dan Kunikakasu, ada yang menyebut ia mengiringi \"turunnya cucu langit\", dan yang terakhir terbagi apakah tokoh utamanya Ninigi atau Nigihayahi.",
+          "quote": "天道根命の降臨について、日前・国懸両大神に随従したものと説くものと、「天孫降臨」に随従するものとであったと説くものに分かれるが、更に後者については降臨の主体を天津彦彦火瓊瓊杵尊とするか饒速日尊とするかで説が分かれる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c12",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Kii Zoku Fudoki rejects his attendance at the descent of the heavenly grandchild, Jinmu's eastern expedition and the link with Hinokuma-gu as erroneous tradition, and suggests that in Kii Amenomichine enshrined the three Itakiso deities rather than the two treasures.",
+          "statement_id": "Kii Zoku Fudoki menolak pengiringan pada turunnya cucu langit, penaklukan timur Jinmu, dan hubungan dengan Hinokuma-gu sebagai kabar keliru, dan menduga Amenomichine di Kii memuja tiga dewa Itakiso, bukan dua pusaka.",
+          "quote": "また『紀伊続風土記』は、天孫降臨での供奉や神武天皇の東征、日前宮との関係等は全て誤伝であると斥け、『先代旧事本紀』地祇本紀に紀伊国造は五十猛命、大屋姫命、抓津姫命の所謂伊太祁曽三神を祀ると伝わるので、天道根命自体は紀伊において2種の神宝ではなくこの3神を祀っていたものであろうと説いている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c13",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Many writers regard the appointment as kuni no miyatsuko told of the time of Emperor Jinmu, together with the other provincial governors in the Kokuzō Hongi, as a tradition hard to believe.",
+          "statement_id": "Banyak penulis menilai pengangkatan sebagai kuni no miyatsuko pada masa Kaisar Jinmu, seperti kuni no miyatsuko lain dalam Kokuzō Hongi, sebagai tradisi yang sulit dipercaya.",
+          "quote": "従って初代の神武天皇朝に掛けて語られる国造就任は『先代旧事本紀』「国造本紀」に見える諸国の国造とともに信じ難い所伝であるとする論者が多い。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amanomichine-c14",
+          "source_id": "amanomichine-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Sendai Kuji Hongi places him \"next\" after Amenomimochi, a child of Kamimusubi, and makes him ancestor of the Kawase no Miyatsuko and others (Jindai Hongi, Kokuzō Hongi).",
+          "statement_id": "Menurut Sendai Kuji Hongi, ia \"berikutnya\" setelah Amenomimochi, putra Kamimusubi, dan leluhur Kawase no Miyatsuko dan lainnya (Jindai Hongi, Kokuzō Hongi).",
+          "quote": "『先代旧事本紀』は神皇産霊尊の子神である天御食持命の「次」で、川（河）瀬造などの祖とするが（神代本紀・国造本紀）",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c2adab118ee32ed065128333ea61587a9e7f4d57d0c51f6153e6adce917ced4d"
+      "images": []
     },
     {
       "slug": "black-dragon",
@@ -4717,27 +5625,22 @@
     },
     {
       "slug": "ame-no-hiwashi",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "baa66aa1049d6fa5c486e6560109bceb55850e68834ab3e5c9890d28fe307a05",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ame-no-hiwashi-c01",
           "source_id": "ame-no-hiwashi-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Ame-no-Hiwashi is a deity in Japanese mythology.",
-          "statement_id": "Ame-no-Hiwashi adalah dewa dalam mitologi Jepang.",
+          "statement": "Ame-no-Hiwashi is a deity in Japanese mythology appearing in the Nihon Shoki and the Kogo shūi, ancestor of the Awa Inbe clan who opened up Awa Province, planted fibres and founded spinning work.",
+          "statement_id": "Ame-no-Hiwashi adalah dewa dalam mitologi Jepang yang muncul dalam Nihon Shoki dan Kogo shūi, leluhur klan Inbe di Awa yang membuka Provinsi Awa, menanam serat, dan merintis pemintalan.",
           "quote": "『日本書紀』や『古語拾遺』に登場する。阿波国を開拓し、穀麻を植えて紡績の業を創始した阿波の忌部氏の祖神。",
           "context": "religious-tradition",
           "status": "exact"
@@ -4766,15 +5669,124 @@
           "id": "ame-no-hiwashi-c04",
           "source_id": "ame-no-hiwashi-s1",
           "host": "ja.wikipedia.org",
-          "statement": "He also has names referring to planting and the Inbe clan.",
-          "statement_id": "Ia juga memiliki nama yang merujuk pada penanaman dan klan Inbe.",
+          "statement": "He is also called Oe no Kami and Inbe no Kami, and is also regarded as Ame-no-Hiwashikakeruya, a descendant of Takamimusubi or Kamimusubi.",
+          "statement_id": "Ia juga disebut Oe no Kami dan Inbe no Kami, serta dianggap sebagai Ame-no-Hiwashikakeruya, keturunan Takamimusubi atau Kamimusubi.",
           "quote": "麻植神（おえのかみ）、忌部神（いんべのかみ）とも呼ばれる。また高魂命または神魂命の裔神の天日鷲翔矢命（あめのひわしかけるやのみこと）ともされる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c05",
+          "source_id": "ame-no-hiwashi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, Amenohiwashi (Ame no hiwashi in the Nihongi) is described as the child of Tajikarao and ancestor of the Inbe clan of Awa Province.",
+          "statement_id": "Menurut Ensiklopedia Shinto, Amenohiwashi (Ame no hiwashi dalam Nihongi) digambarkan sebagai anak Tajikarao dan leluhur klan Inbe di Provinsi Awa.",
+          "quote": "[Ame no hiwashi] (Nihongi) ... Described as the child of Tajikarao, ancestor of the Inbe clan of Awa Province",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c06",
+          "source_id": "ame-no-hiwashi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "This deity is said to have planted paper mulberry trees and produced bark-fiber offerings (nigite) from them at the time of Amaterasu's hiding in the Rock Cave of Heaven and at the Descent of the Heavenly Grandchild.",
+          "statement_id": "Dewa ini dikatakan menanam pohon murbei kertas dan membuat persembahan serat kulit kayu (nigite) darinya ketika Amaterasu bersembunyi di gua batu surga dan pada turunnya cucu langit.",
+          "quote": "this deity is said to have planted paper mulberry trees and produced bark-fiber offerings (nigite) from them at the time of Amaterasu's hiding away in the Rock Cave of Heaven, and at the Descent of the Heavenly Grandchild (tenson kōrin).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c07",
+          "source_id": "ame-no-hiwashi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "On the basis of these events, Amenohiwashi is considered an occupational kami with jurisdiction over the production of ritual implements.",
+          "statement_id": "Atas dasar peristiwa itu, Amenohiwashi dipandang sebagai kami pekerjaan yang berwenang atas pembuatan perkakas ritual.",
+          "quote": "Based on these events, Amenohiwashi is considered an occupational kami with jurisdiction over the production of ritual implements.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c08",
+          "source_id": "ame-no-hiwashi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kogo shūi also states that Amenohiwashi was a vassal of Futodama no mikoto, ancestral deity of the Inbe clan, who were responsible for court ritual.",
+          "statement_id": "Kogo shūi juga menyatakan bahwa Amenohiwashi adalah pengikut Futodama, dewa leluhur klan Inbe yang bertanggung jawab atas ritual istana.",
+          "quote": "Kogo shūi also states that Amenohiwashi was a vassal of Futodama no mikoto, ancestral deity (sojin) of the Inbe clan, who were responsible for court ritual.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c09",
+          "source_id": "ame-no-hiwashi-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The descendants of Amenohiwashi crossed over to Awa Province in Shikoku in search of lands to cultivate grains and hemp, and as a result the Awa Inbe clan developed the tradition of offering hemp and paper-mulberry textiles to the emperor at the accession ceremony or Daijōsai.",
+          "statement_id": "Keturunan Amenohiwashi menyeberang ke Provinsi Awa di Shikoku mencari tanah untuk menanam biji-bijian dan rami, sehingga klan Inbe Awa mengembangkan tradisi mempersembahkan tekstil rami dan murbei kertas kepada kaisar pada upacara penobatan atau Daijōsai.",
+          "quote": "The descendants of Amenohiwashi crossed over to Awa Province in Shikoku in search of lands to cultivate grains and hemp. As a result, the Awa Inbe clan developed the tradition of offering hemp and paper-mulberry textiles to the emperor on the occasion of the imperial accession ceremony or Daijōsai.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c10",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the well-known myth, when Amaterasu entered the heavenly rock cave and the gods began to dance, Ame no Hiwashi played a stringed instrument and an eagle perched on the end of the string; the gods rejoiced at it as an auspicious bird, and the character for \"eagle\" (washi) was added to his name.",
+          "statement_id": "Dalam mitos yang terkenal, saat Amaterasu masuk gua batu surga dan para dewa mulai menari, Ame no Hiwashi memainkan alat musik petik dan seekor elang hinggap di ujung senarnya; para dewa menyukainya sebagai pertanda baik sehingga aksara \"elang\" (washi) ditambahkan pada namanya.",
+          "quote": "神話で知られているのは天照大神が天岩戸に入られたとき、岩戸の前で神々の踊りが始まり、天日鷲神が弦楽器を奏でると、弦の先に鷲が止まった。多くの神々が、これは世の中を明るくする吉祥を表す鳥といって喜ばれ、この神の名として鷲の字を加えて、天日鷲命とされた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c11",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Kogo shūi, he is one of four deities following Futodama; when Amaterasu hid in the rock cave he planted paper mulberry and cotton and made white nigite, so he is also called the \"hemp-planting kami\" and becomes a kami of spinning and papermaking.",
+          "statement_id": "Menurut Kogo shūi, ia salah satu dari empat dewa pengikut Futodama; ketika Amaterasu bersembunyi di gua batu, ia menanam kajinoki dan kapas serta membuat nigite putih, sehingga disebut \"dewa penanam rami\" dan menjadi dewa pemintalan dan pembuatan kertas.",
+          "quote": "『古語拾遺』によると、天日鷲神は太玉命に従う四柱の神のうちの1柱である。やはり、天照大神が天岩戸に隠れた際に、穀（カジノキ：楮の一種）・木綿などを植えて白和幣（にきて）を作ったとされる。そのため、天日鷲神は「麻植の神」とも呼ばれ、紡績業・製紙業の神となる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c12",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He is generally known as Otori-sama and is worshipped as a guardian of good catches, commercial and industrial prosperity, good fortune, pioneering and industrial promotion.",
+          "statement_id": "Ia dikenal luas sebagai Otori-sama dan dipuja sebagai dewa pelindung hasil tangkapan ikan, kemakmuran dagang dan industri, nasib baik, pembukaan lahan, dan peningkatan produksi.",
+          "quote": "また、天日鷲神は一般にお酉様として知られ、豊漁、商工業繁栄、開運、開拓、殖産の守護神として信仰されている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c13",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "At the Daijōsai of an emperor's accession, the Miki family, regarded as descendants of the Awa Inbe, prepares the aratae cloth from hemp they grow.",
+          "statement_id": "Pada Daijōsai penobatan kaisar, keluarga Miki, yang dianggap keturunan Inbe Awa, menyiapkan aratae dari rami yang mereka tanam.",
+          "quote": "天皇即位の大嘗祭に際して、阿波忌部の末裔とされる三木家が育てた麻を元に、麁服（あらたえ）を調進している。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c14",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Other names include Ame no Hiwashi no Mikoto, Amenohiwashikakeruya and Hiwashi no Mikoto; other designations are Oe no Kami and Inbe no Kami.",
+          "statement_id": "Nama lain mencakup Ame no Hiwashi no Mikoto, Amenohiwashikakeruya, dan Hiwashi no Mikoto; sebutan lain adalah Oe no Kami dan Inbe no Kami.",
+          "quote": "別名 天日鷲命、天日鷲翔矢命、天毘和志可気流夜命、日鷲命、天日和志命、天比和志命など 別称 麻植神、忌部神",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hiwashi-c15",
+          "source_id": "ame-no-hiwashi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He is enshrined as principal deity at Washi Shrine in Senzoku, Taito Ward, Tokyo, and at Inbe Shrine in Nikenya-chō, Tokushima City.",
+          "statement_id": "Ia dipuja sebagai dewa utama di Washi Jinja di Senzoku, Distrik Taito, Tokyo, dan di Inbe Jinja di Nikenya-chō, Kota Tokushima.",
+          "quote": "鷲神社（東京都台東区千束） - 主祭神 忌部神社（徳島県徳島市二軒屋町） - 主祭神。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0d086662ef60e1e419b92def57541e8ad9fb9dfe0013d6f2275e7eed9cc622ab"
+      "images": []
     },
     {
       "slug": "ame-no-mahitotsu-no-kami",
@@ -4839,20 +5851,15 @@
     },
     {
       "slug": "azukibabaa",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-5.md",
+      "entry_sha256": "5d898121d66c43f696f202229195366789dc1a973f563f950828957422189952",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "azukibabaa-c01",
@@ -4898,9 +5905,9 @@
           "id": "azukibabaa-c05",
           "source_id": "azukibabaa-s1",
           "host": "en.wikipedia.org",
-          "statement": "A tale has it swallow passersby while singing about beans.",
-          "statement_id": "Satu cerita menyebutnya menelan orang yang lewat sambil bernyanyi tentang kacang.",
-          "quote": "At night, it produces the sound of azuki beans while singing \"Would you like to wash or eat the red beans?\" and swallows passersby.",
+          "statement": "In Gunma Prefecture, at a stream near Takasaki Castle, at night it produces the sound of azuki beans while singing an offer to wash or eat the red beans, and swallows passersby.",
+          "statement_id": "Di Prefektur Gunma, di sebuah sungai dekat Kastil Takasaki, pada malam hari ia membuat bunyi kacang azuki sambil menyanyikan tawaran mencuci atau memakan kacang merah, dan menelan orang yang lewat.",
+          "quote": "Gunma Prefecture the yōkai appears in a stream near Takasaki Castle. At night, it produces the sound of azuki beans while singing \"Would you like to wash or eat the red beans?\" and swallows passersby.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4913,10 +5920,119 @@
           "quote": "In Showa-mura, it makes the sound of stirring azuki beans in a pot in a swamp.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c07",
+          "source_id": "azukibabaa-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, in Miyagi Prefecture this yōkai takes the form of a fearsome old hag dressed all in white, singing in a husky, ugly voice.",
+          "statement_id": "Menurut Yokai.com, di Prefektur Miyagi yōkai ini berupa perempuan tua yang menakutkan, berpakaian serba putih, dan bernyanyi dengan suara serak yang buruk.",
+          "quote": "The people of Miyagi Prefecture tell of a much more sinister member of the azuki family of yōkai. Rather than the benign and cute azuki arai known throughout the country, this northeastern variation takes the form of a fearsome old hag dressed all in white, singing in a husky, ugly voice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c08",
+          "source_id": "azukibabaa-s2",
+          "host": "yokai.com",
+          "statement": "Azuki babā appear only at twilight, particularly on rainy or misty autumn nights.",
+          "statement_id": "Azuki babā hanya muncul saat senja, terutama pada malam musim gugur yang berhujan atau berkabut.",
+          "quote": "Azuki babā appear only at twilight—particularly on rainy or misty autumn nights.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c09",
+          "source_id": "azukibabaa-s2",
+          "host": "yokai.com",
+          "statement": "Witnesses describe an eerie white glow visible through a thick white mist; from the mist comes the husky voice of an old hag singing her song and counting beans as she washes them in the river with a strainer, and those who do not turn away at this point never make it back.",
+          "statement_id": "Para saksi menggambarkan cahaya putih yang menyeramkan tampak di balik kabut tebal; dari kabut terdengar suara serak perempuan tua yang menyanyikan lagunya sambil menghitung kacang yang ia cuci di sungai dengan saringan, dan yang tidak berpaling saat itu tidak pernah kembali.",
+          "quote": "Witnesses of azuki babā describe an eerie, white glow visible through a thick, white mist. ... counting beans as she washes them in the river with a strainer. ... Those who don’t turn away at this point never make it back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c10",
+          "source_id": "azukibabaa-s2",
+          "host": "yokai.com",
+          "statement": "Their song is similar to the azuki arai's, except that azuki babā follow through on the threat to catch and eat humans.",
+          "statement_id": "Lagunya mirip lagu azuki arai, tetapi azuki babā benar-benar menangkap dan memakan manusia.",
+          "quote": "Their song is similar to the azuki arai’s, except that azuki babā follow through on the threat to catch and eat humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c11",
+          "source_id": "azukibabaa-s2",
+          "host": "yokai.com",
+          "statement": "Despite their ferociousness they are mostly found only in stories used to scare children into behaving properly; of all azuki-related yōkai variations this one is the most likely to be a shape-shifted evil itachi, tanuki or kitsune imitating the azuki arai to catch and eat a child.",
+          "statement_id": "Meskipun garang, ia kebanyakan hanya ditemukan dalam cerita untuk menakut-nakuti anak agar berperilaku baik; di antara varian yōkai terkait azuki, inilah yang paling mungkin merupakan itachi, tanuki, atau kitsune jahat yang berubah wujud menirukan azuki arai untuk memikat anak.",
+          "quote": "Despite their ferociousness, they are mostly found only in stories used to scare children into behaving properly. ... this one is the most likely to be a shape-shifted evil itachi, tanuki, or kitsune imitating the harmless azuki arai to attract a curious child to catch and eat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c12",
+          "source_id": "azukibabaa-s3",
+          "host": "kotobank.jp",
+          "statement": "According to Digital Daijisen Plus, it is a Japanese yōkai in the form of an old woman who makes the sound of washing azuki beans, told mainly around Kawagoe in Saitama Prefecture and the Kantō region, and regarded as the same kind as azuki arai.",
+          "statement_id": "Menurut Digital Daijisen Plus, ia adalah yōkai Jepang berwujud nenek yang membuat bunyi mencuci kacang azuki, dikisahkan terutama di Kawagoe, Prefektur Saitama, dan sekitar wilayah Kantō, serta dianggap sejenis dengan azuki arai.",
+          "quote": "日本の妖怪。小豆をとぐ音をたてる老婆の姿をしたもので、埼玉県川越市など関東地方の中心に伝わる。小豆洗いと同種のものとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c13",
+          "source_id": "azukibabaa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Showa-mura it makes the sound of stirring azuki beans in a pot in a swamp; it is said to be mujina or itachi.",
+          "statement_id": "Di Showa-mura, ia membuat bunyi mengaduk kacang azuki dalam panci di rawa; dikatakan ia adalah mujina atau itachi.",
+          "quote": "In Showa-mura, it makes the sound of stirring azuki beans in a pot in a swamp. It is said to be mujina or itachi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c14",
+          "source_id": "azukibabaa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Nakamaru Kakigihira, Kiyoharu Village, Kita-Koma District, Yamanashi Prefecture, Azukibabaa lives in a large tree near Suwa Shrine and calls out to people passing at night, \"Eat some azuki beans\"; if the person is surprised and confused, she scoops them up into the tree with a large basket.",
+          "statement_id": "Di Nakamaru Kakigihira, Desa Kiyoharu, Distrik Kita-Koma, Prefektur Yamanashi, Azukibabaa tinggal di pohon besar dekat Kuil Suwa dan memanggil orang yang lewat malam hari, \"Makanlah kacang azuki\"; bila orang itu terkejut dan bingung, ia menyendoknya ke atas pohon dengan keranjang besar.",
+          "quote": "Nakamaru Kakigihira, Kiyoharu Village, Kita-Koma District, Yamanashi Prefecture A local yōkai is also known as Azukibabaa. She lives in a large tree near Suwa Shrine and calls out to people who pass by at night, saying, \"Eat some azuki beans\", and if the person is surprised and confused, she will scoop them up into the tree with a large basket.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c15",
+          "source_id": "azukibabaa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The yōkai mythologist Kenji Murakami believes she is related to the Tsurube-otoshi yōkai, which is also said to scoop people up from the tops of trees.",
+          "statement_id": "Pakar yōkai Murakami Kenji berpendapat ia berkaitan dengan Tsurube-otoshi, yōkai yang juga dikatakan menyendok orang dari puncak pohon.",
+          "quote": "Yōkai mythologist Kenji Murakami believes she is related to the Tsurube-otoshi yōkai, which is also said to scoop people up from the tops of trees.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c16",
+          "source_id": "azukibabaa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Kawawa Town, Tsuzuki Ward, Yokohama, Kanagawa Prefecture, as in Saitama, she is spoken of as the \"old woman polishing azuki beans\", a child-threatening monster.",
+          "statement_id": "Di Kota Kawawa, Distrik Tsuzuki, Yokohama, Prefektur Kanagawa, seperti di Saitama, ia disebut \"nenek penggosok kacang azuki\", monster yang dipakai menakuti anak.",
+          "quote": "Kawawa Town, Tsuzuki Ward, Yokohama City, Kanagawa Prefecture Similarly as in Saitama, Azukibabaa is spoken of as the \"old woman polishing azuki beans\", a child-threatening monster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukibabaa-c17",
+          "source_id": "azukibabaa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Nishi Narita, Tomiya City, Miyagi Prefecture, a local yōkai called the \"Azukiarai Old Woman\" appears as an old woman in a stream at dusk; her true form is said to be a kitsune.",
+          "statement_id": "Di Nishi Narita, Kota Tomiya, Prefektur Miyagi, yōkai setempat disebut \"nenek Azukiarai\" yang muncul sebagai perempuan tua di sungai saat senja; wujud sejatinya dikatakan kitsune.",
+          "quote": "Nishi Narita, Tomiya City, Miyagi Prefecture A local yōkai is called the \"Azukiarai Old Woman\" and appears in the form of an old woman in a stream at dusk. It is said that her true form is a kitsune.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "41abc7f256fe50407dd305573c58317dd8c087c8dd5fcfed643be88e7b4cb048"
+      "images": []
     },
     {
       "slug": "azukihakari",
