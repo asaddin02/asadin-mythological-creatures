@@ -1,6 +1,6 @@
 # Review batch-052
 
-Diperiksa 2026-10-06T14:37:29.249Z. Berkas: batch-052.md, batch-052-fix-1.md, batch-052-fix-2.md, batch-052-fix-3.md, batch-052-fix-4.md.
+Diperiksa 2026-10-06T14:50:37.431Z. Berkas: batch-052.md, batch-052-fix-1.md, batch-052-fix-2.md, batch-052-fix-3.md, batch-052-fix-4.md, batch-052-fix-5.md.
 
 ## nukekubi — lulus-otomatis
 
@@ -515,7 +515,7 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 | shikome-c12 | exact | yokai.com | According to Yokai.com, early shikome illustrations served as the basis for many yōkai satirizing unattractive women, such as ao nyōbo, taka onna and kerakera onna. | Early shikome illustrations have served as the basis for a great number of yōkai which satirize unattractive women, such as ao nyōbo, taka onna, and kerakera onna. |
 | shikome-c13 | exact | en.wikipedia.org | Wikipedia records the alternative name Yomotsu-hisame and says the name may have been a collective term for eight hags, not just one. | Also recorded by the name Yomotsu-hisame (泉津日狭女 ), the name may have been a term referring collectively to eight hags, not just one. |
 | shikome-c14 | exact | en.wikipedia.org | According to the Nihon Shoki, it was either eight demon-hags (female oni) or a woman or women named Yomotsu-hisame who hunted after Izanagi. | But either eight demon-hags (female oni) or a woman/women named Yomotsu-hisame hunted after Izanagi according to the Nihon Shoki |
-| shikome-c15 | exact | en.wikipedia.org | In the Kojiki version as given by Wikipedia, Izanagi climbed the "flat slope" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated. | he climbed atop the "flat slope" or "Even Pass" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated. |
+| shikome-c15 | exact | en.wikipedia.org | According to Wikipedia, Izanagi brandished his sword Totsuka-no-Tsurugi but the pursuers kept on, until he climbed the "flat slope" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated. | Izanagi brandished his Totsuka-no-Tsurugi (十拳剣 ) but still they pursued, until he climbed atop the "flat slope" or "Even Pass" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated. |
 | shikome-c16 | exact | kotobank.jp | The Digital Daijisen defines 黄泉醜女 (yomotsu-shikome) as a female oni in the land of Yomi. | よも-つ-しこめ【黄=泉▽醜女】 黄泉 よみ の国にいる鬼女。 「すなはち-を遣はして追はしめき」〈記・上〉 |
 
 
@@ -627,16 +627,13 @@ Klaim 13 (loose 1, exact 12), sumber 2, gambar 0.
 | tsurube-otoshi-c09 | exact | yokai.com | According to Yokai.com, tsurube otoshi in the Kansai region are most often solitary gargantuan heads, while in the Tohoku region they usually come in larger groups of slightly smaller heads. | Tsurube otoshi encountered in the Kansai region are most often solitary, gargantuan heads. In the Tohoku region, tsurube otoshi are usually encountered in larger groups of slightly smaller heads. |
 | tsurube-otoshi-c10 | exact | en.wikipedia.org | In an oral legend from the Hōki section of Sogabe village (now Kameoka), Kyoto Prefecture, recorded by Wikipedia, a tsurube-oroshi suddenly drops from a kaya tree with a sniggering laugh, saying "has your night work ended, how 'bout let's drop a bucket, gii-gii", and then rises above the tree again. | in the Hōki section of the village of Sogabe in Kyoto Prefecture (now Kameoka), a tsurube-oroshi would suddenly drop down from a kaya tree and make a sniggering laugh saying "has your night work ended, how 'bout let's drop a bucket, gii-gii" ("yagyō sunda ka, tsurube oroso ka, gii-gii") and then rise up above the tree again. |
 | tsurube-otoshi-c11 | exact | en.wikipedia.org | In an account recorded by Wikipedia, someone who reaches for something shining at the base of an old tree, thinking it a koban coin, is dragged into a bucket, lifted above the tree, menaced and then devoured by the tsurube-otoshi living there. | In a Genroku period yōkai tale told about in the Kuroe part of Kainan, Wakayama Prefecture, it is said that a certain old tree would have something shining at its base ... they would get dragged into a bucket and lifted up to above the tree where they would be menaced and then devoured by the tsurube-otoshi living there |
-| tsurube-otoshi-c12 | exact | en.wikipedia.org | In the Edo-period kaidan collection recorded by Wikipedia, they are depicted under the name "tsurube-oroshi" as a yōkai that is the spirit of a large tree turned into flames that rain down. | they are depicted under the name of "tsurube-oroshi" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down. |
+| tsurube-otoshi-c12 | exact | en.wikipedia.org | In the Edo-period kaidan collection Kokon Hyakumonogatari Hyōban, recorded by Wikipedia, they are depicted under the name "tsurube-oroshi" as a yōkai that is the spirit of a large tree turned into flames that rain down. | In the Edo Period collection of kaidan (mysterious tales), the Kokon Hyakumonogatari Hyōban, they are depicted under the name of "tsurube-oroshi" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down. |
 | tsurube-otoshi-c13 | exact | en.wikipedia.org | Wikipedia notes a theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights dangling from trees like buckets. | there is also the theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights that dangle from trees like buckets. |
 
 
 ## white-hare-of-inaba — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 1, exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -644,14 +641,24 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | white-hare-of-inaba-c02 | exact | en.wikipedia.org | Its legend is part of the Izumo tradition. | The White Hare of Inaba legend belongs to the Izumo denrai, or tradition of myths originating from the Izumo region. |
 | white-hare-of-inaba-c03 | exact | en.wikipedia.org | The hare’s tale forms part of the story of the deity Ōnamuchi. | The White Hare of Inaba forms an essential part of the legend of the Shinto god Ōnamuchi-no-kami, which was the name for Ōkuninushi within this legend. |
 | white-hare-of-inaba-c04 | exact | en.wikipedia.org | A version of the tale is recorded in the Kojiki. | One version of the tale of the White Hare of Inaba is found in the Kojiki, the oldest extant chronicle in Japan, which dates from early in the 8th century (711-712). |
+| white-hare-of-inaba-c05 | exact | kotobank.jp | The Digital Daijisen describes the White Hare of Inaba as the hare of Izumo myth who tricked the wanizame (sharks) to cross their backs from Oki Island to Inaba province, but was stripped bare by the last wanizame. | いなば-の-しろうさぎ【因幡の白兎】 出雲神話に出てくる兎。 淤岐島 おきのしま から因幡国へ行くため、 鰐鮫 わにざめ を欺いてその背を渡ったが、最後の鰐鮫に丸裸にされ、 |
+| white-hare-of-inaba-c06 | exact | kotobank.jp | According to the Digital Daijisen, the hare believed the Yasogami's advice as it was, bathed in seawater and wept in pain, and was saved by Ōkuninushi. | さらに 八十神 やそかみ の教えをそのまま信じて潮を浴び、痛くて泣いていたところを、 大国主命 おおくにぬしのみこと に救われる。 |
+| white-hare-of-inaba-c07 | exact | kotobank.jp | Nipponica says the hare-and-shark tale in the Kojiki is an animal story of a cunning animal deceiving a dull one, related to tales existing on Java and in Indonesia. | この『古事記』にみえる兎と鮫の話は、狡猾(こうかつ)な動物が魯鈍(ろどん)な動物をだます動物譚(たん)として、ジャワ島やインドネシアに存在している説話などとも関係がある。 |
+| white-hare-of-inaba-c08 | exact | kotobank.jp | Nipponica stresses that in the Kojiki the story is recast as one in which the cunning hare fails, and the rescued hare plays the role of a hare deity predicting the success of the lowest-ranking Ōnamuchi. | しかし『古事記』では狡猾な兎が失敗する話につくりかえられており、助けられた兎が、いちばん卑しい大汝神の成功を予言する兎神としての役割を演じている点に注意する必要がある。 |
+| white-hare-of-inaba-c09 | exact | kotobank.jp | According to Heibonsha, the hare predicted that Ōnamuchi, not the Yasogami, would marry Yakami-hime of Inaba, and the prediction came true; this hare is said to have gained worship as a hare deity (usagi-kami). | そこで兎は八十神ではなくオオナムチが因幡の八上比売(やかみひめ)と結婚すると予言し,的中する。この兎は〈兎神(うさぎかみ)〉として信仰を得たという。 |
+| white-hare-of-inaba-c10 | exact | en.wikipedia.org | In the Kojiki version as given by Wikipedia, a hare tricks wanizame (sharks) into serving as a land bridge from the Island of Oki to Cape Keta; he challenges the sharks to compare whose clan is larger and has them lie in a row across the sea. | In the Kojiki version of the myth, a hare tricks some wanizame into being used as a land bridge in order to travel from the Island of Oki to Cape Keta. ... The hare challenges the sharks to see whose clan is larger-that of the sharks, or that of the hares. The hare had the sharks lie in a row across the sea. |
+| white-hare-of-inaba-c11 | exact | en.wikipedia.org | According to Wikipedia, near the end the hare exclaims that he has deceived the sharks to use them as a bridge, and the last shark attacks him, ripping his fur from him. | Nearing the end, the hare exclaims that he has deceived the sharks in order to use them as a bridge. The last shark attacks the hare, ripping his fur from him. |
+| white-hare-of-inaba-c12 | exact | en.wikipedia.org | According to Wikipedia, Ōnamuchi told the hare to bathe in fresh water at a river mouth and roll in cattail pollen; the hare's body was restored and after recovery it revealed its true form as a god. | Ōnamuchi, unlike his quarreling elder brothers, told the hare to bathe in fresh water from the mouth of a river, and then roll in the pollen of cattails. The body of the hare was restored to its original state, and after its recovery, revealed its true form as a god. |
+| white-hare-of-inaba-c13 | exact | en.wikipedia.org | Wikipedia notes that Japanese scholars have traditionally interpreted the struggle between the kind Ōnamuchi and his wrathful eighty brothers as a symbolic representation of civilization and barbarism in the emergent Japanese state. | Japanese scholars have traditionally interpreted the struggle between the kind Ōnamuchi and his wrathful eighty brothers as a symbolic representation of civilization and barbarism in the emergent Japanese state. |
+| white-hare-of-inaba-c14 | exact | en.wikipedia.org | According to Wikipedia, when the Japanese goddess Amaterasu and her entourage traveled around the boundary of Yakami in Inaba looking for a place for a temporary palace, a white hare appeared, bit Amaterasu's clothes and took her to a suitable place for a temporary palace. | Long ago, when Japanese goddess Amaterasu and her entourage traveled around at the boundary of Yakami in Inaba, they were looking for a place for their temporary palace, suddenly a white hare appeared. the white hare bit Amaterasu's clothes and took her to an appropriate place for a temporary palace |
+| white-hare-of-inaba-c17 | exact | en.wikipedia.org | In that account according to Wikipedia, Amaterasu reached a mountaintop plain now called Ise ga naru, and the white hare disappeared there. | Amaterasu reached a mountain top plain, which is now called Ise ga naru. Then, the white hare disappeared at Ise ga naru. |
+| white-hare-of-inaba-c15 | exact | en.wikipedia.org | Wikipedia notes the place of this legend is in Yazu town and Tottori city, Tottori Prefecture, where Hakuto Jinja shrine reveres the white hare. | The place of this legend is in Yazu town and Tottori city, in Tottori Prefecture (ancient Inaba and Houki), where the shrine Hakuto Jinja reveres the white hare. |
+| white-hare-of-inaba-c16 | exact | en.wikipedia.org | Wikipedia notes the hare in the legend is Lepus brachyurus, the Japanese hare, possibly the Oki Islands subspecies Lepus brachyurus okiensis. | The hare referred to in the legend is the Lepus brachyurus, or Japanese hare, possibly the subspecies found on the Oki Islands known as the Lepus brachyurus okiensis. |
 
 
 ## yako — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 2, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -659,29 +666,38 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | yako-c02 | loose | en.wikipedia.org | Possession by this spirit is called yako-tsuki. | To be possessed by it is called "yako-tsuki" (野狐憑き). |
 | yako-c03 | exact | en.wikipedia.org | Its written name can also mean an ordinary wild fox. | is also used for foxes in the wild in general. |
 | yako-c04 | exact | en.wikipedia.org | Accounts give it black or white coloring and a small body. | The appearance of a yako is almost completely consistent among all legends; they are black or white, are slightly larger than a mouse, and smaller than a cat. |
+| yako-c05 | exact | yokai.com | According to Yokai.com, nogitsune, also frequently called yako, are a type of kitsune; the term refers to low-ranking wild kitsune that have no divine soul and are not messengers of the gods. | Nogitsune, also frequently called yako, are a type of kitsune-magical foxes found in East Asian folklore. Specifically the term refers to low ranking, wild kitsune that do not have a divine soul or serve as messengers of the gods. |
+| yako-c06 | exact | yokai.com | According to Yokai.com, nogitsune are particularly known for transforming into humans, and in folktales where humans are tormented, tricked or possessed by kitsune, the culprit is almost always a nogitsune. | They are particularly known for transforming into humans. In folktales where humans are tormented, tricked, or possessed by kitsune, the culprit is almost always a nogitsune. |
+| yako-c07 | exact | yokai.com | According to Yokai.com, nogitsune dislike bright light and hide from the sun by day, fear bladed objects such as swords and knives, and are frightened of dogs. | They dislike bright light, and hide from the sun during the daytime. They are also afraid of bladed objects, and will avoid swords and knives. They are frightened of dogs as well. |
+| yako-c08 | exact | yokai.com | According to Yokai.com, to change shape a nogitsune needs a magical focus, usually a bone from a cow or horse; kitsunetsuki, possession by a fox spirit, is also commonly performed by nogitsune. | In order to change its shape, a nogitsune requires a magical focus of some kind; usually a bone from a cow or a horse. Kitsunetsuki-possession by a fox spirit-is also commonly performed by nogitsune. |
+| yako-c09 | exact | yokai.com | According to Yokai.com, nogitsune sneak into human-inhabited areas at night to steal favourite foods: wax candles, lamp oil, lacquer, alcohol and fried tofu. | they like to sneak into human-inhabited areas at night to steal some of their favorite foods: wax candles, lamp oil, lacquer, alcohol, and fried tofu. |
+| yako-c10 | exact | yokai.com | According to Yokai.com, yako is simply another reading of the kanji of its name, while the name yakan (野干) is more archaic and originates from a different animal. | The most common one-yako-is simply another reading of the kanji in its name. The name yakan (野干) is more archaic, and has its origins in a different animal. |
+| yako-c11 | exact | yokai.com | Yokai.com gives 野狐 (のぎつね) with the translation "wild fox" and the alternate names yako and yakan. | Nogitsune 野狐 のぎつね Translation: wild fox Alternate names: yako, yakan |
+| yako-c12 | exact | en.wikipedia.org | Wikipedia notes that the original yako is said to be invisible to the eye, and that in Hirado, Nagasaki Prefecture, they normally bring along a great crowd that walks with them. | The original yako is said to be invisible to the eye. In Hirado, Nagasaki Prefecture, they normally bring along a great crowd that walks with them |
+| yako-c13 | exact | en.wikipedia.org | Wikipedia notes that in Southern Kyūshū family lines would get possessed by a yako, their progeny would be possessed, and if they could no longer support it, it would possess their cattle and horses. | In Southern Kyūshū, family lines would get possessed by a yako, and family lines that raised yako (possessed by a yako) would have their progeny possessed, and if they were no longer able to support it, it would possess its cattle and horses. |
+| yako-c14 | exact | en.wikipedia.org | Wikipedia notes that on Iki Island they are also called yako and resemble weasels; when one conceals itself under a person's armpits, that person is said to become possessed by a yako. | On Iki Island, they are also called yako, and since they resemble weasels, it is said that when one of them conceals themselves under a person's armpits, that person would become possessed by a yako. |
 
 
 ## zagan — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | zagan-c01 | exact | ja.wikipedia.org | Zagan is named in demonological writing. | ザガン（Zagan）またはザガム（Zagam）は、悪魔学における悪魔の一人。 |
 | zagan-c02 | exact | ja.wikipedia.org | The Goetia ranks him as its sixty-first spirit, a king and president. | 『ゴエティア』によると、地獄の33の軍団を率いる序列61番の大王にして総裁。 |
-| zagan-c03 | exact | en.wikipedia.org | He first appears as a winged bull before taking human form. | Zagan is depicted as a griffin-winged bull that turns into a man after a while. |
+| zagan-c03 | exact | en.wikipedia.org | Wikipedia says Zelba, one of Zagan's alternative names, is depicted as a griffin-winged bull that turns into a man after a while. | Zelba is depicted as a griffin-winged bull that turns into a man after a while. |
 | zagan-c04 | exact | ja.wikipedia.org | The text credits him with changing wine to water and water to wine. | 『ゴエティア』によると、ワインを水に、血をワインに、また水をワインに変質させることができる。 |
+| zagan-c05 | exact | en.wikisource.org | In the Goetia text the sixty-first spirit is Zagan, a great king and president who appears at first as a bull with gryphon's wings but after a while takes human shape. | The Sixty-first Spirit is Zagan. He is a Great King and President, appearing at first in the Form of a Bull with Gryphon's Wings; but after a while he putteth on Human Shape. |
+| zagan-c06 | exact | en.wikisource.org | According to the Goetia text he makes men witty and can turn wine into water, blood into wine, and water into wine. | He maketh Men Witty. He can turn Wine into Water, and Blood into Wine, also Water into Wine. |
+| zagan-c07 | exact | en.wikisource.org | According to the Goetia text he can turn all metals into coin of the dominion that metal is of, can even make fools wise, and governs 33 legions of spirits. | He can turn all Metals into Coin of the Dominion that Metal is of. He can even make Fools wise. He governeth 33 Legions of Spirits |
+| zagan-c08 | exact | en.wikipedia.org | Wikipedia lists other spellings of Zagan (Zagam, Zelbam, Zelba, Zelban, Zelbal, Zelbini) and calls him a Great King and President of Hell commanding 33 legions of demons. | Zagan (also Zagam, Zelbam, Zelba, Zelban, Zelbal, Zelbini) is a Great King and President of Hell, commanding 33 legions of demons. |
+| zagan-c09 | exact | en.wikipedia.org | Wikipedia notes that according to the Pseudomonarchia Daemonum he can also turn blood into oil, oil into blood, and a fool into a wise man. | (According to the Pseudomonarchia Daemonum, he can also turn blood into oil, oil into blood, and a fool into a wise man) |
 
 
 ## zepar — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -689,6 +705,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | zepar-c02 | exact | ja.wikipedia.org | The text ranks him as a duke. | 『ゴエティア』によると、地獄の26の軍団を率いる序列16番の大公爵。 |
 | zepar-c03 | exact | en.wikipedia.org | He appears like a soldier wearing red clothing and armor. | He is depicted with red clothes and armor, like a soldier. |
 | zepar-c04 | exact | en.wikipedia.org | The Goetia associates him with bringing men and women together in love. | His office is to cause women to love men, and bring them together in love. |
+| zepar-c05 | exact | en.wikisource.org | In the Goetia text the sixteenth spirit is Zepar, a great duke who appears in red apparel and armour like a soldier; his office is to cause women to love men and bring them together in love. | The Sixteenth Spirit is Zepar. He is a Great Duke, and appeareth in Red Apparel and Armour, like a Soldier. His office is to cause Women to love Men, and to bring them together in love. |
+| zepar-c06 | exact | en.wikisource.org | According to the Goetia text he also makes them barren, governs 26 legions of inferior spirits, and obeys his seal when he sees it. | He also maketh them barren. He governeth 26 Legions of Inferior Spirits, and his Seal is this, which he obeyeth when he seeth it. |
+| zepar-c07 | exact | en.wikipedia.org | Wikipedia calls Zepar a Great Duke of Hell commanding 26 legions of inferior spirits, whose office is to make women love men and bring them together in love, and who makes women barren. | Zepar is a Great Duke of Hell, commanding 26 legions of inferior spirits. His office is to cause women to love men, and bring them together in love. He makes women barren. |
 
 
 ## akugyo — lulus-otomatis
@@ -993,10 +1012,7 @@ Klaim 20 (loose 5, exact 15), sumber 3, gambar 0.
 
 ## okuri-inu — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1004,14 +1020,21 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | okuri-inu-c02 | exact | en.wikipedia.org | Its regional forms include both dogs and wolves. | There are stories of the okuri-inu from the Tōhoku region to Kyushu, but depending on the area it can be a wolf not a dog, and there are numerous differences in its behaviour. |
 | okuri-inu-c03 | exact | en.wikipedia.org | It follows people walking mountain paths at night. | The okuri-inu closely follows people who are walking along mountain paths at nighttime. |
 | okuri-inu-c04 | exact | en.wikipedia.org | One story says it attacks if the traveler falls. | If by chance the person falls over they will be immediately eaten up, but if they pretend to be having a short rest they will not be attacked. |
+| okuri-inu-c05 | exact | yokai.com | According to Yokai.com, the okuri inu follows lone travelers late at night, stalking them at a safe distance and following footstep for footstep as long as they keep walking; if the traveler trips or stumbles it pounces and rips them to shreds. | The okuri inu follows lone travelers late on the road at night. It stalks them, keeping a safe distance, but following footstep for footstep, as long as they keep walking. If the traveler should trip or stumble, the okuri inu will pounce on them and rip them to shreds. |
+| okuri-inu-c06 | exact | yokai.com | Yokai.com calls the okuri inu somewhat of a blessing and a curse: it pounces with supernatural speed if one falls, but so ferocious that while it follows someone no other dangerous yokai or wild animals come close. | The okuri inu is somewhat of a blessing and a curse. On the one hand, if one should trip and fall, it will pounce with supernatural speed and gobble him or her up. On the other hand, they are so ferocious that while they are following someone, no other dangerous yokai or wild animals will come close. |
+| okuri-inu-c07 | exact | yokai.com | According to Yokai.com, the okuri inu has a special relationship with another yokai, the yosuzume, whose nocturnal song is often a warning that an okuri inu is following you. | The okuri inu has a special relationship with another yokai, the yosuzume. This eerie bird's nocturnal song is often a warning that an okuri inu is following you. |
+| okuri-inu-c08 | exact | yokai.com | According to Yokai.com, a person who stumbles can survive by faking it as deliberate, so that the okuri inu is tricked into thinking they were just taking a short rest and does not pursue. | if you fake it so it looks like you did it on purpose, the okuri inu will be tricked into thinking you were just taking a short rest, and it won't pursue. |
+| okuri-inu-c09 | exact | yokai.com | According to Yokai.com, after making it out of the mountains safely one should turn around and call out "Thanks for seeing me off!", after which that okuri inu will never follow again. | If you should make it out of the mountains safely, you should turn around and call out, "Thanks for seeing me off!" Afterwards, that okuri inu will never follow you again. |
+| okuri-inu-c10 | exact | yokai.com | Yokai.com gives 送り犬 (おくりいぬ) with the translation "sending-off dog", the alternate name okuri ōkami ("sending-off wolf"), and dark mountain passes and forested roads as habitat. | Okuri inu 送り犬 おくりいぬ Translation: sending-off dog Alternate names: okuri ōkami (sending-off wolf) Habitat: dark mountain passes, forested roads |
+| okuri-inu-c11 | exact | en.wikipedia.org | In an account recorded by Wikipedia, a woman who gave birth on a mountain path was surrounded by many okuri-inu, which instead of attacking protected the mother and child from the wolves lurking in the mountain. | Night fell, and many okuri-inu gathered around. Terrified, the woman said "If you're going to eat us then eat us!", but rather than attacking, they actually protected the mother and child from the wolves that lurked in the mountain. |
+| okuri-inu-c12 | exact | en.wikipedia.org | Wikipedia records the yōkai investigator Kenji Murakami's hypothesis that the okuri-ōkami is actually the Japanese wolf and that tales of strange goings on or protection are merely convenient interpretations of the wolf's nature and traits. | Yōkai investigator Kenji Murakami, too, has hypothesised that the okuri-ōkami is actually the Japanese wolf, and that tales of strange goings on or protecting people are merely convenient interpretations of the Japanese wolf's nature and traits. |
+| okuri-inu-c14 | exact | en.wikipedia.org | Wikipedia notes that from the Kantō region to the Kinki region, and in Kōchi, there are legends of okuri-ōkami ("sending-off wolf"). | From the Kantō region to the Kinki region, along with Kōchi Prefecture, there are legends of okuri-ōkami (送り狼 ; literally, 'sending-off wolf'). |
+| okuri-inu-c13 | exact | en.wikipedia.org | Wikipedia notes that in Koumi, yama-inu are classified as either okuri-inu or mukae-inu ("welcoming dog"), with okuri-inu said to protect people and mukae-inu attacking them. | in Koumi, yama-inu (see above) are classified either as okuri-inu or mukae-inu (迎え犬 ; literally, 'welcoming dog'), with okuri-inu being said to protect people like the case from Shioda, and mukae-inu attacking people. |
 
 
 ## omononushi — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 1, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1019,14 +1042,20 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | omononushi-c02 | exact | en.wikipedia.org | The Kojiki and Nihon Shoki link him closely to Ōkuninushi. | He is closely linked in the imperial myth cycle recorded in the Kojiki (c. 712 CE) and the Nihon Shoki (720 CE) with the earthly kami Ōkuninushi (Ōnamuchi); indeed, the latter text treats 'Ōmononushi' as another name for or an aspect—more precisely, the spirit or mitama—of Ōnamuchi. Ōmononushi's chief place of worship is Ōmiwa Shrine located at the foot of Mount Miwa, which serves as the |
 | omononushi-c03 | exact | en.wikipedia.org | He is also worshiped at other shrines. | In addition, he is also enshrined in some other shrines such as Ōsugi Shrine in Ibaraki Prefecture. |
 | omononushi-c04 | exact | en.wikipedia.org | One tradition identifies the deity of Kotohira Shrine with him. | The deity of Kotohira Shrine (Kotohira-gū) in Kotohira, Kagawa Prefecture, popularly known as Konpira Daigongen (金毘羅大権現), is also currently identified with Ōmononushi. |
+| omononushi-c05 | exact | kotobank.jp | According to Heibonsha, "mono" means a spirit or demonic thing and "nushi" means chief; per the Mount Miwa legend in the Kiki chronicles this deity had a snake body and lived in a rock cave; under Emperor Sujin his curse caused a plague, and when his descendant Ōtataneko was made to worship him, the realm became stable. | モノは魔物をいい,ヌシは頭領の意。記紀の伝える三輪山伝説によると,この神は蛇体であり岩窟に住んでいた。また崇神天皇の代にこの神のたたりで疫病がはやり人民が飢え苦しんだので,その子孫の大田田根子に祭らせたところ,天下は安定したともいう。 |
+| omononushi-c06 | exact | kotobank.jp | Heibonsha calls Ōmononushi one of the most strongly indigenous earthly deities (kunitsukami) of the Yamato region; he stands out as an emanation of Ōkuninushi who helped build the land and, after the transfer of the land, led the earthly deities to guard the court. | 魔物の頭目として大和地方でもっとも土着性の強い国津神(くにつかみ)の一つだが,このオオモノヌシが記紀神話の伝承の中でとくに目だつのは,大国主神(おおくにぬしのかみ)の分身として国作りに協力し,国譲りの後はもろもろの国津神を率いて宮廷を守護したとされている点である。 |
+| omononushi-c07 | exact | kotobank.jp | Nipponica calls him the ancestral deity of the Miwa clan, with rich myths of sacred marriage with Seyadatarahime and Yamato-Totohimomosohime; he is also a snake god, a thunder god and a god of farming. | しかし、実際は三輪(みわ)氏の祖神である。この神には勢夜陀多良比売(せやだたらひめ)や倭迹迹日百襲姫命(やまとととひももそひめのみこと)との聖婚を語る神話が豊かに伝承されている(古事記、日本書紀)。蛇神、雷神でもあり、農耕神でもある。 |
+| omononushi-c08 | exact | kotobank.jp | According to the Yamakawa Nihonshi Shōjiten, he appeared as a curse-bringing deity in the time of Emperor Sujin and also manifests as a red-painted arrow, a snake and thunder. | 崇神(すじん)天皇のとき祟り神として現れ,また丹塗矢・蛇・雷などとして顕現してもいる。 |
+| omononushi-c09 | exact | en.wikipedia.org | Wikipedia notes that the name Ōmononushi is translated either as "Great Thing Master" (literal rendering of the characters) or "Great Spirit Master" (mono taken as spirit or supernatural entity). | The name 'Ōmononushi' ... is translated either as 'Great Thing Master' (after a literal translation of the characters used in his name) or 'Great Spirit Master' (with mono being taken as meaning 'spirit' or 'supernatural entity'). |
+| omononushi-c10 | exact | en.wikipedia.org | Wikipedia lists Ōmononushi as a god of nation-building, agriculture, business, medicine, brewing and seafaring. | Ōmononushi-no-Kami Mitama of Ōkuninushi; god of nation-building, agriculture, business, medicine, brewing, and seafaring |
+| omononushi-c11 | exact | en.wikipedia.org | According to Wikipedia, another god "illuminating the sea" appeared before Ōkuninushi and promised to help if worshipped; Ōkuninushi enshrined him on Mount Mimoro (Mount Miwa) in Yamato. | another god "illuminating the sea" appears before Ōkuninushi, promising to aid him in his task if he (Ōkuninushi) will worship him. Ōkuninushi, in accordance with the god's wish, then enshrined him in Mount Mimoro (Mount Miwa) in the land of Yamato. |
+| omononushi-c12 | exact | en.wikipedia.org | According to Wikipedia, in a revelation Ōmononushi claimed responsibility for the pestilence and announced it would not stop until he was offered due worship by a man named Ōtataneko. | In it, Ōmononushi claimed responsibility for the pestilence and announced that it would not stop until he was offered due worship by a man named Ōtataneko |
+| omononushi-c13 | exact | en.wikipedia.org | According to Wikipedia, Seyadatarahime bore a daughter after being impregnated by Ōmononushi, who took the form of a red arrow. | Seyadatarahime (勢夜陀多良比売) who bore a daughter after she was impregnated by Ōmononushi, who took the form of a red arrow |
 
 
 ## ouni — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1034,14 +1063,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ouni-c02 | exact | en.wikipedia.org | The illustration gives it long hair and a face resembling a demon woman. | It is a yōkai with a face like that of a demon woman (kijo) torn from mouth to ear, and its entire body is covered in hair. |
 | ouni-c03 | exact | en.wikipedia.org | Sekien left no explanation of its nature. | There is no explanatory text from Sekien, so it is unclear what kind of yōkai this is. |
 | ouni-c04 | exact | en.wikipedia.org | Researchers have not found a clear older folk legend about this figure. | There are no folk legends or records that are clearly about the ouni (or the "wauwau" based on Sekien's), so it is presently not clear what kind of yōkai they were intending to depict, but starting in the Heisei period, inferring from how there are many tales that seem highly related to the previous "o" and the yamauba, there have started to be many illustrated references, books, and oth |
+| ouni-c05 | exact | yokai.com | According to Yokai.com, ouni looks like an ugly old woman with an angry face and a body covered in long black hair; she is a kind of yamauba, or mountain hag, who lives deep in the mountains and only occasionally appears before humans. | Ouni looks like an ugly old woman with an angry face and a body covered in long, black hair. She is a kind of yamauba, or mountain hag. She lives deep in the mountains, away from civilization, and only occasionally appears before humans. |
+| ouni-c06 | exact | yokai.com | According to Yokai.com, unlike most yamauba, ouni are friendly toward humans who treat them kindly, and occasionally visit rural houses or mountain huts late at night. | Unlike most yamauba, ouni are friendly towards humans who treat them kindly. They occasionally visit rural houses or mountain huts late at night. |
+| ouni-c07 | exact | yokai.com | According to Yokai.com, if the household is kind and invites her in, during the night she spins an enormous amount of thread for the family and then vanishes without a trace. | If they are kind and invite her in, during the night she spins an enormous amount of thread for the family and then vanishes without a trace. |
+| ouni-c08 | exact | yokai.com | According to Yokai.com, ouni's name comes from the Japanese word for ramie, a fibrous plant used to make thread, and peat, the rotten muck of swamps from rotting plant matter. | Ouni's name comes from the Japanese word for ramie, a fibrous plant that is used to make thread, and peat, the rotten muck found in swamps that comes from rotting plant matter. |
+| ouni-c09 | exact | yokai.com | Yokai.com gives 苧うに (おうに) with the translation "ramie peat", the alternative name wauwau, and deep in the mountains as habitat. | Ouni 苧うに おうに Translation: ramie peat (named for her resemblance to these plants) ALTERNATIVE NAMES: wauwau Habitat: deep in the mountains |
+| ouni-c10 | exact | en.wikipedia.org | Wikipedia notes that the "o" (苧) in "ouni" refers to the ramie plant or to bundles of string made from ramie, hemp and the like, so it is said Sekien named it "ouni" because it evokes a yōkai with head and body hair made of layers of this "o". | The "o" (苧) in "ouni" refers to the ramie plant or to bundles of string made from ramie, hemp, among others, so it is said that Sekien gave it the name "ouni" because it conjures up the image of a yōkai with head and body hair made of layers of this "o". |
+| ouni-c11 | exact | en.wikipedia.org | Wikipedia notes that in the Hyakkai Zukan (1737, Sawaki Suushi), an Edo-period yōkai emaki, it is called "wauwau", and Edo-period yōkai emaki usually present it under that name. | In the Hyakkai Zukan (1737, Sawaki Suushi), a yōkai emaki from the Edo period, it is given by the name "wauwau", and Edo period yōkai emaki would usually present it under that name. |
+| ouni-c12 | exact | en.wikipedia.org | Wikipedia records a tale from Kotaki, Echigo Province, in which a yamauba appeared and helped spin, biting the hemp to draw out strings and spinning bundles of string at a speed unbelievable for humans. | the following example is from Kotaki, Nishikubiki, Echigo Province (now Itoigawa, Niigata Prefecture). ... a yamauba appeared and said "I'll also spin some" and started to help along. The yamauba bit the hemp and drew out strings and then spun bundles of string at a speed unbelievable for humans. |
 
 
 ## sazae-oni — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1049,14 +1083,18 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | sazae-oni-c02 | exact | en.wikipedia.org | One account says an old sea snail becomes such an obake. | They are a type of obake that forms when turban snails, especially Turbo sazae, reach 30 years of age. |
 | sazae-oni-c03 | exact | en.wikipedia.org | A well-known tale involves pirates who rescue a woman from the sea. | The most popular legend of the Sazae-oni is that of a group of pirates who rescued a drowning woman from the sea and took her back to the ship. |
 | sazae-oni-c04 | exact | en.wikipedia.org | Another story places it at a coastal inn in human form. | Other legends of these creatures depict them wandering into coastal or seaside inns whilst in human guise, whereupon they devour the innkeeper in the night and then escape before morning. |
+| sazae-oni-c05 | exact | yokai.com | According to Yokai.com, sazae oni are monstrous turban snails that haunt the seas and appear on moonlit nights, dancing on the water's surface like exotic dancers or dragons. | Sazae oni are monstrous turban snails which haunt the seas. They appear on moonlit nights, dancing on the water's surface like exotic dancers or dragons. |
+| sazae-oni-c06 | exact | yokai.com | According to Yokai.com, sazae oni are powerful shape-changers, often taking the form of beautiful women to lure seamen into trouble; at sea they pose as drowning victims and, once brought aboard, turn on their rescuers. | They are powerful shape-changers, often taking the form of beautiful women in order to lure seamen into trouble. At sea, they pretend to be drowning victims and cry out to be rescued, only to turn on their would-be saviors once brought aboard. |
+| sazae-oni-c07 | exact | yokai.com | According to Yokai.com, on land sazae oni often travel disguised as lone wandering women who stop at inns and eat the innkeepers during the night. | When encountered on land, sazae oni often travel disguised as lone, wandering women who stop at inns and eat the innkeepers during the night. |
+| sazae-oni-c08 | exact | yokai.com | According to Yokai.com, a turban snail that reaches 30 years old was thought to turn into a yokai with all kinds of magical powers; another way is when a lustful young woman is thrown into the sea. | It was thought that when a turban snail reaches 30 years old, it would turn into a yokai with all kinds of magical powers. Another way that sazae oni come to be is when a lustful young woman is thrown into the sea. |
+| sazae-oni-c09 | exact | yokai.com | According to Yokai.com, on the Kii peninsula a legend tells of a band of pirates who spotted a drowning woman one night and rescued her; the woman was actually a shape-changed sazae oni. | On the Kii penninsula, legend tells of a band of pirates who spotted a woman drowning in the water one night. They rescued her ... the woman was actually a shape-changed sazae oni |
+| sazae-oni-c10 | exact | yokai.com | In that legend, according to Yokai.com, the sazae oni demanded treasure as ransom and the desperate pirates handed over all their ill-gotten gold to it. | At the end of the night she had all of their testicles, and demanded treasure for their return. The desperate pirates traded away all of their ill-gotten gold to the sazae oni |
+| sazae-oni-c11 | exact | yokai.com | Yokai.com gives 栄螺鬼 (さざえおに) with the translation "turban snail demon" and oceans, seas and coastal areas as habitat. | Sazae oni 栄螺鬼 さざえおに Translation: turban snail demon Habitat: oceans, seas, and coastal areas |
 
 
 ## seere — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -1064,4 +1102,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | seere-c02 | exact | ja.wikipedia.org | One account places him under the eastern king Amaymon. | 東の王であるアマイモンの配下にあるという。 ... 一方、ヨーハン・ヴァイヤーが1577年に発表した『悪魔の偽王国』には『ゴエティア』と共通する悪魔が数多く登場するが、何故かセーレは登場していない。 |
 | seere-c03 | exact | en.wikipedia.org | He appears as a handsome man riding a winged horse. | He is depicted as a man riding a winged horse, and he is said to be beautiful. |
 | seere-c04 | exact | ja.wikipedia.org | The text credits him with rapid travel around the world. | 移動したり、ものを運んだりする能力を持っており、瞬きする間に世界中のどこにでも運べるという。 |
+| seere-c05 | exact | en.wikisource.org | In the Goetia text the seventieth spirit is Seere (also Sear or Seir), a mighty prince under Amaymon, King of the East, who appears as a beautiful man riding a winged horse. | The Seventieth Spirit is Seere, Sear, or Seir. He is a Mighty Prince, and Powerful, under AMAYMON, King of the East. He appeareth in the Form of a Beautiful Man, riding upon a Winged Horse. |
+| seere-c06 | exact | en.wikisource.org | According to the Goetia text his office is to go and come, bring many things to pass suddenly, and carry or recarry anything; he can cross the entire Earth in the blink of an eye. | His Office is to go and come; and to bring abundance of things to pass on a sudden, and to carry or recarry anything whither thou wouldest have it to go, or whence thou wouldest have it from. He can pass over the whole Earth in the twinkling of an Eye. |
+| seere-c07 | exact | en.wikisource.org | According to the Goetia text he gives a true account of all sorts of theft and hidden treasure, is of an indifferent good nature, is willing to do anything the Exorcist desires, and governs 26 legions of spirits. | He giveth a True relation of all sorts of Theft, and of Treasure hid, and of many other things. He is of an indifferent Good Nature, and is willing to do anything which the Exorcist desireth. He governeth 26 Legions of Spirits. |
+| seere-c08 | exact | en.wikipedia.org | Wikipedia says he can go to any place on earth in a matter of seconds to accomplish the will of the conjurer, bring abundance, help find hidden treasures or in robbery, and is not a demon of evil but of good nature, mostly indifferent to evilness. | He can go to any place on earth in a matter of seconds to accomplish the will of the conjurer, bring abundance, help in finding hidden treasures or in robbery, and is not a demon of evil but good nature, being mostly indifferent to evilness. |
+| seere-c09 | exact | en.wikipedia.org | Wikipedia records the spelling Seir (also Seire, Seere, Sear) and calls him a Prince of Hell with 26 legions of demons under his command. | Seir (also Seire, Seere, Sear) is a Prince of Hell, having 26 legions of demons under his command. |
 

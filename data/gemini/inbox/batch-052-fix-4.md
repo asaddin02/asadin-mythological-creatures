@@ -2263,12 +2263,12 @@
     {
       "id": "shikome-c15",
       "source_id": "shikome-s1",
-      "quote": "he climbed atop the \"flat slope\" or \"Even Pass\" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated.",
+      "quote": "Izanagi brandished his Totsuka-no-Tsurugi (十拳剣 ) but still they pursued, until he climbed atop the \"flat slope\" or \"Even Pass\" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated.",
       "locator": "Kojiki version",
       "context": "traditional-belief",
       "statement": {
-        "id": "Dalam versi Kojiki menurut Wikipedia, Izanagi mendaki \"lereng datar\" di pintu masuk Dunia Bawah dan melempar tiga buah persik, sehingga para pengejar mundur.",
-        "en": "In the Kojiki version as given by Wikipedia, Izanagi climbed the \"flat slope\" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated."
+        "id": "Menurut Wikipedia, Izanagi mengayunkan pedang Totsuka-no-Tsurugi tetapi pengejar tetap mengejar, hingga ia mendaki \"lereng datar\" di pintu masuk Dunia Bawah dan melempar tiga buah persik, sehingga para pengejar mundur.",
+        "en": "According to Wikipedia, Izanagi brandished his sword Totsuka-no-Tsurugi but the pursuers kept on, until he climbed the \"flat slope\" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated."
       }
     },
     {
@@ -3969,12 +3969,12 @@
     {
       "id": "tsurube-otoshi-c12",
       "source_id": "tsurube-otoshi-s1",
-      "quote": "they are depicted under the name of \"tsurube-oroshi\" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down.",
+      "quote": "In the Edo Period collection of kaidan (mysterious tales), the Kokon Hyakumonogatari Hyōban, they are depicted under the name of \"tsurube-oroshi\" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down.",
       "locator": "Classics",
       "context": "historical-record",
       "statement": {
-        "id": "Dalam kumpulan kaidan zaman Edo yang dicatat Wikipedia, ia digambarkan dengan nama \"tsurube-oroshi\" sebagai yōkai berupa roh pohon besar yang berubah menjadi api yang menghujan.",
-        "en": "In the Edo-period kaidan collection recorded by Wikipedia, they are depicted under the name \"tsurube-oroshi\" as a yōkai that is the spirit of a large tree turned into flames that rain down."
+        "id": "Dalam kumpulan kaidan zaman Edo, Kokon Hyakumonogatari Hyōban, yang dicatat Wikipedia, ia digambarkan dengan nama \"tsurube-oroshi\" sebagai yōkai berupa roh pohon besar yang berubah menjadi api yang menghujan.",
+        "en": "In the Edo-period kaidan collection Kokon Hyakumonogatari Hyōban, recorded by Wikipedia, they are depicted under the name \"tsurube-oroshi\" as a yōkai that is the spirit of a large tree turned into flames that rain down."
       }
     },
     {
