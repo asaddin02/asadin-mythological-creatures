@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-10-06T15:24:28.594Z",
+  "checked_at": "2026-10-06T15:41:15.937Z",
   "files": [
     "batch-095.md",
     "batch-095-fix-1.md",
     "batch-095-fix-2.md",
     "batch-095-fix-3.md",
-    "batch-095-fix-4.md"
+    "batch-095-fix-4.md",
+    "batch-095-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3803,20 +3804,15 @@
     },
     {
       "slug": "clytius",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "aa8bff71dccc2a857aa81809f7f4966f9fd0a900176b7c7d4019073dd5986bcf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "clytius-c01",
@@ -3837,27 +3833,111 @@
           "quote": "Er wurde laut der Bibliotheke des Apollodor von Hekate oder Hephaistos mit glühenden Eisenmassen verbrannt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "clytius-c03",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "Klytios (Clytius) was a Gigante (giant) immolated by the torches of Hekate in the war against the gods.",
+          "statement_id": "Klytios (Clytius) adalah seorang Gigante (raksasa) yang dibakar habis oleh obor Hekate dalam perang melawan para dewa.",
+          "quote": "KLYTIOS (Clytius) A Gigante immolated by the torches of Hekate in the war against the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c04",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus, Bibliotheca 1.34-38, Hekate got the better of Klytios with fire-brands.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus (1.34-38), Hekate mengalahkan Klytios dengan obor api.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Hekate got Klytios with fire-brands;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c05",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus, Bibliotheca, Ge (Earth) gave birth to the Gigantes (Giants), with Ouranos (Sky) as father; they were unsurpassed in the size of their bodies and unconquerable by virtue of their power.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus, Ge (Bumi) melahirkan para Gigantes (Giants) dengan Ouranos (Langit) sebagai ayah; mereka tak tertandingi dalam ukuran tubuh dan tak terkalahkan oleh kekuatannya.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Ge (Gaea, the Earth) gave birth to the Gigantes (Giants), Ouranos (Uranus, Sky) was the father. These creatures were unsurpassed in the size of their bodies and unconquerable by virtue of their power.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c06",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "The Giants were depicted either as spear-wielding hoplite warriors in armour or as primitives clothed in animal-skins and armed with rocks and flaming brands; in sculpture and mosaic art they were usually shown with serpent tails in place of legs.",
+          "statement_id": "Para Giants digambarkan sebagai prajurit hoplit bersenjata tombak berbaju zirah, atau sebagai makhluk primitif berpakaian kulit binatang yang bersenjatakan batu dan obor menyala; dalam seni patung dan mosaik mereka biasanya digambarkan berekor ular sebagai ganti kaki.",
+          "quote": "The Giants were depicted as either spear-wielding hoplite warriors in armour or primitives clothed in animal-skins and armed with rocks and flaming brands. In sculpture and mosaic art they were usually depicted with the tails of serpents in place of legs.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c07",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus, Bibliotheca, an oracle among the gods said that they themselves would not be able to destroy any of the Gigantes and could finish them off only with the help of a mortal ally.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus, ada ramalan di antara para dewa bahwa mereka sendiri tidak akan mampu membinasakan satu pun Gigantes dan hanya dapat menuntaskannya dengan bantuan sekutu fana.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Now there was an oracle among the gods that they themselves would not be able to destroy any of the Gigantes, but would finish them off only with the help of some mortal ally.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c08",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "Hecate and Giant Clytius appear together on an Athenian Red Figure Vase Painting (C5th B.C.) listed in this page's art gallery.",
+          "statement_id": "Hecate dan Giant Clytius muncul bersama pada sebuah Athenian Red Figure Vase Painting (C5th B.C.) yang terdaftar dalam galeri seni halaman ini.",
+          "quote": "T16.3 Hecate & Giant Clytius Athenian Red Figure Vase Painting C5th B.C.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c09",
+          "source_id": "clytius-s1",
+          "host": "de.wikipedia.org",
+          "statement": "In the depiction on the Pergamonaltar, Hekate burns him with her torch.",
+          "statement_id": "Pada penggambaran di Pergamonaltar, Hekate membakarnya dengan obornya.",
+          "quote": "In der Darstellung des Pergamonaltars verbrennt Hekate ihn mit ihrer Fackel.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c10",
+          "source_id": "clytius-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Different from the other Giganten on the Pergamonaltar, the name of Hekate's opponent is not secured by an inscription; the naming of the figure rests solely on the passage in Apollodor.",
+          "statement_id": "Berbeda dengan Giganten lain pada Pergamonaltar, nama lawan Hekate tidak terjamin lewat prasasti; penamaan sosok itu semata-mata bertumpu pada petikan dalam karya Apollodor.",
+          "quote": "Anders als bei anderen Giganten des Pergamonaltars ist der Name des Gegners der Hekate nicht inschriftlich gesichert. Die Benennung der Figur beruht daher ausschließlich auf der genannten Passage bei Apollodor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c11",
+          "source_id": "clytius-s2",
+          "host": "www.theoi.com",
+          "statement": "The Gigantes were a tribe of a hundred giants born of the earth-goddess Gaia; at Gaia's urging they waged war on the gods and were destroyed in the ensuing battle.",
+          "statement_id": "Para Gigantes adalah suku yang terdiri dari seratus raksasa kelahiran dewi bumi Gaia; atas dorongan Gaia mereka berperang melawan para dewa dan dibinasakan dalam pertempuran itu.",
+          "quote": "THE GIGANTES were a tribe of a hundred giants born of the earth-goddess Gaia. ... At the urging of Gaia the Gigantes waged war on the gods and were destroyed in the ensuing battle.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c72588d28f710ae9e08c2b4df225ac4fac10fbdcaa95e60b149cb07acbc4e1af"
+      "images": []
     },
     {
       "slug": "damysos",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "b619962eb30fa6fc2e3118eda3d5eab5035e87cb3bba297f2ffcedaaebf3df7a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "damysos-c01",
@@ -3878,27 +3958,71 @@
           "quote": "Chiron exhumed the body of the Damysus who was buried at Pallene, removed the ankle and incorporated it into Achill",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "damysos-c03",
+          "source_id": "damysos-s2",
+          "host": "www.theoi.com",
+          "statement": "Damysos (Damysus) was a swiftest of the Gigantes, slain in the war against the gods; Kheiron (Chiron) exhumed his body and took the swift \"astragale\" from his foot and placed it in the heel of the hero Akhilleus (Achilles).",
+          "statement_id": "Damysos (Damysus) adalah Gigante tercepat yang tewas dalam perang melawan para dewa; Kheiron (Chiron) menggali jasadnya, mengambil \"astragale\" (tulang pergelangan) yang cepat dari kakinya, lalu memasangnya pada tumit pahlawan Akhilleus (Achilles).",
+          "quote": "DAMYSOS (Damysus) A swiftest of the Gigantes who was slain in the war against the gods. Kheiron (Chiron) exumed his body and extracting the swift \"astragale\" from his foot placed it in the heel of the hero Akhilleus (Achilles).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "damysos-c04",
+          "source_id": "damysos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Photius's summary of Ptolemy Hephaestion's New History, Chiron exhumed the body of the Gigante Damysos, buried at Pallene, removed the astragale and incorporated it into Akhilleus' foot.",
+          "statement_id": "Dalam ringkasan Photius atas Sejarah Baru Ptolemaios Hephaistion, Chiron menggali jasad Gigante Damysos yang dimakamkan di Pallene, mengambil astragale-nya, dan memasangnya pada kaki Akhilleus.",
+          "quote": "Ptolemy Hephaestion, New History Book 6 (summary from Photius, Myriobiblon 190) (trans. Pearse) (Greek mythographer C1st to C2nd A.D.) : ... and confided him to Kheiron (Chiron). The latter exhumed the body of the Gigante Damysos (Damysus) who was buried at Pallene--Damysos was the fastest of all the Gigantes (Giants)--removed the astragale and incorporated it into Akhilleus' foot",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "damysos-c05",
+          "source_id": "damysos-s2",
+          "host": "www.theoi.com",
+          "statement": "In the same summary, this astragale fell when Akhilleus was pursued by Apollon, and it was thus that Akhilleus, fallen, was killed.",
+          "statement_id": "Dalam ringkasan yang sama, astragale itu terlepas ketika Akhilleus dikejar Apollon, dan dengan itulah Akhilleus roboh lalu tewas.",
+          "quote": "Ptolemy Hephaestion, New History Book 6 (summary from Photius, Myriobiblon 190) (trans. Pearse) (Greek mythographer C1st to C2nd A.D.) : ... This astragale fell when Akhilleus was pursued by Apollon and it was thus that Akhilleus, fallen, was killed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "damysos-c06",
+          "source_id": "damysos-s2",
+          "host": "www.theoi.com",
+          "statement": "The Gigantes were a tribe of a hundred giants born of the earth-goddess Gaia; at Gaia's urging they waged war on the gods and were destroyed in the ensuing battle.",
+          "statement_id": "Para Gigantes adalah suku yang terdiri dari seratus raksasa kelahiran dewi bumi Gaia; atas dorongan Gaia mereka berperang melawan para dewa dan dibinasakan dalam pertempuran itu.",
+          "quote": "THE GIGANTES were a tribe of a hundred giants born of the earth-goddess Gaia. ... At the urging of Gaia the Gigantes waged war on the gods and were destroyed in the ensuing battle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "damysos-c07",
+          "source_id": "damysos-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus, Bibliotheca, Ge (Earth) gave birth to the Gigantes (Giants), with Ouranos (Sky) as father; they were unsurpassed in the size of their bodies and unconquerable by virtue of their power.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus, Ge (Bumi) melahirkan para Gigantes (Giants) dengan Ouranos (Langit) sebagai ayah; mereka tak tertandingi dalam ukuran tubuh dan tak terkalahkan oleh kekuatannya.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Ge (Gaea, the Earth) gave birth to the Gigantes (Giants), Ouranos (Uranus, Sky) was the father. These creatures were unsurpassed in the size of their bodies and unconquerable by virtue of their power.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6ee4df479c9295d3180be1ffd03a36741f9a125102093e34ec484849f256a280"
+      "images": []
     },
     {
       "slug": "harpina",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "21fafaa7f0ed213a06029d9abdf394b551a0f1ab75f1f53f8afd84d48b2d3fb8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "harpina-c01",
@@ -3914,32 +4038,106 @@
           "id": "harpina-c02",
           "source_id": "harpina-s1",
           "host": "en.wikipedia.org",
-          "statement": "With Ares she was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her.",
-          "statement_id": "Bersama Ares ia menjadi ibu Oenomaus, raja Pisa, yang mendirikan kota Harpina dan menamainya menurut ibunya.",
-          "quote": "The couple were the parents of Oenomaus, the king of Pisa. The latter founded and named after his mother the city of Harpina",
+          "statement": "According to the tradition of the Eleans and Phliasians, Ares mated with Harpina in the city of Pisa (in the region of Elis); the couple were the parents of Oenomaus, king of Pisa.",
+          "statement_id": "Menurut tradisi orang Eleans dan Phliasians, Ares berhubungan dengan Harpina di kota Pisa (di wilayah Elis); pasangan itu menjadi orang tua Oenomaus, raja Pisa.",
+          "quote": "According to the tradition of the Eleans and Phliasians, Ares mated with Harpina in the city of Pisa (located in the ancient Greek region of Elis). The couple were the parents of Oenomaus, the king of Pisa.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c03",
+          "source_id": "harpina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Oenomaus, king of Pisa, founded the city of Harpina and named it after his mother, not far from the river Harpinates, near Olympia.",
+          "statement_id": "Oenomaus, raja Pisa, mendirikan kota Harpina dan menamainya menurut ibunya, tidak jauh dari sungai Harpinates, dekat Olympia.",
+          "quote": "The couple were the parents of Oenomaus, the king of Pisa. ... The latter founded and named after his mother the city of Harpina, not far from the river Harpinates, near Olympia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c04",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "Harpina was the Naiad nymph of a spring, well or fountain of the town of Pisa in Elis (southern Greece).",
+          "statement_id": "Harpina adalah nimfa Naiad dari sebuah mata air, sumur, atau pancuran di kota Pisa di Elis (Yunani selatan).",
+          "quote": "HARPINA was the Naiad-nymph of a spring, well or fountain of the town of Pisa in Elis (southern Greece).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c05",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "Harpina's name was derived from a Greek word meaning \"sickle-shaped sword\".",
+          "statement_id": "Nama Harpina diturunkan dari sebuah kata Yunani yang berarti \"pedang berbentuk sabit\".",
+          "quote": "Harpina's name was derived by the Greek word ... meaning \"sickle-shaped sword.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c06",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "She was probably identified with the Pleiad Sterope, who was otherwise named as the mother of Oinomaos by Ares.",
+          "statement_id": "Ia mungkin disamakan dengan Pleiad Sterope, yang dalam kisah lain disebut sebagai ibu Oinomaos dari Ares.",
+          "quote": "She was probably identified with the Pleiad Sterope who was otherwise named as the mother of Oinomaos by Ares.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c07",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "Oinomaos (Oenomaus), her son by Ares, was a barbarous king of Pisa famed for decorating his palace with the heads of the suitors of his daughter Hippodameia.",
+          "statement_id": "Oinomaos (Oenomaus), putra Harpina dari Ares, adalah raja Pisa yang barbar dan terkenal menghiasi istananya dengan kepala para pelamar putrinya, Hippodameia.",
+          "quote": "the mother by Ares of Oinomaos (Oenomaus)--a barbarous king of Pisa famed for decorating his palace with the heads of the suitors of his daughter Hippodameia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c08",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias, Description of Greece 5.22.6, the Phliasians dedicated at Olympia a Zeus, the daughters of Asopos, and Asopos himself; among the images of the daughters stands Harpina, who according to the traditions of the Eleans and Phliasians mated with Ares and was the mother of Oinomaos.",
+          "statement_id": "Dalam Description of Greece karya Pausanias (5.22.6), orang Phliasians mempersembahkan di Olympia sebuah Zeus, putri-putri Asopos, dan Asopos sendiri; di antara patung putri-putri itu berdiri Harpina, yang menurut tradisi orang Eleans dan Phliasians berhubungan dengan Ares dan menjadi ibu Oinomaos.",
+          "quote": "Pausanias, Description of Greece 5. 22. 6 (trans. Jones) (Greek travelogue C2nd A.D.) : ... The Phliasians also dedicated [at Olympia] a Zeus, the daughters of Asopos (Asopus), and Asopos himself. ... by Aigina stands Harpina, who, according to the traditions of the Eleans and Phliasians, mated with Ares and was the mother of Oinomaos (Oenomaus), king around Pisa.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c09",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus, Library of History 4.73.1, in the city of Pisa in the Peloponnesos Ares lay with Harpine (Harpina), the daughter of Asopos, and begat Oinomaus.",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus (4.73.1), di kota Pisa di Peloponnesos Ares berbaring dengan Harpine (Harpina), putri Asopos, dan menurunkan Oinomaus.",
+          "quote": "Diodorus Siculus, Library of History 4. 73. 1 (trans. Oldfather) (Greek historian C1st B.C.) : ... In the city of Pisa in the Peloponnesos Ares lay with Harpine (Harpina), the daughter of Asopos, and begat Oinomaus (Oenomaus).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c10",
+          "source_id": "harpina-s2",
+          "host": "www.theoi.com",
+          "statement": "Harpinna (Harpina) was a daughter of Asopus, from whom the town of Harpina or Harpinna in Elis was believed to have derived its name.",
+          "statement_id": "Harpinna (Harpina) adalah putri Asopus, yang diyakini menjadi asal nama kota Harpina atau Harpinna di Elis.",
+          "quote": "HARPINNA (Harpinna), a daughter of Asopus, from whom the town of Harpina or Harpinna in Elis was believed to have derived its name.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6596df1e67d26443a725021a1dd0597a63e30c4bbe0b40b3e275a774e18e8c7b"
+      "images": []
     },
     {
       "slug": "idaea",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "bc435a907a0b82296b495c388e183f219634f77c0b56c4e306ab9402b4b2fa1f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "idaea-c01",
@@ -3960,27 +4158,91 @@
           "quote": "She was the wife of the river-god Scamander,  and a principal ancestor of the royal house of Troy.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "idaea-c03",
+          "source_id": "idaea-s2",
+          "host": "www.theoi.com",
+          "statement": "Idaia (Idaea) was a nymph of Mount Ida in the Troad (north-western Anatolia) and the wife of the river god Skamandros (Scamander).",
+          "statement_id": "Idaia (Idaea) adalah nimfa Gunung Ida di Troas (Anatolia barat laut) dan istri dewa sungai Skamandros (Scamander).",
+          "quote": "IDAIA (Idaea) was a nymph of Mount Ida in the Troad (north-western Anatolia) and the wife of the river-god Skamandros (Scamander).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c04",
+          "source_id": "idaea-s2",
+          "host": "www.theoi.com",
+          "statement": "Idaia was probably the Naiad nymph of the springs of her husband's stream.",
+          "statement_id": "Idaia kemungkinan adalah nimfa Naiad dari mata air-mata air pada aliran sungai suaminya.",
+          "quote": "Idaia was probably the Naiad-nymph of the springs of her husband's stream.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c05",
+          "source_id": "idaea-s2",
+          "host": "www.theoi.com",
+          "statement": "She was perhaps a daughter of Okeanos and Tethys.",
+          "statement_id": "Ia mungkin putri Okeanos dan Tethys.",
+          "quote": "Perhaps a daughter of OKEANOS & TETHYS",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c06",
+          "source_id": "idaea-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pseudo-Apollodorus, Bibliotheca 3.139, the country was ruled by a king, Teukros (Teucer), son of the river Skamandros and of a Nymphe Idaia (Idaea), and its inhabitants were called Teukrians after Teukros.",
+          "statement_id": "Dalam Bibliotheca karya Pseudo-Apollodorus (3.139), negeri itu diperintah raja Teukros (Teucer), putra sungai Skamandros dan Nymphe Idaia (Idaea); penduduknya disebut Teukrian menurut nama Teukros.",
+          "quote": "Pseudo-Apollodorus, Bibliotheca 3. 139 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... That country was ruled by a king, Teukros (Teucer), son of the river Skamandros (Scamander) and of a Nymphe Idaia (Idaea), and the inhabitants of the country were called Teukrians after Teukros.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c07",
+          "source_id": "idaea-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus, Library of History 4.75.1, the first to rule as king over the land of Troy was Teukros (Teucer), the son of the river god Skamandros and a Nymphe of Mt Ida.",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus (4.75.1), yang pertama memerintah sebagai raja atas tanah Troya adalah Teukros (Teucer), putra dewa sungai Skamandros dan seorang Nymphe dari Gunung Ida.",
+          "quote": "Diodorus Siculus, Library of History 4. 75. 1 (trans. Oldfather) (Greek historian C1st B.C.) : ... The first to rule as king over the land of Troy was Teukros (Teucer), the son of the River-god Skamandros (Scamander) and a Nymphe of Mt Ida.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c08",
+          "source_id": "idaea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides a son, Apollodorus goes on to mention two daughters of Scamander, presumably also by Idaea: Callirrhoe and Strymo.",
+          "statement_id": "Selain seorang putra, Apollodorus menyebut dua putri Scamander, yang agaknya juga dari Idaea, yaitu Callirrhoe dan Strymo.",
+          "quote": "In addition to a son, Apollodorus goes on to mention two daughters of Scamander, presumably also by Idaea, Callirrhoe and Strymo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c09",
+          "source_id": "idaea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ἰδαία means \"she who comes from Ida\" or \"she who lives on Ida\".",
+          "statement_id": "Ἰδαία berarti \"dia yang berasal dari Ida\" atau \"dia yang tinggal di Ida\".",
+          "quote": "Ἰδαία means 'she who comes from Ida' or 'she who lives on Ida'",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8fb9d70cc399dc18014c3815a33f7a8e36da276ccf7ae5abd336d261e4d092b8"
+      "images": []
     },
     {
       "slug": "phaethusa",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "4d591de56aff3c04a25716183900ace8999ab69c2e7abad3fb7d058a997cc457",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "phaethusa-c01",
@@ -4011,27 +4273,91 @@
           "quote": "Phaethusa wielded a silver crook and herded the sheep.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "phaethusa-c04",
+          "source_id": "phaethusa-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homer, Odyssey 12.127, the herds are pastured by goddesses, lovely-haired Nymphai named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera.",
+          "statement_id": "Dalam Odyssey karya Homeros (12.127), kawanan itu digembalakan oleh dewi-dewi Nymphai berambut indah bernama Phaethousa (Phaethusa) dan Lampetie (Lampetia), yang ayahnya dewa matahari Hyperion [Helios] dan ibunya Neaera yang bercahaya.",
+          "quote": "Homer, Odyssey 12. 127 ff : ... They are pastured by goddesses, lovely-haired Nymphai (Nymphs) named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c05",
+          "source_id": "phaethusa-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homer, Odyssey 12.127, the herds of Helios are seven herds of cows and as many flocks of sheep, fifty beasts in each; no births increase them and no deaths diminish them [they were immortal].",
+          "statement_id": "Dalam Odyssey karya Homeros (12.127), ternak Helios terdiri dari tujuh kawanan sapi dan sebanyak itu kawanan domba, masing-masing berisi lima puluh ekor; tak ada kelahiran yang menambah dan tak ada kematian yang mengurangi jumlahnya [mereka abadi].",
+          "quote": "Homer, Odyssey 12. 127 ff : ... they are Helios'--seven herds of cows and as many fine flocks of sheep. In each herd and each flock there are fifty beasts; no births increase them, no deaths diminish them [they were immortal].",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c06",
+          "source_id": "phaethusa-s3",
+          "host": "www.perseus.tufts.edu",
+          "statement": "A daughter of Helios by Neaera, she guarded her father's flocks in Thrinacia together with her sister Lampetia.",
+          "statement_id": "Putri Helios dari Neaera, ia menjaga kawanan ternak ayahnya di Thrinacia bersama saudarinya Lampetia.",
+          "quote": "A daughter of Helios by Neaera, guarded the flocks of ber father in Thrinacia in conjunction with her sister Lampetia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c07",
+          "source_id": "phaethusa-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "One of the Heliades or Phaethontiades.",
+          "statement_id": "Salah satu dari Heliades atau Phaethontiades.",
+          "quote": "One of the Heliades or Phaethontiades.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c08",
+          "source_id": "phaethusa-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In this translation of the poem, the eldest, Phaethusa, prone upon the ground, tried to rise but found her feet growing stiff and uttered a moan; Lampetia wished to aid her sister but was hindered by new roots.",
+          "statement_id": "Dalam terjemahan puisi ini, Phaethusa yang tertua, tertelungkup di tanah, hendak bangkit tetapi mendapati kakinya mengeras dan ia mengerang; Lampetia ingin menolong saudarinya tetapi terhalang akar-akar baru.",
+          "quote": "Prone upon the ground, the eldest, Phaethusa, would arise from there, but found her feet were growing stiff; and uttered moan. Lampetia wished to aid her sister but was hindered by new roots;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c09",
+          "source_id": "phaethusa-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In the same account, after the bark enclosed their lips, their tears flow forth and from the new-formed boughs amber distils and slowly hardens in the sun.",
+          "statement_id": "Dalam kisah yang sama, setelah kulit kayu menutupi bibir mereka, air mata mereka mengalir dan dari cabang-cabang baru menetes ambar yang perlahan mengeras di bawah matahari.",
+          "quote": "And as they spoke the bark enclosed their lips. Their tears flow forth, and from the new-formed boughs amber distils and slowly hardens in the sun;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c10",
+          "source_id": "phaethusa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Alternately, Phaethusa has been named as one of the Heliades, which would make her the daughter of Helios and Clymene, one of the Oceanids.",
+          "statement_id": "Secara alternatif, Phaethusa disebut sebagai salah satu Heliades, yang akan menjadikannya putri Helios dan Clymene, salah seorang Oceanid.",
+          "quote": "Alternately, Phaethusa has been named as one of the Heliades. ... This would have made her the daughter of Helios and Clymene, one of the Oceanids.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5bc1cd9d5fc54c97a678810e26bcde0bc3ac54b158b48023e8ef6cc7ea0b3eff"
+      "images": []
     },
     {
       "slug": "plouto",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "564e921de9dbedab1036e3b1b0317dd00714a25e74c84826d75a6b1e69951c64",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "plouto-c01",
@@ -4052,27 +4378,81 @@
           "quote": "Hesiod calls her \"soft eyed\", and the Homeric Hymn has her as one of the \"deep-bosomed daughters of Oceanus\" who were the playmates of Persephone when she was abducted by Hades.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "plouto-c03",
+          "source_id": "plouto-s2",
+          "host": "www.theoi.com",
+          "statement": "Plouto (Pluto) was an Okeanis, goddess of wealth, probably a Nephele (cloud nymph) of fertile rains, prospering the agricultural crop.",
+          "statement_id": "Plouto (Pluto) adalah Okeanis, dewi kekayaan, yang kemungkinan adalah Nephele (nimfa awan) dari hujan yang menyuburkan dan memakmurkan hasil panen.",
+          "quote": "PLOUTO (Pluto) The Okeanis goddess of wealth was probably a Nephele of fertile rains, prospering the agricultural crop.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c04",
+          "source_id": "plouto-s2",
+          "host": "www.theoi.com",
+          "statement": "Some of the Okeanides personified divine blessings such as Metis (Wisdom), Klymene (Fame), Plouto (Wealth), Tykhe (Good Fortune), Telesto (Success) and Peitho (Persuasion).",
+          "statement_id": "Sebagian Okeanides mempersonifikasikan berkah ilahi, antara lain Metis (Kebijaksanaan), Klymene (Kemasyhuran), Plouto (Kekayaan), Tykhe (Keberuntungan), Telesto (Keberhasilan), dan Peitho (Bujukan).",
+          "quote": "Some of the Okeanides personified divine blessings such as Metis (Wisdom), Klymene (Fame), Plouto (Wealth), Tykhe (Good Fortune), Telesto (Success), and Peitho (Persuasion).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c05",
+          "source_id": "plouto-s2",
+          "host": "www.theoi.com",
+          "statement": "The Okeanides (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh water, from rain-clouds to subterranean springs and fountains.",
+          "statement_id": "Okeanides (Oceanids) adalah tiga ribu dewi-nimfa yang memimpin sumber-sumber air tawar bumi, dari awan hujan hingga mata air dan pancuran bawah tanah.",
+          "quote": "THE OKEANIDES (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh-water--from rain-clouds to subterranean springs and fountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c06",
+          "source_id": "plouto-s2",
+          "host": "www.theoi.com",
+          "statement": "In Evelyn-White's translation of Hesiod, Theogony 346 ff, Plouto is called \"ox-eyed\" in the list of the daughters of Okeanos.",
+          "statement_id": "Dalam terjemahan Evelyn-White atas Theogony karya Hesiodos (346 dst.), Plouto disebut \"bermata sapi\" (ox-eyed) dalam daftar putri Okeanos.",
+          "quote": "Hesiod, Theogony 346 ff (trans. Evelyn-White) (Greek epic C8th or 7th B.C.) : ... Kerkeis of the lovely stature, and ox-eyed Plouto, Xanthe and Akaste",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c07",
+          "source_id": "plouto-s3",
+          "host": "www.perseus.tufts.edu",
+          "statement": "A daughter of Oceanus and Tethys, and one of the playmates of Persephone.",
+          "statement_id": "Putri Oceanus dan Tethys, dan salah satu teman bermain Persephone.",
+          "quote": "A daughter of Oceanus and Tethys, and one of the playmates of Persephone.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c08",
+          "source_id": "plouto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Pluto or Plouto (Πλουτώ, Ploutṓ) literally means \"rich one\".",
+          "statement_id": "Nama Pluto atau Plouto (Πλουτώ, Ploutṓ) secara harfiah berarti \"yang kaya\".",
+          "quote": "Pluto or Plouto (Ancient Greek: Πλουτώ, romanized: Ploutṓ, lit. 'rich one')",
+          "context": "etymology",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "3f8785d607ec5d466ec4661ed0e309fa9f417079c3ca9fe7bf0ea4a9b3927c2f"
+      "images": []
     },
     {
       "slug": "tuchulcha",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "55b92ffb391b7aa55811ccdec5858d78e855a7a3f1a7ea8f005269bfce71b447",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tuchulcha-c01",
@@ -4103,27 +4483,91 @@
           "quote": "The only known depiction of Tuchulcha is a wall painting in the Tomb of Orcus II, in Tarquinia, Italy.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c04",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Nancy de Grummond, this monster is often referred to as male but is very likely female (or neither gender), for she wears a woman's dress, has decidedly pale pinkish skin, and even appears to have breasts.",
+          "statement_id": "Menurut Nancy de Grummond, sosok ini sering disebut laki-laki tetapi sangat mungkin perempuan (atau tak berjenis kelamin), karena memakai busana perempuan, berkulit merah muda pucat, dan tampak berpayudara.",
+          "quote": "According to Nancy de Grummond, \"This monster is often referred to as male but in fact is very likely female (or neither gender), for she wears a woman’s dress, has decidedly pale pinkish skin (compare the standard brick-red male flesh of These), and even appears to have breasts.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c05",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many scholars refer to this deity as male because of masculine features, such as animalistic facial hair that may resemble a beard.",
+          "statement_id": "Banyak sarjana menyebut dewa ini laki-laki karena ciri-ciri maskulin, seperti rambut wajah mirip binatang yang dapat menyerupai janggut.",
+          "quote": "Many scholars refer to this deity as male ... because of masculine features, such as animalistic facial hair that may resemble a beard.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c06",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tomb painting, the deity appears in an episode from the story of These (Greek Theseus) visiting the underworld, where he and his friend Peirithous (only his head survives in the image) are playing a board game, attended by Tuchulcha.",
+          "statement_id": "Pada lukisan makam itu, sosok ini muncul dalam episode kisah These (Theseus dalam bahasa Yunani) yang mengunjungi dunia bawah; ia dan sahabatnya Peirithous (hanya kepalanya yang selamat pada gambar) bermain papan permainan, dilayani oleh Tuchulcha.",
+          "quote": "In the tomb painting, the deity appears in an episode from the story of These (Greek Theseus) visiting the underworld, where he and his friend Peirithous (only his head survives in the image) are playing a board game, attended by Tuchulcha.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c07",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The diamond-marking of Tuchulcha's serpents has been identified as that of the poisonous adder (Vipera berus berus).",
+          "statement_id": "Penanda berbentuk belah ketupat pada ular-ular Tuchulcha dikenali sebagai ciri ular berbisa jenis adder (Vipera berus berus).",
+          "quote": "She also identifies the diamond-marking of Tuchulcha's serpents as identifying the poisonous adder (Vipera berus berus).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c08",
+          "source_id": "tuchulcha-s2",
+          "host": "camws.org",
+          "statement": "A conference abstract writes that the gender and sex of the figure of Tuchulca (its spelling) in the Tomb of Orcus II, Tarquinia, are likewise debated; the figure wears a simple chiton associated with female attire and has animal features: the beak of a large bird, the ears of a wolf or donkey and writhing snakes as hair.",
+          "statement_id": "Sebuah abstrak makalah konferensi menulis bahwa jenis kelamin dan gender sosok Tuchulca (ejaan yang dipakainya) di Makam Orcus II, Tarquinia, juga diperdebatkan; sosok itu berbusana chiton sederhana yang lazim bagi perempuan dan berciri binatang, yakni paruh burung besar, telinga serigala atau keledai, serta ular menggeliat sebagai rambut.",
+          "quote": "A similar debate also surrounds the gender and sex of the figure of Tuchulca, as seen in the Tomb of Orcus II, in Tarquinia. Illustrated wearing a simple chiton associated with female attire, this depiction also possesses various theriomorphic attributes, such as the beak of a large bird, the ears of a wolf or donkey and writhing snakes representing hair.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c09",
+          "source_id": "tuchulcha-s2",
+          "host": "camws.org",
+          "statement": "Tuchulca seems to be depicted with the suggestion of breasts, which has led many scholars to label it as a \"female\" figure; the abstract's author argues that Tuchulca shows both male and female characteristics and is thus intentionally sexually ambiguous.",
+          "statement_id": "Tuchulca tampak digambarkan dengan kesan payudara, yang membuat banyak sarjana menyebutnya sosok \"perempuan\"; penulis abstrak itu berpendapat bahwa Tuchulca menampilkan ciri laki-laki sekaligus perempuan sehingga sengaja dibuat ambigu secara seksual.",
+          "quote": "Tuchulca also seems to be depicted with the suggestion of breasts, which has led many scholars to label it as a “female” figure. However, I argue that Tuchulca exhibits both male and female characteristics, and thus is intentionally more sexually ambiguous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c10",
+          "source_id": "tuchulcha-s2",
+          "host": "camws.org",
+          "statement": "According to the same abstract, Etruscan demons are portrayed as chthonic beings when integrated into Greek mythological narratives in tomb paintings, funerary statuary and cinerary urns; they also performed a psychopomp role in tomb paintings and on sarcophagi, often shown alongside Etruscan elites.",
+          "statement_id": "Menurut abstrak yang sama, demon Etruria digambarkan sebagai makhluk chthonic ketika dipadukan dengan kisah mitologi Yunani pada lukisan makam, patung pemakaman, dan guci abu; mereka juga berperan sebagai psychopomp pada lukisan makam dan sarkofagus, sering ditunjukkan bersama kaum elite Etruria.",
+          "quote": "Their portrayal as chthonic beings is seen when they are integrated into Greek mythological narratives in tomb paintings, funerary statuary and cinerary urns. Demons also performed a psychopomp role in tomb paintings and on sarcophagi, where they are often shown alongside Etruscan elites,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0e7772a38fd35f8a78d98983d711299e64731c33bfde3bc51909e515df82402f"
+      "images": []
     },
     {
       "slug": "zeuxo",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "9fa297fb83ab03e4b2c483a28c5513949ea97fef76ef7bf0670246e6d8cbdc37",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zeuxo-c01",
@@ -4154,27 +4598,81 @@
           "quote": "She also appears in a vase painting by the Brygos Painter in which she serves wine to a warrior named Chrysippus.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "zeuxo-c04",
+          "source_id": "zeuxo-s2",
+          "host": "www.theoi.com",
+          "statement": "Zeuxo was an Okeanis named \"the yoked\", probably a goddess of marriage, brides being yoked in marriage; she may have been a Naias or Nephele Nymphe, in the sense of a yoked or tamed horse.",
+          "statement_id": "Zeuxo adalah Okeanis bernama \"yang dipasangi kuk\", yang kemungkinan dewi pernikahan karena pengantin \"dikuk\" dalam pernikahan; ia mungkin Naias atau Nephele, dalam arti kuda yang dikuk atau dijinakkan.",
+          "quote": "ZEUXO An Okeanis named \"the yoked\" was probably a goddess of marriage, brides being yoked in marriage. She may have been a Naias or Nephele Nymphe, in the sense of a yoked or tamed horse.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c05",
+          "source_id": "zeuxo-s2",
+          "host": "www.theoi.com",
+          "statement": "The Okeanides (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh water, from rain-clouds to subterranean springs and fountains.",
+          "statement_id": "Okeanides (Oceanids) adalah tiga ribu dewi-nimfa yang memimpin sumber-sumber air tawar bumi, dari awan hujan hingga mata air dan pancuran bawah tanah.",
+          "quote": "THE OKEANIDES (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh-water--from rain-clouds to subterranean springs and fountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c06",
+          "source_id": "zeuxo-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod, Theogony 346 ff (Evelyn-White translation), Zeuxo appears in the list of the daughters of Okeanos, among Hippo, Klymene, Rhodeia, Kallirhoe and Klytia.",
+          "statement_id": "Dalam Theogony karya Hesiodos (346 dst., terjemahan Evelyn-White), Zeuxo tercantum dalam daftar putri Okeanos, di antara Hippo, Klymene, Rhodeia, Kallirhoe, dan Klytia.",
+          "quote": "Hesiod, Theogony 346 ff (trans. Evelyn-White) (Greek epic C8th or 7th B.C.) : ... Hippo and Klymene, Rhodeia and Kallirhoe, Zeuxo and Klytia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c07",
+          "source_id": "zeuxo-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Zeuxo pours wine to Chrysippos on an Attic red-figured kylix by the Brygos Painter, from the Brygos Tomb in Capua, c. 490-480 BCE.",
+          "statement_id": "Zeuxo menuangkan anggur untuk Chrysippos pada sebuah kylix Attika figur merah karya Pelukis Brygos, dari Makam Brygos di Capua, sekitar 490-480 SM.",
+          "quote": "Zeuxo pours wine to Chrysippos on an Attic red-figured kylix by the Brygos painter, from the Brygos Tomb in Capua, c. 490-480 BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c08",
+          "source_id": "zeuxo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her name (Ζευξώ) means \"yoke\" or \"cart\".",
+          "statement_id": "Namanya (Ζευξώ) berarti \"kuk\" atau \"kereta\".",
+          "quote": "Ancient Greek: Ζευξώ means 'yoke' or 'cart'",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c09",
+          "source_id": "zeuxo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The main belt asteroid 438 Zeuxo was named after her.",
+          "statement_id": "Asteroid sabuk utama 438 Zeuxo dinamai menurut namanya.",
+          "quote": "The main belt asteroid 438 Zeuxo was named after her.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8506ce1846140543fad729fe495d05c92360c4b5d5fdf80bcc625361e89100c2"
+      "images": []
     },
     {
       "slug": "crinisus",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-5.md",
+      "entry_sha256": "676f4772a25f8373d64ee08703250d451bebd10ba956a0885f34a94c49b8836b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "crinisus-c01",
@@ -4205,10 +4703,79 @@
           "quote": "Segestan coins from 475–390 BCE often depict a dog on one side, and a woman's head on the other, which have traditionally been associated with Crinisus and the eponymous Segesta.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "crinisus-c04",
+          "source_id": "crinisus-s2",
+          "host": "www.theoi.com",
+          "statement": "Krimisos (Crimisus) was a river god of western Sikelia (Sicily); he seduced the daughter of a Trojan settler in the guise of a dog.",
+          "statement_id": "Krimisos (Crimisus) adalah dewa sungai di Sikelia (Sisilia) barat; ia merayu putri seorang pemukim Troya dalam wujud anjing.",
+          "quote": "KRIMISOS (Crimisus) was a river-god of western Sikelia (Sicily). He seduced the daughter of a Trojan settler in the guise of a dog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c05",
+          "source_id": "crinisus-s2",
+          "host": "www.theoi.com",
+          "statement": "The river Krimisos was located in north-western Sikelia, entering the Mediterranean Sea near the Greek colony of Egesta.",
+          "statement_id": "Sungai Krimisos terletak di Sikelia barat laut dan bermuara ke Laut Tengah dekat koloni Yunani Egesta.",
+          "quote": "The river Krimisos was located in the north-western Sikelia, entering the Mediterranean Sea near the Greek colony of Egesta.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c06",
+          "source_id": "crinisus-s2",
+          "host": "www.theoi.com",
+          "statement": "In Lycophron, Alexandra 960 ff, the River Krimisos (Crimisus), in the likeness of a dog, took one of the daughters as his bride, and she bears the half-beast god a noble whelp.",
+          "statement_id": "Dalam Alexandra karya Lycophron (960 dst.), Sungai Krimisos (Crimisus), dalam rupa seekor anjing, mengambil salah satu putri itu sebagai pengantin, dan ia melahirkan bagi dewa setengah-binatang itu seorang anak mulia.",
+          "quote": "Lycophron, Alexandra 960 ff (trans. Mair) (Greek poet C3rd B.C.) : ... one the River Krimisos (Crimisus), in the likeness of a dog, took to be his bride : and she to the half-beast god bears a noble whelp",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c07",
+          "source_id": "crinisus-s2",
+          "host": "www.theoi.com",
+          "statement": "In Virgil, Aeneid 5.35 ff, Acestes was born of a Trojan mother to the river god Crimisus.",
+          "statement_id": "Dalam Aeneid karya Virgil (5.35 dst.), Acestes dilahirkan dari seorang ibu Troya oleh dewa sungai Crimisus.",
+          "quote": "Virgil, Aeneid 5. 35 ff (trans. Fairclough) (Roman epic C1st B.C.) : ... Acestes, born of a Trojan mother to the river god Crimisus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c08",
+          "source_id": "crinisus-s2",
+          "host": "www.theoi.com",
+          "statement": "In Aelian, Historical Miscellany 2.33, the Egestans honour the Porpax, Krimisos (Crimisus) and Telmessos in the form of men.",
+          "statement_id": "Dalam Historical Miscellany karya Aelian (2.33), orang Egesta menghormati Porpax, Krimisos (Crimisus), dan Telmessos dalam wujud manusia.",
+          "quote": "Aelian, Historical Miscellany 2. 33 (trans. Wilson) (Greek rhetorician C2nd to 3rd A.D.) : ... the Egestans honour the Porpax, Krimisos (Crimisus), and Telmessos in the form of men.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c09",
+          "source_id": "crinisus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Servius's commentary on the Aeneid, Crimissus turned into a bear or a dog and mated with her, producing Egestus, who founded the Trojan city of Egesta there, named after his mother, which later became known as Segesta.",
+          "statement_id": "Menurut komentar Servius atas Aeneid, Crimissus berubah menjadi beruang atau anjing dan berhubungan dengan putri itu, melahirkan Egestus yang mendirikan kota Troya Egesta, dinamai menurut ibunya dan kemudian dikenal sebagai Segesta.",
+          "quote": "Servius the Grammarian's commentary on the Aeneid gives the most complete version of the myth. ... Crimissus turned into a bear or a dog and mated with her, producing Egestus, who founded the Trojan city of Egesta there, named after his mother, which later became known as Segesta.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c10",
+          "source_id": "crinisus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Dionysius of Halicarnassus' Roman Antiquities, Acestes' father is \"a youth of distinguished family\" who loved Acestes' mother, accompanied her from Troy and married her when they arrived in Sicily.",
+          "statement_id": "Dalam Roman Antiquities karya Dionysius dari Halicarnassus, ayah Acestes adalah \"seorang pemuda dari keluarga terpandang\" yang mencintai ibu Acestes, menyertainya dari Troya, dan menikahinya setibanya di Sisilia.",
+          "quote": "Dionysius of Halicarnassus' Roman Antiquities has a different version of the story, with Acestes' father as \"a youth of distinguished family\", who was in love with Acestes' mother, accompanied her from Troy, and married her when they arrived in Sicily",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b4a3f7885510695f9ff8faf08330f180ab981d170968eb26aaed04b0b4dfce2e"
+      "images": []
     }
   ]
 }

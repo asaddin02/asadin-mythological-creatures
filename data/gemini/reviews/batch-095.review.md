@@ -1,6 +1,6 @@
 # Review batch-095
 
-Diperiksa 2026-10-06T15:24:28.594Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md, batch-095-fix-3.md, batch-095-fix-4.md.
+Diperiksa 2026-10-06T15:41:15.937Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md, batch-095-fix-3.md, batch-095-fix-4.md, batch-095-fix-5.md.
 
 ## chloris — lulus-otomatis
 
@@ -657,121 +657,156 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## clytius — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | clytius-c01 | exact | de.wikipedia.org | Clytius (Klytios) was one of the Giants of Greek mythology who attacked the Olympian gods in the Gigantomachy. | Klytios (altgriechisch Κλύτιος Klýtios) war einer der Giganten der griechischen Mythologie, die im Rahmen der sogenannten Gigantomachie die olympischen Götter angriffen. |
 | clytius-c02 | exact | de.wikipedia.org | According to Apollodorus's Library, Hecate or Hephaestus burned him with glowing iron. | Er wurde laut der Bibliotheke des Apollodor von Hekate oder Hephaistos mit glühenden Eisenmassen verbrannt. |
+| clytius-c03 | exact | www.theoi.com | Klytios (Clytius) was a Gigante (giant) immolated by the torches of Hekate in the war against the gods. | KLYTIOS (Clytius) A Gigante immolated by the torches of Hekate in the war against the gods. |
+| clytius-c04 | exact | www.theoi.com | In Pseudo-Apollodorus, Bibliotheca 1.34-38, Hekate got the better of Klytios with fire-brands. | Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Hekate got Klytios with fire-brands; |
+| clytius-c05 | exact | www.theoi.com | In Pseudo-Apollodorus, Bibliotheca, Ge (Earth) gave birth to the Gigantes (Giants), with Ouranos (Sky) as father; they were unsurpassed in the size of their bodies and unconquerable by virtue of their power. | Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Ge (Gaea, the Earth) gave birth to the Gigantes (Giants), Ouranos (Uranus, Sky) was the father. These creatures were unsurpassed in the size of their bodies and unconquerable by virtue of their power. |
+| clytius-c06 | exact | www.theoi.com | The Giants were depicted either as spear-wielding hoplite warriors in armour or as primitives clothed in animal-skins and armed with rocks and flaming brands; in sculpture and mosaic art they were usually shown with serpent tails in place of legs. | The Giants were depicted as either spear-wielding hoplite warriors in armour or primitives clothed in animal-skins and armed with rocks and flaming brands. In sculpture and mosaic art they were usually depicted with the tails of serpents in place of legs. |
+| clytius-c07 | exact | www.theoi.com | In Pseudo-Apollodorus, Bibliotheca, an oracle among the gods said that they themselves would not be able to destroy any of the Gigantes and could finish them off only with the help of a mortal ally. | Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Now there was an oracle among the gods that they themselves would not be able to destroy any of the Gigantes, but would finish them off only with the help of some mortal ally. |
+| clytius-c08 | exact | www.theoi.com | Hecate and Giant Clytius appear together on an Athenian Red Figure Vase Painting (C5th B.C.) listed in this page's art gallery. | T16.3 Hecate & Giant Clytius Athenian Red Figure Vase Painting C5th B.C. |
+| clytius-c09 | exact | de.wikipedia.org | In the depiction on the Pergamonaltar, Hekate burns him with her torch. | In der Darstellung des Pergamonaltars verbrennt Hekate ihn mit ihrer Fackel. |
+| clytius-c10 | exact | de.wikipedia.org | Different from the other Giganten on the Pergamonaltar, the name of Hekate's opponent is not secured by an inscription; the naming of the figure rests solely on the passage in Apollodor. | Anders als bei anderen Giganten des Pergamonaltars ist der Name des Gegners der Hekate nicht inschriftlich gesichert. Die Benennung der Figur beruht daher ausschließlich auf der genannten Passage bei Apollodor. |
+| clytius-c11 | exact | www.theoi.com | The Gigantes were a tribe of a hundred giants born of the earth-goddess Gaia; at Gaia's urging they waged war on the gods and were destroyed in the ensuing battle. | THE GIGANTES were a tribe of a hundred giants born of the earth-goddess Gaia. ... At the urging of Gaia the Gigantes waged war on the gods and were destroyed in the ensuing battle. |
 
 
 ## damysos — lulus-otomatis
 
-Klaim 2 (loose 1, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | damysos-c01 | loose | en.wikipedia.org | Damysos was the fastest of all the Giants in Greek mythology. | Damysus or Damysos (Greek: Δάμυσος), was the fastest of all the Giants in the Greek mythology. |
 | damysos-c02 | exact | en.wikipedia.org | Chiron exhumed Damysos's body at Pallene, took the ankle and set it into Achilles. | Chiron exhumed the body of the Damysus who was buried at Pallene, removed the ankle and incorporated it into Achill |
+| damysos-c03 | exact | www.theoi.com | Damysos (Damysus) was a swiftest of the Gigantes, slain in the war against the gods; Kheiron (Chiron) exhumed his body and took the swift "astragale" from his foot and placed it in the heel of the hero Akhilleus (Achilles). | DAMYSOS (Damysus) A swiftest of the Gigantes who was slain in the war against the gods. Kheiron (Chiron) exumed his body and extracting the swift "astragale" from his foot placed it in the heel of the hero Akhilleus (Achilles). |
+| damysos-c04 | exact | www.theoi.com | In Photius's summary of Ptolemy Hephaestion's New History, Chiron exhumed the body of the Gigante Damysos, buried at Pallene, removed the astragale and incorporated it into Akhilleus' foot. | Ptolemy Hephaestion, New History Book 6 (summary from Photius, Myriobiblon 190) (trans. Pearse) (Greek mythographer C1st to C2nd A.D.) : ... and confided him to Kheiron (Chiron). The latter exhumed the body of the Gigante Damysos (Damysus) who was buried at Pallene--Damysos was the fastest of all the Gigantes (Giants)--removed the astragale and incorporated it into Akhilleus' foot |
+| damysos-c05 | exact | www.theoi.com | In the same summary, this astragale fell when Akhilleus was pursued by Apollon, and it was thus that Akhilleus, fallen, was killed. | Ptolemy Hephaestion, New History Book 6 (summary from Photius, Myriobiblon 190) (trans. Pearse) (Greek mythographer C1st to C2nd A.D.) : ... This astragale fell when Akhilleus was pursued by Apollon and it was thus that Akhilleus, fallen, was killed. |
+| damysos-c06 | exact | www.theoi.com | The Gigantes were a tribe of a hundred giants born of the earth-goddess Gaia; at Gaia's urging they waged war on the gods and were destroyed in the ensuing battle. | THE GIGANTES were a tribe of a hundred giants born of the earth-goddess Gaia. ... At the urging of Gaia the Gigantes waged war on the gods and were destroyed in the ensuing battle. |
+| damysos-c07 | exact | www.theoi.com | In Pseudo-Apollodorus, Bibliotheca, Ge (Earth) gave birth to the Gigantes (Giants), with Ouranos (Sky) as father; they were unsurpassed in the size of their bodies and unconquerable by virtue of their power. | Pseudo-Apollodorus, Bibliotheca 1. 34 - 38 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... Ge (Gaea, the Earth) gave birth to the Gigantes (Giants), Ouranos (Uranus, Sky) was the father. These creatures were unsurpassed in the size of their bodies and unconquerable by virtue of their power. |
 
 
 ## harpina — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | harpina-c01 | exact | en.wikipedia.org | Harpina was a daughter of the Phliasian Asopus and Metope. | was a daughter of Phliasian Asopus and of Metope. |
-| harpina-c02 | exact | en.wikipedia.org | With Ares she was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her. | The couple were the parents of Oenomaus, the king of Pisa. The latter founded and named after his mother the city of Harpina |
+| harpina-c02 | exact | en.wikipedia.org | According to the tradition of the Eleans and Phliasians, Ares mated with Harpina in the city of Pisa (in the region of Elis); the couple were the parents of Oenomaus, king of Pisa. | According to the tradition of the Eleans and Phliasians, Ares mated with Harpina in the city of Pisa (located in the ancient Greek region of Elis). The couple were the parents of Oenomaus, the king of Pisa. |
+| harpina-c03 | exact | en.wikipedia.org | Oenomaus, king of Pisa, founded the city of Harpina and named it after his mother, not far from the river Harpinates, near Olympia. | The couple were the parents of Oenomaus, the king of Pisa. ... The latter founded and named after his mother the city of Harpina, not far from the river Harpinates, near Olympia. |
+| harpina-c04 | exact | www.theoi.com | Harpina was the Naiad nymph of a spring, well or fountain of the town of Pisa in Elis (southern Greece). | HARPINA was the Naiad-nymph of a spring, well or fountain of the town of Pisa in Elis (southern Greece). |
+| harpina-c05 | exact | www.theoi.com | Harpina's name was derived from a Greek word meaning "sickle-shaped sword". | Harpina's name was derived by the Greek word ... meaning "sickle-shaped sword." |
+| harpina-c06 | exact | www.theoi.com | She was probably identified with the Pleiad Sterope, who was otherwise named as the mother of Oinomaos by Ares. | She was probably identified with the Pleiad Sterope who was otherwise named as the mother of Oinomaos by Ares. |
+| harpina-c07 | exact | www.theoi.com | Oinomaos (Oenomaus), her son by Ares, was a barbarous king of Pisa famed for decorating his palace with the heads of the suitors of his daughter Hippodameia. | the mother by Ares of Oinomaos (Oenomaus)--a barbarous king of Pisa famed for decorating his palace with the heads of the suitors of his daughter Hippodameia. |
+| harpina-c08 | exact | www.theoi.com | In Pausanias, Description of Greece 5.22.6, the Phliasians dedicated at Olympia a Zeus, the daughters of Asopos, and Asopos himself; among the images of the daughters stands Harpina, who according to the traditions of the Eleans and Phliasians mated with Ares and was the mother of Oinomaos. | Pausanias, Description of Greece 5. 22. 6 (trans. Jones) (Greek travelogue C2nd A.D.) : ... The Phliasians also dedicated [at Olympia] a Zeus, the daughters of Asopos (Asopus), and Asopos himself. ... by Aigina stands Harpina, who, according to the traditions of the Eleans and Phliasians, mated with Ares and was the mother of Oinomaos (Oenomaus), king around Pisa. |
+| harpina-c09 | exact | www.theoi.com | In Diodorus Siculus, Library of History 4.73.1, in the city of Pisa in the Peloponnesos Ares lay with Harpine (Harpina), the daughter of Asopos, and begat Oinomaus. | Diodorus Siculus, Library of History 4. 73. 1 (trans. Oldfather) (Greek historian C1st B.C.) : ... In the city of Pisa in the Peloponnesos Ares lay with Harpine (Harpina), the daughter of Asopos, and begat Oinomaus (Oenomaus). |
+| harpina-c10 | exact | www.theoi.com | Harpinna (Harpina) was a daughter of Asopus, from whom the town of Harpina or Harpinna in Elis was believed to have derived its name. | HARPINNA (Harpinna), a daughter of Asopus, from whom the town of Harpina or Harpinna in Elis was believed to have derived its name. |
 
 
 ## idaea — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | idaea-c01 | exact | en.wikipedia.org | Idaea was a nymph, presumably of Mount Ida in the ancient Troad. | was a nymph, presumably of Mount Ida in the ancient Troad region of western Anatolia |
 | idaea-c02 | exact | en.wikipedia.org | She was wife of the river god Scamander and a principal ancestor of the royal house of Troy. | She was the wife of the river-god Scamander, and a principal ancestor of the royal house of Troy. |
+| idaea-c03 | exact | www.theoi.com | Idaia (Idaea) was a nymph of Mount Ida in the Troad (north-western Anatolia) and the wife of the river god Skamandros (Scamander). | IDAIA (Idaea) was a nymph of Mount Ida in the Troad (north-western Anatolia) and the wife of the river-god Skamandros (Scamander). |
+| idaea-c04 | exact | www.theoi.com | Idaia was probably the Naiad nymph of the springs of her husband's stream. | Idaia was probably the Naiad-nymph of the springs of her husband's stream. |
+| idaea-c05 | exact | www.theoi.com | She was perhaps a daughter of Okeanos and Tethys. | Perhaps a daughter of OKEANOS & TETHYS |
+| idaea-c06 | exact | www.theoi.com | In Pseudo-Apollodorus, Bibliotheca 3.139, the country was ruled by a king, Teukros (Teucer), son of the river Skamandros and of a Nymphe Idaia (Idaea), and its inhabitants were called Teukrians after Teukros. | Pseudo-Apollodorus, Bibliotheca 3. 139 (trans. Aldrich) (Greek mythographer C2nd A.D.) : ... That country was ruled by a king, Teukros (Teucer), son of the river Skamandros (Scamander) and of a Nymphe Idaia (Idaea), and the inhabitants of the country were called Teukrians after Teukros. |
+| idaea-c07 | exact | www.theoi.com | In Diodorus Siculus, Library of History 4.75.1, the first to rule as king over the land of Troy was Teukros (Teucer), the son of the river god Skamandros and a Nymphe of Mt Ida. | Diodorus Siculus, Library of History 4. 75. 1 (trans. Oldfather) (Greek historian C1st B.C.) : ... The first to rule as king over the land of Troy was Teukros (Teucer), the son of the River-god Skamandros (Scamander) and a Nymphe of Mt Ida. |
+| idaea-c08 | exact | en.wikipedia.org | Besides a son, Apollodorus goes on to mention two daughters of Scamander, presumably also by Idaea: Callirrhoe and Strymo. | In addition to a son, Apollodorus goes on to mention two daughters of Scamander, presumably also by Idaea, Callirrhoe and Strymo. |
+| idaea-c09 | exact | en.wikipedia.org | Ἰδαία means "she who comes from Ida" or "she who lives on Ida". | Ἰδαία means 'she who comes from Ida' or 'she who lives on Ida' |
 
 
 ## phaethusa — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | phaethusa-c01 | exact | en.wikipedia.org | Phaethusa was a daughter of the sun god Helios. | was a daughter of the sun god Helios. |
 | phaethusa-c02 | exact | en.wikipedia.org | With her sister Lampetia she guarded her father's sacred herds on Thrinacia. | She and her sister Lampetia watched over their father's sacred herds of cattle and sheep on the island of Thrinacia (Sicily or Malta). |
 | phaethusa-c03 | exact | en.wikipedia.org | Phaethusa wielded a silver crook and herded the sheep. | Phaethusa wielded a silver crook and herded the sheep. |
+| phaethusa-c04 | exact | www.theoi.com | In Homer, Odyssey 12.127, the herds are pastured by goddesses, lovely-haired Nymphai named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera. | Homer, Odyssey 12. 127 ff : ... They are pastured by goddesses, lovely-haired Nymphai (Nymphs) named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera; |
+| phaethusa-c05 | exact | www.theoi.com | In Homer, Odyssey 12.127, the herds of Helios are seven herds of cows and as many flocks of sheep, fifty beasts in each; no births increase them and no deaths diminish them [they were immortal]. | Homer, Odyssey 12. 127 ff : ... they are Helios'--seven herds of cows and as many fine flocks of sheep. In each herd and each flock there are fifty beasts; no births increase them, no deaths diminish them [they were immortal]. |
+| phaethusa-c06 | exact | www.perseus.tufts.edu | A daughter of Helios by Neaera, she guarded her father's flocks in Thrinacia together with her sister Lampetia. | A daughter of Helios by Neaera, guarded the flocks of ber father in Thrinacia in conjunction with her sister Lampetia. |
+| phaethusa-c07 | exact | www.perseus.tufts.edu | One of the Heliades or Phaethontiades. | One of the Heliades or Phaethontiades. |
+| phaethusa-c08 | exact | www.perseus.tufts.edu | In this translation of the poem, the eldest, Phaethusa, prone upon the ground, tried to rise but found her feet growing stiff and uttered a moan; Lampetia wished to aid her sister but was hindered by new roots. | Prone upon the ground, the eldest, Phaethusa, would arise from there, but found her feet were growing stiff; and uttered moan. Lampetia wished to aid her sister but was hindered by new roots; |
+| phaethusa-c09 | exact | www.perseus.tufts.edu | In the same account, after the bark enclosed their lips, their tears flow forth and from the new-formed boughs amber distils and slowly hardens in the sun. | And as they spoke the bark enclosed their lips. Their tears flow forth, and from the new-formed boughs amber distils and slowly hardens in the sun; |
+| phaethusa-c10 | exact | en.wikipedia.org | Alternately, Phaethusa has been named as one of the Heliades, which would make her the daughter of Helios and Clymene, one of the Oceanids. | Alternately, Phaethusa has been named as one of the Heliades. ... This would have made her the daughter of Helios and Clymene, one of the Oceanids. |
 
 
 ## plouto — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 7, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | plouto-c01 | exact | en.wikipedia.org | Plouto was one of the many Oceanid daughters of Oceanus and Tethys. | one of the many Oceanid daughters of Oceanus and Tethys. |
 | plouto-c02 | exact | en.wikipedia.org | Hesiod calls her "soft eyed", and the Homeric Hymn makes her one of Persephone's playmates when Hades abducted her. | Hesiod calls her "soft eyed", and the Homeric Hymn has her as one of the "deep-bosomed daughters of Oceanus" who were the playmates of Persephone when she was abducted by Hades. |
+| plouto-c03 | exact | www.theoi.com | Plouto (Pluto) was an Okeanis, goddess of wealth, probably a Nephele (cloud nymph) of fertile rains, prospering the agricultural crop. | PLOUTO (Pluto) The Okeanis goddess of wealth was probably a Nephele of fertile rains, prospering the agricultural crop. |
+| plouto-c04 | exact | www.theoi.com | Some of the Okeanides personified divine blessings such as Metis (Wisdom), Klymene (Fame), Plouto (Wealth), Tykhe (Good Fortune), Telesto (Success) and Peitho (Persuasion). | Some of the Okeanides personified divine blessings such as Metis (Wisdom), Klymene (Fame), Plouto (Wealth), Tykhe (Good Fortune), Telesto (Success), and Peitho (Persuasion). |
+| plouto-c05 | exact | www.theoi.com | The Okeanides (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh water, from rain-clouds to subterranean springs and fountains. | THE OKEANIDES (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh-water--from rain-clouds to subterranean springs and fountains. |
+| plouto-c06 | exact | www.theoi.com | In Evelyn-White's translation of Hesiod, Theogony 346 ff, Plouto is called "ox-eyed" in the list of the daughters of Okeanos. | Hesiod, Theogony 346 ff (trans. Evelyn-White) (Greek epic C8th or 7th B.C.) : ... Kerkeis of the lovely stature, and ox-eyed Plouto, Xanthe and Akaste |
+| plouto-c07 | exact | www.perseus.tufts.edu | A daughter of Oceanus and Tethys, and one of the playmates of Persephone. | A daughter of Oceanus and Tethys, and one of the playmates of Persephone. |
+| plouto-c08 | loose | en.wikipedia.org | The name Pluto or Plouto (Πλουτώ, Ploutṓ) literally means "rich one". | Pluto or Plouto (Ancient Greek: Πλουτώ, romanized: Ploutṓ, lit. 'rich one') |
 
 
 ## tuchulcha — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tuchulcha-c01 | exact | en.wikipedia.org | Tuchulcha was a chthonic daemon of Etruscan mythology with pointed ears, snake hair and a beak. | Tuchulcha was a chthonic daemon (not to be confused with the Christian term "demon") of Etruscan mythology, with pointed ears (perhaps those of a donkey), hair made of snakes, and a beak (perhaps that of a vulture). |
 | tuchulcha-c02 | exact | en.wikipedia.org | Tuchulcha lived in the underworld called Aita. | Tuchulcha lived in the underworld known as Aita. |
 | tuchulcha-c03 | exact | en.wikipedia.org | The only known depiction is a wall painting in the Tomb of Orcus II, Tarquinia. | The only known depiction of Tuchulcha is a wall painting in the Tomb of Orcus II, in Tarquinia, Italy. |
+| tuchulcha-c04 | exact | en.wikipedia.org | According to Nancy de Grummond, this monster is often referred to as male but is very likely female (or neither gender), for she wears a woman's dress, has decidedly pale pinkish skin, and even appears to have breasts. | According to Nancy de Grummond, "This monster is often referred to as male but in fact is very likely female (or neither gender), for she wears a woman’s dress, has decidedly pale pinkish skin (compare the standard brick-red male flesh of These), and even appears to have breasts." |
+| tuchulcha-c05 | exact | en.wikipedia.org | Many scholars refer to this deity as male because of masculine features, such as animalistic facial hair that may resemble a beard. | Many scholars refer to this deity as male ... because of masculine features, such as animalistic facial hair that may resemble a beard. |
+| tuchulcha-c06 | exact | en.wikipedia.org | In the tomb painting, the deity appears in an episode from the story of These (Greek Theseus) visiting the underworld, where he and his friend Peirithous (only his head survives in the image) are playing a board game, attended by Tuchulcha. | In the tomb painting, the deity appears in an episode from the story of These (Greek Theseus) visiting the underworld, where he and his friend Peirithous (only his head survives in the image) are playing a board game, attended by Tuchulcha. |
+| tuchulcha-c07 | exact | en.wikipedia.org | The diamond-marking of Tuchulcha's serpents has been identified as that of the poisonous adder (Vipera berus berus). | She also identifies the diamond-marking of Tuchulcha's serpents as identifying the poisonous adder (Vipera berus berus). |
+| tuchulcha-c08 | exact | camws.org | A conference abstract writes that the gender and sex of the figure of Tuchulca (its spelling) in the Tomb of Orcus II, Tarquinia, are likewise debated; the figure wears a simple chiton associated with female attire and has animal features: the beak of a large bird, the ears of a wolf or donkey and writhing snakes as hair. | A similar debate also surrounds the gender and sex of the figure of Tuchulca, as seen in the Tomb of Orcus II, in Tarquinia. Illustrated wearing a simple chiton associated with female attire, this depiction also possesses various theriomorphic attributes, such as the beak of a large bird, the ears of a wolf or donkey and writhing snakes representing hair. |
+| tuchulcha-c09 | exact | camws.org | Tuchulca seems to be depicted with the suggestion of breasts, which has led many scholars to label it as a "female" figure; the abstract's author argues that Tuchulca shows both male and female characteristics and is thus intentionally sexually ambiguous. | Tuchulca also seems to be depicted with the suggestion of breasts, which has led many scholars to label it as a “female” figure. However, I argue that Tuchulca exhibits both male and female characteristics, and thus is intentionally more sexually ambiguous. |
+| tuchulcha-c10 | exact | camws.org | According to the same abstract, Etruscan demons are portrayed as chthonic beings when integrated into Greek mythological narratives in tomb paintings, funerary statuary and cinerary urns; they also performed a psychopomp role in tomb paintings and on sarcophagi, often shown alongside Etruscan elites. | Their portrayal as chthonic beings is seen when they are integrated into Greek mythological narratives in tomb paintings, funerary statuary and cinerary urns. Demons also performed a psychopomp role in tomb paintings and on sarcophagi, where they are often shown alongside Etruscan elites, |
 
 
 ## zeuxo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | zeuxo-c01 | exact | en.wikipedia.org | Zeuxo was one of the 3,000 Oceanids, water-nymph daughters of Oceanus and Tethys. | was one of the 3,000 Oceanids, water-nymph daughters of the Titans Oceanus and his sister-spouse Tethys. |
 | zeuxo-c02 | exact | en.wikipedia.org | Her name appears in Hesiod's list of Oceanids; no other literary mention survives. | Her name appears in Hesiod's catalogue of Oceanid names; no other literary mention of her survives. |
 | zeuxo-c03 | exact | en.wikipedia.org | She also appears on a vase by the Brygos Painter, serving wine to a warrior named Chrysippus. | She also appears in a vase painting by the Brygos Painter in which she serves wine to a warrior named Chrysippus. |
+| zeuxo-c04 | exact | www.theoi.com | Zeuxo was an Okeanis named "the yoked", probably a goddess of marriage, brides being yoked in marriage; she may have been a Naias or Nephele Nymphe, in the sense of a yoked or tamed horse. | ZEUXO An Okeanis named "the yoked" was probably a goddess of marriage, brides being yoked in marriage. She may have been a Naias or Nephele Nymphe, in the sense of a yoked or tamed horse. |
+| zeuxo-c05 | exact | www.theoi.com | The Okeanides (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh water, from rain-clouds to subterranean springs and fountains. | THE OKEANIDES (Oceanids) were three thousand goddess-nymphs who presided over the sources of earth's fresh-water--from rain-clouds to subterranean springs and fountains. |
+| zeuxo-c06 | exact | www.theoi.com | In Hesiod, Theogony 346 ff (Evelyn-White translation), Zeuxo appears in the list of the daughters of Okeanos, among Hippo, Klymene, Rhodeia, Kallirhoe and Klytia. | Hesiod, Theogony 346 ff (trans. Evelyn-White) (Greek epic C8th or 7th B.C.) : ... Hippo and Klymene, Rhodeia and Kallirhoe, Zeuxo and Klytia |
+| zeuxo-c07 | exact | www.worldhistory.org | Zeuxo pours wine to Chrysippos on an Attic red-figured kylix by the Brygos Painter, from the Brygos Tomb in Capua, c. 490-480 BCE. | Zeuxo pours wine to Chrysippos on an Attic red-figured kylix by the Brygos painter, from the Brygos Tomb in Capua, c. 490-480 BCE. |
+| zeuxo-c08 | exact | en.wikipedia.org | Her name (Ζευξώ) means "yoke" or "cart". | Ancient Greek: Ζευξώ means 'yoke' or 'cart' |
+| zeuxo-c09 | exact | en.wikipedia.org | The main belt asteroid 438 Zeuxo was named after her. | The main belt asteroid 438 Zeuxo was named after her. |
 
 
 ## crinisus — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | crinisus-c01 | exact | en.wikipedia.org | Crinisus or Crimisus was god of the Sicilian river Crinisus in Greek and Roman mythology. | or Crimisus was the god of the Sicilian river Crinisus in Greek and Roman mythology. |
 | crinisus-c02 | exact | en.wikipedia.org | In most versions, Crinisus fathered Acestes with a Trojan woman in the form of a dog. | According to most versions of the myth, Crinisus fathered Acestes with a Trojan woman while in the form of a dog. |
 | crinisus-c03 | exact | en.wikipedia.org | Segestan coins of 475–390 BCE often show a dog and a woman's head, linked to Crinisus and Segesta. | Segestan coins from 475–390 BCE often depict a dog on one side, and a woman's head on the other, which have traditionally been associated with Crinisus and the eponymous Segesta. |
+| crinisus-c04 | exact | www.theoi.com | Krimisos (Crimisus) was a river god of western Sikelia (Sicily); he seduced the daughter of a Trojan settler in the guise of a dog. | KRIMISOS (Crimisus) was a river-god of western Sikelia (Sicily). He seduced the daughter of a Trojan settler in the guise of a dog. |
+| crinisus-c05 | exact | www.theoi.com | The river Krimisos was located in north-western Sikelia, entering the Mediterranean Sea near the Greek colony of Egesta. | The river Krimisos was located in the north-western Sikelia, entering the Mediterranean Sea near the Greek colony of Egesta. |
+| crinisus-c06 | exact | www.theoi.com | In Lycophron, Alexandra 960 ff, the River Krimisos (Crimisus), in the likeness of a dog, took one of the daughters as his bride, and she bears the half-beast god a noble whelp. | Lycophron, Alexandra 960 ff (trans. Mair) (Greek poet C3rd B.C.) : ... one the River Krimisos (Crimisus), in the likeness of a dog, took to be his bride : and she to the half-beast god bears a noble whelp |
+| crinisus-c07 | exact | www.theoi.com | In Virgil, Aeneid 5.35 ff, Acestes was born of a Trojan mother to the river god Crimisus. | Virgil, Aeneid 5. 35 ff (trans. Fairclough) (Roman epic C1st B.C.) : ... Acestes, born of a Trojan mother to the river god Crimisus. |
+| crinisus-c08 | exact | www.theoi.com | In Aelian, Historical Miscellany 2.33, the Egestans honour the Porpax, Krimisos (Crimisus) and Telmessos in the form of men. | Aelian, Historical Miscellany 2. 33 (trans. Wilson) (Greek rhetorician C2nd to 3rd A.D.) : ... the Egestans honour the Porpax, Krimisos (Crimisus), and Telmessos in the form of men. |
+| crinisus-c09 | exact | en.wikipedia.org | In Servius's commentary on the Aeneid, Crimissus turned into a bear or a dog and mated with her, producing Egestus, who founded the Trojan city of Egesta there, named after his mother, which later became known as Segesta. | Servius the Grammarian's commentary on the Aeneid gives the most complete version of the myth. ... Crimissus turned into a bear or a dog and mated with her, producing Egestus, who founded the Trojan city of Egesta there, named after his mother, which later became known as Segesta. |
+| crinisus-c10 | exact | en.wikipedia.org | In Dionysius of Halicarnassus' Roman Antiquities, Acestes' father is "a youth of distinguished family" who loved Acestes' mother, accompanied her from Troy and married her when they arrived in Sicily. | Dionysius of Halicarnassus' Roman Antiquities has a different version of the story, with Acestes' father as "a youth of distinguished family", who was in love with Acestes' mother, accompanied her from Troy, and married her when they arrived in Sicily |
 
