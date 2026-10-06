@@ -1,6 +1,6 @@
 # Review batch-066
 
-Diperiksa 2026-10-06T06:01:15.043Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md.
+Diperiksa 2026-10-06T06:19:37.334Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md, batch-066-fix-6.md, batch-066-fix-7.md.
 
 ## loong — lulus-otomatis
 
@@ -129,27 +129,27 @@ Klaim 13 (exact 13), sumber 2, gambar 0.
 
 ## qilin — lulus-otomatis
 
-Klaim 6 (loose 4, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| qilin-c01 | loose | en.wikipedia.org | The qilin is a hoofed composite creature in Chinese mythology. | The qilin (English: /tʃiˈlɪn/ chee-LIN; Chinese: 麒麟; pinyin: qílín) is a legendary hooved chimerical creature that appears in Chinese mythology, and is said to appear with the imminent arrival or death of a sage or illustrious ruler. Qilin are a specific type of the lin mythological family of one-horned beasts. |
-| qilin-c02 | loose | en.wikipedia.org | Its appearance is linked to the arrival or death of a sage or distinguished ruler. | The qilin (English: /tʃiˈlɪn/ chee-LIN; Chinese: 麒麟; pinyin: qílín) is a legendary hooved chimerical creature that appears in Chinese mythology, and is said to appear with the imminent arrival or death of a sage or illustrious ruler. Qilin are a specific type of the lin mythological family of one-horned beasts. |
+| qilin-c01 | exact | en.wikipedia.org | The qilin is a hoofed composite creature in Chinese mythology. | is a legendary hooved chimerical creature that appears in Chinese mythology, and is said to appear with the imminent arrival or death of a sage or illustrious ruler. Qilin are a specific type of the lin mythological family of one-horned beasts. |
+| qilin-c02 | exact | en.wikipedia.org | Its appearance is linked to the arrival or death of a sage or distinguished ruler. | is a legendary hooved chimerical creature that appears in Chinese mythology, and is said to appear with the imminent arrival or death of a sage or illustrious ruler. Qilin are a specific type of the lin mythological family of one-horned beasts. |
 | qilin-c03 | exact | en.wikipedia.org | A poem in the Classic of Poetry provides an early mention of the mythical lin. | The earliest mention of the mythical qilin is in the poem 麟之趾; Lín zhī zhǐ; 'Feet of the Lin' included in the Classic of Poetry (11th – 7th c. BCE). |
-| qilin-c04 | loose | en.wikipedia.org | The Spring and Autumn Annals record a lin's capture in Duke Ai of Lu's fourteenth year. | Spring and Autumn Annals mentioned that a lin (麟) was captured in the 14th year of Duke Ai of Lu (魯哀公) (481 BCE); Zuo Zhuan credited Confucius with identifying the lin as such. |
-| qilin-c05 | loose | en.wikipedia.org | The Shuowen Jiezi assigns qi to the male and lin to the female. | The bisyllabic form qilin (麒麟 ~ 騏驎), which carries the same generic meaning as lin alone, is attested in works dated to the Warring States period (475–221 BCE). Qi denotes the male and lin denotes the female according to Shuowen Jiezi. |
+| qilin-c04 | exact | en.wikipedia.org | The Spring and Autumn Annals record a lin's capture in Duke Ai of Lu's fourteenth year. | Spring and Autumn Annals mentioned that a lin ... was captured in the 14th year of Duke Ai of Lu ... (481 BCE); Zuo Zhuan credited Confucius with identifying the lin as such. |
+| qilin-c05 | exact | en.wikipedia.org | The Shuowen Jiezi assigns qi to the male and lin to the female. | which carries the same generic meaning as lin alone, is attested in works dated to the Warring States period (475–221 BCE). Qi denotes the male and lin denotes the female according to Shuowen Jiezi. |
 | qilin-c06 | exact | en.wikipedia.org | During the Ming period, qilin imagery was associated with giraffes brought following Zheng He's voyages. | The legendary image of the qilin became associated with the image of the giraffe in the Ming dynasty. The identification of the qilin with giraffes began after Zheng He's 15th-century voyage to East Africa (landing, among other places, Ma-lin (麻林): Malindi (in modern-day Kenya)). |
+| qilin-c07 | exact | zh.wikisource.org | The Kangxi Dictionary, quoting the Shuowen (說文), describes the lin (麟) as a 大麚 with a 麕 body, an ox tail, a wolf forehead and horse hooves, five colours with a yellow belly, and a height recorded as 丈二. The quotation then begins the Yupian (玉篇) entry, which calls it a 仁獸 ("benevolent beast"). | 《說文》大麚也。麕身牛尾，狼額馬蹄，五彩腹下黃，高丈二。《玉篇》仁獸也。 |
+| qilin-c08 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Yupian (玉篇) that the lin is a 仁獸 ("benevolent beast"), then cites the Zhounan poem "Lin zhi zhi" (麟之趾) of the Shi (詩) and the Zhuan (傳) commentary that the lin is trustworthy and responds to ritual propriety. | 《玉篇》仁獸也。《詩·周南》麟之趾。《傳》麟信而應禮，以足至者也。 |
+| qilin-c09 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Da Dai Liji (大戴禮) that among the 三百六十 (three hundred and sixty) furred creatures the lin is the chief (長), and the Liji chapter Liyun (禮運) that when the lin is kept as a domestic animal (以爲畜), 獸不狘 ("the beasts do not 狘"). | 《大戴禮》毛蟲三百六十，麟爲之長。《禮·禮運》麟以爲畜，故獸不狘。 |
+| qilin-c10 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Shuowen (說文) that the qi (麒) is a 仁獸 ("benevolent beast") with a 麕 body, an ox tail and one horn (一角); Zhang Yi (張揖) says the qi is the male (牡) and the lin the female (牝); Guo Pu (郭璞) says the qi resembles the lin but has no horn (無角). | 《說文》仁獸也。麕身牛尾，一角。張揖云：牡曰麒，牝曰麟。郭璞曰：麒似麟而無角。 |
+| qilin-c11 | exact | zh.wikisource.org | The Liji chapter Liyun (禮運) asks what the 四靈 ("four spirits") are and answers: the lin (麟), the feng bird (鳳), the tortoise (龜) and the dragon (龍). The quotation continues that when the dragon is kept as a domestic animal (以爲畜), 魚鮪不淰. | 何謂四靈？麟、鳳、龜、龍，謂之四靈。故龍以爲畜，故魚鮪不淰； |
+| qilin-c12 | exact | zh.wikisource.org | The Zuo Zhuan (春秋左氏傳) records that in the spring of the fourteenth year, during a hunt in the west at Daye (大野), Chu Shang (鉏商) of the Shusun clan (叔孫氏) caught a lin (獲麟); it was taken as inauspicious (不祥) and given to the forester (虞人), then Zhongni (仲尼) examined it and said "麟也" ("it is a lin"), after which it was taken. | 十四年春．西狩于大野．叔孫氏之車子鉏商獲麟．以為不祥．以賜虞人．仲尼觀之．曰．麟也．然後取之． |
 
 
 ## zhuque — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -157,6 +157,11 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | zhuque-c02 | exact | en.wikipedia.org | In the five-phase system, it corresponds to fire, south, and summer. | The Vermilion Bird (Chinese: 朱雀; pinyin: Zhūquè) is one of the Four Symbols of the Chinese constellations. According to Wu Xing, the Taoist five elemental system, it represents the Fire element, the direction south, and the season of summer correspondingly. Thus it is sometimes called the Vermilion Bird of the South (Chinese: 南方朱雀; pinyin: Nánfāng Zhūquè). |
 | zhuque-c03 | exact | en.wikipedia.org | The Vermilion Bird is a constellation spirit distinct from fenghuang. | It is often mistaken for the fenghuang due to similarities in appearance, but the two are different creatures. The fenghuang is a legendary ruler of birds who is associated with the Chinese Empress in the same way the dragon is associated with the Emperor, while the Vermilion Bird is a mythological spirit creature of the Chinese constellations. |
 | zhuque-c04 | exact | en.wikipedia.org | Seven lunar mansions are grouped within its constellation region. | As with the other three Symbols, there are seven astrological "Mansions" (positions of the Moon) within the Vermilion Bird. The names and determinative stars are: |
+| zhuque-c05 | exact | zh.wikisource.org | In the Liji (Quli shang), on the march the Vermilion Bird (朱鳥) is in front, Xuanwu behind, the Azure Dragon (青龍) on the left and the White Tiger (白虎) on the right. | 前朱鳥 ... 而後玄武，左青龍而右白虎，招摇在上，急繕其怒。 |
+| zhuque-c06 | exact | zh.wikisource.org | In the Huainanzi (Tianwen xun), the south is fire, with the Flame Emperor (炎帝) as its emperor, governing summer, and its beast is the Zhuniao (朱鳥, Vermilion Bird). | 南方，火也，其帝炎帝，其佐朱明，執衡而治夏。其神為熒惑，其獸朱鳥，其音徵，其日丙丁。 |
+| zhuque-c07 | exact | zh.wikisource.org | In the Huainanzi (Tianwen xun), Taiwei is said to govern Zhuque (朱雀). | 咸池者，水魚之囿也。天阿者，群神之闕也。四宮者，所以為司賞罰。太微者主朱雀，紫宮執斗而左旋，日行一度，以周於天。 |
+| zhuque-c08 | exact | zh.wikisource.org | In the Zhengyi commentary to the Shiji (Tianguan shu), the eight stars of Liu (柳) are called the beak (咮) of the Zhuniao (朱鳥) and are linked to the heavenly cook in charge of food. | 柳八星，星七星，張六星，爲鶉火，於辰在午，皆周之分野。柳爲朱鳥咮，天之廚宰，主尚食，和滋味。 |
+| zhuque-c09 | exact | zh.wikisource.org | The Suoyin commentary to the Shiji (Tianguan shu) quotes the Wenyaogou: the Red Emperor of the Southern Palace, whose essence is the Zhuniao (朱鳥). | 孟康曰：「軒轅爲權，太微爲衡。」【索隱】案：文耀鈎云「南宮赤帝，其精爲朱鳥」。 |
 
 
 ## black-tortoise — lulus-otomatis
@@ -178,17 +183,19 @@ Klaim 9 (exact 5, loose 4), sumber 3, gambar 0.
 
 ## white-tiger — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| white-tiger-c01 | loose | en.wikipedia.org | White Tiger belongs to the Four Symbols of Chinese constellations. | The White Tiger (Chinese: 白虎; pinyin: Báihǔ), is one of the Four Symbols of the Chinese constellations. It is sometimes called the White Tiger of the West (西方白虎; Xīfāng Báihǔ). It represents the west in terms of direction and the autumn season. |
-| white-tiger-c02 | loose | en.wikipedia.org | The White Tiger corresponds to west and autumn. | The White Tiger (Chinese: 白虎; pinyin: Báihǔ), is one of the Four Symbols of the Chinese constellations. It is sometimes called the White Tiger of the West (西方白虎; Xīfāng Báihǔ). It represents the west in terms of direction and the autumn season. |
+| white-tiger-c01 | exact | en.wikipedia.org | White Tiger belongs to the Four Symbols of Chinese constellations. | is one of the Four Symbols of the Chinese constellations. It is sometimes called the White Tiger of the West |
+| white-tiger-c02 | exact | en.wikipedia.org | The White Tiger corresponds to west and autumn. | It represents the west in terms of direction and the autumn season. |
 | white-tiger-c03 | exact | en.wikipedia.org | Its names in neighboring traditions include Japanese Byakko and Korean Baekho. | It is known as Byakko in Japanese, Baekho in Korean, and Bạch Hổ in Vietnamese. |
 | white-tiger-c04 | exact | en.wikipedia.org | The White Tiger's constellation region contains seven lunar mansions. | As with the other three Symbols, there are seven astrological "Mansions" (positions of the Moon) within the White Tiger. The names and determinative stars are: |
+| white-tiger-c05 | exact | zh.wikisource.org | The Huainanzi chapter Tianwen xun (天文訓) says the west is metal (金), its emperor is Shaohao (少昊) and its assistant Rushou (蓐收), who holds the square and governs autumn (治秋); its spirit is Taibai (太白) and its beast (獸) is the White Tiger (白虎). | 西方，金也，其帝少昊，其佐蓐收，執矩而治秋。其神為太白，其獸白虎，其音商，其日庚辛。 |
+| white-tiger-c06 | exact | zh.wikisource.org | The Liji chapter Quli shang (曲禮上) puts the Azure Dragon (青龍) on the left and the White Tiger (白虎) on the right, with 招摇 (Zhaoyao) above; advance and retreat follow rules and each part keeps its own post. | 左青龍而右白虎，招摇在上，急繕其怒。進退有度，左右有局，各司其局。 |
+| white-tiger-c07 | exact | www.gutenberg.org | Werner writes that the functions discharged by Heng and Ha at the gates of Buddhist temples are discharged in Taoist temples by Blue Dragon and White Tiger. | The functions discharged by Heng and Ha at the gates of Buddhist temples are in Taoist temples discharged by Blue Dragon and White Tiger. |
+| white-tiger-c08 | exact | www.gutenberg.org | Werner states that the Spirit of the White Tiger Star is Yin Ch'eng-hsiu, whose father Yin P'o-pai, a high courtier of the tyrant Chou Wang, was sent to negotiate peace with Chiang Tzu-ya but was seized and put to death by Marquis Chiang Wen-huan. | The Spirit of the White Tiger Star is Yin Ch'eng-hsiu. His father, Yin P'o-pai, a high courtier of the tyrant Chou Wang, was sent to negotiate peace with Chiang Tzu-ya, but was seized and put to death by Marquis Chiang Wen-huan. |
+| white-tiger-c09 | exact | www.gutenberg.org | According to Werner, the son, trying to avenge his father's murder, was pierced by a spear and his head was cut off and carried in triumph to Chiang Tzu-ya; as compensation he was, though somewhat tardily, canonized as the Spirit of the White Tiger Star. | His son, attempting to avenge his father's murder, was pierced by a spear, and his head was cut off and carried in triumph to Chiang Tzu-ya. As compensation he was, though somewhat tardily, canonized as the Spirit of the White Tiger Star. |
 
 
 ## azure-dragon — lulus-otomatis
@@ -215,16 +222,19 @@ Klaim 14 (loose 1, exact 13), sumber 3, gambar 0.
 
 ## tengri — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tengri-c01 | exact | id.wikipedia.org | Tengri names a principal deity in early Turkic and Mongol traditions. | Ini juga merupakan salah satu istilah yang digunakan untuk dewa utama masyarakat Turki dan Mongol awal. |
 | tengri-c02 | exact | ja.wikipedia.org | The Tengri concept includes the clear blue sky and a deity of fate. | 「テングリ」は中国史における「天」概念と非常に類似しており、天上世界を指すとともに運命神であることも共通している。ただし中国史において天の人格神である天帝が北極星と同一視されているのに対し、テングリは澄みきった青空のことであると考えられており、その点で相違する。「テングリ」崇拝は匈奴の時代から確認されている。 |
 | tengri-c03 | exact | ja.wikipedia.org | In Mongol creation mythology, Tengri Khairkhan appears as the creator of the earth. | また、人格神としての「テングリ」はモンゴルの宇宙創造神話において「テングリ・ハイラハン」という地上を作った創造神として現れ、これも中国には見られない。ブリヤート族の神話では「西の善きテングリ」「東の悪しきテングリ」という表現が見られ、この二元性は祆教の影響によるものとも考えられている。また、このことからテングリは必ずしも唯一的な存在ではないことも看取され、これも天とは相違する。テングリは男性神であり、女性神である大地に対応する。 |
+| tengri-c04 | exact | zh.wikisource.org | The Han shu (漢書) records that the Xiongnu call heaven 撐犁 (chengli) and a son 孤塗 (gutu); their state called its ruler 撐犁孤塗單于, and the word 單于 is explained as meaning "vast and great", said to express resemblance to heaven. | 單于姓攣鞮氏，其國稱之曰「撐犁孤塗單于」。匈奴謂天為「撐犁」，謂子為「孤塗」，單于者，廣大之貌也，言其象天單于然也。 |
+| tengri-c05 | exact | en.wikipedia.org | According to this article, the oldest form of the name is recorded in Chinese annals from the 4th century BC describing Xiongnu beliefs, in the form 撑犁 (Cheng-li), hypothesized to be a Chinese transcription of Tängri. | The oldest form of the name is recorded in Chinese annals from the 4th century BC, describing the beliefs of the Xiongnu. It takes the form 撑犁/Cheng-li, which is hypothesized to be a Chinese transcription of Tängri. |
+| tengri-c06 | exact | en.wikipedia.org | The article states that the word tengri is generally assumed to have originally meant "sky". | It is generally assumed the term tengri originally meant "sky". |
+| tengri-c07 | exact | en.wikipedia.org | According to this article, Tengri was the national god of the Göktürks, described as the "god of the Turks" (Türük Tängrisi), and the Göktürk khans based their power on a mandate from Tengri. | Tengri was the national god of the Göktürks, described as the "god of the Turks" (Türük Tängrisi). The Göktürk khans based their power on a mandate from Tengri. |
+| tengri-c08 | exact | en.wikipedia.org | The article quotes the inscription dedicated to Kul Tigin (in the translation provided by the Language Committee of the Republic of Kazakhstan): "When the blue sky [Tengri] above and the brown earth below were created, between them a human being was created." | The inscription dedicated to Kul Tigin includes the passages (in the translation provided by the Language Committee of Ministry of Culture and Information of the Republic of Kazakhstan): "When the blue sky [Tengri] above and the brown earth below were created, between them a human being was created. |
+| tengri-c09 | exact | en.wikipedia.org | The article quotes the Orkhon inscriptions, where Bilge Kaghan calls himself "Tengri-like and Tengri-born Turk Bilge Kaghan" who succeeded to the throne at that time. | Orkhon inscriptions in the following way: "I, Tengri-like and Tengri-born Turk Bilge Kaghan, succeeded to the throne at this time" |
 
 
 ## dragon-king — lulus-otomatis
@@ -377,10 +387,7 @@ Klaim 7 (loose 3, exact 3, unreachable 1), sumber 2, gambar 0.
 
 ## taotie — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -390,14 +397,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | taotie-c04 | exact | en.wikipedia.org | The Zuo Zhuan associates taotie with gluttony. | Within the Zuo Zhuan, taotie is used by the writer to imply gluttony. |
 | taotie-c05 | exact | en.wikipedia.org | A quoted Lüshi Chunqiu passage describes a head without a body on Zhou bronzes. | The taotie on Zhou bronzes [ding] has a head but no body. When it eats people, it does not swallow them, but harms them. |
 | taotie-c06 | exact | en.wikipedia.org | Li Zehou interprets taotie imagery as mysterious communication between people and heaven. | Li Zehou, a Chinese scholar of philosophy and intellectual history, thinks the description of the taotie in the Lüshi Chunqiu has a much deeper meaning, and that "the meaning of taotie is not [about] 'eating people' but making a mysterious communication between people and Heaven (gods)." |
+| taotie-c07 | exact | zh.wikisource.org | The Zuo Zhuan (春秋左氏傳) tells of an untalented son (不才子) of the Jinyun clan (縉雲氏) who was greedy for food and drink (貪于飲食) and covetous of goods (冒于貨賄); the people of the world compared him with the three ills (三凶) and called him 饕餮 (taotie). | 縉雲氏有不才子，貪于飲食，冒于貨賄，侵欲崇侈，不可盈厭，聚斂積實，不知紀極，不分孤寡，不恤窮匱，天下之民，以比三凶，謂之饕餮 |
+| taotie-c08 | exact | zh.wikisource.org | The Zuo Zhuan says that Shun (舜), as minister to Yao (堯), banished the four evil clans (四凶族): Hundun (渾敦), Qiongqi (窮奇), Taowu (檮杌) and Taotie (饕餮), casting them to the four frontiers (四裔) to ward off 螭魅. | 舜臣堯，賓于四門，流四凶族，渾敦，窮奇，檮杌，饕餮，投諸四裔，以禦螭魅 |
+| taotie-c09 | exact | zh.wikisource.org | The Lüshi Chunqiu (呂氏春秋) says that the Zhou tripod (周鼎) bears (著) a taotie (饕餮) with a head but no body (有首無身); before it has swallowed the people it eats (食人未咽) harm has reached its own body (害及其身). The next sentence says that doing wrong is likewise (為不善亦然). | 周鼎著饕餮，有首無身，食人未咽，害及其身，以言報更也。為不善亦然。 |
 
 
 ## three-legged-crow — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 12, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -407,14 +414,18 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 | three-legged-crow-c04 | exact | en.wikipedia.org | The crow in a solar disc appears among symbols on formal imperial garments. | The sanzuwu in a disc represents the sun and is also one of the Twelve Ornaments that is used in the decoration of formal imperial garments in ancient China. |
 | three-legged-crow-c05 | loose | en.wikipedia.org | The sun crow is often colored red despite the name golden crow. | The most popular depiction and myth of a sanzuwu is of a sun crow called the Yangwu (陽烏), more commonly referred to as the Jinwu (金烏; 'golden crow') or "golden crow". Even though it is described as a corvid, it is usually coloured red instead of black. |
 | three-legged-crow-c06 | exact | en.wikipedia.org | This crow is also portrayed with the Queen Mother of the West. | The sanzuwu is also depicted with the Queen Mother of the West who are believed to be her messengers. |
+| three-legged-crow-c07 | exact | zh.wikisource.org | The Taiping Yulan (太平御覽) quotes the Lunheng (論衡): the scholars (儒者) say there is a three-legged crow (三足烏) in the sun; the sun is fire and a crow entering fire would be scorched, yet the crow is the "qi of the sun" (日氣). | 《論衡》曰：儒者言：日中有三足烏。日，火也。烏入火中燋爛，安得立？然烏，日氣也。 |
+| three-legged-crow-c08 | exact | zh.wikisource.org | The Taiping Yulan quotes the Lingxian (靈憲) of Zhang Heng (張衡): the sun is the ancestor of the yang essence (陽精之宗), which accumulates and becomes a crow; the crow has three toes (三趾), and the number is of the odd kind belonging to yang. | 張衡《靈憲》曰：日，陽精之宗，積而成烏。烏有三趾，陽之數類竒。 |
+| three-legged-crow-c09 | exact | zh.wikisource.org | The Taiping Yulan quotes the Kuodi tu (括地圗): in the Ruoshui waters of Kunlun, which cannot be reached without riding a dragon, there is a divine three-legged crow (三足神烏) that fetches food for Xiwangmu (西王母, Queen Mother of the West). | 《括地圗》曰：崑崙之弱水中，非乘龍不得至。有三足神烏，為西王母取食。 |
+| three-legged-crow-c10 | exact | zh.wikisource.org | The Taiping Yulan quotes the Daren fu (大人賦) of Sima Xiangru (司馬相如): the poet sees Xiwangmu (西王母), white-haired, wearing a sheng headdress (戴勝) and living in a cave, with a three-legged crow (三足烏) serving as her messenger (為之使). | 司馬相如《大人賦》曰：吾乃覩西王母，皜然白首母，戴勝而穴處，有三足烏為之使。 |
+| three-legged-crow-c11 | exact | zh.wikisource.org | The Taiping Yulan quotes the Huainanzi (淮南子): in the time of Yao (堯) ten suns appeared together; Yao ordered Yi (羿) to shoot at the ten suns and he hit nine of them, whereupon the crows (烏) all died and their wings fell. | 《淮南子》曰：堯時，十日並出。堯命羿仰射十日，中其九。烏皆死，墮其翼。 |
+| three-legged-crow-c12 | exact | zh.wikisource.org | The Taiping Yulan quotes the Tang shu (唐書): in the first year of Tianshou (天授) someone presented a three-legged crow, and Tianhou (天后) took it as an auspicious response for the Zhou house (周室嘉應); Ruizong (睿宗), then the imperial heir (皇嗣), said the crow's front foot was false (偽), and shortly afterwards one foot fell to the ground. | 《唐書》曰： 天授元年，有進三足烏者，天后以為周室嘉應。睿宗時為皇嗣，言曰：「烏前足偽也。」天后不恱。須臾，一足墮地，果如其言。 |
+| three-legged-crow-c13 | exact | zh.wikisource.org | The Shanhaijing (山海經), Dahuang dong jing, says that at Tanggu (湯谷) there is a fusang tree (扶木); as one sun arrives another goes out, and all are carried by crows (載于烏). | 大荒之中，有山名曰孽搖頵羝，上有扶木，柱三百里，其葉如芥。有谷曰溫源谷。湯谷上有扶木。一日方至，一日方出，皆載于烏。 |
 
 
 ## yeren — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -422,6 +433,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | yeren-c02 | exact | ja.wikipedia.org | Reported sightings are especially associated with Shennongjia in Hubei, China. | 目撃報告は中国、特に湖北省神農架地区に多く見られている。ただし、捕獲や射殺をしたという伝聞は残っているものの、実際に生物学的な検証が行われた例は知られていない。中国科学院が神農架地区で過去に学術調査を行ったが、野人を発見することはできなかった。中国・湖北省で、野人を追う研究団体HWMRAが、世界中から新たなメンバーを募っている（2010年10月10日現在）。 |
 | yeren-c03 | exact | ja.wikipedia.org | The article reports that academic surveys failed to find Yeren and records no biological confirmation. | 目撃報告は中国、特に湖北省神農架地区に多く見られている。ただし、捕獲や射殺をしたという伝聞は残っているものの、実際に生物学的な検証が行われた例は知られていない。中国科学院が神農架地区で過去に学術調査を行ったが、野人を発見することはできなかった。中国・湖北省で、野人を追う研究団体HWMRAが、世界中から新たなメンバーを募っている（2010年10月10日現在）。 |
 | yeren-c04 | exact | ja.wikipedia.org | Proposed explanations include mistaken identification of monkeys and fabricated reports. | また、目撃証言も信憑性の低いものが非常に多いとされる。現在では、既存のサルの誤認、狂言説が有力。 |
+| yeren-c05 | exact | zh.wikisource.org | The Bencao Gangmu (本草綱目), with Li Shizhen (時珍) quoting the Fangyu zhi (《方輿志》), says the 狒狒 also exists in the mountains of Xishu and Chuzhou and is called 人熊; at Youshan in Shaxian in the Min region (閩中) one is more than a 丈 long, laughs on meeting people, is called 山大人, or is said to be a 野人 and 山魈. | 時珍曰︰按《方輿志》云︰狒狒，西蜀及處州山中亦有之，呼為人熊。人亦食其掌，剝其皮。閩中沙縣幼山有之，長丈餘，逢人則笑，呼為山大人，或曰野人及山魈也。 |
+| yeren-c06 | exact | zh.wikisource.org | The Bencao Gangmu quotes Luo Yuan (羅願) in the Erya yi (《爾雅翼》) that present-day accounts of the xingxing (猩猩) are not far from the 狒狒: like a woman with loose hair and bare feet, without knees, walking in groups and covering its form with its hands on meeting people; this is called a 野人. | 又羅願《爾雅翼》云︰古之說猩猩者，如豕、如狗、如猴。今之說猩猩者，與狒狒不相遠。云如婦人被髮袒足，無膝群行，遇人則手掩其形，謂之野人。 |
 
 
 ## four-symbols — lulus-otomatis
@@ -574,15 +587,16 @@ Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 ## yellow-dragon — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yellow-dragon-c01 | exact | en.wikipedia.org | The Yellow Dragon is the animal-form manifestation of the Yellow Emperor in Chinese mythology. | The Yellow Dragon (simplified Chinese: 黄龙; traditional Chinese: 黃龍; pinyin: Huánglóng; Cantonese Yale: Wong4 Lung4) is the zoomorphic incarnation of the Yellow Emperor of the center of the universe in Chinese religion and mythology. |
 | yellow-dragon-c02 | exact | en.wikipedia.org | In Wuxing, this dragon embodies the earth element. | The Yellow Dragon is a part of Wuxing and the Four Symbols as the embodiment of the element of earth. |
+| yellow-dragon-c03 | exact | zh.wikisource.org | The Huainanzi chapter Tianwen xun (天文訓) says the centre (中央) is earth (土), its emperor is Huangdi (黃帝), its assistant Houtu (后土), who holds the cord and governs the four directions; its spirit is Zhenxing (鎮星) and its beast (獸) is the Yellow Dragon (黃龍). | 中央，土也，其帝黃帝，其佐后土，執繩而制四方。其神為鎮星，其獸黃龍，其音宮，其日戊己。 |
+| yellow-dragon-c04 | exact | zh.wikisource.org | The Shiji (史記), Fengshan shu, records someone saying that Huangdi (黃帝) obtained the virtue of earth (土德) and a 黃龍 (yellow dragon) and 地螾 appeared; Xia obtained wood and an azure dragon (青龍) stopped at the suburb; Shang obtained metal, and Zhou obtained fire with a red crow (赤烏) as its sign. | 或曰：「黃帝得土德，黃龍地螾見。夏得木德，青龍止於郊，草木暢茂。殷得金德，銀自山溢。周得火德，有赤烏之符。 |
+| yellow-dragon-c05 | exact | zh.wikisource.org | The Shiji records that Gongsun Chen (公孫臣) of Lu submitted a memorial: Qin had obtained the virtue of water and Han should take the virtue of earth (土德), whose response is the appearance of a yellow dragon (黃龍見); he proposed changing the calendar and the colour of dress, and honouring yellow. | 魯人公孫臣上書曰：「始秦得水德，今漢受之，推終始傳，則漢當土德，土德之應黃龍見。宜改正朔，易服色，色上黃。」 |
+| yellow-dragon-c06 | exact | zh.wikisource.org | The Shiji records that three years later a yellow dragon appeared at Chengji (成紀); Emperor Wen (文帝) then summoned Gongsun Chen, appointed him an erudite (博士), and with the scholars drafted changes to the calendar and the colour of dress. | 後三歲，黃龍見成紀。文帝乃召公孫臣，拜為博士，與諸生草改歷服色事。 |
 
 
 ## hundun — lulus-otomatis
@@ -604,17 +618,19 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## wind-horse — lulus-otomatis
 
-Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wind-horse-c01 | exact | en.wikipedia.org | Wind Horse is a flying-horse image symbolizing the soul in East and Central Asian traditions. | The wind horse is a flying horse that is the symbol of the human soul in the shamanistic tradition of East Asia and Central Asia. In Tibetan Buddhism, it was included as the pivotal element in the center of the four animals symbolizing the cardinal directions and a symbol of the idea of well-being or good fortune. |
 | wind-horse-c02 | exact | en.wikipedia.org | In Tibetan Buddhism, the horse also symbolizes well-being and good fortune. | The wind horse is a flying horse that is the symbol of the human soul in the shamanistic tradition of East Asia and Central Asia. In Tibetan Buddhism, it was included as the pivotal element in the center of the four animals symbolizing the cardinal directions and a symbol of the idea of well-being or good fortune. |
-| wind-horse-c03 | loose | en.wikipedia.org | Karmay explains that Wind Horse is predominantly an element of Tibetan folk culture. | In Tibet, a distinction was made between Buddhism (Wylie: lha chos, literally "divine dharma") and folk religion (Wylie: mi chos, "human dharma"). Windhorse was predominantly a feature of the folk culture, a "mundane notion of the layman rather than a Buddhist religious ideal," as Tibetan scholar Samten G. Karmay explains. |
+| wind-horse-c03 | exact | en.wikipedia.org | Karmay explains that Wind Horse is predominantly an element of Tibetan folk culture. | Windhorse was predominantly a feature of the folk culture, a "mundane notion of the layman rather than a Buddhist religious ideal," as Tibetan scholar Samten G. Karmay explains. |
 | wind-horse-c04 | exact | en.wikipedia.org | The term Wind Horse denotes good fortune beyond the flags placed in high locations. | Windhorse has several meanings in the Tibetan context. As Karmay notes, "the word [windhorse] is still and often mistakenly taken to mean only the actual flag planted on the roof of a house or on a high place near a village. In fact, it is a symbol of the idea of well-being or good fortune. |
+| wind-horse-c05 | exact | www.chronicleproject.com | According to Clarke Warren, lungta is Tibetan for windhorse; the term carries many levels of significance, from the popular expression of folk religion to the deepest levels of spirituality, and links the two. It holds a prominent place in Tibetan religious and folk culture and has equivalents in many other cultures. | Lungta is Tibetan for windhorse. It is a designation which carries a number of levels of significance, from the popular expression of folk religion to the deepest levels of spirituality, and it links the two. It holds a prominent place in Tibetan religious and folk culture, and has its equivalents in many other cultures. |
+| wind-horse-c06 | exact | www.chronicleproject.com | Warren notes that the prayer flags themselves are called lungta and are inscribed with drawings of the windhorse, accompanied in the cardinal directions by four other animals, each with its own symbolic significance (Tiger, Lion or Yak, Garuda, Dragon). | the prayer flags themselves are referred to as lungta, and are inscribed with drawings of the windhorse, accompanied in the cardinal directions by four other animals, each with its own symbolic significance (Tiger, Lion or Yak, Garuda, Dragon). |
+| wind-horse-c07 | exact | www.chronicleproject.com | Warren writes that the popular explanation of lungta is "good fortune" or "luck", but he calls "luck" a shallow sense; windhorse refers to something much more basic and vital than mere "luck" in the Western sense of the word. | The popular explanation of lungta is that it refers to “good fortune” or “luck”. Surprisingly, a fair amount of the academic literature on Tibetan culture stops at this (with notable exceptions). But “luck” is a shallow sense of lungta. Windhorse refers to something much more basic and vital than mere “luck”, at least in the Western sense of the word. |
+| wind-horse-c08 | exact | www.chronicleproject.com | Warren says that Samten Karmay, in a brief paper titled Windhorse and the Well-being of Man, traces windhorse's possible roots to China (where it may have been confounded with "river-horse") and, in a later and more Buddhist context, to India. | Samten Karmay, in an excellent brief paper on the origins of windhorse, entitled Windhorse and the Well-being of Man*, traces its possible roots to China, on one hand, (where it may have been confounded with “river-horse”, another potent image and principle) and to India in another later, more Buddhist context. |
+| wind-horse-c09 | exact | www.chronicleproject.com | Warren writes that a person's lungta registers their relative synchronization with their own body and mind and the world around them, so lungta also has a protective function when successfully invoked. | A person’s lungta is a register of their relative synchronization with their own body and mind, and the world around them. So in this regard, lungta also has a protective function when successfully invoked. |
 
 
 ## jin-chan — lulus-otomatis
@@ -652,10 +668,7 @@ Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 ## ungnyeo — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -663,16 +676,16 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 | ungnyeo-c02 | exact | en.wikipedia.org | She becomes Hwanung's wife and Dangun's mother. | She has an important role in the myth as the wife of Hwanung, the divine king of the world, and as the mother of Dangun, the mythological founder of Korea. |
 | ungnyeo-c03 | exact | en.wikipedia.org | Hwanung gives a bear and tiger food and instructions to avoid sunlight. | In the tale, a tiger and a bear lived together in a cave and prayed to the divine king Hwanung to be made human. Hwanung heard their prayers and gave them each 20 cloves of garlic and a bundle of mugwort, and ordered them to stay out of the sunlight and eat only this food for 100 days. Due to hunger, the tiger left the cave after roughly 20 days, but the bear remained inside. |
 | ungnyeo-c04 | exact | en.wikipedia.org | The tiger leaves the cave, while the bear remains and becomes a woman. | Due to hunger, the tiger left the cave after roughly 20 days, but the bear remained inside. After 21 days, she was transformed into a woman. |
-| ungnyeo-c05 | loose | en.wikipedia.org | Ungnyeo prays beneath a sacred tree for a child. | Ungnyeo was grateful and made offerings to Hwanung. Her lack of a husband drove her to depression, and she began to pray beneath a sacred betula tree (신단수; 神檀樹) to be blessed with a child. Hwanung heard her prayers and was deeply moved. He took Ungnyeo as his wife and soon after, she gave birth to a son, Dangun, who would go on to found the nation of Korea. |
+| ungnyeo-c05 | exact | en.wikipedia.org | Ungnyeo prays beneath a sacred tree for a child. | Ungnyeo was grateful and made offerings to Hwanung. Her lack of a husband drove her to depression, and she began to pray beneath a sacred betula tree ... to be blessed with a child. Hwanung heard her prayers and was deeply moved. He took Ungnyeo as his wife and soon after, she gave birth to a son, Dangun, who would go on to found the nation of Korea. |
 | ungnyeo-c06 | exact | en.wikipedia.org | The founding account appears in the Samguk Yusa written by Ilyon. | The earliest form of the myth is found at the beginning of the Samguk Yusa, a part-mythological, part-historical chronicle of Korea’s Three Kingdoms Period (primarily focusing on the kingdom of Silla). It was written by the Buddhist monk Ilyon during the late 13th century CE, while the Korean Peninsula was under Mongol rule. |
+| ungnyeo-c07 | exact | zh.wikisource.org | The Samguk Yusa (三國遺事) says a bear and a tiger lived in the same cave and kept praying to the divine 雄 (Ung) to become human; the god gave a bundle of 靈艾 (mugwort) and twenty cloves of garlic (蒜二十枚) and told them that if they ate these and did not see sunlight for a hundred days (百日) they would obtain human form. | 有一熊一虎，同穴而居，常祈于神雄。願化為​人。時神遺靈艾一炷。蒜二十枚曰。爾輩食之。不見日光百日。便得人形。 |
+| ungnyeo-c08 | exact | zh.wikisource.org | The Samguk Yusa says the bear and the tiger ate it; for 三七日 (three times seven days) the bear kept the abstention and obtained a woman's body (女身), while the tiger could not keep it and did not obtain a human body. The bear-woman (熊女) had no one to marry. | 熊虎得而食之。忌三七日。熊得女身。虎不能忌。而不得人身。熊女者無與為婚。 |
+| ungnyeo-c09 | exact | zh.wikisource.org | The Samguk Yusa says the bear-woman (熊女) kept praying beneath the altar tree (壇樹) to conceive; the god 雄 (Ung) took a temporary changed form (假化) and married her, and she bore a son called 壇君王儉. | 熊女者無與為婚。故每於壇樹下咒願有孕。雄乃假化而婚之。孕生子。號曰壇君王儉。 |
 
 
 ## yinglong — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 6, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -681,6 +694,9 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | yinglong-c03 | loose | en.wikipedia.org | The Chu Ci mentions Yinglong helping Yu control the great deluge. | The (3rd–2nd centuries BCE) Chu Ci "Songs of Chu" mentions Yinglong helping King Yu 禹, the legendary founder of the Xia dynasty, to control the mythic Great Deluge. According to Chinese mythology, Emperor Yao 堯 assigned Yu's father Gun 鯀, who was supposedly a descendant of the Yellow Emperor, to control massive flooding, but he failed. |
 | yinglong-c04 | loose | en.wikipedia.org | The Heavenly Questions section discusses Yinglong among cosmological questions. | The Heavenly Questions section (3, 天問) asks about Yinglong, in context with Zhulong 燭龍 "Torch Dragon". |
 | yinglong-c05 | exact | en.wikipedia.org | The poem asks what the winged dragon traced on the ground and where seas and rivers flowed. | What did the winged dragon trace on the ground? Where did the seas and rivers flow? |
+| yinglong-c06 | exact | zh.wikisource.org | The Shanhaijing (Dahuang Beijing) says Yinglong, having killed Chiyou and also Kuafu, went off to dwell in the south, which is why the south has much rain. | 夸父不量力，欲追日景，逮之于禺谷。將飲河而不足也，將走大澤，未至，死于此。應龍已殺蚩尤，又殺夸父，乃去南方處之，故南方多雨。 |
+| yinglong-c07 | exact | zh.wikisource.org | In the Shanhaijing (Dahuang Beijing), when Chiyou made weapons and attacked the Yellow Emperor, the emperor ordered Yinglong to attack him in the fields of Jizhou, and Yinglong stored up water. | 蚩尤作兵伐黄帝，黄帝乃令應龍攻之冀州之野。應龍畜水。蚩尤請風伯雨師，縱大風雨。 |
+| yinglong-c08 | exact | zh.wikisource.org | In the Shanhaijing (Dahuang Dongjing), Yinglong killed Chiyou and Kuafu and could not go back up; so droughts came often below, and making a figure in the shape of Yinglong during drought brought heavy rain. | 應龍出 ... 南極，殺蚩尤與夸父，不得復上。故下數旱，旱而為應龍之狀，乃得大雨。 |
 
 
 ## peng — lulus-otomatis
@@ -700,19 +716,19 @@ Klaim 7 (loose 4, exact 3), sumber 2, gambar 0.
 
 ## xiangliu — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| xiangliu-c01 | loose | en.wikipedia.org | Xiangliu is a venomous nine-headed serpent monster bringing floods in Chinese mythology. | Xiangliu (/ʃæŋ.ljuː/), known in the Classic of Mountains and Seas as Xiangyao (/ʃæŋ.jaʊ/), is a venomous nine-headed snake monster that brings floods and destruction in Chinese mythology. |
-| xiangliu-c02 | loose | en.wikipedia.org | In the Shanhaijing, it is known as Xiangyao. | Xiangliu (/ʃæŋ.ljuː/), known in the Classic of Mountains and Seas as Xiangyao (/ʃæŋ.jaʊ/), is a venomous nine-headed snake monster that brings floods and destruction in Chinese mythology. |
+| xiangliu-c01 | exact | en.wikipedia.org | Xiangliu is a venomous nine-headed serpent monster bringing floods in Chinese mythology. | is a venomous nine-headed snake monster that brings floods and destruction in Chinese mythology. |
+| xiangliu-c02 | exact | en.wikipedia.org | In the Shanhaijing, it is known as Xiangyao. | known in the Classic of Mountains and Seas as Xiangyao |
 | xiangliu-c03 | exact | en.wikipedia.org | Older woodcuts cluster its heads on a single neck. | Xiangliu may be depicted with his body coiled on itself. The nine heads are arranged differently in different representations. Modern depictions resemble the hydra, with each head on a separate neck. Older wood-cuts show the heads clustered on a single neck, either side-by-side or in a stack three high, facing three directions. |
 | xiangliu-c04 | exact | en.wikipedia.org | The Shanhaijing describes Xiangliu as a subordinate of the water deity Gonggong. | According to the Classic of Mountains and Seas (Shanhaijing), Xiangliu (Xiangyao) was a minister of the snake-like water deity Gonggong. Xiangliu devastated the ecology everywhere he went. He was so gluttonous that all nine heads would feed at the same meal. |
 | xiangliu-c05 | exact | en.wikipedia.org | Places it touches or breathes upon become bogs of poisonous bitter water. | Everywhere he rested or breathed upon (or that his tongue touched, depending on the telling) became boggy with poisonously bitter water, devoid of human and animal life. |
 | xiangliu-c06 | exact | en.wikipedia.org | An interpretation quoted by Eberhard compares Xiangliu with an eel in flood tales. | Sun points out that the eel is a most important animal in the flood tales of Formosan aborigines. Ying-lung, who ... |
+| xiangliu-c07 | exact | zh.wikisource.org | The Shanhaijing (山海經), Haiwai bei jing, says Gonggong's (共工) minister is named Xiangliu (相柳氏), has nine heads (九首) and eats from nine mountains; where it reaches (所抵) there become marshes and watery valleys (澤谿); Yu (禹) killed it and its blood was foul, so the five grains could not be planted there. | 共工之臣曰相柳氏，九首，以食于九山。相柳之所抵，厥為澤谿。禹殺相柳，其血腥，不可以樹五穀種。 |
+| xiangliu-c08 | exact | zh.wikisource.org | The Shanhaijing, Haiwai bei jing, describes Xiangliu as nine-headed with human faces (九首人面) and a blue snake body (蛇身而青); the text adds the phrase "dares not shoot northward" (不敢北射), in awe of Gonggong's terrace (共工之臺); the terrace is square and at a corner there is a tiger-coloured snake whose head faces south. | 相柳者，九首人面，蛇身而青。不敢北射，畏共工之臺。臺在其東，臺四方，隅有一蛇，虎色，首衝南方。 |
+| xiangliu-c09 | exact | zh.wikisource.org | The Shanhaijing, Dahuang bei jing, names a minister of Gonggong as Xiangyao (相繇), with nine heads and a snake body, coiling itself (自環) and eating from nine lands (九土); where it passes the places become springs and marshes whose water is bitter (不辛乃苦), so no beast can live there. Yu dammed the floods and killed it; its blood was rank, grain could not grow, and the land was too watery to inhabit. | 共工臣名曰相繇，九首蛇身，自環，食于九土。其所歍所尼，即為源澤，不辛乃苦，百獸莫能處。禹湮洪水，殺相繇，其血腥臭，不可生榖；其地多水，不可居也。 |
 
 
 ## korean-dragon — lulus-otomatis
