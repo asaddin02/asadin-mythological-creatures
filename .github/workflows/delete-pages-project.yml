@@ -36,4 +36,4 @@ jobs:
       - name: Delete the project
         run: |
           curl -fsS -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$OLD" | tee /dev/stderr | grep -q '"success":true'
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$OLD" | tee /dev/stderr | grep -Eq '"success": ?true'
