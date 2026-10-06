@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-145",
-  "checked_at": "2026-10-06T15:15:46.223Z",
+  "checked_at": "2026-10-06T15:36:23.512Z",
   "files": [
     "batch-145.md",
-    "batch-145-fix-1.md"
+    "batch-145-fix-1.md",
+    "batch-145-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1600,20 +1601,15 @@
     },
     {
       "slug": "yacumama",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "2e10fb429509f25f86512da31773bb02bfea4fbe622e4cbc1b07cc1fc23ad3b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yacumama-c01",
@@ -1644,27 +1640,71 @@
           "quote": "To protect themselves, local Indigenous peoples would blow on a conch horn before entering the water, believing that the Yacumama would reveal itself if it were present.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yacumama-c04",
+          "source_id": "yacumama-s2",
+          "host": "www.thecollector.com",
+          "statement": "In the region that is home to the Shipibo-Conibo, Ashanika and Aguaruna peoples, a dangerous mythical anaconda, Yakumama, guards and protects the waters of the Amazon River.",
+          "statement_id": "Di kawasan yang dihuni orang Shipibo-Conibo, Ashanika, dan Aguaruna, seekor anakonda mitos yang berbahaya, Yakumama, menjaga dan melindungi perairan Sungai Amazon.",
+          "quote": "This region is home to the Shipibo-Conibo, Ashanika, and Aguaruna peoples. Here, a dangerous mythical anaconda, Yakumama, guards and protects the waters of the Amazon River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yacumama-c05",
+          "source_id": "yacumama-s2",
+          "host": "www.thecollector.com",
+          "statement": "The name Yakumama comes from the Quechua words yaku (agua) and mama (mother), meaning the Mother of Water.",
+          "statement_id": "Nama Yakumama berasal dari kata Quechua yaku (agua) dan mama (ibu), yang berarti Ibu Air.",
+          "quote": "The name Yakumama comes from the Quechua words yaku (agua) and mama (mother), meaning the Mother of Water.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yacumama-c06",
+          "source_id": "yacumama-s2",
+          "host": "www.thecollector.com",
+          "statement": "In one tale, because of a fisherman's unwelcome presence, Yakumama created a whirlpool from which it emerged, putting the boat and the fisherman in immense danger.",
+          "statement_id": "Menurut satu kisah, karena kehadiran seorang nelayan yang tidak diinginkan, Yakumama membuat pusaran air tempat ia muncul, sehingga perahu dan nelayan itu berada dalam bahaya besar.",
+          "quote": "Due to the man’s unwelcome presence, Yakumama created a whirlpool from which it emerged, putting the boat and the fisherman in immense danger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yacumama-c07",
+          "source_id": "yacumama-s2",
+          "host": "www.thecollector.com",
+          "statement": "The myth of Yacumama speaks of the respect owed to the forest and all living beings in it; the anaconda is the silent power that protects the forest's natural equilibrium and should not be disturbed.",
+          "statement_id": "Mitos Yacumama berbicara tentang rasa hormat yang harus diberikan kepada hutan dan semua makhluk hidup di dalamnya; anakonda adalah kekuatan senyap yang menjaga keseimbangan alam hutan dan tidak boleh diganggu.",
+          "quote": "The myth of Yacumama talks about the respect that must be paid to the forest and all living beings that are part of it. The anaconda is the silent power that protects the natural equilibrium of the forest and should not be disturbed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yacumama-c08",
+          "source_id": "yacumama-s2",
+          "host": "www.thecollector.com",
+          "statement": "In one story the great snake answered that its lament was because future generations would not respect and protect the rainforest.",
+          "statement_id": "Dalam satu kisah, ular besar itu menjawab bahwa ratapannya disebabkan generasi mendatang tidak akan menghormati dan melindungi hutan hujan.",
+          "quote": "the great snake responded that the lament was because future generations were not going to respect and protect the rainforest.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2a76058a96ae40d5767480bc48470021e1f9b5927acbc2cc11162dc2af33fc03"
+      "images": []
     },
     {
       "slug": "anchimayen",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "26ab8b59d999dcf9cd9d567ba8566bc04ec292e0ecb45ffcdfdd8221546a8ffd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "anchimayen-c01",
@@ -1695,27 +1735,81 @@
           "quote": "Anchimayens are sometimes confused with Kueyen (the Mapuche lunar goddess), because she also produces a bright light.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "anchimayen-c04",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The anchimallén are said to be heard like the crying of a newborn baby.",
+          "statement_id": "Dikatakan anchimallén terdengar seperti tangisan bayi yang baru lahir.",
+          "quote": "Se dice que se les escucharía como el llanto de un bebe recién nacido",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anchimayen-c05",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The anchimallén is said to feed on milk, blood or honey, its mission being to protect and obey its owner, doing good or evil according to the wishes of whoever controls it.",
+          "statement_id": "Anchimallén dikatakan makan susu, darah, atau madu, dan tugasnya melindungi serta menaati pemiliknya, berbuat baik atau jahat sesuai keinginan pengendalinya.",
+          "quote": "El anchimallén se alimentaría con leche, sangre o miel, siendo la misión del anchimallén la de proteger y obedecer a su dueño haciendo el bien o el mal; según los deseos de quién lo controla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anchimayen-c06",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The calcu is said to create them from the remains of a girl or boy who died suddenly.",
+          "statement_id": "Sang calcu dikatakan menciptakan mereka dari jasad seorang anak perempuan atau laki-laki yang meninggal mendadak.",
+          "quote": "El calcu los crearía a partir de los restos mortales perteneciente a una niña o un niño que murió de una forma repentina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anchimayen-c07",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "If someone sees it up close, the anchimallén is said to use its light to confuse and disorient, leaving the person momentarily stunned or even blind, with sick eyes, one-eyed or stuttering.",
+          "statement_id": "Bila seseorang melihatnya dari dekat, anchimallén dikatakan memakai cahayanya untuk membingungkan dan menyesatkan, membuat orang itu terpana sesaat atau bahkan buta, sakit mata, picak, atau gagap.",
+          "quote": "el anchimallén utilizaría su luz para confundir y desorientar, dejando aturdido momentáneamente a la persona; o incluso dejándola ciega, enferma de la vista o tuerta o tartamuda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anchimayen-c08",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "It is said that only Machitún ceremonies and a good machi can make this being escape from the body.",
+          "statement_id": "Dikatakan hanya upacara Machitún dan seorang machi yang baik yang dapat mengeluarkan makhluk ini dari tubuh.",
+          "quote": "Se dice que solo las ceremonias de Machitún y una buena machi pueden hacer escapar del cuerpo a este ser",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anchimayen-c09",
+          "source_id": "anchimayen-s2",
+          "host": "es.wikipedia.org",
+          "statement": "In Creole popular tradition it is said that to drive them away one must make metallic noises with spurs or other objects, in order to avoid a future misfortune.",
+          "statement_id": "Dalam tradisi rakyat kreol dikatakan, untuk mengusir mereka orang harus membuat bunyi logam dengan taji atau benda lain agar terhindar dari malapetaka.",
+          "quote": "Igualmente en la tradición popular criolla, se dice que para ahuyentarlos hay que hacer ruidos metálicos con las espuelas u otros objetos, para así evitar una futura desgracia.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f99814dece846f94676c1d01114edd5055ca7ba2fa686d56ea4bd6057d782694"
+      "images": []
     },
     {
       "slug": "argopelter",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "943a1d5c8c985bbe1b4b0d9895958cce551f3640998b8bd4b220b885c33d33bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "argopelter-c01",
@@ -1746,27 +1840,91 @@
           "quote": "When loggers died from branches falling on their heads, the agropelter was blamed for throwing the heavy branches.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "argopelter-c04",
+          "source_id": "argopelter-s2",
+          "host": "archive.org",
+          "statement": "In this text the agropelter leads a vengeful existence, resenting the intrusion of the logger, and deals misery to the lumber jack from Maine to Oregon.",
+          "statement_id": "Dalam teks ini, agropelter menjalani hidup penuh dendam dan membenci kehadiran penebang kayu, serta mendatangkan celaka bagi para penebang dari Maine sampai Oregon.",
+          "quote": "Leading a vengeful existence, resenting the intrusion of the logger, the agropelter deals misery to the lumber jack from Maine to Oregon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c05",
+          "source_id": "argopelter-s2",
+          "host": "archive.org",
+          "statement": "Ill fares the man who tries to pass a hollow tree where one of these creatures has taken up temporary abode; the victim is usually found smashed or pinned by a dead branch and reported as killed by a falling limb.",
+          "statement_id": "Celakalah orang yang mencoba melewati pohon berongga tempat makhluk ini tinggal sementara; korbannya biasanya ditemukan remuk atau tertindih dahan mati dan dilaporkan tewas tertimpa dahan.",
+          "quote": "Ill fares the man who attempts to pass a hollow tree in which one of these creatures has taken up its temporary abode. The unfortunate is usually found smashed or pinned by a dead branch and reported as having been killed by a falling limb.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c06",
+          "source_id": "argopelter-s2",
+          "host": "archive.org",
+          "statement": "According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun.",
+          "statement_id": "Menurut Ole, hewan itu bertubuh ramping dan liat, berwajah jahat seperti kera, dengan lengan seperti cambuk berotot yang dapat mematahkan dahan mati dan melemparkannya di udara seperti peluru meriam enam inci.",
+          "quote": "According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes, with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c07",
+          "source_id": "argopelter-s2",
+          "host": "archive.org",
+          "statement": "It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality.",
+          "statement_id": "Ia diduga makan burung hantu dan pelatuk, yang kelangkaannya akan selalu mencegah agropelter menjadi banyak di suatu tempat.",
+          "quote": "It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c08",
+          "source_id": "argopelter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its pups are born on February 29 and always arrive in odd numbers.",
+          "statement_id": "Anak-anaknya lahir pada 29 Februari dan selalu berjumlah ganjil.",
+          "quote": "Its pups are born on February 29 and always arrive in odd numbers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c09",
+          "source_id": "argopelter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped.",
+          "statement_id": "Dalam satu kisah, seekor agropelter menculik seorang surveyor perintis dan memberinya ikan mentah sampai ia berhasil kabur.",
+          "quote": "In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "argopelter-c10",
+          "source_id": "argopelter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some have described the creature as being so quick that it has never been seen.",
+          "statement_id": "Sebagian menggambarkan makhluk ini begitu cepat sehingga tidak pernah terlihat.",
+          "quote": "Some have described the creature as being so quick that it has never been seen.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c263cd962def1518ac76d5fce911969fdd47addb04756e7f6689ae854e29c162"
+      "images": []
     },
     {
       "slug": "atabey",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "379704527552a7b55ae15dad0c693dc5e9cb87a9c8fb1ffc3e7195bab0845293",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atabey-c01",
@@ -1807,27 +1965,61 @@
           "quote": "Alternate names for Atabey include Iermaoakar, Apito, and Sumaiko. Taíno women prayed to Atabey to ensure safe childbirth.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "atabey-c05",
+          "source_id": "atabey-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is the female entity who represents the spirit of all horizontal water: lakes, streams, the sea and the marine tides.",
+          "statement_id": "Ia adalah sosok perempuan yang mewakili roh segala air mendatar: danau, sungai kecil, laut, dan pasang surut laut.",
+          "quote": "she is the female entity who represents the spirit of all horizontal water, lakes, streams, the sea, and the marine tides.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atabey-c06",
+          "source_id": "atabey-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atabey conceived a child without intercourse.",
+          "statement_id": "Atabey mengandung seorang anak tanpa persetubuhan.",
+          "quote": "Atabey conceived a child without intercourse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atabey-c07",
+          "source_id": "atabey-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is still worshipped by many neo-Taino communities in the Spanish West Indies.",
+          "statement_id": "Ia masih dipuja oleh banyak komunitas neo-Taino di Hindia Barat Spanyol.",
+          "quote": "and is still worshipped by many neo-Taino communities in the Spanish West Indies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atabey-c08",
+          "source_id": "atabey-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Yúcahu was the supreme deity or zemi of the Pre-Columbian Taíno people along with his mother Atabey, who was his feminine counterpart.",
+          "statement_id": "Yúcahu adalah dewa tertinggi atau zemi orang Taíno pra-Columbus bersama ibunya, Atabey, yang menjadi pasangan feminin baginya.",
+          "quote": "He was the supreme deity or zemi of the Pre-Columbian Taíno people along with his mother Atabey who was his feminine counterpart.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1f25072ee25302da8afd60466df1fe1c7ce7ff0b58276381dc36f3bd4b570f5f"
+      "images": []
     },
     {
       "slug": "atshen",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "6c37979c96778f87535446cb2755b9368b05c066b1fd59dddd6484bc9198066f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atshen-c01",
@@ -1838,27 +2030,71 @@
           "quote": "In Innu mythology, Atshen is a cannibalistic spirit that hunts through the permafrost.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "atshen-c02",
+          "source_id": "atshen-s2",
+          "host": "www.religiologiques.uqam.ca",
+          "statement": "Atshen are a class of giant beings who were once human but were transformed into cannibals with no lips and hair on their hearts after they consumed human flesh.",
+          "statement_id": "Atshen adalah golongan makhluk raksasa yang dulunya manusia tetapi berubah menjadi kanibal tanpa bibir dan berambut di jantungnya setelah memakan daging manusia.",
+          "quote": "Atshen — a class of giant beings who were once human but were transformed into cannibals with no lips and hair on their hearts after they consumed human flesh;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atshen-c03",
+          "source_id": "atshen-s2",
+          "host": "www.religiologiques.uqam.ca",
+          "statement": "Spirits such as Atshen and Memekueshu no longer appear to have a contemporary existence except in myths and legendary accounts; Atshen disappeared with the arrival of Christian missionaries.",
+          "statement_id": "Roh seperti Atshen dan Memekueshu tampaknya tidak lagi punya keberadaan masa kini kecuali dalam mitos dan kisah legenda; Atshen menghilang dengan datangnya misionaris Kristen.",
+          "quote": "Other spirits such as Atshen and Memekueshu no longer appear to have any contemporary existence except in myths and legendary accounts. As noted previously, Atshen disappeared with the arrival of Christian missionaries.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atshen-c04",
+          "source_id": "atshen-s2",
+          "host": "www.religiologiques.uqam.ca",
+          "statement": "In the shaking tent, a shaman sometimes waged terrible battles with other shamans and cannibal spirits such as Atshen.",
+          "statement_id": "Dalam tenda bergetar, dukun kadang bertempur hebat dengan dukun lain dan roh kanibal seperti Atshen.",
+          "quote": "or waged terrible battles there with other shamans and cannibal spirits such as Atshen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atshen-c05",
+          "source_id": "atshen-s2",
+          "host": "www.religiologiques.uqam.ca",
+          "statement": "In one myth, some members of a hunting group are labelled Atshen (cannibal monsters) because they have an abundance of food on their scaffold while the other members have none and are hungry.",
+          "statement_id": "Dalam satu mitos, sebagian anggota kelompok pemburu disebut Atshen (monster kanibal) karena mereka punya banyak makanan di panggungnya sementara anggota lain kelaparan.",
+          "quote": "In one myth, for example, some members of a hunting group are labelled Atshen (i.e. cannibal monsters) because they have an abundance of food on their scaffold while the other members of the group have none and are hungry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atshen-c06",
+          "source_id": "atshen-s2",
+          "host": "www.religiologiques.uqam.ca",
+          "statement": "According to the author, one symbolic role of the Atshen in this myth seems to be to protect the caribou from excessive exploitation by the Innu, but the end result of the Atshens' intervention is starvation among the Innu.",
+          "statement_id": "Menurut penulis, tampaknya salah satu peran simbolis Atshen dalam mitos itu adalah melindungi karibu dari pemanfaatan berlebihan oleh orang Innu, tetapi hasil akhir campur tangan mereka adalah kelaparan di kalangan Innu.",
+          "quote": "It would seem that one symbolic role of the Atshen in this myth is to protect the caribou from excessive exploitation by the Innu, but the end result of Atshens' intervention is starvation among the Innu.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c4fc134cb1233c4b9179cc73acdcb0ccded87405f843d8fda0d8ba74bdc693fc"
+      "images": []
     },
     {
       "slug": "axehandle-hound",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "802ee37ff2781a15816256d56a6bc090aea67d17911976d1f39d9f74bc938df5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "axehandle-hound-c01",
@@ -1899,27 +2135,51 @@
           "quote": "According to folklore, the axehandle hound strongly dislikes axe handles made from red oak.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "axehandle-hound-c05",
+          "source_id": "axehandle-hound-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A nocturnal creature, the axehandle hound travels from camp to camp searching for its next meal.",
+          "statement_id": "Sebagai makhluk nokturnal, axehandle hound berpindah dari kemah ke kemah mencari santapan berikutnya.",
+          "quote": "A nocturnal creature, the axehandle hound travels from camp to camp searching for its next meal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "axehandle-hound-c06",
+          "source_id": "axehandle-hound-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Fearsome critters were an integral part of oral tradition in North American logging camps around the turn of the twentieth century, principally as a way to pass time (as in tall tales) or as a jest for hazing newcomers.",
+          "statement_id": "Fearsome critters adalah bagian penting tradisi lisan di kamp penebangan kayu Amerika Utara pada pergantian abad ke-20, terutama untuk mengisi waktu (seperti dalam cerita bual) atau sebagai lelucon untuk mengerjai pendatang baru.",
+          "quote": "Fearsome critters were an integral part of oral tradition in North American logging camps during the turn of the twentieth century, principally as a means to pass time (such as in tall tales) or as a jest for hazing newcomers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "axehandle-hound-c07",
+          "source_id": "axehandle-hound-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The axehandle hound is a beast that reputedly subsists on axe-handles left unattended, mentioned in Jorge Luis Borges' Book of Imaginary Beings.",
+          "statement_id": "Axehandle hound adalah binatang yang konon hidup dari gagang kapak yang ditinggalkan tanpa pengawasan, dan disebut dalam Book of Imaginary Beings karya Jorge Luis Borges.",
+          "quote": "Axehandle hound, a beast that reputedly subsists on axe-handles left unattended, mentioned in Jorge Luis Borges' Book of Imaginary Beings.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "01b152fd05dc893ae369e40b287022820b1adab402aa9d77856e302ceeca3600"
+      "images": []
     },
     {
       "slug": "ball-tailed-cat",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "ca1ab8284779f3237ae199e86a9b47408fb9334ea80ccad3bbc0962521c81f8f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ball-tailed-cat-c01",
@@ -1960,10 +2220,39 @@
           "quote": "The earliest written mention of the ball-tailed cat appears in Henry Tyron's Fearsome Critters (1939).",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ball-tailed-cat-c05",
+          "source_id": "ball-tailed-cat-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two of the more prominent variants are the Dingmaul and the Sliver Cat; the latter is distinguishable for having not only a smooth-sided ball for knocking wayfarers unconscious but also a spiked side for piercing and grappling its victims.",
+          "statement_id": "Dua varian yang lebih menonjol adalah Dingmaul dan Sliver Cat; yang terakhir dibedakan karena tidak hanya punya bola bersisi halus untuk memukul pingsan para pejalan, tetapi juga sisi berduri untuk menusuk dan mencengkeram korbannya.",
+          "quote": "two of the more prominent variants are the Dingmaul and the Sliver Cat. The latter is distinguishable for not only having a smooth-sided ball for knocking wayfarers unconscious, but in addition a spiked-side for piercing and grappling its victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ball-tailed-cat-c06",
+          "source_id": "ball-tailed-cat-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Fearsome critters were an integral part of oral tradition in North American logging camps around the turn of the twentieth century, principally as a way to pass time (as in tall tales) or as a jest for hazing newcomers.",
+          "statement_id": "Fearsome critters adalah bagian penting tradisi lisan di kamp penebangan kayu Amerika Utara pada pergantian abad ke-20, terutama untuk mengisi waktu (seperti dalam cerita bual) atau sebagai lelucon untuk mengerjai pendatang baru.",
+          "quote": "Fearsome critters were an integral part of oral tradition in North American logging camps during the turn of the twentieth century, principally as a means to pass time (such as in tall tales) or as a jest for hazing newcomers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ball-tailed-cat-c07",
+          "source_id": "ball-tailed-cat-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The ball-tailed cat is a feline similar to a mountain lion, except with a long tail with a bulbous end used for striking its prey.",
+          "statement_id": "Ball-tailed cat adalah kucing besar yang mirip puma, kecuali berekor panjang dengan ujung membulat yang dipakai untuk memukul mangsanya.",
+          "quote": "Ball-tailed cat, a feline similar to a mountain lion, except with a long tail with a bulbous end used for striking its prey.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "14b576ebd05ae1d9ee027cea932d714168f379e0a40aa9914ca33ebd1240e757"
+      "images": []
     },
     {
       "slug": "beaman-monster",
@@ -2018,20 +2307,15 @@
     },
     {
       "slug": "bear-lake-monster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "c4d24964c41c70dad8e5cd43ae79fb1536d151898a35a1151e48f0733213c7d9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bear-lake-monster-c01",
@@ -2072,10 +2356,79 @@
           "quote": "is reported to resemble a serpent, but with legs about eighteen inches [46 cm] long on which it marauds along the shoreline.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c05",
+          "source_id": "bear-lake-monster-s2",
+          "host": "www.wgpfoundation.org",
+          "statement": "The origins of the legend most likely stem from Shoshone stories of large serpents living in the lake, and the tale grew after Joseph C. Rich, a Mormon church leader, reported second-hand accounts of sightings of a snake-like creature in the lake in 1868.",
+          "statement_id": "Asal legenda ini kemungkinan besar berasal dari kisah suku Shoshone tentang ular besar di danau itu, dan kisah Bear Lake Monster berkembang setelah Joseph C. Rich, pemimpin gereja Mormon, melaporkan kabar dari tangan kedua tentang penampakan makhluk mirip ular di danau pada 1868.",
+          "quote": "While the origins of this regional legend most likely stem from Shoshone stories of large serpents living in the lake, the tale of the Bear Lake Monster grew after Joseph C. Rich, a Mormon church leader, reported second-hand accounts of sightings of a snake-like creature in the lake in 1868.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c06",
+          "source_id": "bear-lake-monster-s2",
+          "host": "www.wgpfoundation.org",
+          "statement": "Rich later recanted his reports, admitting they were crafted as a marketing ploy to get people to visit Rich County, Utah.",
+          "statement_id": "Rich kemudian menarik laporannya dan mengakui bahwa laporan itu dibuat sebagai siasat pemasaran untuk menarik orang berkunjung ke Rich County, Utah.",
+          "quote": "Rich later recanted his reports, admitting they were crafted as a marketing ploy in attempts to get people to visit Rich County, Utah.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c07",
+          "source_id": "bear-lake-monster-s2",
+          "host": "www.wgpfoundation.org",
+          "statement": "For community members the story serves as a sort of cautionary water tale as well as a fondly recalled local anecdote.",
+          "statement_id": "Bagi warga setempat, kisah ini berfungsi sebagai semacam dongeng peringatan tentang air sekaligus anekdot lokal yang dikenang dengan hangat.",
+          "quote": "the story serves for community members as a sort of cautionary water tale as well as a fondly recalled local anecdote.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c08",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others reported a monster-like creature faster than a locomotive whose head was variously described as like that of a cow, otter, crocodile or a walrus (minus the tusks).",
+          "statement_id": "Yang lain melaporkan makhluk mirip monster yang bergerak lebih cepat daripada lokomotif, dengan kepala yang digambarkan beragam: mirip sapi, berang-berang, buaya, atau walrus (tanpa taring).",
+          "quote": "Others reported seeing a monster-like creature which went faster than a locomotive and had a head variously described as being similar to that of a cow, otter, crocodile or a walrus (minus the tusks).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c09",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The number of alleged lake-monster appearances across northern Utah led some people to speculate about an underground channel connecting the Great Salt Lake and other waterways to Bear Lake.",
+          "statement_id": "Banyaknya dugaan penampakan monster danau di seluruh Utah utara membuat sebagian orang menduga ada saluran bawah tanah yang menghubungkan Great Salt Lake dan perairan lain dengan Bear Lake.",
+          "quote": "The number of alleged appearances of lake monsters all across northern Utah caused some people to speculate that there was an underground channel connecting the Great Salt Lake and other waterways to Bear Lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c10",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Interest was high enough that LDS Church president Brigham Young decided to investigate whether the story was \"an honest tale of a serpent or only a fish story\" and sent a large rope to Paris, Idaho to aid in capturing the monster.",
+          "statement_id": "Minat begitu tinggi sehingga presiden Gereja LDS Brigham Young pernah memutuskan menyelidiki klaim itu untuk mengetahui apakah ceritanya \"kisah jujur tentang ular atau sekadar cerita ikan\", dan mengirim tali besar ke Paris, Idaho untuk membantu menangkap monster itu.",
+          "quote": "Interest was high enough that at one point even LDS Church president Brigham Young decided to investigate the claims to find out whether the story was \"an honest tale of a serpent or only a fish story\" and went as far as sending a large rope to Paris, Idaho to aid in capturing the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c11",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Twenty-six years after his articles and allegations, Joseph C. Rich finally admitted that it had all been a \"wonderful first-class lie\".",
+          "statement_id": "Dua puluh enam tahun setelah artikel dan tuduhannya, Joseph C. Rich akhirnya mengakui bahwa semuanya adalah \"kebohongan kelas satu yang luar biasa\".",
+          "quote": "Twenty-six years following his articles and allegations, Joseph C. Rich finally admitted that it had all been a \"wonderful first-class lie\".",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6973385e617a966c1302de1d25d1d9788c751138ccdec04c7e262a74aebd94e5"
+      "images": []
     },
     {
       "slug": "boto",
@@ -2160,20 +2513,15 @@
     },
     {
       "slug": "cabra-cabriola",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "376eb12d1c684323f0d6ca9b7855a8f889eb78899863c5b8c98948b78c93c783",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cabra-cabriola-c01",
@@ -2204,10 +2552,99 @@
           "quote": "The cabra cabriola is considered a bogeyman monster that terrifies children into good behavior.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c04",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cabra cabriola is said to be a man-eating goat that leaps and bucks a thousand times (hence the name, from cabriolar \"to prance, caper\").",
+          "statement_id": "Cabra cabriola dikatakan kambing pemakan manusia yang melompat dan menyepak seribu kali (karena itu namanya, dari cabriolar \"melompat-lompat\").",
+          "quote": "The cabra cabriola is said to be a man-eating goat, said to leap and buck a thousand times (hence the name, from cabriolar \"to prance, caper\").",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c05",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to be armed with huge jaws and sharp teeth used to devour youngsters, breathing fire from its eyes, mouth and nostrils.",
+          "statement_id": "Ia dikatakan bersenjatakan rahang besar dan gigi tajam untuk melahap anak-anak, dan menyemburkan api dari mata, mulut, dan lubang hidungnya.",
+          "quote": "It is said to be armed with huge jaws and sharp teeth used to devour youngsters, breathing fire from its eyes, mouth, and nostrils",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c06",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one narrative the beast hides until the mother returns and learns her manner of speech, then goes to the blacksmith to re-forge its tongue to replicate the woman's soft voice.",
+          "statement_id": "Dalam satu kisah, binatang itu bersembunyi menunggu sang ibu pulang dan mempelajari cara bicaranya, lalu pergi ke pandai besi untuk menempa ulang lidahnya agar dapat meniru suara lembut perempuan itu.",
+          "quote": "Undeterred, the beast hides in wait until the mother returns, and learns the manner of her speech, then goes to the blacksmith to re-forge his tongue in order to replicate the woman's soft voice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c07",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one tale, though tiny, the ant stung the cabra cabriola on the belly and it fled in pain screaming \"baa, baa\".",
+          "statement_id": "Dalam satu kisah, semut yang kecil menyengat perut cabra cabriola dan makhluk itu lari kesakitan sambil mengembik.",
+          "quote": "Though tiny, the ant stung the cabra cabriola on the belly and it fled in pain screaming: baa, baa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c08",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gilberto Freyre conjectures that the origins of the cabra cabriola may be traced back to the lore of the Caprimulgus (nightjar, literally \"goat-milker\").",
+          "statement_id": "Gilberto Freyre menduga asal-usul cabra cabriola dapat ditelusuri ke cerita rakyat tentang Caprimulgus (burung cabak, secara harfiah \"pemerah kambing\").",
+          "quote": "Gilberto Freyre conjectures that the origins of the cabra cabriola may be traced back to the lore of the Caprimulgus (nightjar, but literally \"goat-milker\")",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c09",
+          "source_id": "cabra-cabriola-s2",
+          "host": "www.todamateria.com.br",
+          "statement": "Cabra Cabriola is a legend told mainly in Pernambuco and originating at the end of the 19th century.",
+          "statement_id": "Cabra Cabriola adalah legenda yang terutama diceritakan di Pernambuco dan berasal dari akhir abad ke-19.",
+          "quote": "Lenda da Cabra Cabriola ... contada principalmente em Pernambuco e teve origem no fim do",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c10",
+          "source_id": "cabra-cabriola-s2",
+          "host": "www.todamateria.com.br",
+          "statement": "This character is half goat, half monster, with sharp teeth and a foul smell.",
+          "statement_id": "Tokoh ini setengah kambing, setengah monster, bergigi tajam, dan berbau busuk.",
+          "quote": "metade cabra, metade monstro, possui dentes afiados e um cheiro",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c11",
+          "source_id": "cabra-cabriola-s2",
+          "host": "www.todamateria.com.br",
+          "statement": "It keeps searching for children to feed on, but also attacks people walking alone in the streets at night.",
+          "statement_id": "Ia terus mencari anak-anak untuk dimakan, tetapi juga menyerang orang yang berjalan sendirian di jalan pada malam hari.",
+          "quote": "Ela vive procurando por ... para se alimentar, mas ... ataca pessoas que andam nas ruas sozinhas durante a noite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c12",
+          "source_id": "cabra-cabriola-s2",
+          "host": "www.todamateria.com.br",
+          "statement": "The goat (o caprino) is said to have the ability (habilidade) to enter houses (nas casas) in search of disobedient boys (meninos desobedientes).",
+          "statement_id": "Kambing itu (o caprino) dikatakan mampu (habilidade) masuk ke rumah-rumah (nas casas) untuk mencari anak laki-laki yang nakal (meninos desobedientes).",
+          "quote": "o caprino ... a habilidade de entrar nas casas a procura de meninos desobedientes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f1abc543ab5ba230142191ae721a4b9417cdc42e020f0ab2d43c7d951503337a"
+      "images": []
     },
     {
       "slug": "carbuncle-legendary-creature",
@@ -2333,20 +2770,15 @@
     },
     {
       "slug": "colo-colo-mythology",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-2.md",
+      "entry_sha256": "8c034200b7ad31b0b9c0ef3bf1059cd1e379dd7cf65f3db1bead98f989192bdc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "colo-colo-mythology-c01",
@@ -2387,10 +2819,89 @@
           "quote": "A type of wildcat is also called \"colocolo\", and this may perhaps be related to the origin of the lore.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c05",
+          "source_id": "colo-colo-mythology-s2",
+          "host": "lli.ufro.cl",
+          "statement": "In Mapuche oral tales, the Kolo-Kolo (this source's spelling of the figure also written Colo Colo) is said to derive from the work of the kalku and to bring all kinds of misfortune to those who see it: illness, suffering and sometimes death.",
+          "statement_id": "Dalam relato lisan Mapuche, Kolo-Kolo (ejaan sumber ini untuk sosok yang juga ditulis Colo Colo) dikatakan berasal dari perbuatan para kalku dan membawa segala macam malang bagi yang melihatnya: penyakit, penderitaan, dan kadang kematian.",
+          "quote": "se manifiesta y reconoce la figura del Kolo-Kolo, quien derivaría de la obra de los kalku y que, específicamente, daría toda clase de malaventuras a quienes lo ven: enfermedades, sufrimientos y, en algunos casos, hasta ocasionar la muerte.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c06",
+          "source_id": "colo-colo-mythology-s2",
+          "host": "lli.ufro.cl",
+          "statement": "The Kolo-Kolo usually hides in the ground and always acts in dark places; it is said to govern other beings of its kind and is seen as a chief or king.",
+          "statement_id": "Kolo-Kolo biasanya bersembunyi di dalam tanah dan selalu bertindak di tempat gelap; konon ia memerintah makhluk lain sejenisnya dan dipandang sebagai pemimpin atau raja.",
+          "quote": "Por lo regular se oculta en la tierra, actuando siempre en lugares oscuros. Se dice que gobierna a otros seres de su misma especie, percibiéndosele como jefe o rey.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c07",
+          "source_id": "colo-colo-mythology-s2",
+          "host": "lli.ufro.cl",
+          "statement": "In versions gathered in the Imperial sector, there is agreement in picturing it as a mouse covered in feathers, sometimes a lizard, or a small bird.",
+          "statement_id": "Dalam versi yang dikumpulkan di sektor Imperial, ada kesepakatan membayangkannya sebagai tikus berbulu burung, kadang kadal, atau burung kecil.",
+          "quote": "en versiones recogidas en el sector de Imperial, habría consenso en visualizarlo como un ratón cubierto de plumas, a veces como un lagarto, o bien, como un pájaro pequeño.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c08",
+          "source_id": "colo-colo-mythology-s2",
+          "host": "lli.ufro.cl",
+          "statement": "Although its form is perceived differently, there is consensus on its function: extracting blood and saliva from people, thereby causing diseases such as consumption.",
+          "statement_id": "Meski wujudnya dipersepsikan berbeda-beda, ada kesepakatan mengenai fungsinya: menyedot darah dan air liur orang sehingga menimbulkan penyakit seperti tisis.",
+          "quote": "sí hay consenso en reconocer la función que desempeña: extraer sangre y saliva de las personas, originando, de ese modo, enfermedades como la tisis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c09",
+          "source_id": "colo-colo-mythology-s2",
+          "host": "lli.ufro.cl",
+          "statement": "The figure is seen as a maleficent force that manifests in the mapu as a way of unbalancing the natural world.",
+          "statement_id": "Sosok itu dipandang sebagai kekuatan jahat yang tampil di mapu sebagai cara mengacaukan keseimbangan dunia alam.",
+          "quote": "fuerza maléfica que se manifiesta en el mapu como un modo de desequilibrar el mundo natural",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c10",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When a Colo Colo is suspected in the house, a Machi must be contacted to exorcise the premises; sometimes the only remedy is burning the building in order to kill the Colo Colo.",
+          "statement_id": "Bila dicurigai ada Colo Colo di dalam rumah, seorang Machi harus dihubungi untuk mengusirnya dari rumah itu; kadang satu-satunya obat adalah membakar bangunan untuk membunuh Colo Colo.",
+          "quote": "When it is suspected that a Colo Colo is in the house, a Machi must be contacted to exorcise the premises. Sometimes the only remedy is burning the building in order to kill the Colo Colo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c11",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Whenever a suspected rooster egg is found, it is customary to burn it.",
+          "statement_id": "Setiap kali ditemukan telur yang dicurigai telur ayam jantan, kebiasaannya adalah membakarnya.",
+          "quote": "Whenever a suspected rooster egg is found, it is customary to burn it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c12",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Signs that a Colo Colo is in a house are residents feeling tired for no reason or hearing its cry, which is similar to an infant wailing.",
+          "statement_id": "Tanda adanya Colo Colo di rumah adalah penghuni merasa lelah tanpa sebab atau mendengar tangisannya yang mirip rengekan bayi.",
+          "quote": "Indicators that a Colo Colo is in a house are residents feeling tired for no reason or hearing its cry, which is similar to an infant wailing.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fb201acf6fd14cbd75fca180716497ea037c1ba23fd354d00ba413523dd287eb"
+      "images": []
     },
     {
       "slug": "cuero-legendary-creature",

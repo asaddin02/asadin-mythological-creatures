@@ -1,6 +1,6 @@
 # Review batch-145
 
-Diperiksa 2026-10-06T15:15:46.223Z. Berkas: batch-145.md, batch-145-fix-1.md.
+Diperiksa 2026-10-06T15:36:23.512Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md.
 
 ## mogollon-monster — lulus-otomatis
 
@@ -237,52 +237,58 @@ Klaim 14 (exact 14), sumber 2, gambar 0.
 
 ## yacumama — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yacumama-c01 | exact | en.wikipedia.org | Yacumama (Quechua, "mother of water") is an enormous mythical serpent believed to inhabit the Amazon rainforest. | Yacumama (from Quechua for "mother of water"), is a mythical enormous serpent believed to inhabit the Amazon Rainforest. |
 | yacumama-c02 | exact | en.wikipedia.org | Legend makes it the mother of all aquatic animals, sucking in any living thing within 100 steps. | According to legend, it is considered the mother of all aquatic animals and would suck up any living thing that passed within 100 steps of it. |
 | yacumama-c03 | exact | en.wikipedia.org | For protection, local Indigenous people blew a conch before entering the water, believing the Yacumama would reveal itself. | To protect themselves, local Indigenous peoples would blow on a conch horn before entering the water, believing that the Yacumama would reveal itself if it were present. |
+| yacumama-c04 | exact | www.thecollector.com | In the region that is home to the Shipibo-Conibo, Ashanika and Aguaruna peoples, a dangerous mythical anaconda, Yakumama, guards and protects the waters of the Amazon River. | This region is home to the Shipibo-Conibo, Ashanika, and Aguaruna peoples. Here, a dangerous mythical anaconda, Yakumama, guards and protects the waters of the Amazon River. |
+| yacumama-c05 | exact | www.thecollector.com | The name Yakumama comes from the Quechua words yaku (agua) and mama (mother), meaning the Mother of Water. | The name Yakumama comes from the Quechua words yaku (agua) and mama (mother), meaning the Mother of Water. |
+| yacumama-c06 | exact | www.thecollector.com | In one tale, because of a fisherman's unwelcome presence, Yakumama created a whirlpool from which it emerged, putting the boat and the fisherman in immense danger. | Due to the man’s unwelcome presence, Yakumama created a whirlpool from which it emerged, putting the boat and the fisherman in immense danger. |
+| yacumama-c07 | exact | www.thecollector.com | The myth of Yacumama speaks of the respect owed to the forest and all living beings in it; the anaconda is the silent power that protects the forest's natural equilibrium and should not be disturbed. | The myth of Yacumama talks about the respect that must be paid to the forest and all living beings that are part of it. The anaconda is the silent power that protects the natural equilibrium of the forest and should not be disturbed. |
+| yacumama-c08 | exact | www.thecollector.com | In one story the great snake answered that its lament was because future generations would not respect and protect the rainforest. | the great snake responded that the lament was because future generations were not going to respect and protect the rainforest. |
 
 
 ## anchimayen — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | anchimayen-c01 | exact | en.wikipedia.org | The Anchimayen is a Mapuche mythical creature in the form of small children that can turn into bright flying fireballs. | is a mythical creature in Mapuche mythology. Anchimayens are described as little creatures that take the form of small children, and can transform into flying fireballs that emit bright light. |
 | anchimayen-c02 | exact | en.wikipedia.org | They are servants of a kalku, a type of Mapuche sorcerer. | They are the servants of a kalku (a type of Mapuche sorcerer). |
 | anchimayen-c03 | exact | en.wikipedia.org | Anchimayens are sometimes confused with Kueyen, the Mapuche moon goddess, who also gives bright light. | Anchimayens are sometimes confused with Kueyen (the Mapuche lunar goddess), because she also produces a bright light. |
+| anchimayen-c04 | exact | es.wikipedia.org | The anchimallén are said to be heard like the crying of a newborn baby. | Se dice que se les escucharía como el llanto de un bebe recién nacido |
+| anchimayen-c05 | exact | es.wikipedia.org | The anchimallén is said to feed on milk, blood or honey, its mission being to protect and obey its owner, doing good or evil according to the wishes of whoever controls it. | El anchimallén se alimentaría con leche, sangre o miel, siendo la misión del anchimallén la de proteger y obedecer a su dueño haciendo el bien o el mal; según los deseos de quién lo controla. |
+| anchimayen-c06 | exact | es.wikipedia.org | The calcu is said to create them from the remains of a girl or boy who died suddenly. | El calcu los crearía a partir de los restos mortales perteneciente a una niña o un niño que murió de una forma repentina. |
+| anchimayen-c07 | exact | es.wikipedia.org | If someone sees it up close, the anchimallén is said to use its light to confuse and disorient, leaving the person momentarily stunned or even blind, with sick eyes, one-eyed or stuttering. | el anchimallén utilizaría su luz para confundir y desorientar, dejando aturdido momentáneamente a la persona; o incluso dejándola ciega, enferma de la vista o tuerta o tartamuda. |
+| anchimayen-c08 | exact | es.wikipedia.org | It is said that only Machitún ceremonies and a good machi can make this being escape from the body. | Se dice que solo las ceremonias de Machitún y una buena machi pueden hacer escapar del cuerpo a este ser |
+| anchimayen-c09 | exact | es.wikipedia.org | In Creole popular tradition it is said that to drive them away one must make metallic noises with spurs or other objects, in order to avoid a future misfortune. | Igualmente en la tradición popular criolla, se dice que para ahuyentarlos hay que hacer ruidos metálicos con las espuelas u otros objetos, para así evitar una futura desgracia. |
 
 
 ## argopelter — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | argopelter-c01 | exact | en.wikipedia.org | The Agropelter is a mythical fearsome critter said to live in hollow conifer trees from Maine to Oregon. | is a mythical fearsome critter said to inhabit hollow trees of the conifer woods from Maine to Oregon. |
 | argopelter-c02 | exact | en.wikipedia.org | From there it waits for unwary people and hurls splinters and branches at them. | From this vantage point, the creature would await an unwary person and hurl wooden splinters and branches at the intruder. |
 | argopelter-c03 | exact | en.wikipedia.org | When loggers died from falling branches, the agropelter was blamed. | When loggers died from branches falling on their heads, the agropelter was blamed for throwing the heavy branches. |
+| argopelter-c04 | exact | archive.org | In this text the agropelter leads a vengeful existence, resenting the intrusion of the logger, and deals misery to the lumber jack from Maine to Oregon. | Leading a vengeful existence, resenting the intrusion of the logger, the agropelter deals misery to the lumber jack from Maine to Oregon. |
+| argopelter-c05 | exact | archive.org | Ill fares the man who tries to pass a hollow tree where one of these creatures has taken up temporary abode; the victim is usually found smashed or pinned by a dead branch and reported as killed by a falling limb. | Ill fares the man who attempts to pass a hollow tree in which one of these creatures has taken up its temporary abode. The unfortunate is usually found smashed or pinned by a dead branch and reported as having been killed by a falling limb. |
+| argopelter-c06 | exact | archive.org | According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun. | According to Ole, the animal has a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes, with which it can snap off dead branches and hurl them through the air like shells from a six-inch gun. |
+| argopelter-c07 | exact | archive.org | It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality. | It is supposed to feed upon hoot owls and woodpeckers, the scarcity of which will always prevent the agropelter from becoming numerous in any locality. |
+| argopelter-c08 | exact | en.wikipedia.org | Its pups are born on February 29 and always arrive in odd numbers. | Its pups are born on February 29 and always arrive in odd numbers. |
+| argopelter-c09 | exact | en.wikipedia.org | In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped. | In one account, an agropelter kidnapped a pioneer surveyor and fed him raw fish until he escaped. |
+| argopelter-c10 | exact | en.wikipedia.org | Some have described the creature as being so quick that it has never been seen. | Some have described the creature as being so quick that it has never been seen. |
 
 
 ## atabey — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -290,26 +296,29 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | atabey-c02 | exact | en.wikipedia.org | She is a goddess of the moon, fresh waters, fertility and creation. | She is a goddess associated with the moon, fresh waters, fertility and creation |
 | atabey-c03 | exact | en.wikipedia.org | Her manifestations include the nurturing mother, Caguana the spirit of love, and Guabancex, violent mother of storms, volcanoes and earthquakes. | One is the aforementioned nurturing maternal figure. Another is Caguana, the spirit of love. The last is Guabancex (also known as Gua Ban Ceh), the violent, wild mother of storms, volcanoes, and earthquakes. |
 | atabey-c04 | exact | en.wikipedia.org | Other names include Iermaoakar, Apito and Sumaiko; Taíno women prayed to her for safe childbirth. | Alternate names for Atabey include Iermaoakar, Apito, and Sumaiko. Taíno women prayed to Atabey to ensure safe childbirth. |
+| atabey-c05 | exact | en.wikipedia.org | She is the female entity who represents the spirit of all horizontal water: lakes, streams, the sea and the marine tides. | she is the female entity who represents the spirit of all horizontal water, lakes, streams, the sea, and the marine tides. |
+| atabey-c06 | exact | en.wikipedia.org | Atabey conceived a child without intercourse. | Atabey conceived a child without intercourse. |
+| atabey-c07 | exact | en.wikipedia.org | She is still worshipped by many neo-Taino communities in the Spanish West Indies. | and is still worshipped by many neo-Taino communities in the Spanish West Indies. |
+| atabey-c08 | exact | en.wikipedia.org | Yúcahu was the supreme deity or zemi of the Pre-Columbian Taíno people along with his mother Atabey, who was his feminine counterpart. | He was the supreme deity or zemi of the Pre-Columbian Taíno people along with his mother Atabey who was his feminine counterpart. |
 
 
 ## atshen — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | atshen-c01 | exact | en.wikipedia.org | In Innu mythology, Atshen is a cannibalistic spirit that hunts across the permafrost. | In Innu mythology, Atshen is a cannibalistic spirit that hunts through the permafrost. |
+| atshen-c02 | exact | www.religiologiques.uqam.ca | Atshen are a class of giant beings who were once human but were transformed into cannibals with no lips and hair on their hearts after they consumed human flesh. | Atshen — a class of giant beings who were once human but were transformed into cannibals with no lips and hair on their hearts after they consumed human flesh; |
+| atshen-c03 | exact | www.religiologiques.uqam.ca | Spirits such as Atshen and Memekueshu no longer appear to have a contemporary existence except in myths and legendary accounts; Atshen disappeared with the arrival of Christian missionaries. | Other spirits such as Atshen and Memekueshu no longer appear to have any contemporary existence except in myths and legendary accounts. As noted previously, Atshen disappeared with the arrival of Christian missionaries. |
+| atshen-c04 | exact | www.religiologiques.uqam.ca | In the shaking tent, a shaman sometimes waged terrible battles with other shamans and cannibal spirits such as Atshen. | or waged terrible battles there with other shamans and cannibal spirits such as Atshen. |
+| atshen-c05 | exact | www.religiologiques.uqam.ca | In one myth, some members of a hunting group are labelled Atshen (cannibal monsters) because they have an abundance of food on their scaffold while the other members have none and are hungry. | In one myth, for example, some members of a hunting group are labelled Atshen (i.e. cannibal monsters) because they have an abundance of food on their scaffold while the other members of the group have none and are hungry. |
+| atshen-c06 | exact | www.religiologiques.uqam.ca | According to the author, one symbolic role of the Atshen in this myth seems to be to protect the caribou from excessive exploitation by the Innu, but the end result of the Atshens' intervention is starvation among the Innu. | It would seem that one symbolic role of the Atshen in this myth is to protect the caribou from excessive exploitation by the Innu, but the end result of Atshens' intervention is starvation among the Innu. |
 
 
 ## axehandle-hound — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -317,14 +326,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | axehandle-hound-c02 | exact | en.wikipedia.org | It is dog-like with an axe-shaped body. | The animal is dog-like with a body which resembles an axe. |
 | axehandle-hound-c03 | exact | en.wikipedia.org | It eats only the handles of axes left unattended. | It subsists on a diet consisting entirely of the handles of axes which have been left unattended. |
 | axehandle-hound-c04 | exact | en.wikipedia.org | According to folklore it strongly dislikes red oak axe handles. | According to folklore, the axehandle hound strongly dislikes axe handles made from red oak. |
+| axehandle-hound-c05 | exact | en.wikipedia.org | A nocturnal creature, the axehandle hound travels from camp to camp searching for its next meal. | A nocturnal creature, the axehandle hound travels from camp to camp searching for its next meal. |
+| axehandle-hound-c06 | exact | en.wikipedia.org | Fearsome critters were an integral part of oral tradition in North American logging camps around the turn of the twentieth century, principally as a way to pass time (as in tall tales) or as a jest for hazing newcomers. | Fearsome critters were an integral part of oral tradition in North American logging camps during the turn of the twentieth century, principally as a means to pass time (such as in tall tales) or as a jest for hazing newcomers. |
+| axehandle-hound-c07 | exact | en.wikipedia.org | The axehandle hound is a beast that reputedly subsists on axe-handles left unattended, mentioned in Jorge Luis Borges' Book of Imaginary Beings. | Axehandle hound, a beast that reputedly subsists on axe-handles left unattended, mentioned in Jorge Luis Borges' Book of Imaginary Beings. |
 
 
 ## ball-tailed-cat — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -332,6 +341,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ball-tailed-cat-c02 | exact | en.wikipedia.org | Ball-tailed cat tales were common among woodsmen around the turn of the 20th century. | Tales of ball-tailed cats were common among woodsmen during the turn of the 20th century |
 | ball-tailed-cat-c03 | exact | en.wikipedia.org | Two prominent variants are the Dingmaul and the Sliver Cat. | two of the more prominent variants are the Dingmaul and the Sliver Cat. |
 | ball-tailed-cat-c04 | exact | en.wikipedia.org | The earliest written mention is in Henry Tyron's Fearsome Critters (1939). | The earliest written mention of the ball-tailed cat appears in Henry Tyron's Fearsome Critters (1939). |
+| ball-tailed-cat-c05 | exact | en.wikipedia.org | Two of the more prominent variants are the Dingmaul and the Sliver Cat; the latter is distinguishable for having not only a smooth-sided ball for knocking wayfarers unconscious but also a spiked side for piercing and grappling its victims. | two of the more prominent variants are the Dingmaul and the Sliver Cat. The latter is distinguishable for not only having a smooth-sided ball for knocking wayfarers unconscious, but in addition a spiked-side for piercing and grappling its victims. |
+| ball-tailed-cat-c06 | exact | en.wikipedia.org | Fearsome critters were an integral part of oral tradition in North American logging camps around the turn of the twentieth century, principally as a way to pass time (as in tall tales) or as a jest for hazing newcomers. | Fearsome critters were an integral part of oral tradition in North American logging camps during the turn of the twentieth century, principally as a means to pass time (such as in tall tales) or as a jest for hazing newcomers. |
+| ball-tailed-cat-c07 | exact | en.wikipedia.org | The ball-tailed cat is a feline similar to a mountain lion, except with a long tail with a bulbous end used for striking its prey. | Ball-tailed cat, a feline similar to a mountain lion, except with a long tail with a bulbous end used for striking its prey. |
 
 
 ## beaman-monster — lulus-otomatis
@@ -350,10 +362,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## bear-lake-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -361,6 +370,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | bear-lake-monster-c02 | exact | en.wikipedia.org | The myth grew from 19th-century articles by Joseph C. Rich, a Latter-day Saint settler, who later recanted them. | The myth originally grew from articles written in the 19th century by Joseph C. Rich, a Latter-day Saint settler in the area, purporting to report second-hand accounts of sightings of the creature. However, he later recanted the stories. |
 | bear-lake-monster-c03 | exact | en.wikipedia.org | It is now a tourist attraction; the last reported sighting was in 2002. | In recent years, the monster has been considered a tourist attraction. The last reported sighting of the monster was in 2002. |
 | bear-lake-monster-c04 | exact | en.wikipedia.org | Folklorists say it resembles a serpent with legs about eighteen inches long, roaming the shore. | is reported to resemble a serpent, but with legs about eighteen inches [46 cm] long on which it marauds along the shoreline. |
+| bear-lake-monster-c05 | exact | www.wgpfoundation.org | The origins of the legend most likely stem from Shoshone stories of large serpents living in the lake, and the tale grew after Joseph C. Rich, a Mormon church leader, reported second-hand accounts of sightings of a snake-like creature in the lake in 1868. | While the origins of this regional legend most likely stem from Shoshone stories of large serpents living in the lake, the tale of the Bear Lake Monster grew after Joseph C. Rich, a Mormon church leader, reported second-hand accounts of sightings of a snake-like creature in the lake in 1868. |
+| bear-lake-monster-c06 | exact | www.wgpfoundation.org | Rich later recanted his reports, admitting they were crafted as a marketing ploy to get people to visit Rich County, Utah. | Rich later recanted his reports, admitting they were crafted as a marketing ploy in attempts to get people to visit Rich County, Utah. |
+| bear-lake-monster-c07 | exact | www.wgpfoundation.org | For community members the story serves as a sort of cautionary water tale as well as a fondly recalled local anecdote. | the story serves for community members as a sort of cautionary water tale as well as a fondly recalled local anecdote. |
+| bear-lake-monster-c08 | exact | en.wikipedia.org | Others reported a monster-like creature faster than a locomotive whose head was variously described as like that of a cow, otter, crocodile or a walrus (minus the tusks). | Others reported seeing a monster-like creature which went faster than a locomotive and had a head variously described as being similar to that of a cow, otter, crocodile or a walrus (minus the tusks). |
+| bear-lake-monster-c09 | exact | en.wikipedia.org | The number of alleged lake-monster appearances across northern Utah led some people to speculate about an underground channel connecting the Great Salt Lake and other waterways to Bear Lake. | The number of alleged appearances of lake monsters all across northern Utah caused some people to speculate that there was an underground channel connecting the Great Salt Lake and other waterways to Bear Lake. |
+| bear-lake-monster-c10 | exact | en.wikipedia.org | Interest was high enough that LDS Church president Brigham Young decided to investigate whether the story was "an honest tale of a serpent or only a fish story" and sent a large rope to Paris, Idaho to aid in capturing the monster. | Interest was high enough that at one point even LDS Church president Brigham Young decided to investigate the claims to find out whether the story was "an honest tale of a serpent or only a fish story" and went as far as sending a large rope to Paris, Idaho to aid in capturing the monster. |
+| bear-lake-monster-c11 | exact | en.wikipedia.org | Twenty-six years after his articles and allegations, Joseph C. Rich finally admitted that it had all been a "wonderful first-class lie". | Twenty-six years following his articles and allegations, Joseph C. Rich finally admitted that it had all been a "wonderful first-class lie". |
 
 
 ## boto — lulus-otomatis
@@ -382,16 +398,22 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## cabra-cabriola — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cabra-cabriola-c01 | exact | en.wikipedia.org | The cabra cabriola ("leaping nanny goat") is a bogeyman of Portuguese myth told to children, also known elsewhere in Iberia and Brazil. | is an imaginary bogeyman type being from Portuguese myth told to children, whose legend is also told in other parts of the Iberian Peninsula and Brazil. |
 | cabra-cabriola-c02 | exact | en.wikipedia.org | It is imagined as a fire-breathing, sharp-toothed, goat-like, child-eating beast. | It is imagined to be a fire-breathing, sharp toothed, but goat-like, child-eating beast. |
 | cabra-cabriola-c03 | exact | en.wikipedia.org | It is a bogeyman that frightens children into good behavior. | The cabra cabriola is considered a bogeyman monster that terrifies children into good behavior. |
+| cabra-cabriola-c04 | exact | en.wikipedia.org | The cabra cabriola is said to be a man-eating goat that leaps and bucks a thousand times (hence the name, from cabriolar "to prance, caper"). | The cabra cabriola is said to be a man-eating goat, said to leap and buck a thousand times (hence the name, from cabriolar "to prance, caper"). |
+| cabra-cabriola-c05 | exact | en.wikipedia.org | It is said to be armed with huge jaws and sharp teeth used to devour youngsters, breathing fire from its eyes, mouth and nostrils. | It is said to be armed with huge jaws and sharp teeth used to devour youngsters, breathing fire from its eyes, mouth, and nostrils |
+| cabra-cabriola-c06 | exact | en.wikipedia.org | In one narrative the beast hides until the mother returns and learns her manner of speech, then goes to the blacksmith to re-forge its tongue to replicate the woman's soft voice. | Undeterred, the beast hides in wait until the mother returns, and learns the manner of her speech, then goes to the blacksmith to re-forge his tongue in order to replicate the woman's soft voice. |
+| cabra-cabriola-c07 | exact | en.wikipedia.org | In one tale, though tiny, the ant stung the cabra cabriola on the belly and it fled in pain screaming "baa, baa". | Though tiny, the ant stung the cabra cabriola on the belly and it fled in pain screaming: baa, baa. |
+| cabra-cabriola-c08 | exact | en.wikipedia.org | Gilberto Freyre conjectures that the origins of the cabra cabriola may be traced back to the lore of the Caprimulgus (nightjar, literally "goat-milker"). | Gilberto Freyre conjectures that the origins of the cabra cabriola may be traced back to the lore of the Caprimulgus (nightjar, but literally "goat-milker") |
+| cabra-cabriola-c09 | exact | www.todamateria.com.br | Cabra Cabriola is a legend told mainly in Pernambuco and originating at the end of the 19th century. | Lenda da Cabra Cabriola ... contada principalmente em Pernambuco e teve origem no fim do |
+| cabra-cabriola-c10 | exact | www.todamateria.com.br | This character is half goat, half monster, with sharp teeth and a foul smell. | metade cabra, metade monstro, possui dentes afiados e um cheiro |
+| cabra-cabriola-c11 | exact | www.todamateria.com.br | It keeps searching for children to feed on, but also attacks people walking alone in the streets at night. | Ela vive procurando por ... para se alimentar, mas ... ataca pessoas que andam nas ruas sozinhas durante a noite. |
+| cabra-cabriola-c12 | exact | www.todamateria.com.br | The goat (o caprino) is said to have the ability (habilidade) to enter houses (nas casas) in search of disobedient boys (meninos desobedientes). | o caprino ... a habilidade de entrar nas casas a procura de meninos desobedientes. |
 
 
 ## carbuncle-legendary-creature — lulus-otomatis
@@ -426,10 +448,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## colo-colo-mythology — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -437,6 +456,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | colo-colo-mythology-c02 | exact | en.wikipedia.org | It nests near homes, sneaks in and drains blood or saliva from sleepers, causing weakness or tuberculosis. | The Colo Colo is reputed to nest near a residence and sneak in, drinking blood from a sleeping resident, extracting saliva or licking utensils, causing debilitating weakness or tuberculosis. |
 | colo-colo-mythology-c03 | exact | en.wikipedia.org | It hatches from a stunted "rooster's egg"; the young is snake- or lizard-like and later becomes a feathered rat. | It is often said to hatch from a stunted-looking "rooster's egg", and the young resembles a snake or burrowing lizard, but it later metamorphoses into a feathered rat form. |
 | colo-colo-mythology-c04 | exact | en.wikipedia.org | A wildcat is also called "colocolo", perhaps related to the lore's origin. | A type of wildcat is also called "colocolo", and this may perhaps be related to the origin of the lore. |
+| colo-colo-mythology-c05 | exact | lli.ufro.cl | In Mapuche oral tales, the Kolo-Kolo (this source's spelling of the figure also written Colo Colo) is said to derive from the work of the kalku and to bring all kinds of misfortune to those who see it: illness, suffering and sometimes death. | se manifiesta y reconoce la figura del Kolo-Kolo, quien derivaría de la obra de los kalku y que, específicamente, daría toda clase de malaventuras a quienes lo ven: enfermedades, sufrimientos y, en algunos casos, hasta ocasionar la muerte. |
+| colo-colo-mythology-c06 | exact | lli.ufro.cl | The Kolo-Kolo usually hides in the ground and always acts in dark places; it is said to govern other beings of its kind and is seen as a chief or king. | Por lo regular se oculta en la tierra, actuando siempre en lugares oscuros. Se dice que gobierna a otros seres de su misma especie, percibiéndosele como jefe o rey. |
+| colo-colo-mythology-c07 | exact | lli.ufro.cl | In versions gathered in the Imperial sector, there is agreement in picturing it as a mouse covered in feathers, sometimes a lizard, or a small bird. | en versiones recogidas en el sector de Imperial, habría consenso en visualizarlo como un ratón cubierto de plumas, a veces como un lagarto, o bien, como un pájaro pequeño. |
+| colo-colo-mythology-c08 | exact | lli.ufro.cl | Although its form is perceived differently, there is consensus on its function: extracting blood and saliva from people, thereby causing diseases such as consumption. | sí hay consenso en reconocer la función que desempeña: extraer sangre y saliva de las personas, originando, de ese modo, enfermedades como la tisis. |
+| colo-colo-mythology-c09 | exact | lli.ufro.cl | The figure is seen as a maleficent force that manifests in the mapu as a way of unbalancing the natural world. | fuerza maléfica que se manifiesta en el mapu como un modo de desequilibrar el mundo natural |
+| colo-colo-mythology-c10 | exact | en.wikipedia.org | When a Colo Colo is suspected in the house, a Machi must be contacted to exorcise the premises; sometimes the only remedy is burning the building in order to kill the Colo Colo. | When it is suspected that a Colo Colo is in the house, a Machi must be contacted to exorcise the premises. Sometimes the only remedy is burning the building in order to kill the Colo Colo. |
+| colo-colo-mythology-c11 | exact | en.wikipedia.org | Whenever a suspected rooster egg is found, it is customary to burn it. | Whenever a suspected rooster egg is found, it is customary to burn it. |
+| colo-colo-mythology-c12 | exact | en.wikipedia.org | Signs that a Colo Colo is in a house are residents feeling tired for no reason or hearing its cry, which is similar to an infant wailing. | Indicators that a Colo Colo is in a house are residents feeling tired for no reason or hearing its cry, which is similar to an infant wailing. |
 
 
 ## cuero-legendary-creature — lulus-otomatis
