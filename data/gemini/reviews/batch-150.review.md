@@ -1,6 +1,6 @@
 # Review batch-150
 
-Diperiksa 2026-10-06T15:28:04.500Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md.
+Diperiksa 2026-10-06T19:16:09.572Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md.
 
 ## bunyip — lulus-otomatis
 
@@ -484,127 +484,232 @@ Klaim 26 (exact 26), sumber 3, gambar 0.
 
 ## abaia — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | abaia-c01 | exact | en.wikipedia.org | Abaia is a huge, magical eel in Melanesian mythology. | Abaia is a huge, magical eel in Melanesian mythology. |
 | abaia-c02 | exact | en.wikipedia.org | The Abaia lives at the bottom of freshwater lakes in Fiji, the Solomon Islands, and Vanuatu. | According to Melanesian mythology the Abaia is a type of large eel which dwells at the bottom of freshwater lakes in the Fiji, Solomon and Vanuatu Islands. |
 | abaia-c03 | exact | en.wikipedia.org | The creature considers all lake beings its children, defending them against harm or disturbance. | The beast is said to consider all creatures in the lake its children and protects them furiously against anyone who would harm or disturb them. |
+| abaia-c04 | exact | en.wikipedia.org | It is said that those foolish enough to catch fish from a lake containing the Abaia are immediately overwhelmed by a large wave caused by the thrashing of its powerful tail. | It is said that those who are foolish enough to try to catch the fish from a lake containing the Abaia are immediately overwhelmed by a large wave caused by the thrashing of the Abaia's powerful tail. |
+| abaia-c05 | exact | en.wikipedia.org | According to another version, if someone harmed a creature living in the Abaia's home, the Abaia would cause a great rain storm flooding the land and drowning those who had caused the harm. | Another version of the legend states that if someone were to harm a creature living in the Abaia's home, the Abaia would cause a great rain storm flooding the land and drowning those who had caused the harm. |
+| abaia-c06 | exact | archive.org | In one tale a man discovered a lake with many fish; at the bottom of the lake lived a magic eel, but the man did not know it. | One day a man discovered a lake in which were many fish; and at the bottom of the lake lived a magic eel, but the man knew it not. |
+| abaia-c07 | exact | archive.org | In that tale one woman even laid hold of the great eel Abaia, who dwelt in the depths of the lake, though he escaped her. | while one woman even laid hold of the great eel, Abaia, who dwelt in the depths of the lake, though he escaped her. |
+| abaia-c08 | exact | archive.org | Abaia was angry that his fish had been caught and that he himself had been seized, so that night he caused a great rain to fall and the lake waters rose; all the people drowned except an old woman who had not eaten of the fish and who saved herself in a tree. | Now Abaia was angry that his fish had been caught and that he himself had been seized, so he caused a great rain to fall that night, and the waters of the lake also rose, and all the people were drowned except an old woman who had not eaten of the fish and who saved herself in a tree. |
+| abaia-c09 | exact | archive.org | According to the author, the association of snakes and eels with the deluge in these tales strongly suggests the type of deluge myth current in parts of Indonesia and apparently known also in the Cook Group. | The association of snakes and eels with the deluge in these tales strongly suggests the type of deluge-myth current in parts of Indonesia, and known also apparently in the Cook Group. |
 
 
 ## aku-aku — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 22 (exact 22), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | aku-aku-c01 | exact | en.wikipedia.org | Aku-Aku are humanoid spirits in the Rapa Nui mythology of Easter Island. | Aku-Aku ('Devil', 'Ghost' or 'Spirit'), also known as Aku, Akuaku or Varua, are humanoid spirits in Rapa Nui mythology of the Easter Island. |
 | aku-aku-c02 | exact | en.wikipedia.org | Aku-Aku are spirits of the deceased that lack immortality and can be disposed of. | Aku-Aku are spirits of the dead, but they are not immortal and can be disposed of. |
 | aku-aku-c03 | exact | en.wikipedia.org | Ceremonial rituals are observed when entering caves considered to be Aku-Aku homes to avoid misfortune. | When entering caves, which were thought to be their homes, ceremonial rituals such as umu tahu can be performed to ward off bad luck or misfortune. |
+| aku-aku-c04 | exact | en.wikipedia.org | Aku-Aku can be of either sex, and different Aku-Aku are associated with particular areas of Easter Island. | They can be of either sex, and different Aku-Aku are associated with particular areas of the Easter Island. |
+| aku-aku-c05 | exact | en.wikipedia.org | The original group of Aku-Aku who arrived with Hotu Matuꞌa numbered around 90 and were generally cannibalistic in nature. | The original group of Aku-Aku who arrived with Hotu Matuꞌa numbered around 90, and were generally cannibalistic in nature. |
+| aku-aku-c06 | exact | en.wikipedia.org | There were stories of iva-atuas being employed to dispose of particularly violent Aku-Aku. | There were stories of iva-atuas being employed to dispose of particularly violent Aku-Aku. |
+| aku-aku-c07 | exact | en.wikipedia.org | Aku-Aku were not particularly worshiped, but were acknowledged before a meal. They were said to live off the aroma of a meal, and a "well-fed" and friendly Aku-Aku would take part in household chores for a family. | Aku-Aku were not particularly worshiped, but they were acknowledged before a meal was taken. It was said that Aku-Aku live off the aroma of a meal. A 'well-fed' and friendly Aku-Aku would participate in household chores for a family. |
+| aku-aku-c08 | exact | www.gutenberg.org | The islanders term their old deities "aku-aku", which means spirits, or more frequently "tatane". | They term them “aku-aku,” which means spirits, or more frequently “tatane,” |
+| aku-aku-c09 | exact | www.gutenberg.org | Some of them were certainly spirits of the dead that had probably become deified; the ancestors of Hotu-matua were reported to have come with him to the island. | some of them were certainly the spirits of the dead, but had probably become deified; the ancestors of Hotu-matua were reported to have come with him to the island. |
+| aku-aku-c10 | exact | www.gutenberg.org | They existed in large numbers, both male and female, each connected with a different part of the island; a list of about ninety was given, with their places of residence. | They existed in large numbers, being both male and female, and were connected with different parts of the island; a list of about ninety was given, with their places of residence. |
+| aku-aku-c11 | exact | www.gutenberg.org | The aku-aku were amiable or the reverse according to whether or not they were well fed; if hungry, they ate women and children. | the aku-aku, in this at least being human, were amiable or the reverse according to whether or not they were well fed. If they were hungry, they ate women and children, |
+| aku-aku-c12 | exact | www.gutenberg.org | If well-disposed to a man, the aku-aku would do work for him, so that he would wake in the morning to find his potato field dug. | if, on the contrary, they were well-disposed to a man, they would do work for him, and he would wake in the morning to find his potato-field dug, |
+| aku-aku-c13 | exact | www.gutenberg.org | The aku-aku appeared in human form, in which they were indistinguishable from ordinary persons. | The aku-aku appeared in human form, in which they were indistinguishable from ordinary persons. |
+| aku-aku-c14 | exact | www.gutenberg.org | An aku-aku known as Uka-o-hoheru looked like a very beautiful woman and was the wife of a young Tupahotu who had no idea she was really a tatane. | One known as Uka-o-hoheru looked like a very beautiful woman, and was the wife of a young Tupahotu who had no idea she was really a tatane. |
+| aku-aku-c15 | exact | www.gutenberg.org | Aku-aku were not immortal. A man called Raraku, said to have given his name to the mountain, caught a big "heke", which seems to have been an octopus, in the sea near Tongariki and ate it, with the result that he went mad and all people gave chase to him. | Aku-aku were not immortal. A man called Raraku, after whom the mountain is said to have been named, caught a big “heke,” which seems to have been an octopus, in the sea near Tongariki and ate it, with the result that he went mad, and all people gave chase to him. |
+| aku-aku-c16 | exact | www.gutenberg.org | He seized a wooden lizard and, using it as a club, ran amok among the tatane across the north shore and down the west coast, killing them right and left; the names of twenty-three who met their fate this way were given. | He caught up a wooden lizard (fig. 117), and, using it as a club, ran amok among tatane across the north shore and down the west coast, killing them right and left; the names of twenty-three were given who thus met their fate. |
+| aku-aku-c17 | exact | www.gutenberg.org | Human beings, in turn, were liable to be attacked by tatane, especially at night, when not only their bodies but also their own spirits were at risk. | Human beings, on the other hand, were liable to be attacked by tatane, more particularly at night, when there was risk, not only to their bodies, but also to their own spirits |
+| aku-aku-c18 | exact | www.gutenberg.org | The aku-aku Mata-wara-wara ("Strong-Rain") had a partner, the aku-aku Papai-a-taki-vera: Mata was to bring on rain while Papai built a house of reeds that existed only at night. | the aku-aku Mata-wara-wara, or “Strong-Rain.” He had as a partner another aku-aku called Papai-a-taki-vera, and they arranged between them that Mata should bring on rain, while Papai constructed a house of reeds which was only there at night |
+| aku-aku-c19 | exact | www.gutenberg.org | When the spirits of sleeping people, wandering abroad, became cold with the rain, they went into the house and the tatane killed them. | then when the spirits of sleeping people, which were wandering abroad, became cold with the rain, they went into the house and the tatane killed them. |
+| aku-aku-c20 | exact | www.gutenberg.org | There was a class known as "ivi-atua", including both men and women; the most important of them, perhaps ten in the island, held commune with the aku-aku. | the class known as “ivi-atua,” which included both men and women. The most important of these ivi-atua, of whom it was said there might be perhaps ten in the island, held commune with the aku-aku, |
+| aku-aku-c21 | exact | www.gutenberg.org | On the whole the female wooden figures and those with ribs seem to have been considered supernatural beings, generally called aku-aku and sometimes atua, while the others represent men. | on the whole the female figures and those with ribs seem to have been considered to be supernatural beings; they are generally called aku-aku, and sometimes atua, while the others represent men. |
+| aku-aku-c22 | exact | en.wikipedia.org | Wooden kavakava figurines represent Aku-Aku. | Wooden kavakava (carved figurines) representing Aku-Aku |
 
 
 ## apukohai — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | apukohai-c01 | exact | en.wikipedia.org | Apukohai is a marine monster in the mythology of Kauaʻi. | Apukohai is a marine monster in the mythology of the island of Kauaʻi. |
 | apukohai-c02 | exact | en.wikipedia.org | The giant hero Kawelo met Apukohai while voyaging to Oʻahu. | Kawelo, a giant of enormous strength, departs for Oʻahu and encounters Apukohai. |
 | apukohai-c03 | exact | en.wikipedia.org | Following a fierce struggle, Kawelo killed Apukohai with help from the owl god and the fish Ulu-makaikai. | After a fierce struggle, Kawelo kills Apukohai, having invoked the assistance of the owl god and the fish Ulu-makaikai (Beckwith 1970: 409–411). |
+| apukohai-c04 | exact | neonvagabond.xyz | In the Remy-Brigham version, Kawelo is a giant of prodigious strength. | Remy-Brigham version. Kawelo is a giant of prodigious strength. |
+| apukohai-c05 | exact | neonvagabond.xyz | Kawelo, a giant of prodigious strength, is welcomed by Kakuhihewa and secretly collects an expedition; he sets out for an island and meets "evil monsters in the shape of the marine monster Apukohai", invoking the owl god and the fish Uhu-makaikai, which he traps in a net. | Remy-Brigham version. Kawelo is a giant of prodigious strength. ... He is welcomed by Kakuhihewa and secretly collects an expedition against Kauai. He sets out for that island and en-counters evil monsters in the shape of the marine monster Apukohai, against whom he invokes the owl god, and the fish Uhu-makaikai, which he traps in a net |
+| apukohai-c06 | exact | en.wikipedia.org | In the comic series Sherman's Lagoon, Apukohai is shown as a figure in a huge Tiki mask who fires lightning bolts from the clouds. | Sherman's Lagoon - In a series of comics, Apukohai is represented as a guy with a huge Tiki mask who fires lightning bolts (and his kitchen sink) from the clouds. |
 
 
 ## dakuwaqa — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dakuwaqa-c01 | exact | en.wikipedia.org | Dakuwaqa is a shark deity in Fijian mythology who guards the islands as a fierce sea monster. | In Fijian mythology, Dakuwaqa (Dakuwanga) is a shark deity and often appears as a fierce sea monster, guarding the islands. |
 | dakuwaqa-c02 | exact | en.wikipedia.org | Fishermen respected Dakuwaqa because he protected them from sea dangers and predators. | He was greatly respected by fishermen because he protected them from any danger at sea and its denizens. |
 | dakuwaqa-c03 | exact | en.wikipedia.org | Dakuwaqa can shapeshift, but his true form combines a muscular man with a shark upper body. | Dakuwaqa can also change shape into anything, but his real form is that of a muscular Fijian man with the upper torso of a shark. |
+| dakuwaqa-c04 | exact | en.wikipedia.org | In one creation myth the god was planning to conquer Kadavu Island by way of the river when the goddess Rokobakaniceva challenged him in the form of an octopus. | In one creation myth, the god was planning inland to conquer Kadavu Island through the river when the goddess Rokobakaniceva challenged him in the form of an octopus. |
+| dakuwaqa-c05 | exact | en.wikipedia.org | After a great battle the octopus won by pulling out his teeth with her eight arms, holding off Dakuwaqa's massive attack and forcing him to promise never to attack Kadavu again. | After a great battle, the octopus won by pulling out his teeth with her eight arms which enabled her to hold off the massive attack of Dakuwaqa, forcing Dakuwaqa to promise to never attack Kadavu again. |
+| dakuwaqa-c06 | exact | en.wikipedia.org | That is how Dakuwaqa became the god and protector of Kadavu. | That is how Dakuwaqa became the god and protector of Kadavu. |
+| dakuwaqa-c07 | exact | en.wikipedia.org | In an account quoted there, a witness described a great fish of near 60 feet, brown-spotted, with the head of a shark and the tail of a whale, that rose under his ship and almost capsized it. | A great fish, which he described as near 60 feet in length, brown-spotted and mottled on its back, with the head of a shark and the tail of a whale, came up under his ship, almost capsizing it. |
+| dakuwaqa-c08 | exact | en.wikipedia.org | The crew followed the ancient pattern, pouring a strong libation of kava into the sea, which seemed just the right idea for placating fish-gods; the monster slowly submerged, and to the Fijian crew this was "Dakuwaqa", in the twentieth century. | followed the ancient pattern, pouring a strong libation of kava into the sea, which, it would seem, was just the right idea for placating fish-gods; the monster slowly submerged ... To the Fijian crew this was the "Dakuwaqa"--in the twentieth century |
+| dakuwaqa-c09 | exact | en.wikipedia.org | In the DC Universe, Dakuwaqa is the father of the supervillain King Shark. | Dakuwaqa is the father of the supervillain King Shark in the DC Universe. |
+| dakuwaqa-c10 | exact | en.wikipedia.org | Jeff VanderMeer wrote the story The Third Bear about Dakuwaqa. | Jeff VanderMeer wrote the story The Third Bear about Dakuwaqa. |
+| dakuwaqa-c11 | exact | australian.museum | In Fiji there are two ancestral shark gods; the names of both are linked to boats, particularly to the sail, which is shaped like a shark fin. | In Fiji, there are two ancestral shark gods. The names of both are linked to boats, particularly to the sail, which is shaped like a shark fin. |
+| dakuwaqa-c12 | exact | australian.museum | Dakuwaqa means "back of the boat", with daku the back and waqa the boat. | Dakuwaqa (Ndah-koo-wah-ngah) means ‘back of the boat’, with daku the back and waqa the boat. |
+| dakuwaqa-c13 | exact | australian.museum | Masilaca, the other ancestral shark god named on that page, comes from masi (bark cloth, also a shark's fin) and laca (sail). | Masilaca (Masi-lah-thah) comes from masi, which is bark cloth (and also a shark’s fin) and laca, which is sail. |
+| dakuwaqa-c14 | exact | australian.museum | A villager says that people of his village chose the sharks as their god, a sea god worshipped whenever they need something; his name is Dakuwaqa, very powerful and still powerful today. | the people from my village, they choose the sharks to be their god. So it's a sea god. Every time they need something, they just worship the sea god. So his name is Dakuwaqa. Is very powerful and is still powerful today. |
+| dakuwaqa-c15 | exact | australian.museum | According to the villager, every time Dakuwaqa comes to the village he changes himself into a human being. | Every time he comes to the village, he change himself to be a human being. |
+| dakuwaqa-c16 | exact | australian.museum | Ratu Sir Penaia Ganilau, one of Fiji's highest chiefs and the nation's first president after independence, is a descendant of the ancestral shark god Dakuwaqa. | The late Ratu Sir Penaia Ganilau, one of Fiji's highest chiefs and the nation's first president, following Fiji's Independence in 1987, is a descendant of the ancestral shark god Dakuwaqa. |
+| dakuwaqa-c17 | exact | australian.museum | Mourners reported a school of sharks surfacing and accompanying the vessel out to sea; sharks are rarely seen in Suva Harbor, but it came as no surprise because of Ganilau's connection to Dakuwaqa. | Mourners reported a school of sharks surfacing and accompanying the vessel out to sea. Shark sighting in Suva Harbor is rare, but on this occasion, it did not come as a surprise because of Ganilau’s connection to Dakuwaqa. |
+| dakuwaqa-c18 | exact | australian.museum | A villager states that the shark is part of their culture going back to before Christianity, many hundreds of years ago. | Shark is part of our culture going back to before Christianity, going back many, many hundreds and hundreds of years ago. |
 
 
 ## fisher-s-ghost — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 22 (exact 22), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Dictionary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[3]` Tidak muncul di kutipan mana pun: Dictionary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `cultural_context` Tidak muncul di kutipan mana pun: Dictionary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Dictionary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[1].summary` Tidak muncul di kutipan mana pun: Dictionary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | fisher-s-ghost-c01 | exact | en.wikipedia.org | The legend of Fisher's ghost is a popular Australian folk tale dating to the early 19th century. | The legend of Fisher's ghost is a popular Australian ghost story or folk tale dating to the early 19th century. |
 | fisher-s-ghost-c02 | exact | en.wikipedia.org | The story arose from historical occurrences in Campbelltown, New South Wales. | It arose from a series of historical events which occurred in Campbelltown, New South Wales, now a large urban population centre on the southwestern outskirts of Sydney, but at the time a remote rural outpost. |
 | fisher-s-ghost-c03 | exact | en.wikipedia.org | The Festival of Fisher's Ghost has been held in Campbelltown since 1956 inspired by the lore. | Inspired by the legend, the Festival of Fisher's Ghost has been celebrated in Campbelltown since 1956. |
+| fisher-s-ghost-c04 | exact | en.wikipedia.org | On 17 June 1826 Frederick Fisher, an English-born farmer from Campbelltown, suddenly disappeared. | On 17 June 1826 an English-born Australian farmer from Campbelltown named Frederick Fisher (born 28 August 1792 in London) suddenly disappeared. |
+| fisher-s-ghost-c05 | exact | en.wikipedia.org | His friend and neighbour George Worrall claimed Fisher had returned to England and had given him power of attorney over his property and affairs before leaving. | His friend and neighbour George Worrall claimed that Fisher had returned to his native England, and that before departing had given him power of attorney over his property and general affairs. |
+| fisher-s-ghost-c06 | exact | en.wikipedia.org | Four months after Fisher's disappearance a respectable local man, John Farley, ran into the local hotel agitated and told the patrons he had seen the ghost of Fred Fisher sitting on the rail of a nearby bridge. | Four months after Fisher's disappearance a respectable local man named John Farley, ran into the local hotel in a very agitated state. He told the astonished patrons that he had seen the ghost of Fred Fisher sitting on the rail of a nearby bridge. |
+| fisher-s-ghost-c07 | exact | en.wikipedia.org | Farley related that the ghost had not spoken but had merely pointed to a paddock beyond the creek before disappearing. | Farley related that the ghost had not spoken, but had merely pointed to a paddock beyond the creek, before disappearing. |
+| fisher-s-ghost-c08 | exact | en.wikipedia.org | The circumstances of Fisher's disappearance eventually aroused enough suspicion that police searched the paddock the ghost had pointed to, and the remains of the murdered Fisher were found buried by the side of a creek. | the circumstances surrounding Fisher's disappearance eventually aroused sufficient suspicion that a police search of the paddock to which the ghost had pointed was undertaken - during which the remains of the murdered Fisher were discovered buried by the side of a creek. |
+| fisher-s-ghost-c09 | exact | en.wikipedia.org | George Worrall was arrested for the crime, confessed, and was subsequently hanged. | George Worrall was arrested for the crime, confessed, and subsequently hanged. |
+| fisher-s-ghost-c10 | exact | en.wikipedia.org | It has been suggested that Farley invented the ghost story to conceal some other source of his knowledge of where Fisher's body lay, but this cannot be confirmed. | It has been suggested that Farley invented the ghost story as a way of concealing some other speculated source of his knowledge about the whereabouts of Fisher's body, but this cannot be confirmed. |
+| fisher-s-ghost-c11 | exact | en.wikipedia.org | Joe Nickell has written that the ghost story may have originated from an anonymous 1832 poem that fictionalised Fisher and Worrall. | Joe Nickell has written the ghost story may have originated from an anonymous poem in 1832 which fictionalised Fisher and Worrall. |
+| fisher-s-ghost-c12 | exact | en.wikipedia.org | Contemporary police and court records do not mention the ghost story. | Contemporary police and court records do not mention the ghost story. |
+| fisher-s-ghost-c13 | exact | en.wikipedia.org | The legend of Fisher's ghost later entered popular folklore, and the creek beside which the body was found is known as Fisher's Ghost Creek. | The legend of Fisher's ghost has since entered popular folklore and the creek beside which the body was discovered is known as Fisher's Ghost Creek, |
+| fisher-s-ghost-c14 | exact | en.wikipedia.org | A 1924 Australian silent film titled Fisher's Ghost retells the events of the legend. | A 1924 Australian silent film titled Fisher's Ghost retells the events of the legend. |
+| fisher-s-ghost-c15 | exact | dictionaryofsydney.org | Fishers Ghost Creek runs through Campbelltown's Koshiga and Bradbury parks and commemorates the 1826 murder of the convict Frederick Fisher. | Fishers Ghost Creek runs through Campbelltown's Koshiga and Bradbury parks, and commemorates the murder of the convict Frederick Fisher in 1826. |
+| fisher-s-ghost-c16 | exact | dictionaryofsydney.org | Worrall claimed his neighbour had gone "home", but this was unconvincing because Fisher was still a convict and risked arrest if he reappeared in England. | Worrall claimed that his neighbour had gone 'home', but this was unconvincing, because Fisher was still a convict and risked arrest if he reappeared in England. |
+| fisher-s-ghost-c17 | exact | dictionaryofsydney.org | On 25 October 1826 two boys reported seeing bloodstains on a fence at Fisher's farm. | On 25 October 1826 two boys reported seeing bloodstains on a fence at Fisher's farm. |
+| fisher-s-ghost-c18 | exact | dictionaryofsydney.org | After new searches uncovered a lock of hair and a tooth, the police called in Gilbert, an Aboriginal tracker from Liverpool, who tasted water in the marshy land and then led them to Fisher's grave on Worrall's land; Worrall was tried and hanged in February 1827. | When new searches uncovered a lock of hair and a tooth, the police called in Gilbert, an Aboriginal tracker from Liverpool. He tasted water in the marshy land and proclaimed 'white fellow's fat there', before leading the police to Fisher's grave on Worrall's land. Worrall was tried and hanged in February 1827. |
+| fisher-s-ghost-c19 | exact | dictionaryofsydney.org | Rumours circulated in Campbelltown that the finding of his body was no accident, and the story of Fisher's ghost has been retold in print since the early 1830s. | Rumours circulated in Campbelltown that the finding of his body was not accidental – and the story of Fisher's ghost has been retold in print since the early 1830s. |
+| fisher-s-ghost-c20 | exact | dictionaryofsydney.org | The best-known version says the body stayed undiscovered until a farmer named Farley, returning home from Patrick's Inn, met Fisher's ghost sitting on the rail at the bridge over Queen Street; the spectre beckoned and pointed back towards Worrall's land. | The best-known version states that the body remained undiscovered until a local farmer named Farley was returning home from Patrick's Inn and encountered Fisher's ghost sitting on the rail at the bridge over Queen Street. The spectre beckoned to him and pointed back towards Worrall's land. |
+| fisher-s-ghost-c21 | exact | dictionaryofsydney.org | "Fisher's Ghost" has become an essential element of Campbelltown's collective memory; the story is re-enacted in a festival held there every year since 1960. | 'Fisher's Ghost' has become an essential element of Campbelltown's collective memory: the story is re-enacted as part of a festival held there every year since 1960. |
+| fisher-s-ghost-c22 | exact | dictionaryofsydney.org | The mythical spirit was supposed to have appeared sitting on a fence pointing to where Fisher's body lay buried; the story first appeared in print in the poem "The Sprite of the Creek" in the weekly sporting journal "Hill's Life in New South Wales" in August 1832. | The mythical spirit was supposed to have appeared sitting on a fence pointing to where Fisher's body lay buried. The ghost story first appeared in print in the poem 'The Sprite of the Creek' published in the weekly sporting journal 'Hill's Life in New South Wales' in August 1832. |
 
 
 ## julunggul — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 19 (exact 19), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[3]` Tidak muncul di kutipan mana pun: Encyclopedia, Religion. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[1].summary` Tidak muncul di kutipan mana pun: Religion. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[1].positions[1].summary` Tidak muncul di kutipan mana pun: Religion. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[2].positions[1].summary` Tidak muncul di kutipan mana pun: Religion. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | julunggul-c01 | exact | en.wikipedia.org | The Rainbow Serpent is a common creator deity in Australian Aboriginal traditions. | The Rainbow Serpent or Rainbow Snake is a common deity, often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples. |
 | julunggul-c02 | exact | en.wikipedia.org | Julunggul or Yurlunggur is the name of the rainbow serpent among the Murngin (Yolngu) in Arnhem Land. | Yurlunggur is the name of the "rainbow serpent" according to the Murngin (a Yolngu group) in north-eastern Arnhem Land, also styled Yurlungur, Yulunggur, Jurlungur, Julunggur or Julunggul. |
 | julunggul-c03 | exact | en.wikipedia.org | The Yurlunggur was regarded as the great father. | The Yurlunggur was considered "the great father". |
+| julunggul-c04 | exact | en.wikipedia.org | While single-headed, the Yurlunggur of Arnhem Land may possess a double body. | While it is single-headed, the Yurlunggur of Arnhem land may possess a double-body. |
+| julunggul-c05 | exact | www.encyclopedia.com | Yulunggul is the Great Python of north-central Arnhem Land, who swallowed the Wawalag sisters and their child(ren). | Yulunggul is the Great Python of north-central Arnhem Land, who swallowed the Wawalag sisters and their child(ren). |
+| julunggul-c06 | exact | www.encyclopedia.com | Yulunggul is most often identified as male, with or without female counterparts; one northeastern Arnhem Land version has Yulunggul as female but with symbolic male (phallic) implications. | Yulunggul is most often identified as male, with or without female counterparts. One northeastern Arnhem Land version specifies Yulunggul as female but with symbolic male (phallic) implications. |
+| julunggul-c07 | exact | www.encyclopedia.com | William Lloyd Warner's 1937 account notes a variety of snakes, goannas, and snails as sons of Yulunggul. | William Lloyd Warner's account (1937, e.g. p. 257) notes a variety of snakes, goannas, and snails as sons of Yulunggul. |
+| julunggul-c08 | exact | www.encyclopedia.com | Warner calls Yulunggul "great father" (Yindi Bapa or Bapa Yindi), but he may have misheard the more usual expression "great snake" (Yindi Baapi). | Warner refers to Yulunggul as "great father" (Yindi Bapa or Bapa Yindi), but it is possible that he misheard the more usual expression, "great snake" (Yindi Baapi). |
+| julunggul-c09 | exact | www.encyclopedia.com | Unlike many great mythic characters who came from elsewhere, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul. | Unlike so many of the great mythic characters, who came from elsewhere to sites that were to be spiritually associated with them, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul; |
+| julunggul-c10 | exact | www.encyclopedia.com | All the mythic Snakes in north and northeastern Arnhem Land, including Yulunggul, were good site guardians and knew who the travellers were. | all of the mythic Snakes in north and northeastern Arnhem Land, including Yulunggul, were good site guardians and knew who the travelers were. |
+| julunggul-c11 | exact | www.encyclopedia.com | There are divergent views on whether Yulunggul is a Rainbow Snake manifestation. | There are divergent views on whether Yulunggul is a Rainbow Snake manifestation. |
+| julunggul-c12 | exact | www.encyclopedia.com | Where his Rainbow Snake identification is not accepted, mainly in eastern Arnhem Land, it is sometimes explained: "Yulunggul is separate: he is himself." | Where his Rainbow Snake identification is not accepted, mainly on the eastern side of Arnhem Land, it is sometimes explained with, "Yulunggul is separate: he is himself." |
+| julunggul-c13 | exact | www.encyclopedia.com | He is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season. | He is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season. |
+| julunggul-c14 | exact | www.encyclopedia.com | In some Milingimbi versions he flies across the country with the Wawalag and their child(ren) inside him, naming various places and allocating local dialects. | In some Milingimbi versions (Warner, p. 254), he flies across the country with the Wawalag and their child(ren) inside him, naming various places and allocating local dialects. |
+| julunggul-c15 | exact | www.encyclopedia.com | Just as the copulations of the Snakes and clouds in the wet season ensure fertility in the dry season, Yulunggul's "union" with the Wawalag made him a symbol of seasonal fertility. | Just as the copulations of the Snakes and clouds during the wet season ensure fertility in the dry season, so Yulunggul's "union" with the Wawalag transformed him into a symbol of seasonal fertility. |
+| julunggul-c16 | exact | www.encyclopedia.com | The didjeridu that features so prominently in Kunapipi and associated rituals is Yulunggul, and its sound is his voice. | The didjeridu that features so prominently in Kunapipi and associated rituals, however, is Yulunggul, and its sound is his voice. |
+| julunggul-c17 | exact | www.encyclopedia.com | In a Milingimbi version, a great Yulunggul didjeridu came out of his water hole and revived the sisters with the help of green ants; Yulunggul was angry, "killed" them and swallowed them again. | in a Milingimbi version that is found only in Warner, after Yulunggul had regurgitated the sisters and they lay "dead," a great Yulunggul didjeridu (drone pipe) came out of Yulunggul's water hole of its own volition and revived them with the help of green ants. Yulunggul was angry. He "killed" the sisters and swallowed them again. |
+| julunggul-c18 | exact | www.encyclopedia.com | Yulunggul has both freshwater and saltwater affiliations. | He has both freshwater and saltwater affiliations. |
+| julunggul-c19 | exact | www.encyclopedia.com | In one of his roles Yulunggul is explicitly a culture-area indicator or boundary marker; in his conversation with the other great Snakes after swallowing the Wawalag he faces east. | In one of his roles Yulunggul is, explicitly, a culture-area indicator, or a boundary marker. During his conversation with the other great Snakes after he has swallowed the Wawalag, he faces east. |
 
 
 ## nightmarchers — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 24 (exact 24), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nightmarchers-c01 | exact | en.wikipedia.org | Nightmarchers are deadly ghosts of ancient tribal Hawaiian warriors. | In Hawaiian mythology, Nightmarchers (huakaʻi pō) or Spirit Ranks (ʻoiʻo) are the deadly ghosts of ancient tribal Hawaiian warriors. |
 | nightmarchers-c02 | exact | en.wikipedia.org | The nightmarchers serve as the vanguard for a sacred ruler or noble. | The nightmarchers are the vanguard for a sacred king, chief, or chiefess. |
 | nightmarchers-c03 | exact | en.wikipedia.org | They march in group formation throughout the night from sunset until sunrise. | They march in darkness after sunset and march as a group continuously until just before sunrise. |
+| nightmarchers-c04 | exact | en.wikipedia.org | On the nights honoring the Hawaiian gods Kāne, Kū, Lono, or on the nights of Kanaloa, they are said to come forth from their burial sites or rise up from the ocean and march in a large group to ancient battle sites or other sacred places. | On the nights honoring the Hawaiian gods Kāne, Kū, Lono, or on the nights of Kanaloa, they are said to come forth from their burial sites or to rise up from the ocean, and to march in a large group to ancient Hawaiian battle sites or other sacred places. |
+| nightmarchers-c05 | exact | en.wikipedia.org | The legend says the night marchers are normal-size warriors dressed for battle, carrying spears and clubs; some beat war drums and blow conch shells to announce their march. | The legend says the night marchers are normal-size warriors, dressed for battle, carrying spears, clubs, and some are beating war drums and blowing tones from conch shells, to announce the advancing of their march. |
+| nightmarchers-c06 | exact | en.wikipedia.org | According to the myth they are suspended in air; their feet touch neither water nor ground as they cross the night, and they leave no evidence of their visits. | According to the myth, they are suspended in air; their feet do not touch water or ground as they traverse through the night, and they leave no evidence of their visitations. |
+| nightmarchers-c07 | exact | en.wikipedia.org | According to ancient Hawaiian belief, any mortal who looks upon the marchers or is seen in defiance of them will die violently. | Ancient Hawaiian beliefs state that any mortal looking upon or being seen in defiance toward the marchers will die violently. |
+| nightmarchers-c08 | exact | en.wikipedia.org | Some maintain that a mortal who lies motionless face down on the ground shows proper respect, fear and deference to the night marchers and will be spared. | Some people maintain that if the mortal lies motionless, face down on the ground, they are showing proper respect, fear, and deference to the night marchers, and they will be spared. |
+| nightmarchers-c09 | exact | en.wikipedia.org | Mortals can also escape harm if an ancient ancestor among the marchers recognizes them; on meeting the mortal they call out "Naʻu!", meaning "mine" in Hawaiian. | Additionally, mortals can avoid harm or death from night marchers by being fortunate to have an ancient ancestor marcher present to recognize them. As they encounter the mortal, they will call out "Naʻu!", which means "mine" in Hawaiian. |
+| nightmarchers-c10 | exact | en.wikipedia.org | Legend says planting living ti (Cordyline) shrubs around one's home keeps away all evil spirits and makes the huakaʻi pō avoid the area. | Legend says planting living ti (Cordyline sp.) shrubs around one's home is said to keep away all evil spirits and will cause the huakaʻi pō to avoid the area. |
+| nightmarchers-c11 | exact | en.wikipedia.org | The signs are a foul, musky "death-like" odor and torches growing brighter as the night marchers draw closer. | The following signs are a foul and musky “death-like” odor, and torches getting brighter and brighter as the night marchers get closer. |
+| nightmarchers-c12 | exact | en.wikipedia.org | Nightmarchers might appear during the day if they are to escort a dying relative to the spirit world. | Nightmarchers might appear during the day if they are to escort a dying relative to the spirit world. |
+| nightmarchers-c13 | exact | en.wikipedia.org | In ancient Hawaiian lore the body parts of a King or Chief were sacred and not to be seen by a mortal; the punishment for looking at them is always instant death, usually by bolts of intense light and flaming heat from several of the warrior's eyes aimed at the mortal. | In ancient Hawaiian lore, the laws declared body parts of a King or Chief to be sacred, and not to be seen by a mortal. The punishment for looking at these parts is always instant death, usually by bolts of intense light and flaming heat originating from several of the warrior's eyes aimed toward the mortal. |
+| nightmarchers-c14 | exact | en.wikipedia.org | The goddess named Hiʻiaka-i-ka-poli-o-Pele (commonly shortened to Hiʻiaka) is often among the night marchers. | The Goddess named Hiʻiaka-i-ka-poli-o-Pele, (commonly shortened to Hiʻiaka), is often within the night marchers. |
+| nightmarchers-c15 | exact | en.wikipedia.org | In the 2005 Lilo & Stitch: The Series episode "Belle", Lilo Pelekai seeks to prove Nightmarchers exist; they also feature in the 2021 Netflix film Finding ʻOhana. | In the 2005 Lilo & Stitch: The Series episode "Belle", Lilo Pelekai seeks to prove that Nightmarchers exist. Nightmarchers are also featured in the 2021 Netflix film Finding ʻOhana. |
+| nightmarchers-c16 | exact | neonvagabond.xyz | Processions of gods and spirits come on certain sacred nights to visit the sacred places or to welcome a dying relative and conduct him to the aumakua world. | Especially is this true of the processions of gods and spirits who come on certain sacred nights to visit the sacred places, or to welcome a dying relative and conduct him to the aumakua world. |
+| nightmarchers-c17 | exact | neonvagabond.xyz | The processions are called "Marchers of the night" (Huakaʻi-pō) or "Spirit ranks" (Oiʻo). | "Marchers of the night" (Huaka‘i-po) or "Spirit ranks" (Oi‘o) they are called. |
+| nightmarchers-c18 | exact | neonvagabond.xyz | When seen, the marchers are always dressed in ancient fashion in the costume of chiefs or of gods; if the procession is one of gods, they move five abreast with five red torches between the ranks, accompanied only by chanting. | Always, if seen, the marchers are dressed according to ancient usage in the costume of chiefs or of gods. If the procession is one of gods, the marchers move five abreast with five torches burning red between the ranks, and without music save that of the voice raised in chant. |
+| nightmarchers-c19 | exact | neonvagabond.xyz | Processions of chiefs are accompanied by aumakua and march in silence or to the accompaniment of drum, nose-flute and chanting. | Processions of chiefs are accompanied by aumakua and march in silence, or to the accompaniment of drum, nose-flute, and chanting. |
+| nightmarchers-c20 | exact | neonvagabond.xyz | They are seen on the sacred nights of Ku, Lono, Kane or Kanaloa, or by day if the procession welcomes the soul of a dying relative. | They are seen on the sacred nights of Ku, Lono, Kane, or Kanaloa, or they may be seen by day if it is a procession to welcome the soul of a dying relative. |
+| nightmarchers-c21 | exact | neonvagabond.xyz | Meeting such a procession is very dangerous: the leader cries "O-ia" ("Let him be pierced"), and if no dead relative or aumakua is present to protect him, a ghostly spearsman strikes him dead; the wise course is to "remove all clothing and turn face up and feign sleep". | To meet such a procession is very dangerous. "O-ia" (Let him be pierced) is the cry of the leader and if no relative among the dead or none of his aumakua is present to protect him, a ghostly spearsman will strike him dead. The wise thing to do is to "remove all clothing and turn face up and feign sleep." |
+| nightmarchers-c22 | exact | neonvagabond.xyz | Many Hawaiians, and even some persons of foreign blood, have seen this spirit march or heard the "chanting voices, the high notes of the flute, and drumming so loud as to seem beaten upon the side of the house". | Many Hawaiians and even some persons of foreign blood have seen this spirit march or heard the "chanting voices, the high notes of the flute, and drumming so loud as to seem beaten upon the side of the house." |
+| nightmarchers-c23 | exact | www.gutenberg.org | High chiefs and warriors are supposed to march in crowds carrying spears and piercing those they met, unless some ghost recognized the person and called "Alia [wait]"; if the word was "O-i-o [throw the spear]!" that spirit's spear brought death to the passer-by. | The high chiefs and warriors are supposed to march and go in crowds, carrying their spears and piercing those they met unless some ghost recognized that one and called to the others, "Alia [wait]," but if the word was "O-i-o [throw the spear]!" then that spirit's spear would strike death to the passer-by. |
+| nightmarchers-c24 | exact | en.wikipedia.org | Barriers placed in the path of night marchers will not deter them. | Barriers placed in the path of night marchers will not deter them. |
 
 
 ## queensland-tiger — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 19 (exact 19), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | queensland-tiger-c01 | exact | en.wikipedia.org | The Queensland tiger is a creature in Australian folklore reputed to inhabit Queensland. | In Australian folklore, the Queensland tiger is a creature said to live in the Queensland area in eastern Australia. |
 | queensland-tiger-c02 | exact | en.wikipedia.org | Known as yarri, it is described as a dog-sized striped feline with violent temperament. | Also known by the Indigenous name yarri, it is described as being a dog-sized feline with stripes, a long tail, prominent front teeth, and a violent temperament. |
 | queensland-tiger-c03 | exact | en.wikipedia.org | It has been hypothesized as a survivor or descendant of the predatory marsupial Thylacoleo. | It has been hypothesized to be a survivor or descendant of the large predatory marsupial Thylacoleo, officially considered to be extinct, or possibly a large feral cat variant (given possible discrepancies with Thylacoleo dentition). |
+| queensland-tiger-c04 | exact | en.wikipedia.org | The earliest documented witness reports of a Queensland marsupial tiger date from 1871, with Indigenous traditions of the yarri preceding them. | The earliest documented witness reports of a Queensland marsupial tiger date from 1871, with Indigenous traditions of the yarri preceding these. |
+| queensland-tiger-c05 | exact | en.wikipedia.org | In 1926, A. S. le Souef described a "Striped marsupial cat" in The Wild Animals of Australasia. | In 1926, A. S. le Souef described a "Striped marsupial cat" in The Wild Animals of Australasia, |
+| queensland-tiger-c06 | exact | en.wikipedia.org | In his 1965 revision of Furred Animals of Australia, Ellis Troughton proposed that the Queensland tiger was in fact a mainland variant of the thylacine. | In his 1965 revision of the book Furred Animals of Australia, Ellis Troughton proposed that the Queensland tiger was, in actuality, a mainland variant of the thylacine. |
+| queensland-tiger-c07 | exact | en.wikipedia.org | Modern sightings, when investigated, have always been narrowed down to introduced feral cats. | Modern sightings, when investigated, have been universally narrowed down to introduced feral cats. |
+| queensland-tiger-c08 | exact | en.wikipedia.org | Bob Whiston and tree-kangaroo expert Roger Martin suggest that sightings are of Lumholtz's or Bennett's tree-kangaroos, lesser-known animals that walk on four legs on the ground and live in regions where Queensland tiger reports originate. | with local Bob Whiston and tree-kangaroo expert Roger Martin suggesting that sightings are either of Lumholtz's or Bennett's tree-kangaroos, less-well-known animals that walk on four legs when terrestrial and which are found in regions where Queensland tiger reports originate. |
+| queensland-tiger-c09 | exact | en.wikipedia.org | Theories of continued Thylacoleo presence on mainland Australia and thylacine survival in Tasmania have been covered in television shows on the National Geographic Channel and on Animal Planet's Animal X. | The theories of continued Thylacoleo presence on mainland Australia and thylacine survival in Tasmania have been covered in various television shows on the National Geographic Channel and also on Animal Planet's Animal X. |
+| queensland-tiger-c10 | exact | en.wikipedia.org | In the 1970s naturalist Janeice Plunkett collected over 100 reports of sightings or shootings of "tigers", including accounts alleging that the animal was a marsupial. | In the 1970s, naturalist Janeice Plunkett collected over 100 reports of sightings or shootings of "tigers", including accounts alleging that the animal observed was a marsupial. |
+| queensland-tiger-c11 | exact | archive.org | On the summit of the Coast Mountains lived two varieties of mammals that seemed unknown to science; one they called yarri, which from their description the author took to be a marsupial tiger. | on the summit of the Coast Mountains, before mentioned, there lived two varieties of mammals which seemed to me to be unknown to science ... One of the animals they called yarri. From their description I conceived it to be a marsupial tiger. |
+| queensland-tiger-c12 | exact | archive.org | The yarri was said to be about the size of a dingo, with shorter legs and a long tail, and was described by the blacks as very savage. | It was said to be about the size of a dingo, though its legs were shorter and its tail long, and it was described by the blacks as being very savage. |
+| queensland-tiger-c13 | exact | archive.org | If pursued the yarri climbed trees where the natives dared not follow, and they showed by gestures how it would growl and bite their hands. | If pursued it climbed up the trees, where the natives did not dare follow it, and by gestures they explained to me how at such times it would growl and bite their hands. |
+| queensland-tiger-c14 | exact | archive.org | Rocky retreats were its favourite habitat, and its principal food was said to be a little brown variety of wallaby common in Northern Queensland scrubs. | Rocky retreats were its most favourite habitat, and its principal food was said to be a little brown variety of wallaby common in Northern Queensland scrubs. |
+| queensland-tiger-c15 | exact | archive.org | Its flesh was not particularly appreciated by the blacks, and if they accidentally killed a yarri they gave it to their old women. | Its flesh was not particularly appreciated by the blacks, and if they accidentally killed a yarri they gave it to their old women. |
+| queensland-tiger-c16 | exact | archive.org | In Western Queensland the author heard much about an animal that seemed identical with the yarri, and a specimen was once nearly shot. | In Western Queensland I heard much about an animal which seemed to me to be identical with the yarri here described, and a specimen was once nearly shot |
+| queensland-tiger-c17 | exact | archive.org | The natives had a superstition that "a great water will rise" if a young man picks up a dead yarri. | The natives having a superstition that " a great water will rise " if a young man picks up a dead yarri, |
+| queensland-tiger-c18 | exact | archive.org | The author obtained a young yarri that he identified as Dasyurus maculatus, and wrote that yarri is a name applied to a whole family. | YARRI [Dasyurus maculatus). ... yarri being a name applied to the whole family of Dasyiiridce. |
+| queensland-tiger-c19 | exact | archive.org | The author was nevertheless convinced that a large animal of this kind exists that has not yet been discovered. | I am, however, convinced that there exists a large animal of this kind that has not yet been discovered. |
 
 
 ## ukupanipo — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ukupanipo-c01 | exact | en.wikipedia.org | Ukupanipo is a Hawaiian shark god who controls the amount of fish available to fishermen. | In Hawaiian mythology, Ukupanipo is a shark god who controls the amount of fish close enough for the fisherman to catch. |
 | ukupanipo-c02 | exact | en.wikipedia.org | He occasionally adopts human children who gain shark-shifting powers and bear a shark mark. | He occasionally adopts a human child who gains the power to transform into a shark, but when in human form has a mark like a shark's mouth under their shoulder blades. |
+| ukupanipo-c03 | exact | archive.org | The favour of the sea was invoked through Ukupanipo, the shark-god, who with his followers could drive the fish to or from the shores, giving or withholding the native's daily food. | it was invoked through Uku- panipo, the shark-god, who, with his followers, could drive the fish to or from the shores, giving or withholding the daily food of the native. |
+| ukupanipo-c04 | exact | archive.org | Ukupanipo is credited with occasionally adopting a human child, to whom he gives the favour of the sea and who can change into a shark at will. | Ukupanipo is credited with occasionally adopting a human child, to whom he gives the favour of the sea, and who has the ability to change into a shark at will. |
+| ukupanipo-c05 | exact | archive.org | These sea-children possess the ravenous mien and dangerous temper of the god. | These sea-children possess the ravenous mien and dangerous temper of the god. |
+| ukupanipo-c06 | exact | archive.org | The mark Ukupanipo places upon them is a mouth-like orifice, garnished with teeth, below the shoulder-blades. | The mark which Ukupanipo places upon them is a mouth-like orifice below the shoulder-blades, garnished with teeth. |
 
 
 ## adaro-mythology — lulus-otomatis
@@ -664,15 +769,25 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## flaming-teeth — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Polandia, Polish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[1]` Tidak muncul di kutipan mana pun: Polandia, Polish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Inggris, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `conflicts[0].positions[1].summary` Tidak muncul di kutipan mana pun: Polandia, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | flaming-teeth-c01 | exact | en.wikipedia.org | Flaming Teeth was a giant in Fijian lore whose teeth looked like burning logs. | Flaming Teeth, from Fijian mythology, was a giant who was so large his teeth appeared as burning logs. |
 | flaming-teeth-c02 | exact | en.wikipedia.org | The colossal monster terrorized villages by eating people and causing wide damage. | The colossal creature terrorized villages relentlessly, devouring people and causing widespread destruction. |
+| flaming-teeth-c03 | exact | en.wikipedia.org | After enduring countless attacks and losses, a group of courageous villagers banded together. | After enduring countless attacks and losses, a group of courageous villagers banded together. |
+| flaming-teeth-c04 | exact | en.wikipedia.org | They devised a strategy to ambush the giant, luring it beneath a massive rock and delivering a fatal blow to its skull. | They devised a strategy to ambush the giant, enticing it beneath a massive rock and delivering a fatal blow to its skull. |
+| flaming-teeth-c05 | exact | en.wikipedia.org | They succeeded in killing the giant, but its teeth were still aflame. | They succeeded killing the giant but its teeth still were aflame. |
+| flaming-teeth-c06 | exact | en.wikipedia.org | The villagers took the teeth back to the village, and that was the first time man acquired the use of fire. | The villagers took the teeth back to the village and that was the first time man acquired the use of fire. |
+| flaming-teeth-c07 | exact | pl.wikipedia.org | Płonącozęby ("Flaming Teeth") is a giant in Fijian mythology; according to the beliefs of the people of the Fiji islands his characteristic feature was huge flaming teeth. | Płonącozęby – olbrzym występujący mitologii fidżyjskiej. Według wierzeń mieszkańców wysp Fidżi, jego cechą charakterystyczną były ogromne płonące zęby. |
+| flaming-teeth-c08 | exact | pl.wikipedia.org | Płonącozęby was lured beneath an enormous rock, which was then dropped onto his head, crushing his skull. | Płonącozęby został zwabiony pod ogromną skałę, którą następnie zrzucili mu na głowę, miażdżąc czaszkę. |
+| flaming-teeth-c09 | exact | pl.wikipedia.org | After the giant's death the villagers took his flaming teeth back to the village, and from then on people learned to use fire. | Po śmierci olbrzyma wieśniacy zabrali jego płonące zęby z powrotem do wioski, od tego czasu ludzie nauczyli się używać ognia. |
 
 
 ## galeru — lulus-otomatis
