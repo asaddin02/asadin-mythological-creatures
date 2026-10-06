@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-144",
-  "checked_at": "2026-10-06T06:12:23.653Z",
+  "checked_at": "2026-10-06T06:34:55.766Z",
   "files": [
     "batch-144.md",
     "batch-144-fix-1.md",
-    "batch-144-fix-2.md"
+    "batch-144-fix-2.md",
+    "batch-144-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -479,20 +480,15 @@
     },
     {
       "slug": "chessie-sea-monster",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "57b6ae7ec923164697d66ca0b8fde30607926ff938cdbf07bfd4551a92166200",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chessie-sea-monster-c01",
@@ -523,27 +519,91 @@
           "quote": "Over time, the figure developed into an environmental icon. Chessie is associated with the ecological health of the Chesapeake Bay",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c04",
+          "source_id": "chessie-sea-monster-s2",
+          "host": "userpages.umbc.edu",
+          "statement": "Reports repeatedly describe Chessie as serpentine, about twenty-five to forty feet long and eight to ten inches in diameter, with an elliptical or football-shaped head.",
+          "statement_id": "Laporan menggambarkan Chessie berulang kali sebagai makhluk menyerupai ular, panjang sekitar dua puluh lima sampai empat puluh kaki, berdiameter delapan sampai sepuluh inci, dengan kepala berbentuk elips atau seperti bola football.",
+          "quote": "has been repeatedly described as serpentine, about twenty-five to forty feet in length, eight to ten inches in diameter, and possessing an elliptical or football-shaped head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c05",
+          "source_id": "chessie-sea-monster-s2",
+          "host": "userpages.umbc.edu",
+          "statement": "According to the page author, Chessie's notoriety only really surfaced in 1978, when Virginia newspapers began printing contemporary sightings.",
+          "statement_id": "Menurut penulis halaman itu, ketenaran Chessie baru benar-benar muncul pada 1978, ketika surat kabar Virginia mulai memuat laporan penampakan terkini.",
+          "quote": "Chessie's notoriety really surfaced as recently as 1978 when Virginia newspapers began printing contemporary sightings of the beast.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c06",
+          "source_id": "chessie-sea-monster-s2",
+          "host": "userpages.umbc.edu",
+          "statement": "On May 31, 1982, Maryland resident Robert Frew videotaped a long, dark, serpent-like creature swimming in Chesapeake Bay about 100 feet off the bulkhead of his Kent Island home.",
+          "statement_id": "Pada 31 Mei 1982, Robert Frew, warga Maryland, merekam video makhluk panjang, gelap, menyerupai ular yang berenang di Teluk Chesapeake sekitar 100 kaki dari dermaga rumahnya di Kent Island.",
+          "quote": "until May 31, 1982. On that date around 7:30 PM, Maryland resident Robert Frew videotaped a long, dark, serpent-like creature swimming in the Chesapeake Bay, about 100 feet off the bulkhead of his Kent Island home.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c07",
+          "source_id": "chessie-sea-monster-s2",
+          "host": "userpages.umbc.edu",
+          "statement": "Scientists at the Smithsonian's Museum of Natural History, including Dr. George Zug, examined the Frew videotape and, although intrigued, could reach no conclusions.",
+          "statement_id": "Ilmuwan Smithsonian, termasuk Dr. George Zug, memeriksa video Frew dan, meski tertarik, tidak dapat menarik kesimpulan apa pun tentang objek di dalamnya.",
+          "quote": "an audience with Dr. George Zug and other scientists at the Smithsonian Institution's Museum of Natural History. After thoroughly examining the tape the scientists, although intrigued by what it apparently depicted, were unable to reach any conclusions",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c08",
+          "source_id": "chessie-sea-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Wikipedia article judges a 1936 Chessie sighting from a helicopter unlikely, if not impossible, since the earliest Sikorsky helicopter flight was near Stratford, Connecticut in 1939.",
+          "statement_id": "Artikel Wikipedia menilai penampakan Chessie dari helikopter pada 1936 tampak tidak mungkin, karena penerbangan helikopter Sikorsky paling awal terjadi di dekat Stratford, Connecticut, pada 1939.",
+          "quote": "However, a Chessie sighting from a helicopter in 1936 seems unlikely, if not impossible, as the earliest Sikorsky helicopter flight was near Stratford, Connecticut in 1939.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c09",
+          "source_id": "chessie-sea-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A sketch of an unknown sea creature by boater Trudy Guthrie was published by the Evening Sun in September 1980 and was later identified as a manatee from Florida.",
+          "statement_id": "Sebuah sketsa makhluk laut tak dikenal karya pelaut Trudy Guthrie dimuat di Evening Sun pada September 1980 dan kemudian diidentifikasi sebagai manatee dari Florida.",
+          "quote": "A sketch of an unknown sea creature, drawn by boater Trudy Guthrie, was published by the Evening Sun in September 1980. It was later identified as a manatee from Florida.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chessie-sea-monster-c10",
+          "source_id": "chessie-sea-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As an environmental icon of Chesapeake Bay, Chessie was used by the U.S. Fish and Wildlife Service in its 1986 educational coloring book Chessie: A Chesapeake Bay Story.",
+          "statement_id": "Sebagai ikon lingkungan Teluk Chesapeake, Chessie dipakai Dinas Perikanan dan Margasatwa AS dalam buku mewarnai edukatif tahun 1986, Chessie: A Chesapeake Bay Story.",
+          "quote": "Chessie, as an environmental icon for the Chesapeake Bay, was used by the U.S. Fish and Wildlife Service for its educational coloring book in 1986, Chessie: A Chesapeake Bay Story.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5bf752544f50861cb646fbaf63b7752d36052e9fc5882e5817b79eaafc70b8b9"
+      "images": []
     },
     {
       "slug": "chullachaki",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "0bce11e4415be80da1cb0e059385df52d852dd4bf01664329138aea5a065bc34",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chullachaki-c01",
@@ -574,27 +634,111 @@
           "quote": "He does this by taking the form of a family member or a loved one long not seen, or disguising himself as a prey animal.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chullachaki-c04",
+          "source_id": "chullachaki-s2",
+          "host": "dialnet.unirioja.es",
+          "statement": "According to this journal article, the Chullachaqui is a mythological being of the forest, a short duende (goblin-like being) with animal feet, and a protector of the forest.",
+          "statement_id": "Menurut artikel jurnal ini, Chullachaqui adalah makhluk mitologi penghuni hutan, berwujud duende (makhluk kerdil) pendek dengan kaki hewan, dan pelindung hutan.",
+          "quote": "Ser mitológico que habita la selva, tiene la característica física de un duende bajito con los pies de un animal, él es protector de la selva.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c05",
+          "source_id": "chullachaki-s2",
+          "host": "dialnet.unirioja.es",
+          "statement": "The journal article compares the curupira and chullachaqui myths: both are mystical protectors of the forest and its animals which, by popular belief, can transform into a person close to whomever they wish to deceive.",
+          "statement_id": "Artikel jurnal itu membandingkan mitos curupira dan chullachaqui: keduanya makhluk mistis pelindung hutan dan hewannya yang menurut kepercayaan populer dapat berubah wujud menjadi orang dekat yang hendak ditipunya.",
+          "quote": "En ambos existe la figura de un ser místico protector de la selva y sus animales, esto ser, según la creencia popular puede sufrir metamorfosis y asumir la forma física de una persona próxima a quien él desea engañar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c06",
+          "source_id": "chullachaki-s2",
+          "host": "dialnet.unirioja.es",
+          "statement": "The article says the curupira and chullachaqui are not evil; they only harm those who try to disturb nature.",
+          "statement_id": "Menurut artikel itu, curupira dan chullachaqui tidak jahat; mereka hanya mencelakai orang yang berusaha mengganggu alam.",
+          "quote": "Pero ellos no son malos, solo causan daños a quien intenta molestar la naturaleza.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c07",
+          "source_id": "chullachaki-s3",
+          "host": "www.iquitosnews.com",
+          "statement": "According to the Iquitos legend, to a child the Chullachaqui often appears as another child or playmate.",
+          "statement_id": "Menurut legenda Iquitos, kepada anak-anak Chullachaqui sering tampil sebagai anak lain atau teman bermain.",
+          "quote": "To a child, the Chullachaqui will often appear as another child or playmate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c08",
+          "source_id": "chullachaki-s3",
+          "host": "www.iquitosnews.com",
+          "statement": "According to the Iquitos legend, the only way to discover the Chullachaqui's true identity is to look at his feet, as one of them is club-shaped.",
+          "statement_id": "Menurut legenda Iquitos, satu-satunya cara mengenali wujud asli Chullachaqui adalah melihat kakinya, karena salah satu kakinya berbentuk gada.",
+          "quote": "The only way to discover Chullachaqui's true identity is to look at his feet, as one of his feet is club-shaped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c09",
+          "source_id": "chullachaki-s4",
+          "host": "noticias.madrededios.com",
+          "statement": "Biologist Velásquez explains that communities believe the Chullachaqui is the mother of the forest and must therefore be respected and, to a degree, feared.",
+          "statement_id": "Biolog Velásquez menjelaskan bahwa komunitas percaya Chullachaqui adalah ibu hutan sehingga harus dihormati dan, sampai batas tertentu, ditakuti.",
+          "quote": "Velásquez detalla que las comunidades creen que el Chullachaqui es la madre del bosque y que, por ende, se le debe que respetar y, hasta cierto punto, tener temor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c10",
+          "source_id": "chullachaki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others say he appears as a very short man dressed in rags, waving his closed fists in the air looking for a fight.",
+          "statement_id": "Menurut sebagian orang, ia tampil sebagai lelaki sangat pendek berpakaian compang-camping yang mengacungkan kepalan tangan sambil mencari perkelahian.",
+          "quote": "Others say that he appears in the shape of a very short man dressed in rags, waving his closed fists in the air looking for a fight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c11",
+          "source_id": "chullachaki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Whoever declines this challenge is said to be cursed with the inability to hunt and with foul luck.",
+          "statement_id": "Orang yang menolak tantangan itu konon dikutuk tidak mampu berburu dan bernasib sial.",
+          "quote": "He who declines this challenge is cursed with the inability to hunt and with foul luck",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chullachaki-c12",
+          "source_id": "chullachaki-s3",
+          "host": "www.iquitosnews.com",
+          "statement": "According to the Iquitos legend, in this disguise the evil Chullachaqui tries to lure the child into the forest to become lost.",
+          "statement_id": "Menurut legenda Iquitos, dalam penyamaran itu Chullachaqui yang jahat berusaha memikat anak ke hutan agar tersesat.",
+          "quote": "In this disguise, the evil Chullachaqui will attempt to lure the child into the forest to become lost.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7f905639929ae4897c81de9769d68be6b91dc910b9a59dcb43854bcc02f08338"
+      "images": []
     },
     {
       "slug": "ciguapa",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "a9d8ded14e637ecbd0479ce7280360adc228468395581041ceec0b34be6b4cb1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 18,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ciguapa-c01",
@@ -635,10 +779,149 @@
           "quote": "While the legend is largely accepted to have been first written in 1866 by Francisco Javier Angulo Guridi, it is disputed whether the legend stems from Taíno mythology",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "ciguapa-c05",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "According to the Instituto Cervantes, a ciguapa is identified by looking at her feet, which leave tracks contrary to the direction she is heading.",
+          "statement_id": "Menurut Instituto Cervantes, cara mengenali ciguapa adalah melihat kakinya, yang meninggalkan jejak berlawanan dengan arah jalannya.",
+          "quote": "mirar a sus pies, pues los tienen al ... dejan huellas contrarias al rumbo que llevan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c06",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "Ciguapas bewitch men with their beauty, eyes, and song, love them to satiety, and then kill them.",
+          "statement_id": "Ciguapa memikat laki-laki dengan keindahan, mata, dan nyanyiannya, mencintai mereka sampai puas, lalu membunuh mereka.",
+          "quote": "Ellas embrujan a los hombres con su hermosura, sus ojos y su canto, los aman hasta la saciedad y luego los matan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c07",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "According to the Instituto Cervantes, Dominicans keep this legend very much alive.",
+          "statement_id": "Menurut Instituto Cervantes, orang Dominika menjaga legenda ini tetap sangat hidup.",
+          "quote": "Los dominicanos tienen muy viva esta leyenda",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c08",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "Ciguapas have never been seen to speak, but they emit a strange sort of soft, musical howls.",
+          "statement_id": "Ciguapa tidak pernah terlihat berbicara, tetapi (menurut artikel itu) mengeluarkan sejenis lolongan lembut dan merdu.",
+          "quote": "Nunca se les ha visto hablar, pero ... emitir una suerte rara de aullidos suaves y musicales",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c09",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "According to the article, there is a secret way to catch a ciguapa: chase her on full-moon nights with a white-and-black spotted dog that has five toes on each paw.",
+          "statement_id": "Menurut artikel itu, ada cara rahasia menangkap ciguapa: mengejarnya pada malam bulan purnama dengan anjing berbintik putih dan hitam yang berjari lima di setiap kakinya.",
+          "quote": "existe una forma secreta de atrapar una Ciguapa y esta es perseguirla, en noches de luna llena, con un perro de manchas blancas y negras, pero que sea ... es decir, que tenga cinco dedos en cada pata.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c10",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, hunting the ciguapa is presented as ultimately pointless, as the ciguapa dies quickly in confinement.",
+          "statement_id": "Menurut Wikipedia, memburu ciguapa digambarkan sia-sia karena ciguapa cepat mati dalam kurungan.",
+          "quote": "However, hunting the ciguapa is presented as ultimately pointless, as the ciguapa dies quickly in confinement.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c11",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "According to the article, some say the ciguapa has a body covered in very fine hair, while others say she is tall, slender, and long-legged.",
+          "statement_id": "Menurut artikel itu, sebagian orang menyebut tubuh ciguapa tertutup bulu yang sangat halus, sedangkan yang lain menyebutnya tinggi, ramping, dan berkaki panjang.",
+          "quote": "otros indican que tienen el cuerpo cubierto de vellos muy finos, otros ... afirman que son altas, delgadas y de piernas largas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c12",
+          "source_id": "ciguapa-s2",
+          "host": "cvc.cervantes.es",
+          "statement": "According to the Instituto Cervantes article, the origin of the ciguapa myth apparently lies in the legends of the Antillean Arawaks and the pre-Columbian peoples who arrived.",
+          "statement_id": "Menurut artikel Instituto Cervantes, asal mitos ciguapa tampaknya adalah legenda-legenda bangsa Arawak Antilla dan bangsa-bangsa pra-Kolombia yang datang.",
+          "quote": "Al parecer, el origen del mito de las ciguapas son las leyendas ... de los arahuacos antillanos, de los ... y de los pueblos precolombinos llegados a",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c13",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, there is no explicit historical record of the ciguapa before Guridi's 1866 novel, neither in Spanish colonial literature nor in indigenous cultural artifacts such as Taíno cave paintings.",
+          "statement_id": "Menurut Wikipedia, tidak ada catatan sejarah eksplisit tentang ciguapa sebelum novel Guridi tahun 1866, baik dalam sastra kolonial Spanyol maupun artefak budaya pribumi seperti lukisan gua Taíno.",
+          "quote": "There has been no explicit historical record of the ciguapa prior to Guridi's 1866 novel, neither in Spanish colonial literature nor in any indigenous cultural artifacts, for example Taíno cave paintings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c14",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 21st century, the ciguapa as introduced by Francisco Javier Angulo Guridi has been contended to be fakelore, an invented myth presenting itself as traditional.",
+          "statement_id": "Pada abad ke-21, ciguapa yang diperkenalkan Francisco Javier Angulo Guridi dipersoalkan sebagai fakelore, yaitu mitos rekaan yang tampil seolah tradisional.",
+          "quote": "In the 21st century, the ciguapa as introduced by Francisco Javier Angulo Guridi has been contended as fakelore, an invented myth presenting itself as traditional.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c15",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the 1951 edition of a Taíno-language glossary, \"ciguapa\" is a corruption of Ciguayo; historian José Juan Arrom disagrees, saying the word has no indigenous origin.",
+          "statement_id": "Menurut glosarium bahasa Taíno edisi 1951, \"ciguapa\" adalah penyimpangan dari Ciguayo; sejarawan José Juan Arrom tidak setuju dan menyatakan kata itu tidak berasal dari bahasa pribumi.",
+          "quote": "according to the 1951 edition of the Taíno language glossary Palabras indígenas de la isla de Santo Domingo (Indigenous Words of the Island of Santo Domingo), \"ciguapa\" is a corruption of Ciguayo; Latin-American historian José Juan Arrom disagrees, saying that the word has no indigenous origin.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c16",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1949 in Paris, Dominican artist Jaime Colson made the first recognized artwork of the ciguapa, entitled Baquiní y la ciguapa del Camú.",
+          "statement_id": "Pada 1949 di Paris, seniman Dominika Jaime Colson membuat karya seni ciguapa pertama yang diakui, berjudul Baquiní y la ciguapa del Camú.",
+          "quote": "In 1949 in Paris, Dominican artist Jaime Colson made the first recognized artwork of the ciguapa, entitled Baquiní y la ciguapa del Camú",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c17",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the regime of dictator Rafael Trujillo, the ciguapa was further entrenched in the national mythos to support the state goal of mestizaje.",
+          "statement_id": "Pada masa rezim diktator Rafael Trujillo, ciguapa makin dikukuhkan dalam mitos nasional untuk mendukung tujuan negara berupa mestizaje.",
+          "quote": "During the regime of dictator Rafael Trujillo, the ciguapa was further entrenched into the national mythos to support the state goal of mestizaje.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ciguapa-c18",
+          "source_id": "ciguapa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Julia Alvarez's The Secret Footprints (2002), a child ciguapa and a human boy are mutually fascinated.",
+          "statement_id": "Dalam The Secret Footprints (2002) karya Julia Alvarez, seorang anak ciguapa dan seorang anak laki-laki manusia saling terpesona.",
+          "quote": "Julia Alvarez's The Secret Footprints (2002), a child ciguapa is mutually fascinated by a human boy",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7732f3885e0f67b90ea370930310cb12497a588a871808754391b2c42c86fc90"
+      "images": []
     },
     {
       "slug": "fouke-monster",
@@ -827,20 +1110,15 @@
     },
     {
       "slug": "headless-mule",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "6700fde341b7a1affe15a680ebc122b918d18d287f126e8a8e8c68566ff4ef48",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "headless-mule-c01",
@@ -871,10 +1149,99 @@
           "quote": "It has silver (or iron) horseshoes that produce a hideous trotting, louder than any horse is capable of producing.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "headless-mule-c04",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Câmara Cascudo, the Mula-Sem-Cabeça is the form taken by a priest's concubine.",
+          "statement_id": "Menurut Câmara Cascudo, Mula-Sem-Cabeça adalah wujud yang diambil oleh selir (gundik) seorang imam.",
+          "quote": "Mula-Sem-Cabeça. É a forma que toma a concubina do sacerdote.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c05",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, it throws sparks of fire from its nostrils and mouth.",
+          "statement_id": "Menurut Cascudo, ia menyemburkan percikan api dari lubang hidung dan mulutnya.",
+          "quote": "Lança chispas de fogo pelas narinas e pela boca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c06",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the violence of its gallop (galope) and the shrillness of its neighing (relincho) are heard for a long time (longamente).",
+          "statement_id": "Menurut Cascudo, keganasan derap (galope) dan lengking ringkikannya (relincho) terdengar lama (longamente).",
+          "quote": "A violência do galope e a estridência do relincho são ouvidas longamente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c07",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, it is said to be headless, but the neighing is inevitable.",
+          "statement_id": "Menurut Cascudo, orang menyebutnya tanpa kepala, tetapi ringkikannya tak terhindarkan.",
+          "quote": "Dizem-na sem cabeça, mas os relinchos são inevitáveis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c08",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the mule (mula) runs (corre) through seven (sete) freguesias (parishes) each night (noite).",
+          "statement_id": "Menurut Cascudo, mula itu (mula) berlari (corre) melintasi tujuh (sete) freguesia (paroki) setiap malam (noite).",
+          "quote": "A mula corre sete freguesias em cada noite",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c09",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the enchantment ends when someone has the courage to pull the iron bridle (freio de ferro) off its head.",
+          "statement_id": "Menurut Cascudo, kutukan itu hilang ketika seseorang berani melepaskan kekang besi (freio de ferro) dari kepalanya.",
+          "quote": "quando alguém tiver a coragem de arrancar-lhe da cabeça o freio de ferro que leva.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c10",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, Gustavo Barroso supposes the myth's origin comes from the exclusive use of mules as riding animals of prelates.",
+          "statement_id": "Menurut Cascudo, Gustavo Barroso menduga asal mitos ini berasal dari pemakaian khusus bagal sebagai hewan tunggangan para prelat.",
+          "quote": "Gustavo Barroso supõe que a origem do mito provenha do uso privativo das mulas como animais de condução dos",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c11",
+          "source_id": "headless-mule-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the change takes place on the night (noite) from Thursday to Friday (quinta para sexta-feira), into a strong animal (forte animal).",
+          "statement_id": "Menurut Cascudo, perubahan itu terjadi pada malam (noite) Kamis menuju Jumat (quinta para sexta-feira), menjadi seekor hewan yang kuat (forte animal).",
+          "quote": "Na noite de quinta para sexta-feira, ... num forte animal,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-mule-c12",
+          "source_id": "headless-mule-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says the term \"Headless Mule\" was first recorded in the 1940s.",
+          "statement_id": "Wikipedia mencatat istilah \"Headless Mule\" pertama kali tercatat pada 1940-an.",
+          "quote": "The term \"Headless Mule\" was first recorded in the 1940s.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3228352cf02c486fe4c5e7bacd77ffaad874d173748b088dceea1fa739da336"
+      "images": []
     },
     {
       "slug": "mboi-tu-i",
@@ -1513,20 +1880,15 @@
     },
     {
       "slug": "highgate-vampire",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "9d944467b40dca4fb7fc57d89c4f279c4cffa89a5c5bc45f0e78eee13f48cba8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "highgate-vampire-c01",
@@ -1547,10 +1909,109 @@
           "quote": "The most thorough account of the story is given by folklorist Bill Ellis in the journal Folklore, published in 1993.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c03",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the reported ghosts were described as a tall man in a hat, a spectral cyclist, a woman in white, a face glaring through the bars of a gate, a figure wading into a pond, a pale gliding form, bells ringing, and voices calling.",
+          "statement_id": "Menurut Wikipedia, hantu-hantu yang dilaporkan digambarkan sebagai lelaki tinggi bertopi, pesepeda bayangan, perempuan berbaju putih, wajah yang melotot dari sela jeruji gerbang, sosok yang berjalan masuk ke kolam, wujud pucat yang melayang, lonceng berbunyi, dan suara-suara memanggil.",
+          "quote": "These ghosts were described as a tall man in a hat, a spectral cyclist, a woman in white, a face glaring through the bars of a gate, a figure wading into a pond, a pale gliding form, bells ringing, and voices calling.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c04",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Sean Manchester claimed Farrant's \"grey figure\" was a vampire and the media quickly latched on.",
+          "statement_id": "Menurut Wikipedia, Sean Manchester menyatakan \"sosok kelabu\" yang dilihat Farrant adalah vampir, dan media dengan cepat menyambarnya.",
+          "quote": "Sean Manchester claimed Farrant's \"grey figure\" was a vampire and the media quickly latched on",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c05",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, within two hours a mob of \"hunters\" from all over London and beyond swarmed over gates and walls into the locked cemetery despite police efforts to control them.",
+          "statement_id": "Menurut Wikipedia, dalam dua jam segerombolan \"pemburu\" dari seluruh London dan sekitarnya memanjat gerbang dan tembok memasuki pemakaman yang terkunci, meski polisi berusaha mengendalikan mereka.",
+          "quote": "within two hours a mob of 'hunters' from all over London and beyond swarmed over gates and walls into the locked cemetery, despite police efforts to control them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c06",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Farrant was jailed for four years and eight months in July 1974 for damaging memorials and interfering with dead remains in Highgate Cemetery.",
+          "statement_id": "Menurut Wikipedia, Farrant dipenjara empat tahun delapan bulan pada Juli 1974 karena merusak monumen dan mengusik jenazah di Highgate Cemetery.",
+          "quote": "Farrant was jailed for four years and eight months in July 1974 for damaging memorials and interfering with dead remains in Highgate Cemetery",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c07",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the feud between Farrant and Manchester continued for decades, marked by insults and vindictiveness, until Farrant's death in April 2019.",
+          "statement_id": "Menurut Wikipedia, perseteruan Farrant dan Manchester berlanjut puluhan tahun, ditandai hinaan dan dendam, sampai Farrant meninggal pada April 2019.",
+          "quote": "Their feud continued for decades, marked by insults and vindictiveness, until Farrant's death in April 2019.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c08",
+          "source_id": "highgate-vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to author Bill Ellis, the Hammer Horror film Dracula AD 1972, starring Christopher Lee and Peter Cushing, was inspired by the Highgate Vampire.",
+          "statement_id": "Menurut penulis Bill Ellis, film Hammer Horror Dracula AD 1972 yang dibintangi Christopher Lee dan Peter Cushing terinspirasi dari Highgate Vampire.",
+          "quote": "According to author Bill Ellis, the Hammer Horror film Dracula AD 1972, starring Christopher Lee and Peter Cushing, was inspired by the Highgate Vampire.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c09",
+          "source_id": "highgate-vampire-s2",
+          "host": "faroutmagazine.co.uk",
+          "statement": "According to Far Out Magazine, the British Psychic and Occult Society began receiving reports of a tall black apparition stalking the tombs of London.",
+          "statement_id": "Menurut Far Out Magazine, British Psychic and Occult Society mulai menerima laporan tentang penampakan hitam tinggi yang menguntit makam-makam di London.",
+          "quote": "the British Psychic and Occult Society began receiving reports of a tall black apparition stalking the tombs of London",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c10",
+          "source_id": "highgate-vampire-s2",
+          "host": "faroutmagazine.co.uk",
+          "statement": "According to Far Out Magazine, the Hampstead and Highgate Express in February 1970 ran an article suggesting the local sightings were proof of a vampire and of occult activity in Highgate.",
+          "statement_id": "Menurut Far Out Magazine, surat kabar Hampstead and Highgate Express pada Februari 1970 menerbitkan artikel yang menyiratkan penampakan setempat adalah bukti adanya vampir dan aktivitas okultisme di Highgate.",
+          "quote": "in which they suggested the local sightings were proof of a vampire and evidence of occult activity in Highgate cemetery.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c11",
+          "source_id": "highgate-vampire-s2",
+          "host": "faroutmagazine.co.uk",
+          "statement": "According to Far Out Magazine, Farrant remained unconvinced, blaming the sightings on mass hysteria generated by the press.",
+          "statement_id": "Menurut Far Out Magazine, Farrant tetap tidak yakin dan menyalahkan penampakan itu pada histeria massa yang ditimbulkan pers.",
+          "quote": "Farrant, on the other hand, remained unconvinced, blaming the sightings on mass hysteria generated by the press.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "highgate-vampire-c12",
+          "source_id": "highgate-vampire-s2",
+          "host": "faroutmagazine.co.uk",
+          "statement": "According to Far Out Magazine, in August 1970 two schoolgirls stumbled across the 100-year-old corpse of a woman who had been dragged from her coffin, decapitated, staked through the heart, and left in the middle of the pathway.",
+          "statement_id": "Menurut Far Out Magazine, pada Agustus 1970 dua siswi menemukan jenazah berusia 100 tahun milik seorang perempuan yang diseret dari petinya, dipenggal, ditusuk kayu di jantung, dan ditinggalkan di tengah jalan setapak.",
+          "quote": "In the August of 1970, two schoolgirls stumbled across the 100-year-old corpse of a woman who had been dragged from her coffin, decapitated, staked through the heart, and left in the middle of the pathway.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b58763c40719ddb1393989831c9c672248a17e2bb000cac4f26a2420d3917f31"
+      "images": []
     },
     {
       "slug": "monai",
@@ -3768,20 +4229,15 @@
     },
     {
       "slug": "dzahui",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "18f464e3ac25e5775e7106fc5b68a46f1924ada942f09a90afd3c57b73b95425",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dzahui-c01",
@@ -3802,27 +4258,81 @@
           "quote": "In Mixtec codices, Dzahui exhibits the blue or green rain goggle mask also seen on the central Mexican deity Tlaloc.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "dzahui-c03",
+          "source_id": "dzahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dzahui is depicted with exposed incisor teeth and longer, somewhat curled jaguar canine teeth emerging from curled lips.",
+          "statement_id": "Dzahui digambarkan memiliki gigi seri yang terlihat dan taring jaguar yang lebih panjang dan agak melengkung keluar dari bibir yang melengkung.",
+          "quote": "He possesses exposed teeth incisors and longer, somewhat curled jaguar canine teeth emerging from curled lips.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dzahui-c04",
+          "source_id": "dzahui-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The tutelary god of the Mixtecs was Dzahui (literally \"Rain\"), divinity of rain and celestial water.",
+          "statement_id": "Dewa pelindung bangsa Mixtec adalah Dzahui (secara harfiah \"Hujan\"), dewa hujan dan air langit.",
+          "quote": "The tutelary god of the Mixtecs was Dzahui (literally Rain), divinity of rain and celestial water.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzahui-c05",
+          "source_id": "dzahui-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The cult of rain was so important to the Mixtecs that their native name means \"people of the rain\", that is, the people chosen by Dzahui.",
+          "statement_id": "Pemujaan hujan begitu penting bagi bangsa Mixtec sehingga nama asli mereka berarti \"bangsa hujan\", yakni bangsa yang dipilih Dzahui.",
+          "quote": "The cult of rain was so important for the Mixtecs that their native name qualifies them as the people of rain, that is, the people chosen by Dzahui.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzahui-c06",
+          "source_id": "dzahui-s2",
+          "host": "en.wikipedia.org",
+          "statement": "He shares many attributes with Tlaloc of central Mesoamerica, who was venerated by the Teotihuacan, Toltec, and Mexica and appears on numerous effigy vessels found especially in Highland Mixteca.",
+          "statement_id": "Dzahui memiliki banyak atribut yang sama dengan Tlaloc dari Mesoamerika tengah, yang dipuja bangsa Teotihuacan, Toltek, dan Mexica serta tampak pada banyak bejana efigi, terutama di dataran tinggi Mixteca.",
+          "quote": "He shares many attributes with the Tlaloc of central Mesoamerica, venerated by the Teotihuacan, Toltec, and Mexica and who appears on numerous effigy vessels found especially in Highland Mixteca.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzahui-c07",
+          "source_id": "dzahui-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The cult of Dzahui among the Mixtec is very ancient, appearing at the end of the Late Preclassic, between the 5th century BC and the 2nd century AD.",
+          "statement_id": "Pemujaan Dzahui di kalangan Mixtec sangat tua, muncul sejak akhir masa Praklasik Akhir, yakni antara abad ke-5 SM dan abad ke-2 M.",
+          "quote": "The cult of Dzahui in the Mixtec is very ancient, its appearance dates back to the end of the Late Preclassic, that is, between the 5th century BC and 2nd century AD.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzahui-c08",
+          "source_id": "dzahui-s3",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia states that in the various Mesoamerican cultures Tláloc appears as Dzahui for the Mixtec and as Cocijo for the Zapotec.",
+          "statement_id": "World History Encyclopedia menyebut bahwa dalam berbagai budaya Mesoamerika Tláloc tampil sebagai Dzahui bagi bangsa Mixtec dan sebagai Cocijo bagi bangsa Zapotec.",
+          "quote": "In the various Mesoamerican cultures Tláloc appears as Dzahui for the Mixtec, ... Cocijo for the Zapotec.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e5d51ed987eede11b0003d68046b6c754fa1148635aea85caae15069565c438b"
+      "images": []
     },
     {
       "slug": "eeyeekalduk",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "ce0aa1a3a8985112752025efeab3252620617d5b4ab23dfea92af635fe90ea7f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "eeyeekalduk-c01",
@@ -3833,10 +4343,59 @@
           "quote": "In Inuit mythology, Eeyeekalduk was the god of medicine and good health.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "eeyeekalduk-c02",
+          "source_id": "eeyeekalduk-s2",
+          "host": "www.mythicjourneys.org",
+          "statement": "The Big Myth records Eeyeekalduk as the god of healing.",
+          "statement_id": "The Big Myth mencatat Eeyeekalduk sebagai dewa penyembuhan.",
+          "quote": "EEYEEKALDUK was the god of healing.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eeyeekalduk-c03",
+          "source_id": "eeyeekalduk-s2",
+          "host": "www.mythicjourneys.org",
+          "statement": "According to The Big Myth, the Inuit pantheon varies slightly depending on where the particular Inuit live.",
+          "statement_id": "Menurut The Big Myth, panteon Inuit sedikit berbeda tergantung tempat tinggal kelompok Inuit tertentu.",
+          "quote": "The Inuit Pantheon varies slightly, depending on where the particular Inuit live.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eeyeekalduk-c04",
+          "source_id": "eeyeekalduk-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia lists Eeyeekalduk under Inuit in its list of health deities, as god of medicine and good health.",
+          "statement_id": "Wikipedia mencantumkan Eeyeekalduk di bagian Inuit pada daftar dewa kesehatan, sebagai dewa pengobatan dan kesehatan yang baik.",
+          "quote": "Eeyeekalduk, god of medicine and good health",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eeyeekalduk-c05",
+          "source_id": "eeyeekalduk-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Inuit religion is the traditional religion of certain circumpolar peoples, practised in Inuit communities in parts of Chukotka, Alaska, northern Canada, and Greenland.",
+          "statement_id": "Agama Inuit adalah agama tradisional sejumlah bangsa di sekitar kutub yang dianut di komunitas Inuit di sebagian Chukotka, Alaska, Kanada utara, dan Greenland.",
+          "quote": "Inuit religion is the traditional religion of certain circumpolar peoples. It is practised within Inuit communities in parts of Chukotka, Alaska, northern Canada, and Greenland.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eeyeekalduk-c06",
+          "source_id": "eeyeekalduk-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Inuit religion, ritual specialists known as angakut mediated between humanity and the spirits and performed rituals for healing.",
+          "statement_id": "Dalam agama Inuit, pakar ritual yang disebut angakut berperan menjadi perantara antara manusia dan roh, dan mereka melakukan ritual penyembuhan.",
+          "quote": "an important role was played by ritual specialists known as angakut (sing. angakoq), who mediated between humanity and the spirits. They performed rituals for healing",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4b6f52a271d16c845e392ecfbe59493a7cd6956da4a5720f3f66ec58999577a3"
+      "images": []
     },
     {
       "slug": "el-hombre-caiman",
@@ -3975,20 +4534,15 @@
     },
     {
       "slug": "enfield-monster",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "d7601b6f568f565cda29fe3281ba030e116456c46cb68e9e2cddaa05e0d7fefe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "enfield-monster-c01",
@@ -4019,10 +4573,109 @@
           "quote": "the episode is cited by sociologists as an example of collective behavior",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c04",
+          "source_id": "enfield-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, at about 10 pm on April 25, 1973, Henry McDaniel heard a scratching sound at his front door.",
+          "statement_id": "Menurut Wikipedia, sekitar pukul 22.00 pada 25 April 1973 Henry McDaniel mendengar suara garukan di pintu depannya.",
+          "quote": "At about 10pm on the night of April 25, 1973, Henry McDaniel heard a scratching sound at his front door.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c05",
+          "source_id": "enfield-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "McDaniel later said the creature had three legs, a short body, two little short arms, and pink eyes as big as flashlights, stood four and a half feet tall, and was grayish.",
+          "statement_id": "McDaniel kemudian menyatakan makhluk itu berkaki tiga, bertubuh pendek, berlengan pendek kecil, bermata merah muda sebesar senter, setinggi empat setengah kaki, dan berwarna keabu-abuan.",
+          "quote": "It had three legs on it, a short body, two little short arms, and two pink eyes as big as flashlights. It stood four and a half feet tall and was grayish-colored.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c06",
+          "source_id": "enfield-monster-s2",
+          "host": "www.pbs.org",
+          "statement": "According to the PBS Monstrum transcript, Henry described the creature as pink-eyed, large-headed, dirty gray, hairy, and about four or five feet tall.",
+          "statement_id": "Menurut transkrip PBS Monstrum, Henry menggambarkan makhluk itu bermata merah muda, berkepala besar, berwarna abu-abu kusam, berbulu, dan setinggi sekitar empat atau lima kaki.",
+          "quote": "Henry described the creature as having pink eyes, a large head, was a dirty-ish gray color, hairy, about four or five feet tall.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c07",
+          "source_id": "enfield-monster-s2",
+          "host": "www.pbs.org",
+          "statement": "According to PBS, the search revealed tracks in the ground that looked like a dog's paw but with six toe pads.",
+          "statement_id": "Menurut PBS, penyelidikan menemukan jejak di tanah yang tampak seperti telapak anjing tetapi dengan enam bantalan jari.",
+          "quote": "Their search revealed tracks in the ground that looked like a dog's paw, but with six toe pads.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c08",
+          "source_id": "enfield-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The researchers found no more than three firsthand reports, later exaggerated by news stories and local gossip into an \"epidemic.\"",
+          "statement_id": "Para peneliti menemukan tidak lebih dari tiga laporan langsung yang kemudian dibesar-besarkan oleh pemberitaan dan gosip setempat menjadi \"epidemi\".",
+          "quote": "The researchers found there were no more than three firsthand reports that had subsequently been exaggerated by news stories and local gossip into an \"epidemic.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c09",
+          "source_id": "enfield-monster-s2",
+          "host": "www.pbs.org",
+          "statement": "According to PBS, a letter was sent to a nearby newspaper by a man claiming his pet kangaroo Macey had gone missing about a year earlier in Ohio.",
+          "statement_id": "Menurut PBS, sebuah surat dikirim ke surat kabar setempat oleh seorang pria yang mengaku kanguru peliharaannya bernama Macey hilang sekitar setahun sebelumnya di Ohio.",
+          "quote": "a letter was sent to a nearby newspaper from a man claiming that his pet kangaroo Macey had gone missing about a year prior in Ohio.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c10",
+          "source_id": "enfield-monster-s2",
+          "host": "www.pbs.org",
+          "statement": "According to PBS, the sociologists concluded that Enfield was not a classic case of mass hysteria.",
+          "statement_id": "Menurut PBS, para sosiolog menyimpulkan bahwa Enfield bukan kasus klasik histeria massa.",
+          "quote": "The sociologists concluded that Enfield was not a classic case of mass hysteria.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c11",
+          "source_id": "enfield-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1978 researchers at Western Illinois University headed by David L. Miller investigated and analyzed the incident, publishing it as a case study in social contagion.",
+          "statement_id": "Pada 1978 peneliti Western Illinois University yang dipimpin David L. Miller menyelidiki dan menganalisis peristiwa itu, lalu menerbitkannya sebagai studi kasus penularan sosial.",
+          "quote": "In 1978 researchers at Western Illinois University headed by David L. Miller investigated and analyzed the incident, publishing it as a case study in social contagion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c12",
+          "source_id": "enfield-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two weeks later, on May 6, McDaniel called radio station WWKI claiming to have seen the creature again at 3 a.m. that morning.",
+          "statement_id": "Dua minggu kemudian, pada 6 Mei, McDaniel menelepon stasiun radio WWKI dan mengaku melihat makhluk itu lagi pada pukul 03.00 pagi itu.",
+          "quote": "Two weeks later on May 6, McDaniel called the radio station WWKI claiming to have seen the creature again, at 3 a.m. that morning.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enfield-monster-c13",
+          "source_id": "enfield-monster-s2",
+          "host": "www.pbs.org",
+          "statement": "According to PBS, that was the first night of what would become known as the Enfield Horror.",
+          "statement_id": "Menurut PBS, malam itu adalah malam pertama dari peristiwa yang kemudian dikenal sebagai Enfield Horror.",
+          "quote": "It was the first night in what would become known as the Enfield Horror.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a656af80237db7d69df292c820b6af956fbf15b6d8deef79a0d87a77770e9970"
+      "images": []
     },
     {
       "slug": "gaasyendietha",
@@ -4201,20 +4854,15 @@
     },
     {
       "slug": "jasy-jatere",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "2acd47a245ac9559c0943c80639f5e6a5a5453f67476d10bd9f3799479c81711",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jasy-jatere-c01",
@@ -4245,27 +4893,181 @@
           "quote": "He is usually described as being a small man or perhaps a child, with light blonde hair and sometimes blue eyes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c04",
+          "source_id": "jasy-jatere-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to the Museo Mitológico Ramón Elías text, he is the child-genius of hot siestas who wanders cheerfully through Guaraní forests and valleys and is the lord of the countryside siestas.",
+          "statement_id": "Menurut teks Museo Mitológico Ramón Elías, ia adalah anak-genius siesta yang panas, yang berkelana riang di hutan dan lembah Guaraní, dan tuan siesta di pedesaan.",
+          "quote": "Este niño-genio de las siestas calurosas que transita alegremente por las selvas y valles guaraníes, es el señor de las siestas campesinas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c05",
+          "source_id": "jasy-jatere-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to the museum text, Jasy Jatere is almost always invisible, sending a sharp whistle into the wind.",
+          "statement_id": "Menurut teks museum, Jasy Jatere hampir selalu tak terlihat dan melepaskan siulan nyaring ke angin.",
+          "quote": "JASY JATERE casi siempre anda invisible lanzando al viento un agudo silbido.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c06",
+          "source_id": "jasy-jatere-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to the museum text, country people also consider him a protector of birds, wild fruits, and animals.",
+          "statement_id": "Menurut teks museum, orang desa juga menganggapnya pelindung burung, buah liar, dan hewan.",
+          "quote": "La gente del campo también le considera protector de las aves, de frutas silvestres y de los animales.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c07",
+          "source_id": "jasy-jatere-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to the museum text, Jasy Jatere's kiss burns and destroys like fire and no human being can bear it.",
+          "statement_id": "Menurut teks museum, ciuman Jasy Jatere membakar dan menghancurkan seperti api dan tak ada manusia yang sanggup menahannya.",
+          "quote": "Aquel beso quema y destruye como el fuego. Ningún ser humano puede soportarlo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c08",
+          "source_id": "jasy-jatere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Jasy Jatere is also considered the lord of the siesta, the traditional mid-day nap taken in many Latin American cultures.",
+          "statement_id": "Menurut Wikipedia, Jasy Jatere juga dianggap penguasa siesta, tidur siang tradisional di banyak budaya Amerika Latin.",
+          "quote": "Jasy Jatere is also considered to be the lord of the siesta, the traditional mid-day nap taken in many Latin American cultures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c09",
+          "source_id": "jasy-jatere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, he is considered the protector of the yerba mate plant and sometimes also a protector of hidden treasures.",
+          "statement_id": "Menurut Wikipedia, ia dianggap pelindung tanaman yerba mate dan kadang juga pelindung harta terpendam.",
+          "quote": "he is considered to be the protector of the yerba mate plant. Sometimes he is also viewed as a protector of hidden treasures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c10",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the Pérez-Maricevich compilation, Jasy jateré (\"fragment of moon\") is considered the Guaraní Cupid and bearer of fertility.",
+          "statement_id": "Menurut kompilasi Pérez-Maricevich, Jasy jateré (\"fragmen bulan\") dianggap Cupid Guaraní dan pembawa kesuburan.",
+          "quote": "A Jasy jateré (fragmento de luna) se lo considera el Cupido guaraní y portador de la fecundidad.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c11",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, he is believed to live in hollows of the trunks of large forest trees.",
+          "statement_id": "Menurut kompilasi itu, ia dipercaya tinggal di lubang batang pohon besar di hutan.",
+          "quote": "Se cree que vive en huecos de troncos de grandes árboles del bosque.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c12",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, Jasy-jateré attracts children with his whistle or by touching them with his staff.",
+          "statement_id": "Menurut kompilasi itu, Jasy-jateré memikat anak-anak dengan peluitnya atau dengan menyentuh mereka memakai tongkatnya.",
+          "quote": "El Jasy-jateré atrae a los niños con su silbato o tocándolos con su bastón",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c13",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, he abducts children to the forest, keeps them for a time, feeds them wild honey and fruit, plays with them, and finally releases them or leaves them tangled in ysypó (liana).",
+          "statement_id": "Menurut kompilasi itu, ia menculik anak-anak ke hutan, menahan mereka beberapa waktu, memberi mereka madu liar dan buah, bermain dengan mereka, lalu melepaskan atau meninggalkan mereka tersangkut di liana ysypó.",
+          "quote": "Los rapta y los lleva al bosque dónde los retiene durante algún tiempo, los alimenta con miel silvestre y frutas, juega con ellos y al fin los suelta o los deja enredados en ysypó (liana)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c14",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, the children afterwards become foolish, mute, or deaf-mute, but recover after some time.",
+          "statement_id": "Menurut kompilasi itu, anak-anak itu kemudian menjadi dungu, bisu, atau tuli-bisu, tetapi pulih setelah beberapa waktu.",
+          "quote": "pero los niños ya se han vuelto tontos o idiotas (tavy: aka tavy), mudos (ne'engú) o sordomudos; se recuperan después de un cierto tiempo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c15",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, when Yasy-jateré loses his little staff and whistle he becomes harmless, having lost his magic power.",
+          "statement_id": "Menurut kompilasi itu, ketika Yasy-jateré kehilangan tongkat kecil dan peluitnya ia menjadi tidak berbahaya karena kehilangan kekuatan gaibnya.",
+          "quote": "Cuando Yasy-jateré pierde su bastoncillo y su silbato se vuelve inofensivo, porque perdió su poder mágico.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c16",
+          "source_id": "jasy-jatere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, still more gruesome tales say the children are brought to his brother Ao Ao, a cannibalistic creature who feeds on their flesh.",
+          "statement_id": "Menurut Wikipedia, kisah yang lebih mengerikan menyebut anak-anak dibawa kepada saudaranya, Ao Ao, makhluk kanibal yang memakan daging mereka.",
+          "quote": "Still more gruesome tales say that the children are brought back to his brother Ao Ao, a cannibalistic creature who feeds upon their flesh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c17",
+          "source_id": "jasy-jatere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the fairer version Jasy Jatere is a friend of such disobedient children, taking them to hidden places in the forest to play and feeding them honey and fruit.",
+          "statement_id": "Menurut Wikipedia, dalam versi yang lebih ramah, Jasy Jatere adalah teman anak-anak yang tidak patuh itu, membawa mereka ke tempat tersembunyi di hutan untuk bermain dan memberi mereka madu serta buah.",
+          "quote": "In the fairer version of the tale, Jasy Jatere is considered a friend of such disobedient children, taking them into hidden places in the forest to play and feeding them with honey and fruit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c18",
+          "source_id": "jasy-jatere-s3",
+          "host": "www.portalguarani.com",
+          "statement": "According to the compilation, mothers often frighten children with Jasy-jateré so they do not run away from home during siestas.",
+          "statement_id": "Menurut kompilasi itu, para ibu biasa menakut-nakuti anak dengan Jasy-jateré agar tidak kabur dari rumah saat siesta.",
+          "quote": "Las madres suelen amedrentar a los niños con el Jasy-jateré para no escapar de casa durante las siestas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jasy-jatere-c19",
+          "source_id": "jasy-jatere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Paraguayan parents are known to warn their children not to wander off alone during siesta to avoid being kidnapped by Jasy Jatere.",
+          "statement_id": "Menurut Wikipedia, orang tua di Paraguay dikenal mengingatkan anak agar tidak berkeliaran sendirian saat siesta supaya tidak diculik Jasy Jatere.",
+          "quote": "Paraguayan parents are known to warn their children not to wander off alone during siesta to prevent being kidnapped by Jasy Jatere.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4632bc335cc683a8889220503061e7aec3eab3aa4df71e619c82816ef76d33c6"
+      "images": []
     },
     {
       "slug": "legend-of-trentren-vilu-and-caicai-vilu",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-3.md",
+      "entry_sha256": "00e4f821371ed2b7957dd6a4c35353671a8cca75508684895f826f83215d7f3c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "legend-of-trentren-vilu-and-caicai-vilu-c01",
@@ -4296,10 +5098,139 @@
           "quote": "Caicai was sent to live in the sea to help care for it with the Ngen-ko (water spirits), and Trentren was sent to live on earth",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c04",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s2",
+          "host": "museo.precolombino.cl",
+          "statement": "According to the Museo Chileno de Arte Precolombino, Caicai and Trentren are two serpents in Mapuche stories; Caicai lives in the sea and Trentren resides on land.",
+          "statement_id": "Menurut Museo Chileno de Arte Precolombino, Caicai dan Trentren adalah dua ular dalam kisah-kisah Mapuche; Caicai hidup di laut dan Trentren berdiam di darat.",
+          "quote": "Caicai y Trentren son dos serpientes que aparecen en los relatos mapuches. Caicai vive en el mar y Trentren reside en la tierra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c05",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s2",
+          "host": "museo.precolombino.cl",
+          "statement": "According to the museum, the sea-quakes and earthquakes that periodically strike the territory are held to be manifestations of the antagonism between Caicai and Trentren.",
+          "statement_id": "Menurut museum itu, tsunami dan gempa bumi yang sesekali melanda wilayah itu dianggap sebagai perwujudan antagonisme antara Caicai dan Trentren.",
+          "quote": "Los maremotos y terremotos que asolan el territorio de tiempo en tiempo ... antagonismo entre Caicai y Trentren.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c06",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s3",
+          "host": "chileprecolombino.cl",
+          "statement": "According to Chile Precolombino, an enormous serpent rose up from the sea and began crying \"kai, kai, kai\", louder and shriller.",
+          "statement_id": "Menurut Chile Precolombino, seekor ular raksasa muncul dari laut dan mulai berteriak \"kai, kai, kai\" makin keras dan makin melengking.",
+          "quote": "an enormous serpent rose up from the sea and began crying, kai, kai, kai, louder and louder, shriller and shriller.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c07",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s3",
+          "host": "chileprecolombino.cl",
+          "statement": "According to Chile Precolombino, the Mapuche people ran to the mountaintops to save themselves.",
+          "statement_id": "Menurut Chile Precolombino, bangsa Mapuche berlari ke puncak gunung untuk menyelamatkan diri.",
+          "quote": "To save themselves, the Mapuche people ran to the mountaintops.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c08",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s3",
+          "host": "chileprecolombino.cl",
+          "statement": "According to Chile Precolombino, the divine serpent came to help them, and thus began the battle between Kai Kai and Treng Treng.",
+          "statement_id": "Menurut Chile Precolombino, ular ilahi datang menolong mereka, dan begitulah pertarungan Kai Kai dan Treng Treng dimulai.",
+          "quote": "It was the divine serpent come to help them. And thus began the battle between Kai Kai and Treng Treng.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c09",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s3",
+          "host": "chileprecolombino.cl",
+          "statement": "According to Chile Precolombino, seeing he was vanquished, Kai Kai sank back into the depths of the sea and has never been seen again.",
+          "statement_id": "Menurut Chile Precolombino, melihat dirinya terkalahkan, Kai Kai tenggelam kembali ke dasar laut dan tak pernah terlihat lagi.",
+          "quote": "Seeing he was vanquished, Kai Kai sank back into the depths of the sea, and has never been seen again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c10",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s3",
+          "host": "chileprecolombino.cl",
+          "statement": "According to Chile Precolombino, ever since, whenever the earth shakes and the sea floods the land, or the rain lashes down and rivers and lakes rise, the Mapuche hear Kai Kai's cry.",
+          "statement_id": "Menurut Chile Precolombino, sejak saat itu setiap kali bumi berguncang dan laut membanjiri daratan, atau hujan mendera dan sungai serta danau meluap, orang Mapuche mendengar teriakan Kai Kai.",
+          "quote": "since that time, whenever the earth shakes and the sea floods the land, or when the rain lashes down from the heavens and the rivers and lakes rise up, the Mapuches hear Kai Kai",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c11",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Mapuche say the two snakes were originally the children of the most powerful pillans, converted into their animal forms as punishment.",
+          "statement_id": "Menurut Wikipedia, orang Mapuche menyebut kedua ular itu semula anak-anak pillán yang paling berkuasa, yang diubah menjadi wujud hewan sebagai hukuman.",
+          "quote": "According to the Mapuche, the two snakes were originally the children of the most powerful pillans, who were converted into their animal forms as punishment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c12",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, as the sea kept rising, Trentren had to order the hills to grow in height to counteract Caicai's power.",
+          "statement_id": "Menurut Wikipedia, ketika laut terus naik, Trentren harus memerintahkan bukit-bukit bertambah tinggi untuk melawan kekuatan Caicai.",
+          "quote": "But as the sea continued to rise, Trentren had to order the hills to increase in height to counteract the power of Caicai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c13",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Chiloé tradition Caicai was satisfied with the land he had managed to flood and delegated his sea-related functions to the great Millalobo.",
+          "statement_id": "Menurut Wikipedia, dalam tradisi Chiloé Caicai puas dengan bagian daratan yang berhasil dibanjirinya dan menyerahkan tugas-tugasnya atas laut kepada Millalobo yang agung.",
+          "quote": "According to Chiloé tradition, Caicai was satisfied with the portion of land that he had managed to flood, and delegated his functions pertaining to the sea to the great Millalobo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c14",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Tolten region version Trentren was a hill and a good spirit that helped people, while Caicai was a sea bird, an evil spirit that harmed people.",
+          "statement_id": "Menurut Wikipedia, dalam versi wilayah Tolten Trentren adalah sebuah bukit sekaligus roh baik yang menolong manusia, sedangkan Caicai adalah burung laut, roh jahat yang mencelakai manusia.",
+          "quote": "Trentren was a hall and also a good spirit which helped people. Caicai was a sea bird, an evil spirit, who used to harm people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c15",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Argentina there are other, later versions that change the original parents of the two snakes, indicating they are brothers and/or sons of the gods Nguenechèn and Kueyen.",
+          "statement_id": "Menurut Wikipedia, di Argentina ada versi lain yang lebih belakangan yang mengubah orang tua kedua ular itu, menyebut mereka saudara dan/atau anak para dewa Nguenechèn dan Kueyen.",
+          "quote": "In Argentina there are other later versions of the myth, which change the original parents of both mythical snakes, indicating that they would be brothers and/or sons of the gods Nguenechèn and Kueyen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "legend-of-trentren-vilu-and-caicai-vilu-c16",
+          "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the myth has been geologically interpreted as a narrative linked to the volcanism of the Southern Volcanic Zone.",
+          "statement_id": "Menurut Wikipedia, mitos ini ditafsirkan secara geologis sebagai narasi yang terkait dengan vulkanisme Zona Vulkanik Selatan.",
+          "quote": "This myth has been geologically interpreted as a narrative linked to the volcanism of the Southern Volcanic Zone",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ce9731dc79d0963c480e1f1db849bb577b98ad26e8ef020c0a15d47664b1b8ad"
+      "images": []
     },
     {
       "slug": "mani-mythology",

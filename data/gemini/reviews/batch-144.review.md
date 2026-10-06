@@ -1,6 +1,6 @@
 # Review batch-144
 
-Diperiksa 2026-10-06T06:12:23.653Z. Berkas: batch-144.md, batch-144-fix-1.md, batch-144-fix-2.md.
+Diperiksa 2026-10-06T06:34:55.766Z. Berkas: batch-144.md, batch-144-fix-1.md, batch-144-fix-2.md, batch-144-fix-3.md.
 
 ## arnakuagsak — skip
 
@@ -115,38 +115,45 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## chessie-sea-monster — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chessie-sea-monster-c01 | exact | en.wikipedia.org | In American folklore, Chessie is a sea monster said to live in Chesapeake Bay. | In American folklore, Chessie is a sea monster said to live in the midst of the Chesapeake Bay. |
 | chessie-sea-monster-c02 | exact | en.wikipedia.org | Sighting claims appear in local media and regional books from 1936 on. | Claims of sightings appear in local media and regionally-themed books from 1936 onward. |
 | chessie-sea-monster-c03 | exact | en.wikipedia.org | Over time Chessie became an environmental icon tied to the bay's ecological health. | Over time, the figure developed into an environmental icon. Chessie is associated with the ecological health of the Chesapeake Bay |
+| chessie-sea-monster-c04 | exact | userpages.umbc.edu | Reports repeatedly describe Chessie as serpentine, about twenty-five to forty feet long and eight to ten inches in diameter, with an elliptical or football-shaped head. | has been repeatedly described as serpentine, about twenty-five to forty feet in length, eight to ten inches in diameter, and possessing an elliptical or football-shaped head. |
+| chessie-sea-monster-c05 | exact | userpages.umbc.edu | According to the page author, Chessie's notoriety only really surfaced in 1978, when Virginia newspapers began printing contemporary sightings. | Chessie's notoriety really surfaced as recently as 1978 when Virginia newspapers began printing contemporary sightings of the beast. |
+| chessie-sea-monster-c06 | exact | userpages.umbc.edu | On May 31, 1982, Maryland resident Robert Frew videotaped a long, dark, serpent-like creature swimming in Chesapeake Bay about 100 feet off the bulkhead of his Kent Island home. | until May 31, 1982. On that date around 7:30 PM, Maryland resident Robert Frew videotaped a long, dark, serpent-like creature swimming in the Chesapeake Bay, about 100 feet off the bulkhead of his Kent Island home. |
+| chessie-sea-monster-c07 | exact | userpages.umbc.edu | Scientists at the Smithsonian's Museum of Natural History, including Dr. George Zug, examined the Frew videotape and, although intrigued, could reach no conclusions. | an audience with Dr. George Zug and other scientists at the Smithsonian Institution's Museum of Natural History. After thoroughly examining the tape the scientists, although intrigued by what it apparently depicted, were unable to reach any conclusions |
+| chessie-sea-monster-c08 | exact | en.wikipedia.org | The Wikipedia article judges a 1936 Chessie sighting from a helicopter unlikely, if not impossible, since the earliest Sikorsky helicopter flight was near Stratford, Connecticut in 1939. | However, a Chessie sighting from a helicopter in 1936 seems unlikely, if not impossible, as the earliest Sikorsky helicopter flight was near Stratford, Connecticut in 1939. |
+| chessie-sea-monster-c09 | exact | en.wikipedia.org | A sketch of an unknown sea creature by boater Trudy Guthrie was published by the Evening Sun in September 1980 and was later identified as a manatee from Florida. | A sketch of an unknown sea creature, drawn by boater Trudy Guthrie, was published by the Evening Sun in September 1980. It was later identified as a manatee from Florida. |
+| chessie-sea-monster-c10 | exact | en.wikipedia.org | As an environmental icon of Chesapeake Bay, Chessie was used by the U.S. Fish and Wildlife Service in its 1986 educational coloring book Chessie: A Chesapeake Bay Story. | Chessie, as an environmental icon for the Chesapeake Bay, was used by the U.S. Fish and Wildlife Service for its educational coloring book in 1986, Chessie: A Chesapeake Bay Story. |
 
 
 ## chullachaki — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chullachaki-c01 | exact | en.wikipedia.org | The Chullachaki is a mythical forest creature of the Peruvian and Brazilian Amazon. | is a mythical forest creature of the Peruvian and Brazilian Amazonian jungle. |
 | chullachaki-c02 | exact | en.wikipedia.org | He is short and ugly, with one leg shorter and one foot larger, backward-pointing or hoof-shaped. | He is generally described as short and ugly, with one leg shorter than the other and one foot either larger than the other, pointed backward or in the form of a hoof. |
 | chullachaki-c03 | exact | en.wikipedia.org | He lures victims deep into the jungle disguised as a family member, a long-unseen loved one or a prey animal. | He does this by taking the form of a family member or a loved one long not seen, or disguising himself as a prey animal. |
+| chullachaki-c04 | exact | dialnet.unirioja.es | According to this journal article, the Chullachaqui is a mythological being of the forest, a short duende (goblin-like being) with animal feet, and a protector of the forest. | Ser mitológico que habita la selva, tiene la característica física de un duende bajito con los pies de un animal, él es protector de la selva. |
+| chullachaki-c05 | exact | dialnet.unirioja.es | The journal article compares the curupira and chullachaqui myths: both are mystical protectors of the forest and its animals which, by popular belief, can transform into a person close to whomever they wish to deceive. | En ambos existe la figura de un ser místico protector de la selva y sus animales, esto ser, según la creencia popular puede sufrir metamorfosis y asumir la forma física de una persona próxima a quien él desea engañar. |
+| chullachaki-c06 | exact | dialnet.unirioja.es | The article says the curupira and chullachaqui are not evil; they only harm those who try to disturb nature. | Pero ellos no son malos, solo causan daños a quien intenta molestar la naturaleza. |
+| chullachaki-c07 | exact | www.iquitosnews.com | According to the Iquitos legend, to a child the Chullachaqui often appears as another child or playmate. | To a child, the Chullachaqui will often appear as another child or playmate. |
+| chullachaki-c08 | exact | www.iquitosnews.com | According to the Iquitos legend, the only way to discover the Chullachaqui's true identity is to look at his feet, as one of them is club-shaped. | The only way to discover Chullachaqui's true identity is to look at his feet, as one of his feet is club-shaped. |
+| chullachaki-c09 | exact | noticias.madrededios.com | Biologist Velásquez explains that communities believe the Chullachaqui is the mother of the forest and must therefore be respected and, to a degree, feared. | Velásquez detalla que las comunidades creen que el Chullachaqui es la madre del bosque y que, por ende, se le debe que respetar y, hasta cierto punto, tener temor. |
+| chullachaki-c10 | exact | en.wikipedia.org | Others say he appears as a very short man dressed in rags, waving his closed fists in the air looking for a fight. | Others say that he appears in the shape of a very short man dressed in rags, waving his closed fists in the air looking for a fight. |
+| chullachaki-c11 | exact | en.wikipedia.org | Whoever declines this challenge is said to be cursed with the inability to hunt and with foul luck. | He who declines this challenge is cursed with the inability to hunt and with foul luck |
+| chullachaki-c12 | exact | www.iquitosnews.com | According to the Iquitos legend, in this disguise the evil Chullachaqui tries to lure the child into the forest to become lost. | In this disguise, the evil Chullachaqui will attempt to lure the child into the forest to become lost. |
 
 
 ## ciguapa — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -154,6 +161,20 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ciguapa-c02 | exact | en.wikipedia.org | She is typically a backward-footed nude woman with knee-length hair who seduces men wandering the forests at night. | it is typically described as a back-footed nude woman with knee-length hair, with siren-like magic powers of attraction, seducing men that wander the forests at night. |
 | ciguapa-c03 | exact | en.wikipedia.org | Her legendary home is the forests and rivers of the El Cibao mountains. | The ciguapa's legendary home are the forests and rivers in the mountains of El Cibao. |
 | ciguapa-c04 | exact | en.wikipedia.org | The legend is generally held to have first been written in 1866 by Francisco Javier Angulo Guridi; whether it comes from Taíno mythology is disputed. | While the legend is largely accepted to have been first written in 1866 by Francisco Javier Angulo Guridi, it is disputed whether the legend stems from Taíno mythology |
+| ciguapa-c05 | exact | cvc.cervantes.es | According to the Instituto Cervantes, a ciguapa is identified by looking at her feet, which leave tracks contrary to the direction she is heading. | mirar a sus pies, pues los tienen al ... dejan huellas contrarias al rumbo que llevan. |
+| ciguapa-c06 | exact | cvc.cervantes.es | Ciguapas bewitch men with their beauty, eyes, and song, love them to satiety, and then kill them. | Ellas embrujan a los hombres con su hermosura, sus ojos y su canto, los aman hasta la saciedad y luego los matan. |
+| ciguapa-c07 | exact | cvc.cervantes.es | According to the Instituto Cervantes, Dominicans keep this legend very much alive. | Los dominicanos tienen muy viva esta leyenda |
+| ciguapa-c08 | exact | cvc.cervantes.es | Ciguapas have never been seen to speak, but they emit a strange sort of soft, musical howls. | Nunca se les ha visto hablar, pero ... emitir una suerte rara de aullidos suaves y musicales |
+| ciguapa-c09 | exact | cvc.cervantes.es | According to the article, there is a secret way to catch a ciguapa: chase her on full-moon nights with a white-and-black spotted dog that has five toes on each paw. | existe una forma secreta de atrapar una Ciguapa y esta es perseguirla, en noches de luna llena, con un perro de manchas blancas y negras, pero que sea ... es decir, que tenga cinco dedos en cada pata. |
+| ciguapa-c10 | exact | en.wikipedia.org | According to Wikipedia, hunting the ciguapa is presented as ultimately pointless, as the ciguapa dies quickly in confinement. | However, hunting the ciguapa is presented as ultimately pointless, as the ciguapa dies quickly in confinement. |
+| ciguapa-c11 | exact | cvc.cervantes.es | According to the article, some say the ciguapa has a body covered in very fine hair, while others say she is tall, slender, and long-legged. | otros indican que tienen el cuerpo cubierto de vellos muy finos, otros ... afirman que son altas, delgadas y de piernas largas |
+| ciguapa-c12 | exact | cvc.cervantes.es | According to the Instituto Cervantes article, the origin of the ciguapa myth apparently lies in the legends of the Antillean Arawaks and the pre-Columbian peoples who arrived. | Al parecer, el origen del mito de las ciguapas son las leyendas ... de los arahuacos antillanos, de los ... y de los pueblos precolombinos llegados a |
+| ciguapa-c13 | exact | en.wikipedia.org | According to Wikipedia, there is no explicit historical record of the ciguapa before Guridi's 1866 novel, neither in Spanish colonial literature nor in indigenous cultural artifacts such as Taíno cave paintings. | There has been no explicit historical record of the ciguapa prior to Guridi's 1866 novel, neither in Spanish colonial literature nor in any indigenous cultural artifacts, for example Taíno cave paintings. |
+| ciguapa-c14 | exact | en.wikipedia.org | In the 21st century, the ciguapa as introduced by Francisco Javier Angulo Guridi has been contended to be fakelore, an invented myth presenting itself as traditional. | In the 21st century, the ciguapa as introduced by Francisco Javier Angulo Guridi has been contended as fakelore, an invented myth presenting itself as traditional. |
+| ciguapa-c15 | exact | en.wikipedia.org | According to the 1951 edition of a Taíno-language glossary, "ciguapa" is a corruption of Ciguayo; historian José Juan Arrom disagrees, saying the word has no indigenous origin. | according to the 1951 edition of the Taíno language glossary Palabras indígenas de la isla de Santo Domingo (Indigenous Words of the Island of Santo Domingo), "ciguapa" is a corruption of Ciguayo; Latin-American historian José Juan Arrom disagrees, saying that the word has no indigenous origin. |
+| ciguapa-c16 | exact | en.wikipedia.org | In 1949 in Paris, Dominican artist Jaime Colson made the first recognized artwork of the ciguapa, entitled Baquiní y la ciguapa del Camú. | In 1949 in Paris, Dominican artist Jaime Colson made the first recognized artwork of the ciguapa, entitled Baquiní y la ciguapa del Camú |
+| ciguapa-c17 | exact | en.wikipedia.org | During the regime of dictator Rafael Trujillo, the ciguapa was further entrenched in the national mythos to support the state goal of mestizaje. | During the regime of dictator Rafael Trujillo, the ciguapa was further entrenched into the national mythos to support the state goal of mestizaje. |
+| ciguapa-c18 | exact | en.wikipedia.org | In Julia Alvarez's The Secret Footprints (2002), a child ciguapa and a human boy are mutually fascinated. | Julia Alvarez's The Secret Footprints (2002), a child ciguapa is mutually fascinated by a human boy |
 
 
 ## fouke-monster — lulus-otomatis
@@ -183,16 +204,22 @@ Klaim 17 (exact 17), sumber 2, gambar 0.
 
 ## headless-mule — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | headless-mule-c01 | loose | en.wikipedia.org | The Headless Mule (mula sem cabeça) is a mythical character of Brazilian folklore. | The Headless Mule (Portuguese: mula sem cabeça, pronounced [ˈmulɐ ˈsẽj kɐˈbesɐ]) is a mythical character in Brazilian folklore. |
 | headless-mule-c02 | exact | en.wikipedia.org | The myth is believed to be medieval (around the 12th century) and brought to Brazil in the early colonial era. | Though the myth is believed to have a medieval origin (around the 12th century), and to have been brought to Brazil in the early colonial era (16th century or later). |
 | headless-mule-c03 | exact | en.wikipedia.org | Its silver or iron horseshoes make a hideous trotting louder than any horse. | It has silver (or iron) horseshoes that produce a hideous trotting, louder than any horse is capable of producing. |
+| headless-mule-c04 | exact | archive.org | According to Câmara Cascudo, the Mula-Sem-Cabeça is the form taken by a priest's concubine. | Mula-Sem-Cabeça. É a forma que toma a concubina do sacerdote. |
+| headless-mule-c05 | exact | archive.org | According to Cascudo, it throws sparks of fire from its nostrils and mouth. | Lança chispas de fogo pelas narinas e pela boca. |
+| headless-mule-c06 | exact | archive.org | According to Cascudo, the violence of its gallop (galope) and the shrillness of its neighing (relincho) are heard for a long time (longamente). | A violência do galope e a estridência do relincho são ouvidas longamente. |
+| headless-mule-c07 | exact | archive.org | According to Cascudo, it is said to be headless, but the neighing is inevitable. | Dizem-na sem cabeça, mas os relinchos são inevitáveis. |
+| headless-mule-c08 | exact | archive.org | According to Cascudo, the mule (mula) runs (corre) through seven (sete) freguesias (parishes) each night (noite). | A mula corre sete freguesias em cada noite |
+| headless-mule-c09 | exact | archive.org | According to Cascudo, the enchantment ends when someone has the courage to pull the iron bridle (freio de ferro) off its head. | quando alguém tiver a coragem de arrancar-lhe da cabeça o freio de ferro que leva. |
+| headless-mule-c10 | exact | archive.org | According to Cascudo, Gustavo Barroso supposes the myth's origin comes from the exclusive use of mules as riding animals of prelates. | Gustavo Barroso supõe que a origem do mito provenha do uso privativo das mulas como animais de condução dos |
+| headless-mule-c11 | exact | archive.org | According to Cascudo, the change takes place on the night (noite) from Thursday to Friday (quinta para sexta-feira), into a strong animal (forte animal). | Na noite de quinta para sexta-feira, ... num forte animal, |
+| headless-mule-c12 | exact | en.wikipedia.org | Wikipedia says the term "Headless Mule" was first recorded in the 1940s. | The term "Headless Mule" was first recorded in the 1940s. |
 
 
 ## mboi-tu-i — lulus-otomatis
@@ -318,15 +345,22 @@ Klaim 19 (exact 16, loose 3), sumber 3, gambar 0.
 
 ## highgate-vampire — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | highgate-vampire-c01 | exact | en.wikipedia.org | The Highgate Vampire was a 1970s media sensation over reported supernatural activity at Highgate Cemetery in London. | The Highgate Vampire was a media sensation surrounding reports of supposed supernatural activity at Highgate Cemetery in London, England, United Kingdom, in the 1970s. |
 | highgate-vampire-c02 | exact | en.wikipedia.org | The fullest account is by folklorist Bill Ellis in the journal Folklore (1993). | The most thorough account of the story is given by folklorist Bill Ellis in the journal Folklore, published in 1993. |
+| highgate-vampire-c03 | exact | en.wikipedia.org | According to Wikipedia, the reported ghosts were described as a tall man in a hat, a spectral cyclist, a woman in white, a face glaring through the bars of a gate, a figure wading into a pond, a pale gliding form, bells ringing, and voices calling. | These ghosts were described as a tall man in a hat, a spectral cyclist, a woman in white, a face glaring through the bars of a gate, a figure wading into a pond, a pale gliding form, bells ringing, and voices calling. |
+| highgate-vampire-c04 | exact | en.wikipedia.org | According to Wikipedia, Sean Manchester claimed Farrant's "grey figure" was a vampire and the media quickly latched on. | Sean Manchester claimed Farrant's "grey figure" was a vampire and the media quickly latched on |
+| highgate-vampire-c05 | exact | en.wikipedia.org | According to Wikipedia, within two hours a mob of "hunters" from all over London and beyond swarmed over gates and walls into the locked cemetery despite police efforts to control them. | within two hours a mob of 'hunters' from all over London and beyond swarmed over gates and walls into the locked cemetery, despite police efforts to control them. |
+| highgate-vampire-c06 | exact | en.wikipedia.org | According to Wikipedia, Farrant was jailed for four years and eight months in July 1974 for damaging memorials and interfering with dead remains in Highgate Cemetery. | Farrant was jailed for four years and eight months in July 1974 for damaging memorials and interfering with dead remains in Highgate Cemetery |
+| highgate-vampire-c07 | exact | en.wikipedia.org | According to Wikipedia, the feud between Farrant and Manchester continued for decades, marked by insults and vindictiveness, until Farrant's death in April 2019. | Their feud continued for decades, marked by insults and vindictiveness, until Farrant's death in April 2019. |
+| highgate-vampire-c08 | exact | en.wikipedia.org | According to author Bill Ellis, the Hammer Horror film Dracula AD 1972, starring Christopher Lee and Peter Cushing, was inspired by the Highgate Vampire. | According to author Bill Ellis, the Hammer Horror film Dracula AD 1972, starring Christopher Lee and Peter Cushing, was inspired by the Highgate Vampire. |
+| highgate-vampire-c09 | exact | faroutmagazine.co.uk | According to Far Out Magazine, the British Psychic and Occult Society began receiving reports of a tall black apparition stalking the tombs of London. | the British Psychic and Occult Society began receiving reports of a tall black apparition stalking the tombs of London |
+| highgate-vampire-c10 | exact | faroutmagazine.co.uk | According to Far Out Magazine, the Hampstead and Highgate Express in February 1970 ran an article suggesting the local sightings were proof of a vampire and of occult activity in Highgate. | in which they suggested the local sightings were proof of a vampire and evidence of occult activity in Highgate cemetery. |
+| highgate-vampire-c11 | exact | faroutmagazine.co.uk | According to Far Out Magazine, Farrant remained unconvinced, blaming the sightings on mass hysteria generated by the press. | Farrant, on the other hand, remained unconvinced, blaming the sightings on mass hysteria generated by the press. |
+| highgate-vampire-c12 | exact | faroutmagazine.co.uk | According to Far Out Magazine, in August 1970 two schoolgirls stumbled across the 100-year-old corpse of a woman who had been dragged from her coffin, decapitated, staked through the heart, and left in the middle of the pathway. | In the August of 1970, two schoolgirls stumbled across the 100-year-old corpse of a woman who had been dragged from her coffin, decapitated, staked through the heart, and left in the middle of the pathway. |
 
 
 ## monai — lulus-otomatis
@@ -671,27 +705,32 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## dzahui — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dzahui-c01 | exact | en.wikipedia.org | In Mixtec mythology, Dzahui (also Dzavui) is the rain god, offered child sacrifices on hilltops in times of drought, disease and harvest. | In Mixtec mythology, Dzahui (also spelled Dzavui) is the god of rain, for whom child sacrifices were performed on hilltops during times of drought, disease, and harvest. |
 | dzahui-c02 | exact | en.wikipedia.org | In Mixtec codices Dzahui wears the blue or green rain goggle mask also seen on Tlaloc. | In Mixtec codices, Dzahui exhibits the blue or green rain goggle mask also seen on the central Mexican deity Tlaloc. |
+| dzahui-c03 | exact | en.wikipedia.org | Dzahui is depicted with exposed incisor teeth and longer, somewhat curled jaguar canine teeth emerging from curled lips. | He possesses exposed teeth incisors and longer, somewhat curled jaguar canine teeth emerging from curled lips. |
+| dzahui-c04 | exact | en.wikipedia.org | The tutelary god of the Mixtecs was Dzahui (literally "Rain"), divinity of rain and celestial water. | The tutelary god of the Mixtecs was Dzahui (literally Rain), divinity of rain and celestial water. |
+| dzahui-c05 | exact | en.wikipedia.org | The cult of rain was so important to the Mixtecs that their native name means "people of the rain", that is, the people chosen by Dzahui. | The cult of rain was so important for the Mixtecs that their native name qualifies them as the people of rain, that is, the people chosen by Dzahui. |
+| dzahui-c06 | exact | en.wikipedia.org | He shares many attributes with Tlaloc of central Mesoamerica, who was venerated by the Teotihuacan, Toltec, and Mexica and appears on numerous effigy vessels found especially in Highland Mixteca. | He shares many attributes with the Tlaloc of central Mesoamerica, venerated by the Teotihuacan, Toltec, and Mexica and who appears on numerous effigy vessels found especially in Highland Mixteca. |
+| dzahui-c07 | exact | en.wikipedia.org | The cult of Dzahui among the Mixtec is very ancient, appearing at the end of the Late Preclassic, between the 5th century BC and the 2nd century AD. | The cult of Dzahui in the Mixtec is very ancient, its appearance dates back to the end of the Late Preclassic, that is, between the 5th century BC and 2nd century AD. |
+| dzahui-c08 | exact | www.worldhistory.org | World History Encyclopedia states that in the various Mesoamerican cultures Tláloc appears as Dzahui for the Mixtec and as Cocijo for the Zapotec. | In the various Mesoamerican cultures Tláloc appears as Dzahui for the Mixtec, ... Cocijo for the Zapotec. |
 
 
 ## eeyeekalduk — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | eeyeekalduk-c01 | exact | en.wikipedia.org | In Inuit mythology, Eeyeekalduk was the god of medicine and good health. | In Inuit mythology, Eeyeekalduk was the god of medicine and good health. |
+| eeyeekalduk-c02 | exact | www.mythicjourneys.org | The Big Myth records Eeyeekalduk as the god of healing. | EEYEEKALDUK was the god of healing. |
+| eeyeekalduk-c03 | exact | www.mythicjourneys.org | According to The Big Myth, the Inuit pantheon varies slightly depending on where the particular Inuit live. | The Inuit Pantheon varies slightly, depending on where the particular Inuit live. |
+| eeyeekalduk-c04 | exact | en.wikipedia.org | Wikipedia lists Eeyeekalduk under Inuit in its list of health deities, as god of medicine and good health. | Eeyeekalduk, god of medicine and good health |
+| eeyeekalduk-c05 | exact | en.wikipedia.org | Inuit religion is the traditional religion of certain circumpolar peoples, practised in Inuit communities in parts of Chukotka, Alaska, northern Canada, and Greenland. | Inuit religion is the traditional religion of certain circumpolar peoples. It is practised within Inuit communities in parts of Chukotka, Alaska, northern Canada, and Greenland. |
+| eeyeekalduk-c06 | exact | en.wikipedia.org | In Inuit religion, ritual specialists known as angakut mediated between humanity and the spirits and performed rituals for healing. | an important role was played by ritual specialists known as angakut (sing. angakoq), who mediated between humanity and the spirits. They performed rituals for healing |
 
 
 ## el-hombre-caiman — lulus-otomatis
@@ -716,16 +755,23 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## enfield-monster — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | enfield-monster-c01 | exact | en.wikipedia.org | The Enfield Monster is an unidentified creature reported around Enfield, Illinois, in April 1973. | The Enfield Monster is an unidentified creature reported around Enfield, Illinois, United States in April 1973. |
 | enfield-monster-c02 | exact | en.wikipedia.org | The media covered the reports, some suggesting a wild ape or escaped kangaroo. | The reports were covered by the news media at the time, with some suggesting they may have been caused by a wild ape or escaped kangaroo. |
 | enfield-monster-c03 | exact | en.wikipedia.org | Sociologists cite the episode as an example of collective behavior. | the episode is cited by sociologists as an example of collective behavior |
+| enfield-monster-c04 | exact | en.wikipedia.org | According to Wikipedia, at about 10 pm on April 25, 1973, Henry McDaniel heard a scratching sound at his front door. | At about 10pm on the night of April 25, 1973, Henry McDaniel heard a scratching sound at his front door. |
+| enfield-monster-c05 | exact | en.wikipedia.org | McDaniel later said the creature had three legs, a short body, two little short arms, and pink eyes as big as flashlights, stood four and a half feet tall, and was grayish. | It had three legs on it, a short body, two little short arms, and two pink eyes as big as flashlights. It stood four and a half feet tall and was grayish-colored. |
+| enfield-monster-c06 | exact | www.pbs.org | According to the PBS Monstrum transcript, Henry described the creature as pink-eyed, large-headed, dirty gray, hairy, and about four or five feet tall. | Henry described the creature as having pink eyes, a large head, was a dirty-ish gray color, hairy, about four or five feet tall. |
+| enfield-monster-c07 | exact | www.pbs.org | According to PBS, the search revealed tracks in the ground that looked like a dog's paw but with six toe pads. | Their search revealed tracks in the ground that looked like a dog's paw, but with six toe pads. |
+| enfield-monster-c08 | exact | en.wikipedia.org | The researchers found no more than three firsthand reports, later exaggerated by news stories and local gossip into an "epidemic." | The researchers found there were no more than three firsthand reports that had subsequently been exaggerated by news stories and local gossip into an "epidemic." |
+| enfield-monster-c09 | exact | www.pbs.org | According to PBS, a letter was sent to a nearby newspaper by a man claiming his pet kangaroo Macey had gone missing about a year earlier in Ohio. | a letter was sent to a nearby newspaper from a man claiming that his pet kangaroo Macey had gone missing about a year prior in Ohio. |
+| enfield-monster-c10 | exact | www.pbs.org | According to PBS, the sociologists concluded that Enfield was not a classic case of mass hysteria. | The sociologists concluded that Enfield was not a classic case of mass hysteria. |
+| enfield-monster-c11 | exact | en.wikipedia.org | In 1978 researchers at Western Illinois University headed by David L. Miller investigated and analyzed the incident, publishing it as a case study in social contagion. | In 1978 researchers at Western Illinois University headed by David L. Miller investigated and analyzed the incident, publishing it as a case study in social contagion. |
+| enfield-monster-c12 | exact | en.wikipedia.org | Two weeks later, on May 6, McDaniel called radio station WWKI claiming to have seen the creature again at 3 a.m. that morning. | Two weeks later on May 6, McDaniel called the radio station WWKI claiming to have seen the creature again, at 3 a.m. that morning. |
+| enfield-monster-c13 | exact | www.pbs.org | According to PBS, that was the first night of what would become known as the Enfield Horror. | It was the first night in what would become known as the Enfield Horror. |
 
 
 ## gaasyendietha — lulus-otomatis
@@ -754,30 +800,53 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## jasy-jatere — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 19 (exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | jasy-jatere-c01 | exact | en.wikipedia.org | Jasy Jatere is an important figure of Guaraní mythology, one of the seven cursed children of Tau and Kerana and among the most important Guaraní gods, especially in Paraguay. | is an important figure in Guaraní mythology. One of the seven cursed children of Tau and Kerana, Jasy Jatere is one of the most important gods among the Guaraní speaking cultures of South America, especially in Paraguay. |
 | jasy-jatere-c02 | exact | en.wikipedia.org | His name means "a little piece of the moon"; unlike his brothers, he is not monstrous. | Jasy Jatere, which means literally "a little piece of the moon", is unique among his brothers in that he does not have a monstrous appearance. |
 | jasy-jatere-c03 | exact | en.wikipedia.org | He is usually a small man or child with light blond hair and sometimes blue eyes. | He is usually described as being a small man or perhaps a child, with light blonde hair and sometimes blue eyes. |
+| jasy-jatere-c04 | exact | www.portalguarani.com | According to the Museo Mitológico Ramón Elías text, he is the child-genius of hot siestas who wanders cheerfully through Guaraní forests and valleys and is the lord of the countryside siestas. | Este niño-genio de las siestas calurosas que transita alegremente por las selvas y valles guaraníes, es el señor de las siestas campesinas. |
+| jasy-jatere-c05 | exact | www.portalguarani.com | According to the museum text, Jasy Jatere is almost always invisible, sending a sharp whistle into the wind. | JASY JATERE casi siempre anda invisible lanzando al viento un agudo silbido. |
+| jasy-jatere-c06 | exact | www.portalguarani.com | According to the museum text, country people also consider him a protector of birds, wild fruits, and animals. | La gente del campo también le considera protector de las aves, de frutas silvestres y de los animales. |
+| jasy-jatere-c07 | exact | www.portalguarani.com | According to the museum text, Jasy Jatere's kiss burns and destroys like fire and no human being can bear it. | Aquel beso quema y destruye como el fuego. Ningún ser humano puede soportarlo. |
+| jasy-jatere-c08 | exact | en.wikipedia.org | According to Wikipedia, Jasy Jatere is also considered the lord of the siesta, the traditional mid-day nap taken in many Latin American cultures. | Jasy Jatere is also considered to be the lord of the siesta, the traditional mid-day nap taken in many Latin American cultures. |
+| jasy-jatere-c09 | exact | en.wikipedia.org | According to Wikipedia, he is considered the protector of the yerba mate plant and sometimes also a protector of hidden treasures. | he is considered to be the protector of the yerba mate plant. Sometimes he is also viewed as a protector of hidden treasures. |
+| jasy-jatere-c10 | exact | www.portalguarani.com | According to the Pérez-Maricevich compilation, Jasy jateré ("fragment of moon") is considered the Guaraní Cupid and bearer of fertility. | A Jasy jateré (fragmento de luna) se lo considera el Cupido guaraní y portador de la fecundidad. |
+| jasy-jatere-c11 | exact | www.portalguarani.com | According to the compilation, he is believed to live in hollows of the trunks of large forest trees. | Se cree que vive en huecos de troncos de grandes árboles del bosque. |
+| jasy-jatere-c12 | exact | www.portalguarani.com | According to the compilation, Jasy-jateré attracts children with his whistle or by touching them with his staff. | El Jasy-jateré atrae a los niños con su silbato o tocándolos con su bastón |
+| jasy-jatere-c13 | exact | www.portalguarani.com | According to the compilation, he abducts children to the forest, keeps them for a time, feeds them wild honey and fruit, plays with them, and finally releases them or leaves them tangled in ysypó (liana). | Los rapta y los lleva al bosque dónde los retiene durante algún tiempo, los alimenta con miel silvestre y frutas, juega con ellos y al fin los suelta o los deja enredados en ysypó (liana) |
+| jasy-jatere-c14 | exact | www.portalguarani.com | According to the compilation, the children afterwards become foolish, mute, or deaf-mute, but recover after some time. | pero los niños ya se han vuelto tontos o idiotas (tavy: aka tavy), mudos (ne'engú) o sordomudos; se recuperan después de un cierto tiempo. |
+| jasy-jatere-c15 | exact | www.portalguarani.com | According to the compilation, when Yasy-jateré loses his little staff and whistle he becomes harmless, having lost his magic power. | Cuando Yasy-jateré pierde su bastoncillo y su silbato se vuelve inofensivo, porque perdió su poder mágico. |
+| jasy-jatere-c16 | exact | en.wikipedia.org | According to Wikipedia, still more gruesome tales say the children are brought to his brother Ao Ao, a cannibalistic creature who feeds on their flesh. | Still more gruesome tales say that the children are brought back to his brother Ao Ao, a cannibalistic creature who feeds upon their flesh. |
+| jasy-jatere-c17 | exact | en.wikipedia.org | According to Wikipedia, in the fairer version Jasy Jatere is a friend of such disobedient children, taking them to hidden places in the forest to play and feeding them honey and fruit. | In the fairer version of the tale, Jasy Jatere is considered a friend of such disobedient children, taking them into hidden places in the forest to play and feeding them with honey and fruit. |
+| jasy-jatere-c18 | exact | www.portalguarani.com | According to the compilation, mothers often frighten children with Jasy-jateré so they do not run away from home during siestas. | Las madres suelen amedrentar a los niños con el Jasy-jateré para no escapar de casa durante las siestas |
+| jasy-jatere-c19 | exact | en.wikipedia.org | According to Wikipedia, Paraguayan parents are known to warn their children not to wander off alone during siesta to avoid being kidnapped by Jasy Jatere. | Paraguayan parents are known to warn their children not to wander off alone during siesta to prevent being kidnapped by Jasy Jatere. |
 
 
 ## legend-of-trentren-vilu-and-caicai-vilu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | legend-of-trentren-vilu-and-caicai-vilu-c01 | exact | en.wikipedia.org | The legend of Trentren Vilu and Caicai Vilu is a Mapuche flood myth of a fierce battle between two mythical snakes. | is a Mapuche flood myth that tells the story of a fierce battle between two mythical snakes, Trentren Vilu and Caicai Vilu. |
 | legend-of-trentren-vilu-and-caicai-vilu-c02 | exact | en.wikipedia.org | It explains the unique geography of the Chiloé archipelago and southern Chile's mountains. | It explains how the Chilóe archipelago and mountains of southern Chile came to have its unique geography. |
 | legend-of-trentren-vilu-and-caicai-vilu-c03 | exact | en.wikipedia.org | Caicai was sent to care for the sea with the Ngen-ko water spirits, and Trentren to live on land. | Caicai was sent to live in the sea to help care for it with the Ngen-ko (water spirits), and Trentren was sent to live on earth |
+| legend-of-trentren-vilu-and-caicai-vilu-c04 | exact | museo.precolombino.cl | According to the Museo Chileno de Arte Precolombino, Caicai and Trentren are two serpents in Mapuche stories; Caicai lives in the sea and Trentren resides on land. | Caicai y Trentren son dos serpientes que aparecen en los relatos mapuches. Caicai vive en el mar y Trentren reside en la tierra. |
+| legend-of-trentren-vilu-and-caicai-vilu-c05 | exact | museo.precolombino.cl | According to the museum, the sea-quakes and earthquakes that periodically strike the territory are held to be manifestations of the antagonism between Caicai and Trentren. | Los maremotos y terremotos que asolan el territorio de tiempo en tiempo ... antagonismo entre Caicai y Trentren. |
+| legend-of-trentren-vilu-and-caicai-vilu-c06 | exact | chileprecolombino.cl | According to Chile Precolombino, an enormous serpent rose up from the sea and began crying "kai, kai, kai", louder and shriller. | an enormous serpent rose up from the sea and began crying, kai, kai, kai, louder and louder, shriller and shriller. |
+| legend-of-trentren-vilu-and-caicai-vilu-c07 | exact | chileprecolombino.cl | According to Chile Precolombino, the Mapuche people ran to the mountaintops to save themselves. | To save themselves, the Mapuche people ran to the mountaintops. |
+| legend-of-trentren-vilu-and-caicai-vilu-c08 | exact | chileprecolombino.cl | According to Chile Precolombino, the divine serpent came to help them, and thus began the battle between Kai Kai and Treng Treng. | It was the divine serpent come to help them. And thus began the battle between Kai Kai and Treng Treng. |
+| legend-of-trentren-vilu-and-caicai-vilu-c09 | exact | chileprecolombino.cl | According to Chile Precolombino, seeing he was vanquished, Kai Kai sank back into the depths of the sea and has never been seen again. | Seeing he was vanquished, Kai Kai sank back into the depths of the sea, and has never been seen again. |
+| legend-of-trentren-vilu-and-caicai-vilu-c10 | exact | chileprecolombino.cl | According to Chile Precolombino, ever since, whenever the earth shakes and the sea floods the land, or the rain lashes down and rivers and lakes rise, the Mapuche hear Kai Kai's cry. | since that time, whenever the earth shakes and the sea floods the land, or when the rain lashes down from the heavens and the rivers and lakes rise up, the Mapuches hear Kai Kai |
+| legend-of-trentren-vilu-and-caicai-vilu-c11 | exact | en.wikipedia.org | According to Wikipedia, the Mapuche say the two snakes were originally the children of the most powerful pillans, converted into their animal forms as punishment. | According to the Mapuche, the two snakes were originally the children of the most powerful pillans, who were converted into their animal forms as punishment. |
+| legend-of-trentren-vilu-and-caicai-vilu-c12 | exact | en.wikipedia.org | According to Wikipedia, as the sea kept rising, Trentren had to order the hills to grow in height to counteract Caicai's power. | But as the sea continued to rise, Trentren had to order the hills to increase in height to counteract the power of Caicai. |
+| legend-of-trentren-vilu-and-caicai-vilu-c13 | exact | en.wikipedia.org | According to Wikipedia, in Chiloé tradition Caicai was satisfied with the land he had managed to flood and delegated his sea-related functions to the great Millalobo. | According to Chiloé tradition, Caicai was satisfied with the portion of land that he had managed to flood, and delegated his functions pertaining to the sea to the great Millalobo. |
+| legend-of-trentren-vilu-and-caicai-vilu-c14 | exact | en.wikipedia.org | According to Wikipedia, in the Tolten region version Trentren was a hill and a good spirit that helped people, while Caicai was a sea bird, an evil spirit that harmed people. | Trentren was a hall and also a good spirit which helped people. Caicai was a sea bird, an evil spirit, who used to harm people. |
+| legend-of-trentren-vilu-and-caicai-vilu-c15 | exact | en.wikipedia.org | According to Wikipedia, in Argentina there are other, later versions that change the original parents of the two snakes, indicating they are brothers and/or sons of the gods Nguenechèn and Kueyen. | In Argentina there are other later versions of the myth, which change the original parents of both mythical snakes, indicating that they would be brothers and/or sons of the gods Nguenechèn and Kueyen. |
+| legend-of-trentren-vilu-and-caicai-vilu-c16 | exact | en.wikipedia.org | According to Wikipedia, the myth has been geologically interpreted as a narrative linked to the volcanism of the Southern Volcanic Zone. | This myth has been geologically interpreted as a narrative linked to the volcanism of the Southern Volcanic Zone |
 
 
 ## mani-mythology — lulus-otomatis
