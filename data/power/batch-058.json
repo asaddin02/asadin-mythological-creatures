@@ -1,25 +1,57 @@
 {
   "kotobuki-folklore": {
-    "power": null,
+    "power": "superhuman",
     "threat": null,
     "fear": null,
     "reasons": {
-      "power": { "id": "Riset hanya memuat wujud gabungan dan kepercayaan perlindungan lewat gambarnya; kemampuan makhluk itu sendiri belum ada, sehingga kekuatan belum dinilai.", "en": "The research holds only the composite body and the belief that its images protect; no abilities of the being itself are recorded, so power is unassessed.", "claim_ids": [] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak; justru gambarnya dipercaya melindungi dari penyakit, jadi ancaman belum dinilai.", "en": "The research holds no destructive deeds; its images are instead believed to protect against disease, so threat is unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset tidak menyebut rasa takut yang ditimbulkannya; wujud gabungan dan fungsi pelindung tidak cukup untuk menetapkan jenis rasa takut.", "en": "The research does not describe any fear it evokes; its composite body and protective role do not suffice to set a fear type.", "claim_ids": [] }
+      "power": {
+        "id": "Gambarnya dipercaya melindungi pemiliknya dari penyakit; kemampuan pelindung gaib ini menjadi dasar Superhuman.",
+        "en": "Its images were believed to protect owners from disease; this supernatural protective power supports Superhuman.",
+        "claim_ids": [
+          "kotobuki-folklore-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan makhluk pembawa perlindungan dengan ciri dua belas hewan zodiak, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a protective being with features of the twelve zodiac animals, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
     },
-    "perlu_riset": "Riset hanya membahas wujud gabungan dua belas hewan zodiak dan kepercayaan bahwa gambarnya melindungi dari penyakit; kemampuan, perbuatan, dan kesan yang ditimbulkannya belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "kurayaro": {
     "power": "superhuman",
     "threat": null,
     "fear": "f3",
     "reasons": {
-      "power": { "id": "Pelana yang hidup, bermata, bertaring, dan bertindak sebagai prajurit melampaui kemampuan benda dan manusia biasa; riset tidak menunjukkan skala yang lebih besar.", "en": "A saddle that lives, with eyes and fangs, and acts as a warrior exceeds ordinary objects and humans; the research shows no larger scale.", "claim_ids": ["kurayaro-c02", "kurayaro-c05", "kurayaro-c06"] },
-      "threat": { "id": "Riset hanya menyebut pelana itu bertarung dengan tongkat tanpa korban atau kerusakan yang tercatat; ancaman belum dinilai.", "en": "The research only says the saddle fights with sticks, with no recorded victims or damage; threat is unassessed.", "claim_ids": [] },
-      "fear": { "id": "Benda yang bernyawa, bermata, dan bertaring tidak dapat dijelaskan oleh hukum alam, sehingga masuk kategori supernatural.", "en": "An object that comes alive with eyes and fangs cannot be explained by natural law, which places it in the supernatural category.", "claim_ids": ["kurayaro-c02", "kurayaro-c05"] }
+      "power": {
+        "id": "Pelana yang hidup, bermata, bertaring, dan bertindak sebagai prajurit melampaui kemampuan benda dan manusia biasa; riset tidak menunjukkan skala yang lebih besar.",
+        "en": "A saddle that lives, with eyes and fangs, and acts as a warrior exceeds ordinary objects and humans; the research shows no larger scale.",
+        "claim_ids": [
+          "kurayaro-c02",
+          "kurayaro-c05",
+          "kurayaro-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menyebut pelana itu bertarung dengan tongkat tanpa korban atau kerusakan yang tercatat; ancaman belum dinilai.",
+        "en": "The research only says the saddle fights with sticks, with no recorded victims or damage; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Benda yang bernyawa, bermata, dan bertaring tidak dapat dijelaskan oleh hukum alam, sehingga masuk kategori supernatural.",
+        "en": "An object that comes alive with eyes and fangs cannot be explained by natural law, which places it in the supernatural category.",
+        "claim_ids": [
+          "kurayaro-c02",
+          "kurayaro-c05"
+        ]
+      }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
@@ -29,9 +61,27 @@
     "threat": null,
     "fear": "f1",
     "reasons": {
-      "power": { "id": "Tubuh manusia-hiu dengan air mata berdarah yang mengeras menjadi rubi merupakan kemampuan gaib di atas manusia; versi yang dinilai adalah kisah yang dituturkan ulang Hearn.", "en": "A shark-person whose bloodlike tears harden into rubies has a supernatural ability beyond humans; the version assessed is the folktale retold by Hearn.", "claim_ids": ["samebito-c01", "samebito-c04"] },
-      "threat": { "id": "Riset menggambarkan Samebito lembut dan tidak memuat perbuatan merusak; ancaman belum dinilai.", "en": "The research describes Samebito as gentle and holds no destructive deeds; threat is unassessed.", "claim_ids": [] },
-      "fear": { "id": "Wajah iblis, kulit hitam, dan janggut seperti naga menimbulkan rasa janggal meski wataknya lembut, sehingga rasa takutnya bersumber dari penampilan.", "en": "A demonic face, black skin, and dragonlike beard unsettle despite his gentle nature, so the fear arises from appearance alone.", "claim_ids": ["samebito-c02", "samebito-c03"] }
+      "power": {
+        "id": "Tubuh manusia-hiu dengan air mata berdarah yang mengeras menjadi rubi merupakan kemampuan gaib di atas manusia; versi yang dinilai adalah kisah yang dituturkan ulang Hearn.",
+        "en": "A shark-person whose bloodlike tears harden into rubies has a supernatural ability beyond humans; the version assessed is the folktale retold by Hearn.",
+        "claim_ids": [
+          "samebito-c01",
+          "samebito-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan Samebito lembut dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research describes Samebito as gentle and holds no destructive deeds; threat is unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wajah iblis, kulit hitam, dan janggut seperti naga menimbulkan rasa janggal meski wataknya lembut, sehingga rasa takutnya bersumber dari penampilan.",
+        "en": "A demonic face, black skin, and dragonlike beard unsettle despite his gentle nature, so the fear arises from appearance alone.",
+        "claim_ids": [
+          "samebito-c02",
+          "samebito-c03"
+        ]
+      }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
@@ -41,9 +91,31 @@
     "threat": "t1",
     "fear": "f3",
     "reasons": {
-      "power": { "id": "Sosok perempuan seperti hantu yang mampu membangkitkan angin untuk menerbangkan payung berada di atas kemampuan manusia, tanpa bukti skala lebih besar.", "en": "A ghostlike woman who can raise wind to carry umbrellas away exceeds human ability, with no evidence of greater scale.", "claim_ids": ["ushirogami-c02", "ushirogami-c06"] },
-      "threat": { "id": "Menarik rambut dari belakang serta tangan dingin dan napas panas di leher menunjukkan gangguan terhadap korban perorangan.", "en": "Pulling hair from behind and cold hands and hot breath on the neck show harassment of individual victims.", "claim_ids": ["ushirogami-c02", "ushirogami-c05"] },
-      "fear": { "id": "Sosok mirip hantu bermata satu di kepala yang menyerang dari belakang dan membangkitkan angin melampaui hukum alam; tafsir asal-usul namanya tidak mengubah kategori ini.", "en": "A ghostlike figure with one eye atop her head who strikes from behind and raises wind exceeds natural law; interpretations of the name's origin do not change this category.", "claim_ids": ["ushirogami-c02", "ushirogami-c05", "ushirogami-c06"] }
+      "power": {
+        "id": "Sosok perempuan seperti hantu yang mampu membangkitkan angin untuk menerbangkan payung berada di atas kemampuan manusia, tanpa bukti skala lebih besar.",
+        "en": "A ghostlike woman who can raise wind to carry umbrellas away exceeds human ability, with no evidence of greater scale.",
+        "claim_ids": [
+          "ushirogami-c02",
+          "ushirogami-c06"
+        ]
+      },
+      "threat": {
+        "id": "Menarik rambut dari belakang serta tangan dingin dan napas panas di leher menunjukkan gangguan terhadap korban perorangan.",
+        "en": "Pulling hair from behind and cold hands and hot breath on the neck show harassment of individual victims.",
+        "claim_ids": [
+          "ushirogami-c02",
+          "ushirogami-c05"
+        ]
+      },
+      "fear": {
+        "id": "Sosok mirip hantu bermata satu di kepala yang menyerang dari belakang dan membangkitkan angin melampaui hukum alam; tafsir asal-usul namanya tidak mengubah kategori ini.",
+        "en": "A ghostlike figure with one eye atop her head who strikes from behind and raises wind exceeds natural law; interpretations of the name's origin do not change this category.",
+        "claim_ids": [
+          "ushirogami-c02",
+          "ushirogami-c05",
+          "ushirogami-c06"
+        ]
+      }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"

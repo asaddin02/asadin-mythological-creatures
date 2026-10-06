@@ -1,36 +1,30 @@
 {
-  "iblis": {
-    "power": "superhuman",
+  "abzu": {
+    "power": "cosmic",
     "threat": null,
-    "fear": "f3",
+    "fear": null,
     "reasons": {
       "power": {
-        "id": "Iblis adalah pemimpin para setan dari golongan jin dan dapat berganti rupa menurut al-Ghazali; ini menjadi dasar Superhuman, tanpa klaim kuasa atas ranah tertentu.",
-        "en": "Iblis is the leader of the devils, one of the jinn, and takes other forms in al-Ghazali’s account; this supports Superhuman, with no claim of authority over a specific domain.",
+        "id": "Dewa air tawar yang melingkari bumi; dari penyatuannya dengan Tiamat lahir para dewa.",
+        "en": "A freshwater god encircling the earth, from whose union with Tiamat the gods are born.",
         "claim_ids": [
-          "iblis-c01",
-          "iblis-c02",
-          "iblis-c14"
+          "abzu-c02",
+          "abzu-c04"
         ]
       },
       "threat": {
-        "id": "Riset menyebut Iblis sebagai musuh manusia yang menyesatkan lewat godaan, tetapi tidak memuat cakupan kerusakan; ancaman belum dinilai.",
-        "en": "The research calls Iblis an enemy of humanity who misleads through temptation but gives no scope of destruction; threat remains unassessed.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Penyesat yang berada di luar manusia dan dapat menjelma anjing, babi, atau katak melampaui hukum alam; Fear bukan penilaian moral.",
-        "en": "A tempter external to humanity who can take the forms of dogs, pigs, and frogs exceeds natural law; Fear is not a moral judgment.",
-        "claim_ids": [
-          "iblis-c12",
-          "iblis-c14",
-          "iblis-c10"
-        ]
+        "id": "Riset menggambarkan air tawar purba, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes primeval fresh water, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas identitas, etimologi, dan tafsir sufi tentang kejatuhan dan godaan; kuasa Iblis, perbuatan pada manusia, dan skala pengaruhnya belum ada, sehingga ancaman tidak dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "ahriman": {
     "power": "cosmic",
@@ -68,6 +62,176 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
+  "al-lat": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi Arabia pra-Islam yang dipuja bersama Al-Uzza dan Manat dan kultusnya mencapai Suriah.",
+        "en": "A goddess of pre-Islamic Arabia worshipped with Al-Uzza and Manat, whose cult reached Syria.",
+        "claim_ids": [
+          "al-lat-c01",
+          "al-lat-c02",
+          "al-lat-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewi yang dipuja, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a worshipped goddess, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "anu": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa langit Mesopotamia yang memegang Lauh Takdir sebelum menyerahkannya kepada Enlil.",
+        "en": "The Mesopotamian sky god who held the Tablets of Destiny before passing them to Enlil.",
+        "claim_ids": [
+          "anu-c01",
+          "anu-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa langit yang sering berada di latar mitos, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a sky god who often stays in the background of myths, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "ashur": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa tertinggi Asyur yang menguasai langit dan perang dengan gelar Penguasa Seluruh Langit.",
+        "en": "The supreme Assyrian god who governs the sky and war as Lord of the Whole Heavens.",
+        "claim_ids": [
+          "ashur-c01",
+          "ashur-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan sekutu ilahi para raja, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a divine ally of kings, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "cybele": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ibu Para Dewa dari Frigia dan dewi alam liar yang dipercaya menyembuhkan sekaligus mendatangkan penyakit.",
+        "en": "The Phrygian Mother of the Gods and mistress of wild nature, believed both to cure and to cause disease.",
+        "claim_ids": [
+          "cybele-c01",
+          "cybele-c07",
+          "cybele-c08"
+        ]
+      },
+      "threat": {
+        "id": "Dalam amarahnya ia menimbulkan kepanikan di antara tamu pernikahan Attis; skala kelompok.",
+        "en": "In her anger she causes panic among the guests at Attis’s wedding; group scale.",
+        "claim_ids": [
+          "cybele-c12"
+        ]
+      },
+      "fear": {
+        "id": "Kuasa mendatangkan penyakit dan kepanikan berada di luar hukum alam.",
+        "en": "The power to send disease and panic lies beyond natural law.",
+        "claim_ids": [
+          "cybele-c08",
+          "cybele-c12"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "dagon": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa yang dipuja di Suriah kuno dan Efrat tengah, dikaitkan dengan gandum dan kesuburan.",
+        "en": "A god worshipped in ancient Syria and the middle Euphrates, associated with grain and fertility.",
+        "claim_ids": [
+          "dagon-c01",
+          "dagon-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa kesuburan, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a fertility god, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "el": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa tertinggi Kanaan, bapa para dewa dan pencipta manusia, yang memimpin dewan ilahi.",
+        "en": "The supreme Canaanite god, father of the gods and creator of humanity, presiding over a divine council.",
+        "claim_ids": [
+          "el-c01",
+          "el-c02",
+          "el-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan bapa para dewa, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes the father of the gods, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
   "enki": {
     "power": "divine",
     "threat": null,
@@ -97,33 +261,62 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "simurgh": {
-    "power": "superhuman",
+  "enlil": {
+    "power": "divine",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Simurgh menjadi pelindung, penyelamat, dan guru Zal serta dapat dipanggil dengan bulunya; kemampuan gaib ini menjadi dasar Superhuman, tanpa bukti kuasa lebih besar.",
-        "en": "Simurgh acts as guardian, savior, and tutor of Zal and can be summoned by a feather; this supernatural capacity supports Superhuman, with no evidence of greater power.",
+        "id": "Dewa udara Sumeria yang menjaga Lauh Takdir berisi nasib para dewa dan manusia.",
+        "en": "The Sumerian god of air who guards the Tablets of Destiny holding the fates of gods and humans.",
         "claim_ids": [
-          "simurgh-c04",
-          "simurgh-c07"
+          "enlil-c01",
+          "enlil-c10"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak Simurgh; Kamak, burung jahat berbeda, tidak dinilai, sehingga ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds of Simurgh; Kamak, a distinct evil bird, is not assessed here, so threat remains unassessed.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Riset menampilkan Simurgh sebagai burung pelindung tanpa unsur kengerian; Fear belum dinilai.",
-        "en": "The research presents Simurgh as a protective bird with no element of horror; Fear remains unassessed.",
+        "id": "Riset menggambarkan dewa yang dimohoni cuaca baik dan panen, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a god asked for good weather and harvests, not a source of fear; Fear is not assessed.",
         "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas nama, pohon Saena, perannya bagi Zal dan Rostam, serta lawannya Kamak; kekuatan, ukuran, dan kemampuan penyembuhan Simurgh belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "ereshkigal": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Ratu Orang Mati yang memerintah dunia bawah dari istana Ganzir.",
+        "en": "The Queen of the Dead who rules the underworld from her palace Ganzir.",
+        "claim_ids": [
+          "ereshkigal-c01",
+          "ereshkigal-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penguasa negeri orang mati yang dijaga tujuh gerbang menghadapkan manusia pada kematian.",
+        "en": "The ruler of the land of the dead, guarded by seven gates, confronts humans with death.",
+        "claim_ids": [
+          "ereshkigal-c01",
+          "ereshkigal-c04"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "ghoul": {
     "power": "superhuman",
@@ -159,32 +352,159 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "nephilim": {
+  "hippocamp": {
+    "perlu_riset": "Riset hanya membahas wujud kuda berekor ikan, seni koin, emas, dan mosaik; kekuatan, ranah, perbuatan, atau skala hippocamp belum ada, sehingga tidak satu pun sumbu bisa dinilai.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "humbaba": {
+    "power": "monstrous",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Humbaba adalah sosok raksasa mirip ogre berkuku singa, penjaga Hutan Cedar yang baru terbunuh oleh Gilgamesh dan Enkidu berdua; ini menjadi dasar Monstrous.",
+        "en": "Humbaba is an ogre-like giant with lion’s claws, guardian of the Cedar Forest, killed only by Gilgamesh and Enkidu together; this supports Monstrous.",
+        "claim_ids": [
+          "humbaba-c02",
+          "humbaba-c05",
+          "humbaba-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat peran penjaga hutan; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research holds only a forest-guardian role and no destructive deeds, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Wujud berbulu dengan cakar singa dan wajah mengerikan menjadi dasar rasa takut akan sesuatu yang ganjil; riset tidak menyebut kemampuan gaibnya.",
+        "en": "A hairy form with lion’s claws and a monstrous face supports fear of the uncanny; the research names no supernatural abilities.",
+        "claim_ids": [
+          "humbaba-c06",
+          "humbaba-c02"
+        ]
+      }
+    },
+    "perlu_riset": "Riset belum memuat kemampuan Humbaba (misalnya tujuh kengerian), perbuatannya, dan penjelasan dalam Epos Gilgamesh selain penjagaan serta kematiannya.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "iblis": {
     "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Iblis adalah pemimpin para setan dari golongan jin dan dapat berganti rupa menurut al-Ghazali; ini menjadi dasar Superhuman, tanpa klaim kuasa atas ranah tertentu.",
+        "en": "Iblis is the leader of the devils, one of the jinn, and takes other forms in al-Ghazali’s account; this supports Superhuman, with no claim of authority over a specific domain.",
+        "claim_ids": [
+          "iblis-c01",
+          "iblis-c02",
+          "iblis-c14"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut Iblis sebagai musuh manusia yang menyesatkan lewat godaan, tetapi tidak memuat cakupan kerusakan; ancaman belum dinilai.",
+        "en": "The research calls Iblis an enemy of humanity who misleads through temptation but gives no scope of destruction; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penyesat yang berada di luar manusia dan dapat menjelma anjing, babi, atau katak melampaui hukum alam; Fear bukan penilaian moral.",
+        "en": "A tempter external to humanity who can take the forms of dogs, pigs, and frogs exceeds natural law; Fear is not a moral judgment.",
+        "claim_ids": [
+          "iblis-c12",
+          "iblis-c14",
+          "iblis-c10"
+        ]
+      }
+    },
+    "perlu_riset": "Riset hanya membahas identitas, etimologi, dan tafsir sufi tentang kejatuhan dan godaan; kuasa Iblis, perbuatan pada manusia, dan skala pengaruhnya belum ada, sehingga ancaman tidak dinilai.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "inanna": {
+    "power": "divine",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Nephilim secara tradisional dikaitkan dengan ukuran, kekuatan, atau kedudukan luar biasa dan disebut raksasa di bumi; ini menjadi dasar Superhuman, dengan makna istilahnya yang masih tidak pasti.",
-        "en": "Nephilim are traditionally linked with extraordinary size, strength, or status and called giants on the earth; this supports Superhuman, though the term’s meaning remains uncertain.",
+        "id": "Dewi Sumeria atas cinta, kesuburan, dan perang yang dikaitkan dengan Venus sebagai bintang pagi dan senja.",
+        "en": "A Sumerian goddess of love, fertility and war associated with Venus as morning and evening star.",
         "claim_ids": [
-          "nephilim-c02",
-          "nephilim-c07",
-          "nephilim-c04"
+          "inanna-c01",
+          "inanna-c03"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak Nephilim; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds of the Nephilim; threat remains unassessed.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Riset tidak menjelaskan jenis rasa takut yang ditimbulkan Nephilim; Fear belum dinilai.",
-        "en": "The research does not describe the kind of fear the Nephilim evoke; Fear remains unassessed.",
+        "id": "Riset menggambarkan dewi pelindung kota Uruk, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes the patron goddess of Uruk, not a source of fear; Fear is not assessed.",
         "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas penyebutan dalam Kejadian dan Bilangan, ketidakpastian makna, dan tafsir keturunan malaikat; perbuatan, kekuatan konkret, dan dampaknya terhadap manusia belum ada.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "ishtar": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi besar Mesopotamia atas cinta dan perang, dikaitkan dengan Venus.",
+        "en": "A major Mesopotamian goddess of love and war, associated with Venus.",
+        "claim_ids": [
+          "ishtar-c01",
+          "ishtar-c05"
+        ]
+      },
+      "threat": {
+        "id": "Setelah ditolak Gilgamesh ia meminjam Banteng Langit dari Anu; sasarannya satu orang.",
+        "en": "After Gilgamesh rejects her she borrows the Bull of Heaven from Anu; her target is one man.",
+        "claim_ids": [
+          "ishtar-c10",
+          "ishtar-c12"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak menggambarkan rasa takut yang ia timbulkan; Fear belum dinilai.",
+        "en": "The research does not describe a fear she causes; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "lamassu": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Lamassu adalah dewa pelindung Mesopotamia yang awalnya dewi Lamma dan menangkal kekuatan kekacauan; status ilahi ini menjadi dasar Divine, dengan ranah yang terbatas pada perlindungan.",
+        "en": "Lamassu is a Mesopotamian protective deity, first the goddess Lamma, and wards off chaotic forces; this divine status supports Divine, with a domain limited to protection.",
+        "claim_ids": [
+          "lamassu-c01",
+          "lamassu-c02",
+          "lamassu-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya memuat peran penjaga; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
+        "en": "The research holds only a guardian role and no destructive deeds, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Lamassu menakuti kekuatan kekacauan, bukan manusia; riset tidak memuat rasa takut yang ditimbulkannya pada manusia, jadi Fear belum dinilai.",
+        "en": "The lamassu frightens chaotic forces rather than people; the research holds no fear it evokes in humans, so Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya membahas wujud, patung gerbang istana, dan fungsi pelindung; kemampuan, ranah kuasa, dan perannya dalam teks keagamaan belum ada.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
@@ -222,34 +542,147 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "lamassu": {
+  "mitra": {
     "power": "divine",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Lamassu adalah dewa pelindung Mesopotamia yang awalnya dewi Lamma dan menangkal kekuatan kekacauan; status ilahi ini menjadi dasar Divine, dengan ranah yang terbatas pada perlindungan.",
-        "en": "Lamassu is a Mesopotamian protective deity, first the goddess Lamma, and wards off chaotic forces; this divine status supports Divine, with a domain limited to protection.",
+        "id": "Dewa perjanjian dan matahari terbit yang digambarkan bertelinga seribu dan bermata sepuluh ribu.",
+        "en": "A god of covenants and the rising sun, described with a thousand ears and ten thousand eyes.",
         "claim_ids": [
-          "lamassu-c01",
-          "lamassu-c02",
-          "lamassu-c06"
+          "mitra-c04",
+          "mitra-c14"
         ]
       },
       "threat": {
-        "id": "Riset hanya memuat peran penjaga; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
-        "en": "The research holds only a guardian role and no destructive deeds, so threat remains unassessed.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Lamassu menakuti kekuatan kekacauan, bukan manusia; riset tidak memuat rasa takut yang ditimbulkannya pada manusia, jadi Fear belum dinilai.",
-        "en": "The lamassu frightens chaotic forces rather than people; the research holds no fear it evokes in humans, so Fear remains unassessed.",
+        "id": "Riset menggambarkan dewa perjanjian dan persahabatan, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a god of covenant and friendship, not a source of fear; Fear is not assessed.",
         "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas wujud, patung gerbang istana, dan fungsi pelindung; kemampuan, ranah kuasa, dan perannya dalam teks keagamaan belum ada.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "moloch": {
+    "power": null,
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Statusnya sebagai dewa masih diperdebatkan (mungkin nama sebuah kurban), dan riset tidak memuat kuasanya; Power belum dinilai.",
+        "en": "Its status as a deity is disputed (it may name a sacrifice), and the research holds no powers; Power is not assessed.",
+        "claim_ids": [
+          "moloch-c02",
+          "moloch-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Larangan mempersembahkan anak lewat api dan gambaran berhala berkepala banteng dengan tangan di atas api menimbulkan kengerian akan nyawa yang dikorbankan.",
+        "en": "The ban on passing one’s offspring through fire and the image of a bull-headed idol with hands over the fire evoke horror at lives sacrificed.",
+        "claim_ids": [
+          "moloch-c07",
+          "moloch-c04"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "nabu": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa pelindung tulisan, juru tulis, dan kebijaksanaan, dikaitkan dengan Merkurius.",
+        "en": "The patron god of writing, scribes and wisdom, associated with Mercury.",
+        "claim_ids": [
+          "nabu-c01",
+          "nabu-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa kebijaksanaan, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a god of wisdom, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "nephilim": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Nephilim secara tradisional dikaitkan dengan ukuran, kekuatan, atau kedudukan luar biasa dan disebut raksasa di bumi; ini menjadi dasar Superhuman, dengan makna istilahnya yang masih tidak pasti.",
+        "en": "Nephilim are traditionally linked with extraordinary size, strength, or status and called giants on the earth; this supports Superhuman, though the term’s meaning remains uncertain.",
+        "claim_ids": [
+          "nephilim-c02",
+          "nephilim-c07",
+          "nephilim-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Nephilim; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds of the Nephilim; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak menjelaskan jenis rasa takut yang ditimbulkan Nephilim; Fear belum dinilai.",
+        "en": "The research does not describe the kind of fear the Nephilim evoke; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya membahas penyebutan dalam Kejadian dan Bilangan, ketidakpastian makna, dan tafsir keturunan malaikat; perbuatan, kekuatan konkret, dan dampaknya terhadap manusia belum ada.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
+  },
+  "nergal": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa perang, kematian, dan penyakit yang memerintah dunia bawah bersama Ereshkigal.",
+        "en": "A god of war, death and disease who co-rules the underworld with Ereshkigal.",
+        "claim_ids": [
+          "nergal-c01",
+          "nergal-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut ranahnya tetapi tidak perbuatan merusak tertentu; ancaman belum dinilai.",
+        "en": "The research names his domains but no specific destructive deed; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Ranah kematian dan penyakit menghadapkan manusia pada rapuhnya hidup.",
+        "en": "His domains of death and disease confront humans with the fragility of life.",
+        "claim_ids": [
+          "nergal-c01"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "roc-mythology": {
     "power": "monstrous",
@@ -284,41 +717,120 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "humbaba": {
-    "power": "monstrous",
+  "shamash": {
+    "power": "divine",
     "threat": null,
-    "fear": "f1",
+    "fear": null,
     "reasons": {
       "power": {
-        "id": "Humbaba adalah sosok raksasa mirip ogre berkuku singa, penjaga Hutan Cedar yang baru terbunuh oleh Gilgamesh dan Enkidu berdua; ini menjadi dasar Monstrous.",
-        "en": "Humbaba is an ogre-like giant with lion’s claws, guardian of the Cedar Forest, killed only by Gilgamesh and Enkidu together; this supports Monstrous.",
+        "id": "Dewa matahari yang mengatur keadilan, melindungi pelancong dan pedagang, dan membelah jalan menembus gunung saat fajar.",
+        "en": "A sun god who governs justice, protects travellers and merchants, and cuts a path through the mountains at dawn.",
         "claim_ids": [
-          "humbaba-c02",
-          "humbaba-c05",
-          "humbaba-c06"
+          "shamash-c01",
+          "shamash-c05",
+          "shamash-c06"
         ]
       },
       "threat": {
-        "id": "Riset hanya memuat peran penjaga hutan; tidak ada perbuatan merusak, sehingga ancaman belum dinilai.",
-        "en": "The research holds only a forest-guardian role and no destructive deeds, so threat remains unassessed.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
-        "id": "Wujud berbulu dengan cakar singa dan wajah mengerikan menjadi dasar rasa takut akan sesuatu yang ganjil; riset tidak menyebut kemampuan gaibnya.",
-        "en": "A hairy form with lion’s claws and a monstrous face supports fear of the uncanny; the research names no supernatural abilities.",
-        "claim_ids": [
-          "humbaba-c06",
-          "humbaba-c02"
-        ]
+        "id": "Riset menggambarkan dewa keadilan dan pelindung, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a god of justice and protection, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
       }
     },
-    "perlu_riset": "Riset belum memuat kemampuan Humbaba (misalnya tujuh kengerian), perbuatannya, dan penjelasan dalam Epos Gilgamesh selain penjagaan serta kematiannya.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "simurgh": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Simurgh menjadi pelindung, penyelamat, dan guru Zal serta dapat dipanggil dengan bulunya; kemampuan gaib ini menjadi dasar Superhuman, tanpa bukti kuasa lebih besar.",
+        "en": "Simurgh acts as guardian, savior, and tutor of Zal and can be summoned by a feather; this supernatural capacity supports Superhuman, with no evidence of greater power.",
+        "claim_ids": [
+          "simurgh-c04",
+          "simurgh-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Simurgh; Kamak, burung jahat berbeda, tidak dinilai, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds of Simurgh; Kamak, a distinct evil bird, is not assessed here, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Simurgh sebagai burung pelindung tanpa unsur kengerian; Fear belum dinilai.",
+        "en": "The research presents Simurgh as a protective bird with no element of horror; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya membahas nama, pohon Saena, perannya bagi Zal dan Rostam, serta lawannya Kamak; kekuatan, ukuran, dan kemampuan penyembuhan Simurgh belum ada.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "hippocamp": {
-    "perlu_riset": "Riset hanya membahas wujud kuda berekor ikan, seni koin, emas, dan mosaik; kekuatan, ranah, perbuatan, atau skala hippocamp belum ada, sehingga tidak satu pun sumbu bisa dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+  "sin": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa bulan dan kebijaksanaan Mesopotamia yang mengadili orang mati di dunia bawah saat bulan baru.",
+        "en": "The Mesopotamian god of the moon and wisdom who judges the dead in the netherworld at the new moon.",
+        "claim_ids": [
+          "sin-c01",
+          "sin-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan dewa bulan dan kesuburan, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a god of the moon and fertility, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "tiamat": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f5",
+    "reasons": {
+      "power": {
+        "id": "Samudra kosmis yang melahirkan generasi dewa pertama, dan tubuhnya dibelah Marduk menjadi unsur-unsur kosmos.",
+        "en": "A cosmic ocean that bore the first divine generation, whose body Marduk divides to form the elements of the cosmos.",
+        "claim_ids": [
+          "tiamat-c01",
+          "tiamat-c02",
+          "tiamat-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset mencatat pertempurannya dengan Marduk tetapi tidak cakupan kerusakannya; ancaman belum dinilai.",
+        "en": "The research records her battle with Marduk but not its scope of harm; threat is not assessed.",
+        "claim_ids": [
+          "tiamat-c06"
+        ]
+      },
+      "fear": {
+        "id": "Samudra purba yang menjadi bahan seluruh kosmos membuat manusia terasa tak berarti.",
+        "en": "A primeval ocean that becomes the substance of the whole cosmos makes humanity seem insignificant.",
+        "claim_ids": [
+          "tiamat-c01",
+          "tiamat-c04"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   }
 }

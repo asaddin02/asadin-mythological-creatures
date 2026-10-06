@@ -1,4 +1,37 @@
 {
+  "cupid": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa cinta yang panahnya membuat siapa pun yang terkena jatuh cinta.",
+        "en": "A god of love whose arrows make whoever they strike fall in love.",
+        "claim_ids": [
+          "cupid-c01",
+          "cupid-c05"
+        ]
+      },
+      "threat": {
+        "id": "Venus memerintahnya menghukum Psyche lewat cinta, dan ia membuat Ratu Dido jatuh cinta; dampaknya berskala individu.",
+        "en": "Venus ordered him to punish Psyche through love, and he made Queen Dido fall in love; the effect is individual in scale.",
+        "claim_ids": [
+          "cupid-c08",
+          "cupid-c14"
+        ]
+      },
+      "fear": {
+        "id": "Panah yang memaksakan cinta dan penyamaran sebagai Iulus melampaui hukum alam.",
+        "en": "Arrows that compel love and his disguise as Iulus exceed natural law.",
+        "claim_ids": [
+          "cupid-c05",
+          "cupid-c13"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
   "eos": {
     "power": "divine",
     "threat": null,
@@ -7,7 +40,12 @@
       "power": {
         "id": "Eos adalah dewi fajar yang menjadi personifikasi fajar, menyingkirkan kabut malam, dan mendahului Helios; kuasa atas ranah inilah dasar Divine.",
         "en": "Eos is the dawn goddess who personifies dawn, disperses the mists of night, and precedes Helios; authority over this domain supports Divine.",
-        "claim_ids": ["eos-c01", "eos-c02", "eos-c06", "eos-c08"]
+        "claim_ids": [
+          "eos-c01",
+          "eos-c02",
+          "eos-c06",
+          "eos-c08"
+        ]
       },
       "threat": {
         "id": "Riset tidak memuat perbuatan merusak Eos; perannya sebagai pembawa fajar bukan bukti ancaman, sehingga ancaman belum dinilai.",
@@ -31,20 +69,65 @@
       "power": {
         "id": "Tubuh raksasa dengan sembilan kepala, bisa beracun, dan satu kepala abadi membuatnya monster besar yang sulit dikalahkan Herakles seorang diri; riset tidak menunjukkan kuasa atas ranah setingkat dewa.",
         "en": "A huge nine-headed body, poisonous venom, and an immortal head make it a great monster that Herakles could not defeat alone; the research shows no godlike domain.",
-        "claim_ids": ["lernaean-hydra-c01", "lernaean-hydra-c02", "lernaean-hydra-c04", "lernaean-hydra-c10"]
+        "claim_ids": [
+          "lernaean-hydra-c01",
+          "lernaean-hydra-c02",
+          "lernaean-hydra-c04",
+          "lernaean-hydra-c10"
+        ]
       },
       "threat": {
         "id": "Hydra keluar dari rawa Lerna ke dataran dan merusak ternak serta negeri, yang ditafsirkan sebagai ancaman skala permukiman dan sekitarnya, bukan wilayah luas.",
         "en": "The Hydra went out from the Lerna swamp onto the plain and ravaged the cattle and the country, interpreted as a settlement-scale threat rather than a broad regional one.",
-        "claim_ids": ["lernaean-hydra-c03"]
+        "claim_ids": [
+          "lernaean-hydra-c03"
+        ]
       },
       "fear": {
         "id": "Kepala yang tumbuh dua kali lipat saat dihancurkan, kepala abadi, dan bisa mematikan melampaui hukum alam; ini bersumber dari versi utama berkepala sembilan, sementara Simonides menyebut lima puluh kepala.",
         "en": "Heads that regrow as two when smashed, an immortal head, and deadly venom exceed natural law; this follows the main nine-headed version, while Simonides gives fifty heads.",
-        "claim_ids": ["lernaean-hydra-c04", "lernaean-hydra-c05", "lernaean-hydra-c02", "lernaean-hydra-c11"]
+        "claim_ids": [
+          "lernaean-hydra-c04",
+          "lernaean-hydra-c05",
+          "lernaean-hydra-c02",
+          "lernaean-hydra-c11"
+        ]
       }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
+  },
+  "tartarus": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa primordial yang menjadi lubang terdalam kosmos dan termasuk makhluk pertama dalam kosmos Yunani.",
+        "en": "A primordial god who is the lowest pit of the cosmos and among the first beings of the Greek cosmos.",
+        "claim_ids": [
+          "tartarus-c03",
+          "tartarus-c04"
+        ]
+      },
+      "threat": {
+        "id": "Sebagai dewa elemental ia jarang bertindak dalam mitos; ancaman belum dinilai.",
+        "en": "As an elemental deity he rarely acts in myth; threat is not assessed.",
+        "claim_ids": [
+          "tartarus-c05"
+        ]
+      },
+      "fear": {
+        "id": "Penjara gelap bergerbang besi tempat para Titan dibuang dan, kemudian, tempat hukuman bagi orang terkutuk.",
+        "en": "A dark iron-gated prison where the Titans were cast and, later, a place of punishment for the damned.",
+        "claim_ids": [
+          "tartarus-c07",
+          "tartarus-c08",
+          "tartarus-c14"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   }
 }

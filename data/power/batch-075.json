@@ -1,4 +1,62 @@
 {
+  "almaz-mythical-beast": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Makhluk hutan yang kekuatan gaibnya bersemayam di rambutnya; menarik rambutnya membuatnya tak berdaya.",
+        "en": "A forest being whose magical power resides in its hair; grabbing the hair renders it helpless.",
+        "claim_ids": [
+          "almaz-mythical-beast-c01",
+          "almaz-mythical-beast-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Almaz jantan berbulu dan buruk rupa dengan kapak tertancap di dadanya terasa ganjil dan mengusik.",
+        "en": "The male almaz, hairy and hideous with an axe embedded in its chest, feels uncanny and disturbing.",
+        "claim_ids": [
+          "almaz-mythical-beast-c02"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "diting": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Makhluk ilahi wahana Ksitigarbha yang dalam sekejap dapat membedakan baik dan jahat di antara segala makhluk di empat benua besar.",
+        "en": "A divine creature, Ksitigarbha’s steed, that can in an instant discern good and evil among all beings of the four great continents.",
+        "claim_ids": [
+          "diting-c01",
+          "diting-c11"
+        ]
+      },
+      "threat": {
+        "id": "Ia penjaga dan penilai, bukan perusak; ancaman belum dinilai.",
+        "en": "It is a guardian and discerner, not a destroyer; threat is not assessed.",
+        "claim_ids": [
+          "diting-c04"
+        ]
+      },
+      "fear": {
+        "id": "Riset menggambarkan penjaga dan pembeda kebenaran, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a guardian that discerns truth, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
   "mahishi-demoness": {
     "power": "superhuman",
     "threat": null,
@@ -7,7 +65,10 @@
       "power": {
         "id": "Anugerah bahwa hanya anak hasil persatuan Siwa dan Wisnu yang dapat membunuhnya menunjukkan ketahanan gaib melampaui manusia; riset tidak merinci kuasa lain, sehingga dinilai Superhuman.",
         "en": "The boon that only a child of Shiva and Vishnu's union can kill her shows supernatural resilience beyond humans; the research details no other powers, so she is rated Superhuman.",
-        "claim_ids": ["mahishi-demoness-c03", "mahishi-demoness-c05"]
+        "claim_ids": [
+          "mahishi-demoness-c03",
+          "mahishi-demoness-c05"
+        ]
       },
       "threat": {
         "id": "Riset hanya menyebut 'ancaman' Mahishi tanpa merinci perbuatan atau cakupannya; ancaman belum dinilai.",
@@ -17,7 +78,10 @@
       "fear": {
         "id": "Iblis betina dengan anugerah yang membuatnya nyaris tak terkalahkan merupakan keberadaan supernatural di luar hukum alam.",
         "en": "A demoness whose boon makes her nearly unkillable is a supernatural presence beyond natural law.",
-        "claim_ids": ["mahishi-demoness-c01", "mahishi-demoness-c03"]
+        "claim_ids": [
+          "mahishi-demoness-c01",
+          "mahishi-demoness-c03"
+        ]
       }
     },
     "perlu_riset": "Riset belum memuat perbuatan merusak Mahishi, cakupan ancamannya, atau kekuatan tempurnya selain anugerah dan kekalahannya oleh Ayyappan; ancaman belum bisa dinilai.",
@@ -32,41 +96,27 @@
       "power": {
         "id": "Sebagai arwah anak laki-laki yang menghuni pohon peepal, dengan kecerdikan dan kemampuan multibahasa dalam sebagian kisah, Munjya melampaui manusia biasa tetapi tidak menunjukkan kekuatan lebih besar.",
         "en": "As the ghost of a boy dwelling in a peepal tree, with cleverness and multilingual ability in some tales, Munjya exceeds ordinary humans but shows no greater power.",
-        "claim_ids": ["munjya-c01", "munjya-c02", "munjya-c03"]
+        "claim_ids": [
+          "munjya-c01",
+          "munjya-c02",
+          "munjya-c03"
+        ]
       },
       "threat": {
         "id": "Pembalasan berupa lemparan batu atau kecelakaan ditujukan kepada orang yang menodai pohon tempat tinggalnya, sehingga ancamannya berskala individu dan umumnya tidak berbahaya.",
         "en": "Retaliation by stone throwing or accidents targets people who defile its tree home, so the threat is individual-scale and it is usually harmless.",
-        "claim_ids": ["munjya-c04", "munjya-c05"]
+        "claim_ids": [
+          "munjya-c04",
+          "munjya-c05"
+        ]
       },
       "fear": {
         "id": "Arwah anak yang meninggal sebelum menikah dan bersemayam di pohon merupakan keberadaan supernatural di luar hukum alam.",
         "en": "The ghost of a boy who died before marriage and lives in a tree is a supernatural presence beyond natural law.",
-        "claim_ids": ["munjya-c01", "munjya-c02"]
-      }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "susna": {
-    "power": "regional",
-    "threat": "t4",
-    "fear": "f3",
-    "reasons": {
-      "power": {
-        "id": "Asura yang dikaitkan dengan kekeringan dan, bersama Vritra, penghalang sungai menunjukkan pengaruh atas air dan hujan di wilayah luas; riset tidak menyebut kuasa kosmik.",
-        "en": "An asura tied to drought and, with Vritra, to obstructing rivers shows influence over water and rain across a broad region; the research cites no cosmic power.",
-        "claim_ids": ["susna-c01", "susna-c03", "susna-c04"]
-      },
-      "threat": {
-        "id": "Kekeringan dan sungai yang terhalang jelas tersirat berdampak pada wilayah luas, hingga Indra menghancurkan bentengnya dan menurunkan hujan; ini tafsir atas kisah Rigveda, bukan kehancuran dunia.",
-        "en": "Drought and blocked rivers clearly imply harm to a broad region until Indra destroys his fortress and sends rain; this is an interpretation of the Rigveda account, not world destruction.",
-        "claim_ids": ["susna-c01", "susna-c04", "susna-c05", "susna-c06"]
-      },
-      "fear": {
-        "id": "Wujud bertanduk menyerupai ular dan kekuasaan atas kekeringan merupakan keberadaan supernatural di luar hukum alam.",
-        "en": "A horned, snakelike form and mastery of drought make it a supernatural presence beyond natural law.",
-        "claim_ids": ["susna-c02", "susna-c03"]
+        "claim_ids": [
+          "munjya-c01",
+          "munjya-c02"
+        ]
       }
     },
     "oleh": "claude-cloud",
@@ -80,7 +130,11 @@
       "power": {
         "id": "Kuda ilahi bersayap yang diciptakan Sanamahi dan menjadi tunggangan dewa Marjing melampaui hewan biasa; riset tidak menyebut ranah atau kuasa yang setara dewa, sehingga dinilai Superhuman.",
         "en": "A winged divine horse created by Sanamahi and later the mount of the god Marjing exceeds ordinary animals; the research names no godlike domain or authority, so it is rated Superhuman.",
-        "claim_ids": ["samaton-c01", "samaton-c03", "samaton-c04"]
+        "claim_ids": [
+          "samaton-c01",
+          "samaton-c03",
+          "samaton-c04"
+        ]
       },
       "threat": {
         "id": "Riset menyebut Samaton diciptakan untuk menyerang Pakhangba tetapi tidak memuat hasil atau kerusakan yang ditimbulkan; ancaman belum dinilai.",
@@ -94,6 +148,42 @@
       }
     },
     "perlu_riset": "Riset belum memuat kemampuan, hasil serangan terhadap Pakhangba, atau kesan yang ditimbulkan Samaton pada manusia; ancaman dan rasa takut belum bisa dinilai.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "susna": {
+    "power": "regional",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Asura yang dikaitkan dengan kekeringan dan, bersama Vritra, penghalang sungai menunjukkan pengaruh atas air dan hujan di wilayah luas; riset tidak menyebut kuasa kosmik.",
+        "en": "An asura tied to drought and, with Vritra, to obstructing rivers shows influence over water and rain across a broad region; the research cites no cosmic power.",
+        "claim_ids": [
+          "susna-c01",
+          "susna-c03",
+          "susna-c04"
+        ]
+      },
+      "threat": {
+        "id": "Kekeringan dan sungai yang terhalang jelas tersirat berdampak pada wilayah luas, hingga Indra menghancurkan bentengnya dan menurunkan hujan; ini tafsir atas kisah Rigveda, bukan kehancuran dunia.",
+        "en": "Drought and blocked rivers clearly imply harm to a broad region until Indra destroys his fortress and sends rain; this is an interpretation of the Rigveda account, not world destruction.",
+        "claim_ids": [
+          "susna-c01",
+          "susna-c04",
+          "susna-c05",
+          "susna-c06"
+        ]
+      },
+      "fear": {
+        "id": "Wujud bertanduk menyerupai ular dan kekuasaan atas kekeringan merupakan keberadaan supernatural di luar hukum alam.",
+        "en": "A horned, snakelike form and mastery of drought make it a supernatural presence beyond natural law.",
+        "claim_ids": [
+          "susna-c02",
+          "susna-c03"
+        ]
+      }
+    },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   }

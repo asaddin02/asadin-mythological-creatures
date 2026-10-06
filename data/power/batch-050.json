@@ -1,224 +1,59 @@
 {
-  "yatagarasu": {
-    "power": "divine",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Disebut dewa penuntun dan abdi Amaterasu serta dewa-dewa Kumano, sehingga ditafsirkan sebagai sosok ilahi berkuasa atas ranah penuntunan; riset tidak merinci kekuatannya.", "en": "Called a guiding deity and servant of Amaterasu and the Kumano deities, it is interpreted as a divine being with a domain of guidance; the research does not detail its powers.", "claim_ids": ["yatagarasu-c02", "yatagarasu-c07"] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai, dan perannya sebagai penuntun bukan bukti ancaman.", "en": "The research holds no destructive deeds; threat remains unassessed, and a guiding role is not evidence of a threat.", "claim_ids": [] },
-      "fear": { "id": "Riset menampilkan Yatagarasu sebagai penuntun dan lambang kuil, tanpa unsur yang menimbulkan rasa takut; Fear belum dinilai.", "en": "The research presents Yatagarasu as a guide and shrine emblem, with nothing that evokes fear; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "perlu_riset": "Riset hanya membahas peran penuntun Jimmu dan lambang kuil Kumano; kemampuan gaib dan kuasa spesifiknya belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "jorogumo": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Kemampuan menjelma menjadi perempuan melampaui batas laba-laba maupun manusia biasa, menurut kisah periode Edo.", "en": "Its ability to appear as a woman exceeds both spiders and ordinary humans, according to Edo-period tales.", "claim_ids": ["jorogumo-c01", "jorogumo-c02"] },
-      "threat": { "id": "Riset tidak memuat korban atau kerusakan yang ditimbulkannya; ancaman belum dinilai.", "en": "The research records no victims or damage caused by it; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Penyamaran laba-laba sebagai perempuan yang melamar atau membawa bayi melanggar hukum alam; ilustrasi Sekien sendiri tidak menjelaskan kemampuannya.", "en": "A spider disguised as a woman who proposes marriage or carries an infant defies natural law; Sekien's illustration itself does not describe abilities.", "claim_ids": ["jorogumo-c02", "jorogumo-c11", "jorogumo-c12", "jorogumo-c08"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "kamaitachi": {
-    "power": "superhuman",
-    "threat": "t1",
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Dikaitkan dengan pusaran angin yang menyayat kulit seperti sabit, kemampuan di luar batas manusia; asalnya bervariasi antar daerah.", "en": "It is associated with whirlwinds that slice skin like a sickle, an ability beyond human limits; its origin varies between regions.", "claim_ids": ["kamaitachi-c02", "kamaitachi-c05"] },
-      "threat": { "id": "Luka sayatan dialami individu korban, sehingga ancaman ditafsirkan pada skala pribadi.", "en": "The cuts are suffered by individual victims, so the threat is interpreted at a personal scale.", "claim_ids": ["kamaitachi-c02", "kamaitachi-c03"] },
-      "fear": { "id": "Luka yang awalnya tidak sakit atau tidak berdarah akibat angin gaib melampaui penjelasan alamiah.", "en": "Wounds that are at first painless or bloodless from a supernatural wind exceed natural explanation.", "claim_ids": ["kamaitachi-c02", "kamaitachi-c03"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "noppera-bo": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": "f1",
-    "reasons": {
-      "power": { "id": "Wujud yang tampak biasa lalu berubah menjadi wajah polos melampaui kemampuan manusia; sebagian kisah menganggapnya penyamaran mujina, rubah, atau tanuki.", "en": "A form that looks ordinary and then shows a blank face exceeds human ability; some tales attribute it to a disguised mujina, fox, or tanuki.", "claim_ids": ["noppera-bo-c02", "noppera-bo-c05"] },
-      "threat": { "id": "Riset menyatakan noppera-bō terutama menakut-nakuti, tanpa perbuatan merusak; ancaman belum dinilai.", "en": "The research says noppera-bō chiefly frightens people, with no destructive deeds; threat remains unassessed.", "claim_ids": ["noppera-bo-c04"] },
-      "fear": { "id": "Kengeriannya berasal dari wajah polos yang janggal dan cahaya yang padam, bukan dari perburuan atau kekerasan.", "en": "Its horror comes from an uncanny blank face and a light going out, not from hunting or violence.", "claim_ids": ["noppera-bo-c02", "noppera-bo-c04", "noppera-bo-c10"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "umibozu": {
-    "power": "monstrous",
-    "threat": "t2",
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Mengubah laut tenang menjadi ganas dan mampu menghancurkan atau membanjiri kapal; skala yang tercatat belum mencapai wilayah luas.", "en": "It turns calm seas rough and can break or flood a ship; the recorded scale does not reach a broad region.", "claim_ids": ["umibozu-c03", "umibozu-c04"] },
-      "threat": { "id": "Kapal yang pecah atau tenggelam membahayakan seluruh awak, sehingga ancaman ditafsirkan pada skala kelompok.", "en": "A ship broken or flooded endangers its whole crew, so the threat is interpreted at group scale.", "claim_ids": ["umibozu-c01", "umibozu-c04"] },
-      "fear": { "id": "Munculnya makhluk di laut tenang yang tiba-tiba bergolak merupakan peristiwa gaib; wujudnya berbeda antar kisah.", "en": "A being appearing on calm seas that suddenly churn is a supernatural event; its form differs between tales.", "claim_ids": ["umibozu-c03", "umibozu-c07"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "akashita": {
-    "power": null,
-    "threat": "t1",
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Riset hanya menggambarkan rupa akashita (awan hitam, cakar, lidah merah); kemampuan gaibnya tidak dijelaskan sehingga kekuatan belum dinilai.", "en": "The research only describes its look (black cloud, claws, red tongue); its supernatural abilities are not described, so power remains unassessed.", "claim_ids": [] },
-      "threat": { "id": "Satu catatan menyebut akaguchi menghukum pencuri air, ditafsirkan pada skala pribadi; kisah itu belakangan disesuaikan dengan gambar Sekien.", "en": "One account says akaguchi punishes water thieves, interpreted at a personal scale; that story was later fitted to Sekien's picture.", "claim_ids": ["akashita-c06", "akashita-c08"] },
-      "fear": { "id": "Riset tidak membahas jenis rasa takut yang ditimbulkannya; Fear belum dinilai.", "en": "The research does not discuss the kind of fear it evokes; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "perlu_riset": "Riset hanya memuat gambar Sekien dan kisah sengketa air yang diragukan; kemampuan dan perbuatan asli akashita belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "ameonna": {
-    "power": null,
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Riset hanya memuat gambar dan perbandingan sastra dengan dewi gunung Wu; kemampuan ameonna sendiri belum dijelaskan.", "en": "The research holds only the picture and a literary comparison with the goddess of Mount Wu; ameonna's own abilities are not described.", "claim_ids": [] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.", "en": "The research holds no destructive deeds; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset tidak membahas rasa takut yang ditimbulkannya; Fear belum dinilai.", "en": "The research does not discuss any fear it evokes; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "perlu_riset": "Riset hanya membahas gambar Sekien, makna nama, dan sebutan modern; kekuatan, perbuatan, dan efek menakutkan ameonna belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "amikiri": {
-    "power": null,
-    "threat": "t1",
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Sekien tidak menjelaskan hakikat amikiri dan kisah pemotongan jaring diragukan; kekuatan belum dinilai.", "en": "Sekien gives no explanation of amikiri's nature and the net-cutting tale is doubted; power remains unassessed.", "claim_ids": [] },
-      "threat": { "id": "Kisah Yamada mengaitkannya dengan jaring ikan dan kelambu yang dipotong, kerusakan pada skala pribadi; Murakami menduga kisah itu rekaan Yamada.", "en": "Yamada's tale links it to cut fishing nets and a cut mosquito net, damage at a personal scale; Murakami considered the tale Yamada's invention.", "claim_ids": ["amikiri-c05", "amikiri-c06", "amikiri-c08"] },
-      "fear": { "id": "Riset tidak membahas rasa takut yang ditimbulkannya; Fear belum dinilai.", "en": "The research does not discuss any fear it evokes; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "perlu_riset": "Riset hanya memuat gambar Sekien dan satu kisah yang diragukan; kemampuan dan efek menakutkan amikiri belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "azukiarai": {
-    "power": "superhuman",
-    "threat": "t1",
-    "fear": "f1",
-    "reasons": {
-      "power": { "id": "Suara pencucian kacang tanpa sumber yang jelas merupakan gejala gaib di luar kemampuan manusia; sebagian catatan menafsirkannya sebagai musang atau mamedanuki.", "en": "A bean-washing sound with no identified source is a supernatural phenomenon beyond human ability; some records read it as a weasel or mamedanuki.", "claim_ids": ["azukiarai-c01", "azukiarai-c02", "azukiarai-c06", "azukiarai-c07"] },
-      "threat": { "id": "Satu catatan menyebut suara itu memikat orang hingga jatuh ke parit atau tebing, bahaya bagi individu.", "en": "One account says the sound lures people into ditches or off cliffs, a danger to individuals.", "claim_ids": ["azukiarai-c04"] },
-      "fear": { "id": "Suara tanpa wujud di dekat air terasa janggal dan tidak semestinya, lebih mengganggu daripada memburu.", "en": "A bodiless sound near water feels strange and out of place, more disquieting than hunting.", "claim_ids": ["azukiarai-c01", "azukiarai-c02"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "hannya": {
-    "power": null,
-    "threat": null,
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Riset membahas topeng Noh, bukan kemampuan sosok iblisnya; kekuatan belum dinilai.", "en": "The research concerns the Noh mask, not the abilities of the demon it portrays; power remains unassessed.", "claim_ids": [] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak sosok hannya; ancaman belum dinilai.", "en": "The research holds no destructive deeds by the hannya figure; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Perempuan yang berubah menjadi iblis karena dendam dan cemburu merupakan transformasi gaib; Fear bukan penilaian moral.", "en": "A woman turned demon by vengeance and jealousy is a supernatural transformation; Fear is not a moral judgment.", "claim_ids": ["hannya-c01", "hannya-c03"] }
-    },
-    "perlu_riset": "Riset hanya membahas topeng Noh dan ciri visualnya; kekuatan dan perbuatan sosok hannya dalam lakon belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "karura": {
-    "power": "superhuman",
-    "threat": "t2",
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Burung pemakan ular yang termasuk Delapan Golongan dan menjadi pelindung Buddhis melampaui manusia; riset tidak merinci kuasanya sehingga tidak dinaikkan.", "en": "A snake-eating bird among the Eight Kinds and a Buddhist guardian exceeds humans; the research does not detail its powers, so it is not raised higher.", "claim_ids": ["karura-c01", "karura-c06"] },
-      "threat": { "id": "Sebagai musuh para naga dan pemangsa ular, ancamannya ditafsirkan pada kelompok makhluk itu; ini bukan ancaman bagi manusia, dan peran pelindungnya dicatat.", "en": "As the enemy of nagas and an eater of snakes, its threat is interpreted at the scale of a group of those beings; this is not a threat to humans, and its guardian role is noted.", "claim_ids": ["karura-c01", "karura-c03"] },
-      "fear": { "id": "Riset menampilkan karura sebagai pelindung dan benda seni, tanpa unsur ketakutan terhadap manusia; Fear belum dinilai.", "en": "The research presents karura as a guardian and an artwork, with no fear directed at humans; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "perlu_riset": "Riset tidak memuat kemampuan terperinci karura, seperti cuaca, sayap, atau api; skala kuasanya belum jelas.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "korpokkur": {
-    "power": "mortal",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Digambarkan sebagai orang kecil yang menangkap ikan, tinggal di lubang beratap daun butterbur, dan bertukar hasil buruan; tidak ada kemampuan gaib dicatat.", "en": "Described as little people who fish, live in pits roofed with butterbur leaves, and trade game; no supernatural ability is recorded.", "claim_ids": ["korpokkur-c01", "korpokkur-c02", "korpokkur-c09"] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak mereka; ancaman belum dinilai.", "en": "The research holds no destructive deeds by them; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset menampilkan mereka sebagai penghindar manusia dan mitra bertukar barang, tanpa unsur menakutkan; Fear belum dinilai.", "en": "The research presents them as shy trading partners with nothing frightening; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "nurikabe": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": "f1",
-    "reasons": {
-      "power": { "id": "Menghalangi pejalan seperti dinding adalah gejala gaib melampaui manusia; rupanya berbeda antara gulungan dan kisah lisan.", "en": "Obstructing a traveler like a wall is a supernatural phenomenon beyond humans; its form differs between the scroll and oral accounts.", "claim_ids": ["nurikabe-c02", "nurikabe-c08"] },
-      "threat": { "id": "Riset hanya mencatat penghalangan yang hilang bila dasarnya disapu tongkat, tanpa cedera; ancaman belum dinilai.", "en": "The research records only an obstruction removed by sweeping its base with a stick, with no injury; threat remains unassessed.", "claim_ids": ["nurikabe-c04"] },
-      "fear": { "id": "Dinding yang tiba-tiba menghadang pejalan malam terasa janggal dan tidak semestinya, bukan perburuan.", "en": "A wall suddenly blocking a night traveler feels uncanny and out of place, not like hunting.", "claim_ids": ["nurikabe-c02"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "oyamatsumi": {
-    "power": "divine",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Kami agung atas gunung yang dipuja pula sebagai dewa gunung dan laut, sehingga kuasa atas ranah menjadi dasar Divine; asal-usulnya berbeda antara Kojiki dan Nihongi.", "en": "A great kami over mountains also worshipped as a deity of mountains and seas, so authority over domains supports Divine; his origin differs between the Kojiki and Nihongi.", "claim_ids": ["oyamatsumi-c01", "oyamatsumi-c06", "oyamatsumi-c02", "oyamatsumi-c03"] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak yang jelas darinya; runtuhan saat pembangunan kastil tidak dinyatakan sebagai perbuatannya, sehingga ancaman belum dinilai.", "en": "The research holds no clear destructive deeds by him; the collapses during castle construction are not stated to be his doing, so threat remains unassessed.", "claim_ids": ["oyamatsumi-c07"] },
-      "fear": { "id": "Riset menampilkan Ōyamatsumi sebagai kami yang dipuja di kuil dan festival, bukan sumber ketakutan; Fear belum dinilai.", "en": "The research presents Ōyamatsumi as a kami worshipped at shrines and festivals, not a source of fear; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "shachihoko": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": { "id": "Folklor menyebut shachi menyemburkan air untuk memadamkan api, kemampuan gaib yang melindungi kastil; tidak ada skala lebih besar dicatat.", "en": "Folklore says shachi spray water to extinguish fires, a supernatural ability protecting castles; no larger scale is recorded.", "claim_ids": ["shachihoko-c03"] },
-      "threat": { "id": "Riset menampilkannya sebagai pelindung dan hiasan atap, tanpa perbuatan merusak; ancaman belum dinilai.", "en": "The research presents it as a protector and roof ornament, with no destructive deeds; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.", "en": "The research holds nothing that evokes fear; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "tenjin": {
-    "power": "divine",
-    "threat": "t3",
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Roh Michizane yang didewakan dan dipadukan dengan dewa petir, dipuja sebagai pelindung ilmu di seluruh Jepang, menjadi dasar Divine sebagai tafsir hormat atas tradisinya.", "en": "The deified spirit of Michizane, combined with a thunder deity and revered as a patron of learning across Japan, supports Divine as a respectful reading of the tradition.", "claim_ids": ["tenjin-c03", "tenjin-c04", "tenjin-c06"] },
-      "threat": { "id": "Bencana yang dikaitkan dengan rohnya ditafsirkan berpotensi berskala permukiman; riset tidak merinci besar bencananya.", "en": "Disasters attributed to his spirit are interpreted as potentially settlement-scale; the research does not specify their size.", "claim_ids": ["tenjin-c03"] },
-      "fear": { "id": "Roh yang dianggap menimbulkan bencana setelah wafat di pengasingan, ditambah unsur dewa petir, bersifat supernatural; peran pelindung ilmu tidak dihapus.", "en": "A spirit blamed for disasters after death in exile, with thunder-deity elements, is supernatural; the scholarship patron role is not erased.", "claim_ids": ["tenjin-c02", "tenjin-c03", "tenjin-c06"] }
-    },
-    "perlu_riset": "Riset tidak merinci skala dan jenis bencana yang dikaitkan dengan roh Michizane.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
   "abumi-guchi": {
     "power": null,
     "threat": null,
-    "fear": null,
+    "fear": "f1",
     "reasons": {
-      "power": { "id": "Riset hanya menjelaskan rupa sanggurdi bermulut dan bermata; kemampuannya tidak dijelaskan sehingga kekuatan belum dinilai.", "en": "The research only describes a stirrup with a mouth and eyes; its abilities are not described, so power remains unassessed.", "claim_ids": [] },
-      "threat": { "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.", "en": "The research holds no destructive deeds; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset tidak membahas rasa takut yang ditimbulkannya; keterangan menunggu tuan berasal dari karya modern, bukan tradisi lama.", "en": "The research does not discuss any fear it evokes; the waiting-for-a-master idea comes from modern work, not an older tradition.", "claim_ids": [] }
+      "power": {
+        "id": "Riset tidak memuat kemampuan apa pun; Power belum dinilai.",
+        "en": "The research holds no abilities; Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Sanggurdi bermata dan bermulut, ditafsirkan berasal dari panglima yang gugur dan ditinggalkan di medan perang, terasa ganjil.",
+        "en": "A stirrup with eyes and a mouth, thought to come from a commander killed and abandoned on the battlefield, feels uncanny.",
+        "claim_ids": [
+          "abumi-guchi-c05",
+          "abumi-guchi-c06"
+        ]
+      }
     },
-    "perlu_riset": "Riset hanya memuat gambar Sekien dan tafsir asalnya; kemampuan, perbuatan, dan efek menakutkan abumi-guchi belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "perlu_riset": "Keterangan Sekien hampir tidak menjelaskan yokai ini; kemampuan dan perilakunya belum ada di riset.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "abura-akago": {
     "power": "superhuman",
     "threat": null,
     "fear": "f3",
     "reasons": {
-      "power": { "id": "Roh pencuri minyak yang menjadi api dan bola api terbang melampaui manusia; Sekien hanya menduga bayi itu pencurinya yang lahir kembali.", "en": "The spirit of an oil thief becoming a flame and a flying fireball exceeds humans; Sekien only suggests the baby may be the reborn thief.", "claim_ids": ["abura-akago-c02", "abura-akago-c03", "abura-akago-c04"] },
-      "threat": { "id": "Riset tidak memuat korban atau kerusakan; ancaman belum dinilai.", "en": "The research records no victims or damage; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Roh yang menjadi api dan bayi penjilat minyak lampu tidak dapat dijelaskan oleh hukum alam.", "en": "A spirit becoming flame and a baby licking lamp oil cannot be explained by natural law.", "claim_ids": ["abura-akago-c01", "abura-akago-c03"] }
+      "power": {
+        "id": "Roh pencuri minyak yang menjadi api dan bola api terbang melampaui manusia; Sekien hanya menduga bayi itu pencurinya yang lahir kembali.",
+        "en": "The spirit of an oil thief becoming a flame and a flying fireball exceeds humans; Sekien only suggests the baby may be the reborn thief.",
+        "claim_ids": [
+          "abura-akago-c02",
+          "abura-akago-c03",
+          "abura-akago-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat korban atau kerusakan; ancaman belum dinilai.",
+        "en": "The research records no victims or damage; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Roh yang menjadi api dan bayi penjilat minyak lampu tidak dapat dijelaskan oleh hukum alam.",
+        "en": "A spirit becoming flame and a baby licking lamp oil cannot be explained by natural law.",
+        "claim_ids": [
+          "abura-akago-c01",
+          "abura-akago-c03"
+        ]
+      }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
@@ -228,85 +63,84 @@
     "threat": null,
     "fear": null,
     "reasons": {
-      "power": { "id": "Sapi merah misterius yang memimpin ternak lain mengangkut bahan kuil hingga selesai ditafsirkan melampaui hewan biasa; tidak ada kuasa yang lebih besar dicatat.", "en": "A mysterious red cow leading other cattle to carry temple materials until completion is interpreted as beyond ordinary animals; no greater power is recorded.", "claim_ids": ["akabeko-c02", "akabeko-c03"] },
-      "threat": { "id": "Riset menampilkannya sebagai pembawa keberuntungan dan pelindung dari penyakit, tanpa perbuatan merusak; ancaman belum dinilai.", "en": "The research presents it as a bringer of luck and protector from illness, with no destructive deeds; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.", "en": "The research holds nothing that evokes fear; Fear remains unassessed.", "claim_ids": [] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "bake-kujira": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": "f3",
-    "reasons": {
-      "power": { "id": "Rangka paus raksasa yang muncul dan lenyap serta tidak terluka oleh harpun melampaui batas manusia; hanya satu catatan penampakannya yang diketahui.", "en": "A huge whale skeleton that appears, vanishes, and is unharmed by a harpoon exceeds human limits; only one account of its appearance is known.", "claim_ids": ["bake-kujira-c01", "bake-kujira-c04", "bake-kujira-c07"] },
-      "threat": { "id": "Riset tidak memuat korban atau kerusakan akibat penampakannya; ancaman belum dinilai.", "en": "The research records no victims or damage from its appearance; threat remains unassessed.", "claim_ids": [] },
-      "fear": { "id": "Rangka paus yang tak tersentuh harpun, datang bersama ikan asing dan burung aneh pada malam hujan, tidak dapat dijelaskan oleh hukum alam.", "en": "A whale skeleton untouched by a harpoon, arriving with unfamiliar fish and strange birds on a rainy night, cannot be explained by natural law.", "claim_ids": ["bake-kujira-c03", "bake-kujira-c04", "bake-kujira-c05"] }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "isonade": {
-    "power": "monstrous",
-    "threat": "t2",
-    "fear": "f2",
-    "reasons": {
       "power": {
-        "id": "Ekor berduri yang membalikkan perahu dan menghantam orang di pantai menunjukkan kekuatan monster besar; skalanya terbatas pada pesisir.",
-        "en": "A barbed tail that overturns boats and strikes people on the beach shows great monstrous strength; its scale is limited to the coast.",
+        "id": "Sapi merah misterius yang memimpin ternak lain mengangkut bahan kuil hingga selesai ditafsirkan melampaui hewan biasa; tidak ada kuasa yang lebih besar dicatat.",
+        "en": "A mysterious red cow leading other cattle to carry temple materials until completion is interpreted as beyond ordinary animals; no greater power is recorded.",
         "claim_ids": [
-          "isonade-c02",
-          "isonade-c05"
+          "akabeko-c02",
+          "akabeko-c03"
         ]
       },
       "threat": {
-        "id": "Mengait pelaut dan menyeretnya ke laut atau membalikkan perahu membahayakan seluruh awak, sehingga ancaman ditafsirkan pada skala kelompok.",
-        "en": "Hooking sailors and dragging them into the sea, or overturning boats, endangers whole crews, so the threat is interpreted at group scale.",
-        "claim_ids": [
-          "isonade-c04",
-          "isonade-c05"
-        ]
+        "id": "Riset menampilkannya sebagai pembawa keberuntungan dan pelindung dari penyakit, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research presents it as a bringer of luck and protector from illness, with no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
       },
       "fear": {
-        "id": "Tubuh yang bersembunyi di bawah air dan hanya menyerang dengan ekor menjadikannya predator laut yang memangsa korban; kisahnya beragam antar versi.",
-        "en": "A body hidden underwater that strikes only with its tail makes it a sea predator that takes victims; versions of the tale differ.",
-        "claim_ids": [
-          "isonade-c03",
-          "isonade-c04"
-        ]
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear; Fear remains unassessed.",
+        "claim_ids": []
       }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "satori-folklore": {
-    "power": "superhuman",
-    "threat": null,
+  "akashita": {
+    "power": null,
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Riset hanya menggambarkan rupa akashita (awan hitam, cakar, lidah merah); kemampuan gaibnya tidak dijelaskan sehingga kekuatan belum dinilai.",
+        "en": "The research only describes its look (black cloud, claws, red tongue); its supernatural abilities are not described, so power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Satu catatan menyebut akaguchi menghukum pencuri air, ditafsirkan pada skala pribadi; kisah itu belakangan disesuaikan dengan gambar Sekien.",
+        "en": "One account says akaguchi punishes water thieves, interpreted at a personal scale; that story was later fitted to Sekien's picture.",
+        "claim_ids": [
+          "akashita-c06",
+          "akashita-c08"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak membahas jenis rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research does not discuss the kind of fear it evokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya memuat gambar Sekien dan kisah sengketa air yang diragukan; kemampuan dan perbuatan asli akashita belum ada.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "akkorokamui": {
+    "power": "regional",
+    "threat": "t2",
     "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Kemampuan membaca pikiran dan mengucapkannya dengan cepat melampaui manusia; riset juga mencatat satori takut pada kayu yang melenting dan peluru emas.",
-        "en": "Reading minds and speaking thoughts aloud quickly exceeds human ability; the research also records the satori fleeing a springing piece of wood and a gold bullet.",
+        "id": "Dewa air penguasa Teluk Uchiura dengan tubuh seluas satu hektare yang menelan perahu dan paus menunjukkan pengaruh atas satu teluk; belum terdokumentasi melampaui wilayah itu.",
+        "en": "A water deity and lord of Uchiura Bay with a body spanning a hectare that swallows boats and whales shows influence over a bay; nothing documented goes beyond that region.",
         "claim_ids": [
-          "satori-folklore-c01",
-          "satori-folklore-c02",
-          "satori-folklore-c05",
-          "satori-folklore-c07"
+          "akkorokamui-c07",
+          "akkorokamui-c09",
+          "akkorokamui-c06"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; kisah perjumpaan hanya menunjukkan ia membaca pikiran lalu mundur, sehingga ancaman belum dinilai.",
-        "en": "The research holds no destructive acts; the encounter tales show only mind reading and retreat, so threat remains unassessed.",
-        "claim_ids": []
+        "id": "Kapal yang mendekat dikatakan ditelan utuh sehingga awaknya terancam, jadi ancaman ditafsirkan pada skala kelompok; ia juga dihormati sebagai dewa.",
+        "en": "Ships that come close are said to be swallowed whole, endangering their crews, so the threat is interpreted at group scale; it is also revered as a deity.",
+        "claim_ids": [
+          "akkorokamui-c07",
+          "akkorokamui-c10"
+        ]
       },
       "fear": {
-        "id": "Membaca isi pikiran manusia di pegunungan adalah kemampuan yang tidak dapat dijelaskan hukum alam.",
-        "en": "Reading human thoughts in the mountains is an ability that natural law cannot explain.",
+        "id": "Tubuh serba merah yang membuat laut dan langit memerah saat muncul adalah penampakan supernatural yang ditakuti dan dihormati.",
+        "en": "An entirely red body that turns the sea and sky red when it appears is a supernatural manifestation both feared and revered.",
         "claim_ids": [
-          "satori-folklore-c01",
-          "satori-folklore-c04",
-          "satori-folklore-c06"
+          "akkorokamui-c09",
+          "akkorokamui-c13"
         ]
       }
     },
@@ -344,6 +178,63 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
+  "ameonna": {
+    "power": null,
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Riset tidak memuat kemampuan ameonna selain kehadirannya saat hujan; Power belum dinilai.",
+        "en": "The research holds no abilities beyond her presence in rain; Power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perempuan basah kuyup yang menjilati tangannya dan muncul pada malam hujan menimbulkan rasa ganjil.",
+        "en": "A rain-soaked woman licking her hand who appears on rainy nights creates an uncanny unease.",
+        "claim_ids": [
+          "ameonna-c02",
+          "ameonna-c06"
+        ]
+      }
+    },
+    "perlu_riset": "Riset hanya membahas gambar Sekien dan asal kiasannya; kemampuan, perilaku, dan dampak ameonna terhadap manusia belum ada.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "amikiri": {
+    "power": null,
+    "threat": "t1",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Sekien tidak menjelaskan hakikat amikiri dan kisah pemotongan jaring diragukan; kekuatan belum dinilai.",
+        "en": "Sekien gives no explanation of amikiri's nature and the net-cutting tale is doubted; power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Kisah Yamada mengaitkannya dengan jaring ikan dan kelambu yang dipotong, kerusakan pada skala pribadi; Murakami menduga kisah itu rekaan Yamada.",
+        "en": "Yamada's tale links it to cut fishing nets and a cut mosquito net, damage at a personal scale; Murakami considered the tale Yamada's invention.",
+        "claim_ids": [
+          "amikiri-c05",
+          "amikiri-c06",
+          "amikiri-c08"
+        ]
+      },
+      "fear": {
+        "id": "Riset tidak membahas rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research does not discuss any fear it evokes; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya memuat gambar Sekien dan satu kisah yang diragukan; kemampuan dan efek menakutkan amikiri belum ada.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
   "aoandon": {
     "power": "superhuman",
     "threat": "t2",
@@ -371,6 +262,105 @@
         "claim_ids": [
           "aoandon-c04",
           "aoandon-c11"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "aosaginohi": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Burung tua yang menjelma yokai dan menyemburkan bola api biru dari napasnya melampaui kemampuan burung biasa; skalanya hanya sebatas bola api di atas air dan pepohonan.",
+        "en": "An aged bird transformed into a yokai that breathes blue fireballs exceeds an ordinary bird; its scale reaches only fireballs over water and treetops.",
+        "claim_ids": [
+          "aosaginohi-c08",
+          "aosaginohi-c09"
+        ]
+      },
+      "threat": {
+        "id": "Bola apinya tidak panas dan tidak membakar apa pun, serta riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "Its fireballs give off no heat and burn nothing, and the research holds no destructive acts; threat remains unassessed.",
+        "claim_ids": [
+          "aosaginohi-c10"
+        ]
+      },
+      "fear": {
+        "id": "Cahaya aneh di malam hari yang dijelaskan sebagai mata dan sayap burung lebih ganjil daripada mengancam.",
+        "en": "Strange lights at night explained as the eyes and wings of a heron are more uncanny than threatening.",
+        "claim_ids": [
+          "aosaginohi-c01",
+          "aosaginohi-c05",
+          "aosaginohi-c09"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "azukiarai": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Suara pencucian kacang tanpa sumber yang jelas merupakan gejala gaib di luar kemampuan manusia; sebagian catatan menafsirkannya sebagai musang atau mamedanuki.",
+        "en": "A bean-washing sound with no identified source is a supernatural phenomenon beyond human ability; some records read it as a weasel or mamedanuki.",
+        "claim_ids": [
+          "azukiarai-c01",
+          "azukiarai-c02",
+          "azukiarai-c06",
+          "azukiarai-c07"
+        ]
+      },
+      "threat": {
+        "id": "Satu catatan menyebut suara itu memikat orang hingga jatuh ke parit atau tebing, bahaya bagi individu.",
+        "en": "One account says the sound lures people into ditches or off cliffs, a danger to individuals.",
+        "claim_ids": [
+          "azukiarai-c04"
+        ]
+      },
+      "fear": {
+        "id": "Suara tanpa wujud di dekat air terasa janggal dan tidak semestinya, lebih mengganggu daripada memburu.",
+        "en": "A bodiless sound near water feels strange and out of place, more disquieting than hunting.",
+        "claim_ids": [
+          "azukiarai-c01",
+          "azukiarai-c02"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "bake-kujira": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Rangka paus raksasa yang muncul dan lenyap serta tidak terluka oleh harpun melampaui batas manusia; hanya satu catatan penampakannya yang diketahui.",
+        "en": "A huge whale skeleton that appears, vanishes, and is unharmed by a harpoon exceeds human limits; only one account of its appearance is known.",
+        "claim_ids": [
+          "bake-kujira-c01",
+          "bake-kujira-c04",
+          "bake-kujira-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat korban atau kerusakan akibat penampakannya; ancaman belum dinilai.",
+        "en": "The research records no victims or damage from its appearance; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Rangka paus yang tak tersentuh harpun, datang bersama ikan asing dan burung aneh pada malam hujan, tidak dapat dijelaskan oleh hukum alam.",
+        "en": "A whale skeleton untouched by a harpoon, arriving with unfamiliar fish and strange birds on a rainy night, cannot be explained by natural law.",
+        "claim_ids": [
+          "bake-kujira-c03",
+          "bake-kujira-c04",
+          "bake-kujira-c05"
         ]
       }
     },
@@ -476,6 +466,286 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
+  "hannya": {
+    "power": null,
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Riset membahas topeng Noh, bukan kemampuan sosok iblisnya; kekuatan belum dinilai.",
+        "en": "The research concerns the Noh mask, not the abilities of the demon it portrays; power remains unassessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak sosok hannya; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by the hannya figure; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Perempuan yang berubah menjadi iblis karena dendam dan cemburu merupakan transformasi gaib; Fear bukan penilaian moral.",
+        "en": "A woman turned demon by vengeance and jealousy is a supernatural transformation; Fear is not a moral judgment.",
+        "claim_ids": [
+          "hannya-c01",
+          "hannya-c03"
+        ]
+      }
+    },
+    "perlu_riset": "Riset hanya membahas topeng Noh dan ciri visualnya; kekuatan dan perbuatan sosok hannya dalam lakon belum ada.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "isonade": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Ekor berduri yang membalikkan perahu dan menghantam orang di pantai menunjukkan kekuatan monster besar; skalanya terbatas pada pesisir.",
+        "en": "A barbed tail that overturns boats and strikes people on the beach shows great monstrous strength; its scale is limited to the coast.",
+        "claim_ids": [
+          "isonade-c02",
+          "isonade-c05"
+        ]
+      },
+      "threat": {
+        "id": "Mengait pelaut dan menyeretnya ke laut atau membalikkan perahu membahayakan seluruh awak, sehingga ancaman ditafsirkan pada skala kelompok.",
+        "en": "Hooking sailors and dragging them into the sea, or overturning boats, endangers whole crews, so the threat is interpreted at group scale.",
+        "claim_ids": [
+          "isonade-c04",
+          "isonade-c05"
+        ]
+      },
+      "fear": {
+        "id": "Tubuh yang bersembunyi di bawah air dan hanya menyerang dengan ekor menjadikannya predator laut yang memangsa korban; kisahnya beragam antar versi.",
+        "en": "A body hidden underwater that strikes only with its tail makes it a sea predator that takes victims; versions of the tale differ.",
+        "claim_ids": [
+          "isonade-c03",
+          "isonade-c04"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "jorogumo": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kemampuan menjelma menjadi perempuan melampaui batas laba-laba maupun manusia biasa, menurut kisah periode Edo.",
+        "en": "Its ability to appear as a woman exceeds both spiders and ordinary humans, according to Edo-period tales.",
+        "claim_ids": [
+          "jorogumo-c01",
+          "jorogumo-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat korban atau kerusakan yang ditimbulkannya; ancaman belum dinilai.",
+        "en": "The research records no victims or damage caused by it; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Penyamaran laba-laba sebagai perempuan yang melamar atau membawa bayi melanggar hukum alam; ilustrasi Sekien sendiri tidak menjelaskan kemampuannya.",
+        "en": "A spider disguised as a woman who proposes marriage or carries an infant defies natural law; Sekien's illustration itself does not describe abilities.",
+        "claim_ids": [
+          "jorogumo-c02",
+          "jorogumo-c11",
+          "jorogumo-c12",
+          "jorogumo-c08"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "kamaitachi": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dikaitkan dengan pusaran angin yang menyayat kulit seperti sabit, kemampuan di luar batas manusia; asalnya bervariasi antar daerah.",
+        "en": "It is associated with whirlwinds that slice skin like a sickle, an ability beyond human limits; its origin varies between regions.",
+        "claim_ids": [
+          "kamaitachi-c02",
+          "kamaitachi-c05"
+        ]
+      },
+      "threat": {
+        "id": "Luka sayatan dialami individu korban, sehingga ancaman ditafsirkan pada skala pribadi.",
+        "en": "The cuts are suffered by individual victims, so the threat is interpreted at a personal scale.",
+        "claim_ids": [
+          "kamaitachi-c02",
+          "kamaitachi-c03"
+        ]
+      },
+      "fear": {
+        "id": "Luka yang awalnya tidak sakit atau tidak berdarah akibat angin gaib melampaui penjelasan alamiah.",
+        "en": "Wounds that are at first painless or bloodless from a supernatural wind exceed natural explanation.",
+        "claim_ids": [
+          "kamaitachi-c02",
+          "kamaitachi-c03"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "karura": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung pemakan ular yang termasuk Delapan Golongan dan menjadi pelindung Buddhis melampaui manusia; riset tidak merinci kuasanya sehingga tidak dinaikkan.",
+        "en": "A snake-eating bird among the Eight Kinds and a Buddhist guardian exceeds humans; the research does not detail its powers, so it is not raised higher.",
+        "claim_ids": [
+          "karura-c01",
+          "karura-c06"
+        ]
+      },
+      "threat": {
+        "id": "Sebagai musuh para naga dan pemangsa ular, ancamannya ditafsirkan pada kelompok makhluk itu; ini bukan ancaman bagi manusia, dan peran pelindungnya dicatat.",
+        "en": "As the enemy of nagas and an eater of snakes, its threat is interpreted at the scale of a group of those beings; this is not a threat to humans, and its guardian role is noted.",
+        "claim_ids": [
+          "karura-c01",
+          "karura-c03"
+        ]
+      },
+      "fear": {
+        "id": "Riset menampilkan karura sebagai pelindung dan benda seni, tanpa unsur ketakutan terhadap manusia; Fear belum dinilai.",
+        "en": "The research presents karura as a guardian and an artwork, with no fear directed at humans; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset tidak memuat kemampuan terperinci karura, seperti cuaca, sayap, atau api; skala kuasanya belum jelas.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "korpokkur": {
+    "power": "mortal",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Digambarkan sebagai orang kecil yang menangkap ikan, tinggal di lubang beratap daun butterbur, dan bertukar hasil buruan; tidak ada kemampuan gaib dicatat.",
+        "en": "Described as little people who fish, live in pits roofed with butterbur leaves, and trade game; no supernatural ability is recorded.",
+        "claim_ids": [
+          "korpokkur-c01",
+          "korpokkur-c02",
+          "korpokkur-c09"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak mereka; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds by them; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan mereka sebagai penghindar manusia dan mitra bertukar barang, tanpa unsur menakutkan; Fear belum dinilai.",
+        "en": "The research presents them as shy trading partners with nothing frightening; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "noppera-bo": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Wujud yang tampak biasa lalu berubah menjadi wajah polos melampaui kemampuan manusia; sebagian kisah menganggapnya penyamaran mujina, rubah, atau tanuki.",
+        "en": "A form that looks ordinary and then shows a blank face exceeds human ability; some tales attribute it to a disguised mujina, fox, or tanuki.",
+        "claim_ids": [
+          "noppera-bo-c02",
+          "noppera-bo-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyatakan noppera-bō terutama menakut-nakuti, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research says noppera-bō chiefly frightens people, with no destructive deeds; threat remains unassessed.",
+        "claim_ids": [
+          "noppera-bo-c04"
+        ]
+      },
+      "fear": {
+        "id": "Kengeriannya berasal dari wajah polos yang janggal dan cahaya yang padam, bukan dari perburuan atau kekerasan.",
+        "en": "Its horror comes from an uncanny blank face and a light going out, not from hunting or violence.",
+        "claim_ids": [
+          "noppera-bo-c02",
+          "noppera-bo-c04",
+          "noppera-bo-c10"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "nurikabe": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Menghalangi pejalan seperti dinding adalah gejala gaib melampaui manusia; rupanya berbeda antara gulungan dan kisah lisan.",
+        "en": "Obstructing a traveler like a wall is a supernatural phenomenon beyond humans; its form differs between the scroll and oral accounts.",
+        "claim_ids": [
+          "nurikabe-c02",
+          "nurikabe-c08"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya mencatat penghalangan yang hilang bila dasarnya disapu tongkat, tanpa cedera; ancaman belum dinilai.",
+        "en": "The research records only an obstruction removed by sweeping its base with a stick, with no injury; threat remains unassessed.",
+        "claim_ids": [
+          "nurikabe-c04"
+        ]
+      },
+      "fear": {
+        "id": "Dinding yang tiba-tiba menghadang pejalan malam terasa janggal dan tidak semestinya, bukan perburuan.",
+        "en": "A wall suddenly blocking a night traveler feels uncanny and out of place, not like hunting.",
+        "claim_ids": [
+          "nurikabe-c02"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "oyamatsumi": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Kami agung atas gunung yang dipuja pula sebagai dewa gunung dan laut, sehingga kuasa atas ranah menjadi dasar Divine; asal-usulnya berbeda antara Kojiki dan Nihongi.",
+        "en": "A great kami over mountains also worshipped as a deity of mountains and seas, so authority over domains supports Divine; his origin differs between the Kojiki and Nihongi.",
+        "claim_ids": [
+          "oyamatsumi-c01",
+          "oyamatsumi-c06",
+          "oyamatsumi-c02",
+          "oyamatsumi-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yang jelas darinya; runtuhan saat pembangunan kastil tidak dinyatakan sebagai perbuatannya, sehingga ancaman belum dinilai.",
+        "en": "The research holds no clear destructive deeds by him; the collapses during castle construction are not stated to be his doing, so threat remains unassessed.",
+        "claim_ids": [
+          "oyamatsumi-c07"
+        ]
+      },
+      "fear": {
+        "id": "Riset menampilkan Ōyamatsumi sebagai kami yang dipuja di kuil dan festival, bukan sumber ketakutan; Fear belum dinilai.",
+        "en": "The research presents Ōyamatsumi as a kami worshipped at shrines and festivals, not a source of fear; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
   "sarutahiko-okami": {
     "power": "divine",
     "threat": null,
@@ -504,70 +774,158 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "akkorokamui": {
-    "power": "regional",
-    "threat": "t2",
+  "satori-folklore": {
+    "power": "superhuman",
+    "threat": null,
     "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Dewa air penguasa Teluk Uchiura dengan tubuh seluas satu hektare yang menelan perahu dan paus menunjukkan pengaruh atas satu teluk; belum terdokumentasi melampaui wilayah itu.",
-        "en": "A water deity and lord of Uchiura Bay with a body spanning a hectare that swallows boats and whales shows influence over a bay; nothing documented goes beyond that region.",
+        "id": "Kemampuan membaca pikiran dan mengucapkannya dengan cepat melampaui manusia; riset juga mencatat satori takut pada kayu yang melenting dan peluru emas.",
+        "en": "Reading minds and speaking thoughts aloud quickly exceeds human ability; the research also records the satori fleeing a springing piece of wood and a gold bullet.",
         "claim_ids": [
-          "akkorokamui-c07",
-          "akkorokamui-c09",
-          "akkorokamui-c06"
+          "satori-folklore-c01",
+          "satori-folklore-c02",
+          "satori-folklore-c05",
+          "satori-folklore-c07"
         ]
       },
       "threat": {
-        "id": "Kapal yang mendekat dikatakan ditelan utuh sehingga awaknya terancam, jadi ancaman ditafsirkan pada skala kelompok; ia juga dihormati sebagai dewa.",
-        "en": "Ships that come close are said to be swallowed whole, endangering their crews, so the threat is interpreted at group scale; it is also revered as a deity.",
-        "claim_ids": [
-          "akkorokamui-c07",
-          "akkorokamui-c10"
-        ]
+        "id": "Riset tidak memuat perbuatan merusak; kisah perjumpaan hanya menunjukkan ia membaca pikiran lalu mundur, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive acts; the encounter tales show only mind reading and retreat, so threat remains unassessed.",
+        "claim_ids": []
       },
       "fear": {
-        "id": "Tubuh serba merah yang membuat laut dan langit memerah saat muncul adalah penampakan supernatural yang ditakuti dan dihormati.",
-        "en": "An entirely red body that turns the sea and sky red when it appears is a supernatural manifestation both feared and revered.",
+        "id": "Membaca isi pikiran manusia di pegunungan adalah kemampuan yang tidak dapat dijelaskan hukum alam.",
+        "en": "Reading human thoughts in the mountains is an ability that natural law cannot explain.",
         "claim_ids": [
-          "akkorokamui-c09",
-          "akkorokamui-c13"
+          "satori-folklore-c01",
+          "satori-folklore-c04",
+          "satori-folklore-c06"
         ]
       }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "aosaginohi": {
+  "shachihoko": {
     "power": "superhuman",
     "threat": null,
-    "fear": "f1",
+    "fear": null,
     "reasons": {
       "power": {
-        "id": "Burung tua yang menjelma yokai dan menyemburkan bola api biru dari napasnya melampaui kemampuan burung biasa; skalanya hanya sebatas bola api di atas air dan pepohonan.",
-        "en": "An aged bird transformed into a yokai that breathes blue fireballs exceeds an ordinary bird; its scale reaches only fireballs over water and treetops.",
+        "id": "Folklor menyebut shachi menyemburkan air untuk memadamkan api, kemampuan gaib yang melindungi kastil; tidak ada skala lebih besar dicatat.",
+        "en": "Folklore says shachi spray water to extinguish fires, a supernatural ability protecting castles; no larger scale is recorded.",
         "claim_ids": [
-          "aosaginohi-c08",
-          "aosaginohi-c09"
+          "shachihoko-c03"
         ]
       },
       "threat": {
-        "id": "Bola apinya tidak panas dan tidak membakar apa pun, serta riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "Its fireballs give off no heat and burn nothing, and the research holds no destructive acts; threat remains unassessed.",
+        "id": "Riset menampilkannya sebagai pelindung dan hiasan atap, tanpa perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research presents it as a protector and roof ornament, with no destructive deeds; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research holds nothing that evokes fear; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "tenjin": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh Michizane yang didewakan dan dipadukan dengan dewa petir, dipuja sebagai pelindung ilmu di seluruh Jepang, menjadi dasar Divine sebagai tafsir hormat atas tradisinya.",
+        "en": "The deified spirit of Michizane, combined with a thunder deity and revered as a patron of learning across Japan, supports Divine as a respectful reading of the tradition.",
         "claim_ids": [
-          "aosaginohi-c10"
+          "tenjin-c03",
+          "tenjin-c04",
+          "tenjin-c06"
+        ]
+      },
+      "threat": {
+        "id": "Bencana yang dikaitkan dengan rohnya ditafsirkan berpotensi berskala permukiman; riset tidak merinci besar bencananya.",
+        "en": "Disasters attributed to his spirit are interpreted as potentially settlement-scale; the research does not specify their size.",
+        "claim_ids": [
+          "tenjin-c03"
         ]
       },
       "fear": {
-        "id": "Cahaya aneh di malam hari yang dijelaskan sebagai mata dan sayap burung lebih ganjil daripada mengancam.",
-        "en": "Strange lights at night explained as the eyes and wings of a heron are more uncanny than threatening.",
+        "id": "Roh yang dianggap menimbulkan bencana setelah wafat di pengasingan, ditambah unsur dewa petir, bersifat supernatural; peran pelindung ilmu tidak dihapus.",
+        "en": "A spirit blamed for disasters after death in exile, with thunder-deity elements, is supernatural; the scholarship patron role is not erased.",
         "claim_ids": [
-          "aosaginohi-c01",
-          "aosaginohi-c05",
-          "aosaginohi-c09"
+          "tenjin-c02",
+          "tenjin-c03",
+          "tenjin-c06"
         ]
       }
     },
+    "perlu_riset": "Riset tidak merinci skala dan jenis bencana yang dikaitkan dengan roh Michizane.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "umibozu": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Mengubah laut tenang menjadi ganas dan mampu menghancurkan atau membanjiri kapal; skala yang tercatat belum mencapai wilayah luas.",
+        "en": "It turns calm seas rough and can break or flood a ship; the recorded scale does not reach a broad region.",
+        "claim_ids": [
+          "umibozu-c03",
+          "umibozu-c04"
+        ]
+      },
+      "threat": {
+        "id": "Kapal yang pecah atau tenggelam membahayakan seluruh awak, sehingga ancaman ditafsirkan pada skala kelompok.",
+        "en": "A ship broken or flooded endangers its whole crew, so the threat is interpreted at group scale.",
+        "claim_ids": [
+          "umibozu-c01",
+          "umibozu-c04"
+        ]
+      },
+      "fear": {
+        "id": "Munculnya makhluk di laut tenang yang tiba-tiba bergolak merupakan peristiwa gaib; wujudnya berbeda antar kisah.",
+        "en": "A being appearing on calm seas that suddenly churn is a supernatural event; its form differs between tales.",
+        "claim_ids": [
+          "umibozu-c03",
+          "umibozu-c07"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "yatagarasu": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Disebut dewa penuntun dan abdi Amaterasu serta dewa-dewa Kumano, sehingga ditafsirkan sebagai sosok ilahi berkuasa atas ranah penuntunan; riset tidak merinci kekuatannya.",
+        "en": "Called a guiding deity and servant of Amaterasu and the Kumano deities, it is interpreted as a divine being with a domain of guidance; the research does not detail its powers.",
+        "claim_ids": [
+          "yatagarasu-c02",
+          "yatagarasu-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai, dan perannya sebagai penuntun bukan bukti ancaman.",
+        "en": "The research holds no destructive deeds; threat remains unassessed, and a guiding role is not evidence of a threat.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menampilkan Yatagarasu sebagai penuntun dan lambang kuil, tanpa unsur yang menimbulkan rasa takut; Fear belum dinilai.",
+        "en": "The research presents Yatagarasu as a guide and shrine emblem, with nothing that evokes fear; Fear remains unassessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya membahas peran penuntun Jimmu dan lambang kuil Kumano; kemampuan gaib dan kuasa spesifiknya belum ada.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   }

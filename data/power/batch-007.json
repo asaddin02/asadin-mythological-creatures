@@ -1,4 +1,100 @@
 {
+  "duende": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Duwende dapat membuat orang yang menyakitinya menderita penyakit aneh yang tak tersembuhkan, dan diaño berubah wujud menjadi hewan ternak atau bayi.",
+        "en": "Duwendes can make those who hurt them suffer strange diseases no treatment cures, and diaños take the form of farm animals or a baby.",
+        "claim_ids": [
+          "duende-c17",
+          "duende-c05"
+        ]
+      },
+      "threat": {
+        "id": "Mereka mengutuk orang yang menginjaknya, menculik anak kecil, dan memotong kuku atau jari kaki anak; skala individu.",
+        "en": "They curse those who step on them, take small children, and clip or remove children’s toes; individual scale.",
+        "claim_ids": [
+          "duende-c08",
+          "duende-c09",
+          "duende-c06"
+        ]
+      },
+      "fear": {
+        "id": "Kutukan penyakit dan penculikan oleh makhluk kecil penghuni rumah dan gundukan tanah melampaui hukum alam.",
+        "en": "Curses of disease and abductions by small beings of houses and mounds exceed natural law.",
+        "claim_ids": [
+          "duende-c17",
+          "duende-c09"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "mae-nak-phra-khanong": {
+    "power": "superhuman",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Hantu yang tampil sebagai manusia mengurus rumah dan dapat memanjangkan lengannya secara mustahil.",
+        "en": "A ghost who appears in human form doing the housework and can stretch her arm to an impossible length.",
+        "claim_ids": [
+          "mae-nak-phra-khanong-c10",
+          "mae-nak-phra-khanong-c04"
+        ]
+      },
+      "threat": {
+        "id": "Dalam dukanya ia meneror Phra Khanong hingga seorang bhiksu sakti menangkap arwahnya; dasar skala permukiman.",
+        "en": "In her grief she terrorized Phra Khanong until a powerful monk captured her spirit, supporting a settlement scale.",
+        "claim_ids": [
+          "mae-nak-phra-khanong-c05"
+        ]
+      },
+      "fear": {
+        "id": "Istri yang ternyata hantu perempuan yang mati melahirkan adalah keberadaan supernatural yang mengguncang.",
+        "en": "A wife who turns out to be the ghost of a woman who died in childbirth is a shocking supernatural presence.",
+        "claim_ids": [
+          "mae-nak-phra-khanong-c04",
+          "mae-nak-phra-khanong-c10"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "suvannamaccha": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Putri duyung putri Rahwana yang setiap malam melenyapkan batu yang dilempar ke laut untuk jembatan, dan berkali-kali lolos dari Hanuman.",
+        "en": "Ravana’s mermaid daughter who each night made the rocks thrown into the sea for the bridge disappear and repeatedly evaded Hanuman.",
+        "claim_ids": [
+          "suvannamaccha-c01",
+          "suvannamaccha-c03",
+          "suvannamaccha-c11"
+        ]
+      },
+      "threat": {
+        "id": "Ia menghambat pembangunan jembatan atas perintah Rahwana, bukan merusak; ancaman belum dinilai.",
+        "en": "She hindered the bridge on Ravana’s orders rather than destroying; threat is not assessed.",
+        "claim_ids": [
+          "suvannamaccha-c07"
+        ]
+      },
+      "fear": {
+        "id": "Riset menggambarkan putri duyung pembawa keberuntungan, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a lucky golden mermaid, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
   "tikbalang": {
     "power": "superhuman",
     "threat": "t1",
@@ -7,17 +103,27 @@
       "power": {
         "id": "Kemampuan berubah wujud menjadi lelaki tua, kuda, atau monster serta membuat pelancong kembali ke jalan yang sama melampaui batas manusia, tanpa bukti kuasa atas wilayah luas.",
         "en": "Shapeshifting into an old man, a horse, or a monster and making travellers loop back to the same path exceed human limits, with no evidence of authority over a broad domain.",
-        "claim_ids": ["tikbalang-c06", "tikbalang-c10"]
+        "claim_ids": [
+          "tikbalang-c06",
+          "tikbalang-c10"
+        ]
       },
       "threat": {
         "id": "Catatan kolonial menyebut makhluk ini membawa orang yang lalu melemah dan mati, serta menyesatkan pelancong; bukti yang ada berpusat pada korban individu.",
         "en": "Colonial records say it carried people off who then grew weak and died, and it misleads travellers; the documented evidence centers on individual victims.",
-        "claim_ids": ["tikbalang-c14", "tikbalang-c10"]
+        "claim_ids": [
+          "tikbalang-c14",
+          "tikbalang-c10"
+        ]
       },
       "fear": {
         "id": "Perubahan wujud sebagai leluhur palsu, kuda, atau monster dan kemampuan menyesatkan pelancong tidak dapat dijelaskan oleh hukum alam; versi tradisi awal dan belakangan berbeda dalam wujudnya.",
         "en": "Shapeshifting as a false ancestor, a horse, or a monster and the power to mislead travellers cannot be explained by natural law; early and later traditions differ in its form.",
-        "claim_ids": ["tikbalang-c06", "tikbalang-c10", "tikbalang-c05"]
+        "claim_ids": [
+          "tikbalang-c06",
+          "tikbalang-c10",
+          "tikbalang-c05"
+        ]
       }
     },
     "oleh": "claude-cloud",

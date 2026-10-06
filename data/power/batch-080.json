@@ -1,82 +1,95 @@
 {
-  "mushussu": {
-    "power": null,
-    "threat": null,
-    "fear": null,
+  "aisha-qandicha": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
     "reasons": {
       "power": {
-        "id": "Riset hanya memuat wujud, kedudukan sebagai hewan suci Marduk dan Nabu, serta arti nama; kuasa Mushussu belum dinilai.",
-        "en": "The research holds only its form, its role as sacred animal of Marduk and Nabu, and its name meaning; its power is not assessed.",
-        "claim_ids": []
-      },
-      "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; threat is not assessed.",
-        "claim_ids": []
-      },
-      "fear": {
-        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkannya; Fear belum dinilai.",
-        "en": "The research holds no account of the fear it inspires; Fear is not assessed.",
-        "claim_ids": []
-      }
-    },
-    "perlu_riset": "Riset hanya membahas wujud, relief Gerbang Ishtar, status hewan suci Marduk dan Nabu, serta arti nama; kemampuan, perbuatan, dan peran Mushussu dalam kisah belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "pazuzu": {
-    "power": "divine",
-    "threat": null,
-    "fear": "f3",
-    "reasons": {
-      "power": {
-        "id": "Dewa iblis dengan sisi sebagai iblis angin pengembara yang melintasi pegunungan menjadi dasar kuasa atas ranah angin; ditafsirkan Divine sebagai tafsir editorial.",
-        "en": "A demonic deity with an aspect as a wandering wind demon crossing mountains supports authority over the wind; Divine is an editorial interpretation.",
+        "id": "Ia dapat menggerakkan air atau mengubahnya menjadi es dan menyamar sebagai istri korbannya.",
+        "en": "She can move water or turn it to ice and takes the shape of her victims’ wives.",
         "claim_ids": [
-          "pazuzu-c01",
-          "pazuzu-c05"
+          "aisha-qandicha-c25",
+          "aisha-qandicha-c14"
         ]
       },
       "threat": {
-        "id": "Riset menyebut kekuatan destruktif tetapi tanpa cakupan atau perbuatan tertentu; ancaman belum dinilai.",
-        "en": "The research mentions destructive powers but gives no scope or specific deeds; threat is not assessed.",
-        "claim_ids": []
+        "id": "Ia menangkap dan membunuh orang yang mandi, tiga atau empat lelaki setiap tahun; korbannya satu per satu.",
+        "en": "She seizes and kills people who bathe, three or four men a year; her victims fall one by one.",
+        "claim_ids": [
+          "aisha-qandicha-c12"
+        ]
       },
       "fear": {
-        "id": "Dewa iblis dan iblis angin berada di luar hukum alam; perannya melindungi bayi dari Lamashtu tidak menghapus sifat menakutkannya, dan Fear bukan penilaian moral.",
-        "en": "A demonic deity and wind demon lies beyond natural law; its role protecting infants from Lamashtu does not erase its fearsome nature, and Fear is not a moral judgment.",
+        "id": "Ia memakai kecantikannya untuk merayu lelaki lalu membuat mereka gila atau membunuhnya.",
+        "en": "She uses her beauty to seduce men, then drives them mad or kills them.",
         "claim_ids": [
-          "pazuzu-c01",
-          "pazuzu-c05"
+          "aisha-qandicha-c24",
+          "aisha-qandicha-c10"
         ]
       }
     },
-    "perlu_riset": "Riset menyebut kekuatan destruktif Pazuzu tetapi tidak memuat cakupan atau perbuatan konkretnya (angin, wabah, atau kehancuran lain).",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
-  "atargatis": {
-    "power": "divine",
-    "threat": null,
-    "fear": null,
+  "al-folklore": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
     "reasons": {
       "power": {
-        "id": "Dewi utama Suriah utara dengan kuasa kesuburan menjadi dasar Divine.",
-        "en": "The chief goddess of northern Syria with authority over fertility supports Divine.",
+        "id": "Kelas iblis yang mencuri paru-paru, hati, dan jantung perempuan bersalin melampaui kemampuan manusia.",
+        "en": "A class of demons that steal the lungs, liver, and heart of women in childbirth exceeds human ability.",
         "claim_ids": [
-          "atargatis-c01",
-          "atargatis-c03"
+          "al-folklore-c01",
+          "al-folklore-c04"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; threat is not assessed.",
-        "claim_ids": []
+        "id": "Serangan pada perempuan bersalin dan bayi ditafsirkan sebagai ancaman terhadap individu per kejadian.",
+        "en": "Attacks on women in childbirth and newborns are interpreted as an individual-scale threat per incident.",
+        "claim_ids": [
+          "al-folklore-c02",
+          "al-folklore-c04"
+        ]
       },
       "fear": {
-        "id": "Riset tidak memuat sisi yang menakutkan dari Atargatis; Fear belum dinilai.",
-        "en": "The research holds no fearsome aspect of Atargatis; Fear is not assessed.",
-        "claim_ids": []
+        "id": "Pemangsa malam yang memakan bayi baru lahir menjadi dasar ketakutan sebagai mangsa.",
+        "en": "Nocturnal predators feeding on newborns support the fear of becoming prey.",
+        "claim_ids": [
+          "al-folklore-c06"
+        ]
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "anqa": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Burung emas berempat pasang sayap yang hanya memangsa gajah dan ikan besar menjadi dasar kekuatan monster.",
+        "en": "A golden bird with four pairs of wings that eats only elephants and large fish supports monstrous power.",
+        "claim_ids": [
+          "anqa-c04",
+          "anqa-c06"
+        ]
+      },
+      "threat": {
+        "id": "Dalam tradisi hadis yang dikutip Iranica, Anqa menjadi wabah; cakupan pastinya tidak dirinci sehingga ditafsirkan skala permukiman.",
+        "en": "In the hadith tradition cited by Iranica, Anqa becomes a plague; its exact scope is not detailed, so a settlement scale is interpreted.",
+        "claim_ids": [
+          "anqa-c07"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk raksasa pemangsa gajah dan ikan besar yang menjadi wabah menimbulkan ketakutan menjadi mangsa.",
+        "en": "A giant creature preying on elephants and large fish that becomes a plague evokes the fear of becoming prey.",
+        "claim_ids": [
+          "anqa-c06",
+          "anqa-c07"
+        ]
       }
     },
     "oleh": "claude-cloud",
@@ -112,141 +125,17 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "bull-of-heaven": {
-    "power": "monstrous",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": {
-        "id": "Banteng kosmis di bawah kendali Anu yang hanya dikalahkan lewat kerja sama Gilgamesh dan Enkidu ditafsirkan Monstrous; status sebagai pasangan Ereshkigal tidak dipakai menaikkan level.",
-        "en": "A cosmic bull under Anu’s control that is defeated by Gilgamesh and Enkidu together is interpreted as Monstrous; its status as Ereshkigal’s consort is not used to raise the tier.",
-        "claim_ids": [
-          "bull-of-heaven-c02",
-          "bull-of-heaven-c04",
-          "bull-of-heaven-c06"
-        ]
-      },
-      "threat": {
-        "id": "Riset tidak memuat kerusakan yang ditimbulkan banteng itu; ancaman belum dinilai.",
-        "en": "The research holds no damage caused by the bull; threat is not assessed.",
-        "claim_ids": []
-      },
-      "fear": {
-        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkannya; Fear belum dinilai.",
-        "en": "The research holds no account of the fear it inspires; Fear is not assessed.",
-        "claim_ids": []
-      }
-    },
-    "perlu_riset": "Riset tidak memuat kekuatan banteng itu dalam pertempuran atau kerusakan yang ditimbulkannya di Uruk (episode Ishtar dan Gilgamesh hanya dicatat pada akibatnya).",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "pari": {
-    "power": "superhuman",
-    "threat": "t1",
-    "fear": "f3",
-    "reasons": {
-      "power": {
-        "id": "Sosok gaib bersayap yang bisa membawa manusia ke Paristan melampaui kemampuan manusia.",
-        "en": "A winged supernatural being able to carry humans to Paristan exceeds human ability.",
-        "claim_ids": [
-          "pari-c02",
-          "pari-c05"
-        ]
-      },
-      "threat": {
-        "id": "Penculikan orang ke Paristan ditafsirkan sebagai ancaman terhadap individu; riset juga mencatat pari bersikap netral dan citra belakangan positif.",
-        "en": "Abducting people to Paristan is interpreted as an individual-scale threat; the research also notes paris as neutral and later positively depicted.",
-        "claim_ids": [
-          "pari-c05",
-          "pari-c06"
-        ]
-      },
-      "fear": {
-        "id": "Makhluk gaib yang menculik manusia ke alam lain berada di luar hukum alam; Fear bukan penilaian moral.",
-        "en": "A supernatural being that abducts humans to another realm lies beyond natural law; Fear is not a moral judgment.",
-        "claim_ids": [
-          "pari-c01",
-          "pari-c05"
-        ]
-      }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "huma-bird": {
-    "power": "superhuman",
-    "threat": null,
-    "fear": null,
-    "reasons": {
-      "power": {
-        "id": "Burung yang tidak pernah hinggap di tanah dan, dalam sebagian kisah, terbakar lalu bangkit dari abu melampaui kodrat hewan biasa.",
-        "en": "A bird that never alights on the ground and, in some accounts, burns itself and returns from ashes exceeds ordinary animal nature.",
-        "claim_ids": [
-          "huma-bird-c03",
-          "huma-bird-c04"
-        ]
-      },
-      "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; huma justru dianggap pembawa keberuntungan, jadi ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; the huma is considered auspicious, so threat is not assessed.",
-        "claim_ids": []
-      },
-      "fear": {
-        "id": "Riset tidak memuat sisi yang menakutkan dari huma; Fear belum dinilai.",
-        "en": "The research holds no fearsome aspect of the huma; Fear is not assessed.",
-        "claim_ids": []
-      }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "lamashtu": {
-    "power": "divine",
-    "threat": "t2",
-    "fear": "f3",
-    "reasons": {
-      "power": {
-        "id": "Dewa iblis yang dipercaya menyebarkan penyakit dan mengarungi sungai dunia bawah dengan perahu menjadi dasar kuasa atas ranah penyakit; Divine adalah tafsir editorial.",
-        "en": "A demonic deity believed to spread disease and sail the underworld river by boat supports authority over the domain of disease; Divine is an editorial interpretation.",
-        "claim_ids": [
-          "lamashtu-c01",
-          "lamashtu-c04"
-        ]
-      },
-      "threat": {
-        "id": "Penyakit yang mengincar bayi dalam kandungan dan bayi baru lahir, sehingga orang memakai jimat, ditafsirkan sebagai ancaman terhadap kelompok keluarga; cakupan wilayahnya tidak dirinci.",
-        "en": "Disease targeting unborn and newborn babies, for which people use amulets, is interpreted as a threat to groups of families; its regional reach is not detailed.",
-        "claim_ids": [
-          "lamashtu-c01",
-          "lamashtu-c03",
-          "lamashtu-c05"
-        ]
-      },
-      "fear": {
-        "id": "Dewa iblis penyebar penyakit yang berlayar di sungai dunia bawah berada di luar hukum alam.",
-        "en": "A disease-spreading demonic deity sailing the underworld river lies beyond natural law.",
-        "claim_ids": [
-          "lamashtu-c01",
-          "lamashtu-c04"
-        ]
-      }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "shahmaran": {
+  "atargatis": {
     "power": "divine",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Dianggap dewi kebijaksanaan dan pelindung rahasia, raja atau ratu ular dengan kerajaan bawah tanah, sehingga ditafsirkan Divine.",
-        "en": "Regarded as a goddess of wisdom and protector of secrets, a king or queen of snakes with an underground kingdom, interpreted as Divine.",
+        "id": "Dewi utama Suriah utara dengan kuasa kesuburan menjadi dasar Divine.",
+        "en": "The chief goddess of northern Syria with authority over fertility supports Divine.",
         "claim_ids": [
-          "shahmaran-c02",
-          "shahmaran-c03",
-          "shahmaran-c06"
+          "atargatis-c01",
+          "atargatis-c03"
         ]
       },
       "threat": {
@@ -255,9 +144,42 @@
         "claim_ids": []
       },
       "fear": {
-        "id": "Riset tidak memuat sisi yang menakutkan dari Shahmaran; Fear belum dinilai.",
-        "en": "The research holds no fearsome aspect of Shahmaran; Fear is not assessed.",
+        "id": "Riset tidak memuat sisi yang menakutkan dari Atargatis; Fear belum dinilai.",
+        "en": "The research holds no fearsome aspect of Atargatis; Fear is not assessed.",
         "claim_ids": []
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "azhdaha": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Ular bersayap raksasa bertubuh besar dan bergigi banyak yang hidup di udara, laut, atau darat menjadi dasar kekuatan monster; kaitan dengan hujan dan gerhana tidak dipakai menaikkan level.",
+        "en": "A giant winged serpent with a huge body and many teeth living in air, sea, or land supports monstrous power; links to rain and eclipses are not used to raise the tier.",
+        "claim_ids": [
+          "azhdaha-c02",
+          "azhdaha-c03"
+        ]
+      },
+      "threat": {
+        "id": "Azhdaha disebut merusak dan harus dibunuh pahlawan seperti Rostam, ditafsirkan sebagai ancaman terhadap kelompok.",
+        "en": "Azhdaha are described as destructive and must be slain by heroes such as Rostam, interpreted as a group-scale threat.",
+        "claim_ids": [
+          "azhdaha-c05",
+          "azhdaha-c06"
+        ]
+      },
+      "fear": {
+        "id": "Ular raksasa bertubuh buas dan bermulut lebar bergigi banyak menimbulkan ketakutan menjadi mangsa.",
+        "en": "A giant serpent with a fierce face and a wide, many-toothed mouth evokes the fear of becoming prey.",
+        "claim_ids": [
+          "azhdaha-c03",
+          "azhdaha-c06"
+        ]
       }
     },
     "oleh": "claude-cloud",
@@ -294,19 +216,23 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "karkadann": {
-    "power": null,
+  "bull-of-heaven": {
+    "power": "monstrous",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Riset hanya memuat habitat, asal-usul dari badak, dan khasiat cula; kekuatan makhluk itu belum dinilai.",
-        "en": "The research holds only its habitat, rhinoceros origin, and horn properties; its power is not assessed.",
-        "claim_ids": []
+        "id": "Banteng kosmis di bawah kendali Anu yang hanya dikalahkan lewat kerja sama Gilgamesh dan Enkidu ditafsirkan Monstrous; status sebagai pasangan Ereshkigal tidak dipakai menaikkan level.",
+        "en": "A cosmic bull under Anu’s control that is defeated by Gilgamesh and Enkidu together is interpreted as Monstrous; its status as Ereshkigal’s consort is not used to raise the tier.",
+        "claim_ids": [
+          "bull-of-heaven-c02",
+          "bull-of-heaven-c04",
+          "bull-of-heaven-c06"
+        ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "id": "Riset tidak memuat kerusakan yang ditimbulkan banteng itu; ancaman belum dinilai.",
+        "en": "The research holds no damage caused by the bull; threat is not assessed.",
         "claim_ids": []
       },
       "fear": {
@@ -315,7 +241,34 @@
         "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas habitat, asal dari badak India, kisah dijinakkan perawan, dan khasiat cula; kekuatan, perilaku, dan perbuatan karkadann belum ada.",
+    "perlu_riset": "Riset tidak memuat kekuatan banteng itu dalam pertempuran atau kerusakan yang ditimbulkannya di Uruk (episode Ishtar dan Gilgamesh hanya dicatat pada akibatnya).",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "huma-bird": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Burung yang tidak pernah hinggap di tanah dan, dalam sebagian kisah, terbakar lalu bangkit dari abu melampaui kodrat hewan biasa.",
+        "en": "A bird that never alights on the ground and, in some accounts, burns itself and returns from ashes exceeds ordinary animal nature.",
+        "claim_ids": [
+          "huma-bird-c03",
+          "huma-bird-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; huma justru dianggap pembawa keberuntungan, jadi ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; the huma is considered auspicious, so threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat sisi yang menakutkan dari huma; Fear belum dinilai.",
+        "en": "The research holds no fearsome aspect of the huma; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
@@ -347,35 +300,123 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "al-folklore": {
+  "karkadann": {
     "power": "superhuman",
-    "threat": "t1",
-    "fear": "f2",
+    "threat": null,
+    "fear": null,
     "reasons": {
       "power": {
-        "id": "Kelas iblis yang mencuri paru-paru, hati, dan jantung perempuan bersalin melampaui kemampuan manusia.",
-        "en": "A class of demons that steal the lungs, liver, and heart of women in childbirth exceeds human ability.",
+        "id": "Tanduknya dipercaya berkhasiat menyembuhkan, dan seperti unikorn ia hanya ditundukkan oleh perawan.",
+        "en": "Its horn is believed to have healing powers, and like the unicorn it is subdued only by virgins.",
         "claim_ids": [
-          "al-folklore-c01",
-          "al-folklore-c04"
+          "karkadann-c06",
+          "karkadann-c03"
         ]
       },
       "threat": {
-        "id": "Serangan pada perempuan bersalin dan bayi ditafsirkan sebagai ancaman terhadap individu per kejadian.",
-        "en": "Attacks on women in childbirth and newborns are interpreted as an individual-scale threat per incident.",
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan hewan bertanduk penyembuh, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a horned animal with healing powers, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "lamashtu": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa iblis yang dipercaya menyebarkan penyakit dan mengarungi sungai dunia bawah dengan perahu menjadi dasar kuasa atas ranah penyakit; Divine adalah tafsir editorial.",
+        "en": "A demonic deity believed to spread disease and sail the underworld river by boat supports authority over the domain of disease; Divine is an editorial interpretation.",
         "claim_ids": [
-          "al-folklore-c02",
-          "al-folklore-c04"
+          "lamashtu-c01",
+          "lamashtu-c04"
+        ]
+      },
+      "threat": {
+        "id": "Penyakit yang mengincar bayi dalam kandungan dan bayi baru lahir, sehingga orang memakai jimat, ditafsirkan sebagai ancaman terhadap kelompok keluarga; cakupan wilayahnya tidak dirinci.",
+        "en": "Disease targeting unborn and newborn babies, for which people use amulets, is interpreted as a threat to groups of families; its regional reach is not detailed.",
+        "claim_ids": [
+          "lamashtu-c01",
+          "lamashtu-c03",
+          "lamashtu-c05"
         ]
       },
       "fear": {
-        "id": "Pemangsa malam yang memakan bayi baru lahir menjadi dasar ketakutan sebagai mangsa.",
-        "en": "Nocturnal predators feeding on newborns support the fear of becoming prey.",
+        "id": "Dewa iblis penyebar penyakit yang berlayar di sungai dunia bawah berada di luar hukum alam.",
+        "en": "A disease-spreading demonic deity sailing the underworld river lies beyond natural law.",
         "claim_ids": [
-          "al-folklore-c06"
+          "lamashtu-c01",
+          "lamashtu-c04"
         ]
       }
     },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "lilin": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Roh malam bersayap yang digolongkan iblis serupa shedim melampaui kemampuan manusia.",
+        "en": "Winged night spirits classed as demons similar to shedim exceed human ability.",
+        "claim_ids": [
+          "lilin-c01",
+          "lilin-c02",
+          "lilin-c05"
+        ]
+      },
+      "threat": {
+        "id": "Mangkuk mantra Sasanid yang menyebut lilin menunjukkan mereka dianggap berbahaya bagi individu; riset tidak merinci perbuatannya.",
+        "en": "Sasanian incantation bowls naming lilin show they were considered dangerous to individuals; the research does not detail their deeds.",
+        "claim_ids": [
+          "lilin-c06"
+        ]
+      },
+      "fear": {
+        "id": "Roh malam yang digolongkan iblis berada di luar hukum alam.",
+        "en": "Night spirits classed as demons lie beyond natural law.",
+        "claim_ids": [
+          "lilin-c01",
+          "lilin-c02"
+        ]
+      }
+    },
+    "perlu_riset": "Riset tidak merinci perbuatan atau kekuatan lilin terhadap manusia; ancaman hanya tersirat dari mangkuk mantra.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "mushussu": {
+    "power": null,
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Riset hanya memuat wujud, kedudukan sebagai hewan suci Marduk dan Nabu, serta arti nama; kuasa Mushussu belum dinilai.",
+        "en": "The research holds only its form, its role as sacred animal of Marduk and Nabu, and its name meaning; its power is not assessed.",
+        "claim_ids": []
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkannya; Fear belum dinilai.",
+        "en": "The research holds no account of the fear it inspires; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "perlu_riset": "Riset hanya membahas wujud, relief Gerbang Ishtar, status hewan suci Marduk dan Nabu, serta arti nama; kemampuan, perbuatan, dan peran Mushussu dalam kisah belum ada.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
@@ -407,35 +448,67 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
-  "anqa": {
-    "power": "monstrous",
-    "threat": "t3",
-    "fear": "f2",
+  "pari": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Burung emas berempat pasang sayap yang hanya memangsa gajah dan ikan besar menjadi dasar kekuatan monster.",
-        "en": "A golden bird with four pairs of wings that eats only elephants and large fish supports monstrous power.",
+        "id": "Sosok gaib bersayap yang bisa membawa manusia ke Paristan melampaui kemampuan manusia.",
+        "en": "A winged supernatural being able to carry humans to Paristan exceeds human ability.",
         "claim_ids": [
-          "anqa-c04",
-          "anqa-c06"
+          "pari-c02",
+          "pari-c05"
         ]
       },
       "threat": {
-        "id": "Dalam tradisi hadis yang dikutip Iranica, Anqa menjadi wabah; cakupan pastinya tidak dirinci sehingga ditafsirkan skala permukiman.",
-        "en": "In the hadith tradition cited by Iranica, Anqa becomes a plague; its exact scope is not detailed, so a settlement scale is interpreted.",
+        "id": "Penculikan orang ke Paristan ditafsirkan sebagai ancaman terhadap individu; riset juga mencatat pari bersikap netral dan citra belakangan positif.",
+        "en": "Abducting people to Paristan is interpreted as an individual-scale threat; the research also notes paris as neutral and later positively depicted.",
         "claim_ids": [
-          "anqa-c07"
+          "pari-c05",
+          "pari-c06"
         ]
       },
       "fear": {
-        "id": "Makhluk raksasa pemangsa gajah dan ikan besar yang menjadi wabah menimbulkan ketakutan menjadi mangsa.",
-        "en": "A giant creature preying on elephants and large fish that becomes a plague evokes the fear of becoming prey.",
+        "id": "Makhluk gaib yang menculik manusia ke alam lain berada di luar hukum alam; Fear bukan penilaian moral.",
+        "en": "A supernatural being that abducts humans to another realm lies beyond natural law; Fear is not a moral judgment.",
         "claim_ids": [
-          "anqa-c06",
-          "anqa-c07"
+          "pari-c01",
+          "pari-c05"
         ]
       }
     },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "pazuzu": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa iblis dengan sisi sebagai iblis angin pengembara yang melintasi pegunungan menjadi dasar kuasa atas ranah angin; ditafsirkan Divine sebagai tafsir editorial.",
+        "en": "A demonic deity with an aspect as a wandering wind demon crossing mountains supports authority over the wind; Divine is an editorial interpretation.",
+        "claim_ids": [
+          "pazuzu-c01",
+          "pazuzu-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut kekuatan destruktif tetapi tanpa cakupan atau perbuatan tertentu; ancaman belum dinilai.",
+        "en": "The research mentions destructive powers but gives no scope or specific deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dewa iblis dan iblis angin berada di luar hukum alam; perannya melindungi bayi dari Lamashtu tidak menghapus sifat menakutkannya, dan Fear bukan penilaian moral.",
+        "en": "A demonic deity and wind demon lies beyond natural law; its role protecting infants from Lamashtu does not erase its fearsome nature, and Fear is not a moral judgment.",
+        "claim_ids": [
+          "pazuzu-c01",
+          "pazuzu-c05"
+        ]
+      }
+    },
+    "perlu_riset": "Riset menyebut kekuatan destruktif Pazuzu tetapi tidak memuat cakupan atau perbuatan konkretnya (angin, wabah, atau kehancuran lain).",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
@@ -499,6 +572,34 @@
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
+  "shahmaran": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dianggap dewi kebijaksanaan dan pelindung rahasia, raja atau ratu ular dengan kerajaan bawah tanah, sehingga ditafsirkan Divine.",
+        "en": "Regarded as a goddess of wisdom and protector of secrets, a king or queen of snakes with an underground kingdom, interpreted as Divine.",
+        "claim_ids": [
+          "shahmaran-c02",
+          "shahmaran-c03",
+          "shahmaran-c06"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat sisi yang menakutkan dari Shahmaran; Fear belum dinilai.",
+        "en": "The research holds no fearsome aspect of Shahmaran; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
   "ullikummi": {
     "power": "divine",
     "threat": "t4",
@@ -532,73 +633,6 @@
       }
     },
     "perlu_riset": "Riset tidak merinci kerusakan Ullikummi terhadap dunia atau manusia dalam Nyanyian Ullikummi; ancaman dinilai dari pertumbuhan dan penanganannya oleh para dewa.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "azhdaha": {
-    "power": "monstrous",
-    "threat": "t2",
-    "fear": "f2",
-    "reasons": {
-      "power": {
-        "id": "Ular bersayap raksasa bertubuh besar dan bergigi banyak yang hidup di udara, laut, atau darat menjadi dasar kekuatan monster; kaitan dengan hujan dan gerhana tidak dipakai menaikkan level.",
-        "en": "A giant winged serpent with a huge body and many teeth living in air, sea, or land supports monstrous power; links to rain and eclipses are not used to raise the tier.",
-        "claim_ids": [
-          "azhdaha-c02",
-          "azhdaha-c03"
-        ]
-      },
-      "threat": {
-        "id": "Azhdaha disebut merusak dan harus dibunuh pahlawan seperti Rostam, ditafsirkan sebagai ancaman terhadap kelompok.",
-        "en": "Azhdaha are described as destructive and must be slain by heroes such as Rostam, interpreted as a group-scale threat.",
-        "claim_ids": [
-          "azhdaha-c05",
-          "azhdaha-c06"
-        ]
-      },
-      "fear": {
-        "id": "Ular raksasa bertubuh buas dan bermulut lebar bergigi banyak menimbulkan ketakutan menjadi mangsa.",
-        "en": "A giant serpent with a fierce face and a wide, many-toothed mouth evokes the fear of becoming prey.",
-        "claim_ids": [
-          "azhdaha-c03",
-          "azhdaha-c06"
-        ]
-      }
-    },
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
-  },
-  "lilin": {
-    "power": "superhuman",
-    "threat": "t1",
-    "fear": "f3",
-    "reasons": {
-      "power": {
-        "id": "Roh malam bersayap yang digolongkan iblis serupa shedim melampaui kemampuan manusia.",
-        "en": "Winged night spirits classed as demons similar to shedim exceed human ability.",
-        "claim_ids": [
-          "lilin-c01",
-          "lilin-c02",
-          "lilin-c05"
-        ]
-      },
-      "threat": {
-        "id": "Mangkuk mantra Sasanid yang menyebut lilin menunjukkan mereka dianggap berbahaya bagi individu; riset tidak merinci perbuatannya.",
-        "en": "Sasanian incantation bowls naming lilin show they were considered dangerous to individuals; the research does not detail their deeds.",
-        "claim_ids": [
-          "lilin-c06"
-        ]
-      },
-      "fear": {
-        "id": "Roh malam yang digolongkan iblis berada di luar hukum alam.",
-        "en": "Night spirits classed as demons lie beyond natural law.",
-        "claim_ids": [
-          "lilin-c01",
-          "lilin-c02"
-        ]
-      }
-    },
-    "perlu_riset": "Riset tidak merinci perbuatan atau kekuatan lilin terhadap manusia; ancaman hanya tersirat dari mangkuk mantra.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   }

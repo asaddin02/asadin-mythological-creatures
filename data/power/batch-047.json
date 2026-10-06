@@ -1,28 +1,70 @@
 {
-  "troll": {
-    "power": "superhuman",
+  "baal": {
+    "power": "divine",
     "threat": null,
     "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Troll dapat berupa makhluk raksasa dan dikaitkan dengan jötnar, serta dapat membatu oleh cahaya matahari; ini menjadi dasar Superhuman, dengan catatan wujud dan ukuran troll sangat beragam.",
-        "en": "Troll can denote giant beings and is linked with the jötnar, and sunlight may turn trolls to stone; this supports Superhuman, noting that troll forms and sizes vary widely.",
-        "claim_ids": ["troll-c03", "troll-c11", "troll-c05"]
+        "id": "Dewa badai dan hujan, \"penunggang awan\", yang mengalahkan Yamm dengan gada; dasar Divine.",
+        "en": "A storm and rain god, \"rider of the clouds\", who defeats Yamm with a mace, supporting Divine.",
+        "claim_ids": [
+          "baal-c04",
+          "baal-c13",
+          "baal-c15"
+        ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak atau korban troll; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds or victims of trolls; threat remains unassessed.",
-        "claim_ids": []
+        "id": "Bumi menjadi tandus saat ia tidak ada, tetapi itu akibat ketiadaannya, bukan perbuatan merusak; ancaman belum dinilai.",
+        "en": "The earth turns barren in his absence, but that follows his absence, not a destructive deed; threat is not assessed.",
+        "claim_ids": [
+          "baal-c08"
+        ]
       },
       "fear": {
-        "id": "Pembatuan oleh sinar matahari dan usiran oleh lonceng gereja menunjukkan sifat supernatural yang berada di luar hukum alam; wujudnya bisa ganjil atau mirip manusia.",
-        "en": "Turning to stone in sunlight and being driven off by church bells point to a supernatural nature beyond natural law; trolls may appear grotesque or humanlike.",
-        "claim_ids": ["troll-c05", "troll-c12", "troll-c14"]
+        "id": "Penguasa badai yang digambarkan memegang gada dan petir berada di luar hukum alam.",
+        "en": "A master of storms shown holding a club and a lightning bolt stands beyond natural law.",
+        "claim_ids": [
+          "baal-c06",
+          "baal-c11"
+        ]
       }
     },
-    "perlu_riset": "Riset hanya membahas istilah, ragam wujud, habitat, dan kelemahan terhadap matahari serta lonceng; kekuatan konkret, perbuatan terhadap manusia, dan skala kerusakan troll belum ada, sehingga ancaman tidak dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "circe": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi sihir dan perubahan wujud, putri Helios, yang ahli ramuan.",
+        "en": "A goddess of sorcery and transmutation, daughter of Helios, skilled in potions.",
+        "claim_ids": [
+          "circe-c12",
+          "circe-c02",
+          "circe-c15"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengubah anak buah Odysseus menjadi babi; dasar skala kelompok.",
+        "en": "She turns Odysseus’ men into pigs, supporting a group scale.",
+        "claim_ids": [
+          "circe-c04"
+        ]
+      },
+      "fear": {
+        "id": "Ramuan yang mengubah manusia menjadi hewan dan racun yang ia tuang ke air (kisah Scylla) melampaui hukum alam.",
+        "en": "Potions that turn people into animals and the poison she pours into the water (the Scylla tale) exceed natural law.",
+        "claim_ids": [
+          "circe-c04",
+          "circe-c10",
+          "circe-c09"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "marduk": {
     "power": "cosmic",
@@ -32,7 +74,11 @@
       "power": {
         "id": "Dalam Enuma Elish Marduk mengalahkan Tiamat dan Quingu, membentuk langit dari tubuh Tiamat, serta menciptakan manusia bersama Enki, sehingga kuasanya berskala dunia dan kosmos.",
         "en": "In Enuma Elish Marduk defeats Tiamat and Quingu, forms the heavens from Tiamat's body, and creates humans with Enki, giving him world- and cosmos-scale power.",
-        "claim_ids": ["marduk-c06", "marduk-c07", "marduk-c08"]
+        "claim_ids": [
+          "marduk-c06",
+          "marduk-c07",
+          "marduk-c08"
+        ]
       },
       "threat": {
         "id": "Riset memuat kemenangan atas Tiamat sebagai pendirian tatanan dan kekuasaan, bukan perbuatan merusak terhadap manusia atau dunia; ancaman belum dinilai.",
@@ -46,6 +92,67 @@
       }
     },
     "perlu_riset": "Riset berfokus pada Enuma Elish, silsilah, Esagila, dan Akitu; kuasa Marduk atas takdir, badai, atau hukuman terhadap manusia, serta bagaimana ia dipandang menakutkan, belum ada, sehingga ancaman dan ketakutan tidak dinilai.",
+    "oleh": "claude-cloud",
+    "tanggal": "2026-10-06"
+  },
+  "surya": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa Matahari Hindu, pemimpin sembilan planet kuno, yang dianggap sumber kehidupan.",
+        "en": "The Hindu god of the Sun, chief of the nine ancient planets, regarded as a source of life.",
+        "claim_ids": [
+          "surya-c01",
+          "surya-c10",
+          "surya-c03"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds; threat is not assessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset menggambarkan sumber kehidupan yang dipuja, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes a worshipped source of life, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
+  },
+  "troll": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Troll dapat berupa makhluk raksasa dan dikaitkan dengan jötnar, serta dapat membatu oleh cahaya matahari; ini menjadi dasar Superhuman, dengan catatan wujud dan ukuran troll sangat beragam.",
+        "en": "Troll can denote giant beings and is linked with the jötnar, and sunlight may turn trolls to stone; this supports Superhuman, noting that troll forms and sizes vary widely.",
+        "claim_ids": [
+          "troll-c03",
+          "troll-c11",
+          "troll-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak atau korban troll; ancaman belum dinilai.",
+        "en": "The research holds no destructive deeds or victims of trolls; threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Pembatuan oleh sinar matahari dan usiran oleh lonceng gereja menunjukkan sifat supernatural yang berada di luar hukum alam; wujudnya bisa ganjil atau mirip manusia.",
+        "en": "Turning to stone in sunlight and being driven off by church bells point to a supernatural nature beyond natural law; trolls may appear grotesque or humanlike.",
+        "claim_ids": [
+          "troll-c05",
+          "troll-c12",
+          "troll-c14"
+        ]
+      }
+    },
+    "perlu_riset": "Riset hanya membahas istilah, ragam wujud, habitat, dan kelemahan terhadap matahari serta lonceng; kekuatan konkret, perbuatan terhadap manusia, dan skala kerusakan troll belum ada, sehingga ancaman tidak dinilai.",
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   }

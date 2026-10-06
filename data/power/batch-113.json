@@ -7,7 +7,10 @@
       "power": {
         "id": "Kemampuan tak terlihat dan meramal nasib baik atau buruk rumah tangga melampaui manusia biasa; versi utama adalah roh kerdil dalam folklor Jerman.",
         "en": "Invisibility and foretelling a household's good or bad luck exceed ordinary humans; this uses the main version, the dwarf-like spirit of German folklore.",
-        "claim_ids": ["heimchen-c07", "heimchen-c11"]
+        "claim_ids": [
+          "heimchen-c07",
+          "heimchen-c11"
+        ]
       },
       "threat": {
         "id": "Riset tidak memuat perbuatan merusak; para Heimchen justru digambarkan menolong, sehingga ancaman belum dinilai.",
@@ -17,7 +20,10 @@
       "fear": {
         "id": "Rasa takutnya ringan dan ganjil: jangkrik sebagai momok anak-anak dan jiwa anak tak dibaptis yang meratap mengikuti Perchta.",
         "en": "The fear is mild and uncanny: the cricket as a nursery bogey and the wailing souls of unbaptized children following Perchta.",
-        "claim_ids": ["heimchen-c03", "heimchen-c08"]
+        "claim_ids": [
+          "heimchen-c03",
+          "heimchen-c08"
+        ]
       }
     },
     "oleh": "claude-cloud",
@@ -31,31 +37,45 @@
       "power": {
         "id": "Teriakan tak kasatmata di malam hari dan kemampuan melompat ke punggung peniru suaranya melampaui manusia biasa; wujudnya bisa hantu atau peri ladang menurut versi daerah.",
         "en": "An unseen night cry and the ability to leap onto the back of anyone who imitates it exceed ordinary humans; regional versions make it a ghost or a field sprite.",
-        "claim_ids": ["hemann-c01", "hemann-c03", "hemann-c04"]
+        "claim_ids": [
+          "hemann-c01",
+          "hemann-c03",
+          "hemann-c04"
+        ]
       },
       "threat": {
         "id": "Ia menghukum pencuri kayu dan peniru teriakannya dengan menunggangi korban satu per satu; tidak ada catatan kerusakan yang lebih luas.",
         "en": "It punishes wood thieves and imitators of its shout by riding individual victims; no wider destruction is recorded.",
-        "claim_ids": ["hemann-c03", "hemann-c06"]
+        "claim_ids": [
+          "hemann-c03",
+          "hemann-c06"
+        ]
       },
       "fear": {
         "id": "Suara tak berwujud yang mengejar orang, bisa berupa arwah atau iblis dan mengiringi Perburuan Liar, berada di luar hukum alam.",
         "en": "A bodiless voice that chases people, said to be a ghost or the devil and accompanying the Wild Hunt, lies beyond natural law.",
-        "claim_ids": ["hemann-c01", "hemann-c03", "hemann-c06"]
+        "claim_ids": [
+          "hemann-c01",
+          "hemann-c03",
+          "hemann-c06"
+        ]
       }
     },
     "oleh": "claude-cloud",
     "tanggal": "2026-10-06"
   },
   "hercynisch-hert": {
-    "power": null,
+    "power": "mortal",
     "threat": null,
     "fear": null,
     "reasons": {
       "power": {
-        "id": "Riset hanya memuat rusa raksasa bertanduk tunggal dari catatan Caesar, tanpa kemampuan gaib, sehingga kekuatan belum dinilai.",
-        "en": "The research holds only a giant single-horned stag from Caesar's account, with no supernatural ability, so power is not assessed.",
-        "claim_ids": []
+        "id": "Rusa sebesar lembu bertanduk tunggal yang dicatat Caesar; sejarawan menyimpulkan ia elk.",
+        "en": "An ox-sized single-horned stag recorded by Caesar; historians concluded it must be an elk.",
+        "claim_ids": [
+          "hercynisch-hert-c02",
+          "hercynisch-hert-c04"
+        ]
       },
       "threat": {
         "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
@@ -63,14 +83,13 @@
         "claim_ids": []
       },
       "fear": {
-        "id": "Riset tidak memuat unsur menakutkan; rasa takut belum dinilai.",
-        "en": "The research holds nothing frightening; fear is not assessed.",
+        "id": "Riset menggambarkan hewan hutan Hercynia, bukan sumber rasa takut; Fear belum dinilai.",
+        "en": "The research describes an animal of the Hercynian Forest, not a source of fear; Fear is not assessed.",
         "claim_ids": []
       }
     },
-    "perlu_riset": "Riset hanya membahas deskripsi Caesar, tafsir sebagai rusa besar (elk), dan kaitannya dengan tradisi unicorn; tidak ada kemampuan, perilaku, atau perbuatan makhluk ini yang bisa dinilai, dan mungkin memang tidak ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-07"
   },
   "kelenken": {
     "power": "superhuman",
@@ -80,7 +99,10 @@
       "power": {
         "id": "Iblis Tehuelche pembawa rasa sakit dan penyakit berwujud burung pemangsa raksasa; kuasa gaibnya melampaui manusia, tetapi riset tidak merinci ranah atau skalanya.",
         "en": "A Tehuelche demon who brings pain and disease in the form of a giant bird of prey; its power exceeds humans, but the research does not detail its domain or scale.",
-        "claim_ids": ["kelenken-c01", "kelenken-c03"]
+        "claim_ids": [
+          "kelenken-c01",
+          "kelenken-c03"
+        ]
       },
       "threat": {
         "id": "Riset menyebut perannya membawa penyakit tetapi tidak memuat perbuatan atau cakupan kerusakan tertentu; ancaman belum dinilai.",
@@ -90,7 +112,10 @@
       "fear": {
         "id": "Iblis anak Malam yang mendatangkan nyeri dan penyakit adalah keberadaan gaib di luar penjelasan alam.",
         "en": "A demon born of Night who brings pain and disease is a supernatural presence beyond natural explanation.",
-        "claim_ids": ["kelenken-c01", "kelenken-c02"]
+        "claim_ids": [
+          "kelenken-c01",
+          "kelenken-c02"
+        ]
       }
     },
     "perlu_riset": "Riset hanya memuat peran umum Kelenken sebagai pembawa nyeri dan penyakit, silsilahnya, dan penamaan burung teror; tidak ada kisah perbuatan atau cakupan kuasanya, sehingga ancaman belum bisa dinilai.",
@@ -105,17 +130,27 @@
       "power": {
         "id": "Roh gandum yang membawa pengelana terbang di udara dan bisa menjelma Irrlicht atau Aufhocker melampaui kemampuan manusia.",
         "en": "A corn spirit that carries wanderers through the air and can take the form of an Irrlicht or Aufhocker exceeds human ability.",
-        "claim_ids": ["kornmann-c08", "kornmann-c13"]
+        "claim_ids": [
+          "kornmann-c08",
+          "kornmann-c13"
+        ]
       },
       "threat": {
         "id": "Ia menangkap anak-anak dan di beberapa tempat memenggal atau mencekik mereka; korbannya digambarkan satu per satu, bukan kelompok atau permukiman.",
         "en": "He catches children and in some places beheads or strangles them; victims are described individually, not as groups or settlements.",
-        "claim_ids": ["kornmann-c10", "kornmann-c11"]
+        "claim_ids": [
+          "kornmann-c10",
+          "kornmann-c11"
+        ]
       },
       "fear": {
         "id": "Sosok bermata merah yang menculik anak ke gua dalam karungnya adalah momok pemangsa; tafsir ilmiah melihatnya sebagai penakut anak agar tidak merusak ladang.",
         "en": "A red-eyed figure who carries children off to his cave in a sack is a predatory bogey; scholars read him as a figure to keep children out of the fields.",
-        "claim_ids": ["kornmann-c05", "kornmann-c10", "kornmann-c15"]
+        "claim_ids": [
+          "kornmann-c05",
+          "kornmann-c10",
+          "kornmann-c15"
+        ]
       }
     },
     "oleh": "claude-cloud",
@@ -129,12 +164,19 @@
       "power": {
         "id": "Raksasa penjaga kunci gunung naga yang mampu menjatuhkan Siegfried hingga pingsan melampaui manusia biasa; riset tidak merinci ukuran atau kekuatannya.",
         "en": "A giant who keeps the key to the dragon's mountain and can knock Siegfried unconscious exceeds ordinary humans; the research does not detail his size or strength.",
-        "claim_ids": ["kuperan-c01", "kuperan-c06"]
+        "claim_ids": [
+          "kuperan-c01",
+          "kuperan-c06"
+        ]
       },
       "threat": {
         "id": "Ia berkhianat berulang kali kepada Siegfried dan para kurcaci berterima kasih karena dibebaskan darinya, yang menyiratkan dominasi atas satu kelompok.",
         "en": "He repeatedly betrays Siegfried, and the dwarfs thank him for freeing them from Kuperan, implying domination over a group.",
-        "claim_ids": ["kuperan-c02", "kuperan-c07", "kuperan-c09"]
+        "claim_ids": [
+          "kuperan-c02",
+          "kuperan-c07",
+          "kuperan-c09"
+        ]
       },
       "fear": {
         "id": "Riset memuat kisah pengkhianatan dan pertarungan epik, tetapi tidak memuat unsur yang menimbulkan rasa takut khusus; rasa takut belum dinilai.",
@@ -153,7 +195,11 @@
       "power": {
         "id": "Kecepatan luar biasa dan kemampuan meniru suara manusia melampaui hewan biasa; ukurannya hanya sebesar keledai menurut Plinius dan bestiarium.",
         "en": "Exceptional speed and the ability to imitate human voices exceed an ordinary animal; it is only ass-sized according to Pliny and the bestiary.",
-        "claim_ids": ["leucrota-c01", "leucrota-c05", "leucrota-c06"]
+        "claim_ids": [
+          "leucrota-c01",
+          "leucrota-c05",
+          "leucrota-c06"
+        ]
       },
       "threat": {
         "id": "Riset hanya menyebut musuh manusia pada induknya, crocotta, bukan perbuatan leucrota sendiri; ancaman belum dinilai.",
@@ -163,7 +209,11 @@
       "fear": {
         "id": "Binatang buas keturunan crocotta, musuh mematikan manusia, yang meniru suara manusia, menjadi dasar ketakutan sebagai mangsa; kaitan ini ditafsirkan dari induknya.",
         "en": "A beast descended from the crocotta, a deadly enemy of men, that imitates human voices supports the fear of becoming prey; the link is interpreted from its parent.",
-        "claim_ids": ["leucrota-c01", "leucrota-c05", "leucrota-c07"]
+        "claim_ids": [
+          "leucrota-c01",
+          "leucrota-c05",
+          "leucrota-c07"
+        ]
       }
     },
     "perlu_riset": "Riset hanya membahas rupa, tiruan suara, dan sumber klasik; tidak ada kisah perbuatan leucrota terhadap manusia, sehingga ancaman belum bisa dinilai.",
