@@ -65,25 +65,27 @@ try {
   assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some(r => /fonts\.(googleapis|gstatic)\.com/.test(r.name))), false, 'Typography must not require an external font service');
   if (STATIC) assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some(r => r.name.endsWith('/api/catalog.json'))), false, 'Homepage should not download the complete catalog');
   assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some(r => /\/(assets\/logo\.png|components\/(creature-detail|admin-dashboard)\.js)$/.test(r.name))), false, 'Homepage avoids the hidden 1 MB logo and unopened detail/admin modules');
-  // Real carousel controls: time advances without waiting nine seconds per case.
+  // Real carousel controls: time advances without waiting twelve seconds per case.
   await page.clock.install();
   await page.locator('[data-hero="garuda"]').click();
   assert.equal(await page.locator('#hero-play').getAttribute('aria-pressed'), 'false');
   await page.locator('#hero-play').click();
-  // The fitted artwork makes the banner taller; leave the hovered controls before autoplay.
+  // Leave the hovered controls before autoplay.
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
   await page.mouse.move(5, 5);
   await page.waitForFunction(() => document.querySelector('.gateway').classList.contains('is-playing'));
-  await page.clock.fastForward(9100);
+  await page.clock.fastForward(11000);
+  assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'garuda', 'Each legend remains visible for twelve seconds');
+  await page.clock.fastForward(1100);
   await page.waitForFunction(() => document.querySelector('.gateway').dataset.legend === 'kitsune');
   assert.equal(await page.locator('.royal-scene-link').getAttribute('href'), '#/creature/kitsune');
   // Hovering a scene pauses it while the visitor reads or chooses a link.
   await page.locator('.royal-hero-copy h1').hover();
-  await page.clock.fastForward(10000);
+  await page.clock.fastForward(13000);
   assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'kitsune');
   await page.locator('#hero-play').click();
   await page.mouse.move(5, 5);
-  await page.clock.fastForward(10000);
+  await page.clock.fastForward(13000);
   assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'kitsune', 'Pause must stop automatic changes');
   await page.locator('#hero-next').click();
   await page.waitForFunction(() => document.querySelector('.gateway').dataset.legend === 'jormungandr');
@@ -109,7 +111,7 @@ try {
   await page.locator('#hero-play').click();
   await page.locator('.featured-grid').scrollIntoViewIfNeeded();
   await page.waitForFunction(() => !document.querySelector('.gateway').classList.contains('is-playing'));
-  await page.clock.fastForward(10000);
+  await page.clock.fastForward(13000);
   assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'garuda', 'Offscreen slideshow must pause');
   assert.equal(await page.locator('.royal-slide.is-active .hero-art').evaluate(img => getComputedStyle(img).transform), 'none', 'Artwork must stay fully framed without zoom drift');
   await page.locator('.featured-grid img').evaluateAll(images => Promise.all(images.map(img => img.decode())));
@@ -118,7 +120,7 @@ try {
   await page.locator('.featured-grid [data-slug="kitsune"] .card-media').click();
   await page.locator('.detail-preview').waitFor();
   assert.equal(new URL(page.url()).hash, '#/creature/kitsune');
-  await page.clock.fastForward(10000);
+  await page.clock.fastForward(13000);
   assert.equal(await page.evaluate(() => window.departedHero.dataset.legend), 'garuda', 'Leaving home must cancel the old slideshow');
   assert.equal(await page.locator('.art-viewer[open]').count(), 0);
 

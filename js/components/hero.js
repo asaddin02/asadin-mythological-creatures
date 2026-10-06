@@ -12,7 +12,7 @@ const feature = (legend,index) => `<div class="royal-feature-overline"><span>${b
 
 export function renderHero() {
   return `<section class="gateway royal-gateway power-divine" data-legend="garuda" aria-label="${bi('Gerbang dunia legenda','Gateway to a world of legends')}">
-    <div class="royal-vignette" aria-hidden="true"></div><div class="royal-hero-edges" aria-hidden="true"><span>✦</span></div>
+    <div class="royal-hero-edges" aria-hidden="true"><span>✦</span></div>
     <div class="container royal-hero-body">
       <div class="royal-hero-copy"><div class="royal-overline"><span></span>${icon('crown',23)} THE LIVING BESTIARY <span></span></div>
         <h1>${bi('Di balik mitos,<br>ada <em>keajaiban.</em>','Beyond every myth,<br>there is <em>wonder.</em>')}</h1>
@@ -21,7 +21,8 @@ export function renderHero() {
         <a class="royal-discover-note" href="#/scales">${icon('spark',15)} ${bi('Tujuh kelas kekuatan. Tak terhitung kisah.','Seven classes of power. Countless stories.')} <span>↗</span></a>
       </div>
       <div class="royal-visual">
-    <div class="royal-background" aria-hidden="true">${LEGENDS.map((legend,i)=>`<div class="royal-slide${i===0?' is-active':''}" data-scene="${legend.slug}"><img class="hero-art" ${i===0?`src="${editorialArt(legend.slug)}" fetchpriority="high"`:`data-src="${editorialArt(legend.slug)}"`} alt="" width="1536" height="1024" decoding="async"></div>`).join('')}</div>
+    <div class="royal-vignette" aria-hidden="true"></div>
+    <div class="royal-background" aria-hidden="true">${LEGENDS.map((legend,i)=>`<div class="royal-slide${i===0?' is-active':''}" data-scene="${legend.slug}"${i===0?` style="--scene-art:url('${editorialArt(legend.slug)}')"`:''}><img class="hero-art" ${i===0?`src="${editorialArt(legend.slug)}" fetchpriority="high"`:`data-src="${editorialArt(legend.slug)}"`} alt="" width="1536" height="1024" decoding="async"></div>`).join('')}</div>
     <a class="royal-scene-link" href="#/creature/garuda" aria-label="${bi('Buka legenda Garuda','Open Garuda’s legend')}"></a>
       </div>
       <div class="royal-feature" id="royal-legend-meta">${feature(LEGENDS[0],0)}</div>
@@ -32,7 +33,7 @@ export function renderHero() {
   <div class="royal-archive-strip"><div class="container"><div class="royal-strip-intro">${icon('compass',28)}<span>${bi('Setiap legenda<br>menyimpan dunia.','Every legend<br>holds a world.')}</span></div><div class="royal-stat"><strong data-archive-count>—</strong><span>${bi('MAKHLUK & LEGENDA','BEINGS & LEGENDS')}</span></div><div class="royal-stat"><strong data-cultures-count>—</strong><span>${bi('TRADISI BUDAYA','CULTURAL TRADITIONS')}</span></div><a href="#/scales" class="royal-stat"><strong>VII</strong><span>${bi('KELAS KEKUATAN','CLASSES OF POWER')} ↗</span></a></div></div>`;
 }
 
-export function initHero(root, signal, interval = 9000) {
+export function initHero(root, signal, interval = 12000) {
   if (!root || signal.aborted) return;
   const preference=matchMedia('(prefers-reduced-motion: reduce)');
   let current=0,wanted=0,ticket=0,timer,automatic=!preference.matches,hovered=false,visible=false;
@@ -67,6 +68,7 @@ export function initHero(root, signal, interval = 9000) {
       automatic=false;reflect();schedule();return;
     }
     if(signal.aborted||version!==ticket||!root.isConnected)return;
+    scene.style.setProperty('--scene-art', `url("${img.currentSrc}")`);
     root.querySelectorAll('.royal-slide').forEach(el=>el.classList.toggle('is-active',el===scene));
     const previous=LEGENDS[current];
     root.classList.remove(`power-${getAssessment(previous).power}`);
