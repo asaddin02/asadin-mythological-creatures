@@ -1,6 +1,6 @@
 # Review batch-051
 
-Diperiksa 2026-10-06T14:56:31.838Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md, batch-051-fix-3.md, batch-051-fix-4.md.
+Diperiksa 2026-10-06T15:17:15.243Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md, batch-051-fix-3.md, batch-051-fix-4.md, batch-051-fix-5.md.
 
 ## basan-legendary-bird — lulus-otomatis
 
@@ -653,7 +653,7 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 | omoikane-c04 | exact | en.wikipedia.org | In the myth where Amaterasu hid in a cave, he was entrusted with the task of finding a way to get her out. | In the myth where Amaterasu hid in a cave, he was entrusted with the task of finding a way to get her out. |
 | omoikane-c05 | exact | en.wikipedia.org | Carpenters pray to him during the construction of pillars in a building, and Japanese people usually pray to Omoikane for success in school and exams. | Carpenters pray to him during the construction of pillars in a building. Usually, Japanese people pray to Omoikane for success in school and exams. |
 | omoikane-c06 | exact | en.wikipedia.org | He is the son of the creator deity Takamimusubi and the older brother of Takuhatachiji-hime. | He is the son of creator deity Takamimusubi ... and the older brother of Takuhatachiji-hime |
-| omoikane-c07 | exact | en.wikipedia.org | In the Kujiki, Omoikane descends to Shinano Province to become the ancestor of Shina-no-achihouri. | Omoikane descends to Shinano Province ... to become the ancestor of Shina-no-achihouri |
+| omoikane-c07 | exact | en.wikipedia.org | In the Kujiki, Omoikane descends to Shinano Province to become the ancestor of Shina-no-achihouri. | in the Kujiki (旧事紀 or Sendai Kyuji Hongi 先代旧事本紀). Omoikane descends to Shinano Province ... to become the ancestor of Shina-no-achihouri |
 | omoikane-c08 | exact | kotobank.jp | A Japanese dictionary calls him a deity of the Kiki, a child of 高皇産霊尊 and deity of deliberation; he devised the plan to lure 天照大神 out of the heavenly rock cave and descended following 瓊瓊杵尊; he is also named 八意思兼神. | 記紀に見える神。高皇産霊尊(たかみむすひのみこと)の子。思慮の神。天の岩屋戸に隠れた天照大神を慰め誘い出すためのはかりごとを行なった。天孫降臨の際、瓊瓊杵尊(ににぎのみこと)に従って天降った。八意(やこころ)思兼神。 |
 | omoikane-c09 | exact | kotobank.jp | In the myth of the heavenly rock cave, various plans based on this deity's deliberation succeeded in drawing out 天照大神, who had secluded herself in the cave; in the myth of the transfer of the land he offers proposals in response to Amaterasu's consultation. | 天（あま）の岩屋戸の神話では，この神のおもんぱかりにもとづくさまざまな策によって，岩屋戸にこもった天照大神（あまてらすおおかみ）を引き出すことに成功した。また国譲り神話では，アマテラスの諮問に応じて献策する。 |
 | omoikane-c10 | exact | kotobank.jp | The name means a deity who combines deliberation and whose role is to discuss matters, and the Nihon Shoki says he has far-sighted planning and the wisdom of deliberation. | 思慮を兼ねそなえ，事を議（はか）ることを役目とする神の意で，《日本書紀》には〈深謀遠慮〉〈思慮の智〉ありとある。 |
@@ -662,10 +662,7 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## shinatsuhiko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -673,32 +670,37 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | shinatsuhiko-c02 | exact | en.wikipedia.org | The name Shinatobe is also associated with this deity. | Another name for this deity is Shinatobe, who may originally have been a separate goddess of wind. |
 | shinatsuhiko-c03 | exact | en.wikipedia.org | The Nihon Shoki places his birth after the creation of the Japanese islands. | The Nihon Shoki stated that Shinatsuhiko was born after Izanagi no Mikoto and Izanami no Mikoto created the great eight islands of Japan. |
 | shinatsuhiko-c04 | exact | en.wikipedia.org | It says he arose from Izanagi’s breath in the morning mist. | After these lands were completed, Izanagi blew at the morning mists that obscured them and these became Shinatsuhiko, God of the Wind. |
+| shinatsuhiko-c05 | exact | kotobank.jp | According to the Digital Daijisen, Shinatsuhiko-no-Mikoto (級長津彦命) is the wind god of Japanese mythology and a child of Izanagi; the dictionary also lists Shinatobe-no-Mikoto. | 日本神話で、風の神。 伊弉諾尊 いざなぎのみこと の子。 級長戸辺命 しなとべのみこと 。 |
+| shinatsuhiko-c06 | exact | kotobank.jp | He is said to govern the wind. According to the Nihon Shoki he was born from the breath with which Izanagi blew away the morning mist, and another name for him is Shinatobe. | 風をつかさどるとされる。「日本書紀」では,伊奘諾尊(いざなぎのみこと)が朝霧をふきはらった息から生まれたという。別名に級長戸辺(しなとべの)命。 |
+| shinatsuhiko-c07 | exact | kotobank.jp | The Kojiki writes his name as 志那都比古神 and, according to this dictionary, calls him a child of Hayaakitsuhiko and Hayaakitsuhime. | 「古事記」には志那都比古神とあり,速秋津日子(はやあきつひこの)神と速秋津比売(はやあきつひめの)神の子という。 |
+| shinatsuhiko-c08 | exact | kotobank.jp | He is a male wind deity who appears in the Kojiki and Nihon Shoki and is regarded as a child of Izanagi and Izanami. | 記紀に見える神。風の男神。伊奘諾(いざなぎ)・伊奘冉(いざなみ)二神の子とされる。 |
+| shinatsuhiko-c09 | exact | en.wikipedia.org | A norito (Shinto ritual prayer) addressed the god by this masculine name, while a different name, Shinatobe, was ascribed to what is presumed to be his feminine version. | A Shinto liturgical text or ritual incantation called norito addressed the god in this masculine name while a different name – Shinatobe – was ascribed to what is presumed to be his feminine version. |
+| shinatsuhiko-c10 | exact | en.wikipedia.org | Some sources also call the wind deities by the names Ame no Mihashira and Kuni no Mihashira, based on the belief that the wind supported the sky. | Some sources also called the wind deities Ame no Mihashira (pillar of Heaven) and Kuni no Mihashira (pillar of the Earth/Country) according to the belief that the wind supported the sky. |
+| shinatsuhiko-c11 | exact | en.wikipedia.org | The Ise Grand Shrine has wind shrines (Kaze-no-Miya) that enshrine Shinatsuhiko-no-Mikoto and Shinatobe-no-Mikoto, and the Oki-jinja Shrine in Yūtō, Shizuoka, is also dedicated to Shinatsuhiko. | The Ise Grand Shrine contains temples, the Kaze-no-Miya (wind shrines), that hold betsugū (detached shrines) which enshrine the Shinatsuhiko-no-Mikoto and Shinatobe-no-Mikoto. In Yūtō, Shizuoka, the Oki-jinja Shrine is also dedicated to Shinatsuhiko-kami. |
 
 
 ## stolas — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `claims (stolas-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+Klaim 8 (unreachable 4, exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 4 kutipan tidak bisa dicek otomatis: sacred-texts.com (tidak bisa dibuka (timeout)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| stolas-c01 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | Stolas is the thirty-sixth spirit named in the Goetia. | (36.) STOLAS, OR STOLOS.--The Thirty-sixth Spirit is Stolas, or Stolos. |
-| stolas-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The text first portrays him as a large raven. | appearing in the Shape of a Mighty Raven at first before the Exorcist |
-| stolas-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | It later gives him a human form. | but after he taketh the image of a Man |
-| stolas-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The Goetia credits him with teaching astronomy and knowledge of plants and gems. | He teacheth the Art of Astronomy, and the Virtues of Herbs and Precious Stones. |
+| stolas-c01 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | Stolas is the thirty-sixth spirit named in the Goetia. | (36.) STOLAS, OR STOLOS.--The Thirty-sixth Spirit is Stolas, or Stolos. |
+| stolas-c02 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | The text first portrays him as a large raven. | appearing in the Shape of a Mighty Raven at first before the Exorcist |
+| stolas-c03 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | Afterwards he takes the image of a man. | but after he taketh the image of a Man |
+| stolas-c04 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | The Goetia credits him with teaching astronomy and knowledge of plants and gems. | He teacheth the Art of Astronomy, and the Virtues of Herbs and Precious Stones. |
+| stolas-c05 | exact | www.esotericarchives.com | In this manuscript transcription the 36th spirit is a great and powerful prince appearing in the shape of a night raven. | he is a great and powerfull Prince, appearing in ye shape of a Night Raven |
+| stolas-c06 | exact | www.esotericarchives.com | He appears before the exorcist first as the raven and afterwards takes the image of a man. | at first before ye Exorcist, but afterwards he taketh the image of a man &c; |
+| stolas-c07 | exact | www.esotericarchives.com | He teaches the art of astronomy and the virtues of herbs and precious stones, and governs 26 legions of spirits. | he teacheth the Art of Astronomy, & the vertuses ... of hearbs & precious stones, he governeth 26 legions of spirits |
+| stolas-c08 | exact | www.esotericarchives.com | The editor's note says Stolas is called Mistalas in the Folger manuscript, where he is identified as the fifth of the chief spirits under Paymon in the West. | 41. Stolas (Prince/West in Folger): # 69 in W and Scot. Called Mistalas in the Folger manuscript, where he is identified as the fifth of the chief spirits under Paymon in the West. |
 
 
 ## tamayorihime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -706,14 +708,21 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tamayorihime-c02 | exact | en.wikipedia.org | The Kojiki and Nihon Shoki write her name differently. | Her name is spelled as 玉依毘売命 in the Kojiki and 玉依姫 in the Nihon Shoki. |
 | tamayorihime-c03 | exact | en.wikipedia.org | She is described as a daughter of Watatsumi and sister of Toyotama-hime. | Tamayori-hime is the daughter of the sea-dragon god Watatsumi and the younger sister of Toyotama-hime. |
 | tamayorihime-c04 | exact | en.wikipedia.org | One account says she cared for Toyotama-hime’s son. | When Toyotama-hime abandoned her husband Hoori, she sent Tamayori-hime to care for their son Ugayafukiaezu, although in the Nihon Shoki version of the legend, Tamayori-hime accompanies her sister to the human world when she was about to give birth. |
+| tamayorihime-c05 | exact | kotobank.jp | According to the Digital Daijisen, in Japanese mythology she is a daughter of a sea god who became the consort of Ugayafukiaezu and bore four sons, including Kamuyamato-Iwarebiko (Emperor Jinmu). | 日本神話で、海の神の娘。 鸕鷀草葺不合尊 うがやふきあえずのみこと の妃となり、 神日本磐余彦尊 かんやまといわれびこのみこと （神武天皇）ら四子を産んだ。 |
+| tamayorihime-c06 | exact | kotobank.jp | In the Kamo legend she is a daughter of Taketsunumi; she marries a red-painted arrow (Hoikazuchi) and bears Wakeikazuchi. | 賀茂伝説で、 建角身命 たけつぬみのみこと の娘。 丹塗矢 にぬりや （ 火雷神 ほのいかずちのかみ ）と結婚し、 別雷神 わけいかずちのかみ を産んだ。 |
+| tamayorihime-c07 | exact | kotobank.jp | After her elder sister Toyotamahime bore the child Hikonagisatake-Ugayafukiaezu and left, Tamayorihime raised that child. | 姉の豊玉姫が天孫彦火火出見尊(ひこほほでみのみこと)の子彦波瀲武鸕鷀草葺不合尊(ひこなぎさたけうがやふきあえずのみこと)を産み落として去った後、其の子を養育した。 |
+| tamayorihime-c08 | exact | kotobank.jp | The dictionary explains that "tama" means soul and "yori" means to possess. | ( 古く「たまよりびめ」とも。「たま」は魂、「より」は憑依する意 ) |
+| tamayorihime-c09 | exact | kotobank.jp | The Heibonsha encyclopedia holds that although treated like a proper name in the stories, Tamayorihime is better regarded as a common noun meaning a woman on whom a divine spirit descends. | 物語の中では固有名詞のように扱われているが，むしろ普通名詞と考えたほうがよい。タマヨリヒメとは神霊が依り憑（つ）く女性の意である。 |
+| tamayorihime-c10 | exact | kotobank.jp | According to the encyclopedia, the miko who attended the descent of a god during rites is imagined in myth as a mother who conceives the god's child, and all ancient miko can be called Tamayorihime. | これは，祭儀の際，神降臨の秘儀に立ち会う巫女が，神話的には神に感精してその子を生む母として形象化されたものである。古代の巫女はなべてタマヨリヒメであったといえる。 |
+| tamayorihime-c11 | exact | kotobank.jp | Several women in the Kiki and the Fudoki are called Tamayorihime: the mother of the Miwa ancestor who was visited by a mysterious youth (Ōmononushi), the sea god's daughter who nursed and later married and bore Emperor Jinmu, and the woman who bore the Kamo ancestor after Hoikazuchi, in the form of a red arrow, impregnated her. | 記紀，《風土記》に登場する女性の名。たとえば，毎夜訪れる見知らぬ若者（実は大物主（おおものぬし）神）によってみごもり，三輪氏の祖を生んだとされる女性，海神（わたつみ）の娘で，海幸山幸神話の主人公火遠理（ほおり）命の子の乳母でのちには妻となり，神武天皇を生んだとされる女性，丹塗矢（にぬりや）と化した火雷（ほのいかずち）神に感精して賀茂氏の祖神を生んだとされる女性などがタマヨリヒメとよばれている。 |
+| tamayorihime-c12 | exact | en.wikipedia.org | Toshio Akima considers it more likely that Tamayori-hime is not the sister of Toyotama-hime but that the two are aspects of a single deity. | Toshio Akima of the International Research Centre for Japanese Studies considers it more likely that Tamayori-hime is not the sister of Toyotama-hime, but that the two should be considered as aspects of the same, single deity. |
+| tamayorihime-c13 | exact | en.wikipedia.org | The word tamayori-hime is a generic term for shamanesses who dedicated their lives exclusively to their deities. | The word tamayori-hime is a generic term for shamanesses who dedicated their lives exclusively to their deities. |
+| tamayorihime-c14 | exact | en.wikipedia.org | Miyaura Shrine in Nichinan City, Miyazaki Prefecture, is said to be the site of Tamayorihime's residence. | Miyaura Shrine (Miyazaki Prefecture Nichinan City) is said to be the site of Tamayorihime's residence. |
 
 
 ## uwan — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (loose 1, exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -721,14 +730,25 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | uwan-c02 | exact | en.wikipedia.org | The drawings show darkened teeth and raised hands but give no full explanation. | They were depicted to be a teeth-blackened yōkai with grotesque features who were waving both hands, and appeared to be looking threatening by raising their voice, but there was no explanatory text, so their true identity is unknown. |
 | uwan-c03 | exact | en.wikipedia.org | One interpretation links the background of a picture to an abandoned house. | In the background of the picture in the Gazu Hyakki Yagyō, there is the interpretation that they are a paranormal phenomenon that appears from the walls of a deserted residence. |
 | uwan-c04 | exact | en.wikipedia.org | A later essay also recounts a strange story from Aomori. | In the essay Tōhoku Kaidan no Tabi by Norio Yamada, there is the following strange tale (kaidan) in Aomori Prefecture from the end of the Edo Period. |
+| uwan-c05 | exact | kotobank.jp | According to the Digital Daijisen Plus, the uwan is a Japanese yōkai said to startle people by suddenly shouting "uwan" loudly on night roads. | 日本の妖怪。夜道などで突然「うわん」と大声をあげて人を驚かすとされる。 |
+| uwan-c06 | exact | yokai.com | According to yokai.com, uwan is onomatopoeic and named for the sound it makes; its habitat is empty temples and abandoned houses, and it lives off the fear it causes. | Translation: onomatopoeic; named for the sound it makes Habitat: empty temples, abandoned houses Diet: lives off of the fear it causes |
+| uwan-c07 | exact | yokai.com | Uwan are occasionally encountered outside of old buildings and temples; they assault lone passersby by leaping out of the shadows and shouting "Uwan!". | Uwan are occasionally encountered outside of old buildings and temples. They assault lone passersby by leaping out of the shadows and shouting “Uwan!” |
+| uwan-c08 | exact | yokai.com | The uwan depends entirely on the surprise attack: weak-willed victims who faint never regain consciousness, and the uwan steals their essence and flees into the darkness. | The uwan depends entirely on the surprise attack—any weak-willed victims who faint at the site of the uwan never regain consciousness. The uwan steals their essence and flees into the darkness. |
+| uwan-c09 | exact | yokai.com | However, if a brave individual shouts back "Uwan!", this yōkai flees and never bothers that person again. | However, if a brave individual shouts back “Uwan!” then this yōkai flees and never bothers that person again. |
+| uwan-c10 | exact | yokai.com | The uwan is named for its distinctive sound; no written record of its physical appearance exists and it was thought formless for centuries until, in the Edo period, the artist Sawaki Sūshi gave it a shape. | It is named for the distinctive sound it makes, crying out from the darkness: “Uwan!” No written record of its physical appearance exists; the creature was thought to be formless for centuries. It wasn’t until the Edo period when artist Sawaki Sūshi gave the creature its shape that uwan were considered anything more than phantom sounds. |
+| uwan-c11 | exact | en.wikipedia.org | Because teeth blackening was practiced among the medieval Japanese nobility and warrior class, it is inferred the uwan may be a yōkai of someone from that class, or may derive from the monsters called "wanwan" in Omine, Kumamoto and "wan" in Taniyama, Kagoshima. | Teeth blackening was performed in medieval Japan among males of the nobility (kuge) and warrior class (buke), so it is inferred that they may be a yōkai of someone from this class, or alternatively they may come from how monsters in Omine, Aso District, Kumamoto Prefecture are called "wanwan" and how monsters in Taniyama, Kagoshima Prefecture (now Kagoshima) are called "wan". |
+| uwan-c12 | exact | en.wikipedia.org | In yōkai depictions the uwan has only three fingers; it is theorized that this refers to oni having three fingers. | Also, in yōkai depictions, the uwan only has three fingers on its hands, so it is theorized that this refers to how oni have three fingers. |
+| uwan-c13 | exact | en.wikipedia.org | In the Aomori tale recorded by Norio Yamada, a man named Kasuke bought an old residence and moved in with a woman; at night a loud voice shouting "uwan!" echoed so that they could not sleep. | In the essay Tōhoku Kaidan no Tabi by Norio Yamada, there is the following strange tale (kaidan) in Aomori Prefecture from the end of the Edo Period. A man named Kasuke was saving money, so he bought some old residence and moved in with a woman, but at night, there continuously echoed a loud voice shouting "uwan!" that he was unable to sleep. |
+| uwan-c14 | exact | en.wikipedia.org | No primary sources are provided for the mysterious tale recorded by Yamada, so it has been suggested that it was simply made up by Yamada. | There are no primary sources provided for this mysterious tale, so it has been suggested that this was simply made up by Yamada. |
+| uwan-c15 | exact | en.wikipedia.org | According to one theory, uwan appear near old temples and let out a strange "uwan!" that startles passers-by and takes their lives as they are distracted, but if one repeats back everything said to them, the uwan flees. | There is also the theory that they would appear near old temples and let out a strange voice saying as their name suggest, "uwan!" and startle passer-bys and take their lives as they are distracted, but if one repeats back everything that was said to them, the uwan would flee. |
+| uwan-c16 | exact | en.wikipedia.org | The primary source of the theory drawn from Satō's book is also unknown, and it has been suggested that it was simply made up by Satō. | but the primary source here is also unknown, and again, it has been suggested that this is simply made up by Satō. |
+| uwan-c17 | exact | yokai.com | Yokai.com tells of a famous uwan encounter in Aomori Prefecture during the Edo period, when a young newlywed couple bought an old mansion and moved in together. | A famous uwan encounter took place in Aomori Prefecture during the Edo period. A young newlywed couple had bought an old mansion and moved in together. |
+| uwan-c18 | exact | en.wikipedia.org | In that tale not one of the neighbors could hear the voice, and an elder who heard the tale said that a monster called "uwan" lived in the old residence. | but not one of their neighbors could hear such a voice ... However, an elder who heard this tale said that it was because in this old residence lived a monster called "uwan." |
 
 
 ## yosei — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -736,6 +756,14 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | yosei-c02 | exact | en.wikipedia.org | Today it often means a spirit from Western stories, but it can also refer to Japanese beings. | Today, this word usually refers to spirits from Western legends, but occasionally it may also denote a creature from native Japanese folklore. |
 | yosei-c03 | exact | en.wikipedia.org | An older Iwate belief attributed the power to revive the dead to yōsei. | For example, according to an old folk belief from Iwate Prefecture, it was once feared that the yōsei could resurrect the dead. |
 | yosei-c04 | exact | en.wikipedia.org | Kijimuna of Okinawa is cited as another fairy-like Japanese being. | Another fairy-like being from Japan is the Kijimuna, tree sprites told in the Ryukyuan religion of Okinawa. |
+| yosei-c05 | exact | kotobank.jp | According to the Digital Daijisen, yōsei (妖精) is a spirit in human form with superhuman abilities, mischievous and playful, appearing often in Western tales and legends; the equivalent of fairy. | 人間の姿をした精霊。超人間的能力を有し、いたずらで遊び好きなものとして、西洋の説話・伝説に多く登場する。フェアリー。 |
+| yosei-c06 | exact | kotobank.jp | The Nihon Kokugo Daijiten gives two senses: (1) a strange monster that bewitches people, a yōkai; (2) a nature spirit in human form, often appearing in Western tales as a beautiful small woman with strange arts. | ① 人を惑わすあやしいばけもの。妖怪。〔大唐三蔵取経詩話‐六〕 ② 人間の姿をした自然物の精。西洋の昔話などに、不思議な術を持つ美しい女の小人として出てくることが多い。フェアリー。 |
+| yosei-c07 | exact | kotobank.jp | Nipponica defines yōsei as a supernatural being living in a world close to the human one that changes form at will; its looks and nature vary, but generally it is very human-like, capricious, repays kindness extravagantly and takes harsh revenge if treated coldly. | 人間界に密接した世界に住み、変幻自在の超自然的な存在。その美醜、大小、善悪などの性状は地域や時代によって甚だ異なるが、一般にはきわめて人間に近い姿や性質をもち、良心や節操に欠けることが多く、気まぐれで、人間からの親切には大げさな返礼をし、じゃけんにされると手ひどい仕返しをするという。 |
+| yosei-c08 | exact | kotobank.jp | According to Nipponica, the image of the kind or pretty fairy is a product of fairy tales and comics since the early modern period; before that fairies were equated with devils and witches and greatly feared. | ただ善良で親切な、またはかわいく美しい妖精の姿は、近世以後のおとぎ話、童話、漫画などの所産であって、それまでは悪魔や魔女と同類視され、きわめて恐れられた存在であった。 |
+| yosei-c09 | exact | kotobank.jp | Nipponica notes a deep-rooted fear of changelings: newborn infants being abducted and replaced with a yōsei's child. | とくにチェンジリングといって、生まれたばかりの嬰児がさらわれ、妖精の子とかえられてしまうという恐怖が根強くあった。 |
+| yosei-c10 | exact | kotobank.jp | Nipponica says Japan's sudama (tree spirits or mountain spirits) and the Korobokkuru of Ainu legend can also be considered yōsei. | そしてわが国のすだま（木の精や山の霊）、アイヌ伝説のコロボックルなども妖精と考えられよう。 |
+| yosei-c11 | exact | en.wikipedia.org | It is also mentioned that the people of Mt. Hōrai are small fairies that have no knowledge of great evil, so their hearts never grow old. | It is also mentioned that the people of Mt. Hōrai are small fairies that have no knowledge of great evil and so their hearts never grow old. |
+| yosei-c12 | exact | en.wikipedia.org | The Ainu also tell of a race of small people known as the Koro-pok-guru in their folklore. | The Ainu also tell of a race of small people known as the Koro-pok-guru in their folklore. |
 
 
 ## amanozako — lulus-otomatis
@@ -896,10 +924,7 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## futsunushi — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 2, exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -907,47 +932,65 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | futsunushi-c02 | loose | en.wikipedia.org | He is worshipped at Katori Shrine and linked with Takemikazuchi. | Also known under the epithet Katori Daimyōjin (香取大明神) after his shrine in northern Chiba Prefecture (historical Shimōsa Province), Katori Jingū, he is often revered alongside Takemikazuchi (the god of Kashima Shrine), with whom he is closely associated (his brother). |
 | futsunushi-c03 | exact | en.wikipedia.org | Some traditions place him among Amaterasu’s generals. | He is the general of Amaterasu and regarded as a legendary ancestor of the Mononobe clan, and like Takemikazuchi is one of the tutelary deities of the Fujiwara clan. |
 | futsunushi-c04 | exact | en.wikipedia.org | One scholarly interpretation links part of his name to the sound of a sword. | One theory interprets the futsu (Old Japanese: putu) in Futsunushi's name as an onomatopoeic sound of a sword swinging and cutting something. |
+| futsunushi-c05 | exact | kotobank.jp | According to the Digital Daijisen, he is a god of Japanese mythology, child of Iwatsutsuno-o and Iwatsutsuno-me, and the enshrined deity of Katori Shrine; before the descent of the heavenly grandson he went to Izumo and persuaded Ōnamuchi to offer up the land. | 日本神話の神。 磐筒男神 いわつつのおのかみ と磐筒女神の子。香取神宮の祭神。天孫降臨に先立って、出雲に行き、 大己貴命 おおなむちのみこと を説いて国土を献上させた。 |
+| futsunushi-c06 | exact | kotobank.jp | In the Kiki he was born from the blood that dripped from the sword and became rock when Izanagi, grieving the death of Izanami, cut down the fire god Kagutsuchi, who had caused her death. | 記紀に見える神。伊弉諾尊が伊弉冉尊の死を悲しんで、その死因をなした火の神、軻遇突智(かぐつち)を切った時、剣についた血がしたたって岩となったものから生じた。 |
+| futsunushi-c07 | exact | kotobank.jp | In the Nihon Shoki he is credited with persuading the god Ōnamuchi of Izumo to offer the land to Takamagahara. | 「日本書紀」では、出雲の大己貴(おおなむち)神を説得して、国土を高天原に献上させるのに功があったとされる。 |
+| futsunushi-c08 | exact | kotobank.jp | The Heibonsha encyclopedia gives his alternate name as Iwainushi and explains that futsu is a mimetic word for cutting through something: he is a sword god who cuts off the violent gods. | 別名伊波比主（いわいぬし）神。フツは物を断ち切る擬態語で，荒らぶる神々をぷっつり断ち切る刀剣の神。 |
+| futsunushi-c09 | exact | kotobank.jp | According to the Nihon Shoki he descended with Takemikazuchi from Takamagahara to Ashihara-no-Nakatsukuni as an envoy and, backed by the power of the sword, successfully pressed Ōnamuchi to cede the land (the kuni-yuzuri myth); he does not appear in the same myth in the Kojiki. | 《日本書紀》によると武甕槌（たけみかづち）神とともに高天原（たかまがはら）からの使者として葦原中国（あしはらのなかつくに）に降り，刀剣の威力を背景に大己貴（おおなむち）神に国譲りを迫って成功する（国譲り神話）。《古事記》の同じ神話にはこの神は登場しない。 |
+| futsunushi-c10 | exact | kotobank.jp | He is the enshrined deity of Katori Shrine in Shimōsa and was later also enshrined at Kasuga Taisha in Nara, becoming the tutelary god of the Fujiwara clan; the sacred sword Futsunomitama that descended into the house of Takakuraji at Kumano during Jinmu's eastern expedition is probably related to this god's name. | 下総国香取神宮の祭神であり，後に奈良の春日大社にもまつられ藤原氏の氏神となる。神武東征の際に熊野の高倉下（たかくらじ）の家に降った霊剣フツノミタマも，この神名と関係があろう。 |
+| futsunushi-c11 | exact | kotobank.jp | According to Nipponica, he is the deification of the sacred sword Futsunomitama of Isonokami Shrine; the Mononobe clan, keepers of the Isonokami treasures, used the sword to strengthen the emperor's life and joined the pacification of Yamato venerating this god. | 石上(いそのかみ)神宮（奈良県天理市）の神剣、布都御魂(ふつのみたま)の神格化。石上の神宝を管理した物部(もののべ)氏は、この剣で天皇の生命を増幅するとともに、この神を奉じて大和(やまと)平定の戦いに加わった。 |
+| futsunushi-c12 | exact | kotobank.jp | Nipponica notes that the Kojiki excludes this god from the fire-god killing and the kuni-yuzuri envoy passages and interprets this as a revision of the original tradition by the Fujiwara, who made Takemikazuchi their guardian. | なお『古事記』は、火神殺害条におけるこの神の出現、および国譲り使者条そのほかすべてにおいて経津主神を排しており、剣神として建御雷神(たけみかづちのかみ)を重用するが、これはのちに建御雷神を氏の守護神とした藤原氏の関与による原伝承の改訂である。 |
+| futsunushi-c13 | exact | en.wikipedia.org | Futsunushi and Takemikazuchi have been reckoned as eminent war gods since antiquity. | Both Futsunushi and Takemikazuchi were reckoned as eminent war gods (軍神 ikusagami, gunjin) since antiquity. |
+| futsunushi-c14 | exact | en.wikipedia.org | The Ryōjin Hishō compiled in 1179 attests that the gods of Katori and Kashima were worshipped as martial deities at the time of its compilation. | The Ryōjin Hishō compiled in 1179 (the late Heian period) attest to the worship of the gods of Katori and Kashima as martial deities at the time of its compilation: |
+| futsunushi-c15 | exact | en.wikipedia.org | According to legend, the swordsman Chōisai developed his style after being taught secrets of strategy by Futsunushi in a dream. | Indeed, Chōisai was reputed in legend to have developed his swordsmanship style after being taught secrets of strategy by Futsunushi in a dream. |
+| futsunushi-c16 | exact | en.wikipedia.org | Two legends from Ou District of Izumo Province recorded in the Izumo Fudoki feature Futsunushi; in one he stitched up a rip in his sturdy shield of heaven, so the place was named Tatenuhi, meaning "shield fastening". | Two legends from Ou District (意宇郡) of Izumo Province (modern Yasugi, Shimane Prefecture) recorded in the Izumo Fudoki feature Futsunushi. ... At this place Futsunushi stitched up a rip in his sturdy shield of heaven. Thus it was named Tatenuhi, meaning "shield fastening." |
+| futsunushi-c17 | exact | en.wikipedia.org | The Shintōshū, a collection of medieval legends, identifies the Katori deity as a manifestation of the eleven-faced form of the bodhisattva Kannon. | A collection of medieval legends, the Shintōshū, identifies the Katori deity as a manifestation of the eleven-faced form of the bodhisattva Avalokiteśvara (Kannon). |
 
 
 ## hauras — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (unreachable 4, exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 4 kutipan tidak bisa dicek otomatis: sacred-texts.com (tidak bisa dibuka (timeout)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| hauras-c01 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | Hauras is the sixty-fourth spirit listed in the Goetia. | (64.) HAURES, or HAURAS, or HAVRES, or FLAUROS.--The Sixty-fourth Spirit is Haures, or Hauras, or Havres, or Flauros. |
-| hauras-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | It first appears as a leopard and later takes a human shape. | he putteth on Human Shape with Eyes Flaming and Fiery |
-| hauras-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The text claims he answers questions about past, present and future. | He giveth True Answers of all things, Present, Past, and to Come. |
-| hauras-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The same text assigns him thirty-six legions. | He governeth 36 Legions of Spirits |
+| hauras-c01 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | Hauras is the sixty-fourth spirit listed in the Goetia. | (64.) HAURES, or HAURAS, or HAVRES, or FLAUROS.--The Sixty-fourth Spirit is Haures, or Hauras, or Havres, or Flauros. |
+| hauras-c02 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | The Goetia text says he puts on human shape with eyes flaming and fiery. | he putteth on Human Shape with Eyes Flaming and Fiery |
+| hauras-c03 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | The text claims he answers questions about past, present and future. | He giveth True Answers of all things, Present, Past, and to Come. |
+| hauras-c04 | unreachable (tidak bisa dibuka (timeout)) | sacred-texts.com | The same text assigns him thirty-six legions. | He governeth 36 Legions of Spirits |
+| hauras-c05 | exact | www.esotericarchives.com | In this manuscript transcription the 64th spirit is named Flauros, a great duke who appears at first like a mighty, strong leopard and afterwards, at the exorcist's command, takes the shape of a man with fiery eyes and a terrible countenance. | The 64th spirit is named Flauros ... he is a great duke, and appeareth at first like a mighty Terrable and strong Leopard but afterwards at ye command of ye Exorcist he putteth on ye shape of a man wth fiery Eyes and a Terrable Countenance |
+| hauras-c06 | exact | www.esotericarchives.com | He gives true answers about all things past, present and to come, but unless he is commanded into a Triangle he will lie in all those things and deceive or beguile the exorcist in other things or business. | he giveth True answares of all Things past present & to come, but unless he be commanded into a Triangle, he will Lye in all those things and deceive or beguile ye Exorcist in other Things or Buisness |
+| hauras-c07 | exact | www.esotericarchives.com | He will gladly talk of divinity, of the creation of the world, and of the fall of himself and all other spirits. | he will gladly talke of divinity, and of ye Creation of ye world, and of his and all other spirits fall |
+| hauras-c08 | exact | www.esotericarchives.com | If the exorcist requests it, he destroys and burns the exorcist's enemies, and will not suffer him to be tempted by any spirit or otherwise. | he destroyeth and burneth those That are ye Exorcist ... enimies if he Requesteth it, and will not suffer him to be Tempted by any spirit or otherwise |
 
 
 ## kijo — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (kijo-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kijo-c01 | loose | en.wikipedia.org | Kijo is a female oni in Japanese legends. | A kijo (鬼女, lit. demon woman) is an oni woman from Japanese legends. |
-| kijo-c02 | exact | en.wikipedia.org | Some tales explain the transformation through resentment or wrongdoing. | They are normally considered to be women who have turned into oni as a result of karma and resentment, with the younger ones being called "kijo" while the ones that look like old ladies are called onibaba (鬼婆, "demon hag"). |
+| kijo-c02 | exact | en.wikipedia.org | Kijo are normally considered women who turned into oni through karma and resentment; the younger ones are called kijo, while those that look like old ladies are called onibaba. | They are normally considered to be women who have turned into oni as a result of karma and resentment, with the younger ones being called "kijo" while the ones that look like old ladies are called onibaba (鬼婆, "demon hag"). |
 | kijo-c03 | exact | en.wikipedia.org | Such figures appear in folklore and stage performances. | They often appear in Japanese legends, folktales, fairy tales, and performing arts, and famous among them are Momiji (from The Legend of Momiji and Momijigari) from togakushi, Shinano Province (now the town of Kinasa, Nagano, Nagano Prefecture) and Suzuka Gozen from the Suzuka Mountains. |
 | kijo-c04 | exact | en.wikipedia.org | The onibaba of Adachigahara can also be classed as a kijo. | The onibaba of Adachigahara (Kurozuka) had "baba" in her name, but she is also considered a kijo. |
+| kijo-c05 | exact | kotobank.jp | According to the Digital Daijisen, kijo (鬼女) means (1) an oni in the form of a woman and (2) a woman whose heart is as cruel as an oni. | き‐じょ〔‐ヂヨ〕【鬼女】 １ 女の姿をしている鬼。 ２ 心が鬼のようにむごい女。 |
+| kijo-c06 | exact | kotobank.jp | The Nihon Kokugo Daijiten defines kijo as an oni in the form of a woman and cites the Noh play Yamanba (c. 1430): "Yamanba is a kijo who lives in the mountains." | ① 女の姿をした鬼。 [初出の実例]「山姥とは山に住む鬼女(キジョ)とこそ」(出典：謡曲・山姥（1430頃）) |
+| kijo-c07 | exact | kotobank.jp | The older Heibonsha encyclopedia names growing too old as another trigger and says an old woman is said to become a kijo, citing the Konjaku Monogatari-shū. | いま一つの契機は年を取り過ぎることである。年老いた女は鬼女になるといい(《今昔物語集》) |
+| kijo-c08 | exact | yokai.com | Kijo are female demons that resemble human women but are hideously ugly; some have red or yellow eyes, blue skin, sharp horns, or long claws. | Kijo are female demons. They resemble human women in most ways, although they are hideously ugly to behold. Some have red or yellow eyes, blue skin, sharp horns, long claws, or other supernatural features. |
+| kijo-c09 | exact | yokai.com | Kijo refers chiefly to women transformed into monsters out of intense jealousy, wicked crimes, or a terrible grudge; they retreat from society to secluded places where they continue their wicked deeds. | Kijo refers chiefly to women who have been transformed from humans into horrible monsters—either out of intense jealousy, wicked crimes, or a terrible grudge that twists the soul into pure hatred. ... These transformed women retreat from common society into more secluded places where they continue to perpetrate their wicked deeds. |
+| kijo-c10 | exact | yokai.com | Kijo are stronger than most humans (though weaker than oni), excel in magic, and can bestow hexes and curses, brew poisons and potions, and weave complex illusions. | Kijo are stronger than most humans, though their strength pales in comparison to oni. These demonesses excel in magic; they accumulate powerful spells over their long lives. Kijo are capable of bestowing hexes and curses, brewing poisons and potions, and weaving complex illusions. |
+| kijo-c11 | exact | yokai.com | Kijo can be found living in remote mountain caves, abandoned houses, or along mountain roads where they receive a steady supply of victims. | They can be found living in remote mountain caves, abandoned houses, or along mountain roads where they receive a steady supply of victims. |
+| kijo-c12 | exact | yokai.com | Yokai.com states nothing supports kijo being the female counterparts of oni; they are likely entirely separate creatures, apart from both being born from corrupted human souls. | Though their name might suggest that kijo are the female counterparts to the male oni, there is nothing to support this. ... It is likely that kijo are entirely separate creatures from oni, other than the fact that both are born from corrupted human souls. |
+| kijo-c13 | exact | yokai.com | The name kijo is formed simply by combining the two kanji for oni and woman. | Indeed, the name kijo is formed simply by combining the two kanji for oni and woman. |
+| kijo-c14 | exact | en.wikipedia.org | The Tosa Obake Zōshi (author unknown) states, under the title "Kijo," that an oni woman with hair about 150 centimeters long ate a fetus from a pregnant woman. | Also, the Tosa Obake Zōshi (author unknown) that spelled out tales of yōkai in Tosa Province (now Kōchi Prefecture) had, under the title of "Kijo," stated that an oni woman (kijo) with hair of a length 4 shaku and 8 sun (about 150 centimeters) ate a fetus from a pregnant woman |
 
 
 ## kotoshironushi — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 1, exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -955,4 +998,15 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | kotoshironushi-c02 | exact | en.wikipedia.org | The Kojiki calls him a son of Ōkuninushi. | In the Kojiki, Kotoshironushi is the son of Ōkuninushi, the earthly deity of Izumo province. |
 | kotoshironushi-c03 | exact | en.wikipedia.org | When heavenly deities sought control of Izumo, his father consulted his sons. | When the heavenly deities sent Takemikazuchi to conquer Izumo, Ōkuninushi deferred the decision over whether to resist to his two sons. |
 | kotoshironushi-c04 | exact | en.wikipedia.org | Kotoshironushi agreed to the heavenly gods’ rule in that account. | Kotoshironushi, who had been fishing at the time of Takemikazuchi's arrival, agreed to accept the rule of the heavenly gods, surrendered his spear and left Izumo. |
+| kotoshironushi-c05 | exact | kotobank.jp | According to the Digital Daijisen, he is a god of Izumo myth, a son of Ōkuninushi, who advised his father to offer the land at the time of its transfer; the Nihon Shoki records that during the Jinshin War he possessed Takechi-no-agatanushi Kome and delivered an oracle. | 出雲神話の神。大国主命の子。国譲りに際して父に国土の献上を勧めた。 壬申 じんしん の乱のとき、 高市県主許梅 たけちのあがたぬしこめ に神懸かりして託宣した話が、日本書紀にみえる。 |
+| kotoshironushi-c06 | exact | kotobank.jp | He is an oracle deity in the Kiki, and the name is presumed to have originally been a common noun. According to the Kojiki he met the envoy of Takemikazuchi at Mihonosaki and advised Ōkuninushi to offer the land; he is also called Yae-Kotoshironushi. | 記紀などに見える託宣神。元来は普通名詞と推定される。「古事記」によれば、大国主神の子。国譲りの際に、天照大神の命を受けて天降った建御雷神(たけみかずちのかみ)の使者と美保埼(みほのさき)で会い、国土の献上を大国主命に進言した。八重言代主神(やえことしろぬしのかみ)。 |
+| kotoshironushi-c07 | exact | kotobank.jp | The Heibonsha encyclopedia explains that koto means "word" and shiro means "to know"; he is an oracle deity who protects the emperor, also called Yae-Kotoshironushi. | コトは〈言〉，シロは〈知る〉意で，天皇を守護する託宣の神。八重（やえ）事代主神とも呼ばれる。 |
+| kotoshironushi-c08 | exact | kotobank.jp | In the Kiki myths, as a son of Ōkuninushi he makes the pledge of the transfer of the land, and was afterwards enshrined at Unade in Yamato as the "near guardian of the imperial grandchild" according to the Izumo-no-kuni-no-miyatsuko-no-kamuyogoto. | 記紀神話においては大国主（おおくにぬし）神の子として国譲りの誓約を行い，その後は大和の宇奈提（うなで）に〈皇孫命（すめみまのみこと）の近き守り神〉として祭られた（《出雲国造神賀詞（いずものくにのみやつこのかむよごと）》）。 |
+| kotoshironushi-c09 | exact | kotobank.jp | According to the Nihon Shoki, this god became an eight-fathom wani and married Mizokui-hime of Mishima, fathering the princess who became Emperor Jinmu's empress (a Mount Miwa-type legend). | また，この神が八尋（やひろ）ワニとなって三嶋溝樴（みぞくい）姫と結婚し神武天皇の后となる姫を生んだという三輪山（みわやま）型説話（三輪山伝説）も伝えられている（《日本書紀》）。 |
+| kotoshironushi-c10 | exact | kotobank.jp | According to Heibonsha, he was originally a native earthly deity (kunitsukami) of the Asuka region, worshipped in Takechi district, one of the six districts of Yamato named in the Toshigoi ritual prayer. | コトシロヌシは本来は祈年祭の祝詞にいう大和六県の一つ，高市県（たけちのあがた）で祭られていた飛鳥地方の土着の国津神（くにつかみ）であった。 |
+| kotoshironushi-c11 | exact | kotobank.jp | This native Asuka earthly deity played an important role in the myth of the transfer of the land; later, in the Jinshin War, he gave an oracle protecting Emperor Tenmu and was enshrined as the emperor's guardian deity at the Saiin of the Jingikan within the palace (per the Engishiki). | 飛鳥土着の国津神が国譲り神話で重要な役割を果たしたのはこのためであり，後に壬申の乱に際して天武天皇を守護する託宣を行い，天皇の守護神として宮中の神祇官西院に祭られることになる（《延喜式》神名帳） |
+| kotoshironushi-c12 | exact | en.wikipedia.org | Kotoshironushi is the principal deity of the Asuka shrine and is associated with the god Ebisu. | Kotoshironushi is the principal deity of the Asuka shrine, and is associated with the god Ebisu. |
+| kotoshironushi-c13 | exact | en.wikipedia.org | In mythology, Kotoshironushi was an adviser to Empress Jingū during her invasion of Korea and one of the eight deities charged with protecting the Imperial Court. | In mythology, he was an adviser to Empress Jingū during her invasion of Korea. He was also one of the eight deities charged with protecting the Imperial Court. |
+| kotoshironushi-c14 | exact | en.wikipedia.org | His brother Takeminakata fought with Takemikazuchi and was defeated. | His brother Takeminakata fought with Takemikazuchi and was defeated. |
+| kotoshironushi-c15 | exact | en.wikipedia.org | His daughter Himetataraisuzu-hime became the consort of Emperor Jimmu. | His daughter Himetataraisuzu-hime became the consort of Emperor Jimmu. |
 

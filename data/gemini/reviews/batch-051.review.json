@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-051",
-  "checked_at": "2026-10-06T14:56:31.838Z",
+  "checked_at": "2026-10-06T15:17:15.243Z",
   "files": [
     "batch-051.md",
     "batch-051-fix-1.md",
     "batch-051-fix-2.md",
     "batch-051-fix-3.md",
-    "batch-051-fix-4.md"
+    "batch-051-fix-4.md",
+    "batch-051-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4368,8 +4369,8 @@
     },
     {
       "slug": "omoikane",
-      "file": "batch-051-fix-4.md",
-      "entry_sha256": "7f6230bb468921953321025cec1d6ad5b75791fcaf3f2f46fc72ea6464243efd",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "7fa284a980fafe8ae3bff876bb79528fba2198f814e68e748c84612f0eab1a43",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 11,
@@ -4444,7 +4445,7 @@
           "host": "en.wikipedia.org",
           "statement": "In the Kujiki, Omoikane descends to Shinano Province to become the ancestor of Shina-no-achihouri.",
           "statement_id": "Dalam Kujiki, Omoikane turun ke Provinsi Shinano dan menjadi leluhur Shina-no-achihouri.",
-          "quote": "Omoikane descends to Shinano Province ... to become the ancestor of Shina-no-achihouri",
+          "quote": "in the Kujiki (旧事紀 or Sendai Kyuji Hongi 先代旧事本紀). Omoikane descends to Shinano Province ... to become the ancestor of Shina-no-achihouri",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4493,20 +4494,15 @@
     },
     {
       "slug": "shinatsuhiko",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "c4a4f5891afcc94f1b476dd8aabb2016c916706b7637198d3c4d9f2b7e4aa783",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shinatsuhiko-c01",
@@ -4547,30 +4543,95 @@
           "quote": "After these lands were completed, Izanagi blew at the morning mists that obscured them and these became Shinatsuhiko, God of the Wind.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c05",
+          "source_id": "shinatsuhiko-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, Shinatsuhiko-no-Mikoto (級長津彦命) is the wind god of Japanese mythology and a child of Izanagi; the dictionary also lists Shinatobe-no-Mikoto.",
+          "statement_id": "Menurut Digital Daijisen, Shinatsuhiko-no-Mikoto (級長津彦命) adalah dewa angin dalam mitologi Jepang dan putra Izanagi; kamus itu juga mencantumkan Shinatobe-no-Mikoto.",
+          "quote": "日本神話で、風の神。 伊弉諾尊 いざなぎのみこと の子。 級長戸辺命 しなとべのみこと 。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c06",
+          "source_id": "shinatsuhiko-s2",
+          "host": "kotobank.jp",
+          "statement": "He is said to govern the wind. According to the Nihon Shoki he was born from the breath with which Izanagi blew away the morning mist, and another name for him is Shinatobe.",
+          "statement_id": "Ia dianggap menguasai angin. Menurut Nihon Shoki, ia lahir dari napas Izanagi yang meniup kabut pagi, dan nama lainnya adalah Shinatobe.",
+          "quote": "風をつかさどるとされる。「日本書紀」では,伊奘諾尊(いざなぎのみこと)が朝霧をふきはらった息から生まれたという。別名に級長戸辺(しなとべの)命。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c07",
+          "source_id": "shinatsuhiko-s2",
+          "host": "kotobank.jp",
+          "statement": "The Kojiki writes his name as 志那都比古神 and, according to this dictionary, calls him a child of Hayaakitsuhiko and Hayaakitsuhime.",
+          "statement_id": "Kojiki menulis namanya 志那都比古神 dan, menurut kamus ini, menyebutnya anak Hayaakitsuhiko dan Hayaakitsuhime.",
+          "quote": "「古事記」には志那都比古神とあり,速秋津日子(はやあきつひこの)神と速秋津比売(はやあきつひめの)神の子という。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c08",
+          "source_id": "shinatsuhiko-s2",
+          "host": "kotobank.jp",
+          "statement": "He is a male wind deity who appears in the Kojiki and Nihon Shoki and is regarded as a child of Izanagi and Izanami.",
+          "statement_id": "Ia dewa laki-laki angin yang muncul dalam Kojiki dan Nihon Shoki dan dianggap anak Izanagi dan Izanami.",
+          "quote": "記紀に見える神。風の男神。伊奘諾(いざなぎ)・伊奘冉(いざなみ)二神の子とされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c09",
+          "source_id": "shinatsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A norito (Shinto ritual prayer) addressed the god by this masculine name, while a different name, Shinatobe, was ascribed to what is presumed to be his feminine version.",
+          "statement_id": "Sebuah norito (doa ritual Shinto) menyapa dewa ini dengan nama maskulin tersebut, sedangkan nama lain, Shinatobe, diberikan kepada apa yang diduga versi perempuannya.",
+          "quote": "A Shinto liturgical text or ritual incantation called norito addressed the god in this masculine name while a different name – Shinatobe – was ascribed to what is presumed to be his feminine version.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c10",
+          "source_id": "shinatsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some sources also call the wind deities by the names Ame no Mihashira and Kuni no Mihashira, based on the belief that the wind supported the sky.",
+          "statement_id": "Sebagian sumber juga menyebut dewa-dewa angin dengan nama Ame no Mihashira dan Kuni no Mihashira, berdasarkan kepercayaan bahwa angin menopang langit.",
+          "quote": "Some sources also called the wind deities Ame no Mihashira (pillar of Heaven) and Kuni no Mihashira (pillar of the Earth/Country) according to the belief that the wind supported the sky.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinatsuhiko-c11",
+          "source_id": "shinatsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ise Grand Shrine has wind shrines (Kaze-no-Miya) that enshrine Shinatsuhiko-no-Mikoto and Shinatobe-no-Mikoto, and the Oki-jinja Shrine in Yūtō, Shizuoka, is also dedicated to Shinatsuhiko.",
+          "statement_id": "Kuil Agung Ise memiliki kuil angin (Kaze-no-Miya) yang memuja Shinatsuhiko-no-Mikoto dan Shinatobe-no-Mikoto, dan Kuil Oki di Yūtō, Shizuoka, juga dipersembahkan kepada Shinatsuhiko.",
+          "quote": "The Ise Grand Shrine contains temples, the Kaze-no-Miya (wind shrines), that hold betsugū (detached shrines) which enshrine the Shinatsuhiko-no-Mikoto and Shinatobe-no-Mikoto. In Yūtō, Shizuoka, the Oki-jinja Shrine is also dedicated to Shinatsuhiko-kami.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a5da60ce5f049e836fe2496dddfaa6820689a2657a191e25a8407ff847df0e97"
+      "images": []
     },
     {
       "slug": "stolas",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "f362a0b93fe194d64e63b45ab2fc8425211a6988e8997da176039c5beaef7eec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (stolas-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: sacred-texts.com (tidak bisa dibuka (timeout))."
         }
       ],
       "claims": [
@@ -4582,9 +4643,8 @@
           "statement_id": "Stolas adalah roh ketiga puluh enam yang disebutkan dalam Goetia.",
           "quote": "(36.) STOLAS, OR STOLOS.--The Thirty-sixth Spirit is Stolas, or Stolos.",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "stolas-c02",
@@ -4594,21 +4654,19 @@
           "statement_id": "Teks pertama menggambarkannya sebagai gagak besar.",
           "quote": "appearing in the Shape of a Mighty Raven at first before the Exorcist",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "stolas-c03",
           "source_id": "stolas-s1",
           "host": "sacred-texts.com",
-          "statement": "It later gives him a human form.",
-          "statement_id": "Sesudah itu, teks menggambarkannya mengambil wujud manusia.",
+          "statement": "Afterwards he takes the image of a man.",
+          "statement_id": "Setelah itu ia mengambil rupa seorang manusia.",
           "quote": "but after he taketh the image of a Man",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "stolas-c04",
@@ -4618,30 +4676,63 @@
           "statement_id": "Goetia menyebut ia mengajarkan astronomi serta sifat tumbuhan dan batu mulia.",
           "quote": "He teacheth the Art of Astronomy, and the Virtues of Herbs and Precious Stones.",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "stolas-c05",
+          "source_id": "stolas-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "In this manuscript transcription the 36th spirit is a great and powerful prince appearing in the shape of a night raven.",
+          "statement_id": "Dalam transkripsi manuskrip ini, roh ke-36 adalah pangeran besar dan perkasa yang tampil dalam rupa gagak malam.",
+          "quote": "he is a great and powerfull Prince, appearing in ye shape of a Night Raven",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stolas-c06",
+          "source_id": "stolas-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "He appears before the exorcist first as the raven and afterwards takes the image of a man.",
+          "statement_id": "Ia tampil di hadapan eksorsis pertama-tama sebagai gagak, lalu kemudian mengambil rupa manusia.",
+          "quote": "at first before ye Exorcist, but afterwards he taketh the image of a man &c;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stolas-c07",
+          "source_id": "stolas-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "He teaches the art of astronomy and the virtues of herbs and precious stones, and governs 26 legions of spirits.",
+          "statement_id": "Ia mengajarkan seni astronomi serta khasiat tumbuhan dan batu mulia, dan memerintah 26 legiun roh.",
+          "quote": "he teacheth the Art of Astronomy, & the vertuses ... of hearbs & precious stones, he governeth 26 legions of spirits",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stolas-c08",
+          "source_id": "stolas-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "The editor's note says Stolas is called Mistalas in the Folger manuscript, where he is identified as the fifth of the chief spirits under Paymon in the West.",
+          "statement_id": "Catatan penyunting menyebut Stolas dipanggil Mistalas dalam manuskrip Folger, dan di sana ia disebut roh utama kelima di bawah Paymon di Barat.",
+          "quote": "41. Stolas (Prince/West in Folger): # 69 in W and Scot. Called Mistalas in the Folger manuscript, where he is identified as the fifth of the chief spirits under Paymon in the West.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "24c728e576c95eda9e88c6a14296caff4386779b44adb98d7df8e2f3f95118b4"
+      "images": []
     },
     {
       "slug": "tamayorihime",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "b82064b9bccb654762952b3b17652c3f875180e85bf2cb9dde5faad7c9ce72a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tamayorihime-c01",
@@ -4682,27 +4773,121 @@
           "quote": "When Toyotama-hime abandoned her husband Hoori, she sent Tamayori-hime to care for their son Ugayafukiaezu, although in the Nihon Shoki version of the legend, Tamayori-hime accompanies her sister to the human world when she was about to give birth.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c05",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, in Japanese mythology she is a daughter of a sea god who became the consort of Ugayafukiaezu and bore four sons, including Kamuyamato-Iwarebiko (Emperor Jinmu).",
+          "statement_id": "Menurut Digital Daijisen, dalam mitologi Jepang ia putri dewa laut, menjadi permaisuri Ugayafukiaezu dan melahirkan empat putra, termasuk Kamuyamato-Iwarebiko (Kaisar Jinmu).",
+          "quote": "日本神話で、海の神の娘。 鸕鷀草葺不合尊 うがやふきあえずのみこと の妃となり、 神日本磐余彦尊 かんやまといわれびこのみこと （神武天皇）ら四子を産んだ。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c06",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Kamo legend she is a daughter of Taketsunumi; she marries a red-painted arrow (Hoikazuchi) and bears Wakeikazuchi.",
+          "statement_id": "Dalam legenda Kamo, ia putri Taketsunumi; ia menikah dengan anak panah bercat merah (Hoikazuchi) dan melahirkan Wakeikazuchi.",
+          "quote": "賀茂伝説で、 建角身命 たけつぬみのみこと の娘。 丹塗矢 にぬりや （ 火雷神 ほのいかずちのかみ ）と結婚し、 別雷神 わけいかずちのかみ を産んだ。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c07",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "After her elder sister Toyotamahime bore the child Hikonagisatake-Ugayafukiaezu and left, Tamayorihime raised that child.",
+          "statement_id": "Setelah kakaknya, Toyotamahime, melahirkan putra Hikonagisatake-Ugayafukiaezu dan pergi, Tamayorihime membesarkan anak itu.",
+          "quote": "姉の豊玉姫が天孫彦火火出見尊(ひこほほでみのみこと)の子彦波瀲武鸕鷀草葺不合尊(ひこなぎさたけうがやふきあえずのみこと)を産み落として去った後、其の子を養育した。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c08",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "The dictionary explains that \"tama\" means soul and \"yori\" means to possess.",
+          "statement_id": "Kamus ini menjelaskan bahwa \"tama\" berarti roh/jiwa dan \"yori\" berarti merasuk (mengambil alih).",
+          "quote": "( 古く「たまよりびめ」とも。「たま」は魂、「より」は憑依する意 )",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c09",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia holds that although treated like a proper name in the stories, Tamayorihime is better regarded as a common noun meaning a woman on whom a divine spirit descends.",
+          "statement_id": "Ensiklopedia Heibonsha menilai bahwa meskipun dalam kisah diperlakukan seperti nama diri, Tamayorihime lebih baik dianggap kata benda umum yang berarti perempuan yang dirasuki roh ilahi.",
+          "quote": "物語の中では固有名詞のように扱われているが，むしろ普通名詞と考えたほうがよい。タマヨリヒメとは神霊が依り憑（つ）く女性の意である。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c10",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the encyclopedia, the miko who attended the descent of a god during rites is imagined in myth as a mother who conceives the god's child, and all ancient miko can be called Tamayorihime.",
+          "statement_id": "Menurut ensiklopedia itu, miko yang menyaksikan turunnya dewa dalam upacara digambarkan dalam mitos sebagai ibu yang mengandung anak dewa, dan semua miko kuno dapat disebut Tamayorihime.",
+          "quote": "これは，祭儀の際，神降臨の秘儀に立ち会う巫女が，神話的には神に感精してその子を生む母として形象化されたものである。古代の巫女はなべてタマヨリヒメであったといえる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c11",
+          "source_id": "tamayorihime-s2",
+          "host": "kotobank.jp",
+          "statement": "Several women in the Kiki and the Fudoki are called Tamayorihime: the mother of the Miwa ancestor who was visited by a mysterious youth (Ōmononushi), the sea god's daughter who nursed and later married and bore Emperor Jinmu, and the woman who bore the Kamo ancestor after Hoikazuchi, in the form of a red arrow, impregnated her.",
+          "statement_id": "Beberapa perempuan dalam Kiki dan Fudoki disebut Tamayorihime: ibu leluhur klan Miwa yang dikunjungi pemuda misterius (Ōmononushi), putri dewa laut yang kemudian menjadi istri dan melahirkan Kaisar Jinmu, dan perempuan yang melahirkan leluhur klan Kamo setelah dibuahi Hoikazuchi yang menjelma anak panah.",
+          "quote": "記紀，《風土記》に登場する女性の名。たとえば，毎夜訪れる見知らぬ若者（実は大物主（おおものぬし）神）によってみごもり，三輪氏の祖を生んだとされる女性，海神（わたつみ）の娘で，海幸山幸神話の主人公火遠理（ほおり）命の子の乳母でのちには妻となり，神武天皇を生んだとされる女性，丹塗矢（にぬりや）と化した火雷（ほのいかずち）神に感精して賀茂氏の祖神を生んだとされる女性などがタマヨリヒメとよばれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c12",
+          "source_id": "tamayorihime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Toshio Akima considers it more likely that Tamayori-hime is not the sister of Toyotama-hime but that the two are aspects of a single deity.",
+          "statement_id": "Toshio Akima menilai lebih mungkin Tamayori-hime bukan adik Toyotama-hime, melainkan keduanya aspek dari satu dewi.",
+          "quote": "Toshio Akima of the International Research Centre for Japanese Studies considers it more likely that Tamayori-hime is not the sister of Toyotama-hime, but that the two should be considered as aspects of the same, single deity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c13",
+          "source_id": "tamayorihime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word tamayori-hime is a generic term for shamanesses who dedicated their lives exclusively to their deities.",
+          "statement_id": "Kata tamayori-hime merupakan istilah umum bagi pendeta perempuan (shamaness) yang mengabdikan hidup kepada dewa mereka.",
+          "quote": "The word tamayori-hime is a generic term for shamanesses who dedicated their lives exclusively to their deities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tamayorihime-c14",
+          "source_id": "tamayorihime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Miyaura Shrine in Nichinan City, Miyazaki Prefecture, is said to be the site of Tamayorihime's residence.",
+          "statement_id": "Kuil Miyaura di Nichinan, Prefektur Miyazaki, dipercaya sebagai tempat kediaman Tamayorihime.",
+          "quote": "Miyaura Shrine (Miyazaki Prefecture Nichinan City) is said to be the site of Tamayorihime's residence.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8faa09042585fc8d2e599ae5b210039b46c7c81d25e42493779d0c7b709fb1d6"
+      "images": []
     },
     {
       "slug": "uwan",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "8731fe07bd25f113a388ac46509792aadce02fa8c82e3a918486b6ce4b4d662e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 18,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "uwan-c01",
@@ -4743,27 +4928,161 @@
           "quote": "In the essay Tōhoku Kaidan no Tabi by Norio Yamada, there is the following strange tale (kaidan) in Aomori Prefecture from the end of the Edo Period.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "uwan-c05",
+          "source_id": "uwan-s3",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen Plus, the uwan is a Japanese yōkai said to startle people by suddenly shouting \"uwan\" loudly on night roads.",
+          "statement_id": "Menurut Digital Daijisen Plus, uwan adalah yōkai Jepang yang konon mengejutkan orang dengan tiba-tiba berteriak \"uwan\" keras-keras di jalan malam.",
+          "quote": "日本の妖怪。夜道などで突然「うわん」と大声をあげて人を驚かすとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c06",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "According to yokai.com, uwan is onomatopoeic and named for the sound it makes; its habitat is empty temples and abandoned houses, and it lives off the fear it causes.",
+          "statement_id": "Menurut yokai.com, uwan bersifat onomatope dan dinamai dari bunyi yang dibuatnya; habitatnya kuil kosong dan rumah terbengkalai, dan ia hidup dari rasa takut yang ditimbulkannya.",
+          "quote": "Translation: onomatopoeic; named for the sound it makes Habitat: empty temples, abandoned houses Diet: lives off of the fear it causes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c07",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "Uwan are occasionally encountered outside of old buildings and temples; they assault lone passersby by leaping out of the shadows and shouting \"Uwan!\".",
+          "statement_id": "Uwan kadang ditemui di luar bangunan tua dan kuil; ia menyerang pejalan kaki sendirian dengan melompat dari bayangan sambil berteriak \"Uwan!\".",
+          "quote": "Uwan are occasionally encountered outside of old buildings and temples. They assault lone passersby by leaping out of the shadows and shouting “Uwan!”",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c08",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "The uwan depends entirely on the surprise attack: weak-willed victims who faint never regain consciousness, and the uwan steals their essence and flees into the darkness.",
+          "statement_id": "Uwan bergantung sepenuhnya pada serangan kejutan: korban berjiwa lemah yang pingsan tidak pernah sadar lagi, dan uwan mencuri esensi mereka lalu kabur ke kegelapan.",
+          "quote": "The uwan depends entirely on the surprise attack—any weak-willed victims who faint at the site of the uwan never regain consciousness. The uwan steals their essence and flees into the darkness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c09",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "However, if a brave individual shouts back \"Uwan!\", this yōkai flees and never bothers that person again.",
+          "statement_id": "Namun jika orang pemberani balas berteriak \"Uwan!\", yōkai ini kabur dan tidak pernah mengganggu orang itu lagi.",
+          "quote": "However, if a brave individual shouts back “Uwan!” then this yōkai flees and never bothers that person again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c10",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "The uwan is named for its distinctive sound; no written record of its physical appearance exists and it was thought formless for centuries until, in the Edo period, the artist Sawaki Sūshi gave it a shape.",
+          "statement_id": "Uwan dinamai dari suara khasnya; tidak ada catatan tertulis tentang rupa fisiknya dan selama berabad-abad ia dianggap tak berbentuk, sampai pada zaman Edo pelukis Sawaki Sūshi memberinya bentuk.",
+          "quote": "It is named for the distinctive sound it makes, crying out from the darkness: “Uwan!” No written record of its physical appearance exists; the creature was thought to be formless for centuries. It wasn’t until the Edo period when artist Sawaki Sūshi gave the creature its shape that uwan were considered anything more than phantom sounds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c11",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because teeth blackening was practiced among the medieval Japanese nobility and warrior class, it is inferred the uwan may be a yōkai of someone from that class, or may derive from the monsters called \"wanwan\" in Omine, Kumamoto and \"wan\" in Taniyama, Kagoshima.",
+          "statement_id": "Karena penghitaman gigi dilakukan kaum bangsawan dan samurai Jepang abad pertengahan, ada dugaan uwan adalah yōkai seseorang dari golongan itu, atau berasal dari sebutan \"wanwan\" di Omine, Kumamoto, dan \"wan\" di Taniyama, Kagoshima, bagi makhluk gaib.",
+          "quote": "Teeth blackening was performed in medieval Japan among males of the nobility (kuge) and warrior class (buke), so it is inferred that they may be a yōkai of someone from this class, or alternatively they may come from how monsters in Omine, Aso District, Kumamoto Prefecture are called \"wanwan\" and how monsters in Taniyama, Kagoshima Prefecture (now Kagoshima) are called \"wan\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c12",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In yōkai depictions the uwan has only three fingers; it is theorized that this refers to oni having three fingers.",
+          "statement_id": "Dalam gambar yōkai, uwan hanya berjari tiga; ada teori bahwa ini merujuk pada oni yang berjari tiga.",
+          "quote": "Also, in yōkai depictions, the uwan only has three fingers on its hands, so it is theorized that this refers to how oni have three fingers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c13",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Aomori tale recorded by Norio Yamada, a man named Kasuke bought an old residence and moved in with a woman; at night a loud voice shouting \"uwan!\" echoed so that they could not sleep.",
+          "statement_id": "Dalam kisah Aomori yang dicatat Norio Yamada, seorang pria bernama Kasuke membeli rumah tua dan pindah bersama seorang perempuan; malam-malam terdengar suara keras berteriak \"uwan!\" sampai mereka tidak bisa tidur.",
+          "quote": "In the essay Tōhoku Kaidan no Tabi by Norio Yamada, there is the following strange tale (kaidan) in Aomori Prefecture from the end of the Edo Period. A man named Kasuke was saving money, so he bought some old residence and moved in with a woman, but at night, there continuously echoed a loud voice shouting \"uwan!\" that he was unable to sleep.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c14",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "No primary sources are provided for the mysterious tale recorded by Yamada, so it has been suggested that it was simply made up by Yamada.",
+          "statement_id": "Tidak ada sumber primer untuk kisah ganjil yang dicatat Yamada itu, sehingga diduga kisah itu hanya karangan Yamada.",
+          "quote": "There are no primary sources provided for this mysterious tale, so it has been suggested that this was simply made up by Yamada.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c15",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to one theory, uwan appear near old temples and let out a strange \"uwan!\" that startles passers-by and takes their lives as they are distracted, but if one repeats back everything said to them, the uwan flees.",
+          "statement_id": "Menurut satu teori, uwan muncul di dekat kuil tua, mengeluarkan suara aneh \"uwan!\" mengejutkan pejalan kaki hingga lengah dan nyawanya diambil, tetapi jika seseorang mengulang semua yang dikatakannya, uwan akan kabur.",
+          "quote": "There is also the theory that they would appear near old temples and let out a strange voice saying as their name suggest, \"uwan!\" and startle passer-bys and take their lives as they are distracted, but if one repeats back everything that was said to them, the uwan would flee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c16",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The primary source of the theory drawn from Satō's book is also unknown, and it has been suggested that it was simply made up by Satō.",
+          "statement_id": "Sumber primer teori yang bersumber dari buku Satō itu tidak diketahui, dan diduga teori itu hanya karangan Satō.",
+          "quote": "but the primary source here is also unknown, and again, it has been suggested that this is simply made up by Satō.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c17",
+          "source_id": "uwan-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com tells of a famous uwan encounter in Aomori Prefecture during the Edo period, when a young newlywed couple bought an old mansion and moved in together.",
+          "statement_id": "Yokai.com menceritakan pertemuan terkenal dengan uwan di Prefektur Aomori pada zaman Edo, ketika pasangan pengantin baru membeli sebuah rumah besar tua dan pindah bersama.",
+          "quote": "A famous uwan encounter took place in Aomori Prefecture during the Edo period. A young newlywed couple had bought an old mansion and moved in together.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uwan-c18",
+          "source_id": "uwan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that tale not one of the neighbors could hear the voice, and an elder who heard the tale said that a monster called \"uwan\" lived in the old residence.",
+          "statement_id": "Dalam kisah itu, tidak seorang tetangga pun mendengar suara tersebut, dan seorang sesepuh yang mendengar kisahnya berkata bahwa di rumah tua itu tinggal makhluk bernama \"uwan\".",
+          "quote": "but not one of their neighbors could hear such a voice ... However, an elder who heard this tale said that it was because in this old residence lived a monster called \"uwan.\"",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9ba2d21d401595bc612df8e48919a6415514306d517fe47f69f71165a476342c"
+      "images": []
     },
     {
       "slug": "yosei",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "6026f13fd27fb13e9f7697174771955adde544b7c33ce0105b5940dc8ee60b15",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yosei-c01",
@@ -4804,10 +5123,89 @@
           "quote": "Another fairy-like being from Japan is the Kijimuna, tree sprites told in the Ryukyuan religion of Okinawa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yosei-c05",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, yōsei (妖精) is a spirit in human form with superhuman abilities, mischievous and playful, appearing often in Western tales and legends; the equivalent of fairy.",
+          "statement_id": "Menurut Digital Daijisen, yōsei (妖精) adalah roh berwujud manusia yang berkemampuan melampaui manusia, suka usil dan bermain, dan banyak muncul dalam kisah dan legenda Barat; padanan fairy.",
+          "quote": "人間の姿をした精霊。超人間的能力を有し、いたずらで遊び好きなものとして、西洋の説話・伝説に多く登場する。フェアリー。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c06",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "The Nihon Kokugo Daijiten gives two senses: (1) a strange monster that bewitches people, a yōkai; (2) a nature spirit in human form, often appearing in Western tales as a beautiful small woman with strange arts.",
+          "statement_id": "Nihon Kokugo Daijiten memberi dua arti: (1) makhluk aneh yang menyesatkan manusia, yōkai; (2) roh benda alam berwujud manusia, dalam dongeng Barat sering tampil sebagai perempuan kecil cantik berilmu ajaib.",
+          "quote": "① 人を惑わすあやしいばけもの。妖怪。〔大唐三蔵取経詩話‐六〕 ② 人間の姿をした自然物の精。西洋の昔話などに、不思議な術を持つ美しい女の小人として出てくることが多い。フェアリー。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c07",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica defines yōsei as a supernatural being living in a world close to the human one that changes form at will; its looks and nature vary, but generally it is very human-like, capricious, repays kindness extravagantly and takes harsh revenge if treated coldly.",
+          "statement_id": "Nipponica mendefinisikan yōsei sebagai makhluk supernatural yang hidup di dunia dekat manusia dan dapat berubah wujud sesuka hati; rupa dan sifatnya beragam, umumnya mirip manusia, berubah-ubah suasana hatinya, membalas kebaikan dengan balasan berlebihan dan membalas dendam keras jika diperlakukan kasar.",
+          "quote": "人間界に密接した世界に住み、変幻自在の超自然的な存在。その美醜、大小、善悪などの性状は地域や時代によって甚だ異なるが、一般にはきわめて人間に近い姿や性質をもち、良心や節操に欠けることが多く、気まぐれで、人間からの親切には大げさな返礼をし、じゃけんにされると手ひどい仕返しをするという。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c08",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, the image of the kind or pretty fairy is a product of fairy tales and comics since the early modern period; before that fairies were equated with devils and witches and greatly feared.",
+          "statement_id": "Menurut Nipponica, citra yōsei yang baik hati atau cantik adalah hasil dongeng dan komik sejak zaman modern awal; sebelumnya mereka disamakan dengan iblis dan penyihir dan sangat ditakuti.",
+          "quote": "ただ善良で親切な、またはかわいく美しい妖精の姿は、近世以後のおとぎ話、童話、漫画などの所産であって、それまでは悪魔や魔女と同類視され、きわめて恐れられた存在であった。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c09",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica notes a deep-rooted fear of changelings: newborn infants being abducted and replaced with a yōsei's child.",
+          "statement_id": "Nipponica mencatat ketakutan yang kuat akan changeling: bayi yang baru lahir diculik dan ditukar dengan anak yōsei.",
+          "quote": "とくにチェンジリングといって、生まれたばかりの嬰児がさらわれ、妖精の子とかえられてしまうという恐怖が根強くあった。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c10",
+          "source_id": "yosei-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica says Japan's sudama (tree spirits or mountain spirits) and the Korobokkuru of Ainu legend can also be considered yōsei.",
+          "statement_id": "Nipponica menyebut sudama Jepang (roh pohon atau roh gunung) dan Korobokkuru dalam legenda Ainu juga dapat dianggap yōsei.",
+          "quote": "そしてわが国のすだま（木の精や山の霊）、アイヌ伝説のコロボックルなども妖精と考えられよう。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c11",
+          "source_id": "yosei-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also mentioned that the people of Mt. Hōrai are small fairies that have no knowledge of great evil, so their hearts never grow old.",
+          "statement_id": "Disebutkan pula bahwa penghuni Gunung Hōrai adalah peri kecil yang tidak mengenal kejahatan besar sehingga hatinya tak menua.",
+          "quote": "It is also mentioned that the people of Mt. Hōrai are small fairies that have no knowledge of great evil and so their hearts never grow old.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yosei-c12",
+          "source_id": "yosei-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ainu also tell of a race of small people known as the Koro-pok-guru in their folklore.",
+          "statement_id": "Orang Ainu juga menceritakan ras manusia kecil bernama Koro-pok-guru dalam cerita rakyat mereka.",
+          "quote": "The Ainu also tell of a race of small people known as the Koro-pok-guru in their folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6124672f3a4f81e5bcb6334fb8672da3a882bdacf92dd6d6782a1fcb60a74740"
+      "images": []
     },
     {
       "slug": "amanozako",
@@ -5831,20 +6229,15 @@
     },
     {
       "slug": "futsunushi",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "bcc3329d2dc89c2821a24585169f9aaa73f2d78fb34094242754159a1febfb0d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "futsunushi-c01",
@@ -5885,25 +6278,155 @@
           "quote": "One theory interprets the futsu (Old Japanese: putu) in Futsunushi's name as an onomatopoeic sound of a sword swinging and cutting something.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "futsunushi-c05",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, he is a god of Japanese mythology, child of Iwatsutsuno-o and Iwatsutsuno-me, and the enshrined deity of Katori Shrine; before the descent of the heavenly grandson he went to Izumo and persuaded Ōnamuchi to offer up the land.",
+          "statement_id": "Menurut Digital Daijisen, ia dewa mitologi Jepang, anak Iwatsutsuno-o dan Iwatsutsuno-me, dewa utama Kuil Katori; sebelum turunnya cucu surgawi ia pergi ke Izumo dan membujuk Ōnamuchi menyerahkan negeri.",
+          "quote": "日本神話の神。 磐筒男神 いわつつのおのかみ と磐筒女神の子。香取神宮の祭神。天孫降臨に先立って、出雲に行き、 大己貴命 おおなむちのみこと を説いて国土を献上させた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c06",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Kiki he was born from the blood that dripped from the sword and became rock when Izanagi, grieving the death of Izanami, cut down the fire god Kagutsuchi, who had caused her death.",
+          "statement_id": "Dalam Kiki, ia lahir dari darah yang menetes dari pedang menjadi batu ketika Izanagi, berduka atas kematian Izanami, menebas dewa api Kagutsuchi, penyebab kematiannya.",
+          "quote": "記紀に見える神。伊弉諾尊が伊弉冉尊の死を悲しんで、その死因をなした火の神、軻遇突智(かぐつち)を切った時、剣についた血がしたたって岩となったものから生じた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c07",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Nihon Shoki he is credited with persuading the god Ōnamuchi of Izumo to offer the land to Takamagahara.",
+          "statement_id": "Dalam Nihon Shoki, ia berjasa membujuk dewa Ōnamuchi dari Izumo menyerahkan negeri kepada Takamagahara.",
+          "quote": "「日本書紀」では、出雲の大己貴(おおなむち)神を説得して、国土を高天原に献上させるのに功があったとされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c08",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia gives his alternate name as Iwainushi and explains that futsu is a mimetic word for cutting through something: he is a sword god who cuts off the violent gods.",
+          "statement_id": "Ensiklopedia Heibonsha mencatat nama lainnya Iwainushi dan menjelaskan bahwa futsu adalah tiruan bunyi memotong sesuatu: ia dewa pedang yang memutus dewa-dewa liar.",
+          "quote": "別名伊波比主（いわいぬし）神。フツは物を断ち切る擬態語で，荒らぶる神々をぷっつり断ち切る刀剣の神。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c09",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Shoki he descended with Takemikazuchi from Takamagahara to Ashihara-no-Nakatsukuni as an envoy and, backed by the power of the sword, successfully pressed Ōnamuchi to cede the land (the kuni-yuzuri myth); he does not appear in the same myth in the Kojiki.",
+          "statement_id": "Menurut Nihon Shoki, bersama Takemikazuchi ia turun dari Takamagahara ke Ashihara-no-Nakatsukuni sebagai utusan dan, dengan kekuatan pedang, memaksa Ōnamuchi menyerahkan negeri (mitos kuni-yuzuri); tokoh ini tidak muncul dalam mitos yang sama di Kojiki.",
+          "quote": "《日本書紀》によると武甕槌（たけみかづち）神とともに高天原（たかまがはら）からの使者として葦原中国（あしはらのなかつくに）に降り，刀剣の威力を背景に大己貴（おおなむち）神に国譲りを迫って成功する（国譲り神話）。《古事記》の同じ神話にはこの神は登場しない。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c10",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "He is the enshrined deity of Katori Shrine in Shimōsa and was later also enshrined at Kasuga Taisha in Nara, becoming the tutelary god of the Fujiwara clan; the sacred sword Futsunomitama that descended into the house of Takakuraji at Kumano during Jinmu's eastern expedition is probably related to this god's name.",
+          "statement_id": "Ia dewa Kuil Katori di Shimōsa, kemudian juga dipuja di Kasuga Taisha di Nara dan menjadi dewa pelindung klan Fujiwara; pedang sakti Futsunomitama yang turun ke rumah Takakuraji di Kumano pada ekspedisi timur Jinmu diduga berkaitan dengan nama dewa ini.",
+          "quote": "下総国香取神宮の祭神であり，後に奈良の春日大社にもまつられ藤原氏の氏神となる。神武東征の際に熊野の高倉下（たかくらじ）の家に降った霊剣フツノミタマも，この神名と関係があろう。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c11",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, he is the deification of the sacred sword Futsunomitama of Isonokami Shrine; the Mononobe clan, keepers of the Isonokami treasures, used the sword to strengthen the emperor's life and joined the pacification of Yamato venerating this god.",
+          "statement_id": "Menurut Nipponica, ia adalah penjelmaan dewa pedang Futsunomitama di Kuil Isonokami; klan Mononobe, pengelola harta Isonokami, memakai pedang itu untuk memperkuat nyawa kaisar dan menyertai perang penaklukan Yamato dengan memuja dewa ini.",
+          "quote": "石上(いそのかみ)神宮（奈良県天理市）の神剣、布都御魂(ふつのみたま)の神格化。石上の神宝を管理した物部(もののべ)氏は、この剣で天皇の生命を増幅するとともに、この神を奉じて大和(やまと)平定の戦いに加わった。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c12",
+          "source_id": "futsunushi-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica notes that the Kojiki excludes this god from the fire-god killing and the kuni-yuzuri envoy passages and interprets this as a revision of the original tradition by the Fujiwara, who made Takemikazuchi their guardian.",
+          "statement_id": "Nipponica mencatat bahwa Kojiki tidak memuat dewa ini dalam bagian pembunuhan dewa api maupun utusan kuni-yuzuri, dan menafsirkannya sebagai revisi tradisi asli akibat campur tangan klan Fujiwara yang memuja Takemikazuchi.",
+          "quote": "なお『古事記』は、火神殺害条におけるこの神の出現、および国譲り使者条そのほかすべてにおいて経津主神を排しており、剣神として建御雷神(たけみかづちのかみ)を重用するが、これはのちに建御雷神を氏の守護神とした藤原氏の関与による原伝承の改訂である。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c13",
+          "source_id": "futsunushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Futsunushi and Takemikazuchi have been reckoned as eminent war gods since antiquity.",
+          "statement_id": "Futsunushi dan Takemikazuchi dianggap dewa perang terkemuka sejak zaman kuno.",
+          "quote": "Both Futsunushi and Takemikazuchi were reckoned as eminent war gods (軍神 ikusagami, gunjin) since antiquity.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c14",
+          "source_id": "futsunushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ryōjin Hishō compiled in 1179 attests that the gods of Katori and Kashima were worshipped as martial deities at the time of its compilation.",
+          "statement_id": "Ryōjin Hishō yang disusun tahun 1179 membuktikan bahwa dewa Katori dan Kashima dipuja sebagai dewa bela diri pada masa penyusunannya.",
+          "quote": "The Ryōjin Hishō compiled in 1179 (the late Heian period) attest to the worship of the gods of Katori and Kashima as martial deities at the time of its compilation:",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c15",
+          "source_id": "futsunushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, the swordsman Chōisai developed his style after being taught secrets of strategy by Futsunushi in a dream.",
+          "statement_id": "Menurut legenda, pendekar Chōisai mengembangkan gaya pedangnya setelah diajari rahasia strategi oleh Futsunushi dalam mimpi.",
+          "quote": "Indeed, Chōisai was reputed in legend to have developed his swordsmanship style after being taught secrets of strategy by Futsunushi in a dream.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c16",
+          "source_id": "futsunushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two legends from Ou District of Izumo Province recorded in the Izumo Fudoki feature Futsunushi; in one he stitched up a rip in his sturdy shield of heaven, so the place was named Tatenuhi, meaning \"shield fastening\".",
+          "statement_id": "Dua legenda dari Distrik Ou di Izumo dalam Izumo Fudoki memuat Futsunushi; di salah satunya ia menjahit sobekan pada perisai surgawinya yang kokoh sehingga tempat itu dinamai Tatenuhi, \"pengikat perisai\".",
+          "quote": "Two legends from Ou District (意宇郡) of Izumo Province (modern Yasugi, Shimane Prefecture) recorded in the Izumo Fudoki feature Futsunushi. ... At this place Futsunushi stitched up a rip in his sturdy shield of heaven. Thus it was named Tatenuhi, meaning \"shield fastening.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "futsunushi-c17",
+          "source_id": "futsunushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shintōshū, a collection of medieval legends, identifies the Katori deity as a manifestation of the eleven-faced form of the bodhisattva Kannon.",
+          "statement_id": "Shintōshū, kumpulan legenda abad pertengahan, mengidentifikasi dewa Katori sebagai perwujudan Kannon berwajah sebelas.",
+          "quote": "A collection of medieval legends, the Shintōshū, identifies the Katori deity as a manifestation of the eleven-faced form of the bodhisattva Avalokiteśvara (Kannon).",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "16ccdb160de04070888e0d6cb1d01e4c2e0e1e6dcaa4a39af057b71c390dc297"
+      "images": []
     },
     {
       "slug": "hauras",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "35e3cebd340e01a2d760310995614a072bd0568917fdcf887149107c16de6281",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: sacred-texts.com (tidak bisa dibuka (timeout))."
         }
       ],
       "claims": [
@@ -5915,21 +6438,19 @@
           "statement_id": "Hauras adalah roh keenam puluh empat yang terdaftar di Goetia.",
           "quote": "(64.) HAURES, or HAURAS, or HAVRES, or FLAUROS.--The Sixty-fourth Spirit is Haures, or Hauras, or Havres, or Flauros.",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "hauras-c02",
           "source_id": "hauras-s1",
           "host": "sacred-texts.com",
-          "statement": "It first appears as a leopard and later takes a human shape.",
-          "statement_id": "Ini pertama kali muncul sebagai macan tutul dan kemudian mengambil bentuk manusia.",
+          "statement": "The Goetia text says he puts on human shape with eyes flaming and fiery.",
+          "statement_id": "Teks Goetia menyebut ia mengambil wujud manusia dengan mata menyala dan berapi.",
           "quote": "he putteth on Human Shape with Eyes Flaming and Fiery",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "hauras-c03",
@@ -5939,9 +6460,8 @@
           "statement_id": "Teks tersebut mengklaim bahwa dia menjawab pertanyaan tentang masa lalu, sekarang, dan masa depan.",
           "quote": "He giveth True Answers of all things, Present, Past, and to Come.",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
         },
         {
           "id": "hauras-c04",
@@ -5951,35 +6471,63 @@
           "statement_id": "Teks yang sama memberinya tiga puluh enam legiun.",
           "quote": "He governeth 36 Legions of Spirits",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250926134757id_/https://www.sacred-texts.com/grim/lks/lks05.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "hauras-c05",
+          "source_id": "hauras-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "In this manuscript transcription the 64th spirit is named Flauros, a great duke who appears at first like a mighty, strong leopard and afterwards, at the exorcist's command, takes the shape of a man with fiery eyes and a terrible countenance.",
+          "statement_id": "Dalam transkripsi manuskrip ini, roh ke-64 bernama Flauros: seorang adipati agung yang mula-mula tampil seperti macan tutul besar yang kuat, lalu atas perintah eksorsis berwujud manusia bermata berapi dengan wajah menakutkan.",
+          "quote": "The 64th spirit is named Flauros ... he is a great duke, and appeareth at first like a mighty Terrable and strong Leopard but afterwards at ye command of ye Exorcist he putteth on ye shape of a man wth fiery Eyes and a Terrable Countenance",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hauras-c06",
+          "source_id": "hauras-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "He gives true answers about all things past, present and to come, but unless he is commanded into a Triangle he will lie in all those things and deceive or beguile the exorcist in other things or business.",
+          "statement_id": "Ia memberi jawaban benar tentang segala hal masa lalu, kini, dan akan datang, tetapi kecuali diperintah masuk ke dalam Segitiga, ia akan berbohong dan menipu eksorsis.",
+          "quote": "he giveth True answares of all Things past present & to come, but unless he be commanded into a Triangle, he will Lye in all those things and deceive or beguile ye Exorcist in other Things or Buisness",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hauras-c07",
+          "source_id": "hauras-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "He will gladly talk of divinity, of the creation of the world, and of the fall of himself and all other spirits.",
+          "statement_id": "Ia senang berbicara tentang ketuhanan, penciptaan dunia, serta kejatuhan dirinya dan semua roh lain.",
+          "quote": "he will gladly talke of divinity, and of ye Creation of ye world, and of his and all other spirits fall",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hauras-c08",
+          "source_id": "hauras-s2",
+          "host": "www.esotericarchives.com",
+          "statement": "If the exorcist requests it, he destroys and burns the exorcist's enemies, and will not suffer him to be tempted by any spirit or otherwise.",
+          "statement_id": "Atas permintaan eksorsis, ia menghancurkan dan membakar musuh-musuhnya, dan tidak membiarkan eksorsis digoda oleh roh mana pun atau cara lain.",
+          "quote": "he destroyeth and burneth those That are ye Exorcist ... enimies if he Requesteth it, and will not suffer him to be Tempted by any spirit or otherwise",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0d2c60f1048741cbe7f3db73531903ae29ef76e6c2c16e27f675de2f9378aee7"
+      "images": []
     },
     {
       "slug": "kijo",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "9a47231ced060c048ff82cf8281c5b986ebf62fd6cb844f31c95e42c843e41e7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (kijo-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kijo-c01",
@@ -5995,8 +6543,8 @@
           "id": "kijo-c02",
           "source_id": "kijo-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some tales explain the transformation through resentment or wrongdoing.",
-          "statement_id": "Beberapa kisah mengaitkan perubahannya dengan karma dan dendam.",
+          "statement": "Kijo are normally considered women who turned into oni through karma and resentment; the younger ones are called kijo, while those that look like old ladies are called onibaba.",
+          "statement_id": "Kijo umumnya dianggap perempuan yang berubah menjadi oni karena karma dan dendam; yang lebih muda disebut kijo, sedangkan yang berpenampilan nenek-nenek disebut onibaba.",
           "quote": "They are normally considered to be women who have turned into oni as a result of karma and resentment, with the younger ones being called \"kijo\" while the ones that look like old ladies are called onibaba (鬼婆, \"demon hag\").",
           "context": "traditional-belief",
           "status": "exact"
@@ -6020,27 +6568,121 @@
           "quote": "The onibaba of Adachigahara (Kurozuka) had \"baba\" in her name, but she is also considered a kijo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kijo-c05",
+          "source_id": "kijo-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, kijo (鬼女) means (1) an oni in the form of a woman and (2) a woman whose heart is as cruel as an oni.",
+          "statement_id": "Menurut Digital Daijisen, kijo (鬼女) berarti (1) oni berwujud perempuan, dan (2) perempuan yang hatinya sekejam oni.",
+          "quote": "き‐じょ〔‐ヂヨ〕【鬼女】 １ 女の姿をしている鬼。 ２ 心が鬼のようにむごい女。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c06",
+          "source_id": "kijo-s2",
+          "host": "kotobank.jp",
+          "statement": "The Nihon Kokugo Daijiten defines kijo as an oni in the form of a woman and cites the Noh play Yamanba (c. 1430): \"Yamanba is a kijo who lives in the mountains.\"",
+          "statement_id": "Kamus Nihon Kokugo Daijiten menjelaskan kijo sebagai oni berwujud perempuan dan mengutip lakon Noh Yamanba (sekitar 1430): \"Yamanba adalah kijo yang tinggal di gunung.\"",
+          "quote": "① 女の姿をした鬼。 [初出の実例]「山姥とは山に住む鬼女(キジョ)とこそ」(出典：謡曲・山姥（1430頃）)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c07",
+          "source_id": "kijo-s2",
+          "host": "kotobank.jp",
+          "statement": "The older Heibonsha encyclopedia names growing too old as another trigger and says an old woman is said to become a kijo, citing the Konjaku Monogatari-shū.",
+          "statement_id": "Ensiklopedia lama Heibonsha menyebut satu pemicu lain adalah usia yang terlalu tua, dan perempuan tua dikatakan menjadi kijo, merujuk Konjaku Monogatari-shū.",
+          "quote": "いま一つの契機は年を取り過ぎることである。年老いた女は鬼女になるといい(《今昔物語集》)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c08",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "Kijo are female demons that resemble human women but are hideously ugly; some have red or yellow eyes, blue skin, sharp horns, or long claws.",
+          "statement_id": "Kijo adalah iblis perempuan yang mirip perempuan manusia tetapi sangat buruk rupa; sebagian bermata merah atau kuning, berkulit biru, bertanduk tajam, atau berkuku panjang.",
+          "quote": "Kijo are female demons. They resemble human women in most ways, although they are hideously ugly to behold. Some have red or yellow eyes, blue skin, sharp horns, long claws, or other supernatural features.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c09",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "Kijo refers chiefly to women transformed into monsters out of intense jealousy, wicked crimes, or a terrible grudge; they retreat from society to secluded places where they continue their wicked deeds.",
+          "statement_id": "Kijo terutama adalah perempuan yang berubah menjadi monster akibat cemburu hebat, kejahatan, atau dendam; mereka menyingkir dari masyarakat ke tempat terpencil dan terus melakukan perbuatan jahat.",
+          "quote": "Kijo refers chiefly to women who have been transformed from humans into horrible monsters—either out of intense jealousy, wicked crimes, or a terrible grudge that twists the soul into pure hatred. ... These transformed women retreat from common society into more secluded places where they continue to perpetrate their wicked deeds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c10",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "Kijo are stronger than most humans (though weaker than oni), excel in magic, and can bestow hexes and curses, brew poisons and potions, and weave complex illusions.",
+          "statement_id": "Kijo lebih kuat daripada kebanyakan manusia (tetapi kalah dari oni), ahli sihir, dan mampu mengutuk, meracik racun dan ramuan, serta merajut ilusi rumit.",
+          "quote": "Kijo are stronger than most humans, though their strength pales in comparison to oni. These demonesses excel in magic; they accumulate powerful spells over their long lives. Kijo are capable of bestowing hexes and curses, brewing poisons and potions, and weaving complex illusions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c11",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "Kijo can be found living in remote mountain caves, abandoned houses, or along mountain roads where they receive a steady supply of victims.",
+          "statement_id": "Kijo dapat ditemui tinggal di gua gunung terpencil, rumah terbengkalai, atau di jalan pegunungan tempat mereka mendapat korban.",
+          "quote": "They can be found living in remote mountain caves, abandoned houses, or along mountain roads where they receive a steady supply of victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c12",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "Yokai.com states nothing supports kijo being the female counterparts of oni; they are likely entirely separate creatures, apart from both being born from corrupted human souls.",
+          "statement_id": "Yokai.com menyatakan tidak ada dukungan bahwa kijo adalah padanan perempuan oni; kemungkinan keduanya makhluk terpisah, selain keduanya lahir dari jiwa manusia yang rusak.",
+          "quote": "Though their name might suggest that kijo are the female counterparts to the male oni, there is nothing to support this. ... It is likely that kijo are entirely separate creatures from oni, other than the fact that both are born from corrupted human souls.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c13",
+          "source_id": "kijo-s3",
+          "host": "yokai.com",
+          "statement": "The name kijo is formed simply by combining the two kanji for oni and woman.",
+          "statement_id": "Nama kijo terbentuk hanya dengan menggabungkan dua kanji untuk oni dan perempuan.",
+          "quote": "Indeed, the name kijo is formed simply by combining the two kanji for oni and woman.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kijo-c14",
+          "source_id": "kijo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Tosa Obake Zōshi (author unknown) states, under the title \"Kijo,\" that an oni woman with hair about 150 centimeters long ate a fetus from a pregnant woman.",
+          "statement_id": "Tosa Obake Zōshi (pengarang tidak diketahui) mencatat di bawah judul \"Kijo\" bahwa seorang perempuan oni berambut sekitar 150 sentimeter memakan janin dari seorang perempuan hamil.",
+          "quote": "Also, the Tosa Obake Zōshi (author unknown) that spelled out tales of yōkai in Tosa Province (now Kōchi Prefecture) had, under the title of \"Kijo,\" stated that an oni woman (kijo) with hair of a length 4 shaku and 8 sun (about 150 centimeters) ate a fetus from a pregnant woman",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "722be3a6d190f2d74860a4558c2b0e13ef07d9ae5855e0975adf8fe290d3bfe5"
+      "images": []
     },
     {
       "slug": "kotoshironushi",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-5.md",
+      "entry_sha256": "2e13cb0ff1433fd3f79fb0e5f4e79ac757ab29a8eda8bfa7b3d94360061bf99e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kotoshironushi-c01",
@@ -6081,10 +6723,119 @@
           "quote": "Kotoshironushi, who had been fishing at the time of Takemikazuchi's arrival, agreed to accept the rule of the heavenly gods, surrendered his spear and left Izumo.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c05",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, he is a god of Izumo myth, a son of Ōkuninushi, who advised his father to offer the land at the time of its transfer; the Nihon Shoki records that during the Jinshin War he possessed Takechi-no-agatanushi Kome and delivered an oracle.",
+          "statement_id": "Menurut Digital Daijisen, ia dewa mitos Izumo, putra Ōkuninushi, yang saat penyerahan negeri menyarankan ayahnya menyerahkan negeri; Nihon Shoki mencatat bahwa pada Perang Jinshin ia merasuki Takechi-no-agatanushi Kome dan menyampaikan wahyu.",
+          "quote": "出雲神話の神。大国主命の子。国譲りに際して父に国土の献上を勧めた。 壬申 じんしん の乱のとき、 高市県主許梅 たけちのあがたぬしこめ に神懸かりして託宣した話が、日本書紀にみえる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c06",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "He is an oracle deity in the Kiki, and the name is presumed to have originally been a common noun. According to the Kojiki he met the envoy of Takemikazuchi at Mihonosaki and advised Ōkuninushi to offer the land; he is also called Yae-Kotoshironushi.",
+          "statement_id": "Ia dewa pemberi wahyu (takusen) dalam Kiki; nama ini diduga semula kata benda umum. Menurut Kojiki, ia bertemu utusan Takemikazuchi di Mihonosaki dan menyarankan Ōkuninushi menyerahkan negeri; ia juga bernama Yae-Kotoshironushi.",
+          "quote": "記紀などに見える託宣神。元来は普通名詞と推定される。「古事記」によれば、大国主神の子。国譲りの際に、天照大神の命を受けて天降った建御雷神(たけみかずちのかみ)の使者と美保埼(みほのさき)で会い、国土の献上を大国主命に進言した。八重言代主神(やえことしろぬしのかみ)。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c07",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia explains that koto means \"word\" and shiro means \"to know\"; he is an oracle deity who protects the emperor, also called Yae-Kotoshironushi.",
+          "statement_id": "Ensiklopedia Heibonsha menjelaskan bahwa koto berarti \"kata\" dan shiro berarti \"mengetahui\"; ia dewa wahyu pelindung kaisar, juga disebut Yae-Kotoshironushi.",
+          "quote": "コトは〈言〉，シロは〈知る〉意で，天皇を守護する託宣の神。八重（やえ）事代主神とも呼ばれる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c08",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Kiki myths, as a son of Ōkuninushi he makes the pledge of the transfer of the land, and was afterwards enshrined at Unade in Yamato as the \"near guardian of the imperial grandchild\" according to the Izumo-no-kuni-no-miyatsuko-no-kamuyogoto.",
+          "statement_id": "Dalam mitos Kiki, sebagai putra Ōkuninushi ia mengucapkan sumpah penyerahan negeri, dan kemudian dipuja di Unade, Yamato, sebagai \"pelindung dekat cucu kaisar\" menurut Izumo-no-kuni-no-miyatsuko-no-kamuyogoto.",
+          "quote": "記紀神話においては大国主（おおくにぬし）神の子として国譲りの誓約を行い，その後は大和の宇奈提（うなで）に〈皇孫命（すめみまのみこと）の近き守り神〉として祭られた（《出雲国造神賀詞（いずものくにのみやつこのかむよごと）》）。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c09",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Shoki, this god became an eight-fathom wani and married Mizokui-hime of Mishima, fathering the princess who became Emperor Jinmu's empress (a Mount Miwa-type legend).",
+          "statement_id": "Menurut Nihon Shoki, dewa ini menjelma wani sepanjang delapan hiro, menikahi Mizokui-hime dari Mishima dan melahirkan putri yang menjadi permaisuri Kaisar Jinmu (legenda tipe Gunung Miwa).",
+          "quote": "また，この神が八尋（やひろ）ワニとなって三嶋溝樴（みぞくい）姫と結婚し神武天皇の后となる姫を生んだという三輪山（みわやま）型説話（三輪山伝説）も伝えられている（《日本書紀》）。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c10",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Heibonsha, he was originally a native earthly deity (kunitsukami) of the Asuka region, worshipped in Takechi district, one of the six districts of Yamato named in the Toshigoi ritual prayer.",
+          "statement_id": "Menurut Heibonsha, ia semula adalah dewa bumi (kunitsukami) asli wilayah Asuka yang dipuja di distrik Takechi, salah satu dari enam distrik Yamato dalam doa upacara Toshigoi.",
+          "quote": "コトシロヌシは本来は祈年祭の祝詞にいう大和六県の一つ，高市県（たけちのあがた）で祭られていた飛鳥地方の土着の国津神（くにつかみ）であった。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c11",
+          "source_id": "kotoshironushi-s2",
+          "host": "kotobank.jp",
+          "statement": "This native Asuka earthly deity played an important role in the myth of the transfer of the land; later, in the Jinshin War, he gave an oracle protecting Emperor Tenmu and was enshrined as the emperor's guardian deity at the Saiin of the Jingikan within the palace (per the Engishiki).",
+          "statement_id": "Dewa bumi asli Asuka ini berperan penting dalam mitos penyerahan negeri; kemudian, pada Perang Jinshin, ia menyampaikan wahyu yang melindungi Kaisar Tenmu dan dipuja sebagai dewa pelindung kaisar di Saiin Jingikan dalam istana (menurut Engishiki).",
+          "quote": "飛鳥土着の国津神が国譲り神話で重要な役割を果たしたのはこのためであり，後に壬申の乱に際して天武天皇を守護する託宣を行い，天皇の守護神として宮中の神祇官西院に祭られることになる（《延喜式》神名帳）",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c12",
+          "source_id": "kotoshironushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kotoshironushi is the principal deity of the Asuka shrine and is associated with the god Ebisu.",
+          "statement_id": "Kotoshironushi adalah dewa utama kuil Asuka dan dikaitkan dengan dewa Ebisu.",
+          "quote": "Kotoshironushi is the principal deity of the Asuka shrine, and is associated with the god Ebisu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c13",
+          "source_id": "kotoshironushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In mythology, Kotoshironushi was an adviser to Empress Jingū during her invasion of Korea and one of the eight deities charged with protecting the Imperial Court.",
+          "statement_id": "Dalam mitologi, Kotoshironushi menjadi penasihat Permaisuri Jingū pada invasinya ke Korea dan salah satu dari delapan dewa penjaga istana kekaisaran.",
+          "quote": "In mythology, he was an adviser to Empress Jingū during her invasion of Korea. He was also one of the eight deities charged with protecting the Imperial Court.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c14",
+          "source_id": "kotoshironushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His brother Takeminakata fought with Takemikazuchi and was defeated.",
+          "statement_id": "Saudaranya, Takeminakata, melawan Takemikazuchi dan dikalahkan.",
+          "quote": "His brother Takeminakata fought with Takemikazuchi and was defeated.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kotoshironushi-c15",
+          "source_id": "kotoshironushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His daughter Himetataraisuzu-hime became the consort of Emperor Jimmu.",
+          "statement_id": "Putrinya, Himetataraisuzu-hime, menjadi permaisuri Kaisar Jinmu.",
+          "quote": "His daughter Himetataraisuzu-hime became the consort of Emperor Jimmu.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "788881edfc59801f8e6d06894bfaa42f9b60dc1dd47d9412ef7c6d8a5e32f4e6"
+      "images": []
     }
   ]
 }
