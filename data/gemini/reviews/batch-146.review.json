@@ -1,8 +1,10 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-09-30T09:11:48.407Z",
+  "checked_at": "2026-10-06T05:54:51.927Z",
   "files": [
-    "batch-146.md"
+    "batch-146.md",
+    "batch-146-fix-1.md",
+    "batch-146-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -65,7 +67,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "29ec45ec0b3fd0009ced1f7463c57ae3942b0388aca7f678834a63ee22e1867f"
     },
     {
       "slug": "xicalancatl",
@@ -115,24 +118,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee796ec26b56d1d612c1c2be06b417e01d1566641225d322d58d6189668548f8"
     },
     {
       "slug": "adjassou-linguetor",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "fb88a273a5d9af1692f53f492996515b4010d328e25e84f80ac4376fb5e000b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "adjassou-linguetor-c01",
@@ -153,26 +152,61 @@
           "quote": "in Haitian Vodou. She governs spring water.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "adjassou-linguetor-c03",
+          "source_id": "adjassou-linguetor-s2",
+          "host": "archive.org",
+          "statement": "In the table of Plaisance Vodun deities, Adjassou-Linguetor is listed with names given as equivalents: Adja or Adja Bosu (Courlander), Agasu (Herskovits), or Aguasu (Dorsainvil).",
+          "statement_id": "Dalam daftar dewa Vodun di Plaisance, Adjassou-Linguetor dicatat bersama nama-nama yang disamakan dengannya: Adja atau Adja Bosu (Courlander), Agasu (Herskovits), atau Aguasu (Dorsainvil).",
+          "quote": "PLAISANCE VopuN Detties* Loa Informants Adjassou-Linguetor A.G. Ar. Adja or Adja Bosu, Courlander, op. cit., 30; or Agasu, Herskovits (1), 267; or Aguasu, Dor- sainvil, op. cit., 174",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "adjassou-linguetor-c04",
+          "source_id": "adjassou-linguetor-s2",
+          "host": "archive.org",
+          "statement": "In the same article's table, the row for Adjasou records protruding eyes, no special robe, always in a bad humor, and an abode under the mombin tree near a spring.",
+          "statement_id": "Dalam tabel yang sama, baris Adjasou mencatat mata menonjol, tanpa jubah khusus, selalu bersuasana hati buruk, dan berdiam di bawah pohon mombin dekat mata air.",
+          "quote": "Adjasou Protruding eyes. No special robe. Under the mom- ... Always in a bad bin tree near a ... humor. spring.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "adjassou-linguetor-c05",
+          "source_id": "adjassou-linguetor-s2",
+          "host": "archive.org",
+          "statement": "The table's footnote says it is a combined list of Joas (loas) given by nine non-literate informants.",
+          "statement_id": "Catatan tabel itu menyebut daftar dewa tersebut merupakan gabungan nama Joa (loa) yang diberikan sembilan informan yang tidak melek huruf.",
+          "quote": "This is a combined list of Joas given by nine non-literate informants",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "adjassou-linguetor-c06",
+          "source_id": "adjassou-linguetor-s2",
+          "host": "archive.org",
+          "statement": "According to one view near Plaisance, the Saints and the Joas (loas) are intermediaries between God, creator of man and master of the universe, and man.",
+          "statement_id": "Menurut salah satu pandangan di sekitar Plaisance, para Santo dan Joa (loa) adalah perantara antara Tuhan, pencipta manusia dan penguasa semesta, dan manusia.",
+          "quote": "The Saints and the Joas are intermediaries between God, the creator of man and the master of the Universe, and man.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "caballo-marino-chilote",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "a47fe49f76b66dcffb01ca497192ac8988c72733a8a5a26e2f7124535125a491",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 18,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "caballo-marino-chilote-c01",
@@ -223,31 +257,151 @@
           "quote": "The Brujo Chilote (a type of sorcerer or warlock) would use a \"Caballo marino chilote\" as transportation to get to the Caleuche ghost ship.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c06",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Quintana, the rules of witchcraft require the brujos to join the Caleuche's crew only by arriving on the back of the Caballo Marino.",
+          "statement_id": "Menurut Quintana, aturan ilmu sihir mengharuskan para brujo hanya bergabung sebagai awak Caleuche dengan datang di punggung Caballo Marino.",
+          "quote": "la reglamentación de la brujería, por razones de ignoro, les ordena que sólo puedan integrarse como tripulantes del Caleuche, llegando sobre el lomo del Caballo Marino.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c07",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "When the brujo needs this mount he goes to the sea shore a few minutes before midnight and whistles four special whistles; at the last whistle the Caballo Marino appears panting.",
+          "statement_id": "Ketika membutuhkan tunggangan itu, sang brujo mendekati tepi laut beberapa menit sebelum tengah malam dan bersiul empat kali; begitu siulan terakhir terdengar, Caballo Marino muncul terengah-engah.",
+          "quote": "se acerca a las orillas del mar, pocos minutos antes de la medianoche y desde ese lugar, lanza cuatro silbidos especiales. Apenas escuchando el último silbido, aparece jadeante el Caballo Marino",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c08",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Sea horses, visible only to members of the witchcraft society, live in large numbers in the sea and are born in the domains of the Millalobo, in the Pacific Ocean off the western coast of the Island of Chiloé.",
+          "statement_id": "Caballo marino hanya terlihat oleh anggota perkumpulan sihir, hidup dalam jumlah besar di laut, dan lahir di wilayah kekuasaan Millalobo di Samudra Pasifik, di depan pesisir barat Pulau Chiloé.",
+          "quote": "Los caballos marinos, sólo visibles por los miembros de la brujería, habitan en gran cantidad en el mar, nacen en los dominios del Millalobo, en el océano pacífico, frente a la costa occidental de la Isla de Chiloé.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c09",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Quintana, it feeds on seaweed, especially luche and cochayuyo, which give it a dark yellowish-green colour.",
+          "statement_id": "Menurut Quintana, caballo marino makan rumput laut, terutama luche dan cochayuyo, yang memberinya warna hijau kekuningan gelap.",
+          "quote": "Se alimenta de algas marinas, especialmente de luche y cochayuyo que les transmiten su color verdoso amarillento obscuro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c10",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Each brujo has one or more; there are small ones for individual service and larger ones for collective use, and the largest can carry a full board of thirteen brujos.",
+          "statement_id": "Setiap brujo memiliki satu kuda laut atau lebih; ada yang kecil untuk satu penunggang dan yang lebih besar untuk dipakai bersama, dan yang terbesar dapat mengangkut satu pengurus lengkap beranggotakan tiga belas brujo.",
+          "quote": "Cada brujo dispone de uno o más caballos. Los hay pequeños, para servicio individual y de mayor tamaño, para uso colectivo; los más grandes pueden transportar una directiva completa de brujos, integrada por trece miembros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c11",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The brujos choose the sea horses they like and place their mark on them, after which the animal remains permanently at their service.",
+          "statement_id": "Para brujo memilih kuda laut yang mereka sukai dan menandainya; sejak itu hewan itu tetap melayani mereka.",
+          "quote": "los brujos elijen los caballos de su agrado y les colocan su marca, acto en el cual, al animal queda permanentemente a su servicio.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c12",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Quintana, sea horses live only four years and, once dead, their bodies turn into a kind of gelatin that quickly dissolves in the brackish sea water.",
+          "statement_id": "Menurut Quintana, caballo marino hanya hidup empat tahun, dan begitu mati tubuhnya berubah menjadi semacam gelatin yang cepat larut dalam air laut.",
+          "quote": "Los caballos marinos viven sólo cautro años y tan pronto mueren, sus cuerpos se transforman en una especie de gelatina, que rápidamente se disuelve en las aguas salobres del mar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c13",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana considers the origin of the myth hard to determine and suggests it may be a mistranslation of the myth's name into Spanish, so that it would not correspond exactly to the horse brought by the Spaniards (which did not exist in Chiloé) but to another kind of mount.",
+          "statement_id": "Quintana menilai asal-usul mitos ini sulit ditentukan dan menduga mungkin terjadi salah terjemah nama mitos ke bahasa Spanyol, sehingga ia tidak persis berarti kuda yang dibawa orang Spanyol (yang tidak ada di Chiloé), melainkan jenis tunggangan lain.",
+          "quote": "Los orígenes de este mito, son difíciles de determinar, podría tratarse de una mala traducción del nombre del mito al castellano y por lo tanto, no correspondería exactamente al caballo traído por los españoles y que no existía en Chiloé, sino a otro tipo de cabalgadura.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c14",
+          "source_id": "caballo-marino-chilote-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana also suggests the idea may have arisen from watching the fin of a marine animal, which from a distance and with a little imagination looks as if it carries a rider on its back.",
+          "statement_id": "Quintana juga mengemukakan bahwa gagasan ini mungkin lahir dari pemandangan sirip hewan laut yang dari kejauhan, dengan sedikit imajinasi, tampak membawa penunggang di punggungnya.",
+          "quote": "O la idea pudo haber nacido, al contemplar la aleta de un animal marino, que a la distancia y con un poco de imaginación, simula llevar a un jinete en el lomo",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c15",
+          "source_id": "caballo-marino-chilote-s3",
+          "host": "www.museodeancud.gob.cl",
+          "statement": "The Museo de Ancud's collection note describes the Caballo Marino as a horse that lives in the sea and belongs to the brujos, gigantic and of horrendous appearance, which more than thirteen people can ride.",
+          "statement_id": "Dalam keterangan koleksi Museo de Ancud, Caballo Marino digambarkan sebagai kuda yang hidup di laut dan milik para brujo, raksasa dan berpenampilan mengerikan, dengan lebih dari tiga belas orang dapat menungganginya.",
+          "quote": "Caballo que vive en el mar y pertenece a los brujos. Es gigantesco y de apariencia horrenda. En él pueden montar más de trece personas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c16",
+          "source_id": "caballo-marino-chilote-s3",
+          "host": "www.museodeancud.gob.cl",
+          "statement": "The Museo de Ancud quotes Oreste Plath, who calls the Caballo Marino the personification of the sea waves, always appearing with foam from its mouth and governable only with reins of sargassum.",
+          "statement_id": "Museo de Ancud mengutip Oreste Plath yang menyebut Caballo Marino sebagai personifikasi ombak laut yang selalu muncul menyemburkan buih dari mulutnya, dan hanya dapat dikendalikan dengan tali kekang dari sargazo.",
+          "quote": "El Caballo Marino es la personificación de las olas del mar, y siempre aparece arrojando espuma por la boca. No se le puede gobernar sino con riendas de sargazo",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c17",
+          "source_id": "caballo-marino-chilote-s3",
+          "host": "www.museodeancud.gob.cl",
+          "statement": "The Museo de Ancud records figures of mythological beings made of plant fibre in 1977 by craftspeople of Isla Llingua (commune of Quinchao); the figures include the Caballo Marino.",
+          "statement_id": "Museo de Ancud mencatat figur makhluk mitologi dari serat tumbuhan yang dibuat pada 1977 oleh para perajin Isla Llingua (komune Quinchao), dan figur-figur itu mencakup Caballo Marino.",
+          "quote": "Figuras de seres mitológicos confeccionadas con fibra vegetal, elaboradas en 1977 por artesanas y artesanos de Isla Llingua (comuna de Quinchao).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "caballo-marino-chilote-c18",
+          "source_id": "caballo-marino-chilote-s3",
+          "host": "www.museodeancud.gob.cl",
+          "statement": "The museum collection lists a Caballo Marino figure in plant fibre, 22 x 30 cm, by Deifilia Mansilla Miranda, in the Cestería de Chiloé collection.",
+          "statement_id": "Koleksi museum mencantumkan sebuah figur Caballo Marino dari serat tumbuhan berukuran 22 x 30 cm karya Deifilia Mansilla Miranda, dalam koleksi Cestería de Chiloé.",
+          "quote": "Deifilia Mansilla Miranda. Caballo Marino. Fibra vegetal. 22 x 30 cm. Cestería de Chiloé. En exhibición. Nº inventario 1094.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "caboclo-de-agua",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "94f5066cf73b7fb66761ae4162d10845a767cc2aa805819b1f158ce19a5a5098",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (caboclo-de-agua-c06)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "caboclo-de-agua-c01",
@@ -303,8 +457,8 @@
           "id": "caboclo-de-agua-c06",
           "source_id": "caboclo-de-agua-s1",
           "host": "es.wikipedia.org",
-          "statement": "It often chases boats to capsize them.",
-          "statement_id": "Ia sering mengejar perahu untuk membalikkannya.",
+          "statement": "It often chases boats (embarcaciones) to make them capsize (volcar).",
+          "statement_id": "Ia sering mengejar perahu (embarcaciones) untuk membuatnya terbalik (volcar).",
           "quote": "A menudo persigue a las embarcaciones para hacerlas volcar.",
           "context": "traditional-belief",
           "status": "exact"
@@ -328,25 +482,91 @@
           "quote": "También pintan una estrella en el fondo de la barca pues se cree que espanta a los seres sobrenaturales.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c09",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the Caboclo-d'Água is a fantastic creature that lives in the São Francisco River and holds dominion over the waters and the fish.",
+          "statement_id": "Menurut Cascudo, Caboclo-d'Água adalah makhluk fantastis yang hidup di Sungai São Francisco dan berkuasa atas air serta ikan.",
+          "quote": "Criatura fantástica que vive no rio São Francisco, tendo o do- mínio sobre as águas e os peixes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c10",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, it favours its friends and compadres but fiercely pursues the fishermen and riverbank dwellers it dislikes, among other things by overturning canoes.",
+          "statement_id": "Menurut Cascudo, ia berpihak pada para sahabat dan kompadrenya, tetapi memburu dengan ganas para nelayan dan penghuni tepi sungai yang tidak disukainya, antara lain dengan membalikkan kano.",
+          "quote": "compadres do caboclo-d'água, e persegue ferozmente aos pescadores e barranqueiros, com que antipatiza, virando canoas,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c11",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "Cascudo records other names of the Caboclo-d'água: Bicho-d'água, Rolão, Romão and Romãozinho.",
+          "statement_id": "Cascudo mencatat nama lain Caboclo-d'água: Bicho-d'água, Rolão, Romão, dan Romãozinho.",
+          "quote": "O Caboclo-d'água também é chamado Bicho-d'água, Rolão, Romão (ver Romãozinho), Romãozinho,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c12",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "In a passage quoted by Cascudo, its body is monstrous, with the proportions of an enormous giant.",
+          "statement_id": "Dalam kutipan yang dimuat Cascudo, tubuhnya mengerikan dengan proporsi raksasa yang luar biasa.",
+          "quote": "Seu corpo é monstruoso, com as proporções de um gigante descomu- nal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c13",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "In a passage quoted by Cascudo, the type reported by the most testimonies is short, thick, muscular, copper-coloured, quick in movement and always ill-tempered.",
+          "statement_id": "Dalam kutipan yang dimuat Cascudo, tipe yang paling banyak dilaporkan adalah pendek, tebal, berotot, berwarna tembaga, gesit, dan selalu pemarah.",
+          "quote": "O tipo do caboclo- -d'água que recolhe maior número de depoimentos é o seguinte: baixo, gros- so, musculoso, cor de cobre, rápido nos movimentos e sempre enfezado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c14",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, through a convergence with the myth of the Curupira-Caapora, the boatmen of the São Francisco offer tobacco to the Caboclo-d'água.",
+          "statement_id": "Menurut Cascudo, karena pertemuan dengan mitos Curupira-Caapora, para pengayuh perahu di São Francisco mempersembahkan tembakau kepada Caboclo-d'água.",
+          "quote": "Por uma convergência do mito do Curupira-Caapora, os barqueiros do São Francisco oferecem fumo ao cabo- clo-d'água.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caboclo-de-agua-c15",
+          "source_id": "caboclo-de-agua-s2",
+          "host": "archive.org",
+          "statement": "In a passage quoted by Cascudo, a traveller going far alone and facing fearsome crossings sticks his knife in the bottom of the canoe, and the monster, guessing this, does not attack the passer-by at all.",
+          "statement_id": "Dalam kutipan yang dimuat Cascudo, orang yang bepergian jauh sendirian dan harus menempuh penyeberangan menakutkan menancapkan pisaunya di dasar kano, dan monster itu, yang menduganya, sama sekali tidak menyerang.",
+          "quote": "quem via- ja para longe, sozinho, e tem de arros- tar temerosas travessias, finca sua faca no fundo da canoa, e o monstro, que isto adivinha, de forma alguma acomete o transeunte",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "camahueto",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "fb11b3ab5941f8b614d2c68f912bdd46e9c7fe9257e1f13f20d9a3d5616de474",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "warn",
           "where": "claims (camahueto-c01)",
@@ -414,26 +634,111 @@
           "quote": "the only way to rid yourself of a Camahueto is to call for the aid of a machi, or witch, who can lead the animal back to sea using a lasso made of kelp.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "camahueto-c07",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Chiloé Mitológico, the Camahueto looks like a green calf with a single small horn on its forehead, like its Greek counterpart the Unicorn.",
+          "statement_id": "Menurut Chiloé Mitológico, Camahueto berwujud anak sapi berwarna hijau dengan satu tanduk kecil di dahi, mirip unicorn Yunani.",
+          "quote": "tiene el aspecto de un ternero, de color verde, con un solo cuerno pequeño en la frente; a semejanza de su congénere griego el Unicornio.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c08",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The Camahueto is born from the depths of the earth, on top of a hill near the sea.",
+          "statement_id": "Camahueto lahir dari kedalaman bumi, di puncak sebuah bukit dekat laut.",
+          "quote": "Nace desde las profundidades de la tierra, en lo alto de un cerro vecino al mar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c09",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "As soon as a machi sees the Camahueto, he skilfully catches it with a lasso made of \"boqui\", tears off its horn (\"cacho\") and lets it go on its way to the sea.",
+          "statement_id": "Begitu melihat Camahueto, seorang machi menangkapnya dengan laso dari \"boqui\", mencabut tanduknya (\"cacho\"), lalu melepasnya agar melanjutkan perjalanan ke laut.",
+          "quote": "En cuanto divisa al Camahueto, lo coge hábilmente, con un lazo hecho de «boqui», y después de arrancarle su «cacho», lo suelta para que siga su camino hacia el mar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c10",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The machis plant small pieces of the horn on other hills, and after twenty-five years other camahuetos are born.",
+          "statement_id": "Para machi menanam potongan kecil tanduk itu di bukit lain, dan setelah dua puluh lima tahun lahirlah camahueto lain.",
+          "quote": "Los machis, ciembran pequños trozos de él, en otros cerros y transcurridos veinticinco años, nacen otros camahuetos",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c11",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Scrapings of the horn are described as the most effective of all the medicines in the early Chilote pharmacopoeia, for curing every kind of illness.",
+          "statement_id": "Kerokan tanduk itu disebut sebagai obat paling manjur di antara semua obat dalam farmakope Chiloé kuno untuk menyembuhkan segala penyakit.",
+          "quote": "Las mencionadas raspaduras, constituyen el más eficaz de todos los medicamentos, que consigna la primitiva farmacopea chilota, para curar todo tipo de enfermedades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c12",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "In the site author's interpretation, this imaginary animal was used to explain the frequent, apparently spontaneous landslides caused by water accumulating underground.",
+          "statement_id": "Menurut penafsiran penulis situs ini, hewan imajiner ini dipakai untuk menjelaskan longsor tanah yang sering terjadi dan tampak spontan, akibat air yang menumpuk di bawah tanah.",
+          "quote": "se recurrió a este animal imaginario, para explicar los frecuentes y aparentemente espontáneos derrumbes de tierra, que ocasionan las aguas que se van acumulando bajo tierra",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c13",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The site author adds that the Camahueto represents strength, fertility and abundance.",
+          "statement_id": "Penulis situs ini menambahkan bahwa Camahueto melambangkan kekuatan, kesuburan, dan kelimpahan.",
+          "quote": "Además representa la fuerza, la fecundidad y la abundancia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c14",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Little is known of the Camahueto's aquatic life, so it is classed among the land myths; it is said to return to the sea because it belongs there and will live its true existence there.",
+          "statement_id": "Kehidupan akuatik Camahueto hampir tidak diketahui sehingga ia digolongkan sebagai mitos darat; konon ia kembali ke laut karena laut adalah miliknya dan di sanalah ia menjalani keberadaan sejatinya.",
+          "quote": "De la vida acuática el camahueto, se sabe muy poco y por tal motivo lo incluimos entre los mitos terrestres; se dice que regresa al mar, porque a él pertenece y allí realizará su verdadera existencia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camahueto-c15",
+          "source_id": "camahueto-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to this source, its stay on land is only a form of revenge left behind by the water spirit Coicoi-vilu on his retreat, to continue his destructive work on land.",
+          "statement_id": "Menurut sumber ini, keberadaannya di darat hanyalah bentuk pembalasan yang ditinggalkan roh air Coicoi-vilu saat mundur, untuk melanjutkan karya perusaknya di darat.",
+          "quote": "Y que su estadía en la tierra, sólo representa una forma de venganza, que dejó en su retirada, el espíritu de las aguas, Coicoi-vilu, para continuar su obra destructora en la tierra.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chasca-salvadoran-folklore",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "b46e6671475512b6eddef9dc0a6c5d5e90fe20a6ea39677307b9ab76e0d96a9a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chasca-salvadoran-folklore-c01",
@@ -513,6 +818,46 @@
           "statement_id": "Sebagai balasan, keduanya memberkati nelayan dengan tangkapan melimpah.",
           "quote": "who in return for that respect, bless the fishermen with bountiful fish.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chasca-salvadoran-folklore-c09",
+          "source_id": "chasca-salvadoran-folklore-s2",
+          "host": "www.cultura.gob.sv",
+          "statement": "According to El Salvador's Ministry of Culture, the Ballet Folklórico Nacional brings to life a show based on the narration collected by the author Miguel Ángel Espino in his book \"Mitología de Cuscatlán\".",
+          "statement_id": "Menurut Kementerian Kebudayaan El Salvador, Ballet Folklórico Nacional menghidupkan pertunjukan yang berdasar pada kisah yang dihimpun penulis Miguel Ángel Espino dalam bukunya \"Mitología de Cuscatlán\".",
+          "quote": "el Ballet Folklórico Nacional da vida al espectáculo basado en la narración que recoje el autor Miguel Ángel Espino en su libro “Mitología de Cuscatlán”",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chasca-salvadoran-folklore-c10",
+          "source_id": "chasca-salvadoran-folklore-s2",
+          "host": "www.cultura.gob.sv",
+          "statement": "The show \"Chasca, la virgen del agua\", with which the Ballet Folklórico Nacional celebrates its 46 years of history, was performed again at the Teatro Nacional de San Salvador at the public's request.",
+          "statement_id": "Pertunjukan \"Chasca, la virgen del agua\", yang dengannya Ballet Folklórico Nacional merayakan 46 tahun perjalanannya, dipentaskan kembali di Teatro Nacional de San Salvador atas permintaan publik.",
+          "quote": "El exitoso espectáculo con el que el Ballet Folklórico Nacional celebra sus 46 años de trayectoria, “Chasca, la virgen del agua”, se presentó nuevamente en el Teatro Nacional de San Salvador, a petición del público.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chasca-salvadoran-folklore-c11",
+          "source_id": "chasca-salvadoran-folklore-s2",
+          "host": "www.cultura.gob.sv",
+          "statement": "That year the ballet staged the loyal and eternal love between Chasca and the young fisherman, written here as Acayet.",
+          "statement_id": "Tahun itu ballet tersebut mementaskan cinta setia dan abadi antara Chasca dan nelayan muda yang di sumber ini ditulis Acayet.",
+          "quote": "un objetivo para el que este año lleva a escena el amor leal y eterno entre Chasca y el jóven pescador Acayet",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chasca-salvadoran-folklore-c12",
+          "source_id": "chasca-salvadoran-folklore-s2",
+          "host": "www.cultura.gob.sv",
+          "statement": "The Ministry of Culture's news item about the show was published on 17 June 2023.",
+          "statement_id": "Berita Kementerian Kebudayaan tentang pertunjukan ini diterbitkan pada 17 Juni 2023.",
+          "quote": "Publicado el 17-06-2023. Etiquetas: 46.° Aniversario, Ballet Folklórico Nacional",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -610,24 +955,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "563c58cd681b0ee6d489b729f17cf0e1065def4fb279a472231b55e965ac14c3"
     },
     {
       "slug": "capelobo",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "ea8856913a37150419ca26d7e032f7c4685907575f32fe230daf5a3050b47f44",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "capelobo-c01",
@@ -655,9 +996,9 @@
           "host": "en.wikipedia.org",
           "statement": "The name combines Guarani capê (\"crooked\" or \"lame\") and Portuguese lobo (\"wolf\").",
           "statement_id": "Nama Capelobo menggabungkan kata Guarani capê (\"pincang\" atau \"bengkok\") dan kata Portugis lobo (\"serigala\").",
-          "quote": "The name Capelobo is a fusion of Guarani capê meaning \"broken boned\", \"crooked\", \"crook-legged\", or \"lame\" and the Portuguese word lobo, meaning wolf.",
+          "quote": "The name Capelobo is a fusion of Guarani capê meaning \"broken boned\", \"crooked\", \"crook-legged\", or \"lame\" and the Portuguese word lobo ... meaning wolf.",
           "context": "etymology",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "capelobo-c04",
@@ -718,26 +1059,91 @@
           "quote": "The Capelobo does a lot of screaming to announce its presence, like the Mapinguari and the Pé de Garrafa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "capelobo-c10",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "In Cascudo's Dicionário do Folclore Brasileiro, the Capelobo or Cupelobo is a fantastic animal with a human body and the snout of a tapir (Tapirus americanus).",
+          "statement_id": "Dalam Dicionário do Folclore Brasileiro, Cascudo menyebut Capelobo atau Cupelobo sebagai hewan fantastis berbadan manusia dengan moncong tapir (Tapirus americanus).",
+          "quote": "Capelobo. Cupelobo, animal fantástico, de corpo humano e focinho de anta (Tapirus americanus)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c11",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, when it meets a large animal or a hunter, the Capelobo tears open its carotid and drinks the blood.",
+          "statement_id": "Menurut Cascudo, ketika bertemu hewan besar atau pemburu, Capelobo merobek arteri karotisnya dan meminum darahnya.",
+          "quote": "Encontrando bicho de porte ou caçador, rasga-lhe a carótida e bebe o sangue",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c12",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "Cascudo records that the Capelobo is said to be the werewolf (lobisomem) of the Indians.",
+          "statement_id": "Cascudo mencatat bahwa konon Capelobo adalah lobisomem (manusia serigala) orang Indian.",
+          "quote": "É o lobisomem dos índios, dizem.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c13",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, the Capelobo gives itself away by its screams and has a foot shaped like the bottom of a bottle.",
+          "statement_id": "Menurut Cascudo, Capelobo mengungkap kehadirannya lewat teriakan dan berkaki berbentuk dasar botol.",
+          "quote": "Denuncia-se pelos gritos e tem o pé em forma de fundo de garrafa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c14",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "Cascudo says the Capelobo resembles the Pé-de-Garrafa, with which it is partly confused.",
+          "statement_id": "Cascudo menyebut Capelobo mirip dengan Pé-de-Garrafa dan sebagian dikacaukan dengannya.",
+          "quote": "ao Pé-de-Garrafa, com o qual se confunde parcialmente",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c15",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "In a passage by S. Fróis Abreu quoted by Cascudo, the mysterious animal has a man's body covered in long hair and a head like that of the giant anteater (tamanduá-bandeira).",
+          "statement_id": "Dalam kutipan dari S. Fróis Abreu yang dimuat Cascudo, hewan misterius itu berbadan manusia berbulu panjang, dengan kepala seperti tamanduá-bandeira (trenggiling raksasa).",
+          "quote": "O misterioso animal tem corpo de homem, coberto de longos pêlos; a cabeça é igual à do tamanduá-bandeira",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "capelobo-c16",
+          "source_id": "capelobo-s2",
+          "host": "archive.org",
+          "statement": "In the Fróis Abreu passage quoted by Cascudo, the animal sucks out the whole brain mass; the Indian said, \"Supa o miolo\" (it sucks the brain).",
+          "statement_id": "Dalam kutipan Fróis Abreu yang dimuat Cascudo, hewan itu menyedot seluruh isi otak; seorang Indian berkata, \"Supa o miolo\" (ia mengisap otak).",
+          "quote": "e sorve toda a massa cefálica: “Supa o miolo”, disse o índio.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dzoavits",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "726e74f6de71633f036fb67ad6c892b817f06424d167dbcb9987eae383783ee6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dzoavits-c01",
@@ -768,26 +1174,91 @@
           "quote": "In most legends he confronts several mythological animals before being trapped in a cave, the most common one being Devils Hole.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dzoavits-c04",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "The Dzo'avits stories form a separate group of autochthonous tales; the Dzo'avits are described as a race of gigantic ogres dwelling in stone houses.",
+          "statement_id": "Cerita tentang Dzo'avits merupakan sekelompok kisah asli tersendiri; Dzo'avits digambarkan sebagai satu ras ogre raksasa yang tinggal di rumah batu.",
+          "quote": "those dealing with the Dzo'avits. These constitute a race of gigantic ogres dwelling in stone houses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c05",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "When a Dzo'avits slept, a Shoshone would sometimes creep up and shoot an arrow at his arms, but the arrow would break in two without disturbing him.",
+          "statement_id": "Ketika seorang Dzo'avits tidur, seorang Shoshone kadang merayap mendekat dan menembakkan panah ke lengannya, tetapi panah itu patah dua tanpa mengganggunya.",
+          "quote": "a Shoshone would sometimes creep up and shoot an arrow at his arms; but the arrow, instead of disturbing him, would break in two.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c06",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "Individual members of this people are overcome by the Weasel brothers or, less often, by other Indians; the destruction of the whole tribe is ascribed to a conflagration caused by a number of birds or to the magic of Weasel-woman's uncle.",
+          "statement_id": "Anggota-anggota kaum ini dikalahkan oleh Weasel bersaudara atau, lebih jarang, oleh orang Indian lain; pemusnahan seluruh suku dikaitkan dengan kebakaran akibat sejumlah burung atau dengan sihir paman Weasel-woman.",
+          "quote": "Individual members of this people are overcome by the Weasel brothers, or, less frequently, by other Indians. The destruction of the whole tribe is ascribed to the conflagration caused by a number of birds, or to the magic of Weasel-woman's uncle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c07",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "The man in the moon is recognized as a giant cannibal (Dzo'avits), holding a blanket with one hand.",
+          "statement_id": "Manusia di bulan dikenali sebagai raksasa kanibal (Dzo'avits) yang memegang selimut dengan satu tangan.",
+          "quote": "The man in the moon is recognized as a giant cannibal (Dzo'avits), holding a blanket with one hand.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c08",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "In the tale of the Weasels and the Giants, a Dzo'avits once caught Weasel's brother and devoured him.",
+          "statement_id": "Dalam kisah Weasel dan para raksasa, seorang Dzo'avits pernah menangkap saudara Weasel dan melahapnya.",
+          "quote": "Once a Dzo'avits caught Weasel's brother and devoured him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c09",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "In Powell's version, Dzo'avits is a witch ultimately transformed into the echo.",
+          "statement_id": "Dalam versi Powell, Dzo'avits adalah penyihir yang akhirnya berubah menjadi gema.",
+          "quote": "Powell, Dzo'avits is a witch ultimately transformed into the echo",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dzoavits-c10",
+          "source_id": "dzoavits-s2",
+          "host": "archive.org",
+          "statement": "Pa'-n-dzo'avits is a giant with enormous hands and feet who lives in the water.",
+          "statement_id": "Pa'-n-dzo'avits adalah raksasa bertangan dan berkaki sangat besar yang hidup di air.",
+          "quote": "Pa'-n-dzo'avits is a giant with enormous hands and feet, who lives in the water.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dorlis",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "f54e22afe4877e7e7418a0f17afc405f0ea63d9cf48f5cc09f58b9ad06f5654b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 22,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dorlis-c01",
@@ -878,26 +1349,151 @@
           "quote": "the play Dimanche avec un Dorlis (Sunday with a Dorlis), by Patrick Chamoiseau (staged by Greg Germain",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "dorlis-c10",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "According to this ethnopsychiatric study, in popular tradition the Dorlis is a figure who enters houses at night to sleep with women.",
+          "statement_id": "Menurut studi etnopsikiatri ini, dalam tradisi populer Dorlis adalah sosok yang menyelinap ke rumah pada malam hari untuk tidur dengan para perempuan.",
+          "quote": "Na tradição popular, o Dorlis é uma personagem que se introduz de noite nas casas, para dormir com as mulheres",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c11",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "According to the popular tradition recorded by the authors, the Dorlis is an ordinary man initiated by supernatural Powers, of normal appearance, who may practise a profession.",
+          "statement_id": "Menurut tradisi populer yang dicatat para penulis, Dorlis adalah pria biasa yang diinisiasi oleh Kekuatan supranatural, berpenampilan normal, dan dapat menjalankan suatu pekerjaan.",
+          "quote": "É um homem banal, iniciado por Potências sobrenaturais, com aparência normal e que pode exercer uma profissão",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c12",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "To enter, a keyhole is enough for the Dorlis, and he can also open doors with magic words. He is generally considered invisible and immaterial.",
+          "statement_id": "Untuk masuk, Dorlis cukup memakai lubang kunci, dan ia juga dapat membuka pintu dengan kata-kata gaib. Ia umumnya dianggap tak kasatmata dan tak berwujud.",
+          "quote": "Para entrar, basta-lhe um buraco de fechadura. Mas também sabe abrir as portas com a ajuda de palavras mágicas. Geralmente é considerado invisível e imaterial.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c13",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "The Dorlis must always leave before the end of the night.",
+          "statement_id": "Dorlis harus selalu pergi sebelum malam berakhir.",
+          "quote": "O Dorlis deve sempre partir antes do fim da noite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c14",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "Before entering a house, the Dorlis smears himself with tallow or sulphur, which lets him escape if he is surprised.",
+          "statement_id": "Sebelum memasuki rumah, Dorlis melumuri dirinya dengan sebo (lemak) atau belerang, yang memungkinkannya meloloskan diri bila kepergok.",
+          "quote": "Antes de penetrar numa casa, o Dorlis besunta-se com sebo ou enxofre, o que lhe permite escapar se for surpreendido.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c15",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "A village priest speaking in a personal capacity stresses the link between the Dorlis and the Devil; according to the authors, this association is rarely mentioned in Martiniquan popular tradition but is fairly widespread in Saint Lucia.",
+          "statement_id": "Seorang pastor desa yang berbicara atas nama pribadi menekankan kaitan antara Dorlis dan Iblis; menurut para penulis, kaitan ini jarang disebut dalam tradisi populer Martinique tetapi cukup tersebar di Santa Lucia.",
+          "quote": "O padre (que não pretende representar a opinião oficial da Igreja, e fala em nome pessoal) acentua a ligação existente entre o Dorlis e o Diabo. Esta associação, raramente evocada na tradição popular martinicana, está bastante difundida em Santa Lucia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c16",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "The authors found no belief strictly identical to the Dorlis outside Martinique.",
+          "statement_id": "Para penulis tidak menemukan kepercayaan yang benar-benar identik dengan Dorlis di luar Martinique.",
+          "quote": "Não encontrámos nenhuma crença estritamente idêntica a esta, fora da Martinica.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c17",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "According to the French summary in the file, the incubi and succubi of Europe and the \"Maji Nwé\" of Saint Lucia are the closest relatives of the Dorlis.",
+          "statement_id": "Menurut ringkasan berbahasa Prancis dalam berkas itu, incubus dan succubus Eropa serta \"Maji Nwé\" dari Santa Lucia adalah kerabat terdekat Dorlis.",
+          "quote": "Les incubes et les succubes d’Europe et le «Maji Nwé» de Santa Lucia sont les parents les plus proches du Dorlis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c18",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "In the authors' psychoanalytic interpretation, the Dorlis acts as a valve that lets chimeras exist, authorizing the hallucinatory fulfilment of desire and channelling the return of the repressed.",
+          "statement_id": "Menurut penafsiran psikoanalitik para penulis, Dorlis berperan sebagai katup yang membiarkan khayalan ada, mengizinkan pemenuhan keinginan secara halusinatif, dan menyalurkan kembalinya yang tertekan.",
+          "quote": "o Dorlis tem assim o papel duma válvula, que deixa as quimeras existirem, autorizando a realização alucinatória do desejo, e canalizando o retorno do recalcado.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c19",
+          "source_id": "dorlis-s2",
+          "host": "repositorio.ispa.pt",
+          "statement": "In the authors' view, the mechanism of belief in the Dorlis appears as a cultural ritualization of the erotic dream.",
+          "statement_id": "Para penulis, mekanisme kepercayaan pada Dorlis tampak sebagai ritualisasi budaya atas mimpi erotis.",
+          "quote": "O mecanismo da crença nos Dorlis, aparece como uma ritualização cultural do sonho erótico.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c20",
+          "source_id": "dorlis-s3",
+          "host": "www.madinin-art.net",
+          "statement": "A theatre critic writes that in the pantheon of \"magical\" creatures from the Afro-Caribbean tradition, the Soucougnans and the Dorlis hold a privileged place.",
+          "statement_id": "Seorang kritikus teater menulis bahwa dalam panteon makhluk \"gaib\" dari tradisi Afro-Karibia, Soucougnan dan Dorlis menempati tempat istimewa.",
+          "quote": "dans le panthéon des créatures « magiques » issues de la tradition afro-caribéenne, les Soucougnans et les Dorlis, occupent une place privilégiés",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c21",
+          "source_id": "dorlis-s3",
+          "host": "www.madinin-art.net",
+          "statement": "In the play, the Dorlis materializes in a young woman's room, but trapped by daylight he cannot leave the room before nightfall because the sun would hurt him too much.",
+          "statement_id": "Dalam lakon itu, Dorlis menjelma di kamar seorang perempuan muda, tetapi terjebak cahaya siang ia tak bisa meninggalkan ruangan sebelum malam karena matahari akan terlalu menyakitkannya.",
+          "quote": "Joué par Gunther Germain, le malheureux Dorlis se matérialise dans la chambre de cette jeune femme, mais pris au piège de la lumière du jour, il ne peut plus quitter la pièce avant la tombée de la nuit car le soleil lui ferait trop mal.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "dorlis-c22",
+          "source_id": "dorlis-s3",
+          "host": "www.madinin-art.net",
+          "statement": "Chamoiseau's play was created at the Chapelle du Verbe Incarné in 2004 and revived in Avignon with the same cast.",
+          "statement_id": "Lakon karya Chamoiseau ini pertama dipentaskan di Chapelle du Verbe Incarné pada 2004 dan dipentaskan lagi di Avignon dengan pemeran yang sama.",
+          "quote": "Créée à la Chapelle du verbe incarné en 2004 , la pièce de Chamoiseau est reprise cette année en Avignon avec la même distribution.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cressie",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "fd5bb41440ded23ca2d6e6d0e329c63c62880a4adf059644e800152d0d6fd89b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cressie-c01",
@@ -978,26 +1574,141 @@
           "quote": "On July 9, 1991, Fred Parsons and his wife reported seeing a large snakelike creature swimming in Crescent Lake.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "cressie-c09",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford writes that Crescent Lake is a picturesque body of water in northeastern Newfoundland, Canada, near the small town of Robert's Arm.",
+          "statement_id": "Radford menulis bahwa Crescent Lake adalah perairan indah di timur laut Newfoundland, Kanada, dekat kota kecil Robert's Arm.",
+          "quote": "Crescent lake is a picturesque body of water in northeastern Newfoundland, Canada, near the small town of Robert’s Arm.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c10",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "According to the information plaque quoted by Radford, local oral tradition traces sightings of Cressie to the turn of the century, when one of Robert's Arm's first residents, remembered as 'Grandmother Anthony', was startled from her berry picking by a giant serpent on the lake.",
+          "statement_id": "Menurut papan informasi yang dikutip Radford, dalam tradisi lisan setempat penampakan Cressie berawal dari pergantian abad, ketika salah satu penduduk pertama Robert's Arm, yang kini dikenang sebagai 'Grandmother Anthony', terkejut oleh seekor ular raksasa di danau saat memetik beri.",
+          "quote": "In the local oral tradition, sightings of Cressie go back to the turn of the century when one of Robert’s Arm’s first residents, remembered today as ‘Grandmother Anthony,’ was startled from her berry picking by a giant serpent out on the lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c11",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "According to the plaque, in a daylight sighting of the early 1950s two local woodsmen saw what they thought was a boom log, which turned out to be huge, black and rounded and slipped beneath the lake.",
+          "statement_id": "Menurut papan informasi itu, pada sebuah penampakan siang hari awal 1950-an, dua penebang kayu setempat melihat sesuatu yang mereka kira batang kayu apung, yang ternyata besar, hitam, dan membulat lalu tenggelam ke dalam danau.",
+          "quote": "two local woodsmen on the shores of the lake noticed what they thought was a boom log just off shore. ... the men motored hurriedly out in time to witness the upturned ‘log,’ now huge, black, and rounded, slip beneath the waters of the lake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c12",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "According to the plaque quoted by Radford, on Thursday afternoon, September 5, 1991, at about 4:30 PM, Pierce Rideout, a resident of Robert's Arm, noticed a disturbance on the surface of Crescent Lake while driving his pickup truck.",
+          "statement_id": "Menurut papan informasi yang dikutip Radford, pada Kamis sore 5 September 1991 sekitar pukul 16.30, Pierce Rideout, warga Robert's Arm, melihat gangguan di permukaan Crescent Lake saat mengemudikan truknya.",
+          "quote": "On Thursday afternoon, September 5th, 1991, at approximately 4:30 PM, Mr. Pierce Rideout, a resident of Robert’s Arm, was driving his pickup truck at the approach to that town when he noticed a disturbance on the surface of Crescent Lake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c13",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford quotes Fred Parsons saying he saw a long snake-like creature on the water, about fifteen or twenty feet long and dark brownish in colour.",
+          "statement_id": "Radford mengutip Fred Parsons: ia melihat makhluk panjang seperti ular di air, sepanjang sekitar lima belas atau dua puluh kaki dan berwarna cokelat gelap.",
+          "quote": "“What I saw was like a long, snake-like creature on the water,” he told me. “It was about fifteen or twenty feet long and a dark brownish colour",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c14",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford writes that unlike the Loch Ness and Lake Champlain monsters, Cressie has never been photographed, and virtually all evidence for it comes from eyewitness sightings.",
+          "statement_id": "Radford menulis bahwa tidak seperti monster Loch Ness dan Danau Champlain, Cressie tidak pernah difoto, dan hampir semua bukti keberadaannya berasal dari kesaksian saksi mata.",
+          "quote": "Unlike the monsters in Loch Ness and Lake Champlain, Cressie has never been photographed; virtually all of the evidence for Cressie’s existence comes from eyewitness sightings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c15",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "According to Radford, virtually all witnesses agree that Cressie is dark and eel-like in appearance.",
+          "statement_id": "Menurut Radford, hampir semua saksi sepakat bahwa Cressie tampak gelap dan mirip belut.",
+          "quote": "One thing that virtually all witnesses agree on is that Cressie is dark and eel-like in appearance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c16",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford concludes that the sightings are probably a mixture of misidentifications, floating logs, large fish, otters and perhaps even giant eels.",
+          "statement_id": "Radford berpendapat penampakan itu kemungkinan campuran salah identifikasi, gelondongan kayu terapung, ikan besar, berang-berang, dan mungkin belut raksasa.",
+          "quote": "The sightings are probably a mixture of misidentifications, floating logs, large fish, otters, and perhaps even giant eel.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c17",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford judges that the references to the woodum haoot and the haoot tuwedyee seem to have been copied from one source to another without verification of any actual connection to Cressie.",
+          "statement_id": "Radford menilai rujukan pada woodum haoot dan haoot tuwedyee tampaknya disalin dari satu sumber ke sumber lain tanpa diverifikasi memiliki kaitan dengan Cressie.",
+          "quote": "The references to the woodum haoot and the haoot tuwedyee seem to have been simply copied from one source to another without having been verified as having any actual connection to Cressie.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c18",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford writes that whether or not Cressie lurks in Crescent Lake, it certainly exists in the local folklore and imaginations.",
+          "statement_id": "Radford menulis bahwa terlepas dari ada tidaknya Cressie di Crescent Lake, ia pasti hidup dalam cerita rakyat dan imajinasi setempat.",
+          "quote": "Whether Cressie lurks in the waters of Crescent Lake or not, it certainly exists in the local folklore and imaginations.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c19",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford notes that the tourism effort began in the early 1990s when local resident Russell Bragg created the Cressie sign along the highway.",
+          "statement_id": "Radford mencatat bahwa upaya promosi wisata dimulai pada awal 1990-an ketika warga setempat Russell Bragg membuat papan Cressie di tepi jalan raya.",
+          "quote": "The main effort began in the early 1990s, when local resident Russell Bragg created the Cressie sign along the highway.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cressie-c20",
+          "source_id": "cressie-s2",
+          "host": "www.skeptic.org.uk",
+          "statement": "Radford mentions Cressie's Castle, a scenic area created especially for lake monster watching, reached by a twenty-minute walk along the lake.",
+          "statement_id": "Radford menyebut Cressie's Castle, area pemandangan yang dibuat khusus untuk mengamati monster danau, dapat dicapai dengan berjalan kaki dua puluh menit menyusuri danau.",
+          "quote": "a twenty-minute walk along the lake will bring you to Cressie’s Castle, a scenic area created especially for lake monster watching.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "crybaby-bridge",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "41ccd4f88c94bc9d791dc1b0dd9e235106016fd9edf34552ecf439a379db62b1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "crybaby-bridge-c01",
@@ -1048,26 +1759,101 @@
           "quote": "Legend says that a mother driving a car plunged into the creek, and the baby drowned in the near-freezing waters.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c06",
+          "source_id": "crybaby-bridge-s2",
+          "host": "88counties.osu.edu",
+          "statement": "According to an Ohio State University folklore project summary, Crybaby Bridges have many stories about how they became haunted, but all share an eerie cry said to be heard by those who follow the legend, which is thought to come from a ghost.",
+          "statement_id": "Menurut ringkasan proyek folklor Ohio State University, Crybaby Bridge punya banyak kisah tentang asal angkernya, tetapi semuanya sama dalam satu hal: tangisan seram yang konon terdengar oleh pengikut legenda dan diyakini berasal dari hantu.",
+          "quote": "Crybaby Bridges have many stories to how they have become haunted, but they all share one thing in common, an eerie cry is said to be heard by those that follow the legend, the cry is thought to come from a ghost.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c07",
+          "source_id": "crybaby-bridge-s2",
+          "host": "88counties.osu.edu",
+          "statement": "The cry is often said to be either the baby's cry or that of the baby's mother.",
+          "statement_id": "Tangisan itu sering dikatakan sebagai tangis bayi atau tangis ibu si bayi.",
+          "quote": "The cry is often times said to be either a baby's cry or that of the baby's mother.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c08",
+          "source_id": "crybaby-bridge-s2",
+          "host": "88counties.osu.edu",
+          "statement": "In the recording, Cory says what he has heard is that a mother threw her child off the train tracks onto the tunnel below, and that you are supposed to hear the babies cry if you stop in the middle of the bridge and turn your lights off.",
+          "statement_id": "Dalam rekaman itu, Cory mengatakan yang ia dengar ialah seorang ibu melempar anaknya dari rel kereta ke terowongan di bawah, dan tangis bayi konon terdengar jika orang berhenti di tengah jembatan dan mematikan lampu.",
+          "quote": "Cory said that what he has heard is that a mother threw her child off of the train tracks onto the tunnel below. He said that you are supposed to hear the babies cry if you stop in the middle of the bridge and turn your lights off.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c09",
+          "source_id": "crybaby-bridge-s2",
+          "host": "88counties.osu.edu",
+          "statement": "There are many \"Crybaby Bridges\" in Ohio, and apparently one is located near Chillicothe.",
+          "statement_id": "Ada banyak \"Crybaby Bridge\" di Ohio, dan tampaknya satu di antaranya berada dekat Chillicothe.",
+          "quote": "There are many “Crybaby Bridges” in Ohio and apparently one is located near Chillicothe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c10",
+          "source_id": "crybaby-bridge-s3",
+          "host": "digital.library.in.gov",
+          "statement": "In an Indiana State University folklore archive account of a Crybaby Bridge in Morgan County near Martinsville, a woman's baby drowned while she was crossing a bridge, and visitors can now hear the baby crying and see her looking for the baby.",
+          "statement_id": "Dalam catatan arsip folklor Indiana State University tentang Crybaby Bridge di Morgan County dekat Martinsville, bayi seorang perempuan konon tenggelam saat ia menyeberangi jembatan, dan kini pengunjung dapat mendengar bayi menangis serta melihat sang ibu mencari bayinya.",
+          "quote": "This is Denise Rutledges typewritten account of the legend of Crybaby Bridge in Morgan County near Martinsville, collected by Sharon Fryar. According to legend, a womans baby drowned while she was crossing a bridge. Now if you visit the bridge you can hear the baby crying, and see her looking for baby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c11",
+          "source_id": "crybaby-bridge-s4",
+          "host": "digital.library.in.gov",
+          "statement": "In another variant in the same archive, for a Crybaby Bridge in Hamilton County near Carmel, Indiana, a family supposedly hanged one of its children on a bridge, and people travelling near it can hear a crying baby.",
+          "statement_id": "Dalam varian lain di arsip yang sama, untuk Crybaby Bridge di Hamilton County dekat Carmel, Indiana, sebuah keluarga konon menggantung salah satu anaknya di jembatan, dan orang yang lewat dekat jembatan itu dapat mendengar bayi menangis.",
+          "quote": "This is Brian Millers typewritten variant of the legend of Crybaby Bridge in Hamilton County near Carmel Indiana, collected by Granville Hayworth. According to legend a family hanged one of its children on a bridge. Now when travels near the bridge they can hear a crying baby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c12",
+          "source_id": "crybaby-bridge-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1999, Maryland folklorist Jesse Glass argued that several crybaby bridges were not genuine folklore but fakelore knowingly propagated through the internet.",
+          "statement_id": "Pada 1999, folkloris Maryland Jesse Glass berargumen bahwa beberapa crybaby bridge bukan folklor asli melainkan \"fakelore\" yang sengaja disebarkan lewat internet.",
+          "quote": "In 1999, Maryland folklorist Jesse Glass presented a case against several crybaby bridges being genuine folklore, contending that they were instead fakelore that was knowingly being propagated through the internet.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "crybaby-bridge-c13",
+          "source_id": "crybaby-bridge-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Kentucky, mothers reportedly dropped their unwanted, sick or deformed babies off the bridge to drown, and their crying can still be heard there.",
+          "statement_id": "Di Kentucky, konon para ibu menjatuhkan bayi yang tidak diinginkan, sakit, atau cacat dari jembatan hingga tenggelam, dan tangisan mereka masih terdengar di sana.",
+          "quote": "A bridge on Sleepy Hollow Road near the border between Jefferson and Oldham counties in Kentucky was known as Crybaby Bridge. Reportedly, mothers would drop their unwanted, sick, or deformed babies off the bridge to drown in the water, and their crying can still be heard there.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "flathead-lake-monster",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "6650a23af81c33a2edad25d9afb9dae362d096b1a2b08e69ab1fe2ce5a0b557c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "flathead-lake-monster-c01",
@@ -1138,26 +1924,121 @@
           "quote": "The monster is usually described as a large, round, eel-shaped creature with a wavy body like a snake about twenty to forty feet (6.1 to 12.2 m) long, having brownish to bluish-black skin and grayish-black eyes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c08",
+          "source_id": "flathead-lake-monster-s2",
+          "host": "flatheadbeacon.com",
+          "statement": "According to the Flathead Beacon, possibly the first modern account to gain credence came in 1889 from James Kerr, captain of the U.S. Grant, a steam-driven boat that ferried passengers and freight on the lake.",
+          "statement_id": "Menurut Flathead Beacon, kemungkinan catatan modern pertama yang dipercaya datang pada 1889 dari James Kerr, kapten U.S. Grant, kapal uap yang mengangkut penumpang dan barang di danau itu.",
+          "quote": "possibly the first modern account to gain credence came in 1889 from James Kerr, the captain of the U.S. Grant, a steam-driven boat that ferried passengers and freight up and down the lake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c09",
+          "source_id": "flathead-lake-monster-s2",
+          "host": "flatheadbeacon.com",
+          "statement": "Kerr reported seeing what he first thought was a large log; as the boat got closer, the \"log\", estimated at more than 20 feet long, began to move through the water.",
+          "statement_id": "Kerr melaporkan melihat sesuatu yang semula disangkanya kayu gelondongan besar; saat kapal mendekat, \"kayu\" itu, diperkirakan lebih dari 20 kaki panjangnya, mulai bergerak di air.",
+          "quote": "Kerr reported seeing what he initially thought was a large log. As the boat got closer, the “log,” estimated at more than 20 feet in length, began to move through the water.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c10",
+          "source_id": "flathead-lake-monster-s2",
+          "host": "flatheadbeacon.com",
+          "statement": "In a quotation from a column carried by the Beacon, some sightings have been attributed to hyperactive imaginations, playful pranks, natural phenomena such as wave action, shadows and lighting effects, logs and a large number of animals.",
+          "statement_id": "Dalam kutipan dari sebuah kolom yang dimuat Beacon, sebagian penampakan dikaitkan dengan imajinasi berlebihan, kelakar, fenomena alam seperti ombak, bayangan, dan efek cahaya, kayu gelondongan, serta banyak hewan.",
+          "quote": "Some of the sightings have been attributed to hyperactive imaginations, playful pranks, natural phenomena such as wave action, shadows, lighting effects, logs and a large number of animals",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c11",
+          "source_id": "flathead-lake-monster-s2",
+          "host": "flatheadbeacon.com",
+          "statement": "In a quotation carried by the Beacon, most reports other than large-fish sightings describe it as long and eel-shaped, round, 30 to 40 feet in length, with large black eyes.",
+          "statement_id": "Dalam kutipan yang dimuat Beacon, kebanyakan laporan selain penampakan ikan besar menggambarkannya panjang dan seperti belut, bulat, sepanjang 30 sampai 40 kaki, bermata hitam besar.",
+          "quote": "Most, other than large fish sightings, describe it as long and eel-shaped, round, 30 to 40 feet in length with large black eyes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c12",
+          "source_id": "flathead-lake-monster-s2",
+          "host": "flatheadbeacon.com",
+          "statement": "According to the Beacon, despite extensive netting, electro-shocking, small submarines and other research, no sign of sturgeon or other creatures has been found.",
+          "statement_id": "Menurut Beacon, meski ada penjaringan luas, penyetruman listrik, kapal selam kecil, dan penelitian lain, tidak ada tanda ikan sturgeon atau makhluk lain yang ditemukan.",
+          "quote": "Despite extensive netting, electro-shocking, small submarines that have ventured deep into the lake and other types of research, including time spent underwater in the forks of the Flathead River, no sign of sturgeon or other creatures has been found.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c13",
+          "source_id": "flathead-lake-monster-s3",
+          "host": "www.flatheadlakers.org",
+          "statement": "In 1955, C. Leslie Griffith caught a 7.5-foot, 181-pound white sturgeon near Dayton; it was displayed at the Polson museum and fuelled theories that sturgeon might be responsible for the sightings.",
+          "statement_id": "Pada 1955, C. Leslie Griffith menangkap sturgeon putih 7,5 kaki seberat 181 pon dekat Dayton; ikan itu dipajang di museum Polson dan memicu teori bahwa sturgeon menjadi penyebab penampakan.",
+          "quote": "In 1955, C. Leslie Griffith captured a 7.5-foot, 181-pound white sturgeon near Dayton. The massive fish was displayed at the Polson-Flathead Historical Museum and fueled theories that sturgeon — rare, deep-dwelling, and prehistoric-looking — might be responsible for the sightings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c14",
+          "source_id": "flathead-lake-monster-s3",
+          "host": "www.flatheadlakers.org",
+          "statement": "According to oral history shared by Kootenai elders Catherine and Louise Andrew, a bird's wife used to feed huckleberries to a friendly lake creature; when her jealous husband found out, he killed the monster.",
+          "statement_id": "Menurut sejarah lisan dari tetua Kootenai Catherine dan Louise Andrew, istri seekor burung biasa memberi buah huckleberry kepada makhluk danau yang ramah; ketika suaminya yang cemburu mengetahuinya, ia membunuh monster itu.",
+          "quote": "According to oral history shared by Kootenai elders Catherine and Louise Andrew, a bird’s wife used to feed huckleberries to a friendly lake creature. But when the bird’s jealous husband discovered this, he killed the monster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c15",
+          "source_id": "flathead-lake-monster-s3",
+          "host": "www.flatheadlakers.org",
+          "statement": "The creature's body became what is now called Sullivan Hill, near Elmo on the lake's western shore.",
+          "statement_id": "Tubuh makhluk itu menjadi bukit yang kini disebut Sullivan Hill, dekat Elmo di tepi barat danau.",
+          "quote": "The creature’s body became what is now called Sullivan Hill, near Elmo on the lake’s western shore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c16",
+          "source_id": "flathead-lake-monster-s3",
+          "host": "www.flatheadlakers.org",
+          "statement": "In 2024, the city of Polson installed a 25-foot bronze statue of the creature in Sacajawea Park.",
+          "statement_id": "Pada 2024, kota Polson memasang patung perunggu setinggi 25 kaki makhluk itu di Sacajawea Park.",
+          "quote": "In 2024, the city of Polson installed a 25-foot bronze statue of the creature in Sacajawea Park",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c17",
+          "source_id": "flathead-lake-monster-s3",
+          "host": "www.flatheadlakers.org",
+          "statement": "Some sightings identify it as a massive fish between 6 and 10 feet long, possibly a sturgeon.",
+          "statement_id": "Sebagian penampakan mengidentifikasinya sebagai ikan besar sepanjang 6 sampai 10 kaki, mungkin sturgeon.",
+          "quote": "Some sightings identify it as a massive fish between 6 and 10 feet in length — possibly a sturgeon.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "flying-head",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "8525620b6108fcdceea70504b032dba90fe5f2c812d8088e6ec5287e698fb0a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "flying-head-c01",
@@ -1218,26 +2099,101 @@
           "quote": "the Flying Head drove the original native inhabitants who lived in the area  of the state of New York near the source of the Hudson River, in the Adirondack Mountains away from their hunting grounds before the Europeans came.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "flying-head-c07",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Smith writes that among the supernatural beings corresponding to good and evil genii were the Great Heads, with ever watchful eyes and long hair serving as wings to bear them on missions of mercy or of destruction.",
+          "statement_id": "Smith menulis bahwa di antara makhluk gaib yang sepadan dengan jin baik dan jahat terdapat Great Heads, bermata selalu waspada, dengan rambut panjang yang berfungsi sebagai sayap untuk membawa mereka dalam misi belas kasih atau kehancuran.",
+          "quote": "Among the supernatural beings corresponding to good and evil genii were the Great Heads, with ever watchful eyes, and long hair which served them as wings to bear them on missions of mercy or of destruction.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c08",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Smith records a common belief among Indians in a strange, human-like creature consisting simply of a head, made terrific with large eyes and covered with long hair.",
+          "statement_id": "Smith mencatat kepercayaan umum di kalangan orang Indian tentang makhluk aneh mirip manusia yang hanya terdiri dari kepala dengan mata besar yang menakutkan dan tertutup rambut panjang.",
+          "quote": "It was a common belief among Indians that there was a strange, human-like creature, consisting simply of a head made terrific with large eyes and covered with long hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c09",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Smith, the Great Head's home was upon a huge rock, a rifted promontory, over which his long hair streamed in shaggy fierceness.",
+          "statement_id": "Menurut Smith, kediaman Great Head berada di atas batu besar, sebuah tanjung yang retak, tempat rambut panjangnya terurai lebat.",
+          "quote": "His home was upon a huge rock, a rifted promontory, over which his long hair streamed in shaggy fierceness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c10",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Smith translates the Great Head's growl on seeing anything with the breath of life as \"I see thee, I see thee, thou shalt die,\" or \"thou shalt suffer.\"",
+          "statement_id": "Smith menerjemahkan seruan Great Head yang melihat makhluk hidup sebagai \"Aku melihatmu, aku melihatmu, kau akan mati\" atau \"kau akan menderita\".",
+          "quote": "that is, \"I see thee, I see thee, thou shalt die,\" or \"thou shalt suffer.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c11",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a story recorded by Smith, the uncle calls the Great Head an awful being who destroys those who go near him.",
+          "statement_id": "Dalam kisah yang dicatat Smith, sang paman menyebut Great Head sebagai makhluk mengerikan yang membinasakan orang yang mendekatinya.",
+          "quote": "He is an awful being, for he destroys those who go near him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c12",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the same tale, after helping to kill the witch, the Great Head departs, a terrific hurricane arises, and out of the wind he calls the nine brothers to awake, and they all arise to life.",
+          "statement_id": "Dalam kisah yang sama, setelah membantu membinasakan penyihir perempuan, Great Head pergi, badai dahsyat bertiup, dan dari dalam angin ia memanggil sembilan bersaudara untuk bangun, lalu mereka semua hidup kembali.",
+          "quote": "Great Head departed, and then arose a storm and a terrific hurricane, and the Great Head out of the wind called to the nine brothers to awake, and they all arose to life",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c13",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Cusick's story as given by Smith, a woman at Onondaga was parching acorns by the fire when one of the monstrous heads appeared at the door; thinking she was eating coals of fire, it disappeared, and none of its kind have been seen since.",
+          "statement_id": "Dalam kisah Cusick yang dimuat Smith, seorang perempuan tua di Onondaga sedang memanggang biji ek di dekat api ketika salah satu kepala raksasa muncul di pintu; mengira perempuan itu memakan bara api, kepala itu lenyap, dan sejak itu tidak ada lagi yang terlihat.",
+          "quote": "An old squaw who resided at Onondaga was alone in her wigwam one evening. While sitting by the fire parching some acorns one of the monstrous heads made its appearance at the door. ... it suddenly disappeared, and none of its kind have been seen since that day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c14",
+          "source_id": "flying-head-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Smith titles the story \"Cusick's story of the dispersion of the Great Heads\".",
+          "statement_id": "Smith memberi kisah itu judul \"Cusick's story of the dispersion of the Great Heads\" (kisah Cusick tentang tercerai-berainya para Great Head).",
+          "quote": "CUSICK'S STORY OF THE DISPERSION OF THE GREAT HEADS.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "fresno-nightcrawler",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "cab4bc99ff116abec9568f8d6db356c5ff8deeea9d637b987ab0e0f4e087e385",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fresno-nightcrawler-c01",
@@ -1308,26 +2264,91 @@
           "quote": "The Fresno nightcrawler has become an icon of Fresno, and has spawned merchandise and fans around the world.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c08",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, it looks like a pair of child-sized white sweatpants, pressed flat, walking around by themselves as if worn by some skinny invisible child.",
+          "statement_id": "Menurut Skeptoid, ia tampak seperti sepasang celana training putih seukuran anak, dipipihkan, yang berjalan sendiri seolah dipakai anak kurus tak kasatmata.",
+          "quote": "It looks like a pair of child-sized white sweatpants, pressed flat, and walking around by themselves as if worn by some skinny invisible child.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c09",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "The story began in November 2007 when a man who gave his name only as Jose brought his home security videotape to the Fresno office of Univision, the Spanish-language TV network.",
+          "statement_id": "Kisah ini bermula pada November 2007, ketika seorang pria yang hanya menyebut namanya Jose membawa rekaman kamera keamanan rumahnya ke kantor Univision, jaringan TV berbahasa Spanyol, di Fresno.",
+          "quote": "The story got its start way back in November 2007 when a man who gave his name only as Jose ... brought his home security videotape into the Fresno office of Univision, the Spanish-language TV network.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c10",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "In 2010, the paranormal TV show Fact or Faked did a segment on the video, and its hosts dubbed it the Fresno Nightcrawler.",
+          "statement_id": "Pada 2010, acara TV paranormal Fact or Faked membuat segmen tentang rekaman itu, dan para pembawanya menamainya Fresno Nightcrawler.",
+          "quote": "Then in 2010, the paranormal TV show Fact or Faked did a segment on the video. The hosts dubbed it the Fresno Nightcrawler",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c11",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, the videos tend always to show a pair of them, one taller and one shorter.",
+          "statement_id": "Menurut Skeptoid, video-video itu cenderung selalu memperlihatkan sepasang, satu lebih tinggi dan satu lebih pendek.",
+          "quote": "The videos tend to always show a pair of them, one taller and one shorter.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c12",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "Jose showed a visitor the yard where the video was taken, and it was clear the creatures had been quite small, no more than half a meter high.",
+          "statement_id": "Jose menunjukkan halaman tempat video direkam, dan jelas bahwa sosok-sosok itu cukup kecil, tidak lebih dari setengah meter tingginya.",
+          "quote": "Jose showed him the yard where the video was taken and it was clear that the creatures had been quite small, no more than half a meter high.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c13",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, the number of people who firmly and passionately believe the Fresno Nightcrawler must be an actual undiscovered species probably approaches zero.",
+          "statement_id": "Menurut Skeptoid, jumlah orang yang teguh percaya bahwa Fresno Nightcrawler pasti spesies yang belum ditemukan mungkin mendekati nol.",
+          "quote": "The number of people who firmly and passionately believe that the Fresno Nightcrawler must represent an actual undiscovered species probably approaches zero.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c14",
+          "source_id": "fresno-nightcrawler-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, almost nobody actually believes it is a real creature and its backstory is unremarkable, yet it has a prodigious community of supporters likely to keep growing.",
+          "statement_id": "Menurut Skeptoid, hampir tidak ada orang yang sungguh percaya makhluk ini nyata dan latar ceritanya tidak istimewa, namun ia punya komunitas pendukung besar yang kemungkinan terus bertambah.",
+          "quote": "The Fresno Nightcrawler is supported by little or no actual belief by anyone that it's a real creature; there's nothing particularly thought-provoking in its backstory; and yet, it has a prodigious community of supporters that is only likely to continue growing.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gallinipper-mythology",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "3ce64096de4f1d4ddb3a5e58a119c76aa10a92cb479a39faea62d86ac90338a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gallinipper-mythology-c01",
@@ -1368,26 +2389,51 @@
           "quote": "Gallinipper tales were appropriated as a feature of minstrel shows, but have also appeared in American blues songs such as \"Mosquito Moan\" by Blind Lemon Jefferson",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c05",
+          "source_id": "gallinipper-mythology-s2",
+          "host": "www.merriam-webster.com",
+          "statement": "According to Merriam-Webster, gallinipper is chiefly Southern US and Midland US usage for any of various insects, such as a large mosquito or crane fly.",
+          "statement_id": "Menurut Merriam-Webster, gallinipper dipakai terutama di Southern US dan Midland US untuk berbagai serangga, seperti nyamuk besar (large mosquito) atau crane fly.",
+          "quote": "chiefly Southern US and Midland US : any of various insects (such as a large mosquito or crane fly)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c06",
+          "source_id": "gallinipper-mythology-s2",
+          "host": "www.merriam-webster.com",
+          "statement": "Merriam-Webster records the earlier forms gurnipper and gal-knipper, and says the word is of obscure origin.",
+          "statement_id": "Merriam-Webster mencatat bentuk yang lebih awal gurnipper dan gal-knipper, dan asal katanya tidak jelas.",
+          "quote": "earlier gurnipper, gal-knipper, of obscure origin",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c07",
+          "source_id": "gallinipper-mythology-s3",
+          "host": "archive.org",
+          "statement": "Fauset records a short tale in which the narrator says a gallinipper came after him down Mobile way, ran behind a tree and through it, and he clinched it on the other side.",
+          "statement_id": "Fauset mencatat sebuah kisah singkat: seorang penutur mengaku seekor gallinipper mengejarnya di daerah Mobile, berlari di balik pohon dan menembus pohon itu, lalu ia mendekapnya dari sisi lain.",
+          "quote": "A gallinipper come after me down Mobile way. He run behind that tree. The gallinipper come th’oo the tree. I clinched on the other side. I had him.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gaoh",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "c3f6c174d7ad77e0ae0f8ec5ea9738659c6a6e0cf983951d076e41b85ad6f98f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gaoh-c01",
@@ -1445,7 +2491,7 @@
           "host": "en.wikipedia.org",
           "statement": "His winds are Ya-o-gah (Bear, north), Da-jo-ji (Panther, west), O-yan-do-ne (Moose, east) and Ne-o-gah (Fawn, south).",
           "statement_id": "Angin-anginnya adalah Ya-o-gah (beruang angin utara), Da-jo-ji (macan kumbang angin barat), O-yan-do-ne (rusa besar angin timur), dan Ne-o-gah (anak rusa angin selatan).",
-          "quote": "Ya-o-gah, Bear of the north wind, Da-jo-ji, Panther of the west wind, O-yan-do-ne, Moose of the east wind and Ne-o-gah, Fawn of the south wind.",
+          "quote": "Ya-o-gah ... or Bear of the north wind, Da-jo-ji ... or Panther of the west wind, O-yan-do-ne ... or Moose of the east wind and Ne-o-gah ... or Fawn of the south wind.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1458,26 +2504,111 @@
           "quote": "In the Seneca version of the myth, Gaoh is chained to a rock, and winds would blow when he attempts to break free.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gaoh-c08",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "Though of giant proportions, Ga-oh, who governs the winds, is confined in the broad north sky.",
+          "statement_id": "Meski bertubuh raksasa, Ga-oh, yang menguasai angin, dikurung di langit utara yang luas.",
+          "quote": "Though of giant proportions, Ga-oh ... who governs the winds, is confined in the broad north sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c09",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "Were Ga-oh free, he would tear the heavens into fragments.",
+          "statement_id": "Seandainya Ga-oh bebas, ia akan mencabik langit menjadi serpihan.",
+          "quote": "Were Ga-oh free, he would tear the heavens into fragments.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c10",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "Ga-oh is not an evil being, however his four winds may rage; on the contrary he is solicitous for the welfare of men and ever obedient to the commands of the Creator.",
+          "statement_id": "Ga-oh bukan makhluk jahat, seganas apa pun keempat anginnya; sebaliknya ia peduli pada kesejahteraan manusia dan selalu menaati perintah Sang Pencipta.",
+          "quote": "Ga-oh is not an evil being, howsoever his four winds may rage, but on the contrary, solicitous for the welfare of men and ever obedient to the commands of the Creator.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c11",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "In a footnote the writer states, from her researches, that Ga-oh dwells in the west sky, agreeing with Morgan, who names the western sky as the abode of the wind spirit and calls his dwelling Da-yo-da-do-go-wa.",
+          "statement_id": "Dalam catatan kaki, penulis menyatakan berdasarkan penelitiannya bahwa Ga-oh tinggal di langit barat, sejalan dengan Morgan yang menyebut langit barat sebagai tempat tinggal roh angin dan menamai kediamannya Da-yo-da-do-go-wa.",
+          "quote": "Ga-oh dwells in the west sky according to the researches of the writer, agreeing with Morgan who names the western sky as the abode of the wind spirit and calls his dwelling Da-yo-da-do-go-wa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c12",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "At the entrance of his abode are four watchers: the Bear (north wind), Panther (west wind), Moose (east wind) and Fawn (south wind).",
+          "statement_id": "Di pintu kediamannya ada empat penjaga: Beruang (angin utara), Macan Kumbang (angin barat), Rusa Besar (angin timur), dan Anak Rusa (angin selatan).",
+          "quote": "the Bear (north wind). Panther (west wind). Moose (east wind), and Fawn (south wind).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c13",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "When Ga-oh is contented and happy, gentle and invigorating breezes fan Earth.",
+          "statement_id": "Ketika Ga-oh puas dan bahagia, angin sepoi-sepoi yang lembut dan menyegarkan berembus ke Bumi.",
+          "quote": "When Ga-oh is contented and happy, gentle and invigorating breezes fan Earth",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c14",
+          "source_id": "gaoh-s2",
+          "host": "archive.org",
+          "statement": "A footnote says that Ga-oh is the name of the wind spirit according to Morgan.",
+          "statement_id": "Dalam catatan kaki disebutkan bahwa Ga-oh adalah nama roh angin menurut Morgan.",
+          "quote": "Ga-oh is the name of the wind spirit according to Morgan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c15",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Depending on the myths, he either lives in a house in the sky or in a mountain cave called \"the House of Winds.\"",
+          "statement_id": "Tergantung mitosnya, ia tinggal di rumah di langit atau di gua gunung bernama \"Rumah Angin\".",
+          "quote": "Depending on the myths, he either lives in a house in the sky, or a mountain cave called \"the House of Winds.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c16",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some versions of the myths describe the winds as the guardians of Gaoh's home, while others describe them as locked up in his home, to be released once Gaoh receives the order from the Great Spirit.",
+          "statement_id": "Sebagian versi mitos menggambarkan angin sebagai penjaga rumah Gaoh, sementara versi lain menggambarkan angin terkunci di rumahnya dan akan dilepaskan setelah Gaoh menerima perintah dari Roh Agung.",
+          "quote": "Some versions of the myths describe the winds as the guardians of Gaoh's home, while others describe the winds being locked up in his home, who were to be released once Gaoh receives the order from the Great Spirit.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "guahaioque",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "fb87256ca42e4eab3a36991b455dbf7a370399be1aaa5dc34001955a2bac3374",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "guahaioque-c01",
@@ -1508,26 +2639,51 @@
           "quote": "The name Guahaioque lives on as the name of a folk metal band from Cali.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "guahaioque-c04",
+          "source_id": "guahaioque-s2",
+          "host": "muysca.cubun.org",
+          "statement": "The Muysca-Spanish dictionary defines guahaioque as a noun meaning \"demonio, diablo\" (literally \"figura de difunto\").",
+          "statement_id": "Kamus Muysca-Spanyol mendefinisikan guahaioque sebagai kata benda yang berarti \"demonio, diablo\" (secara harfiah \"figura de difunto\").",
+          "quote": "I. s. Demonio, diablo ( lit. \"figura de difunto\". )",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "guahaioque-c05",
+          "source_id": "guahaioque-s2",
+          "host": "muysca.cubun.org",
+          "statement": "The dictionary cites a manuscript identified as Ms. 158 (Voc.), in which \"demonio\" is rendered guahaioque (fol. 53r) and \"diablo\" guhaioque (fol. 59r).",
+          "statement_id": "Kamus mengutip naskah yang disebut Ms. 158 (Voc.), tempat \"demonio\" dipadankan dengan guahaioque (fol. 53r) dan \"diablo\" dengan guhaioque (fol. 59r).",
+          "quote": "Demonio = guahaioque = [sic] (Gómez & Torres, 2013) - Ms. 158. Voc. fol. 53r Diablo = guhaioque = [sic] (Gómez & Torres, 2013) - Ms. 158. Voc. fol. 59r",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "guahaioque-c06",
+          "source_id": "guahaioque-s2",
+          "host": "muysca.cubun.org",
+          "statement": "The dictionary entry gives the spellings guahaioque and guhaioque and the morphological analysis guahaia-uque.",
+          "statement_id": "Entri kamus memuat ejaan guahaioque dan guhaioque serta uraian morfologis guahaia-uque.",
+          "quote": "guahaioque, guhaioque Fon. Gonz.*/ɣuahaioke/ Cons. */ɣuahaioke/ Morf. guahaia-uque",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "guaraci",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-2.md",
+      "entry_sha256": "2657796b12d21da72e4f7f500fcf3b89c2e1d453887e731f1eba5d76184f0c28",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "guaraci-c01",
@@ -1537,6 +2693,76 @@
           "statement_id": "Guaraci atau Quaraci (dari kata Tupi kûarasý, \"matahari\") adalah dewa Matahari dalam mitologi Guaraní, pencipta semua makhluk hidup.",
           "quote": "Guaraci or Quaraci (from Tupi kûarasý, \"sun\") in the Guaraní mythology is the god of the Sun, creator of all living creatures.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c02",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, Coaraci is the Sun in the Tupi or Nheengatu language, from coá \"this\", ara \"day\" and ci \"mother\": \"mother of this day\", \"mother of the day\", the explanation of the origin of daylight.",
+          "statement_id": "Menurut Cascudo, Coaraci adalah Matahari dalam bahasa Tupi atau nheengatu, dari coá \"ini\", ara \"hari\", dan ci \"ibu\": \"ibu hari ini\", \"ibu sang hari\", penjelasan asal cahaya siang.",
+          "quote": "Coaraci. O Sol no idioma tupi, ou nheengatu. De coá, este, ara dia, ci, mãe deste dia, mãe do dia, a explica- ção da origem da luz diurna.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c03",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "In the Guaraci entry, Cascudo writes that Couto de Magalhães, who devised an indigenous theogony, stated that the Sun is the creator of all living things, in charge of directing the animal kingdom.",
+          "statement_id": "Dalam verbet Guaraci, Cascudo menulis bahwa Couto de Magalhães, yang menyusun sebuah teogoni pribumi, menyatakan Matahari adalah pencipta semua makhluk hidup dan bertugas memimpin dunia hewan.",
+          "quote": "Guaraci. Couto de Magalhães, que arquitetara uma teogonia indígena, escreveu que o Sol é o criador de todos os viventes, encarregado de dirigir o reino animal",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c04",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "In that theogony, subject to Coaraci live Anhangá, protecting the game of the open field, Caapora, that of the forest, Guirapuru, the birds, and Uauiará, the fish.",
+          "statement_id": "Dalam teogoni itu, di bawah Coaraci hidup Anhangá yang melindungi buruan padang, Caapora yang melindungi buruan hutan, Guirapuru yang melindungi burung, dan Uauiará yang melindungi ikan.",
+          "quote": "Sujeitos a Coaraci, com o domí- nio sobre os seres privativos de sua jurisdição, vivem Anhangá, protegen- do a caça do campo, Caapora, a do mato, Guirapuru, os pássaros, Uauia- rá, os peixes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c05",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "In that theogony, Coaraci's sister and wife is Jaci, the Moon, who likewise has her court with functions identical to her brother's.",
+          "statement_id": "Dalam teogoni itu, saudari sekaligus istri Coaraci adalah Jaci, sang Bulan, yang juga memiliki istana dengan fungsi yang sama dengan saudaranya.",
+          "quote": "A irmã e esposa do Coa- raci é Jaci, a Lua, tendo semelhante- mente sua corte, com funções idênti- cas às do seu irmão.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c06",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "Cascudo writes that there are no traces supporting the existence of an astral cult among the indigenous peoples of Brazil, and that they had no devotion to the Sun.",
+          "statement_id": "Cascudo menulis bahwa tidak ada jejak yang mendukung adanya pemujaan benda langit di kalangan masyarakat pribumi Brasil, dan bahwa mereka tidak memiliki pengabdian apa pun kepada Matahari.",
+          "quote": "Não há vestígios que fundarmentem a existência de um culto astrolátrico entre os indígenas do Brasil. Os indígenas nenhuma de- voção possuíam para o Sol",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c07",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "According to Cascudo, Stradelli says the form Coraci was heard pronounced in Pará and the lower Amazon.",
+          "statement_id": "Menurut Cascudo, Stradelli mengatakan bentuk Coraci terdengar diucapkan di Pará dan Amazonas hilir.",
+          "quote": "Stradelli diz que se ouvia pronunciar Coraci no Pará e baixo Amazonas.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "guaraci-c08",
+          "source_id": "guaraci-s2",
+          "host": "archive.org",
+          "statement": "In the Jaci entry, Cascudo describes Jaci as sister and wife of the Sun in the indigenous theogony, the Sun being named Coaraci, Coraci, Goaraci or Gorazi.",
+          "statement_id": "Dalam verbet Jaci, Cascudo menyebut Jaci sebagai saudari dan istri sang Matahari dalam teogoni pribumi, dengan nama Coaraci, Coraci, Goaraci, atau Gorazi.",
+          "quote": "Na teogonia indígena era irmã e ca- sada com o Sol, Coaraci, Coraci, Goa- raci, Gorazi.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1600,7 +2826,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "01f2a65498bfdbe63504e42bde8b99f751be5baaebb3814cbae34629a8784e65"
     },
     {
       "slug": "jenu",
@@ -1670,7 +2897,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bc813f1adb741e95d877dc08c805fd3551c4e5809cf9af3d1e6066e232ddfb5b"
     },
     {
       "slug": "la-bolefuego",
@@ -1730,7 +2958,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "72f0e4c59d6e1d10943d2e89b8bb85ed627170d8ffeccbf1e7854608e863cec0"
     },
     {
       "slug": "la-diablesse",
@@ -1800,7 +3029,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "733a9acf08781ad190b542475c1af90543983e5f9c390400952de836c5f86ac9"
     },
     {
       "slug": "lagahoo",
@@ -1880,7 +3110,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "23eb965e56e5cceb6546031bf0b48daa01f667f4b86c6bcf65bf085693a32a37"
     },
     {
       "slug": "letiche",
@@ -1930,7 +3161,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6874a3f9100b591940ff79d9c75d02d96f157dc4fbc1acc3d2f84af545d8b0bc"
     },
     {
       "slug": "madre-de-aguas",
@@ -2010,7 +3242,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0165e8a99a88e36cc8f167975bbacfddec3656495280461aa6704436e7e7bad5"
     },
     {
       "slug": "midnight-beauty",
@@ -2100,7 +3333,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a15f8da5f8f2fc2a9ecb59469f4ad700af4ff518b8cc57d68731703a6431fe1b"
     },
     {
       "slug": "mixtecatl",
@@ -2140,7 +3374,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "80d8b988852e062124d30b69829aa65a13f8d10610ddc66a835c9932e52b78cd"
     },
     {
       "slug": "otomitl",
@@ -2180,7 +3415,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d69930cf669441658d1c56956ed0c1f08ec0b966a1e27651a3bbdbfced15e541"
     },
     {
       "slug": "pincoy",
@@ -2250,7 +3486,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7444d5b531050a4ad9bbefa1791192f804c10b313628dfa9e6f7563eda0b7311"
     },
     {
       "slug": "qailertetang",
@@ -2330,7 +3567,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7d027777ffe394e8b0a0b6d26622507a84e0bfda460e13d5a93fa2575dd0fe6d"
     },
     {
       "slug": "muki-mythology",
@@ -2410,7 +3648,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1d3ce6a9c02d3e440dee700219664337642c5050762b19174559f8d6dceaacfa"
     },
     {
       "slug": "mussie",
@@ -2480,7 +3719,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "796d633a608510f968ec910224a0c6ef7351eec1bbda03f2e9fb0ef08eed76bf"
     },
     {
       "slug": "north-shore-monster",
@@ -2550,7 +3790,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "34c75fbcd2c47d9a2dc8f3645e9eea73697df69442c360b753405f49716d1226"
     },
     {
       "slug": "seelkee",
@@ -2620,7 +3861,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4d9d384121407ea4772cfb2e4effc340fce58d99922a798fcff221240c4e986d"
     },
     {
       "slug": "si-te-cah",
@@ -2690,7 +3932,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6d5c58ed7f9ecf61874f3baa668de4ffbe064274b97ca8924fbf0d63f33cbff9"
     },
     {
       "slug": "tulevieja",
@@ -2760,7 +4003,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bb45ec610f376865cc4afa06d180cf443c521bf7d6933870323f11beeb848157"
     },
     {
       "slug": "turtle-lake-monster",
@@ -2820,7 +4064,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6d7929207d54a7b2968ad87717c3d10737e7f462f25ee3ac97cb691e14c9d49f"
     },
     {
       "slug": "ulmecatl",
@@ -2860,7 +4105,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d5e74a3c4cd18d1390a53acb1b082a40f65d6b2c2a2d2f875c947f1aaa26d323"
     },
     {
       "slug": "unhcegila",
@@ -2920,7 +4166,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "35f7355fa50368631e3bfede0a27d1185d4f4ff7fee3906cdfee9e48703e3fc5"
     },
     {
       "slug": "yahui",
@@ -2990,7 +4237,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c449db785c01249b411a81eacb807a032b1c135c958dc3f495640f72ec2529f"
     },
     {
       "slug": "zapam-zucum",
@@ -3060,24 +4308,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f90a9bbbb8143d431cfc6aeec96cf84416b7e2806cbd0765a0f87def85243a9e"
     },
     {
       "slug": "ahola",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "4eb27528e3909574d263ad94f46148c1950db0a9312bfdfe39e772f601eb4f55",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ahola-c01",
@@ -3118,26 +4362,71 @@
           "quote": "Ahöla is also the friend of Eototo",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ahola-c05",
+          "source_id": "ahola-s2",
+          "host": "archive.org",
+          "statement": "In the note on a Hopi painting of the Soyal ritual, Ahola comes over to a house; the man of the house speaks to him and the kachina merely gestures.",
+          "statement_id": "Dalam keterangan lukisan Hopi tentang upacara Soyal, Ahola datang ke sebuah rumah; tuan rumah berbicara kepadanya, dan kachina itu hanya memberi isyarat.",
+          "quote": "An additional ritual part of Soyal is depicted. ... Ahola comes over to the house.\" The man of the house speaks to the kachina who merely gestures.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c06",
+          "source_id": "ahola-s2",
+          "host": "archive.org",
+          "statement": "According to the note, Ahola Mana follows Ahola carrying seeds of various types from the fields of the Kachina Chief.",
+          "statement_id": "Menurut keterangan itu, Ahola Mana mengikuti Ahola sambil membawa berbagai jenis biji dari ladang Kachina Chief.",
+          "quote": "Following Ahola, Ahola Mana carries seeds of various types from the fields of the Kachina Chief.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c07",
+          "source_id": "ahola-s2",
+          "host": "archive.org",
+          "statement": "The book gives Ahola Wotaka, \"Old Man Ahola,\" as described by another viewer of the painting.",
+          "statement_id": "Buku itu menyebut Ahola Wotaka, \"Old Man Ahola\", sebagaimana dijelaskan oleh seorang penonton lukisan.",
+          "quote": "Ahola Wotaka, \"Old Man Ahola,\" was described by another viewer:",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c08",
+          "source_id": "ahola-s2",
+          "host": "archive.org",
+          "statement": "One viewer says Ahola is the first to come in February, wobbling around because he was just wakened, and after he goes home Soyal Kachina comes in.",
+          "statement_id": "Seorang penonton lukisan berkata bahwa Ahola yang pertama datang pada bulan Februari, berjalan terhuyung-huyung karena baru dibangunkan, dan setelah ia pulang barulah Soyal Kachina datang.",
+          "quote": "\"Ahola is the first one that comes in February. He wobbles around because he was just wakened and after he goes home Soyal Kachina comes in",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c09",
+          "source_id": "ahola-s2",
+          "host": "archive.org",
+          "statement": "The same viewer says they come to the headman of the kiva and he prays to Ahola and Aholmana.",
+          "statement_id": "Penonton yang sama berkata bahwa mereka datang kepada kepala kiva, yang berdoa kepada Ahola dan Aholmana.",
+          "quote": "They come to the headman of the kiva and he prays to Ahola and Aholmana.\"",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "akva-nigrulo",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "06cff80c5a6f63ebce744bd2d6158e468a6ea4e7c3ce3e1ffa17f46527260a4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akva-nigrulo-c01",
@@ -3188,26 +4477,71 @@
           "quote": "Câmara Cascudo chama-o \"Negro do Rio\" e o considera um derivado do Ipupiara.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c06",
+          "source_id": "akva-nigrulo-s2",
+          "host": "archive.org",
+          "statement": "In his Caboclo-d'Água entry, Cascudo lists Negro-d'água among that being's other names and quotes José A. Teixeira (Folclore Goiano) about it.",
+          "statement_id": "Dalam verbete Caboclo-d'Água, Cascudo mencatat Negro-d'água di antara nama lain makhluk itu dan mengutip uraian José A. Teixeira (Folclore Goiano) tentangnya.",
+          "quote": "Moleque-d'água, Caboclo, Negro- “d'água, Sobre o Negro-d'água escre- ve José A. Teixeira (Folclore Goiano,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c07",
+          "source_id": "akva-nigrulo-s2",
+          "host": "archive.org",
+          "statement": "In the passage by Teixeira quoted by Cascudo, the Negro-d'água inhabits the banks of rivers running through the Paraná valley; it is all black, bald-headed, with duck hands and feet.",
+          "statement_id": "Dalam kutipan Teixeira yang dimuat Cascudo, Negro-d'água mendiami tepi sungai-sungai yang mengalir di lembah Paraná; ia serba hitam, berkepala botak, bertangan dan berkaki bebek.",
+          "quote": "Habita as mar- gens dos rios que correm pelo vão do Paraná. É todo preto. Cabeça pelada. Mãos e pés de pato.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c08",
+          "source_id": "akva-nigrulo-s2",
+          "host": "archive.org",
+          "statement": "According to the passage, it appears among rocks (pedras) at dusk (à tardinha) or on moonlit nights (noites de luar) to canoeists and fishermen, and tries to overturn the canoe (virar a canoa).",
+          "statement_id": "Menurut kutipan itu, ia muncul di antara bebatuan (pedras) pada senja (à tardinha) atau malam berbulan purnama (noites de luar) kepada pendayung kano dan nelayan, dan berusaha membalikkan kano (virar a canoa).",
+          "quote": "Aparece entre pedras, à tardinha ou em noites de luar, a canoeiros e pescadores do ... e seus afluentes. E procura virar a canoa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c09",
+          "source_id": "akva-nigrulo-s2",
+          "host": "archive.org",
+          "statement": "According to the passage, shooting at it is foolish: the bullet strikes the hairy hide of the black one.",
+          "statement_id": "Menurut kutipan itu, menembaknya sia-sia karena peluru memantul dari kulit berbulu si hitam.",
+          "quote": "É bobagem atirar bala: bate no couro peludo do negro",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c10",
+          "source_id": "akva-nigrulo-s2",
+          "host": "archive.org",
+          "statement": "Cascudo writes that the Ipupiara gives rise to the Caboclo do Rio or Negro do Rio, which overturns boats and drowns people.",
+          "statement_id": "Cascudo menulis bahwa Ipupiara akan menurunkan Caboclo do Rio atau Negro do Rio, yang membalikkan perahu dan menenggelamkan orang.",
+          "quote": "O Ipupiara dará o Caboclo do Rio ou o Negro do Rio, virando embarcações, afogando,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amarum",
-      "file": "batch-146.md",
+      "file": "batch-146-fix-1.md",
+      "entry_sha256": "25b9b1a73d0929f9a4234a36e443e471082d49ea52793c6a71d12441f9a09440",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amarum-c01",
@@ -3217,6 +4551,56 @@
           "statement_id": "Dalam mitologi orang Quechua di Ekuador, Amarum adalah roh berwujud ular boa air yang membawa hujan.",
           "quote": "In the mythology of the Quechua people of Ecuador, Amarum is a spirit in the shape of a water boa that bring rain.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarum-c02",
+          "source_id": "amarum-s2",
+          "host": "archive.org",
+          "statement": "Bonnerjea's dictionary describes Amarum as one of the most formidable demons known among the Quichas of Ecuador, in the form of a huge water boa.",
+          "statement_id": "Dalam Kamus Takhayul dan Mitologi karya Bonnerjea, Amarum disebut sebagai salah satu iblis paling menakutkan di kalangan orang Quichas di Ekuador dan berwujud ular boa air raksasa.",
+          "quote": "Among the Quichas of Equador this is one of the most formidable demons known; it is of the form of a huge water-boa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarum-c03",
+          "source_id": "amarum-s2",
+          "host": "archive.org",
+          "statement": "According to the entry, Amarum is the father of witchcraft, and the souls of sorcerers are said to take up their abode in these monsters.",
+          "statement_id": "Menurut entri itu, Amarum adalah bapak ilmu sihir, dan arwah para dukun santet dikatakan berdiam di dalam makhluk-makhluk ini.",
+          "quote": "It is the father of witchcraft, and the souls of sorcerers are said to take up their abode in these monsters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarum-c04",
+          "source_id": "amarum-s2",
+          "host": "archive.org",
+          "statement": "Bonnerjea's entry on Amarum cites Karsten, Indian Tribes of Equador, page 70, as its reference.",
+          "statement_id": "Entri Bonnerjea tentang Amarum mencantumkan Karsten, Indian Tribes of Equador, halaman 70, sebagai rujukannya.",
+          "quote": "(KARSTEN, Indian Tribes of Equador, P. 70.)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amarum-c05",
+          "source_id": "amarum-s3",
+          "host": "archive.org",
+          "statement": "Karsten writes that the anaconda is the principal and most feared of all the demons that people the spiritual world of the Ecuadorian Indians, and that it is the father of witchcraft.",
+          "statement_id": "Karsten menulis bahwa anakonda adalah yang utama dan paling ditakuti di antara semua iblis yang mendiami dunia roh orang Indian Ekuador, dan bahwa ia adalah bapak ilmu sihir.",
+          "quote": "The anaconda, in fact, is the principal and the most feared of all the demons that people the spiritual world of the Ecuadorian Indians. He is the father of witchcraft.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amarum-c06",
+          "source_id": "amarum-s3",
+          "host": "archive.org",
+          "statement": "Karsten writes that the souls of medicine-men are supposed to be able to transmigrate into the anaconda, both after death and in life, and that when the Indians kill such a monster they say they have killed an evil sorcerer.",
+          "statement_id": "Karsten menulis bahwa jiwa para dukun dianggap dapat berpindah ke dalam anakonda, baik setelah mati maupun semasa hidup, dan bahwa orang Indian yang membunuh makhluk itu mengatakan telah membunuh seorang dukun jahat.",
+          "quote": "Both after death and in their lifetime the souls of the medicine-men are supposed to be able to transmigrate into the anaconda; and when the Indians kill such a monster they say that they have killed an evil sorcerer.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
