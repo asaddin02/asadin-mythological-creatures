@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-075",
-  "checked_at": "2026-10-06T15:24:10.195Z",
+  "checked_at": "2026-10-06T19:08:15.587Z",
   "files": [
     "batch-075.md",
     "batch-075-fix-1.md",
     "batch-075-fix-2.md",
     "batch-075-fix-3.md",
-    "batch-075-fix-4.md"
+    "batch-075-fix-4.md",
+    "batch-075-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1663,20 +1664,15 @@
     },
     {
       "slug": "banjhakri-and-banjhakrini",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "52d5254ba72c88bed96b5deaad2e70700e40de5d6fe67980bc034c85b755e3fd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "banjhakri-and-banjhakrini-c01",
@@ -1727,25 +1723,145 @@
           "quote": "He trains the children who pass Banjhākrini's initiation. When the children return home with their shamanic training, they can become more powerful than the shamans trained by people.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c06",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "According to this article, nearly all caste-based traditions of shamanism in the region consider banjhakri the original guru of all shamans and the source of all shamanic knowledge.",
+          "statement_id": "Menurut artikel ini, hampir semua tradisi perdukunan berbasis kasta di kawasan itu menganggap banjhakri sebagai guru asal semua dukun dan sumber seluruh pengetahuan perdukunan.",
+          "quote": "Nearly all caste-based traditions of shamanism in the region consider banjhakri as the original guru of all shamans and the source of all shamanic knowledge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c07",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Banjhakri is associated with deep mountainous forests and is often thought to reside in caves, caverns, big cliffs, sources of springs, and behind waterfalls.",
+          "statement_id": "Banjhakri dikaitkan dengan hutan pegunungan yang dalam dan sering dipercaya tinggal di gua, ceruk besar, tebing besar, mata air, dan di balik air terjun.",
+          "quote": "Associated with deep mountainous forests, banjhakri is often thought to reside in caves, caverns, big cliffs, sources of springs, and behind the waterfalls.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c08",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Banjhakri is universally described as a short ape-like man with a conical golden head, red face, long ears, long tangled hair all over his body, and a long white beard.",
+          "statement_id": "Banjhakri digambarkan secara universal sebagai lelaki pendek mirip kera, berkepala kerucut keemasan, berwajah merah, bertelinga panjang, berambut panjang kusut di sekujur tubuh, dan berjanggut putih panjang.",
+          "quote": "He is universally described as a short ape-like man, with a conical golden head, red face, long ears, long tangled hair all over his body and a long white beard",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c09",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "To impart his recondite shamanic knowledge, a banjhakri kidnaps 'unblemished' young people and trains them for an uncertain period ranging from a couple of days to months.",
+          "statement_id": "Untuk menurunkan pengetahuan perdukunannya yang rahasia, banjhakri menculik anak muda yang 'tanpa cela' dan melatih mereka selama waktu yang tidak pasti, dari beberapa hari hingga berbulan-bulan.",
+          "quote": "To impart his recondite shamanic knowledge, a banjhakri kidnaps “unblemished” young people and trains them for an uncertain period of time, ranging from a couple of days to months.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c10",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Almost all accounts describe banjhakri as a kind and intelligent teacher.",
+          "statement_id": "Hampir semua kisah menggambarkan banjhakri sebagai guru yang baik hati dan cerdas.",
+          "quote": "Nevertheless, almost all accounts describe banjhakri as a kind and intelligent teacher.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c11",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "In sharp contrast with banjhakri, his consort banjhakrini is described as a big beastly creature with long saggy breasts, violent in nature and fond of devouring human flesh.",
+          "statement_id": "Berbeda tajam dari banjhakri, pasangannya, banjhakrini, digambarkan sebagai makhluk besar buas berpayudara panjang menggantung, bersifat kejam, dan gemar memakan daging manusia.",
+          "quote": "This is a sharp contrast with his consort, banjhakrini, who is described as a big beastly creature, with long saggy breasts, who is violent in nature and loves to devour human flesh",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c12",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Banjhakri has to constantly dominate his wife through his power so that she would not eat his pupils.",
+          "statement_id": "Banjhakri harus terus-menerus menundukkan istrinya dengan kekuatannya agar ia tidak memakan murid-muridnya.",
+          "quote": "Indeed, banjhakri has to constantly dominate his wife through his power, so that she would not eat his pupils",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c13",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Children are warned to run quickly downhill if they meet a banjhakrini, because she is likely to fall over her long breasts, which she throws over her shoulder when going uphill so as to move much faster.",
+          "statement_id": "Anak-anak diperingatkan untuk lari cepat menuruni lereng bila bertemu banjhakrini, karena ia cenderung terjatuh tersandung payudaranya yang panjang, yang ia lemparkan ke atas bahunya saat mendaki agar bergerak jauh lebih cepat.",
+          "quote": "Children are warned to run away quickly downhill if they meet a banjhakrini as she will likely fall over her long breasts, which she throws over her shoulder when going upwards so as to be able to move much faster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c14",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "The banjhakrini is held to be the most powerful of all witches and is feared by jhakri in many areas of Nepal.",
+          "statement_id": "Banjhakrini dianggap sebagai yang paling kuat di antara semua penyihir dan ditakuti para jhakri di banyak wilayah Nepal.",
+          "quote": "The banjhakrini is the most powerful of all witches and is feared by jhakri in many areas of Nepal",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c15",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "In one creation story, Mahadev fell sick and in a dream gave a mantra and caused a disciple to come to his aid; this first disciple, made by Mahadev to cure himself, was a banjhakri.",
+          "statement_id": "Dalam salah satu kisah penciptaan, Mahadev jatuh sakit dan lewat mimpi memberikan mantra serta menurunkan seorang murid untuk menolongnya; murid pertama yang dibuat Mahadev untuk menyembuhkan dirinya itu adalah seorang banjhakri.",
+          "quote": "Mahadev fell sick and needed someone to blow on him and cure him, so in a dream he gave a mantra and caused a disciple to come down to his aid ... This first disciple, the one made by Mahadev to cure himself, was a banjhakri.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c16",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "Unlike mainstream Hinduism, which holds Parvati as the ideal virtuous matron, the Chepang believe her to be a malicious witch who tried to kill her own son; in this lore Mahadev saved their son by creating the first banjhakri and killed Parvati.",
+          "statement_id": "Berbeda dari Hindu arus utama yang memandang Parvati sebagai ibu teladan, orang Chepang meyakininya sebagai penyihir jahat yang berusaha membunuh putranya sendiri; menurut kisah ini Mahadev menyelamatkan putra mereka dengan menciptakan banjhakri pertama dan membunuh Parvati.",
+          "quote": "While mainstream Hinduism holds Parvati as the ideal virtuous matron, Chepangs believe her to be a malicious witch who tried to kill her own son. According to this lore, Mahadev saved their son by creating the first banjhakri and killed Parvati for her crime",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "banjhakri-and-banjhakrini-c17",
+          "source_id": "banjhakri-and-banjhakrini-s2",
+          "host": "www.nepjol.info",
+          "statement": "The initiates are taught mantar (incitation) with special dhyangro beats that they must recite and sing to cure illnesses and chase away ghostly spirits.",
+          "statement_id": "Para murid diajari mantar (mantra) beserta tabuhan dhyangro khusus yang harus mereka lafalkan dan nyanyikan untuk menyembuhkan penyakit dan mengusir roh hantu.",
+          "quote": "They are taught mantar (incitation) with special dhyangro beats that they will have to recite and sing to cure illnesses and chase ghostly spirits",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3dbe1b47e904e79a7bea44062c9ffd4ce157808fcdff302f30ff1b1c2d29def1"
+      "images": []
     },
     {
       "slug": "chedipe",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "9b17b9f1bd9625db435bf866129e98ab9d27c09432a070f2da0bc3ffddcf6bb9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "9 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -1798,10 +1914,118 @@
           "quote": "Sometimes, the chedipe undresses and turns into a tiger with one human leg and attacks men in the forest. This form is known as Murulupuli (\"enchanting tiger\").",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chedipe-c06",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "The name Chedipe (prostitute) is applied to sorceresses in the Godavari district.",
+          "statement_id": "Nama Chedipe (pelacur) dipakai untuk penyihir perempuan di distrik Godavari.",
+          "quote": "The name Chedipe (prostitute) is applied to sorceresses in the Godavari district.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c07",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "The Chedipe is believed to ride on a tiger at night over the boundaries of seven villages and to return home at early morning.",
+          "statement_id": "Chedipe dipercaya menunggang harimau pada malam hari melintasi batas tujuh desa dan pulang ke rumah pada dini hari.",
+          "quote": "The Chedipe is believed to ride on a tiger at night over the boundaries of seven villages, and return home at early morn.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c08",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "When she does not like a man, she goes to him bare-bodied at dead of night, and the closed doors of the house where he sleeps open before her; she sucks his blood by putting his toe in her mouth, and he then lies like a corpse.",
+          "statement_id": "Bila tidak menyukai seorang laki-laki, ia mendatanginya telanjang pada tengah malam, dan pintu tertutup rumah tempat laki-laki itu tidur terbuka di hadapannya; ia mengisap darah laki-laki itu dengan memasukkan jari kakinya ke mulut, lalu korban terbaring seperti mayat.",
+          "quote": "When she does not like a man, she goes to him bare-bodied at dead of night, the closed doors of the house in which he is sleeping opening before her. She sucks his blood by putting his toe in her mouth. He will then lie like a corpse.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c09",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "The next morning the victim feels uneasy and intoxicated as if he had taken ganja and stays so all day; if he takes no medicine from someone skilled in treating such cases, it is said he will die.",
+          "statement_id": "Keesokan paginya korban merasa gelisah dan mabuk seperti habis memakai ganja, dan keadaan itu bertahan sepanjang hari; bila ia tidak berobat kepada orang yang ahli menangani kasus semacam itu, konon ia akan meninggal.",
+          "quote": "Next morning he feels uneasy and intoxicated, as if he had taken ganja, and remains in this condition all day. If he does not take medicine from some one skilled in the treatment of such cases, it is said that he will die.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c10",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "When a Chedipe enters a house, all those who are awake become insensible, and those who are seated fall down as if they had taken a soporific drug.",
+          "statement_id": "Ketika Chedipe memasuki sebuah rumah, semua orang yang terjaga menjadi tak sadarkan diri, dan yang sedang duduk jatuh seakan telah meminum obat bius.",
+          "quote": "When a Chedipe enters a house, all those who are awake will become insensible, those who are seated falling down as if they had taken a soporific drug.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c11",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "Sometimes she drags out the tongue of the intended victim, who dies at once.",
+          "statement_id": "Kadang-kadang ia menarik keluar lidah calon korbannya, yang kemudian langsung meninggal.",
+          "quote": "Sometimes she drags out the tongue of the intended victim, who will die at once.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c12",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "If the man is brave and tries to kill the Chedipe with any instrument he has with him, she runs away; and if a man of her village detects her mischief, she assumes her real form and blandly says she is only digging roots.",
+          "statement_id": "Bila laki-laki itu pemberani dan mencoba membunuh Chedipe dengan alat apa pun yang dibawanya, ia akan melarikan diri; dan bila seorang laki-laki dari desanya mengetahui perbuatan jahatnya, ia kembali ke wujud aslinya dan dengan tenang mengaku hanya sedang menggali akar.",
+          "quote": "If the man is a brave fellow, and tries to kill the Chedipe with any instrument he may have with him, she will run away ; and, if any man belonging to her village detects her mischief, she will assume her real form, and say blandly that she is only digging roots.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c13",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "Taking the form of a tiger with one leg in human form, she falls on any passer-by in the jungle; thus disguised she is called Marulupuli (enchanting tiger).",
+          "statement_id": "Dalam wujud harimau dengan satu kaki berbentuk manusia, ia menyergap siapa pun yang lewat di hutan belantara; dalam penyamaran itu ia disebut Marulupuli (harimau pemikat).",
+          "quote": "fall on any passer-by in the jungle, assuming the form of a tiger with one of the legs in human form. When thus disguised, she is called Marulupuli (enchanting tiger).",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c14",
+          "source_id": "chedipe-s2",
+          "host": "archive.org",
+          "statement": "If the victim is properly treated, he recovers in about ten days.",
+          "statement_id": "Bila korban diobati dengan benar, ia akan pulih dalam sekitar sepuluh hari.",
+          "quote": "If he is properly treated, he will recover in about ten days.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chedipe-c15",
+          "source_id": "chedipe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some traditions say she feasts only on the strongest man of the house; others suggest the chedipe targets only the man she dislikes.",
+          "statement_id": "Sebagian tradisi mengatakan ia hanya memangsa laki-laki terkuat di rumah itu; yang lain mengatakan chedipe hanya menyasar laki-laki yang tidak disukainya.",
+          "quote": "Some traditions say that she feasts only on the strongest man of the house. Others suggest that the chedipe targets only the man whom she dislikes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "95f33d4e7d7912d9669d176b91ca91c53a37f118fded5de0154135b3ed0ace72"
+      "images": []
     },
     {
       "slug": "rantas",
@@ -2305,18 +2529,19 @@
     },
     {
       "slug": "eight-great-yaksa-generals",
-      "file": "batch-075-fix-2.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "9f069339d0db11757e8fc136ffa6f85bdc7c7c428012d663356367d83a0198b8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "places[0].name",
+          "message": "Tidak muncul di kutipan mana pun: Buddhas. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2369,27 +2594,61 @@
           "quote": "Among the many yakṣas under Vaiśravaṇa's rule, the Eight Great Yakṣa Generals are ranked at the top of the hierarchy. Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas that serve their king and are said to protect those who venerate them. A similar list may be found among the Twenty-Eight Great Yakṣa Generals.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "eight-great-yaksa-generals-c06",
+          "source_id": "eight-great-yaksa-generals-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Buddhist mythology, Vaiśravaṇa is the chief of these beings and long ago dwelt together with them in the realm of darkness; when he converted to Buddhism, the many demonic spirits under his jurisdiction likewise became devotees of the Buddha.",
+          "statement_id": "Menurut mitologi Buddha, Vaiśravaṇa adalah kepala makhluk-makhluk ini dan dahulu tinggal bersama mereka di alam kegelapan; ketika Vaiśravaṇa memeluk agama Buddha, banyak roh iblis di bawah kekuasaannya juga menjadi pengikut Sang Buddha.",
+          "quote": "According to Buddhist mythology, Vaiśravaṇa is the chief of these beings, and long ago dwelt together with them in the realm of darkness. When Vaiśravaṇa converted to Buddhism, the many demonic spirits under his jurisdiction likewise assumed the role of devotees to the Buddha.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eight-great-yaksa-generals-c07",
+          "source_id": "eight-great-yaksa-generals-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas who serve their king and are said to protect those who venerate them.",
+          "statement_id": "Selalu berada di bawah perintah Vaiśravaṇa, para dewa ini memimpin 36.000 yaksa yang melayani raja mereka dan dikatakan melindungi orang-orang yang menghormati mereka.",
+          "quote": "Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas that serve their king and are said to protect those who venerate them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eight-great-yaksa-generals-c08",
+          "source_id": "eight-great-yaksa-generals-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, yasha also act as attendants of Bishamonten (毘沙門天), who is said to have 'eight yasha generals' (yasha hachidaishō, 夜叉八大将) under his command.",
+          "statement_id": "Menurut kamus ini, yasha juga bertindak sebagai pengiring Bishamonten (毘沙門天), yang dikatakan memiliki \"delapan jenderal yasha\" (yasha hachidaishō, 夜叉八大将) di bawah komandonya.",
+          "quote": "They also act as attendants of *Bishamonten 毘沙門天, who is said to have under his command “eight yasha generals” yasha hachidaishō 夜叉八大将.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eight-great-yaksa-generals-c11",
+          "source_id": "eight-great-yaksa-generals-s3",
+          "host": "buddhism.lib.ntu.edu.tw",
+          "statement": "According to this paper's abstract, a mandala of Vaiśravaṇa and the eight yakṣas is painted on the south wall of the winding corridor in Cave 5 of the East Thousand Buddha Caves at Anxi; the author found this subject at no other cave including Mogao, its textual basis is not in Chinese-translated scriptures, and it is a new subject of the Xixia period influenced by Tibetan tantric Buddhism.",
+          "statement_id": "Menurut abstrak makalah ini, mandala Vaiśravaṇa dan delapan yaksa dilukis di dinding selatan lorong keliling Gua 5 di Gua Seribu Buddha Timur, Anxi; temanya tidak ditemukan di Mogao atau gua lain, tidak berdasar kitab terjemahan Tionghoa, dan merupakan tema baru zaman Xixia yang dipengaruhi Buddhisme tantra Tibet.",
+          "quote": "安西東千佛洞第5窟繞道南向壁面所畫毗沙門天王及八大夜叉曼荼羅,據筆者的初步調查,該題材不見於莫高窟及其它石窟,其經典依據亦不見於漢譯經典,為西夏時代受藏傳密教影響的一個新的題材。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d33575088b43042ebaf572df3aa3f62abac8b62c2fc9ec940aaf2eda89ef84d2"
+      "images": []
     },
     {
       "slug": "enma",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "32c6ef88f64c1c7e026d6ef4aa8a8589252d22ace8a33d71cd0f78085de652ce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "enma-c01",
@@ -2415,9 +2674,9 @@
           "id": "enma-c03",
           "source_id": "enma-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Legend says Enma asked the deceased Unkei to return and make an accurate portrait.",
-          "statement_id": "Menurut legenda, Enma meminta Unkei yang telah meninggal kembali untuk membuat potret yang sesuai.",
-          "quote": "Maintenant que vous m'avez vu de vos propres yeux, retournez-y et faites de moi un bon portrait.",
+          "statement": "According to the legend, when Unkei died he was summoned before the tribunal of Enma-o, who told him that he had made many portraits of him but none resembled him, and told him to go back and make a good portrait.",
+          "statement_id": "Menurut legenda, ketika Unkei meninggal ia dipanggil menghadap pengadilan Enma-o, yang berkata bahwa ia telah membuat banyak potret dirinya tetapi tak satu pun mirip, lalu menyuruhnya kembali ke dunia dan membuat potret yang bagus.",
+          "quote": "Lorsqu'Unkei mourut, il fut cité à comparaître devant le tribunal d'Enma-o qui lui dit : « Vous avez réalisé de nombreux portraits de ma personne tout au long de votre vie sur la Terre ; mais aucun ne me ressemble. Maintenant que vous m'avez vu de vos propres yeux, retournez-y et faites de moi un bon portrait. »",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -2430,27 +2689,91 @@
           "quote": "La légende dit que Unkei revint sur Terre et réalisa la fameuse statue qui orne le temple près de Kamakura.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "enma-c05",
+          "source_id": "enma-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Besides Enma, he is also called Enma-ō (閻魔王) or Enma-daiō (閻魔大王).",
+          "statement_id": "Selain Enma, ia juga disebut Enma-ō (閻魔王) atau Enma-daiō (閻魔大王).",
+          "quote": "Enma-ō (閻魔王) ou Enma-daiō (閻魔大王) est le dieu japonais et le roi d'enfer dans la mythologie japonaise",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "enma-c06",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, the Ten Kings are the ten kings of hell who preside at the gates of the underworld, assigning souls to heaven or hell.",
+          "statement_id": "Menurut kamus ini, Sepuluh Raja adalah sepuluh raja neraka yang bertugas di gerbang dunia bawah, menetapkan jiwa ke surga atau neraka.",
+          "quote": "Ten Kings. The ten kings of hell who preside at the gates of the underworld, assigning souls to heaven or hell.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "enma-c07",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, the Buddhist idea of hell derived from the Daoist underworld headed by Taishanfujun and his ten attendants; by the Tang dynasty this folk deity was associated with the Indian god Yama (Jp: Enmaō), the Lord of Death, incorporated into popular Chinese Buddhism, and then imported into Japan during the Heian period.",
+          "statement_id": "Menurut kamus ini, gagasan neraka Buddhis berasal dari dunia bawah Tao yang dipimpin Taishanfujun dan sepuluh pengiringnya; pada zaman Tang dewa rakyat ini dikaitkan dengan dewa India Yama (Jp: Enmaō), Penguasa Kematian, dimasukkan ke Buddhisme Tiongkok populer, lalu diimpor ke Jepang pada zaman Heian.",
+          "quote": "The Buddhist idea of hell derived from the Daoist underworld headed by Taishanfujun (Jp: Taizanfukun 太山府君) and his ten attendants. By the Tang dynasty, this folk deity was associated with the Indian god Yama (Jp: *Enmaō 閻魔王), the Lord of Death, and incorporated into popular Chinese Buddhism, and then imported into Japan during the Heian period.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "enma-c08",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, the Ten Kings usually sit in front of desks and wear the caps and robes of Chinese officials, but their faces, distorted by bulging eyes and grimacing mouths, reveal their terrifying function.",
+          "statement_id": "Menurut kamus ini, Sepuluh Raja umumnya duduk di depan meja dan memakai topi serta jubah pejabat Tiongkok, tetapi wajah mereka yang cacat oleh mata melotot dan mulut meringis menunjukkan fungsi mereka yang menakutkan.",
+          "quote": "Typically the Ten Kings are rendered in painting on sets of ten hanging scrolls or in ten wooden sculptures. They usually sit in front of desks, and wear the caps and robes of Chinese officials. However, their faces, distorted by bulging eyes and grimacing mouths, reveal their terrifying function.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "enma-c09",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, each king is associated with its true nature in the form of a Buddha (honjibutsu), and Enmaō is listed as the fifth king, paired with Jizō.",
+          "statement_id": "Menurut kamus ini, tiap raja dikaitkan dengan wujud hakikinya sebagai Buddha (honjibutsu), dan Enmaō terdaftar sebagai raja kelima dengan Jizō di sisinya.",
+          "quote": "each king is also associated with its true nature in the form of a Buddha *honjibutsu 本地仏. ... 5 Enmaō (Ch: Yanlowang) / 57th day: Jizō.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "enma-c10",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, with the rise of popular sects and the cult of Jizō, fear of hell became prominent in 13th-century Japanese Buddhism, and many temples built worship halls called enmadō (閻魔堂) with paintings or sculpture of the jūō inside.",
+          "statement_id": "Menurut kamus ini, seiring bangkitnya sekte populer dan pemujaan Jizō, ketakutan akan neraka menonjol dalam Buddhisme Jepang abad ke-13, dan banyak kuil membangun aula pemujaan bernama enmadō (閻魔堂) berisi lukisan atau patung jūō.",
+          "quote": "With the rise of popular sects and the cult of Jizō, the fear of hell became a prominent feature in 13th-century Japanese Buddhism. Many temples built worship halls called enmadō 閻魔堂, with paintings or sculpture of the jūō placed inside.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enma-c11",
+          "source_id": "enma-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to this dictionary, the Ten Kings and Enmaō in particular were parodied by late Edo period artists such as Kawanabe Kyōsai (1831-89).",
+          "statement_id": "Menurut kamus ini, Sepuluh Raja dan Enmaō secara khusus diparodikan oleh seniman akhir zaman Edo seperti Kawanabe Kyōsai (1831-89).",
+          "quote": "The Ten Kings and Enmaō, in particular, were parodied by late Edo period artists such as Kawanabe Kyōsai 河鍋暁斎 (1831-89).",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6e010807ac911a431afa0e31c42170f2bb63ed9b7d43fe47842e89a7c40089f5"
+      "images": []
     },
     {
       "slug": "haosi-namoinu",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "8b9f0779c33d5f3002f49380fcf9fa508348f0191c3f7730a87c62ffbdfc9147",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "haosi-namoinu-c01",
@@ -2511,27 +2834,71 @@
           "quote": "The story of lady Haosi Namoinu is mentioned  in the Khongjomnubi Nongarol as one of its two content stories. The following is a passage from the text:",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "haosi-namoinu-c07",
+          "source_id": "haosi-namoinu-s2",
+          "host": "www.e-pao.net",
+          "statement": "In this version, a man named Haoku Pakhang is left by his wife when his daughter is still very young, and he names his daughter Haoshi Namoinu.",
+          "statement_id": "Dalam versi ini, seorang laki-laki bernama Haoku Pakhang ditinggal istrinya ketika putrinya masih sangat kecil, dan ia menamai putrinya Haoshi Namoinu.",
+          "quote": "Once upon a time there was a man named Haoku Pakhang. His wife left a daughter behind when his daughter was still very young. He named her daughter Haoshi Namoinu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haosi-namoinu-c08",
+          "source_id": "haosi-namoinu-s2",
+          "host": "www.e-pao.net",
+          "statement": "In this version the stepmother forces her stepdaughter to do all the work: chopping wood, collecting vegetables, dishing and cooking food, and gathering paddy and many vegetables from the field.",
+          "statement_id": "Dalam versi ini, ibu tiri memaksa anak tirinya mengerjakan semua pekerjaan: membelah kayu, mengumpulkan sayur, menyajikan dan memasak makanan, serta mengambil padi dan aneka sayuran dari ladang.",
+          "quote": "Chopping of woods, collecting vegetables, dishing, cooking, and on top of that she was sent to gather paddies from the field, and to gather many different vegetables, each and every work was forced to be done by her step-daughter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haosi-namoinu-c09",
+          "source_id": "haosi-namoinu-s2",
+          "host": "www.e-pao.net",
+          "statement": "In this version, instead of praising her hard work, the stepmother scolded her and beat her with kitchen utensils.",
+          "statement_id": "Dalam versi ini, bukannya memuji kerja kerasnya, ibu tirinya memarahi dan memukulnya dengan perkakas dapur.",
+          "quote": "Instead of praising for her hard work, her stepmother scolded her and beat her with kitchen utensils.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haosi-namoinu-c10",
+          "source_id": "haosi-namoinu-s2",
+          "host": "www.e-pao.net",
+          "statement": "In this version, she says it is better to turn herself into a Harinongnang and hide in the trees; by saying this she was turned into a Harinongnang and flew towards the farthest hill.",
+          "statement_id": "Dalam versi ini, ia berkata lebih baik ia menjadi Harinongnang dan bersembunyi di pepohonan; setelah mengucapkannya ia berubah menjadi Harinongnang dan terbang ke bukit yang paling jauh.",
+          "quote": "She said that it is better to turn herself to Harinongnang and hide herself in the trees, in their sounds of 'neng neng'. By saying this, she was turned to Harinongnang and flew towards the farthest hill.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "haosi-namoinu-c11",
+          "source_id": "haosi-namoinu-s2",
+          "host": "www.e-pao.net",
+          "statement": "In this version, Haoshi Namoinu could bear her stepmother's hatred no more and was at last turned into a Harinongnang.",
+          "statement_id": "Dalam versi ini, Haoshi Namoinu tidak tahan lagi menghadapi kebencian ibu tirinya dan akhirnya berubah menjadi Harinongnang.",
+          "quote": "The poor Haoshi Namoinu cannot take any more hatred of her stepmother; she was at last turned into a Harinongnang.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "990228b0b2b81a44ed6889cfde8848725790efc42493946cbf7670a30d81e540"
+      "images": []
     },
     {
       "slug": "hingchabi",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "06becf09a1d7ccfc699fc5e6f1f4f5ea1fa850c5e746b0e29053c839aeebac8a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hingchabi-c01",
@@ -2562,27 +2929,61 @@
           "quote": "The terms, \"hing\" means \"raw\" and \"chaa\" means \"to eat\" in Meitei language (Manipuri language).",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "hingchabi-c04",
+          "source_id": "hingchabi-s2",
+          "host": "archive.org",
+          "statement": "In a footnote this ethnography glosses Hing-cha-bi as hing = living, cha = to eat, bi = honorific or respectful suffix, that is, 'that which eats living persons'.",
+          "statement_id": "Dalam catatan kaki, Hodson menguraikan Hing-cha-bi sebagai hing = hidup, cha = makan, bi = akhiran hormat; yaitu 'yang memakan orang hidup'.",
+          "quote": "Hing-cha-bi (hing = living, cha = to eat, bi = honorific or respectful suffix), that which eats living persons.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hingchabi-c05",
+          "source_id": "hingchabi-s2",
+          "host": "archive.org",
+          "statement": "In this ethnography, the vast crowd of 'hing-chabis' or vampires ('that which eats live men') and demons are beings the people believe in and fear, and fear is the basis of the ritual by which they try to propitiate them.",
+          "statement_id": "Dalam etnografi ini, kerumunan besar 'hing-chabi' atau vampir ('yang memakan orang hidup') dan iblis termasuk makhluk yang dipercaya dan ditakuti orang, dan ketakutan itu menjadi dasar ritual yang berusaha menenangkan mereka.",
+          "quote": "vast crowd of hing-cliabis or vampires (king = alive, clia = to eat, that which eats live men), lais liellois, or demons, in which the people believe and, fear being the basis of their ritual, which they try to propitiate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hingchabi-c06",
+          "source_id": "hingchabi-s3",
+          "host": "serialsjournals.com",
+          "statement": "According to this article the Meiteis have a firm belief in magical power, evil spirits, black magic and witchcraft; Hellois (witches), Hingchabis (vampires) and Saroi Ngaroi (evil spirits) are believed to occupy the outside world, so elders restrict movements on certain days and times to avoid unwanted happenings.",
+          "statement_id": "Menurut artikel ini, orang Meitei sangat percaya pada kekuatan gaib, roh jahat, ilmu hitam, dan sihir; Hellois (penyihir), Hingchabis (vampir), dan Saroi Ngaroi (roh jahat) dipercaya menempati dunia luar, sehingga para tetua membatasi pergerakan pada hari dan waktu tertentu untuk menghindari kejadian tak diinginkan.",
+          "quote": "The Meiteis have a firm belief in magical power, evil spirits, black magic, oracle, witchcraft and evil eyes. ... Hellois (witches), Hingchabis (vampires) and Saroi Ngaroi (evil spirit) are elements which are believed to occupy the outside world. Due to this reason, the elders restrict movements on certain days and time to avoid unwanted happenings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hingchabi-c07",
+          "source_id": "hingchabi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the name is written ꯍꯤꯡꯆꯥꯕꯤ in Meitei and ꯍꯤꯡꯆꯥꯄꯤ in Old Manipuri, romanized hing-chaa-pee, literally 'giantess'.",
+          "statement_id": "Menurut Wikipedia, nama itu ditulis ꯍꯤꯡꯆꯥꯕꯤ dalam bahasa Meitei dan ꯍꯤꯡꯆꯥꯄꯤ dalam Manipuri Lama, dilatinkan hing-chaa-pee, secara harfiah 'raksasi'.",
+          "quote": "(Meitei: ꯍꯤꯡꯆꯥꯕꯤ, Old Manipuri: ꯍꯤꯡꯆꯥꯄꯤ, romanized: hing-chaa-pee, lit. 'giantess')",
+          "context": "etymology",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "1cc8c4d7b62b81e8276783c74d322a72f9f6679063537ac705760b0b26f341ed"
+      "images": []
     },
     {
       "slug": "hiyang-athouba",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "7ffde2662f8c268160b2528e81ba5b8597fcc5f9187360d6ef4ad7c540bfaec7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hiyang-athouba-c01",
@@ -2643,27 +3044,91 @@
           "quote": "When he calls for his wife, the Hiyangthau responds using her voice and invites him inside.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c07",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale a woman became seriously ill and died without anyone knowing; her dead body lay in the house, a cat jumped over the body, and she turned into Hiyanthau.",
+          "statement_id": "Dalam cerita rakyat ini, seorang perempuan jatuh sakit parah dan meninggal tanpa ada yang tahu; mayatnya tergeletak di rumah, seekor kucing melompati tubuhnya, dan ia berubah menjadi Hiyanthau.",
+          "quote": "The woman became seriously ill and died. No one knew she was dead. Her dead body lied in the house. A cat jumped over body and she turned into Hiyanthau.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c08",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale, when the husband returned and called, Hiyanthau replied in the form of the wife and told him to come in; she wore dishevelled clothes and her hair was rough as it had not been combed for days.",
+          "statement_id": "Dalam cerita rakyat ini, ketika sang suami pulang dan memanggil, Hiyanthau menjawab dalam wujud istrinya dan menyuruhnya masuk; ia berpakaian kusut dan berambut kasar karena berhari-hari tidak disisir.",
+          "quote": "'It is open. Just come in,' replied Hiyanthau in the form of the wife. The husband pushed the door open and came in. The wife was in dishevelled cloths. Her hair was rough as it had not been combed for days.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c09",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale the husband noticed his wife's broken body and trembled in fear; the wife looked at him with big round eyes and showed him her enormous teeth.",
+          "statement_id": "Dalam cerita rakyat ini, sang suami melihat tubuh istrinya yang rusak dan gemetar ketakutan; sang istri menatapnya dengan mata bulat besar dan memperlihatkan giginya yang sangat besar.",
+          "quote": "Then he noticed the broken body of his wife and trembled in fear. The wife looked at him with big round eyes and showed him her enormous teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c10",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale the husband climbed up a liana; Hiyanthau came after him but could not touch the liana, so she threw stones at him and then sat down and waited for him to come down.",
+          "statement_id": "Dalam cerita rakyat ini, sang suami memanjat sulur liana; Hiyanthau mengejarnya tetapi tidak dapat menyentuh liana itu sehingga ia melempar batu lalu duduk menunggu sang suami turun.",
+          "quote": "So ran and climbed up a liana. Hiyanthau came after him. She could not the touch the liana so she threw stone at him. Then sat down and waited for him to come down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c11",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale, as the birds started chirping toward morning, Hiyanthau had to go back to the house and turned into a corpse.",
+          "statement_id": "Dalam cerita rakyat ini, ketika burung-burung mulai berkicau menjelang pagi, Hiyanthau harus kembali ke rumah dan berubah menjadi mayat.",
+          "quote": "The birds started chirping as the morning time approached. Hiyanthau had to go back to the house, and she turned into a corpse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c12",
+          "source_id": "hiyang-athouba-s2",
+          "host": "e-pao.net",
+          "statement": "In this folktale a man who knew all about spirits and ghosts said she had turned into Hiyanthau and must be cremated at once with the necessary ceremonies; otherwise at night she would become alive again and torment the entire village.",
+          "statement_id": "Dalam cerita rakyat ini, seorang yang paham tentang roh dan hantu menyatakan bahwa perempuan itu telah menjadi Hiyanthau dan harus segera dikremasi dengan upacara yang semestinya; jika tidak, pada malam hari ia akan hidup lagi dan menyiksa seluruh desa.",
+          "quote": "A knowledgeable man among them who knew all about spirits and ghost told them that she had turned into Hiyanthau. 'Without losing any time she must be cremated with all the necessary ceremonies. Otherwise, at night she will become alive again and torment the entire village,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiyang-athouba-c13",
+          "source_id": "hiyang-athouba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hiyang Athouba is a figure in Meitei mythology and folklore of ancient Kangleipak (early Manipur).",
+          "statement_id": "Hiyang Athouba adalah sosok dalam mitologi dan cerita rakyat Meitei di Kangleipak kuno (Manipur awal).",
+          "quote": "is a figure in Meitei mythology and folklore of ancient Kangleipak (early Manipur).",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8197f00fb17c4c0f3cf17a7dfb77ae0a304a5a6a4142eb28b1e74dde18686f8f"
+      "images": []
     },
     {
       "slug": "jarita",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "2496adef90f8b19130c252f42ee2f94414ad419996b7f1307b9d8e76db45746e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jarita-c01",
@@ -2691,7 +3156,7 @@
           "host": "en.wikipedia.org",
           "statement": "Mandapala later abandons her.",
           "statement_id": "Mandapala kemudian meninggalkannya.",
-          "quote": "by her had four sons. He then abandoned her.",
+          "quote": "The saint Mandapala, who returned from the shades because he had no son, assumed the form of a male bird, and by her had four sons. He then abandoned her.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2714,27 +3179,111 @@
           "quote": "they were eventually saved through the influence of Mandapala over the god of fire.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jarita-c06",
+          "source_id": "jarita-s2",
+          "host": "www.ibiblio.org",
+          "statement": "In this text the Rishi, assuming the form of a Sarngaka, had connection with a female bird of the same species called Jarita and begat upon her four sons who were all reciters of the Vedas.",
+          "statement_id": "Dalam teks ini, sang Resi berwujud burung Sarngaka dan berhubungan dengan seekor burung betina sejenis bernama Jarita, dan dari Jarita lahir empat putra yang semuanya pelafal Weda.",
+          "quote": "Assuming the form of a Sarngaka the Rishi had connection with a female bird of the same species called by the name of Jarita. And he begat upon her four sons who were all reciters of the Vedas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c07",
+          "source_id": "jarita-s2",
+          "host": "www.ibiblio.org",
+          "statement": "The ascetic left his sons with their mother in that forest while they were still in eggs and went to another wife called Lapita.",
+          "statement_id": "Sang petapa meninggalkan putra-putranya bersama ibu mereka di hutan itu ketika masih berada dalam telur, lalu pergi kepada istri lain bernama Lapita.",
+          "quote": "Leaving all those sons of his with their mother in that forest, while they were still within eggs, the ascetic went to (another wife called by the name of) Lapita.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c08",
+          "source_id": "jarita-s2",
+          "host": "www.ibiblio.org",
+          "statement": "Moved by parental affection, Jarita brought up the children born of her, herself following the pursuits proper to her own species.",
+          "statement_id": "Digerakkan kasih sayang orang tua, Jarita membesarkan anak-anak yang lahir darinya sambil menjalani cara hidup yang wajar bagi jenisnya sendiri.",
+          "quote": "Moved by parental affection, she brought up these children born of her, herself following the pursuits proper to her own species.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c09",
+          "source_id": "jarita-s2",
+          "host": "www.ibiblio.org",
+          "statement": "Praised by Mandapala, Agni was gratified and asked what he could do; Mandapala with joined palms asked Agni to spare his children while burning the forest of Khandava.",
+          "statement_id": "Setelah dipuji Mandapala, Agni senang dan bertanya apa yang dapat ia lakukan; Mandapala dengan tangan terkatup memohon kepada Agni agar, ketika membakar hutan Khandava, anak-anaknya dibiarkan hidup.",
+          "quote": "thus praised by Mandapala, Agni was gratified with that Rishi of immeasurable energy; and the god, well-pleased, replied, 'What good can I do to thee?' Then Mandapala with joined palms said unto the carrier of clarified butter, 'While thou burnest the forest of Khandava, spare my children.'",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c10",
+          "source_id": "jarita-s2",
+          "host": "www.ibiblio.org",
+          "statement": "In this text, for that reason he did not blaze forth to destroy Mandapala's children while consuming the forest of Khandava.",
+          "statement_id": "Menurut teks ini, karena itulah ia tidak berkobar untuk membinasakan anak-anak Mandapala ketika melahap hutan Khandava.",
+          "quote": "It was, therefore, O monarch, that he blazed not forth, while consuming the forest of Khandava, for the destruction of Mandapala's children.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c11",
+          "source_id": "jarita-s3",
+          "host": "www.ibiblio.org",
+          "statement": "Their helpless mother Jarita, knowing the infants were too young to escape, was filled with sorrow and wept aloud.",
+          "statement_id": "Ketika api berkobar, Jarita, ibu mereka yang tak berdaya, tahu anak-anaknya terlalu kecil untuk melarikan diri, sangat sedih dan menangis keras.",
+          "quote": "Their mother, the helpless Jarita, knowing that they were too young to escape, was filled with sorrow and wept aloud.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c12",
+          "source_id": "jarita-s3",
+          "host": "www.ibiblio.org",
+          "statement": "In her lament Jarita says she sees no way of escape for the infants and will cover them with her wings and die with them.",
+          "statement_id": "Dalam ratapannya Jarita mengatakan ia tidak melihat jalan keluar bagi anak-anaknya dan akan menutupi mereka dengan sayapnya serta mati bersama mereka.",
+          "quote": "I do not, even by reflection, see any way of escape for you. I shall even cover you with my wings and die with you.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c13",
+          "source_id": "jarita-s3",
+          "host": "www.ibiblio.org",
+          "statement": "Jarita proposes that the infants enter a mouse's hole in the ground near the tree to escape the fire.",
+          "statement_id": "Jarita mengusulkan agar anak-anaknya masuk ke lubang tikus di dekat pohon itu untuk menghindari api.",
+          "quote": "Hearing what the infants said. Jarita replied, 'There is a hole here in the ground near to this tree, belonging to a mouse.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jarita-c14",
+          "source_id": "jarita-s3",
+          "host": "www.ibiblio.org",
+          "statement": "In her lament Jarita recalls the words of their father: Jaritari, the eldest, will be the support of the race; Sarisrikka will beget progeny; Stamvamitra will be devoted to asceticism; and Drona, the youngest, will become the foremost of those acquainted with the Vedas.",
+          "statement_id": "Dalam ratapannya Jarita mengenang kata-kata ayah mereka: Jaritari, putra sulung, akan menjadi sandaran garis keturunan; Sarisrikka akan melahirkan keturunan; Stamvamitra akan mengabdi pada pertapaan; dan Drona, si bungsu, akan menjadi yang terdepan di antara para ahli Weda.",
+          "quote": "Upon this Jaritari, because he is the eldest of my sons, will my race depend. My second Sarisrikka will beget progeny for the expansion of my ancestors' race. My third, Stamvamitra, will be devoted to asceticism, and my youngest, Drona, will become the foremost of those acquainted with the Vedas.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9d4411d093552ab4cc278649d17f0c101b378ebd2a01ddbba21258e52bc45d6f"
+      "images": []
     },
     {
       "slug": "khoirentak-tiger",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "b75dfb655b354d862be98453f420c07d04b35ac760804217e2318dbcc64256fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khoirentak-tiger-c01",
@@ -2785,27 +3334,91 @@
           "quote": "Another victim was Angom Nongban Kongyamba, who was seriously injured by the tiger during the later events. He later died from these injuries.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c06",
+          "source_id": "khoirentak-tiger-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the court discussion an old man from the Phubala region told the king about the dangerous tiger threatening the people of Khoirentak; the king then changed his decision and announced that whoever killed the tiger would marry Princess Thoibi.",
+          "statement_id": "Dalam sidang istana, seorang lelaki tua dari wilayah Phubala memberi tahu raja tentang harimau berbahaya yang mengancam rakyat Khoirentak; raja lalu mengubah keputusannya dan menyatakan bahwa siapa yang membunuh harimau itu akan menikahi Putri Thoibi.",
+          "quote": "During the court discussion, an old man from the Phubala region informed the king about the dangerous tiger threatening the people of Khoirentak. After hearing this, the king changed his decision. He declared that killing the tiger would decide the matter. He announced that whoever killed the tiger would marry Princess Thoibi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c07",
+          "source_id": "khoirentak-tiger-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When they found the tiger both threw their spears but the tiger avoided them; the tiger then attacked Kongyamba and bit him, causing his death.",
+          "statement_id": "Ketika menemukan harimau itu, keduanya melempar tombak tetapi harimau menghindarinya; harimau lalu menyerang Kongyamba dan menggigitnya hingga tewas.",
+          "quote": "When they found the tiger, both threw their spears, but the tiger avoided them. The tiger then attacked Kongyamba and bit him, causing his death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c08",
+          "source_id": "khoirentak-tiger-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khamba went back; the tiger was hiding in the bushes but was visible from the king's stadium, jumped at Khamba, and Khamba struck it in the jaws with his spear and finally killed it.",
+          "statement_id": "Khamba kembali ke hutan; harimau bersembunyi di semak-semak tetapi terlihat dari stadion raja, lalu melompat ke arah Khamba, dan Khamba menusuk rahangnya dengan tombak hingga akhirnya membunuhnya.",
+          "quote": "Khamba went back. The tiger was hiding in the bushes but was visible from the king's stadium. The tiger jumped at Khamba. Khamba struck the tiger in its jaws with his spear and finally killed it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c09",
+          "source_id": "khoirentak-tiger-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, an old woman tells the King there is a tiger in the nearby jungle that they fear, and the King promises the Princess Thoibi to whoever kills the tiger.",
+          "statement_id": "Dalam ringkasan epos ini, seorang perempuan tua berkata kepada Raja bahwa ada harimau di hutan dekat situ yang mereka takuti, dan Raja berjanji akan memberikan Putri Thoibi kepada siapa pun yang membunuh harimau itu.",
+          "quote": "an old woman came forth and said, “ My Lord King, there is a tiger in the jungle hard-by that we fear,” and the King said, “Let the tiger bear witness herein. Unto him that kills the tiger, will I give the Princess Thoibi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c10",
+          "source_id": "khoirentak-tiger-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, in the beast's lair they found the body of a girl but newly killed; the tiger turned away the thrown spears and bit Kongyamba so that he died, and Khamba wounded the beast and drove it off.",
+          "statement_id": "Dalam ringkasan epos ini, di sarang binatang itu mereka menemukan mayat seorang gadis yang baru dibunuh; harimau menepis tombak yang dilemparkan, menggigit Kongyamba hingga tewas, dan Khamba melukainya lalu mengusirnya.",
+          "quote": "So they went and sought the lair of the beast, and in it they found the body of a girl but newly killed. Then they found the tiger, and sought to spear it, but it turned the spears away as they threw them. Then the tiger sprang upon them and bit Kongyamba so that he died, but Khamba wounded the beast, and drove it off.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c11",
+          "source_id": "khoirentak-tiger-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, Khamba entered the jungle once more and found the tiger crouching in a hollow, half hidden by the jungle but in full view of the King's machan.",
+          "statement_id": "Dalam ringkasan epos ini, Khamba kembali ke hutan dan menemukan harimau meringkuk di lekukan tanah, setengah tersembunyi oleh semak tetapi terlihat penuh dari panggung Raja.",
+          "quote": "Then Khamba entered the jungle once more and found the tiger crouching in a hollow half hidden by the jungle, but in full view of the machan of the King.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khoirentak-tiger-c12",
+          "source_id": "khoirentak-tiger-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, the tiger died as it fell; the King then gave rich gifts, wide lands, rights of fishery and robes of honour.",
+          "statement_id": "Dalam ringkasan epos ini, harimau itu mati saat jatuh; Raja kemudian memberikan hadiah kaya, tanah luas, hak perikanan, dan jubah kehormatan.",
+          "quote": "the ravening jaws, so that it died as it fell. Then the King gave rich gifts to Kliamba, and bestowed upon him wide lands and rights of fishery, robes of honour,",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4964498e98aa2214a3d85aa5fe1318b81235396e7e3c2f1e833c854c944363dc"
+      "images": []
     },
     {
       "slug": "misshaku-kongo",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-5.md",
+      "entry_sha256": "77964c64b97641059d09ad31e9f138b925b45991767fc294846cb2b0c315ac16",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "misshaku-kongo-c01",
@@ -2856,10 +3469,69 @@
           "quote": "宝积经云。法意太子愿作力士。立名密迹。常亲近佛。在外威仪。省知如来一切密迹秘要之事。信乐不疑。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c06",
+          "source_id": "misshaku-kongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Chinese Buddhism, Guhyapāda is regarded as one of the Twenty-Four Protective Deities, a grouping of dharmapalas often enshrined in the Daxiong of temples and monasteries.",
+          "statement_id": "Dalam Buddhisme Tiongkok, Guhyapāda dianggap salah satu dari Dua Puluh Empat Dewa Pelindung, kelompok dharmapala yang sering dipuja di Daxiong kuil dan biara.",
+          "quote": "In Chinese Buddhism, Guhyapāda is regarded as one of the Twenty-Four Protective Deities, who are a grouping of dharmapalas often enshrined in the Daxiong of temples and monasteries.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c07",
+          "source_id": "misshaku-kongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In China he is also known as General Ha (哈将 Hā Jiāng), in reference to this iconographic detail.",
+          "statement_id": "Di Tiongkok ia juga dikenal sebagai Jenderal Ha (哈将 Hā Jiāng), merujuk pada ciri ikonografis mulut yang membentuk bunyi 'ha'.",
+          "quote": "In China, he is also known as General Ha (哈将 Hā Jiāng) in reference to this iconographic detail.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c08",
+          "source_id": "misshaku-kongo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Zhu tian zhuan, the figure of Miji is shown with bared torso, glaring eyes and open mouth, a red body, a topknot on the head, a pestle (chu) in hand and bare feet, and is majestic and valiant.",
+          "statement_id": "Menurut 重編諸天傳, rupa Mijī digambarkan bertelanjang dada, bermata melotot dan mulut terbuka, seluruh tubuh merah, berambut disanggul di kepala, memegang tongkat (chu) di tangan, berkaki telanjang, dan gagah perkasa.",
+          "quote": "其像也。露袒其身。怒目开口。徧体赤色。头上有髻。手中执杵。以跣双足。威楞勇倢。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c09",
+          "source_id": "misshaku-kongo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Dīrghāgama as cited in the Zhu tian zhuan, when an adherent of another teaching would not answer, the Buddha said the strongman Miji, vajra bell and pestle in hand, was at his side and would split the man's head into seven parts; the strongman then appeared in the sky and the man believed and submitted.",
+          "statement_id": "Menurut kutipan Dīrghāgama dalam 重編諸天傳, ketika seorang penganut ajaran lain enggan menjawab, Buddha mengatakan bahwa Mijī sang kesatria, dengan lonceng dan tongkat vajra di tangan, berada di sisinya dan akan memecah kepala orang itu menjadi tujuh bagian; sang kesatria lalu tampak di angkasa dan orang itu pun percaya dan tunduk.",
+          "quote": "长阿含云。外道阿摩昼问佛四姓。佛云汝姓是释迦奴种。彼不肯信。故不答。佛云。汝宜速答。密迹力士手执金刚铃杵在吾左右。当破汝头分为七分。时力士即现空中。彼方信伏。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c10",
+          "source_id": "misshaku-kongo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Zhu tian zhuan, in the time of the First Emperor of Qin, eighteen monks from India, including Shilifang, who were imprisoned at Chang'an were freed when the vajra strongman broke the prison wall.",
+          "statement_id": "Menurut 重編諸天傳, pada zaman Kaisar Pertama Qin, delapan belas biksu dari India yang dipenjara di Chang'an, termasuk 室利房, dibebaskan ketika kesatria vajra menjebol tembok penjara.",
+          "quote": "又秦始皇时。天竺室利房等沙门一十八人来至长安。始皇囚於狱中。金刚力士破狱垣以出之。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "misshaku-kongo-c11",
+          "source_id": "misshaku-kongo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Zhu tian zhuan citing the Golden Light text, Vajra Miji is a great king of spirits, and his retinue of five hundred are all great bodhisattvas.",
+          "statement_id": "Menurut 重編諸天傳 yang mengutip Sutra Cahaya Emas, Vajra Mijī adalah raja besar para roh, dan para pengikutnya yang berjumlah lima ratus semuanya adalah bodhisatwa besar.",
+          "quote": "光明云。金刚密迹。大鬼神王。及其眷属五百徒党。一切皆是大菩萨等。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f4c66ff77727fd1c72e709e19b6b253336269b291fb75e071fadf5f32a2e0775"
+      "images": []
     },
     {
       "slug": "nittaewo",
