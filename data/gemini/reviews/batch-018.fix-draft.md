@@ -5,8 +5,5 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
 ## ekek
-- `long_description`: Tingkat rich sebaiknya 2–6 paragraf.
 - `claims (ekek-c01)`: Kutipan berasal dari bagian Wikipedia "Contents move to sidebar hide (Top) 1 References Toggle the " yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-
-## hantu-bongkok
-- `long_description`: Tingkat rich sebaiknya 2–6 paragraf.
+- `claims (ekek-c02)`: Kutipan berasal dari bagian Wikipedia "Contents move to sidebar hide (Top) 1 References Toggle the " yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus.

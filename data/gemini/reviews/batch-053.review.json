@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-053",
-  "checked_at": "2026-10-06T15:33:04.368Z",
+  "checked_at": "2026-10-06T19:11:44.222Z",
   "files": [
     "batch-053.md",
     "batch-053-fix-1.md",
     "batch-053-fix-2.md",
     "batch-053-fix-3.md",
     "batch-053-fix-4.md",
-    "batch-053-fix-5.md"
+    "batch-053-fix-5.md",
+    "batch-053-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3709,25 +3710,15 @@
     },
     {
       "slug": "amatsumara",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "60f249147930ff02375bc90c657f0667abf6b27fc9ca0103d0d7e4b1fab495ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (amatsumara-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amatsumara-c01",
@@ -3753,8 +3744,8 @@
           "id": "amatsumara-c03",
           "source_id": "amatsumara-s1",
           "host": "en.wikipedia.org",
-          "statement": "Myth gives him a smith’s role among the heavenly gods.",
-          "statement_id": "Mitos memberinya peran pandai besi bagi para dewa langit.",
+          "statement": "He acts as a blacksmith for the gods in Takamagahara.",
+          "statement_id": "Ia berperan sebagai pandai besi bagi para dewa di Takamagahara.",
           "quote": "He acts as a blacksmith for the gods up in Takamagahara.",
           "context": "religious-tradition",
           "status": "exact"
@@ -3778,10 +3769,69 @@
           "quote": "iron from the Amenokanayama 天金山 mountain and sought out the smith Amatsumara 天津麻羅 (4).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "amatsumara-c06",
+          "source_id": "amatsumara-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Kojiki, as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors, using the \"hard rocks of heaven\" and the \"metal mountain of heaven\".",
+          "statement_id": "Menurut Kojiki, sebagai pandai besi di Dataran Langit Tinggi, Amatsumara dipanggil untuk menempa besi yang dipakai membuat cermin, dengan memakai \"batu keras langit\" dan \"gunung logam langit\".",
+          "quote": "Kojiki states that as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors, using the \"hard rocks of heaven\" and the \"metal mountain of heaven\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsumara-c07",
+          "source_id": "amatsumara-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kogo shūi describes Amatsumara as a follower of Futodama and states that, when Amaterasu hid in the rock cave of heaven, Amenomahitotsu no kami (\"the one-eyed kami of heaven\") was assigned to make metal weapons.",
+          "statement_id": "Kogo shūi menyebut Amatsumara sebagai pengikut Futodama, dan menyebut bahwa ketika Amaterasu bersembunyi di gua batu langit, Amenomahitotsu no kami (\"kami bermata satu dari langit\") ditugasi membuat senjata logam.",
+          "quote": "Kogo shūi describes Amatsumara as a follower of Futodama; it also states that at the time of Amaterasu's hiding away in the rock cave of heaven, Amenomahitotsu no kami (\"the one-eyed kami of heaven\") was assigned to make metal weapons",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsumara-c08",
+          "source_id": "amatsumara-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The name Amatsuma(u)ra refers to the ancestral tutelary of the blacksmith occupational groups and was apparently also used as a common name.",
+          "statement_id": "Nama Amatsuma(u)ra merujuk pada leluhur pelindung kelompok pekerja pandai besi, dan tampaknya juga dipakai sebagai nama umum.",
+          "quote": "The name Amatsuma(u)ra refers to the ancestral tutelary (sojin) of the blacksmith occupational groups, and was apparently also used as a common name.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amatsumara-c09",
+          "source_id": "amatsumara-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The name Amatsumara means ma-ura (\"eye divination\"), which some believe means \"one-eyed\", a reference to an occupational hazard of blacksmiths.",
+          "statement_id": "Nama Amatsumara berarti ma-ura (\"ramalan lewat mata\"), yang oleh sebagian orang dimaknai \"bermata satu\", merujuk pada risiko pekerjaan pandai besi.",
+          "quote": "The name Amatsumara means ma-ura (\"eye divination\"), which some believe means \"one-eyed,\" a reference to an occupational hazard of blacksmiths.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amatsumara-c10",
+          "source_id": "amatsumara-s4",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes him as the smithing kami of the Kojiki who, together with Ishikoridome, made a ritual mirror to draw Amaterasu out, and who is also said to be the same kami as Amenomahitotsu.",
+          "statement_id": "Kamus Jepang menyebutnya kami pandai besi dalam Kojiki yang bersama Ishikoridome membuat cermin ritual untuk memancing Amaterasu keluar, dan juga disebut sebagai kami yang sama dengan Amenomahitotsu.",
+          "quote": "「古事記」に見える鍛冶の神。天の岩屋戸に隠れた天照大神を導き出すため、伊斯許理度売命(いしこりどめのみこと)とともに、祭祀用の鏡を作った。天目一箇神(あめのまひとつのかみ)と同じ神ともいわれる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsumara-c11",
+          "source_id": "amatsumara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is discussed in the Kojiki and is associated with the giant yokai Daidarabocchi.",
+          "statement_id": "Ia dibahas dalam Kojiki dan dikaitkan dengan yokai raksasa Daidarabocchi.",
+          "quote": "He was discussed in the Kojiki and is associated to the giant yōkai Daidarabocchi.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "944e224538f818f0004d505c8ec04290933037bb9d8fc4f1780d5a6bc3366879"
+      "images": []
     },
     {
       "slug": "amemasu",
@@ -3935,20 +3985,15 @@
     },
     {
       "slug": "fengli",
-      "file": "batch-053-fix-2.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "7426dcc4ef0c03c9f38a14a3e166af7fa7629e746eff9bb27e36148d5dd4cba0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fengli-c01",
@@ -4009,10 +4054,99 @@
           "quote": "Sources say that its alias fengshengshou favors eating spiders.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "fengli-c07",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The classical Chinese text on Wikisource says the fengli, also called fengmu and fengshengshou, can leap by means of the wind, dies and revives when it catches the wind, and also treats wind ailments, which is why it has \"wind\" in its name.",
+          "statement_id": "Teks klasik Tiongkok di Wikisource menyebut fengli, juga disebut fengmu dan fengshengshou, dapat melompat dengan bantuan angin, mati lalu hidup kembali ketika terkena angin, dan juga menyembuhkan penyakit angin; karena itu ia disebut \"angin\".",
+          "quote": "風母(《綱目》)、風生獸(同)、時珍曰..風狸能因風騰越,死則得風複生,而又治風疾,故得風名。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c08",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says the animal lives in the mountain forests of Lingnan and beyond the western frontier of Shu; it is as big as a li or an otter, looks like a small monkey with red eyes and a tail so short as to be absent, and is blue-yellow and black with markings like a leopard.",
+          "statement_id": "Teks itu menyebut hewan ini hidup di hutan pegunungan Lingnan dan di luar perbatasan barat Shu; ukurannya sebesar li atau berang-berang, rupanya seperti monyet kecil bermata merah berekor sangat pendek, berwarna hijau-kuning dan hitam dengan corak seperti macan tutul.",
+          "quote": "其獸生嶺南及蜀西徼外山林中。其大如狸如獺,其狀如猿猴而小,其目赤,其尾短如無,其色青黃而黑,其文如豹。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c09",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says it eats spiders; by day it curls up motionless like a hedgehog, and by night it leaps very nimbly with the wind, crossing cliffs and trees like a bird flying through the air.",
+          "statement_id": "Teks itu menyebut ia memakan laba-laba; pada siang hari ia meringkuk tak bergerak seperti landak, dan pada malam hari ia melompat sangat lincah dengan bantuan angin, melewati tebing dan pohon seperti burung terbang di udara.",
+          "quote": "其性食蜘蛛,亦啖薰陸香。晝則蜷伏不動如蝟,夜則因風騰躍甚捷,越岩過樹,如鳥飛空中。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c10",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says that if struck it dies suddenly but revives shortly afterward if its mouth faces the wind; it dies only if its bones are smashed and its brain destroyed.",
+          "statement_id": "Teks itu menyebut bila dipukul ia mati mendadak tetapi hidup kembali sebentar kemudian bila mulutnya menghadap angin; hanya dengan memecahkan tulangnya dan merusak otaknya ia benar-benar mati.",
+          "quote": "人撾擊之,倏然死矣,以口向風,須臾複活。惟碎其骨、破其腦乃死。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c11",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says that according to one account blades do not cut it and fire does not scorch it, and it rises again when it gets the wind; only plugging its nose with sweet flag (石菖蒲) kills it at once.",
+          "statement_id": "Teks itu menyebut menurut satu keterangan ia tidak mempan dibacok dan tidak hangus dibakar, dan bila dipukul ia bangkit lagi ketika terkena angin; hanya dengan menyumbat hidungnya dengan 石菖蒲 (kalamus manis) ia langsung mati.",
+          "quote": "一云刀斫不入,火焚不焦,打之如皮囊,雖鐵擊其頭破,得風複起;惟石菖蒲塞其鼻,即死也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c12",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says that according to one account the animal always carries a small staff; whatever it points at cannot escape, and a person who obtains the staff can point at things to get what they wish.",
+          "statement_id": "Teks itu menyebut menurut satu keterangan hewan ini selalu membawa tongkat kecil; apa pun yang ditunjuknya tidak dapat kabur, dan orang yang memperoleh tongkat itu dapat menunjuk benda untuk mendapatkan apa yang diinginkan.",
+          "quote": "一云此獸常持一小杖,遇物則指,飛走悉不能去,見人則棄之。人獲得擊打至極,乃指示人。人取以指物,令所欲如意也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c13",
+          "source_id": "fengli-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text records the fengli’s brain soaked in wine as a remedy for wind ailments, and its urine as a remedy for various wind ailments and for the great wind disease.",
+          "statement_id": "Teks itu mencatat otak fengli yang direndam arak sebagai obat penyakit angin, dan urinnya sebagai obat berbagai penyakit angin dan penyakit angin besar.",
+          "quote": "腦 【主治】 酒浸服,愈風疾(時珍。出《嶺南志》)。和菊花服至十斤,可長生(《十洲記》)。 尿 【主治】 諸風(藏器)。大風疾(《虞衡志》)。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c14",
+          "source_id": "fengli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says the fengli has a number of other aliases, including fengmu (風母, \"wind mother\"; Japanese fūbo), fengshengshou (風生獸), and pinghou (平猴, \"flat monkey\").",
+          "statement_id": "Wikipedia menyebut fengli punya beberapa nama lain, antara lain fengmu (風母, \"ibu angin\"; fūbo dalam bahasa Jepang), fengshengshou (風生獸), dan pinghou (平猴, \"monyet pipih\").",
+          "quote": "The fengli bears a number of other aliases, including fengmu ( 风母; 風母; fēng mǔ; Japanese: fūbo, literally \"wind mother\"), fengshengshou ( 风生兽; 風生獸; fēng shēng shòu), pinghou ( 平猴; píng hóu, 'flat monkey'), etc.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fengli-c15",
+          "source_id": "fengli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes the hypothesis that the lore could be based on real fauna: the fengli may have been the colugo according to one hypothesis, or a palm civet or a slow loris according to others.",
+          "statement_id": "Wikipedia mencatat hipotesis bahwa cerita ini mungkin didasarkan pada satwa nyata: fengli mungkin colugo menurut satu hipotesis, atau musang palem atau kukang menurut hipotesis lain.",
+          "quote": "The beast lore could have been based on actual fauna; the fengli may in fact have been the colugo according to one hypothesis, or a palm civet or a slow loris according to others.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d8b51a4dd5bd1133c1bfc57f2a1ce6599584a19f4bdd4cc13d93200ef29d4821"
+      "images": []
     },
     {
       "slug": "furu-utsubo",
@@ -4097,20 +4231,15 @@
     },
     {
       "slug": "futodama",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "5b9319a63eeede8f8effb6b2d9ad171f3bf984936cc78fd9d357eb6dc550eff4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "futodama-c01",
@@ -4161,27 +4290,81 @@
           "quote": "They summoned Amenokoya no mikoto 天児屋命 (7) and Futodama no mikoto 布刀玉命 (8) and had them extract the shoulder blade of a stag from the Amenokaguyama 天香山 mountain, take [bark from] a hahaka cherry tree (9) from Amenokaguyama, and perform a divination (10).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "futodama-c06",
+          "source_id": "futodama-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "When Amaterasu hid in the rock cave of heaven, Futodama and Amenokoyane performed divination by erecting \"five-hundred true sakaki trees\", many-branched sakaki decorated with jewels, mirrors, and \"blue and white\" cloth offerings (nigite).",
+          "statement_id": "Ketika Amaterasu bersembunyi di gua batu langit, Futodama dan Amenokoyane melakukan ramalan dengan mendirikan \"lima ratus sakaki sejati\", yaitu sakaki bercabang banyak yang dihias permata, cermin, dan persembahan kain \"biru dan putih\" (nigite).",
+          "quote": "At the time of Amaterasu's hiding away in the rock cave of heaven, he and Amenokoyane performed divination by erecting \"five-hundred true sakaki trees\" (many-branched sakaki trees decorated with jewels, mirrors, and \"blue and white\" cloth offerings [nigite]).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futodama-c07",
+          "source_id": "futodama-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "He was also sent as one of the five clan heads accompanying Ninigi at the time of his descent as Heavenly Grandchild (tenson kōrin).",
+          "statement_id": "Ia juga diutus sebagai salah satu dari lima kepala klan yang menyertai Ninigi saat turun sebagai Cucu Surgawi (tenson kōrin).",
+          "quote": "He was also sent as one of the five clan heads accompanying Ninigi at the time of his descent as Heavenly Grandchild (tenson kōrin).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futodama-c08",
+          "source_id": "futodama-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kogo shūi describes Futodama as the principal leader of the series of divine rites performed at the time of the rock cave incident.",
+          "statement_id": "Kogo shūi menggambarkan Futodama sebagai pemimpin utama rangkaian ritual ilahi yang dilakukan pada peristiwa gua batu.",
+          "quote": "Kogo shūi describes Futodama as the principal leader of the series of divine rites performed at the time of the rock cave incident",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futodama-c09",
+          "source_id": "futodama-s4",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia says that, to draw Amaterasu out of the heavenly rock cave, he performed the rite holding magatama, a mirror, and nigite offerings, and that it succeeded.",
+          "statement_id": "Ensiklopedia Heibonsha menyebut bahwa untuk memancing Amaterasu keluar dari gua batu surga, ia memimpin ritual dengan memegang magatama, cermin, dan nigite, dan ritual itu berhasil.",
+          "quote": "天の岩屋戸に隠れた天照大神(あまてらすおおかみ)を招き出すために,勾玉(まがたま),鏡,和幣(にきて)などを取り持って祭りを行って成功したという。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futodama-c10",
+          "source_id": "futodama-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, the Kogo shūi records Futodama as the child of Takuhatachijihime and grandchild of Takamimusuhi no kami.",
+          "statement_id": "Menurut Encyclopedia of Shinto, Kogo shūi mencatat Futodama sebagai anak Takuhatachijihime dan cucu Takamimusuhi no kami.",
+          "quote": "Kogo shūi records Futodama as the child of Takuhatachijihime, and grandchild of Takamimusuhi no kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futodama-c11",
+          "source_id": "futodama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Kogo Shūi records Futodama as the son of Takamimusubi and brother of Takuhadachiji-hime and Ame-no-Oshihi-no-Mikoto.",
+          "statement_id": "Menurut Wikipedia, Kogo Shūi mencatat Futodama sebagai putra Takamimusubi, dan saudara Takuhadachiji-hime serta Ame-no-Oshihi-no-Mikoto.",
+          "quote": "In the Kogo Shūi, Futodama is recorded as the son of Takamimusubi, and brother of Takuhadachiji-hime and Ame-no-Oshihi-no-Mikoto.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "72d5642fd4d3078e799dd0f5295c5034777da73a59297332706933ab82c202b8"
+      "images": []
     },
     {
       "slug": "haniyasuhiko-and-haniyasuhime",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "e90385462a2a4d6235f6148d242072e3a29203fc4081743a4b5cbeaea1909abb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "haniyasuhiko-and-haniyasuhime-c01",
@@ -4232,10 +4415,49 @@
           "quote": "Then, from her excrement a deity named Haniyasubiko no kami 波 迩 夜 湏 毗 古 神 came into existence. Next [appeared] Haniyasubime no kami 波迩夜湏毗売神 (4).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "haniyasuhiko-and-haniyasuhime-c06",
+          "source_id": "haniyasuhiko-and-haniyasuhime-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Haniyasu no kami is a tutelary kami of earth; according to an \"alternate writing\" in the Nihongi, the kami was produced by Izanagi and Izanami after they finished giving birth to the \"Great Eight-Island Country\" (Ōyashimaguni).",
+          "statement_id": "Haniyasu no kami adalah kami pelindung tanah; menurut \"tulisan alternatif\" dalam Nihongi, kami ini dilahirkan Izanagi dan Izanami setelah mereka selesai melahirkan \"Negeri Delapan Pulau Besar\" (Ōyashimaguni).",
+          "quote": "A tutelary kami of earth. According to an \"alternate writing\" recorded in Nihongi, Haniyasu no kami was produced by Izanagi and Izanami after they had completed giving birth to the \"Great Eight-Island Country\" (Ōyashimaguni).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "haniyasuhiko-and-haniyasuhime-c07",
+          "source_id": "haniyasuhiko-and-haniyasuhime-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Haniyasu no kami is worshiped even today alongside other deities, frequently on the occasion of groundbreaking rituals (jichinsai).",
+          "statement_id": "Haniyasu no kami masih dipuja hingga kini bersama kami lain, sering pada upacara peletakan dasar bangunan (jichinsai).",
+          "quote": "Haniyasu no kami is worshiped even today alongside other deities, frequently on the occasion of groundbreaking rituals (jichinsai).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "haniyasuhiko-and-haniyasuhime-c08",
+          "source_id": "haniyasuhiko-and-haniyasuhime-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Kami with similar names include Haniyamahiko and Haniyamabime, two kami thought to have the same divine virtues and powers (shintoku), collectively known by the name Haniyasu no kami.",
+          "statement_id": "Kami dengan nama mirip termasuk Haniyamahiko dan Haniyamabime, dua kami yang dianggap memiliki kebajikan dan kuasa ilahi (shintoku) yang sama, dan secara kolektif dikenal dengan nama Haniyasu no kami.",
+          "quote": "Kami with similar names include Haniyamahiko and Haniyamabime, two kami thought to have the same divine virtues and powers (shintoku), and which are collectively known by the name Haniyasu no kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "haniyasuhiko-and-haniyasuhime-c09",
+          "source_id": "haniyasuhiko-and-haniyasuhime-s4",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes Haniyasu no kami as a kami found in the Nihon Shoki, a child of Izanagi, and a god of earth.",
+          "statement_id": "Kamus Jepang menyebut Haniyasu no kami sebagai kami dalam Nihon Shoki, anak Izanagi, dan kami tanah.",
+          "quote": "「日本書紀」に見える神。伊奘諾尊(いざなきのみこと)の子。土の神。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "49c1a2c6a0b530ee412b76e0f4a17a41f4017979eeb20482c819c583ff8ea7f0"
+      "images": []
     },
     {
       "slug": "hashihime",
@@ -4325,20 +4547,15 @@
     },
     {
       "slug": "hasshaku-sama",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "341cd10a076aa627e05f1e5547f0963722f48b87570a83a0377c725420b5d1bb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hasshaku-sama-c01",
@@ -4379,10 +4596,79 @@
           "quote": "She is said to always appears as a woman with a hat, and she makes an odd \"po po po\" sound when she appears.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c05",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, she laughs with an odd, human-yet-mechanical woman’s voice saying \"po po po\" and attacks people; she kills her target within days and tends to target the young, especially children.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, ia tertawa dengan suara perempuan aneh \"po po po\" yang seperti manusia sekaligus mesin dan menyerang manusia; ia membunuh sasarannya dalam beberapa hari dan cenderung mengincar anak muda, terutama anak-anak.",
+          "quote": "「ぽぽぽ」という、人間のような機械のような奇妙な女の声で笑い、人間を襲う。狙った人間を数日以内に取り殺すが、成人前の若者、特に子供を狙う傾向がある。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c06",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says she can freely change her voice, lures a target by imitating the voice of an acquaintance, and sometimes makes noises by knocking on doors and windows.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut ia mampu mengubah suara sesuka hati, memancing sasaran dengan meniru suara kenalannya, dan kadang membuat bunyi dengan mengetuk pintu atau jendela.",
+          "quote": "声色を自由に変える能力を持ち、狙った人間の知人の声を出しておびき寄せたり、ドアや窓を叩いて音を鳴らすことがある。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c07",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia records the handed-down countermeasures: carrying a talisman, shutting oneself in a room with salt in its four corners until seven in the morning while praying, and, if met, neither speaking to her nor pointing at her.",
+          "statement_id": "Wikipedia bahasa Jepang mencatat penangkal yang diwariskan: membawa jimat, mengurung diri di ruangan bergaram di empat sudut hingga pukul tujuh pagi sambil berdoa, dan bila bertemu tidak berbicara atau menunjuknya.",
+          "quote": "護符を肌身離さず持ち、四隅に塩を盛った部屋に朝の7時まで閉じこもり、神仏に祈るという対策が言い伝えられている。また、出会ってしまった時は話しかけず、指を指したりしてはいけない。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c08",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says a Jizo statue once sealed Hasshaku-sama in a particular area, but it has now been destroyed so she can appear anywhere.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut dahulu arca Jizo menyegel Hasshaku-sama di daerah tertentu, tetapi kini arca itu telah dirusak sehingga ia bebas muncul di mana saja.",
+          "quote": "かつては地蔵が八尺様を特定の地域に封印していたが、現在は何者かに、その地蔵が壊されており、八尺様は自由にどこにでも出没できる状態となっている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c09",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia notes she is sometimes said to be a \"giant-woman yokai\" handed down in the San'in region.",
+          "statement_id": "Wikipedia bahasa Jepang mencatat bahwa ia kadang disebut \"yokai perempuan raksasa\" dari wilayah San'in.",
+          "quote": "助かった者は誰一人いないとされる。 山陰地方に伝わる「大女の妖怪」であるとされることがある。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c10",
+          "source_id": "hasshaku-sama-s2",
+          "host": "automaton-media.com",
+          "statement": "Automaton West reports that indie developer Neruneko launched the Steam page for the comedy horror game Hyakushaku-sama, which riffs off the Japanese urban legend of Hachishaku-sama (roughly \"Ms. Eight Feet Tall\").",
+          "statement_id": "Automaton West melaporkan bahwa pengembang indie Neruneko meluncurkan halaman Steam gim horor komedi Hyakushaku-sama, yang mengolah legenda urban Jepang Hachishaku-sama (kira-kira \"Nona Delapan Kaki\").",
+          "quote": "Neruneko has launched the Steam page for their upcoming comedy horror point-and-click 3D adventure title Hyakushaku-sama. Riffing off the Japanese urban legend of the Hachishaku-sama (roughly translated to \"Ms. Eight Feet Tall\"), the game",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "hasshaku-sama-c11",
+          "source_id": "hasshaku-sama-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says that, as her name suggests, she appears as a tall woman of eight shaku (about 240 cm) of indeterminate age: young, middle-aged, or old.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut sesuai namanya ia berwujud perempuan jangkung delapan shaku (sekitar 240 cm) dengan usia yang tidak tentu: perempuan muda, setengah baya, atau nenek.",
+          "quote": "名前の通り、8尺(約240cm)ある高身長の女性の姿をしており、若い女性、中年女性、老婆など、年齢不特定である。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6f228d2ab5ba81bbc2027448208d0696069927ee9d1d429cc9acb525d89b10a7"
+      "images": []
     },
     {
       "slug": "himegami",
@@ -4461,20 +4747,15 @@
     },
     {
       "slug": "hyosube",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "ba628e8f911c55b856d8ccfedfd6723f2056e8e5a643c37cce2eedceb1188a45",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hyosube-c01",
@@ -4515,27 +4796,121 @@
           "quote": "It prefers to come out at night and loves to eat eggplants.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hyosube-c05",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com calls hyōsube cousins of the kappa and garappa that are more savage and belligerent.",
+          "statement_id": "Yokai.com menyebut hyōsube sebagai sepupu kappa dan garappa yang lebih ganas dan agresif.",
+          "quote": "Cousins of kappa and garappa, they are more savage and belligerent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c06",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, simply looking at a hyōsube can cause a terrible and contagious fever that can spread and turn into an epidemic.",
+          "statement_id": "Menurut Yokai.com, hanya dengan melihat hyōsube seseorang bisa terkena demam parah yang menular dan dapat berubah menjadi wabah.",
+          "quote": "Simply looking at a hyōsube can cause a terrible and contagious fever, which can spread and turn into an epidemic.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c07",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, hyōsube cackle with an evil laughter; a person who hears it and laughs too will be struck with fever and die within hours.",
+          "statement_id": "Menurut Yokai.com, hyōsube terkekeh jahat; orang yang mendengar dan ikut tertawa akan demam dan mati dalam beberapa jam.",
+          "quote": "Hyōsube cackle with an evil laughter which is also contagious; an unlucky person who hears a hyōsube laugh, and who laughs himself, will be struck with fever and die within hours.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c08",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, a hyōsube’s thick hair builds up dirt and grime, and they love nothing more than to sneak into houses at night and slip into the bathtub.",
+          "statement_id": "Menurut Yokai.com, rambut tebal hyōsube menumpuk kotoran, dan mereka paling suka menyelinap ke rumah pada malam hari lalu masuk ke bak mandi.",
+          "quote": "A hyōsube's thick hair builds up with dirt and grime; they love nothing more than to sneak into houses at night and slip into the bathtub.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c09",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "Farmers living in areas inhabited by hyōsube often leave offerings of the first eggplants of the harvest in the hope that the hyōsube will spare their fields for the rest of the year.",
+          "statement_id": "Petani di daerah yang dihuni hyōsube sering meninggalkan terung pertama hasil panen sebagai persembahan agar hyōsube tidak mengganggu ladang mereka sepanjang sisa tahun.",
+          "quote": "Farmers living in areas inhabited by hyōsube often leave offerings of the first eggplants of the harvest in hopes that the hyōsube will spare their fields for the remainder of the year.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c10",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, hyōsube are occasionally honored at local Shinto shrines, usually worshiped as gods of war for some military service performed for villagers in the past.",
+          "statement_id": "Menurut Yokai.com, hyōsube kadang dihormati di kuil Shinto setempat, biasanya sebagai dewa perang karena jasa militer bagi warga desa di masa lalu.",
+          "quote": "Hyōsube are occasionally honored at local Shinto shrines, usually worshiped as gods of war for some military service performed for villagers in the past.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c11",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com says the name is said to come from the \"hyo hyo\" call they make, though written in kanji the characters have a martial connotation.",
+          "statement_id": "Yokai.com menyebut namanya konon berasal dari seruan \"hyo hyo\", tetapi bila ditulis dengan kanji, aksaranya bermakna kemiliteran.",
+          "quote": "Their name is said to come from the \"hyo hyo\" call that they make. However, written in kanji, the characters have a martial connotation.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c12",
+          "source_id": "hyosube-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes it as a yokai said to appear along mountain streams around the spring and autumn higan seasons, with lore centered on Kyushu, mainly Saga and Miyazaki, and also called Hyōsue, Hyōsubo, or Hyōsunbo.",
+          "statement_id": "Kamus Jepang menyebutnya yokai yang muncul di tepi sungai pegunungan pada masa higan musim semi dan gugur, dengan cerita di Kyushu terutama Saga dan Miyazaki, dan juga disebut Hyōsue, Hyōsubo, atau Hyōsunbo.",
+          "quote": "日本の妖怪。山間部の渓流沿いに春秋の彼岸の時期に現れるとされる。佐賀県、宮崎県を中心とする九州地方に伝承があり、「ヒョウスエ」「ヒョウスボ」「ヒョウスンボ」などとも呼ばれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c13",
+          "source_id": "hyosube-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says one yokai illustrated guide writes that a hyōsube laughs and anyone who laughs along develops a fever and dies, but this is pointed out as probably an invention.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut satu buku bergambar yokai menulis bahwa hyōsube tertawa dan orang yang ikut tertawa akan demam dan mati, tetapi hal ini ditunjukkan kemungkinan merupakan karangan.",
+          "quote": "佐藤有文『いちばんくわしい日本妖怪図鑑』には「ひょうすべが人に出遭うとヒッヒッヒッと笑い、もらい笑いした人は熱を出して死ぬ」とあるが、これは創作であろうと指摘されている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hyosube-c14",
+          "source_id": "hyosube-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com lists the alternate names hyōsue, hyōsubo, hyōsunbo, and hyōsunbe, with a habitat of rivers and streams, found primarily on Kyushu and in West Japan.",
+          "statement_id": "Yokai.com mencantumkan nama lain hyōsue, hyōsubo, hyōsunbo, dan hyōsunbe, dengan habitat sungai dan anak sungai, terutama di Kyushu dan Jepang bagian barat.",
+          "quote": "Alternate names: hyōsue, hyōsubo, hyōsunbo, hyōsunbe Habitat: rivers and streams; found primarily on Kyūshū and in West Japan",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "11afe971790ff0a85c7909b679cb8b148607d48f4d686bc2d63c45e06414d95c"
+      "images": []
     },
     {
       "slug": "ishikoridome",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "3627269e0b6032b9c33a1fa0222521d4951953ced847ba8a1c115b2df10d2ce3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ishikoridome-c01",
@@ -4586,10 +4961,59 @@
           "quote": "They had the deity Ishikoridome no mikoto 伊斯許 理度売命 (5) see to the fashioning of a mirror.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ishikoridome-c06",
+          "source_id": "ishikoridome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "When Amaterasu hid in the rock cave of heaven, Omoikane no mikoto had bellows made from a deer’s hide and ordered Ishikoridome to forge a mirror from metal of the mountain Amanokaguyama.",
+          "statement_id": "Ketika Amaterasu bersembunyi di gua batu langit, Omoikane no mikoto menyuruh dibuat pompa tiup dari kulit rusa dan memerintahkan Ishikoridome menempa cermin dari logam gunung Amanokaguyama.",
+          "quote": "At the time of Amaterasu's hiding away in the rock cave of heaven, the deity Omoikane no mikoto had bellows made from a deer's hide, and ordered Ishikoridome to forge a mirror from metal of the mountain Amanokaguyama.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ishikoridome-c07",
+          "source_id": "ishikoridome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kogo shūi states that the first mirror forged was unsatisfactory and was enshrined at the Hinokuma Jingū in Kii Province, while the second was perfect and was enshrined at the Grand Shrines of Ise (Ise Jingū).",
+          "statement_id": "Kogo shūi menyebut cermin pertama yang ditempa dinilai kurang memuaskan dan disemayamkan di Hinokuma Jingū di Provinsi Kii, sedangkan cermin kedua sempurna dan disemayamkan di Kuil Agung Ise (Ise Jingū).",
+          "quote": "Kogo shūi states that the first mirror forged at this time was unsatisfactory, and was enshrined at the Hinokuma Jingū in Kii Province. The second mirror forged was perfect and subsequently enshrined at the Grand Shrines of Ise (Ise Jingū).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ishikoridome-c08",
+          "source_id": "ishikoridome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Ishikoridome is also identified as one of the \"chiefs of the five clans\" who accompanied Ninigi at the Descent of the Heavenly Grandchild (tenson kōrin) and was placed in charge of forging ritual mirrors.",
+          "statement_id": "Ishikoridome juga disebut salah satu dari \"kepala lima klan\" yang menyertai Ninigi saat turun sebagai Cucu Surgawi (tenson kōrin), dan ditugasi menempa cermin ritual.",
+          "quote": "Also identified as one of the \"chiefs of the five clans\" who accompanied Ninigi at the time of the Descent of the Heavenly Grandchild (tenson kōrin), he was placed in charge of forging ritual mirrors.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ishikoridome-c09",
+          "source_id": "ishikoridome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, Ishikoridome is the offspring of Amanonukato no mikoto and is claimed as ancestral deity of the Kagami-zukuri, or \"mirror-maker\" clan.",
+          "statement_id": "Menurut Encyclopedia of Shinto, Ishikoridome adalah keturunan Amanonukato no mikoto dan dianggap dewa leluhur klan Kagami-zukuri, yaitu klan \"pembuat cermin\".",
+          "quote": "Offspring of Amanonukato no mikoto, and claimed as ancestral deity of the Kagami-zukuri, or \"mirror-maker\" clan.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ishikoridome-c10",
+          "source_id": "ishikoridome-s4",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia says Ishikoridome made the Yata mirror to draw Amaterasu out of the rock cave and descended with the heavenly grandchild; the Nihon Shoki is also said to record that this deity made spears and bellows.",
+          "statement_id": "Ensiklopedia Heibonsha menyebut Ishikoridome membuat cermin Yata untuk menarik Amaterasu keluar dari gua batu dan turun menyertai cucu surgawi; Nihon Shoki juga menyebut ia membuat tombak dan pompa tiup.",
+          "quote": "天照大神(あまてらすおおかみ)を岩屋戸から引き出すために八咫鏡(やたのかがみ)を作り,また天孫に随行して天下った。《日本書紀》には矛(ほこ)やふいごを作ったともある。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c5cc07599d6f1a3f63134da0219ae8b12eb126c7dc53461ce6b849dad9f6c5bb"
+      "images": []
     },
     {
       "slug": "kasuga-gongen",
@@ -4668,20 +5092,15 @@
     },
     {
       "slug": "kikurihime",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-6.md",
+      "entry_sha256": "46565e54d6ae89177c94c72cfddc8e597d883cc3788a26b4ca3c5bb6766bc618",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kikurihime-c01",
@@ -4722,10 +5141,89 @@
           "quote": "She is also venerated at Yasukuni Shrine in Tokyo and at Yōrō Shrine in Gifu Prefecture.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kikurihime-c05",
+          "source_id": "kikurihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, at that time the kami Kukurihime is said to have mediated on behalf of Izanami, although the specific contents of her speech are not recorded.",
+          "statement_id": "Menurut Encyclopedia of Shinto, pada saat itu Kukurihime dikatakan menengahi demi Izanami, meskipun isi ucapannya tidak dicatat.",
+          "quote": "At that time, the kami Kukurihime is said to have mediated on behalf of Izanami, although the specific contents of her speech are not recorded.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c06",
+          "source_id": "kikurihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Encyclopedia of Shinto describes Kukurihime as a kami of mediation and negotiation.",
+          "statement_id": "Encyclopedia of Shinto menyebut Kukurihime sebagai kami mediasi dan negosiasi.",
+          "quote": "Kukurihime no kami] (Nihongi) A kami of mediation and negotiation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c07",
+          "source_id": "kikurihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "This account is found in an \"alternate writing\" of the Nihongi and also in the Sendai kuji hongi, but it is omitted in the Kojiki.",
+          "statement_id": "Kisah ini terdapat dalam \"tulisan alternatif\" Nihongi dan juga dalam Sendai kuji hongi, tetapi tidak ada dalam Kojiki.",
+          "quote": "While this account can be found in an \"alternate writing\" of Nihongi and also in Sendai kuji hongi, it is omitted in Kojiki.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c08",
+          "source_id": "kikurihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "From the medieval period on, the kami came to be the central object of worship of the Shirayama Myōri Gongen shrine in Kaga Province and was generally identified with that shrine’s deity, Shirayamahime no kami.",
+          "statement_id": "Sejak abad pertengahan, kami ini menjadi objek pemujaan utama kuil Shirayama Myōri Gongen di Provinsi Kaga dan umumnya disamakan dengan dewa kuil itu, Shirayamahime no kami.",
+          "quote": "From the medieval period on, the kami came to be the central object of worship (saijin) of the Shirayama Myōri Gongen shrine in Kaga Province, and was generally identified with the deity of that shrine, Shirayamahime no kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c09",
+          "source_id": "kikurihime-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says \"Kukuri\" in the goddess’s name is thought to mean \"to bind\", from her mediating between Izanagi and Izanami.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut \"Kukuri\" dalam nama dewi ini kemungkinan berarti \"mengikat\", dari perannya menengahi Izanagi dan Izanami.",
+          "quote": "神名の「ククリ」は「括り」の意で、伊奘諾尊と伊弉冉尊の仲を取り持ったことからの神名と考えられる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c10",
+          "source_id": "kikurihime-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia notes there are also views that she is Izanami’s aramitama or nigimitama, or another name for Izanami.",
+          "statement_id": "Wikipedia bahasa Jepang mencatat ada pula pendapat bahwa ia adalah aramitama atau nigimitama Izanami, atau nama lain Izanami.",
+          "quote": "伊弉冉尊の荒魂(あらみたま)もしくは和魂(にぎみたま)、あるいは伊弉冉尊(イザナミ)の別名という説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c11",
+          "source_id": "kikurihime-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says that from this tale she is regarded as having reconciled Izanagi and Izanami, and is therefore treated as a kami of matchmaking.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut bahwa dari kisah ini ia dianggap mendamaikan Izanagi dan Izanami, sehingga dipandang sebagai kami perjodohan.",
+          "quote": "この説話から、菊理媛神は伊奘諾尊と伊弉冉尊を仲直りさせたとして、縁結びの神とされている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kikurihime-c12",
+          "source_id": "kikurihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to an account transmitted by the Nihongi, after the death of his wife Izanami, Izanagi went to the underworld (Yomi) to retrieve her; having broken the taboo against viewing his dead wife, he was chased back to the visible world and at the \"Even Pass of the Underworld\" (Yomotsuhirasaka) debated with the dead woman.",
+          "statement_id": "Menurut kisah dalam Nihongi, setelah istrinya Izanami wafat, Izanagi pergi ke dunia bawah (Yomi) untuk menjemputnya; ia melanggar pantangan melihat istrinya yang telah wafat, dikejar kembali ke dunia yang terlihat, dan di \"Lereng Rata Dunia Bawah\" (Yomotsuhirasaka) berdebat dengan perempuan yang telah wafat itu.",
+          "quote": "According to an account transmitted by Nihongi, following the death of his wife Izanami, Izanagi went to the underworld (Yomi) to retrieve her; breaking the taboo (kinki) against viewing his dead wife, Izanagi was chased back to the visible world, and at the \"Even Pass of the Underworld\" (Yomotsuhirasaka), engaged in a debate with the dead woman.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "65515c467f8f97b9b978b93085090a43745d1033a8570acd4e30723df9995e26"
+      "images": []
     },
     {
       "slug": "kosode-no-te",

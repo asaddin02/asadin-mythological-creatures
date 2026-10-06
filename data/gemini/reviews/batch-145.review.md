@@ -1,6 +1,6 @@
 # Review batch-145
 
-Diperiksa 2026-10-06T15:36:23.512Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md.
+Diperiksa 2026-10-06T19:20:50.466Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md, batch-145-fix-3.md.
 
 ## mogollon-monster — lulus-otomatis
 
@@ -348,16 +348,21 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## beaman-monster — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | beaman-monster-c01 | exact | en.wikipedia.org | In Missouri folklore, the Beaman Monster is named after the town of Beaman. | In Missouri folklore, the Beaman Monster is an entity named after the town of Beaman. |
 | beaman-monster-c02 | exact | en.wikipedia.org | Some call it the offspring of a 12-foot gorilla escaped from a circus train; others say it is "shaped like a wolf or coyote". | some describe the creature as the spawn of a 12-foot-tall gorilla said to have escaped from a circus train, whereas others describe the monster as "shaped like a wolf or coyote". |
 | beaman-monster-c03 | exact | en.wikipedia.org | Its tales have been told for generations around Sedalia. | Tales regarding the Beaman Monster have been told for generations in the Sedalia area. |
+| beaman-monster-c04 | exact | www.semissourian.com | According to a news report, people have told tales of the Beaman Monster for more than 100 years, although no evidence of the creature exists. | People have told tales of the Beaman Monster for more than 100 years, although no evidence of the creature exists. |
+| beaman-monster-c05 | exact | www.semissourian.com | A man quoted in the report said his father told him a train wrecked in 1904 and all the animals were caught except one, a 12-foot-tall gorilla; the story goes that the Beaman Monster was this gorilla's offspring. | Holman's father told him a train wrecked in 1904, and all the animals were caught except one, a 12-foot tall gorilla. "They claim the Beaman Monster was the offspring of this gorilla," he said. |
+| beaman-monster-c06 | exact | www.semissourian.com | According to the report, most people think of the Beaman Monster as a type of Sasquatch, but one Sedalia man remembers it as shaped like a wolf or coyote. | Most describe or think of the Beaman Monster as a type of Sasquatch, but one Sedalia man remembers it as being shaped like a wolf or coyote. |
+| beaman-monster-c07 | exact | www.semissourian.com | A man quoted in the report said that, according to his father, when the boys got out of hand they would call out the Beaman Monster if they did not behave. | Dad said, when the boys would get out of hand, they'd call out the Beaman Monster if you didn't behave. |
+| beaman-monster-c08 | exact | www.semissourian.com | A resident recalled an uncle telling of a commotion in his cornfield in the late 1950s, when people with all kinds of shotguns walked through the field hunting the Beaman Monster. | Holman also remembers an uncle, who lived on Glenn Road, telling a story about a commotion in his cornfield in the late 1950s. "People were out there with all kinds of shotguns walking through his cornfield," he said. "They were hunting that Beaman Monster." |
+| beaman-monster-c09 | exact | www.semissourian.com | According to the report, some people have reported seeing large footprints, which they view as evidence of the beast's existence. | Others have reported seeing large footprints, which they view as evidence of the beast's existence. |
+| beaman-monster-c10 | exact | www.semissourian.com | A couple of people recall the Beaman Monster as a prank in the 1950s: some teenagers stole a construction sign with round, yellow flashing lights, covered it with brush and hid it in a field near Beaman. | A couple of people recall the Beaman Monster as a prank in the 1950s. ... Some teenagers stole a construction sign with large, round, yellow flashing lights, covered it with brush and hid it in a field near Beaman. |
+| beaman-monster-c11 | exact | www.semissourian.com | According to the report, some speculate the origins of the beast may have more to do with moonshine than anything else. | Some speculate the origins of the beast may have more to do with moonshine than anything else. |
 
 
 ## bear-lake-monster — lulus-otomatis
@@ -381,10 +386,7 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## boto — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -394,6 +396,11 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | boto-c04 | exact | de.wikipedia.org | The Boto is said to appear at local festivals and dances as an elegant young man dressed in white. | Es wird erzählt, dass der Boto während lokaler Festlichkeiten und Tänze in Gestalt eines eleganten, weiß gekleideten jungen Mannes erscheint. |
 | boto-c05 | exact | de.wikipedia.org | He always wears a hat to hide the blowhole that remains on his head in human form. | Er trägt dabei stets einen Hut, um das verräterische Blasloch zu verstecken, das trotz der Verwandlung in einen Menschen auf seinem Kopf zurückbleibt. |
 | boto-c06 | exact | de.wikipedia.org | So unknown young men arriving at a festival in a hat are asked to take it off. | Aus diesem Grund werden unbekannte junge Männer, die mit Hut auf einem Fest erscheinen, gebeten, diesen abzunehmen. |
+| boto-c07 | exact | www.seawatchfoundation.org.uk | According to a popular folk story from the area these dolphins inhabit, usually on the night of the full moon male Botos emerge from the river and transform into handsome, elegant "white men". | A popular folk story from the area these dolphins inhabit says that, usually on the night of the full moon, male Botos emerge from the river and transform into handsome and elegant white men. |
+| boto-c08 | exact | www.seawatchfoundation.org.uk | The transformed "men" wear hats to cover their blow holes and find a party taking place in a community along the riverside. | wearing hats to cover their blow holes, find a party taking place in a community along the riverside. |
+| boto-c09 | exact | www.seawatchfoundation.org.uk | At the party they seduce and impregnate a local young woman; before the sun rises they return to the river and to dolphin form. | At this party, they seduce and impregnate a local young woman. Before the sun rises, they return to the river and to their dolphin form. |
+| boto-c10 | exact | www.seawatchfoundation.org.uk | According to the author, even now in that part of the world, when a woman falls pregnant and is unwilling or unable to name the father (for example because she was assaulted or forced into prostitution), her child is said to be a "filho-do-boto" (offspring of a dolphin). | Even now, when a woman falls pregnant in this part of the world and isn’t willing to/cannot name the father (because she has been assaulted, or forced into prostitution), it will be said that her child is a ‘filho-do-boto’ (offspring of a dolphin). |
+| boto-c11 | exact | www.seawatchfoundation.org.uk | The author argues that the legend most likely covers up the reality of living under colonial rule, especially for indigenous women. | The likelihood is this legend really covers up the reality of living under colonial rule, especially for indigenous women. |
 
 
 ## cabra-cabriola — lulus-otomatis
@@ -418,10 +425,7 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## carbuncle-legendary-creature — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 13, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -429,14 +433,22 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | carbuncle-legendary-creature-c02 | exact | en.wikipedia.org | It is said to have a red shining mirror like glowing coal on its head, thought to be a gem. | The animal is said to have a red shining mirror, like hot glowing coal, on its head, thought to be a precious stone. |
 | carbuncle-legendary-creature-c03 | exact | en.wikipedia.org | To colonial Spaniards and Portuguese it embodied medieval lore of a dragon hiding a gem in its brain or body. | To the colonial Spaniards and Portuguese, the creature was a realization of the medieval lore that a dragon or wyvern concealed a precious gem in its brain or body |
 | carbuncle-legendary-creature-c04 | exact | en.wikipedia.org | The name comes from Latin carbunculus, "little coal". | comes from the Latin carbunculus, meaning "little coal" |
+| carbuncle-legendary-creature-c05 | exact | en.wikipedia.org | In Latin American lore, it is said to hold treasures inside, so whoever manages to capture it becomes wealthy. | In Latin American lore, it is said to hold treasures inside so whoever manages to capture it will become wealthy. |
+| carbuncle-legendary-creature-c06 | exact | en.wikipedia.org | In the Chilote mythology of southern Chile the carbunclo is said to be the "guardian of the metals"; descriptions vary from a luminescent small dog, a luminescent bivalve or a cat with a luminescent tuft under its beard to a greenish-red fiery light reminiscent of fireflies. | In the Chilote mythology of southern Chile the carbunclo is said to be the "guardian of the metals". Descriptions of it vary, from a luminescent small dog, a luminescent bivalve, a cat with a luminescent lock or tuft under its beard or a greenish-red fiery light reminiscent of fireflies. |
+| carbuncle-legendary-creature-c07 | exact | en.wikipedia.org | The carbunclo is said to manifest itself at night around the Southern Hemisphere winter solstice (late June). | The carbunclo is said to manifest itself at night around the Southern Hemisphere winter solstice (late June). |
+| carbuncle-legendary-creature-c08 | exact | en.wikipedia.org | According to the legend, a treasure seeker must first cast a length of string, a belt or some personal belonging towards the carbunclo, which snatches it and disappears; the seeker waits and returns to the site in the morning before dawn. | First, a length of string, or a belt (or some personal belonging) must be cast towards the carbunclo which will snatch it and disappear. The treasure seeker shall wait and return to the site in the morning before dawn |
+| carbuncle-legendary-creature-c09 | exact | en.wikipedia.org | According to the legend, if the ritual is not performed the digger will die in the pit from noxious gas, and he must show no sign of fear or the treasure will turn into rock. | If this ritual is not performed, the digger will die in the pit due to noxious gas. He must also not show any sign of fear the treasure will turn into rock. |
+| carbuncle-legendary-creature-c10 | exact | en.wikipedia.org | In Tarapacá, it is said to look like a bivalve with a strong white-blue shine from within the shell, visible from one league away; this "bivalve" has acute hearing, quickly detects humans approaching and clams up inside its hard shell. | In Tarapacá, it is said to look like a bivalve with a strong white-blue shine from within the shell which can be observed from a distance 1 league away; this "bivalve" has an acute sense of hearing, so that it can quickly detect humans approaching, and clam up inside its hard shell |
+| carbuncle-legendary-creature-c11 | loose | en.wikipedia.org | According to some, the carbuncle can be explained as a bivalve mollusk that glows because of bioluminescence from the "cauquil" (Noctiluca scintillans) or from fireflies. | According to some, the carbuncle is explainable as a bivalve mollusk which glows because of bioluminescence from the "cauquil" (Noctiluca scintillans) or from fireflies. |
+| carbuncle-legendary-creature-c12 | loose | en.wikipedia.org | The chaplain and explorer Martín del Barco Centenera, in La Argentina (1602), called it Anagpitán and described it as "a smallish animal, with a shining mirror on its head, like a glowing coal". | The chaplain and explorer Martín del Barco Centenera in La Argentina (1602) called it Anagpitán (recté Añagpitán; cf. anhangapitã below) and described it as "a smallish animal, with a shining mirror on its head, like a glowing coal". |
+| carbuncle-legendary-creature-c13 | exact | en.wikipedia.org | Descriptions of the animal vary, and "no one ever saw it well enough to know whether it was a bird or a mammal, whether is had feathers or fur". | The description of the animal vary; and "no one ever saw it well enough to know whether it was a bird or a mammal, whether is had feathers or fur". |
+| carbuncle-legendary-creature-c14 | exact | en.wikipedia.org | Carbuncle is a recurring character in the Final Fantasy role-playing game series and "appears as a small creature", fox-, cat-, rabbit- or squirrel-like with green or blue fur depending on the game. | Carbuncle is a recurring character in the Final Fantasy series of role-playing games, and "appears as a small creature, fox-, cat-, rabbit- or squirrel-like, with green or blue fur, depending on the game". |
+| carbuncle-legendary-creature-c15 | exact | www.memoriachilena.gob.cl | According to this mythology dictionary, the animal carries a luminous tuft under its chin and is considered a guardian of treasures whose colors it takes on. | que lleva bajo la barbilla un mechon luminoso. Se le considera guardian de ... tesoros con cuyos colores se metamorfosea |
 
 
 ## chaneque — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -444,6 +456,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | chaneque-c02 | exact | en.wikipedia.org | These small sprite-like beings are tied to elemental forces and seen as guardians of nature. | These small, sprite-like beings hold a connection to elemental forces and are regarded as guardians of nature. |
 | chaneque-c03 | exact | en.wikipedia.org | Modern legends portray them as children with elderly faces who can lead people astray for days. | In some contemporary legends, chaneques are portrayed as children with the faces of elderly men or women, capable of leading people astray for several days. |
 | chaneque-c04 | exact | en.wikipedia.org | Elsewhere they frighten intruders until their souls leave their bodies. | In other instances, chaneques are said to intimidate intruders to the point where their souls leave their bodies. |
+| chaneque-c05 | exact | en.wikipedia.org | Chaneques have a long history in Mexico, though they are represented differently by state; they appear in Mesoamerican legends and in documents written by the Spanish Inquisition. | Chaneques have a long history in Mexico, although they are represented differently based on the state. They have been found in Mesoamerican legends, as well as in documents written by the Spanish Inquisition. |
+| chaneque-c06 | exact | en.wikipedia.org | Villagers used to give chaneques offerings in exchange for protection, hoping they would guard the harvest and keep intruders or other evil beings out of their homes. | Villagers used to give the chaneques offerings in exchange for protection. They hoped that the chaneques would protect their harvest and prevent intruders, or other evil beings, from entering their homes. |
+| chaneque-c07 | exact | en.wikipedia.org | Another form of protection is wearing clothing inside out when traveling in the forest. | Another form of protection is wearing clothing inside out if traveling in the forest. |
+| chaneque-c08 | exact | en.wikipedia.org | Chaneques are short and usually described as naked; they live in forests, rivers or caves and are connected to the earth and water. | Chaneques have short stature and are usually described as naked. They live in forests, rivers, or caves, and are connected to the earth and water. |
+| chaneque-c09 | exact | en.wikipedia.org | Mexican folklore represents them both as evil creatures who want to cause harm and as good creatures who want to help; they can communicate with animals in the jungle since they provide protection, and may not always be visible to adults though children can generally see them. | Mexican folklore has represented them both as evil creatures who want to cause harm or good creatures who want to help. They can communicate with animals in the jungle since they provide protection. They may not always be visible to adults but children can generally see them. |
+| chaneque-c10 | exact | en.wikipedia.org | When angered, chaneques can be disruptive and physically hurt humans; in one example a chaneque threw a fistful of hay into the mouth of a prisoner. | When angered, Chaneques can be disruptive and physically hurt humans. In one example, the Chaneque threw a fistful of hay into the mouth of a prisoner. |
+| chaneque-c11 | exact | en.wikipedia.org | Comparable mythical beings are found across Mesoamerican and Latin American folklore, often called "duende" in Spanish; in Yucatec Mayan folklore the Yucatán Peninsula tradition calls similar elemental entities "aluxob". | Comparable mythical beings are found across Mesoamerican and Latin American folklore, often referred to as "duende" in Spanish. Within Yucatec Mayan folklore, the Yucatán Peninsula's tradition identifies similar elemental entities as "aluxob". |
+| chaneque-c12 | exact | politica.expansion.mx | According to a news report, President Andrés Manuel López Obrador recalled mythological beings such as the chaneque, the aluxe or mischievous duende, which he said look after the Bacalar lagoon. | el presidente Andrés Manuel López Obrador recordó a seres mitológicos como el chaneque, el aluxe o duende travieso, los cuales, aseguró, cuidan la laguna de Bacalar. |
+| chaneque-c13 | exact | politica.expansion.mx | According to the news report, in his morning press conferences he has also spoken of the importance of aluxes and chaneques, as they are part of Mexican popular culture. | También en sus conferencias matutinas se ha pronunciado por la importancia de los aluxes y chaneques, ya que son parte de la cultura popular mexicana. |
 
 
 ## colo-colo-mythology — lulus-otomatis
@@ -468,24 +489,31 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## cuero-legendary-creature — lulus-otomatis
 
-Klaim 3 (exact 2, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 12, loose 4), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cuero-legendary-creature-c01 | exact | en.wikipedia.org | El Cuero is an aquatic creature of Mapuche mythology later absorbed into the myths of central and southern Chile and parts of southwest Argentina. | is an aquatic creature from Mapuche mythology subsequently incorporated into the myth of Central Chile (including Chiloé Islands) and Southern Chile, and certain parts of southwest Argentina. |
 | cuero-legendary-creature-c02 | loose | en.wikipedia.org | It is also called cuero del agua or cuero vivo ("live hide"). | This also called cuero del agua or cuero de agua. or colloquially cuero vivo ("live hide"). |
 | cuero-legendary-creature-c03 | exact | en.wikipedia.org | El Cuero dwells in the depths of rivers and lagoons. | El Cuero dwells in the depths of rivers and lagoons. |
+| cuero-legendary-creature-c04 | loose | en.wikipedia.org | Most sources describe El Cuero as resembling an outstretched cowhide (or calfskin, or a donkey hide come to life) that envelops its prey, and many sources call it an octopus (pulpo) or cuttlefish (jibia). | Most sources agree in describing El Cuero as resembling an outstretched cowhide (or calfskin, or donkey hide come to life) which envelops its prey, and many sources call it an octopus (Spanish: pulpo), or cuttlefish (Spanish: jibia). |
+| cuero-legendary-creature-c05 | exact | en.wikipedia.org | The Manta targets humans and animals entering the water, wraps around them and drags its prey to the bottom. | The Manta targets humans and animals entering water, wraps around, and drags its prey to the bottom of the water. |
+| cuero-legendary-creature-c06 | exact | en.wikipedia.org | The "Trelquehuecuve" evidently sunbathes: it crawls to the edge of a river or lagoon to receive the sun's warmth, and when it wishes to return it raises a whirlwind or whirlpool that shoves it back into the water. | The "Trelquehuecuve" evidently engages in sunbathing on the beach: it crawls out to the edge of a river or lagoon to receive the warmth of sunlight, and when it wishes to return, it raises a whirwind or whirpool which will shove it back into water. |
+| cuero-legendary-creature-c07 | exact | en.wikipedia.org | In a local legend, whoever steps on it feels something mossy and then dizziness (or drowsiness), and the pelt monster flips up its sides, which have numerous sharp nails and claws, envelops the victim and carries him to the depths. | When one steps on it, there is a mossy feel, but then experiences dizziness (or drowsiness), and the pelt monster flips up its sides equipped with numerous sharp nails and claws, and envelops the victim, carrying him to the depths. |
+| cuero-legendary-creature-c08 | exact | en.wikipedia.org | Defeating a cuero may require the help of a machi, a wise woman; the machi plunges in the thorny calafate bush, the cuero pounces on it mistaking it for prey, is damaged by the thorns as it squeezes, and dies. | But to defeat a cuero, the help of a machi wise woman may be required. The machi will use a method similar to the one already described, plunging the thorny bush of the calafate (Berberis microphylla, Magellan barberry) and the cuero will pounce on it mistaking it for food prey, is damaged by the thorns as it squeezes, and it dies. |
+| cuero-legendary-creature-c09 | loose | en.wikipedia.org | The traditional capturing method uses a sort of natural fishing lure made of a "thorny bush" known in Chile as quisco, which usually refers to the cactus Echinopsis chiloensis. | The traditional capturing method use a sort of natural fishing lure using a "thorny bush" known in Chile as quisco, which usually refers to the cactus Echinopsis chiloensis |
+| cuero-legendary-creature-c10 | exact | en.wikipedia.org | In the story "The indio and the cuero", the hero Ñanco defeats the cuero by fighting it with bunches of quisco cacti tied to his arms and legs, and the monster bleeds to death. | In the story "The indio and the cuero", the hero Ñanco defeats the cuero by fighting it with bunches of quisco cacti tied to his arms and legs, and the monster bled out to death. |
+| cuero-legendary-creature-c11 | exact | en.wikipedia.org | The myth may have originated from the phenomenon of the remolino (whirlpool, whirlwind). | The myth may have originated from the phenomenon of the remolino (whirpool, whirlwind). |
+| cuero-legendary-creature-c12 | exact | en.wikipedia.org | Some have suggested the myth of "La Manta" may be connected to the manta ray or some other large ray. | Some have suggested the myth of "La Manta" may be connected to the manta ray or some other large ray. |
+| cuero-legendary-creature-c13 | exact | en.wikipedia.org | El Cuero is sometimes confused with the Guirivilo (nguruvilu), the "fox-serpent". | El Cuero is sometimes confused with the Guirivilo (nguruvilu), the "fox-serpent". |
+| cuero-legendary-creature-c14 | exact | www.memoriachilena.gob.cl | According to this mythology dictionary, the manta is a fabulous animal that lives in lagoons and rivers of southern Chile and appears as the hide of a bovine floating between two layers of water. | Animal fabuloso que habita lagunas y rios del sur de Chile. Se muestra como el pellejo de un vacuno, flotando entre dos aguas. |
+| cuero-legendary-creature-c15 | exact | www.memoriachilena.gob.cl | According to this mythology dictionary, some describe it with eyes along all its edges. | Algunos lo describen con ojos en todos sus bordes. |
+| cuero-legendary-creature-c16 | loose | en.wikipedia.org | It is also called manta (La Manta, "the Blanket") or "manta del Diablo". | It is also called manta (La Manta, "the Blanket") or "manta del Diablo". |
 
 
 ## el-silbon — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -493,14 +521,23 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | el-silbon-c02 | exact | en.wikipedia.org | It is usually described as a lost soul. | It is usually described as a lost soul. |
 | el-silbon-c03 | exact | en.wikipedia.org | The legend, from the mid-19th century, is part of llanero folklore and serves as a moral warning in rural areas. | The legend, which emerged in the mid-19th century, forms part of Venezuelan llanero folklore and is also shared in Colombian–Venezuelan regions, functioning as a moral warning and an element of social control in rural areas. |
 | el-silbon-c04 | exact | en.wikipedia.org | He was nicknamed El Silbón for his habit of whistling. | He was nicknamed El Silbón because of his habit of whistling. |
+| el-silbon-c05 | exact | en.wikipedia.org | In the origin story, the son, in a drunken rage and without listening, brutally beat his father; when the father fell, he repeatedly shot him with a hunting rifle until killing him. | In a drunken rage and without listening, the son brutally beat him; when the father fell to the ground, the son repeatedly shot him with a hunting rifle until killing him. |
+| el-silbon-c06 | exact | en.wikipedia.org | As punishment, the boy's grandfather ordered him tied to a post in the countryside and whipped violently until his back was destroyed. | As punishment, the boy's grandfather ordered him to be tied to a post in the countryside and whipped violently until his back was destroyed. |
+| el-silbon-c07 | exact | en.wikipedia.org | After being released, he was set upon by two rabid, starving dogs, in some versions the Perros Tureco or Dogs of the Devil, which according to the legend will pursue him until the end of time; before that, his grandfather cursed him to carry his father's bones for all eternity and to wander forever. | After being released, he was set upon by two rabid, starving dogs—identified in some versions as the Perros Tureco or the Dogs of the Devil—which, according to the legend, will pursue him until the end of time. Before releasing him, his grandfather cursed him, condemning him to carry his father's bones for all eternity and to wander forever. |
+| el-silbon-c08 | exact | en.wikipedia.org | It has a characteristic whistle; it is said that when the whistling sounds close there is no danger and the whistler is far away, but when it sounds distant it is nearby. | It has a characteristic whistle. It is said that when the whistling sounds close, there's no danger, and the whistler is far away, but when the whistling sounds distant, it means it is nearby. |
+| el-silbon-c09 | exact | en.wikipedia.org | It is also said that hearing the whistling foretells one's own death and may happen anywhere at any time; the only thing that can save the victim is a dog barking (the only thing it fears), a chili or a whip. | It is also said that hearing the whistling foretells one's own death, and one may hear it anywhere at any time. In this situation, the only thing that can save the victim is the sound of a dog barking (as it is the only thing it is afraid of), a chili, or a whip. |
+| el-silbon-c10 | exact | en.wikipedia.org | The spirit tends to take revenge on womanizers. | The spirit tends to take revenge on womanizers. |
+| el-silbon-c11 | exact | en.wikipedia.org | It is said to suck the alcohol out of drunkards through their navel when it finds them alone, and to tear womanizers to pieces, remove their bones and put them in the sack where it keeps its father's remains. | It is said that it sucks the alcohol out of drunkards through their navel when it finds them alone and that it tears womanizers to pieces, removes their bones, and puts them in the sack where it keeps the remains of his father. |
+| el-silbon-c12 | exact | en.wikipedia.org | Some versions say it appears as a giant of about six meters that moves about the treetops, creaking and emitting its chilling whistle. | Some versions say it appears as a giant of about six meters that moves about the treetops, creaking, and emitting its chilling whistle. |
+| el-silbon-c13 | exact | en.wikipedia.org | Other versions say he appears as the shadow of a tall, thin man with a hat, and goes after drunkards most of all. | Other versions say he appears as the shadow of a tall thin man, with a hat, and goes after drunkards most of all. |
+| el-silbon-c14 | exact | digitalcommons.unf.edu | According to this journal article's abstract, although the story is predominantly regarded as a ghost story to scare children, it hides many elements from the historical context in which it began to be popularized around the country. | Even though the story is predominantly regarded as a ghost story to scare children, it hides many elements from the historical context of when it started to be popularized around the country. |
+| el-silbon-c15 | exact | digitalcommons.unf.edu | According to the abstract, beginning in Los Llanos (The Plains) of Venezuela, El Silbón reflects the effect that factors such as the Independence War and economic disparity had on the population, and exemplifies the purpose of oral tradition in sharing communal experiences and values with future generations. | With a beginning in Los Llanos (The Plains) of Venezuela, El Silbón reflects the effect that factors such as the Independence War and economic disparity had on the population and exemplifies the purpose of Oral Tradition of sharing communal experiences and values with the future generations. |
+| el-silbon-c16 | exact | digitalcommons.unf.edu | According to the abstract, the urban legend of El Silbón has been present in Venezuelan folklore for centuries. | The urban legend of El Silbón has been present in Venezuelan folklore for centuries. |
 
 
 ## huay-chivo — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -508,6 +545,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | huay-chivo-c02 | exact | en.wikipedia.org | It is said to be an evil sorcerer who turns into a supernatural animal, usually a goat, dog or deer, to prey on livestock. | It is reputed to be an evil sorcerer who can transform himself into a supernatural animal, usually a goat, dog or deer, in order to prey upon livestock. |
 | huay-chivo-c03 | exact | en.wikipedia.org | The Huay Chivo is a local variation of the Mesoamerican Nahual. | The Huay Chivo is a local variation of the Mesoamerican Nahual. |
 | huay-chivo-c04 | exact | en.wikipedia.org | Chivo is Spanish for goat; the name literally means "sorcerer-goat". | Chivo is Spanish for goat, literally meaning sorcerer-goat |
+| huay-chivo-c05 | exact | en.wikipedia.org | The Huay Chivo is specific to Guatemala and the southeastern Mexican states of Yucatán, Campeche and Quintana Roo; alleged activity is sporadically reported in the regional press. | The Huay Chivo is specific to Guatemala, the southeastern Mexican states of Yucatán, Campeche and Quintana Roo. Alleged Huay Chivo activity is sporadically reported in the regional press. |
+| huay-chivo-c06 | exact | en.wikipedia.org | In recent times it has become associated with the chupacabras. | In recent times, it has become associated with the chupacabras. |
+| huay-chivo-c07 | exact | en.wikipedia.org | Local Maya near the town of Valladolid, Yucatán, believe the Huay Chivo is an evil sorcerer able to turn into a goat to do mischief and eat livestock. | Local Maya near the town of Valladolid, in Yucatán, believe the Huay Chivo is an evil sorcerer that is capable of transforming into a goat to do mischief and eat livestock. |
+| huay-chivo-c08 | exact | en.wikipedia.org | "Huay" or "Uay" comes from Waay in Yucatec Maya, meaning sorcerer, spirit or animal familiar, while Chivo is Spanish for goat, literally "sorcerer-goat"; it is also called Chivo Brujo, an entirely Spanish phrase with the same meaning. | Huay or Uay comes from Waay in Yucatec Maya, meaning sorcerer, spirit or animal familiar, while Chivo is Spanish for goat, literally meaning sorcerer-goat; it is also known as the Chivo Brujo, an entirely Spanish phrase meaning the same thing. |
+| huay-chivo-c09 | exact | yucatantoday.com | According to this magazine article, in Yucatecan stories about transformation from human to animal form the term "wáay" appears: "wáay chivo", "wáay pek", "wáay burro". | The experienced Yucatecan social anthropologist Carlos Augusto Evia Cervantes, in his first collection, shares the stories that explore the theme of transformation from human to animal form. In those stories the term "wáay" appears: "wáay chivo", "wáay pek", "wáay burro". |
+| huay-chivo-c10 | exact | yucatantoday.com | In the story as told, one night as a young man was on his way to visit his beloved in the town of Mucuyché, a being appeared on the road that was half baby goat, half demon, black, with bulging and flashing eyes. | It is said that one night, when the young man was on his way to visit his beloved in the nearby town of Mucuyché, a being appeared on the road which was half baby goat, half demon, black in color, with bulging and flashing eyes. |
+| huay-chivo-c11 | exact | yucatantoday.com | In the story, the "malix" dog is ordered by its master to attack the sinister being while the young man takes ground basil and rue from his satchel to throw on the witch, who roars and twists with pain from the smell and touch of the herbs. | The "malix" received from his master the order to attack the sinister being. While this took place, the young man removed ground basil and rue herbs from his satchel, in order to throw them upon the witch, who, in face of the smell and contact with the herbs, roared and twisted with pain. |
+| huay-chivo-c12 | exact | yucatantoday.com | According to witnesses in the story, the "wáay chivo" left a trail of blood all the way to the door of his house, where he turned into a human and died. | According to witnesses, the "wáay chivo" left a trail of blood all the way to the door of his house. There he transformed into a human, and died. |
 
 
 ## idliragijenget — skip
@@ -523,10 +568,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## iliamna-lake-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -534,14 +576,22 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | iliamna-lake-monster-c02 | exact | en.wikipedia.org | Iliamna is said to be the name of a mythical great blackfish of the lake that bites holes in the bidarkas of bad natives. | Iliamna is said to be "the name of a mythical great blackfish supposed to inhabit this lake, which bites holes in the bidarkas of bad natives." |
 | iliamna-lake-monster-c03 | exact | en.wikipedia.org | Sightings may be of an undocumented white sturgeon population. | Speculation exists that reported sightings may be of an undocumented population of white sturgeon. |
 | iliamna-lake-monster-c04 | exact | en.wikipedia.org | The Anchorage Daily News once offered $100,000 for concrete proof of it. | The Anchorage Daily News once offered a prize of $100,000 for concrete proof of its existence. |
+| iliamna-lake-monster-c05 | exact | en.wikipedia.org | The name Iliamna is derived from the Inland Dena'ina Athabascan name Nila Vena, meaning "island's lake". | The name Iliamna is derived from the Inland Dena'ina Athabascan name Nila Vena, which means "island's lake". |
+| iliamna-lake-monster-c06 | exact | en.wikipedia.org | Iliamna Lake is the largest lake in Alaska, the 7th largest in the United States and twenty-fourth in North America. | It is the largest lake in Alaska, 7th largest lake in the United States, and twenty-fourth in North America. |
+| iliamna-lake-monster-c07 | exact | en.wikipedia.org | Jeremy Wade, presenter of Animal Planet's River Monsters, is among those who speculate the sightings of a reputed "monster" are of a white sturgeon; others believe it is a Pacific sleeper shark. | Jeremy Wade, presenter of Animal Planet's River Monsters, is among those who speculate these sightings of a reputed "monster" are of a white sturgeon. Others believe that it is a Pacific sleeper shark. |
+| iliamna-lake-monster-c08 | exact | en.wikipedia.org | There were several new supposed sightings in 2017. | There were several new supposed sightings in 2017. |
+| iliamna-lake-monster-c09 | exact | www.juneauempire.com | According to a news report, numerous sightings of giant fish-like creatures in the lake have been reported since well before Alaska became a state; descriptions vary somewhat, but most witnesses say the creatures are dark colored, shark-like in appearance and 10 to 20 feet long. | Since well before Alaska became a state, there have been numerous reported sightings of giant fish-like creatures in the lake. There’s some variation in descriptions, but most witnesses say the creatures are dark colored, shark-like in appearance and between 10 and 20-feet long. |
+| iliamna-lake-monster-c10 | exact | www.juneauempire.com | According to the news report, there is often more than one together and frequently the creatures are hunting. | Often there’s more than one together and frequently, the creatures are hunting. |
+| iliamna-lake-monster-c11 | exact | www.juneauempire.com | According to the news report, reports of the creatures' predatory behavior, herding seals into shallows to hunt them and preying upon schools of sockeye salmon, do not sound like a sturgeon. | However, reports of the creatures’ predatory behavior — herding seals into shallows to hunt them and preying upon schools of sockeye salmon — don’t sound like a sturgeon. |
+| iliamna-lake-monster-c12 | exact | www.juneauempire.com | In one account recorded in the news report, one creature was the length and width of the hunters' 18-foot skiff with eyes the circumference of soccer balls, and the creatures looked like giant northern pike. | One was the length and the width of their 18-foot skiff and had eyes the circumference of soccer balls. The creatures looked like giant northern pike. |
+| iliamna-lake-monster-c13 | exact | www.juneauempire.com | In 1980 the Anchorage Daily News offered a $100,000 reward over a five-month period for clear evidence of the monsters; no definitive proof has been made public, though sightings have been reported most years since. | In 1980, the Anchorage Daily News offered a $100,000 reward during a five-month period to anyone who presented clear evidence of the monsters. No definitive proof has been made public, though there have been sightings reported most years since. |
+| iliamna-lake-monster-c14 | exact | www.juneauempire.com | For years Wright theorized the monsters might be Pacific sleeper sharks adapted to freshwater; now he wonders if they might be a tiny population of gargantuan northern pike; others have theorized giant sturgeon. | For years, Wright theorized that the monsters might be Pacific sleeper sharks that adapted to living in freshwater. Now, he’s wondering if they might be a tiny population of gargantuan northern pike. Others have theorized they’re giant sturgeon. |
+| iliamna-lake-monster-c15 | exact | www.juneauempire.com | In 2017, after several summers with no action, Stigar had an experience that convinced him the monsters were real: his 38-pound anchor on his longline set had been dragged 50 yards. | In 2017, after several summers with no action, Stigar had an experience that convinced him the monsters were real. On that day he went to check his longline set and was surprised to see that his 38-pound anchor had been dragged 50 yards. |
 
 
 ## kalku — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -549,20 +599,39 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kalku-c02 | exact | en.wikipedia.org | The benevolent shamans are called machi, to avoid confusion with the malevolent kalku. | The essentially benevolent shamans are more often referred to as machi, to avoid confusion with the malevolent kalku. |
 | kalku-c03 | exact | en.wikipedia.org | The kalku is a semi-mythical figure able to work with wekufe, wicked spirits or creatures. | The kalku is a semi-mythical character that has the power of working with wekufe "spirits or wicked creatures". |
 | kalku-c04 | exact | en.wikipedia.org | The kalku also has servants such as the Anchimayen or the Chonchon. | The kalku also have as servants other beings such as the Anchimayen, or the Chonchon |
+| kalku-c05 | exact | en.wikipedia.org | The word kalku is a borrowing from the Puquina language; its adoption by the Mapuche fits a pattern of parallels between Mapuche and Central Andean cosmology (Inca religion) dating back to the Tiwanaku Empire, when Puquina was an important language. | The word kalku is a borrowing from Puquina language. Its adoption by Mapuches fits into a pattern of parallels in the Mapuche and Central Andean cosmology (Inca religion) dating back to the times of Tiwanaku Empire when Puquina was an important language. |
+| kalku-c06 | exact | en.wikipedia.org | A Mapuche kalku is usually an inherited role, although it could be a machi interested in lucrative ends or a "less powerful", frustrated machi who ignores the laws of the admapu (the rules of the Mapuche). | A mapuche kalku is usually an inherited role, although it could be a machi that is interested in lucrative ends or a "less powerful", frustrated machi who ignores the laws of the admapu (the rules of the Mapuches). |
+| kalku-c07 | exact | en.wikipedia.org | An example of a wekufe is the Nguruvilu. | An example of a wekufe is the Nguruvilu. |
+| kalku-c08 | exact | en.wikipedia.org | Kalku is the main antagonist of the 2020 Annecy-nominated Chilean-Brazilian animated feature Nahuel and the Magic Book, created by Carburadores and German Acuna. | Kalku is the main antagonist of 2020 Annecy nominated Chilean-Brazilian featured animated film Nahuel and the Magic Book created by Carburadores and German Acuna. |
+| kalku-c09 | exact | www.everyculture.com | According to this encyclopedia, a kalku is both a sorcerer and a witch; kalkus, who are usually women, are trained in their arts by other kalkus. | A kalku is both a sorcerer and a witch. Kalkus, who are usually women, are trained in their arts by other kalkus. |
+| kalku-c10 | exact | www.everyculture.com | According to this encyclopedia, their powers are obtained through dreams and visions. | Their powers are obtained through dreams and visions. |
+| kalku-c11 | exact | www.everyculture.com | According to this encyclopedia, the forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy. | The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy. |
+| kalku-c12 | exact | www.everyculture.com | According to this encyclopedia, the evil forces are called wekufe and are of three major types: natural phenomena, ghosts and those of zoomorphic form. | The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form. |
 
 
 ## lady-in-red — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lady-in-red-c01 | exact | en.wikipedia.org | The Lady in Red is a type of female ghost like the White Lady, attributed in legend to a jilted lover, a victim of passion, or a vain woman. | A Lady in Red or Red Lady is a type of female ghost, similar to the White Lady, but according to legend is more specifically attributed to a jilted lover, killed in a fit of passion, or a woman of vanity. |
 | lady-in-red-c02 | exact | en.wikipedia.org | In all cases she wears a scarlet or blood-red dress. | In all cases, the Lady in Red is wearing a scarlet or blood red dress. |
 | lady-in-red-c03 | exact | en.wikipedia.org | She is usually friendly, with stories tied to historic hotels, theatres and other public places. | She is said to typically be friendly in disposition, with a story attached to historic hotels, theatres or other public places |
+| lady-in-red-c04 | exact | en.wikipedia.org | The Weckesser building at Wilkes University in Wilkes-Barre, Pennsylvania, is reportedly haunted by a Lady in Red who, according to one witness, appears real until vanishing. | At Wilkes University in Wilkes-Barre, Pennsylvania, the Weckesser building is reportedly haunted by a Lady in Red that according to one witness appears real until vanishing. |
+| lady-in-red-c05 | exact | en.wikipedia.org | In Charleston, South Carolina, near Dock Street Theatre, a Lady in Red is said to be the ghost of Nettie Dickerson, a prostitute who frequented the Planter's Hotel; at 25 she was standing in her red dress on the hotel balcony during a storm when she was struck by lightning and killed. | In Charleston, South Carolina, near Dock Street Theatre, a Lady in Red is said to be the ghost of Nettie Dickerson, a prostitute who frequented the Planter's Hotel (now the historic French Quarter building). ... At the age of 25 she was standing in her red dress on the balcony of the hotel during a storm when she was struck by lightning and killed. |
+| lady-in-red-c06 | exact | en.wikipedia.org | At Chicago's Drake Hotel, a jealous woman in a blood-red dress took her life by jumping from the 10th floor (or the roof, as accounts vary); guests claim to see her last steps from the Gold Coast Room, the Palm Court and on the 10th floor. | In Chicago's Drake Hotel, a jealous woman wearing a blood-red dress took her life after jumping from the 10th floor (or the roof, as accounts vary). Guests claim to see her in her last steps from the Gold Coast Room, the Palm Court, and on the 10th floor. |
+| lady-in-red-c07 | exact | en.wikipedia.org | The fifth floor of the Mizpah Hotel in Nevada is known for a Lady in Red called "Rose" (her prostitute name) who died at the hands of a jealous lover. | The fifth floor of the Mizpah Hotel in Nevada is known for a Lady in Red known as "Rose" (her prostitute name) who died at the hands of a jealous lover. |
+| lady-in-red-c08 | exact | en.wikipedia.org | According to one source, Rose's real name was Evelyn May Johnston, though there are no records confirming that a woman by that name existed at the time, or that a murder like the "Red Lady" crime ever took place in the hotel. | According to one source, Rose's real name, was Evelyn May Johnston, though there are no records to confirm that a woman by this name existed at that time, nor that a murder similar to the "Red Lady" crime ever took place in the hotel. |
+| lady-in-red-c09 | exact | en.wikipedia.org | Toronto's Lower Bay transit station has been closed since 1966 but has numerous reports of a Lady in Red; according to witnesses the ghost appears distraught and glides without feet or eyes. | Toronto's Lower Bay transit station has been closed since 1966 but has numerous reports of a Lady in Red. According to witnesses, the ghost appears distraught as it glides without feet or eyes. |
+| lady-in-red-c10 | exact | en.wikipedia.org | A Red Lady is said to walk around the Church of St Nicholas in Pluckley, England, since the 12th century. | A Red Lady is said to walk around the Church of St Nicholas in Pluckley, England since the 12th century. |
+| lady-in-red-c11 | exact | en.wikipedia.org | In Thailand there is a story of a Lady in Red believed to be the spirit of a woman who drowned in the Bang Pakong River; witnesses report seeing her while driving across the Bang Pakong River Bridge at night. | In Thailand, there is a story of a Lady in Red, believed to be the spirit of a woman who drowned in the Bang Pakong River. Witnesses have reported seeing her while driving across the Bang Pakong River Bridge at night. |
+| lady-in-red-c12 | exact | en.wikipedia.org | In the film Crimson Peak, Allerdale Hall is haunted by Red Lady ghosts whose red color comes from being buried in red clay vats. | In the film Crimson Peak, Allerdale Hall is haunted by Red Lady ghosts whose red color comes from being buried in red clay vats. |
+| lady-in-red-c13 | exact | en.wikipedia.org | The Korean drama series The Ghost Detective is named for a Lady in Red who accompanies the main character in solving crimes. | Korean drama series The Ghost Detective is named for a Lady in Red that accompanies the main character in solving crimes. |
+| lady-in-red-c14 | exact | www.historichotels.org | According to the Historic Hotels of America article, many men visiting the Mizpah Hotel report hearing an incorporeal voice whispering sweet nothings in their ears, especially in the fancy elevator the Lady in Red used to escort her visitors from the lobby to her chambers. | In spite of her brutal end, many men visiting the Mizpah Hotel have reported hearing an incorporeal voice whispering sweet nothings in their ears—especially in that fancy elevator, which the Lady in Red used to escort her visitors from the lobby to her chambers. |
+| lady-in-red-c15 | exact | www.historichotels.org | According to the article, hundreds of guests have awakened to find a pearl beneath their pillows, supposedly from her necklace, which broke and spilled onto the floor in her tragic scuffle. | In addition, hundreds of guests have awakened to discover a pearl beneath their pillows—supposedly from her necklace, which broke and spilled onto the floor in her tragic scuffle. |
+| lady-in-red-c16 | exact | www.historichotels.org | According to the article, her origins and true identity are lost to history (many accounts suggest she went by just "Rose"), but she was said to be kind, welcoming and generous, and evidently still is. | Although the Lady in Red’s origins and true identity are lost to history (many accounts suggest she went, appropriately, by just “Rose”), she was said to be kind, welcoming, and generous—and, evidently, still is. |
+| lady-in-red-c17 | exact | www.historichotels.org | According to the article, her story ended when an ex-lover, possibly a former patron, stabbed and strangled her in a fit of jealous rage. | At least until an ex-lover, possibly a former patron, stabbed and strangled her in a fit of jealous rage. |
 
 
 ## lake-worth-monster — lulus-otomatis

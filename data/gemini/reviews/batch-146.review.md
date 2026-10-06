@@ -1,13 +1,10 @@
 # Review batch-146
 
-Diperiksa 2026-10-06T06:39:22.513Z. Berkas: batch-146.md, batch-146-fix-1.md, batch-146-fix-2.md, batch-146-fix-3.md, batch-146-fix-4.md.
+Diperiksa 2026-10-06T19:26:16.939Z. Berkas: batch-146.md, batch-146-fix-1.md, batch-146-fix-2.md, batch-146-fix-3.md, batch-146-fix-4.md, batch-146-fix-5.md.
 
 ## wihwin — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,20 +12,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wihwin-c02 | exact | en.wikipedia.org | Similar creatures include the kelpie in Scotland, the Scandinavian bäckahäst and the Australian bunyip. | Similar mythological creatures around the world include the kelpie in Scotland, the Scandinavian bäckahäst and the Australian bunyip. |
 | wihwin-c03 | exact | en.wikipedia.org | Though normally sea-dwelling, it roams mountain ridges in the summer months. | Although normally a sea-dwelling demon, it prowls through mountain ridges during the summer months. |
 | wihwin-c04 | exact | en.wikipedia.org | The horse-shaped monster has jaws of horrid teeth with which it devours humans and other prey on its nocturnal hunts. | The horse-shaped monster has "jaws fenced round with horrid teeth", which it uses to consume humans and other prey it finds on its nocturnal hunts. |
+| wihwin-c05 | exact | archive.org | Bassett records that the Mosquito people said Wihwin was a demon in the shape of a horse. | Mosquito ... said Wihwin a demon in the shape of a horse |
+| wihwin-c06 | exact | archive.org | According to that record Wihwin came out of the sea to devour men. | Wihwin a demon in the shape of a horse, came out of the sea to devour men. |
 
 
 ## xicalancatl — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | xicalancatl-c01 | exact | en.wikipedia.org | Xicalancatl (also Xicallancatl or Xicalcoatl) is one of the six giant sons of Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Xicalancatl, Xicallancatl or Xicalcoatl (From Nahuatl, 'Teacup Serpent') is one of the six giants sons of Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec Mythology. |
 | xicalancatl-c02 | exact | en.wikipedia.org | He was the fourth son, who settled on the coasts of the Gulf of Mexico in the region called Xicallanco. | The fourth son who settled on the coasts of the Gulf of Mexico, in the region called Xicallanco |
 | xicalancatl-c03 | exact | en.wikipedia.org | The six brothers dwell on earth and are the trunk of various races. | the six brothers on earth dwell and are the trunk of various races |
+| xicalancatl-c04 | exact | historicas.unam.mx | According to this dictionary entry summarizing Torquemada, Xicalancatl was the fourth son of Iztac Mixcoatl; together with Ulmecatl he settled the provinces around the present city of Los Angeles and Totomihuacan and the cities of Xicalanco and Cuauthazualco. | XICALANCATL Torquemada l. Cuarto de los hijos de Iztac Mixcoatl, quien en compañía de ... Ulmecatl poblaron las provincias de la ahora ciudad de los Angeles y Totomihuacan y las ciudades de Xicalanco y Cuauthazualco |
+| xicalancatl-c05 | exact | historicas.unam.mx | According to the entry summarizing Mendieta, Xicalancatl was one of the six sons of Iztac Mixcohuatl and Ilancuey, lived in Chicomoztoc, and great generations are said to descend from him. | Mendieta. Uno de los seis hijos de Iztac Mixcohuatl (vide), e Ilancuey, vivían en Chicomoztoc y de él se hacen descender grandes generaciones |
+| xicalancatl-c06 | exact | historicas.unam.mx | According to the entry summarizing Motolinia's Memoriales, Xicalancatl and his brother Ulmecatl founded many towns; later they fought great wars and their opponents destroyed Uicilapan and Cuetlaxcoapan, after which some settled toward Cazacualco and others toward Xicalanco. | Motolinia, Memoriales. "Xicalancalh" hijo de Iztacmixcoatl ... junto con su hermano Ulmecatlh funda muchos pueblos; andando el tiempo tuvieron grandes guerras y sus contrarios les destruyeron Uicilapan y Cuetlaxcoapan que es donde hoy está la Ciudad de los Angeles, fueron poblando hacia Cazacualco y otros fueron hacia Xicalanco |
+| xicalancatl-c07 | exact | historicas.unam.mx | According to the entry summarizing Gómara, Xicalancatlh was the fourth son of Iztacmixcoatlh and Ilancueitl; he reached the "North Sea" and founded two main towns called Xicalanco, one in the province of Maxcalcinco near Veracruz and another near Tabasco. | Gómara 11. "Xicalancatlh" cuarto hijo de Iztacmixcoatlh y de Ilancueitl. Este llegó a la "Mar del Norte" y fundó dos pueblos principales que fueron Xicalanco, en la provincia de Maxcalcinco cerca de Veracruz y otro Xicalanco cerca de Tabasco |
+| xicalancatl-c08 | exact | historicas.unam.mx | According to the entry summarizing Dr. Hernández, the Mexicans by their hieroglyphs came from Chicomoztoc and had Yztac Mixcoatl as father, who had two wives; one of them, Ilancueitl, bore six sons: Xelqua, Tenuch, Ulmecatl, Xicalancatl, Mixtecatl and Otomitl. | Doctor Hernández. Hijo de Iztac Mixcoatl. Los mexicanos según sus jeroglificos salieron de la ciudad de Chicomoztoc y tuvieron por padre a Yztac Mixcoatl quien tuvo dos mujeres una de ellas llamada Ilancueitl que tuvo seis hijos llamados Xelqua, Tenuch, Ulmecatl, Xicalancatl, Mixtecatl y Otomitl |
 
 
 ## adjassou-linguetor — lulus-otomatis
@@ -788,10 +789,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## unhcegila — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 21 (exact 21), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -799,14 +797,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | unhcegila-c02 | exact | en.wikipedia.org | Her form was later revealed as massive, with a long scaly body whose armor was almost impenetrable. | As time went on further, her form was exposed as being massive, with a long scaly body whose natural armor was almost impenetrable. |
 | unhcegila-c03 | exact | en.wikipedia.org | Whoever looks upon her goes blind or insane. | Whoever looked upon her will become blind or go insane. |
 | unhcegila-c04 | exact | en.wikipedia.org | Her weakness is the seventh spot on her torso, over her heart; to kill her, one must shoot a medicine arrow there. | Her weakness is the seventh spot on her torso, behind which lies her heart. To kill her, one has to shoot a medicine arrow at this flaw in her natural armor. |
+| unhcegila-c05 | exact | en.wikipedia.org | She was first described as having no real shape or form, with eyes of fire and a fanged mouth shrouded in a smoky or cloudy mass. | She was described at first as having no real shape or form; she had eyes of fire, and a fanged mouth that was shrouded in a smoky or cloudy mass. |
+| unhcegila-c06 | exact | en.wikipedia.org | Her eyes burned with wrathful hunger, her claws were like iron and her voice raged like thunder rolling in the clouds. | Her eyes burned with wrathful hunger, her claws were like iron, and her voice raged like thunder rolling in the clouds. |
+| unhcegila-c07 | exact | en.wikipedia.org | According to the accounts, the creature and her companion finally made their way to the Black Hills (Pahá Sápa) and sought a new home in the mountains. | Until they made their way to the Black Hills (Pahá Sápa) and sought a new home in the mountains. |
+| unhcegila-c08 | exact | en.wikipedia.org | In one myth Unk Cekula fights and kills a giant bear, whose fallen body produced Bear Butte in the Black Hills. | In one myth, Unk Cekula fights with and kills a giant bear, whose fallen body produced the Bear Butte in the Black Hills. |
+| unhcegila-c09 | exact | en.wikipedia.org | Alternatively, two twin brothers, one of them blind, killed Unk Cekula with arrows given to them by a medicine woman. | Alternatively, two twin brothers, one of whom was blind, killed Unk Cekula using arrows given to them by a medicine woman. |
+| unhcegila-c10 | exact | en.wikipedia.org | In another myth Unk Cekula emerged from the primordial waters and flooded the land; the devastation angered Wakinyan, who flapped his wings to create a great storm to dry the land and shoot lightning, killing Unk Cekula. | In another myth, Unk Cekula emerged from the primordial waters to flood the land. The resulting devastation angered Wakinyan, who flapped his wings to create a great storm to dry up the land and shoot lightning, killing Unk Cekula. |
+| unhcegila-c11 | exact | en.wikipedia.org | As she finally died the Sun scorched her flesh and dried up the land, resulting in the arid rock formations and skeletons found in the Badlands. | As she finally died, the Sun scorched her flesh and dried up the land, resulting in the arid rock formations and skeletons found in the Badlands |
+| unhcegila-c12 | exact | en.wikipedia.org | It was learned that the creature had offspring, and the tribes had to kill them when they began feeding on people. | It was learned that the creature had offspring, and the tribes had to kill them when they began feeding on people. |
+| unhcegila-c13 | exact | en.wikipedia.org | A fictionalized version of the myth appeared in a Marvel Comics Presents story arc starring Wolverine. | A fictionalized version of the myth appeared in a Marvel Comics Presents story arc starring Wolverine. |
+| unhcegila-c14 | exact | en.wikipedia.org | She appears in a story told in the 2003 film Dreamkeeper, in which Eagle Boy slays her with weapons given to him by an old woman. | She appears in a story told in the 2003 film Dreamkeeper, in which Eagle Boy is the one who slays her with weapons given to him by an old woman. |
+| unhcegila-c15 | exact | www.native-languages.org | According to Native Languages of the Americas, Unktehila is the horned water serpent of Lakota and Dakota mythology, the diametrical opponent of the Thunderbird Wakinyan, with many legends of epic fights between the two. | Unktehila is the horned water serpent of Lakota and Dakota mythology. It is the diametrical opponent of the Thunderbird Wakinyan, and there are many legends about epic fights between the two. |
+| unhcegila-c16 | exact | www.native-languages.org | The page lists the name Unktehila, tribal affiliation Dakota and Lakota, with alternate spellings Uncegila, Unhcegila and Unktehi. | Name: Unktehila Tribal affiliation: Dakota, Lakota Alternate spellings: Uncegila, Unhcegila, Unktehi |
+| unhcegila-c17 | exact | www.gutenberg.org | Dorsey writes that the Unkteḣi (subaquatic and subterranean powers) are many gods, the most powerful of all; in outward form they are said to resemble the ox but of immense proportions, and they can extend their horns and tails to reach the skies. | THE UNKTEḢI, OR SUBAQUATIC AND SUBTERRANEAN POWERS. ... The gods of this name, for there are many, are the most powerful of all. In their external form they are said to resemble the ox, only they are of immense proportions. They can extend their horns and tails so as to reach the skies. |
+| unhcegila-c18 | exact | www.gutenberg.org | According to Dorsey, in the Dakota cosmogony this was done by the Unkteḣi, called in the Teton dialect Ŭñktcexila or Uŋkćeġila. | According to the Dakota cosmogony, this was done by the Unkteḣi, called in the Teton dialect Ŭñktcexila or Uŋkćeġila. |
+| unhcegila-c19 | exact | www.gutenberg.org | According to Dorsey, the Unkteḣi are thought to feed on the spirits of human beings, as referred to in the mystic songs. | The Unkteḣi are thought to feed on the spirits of human beings, and references to this occur in the mystic songs. |
+| unhcegila-c20 | exact | www.gutenberg.org | According to Dorsey, the subordinates of the Unkteḣi are serpents, lizards, frogs, ghosts, owls and eagles, and the Unkteḣi made the earth and men. | The subordinates of the Unkteḣi are serpents, lizards, frogs, ghosts, owls, and eagles. The Unkteḣi made the earth and men |
+| unhcegila-c21 | exact | en.wikisource.org | According to Gatschet, Unktéhi or Unktéxi was their "Neptune" or divine ruler of the waters, and the name also designated a fabled monster of the deep and the whale of the salt water. | It will, however, suffice to mention Unktéhi, or Unktéxi, their Neptune or divine ruler of the waters, whose name also designated a fabled monster of the deep and the whale of the salt-water. |
 
 
 ## yahui — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -815,14 +827,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | yahui-c03 | exact | en.wikipedia.org | In Postclassic Mixtec codices the yahui wears a serpent tail and headdress and a turtle carapace. | the yahui appears in Postclassic Mixtec codices as an entity wearing a serpent or reptilian tail and headdress (similar to the xiuhcoatl motif) and the carapace of a turtle. |
 | yahui-c04 | exact | en.wikipedia.org | The yahui has two main forms: the nahual (man-animal composite) and the animal figure. | The yahui appears in two main forms: the nahual, or man-animal composite figure, and the animal figure. |
 | yahui-c05 | exact | en.wikipedia.org | At times the nahual figures hold sacrificial knives and perform rites. | At times, the nahual figures holds sacrificial knives and perform sacrificial rites or other ceremonial activities. |
+| yahui-c06 | exact | en.wikipedia.org | In animal form the yahui combines a reptilian head with a tortoise-shell body, reptilian arms and legs, claws and the flint-fire motif on the tips of the tail and nose; the animal yahui appears in cosmogony scenes illustrating the origins of ritual and cultural phenomena. | In the animal form, a reptilian head is combined with a tortoise shell body, reptilian arms and legs, claws and the flint-fire motif on the tips of the tail and nose. The animal yahui appears in cosmogony scenes illustrating the origins of ritual and cultural phenomena. |
+| yahui-c07 | exact | en.wikipedia.org | Depictions of yahui figures appear in several Mixtec codices, including the Codex Zouche-Nuttall, Codex Vindobonensis Mexicanus I, Codex Selden, Codex Bodley, Codex Egerton and Codex Becker I/II. | Depictions of yahui-figures appear in several Mixtec codices, including the Codex Zouche-Nuttall, Codex Vindobonensis Mexicanus I, Codex Selden, Codex Bodley, Codex Egerton, and Codex Becker I/II. |
+| yahui-c08 | exact | en.wikipedia.org | In nahual form the yahui's animal imagery is combined with a male human head; in some depictions the nahual has reptilian claws, in others human hands. | In the nahual form, the yahui animal imagery is combined with a male, human head. In some depictions, the nahual possesses reptilian claws, while other depictions portray the figure with human hands. |
+| yahui-c09 | exact | en.wikipedia.org | The yahui appears in a few other pre-Columbian works of art; one can be viewed by the public in one of the Zapotec tombs in Zaachila. | The yahui appears in a few other works of art from the pre-Columbian era. One of these depictions is viewable by the public in one of the Zapotec tombs in Zaachila. |
+| yahui-c10 | exact | en.wikipedia.org | As a real historical figure, the yahui probably performed cosmological rites in caves and on hilltops. | As a real, historical figure, the yahui probably performed cosmological rites in caves and on hilltops. |
+| yahui-c11 | exact | en.wikipedia.org | Mary Elizabeth Smith identified the yahui as the "xiuhcoatl-turtle-sacrificer". | Mary Elizabeth Smith identified the yahui as the "xiuhcoatl-turtle-sacrificer" |
+| yahui-c12 | exact | www.famsi.org | According to Pohl's description of page 11 of the Codex Selden, the River of the Twisted Serpent is surmounted by a jaguar, a coyote, a fire serpent priest called a yahui, and an eagle. | Page 11, Band IV: River of the Twisted Serpent is surmounted by a jaguar, a coyote, a fire serpent priest called a yahui, and an eagle (61). |
+| yahui-c13 | exact | www.famsi.org | According to Pohl's description of page 12 of the Codex Selden, human hearts, perhaps those of Thirteen Deer and another captured man, are delivered to the Sun God by a yahui priest and an eagle before the Temple of Jaltepec. | Page 12, Band II: Human hearts, perhaps those of Thirteen Deer and the other man who was captured on Page 12, Band I, are delivered to the Sun God by a yahui priest and an eagle before the Temple of Jaltepec. |
 
 
 ## zapam-zucum — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (exact 20), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -831,6 +848,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | zapam-zucum-c03 | exact | en.wikipedia.org | When the goddess dwells in the tree, the sound "Zapam... Zucum" is heard and the children stave off hunger. | If the goddess inhabits the tree, the sound of "Zapam... Zucum" can be heard, and the children stave their hunger for some reason. |
 | zapam-zucum-c04 | exact | en.wikipedia.org | She guards the sacred algarrobo; hearing an axe chopping it, she abducts the logger. | The goddess is the guardian of the sacred algarrobo tree, and when she hears the "chac.. chac" noise of someone chopping at the tree with an ax, she will relentlessly abduct the logger to who knows where. |
 | zapam-zucum-c05 | exact | en.wikipedia.org | She protects baby and young animals from predators and hunters. | The goddess protects baby and juvenile animals from predatory beasts and hunters |
+| zapam-zucum-c06 | exact | en.wikipedia.org | In a variant telling, the logger's children are spirited away. | In a variant telling, the logger's children get spirited away. |
+| zapam-zucum-c07 | exact | en.wikipedia.org | Sometimes she wreaks vengeance on evil and abusive men by seducing and suffocating them. | Sometimes she will wreak vengeance upon evil and abusive men by seducing and suffocating them. |
+| zapam-zucum-c08 | exact | en.wikipedia.org | In some regions it is told that she appears in gigantic form to hunt down lazy men who loafed off work in the fields, capture them with her enormous breasts and carry them off. | In some regions, it is told how she will appear in gigantic form to hunt down lazy men who have loafed off of working in the fields, capture the men with her enormous breasts, and carry them off somewhere. |
+| zapam-zucum-c09 | exact | en.wikipedia.org | She has long black hair and black eyes, but supple white hands of a skin tone different from her dark complexion; with those hands she crafts a cradle out of leaves and tucks the toddlers in to nap. | She has long black hair and black eyes, but supple white hand of a skin-tone different from her general dark complexion. With those hands she will craft a cradle out of leaves and tuck in the toddlers to nap. |
+| zapam-zucum-c10 | exact | en.wikipedia.org | Among the Aymara, who live in La Rioja Province in the Argentine Northwest, Bolivia and northern Chile, the algarrobo tree ("carob") is held sacred. | Among the Aymara, whose population dwell in La Rioja Province in the Argentine Northwest, Bolivia, and northern Chile, the algarrobo tree ("carob") is held sacred. |
+| zapam-zucum-c11 | exact | en.wikipedia.org | Her breasts are enormous and make the "Zapam... Zucum" sound when she moves, hence her name. | Her breasts are enormous, and makes the aforesaid "Zapam... Zucum" sound when she maneuvers, hence her name. |
+| zapam-zucum-c12 | exact | diocesislarioja.com.ar | According to the text, the ancients who saw her painted her as a still-young woman in the fullness of vigor, her face tanned by the sun, with black eyes and hair and a pair of enormous brown-and-pink breasts as her particular sign. | Quienes la han visto, entre los antiguos, la pintan una mujer joven aún, arrebolada por los colores de una vida en la plenitud de su vigor, tostado de sol el rostro; ojos y cabellos negros y como signo particular, un par de enormes senos morenos y rosados a la vez |
+| zapam-zucum-c13 | exact | diocesislarioja.com.ar | According to the text, the hungry children who wake up suckle at the goddess's bountiful breasts instead of their mothers'. | Pero los pequeños tienen hambre y se despiertan, y en vez del seno materno, se amamantan en los pechos próvidos de la diosa |
+| zapam-zucum-c14 | exact | diocesislarioja.com.ar | According to the text, mothers who leave their children under Zapam-Zucum's shelter know a solicitous providence will watch over them. | Las madres, al dejarlos bajo el amparo de la Zapam-Zucum, saben que una providencia solícita velará sobre ellos. |
+| zapam-zucum-c15 | exact | diocesislarioja.com.ar | According to the text, near the camp where only the sleeping little ones were left, one hears the resounding, characteristic sound announcing the approach of the favorable deity. | se siente, próximo al campamento, donde sólo quedaron los pequeños dormidos, el sonido rotundo y característico que anuncia la proximidad del numen propicio |
+| zapam-zucum-c16 | exact | diocesislarioja.com.ar | According to the text, Zapam-Zucum is the mother and providence of children and of the algarrobo trees; she tends and defends the trees so their fruits may be offered to poor people, and delights in the simple festivals held under the trees. | La Zapam-Zucum es la madre y providencia de los niños y de los algarrobos. Cuida a éstos y los defiende, para ofrecer sus frutos a las pobres gentes y se complace con las fiestas sencillas que se celebran debajo de los árboles |
+| zapam-zucum-c17 | exact | diocesislarioja.com.ar | According to the text, woe to the reckless person who needlessly destroys her heritage and temple, hacks the algarrobo trees, strips their branches or knocks down green fruit or flower with ill intent: Zapam-Zucum takes horrible revenge, stealing the wrongdoer's children and never returning them. | ¡Y guay del osado que destroce inmotivadamente su heredad y templo, que hache los algarrobos, que deshoje sus ramas o voltee, con espíritu de hacer mal, sus frutos verdes aún o la pishuca de la flor! La Zapam-Zucum se venga en forma horrible, roba los hijos del malvado y no los devuelve más. |
+| zapam-zucum-c18 | exact | www.cuco.com.ar | According to this dictionary of myths, the name comes from a sound. | Este nombre proviene de un sonido |
+| zapam-zucum-c19 | exact | www.cuco.com.ar | According to this dictionary of myths, she punishes those who cut green algarroba and those who chop the algarrobo trees, and the text mentions a child who is not to be returned. | Castiga a los que cortan algarroba verde y a los que hachan los algarrobos con ... un hijo para no devolverlo |
+| zapam-zucum-c20 | exact | www.cuco.com.ar | According to this dictionary of myths, she is the great friend of those left behind while the mothers harvest into sacks; when they wake she nurses them at her breasts and they go back to sleep. | la gran amiga de los ... abandonados mientras las madres cocechan en costales; cuando despiertan los amamanta con sus pechos y vuelven a dormir |
 
 
 ## ahola — lulus-otomatis

@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-057",
-  "checked_at": "2026-10-01T07:45:44.947Z",
+  "checked_at": "2026-10-06T19:38:10.641Z",
   "files": [
     "batch-057.md",
     "batch-057-fix-1.md",
     "batch-057-fix-2.md",
-    "batch-057-fix-3.md"
+    "batch-057-fix-3.md",
+    "batch-057-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -86,7 +87,8 @@
           "detail": "HTTP 403; dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cecb913920a6d2b22611339901a317441ed680559871b8403881b46b903fe1ed"
     },
     {
       "slug": "yamaoroshi",
@@ -160,24 +162,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "279fe1d7a2fff1face2fd548afb59420560c353e89e366cbcbb8babdcb075241"
     },
     {
       "slug": "yamato-no-okuni-tama-no-kami",
-      "file": "batch-057-fix-1.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "d95b9477d55a541cb838ed1a084739f6b78a6e069ce4c77a20334c5076258fa3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yamato-no-okuni-tama-no-kami-c01",
@@ -193,8 +191,8 @@
           "id": "yamato-no-okuni-tama-no-kami-c02",
           "source_id": "yamato-no-okuni-tama-no-kami-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Emperor Sujin moves his worship outside the palace out of fear of divine power.",
-          "statement_id": "Kaisar Sujin memindahkan pemujaannya keluar istana karena takut akan kuasa ilahi.",
+          "statement": "The emperor, who had worshipped Amaterasu and Yamato no Ōkunitama together in the palace, feared the strength of the two gods' divine power and decided to worship them outside the palace.",
+          "statement_id": "Sang kaisar, yang semula memuja Amaterasu dan Yamato no Ōkunitama di dalam istana, takut akan kuatnya kuasa ilahi kedua dewa itu dan memutuskan memuja mereka di luar istana.",
           "quote": "宮中に天照大神と倭大国魂の二神を祭っていたが、天皇は二神の神威の強さを畏れ、宮の外で祀ることにした。",
           "context": "religious-tradition",
           "status": "exact"
@@ -203,8 +201,8 @@
           "id": "yamato-no-okuni-tama-no-kami-c03",
           "source_id": "yamato-no-okuni-tama-no-kami-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Nunakiirihime’s attempt to worship him is accompanied by illness.",
-          "statement_id": "Upaya Nunakiirihime memujanya disertai penyakit.",
+          "statement": "Yamato no Ōkunitama was entrusted to Nunakiirihime to worship, but her hair fell out and her body grew thin, so she could not perform the worship.",
+          "statement_id": "Yamato no Ōkunitama dititipkan kepada Nunakiirihime untuk dipuja, tetapi rambutnya rontok dan tubuhnya menyusut sehingga ia tidak dapat melakukan pemujaan.",
           "quote": "倭大国魂は渟名城入姫命に預けて祭らせたが、髪が落ち、体が痩せて祀ることができなかった。",
           "context": "religious-tradition",
           "status": "exact"
@@ -213,9 +211,49 @@
           "id": "yamato-no-okuni-tama-no-kami-c04",
           "source_id": "yamato-no-okuni-tama-no-kami-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Some traditions identify him with Ōkuninushi or that deity’s fierce soul.",
-          "statement_id": "Sebagian tradisi menyamakannya dengan Ōkuninushi atau jiwa garang dewa itu.",
+          "statement": "Because \"Ōkunitama no Ōkami\" is one of Ōkuninushi's other names, there is a theory that Yamato no Ōkunitama is the same deity; the Ōyamato Jinja chūshinjō calls him the fierce soul (aramitama) of Ōnamuchi (Ōkuninushi).",
+          "statement_id": "Karena \"Ōkunitama no Ōkami\" adalah salah satu nama lain Ōkuninushi, ada teori bahwa Yamato no Ōkunitama adalah dewa yang sama; Ōyamato Jinja chūshinjō menyebutnya jiwa garang (aramitama) Ōnamuchi (Ōkuninushi).",
           "quote": "大国主神の別名の一つに「大国魂大神」があることから、倭大国魂神は大国主神と同神とする説がある。『大倭神社注進状』では、大己貴神（大国主神）の荒魂であるとしている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yamato-no-okuni-tama-no-kami-c05",
+          "source_id": "yamato-no-okuni-tama-no-kami-s2",
+          "host": "en.wikisource.org",
+          "statement": "In the Nihongi, Amaterasu and Yamato no Ōkunitama were first worshipped together in the emperor's great hall, but the emperor dreaded the power of these gods and did not feel secure with them dwelling together.",
+          "statement_id": "Menurut Nihongi, Amaterasu dan Yamato no Ōkunitama semula dipuja bersama di aula besar kaisar, tetapi kaisar takut akan kuasa kedua dewa itu dan tidak merasa aman bila mereka tinggal bersama.",
+          "quote": "Before this the two Gods Ama-terasu no Oho-kami and Yamato no Oho-kuni-dama ... were worshipped together within the Emperor's Great Hall. He dreaded, however, the power of these Gods, and did not feel secure in their dwelling together.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yamato-no-okuni-tama-no-kami-c06",
+          "source_id": "yamato-no-okuni-tama-no-kami-s2",
+          "host": "en.wikisource.org",
+          "statement": "In the Nihongi, Yamato no Ōkunitama is entrusted to Nunaki-iri-bime to be worshipped, but she was bald and lean and therefore unfit to perform the rites of worship.",
+          "statement_id": "Dalam Nihongi, Yamato no Ōkunitama dititipkan kepada Nunaki-iri-bime untuk dipuja, tetapi sang putri botak dan kurus sehingga tidak layak melakukan ritus pemujaan.",
+          "quote": "he entrusted Yamato-oho-kuni-dama no Kami to Nunaki-iri-bime no Mikoto to be worshipped. But Nunaki-iri-bime no Mikoto was bald and lean, and therefore unfit to perform the rites of worship.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yamato-no-okuni-tama-no-kami-c07",
+          "source_id": "yamato-no-okuni-tama-no-kami-s2",
+          "host": "en.wikisource.org",
+          "statement": "A passage in the Nihongi says that Ichi-shi no Naga-ochi should be appointed master of the worship of Yamato no Ōkunitama, and that the Empire would then have profound peace.",
+          "statement_id": "Sebuah bagian Nihongi menyatakan bahwa Ichi-shi no Naga-ochi harus ditunjuk sebagai pemimpin pemujaan Yamato no Ōkunitama, dan bahwa dengan demikian negeri akan mengalami kedamaian yang dalam.",
+          "quote": "let Ichi-shi no Naga-ochi be appointed master of the worship of Yamato no Oho-kuni-dama no Kami. Then assuredly the Empire will have profound peace.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yamato-no-okuni-tama-no-kami-c08",
+          "source_id": "yamato-no-okuni-tama-no-kami-s2",
+          "host": "en.wikisource.org",
+          "statement": "The Nihongi records that the emperor made Nagaochi master of the worship of Yamato no Ōkunitama.",
+          "statement_id": "Nihongi mencatat bahwa kaisar menjadikan Nagaochi pemimpin pemujaan Yamato no Ōkunitama.",
+          "quote": "The Emperor took the articles ... Moreover he made Nagaochi Master of the worship of Yamato no Oho-kuni-dama no Kami.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -224,20 +262,15 @@
     },
     {
       "slug": "yasakatome",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "50f22fcda46780430da4aadd244e7d25dc03164c0ac430a5106e8603f914556c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yasakatome-c01",
@@ -298,26 +331,121 @@
           "quote": "As Takeminakata rose up in rank, so did Yasakatome, so that by 867 CE, Yasakatome had been promoted to senior second (正二位).",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "yasakatome-c07",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Suwa Taisha, Takeminakata is enshrined at Hon Miya and Yasakatome at Mae Miya.",
+          "statement_id": "Di Suwa Taisha, Takeminakata disemayamkan di Hon Miya dan Yasakatome di Mae Miya.",
+          "quote": "At Suwa Taisha Takeminakata is enshrined at Hon Miya and Yasakatome is enshrined in Mae Miya.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c08",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As Takeminakata rose in rank, so did Yasakatome, reaching senior second rank by 867 and finally senior first rank in 1074 (Jōhō 1).",
+          "statement_id": "Seiring naiknya peringkat Takeminakata, peringkat Yasakatome ikut naik hingga senior kedua pada 867 dan akhirnya senior pertama pada 1074 (Jōhō 1).",
+          "quote": "As Takeminakata rose up in rank, so did Yasakatome, so that by 867 CE, Yasakatome had been promoted to senior second (正二位). The goddess was finally promoted to senior first rank (正一位) in 1074 (Jōhō 1).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c09",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the records of Kawaai Shrine in Kitaazumi District, Yasakatome was a younger sister of Utsushihikanasaku and daughter of the sea god Ōwatatsumi, which has been seen as hinting at a link with the seafaring Azumi clan.",
+          "statement_id": "Menurut catatan Kuil Kawaai di Distrik Kitaazumi, Yasakatome adalah adik Utsushihikanasaku dan putri dewa laut Ōwatatsumi, yang dipandang mengisyaratkan hubungan dengan klan pelaut Azumi.",
+          "quote": "Regarding her genealogy, according to the records of Kawaai Shrine in Kitaazumi District, Yasakatome was a younger sister of Utsushihikanasaku and the daughter of the god of the sea Ōwatatsumi which has been seen as hinting to a connection between the goddess and the seafaring Azumi clan (安曇氏).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c10",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is also a theory that Yasakatome was the daughter of Ame no Yasakahiko, but this is considered an unreliable Edo-period conjecture that simply connected similar names and has little evidence.",
+          "statement_id": "Ada pula teori bahwa Yasakatome adalah putri Ame no Yasakahiko, tetapi teori ini dianggap dugaan zaman Edo yang tidak dapat diandalkan karena hanya menyambungkan nama yang mirip dan tidak punya banyak bukti.",
+          "quote": "There is also a theory that Yasakatome was alternately the daughter of Ame no Yasakahiko ... However this theory of Yasakatome being the daughter of Yasakahiko is considered an unreliable conjecture from the Edo period that simply connected the partially similar names of Yasakatome (八坂刀売) and Yasakahiko (八坂彦) and does not have much evidence.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c11",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Folklore says that Takeminakata, the guardian god of Suwa, leaves his sanctuary to meet his wife, the goddess Yasakatome, crossing to the opposite bank by walking on frozen water. The ice cracks that appear on Lake Suwa in cold winters (omiwatari) are reputed in folklore to be caused by Suwa Myōjin crossing the frozen lake to visit Yasakatome.",
+          "statement_id": "Cerita rakyat menyebut dewa pelindung Suwa, Takeminakata, meninggalkan tempat sucinya untuk menemui istrinya, dewi Yasakatome, dengan berjalan di atas air beku untuk mencapai tepi seberang. Retakan es yang muncul di Danau Suwa pada musim dingin (omiwatari) dipercaya dalam cerita rakyat sebagai akibat Suwa Myōjin menyeberangi danau beku untuk mengunjungi Yasakatome.",
+          "quote": "Folklore says it is the guardian god of Suwa, Takeminakata-no-kami, leaving his sanctuary to meet with his wife, the goddess Yasakatome, joining the opposite bank by walking on frozen water. The ice cracks that appear on Lake Suwa during cold winters, the omiwatari (see above) are reputed in folklore to be caused by Suwa Myōjin's crossing the frozen lake to visit Yasakatome.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c12",
+          "source_id": "yasakatome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One alternative explanation links the -tome in the name Yasakatome with dialectal words for \"snake\" (tomi, tobe or tōbe), seeing the name as hinting at a serpentine water deity (mizuchi).",
+          "statement_id": "Satu penjelasan alternatif mengaitkan unsur -tome pada nama Yasakatome dengan kata dialek untuk \"ular\" (tomi, tobe, atau tōbe), sehingga nama itu dianggap mengisyaratkan dewa air berwujud ular (mizuchi).",
+          "quote": "An alternative explanation for the word -tomi (as well as the -tome in 'Yasakatome', the name of this god's consort) is to link it with dialectal words for \"snake\" (tomi, tobe, or tōbe), thereby seeing the name as hinting to the god being a kind of serpentine water deity (mizuchi).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c13",
+          "source_id": "yasakatome-s2",
+          "host": "kotobank.jp",
+          "statement": "At Suwa Taisha, Takeminakata is enshrined together with his consort Yasakatome; it is generally held that since early times the male deity has been revered at the Upper Shrine and the female deity at the Lower Shrine.",
+          "statement_id": "Di Suwa Taisha, Takeminakata dipuja bersama permaisurinya Yasakatome; secara umum sejak dahulu kepercayaan terhadap dewa laki-laki dipegang di Kuil Atas dan dewa perempuan di Kuil Bawah.",
+          "quote": "祭神は、上社には建御名方神(たけみなかたのかみ)、妃神(きさきがみ)の八坂刀売(やさかとめ)神を祀(まつ)り、下社には二神のほかに兄神の八重事代主(やえことしろぬし)神を配祀(はいし)するが、一般には古くから上社に男神、下社に女神の信仰が伝わっている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c14",
+          "source_id": "yasakatome-s2",
+          "host": "kotobank.jp",
+          "statement": "Suwa Taisha enshrines Takeminakata and Yasakatome; the Upper Shrine centres on the former and the Lower Shrine on the latter.",
+          "statement_id": "Suwa Taisha memuja Takeminakata dan Yasakatome; Kuil Atas menjadikan yang pertama sebagai dewa utama dan Kuil Bawah menjadikan yang kedua.",
+          "quote": "建御名方(たけみなかた)神と八坂刀売(やさかとめ)神をまつる。上社は前者を，下社は後者を中心の祭神とする。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c15",
+          "source_id": "yasakatome-s2",
+          "host": "kotobank.jp",
+          "statement": "In 867 (Jōgan 9), Takeminakata was granted the junior first rank (従一位) and Yasakatome the senior second rank (正二位).",
+          "statement_id": "Pada 867 (Jōgan 9), Takeminakata dianugerahi peringkat junior pertama (従一位) dan Yasakatome peringkat senior kedua (正二位).",
+          "quote": "867年(貞観9)建御名方神が従一位，八坂刀売神が正二位を叙された。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yasakatome-c16",
+          "source_id": "yasakatome-s2",
+          "host": "kotobank.jp",
+          "statement": "Takeminakata, second child of Ōkuninushi, is said to have come from Izumo and, with his consort Yasakatome, developed and ruled the area.",
+          "statement_id": "Takeminakata, putra kedua Ōkuninushi, konon datang dari Izumo dan bersama permaisurinya Yasakatome membuka serta memerintah wilayah Suwa.",
+          "quote": "建御名方富命は大国主命の第二子で、出雲国（島根県）から当地に来て妃の八坂刀売命とともに開発し、治めたと伝えられる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "yato-no-kami",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "3524c6791972d7565d28a26cdbf755fa410348d76a2869f6cbd63350405f1409",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yato-no-kami-c01",
@@ -378,24 +506,95 @@
           "quote": "The Yato no kami vanished later when a man named Mibunomuroji Maro drove them away from disturbing him and his workers who were building a moat there.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c07",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "Yato-no-kami is a snake deity recorded in the Namekata district section of the Hitachi no Kuni Fudoki; \"yato\" or \"yatsu\" means low marshy land in a valley.",
+          "statement_id": "Yato-no-kami adalah dewa ular yang dicatat dalam bagian Distrik Namekata pada Hitachi no Kuni Fudoki; \"yato\" atau \"yatsu\" berarti tanah rawa rendah di lembah.",
+          "quote": "夜刀神 (やとのかみ) ... 《常陸国風土記》行方（なめかた）郡の段に記された蛇神。〈ヤト〉〈ヤツ〉は谷あいの低湿地のこと。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c08",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "According to tradition, in the reign of Emperor Keitai the chieftain Yahazu no Matachi began clearing the \"reed plain of the western valley\" but was obstructed by a band of Yato-no-kami.",
+          "statement_id": "Menurut tradisi, pada masa Kaisar Keitai, pemuka Yahazu no Matachi mulai membuka lahan \"padang alang-alang lembah barat\" tetapi dihalangi gerombolan Yato-no-kami.",
+          "quote": "伝承によると継体天皇の時代に箭括麻多智（やはずのまたち）という豪族が〈西の谷の葦原〉の開墾を始めたが，夜刀神の群に妨害された。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c09",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "Enraged, Matachi put on armor, took a spear and drove the gods off, set stakes to mark a boundary, and became the priest (hafuri) who worshipped Yato-no-kami.",
+          "statement_id": "Matachi yang murka mengenakan baju zirah dan mengambil tombak untuk mengusir para dewa itu, memasang pancang sebagai batas, lalu menjadi pendeta (hafuri) yang memuja Yato-no-kami.",
+          "quote": "激怒した麻多智は鎧（よろい）を着て仗（ほこ）を取り神々を打ち払い，杭を立てて境界を設定し，みずから祝（はふり）（祀祭者）となって夜刀神をまつった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c10",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "Later Mibu no Muraji Maro, who tried to build a pond embankment in the same valley, is said to have berated people who feared Yato-no-kami and told them to kill the gods.",
+          "statement_id": "Kemudian Mibu no Muraji Maro, yang hendak membangun tanggul kolam di lembah yang sama, konon menghardik orang-orang yang takut pada Yato-no-kami agar membunuh dewa itu.",
+          "quote": "またその後同じ谷に池堤を築こうとした壬生連麻呂（みぶのむらじまろ）は夜刀神を恐れる人々に，この神を打ち殺せと言って叱咤したという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c11",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "The encyclopedia's author interprets that Matachi feared the curse (tatari) of the Yato-no-kami he had tried to subdue, so he set marking stakes at the edge of the cleared land as a sacred zone ruled by them and sought reconciliation and coexistence.",
+          "statement_id": "Penulis ensiklopedia menafsirkan bahwa Matachi takut akan kutukan (tatari) Yato-no-kami yang hendak ditaklukkannya, sehingga memasang pancang di batas lahan sebagai kawasan suci dewa itu dan berdamai untuk hidup berdampingan.",
+          "quote": "麻多智は征服しようとした夜刀神のたたりを恐れ，開墾した土地の境に標（しめ）の杭を立てて夜刀神の支配する神聖な区域とし，祭壇を設け和解して共存しようとしたのである。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yato-no-kami-c12",
+          "source_id": "yato-no-kami-s2",
+          "host": "kotobank.jp",
+          "statement": "The encyclopedia's author states that for ancient chieftains who overcame nature and pushed forward development, the struggle with gods lurking in forests and rivers was pressing, and because they feared nature and its gods, they at the same time revered them.",
+          "statement_id": "Penulis ensiklopedia menyatakan bahwa bagi para pemuka kuno yang menaklukkan alam dan membuka lahan, perjuangan melawan dewa-dewa yang bersembunyi di hutan dan sungai sangat nyata, dan karena gentar terhadap alam dan dewa-dewanya mereka sekaligus memujanya.",
+          "quote": "自然を克服し開拓事業を推進した古代豪族にとって，森や川などのいたるところに潜む神々との闘いは切実なものであった。彼らは自然やその神々を畏怖するがゆえに，同時にこれを崇めもした。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "abura-bo",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "398c22f48990e429e3ef325d740de10ef5bbd5d7a0b410ac0c929d53b7b679c2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Yoga, Yasu, Moriyama. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "stories[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Yasu. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[2].name",
+          "message": "Tidak muncul di kutipan mana pun: Yoga, Yasu. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -423,8 +622,8 @@
           "id": "abura-bo-c03",
           "source_id": "abura-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "An Edo miscellany also records the light at Hiei’s western foot.",
-          "statement_id": "Bunga rampai Edo juga mencatat cahaya itu di kaki barat Hiei.",
+          "statement": "A Kanpō-era miscellany, the Shokoku Rijindan, records that such a strange fire also appeared at the western foot of Mount Hiei.",
+          "statement_id": "Sebuah kumpulan catatan era Kanpō, Shokoku Rijindan, mencatat bahwa api gaib semacam itu juga muncul di kaki barat Gunung Hiei.",
           "quote": "このような怪火は、寛保時代の雑書『諸国里人談』によれば比叡山の西麓にも現れたという。",
           "context": "historical-record",
           "status": "exact"
@@ -433,10 +632,60 @@
           "id": "abura-bo-c04",
           "source_id": "abura-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "At Kongōji a dead oil-thieving monk is said to haunt the temple gate.",
-          "statement_id": "Di Kongōji, biksu pencuri minyak yang meninggal konon menghantui gerbang kuil.",
-          "quote": "こちらにも野洲郡のものと似た伝承があり、寺に灯油を届ける役目を持つ僧侶が、遊ぶ金欲しさに灯油を盗んで金を作ったが、遊びに行く前に急病で命を落としてしまい、それ以来、寺の山門に霊となって現れるようになったという。",
+          "statement": "At Kongōji in Aisho town, Shiga, Abura-bō is regarded as a ghost holding oil; a monk who delivered lamp oil to the temple stole it for pleasure money, died of a sudden illness before going out, and has since appeared as a spirit at the temple gate.",
+          "statement_id": "Di Kongōji, Kota Aisho, Shiga, Abura-bō dianggap arwah yang memegang minyak; seorang biksu pengantar minyak lampu mencuri minyak itu untuk uang bersenang-senang, meninggal mendadak sebelum pergi, dan sejak itu muncul sebagai arwah di gerbang kuil.",
+          "quote": "滋賀県愛知郡愛荘町の金剛寺では、油坊は油を手にした霊とされる。こちらにも野洲郡のものと似た伝承があり、寺に灯油を届ける役目を持つ僧侶が、遊ぶ金欲しさに灯油を盗んで金を作ったが、遊びに行く前に急病で命を落としてしまい、それ以来、寺の山門に霊となって現れるようになったという。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abura-bo-c05",
+          "source_id": "abura-bo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Edo-period ghost-story book Kokon Hyaku Monogatari Hyōban, a man who had prospered on the oil funds of the Konpon Chūdō of Enryaku-ji in Mount Hiei's heyday later fell into ruin and died disappointed; since then a strange fire flew from his house to the Konpon Chūdō and was called \"abura-nusutto\" (oil thief).",
+          "statement_id": "Menurut buku cerita hantu zaman Edo Kokon Hyaku Monogatari Hyōban, seseorang yang makmur dari dana minyak Konpon Chūdō Enryaku-ji di masa kejayaan Gunung Hiei lalu jatuh dan wafat dalam kekecewaan; sejak itu api gaib terbang dari rumahnya ke Konpon Chūdō dan disebut \"abura-nusutto\".",
+          "quote": "江戸時代の怪談本『古今百物語評判』によれば、比叡山の全盛期に延暦寺根元中堂の油料を得て栄えていた者が、後に没落し、失意のうちに他界して以来、その家から根元中堂へ怪火が飛んでいくようになり「油盗人（あぶらぬすっと）」と呼ばれたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abura-bo-c06",
+          "source_id": "abura-bo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Koya, Settsu Province (now Itami, Hyōgo), a strange fire regarded as the soul of a man who stole oil from Nakayama-dera is called \"abura-kaeshi\"; it appears from a grave beside Koya Pond on early-summer or winter nights.",
+          "statement_id": "Di Settsu-no-kuni Koya (kini Itami, Hyōgo), api gaib yang dianggap jiwa orang yang mencuri minyak dari Nakayama-dera disebut \"abura-kaeshi\"; ia muncul dari makam di dekat Kolam Koya pada malam awal musim panas atau musim dingin.",
+          "quote": "摂津国昆陽（現・兵庫県伊丹市）でも同様に、中山寺から油を盗んだ者の魂とされる怪火を「油返し（あぶらかえし）」といい、初夏の夜や冬の夜、昆陽池のそばにある墓から現れ、池や堤を通り、天神川から中山へ登って行くという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abura-bo-c07",
+          "source_id": "abura-bo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Ōmo village, Minamikanbara district, Niigata (now Sanjō), at the old Takizawa family house, a yōkai called \"abura-nase\" was said to appear saying \"abura nase\" (\"give back the oil\") when household members treated lamp oil carelessly; villagers rumored it was the Takizawa second son who died of illness.",
+          "statement_id": "Di Desa Ōmo, Distrik Minamikanbara, Niigata (kini Sanjō), di rumah keluarga lama Takizawa, yōkai \"abura-nase\" konon muncul sambil berkata \"abura nase\" (\"kembalikan minyaknya\") bila orang rumah menyia-nyiakan minyak lampu; warga menduga itu putra kedua Takizawa yang meninggal karena sakit.",
+          "quote": "新潟県南蒲原郡大面村（現・三条市）では、滝沢家という旧家で、家の者が灯油を粗末に扱うと「油なせ（あぶらなせ）」という妖怪が「油なせ」（「油を返せ」との意味）と言いながら現れたといい、村人たちは病死した滝沢家の次男が化けて出たと噂していたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abura-bo-c08",
+          "source_id": "abura-bo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "This abura-nase is not a strange fire, but the folklorist Yanagita Kunio regarded it as related to Abura-bō.",
+          "statement_id": "Abura-nase bukan api gaib, tetapi folklorwan Yanagita Kunio menganggapnya berkaitan dengan Abura-bō.",
+          "quote": "この油なせは怪火ではないが、民俗学者・柳田國男はこれを油坊に関連するものとしている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "abura-bo-c09",
+          "source_id": "abura-bo-s2",
+          "host": "kotobank.jp",
+          "statement": "According to a Shogakukan dictionary, Abura-akago, the baby-shaped yōkai that licks lamp oil in Toriyama Sekien's picture book, is thought to have taken hints from traditions such as \"abura-nusutto\" and \"Abura-bō\" found in various places.",
+          "statement_id": "Menurut kamus Shogakukan, Abura-akago, yōkai berwujud bayi yang menjilat minyak lampu dalam kumpulan gambar karya Toriyama Sekien, dianggap terinspirasi dari tradisi seperti \"abura-nusutto\" dan \"Abura-bō\" di berbagai daerah.",
+          "quote": "油赤子(あぶらあかご) ... 江戸時代の画家、鳥山石燕(せきえん)の画集「今昔画図続百鬼」に描かれた妖怪。行灯の油を舐め取る赤ん坊の姿の妖怪。各地に伝わる「油盗人」や「油坊」などの伝承にヒントを得たものと考えられている。",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -444,20 +693,15 @@
     },
     {
       "slug": "akashaguma",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "860751c3e319b915a24633e424840c51b9e627e188978bfac26eca55551b5979",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akashaguma-c01",
@@ -473,9 +717,9 @@
           "id": "akashaguma-c02",
           "source_id": "akashaguma-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Ehime accounts describe nighttime noise, stolen food or figures warming at a hearth.",
-          "statement_id": "Kisah Ehime menggambarkan keributan malam, makanan curian, atau sosok yang menghangatkan diri di perapian.",
-          "quote": "夜に住人が寝静まった後で座敷で騒ぎ始め、台所にある食べ物を食べてしまう。 広見町（現・鬼北町）や宇和島市の伝承では小坊主（こぼうず）とも呼ばれており、山仕事に出かけた男が家に帰ってくると、薄暗い家の中、囲炉裏で数人の赤シャグマが暖をとっており、男の帰宅に気づいた赤シャグマたちは床下へと姿を消したという。",
+          "statement": "They are said to have lived in houses in towns and villages such as Kōbe village, Nii district (now Saijō); after the residents fall asleep at night they start making noise in the zashiki room and eat the food in the kitchen.",
+          "statement_id": "Mereka konon menetap di rumah-rumah warga di desa seperti Desa Kōbe, Distrik Nii (kini Saijō); setelah penghuni tertidur pada malam hari, mereka mulai ribut di ruang zashiki dan memakan makanan di dapur.",
+          "quote": "新居郡神戸村（現・西条市）などの町村の人家に住み着いていたとされる。夜に住人が寝静まった後で座敷で騒ぎ始め、台所にある食べ物を食べてしまう。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -483,8 +727,8 @@
           "id": "akashaguma-c03",
           "source_id": "akashaguma-s1",
           "host": "ja.wikipedia.org",
-          "statement": "One Ehime account has them disappear under the floor when a resident returns.",
-          "statement_id": "Satu kisah Ehime menyebut mereka menghilang di bawah lantai ketika penghuni pulang.",
+          "statement": "In traditions of Hiromi town (now Kihoku) and Uwajima they are also called kobōzu; a man returning from mountain work found several Akashaguma warming themselves at the hearth in the dim house, and they vanished under the floor when they noticed him.",
+          "statement_id": "Dalam tradisi Kota Hiromi (kini Kihoku) dan Uwajima, mereka juga disebut kobōzu; seorang pria yang pulang dari kerja gunung mendapati beberapa Akashaguma menghangatkan diri di perapian rumah yang remang, dan mereka lenyap ke bawah lantai begitu menyadari kepulangannya.",
           "quote": "広見町（現・鬼北町）や宇和島市の伝承では小坊主（こぼうず）とも呼ばれており、山仕事に出かけた男が家に帰ってくると、薄暗い家の中、囲炉裏で数人の赤シャグマが暖をとっており、男の帰宅に気づいた赤シャグマたちは床下へと姿を消したという。",
           "context": "traditional-belief",
           "status": "exact"
@@ -493,10 +737,80 @@
           "id": "akashaguma-c04",
           "source_id": "akashaguma-s1",
           "host": "ja.wikipedia.org",
-          "statement": "A Tokushima story has an old woman abandon a house after repeated tickling.",
-          "statement_id": "Kisah Tokushima menyebut perempuan tua meninggalkan rumah setelah berulang kali digelitik.",
+          "statement": "A story tells of an old woman who bought a house rumored to be haunted by a monster; Akashaguma appeared at night as rumored and tickled her as a prank, and she eventually left the house.",
+          "statement_id": "Sebuah kisah menceritakan seorang nenek yang membeli rumah tua yang digosipkan berhantu; Akashaguma muncul pada malam hari seperti kabar dan menggelitikinya sebagai keisengan, dan akhirnya sang nenek meninggalkan rumah itu.",
           "quote": "かつて「化け物が出ると」と噂される古い一軒家があり、誰も住もうとしない中、ある老婆がその家を買って自宅とした。しかし夜になると噂通り赤シャグマが現れ、老婆をくすぐって悪戯した。老婆は結局、その家を立ち退いたという。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c05",
+          "source_id": "akashaguma-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Tokushima (Awa) tradition, Akashaguma appear from beneath the Buddhist altar at night and play pranks such as tickling the feet of sleeping residents.",
+          "statement_id": "Dalam tradisi Tokushima (Awa), Akashaguma muncul dari bawah altar Buddha pada malam hari dan berbuat iseng seperti menggelitik kaki penghuni yang tidur.",
+          "quote": "徳島県（阿波国）での例 ... 夜になると仏壇の下から現れ、眠っている住人の足をくすぐるなどの悪戯を働く。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c06",
+          "source_id": "akashaguma-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "As in Tokushima, in Kagawa Akashaguma are also said to tickle people's feet at midnight; a Kagawa-specific feature is the idea that they appear outdoors as well as indoors, and they are said to fly through the sky in the mountains shouting loudly.",
+          "statement_id": "Seperti di Tokushima, di Kagawa Akashaguma juga dikatakan menggelitik kaki orang pada tengah malam; ciri khas Kagawa adalah teori bahwa mereka muncul juga di luar rumah dan konon terbang di udara di pegunungan sambil berteriak keras.",
+          "quote": "徳島の例と同様に香川でも、赤シャグマは夜中に人の足をくすぐるといわれる。また香川の赤シャグマ独自の特徴としては、家の中のみならず野外でも赤シャグマが現れるとする説があり、山中で大声を張り上げながら空を飛ぶともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c07",
+          "source_id": "akashaguma-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In a house in Ashiro village, Miyoshi district, Akashaguma appeared after the residents slept and tickled them until they were exhausted; the next day a man working in the field saw an Akashaguma standing there and fainted as soon as he ran into the house.",
+          "statement_id": "Di sebuah rumah di Desa Ashiro, Distrik Miyoshi, Akashaguma muncul setelah penghuni tidur dan menggelitik mereka hingga kelelahan; keesokan harinya seorang pria melihat Akashaguma berdiri di ladang dan pingsan begitu berlari masuk rumah.",
+          "quote": "三好郡足代村のある家で、住人たちが夜寝た後、赤シャグマが現れて彼らをくすぐり、住人たちはすっかり疲れてしまった。翌日、その家の1人の男が畑仕事に出たところ、そこに赤シャグマが立っていた。それを見た男は、家へ駆け込むなり気絶してしまったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c08",
+          "source_id": "akashaguma-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In one anecdote, an employer digs up a grave, has a youth carry the corpse into the mountains, uses it as bait to lure an Akashaguma, and shoots it.",
+          "statement_id": "Dalam sebuah anekdot, seorang majikan membongkar makam, menyuruh seorang pemuda membawa jenazahnya ke gunung, memakainya sebagai umpan untuk memancing Akashaguma, lalu menembaknya.",
+          "quote": "雇い主は墓をあばき、その屍を若者に運ばせて山へ行き、屍を餌にして赤シャグマをおびき寄せ、射止めたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c09",
+          "source_id": "akashaguma-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The zashiki-warashi article lists the Akashaguma of Tokushima among things similar to zashiki-warashi; in houses around the Okunoin of Shikoku's Kompira-gū, Akashaguma are said to have come out of the Buddhist altar at night.",
+          "statement_id": "Artikel Zashiki-warashi menyebut Akashaguma dari Tokushima sebagai makhluk yang mirip zashiki-warashi; di rumah-rumah sekitar Okunoin Kompira-gū di Shikoku, Akashaguma konon keluar dari dalam altar Buddha pada malam hari.",
+          "quote": "座敷童子に類するものに、遠州門谷村（現・愛知県新城市門谷）の「座敷坊主」、徳島の「アカシャグマ」がある。四国金毘羅宮の、奥の院周辺の家には、夜になると仏壇の中から「アカシャグマ」が出てきたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c10",
+          "source_id": "akashaguma-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The article says that akashaguma means red-dyed bear hair, and that something like a small child wearing it is said to have tickled the old woman owner of the house every night.",
+          "statement_id": "Artikel itu menyebut akashaguma sebagai bulu beruang yang dicelup merah; sesuatu seperti anak kecil yang memakainya konon menggelitik nenek pemilik rumah setiap malam.",
+          "quote": "アカシャグマとは、赤く染めたクマの毛のことで、これを被った小さな子供のようなものが、家の持ち主の老婆を毎晩くすぐったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akashaguma-c11",
+          "source_id": "akashaguma-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The folklorist Orikuchi Shinobu cited Akashaguma along with Okunaisama, Zashiki-bōzu, Okinawa's Kijimuna and Iki's Gaataro as examples of a tale type in which a loyal spirit comes to work for a house and the house declines when it leaves.",
+          "statement_id": "Folklorwan Orikuchi Shinobu mengutip Akashaguma bersama Okunaisama, Zashiki-bōzu, Kijimuna Okinawa, dan Gaataro Iki sebagai contoh kisah roh setia yang datang bekerja untuk sebuah rumah dan bila pergi rumah itu merosot.",
+          "quote": "民俗学者・折口信夫はオクナイサマ、座敷坊主、アカシャグマ、沖縄のキジムナー、壱岐のガアタロなどの例を引いて、外の土地のある家のために働きに来る忠実な精霊がいて、いなくなると家が衰えると言う型の話と見た。",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -504,18 +818,39 @@
     },
     {
       "slug": "akiha-gongen",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "e426e7fbf4f9316edd2c289c0e35e88c2f54156c4ea07f4151dcd6df47ee5bc4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Shugendō. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Shugendō. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Shugendō. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Shugendō. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -558,24 +893,110 @@
           "quote": "その後、嵯峨天皇の御宇大同四己丑年、越後国蔵王堂（天台宗）十二坊の内三尺坊に住する僧、この山に来て一万座の護摩を修行し、行法に依りて翼生じ、天狗と成り、永くこの山の守護神となる。すなはち三尺坊と名乗り、白狐に乗りて飛行自在をなす。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c05",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the encyclopedia, Akiha faith is described in the Tōkaidō Meisho Zue as highly efficacious against disasters of sword, water and fire; the fire-protection (hibuse) faith is famous alongside that of Atago Shrine.",
+          "statement_id": "Menurut ensiklopedia, kepercayaan Akiha dikatakan sangat mujarab terhadap bencana pedang, air, dan api menurut Tōkaidō Meisho Zue; kepercayaan perlindungan dari kebakaran (hibuse) terkenal bersama Kuil Atago.",
+          "quote": "秋葉神社の祭神にかかわる信仰。 ... 剣難、水難、火難に霊験(れいげん)あらたかであると『東海道名所図会』に記されている。とくに火難（火伏せ、防火）信仰は愛宕(あたご)神社と並んで有名。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c06",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "The mountain ascetic Sanshakubō is said to be an incarnation of Kannon and a tengu skilled in fire-prevention rites; he flew from Echigo province (Niigata), became the guardian of Mount Akiha, and is said to be enshrined as Sanshakubō Daigongen at Daitōzan Shūyōji.",
+          "statement_id": "Penapa gunung (shugenja) Sanshakubō dikatakan penjelmaan Kannon dan tengu yang menguasai ilmu pencegah api; ia terbang dari Provinsi Echigo (Niigata), menjadi pelindung Gunung Akiha, dan dipuja sebagai Sanshakubō Daigongen di Daitōzan Shūyōji.",
+          "quote": "修験者の三尺坊(さんじゃくぼう)は、観音の化身で火伏せの法に通じた天狗(てんぐ)といわれ、越後(えちご)国（新潟県）から飛来して秋葉山の鎮守となり、三尺坊大権現(だいごんげん)と称して、大登山秋葉寺に祀(まつ)られたという。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c07",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "In 1685 (Jōkyō 2), enshrining Sanshakubō Daigongen became fashionable and the deity was sent on from place to place, but the shogunate suppressed this before it entered Edo.",
+          "statement_id": "Pada 1685 (Jōkyō 2), pemujaan Sanshakubō Daigongen menjadi tren dan dikirim berurutan ke berbagai tempat, tetapi dilarang oleh pemerintah keshogunan sebelum masuk ke Edo.",
+          "quote": "1685年（貞享2）には三尺坊大権現を祀ることが流行し、順次各地に送り祀られていったが、江戸に入る前に幕府から禁圧された。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c08",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Under the Shinto-Buddhist separation order of the early Meiji period, the shrine was renamed Akiha Shrine and became independent, and Shūyōji was abolished, so the image of Sanshakubō and other items were moved to Kasuisai (a temple in Fukuroi, Shizuoka); the faith remains strong today.",
+          "statement_id": "Dengan perintah pemisahan Shinto-Buddha pada awal Meiji, kuil itu berganti nama menjadi Kuil Akiha dan mandiri, sedangkan Shūyōji dihapus sehingga patung Sanshakubō dan lainnya dipindahkan ke Kasuisai (kuil di Kota Fukuroi, Shizuoka); kepercayaan itu masih kuat hingga kini.",
+          "quote": "明治初期の神仏分離令で、秋葉神社と改称、独立し、秋葉寺は廃寺となったため三尺坊の像などを可睡斎(かすいさい)（静岡県袋井(ふくろい)市の寺）に移したが、現在も根強く信仰されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c09",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Heibonsha, Akiha faith is distributed nationwide as a faith warding off fire and water disasters, especially fire (hibuse), and is strongest in the Kantō and Chūbu regions.",
+          "statement_id": "Menurut Heibonsha, kepercayaan Akiha tersebar di seluruh negeri sebagai kepercayaan penangkal bencana api dan air, terutama api (hibuse), dan paling kuat di wilayah Kantō dan Chūbu.",
+          "quote": "秋葉信仰は火難・水難よけ，とくに火難よけ（火伏せ）の信仰として全国的に分布しているが，とくに関東・中部地方に濃厚である。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c10",
+          "source_id": "akiha-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "At Shūyōji a goma fire ritual and fire-walking are held, along with a ceremony offering seventy-five dishes to various tengu; the being commonly called Akiha Sanshakubō is regarded as a tengu and is closely tied to the character of Akiha faith as a fire-protecting deity.",
+          "statement_id": "Di Shūyōji dilakukan ritual api goma dan berjalan di atas api serta upacara persembahan tujuh puluh lima hidangan bagi berbagai tengu; sosok yang lazim disebut Akiha Sanshakubō dianggap tengu dan sangat erat terkait dengan sifat kepercayaan Akiha sebagai dewa pelindung dari api.",
+          "quote": "秋葉寺でも護摩がたかれ火渡りを行うほか，種々の天狗に対する七十五膳献供式がなされる。秋葉三尺坊と通称される存在は天狗とみなされ，秋葉信仰の火防神としての性格と密接に結びついている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c11",
+          "source_id": "akiha-gongen-s3",
+          "host": "kotobank.jp",
+          "statement": "The enshrined deity of Akiha Gongen is Ōnamuchi, but Sanshakubō Gongen, his guardian deity, became the central figure of Akiha faith from the middle of the early modern period.",
+          "statement_id": "Dewa utama Akiha Gongen adalah Ōnamuchi, tetapi Sanshakubō Gongen, dewa pelindungnya, menjadi tokoh utama kepercayaan Akiha sejak pertengahan zaman modern awal.",
+          "quote": "秋葉権現の祭神は大己貴命であるが、その守護神であった三尺坊権現が近世中期以降、秋葉信仰主役となった。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akiha-gongen-c12",
+          "source_id": "akiha-gongen-s4",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Kokugo Daijiten, Sanshakubō was a monk who lived on Mount Akiha in Shizuoka, gained supernatural powers and became a tengu, and by legend flew about three shaku (about 90 cm) above the ground; the name is also a popular name of Akiha Gongen (Akiha Shrine), known as a fire-averting deity.",
+          "statement_id": "Menurut kamus Nihon Kokugo Daijiten, Sanshakubō adalah biksu yang tinggal di Gunung Akiha, Shizuoka, yang memperoleh daya gaib dan menjadi tengu, dan menurut legenda terbang setinggi sekitar tiga shaku (sekitar 90 cm) dari tanah; nama itu juga sebutan umum Akiha Gongen (Kuil Akiha), yang dikenal sebagai dewa penolak api.",
+          "quote": "静岡県秋葉山に住んでいた僧。神通力を得て天狗となり、地上三尺（約九〇センチメートル）ほどの高さを飛行したという伝説からいう。また、その僧をまつった秋葉山権現（秋葉神社）の俗称。火よけの神として知られる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ama-no-fuchigoma",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "ea5401efb16cf7000cc73288c4e4aac60bba7cd291c36319c8b3d6f6494229a7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Jepang. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Jepang. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -597,6 +1018,46 @@
           "statement_id": "Susanoo menunggangi kuda itu dalam mitos.",
           "quote": "In the myth, Ama no Fuchigoma was ridden by the god Susanoo.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ama-no-fuchigoma-c03",
+          "source_id": "ama-no-fuchigoma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Ama no Fuchigoma (天乃斑駒) literally means \"heavenly spotted horse\".",
+          "statement_id": "Nama Ama no Fuchigoma (天乃斑駒) secara harfiah berarti \"kuda belang surgawi\".",
+          "quote": "Ama no Fuchigoma (天乃斑駒; lit. \"heavenly spotted horse\")",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "ama-no-fuchigoma-c04",
+          "source_id": "ama-no-fuchigoma-s2",
+          "host": "en.wikisource.org",
+          "statement": "In Aston's translation of the Nihongi, Sosa no wo no Mikoto breaks down the divisions between the rice plots when the seed is sown in spring and in autumn lets loose the Heavenly piebald colts.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, Sosa no wo no Mikoto merusak pematang sawah saat benih disebar di musim semi dan di musim gugur melepaskan anak-anak kuda belang dari Langit.",
+          "quote": "Sosa no wo no Mikoto, when the seed was sown in spring, broke down the divisions between the plots of rice, and in autumn let loose the Heavenly piebald colts",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ama-no-fuchigoma-c05",
+          "source_id": "ama-no-fuchigoma-s2",
+          "host": "en.wikisource.org",
+          "statement": "In one variant account in the Nihongi, Sosa no wo no Mikoto flays a piebald colt with a backward flaying and flings it into the interior of the hall.",
+          "statement_id": "Dalam salah satu versi catatan Nihongi, Sosa no wo no Mikoto menguliti seekor anak kuda belang dengan cara kuliti terbalik lalu melemparkannya ke dalam aula.",
+          "quote": "Sosa no wo no Mikoto saw this, and forthwith flaying a piebald colt with a backward flaying, flung it into the interior of the hall.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ama-no-fuchigoma-c06",
+          "source_id": "ama-no-fuchigoma-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to the Nihongi, a piebald colt of Heaven is flayed and flung through a hole broken in the roof-tiles of the hall; Amaterasu starts with alarm and wounds herself with the shuttle, then, indignant, enters the Rock-cave of Heaven and fastens the Rock-door.",
+          "statement_id": "Menurut Nihongi, seekor anak kuda belang dari Langit dikuliti dan dilemparkan melalui lubang di atap aula; Amaterasu terkejut dan melukai diri dengan puntal, lalu karena marah masuk ke Gua Batu Surgawi dan mengunci pintunya.",
+          "quote": "he flayed a piebald colt of Heaven, and breaking a hole in the roof-tiles of the hall, flung it in. Then Ama-terasu no Oho-kami started with alarm, and wounded herself with the shuttle. Indignant at this, she straightway entered the Rock-cave of Heaven, and having fastened the Rock-door, dwelt there in seclusion.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -674,22 +1135,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0872753c7cd7d50e7be9f228f36ce14482dd5f0cb3d9f519046eb0a46e309800"
     },
     {
       "slug": "amatsukume",
-      "file": "batch-057-fix-2.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "bd14268e2dffce79bc20cad5ba8e546559f695bc0d187ff55e8f44d625265d3c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Jinmu. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -697,8 +1160,8 @@
           "id": "amatsukume-c01",
           "source_id": "amatsukume-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Amatsukume is a Japanese deity who accompanies Ninigi’s descent beside Ame no Oshihi.",
-          "statement_id": "Amatsukume adalah dewa Jepang yang mendampingi turunnya Ninigi bersama Ame no Oshihi.",
+          "statement": "Amatsukume is a deity who appears in the Descent of the Heavenly Grandchild in the Kojiki and, in a fourth variant account, in the Nihon Shoki; he led Ninigi's way armed together with Ame no Oshihi, regarded as ancestral god of the Ōtomo clan.",
+          "statement_id": "Amatsukume adalah dewa yang muncul dalam adegan turunnya cucu surgawi di Kojiki dan, dalam catatan varian keempat, di Nihon Shoki; ia memimpin jalan Ninigi dengan bersenjata bersama Ame no Oshihi, yang dianggap dewa leluhur klan Ōtomo.",
           "quote": "『古事記』では天孫降臨の場面に登場し、『日本書紀』では同場面、第四の一書に登場する。大伴氏の祖神とされる天忍日命と共に武装して邇邇芸命の先導をした。",
           "context": "religious-tradition",
           "status": "exact"
@@ -707,8 +1170,8 @@
           "id": "amatsukume-c02",
           "source_id": "amatsukume-s1",
           "host": "ja.wikipedia.org",
-          "statement": "He accompanies Ninigi’s descent armed alongside Ame no Oshihi.",
-          "statement_id": "Ia mendampingi turunnya Ninigi sambil bersenjata bersama Ame no Oshihi.",
+          "statement": "Amatsukume, armed together with Ame no Oshihi, leads Ninigi's way.",
+          "statement_id": "Amatsukume, bersama Ame no Oshihi dan dengan bersenjata, memimpin jalan Ninigi.",
           "quote": "『古事記』では天孫降臨の場面に登場し、『日本書紀』では同場面、第四の一書に登場する。大伴氏の祖神とされる天忍日命と共に武装して邇邇芸命の先導をした。",
           "context": "religious-tradition",
           "status": "exact"
@@ -727,10 +1190,50 @@
           "id": "amatsukume-c04",
           "source_id": "amatsukume-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Their descendants’ relationship also differs between the chronicles.",
-          "statement_id": "Hubungan para keturunannya juga berbeda antara kronik.",
+          "statement": "In the Nihon Shoki's account of the eastern expedition, the Kume-be, descendants of Ame-kushitsu no Ōkume, are subordinates of Michi no Omi, a descendant of Ame no Oshihi, but in the Kojiki Michi no Omi and Ōkume are equals.",
+          "statement_id": "Dalam catatan ekspedisi ke timur di Nihon Shoki, Kume-be, keturunan Ame-kushitsu no Ōkume, menjadi bawahan Michi no Omi, keturunan Ame no Oshihi, tetapi di Kojiki Michi no Omi dan Ōkume setara.",
           "quote": "また、『日本書紀』の神武東征の場面では、天槵津大来目の子孫の久米部は、天忍日命の子孫である道臣命（ミチノオミ）の部下となっているが、『古事記』では道臣命と大久米命は対等であり、同様の相違が認められる。",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukume-c05",
+          "source_id": "amatsukume-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Daijisen, Amatsukume is a deity of Japanese mythology who served as vanguard together with Ame no Oshihi at the Descent of the Heavenly Grandchild and is the ancestral god of the Kume no Atai.",
+          "statement_id": "Menurut Daijisen, Amatsukume adalah dewa mitologi Jepang yang menjadi pelopor bersama Ame no Oshihi saat turunnya cucu surgawi dan merupakan dewa leluhur Kume no Atai.",
+          "quote": "あまつくめ‐の‐みこと【天津久米命】 日本神話の神。天孫降臨に際し、 天忍日命 あまのおしひのみこと とともに先駆けを務めた。 久米直 くめのあたい の祖神。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukume-c06",
+          "source_id": "amatsukume-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Kokugo Daijiten, he is a deity seen in the Kiki (Kojiki and Nihon Shoki), ancestral god of the Kume no Atai and others, who accompanied the Descent of the Heavenly Grandchild, carried weapons with Ame no Oshihi and stood before Ninigi; he is also called Ame-kushitsu no Ōkume.",
+          "statement_id": "Menurut Nihon Kokugo Daijiten, ia dewa dalam Kiki (Kojiki dan Nihon Shoki), leluhur Kume no Atai dan lainnya, yang mengiringi turunnya cucu surgawi, membawa senjata bersama Ame no Oshihi dan berdiri di depan Ninigi; ia juga disebut Ame-kushitsu no Ōkume.",
+          "quote": "記紀に見える神。久米直(くめのあたい)等の祖神。天孫降臨に随伴し、天忍日命(あまのおしひのみこと)とともに武具を携え、瓊瓊杵尊(ににぎのみこと)の前に立った。天槵津大来目(あめくしつのおおくめ)。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukume-c07",
+          "source_id": "amatsukume-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Jinmei Daijiten, he is the ancestral god of the Kume clan said to have guided together with Ame no Oshihi when Ninigi descended; the Nihon Shoki calls him Ame-no-kushitsu-no-Ōkume and makes him a subordinate deity of Ame no Oshihi, whereas the Kojiki places him as an equal.",
+          "statement_id": "Menurut Nihon Jinmei Daijiten, ia dewa leluhur klan Kume yang dikatakan memandu bersama Ame no Oshihi saat Ninigi turun; Nihon Shoki menyebutnya Ame-no-kushitsu-no-Ōkume dan menjadikannya dewa bawahan Ame no Oshihi, sedangkan Kojiki menempatkannya setara.",
+          "quote": "記・紀にみえる神。 久米氏の祖先神。邇邇芸命(瓊瓊杵尊)(ににぎのみこと)が降臨するとき,大伴氏の祖先神の天忍日命(あめのおしひのみこと)とともに先導をしたといわれる。「日本書紀」では天槵津大来目(あめのくしつのおおくめ)といい,天忍日命の従属神としているが,「古事記」では対等の神と位置づけられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukume-c08",
+          "source_id": "amatsukume-s2",
+          "host": "kotobank.jp",
+          "statement": "Heibonsha notes that the Descent of the Heavenly Grandchild sections of the Kojiki and Nihon Shoki give the names Amatsukume and Ame-kushitsu-ōkume respectively; these figures are said to have served in guarding and fighting for the heavenly grandchild or emperor, which probably rests on the duties of the Kume-be occupational group.",
+          "statement_id": "Heibonsha mencatat bahwa bagian turunnya cucu surgawi dalam Kojiki dan Nihon Shoki masing-masing menyebut Amatsukume dan Ame-kushitsu-ōkume; para tokoh itu dikatakan bertugas menjaga dan bertempur bagi cucu surgawi atau kaisar, yang kemungkinan didasarkan pada tugas kelompok Kume-be.",
+          "quote": "記紀の天孫降臨条にはそれぞれ〈天津久米命（あまつくめのみこと）〉〈天槵津大来目（あめくしつおおくめ）〉となっている。いずれも天孫ないし天皇の警護，戦闘に従事したとされており，これは 久米部 （くめべ）なる部民の職掌にもとづくものであろう。",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -808,22 +1311,64 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "43eb8bcc9ab251262f240b492fba307d572211cf3594d68351337dfa439dcafc"
     },
     {
       "slug": "ame-no-kaguyama",
-      "file": "batch-057-fix-2.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "d950d32bfafe2f2c32988ae71129d6f97f95afd0cab0fc16374f144b10de8e66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Michihime, Umashimaji, Mononobe. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Ifukube, Mutobe, Tsumori. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Niigata. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Niigata. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[0].note",
+          "message": "Tidak muncul di kutipan mana pun: Michihime. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[1].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Amenohoakari. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[2].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Umashimaji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[2].note",
+          "message": "Tidak muncul di kutipan mana pun: Umashimaji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "conflicts[0].positions[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Michihime. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -866,33 +1411,58 @@
           "quote": "また、新潟県の彌彦神社の社伝に、神武天皇の大和国平定後、勅命を受け越国を平定、開拓に従事したと伝える（詳しくは彌彦神社を参照）。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ame-no-kaguyama-c05",
+          "source_id": "ame-no-kaguyama-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Nihon Kokugo Daijiten, he is a deity seen in works such as the Nihon Shoki, ancestral god of the Owari no Muraji and others, child of Ame no Hoakari, and said to be the same deity as Takakuraji, who presented the Futsu no Mitama sword during Emperor Jinmu's eastern expedition.",
+          "statement_id": "Menurut Nihon Kokugo Daijiten, ia dewa yang muncul antara lain di Nihon Shoki, leluhur Owari no Muraji dan lainnya, anak Ame no Hoakari, dan dikatakan sama dengan Takakuraji yang mempersembahkan pedang Futsu no Mitama pada ekspedisi timur Kaisar Jinmu.",
+          "quote": "あまのかぐやま‐の‐みこと【天香山命】 「日本書紀」などに見える神。尾張連(おわりのむらじ)等の祖神。天火明命(あめのほあかりのみこと)の子。神武天皇の東征の時、韴霊剣(ふつのみたまのつるぎ)を献上した高倉下命(たかくらじのみこと)と同神という。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-kaguyama-c06",
+          "source_id": "ame-no-kaguyama-s3",
+          "host": "kotobank.jp",
+          "statement": "According to one view, Ame-no-Kaguyama, the enshrined deity (saijin), is a great-grandchild of Amaterasu also named Takakuraji; he accompanied the Descent of the Heavenly Grandchild, later lived at Kumano in Kii province, and rendered service when Emperor Jinmu entered Yamato.",
+          "statement_id": "Menurut satu pendapat, Ame-no-Kaguyama, dewa yang dipuja (saijin), adalah cicit Amaterasu yang juga bernama Takakuraji; ia mengiringi turunnya cucu surgawi, kemudian tinggal di Kumano di Provinsi Kii, dan berjasa saat Kaisar Jinmu memasuki Yamato.",
+          "quote": "一説に祭神天香山命は天照大神の曾孫で一名を高倉下（たかくらじ）命といい，天孫降臨に供奉して下り，のち紀伊国熊野にすみ，神武天皇の大和入国に功績をたて，",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-kaguyama-c07",
+          "source_id": "ame-no-kaguyama-s3",
+          "host": "kotobank.jp",
+          "statement": "According to one view, Ame-no-Kaguyama landed at Nozumi-hama in Mishima district, Echigo province, came to the eastern foot of Mount Yahiko, developed the region, and taught the inhabitants fishing, salt-making, farming and sake-brewing.",
+          "statement_id": "Menurut satu pendapat, Ame-no-Kaguyama mendarat di Nozumi-hama, Distrik Mishima, Provinsi Echigo, tiba di kaki timur Gunung Yahiko, membuka wilayah itu, dan mengajari penduduk menangkap ikan, membuat garam, bertani, dan membuat sake.",
+          "quote": "一説に祭神天香山命は天照大神の曾孫で一名を高倉下（たかくらじ）命といい ... 越後国三島郡野積浜に上陸して弥彦山の東麓に来り，当地方を開拓，住民に漁労，製塩，農耕，酒造等を教えたという。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ame-no-naemasu-no-mikoto",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-4.md",
+      "entry_sha256": "f71b9d709dc5801269c3b7a61b640758d976544be0db6752aac1e174077df54b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ame-no-naemasu-no-mikoto-c01",
           "source_id": "ame-no-naemasu-no-mikoto-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Ame-no-Naemasu is a Shinto deity and ancestral figure of Katori’s hereditary priests.",
-          "statement_id": "Ame-no-Naemasu adalah dewa Shinto dan sosok leluhur imam turun-temurun Katori.",
+          "statement": "Ame-no-Naemasu is a Shinto deity and the ancestral god of the Katori clan, who hereditarily hold the top priestly posts (ōgūji, ōnēgi) of Katori Shrine.",
+          "statement_id": "Ame-no-Naemasu adalah dewa Shinto dan dewa leluhur klan Katori yang turun-temurun memegang jabatan imam tertinggi (ōgūji, ōnēgi) Kuil Katori.",
           "quote": "天苗加命（あめのなえますのみこと）は神道における神で、香取神宮の神職首座（大宮司、大禰宜）を代々つとめる香取氏の祖神。",
           "context": "religious-tradition",
           "status": "exact"
@@ -901,10 +1471,50 @@
           "id": "ame-no-naemasu-no-mikoto-c02",
           "source_id": "ame-no-naemasu-no-mikoto-s1",
           "host": "ja.wikipedia.org",
-          "statement": "He is enshrined at Matami Shrine within the Katori shrine complex.",
-          "statement_id": "Ia dipuja di Kuil Matami dalam kompleks kuil Katori.",
+          "statement": "As an enshrined deity he is worshipped at Matami Shrine (also called Wakamiko Shrine), one of the auxiliary shrines of Katori Shrine.",
+          "statement_id": "Sebagai dewa yang dipuja, ia disemayamkan di Kuil Matami (disebut juga Kuil Wakamiko), salah satu kuil pembantu Kuil Katori.",
           "quote": "神社の祭神としては香取神宮の摂社の一つ、又見神社（または、若御児神社ともいう）に祭られている。",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-naemasu-no-mikoto-c03",
+          "source_id": "ame-no-naemasu-no-mikoto-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Ame-no-Naemasu-no-Mikoto, worshiped at Matami Shrine in Katori, is considered to be Futsunushi's son.",
+          "statement_id": "Ame-no-Naemasu-no-Mikoto, yang dipuja di Kuil Matami di Katori, dianggap putra Futsunushi.",
+          "quote": "The deity Ame-no-Naemasu-no-Mikoto (天苗加命), worshiped in Matami Shrine (又見神社) in Katori, is considered to be Futsunushi's son.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-naemasu-no-mikoto-c04",
+          "source_id": "ame-no-naemasu-no-mikoto-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Ame-no-Naemasu is reckoned as the ancestor of the Katori clan, which traditionally served as priests in Katori Shrine.",
+          "statement_id": "Ame-no-Naemasu dianggap leluhur klan Katori, yang secara tradisional bertugas sebagai imam di Kuil Katori.",
+          "quote": "Ame-no-Naemasu is reckoned as the ancestor of the Katori clan (香取氏), which traditionally served as priests in Katori Shrine.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-naemasu-no-mikoto-c05",
+          "source_id": "ame-no-naemasu-no-mikoto-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Katori clan later assumed the name Ōnakatomi after a grandson of Ōnakatomi no Kiyomaro of the influential Nakatomi (Ōnakatomi) clan was adopted into the clan.",
+          "statement_id": "Klan Katori kemudian memakai nama Ōnakatomi setelah seorang cucu Ōnakatomi no Kiyomaro dari klan Nakatomi yang berpengaruh diangkat anak ke dalam klan itu.",
+          "quote": "The Katori later assumed the name 'Ōnakatomi' (大中臣) after a grandson of Ōnakatomi no Kiyomaro, of the influential Nakatomi (Ōnakatomi) clan, was adopted into the clan.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-naemasu-no-mikoto-c06",
+          "source_id": "ame-no-naemasu-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The 1845 (Kōka 2) Shimōsa Kokujikō records \"Naemasu no Mikoto\" as another name of Asahiko no Mikoto.",
+          "statement_id": "Shimōsa Kokujikō tahun 1845 (Kōka 2) mencatat \"Naemasu no Mikoto\" sebagai nama lain Asahiko no Mikoto.",
+          "quote": "弘化二年(1845)『下総国旧事考』：朝彦ノ命の別名「苗加(ナヘマス)ノ命」",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -968,7 +1578,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9b8b0b905922236d109217df482047abbdfcff3819cac0ef6fbf9cc1c25cdb21"
     },
     {
       "slug": "ame-no-oshihi",
@@ -1028,7 +1639,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8d04bd9d5b61264f745c4343209e239b890a83df93de41d437113f58f736ba89"
     },
     {
       "slug": "ame-no-oshikumone",
@@ -1088,7 +1700,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "64e642edd70000cd0d086e2791a4756ac525b740de0089b244f69ad599eeb1e9"
     },
     {
       "slug": "ashite-kojin",
@@ -1148,7 +1761,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "07005411e18ecce24a2a43cae3036e59276b2cf5fca553593b5f9c90d2e09ffb"
     },
     {
       "slug": "ato-oi-kozo",
@@ -1208,7 +1822,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dd392e25991f55f9c34fbaf6fcbe27a59824d65d5c2fdd8a1d8a854ac8292c13"
     },
     {
       "slug": "bakeichonosei",
@@ -1268,7 +1883,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "69526b1bbaf467bc0c73f97e769c8efb63a0a311989d3488023158c8b984040a"
     },
     {
       "slug": "buruburu",
@@ -1342,7 +1958,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0416ea680c91f69cf3c201aa3ba3137cb6b44f5b659e12668c5885bf8b3ed62f"
     },
     {
       "slug": "chiu-sing",
@@ -1422,7 +2039,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "847225642c6d90fd998e9e1fecdebe5cfcc59a549d0c310c670a653ff8b0e3d2"
     },
     {
       "slug": "cikap-kamuy",
@@ -1502,7 +2120,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8db98869635a1169b697bbdc297cb18ec3ab902c40a1db3095aa561ba8af52d9"
     },
     {
       "slug": "eritate-goromo",
@@ -1576,7 +2195,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fafd4c8aca299362efda2fd77799a11dfc7b1ee46c2f8c2484bf8fd20f03702b"
     },
     {
       "slug": "fukuro-mujina",
@@ -1650,7 +2270,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4899be808a224bc3d733c4187d5d9cf80b52d0ab82ff76076e6a015d185b428f"
     },
     {
       "slug": "futsunomitama",
@@ -1710,7 +2331,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac899c57f8e1d8f86ebef06ca0cfd5af7dd746c68e021f9baba1aa975f2883fa"
     },
     {
       "slug": "gnophkeh",
@@ -1729,7 +2351,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "21ca6953597de4168a71ce893f2ae813f4516339c8d7b671d05e6d9f38a2537a"
     },
     {
       "slug": "golden-kite",
@@ -1789,7 +2412,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "87104fb8dc6bb1ed3b151055998f7c5910289dce6ea81c57b7ef6948bcac5818"
     },
     {
       "slug": "gozuryu",
@@ -1849,7 +2473,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d6cc9d8d23d5f4fd0d2a1a1ec97e388a4ec94def462fc7aa7b373c90b50d656f"
     },
     {
       "slug": "haradashi",
@@ -1923,7 +2548,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b5628fbe768bc50b3ae3f6c17b7b3655870e1544a1258ec80a3e22c085234af7"
     },
     {
       "slug": "hua-she",
@@ -1983,7 +2609,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df86a52261d45f3802815dc21c1ad37ba33e7bd2c595f9be8430dbe58f1cae21"
     },
     {
       "slug": "huri-kamuy",
@@ -2063,7 +2690,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "987a046b71c935b1e204ec255b0da01a5388f0e5f08dcca3238b963f62193e12"
     },
     {
       "slug": "isotakeru",
@@ -2137,7 +2765,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b93902d448ce76b04dc962627dcc9edfa781233fe30abd6bf434d1c82904d6fb"
     },
     {
       "slug": "iwakamutsukari",
@@ -2197,7 +2826,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df18124de5ad32bdca3b000109db49db56bc504fa33522a15edd748475e2d3b0"
     },
     {
       "slug": "iyaya",
@@ -2271,7 +2901,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6d1666c897a566ba4937c9c8c2c1fb44643f8005fe5d9a4e7b6a59955c486264"
     },
     {
       "slug": "izuna-gongen",
@@ -2331,7 +2962,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "722a78204b7c1f0fbb4201893aaa8a51c2cbe94323f5e9f24f7d0f56d1cdd1aa"
     },
     {
       "slug": "izunome",
@@ -2405,7 +3037,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6cf3098928ac8365263429c9e6464bf1720b0c60320130fdeee8cfe17d35086d"
     },
     {
       "slug": "jatai",
@@ -2479,7 +3112,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d62c325bca3bc86c8cca3baa40c388f934448278738860bf1dc88b0c66ece13d"
     },
     {
       "slug": "jianmu",
@@ -2498,7 +3132,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "428d72252306a5f6fd2e6fc816ea8aeed3ed5c63bca408929974104e4ee21c3c"
     },
     {
       "slug": "jivajivaka",
@@ -2558,7 +3193,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ecddb58baa29b5c0662ef069b557ae4799cd29647b03da02e38d4452513bf3a"
     },
     {
       "slug": "juzenji",
@@ -2638,7 +3274,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7724722d1425b3a3c13129a05ca7f13dd14754153a4e4e3c5ee3006cac69be33"
     },
     {
       "slug": "kage-onna",
@@ -2712,7 +3349,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "525964685581f5e9f864c4fc8c949365005ee1c634abf0aff159738dc11d34b9"
     },
     {
       "slug": "kamunaobi-and-onaobi",
@@ -2786,7 +3424,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f45b3641b6ce81bccd4ea339aa32da77ee56915f186555a5a33f1798c40ce73a"
     },
     {
       "slug": "kanayago-kami",
@@ -2846,7 +3485,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d87ec51ee48d388045fb86ecc4fa3925b973371481e00e20b819cdc1ce76ee9b"
     },
     {
       "slug": "katakurokushin",
@@ -2920,7 +3560,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e45a843390096d30988eab005171e6f5a2cd80700f902082a25ffb9a2fe415cc"
     },
     {
       "slug": "kayanarumi-no-kami",
@@ -2980,7 +3621,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bf245ff39d463ad27c8c0fd627b97c61c34371f41f351e926553bd748de8fe89"
     },
     {
       "slug": "kazenbo",
@@ -3054,7 +3696,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0b2c2c7f9c80fa00fcd7f47d3f99c232099364a8d888c77f5b768d4588577ae1"
     },
     {
       "slug": "kokuri-baba",
@@ -3128,7 +3771,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a0c7358d361ef8d02b4cbf069e1d25ccc940bc42b778128303a785b597e07d45"
     },
     {
       "slug": "konohanachiruhime",
@@ -3188,7 +3832,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "efc0e0ecd0db09a1d08f9dc8bf251559d099fa7fad112cb2797e840718d1bc4d"
     }
   ]
 }

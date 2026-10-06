@@ -17,9 +17,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 ## yamajijii
 - `claims (yamajijii-c04)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
-## amatsumara
-- `claims (amatsumara-c03)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
 ## furu-utsubo
 - `claims (furu-utsubo-c04)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 

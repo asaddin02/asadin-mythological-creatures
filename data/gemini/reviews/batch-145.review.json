@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-145",
-  "checked_at": "2026-10-06T15:36:23.512Z",
+  "checked_at": "2026-10-06T19:20:50.466Z",
   "files": [
     "batch-145.md",
     "batch-145-fix-1.md",
-    "batch-145-fix-2.md"
+    "batch-145-fix-2.md",
+    "batch-145-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2256,20 +2257,15 @@
     },
     {
       "slug": "beaman-monster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "166bc8c14fa736d0103d522abca09ede99aa3f57e34986ce3ae789502e4e6e53",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "beaman-monster-c01",
@@ -2300,10 +2296,89 @@
           "quote": "Tales regarding the Beaman Monster have been told for generations in the Sedalia area.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c04",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "According to a news report, people have told tales of the Beaman Monster for more than 100 years, although no evidence of the creature exists.",
+          "statement_id": "Menurut laporan berita, orang telah menceritakan kisah Beaman Monster selama lebih dari 100 tahun, meskipun tidak ada bukti keberadaan makhluk itu.",
+          "quote": "People have told tales of the Beaman Monster for more than 100 years, although no evidence of the creature exists.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c05",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "A man quoted in the report said his father told him a train wrecked in 1904 and all the animals were caught except one, a 12-foot-tall gorilla; the story goes that the Beaman Monster was this gorilla's offspring.",
+          "statement_id": "Seorang warga yang dikutip dalam laporan itu mengatakan ayahnya bercerita bahwa sebuah kereta kecelakaan pada 1904 dan semua hewan tertangkap kecuali satu, seekor gorila setinggi 12 kaki; menurut cerita, Beaman Monster adalah keturunan gorila itu.",
+          "quote": "Holman's father told him a train wrecked in 1904, and all the animals were caught except one, a 12-foot tall gorilla. \"They claim the Beaman Monster was the offspring of this gorilla,\" he said.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c06",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "According to the report, most people think of the Beaman Monster as a type of Sasquatch, but one Sedalia man remembers it as shaped like a wolf or coyote.",
+          "statement_id": "Menurut laporan itu, kebanyakan orang menganggap Beaman Monster sejenis Sasquatch, tetapi seorang pria Sedalia mengingatnya berbentuk seperti serigala atau koyote.",
+          "quote": "Most describe or think of the Beaman Monster as a type of Sasquatch, but one Sedalia man remembers it as being shaped like a wolf or coyote.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c07",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "A man quoted in the report said that, according to his father, when the boys got out of hand they would call out the Beaman Monster if they did not behave.",
+          "statement_id": "Seorang warga yang dikutip dalam laporan itu mengatakan bahwa, menurut ayahnya, ketika anak-anak lelaki mulai kelewatan, orang akan memanggil Beaman Monster kalau mereka tidak berkelakuan baik.",
+          "quote": "Dad said, when the boys would get out of hand, they'd call out the Beaman Monster if you didn't behave.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c08",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "A resident recalled an uncle telling of a commotion in his cornfield in the late 1950s, when people with all kinds of shotguns walked through the field hunting the Beaman Monster.",
+          "statement_id": "Seorang warga mengingat pamannya bercerita tentang keributan di ladang jagungnya pada akhir 1950-an, ketika orang-orang membawa berbagai senapan berburu menyisir ladang itu untuk memburu Beaman Monster.",
+          "quote": "Holman also remembers an uncle, who lived on Glenn Road, telling a story about a commotion in his cornfield in the late 1950s. \"People were out there with all kinds of shotguns walking through his cornfield,\" he said. \"They were hunting that Beaman Monster.\"",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c09",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "According to the report, some people have reported seeing large footprints, which they view as evidence of the beast's existence.",
+          "statement_id": "Menurut laporan itu, sebagian orang melaporkan melihat jejak kaki besar yang mereka anggap bukti keberadaan makhluk tersebut.",
+          "quote": "Others have reported seeing large footprints, which they view as evidence of the beast's existence.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c10",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "A couple of people recall the Beaman Monster as a prank in the 1950s: some teenagers stole a construction sign with round, yellow flashing lights, covered it with brush and hid it in a field near Beaman.",
+          "statement_id": "Beberapa orang mengingat Beaman Monster sebagai lelucon pada 1950-an: sejumlah remaja mencuri rambu konstruksi berlampu bulat kuning berkedip, menutupinya dengan semak, dan menyembunyikannya di ladang dekat Beaman.",
+          "quote": "A couple of people recall the Beaman Monster as a prank in the 1950s. ... Some teenagers stole a construction sign with large, round, yellow flashing lights, covered it with brush and hid it in a field near Beaman.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c11",
+          "source_id": "beaman-monster-s2",
+          "host": "www.semissourian.com",
+          "statement": "According to the report, some speculate the origins of the beast may have more to do with moonshine than anything else.",
+          "statement_id": "Menurut laporan itu, sebagian orang menduga asal-usul makhluk ini lebih berkaitan dengan minuman keras buatan sendiri (moonshine) daripada hal lain.",
+          "quote": "Some speculate the origins of the beast may have more to do with moonshine than anything else.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "434ca1243dd07132e8d8ae48a4ec1c7a9305b9096f43f194e82127faa99d34f2"
+      "images": []
     },
     {
       "slug": "bear-lake-monster",
@@ -2432,20 +2507,15 @@
     },
     {
       "slug": "boto",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "d8884bfdf336e6173490fbef59f8a9020ac170e8e924ffc11cd4b9b34f6c8a29",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "boto-c01",
@@ -2506,10 +2576,59 @@
           "quote": "Aus diesem Grund werden unbekannte junge Männer, die mit Hut auf einem Fest erscheinen, gebeten, diesen abzunehmen.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "boto-c07",
+          "source_id": "boto-s2",
+          "host": "www.seawatchfoundation.org.uk",
+          "statement": "According to a popular folk story from the area these dolphins inhabit, usually on the night of the full moon male Botos emerge from the river and transform into handsome, elegant \"white men\".",
+          "statement_id": "Menurut kisah rakyat populer dari wilayah tempat lumba-lumba ini hidup, biasanya pada malam bulan purnama, boto jantan keluar dari sungai dan menjelma menjadi \"white men\" (pria kulit putih) yang tampan dan elegan.",
+          "quote": "A popular folk story from the area these dolphins inhabit says that, usually on the night of the full moon, male Botos emerge from the river and transform into handsome and elegant white men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c08",
+          "source_id": "boto-s2",
+          "host": "www.seawatchfoundation.org.uk",
+          "statement": "The transformed \"men\" wear hats to cover their blow holes and find a party taking place in a community along the riverside.",
+          "statement_id": "Para \"pria\" jelmaan itu mengenakan topi untuk menutupi lubang napas mereka dan mendatangi pesta di sebuah komunitas di tepi sungai.",
+          "quote": "wearing hats to cover their blow holes, find a party taking place in a community along the riverside.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c09",
+          "source_id": "boto-s2",
+          "host": "www.seawatchfoundation.org.uk",
+          "statement": "At the party they seduce and impregnate a local young woman; before the sun rises they return to the river and to dolphin form.",
+          "statement_id": "Di pesta itu mereka merayu dan menghamili seorang perempuan muda setempat; sebelum matahari terbit mereka kembali ke sungai dan ke wujud lumba-lumba.",
+          "quote": "At this party, they seduce and impregnate a local young woman. Before the sun rises, they return to the river and to their dolphin form.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c10",
+          "source_id": "boto-s2",
+          "host": "www.seawatchfoundation.org.uk",
+          "statement": "According to the author, even now in that part of the world, when a woman falls pregnant and is unwilling or unable to name the father (for example because she was assaulted or forced into prostitution), her child is said to be a \"filho-do-boto\" (offspring of a dolphin).",
+          "statement_id": "Menurut penulis, hingga kini di wilayah itu, bila seorang perempuan hamil dan tidak mau atau tidak dapat menyebut ayahnya (misalnya karena diserang atau dipaksa melacur), anaknya disebut \"filho-do-boto\" (anak lumba-lumba).",
+          "quote": "Even now, when a woman falls pregnant in this part of the world and isn’t willing to/cannot name the father (because she has been assaulted, or forced into prostitution), it will be said that her child is a ‘filho-do-boto’ (offspring of a dolphin).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c11",
+          "source_id": "boto-s2",
+          "host": "www.seawatchfoundation.org.uk",
+          "statement": "The author argues that the legend most likely covers up the reality of living under colonial rule, especially for indigenous women.",
+          "statement_id": "Penulis berpendapat bahwa legenda ini kemungkinan besar menutupi kenyataan hidup di bawah pemerintahan kolonial, terutama bagi perempuan pribumi.",
+          "quote": "The likelihood is this legend really covers up the reality of living under colonial rule, especially for indigenous women.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ec6b4805d764cabab66a137aada85809ae17f723739e65a12d7b788e378d5d12"
+      "images": []
     },
     {
       "slug": "cabra-cabriola",
@@ -2648,20 +2767,15 @@
     },
     {
       "slug": "carbuncle-legendary-creature",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "5b47d1fd47885633e5341a1254bebd7318270c70646e208e1280e804efab3857",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "carbuncle-legendary-creature-c01",
@@ -2702,27 +2816,131 @@
           "quote": "comes from the Latin carbunculus, meaning \"little coal\"",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c05",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Latin American lore, it is said to hold treasures inside, so whoever manages to capture it becomes wealthy.",
+          "statement_id": "Dalam cerita rakyat Amerika Latin, konon ia menyimpan harta di dalam dirinya sehingga siapa pun yang berhasil menangkapnya akan menjadi kaya.",
+          "quote": "In Latin American lore, it is said to hold treasures inside so whoever manages to capture it will become wealthy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c06",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Chilote mythology of southern Chile the carbunclo is said to be the \"guardian of the metals\"; descriptions vary from a luminescent small dog, a luminescent bivalve or a cat with a luminescent tuft under its beard to a greenish-red fiery light reminiscent of fireflies.",
+          "statement_id": "Dalam mitologi Chilote di Chile selatan, carbunclo disebut \"penjaga logam\"; wujudnya digambarkan beragam: anjing kecil bercahaya, kerang bercahaya, kucing dengan jumput bercahaya di bawah janggut, atau cahaya api kehijauan-merah yang mengingatkan pada kunang-kunang.",
+          "quote": "In the Chilote mythology of southern Chile the carbunclo is said to be the \"guardian of the metals\". Descriptions of it vary, from a luminescent small dog, a luminescent bivalve, a cat with a luminescent lock or tuft under its beard or a greenish-red fiery light reminiscent of fireflies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c07",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The carbunclo is said to manifest itself at night around the Southern Hemisphere winter solstice (late June).",
+          "statement_id": "Konon carbunclo menampakkan diri pada malam hari sekitar titik balik matahari musim dingin belahan bumi selatan (akhir Juni).",
+          "quote": "The carbunclo is said to manifest itself at night around the Southern Hemisphere winter solstice (late June).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c08",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the legend, a treasure seeker must first cast a length of string, a belt or some personal belonging towards the carbunclo, which snatches it and disappears; the seeker waits and returns to the site in the morning before dawn.",
+          "statement_id": "Menurut legenda, pemburu harta harus lebih dulu melempar seutas tali, sabuk, atau barang pribadi ke arah carbunclo, yang akan menyambarnya lalu menghilang; sang pemburu menunggu dan kembali ke tempat itu pagi sebelum fajar.",
+          "quote": "First, a length of string, or a belt (or some personal belonging) must be cast towards the carbunclo which will snatch it and disappear. The treasure seeker shall wait and return to the site in the morning before dawn",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c09",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the legend, if the ritual is not performed the digger will die in the pit from noxious gas, and he must show no sign of fear or the treasure will turn into rock.",
+          "statement_id": "Menurut legenda, bila ritual itu tidak dijalankan penggali akan mati di lubang karena gas beracun, dan ia tidak boleh menunjukkan rasa takut agar harta itu tidak berubah menjadi batu.",
+          "quote": "If this ritual is not performed, the digger will die in the pit due to noxious gas. He must also not show any sign of fear the treasure will turn into rock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c10",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Tarapacá, it is said to look like a bivalve with a strong white-blue shine from within the shell, visible from one league away; this \"bivalve\" has acute hearing, quickly detects humans approaching and clams up inside its hard shell.",
+          "statement_id": "Di Tarapacá, konon ia tampak seperti kerang dengan cahaya putih kebiruan kuat dari dalam cangkangnya yang terlihat dari jarak satu liga; \"kerang\" itu sangat peka pendengarannya sehingga cepat mengetahui manusia mendekat dan mengatup di dalam cangkang kerasnya.",
+          "quote": "In Tarapacá, it is said to look like a bivalve with a strong white-blue shine from within the shell which can be observed from a distance 1 league away; this \"bivalve\" has an acute sense of hearing, so that it can quickly detect humans approaching, and clam up inside its hard shell",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c11",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to some, the carbuncle can be explained as a bivalve mollusk that glows because of bioluminescence from the \"cauquil\" (Noctiluca scintillans) or from fireflies.",
+          "statement_id": "Menurut sebagian orang, carbuncle dapat dijelaskan sebagai moluska bercangkang dua yang berpendar karena bioluminesensi \"cauquil\" (Noctiluca scintillans) atau kunang-kunang.",
+          "quote": "According to some, the carbuncle is explainable as a bivalve mollusk which glows because of bioluminescence from the \"cauquil\" (Noctiluca scintillans) or from fireflies.",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c12",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The chaplain and explorer Martín del Barco Centenera, in La Argentina (1602), called it Anagpitán and described it as \"a smallish animal, with a shining mirror on its head, like a glowing coal\".",
+          "statement_id": "Pendeta dan penjelajah Martín del Barco Centenera dalam La Argentina (1602) menyebutnya Anagpitán dan menggambarkannya sebagai \"hewan agak kecil, dengan cermin berkilau di kepalanya, seperti bara menyala\".",
+          "quote": "The chaplain and explorer Martín del Barco Centenera in La Argentina (1602) called it Anagpitán (recté Añagpitán; cf. anhangapitã below) and described it as \"a smallish animal, with a shining mirror on its head, like a glowing coal\".",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c13",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Descriptions of the animal vary, and \"no one ever saw it well enough to know whether it was a bird or a mammal, whether is had feathers or fur\".",
+          "statement_id": "Gambaran hewan ini beragam, dan \"tak seorang pun pernah melihatnya cukup jelas untuk tahu apakah ia burung atau mamalia, berbulu atau berbulu halus\".",
+          "quote": "The description of the animal vary; and \"no one ever saw it well enough to know whether it was a bird or a mammal, whether is had feathers or fur\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c14",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Carbuncle is a recurring character in the Final Fantasy role-playing game series and \"appears as a small creature\", fox-, cat-, rabbit- or squirrel-like with green or blue fur depending on the game.",
+          "statement_id": "Carbuncle adalah tokoh yang berulang dalam seri gim peran Final Fantasy dan \"tampil sebagai makhluk kecil\" mirip rubah, kucing, kelinci, atau tupai dengan bulu hijau atau biru, tergantung gimnya.",
+          "quote": "Carbuncle is a recurring character in the Final Fantasy series of role-playing games, and \"appears as a small creature, fox-, cat-, rabbit- or squirrel-like, with green or blue fur, depending on the game\".",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c15",
+          "source_id": "carbuncle-legendary-creature-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "According to this mythology dictionary, the animal carries a luminous tuft under its chin and is considered a guardian of treasures whose colors it takes on.",
+          "statement_id": "Menurut kamus mitologi ini, hewan itu membawa jumput cahaya di bawah dagunya dan dianggap penjaga harta yang warnanya ia tiru.",
+          "quote": "que lleva bajo la barbilla un mechon luminoso. Se le considera guardian de ... tesoros con cuyos colores se metamorfosea",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9ee7110a39e80ba986a8e0cde2d73be3ae178cf09156ca843db048341850c89e"
+      "images": []
     },
     {
       "slug": "chaneque",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "d18658ef10161d07a0695ff4ba423ae8dbc55a5fc975e8fd05dae081cc602107",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chaneque-c01",
@@ -2763,10 +2981,99 @@
           "quote": "In other instances, chaneques are said to intimidate intruders to the point where their souls leave their bodies.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chaneque-c05",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chaneques have a long history in Mexico, though they are represented differently by state; they appear in Mesoamerican legends and in documents written by the Spanish Inquisition.",
+          "statement_id": "Chaneque punya sejarah panjang di Meksiko, meski digambarkan berbeda menurut negara bagian; mereka ditemukan dalam legenda Mesoamerika dan dalam dokumen yang ditulis Inkuisisi Spanyol.",
+          "quote": "Chaneques have a long history in Mexico, although they are represented differently based on the state. They have been found in Mesoamerican legends, as well as in documents written by the Spanish Inquisition.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c06",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Villagers used to give chaneques offerings in exchange for protection, hoping they would guard the harvest and keep intruders or other evil beings out of their homes.",
+          "statement_id": "Penduduk desa dahulu memberi persembahan kepada chaneque sebagai imbalan perlindungan, dengan harapan mereka menjaga panen dan mencegah penyusup atau makhluk jahat lain masuk ke rumah.",
+          "quote": "Villagers used to give the chaneques offerings in exchange for protection. They hoped that the chaneques would protect their harvest and prevent intruders, or other evil beings, from entering their homes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c07",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another form of protection is wearing clothing inside out when traveling in the forest.",
+          "statement_id": "Bentuk perlindungan lain adalah mengenakan pakaian terbalik saat bepergian di hutan.",
+          "quote": "Another form of protection is wearing clothing inside out if traveling in the forest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c08",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chaneques are short and usually described as naked; they live in forests, rivers or caves and are connected to the earth and water.",
+          "statement_id": "Chaneque bertubuh pendek dan biasanya digambarkan telanjang; mereka tinggal di hutan, sungai, atau gua dan terhubung dengan tanah dan air.",
+          "quote": "Chaneques have short stature and are usually described as naked. They live in forests, rivers, or caves, and are connected to the earth and water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c09",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mexican folklore represents them both as evil creatures who want to cause harm and as good creatures who want to help; they can communicate with animals in the jungle since they provide protection, and may not always be visible to adults though children can generally see them.",
+          "statement_id": "Cerita rakyat Meksiko menggambarkan mereka baik sebagai makhluk jahat yang ingin mencelakai maupun makhluk baik yang ingin menolong; mereka dapat berkomunikasi dengan hewan di rimba karena memberi perlindungan, dan tidak selalu terlihat oleh orang dewasa tetapi umumnya terlihat oleh anak-anak.",
+          "quote": "Mexican folklore has represented them both as evil creatures who want to cause harm or good creatures who want to help. They can communicate with animals in the jungle since they provide protection. They may not always be visible to adults but children can generally see them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c10",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When angered, chaneques can be disruptive and physically hurt humans; in one example a chaneque threw a fistful of hay into the mouth of a prisoner.",
+          "statement_id": "Bila marah, chaneque dapat mengganggu dan melukai manusia secara fisik; dalam satu contoh, seorang chaneque melemparkan segenggam jerami ke mulut seorang tahanan.",
+          "quote": "When angered, Chaneques can be disruptive and physically hurt humans. In one example, the Chaneque threw a fistful of hay into the mouth of a prisoner.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c11",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Comparable mythical beings are found across Mesoamerican and Latin American folklore, often called \"duende\" in Spanish; in Yucatec Mayan folklore the Yucatán Peninsula tradition calls similar elemental entities \"aluxob\".",
+          "statement_id": "Makhluk mitos sebanding ditemukan di seluruh cerita rakyat Mesoamerika dan Amerika Latin, sering disebut \"duende\" dalam bahasa Spanyol; dalam cerita rakyat Maya Yukatek, tradisi Semenanjung Yucatán menyebut entitas elemental serupa \"aluxob\".",
+          "quote": "Comparable mythical beings are found across Mesoamerican and Latin American folklore, often referred to as \"duende\" in Spanish. Within Yucatec Mayan folklore, the Yucatán Peninsula's tradition identifies similar elemental entities as \"aluxob\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c12",
+          "source_id": "chaneque-s2",
+          "host": "politica.expansion.mx",
+          "statement": "According to a news report, President Andrés Manuel López Obrador recalled mythological beings such as the chaneque, the aluxe or mischievous duende, which he said look after the Bacalar lagoon.",
+          "statement_id": "Menurut laporan berita, presiden Andrés Manuel López Obrador menyebut makhluk mitologi seperti chaneque, aluxe, atau duende nakal, yang menurutnya menjaga laguna Bacalar.",
+          "quote": "el presidente Andrés Manuel López Obrador recordó a seres mitológicos como el chaneque, el aluxe o duende travieso, los cuales, aseguró, cuidan la laguna de Bacalar.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c13",
+          "source_id": "chaneque-s2",
+          "host": "politica.expansion.mx",
+          "statement": "According to the news report, in his morning press conferences he has also spoken of the importance of aluxes and chaneques, as they are part of Mexican popular culture.",
+          "statement_id": "Menurut laporan berita itu, dalam konferensi pagi ia juga menyatakan pentingnya aluxe dan chaneque karena keduanya bagian dari budaya populer Meksiko.",
+          "quote": "También en sus conferencias matutinas se ha pronunciado por la importancia de los aluxes y chaneques, ya que son parte de la cultura popular mexicana.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f079667429906c14ae86865e39f572089f49171a5f8d0a98a93998d1365d49e4"
+      "images": []
     },
     {
       "slug": "colo-colo-mythology",
@@ -2905,20 +3212,15 @@
     },
     {
       "slug": "cuero-legendary-creature",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "9775cf5f084924d23703c630da1e7d3b3666e6d1b60c3eb3edbe92b11eba5419",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cuero-legendary-creature-c01",
@@ -2949,27 +3251,151 @@
           "quote": "El Cuero dwells in the depths of rivers and lagoons.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c04",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most sources describe El Cuero as resembling an outstretched cowhide (or calfskin, or a donkey hide come to life) that envelops its prey, and many sources call it an octopus (pulpo) or cuttlefish (jibia).",
+          "statement_id": "Kebanyakan sumber menggambarkan El Cuero seperti kulit sapi yang terbentang (atau kulit anak sapi, atau kulit keledai yang hidup) yang menyelubungi mangsanya, dan banyak sumber menyebutnya gurita (pulpo) atau sotong (jibia).",
+          "quote": "Most sources agree in describing El Cuero as resembling an outstretched cowhide (or calfskin, or donkey hide come to life) which envelops its prey, and many sources call it an octopus (Spanish: pulpo), or cuttlefish (Spanish: jibia).",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "cuero-legendary-creature-c05",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Manta targets humans and animals entering the water, wraps around them and drags its prey to the bottom.",
+          "statement_id": "Manta mengincar manusia dan hewan yang masuk ke air, membelit, lalu menyeret mangsanya ke dasar air.",
+          "quote": "The Manta targets humans and animals entering water, wraps around, and drags its prey to the bottom of the water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c06",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The \"Trelquehuecuve\" evidently sunbathes: it crawls to the edge of a river or lagoon to receive the sun's warmth, and when it wishes to return it raises a whirlwind or whirlpool that shoves it back into the water.",
+          "statement_id": "\"Trelquehuecuve\" tampaknya berjemur: ia merangkak ke tepi sungai atau laguna untuk menerima hangat matahari, dan bila ingin kembali ia membangkitkan angin puyuh atau pusaran yang mendorongnya kembali ke air.",
+          "quote": "The \"Trelquehuecuve\" evidently engages in sunbathing on the beach: it crawls out to the edge of a river or lagoon to receive the warmth of sunlight, and when it wishes to return, it raises a whirwind or whirpool which will shove it back into water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c07",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a local legend, whoever steps on it feels something mossy and then dizziness (or drowsiness), and the pelt monster flips up its sides, which have numerous sharp nails and claws, envelops the victim and carries him to the depths.",
+          "statement_id": "Menurut legenda setempat, orang yang menginjaknya merasakan sensasi berlumut lalu pusing (atau mengantuk), dan monster kulit itu membalikkan sisi-sisinya yang berkuku dan bercakar tajam, menyelubungi korban, dan membawanya ke kedalaman.",
+          "quote": "When one steps on it, there is a mossy feel, but then experiences dizziness (or drowsiness), and the pelt monster flips up its sides equipped with numerous sharp nails and claws, and envelops the victim, carrying him to the depths.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c08",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Defeating a cuero may require the help of a machi, a wise woman; the machi plunges in the thorny calafate bush, the cuero pounces on it mistaking it for prey, is damaged by the thorns as it squeezes, and dies.",
+          "statement_id": "Untuk mengalahkan cuero mungkin diperlukan bantuan seorang machi, perempuan bijak; machi menancapkan semak berduri calafate, cuero menerkamnya karena mengira itu mangsa, terluka oleh durinya saat meremas, lalu mati.",
+          "quote": "But to defeat a cuero, the help of a machi wise woman may be required. The machi will use a method similar to the one already described, plunging the thorny bush of the calafate  (Berberis microphylla, Magellan barberry) and the cuero will pounce on it mistaking it for food prey, is damaged by the thorns as it squeezes, and it dies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c09",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The traditional capturing method uses a sort of natural fishing lure made of a \"thorny bush\" known in Chile as quisco, which usually refers to the cactus Echinopsis chiloensis.",
+          "statement_id": "Cara penangkapan tradisional memakai semacam umpan alami berupa \"semak berduri\" yang di Chile disebut quisco, yang biasanya merujuk pada kaktus Echinopsis chiloensis.",
+          "quote": "The traditional capturing method use a sort of natural fishing lure using a \"thorny bush\" known in Chile as quisco, which usually refers to the cactus Echinopsis chiloensis",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "cuero-legendary-creature-c10",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story \"The indio and the cuero\", the hero Ñanco defeats the cuero by fighting it with bunches of quisco cacti tied to his arms and legs, and the monster bleeds to death.",
+          "statement_id": "Dalam kisah \"The indio and the cuero\", sang pahlawan Ñanco mengalahkan cuero dengan melawannya memakai ikatan kaktus quisco di lengan dan kakinya, dan monster itu mati kehabisan darah.",
+          "quote": "In the story \"The indio and the cuero\", the hero Ñanco defeats the cuero by fighting it with bunches of quisco cacti tied to his arms and legs, and the monster bled out to death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c11",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The myth may have originated from the phenomenon of the remolino (whirlpool, whirlwind).",
+          "statement_id": "Mitos ini mungkin berasal dari fenomena remolino (pusaran air atau angin puyuh).",
+          "quote": "The myth may have originated from the phenomenon of the remolino (whirpool, whirlwind).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c12",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some have suggested the myth of \"La Manta\" may be connected to the manta ray or some other large ray.",
+          "statement_id": "Sebagian orang mengusulkan bahwa mitos \"La Manta\" mungkin terkait dengan pari manta atau pari besar lain.",
+          "quote": "Some have suggested the myth of \"La Manta\" may be connected to the manta ray or some other large ray.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c13",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "El Cuero is sometimes confused with the Guirivilo (nguruvilu), the \"fox-serpent\".",
+          "statement_id": "El Cuero kadang tertukar dengan Guirivilo (nguruvilu), \"ular-rubah\".",
+          "quote": "El Cuero is sometimes confused with the Guirivilo (nguruvilu), the \"fox-serpent\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c14",
+          "source_id": "cuero-legendary-creature-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "According to this mythology dictionary, the manta is a fabulous animal that lives in lagoons and rivers of southern Chile and appears as the hide of a bovine floating between two layers of water.",
+          "statement_id": "Menurut kamus mitologi ini, manta adalah hewan fantastis yang menghuni laguna dan sungai di Chile selatan, tampil seperti kulit sapi yang mengambang di antara dua lapisan air.",
+          "quote": "Animal fabuloso que habita lagunas y rios del sur de Chile. Se muestra como el pellejo de un vacuno, flotando entre dos aguas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c15",
+          "source_id": "cuero-legendary-creature-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "According to this mythology dictionary, some describe it with eyes along all its edges.",
+          "statement_id": "Menurut kamus mitologi ini, sebagian orang menggambarkannya bermata di sepanjang tepinya.",
+          "quote": "Algunos lo describen con ojos en todos sus bordes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c16",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also called manta (La Manta, \"the Blanket\") or \"manta del Diablo\".",
+          "statement_id": "Ia juga disebut manta (La Manta, \"selimut\") atau \"manta del Diablo\".",
+          "quote": "It is also called manta (La Manta, \"the Blanket\") or \"manta del Diablo\".",
+          "context": "traditional-belief",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "f0579dc95a20d1acfc3c0a749228ab165c9c29eb2f525d7cf914dec6c2a57597"
+      "images": []
     },
     {
       "slug": "el-silbon",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "9d42890a6ddb687e7c1be7d4899d39df1afbbeaf143b98a6ee123b744aea1992",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "el-silbon-c01",
@@ -3010,27 +3436,141 @@
           "quote": "He was nicknamed El Silbón because of his habit of whistling.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "el-silbon-c05",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the origin story, the son, in a drunken rage and without listening, brutally beat his father; when the father fell, he repeatedly shot him with a hunting rifle until killing him.",
+          "statement_id": "Dalam kisah asal-usulnya, sang anak yang mabuk dan marah memukuli ayahnya dengan brutal tanpa mau mendengar; ketika sang ayah jatuh, ia menembaknya berulang kali dengan senapan berburu sampai tewas.",
+          "quote": "In a drunken rage and without listening, the son brutally beat him; when the father fell to the ground, the son repeatedly shot him with a hunting rifle until killing him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c06",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As punishment, the boy's grandfather ordered him tied to a post in the countryside and whipped violently until his back was destroyed.",
+          "statement_id": "Sebagai hukuman, kakek anak itu memerintahkan agar ia diikat pada tiang di pedesaan dan dicambuk keras sampai punggungnya hancur.",
+          "quote": "As punishment, the boy's grandfather ordered him to be tied to a post in the countryside and whipped violently until his back was destroyed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c07",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After being released, he was set upon by two rabid, starving dogs, in some versions the Perros Tureco or Dogs of the Devil, which according to the legend will pursue him until the end of time; before that, his grandfather cursed him to carry his father's bones for all eternity and to wander forever.",
+          "statement_id": "Setelah dilepaskan, ia diserang dua anjing gila yang kelaparan, dalam sebagian versi disebut Perros Tureco atau Anjing Iblis, yang menurut legenda akan memburunya sampai akhir zaman; sebelumnya sang kakek mengutuknya agar memikul tulang ayahnya selamanya dan mengembara selama-lamanya.",
+          "quote": "After being released, he was set upon by two rabid, starving dogs—identified in some versions as the Perros Tureco or the Dogs of the Devil—which, according to the legend, will pursue him until the end of time. Before releasing him, his grandfather cursed him, condemning him to carry his father's bones for all eternity and to wander forever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c08",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has a characteristic whistle; it is said that when the whistling sounds close there is no danger and the whistler is far away, but when it sounds distant it is nearby.",
+          "statement_id": "Ia punya siulan khas; konon bila siulan terdengar dekat, tidak ada bahaya dan sang peniup jauh, tetapi bila terdengar jauh, berarti ia dekat.",
+          "quote": "It has a characteristic whistle. It is said that when the whistling sounds close, there's no danger, and the whistler is far away, but when the whistling sounds distant, it means it is nearby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c09",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also said that hearing the whistling foretells one's own death and may happen anywhere at any time; the only thing that can save the victim is a dog barking (the only thing it fears), a chili or a whip.",
+          "statement_id": "Konon mendengar siulannya meramalkan kematian sendiri dan dapat terdengar di mana saja kapan saja; satu-satunya yang dapat menyelamatkan korban adalah gonggongan anjing (satu-satunya yang ditakutinya), cabai, atau cambuk.",
+          "quote": "It is also said that hearing the whistling foretells one's own death, and one may hear it anywhere at any time. In this situation, the only thing that can save the victim is the sound of a dog barking (as it is the only thing it is afraid of), a chili, or a whip.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c10",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The spirit tends to take revenge on womanizers.",
+          "statement_id": "Roh itu cenderung membalas dendam pada para pemain perempuan (womanizer).",
+          "quote": "The spirit tends to take revenge on womanizers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c11",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to suck the alcohol out of drunkards through their navel when it finds them alone, and to tear womanizers to pieces, remove their bones and put them in the sack where it keeps its father's remains.",
+          "statement_id": "Konon ia menyedot alkohol dari pemabuk lewat pusarnya ketika menemukan mereka sendirian, dan mencabik para pemain perempuan, mencabut tulang mereka, lalu memasukkannya ke karung tempat ia menyimpan sisa jasad ayahnya.",
+          "quote": "It is said that it sucks the alcohol out of drunkards through their navel when it finds them alone and that it tears womanizers to pieces, removes their bones, and puts them in the sack where it keeps the remains of his father.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c12",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some versions say it appears as a giant of about six meters that moves about the treetops, creaking and emitting its chilling whistle.",
+          "statement_id": "Sebagian versi menyebutnya tampil sebagai raksasa setinggi sekitar enam meter yang bergerak di pucuk-pucuk pohon sambil berderit dan mengeluarkan siulan yang menyeramkan.",
+          "quote": "Some versions say it appears as a giant of about six meters that moves about the treetops, creaking, and emitting its chilling whistle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c13",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other versions say he appears as the shadow of a tall, thin man with a hat, and goes after drunkards most of all.",
+          "statement_id": "Versi lain menyebutnya tampil sebagai bayangan pria tinggi kurus bertopi yang paling sering memburu pemabuk.",
+          "quote": "Other versions say he appears as the shadow of a tall thin man, with a hat, and goes after drunkards most of all.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c14",
+          "source_id": "el-silbon-s2",
+          "host": "digitalcommons.unf.edu",
+          "statement": "According to this journal article's abstract, although the story is predominantly regarded as a ghost story to scare children, it hides many elements from the historical context in which it began to be popularized around the country.",
+          "statement_id": "Menurut abstrak artikel ilmiah ini, meski kisah ini terutama dianggap cerita hantu untuk menakuti anak, ia menyimpan banyak unsur dari konteks sejarah saat mulai dipopulerkan di seluruh negeri.",
+          "quote": "Even though the story is predominantly regarded as a ghost story to scare children, it hides many elements from the historical context of when it started to be popularized around the country.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c15",
+          "source_id": "el-silbon-s2",
+          "host": "digitalcommons.unf.edu",
+          "statement": "According to the abstract, beginning in Los Llanos (The Plains) of Venezuela, El Silbón reflects the effect that factors such as the Independence War and economic disparity had on the population, and exemplifies the purpose of oral tradition in sharing communal experiences and values with future generations.",
+          "statement_id": "Menurut abstrak itu, berawal dari Los Llanos di Venezuela, El Silbón mencerminkan pengaruh faktor seperti Perang Kemerdekaan dan kesenjangan ekonomi terhadap penduduk, dan menjadi contoh tujuan tradisi lisan untuk meneruskan pengalaman dan nilai bersama kepada generasi mendatang.",
+          "quote": "With a beginning in Los Llanos (The Plains) of Venezuela, El Silbón reflects the effect that factors such as the Independence War and economic disparity had on the population and exemplifies the purpose of Oral Tradition of sharing communal experiences and values with the future generations.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c16",
+          "source_id": "el-silbon-s2",
+          "host": "digitalcommons.unf.edu",
+          "statement": "According to the abstract, the urban legend of El Silbón has been present in Venezuelan folklore for centuries.",
+          "statement_id": "Menurut abstrak itu, legenda urban El Silbón telah hadir dalam cerita rakyat Venezuela selama berabad-abad.",
+          "quote": "The urban legend of El Silbón has been present in Venezuelan folklore for centuries.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a0e35774698fcdf1a11dff0d029b00546003cb414db3b480c63fccdc44b7092b"
+      "images": []
     },
     {
       "slug": "huay-chivo",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "321b8d3a67c4a5929b219c5d9cad65c36e35e42aa6a9a01885d0c55bd44df0fe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huay-chivo-c01",
@@ -3071,10 +3611,89 @@
           "quote": "Chivo is Spanish for goat, literally meaning sorcerer-goat",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c05",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Huay Chivo is specific to Guatemala and the southeastern Mexican states of Yucatán, Campeche and Quintana Roo; alleged activity is sporadically reported in the regional press.",
+          "statement_id": "Huay Chivo khas Guatemala serta negara bagian Meksiko tenggara Yucatán, Campeche, dan Quintana Roo; dugaan aktivitasnya sesekali dilaporkan di pers daerah.",
+          "quote": "The Huay Chivo is specific to Guatemala, the southeastern Mexican states of Yucatán, Campeche and Quintana Roo. Alleged Huay Chivo activity is sporadically reported in the regional press.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c06",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In recent times it has become associated with the chupacabras.",
+          "statement_id": "Belakangan ini ia dikaitkan dengan chupacabra.",
+          "quote": "In recent times, it has become associated with the chupacabras.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c07",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Local Maya near the town of Valladolid, Yucatán, believe the Huay Chivo is an evil sorcerer able to turn into a goat to do mischief and eat livestock.",
+          "statement_id": "Orang Maya setempat di dekat kota Valladolid, Yucatán, percaya Huay Chivo adalah penyihir jahat yang mampu berubah menjadi kambing untuk berbuat onar dan memakan ternak.",
+          "quote": "Local Maya near the town of Valladolid, in Yucatán, believe the Huay Chivo is an evil sorcerer that is capable of transforming into a goat to do mischief and eat livestock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c08",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "\"Huay\" or \"Uay\" comes from Waay in Yucatec Maya, meaning sorcerer, spirit or animal familiar, while Chivo is Spanish for goat, literally \"sorcerer-goat\"; it is also called Chivo Brujo, an entirely Spanish phrase with the same meaning.",
+          "statement_id": "\"Huay\" atau \"Uay\" berasal dari Waay dalam bahasa Maya Yukatek, berarti penyihir, roh, atau hewan peliharaan gaib, sedangkan Chivo adalah bahasa Spanyol untuk kambing, harfiah \"kambing penyihir\"; ia juga disebut Chivo Brujo, frasa sepenuhnya Spanyol dengan arti sama.",
+          "quote": "Huay or Uay comes from Waay in Yucatec Maya, meaning sorcerer, spirit or animal familiar, while Chivo is Spanish for goat, literally meaning sorcerer-goat; it is also known as the Chivo Brujo, an entirely Spanish phrase meaning the same thing.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c09",
+          "source_id": "huay-chivo-s2",
+          "host": "yucatantoday.com",
+          "statement": "According to this magazine article, in Yucatecan stories about transformation from human to animal form the term \"wáay\" appears: \"wáay chivo\", \"wáay pek\", \"wáay burro\".",
+          "statement_id": "Menurut artikel majalah ini, dalam kumpulan cerita Yucatán tentang perubahan dari manusia ke wujud hewan muncul istilah \"wáay\": \"wáay chivo\", \"wáay pek\", \"wáay burro\".",
+          "quote": "The experienced Yucatecan social anthropologist Carlos Augusto Evia Cervantes, in his first collection, shares the stories that explore the theme of transformation from human to animal form. In those stories the term \"wáay\" appears: \"wáay chivo\", \"wáay pek\", \"wáay burro\".",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c10",
+          "source_id": "huay-chivo-s2",
+          "host": "yucatantoday.com",
+          "statement": "In the story as told, one night as a young man was on his way to visit his beloved in the town of Mucuyché, a being appeared on the road that was half baby goat, half demon, black, with bulging and flashing eyes.",
+          "statement_id": "Dalam cerita yang dituturkan, suatu malam ketika seorang pemuda hendak mengunjungi kekasihnya di kota Mucuyché, muncul di jalan makhluk setengah anak kambing setengah iblis, berwarna hitam, bermata menonjol dan berkilat.",
+          "quote": "It is said that one night, when the young man was on his way to visit his beloved in the nearby town of Mucuyché, a being appeared on the road which was half baby goat, half demon, black in color, with bulging and flashing eyes.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c11",
+          "source_id": "huay-chivo-s2",
+          "host": "yucatantoday.com",
+          "statement": "In the story, the \"malix\" dog is ordered by its master to attack the sinister being while the young man takes ground basil and rue from his satchel to throw on the witch, who roars and twists with pain from the smell and touch of the herbs.",
+          "statement_id": "Dalam cerita itu, anjing \"malix\" diperintah tuannya menyerang makhluk jahat tersebut, sementara sang pemuda mengeluarkan kemangi dan rue giling dari tasnya untuk dilemparkan kepada si penyihir, yang mengaum dan menggeliat kesakitan oleh bau dan sentuhan ramuan itu.",
+          "quote": "The \"malix\" received from his master the order to attack the sinister being. While this took place, the young man removed ground basil and rue herbs from his satchel, in order to throw them upon the witch, who, in face of the smell and contact with the herbs, roared and twisted with pain.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c12",
+          "source_id": "huay-chivo-s2",
+          "host": "yucatantoday.com",
+          "statement": "According to witnesses in the story, the \"wáay chivo\" left a trail of blood all the way to the door of his house, where he turned into a human and died.",
+          "statement_id": "Menurut para saksi dalam cerita itu, \"wáay chivo\" meninggalkan jejak darah sampai ke pintu rumahnya; di sana ia berubah menjadi manusia dan mati.",
+          "quote": "According to witnesses, the \"wáay chivo\" left a trail of blood all the way to the door of his house. There he transformed into a human, and died.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b42973c2351dd338b86dd8045068c4e68fe353988d28e0df4e01a5505ada0820"
+      "images": []
     },
     {
       "slug": "idliragijenget",
@@ -3098,20 +3717,15 @@
     },
     {
       "slug": "iliamna-lake-monster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "b235737ac42078c94712e7032747cdf4a8544d206d59462a941158e68168d492",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "iliamna-lake-monster-c01",
@@ -3152,27 +3766,131 @@
           "quote": "The Anchorage Daily News once offered a prize of $100,000 for concrete proof of its existence.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c05",
+          "source_id": "iliamna-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Iliamna is derived from the Inland Dena'ina Athabascan name Nila Vena, meaning \"island's lake\".",
+          "statement_id": "Nama Iliamna berasal dari nama Athabaskan Dena'ina pedalaman, Nila Vena, yang berarti \"danau pulau\".",
+          "quote": "The name Iliamna is derived from the Inland Dena'ina Athabascan name Nila Vena, which means \"island's lake\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c06",
+          "source_id": "iliamna-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Iliamna Lake is the largest lake in Alaska, the 7th largest in the United States and twenty-fourth in North America.",
+          "statement_id": "Iliamna Lake adalah danau terbesar di Alaska, terbesar ketujuh di Amerika Serikat, dan kedua puluh empat di Amerika Utara.",
+          "quote": "It is the largest lake in Alaska, 7th largest lake in the United States, and twenty-fourth in North America.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c07",
+          "source_id": "iliamna-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jeremy Wade, presenter of Animal Planet's River Monsters, is among those who speculate the sightings of a reputed \"monster\" are of a white sturgeon; others believe it is a Pacific sleeper shark.",
+          "statement_id": "Jeremy Wade, pembawa acara River Monsters di Animal Planet, termasuk yang menduga penampakan \"monster\" ini adalah sturgeon putih; yang lain meyakininya hiu tidur Pasifik.",
+          "quote": "Jeremy Wade, presenter of Animal Planet's River Monsters, is among those who speculate these sightings of a reputed \"monster\" are of a white sturgeon. Others believe that it is a Pacific sleeper shark.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c08",
+          "source_id": "iliamna-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There were several new supposed sightings in 2017.",
+          "statement_id": "Ada beberapa dugaan penampakan baru pada 2017.",
+          "quote": "There were several new supposed sightings in 2017.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c09",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "According to a news report, numerous sightings of giant fish-like creatures in the lake have been reported since well before Alaska became a state; descriptions vary somewhat, but most witnesses say the creatures are dark colored, shark-like in appearance and 10 to 20 feet long.",
+          "statement_id": "Menurut laporan berita, sejak jauh sebelum Alaska menjadi negara bagian telah banyak dilaporkan penampakan makhluk raksasa mirip ikan di danau itu; deskripsinya agak beragam, tetapi kebanyakan saksi menyebutnya berwarna gelap, mirip hiu, dan panjang 10 sampai 20 kaki.",
+          "quote": "Since well before Alaska became a state, there have been numerous reported sightings of giant fish-like creatures in the lake. There’s some variation in descriptions, but most witnesses say the creatures are dark colored, shark-like in appearance and between 10 and 20-feet long.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c10",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "According to the news report, there is often more than one together and frequently the creatures are hunting.",
+          "statement_id": "Menurut laporan berita itu, sering ada lebih dari satu makhluk bersama-sama dan sering kali makhluk-makhluk itu sedang berburu.",
+          "quote": "Often there’s more than one together and frequently, the creatures are hunting.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c11",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "According to the news report, reports of the creatures' predatory behavior, herding seals into shallows to hunt them and preying upon schools of sockeye salmon, do not sound like a sturgeon.",
+          "statement_id": "Menurut laporan berita itu, laporan perilaku pemangsa makhluk tersebut, yakni menggiring anjing laut ke perairan dangkal untuk diburu dan memangsa kawanan salmon sockeye, tidak terdengar seperti sturgeon.",
+          "quote": "However, reports of the creatures’ predatory behavior — herding seals into shallows to hunt them and preying upon schools of sockeye salmon — don’t sound like a sturgeon.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c12",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "In one account recorded in the news report, one creature was the length and width of the hunters' 18-foot skiff with eyes the circumference of soccer balls, and the creatures looked like giant northern pike.",
+          "statement_id": "Dalam satu catatan yang dimuat laporan berita itu, seekor makhluk sepanjang dan selebar perahu 18 kaki milik para pemburu dengan mata sebesar bola sepak, dan tampak seperti pike utara raksasa.",
+          "quote": "One was the length and the width of their 18-foot skiff and had eyes the circumference of soccer balls. The creatures looked like giant northern pike.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c13",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "In 1980 the Anchorage Daily News offered a $100,000 reward over a five-month period for clear evidence of the monsters; no definitive proof has been made public, though sightings have been reported most years since.",
+          "statement_id": "Pada 1980 Anchorage Daily News menawarkan hadiah $100.000 selama lima bulan bagi siapa pun yang menunjukkan bukti jelas; belum ada bukti pasti diumumkan, meski penampakan dilaporkan hampir setiap tahun sejak itu.",
+          "quote": "In 1980, the Anchorage Daily News offered a $100,000 reward during a five-month period to anyone who presented clear evidence of the monsters. No definitive proof has been made public, though there have been sightings reported most years since.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c14",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "For years Wright theorized the monsters might be Pacific sleeper sharks adapted to freshwater; now he wonders if they might be a tiny population of gargantuan northern pike; others have theorized giant sturgeon.",
+          "statement_id": "Selama bertahun-tahun Wright menduga makhluk itu hiu tidur Pasifik yang beradaptasi di air tawar; kini ia bertanya-tanya apakah mereka populasi kecil pike utara raksasa; yang lain menduga sturgeon raksasa.",
+          "quote": "For years, Wright theorized that the monsters might be Pacific sleeper sharks that adapted to living in freshwater. Now, he’s wondering if they might be a tiny population of gargantuan northern pike. Others have theorized they’re giant sturgeon.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "iliamna-lake-monster-c15",
+          "source_id": "iliamna-lake-monster-s2",
+          "host": "www.juneauempire.com",
+          "statement": "In 2017, after several summers with no action, Stigar had an experience that convinced him the monsters were real: his 38-pound anchor on his longline set had been dragged 50 yards.",
+          "statement_id": "Pada 2017, setelah beberapa musim panas tanpa hasil, Stigar mengalami kejadian yang meyakinkannya bahwa monster itu nyata: jangkarnya seberat 38 pon terseret 50 yard dari tali pancing panjangnya.",
+          "quote": "In 2017, after several summers with no action, Stigar had an experience that convinced him the monsters were real. On that day he went to check his longline set and was surprised to see that his 38-pound anchor had been dragged 50 yards.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fbce820b4cbee58a5dcf4aaeb8939a0b70bb44c4e6897c8ed2edcfac3e0920d0"
+      "images": []
     },
     {
       "slug": "kalku",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "349c0c639bd4ed0b4794c4901c3cd9d75a73eaa7087096fbce02f2b1ca14fae5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kalku-c01",
@@ -3213,27 +3931,101 @@
           "quote": "The kalku also have as servants other beings such as the Anchimayen, or the Chonchon",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kalku-c05",
+          "source_id": "kalku-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word kalku is a borrowing from the Puquina language; its adoption by the Mapuche fits a pattern of parallels between Mapuche and Central Andean cosmology (Inca religion) dating back to the Tiwanaku Empire, when Puquina was an important language.",
+          "statement_id": "Kata kalku dipinjam dari bahasa Puquina; pengadopsiannya oleh orang Mapuche sesuai pola kesejajaran kosmologi Mapuche dan Andes Tengah (agama Inka) sejak masa Kekaisaran Tiwanaku, ketika Puquina menjadi bahasa penting.",
+          "quote": "The word kalku is a borrowing from Puquina language. Its adoption by Mapuches fits into a pattern of parallels in the Mapuche and Central Andean cosmology (Inca religion) dating back to the times of Tiwanaku Empire when Puquina was an important language.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c06",
+          "source_id": "kalku-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Mapuche kalku is usually an inherited role, although it could be a machi interested in lucrative ends or a \"less powerful\", frustrated machi who ignores the laws of the admapu (the rules of the Mapuche).",
+          "statement_id": "Kalku Mapuche biasanya peran turun-temurun, meski bisa juga seorang machi yang tertarik pada keuntungan atau machi yang \"kurang kuat\" dan frustrasi serta mengabaikan hukum admapu (aturan orang Mapuche).",
+          "quote": "A mapuche kalku is usually an inherited role, although it could be a machi that is interested in lucrative ends or a \"less powerful\", frustrated machi who ignores the laws of the admapu (the rules of the Mapuches).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c07",
+          "source_id": "kalku-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An example of a wekufe is the Nguruvilu.",
+          "statement_id": "Contoh wekufe adalah Nguruvilu.",
+          "quote": "An example of a wekufe is the Nguruvilu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c08",
+          "source_id": "kalku-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kalku is the main antagonist of the 2020 Annecy-nominated Chilean-Brazilian animated feature Nahuel and the Magic Book, created by Carburadores and German Acuna.",
+          "statement_id": "Kalku adalah antagonis utama film animasi Chile-Brasil Nahuel and the Magic Book, yang dinominasikan di Annecy 2020 dan dibuat oleh Carburadores dan German Acuna.",
+          "quote": "Kalku is the main antagonist of 2020 Annecy nominated Chilean-Brazilian featured animated film Nahuel and the Magic Book created by Carburadores and German Acuna.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c09",
+          "source_id": "kalku-s2",
+          "host": "www.everyculture.com",
+          "statement": "According to this encyclopedia, a kalku is both a sorcerer and a witch; kalkus, who are usually women, are trained in their arts by other kalkus.",
+          "statement_id": "Menurut ensiklopedia ini, kalku adalah penyihir sekaligus tukang tenung; kalku, yang biasanya perempuan, dilatih dalam ilmunya oleh kalku lain.",
+          "quote": "A kalku is both a sorcerer and a witch. Kalkus, who are usually women, are trained in their arts by other kalkus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c10",
+          "source_id": "kalku-s2",
+          "host": "www.everyculture.com",
+          "statement": "According to this encyclopedia, their powers are obtained through dreams and visions.",
+          "statement_id": "Menurut ensiklopedia ini, kekuatan mereka diperoleh lewat mimpi dan penglihatan.",
+          "quote": "Their powers are obtained through dreams and visions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c11",
+          "source_id": "kalku-s2",
+          "host": "www.everyculture.com",
+          "statement": "According to this encyclopedia, the forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy.",
+          "statement_id": "Menurut ensiklopedia ini, kekuatan jahat digerakkan ketika orang-orang yang iri meminta kalku memakai roh jahat untuk menyerang orang yang menjadi sasaran iri mereka.",
+          "quote": "The forces of evil are activated when envious people ask kalkus to use the evil spirits to attack persons who are the objects of their envy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalku-c12",
+          "source_id": "kalku-s2",
+          "host": "www.everyculture.com",
+          "statement": "According to this encyclopedia, the evil forces are called wekufe and are of three major types: natural phenomena, ghosts and those of zoomorphic form.",
+          "statement_id": "Menurut ensiklopedia ini, kekuatan jahat disebut wekufe dan terdiri atas tiga jenis utama: fenomena alam, hantu, dan yang berwujud hewan.",
+          "quote": "The evil forces are called wekufe and are of three major types: natural phenomena, ghosts, and those of zoomorphic form.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e562e339a35e88b90852772c42ee823675e50a9bbd13abeade90ff7ef463ba84"
+      "images": []
     },
     {
       "slug": "lady-in-red",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-3.md",
+      "entry_sha256": "93caccb521ec2c73c96b81e3ad84134f06b400e2c8836e88ed4993c442d57469",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lady-in-red-c01",
@@ -3264,10 +4056,149 @@
           "quote": "She is said to typically be friendly in disposition, with a story attached to historic hotels, theatres or other public places",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c04",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Weckesser building at Wilkes University in Wilkes-Barre, Pennsylvania, is reportedly haunted by a Lady in Red who, according to one witness, appears real until vanishing.",
+          "statement_id": "Gedung Weckesser di Wilkes University, Wilkes-Barre, Pennsylvania, konon dihantui Lady in Red yang menurut seorang saksi tampak nyata sampai menghilang.",
+          "quote": "At Wilkes University in Wilkes-Barre, Pennsylvania, the Weckesser building is reportedly haunted by a Lady in Red that according to one witness appears real until vanishing.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c05",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Charleston, South Carolina, near Dock Street Theatre, a Lady in Red is said to be the ghost of Nettie Dickerson, a prostitute who frequented the Planter's Hotel; at 25 she was standing in her red dress on the hotel balcony during a storm when she was struck by lightning and killed.",
+          "statement_id": "Di Charleston, South Carolina, dekat Dock Street Theatre, Lady in Red konon hantu Nettie Dickerson, pelacur yang sering mengunjungi Planter's Hotel; pada usia 25 tahun ia berdiri bergaun merah di balkon hotel saat badai dan tersambar petir hingga tewas.",
+          "quote": "In Charleston, South Carolina, near Dock Street Theatre, a Lady in Red is said to be the ghost of Nettie Dickerson, a prostitute who frequented the Planter's Hotel (now the historic French Quarter building). ... At the age of 25 she was standing in her red dress on the balcony of the hotel during a storm when she was struck by lightning and killed.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c06",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Chicago's Drake Hotel, a jealous woman in a blood-red dress took her life by jumping from the 10th floor (or the roof, as accounts vary); guests claim to see her last steps from the Gold Coast Room, the Palm Court and on the 10th floor.",
+          "statement_id": "Di Drake Hotel Chicago, seorang perempuan cemburu bergaun merah darah mengakhiri hidup dengan melompat dari lantai 10 (atau atap, tergantung versi); tamu mengaku melihat langkah terakhirnya dari Gold Coast Room, Palm Court, dan di lantai 10.",
+          "quote": "In Chicago's Drake Hotel, a jealous woman wearing a blood-red dress took her life after jumping from the 10th floor (or the roof, as accounts vary). Guests claim to see her in her last steps from the Gold Coast Room, the Palm Court, and on the 10th floor.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c07",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The fifth floor of the Mizpah Hotel in Nevada is known for a Lady in Red called \"Rose\" (her prostitute name) who died at the hands of a jealous lover.",
+          "statement_id": "Lantai lima Mizpah Hotel di Nevada dikenal karena Lady in Red bernama \"Rose\" (nama pelacurnya) yang tewas di tangan kekasih yang cemburu.",
+          "quote": "The fifth floor of the Mizpah Hotel in Nevada is known for a Lady in Red known as \"Rose\" (her prostitute name) who died at the hands of a jealous lover.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c08",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to one source, Rose's real name was Evelyn May Johnston, though there are no records confirming that a woman by that name existed at the time, or that a murder like the \"Red Lady\" crime ever took place in the hotel.",
+          "statement_id": "Menurut satu sumber, nama asli Rose adalah Evelyn May Johnston, tetapi tidak ada catatan yang menegaskan bahwa perempuan bernama itu ada pada masa itu, atau bahwa pembunuhan serupa kasus \"Red Lady\" pernah terjadi di hotel itu.",
+          "quote": "According to one source, Rose's real name, was Evelyn May Johnston, though there are no records to confirm that a woman by this name existed at that time, nor that a murder similar to the \"Red Lady\" crime ever took place in the hotel.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c09",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Toronto's Lower Bay transit station has been closed since 1966 but has numerous reports of a Lady in Red; according to witnesses the ghost appears distraught and glides without feet or eyes.",
+          "statement_id": "Stasiun transit Lower Bay di Toronto ditutup sejak 1966 tetapi punya banyak laporan Lady in Red; menurut saksi, hantu itu tampak terpukul dan meluncur tanpa kaki atau mata.",
+          "quote": "Toronto's Lower Bay transit station has been closed since 1966 but has numerous reports of a Lady in Red. According to witnesses, the ghost appears distraught as it glides without feet or eyes.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c10",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Red Lady is said to walk around the Church of St Nicholas in Pluckley, England, since the 12th century.",
+          "statement_id": "Seorang Red Lady konon berjalan di sekitar Gereja St Nicholas di Pluckley, Inggris, sejak abad ke-12.",
+          "quote": "A Red Lady is said to walk around the Church of St Nicholas in Pluckley, England since the 12th century.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c11",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Thailand there is a story of a Lady in Red believed to be the spirit of a woman who drowned in the Bang Pakong River; witnesses report seeing her while driving across the Bang Pakong River Bridge at night.",
+          "statement_id": "Di Thailand ada kisah Lady in Red yang dipercaya roh perempuan yang tenggelam di Sungai Bang Pakong; saksi melaporkan melihatnya saat berkendara melintasi Jembatan Sungai Bang Pakong pada malam hari.",
+          "quote": "In Thailand, there is a story of a Lady in Red, believed to be the spirit of a woman who drowned in the Bang Pakong River. Witnesses have reported seeing her while driving across the Bang Pakong River Bridge at night.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c12",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the film Crimson Peak, Allerdale Hall is haunted by Red Lady ghosts whose red color comes from being buried in red clay vats.",
+          "statement_id": "Dalam film Crimson Peak, Allerdale Hall dihantui hantu Red Lady yang warna merahnya berasal dari dikubur dalam bak tanah liat merah.",
+          "quote": "In the film Crimson Peak, Allerdale Hall is haunted by Red Lady ghosts whose red color comes from being buried in red clay vats.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c13",
+          "source_id": "lady-in-red-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Korean drama series The Ghost Detective is named for a Lady in Red who accompanies the main character in solving crimes.",
+          "statement_id": "Serial drama Korea The Ghost Detective dinamai menurut Lady in Red yang menemani tokoh utama memecahkan kejahatan.",
+          "quote": "Korean drama series The Ghost Detective is named for a Lady in Red that accompanies the main character in solving crimes.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c14",
+          "source_id": "lady-in-red-s2",
+          "host": "www.historichotels.org",
+          "statement": "According to the Historic Hotels of America article, many men visiting the Mizpah Hotel report hearing an incorporeal voice whispering sweet nothings in their ears, especially in the fancy elevator the Lady in Red used to escort her visitors from the lobby to her chambers.",
+          "statement_id": "Menurut artikel Historic Hotels of America, banyak pria yang menginap di Mizpah Hotel melaporkan mendengar suara tanpa wujud membisikkan rayuan di telinga mereka, terutama di lift mewah yang dulu dipakai Lady in Red mengantar tamunya dari lobi ke kamarnya.",
+          "quote": "In spite of her brutal end, many men visiting the Mizpah Hotel have reported hearing an incorporeal voice whispering sweet nothings in their ears—especially in that fancy elevator, which the Lady in Red used to escort her visitors from the lobby to her chambers.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c15",
+          "source_id": "lady-in-red-s2",
+          "host": "www.historichotels.org",
+          "statement": "According to the article, hundreds of guests have awakened to find a pearl beneath their pillows, supposedly from her necklace, which broke and spilled onto the floor in her tragic scuffle.",
+          "statement_id": "Menurut artikel itu, ratusan tamu terbangun dan menemukan mutiara di bawah bantal mereka, konon dari kalungnya yang putus dan berserakan di lantai saat pergumulan tragisnya.",
+          "quote": "In addition, hundreds of guests have awakened to discover a pearl beneath their pillows—supposedly from her necklace, which broke and spilled onto the floor in her tragic scuffle.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c16",
+          "source_id": "lady-in-red-s2",
+          "host": "www.historichotels.org",
+          "statement": "According to the article, her origins and true identity are lost to history (many accounts suggest she went by just \"Rose\"), but she was said to be kind, welcoming and generous, and evidently still is.",
+          "statement_id": "Menurut artikel itu, asal-usul dan identitas aslinya hilang ditelan sejarah (banyak catatan menyebutnya hanya \"Rose\"), tetapi ia dikatakan baik, ramah, dan murah hati, dan tampaknya masih demikian.",
+          "quote": "Although the Lady in Red’s origins and true identity are lost to history (many accounts suggest she went, appropriately, by just “Rose”), she was said to be kind, welcoming, and generous—and, evidently, still is.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lady-in-red-c17",
+          "source_id": "lady-in-red-s2",
+          "host": "www.historichotels.org",
+          "statement": "According to the article, her story ended when an ex-lover, possibly a former patron, stabbed and strangled her in a fit of jealous rage.",
+          "statement_id": "Menurut artikel itu, kisahnya berakhir ketika mantan kekasih, mungkin bekas pelanggan, menusuk dan mencekiknya dalam amarah cemburu.",
+          "quote": "At least until an ex-lover, possibly a former patron, stabbed and strangled her in a fit of jealous rage.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e289c398866e01b8e14161e5964ac1a8e03d8066c0dea736551457cef68fa280"
+      "images": []
     },
     {
       "slug": "lake-worth-monster",

@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-06T15:22:08.023Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md.
+Diperiksa 2026-10-06T19:30:27.357Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -206,24 +206,24 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## shangyang — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shangyang-c01 | exact | en.wikipedia.org | Shangyang is a Chinese mythological bird capable of predicting rain. | The Shangyang (商羊), (or shang yang) in Chinese mythology was a rainbird (i.e. it could predict rain). It was one of several important mythical birds in this tradition. The Shangyang was particularly associated with the Lord of Rain, Yu Shi. Once, the Shangyang was said to have visited the royal court of Qi, where it danced on one leg. |
 | shangyang-c02 | exact | en.wikipedia.org | This creature is associated with Yu Shi, the Lord of Rain. | The Shangyang (商羊), (or shang yang) in Chinese mythology was a rainbird (i.e. it could predict rain). It was one of several important mythical birds in this tradition. The Shangyang was particularly associated with the Lord of Rain, Yu Shi. Once, the Shangyang was said to have visited the royal court of Qi, where it danced on one leg. |
 | shangyang-c03 | exact | en.wikipedia.org | One account describes it dancing on one leg at the court of Qi. | The Shangyang (商羊), (or shang yang) in Chinese mythology was a rainbird (i.e. it could predict rain). It was one of several important mythical birds in this tradition. The Shangyang was particularly associated with the Lord of Rain, Yu Shi. Once, the Shangyang was said to have visited the royal court of Qi, where it danced on one leg. |
+| shangyang-c04 | exact | en.wikipedia.org | Confucius, who was familiar with the Shangyang, predicted heavy rain and advised the people to dig drainage channels and build dikes; by following this advice Qi avoided the flood that followed, while other states that ignored it were heavily damaged. | Confucius, who was familiar with the Shangyang, predicted heavy rain and advised the people to dig drainage channels and build dikes. By following the sage's advice, Qi avoided the disaster caused by a subsequent flood, while other states that ignored this advice were heavily damaged. |
+| shangyang-c05 | exact | en.wikipedia.org | This legendary incident has often been used to illustrate the foolishness of those who ignore wise advice. | This legendary incident has often been used to illustrate the foolishness of those who ignore wise advice. |
+| shangyang-c06 | exact | en.wikipedia.org | The mythographer Lihui Yang instead associates Yu Shi with the Bi Fang bird. | Mythographer Lihui Yang associates Yu Shi with the Bi Fang bird, instead. |
+| shangyang-c07 | exact | zh.wikisource.org | In this classical text, a one-legged bird (一足之鳥) flies into the court of Qi (齊), lands before the hall, and hops with spread wings; the Marquis of Qi (齊侯) is astonished and sends an envoy to Lu (魯) to ask Confucius (孔子). | 齊有一足之鳥，飛集於宮朝，下止於殿前，舒翅而跳。齊侯大怪之，使使聘魯，問孔子。 |
+| shangyang-c08 | exact | zh.wikisource.org | Confucius (孔子) says the bird is named Shangyang (商羊), a water omen (水祥); children once bent one leg, knitted their brows, and hopped singing "Heaven will send great rain, the Shangyang dances", and now that Qi has it, the sign has arrived. | 孔子曰：「此鳥名曰商羊，水祥也。昔童兒有屈其一腳，振訊兩眉，而跳且謠曰：『天將大雨，商羊鼓舞。』今齊有之，其應至矣。」 |
+| shangyang-c09 | exact | zh.wikisource.org | The people were told urgently to repair ditches and dikes because a great flood was coming; soon heavy rain fell, water overflowed many states and harmed the people, but only Qi (齊), which had prepared, was not ruined. | 急告民趨治溝渠，修堤防，將有大水為災。頃之大霖雨，水溢泛諸國，傷害民人。唯齊有備，不敗。 |
 
 
 ## shunfeng-er — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -232,6 +232,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | shunfeng-er-c03 | exact | en.wikipedia.org | Shunfeng Er and Shen Feng Er are alternative spellings of his name. | It also appears as Shunfeng Er and Shen Feng Er. His partner Qianliyan's name similarly means "Sharp-Eyed" or "All-Seeing". |
 | shunfeng-er-c04 | exact | en.wikipedia.org | In the Ming period, he was also known as Shi Kuang. | Under the Ming, Shunfeng'er was also known as Shi Kuang. He is also sometimes known as Wanli'er, which has similar meaning, as the Chinese word wàn—like the English "myriad"—simultaneously means the number 10,000 and "innumerable" or "uncountably vast". |
 | shunfeng-er-c05 | exact | en.wikipedia.org | Journey to the West presents him as the personified ears of the Jade Emperor. | Shunfeng'er is first attested in the early-16th century novel Journey to the West, where he appears as the personified form of the Taoist Jade Emperor's ears and one of his lieutenants. There is, however, an earlier depiction of him in a Sichuan cave which has been dated to the Southern Song. |
+| shunfeng-er-c06 | exact | en.wikipedia.org | Shunfeng'er's sharp hearing is used to help sailors tell favorable winds from coming storms; in some accounts he can hear everything in the world however quietly spoken, and was therefore also worshipped as a witness and guarantor of oaths and contracts. | Shunfeng'er's sharp hearing is employed to help sailors distinguish favorable winds from coming storms. In some accounts, he is capable of hearing everything in the world, no matter how quietly spoken, and was therefore also worshipped as a witness and guarantor of oaths and contracts. |
+| shunfeng-er-c07 | exact | en.wikipedia.org | Shunfeng'er is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu. | Shunfeng'er is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu. |
+| shunfeng-er-c08 | exact | en.wikipedia.org | By one account, he and Qianliyan appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their ears and eyes; after submitting they pledged loyalty when she healed the damage she had caused. | By one account, he and Qianliyan appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their ears and eyes. After their submission, they pledged their loyalty when she kindly healed them of the damage she had caused them. |
+| shunfeng-er-c09 | exact | en.wikipedia.org | In another account the two were the brothers Gao Jue and Gao Ming, ruthless generals who fell at Peach Blossom Mountain and subsequently haunted it as demons. | In another, the two were the brothers Gao Jue and Gao Ming. Ruthless generals, they fell at Peach Blossom Mountain and subsequently haunted it as demons. |
+| shunfeng-er-c10 | exact | en.wikipedia.org | Shunfeng'er typically appears as a red- or brown-skinned demon cupping a hand to one of his ears, and occasionally with three heads and six arms. | Shunfeng'er typically appears as a red- or brown-skinned demon cupping a hand to one of his ears. He also occasionally appears with three heads and six arms. |
+| shunfeng-er-c11 | exact | tcmb.culture.tw | In folk myth, the two guardian gods who observe and listen to the affairs of the world for Mazu (媽祖) are 千里眼 (also called 金精將軍) and 順風耳 (also called 水精將軍). | 在民間的神話傳說中，替媽祖察聽世情的兩大駕前護衛神分別為千里眼（又稱金精將軍）與順風耳（又稱水精將軍）。 |
+| shunfeng-er-c12 | exact | tcmb.culture.tw | In Mazu (媽祖) temples, 千里眼 and 順風耳 stand on Mazu's left and right; 順風耳 raises a hand to his ear in a listening pose, using his boundless hearing to scout everything in the world for Mazu, and the other hand holds a weapon. | 在媽祖廟裡，千里眼和順風耳分別站立於媽祖的左右兩側 ... 而順風耳則手舉至側耳做聽音狀的姿態，以其無遠弗屆的聽力，為媽祖偵聽世上的一切事物。祂們的另一手則持有兵器。 |
+| shunfeng-er-c13 | exact | tcmb.culture.tw | Legends about 千里眼 and 順風耳 differ, but generally they were originally spirit-monsters on Peach Blossom Mountain (桃花山) with fierce faces who frightened residents and often disturbed the area and harmed the people, until Mazu (媽祖) subdued them and they became her attendant generals. | 關於千里眼和順風耳的傳說不一，總的來說，祂們原來是在桃花山上的妖精，不僅面貌猙獰，使居民恐懼外，更時常擾亂地方、為害百姓。最後為媽祖收伏，成為隨駕將軍。 |
+| shunfeng-er-c14 | exact | tcmb.culture.tw | In Mazu (媽祖) processions, besides Mazu's palanquin one always sees two great generals, one green and one red, who are Mazu's left and right protectors, 千里眼 and 順風耳. | 在媽祖出巡的陣頭中，除了媽祖鑾轎外，我們總會看見一綠一紅的大將軍，這就是媽祖的左右護法──千里眼和順風耳。 |
+| shunfeng-er-c15 | exact | zh.wikisource.org | This classical text says the evil creature is the peach spirit and willow ghost of Mount Qipan (棋盤山), and that in the Xuanyuan temple (軒轅廟) there are clay ghost attendants named 千里眼 and 順風耳; the two monsters borrow their spiritual power so that the eyes can see a thousand li and the ears can hear a thousand li, but they cannot see or hear beyond a thousand li. | 此業障是棋盤山桃精、柳鬼 ... 今棋盤山有軒轅廟，廟內有泥塑鬼使，名曰千里眼，順風耳；二怪托其靈氣，目能觀看千里，耳能詳聽千里；千里之外，不能視聽也。 |
+| shunfeng-er-c16 | exact | zh.wikisource.org | In this classical text, Jiang Ziya (姜子牙) is advised to send people to Mount Qipan (棋盤山) to dig up and burn the peach and willow roots and to smash the clay bodies of the two ghosts in the Xuanyuan temple (軒轅廟) in order to cut the root of their spiritual power. | 你可叫姜子牙著人往棋盤山去，將桃、柳根盤掘挖，用火焚盡；將軒轅廟二鬼泥身打碎，以絕其靈氣之根 |
 
 
 ## tam-kung — lulus-otomatis
@@ -250,10 +261,7 @@ Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
 
 ## teng-mythology — lulus-otomatis
 
-Klaim 4 (exact 1, loose 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 5, loose 4), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -261,14 +269,16 @@ Klaim 4 (exact 1, loose 3), sumber 1, gambar 0.
 | teng-mythology-c02 | loose | en.wikipedia.org | Tengshe may denote a flying-dragon snake or soaring snake. | This legendary creature's names include teng (螣; "a flying dragon") and tengshe (螣蛇; "flying-dragon snake" or 騰蛇; "soaring snake"). |
 | teng-mythology-c03 | loose | en.wikipedia.org | The teng character combines a phonetic component with an insect component. | The Chinese character 螣 for teng graphically combines a phonetic element of zhen (朕) with the "insect radical" 虫. This radical is typically used in characters for insects, worms, reptiles, and dragons, such as in shen (蜃; "a sea-monster dragon") or jiao (蛟; "an aquatic dragon"). |
 | teng-mythology-c04 | loose | en.wikipedia.org | Guo Pu's Erya commentary describes it drifting through clouds and mist. | The (3rd–2nd centuries BCE) Erya dictionary (16) defines teng (螣) as tengshe (螣蛇; "teng-snake"), and Guo Pu's commentary glosses it as a "[飛龍; feilong] flying dragon that drifts in the clouds and mist". |
+| teng-mythology-c05 | exact | en.wikipedia.org | From the original "flying dragon; flying serpent" meaning, tengshe acquired three further meanings: "an asterism" in traditional Chinese star names, "a battle formation" in Chinese military history, and "lines above the mouth" in physiognomy. | From the original "flying dragon; flying serpent" denotation, tengshe acquired three additional meanings: "an asterism" in Traditional Chinese star names, "a battle formation" in Chinese military history, and "lines above the mouth" in physiognomy. |
+| teng-mythology-c06 | loose | en.wikipedia.org | The Confucianist Xunzi first records the Classical Chinese idiom tengshe wuzu er fei, "flying dragon is without feet yet flies", which figuratively means "success results from concentrating on one's abilities". | Confucianist Xunzi ... first records the Classical Chinese idiom tengshe wuzu er fei ... "flying dragon is without feet yet flies", which figuratively means "success results from concentrating on one's abilities". |
+| teng-mythology-c07 | exact | en.wikipedia.org | In the Huainanzi, the ascending snake (tengshe) can drift in the mist yet is endangered by the centipede. | Huainanzi uses both tengshe graphic variants ... The ascending snake can drift in the mist, yet it is endangered by the centipede. |
+| teng-mythology-c08 | exact | en.wikipedia.org | The Bencao Gangmu (1578) mentions flying snakes without feet such as the 螣蛇 (T'eng She); its commentary says the t'eng-she changes into a dragon, and this divine snake can ride the clouds and fly over a thousand miles. | The (1578 CE) Bencao Gangmu ... "There are flying snakes without feet such as the 螣蛇 (T'eng She)." ... The t'eng-she changes into a dragon. This divine snake can ride upon the clouds and fly about over a thousand miles. |
+| teng-mythology-c09 | exact | zh.wikisource.org | Shenzi (慎子) says the flying dragon (飛龍) rides the clouds and the rising snake (騰蛇) wanders in the mist, but when clouds disperse and mist clears, the dragon and snake become the same as earthworms and ants because they lose what they ride. | 慎子曰：飛龍乘雲，騰蛇遊霧，雲罷霧霽，而龍蛇與螾螘同矣，則失其所乘也。 |
 
 
 ## tianma — lulus-otomatis
 
-Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -276,28 +286,32 @@ Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
 | tianma-c02 | loose | en.wikipedia.org | Its portrayal sometimes includes composite features such as dragon scales. | The Tianma is a flying horse that was sometimes depicted with chimerical features such as dragon scales and was at times attributed the ability to sweat blood, possibly inspired by the parasite Parafilaria multipapillosa, which infected the highly sought-after Ferghana horse (大宛馬), sometimes conflated with Tianma. |
 | tianma-c03 | loose | en.wikipedia.org | The blood-sweating attributed to Tianma may be inspired by parasites on Ferghana horses. | The Tianma is a flying horse that was sometimes depicted with chimerical features such as dragon scales and was at times attributed the ability to sweat blood, possibly inspired by the parasite Parafilaria multipapillosa, which infected the highly sought-after Ferghana horse (大宛馬), sometimes conflated with Tianma. |
 | tianma-c04 | exact | en.wikipedia.org | In Western Zhou usage, Tianma also referred to a constellation. | In the Western Zhou Empire, Tianma referred to a constellation. Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo. The bronze statue Flying Horse of Gansu is a well-known example. |
+| tianma-c05 | exact | en.wikipedia.org | According to the article, Tianma, the flying horse, is clearly connected to Pegasus from Western Han dynasty artwork and Tang dynasty sources, as coming from Hellenized Central Asia. | Tianma, the flying horse, is clearly connected to Pegasus from the Western Han dynasty artwork and in the Tang dynasty sources, as coming from Hellenized Central Asia. |
+| tianma-c06 | exact | en.wikipedia.org | Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo; the bronze statue Flying Horse of Gansu is a well-known example. | Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo. The bronze statue Flying Horse of Gansu is a well-known example. |
+| tianma-c07 | exact | zh.wikisource.org | In this classical history text, the emperor (天子) consults a text that says "divine horses will come from the northwest"; good Wusun (烏孫) horses are named "天馬", and after obtaining stronger blood-sweating (汗血) Dayuan (大宛) horses, the Wusun horses are renamed "西極" and the Dayuan horses are named "天馬". | 初，天子發書易，云「神馬當從西北來」。得烏孫馬好，名曰「天馬」。及得大宛汗血馬，益壯，更名烏孫馬曰「西極」，名大宛馬曰「天馬」云。 |
+| tianma-c08 | exact | zh.wikisource.org | This classical history text says Dayuan (大宛) lies southwest of the Xiongnu and due west of Han, has many fine horses that sweat blood (馬汗血), and that their ancestor was the offspring of the heavenly horse (天馬子). | 大宛在匈奴西南，在漢正西，去漢可萬里 ... 多善馬，馬汗血，其先天馬子也。 |
+| tianma-c09 | exact | zh.wikisource.org | A hymn in this classical text says the heavenly horse (天馬) descends with red sweat (赤汗) and ochre-colored foam, crosses ten thousand li (萬里), and has the dragon as friend (龍為友); its annotation says it was composed in the third year of Yuanshou (元狩三年) when a horse was born in the Wowa water (渥洼水). | 太一況，天馬下，霑赤汗，沬流赭。志俶儻，精權奇，逦浮雲，晻上馳。體容與，迣萬里，今安匹，龍為友。〈元狩三年馬生渥洼水中作。〉 |
+| tianma-c10 | exact | zh.wikisource.org | Another hymn says the heavenly horse (天馬) comes from the far west (西極), crosses the flowing sands, emerges from spring water, has a tiger-like spine (虎脊), and transforms like a ghost or spirit (化若鬼). | 天馬徠，從西極，涉流沙，九夷服。天馬徠，出泉水，虎脊兩，化若鬼。 |
+| tianma-c11 | exact | zh.wikisource.org | The next hymn says the heavenly horse (天馬) comes toward Kunlun (昆侖), acts as the dragon's matchmaker or guide (龍之媒), roams the gate of heaven (閶闔) and views the jade terrace (玉臺); its annotation says it was composed in the fourth year of Taichu (太初四年) when the king of Dayuan (宛王) was executed and Dayuan horses were obtained. | 天馬徠，開遠門，竦予身，逝昆侖。天馬徠，龍之媒，游閶闔，觀玉臺。〈太初四年誅宛王獲宛馬作。〉 |
 
 
 ## yuqiang — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yuqiang-c01 | exact | en.wikipedia.org | Yuqiang is a deity of the north sea and wind in Chinese mythology. | Yuqiang (Chinese: 禺强, alternatively Yujiang 禺疆 or Yujing 禺京), in Chinese mythology is one of the descendants of Huang Di, the "Yellow Emperor". Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god. |
 | yuqiang-c02 | exact | en.wikipedia.org | Accounts identify him as a Yellow Emperor descendant and Yuhao's son. | Yuqiang (Chinese: 禺强, alternatively Yujiang 禺疆 or Yujing 禺京), in Chinese mythology is one of the descendants of Huang Di, the "Yellow Emperor". Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god. |
 | yuqiang-c03 | exact | en.wikipedia.org | Some Shanhaijing accounts give him a bird body and human face, with serpents supporting his feet in travel. | Some accounts (Shanhaijing chapters 8 and 17) describe Yuqiang as having the body of a bird and the face of a human being, with a serpent mount for each foot that facilitated his travels. |
+| yuqiang-c04 | exact | zh.wikisource.org | This classical text says 禺彊 (Yuqiang) of the north has a human face and bird body, wears two green snakes (青蛇) as earrings and treads on two green snakes. | 有青獸焉，狀如虎，名曰羅羅。 ... 北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇。 |
+| yuqiang-c05 | exact | zh.wikisource.org | Another classical text says that on an islet in the North Sea (北海) there is a god with a human face and bird body, with two green snakes (青蛇) at his ears and two red snakes (赤蛇) under his feet, named 禺彊 (Yuqiang); the preceding sentence mentions the Daner country (儋耳之國) of the Ren (任) surname, descended from Yuhao (禺號). | 有儋耳之國，任姓，禺號子，食榖。北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊。 |
+| yuqiang-c06 | exact | zh.wikisource.org | In this classical text's list of those who "obtained it" (得之), 禺強 (Yuqiang) is said to stand at the North Pole (北極), alongside the Yellow Emperor (黃帝), who ascended the clouded heavens, Zhuanxu (顓頊), who dwells in the Dark Palace, and the Queen Mother of the West (西王母), who sits at Shaoguang (少廣). | 黃帝得之，以登雲天；顓頊得之，以處玄宮；禺強得之，立乎北極；西王母得之，坐乎少廣 |
 
 
 ## ao-bing — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -306,58 +320,69 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ao-bing-c03 | exact | en.wikipedia.org | Ao Bing serves as an antagonist in the Nezha tale. | Ao Bing (Chinese: 敖丙; pinyin: Áo Bǐng) is a character in the classic Chinese novel Investiture of the Gods (Fengshen Yanyi). He is a dragon prince and the third son of Ao Guang, the Dragon King of the East Sea. Ao Bing is a major antagonist in the Nezha story. He is often shown as arrogant, spoiled, and cruel, abusing his power as a dragon prince. |
 | ao-bing-c04 | exact | en.wikipedia.org | Ao Bing dwells in the Crystal Palace with his older brothers Ao Jia and Ao Yi. | The third son of Ao Guang, the Dragon King of the East Sea, Ao Bing lives in the Crystal Palace with his brothers, Ao Jia and Ao Yi. Both of them are older than him. |
 | ao-bing-c05 | exact | en.wikipedia.org | In the granting of divine titles after Shang's defeat, he becomes the god of Huagai xing. | After the Shang dynasty's defeat, when Jiang Ziya conferred god titles, he was appointed as the god of Huagai xing |
+| ao-bing-c06 | exact | en.wikipedia.org | Ao Bing was originally revered as a rain god who would bestow rain at his command on anyone in need, but over time his father became corrupt and the people lived in fear of the stormy malevolence of Ao Guang and his three sons. | Ao Bing was originally revered as a rain god who would bestow the rain at his command upon any individual in need, but, as time passed, his father became corrupt, and soon the people were living in fear of the stormy malevolence of Ao Guang and his three sons. |
+| ao-bing-c07 | exact | en.wikipedia.org | According to folklore, when Nezha caused havoc in the East Sea he used the Universe Ring (Qiankun Quan) to kill the white dragon Ao Bing; later the immortal Taiyi Zhenren revived Ao Bing using tendon-relaxing vines and white pine bark. | According to folklore, when Nezha caused havoc in the East Sea, he used the Universe Ring (Qiankun Quan) to kill the white dragon, Ao Bing. Later, the immortal Taiyi Zhenren revived Ao Bing using tendon-relaxing vines and white pine bark. |
+| ao-bing-c08 | exact | en.wikipedia.org | In Taoist traditions and folk beliefs, Ao Bing is worshiped as a folk deity and enshrined in some temples dedicated to the Dragon Kings of the Four Seas. | In Taoist traditions and folk beliefs, Ao Bing is worshiped as a folk deity and enshrined in some temples dedicated to the Dragon Kings of the Four Seas. |
+| ao-bing-c09 | exact | en.wikipedia.org | Ao Bing appears as a major character in the animated films Ne Zha (2019) and Ne Zha 2 (2025). | Ao Bing appears as a major character in the animated films Ne Zha (2019) and Ne Zha 2 (2025) |
+| ao-bing-c10 | exact | zh.wikisource.org | In this classical text, the third prince of the Dragon King (龍王三太子) Ao Bing (敖丙) steps forward and tells his father he will go and seize the culprit; he musters dragon soldiers, rides a water-forcing beast (逼水獸) with a painted halberd (畫杆戟), and goes out of the Crystal Palace (水晶宮). | 只見龍王三太子敖丙出來，口稱：「父王，為何大怒？」 ... 三太子曰：「父王請安。孩兒出去拿來便是。」忙調龍兵，上了逼水獸，提畫杆戟，逕出水晶宮來。 |
+| ao-bing-c11 | exact | zh.wikisource.org | In this classical text Ao Bing (敖丙) declares himself the third prince (三太子) of the Dragon Lord of the East Sea (東海龍君); Nezha (哪吒) replies that he is Ao Guang's (敖光) son and is arrogant (妄自尊大). | 敖丙曰：「孤乃東海龍君三太子敖丙是也。」哪吒笑曰：「你原來是敖光之子。你妄自尊大。 |
+| ao-bing-c12 | exact | zh.wikisource.org | In this classical text, Nezha (哪吒) spreads his seven-foot Hun Tian scarf (七尺混天綾), like a thousand lumps of fire, and wraps the prince off his beast; he then steps on Ao Bing's (敖丙) neck and strikes his crown with the Qiankun Ring (乾坤圈), so that the prince's original body shows as a dragon lying stretched on the ground. | 哪吒急了，把七尺混天綾望空一展，似火塊千團，往下一裹，將三太子裹下逼水獸來。哪吒搶一步趕上去，一腳踏住敖丙的頸項，提起乾坤圈，照頂門一下，把三太子的元身打出，是一條龍，在地上挺直。 |
+| ao-bing-c13 | exact | zh.wikisource.org | In this classical text, once the third prince's (三太子) dragon form shows, Nezha (哪吒) says he will pull out his sinews to make a dragon-sinew cord for his father's armor, then pulls them out and takes them into the pass. | 把三太子的元身打出，是一條龍，在地上挺直。哪吒曰：「打出這小龍的本像來了。也罷，把他的筋抽去，做一條龍筋絛與俺父親束甲。」哪吒把三太子的筋抽了，逕帶進關來。 |
+| ao-bing-c14 | exact | zh.wikisource.org | When told that Nezha (哪吒), son of Li Jing (李靖) of Chentang Pass (陳塘關), has beaten the third prince (三太子) to death and pulled out his sinews, Ao Guang (敖光) is startled and cries that his son is a proper god who makes clouds and rain and nourishes all things. | 「陳塘關李靖之子哪吒把三太子打死，連筋都抽去了。」敖光聽報，大驚曰：「吾兒乃興雲布雨滋生萬物正神，怎說打死了！ |
 
 
 ## dijiang — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dijiang-c01 | exact | de.wikipedia.org | Dijiang is a mountain guardian deity of Tianshan in ancient Chinese accounts. | Dijiang (帝江) (auch: Dihong) ist in der alten Zeit Chinas, in den Gebirgen Tianshan, ein Bergschutzgott. Er hat sechs Füße und vier Flügel, kein Gesicht und versteht Gesang und Tanz. Nach der chinesischen Mythologie verursacht er Chaos und Verwirrung, wohin er auch geht. |
 | dijiang-c02 | exact | de.wikipedia.org | He has six feet, four wings, no face, and understands song and dance. | Dijiang (帝江) (auch: Dihong) ist in der alten Zeit Chinas, in den Gebirgen Tianshan, ein Bergschutzgott. Er hat sechs Füße und vier Flügel, kein Gesicht und versteht Gesang und Tanz. Nach der chinesischen Mythologie verursacht er Chaos und Verwirrung, wohin er auch geht. |
 | dijiang-c03 | exact | de.wikipedia.org | Some interpretations identify him with Hundun because of similar faceless features. | Zhuangzi, ein Daoistischer Autor, sagte: In Niederschriften gibt es ein Hundun, das keine Augen, Nase, Mund und Ohren hat, die dem Wesen Dihong aus dem Werk „Klassiker der Berge und Meere“ ähnelte, infolgedessen gab es Leute die dachten, dass Dihong einfach selbst Hundun ist. |
+| dijiang-c04 | exact | de.wikipedia.org | In ancient writings the character 江 (Jiang) is read like 鴻 (hong), so his name is read Dihong rather than Dijiang. | In alten Schriftstücken wird das Schriftzeichen 江 (Jiang) wie 鴻 (hong) gelesen, somit wird er Dihong und nicht Dijiang gelesen. |
+| dijiang-c05 | exact | de.wikipedia.org | One of the titles of the Yellow Emperor (黃帝) was also Dihong, because people believed this description fit him. | Einer der Titel des Gelben Kaisers (黃帝) war auch Dihong, da man glaubte, dass ihm diese Beschreibung entsprach. |
+| dijiang-c06 | exact | zh.wikisource.org | This classical text says that on Mount Tian (天山), 350 li farther west and rich in metals and jade, there is a spirit (神) shaped like a yellow sack and red as cinnabar fire. | 又西三百五十里，曰天山，多金玉，有青雄黃 ... 有神焉，其狀如黃囊，赤如丹火 |
+| dijiang-c07 | exact | zh.wikisource.org | This classical text says the spirit (shaped like a yellow sack and red as cinnabar fire, with an annotation on a yellow body color and red radiance) has six feet and four wings, is a hundun without face or eyes (無面目), knows song and dance (識歌舞), and is indeed 帝江 (Dijiang). | 有神焉，其狀如黃囊，赤如丹火〈體色黃，而精光赤也。〉，六足四翼，渾敦無面目，是識歌舞，實為帝江也 |
 
 
 ## dilong — lulus-otomatis
 
-Klaim 5 (exact 1, loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 4, loose 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dilong-c01 | exact | en.wikipedia.org | Dilong is a Chinese dragon name literally denoting an earth dragon. | Dilong (traditional Chinese: 地龍; simplified Chinese: 地龙; pinyin: dìlóng; Wade–Giles: ti-lung; lit. "earth dragon") is a Chinese dragon name that is also used to mean "earthworm" in traditional Chinese medicine and Geosaurus in zoological nomenclature. |
-| dilong-c02 | loose | en.wikipedia.org | In mythology, Dilong is paired with Tianlong, the heavenly dragon. | In Chinese mythology, dilong (地龍; "earth dragon") is one of many types of -long (龍) dragons such as shenlong (神龍; "divine dragon") and huanglong (黃龍; "Yellow Dragon"). |
+| dilong-c02 | loose | en.wikipedia.org | In mythology, Dilong is paired with Tianlong, the heavenly dragon. | In Chinese mythology, dilong (地龍; "earth dragon") is one of many types of -long (龍) dragons ... the dilong is paired with the tianlong (天龍; "heavenly dragon"). |
 | dilong-c03 | loose | en.wikipedia.org | The History of the Southern Dynasties records Dilong in Wang Sengbian's biography. | Dilong first occurs in the mid-7th century CE History of the Southern Dynasties biography of Liang dynasty Admiral Wang Sengbian 王僧辯 (d. 555 CE). It says witnesses saw lianglong (兩龍; "two/paired dragons") that ascended into the sky, and this dilong "earth dragon" leaving Liang territory was interpreted as a portent of their defeat in 550 CE. |
 | dilong-c04 | loose | en.wikipedia.org | Dilong also serves as an elegant name for earthworms. | Dilong or dilongzi (地龍子; "earth dragon child") is an elegant name for the "earthworm; worm", which is usually called qiuyin (蚯蚓). "Long 龍 is employed in Chinese zoological nomenclature in much the same way that English dragon is used in dragonfly or dragonfish". |
 | dilong-c05 | loose | en.wikipedia.org | The Bencao Gangmu lists Dilong and Tulong as alternative earthworm names. | Dilong first means "earthworm" in the Qixiu Leigao (七修類稿) written by the Ming dynasty scholar Lang Ying 郎瑛 (1487–1566 CE). The 1578 Bencao Gangmu pharmacological entry for qiuyin (蚯蚓; "earthworm") lists alternate names of dilong and tulong (土龍) (see above). |
+| dilong-c06 | exact | en.wikipedia.org | Chinese dragons were supposedly able to fly and were thus considered celestial creatures rather than terrestrial ones like the "earthbound" dilong. | Chinese dragons were supposedly able to fly, and thus were considered celestial creatures rather than terrestrial ones like the "earthbound" dilong. |
+| dilong-c07 | exact | en.wikipedia.org | Li Shizhen notes these names derive from the myth that earthworms, like dragons, can create yinqing (unsettled cloudy and clear weather). | Li Shizhen notes these names derive from the myth that earthworms (like dragons) can create yinqing |
+| dilong-c08 | loose | en.wikipedia.org | Dilongsan (地龍散; "earth dragon powder"), or Di Long, is used in traditional Chinese medicine; it is prepared from the abdomen of the red earthworm Lumbricus rubellus and has many purported medicinal uses. | Dilongsan (地龍散; "earth dragon powder"), or Di Long, is used in traditional Chinese medicine. It is prepared from the abdomen of the Red earthworm, Lumbricus rubellus, and has many purported medicinal uses. |
+| dilong-c09 | exact | zh.wikisource.org | In this classical history record, on the gengyin day of the third month two dragons leapt into the sky from the river west of the city with five distinct colors reflected on the water; people looked up, and elders gathered in grief saying, "The earth dragon (地龍) has gone; will the state perish?" | 三月庚寅，有兩龍自城西江中騰躍升天，五色分明，遙映江水。百姓咸仰面目之，父老或聚而悲，竊相謂曰：「地龍已去，國其亡乎。」 |
 
 
 ## gazeka — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gazeka-c01 | exact | es.wikipedia.org | Gazeka, or Papuan Devil-Pig, is a cryptid reported from Papua New Guinea. | Gazeka, Gazeka de Monckton, o más popularmente «cerdo diablo papú», es un críptido, un animal imaginario. Se dice que fue visto en Papúa Nueva Guinea a principios del siglo xx, y su aspecto sería parecido a un tapir o un perezoso gigante, con un hocico largo, parecido al rictus de un trompetista, descendiente de algún marsupial extinto perteneciente a la familia Palorchestidae. |
 | gazeka-c02 | exact | es.wikipedia.org | Reports describe a long snout and a tapir- or giant-sloth-like appearance. | Gazeka, Gazeka de Monckton, o más popularmente «cerdo diablo papú», es un críptido, un animal imaginario. Se dice que fue visto en Papúa Nueva Guinea a principios del siglo xx, y su aspecto sería parecido a un tapir o un perezoso gigante, con un hocico largo, parecido al rictus de un trompetista, descendiente de algún marsupial extinto perteneciente a la familia Palorchestidae. |
 | gazeka-c03 | exact | es.wikipedia.org | This creature is distinguished from comedian George Graves's invented Gazeka in London in 1905. | Totalmente separado de esa criptozoología (a la que el nombre de 'Monckton's Gazeka' fue aplicado confusamente por persona(s) desconocida(s)) es la 'real' Gazeka, que fue la creación del actor cómico inglés George Graves, quien la introdujo como una obra secundaria en el musical, The Little Michus en elt Daly's Theatre, de Londres, en 1905. |
+| gazeka-c04 | exact | www.goodreads.com | In 1906, during Captain Charles A.W. Monckton's expedition to Mount Albert Edward in PNG, a private named Ogi, separated from his companion Oina, came upon two extraordinary creatures grazing nearby. | And in 1906, two such beasts were finally encountered, albeit in a wholly unplanned manner. ... During the spring of that year, explorer Captain Charles A.W. Monckton was leading a major expedition to PNG's Mount Albert Edward. ... while seeking Oina, Ogi came upon two extraordinary creatures grazing nearby. |
+| gazeka-c05 | exact | www.goodreads.com | Though vaguely pig-like, each animal was about 3.5 ft tall and 5 ft long, with a very dark patterned hide, cloven feet, a long snout, and a horse-like (hairy?) tail. | Although vaguely pig-like, each of these animals was approximately 3.5 ft tall, and 5 ft long, with a very dark, patterned hide, cloven feet, a long snout, and a horse-like (hairy?) tail. |
+| gazeka-c06 | exact | www.goodreads.com | Ogi was so frightened by these weird creatures, which he called devil-pigs because he felt sure they were demons in porcine guise, that he tried to shoot one but missed. | Ogi was so frightened by these weird creatures, which he referred to as devil-pigs as he felt sure that they must be demons in porcine guise, that he tried to shoot one, but missed. |
+| gazeka-c07 | exact | www.goodreads.com | Ogi's testimony gained partial support from expedition leader Captain Monckton, who affirmed that some very large cloven-footed tracks had indeed been found on Mount Albert Edward. | Intriguingly, Ogi's testimony gained partial support from expedition leader Captain Monckton himself, because he affirmed that some very large cloven-footed tracks had indeed been found on Mount Albert Edward. |
+| gazeka-c08 | exact | www.goodreads.com | Palorchestids (large extinct marsupials) would have looked very like giant pigs or even tapirs in life, and startling enough to conjure up notions of pig demons or devil-pigs in the minds of frightened locals. | Moreover, palorchestids would have looked very like giant pigs or even tapirs in life, and certainly startling enough if encountered unexpectedly to conjure up notions of pig demons or devil-pigs in the minds of frightened locals. |
+| gazeka-c09 | exact | www.goodreads.com | The nickname "Monckton's gazeka" was applied to the Papuan devil-pig by person(s) unknown and is a source of confusion; it derives from an entirely fictitious mystery beast called the gazeka created by the English comic actor George Graves. | a longstanding source of much confusion and misinformation regarding the Papuan devil-pig is the application to it by person(s) unknown of the nickname 'Monckton's gazeka'. ... It derives from an entirely fictitious mystery beast called the gazeka, which was created by English comic actor George Graves |
 
 
 ## guhuoniao — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -366,6 +391,12 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | guhuoniao-c03 | loose | en.wikipedia.org | Alternative names include rumuniao, milk-mother bird, and yexing younu, night-traveling woman. | The guhuoniao (姑獲鳥, "wench bird") has had several aliases, such as rumuniao (乳母鳥, "mother's milk bird", or in Japanese, ubadori "wetnurse bird"), yexing younu (夜行遊女; "nighttime traveling girl"), tiandi shaonu (天帝少女; "celestial emperor's young girl"), wuguniao (無辜鳥; "innocent bird"), yinfei (隠飛; "hidden flying"), Gou xing (鈎星; 鉤星; "hook star[?]"); gu niao (鬼鳥; "demon bird"), yi xi (譩譆). |
 | guhuoniao-c04 | exact | en.wikipedia.org | It changes from bird to woman by removing its down or feather garment. | It can transform from bird to human woman by shedding its "hair" (or down, i.e., removing its feather garment). |
 | guhuoniao-c05 | loose | en.wikipedia.org | The tale associates this bird with kidnapping infants to raise as its own. | It has the habit of kidnapping infants to raise it as its own. It flies by night and marks the child with a drop of its blood. This will cause the child to fall ill and develop convulsions, in an illness condition called "innocent's gan" (無辜疳; wugugan, roughly translatable as "innocent's malnutrition" or "wasting-away" illness). |
+| guhuoniao-c06 | exact | zh.wikisource.org | The Bencao Gangmu quotes Zangqi (藏器) that 姑獲 can take away people's souls, and the Xuanzhong Ji (玄中記) that the bird belongs to the class of spirits (鬼神類): wearing feathers it is a flying bird, shedding them it becomes a woman. | 藏器曰︰姑獲能收人魂魄。《玄中記》云︰姑獲鳥，鬼神類也。衣毛為飛鳥，脫毛為女人。 |
+| guhuoniao-c07 | exact | zh.wikisource.org | According to the quotation, homes with small children should not leave clothing out at night, because this bird flies by night and marks it with blood; the child then falls ill with convulsions and wasting, an illness called 無辜疳. | 凡有小兒家，不可夜露衣物。此鳥夜飛，以血點之為志。兒輒病驚癇及疳疾，謂之無辜疳也。 |
+| guhuoniao-c08 | exact | zh.wikisource.org | The quotation says the bird is said to be formed from a woman who died in childbirth, hence two breasts on its chest, and it likes to take other people's children to raise as its own. | 脫毛為女人。云是產婦死後化作，故胸前有兩乳，喜取人子養為己子。 |
+| guhuoniao-c09 | exact | zh.wikisource.org | Li Shizhen (時珍) writes that people of old said this bird came from a woman who died in childbirth, that it is entirely female with no males, flies at night in the seventh and eighth months, and is especially venomous in harming people. | 時珍曰︰昔人言此鳥產婦所化，陰慝為妖，故有諸名。 ... 時珍曰︰此鳥純雌無雄，七八月夜飛，害人尤毒也。 |
+| guhuoniao-c10 | exact | zh.wikisource.org | The Bencao Gangmu identifies the 夭鳥 in the Zhouli (周禮), shot by the official Tingshi (庭氏) with the bow and arrows for rescuing the sun and moon, with this bird. | 荊州多有之。亦謂之鬼鳥。《周禮》庭氏「以救日之弓，救月之矢，射夭鳥」，即此也。 |
+| guhuoniao-c11 | exact | zh.wikisource.org | The Bencao Gangmu quotation says the bird is common in Jingzhou (荊州) and is also called 鬼鳥. | 荊州多有之。亦謂之鬼鳥。《周禮》庭氏「以救日之弓，救月之矢，射夭鳥」，即此也。 |
 
 
 ## shuixian-zunwang — skip
@@ -381,10 +412,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## hong-rainbow-dragon — lulus-otomatis
 
-Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 11, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -392,14 +420,20 @@ Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
 | hong-rainbow-dragon-c02 | loose | en.wikipedia.org | Chinese distinguishes hong, didong, and ni as words related to rainbows. | Chinese has three "rainbow" words, regular hóng (虹), literary dìdōng (蝃蝀), and ní (蜺; "secondary rainbow"). |
 | hong-rainbow-dragon-c03 | exact | en.wikipedia.org | Ancient Shang rainbow characters depict an arched two-headed dragon. | However, the oldest characters for "rainbow" in Shang dynasty oracle bone script were pictographs of an arched dragon or serpent with open-mouthed heads at both ends. |
 | hong-rainbow-dragon-c04 | loose | en.wikipedia.org | The Shuowen Jiezi describes the hong character's form as resembling a wug or reptile-like creature. | The 121 CE Shuowen Jiezi dictionary, the first Chinese character dictionary, described the seal character for hong (虹; 'rainbow') as 狀似蟲; 'shaped like a wug'. Over 18 centuries later, Hopkins described the recently discovered oracle character for 虹. |
+| hong-rainbow-dragon-c05 | exact | en.wikipedia.org | Carr, as quoted in Wikipedia, states that the Chinese saw rainbows as meteorological disasters; unlike the auspicious long (龍) dragon that symbolizes coming rain, the two-headed hong (虹) was inauspicious because it appeared after a rain shower. | Although many ancient cultures believed rainbows were good omens,"Carr explains, "the Chinese saw them as meteorological disasters. Unlike the auspicious [long] 龍 dragon symbolizing forthcoming rain, the two-headed [hong] 虹 was inauspicious because it appeared after a rain shower." |
+| hong-rainbow-dragon-c06 | exact | en.wikipedia.org | Hopkins, as quoted in Wikipedia, reads the oracle-bone character for the rainbow as a rainbow ending in two animal heads, and concludes the animal must be the dragon. | Hopkins described the recently discovered oracle character for 虹 ... We should, I now feel sure, discern a Rainbow terminating in two animal heads. But of what animal? Certainly of the Dragon, must be the answer. |
+| hong-rainbow-dragon-c07 | exact | en.wikipedia.org | Eberhard, as quoted in Wikipedia, notes that early reliefs show the rainbow as a snake or two-headed dragon, and in West China it is given a donkey's head and counted a lucky symbol. | Eberhard notes, "In early reliefs, the rainbow is shown as a snake or a dragon with two heads. In West China they give it the head of a donkey, and it rates as a lucky symbol." |
+| hong-rainbow-dragon-c08 | exact | en.wikipedia.org | According to Wikipedia, the Shijing has the oldest known textual usages of hong and didong, and both are bad omens. | The Shijing has the oldest known textual usages of hong and didong, and both are bad omens. |
+| hong-rainbow-dragon-c09 | exact | en.wikipedia.org | According to Wikipedia, the Huainanzi says both rainbows and comets were warnings from tian (heaven or god). | The Huainanzi says both rainbows and comets were warnings from tian "heaven; god". |
+| hong-rainbow-dragon-c10 | exact | en.wikipedia.org | According to Wikipedia, another Chinese rainbow myth has Nüwa (女媧) repairing a crack in the sky caused by the water deity Gong Gong (共工), and supposedly creating the first rainbow by melting stones of five or seven colors to patch the sky. | Lastly, another Chinese rainbow myth involves the creator Nüwa 女媧 repairing a crack in the sky caused by the water deity Gong Gong 共工 (cf. 虹 ). She supposedly created the first rainbow by melting stones of 5 or 7 different colors to patch the sky. |
+| hong-rainbow-dragon-c11 | exact | zh.wikisource.org | The Shijing poem titled 蝃蝀 (didong) says the 蝃蝀 is in the east and no one dares to point at it, and then mentions rain through the morning. | 蝃蝀在東，莫之敢指，女子有行，遠父母兄弟。 朝隮于西，崇朝其雨，女子有行，遠兄弟父母。 |
+| hong-rainbow-dragon-c12 | exact | zh.wikisource.org | The Liji, chapter Yue Ling (月令), records that in the last month of spring the rainbow (虹) begins to appear, along with seasonal events such as field mice turning into quails. | 季春之月，日在胃，昏七星中，旦牽牛中 ... 桐始華，田鼠化爲鴽，虹始見，蓱始生 |
+| hong-rainbow-dragon-c13 | exact | zh.wikisource.org | The Liji, chapter Yue Ling (月令), records that in the first month of winter water begins to freeze, pheasants enter the great water and become large mollusks (蜃), and the rainbow (虹) is hidden and does not appear. | 孟冬之月，日在尾，昏危中，旦七星中 ... 水始冰，地始凍，雉入大水爲蜃，虹藏不見 |
 
 
 ## huodou — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -408,6 +442,10 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | huodou-c03 | exact | en.wikipedia.org | Its appearance is treated as an omen of fire and misfortune. | It is described as having the appearance of a large black dog that can emit flames from its mouth. Fire would break out wherever the Huodou went, so the ancients saw it as a sign of fire and often an ominous symbol. It is probably a demonized tribal symbol of southern China. |
 | huodou-c04 | exact | en.wikipedia.org | A quoted Shanhaijing passage associates southern beings with eating fire. | The "Shanhaijing" states: "There are people and beasts in the south who eat fire. Their country is near Hei Kunlun (Black Kunlun). People there can eat coals, and fire-eating beasts are also known as Calamities." The Shanhaijing also mentioned that the body of the Huodou is black. |
 | huodou-c05 | loose | en.wikipedia.org | The Ming-period Chiya describes Huodou eating and spitting fire. | It is also noted in the Chiya (赤雅) of the Ming Dynasty: "the Huodou looks like a dog, it eats fire and spits fire, it is ominous". |
+| huodou-c06 | exact | zh.wikisource.org | The Bencao Gangmu quotes the Yuanhua Ji (原化記) that the Huodou (禍斗) beast is shaped like a dog and eats fire, its dung turns back into fire, and it can burn people's houses. | 食火之獸（《原化記》云︰禍斗獸，狀如犬而食火，糞複為火，能燒人屋） |
+| huodou-c07 | exact | zh.wikisource.org | Li Shizhen mentions a fire-eating people in the southern wilderness (南荒), whose country is near Black Kunlun (黑昆侖) and who can eat fire-charcoal, and also a fire-eating beast. | 南荒有厭火之民（國近黑昆侖，人能食火炭）、食火之獸（《原化記》云︰禍斗獸，狀如犬而食火 |
+| huodou-c08 | exact | zh.wikisource.org | Li Shizhen sets the Huodou beast beside a fire-eating bird of the Xirong (西戎, western region) and states that these are all ordinary under the principles of the five phases (五行物理), seeming strange only to those hearing of them for the first time. | 食火之獸（《原化記》云︰禍斗獸，狀如犬而食火，糞複為火，能燒人屋）；西戎有食火之鳥（駝鳥，見禽部）。 ... 此皆五行物理之常，而乍聞者目為怪異，蓋未深詣乎此理故爾。 |
+| huodou-c09 | exact | zh.wikisource.org | This edition of the Chiya (赤雅) says the Huodou (禍斗) resembles a dog and eats dog dung, spits fire and brings disaster, and is greatly ill-omened; another edition reads 不祥之獸 (an ill-omened beast). | 禍斗似犬而食犬糞，噴火作殃，不祥甚矣〈一本云「不祥之獸」〉。 |
 
 
 ## imugi — lulus-otomatis
@@ -426,10 +464,7 @@ Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
 
 ## inmyeonjo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -438,14 +473,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | inmyeonjo-c03 | exact | en.wikipedia.org | Its portrayals occur in Goguryeo tomb murals, including Anak and Dukheungri. | Inmyeonjo is known as a sacred bird that connects the sky with the land, often appearing in the ancient tomb mural of Three Kingdoms of Korea. In the case of Goguryeo, it can be found in several tomb murals such as the Anak County tombs, the ancient Dukheungri tombs, the Samsilchong, and the Mooyongchong. |
 | inmyeonjo-c04 | exact | en.wikipedia.org | An artifact from King Muryeong's tomb also depicts a human-faced bird. | In Korea, after the 5th century, artifacts and mural paintings that show the shape of a human-faced bird in Goguryeo and Baekje tombs are found. The inmyeonjo is depicted in the bottom of the Silver Cup with Bronze Stand(銅托銀盞) excavated from the Tomb of King Muryeong in Gongju of South Chungcheong Province. |
 | inmyeonjo-c05 | exact | en.wikipedia.org | A Buddhist interpretation links it with Kalavinka and aspirations for rebirth in the Pure Land. | It is interpreted that it contains the meaning to pray for Sukhavati(極樂往生) of Pure land(淨土) under the influence of Kalaviṅka (迦陵迦迦) of Buddhism found in the tombs of Goguryo and Baekje. Kalaviṅka is a bird that appears in the Sanskrit word "kalavinka" in Chinese characters. It is a bird that comes from Sukhavati of Amitābha. |
+| inmyeonjo-c06 | exact | en.wikipedia.org | In the ancient Dukheungri tombs in Nampo, South Pyongan Province, in 1976, the figures are named Cheonchu (天秋) and Mansei (萬歲); they are a symbol of longevity, known to live for a thousand years. | Named as Cheonchu(天秋) and Mansei(萬歲) in the ancient Dukheungri tombs in Nampo, South Pyongan Province in 1976, they are a symbol of longevity, known to live for a thousand years. |
+| inmyeonjo-c07 | exact | en.wikipedia.org | In the case of Baekje, four inmyeonjo are found on the Gilt-bronze Incense Burner of Baekje. | In the case of Baekje, four inmyeonjos are found in the Gilt-bronze Incense Burner of Baekje. |
+| inmyeonjo-c08 | exact | en.wikipedia.org | The opening ceremony of the 2018 Winter Olympic Games in PyeongChang featured an inmyeonjo puppet that went viral on social media. | The opening ceremony of the 2018 Winter Olympic Games in PyeongChang featured an inmyeonjo puppet that went viral on social media. |
+| inmyeonjo-c09 | exact | encykorea.aks.ac.kr | A Korean cultural encyclopedia defines the 가릉빈가문 (kalavinka motif) as a pattern depicting the imaginary bird kalavinka (가릉빈가), said to have a human head and a bird body. | 사람의 머리에 새의 몸을 하고 있다는 상상의 새 가릉빈가를 소재로 한 문양. |
+| inmyeonjo-c10 | exact | encykorea.aks.ac.kr | The kalavinka (가릉빈가) appears with a human head and arms, a scaled body, a flower crown with bird feathers on its head, and playing a musical instrument. | 머리와 팔은 사람의 형상을 하였고 몸체에는 비늘이 있으며, 머리에는 새의 깃털이 달린 화관을 쓰고 악기를 연주하고 있는 모습으로 나타난다. |
+| inmyeonjo-c11 | exact | encykorea.aks.ac.kr | In Korea, figures similar to the kalavinka (가릉빈가) appear in the Goguryeo (고구려) tombs, the Deokheungni (덕흥리, 德興里) mural tomb and Anak Tomb No. 1 (안악 1호분); the Deokheungni figure clearly shows the form of the kalavinka bird (빈가조) as a whole, including the expression of the head. | 우리 나라에서는 고구려 고분인 덕흥리(德興里) 벽화고분과 안악(安岳)1호분에 가릉빈가와 유사한 형상이 보이는데, 특히 덕흥리벽화고분의 형상은 머리의 표현을 비롯하여 전체적으로 빈가조의 형상을 나타낸 것이 분명하다. |
 
 
 ## lo-ting — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -454,14 +492,18 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | lo-ting-c03 | exact | zh.wikipedia.org | Older descriptions differ from modern fish-person legends, leaving the names' connection unconfirmed. | 早在東晉時就已有記載有關「盧亭人」的說法，不過有關這些盧亭人的描述，與今日有關「盧亨魚人」的傳說不同。因此雖說「盧亨魚人」其實是「盧亭魚人」的一字之轉，但有關說法未有得到證實。 |
 | lo-ting-c04 | exact | zh.wikipedia.org | The Lingbiao Luyi describes Lu Xun's followers fleeing to islands and using oyster shells as walls. | 唐朝劉恂《嶺表錄異》卷上：「盧亭者，盧循昔據廣州，既敗，餘黨奔入海島，野居，惟食蠔蠣，疊殼為牆壁。」 |
 | lo-ting-c05 | exact | zh.wikipedia.org | The Lingwai Daida mentions a group named Luting skilled in water combat. | 宋朝周去非《嶺外代答·外國門下·蜑蠻》：「廣州有蜑一種，名曰盧停，善水戰。」 |
+| lo-ting-c06 | exact | zh.wikisource.org | The Lingbiao Luyi (嶺表錄異) records the 盧亭 as the remnants of Lu Xun's (盧循) followers who, after defeat at Guangzhou (廣州), fled to islands at sea, lived wild there, ate only oysters, and piled shells into walls. | 盧亭者。盧循昔據廣州，既敗，餘黨奔入海島，野居，惟食蠔蠣，壘殼為牆壁。 |
+| lo-ting-c07 | exact | zh.wikisource.org | In its section on the 瑇瑁 turtle, the Lingbiao Luyi says a 盧亭 of Guangnan (廣南) caught a live turtle to present to a prince named Xue (薛王), and later a 盧亭 was sent to return it to the seashore. | 廣南盧亭，獲活瑇瑁龜一枚，以獻連帥嗣薛王。 ... 後養於使宅後北池，俟其揭處漸生，復遣盧亭送於海畔。 |
+| lo-ting-c08 | exact | zh.wikisource.org | In its section on the boat-dwelling 蜑, the Lingwai Daida (嶺外代答) says that in Guangzhou (廣州) there is one kind of 蜑 named 盧停, skilled at water fighting. | 然亦各有統屬，各有界分，各有役於官，以是知無逃乎天地之間。廣州有蜑一種，名日盧停，善水戰。 |
+| lo-ting-c09 | exact | zh.wikisource.org | The Guangdong Xinyu (廣東新語) describes the 盧亭 as a kind of 人魚 (fish-person) found in numerous places including Dayushan in Xin'an (新安大魚山) and Nanting Zhumo Laowanshan (南亭竹沒老萬山); human in height, with male and female, short yellowish hair, a dark face and a tail about one cun long, which plunge into the water in fright when they see people. | 人魚之種族有盧亭者，新安大魚山與南亭竹沒老萬山多有之。其長如人，有牝牡，毛發焦黃而短，眼睛亦貢，麵黧黑，尾長寸許，見人則驚怖入水，往往隨波飄至，人以為怪，競逐之。 |
+| lo-ting-c10 | exact | zh.wikisource.org | According to the Guangdong Xinyu, a person who caught a female found she could not speak and only laughed; after a long time she wore clothes and ate the five grains, but when taken to Dayushan she sank back into the water. The text calls them 人魚 that do no harm to people. | 有得其牝者，與之淫，不能言語，惟笑而已。久之，能著衣，食五穀。攜至大魚山，仍沒入水。蓋人魚之無害於人者。 |
+| lo-ting-c11 | exact | zh.wikisource.org | The Guangdong Xinyu calls male 人魚 'sea monks' (海和尚) and females 'sea women' (海女) that can bring ruin to ships; ship's pilots (火長) recite a prayer not to meet a 海女 or a 人魚. | 人魚雄者為海和尚，雌者為海女，能為舶祟。火長有祝云：「毋逢海女，毋見人魚。」 |
+| lo-ting-c12 | exact | zh.wikipedia.org | The 2016 film 《美人魚》 (The Mermaid) is said to have based its mermaid family on the 盧亭. | 《美人魚》：2016年電影，片中美人魚家族的原型來自「盧亭」。 |
 
 
 ## nie-xiaoqian — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -470,14 +512,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | nie-xiaoqian-c03 | exact | en.wikipedia.org | She is coerced into assisting ritual murders for a demon. | Nie Xiaoqian is introduced as a beautiful female ghost. She died at the age of 18 and was interred in an old temple in Jinhua, Zhejiang. Nie is coerced to participate in ritual murders in the service of a demon. A pale-faced scholar, Ning Caichen, is going to Beijing to take a civil service examination. |
 | nie-xiaoqian-c04 | exact | en.wikipedia.org | The scholar Ning Caichen resists her temptation and helps free her from the demon. | Nie Xiaoqian is introduced as a beautiful female ghost. She died at the age of 18 and was interred in an old temple in Jinhua, Zhejiang. Nie is coerced to participate in ritual murders in the service of a demon. A pale-faced scholar, Ning Caichen, is going to Beijing to take a civil service examination. |
 | nie-xiaoqian-c05 | exact | en.wikipedia.org | As the story develops, she lives with Ning's family and later marries him. | Then, with Ning's help, she later escaped her demonic captors and found refuge in the Ning household, caring for his mother and his ailing wife. After the wife's death, she married Ning Caichen, and together the couple destroyed the yaoguais that had long haunted Jinhua. |
+| nie-xiaoqian-c06 | exact | en.wikipedia.org | According to Wikipedia, Pu describes her appearance as "gorgeous; girl in paintings" (艷絕；畫中人). | Pu describes her appearance as "gorgeous; girl in paintings" (traditional Chinese: 艷絕；畫中人; simplified Chinese: 艳绝；画中人). |
+| nie-xiaoqian-c07 | exact | en.wikipedia.org | According to Wikipedia, the story has been adapted into numerous films and television dramas. | The story has been adapted into numerous films and television dramas. |
+| nie-xiaoqian-c08 | exact | zh.wikisource.org | In the tale she says her surname is Nie (聶氏), that she died young at eighteen (十八夭殂), was buried by the temple, and was threatened by monstrous beings (妖物) and made to do menial tasks. | 姓聶氏，十八夭殂，葬（於）寺 側一作「中」，（輒）被妖物威脅，（歷）役賤務。 |
+| nie-xiaoqian-c09 | exact | zh.wikisource.org | She tells Ning that men who take liberties with her are secretly pricked in the foot with an awl and left dazed, and their blood taken for the demon (妖) to drink; or are left gold that is really rakshasa bone (羅剎鬼骨), able to cut out the heart and liver. | 狎暱我者，隱以錐刺其足，彼即茫若迷，因攝血以供妖飲；又或以金——非金也，乃羅剎鬼骨，留之能截取人心肝。 |
+| nie-xiaoqian-c10 | exact | zh.wikisource.org | She asks where the leather bag (革囊) is; Ning says he stored it elsewhere because she fears it, and she replies that having long taken in the breath of life (生氣) she should no longer fear it and asks to hang it at the bed head. | 忽問：「革囊何在？」曰：「以卿畏之，故緘 置一作「致」他所。」曰：「妾受生氣已久，當不復畏，宜取掛牀頭。」 |
+| nie-xiaoqian-c11 | exact | zh.wikisource.org | When the yaksha-like being (夜叉) approached the hanging leather bag, the bag suddenly clicked and swelled, and a ghostly figure thrust out half its body and dragged the yaksha in. | 囊忽格然一響，大可合簣；恍惚有鬼物，突出半身，揪夜叉入。聲遂寂然 |
+| nie-xiaoqian-c12 | exact | zh.wikisource.org | At first she neither ate nor drank; after half a year she began to sip thin gruel. The mother and son doted on her and kept quiet that she was a ghost, so others also did not realize it. | 女初來未嘗 食飲一作「飲食」，半年漸啜稀𩛆。母子皆溺愛之，諱言其鬼，人亦不 之一作「知」辨也。 |
+| nie-xiaoqian-c13 | exact | zh.wikisource.org | When asked to appear as the new bride, she came out in splendid attire; the whole room did not suspect her of being a ghost and instead took her for an immortal or fairy (仙). | 或請覿新婦，女慨然華妝出，一堂盡 眙一作「怡」，（反）不疑其鬼，疑為仙。 |
 
 
 ## qiulong — lulus-otomatis
 
-Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 11, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -485,14 +532,19 @@ Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
 | qiulong-c02 | exact | en.wikipedia.org | Some definitions call it horned, while others describe it as hornless. | Qiulong (simplified Chinese: 虬龙; traditional Chinese: 虯龍; pinyin: qíulóng; Wade–Giles: ch'iu-lung; lit. 'curling dragon') or qiu was a Chinese dragon that is contradictorily defined as "horned dragon" and "hornless dragon". |
 | qiulong-c03 | loose | en.wikipedia.org | The dragon name can be read qiu or jiu with two written variants. | This Chinese dragon name can be pronounced qiu or jiu and written 虯 or 虬. |
 | qiulong-c04 | exact | en.wikipedia.org | The same characters are sometimes used in Japan for mizuchi, a river dragon. | In Japanese, the kanji "Chinese characters" 虬 or 虯 are sometimes used for the mizuchi 蛟 "river dragon". |
+| qiulong-c05 | exact | zh.wikisource.org | Wang Yi's (王逸) commentary on the line 駟玉虯以乘鷖兮 states that one with horns is called long (龍) and one without horns is called qiu (虯). | 【駟玉虯以乘鷖兮，】有角曰龍，無角曰虯。鷖，鳳皇別名也。山海經曰：鷖，身有五采。 |
+| qiulong-c06 | exact | zh.wikisource.org | In Wang Yi's explanation of the Lisao, the poet imagines riding a jade qiu (玉虯) and a phoenix chariot, passing through the dust and ascending to leave the common world and keep far from petty people. | 言我設往行游，將乘玉虯，駕鳳車，淹塵埃而上征，去離時俗，遠群小也。 |
+| qiulong-c07 | exact | zh.wikisource.org | In Wang Yi's preface, the Lisao uses qiulong (虯龍) and luan and phoenix birds as figures for the gentleman (君子), while whirlwinds and clouds and secondary rainbows stand for petty persons (小人). | 靈修美人，以媲於君；宓妃佚女，以譬賢臣；虯龍鸞鳳，以讬君子；飄風雲霓，以為小人。 |
+| qiulong-c08 | exact | zh.wikisource.org | The Huainanzi describes the 赤螭 and the 青虯 (green qiu) roaming Jizhou (冀州) when the sky is clear and the earth settled, venomous beasts do not act and birds are not startled; they enter thickets, eat plants, and their steps do not leave a plot of land. | 今夫赤螭、青虯之游冀州也，天清地定，毒獸不作，飛鳥不駭，入榛薄，食薦梅，噆味含甘，步不出頃畝之區 |
+| qiulong-c09 | exact | zh.wikisource.org | In the same passage, on a morning of dark clouds when yin and yang contend, they (the 赤螭 and 青虯) rise on the whirlwind so that their might moves heaven and earth and their sound shakes the realm; eels sink into the mud, bears crouch, and tigers and leopards dare not roar. | 今夫赤螭、青虯之游冀州也 ... 若乃至於玄雲之素朝，陰陽交爭，降扶風，雜凍雨，扶搖而登之，威動天地，聲震海內，蛇鱔著泥百仞之中，熊羆匍匐丘山盤岩，虎豹襲穴而不敢咆 |
+| qiulong-c10 | exact | zh.wikisource.org | The Huainanzi describes riders of a thunder chariot (雷車) with winged dragons (應龍) as inner horses and green qiu (青虯) as outer horses, with a white 螭 in front and running snakes behind. | 乘雷車，服駕應龍，驂青虯，援絕瑞，席蘿圖，黃雲絡，前白螭，後奔蛇 |
+| qiulong-c11 | exact | en.wikipedia.org | According to Wikipedia, the Shuowen Jiezi scholar Zhu Junsheng (朱駿聲) explains that male long dragons have horns and female ones do not, and among young dragons jiao (蛟) has one horn, qiu (虯) has two, and chi (螭) is hornless. | The Shuowen Jiezi scholar Zhu Junsheng 朱駿聲 (1788–1834 CE) explains that male long ( 龍) "dragons" have horns and female ones do not, and among young dragons, jiao ( 蛟) has one horn, qiu ( 虯) has two, and chi ( 螭) is hornless. |
+| qiulong-c12 | exact | en.wikipedia.org | According to Wikipedia, the Guangya dictionary defines qiu (虯) as a horned dragon and chi (螭) as a hornless dragon. | The c. 230 CE Guangya dictionary defines qiu ( 虯) (written with a rare 黽 "frog"-radical graphic variant) as "horned dragon" and chi ( 螭) as "hornless dragon". |
 
 
 ## tek-ko-kui — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -500,20 +552,32 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tek-ko-kui-c02 | exact | en.wikipedia.org | The tale says bamboo bends to block people passing through its forest. | It is said that they reside in bamboo forest. When someone wants to pass through the bamboo forest, the bamboo will bend and block the way. People can't step over, otherwise, the bamboo will hang people up in the air. The force is so great that it will kill or injure people. If stop moving forward, the bamboo will stand upright again. |
 | tek-ko-kui-c03 | exact | en.wikipedia.org | People stepping over the bamboo are believed to be lifted into the air and injured. | It is said that they reside in bamboo forest. When someone wants to pass through the bamboo forest, the bamboo will bend and block the way. People can't step over, otherwise, the bamboo will hang people up in the air. The force is so great that it will kill or injure people. If stop moving forward, the bamboo will stand upright again. |
 | tek-ko-kui-c04 | exact | en.wikipedia.org | The bamboo stands upright again if the person stops advancing. | It is said that they reside in bamboo forest. When someone wants to pass through the bamboo forest, the bamboo will bend and block the way. People can't step over, otherwise, the bamboo will hang people up in the air. The force is so great that it will kill or injure people. If stop moving forward, the bamboo will stand upright again. |
+| tek-ko-kui-c05 | exact | pansci.asia | According to the article, a 竹篙鬼 is not merely a bamboo blocking the road but a being that deliberately bends bamboo to take people's lives; some say it does so to 抓交替 (find a replacement so it can be reborn, like a water ghost), and others say it is simply malicious. | 所謂「竹篙鬼」，指的並不只是攔路的竹子，而是故意把竹子彎下，好取人性命的妖怪。有人說，竹篙鬼這麼做是為了「抓交替」──和水邊的水鬼一樣，取人性命，好去投胎；也有人說，這只是單純地作惡。 |
+| tek-ko-kui-c06 | exact | pansci.asia | According to the tale one must not step over the blocking bamboo; one should carefully go around it or curse at it until the bent bamboo stands up again. If one steps over, the bamboo suddenly springs up: lightly, a person is flung into the air and injured; severely, the soul is taken and the person dies in the bamboo grove. | 你千萬、千萬不能跨過，你得謹慎繞過，或者對它破口大罵，直到彎腰的竹子重新立起。否則，在你跨過的那一瞬間，竹子會忽然彈起，輕者將人打得騰空飛起，落下受傷，重者則被勾去魂魄，死在竹林之間 |
+| tek-ko-kui-c07 | exact | pansci.asia | The article quotes a Hakka (客家) legend from Hualien that bamboo was once widely planted in the countryside, many 竹竿鬼 hid in bamboo groves, and a sudden breeze at dusk is when they come out, specifically blocking night travellers. | 客家人傳說，以前鄉下地方都種很多竹子，許多竹竿鬼就藏身在竹林裡，黃昏時如果突然起了一陣微風，就是竹竿鬼出來活動的時刻，它專門攔夜行人的路。 |
+| tek-ko-kui-c08 | exact | pansci.asia | In the same quoted Hakka legend, an upright bamboo in a clump shakes and slowly bends down across the road; a person who does not know and steps over is caught by the springing bamboo and has the soul taken. If the being does not give way, one swears at it and in the end it withdraws. | 竹竿鬼出現時，竹叢裡一支原本直挺挺的竹子會突然抖動起來，慢慢地彎下來倒在路中間等待有人經過，八字輕的人就會碰上這種鬼，不知情的人一腳跨過去，竹竿鬼會突然彈起將人抓住，人的魂魄就被它抓去了。如果它不讓路就罵粗話，最後它會識相的退開讓人過。 |
+| tek-ko-kui-c09 | exact | pansci.asia | According to the article, the earliest written record of the 竹篙鬼 can be traced to the Chinese-language edition of the Taiwan Nichinichi Shinpo (臺灣日日新報) of 1 May, Meiji year 43 (明治 43 年 5 月 1 日), in a report titled 照身鏡 that describes the 竹篙鬼 as having a big head and a long body. | 「竹篙鬼」最早有紀錄的文獻，可追溯至明治 43 年 5 月 1 日的漢文版臺灣日日新報，一篇以「照身鏡」為題的報導，提到竹篙鬼「頭大身長」 |
+| tek-ko-kui-c10 | exact | pansci.asia | The article's authors conclude that the 竹篙鬼 and the 竹竿鬼 are really two entirely different beings confused because their names are similar. | 這樣看來，其實「竹篙鬼」和「竹竿鬼」根本是兩種完全不同的妖怪，只是因為名字相似而被混為一談。 |
+| tek-ko-kui-c11 | exact | pansci.asia | The article says the Sakizaya (撒奇萊雅族) also have a similar legend of a demon called 嘎利亞 that makes an arched bamboo trap that may injure or kill whoever passes. | 連撒奇萊雅族都有與竹篙鬼相似的傳說，說是一種名為「嘎利亞」的惡魔，會把竹子做成拱型的陷阱，走過可能會受傷、死亡。 |
+| tek-ko-kui-c12 | exact | pansci.asia | The article's authors propose a hypothesis that the blocking bamboo could arise when a young shoot's tip is pressed into the soil and keeps growing like a spring, springing up when someone steps over it and the soil shakes. | 發尖後的竹筍，若是受到人類壓過、動物踩過、落石壓住等等外力，使得嫩竹的頂端插進土裡。此時，竹子內的節點開始生長，一方面受到土地的阻擋，一方面仍以極快的速度長長，竹子便會像彈簧那般，儲存越來越多的張力。接著，一個沒聽過禁忌的人跨過攔路的竹子，土壤受到震動而鬆動，致使竹子彈起，使人受傷或死亡，完成竹篙鬼的傳說。 |
 
 
 ## wd-q89656688 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q89656688-c01 | exact | zh.wikipedia.org | 人面魚 names two fish-being variants in Taiwanese folklore and urban legends. | 人面魚，是台湾民間傳說和都市传说中的妖怪，兩種同名但外貌相異，也都和日本的人面魚不同。 |
 | wd-q89656688-c02 | exact | zh.wikipedia.org | The traditional variant has a large fish body with a human face and laughs on seeing people. | 人面魚是人臉魚身的水棲妖怪，又名「淵魚」、「海童」，身軀為大魚，但卻擁有人面雙眼口鼻的臉龐，型態詭異萬分。若人面魚浮立於水面，只要見到人，就會開口呵呵嘻笑，甚至以魚鰭做合掌的模樣。 |
 | wd-q89656688-c03 | exact | zh.wikipedia.org | An urban tale of a speaking grilled fish spread widely through a 1995 report. | 在1990年代初開始出現，於1995年經自由時報刊出的地方軼聞而廣泛流傳，大意描述有民眾至高雄縣岡山鎮（今高雄市岡山區）的溪裡（另一說為嘉義市蘭潭）出遊釣起一尾吳郭魚，燒烤欲食用時卻聽到用閩南語詭異的聲音詢問：「魚肉好吃否？」之後其拍攝的照片魚的上頭還浮現人臉，令當事人毛骨悚然。其後台視玫瑰之夜鬼話連篇曾以此題材製播節目，並展示出所謂的「靈異照片」。2018年，根據此傳說改拍成電影《紅衣小女孩》的外傳:《人面魚：紅衣小女孩外傳》。 |
+| wd-q89656688-c04 | exact | pansci.asia | According to the PanSci article, the urban legend of the 人面魚 tells of a group fishing by a stream and grilling a large tilapia, when an old woman's voice speaking Taiwanese (台語) suddenly asks, 'Is the fish meat tasty?' (魚肉好吃否？). | 某天一群人到溪邊釣魚，其中有人釣到了一條巨大的吳郭魚，眾人立刻將其烤食。當大家吃喝得正高興，忽然聽見一個蒼老的女聲，操著台語問：「魚肉好吃否？」 |
+| wd-q89656688-c05 | exact | pansci.asia | In the story, the grilled tilapia was found to be opening and closing its mouth with an old woman's face on its body; three people vomited on the spot, one took a photo of the fish, and the next day the person who caught it died in his sleep of unknown cause. | 大家四處尋找聲音的來源，直到聽到第二次問句，才發現竟然是被烤熟的吳郭魚一張一合地開口說話，仔細一看，魚身上還浮現一名老太婆的臉。其中三人當場嘔吐，一人拿相機將魚拍了下來，到了隔天，釣起那條魚的人在睡夢中死去，死因不明。 |
+| wd-q89656688-c06 | exact | pansci.asia | The article says the legend has very many variants with the same outline but differing details: the place is given as Gangshan in Kaohsiung (高雄岡山), Lantan in Chiayi (嘉義蘭潭), or Tainan and Pingtung; the photo date ranges from December 1994 to July 1995; and the number of people is 3, 4, 6 or 8. | 這則傳說的變體非常多，故事的梗概雖然大致相同，細節卻有許多差異。比如事發地點，有的說是高雄岡山，有的說是嘉義蘭潭，也有說是台南、屏東的；照片拍攝時間，從1994年12月到1995年7月都有；參與人數也有3人、4人、6人、8人的版本 |
+| wd-q89656688-c07 | exact | pansci.asia | According to the article, because of the legend the fish-farming trade plunged: the price of tilapia per kilogram dropped from 45 to 35 and fishing-pond businesses grew quiet. | 當時因為人面魚的傳說，養殖魚業的生意一落千丈，吳郭魚每公斤價格從45元掉到35元，就連釣魚場生意也變得冷冷清清。 |
+| wd-q89656688-c08 | exact | pansci.asia | The article quotes a parapsychology teacher on the television programme Guihua Lianpian (鬼話連篇) that many people mailed him the 人面魚 photograph, and some told him that whoever receives the photo must copy and send it on to ward off misfortune (消災解厄). | 節目當中靈學老師提到，有許多人將人面魚照片寄給他，並且告訴他人面魚的故事（雖然版本各不相同）。其中有人告訴他，「拿到這張照片，一定要拷貝一張送出去，這樣才能夠消災解厄。」 |
+| wd-q89656688-c09 | exact | pansci.asia | The article records a 魚精 (fish-spirit) legend at Lantan (蘭潭) in Chiayi: a great fish spirit is said to take a human life in return whenever its fish soldiers are caught by anglers, so each large fish caught is followed by a drowning, called 蘭潭抓交替. | 傳說蘭潭內住著一隻大魚精，每當他的魚兵魚將被釣客抓走，就會抓一條人命來賠，因此每釣起一隻大魚，就會發生一起溺水事件，這被稱為「蘭潭抓交替」。 |
+| wd-q89656688-c10 | exact | pansci.asia | The article's authors explain that the human brain, being oversensitive to faces, can see a face in any image with some outline, and conclude that the 人面魚 is merely a coincidence from the brain's sensitivity to faces. | 只要有一些輪廓，我們對人臉過度敏感的大腦，就可以把它看成一張臉。 |
 
 
 ## snakes-in-chinese-mythology — skip
@@ -540,10 +604,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wuzhiqi — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 11, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -552,6 +613,14 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | wuzhiqi-c03 | loose | en.wikipedia.org | The Taiping Guangji describes defeat by Yu and confinement beneath Turtle Mountain. | Wuzhiqi is also described in the Song dynasty anthology Taiping guangji as a "monkey-like demon" residing in the Huai River; it is defeated by Yu the Great and imprisoned under Turtle Mountain (龜山) as part of his effort to control the Great Flood. |
 | wuzhiqi-c04 | exact | en.wikipedia.org | Poul Andersen identified a Wuzhiqi iron statue at Berlin's Asian Art Museum in 2001. | A cast-iron statue depicting Wuzhiqi was gifted to the German artist Hanna Bekker vom Rath and later housed at the Museum of Asian Art in Berlin. Described as the "most intriguing and puzzling gift" to the museum, it was only identified in 2001 by University of Hawaii professor Poul Andersen. Andersen also documented the emergence of Wuzhiqi-inspired cults in northern Anhui. |
 | wuzhiqi-c05 | exact | en.wikipedia.org | Some scholars propose it as a model for Sun Wukong, but the figures remain distinct in the novel. | Wuzhiqi "has provided many scholars with a prototype of Sun Wukong" ... but that Wuzhiqi and Sun Wukong are "kept quite distinct" in the novel. |
+| wuzhiqi-c06 | exact | zh.wikisource.org | The Taiping Guangji (太平廣記) text names a water god of the Huai (淮) and Guo (渦) rivers, Wuzhiqi (無支祁), skilled at answering and speaking and able to judge the depth of the rivers and the distance across the plains. | 乃獲淮、渦水神，名無支祁，善應對言語，辨江淮之淺深，原隰之遠近。 |
+| wuzhiqi-c07 | exact | zh.wikisource.org | Its form is like an ape with a shrunken nose, high forehead, blue-green body, white head, golden eyes and snow-white teeth; its neck can stretch a hundred chi, its strength surpasses nine elephants, and it strikes, leaps and runs swiftly. | 名無支祁，善應對言語，辨江淮之淺深，原隰之遠近。形若猿猴，縮鼻高額，青軀白首，金目雪牙，頸伸百尺，力窬九象，搏擊騰踔疾奔，輕利倏忽，聞視不可久。 |
+| wuzhiqi-c08 | exact | zh.wikisource.org | Yu (禹) handed it to Zhanglü (章律) and Niaomuyou (鳥木由), who could not subdue it; only Gengchen (庚辰) could. | 乃獲淮、渦水神，名無支祁，善應對言語 ... 禹授之章律，不能制；授之鳥木由，不能制；授之庚辰，能制。 |
+| wuzhiqi-c09 | exact | zh.wikisource.org | Gengchen (庚辰) drove off the spirit-beings crowding around it in battle; its neck was chained and its nose pierced with a golden bell, and it was moved to the foot of Turtle Mountain (龜山) at Huaiyin (淮陰) so the Huai River would flow peacefully to the sea. After that, those who drew this form were said to avoid the troubles of Huai waves, wind and rain. | 乃獲淮、渦水神，名無支祁，善應對言語 ... 鴟脾桓木魅水靈山妖石怪，奔號聚繞以數十載，庚辰以戰逐去。頸鎖大索，鼻穿金鈴，徙淮陰之龜山之足下，俾淮水永安流注海也。庚辰之後，皆圖此形者，免淮濤風雨之難。 |
+| wuzhiqi-c10 | exact | zh.wikisource.org | In the Li Tang (李湯) story, dozens of fishermen and swimmers got hold of an iron chain and could not control it until more than fifty oxen were added, when the chain stirred and gradually drew toward the bank. | 遂告湯，湯命漁人及能水者數十，獲其鎖，力莫能制。加以牛五十餘頭，鎖乃振動，稍稍就岸。 |
+| wuzhiqi-c11 | exact | zh.wikisource.org | At the end of the chain appeared a beast shaped like an ape, with a white head, long mane, snow-white teeth and golden claws, which burst ashore about five zhang tall. | 鎖之末，見一獸，狀有如猿，白首長鬐，雪牙金爪，闖然上岸，高五丈許。 |
+| wuzhiqi-c12 | exact | zh.wikisource.org | The beast finally stretched its neck and opened eyes that flashed like lightning, glared at the people as if to rage so that the onlookers fled, then slowly dragged the chain and the oxen into the water and never reappeared. | 久乃引頸伸欠，雙目忽開，光彩若電。顧視人焉，欲發狂怒。觀者奔走。獸亦徐徐引鎖拽牛，入水去，竟不復出。 |
+| wuzhiqi-c13 | exact | zh.wikisource.org | The text concludes that what Li Tang (李湯) saw matches Yang Heng's (楊衡) account and the Yue Du Jing (岳瀆經). | 獸亦徐徐引鎖拽牛，入水去，竟不復出。 ... 即李湯之見，與楊衡之說，與《岳瀆經》符矣。 |
 
 
 ## ao-run — lulus-otomatis
@@ -570,10 +639,7 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## bifang — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -582,6 +648,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | bifang-c03 | exact | en.wikipedia.org | The Shanhaijing gives crane-like features, red markings on green, and a white beak. | The Shanhaijing also known as the Classic of Mountains and Seas is of indeterminate age, yet a perennial favourite. The commentary by Guo Pu is subsequent. The Bifang bird is item sixty-nine. The Bifang is described here as one-legged, crane-like, red markings on green, white-beaked, named by onomatopoiesis by the sound it makes, and an omen of fire (Strassberg 2002, 110–111). |
 | bifang-c04 | exact | en.wikipedia.org | Bifang is associated with an omen of fire. | The Shanhaijing also known as the Classic of Mountains and Seas is of indeterminate age, yet a perennial favourite. The commentary by Guo Pu is subsequent. The Bifang bird is item sixty-nine. The Bifang is described here as one-legged, crane-like, red markings on green, white-beaked, named by onomatopoiesis by the sound it makes, and an omen of fire (Strassberg 2002, 110–111). |
 | bifang-c05 | exact | en.wikipedia.org | The Huainanzi associates this bird with the wood element. | The Bifang bird is described in the Huainanzi, developed by various persons associated with the circle around Liu An, ruler of Huainan, dating back to the second century BCE. Huainanzi associates the Bifang bird with the Wu Xing element Wood (Strassberg 2002, 110–111) |
+| bifang-c06 | exact | zh.wikisource.org | The Shanhaijing describes a bird named Bifang (畢方) shaped like a crane, one-legged, with red markings on a blue-green body and a white beak. | 有鳥焉，其狀如鶴，一足，赤文青質而白喙，名曰畢方，其鳴自叫也，見則其邑有譌火 |
+| bifang-c07 | exact | zh.wikisource.org | According to the Shanhaijing, its cry is like calling its own name, and when it is seen, the town (邑) where it appears suffers a strange or erroneous fire (譌火). | 有鳥焉，其狀如鶴，一足，赤文青質而白喙，名曰畢方，其鳴自叫也，見則其邑有譌火 |
+| bifang-c08 | exact | zh.wikisource.org | The one-legged bird is recorded on Mount Zhang'e (章莪之山), described as lacking grass and trees and rich in jade-like stones. | 又西二百八十里，曰章莪之山，無草木，多瑤碧 ... 有鳥焉，其狀如鶴，一足 |
+| bifang-c09 | exact | zh.wikisource.org | In the Hanfeizi, when the Yellow Emperor (黄帝) gathered ghosts and spirits atop Mount Tai, Bifang was beside his chariot (象車) drawn by six dragons, with Chiyou in front, the Wind Earl sweeping, and the Rain Master sprinkling the road. | 黄帝合鬼神於泰山之上，駕象車而六蛟龍，畢方並鎋，蚩尤居前，風伯進掃，雨師洒道 |
 
 
 ## chang-monster — lulus-otomatis

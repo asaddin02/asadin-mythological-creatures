@@ -1,6 +1,6 @@
 # Review batch-075
 
-Diperiksa 2026-10-06T15:24:10.195Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md.
+Diperiksa 2026-10-06T19:40:23.887Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md.
 
 ## keibu-keioiba — lulus-otomatis
 
@@ -269,10 +269,7 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## banjhakri-and-banjhakrini — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -281,14 +278,26 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | banjhakri-and-banjhakrini-c03 | exact | en.wikipedia.org | Banjhakri is portrayed as short and hairy with large ears and backward-pointing feet. | Banjhākri is a short, wild, simian trickster who is a descendant of the Sun. His ears are large and his feet point backward. Long, matted hair covers his entire body, except for his face and palms, and he plays a golden dhyāngro. The dhyangro is the frame drum played by Nepali jhākri. |
 | banjhakri-and-banjhakrini-c04 | exact | en.wikipedia.org | He takes children with shamanic potential to his cave for training. | Banjhākri finds human children who have the potential to be great shamans, and takes them back to his cave for training. |
 | banjhakri-and-banjhakrini-c05 | exact | en.wikipedia.org | Children who pass Banjhakrini's initiation return with shamanic training. | He trains the children who pass Banjhākrini's initiation. When the children return home with their shamanic training, they can become more powerful than the shamans trained by people. |
+| banjhakri-and-banjhakrini-c06 | exact | www.nepjol.info | According to this article, nearly all caste-based traditions of shamanism in the region consider banjhakri the original guru of all shamans and the source of all shamanic knowledge. | Nearly all caste-based traditions of shamanism in the region consider banjhakri as the original guru of all shamans and the source of all shamanic knowledge. |
+| banjhakri-and-banjhakrini-c07 | exact | www.nepjol.info | Banjhakri is associated with deep mountainous forests and is often thought to reside in caves, caverns, big cliffs, sources of springs, and behind waterfalls. | Associated with deep mountainous forests, banjhakri is often thought to reside in caves, caverns, big cliffs, sources of springs, and behind the waterfalls. |
+| banjhakri-and-banjhakrini-c08 | exact | www.nepjol.info | Banjhakri is universally described as a short ape-like man with a conical golden head, red face, long ears, long tangled hair all over his body, and a long white beard. | He is universally described as a short ape-like man, with a conical golden head, red face, long ears, long tangled hair all over his body and a long white beard |
+| banjhakri-and-banjhakrini-c09 | exact | www.nepjol.info | To impart his recondite shamanic knowledge, a banjhakri kidnaps 'unblemished' young people and trains them for an uncertain period ranging from a couple of days to months. | To impart his recondite shamanic knowledge, a banjhakri kidnaps “unblemished” young people and trains them for an uncertain period of time, ranging from a couple of days to months. |
+| banjhakri-and-banjhakrini-c10 | exact | www.nepjol.info | Almost all accounts describe banjhakri as a kind and intelligent teacher. | Nevertheless, almost all accounts describe banjhakri as a kind and intelligent teacher. |
+| banjhakri-and-banjhakrini-c11 | exact | www.nepjol.info | In sharp contrast with banjhakri, his consort banjhakrini is described as a big beastly creature with long saggy breasts, violent in nature and fond of devouring human flesh. | This is a sharp contrast with his consort, banjhakrini, who is described as a big beastly creature, with long saggy breasts, who is violent in nature and loves to devour human flesh |
+| banjhakri-and-banjhakrini-c12 | exact | www.nepjol.info | Banjhakri has to constantly dominate his wife through his power so that she would not eat his pupils. | Indeed, banjhakri has to constantly dominate his wife through his power, so that she would not eat his pupils |
+| banjhakri-and-banjhakrini-c13 | exact | www.nepjol.info | Children are warned to run quickly downhill if they meet a banjhakrini, because she is likely to fall over her long breasts, which she throws over her shoulder when going uphill so as to move much faster. | Children are warned to run away quickly downhill if they meet a banjhakrini as she will likely fall over her long breasts, which she throws over her shoulder when going upwards so as to be able to move much faster. |
+| banjhakri-and-banjhakrini-c14 | exact | www.nepjol.info | The banjhakrini is held to be the most powerful of all witches and is feared by jhakri in many areas of Nepal. | The banjhakrini is the most powerful of all witches and is feared by jhakri in many areas of Nepal |
+| banjhakri-and-banjhakrini-c15 | exact | www.nepjol.info | In one creation story, Mahadev fell sick and in a dream gave a mantra and caused a disciple to come to his aid; this first disciple, made by Mahadev to cure himself, was a banjhakri. | Mahadev fell sick and needed someone to blow on him and cure him, so in a dream he gave a mantra and caused a disciple to come down to his aid ... This first disciple, the one made by Mahadev to cure himself, was a banjhakri. |
+| banjhakri-and-banjhakrini-c16 | exact | www.nepjol.info | Unlike mainstream Hinduism, which holds Parvati as the ideal virtuous matron, the Chepang believe her to be a malicious witch who tried to kill her own son; in this lore Mahadev saved their son by creating the first banjhakri and killed Parvati. | While mainstream Hinduism holds Parvati as the ideal virtuous matron, Chepangs believe her to be a malicious witch who tried to kill her own son. According to this lore, Mahadev saved their son by creating the first banjhakri and killed Parvati for her crime |
+| banjhakri-and-banjhakrini-c17 | exact | www.nepjol.info | The initiates are taught mantar (incitation) with special dhyangro beats that they must recite and sing to cure illnesses and chase away ghostly spirits. | They are taught mantar (incitation) with special dhyangro beats that they will have to recite and sing to cure illnesses and chase ghostly spirits |
 
 
 ## chedipe — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 15 (exact 6, unreachable 9), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 9 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -297,6 +306,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | chedipe-c03 | exact | en.wikipedia.org | She is portrayed riding a tiger on a moonlit night. | The chedipe is described as a vulgar woman riding on a tiger in the moonlit night. The typical chedipe story carries out with them choosing a house and magically forcing the closed doors of the house open, to which she enters naked. She casts a spell on the residents of the home, putting them in a deep sleep. She then sucks the blood of all of the men in the house through their toes. |
 | chedipe-c04 | exact | en.wikipedia.org | In tales she puts a household to sleep and sucks men's blood through their toes. | She casts a spell on the residents of the home, putting them in a deep sleep. She then sucks the blood of all of the men in the house through their toes. |
 | chedipe-c05 | exact | en.wikipedia.org | In the Murulupuli form she becomes a tiger with one human leg. | Sometimes, the chedipe undresses and turns into a tiger with one human leg and attacks men in the forest. This form is known as Murulupuli ("enchanting tiger"). |
+| chedipe-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The name Chedipe (prostitute) is applied to sorceresses in the Godavari district. | The name Chedipe (prostitute) is applied to sorceresses in the Godavari district. |
+| chedipe-c07 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The Chedipe is believed to ride on a tiger at night over the boundaries of seven villages and to return home at early morning. | The Chedipe is believed to ride on a tiger at night over the boundaries of seven villages, and return home at early morn. |
+| chedipe-c08 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | When she does not like a man, she goes to him bare-bodied at dead of night, and the closed doors of the house where he sleeps open before her; she sucks his blood by putting his toe in her mouth, and he then lies like a corpse. | When she does not like a man, she goes to him bare-bodied at dead of night, the closed doors of the house in which he is sleeping opening before her. She sucks his blood by putting his toe in her mouth. He will then lie like a corpse. |
+| chedipe-c09 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | The next morning the victim feels uneasy and intoxicated as if he had taken ganja and stays so all day; if he takes no medicine from someone skilled in treating such cases, it is said he will die. | Next morning he feels uneasy and intoxicated, as if he had taken ganja, and remains in this condition all day. If he does not take medicine from some one skilled in the treatment of such cases, it is said that he will die. |
+| chedipe-c10 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | When a Chedipe enters a house, all those who are awake become insensible, and those who are seated fall down as if they had taken a soporific drug. | When a Chedipe enters a house, all those who are awake will become insensible, those who are seated falling down as if they had taken a soporific drug. |
+| chedipe-c11 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | Sometimes she drags out the tongue of the intended victim, who dies at once. | Sometimes she drags out the tongue of the intended victim, who will die at once. |
+| chedipe-c12 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | If the man is brave and tries to kill the Chedipe with any instrument he has with him, she runs away; and if a man of her village detects her mischief, she assumes her real form and blandly says she is only digging roots. | If the man is a brave fellow, and tries to kill the Chedipe with any instrument he may have with him, she will run away ; and, if any man belonging to her village detects her mischief, she will assume her real form, and say blandly that she is only digging roots. |
+| chedipe-c13 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | Taking the form of a tiger with one leg in human form, she falls on any passer-by in the jungle; thus disguised she is called Marulupuli (enchanting tiger). | fall on any passer-by in the jungle, assuming the form of a tiger with one of the legs in human form. When thus disguised, she is called Marulupuli (enchanting tiger). |
+| chedipe-c14 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | If the victim is properly treated, he recovers in about ten days. | If he is properly treated, he will recover in about ten days. |
+| chedipe-c15 | exact | en.wikipedia.org | Some traditions say she feasts only on the strongest man of the house; others suggest the chedipe targets only the man she dislikes. | Some traditions say that she feasts only on the strongest man of the house. Others suggest that the chedipe targets only the man whom she dislikes. |
 
 
 ## rantas — lulus-otomatis
@@ -377,10 +396,10 @@ Klaim 15 (exact 15), sumber 2, gambar 0.
 
 ## eight-great-yaksa-generals — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `places[0].name` Tidak muncul di kutipan mana pun: Buddhas. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -389,29 +408,34 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | eight-great-yaksa-generals-c03 | exact | en.wikipedia.org | In East Asia they are also known as the Eight Great Heavenly Kings. | In East Asia, they are also variously known as the Eight Great Yakṣas (八大藥叉), the Eight Great Heavenly Kings (八大天王), and the Eight Brothers of Vaiśravaṇa (毘沙門八兄弟). |
 | eight-great-yaksa-generals-c04 | exact | en.wikipedia.org | A conversion narrative transforms formerly malevolent spirits into benevolent guardians. | Originally malevolent beings, their conversion led to their deification as benevolent guardian deities. |
 | eight-great-yaksa-generals-c05 | exact | en.wikipedia.org | The generals rank at the top among yakshas serving Vaisravana. | Among the many yakṣas under Vaiśravaṇa's rule, the Eight Great Yakṣa Generals are ranked at the top of the hierarchy. Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas that serve their king and are said to protect those who venerate them. A similar list may be found among the Twenty-Eight Great Yakṣa Generals. |
+| eight-great-yaksa-generals-c06 | exact | en.wikipedia.org | According to Buddhist mythology, Vaiśravaṇa is the chief of these beings and long ago dwelt together with them in the realm of darkness; when he converted to Buddhism, the many demonic spirits under his jurisdiction likewise became devotees of the Buddha. | According to Buddhist mythology, Vaiśravaṇa is the chief of these beings, and long ago dwelt together with them in the realm of darkness. When Vaiśravaṇa converted to Buddhism, the many demonic spirits under his jurisdiction likewise assumed the role of devotees to the Buddha. |
+| eight-great-yaksa-generals-c07 | exact | en.wikipedia.org | Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas who serve their king and are said to protect those who venerate them. | Always at Vaiśravaṇa's command, these deities command 36,000 yakṣas that serve their king and are said to protect those who venerate them. |
+| eight-great-yaksa-generals-c08 | exact | projects.mcah.columbia.edu | According to this dictionary, yasha also act as attendants of Bishamonten (毘沙門天), who is said to have 'eight yasha generals' (yasha hachidaishō, 夜叉八大将) under his command. | They also act as attendants of *Bishamonten 毘沙門天, who is said to have under his command “eight yasha generals” yasha hachidaishō 夜叉八大将. |
+| eight-great-yaksa-generals-c11 | exact | buddhism.lib.ntu.edu.tw | According to this paper's abstract, a mandala of Vaiśravaṇa and the eight yakṣas is painted on the south wall of the winding corridor in Cave 5 of the East Thousand Buddha Caves at Anxi; the author found this subject at no other cave including Mogao, its textual basis is not in Chinese-translated scriptures, and it is a new subject of the Xixia period influenced by Tibetan tantric Buddhism. | 安西東千佛洞第5窟繞道南向壁面所畫毗沙門天王及八大夜叉曼荼羅,據筆者的初步調查,該題材不見於莫高窟及其它石窟,其經典依據亦不見於漢譯經典,為西夏時代受藏傳密教影響的一個新的題材。 |
 
 
 ## enma — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 10, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | enma-c01 | exact | fr.wikipedia.org | Enma is a Japanese god regarded as the king of hell. | est le dieu japonais et le roi d'enfer dans la mythologie japonaise |
 | enma-c02 | exact | fr.wikipedia.org | This source associates his statue near Kamakura with Unkei. | Sa statue siège dans un temple situé à proximité de Kamakura au Japon. Elle aurait été sculptée par le célèbre artiste Unkei. |
-| enma-c03 | exact | fr.wikipedia.org | Legend says Enma asked the deceased Unkei to return and make an accurate portrait. | Maintenant que vous m'avez vu de vos propres yeux, retournez-y et faites de moi un bon portrait. |
+| enma-c03 | exact | fr.wikipedia.org | According to the legend, when Unkei died he was summoned before the tribunal of Enma-o, who told him that he had made many portraits of him but none resembled him, and told him to go back and make a good portrait. | Lorsqu'Unkei mourut, il fut cité à comparaître devant le tribunal d'Enma-o qui lui dit : « Vous avez réalisé de nombreux portraits de ma personne tout au long de votre vie sur la Terre ; mais aucun ne me ressemble. Maintenant que vous m'avez vu de vos propres yeux, retournez-y et faites de moi un bon portrait. » |
 | enma-c04 | exact | fr.wikipedia.org | The tale says Unkei returned to Earth and made the temple statue. | La légende dit que Unkei revint sur Terre et réalisa la fameuse statue qui orne le temple près de Kamakura. |
+| enma-c05 | loose | fr.wikipedia.org | Besides Enma, he is also called Enma-ō (閻魔王) or Enma-daiō (閻魔大王). | Enma-ō (閻魔王) ou Enma-daiō (閻魔大王) est le dieu japonais et le roi d'enfer dans la mythologie japonaise |
+| enma-c06 | exact | projects.mcah.columbia.edu | According to this dictionary, the Ten Kings are the ten kings of hell who preside at the gates of the underworld, assigning souls to heaven or hell. | Ten Kings. The ten kings of hell who preside at the gates of the underworld, assigning souls to heaven or hell. |
+| enma-c07 | exact | projects.mcah.columbia.edu | According to this dictionary, the Buddhist idea of hell derived from the Daoist underworld headed by Taishanfujun and his ten attendants; by the Tang dynasty this folk deity was associated with the Indian god Yama (Jp: Enmaō), the Lord of Death, incorporated into popular Chinese Buddhism, and then imported into Japan during the Heian period. | The Buddhist idea of hell derived from the Daoist underworld headed by Taishanfujun (Jp: Taizanfukun 太山府君) and his ten attendants. By the Tang dynasty, this folk deity was associated with the Indian god Yama (Jp: *Enmaō 閻魔王), the Lord of Death, and incorporated into popular Chinese Buddhism, and then imported into Japan during the Heian period. |
+| enma-c08 | exact | projects.mcah.columbia.edu | According to this dictionary, the Ten Kings usually sit in front of desks and wear the caps and robes of Chinese officials, but their faces, distorted by bulging eyes and grimacing mouths, reveal their terrifying function. | Typically the Ten Kings are rendered in painting on sets of ten hanging scrolls or in ten wooden sculptures. They usually sit in front of desks, and wear the caps and robes of Chinese officials. However, their faces, distorted by bulging eyes and grimacing mouths, reveal their terrifying function. |
+| enma-c09 | exact | projects.mcah.columbia.edu | According to this dictionary, each king is associated with its true nature in the form of a Buddha (honjibutsu), and Enmaō is listed as the fifth king, paired with Jizō. | each king is also associated with its true nature in the form of a Buddha *honjibutsu 本地仏. ... 5 Enmaō (Ch: Yanlowang) / 57th day: Jizō. |
+| enma-c10 | exact | projects.mcah.columbia.edu | According to this dictionary, with the rise of popular sects and the cult of Jizō, fear of hell became prominent in 13th-century Japanese Buddhism, and many temples built worship halls called enmadō (閻魔堂) with paintings or sculpture of the jūō inside. | With the rise of popular sects and the cult of Jizō, the fear of hell became a prominent feature in 13th-century Japanese Buddhism. Many temples built worship halls called enmadō 閻魔堂, with paintings or sculpture of the jūō placed inside. |
+| enma-c11 | exact | projects.mcah.columbia.edu | According to this dictionary, the Ten Kings and Enmaō in particular were parodied by late Edo period artists such as Kawanabe Kyōsai (1831-89). | The Ten Kings and Enmaō, in particular, were parodied by late Edo period artists such as Kawanabe Kyōsai 河鍋暁斎 (1831-89). |
 
 
 ## haosi-namoinu — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -421,28 +445,31 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | haosi-namoinu-c04 | exact | en.wikipedia.org | Her father remarries her mother's sister after her mother dies. | After Haosi Namoinu's mother's untimely death, her father remarried to Nganurol Laoshigam Chanu (Loisingam Chanu), her mother's sister. |
 | haosi-namoinu-c05 | exact | en.wikipedia.org | Her stepmother forces her to husk rice, cook and serve food. | She was forced to husk rice, cook food, and serve it. |
 | haosi-namoinu-c06 | exact | en.wikipedia.org | Her story appears in the Khongjomnubi Nongarol. | The story of lady Haosi Namoinu is mentioned in the Khongjomnubi Nongarol as one of its two content stories. The following is a passage from the text: |
+| haosi-namoinu-c07 | exact | www.e-pao.net | In this version, a man named Haoku Pakhang is left by his wife when his daughter is still very young, and he names his daughter Haoshi Namoinu. | Once upon a time there was a man named Haoku Pakhang. His wife left a daughter behind when his daughter was still very young. He named her daughter Haoshi Namoinu. |
+| haosi-namoinu-c08 | exact | www.e-pao.net | In this version the stepmother forces her stepdaughter to do all the work: chopping wood, collecting vegetables, dishing and cooking food, and gathering paddy and many vegetables from the field. | Chopping of woods, collecting vegetables, dishing, cooking, and on top of that she was sent to gather paddies from the field, and to gather many different vegetables, each and every work was forced to be done by her step-daughter. |
+| haosi-namoinu-c09 | exact | www.e-pao.net | In this version, instead of praising her hard work, the stepmother scolded her and beat her with kitchen utensils. | Instead of praising for her hard work, her stepmother scolded her and beat her with kitchen utensils. |
+| haosi-namoinu-c10 | exact | www.e-pao.net | In this version, she says it is better to turn herself into a Harinongnang and hide in the trees; by saying this she was turned into a Harinongnang and flew towards the farthest hill. | She said that it is better to turn herself to Harinongnang and hide herself in the trees, in their sounds of 'neng neng'. By saying this, she was turned to Harinongnang and flew towards the farthest hill. |
+| haosi-namoinu-c11 | exact | www.e-pao.net | In this version, Haoshi Namoinu could bear her stepmother's hatred no more and was at last turned into a Harinongnang. | The poor Haoshi Namoinu cannot take any more hatred of her stepmother; she was at last turned into a Harinongnang. |
 
 
 ## hingchabi — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 2, exact 5), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hingchabi-c01 | loose | en.wikipedia.org | Hingchabi is a creature of Meitei mythology, folklore and religion in Kangleipak. | A Hingchabi (Meitei: ꯍꯤꯡꯆꯥꯕꯤ, Old Manipuri: ꯍꯤꯡꯆꯥꯄꯤ, romanized: hing-chaa-pee, lit. 'giantess') is a mythical creature in Meitei mythology, folklore and religion (Sanamahism) of Antique Kangleipak (Ancient Manipur). She has characters similar to those of the vampires as well as the witches. The terms, "hing" means "raw" and "chaa" means "to eat" in Meitei language (Manipuri language). |
 | hingchabi-c02 | exact | en.wikipedia.org | The source compares her characteristics with vampires and witches. | She has characters similar to those of the vampires as well as the witches. |
 | hingchabi-c03 | exact | en.wikipedia.org | In Meitei, hing means raw and chaa means to eat. | The terms, "hing" means "raw" and "chaa" means "to eat" in Meitei language (Manipuri language). |
+| hingchabi-c04 | exact | archive.org | In a footnote this ethnography glosses Hing-cha-bi as hing = living, cha = to eat, bi = honorific or respectful suffix, that is, 'that which eats living persons'. | Hing-cha-bi (hing = living, cha = to eat, bi = honorific or respectful suffix), that which eats living persons. |
+| hingchabi-c05 | exact | archive.org | In this ethnography, the vast crowd of 'hing-chabis' or vampires ('that which eats live men') and demons are beings the people believe in and fear, and fear is the basis of the ritual by which they try to propitiate them. | vast crowd of hing-cliabis or vampires (king = alive, clia = to eat, that which eats live men), lais liellois, or demons, in which the people believe and, fear being the basis of their ritual, which they try to propitiate. |
+| hingchabi-c06 | exact | serialsjournals.com | According to this article the Meiteis have a firm belief in magical power, evil spirits, black magic and witchcraft; Hellois (witches), Hingchabis (vampires) and Saroi Ngaroi (evil spirits) are believed to occupy the outside world, so elders restrict movements on certain days and times to avoid unwanted happenings. | The Meiteis have a firm belief in magical power, evil spirits, black magic, oracle, witchcraft and evil eyes. ... Hellois (witches), Hingchabis (vampires) and Saroi Ngaroi (evil spirit) are elements which are believed to occupy the outside world. Due to this reason, the elders restrict movements on certain days and time to avoid unwanted happenings. |
+| hingchabi-c07 | loose | en.wikipedia.org | According to Wikipedia, the name is written ꯍꯤꯡꯆꯥꯕꯤ in Meitei and ꯍꯤꯡꯆꯥꯄꯤ in Old Manipuri, romanized hing-chaa-pee, literally 'giantess'. | (Meitei: ꯍꯤꯡꯆꯥꯕꯤ, Old Manipuri: ꯍꯤꯡꯆꯥꯄꯤ, romanized: hing-chaa-pee, lit. 'giantess') |
 
 
 ## hiyang-athouba — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -452,30 +479,40 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | hiyang-athouba-c04 | exact | en.wikipedia.org | The being is said to resemble the deceased. | The transformed being is often said to appear in the likeness of the deceased person. |
 | hiyang-athouba-c05 | exact | en.wikipedia.org | In one tale an abandoned woman dies and transforms after a cat jumps over her corpse. | According to the folktale, a cat jumps over the corpse, triggering her transformation into a Hiyangthau. |
 | hiyang-athouba-c06 | exact | en.wikipedia.org | When her husband returns, the being answers in his wife's voice and invites him inside. | When he calls for his wife, the Hiyangthau responds using her voice and invites him inside. |
+| hiyang-athouba-c07 | exact | e-pao.net | In this folktale a woman became seriously ill and died without anyone knowing; her dead body lay in the house, a cat jumped over the body, and she turned into Hiyanthau. | The woman became seriously ill and died. No one knew she was dead. Her dead body lied in the house. A cat jumped over body and she turned into Hiyanthau. |
+| hiyang-athouba-c08 | exact | e-pao.net | In this folktale, when the husband returned and called, Hiyanthau replied in the form of the wife and told him to come in; she wore dishevelled clothes and her hair was rough as it had not been combed for days. | 'It is open. Just come in,' replied Hiyanthau in the form of the wife. The husband pushed the door open and came in. The wife was in dishevelled cloths. Her hair was rough as it had not been combed for days. |
+| hiyang-athouba-c09 | exact | e-pao.net | In this folktale the husband noticed his wife's broken body and trembled in fear; the wife looked at him with big round eyes and showed him her enormous teeth. | Then he noticed the broken body of his wife and trembled in fear. The wife looked at him with big round eyes and showed him her enormous teeth. |
+| hiyang-athouba-c10 | exact | e-pao.net | In this folktale the husband climbed up a liana; Hiyanthau came after him but could not touch the liana, so she threw stones at him and then sat down and waited for him to come down. | So ran and climbed up a liana. Hiyanthau came after him. She could not the touch the liana so she threw stone at him. Then sat down and waited for him to come down. |
+| hiyang-athouba-c11 | exact | e-pao.net | In this folktale, as the birds started chirping toward morning, Hiyanthau had to go back to the house and turned into a corpse. | The birds started chirping as the morning time approached. Hiyanthau had to go back to the house, and she turned into a corpse. |
+| hiyang-athouba-c12 | exact | e-pao.net | In this folktale a man who knew all about spirits and ghosts said she had turned into Hiyanthau and must be cremated at once with the necessary ceremonies; otherwise at night she would become alive again and torment the entire village. | A knowledgeable man among them who knew all about spirits and ghost told them that she had turned into Hiyanthau. 'Without losing any time she must be cremated with all the necessary ceremonies. Otherwise, at night she will become alive again and torment the entire village, |
+| hiyang-athouba-c13 | exact | en.wikipedia.org | Hiyang Athouba is a figure in Meitei mythology and folklore of ancient Kangleipak (early Manipur). | is a figure in Meitei mythology and folklore of ancient Kangleipak (early Manipur). |
 
 
 ## jarita — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | jarita-c01 | loose | en.wikipedia.org | Jarita is a female Sarngika bird whose story appears in the Mahabharata. | Jarita (Sanskrit: जरित, IAST Jaritā) was a certain female bird of the species called Sarngika, whose story is told in the Mahabharata. |
 | jarita-c02 | exact | en.wikipedia.org | Mandapala takes the form of a male bird and has four sons with her. | The saint Mandapala, who returned from the shades because he had no son, assumed the form of a male bird, and by her had four sons. |
-| jarita-c03 | exact | en.wikipedia.org | Mandapala later abandons her. | by her had four sons. He then abandoned her. |
+| jarita-c03 | exact | en.wikipedia.org | Mandapala later abandons her. | The saint Mandapala, who returned from the shades because he had no son, assumed the form of a male bird, and by her had four sons. He then abandoned her. |
 | jarita-c04 | exact | en.wikipedia.org | She strives to protect her young when the Khandava Forest burns. | In the conflagration of the Khandava Forest she showed great devotion to the protection of her children |
 | jarita-c05 | exact | en.wikipedia.org | Her young are saved through Mandapala's influence over the fire god. | they were eventually saved through the influence of Mandapala over the god of fire. |
+| jarita-c06 | exact | www.ibiblio.org | In this text the Rishi, assuming the form of a Sarngaka, had connection with a female bird of the same species called Jarita and begat upon her four sons who were all reciters of the Vedas. | Assuming the form of a Sarngaka the Rishi had connection with a female bird of the same species called by the name of Jarita. And he begat upon her four sons who were all reciters of the Vedas. |
+| jarita-c07 | exact | www.ibiblio.org | The ascetic left his sons with their mother in that forest while they were still in eggs and went to another wife called Lapita. | Leaving all those sons of his with their mother in that forest, while they were still within eggs, the ascetic went to (another wife called by the name of) Lapita. |
+| jarita-c08 | exact | www.ibiblio.org | Moved by parental affection, Jarita brought up the children born of her, herself following the pursuits proper to her own species. | Moved by parental affection, she brought up these children born of her, herself following the pursuits proper to her own species. |
+| jarita-c09 | exact | www.ibiblio.org | Praised by Mandapala, Agni was gratified and asked what he could do; Mandapala with joined palms asked Agni to spare his children while burning the forest of Khandava. | thus praised by Mandapala, Agni was gratified with that Rishi of immeasurable energy; and the god, well-pleased, replied, 'What good can I do to thee?' Then Mandapala with joined palms said unto the carrier of clarified butter, 'While thou burnest the forest of Khandava, spare my children.' |
+| jarita-c10 | exact | www.ibiblio.org | In this text, for that reason he did not blaze forth to destroy Mandapala's children while consuming the forest of Khandava. | It was, therefore, O monarch, that he blazed not forth, while consuming the forest of Khandava, for the destruction of Mandapala's children. |
+| jarita-c11 | exact | www.ibiblio.org | Their helpless mother Jarita, knowing the infants were too young to escape, was filled with sorrow and wept aloud. | Their mother, the helpless Jarita, knowing that they were too young to escape, was filled with sorrow and wept aloud. |
+| jarita-c12 | exact | www.ibiblio.org | In her lament Jarita says she sees no way of escape for the infants and will cover them with her wings and die with them. | I do not, even by reflection, see any way of escape for you. I shall even cover you with my wings and die with you. |
+| jarita-c13 | exact | www.ibiblio.org | Jarita proposes that the infants enter a mouse's hole in the ground near the tree to escape the fire. | Hearing what the infants said. Jarita replied, 'There is a hole here in the ground near to this tree, belonging to a mouse. |
+| jarita-c14 | exact | www.ibiblio.org | In her lament Jarita recalls the words of their father: Jaritari, the eldest, will be the support of the race; Sarisrikka will beget progeny; Stamvamitra will be devoted to asceticism; and Drona, the youngest, will become the foremost of those acquainted with the Vedas. | Upon this Jaritari, because he is the eldest of my sons, will my race depend. My second Sarisrikka will beget progeny for the expansion of my ancestors' race. My third, Stamvamitra, will be devoted to asceticism, and my youngest, Drona, will become the foremost of those acquainted with the Vedas. |
 
 
 ## khoirentak-tiger — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -484,14 +521,18 @@ Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
 | khoirentak-tiger-c03 | exact | en.wikipedia.org | It lives in the forests and attacks villagers. | The tiger lived in the forests of the Khoirentak region and attacked villagers. It became a serious threat to the people and was responsible for several deaths. The events related to the tiger later became part of a major conflict involving royal figures of Moirang. |
 | khoirentak-tiger-c04 | exact | en.wikipedia.org | One victim is Kumja Lembi, sent by her stepmother to collect herbs in the forest. | One notable victim was Kumja Lembi, also known as Kumcha Lempi. She was a poor girl who lived with her stepmother and father. Her father was often away from home because of work. Her stepmother sent her to the forest to collect herbs. During this task, she was killed by the tiger. |
 | khoirentak-tiger-c05 | exact | en.wikipedia.org | Angom Nongban Kongyamba dies of wounds caused by the tiger. | Another victim was Angom Nongban Kongyamba, who was seriously injured by the tiger during the later events. He later died from these injuries. |
+| khoirentak-tiger-c06 | exact | en.wikipedia.org | During the court discussion an old man from the Phubala region told the king about the dangerous tiger threatening the people of Khoirentak; the king then changed his decision and announced that whoever killed the tiger would marry Princess Thoibi. | During the court discussion, an old man from the Phubala region informed the king about the dangerous tiger threatening the people of Khoirentak. After hearing this, the king changed his decision. He declared that killing the tiger would decide the matter. He announced that whoever killed the tiger would marry Princess Thoibi. |
+| khoirentak-tiger-c07 | exact | en.wikipedia.org | When they found the tiger both threw their spears but the tiger avoided them; the tiger then attacked Kongyamba and bit him, causing his death. | When they found the tiger, both threw their spears, but the tiger avoided them. The tiger then attacked Kongyamba and bit him, causing his death. |
+| khoirentak-tiger-c08 | exact | en.wikipedia.org | Khamba went back; the tiger was hiding in the bushes but was visible from the king's stadium, jumped at Khamba, and Khamba struck it in the jaws with his spear and finally killed it. | Khamba went back. The tiger was hiding in the bushes but was visible from the king's stadium. The tiger jumped at Khamba. Khamba struck the tiger in its jaws with his spear and finally killed it. |
+| khoirentak-tiger-c09 | exact | archive.org | In this summary of the epic, an old woman tells the King there is a tiger in the nearby jungle that they fear, and the King promises the Princess Thoibi to whoever kills the tiger. | an old woman came forth and said, “ My Lord King, there is a tiger in the jungle hard-by that we fear,” and the King said, “Let the tiger bear witness herein. Unto him that kills the tiger, will I give the Princess Thoibi. |
+| khoirentak-tiger-c10 | exact | archive.org | In this summary of the epic, in the beast's lair they found the body of a girl but newly killed; the tiger turned away the thrown spears and bit Kongyamba so that he died, and Khamba wounded the beast and drove it off. | So they went and sought the lair of the beast, and in it they found the body of a girl but newly killed. Then they found the tiger, and sought to spear it, but it turned the spears away as they threw them. Then the tiger sprang upon them and bit Kongyamba so that he died, but Khamba wounded the beast, and drove it off. |
+| khoirentak-tiger-c11 | exact | archive.org | In this summary of the epic, Khamba entered the jungle once more and found the tiger crouching in a hollow, half hidden by the jungle but in full view of the King's machan. | Then Khamba entered the jungle once more and found the tiger crouching in a hollow half hidden by the jungle, but in full view of the machan of the King. |
+| khoirentak-tiger-c12 | exact | archive.org | In this summary of the epic, the tiger died as it fell; the King then gave rich gifts, wide lands, rights of fishery and robes of honour. | the ravening jaws, so that it died as it fell. Then the King gave rich gifts to Kliamba, and bestowed upon him wide lands and rights of fishery, robes of honour, |
 
 
 ## misshaku-kongo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -500,14 +541,20 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | misshaku-kongo-c03 | exact | en.wikipedia.org | In Japan he is also called Agyo because of his open mouth. | Similarly, he is also known as Agyō (阿形, "a"-form, general term open-mouthed statues in aum pair) in Japan due to this detail as well. |
 | misshaku-kongo-c04 | exact | en.wikipedia.org | Guhyapada and Narayana are considered manifestations of Vajrapani. | Both Guhyapāda and Nārāyaṇa are seen as manifestations of Vajrapāni (Traditional Chinese: 執金剛神; simplified Chinese: 执金刚神; pinyin: Zhíjīngāng shén; Japanese: Shūkongōshin; Korean: Jip geumgang sin; Vietnamese: Chấp kim cang thần), with the name literally meaning "vajra-wielding god". |
 | misshaku-kongo-c05 | exact | zh.wikisource.org | The Zhu tian zhuan names the guardian Miji who vows to remain near Buddha. | 宝积经云。法意太子愿作力士。立名密迹。常亲近佛。在外威仪。省知如来一切密迹秘要之事。信乐不疑。 |
+| misshaku-kongo-c06 | exact | en.wikipedia.org | In Chinese Buddhism, Guhyapāda is regarded as one of the Twenty-Four Protective Deities, a grouping of dharmapalas often enshrined in the Daxiong of temples and monasteries. | In Chinese Buddhism, Guhyapāda is regarded as one of the Twenty-Four Protective Deities, who are a grouping of dharmapalas often enshrined in the Daxiong of temples and monasteries. |
+| misshaku-kongo-c07 | exact | en.wikipedia.org | In China he is also known as General Ha (哈将 Hā Jiāng), in reference to this iconographic detail. | In China, he is also known as General Ha (哈将 Hā Jiāng) in reference to this iconographic detail. |
+| misshaku-kongo-c08 | exact | zh.wikisource.org | According to the Zhu tian zhuan, the figure of Miji is shown with bared torso, glaring eyes and open mouth, a red body, a topknot on the head, a pestle (chu) in hand and bare feet, and is majestic and valiant. | 其像也。露袒其身。怒目开口。徧体赤色。头上有髻。手中执杵。以跣双足。威楞勇倢。 |
+| misshaku-kongo-c09 | exact | zh.wikisource.org | According to the Dīrghāgama as cited in the Zhu tian zhuan, when an adherent of another teaching would not answer, the Buddha said the strongman Miji, vajra bell and pestle in hand, was at his side and would split the man's head into seven parts; the strongman then appeared in the sky and the man believed and submitted. | 长阿含云。外道阿摩昼问佛四姓。佛云汝姓是释迦奴种。彼不肯信。故不答。佛云。汝宜速答。密迹力士手执金刚铃杵在吾左右。当破汝头分为七分。时力士即现空中。彼方信伏。 |
+| misshaku-kongo-c10 | exact | zh.wikisource.org | According to the Zhu tian zhuan, in the time of the First Emperor of Qin, eighteen monks from India, including Shilifang, who were imprisoned at Chang'an were freed when the vajra strongman broke the prison wall. | 又秦始皇时。天竺室利房等沙门一十八人来至长安。始皇囚於狱中。金刚力士破狱垣以出之。 |
+| misshaku-kongo-c11 | exact | zh.wikisource.org | According to the Zhu tian zhuan citing the Golden Light text, Vajra Miji is a great king of spirits, and his retinue of five hundred are all great bodhisattvas. | 光明云。金刚密迹。大鬼神王。及其眷属五百徒党。一切皆是大菩萨等。 |
 
 
 ## nittaewo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 12 (exact 9, unreachable 3), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 3 kutipan tidak bisa dicek otomatis: archive.org (HTTP 500).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -517,14 +564,17 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | nittaewo-c04 | exact | en.wikipedia.org | They are said to walk upright and lack tails. | Unlike monkeys, they walked upright always and had no tails. |
 | nittaewo-c05 | exact | en.wikipedia.org | Tales place them in small groups sleeping in caves or leaf nests in trees. | The nittaewo lived in small parties, and slept in caves or among the branches of trees, in leaf-nests of their own design. |
 | nittaewo-c06 | exact | en.wikipedia.org | Veddha are said to be their enemies, armed with bows and arrows they cannot resist. | The Veddahs themselves were the enemies of the nittaewo, which had no defense against the Veddahs’ bows and arrows. |
+| nittaewo-c07 | exact | en.wikipedia.org | They used no tools, instead disembowelling their prey with their long claws or hooked nails so they could feed on the entrails. | They did not use tools, instead disembowelling their prey with their long claws or hooked nails, allowing them to feed on the entrails. |
+| nittaewo-c08 | exact | en.wikipedia.org | It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel him with its claws. | It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel them with its claws. |
+| nittaewo-c09 | exact | en.wikipedia.org | The last nittaewo were said to have been exterminated by the Veddahs of Leanama in the late 18th century: they were rounded up into a cave whose entrance was blocked with brushwood that was set alight, suffocating them over three days. | The last of the nittaewo were said to have been exterminated by the Veddahs of Leanama during the late 18th century, when they were rounded up into a cave, the entrance of which was then blocked up with brushwood which was set alight, suffocating the trapped nittaewo over three days. |
+| nittaewo-c10 | unreachable (HTTP 500) | archive.org | According to this book, the Nittaewo were a pigmy race that lived at one time in the Kattra-gam country of Lenama. | The Nittaewo were a pigmy race, that lived at one time in the Kattra- gam country of Lenama not far away. |
+| nittaewo-c11 | unreachable (HTTP 500) | archive.org | According to this book, these hairy cannibals attacked in companies, driving their long nails into the flesh, which they tore out and ate; they were afraid only of the buffalo and the dog. | These hairy cannibals attacked in companies, driving their long nails into the flesh which they tore out and ate. They were afraid only of the buffalo and the dog |
+| nittaewo-c12 | unreachable (HTTP 500) | archive.org | According to this book, the Veddas, not very long ago, are said to have herded the last of the Nittaewo into a cave and destroyed them. | The Veddas , not very long ago , are said to have herded the last of them into a cave and destroyed them. |
 
 
 ## shinra-myojin — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -534,14 +584,19 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | shinra-myojin-c04 | exact | en.wikipedia.org | He is also regarded as a protector of sea routes and a mountain deity. | Domestically, he was regarded as a symbol of Jimon and its institutions, but also as a protector of sea routes and as a mountain deity. |
 | shinra-myojin-c05 | exact | en.wikipedia.org | Art typically portrays him as an old man in clothing resembling Tang officials. | In art form, he is typically depicted as an elderly man dressed in the clothes in line with Tang-era officials with Buddhist elements, and historically, developed connections with a number of other figures, including Susanoo, Matarajin, and Mañjuśrī. |
 | shinra-myojin-c06 | exact | en.wikipedia.org | Shinra Myojin can be translated as the shining deity of Silla. | The name "Shinra Myōjin" can be translated as the "Shining deity of Silla". Silla was a historical kingdom on the Korean Peninsula which existed between 57 BCE and 935. The kingdom of Silla (新羅) can be read as "Shiragi; Shiraki; Shinra" and the term myōjin, meaning "bright deity", designates the class of Japanese deities. |
+| shinra-myojin-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, he is one of the "protectors of the dharma" (gohō) in the Tendai sect of Buddhism and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture. | One of the "protectors of the dharma" (gohō;) in the Tendai sect of Buddhism, and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture. |
+| shinra-myojin-c08 | exact | d-museum.kokugakuin.ac.jp | According to legend, during Enchin's (Chishō Daishi's) return from China a deity called Shinra Myōjin appeared onboard the ship as an old man and vowed to protect the Buddha Dharma; after Enchin returned to Japan the deity appeared again and led Enchin to Onjōji. | According to legend, during the return of Enchin (Chishō Daishi) from China, a deity called Shinra Myōjin appeared onboard the ship in the form of an old man and vowed to protect the Buddha Dharma. After Enchin returned to Japan, the deity appeared again and led Enchin to Onjōji. |
+| shinra-myojin-c09 | exact | d-museum.kokugakuin.ac.jp | Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin. | Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin. |
+| shinra-myojin-c10 | exact | d-museum.kokugakuin.ac.jp | This tradition is first recounted in the Onjōji ryūge-e engi, compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, so veneration of the deity preceded that date. | This tradition is first recounted in the Onjōji ryūge-e engi, a legendary history compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, making it evident that veneration of the deity preceded that date. |
+| shinra-myojin-c11 | exact | d-museum.kokugakuin.ac.jp | The deity is most frequently portrayed as an old man wearing Chinese robes and headpiece and holding a sutra scroll and scepter. | The deity is most frequently portrayed iconographically as an old man wearing Chinese robes and headpiece, and holding a sutra scroll and scepter. |
+| shinra-myojin-c12 | exact | en.wikipedia.org | Shinra Myōjin is also regarded as a deity of pestilence; historical sources indicate he was believed both to cause epidemics and to cure illnesses. | Shinra Myōjin is also regarded as a deity of pestilence. Historical sources indicate that he was believed to both cause epidemics and cure illnesses. |
+| shinra-myojin-c13 | exact | en.wikipedia.org | In the eleventh century Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition. | In the eleventh century, Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition. |
+| shinra-myojin-c14 | exact | en.wikipedia.org | In engi stories Shinra Myōjin's primary role is that of a protector of people on sea journeys. | In engi stories, Shinra Myōjin's primary role is that of a protector of people partaking in sea journeys. |
 
 
 ## shomen-kongo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -550,14 +605,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | shomen-kongo-c03 | exact | ja.wikipedia.org | In Taoist belief the sanshi report a person's misdeeds to the heavenly ruler while that person sleeps. | 道教では、人間の体内には三尸という3種類の悪い虫が棲み、人の睡眠中にその人の悪事をすべて天帝に報告に行くという。 そのため、三尸が活動するとされる庚申の日（60日に一度）の夜は、眠ってはならないとされ、庚申の日の夜は人々が集まって、徹夜で過ごすという「庚申待」の風習があった。 |
 | shomen-kongo-c04 | exact | ja.wikipedia.org | The Koshin-machi custom requires people to stay awake throughout the Koshin night. | 庚申の日の夜は人々が集まって、徹夜で過ごすという「庚申待」の風習があった。 |
 | shomen-kongo-c05 | exact | ja.wikipedia.org | The vigil custom begins among Heian aristocrats and later spreads among the public. | 庚申待は平安貴族の間に始まり、近世に入ってからは、近隣の庚申講の人々が集まって夜通し酒宴を行うという風習が民間にも広まった。 |
+| shomen-kongo-c06 | exact | projects.mcah.columbia.edu | According to JAANUS, he is also known as Seishoku Daikongō Yasha (青色大金剛薬叉), a deity guarding people from illnesses thought to come from demons, and one of the raksasa lords ruling the east. | Also known as Seishoku Daikongō Yasha 青色大金剛薬叉. A deity who protects against diseases believed to be caused by demons. Shōmen Kongō is one of the raksasa lords and rules the east. |
+| shomen-kongo-c07 | exact | projects.mcah.columbia.edu | In Buddhist texts he is sometimes said to have been a demon who originally caused disease but was then conquered and re-dedicated himself as a protector against disease. | In Buddhist texts he is sometimes said to have been a demon who originally caused disease but who was then conquered, and he re-dedicated himself as a protector against disease. |
+| shomen-kongo-c08 | exact | projects.mcah.columbia.edu | He often appears as an angry deity with a blue body and four arms: a three-pronged vajra in the upper right hand, a staff in the lower right, a cakra in the upper left, and a noose in the lower left. | Shōmen Kongō often appears as an angry deity with a blue body and four arms. He carries a three-pronged vajra *kongōsho 金剛杵 in his upper right hand, a staff *shakujō 錫杖 in his lower right hand, a cakra (J: rinpō 輪宝) in his upper left hand, and a noose in his lower left hand. |
+| shomen-kongo-c09 | exact | projects.mcah.columbia.edu | Since the Kamakura period, Shōmen Kongō, mixed with Daoism, became a deity of the cult of kōshin. | Since the Kamakura period, Shōmen Kongō, being mixed with Daoism, became a deity of the cult of kōshin. |
+| shomen-kongo-c10 | exact | projects.mcah.columbia.edu | This cult believed that on the eve of the fifth monkey day it was particularly easy to have one's life shortened; to counteract this, believers stayed awake through the night and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko to hold a devotional celebration. | This cult believed that on the eve of fifth monkey day, it was particularly easy to have your life shortened. In order to counteract this danger, believers stayed awake through the night, and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko 猿田彦 to hold a devotional celebration. |
+| shomen-kongo-c11 | exact | ja.wikipedia.org | According to Japanese Wikipedia, he is generally depicted with a wrathful face, trampling an evil demon underfoot, with six arms (sometimes two, four or eight) holding a wheel of the law, bow, arrow, sword, staff and a Shokera (human). | 一般には、足元に邪鬼を踏みつけ、六臂（二・四・八臂の場合もある）で法輪・弓・矢・剣・錫杖・ショケラ（人間）を持つ忿怒相で描かれることが多い。 |
+| shomen-kongo-c12 | exact | ja.wikipedia.org | According to Japanese Wikipedia, the link between Mahākāla and Shōmen Kongō is a mistaken transmission and the two are originally unrelated; he derives from Chinese Daoist thought and developed independently within the Kōshin belief, a Japanese folk belief. | マハーカーラと青面金剛の関係は「誤伝」であり、本来は無関係である。中国の道教思想に由来し、日本の民間信仰である庚申信仰の中で独自に発展した尊格である。 |
 
 
 ## suiten — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `timeline[0].description` Tidak muncul di kutipan mana pun: Januari, Shingon-in, January. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -566,14 +628,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | suiten-c03 | exact | ja.wikipedia.org | He is believed to rule dragons and possess the power to bring rain. | 水の神であり、竜を支配し、雨をもたらす力があるとされる。そのため雨乞いの儀式にも祭祀された。 |
 | suiten-c04 | exact | ja.wikipedia.org | He is therefore worshipped in rainmaking rites. | そのため雨乞いの儀式にも祭祀された。 もともとはインド・イランで語られていた古いアスラ族のヴァルナのことをさす |
 | suiten-c05 | exact | ja.wikipedia.org | Kyoto National Museum holds a Suiten image from a Twelve Devas series made in 1127. | 平安時代に、宮中の真言院で毎年正月に行なわれた修法に用いるため、1127年（大治2年）に制作された十二天画像のうちのひとつとして、仏画（絹本著色144.3 x 126.5cm）の水天像（京都国立博物館・所蔵。国宝）が残されている。ほかにも寺社に祀られる十二天のうちの一体としての作例は数多く見られた。日本においては、水や水天を象徴する生物として竜に限らず蛇があつかわれることもある。蛇王権現や水釈天などの項も参照。 |
+| suiten-c06 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Suiten originally refers to Varuṇa, an old asura known in India and Iran; in the Vedas Varuṇa holds an important position as a sky god, a god of justice (contracts and righteousness) and a water god. | もともとはインド・イランで語られていた古いアスラ族のヴァルナのことをさす。インドに伝わるヴェーダのなかでヴァルナは重要な位置に置かれ、天空神・司法神（＝契約と正義の神）・水神などの属性を持つ存在として語られる。 |
+| suiten-c07 | exact | ja.wikipedia.org | According to Japanese Wikipedia, at the Meiji-era separation of Shinto and Buddhism, because the original Suiten (Varuṇa) is a supreme and primordial god, temples that had worshipped Suiten often substituted Ame-no-minakanushi, the primordial god of the Kiki myths. | 明治時代の神仏分離の際には、元来の水天（ヴァルナ）が最高神・始源神であることから、水天を祀っていた寺社では、記紀神話における始源神・天御中主神が代わりにあてはめらることが多かった。 |
+| suiten-c08 | exact | projects.mcah.columbia.edu | According to JAANUS, the Twelve Deities are a group of tutelary deities made up of various Hindu gods, incorporated into Esoteric Buddhism and supplanting the Four Heavenly Kings as protectors of Buddhism, considered to control all minor gods and demons. | Twelve Deities. A group of tutelary deities consisting of various Hindu gods, which was incorporated into Esoteric Buddhism mikkyō 密教 and came to supplant the Four Heavenly Kings *Shitennō 四天王 as protectors of Buddhism. Considered to exercise control over all minor gods and demons |
+| suiten-c09 | exact | projects.mcah.columbia.edu | According to JAANUS, Suiten (水天) is the fifth deity in the list of the Twelve Deities: Water, Sk: Varuna, west. | Twelve Deities. A group of tutelary deities ... (5) Suiten 水天 (Water, Sk: Varuna; west) |
+| suiten-c10 | exact | projects.mcah.columbia.edu | According to JAANUS, in Japan representations of these deities as a group are generally limited to pictures, and they were used in various esoteric rites. | In Japan, representations of these deities as a group are generally limited to the pictorial, and these depictions were used in various esoteric rites. |
 
 
 ## vadavagni — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 1, exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -583,14 +647,20 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | vadavagni-c04 | exact | en.wikipedia.org | Tales of its suppression concern Saraswati's descent as the Sarasvati River. | Various legends regarding the origin and suppression of the Vadavagni exist in Hindu literature, most prominently the descent of the goddess Saraswati as the Sarasvati river. |
 | vadavagni-c05 | exact | en.wikipedia.org | It is said to emerge from a mare's mouth called Vadavamukha. | The Vadavagni is described to emerge from the mouth of a mare called Vadavamukha (mare-face). This mare's mouth is sometimes described to be present under a sea at the South Pole. It is stated to remain under the sea until it finally erupts, leading to the destruction of the earth. It is stated to be a metaphor for insatiable energy. |
 | vadavagni-c06 | exact | en.wikipedia.org | The Vishnu Purana locates it beneath the Kshira Sagara. | The Vishnu Purana states that the Vadavagni is located beneath the Kshira Sagara, surrounded by seas of curds, ghee, sugarcane juice, wine, and sweet water. |
+| vadavagni-c07 | exact | www.ibiblio.org | In this text Aurva says his rage, like fire consuming dry woods, will certainly consume him if he does not accomplish his vow. | Hearing these words of the Pitris, Aurva, O child, replied unto them to this effect: ... Like fire consuming dry woods, this rage of mine will certainly consume me if I do not accomplish my vow. |
+| vadavagni-c08 | exact | www.ibiblio.org | In this text it is advised that the fire born of the wrath abide in the great ocean, consuming its waters, for it is said the worlds are made of water. | If, therefore, thou desirest it, O Brahmana, let this fire born of thy wrath abide in the great ocean, consuming the waters thereof, for it hath been said that the worlds are made of water. |
+| vadavagni-c09 | exact | www.ibiblio.org | In this text Aurva cast the fire of his wrath into the abode of Varuna; that fire which consumes the waters of the great ocean became like a large horse's head that persons conversant with the Vedas call Vadavamukha, and emitting from that mouth it consumes the waters of the mighty ocean. | Then, O child, Aurva cast the fire of his wrath into the abode of Varuna. And that fire which consumeth the waters of the great ocean, became like unto a large horse's head which persons conversant with the Vedas call by the name of Vadavamukha. And emitting itself from that mouth it consumeth the waters of the mighty ocean. |
+| vadavagni-c10 | exact | en.wikipedia.org | When Aurva said he could not let the flames risen from his austerities come to naught as they would burn him alive, his Pitrs suggested he release his wrathful flame into the ocean; the sage obeyed and the flame became the Vadavagni, a mare-faced inferno, which is why it is also called Aurvanala. | When Aurva told them that he could not let the flames that had risen from his austerities to come to naught as that would burn him alive, his Pitrs suggested that he release his wrathful flame into the ocean. The sage obeyed, and the flame became the Vadavagni, a mare-faced inferno. Due to this reason, Vadavagni is also called Aurvanala. |
+| vadavagni-c11 | exact | en.wikipedia.org | In another legend, after a year a mare (vadavā) emerged from Pippalada's thigh and gave birth to a fiery foetus that became the Vadavagni (submarine fire), after which the mare disappeared. | Furious, Pippalada performed a severe penance, seeking the destruction of the devas. After a year, a vadavā (a mare) emerged from his thigh. This mare gave birth to a fiery foetus from its womb, which became the Vadavagni (submarine fire), after which it disappeared from the scene. |
+| vadavagni-c12 | exact | en.wikipedia.org | Vadavagni acquiesced but required that he be carried in the hand of a virgin to his destination; Saraswati was chosen for this mission. | Vadavagni acquiesced, but required that he be carried in the hand of a virgin to be taken to his destination. Saraswati was chosen for this mission. |
+| vadavagni-c13 | exact | en.wikipedia.org | When Vadavagni's very presence started to evaporate the waters, Vishnu rendered the waters perennial and Saraswati stationed herself along the ocean to protect creation. | When Vadavagni started to cause the waters to evaporate by his very presence, Vishnu rendered the waters perennial, and Saraswati stationed herself along the ocean to protect creation. |
+| vadavagni-c14 | exact | en.wikipedia.org | Vadavagni is also described as the product of Shiva's wrath that emerged from his third eye and reduced Kamadeva to ash when he tried to arouse Shiva's desire for Parvati. | The Vadavagni is also described to be the product of Shiva's wrath that emerged from his third eye and annihilated Kamadeva to ash, when the latter attempted to arouse his desire towards Parvati. |
+| vadavagni-c15 | exact | en.wikipedia.org | In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again. | In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again. |
 
 
 ## xiaotian-quan — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 10, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -599,15 +669,20 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | xiaotian-quan-c03 | exact | en.wikipedia.org | Some identify it with Tiangou. | Many identify Xiaotian Quan with the mythological Tiangou. Consequently, the cultural idiom describing a solar eclipse as the 'heavenly dog eating the sun' is often interpreted as an allusion to Xiaotian Quan. |
 | xiaotian-quan-c04 | exact | en.wikipedia.org | It is also identified with Hou Yi's hunting hound. | The dog is also identified with the hunting hound of the legendary archer Hou Yi. |
 | xiaotian-quan-c05 | loose | en.wikipedia.org | In Journey to the West it helps fight Sun Wukong. | In the novel Journey to the West, Xiaotian Quan helps fight Sun Wukong and later the Nine-Headed Prince Consort (九頭駙馬). |
+| xiaotian-quan-c06 | exact | en.wikipedia.org | The dog first appeared in Gan Bao's In Search of the Supernatural, and in the folktale of Lotus Lantern it prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang. | The dog first appeared in Gan Bao's In Search of the Supernatural. It prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang in the Chinese folktale of Lotus Lantern. |
+| xiaotian-quan-c07 | exact | en.wikipedia.org | In one version of the legend, after Hou Yi's wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased her and swallowed the moon in an attempt to bring her back. | In one version of the legend, after Hou Yi’s wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased after her and swallowed the moon in an attempt to bring her back. |
+| xiaotian-quan-c08 | exact | en.wikipedia.org | The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title "Tiangou" as guardian of the Southern Heavenly Gate; the dog later released the moon and eventually entered the service of Erlang Shen, where it became known as Xiaotian Quan. | The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title of "Tiangou", appointing it as guardian of the Southern Heavenly Gate. The dog later released the moon and eventually entered the service of the deity Erlang Shen, where it became known as Xiaotian Quan. |
+| xiaotian-quan-c09 | exact | en.wikipedia.org | According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell; after her release she sought revenge against heaven and tried to swallow the sun and the moon, plunging the world into darkness. | According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell. ... After her release, she sought revenge against heaven and attempted to swallow the sun and the moon, plunging the world into darkness. |
+| xiaotian-quan-c10 | exact | en.wikipedia.org | Many temples dedicated to Erlang Shen also enshrine Xiaotian Quan, and in modern times it is suggested that people with sick pets pray to it. | Many temples dedicated to Erlang Shen to also enshrine Xiaotian Quan and in modern times it is suggested that people with sick pets pray to it. |
+| xiaotian-quan-c11 | exact | zh.wikisource.org | In this chapter of Journey to the West, as someone runs away, Erlang's thin dog (二郎爺爺的細犬) catches up, bites the calf and drags him down; the bitten one curses. The chapter calls it 細犬 and does not use the name Xiaotian Quan. | 爬將起來就跑。被二郎爺爺的細犬趕上，照腿肚子上一口，又扯了一跌。他睡倒在地，罵道：「這個亡人！你不去妨家長，卻來咬老孫！」 |
 
 
 ## almaz-mythical-beast — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Chechen, Ingush & Circassian folklore".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -615,14 +690,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | almaz-mythical-beast-c02 | exact | en.wikipedia.org | Male almaz are described as hairy and hideous with an axe embedded in the chest. | The male almaz is said to be hairy and hideous, and have an axe embedded in its chest |
 | almaz-mythical-beast-c03 | exact | en.wikipedia.org | Females are described as beautiful with golden hair. | the female is very beautiful with large breasts and golden hair |
 | almaz-mythical-beast-c04 | exact | en.wikipedia.org | Removing or grabbing its hair can render an almaz helpless. | The almaz is said to have magical powers residing in its hair, but if the hair is removed or even grabbed, it may be rendered helpless. |
+| almaz-mythical-beast-c05 | exact | en.wikipedia.org | According to Wikipedia, the first written "attestation" of it was by a Bavarian captive of the Mongols, but it is present in the national folklores of the Chechens, Ingush and Circassians. | The first "attestation" of it in writing was by a Bavarian captive of the Mongols, but it is present in the national folklores of Chechens, Ingush and Circassians. |
+| almaz-mythical-beast-c06 | exact | en.wikipedia.org | The female almaz is described as very beautiful with golden hair, and her "favorite pastime" is dancing naked at night under the moon. | while the female is very beautiful with large breasts and golden hair, and has a "favorite pastime" of dancing naked at night under the moon. |
+| almaz-mythical-beast-c07 | exact | en.wikipedia.org | Some theorize that it arose under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or while the northern Dzurdzuk state of Simsir was subjugated to the Golden Horde; the word almaz is a loan from Mongolian, where it originally meant "forest man". | It has been theorized by some to have arisen under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or the intervening period where the northern Dzurdzuk state of Simsir was subjugated to the Mongol-controlled Golden Horde. The word almaz is a loan from Mongolian where it originally meant "forest man". |
+| almaz-mythical-beast-c08 | exact | en.wikipedia.org | Amjad Jaimoukha suggested that the name "almaz" may have started to be used by North Caucasians for an already existing native concept during the sojourn of the Golden Horde in Simsir. | Amjad Jaimoukha however suggested that the name "almaz" may have started to have been used by North Caucasians for an already existent native concept during the sojourn of the Golden Horde of Simsir. |
+| almaz-mythical-beast-c09 | exact | www.gutenberg.org | In this travel account, on a mountain live "savages" unlike other people, covered all over the body with hair except hands and face, running about like wild beasts and eating leaves, grass and anything they can find. The text does not name the almaz. | On the same mountain there are savages, who are not like other people, and they live there. They are covered all over the body with hair, except the hands and face, and run about like other wild beasts in the mountain, and also eat leaves and grass, and any thing they can find. |
 
 
 ## atavaka — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -631,14 +708,18 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | atavaka-c03 | exact | en.wikipedia.org | Vaisravana permits him to devour anyone entering the shadow of his dwelling. | The yakṣa was granted permission by King Vaiśravaṇa that he could seize and devour anyone who came within the shadow of his abode. |
 | atavaka-c04 | exact | en.wikipedia.org | A shortage of prisoners forces households in the area to provide children as sacrifices. | due to a shortage of criminals, each household in the vicinity was forced to sacrifice one child to satiate the demon. |
 | atavaka-c05 | exact | en.wikipedia.org | Buddha enters his dwelling despite the doorkeeper's warning. | Gadrabha warned the Buddha of the demon's wrathful nature, but the Buddha fearlessly entered Āṭavaka's abode and sat upon his throne. |
+| atavaka-c06 | exact | www.accesstoinsight.org | In the Alavaka Sutta, on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha; the yakkha went to him and said, "Get out, contemplative!" | I have heard that on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha. Then the Alavaka yakkha went to the Blessed One and on arrival said to him: "Get out, contemplative!" |
+| atavaka-c07 | exact | www.accesstoinsight.org | In the Alavaka Sutta the yakkha threatens that if the contemplative cannot answer his question he will possess his mind, rip open his heart or, grabbing him by the feet, hurl him across the Ganges. | I will ask you a question, contemplative. If you can't answer me, I will possess your mind or rip open your heart or, grabbing you by the feet, hurl you across the Ganges. |
+| atavaka-c08 | exact | www.accesstoinsight.org | In the Alavaka Sutta the contemplative replies that he sees no one in the cosmos, whether devas, Maras, Brahmas, contemplatives, brahmans, royalty or commonfolk, who could possess his mind, rip open his heart or hurl him across the Ganges. | My friend, I see no one in the cosmos with its devas, Maras & Brahmas, its contemplatives & brahmans, its royalty & commonfolk, who could possess my mind or rip open my heart or, grabbing me by the feet, hurl me across the Ganges. |
+| atavaka-c09 | exact | www.accesstoinsight.org | In the Alavaka Sutta, after hearing the answers the Alavaka yakkha says the Awakened One's coming to stay at Alavi was truly for his well-being and that he will wander from village to village and town to town paying homage to the Self-awakened One and the Dhamma. | It was truly for my well-being that the Awakened One came to stay in Alavi. Today I understand where what is given bears great fruit. I will wander from village to village, town to town, paying homage to the Self-awakened One & the true rightness of the Dhamma. |
+| atavaka-c10 | exact | en.wikipedia.org | Even his ultimate weapon, the cloth Dussāvudha, one of the four most powerful weapons in the world, was of no effect; when he hurled it, it simply fell at the Buddha's feet as a rug. | Even his ultimate weapon; the cloth Dussāvudha, one of the four most powerful weapons in the world; was of no effect. When he hurled it, it simply fell at the Buddha's feet as a rug. |
+| atavaka-c11 | exact | en.wikipedia.org | Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter. | Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter. |
+| atavaka-c12 | exact | en.wikipedia.org | Āṭavaka placed his left foot on Manosilātala and his right on Kelāsakūta, both places in the Himalayas, which suggests the yakṣa grew to an enormous size. | he placed his left foot on Manosilātala and his right foot on Kelāsakūta, both localities in the Himalayas, which suggests that the yakṣa grew to an enormous size. |
 
 
 ## byangoma — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -647,26 +728,30 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | byangoma-c03 | exact | en.wikipedia.org | In Lalkamal Neelkamal, the nestlings are born sightless and drops of blood activate their sight. | In Thakurmar Jhuli by Dakshinaranjan Mitra Majumder, the fairy-tale "Lalkamal Neelkamal" describe how the nestlings of these birds are sightless at birth and how few drops of blood from a donor can activate their sight. Lalkamal and Neelkamal are the eponymous princes who seek help from these birds living on a tree at the edge of Tepantorer Math (The Field of Three Horizons). |
 | byangoma-c04 | exact | en.wikipedia.org | The birds carry the princes across a broad field on their backs. | The birds display remarkable strength in carrying the princes on their backs safely across the very large field. |
 | byangoma-c05 | exact | en.wikipedia.org | In Abanindranath's painting the birds are smaller and lack human faces. | The Victoria Memorial houses a painting by Abanindranath Tagore, captioned "ব্যাঙ্গমা-ব্যাঙ্গমী". The English title is "The vision anybird" (1939). In Abanindranath's version, the birds are smaller and do not have human faces. |
+| byangoma-c06 | exact | en.wikipedia.org | The book also contains illustrations of the birds drawn by its author. | The book also contains illustrations of the birds drawn by the author. |
+| byangoma-c07 | exact | oaklores.com | According to this essay, animals and birds are also depicted in that section; for instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal. | Animals and birds are also depicted in this section. For instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal. |
 
 
 ## chakora-mythology — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 6 (exact 3, loose 1, unreachable 2), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chakora-mythology-c02 | exact | en.wikipedia.org | The Mrcchakatika records the belief that the bird feeds on moonbeams. | In texts such as the Mṛcchakatika, it is believed to feed on the beams of the moon (Chandra). |
+| chakora-mythology-c03 | loose | en.wikipedia.org | Chakora is a legendary bird described in Hindu mythology. | Chakora (Sanskrit: चकोर, romanized: Chakora) is a legendary bird described in Hindu mythology. |
+| chakora-mythology-c05 | exact | www.gutenberg.org | In the prologue of this play, the author's eyes are likened to those of the chakora bird that feeds on moonbeams. | Its author was a man Who vied with elephants in lordly grace; Whose eyes were those of the chakora bird That feeds on moonbeams; |
+| chakora-mythology-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | According to a footnote in this edition, the Chakora is said to subsist upon moonbeams. | The Chakora is said to subsist upon moonbeams. |
+| chakora-mythology-c07 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | In this story someone is to the eyes of the delighted Vidyutprabha as the moon, the repository of nectar, is to the partridges. | being to the eyes of the delighted Vidyutprabha what the moon, the repository of nectar, is to the partridges. |
+| chakora-mythology-c08 | exact | en.wikipedia.org | It is considered to be a partridge, most likely based on the chukar partridge. | It is considered to be a partridge, most likely based on the chukar partridge. |
 
 
 ## dharanendra — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -676,28 +761,38 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | dharanendra-c04 | exact | en.wikipedia.org | Dharanendra and Padmavati later shelter Parshvanatha from Meghalin. | They then sheltered ascetic Pārśvanātha when he was harassed by Meghalin (Kamaṭha’s reborn). |
 | dharanendra-c05 | exact | en.wikipedia.org | Svetambara tradition does not place Padmavati among Dharanendra's queens. | Whereas, the Śvetāmbara tradition does not list Padmāvatī among the queens of Dharaṇendra. |
 | dharanendra-c06 | exact | en.wikipedia.org | Western Ganga literature records worship of Dharanendra to obtain sons. | Western Ganga literature states that Nāga-rāja Dharaṇendra was worshipped for acquiring sons. |
+| dharanendra-c07 | exact | www.wisdomlib.org | According to the Wisdomlib glossary, Dharaṇendra (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha, the twenty-third of twenty-four Tīrthaṃkaras, and the Yakṣiṇī is called Padmāvatī. | Dharaṇendra (धरणेन्द्र) (or Pārśva, Vāmana) is the name of the Yakṣa accompanying Pārśvanātha: the twenty-third of twenty-four Tīrthaṃkaras or Jinas, commonly depicted in Jaina iconography. ... His Yakṣa is called Pārśva or Vāmana or Dharaṇendra and Yakṣiṇī is called Padmāvatī. |
+| dharanendra-c08 | exact | www.wisdomlib.org | In his iconography this Yakṣa bears abundant snake symbols besides the snake hoods, and he holds Vāsuki, the king of snakes. | In actual iconography, we find this Yakṣa has snake-symbols abundantly besides the snake-hoods. He holds also Vāsuki, the king of snakes |
+| dharanendra-c09 | exact | www.wisdomlib.org | The glossary interprets the name Dharaṇendra, or Dharaṇīdhara, as clearly signifying his identity with Śeṣanāga, the king of the serpents. | The very name Dharaṇendra, or Dharaṇīdhara clearly signifies his identity with Śeṣanāga, the king of the serpents. |
+| dharanendra-c10 | exact | www.wisdomlib.org | The glossary says his vehicle is a tortoise, which might suggest his superiority over Kamaṭha, who had been his and his master's enemy for ages. | His vehicle of a tortoise might suggest his superiority over Kamaṭha (Kamaṭha=tortoise) , who had been his and his master’s enemy for ages. |
+| dharanendra-c11 | exact | www.wisdomlib.org | Kamaṭha was Pārśvanātha's enemy and Dharaṇendra his friend, as the result of an incident in a former birth. | Kamaṭha was Pārśvanātha’s enemy and Dharaṇendra his friend, as the result of an incident in a former birth. |
+| dharanendra-c12 | exact | www.wisdomlib.org | According to the 11th-century Jñānārṇava, a treatise on Jain yoga, Dharaṇendra refers to the "chief of the snakes". | Dharaṇendra (धरणेन्द्र) refers to the “chief of the snakes”, according to the 11th century Jñānārṇava, a treatise on Jain Yoga |
 
 
 ## goho-doji — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | goho-doji-c01 | loose | en.wikipedia.org | Goho doji are guardian spirits of Japanese Buddhist folklore serving followers of the dharma. | A gohō dōji (護法童子) (child of the defense of the Law) is a type of guardian spirit from Japanese Buddhist folklore devoted to serving followers of the dharma. In classic stories from medieval collections such as the Uji Shui Monogatari, it is generally depicted as a young boy wearing a collar of swords, with a large sword in one hand and a noose in the other. |
 | goho-doji-c02 | exact | en.wikipedia.org | Classic tales portray a young boy with a collar of swords, a large sword and a noose. | it is generally depicted as a young boy wearing a collar of swords, with a large sword in one hand and a noose in the other. |
 | goho-doji-c03 | exact | en.wikipedia.org | It flies through the air riding a Wheel of Dharma. | It flies through the air by riding a Wheel of Dharma. |
+| goho-doji-c04 | exact | kotobank.jp | According to this Heibonsha encyclopedia, gohō broadly means spirits and kijin that take refuge in the Buddha's teaching and guard the Three Jewels; narrowly it means spirits and kijin employed by eminent monks versed in esoteric teachings and by Shugendō practitioners and yamabushi. | 広義では，仏法に帰依して三宝を守護する神霊・鬼神の類を意味するが，狭義では，密教の奥義をきわめた高僧や修験道の行者・山伏たちの使役する神霊・鬼神を意味する。 |
+| goho-doji-c05 | exact | kotobank.jp | Gohō are often described in the form of a child (dōji), which is why the name gohō dōji became widely established; however, they are sometimes shown as oni or animals. | 童子形で語られることが多いため護法童子と呼ぶことが広く定着している。しかし，鬼や動物の姿で示されることもある。 |
+| goho-doji-c06 | exact | kotobank.jp | Zenki and Goki, said to have been employed by En no Gyōja, are of the oni kind, and the gohō of Mount Haguro is a crow, as the Karasu-tobi ritual shows. | 役行者（えんのぎようじや）が使役したという前鬼（ぜんき）・後鬼（ごき）は鬼の類であり，羽黒山の護法は，烏飛びの神事に示されるようにカラスである。 |
+| goho-doji-c07 | exact | kotobank.jp | Attributes of the gohō include the ability to fly, swift running and great strength, personal attendance, and possessing people; especially important was its use to drive away evil spirits that had possessed the sick. | 護法の属性として，飛行能力，駿足・怪力，身の回りの世話，人に憑依（ひようい）すること，などいろいろと挙げることができるが，病人に取り憑（つ）いている悪霊を追い払うために用いられたということがとりわけ重要な属性であった。 |
+| goho-doji-c08 | exact | kotobank.jp | Child-form gohō are depicted in many tale collections and picture scrolls from ancient to medieval times, beginning with the Nihon Ryōiki and including the Konjaku Monogatarishū; the best known is the "sword gohō" employed by Myōren, the protagonist of the Shigisan Engi. | 童子形の護法は，《日本霊異記》をはじめ《今昔物語集》など古代から中世にかけての説話集や絵巻などに数多く描かれており，《信貴山縁起》の主人公命蓮の使役する〈剣の護法〉はもっともよく知られている。 |
+| goho-doji-c09 | exact | kotobank.jp | The sword gohō was also employed to cure the illness of the Engi emperor (Emperor Daigo). | 剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。 |
+| goho-doji-c10 | exact | kotobank.jp | The entry's author interprets gohō employed by yamabushi and others as the embodiment of those practitioners' spiritual power. | 剣の護法も延喜の帝（醍醐天皇）の病をなおすために使役されている。山伏などに使役される護法は，彼らの呪力の形象化されたものといえる。 |
 
 
 ## golden-haired-hou — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `relations[1].target_name` Tidak muncul di kutipan mana pun: Sun Wukong. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -707,14 +802,18 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | golden-haired-hou-c04 | exact | en.wikipedia.org | In Journey to the West it is Guanyin's mount. | In Journey to the West, the Golden-Haired Hou is the mount of Guanyin. He overhears that Mahamayuri has cursed a prince of the Kingdom of Purpuria (朱紫國) after the prince accidentally killed two of her followers while hunting. As punishment, the prince is made to suffer from lovesickness for three years. |
 | golden-haired-hou-c05 | exact | en.wikipedia.org | It escapes and becomes the demon Sai Taisui. | He became the demon Sai Taisui (賽太歲) and lived at Xiezhi Cave on Unicorn Mountain (麒麟山獬豸洞), where he commanded a group of demons. |
 | golden-haired-hou-c06 | exact | en.wikipedia.org | It abducts the Golden Sage Queen, causing the king to fall ill. | He abducted the Golden Sage Queen (金聖皇后), one of the king's consorts, and forced her to live with him. The king became ill after her disappearance. |
+| golden-haired-hou-c07 | exact | zh.wikisource.org | In this novel's text Guanyin says the monster is the Golden-Haired Hou she rides; because a herd boy dozed off and failed to keep watch, the creature bit through its iron chain and came, to dispel calamity for the king of Zhuzi. | 原來是觀音菩薩，左手托著淨瓶，右手拿著楊柳 ... 菩薩道：「他是我跨的個金毛犼。因牧童盹睡，失於防守，這孽畜咬斷鐵索走來，卻與朱紫國王消災也。」 |
+| golden-haired-hou-c08 | exact | zh.wikisource.org | Guanyin says she was riding the hou and heard the words together with it; the hou took note and came to deceive the queen to dispel the king's calamity, and after three years the old offence was fulfilled. | 我跨著這犼，同聽此言。不期這孽畜留心，故來騙了皇后，與王消災。至今三年，冤愆滿足，幸你來救治王患。 |
+| golden-haired-hou-c09 | exact | zh.wikisource.org | At Guanyin's command the monster rolled over, revealed its original form and shook its fur, and Guanyin mounted it. | 那菩薩才喝了一聲：「孽畜！還不還原，待何時也？」只見那怪打個滾，現了原身，將毛衣抖抖，菩薩騎上。 |
+| golden-haired-hou-c10 | exact | zh.wikisource.org | Guanyin looks for the three golden bells at the hou's neck and says that had Wukong not stolen the bells, not even ten Wukongs would dare come near it. | 菩薩又望項下一看，不見那三個金鈴。菩薩道：「悟空，還我鈴來。」行者道：「老孫不知。」菩薩喝道：「你這賊猴！若不是你偷了這鈴，莫說一個悟空，就是十個，也不敢近身。 |
+| golden-haired-hou-c11 | exact | zh.wikisource.org | When Wukong grasps the three bells and rings them together, red fire, green smoke and yellow sand pour out and burn trees and the mountain. | 好猴子，一把揝了三個鈴兒，一齊搖起。你看那紅火、青煙、黃沙，一齊滾出，骨都都燎樹燒山。 |
+| golden-haired-hou-c12 | exact | zh.wikisource.org | Guanyin warns Wukong that if he uses his staff on the creature, it will die. | 悟空，你既知我臨凡，就當看我分上，一發都饒了罷，也算你一番降妖之功；若是動了棍子，他也就是死了。 |
+| golden-haired-hou-c13 | exact | zh.wikisource.org | Guanyin fits the bells back on the hou's neck, mounts it and returns to the Southern Sea. | 菩薩將鈴兒套在犼項下，飛身高坐。你看他四足蓮花生焰焰，滿身金縷迸森森。大慈悲回南海不題。 |
 
 
 ## kangla-sha — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 2, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -723,14 +822,19 @@ Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
 | kangla-sha-c03 | exact | en.wikipedia.org | Traditional race winners are declared after symbolically touching its statue. | In Meitei traditional race competitions, winners of the race are declared only after symbolically touching the statue of the dragon "Kangla Sha". |
 | kangla-sha-c04 | loose | en.wikipedia.org | Raja Nara Singh reconstructs two Kangla Sha statues in 1844. | During the months of June and July in the year 1844, Meitei king Raja Nara Singh (Meitei: ꯅꯤꯡꯊꯧ ꯅꯔꯁꯤꯡꯍ) reconstructed the two statues of the Kangla Sha dragons once again. |
 | kangla-sha-c05 | exact | en.wikipedia.org | British troops destroy the two statues with artillery fire on 20 July 1891. | During the British conquest of the Anglo Manipur War of 1891, the British forces led by Captain Allen demolished the two statues of the Kangla Sha dragons by blasting them by artillery fire into pieces on 20 July 1891. |
+| kangla-sha-c06 | exact | books.e-pao.net | Kangla-Sha, a twin-horned dragon, is called a myth-associated icon of the kings of Manipur; its statues at the entrance of the royal palace were the place of pride (holiest of holy) for all royal ceremonies. | Yet another myth-associated icon of Manipur kings used to be Kangla-Sha (twin-horned dragon as shown in an actual photograph published in T.C.Hodson's The Meitheis (1908) (Photoplate:2-4) whose sculptured statues at the entrance of the royal Palace (UTTARA) used to be the place of pride (holiest of holy) for all royal ceremonies |
+| kangla-sha-c07 | exact | books.e-pao.net | In the Lamchel race each runner tries to outrun the others and finally jump up and touch the Kangla-Sha first, as the finishing point. | each runner's headlong attempt in race Lamchel is to outrun others and ultimately jump up and touch the Kangla-Sha first as finishing point. |
+| kangla-sha-c08 | exact | en.wikipedia.org | According to Wikipedia, in 1804 the Meitei king Chourjit Singh constructed two huge structures of the Kangla Sha dragon lions in front of the Kangla Uttra Shanglen. | In the year 1804, Meitei king Chourjit Singh ... constructed two huge structures of the "Kangla Sha" dragon lions in front of the Kangla Uttra Shanglen (or simply called the "Uttra") inside the present day Kangla Fort. |
+| kangla-sha-c09 | exact | en.wikipedia.org | These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (1819-1826), Meitei for 'Seven Years Devastation'. | constructed two huge structures of the "Kangla Sha" dragon lions ... These two statues were demolished by the Burmese forces during the Chahi Taret Khuntakpa (Meitei for 'Seven Years Devastation') (1819–1826). |
+| kangla-sha-c10 | exact | en.wikipedia.org | In 2006 the statues of the Kangla Sa (Kangla Sha) were reconstructed by the Government of Manipur. | Later, in the year 2006, the statues of the "Kangla Sa" ("Kangla Sha") were reconstructed by the Government of Manipur. |
+| kangla-sha-c11 | exact | en.wikipedia.org | The government of Manipur recognised the illustration of the Meitei mythical animal Kangla Sha as the state emblem in 1980. | The government of Manipur recognised the illustration of Meitei mythical animal "Kangla Sha" as the state emblem in the year 1980. |
+| kangla-sha-c12 | exact | en.wikipedia.org | On 18 June 2021 the "Kaba Khanba" of the Kangla Sha statues were removed by the Government of Manipur because the authorities perceived that the rods pained Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur. | On 18 June 2021, the "Kaba Khanba" ... of the Kangla Sha statues were removed by the Government of Manipur ... due to the perception by the authorities concerned that the rods gave pains to Kangla Sha, resulting in the downfall and unhappiness of the people of Manipur. |
+| kangla-sha-c13 | exact | en.wikipedia.org | The removal of the rods drew criticism from RK Nimai, a retired IAS officer, who said it showed the utter lack of knowledge of the so-called experts even in Meitei tradition. | However, this event of the removal of rods drew criticism by RK Nimai, a retired IAS officer, as “The removal of kabak of the two kanglashas at Kangla which was shown in the local TV channels indicates the utter lack of knowledge of the so-called experts even in Meitei tradition.” |
 
 
 ## khyah-legendary-creature — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 1, exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -740,14 +844,18 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | khyah-legendary-creature-c04 | exact | en.wikipedia.org | Household khyah dwell in attics and dark storerooms. | Household Khyahs usually dwell in the attic and dark storerooms. They are said to fear electric lighting. |
 | khyah-legendary-creature-c05 | exact | en.wikipedia.org | Khyah and Kawancha appear in sacred dance dramas and as temple guardians. | The antithesis of the Khyah is the Kawanchā, a skeleton. Khyahs and Kawanchas appear as supporting characters in sacred dance dramas of the Newars. Images of Khyahs and Kawanchas are also placed at temples as guardians of the shrine. |
 | khyah-legendary-creature-c06 | exact | en.wikipedia.org | Khyah Pyakhan dances at the Yenya festival feature actors in khyah costumes. | During the Yenya festival in Kathmandu, dance performances are held at market squares and the Durbar Square where actors dressed in Khyah costumes give dance performances. The dances, known as Khyāh Pyākhan (ख्याः प्याखं), consist of antics and tumbling. |
+| khyah-legendary-creature-c07 | exact | www.asianart.com | In Newar masked-dance troupes the khyāh, an ape-like hairy creature, wears a black cowl and a black woollen pelisse that gives him the appearance of a bear, with a red tongue dangling from his mouth. | Each troupe also features one or two skeletons kavã ... Their associate, the jostler khyāh, an ape-like hairy creature wears a black cowl over his head; he is dressed in a black woollen pelisse, that gives him the appearance of a bear, with a red tongue dangling from his mouth. |
+| khyah-legendary-creature-c08 | exact | www.asianart.com | The khyāh in the performance does acrobatics on stage, tumbles and rolls over the floor, and occasionally rushes around making scatological gestures at young ladies in the audience. | the jostler khyāh, an ape-like hairy creature ... Both perform a series of acrobatics on stage. They tumble and roll over the floor. Occasionally, they rush around making scatological gestures at young ladies in the audience. |
+| khyah-legendary-creature-c09 | exact | www.asianart.com | In a Newar masked-dance troupe of gods and goddesses, khyāh accompany them with skeletons, demons and betāh, jumping and rolling around on the floor (gwara-gwara tulegu). | These gods and goddesses are accompanied by skeletons (kawã), demons (rākshas), betāh and khyāh who jump and roll around on the floor (gwara-gwara tulegu) |
+| khyah-legendary-creature-c10 | exact | himalayancultures.com | According to Newari legend the old Gods gave birth to the Khyahs: a child was born to the old gods, they tussled to hold it, its skin detached, and from the flesh came Khyah while Kavam emerged as the skeleton. | According to Newari legend, the old Gods gave birth to the terrible Khyahs. It is said that a child was born to the old gods, and a tussle began between them to hold the baby. The struggle led to the detachment of the skin, and the child only remained with flesh and bones. Out of the flesh came Khyah, and Kavam emerged as the skeleton. |
+| khyah-legendary-creature-c11 | exact | himalayancultures.com | To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk; in Khyah Pyakhan, dancers dressed as Khyah dance to the beat of a Dhimay. | To control the power of the twins, the Gods created the Newari instrument called Dhimay from a tree trunk. During Khyah Pyakhan, the traditional Newari dance, dancers dressed as Khyah, dance to the beat of a Dhimay. |
+| khyah-legendary-creature-c12 | exact | himalayancultures.com | Khyahs often appear in the Newari Gufa tradition, a ritual for young girls before menstruation, in which the girls stay in a dark room with a small doll representing Bahra Khyah. | Khyahs often make significant appearances in the Newari Gufa tradition, a ritual meant for young girls before the beginning of their menstruation. During this ritual, girls remain inside a dark room with a small doll that represents Bahra Khyah. |
+| khyah-legendary-creature-c13 | exact | himalayancultures.com | According to this author, Khyahs always dwell in the dark as they are afraid of the light, and there are two types, white and black; the white ones are the good ones. | Khyahs always dwell in the dark as they are afraid of the light. There are two types of Khyahs; white and black. The white ones are the good ones |
 
 
 ## kichkandi — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 1, exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -757,4 +865,15 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | kichkandi-c04 | exact | en.wikipedia.org | Her feet are said to face backward. | It is said that they can be identified by looking at their feet, which face backward. |
 | kichkandi-c05 | exact | en.wikipedia.org | She lures a solitary male traveller and drains his life force. | People usually describe them as alluring and young female, who lures a lonely male traveler and saps their life force. The victims are said to turn out drained of their life and skinny. According to other tales told by locals and cab drivers, these spirits are also known to hitchhike late at night. |
 | kichkandi-c06 | exact | en.wikipedia.org | The film Bhoot Police portrays Maya's tea estate as haunted by a kichkandi. | In Bhoot Police, a 2021 Bollywood film, the tea estate of the character Maya(played by Yami Gautam) is haunted by a kichkandi. |
+| kichkandi-c07 | exact | journals.ed.ac.uk | According to this journal article, the kichkini (also called kichkinni, kichkanya or kichkandi) is a young, beautiful female ghost, a woman who had died in "unnatural circumstances": by suicide, during childbirth or through murder. | the kichkini (also known as kichkinni, kichkanya, or kichkandi), a young, beautiful, female ghost. She was a woman who had died in “unnatural circumstances,” by suicide, during childbirth, or through murder. |
+| kichkandi-c08 | exact | journals.ed.ac.uk | She wanders alone at night searching for men to seduce; she is alluring but deadly, and any man who came into contact with her would fall ill or die. | She wanders alone at night, searching for men to seduce. She is alluring but deadly; any man with whom she came into contact would fall ill, or die. |
+| kichkandi-c09 | exact | journals.ed.ac.uk | She appears as a real woman, but her feet, unnaturally twisted backward, identify her as a supernatural being. | Appearing as a real woman, her feet— unnaturally twisted backward—identify her as a supernatural being. |
+| kichkandi-c10 | exact | journals.ed.ac.uk | A research informant said that kichkini walk alone at night, particularly around small villages and alongside rivers and cremation grounds. | Laxmi informed me that kichkini would walk alone at night, particularly around small villages and alongside rivers and cremation grounds. |
+| kichkandi-c11 | exact | journals.ed.ac.uk | An informant described objects associated with femininity as protection: men travelling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution. | Anil described the use of objects associated with femininity as protection against kichkini. He said men traveling at night to places believed to be haunted by kichkini would carry jewelry, including anklets, as a precaution. |
+| kichkandi-c12 | exact | journals.ed.ac.uk | An informant said kichkini are said to be unable to cross water, so men in haunted places can escape by quickly crossing a river. | However, kichkini are said to be unable to cross water, so men who find themselves in haunted places can escape by quickly crossing a river. |
+| kichkandi-c13 | exact | journals.ed.ac.uk | An informant said that in all kichkini stories a bone with the string tied around it is found at a crematorium, and that the bone must be burned to get rid of the kichkini. | All stories of kichkini end up in a crematorium. A bone is always found that the string is tied around. You must burn the bone to get rid of the kichkini |
+| kichkandi-c14 | exact | journals.ed.ac.uk | One informant was unsure of the motives behind kichkini attacks but suspected they may be acting out of revenge for previous mistreatment. | Laxmi was unsure of the motives behind kichkini attacks; however, she suspected they may be acting out of revenge for previous mistreatment. |
+| kichkandi-c15 | exact | journals.ed.ac.uk | Another informant held that kichkini are not trying to kill and are not looking for revenge, but may just be looking for love. | They are not trying to kill you. They are not looking for revenge, they may just be looking for love. |
+| kichkandi-c16 | exact | journals.ed.ac.uk | The article's author suggests that kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them. | Kichkini may represent the perceived threat posed by female sexuality to patrilineal structures and be used to justify restrictions on women and even violence against them. |
+| kichkandi-c17 | exact | en.wikipedia.org | These women while alive were treated unfairly in some manner or died during childbirth or pregnancy. | These women while alive were treated unfairly in some manner or died during childbirth or pregnancy. |
 

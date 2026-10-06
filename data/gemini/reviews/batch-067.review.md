@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-06T15:35:37.846Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md.
+Diperiksa 2026-10-06T19:25:42.520Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -582,10 +582,7 @@ Klaim 6 (exact 5, unreachable 1), sumber 2, gambar 0.
 
 ## pulao-dragon — lulus-otomatis
 
-Klaim 5 (loose 4, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 4, exact 5), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -594,14 +591,15 @@ Klaim 5 (loose 4, exact 1), sumber 1, gambar 0.
 | pulao-dragon-c03 | loose | en.wikipedia.org | Li Shan records Pulao in his commentary on the Eastern Metropolis Rhapsody. | Pulao appeared in Chinese literature already during the Tang dynasty. The Tang dynasty scholar Li Shan (李善, 630–689), in his comments on Ban Gu's (32–92 AD) "Eastern Metropolis Rhapsody" (東都賦, Dong Du Fu), wrote: |
 | pulao-dragon-c04 | exact | en.wikipedia.org | The tale explains Pulao's roar as a response to the whale it fears. | In the sea there is a big fish called whale, and on the shore there is a creature whose name is pulao. The pulao has always been afraid of the whale. Whenever the whale strikes [or attacks] him, pulao cries [or roars] loudly. Thus those who want to make a loud [bell] would put a pulao on top. Therefore the bell-striker would be made [in the shape of] a whale. |
 | pulao-dragon-c05 | loose | en.wikipedia.org | Lu Rong's Ming-period list includes Pulao under the name Tulao. | During the Ming dynasty, the pulao (in the form tulao) appeared in the influential list of fantastic creatures appearing in architecture and applied art, which was compiled by Lu Rong (1436-1494) in his Miscellaneous records from the bean garden (菽園雜記, Shuyuan zaji). |
+| pulao-dragon-c06 | exact | zh.wikisource.org | A note in this text quotes Xue Zong saying there is a beast named Pulao (蒲牢) that has always feared the whale; whenever the whale strikes it, Pulao cries out loudly. | 薛綜注西京賦云：「海中有大魚名鯨，又有獸名蒲牢。蒲牢素畏鯨魚，鯨魚擊蒲牢，蒲牢輒大鳴呼。 |
+| pulao-dragon-c07 | exact | zh.wikisource.org | The same note says that to make a bell sound loud, a Pulao is made on top of it, and the bell-striker is named a whale. | 蒲牢輒大鳴呼。凡鐘欲令其聲大者，故作蒲牢於其上，撞鐘者名為鯨魚。 |
+| pulao-dragon-c08 | exact | zh.wikisource.org | The list in the Shuyuan zaji says the Tulao (徒牢) looks like a dragon but small, is by nature given to roaring, has divine strength, and so bells are hung from it. | 螭吻，其形似獸，性好望，故立屋角上。徒牢，其形似龍而小，性吼呌，有神力，故懸於鐘上。 |
+| pulao-dragon-c09 | exact | en.wikipedia.org | According to the article, Pulao was later integrated into various lists of the Nine Children of the Dragon compiled by later Ming authors such as Li Dongyang and Yang Shen. | Later on, the pulao, with similar descriptions, was integrated into various lists of the Nine Children of the Dragon compiled by later Ming dynasty authors such as Li Dongyang and Yang Shen. |
 
 
 ## shen-clam-monster — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -610,14 +608,17 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | shen-clam-monster-c03 | exact | en.wikipedia.org | In classical texts, shen also denotes large shellfish associated with funerals. | The Chinese classics use the word shèn to mean "a large shellfish" that was associated with funerals and "an aquatic monster" that could change its shape, which was later associated with "mirages". |
 | shen-clam-monster-c04 | exact | en.wikipedia.org | The Erya explains shen as a large yao shellfish. | The word used to mean a shellfish, or mollusk, identified as an oyster, mussel, or giant clam such as the Pearl of Lao Tzu. While early Chinese dictionaries treat shèn as a general term for "mollusca", the Erya defines it as a large yáo (珧) "shellfish", "clam", "scallop", or "nacre". |
 | shen-clam-monster-c05 | exact | en.wikipedia.org | Eberhard notes uncertainty about why those shellfish were placed in tombs. | "It is not clear why these mussels were placed into the tombs," he admits |
+| shen-clam-monster-c06 | exact | zh.wikisource.org | The Shiji text says the vapour (氣) of the 蜄 beside the sea resembles towers and terraces, while the vapour over broad plains forms palaces and gates; each vapour resembles the mountains, rivers and gatherings of people. | 金寶之上，皆有氣，不可不察。海旁蜄氣象樓臺；廣野氣成宮闕然。雲氣各象其山川人民所聚積。 |
+| shen-clam-monster-c07 | exact | zh.wikisource.org | The Shuowen Jiezi dictionary defines 蜃: a pheasant enters the sea and transforms into a 蜃; the 蜃 kind has three types, all born in the sea, formed by the transformation of other creatures such as swallows and old bats. | 蜃：雉入海，化爲蜃。从虫辰聲。 𧊧：蜃屬。有三，皆生於海。千歲化爲𧊧，秦謂之牡厲。又云百歲燕所化。魁𧊧，一名復累，老服翼所化。 |
+| shen-clam-monster-c08 | exact | en.wikipedia.org | A scholar quoted in the article says that by early medieval times the shen had become a monster lurking in submarine grottoes, sometimes endowed with dragon or nāga attributes, belching up bubbles and frothy clots. | Finally, by early medieval times, it had become a monster lurking in submarine grottoes, and was sometimes endowed with the attributes of a dragon – or, more likely, under Indian influence, a nāga. It expressed its artistic nature by belching up bubbles and frothy clots. |
+| shen-clam-monster-c09 | exact | en.wikipedia.org | A scholar quoted in the article states that the clam-monster's plastic exhalations sometimes burst the surface film and appeared to astonished mariners as stunning mansions adrift on the deep. | The plastic exhalations of the clam-monster sometimes burst the film of surface tension and appeared to astonished mariners as stunning mansions adrift on the surface of the deep. |
+| shen-clam-monster-c10 | exact | en.wikipedia.org | According to the article, the 1596 Compendium of Materia Medica describes the shen under the jiaolong entry with a quote: a kind of crocodile shaped like a huge serpent, horned like a dragon with a red mane, scales inversely arranged below mid-back, living on swallows, spurting clouds of vapour in huge rings, and appearing when rain is coming. | The 1596 Compendium of Materia Medica describes the shèn under the jiaolong entry with quotes from the Yueling and Lu Dian's Piya. ... A kind of crocodile shaped like a huge serpent. Horned like a dragon, with a red mane. Below the middle of the back it has scales inversely arranged. It lives on swallows. It spurts forth clouds of vapour in huge rings. It appears when it is going to rain. |
+| shen-clam-monster-c11 | exact | en.wikipedia.org | According to the article, in Chinese folklore swallows are a favorite food of both long (龍) and shen (蜃) dragons. | According to Chinese folklore, swallows are a favorite food of both lóng 龍 and shèn 蜃 dragons. |
 
 
 ## suanni — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -626,14 +627,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | suanni-c03 | exact | ja.wikipedia.org | The Mutianzi Zhuan says Suanni can run five hundred li. | 古くは『爾雅』釈獣に「狻麑」として見え、虦猫（さんびょう,トラの一種）に似て、虎豹を食うとしている。郭璞の注では獅子のこととしている。『穆天子伝』には「狻猊は五百里を走る」という。 |
 | suanni-c04 | exact | ja.wikipedia.org | Chinese translations of Buddhist texts use Suanni as another name for a lion. | 漢訳仏典でも狻猊は獅子の別名として使われる。玄奘訳『大菩薩蔵経』（『大宝積経』菩薩蔵会）に「喬答摩（ガウタマ）種狻猊頷、無畏猶如師子王。」といい、『玄応音義』は「狻猊は獅子のことで、サンスクリットでは僧訶（シンハ）という」とする。 |
 | suanni-c05 | exact | ja.wikipedia.org | Suanni also names auspicious creatures in Tang bronze-mirror motifs. | 銅鏡、各神獣鏡の意匠、特に唐の時代に作られた「海獣葡萄鏡」に多数見受けられる瑞獣を海獣または狻猊と呼ぶことがある。なお、海獣とは砂漠の向こうに住む「海外の獣」という意味であるという。 |
+| suanni-c06 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Erya (Shishou) that the Suanni (狻麑) resembles a striped cat and eats tigers and leopards, and its commentary says it is the lion, coming from the Western Regions. | 《爾雅·釋獸》狻麑，如虦猫，食虎豹。《註》卽獅子也。出西域。 |
+| suanni-c07 | exact | zh.wikisource.org | The Kangxi Dictionary records that in the time of Emperor Shun of Han the king of Shule presented an ox and a lion, and quotes the Mu Tianzi Zhuan that the Suanni (狻猊) runs five hundred li a day. | 出西域。漢順帝時，疏勒王獻幇牛及獅子。《穆天子傳》狻猊日走五百里。 |
+| suanni-c08 | exact | zh.wikisource.org | The Mu Tianzi Zhuan text names famous beasts that rely on their legs, including the Suanni (狻猊) and the wild horse running five hundred li; a note within says the Suanni is the lion and also eats tigers and leopards. | 名獸使足︰□走千里，狻猊□野馬走五百里，〈狻猊，師子，亦食虎豹。野馬，亦如馬而小。 |
 
 
 ## tianlong — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -642,14 +643,16 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | tianlong-c03 | loose | en.wikipedia.org | The dragon Tianlong differs from the homonymous Heavenly Deaf attendant of Wenchang Wang. | Tianlong 天龍 is homophonous with another name in Chinese folklore. Tianlong 天聾 "Heavenly Deaf" (with the character long 聾 "deaf" combining the "ear radical" 耳 and a long 龍 phonetic element) and Diya 地啞 "Earthly Dumb" are legendary attendants to Wenchang Wang 文昌王, the patron deity of literature. |
 | tianlong-c04 | exact | en.wikipedia.org | Its Buddhist senses developed to include heavenly nagas or devas and nagas. | From originally denoting "heavenly dragon", Tianlong 天龍 semantically developed meanings as Buddhist "heavenly Nāgas" or "Devas and Nāgas", "centipede", and "proper names" of stars, people, and places. |
 | tianlong-c05 | exact | en.wikipedia.org | The word tianlong is recorded from the Han period. | Among Chinese classic texts, tian "heaven" and long "dragon" were first used together in Zhou dynasty (1122 BCE – 256 BCE) writings, but the word tianlong was not recorded until the Han dynasty (207 BCE – 220 CE). |
+| tianlong-c06 | exact | en.wikipedia.org | According to the article, in the Mahayana tradition tianlong is the first of four nāga classes, who guard the Heavenly Palace and carry it so that it does not fall. | First, tianlong 天龍 means "heavenly dragon/nāga" as the first of four nāga classes in Mahayana tradition. ... who guard the Heavenly Palace and carry it so that it does not fall. |
+| tianlong-c07 | exact | en.wikipedia.org | According to the article, Eberhard notes that when the dragon star appeared in the sky it was customary to make a sacrifice supplicating for rain, and this springtime dragon festival occurs on the 2nd day of the 2nd month. | Wolfram Eberhard notes, "When the dragon star appeared in the sky it was customary to make a sacrifice supplicating for rain," and this springtime dragon festival occurs on the 2nd day of the 2nd month. |
+| tianlong-c08 | exact | en.wikipedia.org | According to the article, Tianlong (天龍, Heavenly Dragon) is the 3rd star in Fangxiu (the Room mansion) and corresponds to the Western constellation Scorpius. | Tianlong 天龍 "Heavenly Dragon" is the 3rd star in Fangxiu 房宿 "Room (Chinese constellation)" and corresponds to the Western constellation Scorpius. |
+| tianlong-c09 | exact | zh.wikisource.org | The Fanyi Mingyi Ji text quotes a commentary saying dragons are of four kinds, the first guarding heavenly palaces and holding them so they do not fall; dragon images are made on human roofs, and the other kinds bring clouds and rain, open rivers and channels, or guard treasure. | 别行䟽云龍有四種一守天宫殿持令不落人間屋上作龍像之爾二興雲致雨〉 〈益人間者三地龍決江開瀆四伏藏守轉輪王大福人藏也龍有四生俱舎云𡖉生金翅鳥能食四生龍〉 〈罵意經云 |
+| tianlong-c10 | exact | zh.wikisource.org | The Fangyan dictionary says a dragon that has not yet ascended to heaven (未陞天龍) is called a panlong (蟠龍, coiled dragon). | 度高為揣。 半步為跬。 半盲為睺。 未陞天龍謂之蟠龍。 裔，夷狄之揔名。 |
 
 
 ## zigu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -658,14 +661,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | zigu-c03 | exact | en.wikipedia.org | Another version identifies her with Consort Qi killed by Empress Lü. | According to the legend, the true identity of Zigu is Consort Qi of the Han dynasty, who was tortured and killed in the toilet by Empress Lü. |
 | zigu-c04 | exact | en.wikipedia.org | The Yiyuan contains an early record of Zigu. | The earliest record of Zigu is in the fifth volume of "Yiyuan" by Liu Jingshu or Liu Song of the Southern dynasties (420–479). |
 | zigu-c05 | exact | en.wikipedia.org | Worship of latrine deities was known from the Six Dynasties period. | In Chinese mythology, there are six household deities. The two most notable categories of these are the "door gods" and the "toilet gods". Toilet gods have been worshipped since the Six Dynasties period. The door gods and toilet gods were very popular during the Tang and Song dynasties. |
+| zigu-c06 | exact | zh.wikisource.org | The Yiyuan text says it has long been told that Zigu (紫姑) was a family's concubine, hated by the principal wife, who often had her do filthy chores, and who died of anguish on the fifteenth day of the first month. | 世有紫姑神，古來相傳云是人家妾，為大婦所嫉 ... 每以穢事相次役，正月十五日感激而死。 |
+| zigu-c07 | exact | zh.wikisource.org | The Yiyuan text says that on that day people made her likeness and welcomed her at night by the latrine or pigsty, calling "Zixu is not here" (her husband's name), "Cao has also gone back" (the principal wife) and "little sister may come out to play"; when the one holding it feels it grow heavy, the spirit has come. | 故世人以其日作其形，夜於廁間或豬欄邊迎之，祝曰：「子胥不在」，是其婿名也。「曹姑亦歸」，曹即其大婦也。「小姑可出戲。」捉者覺重，便是神來。 |
+| zigu-c08 | exact | zh.wikisource.org | The Yiyuan text says the spirit can divine many matters and silkworm outcomes, is good at the hook-guessing game (射鉤): dancing when the result is good and lying on its back when bad; a Meng who did not believe tried to seize it, and it leapt through the thatched roof and was lost for good. | 能占眾事，卜未來 ... 蠶桑。又善射鉤，好則大舞，惡便仰眠。平昌孟氏恆不信，躬試往捉，便自躍茅 ... 屋而去。永失所在也。 |
+| zigu-c09 | exact | zh.wikisource.org | The Jingchu Suishi Ji text says that on that evening people welcome Zigu (紫姑) to divine the coming silkworm harvest and many other matters. | 其夕，迎紫姑，以卜將來蠶桑，并占衆事。 按：劉敬叔《異苑》云︰「紫姑本人家妾，為大婦所妬，正月十五日感激而死 |
+| zigu-c10 | exact | en.wikipedia.org | According to the article, women worshipped her as a homemade doll on the fifteenth day of the first month, when she was ritually summoned in the latrine at night with prayers that the husband and wife had gone and she could come out safely. | Women worshipped her in the form of a homemade doll on the fifteenth day of the first month each year, when she was ritually summoned in the latrine during the night. Prayers were said to the doll, telling her that the husband and wife had gone and that she could come out safely. |
+| zigu-c11 | exact | en.wikipedia.org | According to the article, the doll's motions, sometimes manifested as automatic writing, were used by the worshippers for fortune telling. | The motions of the doll – sometimes manifested as automatic writing – were used for fortune telling by the worshippers. |
+| zigu-c12 | exact | en.wikipedia.org | According to the article, a popular novel of the Ming period portrayed the latrine deity as three sisters responsible for the Primeval Golden Dipper (hunyuan jindou) or celestial toilet bowl, from which all beings were born. | Another interpretation came from a popular novel of the Ming period, which portrayed the latrine deity as three sisters who were responsible for the Primeval Golden Dipper (hunyuan jindou) or celestial toilet bowl, from which all beings were born. |
+| zigu-c13 | exact | en.wikipedia.org | According to the article, other legends say her real name is He Mingmei, with the word Liqing, from Laiyang, Shandong. | Other legends say that her real name is He Mingmei, and the word is Liqing, from Laiyang, Shandong. |
 
 
 ## bulgae — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -673,28 +681,35 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | bulgae-c02 | exact | en.wikipedia.org | Their bites of the sun and moon explain eclipses in legend. | refers to the mythical fire dogs in Korean mythology. They come from the kingdom of darkness and always chase the Sun and Moon, causing eclipses when they bite both the celestial bodies. |
 | bulgae-c03 | exact | en.wikipedia.org | The Isik and Wolsik legends link eclipse phenomena to Bulgae dogs. | In Korean mythology, the cosmological narratives and legends such as the Isik, Wolsik legend, explain the eclipse phenomenon with the Bulgae dogs. |
 | bulgae-c04 | exact | en.wikipedia.org | The Gamangnara tale describes its king sending a fiery hound to fetch sunlight. | According to the myth recorded in the Hangug-ui seolwo (Folk Myths from Korea), there were many realms of heaven. One of them, the kingdom of darkness, was called Gamangnara, the Dark World. The king of Gamangnara was concerned and weary with the darkness and desired the light of the Sun and Moon for his kingdom. |
+| bulgae-c05 | exact | en.wikipedia.org | According to the article, the king sent one of the gigantic fiery hounds, the Bulgae, to chase the Sun and bring it to his realm, but the Sun was too hot for the dog to hold on to, so it gave up and ran back to the king. | He sent one of the gigantic fiery hounds, the Bulgae, belonging to one of his dark world subjects, to chase the Sun and bring it to his realm. However, when the Bulgae tried to bite the Sun, the Sun was too hot, which made the dog unable to hold on to it, resulting in him giving up, and running back to the king. |
+| bulgae-c06 | exact | en.wikipedia.org | According to the article, the king sent another, more ruthless dog to steal the Moon, but the Moon was so cold that the dog's mouth froze and the Bulgae dropped the Moon from its mouth. | In another attempt to get rid of the darkness he sent another more ruthless dog to steal the Moon. When the Bulgae tried to carry the Moon in its mouth, the Moon was so cold, that the mouth of the dog was icy and frozen, and caused the Bulgae to drop the Moon from its mouth. |
+| bulgae-c07 | exact | en.wikipedia.org | According to the article, the king kept sending ever fiercer fire dogs but none could collect the Sun and Moon; in the Korean eclipse belief, the dark sections during an eclipse are where the dogs are biting, and when the eclipse is over the dogs give up and run back to Gamangnara. | He continued to send fire dogs that were fiercer than the others, but none were able to collect the Sun and Moon. According to the Korean eclipse belief, during a solar eclipse or lunar eclipse, the dark sections are the parts where the dogs are biting. When the eclipses are over, the dogs have given up and run away back to Gamangnara. |
+| bulgae-c08 | exact | en.wikipedia.org | According to the article, Bulgae are strong and fierce dogs, or hairy dogs, likely the indigenous Korean dog breed Sapsali, meaning "ghost chasing dog". | Bulgae are strong and fierce dogs or hairy dogs which are likely to be the indigenous Korean dog breed Sapsali, which means "ghost chasing dog". |
+| bulgae-c09 | exact | ko.wikipedia.org | Korean Wikipedia says the king of Gamak-nara (가막나라), worried that his country was dark, summoned the fierce Bulgae (불개) kept by his people and told them to steal the sun and the moon. | 가막나라의 임금은 나라가 어두운 것을 걱정하여, 백성들이 기르던 사나운 불개를 불러 해와 달을 훔쳐오라고 하였다. |
+| bulgae-c10 | exact | ko.wikipedia.org | Korean Wikipedia says that each time the Bulgae bit the sun and moon that part looked dark, and solar and lunar eclipses are said to be caused by the Bulgae of Gamak-nara. | 이렇게 불개들이 해와 달을 물 때마다 그 부분이 어둡게 보였고, 일식과 월식이 가막나라의 불개 때문에 생긴다고 전해진다. |
+| bulgae-c11 | exact | ko.wikipedia.org | Korean Wikipedia records that this tale appears in Son Jin-tae's Joseon Mindamjip (1930) under the title "Solar and Lunar Eclipses", collected in Hamhung in 1923. | 1930년 발간된 손진태의 《조선민담집》(朝鮮民譚集)에서는 〈일식과 월식〉이라는 이름으로 위 이야기를 1923년 함흥에서 채록한 것으로 기록하였으며 |
+| bulgae-c12 | exact | ko.wikipedia.org | Korean Wikipedia records that "Bulgae" (The Fire Dogs) in Jeong In-seop's Folktales from Korea (1952) is stated to be collected in Eonyang in 1912, and Im Seok-jae's Hanguk Gujeon Seolhwa includes a version collected in Sunchang in 1915. | 1952년 발간된 정인섭의 《한국의 설화》(Folktales from Korea)에 수록된 〈불개〉(The Fire Dogs)는 1912년 언양에서 채록한 것으로 원전을 밝히고 있다. 임석재(任晳宰, 1903~1998)의 《한국구전설화》(韓國口傳說話)에서는 1915년 순창에서 채록본을 수록하고 있다. |
 
 
 ## fangfeng — lulus-otomatis
 
-Klaim 3 (loose 2, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (loose 2, exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | fangfeng-c01 | loose | en.wikipedia.org | Fangfeng is a mythological figure and Chinese folk-religion deity. | Fangfeng (traditional Chinese: 防風; simplified Chinese: 防风; pinyin: Fángfēng) is a character from Chinese mythology as well as a god in Chinese popular religion. As a mythological figure, Fangfeng is mostly known for arriving late for an assembly called by Yu the Great after the end of the Great Flood and then being executed at the orders of Yu. |
 | fangfeng-c02 | loose | en.wikipedia.org | Yu orders his execution after he arrives late at a gathering following the great flood. | Fangfeng (traditional Chinese: 防風; simplified Chinese: 防风; pinyin: Fángfēng) is a character from Chinese mythology as well as a god in Chinese popular religion. As a mythological figure, Fangfeng is mostly known for arriving late for an assembly called by Yu the Great after the end of the Great Flood and then being executed at the orders of Yu. |
 | fangfeng-c03 | exact | en.wikipedia.org | His giant stature requires the executioner to build a dike to reach his head. | Because Fangfeng was a giant (of nearly 33 feet), the executioner had to build a large dike in order to reach his head. |
+| fangfeng-c04 | exact | zh.wikisource.org | The Shiji text records that when Wu attacked Yue and demolished Kuaiji, a bone joint filling a whole cart was found; Confucius answered that Yu gathered the gods at Mount Kuaiji, Fangfeng (防風氏) arrived late, Yu killed and beheaded him, and his joints filled a cart. | 吳伐越，墮會稽，得骨節專車。吳使使問仲尼：「骨何者最大？」仲尼曰：「禹致羣神於會稽山，防風氏後至，禹殺而戮之，其節專車，此為大矣。」 |
+| fangfeng-c05 | exact | zh.wikisource.org | The Shiji text records that, asked what Fangfeng (防風) guarded, Confucius answered that the lord of the Wangwang clan guarded the mountains Feng and Yu, bore the surname 釐, was called Wangwang under Yu, Xia and Shang, Changdi under Zhou, and is now called "great people". | 客曰：「防風何守？」仲尼曰：「汪罔氏之君守封、禺之山，為釐姓。在虞、夏、商為汪罔，於周為長翟，今謂之大人。」 |
+| fangfeng-c06 | exact | en.wikipedia.org | According to the article, modern myths and legends in China tend to emphasize that Fangfeng was wrongly executed: he was late because he met a local flood on the way and tried to end it to save the people. | Modern myths and legends regarding Fangfeng in China tend to emphasize that Fangfeng was wrongly executed; that the reason Fangfeng was late for the assembly was that on his way there he encountered a local flood and his delay was caused by his efforts to end the flood and save the people. |
+| fangfeng-c07 | exact | en.wikipedia.org | According to the article, as a god, worship of Fangfeng was most prominent in the Six Dynasties regions of Wu and Yue (modern Zhejiang, Jiangsu and Shanghai). | As a god, worship of Fangfeng was most prominent in the Six Dynasties regions of Wu and Yue (modern Zhejiang, Jiangsu, and Shanghai). |
+| fangfeng-c08 | exact | en.wikipedia.org | According to the article, a common depiction of Fangfeng was that of a giant with one eye and brow, the head of a dragon, and the ears of an ox. | A common depiction of Fangfeng was that of a giant with one eye and brow with the head of a dragon, and the ears of an ox. |
 
 
 ## huoshu — lulus-otomatis
 
-Klaim 6 (loose 4, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 4, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -704,14 +719,14 @@ Klaim 6 (loose 4, exact 2), sumber 1, gambar 0.
 | huoshu-c04 | exact | en.wikipedia.org | The Shenyi Jing describes a fire-dwelling mouse with fine white hair like silk. | Within such fire dwells a mouse. It weighs 100 jin/ catties (var. 1000 catties)., and has hairs 2 chi long,, fine white hair, like silk. |
 | huoshu-c05 | loose | en.wikipedia.org | The Soushen Ji links the source of fireproof cloth with the Mountain of Flame at Kunlun. | The "Fire Mountain[s]" in the foregoing tract has been identified with the "Mountain of Flame" (炎火之山) of mythic Kunlun according to the Soushen ji (捜神記, "In Search of the Supernatural"). According to this work, the mountain's beast are the source of hair for making the "fire-laundered cloth". |
 | huoshu-c06 | exact | en.wikipedia.org | The Shizhou Ji describes a rat-like huo guang shou on Yan island. | There is also the huo guang shou ... which lists it as fauna of Yan zhou ... describing it as rat-like and rat-sized, with hairs 3 or 4 cun long. |
+| huoshu-c07 | exact | zh.wikisource.org | The Shenyijing text says that in the fire among inexhaustible trees there is a mouse weighing a thousand jin with hair over two chi long, fine as silk; it dwells in the fire, glowing red, sometimes comes out with white hair, and dies if chased and drenched with water. | 不尽木火中有鼠，重千斤，毛長二尺餘，細如絲。但居火中，洞赤，時時出外，而毛白，以水逐而沃之，即死。 |
+| huoshu-c08 | exact | zh.wikisource.org | The Shenyijing text says its hair is spun and woven into cloth, and when the cloth is soiled, burning it in fire makes it clean. | 以水逐而沃之，即死。取其毛績紡，織以為布，用之若有垢涴，以火燒之則凈。 |
+| huoshu-c09 | exact | zh.wikisource.org | The Shenyijing text says beyond the southern wilds there is a fire mountain forty li long and fifty li wide where inexhaustible trees grow, and the fire rat (火鼠) is born within. | 南荒之外有火山，長四十里，廣五十里。其中皆生不烬之木，火鼠生其中。 |
 
 
 ## korean-virgin-ghost — lulus-otomatis
 
-Klaim 5 (loose 3, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 3, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -720,14 +735,20 @@ Klaim 5 (loose 3, exact 2), sumber 1, gambar 0.
 | korean-virgin-ghost-c03 | loose | en.wikipedia.org | Its portrayal commonly wears white mourning hanbok with loose hair. | The spirit is often depicted as a woman wearing a white hanbok, called sobok (소복), the traditional white mourning attire with their hair down. Traditionally, the married women tied their hair up and since the spirit died unmarried, they put their hair loose and down. The spirit has a pale white face with dark circles and a small amount of blood drips from the side of her mouth. |
 | korean-virgin-ghost-c04 | exact | en.wikipedia.org | Accounts associate it with abandoned buildings, schools, hospitals, and dark locations. | Korean virgin ghosts are mainly known for haunting abandoned buildings, especially in hospitals, schools, bathrooms, cemeteries, lakes, dark country roads or wooded areas. They start their act around midnight which continues until dawn. They almost always have long hair covering their faces, with sullen features, dressed in white. |
 | korean-virgin-ghost-c05 | exact | en.wikipedia.org | Deep resentment forms part of the traditional explanation of this ghost. | Since ancient times, it has been thought that the resentment was very deep when a virgin died. There is a myth that if anyone gets possessed by a virgin ghost, they will harbor strong resentment or that they will not be able to get married. |
+| korean-virgin-ghost-c06 | exact | encykorea.aks.ac.kr | The Encyclopedia of Korean Culture (entry Songaksi, 손각시) says this ghost is also called Sonmalmyeong, Wangsin or "virgin ghost"; a girl of marriageable age who dies unmarried becomes an evil spirit through resentment, attaching mainly to girls of her own age and harming them. | 일명 ‘손말명’ · ‘왕신’ · ‘처녀귀신’이라고도 한다. 혼기에 찬 처녀가 시집을 가지 못하고 죽어 한이 되어 악귀로 화하여 주로 자기 또래의 혼기에 차 있는 처녀에게 붙어 괴롭히고 해를 입힌다. |
+| korean-virgin-ghost-c07 | exact | encykorea.aks.ac.kr | The same entry says the Wangsin can even ruin a household, so it is specially enshrined as a household god (gasin). | 특히 왕신은 집안을 망치기까지 하여 특별히 가신으로 모시기도 한다. |
+| korean-virgin-ghost-c08 | exact | encykorea.aks.ac.kr | The same entry says that when a family member marries out, one who does not first inform the Wangsin is said to suffer great misfortune. | 가족 중에 출가하는 사람이 있을 경우, 먼저 왕신에게 고하지 않으면 큰 화를 입는다고 한다. |
+| korean-virgin-ghost-c09 | exact | encykorea.aks.ac.kr | The same entry records the legend of the resentful spirit Okneo (옥녀) of Okneobong peak (옥녀봉) on Saryang island: since her death, brides whose palanquins pass beneath the peak get down and walk. | 과년해진 옥녀가 홀로 된 아버지의 성적 요구에 괴로워한 나머지 옥녀봉에 올라가서 떨어져 자살하였다. 그 뒤부터 동네에서 처녀가 시집갈 때 신부가 탄 가마가 옥녀봉 밑을 지날 때에는 가마에서 내려 걸어간다고 한다. |
+| korean-virgin-ghost-c10 | exact | encykorea.aks.ac.kr | The same entry says that, for fear that the spirit of a marriageable girl who died would become a Songaksi, the body was sometimes dressed in men's clothes and buried upside down, or quietly buried at a busy crossroads. | 혼기가 된 처녀가 죽게 되면 그 혼령이 손각시가 되는 걸 두려워하여 매장할 때 남자의 옷을 입혀 거꾸로 묻거나, 사람의 내왕이 빈번한 십자로의 교차되는 곳에 은근히 묻어주는 경우도 있었는데 |
+| korean-virgin-ghost-c11 | exact | encykorea.aks.ac.kr | The same entry says that when a Songaksi attaches to a girl, she falls ill or suffers and cannot marry. | 처녀에게 손각시가 붙으면 병이 들거나 괴로움을 당하여 시집을 못 간다. |
+| korean-virgin-ghost-c12 | exact | en.wikipedia.org | According to the article, they haunt with anger and revenge those who harmed them, are also known to haunt newly married couples, and are considered to bring illnesses and accidents. | They haunt with anger and revenge to those who caused them harm and are also known to haunt newly married couples. They are considered to bring illnesses and accidents. |
+| korean-virgin-ghost-c13 | exact | en.wikipedia.org | According to the article, the Korean virgin ghost is considered removable only through exorcism or "soul weddings" between virgin and bachelor ghosts so that their souls rest in peace, and can also be moved to the afterlife by erecting phallic statues. | It is considered that the Korean virgin ghost can only be eliminated by performing the ritual of exorcism or by “soul weddings” (영혼결혼식, yeonghongyeolhonsig) which is a wedding held for the cheonyeo ("virgin") and chonggak ("bachelor") “couple” so that their souls may rest in peace. Virgin ghosts can also be made to move to afterlife by traditionally erecting phallic statues. |
+| korean-virgin-ghost-c14 | exact | en.wikipedia.org | According to the article, the spirit has a pale white face with dark circles and a little blood dripping from the side of her mouth. | The spirit has a pale white face with dark circles and a small amount of blood drips from the side of her mouth. |
 
 
 ## nine-headed-bird — lulus-otomatis
 
-Klaim 5 (loose 3, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 3, exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -736,6 +757,14 @@ Klaim 5 (loose 3, exact 2), sumber 1, gambar 0.
 | nine-headed-bird-c03 | loose | en.wikipedia.org | Journey to the West presents a Nine-Headed Beast variant as the Wansheng Dragon King's son-in-law. | The Nine-headed bird also appears in the 16th-century classic novel Journey to the West, where it is known as the Nine-Headed Beast (九頭蟲) or the Nine-Headed Prince Consort (九頭駙馬). As the son-in-law of the Wansheng Dragon King, he wields a monk's spade and conspires with his father-in-law to steal the śarīra from the pagoda. |
 | nine-headed-bird-c04 | exact | en.wikipedia.org | One account says the bird originally had ten heads before losing one to a dog's bite. | To this day, there are still legends about the nine-headed bird dripping blood. These tales are rooted in the belief that "the bird originally had ten heads, and one was bitten off by a dog." In one of Ouyang Xiu's poems, it is written: "After three failed attempts to shoot it, a celestial dog was sent from the heavens. |
 | nine-headed-bird-c05 | exact | en.wikipedia.org | Lu Changyuan records an account treating this bird as an evil omen. | In Records of Doubtful Matters, Lu Changyuan noted that the bird was an evil omen, stating, "During the cold food period in the second and third months of spring, on a night of light rain and gloomy skies, a harsh, grating bird call was heard. As it passed over the courtyard, the family grew increasingly terrified, crying out that it was the nine-headed bird carrying ghosts. |
+| nine-headed-bird-c06 | exact | zh.wikisource.org | The Bencao Gangmu says the Guiche (鬼車) flies and cries in the dark, can enter people's homes and take their souls; the bird is said once to have had ten heads, one bitten by a dog leaving nine, and one neck keeps dripping blood that brings misfortune to the house it falls on. | 鬼車，晦瞑則飛鳴，能入人家，收人魂氣。相傳此鳥昔有十首，犬嚙其一，猶余九首。其一常滴血，血著人家則凶。 |
+| nine-headed-bird-c07 | exact | zh.wikisource.org | The Bencao Gangmu says people of Jing-Chu who heard it cry at night put out lamps, struck doors and twisted dogs' ears to ward it off, since the bird is said to fear dogs. | 其一常滴血，血著人家則凶。荊楚人夜聞其飛鳴，但滅燈、打門、捩狗耳以厭之，言其畏狗也。 |
+| nine-headed-bird-c08 | exact | zh.wikisource.org | Li Shizhen writes in the entry that the larger Guiche (鬼車) have wings spanning about a zhang, are blind by day but see at night, and fall when they see firelight. | 時珍曰︰鬼車狀如鵂 ，而大者翼廣丈許，晝盲夜了，見火光輒墮。 |
+| nine-headed-bird-c09 | exact | zh.wikisource.org | The Bencao Gangmu quotes a record that Li Shouweng of the Song, while governing Changsha, once caught this bird: like a wild duck, red, with a round winnowing-basket body, ten necks clustered and nine heads, the one headless neck dripping fresh blood. | 宋‧李壽翁守長沙，曾捕得此鳥。狀類野鳧，赤色，身圓如箕。十頸環簇，有九頭，其一獨無而滴鮮血。 |
+| nine-headed-bird-c10 | exact | zh.wikisource.org | The Shanhaijing text mentions a deity with nine heads, a human face and a bird's body, named Jiufeng (九鳳, Nine Phoenix); it also mentions another deity with a tiger's head that holds snakes, named Qiangliang. | 有神，九首人面鳥身，名曰九鳳。又有神衘蛇操蛇，其狀虎首人身，四蹏長肘，名曰彊良。 |
+| nine-headed-bird-c11 | exact | en.wikipedia.org | According to the article, owing to the hostile relationship between the Kingdom of Chu and its former overlord, the Zhou dynasty, the nine-headed bird, as the totem creature of the Chu people, was demonised. | Due to the hostile relationship between the Kingdom of Chu and its former overlord, the reigning Zhou dynasty, the nine-headed bird, being the totem creature of the Chu people, was demonised as a result. |
+| nine-headed-bird-c12 | exact | en.wikipedia.org | According to the article, in modern China "nine-headed bird" is a derogatory term for Hubei people, used to mock them as "cunning and deceitful". | In modern China, "nine-headed bird" is a derogatory term for Hubei people, used to mock Hubei people for being "cunning and deceitful." |
+| nine-headed-bird-c13 | exact | zh.wikisource.org | The Bencao Gangmu lists the names of the Guiche (鬼車) as Ghost Bird (鬼鳥) and Nine-headed Bird (九頭鳥), and Li Shizhen calls the Guiche an uncanny bird whose name takes its sense from the Book of Changes. | 【釋名】 鬼鳥（《拾遺》）、九頭鳥（同上）、蒼 （《白澤圖》）、奇 。時珍曰︰鬼車，妖鳥也，取周易載鬼一車之義。 |
 
 
 ## sansei-folklore — lulus-otomatis

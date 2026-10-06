@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-124",
-  "checked_at": "2026-10-03T03:10:07.773Z",
+  "checked_at": "2026-10-06T19:20:31.743Z",
   "files": [
-    "batch-124.md"
+    "batch-124.md",
+    "batch-124-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -89,7 +90,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "de58e38ee60f3421fd081c1ec22b3612915322cc4540efedcba433e873065a05"
     },
     {
       "slug": "wd-q6893315",
@@ -108,7 +110,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "34d715a5cfd89932d583aad09b6dd417064d53ae6c5de0ec47b2350a302d7f2a"
     },
     {
       "slug": "zheuzhyk",
@@ -192,7 +195,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c745dec30517c1426719dfc232d99f2102a70a184061c3796a24a5f25220704b"
     },
     {
       "slug": "zhytsen",
@@ -276,22 +280,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a4c63a7d5a526e7a37a58e363bce2d7da821cd101505d4eb0d12d3d988763d02"
     },
     {
       "slug": "b-ednica-slavic-demoness",
-      "file": "batch-124.md",
+      "file": "batch-124-fix-1.md",
+      "entry_sha256": "bc3ce1aaf3abd8994cf3e539b38443665b3f60bd4311e1f6570cffc65dcc1c83",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -314,26 +320,51 @@
           "quote": "It is believed that the only way to chase the demon away was to use some strong spells or to sacrifice something either at one's home or during the hunt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "b-ednica-slavic-demoness-c03",
+          "source_id": "b-ednica-slavic-demoness-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Japanese Wikipedia article describes Błędnica as a female demon said to lead people astray and leave the victims alone deep in the forest to die of hunger or be eaten by wild animals.",
+          "statement_id": "Artikel Wikipedia bahasa Jepang menggambarkan Błędnica sebagai iblis perempuan yang konon menyesatkan orang dan meninggalkan korban sendirian di kedalaman hutan agar mati kelaparan atau dimakan binatang buas.",
+          "quote": "人々を迷わせ、飢えて死なせたり、野生動物に食べられるようにするために犠牲者を森の奥深くに一人で残したといわれている女悪魔",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-ednica-slavic-demoness-c04",
+          "source_id": "b-ednica-slavic-demoness-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Japanese article, this evil being is most often described as having the form of a pretty young girl.",
+          "statement_id": "Menurut artikel Jepang itu, makhluk jahat ini paling sering digambarkan berwujud gadis muda yang manis.",
+          "quote": "この邪悪な存在は、ほとんどの場合、若くて可愛い少女の姿をしていると説明されている",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-ednica-slavic-demoness-c05",
+          "source_id": "b-ednica-slavic-demoness-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Japanese article, the only way to drive this demon away is believed to have been to use some strong spells or to make an offering at home or during a hunt.",
+          "statement_id": "Menurut artikel Jepang itu, satu-satunya cara mengusir iblis ini diyakini adalah memakai beberapa mantra kuat atau mempersembahkan sesuatu di rumah atau saat berburu.",
+          "quote": "悪魔を追い払う唯一の方法は、いくつかの強力な呪文を使用するか、自宅や狩猟中に供物を捧げることであったと考えられている",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "barstuk",
-      "file": "batch-124.md",
+      "file": "batch-124-fix-1.md",
+      "entry_sha256": "c0a702dd05572918611c507cfbf4505eb5b898dbdce5db2f9a0228382f96a524",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "barstuk-c01",
@@ -353,6 +384,46 @@
           "statement_id": "Menurut Louis Noirot, barstuk adalah dewa Prusia yang kemudian dianggap sejenis kurcaci dalam cerita rakyat Provinsi Warmia-Masuria di Polandia.",
           "quote": "Un Barstuk est, selon Louis Noirot, une divinité prusse, identifiée ultérieurement comme un type de nain présents dans les contes folkloriques du voïvodie de Varmie-Mazurie en Pologne.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "barstuk-c03",
+          "source_id": "barstuk-s3",
+          "host": "www.vle.lt",
+          "statement": "The Lithuanian Universal Encyclopedia records the barzdukai (Prussian barstucke) in ancient Prussian mythology as dwarfs, helpers of the god Puškaitis, mentioned in 16th-century sources.",
+          "statement_id": "Ensiklopedia Lituania mencatat barzdukai (dalam bahasa Prusia barstucke) dalam mitologi Prusia kuno sebagai kurcaci, pembantu dewa Puškaitis, yang disebut dalam sumber-sumber abad ke-16.",
+          "quote": "barzdùkai (prūsų k. barstucke), senovės prūsų mitologijoje – nykštukai, dievo Puškaičio pagalbininkai. Minimi 16 a. šaltiniuose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barstuk-c04",
+          "source_id": "barstuk-s3",
+          "host": "www.vle.lt",
+          "statement": "The barzdukai are also called barstukai and bezdukai; they are imagined as little people living in forests underground and guarding treasures.",
+          "statement_id": "Barzdukai juga disebut barstukai dan bezdukai; mereka dibayangkan sebagai manusia kecil yang tinggal di hutan di bawah tanah dan menjaga harta karun.",
+          "quote": "Dar vadinti barstukais, bezdukais. Įsivaizduoti kaip maži žmogučiai, gyvenantys miškuose po žeme ir saugantys lobius.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barstuk-c05",
+          "source_id": "barstuk-s3",
+          "host": "www.vle.lt",
+          "statement": "Belief in the barzdukai was taken over by the inhabitants of Lithuania Minor; according to M. Pretorius, the barzdukai correspond to the Lithuanian kaukai.",
+          "statement_id": "Kepercayaan pada barzdukai diambil alih oleh penduduk Lituania Kecil; menurut M. Pretorius, barzdukai setara dengan kaukai Lituania.",
+          "quote": "Tikėjimą barzdukais perėmė Mažosios Lietuvos gyventojai. M. Pretorijaus teigimu, barzdukai atitinka lietuvių kaukus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "barstuk-c06",
+          "source_id": "barstuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature inhabited forests and is believed to have helped people whose houses it secretly visited.",
+          "statement_id": "Makhluk ini menghuni hutan dan dipercaya menolong orang yang rumahnya ia kunjungi diam-diam.",
+          "quote": "The creature inhabited forests and it is believed to have been helping people whose houses it secretly visited.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -375,7 +446,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed0a89bcc4d49e724f57e23e67158dffe582245c5d554827941e3f9e8cd4fd54"
     },
     {
       "slug": "dziwozona",
@@ -469,7 +541,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bd1c1f12696c64c11756fc6b6ce5563d6564052933af5ebb02db274480cffa8b"
     },
     {
       "slug": "fext",
@@ -553,7 +626,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "06ff363c4ab894ca2f4bb9a01f1c9959cd220659d0befca62cbd0b042f8c492c"
     },
     {
       "slug": "firefox-mythology",
@@ -627,24 +701,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e7bd42d0054f4345fadffa2aadbf34622edd7c2944e1a3f27aad8b44f30c93b7"
     },
     {
       "slug": "gulyabani",
-      "file": "batch-124.md",
+      "file": "batch-124-fix-1.md",
+      "entry_sha256": "da540fd11b077a369e0a7670459091eeacc76a81859be0beceec973a6c6fc2b3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 14,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gulyabani-c01",
@@ -694,6 +764,96 @@
           "statement_id": "Dalam mitologi Azerbaijan, Qulyabanı (dari bahasa Persia ghoul-e yabani atau ghoul-e biyabani, \"raksasa liar\" atau \"raksasa padang\") adalah binatang liar, makhluk luar biasa yang buas dan berbulu.",
           "quote": "Qulyabanı (fars. غول یابانی‎ və ya غول بیابانی ğoul-e yabani və ya ğoul-e biyabani – \"vəhşi nəhəng və ya düzənlik nəhəngi”) — Azərbaycan mifologiyasında vəhşi heyvan, fövqəladə, yırtıcı canlı, tüklü varlıq.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c06",
+          "source_id": "gulyabani-s3",
+          "host": "eo.iea.ras.ru",
+          "statement": "According to storytellers of the Eastern Pamir recorded by Rozenfeld, the gulbiyaban (gulbiyavan, gul) is a large humanlike being covered in yellowish-grey hair resembling camel hair.",
+          "statement_id": "Menurut para penutur kisah di Pamir Timur yang dicatat Rozenfeld, gulbiyabon (gulbiyaban, gul) adalah makhluk berwujud manusia berukuran besar, berbulu kuning keabu-abuan seperti bulu unta.",
+          "quote": "гульбиябан (гульбияван, гуль) —■чело­ векоподобное сущ ество крупных размеров, покрытое желтовато-серог шерстью, напоминающей верблюж",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c07",
+          "source_id": "gulyabani-s3",
+          "host": "eo.iea.ras.ru",
+          "statement": "A sharp, unbearable smell comes from the gulbiyaban and is perceptible at a considerable distance; in some tales its feet are turned backwards, heel in front and toes behind.",
+          "statement_id": "Dari gulbiyaban menyebar bau menyengat yang tak tertahankan hingga jauh; dalam beberapa kisah telapak kakinya terbalik, dengan tumit di depan dan jari di belakang.",
+          "quote": "От гульбиябана исходит резкий, нестерпи­ мый запах, который ощущ ается на значительном расстоянии. Иногда в рассказах о гульбиябане присутствует мотив о том, что у него выворочень ступни: пятка находится спереди, а пальцы — сзади.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c08",
+          "source_id": "gulyabani-s3",
+          "host": "eo.iea.ras.ru",
+          "statement": "The gulbiyaban is said to dwell in deserted, barren places, avoids people and utters a characteristic cry.",
+          "statement_id": "Gulbiyaban konon tinggal di tempat-tempat sunyi dan gersang, menghindari manusia, dan mengeluarkan teriakan khas.",
+          "quote": "Обитает он якобы в пустынных местах, избегает людей и издает особый характерный крик.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c09",
+          "source_id": "gulyabani-s3",
+          "host": "eo.iea.ras.ru",
+          "statement": "In the Eastern Pamir tales, the gulbiyaban challenges a hero (palvan) to wrestle and first asks for chewing tobacco to check whether he carries a knife; if the palvan wins, the gulbiyaban runs away and never appears to him again.",
+          "statement_id": "Dalam kisah Pamir Timur, gulbiyaban menantang pahlawan (palvan) bergulat dan lebih dulu meminta tembakau kunyah untuk memeriksa apakah ia membawa pisau; bila palvan menang, gulbiyaban melarikan diri dan tak pernah muncul lagi.",
+          "quote": "Гульбиябан, встретившись с палваном, предлагает ему бороться. При этом гульбиябан сначала просит у палвана жевательного табака — нас, который носят в табакерке за поясом; это он якобы делает для того, чтобы проверить, нет ли у палвана ножа. Если побеж дает палзаи, то гульбиябан убегает и больше никогда уж е не попадается ему на глаза.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c10",
+          "source_id": "gulyabani-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to Turkish myth, Gulyabani is a humongous ghoul with a long beard who wanders at night and scares people.",
+          "statement_id": "Menurut mitos Turki, Gulyabani adalah ghoul raksasa berjenggot panjang yang berkeliaran pada malam hari dan menakut-nakuti orang.",
+          "quote": "According to Turkish myth, Gulyabani is a humongous ghoul with a long beard who wanders at night and scares people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c11",
+          "source_id": "gulyabani-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Gulyabani is a 2014 Turkish horror-comedy film directed by Orçun Benli.",
+          "statement_id": "Gulyabani adalah film horor-komedi Turki tahun 2014 yang disutradarai Orçun Benli.",
+          "quote": "Gulyabani is a 2014 Turkish horror-comedy film directed by Orçun Benli.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c12",
+          "source_id": "gulyabani-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the Kyrgyz of the Eastern Pamir and the Tajiks, the gulyabani lived in deserted places (mountain forests), resembled a human, was large, covered in grey or black hair, foul-smelling, with feet turned backwards.",
+          "statement_id": "Menurut orang Kirgiz Pamir Timur dan Tajik, gulyabani tinggal di tempat sunyi (hutan pegunungan), mirip manusia, besar, berbulu abu-abu atau hitam, berbau tak sedap, dan berkaki terbalik ke belakang.",
+          "quote": "У киргизов Восточного Памира и таджиков гульябани обитал в пустынных местах (в горных лесах). Был похожим на человека, покрытым серой (или чёрной) шерстью, крупного размера, с неприятным запахом и имеющим вывернутые назад ступни.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c13",
+          "source_id": "gulyabani-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "In the western districts of Azerbaijan, the gulyabani was often identified with a harmful water spirit.",
+          "statement_id": "Di wilayah barat Azerbaijan, gulyabani sering disamakan dengan roh air yang merugikan.",
+          "quote": "В западных районах Азербайджана гульябани часто отождествляли с вредоносным духом воды.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulyabani-c14",
+          "source_id": "gulyabani-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the ru article, the image of gyul-yabani goes back to the Muslim ghul, and among the people it was also called a jinn (evil spirit).",
+          "statement_id": "Menurut artikel ru, citra gyul-yabani berasal dari ghul dalam tradisi Muslim, dan di kalangan rakyat ia juga disebut jin (roh jahat).",
+          "quote": "Образ гюль-ябани восходит к мусульманскому гуль. В народе его называли также и джинном (злой дух)",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -771,7 +931,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ca7e38c4594d85650c95c0f647cdcf4c2139705d7e511b7880a8f6a39acf7c5f"
     },
     {
       "slug": "k-obuk",
@@ -845,24 +1006,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a1a4bb5b8a5143501df0ed1dad81b98dbc9681827cf3323ba55fa84594236080"
     },
     {
       "slug": "kanjirottu-yakshi",
-      "file": "batch-124.md",
+      "file": "batch-124-fix-1.md",
+      "entry_sha256": "a1e8cb1f2b2ca34b7eae541f08904d53dc3dafd84ad106aa949a60e99fa35e07",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kanjirottu-yakshi-c01",
@@ -912,6 +1069,86 @@
           "statement_id": "Menurut cerita rakyat, ia berlindung di Kuil Sree Padmanabhaswamy, dan kini dipuja di sebuah tempat suci kecil (Thekkedom) di kompleks kuil itu sebagai dewi pelindung yang telah menukar haus darahnya dengan pengabdian spiritual.",
           "quote": "Folklore states that, she sought refuge in the Sree Padmanabhaswamy Temple. Today, she is worshipped in a small shrine (Thekkedom) within the temple complex, where she is seen as a protector deity who has traded her thirst for blood for spiritual devotion.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c06",
+          "source_id": "kanjirottu-yakshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Legend says she initially resided in a massive Kanjiram (strychnine tree), from which the name \"Kanjirottu\" is derived.",
+          "statement_id": "Menurut legenda, ia semula tinggal di pohon Kanjiram (pohon strychnine) yang besar, dan dari situlah nama \"Kanjirottu\" berasal.",
+          "quote": "Legend says she initially resided in a massive Kanjiram (Strychnine tree), from which the name \"Kanjirottu\" is derived.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c07",
+          "source_id": "kanjirottu-yakshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To help Kunjuraman, Govindan made a deal with the yakshi whereby she could cohabit with Kunjuraman for a year, after which she was to become a devotee of Narasimha.",
+          "statement_id": "Untuk menolong Kunjuraman, Govindan membuat kesepakatan dengan yakshi itu: ia boleh hidup bersama Kunjuraman selama setahun, setelah itu ia harus menjadi pemuja Narasimha.",
+          "quote": "To help Kunjuraman, Govindan, who was also a great upasaka of Lord Balarama, made a deal with the yakshi whereby she could cohabit with Kunjuraman for a year, after which she was to become a devotee of Narasimha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c08",
+          "source_id": "kanjirottu-yakshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to a legend, any attempt to open Vault B of the temple would stir up the Kanjirottu Yakshi, interrupting her prayers to Narasimha and unleashing her evil upon the world.",
+          "statement_id": "Menurut legenda, upaya membuka Ruang Brankas B di kuil itu akan membangkitkan Kanjirottu Yakshi, mengganggu doanya kepada Narasimha dan melepaskan kejahatannya ke dunia.",
+          "quote": "However, Vault B remains unopened due to ongoing legal issues, as well as the legend that suggests that while even bigger treasures lie within the vault, any attempt to open it would stir up the Kanjirottu Yakshi, interrupting her prayers to Lord Narasimha and unleashing her evil upon the world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c09",
+          "source_id": "kanjirottu-yakshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The enchanting and ferocious forms of this Yakshi are painted on the south-west part of Sri Padmanabha's shrine.",
+          "statement_id": "Wujud Yakshi ini yang memikat dan yang garang dilukis di bagian barat daya tempat suci Sri Padmanabha.",
+          "quote": "The enchanting and ferocious forms of this Yakshi are painted on the south-west part of Sri Padmanabha's shrine.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c10",
+          "source_id": "kanjirottu-yakshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story is closely intertwined with the political turmoil of 18th-century Travancore.",
+          "statement_id": "Kisahnya terjalin erat dengan gejolak politik Travancore abad ke-18.",
+          "quote": "The story is closely intertwined with the political turmoil of 18th-century Travancore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c11",
+          "source_id": "kanjirottu-yakshi-s2",
+          "host": "rupkatha.com",
+          "statement": "According to this journal article, in the Yakshi tales of medieval Kerala a shape-shifting tree spirit haunting lonely pathways evokes the ancient traveller's encounter with the wilderness and its deities.",
+          "statement_id": "Menurut artikel jurnal ini, dalam kisah-kisah yakshi Kerala abad pertengahan, roh pohon pengubah wujud yang menghantui jalan sepi mengingatkan pada perjumpaan para pelancong kuno dengan alam liar dan dewa-dewanya.",
+          "quote": "All these “forgotten” traditions of travel come together in the Yakshi tales of medieval Kerala where a shape-shifting tree spirit haunting lonely pathways evokes memories of the ancient traveller’s encounter with the wilderness and its corresponding deities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c12",
+          "source_id": "kanjirottu-yakshi-s2",
+          "host": "rupkatha.com",
+          "statement": "According to the article, in Kerala folktales the Yakshi is often contained by a mantravadi (sorcerer) by nailing her to a Kanjiram tree; if the nail is removed by accident, she can come out and go back to her old ways.",
+          "statement_id": "Menurut artikel itu, dalam cerita rakyat Kerala yakshi sering ditaklukkan oleh mantravadi (dukun) dengan memakunya pada pohon Kanjiram; bila paku itu tak sengaja dicabut, yakshi dapat keluar dan kembali ke kebiasaan lamanya.",
+          "quote": "In the folktales, the Yakshi is often contained by a Mantravadi (sorcerer) by nailing her to a Kanjiram tree (Snakewood tree). However, if, someone removed the nail by accident, the Yakshi could come out of her imprisonment and go back to her old ways.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kanjirottu-yakshi-c13",
+          "source_id": "kanjirottu-yakshi-s2",
+          "host": "rupkatha.com",
+          "statement": "According to the article, in many such stories the Yakshi asks the exorcist for a space in a nearby temple and is thereafter worshipped as a deity in the temple's outer courtyard.",
+          "statement_id": "Menurut artikel itu, dalam banyak kisah seperti ini yakshi meminta pengusirnya agar diberi tempat di kuil terdekat, lalu dipuja sebagai dewi di halaman luar kuil.",
+          "quote": "The Yakshi in many of these stories would request the exorcist that she be given a space in a nearby temple and she would thereafter be worshipped as a deity in the outer courtyard of the temple.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -989,7 +1226,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2d3ca3fdff66b0119ca3955e432c2931fd2d78f961beb41ec8955b1f3748d086"
     },
     {
       "slug": "maa-alused",
@@ -1063,7 +1301,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "85c6f49c6718584c76377ae2658d4b98f7467f6ad5e7e393907b21a0d74f610c"
     },
     {
       "slug": "martolea",
@@ -1157,7 +1396,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "229a33752b1d34c0cb0957c1d62f1355c9eef8ae77e6d758594c47f9c6fac2bc"
     },
     {
       "slug": "ora-mythology",
@@ -1241,7 +1481,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a2bef500e9df7fb415b774dd5352a3eca4c0c3ac0cfc6d84faba91793a9da340"
     },
     {
       "slug": "paha",
@@ -1335,7 +1576,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1fd1e8878cc1983448f4ede4ac3ea18562d3bead702fc728e27a54f5a55e637f"
     },
     {
       "slug": "rahko",
@@ -1429,7 +1671,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e62f28826e15d8cddb6980e32af162df593fd2ce6d1957bba7d5c91b41c7fa34"
     },
     {
       "slug": "richmond-vampire",
@@ -1523,7 +1766,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d9cd4b67df3c395db0e02a38c33cfa593d6b8c213e9691d23113465570ad30e0"
     },
     {
       "slug": "rokita-folklore",
@@ -1617,7 +1861,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "94abf5189bd4dbf10d518c2d8affcc8bcc410affd27e8f4ad2c275495c1b4c28"
     },
     {
       "slug": "samca",
@@ -1711,7 +1956,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1001d8f1bc4cdec8a7d296aa26269398b24fe994984cf5e9bec04ff501596472"
     },
     {
       "slug": "santoaderi",
@@ -1815,7 +2061,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "43184ca377cefebd6ad65a7b7eb967f0f99694c4510594915eaa75bcf6b0e517"
     },
     {
       "slug": "sea-tsar",
@@ -1939,7 +2186,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2cf46d99e902001fdaf2466ae1e37837a0a7ce4a9854e3c3087bb9be12cad3fe"
     },
     {
       "slug": "shatans",
@@ -2043,7 +2291,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e9911cbeb9cab5bb982d0f1ce1f21f32e7f75a251a8f66b45f24fd9a4d77fdb3"
     },
     {
       "slug": "shtojzovalle",
@@ -2157,7 +2406,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "917d2c15c4af0ba8b038a364867baf9363a74038e7c1912d7ac35fc34a949dda"
     },
     {
       "slug": "szelatya",
@@ -2281,7 +2531,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56b3b116b9fdf9b2d78136750648367878602bdd80cb12841e535e4ad322d382"
     },
     {
       "slug": "the-dragon-of-the-north",
@@ -2425,7 +2676,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "708e2f100646ec6fbf481385fdeb5cc0b8ed47ad491fed8f55ea2d5fda428545"
     },
     {
       "slug": "unclean-dead-in-slavic-mythology",
@@ -2589,7 +2841,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "019e26cf6713ffedd47a277adf48da2bf32f49fd84a42a531c26186f1d2fbd77"
     },
     {
       "slug": "utqac",
@@ -2683,7 +2936,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fbe188692713124f933f79189929c789268b066bce4304aad89cec2462c42015"
     },
     {
       "slug": "vadleany",
@@ -2777,7 +3031,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "284218871d619526d6e2f833d03a4959b53a36cc02441dad2fe24aeef13ea3de"
     },
     {
       "slug": "valva",
@@ -2901,7 +3156,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aeec8aa1e4b8949f8935ae0bcf49a6bea18c37cefa3ffb6d11bc47e6c9e5bdf4"
     },
     {
       "slug": "baloz",
@@ -3005,7 +3261,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6f8d6c37400667b585ec8c9ff21f1ebc95577f64f7cd9a81bec8880dc7bd0240"
     },
     {
       "slug": "bardha",
@@ -3089,7 +3346,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2873aff0c5c3e2e0b76607a965908b1f444a1c8252c2b1595f417a5d808ebe25"
     },
     {
       "slug": "chudo-yudo",
@@ -3193,7 +3451,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "26e0c867646b0fee2b1da086fcc759828a294f6db9bc2965600683037a0704af"
     },
     {
       "slug": "djall",
@@ -3267,7 +3526,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "70223d6206f410b6e5faa1da0149825a6a4500e2e14c645383d7c2202201d6de"
     },
     {
       "slug": "drangue",
@@ -3421,7 +3681,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6e6311ef0af68b3a8abb87e82e7436eca7040b8b7851b5ed99a947751a720949"
     },
     {
       "slug": "dzedka",
@@ -3495,7 +3756,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bafbfd7a23d43b46506164e24f79fa6ec9d26ce529b9633b91569d7cebb65c8f"
     },
     {
       "slug": "e-bija-e-henes-dhe-e-diellit",
@@ -3579,7 +3841,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3d198b6cb82bb611fd151fd201e0fa7e0ee0fdf2b9728cdaf7cd0fba7d79132a"
     },
     {
       "slug": "ebajalg",
@@ -3653,7 +3916,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "318fbb26d8a6032ca52dd4cedca3d29b2284bd20308effd60470c7b6b5da6408"
     },
     {
       "slug": "faronika",
@@ -3737,7 +4001,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "96d2eb6483ef022db4e0d4796918705549dd2f09068769931098f66dac19e44e"
     },
     {
       "slug": "gundyr",
@@ -3811,7 +4076,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4d2e8ad451d72f0f5eca58c0ba0afe2e1bbf011e8329cec6f76e233f2fa94820"
     }
   ]
 }

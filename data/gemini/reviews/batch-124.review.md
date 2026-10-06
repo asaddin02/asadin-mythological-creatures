@@ -1,6 +1,6 @@
 # Review batch-124
 
-Diperiksa 2026-10-03T03:10:07.773Z. Berkas: batch-124.md.
+Diperiksa 2026-10-06T19:20:31.743Z. Berkas: batch-124.md, batch-124-fix-1.md.
 
 ## ved-ava — lulus-otomatis
 
@@ -60,28 +60,32 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 ## b-ednica-slavic-demoness — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | b-ednica-slavic-demoness-c01 | exact | en.wikipedia.org | Błędnica is a forest demoness said to lead people astray, leaving her victims alone deep in the forest to starve or be eaten by wild animals; this evil being is most often described as a pretty young girl. | – a forest demoness, which is said to have led people astray, leaving its victims alone in the depths of the forest to die of starvation or to be eaten by wild animals. The evil entity is most often described as a young and pretty girl. |
 | b-ednica-slavic-demoness-c02 | exact | en.wikipedia.org | It is believed the only way to drive the demon away was with strong spells or by making an offering, either at home or during the hunt. | It is believed that the only way to chase the demon away was to use some strong spells or to sacrifice something either at one's home or during the hunt. |
+| b-ednica-slavic-demoness-c03 | exact | ja.wikipedia.org | The Japanese Wikipedia article describes Błędnica as a female demon said to lead people astray and leave the victims alone deep in the forest to die of hunger or be eaten by wild animals. | 人々を迷わせ、飢えて死なせたり、野生動物に食べられるようにするために犠牲者を森の奥深くに一人で残したといわれている女悪魔 |
+| b-ednica-slavic-demoness-c04 | exact | ja.wikipedia.org | According to the Japanese article, this evil being is most often described as having the form of a pretty young girl. | この邪悪な存在は、ほとんどの場合、若くて可愛い少女の姿をしていると説明されている |
+| b-ednica-slavic-demoness-c05 | exact | ja.wikipedia.org | According to the Japanese article, the only way to drive this demon away is believed to have been to use some strong spells or to make an offering at home or during a hunt. | 悪魔を追い払う唯一の方法は、いくつかの強力な呪文を使用するか、自宅や狩猟中に供物を捧げることであったと考えられている |
 
 
 ## barstuk — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | barstuk-c01 | exact | en.wikipedia.org | The barstuk is a kind of small dwarf of Warmian-Masurian folk tales that lived in forests and is believed to have helped people whose houses it secretly visited. | Barstuk is a type of small dwarf in Warmian-Masurian folk tales. The creature inhabited forests and it is believed to have been helping people whose houses it secretly visited. |
 | barstuk-c02 | exact | fr.wikipedia.org | According to Louis Noirot, the barstuk is a Prussian deity later identified as a kind of dwarf in the folk tales of the Warmian-Masurian Voivodeship in Poland. | Un Barstuk est, selon Louis Noirot, une divinité prusse, identifiée ultérieurement comme un type de nain présents dans les contes folkloriques du voïvodie de Varmie-Mazurie en Pologne. |
+| barstuk-c03 | exact | www.vle.lt | The Lithuanian Universal Encyclopedia records the barzdukai (Prussian barstucke) in ancient Prussian mythology as dwarfs, helpers of the god Puškaitis, mentioned in 16th-century sources. | barzdùkai (prūsų k. barstucke), senovės prūsų mitologijoje – nykštukai, dievo Puškaičio pagalbininkai. Minimi 16 a. šaltiniuose. |
+| barstuk-c04 | exact | www.vle.lt | The barzdukai are also called barstukai and bezdukai; they are imagined as little people living in forests underground and guarding treasures. | Dar vadinti barstukais, bezdukais. Įsivaizduoti kaip maži žmogučiai, gyvenantys miškuose po žeme ir saugantys lobius. |
+| barstuk-c05 | exact | www.vle.lt | Belief in the barzdukai was taken over by the inhabitants of Lithuania Minor; according to M. Pretorius, the barzdukai correspond to the Lithuanian kaukai. | Tikėjimą barzdukais perėmė Mažosios Lietuvos gyventojai. M. Pretorijaus teigimu, barzdukai atitinka lietuvių kaukus. |
+| barstuk-c06 | exact | en.wikipedia.org | The creature inhabited forests and is believed to have helped people whose houses it secretly visited. | The creature inhabited forests and it is believed to have been helping people whose houses it secretly visited. |
 
 
 ## crow-in-mythology — skip
@@ -142,10 +146,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## gulyabani — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -154,6 +155,15 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | gulyabani-c03 | exact | ru.wikipedia.org | In Azerbaijani belief the gulyabani had werewolf traits, liking to ride horses at night and tangle their manes; if caught and a needle stuck in the collar of its clothes, it would work like a slave ("gul" in Azerbaijani means "slave"), but would carry out all its master's orders backwards. | Согласно поверьям азербайджанцев, гульябани имел черты оборотня, который по ночам любил ездить на лошади, запутывать ей гриву. По поверью если его поймать и воткнуть в ворот его одежды иголку, он, подобно рабу («гул» в переводе с азербайджанского означает «раб»), станет работать на человека. Но все приказы хозяина он будет выполнять наоборот. |
 | gulyabani-c04 | exact | az.wikipedia.org | According to the Azerbaijani article, its counterpart Quyux means a wild being; in the best-known description it appears in the dark in the steppes and cemeteries, its body covered in yellowish-red hair, foul-smelling and very large. | Quyux, vəhşi varlıq deməkdir. Ən məşhur təsvirə görə, qaranlıqda çöllərdə və qəbiristanlıqlarda ortaya çıxır. Bədəni sarı qırmızı tüklə örtülü, pis qoxuludur. Çox iridir. |
 | gulyabani-c05 | exact | az.wikipedia.org | In Azerbaijani mythology Qulyabanı (from Persian ghoul-e yabani or ghoul-e biyabani, "wild giant" or "giant of the plains") is a wild beast, an extraordinary, predatory, hairy being. | Qulyabanı (fars. غول یابانی‎ və ya غول بیابانی ğoul-e yabani və ya ğoul-e biyabani – "vəhşi nəhəng və ya düzənlik nəhəngi”) — Azərbaycan mifologiyasında vəhşi heyvan, fövqəladə, yırtıcı canlı, tüklü varlıq. |
+| gulyabani-c06 | exact | eo.iea.ras.ru | According to storytellers of the Eastern Pamir recorded by Rozenfeld, the gulbiyaban (gulbiyavan, gul) is a large humanlike being covered in yellowish-grey hair resembling camel hair. | гульбиябан (гульбияван, гуль) —■чело­ векоподобное сущ ество крупных размеров, покрытое желтовато-серог шерстью, напоминающей верблюж |
+| gulyabani-c07 | exact | eo.iea.ras.ru | A sharp, unbearable smell comes from the gulbiyaban and is perceptible at a considerable distance; in some tales its feet are turned backwards, heel in front and toes behind. | От гульбиябана исходит резкий, нестерпи­ мый запах, который ощущ ается на значительном расстоянии. Иногда в рассказах о гульбиябане присутствует мотив о том, что у него выворочень ступни: пятка находится спереди, а пальцы — сзади. |
+| gulyabani-c08 | exact | eo.iea.ras.ru | The gulbiyaban is said to dwell in deserted, barren places, avoids people and utters a characteristic cry. | Обитает он якобы в пустынных местах, избегает людей и издает особый характерный крик. |
+| gulyabani-c09 | exact | eo.iea.ras.ru | In the Eastern Pamir tales, the gulbiyaban challenges a hero (palvan) to wrestle and first asks for chewing tobacco to check whether he carries a knife; if the palvan wins, the gulbiyaban runs away and never appears to him again. | Гульбиябан, встретившись с палваном, предлагает ему бороться. При этом гульбиябан сначала просит у палвана жевательного табака — нас, который носят в табакерке за поясом; это он якобы делает для того, чтобы проверить, нет ли у палвана ножа. Если побеж дает палзаи, то гульбиябан убегает и больше никогда уж е не попадается ему на глаза. |
+| gulyabani-c10 | exact | en.wikipedia.org | According to Turkish myth, Gulyabani is a humongous ghoul with a long beard who wanders at night and scares people. | According to Turkish myth, Gulyabani is a humongous ghoul with a long beard who wanders at night and scares people. |
+| gulyabani-c11 | exact | en.wikipedia.org | Gulyabani is a 2014 Turkish horror-comedy film directed by Orçun Benli. | Gulyabani is a 2014 Turkish horror-comedy film directed by Orçun Benli. |
+| gulyabani-c12 | exact | ru.wikipedia.org | According to the Kyrgyz of the Eastern Pamir and the Tajiks, the gulyabani lived in deserted places (mountain forests), resembled a human, was large, covered in grey or black hair, foul-smelling, with feet turned backwards. | У киргизов Восточного Памира и таджиков гульябани обитал в пустынных местах (в горных лесах). Был похожим на человека, покрытым серой (или чёрной) шерстью, крупного размера, с неприятным запахом и имеющим вывернутые назад ступни. |
+| gulyabani-c13 | exact | ru.wikipedia.org | In the western districts of Azerbaijan, the gulyabani was often identified with a harmful water spirit. | В западных районах Азербайджана гульябани часто отождествляли с вредоносным духом воды. |
+| gulyabani-c14 | exact | ru.wikipedia.org | According to the ru article, the image of gyul-yabani goes back to the Muslim ghul, and among the people it was also called a jinn (evil spirit). | Образ гюль-ябани восходит к мусульманскому гуль. В народе его называли также и джинном (злой дух) |
 
 
 ## hiiden-hirvi — lulus-otomatis
@@ -186,10 +196,7 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## kanjirottu-yakshi — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -198,6 +205,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | kanjirottu-yakshi-c03 | exact | en.wikipedia.org | Frustrated, Chiruthevi had Kunjuraman's wife killed; when Govindan found out and told Kunjuraman, Kunjuraman agreed to sleep with Chiruthevi and strangled her in bed to avenge his wife. | Frustrated by Kunjuraman's romantic indifference towards her, Chiruthevi arranged for Kunjuraman's wife to be killed. When Govindan found out that his sister was behind the plot, he told Kunjuraman, who agreed to sleep with Chiruthevi. While they were in bed, Kunjuraman strangled Chiruthevi in order to avenge the murder of his wife. |
 | kanjirottu-yakshi-c04 | exact | en.wikipedia.org | After her murder Chiruthevi was reborn as a yakshi to a couple in Kanjirottu and moments after birth magically became a bewitching woman; as a yakshi she seduced and terrorised men and drank their blood, never ceasing to harass Kunjuraman, whom she still desired. | Following her murder, Chiruthevi was reborn as a yakshi to a couple in Kanjirottu. She magically transformed into a bewitchingly beautiful woman moments after her birth. As a yakshi, she proceeded to seduce and terrorize men and drink their blood, never forgetting to harass the still-living Kunjuraman, whom she still desired. |
 | kanjirottu-yakshi-c05 | exact | en.wikipedia.org | Folklore says she took refuge in the Sree Padmanabhaswamy Temple; today she is worshipped in a small shrine (Thekkedom) within the temple complex as a protector deity who traded her thirst for blood for spiritual devotion. | Folklore states that, she sought refuge in the Sree Padmanabhaswamy Temple. Today, she is worshipped in a small shrine (Thekkedom) within the temple complex, where she is seen as a protector deity who has traded her thirst for blood for spiritual devotion. |
+| kanjirottu-yakshi-c06 | exact | en.wikipedia.org | Legend says she initially resided in a massive Kanjiram (strychnine tree), from which the name "Kanjirottu" is derived. | Legend says she initially resided in a massive Kanjiram (Strychnine tree), from which the name "Kanjirottu" is derived. |
+| kanjirottu-yakshi-c07 | exact | en.wikipedia.org | To help Kunjuraman, Govindan made a deal with the yakshi whereby she could cohabit with Kunjuraman for a year, after which she was to become a devotee of Narasimha. | To help Kunjuraman, Govindan, who was also a great upasaka of Lord Balarama, made a deal with the yakshi whereby she could cohabit with Kunjuraman for a year, after which she was to become a devotee of Narasimha. |
+| kanjirottu-yakshi-c08 | exact | en.wikipedia.org | According to a legend, any attempt to open Vault B of the temple would stir up the Kanjirottu Yakshi, interrupting her prayers to Narasimha and unleashing her evil upon the world. | However, Vault B remains unopened due to ongoing legal issues, as well as the legend that suggests that while even bigger treasures lie within the vault, any attempt to open it would stir up the Kanjirottu Yakshi, interrupting her prayers to Lord Narasimha and unleashing her evil upon the world. |
+| kanjirottu-yakshi-c09 | exact | en.wikipedia.org | The enchanting and ferocious forms of this Yakshi are painted on the south-west part of Sri Padmanabha's shrine. | The enchanting and ferocious forms of this Yakshi are painted on the south-west part of Sri Padmanabha's shrine. |
+| kanjirottu-yakshi-c10 | exact | en.wikipedia.org | The story is closely intertwined with the political turmoil of 18th-century Travancore. | The story is closely intertwined with the political turmoil of 18th-century Travancore. |
+| kanjirottu-yakshi-c11 | exact | rupkatha.com | According to this journal article, in the Yakshi tales of medieval Kerala a shape-shifting tree spirit haunting lonely pathways evokes the ancient traveller's encounter with the wilderness and its deities. | All these “forgotten” traditions of travel come together in the Yakshi tales of medieval Kerala where a shape-shifting tree spirit haunting lonely pathways evokes memories of the ancient traveller’s encounter with the wilderness and its corresponding deities. |
+| kanjirottu-yakshi-c12 | exact | rupkatha.com | According to the article, in Kerala folktales the Yakshi is often contained by a mantravadi (sorcerer) by nailing her to a Kanjiram tree; if the nail is removed by accident, she can come out and go back to her old ways. | In the folktales, the Yakshi is often contained by a Mantravadi (sorcerer) by nailing her to a Kanjiram tree (Snakewood tree). However, if, someone removed the nail by accident, the Yakshi could come out of her imprisonment and go back to her old ways. |
+| kanjirottu-yakshi-c13 | exact | rupkatha.com | According to the article, in many such stories the Yakshi asks the exorcist for a space in a nearby temple and is thereafter worshipped as a deity in the temple's outer courtyard. | The Yakshi in many of these stories would request the exorcist that she be given a space in a nearby temple and she would thereafter be worshipped as a deity in the outer courtyard of the temple. |
 
 
 ## liderc — lulus-otomatis

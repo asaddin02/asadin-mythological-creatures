@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-054",
-  "checked_at": "2026-10-06T15:38:35.791Z",
+  "checked_at": "2026-10-06T19:23:20.184Z",
   "files": [
     "batch-054.md",
     "batch-054-fix-1.md",
     "batch-054-fix-2.md",
-    "batch-054-fix-3.md"
+    "batch-054-fix-3.md",
+    "batch-054-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2484,20 +2485,15 @@
     },
     {
       "slug": "ta-no-kami",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "42276e3dd481cf049758c621b9790daa866992dfeedc563a89e950a2143ae6b3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ta-no-kami-c01",
@@ -2558,10 +2554,79 @@
           "quote": "They also pray for the elimination of disasters or harmful insects.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c07",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Ta no kami is the \"kami of the rice paddy\", a tutelary of rice production; the general term is found nationwide, with regional variations in the specific names.",
+          "statement_id": "Ta no kami disebut \"kami sawah\", pelindung produksi padi; istilah umum ta no kami ditemukan di seluruh negeri, dengan nama yang berbeda-beda menurut daerah.",
+          "quote": "\"Kami of the rice paddy,\" a tutelary of rice production. The general term ta no kami can be found nationwide, but regional variations exist in the specific names used to refer to the kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c08",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Regional names include nōgami (\"farming kami\") in the northeast, sakugami (\"kami of production\") in Yamanashi and Nagano, and tsukurigami (\"kami of making\") in the Kinki area.",
+          "statement_id": "Nama daerahnya antara lain nōgami (\"kami pertanian\") di timur laut, sakugami (\"kami produksi\") di Yamanashi dan Nagano, serta tsukurigami (\"kami pembuatan\") di kawasan Kinki.",
+          "quote": "Some include nōgami (farming kami) in the northeast, sakugami (kami of production) in Yamanashi and Nagano, and tsukurigami (kami of making) in the Kinki area.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c09",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The rice paddy kami has also been synthesized with Ebisu in eastern Japan and with Daikoku in the west, leading to cults different from the fishing and commerce cults normally associated with these two deities.",
+          "statement_id": "Kami sawah juga berpadu dengan Ebisu di Jepang timur dan dengan Daikoku di barat, sehingga muncul pemujaan yang berbeda dari pemujaan perikanan dan perdagangan yang biasa dikaitkan dengan kedua dewa itu.",
+          "quote": "The rice paddy kami has also undergone synthesis with Ebisu in eastern Japan, and with Daikoku in the west, leading to different cults from those of fishing and commerce normally associated with these two deities.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c10",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "It is believed that in spring the mountain kami descends to the village and becomes the kami of the rice paddy, and in fall the rice paddy kami leaves the field and returns to the mountain, where it becomes the mountain kami.",
+          "statement_id": "Dipercaya bahwa pada musim semi kami gunung turun ke desa dan menjadi kami sawah, lalu pada musim gugur kami sawah meninggalkan ladang dan kembali ke gunung menjadi kami gunung.",
+          "quote": "Namely, in spring it is believed that the mountain kami descends from the mountain to the village, becoming the kami of the rice paddy, and in fall, the rice paddy kami leaves the field and returns to the mountain, where it becomes the mountain kami.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c11",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Festivals for the kami of the rice paddy are ordinarily spread between spring and autumn according to the stages of the agricultural process, and are especially noteworthy around spring rice transplanting.",
+          "statement_id": "Perayaan untuk kami sawah umumnya tersebar antara musim semi dan musim gugur sesuai tahap pertanian, dan paling menonjol pada masa penanaman padi musim semi.",
+          "quote": "Festivals celebrating the kami of the rice paddy are ordinarily distributed between spring and autumn in accordance with the various stages of the agricultural process, but they are especially noteworthy around the time of spring rice transplanting",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c12",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The tradition of the \"watch\" kami is related to the legend that all the kami throughout Japan gather at the Izumo Shrine in the tenth lunar month, while the \"watch\" kami alone remains behind to keep guard.",
+          "statement_id": "Tradisi kami \"penjaga\" dikaitkan dengan legenda bahwa semua kami di Jepang berkumpul di Kuil Izumo pada bulan kesepuluh penanggalan bulan, sementara kami \"penjaga\" saja yang tinggal untuk berjaga.",
+          "quote": "The tradition of the \"watch\" kami is related to the legend that all the kami throughout Japan gather at the Izumo Shrine in the tenth lunar month (called kannazuki, or \"month without kami\"), while the \"watch\" kami alone remains behind to keep guard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ta-no-kami-c13",
+          "source_id": "ta-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Since the time of the folklorist Yanagita Kunio, the theory that the rice paddy god is actually an ancestral kami (sojin) has gained wide acceptance.",
+          "statement_id": "Sejak masa pakar cerita rakyat Yanagita Kunio, teori bahwa dewa sawah sesungguhnya adalah kami leluhur (sojin) diterima luas.",
+          "quote": "Since the time of folklorist Yanagita Kunio, the theory that the rice paddy god is actually an ancestral kami (sojin) has gained wide acceptance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "62edb6a141eed94e311c4e294af9f78ef4437c1b3c68881aaf259eba83d7c6dc"
+      "images": []
     },
     {
       "slug": "toyokumono-no-mikoto",
@@ -2940,18 +3005,44 @@
     },
     {
       "slug": "akago",
-      "file": "batch-054-fix-1.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "d3a99db8ad34ef99d69bfb290f9365f0f5e2d473090f128c09d0ddf3841a2855",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Ōmachi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Provinsi, Yamato, Province. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[0].tradition",
+          "message": "Tidak muncul di kutipan mana pun: Prefecture. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[1].name",
+          "message": "Tidak muncul di kutipan mana pun: Akago dari Provinsi Yamato (Bakemono Emaki). Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[1].tradition",
+          "message": "Tidak muncul di kutipan mana pun: Yamato, Prefektur, Nara, Province, Prefecture. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Nishina, Kota, Ōmachi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2994,27 +3085,81 @@
           "quote": "外見は11歳か12歳ほどの人間のようだが、その名が示すように産まれたばかりの赤ん坊のように赤く、髪は猩猩のようだという。漁師が水中に隠れている赤子を目撃することがあるものの、特に人間に対して危害を加えることはないという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akago-c05",
+          "source_id": "akago-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Meiji-period yōkai scroll \"Bakemono Emaki\" (author unknown), the tale is written under the title \"Akago no Kai\" (The Baby Apparition); somewhere there was a house called a haunted mansion that no one approached.",
+          "statement_id": "Dalam gulungan yōkai zaman Meiji \"Bakemono Emaki\" (penulis tidak diketahui), kisah ini ditulis dengan judul \"Akago no Kai\" (Keanehan Bayi); di suatu tempat ada rumah yang disebut rumah hantu dan tidak didekati siapa pun.",
+          "quote": "明治時代の妖怪絵巻『ばけもの絵巻』（作者不詳）に「赤子の怪」と題して記述されている。あるところに化物屋敷と呼ばれて誰も寄り付かない家があった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akago-c06",
+          "source_id": "akago-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A swordsman stayed in the house to determine the true nature of the apparition; in the night he heard sounds like someone dancing beyond the sliding door, and on peeking saw beings like newborn babies dancing, their number growing until it reached hundreds.",
+          "statement_id": "Seorang ahli pedang menginap di rumah itu untuk memastikan wujud hantunya; tengah malam terdengar bunyi seperti orang menari di balik pintu geser, dan saat diintip tampak makhluk seperti bayi yang baru lahir menari, jumlahnya terus bertambah hingga mencapai ratusan.",
+          "quote": "ある剣術者が化物の正体を見極めようとその家に泊まったところ、夜中に障子の向こうから、誰かが踊っているような音が聞こえた。覗き見ると、生まれたばかりの赤ん坊のような者が踊っており、しかもどんどん数を増し、遂には数百人にも達した。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akago-c07",
+          "source_id": "akago-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The swordsman put his hand on his sword to cut them down, but his hand froze; before he could do anything, the babies vanished at dawn.",
+          "statement_id": "Si ahli pedang meraih pedangnya untuk menebas mereka, tetapi tangannya kaku; sebelum ia dapat berbuat apa-apa, para bayi itu lenyap saat fajar.",
+          "quote": "剣術者は斬り払おうと太刀に手をかけたものの、手がすくんでしまった。どうすることもできない内に、夜明けと共に赤子たちは消え去ったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akago-c08",
+          "source_id": "akago-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the \"Buson Yōkai Emaki\" version, a priest stayed in a room called Ogasawara; in the night he heard sounds like many people dancing in the next room, and on peeking saw thousands of naked babies dancing.",
+          "statement_id": "Dalam versi \"Buson Yōkai Emaki\", seorang pendeta menginap di ruang bernama Ogasawara; tengah malam terdengar bunyi seperti banyak orang menari di kamar sebelah, dan saat diintip tampak ribuan bayi telanjang menari.",
+          "quote": "ある法師が小笠原という座敷に停まったところ、夜中に隣室で大勢の人間が踊っているような音が聞こえた。覗き見ると、そこには数千人もの裸の赤ん坊が踊っていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akago-c09",
+          "source_id": "akago-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The title of the Buson version is the same as that of the \"Bakemono Emaki\" version and the content is very similar, but the relationship between them is unknown.",
+          "statement_id": "Judul versi Buson sama dengan judul versi \"Bakemono Emaki\" dan isinya sangat mirip, tetapi hubungan keduanya tidak diketahui.",
+          "quote": "題名は『ばけもの絵巻』のものと同じであり、内容も酷似しているが、関連性は不明。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "akago-c10",
+          "source_id": "akago-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The \"Buson Yōkai Emaki\" is a Japanese yōkai scroll by Yosa Buson, a haiku poet and painter of the mid-Edo period; the original is now of unknown whereabouts and its contents are known through a 1928 reprint from the Kitada Shisui Bunko.",
+          "statement_id": "\"Buson Yōkai Emaki\" adalah gulungan yōkai karya Yosa Buson, penyair haiku dan pelukis pertengahan zaman Edo; aslinya kini tidak diketahui keberadaannya dan isinya dikenal lewat cetak ulang tahun 1928 dari Kitada Shisui Bunko.",
+          "quote": "『蕪村妖怪絵巻』（ぶそんようかいえまき）は、江戸時代中期の俳人・画家である与謝蕪村による日本の妖怪絵巻。現在、現物は所在不明となっている。昭和3年（1928年）北田紫水文庫から刊行された復刻版によって内容が知られている。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "13fbf1c632a15b5bb78383247fc252b94acca76b3b002aac9ca14351142457d2"
+      "images": []
     },
     {
       "slug": "akaruhime",
-      "file": "batch-054-fix-1.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "0c67561f6722d912ea2d6b0cdaeb06354bf2abc9262361114c5139b538790ff5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akaruhime-c01",
@@ -3065,27 +3210,101 @@
           "quote": "しかし、ある日奢り高ぶった天之日矛が妻を罵ったので、親の国に帰ると言って小舟に乗って難波の津に逃げてきた。その娘は、難波の比売碁曾の社に鎮まる阿加流比売神であるという。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "akaruhime-c06",
+          "source_id": "akaruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "A lowly woman napping by a marsh in Silla conceived from sunlight, and the red jewel she bore became Akaruhime. She became Amenohiboko's wife and served him, but when her arrogant husband abused her she fled to Japan and was enshrined at the Himegokoso shrine in Naniwa.",
+          "statement_id": "Seorang perempuan rendah di tepi rawa di negeri Silla berbaring siang hari dan hamil karena terkena sinar matahari; permata merah yang dikandungnya menjadi Akaruhime. Ia menjadi istri Amenohiboko dan melayaninya, tetapi dicaci suaminya yang menjadi angkuh, lalu melarikan diri ke Jepang dan bersemayam di Hime-gokoso di Naniwa.",
+          "quote": "新羅国の沼のほとりで昼寝をしていた賤女が、日光にあたって孕んだ赤玉が阿加流比売神となる。天之日矛の妻となって尽くしたが、傲慢になった夫に罵られたため日本に逃げ渡り、難波の比売碁曽社に鎮座した。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c07",
+          "source_id": "akaruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Akaruhime's birth has been pointed out as following the sunlight-conception and egg-birth pattern seen in the Goguryeo legend of Jumong; this pattern is said to combine the sunlight-conception type of continental traditions with the egg-birth type of southern traditions.",
+          "statement_id": "Kelahiran Akaruhime ditunjukkan mengikuti pola kelahiran dari telur akibat sinar matahari yang terlihat dalam legenda Jumong dari Goguryeo; pola ini disebut gabungan tipe kelahiran oleh sinar matahari dalam tradisi daratan dan tipe kelahiran dari telur dalam tradisi selatan.",
+          "quote": "阿加流比売神の出生は、高句麗の朱蒙伝説に見られる日光感精卵生型の流れを汲んでいることが指摘されている。この出生形式は、大陸系の伝承に見られる日光感精型と、南方系の伝承に見られる卵生型の複合型であるという。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c08",
+          "source_id": "akaruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The marriage of Akaruhime and Amenohiboko is seen as a double expression retelling the preceding sunlight-conception form in human form, suggesting a shamanic (miko-like) character for Akaruhime.",
+          "statement_id": "Pernikahan Akaruhime dan Amenohiboko dipandang sebagai ungkapan ganda yang menceritakan ulang bentuk kelahiran oleh sinar matahari dalam wujud manusia, dan mengisyaratkan sifat Akaruhime sebagai miko (pendeta perempuan).",
+          "quote": "また阿加流比売神と天之日矛の成婚は、前段の日光感精形式を人態形式に語り変えた二重表現であり、阿加流比売神の巫女的性格を示唆しているという。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c09",
+          "source_id": "akaruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Engishiki records \"Himekoso Shrine in Higashinari-gun, Settsu Province\" in its list of shrine names, and \"one Himekoso shrine, also named Shitateruhime\" and \"one Shitateruhime shrine, also called the Himekoso shrine\" in its ritual sections.",
+          "statement_id": "Engishiki mencatat \"Himekoso Jinja di Higashinari-gun, Provinsi Settsu\" dalam daftar nama kuil, serta \"satu kuil Himekoso, juga bernama Shitateruhime\" dan \"satu kuil Shitateruhime, ada yang menyebutnya kuil Himekoso\" dalam bagian upacara.",
+          "quote": "延喜神名式に「摂津国東生郡比売許曽神社」、臨時祭式に「比売許曽社一座、亦名下照比売」、四時祭式に「下照比売社一座、或号比売許曽社」とある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c10",
+          "source_id": "akaruhime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "One theory reads \"Akaru\" in the name as \"bright\", an honorific for \"hime\", giving the meaning of a beautiful, glossy woman; another theory holds that she is the embodiment of a red agate jewel representing the rising sun.",
+          "statement_id": "Ada pendapat bahwa \"Akaru\" dalam namanya berarti \"terang\" sebagai sebutan indah bagi \"hime\", sehingga namanya bermakna perempuan yang cantik dan berkilau; ada pula pendapat bahwa ia penjelmaan permata akik merah yang melambangkan matahari terbit.",
+          "quote": "神名の「阿加流」は「明る」で「比売」への美称と解し、名義は「色美しくつやのある女性」と考える説もある。また日の出の太陽を表す赤い瑪瑙の玉の化身とする説もある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c11",
+          "source_id": "akaruhime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Nihon Shoki has an episode of a girl pursued by Tsunugaarashito, son of the king of Ōkara, similar to the tale of Amenohiboko and Akaruhime, but no name states that the girl is Akaruhime; the country and the husband's name differ between the Kojiki and the Nihon Shoki.",
+          "statement_id": "Nihon Shoki memuat kisah seorang gadis yang dikejar Tsunugaarashito, putra raja Ōkara, mirip dengan kisah Amenohiboko dan Akaruhime, tetapi tidak ada nama yang menyatakan gadis itu Akaruhime; nama negeri dan nama suami berbeda antara Kojiki dan Nihon Shoki.",
+          "quote": "『日本書紀』では意富加羅国王の子である都怒我阿羅斯等（つぬがあらしと）が追いかける童女のエピソードがあり、天之日矛と阿加流比売神の物語と類同、類似した物語になっているがその童女が阿加流比売なのかどうか名前の記述は無い。記紀では国名も夫の名も異なっている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c12",
+          "source_id": "akaruhime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to a fragment of the Settsu Province Fudoki, in the reign of Emperor Ōjin a goddess from Silla fled from her husband and lived on \"Hime Island of Iwai\" in Tsukushi Province; fearing she would soon be found, she left for an island at Naniwa and named it \"Hime Island\" after the island where she had lived.",
+          "statement_id": "Menurut fragmen Fudoki Provinsi Settsu, pada masa Kaisar Ōjin seorang dewi dari Silla melarikan diri dari suaminya dan tinggal di \"pulau Hime di Iwai\" di Provinsi Tsukushi; karena khawatir segera ditemukan, ia pindah ke sebuah pulau di Naniwa dan menamainya \"pulau Hime\" sesuai nama pulau sebelumnya.",
+          "quote": "応神天皇の時代、新羅にいた女神が夫から逃れて筑紫国の「伊波比の比売島」に住んでいた。しかし、ここにいてはすぐに夫に見つかるだろうとその島を離れ、難波の島に至り、前に住んでいた島の名前をとって「比売島」と名附けた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akaruhime-c13",
+          "source_id": "akaruhime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Himekoso Shrine in Higashi-Obase, Higashinari-ku, Osaka corresponds to the \"Himegoso shrine at Naniwa\" described in the Kojiki, but its main deity is now said to be Shitateruhime, daughter of Ōkuninushi.",
+          "statement_id": "Kuil Himekoso di Higashi-Obase, Higashinari-ku, Osaka, setara dengan \"kuil Himegoso di Naniwa\" dalam Kojiki, tetapi kini dewa utamanya dikatakan Shitateruhime, putri Ōkuninushi.",
+          "quote": "『古事記』に記述された「難波の比売碁曾社」に相当する神社として大阪市東成区東小橋の比売許曽神社があるが、現在、この神社の主祭神は大国主の娘の下照比売命とされている。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "85bc1eba2af261ba7aa081e39a09653d66b55b974676793e1e2e19cb352fdfc1"
+      "images": []
     },
     {
       "slug": "akubozu",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "26d4ce0ad692341e903fd25d61ac813bec01bb8f17455ee4ece9b9a82e861379",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akubozu-c01",
@@ -3136,27 +3355,121 @@
           "quote": "In Ninohe-gun, Iwate, those who play with the ashes of the furnace are said to be drawn into the ashes by a monster called \"Amanesaku\" and eaten.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akubozu-c06",
+          "source_id": "akubozu-s2",
+          "host": "kotobank.jp",
+          "statement": "A Japanese yōkai from Akita and Iwate tradition that lives in the ash of the irori hearth and appears when people fiddle with the hearth ash; similar yōkai include \"Hai-baba\", \"Agu-banba\", and \"Amanesaku\".",
+          "statement_id": "Yōkai Jepang dari tradisi Akita dan Iwate yang tinggal di abu perapian irori dan muncul ketika orang mengutak-atik abu tungku; yōkai serupa antara lain \"Hai-baba\", \"Agu-banba\", dan \"Amanesaku\".",
+          "quote": "日本の妖怪。秋田県や岩手県の伝承。囲炉裏の灰の中に住み、炉の灰をいじっていると現れるとされる。類似の特徴を持つものに「灰ばばあ」「あぐばんば」「アマネサク」などがある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c07",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The \"bōzu\" element of the name does not mean a Buddhist priest but means a monster.",
+          "statement_id": "Unsur \"bōzu\" dalam namanya tidak berarti biksu, melainkan berarti monster.",
+          "quote": "名称の「坊主」は僧を意味する坊主ではなく、怪物を意味している。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c08",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Because of this, people who fiddled with the ash of the irori hearth were warned from long ago that \"a Haibōzu will appear\".",
+          "statement_id": "Karena itu, sejak dahulu orang yang mengutak-atik abu irori diperingatkan dengan ucapan bahwa \"Haibōzu akan muncul\".",
+          "quote": "そのことから、古より囲炉裏の灰をいじっていると「灰坊主が出る」と言って戒められた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c09",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In Kunohe-gun, Iwate Prefecture, a Haibōzu was said to appear if someone bathed twice, ate rice offered at the household Buddhist altar, or entered the toilet naked, and people were warned in a similar way.",
+          "statement_id": "Di Kunohe-gun, Prefektur Iwate, Haibōzu dikatakan muncul bila orang mandi dua kali, memakan nasi persembahan di altar Buddha, atau masuk jamban dalam keadaan telanjang, dan orang pun diperingatkan dengan cara serupa.",
+          "quote": "岩手県九戸郡では、風呂に2回入ったり、仏壇に供えられたご飯を食べたり、裸で便所に入ると灰坊主が現れるとされ、同様に戒められていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c10",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In Aomori Prefecture, \"Agu-banba\", which has a mouth on top of its head, is said to be in the irori hearth and to appear when the ash is fiddled with.",
+          "statement_id": "Di Prefektur Aomori, \"Agu-banba\", yang memiliki mulut di atas kepala, dikatakan berada di dalam irori dan muncul bila abu diutak-atik.",
+          "quote": "青森県では、頭の上に口がある「あぐばんば」が囲炉裏の中におり、灰をいじると現れるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c11",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In places such as Kisakata-machi, Yuri-gun (now Nikaho), it is also called \"Hai-baba\", and is said to carry off children who fiddle with the ash and eat them with the mouth on its head, and once a year to carry off a young woman.",
+          "statement_id": "Di Yuri-gun, Kisakata-machi (kini Kota Nikaho) dan sekitarnya, makhluk ini juga disebut \"Hai-baba\"; konon ia menculik anak yang mengutak-atik abu dan memakannya dengan mulut di atas kepala, serta setahun sekali menculik gadis muda.",
+          "quote": "秋田県の由利郡象潟町（現・にかほ市）などではこれを「灰ばばあ（はいばばあ）」ともいって、灰をいじる子供をさらって頭上の口で食べたり、年に一度、若い娘をさらったりするという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c12",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Since no tradition of an actual Haibōzu sighting has been confirmed, this series of yōkai is thought to have been created as a lesson not to play with the ash of the irori hearth.",
+          "statement_id": "Karena tidak ada kisah penampakan nyata Haibōzu yang dapat dipastikan, deretan yōkai ini dianggap diciptakan sebagai pelajaran agar orang tidak mengusili abu irori.",
+          "quote": "灰坊主が実際に現れたという伝承が確認されていないこともあって、これら一連の妖怪は、囲炉裏の灰を悪戯してはいけないという教訓として生み出された妖怪と考えられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c13",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "There is a theory that this (Amanesaku) is the amanojaku, and in parts of Fukushima Prefecture the thing that emerges from the hearth is called \"Amanjaku\".",
+          "statement_id": "Ada pendapat bahwa Amanesaku adalah amanojaku, dan di sebagian Prefektur Fukushima makhluk yang muncul dari tungku disebut \"Amanjaku\".",
+          "quote": "これは天邪鬼のこととする説もあり、福島県の一部でも炉から現れるものが「アマンジャク」と呼ばれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c14",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Yanagita Kunio's book \"Tōno Monogatari Shūi\", in the Tōno region too a yōkai called \"Boko\" appears when hearth ash is dug.",
+          "statement_id": "Menurut buku Yanagita Kunio \"Tōno Monogatari Shūi\", di wilayah Tōno pun yōkai bernama \"Boko\" muncul bila abu tungku digali.",
+          "quote": "柳田國男の著書『遠野物語拾遺』によれば、遠野地方でも炉の灰を掘ると「ボコ」という妖怪が現れるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akubozu-c15",
+          "source_id": "akubozu-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The name \"Haibōzu\" comes from the Miyagi Prefecture source \"Miyagi Kenshi\", while the \"Sōgō Nihon Minzoku Goi\" of the Institute of Folklore writes it \"Aku-bōzu\".",
+          "statement_id": "Nama \"Haibōzu\" berasal dari sumber Prefektur Miyagi, \"Miyagi Kenshi\", sedangkan \"Sōgō Nihon Minzoku Goi\" dari Minzokugaku Kenkyūjo menulisnya \"Aku-bōzu\".",
+          "quote": "「灰坊主」の名は宮城県の史料『宮城県史』によるもので、民俗学研究所による『綜合日本民俗語彙』では「アク坊主」と表記されている。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0cdd544baa49671679d7125b8a58bf7d773b59298e370afdab13d20b1c1b9fc7"
+      "images": []
     },
     {
       "slug": "ame-no-fuyu-kinu-no-kami",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "a492cb8e35843ba51da30bb25860bc4adfb88386acf82ff9979760ec2f50ed56",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ame-no-fuyu-kinu-no-kami-c01",
@@ -3217,10 +3530,99 @@
           "quote": "Legend has it that Susanoo ordered him to deliver a sword to Takamagahara and that he founded Hinomisaki Shrine, while the Ono clan claim descent from him.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c07",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "He appears in the genealogy of Susanoo; he is a deity born of Omizunu and Futemimi, who married Sashikuniwakahime and fathered Ōkuninushi.",
+          "statement_id": "Ia tercantum dalam silsilah Susanoo; ia dewa yang lahir dari Omizunu dan Futemimi, menikahi Sashikuniwakahime dan melahirkan Ōkuninushi.",
+          "quote": "須佐之男命の系譜に見える。淤美豆奴神と布帝耳神との間に生まれた神で、刺国若比売を娶って大国主神を生んだ。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c08",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The name Amenofuyukinu is understood literally as clothing worn in winter; there is also a theory that \"fuyu\" suggests \"masu\" (to increase), making the name praise an abundance of clothing.",
+          "statement_id": "Nama Amenofuyukinu secara harfiah dipahami sebagai pakaian yang dipakai di musim dingin; ada pula pendapat bahwa \"fuyu\" mengisyaratkan \"masu\" (bertambah) sehingga nama itu memuji kelimpahan pakaian.",
+          "quote": "天之冬衣神の名義は、文字通り冬に用いる衣服と解されている。キヌは、一般に衣類の生地を指していうことが多いことが指摘されている。フユが「増ゆ」も示唆し、衣類の豊饒を称えた名であると解する説もある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c09",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "There is a theory that he is the same as the \"fifth-generation descendant Amenofukine\" whom Susanoo sends in the Nihon Shoki to present the Kusanagi sword to heaven, explained by the matching generation and sound change.",
+          "statement_id": "Ada pendapat bahwa ia sama dengan \"cucu generasi kelima, Amenofukine\" yang dalam Nihon Shoki diutus Susanoo mempersembahkan pedang Kusanagi ke langit; kesamaan generasi dan perubahan bunyi dipakai sebagai penjelasan.",
+          "quote": "『日本書紀』八段一書四で素戔嗚尊が草薙剣を天上に奉献するのに遣わした「五世の孫、天之葺根(あまのふきね)神」をこの神と同一と見る説もあり、代数の一致や音変化によって説明されている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c10",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the \"Aga Daimyōjin Motoki\", a genealogy of the deities of Aga Shrine said to have been submitted in 708, the name is written 天布由伎奴 (Ame-no-Fuyukinu).",
+          "statement_id": "Dalam \"Aga Daimyōjin Motoki\", silsilah dewa Kuil Aga yang disebut diajukan pada tahun 708, namanya tertulis \"Ame-no-Fuyukinu\" dengan aksara 天布由伎奴.",
+          "quote": "『粟鹿大明神元記』(和銅元年(708)上申とされる粟鹿神社の祭神の系図)には「天布由伎奴」とある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c11",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "One theory treats the name as a copying error: originally \"Yufuki-no-kami\" (a personification of a cotton garment), it was inverted under the influence of the preceding deities Funuzunu and Futemimi.",
+          "statement_id": "Satu teori menganggap nama itu hasil salah salin: semula \"Yufuki-no-kami\" (pengejawantahan pakaian dari kapas), lalu terbalik karena terpengaruh nama dua dewa sebelumnya, Funuzunu dan Futemimi.",
+          "quote": "神名を誤写によるものと見なし、元来「由布衣神」(木綿の衣の神格化)だったものが直前の布怒豆怒神・布帝耳神(この二神の名も誤写による成立とする)に引かれて顛倒し",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c12",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Many deities in the genealogy do not appear in other texts and no deeds are told of them even in the Kojiki, so their significance and relationships are hard to determine.",
+          "statement_id": "Banyak dewa dalam silsilah itu tidak muncul di naskah lain dan perbuatannya tidak diceritakan dalam Kojiki, sehingga makna dan hubungannya sulit dipastikan.",
+          "quote": "系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c13",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the lore of Jūzō Shrine, he came all the way from Izumo to Noto and pacified that land.",
+          "statement_id": "Menurut riwayat Kuil Jūzō, ia datang dari Izumo jauh-jauh ke Noto dan menenangkan wilayah itu.",
+          "quote": "重蔵神社の社伝には、出雲よりはるばる能登まで来臨し、同地を平定したとされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c14",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "He is one of the \"Tōmarinanayo no kami\" (seventeen-generation deities) and a kunitsukami; the lore of Jūzō Shrine says he came from Izumo to Noto.",
+          "statement_id": "Ia adalah salah satu dari \"Tōmarinanayo no kami\" (dewa tujuh belas generasi) dan termasuk kunitsukami; riwayat Kuil Jūzō menyebut ia datang dari Izumo ke Noto.",
+          "quote": "十七世神（とおまりななよのかみ）の一柱である国津神。 ... 重蔵神社の社伝には、出雲よりはるばる能登まで来臨し、同地を平定したとされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-fuyu-kinu-no-kami-c15",
+          "source_id": "ame-no-fuyu-kinu-no-kami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "He is the main deity of Jūzō Shrine in Wajima, Ishikawa Prefecture, and of Tomi Shrine in Izumo, Shimane Prefecture.",
+          "statement_id": "Ia adalah dewa utama Kuil Jūzō di Wajima, Prefektur Ishikawa, dan Kuil Tomi di Izumo, Prefektur Shimane.",
+          "quote": "重蔵神社（石川県輪島市河井町） - 主祭神 富神社（島根県出雲市斐川町） - 主祭神",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f09a9a8099a0fc3e5255125f661b029352cfc3968356b6c213ab30787316907f"
+      "images": []
     },
     {
       "slug": "ame-no-torifune",
@@ -3524,18 +3926,19 @@
     },
     {
       "slug": "bi-an",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "dd6354762b8bab1c4aa8a83ec114a70963790a6219b67323d647fb0dd7f6429b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "relations[1].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Qiuniu. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -3578,10 +3981,89 @@
           "quote": "故に監獄の扉や、官庁の正面の広間の両側の格子窓の意匠となり、監獄の異称となった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bi-an-c05",
+          "source_id": "bi-an-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this text the \"nine sons of the dragon\" are said not to become dragons and each has its own liking; Bi'an (狴犴) is described as fond of litigation and used for the prison gate.",
+          "statement_id": "Dalam teks ini, \"sembilan putra naga\" disebut tidak menjadi naga dan masing-masing punya kegemaran; Bi'an (狴犴) digambarkan gemar perkara hukum dan dipakai untuk pintu penjara.",
+          "quote": "龍生九子,不成龍,各有所好。囚牛,好音樂,以飾胡琴。 ... 狴犴,好訟,為獄門。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c06",
+          "source_id": "bi-an-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This text relates that in the Hongzhi era Tailing (泰陵) had a court eunuch ask Li Dongyang for the names of the nine sons of the dragon; Li could not give them all, asked Liu Ji, and obtained the list from an old record, but the origin of the list was unknown.",
+          "statement_id": "Teks ini menuturkan bahwa pada masa Hongzhi, Tailing (泰陵) menyuruh seorang kasim istana menanyakan nama sembilan putra naga kepada Li Dongyang; Li tidak dapat menjawab lengkap, lalu bertanya kepada Liu Ji dan memperoleh daftarnya dari catatan lama, tetapi asal-usul daftar itu tidak diketahui.",
+          "quote": "弘治間,泰陵令中官問龍生九子名目於李少師東陽,李不能悉,詢於吏部劉員外績,乃得其說,於故冊面上所錄,然亦不知所從出,因據以復。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c07",
+          "source_id": "bi-an-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The author of this text recalls having seen the list in the \"Duilei Zonggui\" at about eleven or twelve, and after examining old records concluded that the account is unfounded.",
+          "statement_id": "Penulis teks ini mengingat pernah melihat daftar itu dalam \"Duilei Zonggui\" pada usia sebelas atau dua belas tahun, dan setelah menelaah catatan lama menyimpulkan bahwa keterangan itu tidak berdasar.",
+          "quote": "余憶十一、二時,曾見其說於《對類總龜》中,近因歴考傳記,乃知其說為不經。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c08",
+          "source_id": "bi-an-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In this record, the son called Bi'an (狴犴) is fond of litigation, and the figure above prison gates is said to be a lion (shizi).",
+          "statement_id": "Dalam catatan ini, putra yang disebut Bi'an (狴犴) gemar perkara hukum, dan sosok di atas pintu penjara disebut singa (shizi).",
+          "quote": "一曰狻猊，好坐，今佛座獅子是。一曰狴犴，好訟，今獄門上獅子是。一曰贔贔，好文，今石碑兩旁龍是。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c09",
+          "source_id": "bi-an-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "Bi'an is said to value loyalty, to be fond of litigation, to be able to tell right from wrong, and to speak out for justice.",
+          "statement_id": "Konon Bi'an menjunjung kesetiakawanan, gemar perkara hukum, mampu membedakan benar dari salah, dan berani bersuara demi keadilan.",
+          "quote": "傳說其重義氣、好訴訟，能明辨是非、仗義執言《潛確居類書》有：「狴犴，其形似虎，有威力，故立於獄門上。」的敘述。故獄門或官衙正堂兩側立其形象，後為牢獄的代稱。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c10",
+          "source_id": "bi-an-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "The \"Qianqueju Leishu\" says Bi'an resembles a tiger and has power, hence it is set above prison gates; so its image is placed at prison gates or on both sides of the main hall of government offices, and later became another name for a prison.",
+          "statement_id": "\"Qianqueju Leishu\" menyebut Bi'an berbentuk mirip harimau dan berkekuatan, sehingga dipasang di atas pintu penjara; karena itu rupanya dipasang di pintu penjara atau kedua sisi aula utama kantor pemerintah, dan kemudian menjadi sebutan lain bagi penjara.",
+          "quote": "傳說其重義氣、好訴訟，能明辨是非、仗義執言《潛確居類書》有：「狴犴，其形似虎，有威力，故立於獄門上。」的敘述。故獄門或官衙正堂兩側立其形象，後為牢獄的代稱。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bi-an-c11",
+          "source_id": "bi-an-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The oldest known attestation of the list of the dragon's children is in Lu Rong's (1436-1494) \"Shuyuan Zaji\"; however, he noted that the list enumerates mere synonyms of various antiques, not children of a dragon.",
+          "statement_id": "Pencatatan tertua yang diketahui dari daftar anak naga ada dalam \"Shuyuan Zaji\" karya Lu Rong (1436-1494); namun ia mencatat bahwa daftar itu hanya menyebut sinonim berbagai benda antik, bukan anak naga.",
+          "quote": "The oldest known attestation of the children of the dragon list is found in the Miscellaneous records from the bean garden (菽園雜記) by Lu Rong (1436–1494); however, he noted that the list enumerates mere synonyms of various antiques, not children of a dragon.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "bi-an-c12",
+          "source_id": "bi-an-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Some of these creatures are based on earlier mythological beasts such as pulao or bixi, but most have no other mythological background and are merely used as names for decorative structures.",
+          "statement_id": "Sebagian makhluk dalam daftar itu berdasar hewan mitologi yang lebih tua, seperti pulao atau bixi, tetapi sebagian besar tidak punya latar mitologi lain dan hanya dipakai sebagai nama struktur hiasan.",
+          "quote": "Some of these creatures are based on earlier mythological beasts, such as pulao or bixi, but most of them have no other mythological background and are merely used as names for decorative structures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "127f3e0b8a9dcc0663ed13aa49be34354c9bef4d81d9b660fa5be04d28d9ff78"
+      "images": []
     },
     {
       "slug": "furutsubaki-no-rei",
@@ -3660,18 +4142,39 @@
     },
     {
       "slug": "giant-frog",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "e80a5954f2094af62ace52aca7bcd44dfecd13282c6da2af48929673c6dc004a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Hokuetsu, Kidan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "stories[0].role",
+          "message": "Tidak muncul di kutipan mana pun: Iwakuni. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "stories[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Iwakuni, Provinsi, Province. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[0].name",
+          "message": "Tidak muncul di kutipan mana pun: Iwakuni, Provinsi, Province. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Iwakuni, Prefektur, Yamaguchi, Prefecture. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -3714,10 +4217,79 @@
           "quote": "口から虹のような気を吐き、この気に触れた鳥や虫たちを口の中へと吸い込み、夏には蛇を食べるとある。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "giant-frog-c05",
+          "source_id": "giant-frog-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Traditions of such giant toads are thought to have arisen because wild animals living in uncanny mountains can be much larger than those found in ordinary outdoor places.",
+          "statement_id": "Tradisi tentang katak puru sebesar itu dianggap muncul karena hewan liar yang hidup di pegunungan angker kadang jauh lebih besar daripada hewan di luar.",
+          "quote": "北陸地方の奇談集『北越奇談』などに見られる巨大なガマガエルの怪異。 妖山中に棲息する野生動物は通常の野外のものよりもずっと巨大なものもあることから、このような巨大なガマの伝承が生まれたと考えられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c06",
+          "source_id": "giant-frog-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "There is an interpretation that toads were regarded as yōkai because the way a frog catches insects with its long tongue looks as if the insects are sucked into its mouth, so frogs and toads came to be thought to have uncanny powers such as sucking the spirit from people.",
+          "statement_id": "Ada tafsiran bahwa katak puru dipandang sebagai yōkai karena cara katak menangkap serangga dengan lidah panjang tampak seperti serangga terisap ke mulutnya, sehingga katak dan katak puru dianggap punya kekuatan gaib seperti menyedot jiwa manusia.",
+          "quote": "ガマガエルが妖怪視されたことについては、カエルが長い舌で虫などを捕える様子が、あたかも虫がカエルの口の中に吸い込まれるようにも見えるため、こうしたカエルやガマが人間の精気を吸うなどの怪異のあるものと考えられたとの解釈もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c07",
+          "source_id": "giant-frog-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In one tale, the thing taken for a rock on which a man named Fujita had been sitting was said to have opened fire-red eyes and yawned, then vanished without a trace; it was surmised to have been a giant toad and the bumps taken for rock to have been its warts.",
+          "statement_id": "Dalam satu kisah, benda yang dikira batu tempat seorang bernama Fujita duduk dikatakan membuka mata merah seperti api dan menguap, lalu lenyap tanpa bekas; diduga itu katak puru raksasa dan tonjolan yang dikira batu adalah kutil katak.",
+          "quote": "「気づかなかったか? 貴行が先ほどまで乗っていたものが、火のように赤い目玉を開き、口をあけてあくびをしたのだ」と恐れながら答えた。\n再び2人が元の場所へ戻ってみたところ、藤田の乗っていた岩とおぼしきものは跡形もなく消え失せていた。あれは岩ではなく大蝦蟇であり、突起と思ったものは蝦蟇のイボだったと推測されたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c08",
+          "source_id": "giant-frog-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the seventh month of Kyōwa 4 (August 1804), a giant toad appeared in \"Tenjiku Tokubei Ikoku-banashi\" by Tsuruya Nanboku, starring the first Onoe Matsusuke, at the Kawarazaki Theater in Edo, and was well received.",
+          "statement_id": "Pada bulan ketujuh Kyōwa 4 (Agustus 1804), sebuah katak puru raksasa muncul dalam lakon \"Tenjiku Tokubei Ikoku-banashi\" karya Tsuruya Nanboku yang dibintangi Onoe Matsusuke generasi pertama di Teater Kawarazaki, Edo, dan mendapat sambutan baik.",
+          "quote": "享和4年7月（1804年8月）には江戸河原崎座で鶴屋南北作、初代尾上松助主演『天竺徳兵衛韓噺』（天竺徳兵衛）にて大蝦蟇が登場し好評を博した。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c09",
+          "source_id": "giant-frog-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Around Meiji 33, an Osaka newspaper reported daily on the \"giant toad of Mount Shinoda\"; that summer, a model of a human-sized toad with glaring big eyes in a thick gorge was shown at the shrine in Setomono-chō (陶器神社) and crowds gathered.",
+          "statement_id": "Sekitar Meiji 33, sebuah surat kabar Osaka memberitakan \"katak puru raksasa Gunung Shinoda\" setiap hari; pada musim panas itu, sebuah tiruan katak sebesar manusia dengan mata besar bersinar di lembah rimbun dipamerkan di kuil di Setomono-chō (陶器神社) dan ditonton banyak orang.",
+          "quote": "明治33年ころ、大阪毎日新聞が三面記事で「信田山の大蝦蟇」について連日報道した。その夏、瀬戸物町陶器神社に、うっそうとした渓谷に人間ほどの大きさの大蝦蟇が大目玉を光らせている、という作り物が登場し、観客が群がった。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c10",
+          "source_id": "giant-frog-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Nichibunken image database description: this work by Ikkai Yoshitoshi shows Jiraiya, who uses toad sorcery, riding on a giant toad.",
+          "statement_id": "Deskripsi database gambar Nichibunken: karya Ikkai Yoshitoshi ini menunjukkan Jiraiya, yang memakai ilmu gaib katak puru, menunggangi seekor katak puru raksasa.",
+          "quote": "著作者 一魁芳年 主題 児雷也;ジライヤ,大蝦蟇;オオガマ 内容記述 蝦蟇の妖術を使う児雷也が、大蝦蟇の上に乗っている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "giant-frog-c11",
+          "source_id": "giant-frog-s4",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Nichibunken image database description: in this work by Kōchōrō a giant toad is shown appearing behind Takiyasha-hime.",
+          "statement_id": "Deskripsi database gambar Nichibunken: dalam karya Kōchōrō ini seekor katak puru raksasa tampak muncul di belakang Takiyasha-hime.",
+          "quote": "著作者 香朝樓 主題 大蝦蟇;オオガマ,蝦蟇;ガマ 内容記述 瀧夜叉姫の背後に大蝦蟇が現われている。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6a373e414e26f51f9075d89c2262cf4d77dc1069fcd8ee83fbb00609d1b8754f"
+      "images": []
     },
     {
       "slug": "hayaakitsuhiko-and-hayaakitsuhime",
@@ -3958,23 +4530,19 @@
     },
     {
       "slug": "isetsuhiko",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "410be48e57d4fdfdf5f32bdf0a5b8db00ca647c951cebe2b1f7626dd2d3f3174",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
           "level": "warn",
-          "where": "claims (isetsuhiko-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+          "where": "places[2].description",
+          "message": "Tidak muncul di kutipan mana pun: Kota. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4002,8 +4570,8 @@
           "id": "isetsuhiko-c03",
           "source_id": "isetsuhiko-s1",
           "host": "en.wikipedia.org",
-          "statement": "He promises to depart eastward over the sea on wind-driven waves.",
-          "statement_id": "Ia berjanji pergi ke timur melintasi laut di atas ombak yang digerakkan angin.",
+          "statement": "Isetsuhiko says that tonight he will cause the eight winds to blow over the sea and ride the waves to go east.",
+          "statement_id": "Isetsuhiko berkata bahwa malam itu ia akan membuat delapan angin bertiup di atas laut dan menunggangi ombak untuk pergi ke timur.",
           "quote": "[Isetsuhiko] said, 'Tonight I shall cause the eight winds to blow over the waters of the sea and ride the waves to go east.",
           "context": "religious-tradition",
           "status": "exact"
@@ -4027,35 +4595,120 @@
           "quote": "Since the Edo period, a number of authors - among them the Kokugaku scholar Motoori Norinaga - have attempted to identify Isetsuhiko with the god Takeminakata",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c06",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Amenohiwake asked him to give his land to the Heavenly Grandson, Isetsuhiko answered that he had long sought and lived in this land and would not obey the command.",
+          "statement_id": "Ketika Amenohiwake memintanya menyerahkan tanah itu kepada Cucu Surgawi, Isetsuhiko menjawab bahwa ia telah lama mencari dan menetap di tanah itu dan tidak akan menaati perintah tersebut.",
+          "quote": "There was a kami in that area whose name was Isetsuhiko. Amenohiwake-no-mikoto asked him, 'Will you give your land to the Heavenly Grandson?'\nHe answered, 'I have sought for this land and have lived here long. I will not obey your command.'",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c07",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amenohiwake dispatched troops to kill that god; Isetsuhiko at once gave in out of fear and declared that he surrendered the whole land to the Heavenly Grandson and would not live in it any longer.",
+          "statement_id": "Amenohiwake mengirim pasukan untuk membunuh dewa itu; Isetsuhiko seketika menyerah karena takut dan menyatakan menyerahkan seluruh tanah itu kepada Cucu Surgawi serta tidak akan tinggal di sana lagi.",
+          "quote": "Amenohiwake-no-mikoto then dispatched troops to kill that god. At once, [Isetsuhiko] gave in out of fear and said submissively, 'I surrender the whole land to the Heavenly Grandson. I will not live in it any longer.'",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c08",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Around midnight a great wind blew from all four directions, raising strong waves that shone like the sun so that land and sea became bright; riding the waves, Isetsuhiko headed east, and from this comes the old saying about the \"land of Ise, of the divine wind\".",
+          "statement_id": "Menjelang tengah malam angin besar bertiup dari empat penjuru dan menimbulkan ombak kuat yang bersinar seperti matahari, hingga darat dan laut menjadi terang; Isetsuhiko menunggangi ombak itu menuju timur, dan dari situlah muncul pepatah lama tentang \"negeri Ise, negeri angin ilahi\".",
+          "quote": "Around midnight, a great wind blew from all four directions, creating strong waves shining like the sun、so that both land and sea became bright. Riding upon the waves, [Isetsuhiko] then headed east—whence comes the old saying,\nThe land of Ise, of the divine wind, whither waves from eternal Tokoyo repair.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c09",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Isetsuhiko is also mentioned in passing in the Fudoki of Harima Province as the son of Iwa-no-ōkami, god of Iwa Shrine, believed to dwell in Iseno with his sister, Isetsuhime.",
+          "statement_id": "Isetsuhiko juga disebut sekilas dalam Fudoki Provinsi Harima sebagai putra Iwa-no-ōkami, dewa Kuil Iwa, yang dipercaya tinggal di Iseno bersama saudarinya, Isetsuhime.",
+          "quote": "Isetsuhiko-no-mikoto (伊勢都比古命) is also mentioned in passing in the Fudoki of Harima Province as the son of Iwa-no-ōkami (伊和大神), god of Iwa Shrine, believed to dwell in Iseno (伊勢野, part of modern Hayashida-chō, Himeji City) with his sister, Isetsuhime-no-mikoto (伊勢都比売命).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c10",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name \"Ise\" derives from the kami residing at Anashi shrine in Iga, Izumonotakeko, a son of a kami of Izumo, also known as Isetsuhiko and Amenokushitama.",
+          "statement_id": "Nama \"Ise\" berasal dari kami yang bersemayam di kuil Anashi di Iga, Izumonotakeko, putra kami Izumo, yang juga dikenal sebagai Isetsuhiko dan Amenokushitama.",
+          "quote": "'Ise' derives from the kami residing at Anashi shrine in Iga, Izumonotakeko-no-mikoto (出雲建子命), a son of a (or 'the') kami of Izumo, also known as Isetsuhiko-no-mikoto (伊勢都彦命) and Amenokushitama-no-mikoto (天櫛玉命).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c11",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Sovereign, greatly pleased, ordered the land to be called \"Ise\" after the name of the land's god and gave it to Amenohiwake to govern, granting him the village of Miminashi in Yamato as his residence.",
+          "statement_id": "Penguasa yang sangat senang memerintahkan agar tanah itu disebut \"Ise\" menurut nama dewa tanah itu dan menyerahkannya kepada Amenohiwake untuk dikelola, dengan desa Miminashi di Yamato sebagai tempat tinggalnya.",
+          "quote": "The Sovereign, greatly pleased, ordered the land be called 'Ise' after the god of the land's name and gave it to Amenohiwake-no-mikoto to govern, granting him the village of Miminashi in Yamato as his residence.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c12",
+          "source_id": "isetsuhiko-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The account of Isetsuhiko's surrender to Amenohiwake is thematically similar to Takeminakata's surrender to Takemikazuchi in the Kojiki, both ending with the deity exiled to Shinano Province; however, the detail of Isetsuhiko going to Shinano was an addition by a later hand.",
+          "statement_id": "Kisah penyerahan Isetsuhiko kepada Amenohiwake mirip secara tema dengan penyerahan Takeminakata kepada Takemikazuchi dalam Kojiki, dan keduanya berakhir dengan dewa itu diasingkan ke Shinano; namun rincian Isetsuhiko pergi ke Shinano adalah tambahan tangan yang lebih kemudian.",
+          "quote": "The account of Isetsuhiko's surrender to Amenohiwake shows a thematic similarity to Takeminakata's surrender to Takemikazuchi in the Kojiki, both accounts even ending with the deity in question being sent to exile in Shinano Province. (Note, however, that the detail about Isetsuhiko being going to Shinano was an addition by a later hand.)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isetsuhiko-c13",
+          "source_id": "isetsuhiko-s2",
+          "host": "kotobank.jp",
+          "statement": "This Japanese biographical dictionary describes Isetsuhiko (伊勢津彦) as a local chieftain (gōzoku) in the fragments of the \"Ise no Kuni Fudoki\", the ruler of Ise who, when Emperor Jinmu advanced east, was attacked by Amenohiwake, yielded his land and went east riding the waves.",
+          "statement_id": "Kamus tokoh Jepang ini menggambarkan Isetsuhiko (伊勢津彦) sebagai penguasa lokal (gōzoku) dalam fragmen \"Ise no Kuni Fudoki\", penguasa Ise yang, ketika Kaisar Jinmu bergerak ke timur, diserang Amenohiwake, menyerahkan tanahnya dan pergi ke timur menunggangi ombak.",
+          "quote": "「伊勢国風土記(ふどき)」逸文にみえる豪族。 伊勢の支配者。神武天皇の東征のとき,天日別命(あめのひわけのみこと)に攻められて国土をささげ,波にのって東方にさったという。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b97b5e68c16d7b869ad92a17bf1f7fd26f194e1402a2d23f0ea9dff44a3b5624"
+      "images": []
     },
     {
       "slug": "kakuen",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "fa8600977b8bfb9090be72e9c8012926223dce6a6ccba6ae3fe19ac6c1c9d269",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Tionghoa, Soushenji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         },
         {
           "level": "warn",
-          "where": "claims (kakuen-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Soushenji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         },
         {
           "level": "warn",
-          "where": "claims (kakuen-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+          "where": "stories[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Soushenji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "places[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Soushenji. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4073,8 +4726,8 @@
           "id": "kakuen-c02",
           "source_id": "kakuen-s1",
           "host": "en.wikipedia.org",
-          "statement": "The creature has several Chinese and Japanese alternate names.",
-          "statement_id": "Makhluk itu memiliki beberapa nama lain dalam bahasa Tionghoa dan Jepang.",
+          "statement": "They are also called Jué (in Japanese kaku or ōzaru), Jué fù, Jiā, Jiā guó (in Japanese kakoku), and mǎ huà (in Japanese baka).",
+          "statement_id": "Kakuen juga disebut Jué, Jué fù, Jiā, Jiā guó (kakoku dalam bahasa Jepang), dan mǎ huà (baka dalam bahasa Jepang), serta kaku atau ōzaru dalam bahasa Jepang.",
           "quote": "They are also called Jué (玃) (in Japanese kaku or ōzaru), Jué fù (玃父), Jiā (猳), Jiā guó (猳國) (in Japanese kakoku カ国), and mǎ huà (馬化) (in Japanese baka).",
           "context": "traditional-belief",
           "status": "loose"
@@ -4083,8 +4736,8 @@
           "id": "kakuen-c03",
           "source_id": "kakuen-s1",
           "host": "en.wikipedia.org",
-          "statement": "Stories portray it as ape-like and abducting women.",
-          "statement_id": "Cerita menggambarkannya menyerupai kera dan menculik perempuan.",
+          "statement": "They are similar to monkeys and possess a characteristic of carrying away human females.",
+          "statement_id": "Makhluk ini mirip monyet dan memiliki ciri membawa pergi perempuan manusia.",
           "quote": "They are similar to monkeys, and thus possess a characteristic of carrying away human females and violating them.",
           "context": "traditional-belief",
           "status": "exact"
@@ -4118,10 +4771,99 @@
           "quote": "It walks like a human, and they often kidnap humans or objects.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kakuen-c07",
+          "source_id": "kakuen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to this text, on the high mountains in the southwest of Shu there is a creature resembling a monkey, seven chi (尺) tall, which walks like a human and is good at running after people; it is named \"Jiaguo\", also \"Mahua\", or called \"Jueyuan\".",
+          "statement_id": "Menurut teks ini, di pegunungan tinggi di barat daya Shu ada makhluk yang mirip kera, tingginya tujuh chi (尺), berjalan seperti manusia dan pandai berlari mengejar orang; namanya \"Jiaguo\", juga \"Mahua\", atau disebut \"Jueyuan\".",
+          "quote": "蜀中西南高山之上,有物,與猴相類,長七尺,能作人行,善走逐人,名曰「猳國」,一名「馬化」,或曰「玃猿。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c08",
+          "source_id": "kakuen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The creature lies in wait for beautiful women on the road and carries them off unnoticed; travellers tie themselves together with long ropes yet still do not escape. It can tell men from women by smell, so it takes women and not men.",
+          "statement_id": "Makhluk itu mengintai perempuan cantik yang lewat di jalan dan menculiknya tanpa diketahui; pejalan kaki saling mengikat dengan tali panjang tetapi tetap tidak luput. Ia dapat membedakan laki-laki dan perempuan dari bau, sehingga hanya perempuan yang diculik.",
+          "quote": "伺道行婦女有美者,輒盜取,將去,人不得知。若有行人經過其旁,皆以長繩相引,猶故不免。此物能別男女氣臭,故取女,男不取也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c09",
+          "source_id": "kakuen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A woman taken is made its wife; one without children is never allowed to return, and after ten years her form comes to resemble theirs, her mind is confused, and she no longer thinks of going home.",
+          "statement_id": "Perempuan yang diculik dijadikan istri; yang tidak punya anak tidak boleh pulang seumur hidup, dan setelah sepuluh tahun rupanya menjadi serupa makhluk itu, pikirannya bingung dan tidak lagi ingin pulang.",
+          "quote": "若取得人女,則為家室。其無子者,終身不得還。十年之後,形皆類之。意亦迷惑,不復思歸。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c10",
+          "source_id": "kakuen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A woman who has a child is carried back to her home with it; the children are human in form, and a mother who does not raise the child dies, so all fear this and raise it. Grown, they are no different from people and all take Yang (楊) as their surname.",
+          "statement_id": "Perempuan yang punya anak diantar pulang bersama anaknya; anak itu berbentuk manusia, dan ibu yang tidak mau membesarkannya meninggal, maka semua takut dan membesarkannya. Setelah dewasa mereka tidak berbeda dari manusia dan semuanya bermarga Yang (楊).",
+          "quote": "若有子者,輒抱送還其家,產子,皆如人形。有不養者,其母輒死;故懼怕之,無敢不養。及長,與人不異。皆以楊為姓。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c11",
+          "source_id": "kakuen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This text says that the many people surnamed Yang in the southwest of Shu are generally descendants of the \"Jiaguo\" and \"Mahua\".",
+          "statement_id": "Teks ini menyatakan bahwa banyak orang bermarga Yang di barat daya Shu pada umumnya adalah keturunan \"Jiaguo\" dan \"Mahua\".",
+          "quote": "皆以楊為姓。故今蜀中西南多諸楊,率皆是「猳國」「馬化」之子孫也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c12",
+          "source_id": "kakuen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one tale, the bold Huang Dunli grows suspicious of a man; when the man who cried out was lit by torchlight, his form turned into that of a kakuen, and when the kakuen was killed and burned, its foul smell is said to have reached several li away.",
+          "statement_id": "Dalam satu kisah, Huang Dunli yang pemberani mencurigai seorang pria; ketika pria yang berteriak itu disinari obor, wujudnya berubah menjadi kakuen, dan ketika kakuen itu dibunuh dan dibakar, bau busuknya konon tercium sampai beberapa li.",
+          "quote": "The bold and brave man named Huang Dunli (黄敦立) thought him suspicious ... The man who let out a cry was illuminated by a torchlight, and his appearance turned into that of a kakuen. When the kakuen was killed and burned, it is said that the bad smell reached several li away.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "kakuen-c13",
+          "source_id": "kakuen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has been pointed out that kakuen with such characteristics match the cryptid called yeren.",
+          "statement_id": "Ada yang menunjukkan bahwa kakuen dengan ciri-ciri seperti itu cocok dengan kriptid yang disebut yeren.",
+          "quote": "It has been pointed out that kakuen like these with these characteristics match with the cryptid called yeren.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kakuen-c14",
+          "source_id": "kakuen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Edo period kakuen were also believed to exist in Japan; the encyclopedia Wakan Sansai Zue explained it under the name \"yamako\" and, mentioning the yōkai \"kuronbō\" in the mountains of Hida and Mino, said it was probably a type of yamako.",
+          "statement_id": "Pada zaman Edo, kakuen dipercaya ada pula di Jepang; ensiklopedia Wakan Sansai Zue menjelaskannya dengan nama \"yamako\" dan, ketika menyinggung yōkai \"kuronbō\" di pegunungan Hida dan Mino, menyebutnya kemungkinan sejenis yamako.",
+          "quote": "In Japan, during the Edo period, it was also believed that there were also kakuen in Japan, and in the encyclopedia Wakan Sansai Zue from the same period, it was explained under the name \"yamako\" (玃) ... bringing up the yōkai \"kuronbō\" (黒ん坊) that lived deep in the mountains of Hida and Mino (now Gifu Prefecture), it stated \"quite conceivably, this is probably a type of yamako.\"",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "kakuen-c15",
+          "source_id": "kakuen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Toriyama Sekien's \"Konjaku Gazu Zoku Hyakki\" from the Edo period, the appearance of a kakuen was drawn under the name \"satori\", and the text states that deep in Hida and Mino there are yamako.",
+          "statement_id": "Dalam \"Konjaku Gazu Zoku Hyakki\" karya Toriyama Sekien dari zaman Edo, rupa kakuen digambar dengan nama \"satori\" dan teksnya menyebut bahwa jauh di pedalaman Hida dan Mino ada yamako.",
+          "quote": "In the Konjaku Gazu Zoku Hyakki by Sekien Toriyama from the Edo period, the appearance of a kakuen was drawn under the name \"satori\" (覚), and the writings, it stated that \"deep in Hida and Mino, there are yamako (玃).\"",
+          "context": "historical-record",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "33801cd51fdfc75a35a0c9d7c57ea57fa72d080b2be65e609ec95512856d9fca"
+      "images": []
     },
     {
       "slug": "kameosa",
@@ -4281,18 +5023,19 @@
     },
     {
       "slug": "kamo-taketsunumi",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-4.md",
+      "entry_sha256": "f48fb63f8fc5fa4ebb2bda292373a115661a016fce128f3ca2a4b43a57522427",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Provinsi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4355,10 +5098,109 @@
           "quote": "Kamotaketsunumi-no-Mikoto had two children, son Tamayorihiko-no-mikoto and daughter Tamayorihime-no-mikoto.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c07",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "He appears in the fragments of the Yamashiro no Kuni Fudoki and in the Shinsen Shōjiroku as the founding ancestor of the Kamo no Agatanushi of Yamashiro (Kyoto), the clan that serves the Kamigamo and Shimogamo shrines.",
+          "statement_id": "Ia tercantum dalam fragmen Yamashiro no Kuni Fudoki dan Shinsen Shōjiroku sebagai leluhur pendiri Kamo no Agatanushi di Yamashiro (Kyoto), klan yang memuja kuil Kamigamo dan Shimogamo.",
+          "quote": "『山城国風土記(やましろのくにふどき)』逸文および『新撰姓氏録(しんせんしょうじろく)』にみえる、山城(京都)の賀茂県主(かものあがたぬし)(上賀茂(かみがも)・下鴨(しもがも)社を祀(まつ)る氏族)の始祖。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c08",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Yamashiro no Kuni Fudoki, he descended from heaven to the Peak of So in Hyūga, guided Emperor Jinmu and lodged on Mount Katsuragi in Yamato, and later went along the river from Kamo in Okada in Yamashiro to the Kamo River.",
+          "statement_id": "Menurut Yamashiro no Kuni Fudoki, ia turun dari langit ke Puncak So di Hyūga, memandu Kaisar Jinmu dan bermalam di Gunung Katsuragi di Yamato, lalu kemudian dari Kamo di Okada di Yamashiro menyusuri sungai hingga Sungai Kamo.",
+          "quote": "『山城国風土記』によれば、日向(ひむか)の曽(そ)の峯(みね)に天降(あまくだ)り、神武(じんむ)天皇の先導となって大和(やまと)の葛城(かつらぎ)山に宿り、のちに山城の岡田の賀茂(京都府木津川(きづがわ)市加茂町(かもちょう)地区)から川沿いに賀茂川に至り",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c09",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "The author of this entry judges that there is no material treating the Kamo no Ason of Katsuragi and the Kamo no Agatanushi of Yamashiro as one line, so apart from the distant-view passage these traditions are merely contrivances to link the ancestor to the descent of the heavenly grandson and the Jinmu tradition.",
+          "statement_id": "Penulis entri ini menilai tidak ada bahan yang menyatakan Kamo no Ason di Katsuragi dan Kamo no Agatanushi di Yamashiro satu garis, sehingga, selain bagian memandang dari jauh, tradisi-tradisi ini hanya hasil rekaan untuk mengaitkan leluhur dengan turunnya cucu dewa dan tradisi Jinmu.",
+          "quote": "葛城の賀茂朝臣(かものあそみ)とこの山城の賀茂県主とを同系とする資料は何もなく、したがって、遠望の条を除きこれらの伝承は、始祖を天孫降臨や神武伝承に結び付けようとした作為の結果にすぎない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c10",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "The Shinsen Shōjiroku is said to contain the story that when Emperor Jinmu entered Yamato he turned into a great crow and guided him through the mountains of Kumano.",
+          "statement_id": "Shinsen Shōjiroku disebut memuat kisah bahwa saat Kaisar Jinmu memasuki Yamato, ia berubah menjadi gagak besar dan memandunya melewati pegunungan Kumano.",
+          "quote": "また、『新撰姓氏録』にある神武天皇の大和入りに際し、熊野(くまの)山中を大烏(おおがらす)に化して先導したという話も同様で",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c11",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "In the fudoki account of the Kamo shrines' origin he fathers Tamayorihime (deity of the lower shrine) and becomes maternal grandfather of Kamowakeikazuchi (deity of the upper shrine); but in the original tradition the god who drifted down as a red-lacquered arrow and married Tamayorihime was most likely this ancestor.",
+          "statement_id": "Dalam asal-usul kuil Kamo menurut fudoki ia melahirkan Tamayorihime (dewa kuil bawah) dan menjadi kakek dari pihak ibu Kamowakeikazuchi (dewa kuil atas); namun dalam tradisi asli, dewa yang datang hanyut sebagai anak panah bercat merah dan menikahi Tamayorihime kemungkinan besar adalah leluhur ini.",
+          "quote": "風土記の賀茂社縁起では、玉依日売(たまよりひめ)(下社の祭神)を生み、賀茂別雷(かもわけいかずち)神(上社の祭神)の外祖父となったと説くが、原伝承では、丹塗矢(にぬりや)となって流れ寄り玉依日売と婚した神は、この始祖であった可能性が高い。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c12",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "The name is explained as meaning \"the fierce (mighty) one of Kamo\".",
+          "statement_id": "Nama ini dijelaskan bermakna \"yang gagah perkasa dari Kamo\".",
+          "quote": "賀茂御祖(かもみおや)神社(下鴨社)の祭神で賀茂県主(あがたぬし)家の祖とされる。〈賀茂の猛々しい者〉という意。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c13",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "The author of this entry holds that the core of Kamo faith was originally the worship of Tamayorihime and her child, and that Taketsunumi was added narratively as the goddess's father as male-line genealogical consciousness developed.",
+          "statement_id": "Penulis entri ini berpendapat bahwa inti kepercayaan Kamo semula adalah pemujaan ibu dan anak Tamayorihime, dan Takezunumi ditambahkan dalam cerita sebagai ayah sang dewi seiring berkembangnya kesadaran silsilah garis laki-laki.",
+          "quote": "賀茂信仰の中心は本来このタマヨリヒメ母子の信仰にあり,タケツノミは男系の系譜意識の発達に伴い,姫神の父として説話的に加えられたのである。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c14",
+          "source_id": "kamo-taketsunumi-s2",
+          "host": "kotobank.jp",
+          "statement": "He is the deity of Kamomioya Shrine in Kyoto and maternal grandfather of Kamowakeikazuchi; he is enshrined together with his daughter Tamayorihime, and is said to have turned into Yatagarasu and guided the emperor during Jinmu's eastern expedition.",
+          "statement_id": "Ia dewa Kuil Kamomioya di Kyoto dan kakek dari pihak ibu Kamowakeikazuchi; ia dipuja bersama putrinya Tamayorihime, dan konon pada ekspedisi timur Jinmu ia berubah menjadi Yatagarasu dan memandu kaisar.",
+          "quote": "京都市、賀茂御祖(かもみおや)神社の祭神。賀茂別雷命(かもわけいかずちのみこと)の外祖父。その娘 玉依姫命(たまよりひめのみこと)とともに祭られる。神武東征の際、八咫烏(やたがらす)に姿を変え、天皇を導いたという。",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "kamo-taketsunumi-c15",
+          "source_id": "kamo-taketsunumi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Yamashiro-kuni Fudoki, he came from Katsuragiyama in Yamato to Kamo in Okada in Yamashiro and settled at the confluence of the Katsuno River and the Kamo River, where the Shimogamo Shrine is located.",
+          "statement_id": "Menurut Yamashiro-kuni Fudoki, ia datang dari Katsuragiyama di Yamato ke Kamo di Okada di Yamashiro dan menetap di pertemuan Sungai Katsuno dan Sungai Kamo, tempat Kuil Shimogamo berada.",
+          "quote": "According to the Yamashiro-kuni Fudoki (an anecdote), he came from Katsuragiyama in Yamato to Kamo in Okada in Yamashiro (where the Okada Kamo Shrine is located) and settled at the confluence of the Katsuno River (Koya River) and the Kamo River (Kamo River) (where the Shimogamo Shrine is located).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamo-taketsunumi-c16",
+          "source_id": "kamo-taketsunumi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tamayorihiko later became the Lord of Kamo; Tamayorihime is said to have conceived and borne Kamowakeikazuchi, deity of Kamigamo Shrine, after placing a red lacquered arrow (an incarnation of the kami Honokazuchi) near her bed.",
+          "statement_id": "Tamayorihiko kemudian menjadi penguasa Kamo; Tamayorihime konon mengandung dan melahirkan Kamowakeikazuchi, dewa Kuil Kamigamo, setelah meletakkan sebuah anak panah bercat merah (penjelmaan dewa Honokazuchi) di dekat tempat tidurnya.",
+          "quote": "Tamayorihiko-no-mikoto later became the Lord of Kamo Prefecture. Tamayorihime-no-mikoto is said to have conceived and given birth to Kamowakeikazuchi-no-mikoto ... (the deity of Kamigamo Shrine) after putting a red lacquered arrow (an incarnation of the kami Honokazuchi-no-kami), near her bed.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "26e2ceb5d4df6c708577d5c88687f4e256ca47a3aa47c49e50c05a9fcefe28b3"
+      "images": []
     },
     {
       "slug": "kanayamahiko",
