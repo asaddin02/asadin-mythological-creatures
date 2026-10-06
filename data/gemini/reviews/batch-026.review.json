@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-026",
-  "checked_at": "2026-09-30T02:31:36.077Z",
+  "checked_at": "2026-10-06T13:19:26.528Z",
   "files": [
     "batch-026.md",
     "batch-026-fix-1.md",
-    "batch-026-fix-2.md"
+    "batch-026-fix-2.md",
+    "batch-026-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -26,22 +27,24 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "367a2bdfdd435d390b614a343e0d06ac1e1b45ad12054dd9b145bf37c5a27318"
     },
     {
       "slug": "gabriel",
-      "file": "batch-026-fix-2.md",
+      "file": "batch-026-fix-3.md",
+      "entry_sha256": "a18ec28fbc1a2071744826ff3c9c8f31b831b90cf8686a64b0719d4f1b229941",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 4,
+        "claims": 30,
+        "sources": 9,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -49,9 +52,9 @@
           "id": "gabriel-c01",
           "source_id": "gabriel-s1",
           "host": "en.wikipedia.org",
-          "statement": "Gabriel is an angel who announces God's will to humankind.",
-          "statement_id": "Gabriel adalah malaikat pembawa pesan kehendak Tuhan kepada manusia.",
-          "quote": "is an angel with the power to announce God's will to humankind as the messenger of God.",
+          "statement": "Gabriel is an archangel with the power to announce God's will to humankind as the messenger of God.",
+          "statement_id": "Gabriel adalah malaikat agung (arkanggel) yang berkuasa menyampaikan kehendak Tuhan kepada manusia sebagai utusan Tuhan.",
+          "quote": "is an archangel with the power to announce God's will to humankind as the messenger of God.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -93,9 +96,8 @@
           "statement_id": "Menurut Metropolitan Museum of Art, umat Muslim meyakini Gabriel menyampaikan firman Tuhan kepada Muhammad dalam bahasa Arab.",
           "quote": "Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260610060007id_/https://www.metmuseum.org/essays/the-birth-of-islam",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "gabriel-c06",
@@ -103,9 +105,9 @@
           "host": "en.wikipedia.org",
           "statement": "The Biblical Hebrew name is Gaḇrīʾēl (גַּבְרִיאֵל), with geber as a component.",
           "statement_id": "Nama Ibrani Gabriel adalah Gaḇrīʾēl (גַּבְרִיאֵל); artikel menjelaskan unsur geber.",
-          "quote": "The Biblical Hebrew name Gaḇrīʾēl (גַּבְרִיאֵל) is composed of the first person singular possessive form of the noun geber",
+          "quote": "The Biblical Hebrew name Gaḇrīʾēl (גַּבְרִיאֵל ) is composed of the first person singular possessive form of the noun geber",
           "context": "etymology",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "gabriel-c07",
@@ -136,26 +138,231 @@
           "quote": "You will conceive and give birth to a son, and you are to call him Jesus.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "gabriel-c10",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, Michael and Gabriel often work together; Michael is more occupied in heaven, while Gabriel is God's messenger who executes God's will on earth.",
+          "statement_id": "Menurut Jewish Encyclopedia, Michael dan Gabriel sering bekerja sama; Michael lebih banyak berada di surga, sedangkan Gabriel adalah utusan Tuhan yang menjalankan kehendak Tuhan di bumi.",
+          "quote": "Michael and Gabriel often work together ... while Michael, as the guardian angel of Israel and high priest of heaven, is more occupied in heaven, Gabriel is the messenger of God, who executes God's will on earth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c11",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, Michael stands at the right hand of God and Gabriel at His left.",
+          "statement_id": "Menurut Jewish Encyclopedia, Michael berdiri di sisi kanan Tuhan dan Gabriel di sisi kiri-Nya.",
+          "quote": "Michael stands at the right hand of God, Gabriel at His left",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c12",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, Gabriel has the form of a man and, according to the Talmud, is the \"man clothed with linen\" mentioned in Ezekiel.",
+          "statement_id": "Menurut Jewish Encyclopedia, Gabriel berwujud manusia, dan menurut Talmud ia adalah \"orang berpakaian lenan\" yang disebut dalam Yehezkiel.",
+          "quote": "Gabriel has the form of a man (Dan. viii. 15, ix. 21), and is, according to the Talmud, the \"man clothed with linen\" mentioned in Ezek. ix. 3 and x. 2 (Yoma 77a).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c13",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "The Jewish Encyclopedia records that Michael is snow and Gabriel is fire; as prince of fire, Gabriel is also prince of the ripening of fruits.",
+          "statement_id": "Jewish Encyclopedia mencatat bahwa Michael adalah salju dan Gabriel adalah api; sebagai pangeran api, Gabriel juga pangeran pematangan buah.",
+          "quote": "Michael is snow, Gabriel is fire ... As prince of fire Gabriel is also prince of the ripening of fruits",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c14",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, Gabriel has wings like all the angels; Michael reaches the earth in one flight, Gabriel requires two.",
+          "statement_id": "Menurut Jewish Encyclopedia, Gabriel bersayap seperti semua malaikat; Michael sampai ke bumi dalam satu kali terbang, sedangkan Gabriel memerlukan dua kali.",
+          "quote": "He has wings, like all the angels, but while Michael reaches the earth in one flight, Gabriel requires two",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c15",
+          "source_id": "gabriel-s5",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, after appearing to Abraham with the other two angels, Gabriel went to destroy Sodom and save Lot.",
+          "statement_id": "Menurut Jewish Encyclopedia, setelah menampakkan diri kepada Abraham bersama dua malaikat lain, Gabriel pergi untuk menghancurkan Sodom dan menyelamatkan Lot.",
+          "quote": "After appearing to Abraham with the other two angels, he went to destroy Sodom and save Lot",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c16",
+          "source_id": "gabriel-s6",
+          "host": "www.newadvent.org",
+          "statement": "According to the Catholic Encyclopedia, Gabriel is the angel of the Incarnation and of Consolation, and in Christian tradition he is the angel of mercy while Michael is rather the angel of judgment.",
+          "statement_id": "Menurut Catholic Encyclopedia, Gabriel adalah malaikat Inkarnasi dan Penghiburan, dan dalam tradisi Kristen ia selalu menjadi malaikat belas kasih, sedangkan Michael lebih menjadi malaikat penghakiman.",
+          "quote": "Thus he is throughout the angel of the Incarnation and of Consolation, and so in Christian tradition Gabriel is ever the angel of mercy while Michael is rather the angel of judgment.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c17",
+          "source_id": "gabriel-s6",
+          "host": "www.newadvent.org",
+          "statement": "The Catholic Encyclopedia notes that the Jews regard Gabriel as the angel of judgment, while Michael is called the angel of mercy.",
+          "statement_id": "Catholic Encyclopedia mencatat bahwa orang Yahudi memandang Gabriel sebagai malaikat penghakiman, sedangkan Michael disebut malaikat belas kasih.",
+          "quote": "The Jews indeed seem to have dwelt particularly upon this feature in Gabriel's character, and he is regarded by them as the angel of judgment, while Michael is called the angel of mercy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c18",
+          "source_id": "gabriel-s6",
+          "host": "www.newadvent.org",
+          "statement": "According to the Catholic Encyclopedia, in Daniel 8 Gabriel explains the vision of the horned ram as portending the destruction of the Persian Empire by Alexander the Great of Macedon.",
+          "statement_id": "Menurut Catholic Encyclopedia, dalam Daniel 8 Gabriel menjelaskan penglihatan tentang domba jantan bertanduk sebagai pertanda kehancuran Kekaisaran Persia oleh Aleksander Agung dari Makedonia.",
+          "quote": "Only four appearances of Gabriel are recorded: In Daniel 8, he explains the vision of the horned ram as portending the destruction of the Persian Empire by the Macedonian Alexander the Great",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c19",
+          "source_id": "gabriel-s7",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Daniel 9:21 says the man Gabriel, whom Daniel had seen in the vision, was caused to fly swiftly and touched Daniel about the time of the evening oblation.",
+          "statement_id": "Dalam terjemahan King James, Daniel 9:21 menyebut Gabriel, yang pernah dilihat Daniel dalam penglihatan, \"terbang dengan cepat\" dan menyentuh Daniel sekitar waktu persembahan petang.",
+          "quote": "Yea, whiles I was speaking in prayer, even the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening oblation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c20",
+          "source_id": "gabriel-s7",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Daniel 8:16 records a voice between the banks of Ulai calling, \"Gabriel, make this man to understand the vision.\"",
+          "statement_id": "Dalam terjemahan King James, Daniel 8:16 mencatat suara yang memanggil dari antara tepian Ulai, \"Gabriel, buatlah orang ini memahami penglihatan itu.\"",
+          "quote": "And I heard a man's voice between the banks of Ulai, which called, and said, Gabriel, make this man to understand the vision.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c21",
+          "source_id": "gabriel-s8",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation of Luke 1:19, the angel says, \"I am Gabriel, that stand in the presence of God; and am sent to speak unto thee, and to shew thee these glad tidings.\"",
+          "statement_id": "Dalam terjemahan King James, Lukas 1:19, malaikat itu berkata, \"Akulah Gabriel, yang berdiri di hadirat Allah, dan aku diutus untuk berbicara kepadamu dan menyampaikan kabar baik ini.\"",
+          "quote": "And the angel answering said unto him, I am Gabriel, that stand in the presence of God; and am sent to speak unto thee, and to shew thee these glad tidings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c22",
+          "source_id": "gabriel-s8",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Luke 1:26 says that in the sixth month the angel Gabriel was sent from God unto a city of Galilee named Nazareth.",
+          "statement_id": "Dalam terjemahan King James, Lukas 1:26 menyatakan bahwa pada bulan keenam malaikat Gabriel diutus dari Allah ke sebuah kota di Galilea bernama Nazaret.",
+          "quote": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c23",
+          "source_id": "gabriel-s9",
+          "host": "legacy.quran.com",
+          "statement": "In the Sahih International translation of At-Tahrim 66:4, Allah is his protector, and Gabriel, the righteous of the believers, and the angels are his assistants.",
+          "statement_id": "Menurut terjemahan Sahih International atas At-Tahrim 66:4, Allah adalah pelindungnya, dan Gabriel, orang-orang beriman yang saleh, serta para malaikat adalah penolongnya.",
+          "quote": "then indeed Allah is his protector, and Gabriel and the righteous of the believers and the angels, moreover, are [his] assistants.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c24",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Hadith traditions Jibril is said to have six hundred wings.",
+          "statement_id": "Menurut Wikipedia, dalam tradisi hadis Jibril dikatakan memiliki enam ratus sayap.",
+          "quote": "In Hadith traditions, Jibril is said to have six hundred wings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c25",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Muslims believe that Gabriel was tasked with transmitting the scriptures from God to the prophets and messengers.",
+          "statement_id": "Menurut Wikipedia, umat Muslim meyakini Gabriel ditugaskan menyampaikan kitab-kitab dari Tuhan kepada para nabi dan rasul.",
+          "quote": "Muslims believe that Gabriel was tasked with transmitting the scriptures from God to the prophets and messengers",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c26",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes a familiar literary trope in which Gabriel blows a trumpet to announce the resurrection of the dead at the end of time, although the Bible never specifies Gabriel as the trumpeter.",
+          "statement_id": "Wikipedia mencatat bahwa tokoh sastra yang lazim menampilkan Gabriel meniup terompet untuk mengumumkan kebangkitan orang mati di akhir zaman, tetapi Alkitab tidak pernah menyebut Gabriel sebagai peniup terompet itu.",
+          "quote": "A familiar literary trope of Gabriel has him blowing a trumpet blast to announce the resurrection of the dead at the end of time. However, though the Bible mentions a trumpet blast preceding the resurrection of the dead, it never specifies Gabriel as the trumpeter.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c28",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia gives the Arabic name of Gabriel as جِبْرِيل (Jibrīl).",
+          "statement_id": "Wikipedia mencantumkan nama Arab Gabriel sebagai جِبْرِيل (Jibrīl).",
+          "quote": "Gabriel (Hejazis Arabic: جِبْرِيل, romanized: Jibrīl",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c29",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, many branches of Christianity, including Eastern Orthodoxy, the Catholic Church, Lutheranism, and Anglicanism, revere Gabriel as a saint.",
+          "statement_id": "Menurut Wikipedia, banyak cabang Kekristenan, termasuk Ortodoksi Timur, Gereja Katolik, Lutheranisme, dan Anglikanisme, menghormati Gabriel sebagai santo.",
+          "quote": "Many branches of Christianity—including Eastern Orthodoxy, the Catholic Church, Lutheranism, and Anglicanism—revere Gabriel as a saint.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c30",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Yazidis worship Seven Archangels, among them Cibrayîl (Gabriel) and Mîkayîl (Michael).",
+          "statement_id": "Menurut Wikipedia, kaum Yazidi memuliakan Tujuh Malaikat Agung, di antaranya Cibrayîl (Gabriel) dan Mîkayîl (Michael).",
+          "quote": "The Yazidis worship Seven Archangels, among them Cibrayîl (Gabriel), Mîkayîl (Michael)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c31",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Mandaean tradition Ptahil is an uthra identified with Gabriel who creates the material world with the help of Ruha.",
+          "statement_id": "Menurut Wikipedia, dalam tradisi Mandean Ptahil adalah seorang uthra yang diidentifikasi dengan Gabriel dan menciptakan dunia materi dengan bantuan Ruha.",
+          "quote": "Ptahil is an uthra, identified with Gabriel, who creates the poorly made material world with the help of Ruha",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "satan",
-      "file": "batch-026-fix-1.md",
+      "file": "batch-026-fix-3.md",
+      "entry_sha256": "d51ce54fb7ce634e2e6533630bb4367f3e6febaec21152500ce14de380e14abb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 31,
+        "sources": 10,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "satan-c01",
@@ -226,26 +433,261 @@
           "quote": "You created me from fire and created him from clay.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "satan-c08",
+          "source_id": "satan-s4",
+          "host": "jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, in the prologue to the Book of Job Satan appears before the Deity together with other celestial beings or \"sons of God.\"",
+          "statement_id": "Menurut Jewish Encyclopedia, dalam prolog Kitab Ayub Satan tampil di hadapan Tuhan bersama makhluk-makhluk surgawi lain atau \"anak-anak Allah\".",
+          "quote": "the prologue to the Book of Job, where Satan appears, together with other celestial beings or \"sons of God,\" before the Deity",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c09",
+          "source_id": "satan-s4",
+          "host": "jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, the prologue of Job shows that Satan has no power of independent action but requires the permission of God, which he may not transgress.",
+          "statement_id": "Menurut Jewish Encyclopedia, prolog Kitab Ayub menunjukkan bahwa Satan tidak punya kuasa bertindak sendiri dan memerlukan izin Tuhan yang tidak boleh ia langgar.",
+          "quote": "Yet it is also evident from the prologue that Satan has no power of independent action, but requires the permission of God, which he may not transgress.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c10",
+          "source_id": "satan-s4",
+          "host": "jewishencyclopedia.com",
+          "statement": "The Jewish Encyclopedia records in the Talmud and Midrash that Satan came into the world with woman, i.e. with Eve, so that he was created and is not eternal.",
+          "statement_id": "Jewish Encyclopedia mencatat dalam Talmud dan Midrash bahwa Satan datang ke dunia bersama perempuan, yaitu Hawa, sehingga ia diciptakan dan tidak kekal.",
+          "quote": "Satan came into the world with woman, i.e., with Eve ... so that he was created and is not eternal.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c11",
+          "source_id": "satan-s4",
+          "host": "jewishencyclopedia.com",
+          "statement": "The Jewish Encyclopedia records that in the Talmud and Midrash Satan is the incarnation of all evil, whose thoughts and activities are devoted to the destruction of man, and that he is identified with the impulse to evil.",
+          "statement_id": "Jewish Encyclopedia mencatat bahwa dalam Talmud dan Midrash Satan adalah penjelmaan segala kejahatan yang pikiran dan kegiatannya ditujukan untuk membinasakan manusia, dan ia disamakan dengan dorongan berbuat jahat.",
+          "quote": "He is the incarnation of all evil, and his thoughts and activities are devoted to the destruction of man; so that Satan, the impulse to evil",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c12",
+          "source_id": "satan-s5",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Job 1:6 says that on a day the sons of God came to present themselves before the LORD, and Satan came also among them.",
+          "statement_id": "Dalam terjemahan King James, Ayub 1:6 menyatakan bahwa pada suatu hari anak-anak Allah menghadap TUHAN dan Satan juga datang di tengah mereka.",
+          "quote": "Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c13",
+          "source_id": "satan-s5",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Job 1:12 records the LORD telling Satan that all Job has is in his power, but that he must not put forth his hand upon Job himself.",
+          "statement_id": "Dalam terjemahan King James, Ayub 1:12 mencatat TUHAN berkata kepada Satan bahwa segala milik Ayub ada dalam kuasanya, tetapi Satan tidak boleh mengulurkan tangan kepada Ayub sendiri.",
+          "quote": "And the LORD said unto Satan, Behold, all that he hath is in thy power; only upon himself put not forth thine hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c14",
+          "source_id": "satan-s6",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Zechariah 3:1 shows Joshua the high priest standing before the angel of the LORD, with Satan standing at his right hand to resist him.",
+          "statement_id": "Dalam terjemahan King James, Zakharia 3:1 menggambarkan Yosua sang imam besar berdiri di hadapan malaikat TUHAN, dan Satan berdiri di sebelah kanannya untuk menentangnya.",
+          "quote": "And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c15",
+          "source_id": "satan-s7",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Matthew 4:1 says Jesus was led up of the spirit into the wilderness to be tempted of the devil.",
+          "statement_id": "Dalam terjemahan King James, Matius 4:1 menyatakan bahwa Yesus dibawa oleh Roh ke padang gurun untuk dicobai oleh Iblis.",
+          "quote": "THEN was Jesus led up of the spirit into the wilderness to be tempted of the devil.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c16",
+          "source_id": "satan-s8",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Revelation 12:7 says there was war in heaven: Michael and his angels fought against the dragon, and the dragon fought with his angels.",
+          "statement_id": "Dalam terjemahan King James, Wahyu 12:7 menyebut terjadi perang di surga: Michael dan malaikat-malaikatnya berperang melawan naga itu, dan naga itu beserta malaikat-malaikatnya melawan.",
+          "quote": "And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c17",
+          "source_id": "satan-s8",
+          "host": "en.wikisource.org",
+          "statement": "In the King James translation, Revelation 12:9 says the great dragon, that old serpent called the Devil and Satan, which deceiveth the whole world, was cast out into the earth with his angels.",
+          "statement_id": "Dalam terjemahan King James, Wahyu 12:9 menyatakan bahwa naga besar, ular tua yang disebut Iblis dan Satan, penyesat seluruh dunia, dicampakkan ke bumi bersama malaikat-malaikatnya.",
+          "quote": "And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c18",
+          "source_id": "satan-s9",
+          "host": "legacy.quran.com",
+          "statement": "In the Sahih International translation of Al-Hijr 15:39, Iblis says he will make [disobedience] attractive to them on earth and mislead them all.",
+          "statement_id": "Menurut terjemahan Sahih International atas Al-Hijr 15:39, Iblis berkata bahwa ia akan membuat [kedurhakaan] tampak menarik bagi manusia di bumi dan menyesatkan mereka semua.",
+          "quote": "My Lord, because You have put me in error, I will surely make [disobedience] attractive to them on earth, and I will mislead them all",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c19",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Quran he incites humans to sin by infecting their minds with waswās ('evil suggestions').",
+          "statement_id": "Menurut Wikipedia, dalam Al-Qur'an Iblis menghasut manusia berbuat dosa dengan menulari pikiran mereka dengan waswās ('bisikan jahat').",
+          "quote": "He incites humans to sin by infecting their minds with waswās ('evil suggestions').",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c20",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Quran Iblis (Shaitan), the leader of the devils (shayāṭīn), is made of fire and was cast out of Heaven because he refused to bow before the newly created Adam.",
+          "statement_id": "Menurut Wikipedia, dalam Al-Qur'an Iblis (Shaitan), pemimpin para setan (shayāṭīn), terbuat dari api dan dikeluarkan dari surga karena menolak bersujud kepada Adam yang baru diciptakan.",
+          "quote": "In the Quran, Iblis (Shaitan), the leader of the devils (shayāṭīn), is made of fire and was cast out of Heaven because he refused to bow before the newly created Adam.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c21",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, a figure known as ha-satan (\"the satan\") first appears in the Hebrew Bible as a heavenly prosecutor, subordinate to Yahweh (God).",
+          "statement_id": "Menurut Wikipedia, sosok yang dikenal sebagai ha-satan (\"sang satan\") pertama kali muncul dalam Alkitab Ibrani sebagai jaksa surgawi yang tunduk kepada Yahweh (Allah).",
+          "quote": "A figure known as ha-satan (\"the satan\") first appears in the Hebrew Bible as a heavenly prosecutor, subordinate to Yahweh (God)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c22",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, most Jews do not believe in the existence of a supernatural omnimalevolent figure.",
+          "statement_id": "Menurut Wikipedia, sebagian besar orang Yahudi tidak percaya akan adanya sosok supernatural yang sepenuhnya jahat.",
+          "quote": "Most Jews do not believe in the existence of a supernatural omnimalevolent figure.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c23",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in Jubilees Satan's name is Mastema, which means 'hated' or 'hostility'.",
+          "statement_id": "Menurut World History Encyclopedia, dalam Kitab Yobel nama Satan adalah Mastema, yang berarti 'dibenci' atau 'permusuhan'.",
+          "quote": "Satan’s name here is Mastema (which means 'hated' or 'hostility').",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c24",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Satan's appearance is never described in the Bible, but since the ninth century he has often been shown in Christian art with horns, cloven hooves, unusually hairy legs, and a tail.",
+          "statement_id": "Menurut Wikipedia, rupa Satan tidak pernah dijelaskan dalam Alkitab, tetapi sejak abad kesembilan ia sering digambarkan dalam seni Kristen dengan tanduk, kuku belah, kaki yang sangat berbulu, dan ekor.",
+          "quote": "Satan's appearance is never described in the Bible, but, since the ninth century, he has often been shown in Christian art with horns, cloven hooves, unusually hairy legs, and a tail",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c25",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the apocryphal Book of Jubilees Yahweh grants the satan (referred to as Mastema) authority over a group of fallen angels, or their offspring, to tempt humans to sin and punish them.",
+          "statement_id": "Menurut Wikipedia, dalam Kitab Yobel yang apokrif, Yahweh memberi sang satan (disebut Mastema) wewenang atas sekelompok malaikat jatuh, atau keturunan mereka, untuk menggoda manusia berbuat dosa dan menghukum mereka.",
+          "quote": "In the apocryphal Book of Jubilees, Yahweh grants the satan (referred to as Mastema) authority over a group of fallen angels, or their offspring, to tempt humans to sin and punish them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c26",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Satan appears frequently in Christian literature, most notably in Dante Alighieri's Inferno, all variants of the classic Faust story, John Milton's Paradise Lost and Paradise Regained, and the poems of William Blake.",
+          "statement_id": "Menurut Wikipedia, Satan sering muncul dalam sastra Kristen, terutama dalam Inferno karya Dante Alighieri, semua varian kisah klasik Faust, Paradise Lost dan Paradise Regained karya John Milton, serta puisi-puisi William Blake.",
+          "quote": "Satan appears frequently in Christian literature, most notably in Dante Alighieri's Inferno, all variants of the classic Faust story, John Milton's Paradise Lost and Paradise Regained, and the poems of William Blake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c27",
+          "source_id": "satan-s10",
+          "host": "legacy.quran.com",
+          "statement": "According to the Sahih International translation of Al-Kahf 18:50, Iblis was of the jinn and departed from the command of his Lord.",
+          "statement_id": "Menurut terjemahan Sahih International atas Al-Kahf 18:50, Iblis termasuk golongan jin dan menyimpang dari perintah Tuhannya.",
+          "quote": "except for Iblees. He was of the jinn and departed from the command of his Lord.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c28",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, God's omnipotence remains intact; Satan could not do his work without God's permission.",
+          "statement_id": "Menurut World History Encyclopedia, kemahakuasaan Tuhan tetap utuh; Satan tidak dapat menjalankan pekerjaannya tanpa izin Tuhan.",
+          "quote": "God’s omnipotence remains intact; Satan could not do his work without God’s permission",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c29",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the name Samael, used of one of the fallen angels, later became a common name for Satan in Jewish Midrash and Kabbalah.",
+          "statement_id": "Menurut Wikipedia, nama Samael, yang dipakai untuk salah satu malaikat jatuh, kemudian menjadi nama umum bagi Satan dalam Midrash dan Kabbalah Yahudi.",
+          "quote": "The name Samael, which is used in reference to one of the fallen angels, later became a common name for Satan in Jewish Midrash and Kabbalah.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c30",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Satan as an evil figure evolved during the height of the Persian Achaemenid Empire (beginning c. 550 BCE) and was adopted by Jews living under Persian rule.",
+          "statement_id": "Menurut World History Encyclopedia, Satan sebagai sosok jahat berkembang pada puncak Kekaisaran Akhemeniyah Persia (mulai sekitar 550 SM) dan diadopsi oleh orang Yahudi yang hidup di bawah kekuasaan Persia.",
+          "quote": "He evolved during the height of the Persian Achaemenid Empire (beginning c. 550 BCE) and was adopted by Jews living under Persian rule at the time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c31",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, during the intertestamental period, possibly due to influence from the Zoroastrian figure of Angra Mainyu, the satan developed into a malevolent entity in dualistic opposition to God.",
+          "statement_id": "Menurut Wikipedia, pada masa antarperjanjian, mungkin karena pengaruh sosok Zoroastrian Angra Mainyu, sang satan berkembang menjadi entitas jahat yang bertentangan secara dualistik dengan Tuhan.",
+          "quote": "During the intertestamental period, possibly due to influence from the Zoroastrian figure of Angra Mainyu, the satan developed into a malevolent entity with abhorrent qualities in dualistic opposition to God.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hera",
-      "file": "batch-026-fix-1.md",
+      "file": "batch-026-fix-3.md",
+      "entry_sha256": "787f0a3e6fddd629a4f21d408c812bd54c12ea443c99392b34d3efc317b547fd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 45,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hera-c01",
@@ -316,26 +758,401 @@
           "quote": "She was the patron of Argos, which possessed a sanctuary to the goddess from the mid-8th century BCE.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "hera-c08",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Hera was usually depicted as a beautiful woman wearing a crown and holding a royal, lotus-tipped sceptre, sometimes accompanied by a lion, cuckoo or hawk.",
+          "statement_id": "Menurut Theoi, Hera biasanya digambarkan sebagai perempuan cantik bermahkota yang memegang tongkat kerajaan berujung teratai, kadang disertai singa, burung kukuk, atau elang.",
+          "quote": "She was usually depicted as a beautiful woman wearing a crown and holding a royal, lotus-tipped sceptre, and sometimes accompanied by a lion, cuckoo or hawk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c09",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi lists Hera's persecution of the consorts of Zeus, including Leto, Semele and Alkmene, among her more famous myths.",
+          "statement_id": "Theoi menyebut penganiayaan Hera terhadap para kekasih Zeus, termasuk Leto, Semele, dan Alkmene, sebagai salah satu mitos terkenalnya.",
+          "quote": "Her persecution of the consorts of Zeus including Leto, Semele and Alkmene (Alcmena).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c10",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi records Hera assisting the Argonauts in their quest for the golden fleece, their leader Iason (Jason) being one of her favourites.",
+          "statement_id": "Theoi menyebut bahwa Hera membantu para Argonaut dalam pencarian bulu domba emas, dan pemimpin mereka, Iason (Jason), adalah salah satu kesayangannya.",
+          "quote": "The assisting of the Argonauts in their quest for the golden fleece, their leader Iason (Jason) being one of her favourites.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c11",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Ixion was chained to a fiery wheel as punishment for attempting to violate the goddess.",
+          "statement_id": "Menurut Theoi, Ixion dirantai pada roda berapi sebagai hukuman karena mencoba menodai sang dewi.",
+          "quote": "The punishment of Ixion, who was chained to a fiery wheel for attempting to violate the goddess.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c12",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Hera produced Hephaistos (Hephaestus) alone without a father and cast him from heaven because he was born crippled.",
+          "statement_id": "Menurut Theoi, Hera melahirkan Hephaistos (Hephaestus) seorang diri tanpa ayah dan melemparkannya dari surga karena ia lahir cacat.",
+          "quote": "The birth of Hephaistos (Hephaestus) who she produced alone without a father and cast from heaven because he was born crippled.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c13",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, in the judgement of Paris Hera competed against Aphrodite and Athene for the prize of the golden apple.",
+          "statement_id": "Menurut Theoi, dalam penghakiman Paris, Hera bersaing melawan Aphrodite dan Athene untuk memperebutkan apel emas.",
+          "quote": "The judgement of Paris, in which she competed against Aphrodite and Athene for the prize of the golden apple.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c14",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary entry reproduced by Theoi, Hera was the only really married goddess among the Olympians, and hence she is the goddess of marriage and of the birth of children.",
+          "statement_id": "Menurut entri kamus yang dimuat Theoi, Hera adalah satu-satunya dewi Olimpus yang benar-benar menikah, sehingga ia dewi perkawinan dan kelahiran anak.",
+          "quote": "Properly speaking, Hera was the only really married goddess among the Olympians ... and hence she is the goddess of marriage and of the birth of children.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c15",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says Hera's character, as described by Homer, is not very amiable, its main features being jealousy, obstinacy, and a quarrelling disposition.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa watak Hera menurut Homer tidak terlalu ramah, dengan ciri utama cemburu, keras kepala, dan suka bertengkar.",
+          "quote": "Her character, as described by Homer, is not of a very amiable kind, and its main features are jealousy, obstinacy, and a quarrelling disposition",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c16",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi records that Zeus not only threatens but beats her, and once hung her up in the clouds, her hands chained and two anvils suspended from her feet.",
+          "statement_id": "Entri kamus yang dimuat Theoi mencatat bahwa dalam perselisihan Zeus tidak hanya mengancam tetapi memukul Hera, dan pernah menggantungnya di awan dengan tangan dirantai dan dua landasan di kakinya.",
+          "quote": "Zeus, in such cases, not only threatens, but beats her; and once he even hung her up in the clouds, her hands chained, and with two anvils suspended from her feet",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c17",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary entry reproduced by Theoi, the one point in which the Homeric poems show Hera with power similar to Zeus is that she is able to confer the power of prophecy.",
+          "statement_id": "Menurut entri kamus yang dimuat Theoi, satu-satunya hal yang membuat puisi Homeros menampilkan Hera sama berkuasa dengan Zeus ialah kemampuannya menganugerahkan kuasa nubuat.",
+          "quote": "There is only one point in which the Homeric poems represent Hera as possessed of similar power with Zeus, viz. she is able to confer the power of prophecy",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c18",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to a tradition reproduced by Theoi, Hera had disputed the possession of Argos with Poseidon, but the river-gods of the country adjudicated it to her.",
+          "statement_id": "Menurut tradisi yang dimuat Theoi, Hera pernah bersengketa dengan Poseidon atas Argos, tetapi dewa-dewa sungai negeri itu memutuskan Argos untuknya.",
+          "quote": "According to tradition, Hera had disputed the possession of Argos with Poseidon, but the river-gods of the country adjudicated it to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c19",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says Hera's most celebrated sanctuary was situated between Argos and Mycenae, at the foot of Mount Euboea.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa tempat suci Hera yang paling termasyhur terletak di antara Argos dan Mycenae, di kaki Gunung Euboea.",
+          "quote": "Her most celebrated sanctuary was situated between Argos and Mycenae, at the foot of Mount Euboea.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c20",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary entry reproduced by Theoi, the sitting colossal statue of Hera in this temple, made of gold and ivory, was the work of Polycletus.",
+          "statement_id": "Menurut entri kamus yang dimuat Theoi, arca Hera yang duduk dan kolosal di kuil itu dibuat dari emas dan gading oleh Polycletus.",
+          "quote": "The sitting colossal statue of Hera in this temple, made of gold and ivory, was the work of Polycletus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c21",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "Homeric Hymn 12 (Evelyn-White translation) sings of golden-throned Hera whom Rhea bare, queen of the Immortals, surpassing all in beauty, sister and wife of loud-thundering Zeus.",
+          "statement_id": "Himne Homerik 12 (terjemahan Evelyn-White) menyanyikan Hera yang bertakhta emas, yang dilahirkan Rhea, ratu para makhluk abadi, melampaui semua dalam keindahan, saudari dan istri Zeus yang menggelegar.",
+          "quote": "I sing of golden-throned Hera whom Rhea bare. Queen of the Immortals is she, surpassing all in beauty: she is the sister and wife of loud-thundering Zeus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c22",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Hera was the daughter of Cronus and Rhea, and mother of Ares (god of war), Hebe (goddess of youth), and Eileithyia (goddess of childbirth), all with Zeus.",
+          "statement_id": "Menurut World History Encyclopedia, Hera adalah putri Cronus dan Rhea, dan ibu Ares (dewa perang), Hebe (dewi masa muda), dan Eileithyia (dewi persalinan), semuanya bersama Zeus.",
+          "quote": "Hera was the daughter of Cronus and Rhea, and mother of Ares (god of war), Hebe (goddess of youth), and Eileithyia (goddess of childbirth), all with Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c23",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia records that Hera threw Hephaistos from Mount Olympus because of his ugliness, so that he became lame; in other accounts Zeus threw him from the heavens precisely because of his lameness.",
+          "statement_id": "World History Encyclopedia mencatat bahwa Hera melemparkan Hephaistos dari Gunung Olympus karena keburukan rupanya sehingga ia menjadi pincang; menurut kisah lain, Zeus melemparkannya dari surga justru karena kepincangannya.",
+          "quote": "However, Hera threw Hephaistos from Mount Olympus because of his ugliness, and crashing to earth, the god became lame. In other accounts, Hephaistos was thrown from the heavens by Zeus precisely because of his lameness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c24",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in the story of Io Hera then set Argos's 100 eyes on the wings of a bird, the peacock.",
+          "statement_id": "Menurut World History Encyclopedia, dalam kisah Io, Hera kemudian menempatkan seratus mata Argos pada sayap seekor burung, yaitu merak.",
+          "quote": "In memory, Hera then set his 100 eyes on the wings of a bird - the peacock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c25",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Hera sent a gadfly to continually pester the unfortunate Io.",
+          "statement_id": "Menurut World History Encyclopedia, Hera mengirim seekor lalat pengganggu untuk terus menyiksa Io yang malang.",
+          "quote": "Finally, not to be outdone, the Greek goddess sent a gadfly to continually pester the unfortunate Io.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c26",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Hera delayed Hercules's birth so his cousin Eurystheus could claim the throne of Tiryns, sent two snakes to kill the infant, caused him to go mad and kill his own wife and children, and had Eurystheus set him his twelve labours.",
+          "statement_id": "Menurut World History Encyclopedia, Hera menunda kelahiran Hercules agar sepupunya Eurystheus dapat merebut takhta Tiryns, mengirim dua ular untuk membunuh bayi itu, membuatnya gila hingga membunuh istri dan anak-anaknya, dan membuat Eurystheus menugaskan dua belas pekerjaan kepadanya.",
+          "quote": "Hera delayed his birth so that his cousin Eurystheus could claim the throne of Tiryns, sent two snakes to kill the infant while he slept, caused the hero to become mad and kill his own wife and children, and had Eurystheus set the hero his twelve labours",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c27",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in the Iliad Hera supports the Achaeans and frequently schemes with other deities to bring down Troy, as she never forgave the Trojan prince Paris for choosing Aphrodite as the most beautiful goddess.",
+          "statement_id": "Menurut World History Encyclopedia, dalam Iliad Hera mendukung bangsa Akhaia dan sering bersekongkol dengan dewa lain demi runtuhnya Troya, karena ia tidak pernah memaafkan pangeran Paris yang memilih Aphrodite sebagai dewi tercantik.",
+          "quote": "The goddess supports the Achaeans and frequently schemes with other deities to bring the downfall of Troy, as she never forgave the Trojan prince Paris for choosing Aphrodite above her as the most beautiful goddess.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c28",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Hera had a temple at Olympia (650-600 BCE), and Tiryns was an important cult centre to the goddess in the 7th century BCE.",
+          "statement_id": "Menurut World History Encyclopedia, Hera memiliki kuil di Olympia (650-600 SM), dan Tiryns menjadi pusat pemujaan penting baginya pada abad ke-7 SM.",
+          "quote": "She also had a temple dedicated to her at Olympia (650-600 BCE), and Tiryns was an important cult centre to the goddess in the 7th century BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c29",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, the island of Samos, in some accounts the goddess's birthplace, had been a centre of her cult as far back as the Mycenaean period in the mid-2nd millennium BCE.",
+          "statement_id": "Menurut World History Encyclopedia, pulau Samos, yang dalam beberapa kisah adalah tempat kelahiran sang dewi, telah menjadi pusat pemujaannya sejak periode Mycenae pada pertengahan milenium ke-2 SM.",
+          "quote": "The island of Samos, in some accounts the birthplace of the goddess, had been a centre for cult worship of the Greek goddess as far back as the Mycenaean period in the mid-2nd millennium BCE",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c30",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, across Greece sporting competitions for women, the Heraia, were held in Hera's honour, as were annual marriage festivals in which couples re-enacted the marriage of Zeus and Hera.",
+          "statement_id": "Menurut World History Encyclopedia, di seluruh Yunani diadakan perlombaan olahraga perempuan bernama Heraia untuk menghormati Hera, begitu pula festival pernikahan tahunan ketika pasangan memeragakan ulang pernikahan Zeus dan Hera.",
+          "quote": "Across Greece, sporting competitions for women, the Heraia, were held in Hera's honour, as were annual marriage festivals (hierogamy) when couples re-enacted the marriage of Zeus and Hera.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c31",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in art Hera is most often seated on a throne, sometimes wearing a crown (polos), holding a royal sceptre, and wearing a bridal veil; on occasion she holds a pomegranate, a traditional symbol of fertility.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Hera paling sering duduk di singgasana, kadang bermahkota (polos), memegang tongkat kerajaan, dan bercadar pengantin; kadang ia memegang delima, lambang kesuburan.",
+          "quote": "She is most often seated on a throne and sometimes wears a crown (polos), holds a royal sceptre, and wears a bridal veil. On occasion she is also depicted holding a pomegranate, a traditional symbol of fertility.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c32",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in Roman culture the goddess lived on as Juno, who principally represented the good family and faithful marriage attributes of Hera rather than the jealous avenger of infidelity.",
+          "statement_id": "Menurut World History Encyclopedia, dalam budaya Romawi sang dewi hidup terus sebagai Juno, yang terutama mewakili sifat keluarga baik dan pernikahan setia, bukan pembalas dendam yang cemburu atas perselingkuhan.",
+          "quote": "In Roman culture the goddess lived on as Juno, although she principally represented the good family and faithful marriage attributes of Hera rather than the jealous avenger of infidelity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c33",
+          "source_id": "hera-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Iliad 4 (Murray translation), Hera tells Zeus that the three cities dearest in her sight are Argos, Sparta, and Mycenae.",
+          "statement_id": "Dalam Iliad 4 (terjemahan Murray), Hera berkata kepada Zeus bahwa tiga kota yang paling disayanginya adalah Argos, Sparta, dan Mycenae.",
+          "quote": "Verily have I three cities that are far dearest in my sight, Argos and Sparta and broad-wayed Mycenae",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c34",
+          "source_id": "hera-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Iliad 4 (Murray translation), Hera says Cronos begat her as the most honoured of his daughters in twofold wise: she is eldest and is called Zeus's wife, whilst he is king among all the immortals.",
+          "statement_id": "Dalam Iliad 4 (terjemahan Murray), Hera berkata bahwa Cronos memperanakkannya sebagai putri yang paling dihormati, dengan dua alasan: ia yang tertua dan disebut istri Zeus, sedangkan Zeus raja di antara semua makhluk abadi.",
+          "quote": "crooked-counselling Cronos begat me as the most honoured of his daughters ... in twofold wise, for that I am eldest, and am called thy wife, whilst thou art king among all the immortals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c35",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Walter Burkert records scholars' arguments for the meaning \"Mistress\" as a feminine to Heros, \"Master\", with uncertain origin.",
+          "statement_id": "Menurut Wikipedia, Walter Burkert mencatat pendapat para sarjana tentang arti \"Nyonya\" sebagai bentuk feminin dari Heros, \"Tuan\", dengan asal-usul yang tidak pasti.",
+          "quote": "In a note in his Greek Religion, Walter Burkert records scholars' arguments \"for the meaning Mistress as a feminine to Heros, Master\", with uncertain origin.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c36",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, A. J. van Windekens proposes the meaning \"young cow, heifer\", consonant with Hera's common epithet βοῶπις (boōpis, \"cow-eyed\").",
+          "statement_id": "Menurut Wikipedia, A. J. van Windekens mengusulkan arti \"sapi muda\", yang sesuai dengan julukan umum Hera, βοῶπις (boōpis, \"bermata sapi\").",
+          "quote": "A. J. van Windekens proposes the meaning \"young cow, heifer\", which is consonant with Hera's common epithet βοῶπις (boōpis, \"cow-eyed\").",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c37",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, her sacred animals include the cow, cuckoo, and peacock, and she is sometimes shown holding a pomegranate as an emblem of immortality.",
+          "statement_id": "Menurut Wikipedia, hewan suci Hera mencakup sapi, burung kukuk, dan merak, dan ia kadang digambarkan memegang delima sebagai lambang keabadian.",
+          "quote": "Her sacred animals include the cow, cuckoo, and peacock. She is sometimes shown holding a pomegranate as an emblem of immortality.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c38",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Iliad Hera, Poseidon, and Athena conspire to overpower Zeus and tie him in bonds.",
+          "statement_id": "Menurut Wikipedia, dalam Iliad Hera, Poseidon, dan Athena bersekongkol untuk mengalahkan Zeus dan mengikatnya.",
+          "quote": "In the Iliad, Homer tells of another attempted overthrow, in which Hera, Poseidon, and Athena conspire to overpower Zeus and tie him in bonds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c39",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, when Tiresias sided with Zeus, Hera struck him blind.",
+          "statement_id": "Menurut Wikipedia, ketika Tiresias memihak Zeus, Hera membutakannya.",
+          "quote": "When Tiresias sided with Zeus, Hera struck him blind.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c40",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Hera is the daughter of the Titans Cronus and Rhea, and the sister of Hestia, Demeter, Hades, Poseidon, and Zeus.",
+          "statement_id": "Menurut Wikipedia, Hera adalah putri para Titan Cronus dan Rhea, serta saudari Hestia, Demeter, Hades, Poseidon, dan Zeus.",
+          "quote": "Hera is the daughter of the Titans Cronus and Rhea, and the sister of Hestia, Demeter, Hades, Poseidon, and Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c41",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the name Hera (Hḗrā or Hḗrē) is attested in Mycenaean Greek, written in Linear B as 𐀁𐀨 e-ra on tablets found in Pylos and Thebes.",
+          "statement_id": "Menurut Wikipedia, nama Hera (Hḗrā atau Hḗrē) tercatat dalam bahasa Yunani Mycenae, ditulis dalam silabaria Linear B sebagai 𐀁𐀨 e-ra, pada lempeng yang ditemukan di Pylos dan Thebes.",
+          "quote": "The name Hera (Hḗrā or Hḗrē) is attested in Mycenaean Greek, written in Linear B syllabary as 𐀁𐀨 e-ra, appearing on tablets found in Pylos and Thebes",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c42",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Leto was punished through Hera promising to curse any land that gave the pregnant goddess refuge.",
+          "statement_id": "Menurut World History Encyclopedia, Leto dihukum karena Hera berjanji mengutuk negeri mana pun yang memberi perlindungan kepada dewi yang sedang hamil itu.",
+          "quote": "Leto was so punished through Hera promising to curse any land that gave the pregnant goddess refuge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c43",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says Hera is far inferior to Zeus in power and must obey him unconditionally.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa Hera jauh lebih rendah daripada Zeus dalam kekuasaan dan harus menaatinya tanpa syarat.",
+          "quote": "but she is, notwithstanding, far inferior to him in power; she must obey him unconditionally",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c44",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Hera is the stepmother and enemy of Heracles, and the name Heracles means \"Glory of Hera\".",
+          "statement_id": "Menurut Wikipedia, Hera adalah ibu tiri sekaligus musuh Heracles, dan nama Heracles berarti \"Kemuliaan Hera\".",
+          "quote": "Hera is the stepmother and enemy of Heracles. The name Heracles means \"Glory of Hera\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c45",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi states that Hera is not, like Zeus, the queen of gods and men, but simply the wife of the supreme god, and that the idea of her as queen of heaven is of a much later date.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa Hera bukan, seperti Zeus, ratu para dewa dan manusia, melainkan hanya istri dewa tertinggi, dan bahwa gagasan tentangnya sebagai ratu surga berasal dari masa yang jauh lebih kemudian.",
+          "quote": "Hera therefore is not, like Zeus, the queen of gods and men, but simply the wife of the supreme god. The idea of her being the queen of heaven, with regal wealth and power, is of a much later date.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "poseidon",
-      "file": "batch-026-fix-1.md",
+      "file": "batch-026-fix-3.md",
+      "entry_sha256": "d86b93e1218b131a06e72c20da5a553483851cb3dbdd962119ca02b9d809b343",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 50,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "poseidon-c01",
@@ -415,6 +1232,426 @@
           "statement_id": "Dalam Odisseia, Odiseus membuat Poseidon marah dengan membutakan Polifemos, putranya, sehingga Poseidon menghukumnya dengan badai.",
           "quote": "In the Odyssey, during the sea-voyage from Troy back home to Ithaca, the Greek hero Odysseus provokes Poseidon's fury by blinding his son, the Cyclops Polyphemus, resulting in Poseidon punishing him with storms",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c09",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon's most distinctive attribute was the trident, a three-pronged fishing spear; he sometimes also wielded a boulder encrusted with sea creatures.",
+          "statement_id": "Menurut Theoi, atribut Poseidon yang paling khas adalah trisula, tombak ikan bermata tiga; kadang ia juga memegang batu karang yang dipenuhi makhluk laut.",
+          "quote": "Poseidon's most distinctive attribute was the trident, a three-pronged fishing spear. He sometimes also wielded a boulder encrusted with sea creatures",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c10",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon's sacred animals were the bull, the horse and the dolphin.",
+          "statement_id": "Menurut Theoi, hewan suci Poseidon adalah banteng, kuda, dan lumba-lumba.",
+          "quote": "Poseidon's sacred animals were the bull, the horse and the dolphin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c11",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, his chariot was drawn by a pair of fish-tailed horses (Greek: hippokampoi).",
+          "statement_id": "Menurut Theoi, keretanya ditarik sepasang kuda berekor ikan (bahasa Yunani: hippokampoi).",
+          "quote": "His chariot was drawn by a pair of fish-tailed horses (Greek: hippokampoi).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c12",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon entered a contest with the goddess Athena for dominion over Athens and produced the very first horse as a gift; when the king refused him the prize, he afflicted the land with drought.",
+          "statement_id": "Menurut Theoi, Poseidon bertanding melawan dewi Athena untuk menguasai Athena dan menghasilkan kuda pertama sebagai hadiah; ketika sang raja menolak memberinya hadiah kemenangan, ia menimpakan kekeringan pada negeri itu.",
+          "quote": "He entered a contest with the goddess Athena for dominion over Athens and produced the very first horse as a gift. But the king refused him the prize and in anger Poseidon afflicted the land with drought.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c13",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon helped build the walls of Troy, but when King Laomedon refused the promised payment, he sent a sea-monster to ravage the land.",
+          "statement_id": "Menurut Theoi, Poseidon membantu membangun tembok kota Troya, tetapi ketika Raja Laomedon menolak membayar upah yang dijanjikan, ia mengirim monster laut untuk merusak negeri itu.",
+          "quote": "The god helped build the walls of the city of Troy, but when King Laomedon refused the payment he had promised, Poseidon sent a sea-monster to ravage the land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c14",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, when the Gigantes (Giants) besieged the gods of Olympos, Poseidon crushed Polybotes beneath the island of Kos.",
+          "statement_id": "Menurut Theoi, ketika para Gigantes mengepung dewa-dewa Olimpus, Poseidon menimpa Polybotes dengan pulau Kos.",
+          "quote": "When the Gigantes (Giants) besieged the gods of Olympos, Poseidon crushed Polybotes beneath the island of Kos (Cos).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c15",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary entry reproduced by Theoi, the symbol of Poseidon's power was the trident, with which he used to shatter rocks, call forth or subdue storms, shake the earth, and the like.",
+          "statement_id": "Menurut entri kamus yang dimuat Theoi, lambang kekuasaan Poseidon adalah trisula, yang ia pakai untuk memecahkan batu karang, memanggil atau menenangkan badai, mengguncang bumi, dan sebagainya.",
+          "quote": "The symbol of Poseidon's power was the trident, or a spear with three points, with which he used to shatter rocks, to call forth or subdue storms, to shake the earth, and the like.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c16",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon married the marine-goddess Amphitrite, eldest child of Nereus, a marital alliance which secured his dominion over the sea; their son was the fish-tailed god Triton.",
+          "statement_id": "Menurut Theoi, Poseidon menikahi dewi laut Amphitrite, anak sulung Nereus, ikatan pernikahan yang mengamankan kekuasaannya atas laut; putra mereka adalah dewa berekor ikan, Triton.",
+          "quote": "Poseidon married the marine-goddess Amphitrite, eldest child of Nereus, first born son of Pontos (the Sea), a marital alliance which secured his dominion over the sea. Their son was the fish-tailed god Triton.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c17",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says that, as ruler of the sea, Poseidon is described as gathering clouds and calling forth storms, but also as able to grant a successful voyage and save those in danger, and all other marine divinities are subject to him.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa sebagai penguasa laut, Poseidon digambarkan mengumpulkan awan dan memanggil badai, tetapi juga mampu memberi pelayaran yang berhasil dan menyelamatkan orang yang dalam bahaya, dan semua dewa laut lain tunduk kepadanya.",
+          "quote": "Being the ruler of the sea (the Mediterranean), he is described as gathering clouds and calling forth storms, but at the same he has it in his power to grant a successful voyage and save those who are in danger, and all other marine divinities are subject to him.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c18",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says the palace of Poseidon was in the depth of the sea near Aegae in Euboea.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa istana Poseidon berada di kedalaman laut dekat Aegae di Euboea.",
+          "quote": "The palace of Poseidon was in the depth of the sea near Aegae in Euboea",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c19",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says Poseidon was regarded as the creator of the horse, believed to have taught men to manage horses by the bridle, and to have been the originator and protector of horse races.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa Poseidon dianggap pencipta kuda, dipercaya mengajarkan manusia mengendalikan kuda dengan kekang, serta pencetus dan pelindung pacuan kuda.",
+          "quote": "He was further regarded as the creator of the horse, and was accordingly believed to have taught men the art of managing horses by the bridle, and to have been the originator and protector of horse races.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c20",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon also had numerous offspring, including giants such as Antaios and the cyclops Polyphemos, magical horses like Pegasos and Arion, and various human kings and heroes including Theseus and Bellerophontes.",
+          "statement_id": "Menurut Theoi, Poseidon juga memiliki banyak keturunan, termasuk raksasa seperti Antaios dan Kiklops Polyphemos, kuda ajaib seperti Pegasos dan Arion, serta berbagai raja dan pahlawan manusia seperti Theseus dan Bellerophontes.",
+          "quote": "He also had numerous mortal offspring including giants such as Antaios and the cyclops Polyphemos, magical horses like Pegasos and Arion, and various human kings, heroes and villians including Theseus and Bellerophontes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c21",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, during the War of the Titanes the Kyklopes crafted a magical trident for Poseidon, and with his brothers Zeus and Haides he defeated the elder gods and imprisoned them in Tartaros.",
+          "statement_id": "Menurut Theoi, dalam Perang Titan, para Kiklops membuat trisula ajaib bagi Poseidon, dan bersama saudara-saudaranya Zeus dan Haides ia mengalahkan dewa-dewa yang lebih tua serta memenjarakan mereka di Tartaros.",
+          "quote": "During the War of the Titanes, the Kyklopes (Cyclopes) crafted a magical trident for Poseidon, and together with his brothers Zeus and Haides he defeated the elder gods and imprisoned them in Tartaros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c22",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, at birth Poseidon was swallowed whole by his father Kronos, but Zeus later enlisted the goddess Metis, who fed the Titan a magical elixir causing him to disgorge the god.",
+          "statement_id": "Menurut Theoi, saat lahir Poseidon ditelan bulat-bulat oleh ayahnya Kronos, tetapi Zeus kemudian meminta bantuan dewi Metis yang memberi sang Titan ramuan ajaib sehingga ia memuntahkan sang dewa.",
+          "quote": "At birth Poseidon was swallowed whole by his father Kronos (Cronus), but Zeus later enlisted the aid of the goddess Metis who fed the Titan a magical elixir causing him to disgorge the god.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c23",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says that in the earliest poems Poseidon is described as equal to Zeus in dignity, but weaker.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa dalam puisi-puisi paling awal Poseidon digambarkan setara dengan Zeus dalam martabat, tetapi lebih lemah.",
+          "quote": "In the earliest poems, Poseidon is described as indeed equal to Zeus in dignity, but weaker.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c24",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi notes that Herodotus states the name and worship of Poseidon was imported to the Greeks from Libya, but that he was probably a divinity of Pelasgian origin.",
+          "statement_id": "Entri kamus yang dimuat Theoi mencatat bahwa Herodotus menyatakan nama dan pemujaan Poseidon diimpor ke Yunani dari Libya, tetapi ia kemungkinan dewa berasal dari bangsa Pelasgia.",
+          "quote": "Herodotus (ii. 50, iv. 188) states, that the name and worship of Poseidon was imported to the Greeks from Libya, but he was probably a divinity of Pelasgian origin",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c25",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says the sacrifices offered to him generally consisted of black and white bulls.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa kurban untuk Poseidon pada umumnya berupa banteng hitam dan putih.",
+          "quote": "The sacrifices offered to him generally consisted of black and white bulls",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c26",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "The dictionary entry reproduced by Theoi says horse and chariot races were held in his honour on the Corinthian isthmus.",
+          "statement_id": "Entri kamus yang dimuat Theoi menyatakan bahwa pacuan kuda dan kereta diadakan untuk menghormatinya di tanah genting Korintus.",
+          "quote": "horse and chariot races were held in his honour on the Corinthian isthmus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c27",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, cults to Poseidon date back to the late Bronze Age and the Mycenaean civilization (at its peak from the 15th to 12th century BCE), as attested by Linear B inscriptions found at Pylos and Knossos.",
+          "statement_id": "Menurut World History Encyclopedia, pemujaan Poseidon berasal dari akhir Zaman Perunggu dan peradaban Mycenae (puncaknya abad ke-15 hingga ke-12 SM), dibuktikan oleh prasasti Linear B yang ditemukan di Pylos dan Knossos.",
+          "quote": "Cults to Poseidon date as far back as the late Bronze Age and the Mycenaean civilization (at its peak from the 15th to 12th century BCE), as attested by Linear B inscriptions found at Pylos in the Peloponnese and Knossos on Crete.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c28",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Pylos had Poseidon as its main god with a priestess as the head of his cult.",
+          "statement_id": "Menurut World History Encyclopedia, Pylos menjadikan Poseidon dewa utamanya dengan seorang pendeta perempuan sebagai kepala pemujaannya.",
+          "quote": "Pylos, we know, had Poseidon as its main god with a priestess as the head of his cult.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c29",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Poseidon often interfered in the plans of Zeus and once attempted to overthrow his brother with the aid of Hera and Athena; as punishment for this treachery he was made to build the walls of Troy.",
+          "statement_id": "Menurut World History Encyclopedia, Poseidon sering ikut campur dalam rencana Zeus dan pernah mencoba menggulingkannya dengan bantuan Hera dan Athena; sebagai hukuman atas pengkhianatan itu ia diwajibkan membangun tembok Troya.",
+          "quote": "Seemingly not content with the seas alone, Poseidon often interfered in the plans of Zeus, and once even attempted to overthrow his brother with the aid of Hera and Athena. It was as punishment for this treachery that Poseidon was made to build the magnificent walls of Troy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c30",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Homer and Hesiod most often describe Poseidon as 'deep sounding Earth-shaker', the 'dark-haired one' and 'encircler of the earth'.",
+          "statement_id": "Menurut World History Encyclopedia, Homeros dan Hesiodos paling sering menyebut Poseidon sebagai 'Penggoyang Bumi yang bergemuruh', 'si berambut gelap', dan 'pelingkar bumi'.",
+          "quote": "Poseidon is most often described by both Homer and Hesiod as 'deep sounding Earth-shaker', the 'dark-haired one' and 'encircler of the earth.'",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c31",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in revenge for the blinding of his son Polyphemus, Poseidon cursed Odysseus to wander the sea for ten years.",
+          "statement_id": "Menurut World History Encyclopedia, sebagai balas dendam atas dibutakannya putranya Polyphemus, Poseidon mengutuk Odiseus mengembara di laut selama sepuluh tahun.",
+          "quote": "In revenge for the blinding of his son Polyphemus, he cursed Odysseus to wander the sea for ten years.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c32",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Poseidon was particularly revered at the Isthmus of Corinth and was the focus of horse races and other events at the Panhellenic Isthmian games held in his honour near Corinth.",
+          "statement_id": "Menurut World History Encyclopedia, Poseidon sangat dihormati di Tanah Genting Korintus dan menjadi pusat pacuan kuda serta acara lain pada Pesta Isthmia Panhelenik yang diadakan untuk menghormatinya dekat Korintus.",
+          "quote": "The god was particularly revered here and was the focus of horse races and other events at the Panhellenic Isthmian games which were held in his honour near Corinth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c33",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Sounion was another strategic site close to the god, and his 5th-century BCE temple still stands on the promontory overlooking ships entering the Saronic gulf.",
+          "statement_id": "Menurut World History Encyclopedia, Sounion adalah situs strategis yang dekat dengan sang dewa, dan kuil abad ke-5 SM-nya masih berdiri di tanjung yang menghadap kapal-kapal yang memasuki Teluk Saronik.",
+          "quote": "Sounion was another strategic site close to the god, and his 5th-century BCE temple still stands on the promontory which overlooks ships entering the Saronic gulf.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c34",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in the legendary competition with Athena for the patronage of Athens, Poseidon offered a saltwater spring and a horse, but Athena's gift of an olive tree gained greater favour.",
+          "statement_id": "Menurut World History Encyclopedia, dalam pertandingan legendaris melawan Athena untuk menjadi pelindung Athena, Poseidon menawarkan mata air asin dan seekor kuda, tetapi hadiah pohon zaitun dari Athena lebih disukai.",
+          "quote": "In the legendary competition with Athena to win the patronage of Athens, Poseidon offered to the city the gifts of a saltwater spring and a horse. However, Athena's gift of an olive tree gained greater favour",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c35",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in ancient Greek art Poseidon is most commonly depicted as mature and bearded, often brandishing his trident, fashioned by the Cyclopes, with which he would create earthquakes by striking it to the ground.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Yunani kuno Poseidon paling sering digambarkan dewasa dan berjanggut, sering mengacungkan trisula buatan para Kiklops yang ia pakai menciptakan gempa dengan menghantamkannya ke tanah.",
+          "quote": "Poseidon is most commonly depicted in ancient Greek art as mature and bearded. He often brandishes his trident, fashioned by the Cyclopes, with which he would create earthquakes by striking it to the ground.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c36",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Poseidon was responsible for the Minotaur: Minos' failure to sacrifice the bull given by the god resulted in Poseidon bewitching Minos' wife Pasiphae into falling in love with the bull.",
+          "statement_id": "Menurut World History Encyclopedia, Poseidon bertanggung jawab atas Minotaur: karena Minos tidak mengurbankan banteng pemberian sang dewa, Poseidon menyihir istri Minos, Pasiphae, hingga jatuh cinta pada banteng itu.",
+          "quote": "Poseidon was himself responsible for another terrible creature - the Minotaur. Minos' failure to sacrifice the bull given as a gift by the god resulted in Poseidon bewitching Minos' wife Pasiphae into falling in love with the bull",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c37",
+          "source_id": "poseidon-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Iliad 15 (Murray translation), Poseidon says they are three brethren, begotten of Cronos and Rhea; when the lots were shaken he won the grey sea for his habitation, Hades the murky darkness, and Zeus the broad heaven.",
+          "statement_id": "Dalam Iliad 15 (terjemahan Murray), Poseidon berkata bahwa mereka tiga bersaudara, putra Cronos dan Rhea; ketika undian dikocok ia memperoleh laut kelabu sebagai tempat tinggalnya, Hades memperoleh kegelapan, dan Zeus memperoleh langit luas.",
+          "quote": "three brethren are we, begotten of Cronos, and born of Rhea,—Zeus, and myself, and the third is Hades ... I verily, when the lots were shaken, won for my portion the grey sea to be my habitation for ever, and Hades won the murky darkness, while Zeus won the broad heaven amid the air and the clouds",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c38",
+          "source_id": "poseidon-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Iliad 15 (Murray translation), Iris addresses Poseidon as \"O Earth-Enfolder, thou dark-haired god\".",
+          "statement_id": "Dalam Iliad 15 (terjemahan Murray), Iris menyapa Poseidon sebagai \"Pemeluk Bumi, dewa berambut gelap\".",
+          "quote": "Is it thus in good sooth, O Earth-Enfolder, thou dark-haired god, that I am to bear to Zeus this message, unyielding and harsh",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c39",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the origins of the name \"Poseidon\" are unclear and the possible etymologies are contradictive among the scholars.",
+          "statement_id": "Menurut Wikipedia, asal-usul nama \"Poseidon\" tidak jelas dan etimologi yang mungkin saling bertentangan di kalangan sarjana.",
+          "quote": "The origins of the name \"Poseidon\" are unclear and the possible etymologies are contradictive among the scholars.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c40",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, one theory breaks the name down into an element meaning \"husband\" or \"lord\".",
+          "statement_id": "Menurut Wikipedia, satu teori memecah nama itu menjadi unsur yang berarti \"suami\" atau \"tuan\".",
+          "quote": "One theory breaks it down into an element meaning \"husband\" or \"lord\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c41",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, another theory would make Poseidon the master of waters.",
+          "statement_id": "Menurut Wikipedia, teori lain akan menjadikan Poseidon penguasa perairan.",
+          "quote": "This would make *Posei-dawōn into the master of waters.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c42",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in pre-Olympian Bronze Age Greece Poseidon was venerated as a chief deity at Pylos and Thebes, with the cult title \"earth shaker\".",
+          "statement_id": "Menurut Wikipedia, pada Yunani Zaman Perunggu pra-Olimpus, Poseidon dipuja sebagai dewa utama di Pylos dan Thebes dengan gelar kultus \"penggoyang bumi\".",
+          "quote": "In pre-Olympian Bronze Age Greece, Poseidon was venerated as a chief deity at Pylos and Thebes, with the cult title \"earth shaker\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c43",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in his benign aspect Poseidon was seen as creating new islands and offering calm seas; when offended or ignored, he supposedly struck the ground with his trident and caused chaotic springs, earthquakes, drownings and shipwrecks.",
+          "statement_id": "Menurut Wikipedia, dalam sisi ramahnya Poseidon dipandang menciptakan pulau baru dan memberi laut tenang; ketika tersinggung atau diabaikan, ia konon menghantam tanah dengan trisulanya dan menimbulkan mata air kacau, gempa, kecelakaan tenggelam, dan karamnya kapal.",
+          "quote": "In his benign aspect, Poseidon was seen as creating new islands and offering calm seas. When offended or ignored, he supposedly struck the ground with his trident and caused chaotic springs, earthquakes, drownings and shipwrecks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c44",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Plato's Timaeus and Critias the legendary island of Atlantis was Poseidon's domain.",
+          "statement_id": "Menurut Wikipedia, dalam Timaeus dan Critias karya Plato, pulau legendaris Atlantis adalah wilayah kekuasaan Poseidon.",
+          "quote": "In Plato's Timaeus and Critias, the legendary island of Atlantis was Poseidon's domain.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c45",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Poseidon is still worshipped today in modern Hellenic religion, among other Greek gods.",
+          "statement_id": "Menurut Wikipedia, Poseidon masih dipuja hingga kini dalam agama Helenik modern, bersama dewa-dewa Yunani lainnya.",
+          "quote": "Poseidon is still worshipped today in modern Hellenic religion, among other Greek gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c46",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Homeric Hymn to Poseidon addresses him as \"mover of the earth and barren sea, god of the deep who is also lord of Mount Helicon and wide Aegae\", and specifies his twofold nature: \"a tamer of horses and a saviour of ships\".",
+          "statement_id": "Menurut Wikipedia, Himne Homerik untuk Poseidon menyapanya sebagai \"penggerak bumi dan laut mandul, dewa samudra yang juga penguasa Gunung Helicon dan Aegae yang luas\", dan menyebut sifat gandanya: \"penjinak kuda dan penyelamat kapal\".",
+          "quote": "A hymn to Poseidon included among the Homeric Hymns is a brief invocation, a seven-line introduction that addresses the god as both \"mover of the earth and barren sea, god of the deep who is also lord of Mount Helicon and wide Aegae\", and specifies his twofold nature as an Olympian: \"a tamer of horses and a saviour of ships\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c47",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Poseidon appears in the Percy Jackson & the Olympians novel series, where he is the father of the titular protagonist Percy Jackson.",
+          "statement_id": "Menurut Wikipedia, Poseidon muncul dalam seri novel Percy Jackson & the Olympians, di mana ia adalah ayah tokoh utamanya, Percy Jackson.",
+          "quote": "Poseidon appears in the Percy Jackson & the Olympians novel series, where he is the father of the titular protagonist Percy Jackson.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c48",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Poseidon appeared in the 1963 film Jason and the Argonauts.",
+          "statement_id": "Menurut Wikipedia, Poseidon muncul dalam film Jason and the Argonauts tahun 1963.",
+          "quote": "Poseidon appeared in the 1963 film Jason and the Argonauts.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c49",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Hesiod's Theogony Poseidon \"lay down in a soft meadow among spring flowers\" with the Gorgon Medusa, and two offspring, the winged horse Pegasus and the warrior Chrysaor, were born when the hero Perseus cut off Medusa's head.",
+          "statement_id": "Menurut Wikipedia, dalam Theogony karya Hesiodos, Poseidon \"berbaring di padang rumput lembut di antara bunga musim semi\" bersama Gorgon Medusa, dan dua keturunan, kuda bersayap Pegasus dan prajurit Chrysaor, lahir ketika pahlawan Perseus memenggal kepala Medusa.",
+          "quote": "According to Hesiod's Theogony, Poseidon \"lay down in a soft meadow among spring flowers\" with the Gorgon Medusa and two offspring, the winged horse Pegasus and the warrior Chrysaor, were born when the hero Perseus cut off Medusa's head",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c50",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, mariners and fishermen everywhere made votive offerings to Poseidon for protection.",
+          "statement_id": "Menurut World History Encyclopedia, para pelaut dan nelayan di mana-mana memberi persembahan nazar kepada Poseidon demi perlindungan.",
+          "quote": "mariners and fishermen everywhere made votive offerings to Poseidon for protection",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
