@@ -1,0 +1,107 @@
+{
+  "worker": "worker-0",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "kuu",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Kuu, the ancestor's son who became a white swan and flew away: one white swan launches away over the Altai river, dominating foreground, as an older shaman father and three remaining adult sons on shore reach farewell hands toward their departing transformed family member. Their grief and recognition make a narrative of kinship, not a wildlife portrait. Swan anatomy stays natural; simple covered steppe clothes are editorial. No half-human hybrid or supernatural beams. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-d0a57c06-4af1-4b5d-bd12-94132fba9963.png",
+  "depicted_variant": "Kuu, the ancestor's son who became a white swan and flew away: one white swan launches away over the Altai river, dominating foreground, as an older shaman father and three remaining adult sons on shore reach farewell hands toward their departing transformed family member. Their grief and recognition make a narrative of kinship, not a wildlife portrait. Swan anatomy stays natural; simple covered steppe clothes are editorial. No half-human hybrid or supernatural beams.",
+  "basis_claim_ids": [
+    "kuu-c01",
+    "kuu-c03",
+    "kuu-c04",
+    "kuu-c13"
+  ],
+  "visual_requirements": [
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
+  ],
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: White swan departing Altai river with father and three remaining sons visibly reaching farewell; coherent bird and people, natural light.",
+    "native_sha256": "d984f9e71551cc4eaa90df0126274cd58b5fe9222929aacfb850784939d11089"
+  },
+  "artistic_choices": [
+    "Beak colour and feather detail are naturalistic editorial rendering; apparent large scale comes from foreground perspective."
+  ],
+  "reviewed_at": "2026-10-05T14:55:53.451Z",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kuu-mythic-presence.png",
+  "native_sha256": "d984f9e71551cc4eaa90df0126274cd58b5fe9222929aacfb850784939d11089",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "d984f9e71551cc4eaa90df0126274cd58b5fe9222929aacfb850784939d11089",
+    "notes": "Inspected native: coherent white swan flies away from an older father and three sons reaching farewell hands on a riverbank. The family transformation episode is clear; natural swan anatomy and light, no arbitrary glow.",
+    "reviewed_at": "2026-10-05T18:08:04.022349+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-0",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "kuu",
+      "prompt": "Use case: scientific-educational. One square premium painterly naturalistic illustration for Mythics entry Kuu, sacred white swan of Kyrgyz and Turkic ancestral belief. Choose the documented white-swan form taken by the ancestor's son and flying away. Show exactly one WHITE SWAN in dignified soaring flight just above a remote Altai river, wings fully opened, one long gracefully curved neck, one head, white feathered bird body and two tucked webbed bird feet. Monumental foreground bird silhouette fills much of composition through perspective, not a claim of gigantic size. River and mountains far below express the documented Altai homeland context. Sacred protector's calm watchful presence through proud natural flight and vast solemn mountain landscape, subtle realistic morning light and painterly oil texture. Beak shape/colour, exact feathers, lighting and mountain arrangement are editorial swan rendering; no invented human face, crown, extra heads, celestial symbols, magic anatomy or human-swan hybrid. No aura, glowing outline, energy ribbons, luminous mist, beams, text, border or watermark. Preserve source swan form; ordinary-animal presentation revision is deferred.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-b29588e5-e93f-45f6-ba50-46a5c8a3d49b.png",
+      "depicted_variant": "Ancestral white swan flying away over the Altai river landscape",
+      "basis_claim_ids": [
+        "kuu-c01",
+        "kuu-c04",
+        "kuu-c05"
+      ],
+      "visual_requirements": [
+        "One white swan with one head and long neck",
+        "Two wings and two tucked webbed bird feet",
+        "Natural flight over river and mountains; no human-swan hybrid"
+      ],
+      "aura": "Sacred presence through dignified flight, foreground perspective and solemn natural landscape.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Viewed native: one white swan in flight with one head, long neck, two feathered wings and two tucked black webbed feet. Altai-like river and mountains below, natural morning light; no human hybrid, crown or glow."
+      },
+      "artistic_choices": [
+        "Beak colour and feather detail are naturalistic editorial rendering; apparent large scale comes from foreground perspective."
+      ],
+      "reviewed_at": "2026-10-05T14:55:53.451Z",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kuu.png",
+      "native_sha256": "596e56cdac2db3a55cf8c907d3135bf73e0d888715ea2aed1724e926e739ba20",
+      "review_path": "data/gemini/reviews/batch-139.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "596e56cdac2db3a55cf8c907d3135bf73e0d888715ea2aed1724e926e739ba20",
+        "notes": "Viewed native: one white swan in flight, one long-necked head, two wings and two tucked black webbed feet above mountain river. c04 ancestral swan manifestation, no human-animal blend; apparent size is foreground perspective, no emitted glow. Presentation revision remains deferred."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/kuu.json",
+    "native_sha256": "d984f9e71551cc4eaa90df0126274cd58b5fe9222929aacfb850784939d11089",
+    "old_url": "/assets/art/kuu-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kuu.png",
+    "old_webp_sha256": "22f00234cb9e19378e315299ced2f772e6ef559b5bea8b2326caf51de643b9ff",
+    "old_native_sha256": "596e56cdac2db3a55cf8c907d3135bf73e0d888715ea2aed1724e926e739ba20",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "kuu-c01",
+      "kuu-c03",
+      "kuu-c04",
+      "kuu-c13"
+    ]
+  },
+  "url": "/assets/art/kuu-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "42dcec0492298d79c0fcb94b209718cd211be10f5f7be0fb7675f2d47be35fa4",
+  "revision_generator": "assess_changes",
+  "artistic_changes": [
+    "Painterly composition",
+    "Clothes, exact colors and scenery details editorial"
+  ]
+}

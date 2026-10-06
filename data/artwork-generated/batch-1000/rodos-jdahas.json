@@ -1,0 +1,40 @@
+{
+  "slug": "rodos-jdahas",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic medieval mythology illustration of the Dragon of Rhodes, selecting Bosio's documented account. Render a close three-quarter HEAD AND UPPER NECK portrait of this threatening animal: SERPENT'S HEAD with TWO LONG MULE EARS, both ears covered in tough small scales, very hard scaly skin, and sharp pointed teeth glimpsed through a partly open mouth. The body is the size of a medium horse, NOT a colossal mountain dragon. Frame the head and neck low above Mediterranean rocky ground, with tiny wildflowers and scrub at natural proportions, distant Rhodes hills and blue sea under overcast sunset. Crop the rest of the animal beyond the lower frame so unspecified limbs, body architecture and tail are not invented. Two mule-shaped upright ears should be obvious, no horns. Anatomically clear snake face with slit nostrils, reptilian eyes and fine scales, lean neck; fierce alert expression and dark natural shadows provide horror presence. Muted olive-brown scales are editorial palette. No wings, antlers, crown, fire breath, luminous eyes, supernatural glowing envelope, neon outline, coloured magic mist, energy ribbons, gore, humans, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/rodos-jdahas.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-02cd6571-3c85-4e92-b85b-da6c4b9fabef.png",
+  "depicted_variant": "Bosio's medium-horse-size Rhodes dragon, portrait of documented serpent head and scaled mule ears",
+  "basis_claim_ids": [
+    "rodos-jdahas-c01",
+    "rodos-jdahas-c03",
+    "rodos-jdahas-c07"
+  ],
+  "visual_requirements": [
+    "Scaled reptilian serpent head and two long mule-shaped ears",
+    "Hard scales and visibly sharp teeth",
+    "Close head/neck portrait leaves undescribed limbs and tail outside frame",
+    "No inflated gigantic scale"
+  ],
+  "aura": "Threatening alert expression, dark scales and naturally lit rocky Mediterranean dusk",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native PNG: scaled reptilian head with slit pupil, two long scaled mule-shaped ears and sharp teeth. Portrait framing avoids unspecified limbs/wings, landscape has normal shrub-scale context. No fire, neon or supernatural luminous envelope."
+  },
+  "reviewed_at": "2026-10-05T11:05:14.865Z",
+  "artistic_choices": [
+    "Olive-brown scale colours and Mediterranean sunset are editorial staging; neck portrait avoids resolving undescribed body architecture."
+  ],
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "native_sha256": "5f38a87506f519e2d48584801849ffa02e55f608c2e7f96f935a7f9d914a2cf2",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "5f38a87506f519e2d48584801849ffa02e55f608c2e7f96f935a7f9d914a2cf2",
+    "notes": "Independent inspection: reptilian scaled head and neck, two conspicuous mule-like scaled ears, sharp teeth and no invented visible limbs. Tight portrait avoids unsupported body detail and giant-scale assertion; natural Rhodes-like coastal light with no aura effects."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "worker": "worker-0",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "coulobre",
+  "prompt": "Use case: scientific-educational. Asset: one square premium painterly naturalistic editorial illustration for Mythics entry Coulobre. Subject: one female winged spring dragon, the documented Coulobre of Fontaine-de-Vaucluse, a drac with one coherent reptilian dragon body, one head, a long tail and two wings, no invented horns or magical anatomy. She guards the rocky source of the Sorgue near a deep clear pool; two tiny black salamanders with gold spots remain beside the rocks, her documented young. Clearly distinguish the dragon mother from the salamanders. Water spring and wings are source traits; precise scales, earthy colour, limb design and composition are editorial rendering, not claims of an exact traditional anatomy. Low viewpoint, intimidating watchful presence through posture and scale, textured oil-paint realism, natural cloudy daylight across limestone and water. No fire breath, glowing eyes, generic magical aura, neon outlines, energy ribbons, luminous mist, text, border or watermark. One individual dragon only, not a composite species montage.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-eaddbf17-2892-44fb-bcb4-8052710ec4d5.png",
+  "depicted_variant": "Winged female spring dragon with black, gold-spotted salamander offspring",
+  "basis_claim_ids": [
+    "coulobre-c01",
+    "coulobre-c03",
+    "coulobre-c07"
+  ],
+  "visual_requirements": [
+    "One winged reptilian dragon with one head and tail",
+    "Two black, gold-spotted salamanders beside spring rocks",
+    "Source of the Sorgue setting; no fire breath or generic aura"
+  ],
+  "aura": "Watchful presence through framing, scale, posture and natural cloudy daylight.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "inspect_workspace",
+    "notes": "Viewed native: one large winged dragon with one coherent scaled body and two wings rests at a limestone spring. Two small black salamanders show clear gold spots; natural daylight, no luminous effects or fire. Small ridged scales are editorial surface detail, not additional source claims."
+  },
+  "artistic_choices": [
+    "Earthy scales, exact dragon limb geometry, small ridged scales and composition are editorial rendering; source establishes a winged dragon, not those precise details."
+  ],
+  "reviewed_at": "2026-10-05T14:52:37.761Z",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/coulobre.png",
+  "native_sha256": "baa0495fa11df7f5ef8387c014467418846307aeca9b1071bf3a01fdb9dc1fe0",
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "baa0495fa11df7f5ef8387c014467418846307aeca9b1071bf3a01fdb9dc1fe0",
+    "notes": "Viewed native: one winged scaled female dragon with one head and tail at rocky spring, two black gold-spotted salamanders at foreground. c01/c03/c07, natural light and no fire breath or luminous aura."
+  }
+}

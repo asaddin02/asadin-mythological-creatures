@@ -1,36 +1,36 @@
 {
   "slug": "lavellan",
   "basis_claim_ids": [
-    "lavellan-c01",
-    "lavellan-c02",
     "lavellan-c03",
-    "lavellan-c05",
-    "lavellan-c07"
+    "lavellan-c04",
+    "lavellan-c06"
   ],
-  "depicted_variant": "Water shrew-like creature with weasel-like head",
+  "depicted_variant": "Small water-dwelling weasel-like creature harming distant cattle",
   "visual_requirements": [
-    "Remove green magical body envelope, swirling ribbons, motes, green reflected ground light and neon luminous breath. Source supports harmful breath; if visible show ONLY a small subdued neutral nonluminous exhalation near muzzle, no huge green cloud. Preserve same small water-shrew mammal, weasel-like head/colour, four paws, single tail, alert pose, wet fur, mossy rock and Scottish water setting.",
-    "No generic emitted wrapping; preserve original anatomy and counts"
+    "Small water-dwelling weasel-like creature harming distant cattle",
+    "Coherent anatomy and documented mythic scene"
   ],
-  "aura": "Alert small mammal at dark waterside with restrained nonluminous breath.",
-  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove green magical body envelope, swirling ribbons, motes, green reflected ground light and neon luminous breath. Source supports harmful breath; if visible show ONLY a small subdued neutral nonluminous exhalation near muzzle, no huge green cloud. Preserve same small water-shrew mammal, weasel-like head/colour, four paws, single tail, alert pose, wet fur, mossy rock and Scottish water setting. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. Show Lavellan as a SMALL weasel-headed brown weasel-like aquatic creature at the edge of a Scottish freshwater stream in foreground, coherent four tiny legs. Farther away on the same landscape about FORTY YARDS distant, two adult cows appear mysteriously weakened, one lying down while a concerned adult farmer tends them. Convey the documented long-distance harmful breath/power through this physical causal scene. The small creature only has a faint natural cold exhalation near its nose, NO poison cloud, colored magical fog, luminous breath, huge size or monstrous invented horns. Clear distance and ordinary scale. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
   "worker": "worker-2",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-120.review.json",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lavellan-presence-v2.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-7ecb994b-976e-4af0-b4e4-8e455aa23708.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lavellan-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-7ff567e6-b4d3-4318-b9c7-79f5f6032fe1.png",
   "reviewed_at": "2026-10-05",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Native edited output actually inspected: same small shrew mammal, four paws, one tail, weasel head and waterside; green envelope gone, small gray nonluminous muzzle exhalation retained.",
-    "reviewer": "aura-resume-1"
+    "reviewer": "recover_session",
+    "notes": "Small weasel-like aquatic animal with restrained physical breath, distant weakened cattle and attending farmer; source distance-harm scene and natural scale.",
+    "native_sha256": "4dc41eed199d5c4746a1714470ffae06514ca808f9c10f13028e143988ee4504"
   },
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected edit: small wet weasel-headed rodent-like water creature on rock, natural dark eye. Tiny neutral muzzle breath relates to harmful breath, no green luminous wrap."
+    "notes": "Small weasel-like aquatic creature exhales faint breath while distant cattle weaken under farmer's care; sourced harm-at-distance episode.",
+    "native_sha256": "4dc41eed199d5c4746a1714470ffae06514ca808f9c10f13028e143988ee4504",
+    "reviewed_at": "2026-10-05T18:56:00.102197+00:00"
   },
   "attempt_history": [
     {
@@ -73,9 +73,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-c10cb229-5041-4176-b2ec-2befe5adba74.png",
-  "revision_generator": "aura-resume-1",
+  "revision_generator": "recover_session",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -91,5 +92,122 @@
     ],
     "review_path": "data/artwork-generated/aura-revision-797/reviews/lavellan.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lavellan.json"
-  }
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "lavellan",
+      "basis_claim_ids": [
+        "lavellan-c01",
+        "lavellan-c02",
+        "lavellan-c03",
+        "lavellan-c05",
+        "lavellan-c07"
+      ],
+      "depicted_variant": "Water shrew-like creature with weasel-like head",
+      "visual_requirements": [
+        "Remove green magical body envelope, swirling ribbons, motes, green reflected ground light and neon luminous breath. Source supports harmful breath; if visible show ONLY a small subdued neutral nonluminous exhalation near muzzle, no huge green cloud. Preserve same small water-shrew mammal, weasel-like head/colour, four paws, single tail, alert pose, wet fur, mossy rock and Scottish water setting.",
+        "No generic emitted wrapping; preserve original anatomy and counts"
+      ],
+      "aura": "Alert small mammal at dark waterside with restrained nonluminous breath.",
+      "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove green magical body envelope, swirling ribbons, motes, green reflected ground light and neon luminous breath. Source supports harmful breath; if visible show ONLY a small subdued neutral nonluminous exhalation near muzzle, no huge green cloud. Preserve same small water-shrew mammal, weasel-like head/colour, four paws, single tail, alert pose, wet fur, mossy rock and Scottish water setting. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lavellan-presence-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-7ecb994b-976e-4af0-b4e4-8e455aa23708.png",
+      "reviewed_at": "2026-10-05",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Native edited output actually inspected: same small shrew mammal, four paws, one tail, weasel head and waterside; green envelope gone, small gray nonluminous muzzle exhalation retained.",
+        "reviewer": "aura-resume-1"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected edit: small wet weasel-headed rodent-like water creature on rock, natural dark eye. Tiny neutral muzzle breath relates to harmful breath, no green luminous wrap."
+      },
+      "attempt_history": [
+        {
+          "slug": "lavellan",
+          "basis_claim_ids": [
+            "lavellan-c01",
+            "lavellan-c02",
+            "lavellan-c03",
+            "lavellan-c05",
+            "lavellan-c07"
+          ],
+          "depicted_variant": "Water shrew-like creature with weasel-like head",
+          "visual_requirements": [
+            "Small mammalian water-shrew body",
+            "Weasel-like head and colouring",
+            "Four paws, tail",
+            "Water setting"
+          ],
+          "aura": "Luminous green supernatural breath and wisps",
+          "prompt": "Depict the Lavellan of northern Scottish folklore in the documented water-shrew interpretation: a SMALL rodentlike aquatic mammal with a slender weasel-like head and brown weasel-like colouring, four tiny paws, fine wet fur and one tail. Show it full-body on a mossy stone at the edge of dark Scottish water, close enough for fine facial detail, scale conveyed by ordinary nearby grasses. No lizard scales, giant size, horns, wings, extra legs or exaggerated tusks. Its mythologically harmful BREATH visibly leaves the muzzle as eerie luminous green vapor, accompanied by glowing supernatural green wisps radiating around its little body. Menacing dark bog atmosphere, no poisoned animals. Square premium detailed painterly mythological encyclopedia illustration, entire identifying body within frame, coherent anatomy, no text, captions, borders, watermark, gore or victims. Aura must visibly emanate from creature.",
+          "worker": "worker-2",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-120.review.json",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lavellan.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-7ecb994b-976e-4af0-b4e4-8e455aa23708.png",
+          "reviewed_at": "2026-10-05T04:01:08.810Z",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Reviewed: small wet-furred shrew/weasel-like mammal at water, coherent four-pawed body and one tail, glowing green breath plus emitted magical wisps. Scale supported by surrounding grasses."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: Small four-legged mammal with weasel-like face/colour, one tail near water, emitted green aura.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/lavellan-verified.webp",
+          "sha256": "5bbb0af79ced87d2014d7be0b6ccac0d64d766ac13d2dfa3c4f3b912fcb8241d",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-c10cb229-5041-4176-b2ec-2befe5adba74.png",
+      "revision_generator": "aura-resume-1",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "aura-resume-1",
+        "rationale": "Harmful breath supports restrained breath cue, not glowing green envelope.",
+        "allowed_magic": "Source harmful breath shown by small gray nonluminous exhalation",
+        "source_basis_claim_ids": [
+          "lavellan-c01",
+          "lavellan-c02",
+          "lavellan-c03",
+          "lavellan-c05",
+          "lavellan-c07"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/lavellan.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lavellan.json"
+      }
+    }
+  ],
+  "native_sha256": "4dc41eed199d5c4746a1714470ffae06514ca808f9c10f13028e143988ee4504",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/lavellan.json",
+    "native_sha256": "4dc41eed199d5c4746a1714470ffae06514ca808f9c10f13028e143988ee4504",
+    "old_url": "/assets/art/lavellan-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lavellan-presence-v2.png",
+    "old_webp_sha256": "a17cccc89070524a39631bb39c3c71ff75dac5f146513da34076ab53b434a453",
+    "old_native_sha256": "3a8bcd773ee83d6cfc1116d67c2a56b16a611f6b4b63239b71bf4cbe0bc3c9ef",
+    "rationale": "Replaces ordinary animal presentation with Small water-dwelling weasel-like creature harming distant cattle",
+    "basis_claim_ids": [
+      "lavellan-c03",
+      "lavellan-c04",
+      "lavellan-c06"
+    ]
+  },
+  "url": "/assets/art/lavellan-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "65356bc65d37f867a9057cc759e72d319a05b7cea893356ff85f476eb7b4408b"
 }

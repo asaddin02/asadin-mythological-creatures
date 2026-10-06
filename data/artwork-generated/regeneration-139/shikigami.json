@@ -1,24 +1,20 @@
 {
   "slug": "shikigami",
   "worker": "regen-3",
-  "prompt": "Square premium painterly mythology encyclopedia illustration of ONE SHIKIGAMI in the source-documented small ANIMAL familiar form of Japanese Onmyodo. Choose one small walnut-brown RAT as a generic animal exemplar, not claiming every shikigami is a rat. Fully natural rodent body: one rat head with long muzzle and whiskers, two rounded ears, two eyes, FOUR legs ending in four little paws, and ONE long thin curling rat tail. Entire body and tail clearly framed. It sits alert and obedient beside blank folded paper ritual tokens and a small unmarked circular wooden divination board on an antique walnut desk in a quiet Japanese ritual alcove; no visible person or conjurer. Forest-green shadows, soft antique-gold lamplight, tiny reflective eye, rich fur and paper textures, refined brushwork and mature historical myth illustration. Mysterious familiar aura communicated by focused gaze and ritual setting, no invented glowing symbols or body mutation. No human face, arms or torso, no clothing, collar, horns, wings, extra limbs, decorative characters, writing, text, border or watermark. This animal is the shikigami itself, not a pet accompanying a depicted human.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/shikigami.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. A YOUNG ADULT HUMAN MALE SHIKIGAMI attendant stands dutifully beside an older ADULT ONMYOJI conducting divination over a plain round SHIKIBAN wooden board in an ancient Japanese room. Young attendant central, humanface,2arms/2legs in opaque plain pale robe, holding a blank paper token. Older practitioner seated with focused gesture toward board. Physical lamplight, no rodent/animal features, no emitted magic, no written symbols. Documented youngman form and invoked divination familiar, clothing editorial. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/shikigami-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-049.review.json",
-  "depicted_variant": "Small animal-form Onmyodo familiar; generic rat-form exemplar",
+  "depicted_variant": "Young-man familiar attending Onmyoji divination",
   "visual_requirements": [
-    "One small fully animal-bodied familiar",
-    "One rat head, four legs/paws, one long tail",
-    "Quiet ritual workspace with blank paper tokens and divination board",
-    "Alert obedient mysterious familiar aura"
+    "Young-man familiar attending Onmyoji divination",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
-    "shikigami-c01",
     "shikigami-c03",
     "shikigami-c04",
-    "shikigami-c06",
-    "shikigami-c07"
+    "shikigami-c06"
   ],
-  "aura": "Alert mysterious obedient divination familiar",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "additional_sources": [
     {
       "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9714",
@@ -27,24 +23,135 @@
     }
   ],
   "nonhuman_features": [
-    "Fully rodent form with muzzle, four paws and tail"
+    "Young-man familiar attending Onmyoji divination",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Kokugakuin University entry explicitly says legend collections describe shikigami as small animals and associates them with shikiban divination and paper tokens. Species is unspecified; rat chosen as generic small-animal exemplar.",
+  "historical_basis": [
+    {
+      "id": "shikigami-c03",
+      "source_id": "shikigami-s1",
+      "quote": "they are described as appearing variously as children (or young men), small animals, and demons, while in many other cases they do not reveal their form at all.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah shikigami dapat tampil sebagai anak, lelaki muda, hewan kecil, setan, atau tak terlihat.",
+        "en": "Stories give shikigami the forms of children, young men, small animals, demons, or no visible form."
+      }
+    },
+    {
+      "id": "shikigami-c04",
+      "source_id": "shikigami-s1",
+      "quote": "Konjaku monogatari relates that all Onmyōji adepts possess shikigami, invoke them when performing magic and divinations, and otherwise make them respond to their everyday commands.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Konjaku monogatari menyebut onmyōji memakai shikigami untuk sihir, ramalan, dan tugas harian.",
+        "en": "Konjaku monogatari says onmyōji summon shikigami for magic, divination, and daily commands."
+      }
+    },
+    {
+      "id": "shikigami-c06",
+      "source_id": "shikigami-s1",
+      "quote": "found on the circular cosmographic divination board (shikiban; Ch. shipan) used in the methods of divination called rikujin shikisen",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dewa pelindung itu terdapat pada papan ramalan shikiban.",
+        "en": "Those tutelary deities appear on a shikiban divination board."
+      }
+    }
+  ],
   "artistic_changes": [
     "Rat species selection within unspecified small-animal category, fur colour and composition are aesthetic; no claim that all shikigami are rats."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image. One fully rodent familiar: one muzzled head with rounded ears and whiskers, four visible paws and one long continuous curling tail. Body and tail tip fit frame; no human anatomy or costume. Blank folded paper tokens and plain circular wooden board match Onmyodo associations without writing. Alert focused gaze in warm ritual lamplight preserves mysterious dutiful familiar aura. Rat is an artistic small-animal exemplar within the source's unspecified animal-form category."
+    "reviewer": "recover_session",
+    "notes": "Human young male familiar attending divination practitioner, no rat form or unsourced magic.",
+    "native_sha256": "b33a9006b4a1650aee1762f7ddd028bb452bf0bb8189ea82d378f4e4d44344ff"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T14:49:28.995Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Viewed full original independently: one complete natural rat with muzzle, ears, four paws and one continuous tail; no human silhouette. The generic small-animal exemplar is explicitly documented as species-unspecified interpretation; blank paper tokens and a plain circular board support the duty-familiar context without false written text.",
-    "reviewed_at": "2026-10-04T22:00:29.111228+07:00"
-  }
+    "reviewer": "root",
+    "notes": "Young-man familiar assists onmyoji with divination task; human form source-supported and coherent anatomy.",
+    "native_sha256": "b33a9006b4a1650aee1762f7ddd028bb452bf0bb8189ea82d378f4e4d44344ff",
+    "reviewed_at": "2026-10-05T18:52:04.160037+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "shikigami",
+      "worker": "regen-3",
+      "prompt": "Square premium painterly mythology encyclopedia illustration of ONE SHIKIGAMI in the source-documented small ANIMAL familiar form of Japanese Onmyodo. Choose one small walnut-brown RAT as a generic animal exemplar, not claiming every shikigami is a rat. Fully natural rodent body: one rat head with long muzzle and whiskers, two rounded ears, two eyes, FOUR legs ending in four little paws, and ONE long thin curling rat tail. Entire body and tail clearly framed. It sits alert and obedient beside blank folded paper ritual tokens and a small unmarked circular wooden divination board on an antique walnut desk in a quiet Japanese ritual alcove; no visible person or conjurer. Forest-green shadows, soft antique-gold lamplight, tiny reflective eye, rich fur and paper textures, refined brushwork and mature historical myth illustration. Mysterious familiar aura communicated by focused gaze and ritual setting, no invented glowing symbols or body mutation. No human face, arms or torso, no clothing, collar, horns, wings, extra limbs, decorative characters, writing, text, border or watermark. This animal is the shikigami itself, not a pet accompanying a depicted human.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/shikigami.png",
+      "review_path": "data/gemini/reviews/batch-049.review.json",
+      "depicted_variant": "Small animal-form Onmyodo familiar; generic rat-form exemplar",
+      "visual_requirements": [
+        "One small fully animal-bodied familiar",
+        "One rat head, four legs/paws, one long tail",
+        "Quiet ritual workspace with blank paper tokens and divination board",
+        "Alert obedient mysterious familiar aura"
+      ],
+      "basis_claim_ids": [
+        "shikigami-c01",
+        "shikigami-c03",
+        "shikigami-c04",
+        "shikigami-c06",
+        "shikigami-c07"
+      ],
+      "aura": "Alert mysterious obedient divination familiar",
+      "additional_sources": [
+        {
+          "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9714",
+          "title": "Kokugakuin University — Encyclopedia of Shinto, Shikigami",
+          "evidence": "University article documents small-animal forms in Konjaku/Ujishui legends and paper token/divination associations."
+        }
+      ],
+      "nonhuman_features": [
+        "Fully rodent form with muzzle, four paws and tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Kokugakuin University entry explicitly says legend collections describe shikigami as small animals and associates them with shikiban divination and paper tokens. Species is unspecified; rat chosen as generic small-animal exemplar.",
+      "artistic_changes": [
+        "Rat species selection within unspecified small-animal category, fur colour and composition are aesthetic; no claim that all shikigami are rats."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image. One fully rodent familiar: one muzzled head with rounded ears and whiskers, four visible paws and one long continuous curling tail. Body and tail tip fit frame; no human anatomy or costume. Blank folded paper tokens and plain circular wooden board match Onmyodo associations without writing. Alert focused gaze in warm ritual lamplight preserves mysterious dutiful familiar aura. Rat is an artistic small-animal exemplar within the source's unspecified animal-form category."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T14:49:28.995Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Viewed full original independently: one complete natural rat with muzzle, ears, four paws and one continuous tail; no human silhouette. The generic small-animal exemplar is explicitly documented as species-unspecified interpretation; blank paper tokens and a plain circular board support the duty-familiar context without false written text.",
+        "reviewed_at": "2026-10-04T22:00:29.111228+07:00"
+      }
+    }
+  ],
+  "native_sha256": "b33a9006b4a1650aee1762f7ddd028bb452bf0bb8189ea82d378f4e4d44344ff",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/shikigami.json",
+    "native_sha256": "b33a9006b4a1650aee1762f7ddd028bb452bf0bb8189ea82d378f4e4d44344ff",
+    "old_url": "/assets/art/shikigami-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/shikigami.png",
+    "old_webp_sha256": "c0f45df39ee19d78ce9d66a9998fd22ca040d7119a5b8471c26f7017f62adac3",
+    "old_native_sha256": "a9c02f920d1ce9915a1e5d9b65ccc879cf67a6cf572d802446571cb8570bca57",
+    "rationale": "Replaces ordinary animal presentation with Young-man familiar attending Onmyoji divination",
+    "basis_claim_ids": [
+      "shikigami-c03",
+      "shikigami-c04",
+      "shikigami-c06"
+    ]
+  },
+  "url": "/assets/art/shikigami-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "9d650a4cc3bee650e1cfd3959e4c27a98de5045da644f37b4125e8b013619efe"
 }

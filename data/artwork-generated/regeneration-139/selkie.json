@@ -3,20 +3,19 @@
   "worker": "regen-1",
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
-  "prompt": "One square richly detailed painterly mythology field-guide illustration of ONE SELKIE in its complete SEAL animal form, never human. Full large gray seal rests on a wet rock in Scotland's Northern Isles, sleek mottled silver-brown skin, one whiskered seal head with soulful dark seal eyes, two foreflippers visible and two hindflippers at rear, continuous marine body with no human arms legs or hands. Cold coastal sea and forest-green waves, walnut shadows, muted antique-gold dawn light. Otherworldly watchful melancholy and freedom, mysterious gentle sealfolk rather than grinning pet. Detailed tactile wet skin and stone, entire body in frame. No mermaid tail, human face, clothing, magic horns, wings, accessories, multiple seals, text, labels, border or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/selkie.png",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Selkie's documented seal-skin removal and human transformation on Northern Isles shore: one adult human woman standing with shoulders wrapped in opaque woven cloth, calmly lifting the empty full seal pelt beside her; the seal face and flippers on the removed skin clearly identify the transformation. Ocean waves and remote rocky coast, narrative portrait of human selkie and discarded seal garment. Human head and hands, no hybrid seal face, modestly covered, no glow. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/selkie-mythic-presence.png",
   "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/selkie.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "Scottish Northern Isles selkie in complete seal form",
+  "depicted_variant": "Selkie's documented seal-skin removal and human transformation on Northern Isles shore: one adult human woman standing with shoulders wrapped in opaque woven cloth, calmly lifting the empty full seal pelt beside her; the seal face and flippers on the removed skin clearly identify the transformation. Ocean waves and remote rocky coast, narrative portrait of human selkie and discarded seal garment. Human head and hands, no hybrid seal face, modestly covered, no glow.",
   "visual_requirements": [
-    "Entire nonhuman seal anatomy",
-    "Two foreflippers and two hindflippers",
-    "Seal muzzle, whiskers and continuous marine body"
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
   "basis_claim_ids": [
     "selkie-c01",
-    "selkie-c03",
-    "selkie-c04"
+    "selkie-c03"
   ],
   "additional_sources": [
     {
@@ -25,24 +24,120 @@
       "purpose": "Museum publishes 1800 manuscript seal illustration and confirms seal-form selkie folk."
     }
   ],
-  "aura": "Otherworldly, watchful and melancholy maritime freedom",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected with view_image. Entire nonhuman pinniped body on coastal rock, one seal head with muzzle and whiskers, two foreflippers and paired rear flippers, no human parts. Watchful soulful eyes and cold sea setting retain melancholy mysterious sealfolk aura. Warm antique-gold light and dark marine greens; no horns, wings, text or clothing."
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Human woman covered in opaque cloth holds removed empty seal pelt with clear head/flippers; transformation shore narrative visible.",
+    "native_sha256": "8b3aaf4aa09d80096b7fdd8cb7b38b70485013c4437b064798ca8f1622d99e7e"
   },
   "nonhuman_features": [
-    "Entire nonhuman seal anatomy",
-    "Two foreflippers and two hindflippers",
-    "Seal muzzle, whiskers and continuous marine body"
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Reviewed claims describe selkie folk living as seals and shedding skin only to become human.",
+  "historical_basis": [
+    {
+      "id": "selkie-c01",
+      "source_id": "selkie-s1",
+      "quote": "Selkies are mythological creatures that can shapeshift between seal and human forms by removing or putting on their seal skin. They feature prominently in the oral traditions and mythology of various cultures, especially those of Celtic and Norse origin.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Selkie makhluk mitologi yang berubah wujud antara anjing laut (seal) dan manusia dengan melepas atau memakai kulitnya; menonjol dalam tradisi Kelt dan Nordik (Celtic, Norse).",
+        "en": "Selkies shapeshift between seal and human by removing or donning their seal skin; prominent in Celtic and Norse tradition."
+      }
+    },
+    {
+      "id": "selkie-c03",
+      "source_id": "selkie-s1",
+      "quote": "Selkies are mainly associated with the Northern Isles of Scotland, where they are said to live as seals in the sea but shed their skin to become human on land.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Selkie terutama dikaitkan dengan Northern Isles Skotlandia (Scotland), hidup sebagai anjing laut dan melepas kulit menjadi manusia di darat.",
+        "en": "Selkies are mainly tied to Scotland's Northern Isles, living as seals and shedding skin to be human on land."
+      }
+    }
+  ],
   "artistic_changes": "Artist-selected rocky coast, lighting and composition; no added anatomical traits.",
   "reviewed_at": "2026-10-04T13:37:21.259Z",
   "invented_anatomy": [],
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Independently viewed full original: entirely pinniped seal body, one head with whiskered muzzle, two clear foreflippers and rear flippers, no human body or seal-skin costume. Watchful calm shoreline composition matches source-supported sealfolk animal form.",
-    "reviewed_at": "2026-10-04T20:42:46.933192+07:00"
-  }
+    "reviewer": "root",
+    "native_sha256": "8b3aaf4aa09d80096b7fdd8cb7b38b70485013c4437b064798ca8f1622d99e7e",
+    "notes": "Inspected native: clothed human woman holds a clearly removable seal skin on a rocky Northern Isles shore, with normal human hands and feet. The supported seal-to-human change is visible without gore or arbitrary animal anatomy.",
+    "reviewed_at": "2026-10-05T18:17:51.479105+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "selkie",
+      "worker": "regen-1",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "One square richly detailed painterly mythology field-guide illustration of ONE SELKIE in its complete SEAL animal form, never human. Full large gray seal rests on a wet rock in Scotland's Northern Isles, sleek mottled silver-brown skin, one whiskered seal head with soulful dark seal eyes, two foreflippers visible and two hindflippers at rear, continuous marine body with no human arms legs or hands. Cold coastal sea and forest-green waves, walnut shadows, muted antique-gold dawn light. Otherworldly watchful melancholy and freedom, mysterious gentle sealfolk rather than grinning pet. Detailed tactile wet skin and stone, entire body in frame. No mermaid tail, human face, clothing, magic horns, wings, accessories, multiple seals, text, labels, border or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/selkie.png",
+      "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/selkie.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "Scottish Northern Isles selkie in complete seal form",
+      "visual_requirements": [
+        "Entire nonhuman seal anatomy",
+        "Two foreflippers and two hindflippers",
+        "Seal muzzle, whiskers and continuous marine body"
+      ],
+      "basis_claim_ids": [
+        "selkie-c01",
+        "selkie-c03",
+        "selkie-c04"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://blog.nms.ac.uk/2021/10/25/the-creeping-and-the-wise-how-the-metamorphosis-of-animals-in-scottish-folklore-and-fossils-became-a-recipe-for-glass/",
+          "title": "National Museums Scotland: selkie manuscript and folklore",
+          "purpose": "Museum publishes 1800 manuscript seal illustration and confirms seal-form selkie folk."
+        }
+      ],
+      "aura": "Otherworldly, watchful and melancholy maritime freedom",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected with view_image. Entire nonhuman pinniped body on coastal rock, one seal head with muzzle and whiskers, two foreflippers and paired rear flippers, no human parts. Watchful soulful eyes and cold sea setting retain melancholy mysterious sealfolk aura. Warm antique-gold light and dark marine greens; no horns, wings, text or clothing."
+      },
+      "nonhuman_features": [
+        "Entire nonhuman seal anatomy",
+        "Two foreflippers and two hindflippers",
+        "Seal muzzle, whiskers and continuous marine body"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Reviewed claims describe selkie folk living as seals and shedding skin only to become human.",
+      "artistic_changes": "Artist-selected rocky coast, lighting and composition; no added anatomical traits.",
+      "reviewed_at": "2026-10-04T13:37:21.259Z",
+      "invented_anatomy": [],
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Independently viewed full original: entirely pinniped seal body, one head with whiskered muzzle, two clear foreflippers and rear flippers, no human body or seal-skin costume. Watchful calm shoreline composition matches source-supported sealfolk animal form.",
+        "reviewed_at": "2026-10-04T20:42:46.933192+07:00"
+      }
+    }
+  ],
+  "native_sha256": "8b3aaf4aa09d80096b7fdd8cb7b38b70485013c4437b064798ca8f1622d99e7e",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/selkie.json",
+    "native_sha256": "8b3aaf4aa09d80096b7fdd8cb7b38b70485013c4437b064798ca8f1622d99e7e",
+    "old_url": "/assets/art/selkie-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/selkie.png",
+    "old_webp_sha256": "561cbc3ef761f9481573925c74db97135d771953230a6ff9c94d100ea07de771",
+    "old_native_sha256": "24f428f96d2ff23172ef7df0d1f586303f7b711251cdfd5ec11b7f04e5a99521",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "selkie-c01",
+      "selkie-c03"
+    ]
+  },
+  "url": "/assets/art/selkie-regeneration-139-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "0316003ace480adc2ba16c7b53ff6717200208f7d6a373d2f532ce32d766fdc7"
 }

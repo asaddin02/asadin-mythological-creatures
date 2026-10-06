@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "nefeles",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Greek mythology illustration of ONE adult NEPHELAI cloud-rain nymph representative selecting the documented beautiful HUMAN WOMAN holding a JUG and POURING WATER. Normal adult human anatomy, two arms/hands and two legs, one head, no cloud-body or wings. She stands on a rocky high slope beneath rain clouds, in modest opaque plain white Greek-inspired draped dress. Both hands tilt one simple clay jug, a small realistic stream of water pours downward onto rock, no water tentacles or magic energy. Beautiful serene compassionate face and poised posture, natural soft dawn light breaking through ordinary rainclouds evoke nourishing rain spirit presence. Dress cut, jug material and mountains are editorial staging. Full body and pouring water visible. No infant features, horns, fish body, wings, transparent nudity, halo, glowing body mist, neon outline, luminous ribbons, other nymphs, lettering, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/nefeles.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-eebebbd0-e302-4cac-bac5-6c754d40ae5c.png",
+  "depicted_variant": "Adult human Nephelai rain nymph pouring water from jug",
+  "basis_claim_ids": [
+    "nefeles-c01",
+    "nefeles-c02",
+    "nefeles-c03"
+  ],
+  "visual_requirements": [
+    "One adult beautiful human woman",
+    "Hands hold jug pouring water",
+    "No cloud-body or wing additions"
+  ],
+  "aura": "Character presence through documented form, expression, framing and natural light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: one normal adult woman in opaque draped dress, two hands tilting clay jug, visible realistic water stream, two human feet. Natural rain/dawn scene without magic envelope."
+  },
+  "reviewed_at": "2026-10-05T13:35:57.680Z",
+  "artistic_choices": [
+    "Dress, clay jug and high mountain scene are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "native_sha256": "f4fd4c4c74bd54eb965daf7c353bf49bbd7cb36ca91d0faaf68661eee73438e2",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "f4fd4c4c74bd54eb965daf7c353bf49bbd7cb36ca91d0faaf68661eee73438e2",
+    "notes": "Inspected one beautiful adult woman, both hands hold jug pouring clear water, clothed opaque drapery; fits c03, no cloudbody/wings."
+  }
+}

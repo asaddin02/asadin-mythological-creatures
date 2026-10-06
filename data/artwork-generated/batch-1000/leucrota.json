@@ -1,0 +1,47 @@
+{
+  "slug": "leucrota",
+  "prompt": "Edit this Leucrota illustration only in the mouth. Keep all other anatomy, pose, fur, badger head stripes, lion neck/chest/tail, cloven hooves, lighting, landscape and composition unchanged. The current individual teeth are wrong. Remove EVERY individual tooth from both upper and lower jaw. Replace them with ONE continuous smooth pale ivory bony cutting ridge along each jaw: unbroken crescent blades of bone, no tooth divisions, no tooth-like notches, no fangs. The mouth should remain open so the two continuous ridges are clearly visible. These are Pliny's ridges of bone IN PLACE OF rows of teeth. No new effects or text.",
+  "original_prompt": "Square premium naturalistic painterly encyclopedia illustration of Leucrota, specifically the leucrocotta anatomy attributed to Pliny in the accepted research, without mixing other variants. One ass-sized quadruped: stag-like lean powerful HAUNCHES and cloven hooves, LION's broad breast and strong neck and long tufted lion tail, BADGER's head with rounded badger ears and black-white facial stripes. The badger-like mouth opens far back toward the ears and contains continuous blunt ridges of pale bone instead of individual teeth: NO normal rows of teeth, NO fangs. Four hoofed limbs, no horns or antlers, no boar thighs from another variant. Full animal at three-quarter side view, mouth slightly open enough to show the smooth bone cutting ridges, eyes wide open, stiff upright neck. Quiet threatening stance on ordinary earth and rock at dusk, dry grasses show normal ass-like size, realistic fur transitions, tactile painterly detail, muted brown-gray body. No wings, giant scale, jewelry, glows, neon aura, colored magical fog, text, logos or watermark. Present as a specific historical bestiary interpretation; editorial landscape and fur palette, not a claim that conflicting historical nomenclature is resolved.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-76b3d9fd-ca43-44f2-b67b-3757604e0d97.png",
+  "depicted_variant": "Pliny's ass-sized leucrocotta: stag haunches, lion breast/neck/tail, badger head, cloven hooves and continuous bone ridges replacing teeth.",
+  "basis_claim_ids": [
+    "leucrota-c05",
+    "leucrota-c09"
+  ],
+  "visual_requirements": [
+    "Stag haunches with cloven hooves and lion neck/breast/tail",
+    "Badger head and continuous bone ridges instead of teeth",
+    "No horns, giant scale or mixing boar-haunch variant"
+  ],
+  "aura": "Uncanny presence from wide-eyed badger head, open bonelike cutting jaw, stiff neck and dusk lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-0",
+    "notes": "Viewed corrected native PNG. Badger head, lionlike shaggy neck and chest, tufted lion tail, hoofed stag-like limbs are clear. Open mouth now contains continuous pale ivory upper and lower bone ridges, with all individual teeth removed. No horns, wings, glows or energy effects. The original wrong-toothed candidate is preserved as attempt1."
+  },
+  "artistic_choices": [
+    "Dry-grass dusk landscape and brown fur palette are editorial staging.",
+    "Research c09 records historical conflation; this is one Pliny anatomical interpretation, not a resolution of Crocotta/Leucrota identity disputes."
+  ],
+  "attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1000/originals/leucrota-attempt1.png",
+      "verdict": "needs-correction",
+      "notes": "Individual rows of teeth contradicted the bone-ridge trait; corrected via built-in image_gen edit."
+    }
+  ],
+  "worker": "worker-0",
+  "status": "reviewed",
+  "tool": "OpenAI built-in image_gen",
+  "review_path": "data/gemini/reviews/batch-113.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/leucrota.png",
+  "reviewed_at": "2026-10-05T11:10:03.547493+00:00",
+  "native_sha256": "8c86d0721ccafdb64c78c2b065d5444d7f7951146d23b252fb193da205284fee",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "8c86d0721ccafdb64c78c2b065d5444d7f7951146d23b252fb193da205284fee",
+    "notes": "Independent inspection: ass-sized antelope/stag-like haunches and cloven feet, lion-like neck/breast and tufted tail, badger-striped head. Open jaws contain two continuous smooth bone ridges rather than separate teeth. No horns or giant inflation; selected Pliny variant distinct from dog-wolf Crocotta despite recorded historical conflation."
+  }
+}

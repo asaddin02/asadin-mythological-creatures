@@ -1,15 +1,17 @@
 {
   "slug": "twrch-trwyth",
   "worker": "worker-2",
-  "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One Welsh Arthurian TW RCH TRWYTH legendary mighty WILD BOAR, one natural boar head with long canine tusks, coarse dark bristling fur, stocky muscular body, four cloven-hoof legs and one short curled tail. Full majestic huge boar alone on rugged Welsh coastal heath overlooking Cornwall sea cliffs, ancient untamed wilderness, amber storm sunset. Dangerous powerful noble mythic boar aura, alert head lowered and bristles raised. Depict the documented fabulous boar animal, do not invent royal human face, humanoid body, horns, wings, golden armor, crown or arbitrary comb/scissors not attested in selected claims. No people, violence, blood or extra animals. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. The Welsh myth BOAR TWRCH TRWYTH is the central massive fierce wild boar galloping toward rough sea at Cornwall coast, pursued by ADULT KING ARTHUR on foot and his hunting hound CAVALL a few paces behind. Four boar legs, bristly coat, natural two tusks; no invented extra horns. Armor and cloak on Arthur editorial medieval setting, no sword contact or injuries. Boar approaches shallow foamy shoreline, coastline clearly readable, pursuit documents Arthur's hunt and driving boar into sea. Full silhouettes, dramatic evening ordinary light. Detailed naturalistic painting with powerful readable mythic identity, complete relevant anatomy, physical restrained light. No text, logos or borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or unsupported powers.",
   "review_path": "data/gemini/reviews/batch-116.review.json",
-  "depicted_variant": "Fabulous wild boar in Arthurian wilderness",
+  "depicted_variant": "Arthur and Cavall driving Twrch Trwyth toward Cornwall sea",
   "basis_claim_ids": [
-    "twrch-trwyth-c01"
+    "twrch-trwyth-c01",
+    "twrch-trwyth-c02"
   ],
-  "aura": "Dangerous mighty untamed legendary boar",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_requirements": [
-    "Fabulous wild boar in Arthurian wilderness"
+    "Arthur and Cavall driving Twrch Trwyth toward Cornwall sea",
+    "Coherent anatomy and documented mythic scene"
   ],
   "sources": [
     {
@@ -35,12 +37,93 @@
       "accessed": "2026-10-02"
     }
   ],
-  "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-4bf07f37-38b1-45df-9f84-7e29c6116480.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/twrch-trwyth.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed mighty coarse-bristled wild boar with two long tusks, four cloven-hoof legs and short curled tail, full natural animal silhouette on storm-lit coastal heath; dangerous majestic aura without invented humanoid traits."
+    "reviewer": "recover_session",
+    "notes": "Boar driven into foamy coastal shallows by Arthur and Cavall."
   },
-  "reviewed_at": "2026-10-04T08:51:45.815Z"
+  "reviewed_at": "2026-10-04T08:51:45.815Z",
+  "presentation_revision_history": [
+    {
+      "slug": "twrch-trwyth",
+      "worker": "worker-2",
+      "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One Welsh Arthurian TW RCH TRWYTH legendary mighty WILD BOAR, one natural boar head with long canine tusks, coarse dark bristling fur, stocky muscular body, four cloven-hoof legs and one short curled tail. Full majestic huge boar alone on rugged Welsh coastal heath overlooking Cornwall sea cliffs, ancient untamed wilderness, amber storm sunset. Dangerous powerful noble mythic boar aura, alert head lowered and bristles raised. Depict the documented fabulous boar animal, do not invent royal human face, humanoid body, horns, wings, golden armor, crown or arbitrary comb/scissors not attested in selected claims. No people, violence, blood or extra animals. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "depicted_variant": "Fabulous wild boar in Arthurian wilderness",
+      "basis_claim_ids": [
+        "twrch-trwyth-c01"
+      ],
+      "aura": "Dangerous mighty untamed legendary boar",
+      "visual_requirements": [
+        "Fabulous wild boar in Arthurian wilderness"
+      ],
+      "sources": [
+        {
+          "id": "twrch-trwyth-s1",
+          "url": "https://en.wikipedia.org/wiki/Twrch_Trwyth",
+          "title": "Twrch Trwyth",
+          "author": null,
+          "publisher": "Wikipedia (en)",
+          "published": null,
+          "language": "en",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        },
+        {
+          "id": "twrch-trwyth-s2",
+          "url": "https://de.wikipedia.org/wiki/Twrch_Trwyth",
+          "title": "Twrch Trwyth",
+          "author": null,
+          "publisher": "Wikipedia (de)",
+          "published": null,
+          "language": "de",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        }
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-4bf07f37-38b1-45df-9f84-7e29c6116480.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed mighty coarse-bristled wild boar with two long tusks, four cloven-hoof legs and short curled tail, full natural animal silhouette on storm-lit coastal heath; dangerous majestic aura without invented humanoid traits."
+      },
+      "reviewed_at": "2026-10-04T08:51:45.815Z"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "22433d832d3e8d8c3332048d11126949290b6d68e15207325f7ce94b02e332d6",
+    "notes": "Inspected native: great bristled boar flees Arthur and Cavall into Cornwall surf. The supported sea-driving hunt supplies mythic identity, with coherent anatomy, no gore and natural sunset.",
+    "reviewed_at": "2026-10-05T18:05:36.528657+00:00"
+  },
+  "native_sha256": "22433d832d3e8d8c3332048d11126949290b6d68e15207325f7ce94b02e332d6",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/twrch-trwyth.json",
+    "native_sha256": "22433d832d3e8d8c3332048d11126949290b6d68e15207325f7ce94b02e332d6",
+    "old_url": "/assets/art/twrch-trwyth-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-4bf07f37-38b1-45df-9f84-7e29c6116480.png",
+    "old_webp_sha256": "88ee772e4bd2d0b0bfe9c6398ff81e8fcfdccb9f156dd149ef259a0995a0baaf",
+    "old_native_sha256": "aa776e62ed91220d75b114817ff0cf17a871529ed0596b2d5113d68ce4bcc6cb",
+    "rationale": "Replaces ordinary animal presentation with Arthur and Cavall driving Twrch Trwyth toward Cornwall sea",
+    "basis_claim_ids": [
+      "twrch-trwyth-c01",
+      "twrch-trwyth-c02"
+    ]
+  },
+  "url": "/assets/art/twrch-trwyth-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "8df0f5e33bfe271f52657336d2193e6cb1f14cfc8dde9695aea51dd34eebabc3",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-86433c29-0242-4a41-ab54-2fea49a61e90.png",
+  "revision_generator": "recover_session",
+  "artistic_changes": [
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
+  ]
 }

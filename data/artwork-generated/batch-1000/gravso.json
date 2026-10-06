@@ -1,0 +1,40 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "gravso",
+  "prompt": "Square premium painterly naturalistic folklore artwork of Gravso, Danish ghost sow. Choose the documented BLACK SOW with its head present, not red or headless variants. One black female pig, exactly one head,four hoof legs,short curly tail. Knife-sharp narrow back line and long stiff bristling hairs, restrained slightly glowing reddish eyes only (documented), no light beams or surrounding aura. She stands alone among old Danish churchyard gravestones under cold natural moonlight, head lowered, intent gaze and ominously still posture convey death-omen presence. No piglet litter, human victims, gore,horns,wings,animal hybrids or transparencies. Rich painterly realistic oil detail, rough bristles and weathered stone, dark but readable. No neon energy,ribbons,luminous mist,text,border.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-e60ab5a1-2612-4f2c-9975-1ffd341fbad6.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/gravso.png",
+  "depicted_variant": "Black headed ghost sow with bristles and restrained glowing eyes",
+  "basis_claim_ids": [
+    "gravso-c02",
+    "gravso-c06",
+    "gravso-c09"
+  ],
+  "visual_requirements": [
+    "Black sow with head",
+    "Four hoof legs",
+    "Bristling sharp back",
+    "Restrained glowing eyes"
+  ],
+  "aura": "Presence through gaze, posture, framing and natural scene light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "One black female pig has one head, four hoof legs, curled tail, narrow bristling back and restrained reddish glowing eyes. No piglet/headless variant mixing; churchyard moonlight, no surrounding aura."
+  },
+  "reviewed_at": "2026-10-05T14:15:04.451Z",
+  "artistic_choices": [
+    "Churchyard layout and natural moonlight are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "native_sha256": "a123e8a3443a0a7c412ef38424c86168e544b9da12180decf354ad177f9bfb9a",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "a123e8a3443a0a7c412ef38424c86168e544b9da12180decf354ad177f9bfb9a",
+    "notes": "Inspected black sow with head/four hooves, bristling knife-sharp back and restrained bright eyes at churchyard. c02/c06/c09 nonheadless coherent variant."
+  }
+}

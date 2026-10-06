@@ -1,27 +1,79 @@
 {
   "slug": "nongshaba",
-  "prompt": "Square detailed painterly naturalistic encyclopedia illustration of Nongshaba, primordial lion god and king of gods in Meitei tradition. Choose the documented LION form: ONE majestic adult male lion, fully quadrupedal with four natural paws, powerful tawny body and broad regal mane, one lion head, natural tufted tail, standing calmly on a forested Manipur hill overlooking the luminous first sunrise. Whole lion and tail comfortably framed with margin. Aura profound divine sovereignty, primordial creation of light and sun, reverent warm golden radiance encircling mane subtly without fantasy anatomy, noble calm authoritative gaze. Detailed painterly fur and majestic morning mist in forest realm. No deer antlers, dragon scales, wings, human body, extra heads, weapons, crown, attacking victims, gore, text or watermark. Sacred awe rather than threatening wild-animal horror.",
-  "visual_requirements": [
-    "One natural four-legged lion god",
-    "Regal mane and dignified lion face",
-    "Primordial sunrise light symbolism",
-    "Sacred sovereign king-of-gods aura"
-  ],
-  "depicted_variant": "Lion-form primordial light deity; not hybrid Kangla Sha statue variant",
+  "prompt": "Correct this Nongshaba creation illustration: keep the lion god and the single bright new sun directly above his roaring muzzle. REMOVE the second sun at the right-hand distant horizon and its sunset reflection. That part of the horizon should be dim, empty primordial landscape. Exactly ONE sun anywhere in the image. Source nongshaba-c01 lion god and c03 he produces primordial light and makes the sun. Preserve lion anatomy, stars, and restrained painterly illustration. No text or aura.",
+  "visual_requirements": "Correct this Nongshaba creation illustration: keep the lion god and the single bright new sun directly above his roaring muzzle. REMOVE the second sun at the right-hand distant horizon and its sunset reflection. That part of the horizon should be dim, empty primordial landscape. Exactly ONE sun anywhere in the image. Source nongshaba-c01 lion god and c03 he produces primordial light and makes the sun. Preserve lion anatomy, stars, and restrained painterly illustration. No text or aura.",
+  "depicted_variant": "Nongshaba, the Meitei lion god, producing primordial light and making the sun. A mighty anatomically leonine figure stands at the edge of a vast dark primordial world; immediately above his upturned roaring muzzle a small newly formed sun is emerging, illuminating the untouched earth for the first time. The sun itself supplies the only divine light, clearly linked to the lion's creation gesture; restrained warm physical sunlight, no beam or surrounding aura. No human-headed hybrid or wings.",
   "basis_claim_ids": [
     "nongshaba-c01",
-    "nongshaba-c02",
-    "nongshaba-c03",
-    "nongshaba-c07"
+    "nongshaba-c03"
   ],
-  "aura": "Sacred primordial solar divine sovereignty",
+  "aura": "Source-documented primordial sunlight only; no surrounding aura.",
   "worker": "worker-1",
-  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-e929f143-7a66-4043-9c6f-5b601d99fb4b.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/nongshaba.png",
   "review_path": "data/gemini/reviews/batch-074.review.json",
   "visual_review": {
     "verdict": "pass",
-    "notes": "One natural four-legged male lion with broad regal mane, calm authoritative face and natural tufted tail stands whole in frame on a forest hill. Powerful golden sunrise and radiant mane convey the primordial light creator and sacred king-of-gods aura. No hybrid antlers, scales or invented appendages."
+    "reviewer": "inspect_workspace",
+    "notes": "One new sun above leonine creator; duplicate horizon sun removed. Restrained light from source-recorded creation of sun, no generic aura."
   },
   "tool": "OpenAI built-in image_gen",
-  "status": "reviewed"
+  "status": "reviewed",
+  "presentation_revision_history": [
+    {
+      "slug": "nongshaba",
+      "prompt": "Square detailed painterly naturalistic encyclopedia illustration of Nongshaba, primordial lion god and king of gods in Meitei tradition. Choose the documented LION form: ONE majestic adult male lion, fully quadrupedal with four natural paws, powerful tawny body and broad regal mane, one lion head, natural tufted tail, standing calmly on a forested Manipur hill overlooking the luminous first sunrise. Whole lion and tail comfortably framed with margin. Aura profound divine sovereignty, primordial creation of light and sun, reverent warm golden radiance encircling mane subtly without fantasy anatomy, noble calm authoritative gaze. Detailed painterly fur and majestic morning mist in forest realm. No deer antlers, dragon scales, wings, human body, extra heads, weapons, crown, attacking victims, gore, text or watermark. Sacred awe rather than threatening wild-animal horror.",
+      "visual_requirements": [
+        "One natural four-legged lion god",
+        "Regal mane and dignified lion face",
+        "Primordial sunrise light symbolism",
+        "Sacred sovereign king-of-gods aura"
+      ],
+      "depicted_variant": "Lion-form primordial light deity; not hybrid Kangla Sha statue variant",
+      "basis_claim_ids": [
+        "nongshaba-c01",
+        "nongshaba-c02",
+        "nongshaba-c03",
+        "nongshaba-c07"
+      ],
+      "aura": "Sacred primordial solar divine sovereignty",
+      "worker": "worker-1",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-e929f143-7a66-4043-9c6f-5b601d99fb4b.png",
+      "review_path": "data/gemini/reviews/batch-074.review.json",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "One natural four-legged male lion with broad regal mane, calm authoritative face and natural tufted tail stands whole in frame on a forest hill. Powerful golden sunrise and radiant mane convey the primordial light creator and sacred king-of-gods aura. No hybrid antlers, scales or invented appendages."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "notes": "Corrected scene contains one newly formed sun above roaring lion; source-supported creation gesture and sunlight, coherent lion anatomy.",
+    "native_sha256": "e8e7c8e9083d93bf5bc97331987083d1b5c88da2321f0cc4a9e13a21b390f46c",
+    "reviewed_at": "2026-10-05T18:38:01.406808+00:00"
+  },
+  "native_sha256": "e8e7c8e9083d93bf5bc97331987083d1b5c88da2321f0cc4a9e13a21b390f46c",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/nongshaba.json",
+    "native_sha256": "e8e7c8e9083d93bf5bc97331987083d1b5c88da2321f0cc4a9e13a21b390f46c",
+    "old_url": "/assets/art/nongshaba-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-e929f143-7a66-4043-9c6f-5b601d99fb4b.png",
+    "old_webp_sha256": "0d75956f561d01f01592614a4de3c05214c2a2f153a0ab75f25bc38ba817730c",
+    "old_native_sha256": "8256559076d987c4d590f1be01b6af16ac64162c5d73a5883a46521239a95f76",
+    "rationale": "Give source-recorded divine action or folklore narrative beyond ordinary animal appearance.",
+    "basis_claim_ids": [
+      "nongshaba-c01",
+      "nongshaba-c03"
+    ]
+  },
+  "url": "/assets/art/nongshaba-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "6b840e695f396833c35ad9d3a81a8f4902e60d8c879f927988cbfc36ca3a1016",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-57c0f9f9-906d-4128-9549-e44797e03ab7.png",
+  "revision_generator": "inspect_workspace",
+  "artistic_changes": "Composition, physical environment and human props are illustration choices."
 }

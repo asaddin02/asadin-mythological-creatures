@@ -1,0 +1,47 @@
+{
+  "slug": "hobangoas",
+  "prompt": "Edit only the hooves of this three-legged Hobangoas goat illustration. Preserve EXACTLY three legs, whole pose, head, horns, beard, eyes, fur, setting and lighting. Each of the three feet must be a HORSE hoof: one solid broad smooth rounded hoof capsule, single unsplit front surface, no vertical cleft, no paired toes, no cloven goat hoof. Remove all center splits from all three hooves and replace with unmistakable single-piece horse hooves. No new limbs, effects, labels or other changes.",
+  "original_prompt": "Square premium painterly naturalistic folklore illustration of Hobangoas/Habergeiß in ONE selected German folk-legend GOAT variant: a THREE-LEGGED billy goat with HORSE HOOVES, a long dangling goat beard and two glowing eyes. Anatomical requirement: exactly THREE legs total, two separated front legs and one centrally placed rear leg, all three clearly visible and each ending in a single solid horse hoof rather than cloven goat hooves. No hidden fourth leg, no extra limb. Ordinary dark shaggy goat body and goat head, natural goat horns only, no dragon features, no feathered bird-variant anatomy or wings. Three-quarter side view at the edge of a shadowy Alpine farm track, full body and feet inside frame, sinister attentive gaze, long beard prominent, empty background, no people. Restrained dull ember light confined to two source-documented eyes; natural cold dusk lighting and muted charcoal fur carry horror presence. Tactile painterly realism, no gore, no fangs, fantasy armour, baskets, neon outline, magical aura, energy ribbons, luminous colored mist, text, logo or watermark. Farm track and dark fur palette are editorial staging.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-b1795823-e043-4261-8a8e-4bc006021d55.png",
+  "depicted_variant": "Three-legged billy-goat Habergeiß with horse hooves, long beard and restrained glowing eyes; excludes feathered/bird and procession variants.",
+  "basis_claim_ids": [
+    "hobangoas-c01",
+    "hobangoas-c02"
+  ],
+  "visual_requirements": [
+    "Exactly three goat legs ending in solid horse hooves",
+    "Long billy-goat beard and two glowing eyes",
+    "Goat variant without bird-body mixture or generic aura"
+  ],
+  "aura": "Sinister presence through fixed gaze, long beard, shadowed shaggy coat and cold Alpine dusk; only the source-supported eyes glow.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-0",
+    "notes": "Viewed corrected native PNG. Counted exactly three legs with smooth unsplit horse-hoof capsules, long goat beard and two restrained amber glowing eyes. Ordinary goat horns remain integral goat anatomy. No fourth leg, wings, feathers, neon envelope or magical fog. Initial cloven-hoof candidate is preserved as attempt1."
+  },
+  "artistic_choices": [
+    "Black shaggy fur and Alpine track at dusk are editorial palette/scene.",
+    "Goat horns are ordinary billy-goat anatomy, no additional supernatural horns."
+  ],
+  "attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1000/originals/hobangoas-attempt1.png",
+      "verdict": "needs-correction",
+      "notes": "Cloven goat hooves corrected to solid source-supported horse hooves via built-in edit."
+    }
+  ],
+  "worker": "worker-0",
+  "status": "reviewed",
+  "tool": "OpenAI built-in image_gen",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hobangoas.png",
+  "reviewed_at": "2026-10-05T11:12:36.212894+00:00",
+  "native_sha256": "126c2d21424dd66dd2cad25056e93bc60c0c2df390c5ba144d4cd5551eb321e2",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "126c2d21424dd66dd2cad25056e93bc60c0c2df390c5ba144d4cd5551eb321e2",
+    "notes": "Independent inspection: counted exactly three goat-like legs, each ending in a solid horse hoof; billy-goat body, long beard and two restrained candle-bright eyes. No bird-body mixture or generic luminous envelope; eye light is source-supported."
+  }
+}

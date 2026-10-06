@@ -1,0 +1,34 @@
+/** Reject receipts that would install the wrong image, unsupported claims, or stale inspection. */
+import assert from 'node:assert/strict';
+import { read, ledgerPath, validateRevision, assertBaseline } from '../scripts/artwork-presentation-lib.mjs';
+const ledger = read(ledgerPath);
+const item = ledger.items.find(i => i.slug === 'heqet');
+const receipt = read('data/artwork-generated/presentation-revision-1000/heqet.json');
+assert.equal(validateRevision(receipt, item), receipt.native_sha256);
+const invalid = change => {
+  const copy = structuredClone(receipt);
+  change(copy);
+  assert.throws(() => validateRevision(copy, item));
+};
+invalid(r => { r.slug = 'thoth'; });
+invalid(r => { r.basis_claim_ids = ['heqet-nonexistent-claim']; });
+invalid(r => { r.root_visual_review.reviewer = r.visual_review.reviewer; });
+invalid(r => { r.root_visual_review.native_sha256 = '0'.repeat(64); });
+invalid(r => { r.visual_review.native_sha256 = '0'.repeat(64); });
+invalid(r => { delete r.visual_review.native_sha256; });
+invalid(r => { r.old_webp_sha256 = '0'.repeat(64); });
+invalid(r => { delete r.root_visual_review; });
+invalid(r => { r.status = 'generated'; });
+const alteredResearch = structuredClone(item);
+alteredResearch.research.claims.find(c => c.id === receipt.basis_claim_ids[0]).statement.en = 'Invented wings';
+assert.throws(() => validateRevision(receipt, alteredResearch));
+const manifest = read('assets/art/verified-manifest.json');
+assertBaseline(ledger, manifest);
+const missing = structuredClone(manifest);
+delete missing.artworks[item.slug];
+assert.throws(() => assertBaseline(ledger, missing));
+const wrong = structuredClone(manifest);
+wrong.artworks['wrong-creature'] = wrong.artworks[item.slug];
+delete wrong.artworks[item.slug];
+assert.throws(() => assertBaseline(ledger, wrong));
+console.log('PASS: sourced receipt; wrong creature/claim/reviewer/hash/status and changed baseline rejected');

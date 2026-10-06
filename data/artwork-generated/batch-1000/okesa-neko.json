@@ -1,0 +1,42 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "okesa-neko",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Japanese folklore illustration of OKESA NEKO, selecting the documented revelation as a GIANT CAT wearing Okesa's KIMONO on a bed. One huge natural cat sits upright on a low traditional sleeping mat in a subdued Edo-period wooden room, wearing a modest silk kimono draped around its feline torso. CAT HEAD, natural triangular ears, whiskers, cat eyes and feline paws, one natural cat tail; no human head or human hands. Front paws rest visibly on mat outside kimono sleeve folds; back paws implied naturally by seated posture. The cat is much larger than a domestic cat, indicated by ordinary room doorway and small bedding features, not mountain-scale. Kimono pattern and colour echo the CAT'S FUR: choose muted cream with dark brown patches on both coat and kimono as editorial palette. Calm but alert guarded expression evokes a hidden magical identity revealed, without making this kind-hearted bakeneko vicious. Natural evening light through wooden window and textured shadow give uncanny presence. Full seated cat, kimono and tail inside frame. No geisha human added, second cat, two tails, wings, horns, human-cat fusion face, fish-head gore, glowing eyes, halo, magic aura envelope, neon outline, luminous coloured mist, energy ribbon, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/okesa-neko.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-1635886a-b056-498c-81de-3504e6cb014f.png",
+  "depicted_variant": "Revealed giant cat Okesa wearing kimono on the sleeping mat",
+  "basis_claim_ids": [
+    "okesa-neko-c01",
+    "okesa-neko-c03",
+    "okesa-neko-c05",
+    "okesa-neko-c06",
+    "okesa-neko-c08"
+  ],
+  "visual_requirements": [
+    "One giant natural cat with feline paws and one tail",
+    "Kimono colours echo fur colours",
+    "Seated on bedding in modest Japanese room",
+    "No human-cat mixed face or two-tailed species"
+  ],
+  "aura": "Alert guarded kind-hearted magical identity through calm gaze and naturally lit quiet room",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: large ordinary cat head/body, two front paws outside kimono, one tail; cream/brown fur echoed in cream/brown garment. Bedding/doorway give large-cat scale, quiet warm light without luminous magical effects."
+  },
+  "reviewed_at": "2026-10-05T11:22:52.585Z",
+  "artistic_choices": [
+    "Cream/brown coat and floral kimono palette, room details and evening light are editorial staging; pattern/colour match is sourced but exact colours unspecified."
+  ],
+  "review_path": "data/gemini/reviews/batch-114.review.json",
+  "native_sha256": "7b1ee62d196fb4fbd83e8b0e0729facfb26ec7e2cb0bc46df6d5e5ebd636ee7b",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "7b1ee62d196fb4fbd83e8b0e0729facfb26ec7e2cb0bc46df6d5e5ebd636ee7b",
+    "notes": "Independent inspection: one large coherent feline seated on bedding in a kimono whose brown/cream colours echo fur, feline paws, one visible tail and wholly cat-shaped face. Room props establish unusual size. No human face, two-tail species or magical glow."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "sarac",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Serbian epic mythology illustration of ŠARAC, Marko's horse, selecting the documented PIEBALD WINGED HORSE variant. One ordinary horse body with black-and-white cowlike irregular coat patches, four legs with natural hooves, one horse head/mane/tail and exactly TWO wings at its back. Two feathered wings lifted so both distinct wing shapes readable; feather rendering editorial. No rider or saddle. Full horse and wing tips inside frame on rocky Balkan hillside under natural early morning light; graceful intelligent watchful horse expression and strong poised stance convey miraculous presence. Ordinary horse size, not giant. No antlers, horns, unicorn horn, human hands, extra legs, luminous eyes, glowing body halo, neon outlines, energy ribbons, luminous coloured mist, clouds formed from body, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sarac.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-41817a63-8495-4b37-9a14-d709143629ec.png",
+  "depicted_variant": "Piebald winged Šarac in Serbian epic account",
+  "basis_claim_ids": [
+    "sarac-c01",
+    "sarac-c02",
+    "sarac-c03"
+  ],
+  "visual_requirements": [
+    "Cowlike black-white piebald horse coat",
+    "Four horse legs, two separate back wings",
+    "No invented antlers or giant size"
+  ],
+  "aura": "Intelligent graceful miraculous presence under natural Balkan dawn",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: one piebald horse with four coherent horse legs/hooves, two distinct feathered back wings, natural horse head and tail; full form framed. No horns, rider or magical aura."
+  },
+  "reviewed_at": "2026-10-05T13:06:04.540Z",
+  "artistic_choices": [
+    "Feathered wing texture, black-white patch layout and dawn hillside are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "native_sha256": "456298701eb8f5643009fa0fa9f9a82bea3054417f0e7152015bb3fa3e62b477",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "456298701eb8f5643009fa0fa9f9a82bea3054417f0e7152015bb3fa3e62b477",
+    "notes": "Inspected cowlike piebald black-white horse with four horse legs and two feathered wings clearly separate from forelimbs. Natural daylight, no giant scale/horns; fits c02."
+  }
+}

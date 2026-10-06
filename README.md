@@ -164,7 +164,7 @@ The discovery homepage uses a permanent warm dark-and-gold design, locally hoste
 - 18 existing entries now include individual bilingual reading notes and reflection questions.
 - Four bilingual learning modules cover foundational terms, Indonesian traditions, comparative symbols, and source literacy. Each includes references, a quiz with explanation, and local completion tracking.
 - Institutional reading links include The Met, UNESCO, AMNH, and Britannica Education. Existing seed claims retain their original attribution; the new reading guides do not constitute an exhaustive scholarly verification of every legacy claim.
-- Fourteen documentary images are stored locally with Commons attribution. There are 118 individually attached AI editorial illustrations: the original 18 plus a completed batch of 100, with creature-specific prompts and visual identity checks. See [asset notes and prompts](assets/art/README.md) and the [100-image gallery](docs/artwork-batch-100.html).
+- Fourteen documentary images are stored locally with Commons attribution. There are 1,000 individually attached AI editorial illustrations, with creature-specific prompts and visual identity checks. All 1,000 have been screened for mythological presentation; see [asset notes and prompts](assets/art/README.md), the [1,000-image target handoff](docs/HANDOFF-ARTWORK-1000-2026-10-05.md), and the [before/after revision gallery](docs/artwork-presentation-revision-1000.html).
 - Culture and region coverage is calculated from published records. Detailed entries and imported reference introductions are counted separately.
 
 ### Verify locally

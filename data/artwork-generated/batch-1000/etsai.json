@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "etsai",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Basque mythology illustration of ETSAI, selecting the documented normal HUMAN cave-teacher form. One adult human-looking male spirit stands inside a rough cave chamber used as a simple scholarly school, normal one head/two arms/hands/two legs. Plain dark modest robe is editorial costume, no horns, hooves, tail, claws or fangs. He holds an unlettered open parchment book in ordinary hands, stern calculating gaze toward viewer, cave shelves and stone desk behind without legible lettering. Use natural daylight from cave opening with deep rock shadows; menacing uncanny presence through expression, framing and cavern depth. No dragon mixing, captive pupils, glowing eyes, magical portal, neon outline, luminous mist, energy ribbons, aura envelope, text, border, collage or watermark. Books/robes are editorial staging of documented teaching arts/letters/sciences, not fixed traditional appearance.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/etsai.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-52df2835-580f-4f45-b46f-c7a054fdf6d7.png",
+  "depicted_variant": "Human cave-teacher form of Etsai",
+  "basis_claim_ids": [
+    "etsai-c01",
+    "etsai-c05",
+    "etsai-c07"
+  ],
+  "visual_requirements": [
+    "Normal human-looking male cave spirit",
+    "No horns/hooves or dragon mixing",
+    "Teaching books as editorial context"
+  ],
+  "aura": "Character presence through documented form, expression, framing and natural light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: normal male human portrait with two hands holding open book, stern gaze and simple robe in cave school. No animal traits or supernatural glow."
+  },
+  "reviewed_at": "2026-10-05T13:35:57.889Z",
+  "artistic_choices": [
+    "Garment, face, books and cave school furnishings are editorial staging; no fixed source costume asserted."
+  ],
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "native_sha256": "28df0118aef8b9909b9997b8120ad0f56a116af2d15e95c8d06ffccf69c53437",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "28df0118aef8b9909b9997b8120ad0f56a116af2d15e95c8d06ffccf69c53437",
+    "notes": "Inspected normal human male cave teacher with ordinary anatomy/book staging, no horns/hooves or dragon variant mixing. c05/c07."
+  }
+}

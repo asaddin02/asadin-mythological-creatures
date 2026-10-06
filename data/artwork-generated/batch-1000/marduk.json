@@ -1,0 +1,37 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "marduk",
+  "prompt": "Create square premium painterly naturalistic mythology portrait of Marduk of Babylon, selecting the documented HUMAN form in royal robes carrying a spade. Frame waist up, single adult human man in rich dignified royal robes, one hand resting on a plainly recognizable ceremonial spade shaft whose blade is visible beside his shoulder. Entirely human face and body. Calm commanding expression and natural sunlit temple masonry convey divine regal presence. Woven robe pattern, dark beard, ordinary circlet and sandstone courtyard are editorial art choices, not new anatomy. Focus the portrait on human face, robes and spade; do not depict a companion animal or battle. Polished oil painting, fine textile texture, warm natural light, profound composed authority. No luminous eyes, halo, generic glow, neon energy, coloured mist, wings, horns, text or frame.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-f9c572e2-6beb-46dc-9dc2-fef1313cb8d6.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/marduk.png",
+  "depicted_variant": "Human in royal robes, portrait with ceremonial spade",
+  "basis_claim_ids": [
+    "marduk-c02"
+  ],
+  "visual_requirements": [
+    "Human form",
+    "Royal robes",
+    "Visible spade"
+  ],
+  "aura": "Presence through expression, posture, framing and natural lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "One human man in rich robes holds a visible spade beside his face. Framing focuses on this documented human iconography; no companion anatomy invented. Natural daylight and composed regal gaze."
+  },
+  "reviewed_at": "2026-10-05T13:50:47.605Z",
+  "artistic_choices": [
+    "Beard, circlet, woven robe motifs and sandstone courtyard are editorial staging; portrait omits the other iconographic attribute"
+  ],
+  "review_path": "data/gemini/reviews/batch-047.review.json",
+  "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
+    "notes": "Inspected human man in royal robe holding clear spade. Full c02 quote explicitly describes human royal-robed form even though shortened statement omits it. Portrait omits companion; no invented deity anatomy."
+  }
+}

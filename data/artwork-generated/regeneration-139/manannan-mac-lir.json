@@ -3,19 +3,18 @@
   "worker": "regen-1",
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
-  "prompt": "Use case: scientific-educational. Asset type: ONE square refined painterly folklore encyclopedia illustration for Mythics. Subject: MANANNAN MAC LIR in the directly recorded County Monaghan giant-EEL transformation from the National Folklore Collection, not human sea-god portrait. One wholly fish-anatomied giant freshwater eel at the bottom of a clear dark Irish lake, guarding one small closed old treasure chest on pebbled ground. Exactly ONE natural eel head, ONE long unbroken cylindrical eel body in a broad readable S-curve, ONE tapering tail, TWO small pectoral fins just behind head and a continuous low dorsal fin along back joining the tail fin. Smooth olive-grey wet eel skin, tiny scales; real eel mouth and eyes, no snake fangs or horn, no human face, arms or legs, wings, crown or clothes. Entire eel head/body/fins/tail uncropped with margin, no overlapping coils, transparent water so anatomy clear. Watchful ancient sorrowful treasure-guardian aura, dignified uncanny cursed divinity rather than snarling sea dragon. Painterly lake pebbles/reeds, deep forest-green submerged shadows, warm antique copper light catching chest and dorsal contour, moonlight from water surface. No bottle, extra animals, horses, human saint, blood, inscriptions, text, watermark or border. This is Manann's own source-attested eel manifestation and not his separate horse or an invented aquatic humanoid.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/manannan-mac-lir.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. ADULT HUMAN SEA KING MANANNAN MAC LIR stands commandingly aboard a small elegant boat WAVE-SWEEPER crossing choppy Irish sea, holding physical sword FRAGARACH lowered beside him. Human adult male face and human body exactly2 arms and2legs, opaque richly woven cloak and tunic, dignified warrior bearing. Boat, blade and sea identify documented possessions; clothing/design editorial. NO eel body, fish tail, scales, fins, horsehead or trident. Physical grey ocean light, sword not luminous. Otherworld island distant subtle, no magical ribbons. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/manannan-mac-lir-mythic-presence.png",
   "workspace_original": "data/artwork-generated/regeneration-139/originals/manannan-mac-lir.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "County Monaghan Manann / Manannán as a giant eel guarding buried lake treasure",
+  "depicted_variant": "Manannan sea king aboard Wave-sweeper with Fragarach",
   "visual_requirements": [
-    "Wholly animal giant-eel transformation",
-    "One eel head, continuous elongated body and one tail",
-    "Natural fin anatomy without human limbs or face"
+    "Manannan sea king aboard Wave-sweeper with Fragarach",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
     "manannan-mac-lir-c01",
-    "manannan-mac-lir-c02"
+    "manannan-mac-lir-c03"
   ],
   "additional_sources": [
     {
@@ -31,24 +30,124 @@
       "purpose": "Independent primary folklore transcript records Manann turning himself into an eel and leaping into the lake adjoining the castle."
     }
   ],
-  "aura": "Ancient watchful cursed treasure guardian, sorrowful and uncanny",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected full output: one wholly animal eel head, one unbroken S-shaped long body, one unforked tail, low continuous dorsal ridge and near pectoral fin clearly visible; far pectoral fin naturally occluded on the opposite side. No legs, human torso/face, snake fangs, horns or wings. All body continuity and head-to-tail outline fit frame without overlap. Underwater chest and solemn guarded posture retain lake-treasure variant. Chest has ornamental medallion but no letters or readable text."
+    "reviewer": "recover_session",
+    "notes": "Human sea king aboard boat holding ordinary physical sword."
   },
   "nonhuman_features": [
-    "Wholly animal giant-eel transformation",
-    "One eel head, continuous elongated body and one tail",
-    "Natural fin anatomy without human limbs or face"
+    "Manannan sea king aboard Wave-sweeper with Fragarach",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
-  "historical_basis": "Two National Folklore Collection primary transcripts directly attribute eel transformation to Manann himself; vol0799 p211 explicitly keeps him guarding lake treasure. Selected County Monaghan later folklore rather than conflating his separate horse/dove or mythic human form.",
+  "historical_basis": [
+    {
+      "id": "manannan-mac-lir-c01",
+      "source_id": "manannan-mac-lir-s1",
+      "quote": "Manannán or Manann , also known as Manannán mac Lir ('son of the Sea'), is a sea god, warrior and king of the otherworld in Gaelic (Irish, Manx and Scottish) mythology who is one of the Tuatha Dé Danann .",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Manannán (Manann, Manannán mac Lir, son of the Sea) adalah dewa laut, pejuang, dan raja dunia lain mitologi Gaelik (Gaelic: Irish, Manx, Scottish), salah satu Tuatha Dé Danann.",
+        "en": "Manannán (Manann, Manannán mac Lir, son of the Sea) is a sea god, warrior and otherworld king of Gaelic (Irish, Manx, Scottish) myth, one of the Tuatha Dé Danann."
+      }
+    },
+    {
+      "id": "manannan-mac-lir-c03",
+      "source_id": "manannan-mac-lir-s1",
+      "quote": "He is said to own a self-navigating boat named Sguaba Tuinne ('Wave-sweeper'), a horse Aonbharr which can course over water as well as land and a deadly strength-sapping sword named Fragarach",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia memiliki perahu Sguaba Tuinne (Wave-sweeper, Penyapu Ombak), kuda Aonbharr yang berlari di air dan darat, dan pedang Fragarach.",
+        "en": "He owns the boat Sguaba Tuinne (Wave-sweeper), the horse Aonbharr that runs over water and land, and the sword Fragarach."
+      }
+    }
+  ],
   "artistic_changes": "Olive-grey eel morphology, transparent underwater framing and chest decoration are illustrative choices; detailed fins follow natural eel anatomy.",
   "reviewed_at": "2026-10-04T16:30:51.909Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. One full continuous eel with one fish head, near pectoral fin and long continuous fin/tail, no human features/legs. Calm imposing lake-treasure guardian aura fits actual primary folklore transformation.",
-    "reviewed_at": "2026-10-04T16:58:31.545192+00:00"
-  }
+    "reviewer": "root",
+    "native_sha256": "2c54a5a99deb77bbf75db121c0eb59b62d481a666d31d7557ec7d0cf56dc1ebf",
+    "notes": "Inspected native: adult human sea god holds a sword aboard a boat on rough water. The documented warrior, boat and sword context replace an eel depiction; clothing and hull details are editorial.",
+    "reviewed_at": "2026-10-05T18:20:40.442158+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "manannan-mac-lir",
+      "worker": "regen-1",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "Use case: scientific-educational. Asset type: ONE square refined painterly folklore encyclopedia illustration for Mythics. Subject: MANANNAN MAC LIR in the directly recorded County Monaghan giant-EEL transformation from the National Folklore Collection, not human sea-god portrait. One wholly fish-anatomied giant freshwater eel at the bottom of a clear dark Irish lake, guarding one small closed old treasure chest on pebbled ground. Exactly ONE natural eel head, ONE long unbroken cylindrical eel body in a broad readable S-curve, ONE tapering tail, TWO small pectoral fins just behind head and a continuous low dorsal fin along back joining the tail fin. Smooth olive-grey wet eel skin, tiny scales; real eel mouth and eyes, no snake fangs or horn, no human face, arms or legs, wings, crown or clothes. Entire eel head/body/fins/tail uncropped with margin, no overlapping coils, transparent water so anatomy clear. Watchful ancient sorrowful treasure-guardian aura, dignified uncanny cursed divinity rather than snarling sea dragon. Painterly lake pebbles/reeds, deep forest-green submerged shadows, warm antique copper light catching chest and dorsal contour, moonlight from water surface. No bottle, extra animals, horses, human saint, blood, inscriptions, text, watermark or border. This is Manann's own source-attested eel manifestation and not his separate horse or an invented aquatic humanoid.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/manannan-mac-lir.png",
+      "workspace_original": "data/artwork-generated/regeneration-139/originals/manannan-mac-lir.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "County Monaghan Manann / Manannán as a giant eel guarding buried lake treasure",
+      "visual_requirements": [
+        "Wholly animal giant-eel transformation",
+        "One eel head, continuous elongated body and one tail",
+        "Natural fin anatomy without human limbs or face"
+      ],
+      "basis_claim_ids": [
+        "manannan-mac-lir-c01",
+        "manannan-mac-lir-c02"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://www.duchas.ie/en/cbes/4428244/4388010",
+          "title": "National Folklore Collection: The Eel and the Chest of Gold",
+          "locator": "Schools' Collection vol.0799 p.211, collector Séamus Breathnach",
+          "purpose": "Primary oral-folklore transcript explicitly says Manann transformed into a large eel and remains in the lake guarding his buried gold."
+        },
+        {
+          "url": "https://www.duchas.ie/en/cbes/4758587/4756881/4936445",
+          "title": "National Folklore Collection: Manann Castle",
+          "locator": "Schools' Collection vol.0931 p.320, Mrs McMahon of Dian",
+          "purpose": "Independent primary folklore transcript records Manann turning himself into an eel and leaping into the lake adjoining the castle."
+        }
+      ],
+      "aura": "Ancient watchful cursed treasure guardian, sorrowful and uncanny",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected full output: one wholly animal eel head, one unbroken S-shaped long body, one unforked tail, low continuous dorsal ridge and near pectoral fin clearly visible; far pectoral fin naturally occluded on the opposite side. No legs, human torso/face, snake fangs, horns or wings. All body continuity and head-to-tail outline fit frame without overlap. Underwater chest and solemn guarded posture retain lake-treasure variant. Chest has ornamental medallion but no letters or readable text."
+      },
+      "nonhuman_features": [
+        "Wholly animal giant-eel transformation",
+        "One eel head, continuous elongated body and one tail",
+        "Natural fin anatomy without human limbs or face"
+      ],
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": "Two National Folklore Collection primary transcripts directly attribute eel transformation to Manann himself; vol0799 p211 explicitly keeps him guarding lake treasure. Selected County Monaghan later folklore rather than conflating his separate horse/dove or mythic human form.",
+      "artistic_changes": "Olive-grey eel morphology, transparent underwater framing and chest decoration are illustrative choices; detailed fins follow natural eel anatomy.",
+      "reviewed_at": "2026-10-04T16:30:51.909Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. One full continuous eel with one fish head, near pectoral fin and long continuous fin/tail, no human features/legs. Calm imposing lake-treasure guardian aura fits actual primary folklore transformation.",
+        "reviewed_at": "2026-10-04T16:58:31.545192+00:00"
+      }
+    }
+  ],
+  "native_sha256": "2c54a5a99deb77bbf75db121c0eb59b62d481a666d31d7557ec7d0cf56dc1ebf",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/manannan-mac-lir.json",
+    "native_sha256": "2c54a5a99deb77bbf75db121c0eb59b62d481a666d31d7557ec7d0cf56dc1ebf",
+    "old_url": "/assets/art/manannan-mac-lir-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/manannan-mac-lir.png",
+    "old_webp_sha256": "bfd53661ef01b5d67ccb1192c896b81354ca304331d9c8b832312ecd46060d42",
+    "old_native_sha256": "c401d9e73e9fbdad38179b3d1b913d8df694fb4285205fcc212df83ce3ffda81",
+    "rationale": "Replaces ordinary animal presentation with Manannan sea king aboard Wave-sweeper with Fragarach",
+    "basis_claim_ids": [
+      "manannan-mac-lir-c01",
+      "manannan-mac-lir-c03"
+    ]
+  },
+  "url": "/assets/art/manannan-mac-lir-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "b23559a0282dd00d939769c3db908f6da0244de03149947e133a0b441c0a7fc9"
 }

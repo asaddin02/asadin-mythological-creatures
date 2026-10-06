@@ -54,6 +54,15 @@ for (const item of batch.items) {
     throw new Error(`Visual basis cites absent claims: ${item.slug}`);
   const source = resolve(receipt.original_file);
   if (!existsSync(source)) throw new Error(`Missing generated original: ${item.slug}`);
+  if (batch.presence_policy) {
+    const nativeHash = createHash('sha256').update(readFileSync(source)).digest('hex');
+    const first = receipt.visual_review;
+    const second = receipt.root_visual_review;
+    if (!first.reviewer || !second?.reviewer || first.reviewer === second.reviewer)
+      throw new Error(`Two distinct visual reviewers required: ${item.slug}`);
+    if (receipt.native_sha256 !== nativeHash || second.native_sha256 !== nativeHash)
+      throw new Error(`Visual reviews must match the selected native image hash: ${item.slug}`);
+  }
   const prompts = read('assets/art/verified-prompts.json');
   prompts.prompts[item.slug] = receipt.prompt;
   (prompts.specifications ||= {})[item.slug] = {
@@ -105,7 +114,7 @@ console.log(JSON.stringify({ batch: batchNumber, added, complete: batch.complete
 if (added || process.argv.includes('--refresh-gallery') || !existsSync(resolve(root, `docs/artwork-batch-${batchNumber}.html`))) {
   const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   const cards = batch.items.map(item => `<article><h2>${escape(item.canonical_name)}</h2>${item.status === 'complete'
-    ? `<img loading="lazy" src="..${escape(item.url)}" alt="${escape(item.canonical_name)}"><p>${escape(item.depicted_variant)}</p><p><b>Aura:</b> ${escape(item.aura)}</p><details><summary>Audit ciri dan sumber</summary><ul>${item.visual_requirements.map(v => `<li>${escape(v)}</li>`).join('')}</ul><p>${escape(item.visual_review.notes)}</p><a href="../${escape(item.review_path)}">Review sumber</a><pre>${escape(item.prompt)}</pre></details>`
+    ? `<img loading="lazy" src="..${escape(item.url)}" alt="${escape(item.canonical_name)}"><p>${escape(item.depicted_variant)}</p><p><b>Aura:</b> ${escape(item.aura)}</p><details><summary>Audit ciri dan sumber</summary><ul>${(Array.isArray(item.visual_requirements) ? item.visual_requirements : [item.visual_requirements]).map(v => `<li>${escape(v)}</li>`).join('')}</ul><p>${escape(item.visual_review.notes)}</p><a href="../${escape(item.review_path)}">Review sumber</a><pre>${escape(item.prompt)}</pre></details>`
     : '<div class="pending">Menunggu gambar yang lolos audit</div>'}</article>`).join('');
   writeFileSync(resolve(root, `docs/artwork-batch-${batchNumber}.html`), `<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mythics — ${batch.target} ilustrasi tambahan</title><style>body{margin:0;padding:24px;background:#101916;color:#edf3ed;font:16px/1.6 system-ui}h1{margin-top:0}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px}article{background:#1b2822;padding:16px;border-radius:12px}h2{font-size:22px}img{width:100%;aspect-ratio:1;object-fit:contain;border-radius:8px}.pending{aspect-ratio:1;display:grid;place-items:center;background:#26352c;color:#bdc9bc}a{color:#e6b875}pre{white-space:pre-wrap;font:13px/1.6 system-ui}details{border-top:1px solid #435349;padding-top:12px}</style><h1>${batch.target} ilustrasi tambahan Mythics</h1><p>${batch.complete}/${batch.target} lolos audit dan terpasang. Semua karakter dipilih dari entri dengan informasi lengkap. Ilustrasi adalah interpretasi artistik AI berdasarkan sumber riset.</p><main>${cards}</main></html>\n`);
 }

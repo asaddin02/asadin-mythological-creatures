@@ -1,20 +1,19 @@
 {
   "slug": "fairy-queen",
   "worker": "regen-3",
-  "prompt": "Use case: illustration-story. Square mature premium painterly mythology encyclopedia artwork of the FAIRY QUEEN selecting the specific Irish AOIBHEALL/AIBHELL/AOIVIL WHITE-CAT transformation. Existing fairy-queen research names Aibhell among Irish fairy queens; Mathew Horgan's1839 manuscript printed by Denham Franklin in Journal Cork Historical Archaeological Society1897 pp85-87 describes Aoivil transformed by her sister Clíodhna into a beautiful white cat, seated on a costly throne with crimson cushions in the enchanted cave palace at Castlecor, guarding gold and silver treasures. Show exactly ONE entirely feline WHITE CAT sitting with poised majestic calm on a small antique throne's deep crimson cushion. Full natural feline head with two cat ears, two eyes, cat muzzle and whiskers, one fluffy white feline torso, exactly FOUR cat legs/paws: two upright forepaws together, two naturally folded hind feet visibly separated, ONE long feline tail curled elegantly along the cushion with tip within frame. All feline anatomy coherent, every ear, paw and tail comfortably inside frame. The cat has a dignified sorrowful enchanted-princess gaze, not caricature. Rich ancient underground palace carved into limestone, subtle gilded architectural ornament and a few plain gold/silver coins on stone floor in background; coins carry no text. Soft impossible cave light, forest-green depths and antique gold highlights, crimson cushion small focal colour, luxurious detailed painterly brushwork. Exact fur length/eye colour, throne design and palace decoration are artistic choices; source supplies white cat and costly crimson throne. No human face/body, human hands, fairy wings, crown or costume on cat, horns, second cat, other animal, human companion, harp, weapon, text, letters, border, signature or watermark. It is Aoibheall's named transformed form, not Clíodhna herself and not a generic pet mascot.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/fairy-queen.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. An ADULT HUMAN FEMALE FAIRY QUEEN stands before ADULT THOMAS THE RHYMER at the edge of a Scottish woodland, extending one human hand in invitation. Regal opaque medieval gown, small physical crown editorial ruler styling, timeless humanface and twoarms/twolegs. Thomas a clothed medieval poet with small plain boundbook looks captivated respectfully, no sexual depiction. This is source encounter of Queen who bestows prophecy, do not illustrate generic cat queen or wings. Natural dusk and faint far fairyhall architecture editorial, no glow. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/fairy-queen-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-116.review.json",
-  "depicted_variant": "Aoibheall/Aibhell/Aoivil, Irish fairy queen in enchanted white-cat form",
+  "depicted_variant": "Fairy Queen encounters Thomas the Rhymer",
   "visual_requirements": [
-    "Entire white feline body with four paws and one tail",
-    "Crimson throne cushion in enchanted treasure cave-palace",
-    "Named Irish queen variant, not Clíodhna herself"
+    "Fairy Queen encounters Thomas the Rhymer",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
     "fairy-queen-c01",
-    "fairy-queen-c03"
+    "fairy-queen-c06"
   ],
-  "aura": "Majestic sorrowful enchanted queen guarding a radiant cave palace",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "additional_sources": [
     {
       "url": "https://corkhist.ie/wp-content/uploads/jfiles/1897/b1897-021.pdf",
@@ -28,24 +27,124 @@
     }
   ],
   "nonhuman_features": [
-    "Fully white-furred feline head, body, four cat paws and one feline tail"
+    "Fairy Queen encounters Thomas the Rhymer",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Existing research names Aibhell among fairy queens. Selects that queen's specific attested white-cat enchantment, rather than adding wings to a generic human ruler. The historical source spells the enchanted princess Aoivil; publisher author passage corroborates Aoibheall's cat transformation.",
+  "historical_basis": [
+    {
+      "id": "fairy-queen-c01",
+      "source_id": "fairy-queen-s1",
+      "quote": "In folklore and literature, the Fairy Queen or Queen of the Fairies is a female ruler of the fairies, sometimes but not always paired with a king. Depending on the work, she may be named or unnamed; Titania and Mab are two frequently used names.",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Fairy Queen (Queen of the Fairies) penguasa perempuan peri, kadang berpasangan raja; nama Titania dan Mab; di Britania dan Irlandia.",
+        "en": "The Fairy Queen (Queen of the Fairies) is a female ruler of fairies, sometimes with a king; named Titania or Mab."
+      }
+    },
+    {
+      "id": "fairy-queen-c06",
+      "source_id": "fairy-queen-s1",
+      "quote": "An unnamed fairy queen appears in Thomas the Rhymer (Child 37), where she takes the titular character as her lover and leaves him with prophetic abilities.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam Thomas the Rhymer ratu peri menjadikan Thomas kekasih dan memberinya kemampuan bernubuat.",
+        "en": "In Thomas the Rhymer a fairy queen takes Thomas as lover and gives him prophetic powers."
+      }
+    }
+  ],
   "artistic_changes": [
     "Long white fur, pale green eyes, exact throne design, gilded arches and cave-water composition are artistic choices. Source supplies white cat, costly crimson cushion and enchanted cave-palace treasure."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image: one entirely feline white cat, two ears, distinct feline face, two straight forepaws and two folded hind paws, one complete curled tail. All paws, ears and tail within frame. No human face/hands, wings, crown, clothing, horns, companions, visible signature or readable text. Crimson cushion, treasure and cave setting support chosen named transformation."
+    "reviewer": "recover_session",
+    "notes": "Human regal queen inviting adult poet in woodland, coherent human figures, no cat.",
+    "native_sha256": "53bcd6cc69fa198033248cb0b9886cd4044474f2e272e98573dfed8051f62c9a"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T17:05:01.797Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Independently viewed: whole white cat with four paws and single tail on crimson throne cushion in treasure cave-palace. Selected Aoibheall/Aoivil enchanted form documented; no cat-human hybrid.",
-    "reviewed_at": "2026-10-04T17:56:02.723328+00:00"
-  }
+    "reviewer": "root",
+    "notes": "Regal human queen encounters Thomas the Rhymer; source-supported humanoid ruler with editorial dress, no invented animal form.",
+    "native_sha256": "53bcd6cc69fa198033248cb0b9886cd4044474f2e272e98573dfed8051f62c9a",
+    "reviewed_at": "2026-10-05T18:52:04.170378+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "fairy-queen",
+      "worker": "regen-3",
+      "prompt": "Use case: illustration-story. Square mature premium painterly mythology encyclopedia artwork of the FAIRY QUEEN selecting the specific Irish AOIBHEALL/AIBHELL/AOIVIL WHITE-CAT transformation. Existing fairy-queen research names Aibhell among Irish fairy queens; Mathew Horgan's1839 manuscript printed by Denham Franklin in Journal Cork Historical Archaeological Society1897 pp85-87 describes Aoivil transformed by her sister Clíodhna into a beautiful white cat, seated on a costly throne with crimson cushions in the enchanted cave palace at Castlecor, guarding gold and silver treasures. Show exactly ONE entirely feline WHITE CAT sitting with poised majestic calm on a small antique throne's deep crimson cushion. Full natural feline head with two cat ears, two eyes, cat muzzle and whiskers, one fluffy white feline torso, exactly FOUR cat legs/paws: two upright forepaws together, two naturally folded hind feet visibly separated, ONE long feline tail curled elegantly along the cushion with tip within frame. All feline anatomy coherent, every ear, paw and tail comfortably inside frame. The cat has a dignified sorrowful enchanted-princess gaze, not caricature. Rich ancient underground palace carved into limestone, subtle gilded architectural ornament and a few plain gold/silver coins on stone floor in background; coins carry no text. Soft impossible cave light, forest-green depths and antique gold highlights, crimson cushion small focal colour, luxurious detailed painterly brushwork. Exact fur length/eye colour, throne design and palace decoration are artistic choices; source supplies white cat and costly crimson throne. No human face/body, human hands, fairy wings, crown or costume on cat, horns, second cat, other animal, human companion, harp, weapon, text, letters, border, signature or watermark. It is Aoibheall's named transformed form, not Clíodhna herself and not a generic pet mascot.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/fairy-queen.png",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "depicted_variant": "Aoibheall/Aibhell/Aoivil, Irish fairy queen in enchanted white-cat form",
+      "visual_requirements": [
+        "Entire white feline body with four paws and one tail",
+        "Crimson throne cushion in enchanted treasure cave-palace",
+        "Named Irish queen variant, not Clíodhna herself"
+      ],
+      "basis_claim_ids": [
+        "fairy-queen-c01",
+        "fairy-queen-c03"
+      ],
+      "aura": "Majestic sorrowful enchanted queen guarding a radiant cave palace",
+      "additional_sources": [
+        {
+          "url": "https://corkhist.ie/wp-content/uploads/jfiles/1897/b1897-021.pdf",
+          "title": "Mathew Horgan1839 manuscript, published Denham Franklin1897, JCHAS3 pp85–87",
+          "evidence": "Historical story explicitly transforms younger sister Aoivil into a beautiful white cat. It places the cat on a costly throne with crimson cushions in Castlecor's enchanted cave-palace, guarding gold/silver treasure."
+        },
+        {
+          "url": "https://www.collectiveinkbooks.com/blogs/moon-books/chapter-5-aoibheall/",
+          "title": "Collective Ink publisher excerpt, Chapter5 Aoibheall",
+          "evidence": "Publisher's author text identifies Aoibheall as named fairy queen, records spelling variants and the Clíona rivalry ending in white-cat transformation. Used for linking Aibhell queen identity to the historical Aoivil cat account, without adopting author's personal devotional visions."
+        }
+      ],
+      "nonhuman_features": [
+        "Fully white-furred feline head, body, four cat paws and one feline tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Existing research names Aibhell among fairy queens. Selects that queen's specific attested white-cat enchantment, rather than adding wings to a generic human ruler. The historical source spells the enchanted princess Aoivil; publisher author passage corroborates Aoibheall's cat transformation.",
+      "artistic_changes": [
+        "Long white fur, pale green eyes, exact throne design, gilded arches and cave-water composition are artistic choices. Source supplies white cat, costly crimson cushion and enchanted cave-palace treasure."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image: one entirely feline white cat, two ears, distinct feline face, two straight forepaws and two folded hind paws, one complete curled tail. All paws, ears and tail within frame. No human face/hands, wings, crown, clothing, horns, companions, visible signature or readable text. Crimson cushion, treasure and cave setting support chosen named transformation."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T17:05:01.797Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Independently viewed: whole white cat with four paws and single tail on crimson throne cushion in treasure cave-palace. Selected Aoibheall/Aoivil enchanted form documented; no cat-human hybrid.",
+        "reviewed_at": "2026-10-04T17:56:02.723328+00:00"
+      }
+    }
+  ],
+  "native_sha256": "53bcd6cc69fa198033248cb0b9886cd4044474f2e272e98573dfed8051f62c9a",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/fairy-queen.json",
+    "native_sha256": "53bcd6cc69fa198033248cb0b9886cd4044474f2e272e98573dfed8051f62c9a",
+    "old_url": "/assets/art/fairy-queen-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/fairy-queen.png",
+    "old_webp_sha256": "7968d3faabacf6c9f59d5236f821330eefe09d44de7ae5c93e6388a176bd9d55",
+    "old_native_sha256": "9b8ac1b9ddceabcf23e663f242382e5919c3f456f3bbc863b073433cbaa4e933",
+    "rationale": "Replaces ordinary animal presentation with Fairy Queen encounters Thomas the Rhymer",
+    "basis_claim_ids": [
+      "fairy-queen-c01",
+      "fairy-queen-c06"
+    ]
+  },
+  "url": "/assets/art/fairy-queen-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "fe25bce772f180b6bc573fed727652fad6b160f158bd61983f84d194fa07efe4"
 }

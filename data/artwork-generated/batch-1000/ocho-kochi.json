@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "ocho-kochi",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Georgian folklore illustration of OCHOKOCHI selecting the rust-red fur huge goat-man forest monster. One upright half-human half-goat figure with humanoid torso, goatlike face and coarse RUST-RED FUR, long sharp CLAWS on hands, and a prominent AXE-SHAPED BONE PROTRUSION growing outward from the centre of CHEST. The chest protrusion is a single solid sharp pale bone/stone-axe hump, not a held weapon. Goat hind legs and hooves are editorial resolution of documented half-goat form, no horns unless needed by goat shape (omit to avoid unsupported head additions). Menacing hunched posture among dark Georgian forest, small trees establish documented huge size. Both hands/claws and chest axe visible in three-quarter front view, full body inside frame. Natural overcast moonlight and tree shadows convey horror; no glowing aura, neon outline, luminous mist, energy ribbons, gore, victims, female companion, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/ocho-kochi.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-1fa7f009-221d-4ce2-98d6-49dbff4e980d.png",
+  "depicted_variant": "Rust-red fur goat-man with axe-shaped chest protrusion",
+  "basis_claim_ids": [
+    "ocho-kochi-c01",
+    "ocho-kochi-c02",
+    "ocho-kochi-c03"
+  ],
+  "visual_requirements": [
+    "Half-man half-goat upright body in rust-red fur",
+    "Long hand claws",
+    "Axe-shaped pale chest protrusion"
+  ],
+  "aura": "Character presence through documented form, posture, framing, environment and natural light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: rust-red shaggy goat-man with two long-clawed hands, two goatlike hoof legs, one head without horns, pale axe blade growing from chest. Huge forest scale and threatening pose; no emitted magic."
+  },
+  "reviewed_at": "2026-10-05T13:13:12.557Z",
+  "artistic_choices": [
+    "Goatface/hoof resolution of half-goat identity and moonlit forest are editorial anatomy staging; chest axe/rust-red fur/claws explicitly sourced."
+  ],
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "native_sha256": "f7bfd005dcc16928c4e0f9838428da3206db6a2fe03a5cb62d2ca9d8f24a9420",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "f7bfd005dcc16928c4e0f9838428da3206db6a2fe03a5cb62d2ca9d8f24a9420",
+    "notes": "Inspected upright half-man/half-goat forest being covered rust-red fur, long hand claws, pale axe-shaped chest protrusion. No magical glow; fits c01/c02/c03."
+  }
+}

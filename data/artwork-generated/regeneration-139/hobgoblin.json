@@ -1,22 +1,19 @@
 {
   "slug": "hobgoblin",
   "worker": "regen-3",
-  "prompt": "Square premium painterly mythology encyclopedia illustration of one HOBGOBLIN, specifically Puck / Robin Goodfellow transformed entirely into a HOUND as he explicitly says in Shakespeare's A Midsummer Night's Dream Act 3 Scene 1. Show ONE lean lively walnut-brown hound prancing sideways across an old English woodland path at night, ready to lead strangers astray. Entire body is canine: one elongated canine head and nose, two dog ears, exactly four legs ending in four paws, one curved dog tail. No human torso, hands, facial features or clothing. The hound glances knowingly sideways with a playful alert expression, not sinister hellhound. Four paws separated clearly, tail tip visible, every part comfortably inside frame. Dark forest green leaves, old walnut tree roots, antique-gold moonlit edge light and deep rich earthy brushwork; mature detailed painterly mythological art, lively magical fairy-trickster aura expressed through pose and scene without adding invented physical traits. No wings, horns, fire, extra limbs, multiple bodies, collar, leash, owner, prey, text, border or watermark. This depicts Puck's documented animal transformation, not an ordinary human dressed as a fairy.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/hobgoblin.png",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Hobgoblin's explicitly documented small hairy man form: one knee-high hairy adult human household spirit sweeping a rustic hearth with broom while the family sleeps in beds farther back. Human face, arms, hands and feet, coarse body hair, modest opaque trousers. Clear small scale and secret helpful action, no animal ears, no dog, no glow. Furniture and garment are editorial. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/hobgoblin-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "Puck/Robin Goodfellow transformed into a hound in Shakespeare's A Midsummer Night's Dream",
+  "depicted_variant": "Hobgoblin's explicitly documented small hairy man form: one knee-high hairy adult human household spirit sweeping a rustic hearth with broom while the family sleeps in beds farther back. Human face, arms, hands and feet, coarse body hair, modest opaque trousers. Clear small scale and secret helpful action, no animal ears, no dog, no glow. Furniture and garment are editorial.",
   "visual_requirements": [
-    "One entirely canine hound body",
-    "One head, four legs/paws, one tail",
-    "Lively mischievous night-roaming woodland appearance",
-    "No human-form Puck or hybrid invented anatomy"
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
   "basis_claim_ids": [
-    "hobgoblin-c01",
-    "hobgoblin-c04",
-    "hobgoblin-c09"
+    "hobgoblin-c03"
   ],
-  "aura": "Playful trickster mischief and alert nocturnal fairy energy",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "additional_sources": [
     {
       "url": "https://www.folgerdigitaltexts.org/MND/",
@@ -25,24 +22,110 @@
     }
   ],
   "nonhuman_features": [
-    "Fully canine transformation: quadruped body, muzzle, paws and tail"
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Shakespeare identifies Robin Goodfellow/Puck as a hobgoblin; Act 3 Scene 1 explicitly lists hound among his chosen forms.",
+  "historical_basis": [
+    {
+      "id": "hobgoblin-c03",
+      "source_id": "hobgoblin-s1",
+      "quote": "Hobgoblins seem to be small, hairy little men who, like their close relatives the brownies, are often found within human dwellings, doing odd jobs around the house while the family is asleep. Such chores are typically small tasks like dusting and ironing.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Hobgoblin lelaki kecil berbulu, kerabat brownie, mengerjakan tugas rumah saat keluarga tidur.",
+        "en": "Hobgoblins are small hairy men, kin of brownies, doing house chores while the family sleeps."
+      }
+    }
+  ],
   "artistic_changes": [
     "Hound breed is unspecified in the text; generic lean hound, walnut coat, pose, forest path and moonlight are aesthetic choices."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image. One fully canine walnut-coloured hound: one long muzzled head, two dog ears, exactly four separated legs ending in four paws and one curved tail. All paws and tail tip fit frame. No human face, torso, hands, costume or added anatomy. Jaunty side-step, sly alert glance and antique-gold moonlight on woodland roots preserve Puck's playful trickster aura. Matches the explicitly documented hound transformation rather than a generic humanoid hobgoblin."
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Small hairy adult humanoid sweeping hearth while family sleeps; scale, hands, feet and helpful action coherent.",
+    "native_sha256": "96b932eb6764396e2820a7dbd0d6dc120786a848909c20b8f33c24f0342c9f42"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T14:00:26.695Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Viewed source-labelled contact image: complete lean hound, one dog head/tail, four legs with visible paw endpoints, no human traits. Jaunty alert stride fits primary-text Puck hound manifestation as one named hobgoblin example.",
-    "reviewed_at": "2026-10-04T21:37:18.735933+07:00"
-  }
+    "reviewer": "root",
+    "native_sha256": "96b932eb6764396e2820a7dbd0d6dc120786a848909c20b8f33c24f0342c9f42",
+    "notes": "Inspected native: knee-high hairy adult human sweeps a hearth while a family sleeps behind him. The supported small hairy household helper and nocturnal chores are explicit; human hands and feet, no dog anatomy.",
+    "reviewed_at": "2026-10-05T18:08:04.034007+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "hobgoblin",
+      "worker": "regen-3",
+      "prompt": "Square premium painterly mythology encyclopedia illustration of one HOBGOBLIN, specifically Puck / Robin Goodfellow transformed entirely into a HOUND as he explicitly says in Shakespeare's A Midsummer Night's Dream Act 3 Scene 1. Show ONE lean lively walnut-brown hound prancing sideways across an old English woodland path at night, ready to lead strangers astray. Entire body is canine: one elongated canine head and nose, two dog ears, exactly four legs ending in four paws, one curved dog tail. No human torso, hands, facial features or clothing. The hound glances knowingly sideways with a playful alert expression, not sinister hellhound. Four paws separated clearly, tail tip visible, every part comfortably inside frame. Dark forest green leaves, old walnut tree roots, antique-gold moonlit edge light and deep rich earthy brushwork; mature detailed painterly mythological art, lively magical fairy-trickster aura expressed through pose and scene without adding invented physical traits. No wings, horns, fire, extra limbs, multiple bodies, collar, leash, owner, prey, text, border or watermark. This depicts Puck's documented animal transformation, not an ordinary human dressed as a fairy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/hobgoblin.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "Puck/Robin Goodfellow transformed into a hound in Shakespeare's A Midsummer Night's Dream",
+      "visual_requirements": [
+        "One entirely canine hound body",
+        "One head, four legs/paws, one tail",
+        "Lively mischievous night-roaming woodland appearance",
+        "No human-form Puck or hybrid invented anatomy"
+      ],
+      "basis_claim_ids": [
+        "hobgoblin-c01",
+        "hobgoblin-c04",
+        "hobgoblin-c09"
+      ],
+      "aura": "Playful trickster mischief and alert nocturnal fairy energy",
+      "additional_sources": [
+        {
+          "url": "https://www.folgerdigitaltexts.org/MND/",
+          "title": "Folger Shakespeare Library — A Midsummer Night's Dream, Act 3 Scene 1",
+          "evidence": "Puck says he will appear as a horse, hound, hog, headless bear or fire; this image selects hound."
+        }
+      ],
+      "nonhuman_features": [
+        "Fully canine transformation: quadruped body, muzzle, paws and tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Shakespeare identifies Robin Goodfellow/Puck as a hobgoblin; Act 3 Scene 1 explicitly lists hound among his chosen forms.",
+      "artistic_changes": [
+        "Hound breed is unspecified in the text; generic lean hound, walnut coat, pose, forest path and moonlight are aesthetic choices."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image. One fully canine walnut-coloured hound: one long muzzled head, two dog ears, exactly four separated legs ending in four paws and one curved tail. All paws and tail tip fit frame. No human face, torso, hands, costume or added anatomy. Jaunty side-step, sly alert glance and antique-gold moonlight on woodland roots preserve Puck's playful trickster aura. Matches the explicitly documented hound transformation rather than a generic humanoid hobgoblin."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T14:00:26.695Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Viewed source-labelled contact image: complete lean hound, one dog head/tail, four legs with visible paw endpoints, no human traits. Jaunty alert stride fits primary-text Puck hound manifestation as one named hobgoblin example.",
+        "reviewed_at": "2026-10-04T21:37:18.735933+07:00"
+      }
+    }
+  ],
+  "native_sha256": "96b932eb6764396e2820a7dbd0d6dc120786a848909c20b8f33c24f0342c9f42",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/hobgoblin.json",
+    "native_sha256": "96b932eb6764396e2820a7dbd0d6dc120786a848909c20b8f33c24f0342c9f42",
+    "old_url": "/assets/art/hobgoblin-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/hobgoblin.png",
+    "old_webp_sha256": "99c8e7b0336190bbb7ff211a20785c45b3a68b53abb1c50c64e37dfa81d4889d",
+    "old_native_sha256": "2ad67406f074abbe9b8a6d9a8bee2a3bc42f618e2fc4b6829399e46277459938",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "hobgoblin-c03"
+    ]
+  },
+  "url": "/assets/art/hobgoblin-regeneration-139-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "511be0a6ec4a873be567e79e695b02e5e0e2b030f3f5c028824cb909204292ed"
 }

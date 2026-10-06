@@ -266,24 +266,86 @@
     },
     {
       "slug": "moddey-dhoo",
-      "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Moddey Dhoo from Manx folklore, the large BLACK SPANIEL variant with curled shaggy hair, long drooping ears, shadowy watchful eyes, standing in medieval Peel Castle guard-chamber at dusk. Four dog legs, phantom presence and eerie shadows, no fire or horns, no red eyes required.",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Moddey Dhoo phantom black curly spaniel emerging from Peel Castle's narrow dark passage into the guard chamber. One black dog looms in foreground while a lone terrified watchman recoils beside a real torch at passage end. Its unnaturally still gaze and slightly transparent edge in deep shadows suggest documented phantom nature, no colored glow or extra monster anatomy. Natural dog legs, medieval watchman costume editorial. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
       "basis_claims": [
         "moddey-dhoo-c01",
         "moddey-dhoo-c03",
         "moddey-dhoo-c04"
       ],
-      "depicted_variant": "Peel Castle large black shaggy spaniel",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-52693e92-53ee-4053-9a6a-4eddd7dc4912.png",
+      "depicted_variant": "Moddey Dhoo phantom black curly spaniel emerging from Peel Castle's narrow dark passage into the guard chamber. One black dog looms in foreground while a lone terrified watchman recoils beside a real torch at passage end. Its unnaturally still gaze and slightly transparent edge in deep shadows suggest documented phantom nature, no colored glow or extra monster anatomy. Natural dog legs, medieval watchman costume editorial.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/moddey-dhoo.png",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Large black curly-haired spaniel with drooping ears in shadowy guard chamber; normal dog anatomy and eerie setting."
+        "reviewer": "assess_changes",
+        "notes": "Native individually viewed: Curly black spaniel emerges passage toward frightened watchman; translucent shadow edge reads phantom, no colored aura.",
+        "native_sha256": "a473eeb751e8cad860fd0c8b12ca9c2db71ce6f5646a30fcf567a54ac49d14c0"
       },
       "status": "complete",
       "canonical_name": "Moddey Dhoo",
       "review_path": "data/gemini/reviews/batch-118.review.json",
-      "url": "/assets/art/moddey-dhoo-verified.webp",
-      "width": 1254,
-      "height": 1254
+      "url": "/assets/art/moddey-dhoo-mythic-presence.webp",
+      "width": 1024,
+      "height": 1536,
+      "presentation_revision_history": [
+        {
+          "slug": "moddey-dhoo",
+          "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Moddey Dhoo from Manx folklore, the large BLACK SPANIEL variant with curled shaggy hair, long drooping ears, shadowy watchful eyes, standing in medieval Peel Castle guard-chamber at dusk. Four dog legs, phantom presence and eerie shadows, no fire or horns, no red eyes required.",
+          "basis_claims": [
+            "moddey-dhoo-c01",
+            "moddey-dhoo-c03",
+            "moddey-dhoo-c04"
+          ],
+          "depicted_variant": "Peel Castle large black shaggy spaniel",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-52693e92-53ee-4053-9a6a-4eddd7dc4912.png",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Large black curly-haired spaniel with drooping ears in shadowy guard chamber; normal dog anatomy and eerie setting."
+          },
+          "status": "complete",
+          "canonical_name": "Moddey Dhoo",
+          "review_path": "data/gemini/reviews/batch-118.review.json",
+          "url": "/assets/art/moddey-dhoo-verified.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "visual_requirements": [
+        "Documented form or event",
+        "Coherent anatomy",
+        "No arbitrary aura"
+      ],
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "basis_claim_ids": [
+        "moddey-dhoo-c01",
+        "moddey-dhoo-c03",
+        "moddey-dhoo-c04",
+        "moddey-dhoo-c05"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Curly black spaniel emerges from dark castle passage near terrified watchman, restrained phantom edges and coherent dog anatomy.",
+        "native_sha256": "a473eeb751e8cad860fd0c8b12ca9c2db71ce6f5646a30fcf567a54ac49d14c0",
+        "reviewed_at": "2026-10-05T18:36:56.593289+00:00"
+      },
+      "native_sha256": "a473eeb751e8cad860fd0c8b12ca9c2db71ce6f5646a30fcf567a54ac49d14c0",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/moddey-dhoo.json",
+        "native_sha256": "a473eeb751e8cad860fd0c8b12ca9c2db71ce6f5646a30fcf567a54ac49d14c0",
+        "old_url": "/assets/art/moddey-dhoo-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-52693e92-53ee-4053-9a6a-4eddd7dc4912.png",
+        "old_webp_sha256": "b11d5667fc6d5e314d9089ec2dec9bdb9cb1349c8b87a0b2ba9b83d0c74aa747",
+        "old_native_sha256": null,
+        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "basis_claim_ids": [
+          "moddey-dhoo-c01",
+          "moddey-dhoo-c03",
+          "moddey-dhoo-c04",
+          "moddey-dhoo-c05"
+        ]
+      },
+      "sha256": "210c632e08e7bdd317530626eacae1f5a6a1639e7d3616a783867f3621343cca"
     },
     {
       "slug": "nandi-hinduism",
@@ -562,23 +624,82 @@
     },
     {
       "slug": "zouyu",
-      "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Zouyu of old Chinese literature in Shuowen Jiezi WHITE TIGER WITH BLACK SPOTS variant: large powerful tiger-built feline with pure white coat covered in distinct black SPOTS, NOT stripes, tiger-shaped head and muscular tiger body, gentle calm eyes and closed mouth, four paws. Standing among bamboo and rocks in eerie mist; fierce-looking but benevolent vegetarian, no prey, no horns or wings.",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Zouyu, gentle vegetarian tiger-like auspicious animal presented before the Yongle imperial court: powerful tiger-like creature calmly chews leafy vegetables from a ceremonial basket while richly clothed Chinese courtiers and benevolent ruler watch in wonder, the animal's harmless vegetarian act is unmistakable. Natural tiger anatomy without extra limbs, editorial pale coat and dark pattern, courtyard architecture and robes editorial. No glow, no ordinary wildlife background. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
       "basis_claims": [
         "zouyu-c03",
         "zouyu-c04"
       ],
-      "depicted_variant": "White tiger with black spots",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-b64abd98-cc9e-402c-bd46-a5f347860b8c.png",
+      "depicted_variant": "Zouyu, gentle vegetarian tiger-like auspicious animal presented before the Yongle imperial court: powerful tiger-like creature calmly chews leafy vegetables from a ceremonial basket while richly clothed Chinese courtiers and benevolent ruler watch in wonder, the animal's harmless vegetarian act is unmistakable. Natural tiger anatomy without extra limbs, editorial pale coat and dark pattern, courtyard architecture and robes editorial. No glow, no ordinary wildlife background.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/zouyu.png",
       "visual_review": {
         "verdict": "pass",
-        "notes": "White tiger-built feline with distinct black spots instead of stripes, gentle closed-mouth expression; misty numinous setting."
+        "reviewer": "assess_changes",
+        "notes": "Native individually viewed: Tiger-like animal calmly eats vegetables presented before Chinese emperor/courtiers; vegetarian auspicious role clear.",
+        "native_sha256": "47b90c0d8ed710ec69f8e213c4f043f64b1e4216dfd97ac1180c6d08995953a0"
       },
       "status": "complete",
       "canonical_name": "Zouyu",
       "review_path": "data/gemini/reviews/batch-067.review.json",
-      "url": "/assets/art/zouyu-verified.webp",
-      "width": 1254,
-      "height": 1254
+      "url": "/assets/art/zouyu-mythic-presence.webp",
+      "width": 1024,
+      "height": 1536,
+      "presentation_revision_history": [
+        {
+          "slug": "zouyu",
+          "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Zouyu of old Chinese literature in Shuowen Jiezi WHITE TIGER WITH BLACK SPOTS variant: large powerful tiger-built feline with pure white coat covered in distinct black SPOTS, NOT stripes, tiger-shaped head and muscular tiger body, gentle calm eyes and closed mouth, four paws. Standing among bamboo and rocks in eerie mist; fierce-looking but benevolent vegetarian, no prey, no horns or wings.",
+          "basis_claims": [
+            "zouyu-c03",
+            "zouyu-c04"
+          ],
+          "depicted_variant": "White tiger with black spots",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-b64abd98-cc9e-402c-bd46-a5f347860b8c.png",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "White tiger-built feline with distinct black spots instead of stripes, gentle closed-mouth expression; misty numinous setting."
+          },
+          "status": "complete",
+          "canonical_name": "Zouyu",
+          "review_path": "data/gemini/reviews/batch-067.review.json",
+          "url": "/assets/art/zouyu-verified.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "visual_requirements": [
+        "Documented form or event",
+        "Coherent anatomy",
+        "No arbitrary aura"
+      ],
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "basis_claim_ids": [
+        "zouyu-c03",
+        "zouyu-c04",
+        "zouyu-c05"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Gentle tiger-like animal visibly eats leafy vegetables before imperial court; coherent tiger anatomy and sourced vegetarian identity.",
+        "native_sha256": "47b90c0d8ed710ec69f8e213c4f043f64b1e4216dfd97ac1180c6d08995953a0",
+        "reviewed_at": "2026-10-05T18:36:56.599093+00:00"
+      },
+      "native_sha256": "47b90c0d8ed710ec69f8e213c4f043f64b1e4216dfd97ac1180c6d08995953a0",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/zouyu.json",
+        "native_sha256": "47b90c0d8ed710ec69f8e213c4f043f64b1e4216dfd97ac1180c6d08995953a0",
+        "old_url": "/assets/art/zouyu-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-b64abd98-cc9e-402c-bd46-a5f347860b8c.png",
+        "old_webp_sha256": "5a172a3e0c9a970e40d47523f5c44c57bb2413bcc6379b2799054c50f6174a20",
+        "old_native_sha256": null,
+        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "basis_claim_ids": [
+          "zouyu-c03",
+          "zouyu-c04",
+          "zouyu-c05"
+        ]
+      },
+      "sha256": "023f528cc4ea08765d2656aedad9c71ba134dd55c796dfc0127f7cb625b37868"
     },
     {
       "slug": "abada",
@@ -714,12 +835,13 @@
     {
       "slug": "boobrie",
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: An enormous cormorant-like black water bird with white-spotted plumage, long neck and hooked bill, standing beside a misty Scottish loch. Full bird, two wings and two webbed feet visible; towering over shoreline reeds.",
-      "depicted_variant": "Giant cormorantlike water-bird variant",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-2540938e-ecdc-486d-88d6-374339530163.png",
+      "depicted_variant": "Giant white-spotted Boobrie confronting livestock on a boat",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/boobrie.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Giant white-spotted cormorantlike bird, hooked bill and webbed feet clearly shown by misty loch; ominous scale."
+        "reviewer": "recover_session",
+        "notes": "White-spotted giant diving bird dwarfs calves and boat; wing outer tips cropped but signature anatomy clear."
       },
       "canonical_name": "Boobrie",
       "review_path": "data/gemini/reviews/batch-116.review.json",
@@ -747,18 +869,94 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/boobrie-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: An enormous cormorant-like black water bird with white-spotted plumage, long neck and hooked bill, standing beside a misty Scottish loch. Full bird, two wings and two webbed feet visible; towering over shoreline reeds."
+      "url": "/assets/art/boobrie-mythic-presence.webp",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. A GIANT BLACK DIVING BIRD shaped like a cormorant with WHITE SPOTS across its dark plumage looms above a small wooden cargo boat on a Scottish loch. Source-supported huge scale explicit: bird's long thick bill and head as long as a whole calf; wings arched broad over boat containing TWO calves and one fully clothed adult boatman. Calves alive, no attack contact or gore, boatman paddles urgently. Two bird legs, two wings, one head, normal diving-bird structure enlarged. Steep Highland shore. Myth episode of preying on livestock transported in ships shown as ominous encounter. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "presentation_revision_history": [
+        {
+          "slug": "boobrie",
+          "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: An enormous cormorant-like black water bird with white-spotted plumage, long neck and hooked bill, standing beside a misty Scottish loch. Full bird, two wings and two webbed feet visible; towering over shoreline reeds.",
+          "depicted_variant": "Giant cormorantlike water-bird variant",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-2540938e-ecdc-486d-88d6-374339530163.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Giant white-spotted cormorantlike bird, hooked bill and webbed feet clearly shown by misty loch; ominous scale."
+          },
+          "canonical_name": "Boobrie",
+          "review_path": "data/gemini/reviews/batch-116.review.json",
+          "basis_claims": [
+            {
+              "id": "boobrie-c01",
+              "source_id": "boobrie-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The boobrie is a shapeshifter of west-coast Scottish lochs, a giant water bird like a cormorant or great northern diver, or a water bull.",
+              "statement_id": "Boobrie pengubah wujud di danau (lochs) pantai barat Skotlandia (Scotland), burung air raksasa mirip kormoran atau great northern diver, juga banteng air; di Britania Raya.",
+              "quote": "The boobrie is a mythological shapeshifting entity inhabiting the lochs of the west coast of Scotland. It commonly adopts the appearance of a gigantic water bird resembling a cormorant or great northern diver, but it can also materialise in the form of various other mythological creatures such as a water bull.",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "boobrie-c06",
+              "source_id": "boobrie-s2",
+              "host": "fr.wikipedia.org",
+              "statement": "A huge seabird like the cormorant or Plongeon huard, white-spotted, bellowing, devouring sheep and cattle.",
+              "statement_id": "Burung laut raksasa mirip kormoran atau Plongeon huard, berbintik putih, melenguh, melahap domba dan sapi.",
+              "quote": "Il est communément décrit comme un énorme oiseau de mer, ressemblant au cormoran ou au Plongeon huard (Gavia immer), mais dont le corps serait taché de blanc et qui serait capable de mugir. Sa corpulence lui permet de dévorer des moutons et des bovins.",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/boobrie-verified.webp",
+          "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: An enormous cormorant-like black water bird with white-spotted plumage, long neck and hooked bill, standing beside a misty Scottish loch. Full bird, two wings and two webbed feet visible; towering over shoreline reeds."
+        }
+      ],
+      "visual_requirements": [
+        "Giant white-spotted Boobrie confronting livestock on a boat",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "boobrie-c01",
+        "boobrie-c06",
+        "boobrie-c08"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "15f2c38bad506c77dfa01b7833606bffce0acab35e2be24e531c927599e8393c",
+        "notes": "Inspected native: immense white-spotted cormorant-like bird with coherent wings and webbed feet looms over a boat carrying calves and a boatman. The supported giant seabird and livestock-preying episode establish identity without gore.",
+        "reviewed_at": "2026-10-05T18:02:46.354828+00:00"
+      },
+      "native_sha256": "15f2c38bad506c77dfa01b7833606bffce0acab35e2be24e531c927599e8393c",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/boobrie.json",
+        "native_sha256": "15f2c38bad506c77dfa01b7833606bffce0acab35e2be24e531c927599e8393c",
+        "old_url": "/assets/art/boobrie-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-2540938e-ecdc-486d-88d6-374339530163.png",
+        "old_webp_sha256": "71d8665886ff949707f4aaa02899551b37134eec1d16fd41f47ea20dddf629e2",
+        "old_native_sha256": null,
+        "rationale": "Replaces ordinary animal presentation with Giant white-spotted Boobrie confronting livestock on a boat",
+        "basis_claim_ids": [
+          "boobrie-c01",
+          "boobrie-c06",
+          "boobrie-c08"
+        ]
+      },
+      "sha256": "ad38fdc303e06467ba7600abca4ea256deec4ea9a14313bd7dbe4f493bb99fa7"
     },
     {
       "slug": "ceffyl-dwr",
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A beautiful black horse with a flowing distinctly white mane standing at a Welsh mountain waterfall pool. Four legs fully visible, wet coat, mountain mist. No wings, no rider.",
-      "depicted_variant": "Black white-maned water horse variant",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-484a6004-3f30-4476-8d1a-d7d82d9beb57.png",
+      "depicted_variant": "Ceffyl Dŵr in its explicitly recorded WINGED Welsh water-horse variant: a black horse with white mane, four natural horse legs and two broad feathered wings connected to shoulders, airborne above a mountain waterfall and deep pool. Use naturalistic feathers as artistic implementation of the source's wings, not a separate claim. Full silhouette with both wings clearly spread; horse has one head and one tail. No Pegasus borrowing except recorded wings; no glowing eyes or vaporbody.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ceffyl-dwr.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Black horse with white mane, four legs and no wings beside mountain waterfall; uncanny dark mood."
+        "reviewer": "inspect_workspace",
+        "notes": "Winged black white-maned horse with four coherent legs flies over waterfall; source variant strong."
       },
       "canonical_name": "Ceffyl Dŵr",
       "review_path": "data/gemini/reviews/batch-117.review.json",
@@ -776,8 +974,70 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/ceffyl-dwr-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A beautiful black horse with a flowing distinctly white mane standing at a Welsh mountain waterfall pool. Four legs fully visible, wet coat, mountain mist. No wings, no rider."
+      "url": "/assets/art/ceffyl-dwr-mythic-presence.webp",
+      "prompt": "Ceffyl Dŵr in its explicitly recorded WINGED Welsh water-horse variant: a black horse with white mane, four natural horse legs and two broad feathered wings connected to shoulders, airborne above a mountain waterfall and deep pool. Use naturalistic feathers as artistic implementation of the source's wings, not a separate claim. Full silhouette with both wings clearly spread; horse has one head and one tail. No Pegasus borrowing except recorded wings; no glowing eyes or vaporbody. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
+      "presentation_revision_history": [
+        {
+          "slug": "ceffyl-dwr",
+          "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A beautiful black horse with a flowing distinctly white mane standing at a Welsh mountain waterfall pool. Four legs fully visible, wet coat, mountain mist. No wings, no rider.",
+          "depicted_variant": "Black white-maned water horse variant",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-484a6004-3f30-4476-8d1a-d7d82d9beb57.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Black horse with white mane, four legs and no wings beside mountain waterfall; uncanny dark mood."
+          },
+          "canonical_name": "Ceffyl Dŵr",
+          "review_path": "data/gemini/reviews/batch-117.review.json",
+          "basis_claims": [
+            {
+              "id": "ceffyl-dwr-c02",
+              "source_id": "ceffyl-dwr-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Lives in mountain pools and waterfalls; a spirit as a grey or black white-maned horse, sometimes winged.",
+              "statement_id": "Menghuni kolam gunung dan air terjun; roh berwujud kuda kelabu atau hitam bersurai putih, kadang bersayap.",
+              "quote": "The ceffyl dŵr is said to inhabit mostly mountain pools and waterfalls, though it has been known to frequent rivers and seashores as well. It was believed to be a spirit assuming the shape of a horse, usually grey or black with a white mane, sometimes glowing or winged, to entice unwary travellers to ride him.",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/ceffyl-dwr-verified.webp",
+          "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A beautiful black horse with a flowing distinctly white mane standing at a Welsh mountain waterfall pool. Four legs fully visible, wet coat, mountain mist. No wings, no rider."
+        }
+      ],
+      "visual_requirements": [
+        "Documented variant or episode clearly visible",
+        "Coherent required anatomy",
+        "No generic aura"
+      ],
+      "aura": "None; environmental sunlight/moonlight/fire only.",
+      "basis_claim_ids": [
+        "ceffyl-dwr-c02"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "717e35a60389f3f3ac375958441c42c410d8504c0e96b365c3e07fea5ba0a4ee",
+        "notes": "Inspected native: black white-maned horse with four coherent legs and two feathered wings flies over a mountain waterfall and pool. The cited winged variant supports the silhouette; feather texture is declared artistic implementation, no invented luminous powers.",
+        "reviewed_at": "2026-10-05T18:12:41.629245+00:00"
+      },
+      "native_sha256": "717e35a60389f3f3ac375958441c42c410d8504c0e96b365c3e07fea5ba0a4ee",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/ceffyl-dwr.json",
+        "native_sha256": "717e35a60389f3f3ac375958441c42c410d8504c0e96b365c3e07fea5ba0a4ee",
+        "old_url": "/assets/art/ceffyl-dwr-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-484a6004-3f30-4476-8d1a-d7d82d9beb57.png",
+        "old_webp_sha256": "b5efea5dbea2738307764b2036fbcb67342f2ec6812f35e8edeae3d75b8dd0d8",
+        "old_native_sha256": null,
+        "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+        "basis_claim_ids": [
+          "ceffyl-dwr-c02"
+        ]
+      },
+      "sha256": "92f7ae2476b63d1247886e61f5b09a6d35624144ae70e33ae0008558d7bd4c2e"
     },
     {
       "slug": "dark-watchers",
@@ -1549,12 +1809,13 @@
     {
       "slug": "otso",
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic broad-foreheaded brown bear, natural bear anatomy on all four paws, standing in an ancient Finnish pine forest. Quiet reverent atmosphere and soft northern light express the sacred king of animals. No crown, antlers, wings, or jewelry.",
-      "depicted_variant": "Sacred Finnish forest bear",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-976e54b6-d802-493c-96e3-af8675644927.png",
+      "depicted_variant": "Otso sacred Finnish bear in the recorded creation episode: Ukko has thrown wool into sea and the bear comes into being from bits of wool reaching shore. Show natural bear rising on rocky surf shore, its damp fur transitioning from floating tufts of pale wool clustered below; high above a distant human-shaped weather god tosses wool into waves. This is mythic creation, not wildlifephoto. Ukko's age/clothes editorial. No starlight variantmixed, no antlers, wings, aura.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/otso.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Broad-foreheaded natural brown bear in Finnish conifers; sacred numinous lighting, no invented crown or horns."
+        "reviewer": "inspect_workspace",
+        "notes": "Natural bear emerges amid wool at sea shore while Ukko throws wool above; recorded creation episode rendered withoutgeneric aura."
       },
       "canonical_name": "Otso",
       "review_path": "data/gemini/reviews/batch-125.review.json",
@@ -1592,8 +1853,90 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/otso-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic broad-foreheaded brown bear, natural bear anatomy on all four paws, standing in an ancient Finnish pine forest. Quiet reverent atmosphere and soft northern light express the sacred king of animals. No crown, antlers, wings, or jewelry."
+      "url": "/assets/art/otso-mythic-presence.webp",
+      "prompt": "Otso: Otso sacred Finnish bear in the recorded creation episode: Ukko has thrown wool into sea and the bear comes into being from bits of wool reaching shore. Show natural bear rising on rocky surf shore, its damp fur transitioning from floating tufts of pale wool clustered below; high above a distant human-shaped weather god tosses wool into waves. This is mythic creation, not wildlifephoto. Ukko's age/clothes editorial. No starlight variantmixed, no antlers, wings, aura. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "presentation_revision_history": [
+        {
+          "slug": "otso",
+          "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic broad-foreheaded brown bear, natural bear anatomy on all four paws, standing in an ancient Finnish pine forest. Quiet reverent atmosphere and soft northern light express the sacred king of animals. No crown, antlers, wings, or jewelry.",
+          "depicted_variant": "Sacred Finnish forest bear",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-976e54b6-d802-493c-96e3-af8675644927.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Broad-foreheaded natural brown bear in Finnish conifers; sacred numinous lighting, no invented crown or horns."
+          },
+          "canonical_name": "Otso",
+          "review_path": "data/gemini/reviews/batch-125.review.json",
+          "basis_claims": [
+            {
+              "id": "otso-c01",
+              "source_id": "otso-s1",
+              "host": "en.wikipedia.org",
+              "statement": "In Finnish mythology Otso (also Karhu, Ohto, Kontio, Metsän kuningas and Mesikämmen) is a bear, the sacred king of animals and leader of the forest, deeply feared and respected by old Finnish tribes, and he appears in the national epic Kalevala.",
+              "statement_id": "Dalam mitologi Finlandia, Otso (juga Karhu, Ohto, Kontio, Metsän kuningas, dan Mesikämmen) adalah beruang, raja suci para hewan dan pemimpin hutan, yang sangat ditakuti dan dihormati suku-suku Finlandia kuno, dan ia muncul dalam epos nasional Kalevala.",
+              "quote": "In Finnish mythology, Otso (also known as Karhu, Ohto, Kontio, Metsän kuningas, and Mesikämmen) is a bear, the sacred king of animals and leader of the forest. It was deeply feared and respected by old Finnish tribes. Otso appears in the Finnish national epic, the Kalevala.",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "otso-c02",
+              "source_id": "otso-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Otso is not a particular bear's spirit but the collective animistic spirit of all bears.",
+              "statement_id": "Otso bukan roh seekor beruang tertentu, melainkan roh animistis kolektif seluruh beruang.",
+              "quote": "Otso is not a particular individual bear spirit, but rather the collective animistic spirit of all bears.",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "otso-c07",
+              "source_id": "otso-s2",
+              "host": "fr.wikipedia.org",
+              "statement": "Otso (\"broad forehead\"), Ohto, Kontio, metsän kuningas (\"king of the forest\") and mesikämmen (\"honey paw\") are the main circumlocutions in Finnish mythology for the spirit of the bear, which must never be named.",
+              "statement_id": "Otso (\"si dahi lebar\"), Ohto, Kontio, metsän kuningas (\"raja hutan\"), dan mesikämmen (\"cakar madu\") adalah sebutan kiasan utama dalam mitologi Finlandia untuk roh beruang, yang tidak boleh disebut namanya secara langsung.",
+              "quote": "Otso (« le front large »), Ohto, Kontio, metsän kuningas (« le roi de la forêt »), et mesikämmen (« pattes de miel »), sont les principales circonlocutions utilisées dans la mythologie finnoise, pour désigner l'esprit de l'ours, que l'on ne doit jamais nommer.",
+              "context": "etymology",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/otso-verified.webp",
+          "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic broad-foreheaded brown bear, natural bear anatomy on all four paws, standing in an ancient Finnish pine forest. Quiet reverent atmosphere and soft northern light express the sacred king of animals. No crown, antlers, wings, or jewelry."
+        }
+      ],
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
+      "aura": "Source-documented wool-to-bear creation, without added beams or aura.",
+      "basis_claim_ids": [
+        "otso-c03"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Bear formed from wool landing at seashore while Ukko casts wool overhead; visible creation episode and coherent bear anatomy.",
+        "native_sha256": "55f63a8b2f3003b851815f3e49bb67eac604cfa670d048efee9dd1dfe9a5cd83",
+        "reviewed_at": "2026-10-05T18:35:59.179539+00:00"
+      },
+      "native_sha256": "55f63a8b2f3003b851815f3e49bb67eac604cfa670d048efee9dd1dfe9a5cd83",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/otso.json",
+        "native_sha256": "55f63a8b2f3003b851815f3e49bb67eac604cfa670d048efee9dd1dfe9a5cd83",
+        "old_url": "/assets/art/otso-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-976e54b6-d802-493c-96e3-af8675644927.png",
+        "old_webp_sha256": "9028bd377a24be7488dcca797a44c929c1729f842cebf7cc94bfb66adfd27509",
+        "old_native_sha256": null,
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "otso-c03"
+        ]
+      },
+      "sha256": "2d2c914f0d41a28849e600ea9235b7d6d870cdcc57f34d78d5382918e9a1bb44"
     },
     {
       "slug": "pangu",
@@ -1795,16 +2138,18 @@
     {
       "slug": "arkan-sonney",
       "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Arkan Sonney, the lucky fairy pig of Manx folklore, as a small white pig with distinctly red eyes and red ears standing on a mossy path in an Isle of Man woodland. Full body, four short pig legs, cloven hooves, rounded pig snout, curled pig tail; bright white bristles and visibly red ears. A gentle enchanted presence. Depict ONLY the pig variant, no hedgehog spines, no wings, no human features. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration.",
-      "depicted_variant": "Manx white fairy pig with red eyes and ears",
+      "depicted_variant": "Small lucky Arkan Sonney captured beside silver coins",
       "basis_claim_ids": [
         "arkan-sonney-c02",
+        "arkan-sonney-c03",
         "arkan-sonney-c04"
       ],
-      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-234ded65-86d0-463b-886f-eee99f38350d.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/arkan-sonney.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "White pig with red eyes and ears, four visible cloven feet and curled tail; full identifying anatomy matches selected Manx pig variant."
+        "reviewer": "recover_session",
+        "notes": "Tiny white pig with red eyes and ears in adult hands beside physical silver coins."
       },
       "canonical_name": "Arkan sonney",
       "review_path": "data/gemini/reviews/batch-117.review.json",
@@ -1832,8 +2177,82 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/arkan-sonney-verified.webp",
-      "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Arkan Sonney, the lucky fairy pig of Manx folklore, as a small white pig with distinctly red eyes and red ears standing on a mossy path in an Isle of Man woodland. Full body, four short pig legs, cloven hooves, rounded pig snout, curled pig tail; bright white bristles and visibly red ears. A gentle enchanted presence. Depict ONLY the pig variant, no hedgehog spines, no wings, no human features. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration."
+      "url": "/assets/art/arkan-sonney-mythic-presence.webp",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. A VERY SMALL WHITE PIG with clearly RED EYES and small reddish ears is gently held in two cupped hands of a fully clothed ADULT Manx traveller, who sits at a stone cottage threshold. The traveller has THREE physical SILVER COINS spilling from an open coat pocket onto lap, emphasizing documented fortune from catching this lucky fairy pig. Pig coherent four tiny legs and one snout, no human face; source it can change size but not shape, so this tiny form supported. Natural dusk, coins reflect light only, no money materializing or glitter beam. Compose pig and hands central, adult face and pocket visible. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "presentation_revision_history": [
+        {
+          "slug": "arkan-sonney",
+          "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Arkan Sonney, the lucky fairy pig of Manx folklore, as a small white pig with distinctly red eyes and red ears standing on a mossy path in an Isle of Man woodland. Full body, four short pig legs, cloven hooves, rounded pig snout, curled pig tail; bright white bristles and visibly red ears. A gentle enchanted presence. Depict ONLY the pig variant, no hedgehog spines, no wings, no human features. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration.",
+          "depicted_variant": "Manx white fairy pig with red eyes and ears",
+          "basis_claim_ids": [
+            "arkan-sonney-c02",
+            "arkan-sonney-c04"
+          ],
+          "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-234ded65-86d0-463b-886f-eee99f38350d.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "White pig with red eyes and ears, four visible cloven feet and curled tail; full identifying anatomy matches selected Manx pig variant."
+          },
+          "canonical_name": "Arkan sonney",
+          "review_path": "data/gemini/reviews/batch-117.review.json",
+          "basis_claims": [
+            {
+              "id": "arkan-sonney-c02",
+              "source_id": "arkan-sonney-s1",
+              "host": "en.wikipedia.org",
+              "statement": "A fairy animal shaped like a white pig bringing fortune; seeing the lucky piggy is a good omen.",
+              "statement_id": "Hewan peri berwujud babi putih pembawa keberuntungan; melihat lucky piggy pertanda baik.",
+              "quote": "The arkan sonney is a type of fairy animal that takes the form of a white pig that brings good fortune to those who manage to catch it. It was even considered a favourable omen just to have seen the \"lucky piggy\".",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "arkan-sonney-c04",
+              "source_id": "arkan-sonney-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Fairy Tales From the Isle of Man (1951) by Dora Broome: red eyes and ears; changes size, not shape.",
+              "statement_id": "Fairy Tales From the Isle of Man (1951), Dora Broome: mata dan telinga merah, ubah ukuran bukan wujud.",
+              "quote": "In Fairy Tales From the Isle of Man (1951) by Dora Broome, the white pig is described as having red eyes and ears, and though it can alter its size it is not able to change its shape.",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/arkan-sonney-verified.webp",
+          "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Arkan Sonney, the lucky fairy pig of Manx folklore, as a small white pig with distinctly red eyes and red ears standing on a mossy path in an Isle of Man woodland. Full body, four short pig legs, cloven hooves, rounded pig snout, curled pig tail; bright white bristles and visibly red ears. A gentle enchanted presence. Depict ONLY the pig variant, no hedgehog spines, no wings, no human features. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration."
+        }
+      ],
+      "visual_requirements": [
+        "Small lucky Arkan Sonney captured beside silver coins",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "da152c44d56857447260d4870e77b6ac7afe360c74d7f5315c54befddb2055c6",
+        "notes": "Inspected native: tiny white pig with red eyes and ears is held by a man beside silver coins. The supported size-changing lucky-pig capture episode is central, with ordinary anatomy and no emitted glow.",
+        "reviewed_at": "2026-10-05T18:02:46.344112+00:00"
+      },
+      "native_sha256": "da152c44d56857447260d4870e77b6ac7afe360c74d7f5315c54befddb2055c6",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/arkan-sonney.json",
+        "native_sha256": "da152c44d56857447260d4870e77b6ac7afe360c74d7f5315c54befddb2055c6",
+        "old_url": "/assets/art/arkan-sonney-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-234ded65-86d0-463b-886f-eee99f38350d.png",
+        "old_webp_sha256": "4ec84ccb46e81880d082e45a2b62b87b1e5e92f7819c19338ca08280bf0d7cf5",
+        "old_native_sha256": null,
+        "rationale": "Replaces ordinary animal presentation with Small lucky Arkan Sonney captured beside silver coins",
+        "basis_claim_ids": [
+          "arkan-sonney-c02",
+          "arkan-sonney-c03",
+          "arkan-sonney-c04"
+        ]
+      },
+      "sha256": "929731e0302de96ac960ad8a0b7cd95feb03243a82d0eaa8168b4db96a65d8bf"
     },
     {
       "slug": "barmanou",
@@ -1892,18 +2311,19 @@
     {
       "slug": "beast-of-gevaudan",
       "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
-      "depicted_variant": "Tawny-russet wolf-like witness-description variant",
+      "depicted_variant": "Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow.",
       "basis_claim_ids": [
-        "beast-of-gevaudan-c01",
         "beast-of-gevaudan-c02",
         "beast-of-gevaudan-c03",
-        "beast-of-gevaudan-c04"
+        "beast-of-gevaudan-c05"
       ],
-      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/beast-of-gevaudan.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Russet canine beast has dark stripes, dark dorsal band and long tufted tail. Four feet and bared teeth visible; threatening alert pose."
+        "reviewer": "assess_changes",
+        "notes": "Native individually viewed: Tawny russet dark-striped beast with long tufted tail bounds over wall at royal hunters, four legs and clawed paws; calf/cow scale reads in human comparison.",
+        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26"
       },
       "canonical_name": "Beast of Gévaudan",
       "review_path": "data/gemini/reviews/batch-128.review.json",
@@ -1949,10 +2369,107 @@
           "status": "exact"
         }
       ],
-      "width": 1254,
-      "height": 1254,
-      "url": "/assets/art/beast-of-gevaudan-verified.webp",
-      "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration."
+      "width": 1024,
+      "height": 1536,
+      "url": "/assets/art/beast-of-gevaudan-mythic-presence.webp",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+      "presentation_revision_history": [
+        {
+          "slug": "beast-of-gevaudan",
+          "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+          "depicted_variant": "Tawny-russet wolf-like witness-description variant",
+          "basis_claim_ids": [
+            "beast-of-gevaudan-c01",
+            "beast-of-gevaudan-c02",
+            "beast-of-gevaudan-c03",
+            "beast-of-gevaudan-c04"
+          ],
+          "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Russet canine beast has dark stripes, dark dorsal band and long tufted tail. Four feet and bared teeth visible; threatening alert pose."
+          },
+          "canonical_name": "Beast of Gévaudan",
+          "review_path": "data/gemini/reviews/batch-128.review.json",
+          "basis_claims": [
+            {
+              "id": "beast-of-gevaudan-c01",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The Beast of Gévaudan (La Bête du Gévaudan) is the historic name for one or more man-eating cryptids that terrorised the former province of Gévaudan in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+              "statement_id": "Binatang Gévaudan (La Bête du Gévaudan) adalah nama historis untuk satu atau lebih kriptid pemangsa manusia yang meneror bekas provinsi Gévaudan di Pegunungan Margeride, Prancis selatan-tengah, antara 30 Juni 1764 dan 19 Juni 1767.",
+              "quote": "The Beast of Gévaudan ... is the historic name associated with a man-eating cryptid or cryptids that terrorized the former province of Gévaudan ... in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c02",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Contemporary witnesses said the attacks were by one or more tawny-russet beasts with dark stripes and a dark stripe down the back, with a tail 'longer than a wolf's' ending in a tuft.",
+              "statement_id": "Menurut saksi mata masa itu, serangan dilakukan satu atau lebih binatang berwarna cokelat kemerahan dengan belang gelap dan garis gelap di punggung, berekor lebih panjang daripada serigala dengan jumbai di ujungnya.",
+              "quote": "were said to have been committed by one or more beasts of a tawny/russet colour with dark streaks/stripes and a dark stripe down its back, a tail \"longer than a wolf's\" ending in a tuft according to contemporary eyewitnesses.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c03",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "It attacked with fearsome teeth and claws, looked the size of a calf or cow, and seemed to fly or bound across fields at its victims.",
+              "statement_id": "Ia menyerang dengan gigi dan cakar yang mengerikan, tampak sebesar anak sapi atau sapi, dan seolah terbang atau melompat melintasi ladang ke arah korbannya.",
+              "quote": "It was said to attack with formidable teeth and claws, and appeared to be the size of a calf or cow and seemed to fly or bound across fields towards its victims.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c04",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "These descriptions could fit a striped hyena, a large wolf, a large dog or a wolfdog, but its identity is still debated and unsolved.",
+              "statement_id": "Gambaran itu dapat cocok dengan dubuk belang, serigala besar, anjing besar, atau anjing-serigala, tetapi identitasnya masih diperdebatkan sampai kini.",
+              "quote": "These descriptions from the period could identify the beast as a striped hyena, a large wolf, a large dog, or a wolfdog, though its identity is still the subject of debate and remains unsolved to this day.",
+              "context": "scholarly-interpretation",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/beast-of-gevaudan-verified.webp",
+          "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration."
+        }
+      ],
+      "visual_requirements": [
+        "Documented form or event",
+        "Coherent anatomy",
+        "No arbitrary aura"
+      ],
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Russet striped calf-size beast with long tufted tail leaps toward historical hunters; coherent four limbs and sourced hunt context.",
+        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+        "reviewed_at": "2026-10-05T18:36:56.596222+00:00"
+      },
+      "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/beast-of-gevaudan.json",
+        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+        "old_url": "/assets/art/beast-of-gevaudan-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+        "old_webp_sha256": "72955ddef4bb3401b6fd30b2f2617b21a2020528bf68ea51152aba5aaa58c362",
+        "old_native_sha256": null,
+        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "basis_claim_ids": [
+          "beast-of-gevaudan-c02",
+          "beast-of-gevaudan-c03",
+          "beast-of-gevaudan-c05"
+        ]
+      },
+      "sha256": "d3d6ae25af3fb8d6974a3b3308e7afb0ba3304c958a479d35d641ba3176b4c21"
     },
     {
       "slug": "cu-sith",
@@ -2153,17 +2670,18 @@
     {
       "slug": "erdhenne",
       "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Erdhenne, Bavarian household warning spirit, an old ash-grey shaggy short-necked hen standing in the shadowy floor corner of a rustic Alpine house. Normal hen anatomy: one beaked head, compact feathered body, folded wings, two clawed bird legs. It has an uncanny watchful presence as a benign guardian announcing danger, not a demonic monster. Hearth light and creeping floor mist. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
-      "depicted_variant": "Ash-grey shaggy short-necked house hen",
+      "depicted_variant": "Visible warning Erdhenne listened to by anxious household",
       "basis_claim_ids": [
-        "erdhenne-c01",
+        "erdhenne-c02",
         "erdhenne-c03",
         "erdhenne-c04"
       ],
-      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4ea3a980-2c8b-4877-851b-0f0b31737043.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/erdhenne.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Ash-grey short-necked shaggy hen with normal two-leg bird anatomy in hearth corner; uncanny mist and shadow, without making the guardian demonic."
+        "reviewer": "recover_session",
+        "notes": "Ash-grey shaggy hen clucking with adults listening anxiously, warning episode."
       },
       "canonical_name": "Erdhenne",
       "review_path": "data/gemini/reviews/batch-111.review.json",
@@ -2201,8 +2719,93 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/erdhenne-verified.webp",
-      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Erdhenne, Bavarian household warning spirit, an old ash-grey shaggy short-necked hen standing in the shadowy floor corner of a rustic Alpine house. Normal hen anatomy: one beaked head, compact feathered body, folded wings, two clawed bird legs. It has an uncanny watchful presence as a benign guardian announcing danger, not a demonic monster. Hearth light and creeping floor mist. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image."
+      "url": "/assets/art/erdhenne-mythic-presence.webp",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. An old ASH-GREY SHAGGY SHORT-NECKED HEN stands in a dark corner of a Bavarian cottage room, wings partly spread and beak open in ominous CLUCKING. TWO clothed ADULT householders abruptly stop supper and lean toward the hen with fearful attentive faces. Hen lit dimly by one physical candle, adults and their table clearly visible. Its documented visible appearance and warning call omen establish myth context. Normal hen anatomy, do not invent glowing eyes or magical body. No illness injuries or funeral. Detailed naturalistic painting with powerful readable mythic identity, complete relevant anatomy, physical restrained light. No text, logos or borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or unsupported powers.",
+      "presentation_revision_history": [
+        {
+          "slug": "erdhenne",
+          "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Erdhenne, Bavarian household warning spirit, an old ash-grey shaggy short-necked hen standing in the shadowy floor corner of a rustic Alpine house. Normal hen anatomy: one beaked head, compact feathered body, folded wings, two clawed bird legs. It has an uncanny watchful presence as a benign guardian announcing danger, not a demonic monster. Hearth light and creeping floor mist. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+          "depicted_variant": "Ash-grey shaggy short-necked house hen",
+          "basis_claim_ids": [
+            "erdhenne-c01",
+            "erdhenne-c03",
+            "erdhenne-c04"
+          ],
+          "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4ea3a980-2c8b-4877-851b-0f0b31737043.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Ash-grey short-necked shaggy hen with normal two-leg bird anatomy in hearth corner; uncanny mist and shadow, without making the guardian demonic."
+          },
+          "canonical_name": "Erdhenne",
+          "review_path": "data/gemini/reviews/batch-111.review.json",
+          "basis_claims": [
+            {
+              "id": "erdhenne-c01",
+              "source_id": "erdhenne-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The Erdhenne ('earth hen'), also called Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch or Herdhendl, is a German house spirit from the folklore of the Alp region, the Upper Palatinate and Bavaria.",
+              "statement_id": "Erdhenne (\"ayam betina tanah\"), juga disebut Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch, atau Herdhendl, adalah roh rumah Jerman dari cerita rakyat kawasan Alpen (Alp), Oberpfalz (Upper Palatinate), dan Bayern (Bavaria).",
+              "quote": "alternatively called Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch, or Herdhendl, is a German house spirit originating from German folklore of the Alp region, the Upper Palatinate, and Bavaria.",
+              "context": "traditional-belief",
+              "status": "exact"
+            },
+            {
+              "id": "erdhenne-c03",
+              "source_id": "erdhenne-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The spirit appears as an old, ash-grey, shaggy short-necked hen; becoming visible, it foretells a death within a year, usually of the one who sees it; another legend says nine clucks and wing-flaps mean the head of the house will fall mortally ill.",
+              "statement_id": "Roh itu tampil sebagai ayam betina tua kelabu abu berbulu kusut berleher pendek; penampakannya meramalkan kematian dalam setahun, biasanya orang yang melihatnya; menurut legenda lain, bila ia berkotek dan mengepakkan sayap sembilan kali, kepala rumah tangga jatuh sakit parah.",
+              "quote": "the spirit appears as an old, ash grey, shaggy hen with a short neck. By becoming visible, the Erdhenne foretells death within a year, usually that of the person it shows itself to. However, according to another legend, should it cluck and flutter its wings nine times, the head of the house would fall deadly ill.",
+              "context": "traditional-belief",
+              "status": "exact"
+            },
+            {
+              "id": "erdhenne-c04",
+              "source_id": "erdhenne-s2",
+              "host": "de.wikipedia.org",
+              "statement": "This spirit's voice is said to come from the ground or a dark corner of the room, sounding like a hen clucking to her chicks, which gave it its name; like the Unke or the Hausotter (house snake), the Erdhenne is held to be a benign guardian spirit.",
+              "statement_id": "Suara roh ini konon keluar dari tanah atau sudut gelap ruangan, terdengar seperti kotek induk ayam yang menuntun anak-anaknya, sehingga ia dinamai demikian; seperti Unke atau Hausotter (ular rumah), Erdhenne dianggap roh pelindung yang baik.",
+              "quote": "Die Stimme dieses Geistwesens soll aus dem Erdboden oder einer dunklen Ecke der Stube dringen und wie das Glucksen, beziehungsweise Piepsen, einer Henne klingen, die Küklein führt, was ihm den Namen einbrachte. Die Erdhenne soll, wie die Unke oder die Hausotter ein gutartiger Schutzgeist sein",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/erdhenne-verified.webp",
+          "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Erdhenne, Bavarian household warning spirit, an old ash-grey shaggy short-necked hen standing in the shadowy floor corner of a rustic Alpine house. Normal hen anatomy: one beaked head, compact feathered body, folded wings, two clawed bird legs. It has an uncanny watchful presence as a benign guardian announcing danger, not a demonic monster. Hearth light and creeping floor mist. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image."
+        }
+      ],
+      "visual_requirements": [
+        "Visible warning Erdhenne listened to by anxious household",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "b95870785414c8aeeb1a7436e1ea32e765112f9e5f47d1a4f813fc5e64759368",
+        "notes": "Inspected native: shaggy ash-grey short-necked hen clucks from a dark household corner as two adults listen anxiously. The supported warning/omen context replaces a pet portrait; physical candle lighting and no extra anatomy.",
+        "reviewed_at": "2026-10-05T18:05:36.509579+00:00"
+      },
+      "native_sha256": "b95870785414c8aeeb1a7436e1ea32e765112f9e5f47d1a4f813fc5e64759368",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/erdhenne.json",
+        "native_sha256": "b95870785414c8aeeb1a7436e1ea32e765112f9e5f47d1a4f813fc5e64759368",
+        "old_url": "/assets/art/erdhenne-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4ea3a980-2c8b-4877-851b-0f0b31737043.png",
+        "old_webp_sha256": "48bd1bf0317ee9d13b00ec07003f99eefbeb6eb7d121cf38aa61c653ea5dcd1e",
+        "old_native_sha256": null,
+        "rationale": "Replaces ordinary animal presentation with Visible warning Erdhenne listened to by anxious household",
+        "basis_claim_ids": [
+          "erdhenne-c02",
+          "erdhenne-c03",
+          "erdhenne-c04"
+        ]
+      },
+      "sha256": "f04a8d238f2d79c2f64a9dd72df1edb035a41374e1fd0e961fc30cc958c58e32"
     },
     {
       "slug": "gulon",
@@ -3465,8 +4068,8 @@
     {
       "slug": "each-uisge",
       "canonical_name": "Each-uisge",
-      "prompt": "Use case: illustration-story. Asset type: ONE individual square editorial mythology encyclopedia illustration for Mythics. Subject: Each-uisge (slug each-uisge). Depicted variant and essential identifying features: Each-uisge in its full horse variant: one powerful unbridled horse emerging from a deep Scottish Highland loch, dripping coat and wet mane, all four ordinary hooved legs visible in shallow water, alert unsettling gaze. No rider, fish tail, wings, horns, or hybrid human parts. Style: detailed painterly illustrated folklore book with believable materials, readable anatomy, restrained atmosphere, colors as specified. Composition: one main creature, full identifying form comfortably within all four image edges. Follow ONLY the specified variant. No labels, letters, decorative border, logos, watermark, gore, or sexualized posing. Clothing mentioned is a modest artistic treatment. This is a contemporary AI artistic interpretation; never present it as documentary evidence. Mood requested by user: a subtle but unmistakable horror aura, cinematic chiaroscuro, deep atmospheric shadows, faint mist and an uncanny sense of presence. Keep identifying anatomy legible; use unsettling gaze or pose only if appropriate to this being. Benevolent or sacred subjects feel numinous and awe-inspiring rather than evil. Do not add lore-inaccurate monster features.",
-      "depicted_variant": "Each-uisge in its full horse variant: one powerful unbridled horse emerging from a deep Scottish Highland loch, dripping coat and wet mane, all four ordinary hooved legs visible in shallow water, alert unsettling gaze. No rider, fish tail, wings, horns, or hybrid human parts.",
+      "prompt": "Each-uisge: Replace horse with documented handsome HUMAN manifestation, visibly dripping waterweed, sand and mud caught in hair, beside Scottish loch. Human head/torso/twoarms/twolegs, human feet (do not borrow Kelpie hooves). He beckons to a wary traveler with source clue waterweeds clearly noticeable. Simple wet tunic editorial; no borrowed animal organs. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "depicted_variant": "Replace horse with documented handsome HUMAN manifestation, visibly dripping waterweed, sand and mud caught in hair, beside Scottish loch. Human head/torso/twoarms/twolegs, human feet (do not borrow Kelpie hooves). He beckons to a wary traveler with source clue waterweeds clearly noticeable. Simple wet tunic editorial; no borrowed animal organs.",
       "basis_claims": [
         {
           "id": "each-uisge-c01",
@@ -3491,15 +4094,89 @@
       ],
       "review_path": "data/gemini/reviews/batch-115.review.json",
       "status": "complete",
-      "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-6243d6b1-8820-4005-b61a-eada67eacf91.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/each-uisge.png",
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/each-uisge-verified.webp",
+      "url": "/assets/art/each-uisge-mythic-presence.webp",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Full unbridled horse form with wet mane and four hooved legs in shallow Highland loch; no mixed human/fish variant, unsettling gaze.",
-        "reviewed_at": "2026-10-03T06:49:29.017758+00:00"
-      }
+        "reviewer": "inspect_workspace",
+        "notes": "Human manifestation with conspicuous waterweeds and mud tangled in hair emerges from loch; two human arms, no borrowed animal parts."
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "each-uisge",
+          "canonical_name": "Each-uisge",
+          "prompt": "Use case: illustration-story. Asset type: ONE individual square editorial mythology encyclopedia illustration for Mythics. Subject: Each-uisge (slug each-uisge). Depicted variant and essential identifying features: Each-uisge in its full horse variant: one powerful unbridled horse emerging from a deep Scottish Highland loch, dripping coat and wet mane, all four ordinary hooved legs visible in shallow water, alert unsettling gaze. No rider, fish tail, wings, horns, or hybrid human parts. Style: detailed painterly illustrated folklore book with believable materials, readable anatomy, restrained atmosphere, colors as specified. Composition: one main creature, full identifying form comfortably within all four image edges. Follow ONLY the specified variant. No labels, letters, decorative border, logos, watermark, gore, or sexualized posing. Clothing mentioned is a modest artistic treatment. This is a contemporary AI artistic interpretation; never present it as documentary evidence. Mood requested by user: a subtle but unmistakable horror aura, cinematic chiaroscuro, deep atmospheric shadows, faint mist and an uncanny sense of presence. Keep identifying anatomy legible; use unsettling gaze or pose only if appropriate to this being. Benevolent or sacred subjects feel numinous and awe-inspiring rather than evil. Do not add lore-inaccurate monster features.",
+          "depicted_variant": "Each-uisge in its full horse variant: one powerful unbridled horse emerging from a deep Scottish Highland loch, dripping coat and wet mane, all four ordinary hooved legs visible in shallow water, alert unsettling gaze. No rider, fish tail, wings, horns, or hybrid human parts.",
+          "basis_claims": [
+            {
+              "id": "each-uisge-c01",
+              "source_id": "each-uisge-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Each-uisge (Scottish Gaelic) means water horse; an Irish and Scottish water spirit, each-uisce/aughisky/ech-ushkya in Ireland, cabbyl-ushtey on the Isle of Man; horse-shaped, like the kelpie but more vicious.",
+              "statement_id": "Each-uisge (Gaelik Skotlandia, Scottish Gaelic) berarti kuda air; roh air Irlandia (Irish) dan Skotlandia (Scottish), each-uisce/aughisky/ech-ushkya di Irlandia (Ireland), cabbyl-ushtey di Isle of Man; berwujud kuda, mirip kelpie tetapi lebih ganas.",
+              "quote": "literally \"water horse\") is a water spirit in Irish and Scottish folklore, spelled as the each-uisce (anglicized as aughisky or ech-ushkya) in Ireland and cabbyl-ushtey on the Isle of Man. It usually takes the form of a horse, and is similar to the kelpie but far more vicious.",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "each-uisge-c03",
+              "source_id": "each-uisge-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The each-uisge lives in the sea and lochs of the Scottish Highlands and shapeshifts into a horse, pony, handsome man or giant bird.",
+              "statement_id": "Each-uisge tinggal di laut dan loch air asin dan tawar di Dataran Tinggi Skotlandia (Scottish Highlands), dan berubah wujud jadi kuda, poni, lelaki tampan, atau burung raksasa.",
+              "quote": "the each-uisge lives in the sea, sea lochs, and fresh water lochs. The each-uisge is a shape-shifter, disguising itself as a fine horse, pony, a handsome man or an enormous bird such as a boobrie.",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "review_path": "data/gemini/reviews/batch-115.review.json",
+          "status": "complete",
+          "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-6243d6b1-8820-4005-b61a-eada67eacf91.png",
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/each-uisge-verified.webp",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Full unbridled horse form with wet mane and four hooved legs in shallow Highland loch; no mixed human/fish variant, unsettling gaze.",
+            "reviewed_at": "2026-10-03T06:49:29.017758+00:00"
+          }
+        }
+      ],
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
+      "aura": "None; natural environmental light only.",
+      "basis_claim_ids": [
+        "each-uisge-c03",
+        "each-uisge-c05"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Handsome human water-horse variant bears weeds and mud in long hair; identifying sourced clue clear, normal human anatomy.",
+        "native_sha256": "3e6e1899f27ad9def6612f453b5b061c305aeccf8b3badc2c6f07b6a8ec4002f",
+        "reviewed_at": "2026-10-05T18:35:59.173808+00:00"
+      },
+      "native_sha256": "3e6e1899f27ad9def6612f453b5b061c305aeccf8b3badc2c6f07b6a8ec4002f",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/each-uisge.json",
+        "native_sha256": "3e6e1899f27ad9def6612f453b5b061c305aeccf8b3badc2c6f07b6a8ec4002f",
+        "old_url": "/assets/art/each-uisge-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-6243d6b1-8820-4005-b61a-eada67eacf91.png",
+        "old_webp_sha256": "b70ee82944e0f28a0290b50e708fb0ef7f9bc25cde5393fb7cbb446f00f2ff1e",
+        "old_native_sha256": null,
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "each-uisge-c03",
+          "each-uisge-c05"
+        ]
+      },
+      "sha256": "ce1efbf598ae75d47a0d23115039b7e7ce0ed089272860f2acf6fc887681e1e4"
     },
     {
       "slug": "el-hombre-caiman",
@@ -3777,8 +4454,8 @@
     {
       "slug": "henwen",
       "canonical_name": "Henwen",
-      "prompt": "Use case: illustration-story. Asset type: ONE individual square editorial mythology encyclopedia illustration for Mythics. Subject: Henwen (slug henwen). Depicted variant and essential identifying features: Henwen, Old White of Welsh legend: one large WHITE SOW with a rounded pig body, bristly coat, long snout, four short cloven-hoofed legs and curled tail, crossing a lush Welsh field of young grain. Female domestic-pig form only; no boar tusks, wings or extra animals emerging from her body. Style: detailed painterly illustrated folklore book with believable materials, readable anatomy, restrained atmosphere, colors as specified. Composition: one main creature, full identifying form comfortably within all four image edges. Follow ONLY the specified variant. No labels, letters, decorative border, logos, watermark, gore, or sexualized posing. Clothing mentioned is a modest artistic treatment. This is a contemporary AI artistic interpretation; never present it as documentary evidence. Mood requested by user: a subtle but unmistakable horror aura, cinematic chiaroscuro, deep atmospheric shadows, faint mist and an uncanny sense of presence. Keep identifying anatomy legible; use unsettling gaze or pose only if appropriate to this being. Benevolent or sacred subjects feel numinous and awe-inspiring rather than evil. Do not add lore-inaccurate monster features.",
-      "depicted_variant": "Henwen, Old White of Welsh legend: one large WHITE SOW with a rounded pig body, bristly coat, long snout, four short cloven-hoofed legs and curled tail, crossing a lush Welsh field of young grain. Female domestic-pig form only; no boar tusks, wings or extra animals emerging from her body.",
+      "prompt": "Henwen: Natural white sow Henwen on Snowdonia Hill of Cyferthwch with the distinctly non-porcine progeny recorded there: tiny wolf cub and eaglet just beside her, alert peaceful family after miraculous birth; no birthprocess or gore. Dominant sow, cub and eaglet clearly separated and distinct. Swineherd distant contextual human. Four normal piglegs/nohybrid. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "depicted_variant": "Natural white sow Henwen on Snowdonia Hill of Cyferthwch with the distinctly non-porcine progeny recorded there: tiny wolf cub and eaglet just beside her, alert peaceful family after miraculous birth; no birthprocess or gore. Dominant sow, cub and eaglet clearly separated and distinct. Swineherd distant contextual human. Four normal piglegs/nohybrid.",
       "basis_claims": [
         {
           "id": "henwen-c01",
@@ -3813,15 +4490,99 @@
       ],
       "review_path": "data/gemini/reviews/batch-117.review.json",
       "status": "complete",
-      "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-c8bec151-4d23-4ac4-855c-e61365875e9d.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/henwen.png",
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/henwen-verified.webp",
+      "url": "/assets/art/henwen-mythic-presence.webp",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Large white sow with pig snout, four short legs and curled tail in grain field; numinous cloud lighting, no added boar tusks or hybrid features.",
-        "reviewed_at": "2026-10-03T07:05:06.177472+00:00"
-      }
+        "reviewer": "inspect_workspace",
+        "notes": "Natural white sow with distinct wolf cub and eaglet, source-recorded miraculous progeny; no birthing gore."
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "henwen",
+          "canonical_name": "Henwen",
+          "prompt": "Use case: illustration-story. Asset type: ONE individual square editorial mythology encyclopedia illustration for Mythics. Subject: Henwen (slug henwen). Depicted variant and essential identifying features: Henwen, Old White of Welsh legend: one large WHITE SOW with a rounded pig body, bristly coat, long snout, four short cloven-hoofed legs and curled tail, crossing a lush Welsh field of young grain. Female domestic-pig form only; no boar tusks, wings or extra animals emerging from her body. Style: detailed painterly illustrated folklore book with believable materials, readable anatomy, restrained atmosphere, colors as specified. Composition: one main creature, full identifying form comfortably within all four image edges. Follow ONLY the specified variant. No labels, letters, decorative border, logos, watermark, gore, or sexualized posing. Clothing mentioned is a modest artistic treatment. This is a contemporary AI artistic interpretation; never present it as documentary evidence. Mood requested by user: a subtle but unmistakable horror aura, cinematic chiaroscuro, deep atmospheric shadows, faint mist and an uncanny sense of presence. Keep identifying anatomy legible; use unsettling gaze or pose only if appropriate to this being. Benevolent or sacred subjects feel numinous and awe-inspiring rather than evil. Do not add lore-inaccurate monster features.",
+          "depicted_variant": "Henwen, Old White of Welsh legend: one large WHITE SOW with a rounded pig body, bristly coat, long snout, four short cloven-hoofed legs and curled tail, crossing a lush Welsh field of young grain. Female domestic-pig form only; no boar tusks, wings or extra animals emerging from her body.",
+          "basis_claims": [
+            {
+              "id": "henwen-c01",
+              "source_id": "henwen-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Henwen (Old White) is a sow of Welsh legend who per the Welsh Triads bore Cath Palug, fought by Cai (Sir Kay) or King Arthur.",
+              "statement_id": "Henwen (Old White, Si Tua Putih) babi betina legenda Wales (Welsh), menurut Welsh Triads ibu Cath Palug yang dilawan Cai (Sir Kay) atau Raja Arthur (King Arthur); di Britania Raya.",
+              "quote": "Henwen, meaning \"Old White\", is in Welsh legend a sow (female pig) which according to the Welsh Triads gave birth to Cath Palug, a monstrous cat depicted as combating with either Cai (Sir Kay) or King Arthur of Arthurian Legends.",
+              "context": "religious-tradition",
+              "status": "exact"
+            },
+            {
+              "id": "henwen-c03",
+              "source_id": "henwen-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Her birthing boded ill for the Isle of Britain; chased into the sea at Penrhyn Awstin, she re-emerged at Aber Tarogi, Gwent Is-coed.",
+              "statement_id": "Kelahirannya pertanda buruk bagi Pulau Britania (Isle of Britain); dikejar ke laut di Penrhyn Awstin, muncul di Aber Tarogi, Gwent Is-coed.",
+              "quote": "The sow was ready to give birth, but this boded ill for the Isle of Britain, according to prophecy, so she was chased until she plunged into the sea at Penrhyn Awstin in Cornwall. The sow eventually re-emerges on land at Aber Tarogi in Gwent Is-coed (a subdivision of Gwent).",
+              "context": "traditional-belief",
+              "status": "exact"
+            },
+            {
+              "id": "henwen-c04",
+              "source_id": "henwen-s1",
+              "host": "en.wikipedia.org",
+              "statement": "At Maes Gwenith (Wheat Field) in Gwent a grain of wheat and a bee; at Llonion barley and a bee.",
+              "statement_id": "Di Maes Gwenith (Wheat Field), Gwent: gandum dan lebah; di Llonion: jelai dan lebah.",
+              "quote": "At Wheat Field (Maes Gwenith) in Gwent, a grain of wheat and a bee At Llonion in Pembroke/Dyfed, a grain of barley and a bee",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "review_path": "data/gemini/reviews/batch-117.review.json",
+          "status": "complete",
+          "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-c8bec151-4d23-4ac4-855c-e61365875e9d.png",
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/henwen-verified.webp",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Large white sow with pig snout, four short legs and curled tail in grain field; numinous cloud lighting, no added boar tusks or hybrid features.",
+            "reviewed_at": "2026-10-03T07:05:06.177472+00:00"
+          }
+        }
+      ],
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
+      "aura": "None; natural environmental light only.",
+      "basis_claim_ids": [
+        "henwen-c02",
+        "henwen-c07"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "White sow alongside distinct wolf cub and eaglet on hill; sourced miraculous progeny, no hybrid anatomy or birth gore.",
+        "native_sha256": "7d81f6599f446de87884ffa56d7514016c16d72395b58485bd53c930ad3454ca",
+        "reviewed_at": "2026-10-05T18:35:59.183265+00:00"
+      },
+      "native_sha256": "7d81f6599f446de87884ffa56d7514016c16d72395b58485bd53c930ad3454ca",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/henwen.json",
+        "native_sha256": "7d81f6599f446de87884ffa56d7514016c16d72395b58485bd53c930ad3454ca",
+        "old_url": "/assets/art/henwen-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-c8bec151-4d23-4ac4-855c-e61365875e9d.png",
+        "old_webp_sha256": "3047a5a0fe9480c999a568c4759266b5993bb85260de333c7f90a7b79547d4d4",
+        "old_native_sha256": null,
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "henwen-c02",
+          "henwen-c07"
+        ]
+      },
+      "sha256": "9da73b9dd99ac5dec61fd64de85773577d2dc3a716eee0edab89d9f83160c537"
     },
     {
       "slug": "hitodama",

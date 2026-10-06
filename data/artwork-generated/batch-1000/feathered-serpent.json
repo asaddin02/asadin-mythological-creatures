@@ -1,0 +1,40 @@
+{
+  "slug": "feathered-serpent",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: stylized-concept. Create ONE square premium painterly naturalistic mythology illustration of the Mesoamerican Feathered Serpent, selecting the documented Olmec crested rattlesnake variant, distinct from a human deity or European dragon. One long coherent RATTLESNAKE coils across weathered stone in a quiet humid forest clearing; natural serpent head with broad snout, one head, visible tail rattle, broad crest of layered feathers behind its head, and fine feathers covering parts of its coiling body among natural scales. Depict the legless version: no limbs, no separate bird wings, no mammalian paws, no antlers or horns. Full uninterrupted coils and tail visible in square composition, head raised with calm divine authority; restrained beautiful moss greens and muted earth-red feathers are artistic colour choices. Natural dawn shafts through trees illuminate feather and scale texture. Convey sacred ancient presence through stately pose, close framing, atmospheric depth and natural sunlight, without magical glow. The surroundings are simple stone and forest, no architectural period mixing. No dragon fire, neon body outlines, halo, magical energy ribbons, luminous coloured mist, glowing eyes, human face, lettering, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/feathered-serpent.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-bbd5c5ef-1d09-4fe7-a82f-6b7497150477.png",
+  "depicted_variant": "Olmec crested rattlesnake Feathered Serpent, selecting legless feathered variant",
+  "basis_claim_ids": [
+    "feathered-serpent-c01",
+    "feathered-serpent-c03",
+    "feathered-serpent-c04",
+    "feathered-serpent-c05"
+  ],
+  "visual_requirements": [
+    "One coiling legless serpent with rattlesnake head and visible tail rattle",
+    "Layered feather crest and feathered portions of body",
+    "No bird wings, human form or generic magical effects"
+  ],
+  "aura": "Calm sacred authority through upright head, close framing and natural forest dawn light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native PNG inspected: one continuous coiling legless rattlesnake, clear tail rattle at lower right, prominent feather crest and body feathers. No limb/wing hybrids, glow envelope or neon effects; forest sunlight supplies presence."
+  },
+  "reviewed_at": "2026-10-05T11:03:51.694Z",
+  "artistic_choices": [
+    "Muted green and earth-red feathers, forest clearing and natural dawn are editorial staging; colours not asserted as historical Olmec iconography."
+  ],
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "native_sha256": "1c3d9a07b15f57f1759f6f8c1230a95fd0133173eca1ea06527f2219ccc9b18f",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "1c3d9a07b15f57f1759f6f8c1230a95fd0133173eca1ea06527f2219ccc9b18f",
+    "notes": "Independent visual inspection: one legless coiled rattlesnake with visible tail rattle, feather crest and feathered body patches. No added bird wings, human body or magical glow; coherent Olmec-inspired crested feathered serpent variant."
+  }
+}

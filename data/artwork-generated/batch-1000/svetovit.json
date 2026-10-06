@@ -1,0 +1,40 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "svetovit",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Slavic mythology illustration of SVETOVIT, selecting the documented wooden cult-statue variant at Cape Arkona. Render an aged carved WOODEN human-shaped deity statue with exactly FOUR separate HUMAN HEADS rising together from one upper torso, each facing a different direction: forward head faces viewer; left head looks left; right head looks right; fourth rear head faces away so the BACK of its head is visibly distinct above/behind the front head. High three-quarter camera angle makes all FOUR skull shapes countable. One human-shaped torso, two wooden arms/hands and two legs. It holds a large curved DRINKING HORN in one hand and a simple straight medieval SWORD in the other, no helmet or crowns. Inside a plain square pillared timber sanctuary at coastal Arkona, natural light from open doorway and muted Baltic sea beyond. Beautiful weathered woodgrain, dignified solemn carved expressions, imposing but ordinary carved-idol scale. Sacred commanding presence through frontal stillness, wood texture, natural shadow and coastal daylight. No live white horse, other deities, priest, antlers, eagle body, coloured glowing faces, radiant halo, neon outline, magic ribbons, luminous coloured fog, text, border, collage or watermark. This is contemporary editorial visualization of source-described idol, not documentary reconstruction.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/svetovit.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-481be218-d300-4059-88d4-f5c1a0230abe.png",
+  "depicted_variant": "Cape Arkona wooden four-headed cult-statue form, horn and sword",
+  "basis_claim_ids": [
+    "svetovit-c02",
+    "svetovit-c03",
+    "svetovit-c12"
+  ],
+  "visual_requirements": [
+    "Exactly four distinct human heads facing different directions, rear head back visible",
+    "One wooden human torso with two arms/hands and two legs",
+    "Drinking horn and sword in hands",
+    "Timber sanctuary, no invented glowing powers"
+  ],
+  "aura": "Solemn sacred authority through woodgrain, still stance and natural coastal daylight",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: front, left profile, right profile and rear back-of-head clearly distinct (four). One carved human body, two hands holding drinking horn/sword and two feet. Weathered wooden statue in timber sanctuary, ordinary daylight and no emitted aura."
+  },
+  "reviewed_at": "2026-10-05T12:51:32.514Z",
+  "artistic_choices": [
+    "Carved beard, garment motifs and sanctuary architecture are editorial staging, not archaeological documentary reconstruction."
+  ],
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "native_sha256": "d811e3d284538b1d803c7b758713f8f9ea7f4f5247fe99776fa2f7242d000f68",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "d811e3d284538b1d803c7b758713f8f9ea7f4f5247fe99776fa2f7242d000f68",
+    "notes": "Independent inspection: wooden statue with four distinct human heads facing different directions (three faces plus visible rear head back), one torso, two arms/hands holding drinking horn and sword, two lower legs. Timber sanctuary and sea-cliff view, no invented glowing powers."
+  }
+}

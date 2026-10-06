@@ -1,0 +1,103 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "semik",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Semik the intelligent speaking white horse rescues his rider by the legendary leap from the Vysehrad rock: magnificent white horse with one clothed medieval Bohemian rider soaring in a vast leap out from the high cliff above the river, forelegs extended and hindlegs trailing, four legs, no wings. View cliff and river far below, distant fortress parapet where pursuers remain. Extreme leap and rescue, not standing horse portrait. No glow, no flying anatomy. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/semik-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-aee5857d-9f7c-4820-8e75-b6ea3dbb4f5f.png",
+  "depicted_variant": "Semik the intelligent speaking white horse rescues his rider by the legendary leap from the Vysehrad rock: magnificent white horse with one clothed medieval Bohemian rider soaring in a vast leap out from the high cliff above the river, forelegs extended and hindlegs trailing, four legs, no wings. View cliff and river far below, distant fortress parapet where pursuers remain. Extreme leap and rescue, not standing horse portrait. No glow, no flying anatomy.",
+  "basis_claim_ids": [
+    "semik-c01",
+    "semik-c06"
+  ],
+  "visual_requirements": [
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
+  ],
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: White horse and rider leap high from fortress cliff above river, four legs and no wings; documented rescue dramatized.",
+    "native_sha256": "d7b30c18bd04fc0bddc46e77dd5dd66dd708888c8ad4e0ee73d5e9d1186da93f"
+  },
+  "reviewed_at": "2026-10-05T13:13:12.738Z",
+  "artistic_choices": [
+    "Fortress skyline, coat texture and dawn are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "native_sha256": "d7b30c18bd04fc0bddc46e77dd5dd66dd708888c8ad4e0ee73d5e9d1186da93f",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "d7b30c18bd04fc0bddc46e77dd5dd66dd708888c8ad4e0ee73d5e9d1186da93f",
+    "notes": "Inspected native: coherent white horse carries Horymir in a dramatic leap from a fortress rock toward the river below. The supported rescue leap is central, no wings, luminous aura or graphic injuries.",
+    "reviewed_at": "2026-10-05T18:17:51.509756+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "semik",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Czech legend illustration of ŠEMÍK, Horymír's intelligent talking WHITE HORSE. One natural white horse stands poised on a rocky bluff above the Vltava river, distant medieval Vyšehrad-like fortress skyline. Ordinary coherent horse anatomy, four legs with hooves, one head/mane/tail, no wings despite miraculous leap story. Watchful wise gaze, proud resilient posture, wind in mane and natural dawn over water evoke heroic supernatural presence. Full body and hoof contacts in frame, ordinary horse size, no rider. Architectural layout, flowing mane and natural scene are editorial staging. No unicorn horn, antlers, magical glowing body, neon outlines, luminous coloured mist, energy ribbons, flames, other characters, lettering, border, collage or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/semik.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-dad8ac66-5e56-4a82-b3c8-7592e14a4efb.png",
+      "depicted_variant": "Heroic intelligent white horse Šemík beside Vyšehrad rock",
+      "basis_claim_ids": [
+        "semik-c01",
+        "semik-c06",
+        "semik-c07"
+      ],
+      "visual_requirements": [
+        "Ordinary white horse with four hoofed legs",
+        "No wings or hybrid anatomy",
+        "Rocky Vltava context"
+      ],
+      "aura": "Character presence through documented form, posture, framing, environment and natural light",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "Native inspected: one coherent white horse, four hoofed legs, one mane and tail; poised gaze on rocky river bluff. Natural dawn and editorial fortress background, no aura or invented wings."
+      },
+      "reviewed_at": "2026-10-05T13:13:12.738Z",
+      "artistic_choices": [
+        "Fortress skyline, coat texture and dawn are editorial staging."
+      ],
+      "review_path": "data/gemini/reviews/batch-130.review.json",
+      "native_sha256": "cbe30fe53f3d24b41597577093f577faea00f501e6f3eb1b741cdcf24f8cc95b",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "cbe30fe53f3d24b41597577093f577faea00f501e6f3eb1b741cdcf24f8cc95b",
+        "notes": "Inspected white ordinary horse overlooking Vltava/Vysehrad-like rocky landscape, four legs and one tail, no wings. Fits c01/c06/c07."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/semik.json",
+    "native_sha256": "d7b30c18bd04fc0bddc46e77dd5dd66dd708888c8ad4e0ee73d5e9d1186da93f",
+    "old_url": "/assets/art/semik-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/semik.png",
+    "old_webp_sha256": "24f99e034789e047814d0e78acb6bb563e886967fbea52d38803439cbc7ab0fb",
+    "old_native_sha256": "cbe30fe53f3d24b41597577093f577faea00f501e6f3eb1b741cdcf24f8cc95b",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "semik-c01",
+      "semik-c06"
+    ]
+  },
+  "url": "/assets/art/semik-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "6a9a094c343c871acad726dca1aa99594eced2d8647c375a5f26cc95da3b3de4",
+  "revision_generator": "assess_changes",
+  "artistic_changes": [
+    "Painterly composition",
+    "Clothes, exact colors and scenery details editorial"
+  ]
+}

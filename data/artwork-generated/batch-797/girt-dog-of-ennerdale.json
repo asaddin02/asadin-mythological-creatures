@@ -1,29 +1,25 @@
 {
   "slug": "girt-dog-of-ennerdale",
   "worker": "worker-0",
-  "prompt": "Use case: precise-object-edit. Remove ALL bright blue emitted ribbons, luminous wisps, sparkling magic, neon dog outline and luminous footprints from this Girt Dog of Ennerdale artwork. Source is a large smooth-haired tawny mouse-colored canine with dark tiger-like streaks, a silent night predator; it does not emit magic. Preserve SAME large four-legged canine, one tail, tiger-streaked coat, face, walking pose, size, hill rocks, moon, framing, painterly texture. Restore natural coat and ground shadows with ordinary moonlight and low nonluminous valley mist. Silent predatory presence through wary gaze, sturdy stance and dark fells. No animal mixture, anatomy changes, extra characters, gore, text or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale-presence-v2.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-0e77048f-e5f6-4cfc-bcae-8f8e27c36846.png",
-  "depicted_variant": "Reported 1810 smooth-haired tawny tiger-streaked dog, excluding speculative thylacine identification",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Girt Dog of Ennerdale, the strong tawny dark-striped dog of the sheep-killing legend, stalks a flock across a Cumbrian stone-walled field by night while a distant shepherd raises his lantern in alarm. Dog weighs eight stone (about51kg), natural large-dog size, not giant, long predatory body and natural canine limbs, sheep panic and flee. Clearly narrated menace, not pet portrait. No attacks shown, no wounds or gore or magic glow. No arbitrary glowing effects, colored mist, glyphs or ribbons. Use natural animal scale relative to people unless this specific brief explicitly documents a gigantic form.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-a497ffe4-8785-48eb-9396-119aa036e734.png",
+  "depicted_variant": "Girt Dog of Ennerdale, the strong tawny dark-striped dog of the sheep-killing legend, stalks a flock across a Cumbrian stone-walled field by night while a distant shepherd raises his lantern in alarm. Dog weighs eight stone (about51kg), natural large-dog size, not giant, long predatory body and natural canine limbs, sheep panic and flee. Clearly narrated menace, not pet portrait. No attacks shown, no wounds or gore or magic glow.",
   "basis_claim_ids": [
     "girt-dog-of-ennerdale-c01",
-    "girt-dog-of-ennerdale-c02",
-    "girt-dog-of-ennerdale-c06",
     "girt-dog-of-ennerdale-c07",
-    "girt-dog-of-ennerdale-c09",
-    "girt-dog-of-ennerdale-c11",
     "girt-dog-of-ennerdale-c13"
   ],
-  "aura": "Silent predatory presence through wary gaze and dark moonlit fells.",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "visual_requirements": [
-    "Large smooth-haired tawny mouse-colored tiger-streaked canine",
-    "Four legs and one tail, same pose and scale",
-    "No magical outline or ribbons"
+    "Documented role/action",
+    "Natural anatomy and scale"
   ],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Native output inspected: same natural canine with four legs, tiger streaks and one tail; all luminous blue effects removed, moon and ordinary valley mist retained.",
-    "reviewer": "aura-resume-2"
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Natural large dog with tawny dark-striped smooth coat stalks fleeing sheep at night, shepherd raises lantern, no gore.",
+    "native_sha256": "3ccfd76644edeaaa22be2281a1c6740a26161357c2ccc693ac4e08d547416e76"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
@@ -38,8 +34,9 @@
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected edit: large smooth-coated tawny brindled dog, natural dark eyes with catchlights, rocky night fell. No eye rays, body haze or energy lines."
+    "notes": "Large tawny dark-striped dog stalks fleeing sheep at night while shepherd raises lantern; coherent natural dog scale and sourced menace.",
+    "native_sha256": "3ccfd76644edeaaa22be2281a1c6740a26161357c2ccc693ac4e08d547416e76",
+    "reviewed_at": "2026-10-05T18:39:15.919295+00:00"
   },
   "attempt_history": [
     {
@@ -89,9 +86,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-24b362b6-cdbb-496c-830d-ef7981a02d0c.png",
-  "revision_generator": "aura-resume-2",
+  "revision_generator": "assess_changes",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly storytelling",
+    "Clothes,props,palette,architecture editorial"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -110,5 +108,141 @@
     "review_path": "data/artwork-generated/aura-revision-797/reviews/girt-dog-of-ennerdale.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/girt-dog-of-ennerdale.json"
   },
-  "reviewed_at": "2026-10-05"
+  "reviewed_at": "2026-10-05",
+  "presentation_revision_history": [
+    {
+      "slug": "girt-dog-of-ennerdale",
+      "worker": "worker-0",
+      "prompt": "Use case: precise-object-edit. Remove ALL bright blue emitted ribbons, luminous wisps, sparkling magic, neon dog outline and luminous footprints from this Girt Dog of Ennerdale artwork. Source is a large smooth-haired tawny mouse-colored canine with dark tiger-like streaks, a silent night predator; it does not emit magic. Preserve SAME large four-legged canine, one tail, tiger-streaked coat, face, walking pose, size, hill rocks, moon, framing, painterly texture. Restore natural coat and ground shadows with ordinary moonlight and low nonluminous valley mist. Silent predatory presence through wary gaze, sturdy stance and dark fells. No animal mixture, anatomy changes, extra characters, gore, text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale-presence-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-0e77048f-e5f6-4cfc-bcae-8f8e27c36846.png",
+      "depicted_variant": "Reported 1810 smooth-haired tawny tiger-streaked dog, excluding speculative thylacine identification",
+      "basis_claim_ids": [
+        "girt-dog-of-ennerdale-c01",
+        "girt-dog-of-ennerdale-c02",
+        "girt-dog-of-ennerdale-c06",
+        "girt-dog-of-ennerdale-c07",
+        "girt-dog-of-ennerdale-c09",
+        "girt-dog-of-ennerdale-c11",
+        "girt-dog-of-ennerdale-c13"
+      ],
+      "aura": "Silent predatory presence through wary gaze and dark moonlit fells.",
+      "visual_requirements": [
+        "Large smooth-haired tawny mouse-colored tiger-streaked canine",
+        "Four legs and one tail, same pose and scale",
+        "No magical outline or ribbons"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Native output inspected: same natural canine with four legs, tiger streaks and one tail; all luminous blue effects removed, moon and ordinary valley mist retained.",
+        "reviewer": "aura-resume-2"
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "superseded_generation": {
+        "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale.png",
+        "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-20463151-1dce-45f9-a4f5-d601253003ff.png",
+        "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology encyclopedia illustration of the GIRT DOG OF ENNERDALE, selecting its reported 1810 dog appearance, not the speculative thylacine theory. ONE large powerful smooth-haired CANINE, tawny mouse-brown coat marked with DARK TIGER-LIKE STREAKS, deep chest and lean running-dog waist reflecting possible mastiff/greyhound cross without asserting the theory. Correct FOUR legs, dog paws, one dog head and tail, full body readable against Cumberland fells at night. Mouth closed, unnervingly silent stalking posture, no barking. Cold blue fell fog, huge oppressive shadows and subdued silver rim light give legendary Demon Dog aura as artistic atmosphere, no invented anatomy. Size about a very large 51 kg dog, not landscape giant. No prey, sheep corpses, blood, fangs added, horns, wings, glowing bodily fire, text, watermark, border or collage.",
+        "reason": "Root review requested a visibly emitted supernatural aura rather than natural fog."
+      },
+      "base_prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology encyclopedia illustration of the GIRT DOG OF ENNERDALE, selecting its reported 1810 dog appearance, not the speculative thylacine theory. ONE large powerful smooth-haired CANINE, tawny mouse-brown coat marked with DARK TIGER-LIKE STREAKS, deep chest and lean running-dog waist reflecting possible mastiff/greyhound cross without asserting the theory. Correct FOUR legs, dog paws, one dog head and tail, full body readable against Cumberland fells at night. Mouth closed, unnervingly silent stalking posture, no barking. Cold blue fell fog, huge oppressive shadows and subdued silver rim light give legendary Demon Dog aura as artistic atmosphere, no invented anatomy. Size about a very large 51 kg dog, not landscape giant. No prey, sheep corpses, blood, fangs added, horns, wings, glowing bodily fire, text, watermark, border or collage.",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected edit: large smooth-coated tawny brindled dog, natural dark eyes with catchlights, rocky night fell. No eye rays, body haze or energy lines."
+      },
+      "attempt_history": [
+        {
+          "slug": "girt-dog-of-ennerdale",
+          "worker": "worker-0",
+          "prompt": "Use case: lighting-weather. Edit this GIRT DOG OF ENNERDALE illustration preserving EXACT dog anatomy, four legs, tawny mouse coat, tigerlike dark stripes, silent closed mouth, Cumberland fells, camera and composition. Add CLEARLY SUPERNATURAL PALE-BLUE SPECTRAL WISPS emitted from the dog's body and spiraling close around its feet, and a distinct faint luminous outline that radiates from the creature itself, casting cold light on stones. Make the legendary Demon Dog's dreadful otherworldly aura unmistakable, while dog remains a source-faithful canine. Glow is contemporary artistic treatment, not added anatomy. No wings, horns, extra limbs, fire, wounds, victims, gore, text, watermark or border.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale-v2.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-0e77048f-e5f6-4cfc-bcae-8f8e27c36846.png",
+          "depicted_variant": "Reported 1810 smooth-haired tawny tiger-streaked dog, excluding speculative thylacine identification",
+          "basis_claim_ids": [
+            "girt-dog-of-ennerdale-c01",
+            "girt-dog-of-ennerdale-c02",
+            "girt-dog-of-ennerdale-c06",
+            "girt-dog-of-ennerdale-c07",
+            "girt-dog-of-ennerdale-c09",
+            "girt-dog-of-ennerdale-c11",
+            "girt-dog-of-ennerdale-c13"
+          ],
+          "aura": "silent night predator dread, cold fells fog",
+          "visual_requirements": [
+            "large smooth-haired tawny mouse-colored canine with dark tiger streaks",
+            "four legs, natural canine anatomy",
+            "silent predatory aura, no gore"
+          ],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually inspected edited native image: exact source tawny striped canine and four-leg anatomy preserved; clear emitted pale-blue spectral wisps coil around body and feet, luminous outline casts light onto stones. Legendary demon-dog aura now unmistakable. Glow explicitly artistic, no added anatomy."
+          },
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-120.review.json",
+          "superseded_generation": {
+            "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale.png",
+            "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-20463151-1dce-45f9-a4f5-d601253003ff.png",
+            "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology encyclopedia illustration of the GIRT DOG OF ENNERDALE, selecting its reported 1810 dog appearance, not the speculative thylacine theory. ONE large powerful smooth-haired CANINE, tawny mouse-brown coat marked with DARK TIGER-LIKE STREAKS, deep chest and lean running-dog waist reflecting possible mastiff/greyhound cross without asserting the theory. Correct FOUR legs, dog paws, one dog head and tail, full body readable against Cumberland fells at night. Mouth closed, unnervingly silent stalking posture, no barking. Cold blue fell fog, huge oppressive shadows and subdued silver rim light give legendary Demon Dog aura as artistic atmosphere, no invented anatomy. Size about a very large 51 kg dog, not landscape giant. No prey, sheep corpses, blood, fangs added, horns, wings, glowing bodily fire, text, watermark, border or collage.",
+            "reason": "Root review requested a visibly emitted supernatural aura rather than natural fog."
+          },
+          "base_prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology encyclopedia illustration of the GIRT DOG OF ENNERDALE, selecting its reported 1810 dog appearance, not the speculative thylacine theory. ONE large powerful smooth-haired CANINE, tawny mouse-brown coat marked with DARK TIGER-LIKE STREAKS, deep chest and lean running-dog waist reflecting possible mastiff/greyhound cross without asserting the theory. Correct FOUR legs, dog paws, one dog head and tail, full body readable against Cumberland fells at night. Mouth closed, unnervingly silent stalking posture, no barking. Cold blue fell fog, huge oppressive shadows and subdued silver rim light give legendary Demon Dog aura as artistic atmosphere, no invented anatomy. Size about a very large 51 kg dog, not landscape giant. No prey, sheep corpses, blood, fangs added, horns, wings, glowing bodily fire, text, watermark, border or collage.",
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected edited-v2: striped tawny smooth canine shape preserved, four-leg dog anatomy, unmistakable emitted blue spectral wisps/rim glow and ground reflections; aura correction passes.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/girt-dog-of-ennerdale-verified.webp",
+          "sha256": "9c985969298328e5a300a8a070892979b703b3ff2a3fc003e9b3cefbafc5c291",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-24b362b6-cdbb-496c-830d-ef7981a02d0c.png",
+      "revision_generator": "aura-resume-2",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "aura-resume-2",
+        "rationale": "Historical silent tiger-streaked dog lacked support for emitted blue wrapping.",
+        "allowed_magic": "none",
+        "source_basis_claim_ids": [
+          "girt-dog-of-ennerdale-c01",
+          "girt-dog-of-ennerdale-c02",
+          "girt-dog-of-ennerdale-c06",
+          "girt-dog-of-ennerdale-c07",
+          "girt-dog-of-ennerdale-c09",
+          "girt-dog-of-ennerdale-c11",
+          "girt-dog-of-ennerdale-c13"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/girt-dog-of-ennerdale.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/girt-dog-of-ennerdale.json"
+      },
+      "reviewed_at": "2026-10-05"
+    }
+  ],
+  "native_sha256": "3ccfd76644edeaaa22be2281a1c6740a26161357c2ccc693ac4e08d547416e76",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/girt-dog-of-ennerdale.json",
+    "native_sha256": "3ccfd76644edeaaa22be2281a1c6740a26161357c2ccc693ac4e08d547416e76",
+    "old_url": "/assets/art/girt-dog-of-ennerdale-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/girt-dog-of-ennerdale-presence-v2.png",
+    "old_webp_sha256": "a6e1b41258fa70f32b73bd4e79a2b4987b48af643d42546a43f03059f6308f58",
+    "old_native_sha256": "86d6f8fd25927b80ffdb2c585b21b6eda6237e8adc7c9dfd4d794cfbbcd01907",
+    "rationale": "Replace ordinary animal image with documented role or episode, avoid unsupported hybrid anatomy.",
+    "basis_claim_ids": [
+      "girt-dog-of-ennerdale-c01",
+      "girt-dog-of-ennerdale-c07",
+      "girt-dog-of-ennerdale-c13"
+    ]
+  },
+  "url": "/assets/art/girt-dog-of-ennerdale-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "6bc483e796660717a455bb9605041ea750f7b908c31d2cb6830041bdea663fe0"
 }

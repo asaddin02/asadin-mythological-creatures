@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "tinilau",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Polynesian mythology illustration of TINILAU/Tinirau choosing the accepted kind HANDSOME YOUTH HUMAN FORM, not the separate right-human left-fish variant. One handsome adult young Polynesian man with normal human face/body, two arms and legs, stands calmly on a quiet Pacific shoreline looking into clear fish-filled shallows. Modest simple woven wrap covers waist to below knees; no invented crown or fixed costume claim. One man only, ordinary human size, peaceful compassionate expression and watchful posture convey fish-guardian presence through natural warm morning light, sea breeze and ocean depth. Small natural fish visible underwater are context, not body parts. No fish lower body, gills, webbed hands, horns, wings, luminous body mist, magical aura, neon outlines, energy ribbons, glowing eyes, turtles, wives, bloody waves, text, border, collage or watermark. Clothes, face and landscape are editorial staging; do not collapse all Polynesian variants into one tradition.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tinilau.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-6fa30875-035a-4ba4-927e-313755324e9a.png",
+  "depicted_variant": "Kind handsome youth human form of Tinilau/Tinirau",
+  "basis_claim_ids": [
+    "tinilau-c01",
+    "tinilau-c03",
+    "tinilau-c08"
+  ],
+  "visual_requirements": [
+    "Normal human youth, ordinary scale",
+    "No right-human/left-fish variant mixing",
+    "Fish in shallows as guardian context"
+  ],
+  "aura": "Quiet character presence through documented form, posture and natural light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: one handsome young adult man, two arms/hands and legs, modest opaque wrap, calm gaze at fish-filled shallows. No animal body traits or emitted aura."
+  },
+  "reviewed_at": "2026-10-05T13:19:45.245Z",
+  "artistic_choices": [
+    "Wrap pattern, face, shoreline and warm morning are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-132.review.json",
+  "native_sha256": "24f4c67419dfe51a59143d69050fa7eecf0cde3e556f4f98c013ecf9ffd34346",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "24f4c67419dfe51a59143d69050fa7eecf0cde3e556f4f98c013ecf9ffd34346",
+    "notes": "Inspected handsome human young adult man with ordinary two arms/legs among fish in tropical shallows; c03 human youth variant separate from bilateral fish hybrid."
+  }
+}

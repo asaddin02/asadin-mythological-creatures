@@ -1,0 +1,47 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "adlet",
+  "prompt": "Square premium painterly naturalistic folklore artwork of one adult Adlet, choosing documented Inuit mythic hybrid form: HUMAN upper body and DOG lower body. Fully HUMAN head, face, shoulders, two arms and hands; below waist canine fur, two dog hind legs with natural hocks and paws and one dog tail. No dog head or human feet, no horns,wings,extra limbs. Simple opaque warm tunic covering torso and hips, canine legs and tail clearly visible; clothes and dark-grey fur are editorial choices. He stands alone on windswept rocky Hudson Bay shore, tense wary expression and ready stance convey dangerous presence through ordinary pose, not ethnicity. Tall athletic build rather than colossal scale. Natural cold daylight, distant bay, rich painterly oil detail. No victims, gore, aura,glowing eyes,neon energy,luminous mist,text or border.\n\nEDIT: Edit only the lower limbs of this Adlet illustration. Preserve human upper body, two arms/hands, face, clothing, dog fur, tail, shore and all light. There are three canine lower legs; remove the EXTRA BACK RIGHT LEG and paw at image-right behind the main central leg. Fill its area with the rocky shoreline background. Final anatomy must be exactly TWO canine hind legs with paws below his waist: retain the left paw at image-left and main nearer central paw, remove the rightmost rear paw and whole attached leg. No other changes, no extra limbs.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-52d96352-7547-4fee-a955-a4d942c8f8d7.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/adlet.png",
+  "depicted_variant": "Human upper body and canine lower body",
+  "basis_claim_ids": [
+    "adlet-c01",
+    "adlet-c02",
+    "adlet-c03"
+  ],
+  "visual_requirements": [
+    "Human upper body",
+    "Dog lower body",
+    "Two canine hind legs and dog tail"
+  ],
+  "aura": "Presence through pose, expression and natural light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Corrected actual native has a human head, two arms/hands, covered torso and canine lower body with exactly two dog hind legs/paws and one tail. Watchful pose in natural shore light, no animal-head variant or aura."
+  },
+  "reviewed_at": "2026-10-05T14:05:25.615Z",
+  "artistic_choices": [
+    "Warm tunic, grey fur and windswept Hudson Bay shore are editorial staging"
+  ],
+  "generation_prompt": "Square premium painterly naturalistic folklore artwork of one adult Adlet, choosing documented Inuit mythic hybrid form: HUMAN upper body and DOG lower body. Fully HUMAN head, face, shoulders, two arms and hands; below waist canine fur, two dog hind legs with natural hocks and paws and one dog tail. No dog head or human feet, no horns,wings,extra limbs. Simple opaque warm tunic covering torso and hips, canine legs and tail clearly visible; clothes and dark-grey fur are editorial choices. He stands alone on windswept rocky Hudson Bay shore, tense wary expression and ready stance convey dangerous presence through ordinary pose, not ethnicity. Tall athletic build rather than colossal scale. Natural cold daylight, distant bay, rich painterly oil detail. No victims, gore, aura,glowing eyes,neon energy,luminous mist,text or border.",
+  "attempt_history": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-752a4cd8-576b-4dad-af77-d6bac81814d1.png",
+      "verdict": "reject",
+      "notes": "Initial native had an extra third canine leg; corrected by native edit."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "native_sha256": "64f71ca6d6a6e62704b03a1d03cba571a30dbec713c8ea5f815dadba6c39add3",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "64f71ca6d6a6e62704b03a1d03cba571a30dbec713c8ea5f815dadba6c39add3",
+    "notes": "Inspected corrected human upper torso/two arms on dog lower body with exactly two canine hindlegs and dog tail; no third leg. c02 selected humanoid/canine hybrid."
+  }
+}

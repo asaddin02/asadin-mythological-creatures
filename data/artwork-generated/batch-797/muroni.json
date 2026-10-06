@@ -3,33 +3,35 @@
   "basis_claim_ids": [
     "muroni-c01",
     "muroni-c02",
-    "muroni-c03",
-    "muroni-c05"
+    "muroni-c05",
+    "muroni-c06"
   ],
-  "depicted_variant": "Muroni/Moroi Wallachian vampire spirit in dog form",
+  "depicted_variant": "Wallachian blood-sucking ghost in documented dog disguise approaching a night traveller",
   "visual_requirements": [
-    "Remove all red emitted energy wisps, red magical dots, red fur contour, glowing red eyes and red light on ground. Preserve same natural shaggy dog form, four canine legs, single tail, stance, scale, facial identity and Wallachian rural ruin under moonlight. Eyes ordinary dark canine eyes with natural catchlight. Ominous presence from direct gaze, lonely ruined village and cold light.",
-    "No generic emitted wrapping; original counts and anatomy"
+    "Wallachian blood-sucking ghost in documented dog disguise approaching a night traveller",
+    "Coherent anatomy and documented mythic scene"
   ],
-  "aura": "Alert canine stare in moonlit ruined village.",
-  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove all red emitted energy wisps, red magical dots, red fur contour, glowing red eyes and red light on ground. Preserve same natural shaggy dog form, four canine legs, single tail, stance, scale, facial identity and Wallachian rural ruin under moonlight. Eyes ordinary dark canine eyes with natural catchlight. Ominous presence from direct gaze, lonely ruined village and cold light. Preserve exact original anatomy, counts, scale and composition. No new subjects, nudity, gore, text or watermark.",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. Show a Wallachian vampire ghost in its documented DOG disguise, a normal-sized dark dog with exactly four legs approaching a fully clothed lone adult traveller on a rural Wallachian road at night. The traveller notices it with uneasy posture and holds a small physical lantern; preserve an ominous encounter-before-attack scene without contact or visible injury. The dog has ordinary dog anatomy, opaque body, natural dark eyes, no invented giant size, antlers or fantastical fangs. Physical lantern casts subdued warm light. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
   "worker": "worker-2",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-125.review.json",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muroni-presence-v2.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-41401fad-120e-491e-aa88-3a9bdf04c134.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muroni-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-a98fea97-c3e3-4dce-86b7-f58f20bbdf87.png",
   "reviewed_at": "2026-10-05",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Native output actually inspected: same natural dog, four legs and single tail, pose and village retained; red eyes, ribbons, particles and emitted fur contour removed.",
-    "reviewer": "aura-resume-1"
+    "reviewer": "recover_session",
+    "notes": "Normal dog disguise approaching lone traveller in Wallachian night; ominous documented vampire encounter without invented monster anatomy.",
+    "native_sha256": "9fc0f21e189d9ba5b17d940de8c3eadfda6f4b189652739d866b25700f038248"
   },
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected edit: selected solid dog manifestation in ruined night village, coherent paws and coat. Dark natural eyes, no eye beams or luminous purple vapor."
+    "notes": "Natural dog disguise approaches wary night traveler; coherent canine anatomy and Wallachian ghost-predator staging without gore.",
+    "native_sha256": "9fc0f21e189d9ba5b17d940de8c3eadfda6f4b189652739d866b25700f038248",
+    "reviewed_at": "2026-10-05T18:56:00.089247+00:00"
   },
   "attempt_history": [
     {
@@ -70,9 +72,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-afdc3ada-c645-44b6-b7e5-d0613987b363.png",
-  "revision_generator": "aura-resume-1",
+  "revision_generator": "recover_session",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -87,5 +90,119 @@
     ],
     "review_path": "data/artwork-generated/aura-revision-797/reviews/muroni.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/muroni.json"
-  }
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "muroni",
+      "basis_claim_ids": [
+        "muroni-c01",
+        "muroni-c02",
+        "muroni-c03",
+        "muroni-c05"
+      ],
+      "depicted_variant": "Muroni/Moroi Wallachian vampire spirit in dog form",
+      "visual_requirements": [
+        "Remove all red emitted energy wisps, red magical dots, red fur contour, glowing red eyes and red light on ground. Preserve same natural shaggy dog form, four canine legs, single tail, stance, scale, facial identity and Wallachian rural ruin under moonlight. Eyes ordinary dark canine eyes with natural catchlight. Ominous presence from direct gaze, lonely ruined village and cold light.",
+        "No generic emitted wrapping; original counts and anatomy"
+      ],
+      "aura": "Alert canine stare in moonlit ruined village.",
+      "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove all red emitted energy wisps, red magical dots, red fur contour, glowing red eyes and red light on ground. Preserve same natural shaggy dog form, four canine legs, single tail, stance, scale, facial identity and Wallachian rural ruin under moonlight. Eyes ordinary dark canine eyes with natural catchlight. Ominous presence from direct gaze, lonely ruined village and cold light. Preserve exact original anatomy, counts, scale and composition. No new subjects, nudity, gore, text or watermark.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-125.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muroni-presence-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-41401fad-120e-491e-aa88-3a9bdf04c134.png",
+      "reviewed_at": "2026-10-05",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Native output actually inspected: same natural dog, four legs and single tail, pose and village retained; red eyes, ribbons, particles and emitted fur contour removed.",
+        "reviewer": "aura-resume-1"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected edit: selected solid dog manifestation in ruined night village, coherent paws and coat. Dark natural eyes, no eye beams or luminous purple vapor."
+      },
+      "attempt_history": [
+        {
+          "slug": "muroni",
+          "basis_claim_ids": [
+            "muroni-c01",
+            "muroni-c02",
+            "muroni-c03",
+            "muroni-c05"
+          ],
+          "depicted_variant": "Muroni/Moroi Wallachian vampire spirit in dog form",
+          "visual_requirements": [
+            "Natural dog form with four canine legs and one tail",
+            "Vampiric ghost aura rather than invented beast anatomy",
+            "Wallachian rural ruin atmosphere"
+          ],
+          "aura": "Luminous dark crimson spectral wisps emitting around natural dog body",
+          "prompt": "MURONI, the Wallachian vampire spirit whose name is a corruption of moroi, in the documented DOG animal form. One natural quadrupedal shaggy brown dog with four canine paws, normal dog head and one tail, alert ominous stare, beside a ruined Wallachian farmstead after dark. Fur coloration is artistic natural-dog treatment, not a claimed identifying source feature. Strong glowing dark-crimson ghost wisps emit from its body, bright red spectral motes around paws and throat, deep cold shadows create frightening vampiric aura. No giant size, extra fangs beyond canine teeth, horns, wings, human limbs or humanoid torso. ONE square premium detailed painterly mythology encyclopedia image, whole identifying subject inside frame. No text, watermark, border, gore or victims.",
+          "worker": "worker-2",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-125.review.json",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muroni.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-41401fad-120e-491e-aa88-3a9bdf04c134.png",
+          "reviewed_at": "2026-10-05T03:17:29.221Z",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Reviewed: quadrupedal shaggy brown dog with four paws and one tail; crimson eyes and clearly emitted spectral wisps identify the source-supported animal shapeshifting ghost variant."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: Coherent dog shapeshift with four canine legs and one tail, terrifying emitted crimson vampiric wisps.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/muroni-verified.webp",
+          "sha256": "c80cecd6b36e90c8d04181191104ff9c38c4abb259dd72324b56384ef9f30270",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-afdc3ada-c645-44b6-b7e5-d0613987b363.png",
+      "revision_generator": "aura-resume-1",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "aura-resume-1",
+        "rationale": "Animal transformation supports natural dog form, not red wrapping.",
+        "allowed_magic": "none beyond documented creature manifestation",
+        "source_basis_claim_ids": [
+          "muroni-c01",
+          "muroni-c02",
+          "muroni-c03",
+          "muroni-c05"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/muroni.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/muroni.json"
+      }
+    }
+  ],
+  "native_sha256": "9fc0f21e189d9ba5b17d940de8c3eadfda6f4b189652739d866b25700f038248",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/muroni.json",
+    "native_sha256": "9fc0f21e189d9ba5b17d940de8c3eadfda6f4b189652739d866b25700f038248",
+    "old_url": "/assets/art/muroni-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muroni-presence-v2.png",
+    "old_webp_sha256": "3a9da3ef3bec3840b0356b4f288a5eb95b59189939f3eb464b5cd566f88930ed",
+    "old_native_sha256": "c81ab2af3f2e314f18093428284b6036e10007dc277671f7170f7264d3432069",
+    "rationale": "Replaces ordinary animal presentation with Wallachian blood-sucking ghost in documented dog disguise approaching a night traveller",
+    "basis_claim_ids": [
+      "muroni-c01",
+      "muroni-c02",
+      "muroni-c05",
+      "muroni-c06"
+    ]
+  },
+  "url": "/assets/art/muroni-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "63734b2a92b8145671eb75a01e6ee228c54cdff122bd5b6a6f4930220bc3ff1a"
 }

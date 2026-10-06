@@ -1,0 +1,44 @@
+{
+  "worker": "worker-0",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "hada",
+  "prompt": "Square premium painterly naturalistic Gascon Pyrenean folklore illustration, no text. Hada specifically documented HADETTA WOMAN WITH WEBBED FEET variant. One adult humanlike woman with ordinary human face, two human arms/hands and legs, but TWO BARE WEBBED FEET clearly visible: human-shaped feet with skin membranes visibly connecting adjacent toes, not fins, duck legs, hooves or claws. Fully modest opaque simple grey-blue dress ending above ankles. Standing beside a cave spring at night, quiet enigmatic watchful gaze, natural moonlight and water reflections, no glow. Ordinary dark hair, dress cut, human facial details and exact cave/spring arrangement editorial. No borrowed fairy wings, horns, elf ears, fangs, fish tail, giant size, magical aura, energy ribbons, neon outline or luminous mist. Full figure with readable foot details, refined painterly textures.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-ec4a3b4e-6b8c-4247-8f1a-4eb762fcdc2c.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hada.png",
+  "depicted_variant": "Hadetta: adult woman with webbed human feet",
+  "basis_claim_ids": [
+    "hada-c01",
+    "hada-c02",
+    "hada-c05"
+  ],
+  "visual_requirements": [
+    "Adult human woman",
+    "Two bare webbed human feet with membranes between toes",
+    "Cave and spring at night; no borrowed fairy wings"
+  ],
+  "aura": "Presence through expression, posture, framing, scale and natural lighting; no generic luminous effects.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "inspect_workspace",
+    "notes": "Viewed native: one modestly clothed adult woman stands at a cave spring under natural moonlight. Both feet show skin membranes connecting toes. Human face and limbs, no wings, horns or glow."
+  },
+  "reviewed_at": "2026-10-05T14:52:03.265834+00:00",
+  "artistic_choices": [
+    "Dark hair, grey-blue dress and cave composition are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "native_sha256": "748d2ee25296178f83be1af2e8077b4367ae7a75aba1d9d4b19995a45049f718",
+  "recovery_provenance": {
+    "rollout": "/home/asadin/.codex/sessions/2026/10/05/rollout-2026-10-05T17-56-34-01a10bb5-4f93-7b20-a96b-1e3d1dab8685.jsonl",
+    "call_id": "exec-ec4a3b4e-6b8c-4247-8f1a-4eb762fcdc2c",
+    "original_generation_preserved": true
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "748d2ee25296178f83be1af2e8077b4367ae7a75aba1d9d4b19995a45049f718",
+    "notes": "Inspected native: one adult human woman in opaque dress at cave and spring at night, exactly two visibly webbed feet; no wings or generic glow. c01/c02/c05 selected hadetta variant."
+  }
+}

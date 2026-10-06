@@ -1,40 +1,41 @@
 {
   "slug": "valva",
   "worker": "root",
-  "prompt": "Use case: precise-object-edit. Input image is EDIT TARGET: supplied vâlvă black-cat mythology artwork. Remove ALL unsupported indigo/silver emitted magic ribbons, body or tail envelope, luminous particles and glowing ground traces around the cat. Remove self-emitting eye glow, retain natural pale blue eyes with only ordinary reflected moon catchlights. Replace effects with naturally moonlit black fur, ordinary dark grass and faint distant valley mist. Aura must come from the same alert gaze, prowling posture, low camera and ominous storm clouds. Preserve exactly ONE ordinary-size coherent black cat: same face, four feline legs with current visibility/occlusion, one upright curved tail, pointed ears, exact pose/scale/placement and original detailed painterly composition. Preserve Romanian night hilltop, distant village, pines, moon and distant sky lightning as ordinary weather, never emitted from cat. No woman-cat hybrid, giant cat, extra subjects, text or watermark. Preserve original square composition.",
-  "depicted_variant": "Black-cat shapeshift of Romanian vâlvă",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Valva in documented woman form, guardian of mines: fully clothed adult female spirit stands solemnly at a deep mine passage, protectively monitoring small miners carrying lanterns farther below. Strong human figure framed by enormous rock arch, coal-dark flowing clothes, calm commanding posture. Subtle spirit quality through stillness and pale natural lantern illumination, no spectral glow or colored mist. No cat. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "depicted_variant": "Valva in documented woman form, guardian of mines: fully clothed adult female spirit stands solemnly at a deep mine passage, protectively monitoring small miners carrying lanterns farther below. Strong human figure framed by enormous rock arch, coal-dark flowing clothes, calm commanding posture. Subtle spirit quality through stillness and pale natural lantern illumination, no spectral glow or colored mist. No cat.",
   "basis_claim_ids": [
-    "valva-c01",
-    "valva-c02",
+    "valva-c03",
     "valva-c06"
   ],
   "visual_requirements": [
-    "One ordinary-size coherent black cat with four feline legs, one tail and pointed ears; preserve pose and facial identity.",
-    "Preserve Romanian hilltop, village, pines, night sky, moon and distant storm.",
-    "No emitted ribbons, luminous particles, body envelope or ground traces; eyes reflect moonlight only."
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
-  "aura": "Uncanny presence through alert feline gaze, prowling posture, low camera, natural moonlit fur and looming storm over distant village.",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "review_path": "data/gemini/reviews/batch-124.review.json",
   "tool": "OpenAI built-in image_gen",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-8e356e93-2b53-40c4-9750-b8341af9193a.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/valva-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-0bd80e2a-e6f4-4dc7-a30f-d2b266107271.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/valva-mythic-presence.png",
   "status": "reviewed",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Actually inspected original and native edit at full resolution: all indigo/silver ribbons, body/tail envelope and glowing ground particles removed. Same alert black cat, one curved tail, pointed ears, coherent feline legs with natural occlusion and exact prowling composition remain. Pale eyes have reflections rather than projected rays; moonlit fur, village windows and distant sky lightning provide scene light.",
-    "reviewer": "finish_aura_b"
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Clothed woman commands mine passage above working miners and real lanterns; guardian role and human form clear.",
+    "native_sha256": "6659283431d847364d493fa71a7f32a25ca5713e917a99644639ae2dea160ac0"
   },
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected revised native preview: single coherent black cat with four legs, ordinary physical fur and reflective eyes on hilltop at night, village and distant storm behind; natural moonlight with no indigo-silver energy ribbon, particles or emitted body outline."
+    "native_sha256": "6659283431d847364d493fa71a7f32a25ca5713e917a99644639ae2dea160ac0",
+    "notes": "Inspected native: clothed human woman watches over miners in deep lantern-lit tunnels. The documented female mine-protector form supplies identity; no black-cat substitution or emitted aura.",
+    "reviewed_at": "2026-10-05T18:08:04.041276+00:00"
   },
   "independent_visual_review": {
     "verdict": "pass",
-    "notes": "Actually inspected original and native edit at full resolution: all indigo/silver ribbons, body/tail envelope and glowing ground particles removed. Same alert black cat, one curved tail, pointed ears, coherent feline legs with natural occlusion and exact prowling composition remain. Pale eyes have reflections rather than projected rays; moonlit fur, village windows and distant sky lightning provide scene light.",
-    "reviewer": "finish_aura_b",
-    "reviewed_at": "2026-10-05"
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Clothed woman commands mine passage above working miners and real lanterns; guardian role and human form clear.",
+    "native_sha256": "6659283431d847364d493fa71a7f32a25ca5713e917a99644639ae2dea160ac0"
   },
   "attempt_history": [
     {
@@ -79,9 +80,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a10b61-7948-7e91-b49b-b94c8d96bfde/exec-beec4cb9-6864-4f4b-b9ea-6acd871b7983.png",
-  "revision_generator": "finish_aura_b",
+  "revision_generator": "assess_changes",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly composition",
+    "Clothes, exact colors and scenery details editorial"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -96,5 +98,126 @@
     "review_path": "data/artwork-generated/aura-revision-797/reviews/valva.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/valva.json"
   },
-  "reviewed_at": "2026-10-05"
+  "reviewed_at": "2026-10-05",
+  "presentation_revision_history": [
+    {
+      "slug": "valva",
+      "worker": "root",
+      "prompt": "Use case: precise-object-edit. Input image is EDIT TARGET: supplied vâlvă black-cat mythology artwork. Remove ALL unsupported indigo/silver emitted magic ribbons, body or tail envelope, luminous particles and glowing ground traces around the cat. Remove self-emitting eye glow, retain natural pale blue eyes with only ordinary reflected moon catchlights. Replace effects with naturally moonlit black fur, ordinary dark grass and faint distant valley mist. Aura must come from the same alert gaze, prowling posture, low camera and ominous storm clouds. Preserve exactly ONE ordinary-size coherent black cat: same face, four feline legs with current visibility/occlusion, one upright curved tail, pointed ears, exact pose/scale/placement and original detailed painterly composition. Preserve Romanian night hilltop, distant village, pines, moon and distant sky lightning as ordinary weather, never emitted from cat. No woman-cat hybrid, giant cat, extra subjects, text or watermark. Preserve original square composition.",
+      "depicted_variant": "Black-cat shapeshift of Romanian vâlvă",
+      "basis_claim_ids": [
+        "valva-c01",
+        "valva-c02",
+        "valva-c06"
+      ],
+      "visual_requirements": [
+        "One ordinary-size coherent black cat with four feline legs, one tail and pointed ears; preserve pose and facial identity.",
+        "Preserve Romanian hilltop, village, pines, night sky, moon and distant storm.",
+        "No emitted ribbons, luminous particles, body envelope or ground traces; eyes reflect moonlight only."
+      ],
+      "aura": "Uncanny presence through alert feline gaze, prowling posture, low camera, natural moonlit fur and looming storm over distant village.",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-8e356e93-2b53-40c4-9750-b8341af9193a.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/valva-presence-v2.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected original and native edit at full resolution: all indigo/silver ribbons, body/tail envelope and glowing ground particles removed. Same alert black cat, one curved tail, pointed ears, coherent feline legs with natural occlusion and exact prowling composition remain. Pale eyes have reflections rather than projected rays; moonlit fur, village windows and distant sky lightning provide scene light.",
+        "reviewer": "finish_aura_b"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected revised native preview: single coherent black cat with four legs, ordinary physical fur and reflective eyes on hilltop at night, village and distant storm behind; natural moonlight with no indigo-silver energy ribbon, particles or emitted body outline."
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected original and native edit at full resolution: all indigo/silver ribbons, body/tail envelope and glowing ground particles removed. Same alert black cat, one curved tail, pointed ears, coherent feline legs with natural occlusion and exact prowling composition remain. Pale eyes have reflections rather than projected rays; moonlit fur, village windows and distant sky lightning provide scene light.",
+        "reviewer": "finish_aura_b",
+        "reviewed_at": "2026-10-05"
+      },
+      "attempt_history": [
+        {
+          "slug": "valva",
+          "worker": "root",
+          "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One sleek BLACK CAT, coherent four feline legs, one tail, pointed ordinary cat ears, traverses Romanian hilltop at night. Choose explicit black-cat shapeshift of vâlvă, no woman-cat hybrid. Pines, distant Romanian village and storm clouds. Powerful pearlescent indigo-silver magical wisps visibly EMIT FROM body and tail, cast unnatural light across hill grass; luminous particles, uncanny commanding presence. Natural cat size, not giant. No writing, labels, text, watermark, frame or collage.",
+          "depicted_variant": "Black-cat shapeshift of Romanian vâlvă",
+          "basis_claim_ids": [
+            "valva-c01",
+            "valva-c02",
+            "valva-c06"
+          ],
+          "visual_requirements": [
+            "One coherent black cat",
+            "Romanian hilltops at night",
+            "Explicit supernatural emitted aura"
+          ],
+          "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+          "review_path": "data/gemini/reviews/batch-124.review.json",
+          "tool": "OpenAI built-in image_gen",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-8e356e93-2b53-40c4-9750-b8341af9193a.png",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/valva.png",
+          "status": "reviewed",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually viewed coherent ordinary-size black cat on night hilltop, visible emitted indigo-silver shapeshift aura."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: Actually viewed coherent ordinary-size black cat on night hilltop, visible emitted indigo-silver shapeshift aura.",
+            "reviewed_at": "2026-10-05"
+          },
+          "independent_visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-0",
+            "notes": "Worker-0 independently inspected root-sheet3: ordinary-size black cat shapeshift on hill, coherent feline anatomy and emitted indigo-silver aura.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/valva-verified.webp",
+          "sha256": "c89d4f04d66166906510d574b0627220c734618070cd29979d5015a40b183f52",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a10b61-7948-7e91-b49b-b94c8d96bfde/exec-beec4cb9-6864-4f4b-b9ea-6acd871b7983.png",
+      "revision_generator": "finish_aura_b",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "finish_aura_b",
+        "rationale": "Source supports black-cat shapeshifting on night hilltops and storm protection, but not indigo-silver energy emitted from a stable feline body.",
+        "allowed_magic": "No visible emitted magic; distant sky lightning is ordinary storm weather.",
+        "source_basis_claim_ids": [
+          "valva-c01",
+          "valva-c02",
+          "valva-c06"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/valva.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/valva.json"
+      },
+      "reviewed_at": "2026-10-05"
+    }
+  ],
+  "native_sha256": "6659283431d847364d493fa71a7f32a25ca5713e917a99644639ae2dea160ac0",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/valva.json",
+    "native_sha256": "6659283431d847364d493fa71a7f32a25ca5713e917a99644639ae2dea160ac0",
+    "old_url": "/assets/art/valva-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/valva-presence-v2.png",
+    "old_webp_sha256": "4a9402048fd7c203435a3772f67d25fc88d6f19c4a907a5f69bf945c7f6b13c5",
+    "old_native_sha256": "b68a54c7d0d9eab8353d4ebafbfb49397622bdef7c3dd37dbf5a72a8949c4c9a",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "valva-c03",
+      "valva-c06"
+    ]
+  },
+  "url": "/assets/art/valva-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "9ea814dd208ff45b39107c97464f1c692ed2fa278a4f9eca6443d693959ef13c"
 }

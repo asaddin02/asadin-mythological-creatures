@@ -1,0 +1,41 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "lurikeen",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Irish folklore illustration of LURIKEEN, choosing the documented Kildare shoemaking tale. ONE small human-looking male sprite sits at a little wooden workbench outdoors, diligently repairing a tiny old leather BROGUE. He wears a THREE-CORNERED HAT edged in GOLD LACE and KNEE-BREECHES, with a PIPE held at the corner of his mouth; a small JUG OF BEER stands beside him on the workbench. Show his ordinary human hands pulling waxed thread through the old shoe, one head and two arms, two legs beneath breeches. Sprite-scale posture implied by oversized grass blades around the small bench, no giant size. His mischievous busy expression and skilled concentrated hands convey uncanny fairy presence through natural dappled afternoon light, close detailed framing and quiet Irish hedgerow atmosphere. Muted brown coat, cream shirt and reddish cap are editorial costume colours; hat shape, gold lace and knee-breeches are required. Keep full sprite, both hands, hat and shoe visible. No pointy ears, horns, wings, animal face, glowing body, neon aura, magic ribbons, luminous coloured mist, floating gold, rainbow, pot of gold, other people, lettering, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/lurikeen.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-8c856902-3aac-4bbc-8afe-81c6e5f68dc0.png",
+  "depicted_variant": "Kildare tale shoemaking Lurikeen with gold-laced tricorne, knee-breeches, pipe and beer jug",
+  "basis_claim_ids": [
+    "lurikeen-c01",
+    "lurikeen-c02",
+    "lurikeen-c03",
+    "lurikeen-c04"
+  ],
+  "visual_requirements": [
+    "One small human-looking sprite making old brogue",
+    "Three-cornered gold-laced hat and knee-breeches",
+    "Pipe in mouth and jug of beer beside work",
+    "No invented monster anatomy or glow"
+  ],
+  "aura": "Mischievous fairy presence through concentrated expression, small scale and natural hedgerow light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: single small human-looking shoemaker with two hands working old brogue, clear gold-laced tricorne, knee-breeches, pipe and beer jug. Grass indicates small sprite-scale; no horn/wing anatomy or magical envelope."
+  },
+  "reviewed_at": "2026-10-05T11:19:39.700Z",
+  "artistic_choices": [
+    "Brown coat, red breeches, bench arrangement and hedgerow daylight are editorial choices; shape/accessories derive from selected tale."
+  ],
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "native_sha256": "cdd0d10c81af5b46475d44a97663fde2acd7a6f4a255cc02c4e1f53f91b35da4",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "cdd0d10c81af5b46475d44a97663fde2acd7a6f4a255cc02c4e1f53f91b35da4",
+    "notes": "Independent inspection: one small humanlike sprite shoemaking an old brogue, three-cornered gold-laced hat, knee-breeches, pipe in mouth and beer jug alongside work. Plants emphasize small stature. No added monster anatomy or emitted aura."
+  }
+}

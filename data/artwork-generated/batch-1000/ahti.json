@@ -1,0 +1,37 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "ahti",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Finnish mythology illustration of AHTI/Ahto, selecting documented MAN WITH A BEARD OF MOSS sea-god form (not separate heroic Ahti Saarelainen). One normal adult human-looking man with a dense beard composed of green MOSS strands and small moss fronds, looking watchfully from a rocky cold Finnish shore. Plain opaque grey linen robe is editorial garment. Ordinary human anatomy/scale, one head, two arms/hands and two legs; no fish tail or gills. Beard should visibly read as moss vegetation, not ordinary green-dyed hair. Calm merciful commanding gaze, sea reflections, natural overcast dawn and textured rocks provide divine sea-guardian presence. Head/torso portrait to emphasize moss beard, no crown, trident, Vellamo, heroic sword, horn, wings, magic envelope, luminous body mist, neon outline, energy ribbons, glowing eyes, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/ahti.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-9a630ff6-41b0-4438-b0ca-dc742a820cac.png",
+  "depicted_variant": "Ahto water god as man with moss beard",
+  "basis_claim_ids": [
+    "ahti-c01",
+    "ahti-c06"
+  ],
+  "visual_requirements": [
+    "Normal man with beard visibly composed of moss",
+    "No separate heroic Ahti or merfolk hybrid"
+  ],
+  "aura": "Character presence through documented anatomy, expression, framing and natural lighting",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: normal man's portrait with dense green moss/fronds forming beard, opaque grey robe, cold rocky seashore. No trident, animal anatomy or magical envelope."
+  },
+  "reviewed_at": "2026-10-05T13:27:30.833Z",
+  "artistic_choices": [
+    "Garment, hair colour, age and shoreline are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "native_sha256": "0d20fce315a07f2e93fc4a977fcdbbe30569e27014116501a9cf7651bf33a0f7",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "0d20fce315a07f2e93fc4a977fcdbbe30569e27014116501a9cf7651bf33a0f7",
+    "notes": "Inspected adult human man whose beard visibly consists of moss, natural Finnish sea shore; no merfolk body or heroic Ahti Saarelainen mix. c06 water-god variant."
+  }
+}

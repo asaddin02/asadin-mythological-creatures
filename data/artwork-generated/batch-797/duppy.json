@@ -3,33 +3,34 @@
   "worker": "worker-1",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy-presence-v2.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-40efdb4c-f200-4970-987c-354c0005fb1c.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. Show the documented THREE-FOOTED HORSE form of Duppy on a Caribbean rural road at night facing a startled fully clothed adult traveller holding a physical lantern. Clear full SIDE PROFILE horse silhouette. Exactly THREE complete legs and THREE hooves total: TWO front legs and ONE central rear leg. There is NO fourth leg, no hidden fourth hoof, no extra stump, no gore; the rear underside is smooth except for the one intact rear leg. All three hooves are visibly separated. Normal horse scale, sinister still posture, dark natural eyes. No chains, those belong to the different rolling-calf form. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-6ed2be6f-2e27-416c-b511-e4d13e4fe7bb.png",
   "review_path": "data/gemini/reviews/batch-143.review.json",
   "visual_requirements": [
-    "EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail.",
-    "Character presence from pose, framing and natural scene light; no generic magical envelope."
+    "Three-footed ghost horse haunting a Caribbean night road",
+    "Coherent anatomy and documented mythic scene"
   ],
-  "depicted_variant": "Duppy malicious Three-footed Horse example, excludes Rolling Calf/Ol'Hige forms; spectral color/environment editorial.",
+  "depicted_variant": "Three-footed ghost horse haunting a Caribbean night road",
   "basis_claim_ids": [
     "duppy-c01",
     "duppy-c02",
-    "duppy-c03",
-    "duppy-c07"
+    "duppy-c03"
   ],
-  "aura": "Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight.",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
-    "reviewer": "worker-1"
+    "reviewer": "recover_session",
+    "notes": "Three-footed horse form has exactly three visibly separated hooves, two front and one rear; Caribbean night haunting.",
+    "native_sha256": "cfec85478a5904a45ea34f6a93c90efc1fbe0d3df33f89e23b002a83bcf55202"
   },
   "reviewed_at": "2026-10-05",
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected edit: dark spectral horse retains selected three-legged anatomy. Moonlight and ominous deserted lane; no eye beam or luminous blue fog."
+    "notes": "Horse visibly has exactly three complete legs and hooves, haunting Caribbean road at night; source-supported unusual anatomy and frightened traveler.",
+    "native_sha256": "cfec85478a5904a45ea34f6a93c90efc1fbe0d3df33f89e23b002a83bcf55202",
+    "reviewed_at": "2026-10-05T18:56:00.091725+00:00"
   },
   "attempt_history": [
     {
@@ -71,9 +72,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dfce7a16-ead8-44c5-9a51-f78bfc329da6.png",
-  "revision_generator": "worker-1",
+  "revision_generator": "recover_session",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -88,5 +90,119 @@
     ],
     "review_path": "data/artwork-generated/aura-revision-797/reviews/duppy.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/duppy.json"
-  }
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "duppy",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy-presence-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-40efdb4c-f200-4970-987c-354c0005fb1c.png",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "visual_requirements": [
+        "EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail.",
+        "Character presence from pose, framing and natural scene light; no generic magical envelope."
+      ],
+      "depicted_variant": "Duppy malicious Three-footed Horse example, excludes Rolling Calf/Ol'Hige forms; spectral color/environment editorial.",
+      "basis_claim_ids": [
+        "duppy-c01",
+        "duppy-c02",
+        "duppy-c03",
+        "duppy-c07"
+      ],
+      "aura": "Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
+        "reviewer": "worker-1"
+      },
+      "reviewed_at": "2026-10-05",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected edit: dark spectral horse retains selected three-legged anatomy. Moonlight and ominous deserted lane; no eye beam or luminous blue fog."
+      },
+      "attempt_history": [
+        {
+          "slug": "duppy",
+          "worker": "worker-1",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "prompt": "Square premium naturalistic painterly Caribbean folklore mythology artwork, stylized-concept. ONE DUPPY in source-listed THREE-FOOTED HORSE malicious-spirit example. One terrifying spectral HORSE with EXACTLY THREE LEGS ending in EXACTLY THREE HOOFED FEET, not four; three legs fully separated and countable (two forelegs and ONE centered hind leg), body angle chosen to make the sole hind leg obvious, no fourth leg hidden or duplicated. One equine head, mane, horse torso and tail, no human face. Haunting deserted Caribbean path at night, palm silhouettes and old rural fence, extreme frightening malevolent ghost atmosphere. UNMISTAKABLE luminous sickly turquoise spectral wisps emitted around body and three hooves, drifting ghost particles and translucent edges, detailed naturalistic horse face and skin. No rider or victims, no horns/wings, no chains combining Rolling Calf variant, no text or watermark.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-40efdb4c-f200-4970-987c-354c0005fb1c.png",
+          "review_path": "data/gemini/reviews/batch-143.review.json",
+          "visual_requirements": [
+            "Exactly three equine legs and hoofed feet",
+            "One ghost horse not ordinary four-legged horse",
+            "Caribbean night haunting",
+            "Malevolent emitted spectral aura"
+          ],
+          "depicted_variant": "Duppy malicious Three-footed Horse example, excludes Rolling Calf/Ol'Hige forms; spectral color/environment editorial.",
+          "basis_claim_ids": [
+            "duppy-c01",
+            "duppy-c02",
+            "duppy-c03",
+            "duppy-c07"
+          ],
+          "aura": "Sickly turquoise luminous ghost wisps, particles and translucent edges.",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Inspected native output: Exactly THREE countable hoofed equine legs: two forelegs and one centered hindleg; one ghost horse with no fourth limb, strong turquoise spectral wisps and Caribbean palm-path setting. Exact size/color/costume and aura editorial beyond listed source traits."
+          },
+          "reviewed_at": "2026-10-05T03:26:14.705Z",
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: Exactly three distinct equine legs with hooves counted, coherent horse apparition and emitted turquoise spectral wisps.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/duppy-verified.webp",
+          "sha256": "5a74fa0a67892a72ca34ac1950cdcd6ffcb46ba494eeea8f939972ec2371a856",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dfce7a16-ead8-44c5-9a51-f78bfc329da6.png",
+      "revision_generator": "worker-1",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "worker-1",
+        "rationale": "Entire horse shrouded in turquoise wisps and glowing eyes without specific source light.",
+        "allowed_magic": "none",
+        "source_basis_claim_ids": [
+          "duppy-c01",
+          "duppy-c02",
+          "duppy-c03",
+          "duppy-c07"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/duppy.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/duppy.json"
+      }
+    }
+  ],
+  "native_sha256": "cfec85478a5904a45ea34f6a93c90efc1fbe0d3df33f89e23b002a83bcf55202",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/duppy.json",
+    "native_sha256": "cfec85478a5904a45ea34f6a93c90efc1fbe0d3df33f89e23b002a83bcf55202",
+    "old_url": "/assets/art/duppy-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy-presence-v2.png",
+    "old_webp_sha256": "8e8c5dd8d9a346d2142c38315e66b1cb37cdcce6e97308836500337d546bd3ae",
+    "old_native_sha256": "7b567feeac8a5574451bb3eef2ccc0ed098313a3305b080b6a0dd07df5610e51",
+    "rationale": "Replaces ordinary animal presentation with Three-footed ghost horse haunting a Caribbean night road",
+    "basis_claim_ids": [
+      "duppy-c01",
+      "duppy-c02",
+      "duppy-c03"
+    ]
+  },
+  "url": "/assets/art/duppy-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "896ac356cd5b1b7c423988da5c84b28bb81797e385ed3908a2447b8d78b9333c"
 }

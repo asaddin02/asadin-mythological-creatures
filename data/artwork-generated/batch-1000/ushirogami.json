@@ -1,0 +1,45 @@
+{
+  "slug": "ushirogami",
+  "prompt": "Use case: stylized-concept. Square premium painterly naturalistic mythology encyclopedia illustration of USHIROGAMI, select Sekien ghostlike WOMAN with ONE EYE ATOP HER HEAD. One adult ghost-woman shown three-quarter back view so the top of her head is clearly visible; a single eye at crown of head peers from parted dark hair. Her hands reach backward through tangled long hair, a visual hint of documented pulling-hair-from-behind, without depicting a victim. Modest simple Japanese robe covering torso and legs, robe and empty dim Edo-style passage are editorial staging. Face mostly turned away/outside view so no invented multiple frontal eyes; ONE head, two arms/hands, two legs beneath robe. Restrained eerie presence through crooked back-reaching pose, disordered hair, crown eye and low natural window/moon light. No floating neon, magical ribbons, emitted mist, added horns, wings, fangs, gore, text or watermark. Hair must part to expose the crown eye, not a decorative jewel.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-06427589-6b0e-4834-8ec1-ae1944fc7d4c.png",
+  "depicted_variant": "Sekien ghostlike adult woman with a single eye atop her head; facial view obscured by hair.",
+  "basis_claim_ids": [
+    "ushirogami-c01",
+    "ushirogami-c02"
+  ],
+  "visual_requirements": [
+    "One adult ghost-woman with a single crown-of-head eye",
+    "Hands reaching back into disordered long hair",
+    "Modest robe and no extra eyes, horns, wings or aura effects"
+  ],
+  "aura": "Crooked hair-reaching pose, exposed crown eye and natural dim passage light.",
+  "artistic_choices": [
+    "Robe fabric/pattern, hallway, hair texture and self-hair-reaching pose are editorial staging of the documented pulling-hair-from-behind motif without a victim."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "notes": "Inspected native: one adult robed woman in three-quarter back view, crown hair parted around one clear organic eye; face obscured, two natural hands reaching through tangled hair. No jewel substituted for eye, extra anatomy, horns or emitted aura."
+  },
+  "worker": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-058.review.json",
+  "reviewed_at": "2026-10-05",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/ushirogami.png",
+  "native_sha256": "543fd0eefd4e66e352183bc7e39d737233f1bd5758f4491fe853a9f0162f7ed7",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-2",
+    "notes": "Independent actual native inspection against accepted c02: a single organic eye sits atop the one head in parted hair, woman clothed in a modest robe, two hands reaching into disordered hair, face obscured. Natural moonlit wooden passage provides presence; no extra eyes or luminous magic.",
+    "native_sha256": "543fd0eefd4e66e352183bc7e39d737233f1bd5758f4491fe853a9f0162f7ed7",
+    "reviewed_at": "2026-10-05T12:59:09.116604+00:00"
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-2",
+    "notes": "Independent actual native inspection against accepted c02: a single organic eye sits atop the one head in parted hair, woman clothed in a modest robe, two hands reaching into disordered hair, face obscured. Natural moonlit wooden passage provides presence; no extra eyes or luminous magic.",
+    "native_sha256": "543fd0eefd4e66e352183bc7e39d737233f1bd5758f4491fe853a9f0162f7ed7",
+    "reviewed_at": "2026-10-05T12:59:09.116604+00:00"
+  }
+}

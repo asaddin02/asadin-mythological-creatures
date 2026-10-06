@@ -1,21 +1,20 @@
 {
   "slug": "lange-wapper",
   "worker": "regen-3",
-  "prompt": "Use case: illustration-story. Square premium mature painterly Flemish folklore encyclopedia artwork of LANGE WAPPER in his explicitly documented CAT transformation, recorded by Domien Sleeckx in De Lange Wapper (1840), printed in Kronyken der straten van Antwerpen volume 3 (1843), page 154. Show one large confident entirely feline black cat standing across a narrow old Antwerp cobblestone alley at night, looking sideways with a clever quietly taunting gaze. Exactly one cat head with feline muzzle, two natural cat ears, four separate legs and four paws, one long curved cat tail. Whole cat, all four paws and tail tip comfortably inside frame. No human torso, human head, hands, clothing or costume; not a giant man. The source selects a cat form, not any hybrid. Historic Flemish brick houses, narrow alley leading toward the Scheldt, shadowed shuttered tavern doorway and dim warm lanterns ground his nocturnal trickster setting; no people or other animals. Antique-gold moonlight touches fur and wet cobbles, deep forest-green shadows, sophisticated fine painterly texture. The posture spans the path, with alert ears and knowing feline gaze conveying obstruction, taunting mischief and nighttime menace without attacking anyone. Cat size, black fur and scene are visual interpretation, not measurements or mandatory folklore traits. No horns, wings, spikes, extra limbs, red glowing eyes, flames, water-monster hybrid, dog, collar, leash, text, border or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/lange-wapper.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. LANGE WAPPER in HOUSE-TALL HUMAN GIANT form confronts a tipsy ADULT MAN on an Antwerp cobbled street at NIGHT. Giant lean elongated but anatomically human adultmale, exactly2arms/2legs, humanface, opaque rustic coat and trousers, height matching nearby TWO-STORY house and its roofline. Small normal adult below looks up frightened holding empty cup. Giant points admonishing finger, no injury or violence contact. Architectural fullbody scale clear, physical street lanterns, no catbody. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/lange-wapper-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-110.review.json",
-  "depicted_variant": "Lange Wapper transformed entirely into a cat, as recorded by Domien Sleeckx (1840)",
+  "depicted_variant": "House-tall giant confronting an Antwerp drunkard",
   "visual_requirements": [
-    "One fully feline cat",
-    "One head, four separate legs/paws, one tail",
-    "Nighttime Antwerp context and taunting trickster pose",
-    "No human parts or invented hybrid anatomy"
+    "House-tall giant confronting an Antwerp drunkard",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
     "lange-wapper-c01",
+    "lange-wapper-c04",
     "lange-wapper-c05"
   ],
-  "aura": "Knowing nocturnal obstruction and taunting mischief",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "additional_sources": [
     {
       "url": "https://www.dbnl.org/tekst/slee003kron03_01/slee003kron03_01_0004.php",
@@ -24,24 +23,132 @@
     }
   ],
   "nonhuman_features": [
-    "Entire feline transformation with cat muzzle, paws and tail"
+    "House-tall giant confronting an Antwerp drunkard",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Existing claims establish Antwerp nocturnal shapeshifting trickster. Sleeckx's historical primary tale explicitly supplies the selected cat form, distinct from related Kludde tales.",
+  "historical_basis": [
+    {
+      "id": "lange-wapper-c01",
+      "source_id": "lange-wapper-s1",
+      "quote": "Lange Wapper is a Flemish folkloric character. He is a legendary giant and trickster whose folk tales were told especially in the city of Antwerp and its neighbouring towns, but similar tales are also prominent in other Flemish cities.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Lange Wapper adalah tokoh cerita rakyat Flandria, raksasa legendaris dan penipu yang kisahnya terutama diceritakan di Antwerpen dan sekitarnya, meski kisah serupa juga menonjol di kota-kota Flandria lain.",
+        "en": "Lange Wapper is a Flemish folk character, a legendary giant and trickster whose tales were told especially in Antwerp and nearby towns, with similar tales prominent in other Flemish cities."
+      }
+    },
+    {
+      "id": "lange-wapper-c04",
+      "source_id": "lange-wapper-s1",
+      "quote": "It is Lange Wapper, as big as a house, who warns, \"If you get drunk again, I will break your neck!\"",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sosok itu ternyata Lange Wapper, sebesar rumah, yang memperingatkan: \"Kalau kau mabuk lagi, akan kupatahkan lehermu!\"",
+        "en": "It is Lange Wapper, as big as a house, who warns: 'If you get drunk again, I will break your neck!'"
+      }
+    },
+    {
+      "id": "lange-wapper-c05",
+      "source_id": "lange-wapper-s2",
+      "quote": "Le Lange Wapper (en français, le Grand Wapper) est un géant de légende qui joue de mauvais tours aux habitants de la ville d'Anvers, en Belgique. Il apparaît la nuit et poursuit les gens qui ont trop bu. Il sait se faire très grand et très petit.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Lange Wapper (Prancis: le Grand Wapper) adalah raksasa legenda yang mempermainkan warga Antwerpen, Belgia; ia muncul di malam hari, mengejar orang yang terlalu banyak minum, dan bisa membuat dirinya sangat besar atau sangat kecil.",
+        "en": "Lange Wapper (French le Grand Wapper) is a legendary giant who plays tricks on the people of Antwerp, Belgium; he appears at night, pursues those who drank too much, and can make himself very big or very small."
+      }
+    }
+  ],
   "artistic_changes": [
     "Black coat, large cat proportions relative to alley, brick streetscape, lamp colours and side-on blocking pose are artistic choices, not fixed folklore characteristics."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image. One entirely feline black cat with one head, two natural cat ears, four clearly separated paws and one curved tail with visible tip, all within frame. No human face, torso, hands, clothing, extra limbs or horns. The alert knowing gaze and stance across wet old Antwerp cobbles convey a taunting nighttime obstacle. Alley and riverside architecture give source-compatible setting."
+    "reviewer": "recover_session",
+    "notes": "House-tall human giant at night admonishing adult drunkard; clear building and human scale.",
+    "native_sha256": "117de4b38fe8b96bafa6c043327e82c33d5bd3e6a529f142f4fc9e2d33474196"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T16:26:04.731Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. One complete black cat with four visible paws and one curved tail; alert sly street-roaming pose. No humanoid or invented monster anatomy. Antwerp nocturnal mischief context matches source-attributed cat transformation.",
-    "reviewed_at": "2026-10-04T16:58:31.546070+00:00"
-  }
+    "reviewer": "root",
+    "notes": "House-tall giant warns drunk adult on Antwerp street at night; documented giant scale and coherent human form.",
+    "native_sha256": "117de4b38fe8b96bafa6c043327e82c33d5bd3e6a529f142f4fc9e2d33474196",
+    "reviewed_at": "2026-10-05T18:52:04.162884+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "lange-wapper",
+      "worker": "regen-3",
+      "prompt": "Use case: illustration-story. Square premium mature painterly Flemish folklore encyclopedia artwork of LANGE WAPPER in his explicitly documented CAT transformation, recorded by Domien Sleeckx in De Lange Wapper (1840), printed in Kronyken der straten van Antwerpen volume 3 (1843), page 154. Show one large confident entirely feline black cat standing across a narrow old Antwerp cobblestone alley at night, looking sideways with a clever quietly taunting gaze. Exactly one cat head with feline muzzle, two natural cat ears, four separate legs and four paws, one long curved cat tail. Whole cat, all four paws and tail tip comfortably inside frame. No human torso, human head, hands, clothing or costume; not a giant man. The source selects a cat form, not any hybrid. Historic Flemish brick houses, narrow alley leading toward the Scheldt, shadowed shuttered tavern doorway and dim warm lanterns ground his nocturnal trickster setting; no people or other animals. Antique-gold moonlight touches fur and wet cobbles, deep forest-green shadows, sophisticated fine painterly texture. The posture spans the path, with alert ears and knowing feline gaze conveying obstruction, taunting mischief and nighttime menace without attacking anyone. Cat size, black fur and scene are visual interpretation, not measurements or mandatory folklore traits. No horns, wings, spikes, extra limbs, red glowing eyes, flames, water-monster hybrid, dog, collar, leash, text, border or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/lange-wapper.png",
+      "review_path": "data/gemini/reviews/batch-110.review.json",
+      "depicted_variant": "Lange Wapper transformed entirely into a cat, as recorded by Domien Sleeckx (1840)",
+      "visual_requirements": [
+        "One fully feline cat",
+        "One head, four separate legs/paws, one tail",
+        "Nighttime Antwerp context and taunting trickster pose",
+        "No human parts or invented hybrid anatomy"
+      ],
+      "basis_claim_ids": [
+        "lange-wapper-c01",
+        "lange-wapper-c05"
+      ],
+      "aura": "Knowing nocturnal obstruction and taunting mischief",
+      "additional_sources": [
+        {
+          "url": "https://www.dbnl.org/tekst/slee003kron03_01/slee003kron03_01_0004.php",
+          "title": "Domien Sleeckx — De Lange Wapper (1840), Kronyken der straten van Antwerpen 3 (1843), p.154, DBNL",
+          "evidence": "Original tale explicitly lists taking cat, dog or other animal shapes to frighten nighttime passers-by."
+        }
+      ],
+      "nonhuman_features": [
+        "Entire feline transformation with cat muzzle, paws and tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Existing claims establish Antwerp nocturnal shapeshifting trickster. Sleeckx's historical primary tale explicitly supplies the selected cat form, distinct from related Kludde tales.",
+      "artistic_changes": [
+        "Black coat, large cat proportions relative to alley, brick streetscape, lamp colours and side-on blocking pose are artistic choices, not fixed folklore characteristics."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image. One entirely feline black cat with one head, two natural cat ears, four clearly separated paws and one curved tail with visible tip, all within frame. No human face, torso, hands, clothing, extra limbs or horns. The alert knowing gaze and stance across wet old Antwerp cobbles convey a taunting nighttime obstacle. Alley and riverside architecture give source-compatible setting."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T16:26:04.731Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. One complete black cat with four visible paws and one curved tail; alert sly street-roaming pose. No humanoid or invented monster anatomy. Antwerp nocturnal mischief context matches source-attributed cat transformation.",
+        "reviewed_at": "2026-10-04T16:58:31.546070+00:00"
+      }
+    }
+  ],
+  "native_sha256": "117de4b38fe8b96bafa6c043327e82c33d5bd3e6a529f142f4fc9e2d33474196",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/lange-wapper.json",
+    "native_sha256": "117de4b38fe8b96bafa6c043327e82c33d5bd3e6a529f142f4fc9e2d33474196",
+    "old_url": "/assets/art/lange-wapper-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/lange-wapper.png",
+    "old_webp_sha256": "f7b78d08d162b73d4d2525d9b669c445fddb30eeb43955818e68d85338ed5dcc",
+    "old_native_sha256": "f699fb1341dbf1b77334e1790009b236cb5844ae8c2772d4cd86378cfab69a51",
+    "rationale": "Replaces ordinary animal presentation with House-tall giant confronting an Antwerp drunkard",
+    "basis_claim_ids": [
+      "lange-wapper-c01",
+      "lange-wapper-c04",
+      "lange-wapper-c05"
+    ]
+  },
+  "url": "/assets/art/lange-wapper-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "1e1881170e890b1f10aef80bb16854ebce497e4e643ccb8dac82b97317766f90"
 }

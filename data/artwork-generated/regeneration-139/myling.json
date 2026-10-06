@@ -1,23 +1,19 @@
 {
   "slug": "myling",
   "worker": "regen-3",
-  "prompt": "One square premium painterly folklore encyclopedia illustration of MYLING in the documented Norwegian UTBURD animal manifestation: ONE hornless sheep-shaped spirit by an abandoned barn at night. It is entirely sheep, no human infant face or body: one sheep head with narrow animal muzzle, two natural ears, two eyes, woolly quadruped body, exactly FOUR legs ending in four cloven hooves, one short sheep tail. Make all four legs separately visible and full body and tail comfortably framed. Walnut-grey wool, antique-gold moonlight on face, dark forest-green pasture plants and weathered barn wood; distant wooded path hints at the way to consecrated ground. The sheep stands motionless looking toward the path with a quiet insistent searching gaze, a mournful restless spirit awaiting recognition and proper burial, neither cute pet nor malicious demonic creature. Refined textured painterly realism and rich earthy mythological field-guide quality. No child or human, no wounds, blood, corpse, gravestone letters, glowing red eyes, horns, wings, extra limbs, costume, collar, magical symbols, text, watermark or border. This is the child spirit's documented sheep-form appearance, not a sheep companion.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/myling.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. A NON-GRAPHIC HUMAN CHILD GHOST MYLING in an opaque long plain nightshirt rides on the back of a fully clothed ADULT LONE TRAVELLER struggling up a path toward a clearly visible old Scandinavian GRAVEYARD gate. Child intact human anatomy, solemn face, arms over traveller's shoulders, no wounds, corpse imagery or animal body. Adult bends heavily under burden, grips child's safe legs; grave markers ahead reveal source demand of proper burial. Child naturally pale in moonlight but opaque intact body, NO luminous ghost mist or glow. No danger injury depiction. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/myling-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-110.review.json",
-  "depicted_variant": "Norwegian utburd/Myling in the documented sheep-shaped animal manifestation",
+  "depicted_variant": "Clothed child Myling ghost burdening a traveller toward graveyard",
   "visual_requirements": [
-    "One entirely sheep-bodied child spirit",
-    "One head, four hoofed legs, one short tail",
-    "Night pasture beside abandoned barn and woodland",
-    "Restless mournful demanding burial aura rather than evil caricature"
+    "Clothed child Myling ghost burdening a traveller toward graveyard",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
     "myling-c01",
-    "myling-c02",
-    "myling-c03",
-    "myling-c04"
+    "myling-c02"
   ],
-  "aura": "Restless mournful uncanny presence seeking recognition and proper rest",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "additional_sources": [
     {
       "url": "https://www.forskning.no/partner-arkeologi-universitetet-i-stavanger/kvifor-drap-dei-borna-sine/946543",
@@ -26,25 +22,122 @@
     }
   ],
   "nonhuman_features": [
-    "Entire animal sheep-form spirit manifestation",
-    "Quadruped woolly body with four hooves; no human infant anatomy"
+    "Clothed child Myling ghost burdening a traveller toward graveyard",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "Existing Myling c02 identifies Norwegian utburd counterpart. University of Stavanger publication of Grete Lillehammer research explicitly states utburd can appear as sheep or bird depending on where the child was left.",
+  "historical_basis": [
+    {
+      "id": "myling-c01",
+      "source_id": "myling-s1",
+      "quote": "In Scandinavian folklore, the mylingar were the phantasmal incarnations of the souls of children that had been forced to roam the earth until they could persuade someone (or otherwise cause enough of a ruckus to make their wishes known) to bury them properly.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Skandinavia, mylingar adalah penjelmaan arwah anak-anak yang terpaksa berkeliaran di bumi sampai bisa membujuk seseorang untuk menguburkan mereka dengan layak.",
+        "en": "In Scandinavian folklore mylingar were the phantasmal forms of children's souls forced to roam the earth until they could persuade someone to bury them properly."
+      }
+    },
+    {
+      "id": "myling-c02",
+      "source_id": "myling-s1",
+      "quote": "The myling (also known as utburd in Norwegian, útburður in Icelandic and ihtiriekko and liekkiö in Finnish) is said to chase lone wanderers at night and jump on their backs, demanding to be carried to the graveyard ... apparently grow heavier as they near the graveyard ... If one should prove unable to make it into the cemetery, the myling kills its victim in a rage.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Myling (juga utburd di Norwegia, útburður di Islandia, ihtiriekko dan liekkiö di Finlandia) konon mengejar pengembara yang sendirian di malam hari, melompat ke punggungnya dan meminta dibawa ke pemakaman; ia makin berat saat mendekati pemakaman, dan bila korban gagal mencapainya, myling membunuhnya dengan murka.",
+        "en": "The myling (also utburd in Norwegian, útburður in Icelandic, ihtiriekko and liekkiö in Finnish) is said to chase lone wanderers at night, jump on their backs and demand to be carried to the graveyard; it grows heavier as the graveyard nears, and if the victim fails to reach it, kills them in rage."
+      }
+    }
+  ],
   "artistic_changes": [
     "Hornless sheep appearance, walnut-grey wool, pose, barn and lamplight are compositional/aesthetic choices; no altered sheep anatomy or murdered infant depicted."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image. One hornless fully sheep-bodied apparition has one muzzle-headed sheep head, two ears, four separated natural hoofed legs and one short tail. Entire woolly body and hooves fit frame. No human infant face/body, demon traits or invented animal anatomy. Quiet alert gaze toward woodland path beside abandoned barn and somber moonlit pasture preserve a restless mournful spirit rather than treating it as evil. Matches the University of Stavanger source's sheep-form utburd appearance."
+    "reviewer": "recover_session",
+    "notes": "Intact clothed childghost on adult traveller's back approaching graveyard, no graphic imagery."
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T15:23:58.444Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. One whole woolly sheep apparition with one head, two ears, four hoofed legs and short tail. Somber attentive nocturnal pasture appearance fits university-documented utburd sheep manifestation, without invented human features.",
-    "reviewed_at": "2026-10-04T16:18:48.412603+00:00"
-  }
+    "reviewer": "root",
+    "native_sha256": "157c94e8f293522ecd74c6a7e57abe7920f5c19bd3985918cf3aa40b621b7f75",
+    "notes": "Inspected native: pale clothed child spirit rides on a struggling adult traveller’s back toward a graveyard at night. The documented burden and burial episode is clear, non-graphic and without generic emitted glow.",
+    "reviewed_at": "2026-10-05T18:20:40.436951+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "myling",
+      "worker": "regen-3",
+      "prompt": "One square premium painterly folklore encyclopedia illustration of MYLING in the documented Norwegian UTBURD animal manifestation: ONE hornless sheep-shaped spirit by an abandoned barn at night. It is entirely sheep, no human infant face or body: one sheep head with narrow animal muzzle, two natural ears, two eyes, woolly quadruped body, exactly FOUR legs ending in four cloven hooves, one short sheep tail. Make all four legs separately visible and full body and tail comfortably framed. Walnut-grey wool, antique-gold moonlight on face, dark forest-green pasture plants and weathered barn wood; distant wooded path hints at the way to consecrated ground. The sheep stands motionless looking toward the path with a quiet insistent searching gaze, a mournful restless spirit awaiting recognition and proper burial, neither cute pet nor malicious demonic creature. Refined textured painterly realism and rich earthy mythological field-guide quality. No child or human, no wounds, blood, corpse, gravestone letters, glowing red eyes, horns, wings, extra limbs, costume, collar, magical symbols, text, watermark or border. This is the child spirit's documented sheep-form appearance, not a sheep companion.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/myling.png",
+      "review_path": "data/gemini/reviews/batch-110.review.json",
+      "depicted_variant": "Norwegian utburd/Myling in the documented sheep-shaped animal manifestation",
+      "visual_requirements": [
+        "One entirely sheep-bodied child spirit",
+        "One head, four hoofed legs, one short tail",
+        "Night pasture beside abandoned barn and woodland",
+        "Restless mournful demanding burial aura rather than evil caricature"
+      ],
+      "basis_claim_ids": [
+        "myling-c01",
+        "myling-c02",
+        "myling-c03",
+        "myling-c04"
+      ],
+      "aura": "Restless mournful uncanny presence seeking recognition and proper rest",
+      "additional_sources": [
+        {
+          "url": "https://www.forskning.no/partner-arkeologi-universitetet-i-stavanger/kvifor-drap-dei-borna-sine/946543",
+          "title": "University of Stavanger — Kvifor drap dei borna sine? (Grete Lillehammer research, 2008)",
+          "evidence": "University-produced article explicitly identifies utburd appearing in animal form such as sheep or bird, in context of child spirits."
+        }
+      ],
+      "nonhuman_features": [
+        "Entire animal sheep-form spirit manifestation",
+        "Quadruped woolly body with four hooves; no human infant anatomy"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "Existing Myling c02 identifies Norwegian utburd counterpart. University of Stavanger publication of Grete Lillehammer research explicitly states utburd can appear as sheep or bird depending on where the child was left.",
+      "artistic_changes": [
+        "Hornless sheep appearance, walnut-grey wool, pose, barn and lamplight are compositional/aesthetic choices; no altered sheep anatomy or murdered infant depicted."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image. One hornless fully sheep-bodied apparition has one muzzle-headed sheep head, two ears, four separated natural hoofed legs and one short tail. Entire woolly body and hooves fit frame. No human infant face/body, demon traits or invented animal anatomy. Quiet alert gaze toward woodland path beside abandoned barn and somber moonlit pasture preserve a restless mournful spirit rather than treating it as evil. Matches the University of Stavanger source's sheep-form utburd appearance."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T15:23:58.444Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. One whole woolly sheep apparition with one head, two ears, four hoofed legs and short tail. Somber attentive nocturnal pasture appearance fits university-documented utburd sheep manifestation, without invented human features.",
+        "reviewed_at": "2026-10-04T16:18:48.412603+00:00"
+      }
+    }
+  ],
+  "native_sha256": "157c94e8f293522ecd74c6a7e57abe7920f5c19bd3985918cf3aa40b621b7f75",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/myling.json",
+    "native_sha256": "157c94e8f293522ecd74c6a7e57abe7920f5c19bd3985918cf3aa40b621b7f75",
+    "old_url": "/assets/art/myling-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/myling.png",
+    "old_webp_sha256": "3812822d3ee3636e4b783df953f9227ee17c0fc9f8923f238f9ff13011355833",
+    "old_native_sha256": "09b8795a4cb93409a5df1c97289051097aa7577a7217a3321239e134c2e0264b",
+    "rationale": "Replaces ordinary animal presentation with Clothed child Myling ghost burdening a traveller toward graveyard",
+    "basis_claim_ids": [
+      "myling-c01",
+      "myling-c02"
+    ]
+  },
+  "url": "/assets/art/myling-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "c2a69d562be2a8e113e6df318553c2752bb4e5452c872d9ea5cf346a0d6c3e10"
 }

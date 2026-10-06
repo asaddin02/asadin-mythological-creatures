@@ -2,23 +2,46 @@
   "slug": "swan-maiden",
   "worker": "regen-2",
   "review_path": "data/gemini/reviews/batch-049.review.json",
-  "depicted_variant": "Whole-swan transformation in Herman Hofberg's Blekinge Swan Maiden tale (1890)",
+  "depicted_variant": "Human Swan Maiden wearing feather robe at lake",
   "visual_requirements": [
-    "Whole natural swan body with one head, two wings and two separate webbed feet",
-    "No human face, human torso, invented hybrid anatomy, costume or crown",
-    "Entire swan uncropped with wistful graceful otherworldly aura"
+    "Human Swan Maiden wearing feather robe at lake",
+    "Coherent anatomy and documented mythic scene"
   ],
   "nonhuman_features": [
-    "Wholly avian swan metamorphosis, not a woman in feather clothing"
+    "Human Swan Maiden wearing feather robe at lake",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
-    "swan-maiden-c01",
-    "swan-maiden-c03"
+    "swan-maiden-c04",
+    "swan-maiden-c12"
   ],
-  "aura": "Graceful wistful supernatural freedom, quiet fairy-tale melancholy",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
-  "historical_basis": "Herman Hofberg, Swedish Fairy Tales, translated W. H. Myers (1890), pp.35–38, Blekinge tale, transcribed by University of Pittsburgh D.L. Ashliman: swans divest feathers and become maidens, recover former shape and fly; youngest explicitly transforms back into a swan on recovering feathers. Selects this actual animal variant rather than Jacobs's feather-robed human account.",
+  "historical_basis": [
+    {
+      "id": "swan-maiden-c04",
+      "source_id": "swan-maiden-s2",
+      "quote": "there appeared seven maidens all clad in robes made of feathers, and they alighted on the banks of the lake",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Versi Jacobs menampilkan tujuh perempuan berjubah bulu yang tiba di danau.",
+        "en": "Jacobs’s tale has seven feather-robed maidens land beside a lake."
+      }
+    },
+    {
+      "id": "swan-maiden-c12",
+      "source_id": "swan-maiden-s2",
+      "quote": "As soon as she saw it she put it on and said to her daughter, \"Tell father that if he wishes to see me again he must find me in the Land East o' the Sun and West o' the Moon;\" and with that she flew away.",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sang ibu mengenakan jubah dan terbang pergi.",
+        "en": "She puts on the robe and flies away."
+      }
+    }
+  ],
   "additional_sources": [
     {
       "url": "https://sites.pitt.edu/~dash/swan.html",
@@ -30,19 +53,92 @@
   "artistic_changes": [
     "Exact bill coloring, pose and Scandinavian lakeshore painterly details interpreted; no invented anatomy"
   ],
-  "prompt": "Use case: scientific-educational. Asset type: one square premium painterly mythology encyclopedia illustration. Subject: SWAN MAIDEN in the whole-swan transformation from Herman Hofberg's Swedish Fairy Tales (1890), Blekinge tale. ONE wholly swan-bodied magical woman in animal form standing on a quiet Scandinavian lakeshore at dusk, about to leave. Natural white swan plumage, one swan head and long graceful curved neck, one natural bill with black base and orange bill, exactly TWO feathered wings slightly spread, exactly TWO webbed black feet clearly apart on shore, one coherent bird body and short feathered tail. No human face, human torso, human arms, costume, crowns, jewel or invented hybrid anatomy. The entire swan from wing tips and neck to both feet and tail fits frame with ample margin. Peaceful wistful distant gaze, proud regained freedom and gentle fairy-tale melancholy rather than demonic hostility. Soft warm dusk lake reflection, deep forest green background, walnut shore and nuanced gold light, premium detailed naturalistic oil-painted texture. Only this individual bird, no other swans or people. No text, watermark, borders or gore. Depict an actual source-attested animal metamorphosis; do not substitute a woman wearing feather robe.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/swan-maiden.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. An ADULT HUMAN SWAN MAIDEN in a long opaque ROBE MADE OF WHITE SWAN FEATHERS prepares to fly away from a lake shore. Full humanface, human hands/feet,2arms/2legs; feather robe covers entire torso and hips, arms lift its broad feathered sleeves. Feet just lifting slightly above shore supports documented flight upon robe recovery. No swanhead or birdbody or invented separate wings, clothing is the feather transformation garment. Physical dawn lake, no halo or particles. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/swan-maiden-mythic-presence.png",
   "generated_original": "/home/asadin/.codex/generated_images/01a107aa-9947-7b23-af38-2b3374b93da2/exec-f4559c95-ba15-4f21-aad5-1b20df01f8e7.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T16:10:47.550Z",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected via view_image: one natural swan head/long neck, orange-black bill, exactly two feathered wings, two distinct black webbed feet, one white-feathered avian body and tail; all tips/feet visible inside square frame. No human face/body, costume or invented hybrid anatomy. Quiet lakeside sunset and poised wistful bird retain graceful maiden-in-animal-form tale aura. Explicitly based on Hofberg's whole-swan metamorphosis."
+    "reviewer": "recover_session",
+    "notes": "Full human woman in feather robe with sleeves and slightly airborne feet; no animal head.",
+    "native_sha256": "c64d680740a7d56d4ba491f77386de6e23ec1a97a95ec5f4f618f6456603e001"
   },
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. One complete white swan with two spread wings, two webbed feet and one feathered tail. No human features. Wistful lakeside sunset aura fits documented whole-swan maiden transformation.",
-    "reviewed_at": "2026-10-04T16:58:31.530574+00:00"
-  }
+    "reviewer": "root",
+    "notes": "Human woman lifts off by feather robe beside lake; coherent hands/feet, source-supported robe flight without grafted wings.",
+    "native_sha256": "c64d680740a7d56d4ba491f77386de6e23ec1a97a95ec5f4f618f6456603e001",
+    "reviewed_at": "2026-10-05T18:52:04.165291+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "swan-maiden",
+      "worker": "regen-2",
+      "review_path": "data/gemini/reviews/batch-049.review.json",
+      "depicted_variant": "Whole-swan transformation in Herman Hofberg's Blekinge Swan Maiden tale (1890)",
+      "visual_requirements": [
+        "Whole natural swan body with one head, two wings and two separate webbed feet",
+        "No human face, human torso, invented hybrid anatomy, costume or crown",
+        "Entire swan uncropped with wistful graceful otherworldly aura"
+      ],
+      "nonhuman_features": [
+        "Wholly avian swan metamorphosis, not a woman in feather clothing"
+      ],
+      "basis_claim_ids": [
+        "swan-maiden-c01",
+        "swan-maiden-c03"
+      ],
+      "aura": "Graceful wistful supernatural freedom, quiet fairy-tale melancholy",
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": "Herman Hofberg, Swedish Fairy Tales, translated W. H. Myers (1890), pp.35–38, Blekinge tale, transcribed by University of Pittsburgh D.L. Ashliman: swans divest feathers and become maidens, recover former shape and fly; youngest explicitly transforms back into a swan on recovering feathers. Selects this actual animal variant rather than Jacobs's feather-robed human account.",
+      "additional_sources": [
+        {
+          "url": "https://sites.pitt.edu/~dash/swan.html",
+          "title": "Swan Maidens: The Swan Maiden (Sweden, Herman Hofberg)",
+          "publisher": "University of Pittsburgh, D. L. Ashliman",
+          "basis": "Hofberg 1890 pp.35–38, Blekinge tale; explicit complete swan transformation"
+        }
+      ],
+      "artistic_changes": [
+        "Exact bill coloring, pose and Scandinavian lakeshore painterly details interpreted; no invented anatomy"
+      ],
+      "prompt": "Use case: scientific-educational. Asset type: one square premium painterly mythology encyclopedia illustration. Subject: SWAN MAIDEN in the whole-swan transformation from Herman Hofberg's Swedish Fairy Tales (1890), Blekinge tale. ONE wholly swan-bodied magical woman in animal form standing on a quiet Scandinavian lakeshore at dusk, about to leave. Natural white swan plumage, one swan head and long graceful curved neck, one natural bill with black base and orange bill, exactly TWO feathered wings slightly spread, exactly TWO webbed black feet clearly apart on shore, one coherent bird body and short feathered tail. No human face, human torso, human arms, costume, crowns, jewel or invented hybrid anatomy. The entire swan from wing tips and neck to both feet and tail fits frame with ample margin. Peaceful wistful distant gaze, proud regained freedom and gentle fairy-tale melancholy rather than demonic hostility. Soft warm dusk lake reflection, deep forest green background, walnut shore and nuanced gold light, premium detailed naturalistic oil-painted texture. Only this individual bird, no other swans or people. No text, watermark, borders or gore. Depict an actual source-attested animal metamorphosis; do not substitute a woman wearing feather robe.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/swan-maiden.png",
+      "generated_original": "/home/asadin/.codex/generated_images/01a107aa-9947-7b23-af38-2b3374b93da2/exec-f4559c95-ba15-4f21-aad5-1b20df01f8e7.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T16:10:47.550Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected via view_image: one natural swan head/long neck, orange-black bill, exactly two feathered wings, two distinct black webbed feet, one white-feathered avian body and tail; all tips/feet visible inside square frame. No human face/body, costume or invented hybrid anatomy. Quiet lakeside sunset and poised wistful bird retain graceful maiden-in-animal-form tale aura. Explicitly based on Hofberg's whole-swan metamorphosis."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. One complete white swan with two spread wings, two webbed feet and one feathered tail. No human features. Wistful lakeside sunset aura fits documented whole-swan maiden transformation.",
+        "reviewed_at": "2026-10-04T16:58:31.530574+00:00"
+      }
+    }
+  ],
+  "native_sha256": "c64d680740a7d56d4ba491f77386de6e23ec1a97a95ec5f4f618f6456603e001",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/swan-maiden.json",
+    "native_sha256": "c64d680740a7d56d4ba491f77386de6e23ec1a97a95ec5f4f618f6456603e001",
+    "old_url": "/assets/art/swan-maiden-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/swan-maiden.png",
+    "old_webp_sha256": "56df2abd71080440205879fabadce4285b01b2e391c8e17e14ac51fb2b68d40a",
+    "old_native_sha256": "b6832c5eec8c17c66b4812fa6a5ba7f743aa2c9a93fb6eef3f26497e3adc4e1f",
+    "rationale": "Replaces ordinary animal presentation with Human Swan Maiden wearing feather robe at lake",
+    "basis_claim_ids": [
+      "swan-maiden-c04",
+      "swan-maiden-c12"
+    ]
+  },
+  "url": "/assets/art/swan-maiden-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "54bdcc6af2793d55ba6c222b7a6f6592106033a6ee5037de6c071b8de0a06d38"
 }

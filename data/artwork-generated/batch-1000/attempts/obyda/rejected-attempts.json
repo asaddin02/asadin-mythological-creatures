@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "file": "current-session-first.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-f99e4208-7401-4ed4-b9b8-0f8c167d8254.png",
+      "prompt": "Use case: illustration-story. Square premium painterly naturalistic folklore encyclopedia artwork of OBYDA, the documented Udmurt female forest hag variant. One adult elderly HUMAN WOMAN in a dense mature forest, entirely and modestly covered by an opaque simple woven long-sleeved tunic down to mid-calf; her unusually pendulous chest is suggested only by the opaque draped garment, never exposed. Critical source anatomy: her two bare human FEET ARE TURNED BACKWARDS, toes pointing opposite to her forward-facing knees and head. Frame three-quarter side view so the reversed feet are clearly legible and both fully visible on forest floor. Old intelligent formidable expression and hunched posture, a solitary imposing forest presence. Natural gray afternoon light through trunks, earthy oil painting texture, restrained realistic atmosphere. Garment, gray hair, forest staging are editorial choices. No horns, wings, tail, animal head, extra limbs, glowing eyes, magical beams, neon aura, smoke halo, text, watermark, border. Do not depict nudity or attack. Preserve full figure and feet.",
+      "verdict": "rejected",
+      "notes": "Backwards foot direction is ambiguous because torso and feet may share direction.",
+      "native_sha256": "557f5d4c37cd951eba3e099a08d9f531c062729e4b8a6285b3627fd0b23bfecd"
+    },
+    {
+      "file": "current-session-edit.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-01e374b0-80eb-4f12-8bd1-47782bb2910a.png",
+      "prompt": "Edit this same Obyda image. Preserve elderly Udmurt forest woman, woven opaque modest dress, chest entirely covered, dense forest, natural realistic painterly style. Correct ONLY pose and reversed-foot readability: show her in clear LEFT-FACING SIDE PROFILE, face and shoulders and BOTH KNEES turned toward LEFT edge. Both lower legs descend straight; each foot is unnaturally turned 180 degrees so BOTH TOES POINT RIGHT, and BOTH HEELS POINT LEFT. This documented backward-foot anatomy must visibly contradict knee direction. Separate the two legs a little, frame both feet fully unobstructed. No extra limbs, horns, tail, magic glow, text. Maintain landscape forest depth and human proportions.",
+      "verdict": "rejected",
+      "notes": "One foot appears duplicated or bidirectional instead of exactly two clearly reversed feet.",
+      "native_sha256": "6f41db45032a15600feef3d2b5ecca6755e80577682acd994f1ba18e29804914"
+    }
+  ],
+  "selected_candidate": "Recovered previous-session original obyda.png",
+  "reviewer": "assess_changes"
+}

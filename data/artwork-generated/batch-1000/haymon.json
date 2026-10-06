@@ -1,0 +1,40 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "haymon",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Tyrolean mythology illustration of HAYMON, selecting his documented remorseful giant who becomes a lay brother after founding Wilten monastery. A single immense HUMAN-LOOKING male giant stands with a solemn peaceful expression beside a modest medieval stone abbey in an Alpine valley. Normal human anatomy, one head, two arms and two legs, no hybrid monster features. Plain long unadorned brown lay-brother robe and belt cover torso and legs, no armour; costume is editorial staging. His large bare human hands are clasped calmly near his waist, full body inside frame. Nearby ordinary abbey windows, doorway and small fir trees show giant proportions without absurd planet-size scale. Rugged Alpine mountains rise behind. Strong compassionate presence through downward reflective gaze, calm imposing stance, warm natural morning light and beautifully resolved stone, cloth and mountain textures. No dragon, trophies, swordfish horn, second giant, monks or other characters. No wings, antlers, horns, magical aura, neon body outline, glowing eyes, luminous coloured mist, energy ribbons, halo, gore, lettering, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/haymon.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-1f9dd840-40d0-44c3-9943-121c93ed5217.png",
+  "depicted_variant": "Remorseful human-looking giant Haymon as lay brother beside Wilten-inspired abbey",
+  "basis_claim_ids": [
+    "haymon-c01",
+    "haymon-c05",
+    "haymon-c07"
+  ],
+  "visual_requirements": [
+    "One normal human-looking giant",
+    "Peaceful lay-brother robe and clasped hands",
+    "Abbey doorway and trees provide documented giant scale",
+    "No composite dragon or second-giant scene"
+  ],
+  "aura": "Compassionate reflective presence through lowered gaze, monumental stillness and warm Alpine morning",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: one human-looking giant in modest plain robe, two clasped ordinary hands and two feet, reflective lowered gaze. Abbey doorway and small trees establish giant proportions; natural warm light, no aura envelope or hybrid anatomy."
+  },
+  "reviewed_at": "2026-10-05T11:16:08.674Z",
+  "artistic_choices": [
+    "Brown robe, hair/beard, Alpine morning and abbey architecture are editorial staging; no claim to documentary likeness of actual Wilten buildings."
+  ],
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "native_sha256": "a823b0f10fdc4af542569523ca82343f82cf003f94d0b37789893385b95e00aa",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "a823b0f10fdc4af542569523ca82343f82cf003f94d0b37789893385b95e00aa",
+    "notes": "Independent inspection: one human-looking giant in plain lay-brother robe with clasped hands near abbey, small doorway/trees emphasize giant scale. No dragon composite, horns, animal limbs or aura effects; conversion/monastic variant documented."
+  }
+}

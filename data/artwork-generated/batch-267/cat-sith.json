@@ -1,15 +1,18 @@
 {
   "slug": "cat-sith",
   "worker": "worker-2",
-  "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One Scottish Highland CAT SITH: a very large dog-sized BLACK CAT with one clear WHITE SPOT ON CHEST. Natural feline head, two ears, arched back, erect bristling fur, four feline legs and one feline tail. Standing on all four paws on an ancient stone path beside a remote Highland cottage at moonlit Samhain; small bowl of milk nearby. Slightly uncanny watchful fairy-cat aura, normally neutral yet fierce if threatened. Show whole creature with generous margins and chest spot visible in three-quarter view. No human face, clothes, crown, weapon, wings, horns or cartoon likeness. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. A LARGE BLACK CAT with a distinct WHITE SPOT ON CHEST walks UPRIGHT ON ITS TWO HIND LEGS outside a Scottish Highland cottage during Samhain. It has a wholly CAT HEAD AND CAT BODY, not a human cat hybrid, its two forepaws held bent naturally forward, bristling arched back, bushy tail. Height of medium-sized dog when crouched; show normal-sized bowl of MILK on cottage step and a fully clothed adult in doorway for reliable scale. Frame entire creature from ears to two grounded hindpaws, unmistakable upright stance. Physical moonlight and lantern. No crown or clothes invented for cat. Detailed naturalistic painting with powerful readable mythic identity, complete relevant anatomy, physical restrained light. No text, logos or borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or unsupported powers.",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "Dog-sized large black fairy cat with white chest spot",
+  "depicted_variant": "Upright fairy cat with dog-sized scale",
   "basis_claim_ids": [
-    "cat-sith-c01"
+    "cat-sith-c01",
+    "cat-sith-c03",
+    "cat-sith-c05"
   ],
-  "aura": "Uncanny alert Highland fairy cat",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_requirements": [
-    "Dog-sized large black fairy cat with white chest spot"
+    "Upright fairy cat with dog-sized scale",
+    "Coherent anatomy and documented mythic scene"
   ],
   "sources": [
     {
@@ -35,12 +38,94 @@
       "accessed": "2026-10-02"
     }
   ],
-  "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-0bc23a11-5b77-4668-a910-d2d8f0156be2.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/cat-sith.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed dog-sized black cat with clear white chest spot, arched back and erect bristles, four feline paws, two ears and one tail; watchful uncanny stance beside Highland cottage and milk bowl."
+    "reviewer": "recover_session",
+    "notes": "Cat upright on hindpaws with white chest and milk bowl, human scale."
   },
-  "reviewed_at": "2026-10-04T08:51:45.424Z"
+  "reviewed_at": "2026-10-04T08:51:45.424Z",
+  "presentation_revision_history": [
+    {
+      "slug": "cat-sith",
+      "worker": "worker-2",
+      "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One Scottish Highland CAT SITH: a very large dog-sized BLACK CAT with one clear WHITE SPOT ON CHEST. Natural feline head, two ears, arched back, erect bristling fur, four feline legs and one feline tail. Standing on all four paws on an ancient stone path beside a remote Highland cottage at moonlit Samhain; small bowl of milk nearby. Slightly uncanny watchful fairy-cat aura, normally neutral yet fierce if threatened. Show whole creature with generous margins and chest spot visible in three-quarter view. No human face, clothes, crown, weapon, wings, horns or cartoon likeness. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "Dog-sized large black fairy cat with white chest spot",
+      "basis_claim_ids": [
+        "cat-sith-c01"
+      ],
+      "aura": "Uncanny alert Highland fairy cat",
+      "visual_requirements": [
+        "Dog-sized large black fairy cat with white chest spot"
+      ],
+      "sources": [
+        {
+          "id": "cat-sith-s1",
+          "url": "https://en.wikipedia.org/wiki/Cat-s%C3%ACth",
+          "title": "Cat-sìth",
+          "author": null,
+          "publisher": "Wikipedia (en)",
+          "published": null,
+          "language": "en",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        },
+        {
+          "id": "cat-sith-s2",
+          "url": "https://de.wikipedia.org/wiki/Cait_Sith",
+          "title": "Cait Sith",
+          "author": null,
+          "publisher": "Wikipedia (de)",
+          "published": null,
+          "language": "de",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        }
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-0bc23a11-5b77-4668-a910-d2d8f0156be2.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed dog-sized black cat with clear white chest spot, arched back and erect bristles, four feline paws, two ears and one tail; watchful uncanny stance beside Highland cottage and milk bowl."
+      },
+      "reviewed_at": "2026-10-04T08:51:45.424Z"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "6431c308f923d738bdabaea5fee978580379408c1b9214cc8f57c0013788fe50",
+    "notes": "Inspected native: unusually large upright black fairy cat with white chest patch walks on hind legs beside a milk offering and human witness. This shows supported distinguishing anatomy and Samhain context; no invented appendages.",
+    "reviewed_at": "2026-10-05T18:05:36.525163+00:00"
+  },
+  "native_sha256": "6431c308f923d738bdabaea5fee978580379408c1b9214cc8f57c0013788fe50",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/cat-sith.json",
+    "native_sha256": "6431c308f923d738bdabaea5fee978580379408c1b9214cc8f57c0013788fe50",
+    "old_url": "/assets/art/cat-sith-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-0bc23a11-5b77-4668-a910-d2d8f0156be2.png",
+    "old_webp_sha256": "ec80887015a3ef9b0c560d4734161ac909c76fa54c8b8a3a62d0a9e2e314ef8f",
+    "old_native_sha256": "9bb32b64a3cf3c9a2f99ae471a4edc111bdf21526df2d966c2bc9cc294a4a305",
+    "rationale": "Replaces ordinary animal presentation with Upright fairy cat with dog-sized scale",
+    "basis_claim_ids": [
+      "cat-sith-c01",
+      "cat-sith-c03",
+      "cat-sith-c05"
+    ]
+  },
+  "url": "/assets/art/cat-sith-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "5bacb9287eff5ed93e8c5f0624a98239d27f65312bd82495e00f29e21caf29db",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-81f472a5-f4ec-42b4-b8cd-e644360cd066.png",
+  "revision_generator": "recover_session",
+  "artistic_changes": [
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
+  ]
 }

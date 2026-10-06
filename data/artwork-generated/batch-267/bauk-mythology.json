@@ -2,26 +2,86 @@
   "slug": "bauk-mythology",
   "worker": "worker-0",
   "review_path": "data/gemini/reviews/batch-122.review.json",
-  "depicted_variant": "Bear-like animal bogeyman interpretation",
+  "depicted_variant": "Bauk the fearful creature hiding in an abandoned Serbian house: hulking bear-like dark figure shrinks backward into the broken doorway, visibly recoiling from a small human traveler holding a torch and striking a metal pan to make noise. Lit traveler outside and dark cowering creature inside, strong documented fear of light and noise. Natural bear-like anatomy is an interpretation supported by bear comparison, no extra horns or glowing eyes.",
   "basis_claim_ids": [
     "bauk-mythology-c01",
-    "bauk-mythology-c02",
-    "bauk-mythology-c03",
-    "bauk-mythology-c05"
+    "bauk-mythology-c02"
   ],
-  "aura": "Lurking predatory bogeyman",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "visual_requirements": [
-    "A clumsily walking ominous bear-like animal lurking inside a dark abandoned Serbian stone dwelling. Large hunched fully furred quadruped bear body and animal head, black eyes, heavy paws. Not a human-faced demon or human in costume. Its outline is lit by narrow doorway, darkness hints at its folklore fear of light.",
-    "Lurking predatory bogeyman",
-    "Creature-specific anatomy is clearly visible; no ordinary human dramatic portrait"
+    "Documented role/action",
+    "Natural anatomy and scale"
   ],
-  "prompt": "Use case: stylized-concept. Asset type: Mythics encyclopedia character illustration. ONE square high-detail naturalistic painterly illustration. Subject: Bauk (mythology). A clumsily walking ominous bear-like animal lurking inside a dark abandoned Serbian stone dwelling. Large hunched fully furred quadruped bear body and animal head, black eyes, heavy paws. Not a human-faced demon or human in costume. Its outline is lit by narrow doorway, darkness hints at its folklore fear of light. Mood: Lurking predatory bogeyman. Full defining anatomy visible, main creature prominent, balanced legible composition, detailed organic textures, atmospheric setting. No text, watermark, frame, collage, labels, game-interface or extra unrelated character. Depict folklore rather than a modern franchise. Palette, landscape and pose are artistic interpretation; do not invent conflicting signature anatomy.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/bauk-mythology.png",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Bauk the fearful creature hiding in an abandoned Serbian house: hulking bear-like dark figure shrinks backward into the broken doorway, visibly recoiling from a small human traveler holding a torch and striking a metal pan to make noise. Lit traveler outside and dark cowering creature inside, strong documented fear of light and noise. Natural bear-like anatomy is an interpretation supported by bear comparison, no extra horns or glowing eyes. No arbitrary glowing effects, colored mist, glyphs or ribbons. Use natural animal scale relative to people unless this specific brief explicitly documents a gigantic form.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/bauk-mythology-mythic-presence.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T09:32:30.545Z",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Original individually inspected: one fully furred bear-like quadruped with animal head and four paws looming inside abandoned stone dwelling. No human torso, costume or invented extra limbs. Predatory lurking stance follows source bear interpretation."
-  }
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Bear-like creature recoils in abandoned dark doorway from traveler using torch and struck pan; sourced fear of light/noise clear.",
+    "native_sha256": "06efb494127ce76a11a3d7c42cdd044536de6447b5689006d6cafdf7bc77b2bd"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "bauk-mythology",
+      "worker": "worker-0",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "depicted_variant": "Bear-like animal bogeyman interpretation",
+      "basis_claim_ids": [
+        "bauk-mythology-c01",
+        "bauk-mythology-c02",
+        "bauk-mythology-c03",
+        "bauk-mythology-c05"
+      ],
+      "aura": "Lurking predatory bogeyman",
+      "visual_requirements": [
+        "A clumsily walking ominous bear-like animal lurking inside a dark abandoned Serbian stone dwelling. Large hunched fully furred quadruped bear body and animal head, black eyes, heavy paws. Not a human-faced demon or human in costume. Its outline is lit by narrow doorway, darkness hints at its folklore fear of light.",
+        "Lurking predatory bogeyman",
+        "Creature-specific anatomy is clearly visible; no ordinary human dramatic portrait"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Mythics encyclopedia character illustration. ONE square high-detail naturalistic painterly illustration. Subject: Bauk (mythology). A clumsily walking ominous bear-like animal lurking inside a dark abandoned Serbian stone dwelling. Large hunched fully furred quadruped bear body and animal head, black eyes, heavy paws. Not a human-faced demon or human in costume. Its outline is lit by narrow doorway, darkness hints at its folklore fear of light. Mood: Lurking predatory bogeyman. Full defining anatomy visible, main creature prominent, balanced legible composition, detailed organic textures, atmospheric setting. No text, watermark, frame, collage, labels, game-interface or extra unrelated character. Depict folklore rather than a modern franchise. Palette, landscape and pose are artistic interpretation; do not invent conflicting signature anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/bauk-mythology.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T09:32:30.545Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Original individually inspected: one fully furred bear-like quadruped with animal head and four paws looming inside abandoned stone dwelling. No human torso, costume or invented extra limbs. Predatory lurking stance follows source bear interpretation."
+      }
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "notes": "Bear-like Bauk visibly recoils in abandoned doorway from traveler's torch and struck pan; sourced fear of light and noise, coherent animal form.",
+    "native_sha256": "06efb494127ce76a11a3d7c42cdd044536de6447b5689006d6cafdf7bc77b2bd",
+    "reviewed_at": "2026-10-05T18:39:15.884791+00:00"
+  },
+  "native_sha256": "06efb494127ce76a11a3d7c42cdd044536de6447b5689006d6cafdf7bc77b2bd",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/bauk-mythology.json",
+    "native_sha256": "06efb494127ce76a11a3d7c42cdd044536de6447b5689006d6cafdf7bc77b2bd",
+    "old_url": "/assets/art/bauk-mythology-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/bauk-mythology.png",
+    "old_webp_sha256": "32215ed6a1dc6e156ca02e2060f23e54ea78ab821db266750faf255805553677",
+    "old_native_sha256": "7f8c768876ad52bc62a87273a6673de3e4d49ce30281991c4de423f6df404916",
+    "rationale": "Replace ordinary animal image with documented role or episode, avoid unsupported hybrid anatomy.",
+    "basis_claim_ids": [
+      "bauk-mythology-c01",
+      "bauk-mythology-c02"
+    ]
+  },
+  "url": "/assets/art/bauk-mythology-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "10bfa5cb2d6ff36afe4fd1b3974168168c27a01613a936856e0656fc14da526d",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-96aceca8-3e00-4d29-a968-6dc79df54002.png",
+  "revision_generator": "assess_changes",
+  "artistic_changes": [
+    "Painterly storytelling",
+    "Clothes,props,palette,architecture editorial"
+  ]
 }

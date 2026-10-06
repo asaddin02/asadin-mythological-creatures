@@ -1,0 +1,37 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "idittu",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Basque folklore illustration of IDITTU/Ireltxu selecting Azkue/Barandiaran's NIGHT BIRD that spits FIRE from its beak. One coherent ordinary bird with two wings, two feet, feathered body and bird head; feather colours dark brown editorial. It perches on an old branch above a shadowy ravine at night, beak slightly open emitting ONE SHORT RESTRAINED natural orange fire puff immediately at mouth, the documented effect. Entire bird and both folded wings/feet in frame, ordinary bird size, no dragon anatomy. Mischievous misleading presence through sly alert posture, ravine depth, moonlit shadows; ordinary dim mouth fire lights nearby beak very slightly. No body glow envelope, neon outlines, energy ribbons, luminous coloured fog, flaming tail, human face, horns, other variants or victims, text, border, collage or watermark.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-f3ce0d22-d6e6-479e-84af-737574a2d7cf.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/idittu.png",
+  "depicted_variant": "A single fire-spitting bird",
+  "basis_claim_ids": [
+    "idittu-c05",
+    "idittu-c08"
+  ],
+  "visual_requirements": [
+    "Bird anatomy",
+    "Restrained fire issuing only from mouth"
+  ],
+  "aura": "Presence expressed through pose, gaze and natural scene lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "One natural bird has two feet, folded wings and tail on a branch; a small orange flame issues from its mouth. Natural moonlight and no surrounding aura."
+  },
+  "reviewed_at": "2026-10-05T13:45:02.678Z",
+  "artistic_choices": [
+    "Ravenlike bird colouring and woodland ravine are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "native_sha256": "aa0d2cd36a81450e8d4a0b181a2d850377688f89dde84e9ac17c266506fef3bd",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "aa0d2cd36a81450e8d4a0b181a2d850377688f89dde84e9ac17c266506fef3bd",
+    "notes": "Inspected natural bird breathing restrained physical flame only from beak at night; source c05/c08 explicitly permits fire-breathing bird. No generic luminous aura."
+  }
+}

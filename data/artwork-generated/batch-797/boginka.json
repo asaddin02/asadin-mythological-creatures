@@ -1,26 +1,24 @@
 {
   "slug": "boginka",
   "worker": "worker-0",
-  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: One natural frog with four legs; Natural frog scale relative reeds; No human-animal hybrid. Character presence instead: Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka-presence-v2.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6d3b3c95-110d-4189-8c15-12ea080368cb.png",
-  "depicted_variant": "Source-attested frog animal shapeshift of Polish female nature spirit",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. An ugly tall gawky ADULT FEMALE HAG BOGINKA crouches by Polish marsh water WASHING CLOTHS. Clear oversized HUMAN HEAD, crooked legs, swollen belly beneath opaque ragged dress, visible BLACK TEETH in stern grimace; two arms/hands and2legs. Hair ragged; source physical hag features, clothing editorial modest adaptation, no exposed breasts/genitals. No frog-body or animal hybrid. Her reflection unsettling through natural ripple, moonlight, wet cloth held in hands. No child victim or violence, no magical mist. Detailed naturalistic painting, documented mythical form/scene, coherent complete relevant anatomy. No text, watermark or border. No generic glow, luminous eyes/mist, floating ribbons, particles or unsupported magical powers.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka-mythic-presence.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-1bbf5d38-bf8e-460a-9819-1bd6363a1d4b.png",
+  "depicted_variant": "Human Boginka hag washing cloths by marsh water",
   "basis_claim_ids": [
     "boginka-c01",
     "boginka-c05",
     "boginka-c06"
   ],
-  "aura": "Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_requirements": [
-    "One natural frog with four legs",
-    "Natural frog scale relative reeds",
-    "No human-animal hybrid",
-    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+    "Human Boginka hag washing cloths by marsh water",
+    "Coherent anatomy and documented mythic scene"
   ],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Native output inspected: green aura removed; natural frog anatomy and reed-relative small scale preserved, moonlit wet textures and dark marsh carry unease.",
-    "reviewer": "worker-2"
+    "reviewer": "recover_session",
+    "notes": "Large-headed hag with black teeth washes cloths at marsh; torso covered."
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
@@ -28,8 +26,9 @@
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected edit: selected frog manifestation on wet marsh rock, coherent frog anatomy; natural moon reflection and physical mist, no green glow."
+    "native_sha256": "2a8574d7833fa9f5216e1865db5c3e1031d05ae617f906e820bb9d160cc0227b",
+    "notes": "Inspected native: oversized-headed elderly woman with black teeth and swollen covered torso washes cloth at marsh water. The cited hag manifestation and washing episode are clear; editorial clothing retains modesty without changing identity.",
+    "reviewed_at": "2026-10-05T18:24:24.096131+00:00"
   },
   "attempt_history": [
     {
@@ -68,9 +67,10 @@
     }
   ],
   "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-661bc44a-dac8-4eb2-90ba-71059ea4da82.png",
-  "revision_generator": "worker-2",
+  "revision_generator": "recover_session",
   "artistic_changes": [
-    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
   ],
   "aura_revision": {
     "decision": "revise",
@@ -85,5 +85,116 @@
     "review_path": "data/artwork-generated/aura-revision-797/reviews/boginka.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/boginka.json"
   },
-  "reviewed_at": "2026-10-05"
+  "reviewed_at": "2026-10-05",
+  "presentation_revision_history": [
+    {
+      "slug": "boginka",
+      "worker": "worker-0",
+      "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: One natural frog with four legs; Natural frog scale relative reeds; No human-animal hybrid. Character presence instead: Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka-presence-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6d3b3c95-110d-4189-8c15-12ea080368cb.png",
+      "depicted_variant": "Source-attested frog animal shapeshift of Polish female nature spirit",
+      "basis_claim_ids": [
+        "boginka-c01",
+        "boginka-c05",
+        "boginka-c06"
+      ],
+      "aura": "Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.",
+      "visual_requirements": [
+        "One natural frog with four legs",
+        "Natural frog scale relative reeds",
+        "No human-animal hybrid",
+        "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Native output inspected: green aura removed; natural frog anatomy and reed-relative small scale preserved, moonlit wet textures and dark marsh carry unease.",
+        "reviewer": "worker-2"
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected edit: selected frog manifestation on wet marsh rock, coherent frog anatomy; natural moon reflection and physical mist, no green glow."
+      },
+      "attempt_history": [
+        {
+          "slug": "boginka",
+          "worker": "worker-0",
+          "prompt": "Use case: stylized-concept. ONE square premium detailed painterly naturalistic cinematic mythology encyclopedia illustration. BOGINKA, Polish female wildnature spirit, selecting explicitlysource-attested FROG ANIMAL FORM from Orava/Spiš traditions. ONE coherent ordinarysize FROG crouches alone upon wetmarshstone beside reeds and darkforestwater at midnight. True amphibiananatomy: froghead with two lateraleyes, frogmouth, exactly4froglegs, two longfoldedhindlegs and shortforelegs, natural amphibian skin; exactspecies/colour artistic darkmottled green. NO humanface, hair, breasts, humanoidbody or mixinguglyhagtraits. FULL frogbody framed against reeds to establish normal animal size. Clearly luminous COLD EMERALD-SILVER supernatural wisps RADIATE FROM FROGBODY and coil above water, cast eerie light on stone, utterly ominous malevolent wetland apparition aura. No children, pregnantwomen, victims, otheranimals, gore, horns or wings. No text, watermark, frame, collage or labels.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6d3b3c95-110d-4189-8c15-12ea080368cb.png",
+          "depicted_variant": "Source-attested frog animal shapeshift of Polish female nature spirit",
+          "basis_claim_ids": [
+            "boginka-c01",
+            "boginka-c05",
+            "boginka-c06"
+          ],
+          "aura": "malicious marsh spirit frog emitting cold emerald magic",
+          "visual_requirements": [
+            "single coherent frog",
+            "no humanfrog hybrid",
+            "natural frogscale emittedaura"
+          ],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually inspected native: one coherent normal-size frog animal variant on wet marsh stone, amphibian head with lateral eyes, folded hindlegs and short forelegs, no human hybrid traits. Obvious emitted emerald-silver spectral wisps and ominous night wetlands. Exact frog colour/species artistic; source c05 explicitly allows frog, c06 wetlands."
+          },
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-122.review.json",
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected final images: Single coherent natural-sized frog variant by pond, no human-frog hybrid, clearly emitted emerald supernatural aura.",
+            "reviewed_at": "2026-10-05"
+          },
+          "registered_url": "/assets/art/boginka-verified.webp",
+          "sha256": "46720ea9430da691f4027644ef5d8b889f225dc8620769beeff88917468bb0ad",
+          "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+        }
+      ],
+      "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-661bc44a-dac8-4eb2-90ba-71059ea4da82.png",
+      "revision_generator": "worker-2",
+      "artistic_changes": [
+        "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+      ],
+      "aura_revision": {
+        "decision": "revise",
+        "reviewer": "worker-2",
+        "rationale": "Green neon fog/ribbons around frog; source supports frog transformation but no emitted green aura.",
+        "allowed_magic": "none",
+        "source_basis_claim_ids": [
+          "boginka-c01",
+          "boginka-c05",
+          "boginka-c06"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/boginka.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/boginka.json"
+      },
+      "reviewed_at": "2026-10-05"
+    }
+  ],
+  "native_sha256": "2a8574d7833fa9f5216e1865db5c3e1031d05ae617f906e820bb9d160cc0227b",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/boginka.json",
+    "native_sha256": "2a8574d7833fa9f5216e1865db5c3e1031d05ae617f906e820bb9d160cc0227b",
+    "old_url": "/assets/art/boginka-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka-presence-v2.png",
+    "old_webp_sha256": "a8517ea7dbe91bdaf8a303d5e6ea4ab73c7588a91b1c27d923626fed247e6add",
+    "old_native_sha256": "5f4231a183bdc272d606d2a35e4c548566e539ae8de3daaf0ed8b0547d7389db",
+    "rationale": "Replaces ordinary animal presentation with Human Boginka hag washing cloths by marsh water",
+    "basis_claim_ids": [
+      "boginka-c01",
+      "boginka-c05",
+      "boginka-c06"
+    ]
+  },
+  "url": "/assets/art/boginka-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "0b6f360322fc0fb311520edce72d96df9aa9d527a54e1ead03ca6b6267d45847"
 }

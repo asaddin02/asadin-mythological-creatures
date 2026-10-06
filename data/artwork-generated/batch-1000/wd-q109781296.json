@@ -1,0 +1,38 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "wd-q109781296",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Japanese folklore illustration of HAINU, the winged dog of Chikugo, Fukuoka. Choose the documented fierce FLYING DOG variant that resisted Hideyoshi's army, not his separate beloved-puppy variant and not the modern mascot. A single adult natural DOG with ONE PAIR OF WINGS growing from its BACK crouches on a rocky grassy ridge, wings lifted symmetrically enough to show exactly TWO distinct wings. Four ordinary canine legs ending in paws, one dog head with ears and muzzle, one natural canine tail, no hybrid bird beak or extra limbs. Medium ordinary dog size. Short dark tawny fur and muted brown feathered wings are editorial rendering choices; source establishes wings but does not specify feathers or coat colour. Teeth glimpsed in alert tense dog expression, no exaggerated sabre tusks. Full animal and both wing tips within square frame. Distant old Japanese rural wooded hills under storm-cleared natural afternoon light, threatening resilient presence through crouched readiness, intense eyes, low camera framing and wind-blown grass. No armour, collar, warrior, other dogs, flames, neon outline, magical envelope, luminous mist, energy ribbons, glowing eyes, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/wd-q109781296.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-a9a2b4de-b544-44f9-9afd-008b2dc9e4d3.png",
+  "depicted_variant": "Fierce adult flying Hainu with one pair of back wings, rather than Hideyoshi puppy or modern mascot",
+  "basis_claim_ids": [
+    "wd-q109781296-c01",
+    "wd-q109781296-c02"
+  ],
+  "visual_requirements": [
+    "One coherent natural adult dog with four paws and canine tail",
+    "Exactly two separate wings on back",
+    "No inflated giant scale, mascot likeness or added powers"
+  ],
+  "aura": "Threatening resilient readiness through tense crouch, dog expression, wind and natural storm-cleared light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: one adult canine with four coherent legs/paws, one tail, dog muzzle and exactly two raised back wings. Fierce crouched alertness and natural rural ridge light; no glow envelope, horns or bird-beak fusion."
+  },
+  "reviewed_at": "2026-10-05T11:21:10.785Z",
+  "artistic_choices": [
+    "Tawny canine fur and feathered brown wing rendering are editorial choices; accepted quote establishes wing pair on back but not colours or wing covering."
+  ],
+  "review_path": "data/gemini/reviews/batch-062.review.json",
+  "native_sha256": "30d4cb9503f91ab8eb28e875136077ec2077880a770f375f57d53118d06bd478",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "30d4cb9503f91ab8eb28e875136077ec2077880a770f375f57d53118d06bd478",
+    "notes": "Independent inspection: one natural adult canine with coherent dog head, torso, paws and tail, exactly two separate feathered wings attached to its back. No mascot style, exaggerated size or emitted aura; natural hill/sky staging. Feather detail is artistic interpretation of unspecified wings."
+  }
+}

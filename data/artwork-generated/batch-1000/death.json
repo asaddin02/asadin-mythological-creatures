@@ -1,0 +1,38 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "death",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of DEATH, selecting the documented modern Grim Reaper personification ONLY. A single human SKELETON wearing a plain dark hooded ROBE stands on a quiet misty old stone path and holds one SCYTHE with a curved agricultural blade and long wooden handle. Skull clearly visible beneath hood, empty eye sockets without glowing lights, bony hands grip shaft naturally. Two arms and two legs beneath robe; full figure and scythe blade inside frame. Skeletal ribs partly visible within open robe, tasteful depiction without gore or corpses. Death is calm and solemn, neither vicious nor comic. Strong natural moonlight and deep shadows reveal bone texture and worn linen; ordinary nonluminous mist lies far behind along stone path. Convey uncanny inevitable presence through still posture, centered imposing framing and cold natural light. No wings, horse, crown, hourglass, magical aura, neon outline, eye glow, luminous coloured fog, energy ribbon, souls as floating lights, lettering, border, collage, watermark or modern setting. Treat this as a contemporary artistic rendering of the documented Grim Reaper variant, not a universal traditional appearance of death.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/death.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-2d44be7c-4ad5-41f2-aa35-29c6c0bc1ed3.png",
+  "depicted_variant": "Modern Grim Reaper personification: berobed skeleton with scythe",
+  "basis_claim_ids": [
+    "death-c01",
+    "death-c02"
+  ],
+  "visual_requirements": [
+    "Single human skeleton in hooded dark robe",
+    "One agricultural scythe held naturally",
+    "Empty eye sockets and natural moonlight; no magic glow"
+  ],
+  "aura": "Solemn inevitable presence through still pose and cold moonlit path",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: hooded berobed human skeleton with skull, ribs, bony hands and two feet visible; single scythe fully in frame. Natural moonlight on old stone path and ordinary background fog; no glowing sockets or emitted aura."
+  },
+  "reviewed_at": "2026-10-05T11:11:39.439Z",
+  "artistic_choices": [
+    "Dark robe colour, old stone path, ruined skyline and moonlight are editorial staging of the explicitly modern Grim Reaper depiction."
+  ],
+  "review_path": "data/gemini/reviews/batch-152.review.json",
+  "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
+    "notes": "Independent inspection: single human skeleton wearing dark hooded robe, scythe held by skeletal hands, empty eye sockets. Natural moonlit setting, no glowing eyes or magic; explicitly modern Grim Reaper representation rather than all-cultural fixed form."
+  }
+}

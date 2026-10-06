@@ -1,0 +1,40 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "wd-q22099589",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Chinese mythology illustration of JILIANG from Shan Hai Jing. One fabulous HORSE with a WHITE BODY, vivid RED MANE and GOLDEN EYES; entirely ordinary coherent horse anatomy, four horse legs with hooves, one head and one tail. Golden eyes are natural gold iris colour, NOT emitted light. Red mane is natural red hair, not fire. Full horse in square three-quarter side view standing quietly on a rocky grassy upland beneath natural dawn. Graceful dignified pose and unusually beautiful white/red/gold appearance convey supernatural longevity presence. White tail is editorial choice since only mane is documented red. No rider, armour, saddle, antlers, horns, wings, flaming mane, halo, magic glow, neon outline, energy ribbons, luminous coloured mist, extra limbs, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/wd-q22099589.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-7e2286e7-e8a1-4635-ade9-291561019d5e.png",
+  "depicted_variant": "Shan Hai Jing Jiliang white horse with red mane and golden irises",
+  "basis_claim_ids": [
+    "wd-q22099589-c01",
+    "wd-q22099589-c02",
+    "wd-q22099589-c03",
+    "wd-q22099589-c06"
+  ],
+  "visual_requirements": [
+    "White natural horse body",
+    "Red mane and golden nonluminous eyes",
+    "Four ordinary horse legs/hooves, no wings"
+  ],
+  "aura": "Dignified grace and warm upland dawn light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Inspected native: white horse with vivid red hair mane, visible golden iris, four coherent horse legs/hooves and white tail. No fire, horns or glowing aura."
+  },
+  "reviewed_at": "2026-10-05T12:55:44.549Z",
+  "artistic_choices": [
+    "White tail, dawn landscape and flowing mane posture are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "native_sha256": "4a21a402c93771099bf744a386a5f63abced68af1f3e296bf3e0b17633025e65",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "4a21a402c93771099bf744a386a5f63abced68af1f3e296bf3e0b17633025e65",
+    "notes": "Inspected image: white horse with vivid red mane and golden natural eye; four legs, no wings or emitting light. Fits classical selected white-body/red-mane variant c06."
+  }
+}

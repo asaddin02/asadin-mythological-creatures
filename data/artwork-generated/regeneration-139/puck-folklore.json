@@ -3,19 +3,18 @@
   "worker": "regen-1",
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
-  "prompt": "ONE PUCK / ROBIN GOODFELLOW in his source-documented FILLY FOAL likeness from Shakespeare Act 2 scene1: entirely a young female HORSE, four ordinary equine legs and hooves, one horse head with two ears, short mane and one tail. No human torso face or hands and no satyr horns. Square richly detailed painterly mythology field guide. Small chestnut filly skipping playfully along an English forest path, all four legs distinctly visible in a light prancing pose, head turned with bright mischievous equine eyes and slightly open neighing mouth. Leafy forest green, walnut shadows, muted antique gold sunset through oaks. Merry playful secretive trickster aura rather than terrifying warhorse or cute toy. Full animal within frame with generous margin, fine fur and bark textures. No wings, horns, clothing, rider, people, text, labels, border or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/puck-folklore.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. A SMALL ADULT HUMAN-SHAPED DWARFISH DOMESTIC SPRITE PUCK sits on a wooden stool beside a rustic English hearth, receiving a bowl of food and cup from the hands of a fully clothed adult householder. Sprite about knee-height adult, mature face, two hands and twolegs, impish smile, opaque homespun jacket and trousers. Show food offering and domestic relationship prominently, source regular food/drink brings prosperity. No horsebody/hooves, no wings, no invented animal ears or horns. Candle and hearth physical illumination. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/puck-folklore-mythic-presence.png",
   "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/puck-folklore.png",
   "review_path": "data/gemini/reviews/batch-116.review.json",
-  "depicted_variant": "Robin Goodfellow/Puck in filly-foal animal likeness from A Midsummer Night's Dream 2.1",
+  "depicted_variant": "Dwarfish Puck domestic sprite receiving food",
   "visual_requirements": [
-    "Complete young horse animal form",
-    "Four equine legs and hooves",
-    "One horse head, two ears, one mane and tail"
+    "Dwarfish Puck domestic sprite receiving food",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
-    "puck-folklore-c01",
-    "puck-folklore-c03"
+    "puck-folklore-c05",
+    "puck-folklore-c06"
   ],
   "additional_sources": [
     {
@@ -25,26 +24,122 @@
       "purpose": "Primary play explicitly describes Robin Goodfellow's filly-foal likeness."
     }
   ],
-  "aura": "Playful, mischievous, elusive woodland trickster",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected with view_image. Complete chestnut filly foal with four distinct equine legs/hooves, one head with two ears, mane and one tail; no human parts. Light prancing pose, slightly open neighing mouth and bright playful equine eyes support Robin Goodfellow's merry trickster likeness named in the primary Shakespeare text. Detailed forest green/walnut/gold woodland scene, no horns, wings, costume or text."
+    "reviewer": "recover_session",
+    "notes": "Dwarfish adult domestic sprite receives food and drink, documented household relationship."
   },
   "nonhuman_features": [
-    "Complete young horse animal form",
-    "Four equine legs and hooves",
-    "One horse head, two ears, one mane and tail"
+    "Dwarfish Puck domestic sprite receiving food",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
-  "historical_basis": "Folger primary Shakespeare text identifies Robin Goodfellow as Puck and describes him neighing in likeness of a filly foal.",
+  "historical_basis": [
+    {
+      "id": "puck-folklore-c05",
+      "source_id": "puck-folklore-s2",
+      "quote": "ist eine zwergenwüchsige Figur unbestimmten Geschlechts der nordischen Volkssagen. Puks leben mit den Menschen zusammen und gehören in die Gruppe der Elfen aus der germanischen Mythologie.",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Puk sosok kerdil (zwergenwüchsige) dari legenda Nordik (nordischen Volkssagen), tinggal bersama manusia, golongan elf (Elfen) mitologi Jermanik (germanischen). Dikaitkan dengan púca Kelt (keltischen Púca).",
+        "en": "The Puk is a dwarfish (zwergenwüchsige) figure of Nordic legend (nordischen Volkssagen), living with people, among the elves (Elfen) of Germanic myth. Linked with the Celtic púca (keltischen Púca)."
+      }
+    },
+    {
+      "id": "puck-folklore-c06",
+      "source_id": "puck-folklore-s2",
+      "quote": "Wird der Puk mit regelmäßigen Speisen und Getränken gut behandelt, so ist er, im Verbund mit anderen Sagengestalten wie Zwergen und Riesen, in der Lage, das Wohlergehen der Bewohner und deren Tiere positiv bis hin zum Reichtum zu beeinflussen.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Puk yang diberi makan-minum teratur dapat membawa kemakmuran; dikaitkan juga dengan púca Kelt.",
+        "en": "A Puk given regular food and drink can bring prosperity; it is also linked with the Celtic púca."
+      }
+    }
+  ],
   "artistic_changes": [
     "Chestnut coat, playful pose, woodland path and muted walnut/gold/green painterly color are artistic choices; no satyr traits, wings or borrowed púca horror variant."
   ],
   "reviewed_at": "2026-10-04T14:15:12.330Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Viewed source-labelled contact image: complete chestnut horse foal with one equine head, two ears, mane, tail and four separated hooved legs; no humanoid additions. Playful prancing posture matches specifically cited filly-foal primary-play likeness.",
-    "reviewed_at": "2026-10-04T21:37:18.743247+07:00"
-  }
+    "reviewer": "root",
+    "native_sha256": "bc3b2315cbf5df715f037fd64df54d3d25a0184f4820dc1d7ea898b6c6d4a64e",
+    "notes": "Inspected native: small human-shaped household Puk receives food and drink from a woman beside the hearth. Supported dwarfish domestic form and prosperity offering are explicit; incidental sleeping pet is distinct from the main spirit.",
+    "reviewed_at": "2026-10-05T18:20:40.430903+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "puck-folklore",
+      "worker": "regen-1",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "ONE PUCK / ROBIN GOODFELLOW in his source-documented FILLY FOAL likeness from Shakespeare Act 2 scene1: entirely a young female HORSE, four ordinary equine legs and hooves, one horse head with two ears, short mane and one tail. No human torso face or hands and no satyr horns. Square richly detailed painterly mythology field guide. Small chestnut filly skipping playfully along an English forest path, all four legs distinctly visible in a light prancing pose, head turned with bright mischievous equine eyes and slightly open neighing mouth. Leafy forest green, walnut shadows, muted antique gold sunset through oaks. Merry playful secretive trickster aura rather than terrifying warhorse or cute toy. Full animal within frame with generous margin, fine fur and bark textures. No wings, horns, clothing, rider, people, text, labels, border or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/puck-folklore.png",
+      "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/puck-folklore.png",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "depicted_variant": "Robin Goodfellow/Puck in filly-foal animal likeness from A Midsummer Night's Dream 2.1",
+      "visual_requirements": [
+        "Complete young horse animal form",
+        "Four equine legs and hooves",
+        "One horse head, two ears, one mane and tail"
+      ],
+      "basis_claim_ids": [
+        "puck-folklore-c01",
+        "puck-folklore-c03"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/read/2/1/",
+          "title": "William Shakespeare, A Midsummer Night's Dream, Act 2 scene 1",
+          "locator": "Puck speech lines 45–48",
+          "purpose": "Primary play explicitly describes Robin Goodfellow's filly-foal likeness."
+        }
+      ],
+      "aura": "Playful, mischievous, elusive woodland trickster",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected with view_image. Complete chestnut filly foal with four distinct equine legs/hooves, one head with two ears, mane and one tail; no human parts. Light prancing pose, slightly open neighing mouth and bright playful equine eyes support Robin Goodfellow's merry trickster likeness named in the primary Shakespeare text. Detailed forest green/walnut/gold woodland scene, no horns, wings, costume or text."
+      },
+      "nonhuman_features": [
+        "Complete young horse animal form",
+        "Four equine legs and hooves",
+        "One horse head, two ears, one mane and tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": "Folger primary Shakespeare text identifies Robin Goodfellow as Puck and describes him neighing in likeness of a filly foal.",
+      "artistic_changes": [
+        "Chestnut coat, playful pose, woodland path and muted walnut/gold/green painterly color are artistic choices; no satyr traits, wings or borrowed púca horror variant."
+      ],
+      "reviewed_at": "2026-10-04T14:15:12.330Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Viewed source-labelled contact image: complete chestnut horse foal with one equine head, two ears, mane, tail and four separated hooved legs; no humanoid additions. Playful prancing posture matches specifically cited filly-foal primary-play likeness.",
+        "reviewed_at": "2026-10-04T21:37:18.743247+07:00"
+      }
+    }
+  ],
+  "native_sha256": "bc3b2315cbf5df715f037fd64df54d3d25a0184f4820dc1d7ea898b6c6d4a64e",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/puck-folklore.json",
+    "native_sha256": "bc3b2315cbf5df715f037fd64df54d3d25a0184f4820dc1d7ea898b6c6d4a64e",
+    "old_url": "/assets/art/puck-folklore-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/puck-folklore.png",
+    "old_webp_sha256": "13a97a646ef936d6fd13e1ea31642d0bf7387718ea8e5ada97f2959ebb5bd1ba",
+    "old_native_sha256": "e084cb5b7c1135ed852816bfee6c4a553766b3f396bf5197ae47dcab4c1954ff",
+    "rationale": "Replaces ordinary animal presentation with Dwarfish Puck domestic sprite receiving food",
+    "basis_claim_ids": [
+      "puck-folklore-c05",
+      "puck-folklore-c06"
+    ]
+  },
+  "url": "/assets/art/puck-folklore-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "18c2dcdc8fa12952da72bc0286bf00de3fa8eb97d26637fcf913db2544931004"
 }

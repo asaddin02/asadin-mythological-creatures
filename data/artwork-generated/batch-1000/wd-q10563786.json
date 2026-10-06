@@ -1,0 +1,50 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "wd-q10563786",
+  "prompt": "Precise-object-edit. Edit input Suanyu creature. Preserve snake-bird shape, exactly FOUR wings, rocky mountain scene and natural light. Correct counts: exactly SIX EYES on head in THREE PAIRS, currently only5 visible. Add the missing third far-side eye so left and right sides each3. Correct feet: currently2; add a THIRD distinct bird leg/foot centrally between existing legs, slightly behind but entirely visible with claws planted on rock. Keep all six eyes nonluminous. Creature total FOUR wings, SIX eyes, THREE feet. Do not add head, horn, more wings, magic glow, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/wd-q10563786.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-135fe86d-511c-4a2c-b75b-954da4be7665.png",
+  "depicted_variant": "Suanyu snake-bird with four wings, six eyes and three bird feet",
+  "basis_claim_ids": [
+    "wd-q10563786-c01",
+    "wd-q10563786-c02",
+    "wd-q10563786-c03",
+    "wd-q10563786-c05",
+    "wd-q10563786-c06"
+  ],
+  "visual_requirements": [
+    "Exactly four feathered wings",
+    "Six eyes as three paired rows",
+    "Exactly three separate bird feet"
+  ],
+  "aura": "Character presence through documented anatomy, expression, framing and natural lighting",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Edited native inspected: four distinct wing tips (two pairs); six eyes, three on near side and three on far side including small upper far-eye; three clearly separate clawed feet planted on rock. Snake-shaped neck/body, no horn or luminous aura."
+  },
+  "reviewed_at": "2026-10-05T13:27:30.636Z",
+  "artistic_choices": [
+    "Scale/feather colours and paired eye arrangement are editorial resolution of specified counts."
+  ],
+  "generation_prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Chinese Shan Hai Jing illustration of SUANYU, a bird with SNAKELIKE APPEARANCE. One coherent creature with an elongated scaled serpentlike body and head, exactly SIX EYES arranged in THREE orderly PAIRS on its face/head, exactly FOUR FEATHERED WINGS as TWO PAIRS attached along its body, and exactly THREE bird feet below its body. Front three-quarter view: six eyes all countable, four separated wing tips visible, three separated feet each with bird claws contacting rock. One head and one body, no extra heads. Snakebird crouches on a Jing mountain rocky ridge in natural storm dusk, dark mysterious threatening omen presence through posture, low light and rocky framing. Muted green scales/brown feathers are editorial palette. No invented horns, whiskers, extra limbs, neon aura, glowing eyes, magic mist/ribbon, text, border, collage or watermark.",
+  "attempt_history": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-3eae7115-bef4-46b0-8825-53d8bb65b286.png",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Chinese Shan Hai Jing illustration of SUANYU, a bird with SNAKELIKE APPEARANCE. One coherent creature with an elongated scaled serpentlike body and head, exactly SIX EYES arranged in THREE orderly PAIRS on its face/head, exactly FOUR FEATHERED WINGS as TWO PAIRS attached along its body, and exactly THREE bird feet below its body. Front three-quarter view: six eyes all countable, four separated wing tips visible, three separated feet each with bird claws contacting rock. One head and one body, no extra heads. Snakebird crouches on a Jing mountain rocky ridge in natural storm dusk, dark mysterious threatening omen presence through posture, low light and rocky framing. Muted green scales/brown feathers are editorial palette. No invented horns, whiskers, extra limbs, neon aura, glowing eyes, magic mist/ribbon, text, border, collage or watermark.",
+      "verdict": "reject",
+      "reason": "Initial native had five visible eyes and two feet; targeted native edit corrects exact counts."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "native_sha256": "57a43dd16160b0ec3be68888193144da1de1def2a3f8b0e5cd2f34114130550e",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "57a43dd16160b0ec3be68888193144da1de1def2a3f8b0e5cd2f34114130550e",
+    "notes": "Inspected native at original resolution: four distinct feathered wings, exactly six visible eyes (three near-side and three far-side including small upper far eye) and three separate avian legs/feet. Snakelike bird body, fits c01-c03. Corrected output, not failed earlier attempt."
+  }
+}

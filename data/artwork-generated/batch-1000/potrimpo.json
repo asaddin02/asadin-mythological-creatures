@@ -1,0 +1,41 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "potrimpo",
+  "prompt": "Square premium painterly naturalistic Baltic mythology portrait of Potrimpo. Select Simon Grunau's documented HUMAN iconographic variant: a YOUNG MERRY MAN wearing a WREATH of GRAIN EARS. One adult youthful human man with warm joyful composed smile and clearly visible crown of golden wheat ears on his head, entirely human anatomy. Modest simple opaque linen tunic, editorial costume; a field of ripened grain beside flowing water, natural golden late-summer daylight, editorial scene. Gentle fertility-deity presence through expression and generous relaxed posture, fine painterly oil texture. No snake body or companion inherited from separate variant/creatures, no magical water control,halo,aura,glowing eyes,neon energy,luminous coloured mist,text,border. Keep source-history caveat in metadata, this art selects reported iconography without claiming historical certainty.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-7a668c19-9733-48c1-a6d3-179634f61950.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/potrimpo.png",
+  "depicted_variant": "Simon Grunau reported human youth with grain-ear wreath",
+  "basis_claim_ids": [
+    "potrimpo-c01",
+    "potrimpo-c03"
+  ],
+  "visual_requirements": [
+    "One youthful happy adult human man",
+    "Clearly visible wreath of wheat ears",
+    "No mixed serpent anatomy"
+  ],
+  "aura": "Presence through expression, posture, framing and natural scene light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "assess_changes",
+    "notes": "Viewed native: one merry youthful man wears a clear grain-ear crown and modest linen tunic amid ripe grain beside water. Entirely human anatomy, natural summer light, no halo or glowing effects.",
+    "native_sha256": "30a5b66805f3da357a2e5704285cd9d44b0c4a5b3315f7b3726ac62c5f8f8514"
+  },
+  "reviewed_at": "2026-10-05T14:53:02.513061+00:00",
+  "artistic_choices": [
+    "Linen tunic and riverside grain field are editorial staging",
+    "Reported early modern iconography is historically uncertain, not expert certification"
+  ],
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "native_sha256": "30a5b66805f3da357a2e5704285cd9d44b0c4a5b3315f7b3726ac62c5f8f8514",
+  "recovered_from_previous_session": true,
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "30a5b66805f3da357a2e5704285cd9d44b0c4a5b3315f7b3726ac62c5f8f8514",
+    "notes": "Viewed native: one cheerful young adult human man wearing wheat-ear wreath in linen clothes beside grain/water. c03 reported youth iconography; uncertainty retained in source and artistic choices; no snake-body blend or aura."
+  }
+}

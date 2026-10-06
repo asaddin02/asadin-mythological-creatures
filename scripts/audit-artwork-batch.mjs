@@ -67,6 +67,13 @@ for (const item of completed) {
   const image = c.images.find(i => i.url === art.url);
   assert(image?.ai_generated && image.is_primary && image.creature_slug === item.slug, `Correct primary AI image mapping: ${item.slug}`);
   assert(existsSync(art.original_file), `Preserved selected original: ${item.slug}`);
+  if (batch.presence_policy) {
+    const nativeHash = createHash('sha256').update(readFileSync(art.original_file)).digest('hex');
+    assert(receipt.visual_review.reviewer && receipt.root_visual_review?.reviewer, `Named reviewers: ${item.slug}`);
+    assert.notEqual(receipt.visual_review.reviewer, receipt.root_visual_review.reviewer, `Distinct reviewers: ${item.slug}`);
+    assert.equal(receipt.native_sha256, nativeHash, `First inspected native hash: ${item.slug}`);
+    assert.equal(receipt.root_visual_review.native_sha256, nativeHash, `Second inspected native hash: ${item.slug}`);
+  }
   const file = resolve(root, `.${art.url}`);
   const hash = createHash('sha256').update(readFileSync(file)).digest('hex');
   assert(!hashes.has(hash), `Unique artwork: ${item.slug}`);
@@ -89,7 +96,9 @@ for (const name of readdirSync(receiptDir, { recursive: true }).filter(n => /rej
     if (path) { assert(!existsSync(path), `Rejected variant must be deleted: ${path}`); deletedRejected++; }
   }
 }
-const reviewScope = batch.aura_revision
+const reviewScope = batch.presence_policy
+  ? 'Each selected source-supported variant is inspected by two distinct named agents against the same native SHA256. Character presence uses expression, pose, framing, scale, atmosphere and natural lighting; magical effects require source support and restraint. Research completeness, provenance, registration, exclusions and asset integrity are checked.'
+  : batch.aura_revision
   ? 'Each selected image is visually inspected by two distinct agents. Character presence comes from pose, expression, framing, scene atmosphere and natural lighting; magical effects require source support. Documented anatomy and scale, complete research, registration, exclusions and asset integrity are checked. Aura revision completeness and provenance are separately checked by audit-artwork-aura.mjs.'
   : batch.require_root_visual_review
     ? 'Each source-supported variant is visually inspected by its generator and a second agent. Source-supported human forms are allowed; visible supernatural aura, documented anatomy and scale, complete research, registration, exclusions and asset integrity are checked.'

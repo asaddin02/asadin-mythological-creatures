@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "kludde",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Flemish folklore illustration of KLUDDE selecting the documented monstrous BLACK DOG WALKING ON HIND LEGS, with a CHAIN on its LEFT HIND ANKLE. One coherent black dog stands upright on TWO hind legs by an old stone bridge at night, its two ordinary canine forelegs raised near chest, natural paws not hands, one dog head and one tail. A loose old iron chain wrapped around its anatomical LEFT HIND ANKLE trails onto ground, clearly visible. Three-quarter front view keeps ankle visible. Fierce watchful expression and looming upright pose under ordinary cool moonlight; dark Flemish riverside landscape and bridge give tormenting spirit presence. No wings, fish tail, antlers, human face, extra limbs, werewolf-man variant, luminous eyes, body magic glow, neon outline, coloured luminous mist, energy ribbons, victims, gore, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kludde.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-012ba181-6cc0-498d-8e18-5753b089c929.png",
+  "depicted_variant": "Upright black dog with left-hind-ankle chain",
+  "basis_claim_ids": [
+    "kludde-c01",
+    "kludde-c03",
+    "kludde-c04"
+  ],
+  "visual_requirements": [
+    "Black dog upright on two hind legs with two forepaws",
+    "Chain on anatomical left hind ankle",
+    "One natural dog tail, no modern fish-tail variant"
+  ],
+  "aura": "Tormenting spirit through upright predatory posture by moonlit bridge",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: black coherent dog standing on two hind paws, two raised forepaws, natural tail, chain around its left hind ankle (viewer right). Dark bridge/river in ordinary moonlight, no luminous eyes or magic envelope."
+  },
+  "reviewed_at": "2026-10-05T13:06:04.365Z",
+  "artistic_choices": [
+    "Bridge architecture and shaggy fur are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "native_sha256": "42fd609d246bfe0c4bd5a0eafebb6a6304cd5642a60d449fb6855f421be54466",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "42fd609d246bfe0c4bd5a0eafebb6a6304cd5642a60d449fb6855f421be54466",
+    "notes": "Inspected black dog upright on two hindlegs, two forepaws, natural tail and chain at anatomical left ankle (viewer right). Night bridge staging c03/c04, no bird/fish hybrid."
+  }
+}

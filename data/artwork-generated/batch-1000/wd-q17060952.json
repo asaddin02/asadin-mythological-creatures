@@ -1,0 +1,48 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "wd-q17060952",
+  "prompt": "Square premium painterly naturalistic illustration of Longzhi (蠪姪) from Shan Hai Jing. One single foxlike body with EXACTLY NINE FOX HEADS, EXACTLY NINE FOX TAILS, four limbs with TIGERLIKE CLAWED PAWS. It is NOT nine separate foxes. Arrange nine small fox heads on distinct short necks in three clearly visible horizontal rows of THREE HEADS EACH across the front of the shoulders: top row3, middle row3, bottom row3; every head has two fox ears, eyes and muzzle. Above and behind them nine clearly separated furry fox tails fan upward, countable nine tail tips, no overlapping occlusion. Frontal full-body view, body lower centre, paws on rocky ground, heads centre, tails upper half. Rust-grey fur editorial choice. Menacing wary expressions and tense posture, natural overcast mountain light, painterly oil realism. No antlers,wings,extra bodies,human faces,gore,radiant auras,neon,coloured luminous mist,text,border. Ensure precisely9 heads and9 tails.\n\nEDIT: Correct ONLY the tails in this Longzhi artwork. Preserve exactly nine fox heads arranged3by3, single fox body, four tiger-clawed paws, natural light and painterly composition. There are currently SEVEN fan tails (3left,3right,1topcentre). Add TWO separate fox tails to make EXACTLY NINE: one additional outer tail sweeping low LEFT behind shoulder, and one additional outer tail sweeping low RIGHT behind shoulder. The final tail fan must have FOUR clearly separated tail tips on left, FOUR clearly separated tips on right, ONE top centre = NINE TOTAL. Give enough space between each tip to count. No extra heads, limbs or other changes.",
+  "generation_prompt": "Square premium painterly naturalistic illustration of Longzhi (蠪姪) from Shan Hai Jing. One single foxlike body with EXACTLY NINE FOX HEADS, EXACTLY NINE FOX TAILS, four limbs with TIGERLIKE CLAWED PAWS. It is NOT nine separate foxes. Arrange nine small fox heads on distinct short necks in three clearly visible horizontal rows of THREE HEADS EACH across the front of the shoulders: top row3, middle row3, bottom row3; every head has two fox ears, eyes and muzzle. Above and behind them nine clearly separated furry fox tails fan upward, countable nine tail tips, no overlapping occlusion. Frontal full-body view, body lower centre, paws on rocky ground, heads centre, tails upper half. Rust-grey fur editorial choice. Menacing wary expressions and tense posture, natural overcast mountain light, painterly oil realism. No antlers,wings,extra bodies,human faces,gore,radiant auras,neon,coloured luminous mist,text,border. Ensure precisely9 heads and9 tails.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-de5eb129-8b66-47cb-9156-0a61c98aa671.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/wd-q17060952.png",
+  "depicted_variant": "Foxlike beast with nine heads, nine tails and tigerlike claws",
+  "basis_claim_ids": [
+    "wd-q17060952-c01",
+    "wd-q17060952-c02",
+    "wd-q17060952-c05"
+  ],
+  "visual_requirements": [
+    "One foxlike body",
+    "Exactly nine fox heads",
+    "Exactly nine fox tails",
+    "Tigerlike clawed paws"
+  ],
+  "aura": "Dangerous presence through tense posture and nine wary faces under natural mountain light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Corrected actual native has exactly nine fox heads in3by3 rows, four separated tails to each side and one top centre, total9; one body, four clawed paws. No aura or invented wings/horns."
+  },
+  "reviewed_at": "2026-10-05T13:56:39.849Z",
+  "artistic_choices": [
+    "Rust-grey fur, head arrangement and rocky mountain scene are editorial staging"
+  ],
+  "attempt_history": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-fd05c746-4017-412b-8ee7-ad962a90b4ff.png",
+      "verdict": "reject",
+      "notes": "Nine heads but only seven countable tails; corrected by targeted native image edit."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "native_sha256": "3fb18feeed09c381731ec105ad60589b235caa832a937870c72db883d441f779",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "3fb18feeed09c381731ec105ad60589b235caa832a937870c72db883d441f779",
+    "notes": "Inspected nine fox heads arranged3by3, nine separate bushy fox tails (four left/four right/one center), one quadruped body with tigerlike claws. c01/c02 corrected9tail native."
+  }
+}

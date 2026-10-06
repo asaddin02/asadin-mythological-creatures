@@ -1,27 +1,89 @@
 {
   "slug": "salmon-of-knowledge",
   "worker": "worker-3",
-  "prompt": "Create one polished painterly mythological field-guide illustration, square, full subject with generous margin, cinematic light, tactile detailed anatomy. No text or border. Source-defining morphology and aura. ONE SALMON OF KNOWLEDGE An Bradan Feasa of Irish Fenian legend, a large living SILVER SALMON with normal salmon anatomy, one fish head, paired pectoral/pelvic fins, single dorsal fin and small adipose fin, forked tail, swimming in a CLEAR still Irish wisdom pool below overhanging HAZEL TREE. Whole fish visible underwater with gentle water refraction. A few hazelnuts drift on surface, do not invent exact visible count since eaten nine nuts are story history. Quiet luminous ancient omniscient wise aura, reflected hazel leaves, no fire, horns, wings, legs, human face, crown or fishing scene.",
-  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-da6e6a16-0fba-4491-8262-6ad28170c99c.png",
+  "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. The enormous Salmon of Knowledge at the Well of Wisdom, eating hazelnuts that fall from the surrounding hazel trees while the poet-fisherman Finegas watches in astonishment from the bank. Fish visibly much larger than the man, seen through shallow clear water, immense head taking a falling hazelnut, hazel branches above the well. No humanoid fish parts or glowing effects. Man's Irish rustic clothes and stone well rim editorial. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/salmon-of-knowledge.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
   "visual_requirements": [
-    "One natural salmon",
-    "Hazelnut tree and wisdom water context",
-    "Silver fish anatomy",
-    "Ancient profound knowledge aura"
+    "Documented form or event",
+    "Coherent anatomy",
+    "No arbitrary aura"
   ],
-  "depicted_variant": "Living Irish salmon of wisdom before capture",
+  "depicted_variant": "The enormous Salmon of Knowledge at the Well of Wisdom, eating hazelnuts that fall from the surrounding hazel trees while the poet-fisherman Finegas watches in astonishment from the bank. Fish visibly much larger than the man, seen through shallow clear water, immense head taking a falling hazelnut, hazel branches above the well. No humanoid fish parts or glowing effects. Man's Irish rustic clothes and stone well rim editorial.",
   "basis_claim_ids": [
-    "salmon-of-knowledge-c01",
     "salmon-of-knowledge-c02",
-    "salmon-of-knowledge-c04",
+    "salmon-of-knowledge-c03",
     "salmon-of-knowledge-c06"
   ],
-  "aura": "Ancient, serene and profoundly knowing",
+  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed one fully aquatic silver salmon with natural fish fins and forked tail, whole body visible below clear woodland wisdom-pool water, with hazelnuts at water surface under hazel foliage. Serene focused eye and luminous natural water convey ancient wisdom. No human form or unsupported anatomy."
+    "reviewer": "assess_changes",
+    "notes": "Native individually viewed: Enormous salmon catches hazelnuts beneath hazel branches at stone well; astonished fisherman provides scale; natural fish anatomy.",
+    "native_sha256": "d9eda089903a3f619ce033151205ba5125eee797a76cfe260848c9ca0bf80802"
   },
   "tool": "OpenAI built-in image_gen",
-  "status": "reviewed"
+  "status": "reviewed",
+  "presentation_revision_history": [
+    {
+      "slug": "salmon-of-knowledge",
+      "worker": "worker-3",
+      "prompt": "Create one polished painterly mythological field-guide illustration, square, full subject with generous margin, cinematic light, tactile detailed anatomy. No text or border. Source-defining morphology and aura. ONE SALMON OF KNOWLEDGE An Bradan Feasa of Irish Fenian legend, a large living SILVER SALMON with normal salmon anatomy, one fish head, paired pectoral/pelvic fins, single dorsal fin and small adipose fin, forked tail, swimming in a CLEAR still Irish wisdom pool below overhanging HAZEL TREE. Whole fish visible underwater with gentle water refraction. A few hazelnuts drift on surface, do not invent exact visible count since eaten nine nuts are story history. Quiet luminous ancient omniscient wise aura, reflected hazel leaves, no fire, horns, wings, legs, human face, crown or fishing scene.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-da6e6a16-0fba-4491-8262-6ad28170c99c.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "visual_requirements": [
+        "One natural salmon",
+        "Hazelnut tree and wisdom water context",
+        "Silver fish anatomy",
+        "Ancient profound knowledge aura"
+      ],
+      "depicted_variant": "Living Irish salmon of wisdom before capture",
+      "basis_claim_ids": [
+        "salmon-of-knowledge-c01",
+        "salmon-of-knowledge-c02",
+        "salmon-of-knowledge-c04",
+        "salmon-of-knowledge-c06"
+      ],
+      "aura": "Ancient, serene and profoundly knowing",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed one fully aquatic silver salmon with natural fish fins and forked tail, whole body visible below clear woodland wisdom-pool water, with hazelnuts at water surface under hazel foliage. Serene focused eye and luminous natural water convey ancient wisdom. No human form or unsupported anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "d9eda089903a3f619ce033151205ba5125eee797a76cfe260848c9ca0bf80802",
+    "notes": "Inspected native: large salmon takes falling hazelnuts in a stone well, watched by a fisherman. Accepted claims support hazelnut wisdom episode and enormous growth; coherent fish anatomy, no claim that exactly nine trees are depicted.",
+    "reviewed_at": "2026-10-05T18:17:51.495286+00:00"
+  },
+  "native_sha256": "d9eda089903a3f619ce033151205ba5125eee797a76cfe260848c9ca0bf80802",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/salmon-of-knowledge.json",
+    "native_sha256": "d9eda089903a3f619ce033151205ba5125eee797a76cfe260848c9ca0bf80802",
+    "old_url": "/assets/art/salmon-of-knowledge-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-da6e6a16-0fba-4491-8262-6ad28170c99c.png",
+    "old_webp_sha256": "7be935f3db65c4ba8490ffc7fac25a463fcc36013f811329be256aa54211e2c3",
+    "old_native_sha256": "b9a8136d586bc27f813210c9cc9ab35f8d049fbcf8ac840c5769cdf03a2c257d",
+    "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+    "basis_claim_ids": [
+      "salmon-of-knowledge-c02",
+      "salmon-of-knowledge-c03",
+      "salmon-of-knowledge-c06"
+    ]
+  },
+  "url": "/assets/art/salmon-of-knowledge-mythic-presence.webp",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "fa707f4683c6ef32d17ba9fdbf478d311e874ad4a7002a28dc2ed57203c7b521",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-219171c3-b10b-40a2-8421-419e8f735536.png",
+  "revision_generator": "assess_changes",
+  "artistic_changes": [
+    "Painterly composition",
+    "Clothes, exact colors and scenery details editorial"
+  ]
 }

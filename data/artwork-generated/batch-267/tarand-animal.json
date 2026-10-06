@@ -2,26 +2,83 @@
   "slug": "tarand-animal",
   "worker": "worker-0",
   "review_path": "data/gemini/reviews/batch-129.review.json",
-  "depicted_variant": "Ox-sized deer-headed bestiary animal",
+  "depicted_variant": "The Tarand, an ox-sized antlered cloven-hoofed deer-headed beast whose hair changes color to match trees and ground. Show its entire body where it crosses from dark brown tree trunks on the left to pale gray rocks on the right, with grass below. Its intact dense fur unmistakably changes along its body: dark bark brown at the shoulder, mottled green and golden forest colors through its flank, pale stone gray at its hindquarters. Textured hairs retain these unusual matching colors, making supernatural camouflage visually obvious. Not transparent, no light aura, no chameleon reptile anatomy. Four legs, deer head and antlers.",
   "basis_claim_ids": [
     "tarand-animal-c01",
     "tarand-animal-c04",
     "tarand-animal-c05",
     "tarand-animal-c07"
   ],
-  "aura": "Marvelous elusive bestiary animal",
-  "visual_requirements": [
-    "An ox-sized quadrupedal legendary beast with a clearly DEER head and antlers and bulky OX-sized animal body, fully furred coat changing subtly between surrounding forest browns and greens. Four hoofed legs, no human components, no lizard skin. Standing in a woodland clearing.",
-    "Marvelous elusive bestiary animal",
-    "Creature-specific anatomy is clearly visible; no ordinary human dramatic portrait"
-  ],
-  "prompt": "Use case: stylized-concept. Asset type: Mythics encyclopedia character illustration. ONE square high-detail naturalistic painterly illustration. Subject: Tarand (animal). An ox-sized quadrupedal legendary beast with a clearly DEER head and antlers and bulky OX-sized animal body, fully furred coat changing subtly between surrounding forest browns and greens. Four hoofed legs, no human components, no lizard skin. Standing in a woodland clearing. Mood: Marvelous elusive bestiary animal. Full defining anatomy visible, main creature prominent, balanced legible composition, detailed organic textures, atmospheric setting. No text, watermark, frame, collage, labels, game-interface or extra unrelated character. Depict folklore rather than a modern franchise. Palette, landscape and pose are artistic interpretation; do not invent conflicting signature anatomy.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/tarand-animal.png",
+  "aura": "None; ordinary environmental illumination.",
+  "visual_requirements": "The Tarand, an ox-sized antlered cloven-hoofed deer-headed beast whose hair changes color to match trees and ground. Show its entire body where it crosses from dark brown tree trunks on the left to pale gray rocks on the right, with grass below. Its intact dense fur unmistakably changes along its body: dark bark brown at the shoulder, mottled green and golden forest colors through its flank, pale stone gray at its hindquarters. Textured hairs retain these unusual matching colors, making supernatural camouflage visually obvious. Not transparent, no light aura, no chameleon reptile anatomy. Four legs, deer head and antlers.",
+  "prompt": "The Tarand, an ox-sized antlered cloven-hoofed deer-headed beast whose hair changes color to match trees and ground. Show its entire body where it crosses from dark brown tree trunks on the left to pale gray rocks on the right, with grass below. Its intact dense fur unmistakably changes along its body: dark bark brown at the shoulder, mottled green and golden forest colors through its flank, pale stone gray at its hindquarters. Textured hairs retain these unusual matching colors, making supernatural camouflage visually obvious. Not transparent, no light aura, no chameleon reptile anatomy. Four legs, deer head and antlers. Edit the reference into a complete mythological narrative illustration. Square composition, detailed restrained painterly realism, clear main creature and readable scene. Preserve correct anatomy unless the documented alternative form is explicitly selected. No text, lettering, watermark, frame, decorative glowing aura, neon, magical ribbons, generic mist or smoke. Natural environmental light only except explicitly described source magic. Secondary people, clothing and staging are artistic choices, not new creature lore.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/tarand-animal-mythic-presence.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T09:14:04.414Z",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Full-size original inspected: one ox-sized bulky furred quadruped with deer head and branched antlers, four split hooves. Brown-green coat blends with woodland. Coherent legendary animal morphology rather than humanoid portrait; camouflage illustrated artistically."
-  }
+    "reviewer": "inspect_workspace",
+    "notes": "Intact furry antlered quadruped visibly transitions bark brown through moss green to pale stone gray, matching the neighboring tree and rocks without glow."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "tarand-animal",
+      "worker": "worker-0",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "depicted_variant": "Ox-sized deer-headed bestiary animal",
+      "basis_claim_ids": [
+        "tarand-animal-c01",
+        "tarand-animal-c04",
+        "tarand-animal-c05",
+        "tarand-animal-c07"
+      ],
+      "aura": "Marvelous elusive bestiary animal",
+      "visual_requirements": [
+        "An ox-sized quadrupedal legendary beast with a clearly DEER head and antlers and bulky OX-sized animal body, fully furred coat changing subtly between surrounding forest browns and greens. Four hoofed legs, no human components, no lizard skin. Standing in a woodland clearing.",
+        "Marvelous elusive bestiary animal",
+        "Creature-specific anatomy is clearly visible; no ordinary human dramatic portrait"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Mythics encyclopedia character illustration. ONE square high-detail naturalistic painterly illustration. Subject: Tarand (animal). An ox-sized quadrupedal legendary beast with a clearly DEER head and antlers and bulky OX-sized animal body, fully furred coat changing subtly between surrounding forest browns and greens. Four hoofed legs, no human components, no lizard skin. Standing in a woodland clearing. Mood: Marvelous elusive bestiary animal. Full defining anatomy visible, main creature prominent, balanced legible composition, detailed organic textures, atmospheric setting. No text, watermark, frame, collage, labels, game-interface or extra unrelated character. Depict folklore rather than a modern franchise. Palette, landscape and pose are artistic interpretation; do not invent conflicting signature anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/tarand-animal.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T09:14:04.414Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Full-size original inspected: one ox-sized bulky furred quadruped with deer head and branched antlers, four split hooves. Brown-green coat blends with woodland. Coherent legendary animal morphology rather than humanoid portrait; camouflage illustrated artistically."
+      }
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "notes": "Antlered cloven-hoofed deer-head beast has fur visibly transitioning bark brown through woodland green to stone grey; documented camouflage is explicit.",
+    "native_sha256": "5462296e96173bfb0ddf4980887c5565d4433edcdf2cbb5734f9fe1746f61403",
+    "reviewed_at": "2026-10-05T18:38:01.402162+00:00"
+  },
+  "native_sha256": "5462296e96173bfb0ddf4980887c5565d4433edcdf2cbb5734f9fe1746f61403",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/tarand-animal.json",
+    "native_sha256": "5462296e96173bfb0ddf4980887c5565d4433edcdf2cbb5734f9fe1746f61403",
+    "old_url": "/assets/art/tarand-animal-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/tarand-animal.png",
+    "old_webp_sha256": "cb3dd6231a389525355e2b173dec5cc79c255479e8e506ff4e17057617284553",
+    "old_native_sha256": "1bac6355569dd7c943b0f0bf88aa0b8d034d160542e3d1e4459e4e4cddb748dc",
+    "rationale": "Replace the ordinary animal portrait with the documented mythic action or supernatural camouflage.",
+    "basis_claim_ids": [
+      "tarand-animal-c01",
+      "tarand-animal-c04",
+      "tarand-animal-c05",
+      "tarand-animal-c07"
+    ]
+  },
+  "url": "/assets/art/tarand-animal-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "aac38017b178b29d5eaf9a2a9d7bc9df48f6d219824ffd1c0a98b7ea2a446498",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-08901ba0-bd3b-4c74-bfab-5e8d2c91f155.png",
+  "revision_generator": "inspect_workspace",
+  "artistic_changes": "Composition, physical color, human staging and props are editorial illustration choices."
 }

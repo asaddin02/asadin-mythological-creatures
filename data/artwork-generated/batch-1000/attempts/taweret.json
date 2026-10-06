@@ -1,0 +1,27 @@
+{
+  "slug": "taweret",
+  "worker": "worker-2",
+  "attempts": [
+    {
+      "tool": "OpenAI built-in image_gen",
+      "status": "failed",
+      "generated_file": null,
+      "http_status": 400,
+      "code": "moderation_blocked",
+      "moderation_stage": "output",
+      "safety_violations": [
+        "sexual"
+      ],
+      "request_id": "0e9629fd-9dfb-4207-b4de-eafcecd8266b",
+      "error_message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0e9629fd-9dfb-4207-b4de-eafcecd8266b. safety_violations=[sexual].",
+      "prompt_summary": "Respectful source-documented bipedal female hippopotamus/lion/crocodile hybrid, including documented nonsexual female anatomy, natural Nile daylight. No image returned."
+    },
+    {
+      "tool": "OpenAI built-in image_gen",
+      "status": "selected-after-visual-inspection",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic mythology encyclopedia illustration of TAWERET. Render a reverent sacred protective figure with the documented upright bipedal hippopotamus head and heavy hippo body, lion limbs and paws, crocodile back ridge and long crocodile tail. Exactly two arms and two legs, standing on two lion feet. Dress the figure in an entirely opaque modest linen robe that covers the whole torso, shoulders, chest and hips, no exposed torso anatomy. Robe and quiet temple courtyard are editorial staging for this respectful portrait. Full figure three-quarter composition with tail visible, calm protective posture and attentive expression. Natural warm daylight, stone courtyard, tactile cloth, skin and scales, premium painterly naturalism, subdued earthy palette. No birth scene, children, nudity, jewelry, weapons, extra limbs, glowing aura, neon outline, energy ribbons, coloured luminous mist, text or watermark. Single square image.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-b33b0133-23d7-43ce-b64e-faaa421697cd.png",
+      "native_sha256": "190ec0258e22c0e263dd8826e038242d49df772935e0372b516bdedb5939f578"
+    }
+  ]
+}

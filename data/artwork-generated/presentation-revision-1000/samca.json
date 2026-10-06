@@ -1,0 +1,46 @@
+{
+  "slug": "samca",
+  "worker": "revision-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this Samca illustration only to remove the tiny lettering/signature/watermark near the lower right corner. Replace it seamlessly with the existing natural stone ground texture. Preserve every other part: human hag, heel-length hair, iron hands and hooked nails, small fire tongue, clothes, night lighting and composition. No text or watermarks anywhere.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-136a36bf-8250-43b1-add7-99f3188ef58b.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/samca.png",
+  "depicted_variant": "Human Samca hag with iron hands and flame tongue",
+  "basis_claim_ids": [
+    "samca-c01"
+  ],
+  "visual_requirements": [
+    "Human Samca hag with iron hands and flame tongue",
+    "Coherent anatomy and documented mythic scene"
+  ],
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+  "artistic_choices": [
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
+  ],
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "native_sha256": "1b9d330a005b1fe6ddad5ff3a3b2eee0503b1bc8984522928eda5a57609328f2",
+  "old_url": "/assets/art/samca-verified.webp",
+  "old_webp_sha256": "77f2eb2daf6ea4ffba9c56d0e7202d2c50ba98ee5ca8da993b857db7008663e8",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/originals/samca.png",
+  "old_native_sha256": "c1900c6ab40954fc4195c71941d04a6ecec0e2d1517853660a9c65bce4ccfdb0",
+  "rationale": "Replaces ordinary animal presentation with Human Samca hag with iron hands and flame tongue",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "recover_session",
+    "notes": "Human hag, heel-length hair, iron hooked hands and small source flame tongue; signature removed and native reinspected.",
+    "native_sha256": "1b9d330a005b1fe6ddad5ff3a3b2eee0503b1bc8984522928eda5a57609328f2"
+  },
+  "original_generation_prompt": "Create one square premium painterly mythological catalogue illustration. A terrible ADULT FEMALE HAG with dishevelled hair reaching her HEELS, small star-bright eyes, IRON HANDS ending in long sickle-hook nails, and a small physical TONGUE OF FIRE visible at her open mouth. Human torso exactly two arms and two legs, fullbody. She wears opaque ragged drapery entirely covering torso and hips (editorial modest adaptation of naked source form), standing alone at Romanian cottage doorway at full moon, no children or pregnant victims. Flame tongue source-backed, very small restrained flame only, not entire glowing face. No spider form or mixed animal anatomy. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+  "discarded_attempts": [
+    "data/artwork-generated/presentation-revision-1000/attempts/samca-attempt1.png"
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "1b9d330a005b1fe6ddad5ff3a3b2eee0503b1bc8984522928eda5a57609328f2",
+    "notes": "Inspected corrected native: dishevelled woman with hair reaching the ground, small bright eyes, iron clawed hands and restrained flame tongue. The unusual features are directly supported; editorial clothing is declared. Corner signature is absent.",
+    "reviewed_at": "2026-10-05T18:29:41.920516+00:00"
+  }
+}

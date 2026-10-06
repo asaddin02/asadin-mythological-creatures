@@ -1,0 +1,39 @@
+{
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "szelatya",
+  "prompt": "Use case: stylized-concept. Create one square premium naturalistic painterly Turkic mythology encyclopedia illustration of SZELATYA / YEL ATA, Wind Father. Select only the documented TURKIC ELDERLY MAN variant, not the Hungarian young-man variant. One human OLD MAN with LONG flowing grey-white HAIR carrying one SILVER physical weapon, a silver sword held downward peacefully, exact sword design is editorial because source only specifies silver weapons. Natural human anatomy, one head, two arms and two legs. Full opaque heavy woven robes and cloak, earth-tone clothes/editorial. He stands in a windswept forest: hair, cloak, leaves bend coherently in strong wind, storm clouds above and natural shafts of overcast daylight. Grave attentive expression and broad grounded stance establish mythic wind-god presence; no threatening pose or combat. Source mentions Silver Forest but tree species/palette remain editorial; do not make glowing silver trees or invent metal forest. Frame full body, sword, head and feet fully inside image. Do not depict thunder horses since their physical appearance is unspecified; no horse parts, animal ears, wings, extra limbs, glowing envelope, neon, energy ribbons, luminous mist, lightning bolts from body or magic projectiles. Rich refined oil-paint texture, no text, border or watermark.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-19dc4100-e55d-4e00-9361-04e043a6ccdb.png",
+  "depicted_variant": "Turkic elderly Wind Father with long hair and silver weapon",
+  "basis_claim_ids": [
+    "szelatya-c03",
+    "szelatya-c09"
+  ],
+  "visual_requirements": [
+    "Elderly human man in Turkic variant",
+    "Long hair",
+    "Silver physical weapon",
+    "Natural wind conveyed through hair, cloak and foliage"
+  ],
+  "aura": "Wind-god presence through grave expression, grounded posture, windswept clothing and stormy natural light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "recover_session",
+    "notes": "Inspected native: one elderly human man with long flowing grey hair, two arms and two booted legs, silver physical sword held downward. Full head, weapon and feet intact within frame. Hair/cloak/leaves show strong wind, natural storm clouds; no emitted glow, lightning, horse parts or young-man variant mixing."
+  },
+  "reviewed_at": "2026-10-05T14:55:25.359Z",
+  "artistic_choices": [
+    "Silver sword weapon type/design, embroidered robes/fur cloak, tree species, lake/mountain backdrop and storm lighting are editorial staging; no literal metal Silver Forest or unspecified thunder-horse anatomy"
+  ],
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/szelatya.png",
+  "native_sha256": "a06bbc8959e8af68ca9a5abd15276b0790039864a16e2ac217ffb489e97c0378",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "a06bbc8959e8af68ca9a5abd15276b0790039864a16e2ac217ffb489e97c0378",
+    "notes": "Viewed native: one elderly Turkic human man with long windblown grey hair and a physical silver sword, two arms and two legs in opaque clothes. Wind conveyed through hair, cloak, leaves and clouds; c03/c09, no youth blend, borrowed horse anatomy or generic glowing aura."
+  }
+}

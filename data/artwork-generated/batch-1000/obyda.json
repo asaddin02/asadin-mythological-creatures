@@ -1,0 +1,42 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "obyda",
+  "prompt": "Square premium painterly naturalistic Udmurt folklore artwork of Obyda. Select the documented OLD WITCH-HAG forest form, including BACKWARD FEET from one account. One fully modestly clothed elderly human woman in an opaque loose heavy robe and broad opaque shawl covering entire chest and shoulders, no exposed chest, no sexual imagery. Side view facing LEFT: face,torso,knees and shins point LEFT; exactly TWO bare feet point RIGHT behind her, both rounded HEELS forward toward LEFT, TOES behind toward RIGHT. Feet clear and separated on forest path. Hood, lined old face, grey hair and layered grey earth-tone clothes are editorial staging; shawl conceals other chest attributes rather than depicting exposed anatomy. Canny ancient forest presence through expression and hunched posture, tall trees and natural late-afternoon shade. No Baba Yaga borrowed hut,broom,animal parts,horns,wings,children,victims or violence. Rich painterly oil realism, no aura,glow,neon,ribbons,luminous mist,text,border. Make BOTH feet backward, not one forward.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-8537e6a9-64c6-4034-9662-80dc3ee300a2.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/obyda.png",
+  "depicted_variant": "Elderly human forest witch-hag with both feet reversed",
+  "basis_claim_ids": [
+    "obyda-c01",
+    "obyda-c04",
+    "obyda-c05"
+  ],
+  "visual_requirements": [
+    "Human elderly woman, entirely modestly clothed",
+    "Two backwards feet pointing opposite head and body",
+    "No invented animal anatomy"
+  ],
+  "aura": "Presence through expression, posture, framing and natural scene light.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "assess_changes",
+    "notes": "Viewed native: elderly forest woman facing left, both bare feet visibly point right, with heels on left. Opaque shawl and robes cover entire torso; natural shade, no magic effects.",
+    "native_sha256": "e4017ad520edf9ac5643fe85201a66ffda5ee669e59c17bccd89469ec81688f5"
+  },
+  "reviewed_at": "2026-10-05T14:53:02.510343+00:00",
+  "artistic_choices": [
+    "Hood, grey hair, layered earth-tone robe, walking stick and forest staging are editorial choices",
+    "Chest anatomy concealed; selected forest hag variant with backwards feet"
+  ],
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "native_sha256": "e4017ad520edf9ac5643fe85201a66ffda5ee669e59c17bccd89469ec81688f5",
+  "recovered_from_previous_session": true,
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "e4017ad520edf9ac5643fe85201a66ffda5ee669e59c17bccd89469ec81688f5",
+    "notes": "Viewed native: one elderly human forest woman faces left, both feet point right with heels to left, visibly backward relative to torso. Opaque cloak/robe covers chest; c01/c04/c05 coherent hag variant. No added animal anatomy or glow."
+  }
+}

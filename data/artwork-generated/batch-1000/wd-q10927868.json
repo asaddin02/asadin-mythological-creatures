@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "wd-q10927868",
+  "prompt": "Square premium painterly naturalistic illustration of Tulou (土螻) from Shan Hai Jing. Documented form is a SHEEP with EXACTLY FOUR HORNS. One sheep-bodied beast, one sheep head, exactly four ordinary hoof legs, wool and natural sheep tail. The head has two tall distinct sharply pointed horns on top and two separate outward-curving horns beside the ears: FOUR HORNS TOTAL, all four visible separated against the sky. Three-quarter frontal view, whole animal standing on a rocky Kunlun slope. Dangerous intent conveyed by tense stance, lowered sheep head and cold watchful gaze, no blood or prey. Grey-brown wool and horn colours are editorial choices. Natural stormy mountain light, textured oil painting, convincing fur and rock. No tiger or dragon parts, fangs invented from diet, radiant aura, neon energy, luminous mist, text or border.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-9fec619b-a6c3-4c06-bec5-55f88710ee6e.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/wd-q10927868.png",
+  "depicted_variant": "Sheep-bodied beast with exactly four horns",
+  "basis_claim_ids": [
+    "wd-q10927868-c01",
+    "wd-q10927868-c02",
+    "wd-q10927868-c04"
+  ],
+  "visual_requirements": [
+    "Sheep body",
+    "Exactly four horns",
+    "Four hoof legs"
+  ],
+  "aura": "Presence through gaze, posture and natural lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native shows one woolly sheep body with four hoof legs and exactly four separated horns: two tall top horns and two outward-curving side horns. Tense gaze, natural mountain light, no aura."
+  },
+  "reviewed_at": "2026-10-05T13:55:59.483Z",
+  "artistic_choices": [
+    "Wool colour and rocky Kunlun slope are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-069.review.json",
+  "native_sha256": "22b47de90b225dc408a9aa842911402c2862bf5875494afaa161fc11e49b43f0",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "22b47de90b225dc408a9aa842911402c2862bf5875494afaa161fc11e49b43f0",
+    "notes": "Inspected sheep body with exactly four horns (two upright/two curled), four hooved legs; fits c02."
+  }
+}

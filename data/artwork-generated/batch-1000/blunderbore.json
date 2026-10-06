@@ -1,0 +1,43 @@
+{
+  "worker": "worker-0",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "blunderbore",
+  "prompt": "Square premium painterly naturalistic Cornish folklore illustration, no text. Blunderbore, documented giant of Jack the Giant Killer, ONE human-looking adult male giant with one head, two arms and two legs, fully clothed in simple opaque rough brown tunic, trousers and plain boots. Exceptionally tall broad figure beside ordinary stone manor doorway and low hedged country road, clearly giant relative to doorway but not mountain-sized. Hostile guarded expression and weighty looming pose evoke documented terrorizing of travellers near Ludgvan Lese; no attack or victim. Exact face, beard, cloth and manor composition editorial; no source claim of particular height or costume. No invented horns, fangs, wings, ogre green skin, boar anatomy inferred from alias or magical weapon. No glow, magical aura, eye beams, energy ribbons or luminous mist. Natural clouded twilight and premium tactile painterly realism, entire single giant silhouette.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-64ab0868-cd45-4b5d-992c-65418fde8a58.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/blunderbore.png",
+  "depicted_variant": "One human-looking Cornish male giant",
+  "basis_claim_ids": [
+    "blunderbore-c01",
+    "blunderbore-c02"
+  ],
+  "visual_requirements": [
+    "One humanoid male giant with one head, two arms and two legs",
+    "Large scale established beside ordinary manor doorway",
+    "No boar anatomy or borrowed monster appendages"
+  ],
+  "aura": "Presence through expression, posture, framing, scale and natural lighting; no generic luminous effects.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "inspect_workspace",
+    "notes": "Viewed native: one tall broad adult male giant looms beside a much smaller manor doorway. Human face and limbs, rough tunic, trousers, boots; no boar features, horns, wings or generic effects."
+  },
+  "reviewed_at": "2026-10-05T14:52:03.300373+00:00",
+  "artistic_choices": [
+    "Exact height, face, beard, rough clothing and manor arrangement are editorial"
+  ],
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "native_sha256": "493dadcd31ae78abd246cbf620f5798be4acec561aa1acb5f840f01d91259817",
+  "recovery_provenance": {
+    "rollout": "/home/asadin/.codex/sessions/2026/10/05/rollout-2026-10-05T17-56-34-01a10bb5-4f93-7b20-a96b-1e3d1dab8685.jsonl",
+    "call_id": "exec-64ab0868-cd45-4b5d-992c-65418fde8a58",
+    "original_generation_preserved": true
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "493dadcd31ae78abd246cbf620f5798be4acec561aa1acb5f840f01d91259817",
+    "notes": "Inspected native: a single giant humanlike man with two arms and legs in opaque rough clothing, towering above door and traveller-size path beside Cornish stone building; natural overcast light, no added monster anatomy. c01/c02 giant identity with editorial clothing."
+  }
+}

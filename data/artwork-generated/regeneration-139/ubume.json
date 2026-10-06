@@ -1,20 +1,20 @@
 {
   "slug": "ubume",
   "worker": "regen-3",
-  "prompt": "Use case: illustration-story. Square premium painterly mythology encyclopedia artwork of UBUME in the specific regional KYUSHU UBUMEDORI BIRD manifestation recorded in Terajima Ryōan's Wakan Sansai Zue (1712), author commentary, translated in Yasui Manami's Japan Review study 2021 pages101-102. That Kyushu account describes a bird resembling a seagull in appearance, voice and size, near the western Japanese sea coast on a dark drizzly night, with phosphorescent ghost-fire where it appears. Show ONE entire gull-like bird standing on a slick dark shoreline rock in light rain. Fully avian head with beak, two folded wings integrated naturally into one feathered body, exactly two bird legs with two feet, one feathered tail. All visible body and tail within frame. White and muted grey plumage, natural yellowish gull beak, wet coastal wind ruffling feathers, no human face or body. A single faint bluish-green phosphorescent flame beside the rock marks its uncanny folkloric presence; this is an environmental supernatural light, not added bird anatomy. Rich detailed mature brushwork, deep forest green coastal shadows, very subtle antique-gold cloud-edge light and mournful eerie night atmosphere. Select only Ryōan's Kyushu gull-like bird form, do NOT combine with the separate Chinese human-breasted bird or usual Japanese maternal human ghost: no human breasts, hands, woman, child, bundles, blood, gore, clothing, horns, extra wings, invented hybrid parts, multiple birds, attacking scene, text, border, signature or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ubume.png",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. HUMAN GHOST MOTHER UBUME with normal adult female appearance in opaque pale Japanese kimono hands a SAFELY WRAPPED BABY bundle to a fully clothed ADULT TRAVELLER on a quiet rural Japanese road at NIGHT. Her hands and traveller hands naturally support bundle, small infant face visible peaceful, no injury/birth imagery. Mother central with sad earnest expression, intact opaque body, human2arms/2legs, no birdbody. Source she gives passerby baby before disappearing, depict handover moment. Moonlight and traveller physical lantern, no ghost mist or glow. Detailed naturalistic painting and readable documented mythical identity; coherent anatomy. No text, watermark, border. No generic glow, luminous eyes, magical mist, ribbons or particles. Exact costume colors and setting details editorial.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ubume-mythic-presence.png",
   "review_path": "data/gemini/reviews/batch-049.review.json",
-  "depicted_variant": "Kyushu ubumedori, the gull-like night bird in Ryōan's Wakan Sansai Zue author commentary",
+  "depicted_variant": "Ghost mother handing bundled baby to night traveller",
   "visual_requirements": [
-    "Entire gull-like avian form with one head, two wings, two feet and tail",
-    "Natural webbed gull feet",
-    "Coastal dark drizzle and associated phosphor fire",
-    "No hybrid anatomy from separate Chinese version"
+    "Ghost mother handing bundled baby to night traveller",
+    "Coherent anatomy and documented mythic scene"
   ],
   "basis_claim_ids": [
-    "ubume-c02"
+    "ubume-c03",
+    "ubume-c04",
+    "ubume-c05"
   ],
-  "aura": "Mournful uncanny coastal bird on a dark wet night",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "additional_sources": [
     {
       "url": "https://japanreview.jp/issues/35/1922/",
@@ -28,17 +28,54 @@
     }
   ],
   "nonhuman_features": [
-    "Fully feathered gull-like body with beak, folded wings, webbed feet and avian tail"
+    "Ghost mother handing bundled baby to night traveller",
+    "Coherent anatomy and documented mythic scene"
   ],
   "accuracy_mode": "source-supported",
-  "historical_basis": "The existing ubume research records varying appearances. The source commentary translated in Yasui explicitly supplies the Kyushu gull-like coastal apparition chosen here.",
+  "historical_basis": [
+    {
+      "id": "ubume-c03",
+      "source_id": "ubume-s1",
+      "quote": "she is most commonly depicted as the spirit of a woman who has died during childbirth.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia paling sering digambarkan sebagai roh perempuan yang meninggal saat melahirkan.",
+        "en": "She is most often depicted as a woman’s spirit after childbirth death."
+      }
+    },
+    {
+      "id": "ubume-c04",
+      "source_id": "ubume-s1",
+      "quote": "Passersby will see her as a normal-looking woman carrying a baby.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pejalan kaki melihatnya sebagai perempuan biasa yang menggendong bayi.",
+        "en": "Passersby see her as a normal-looking woman with a baby."
+      }
+    },
+    {
+      "id": "ubume-c05",
+      "source_id": "ubume-s1",
+      "quote": "She will typically try to give a passerby her child, then disappear.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia meminta orang menggendong bayinya lalu menghilang.",
+        "en": "She hands over the child and disappears."
+      }
+    }
+  ],
   "artistic_changes": [
     "Grey-white plumage, exact gull species, rock perch, beak colour and blue-green fire are artistic choices. The fixed colour/species is not claimed by the source."
   ],
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected corrected image via view_image: one entirely avian gull-like bird with one beaked head, folded wing plumage, one tail, two legs and now clearly webbed gull feet. No human breasts, hands, figure, child or clothing. All avian body parts fit frame. Coastal night rain and one blue-green flame preserve the selected Kyushu account. Initial unwebbed-foot variant was rejected/deleted with ledger; corrected image has no visible text/signature."
+    "reviewer": "recover_session",
+    "notes": "Human mother and traveller safely handing bundled infant at night, intact anatomy.",
+    "native_sha256": "b3883a1d7f448db585d92f942d80191f0dc91fb642fd10ed33110a642a03450a"
   },
   "correction": {
     "tool": "OpenAI built-in image_gen edit",
@@ -50,7 +87,87 @@
   "reviewed_at": "2026-10-04T16:34:55.200Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Independently viewed: one complete gull-like bird with two folded wings and two webbed feet, coastal drizzle and ghost fire; Kyushu bird account selected without mixing separate mammary hybrid.",
-    "reviewed_at": "2026-10-04T17:56:02.719530+00:00"
-  }
+    "reviewer": "root",
+    "notes": "Normal-looking ghost mother hands bundled baby to traveler at night; source-supported maternal encounter without injuries.",
+    "native_sha256": "b3883a1d7f448db585d92f942d80191f0dc91fb642fd10ed33110a642a03450a",
+    "reviewed_at": "2026-10-05T18:52:04.167582+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "ubume",
+      "worker": "regen-3",
+      "prompt": "Use case: illustration-story. Square premium painterly mythology encyclopedia artwork of UBUME in the specific regional KYUSHU UBUMEDORI BIRD manifestation recorded in Terajima Ryōan's Wakan Sansai Zue (1712), author commentary, translated in Yasui Manami's Japan Review study 2021 pages101-102. That Kyushu account describes a bird resembling a seagull in appearance, voice and size, near the western Japanese sea coast on a dark drizzly night, with phosphorescent ghost-fire where it appears. Show ONE entire gull-like bird standing on a slick dark shoreline rock in light rain. Fully avian head with beak, two folded wings integrated naturally into one feathered body, exactly two bird legs with two feet, one feathered tail. All visible body and tail within frame. White and muted grey plumage, natural yellowish gull beak, wet coastal wind ruffling feathers, no human face or body. A single faint bluish-green phosphorescent flame beside the rock marks its uncanny folkloric presence; this is an environmental supernatural light, not added bird anatomy. Rich detailed mature brushwork, deep forest green coastal shadows, very subtle antique-gold cloud-edge light and mournful eerie night atmosphere. Select only Ryōan's Kyushu gull-like bird form, do NOT combine with the separate Chinese human-breasted bird or usual Japanese maternal human ghost: no human breasts, hands, woman, child, bundles, blood, gore, clothing, horns, extra wings, invented hybrid parts, multiple birds, attacking scene, text, border, signature or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ubume.png",
+      "review_path": "data/gemini/reviews/batch-049.review.json",
+      "depicted_variant": "Kyushu ubumedori, the gull-like night bird in Ryōan's Wakan Sansai Zue author commentary",
+      "visual_requirements": [
+        "Entire gull-like avian form with one head, two wings, two feet and tail",
+        "Natural webbed gull feet",
+        "Coastal dark drizzle and associated phosphor fire",
+        "No hybrid anatomy from separate Chinese version"
+      ],
+      "basis_claim_ids": [
+        "ubume-c02"
+      ],
+      "aura": "Mournful uncanny coastal bird on a dark wet night",
+      "additional_sources": [
+        {
+          "url": "https://japanreview.jp/issues/35/1922/",
+          "title": "Yasui Manami (2021), Imagining the Spirits of Deceased Pregnant Women, Japan Review 35, pp.101–102",
+          "evidence": "Study translates Ryōan's source commentary describing Kyushu coastal birds resembling gulls in size, form and call, associated with ghost-fire in drizzle."
+        },
+        {
+          "url": "https://nichibun.repo.nii.ac.jp/record/7629/files/jare_035_091.pdf",
+          "title": "Yasui — full article and Wakan Sansai Zue quotation, pp.101–102",
+          "evidence": "Full paper downloaded and read. This selects Ryōan's local bird interpretation, separately from the Chinese mammary-bearing hybrid."
+        }
+      ],
+      "nonhuman_features": [
+        "Fully feathered gull-like body with beak, folded wings, webbed feet and avian tail"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": "The existing ubume research records varying appearances. The source commentary translated in Yasui explicitly supplies the Kyushu gull-like coastal apparition chosen here.",
+      "artistic_changes": [
+        "Grey-white plumage, exact gull species, rock perch, beak colour and blue-green fire are artistic choices. The fixed colour/species is not claimed by the source."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected corrected image via view_image: one entirely avian gull-like bird with one beaked head, folded wing plumage, one tail, two legs and now clearly webbed gull feet. No human breasts, hands, figure, child or clothing. All avian body parts fit frame. Coastal night rain and one blue-green flame preserve the selected Kyushu account. Initial unwebbed-foot variant was rejected/deleted with ledger; corrected image has no visible text/signature."
+      },
+      "correction": {
+        "tool": "OpenAI built-in image_gen edit",
+        "purpose": "Correct both feet to clearly webbed gull feet; preserve bird and scene",
+        "rejection_ledger": "data/artwork-generated/regeneration-139/ubume.rejections.json"
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T16:34:55.200Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Independently viewed: one complete gull-like bird with two folded wings and two webbed feet, coastal drizzle and ghost fire; Kyushu bird account selected without mixing separate mammary hybrid.",
+        "reviewed_at": "2026-10-04T17:56:02.719530+00:00"
+      }
+    }
+  ],
+  "native_sha256": "b3883a1d7f448db585d92f942d80191f0dc91fb642fd10ed33110a642a03450a",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/ubume.json",
+    "native_sha256": "b3883a1d7f448db585d92f942d80191f0dc91fb642fd10ed33110a642a03450a",
+    "old_url": "/assets/art/ubume-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ubume.png",
+    "old_webp_sha256": "c0f07d57fb950ac9ecafc60c5be6221ef17a13a78d9e5da30360fa5a0e33afe1",
+    "old_native_sha256": "c279261dbf092466f64ce3a24a82c6c7a535b5bd846b2432e275719db8c5500a",
+    "rationale": "Replaces ordinary animal presentation with Ghost mother handing bundled baby to night traveller",
+    "basis_claim_ids": [
+      "ubume-c03",
+      "ubume-c04",
+      "ubume-c05"
+    ]
+  },
+  "url": "/assets/art/ubume-regeneration-139-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "c60116966cfad76df0ca5d995653866137a790b8fac7cb6a33a075c9cacc8413"
 }

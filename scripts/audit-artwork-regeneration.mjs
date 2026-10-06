@@ -81,6 +81,19 @@ const decoded = JSON.parse(execFileSync('python3', ['-c', `import json,sys\nfrom
 let rejectedDeleted = 0;
 const directory = resolve(root, 'data/artwork-generated/regeneration-139');
 const acceptedOriginals = new Set(complete.map(item => resolve(item.original_file)));
+// Presentation revisions retain earlier approved natives. A path reused by an
+// approved edit remains valid only while its independently recorded bytes match.
+for (const item of complete) {
+  const revision = item.presentation_revision;
+  if (!revision?.old_native_sha256) continue;
+  const preserved = resolve(root, revision.old_original_file);
+  const baseline = read(revision.ledger).baseline.find(row => row.slug === item.slug);
+  assert.equal(resolve(root, baseline.original_file), preserved);
+  assert.equal(baseline.native_sha256, revision.old_native_sha256);
+  assert.equal(createHash('sha256').update(readFileSync(preserved)).digest('hex'), baseline.native_sha256,
+    `Earlier approved replacement must remain unchanged: ${item.slug}`);
+  acceptedOriginals.add(preserved);
+}
 for (const name of readdirSync(directory).filter(n => /reject.*\.json$/.test(n))) {
   const ledger = read(resolve(directory, name));
   const items = Array.isArray(ledger) ? ledger : ledger.items || ledger.rejections || ledger.rejected || [ledger];

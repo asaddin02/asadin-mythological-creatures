@@ -6,12 +6,65 @@
     {
       "slug": "aatxe",
       "canonical_name": "Aatxe",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Aatxe (slug aatxe). Precise depicted variant and identifying anatomy: A young red bull, with bovine head, short horns, four bovine legs and a normal bull tail, standing at the mouth of a Basque cave in stormy dusk. Bull form only, no human torso. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "A young red bull, with bovine head, short horns, four bovine legs and a normal bull tail, standing at the mouth of a Basque cave in stormy dusk. Bull form only, no human torso.",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. A fierce RED BULL with normal four-legged bull anatomy, wet russet coat and two natural horns, charging down a small Basque village lane at night while THREE fully clothed adult villagers hurry through nearby house doorways. Its muscular body is central and large in the composition, doors visible. Cave mouth on hillside behind village hints at its origin. Physical rain and lightning far in sky, terrified villagers, bull has no wings or invented horns. This is documented punishment and warning storm episode. No wounds. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "visual_requirements": [
+        "Aatxe in red bull form driving villagers indoors on a storm night",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-128.review.json",
       "status": "complete",
-      "url": "/assets/art/aatxe-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-d94adfa5-10ab-40e7-8c9d-3b469a252e3c.png"
+      "url": "/assets/art/aatxe-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/aatxe.png",
+      "presentation_revision_history": [
+        {
+          "slug": "aatxe",
+          "canonical_name": "Aatxe",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Aatxe (slug aatxe). Precise depicted variant and identifying anatomy: A young red bull, with bovine head, short horns, four bovine legs and a normal bull tail, standing at the mouth of a Basque cave in stormy dusk. Bull form only, no human torso. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "A young red bull, with bovine head, short horns, four bovine legs and a normal bull tail, standing at the mouth of a Basque cave in stormy dusk. Bull form only, no human torso.",
+          "review_path": "data/gemini/reviews/batch-128.review.json",
+          "status": "complete",
+          "url": "/assets/art/aatxe-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-d94adfa5-10ab-40e7-8c9d-3b469a252e3c.png"
+        }
+      ],
+      "depicted_variant": "Aatxe in red bull form driving villagers indoors on a storm night",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "aatxe-c02",
+        "aatxe-c03",
+        "aatxe-c06"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Red bull coherently charges past adults seeking indoor shelter during storm."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "918623d1cb88881acc5a386bb81ff243577a242272e41089f00591ce085a3158",
+        "notes": "Inspected native: a red bull drives villagers into doorways under rain and lightning with a cave behind. The storm-night cave spirit episode is explicit; ordinary bovine anatomy and physical lamps, no invented glow.",
+        "reviewed_at": "2026-10-05T18:02:46.331312+00:00"
+      },
+      "native_sha256": "918623d1cb88881acc5a386bb81ff243577a242272e41089f00591ce085a3158",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/aatxe.json",
+        "native_sha256": "918623d1cb88881acc5a386bb81ff243577a242272e41089f00591ce085a3158",
+        "old_url": "/assets/art/aatxe-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-d94adfa5-10ab-40e7-8c9d-3b469a252e3c.png",
+        "old_webp_sha256": "09b4ec1e93659664b14d4a1a88698b27c32fe0ec44f9a11a02f31019bbc55d88",
+        "old_native_sha256": "dfda07793d667b544fa7cc61ecb002a3c3652e0acedbe68b9630ec00aa60b433",
+        "rationale": "Replaces ordinary animal presentation with Aatxe in red bull form driving villagers indoors on a storm night",
+        "basis_claim_ids": [
+          "aatxe-c02",
+          "aatxe-c03",
+          "aatxe-c06"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2d92fa6cc778c1dd15c0358f53d68d855f685b1f0b3f44abc1eb4221d73441d1"
     },
     {
       "slug": "abada-unicorn",
@@ -206,12 +259,61 @@
     {
       "slug": "asena",
       "canonical_name": "Asena",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Asena (slug asena). Precise depicted variant and identifying anatomy: Asena in her she-wolf form: one adult female grey wolf with natural wolf anatomy, four canine legs, one long bushy tail, standing at a mountain cave entrance in Central Asia. No human child or other being, no humanoid torso, no horns or wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Asena in her she-wolf form: one adult female grey wolf with natural wolf anatomy, four canine legs, one long bushy tail, standing at a mountain cave entrance in Central Asia. No human child or other being, no humanoid torso, no horns or wings.",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. A protective female GREY WOLF caring for a fully clothed young boy resting wrapped in opaque rough wool blankets on a dry cave floor. The boy is awake, safe and recovering, with a simple bandage over one shin but NO visible injury or blood; wolf gently rests beside his shoulder with attentive maternal posture. Wide enough to show child's full blanket-covered body and cave refuge. Source says she-wolf nursed injured boy back to health; illustrate the tender recovery episode, not literal suckling or birth. No adult or child nudity. Natural wolf anatomy. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "visual_requirements": [
+        "Asena she-wolf caring for a recovering child in a cave",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-137.review.json",
       "status": "complete",
-      "url": "/assets/art/asena-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7d7024a0-72df-473f-8829-c7019cf22ea5.png"
+      "url": "/assets/art/asena-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/asena.png",
+      "presentation_revision_history": [
+        {
+          "slug": "asena",
+          "canonical_name": "Asena",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Asena (slug asena). Precise depicted variant and identifying anatomy: Asena in her she-wolf form: one adult female grey wolf with natural wolf anatomy, four canine legs, one long bushy tail, standing at a mountain cave entrance in Central Asia. No human child or other being, no humanoid torso, no horns or wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Asena in her she-wolf form: one adult female grey wolf with natural wolf anatomy, four canine legs, one long bushy tail, standing at a mountain cave entrance in Central Asia. No human child or other being, no humanoid torso, no horns or wings.",
+          "review_path": "data/gemini/reviews/batch-137.review.json",
+          "status": "complete",
+          "url": "/assets/art/asena-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7d7024a0-72df-473f-8829-c7019cf22ea5.png"
+        }
+      ],
+      "depicted_variant": "Asena she-wolf caring for a recovering child in a cave",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "asena-c02"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Protective wolf and safe bandaged clothed child show cave recovery scene."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "ddad77a9db4a551d8770b03b18cb3cc519fe9a9b1a4adb8beb6b9e0af856e168",
+        "notes": "Inspected native: she-wolf lies protectively beside a recovering clothed child with wrapped leg in a cave. Source-supported rescue and nursing context replaces an isolated wolf; injury is non-graphic, natural light only.",
+        "reviewed_at": "2026-10-05T18:02:46.350227+00:00"
+      },
+      "native_sha256": "ddad77a9db4a551d8770b03b18cb3cc519fe9a9b1a4adb8beb6b9e0af856e168",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/asena.json",
+        "native_sha256": "ddad77a9db4a551d8770b03b18cb3cc519fe9a9b1a4adb8beb6b9e0af856e168",
+        "old_url": "/assets/art/asena-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7d7024a0-72df-473f-8829-c7019cf22ea5.png",
+        "old_webp_sha256": "023a5190012ce1a2159f627455c0c38f3d2b1bf957486e2cfbedbb0da956e48c",
+        "old_native_sha256": "1fdd447c609ef7c30394e77495fb22776653568240016bdc19c88d4c46f864a4",
+        "rationale": "Replaces ordinary animal presentation with Asena she-wolf caring for a recovering child in a cave",
+        "basis_claim_ids": [
+          "asena-c02"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "513c1b9a782d720d445f4bb7d94bf556d3668d8e6012acd19748e225f79ed96e"
     },
     {
       "slug": "ayakashi-yokai",
@@ -326,12 +428,59 @@
     {
       "slug": "bashe",
       "canonical_name": "Bashe",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Bashe (slug bashe). Precise depicted variant and identifying anatomy: Bashe, one enormous PYTHON-like Chinese serpent, with one broad python head and a continuous thick coiled python body, in a lush river valley beside large trees that show its scale. No elephant being eaten, no legs, no wings, no horns. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Bashe, one enormous PYTHON-like Chinese serpent, with one broad python head and a continuous thick coiled python body, in a lush river valley beside large trees that show its scale. No elephant being eaten, no legs, no wings, no horns.",
+      "prompt": "Bashe the Chinese python-like giant elephant-eating serpent. A colossal limbless python coils across a forest valley, lifting its enormous head beside a full-grown elephant, whose whole body is smaller than the snake's head. The unharmed elephant retreats from the looming serpent; show the myth's impossible predator scale, no actual eating or injuries. Exactly one snake head, one continuous enormous body tapering to a tail, no wings or horns. Make both elephant and snake readable in the same physical depth so the scale is unmistakable. Edit the reference into a full square mythological narrative illustration, restrained painterly realism, strong readable main subject, correct coherent anatomy. No text, watermark, frame, neon, generic aura, magical ribbons, generic mist or smoke. Use only explicitly described source supernatural action. Keep all people fully clothed and all creatures unharmed. Scene staging and clothes are editorial choices.",
+      "visual_requirements": "Bashe the Chinese python-like giant elephant-eating serpent. A colossal limbless python coils across a forest valley, lifting its enormous head beside a full-grown elephant, whose whole body is smaller than the snake's head. The unharmed elephant retreats from the looming serpent; show the myth's impossible predator scale, no actual eating or injuries. Exactly one snake head, one continuous enormous body tapering to a tail, no wings or horns. Make both elephant and snake readable in the same physical depth so the scale is unmistakable.",
       "review_path": "data/gemini/reviews/batch-067.review.json",
       "status": "complete",
-      "url": "/assets/art/bashe-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c38ff71d-e651-4ad1-be77-0c6109dd8afe.png"
+      "url": "/assets/art/bashe-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/bashe.png",
+      "presentation_revision_history": [
+        {
+          "slug": "bashe",
+          "canonical_name": "Bashe",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Bashe (slug bashe). Precise depicted variant and identifying anatomy: Bashe, one enormous PYTHON-like Chinese serpent, with one broad python head and a continuous thick coiled python body, in a lush river valley beside large trees that show its scale. No elephant being eaten, no legs, no wings, no horns. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Bashe, one enormous PYTHON-like Chinese serpent, with one broad python head and a continuous thick coiled python body, in a lush river valley beside large trees that show its scale. No elephant being eaten, no legs, no wings, no horns.",
+          "review_path": "data/gemini/reviews/batch-067.review.json",
+          "status": "complete",
+          "url": "/assets/art/bashe-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c38ff71d-e651-4ad1-be77-0c6109dd8afe.png"
+        }
+      ],
+      "depicted_variant": "Bashe the Chinese python-like giant elephant-eating serpent. A colossal limbless python coils across a forest valley, lifting its enormous head beside a full-grown elephant, whose whole body is smaller than the snake's head. The unharmed elephant retreats from the looming serpent; show the myth's impossible predator scale, no actual eating or injuries. Exactly one snake head, one continuous enormous body tapering to a tail, no wings or horns. Make both elephant and snake readable in the same physical depth so the scale is unmistakable.",
+      "aura": "None; natural sunlight only.",
+      "basis_claim_ids": [
+        "bashe-c01"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Colossal one-headed limbless python dwarfs nearby full-grown elephant, making elephant-eating scale unmistakable without injury. Old source tier valid explicitly accepted by root for c01.",
+        "native_sha256": "86d7bb8cb27d6ec9300a7f62fb36fb3f3b42d3167116f6c1e2ec31719fb2964d"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Giant python's head exceeds nearby adult elephant; documented elephant-eating impossible scale, continuous one-headed limbless form.",
+        "native_sha256": "86d7bb8cb27d6ec9300a7f62fb36fb3f3b42d3167116f6c1e2ec31719fb2964d",
+        "reviewed_at": "2026-10-05T18:52:04.181613+00:00"
+      },
+      "native_sha256": "86d7bb8cb27d6ec9300a7f62fb36fb3f3b42d3167116f6c1e2ec31719fb2964d",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/bashe.json",
+        "native_sha256": "86d7bb8cb27d6ec9300a7f62fb36fb3f3b42d3167116f6c1e2ec31719fb2964d",
+        "old_url": "/assets/art/bashe-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c38ff71d-e651-4ad1-be77-0c6109dd8afe.png",
+        "old_webp_sha256": "30945cdf3ca69719efdfecd946035de623a0d054d3c8067109499d5e0562008b",
+        "old_native_sha256": "f87b453740008a3bacd3ca371c4b0b64e5a765a07142dbdad8b5f1e7a75797be",
+        "rationale": "Clarify source-defined mythic scale or sacred mount partnership; valid source tier accepted specifically by root for these embedded claims.",
+        "basis_claim_ids": [
+          "bashe-c01"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7244167a05f476198cdeaf32fbdcdad2ac63fe43732ca2b88f8697f62fd59f20"
     },
     {
       "slug": "basilisco-chilote",
@@ -406,12 +555,65 @@
     {
       "slug": "boiuna",
       "canonical_name": "Boiuna",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Boiuna (slug boiuna). Precise depicted variant and identifying anatomy: Boiuna, the Brazilian Amazon BLACK SNAKE: one massive glossy BLACK serpentine body, one large snake head and a long coiling tail surfacing from a dark Amazon river at night. No wings, legs, hair or dragon antlers. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Boiuna, the Brazilian Amazon BLACK SNAKE: one massive glossy BLACK serpentine body, one large snake head and a long coiling tail surfacing from a dark Amazon river at night. No wings, legs, hair or dragon antlers.",
+      "prompt": "Edit this Boiuna illustration only to correct the selected source's NOCTURNAL activity. Preserve the immense black river serpent, single snake head, all coils, two adult fishermen, canoe, coherent anatomy and overall composition. Change the scene to a MOONLESS NIGHT on the Amazon: very dark blue-black sky and jungle silhouette, readable soft ambient night light, one small ordinary physical oil lantern inside the canoe casting warm light on fishermen, nearby water and the lower scales. No moon/sun/daylight. Do not add glowing eyes, magical mist, aura or particles. Keep river disturbance physical. Premium painterly square illustration.",
+      "visual_requirements": [
+        "Boiuna giant black river serpent frightening fishermen",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-144.review.json",
       "status": "complete",
-      "url": "/assets/art/boiuna-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f4b326eb-5e1a-4c72-904b-ace80118397a.png"
+      "url": "/assets/art/boiuna-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/boiuna.png",
+      "presentation_revision_history": [
+        {
+          "slug": "boiuna",
+          "canonical_name": "Boiuna",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Boiuna (slug boiuna). Precise depicted variant and identifying anatomy: Boiuna, the Brazilian Amazon BLACK SNAKE: one massive glossy BLACK serpentine body, one large snake head and a long coiling tail surfacing from a dark Amazon river at night. No wings, legs, hair or dragon antlers. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Boiuna, the Brazilian Amazon BLACK SNAKE: one massive glossy BLACK serpentine body, one large snake head and a long coiling tail surfacing from a dark Amazon river at night. No wings, legs, hair or dragon antlers.",
+          "review_path": "data/gemini/reviews/batch-144.review.json",
+          "status": "complete",
+          "url": "/assets/art/boiuna-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f4b326eb-5e1a-4c72-904b-ace80118397a.png"
+        }
+      ],
+      "depicted_variant": "Boiuna giant black river serpent frightening fishermen",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "boiuna-c01",
+        "boiuna-c02",
+        "boiuna-c03"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Moonless nocturnal Amazon setting with physical canoe lantern; giant black serpent, adult fishermen and anatomy preserved. Source nocturnal requirement corrected."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "e516b44f7b5f6e7dace936279de9126e897984fb3f22da4206fbf35c6d126139",
+        "notes": "Inspected corrected native: enormous coherent black serpent confronts canoe fishermen on a clearly dark moonless river, lit by their physical lantern. Selected source nocturnal setting now satisfied; no invented glow or extra snake heads, daylight attempt retained separately.",
+        "reviewed_at": "2026-10-05T18:12:41.658384+00:00"
+      },
+      "native_sha256": "e516b44f7b5f6e7dace936279de9126e897984fb3f22da4206fbf35c6d126139",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/boiuna.json",
+        "native_sha256": "e516b44f7b5f6e7dace936279de9126e897984fb3f22da4206fbf35c6d126139",
+        "old_url": "/assets/art/boiuna-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f4b326eb-5e1a-4c72-904b-ace80118397a.png",
+        "old_webp_sha256": "45c7efde9540bb5cd0be1d6c4bb7675e57a03e062091b0c938e539859ec2d17a",
+        "old_native_sha256": "d47ca660a52bd59a6818ec09e4e6e1be53e6df4044f78993062f978545498cb8",
+        "rationale": "Replaces ordinary animal presentation with Boiuna giant black river serpent frightening fishermen",
+        "basis_claim_ids": [
+          "boiuna-c01",
+          "boiuna-c02",
+          "boiuna-c03"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e8bcf4b4e23efa4592600c93d80c2fd8f1838bd5b01ad1b52829a9b206b3738a"
     },
     {
       "slug": "bozalosc",
@@ -560,22 +762,123 @@
     {
       "slug": "cheval-gauvin",
       "canonical_name": "Cheval Gauvin",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cheval Gauvin (slug cheval-gauvin). Precise depicted variant and identifying anatomy: Cheval Gauvin, one sinister but anatomically normal HORSE of French Jura folklore, with one horse head, four hooved legs, mane and tail, standing by a dark stream in the forest. No wings, horns or human head; no rider. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Cheval Gauvin, one sinister but anatomically normal HORSE of French Jura folklore, with one horse head, four hooved legs, mane and tail, standing by a dark stream in the forest. No wings, horns or human head; no rider.",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. A sinister black HORSE with coherent four legs gallops downhill toward the lip of a steep rushing riverbank, carrying a fully clothed ADULT medieval traveller pulling desperately on reins. French wooded ravine at dusk, edge and roaring water clearly visible ahead, horse and rider central at the moment BEFORE any fall, no injury/death. Source evil horse lures riders and takes them toward drowning or abyss; this dangerous journey gives it mythic identity. Natural horse anatomy, no wings/horns/hybrid features. Physical movement and fearful rider, not emitted magic. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "visual_requirements": [
+        "Cheval Gauvin carrying a rider toward a perilous riverbank",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-129.review.json",
       "status": "complete",
-      "url": "/assets/art/cheval-gauvin-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f53263ea-0422-4ea8-88f4-e17db5578531.png"
+      "url": "/assets/art/cheval-gauvin-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/cheval-gauvin.png",
+      "presentation_revision_history": [
+        {
+          "slug": "cheval-gauvin",
+          "canonical_name": "Cheval Gauvin",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cheval Gauvin (slug cheval-gauvin). Precise depicted variant and identifying anatomy: Cheval Gauvin, one sinister but anatomically normal HORSE of French Jura folklore, with one horse head, four hooved legs, mane and tail, standing by a dark stream in the forest. No wings, horns or human head; no rider. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Cheval Gauvin, one sinister but anatomically normal HORSE of French Jura folklore, with one horse head, four hooved legs, mane and tail, standing by a dark stream in the forest. No wings, horns or human head; no rider.",
+          "review_path": "data/gemini/reviews/batch-129.review.json",
+          "status": "complete",
+          "url": "/assets/art/cheval-gauvin-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f53263ea-0422-4ea8-88f4-e17db5578531.png"
+        }
+      ],
+      "depicted_variant": "Cheval Gauvin carrying a rider toward a perilous riverbank",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "cheval-gauvin-c01",
+        "cheval-gauvin-c02"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Horse and adult rider race toward steep turbulent riverbank, no injury."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "f0a5faf5c2ff463f63193746e9da3696c73e36a6b737224e7d23c8f84f535bd8",
+        "notes": "Inspected native: intact dark horse carries an alarmed rider rapidly toward a rocky riverbank. The supported dangerous riding and drowning threat is visually clear without depicting injury; dress and lighting are editorial.",
+        "reviewed_at": "2026-10-05T18:02:46.358971+00:00"
+      },
+      "native_sha256": "f0a5faf5c2ff463f63193746e9da3696c73e36a6b737224e7d23c8f84f535bd8",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/cheval-gauvin.json",
+        "native_sha256": "f0a5faf5c2ff463f63193746e9da3696c73e36a6b737224e7d23c8f84f535bd8",
+        "old_url": "/assets/art/cheval-gauvin-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-f53263ea-0422-4ea8-88f4-e17db5578531.png",
+        "old_webp_sha256": "1f4a4954ce63331fbc43662986c95ab6f595f999019dcdb35d9f013ccf3ac43a",
+        "old_native_sha256": "3542ee06a4b80f625083ebf4720607b6eb153e18d738a789892e48d6b6901c0e",
+        "rationale": "Replaces ordinary animal presentation with Cheval Gauvin carrying a rider toward a perilous riverbank",
+        "basis_claim_ids": [
+          "cheval-gauvin-c01",
+          "cheval-gauvin-c02"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "15b7420acfc69dc7b90f06626622765d655a05e2a87fd76d446650f1c4879940"
     },
     {
       "slug": "cheval-mallet",
       "canonical_name": "Cheval Mallet",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cheval Mallet (slug cheval-mallet). Precise depicted variant and identifying anatomy: Cheval Mallet in its WHITE HORSE variant: one beautiful WHITE horse visibly SADDLED and BRIDLED, with four horse legs and normal equine head and tail, alone at night on a rural path in western France. No rider, wings or unicorn horn. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Cheval Mallet in its WHITE HORSE variant: one beautiful WHITE horse visibly SADDLED and BRIDLED, with four horse legs and normal equine head and tail, alone at night on a rural path in western France. No rider, wings or unicorn horn.",
+      "prompt": "Cheval Mallet: Keep natural white saddled horse. At night the malevolent Cheval Mallet offers its saddle to an exhausted traveler on a deserted road; traveler hesitates holding the recorded protective St Benedict medal. Show ominous disappearance narrative by road leading into black darkness, without invented magic body. Human-horse interaction is central, not passive horse portrait. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
       "review_path": "data/gemini/reviews/batch-129.review.json",
       "status": "complete",
-      "url": "/assets/art/cheval-mallet-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-855f61a3-1874-4911-9023-279abe9199fe.png"
+      "url": "/assets/art/cheval-mallet-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/cheval-mallet.png",
+      "presentation_revision_history": [
+        {
+          "slug": "cheval-mallet",
+          "canonical_name": "Cheval Mallet",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cheval Mallet (slug cheval-mallet). Precise depicted variant and identifying anatomy: Cheval Mallet in its WHITE HORSE variant: one beautiful WHITE horse visibly SADDLED and BRIDLED, with four horse legs and normal equine head and tail, alone at night on a rural path in western France. No rider, wings or unicorn horn. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Cheval Mallet in its WHITE HORSE variant: one beautiful WHITE horse visibly SADDLED and BRIDLED, with four horse legs and normal equine head and tail, alone at night on a rural path in western France. No rider, wings or unicorn horn.",
+          "review_path": "data/gemini/reviews/batch-129.review.json",
+          "status": "complete",
+          "url": "/assets/art/cheval-mallet-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-855f61a3-1874-4911-9023-279abe9199fe.png"
+        }
+      ],
+      "depicted_variant": "Keep natural white saddled horse. At night the malevolent Cheval Mallet offers its saddle to an exhausted traveler on a deserted road; traveler hesitates holding the recorded protective St Benedict medal. Show ominous disappearance narrative by road leading into black darkness, without invented magic body. Human-horse interaction is central, not passive horse portrait.",
+      "aura": "None; natural environmental light only.",
+      "basis_claim_ids": [
+        "cheval-mallet-c02"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Coherent saddled white horse tempts weary traveler holding a protective medal; ominous nightroad narrative clear."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "White saddled horse offers a nocturnal ride; traveler holds protective medal. Coherent horse anatomy and sourced riding/protection scene without invented powers.",
+        "native_sha256": "dfc6445fd018b4f51ddcc75ab293d452161531c2834f06c58aeb5fe981cd7bee",
+        "reviewed_at": "2026-10-05T18:35:59.154163+00:00"
+      },
+      "native_sha256": "dfc6445fd018b4f51ddcc75ab293d452161531c2834f06c58aeb5fe981cd7bee",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/cheval-mallet.json",
+        "native_sha256": "dfc6445fd018b4f51ddcc75ab293d452161531c2834f06c58aeb5fe981cd7bee",
+        "old_url": "/assets/art/cheval-mallet-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-855f61a3-1874-4911-9023-279abe9199fe.png",
+        "old_webp_sha256": "87f2ffd22b9b409bd782981e80c47c27f14f63317e39c57c867a242ae1f167f5",
+        "old_native_sha256": "dd59b73e06d3c9a5a508b8613c029fdf87451979e3be82af35000d92141c587c",
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "cheval-mallet-c02"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "135d6cc11357991dffceb18b9a29e9561f69d137e551833e404f39395dff4f61"
     },
     {
       "slug": "chi-mythology",
@@ -650,12 +953,67 @@
     {
       "slug": "cressie",
       "canonical_name": "Cressie",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cressie (slug cressie). Precise depicted variant and identifying anatomy: Cressie, a roughly fifteen-foot DARK BROWN EEL from Newfoundland legend: one long sleek eel body, natural eel head and low continuous fin, swimming in a clear freshwater lake. No snake horns, no limbs or dragon wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Cressie, a roughly fifteen-foot DARK BROWN EEL from Newfoundland legend: one long sleek eel body, natural eel head and low continuous fin, swimming in a clear freshwater lake. No snake horns, no limbs or dragon wings.",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Cressie sighting at Crescent Lake: one approximately fifteen-foot dark brown sleek eel-like lake monster swims immediately beside a small canoe with two startled adult witnesses. Eel fully visible just beneath surface and long sinuous back breaking water, whole length clearly longer than the canoe. No dinosaur head, horns, legs or glowing eyes. Newfoundland forest shore and cold overcast daylight. Canoe is editorial scale reference, not asserted detail of historical sighting. No arbitrary glowing effects, colored mist, glyphs or ribbons.\nEdit1: Edit this image to correct ONLY eel-like lake monster size and body. Whole eel length approximately4.6 metres (fifteen feet), about1.5 times the three-metre canoe length. Make whole sleek dark-brown eel clearly visible curled beside canoe on the same water plane, fairly narrow eel head/body rather than huge crocodile head. Keep both startled clothed adult witnesses, lake forest shore and natural daylight. No legs or horns. Preserve painterly portrait2:3; no glow.\nEdit2: Edit this image: ERASE THE ENTIRE EXISTING EEL including every part of its very long distant tail. Replace it with ONE MUCH SHORTER eel, whole length4.6metres, slim head only twenty centimetres long. Make the canoe3metres long and place BOTH canoe and eel fully visible SIDE BY SIDE horizontally at exactly the SAME DISTANCE in the centre of the scene. Eel length visually1.5x canoe length, no tail extending into distance, tail ends immediately beside canoe stern aboutone metre beyond it. Head narrow eel face, natural dark brown sleek eel body. Zoom out if needed. Keep two clothed startled adults, natural lake forest and painterly portrait2:3. Main correction must reduce actual whole eel length radically, not just shrink its head. No extra creatures, no text or magical effects.",
+      "visual_requirements": [
+        "Whole eel about1.5x3m canoe",
+        "Slim natural eel head/body",
+        "Witness context"
+      ],
       "review_path": "data/gemini/reviews/batch-146.review.json",
       "status": "complete",
-      "url": "/assets/art/cressie-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e767fdb4-b9ad-4a00-8277-ae14293ff5d5.png"
+      "url": "/assets/art/cressie-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/cressie.png",
+      "presentation_revision_history": [
+        {
+          "slug": "cressie",
+          "canonical_name": "Cressie",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Cressie (slug cressie). Precise depicted variant and identifying anatomy: Cressie, a roughly fifteen-foot DARK BROWN EEL from Newfoundland legend: one long sleek eel body, natural eel head and low continuous fin, swimming in a clear freshwater lake. No snake horns, no limbs or dragon wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Cressie, a roughly fifteen-foot DARK BROWN EEL from Newfoundland legend: one long sleek eel body, natural eel head and low continuous fin, swimming in a clear freshwater lake. No snake horns, no limbs or dragon wings.",
+          "review_path": "data/gemini/reviews/batch-146.review.json",
+          "status": "complete",
+          "url": "/assets/art/cressie-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e767fdb4-b9ad-4a00-8277-ae14293ff5d5.png"
+        }
+      ],
+      "depicted_variant": "Approximately15-foot sleek dark-brown eel beside canoe with two adult witnesses at Crescent Lake.",
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "basis_claim_ids": [
+        "cressie-c01",
+        "cressie-c03",
+        "cressie-c08"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Corrected native individually viewed: whole eel and canoe side by side on same water plane, eel approximately1.5x canoe by curved body length, narrow head and fully visible tail; witnesses intact, no invented anatomy.",
+        "native_sha256": "3cc89737fffe3f938ea664c25eb549884d3de2e50075fbf26dfd1d5ecf5051b5"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Corrected dark sleek eel about 1.5 canoe lengths, coherent single eel and two adult witnesses; scale now matches recorded approximately15 feet.",
+        "native_sha256": "3cc89737fffe3f938ea664c25eb549884d3de2e50075fbf26dfd1d5ecf5051b5",
+        "reviewed_at": "2026-10-05T18:36:56.582387+00:00"
+      },
+      "native_sha256": "3cc89737fffe3f938ea664c25eb549884d3de2e50075fbf26dfd1d5ecf5051b5",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/cressie.json",
+        "native_sha256": "3cc89737fffe3f938ea664c25eb549884d3de2e50075fbf26dfd1d5ecf5051b5",
+        "old_url": "/assets/art/cressie-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e767fdb4-b9ad-4a00-8277-ae14293ff5d5.png",
+        "old_webp_sha256": "5dea4e5312bab879b9cf2a80ffe3c87e4cbddfec9717aa1a15e9721f3959c119",
+        "old_native_sha256": "344166782e27f78ad086f49a3fb7c489480c2e2f5c9c0d2422a26a052d2dfe30",
+        "rationale": "Show reported eel extraordinary4.6m length with witnesses, correct prior excessive size.",
+        "basis_claim_ids": [
+          "cressie-c01",
+          "cressie-c03",
+          "cressie-c08"
+        ]
+      },
+      "width": 1024,
+      "height": 1536,
+      "sha256": "0f1de14771777f4a515ba0a51e7bfe1724e3699cace203769bc5dedd30c4690c"
     },
     {
       "slug": "cuelebre",
@@ -690,32 +1048,185 @@
     {
       "slug": "dawon",
       "canonical_name": "Dawon",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Dawon (slug dawon). Precise depicted variant and identifying anatomy: Dawon in the explicitly attested LION variant, Durga's mount shown alone: one majestic natural LION with a full mane, four lion legs and a tufted lion tail in an Indian woodland. No tiger stripes or composite anatomy, no rider or deity. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Dawon in the explicitly attested LION variant, Durga's mount shown alone: one majestic natural LION with a full mane, four lion legs and a tufted lion tail in an Indian woodland. No tiger stripes or composite anatomy, no rider or deity.",
+      "prompt": "Dawon in the lion variant as the goddess Durga's mount. Keep a mighty four-legged lion dominant in the foreground, now visibly carrying Durga, a fully clothed Indian human goddess seated upon its back in red-and-gold sari. She has a calm regal human face; depict a simple restrained representational human figure with two visible arms holding the reins and resting on her lap. No invented hybrid lion anatomy, no rays, halo or glowing eyes. Sacred partnership and purposeful mount action make the lion's identity obvious. Goddess clothing and pose are artistic staging, no extra iconographic claim. Edit the reference into a full square mythological narrative illustration, restrained painterly realism, strong readable main subject, correct coherent anatomy. No text, watermark, frame, neon, generic aura, magical ribbons, generic mist or smoke. Use only explicitly described source supernatural action. Keep all people fully clothed and all creatures unharmed. Scene staging and clothes are editorial choices.",
+      "visual_requirements": "Dawon in the lion variant as the goddess Durga's mount. Keep a mighty four-legged lion dominant in the foreground, now visibly carrying Durga, a fully clothed Indian human goddess seated upon its back in red-and-gold sari. She has a calm regal human face; depict a simple restrained representational human figure with two visible arms holding the reins and resting on her lap. No invented hybrid lion anatomy, no rays, halo or glowing eyes. Sacred partnership and purposeful mount action make the lion's identity obvious. Goddess clothing and pose are artistic staging, no extra iconographic claim.",
       "review_path": "data/gemini/reviews/batch-074.review.json",
       "status": "complete",
-      "url": "/assets/art/dawon-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-a1453b5a-3944-4dc7-9a9d-56e1baad413b.png"
+      "url": "/assets/art/dawon-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/dawon.png",
+      "presentation_revision_history": [
+        {
+          "slug": "dawon",
+          "canonical_name": "Dawon",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Dawon (slug dawon). Precise depicted variant and identifying anatomy: Dawon in the explicitly attested LION variant, Durga's mount shown alone: one majestic natural LION with a full mane, four lion legs and a tufted lion tail in an Indian woodland. No tiger stripes or composite anatomy, no rider or deity. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Dawon in the explicitly attested LION variant, Durga's mount shown alone: one majestic natural LION with a full mane, four lion legs and a tufted lion tail in an Indian woodland. No tiger stripes or composite anatomy, no rider or deity.",
+          "review_path": "data/gemini/reviews/batch-074.review.json",
+          "status": "complete",
+          "url": "/assets/art/dawon-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-a1453b5a-3944-4dc7-9a9d-56e1baad413b.png"
+        }
+      ],
+      "depicted_variant": "Dawon in the lion variant as the goddess Durga's mount. Keep a mighty four-legged lion dominant in the foreground, now visibly carrying Durga, a fully clothed Indian human goddess seated upon its back in red-and-gold sari. She has a calm regal human face; depict a simple restrained representational human figure with two visible arms holding the reins and resting on her lap. No invented hybrid lion anatomy, no rays, halo or glowing eyes. Sacred partnership and purposeful mount action make the lion's identity obvious. Goddess clothing and pose are artistic staging, no extra iconographic claim.",
+      "aura": "None; natural sunlight only.",
+      "basis_claim_ids": [
+        "dawon-c01"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Anatomically normal lion clearly carries Durga in fully clothed regal sari; source lion-mount identity now explicit. Two visible human arms, costume/crown/harness are artistic simplification, not new anatomical claims. Valid research c01 case explicitly accepted by root.",
+        "native_sha256": "77cf7fb40b4d2a00edb0181a0a76d8d4780f2d7b22817443317625ce19aad087"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Lion visibly carries clothed Durga with two visible arms; documented mount partnership, coherent feline anatomy.",
+        "native_sha256": "77cf7fb40b4d2a00edb0181a0a76d8d4780f2d7b22817443317625ce19aad087",
+        "reviewed_at": "2026-10-05T18:52:04.184673+00:00"
+      },
+      "native_sha256": "77cf7fb40b4d2a00edb0181a0a76d8d4780f2d7b22817443317625ce19aad087",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/dawon.json",
+        "native_sha256": "77cf7fb40b4d2a00edb0181a0a76d8d4780f2d7b22817443317625ce19aad087",
+        "old_url": "/assets/art/dawon-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-a1453b5a-3944-4dc7-9a9d-56e1baad413b.png",
+        "old_webp_sha256": "50e56e46c15b3a093f258e0de69e636c0f86861096c0b237617eb2e1bbf55119",
+        "old_native_sha256": "50f470d88be99da3cf4325e6408603e36fdc6bce833d7c2a17b3390ddf5c6062",
+        "rationale": "Clarify source-defined mythic scale or sacred mount partnership; valid source tier accepted specifically by root for these embedded claims.",
+        "basis_claim_ids": [
+          "dawon-c01"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a2f9865811ee2f60b1ab01271e11be9af4facf066a27c1a51e604a54ee96d87e"
     },
     {
       "slug": "delphyne",
       "canonical_name": "Delphyne",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Delphyne (slug delphyne). Precise depicted variant and identifying anatomy: Delphyne, the monstrous SHE-SERPENT of Delphi: one giant natural snake head and continuous thick scaly snake body, coiled among Greek limestone rocks. No human head, no wings, no legs or multiple heads. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Delphyne, the monstrous SHE-SERPENT of Delphi: one giant natural snake head and continuous thick scaly snake body, coiled among Greek limestone rocks. No human head, no wings, no legs or multiple heads.",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Delphyne, monstrous she-serpent of Delphi, coils across a massive stone path and rears many times taller than the opposing youthful human god Apollo. Greek mountains and ancient Delphi stone sanctuary, tense confrontation before the documented defeat. Enormous single natural serpent head and continuous legless body, no horns or wings or invented human torso. Fully covered pale Greek tunic on Apollo, posture resolute. Strong size and narrative, no aura, no gore. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+      "visual_requirements": [
+        "Documented form or event",
+        "Coherent anatomy",
+        "No arbitrary aura"
+      ],
       "review_path": "data/gemini/reviews/batch-095.review.json",
       "status": "complete",
-      "url": "/assets/art/delphyne-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a7babed-23fb-4d9a-b957-5d38bdc47ef3.png"
+      "url": "/assets/art/delphyne-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/delphyne.png",
+      "presentation_revision_history": [
+        {
+          "slug": "delphyne",
+          "canonical_name": "Delphyne",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Delphyne (slug delphyne). Precise depicted variant and identifying anatomy: Delphyne, the monstrous SHE-SERPENT of Delphi: one giant natural snake head and continuous thick scaly snake body, coiled among Greek limestone rocks. No human head, no wings, no legs or multiple heads. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Delphyne, the monstrous SHE-SERPENT of Delphi: one giant natural snake head and continuous thick scaly snake body, coiled among Greek limestone rocks. No human head, no wings, no legs or multiple heads.",
+          "review_path": "data/gemini/reviews/batch-095.review.json",
+          "status": "complete",
+          "url": "/assets/art/delphyne-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a7babed-23fb-4d9a-b957-5d38bdc47ef3.png"
+        }
+      ],
+      "depicted_variant": "Delphyne, monstrous she-serpent of Delphi, coils across a massive stone path and rears many times taller than the opposing youthful human god Apollo. Greek mountains and ancient Delphi stone sanctuary, tense confrontation before the documented defeat. Enormous single natural serpent head and continuous legless body, no horns or wings or invented human torso. Fully covered pale Greek tunic on Apollo, posture resolute. Strong size and narrative, no aura, no gore.",
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "basis_claim_ids": [
+        "delphyne-c01",
+        "delphyne-c02"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Native individually viewed: Immense single-headed legless she-serpent confronts clothed Apollo at Delphi sanctuary; no horns/wings, physical scene without gore.",
+        "native_sha256": "0ae192617812a94372151f8001b9f5987a260d9982dfa5c485eb80462b335086"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "0ae192617812a94372151f8001b9f5987a260d9982dfa5c485eb80462b335086",
+        "notes": "Inspected native: monstrous coherent she-serpent confronts an adult Apollo holding a bow at Delphi. The source-backed encounter supplies mythical identity; coils are continuous, no invented limbs or generic glowing powers.",
+        "reviewed_at": "2026-10-05T18:17:51.516721+00:00"
+      },
+      "native_sha256": "0ae192617812a94372151f8001b9f5987a260d9982dfa5c485eb80462b335086",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/delphyne.json",
+        "native_sha256": "0ae192617812a94372151f8001b9f5987a260d9982dfa5c485eb80462b335086",
+        "old_url": "/assets/art/delphyne-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a7babed-23fb-4d9a-b957-5d38bdc47ef3.png",
+        "old_webp_sha256": "5be639c2fc9991bfdbb11b0c7148d403aabd35a6b3d799586d268b8a02a89244",
+        "old_native_sha256": "9dc2972e6f6c61eee089c5f8d9e31d32842a83834bed8ce1d3eab5b23513ef49",
+        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "basis_claim_ids": [
+          "delphyne-c01",
+          "delphyne-c02"
+        ]
+      },
+      "width": 1024,
+      "height": 1536,
+      "sha256": "22ee438734d5070019e262b56650a846270848e938d4c234e7a4bf7c86b0fa91"
     },
     {
       "slug": "demon-cat",
       "canonical_name": "Demon Cat",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Demon Cat (slug demon-cat). Precise depicted variant and identifying anatomy: Demon Cat in the Capitol ghost legend: one giant anatomically CAT-like BLACK cat, swollen to the size of a tiger, within a shadowy historic stone corridor. One cat head, two ears, four feline legs and one tail. No horns, wings or humanoid body. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Demon Cat in the Capitol ghost legend: one giant anatomically CAT-like BLACK cat, swollen to the size of a tiger, within a shadowy historic stone corridor. One cat head, two ears, four feline legs and one tail. No horns, wings or humanoid body.",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. An enormous BLACK CAT grown to ELEPHANT SIZE fills a vaulted old US Capitol basement tunnel, directly beside a single fully clothed adult night guard holding a lantern. Make explicit scale: guard only knee-high beside cat's foreleg, normal-sized arched doorway behind guard. Cat crouches with back arched and coherent four paws, single feline head and one tail, dense black fur and eyes reflecting lantern only. Guard recoils uninjured. Source ordinary blackcat swells as large as tiger or elephant in government corridors. No wings, no fire, no spectral smoke. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "visual_requirements": [
+        "Elephant-sized Demon Cat confronting a Capitol guard",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-143.review.json",
       "status": "complete",
-      "url": "/assets/art/demon-cat-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-8ae04ac8-f5de-45c9-af30-f77bf5b4518d.png"
+      "url": "/assets/art/demon-cat-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/demon-cat.png",
+      "presentation_revision_history": [
+        {
+          "slug": "demon-cat",
+          "canonical_name": "Demon Cat",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Demon Cat (slug demon-cat). Precise depicted variant and identifying anatomy: Demon Cat in the Capitol ghost legend: one giant anatomically CAT-like BLACK cat, swollen to the size of a tiger, within a shadowy historic stone corridor. One cat head, two ears, four feline legs and one tail. No horns, wings or humanoid body. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Demon Cat in the Capitol ghost legend: one giant anatomically CAT-like BLACK cat, swollen to the size of a tiger, within a shadowy historic stone corridor. One cat head, two ears, four feline legs and one tail. No horns, wings or humanoid body.",
+          "review_path": "data/gemini/reviews/batch-143.review.json",
+          "status": "complete",
+          "url": "/assets/art/demon-cat-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-8ae04ac8-f5de-45c9-af30-f77bf5b4518d.png"
+        }
+      ],
+      "depicted_variant": "Elephant-sized Demon Cat confronting a Capitol guard",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "demon-cat-c05",
+        "demon-cat-c06",
+        "demon-cat-c07"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Elephant-sized cat towers above full adult guard; natural reflected eyes."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "dd558ad0204aa924852e2909aac7f283778c925b25692f8e19b0adab99c406d6",
+        "notes": "Inspected native: immense coherent black cat towers over a Capitol guard in vaulted corridors. Elephant-sized transformation is directly attested; no extra limbs or generic luminous aura, physical lantern lighting.",
+        "reviewed_at": "2026-10-05T18:02:46.366301+00:00"
+      },
+      "native_sha256": "dd558ad0204aa924852e2909aac7f283778c925b25692f8e19b0adab99c406d6",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/demon-cat.json",
+        "native_sha256": "dd558ad0204aa924852e2909aac7f283778c925b25692f8e19b0adab99c406d6",
+        "old_url": "/assets/art/demon-cat-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-8ae04ac8-f5de-45c9-af30-f77bf5b4518d.png",
+        "old_webp_sha256": "3750449209c6483ab77b999e5300a195690f3587ab217d299b35a871c4518eda",
+        "old_native_sha256": "badcc9ec90d1baf6360d1e030997681176165db4ef5b97bd493e6c030551b5d4",
+        "rationale": "Replaces ordinary animal presentation with Elephant-sized Demon Cat confronting a Capitol guard",
+        "basis_claim_ids": [
+          "demon-cat-c05",
+          "demon-cat-c06",
+          "demon-cat-c07"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "845792f33dbba7b7b49f6fd589b03c8c3d1911c86bebf94b0cf0fb12b8cc1eb2"
     },
     {
       "slug": "dewey-lake-monster",
@@ -892,22 +1403,129 @@
     {
       "slug": "gaueko",
       "canonical_name": "Gaueko",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Gaueko (slug gaueko). Precise depicted variant and identifying anatomy: Gaueko in the recorded BLACK WOLF variant: one large BLACK WOLF with normal canine head, four wolf legs and a bushy tail, in a Basque forest at night. No horns, no humanlike body, no giant red eyes added. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Gaueko in the recorded BLACK WOLF variant: one large BLACK WOLF with normal canine head, four wolf legs and a bushy tail, in a Basque forest at night. No horns, no humanlike body, no giant red eyes added.",
+      "prompt": "Gaueko in the explicitly recorded black-wolf manifestation sometimes standing on two legs. A dark wolf STANDS UPRIGHT ON ITS TWO HIND LEGS, front paws held forward, full body clearly visible outside a Basque stone farmhouse at midnight. A person remains within the doorway under household protection. One wolf head, two front paws, two hind legs, tail; retain black fur, wolf snout and paws, do not invent horns or human hands. Make the upright posture obvious at thumbnail scale. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
+      "visual_requirements": [
+        "Documented variant or episode clearly visible",
+        "Coherent required anatomy",
+        "No generic aura"
+      ],
       "review_path": "data/gemini/reviews/batch-128.review.json",
       "status": "complete",
-      "url": "/assets/art/gaueko-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e541ca6c-02f3-4ba1-b82a-db37cfcf17f7.png"
+      "url": "/assets/art/gaueko-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/gaueko.png",
+      "presentation_revision_history": [
+        {
+          "slug": "gaueko",
+          "canonical_name": "Gaueko",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Gaueko (slug gaueko). Precise depicted variant and identifying anatomy: Gaueko in the recorded BLACK WOLF variant: one large BLACK WOLF with normal canine head, four wolf legs and a bushy tail, in a Basque forest at night. No horns, no humanlike body, no giant red eyes added. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Gaueko in the recorded BLACK WOLF variant: one large BLACK WOLF with normal canine head, four wolf legs and a bushy tail, in a Basque forest at night. No horns, no humanlike body, no giant red eyes added.",
+          "review_path": "data/gemini/reviews/batch-128.review.json",
+          "status": "complete",
+          "url": "/assets/art/gaueko-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e541ca6c-02f3-4ba1-b82a-db37cfcf17f7.png"
+        }
+      ],
+      "depicted_variant": "Gaueko in the explicitly recorded black-wolf manifestation sometimes standing on two legs. A dark wolf STANDS UPRIGHT ON ITS TWO HIND LEGS, front paws held forward, full body clearly visible outside a Basque stone farmhouse at midnight. A person remains within the doorway under household protection. One wolf head, two front paws, two hind legs, tail; retain black fur, wolf snout and paws, do not invent horns or human hands. Make the upright posture obvious at thumbnail scale.",
+      "aura": "None; environmental sunlight/moonlight/fire only.",
+      "basis_claim_ids": [
+        "gaueko-c08",
+        "gaueko-c07"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Black wolf clearly upright on two hind legs, forepaws held forward and human sheltered in farmhouse doorway; no added hybrid organs."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "46400f094dbdbaa60e821421447e17b9b1b5d765bb8463d13ddebd7b8457e208",
+        "notes": "Inspected native: black wolf stands unmistakably upright on two hind legs outside a farmhouse at night, front paws raised, person sheltered inside. Supported bipedal wolf form and protected-house threshold are clear without human hands or extra appendages.",
+        "reviewed_at": "2026-10-05T18:12:41.620645+00:00"
+      },
+      "native_sha256": "46400f094dbdbaa60e821421447e17b9b1b5d765bb8463d13ddebd7b8457e208",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/gaueko.json",
+        "native_sha256": "46400f094dbdbaa60e821421447e17b9b1b5d765bb8463d13ddebd7b8457e208",
+        "old_url": "/assets/art/gaueko-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-e541ca6c-02f3-4ba1-b82a-db37cfcf17f7.png",
+        "old_webp_sha256": "28ca3370651a4b5fcf5f82063f0c898dbf76ee68b73fdefd954f95ec49b3b21a",
+        "old_native_sha256": "cb5e85ce13564a5b1b1efe3cd0784cc4e8c67bffdaa62c284eb25286dd6e4ff8",
+        "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+        "basis_claim_ids": [
+          "gaueko-c08",
+          "gaueko-c07"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "79a7a2cacea4faf06ce6c1d0b3ecb69f077161f250cd84234b74353e578942cc"
     },
     {
       "slug": "akugyo",
       "canonical_name": "Akugyo",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Akugyo (slug akugyo). Precise depicted variant and identifying anatomy: Akugyo in the SHINING-SCALED GIANT FISH variant: one immense natural FISH with an ordinary fish head, clearly fishlike fins and a caudal fin, its scales shining gently beneath Japanese coastal water. No fiery breath for this chosen variant, no eel body or horns. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Akugyo in the SHINING-SCALED GIANT FISH variant: one immense natural FISH with an ordinary fish head, clearly fishlike fins and a caudal fin, its scales shining gently beneath Japanese coastal water. No fiery breath for this chosen variant, no eel body or horns.",
+      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Akugyo the immense sea fish overturns an entire wooden sailing ship off Kibi: gigantic ordinary fish anatomy erupts across the wave, massive back rolls the ship toward its side, tiny intact sailors cling to rails. Fish much larger than ship, one fish head, fins and tail, no humanoid face or dragon limbs. Dramatic Japanese maritime legend, storm wind and real sea spray, no glowing scales or invented magic, non-gory. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+      "visual_requirements": [
+        "Documented form or event",
+        "Coherent anatomy",
+        "No arbitrary aura"
+      ],
       "review_path": "data/gemini/reviews/batch-052.review.json",
       "status": "complete",
-      "url": "/assets/art/akugyo-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c273a5d5-6e3f-4a70-b84c-560118cba3c8.png"
+      "url": "/assets/art/akugyo-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/akugyo.png",
+      "presentation_revision_history": [
+        {
+          "slug": "akugyo",
+          "canonical_name": "Akugyo",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Akugyo (slug akugyo). Precise depicted variant and identifying anatomy: Akugyo in the SHINING-SCALED GIANT FISH variant: one immense natural FISH with an ordinary fish head, clearly fishlike fins and a caudal fin, its scales shining gently beneath Japanese coastal water. No fiery breath for this chosen variant, no eel body or horns. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Akugyo in the SHINING-SCALED GIANT FISH variant: one immense natural FISH with an ordinary fish head, clearly fishlike fins and a caudal fin, its scales shining gently beneath Japanese coastal water. No fiery breath for this chosen variant, no eel body or horns.",
+          "review_path": "data/gemini/reviews/batch-052.review.json",
+          "status": "complete",
+          "url": "/assets/art/akugyo-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c273a5d5-6e3f-4a70-b84c-560118cba3c8.png"
+        }
+      ],
+      "depicted_variant": "Akugyo the immense sea fish overturns an entire wooden sailing ship off Kibi: gigantic ordinary fish anatomy erupts across the wave, massive back rolls the ship toward its side, tiny intact sailors cling to rails. Fish much larger than ship, one fish head, fins and tail, no humanoid face or dragon limbs. Dramatic Japanese maritime legend, storm wind and real sea spray, no glowing scales or invented magic, non-gory.",
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "basis_claim_ids": [
+        "akugyo-c01",
+        "akugyo-c02",
+        "akugyo-c03"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Native individually viewed: Gigantic fish rolls sailing ship in storm off Kibi, coherent fins/tail, tiny sailors make sourced immense scale clear.",
+        "native_sha256": "82e9f7304ecab6bcc49deadf602257f9d27ce5f824dbe977ab3d0e8f186f578a"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Immense coherent fish tips wooden ship amid waves; sailors and vessel clearly establish documented giant scale.",
+        "native_sha256": "82e9f7304ecab6bcc49deadf602257f9d27ce5f824dbe977ab3d0e8f186f578a",
+        "reviewed_at": "2026-10-05T18:36:56.590733+00:00"
+      },
+      "native_sha256": "82e9f7304ecab6bcc49deadf602257f9d27ce5f824dbe977ab3d0e8f186f578a",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/akugyo.json",
+        "native_sha256": "82e9f7304ecab6bcc49deadf602257f9d27ce5f824dbe977ab3d0e8f186f578a",
+        "old_url": "/assets/art/akugyo-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c273a5d5-6e3f-4a70-b84c-560118cba3c8.png",
+        "old_webp_sha256": "04652a809773efb64944b2c529aad4f4f5d2e0950451bfca2c7260fd7bb3ef42",
+        "old_native_sha256": "5520e4f34ea915a11e5132cd95259537b3988485b0d86935a8d352ab7f6e615f",
+        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "basis_claim_ids": [
+          "akugyo-c01",
+          "akugyo-c02",
+          "akugyo-c03"
+        ]
+      },
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f9d8e6ee2243730fee3babd2eb5b47234845ad917effd81b153341cc7c054cb3"
     },
     {
       "slug": "alara-fairy",
@@ -932,12 +1550,66 @@
     {
       "slug": "ahriman",
       "canonical_name": "Ahriman",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ahriman (slug ahriman). Precise depicted variant and identifying anatomy: Ahriman in the documented SNAKE shapeshifting form: one dark natural snake with one reptilian head and a continuous scaled body, in a deep shadowy rocky Iranian landscape. No humanoid demon, no wings, horns or extra heads; this is specifically the snake manifestation. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Ahriman in the documented SNAKE shapeshifting form: one dark natural snake with one reptilian head and a continuous scaled body, in a deep shadowy rocky Iranian landscape. No humanoid demon, no wings, horns or extra heads; this is specifically the snake manifestation.",
+      "prompt": "Ahriman: Replace snake with the explicitly documented young-man manifestation of Ahriman, evil Iranian spirit, inhabiting an abyss of endless northern darkness. Human-shaped young man in simple dark cloth stands at vast cliff above bottomless shadowed chasm; dying plants mark creation's decay, his expression cold. One head, two arms, two legs, no invented horns, fangs or serpent limbs. Avoid cheerful ordinary man portrait. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
       "review_path": "data/gemini/reviews/batch-079.review.json",
       "status": "complete",
-      "url": "/assets/art/ahriman-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-949998e4-3ab1-4a87-a165-3238f8bf953b.png"
+      "url": "/assets/art/ahriman-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ahriman.png",
+      "presentation_revision_history": [
+        {
+          "slug": "ahriman",
+          "canonical_name": "Ahriman",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ahriman (slug ahriman). Precise depicted variant and identifying anatomy: Ahriman in the documented SNAKE shapeshifting form: one dark natural snake with one reptilian head and a continuous scaled body, in a deep shadowy rocky Iranian landscape. No humanoid demon, no wings, horns or extra heads; this is specifically the snake manifestation. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Ahriman in the documented SNAKE shapeshifting form: one dark natural snake with one reptilian head and a continuous scaled body, in a deep shadowy rocky Iranian landscape. No humanoid demon, no wings, horns or extra heads; this is specifically the snake manifestation.",
+          "review_path": "data/gemini/reviews/batch-079.review.json",
+          "status": "complete",
+          "url": "/assets/art/ahriman-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-949998e4-3ab1-4a87-a165-3238f8bf953b.png"
+        }
+      ],
+      "depicted_variant": "Replace snake with the explicitly documented young-man manifestation of Ahriman, evil Iranian spirit, inhabiting an abyss of endless northern darkness. Human-shaped young man in simple dark cloth stands at vast cliff above bottomless shadowed chasm; dying plants mark creation's decay, his expression cold. One head, two arms, two legs, no invented horns, fangs or serpent limbs. Avoid cheerful ordinary man portrait.",
+      "aura": "None; natural environmental light only.",
+      "basis_claim_ids": [
+        "ahriman-c05",
+        "ahriman-c06",
+        "ahriman-c07"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Documented young-man form at immense abyss of darkness, dying plants; coherent human anatomy without invented demon organs."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Young human male stands at endless dark abyss; black costume editorial. No unsourced animal hybrid or glow.",
+        "native_sha256": "05006fa29c9a524269a17917f28a509007bde9d385d23ffc59bafc48d6652d93",
+        "reviewed_at": "2026-10-05T18:35:59.160784+00:00"
+      },
+      "native_sha256": "05006fa29c9a524269a17917f28a509007bde9d385d23ffc59bafc48d6652d93",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/ahriman.json",
+        "native_sha256": "05006fa29c9a524269a17917f28a509007bde9d385d23ffc59bafc48d6652d93",
+        "old_url": "/assets/art/ahriman-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-949998e4-3ab1-4a87-a165-3238f8bf953b.png",
+        "old_webp_sha256": "e154323e2cd238d71d23248324757dfdbe737865e45d10b3ee015c6a55b4eaca",
+        "old_native_sha256": "302746d3e3b9801ba583277fe0a95b0629a1f00649b5dee2e8d2edc537441dc7",
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "ahriman-c05",
+          "ahriman-c06",
+          "ahriman-c07"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fcce1203fb818fd3e160f6f78b0d5819db8fe284e8d9879637d46755cbe313cc"
     },
     {
       "slug": "akuma-folklore",
@@ -976,22 +1648,127 @@
     {
       "slug": "ama-no-fuchigoma",
       "canonical_name": "Ama no Fuchigoma",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ama no Fuchigoma (slug ama-no-fuchigoma). Precise depicted variant and identifying anatomy: Ama no Fuchigoma, the mythical horse of the Nihon Shoki: one normal majestic HORSE with one horse head, mane, FOUR hooved legs and a flowing tail, on a misty ancient Japanese woodland path. No rider, wings, horns or human face; do not invent unsupported special markings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Ama no Fuchigoma, the mythical horse of the Nihon Shoki: one normal majestic HORSE with one horse head, mane, FOUR hooved legs and a flowing tail, on a misty ancient Japanese woodland path. No rider, wings, horns or human face; do not invent unsupported special markings.",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. The heavenly Japanese myth horse AMA-NO-FUCHIGOMA carries the ADULT MALE deity Susanoo through a dramatic mountain passage beneath storm clouds. Horse is full-body focal subject with normal four horse legs, one head, flowing dark mane and tail. Rider is a dignified human-faced adult in layered opaque ancient Japanese robes, riding naturally with two hands and two legs. Myth source identifies Susanoo's mount but gives no exact horse color or costume: bay coat, blue-white robe, simple tack and rocky scenery are editorial interpretation only. No wings/horns, no invented dragon form. Documented divine rider establishes identity. Refined detailed naturalistic painting with strong readable composition and complete relevant silhouettes. No text, watermark, borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or added supernatural powers. Lighting physical and restrained; creature presence comes from documented form or episode.",
+      "visual_requirements": [
+        "Susanoo riding Ama-no-Fuchigoma",
+        "Coherent anatomy and documented mythic scene"
+      ],
       "review_path": "data/gemini/reviews/batch-057.review.json",
       "status": "complete",
-      "url": "/assets/art/ama-no-fuchigoma-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-219d5866-1bdb-4d6f-96e0-2140e04b371f.png"
+      "url": "/assets/art/ama-no-fuchigoma-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ama-no-fuchigoma.png",
+      "presentation_revision_history": [
+        {
+          "slug": "ama-no-fuchigoma",
+          "canonical_name": "Ama no Fuchigoma",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ama no Fuchigoma (slug ama-no-fuchigoma). Precise depicted variant and identifying anatomy: Ama no Fuchigoma, the mythical horse of the Nihon Shoki: one normal majestic HORSE with one horse head, mane, FOUR hooved legs and a flowing tail, on a misty ancient Japanese woodland path. No rider, wings, horns or human face; do not invent unsupported special markings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Ama no Fuchigoma, the mythical horse of the Nihon Shoki: one normal majestic HORSE with one horse head, mane, FOUR hooved legs and a flowing tail, on a misty ancient Japanese woodland path. No rider, wings, horns or human face; do not invent unsupported special markings.",
+          "review_path": "data/gemini/reviews/batch-057.review.json",
+          "status": "complete",
+          "url": "/assets/art/ama-no-fuchigoma-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-219d5866-1bdb-4d6f-96e0-2140e04b371f.png"
+        }
+      ],
+      "depicted_variant": "Susanoo riding Ama-no-Fuchigoma",
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "basis_claim_ids": [
+        "ama-no-fuchigoma-c01",
+        "ama-no-fuchigoma-c02"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Coherent horse carries adult Susanoo; costumes and bay coat editorial."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "d9666fc27ea185ff66d25f0e60e24c6240ae8f764d53671682c3e131c66fece3",
+        "notes": "Inspected native: one coherently drawn horse carries an adult Susanoo through mountainous scenery. The documented divine mount role supplies mythic context; clothing and tack are declared editorial, no arbitrary horse mutation.",
+        "reviewed_at": "2026-10-05T18:02:46.338861+00:00"
+      },
+      "native_sha256": "d9666fc27ea185ff66d25f0e60e24c6240ae8f764d53671682c3e131c66fece3",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/ama-no-fuchigoma.json",
+        "native_sha256": "d9666fc27ea185ff66d25f0e60e24c6240ae8f764d53671682c3e131c66fece3",
+        "old_url": "/assets/art/ama-no-fuchigoma-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-219d5866-1bdb-4d6f-96e0-2140e04b371f.png",
+        "old_webp_sha256": "2bc86c6f33f635c799d1434cf9cc7fe06ea06b15bf7a50e43e9de1d8f52d1ce1",
+        "old_native_sha256": "fc4dcf947ca75addae3bd121600c7e42a915c1497d5595e166f53748d225ba7e",
+        "rationale": "Replaces ordinary animal presentation with Susanoo riding Ama-no-Fuchigoma",
+        "basis_claim_ids": [
+          "ama-no-fuchigoma-c01",
+          "ama-no-fuchigoma-c02"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1e7637e300dc742a13edfe43cf9d42e3b68f0eed65472d17a31591288f84cba6"
     },
     {
       "slug": "akerbeltz",
       "canonical_name": "Akerbeltz",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Akerbeltz (slug akerbeltz). Precise depicted variant and identifying anatomy: Akerbeltz in the attested BLACK BILLY GOAT form: one black male goat with goat beard, TWO backward-curving goat horns, four cloven-hooved goat legs and a short goat tail near a Basque cave. No human torso, no bat wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Akerbeltz in the attested BLACK BILLY GOAT form: one black male goat with goat beard, TWO backward-curving goat horns, four cloven-hooved goat legs and a short goat tail near a Basque cave. No human torso, no bat wings.",
+      "prompt": "Akerbeltz: Preserve natural black billy goat. Akerbeltz presides on a raised stone at the mouth of Zugarramurdi cave, surrounded by gathering Basque witches with bread, eggs and coins offered, dark subterranean gathering seen clearly. Four goat legs, normal horns/beard, no human arms or devilhybrid. This source-recorded gathering conveys mythical identity. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "visual_requirements": [
+        "Cited variant/episode readable",
+        "Coherent anatomy",
+        "No generic aura"
+      ],
       "review_path": "data/gemini/reviews/batch-128.review.json",
       "status": "complete",
-      "url": "/assets/art/akerbeltz-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-10017c00-1643-4026-9396-9eb852434444.png"
+      "url": "/assets/art/akerbeltz-mythic-presence.webp",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/akerbeltz.png",
+      "presentation_revision_history": [
+        {
+          "slug": "akerbeltz",
+          "canonical_name": "Akerbeltz",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Akerbeltz (slug akerbeltz). Precise depicted variant and identifying anatomy: Akerbeltz in the attested BLACK BILLY GOAT form: one black male goat with goat beard, TWO backward-curving goat horns, four cloven-hooved goat legs and a short goat tail near a Basque cave. No human torso, no bat wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Akerbeltz in the attested BLACK BILLY GOAT form: one black male goat with goat beard, TWO backward-curving goat horns, four cloven-hooved goat legs and a short goat tail near a Basque cave. No human torso, no bat wings.",
+          "review_path": "data/gemini/reviews/batch-128.review.json",
+          "status": "complete",
+          "url": "/assets/art/akerbeltz-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-10017c00-1643-4026-9396-9eb852434444.png"
+        }
+      ],
+      "depicted_variant": "Preserve natural black billy goat. Akerbeltz presides on a raised stone at the mouth of Zugarramurdi cave, surrounded by gathering Basque witches with bread, eggs and coins offered, dark subterranean gathering seen clearly. Four goat legs, normal horns/beard, no human arms or devilhybrid. This source-recorded gathering conveys mythical identity.",
+      "aura": "None; natural environmental light only.",
+      "basis_claim_ids": [
+        "akerbeltz-c05",
+        "akerbeltz-c08",
+        "akerbeltz-c12"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Black billy goat presides at cave mouth over witches offering eggs/bread/coins, four coherent legs and normal horns."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Black goat presides in cave above witches and humble offerings; anatomy coherent and Sabbath context sourced.",
+        "native_sha256": "b2a1de7bc9780c4f8f727992ce671dedc8d0bd173bfda8f8e5b520527a496b97",
+        "reviewed_at": "2026-10-05T18:35:59.167625+00:00"
+      },
+      "native_sha256": "b2a1de7bc9780c4f8f727992ce671dedc8d0bd173bfda8f8e5b520527a496b97",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/akerbeltz.json",
+        "native_sha256": "b2a1de7bc9780c4f8f727992ce671dedc8d0bd173bfda8f8e5b520527a496b97",
+        "old_url": "/assets/art/akerbeltz-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0fef0-bc05-7643-990a-744e5dd45dc0/exec-10017c00-1643-4026-9396-9eb852434444.png",
+        "old_webp_sha256": "af3c9db0fbc612cf316b020881691f66be5a52265430291dbff3d4fba4711a13",
+        "old_native_sha256": "fb9e224fd5f66fa23d7c0c41b56f9106778d19ce18faeb87804fc6355b38d533",
+        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "basis_claim_ids": [
+          "akerbeltz-c05",
+          "akerbeltz-c08",
+          "akerbeltz-c12"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "85e793623c1ece314135dd9b59adefb7b330eee3d9dfda154d72284a9a04409b"
     },
     {
       "slug": "ahuizotl-mythology",

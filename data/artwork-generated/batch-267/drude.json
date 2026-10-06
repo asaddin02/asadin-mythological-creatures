@@ -1,15 +1,18 @@
 {
   "slug": "drude",
   "worker": "worker-2",
-  "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One German DRUDE depicted ONLY as her documented CAT manifestation, a natural anatomically correct adult cat with four feline paws, one feline head, two ears and one tail. She emerges stealthily through a slightly ajar door into a simple southern German wooden bedroom at night, pressing-spirit nightmare presence suggested by low stalking posture, oppressive blue moonlight and deep shadows. No people, sleepers or bodies in frame. No human witch or female face, no human limbs, no wings, horns, feathers, extra paws, fantasy sigils or magical accessories. Source says the drude soul may appear as a cat; this is that animal variant. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+  "prompt": "Create one square premium painterly mythological catalogue illustration. A stern aged HUMAN WITCH-HAG spirit DRUDE sits heavily on the blanket-covered UPPER CHEST of a sleeping fully clothed ADULT in a rustic German bedroom at night. Dark opaque long gown, gaunt human face and hands; two arms and two legs coherent, bedding visibly depressed under weight. Sleeper has strained dreaming expression without wound or injury, torso covered. Tiny natural-holed stone hangs by cord from rafter as documented protection. Source witch-hag presses sleepers causes nightmares. No cat anatomy, no wings/horns, no luminous vapor. Detailed naturalistic painting with powerful readable mythic identity, complete relevant anatomy, physical restrained light. No text, logos or borders. No generic glow, luminous eyes, floating ribbons, magical mist, sparkles or unsupported powers.",
   "review_path": "data/gemini/reviews/batch-111.review.json",
-  "depicted_variant": "Drude soul in documented cat manifestation",
+  "depicted_variant": "Human witch-hag nightmare spirit pressing a sleeping adult",
   "basis_claim_ids": [
-    "drude-c06"
+    "drude-c01",
+    "drude-c04",
+    "drude-c05"
   ],
-  "aura": "Oppressive stealthy nightmare spirit",
+  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
   "visual_requirements": [
-    "Drude soul in documented cat manifestation"
+    "Human witch-hag nightmare spirit pressing a sleeping adult",
+    "Coherent anatomy and documented mythic scene"
   ],
   "sources": [
     {
@@ -35,12 +38,94 @@
       "accessed": "2026-10-02"
     }
   ],
-  "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-a41912ff-afbd-43d7-9ba5-22fd5837019c.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/drude.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed anatomically feline cat stalking through bedroom door under oppressive moonlight, four paws, one tail and no human witch features. Source-described cat manifestation, threatening nightmare aura."
+    "reviewer": "recover_session",
+    "notes": "Witch-hag physically presses sleeper's covered chest; holed stone visible."
   },
-  "reviewed_at": "2026-10-04T08:51:45.589Z"
+  "reviewed_at": "2026-10-04T08:51:45.589Z",
+  "presentation_revision_history": [
+    {
+      "slug": "drude",
+      "worker": "worker-2",
+      "prompt": "Use case: illustration-story. Asset type: mythological encyclopedia artwork. Create ONE square polished naturalistic oil-painted folklore illustration with tactile textures, cinematic light, full subject fully visible with generous margins. One German DRUDE depicted ONLY as her documented CAT manifestation, a natural anatomically correct adult cat with four feline paws, one feline head, two ears and one tail. She emerges stealthily through a slightly ajar door into a simple southern German wooden bedroom at night, pressing-spirit nightmare presence suggested by low stalking posture, oppressive blue moonlight and deep shadows. No people, sleepers or bodies in frame. No human witch or female face, no human limbs, no wings, horns, feathers, extra paws, fantasy sigils or magical accessories. Source says the drude soul may appear as a cat; this is that animal variant. No text, labels, borders, watermark or signatures. Source-faithful anatomy and atmosphere.",
+      "review_path": "data/gemini/reviews/batch-111.review.json",
+      "depicted_variant": "Drude soul in documented cat manifestation",
+      "basis_claim_ids": [
+        "drude-c06"
+      ],
+      "aura": "Oppressive stealthy nightmare spirit",
+      "visual_requirements": [
+        "Drude soul in documented cat manifestation"
+      ],
+      "sources": [
+        {
+          "id": "drude-s1",
+          "url": "https://en.wikipedia.org/wiki/Drude",
+          "title": "Drude",
+          "author": null,
+          "publisher": "Wikipedia (en)",
+          "published": null,
+          "language": "en",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        },
+        {
+          "id": "drude-s2",
+          "url": "https://de.wikipedia.org/wiki/Drude",
+          "title": "Drude",
+          "author": null,
+          "publisher": "Wikipedia (de)",
+          "published": null,
+          "language": "de",
+          "type": "wikipedia",
+          "accessed": "2026-10-02"
+        }
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-a41912ff-afbd-43d7-9ba5-22fd5837019c.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed anatomically feline cat stalking through bedroom door under oppressive moonlight, four paws, one tail and no human witch features. Source-described cat manifestation, threatening nightmare aura."
+      },
+      "reviewed_at": "2026-10-04T08:51:45.589Z"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "native_sha256": "24548c8729294b35b733c4d4290d3de884631caa86dbb7e4830000eae80ab09e",
+    "notes": "Inspected native: coherent clothed witch-hag sits over the chest of an adult sleeper at night, hands pressing bedding. The documented nightmare pressure episode is clear, non-graphic and without emitted glow.",
+    "reviewed_at": "2026-10-05T18:05:36.521834+00:00"
+  },
+  "native_sha256": "24548c8729294b35b733c4d4290d3de884631caa86dbb7e4830000eae80ab09e",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-1000.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-1000/drude.json",
+    "native_sha256": "24548c8729294b35b733c4d4290d3de884631caa86dbb7e4830000eae80ab09e",
+    "old_url": "/assets/art/drude-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a10610-371b-7980-aa93-708e182f0ba5/exec-a41912ff-afbd-43d7-9ba5-22fd5837019c.png",
+    "old_webp_sha256": "f9d88000b9f885749b87e95ead7095d4a13b51373a9d134082bc5595bd8e9dec",
+    "old_native_sha256": "d5bdc0cb4811c90347b353ac8860817bb2b39a6446a96042b555fb67449918ec",
+    "rationale": "Replaces ordinary animal presentation with Human witch-hag nightmare spirit pressing a sleeping adult",
+    "basis_claim_ids": [
+      "drude-c01",
+      "drude-c04",
+      "drude-c05"
+    ]
+  },
+  "url": "/assets/art/drude-mythic-presence.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "9226e3bb9ffa152ffbe9c256fb8913305ce70ac7e885619482c41a5b02e2da06",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-b5b43075-aae1-4333-b06c-d0215e07e5b4.png",
+  "revision_generator": "recover_session",
+  "artistic_changes": [
+    "Painterly square composition",
+    "Clothing, weather and exact setting details are editorial unless identified in claims"
+  ]
 }

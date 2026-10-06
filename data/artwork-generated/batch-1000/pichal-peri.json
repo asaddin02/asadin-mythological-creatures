@@ -1,0 +1,49 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "pichal-peri",
+  "prompt": "Create square premium painterly naturalistic folklore illustration of Pichal Peri, choosing her documented beautiful adult HUMAN WOMAN disguise with very long dark hair and feet pointing BACKWARD. One woman alone stands in a Himalayan forest after dark. Full body side profile facing LEFT, her head, torso, knees and shins all oriented LEFT but both anatomically reversed bare feet point RIGHT behind her, rounded HEELS toward LEFT in front, all TOES toward RIGHT behind, clearly visible on the path; exactly two feet, no extra legs. Modest loose layered cloth dress ending above ankles, editorial grey-beige fabric. Long hair partly obscures her normally oriented face. Restrained alluring yet unsettling expression, still posture, cold natural moonlight and dark mountain pines. No inverted-face alternative, horns, wings, animal parts, gore, glow envelope, neon, energy ribbons, luminous mist, text or border. High detail realistic oil painting with strong narrative composition.\n\nEDIT: Edit this Pichal Peri image. Preserve woman, dress, pose, face, hair, scene and painterly quality. Correct ONLY the nearer foot at lower left: it currently incorrectly points left. Rotate that bare foot 180 degrees so its rounded heel is at the LEFT and toes point RIGHT, behind her. Both feet must now point RIGHT while face, torso and knees face LEFT. Exactly two bare feet with backward anatomy, no extra legs. The farther foot already correctly points RIGHT; retain it. Make the nearer toes clearly visible on the right side of its ankle, and its heel on the left. No other changes.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-d1b45da5-1a2a-486a-9be2-7ef0be73c2a2.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/pichal-peri.png",
+  "depicted_variant": "Beautiful human-woman disguise with backward feet",
+  "basis_claim_ids": [
+    "pichal-peri-c01",
+    "pichal-peri-c03",
+    "pichal-peri-c04",
+    "pichal-peri-c05"
+  ],
+  "visual_requirements": [
+    "Adult human woman",
+    "Long hair",
+    "Exactly two backward feet",
+    "No inverted-face variant"
+  ],
+  "aura": "Presence through expression, posture, framing and natural lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Actual corrected native shows face and torso oriented left while both bare feet point right, rounded heels forward at left and toes behind to right. Long hair, modest dress and forest moonlight; no alternate inverted face or aura."
+  },
+  "reviewed_at": "2026-10-05T13:50:47.822Z",
+  "artistic_choices": [
+    "Modest dress and moonlit Himalayan path are editorial staging"
+  ],
+  "generation_prompt": "Create square premium painterly naturalistic folklore illustration of Pichal Peri, choosing her documented beautiful adult HUMAN WOMAN disguise with very long dark hair and feet pointing BACKWARD. One woman alone stands in a Himalayan forest after dark. Full body side profile facing LEFT, her head, torso, knees and shins all oriented LEFT but both anatomically reversed bare feet point RIGHT behind her, rounded HEELS toward LEFT in front, all TOES toward RIGHT behind, clearly visible on the path; exactly two feet, no extra legs. Modest loose layered cloth dress ending above ankles, editorial grey-beige fabric. Long hair partly obscures her normally oriented face. Restrained alluring yet unsettling expression, still posture, cold natural moonlight and dark mountain pines. No inverted-face alternative, horns, wings, animal parts, gore, glow envelope, neon, energy ribbons, luminous mist, text or border. High detail realistic oil painting with strong narrative composition.",
+  "attempt_history": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-3c3bf823-24d3-49d8-b70e-c6218b3b09c5.png",
+      "verdict": "reject",
+      "notes": "Only the farther foot pointed backward; nearer foot incorrectly pointed forward."
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-152.review.json",
+  "native_sha256": "1e7c322827ca6f5d81d5a8ced0a439a4581cc433d1a8029e62cb301b16f20777",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "1e7c322827ca6f5d81d5a8ced0a439a4581cc433d1a8029e62cb301b16f20777",
+    "notes": "Inspected corrected native adult long-haired woman with BOTH feet pointing backward relative to face/knees, no upside-down face or demon hybrid. c01."
+  }
+}

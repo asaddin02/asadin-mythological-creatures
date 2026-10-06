@@ -1,0 +1,39 @@
+{
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "satis",
+  "prompt": "Use case: stylized-concept. Create one square premium naturalistic painterly Egyptian mythology encyclopedia artwork of SATIS. Source documented iconography: one adult HUMAN WOMAN wearing the WHITE CROWN OF UPPER EGYPT with TWO ANTELOPE HORNS. White crown is tall smooth rounded conical hedjet rising above the head; slender ridged antelope horns rise one on each side of crown as part of headdress, not from an animal head. Human face, two arms and two legs. Fully modest opaque white linen sheath dress, collar/jewelry and crown proportions editorial staging. Calm protective dignified presence standing beside the Nile near Elephantine granite riverbank, soft natural morning sun, tactile oil painting detail, river backdrop connects her documented Nile and border role without showing powers. Full figure, entire crown and horns comfortably within frame. No antelope head, wings, extra limbs, borrowed Isis throne/headdress, solar disk, snakes, rainbow aura, neon outline, glowing eyes, luminous mist or emitted magic. No words, writing, text or borders.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-1236-74a2-b352-5b7c1ca9a56d/exec-63396914-edb3-4a03-a57c-0682089162f7.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/satis.png",
+  "depicted_variant": "Human woman wearing Upper Egypt White Crown with antelope horns",
+  "basis_claim_ids": [
+    "satis-c02",
+    "satis-c06"
+  ],
+  "visual_requirements": [
+    "Human adult woman",
+    "White Crown of Upper Egypt",
+    "Two antelope horns on headdress",
+    "No animal head or solar disk"
+  ],
+  "aura": "Dignified protective presence through expression, posture and natural Nile daylight.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "recover_session",
+    "notes": "Inspected native: fully clothed adult human woman with two arms and two legs, tall white hedjet crown and exactly two slender ridged antelope horns flanking crown, intact and fully inside frame. Nile bank provides source-role context, no animal head, solar disk, extra limbs or emitted glow."
+  },
+  "reviewed_at": "2026-10-05T14:54:38.161747+00:00",
+  "artistic_choices": [
+    "White linen dress, broad collar/jewelry, crown proportions, Elephantine riverbank scenery and natural sunlight are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "native_sha256": "e87e0e9d6774c23f6910fd854612fea0b239c09b63e86764141e53f3a780fd01",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "e87e0e9d6774c23f6910fd854612fea0b239c09b63e86764141e53f3a780fd01",
+    "notes": "Viewed native: adult human woman in opaque white dress wearing a tall White Crown and two slender ridged antelope horns; full crown within image. c06 documented headdress and c02 river setting, no sun disk or animal head."
+  }
+}

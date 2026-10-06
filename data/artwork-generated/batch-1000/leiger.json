@@ -1,0 +1,39 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "leiger",
+  "prompt": "Create square premium painterly naturalistic mythology illustration of Leiger, the Estonian giant hero of Hiiumaa. Choose the documented tale of the human giant wading across the deep sea between islands. A single enormous adult human man, sturdy and weathered, moves purposefully through cold Baltic water reaching his knees; faraway ordinary coastal pine trees make his documented giant scale clear. He has entirely human anatomy, no horns, wings or monster features. Plain coarse linen tunic and wool cloak are editorial costume; island sand spit, distant pine shore and overcast sunrise are editorial staging. Heroic presence through strong posture, focused expression, low viewpoint and natural pale light. Rich brushwork, convincing wet fabric and skin, atmospheric depth. No radiant aura, magic glow, energy ribbons, coloured mist, text or border.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-7aca636b-f63f-4c4b-ba2a-ca24ff4b9065.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/leiger.png",
+  "depicted_variant": "Human giant wading from Saaremaa toward Hiiumaa",
+  "basis_claim_ids": [
+    "leiger-c02",
+    "leiger-c05",
+    "leiger-c07"
+  ],
+  "visual_requirements": [
+    "Entirely human giant",
+    "Sea-wading scene",
+    "Documented enormous scale"
+  ],
+  "aura": "Presence through expression, posture, framing and natural lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "One adult human giant wades in knee-deep sea water. Distant island pines establish scale; tunic, cloak and two human arms/legs are coherent. Natural sunrise, no aura."
+  },
+  "reviewed_at": "2026-10-05T13:50:47.377Z",
+  "artistic_choices": [
+    "Coarse tunic, wool cloak, beard and coastal sunrise are editorial staging"
+  ],
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "native_sha256": "65205a630e3b7921e5e58a88544789ccba5b14f692e2c6ed1ee95a230f79debd",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "65205a630e3b7921e5e58a88544789ccba5b14f692e2c6ed1ee95a230f79debd",
+    "notes": "Inspected entirely human giant with two arms/legs wading coastal sea, shore trees/small islands establish height. c05 sea-crossing depth supports size."
+  }
+}

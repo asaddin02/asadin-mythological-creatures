@@ -1,0 +1,40 @@
+{
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "slug": "m-gen",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Caucasian Nart mythology illustration of EMEGEN / Əməgən, selecting a SINGLE-HEADED FEMALE GIANT (many heads are optional variants, not selected). One immense human-looking adult female giant stands in dark mountain foothills, broad weathered face with rough asymmetrical features, two arms/hands and two legs. Plain rough opaque earth-coloured robe fully covers torso and hips, imposing heavy physique, monstrous threatening expression but no invented animal anatomy. Giant identity and female sex from accepted dictionary/tradition; ugly presentation through expression and coarse textures, not horns or fangs. Small fir trees and mountain path beside her feet establish gigantic scale. Menacing presence through low framing, looming stance and natural storm dusk. Full figure. No extra heads, horns, wings, claws, animal face, victims, babies, gore, glowing eyes, generic magical aura, neon outlines, luminous coloured mist, energy ribbon, text, border, collage or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/m-gen.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-05c2857f-68b0-4834-ad9a-ae8b2b9c285a.png",
+  "depicted_variant": "Single-headed female Emegen giant",
+  "basis_claim_ids": [
+    "m-gen-c01",
+    "m-gen-c02",
+    "m-gen-c09",
+    "m-gen-c12"
+  ],
+  "visual_requirements": [
+    "Human-looking female giant with one head",
+    "Rough features, two normal arms/legs",
+    "Small trees establish documented gigantic scale"
+  ],
+  "aura": "Character presence through documented form, posture, framing, environment and natural light",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-1",
+    "notes": "Native inspected: one imposing human-looking female giant in opaque rough robe, two ordinary hands and feet partly below hem, coarse stern face. Small trees provide size; no invented horns or aura."
+  },
+  "reviewed_at": "2026-10-05T13:13:12.376Z",
+  "artistic_choices": [
+    "Robe, hair, storm mountains and face proportions are editorial staging."
+  ],
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "native_sha256": "18db0e12a8c42e8b406334ecbd6c69d442b22334d131fe7cd4ebb1fa5db4d265",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "native_sha256": "18db0e12a8c42e8b406334ecbd6c69d442b22334d131fe7cd4ebb1fa5db4d265",
+    "notes": "Inspected female giant with one head, rough mature humanlike features, ordinary two arms and legs, tiny trees show documented gigantic scale; c01/c02/c09/c12 selected single-headed female reading."
+  }
+}

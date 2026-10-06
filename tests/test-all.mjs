@@ -112,6 +112,7 @@ async function runTests() {
 
   const { lessons } = await import('../js/learning-content.js');
   const { readFile } = await import('node:fs/promises');
+  const { createHash } = await import('node:crypto');
   const records = JSON.parse(await readFile(new URL('../data/creatures.json', import.meta.url), 'utf8'));
   for (const lesson of lessons) {
     for (const slug of lesson.creatures) assert(getCreatureBySlug(slug), `Learning link must resolve: ${slug}`);
@@ -119,14 +120,34 @@ async function runTests() {
     assert(lesson.sections.every(s => s.text.id && s.text.en), 'Lesson sections must support both languages');
   }
   for (const record of records) {
-    assert(record.learning_notes?.context.id && record.learning_notes?.context.en, 'Each creature needs a bilingual reading guide');
+    if (record.import_method === 'accepted-research-artwork-base') {
+      const research = record.accepted_research;
+      assert.equal(research?.slug, record.slug, `Accepted research identity: ${record.slug}`);
+      assert.equal(record.accepted_research_sha256,
+        createHash('sha256').update(JSON.stringify(research)).digest('hex'),
+        `Accepted research must remain unchanged: ${record.slug}`);
+      assert.deepEqual(record.learning_notes?.questions || [],
+        (research.learning_questions || []).map(q => ({ id: q.id, en: q.en })),
+        `Learning questions must come from accepted research: ${record.slug}`);
+      assert.equal(record.learning_notes?.context, undefined,
+        `Do not invent a generic reading guide for accepted research: ${record.slug}`);
+      assert.deepEqual(record.sources.map(s => s.id), research.sources.map(s => s.id),
+        `Preserve accepted source identities: ${record.slug}`);
+      assert.deepEqual(record.claims_provenance.map(c => ({
+        id: c.id, source: c.evidence_source_id, statement: c.claim, quote: c.quote,
+      })), research.claims.map(c => ({
+        id: c.id, source: c.source_id, statement: c.statement, quote: c.quote,
+      })), `Preserve accepted claims and their source evidence: ${record.slug}`);
+    } else {
+      assert(record.learning_notes?.context?.id && record.learning_notes?.context?.en,
+        `Legacy creature needs a bilingual reading guide: ${record.slug}`);
+    }
     for (const img of record.images) {
       if (img.url.startsWith('/assets/')) await readFile(new URL('..' + img.url, import.meta.url));
     }
   }
   const { EDITORIAL_ART } = await import('../js/editorial-art.js');
   const artManifest = JSON.parse(await readFile(new URL('../assets/art/verified-manifest.json', import.meta.url), 'utf8'));
-  const { createHash } = await import('node:crypto');
   const artHashes = new Set();
   for (const [slug, art] of Object.entries(artManifest.artworks)) {
     const creature = records.find(c => c.slug === slug);
@@ -158,7 +179,9 @@ async function runTests() {
     assert.equal(lastPage.pagination.page, lastPage.pagination.totalPages, 'Out-of-range pagination must clamp');
     assert(lastPage.creatures.length > 0, 'Last page must remain readable');
     assert(queryCreatures({ tier: 'core' }).pagination.total >= 1000);
-    assert.equal(queryCreatures({ tier: 'rich' }).pagination.total, 18);
+    assert.equal(queryCreatures({ tier: 'rich' }).pagination.total,
+      records.filter(record => record.status === 'published' && record.content_tier !== 'core').length,
+      'Tier filtering must include accepted research additions');
   }
   console.log('  ✓ Learning content, expanded library, linked creatures, and local assets passed');
   console.log('\n🎉 ALL 5 TEST MODULES PASSED!\n');
