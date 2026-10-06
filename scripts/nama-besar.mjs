@@ -21,8 +21,8 @@ const read = async path => JSON.parse(await readFile(new URL(path, ROOT), 'utf8'
 const { values: args } = parseArgs({ options: { min: { type: 'string', default: '40' } } });
 const MIN = Number(args.min);
 
-// Named by the owner on 6 October 2026, whatever their sitelinks.
-const EXTRA = ['lucifer', 'ra', 'ra-q1252904', 'anubis', 'medusa', 'stheno-and-euryale', 'sun-wukong', 'zhu-bajie', 'sha-wujing',
+// Named by the owner on 6 October 2026, whatever their sitelinks. Egyptian Ra is ra-q1252904; the slug "ra" is the Scandinavian Rå.
+const EXTRA = ['lucifer', 'ra-q1252904', 'anubis', 'medusa', 'stheno-and-euryale', 'sun-wukong', 'zhu-bajie', 'sha-wujing',
   'erlang-shen', 'nezha', 'bull-demon-king', 'count-dracula', 'cthulhu', 'satan', 'mammon', 'asmodeus', 'leviathan', 'beelzebub', 'belphegor'];
 
 const policy = {
