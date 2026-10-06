@@ -1,27 +1,24 @@
 {
   "batch_id": "batch-024",
-  "checked_at": "2026-09-29T13:14:58.290Z",
+  "checked_at": "2026-10-06T13:01:01.770Z",
   "files": [
-    "batch-024.md"
+    "batch-024.md",
+    "batch-024-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "shiva",
-      "file": "batch-024.md",
+      "file": "batch-024-fix-1.md",
+      "entry_sha256": "66eb9d68f7e0e01a736343203215df23199e4a5cd45c2a34ffffe8e5f5addf7e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 33,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:COLLECTIE TROPENMUSEUM Beeld van Shiva Dijeng-plateau TMnr 60037355.jpg)",
@@ -33,9 +30,9 @@
           "id": "shiva-c01",
           "source_id": "shiva-s1",
           "host": "en.wikipedia.org",
-          "statement": "Shiva (शिव, 'the Auspicious One'), also known as Mahadeva ('the Great God') and Shankara, is one of the principal deities of Hinduism and the Supreme Being in Shaivism.",
-          "statement_id": "Siwa (शिव, 'Yang Membawa Keberuntungan'), juga dikenal sebagai Mahadewa ('Dewa Agung') dan Shankara, adalah salah satu dewa utama agama Hindu dan Yang Mahatinggi dalam tradisi Saiwa.",
-          "quote": "and Shankara, is one of the principal deities of Hinduism. He is the Supreme Being in Shaivism, one of the major traditions within Hinduism.",
+          "statement": "Shiva is one of the principal deities of Hinduism and the Supreme Being in Shaivism.",
+          "statement_id": "Siwa adalah salah satu dewa utama agama Hindu dan Yang Mahatinggi dalam tradisi Saiwa.",
+          "quote": "is one of the principal deities of Hinduism. He is the Supreme Being in Shaivism, one of the major traditions within Hinduism.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -43,8 +40,8 @@
           "id": "shiva-c02",
           "source_id": "shiva-s1",
           "host": "en.wikipedia.org",
-          "statement": "In the Shaiva tradition Shiva is the Supreme Lord who creates, protects and transforms the universe; in the Trimurti with Brahma and Vishnu he is known as the Destroyer.",
-          "statement_id": "Dalam tradisi Saiwa, Siwa adalah Tuhan Yang Mahatinggi yang mencipta, memelihara, dan mengubah alam semesta; dalam Trimurti bersama Brahma dan Wisnu ia dikenal sebagai Sang Pelebur.",
+          "statement": "In the Shaiva tradition Shiva is the Supreme Lord who creates, protects and transforms the universe.",
+          "statement_id": "Dalam tradisi Saiwa, Siwa adalah Tuhan Yang Mahatinggi yang mencipta, memelihara, dan mengubah alam semesta.",
           "quote": "In the Shaivite tradition, Shiva is the Supreme Lord who creates, protects and transforms the universe.",
           "context": "religious-tradition",
           "status": "exact"
@@ -75,7 +72,7 @@
           "host": "en.wikipedia.org",
           "statement": "Shiva's attributes include the serpent king Vasuki round his neck, the crescent moon, the Ganga flowing from his matted hair, the third eye, the trident and the damaru; he is usually worshipped as the lingam.",
           "statement_id": "Ciri ikonografi Siwa antara lain raja ular Vasuki di lehernya, bulan sabit, Sungai Gangga yang mengalir dari rambut gimbalnya, mata ketiga di dahinya, trisula, dan damaru; ia biasanya dipuja dalam wujud lingga.",
-          "quote": "The iconographical attributes of Shiva are the serpent king Vasuki around his neck, the adorning crescent moon, the holy river Ganga flowing from his matted hair, the third eye on his forehead",
+          "quote": "The iconographical attributes of Shiva are the serpent king Vasuki around his neck, the adorning crescent moon, the holy river Ganga flowing from his matted hair, the third eye on his forehead (the eye that turns everything in front of it into ashes when opened), the trishula or trident as his weapon, and the damaru. He is usually worshiped in the aniconic form of lingam.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -118,6 +115,246 @@
           "quote": "The poison burned his throat and left a permanent blue scar, hence one of his many titles became Nilakantha or Blue Throat.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "shiva-c10",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Monier-Williams Sanskrit dictionary, the word \"śiva\" (Devanagari: शिव) means \"auspicious, propitious, gracious, benign, kind, benevolent, friendly\".",
+          "statement_id": "Menurut kamus Sanskerta Monier-Williams, kata \"śiva\" (Devanagari: शिव) berarti \"mujur, menguntungkan, pemurah, ramah, baik hati, bersahabat\".",
+          "quote": "According to the Monier-Williams Sanskrit dictionary, the word \"śiva\" (Devanagari: शिव ... means \"auspicious, propitious, gracious, benign, kind, benevolent, friendly\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c11",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sharma presents another etymology from the Sanskrit root śarv-, meaning \"to injure\" or \"to kill\", interpreting the name as \"one who can kill the forces of darkness\".",
+          "statement_id": "Sharma mengajukan etimologi lain dari akar kata Sanskerta śarv-, yang berarti \"melukai\" atau \"membunuh\", dan menafsirkan nama itu sebagai \"yang dapat membunuh kekuatan kegelapan\".",
+          "quote": "Sharma presents another etymology with the Sanskrit root śarv-, which means \"to injure\" or \"to kill\", interpreting the name to connote \"one who can kill the forces of darkness\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c12",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva (Siva) is one of the most important gods in Hinduism and a member of the holy trinity (trimurti) with Brahma and Vishnu; a complex character who may represent goodness and benevolence, he serves as the Protector.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa (Siva) adalah salah satu dewa terpenting dalam agama Hindu dan anggota tritunggal suci (trimurti) bersama Brahma dan Wisnu; ia tokoh yang kompleks, dapat melambangkan kebaikan dan kemurahan hati, dan berperan sebagai Pelindung.",
+          "quote": "Shiva (Siva) is one of the most important gods in Hinduism and a member of the holy trinity (trimurti) with Brahma and Vishnu. Shiva is a complex character who may represent goodness and benevolence, and he serves as the Protector.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c13",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva is also associated with Time, and in that capacity he is both the destroyer and the creator of all things.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa juga dikaitkan dengan Waktu, dan dalam kapasitas itu ia pelebur sekaligus pencipta segala sesuatu.",
+          "quote": "Shiva is also associated with Time, and in this capacity, he is both the destroyer and creator of all things.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c14",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva is the great ascetic who abstains from all indulgence and pleasure and concentrates on meditation; he also has a darker side as leader of evil spirits and ghosts and master of thieves, villains and beggars.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa adalah pertapa agung yang menjauhi segala kenikmatan dan memusatkan diri pada meditasi; ia juga memiliki sisi gelap sebagai pemimpin roh jahat dan hantu serta penguasa pencuri, penjahat, dan pengemis.",
+          "quote": "Shiva is also the great ascetic, abstaining from all forms of indulgence and pleasure, concentrating rather on meditation as a means to find perfect happiness. He also has a darker side as the leader of evil spirits, ghosts and as the master of thieves, villains and beggars.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c15",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva is the most important god for the Shaivism sect, the patron of yogis and Brahmins, and the protector of the Vedas, the sacred texts.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa adalah dewa terpenting bagi sekte Saiwa, pelindung para yogi dan brahmana, serta pelindung Weda, kitab-kitab suci.",
+          "quote": "Shiva is the most important Hindu god for the Shaivism sect, the patron of Yogis and Brahmins, and also the protector of the Vedas, the sacred texts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c16",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Daksha disapproved of Sati's marriage to Shiva and held a sacrificial ceremony for all the gods except Shiva; outraged at the slight, Sati threw herself on the sacrificial fire.",
+          "statement_id": "Menurut World History Encyclopedia, Daksha tidak menyetujui pernikahan putrinya Sati dengan Siwa dan mengadakan upacara kurban untuk semua dewa kecuali Siwa; tersinggung, Sati menceburkan diri ke api kurban itu.",
+          "quote": "Daksha did not approve of Sati's marriage to Shiva and even went further and held a special sacrificial ceremony to all the gods except Shiva. Outraged at this slight, Sati threw herself on the sacrificial fire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c17",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva created two demons (Virabhadra and Rudrakali) from his hair, who wreaked havoc on the ceremony and beheaded Daksha; at the gods' appeal he ended the violence and revived Daksha with the head of a ram (or goat).",
+          "statement_id": "Menurut World History Encyclopedia, Siwa menciptakan dua iblis (Virabhadra dan Rudrakali) dari rambutnya yang mengacaukan upacara dan memenggal Daksha; atas permohonan para dewa, Siwa menghentikan kekerasan itu dan menghidupkan kembali Daksha dengan kepala domba (atau kambing).",
+          "quote": "Shiva reacted to this tragedy by creating two demons (Virabhadra and Rudrakali) from his hair who wreaked havoc on the ceremony and beheaded Daksha. The other gods appealed to Shiva to end the violence and, complying, he brought Daksha back to life but with the head of a ram (or goat).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c18",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, realising his error, Shiva sent for a new head to make the boy whole again, and the nearest was an elephant's, so Ganesha, the elephant-headed god, was born.",
+          "statement_id": "Menurut World History Encyclopedia, setelah menyadari kekeliruannya Siwa meminta kepala baru untuk memulihkan anak itu, dan kepala terdekat adalah kepala gajah, sehingga lahirlah Ganesha, dewa berkepala gajah.",
+          "quote": "Realising his error, Shiva then sent for a new head with which to make the boy whole again but the nearest at hand was of an elephant. And so Ganesha, the elephant-headed god, was born.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c19",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, to cushion Ganga's fall to earth and stop so great a river from destroying civilisation, Shiva caught her in his hair topknot.",
+          "statement_id": "Menurut World History Encyclopedia, untuk meredam jatuhnya Gangga ke bumi dan mencegah sungai sebesar itu menghancurkan peradaban, Siwa menangkapnya dalam sanggul rambutnya.",
+          "quote": "To cushion Ganga's fall to the earth, and prevent such a great river destroying civilisation, Shiva caught her in his hair topknot",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c20",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in the story of Surabhi's cows, Shiva, angry at the disturbance to his meditation, struck the cows with fire from his third eye.",
+          "statement_id": "Menurut World History Encyclopedia, dalam kisah tentang sapi Surabhi, Siwa yang terganggu meditasinya menyambar sapi-sapi itu dengan api dari mata ketiganya.",
+          "quote": "Angry at this disturbance to his meditation, the god struck the cows with fire from his third eye.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c21",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the gods calmed Shiva by offering him a magnificent bull, Nandi, the son of Surabhi and Kasyapa, which Shiva accepted and rode.",
+          "statement_id": "Menurut World History Encyclopedia, para dewa menenangkan Siwa dengan mempersembahkan seekor banteng agung, Nandi, putra Surabhi dan Kasyapa, yang diterima dan ditunggangi Siwa.",
+          "quote": "Still angry, the other gods sought to calm Shiva down by offering him a magnificent bull - Nandi, the son of Surabhi and Kasyapa - which Shiva accepted and rode.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c22",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva is closely associated with the Linga (Lingham), a symbol of fertility or divine energy found in temples to the god.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa lekat dengan Linga (Lingam), lambang kesuburan atau energi ilahi yang terdapat di kuil-kuil sang dewa.",
+          "quote": "Shiva is closely associated with the Linga (or Lingham) - a phallus or symbol of fertility or divine energy found in temples to the god.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c23",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Asian art Shiva usually represents Nataraja, performing the Tandava cosmic dance within a circle of fire that stands for the never-ending cycle of time.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Asia, Siwa biasanya mewakili Nataraja yang membawakan tarian kosmis Tandava dalam lingkaran api yang melambangkan siklus waktu tanpa akhir.",
+          "quote": "he usually represents Nataraja and performs the Tandava cosmic dance within a circle of fire which represents the never-ending cycle of time.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c24",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Shiva is sometimes shown riding his white bull, carrying a silver bow (Pinaka), holding an antelope and wearing a tiger or elephant skin, all symbolic of his famed prowess as a hunter.",
+          "statement_id": "Menurut World History Encyclopedia, Siwa kadang digambarkan menunggang banteng putihnya, membawa busur perak (Pinaka), memegang kijang, dan mengenakan kulit harimau atau gajah, semuanya lambang keahliannya sebagai pemburu.",
+          "quote": "Sometimes he also rides his white bull, carries a silver bow (Pinaka), holds an antelope, and wears a tiger or elephant skin, all symbolic of his famed prowess as a hunter.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c25",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata (Ganguli translation), at Brahman's request Siva swallowed the poison for the safety of creation; the divine Maheswara held it in his throat and from that time is called Nilakantha (blue-throated).",
+          "statement_id": "Dalam Mahabharata (terjemahan Ganguli), atas permintaan Brahman, Siwa menelan racun yang muncul selama pengadukan demi keselamatan ciptaan; Maheswara menahannya di tenggorokan, dan sejak itu ia disebut Nilakantha (berleher biru).",
+          "quote": "But with the churning still going on, the poison Kalakuta appeared at last ... And then Siva, being solicited by Brahman, swallowed that poison for the safety of the creation. The divine Maheswara held it in his throat, and it is said that from that time he is called Nilakantha (blue-throated).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c26",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata, Hara takes the form of a Kirata, resplendent as a golden tree, with a huge, stalwart form like a second Meru, accompanied by Uma in the guise of a Kirata woman; Sankara is also said to appear in the guise of a Kirata.",
+          "statement_id": "Dalam Mahabharata, Hara mengambil rupa seorang Kirata bersosok besar dan kekar seperti Meru kedua, berkilau bagai pohon emas, ditemani Uma dalam rupa perempuan Kirata; Sankara juga disebut tampil dalam rupa Kirata.",
+          "quote": "the illustrious Hara—assuming the form of a Kirata resplendent as a golden tree, and with a huge and stalwart form like a second Meru ... the handsome god of gods was accompanied by Uma in the guise of a Kirata woman ... Sankara in the guise of a Kirata suddenly bade him stop",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c27",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata, the god says he will give his favourite weapon, called the Pasuputa, and warns that it must not be hurled without adequate cause since, hurled even at a weak foe, it may destroy the whole universe.",
+          "statement_id": "Dalam Mahabharata, sang dewa menyatakan akan memberikan senjata kesayangannya yang disebut Pasuputa, dan memperingatkan bahwa senjata itu tidak boleh dilepaskan tanpa alasan memadai karena bila dilepaskan kepada musuh yang lemah pun ia dapat menghancurkan seluruh alam semesta.",
+          "quote": "I will give to thee that favourite weapon of mine called the Pasuputa ... this weapon should not be hurled without adequate cause; for if hurled at any foe of little might it may destroy the whole universe.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c28",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata, Arjuna addresses the god as god of gods, Mahadeva, of blue throat and matted locks, and says he is Siva in the form of Vishnu and Vishnu in the form of Siva, who of old destroyed the great sacrifice of Daksha.",
+          "statement_id": "Dalam Mahabharata, Arjuna menyapa sang dewa sebagai dewa para dewa, Mahadewa, yang berleher biru dan berambut gimbal, dan berkata bahwa ia adalah Siwa dalam wujud Wisnu dan Wisnu dalam wujud Siwa, yang dahulu menghancurkan kurban agung Daksha.",
+          "quote": "O god of gods, O Mahadeva, O thou of blue throat, O thou of matted locks ... Thou art Siva in the form of Vishnu, and Vishnu in the form of Siva. Thou destroyedest of old the great sacrifice of Daksha.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c29",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata, Mahadeva is described as the wielder of the Pinaka who had his abode on the mountains (of Kailasa), accompanied by Uma.",
+          "statement_id": "Dalam Mahabharata, Mahadewa disebut pemegang Pinaka yang tinggal di pegunungan (Kailasa) bersama Uma.",
+          "quote": "that wielder of the Pinaka-that one who had his abode on the mountains (of Kailasa)—accompanied by Uma",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c30",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Sati was eventually reincarnated as Parvati in her next life and re-married Shiva.",
+          "statement_id": "Menurut World History Encyclopedia, Sati akhirnya terlahir kembali sebagai Parwati pada kehidupan berikutnya dan menikah lagi dengan Siwa.",
+          "quote": "Sati was eventually reincarnated as Parvati in her next life and she re-married Shiva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c31",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, when Vasuki, king of the serpents, threatened to vomit snake venom across the seas, Shiva, assuming the form of a giant tortoise or turtle, collected the venom in his palm and drank it.",
+          "statement_id": "Menurut World History Encyclopedia, ketika Vasuki, raja ular, mengancam memuntahkan bisa ke lautan, Siwa dalam wujud kura-kura raksasa menampung bisa itu di telapak tangannya dan meminumnya.",
+          "quote": "self-sacrifice is emphasised when Vasuki, the king of Serpents, threatened to vomit snake venom across the seas. Shiva, assuming the form of a giant tortoise or turtle, collected the venom in his palm and drank it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c32",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Mahabharata, Hara, beholding the wonder of Arjuna whose body was emaciated by ascetic austerities, says he is pleased and will grant him an irresistible weapon of his that Arjuna will soon be able to wield.",
+          "statement_id": "Dalam Mahabharata, Hara, melihat keajaiban sikap Arjuna dan tubuhnya yang kurus karena pertapaan, menyatakan senang dan akan menganugerahkan senjata tak tertahankan yang tak lama lagi dapat digunakan Arjuna.",
+          "quote": "And Hara, beholding the wonder of Arjuna and seeing that his body had been emaciated with ascetic austerities, spake unto him ... I will as I have been pleased with thee, grant thee an irresistible weapon. Soon shall thou be able to wield that weapon of mine.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c33",
+          "source_id": "shiva-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In a summary passage of the Mahabharata, Arjuna, having pleased in combat the god of gods Tryambaka (the three-eyed) in the disguise of a hunter, obtained the great weapon Pasupata.",
+          "statement_id": "Dalam ringkasan kisah pada Mahabharata, Arjuna, setelah menyenangkan dewa para dewa Tryambaka (si mata tiga) yang menyamar sebagai pemburu dalam pertempuran, memperoleh senjata agung Pasupata.",
+          "quote": "Arjuna, having, in combat, pleased the god of gods, Tryambaka (the three-eyed) in the disguise of a hunter, obtained the great weapon Pasupata",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": [
@@ -154,25 +391,21 @@
             "kategori \"Shiva in Indonesia\"",
             "dipakai di en.wikipedia.org: Shiva"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/shiva-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/shiva-1.jpg"
         }
       ]
     },
     {
       "slug": "zeus",
-      "file": "batch-024.md",
+      "file": "batch-024-fix-1.md",
+      "entry_sha256": "04fcfde1600a7f01b3c35ba5976ff180b74ddf76951efc943eb72aaef1344998",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
+        "claims": 28,
         "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Zeus Otricoli Pio-Clementino Inv257.jpg)",
@@ -224,8 +457,8 @@
           "id": "zeus-c05",
           "source_id": "zeus-s2",
           "host": "www.theoi.com",
-          "statement": "Zeus was raised secretly on Mount Dikte in Crete, nursed by nymphs on the goat Amaltheia's milk; grown, he made Kronos disgorge his siblings.",
-          "statement_id": "Zeus dibesarkan diam-diam di Gunung Dikte di Kreta, diasuh para nimfa dengan susu kambing Amaltheia; setelah dewasa ia memaksa Kronos memuntahkan saudara-saudaranya.",
+          "statement": "According to theoi.com, Zeus was raised in secrecy on Mount Dikte in Crete, where nymphs nursed him on the milk of the goat Amaltheia.",
+          "statement_id": "Menurut theoi.com, Zeus dibesarkan secara rahasia di Gunung Dikte di Kreta dan diasuh para nimfa dengan susu kambing Amaltheia.",
           "quote": "The god was raised in secrecy on Mount Dikte in Krete (Crete) where he was nursed by nymphs on the milk of the goat Amaltheia",
           "context": "religious-tradition",
           "status": "exact"
@@ -234,8 +467,8 @@
           "id": "zeus-c06",
           "source_id": "zeus-s1",
           "host": "en.wikipedia.org",
-          "statement": "In most traditions Zeus is married to Hera, by whom he fathered Ares, Eileithyia, Hebe and Hephaestus; by his first wife Metis he had Athena.",
-          "statement_id": "Dalam kebanyakan tradisi Zeus menikah dengan Hera, yang memberinya Ares, Eileithyia, Hebe, dan Hephaestus; dari istri pertamanya, Metis, lahir Athena.",
+          "statement": "In most traditions Zeus is married to Hera, by whom he is usually said to have fathered Ares, Eileithyia, Hebe and Hephaestus.",
+          "statement_id": "Dalam kebanyakan tradisi Zeus menikah dengan Hera, yang biasanya dikatakan melahirkan Ares, Eileithyia, Hebe, dan Hefaistos.",
           "quote": "In most traditions, he is married to Hera, by whom he is usually said to have fathered Ares, Eileithyia, Hebe, and Hephaestus.",
           "context": "religious-tradition",
           "status": "exact"
@@ -278,6 +511,186 @@
           "statement_id": "Nama Zeus adalah lanjutan Yunani dari *Dyēus, nama dewa langit siang dalam bahasa Proto-Indo-Eropa.",
           "quote": "Zeus is the Greek continuation of *Dyēus, the name of the Proto-Indo-European god of the daytime sky",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c11",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, once the Titan-gods had fallen, Zeus and his brothers drew lots to divide the cosmos among themselves, with Zeus receiving the heavens, Poseidon the sea and Haides the underworld.",
+          "statement_id": "Menurut theoi.com, setelah Titan jatuh, Zeus dan saudara-saudaranya mengundi pembagian kekuasaan atas kosmos: Zeus mendapat langit, Poseidon laut, dan Haides dunia bawah.",
+          "quote": "After the fall of the Titan-gods, Zeus and his brothers drew lots to divide rule of the cosmos - Zeus won the heavens, Poseidon the sea and Haides the underworld.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c12",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus freed the six giant sons of Heaven from the pit of Tartaros; the Kyklopes armed him with lightning-bolts and the Hekatonkheires aided his assault on the Titanes with thrown boulders, until Kronos and his allies were defeated and banished to a prison beneath the earth.",
+          "statement_id": "Menurut theoi.com, Zeus membebaskan enam putra raksasa Langit dari jurang Tartaros; para Kyklopes mempersenjatainya dengan petir dan para Hekatonkheires membantunya menyerang Titan dengan lemparan batu, hingga Kronos dan sekutunya kalah dan dibuang ke penjara di bawah bumi.",
+          "quote": "Zeus liberated the six giant-sons of Heaven from the pit of Tartaros. In gratitude the Kyklopes (Cyclopes) armed him with lightning-bolts and the Hekatonkheires (Hundred-Handed) aided him in his assault on the Titanes with volleys of thrown boulders. Kronos and his allies were eventually defeated and banished to a prison beneath the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c13",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, on coming of age Zeus recruited the goddess Metis, who served Kronos a magical draught that made him disgorge the young gods he had devoured.",
+          "statement_id": "Menurut theoi.com, setelah dewasa Zeus merekrut dewi Metis, yang menyuguhkan ramuan ajaib kepada Kronos sehingga ia memuntahkan para dewa muda yang telah ditelannya.",
+          "quote": "Upon coming of age Zeus recruited the goddess Metis to his cause. She served the Titan Kronos a magical draught which caused him to disgorge the young gods he had devoured.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c14",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus devoured the pregnant Metis when an oracle revealed that her son was destined to replace him as King of the Gods; their child Athena was later born in his belly and birthed directly from his head.",
+          "statement_id": "Menurut theoi.com, Zeus menelan Metis yang sedang hamil ketika sebuah ramalan menyatakan putranya ditakdirkan menggantikannya sebagai Raja Para Dewa; anak mereka, Athena, kemudian lahir di perutnya dan keluar langsung dari kepalanya.",
+          "quote": "Zeus devoured the pregnant goddess Metis when an oracle revealed that her son was destined to replace him as King of the Gods. Their child, Athena, was subsequently born in his belly and birthed directly from his head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c15",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus married his sister Hera, queen of the heavens, after seducing her in the guise of a cuckoo-bird.",
+          "statement_id": "Menurut theoi.com, Zeus menikahi saudarinya Hera, ratu langit, setelah merayunya dalam rupa burung kukuk.",
+          "quote": "Zeus married his sister Hera, queen of the heavens, after seducing her in the guise of a cuckoo-bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c16",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Prometheus crafted the race of man and gave them fire stolen from the gods; Zeus punished this by ordering the creation of the first woman, Pandora, sent to earth with a vessel full of troubles.",
+          "statement_id": "Menurut theoi.com, Prometheus menciptakan umat manusia dan memberi mereka api yang dicuri dari para dewa; Zeus menghukumnya dengan memerintahkan penciptaan perempuan pertama, Pandora, yang dikirim ke bumi membawa bejana penuh malapetaka.",
+          "quote": "Prometheus crafted the race of man and gave them fire stolen from the gods of heaven. Zeus punished this act by ordering the creation of the first woman, Pandora, and sent her to earth with a vessel full of troubles to plague mankind.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c17",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus decided to wipe the wicked early generations of man from the earth with a great deluge; the virtuous couple Deukalion and Pyrrha were spared and repopulated the world with cast stones that turned into men.",
+          "statement_id": "Menurut theoi.com, Zeus memutuskan menghapus generasi awal manusia yang bejat dengan banjir besar; pasangan saleh Deukalion dan Pyrrha diselamatkan dan memulihkan dunia dengan melempar batu yang menjelma manusia.",
+          "quote": "The early generations of man descended into wickedness and corruption and Zeus decided to wipe them from the face of the earth with a great deluge. One virtuous couple, Deukalion and Pyrrha, were spared and afterwards allowed to repopulate the world with the casting of stones which transformed into men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c18",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Gaia, angered by the imprisonment of the Titanes, urged the Giants to rise against the gods of Olympos; they besieged the heavenly fortress but Zeus laid low their king and many others with his deadly lightning-bolts.",
+          "statement_id": "Menurut theoi.com, Gaia yang murka atas pemenjaraan para Titan mendorong para Giant memberontak melawan dewa-dewa Olimpos; mereka mengepung benteng surgawi, tetapi Zeus menjatuhkan raja mereka dan banyak lainnya dengan petirnya yang mematikan.",
+          "quote": "The earth-goddess Gaia (Gaea), angered by the imprisonment of the Titanes, urged the Giants to rise up against the gods of Olympos. They laid siege to the heavenly fortress but Zeus laid low their king and many others with his deadly lightning-bolts.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c19",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Gaia produced Typhoeus, the most monstrous of the giants, and set him upon Olympos; the gods fled and Zeus himself was defeated, the sinews torn from his limbs. Pan later stole back the god's strength, and Zeus defeated the giant in a rematch and bound him beneath Mount Etna.",
+          "statement_id": "Menurut theoi.com, Gaia melahirkan Typhoeus, raksasa paling mengerikan, yang menyerang Olimpos; para dewa melarikan diri dan Zeus sendiri dikalahkan, otot-otot kakinya dirobek hingga tak berdaya. Pan kemudian mencuri kembali kekuatannya, dan Zeus memenangkan pertarungan ulang serta mengurung Typhoeus di bawah Gunung Etna.",
+          "quote": "Gaia produced one more giant, Typhoeus, the most monstrous of his kind and set him upon Olympos. The rest of the gods fled in horror and Zeus himself was defeated in combat with the monster tearing the sinews from his limbs rendering him helpless. Pan later stole back the god's strength and, restored, Zeus defeated the giant in a rematch and bound him beneath Mount Etna.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c20",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus punished the worst villains of myth for impiety, including Tantalos who stole ambrosia, Lykaon who served human flesh to the gods, Ixion who attempted to rape Hera, and Salmoneus who tried to imitate Zeus.",
+          "statement_id": "Menurut theoi.com, Zeus menghukum para penjahat terburuk dalam mitos karena kedurhakaan mereka, di antaranya Tantalos yang mencuri ambrosia, Lykaon yang menghidangkan daging manusia kepada para dewa, Ixion yang mencoba memperkosa Hera, dan Salmoneus yang menirukan Zeus.",
+          "quote": "Zeus punished the worst villians of myth for their impiety and crimes against the gods including Tantalos who stole ambrosia from heaven, Lykaon (Lycaon) who served human flesh to the gods, Ixion who attempted to rape Zeus' wife the goddess Hera, and Salmoneus who tried to imitate Zeus and steal the worship that was due the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c21",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus' most distinctive attribute was his lightning bolt wielded like a javelin; others included a royal sceptre, a throne, an eagle, a miniature Nike and the aigis (a goat-skin arm-guard).",
+          "statement_id": "Menurut theoi.com, atribut Zeus yang paling khas adalah petirnya yang digenggam seperti lembing; atribut lainnya mencakup tongkat kerajaan, takhta, elang, Nike mini, dan aigis (pelindung lengan dari kulit kambing).",
+          "quote": "Zeus' most distinctive attribute was his stylized lightning bolt which he wielded in his hand like a javelin. His other attributes included a royal sceptre, a throne, an eagle, a miniature Nike (winged goddess of victory), and the aigis (a goat-skin arm-guard).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c22",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus' sacred animals were the eagle and the bull; in myth he abducted the youth Ganymede as an eagle and the maiden Europa as a bull.",
+          "statement_id": "Menurut theoi.com, hewan suci Zeus adalah elang dan banteng; dalam mitos ia menculik pemuda Ganymede dalam rupa elang dan gadis Europa dalam rupa banteng.",
+          "quote": "Zeus' sacred animals were the eagle and the bull. In myth he abducted the youth Ganymede in the shape of an eagle and the maiden Europa in the guise of a bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c23",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus' sacred plants were the holm oak and the olive tree; at the ancient oracle of Dodona his priests were inspired by the rustling of oak-leaves, and at the Olympic Games victors were crowned with olive-leaves from the god's sacred grove.",
+          "statement_id": "Menurut theoi.com, tanaman suci Zeus adalah pohon ek holm dan zaitun; di orakel kuno Dodona para imam terilhami desir daun ek, dan di Olimpiade para pemenang dimahkotai karangan daun zaitun dari hutan suci sang dewa.",
+          "quote": "His sacred plants were the evergreen holm oak and the olive tree. At the ancient oracle of Dodona Zeus' priests were inspired by the rustling of oak-leaves, and at the Olympic Games victors were crowned with a wreath of olive-leaves picked from the god's sacred grove.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c24",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus' throne was guarded by four winged spirits, two male and two female, named Kratos (Strength), Zelos (Rivalry), Nike (Victory) and Bia (Force).",
+          "statement_id": "Menurut theoi.com, takhta Zeus dijaga empat roh bersayap, dua laki-laki dan dua perempuan, bernama Kratos (Kekuatan), Zelos (Persaingan), Nike (Kemenangan), dan Bia (Paksaan).",
+          "quote": "His throne was guarded by four winged spirits, two male and two female, named Kratos (Strength), Zelos (Rivalry), Nike (Victory) and Bia (Force).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c25",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Hermes was Zeus' personal herald, acting as diplomat, envoy and general agent of the god's will.",
+          "statement_id": "Menurut theoi.com, Hermes adalah juru bicara pribadi Zeus yang bertugas sebagai diplomat, utusan, dan agen umum kehendak sang dewa.",
+          "quote": "The god Hermes was Zeus' personal herald who acted as diplomat, envoy and general agent of the god's will.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c26",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus' favorite mortal son was Herakles, whom he supported throughout his trials and eventually welcomed to Olympos as a god.",
+          "statement_id": "Menurut theoi.com, putra fana kesayangan Zeus adalah Herakles, yang ia dukung sepanjang cobaannya dan akhirnya diterima di Olimpos sebagai dewa.",
+          "quote": "The god's favorite mortal son was Herakles (Heracles) whom he supported throughout his trials and eventually welcomed to Olympos as a god.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c27",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus was a son of the Titans Kronos and Rheia, a grandson of Ouranos (the Sky) and Gaia (the Earth), and a brother of Poseidon, Haides, Hera, Demeter and Hestia.",
+          "statement_id": "Menurut theoi.com, Zeus adalah putra Titan Kronos dan Rheia serta cucu Ouranos (Langit) dan Gaia (Bumi), dan saudara Poseidon, Haides, Hera, Demeter, dan Hestia.",
+          "quote": "Zeus was a son of the Titans Kronos (Cronus) and Rheia and a grandson of Ouranos (the Sky) and Gaia (the Earth). He was a brother of the gods Poseidon, Haides, Hera, Demeter and Hestia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c28",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus married his sister, the sky-goddess Hera, and they had three children: Ares, Hebe and Eileithyia.",
+          "statement_id": "Menurut theoi.com, Zeus menikahi saudarinya, dewi langit Hera, dan mereka memiliki tiga anak: Ares, Hebe, dan Eileithyia.",
+          "quote": "Zeus married his sister, the sky-goddess Hera, and they had three children - Ares, Hebe and Eileithyia.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -325,25 +738,21 @@
             "kategori \"Bust of Otricoli Zeus (Pio Clementino Museum)\"",
             "dipakai di bar.wikipedia.org: Zeus"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/zeus-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/zeus-1.jpg"
         }
       ]
     },
     {
       "slug": "dragon",
-      "file": "batch-024.md",
+      "file": "batch-024-fix-1.md",
+      "entry_sha256": "56d691636879c381e10c208d3a7998ed0c78838a0723958e467f547c945bdc48",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 23,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:St Catherine, St George and the Dragon (Mästaren från Kappenberg) - Nationalmuseum - 18337 (brightened), draken.png)",
@@ -367,7 +776,7 @@
           "host": "en.wikipedia.org",
           "statement": "Dragon-like creatures appear in ancient Mesopotamian art; in East Asia dragons were usually positive, Chinese dragons governed rain, sea and water, and from the Han dynasty were imperial emblems.",
           "statement_id": "Makhluk mirip naga muncul dalam seni Mesopotamia kuno; di Asia Timur naga umumnya makhluk baik, naga Tiongkok menguasai hujan, laut, dan air, dan sejak dinasti Han menjadi lambang kekuasaan kaisar.",
-          "quote": "In East Asia, dragons were usually regarded as positive beings; Chinese dragons were thought to govern the rain, the sea, and other forms of water, and from the Han dynasty onwards they were emblems of imperial power.",
+          "quote": "Dragon-like creatures appear in ancient Mesopotamian art, where they could be hostile or benevolent. In East Asia, dragons were usually regarded as positive beings; Chinese dragons were thought to govern the rain, the sea, and other forms of water, and from the Han dynasty onwards they were emblems of imperial power.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -410,6 +819,176 @@
           "quote": "Dragons have featured in works of modern fiction by writers such as J. R. R. Tolkien, Ursula K. Le Guin, and George R. R. Martin.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "dragon-c07",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the Chinese dragon is most often depicted as a giant, lithe beast dwelling in water sources or clouds; it is extraordinarily powerful and, when it flies, is usually accompanied by lightning and thunder.",
+          "statement_id": "Menurut World History Encyclopedia, naga Tiongkok paling sering digambarkan sebagai makhluk raksasa yang lentur dan berdiam di sumber air atau awan; ia amat kuat, dan bila terbang biasanya disertai kilat dan guntur.",
+          "quote": "One of the earliest creatures to appear in the tales and legends of ancient China, the dragon is most often depicted as a giant and lithe beast which dwells in either water sources or clouds. The Chinese dragon is extraordinarily powerful, and when it flies, it is usually accompanied by lightning and thunder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c08",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the traditional description of the Chinese dragon gives it the horns of a stag, forehead of a camel, eyes of a demon, neck of a snake, belly of a sea-monster, scales of a carp, claws of an eagle, pads of a tiger and ears of an ox.",
+          "statement_id": "Menurut World History Encyclopedia, deskripsi tradisional naga Tiongkok memberinya tanduk rusa jantan, dahi unta, mata iblis, leher ular, perut makhluk laut, sisik ikan mas, cakar elang, telapak harimau, dan telinga sapi.",
+          "quote": "The traditional description gives it the horns of a stag, the forehead of a camel, the eyes of a demon, the neck of a snake, the belly of a sea-monster, the scales of a carp, the claws of an eagle, the pads of a tiger, and the ears of an ox.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c09",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the Chinese dragon was believed able to change its shape and size at will and to disappear or reappear wherever it wished.",
+          "statement_id": "Menurut World History Encyclopedia, naga Tiongkok dipercaya dapat mengubah bentuk dan ukurannya sesuka hati serta menghilang atau muncul di mana pun ia mau.",
+          "quote": "Other qualities of the dragon were that it could change its shape and size at will and disappear or reappear wherever it wished.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c10",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, despite its fearsome aspect the dragon in China was not usually seen as the bad-intentioned monster of other cultures' myths, where it is typically slain by a hero, but as a just and benevolent creature.",
+          "statement_id": "Menurut World History Encyclopedia, meski tampak menakutkan, naga di Tiongkok umumnya tidak dipandang sebagai monster jahat seperti dalam mitos budaya lain yang biasanya menampilkannya dibunuh pahlawan, melainkan makhluk yang adil dan baik hati.",
+          "quote": "Despite the dragon's fearsome aspect, it was not usually seen as the bad-intentioned monster that inhabits the myths of other cultures around the world where it is typically slain by a brave hero figure. Indeed, in China, the dragon was and is regarded as being a just and benevolent creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c11",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, ancient farmers thought dragons brought the rain and water their crops needed, and dragons were also held responsible for strong winds, hailstorms, thunder, lightning and tornadoes.",
+          "statement_id": "Menurut World History Encyclopedia, petani kuno menganggap naga membawa hujan dan air bagi tanaman mereka, dan naga juga dianggap bertanggung jawab atas angin kencang, hujan es, guntur, kilat, dan angin puyuh.",
+          "quote": "Further, ancient farmers thought dragons brought much-needed rains and water to aid their crops. Dragons were also thought responsible for strong winds, hailstorms, thunder, lightning, and tornadoes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c12",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, rural communities in China held a dragon dance to induce the creature's generosity in dispensing rain, and a procession carrying a large dragon figure of paper or cloth over a wooden frame.",
+          "statement_id": "Menurut World History Encyclopedia, di desa-desa Tiongkok ada tarian naga untuk membujuk kemurahan naga dalam menurunkan hujan, serta arak-arakan membawa patung naga besar dari kertas atau kain di atas rangka kayu.",
+          "quote": "In rural communities, there was a dragon dance to induce the creature's generosity in dispensing rain and a procession where a large figure of a dragon made from paper or cloth spread over a wooden frame was carried.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c13",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, a traditional belief held that each of the Four Seas of the world was presided over by a dragon king.",
+          "statement_id": "Menurut World History Encyclopedia, kepercayaan tradisional menyatakan bahwa Empat Laut di dunia masing-masing dipimpin seorang raja naga.",
+          "quote": "Another traditional belief was that the Four Seas of the world (to the ancient Chinese there were four and not seven) were each presided over by a dragon king.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c14",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, for many people the emperor was actually an incarnation of the supreme rain-bringing dragon.",
+          "statement_id": "Menurut World History Encyclopedia, bagi banyak orang kaisar sesungguhnya adalah penjelmaan naga tertinggi pembawa hujan.",
+          "quote": "Indeed, for many, the emperor was actually an incarnation of the supreme rain-bringing dragon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c15",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the earliest known depiction of a dragon is a stylised C-shaped figure carved in jade, found in eastern Inner Mongolia and belonging to the Hongshan culture, which thrived between 4500 and 3000 BCE.",
+          "statement_id": "Menurut World History Encyclopedia, penggambaran naga tertua yang diketahui adalah figur berbentuk C yang distilisasi dan diukir dari giok, ditemukan di Mongolia Dalam bagian timur, milik budaya Hongshan yang berkembang antara 4500 dan 3000 SM.",
+          "quote": "The earliest known depiction of a dragon is a stylised C-shaped representation carved in jade. Found in eastern Inner Mongolia, it belonged to the Hongshan culture, which thrived between 4500 and 3000 BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c16",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia (in its article on the dragon in ancient China), folk-tales tell of a race of dragons led by their Dragon-king Lung-Wang; they have scaly bodies, four legs and horns, could take human form and whisk away young girls, and are similar to the Nagas, the snake-like creatures of Hindu folklore that protect water sources.",
+          "statement_id": "Menurut World History Encyclopedia (dalam artikel tentang naga di Tiongkok kuno), dalam cerita rakyat ada ras naga yang dipimpin Raja Naga Lung-Wang; mereka bertubuh bersisik, berkaki empat, dan bertanduk, dapat menjelma manusia dan menculik gadis, dan mirip Naga, makhluk menyerupai ular dalam cerita rakyat Hindu yang menjaga sumber air.",
+          "quote": "In folk-tales, there was a race of dragons led by their Dragon-king Lung-Wang. With scaly bodies, four legs, and horns they could take on human form and whisk away young girls. They are similar to Nagas, the snake-like creatures of Hindu folklore which protect water sources.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c17",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the dragon is the fifth sign of the Chinese zodiac.",
+          "statement_id": "Menurut World History Encyclopedia, naga adalah shio kelima dalam zodiak Tiongkok.",
+          "quote": "Finally, the dragon is the fifth sign of the Chinese zodiac or shengxiao",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c18",
+          "source_id": "dragon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, a famous myth tells of a dragon helping the ruler Yu the Great, legendary founder of the Xia dynasty, together with a turtle, to control the floodwaters devastating his kingdom and turn them into a better irrigation system.",
+          "statement_id": "Menurut World History Encyclopedia, sebuah mitos terkenal menceritakan naga membantu penguasa Yu Agung, pendiri legendaris dinasti Xia, bersama seekor kura-kura mengendalikan banjir yang melanda kerajaannya menjadi sistem irigasi yang lebih baik.",
+          "quote": "One famous myth tells of a dragon actively helping a ruler, Yu the Great (c. 2070 BCE), the legendary founder of the Xia dynasty, who was helped by a dragon (or actually was a dragon) and a turtle to manage the floodwaters which were devastating his kingdom and so control them into a better irrigation system.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c19",
+          "source_id": "dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem Beowulf (J. Lesslie Hall translation), the fire-dragon is described as flying flaming to the barrows and escaping by night encompassed with fire, widely seen by men under heaven.",
+          "statement_id": "Dalam puisi Beowulf (terjemahan J. Lesslie Hall), naga api digambarkan terbang berapi-api ke gundukan makam dan keluar malam hari dikelilingi api, dan terlihat luas oleh orang di bawah langit.",
+          "quote": "He who flaming and fiery flies to the barrows, Naked war-dragon, nightly escapeth Encompassed with fire; men under heaven Widely beheld him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c20",
+          "source_id": "dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Beowulf, the waster of peoples held that excellent hoard-hall for three hundred winters.",
+          "statement_id": "Dalam Beowulf, penghancur bangsa-bangsa itu menguasai balai harta karun yang mulia selama tiga ratus musim dingin.",
+          "quote": "So three-hundred winters the waster of peoples Held upon earth that excellent hoard-hall,",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c21",
+          "source_id": "dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Beowulf, the dragon began to vomit forth fire to burn the great manor, and the blaze brought anguish to the earlmen.",
+          "statement_id": "Dalam Beowulf, sang naga mulai menyemburkan api untuk membakar balai megah, dan nyala api itu membawa penderitaan bagi para bangsawan.",
+          "quote": "The stranger began then to vomit forth fire, To burn the great manor; the blaze then glimmered For anguish to earlmen",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c22",
+          "source_id": "dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Beowulf, Sigmund won great glory when he destroyed the great dragon that guarded a hoard.",
+          "statement_id": "Dalam Beowulf, Sigmund memperoleh kemuliaan besar ketika menghancurkan naga besar penjaga harta.",
+          "quote": "To Sigmund accrued then No little of glory, when his life-days were over, Since he sturdy in struggle had destroyed the great dragon,",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c23",
+          "source_id": "dragon-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Beowulf, the waters described in the poem are filled with serpents and wondrous mere-dragons.",
+          "statement_id": "Dalam Beowulf, perairan yang digambarkan dalam puisi itu dipenuhi ular dan naga-danau (mere-dragons) yang menakjubkan.",
+          "quote": "Many a serpent, mere-dragons wondrous Trying the waters, nickers a-lying",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": [
@@ -448,25 +1027,21 @@
             "deskripsi berkas",
             "dipakai di en.wikipedia.org: Dragon"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/dragon-1.png"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/dragon-1.png"
         }
       ]
     },
     {
       "slug": "vishnu",
-      "file": "batch-024.md",
+      "file": "batch-024-fix-1.md",
+      "entry_sha256": "81a7015dc485a727b7c5dcc6c302dae20d947bf3cc3491801e8e1c2465e65d4f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 26,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Vishnu from Gita Govinda.jpg)",
@@ -478,8 +1053,8 @@
           "id": "vishnu-c01",
           "source_id": "vishnu-s1",
           "host": "en.wikipedia.org",
-          "statement": "Vishnu (विष्णु, 'All-Pervasive'), also Narayana and Hari, is one of the principal deities of Hinduism, the Supreme Being in Vaishnavism and the god of preservation.",
-          "statement_id": "Wisnu (विष्णु, 'Yang Meliputi Segala'), juga Narayana dan Hari, adalah salah satu dewa utama agama Hindu, Yang Mahatinggi dalam tradisi Waisnawa, dan dewa pemeliharaan.",
+          "statement": "Vishnu, also known as Narayana and Hari, is one of the principal deities of Hinduism, the Supreme Being in Vaishnavism, and the god of preservation.",
+          "statement_id": "Wisnu, juga dikenal sebagai Narayana dan Hari, adalah salah satu dewa utama agama Hindu, Yang Mahatinggi dalam tradisi Waisnawa, dan dewa pemeliharaan.",
           "quote": "also known as Narayana and Hari, is one of the principal deities of Hinduism. He is the Supreme Being within Vaishnavism, one of the major traditions within contemporary Hinduism, and the god of preservation (sattva).",
           "context": "religious-tradition",
           "status": "exact"
@@ -488,8 +1063,8 @@
           "id": "vishnu-c02",
           "source_id": "vishnu-s1",
           "host": "en.wikipedia.org",
-          "statement": "In the Trimurti with Brahma and Shiva, Vishnu is known as the Preserver, and Lakshmi is his partner.",
-          "statement_id": "Dalam Trimurti bersama Brahma dan Siwa, Wisnu dikenal sebagai Sang Pemelihara, dan Lakshmi adalah pasangannya.",
+          "statement": "Within the Trimurti, the triple deity of supreme divinity that includes Brahma and Shiva, Vishnu is known as the Preserver.",
+          "statement_id": "Dalam Trimurti, tiga dewa dengan keilahian tertinggi yang mencakup Brahma dan Siwa, Wisnu dikenal sebagai Sang Pemelihara.",
           "quote": "Vishnu is known as The Preserver within the Trimurti, the triple deity of supreme divinity that includes Brahma and Shiva.",
           "context": "religious-tradition",
           "status": "exact"
@@ -518,8 +1093,8 @@
           "id": "vishnu-c05",
           "source_id": "vishnu-s1",
           "host": "en.wikipedia.org",
-          "statement": "The name Vishnu means 'all pervasive'; he is worshipped in temples across India and beyond.",
-          "statement_id": "Nama Wisnu berarti 'yang meliputi segala'; ia dipuja di kuil-kuil di seluruh India dan di luarnya.",
+          "statement": "The name Vishnu (Sanskrit: विष्णु, also spelled Viṣṇu) means 'all pervasive'.",
+          "statement_id": "Nama Wisnu (विष्णु, juga ditulis Viṣṇu) berarti 'meliputi segala'.",
           "quote": "Vishnu (also spelled Viṣṇu, Sanskrit: विष्णु) means 'all pervasive'",
           "context": "etymology",
           "status": "loose"
@@ -538,9 +1113,199 @@
           "id": "vishnu-c07",
           "source_id": "vishnu-s2",
           "host": "www.worldhistory.org",
-          "statement": "In the churning of the ocean of milk, Vishnu supported Mount Mandara as the giant tortoise Kurma, then became Maya to take the nectar from the demons and give it to the gods.",
-          "statement_id": "Dalam kisah pengadukan samudra susu, Wisnu menopang Gunung Mandara dalam wujud kura-kura raksasa Kurma, lalu menjelma Maya untuk merebut nektar dari para raksasa dan memberikannya kepada para dewa.",
-          "quote": "This he did in the form of Kurma, the giant tortoise, supporting the mountain on his shell.",
+          "statement": "According to the World History Encyclopedia, to churn the ocean the gods and demons used Mount Mandara with the giant serpent Vasuki (or Ananta) as a rope, but could not handle its weight and called on Vishnu, who held the mountain on his shell in the form of Kurma, the giant tortoise.",
+          "statement_id": "Menurut World History Encyclopedia, untuk mengaduk samudra para dewa dan raksasa memakai Gunung Mandara dengan ular raksasa Vasuki (atau Ananta) sebagai tali, tetapi tidak sanggup menahan bebannya sehingga memanggil Wisnu, yang menopang gunung itu di punggungnya dalam wujud Kurma, kura-kura raksasa.",
+          "quote": "To mix the ocean they decided to use the holy Mt. Mandara with the giant serpent Vasuki (or Ananta) as a turning rope; one end to be pulled by Demons and the other by the gods. However, neither group could handle such a weight and they called for Vishnu to hold it. This he did in the form of Kurma, the giant tortoise, supporting the mountain on his shell.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c08",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Medhātith (c. 1000 CE), Vishnu means 'one who is everything and inside everything'.",
+          "statement_id": "Menurut Medhātith (sekitar 1000 M), Wisnu berarti 'yang adalah segalanya dan berada di dalam segalanya'.",
+          "quote": "according to Medhātith (c. 1000 CE), 'one who is everything and inside everything'",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c09",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, statues of four-armed Vishnu found in Thai provinces near Malaysia date from the 4th to 9th century and mirror those found in ancient India.",
+          "statement_id": "Menurut Wikipedia, di Thailand ditemukan patung Wisnu berlengan empat di provinsi dekat Malaysia yang berasal dari abad ke-4 hingga ke-9, dan patung itu mirip dengan yang ditemukan di India kuno.",
+          "quote": "In Thailand, for example, statues of four-armed Vishnu have been found in provinces near Malaysia and dated to be from the 4th to 9th-century, and this mirror those found in ancient India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c10",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, some of the earliest surviving grand Vishnu temples in India have been dated to the Gupta Empire period.",
+          "statement_id": "Menurut Wikipedia, sebagian kuil Wisnu besar tertua yang masih bertahan di India berasal dari masa Kekaisaran Gupta.",
+          "quote": "Some of the earliest surviving grand Vishnu temples in India have been dated to the Gupta Empire period.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c11",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu is the most important god of Vaishnavism, the largest Hindu sect; to illustrate his superior status, in some accounts Brahma is born from a lotus flower that grew from Vishnu's navel.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu adalah dewa terpenting Waisnawa, sekte Hindu terbesar; sebagai tanda kedudukannya yang unggul, dalam beberapa kisah Brahma dianggap lahir dari bunga teratai yang tumbuh dari pusar Wisnu.",
+          "quote": "Vishnu is the most important god of Vaishnavism, the largest Hindu sect. Indeed, to illustrate Vishnu's superior status, Brahma is, in some accounts, considered to have been born from a lotus flower which grew from Vishnu's naval.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c12",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu was married to Lakshmi (goddess of good fortune), Sarawati (goddess of wisdom) and Ganga (personification of the River Ganges), but unable to bear their quarrels he sent Ganga to Shiva and Sarawati to Brahma.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu menikah dengan Lakshmi (dewi keberuntungan), Sarasvati (dewi kebijaksanaan), dan Ganga (personifikasi Sungai Gangga), tetapi karena pertengkaran istri-istrinya ia mengirim Ganga kepada Siwa dan Sarasvati kepada Brahma.",
+          "quote": "Vishnu was married to Lakshmi (the goddess of good fortune), Sarawati (the goddess of wisdom) and Ganga (the goddess who is the personification of the River Ganges). However, unable to live with the quarrels between his three wives, Vishnu eventually sent Ganga to Shiva and Sarawati to Brahma.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c13",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu is considered to live in the city of Vaikuntha on Mt. Meru, where everything is made of shining gold and jewels and lakes are resplendent with lotus flowers.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu dianggap tinggal di kota Vaikuntha di Gunung Meru, tempat segalanya terbuat dari emas berkilau dan permata, dengan danau-danau yang dipenuhi teratai.",
+          "quote": "He is considered to live in the city of Vaikuntha on Mt. Meru, where everything is made of shining gold and fabulous jewels and where there are lakes resplendent with lotus flowers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c14",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu has ten avatars or worldly appearances, which are people, animals or a mix of both.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu memiliki sepuluh awatara atau penampakan duniawi, berupa manusia, hewan, atau campuran keduanya.",
+          "quote": "Vishnu has ten avatars or worldly appearances, which are people, animals or a mix of both.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c15",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, as Varaha, the gigantic boar, Vishnu defeated the giant Daitya after Hiranyaksha took the Earth (Bhumi-devi) to the bottom of the sea; after a fight lasting a thousand years Vishnu prevailed and raised the Earth from the depths on his tusk.",
+          "statement_id": "Menurut World History Encyclopedia, sebagai Varaha, babi hutan raksasa, Wisnu mengalahkan raksasa Daitya setelah Hiranyaksha membawa Bumi (Bhumi-devi) ke dasar laut; setelah pertarungan seribu tahun, Wisnu menang dan mengangkat Bumi dari kedalaman dengan taringnya.",
+          "quote": "As Varaha, the gigantic boar, he defeated the giant Daitya after Hiranyaksha had mischievously taken the Earth (Bhumi-devi) to the bottom of the sea. The incredible fight between the two lasted for a thousand years but Vishnu prevailed and finally raised the Earth from the watery depths, carrying it on his tusk.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c16",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu took the form of the beautiful Maya (the personification of Illusion), so that the distracted Demons relinquished the nectar, which he gave to the gods, allowing them the possibility of immortality.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu menjelma Maya yang jelita (personifikasi Ilusi) hingga para raksasa terpedaya dan melepaskan nektar, yang lalu ia berikan kepada para dewa sehingga mereka berpeluang hidup abadi.",
+          "quote": "Fortunately, Vishnu interceded in the form of the beautiful Maya (the personification of Illusion) and, suitably distracted, the Demons relinquished the nectar which Vishnu graciously gave to the gods, allowing them the possibility of immortality.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c17",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu appears as the avatar of the fish Matsya, who jumped into the hand of Manu; later he reappears as the gigantic fish with golden scales and a single horn carrying the promised ship for Manu.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu muncul sebagai awatara ikan Matsya yang melompat ke tangan Manu; kelak ia tampil sebagai ikan raksasa bersisik emas dan bertanduk satu yang membawa kapal bagi Manu.",
+          "quote": "Vishnu appears as another avatar in the form of the fish Matsya. Manu, the sage and son of Vivsavat-Sun, was washing in a river one day when a small fish suddenly jumped into his hand. ... Vishnu then reappeared on the scene as the gigantic fish, this time with golden scales and a single horn, and carrying the promised ship for Manu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c18",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu confronted the giant warrior Bali as a dwarf Brahman called Vamana; with his first step he cleared the sky, with the second the Earth and with the last the Underworld, leaving nothing for the giants.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu menghadapi pahlawan raksasa Bali dalam wujud brahmana kerdil bernama Vamana; dengan langkah pertama ia melintasi langit, dengan yang kedua Bumi, dan dengan yang terakhir Dunia Bawah, sehingga tak ada yang tersisa bagi para raksasa.",
+          "quote": "Vishnu was persuaded by the gods to interrupt his meditations and confront the giant warrior Bali, which he did in the form of a dwarf Brahman (or priest) called Vamana. ... with his first step he cleared the sky, with the second the Earth and, with his final step, the Underworld, thus leaving nothing for the poor giants.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c19",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu is often also called Trivikrama, meaning 'of the three steps'.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu sering pula disebut Trivikrama, yang berarti 'yang bertiga langkah'.",
+          "quote": "For this reason, Vishnu is often also called Trivikrama, meaning 'of the three steps'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c20",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu appeared as the man-lion Nara-Simha when Hiranya-Kasipu, King of the Asuras, called on people to worship him as a god and challenged Vishnu to show himself if he were really omnipresent.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu tampil sebagai manusia-singa Nara-Simha ketika Hiranya-Kasipu, Raja Asura, menyerukan agar orang menyembahnya sebagai dewa dan menantang Wisnu menunjukkan diri jika benar mahahadir.",
+          "quote": "Vishnu appeared as the man-lion Nara-Simha when Hiranya-Kasipu (King of the Asuras or Demons) not only impiously called for people to worship him as a god but also foolishly challenged Vishnu to show himself there and then if the god really were omnipresent.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c21",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Hindu art Vishnu is most often depicted coloured blue and sometimes rides Garuda, a gigantic half-man, half-bird creature that devours snakes.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Hindu Wisnu paling sering digambarkan berwarna biru dan kadang menunggang Garuda, makhluk raksasa setengah manusia setengah burung yang memangsa ular.",
+          "quote": "he is most often depicted coloured blue and sometimes rides Garuda, a gigantic half-man, half-bird creature which devours snakes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c22",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu's weapon is the Sudarsanacakra discus, perhaps representing his link with the sun and the wheel of time; in his usually four hands he often holds a conch shell trumpet that sounds the Creation, a mace or sword representing strength, and a lotus.",
+          "statement_id": "Menurut World History Encyclopedia, senjata Wisnu adalah cakram Sudarsanacakra, mungkin lambang kaitannya dengan matahari dan roda waktu; di keempat tangannya ia sering memegang kerang sangkakala penanda Penciptaan, gada atau pedang lambang kekuatan, dan teratai.",
+          "quote": "His weapon is the Sudarsanacakra or discus (chakra), perhaps representative of his association with the sun but also, with its thousand spokes, symbolic of the wheel of time. He often holds various other objects in his (usually) four hands such as a conch shell trumpet which sounds the Creation, a mace (gada) or a sword which represents strength, and a lotus",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c23",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu was associated with the sun, as one of his other names, Surya Narayana, suggests.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu dikaitkan dengan matahari, seperti ditunjukkan salah satu namanya yang lain, Surya Narayana.",
+          "quote": "Certainly, Vishnu was associated with the sun, as one of his other names suggests - Surya Narayana.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c24",
+          "source_id": "vishnu-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, whatever is generated by a living being is considered a portion of Hari, and whatever destroys a living being the destroying portion of Janārddana as Rudra; in this way Janārddana is the creator, preserver and destroyer of the universe.",
+          "statement_id": "Dalam Wisnu Purana, apa pun yang dilahirkan makhluk hidup dianggap bagian Hari, dan apa pun yang membinasakan makhluk dianggap bagian Janārddana sebagai Rudra; dengan demikian Janārddana adalah pencipta, pemelihara, dan pelebur alam semesta.",
+          "quote": "Whatever is generated by any living being, O twice-born one—the agent is considered as a portion of Hari. And whatever destroys any living being, moveable or immoveable, is considered as the destroying portion of Janārddana as Rudra. In this wise Janārddana is the creator, preserver and destroyer of the universe.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c25",
+          "source_id": "vishnu-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, the revered Hari himself, in the shape of a tortoise in the midst of the Milky sea, became the support of the churning-stick.",
+          "statement_id": "Dalam Wisnu Purana, Hari sendiri, dalam wujud kura-kura di tengah Lautan Susu, menjadi penopang tongkat pengaduk.",
+          "quote": "And, O mighty ascetic, remaining in the midst of the Milky sea in the shape of a tortoise, the revered Hari himself became the support of the churning-stick.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c26",
+          "source_id": "vishnu-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, the celestials behold Hari, the supreme lord of all, seated on Garuda, armed with the shell, the discus and the mace.",
+          "statement_id": "Dalam Wisnu Purana, para dewa melihat Hari, penguasa tertinggi segalanya, duduk di atas Garuda dengan kerang, cakram, dan gada.",
+          "quote": "Having thus recited the prayer the celestials beheld Hari the supreme lord of all, seated on Garuda, armed with the shell, the discus, and the mace.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -587,25 +1352,21 @@
             "kategori \"Vishnu\"",
             "dipakai di cdo.wikipedia.org: Vishnu"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/vishnu-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/vishnu-1.jpg"
         }
       ]
     },
     {
       "slug": "krishna",
-      "file": "batch-024.md",
+      "file": "batch-024-fix-1.md",
+      "entry_sha256": "9ec2e076d1de0b00f3e55af737b7bbe71d836d81dacd20041469e4e09aa2a130",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 35,
+        "sources": 4,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Krishna Holds Up Mount Govardhan (MET 70694) cropped.png)",
@@ -637,8 +1398,8 @@
           "id": "krishna-c03",
           "source_id": "krishna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Krishna is often shown dark-skinned in keeping with his name, 'black' or 'dark'; he is central to the Mahabharata, Bhagavata Purana and Bhagavad Gita.",
-          "statement_id": "Kresna sering digambarkan berkulit gelap sesuai arti namanya, 'hitam' atau 'gelap'; ia tokoh sentral Mahabharata, Bhagavata Purana, dan Bhagavad Gita.",
+          "statement": "Krishna is often depicted in dark skin in accordance with the meaning of his name, 'black' or 'dark'.",
+          "statement_id": "Krishna sering digambarkan berkulit gelap sesuai arti namanya, 'hitam' atau 'gelap'.",
           "quote": "Krishna is often depicted in dark skin in accordance with meaning of his name, \"black\" or \"dark\".",
           "context": "religious-tradition",
           "status": "exact"
@@ -657,8 +1418,8 @@
           "id": "krishna-c05",
           "source_id": "krishna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Krishna enchanted the gopis with his flute, lifted Govardhan Hill against devastating rains, defeated Kamsa, founded Dvaraka and served as Arjuna's charioteer in the Kurukshetra War, delivering the Bhagavad Gita.",
-          "statement_id": "Kresna memikat para gopi dengan serulingnya, mengangkat Bukit Govardhan untuk melindungi kaumnya dari hujan dahsyat, mengalahkan Kamsa, mendirikan Dwaraka, dan menjadi kusir kereta Arjuna dalam perang Kurukshetra serta menyampaikan Bhagavad Gita.",
+          "statement": "Krishna enchanted the gopis with his flute, lifted Govardhan Hill to protect his community from devastating rains, defeated Kamsa, founded the city of Dvaraka and played a central role in the Kurukshetra War as Arjuna's charioteer.",
+          "statement_id": "Krishna memikat para gopi dengan seruling ilahinya, mengangkat Bukit Govardhan untuk melindungi kaumnya dari hujan dahsyat, mengalahkan Kamsa, mendirikan kota Dvaraka, dan berperan penting dalam perang Kurukshetra sebagai kusir kereta Arjuna.",
           "quote": "he enchanted the gopis with his divine flute playing, performed the celestial Rasa Lila, and lifted Govardhan Hill to protect his community from devastating rains. He later defeated Kamsa and restored order in Mathura. He went on to establish the city of Dvaraka and played a central role in the Kurukshetra War, serving as Arjuna’s charioteer",
           "context": "religious-tradition",
           "status": "exact"
@@ -667,10 +1428,300 @@
           "id": "krishna-c06",
           "source_id": "krishna-s2",
           "host": "www.worldhistory.org",
-          "statement": "According to the World History Encyclopedia, Krishna is perhaps the most popular of all the heroes of Hindu mythology.",
-          "statement_id": "Menurut World History Encyclopedia, Kresna mungkin pahlawan paling populer dalam mitologi Hindu.",
-          "quote": "He is perhaps the most popular of all the heroes of Hindu mythology.",
+          "statement": "According to the World History Encyclopedia, Krishna (Krsna or Hari Krishna) is a major god of the Hindu pantheon, considered the eighth incarnation of Vishnu, and perhaps the most popular of all the heroes of Hindu mythology.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna (Krsna atau Hari Krishna) adalah dewa utama jajaran dewa Hindu, dianggap inkarnasi kedelapan Wisnu, dan mungkin yang paling populer di antara para pahlawan mitologi Hindu.",
+          "quote": "Krishna (Krsna or Hari Krishna) is a major god of the Hindu pantheon and considered the eighth incarnation of Vishnu. He is perhaps the most popular of all the heroes of Hindu mythology.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c07",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Krishna is a central figure in the Mahabharata, the Bhagavata Purana, the Brahma Vaivarta Purana and the Bhagavad Gita, and these texts describe him as a divine statesman, teacher, savior of dharma, charioteer and sometimes a cowherd.",
+          "statement_id": "Menurut Wikipedia, Krishna adalah tokoh sentral dalam Mahabharata, Bhagavata Purana, Brahma Vaivarta Purana, dan Bhagavad Gita, dan teks-teks itu menggambarkannya sebagai negarawan ilahi, guru, penyelamat dharma, kusir kereta, dan kadang penggembala sapi.",
+          "quote": "He is a central figure in the Mahabharata, the Bhagavata Purana, the Brahma Vaivarta Purana, and the Bhagavad Gita, and is mentioned in many Hindu philosophical, theological, and mythological texts. These texts describes him as a divine statesman, teacher, savior of dharma, charioteer, and sometimes a cowherd.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c08",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna's adventures appear in the Mahabharata, Bhagavad Gita, Harivamsa and the Puranas, where he is described as the Supreme Being and creator of the universe.",
+          "statement_id": "Menurut World History Encyclopedia, petualangan Krishna muncul dalam Mahabharata, Bhagavad Gita, Harivamsa, dan Purana, yang menyebutnya Yang Mahatinggi dan pencipta alam semesta.",
+          "quote": "Krishna's adventures appear in the Mahabharata, Bhagavad Gita, Harivamsa, and the sacred texts known as the Puranas where he is described as the Supreme Being and creator of the universe.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c09",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu pulled two hairs from his head, one white and one black; the black hair was planted into the womb of Devaki, a princess of the city of Mathura, and Krishna was born.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu mencabut dua helai rambut, putih dan hitam; rambut hitam ditanamkan ke rahim Devaki, putri kota Mathura, dan lahirlah Krishna.",
+          "quote": "One day Vishnu, the great Hindu god pulled two hairs from his own head, one white and one black. The black hair was planted into the womb of Devaki, a princess of the city of Mathura",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c10",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Kamsa, his mother's brother, had been warned that Devaki's eighth child would kill him and had killed seven children before Krishna was born.",
+          "statement_id": "Menurut World History Encyclopedia, Kamsa, saudara laki-laki ibu Krishna, diperingatkan bahwa anak kedelapan Devaki akan membunuhnya, sehingga ia membunuh tujuh anak sebelum Krishna lahir.",
+          "quote": "Unfortunately for Krishna his mother's brother, Kamsa, had been warned that Devaki's eighth child would kill him, and so Kamsa determined to murder the eighth child, a crime he had already carried out seven times before Krishna was born.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c11",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vasudeva hid Krishna in the remote village of Vrindavana, where he was brought up as a simple cowherd who can be called Govinda.",
+          "statement_id": "Menurut World History Encyclopedia, Wasudewa menyembunyikan Krishna di desa terpencil Vrindavana, tempat ia dibesarkan sebagai penggembala sederhana yang dapat disebut Govinda.",
+          "quote": "Fortunately, Vasudeva took the precaution of hiding Krishna in the remote village of Vrindavana where the boy was brought up as a simple cowherd (in this guise he can be referred to as Govinda).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c12",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna spent an idyllic childhood and stirred the hearts of many gopis with his dark good looks, playful charm and mastery of music and dance.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna menghabiskan masa kecil yang indah dan memikat banyak gopi dengan ketampanannya yang gelap, pesonanya yang jenaka, serta keahliannya bermusik dan menari.",
+          "quote": "There he spent an idyllic childhood and stirred the hearts of many gopis or herd-women with his dark good looks, playful charm, and mastery of music and dance.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c13",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna's dual role is as the punisher of human deeds but also as a bringer of enlightenment.",
+          "statement_id": "Menurut World History Encyclopedia, peran ganda Krishna adalah sebagai penghukum perbuatan manusia sekaligus pembawa pencerahan.",
+          "quote": "Krishna's dual role is as the punisher of human deeds but also as a bringer of enlightenment.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c14",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna's foster parents at Vrindavana were Nanda and Yashoda, his sister is Subhadra, his brother Balarama, and his favourite consort the cowherd woman Radha.",
+          "statement_id": "Menurut World History Encyclopedia, orang tua asuh Krishna di Vrindavana adalah Nanda dan Yashoda, saudarinya Subhadra, saudaranya Balarama, dan selir kesayangannya Radha, perempuan penggembala.",
+          "quote": "Krishna's foster parents at Vrindavana were Nanda and Yashoda, his sister is Subhadra, and his brother Balarama. Krishna's favourite consort was the cowherd woman Radha",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c15",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Queen Rukmini, an earthly form of the goddess Lakshmi, is considered Krishna's second most favoured wife after Radha, and with Rukmini Krishna had a son, Pradyumna, and a daughter, Carumati.",
+          "statement_id": "Menurut World History Encyclopedia, Ratu Rukmini, wujud duniawi dewi Lakshmi, dianggap istri kesayangan kedua Krishna setelah Radha, dan dari Rukmini Krishna memiliki putra Pradyumna serta putri Carumati.",
+          "quote": "Queen Rukmini, an earthly form of the goddess Lakshmi, is considered Krishna's second most favoured wife after Radha. With Rukmini, Krishna had a son, Pradyumna, and a daughter, Carumati.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c16",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna killed and thrashed prominent enemies such as the ogress Putana, the giant bull danava, the giant snake Kaliya and the king of the Hayas (horses), and dealt with the tyrant Kamsa, after whose beheading he became king of Mathura.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna membunuh dan menghajar musuh-musuh terkemuka seperti raksasi Putana, banteng danava raksasa, ular raksasa Kaliya, dan raja Haya (kuda), serta mengalahkan tiran Kamsa, setelah itu ia menjadi raja Mathura.",
+          "quote": "Notable amongst these are his various killings and thrashings of prominent enemies such as the ogress Putana, the giant bull danava, the giant snake Kaliya, and the king of the Hayas (horses). Also swiftly dealt with was the scheming tyrant Kamsa – after whose beheading Krishna established himself as king of Mathura.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c17",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the sea-demon Pancajana, who looked like a conch shell, lost his magic shell to Krishna, who carried it thereafter and used it as a trumpet.",
+          "statement_id": "Menurut World History Encyclopedia, iblis laut Pancajana yang menyerupai kerang kehilangan kerang saktinya kepada Krishna, yang sejak itu membawanya dan memakainya sebagai trompet.",
+          "quote": "the sea-demon Pancajana who looked like a conch shell and who lost his magic shell to Krishna which the hero carried thereafter and used as a trumpet.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c18",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna lifted Mount Govardhana to foil a terrible deluge sent by Indra, conquered Saubha, the floating city of the Titans, got the better of the sea-god Varuna and stole the divine discus of the fire-god Agni.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna mengangkat Gunung Govardhana untuk menggagalkan banjir dahsyat kiriman Indra, menaklukkan Saubha kota terapung para Titan, mengungguli dewa laut Varuna, dan mencuri cakram ilahi milik dewa api Agni.",
+          "quote": "Krishna also found time to lift the mountain Govardhana to foil a terrible deluge sent by Indra, to conquer Saubha, the floating city of the Titans (daityas), got the better of the sea-god Varuna, and even managed to steal the divine discus possessed by the fire-god Agni.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c19",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna acted as the warrior-prince Arjuna's charioteer in the Great War at Kurukshetra between the Pandavas (whom he supported) and the Kauravas, and on the eve of the battle he recounted the Bhagavad Gita to Arjuna.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna menjadi kusir kereta pangeran-pejuang Arjuna dalam Perang Besar di Kurukshetra antara Pandawa (yang ia dukung) dan Kaurawa, dan pada malam sebelum perang itu ia melantunkan Bhagavad Gita kepada Arjuna.",
+          "quote": "Krishna acted as the warrior-prince Arjuna's charioteer in the Great War, the Battle of Kurukshetra, between the Pandavas (whom Krishna supported) and the Kauravas. It was on the eve of this battle that Krishna recounted the sacred song of the Bhagavad Gita to Arjuna.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c20",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in the Bhagavad Gita Krishna states that the whole universe was created by him and all things exist in him, and Arjuna calls him divine, prior to the gods, unborn and omnipresent.",
+          "statement_id": "Menurut World History Encyclopedia, dalam Bhagavad Gita Krishna menyatakan bahwa seluruh alam semesta diciptakan olehnya dan segala sesuatu ada di dalam dirinya, dan Arjuna menyebutnya ilahi, mendahului para dewa, tak dilahirkan, dan mahahadir.",
+          "quote": "It is in the Bhagavad Gita that Krishna also states that 'All this universe has been created by me; all things exist in me'. Arjuna, in the same work, tells us that Krishna is 'divine, prior to the gods, unborn, omnipresent'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c21",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna built the fortress city of Dvaraka in Gujarat, known as the 'City of Gates'; seven days after he was accidentally killed by a hunter's arrow striking his heel, Dvaraka was submerged beneath the ocean.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna membangun kota benteng Dvaraka di Gujarat, dijuluki Kota Gerbang; tujuh hari setelah ia tewas secara tak sengaja oleh panah pemburu yang mengenai tumitnya, Dvaraka tenggelam di bawah laut.",
+          "quote": "In other adventures Krishna built the great fortress city of Dvaraka in Gujarat, known as the 'City of Gates'. Seven days after Krishna was accidentally killed by a hunter's arrow striking his heel, Dvaraka was submerged beneath the ocean.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c22",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna stole the sacred Parijata tree from Indra, defeating the god, and planted it at Dvaraka, but on his death it was returned to Indra.",
+          "statement_id": "Menurut World History Encyclopedia, Krishna mencuri pohon suci Parijata dari Indra dan mengalahkannya, menanamnya di Dvaraka, tetapi setelah ia wafat pohon itu dikembalikan kepada Indra.",
+          "quote": "Krishna had also stolen the sacred Parijata tree from Indra, defeating the god in the process. Krishna planted the tree at Dvaraka, but upon his death it was returned to Indra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c23",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, the worship of Krishna may have started as early as the 5th century BCE; today many believers worship him as the supreme Hindu god and he is especially revered in Bengal and Udupi in southern India.",
+          "statement_id": "Menurut World History Encyclopedia, pemujaan Krishna mungkin bermula sedini abad ke-5 SM; kini ia dipuja banyak orang sebagai dewa Hindu tertinggi dan terutama dihormati di Bengal dan Udupi di India selatan.",
+          "quote": "The worship of Krishna may have started as early as the 5th century BCE. Today he is worshipped as the supreme Hindu god by many believers, and he is especially revered in Bengal and Udupi in southern India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c24",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna is typically portrayed in Hindu art with dark skin (usually blue-black), may carry the discus Vajranabha and the club Kaumodaki given by Agni, wears a yellow robe, has a peacock feather in his hair and commonly plays a flute.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Hindu Krishna biasanya digambarkan berkulit gelap (biasanya biru-hitam), dapat membawa cakram Vajranabha dan gada Kaumodaki pemberian Agni, berjubah kuning, berbulu merak di rambutnya, dan umumnya memainkan seruling.",
+          "quote": "Krishna is typically portrayed in Hindu art with a dark skin (usually blue-black), and he may carry the cakra discus Vajranabha and the club Kaumodaki – both given to him by Agni. He typically wears a yellow robe, has a peacock feather in his long black hair, and commonly plays a flute.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c25",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Khmer art the most popular scene of Krishna's adventures is the lifting of Mt. Govardhana, frequently represented in architectural sculpture at famous sites such as Angkor Wat.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Khmer adegan petualangan Krishna yang paling populer adalah pengangkatan Gunung Govardhana, yang sering terpahat pada arsitektur di situs terkenal seperti Angkor Wat.",
+          "quote": "In Khmer art the most popular scene of Krishna's adventures is the lifting of Mt. Govardhana, and the god is frequently represented in the architectural sculpture at such famous sites as Angkor Wat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c26",
+          "source_id": "krishna-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the preface to Edwin Arnold's translation, the plot of the Bhagavad Gita is a dialogue between Prince Arjuna and Krishna, the Supreme Deity, wearing the disguise of a charioteer.",
+          "statement_id": "Dalam pengantar terjemahan Edwin Arnold, alur Bhagavad Gita berupa dialog Pangeran Arjuna dengan Krishna, Dewa Tertinggi yang menyamar sebagai kusir kereta.",
+          "quote": "Its simple plot consists of a dialogue held by Prince Arjuna, the brother of King Yudhisthira, with Krishna, the Supreme Deity, wearing the disguise of a charioteer.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c27",
+          "source_id": "krishna-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bhagavad Gita (Arnold translation), Krishna says he is the Spirit seated deep in every creature's heart; from him they come, by him they live, and at his word they depart.",
+          "statement_id": "Dalam Bhagavad Gita (terjemahan Arnold), Krishna berkata bahwa ia adalah Roh yang bersemayam dalam hati setiap makhluk; dari-Nya mereka datang, oleh-Nya mereka hidup, dan atas titah-Nya mereka pergi.",
+          "quote": "I am the Spirit seated deep in every creature's heart; From Me they come; by Me they live; at My word they depart!",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c28",
+          "source_id": "krishna-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bhagavad Gita (Arnold translation), Krishna says that among the Adityas he is Vishnu and among the Rudras he is Sankara.",
+          "statement_id": "Dalam Bhagavad Gita (terjemahan Arnold), Krishna berkata bahwa di antara para Aditya ia adalah Wisnu dan di antara para Rudra ia adalah Sankara.",
+          "quote": "Vishnu of the Adityas I am, those Lords of Light ... of Rudras Sankara",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c29",
+          "source_id": "krishna-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bhagavad Gita (Arnold translation), Krishna shows Arjuna all his semblances, infinite, rich and divine, with changeful hues and countless forms.",
+          "statement_id": "Dalam Bhagavad Gita (terjemahan Arnold), Krishna memperlihatkan kepada Arjuna semua rupa-Nya yang tak terhingga, kaya, dan ilahi, dengan warna-warna yang berubah dan wujud yang tak terhitung.",
+          "quote": "I show thee all my semblances, infinite, rich, divine, My changeful hues, my countless forms.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c30",
+          "source_id": "krishna-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bhagavad Gita (Arnold translation), after showing his awesome form, Krishna tells Arjuna that he is once more the Krishna of the form he knew of old.",
+          "statement_id": "Dalam Bhagavad Gita (terjemahan Arnold), setelah menampakkan wujud-Nya yang menakjubkan, Krishna berkata kepada Arjuna bahwa ia kembali menjadi Krishna dengan rupa yang dikenalnya dahulu.",
+          "quote": "Once more I am thy Krishna, the form thou knew'st of old!",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c31",
+          "source_id": "krishna-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, Krishna upheld Mount Govardhana with one hand as if in sport, and for seven days and nights the clouds sent by Indra poured showers on the Gokula of Nanda, but its dwellers were protected by the height of the mountain.",
+          "statement_id": "Dalam Wisnu Purana, Krishna mengangkat Gunung Govardhana dengan satu tangan seolah bermain, dan selama tujuh hari tujuh malam awan kiriman Indra menurunkan hujan atas Gokula milik Nanda tetapi para penghuninya terlindung oleh ketinggian gunung itu.",
+          "quote": "Having thus made up his mind, Krishna immediately upheld the mountain Govardhana with one hand as if in sport ... For seven days and nights did the vast clouds, despatched by Indra, pour down showers upon the Gokula of Nanda, to destroy the dwellers, but they were protected by the height of the mountain.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c32",
+          "source_id": "krishna-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, Krishna sees the pool with the dreadful serpent Kāliya boiling with the fires of poison and resolves to slay it so that the inhabitants of Vraja may live happily freed from fear.",
+          "statement_id": "Dalam Wisnu Purana, Krishna melihat kolam berisi ular dahsyat Kāliya yang mendidih oleh api bisa, dan berniat membunuhnya agar penduduk Vraja hidup bahagia tanpa rasa takut.",
+          "quote": "There he saw the pool with the dreadful serpent Kāliya, boiling with the fires of poison ... I must slay this serpent, so that the inhabitants of Vraja may live here happily freed from fear.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c33",
+          "source_id": "krishna-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, Krishna seizes Kansa by the hair, strikes his tiara to the ground and throws him down and falls upon him, so that Kansa, the son of Ugrasena, gives up the ghost, crushed by the weight of the upholder of the universe.",
+          "statement_id": "Dalam Wisnu Purana, Krishna menarik rambut Kansa, menjatuhkan mahkotanya, lalu menjatuhkan Kansa ke tanah dan menimpanya, sehingga Kansa, putra Ugrasena, tewas tertindih beban sang penopang alam semesta.",
+          "quote": "laid hold of him by the hair of his head, and struck his tiara to the ground: then casting him down upon the earth, Govinda threw himself upon him. Crushed by the weight of the upholder of the universe, the son of Ugrasena, Kansa the king, gave up the ghost.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c34",
+          "source_id": "krishna-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, a voice from the sky tells Kansa that the eighth child of Devaki shall destroy his life.",
+          "statement_id": "Dalam Wisnu Purana, sebuah suara dari langit berkata kepada Kansa bahwa anak kedelapan Devaki akan mengakhiri hidupnya.",
+          "quote": "A voice was heard in the sky, loud and deep as thunder, which addressing Kansa, said—\"O foolish, the eighth child of this damsel, whom thou art carrying in the car, along with her husband, shall destroy thy life\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c35",
+          "source_id": "krishna-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Vishnu Purana, the supreme deity plucks off two hairs, one white and one black, and declares that his black hair shall be impersonated in the eighth conception of Devaki, the wife of Vasudeva, and shall destroy Kansa.",
+          "statement_id": "Dalam Wisnu Purana, Sang Dewa Tertinggi mencabut dua helai rambut, putih dan hitam, dan menyatakan bahwa rambut hitamnya akan menjelma dalam kandungan kedelapan Devaki, istri Wasudewa, dan akan membinasakan Kansa.",
+          "quote": "the supreme deity plucked off two hairs, one white and one black and said to the celestials ... This, my black hair, shall be impersonated in the eighth conception of the goddess-like Devaki, the wife of Vasudeva and shall destroy Kansa",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -704,7 +1755,7 @@
             "deskripsi berkas",
             "dipakai di en.wikipedia.org: Krishna"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/krishna-1.png"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/krishna-1.png"
         }
       ]
     }
