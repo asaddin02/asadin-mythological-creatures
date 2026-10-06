@@ -1,6 +1,6 @@
 # Review batch-006
 
-Diperiksa 2026-09-29T12:07:31.386Z. Berkas: batch-006.md.
+Diperiksa 2026-10-06T14:34:44.434Z. Berkas: batch-006.md, batch-006-fix-1.md.
 
 ## manananggal — lulus-otomatis
 
@@ -41,10 +41,9 @@ Klaim 20 (exact 20), sumber 3, gambar 1.
 
 ## nang-tani — lulus-otomatis
 
-Klaim 13 (loose 1, exact 12), sumber 1, gambar 1.
+Klaim 19 (loose 1, exact 18), sumber 3, gambar 1.
 
 **manual**
-- `tier` Di bawah target rich: 13 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:XRF-Tani-.jpg)` Keterkaitan otomatis: dipakai di bcl.wikipedia.org: Nang Tani. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -62,13 +61,19 @@ Klaim 13 (loose 1, exact 12), sumber 1, gambar 1.
 | nang-tani-c11 | exact | en.wikipedia.org | Bashōnosei, Japanese ghostly banana trees, are listed as a similar ghost; they usually appear as a human face among banana leaves. | Bashōnosei: Japanese ghostly banana trees (Musa basjoo), they usually appear as a human face amongst the broad, flat banana leaves. |
 | nang-tani-c12 | exact | en.wikipedia.org | Nang Tani features in Thai films such as Nang Phrai Tani (1967), which has become a classic. | Nang Tani is a popular folk spirit that has been featured in some Thai films such as Nang Phrai Tani (นางพรายตานี), a film made in 1967 that has become a classic. |
 | nang-tani-c13 | exact | en.wikipedia.org | The 2000 film Phrai Tani is among lesser films with the banana-tree ghost in the main role. | and 2000 film Phrai Tani (พรายตานี), are less important movies in which the banana tree ghost plays the main role. |
+| nang-tani-c14 | exact | en.wikipedia.org | The Kluai Tani type of banana tree is not one of the cultivated varieties. | The Kluai Tani type of banana tree does not belong to the cultivated varieties. |
+| nang-tani-c15 | exact | en.wikipedia.org | These trees look much like ordinary banana trees but their fruits are inedible; the leaves are commonly used in Thailand to wrap local sweets and the inflorescence is used against ulcers in traditional medicine. | They look very much like average banana trees, but their fruits are not edible. Their leaves are commonly used in Thailand to wrap locally produced sweets and the inflorescence for the treatment of ulcers in traditional medicine. |
+| nang-tani-c16 | exact | en.wikipedia.org | In some modern representations the lower part of her body is shown as immaterial, her waist cloth ending in a wisp emanating from the tree trunk. | In some modern representations the lower part of her body is represented with an immaterial quality, her waist cloth ending in a kind of wisp emanating from the tree trunk. |
+| nang-tani-c17 | exact | en.wikipedia.org | This female ghost is much loved in Thai popular culture; representations and stories about her, sometimes humorous, are common in Thai comic books and story books, and Tani also has a role in the animated movie Nak. | This female ghost is much loved in Thai popular culture, representations and stories about her, sometimes humorous, are common in Thai comic books and story books. Tani has a role as well in the Nak animated movie. |
+| nang-tani-c18 | exact | so02.tci-thaijo.org | In this journal's book review, นางตานี (Nang Tani) is listed among the Thai ghosts covered in the second part of the reviewed book. | ผีปอบ ผีกองกอย นางตานี ผีนางกวัก ผีปกกะโหล้ง ผีกระสือ ผีแม่ย่านาง ผีนางนาคพระโขนง ผีปู่สมิง |
+| nang-tani-c19 | exact | www.nationthailand.com | The Nation, in a list of popular Thai ghosts, says this ghost is popularly represented as a beautiful young woman in green traditional Thai dress who stands with her feet not touching the ground. | This ghost is popularly represented as a beautiful young woman wearing a green traditional Thai costume. She generally appears in a standing position and her feet don't touch the ground. |
 
 - Gambar File:XRF-Tani-.jpg: lisensi Commons "CC BY-SA 3.0" (OPEN_LICENSE); pembuat Xavier Romero-Frias; tanggal 28 September 2012, 17:00:44
   - deskripsi: Tani a female spirit of Southeast Asian folklore
   - kategori: CC-BY-SA-3.0; Culture of Laos; Ghosts in Thai culture; Paintings by Xavier Romero-Frias; Paintings without Wikidata item; Sbai in art; Self-published work
   - dipakai di: as.wikipedia.org: নং টানি; as.wikipedia.org: নাং মাই; bcl.wikipedia.org: Osipon kan Thai; bcl.wikipedia.org: Nang mai; bcl.wikipedia.org: Nang Tani; ca.wikipedia.org: Banana; da.wikipedia.org: Åndehus; en.wikipedia.org: Banana; en.wikipedia.org: Nang Tani; en.wikipedia.org: Thai folklore; en.wikipedia.org: Nang mai; eo.wikipedia.org: Banano; es.wikipedia.org: Nang Tani; fa.wikipedia.org: نانگ تانی; fr.wikipedia.org: Phi (esprits animistes)
   - bukti dari Gemini: Deskripsi berkas di Commons: "Tani a female spirit of Southeast Asian folklore"; kategori Ghosts in Thai culture; gambar utama artikel Wikipedia en Nang Tani.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/nang-tani-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/nang-tani-1.jpg
 
 ## leyak — skip
 
@@ -112,13 +117,9 @@ Klaim 18 (exact 13, loose 1, unreachable 4), sumber 3, gambar 0.
 
 ## au-co — lulus-otomatis
 
-Klaim 14 (exact 14), sumber 3, gambar 1.
-
-**warn**
-- `conflicts[0].positions[0].summary` Tidak muncul di kutipan mana pun: Airlines. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+Klaim 15 (exact 15), sumber 3, gambar 1.
 
 **manual**
-- `tier` Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:Chùa Hộ Quốc (tượng Quốc mẫu Âu Cơ, cận cảnh) (4).jpg)` Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori "Statues of Âu Cơ", dipakai di en.wikipedia.org: Âu Cơ. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -137,10 +138,11 @@ Klaim 14 (exact 14), sumber 3, gambar 1.
 | au-co-c13 | exact | en.wikipedia.org | The story of Âu Cơ and Lạc Long Quân is widely taught in Vietnamese schools. | The story of Âu Cơ and Lạc Long Quân is taught widely in Vietnamese schools. |
 | au-co-c14 | exact | heritagevietnamairlines.com | In this version, King De Lai and his daughter Au Co from the North visited the South. | At this time, King De Lai and his daughter Au Co from the North went to visit the South. |
 | au-co-c15 | exact | en.wikipedia.org | In the Lĩnh Nam chích quái, Âu Cơ threw her egg sac into a field, thinking it a bad omen. | Additionally in Lĩnh Nam chích quái, Âu Cơ gave birth to an egg sac but threw it away in the field, believing the egg sac to carry bad omens. |
+| au-co-c16 | exact | en.wikipedia.org | Ngô Sĩ Liên commented in the sử ký on the somewhat primitive nature of the relationship between the two progenitors, since Lạc's father Kinh Dương Vương and Âu's grandfather Đế Nghi were brothers. | Ngô Sĩ Liên commented in the sử ký on the somewhat primitive nature of the relationship between the two progenitors, given that Lạc's father Kinh Dương Vương and Âu's grandfather Đế Nghi were brothers. |
 
 - Gambar File:Chùa Hộ Quốc (tượng Quốc mẫu Âu Cơ, cận cảnh) (4).jpg: lisensi Commons "CC BY-SA 4.0" (OPEN_LICENSE); pembuat Phương Huy; tanggal 2022-07-25 17:13:08
   - deskripsi: Statues of Âu Cơ
   - kategori: CC-BY-SA-4.0; Self-published work; Statues of Âu Cơ
   - dipakai di: az.wikipedia.org: Au Ko; en.wikipedia.org: Âu Cơ; fi.wikipedia.org: Kansakunnan henkilöitymä
   - bukti dari Gemini: Nama berkas menyebut 'tượng Quốc mẫu Âu Cơ' (patung Ibu Bangsa Âu Cơ); kategori Commons Statues of Âu Cơ; gambar utama artikel Wikipedia en Âu Cơ.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/au-co-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/au-co-1.jpg

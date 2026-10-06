@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-006",
-  "checked_at": "2026-09-29T12:07:31.386Z",
+  "checked_at": "2026-10-06T14:34:44.434Z",
   "files": [
-    "batch-006.md"
+    "batch-006.md",
+    "batch-006-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -265,23 +266,20 @@
           ],
           "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/manananggal-1.jpg"
         }
-      ]
+      ],
+      "entry_sha256": "e7d4e3a683870f25215cde89a117e7dda22a3576afc22ee44a9bb92fa15a8277"
     },
     {
       "slug": "nang-tani",
-      "file": "batch-006.md",
+      "file": "batch-006-fix-1.md",
+      "entry_sha256": "0714786a611fb36ebe6366ff1986f748fff73c22a8e59860b5a546eee9a52889",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 13,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 13 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:XRF-Tani-.jpg)",
@@ -418,6 +416,66 @@
           "quote": "and 2000 film Phrai Tani (พรายตานี), are less important movies in which the banana tree ghost plays the main role.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nang-tani-c14",
+          "source_id": "nang-tani-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Kluai Tani type of banana tree is not one of the cultivated varieties.",
+          "statement_id": "Pisang kluai tani bukan termasuk varietas budidaya.",
+          "quote": "The Kluai Tani type of banana tree does not belong to the cultivated varieties.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-tani-c15",
+          "source_id": "nang-tani-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These trees look much like ordinary banana trees but their fruits are inedible; the leaves are commonly used in Thailand to wrap local sweets and the inflorescence is used against ulcers in traditional medicine.",
+          "statement_id": "Pohon ini sangat mirip pisang biasa tetapi buahnya tidak dapat dimakan; daunnya lazim dipakai di Thailand untuk membungkus kue lokal dan jantung pisangnya untuk mengobati bisul dalam pengobatan tradisional.",
+          "quote": "They look very much like average banana trees, but their fruits are not edible. Their leaves are commonly used in Thailand to wrap locally produced sweets and the inflorescence for the treatment of ulcers in traditional medicine.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-tani-c16",
+          "source_id": "nang-tani-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some modern representations the lower part of her body is shown as immaterial, her waist cloth ending in a wisp emanating from the tree trunk.",
+          "statement_id": "Dalam sebagian penggambaran modern, bagian bawah tubuhnya dilukiskan tak berwujud padat, dengan kain pinggangnya berakhir seperti kepulan yang keluar dari batang pohon.",
+          "quote": "In some modern representations the lower part of her body is represented with an immaterial quality, her waist cloth ending in a kind of wisp emanating from the tree trunk.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nang-tani-c17",
+          "source_id": "nang-tani-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This female ghost is much loved in Thai popular culture; representations and stories about her, sometimes humorous, are common in Thai comic books and story books, and Tani also has a role in the animated movie Nak.",
+          "statement_id": "Hantu perempuan ini sangat disukai dalam budaya populer Thai; penggambaran dan cerita tentangnya, kadang jenaka, lazim ada di komik dan buku cerita Thai, dan Tani juga berperan dalam film animasi Nak.",
+          "quote": "This female ghost is much loved in Thai popular culture, representations and stories about her, sometimes humorous, are common in Thai comic books and story books. Tani has a role as well in the Nak animated movie.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nang-tani-c18",
+          "source_id": "nang-tani-s2",
+          "host": "so02.tci-thaijo.org",
+          "statement": "In this journal's book review, นางตานี (Nang Tani) is listed among the Thai ghosts covered in the second part of the reviewed book.",
+          "statement_id": "Dalam ulasan buku di jurnal ini, นางตานี (Nang Tani) tercantum di antara hantu-hantu Thai yang dibahas dalam bagian kedua buku tersebut.",
+          "quote": "ผีปอบ ผีกองกอย นางตานี ผีนางกวัก ผีปกกะโหล้ง ผีกระสือ ผีแม่ย่านาง ผีนางนาคพระโขนง ผีปู่สมิง",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-tani-c19",
+          "source_id": "nang-tani-s3",
+          "host": "www.nationthailand.com",
+          "statement": "The Nation, in a list of popular Thai ghosts, says this ghost is popularly represented as a beautiful young woman in green traditional Thai dress who stands with her feet not touching the ground.",
+          "statement_id": "The Nation, dalam daftar hantu Thai populer, menyebut hantu ini umumnya digambarkan sebagai perempuan muda cantik berbusana tradisional Thai hijau, yang berdiri dengan kaki tidak menyentuh tanah.",
+          "quote": "This ghost is popularly represented as a beautiful young woman wearing a green traditional Thai costume. She generally appears in a standing position and her feet don't touch the ground.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": [
@@ -461,7 +519,7 @@
           "auto_evidence": [
             "dipakai di bcl.wikipedia.org: Nang Tani"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/nang-tani-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/nang-tani-1.jpg"
         }
       ]
     },
@@ -482,7 +540,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "876593d44d97a087ad38de22b3f97bfd87e4449b070b7379998bb9a61f380381"
     },
     {
       "slug": "penanggalan",
@@ -686,28 +745,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0090f308fbda264cc77c4056798a06a97ae7dce15a297f0e3325c52973cd15fd"
     },
     {
       "slug": "au-co",
-      "file": "batch-006.md",
+      "file": "batch-006-fix-1.md",
+      "entry_sha256": "ec386cce94f48e7990c9e2898d82cb1f72a7a547f7ee2f3264472ce806e4ff2b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 14,
+        "claims": 15,
         "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "conflicts[0].positions[0].summary",
-          "message": "Tidak muncul di kutipan mana pun: Airlines. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Chùa Hộ Quốc (tượng Quốc mẫu Âu Cơ, cận cảnh) (4).jpg)",
@@ -854,6 +905,16 @@
           "quote": "Additionally in Lĩnh Nam chích quái, Âu Cơ gave birth to an egg sac but threw it away in the field, believing the egg sac to carry bad omens.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "au-co-c16",
+          "source_id": "au-co-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ngô Sĩ Liên commented in the sử ký on the somewhat primitive nature of the relationship between the two progenitors, since Lạc's father Kinh Dương Vương and Âu's grandfather Đế Nghi were brothers.",
+          "statement_id": "Ngô Sĩ Liên mengomentari dalam sử ký sifat hubungan kedua leluhur itu yang agak primitif, karena ayah Lạc, Kinh Dương Vương, dan kakek Âu, Đế Nghi, bersaudara.",
+          "quote": "Ngô Sĩ Liên commented in the sử ký on the somewhat primitive nature of the relationship between the two progenitors, given that Lạc's father Kinh Dương Vương and Âu's grandfather Đế Nghi were brothers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": [
@@ -884,7 +945,7 @@
             "kategori \"Statues of Âu Cơ\"",
             "dipakai di en.wikipedia.org: Âu Cơ"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/au-co-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-006/au-co-1.jpg"
         }
       ]
     }

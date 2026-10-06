@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-007",
-  "checked_at": "2026-09-29T12:14:41.348Z",
+  "checked_at": "2026-10-06T14:34:44.765Z",
   "files": [
-    "batch-007.md"
+    "batch-007.md",
+    "batch-007-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -24,23 +25,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "029e0d7f3f1d90c2becf443536e4e0cd27d2012adb62ddec52d576bc7c0d029e"
     },
     {
       "slug": "suvannamaccha",
-      "file": "batch-007.md",
+      "file": "batch-007-fix-1.md",
+      "entry_sha256": "3a79840173e371b0fed3a70384a4bac35106db99783e1a2c4cfb3c8fcbfeddec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 2,
+        "claims": 21,
+        "sources": 4,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Mermaid-Nonthaburi44.JPG)",
@@ -147,6 +145,116 @@
           "quote": "particularly prominent in Reamker, Cambodia’s epic poem and Ramakien, Thailand’s national epic.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c11",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Hanuman launches repeated attacks on her but she evades him every time, and in the course of this battle he falls in love with her.",
+          "statement_id": "Hanoman berulang kali menyerangnya tetapi ia selalu berhasil menghindar, dan dalam pertarungan itu Hanoman jatuh cinta kepadanya.",
+          "quote": "He launches repeated attacks on her but she manages to evade him every time, and over the course of this battle, Hanuman falls in love with her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c12",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Several murals, Thai silk paintings, illustrations, sepia paper art, sculptures and even paper and cloth charms depict Ravana's mermaid daughter in amorous embraces with Hanuman.",
+          "statement_id": "Sejumlah mural, lukisan sutra Thai, ilustrasi, karya seni kertas sepia, patung, bahkan jimat kertas dan kain menggambarkan putri duyung putri Rahwana berpelukan mesra dengan Hanoman.",
+          "quote": "Several murals, Thai silk paintings, illustrations, sepia paper art, sculptures and even paper and cloth charms depict the mermaid daughter of Ravana ... entangled in amorous embraces with Hanuman.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c13",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "According to the article, Robam Sovann Maccha is dated to the seventh century, was performed as a temple ritual during the Angkor period, and is a famous piece in the repertoire of the Royal Ballet of Cambodia today.",
+          "statement_id": "Menurut artikel ini, Robam Sovann Maccha bertarikh abad ke-7 (tertulis 'the seventh century'), dipentaskan sebagai ritual kuil pada masa Angkor, dan kini menjadi karya terkenal dalam repertoar Balet Kerajaan Kamboja.",
+          "quote": "is also performed as Robam Sovann Maccha ... Dated to the seventh century, it was performed as a temple ritual during the Angkor period and is a famous piece in the repertoire of the Royal Ballet of Cambodia today.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c14",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Hanuman, the valiant monkey god in Hinduism, and his vanara army set out on the monumental task of building a bridge to Lanka to help Rama rescue his wife Sita from Ravana's clutches.",
+          "statement_id": "Hanoman, dewa kera perkasa dalam agama Hindu, bersama pasukan vanara memulai tugas besar membangun jembatan ke Lanka untuk membantu Rama menyelamatkan istrinya, Sita, dari cengkeraman Rahwana.",
+          "quote": "Hanuman, the valiant monkey god in Hinduism, and his vanara army of anthropomorphic monkeys embark on the monumental task of building a bridge to Lanka to help Rama rescue his wife, Sita, from the clutches of Ravana.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c15",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Hanuman abandons his forceful approach and showers her with tenderness instead of attacks until she returns his love, and they spend a blissful period underwater.",
+          "statement_id": "Hanoman meninggalkan cara kasarnya dan mencurahkan kelembutan alih-alih serangan sampai ia pun membalas cintanya, dan mereka menghabiskan masa bahagia di bawah air.",
+          "quote": "He abandons his forceful approach and showers her with tenderness instead of attacks until she, too, returns his love, and they spend a blissful period underwater.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c16",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Macchanu, with a vanara's torso and a fish's lower body, later opposes Hanuman during a battle with Ravana's army.",
+          "statement_id": "Macchanu, yang bertubuh atas vanara dan bertubuh bawah ikan, kemudian melawan Hanoman dalam pertempuran melawan pasukan Rahwana.",
+          "quote": "With a vanara’s torso and the lower body of a fish, Macchanu opposes Hanumanu later during a battle with Ravana’s army.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c17",
+          "source_id": "suvannamaccha-s3",
+          "host": "seasite.niu.edu",
+          "statement": "According to this slide's caption, Hanuman was trying to arrest Nang Suwan Matcha, a 'murmaid', to ask for information on one of the duties assigned by Pra Rama, and he eventually had her as one of his many mistresses.",
+          "statement_id": "Menurut keterangan slide ini, Hanoman berusaha menangkap Nang Suwan Matcha, seorang 'murmaid' (putri duyung), untuk menanyakan informasi saat menjalankan salah satu tugas dari Pra Rama; ia akhirnya menjadikannya salah satu dari banyak kekasihnya.",
+          "quote": "In this slide, he was trying to arrest Nang Suwan Matcha, a murmaid, to ask for information while he was on one of the duties assigned by Pra Rama. He eventually had her as one of his many mistresses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c18",
+          "source_id": "suvannamaccha-s3",
+          "host": "seasite.niu.edu",
+          "statement": "The slide quotes a Thai verse from the Ramakien play (รามเกียรติ์), attributed to the king named พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช, about the chase that ends in the capture of the mermaid (มัจฉานารี).",
+          "statement_id": "Slide ini mengutip bait berbahasa Thai dari lakon Ramakien (รามเกียรติ์) yang disebut sebagai karya raja berjudul พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช, tentang pengejaran hingga tertangkapnya sang putri duyung (มัจฉานารี).",
+          "quote": "บัดนั้น วายุบุตรวุฒิไกรใจกล้า คว้าไขว่ไล่ชิดติดมา ก็จับได้มัจฉานารี (จากบทละครเรื่องรามเกียรติ์ พระราชนิพนธ์ในพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c19",
+          "source_id": "suvannamaccha-s4",
+          "host": "www.gardensbythebay.com.sg",
+          "statement": "According to the Gardens by the Bay annex, the duo dance Sovann Machha (Golden Mermaid Dance) depicts an episode from the story Reamker or Ramayana in which Hanuman, the White Monkey, was ordered by Rama to build a bridge across the sea to Lanka Island.",
+          "statement_id": "Menurut lampiran Gardens by the Bay, tarian duet Sovann Machha (Tari Putri Duyung Emas) menggambarkan satu episode dari kisah Reamker atau Ramayana, ketika Hanoman si Kera Putih diperintah Rama membangun jembatan menyeberangi laut ke Pulau Lanka.",
+          "quote": "This duo dance depicts an episode from the story \"Reamker” or “Ramayana\". In this episode, Hanuman, the White Monkey, was ordered by Rama to construct a bridge across the sea to reach Lanka Island",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c20",
+          "source_id": "suvannamaccha-s4",
+          "host": "www.gardensbythebay.com.sg",
+          "statement": "As the stones laid for the bridge mysteriously disappear, Hanuman investigates the cause and in that mission meets and falls in love with Sovann Machha, the Golden Mermaid.",
+          "statement_id": "Ketika batu-batu jembatan lenyap secara misterius, Hanoman menyelidiki sebabnya dan dalam tugas itu ia bertemu dan jatuh cinta kepada Sovann Machha, Putri Duyung Emas.",
+          "quote": "As the stones laid for the bridge mysteriously disappear, Hanuman investigates the cause and during this mission, he encounters and falls in love with Sovann Machha, the Golden Mermaid.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c21",
+          "source_id": "suvannamaccha-s4",
+          "host": "www.gardensbythebay.com.sg",
+          "statement": "The annex says seven dancers from Cambodia's Classical Dance Group will perform four traditional dances including Sovann Machha (Golden Mermaid Dance), the first three being forms of the Royal Ballet of Cambodia.",
+          "statement_id": "Lampiran ini menyebut tujuh penari dari Kelompok Tari Klasik Kamboja akan membawakan empat tarian tradisional, termasuk Sovann Machha (Tari Putri Duyung Emas); tiga tarian pertama merupakan bentuk Balet Kerajaan Kamboja.",
+          "quote": "seven dancers from Cambodia’s Classical Dance Group will perform four traditional dances – Blessing Dance, Sovann Machha (Golden Mermaid Dance), Tepthida Boung Suong Dance, and Neary Kampuchea Dance – the first three being forms of Royal Ballet of Cambodia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": [
@@ -185,7 +293,7 @@
             "kategori \"Suvannamaccha\"",
             "dipakai di en.wikipedia.org: Suvannamaccha"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/suvannamaccha-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/suvannamaccha-1.jpg"
         }
       ]
     },
@@ -399,23 +507,20 @@
           ],
           "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/tikbalang-1.jpg"
         }
-      ]
+      ],
+      "entry_sha256": "5af38100cce68b036917d27d8729c39c7114394a5a405b64a0d741e3eb97f4b6"
     },
     {
       "slug": "duende",
-      "file": "batch-007.md",
+      "file": "batch-007-fix-1.md",
+      "entry_sha256": "be9013b24c1cdaf94fe40f6642fe20ada0dc6cdf1435c4d369de1f310adba144",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 11,
-        "sources": 1,
+        "claims": 20,
+        "sources": 4,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 11 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Goya - Caprichos (49).jpg)",
@@ -532,6 +637,96 @@
           "quote": "The Chamorro people of the Marianas Islands tell tales of the taotaomo'na, duendes and other spirits.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "duende-c12",
+          "source_id": "duende-s2",
+          "host": "allenartcollection.oberlin.edu",
+          "statement": "In the 1600s, duendes (hobgoblins) were thought to be spirits that fell with Lucifer from heaven; instead of going to hell they lived in the world, frightening and tricking people and amassing untold treasures hidden in underground lairs.",
+          "statement_id": "Pada tahun 1600-an, duende dianggap roh yang jatuh bersama Lucifer dari surga; alih-alih ke neraka, mereka hidup di dunia, menakut-nakuti dan menipu orang, serta menimbun harta tak terhitung di sarang bawah tanah.",
+          "quote": "In the 1600s, duendes (hobgoblins) were thought to be spirits that fell with Lucifer from heaven. Instead of going to hell, they lived in the world, where they frightened and tricked people and amassed untold treasures that they hid in underground lairs.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c13",
+          "source_id": "duende-s2",
+          "host": "allenartcollection.oberlin.edu",
+          "statement": "By the late 1700s, Spanish intellectuals ridiculed popular belief in duendes, and the term was often used to refer to religious figures in satirical publications.",
+          "statement_id": "Pada akhir tahun 1700-an, kaum intelektual Spanyol mengejek kepercayaan rakyat pada duende, dan istilah itu sering dipakai untuk menyebut tokoh agama dalam terbitan satir.",
+          "quote": "By the late 1700s, Spanish intellectuals ridiculed the populace’s belief in duendes. The term was often used to refer to religious figures in satirical publications.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c14",
+          "source_id": "duende-s3",
+          "host": "www.merriam-webster.com",
+          "statement": "The word duende refers to a spirit in Spanish, Portuguese and Filipino folklore and literally means 'ghost' or 'goblin' in Spanish; it is believed to derive from the phrase dueño de casa, 'owner of a house'.",
+          "statement_id": "Kata duende merujuk pada roh dalam cerita rakyat Spanyol, Portugis, dan Filipina, dan dalam bahasa Spanyol secara harfiah berarti 'hantu' atau 'goblin'; diyakini berasal dari frasa dueño de casa, 'pemilik rumah'.",
+          "quote": "The word duende refers to a spirit in Spanish, Portuguese, and Filipino folklore and literally means \"ghost\" or \"goblin\" in Spanish. It is believed to derive from the phrase dueño de casa, which means \"owner of a house.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c15",
+          "source_id": "duende-s3",
+          "host": "www.merriam-webster.com",
+          "statement": "The term is traditionally also used in flamenco music and other art forms for the mystical or powerful force a performer gives off to draw in the audience.",
+          "statement_id": "Istilah ini secara tradisional juga dipakai dalam musik flamenco dan seni lain untuk menyebut daya mistis atau kuat yang dipancarkan seorang penampil untuk memikat penonton.",
+          "quote": "The term is traditionally used in flamenco music or other art forms to refer to the mystical or powerful force given off by a performer to draw in the audience.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c16",
+          "source_id": "duende-s4",
+          "host": "aswangproject.com",
+          "statement": "Philippine duwendes are commonly described as an old man ('nuno') the height of a small child dwelling beneath the earth.",
+          "statement_id": "Duwende Filipina umumnya digambarkan sebagai lelaki tua ('nuno') setinggi anak kecil yang tinggal di bawah tanah.",
+          "quote": "Commonly described as an old man or ‘nuno’ with the height of a small child dwelling beneath the earth",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c17",
+          "source_id": "duende-s4",
+          "host": "aswangproject.com",
+          "statement": "Duwendes are known mainly for the magical ability to make anyone who hurt or offended them suffer unusual diseases, from skin rashes and inflammations to fevers that medical treatment cannot cure.",
+          "statement_id": "Duwende terutama dikenal punya kemampuan gaib membuat orang yang menyakiti atau menyinggungnya menderita penyakit aneh, dari ruam kulit, radang, hingga demam yang tidak bisa disembuhkan pengobatan medis.",
+          "quote": "Duwendes are known mainly for they magical ability to make someone who hurt or offended them to suffer with unusual diseases ranging from skin rashes, inflammations and fevers that can’t be cured by any medical interventions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c18",
+          "source_id": "duende-s4",
+          "host": "aswangproject.com",
+          "statement": "In rural areas there are stories that if you manage to befriend a duwende you can expect a successful life.",
+          "statement_id": "Di daerah pedesaan ada cerita bahwa orang yang berhasil berteman dengan duwende dapat berharap hidupnya berhasil.",
+          "quote": "In rural areas there are stories that state if you manage to befriend a Duwende, you can expect to have a successful life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c19",
+          "source_id": "duende-s4",
+          "host": "aswangproject.com",
+          "statement": "There are also the evil and dreaded Itim na Duwende, or Black Dwarves, notorious for harming people.",
+          "statement_id": "Ada pula Itim na Duwende atau 'Kurcaci Hitam' yang jahat dan ditakuti, dikenal suka mencelakai orang.",
+          "quote": "there are also the evil and dreaded Itim na Duwende or Black Dwarves that notoriously inflict harm towards people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c20",
+          "source_id": "duende-s4",
+          "host": "aswangproject.com",
+          "statement": "According to this article, the Spanish were quick to apply their own blanket term to these beings, 'duende', a contraction of duen de casa, from dueño de casa ('owner of the house').",
+          "statement_id": "Menurut tulisan ini, orang Spanyol dengan cepat menerapkan istilah mereka sendiri, 'duende', yaitu kontraksi duen de casa dari dueño de casa ('pemilik rumah'), kepada makhluk-makhluk tersebut.",
+          "quote": "the Spanish were quick to apply their own blanket term to these beings, “duende” – contraction of duen de casa, from dueño de casa ‘owner of the house’.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": [
@@ -574,25 +769,21 @@
           "auto_evidence": [
             "dipakai di en.wikipedia.org: Duende"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/duende-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/duende-1.jpg"
         }
       ]
     },
     {
       "slug": "mae-nak-phra-khanong",
-      "file": "batch-007.md",
+      "file": "batch-007-fix-1.md",
+      "entry_sha256": "a8d081b58667726006353192962435fb651cd01aa4671e86f98947a83881b6cc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 16,
-        "sources": 2,
+        "claims": 19,
+        "sources": 5,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Shrinetomaenak.jpg)",
@@ -759,6 +950,36 @@
           "quote": "In alternative versions, a venerable monk named Somdet Phra Phutthachan (To Phrommarangsi) defeats Nak by confining her spirit in the bone of her forehead and binds it to his waistband.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c17",
+          "source_id": "mae-nak-phra-khanong-s3",
+          "host": "www.nationthailand.com",
+          "statement": "The Nation calls Mae Nak, also known as Mae Nak Phra Khanong, a well-known Thai female ghost popularised in many TV series, plays and films, especially Nang Nak, a 1999 Thai supernatural horror film starring the actress Intira \"Sai\" Jaroenpura as Nak.",
+          "statement_id": "The Nation menyebut Mae Nak, juga disebut Mae Nak Phra Khanong, sebagai hantu perempuan Thai yang terkenal dan dipopulerkan dalam banyak serial TV, sandiwara, dan film, terutama Nang Nak, film horor supranatural Thai tahun 1999 yang dibintangi aktris Intira \"Sai\" Jaroenpura sebagai Nak.",
+          "quote": "Mae Nak, also known as Mae Nak Phra Khanong, is a well-known Thai female ghost, popularised in many TV series, plays and films, especially Nang Nak, a 1999 Thai supernatural horror film starring Thai actress Intira \"Sai\" Jaroenpura as Nak.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c18",
+          "source_id": "mae-nak-phra-khanong-s4",
+          "host": "www.thaipbs.or.th",
+          "statement": "Thai PBS NOW says such tales are often made into films and dramas, naming the tale of 'แม่นากพระโขนง' in particular.",
+          "statement_id": "Thai PBS NOW menyebut bahwa sering dibuat menjadi karya film dan drama, dengan kisah 'แม่นากพระโขนง' disebut secara khusus.",
+          "quote": "จึงมักถูกนำมาสร้างเป็นผลงานหนังและละคร โดยเฉพาะเรื่อง “แม่นากพระโขนง”",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c19",
+          "source_id": "mae-nak-phra-khanong-s5",
+          "host": "so02.tci-thaijo.org",
+          "statement": "In this journal's book review, ผีนางนาคพระโขนง is listed among the Thai ghosts covered in the second part of the reviewed book.",
+          "statement_id": "Dalam ulasan buku di jurnal ini, ผีนางนาคพระโขนง tercantum di antara hantu-hantu Thai yang dibahas dalam bagian kedua buku yang diulas.",
+          "quote": "ผีปอบ ผีกองกอย นางตานี ผีนางกวัก ผีปกกะโหล้ง ผีกระสือ ผีแม่ย่านาง ผีนางนาคพระโขนง ผีปู่สมิง",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": [
@@ -800,7 +1021,7 @@
             "kategori \"Shrine of Mae Nak at Wat Mahabut\"",
             "dipakai di ca.wikipedia.org: Ghost of Mae Nak"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/mae-nak-phra-khanong-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/mae-nak-phra-khanong-1.jpg"
         }
       ]
     }
