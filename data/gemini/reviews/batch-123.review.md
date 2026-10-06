@@ -1,6 +1,6 @@
 # Review batch-123
 
-Diperiksa 2026-10-03T03:37:28.559Z. Berkas: batch-123.md.
+Diperiksa 2026-10-06T19:16:33.444Z. Berkas: batch-123.md, batch-123-fix-1.md.
 
 ## topielec — lulus-otomatis
 
@@ -410,10 +410,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## autrimps — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -421,6 +418,12 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | autrimps-c02 | exact | lt.wikipedia.org | Autrimpas is the ancient Prussian sea god. | Autrimpas – senovės prūsų jūros dievas. |
 | autrimps-c03 | exact | lt.wikipedia.org | In 16th–17th-century (XVI, XVII) sources he is called Antrimpus or Natrimpe, described as god of the sea and wide waters, and compared with the Roman Neptune. | XVI a. – XVII a. šaltiniuose jis vadinamas Antrimpu, Natrimpu, apibūdinamas kaip jūros ir plačių vandenų dievas. Lyginamas su romėnų Neptūnu. |
 | autrimps-c04 | exact | lt.wikipedia.org | Vladimir Toporov derives Autrimps and Patrimps from the fertility god Trimps. | Vladimiras Toporovas Autrimpą ir Patrimpą kildina iš vaisingumo dievo Trimpo. |
+| autrimps-c05 | exact | www.mle.lt | According to the Lithuanian Mythology Encyclopedia, Autrimpas (also Autrimpum, Natrimpe, Aurimpus, Autrymius) is an ancient Prussian sea god. | Autrimpas (Autrimpum, Natrimpe, Aurimpus, Autrymius), senovės prūsų jūrų dievas. |
+| autrimps-c06 | exact | www.mle.lt | The name Natrimpe was first recorded in a report from the Bishop of Warmia to the pope in 1418. | Natrimpe vardu pirmą kartą užfiksuotas 1418 Varmės vyskupo pranešime popiežiui. |
+| autrimps-c07 | exact | www.mle.lt | In the 16th century he was identified with the Roman Neptune and mentioned alongside Patrimpas (god of flowing waters) and Bardaitis (god of seafaring). | XVI a. tapatinamas su romėnų Neptūnu ir minimas greta Patrimpo (tekančių vandenų dievo), Bardaičio (jūreivystės dievo). |
+| autrimps-c08 | exact | www.mle.lt | These gods may have been associated with one another because of their link with waters. | Šie dievai galėjo būti siejami dėl jų ryšio su vandenimis. |
+| autrimps-c09 | exact | www.vle.lt | According to the Lithuanian General Encyclopedia, 16th-17th-century sources call him Antrimpus or Natrimpus, describe him as god of the sea and wide waters, and compare him with the Roman Neptune. | senovės prūsų jūros dievas. 16–17 a. šaltiniuose vadinamas Antrimpu, Natrimpu, apibūdinamas kaip jūros ir plačių vandenų dievas; lyginamas su romėnų Neptūnu. |
+| autrimps-c10 | exact | www.vle.lt | V. Toporov derives Autrimpas (and Patrimpas) from the fertility god Trimpas. | V. Toporovas kildina Autrimpą (ir Patrimpą) iš vaisingumo dievo Trimpo. |
 
 
 ## conde-estruch — lulus-otomatis
