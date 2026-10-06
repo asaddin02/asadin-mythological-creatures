@@ -1,6 +1,6 @@
 # Review batch-118
 
-Diperiksa 2026-10-03T01:32:11.426Z. Berkas: batch-118.md.
+Diperiksa 2026-10-06T19:05:15.188Z. Berkas: batch-118.md, batch-118-fix-1.md.
 
 ## cyhyraeth — lulus-otomatis
 
@@ -201,17 +201,16 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## sheka-mythology — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sheka-mythology-c01 | exact | en.wikipedia.org | Sheka (Cyrillic: Шекә), a dwarf-like being of Turkic mythology, in forests or derelict houses; comic situations. | Sheka (Cyrillic: Шекә) is a dwarf-like being in the Turkic mythology, that lives in forests or derelict houses. In the legends they tend to appear in comical situations. |
-| sheka-mythology-c02 | exact | en.wikipedia.org | In Slavic paganism, a field spirit: a deformed dwarf with odd-coloured eyes and grass hair; appears at noon or sunset. | Sheka in Slavic paganism is field spirit that appears as a deformed dwarf with different coloured eyes and grass instead of hair. It appears either at noon or sunset and wear either all black or all white suits. |
-| sheka-mythology-c03 | exact | en.wikipedia.org | Leads wanderers astray, causes disease, pulls peasants' hair; gets children lost; forces singing for hours. | According to local beliefs it leads wandering people in a field astray, give them diseases or ride them over with horses if they are found asleep. It enjoys pulling the hair of peasants working in the midday. |
-| sheka-mythology-c04 | exact | ca.wikipedia.org | ca article: Şekä (Tatar, Шекә; Turkish: Çike), dwarf-like being of Tatar mythology. | Şekä (del tàtar: Şekä o Шекә, turc: Çike) és un ésser semblant a un nan propi de la mitologia tàtara, que viu als boscos o cases abandonades. |
+| sheka-mythology-c01 | exact | en.wikipedia.org | Sheka (Cyrillic: Шекә) is a dwarf-like being in Turkic mythology that lives in forests or derelict houses; in the legends it tends to appear in comical situations. | Sheka (Cyrillic: Шекә) is a dwarf-like being in the Turkic mythology, that lives in forests or derelict houses. In the legends they tend to appear in comical situations. |
+| sheka-mythology-c02 | exact | en.wikipedia.org | In Slavic paganism Sheka is a field spirit: a deformed dwarf with differently coloured eyes and grass instead of hair, appearing at noon or sunset in all-black or all-white clothes. | Sheka in Slavic paganism is field spirit that appears as a deformed dwarf with different coloured eyes and grass instead of hair. It appears either at noon or sunset and wear either all black or all white suits. |
+| sheka-mythology-c03 | exact | en.wikipedia.org | In Slavic paganism, according to local beliefs, Sheka leads wandering people astray in a field, gives them diseases or rides them over with horses if they are found asleep; it enjoys pulling the hair of peasants working at midday. | Sheka in Slavic paganism is field spirit ... According to local beliefs it leads wandering people in a field astray, give them diseases or ride them over with horses if they are found asleep. It enjoys pulling the hair of peasants working in the midday. |
+| sheka-mythology-c04 | exact | ca.wikipedia.org | Catalan Wikipedia article: Şekä (Tatar: Şekä or Шекә; Turkish: Çike) is a dwarf-like being of Tatar mythology that lives in forests or abandoned houses. | Şekä (del tàtar: Şekä o Шекә, turc: Çike) és un ésser semblant a un nan propi de la mitologia tàtara, que viu als boscos o cases abandonades. |
+| sheka-mythology-c05 | exact | en.wikipedia.org | In Slavic paganism, Sheka makes little children get lost in cornfields. | Sheka in Slavic paganism is field spirit ... It also makes little children get lost in cornfields. |
+| sheka-mythology-c06 | exact | en.wikipedia.org | In Slavic paganism, if Sheka catches a person it forces him to sing, which lasts for hours. | Sheka in Slavic paganism is field spirit ... If it catches a person it forces him to sing, which lasts for hours. |
 
 
 ## sihirtia — lulus-otomatis
@@ -244,18 +243,20 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## thunderdell — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | thunderdell-c01 | exact | en.wikipedia.org | Thunderdell (Welsh: Taranau; Thunderdel, Thunderel, Thundrel, Thunderdale, Thunderbore), a two-headed Cornish giant slain by Jack the Giant-Killer in Tabart's stories. | Thunderdell (Welsh: Taranau ), also recorded as Thunderdel, Thunderel, Thundrel, Thunderdale, or Thunderbore, was a two-headed giant of Cornwall slain by Jack the Giant-Killer in the stories of Tabart and others. |
-| thunderdell-c02 | exact | en.wikipedia.org | Crashed Jack's banquet chanting fee fau fum; beheaded via the moat and drawbridge trick. | In Jack the Giant Killer, Thunderdell first appeared where he crashed a banquet that was prepared for Jack. During this time, he chanted "fee fau fum." Jack defeats and beheads the two-headed giant with a trick involving the house's moat and drawbridge. |
-| thunderdell-c03 | exact | en.wikipedia.org | 1800 version: Thunderful from the North Pole; his heads sent to King Arthur's court. | According to one version of the story from 1800, Thunderdell (here identified as "Thunderful") hails from the North Pole. He attacks Jack's banquet in order to avenge the deaths of two giants he had earlier slain, but is himself defeated and his heads sent to the court of King Arthur. |
+| thunderdell-c02 | exact | en.wikipedia.org | In Jack the Giant Killer, Thunderdell first appears crashing a banquet prepared for Jack, chanting "fee fau fum"; Jack defeats and beheads the two-headed giant with a trick involving the house's moat and drawbridge. | In Jack the Giant Killer, Thunderdell first appeared where he crashed a banquet that was prepared for Jack. During this time, he chanted "fee fau fum." Jack defeats and beheads the two-headed giant with a trick involving the house's moat and drawbridge. |
+| thunderdell-c03 | exact | en.wikipedia.org | According to one version of the story from 1800, Thunderdell (here called "Thunderful") hails from the North Pole; he attacks Jack's banquet to avenge the deaths of two giants he had earlier slain, but is defeated and his heads are sent to King Arthur's court. | According to one version of the story from 1800, Thunderdell (here identified as "Thunderful") hails from the North Pole. He attacks Jack's banquet in order to avenge the deaths of two giants he had earlier slain, but is himself defeated and his heads sent to the court of King Arthur. |
 | thunderdell-c04 | exact | en.wikipedia.org | Film Jack and the Beanstalk: The Real Story, played by Bill Barretta. | The Thunderdell name is used for a giant in Jack and the Beanstalk: The Real Story who was portrayed by Bill Barretta. |
 | thunderdell-c05 | exact | es.wikipedia.org | Thunderdell is Monster in My Pocket #98; es article: Thunderdel, Thunderel, Thunderbore. | Thunderdell es el Monster in My Pocket #98. |
+| thunderdell-c06 | exact | www.gutenberg.org | In the tale, Thunderdell, a giant with two heads, having heard of the death of his kinsmen, came from the northern dales to be revenged on Jack. | that one Thunderdell, a giant with two heads, having heard of the death of his kinsmen, had come from the northern dales to be revenged on Jack |
+| thunderdell-c07 | exact | www.gutenberg.org | Thunderdell could not see Jack, but smelt his approach and cried out "Fee, fi, fo, fum! I smell the blood of an Englishman!". | one Thunderdell, a giant with two heads ... Although the giant could not see Jack, he smelt his approach, and cried out in these words: ... Fee, fi, fo, fum! I smell the blood of an Englishman! |
+| thunderdell-c08 | exact | www.gutenberg.org | The two-headed giant accuses Jack of killing his kinsmen and threatens to tear him with his teeth, suck his blood, and grind his bones to powder. | Art thou that villain who killed my kinsmen? Then I will tear thee with my teeth, suck thy blood, and grind thy bones to powder. |
+| thunderdell-c09 | exact | www.gutenberg.org | As the giant chased Jack over the drawbridge, his great weight broke the bridge and he tumbled headlong into the water. | Then, coming to the middle of the bridge, the giant's great weight broke it down, and he tumbled headlong into the water, where he rolled and wallowed like a whale. |
+| thunderdell-c10 | exact | www.gutenberg.org | Jack cast a cart-rope over the giant's two heads, drew him ashore with a team of horses, then cut off both heads and sent them to King Arthur. | Jack at length got a cart-rope and cast it over the two heads of the giant, and drew him ashore by a team of horses, and then cut off both his heads with his sword of sharpness, and sent them to King Arthur. |
 
 
 ## aobh — lulus-otomatis
@@ -276,16 +277,17 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## arausio — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | arausio-c01 | exact | en.wikipedia.org | Arausio, a local Celtic god at Arausio in southern Gaul, now Orange in southern France. | Arausio was a local Celtic god who was venerated in the settlement of Arausio in southern Gaul, now Orange in southern France. |
 | arausio-c02 | exact | cs.wikipedia.org | A local Celtic water god; ancient inscriptions show the town Arausio (Orange) in southern Gaul was named after him. | Arausio byl lokální keltský vodní bůh. Jak dokládají starověké nápisy bylo po něm pojmenováno město Arausio (Orange) v jižní Galii. |
 | arausio-c03 | exact | zh.wikipedia.org | zh article: a Celtic river deity, honoured in southern Gaul under Roman rule, known from inscriptions on finds. | 凯尔特职司河流的神祇之一。盛行于罗马统治时期的高卢南部地区，其事迹反映于相关出土的文物之铭文。 |
+| arausio-c04 | exact | en.wikipedia.org | Per the Wikipedia article on Orange, a Celtic settlement called Aurasio existed in the same place, named after a local sacred spring. | A Celtic settlement called Aurasio existed in the same place, named after a local sacred spring. |
+| arausio-c05 | exact | provence-alpes-cotedazur.com | Per the Provence-Alpes-Côte d'Azur tourism site, a sacred spring gave its name, Arausio, to the site, which later became known as Orange. | A sacred spring gave its name, Arausio, to the site, which later became known as Orange. |
+| arausio-c06 | exact | en.wikipedia.org | Per the Wikipedia article on Orange, the place-name derives from Proto-Celtic *far-aws(y)o-, literally "in front of the ear", which became Gaulish ar-aus(i)o- ("temple, cheek"). | The name itself derived from an earlier Proto-Celtic *far-aws(y)o-, which literally means 'in front of the ear' ... This became the Gaulish ar-aus(i)o- ('temple, cheek'). |
+| arausio-c07 | exact | cs.wikipedia.org | Per the Czech Wikipedia article, in a later period the name of the town Arausio fell out of use and Orange began to be used. | V pozdější době jméno města Arausio zaniklo a začalo se používat Orange. |
 
 
 ## asrai — lulus-otomatis
@@ -305,18 +307,21 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## baloma — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| baloma-c01 | exact | en.wikipedia.org | Baloma, spirit of the dead in Trobriand society (Trobriand Islands, Papua New Guinea), studied by Bronislaw Malinowski in the early 20th century, published 1916. | Baloma is the spirit of the dead in Trobriand society, as studied by Bronislaw Malinowski in the early 20th century, who published an article on it in 1916 |
+| baloma-c01 | exact | en.wikipedia.org | Baloma is the spirit of the dead in Trobriand society (Trobriand Islands, Papua New Guinea), studied by Bronislaw Malinowski in the early 20th century, who published an article on it in 1916. | Baloma is the spirit of the dead in Trobriand society, as studied by Bronislaw Malinowski in the early 20th century, who published an article on it in 1916 |
 | baloma-c02 | exact | en.wikipedia.org | Replaces the role of male sperm (fathers) in conception; maintains matrilineal descent. | It plays a key role in conception ideologies and explains and maintains the matrilineal descent system by substituting the role of male sperm ("fathers") with that of a spirit. |
 | baloma-c03 | exact | en.wikipedia.org | Spirit of a deceased lineage member impregnating women bathing in the sea. | The baloma is that spirit of a deceased lineage member which impregnates the women while bathing in the sea, perpetuating the matrilineage intragenerationally. |
 | baloma-c04 | exact | en.wikipedia.org | Intercourse only opens the path for the baloma into the womb. | The role of sexual intercourse is only indirectly related to conception within Trobriand mentality and seen as a way of opening the path for the baloma to enter the woman's womb. |
 | baloma-c05 | exact | pl.wikipedia.org | pl article: pregnancy through sea bathing; basis of Trobriand matrilineal inheritance. | Można zajść w ciążę, kąpiąc się w morzu. Stosunek seksualny ma rolę drugorzędną, stanowi zaledwie sposób otwarcia drogi dla baloma. Wierzenia te stanowią podstawę matrylinearnego systemu dziedziczenia wśród Trobriandczyków. |
+| baloma-c06 | exact | www.gutenberg.org | Per Malinowski, the spirits of the dead of the Trobrianders migrate immediately after death to the island of Tuma and return once a year to visit their villages and take part in the annual milamala feast, where they receive offerings. | some of the magico-religious ideas of the Trobrianders ... The spirits migrate immediately after death to the island of Tuma, lying in the North-West of Boyowa ... They return to visit their own villages once a year, and take part in the big annual feast, milamala, where they receive offerings. |
+| baloma-c07 | exact | www.gutenberg.org | Malinowski notes that in their belief in the spirits of the dead, the Trobrianders are almost completely devoid of any fear of ghosts. | A few more words must be said about some of the magico-religious ideas of the Trobrianders. The main thing that struck me in connection with their belief in the spirits of the dead, was that they are almost completely devoid of any fear of ghosts |
+| baloma-c08 | exact | www.gutenberg.org | Per Malinowski, the ula'ula, a special type of magical payment, is at the same time an offering to the baloma (spirits). | A special type of magical payment, the ula'ula, is at the same time an offering to the baloma (spirits). |
+| baloma-c09 | exact | www.gutenberg.org | Per Malinowski, in some cases the baloma will appear in dreams and advise the magician what to do. | In some cases the baloma will appear in dreams and advise the magician what to do. |
+| baloma-c10 | exact | www.gutenberg.org | Malinowski interprets that the baloma would go no further than to reproach people for breaking the old rules, and that these natives have no definite ideas about actual punishment meted out by offended spirits. | The baloma would go no further than to reproach them for breaking the old rules, and there are no definite ideas among these natives about actual punishment being meted out by offended spirits. |
+| baloma-c11 | exact | www.gutenberg.org | Per Malinowski, the baloma (spirits) of the ancestors are asked to sit on the canoe slips and chew betel. | Then the baloma (spirits) of these ancestors are asked to sit on the canoe slips and to chew betel |
 
 
 ## bisterne-dragon — lulus-otomatis
@@ -364,18 +369,19 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## bownessie — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bownessie-c01 | exact | en.wikipedia.org | A lake monster in Windermere, Cumbria, England, like that of Loch Ness; photographed 2011; nicknamed Bownessie. | Some people believe that there may be a lake monster, similar to the one alleged to live in Loch Ness, and in 2011 anomalous photos were taken of the supposed creature; it has been affectionately nicknamed "Bownessie". |
-| bownessie-c02 | exact | en.wikipedia.org | Windermere, the largest lake in England, in Cumbria. | Windermere (historically Winder Mere) is a ribbon lake in Cumbria, England. It is within the Lake District and is the largest lake in England by length, area, and volume |
-| bownessie-c03 | exact | fr.wikipedia.org | Bownessie (Bow Nessie) named in tribute to Nessie, the Loch Ness monster of Scotland; like a sea serpent or plesiosaur. | Elle a été baptisée « Bownessie », en hommage a son célèbre « cousin » « vivant » dans un lac d'eau douce d'Écosse, le Monstre du Loch Ness, surnommé Nessie (parfois orthographié Nessy). Bownessie est, elle aussi, décrite comme ressemblant à un serpent de mer ou à un plésiosaure. |
-| bownessie-c04 | exact | fr.wikipedia.org | Dr Ian Winfield, Lancaster University: no fish that big could live in Windermere; tourists' claims February 2011; lake surveyed monthly. | le docteur Ian Winfield, du centre d'écologie et d'hydrologie de l’Université de Lancaster a déclaré : « Aucun poisson aussi grand que les descriptions que l’on nous a données ne pourrait vivre dans le lac Windermere » |
-| bownessie-c05 | exact | fr.wikipedia.org | Per The Telegraph, the photo matched Steve Burnip's 2006 description; nine people claimed sightings. | Selon The Telegraph, cette nouvelle photo faite, du « monstre » correspond à la description qu’en avait fait Steve Burnip en 2006. À ce jour, neuf personnes ont donc affirmé avoir aperçu « Bownessie ». |
+| bownessie-c02 | exact | en.wikipedia.org | Windermere is a ribbon lake in Cumbria, England, within the Lake District, and the largest lake in England by length, area, and volume. | Windermere (historically Winder Mere) is a ribbon lake in Cumbria, England. It is within the Lake District and is the largest lake in England by length, area, and volume |
+| bownessie-c03 | exact | fr.wikipedia.org | Per the French Wikipedia article, Bownessie was named in tribute to its famous "cousin" "living" in a freshwater lake in Scotland, the Loch Ness monster nicknamed Nessie; it too is described as resembling a sea serpent or a plesiosaur. | Elle a été baptisée « Bownessie », en hommage a son célèbre « cousin » « vivant » dans un lac d'eau douce d'Écosse, le Monstre du Loch Ness, surnommé Nessie (parfois orthographié Nessy). Bownessie est, elle aussi, décrite comme ressemblant à un serpent de mer ou à un plésiosaure. |
+| bownessie-c04 | loose | fr.wikipedia.org | Per the French Wikipedia article, after fresh claims by tourists in February 2011, Dr Ian Winfield of the Lancaster University centre for ecology and hydrology said no fish as large as the descriptions given could live in Lake Windermere, and that the lake is surveyed every month and nothing of the kind has ever been found. | À la suite de nouvelles affirmations de touristes en février 2011, le docteur Ian Winfield, du centre d'écologie et d'hydrologie de l’Université de Lancaster a déclaré : « Aucun poisson aussi grand que les descriptions que l’on nous a données ne pourrait vivre dans le lac Windermere », et il a précisé que « le lieu est sondé tous les mois et que rien de tel n'a jamais été trouvé ». |
+| bownessie-c05 | exact | fr.wikipedia.org | Per the French Wikipedia article citing The Telegraph, the new photograph matched the description given by Steve Burnip in 2006; to that date nine people had claimed to see "Bownessie". | Selon The Telegraph, cette nouvelle photo faite, du « monstre » correspond à la description qu’en avait fait Steve Burnip en 2006. À ce jour, neuf personnes ont donc affirmé avoir aperçu « Bownessie ». |
+| bownessie-c06 | exact | www.nbcnews.com | Per NBC News, Tom Pickles and Sara Harrington, work colleagues kayaking at the lake as a team-building exercise, photographed the possible sea creature with a mobile phone. | Tom Pickles and Sara Harrington, work colleagues who were kayaking at the lake as part of a team-building exercise, snapped this photo of the possible sea creature with a mobile phone. |
+| bownessie-c07 | exact | www.nbcnews.com | Per NBC News, the photo appears to show a multi-humped black object moving through the water from left to right; Pickles described it as "a giant dark brown snake with humps measuring three car lengths" with a seal-like skin texture but a "completely abnormal" shape. | It appears to show a multi-humped black object moving through the water from left to right. Pickles described the object as "a giant dark brown snake with humps measuring three car lengths," and said it had seal-like skin texture but with a "completely abnormal" shape. |
+| bownessie-c08 | exact | www.nbcnews.com | Per NBC News, skeptics say the so-called "Bownessie" of England's Lake Windermere could be a hoax. | but skeptics say the so-called "Bownessie" of England's Lake Windermere could be a hoax. |
+| bownessie-c09 | exact | www.nbcnews.com | Per NBC News, the name "Bownessie" is named for Bowness, the local town in England. | While the case of the "Bownessie" (named for Bowness, the local town in England) may not hold up to scrutiny |
 
 
 ## bugbear — lulus-otomatis
@@ -508,33 +514,36 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## gigelorum — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gigelorum-c01 | exact | en.wikipedia.org | Gigelorum (Giol-Daoram), an insect of Scottish folklore, smallest creature, lives in a mite's ear. | Gigelorum (or Giol-Daoram) is an insect of Scottish folklore. It was believed to be the smallest creature. No description or information is available about it except that it inhabits the ear of a mite. |
 | gigelorum-c02 | exact | en.wikipedia.org | Possibly based on the tiniest visible insect, the giolcam-daobhram. | Speculation exists that it may be based upon the tiniest insect that can be discerned by people possessing excellent eyesight, the giolcam-daobhram |
-| gigelorum-c03 | exact | en.wikipedia.org | Ronald Black, Celtic studies lecturer: possibly a figment of John Gregorson Campbell, Tiree minister. | Ronald Black, a one time Celtic studies lecturer, author and journalist, suggests that the creature could be a figment of the imagination of folklorist and Tiree minister John Gregorson Campbell |
+| gigelorum-c03 | exact | en.wikipedia.org | Ronald Black, a one-time Celtic studies lecturer, suggests the creature may have been dreamt up by John Gregorson Campbell, folklorist and minister on Tiree, since Black found no authoritative source for it. | Ronald Black, a one time Celtic studies lecturer, author and journalist, suggests that the creature could be a figment of the imagination of folklorist and Tiree minister John Gregorson Campbell as he could trace no authoritative sources for it |
 | gigelorum-c04 | exact | it.wikipedia.org | it article: a tiny insect, the smallest animal, its habitat mites' ears. | Si tratta di un insetto minuscolo, ritenuto essere il più piccolo animale esistente. Le sue caratteristiche sono ignote, eccezion fatta per il suo habitat, le orecchie degli acari. |
 | gigelorum-c05 | exact | it.wikipedia.org | it article: Ronald Black suggests an invention of John Gregorson Campbell. | Ronald Black, docente occasionale di studi celtici, autore e giornalista, suggerisce come la creatura potrebbe essere un parto della mente del folclorista e ministro di Tiree John Gregorson Campbell |
+| gigelorum-c06 | exact | www.gutenberg.org | Per Campbell, the Giolcam-daoram, or Gigelorum, is the smallest of all animals; it makes its nest in the mite's ear and that is all that is known about it. | The Giolcam-daoram, or Gigelorum, is the smallest of all animals. It makes its nest in the mite's ear and that is all that is known about it. |
+| gigelorum-c07 | exact | en.wikipedia.org | Per the English Wikipedia article, the giolcam-daobhram is described as "an animalcule, the smallest supposable living thing". | the giolcam-daobhram, which is described as "an animalcule, the smallest supposable living thing". |
 
 
 ## glas-gaibhnenn — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| glas-gaibhnenn-c01 | exact | en.wikipedia.org | Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), a fabulous cow of Irish folklore with profuse milk; owned by the smith Gaivnin or Cian mac Cáinte, matching Cian father of Lugh. | in Irish folklore, is a prized fabulous cow of bounty (fertility) that yields profuse quantities of milk. The cow is owned variously by a smith who may be named Gaivnin (hence reinforcing the notion that the cow's name is eponymous after him) or by the hero Cian mac Cáinte |
-| glas-gaibhnenn-c02 | exact | en.wikipedia.org | Stolen by Balar or Balor; the hero taken by a banshee to Balor's daughter's tower; a child destined to kill Balor. | The cow is stolen (or craftily regained) by Balar or Balor the strong-smiter. The hero, in order to fulfill the quest to recover the cow, is transported by a banshee to a tower where Balor's daughter is sequestered, to produce a child destined to kill Balor. |
-| glas-gaibhnenn-c03 | exact | ga.wikipedia.org | Patricia Monaghan: Glas Ghaibhleann a goddess often linked with rivers; Patrick Power, Glas Gamhain. | Scríobh Patricia Monaghan gur bhandia í Glas Ghaibhleann ceangailte go minic le haibhneacha. |
-| glas-gaibhnenn-c04 | exact | en.wikipedia.org | Larminie: Grey cow of the Smith; Rhys: Goibniu's Grey cow; glas blue, green, grey. | Whereas the full name means "Grey (cow) of the Smith" according to Larminie, and "Goibniu's Grey or Brindled (Cow)" according to Rhys. |
+| glas-gaibhnenn-c01 | exact | en.wikipedia.org | Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), in Irish folklore, is a prized fabulous cow of bounty that yields profuse quantities of milk; it is owned variously by a smith who may be named Gaivnin or by the hero Cian mac Cáinte, equivalent to Cian father of Lugh. | in Irish folklore, is a prized fabulous cow of bounty (fertility) that yields profuse quantities of milk. The cow is owned variously by a smith who may be named Gaivnin (hence reinforcing the notion that the cow's name is eponymous after him) or by the hero Cian mac Cáinte |
+| glas-gaibhnenn-c02 | exact | en.wikipedia.org | The cow is stolen (or craftily regained) by Balar or Balor; the hero, to fulfil the quest to recover the cow, is transported by a banshee to a tower where Balor's daughter is sequestered, to produce a child destined to kill Balor. | The cow is stolen (or craftily regained) by Balar or Balor the strong-smiter. The hero, in order to fulfill the quest to recover the cow, is transported by a banshee to a tower where Balor's daughter is sequestered, to produce a child destined to kill Balor. |
+| glas-gaibhnenn-c03 | exact | ga.wikipedia.org | Irish Wikipedia article: Patricia Monaghan wrote that Glas Ghaibhleann is a goddess often associated with rivers. | Scríobh Patricia Monaghan gur bhandia í Glas Ghaibhleann ceangailte go minic le haibhneacha. |
+| glas-gaibhnenn-c04 | exact | en.wikipedia.org | The full name means "Grey (cow) of the Smith" according to Larminie, and "Goibniu's Grey or Brindled (Cow)" according to Rhys. | Whereas the full name means "Grey (cow) of the Smith" according to Larminie, and "Goibniu's Grey or Brindled (Cow)" according to Rhys. |
+| glas-gaibhnenn-c05 | exact | en.wikipedia.org | In one tradition, Lon the smith was for many years nourished by the cow Glas Gaibhneach, which he stole from Spain; the cow was pastured on the mountain of Sliabh-na-Glaise near the forge because no other place in Ireland was fertile enough. | Lon the smith who took up residence here ... He was for many years nourished by the cow Glas Gaibhneach which he stole from Spain, and the cow was pastured on the mountain of Sliabh-na-Glaise, not far from the forge, for no other place in Ireland was fertile enough. |
+| glas-gaibhnenn-c06 | exact | en.wikipedia.org | It was said this cow would fill any vessel with her milk at one milking; when two women wagered and a sieve was produced, her milk caused seven overflooding streams to pour forth. | This cow would fill with her milk any vessel,.. at one milking ... when a sieve was produced, the cow's milk caused seven overflooding streams to pour forth. |
+| glas-gaibhnenn-c07 | exact | en.wikipedia.org | It was said the cow's hoofs were reversed, and the backward tracks always fooled the would-be cattle thieves in pursuit. | Also it was said "the hoofs of this cow were reversed", and the backward tracks always fooled the potential cattle-thieves in pursuit. |
+| glas-gaibhnenn-c08 | exact | www.gutenberg.org | In Lady Gregory's version, Cian had a wonderful cow, the Glas Gaibhnenn, whose milk never failed; everyone who heard of her coveted her and many had tried to steal her, so she had to be watched night and day. | Now Cian had a wonderful cow, the Glas Gaibhnenn, and her milk never failed. And every one that heard of her coveted her, and many had tried to steal her away, so that she had to be watched night and day. |
+| glas-gaibhnenn-c09 | exact | www.gutenberg.org | In Lady Gregory's version, Balor had long set his mind on the Glas Gaibhnenn but had never been able to get near her; when he saw Samthainn holding the cow he put on the appearance of a little boy with red hair. | Now Balor had set his mind for a long time on the Glas Gaibhnenn, but he had never been able to get near her up to this time. And he was watching not far off, and when he saw Samthainn holding the cow, he put on the appearance of a little boy, having red hair |
+| glas-gaibhnenn-c10 | exact | www.gutenberg.org | In Lady Gregory's version, as soon as Balor got the halter in his hand he dragged the Glas to the strand and across the sea to his own island. | no sooner did Balor get the halter in his hand than he set out, dragging the Glas along with him, to the strand, and across the sea to his own island. |
+| glas-gaibhnenn-c11 | exact | www.gutenberg.org | In Lady Gregory's version, a Druid told Cian that so long as Balor lived the cow would never be brought back, for no one would go within reach of his Evil Eye. | When Cian saw his brother coming in he rushed out, and there he saw Balor and the Glas out in the sea. ... it is what the Druid told him, that so long as Balor lived, the cow would never be brought back, for no one would go within reach of his Evil Eye. |
 
 
 ## gwyllgi — lulus-otomatis
@@ -568,26 +577,27 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## jimmy-squarefoot — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | jimmy-squarefoot-c01 | exact | en.wikipedia.org | Jimmy Squarefoot, a bipedal pig-headed creature of Manx folklore, Isle of Man. | In Manx folklore, Jimmy Squarefoot is a legendary bipedal pig-headed creature living on the Isle of Man. |
-| jimmy-squarefoot-c02 | exact | en.wikipedia.org | Ridden by a Foawr, stone-throwing giant of Cronk yn Irree Lhaa, husband of the Caillagh ny Groamagh; tusked pig-headed man or white boar. | He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant, living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh. |
-| jimmy-squarefoot-c03 | exact | en.wikipedia.org | Hills of Arbory and Malew, Grenaby river; cave near South Barrule to the underworld. | Jimmy Squarefoot is said to live in the hills of Arbory and Malew, mainly near the bridge over the Grenaby river. He is said to have a cave near South Barrule, and takes humans through it to the underworld. |
-| jimmy-squarefoot-c04 | exact | en.wikipedia.org | Linked to a buggane in Rushen; sailors' name for the devil in the late 1800s and early 1900s. | Jimmy Squarefoot may also be linked with the story of a buggane in Rushen which was able to transform between a man and a black pig. The name "Jimmy Squarefoot" was also used by sailors to refer to the devil during the late 1800s and early 1900s. |
-| jimmy-squarefoot-c05 | exact | de.wikipedia.org | Large feet wrapped in calico look square, hence the name Squarefoot. | Seine großen Füße sind mit Kaliko-Bändern umwickelt und wirken quadratisch, daher der Name „Squarefoot“. |
+| jimmy-squarefoot-c02 | exact | en.wikipedia.org | He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh. | He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant, living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh. |
+| jimmy-squarefoot-c03 | exact | en.wikipedia.org | Said to live in the hills of Arbory and Malew, mainly near the bridge over the Grenaby river; said to have a cave near South Barrule through which he takes humans to the underworld. | Jimmy Squarefoot is said to live in the hills of Arbory and Malew, mainly near the bridge over the Grenaby river. He is said to have a cave near South Barrule, and takes humans through it to the underworld. |
+| jimmy-squarefoot-c04 | exact | en.wikipedia.org | May also be linked with the story of a buggane in Rushen that could transform between a man and a black pig; the name "Jimmy Squarefoot" was also used by sailors for the devil in the late 1800s and early 1900s. | Jimmy Squarefoot may also be linked with the story of a buggane in Rushen which was able to transform between a man and a black pig. The name "Jimmy Squarefoot" was also used by sailors to refer to the devil during the late 1800s and early 1900s. |
+| jimmy-squarefoot-c05 | exact | de.wikipedia.org | His large feet, wrapped in calico bands, look square, hence the name "Squarefoot" (per the German Wikipedia article). | Seine großen Füße sind mit Kaliko-Bändern umwickelt und wirken quadratisch, daher der Name „Squarefoot“. |
+| jimmy-squarefoot-c06 | exact | asmanxasthehills.com | Per Gill, Jimmy Squarefoot was broadly a man with a pig's head and face and two great tusks like a boar, and he haunted all round the Grenaby district. | Broadly speaking, Jimmy Squarefoot was a man with a pig's head and face, "and he had two great tusks like a boar." He haunted all round the Grenaby district. ... (source: A Manx Scrapbook by W Walter Gill (1929) |
+| jimmy-squarefoot-c07 | exact | asmanxasthehills.com | Per Gill, the giant, whose name is forgotten, rode Jimmy in his pig-form about the country and over the sea. | This giant, whose name is regrettably forgotten, rode Jimmy in his pig-form about the country and over the sea ... (source: A Manx Scrapbook by W Walter Gill (1929) |
+| jimmy-squarefoot-c08 | exact | asmanxasthehills.com | Per Gill, there is something engaging about Jimmy when he used to charge out at wayfarers with gleaming tusks and gnashing fangs; he seems to have an affinity with water. | there is something engaging about Jimmy when he used to charge out at wayfarers with gleaming tusks and gnashing fangs. ... For he seems to have an affinity with water ... (source: A Manx Scrapbook by W Walter Gill (1929) |
+| jimmy-squarefoot-c09 | exact | asmanxasthehills.com | Gill writes that he has never been able to learn how Jimmy got the sobriquet "Squarefoot". | How he got the sobriquet of "Squarefoot" I have never been able to learn. ... (source: A Manx Scrapbook by W Walter Gill (1929) |
+| jimmy-squarefoot-c10 | exact | de.wikipedia.org | Per the German Wikipedia article, Jimmy Squarefoot is usually a peaceful wanderer. | Laut der Folklore der Manx lebt Jimmy Squarefoot, eine legendäre zweibeinige schweineköpfige Kreatur, auf der Isle of Man in der Irischen See. Es ist für gewöhnlich ein friedlicher Wanderer. |
+| jimmy-squarefoot-c11 | exact | de.wikipedia.org | The German Wikipedia article says that elsewhere Jimmy Squarefoot was at first himself depicted as a stone-throwing giant who rode a pig. | An anderer Stelle wird geschildert, dass Jimmy Squarefoot anfangs selber als steinewerfender Riese dargestellt wurde, der auf einem Schwein ritt. |
+| jimmy-squarefoot-c12 | exact | en.wikipedia.org | Jimmy Squarefoot is also the name of Monster in My Pocket #80 and of a character in the 2007 PlayStation 3 video game Folklore. | Jimmy Squarefoot is also the name of Monster in My Pocket #80 as well as a character in the 2007 PlayStation 3 video game Folklore. |
 
 
 ## kilmoulis — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -595,14 +605,24 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | kilmoulis-c02 | exact | en.wikipedia.org | Works hard for the miller, loves pranks. | The Kilmoulis works hard for the miller, but also delights in tricks and pranks. While his pranks may be a hindrance, he is generally enough help to offset the food he eats and the disturbances he causes. |
 | kilmoulis-c03 | exact | en.wikipedia.org | Dungeons & Dragons; video game Folklore; Andrzej Sapkowski's Witcher books. | In popular culture, it was used in the Dungeons & Dragons game as a fey creature. A version of the kilmoulis appears in the video game Folklore. Kilmoulis also appears as a sentient monster in Andrzej Sapkowski's Witcher books. |
 | kilmoulis-c04 | exact | es.wikipedia.org | es article: a grotesque brownie of Anglo-Scottish folklore, haunting mills. | Un Kilmoulis es una criatura mítica perteneciente al folclore anglo-escocés, considerado como una versión grotesca de los brownie (espíritus familiares) que se dice rondan en los molinos. |
+| kilmoulis-c05 | exact | archive.org | Per Henderson, Killmoulis is a peculiar species of Brownie who haunts the mill and resides in the killogee, the space before the fireplace in the kiln. | Killmoulis is a peculiar species of Brownie, who haunts the mill, and resides in the killogee, or space before the fireplace in the kiln. |
+| kilmoulis-c06 | exact | archive.org | Per Henderson, this sprite appears to have no mouth, yet the rhymes he quotes testify to his taste for swine's-flesh. | he appears to have no mouth ... yet the following rhymes testify to his taste for swine's-flesh |
+| kilmoulis-c07 | exact | archive.org | Per Henderson, Killmoulis takes the liveliest interest in the miller and his mill and wails piteously should misfortune threaten them, yet often torments the goodman by throwing ashes out when shelled oats (sheelin) are spread out to dry. | Killmoulis takes the liveliest interest in the miller and his mill. Should any misfortune threaten them he will wail piteously. At the same time he often torments the goodman sorely by throwing ... or ashes out when sheelin or shelled oats are spread out to dry |
+| kilmoulis-c08 | exact | archive.org | Per Henderson, he will not leave off his mischievous tricks till the miller calls out to him, whereupon he appears, puffing and blowing, in the shape of an old man with no mouth but an enormous nose. | nor will he leave off his mischievous tricks till the miller calls out, ... on which he appears, puffing and blowing, in the shape of an old man, the mouth wanting, but with an enormous nose. |
+| kilmoulis-c09 | exact | archive.org | Per Henderson, Killmoulis will never quit his favourite corner except to thrash the corn in great emergency or to ride for the howdie (midwife) when the miller's wife needs her services. | Killmoulis will never quit the ... his favourite corner, except to thrash the corn in great emergency, or to ride for the howdie, when the miller's wife needs her services |
+| kilmoulis-c10 | exact | archive.org | Per Henderson, every mill was haunted by its own Killmoulis. | Every mill was haunted by its own Killmoulis |
+| kilmoulis-c11 | exact | archive.org | Per Henderson, in Roxburghshire Killmoulis is drawn into the "blue clue" divination: towards the end of the winding he holds the thread, and he will snort out the name of your future spouse. | In Roxburghshire Killmoulis is thus drawn into the spell of the ... Towards the end of the winding Killmoulis will hold the thread. You must ask ... and he will snort out the name of your future spouse. |
+| kilmoulis-c12 | exact | archive.org | Henderson writes that one would suppose he took his name from the kiln, but Mr. Wilkie considers it to mean the miller's servant. | One would suppose that he took his name from the kiln, but Mr. Wilkie considers ... to mean the miller's servant. |
 
 
 ## krasnoludek — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `short_description` Tidak muncul di kutipan mana pun: Belarusia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[1]` Tidak muncul di kutipan mana pun: Belarusia, Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `abilities[0].description` Tidak muncul di kutipan mana pun: Belarusia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -611,6 +631,11 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | krasnoludek-c03 | exact | en.wikipedia.org | From Old Polish krasny (red, nice-looking) and ludek (small person). | The word krasnoludek comes from the old Polish krasny, kraśny ("red, colorful," "nice-looking," or "good") and Polish ludek (small person or human-like creature). |
 | krasnoludek-c04 | exact | en.wikipedia.org | Wrocław: Orange Alternative statue, anti-communist movement; hundreds of dwarf statues. | In the city of Wrocław, a bronze statue honoring the Orange Alternative, an anti-communist social movement whose mascot is a krasnoludek dwarf, has inspired hundreds of other dwarf statues around the city |
 | krasnoludek-c05 | exact | ru.wikipedia.org | ru article: a dwarf folk of Polish and Belarusian mythology (Skrzaty), from belief in ancestors' souls; home guardians. | в польской и белорусской мифологии народ карликов. По своей мифологии аналогичны западноевропейским гномам и серболужицким людкам. Предполагается, что антропологически мифология краснолюдков происходит от веры в души умерших предков или младенцев. Считаются защитниками человеческих жилищ. |
+| krasnoludek-c06 | exact | journals.akademicka.pl | In Kregždys's list of Polish dialect forms, krasnyludek/kraśnoludek is glossed as a small human-shaped being who wears a pointy red hat, dwells in the earth, in pits, ruins and all kinds of holes, and is helpful to humans when they are in need. | krasnyludek, kraśnoludek / kraśnyludek 'a small human-shaped being who wears pointy red hat, dwells in the earth, in pits, ruins and all kinds of holes; helpful to humans when they are in need' |
+| krasnoludek-c07 | exact | journals.akademicka.pl | In the same list, the dialect form krasnoludek/krusnalek is glossed as a dwarfish man of the size of a fly or a bee who lives in a mousehole. | krasnoludek / krusnalek 'a dwarfish man of a size of a fly or a bee who lives in a mousehole |
+| krasnoludek-c08 | exact | journals.akademicka.pl | The dialect form krosnalek is glossed as a dwarf of the size of an insect who lives in a mousehole and gets out to spree on the night of the full moon; harmless to humans, but in the moment of fright it becomes a giant. | krosnalek, (pl.) krosnalki 'a dwarf of a size of an insect who lives in a mousehole and gets out from there to spree in the night of the full moon; harmless to humans, but in the moment of fright it becomes a giant' |
+| krasnoludek-c09 | exact | visitwroclaw.eu | Per the Wrocław tourism site, in Polish folk demonology it is difficult to find a single term for the dwarf figure; each region uses a different name and attributes different behaviour to it. | In Polish folk demonology it is difficult to find a homogeneous term for the dwarf figure. Actually, each region uses a different name and attributes different behavior to it. |
+| krasnoludek-c10 | exact | visitwroclaw.eu | Per the Wrocław tourism site, in the second half of 2020 there were about 360 dwarf figures in Wrocław. | In the second half of 2020, there were about 360 dwarf figures in Wroclaw. |
 
 
 ## morvarc-h — lulus-otomatis

@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-118",
-  "checked_at": "2026-10-03T01:32:11.426Z",
+  "checked_at": "2026-10-06T19:05:15.188Z",
   "files": [
-    "batch-118.md"
+    "batch-118.md",
+    "batch-118-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -99,7 +100,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84271fe192d82f784dfd3a7f71adb00ba29c4a82f1c1112d955ac96b2a0ea076"
     },
     {
       "slug": "fenodyree",
@@ -203,7 +205,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aa100e82044258b030f0409b5394865028b85030ab94a1896fcddd6bcf3349a7"
     },
     {
       "slug": "grimalkin",
@@ -297,7 +300,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7d99a161494384ec8abd4747b9d018148d9bfb80d47b781600729a1a193f8e94"
     },
     {
       "slug": "habetrot",
@@ -371,7 +375,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8766707980e9194400be2611b618665a91ecb52b38f25770062ebe7938633543"
     },
     {
       "slug": "katie-king",
@@ -455,7 +460,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e637ad10991057eee8742c4c737aa5a78b17e854b2f4c100ea10dccb73e5ce34"
     },
     {
       "slug": "king-goldemar",
@@ -529,7 +535,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "97769223d7b8b81fab67e535672feecd9ee9823adf2bb1b002f0c179e8fed321"
     },
     {
       "slug": "knucker",
@@ -613,7 +620,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6c437b95016c0cc881a15b33d4ead28aa0f1219ffa4a1b84e2dad48907c811ea"
     },
     {
       "slug": "lubber-fiend",
@@ -697,7 +705,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f432a8215c4e47b24e946231ee55faa335b39dc4904bd08b8e1fbe774fc9da5e"
     },
     {
       "slug": "moddey-dhoo",
@@ -791,7 +800,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f8efb8ca1958156fe090f764de97d781234a39f78ed0010ea9f565c24fcf6259"
     },
     {
       "slug": "nicnevin",
@@ -875,7 +885,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cf94102cc8f33bfbb746da31b4895a21e8a6a3c4ba0c611dde9d4bfd457cf0d7"
     },
     {
       "slug": "pearlin-jean",
@@ -959,7 +970,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6872c82576b837f412609e510286a3540e6cb709ca761e925ff15a921e43de7a"
     },
     {
       "slug": "pictish-beast",
@@ -1033,7 +1045,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "66f5e58de240af32ed02c055aba0c81eff5834faa76bc781a4bb36264dbf547d"
     },
     {
       "slug": "seonaidh",
@@ -1117,63 +1130,79 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6e552867de4c48e73666a00d0da4f081358b2a32f565b63aa804fff282ca9775"
     },
     {
       "slug": "sheka-mythology",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "62adfb3f84ed13a52a18e7e1999e545bfaf0b70a0d988af7077b81abfa948239",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sheka-mythology-c01",
           "source_id": "sheka-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "Sheka (Cyrillic: Шекә), a dwarf-like being of Turkic mythology, in forests or derelict houses; comic situations.",
-          "statement_id": "Sheka (Sirilik, Cyrillic: Шекә), makhluk mirip kurcaci mitologi Turkik (Turkic), di hutan atau rumah terbengkalai; situasi lucu.",
+          "statement": "Sheka (Cyrillic: Шекә) is a dwarf-like being in Turkic mythology that lives in forests or derelict houses; in the legends it tends to appear in comical situations.",
+          "statement_id": "Sheka (Sirilik: Шекә) adalah makhluk mirip kurcaci dalam mitologi Turkik yang tinggal di hutan atau rumah terbengkalai; dalam legenda ia cenderung muncul dalam situasi lucu.",
           "quote": "Sheka (Cyrillic: Шекә) is a dwarf-like being in the Turkic mythology, that lives in forests or derelict houses. In the legends they tend to appear in comical situations.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "sheka-mythology-c02",
           "source_id": "sheka-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Slavic paganism, a field spirit: a deformed dwarf with odd-coloured eyes and grass hair; appears at noon or sunset.",
-          "statement_id": "Dalam paganisme Slavia (Slavic), roh ladang: kurcaci cacat bermata beda warna, berambut rumput; muncul tengah hari atau senja.",
+          "statement": "In Slavic paganism Sheka is a field spirit: a deformed dwarf with differently coloured eyes and grass instead of hair, appearing at noon or sunset in all-black or all-white clothes.",
+          "statement_id": "Dalam paganisme Slavia, Sheka adalah roh ladang: kurcaci cacat bermata beda warna dan berambut rumput; muncul tengah hari atau senja dengan pakaian serba hitam atau serba putih.",
           "quote": "Sheka in Slavic paganism is field spirit that appears as a deformed dwarf with different coloured eyes and grass instead of hair. It appears either at noon or sunset and wear either all black or all white suits.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "sheka-mythology-c03",
           "source_id": "sheka-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "Leads wanderers astray, causes disease, pulls peasants' hair; gets children lost; forces singing for hours.",
-          "statement_id": "Menyesatkan pengembara, menularkan penyakit, menarik rambut petani; membuat anak tersesat; memaksa bernyanyi berjam-jam.",
-          "quote": "According to local beliefs it leads wandering people in a field astray, give them diseases or ride them over with horses if they are found asleep. It enjoys pulling the hair of peasants working in the midday.",
-          "context": "religious-tradition",
+          "statement": "In Slavic paganism, according to local beliefs, Sheka leads wandering people astray in a field, gives them diseases or rides them over with horses if they are found asleep; it enjoys pulling the hair of peasants working at midday.",
+          "statement_id": "Dalam paganisme Slavia, Sheka menurut kepercayaan setempat menyesatkan orang yang mengembara di ladang, menularkan penyakit, atau melindas orang yang tertidur dengan kuda; ia senang menarik rambut petani yang bekerja di siang hari.",
+          "quote": "Sheka in Slavic paganism is field spirit ... According to local beliefs it leads wandering people in a field astray, give them diseases or ride them over with horses if they are found asleep. It enjoys pulling the hair of peasants working in the midday.",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "sheka-mythology-c04",
           "source_id": "sheka-mythology-s2",
           "host": "ca.wikipedia.org",
-          "statement": "ca article: Şekä (Tatar, Шекә; Turkish: Çike), dwarf-like being of Tatar mythology.",
-          "statement_id": "Artikel ca: Şekä (Tatar, Шекә; Turki: Çike), makhluk mirip kurcaci mitologi Tatar.",
+          "statement": "Catalan Wikipedia article: Şekä (Tatar: Şekä or Шекә; Turkish: Çike) is a dwarf-like being of Tatar mythology that lives in forests or abandoned houses.",
+          "statement_id": "Artikel Wikipedia bahasa Katalan: Şekä (Tatar: Şekä atau Шекә; Turki: Çike) adalah makhluk mirip kurcaci dalam mitologi Tatar yang hidup di hutan atau rumah terbengkalai.",
           "quote": "Şekä (del tàtar: Şekä o Шекә, turc: Çike) és un ésser semblant a un nan propi de la mitologia tàtara, que viu als boscos o cases abandonades.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sheka-mythology-c05",
+          "source_id": "sheka-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Slavic paganism, Sheka makes little children get lost in cornfields.",
+          "statement_id": "Dalam paganisme Slavia, Sheka membuat anak-anak kecil tersesat di ladang jagung (cornfield).",
+          "quote": "Sheka in Slavic paganism is field spirit ... It also makes little children get lost in cornfields.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sheka-mythology-c06",
+          "source_id": "sheka-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Slavic paganism, if Sheka catches a person it forces him to sing, which lasts for hours.",
+          "statement_id": "Dalam paganisme Slavia, Sheka memaksa orang yang ditangkapnya bernyanyi selama berjam-jam.",
+          "quote": "Sheka in Slavic paganism is field spirit ... If it catches a person it forces him to sing, which lasts for hours.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1251,7 +1280,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5c1f77d76f960eb0137aad476d906e4671c85b1044fc234e69e8acf6b5e2c325"
     },
     {
       "slug": "thetis-lake-monster",
@@ -1325,24 +1355,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3b4b4436869634a6f57cf556e09632610610b928e302ad255a7bc3ad178cb51"
     },
     {
       "slug": "thunderdell",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "44e763be95e853121322786ad794d7add86722b3c6256ea5a57b9914eec0d966",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "thunderdell-c01",
@@ -1351,27 +1377,27 @@
           "statement": "Thunderdell (Welsh: Taranau; Thunderdel, Thunderel, Thundrel, Thunderdale, Thunderbore), a two-headed Cornish giant slain by Jack the Giant-Killer in Tabart's stories.",
           "statement_id": "Thunderdell (Welsh: Taranau; Thunderdel, Thunderel, Thundrel, Thunderdale, Thunderbore), raksasa berkepala dua Cornwall dibunuh Jack the Giant-Killer (Jack the Giant Killer) dalam kisah Tabart.",
           "quote": "Thunderdell (Welsh: Taranau ), also recorded as Thunderdel, Thunderel, Thundrel, Thunderdale, or Thunderbore, was a two-headed giant of Cornwall slain by Jack the Giant-Killer in the stories of Tabart and others.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "thunderdell-c02",
           "source_id": "thunderdell-s1",
           "host": "en.wikipedia.org",
-          "statement": "Crashed Jack's banquet chanting fee fau fum; beheaded via the moat and drawbridge trick.",
-          "statement_id": "Menyerbu jamuan Jack, melantunkan fee fau fum; dipenggal dengan tipu parit dan jembatan angkat.",
+          "statement": "In Jack the Giant Killer, Thunderdell first appears crashing a banquet prepared for Jack, chanting \"fee fau fum\"; Jack defeats and beheads the two-headed giant with a trick involving the house's moat and drawbridge.",
+          "statement_id": "Dalam Jack the Giant Killer, Thunderdell muncul dengan mengacau perjamuan yang disiapkan untuk Jack sambil menyerukan \"fee fau fum\"; Jack mengalahkan dan memenggal raksasa berkepala dua itu dengan tipu daya yang memakai parit dan jembatan angkat rumah itu.",
           "quote": "In Jack the Giant Killer, Thunderdell first appeared where he crashed a banquet that was prepared for Jack. During this time, he chanted \"fee fau fum.\" Jack defeats and beheads the two-headed giant with a trick involving the house's moat and drawbridge.",
-          "context": "modern-popular-culture",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "thunderdell-c03",
           "source_id": "thunderdell-s1",
           "host": "en.wikipedia.org",
-          "statement": "1800 version: Thunderful from the North Pole; his heads sent to King Arthur's court.",
-          "statement_id": "Versi 1800: Thunderful dari Kutub Utara (North Pole); kepalanya dikirim ke istana Raja Arthur (King Arthur).",
+          "statement": "According to one version of the story from 1800, Thunderdell (here called \"Thunderful\") hails from the North Pole; he attacks Jack's banquet to avenge the deaths of two giants he had earlier slain, but is defeated and his heads are sent to King Arthur's court.",
+          "statement_id": "Menurut satu versi cerita dari tahun 1800, Thunderdell (di sana disebut \"Thunderful\") berasal dari Kutub Utara; ia menyerang perjamuan Jack untuk membalas kematian dua raksasa yang pernah dibunuhnya, tetapi dikalahkan dan kepalanya dikirim ke istana Raja Arthur.",
           "quote": "According to one version of the story from 1800, Thunderdell (here identified as \"Thunderful\") hails from the North Pole. He attacks Jack's banquet in order to avenge the deaths of two giants he had earlier slain, but is himself defeated and his heads sent to the court of King Arthur.",
-          "context": "modern-popular-culture",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1392,6 +1418,56 @@
           "statement_id": "Thunderdell adalah Monster in My Pocket #98; artikel es: Thunderdel, Thunderel, Thunderbore.",
           "quote": "Thunderdell es el Monster in My Pocket #98.",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "thunderdell-c06",
+          "source_id": "thunderdell-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale, Thunderdell, a giant with two heads, having heard of the death of his kinsmen, came from the northern dales to be revenged on Jack.",
+          "statement_id": "Dalam cerita ini, Thunderdell, raksasa berkepala dua, mendengar kematian sanak-saudaranya dan datang dari lembah-lembah utara (northern dales) untuk membalas dendam kepada Jack.",
+          "quote": "that one Thunderdell, a giant with two heads, having heard of the death of his kinsmen, had come from the northern dales to be revenged on Jack",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thunderdell-c07",
+          "source_id": "thunderdell-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Thunderdell could not see Jack, but smelt his approach and cried out \"Fee, fi, fo, fum! I smell the blood of an Englishman!\".",
+          "statement_id": "Thunderdell tidak dapat melihat Jack, tetapi mencium kedatangannya dan berseru \"Fee, fi, fo, fum! I smell the blood of an Englishman!\".",
+          "quote": "one Thunderdell, a giant with two heads ... Although the giant could not see Jack, he smelt his approach, and cried out in these words: ... Fee, fi, fo, fum! I smell the blood of an Englishman!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thunderdell-c08",
+          "source_id": "thunderdell-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The two-headed giant accuses Jack of killing his kinsmen and threatens to tear him with his teeth, suck his blood, and grind his bones to powder.",
+          "statement_id": "Si raksasa berkepala dua menuduh Jack membunuh sanak-saudaranya dan mengancam akan mencabik Jack dengan giginya, mengisap darahnya, dan menggiling tulangnya menjadi bubuk.",
+          "quote": "Art thou that villain who killed my kinsmen? Then I will tear thee with my teeth, suck thy blood, and grind thy bones to powder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thunderdell-c09",
+          "source_id": "thunderdell-s3",
+          "host": "www.gutenberg.org",
+          "statement": "As the giant chased Jack over the drawbridge, his great weight broke the bridge and he tumbled headlong into the water.",
+          "statement_id": "Ketika si raksasa mengejar Jack di jembatan, beratnya yang besar mematahkan jembatan itu dan ia jatuh tersungkur ke air.",
+          "quote": "Then, coming to the middle of the bridge, the giant's great weight broke it down, and he tumbled headlong into the water, where he rolled and wallowed like a whale.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thunderdell-c10",
+          "source_id": "thunderdell-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Jack cast a cart-rope over the giant's two heads, drew him ashore with a team of horses, then cut off both heads and sent them to King Arthur.",
+          "statement_id": "Jack menjerat kedua kepala si raksasa dengan tali gerobak, menariknya ke tepi dengan sekelompok kuda, lalu memenggal kedua kepalanya dan mengirimkannya kepada Raja Arthur.",
+          "quote": "Jack at length got a cart-rope and cast it over the two heads of the giant, and drew him ashore by a team of horses, and then cut off both his heads with his sword of sharpness, and sent them to King Arthur.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1489,24 +1565,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "76c096ccb56f9b84d8c06a3fb6a4ae61a53cca0ade0f9a353c98fa75e4d76c87"
     },
     {
       "slug": "arausio",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "c2eb2cafcd3f9ca232d32464dd995e89ae511ae2b2208af35c58a4ccb699b798",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 3,
+        "claims": 7,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "arausio-c01",
@@ -1515,7 +1587,7 @@
           "statement": "Arausio, a local Celtic god at Arausio in southern Gaul, now Orange in southern France.",
           "statement_id": "Arausio, dewa Kelt setempat di Arausio, Galia (Gaul) selatan, kini Orange, Prancis (France) selatan.",
           "quote": "Arausio was a local Celtic god who was venerated in the settlement of Arausio in southern Gaul, now Orange in southern France.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1525,7 +1597,7 @@
           "statement": "A local Celtic water god; ancient inscriptions show the town Arausio (Orange) in southern Gaul was named after him.",
           "statement_id": "Dewa air Kelt setempat; menurut prasasti kuno kota Arausio (Orange) di Galia selatan dinamai menurut dia.",
           "quote": "Arausio byl lokální keltský vodní bůh. Jak dokládají starověké nápisy bylo po něm pojmenováno město Arausio (Orange) v jižní Galii.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1535,7 +1607,47 @@
           "statement": "zh article: a Celtic river deity, honoured in southern Gaul under Roman rule, known from inscriptions on finds.",
           "statement_id": "Artikel zh: dewa sungai Kelt, dipuja di Galia selatan masa Romawi, dikenal dari prasasti temuan arkeologis.",
           "quote": "凯尔特职司河流的神祇之一。盛行于罗马统治时期的高卢南部地区，其事迹反映于相关出土的文物之铭文。",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arausio-c04",
+          "source_id": "arausio-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Per the Wikipedia article on Orange, a Celtic settlement called Aurasio existed in the same place, named after a local sacred spring.",
+          "statement_id": "Menurut artikel Wikipedia tentang Orange, permukiman Celtic bernama Aurasio pernah ada di tempat yang sama dan dinamai menurut sebuah mata air suci setempat.",
+          "quote": "A Celtic settlement called Aurasio existed in the same place, named after a local sacred spring.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "arausio-c05",
+          "source_id": "arausio-s5",
+          "host": "provence-alpes-cotedazur.com",
+          "statement": "Per the Provence-Alpes-Côte d'Azur tourism site, a sacred spring gave its name, Arausio, to the site, which later became known as Orange.",
+          "statement_id": "Menurut situs pariwisata wilayah Provence-Alpes-Côte d'Azur, sebuah mata air suci memberi nama Arausio kepada lokasi itu, yang kemudian dikenal sebagai Orange.",
+          "quote": "A sacred spring gave its name, Arausio, to the site, which later became known as Orange.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "arausio-c06",
+          "source_id": "arausio-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Per the Wikipedia article on Orange, the place-name derives from Proto-Celtic *far-aws(y)o-, literally \"in front of the ear\", which became Gaulish ar-aus(i)o- (\"temple, cheek\").",
+          "statement_id": "Menurut artikel Wikipedia tentang Orange, nama tempat itu berasal dari bentuk Proto-Celtic *far-aws(y)o- yang secara harfiah berarti \"di depan telinga\", lalu menjadi ar-aus(i)o- dalam bahasa Galia (\"kuil, pipi\").",
+          "quote": "The name itself derived from an earlier Proto-Celtic *far-aws(y)o-, which literally means 'in front of the ear' ... This became the Gaulish ar-aus(i)o- ('temple, cheek').",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "arausio-c07",
+          "source_id": "arausio-s2",
+          "host": "cs.wikipedia.org",
+          "statement": "Per the Czech Wikipedia article, in a later period the name of the town Arausio fell out of use and Orange began to be used.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Ceko, pada masa kemudian nama kota Arausio hilang dari pemakaian dan nama Orange mulai dipakai.",
+          "quote": "V pozdější době jméno města Arausio zaniklo a začalo se používat Orange.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1623,33 +1735,29 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ded46e9b656c2906e2d1f11f21699d64285d7e83121a2b592f1d67a75f4cce43"
     },
     {
       "slug": "baloma",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "9019385577e33b6009b77c4a39e608ee0bab2061ae7ebd5a1a5d6eae78c9ea11",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "baloma-c01",
           "source_id": "baloma-s1",
           "host": "en.wikipedia.org",
-          "statement": "Baloma, spirit of the dead in Trobriand society (Trobriand Islands, Papua New Guinea), studied by Bronislaw Malinowski in the early 20th century, published 1916.",
-          "statement_id": "Baloma, roh orang mati masyarakat Trobriand (Kepulauan Trobriand, Trobriand Islands, Papua Nugini), dikaji Bronislaw Malinowski awal abad ke-20, terbit 1916.",
+          "statement": "Baloma is the spirit of the dead in Trobriand society (Trobriand Islands, Papua New Guinea), studied by Bronislaw Malinowski in the early 20th century, who published an article on it in 1916.",
+          "statement_id": "Baloma adalah roh orang mati dalam masyarakat Trobriand (Kepulauan Trobriand, Papua Nugini); Bronislaw Malinowski mempelajarinya pada awal abad ke-20 dan menerbitkan artikel tentangnya pada 1916.",
           "quote": "Baloma is the spirit of the dead in Trobriand society, as studied by Bronislaw Malinowski in the early 20th century, who published an article on it in 1916",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1659,7 +1767,7 @@
           "statement": "Replaces the role of male sperm (fathers) in conception; maintains matrilineal descent.",
           "statement_id": "Menggantikan peran sperma laki-laki (ayah) dalam pembuahan; menopang keturunan matrilineal.",
           "quote": "It plays a key role in conception ideologies and explains and maintains the matrilineal descent system by substituting the role of male sperm (\"fathers\") with that of a spirit.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1669,7 +1777,7 @@
           "statement": "Spirit of a deceased lineage member impregnating women bathing in the sea.",
           "statement_id": "Roh anggota garis keturunan yang membuahi perempuan saat mandi di laut.",
           "quote": "The baloma is that spirit of a deceased lineage member which impregnates the women while bathing in the sea, perpetuating the matrilineage intragenerationally.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1679,7 +1787,7 @@
           "statement": "Intercourse only opens the path for the baloma into the womb.",
           "statement_id": "Hubungan seksual hanya membuka jalan bagi baloma ke rahim.",
           "quote": "The role of sexual intercourse is only indirectly related to conception within Trobriand mentality and seen as a way of opening the path for the baloma to enter the woman's womb.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -1689,7 +1797,67 @@
           "statement": "pl article: pregnancy through sea bathing; basis of Trobriand matrilineal inheritance.",
           "statement_id": "Artikel pl: hamil lewat mandi di laut; dasar pewarisan matrilineal orang Trobriand.",
           "quote": "Można zajść w ciążę, kąpiąc się w morzu. Stosunek seksualny ma rolę drugorzędną, stanowi zaledwie sposób otwarcia drogi dla baloma. Wierzenia te stanowią podstawę matrylinearnego systemu dziedziczenia wśród Trobriandczyków.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c06",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Per Malinowski, the spirits of the dead of the Trobrianders migrate immediately after death to the island of Tuma and return once a year to visit their villages and take part in the annual milamala feast, where they receive offerings.",
+          "statement_id": "Menurut Malinowski, roh orang mati orang Trobriand segera setelah kematian pindah ke pulau Tuma dan setahun sekali mengunjungi desa mereka serta ikut pesta tahunan milamala dan menerima persembahan.",
+          "quote": "some of the magico-religious ideas of the Trobrianders ... The spirits migrate immediately after death to the island of Tuma, lying in the North-West of Boyowa ... They return to visit their own villages once a year, and take part in the big annual feast, milamala, where they receive offerings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c07",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Malinowski notes that in their belief in the spirits of the dead, the Trobrianders are almost completely devoid of any fear of ghosts.",
+          "statement_id": "Malinowski mencatat bahwa dalam kepercayaan mereka tentang roh orang mati, orang Trobriand hampir sepenuhnya tidak takut pada hantu.",
+          "quote": "A few more words must be said about some of the magico-religious ideas of the Trobrianders. The main thing that struck me in connection with their belief in the spirits of the dead, was that they are almost completely devoid of any fear of ghosts",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c08",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Per Malinowski, the ula'ula, a special type of magical payment, is at the same time an offering to the baloma (spirits).",
+          "statement_id": "Menurut Malinowski, ula'ula, sejenis pembayaran sihir khusus, sekaligus merupakan persembahan kepada baloma (roh).",
+          "quote": "A special type of magical payment, the ula'ula, is at the same time an offering to the baloma (spirits).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c09",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Per Malinowski, in some cases the baloma will appear in dreams and advise the magician what to do.",
+          "statement_id": "Menurut Malinowski, dalam beberapa kasus baloma muncul dalam mimpi dan menasihati pesihir tentang apa yang harus dilakukan.",
+          "quote": "In some cases the baloma will appear in dreams and advise the magician what to do.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c10",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Malinowski interprets that the baloma would go no further than to reproach people for breaking the old rules, and that these natives have no definite ideas about actual punishment meted out by offended spirits.",
+          "statement_id": "Malinowski menafsirkan bahwa baloma paling jauh hanya menegur orang yang melanggar aturan lama, dan tidak ada gagasan pasti di kalangan penduduk tentang hukuman nyata dari roh yang tersinggung.",
+          "quote": "The baloma would go no further than to reproach them for breaking the old rules, and there are no definite ideas among these natives about actual punishment being meted out by offended spirits.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baloma-c11",
+          "source_id": "baloma-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Per Malinowski, the baloma (spirits) of the ancestors are asked to sit on the canoe slips and chew betel.",
+          "statement_id": "Menurut Malinowski, baloma (roh) para leluhur diminta duduk di landasan kano (canoe slips) dan mengunyah sirih.",
+          "quote": "Then the baloma (spirits) of these ancestors are asked to sit on the canoe slips and to chew betel",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1777,7 +1945,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7c97c53d15ffc788ec4b229338a409d998b090047f1f1ab68506f94db0d6ba35"
     },
     {
       "slug": "blue-ben",
@@ -1851,7 +2020,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cceba9db283e2addeb04d60ed1d07745a8a97f881c5e0d845f031dc90f124997"
     },
     {
       "slug": "bogle",
@@ -1925,24 +2095,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "083d24c945ff72bceb60486b24aa6c5a72bf340f0c95249ddfb0327e3e81e83d"
     },
     {
       "slug": "bownessie",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "30f71bde1d68564d2ba8ebb9c93d13bf3a2020fdf656ba73ad6c6c28628b81b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bownessie-c01",
@@ -1951,15 +2117,15 @@
           "statement": "A lake monster in Windermere, Cumbria, England, like that of Loch Ness; photographed 2011; nicknamed Bownessie.",
           "statement_id": "Monster danau di Windermere, Cumbria, Inggris (England), mirip Loch Ness; difoto 2011; dijuluki Bownessie.",
           "quote": "Some people believe that there may be a lake monster, similar to the one alleged to live in Loch Ness, and in 2011 anomalous photos were taken of the supposed creature; it has been affectionately nicknamed \"Bownessie\".",
-          "context": "religious-tradition",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
           "id": "bownessie-c02",
           "source_id": "bownessie-s1",
           "host": "en.wikipedia.org",
-          "statement": "Windermere, the largest lake in England, in Cumbria.",
-          "statement_id": "Windermere, danau terbesar di Inggris (England), di Cumbria.",
+          "statement": "Windermere is a ribbon lake in Cumbria, England, within the Lake District, and the largest lake in England by length, area, and volume.",
+          "statement_id": "Windermere adalah danau pita di Cumbria, Inggris, di Lake District, dan danau terbesar di Inggris menurut panjang, luas, dan volume.",
           "quote": "Windermere (historically Winder Mere) is a ribbon lake in Cumbria, England. It is within the Lake District and is the largest lake in England by length, area, and volume",
           "context": "historical-record",
           "status": "exact"
@@ -1968,30 +2134,70 @@
           "id": "bownessie-c03",
           "source_id": "bownessie-s2",
           "host": "fr.wikipedia.org",
-          "statement": "Bownessie (Bow Nessie) named in tribute to Nessie, the Loch Ness monster of Scotland; like a sea serpent or plesiosaur.",
-          "statement_id": "Bownessie (Bow Nessie) dinamai untuk menghormati Nessie, monster Loch Ness di Skotlandia (Écosse, Scotland); mirip ular laut atau plesiosaurus.",
+          "statement": "Per the French Wikipedia article, Bownessie was named in tribute to its famous \"cousin\" \"living\" in a freshwater lake in Scotland, the Loch Ness monster nicknamed Nessie; it too is described as resembling a sea serpent or a plesiosaur.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Prancis, Bownessie dinamai sebagai penghormatan bagi \"sepupunya\" yang \"hidup\" di danau air tawar Skotlandia, monster Loch Ness yang dijuluki Nessie; ia juga digambarkan mirip ular laut atau plesiosaurus.",
           "quote": "Elle a été baptisée « Bownessie », en hommage a son célèbre « cousin » « vivant » dans un lac d'eau douce d'Écosse, le Monstre du Loch Ness, surnommé Nessie (parfois orthographié Nessy). Bownessie est, elle aussi, décrite comme ressemblant à un serpent de mer ou à un plésiosaure.",
-          "context": "religious-tradition",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
           "id": "bownessie-c04",
           "source_id": "bownessie-s2",
           "host": "fr.wikipedia.org",
-          "statement": "Dr Ian Winfield, Lancaster University: no fish that big could live in Windermere; tourists' claims February 2011; lake surveyed monthly.",
-          "statement_id": "Dr Ian Winfield, Universitas Lancaster (Université de Lancaster): tak ada ikan sebesar itu di Windermere; klaim wisatawan Februari 2011; danau dipindai tiap bulan.",
-          "quote": "le docteur Ian Winfield, du centre d'écologie et d'hydrologie de l’Université de Lancaster a déclaré : « Aucun poisson aussi grand que les descriptions que l’on nous a données ne pourrait vivre dans le lac Windermere »",
-          "context": "historical-record",
-          "status": "exact"
+          "statement": "Per the French Wikipedia article, after fresh claims by tourists in February 2011, Dr Ian Winfield of the Lancaster University centre for ecology and hydrology said no fish as large as the descriptions given could live in Lake Windermere, and that the lake is surveyed every month and nothing of the kind has ever been found.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Prancis, setelah klaim baru wisatawan pada Februari 2011, Dr Ian Winfield dari pusat ekologi dan hidrologi Universitas Lancaster menyatakan tidak ada ikan sebesar gambaran yang diberikan yang bisa hidup di danau Windermere, dan bahwa danau itu diperiksa setiap bulan tanpa pernah ditemukan hal semacam itu.",
+          "quote": "À la suite de nouvelles affirmations de touristes en février 2011, le docteur Ian Winfield, du centre d'écologie et d'hydrologie de l’Université de Lancaster a déclaré : « Aucun poisson aussi grand que les descriptions que l’on nous a données ne pourrait vivre dans le lac Windermere », et il a précisé que « le lieu est sondé tous les mois et que rien de tel n'a jamais été trouvé ».",
+          "context": "modern-popular-culture",
+          "status": "loose"
         },
         {
           "id": "bownessie-c05",
           "source_id": "bownessie-s2",
           "host": "fr.wikipedia.org",
-          "statement": "Per The Telegraph, the photo matched Steve Burnip's 2006 description; nine people claimed sightings.",
-          "statement_id": "Menurut The Telegraph, foto cocok dengan gambaran Steve Burnip 2006; sembilan orang mengaku melihat Bownessie.",
+          "statement": "Per the French Wikipedia article citing The Telegraph, the new photograph matched the description given by Steve Burnip in 2006; to that date nine people had claimed to see \"Bownessie\".",
+          "statement_id": "Menurut artikel Wikipedia bahasa Prancis yang merujuk The Telegraph, foto baru itu cocok dengan gambaran yang diberikan Steve Burnip pada 2006; hingga saat itu sembilan orang mengaku pernah melihat \"Bownessie\".",
           "quote": "Selon The Telegraph, cette nouvelle photo faite, du « monstre » correspond à la description qu’en avait fait Steve Burnip en 2006. À ce jour, neuf personnes ont donc affirmé avoir aperçu « Bownessie ».",
-          "context": "historical-record",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bownessie-c06",
+          "source_id": "bownessie-s3",
+          "host": "www.nbcnews.com",
+          "statement": "Per NBC News, Tom Pickles and Sara Harrington, work colleagues kayaking at the lake as a team-building exercise, photographed the possible sea creature with a mobile phone.",
+          "statement_id": "Menurut NBC News, Tom Pickles dan Sara Harrington, rekan kerja yang berkayak di danau sebagai latihan membangun tim, memotret kemungkinan makhluk laut itu dengan telepon seluler.",
+          "quote": "Tom Pickles and Sara Harrington, work colleagues who were kayaking at the lake as part of a team-building exercise, snapped this photo of the possible sea creature with a mobile phone.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bownessie-c07",
+          "source_id": "bownessie-s3",
+          "host": "www.nbcnews.com",
+          "statement": "Per NBC News, the photo appears to show a multi-humped black object moving through the water from left to right; Pickles described it as \"a giant dark brown snake with humps measuring three car lengths\" with a seal-like skin texture but a \"completely abnormal\" shape.",
+          "statement_id": "Menurut NBC News, foto itu tampak menunjukkan benda hitam berpunuk banyak bergerak di air dari kiri ke kanan; Pickles menggambarkannya sebagai \"ular cokelat tua raksasa dengan punuk sepanjang tiga mobil\" bertekstur kulit seperti anjing laut tetapi berbentuk \"sangat tidak normal\".",
+          "quote": "It appears to show a multi-humped black object moving through the water from left to right. Pickles described the object as \"a giant dark brown snake with humps measuring three car lengths,\" and said it had seal-like skin texture but with a \"completely abnormal\" shape.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bownessie-c08",
+          "source_id": "bownessie-s3",
+          "host": "www.nbcnews.com",
+          "statement": "Per NBC News, skeptics say the so-called \"Bownessie\" of England's Lake Windermere could be a hoax.",
+          "statement_id": "Menurut NBC News, para skeptis mengatakan \"Bownessie\" yang konon ada di Danau Windermere, Inggris, bisa jadi tipuan.",
+          "quote": "but skeptics say the so-called \"Bownessie\" of England's Lake Windermere could be a hoax.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bownessie-c09",
+          "source_id": "bownessie-s3",
+          "host": "www.nbcnews.com",
+          "statement": "Per NBC News, the name \"Bownessie\" is named for Bowness, the local town in England.",
+          "statement_id": "Menurut NBC News, nama \"Bownessie\" diambil dari Bowness, kota setempat di Inggris.",
+          "quote": "While the case of the \"Bownessie\" (named for Bowness, the local town in England) may not hold up to scrutiny",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -2069,7 +2275,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e732dd1b870890b30afd104539cf42183ab7d778fd62754cf238f07f74239a28"
     },
     {
       "slug": "caoineag",
@@ -2143,7 +2350,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "83e6638cc0d86d72a55a0caa8e9d310cadc6580fc4fc219584396dfcdc3810cc"
     },
     {
       "slug": "coblyn",
@@ -2217,7 +2425,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4e33fa8b32743e860fd98ba2c3f386285a3339cb583e2da27c8baf261c56ea99"
     },
     {
       "slug": "el-sombreron",
@@ -2291,7 +2500,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ab27399075862557c841b49a2eeebcdc80812631c6f82bdeb83769fecee60a74"
     },
     {
       "slug": "eloko",
@@ -2375,7 +2585,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5ad7121f72a4402303dbf81936ed0164b81160cf5464605b3cd9c1beaa91c29a"
     },
     {
       "slug": "failinis",
@@ -2459,7 +2670,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c5185b69be452643512793d3dfc2d505a0f9e78520e1107cbd84d4acf33d13a3"
     },
     {
       "slug": "fetch-folklore",
@@ -2533,7 +2745,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f27d9940a3cb8d43581f84b9f4a8c24e286811499afc08cb38651c3f700c2aea"
     },
     {
       "slug": "finnbhennach",
@@ -2607,7 +2820,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b4a0d262a2939e0547fd0fd02f40ac9bc6f63270c211c33b14cc2b9588c911f"
     },
     {
       "slug": "ghillie-dhu",
@@ -2681,24 +2895,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "81c549a66f42fa88d332cb3b95de225aadc63de7735f87afb2aa62fe488dfe49"
     },
     {
       "slug": "gigelorum",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "a9c9ac201d6e27d161852646a8882a984ff29963d184a1f0d4d7da54caabc903",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gigelorum-c01",
@@ -2707,7 +2917,7 @@
           "statement": "Gigelorum (Giol-Daoram), an insect of Scottish folklore, smallest creature, lives in a mite's ear.",
           "statement_id": "Gigelorum (Giol-Daoram), serangga folklor Skotlandia (Scottish), makhluk terkecil, hidup di telinga tungau.",
           "quote": "Gigelorum (or Giol-Daoram) is an insect of Scottish folklore. It was believed to be the smallest creature. No description or information is available about it except that it inhabits the ear of a mite.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -2717,17 +2927,17 @@
           "statement": "Possibly based on the tiniest visible insect, the giolcam-daobhram.",
           "statement_id": "Mungkin berdasar serangga terkecil yang terlihat, giolcam-daobhram.",
           "quote": "Speculation exists that it may be based upon the tiniest insect that can be discerned by people possessing excellent eyesight, the giolcam-daobhram",
-          "context": "historical-record",
+          "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
           "id": "gigelorum-c03",
           "source_id": "gigelorum-s1",
           "host": "en.wikipedia.org",
-          "statement": "Ronald Black, Celtic studies lecturer: possibly a figment of John Gregorson Campbell, Tiree minister.",
-          "statement_id": "Ronald Black, dosen studi Kelt (Celtic): mungkin rekaan John Gregorson Campbell, pendeta Tiree.",
-          "quote": "Ronald Black, a one time Celtic studies lecturer, author and journalist, suggests that the creature could be a figment of the imagination of folklorist and Tiree minister John Gregorson Campbell",
-          "context": "historical-record",
+          "statement": "Ronald Black, a one-time Celtic studies lecturer, suggests the creature may have been dreamt up by John Gregorson Campbell, folklorist and minister on Tiree, since Black found no authoritative source for it.",
+          "statement_id": "Ronald Black, mantan dosen studi Celtic, menduga makhluk ini mungkin khayalan folklorais sekaligus pendeta Tiree John Gregorson Campbell, karena ia tidak menemukan sumber yang berwibawa untuknya.",
+          "quote": "Ronald Black, a one time Celtic studies lecturer, author and journalist, suggests that the creature could be a figment of the imagination of folklorist and Tiree minister John Gregorson Campbell as he could trace no authoritative sources for it",
+          "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
@@ -2737,7 +2947,7 @@
           "statement": "it article: a tiny insect, the smallest animal, its habitat mites' ears.",
           "statement_id": "Artikel it: serangga mungil, hewan terkecil, habitat di telinga tungau.",
           "quote": "Si tratta di un insetto minuscolo, ritenuto essere il più piccolo animale esistente. Le sue caratteristiche sono ignote, eccezion fatta per il suo habitat, le orecchie degli acari.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -2747,7 +2957,27 @@
           "statement": "it article: Ronald Black suggests an invention of John Gregorson Campbell.",
           "statement_id": "Artikel it: Ronald Black menduga rekaan John Gregorson Campbell.",
           "quote": "Ronald Black, docente occasionale di studi celtici, autore e giornalista, suggerisce come la creatura potrebbe essere un parto della mente del folclorista e ministro di Tiree John Gregorson Campbell",
-          "context": "historical-record",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gigelorum-c06",
+          "source_id": "gigelorum-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Per Campbell, the Giolcam-daoram, or Gigelorum, is the smallest of all animals; it makes its nest in the mite's ear and that is all that is known about it.",
+          "statement_id": "Menurut Campbell, Giolcam-daoram atau Gigelorum adalah yang terkecil dari semua hewan; ia bersarang di telinga tungau dan hanya itu yang diketahui tentangnya.",
+          "quote": "The Giolcam-daoram, or Gigelorum, is the smallest of all animals. It makes its nest in the mite's ear and that is all that is known about it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gigelorum-c07",
+          "source_id": "gigelorum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Per the English Wikipedia article, the giolcam-daobhram is described as \"an animalcule, the smallest supposable living thing\".",
+          "statement_id": "Menurut artikel Wikipedia bahasa Inggris, giolcam-daobhram digambarkan sebagai \"an animalcule, the smallest supposable living thing\" (hewan mikro, makhluk hidup terkecil yang dapat dibayangkan).",
+          "quote": "the giolcam-daobhram, which is described as \"an animalcule, the smallest supposable living thing\".",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -2755,59 +2985,124 @@
     },
     {
       "slug": "glas-gaibhnenn",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "e2cb7448fb807cf5c871f2d78f9e22e6ac080b599a69dc1a93b6d6753c13215a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "glas-gaibhnenn-c01",
           "source_id": "glas-gaibhnenn-s1",
           "host": "en.wikipedia.org",
-          "statement": "Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), a fabulous cow of Irish folklore with profuse milk; owned by the smith Gaivnin or Cian mac Cáinte, matching Cian father of Lugh.",
-          "statement_id": "Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), sapi ajaib folklor Irlandia (Irish), susu berlimpah; milik pandai besi Gaivnin atau Cian mac Cáinte, setara Cian ayah Lugh.",
+          "statement": "Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), in Irish folklore, is a prized fabulous cow of bounty that yields profuse quantities of milk; it is owned variously by a smith who may be named Gaivnin or by the hero Cian mac Cáinte, equivalent to Cian father of Lugh.",
+          "statement_id": "Glas Gaibhnenn (Glas Ghaibhleann, Glas Gaivlen), dalam cerita rakyat Irlandia, adalah sapi ajaib yang sangat berharga dan melimpah, menghasilkan susu dalam jumlah besar; pemiliknya berbeda-beda, yaitu pandai besi yang mungkin bernama Gaivnin atau pahlawan Cian mac Cáinte, yang setara dengan Cian ayah Lugh.",
           "quote": "in Irish folklore, is a prized fabulous cow of bounty (fertility) that yields profuse quantities of milk. The cow is owned variously by a smith who may be named Gaivnin (hence reinforcing the notion that the cow's name is eponymous after him) or by the hero Cian mac Cáinte",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "glas-gaibhnenn-c02",
           "source_id": "glas-gaibhnenn-s1",
           "host": "en.wikipedia.org",
-          "statement": "Stolen by Balar or Balor; the hero taken by a banshee to Balor's daughter's tower; a child destined to kill Balor.",
-          "statement_id": "Dicuri Balar atau Balor; pahlawan dibawa banshee ke menara putri Balor; anak yang ditakdirkan membunuh Balor.",
+          "statement": "The cow is stolen (or craftily regained) by Balar or Balor; the hero, to fulfil the quest to recover the cow, is transported by a banshee to a tower where Balor's daughter is sequestered, to produce a child destined to kill Balor.",
+          "statement_id": "Sapi itu dicuri (atau diperoleh kembali dengan akal) oleh Balar atau Balor; sang pahlawan, demi menunaikan misi mengambil kembali sapi, dibawa oleh banshee ke menara tempat putri Balor dikurung untuk melahirkan anak yang ditakdirkan membunuh Balor.",
           "quote": "The cow is stolen (or craftily regained) by Balar or Balor the strong-smiter. The hero, in order to fulfill the quest to recover the cow, is transported by a banshee to a tower where Balor's daughter is sequestered, to produce a child destined to kill Balor.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "glas-gaibhnenn-c03",
           "source_id": "glas-gaibhnenn-s2",
           "host": "ga.wikipedia.org",
-          "statement": "Patricia Monaghan: Glas Ghaibhleann a goddess often linked with rivers; Patrick Power, Glas Gamhain.",
-          "statement_id": "Patricia Monaghan: Glas Ghaibhleann dewi yang sering dikaitkan dengan sungai; Patrick Power, Glas Gamhain.",
+          "statement": "Irish Wikipedia article: Patricia Monaghan wrote that Glas Ghaibhleann is a goddess often associated with rivers.",
+          "statement_id": "Artikel Wikipedia bahasa Irlandia: Patricia Monaghan menulis bahwa Glas Ghaibhleann adalah dewi yang sering dikaitkan dengan sungai.",
           "quote": "Scríobh Patricia Monaghan gur bhandia í Glas Ghaibhleann ceangailte go minic le haibhneacha.",
-          "context": "historical-record",
+          "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
           "id": "glas-gaibhnenn-c04",
           "source_id": "glas-gaibhnenn-s1",
           "host": "en.wikipedia.org",
-          "statement": "Larminie: Grey cow of the Smith; Rhys: Goibniu's Grey cow; glas blue, green, grey.",
-          "statement_id": "Larminie: Sapi Kelabu milik Pandai Besi; Rhys: Sapi Kelabu milik Goibniu; glas biru, hijau, kelabu.",
+          "statement": "The full name means \"Grey (cow) of the Smith\" according to Larminie, and \"Goibniu's Grey or Brindled (Cow)\" according to Rhys.",
+          "statement_id": "Nama lengkapnya berarti \"Sapi Kelabu milik Pandai Besi\" menurut Larminie, dan \"Sapi Kelabu atau Belang milik Goibniu\" menurut Rhys.",
           "quote": "Whereas the full name means \"Grey (cow) of the Smith\" according to Larminie, and \"Goibniu's Grey or Brindled (Cow)\" according to Rhys.",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c05",
+          "source_id": "glas-gaibhnenn-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one tradition, Lon the smith was for many years nourished by the cow Glas Gaibhneach, which he stole from Spain; the cow was pastured on the mountain of Sliabh-na-Glaise near the forge because no other place in Ireland was fertile enough.",
+          "statement_id": "Dalam satu tradisi, Lon sang pandai besi bertahun-tahun hidup dari sapi Glas Gaibhneach yang ia curi dari Spanyol; sapi itu digembalakan di gunung Sliabh-na-Glaise dekat tempa karena tidak ada tempat lain di Irlandia yang cukup subur.",
+          "quote": "Lon the smith who took up residence here ... He was for many years nourished by the cow Glas Gaibhneach which he stole from Spain, and the cow was pastured on the mountain of Sliabh-na-Glaise, not far from the forge, for no other place in Ireland was fertile enough.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c06",
+          "source_id": "glas-gaibhnenn-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was said this cow would fill any vessel with her milk at one milking; when two women wagered and a sieve was produced, her milk caused seven overflooding streams to pour forth.",
+          "statement_id": "Dikatakan sapi itu dengan susunya memenuhi bejana apa pun dalam satu kali perah; ketika dua perempuan bertaruh dan sebuah saringan diajukan, susunya menyebabkan tujuh aliran meluap.",
+          "quote": "This cow would fill with her milk any vessel,.. at one milking ... when a sieve was produced, the cow's milk caused seven overflooding streams to pour forth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c07",
+          "source_id": "glas-gaibhnenn-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was said the cow's hoofs were reversed, and the backward tracks always fooled the would-be cattle thieves in pursuit.",
+          "statement_id": "Dikatakan kuku sapi itu terbalik, sehingga jejak yang mengarah ke belakang selalu mengelabui para calon pencuri ternak yang mengejarnya.",
+          "quote": "Also it was said \"the hoofs of this cow were reversed\", and the backward tracks always fooled the potential cattle-thieves in pursuit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c08",
+          "source_id": "glas-gaibhnenn-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Lady Gregory's version, Cian had a wonderful cow, the Glas Gaibhnenn, whose milk never failed; everyone who heard of her coveted her and many had tried to steal her, so she had to be watched night and day.",
+          "statement_id": "Dalam versi Lady Gregory, Cian punya sapi ajaib, Glas Gaibhnenn, yang susunya tak pernah habis; semua yang mendengarnya mengingininya dan banyak yang mencoba mencurinya, sehingga ia harus dijaga siang dan malam.",
+          "quote": "Now Cian had a wonderful cow, the Glas Gaibhnenn, and her milk never failed. And every one that heard of her coveted her, and many had tried to steal her away, so that she had to be watched night and day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c09",
+          "source_id": "glas-gaibhnenn-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Lady Gregory's version, Balor had long set his mind on the Glas Gaibhnenn but had never been able to get near her; when he saw Samthainn holding the cow he put on the appearance of a little boy with red hair.",
+          "statement_id": "Dalam versi Lady Gregory, Balor lama mengincar Glas Gaibhnenn tetapi tak pernah bisa mendekatinya; ketika melihat Samthainn memegang sapi itu, ia menyamar menjadi anak lelaki kecil berambut merah.",
+          "quote": "Now Balor had set his mind for a long time on the Glas Gaibhnenn, but he had never been able to get near her up to this time. And he was watching not far off, and when he saw Samthainn holding the cow, he put on the appearance of a little boy, having red hair",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c10",
+          "source_id": "glas-gaibhnenn-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Lady Gregory's version, as soon as Balor got the halter in his hand he dragged the Glas to the strand and across the sea to his own island.",
+          "statement_id": "Dalam versi Lady Gregory, begitu Balor memegang tali kekang, ia membawa Glas itu ke pantai dan menyeberangi laut ke pulaunya sendiri.",
+          "quote": "no sooner did Balor get the halter in his hand than he set out, dragging the Glas along with him, to the strand, and across the sea to his own island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "glas-gaibhnenn-c11",
+          "source_id": "glas-gaibhnenn-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Lady Gregory's version, a Druid told Cian that so long as Balor lived the cow would never be brought back, for no one would go within reach of his Evil Eye.",
+          "statement_id": "Dalam versi Lady Gregory, seorang Druid memberi tahu Cian bahwa selama Balor hidup sapi itu tak akan bisa dibawa kembali, karena tak seorang pun berani mendekati jangkauan Mata Jahatnya.",
+          "quote": "When Cian saw his brother coming in he rushed out, and there he saw Balor and the Glas out in the sea. ... it is what the Druid told him, that so long as Balor lived, the cow would never be brought back, for no one would go within reach of his Evil Eye.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -2885,7 +3180,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fb545d7271b3c7df5ec71dbe866a80462fa05b8d88368d86663dce370f96ac92"
     },
     {
       "slug": "houles-fairy",
@@ -2969,24 +3265,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f2ec3b7b0fc8b0cbab28ee384d64949a97a9a673e8700865f663a262af009877"
     },
     {
       "slug": "jimmy-squarefoot",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "93fc7e77180c2d5ae360cd7510c4637d1b6a3f23c5e1623813c9874c1fafa4f1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jimmy-squarefoot-c01",
@@ -2995,47 +3287,117 @@
           "statement": "Jimmy Squarefoot, a bipedal pig-headed creature of Manx folklore, Isle of Man.",
           "statement_id": "Jimmy Squarefoot, makhluk berkaki dua berkepala babi folklor Manx, Pulau Man (Isle of Man).",
           "quote": "In Manx folklore, Jimmy Squarefoot is a legendary bipedal pig-headed creature living on the Isle of Man.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "jimmy-squarefoot-c02",
           "source_id": "jimmy-squarefoot-s1",
           "host": "en.wikipedia.org",
-          "statement": "Ridden by a Foawr, stone-throwing giant of Cronk yn Irree Lhaa, husband of the Caillagh ny Groamagh; tusked pig-headed man or white boar.",
-          "statement_id": "Ditunggangi Foawr, raksasa pelempar batu di Cronk yn Irree Lhaa, suami Caillagh ny Groamagh; lelaki berkepala babi bertaring atau babi hutan putih.",
+          "statement": "He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh.",
+          "statement_id": "Konon pernah ditunggangi seorang Foawr (jenis raksasa pelempar batu) tanpa nama yang tinggal di Cronk yn Irree Lhaa dan mungkin suami Caillagh ny Groamagh.",
           "quote": "He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant, living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "jimmy-squarefoot-c03",
           "source_id": "jimmy-squarefoot-s1",
           "host": "en.wikipedia.org",
-          "statement": "Hills of Arbory and Malew, Grenaby river; cave near South Barrule to the underworld.",
-          "statement_id": "Perbukitan Arbory dan Malew, Sungai Grenaby; gua dekat South Barrule ke dunia bawah.",
+          "statement": "Said to live in the hills of Arbory and Malew, mainly near the bridge over the Grenaby river; said to have a cave near South Barrule through which he takes humans to the underworld.",
+          "statement_id": "Dikatakan tinggal di perbukitan Arbory dan Malew, terutama dekat jembatan di atas sungai Grenaby; ia disebut punya gua di dekat South Barrule dan membawa manusia melewatinya ke dunia bawah.",
           "quote": "Jimmy Squarefoot is said to live in the hills of Arbory and Malew, mainly near the bridge over the Grenaby river. He is said to have a cave near South Barrule, and takes humans through it to the underworld.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "jimmy-squarefoot-c04",
           "source_id": "jimmy-squarefoot-s1",
           "host": "en.wikipedia.org",
-          "statement": "Linked to a buggane in Rushen; sailors' name for the devil in the late 1800s and early 1900s.",
-          "statement_id": "Terkait buggane di Rushen; pelaut menyebut iblis Jimmy Squarefoot akhir abad ke-19 dan awal abad ke-20.",
+          "statement": "May also be linked with the story of a buggane in Rushen that could transform between a man and a black pig; the name \"Jimmy Squarefoot\" was also used by sailors for the devil in the late 1800s and early 1900s.",
+          "statement_id": "Mungkin terkait dengan kisah buggane di Rushen yang bisa berganti wujud antara manusia dan babi hitam; nama \"Jimmy Squarefoot\" juga dipakai pelaut untuk menyebut iblis pada akhir 1800-an dan awal 1900-an.",
           "quote": "Jimmy Squarefoot may also be linked with the story of a buggane in Rushen which was able to transform between a man and a black pig. The name \"Jimmy Squarefoot\" was also used by sailors to refer to the devil during the late 1800s and early 1900s.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "jimmy-squarefoot-c05",
           "source_id": "jimmy-squarefoot-s2",
           "host": "de.wikipedia.org",
-          "statement": "Large feet wrapped in calico look square, hence the name Squarefoot.",
-          "statement_id": "Kaki besar dibalut kain belacu tampak persegi, asal nama Squarefoot.",
+          "statement": "His large feet, wrapped in calico bands, look square, hence the name \"Squarefoot\" (per the German Wikipedia article).",
+          "statement_id": "Kakinya yang besar dibalut pita kaliko dan tampak persegi, sehingga bernama \"Squarefoot\" (menurut artikel Wikipedia bahasa Jerman).",
           "quote": "Seine großen Füße sind mit Kaliko-Bändern umwickelt und wirken quadratisch, daher der Name „Squarefoot“.",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c06",
+          "source_id": "jimmy-squarefoot-s3",
+          "host": "asmanxasthehills.com",
+          "statement": "Per Gill, Jimmy Squarefoot was broadly a man with a pig's head and face and two great tusks like a boar, and he haunted all round the Grenaby district.",
+          "statement_id": "Menurut Gill, Jimmy Squarefoot pada dasarnya adalah manusia berkepala dan berwajah babi dengan dua taring besar seperti babi hutan, dan ia menghantui seluruh daerah Grenaby.",
+          "quote": "Broadly speaking, Jimmy Squarefoot was a man with a pig's head and face, \"and he had two great tusks like a boar.\" He haunted all round the Grenaby district. ... (source: A Manx Scrapbook by W Walter Gill (1929)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c07",
+          "source_id": "jimmy-squarefoot-s3",
+          "host": "asmanxasthehills.com",
+          "statement": "Per Gill, the giant, whose name is forgotten, rode Jimmy in his pig-form about the country and over the sea.",
+          "statement_id": "Menurut Gill, si raksasa (yang namanya terlupakan) menunggangi Jimmy dalam wujud babinya keliling negeri dan menyeberangi laut.",
+          "quote": "This giant, whose name is regrettably forgotten, rode Jimmy in his pig-form about the country and over the sea ... (source: A Manx Scrapbook by W Walter Gill (1929)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c08",
+          "source_id": "jimmy-squarefoot-s3",
+          "host": "asmanxasthehills.com",
+          "statement": "Per Gill, there is something engaging about Jimmy when he used to charge out at wayfarers with gleaming tusks and gnashing fangs; he seems to have an affinity with water.",
+          "statement_id": "Menurut Gill, ada sesuatu yang menarik pada Jimmy ketika dulu ia menyerbu para pejalan kaki dengan taring berkilau dan gigi bergemeletuk; ia tampaknya punya kedekatan dengan air.",
+          "quote": "there is something engaging about Jimmy when he used to charge out at wayfarers with gleaming tusks and gnashing fangs. ... For he seems to have an affinity with water ... (source: A Manx Scrapbook by W Walter Gill (1929)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c09",
+          "source_id": "jimmy-squarefoot-s3",
+          "host": "asmanxasthehills.com",
+          "statement": "Gill writes that he has never been able to learn how Jimmy got the sobriquet \"Squarefoot\".",
+          "statement_id": "Gill menulis bahwa ia tidak pernah berhasil mengetahui bagaimana Jimmy mendapat julukan \"Squarefoot\".",
+          "quote": "How he got the sobriquet of \"Squarefoot\" I have never been able to learn. ... (source: A Manx Scrapbook by W Walter Gill (1929)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c10",
+          "source_id": "jimmy-squarefoot-s2",
+          "host": "de.wikipedia.org",
+          "statement": "Per the German Wikipedia article, Jimmy Squarefoot is usually a peaceful wanderer.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Jerman, Jimmy Squarefoot biasanya adalah pengembara yang damai.",
+          "quote": "Laut der Folklore der Manx lebt Jimmy Squarefoot, eine legendäre zweibeinige schweineköpfige Kreatur, auf der Isle of Man in der Irischen See. Es ist für gewöhnlich ein friedlicher Wanderer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c11",
+          "source_id": "jimmy-squarefoot-s2",
+          "host": "de.wikipedia.org",
+          "statement": "The German Wikipedia article says that elsewhere Jimmy Squarefoot was at first himself depicted as a stone-throwing giant who rode a pig.",
+          "statement_id": "Artikel Wikipedia bahasa Jerman menyebut bahwa di tempat lain Jimmy Squarefoot pada mulanya digambarkan sendiri sebagai raksasa pelempar batu yang menunggang babi.",
+          "quote": "An anderer Stelle wird geschildert, dass Jimmy Squarefoot anfangs selber als steinewerfender Riese dargestellt wurde, der auf einem Schwein ritt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c12",
+          "source_id": "jimmy-squarefoot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jimmy Squarefoot is also the name of Monster in My Pocket #80 and of a character in the 2007 PlayStation 3 video game Folklore.",
+          "statement_id": "Jimmy Squarefoot juga nama Monster in My Pocket #80 dan tokoh dalam gim video PlayStation 3 Folklore tahun 2007.",
+          "quote": "Jimmy Squarefoot is also the name of Monster in My Pocket #80 as well as a character in the 2007 PlayStation 3 video game Folklore.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -3043,20 +3405,15 @@
     },
     {
       "slug": "kilmoulis",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "dc1ad253f6a32ecbc25a15fb2ed349ea35fce55888cf7359aafd550d4cc9d902",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kilmoulis-c01",
@@ -3065,7 +3422,7 @@
           "statement": "Kilmoulis, Anglo-Scottish border folklore, ugly brownie of mills; huge nose, no mouth.",
           "statement_id": "Kilmoulis, folklor perbatasan Inggris-Skotlandia (Anglo-Scottish), brownie buruk rupa di penggilingan; hidung besar, tanpa mulut.",
           "quote": "A kilmoulis is, in the folklore of the Anglo-Scottish border, an ugly version of the brownie who is said to haunt mills. He has an enormous nose and no mouth. This lack of an orifice forces him to inhale his food through his nose.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -3075,7 +3432,7 @@
           "statement": "Works hard for the miller, loves pranks.",
           "statement_id": "Bekerja keras untuk tukang giling, gemar iseng.",
           "quote": "The Kilmoulis works hard for the miller, but also delights in tricks and pranks. While his pranks may be a hindrance, he is generally enough help to offset the food he eats and the disturbances he causes.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -3095,7 +3452,87 @@
           "statement": "es article: a grotesque brownie of Anglo-Scottish folklore, haunting mills.",
           "statement_id": "Artikel es: versi grotesk brownie dalam folklor Inggris-Skotlandia, di penggilingan.",
           "quote": "Un Kilmoulis es una criatura mítica perteneciente al folclore anglo-escocés, considerado como una versión grotesca de los brownie (espíritus familiares) que se dice rondan en los molinos.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c05",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, Killmoulis is a peculiar species of Brownie who haunts the mill and resides in the killogee, the space before the fireplace in the kiln.",
+          "statement_id": "Menurut Henderson, Killmoulis adalah jenis Brownie yang istimewa, yang menghantui penggilingan dan tinggal di killogee, yaitu ruang di depan perapian di tungku pengering (kiln).",
+          "quote": "Killmoulis is a peculiar species of Brownie, who haunts the mill, and resides in the killogee, or space before the fireplace in the kiln.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c06",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, this sprite appears to have no mouth, yet the rhymes he quotes testify to his taste for swine's-flesh.",
+          "statement_id": "Menurut Henderson, makhluk ini tampaknya tidak punya mulut, namun sajak-sajak yang ia kutip menunjukkan kesukaannya pada daging babi.",
+          "quote": "he appears to have no mouth ... yet the following rhymes testify to his taste for swine's-flesh",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c07",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, Killmoulis takes the liveliest interest in the miller and his mill and wails piteously should misfortune threaten them, yet often torments the goodman by throwing ashes out when shelled oats (sheelin) are spread out to dry.",
+          "statement_id": "Menurut Henderson, Killmoulis sangat peduli pada pemilik penggilingan dan penggilingannya, meratap pilu bila bahaya mengancam, tetapi sering menyiksa sang tuan rumah dengan melempar abu keluar ketika gandum kupas (sheelin) dijemur.",
+          "quote": "Killmoulis takes the liveliest interest in the miller and his mill. Should any misfortune threaten them he will wail piteously. At the same time he often torments the goodman sorely by throwing ... or ashes out when sheelin or shelled oats are spread out to dry",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c08",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, he will not leave off his mischievous tricks till the miller calls out to him, whereupon he appears, puffing and blowing, in the shape of an old man with no mouth but an enormous nose.",
+          "statement_id": "Menurut Henderson, ia tidak berhenti berbuat jahil sampai sang pemilik penggilingan memanggilnya, lalu ia muncul terengah-engah berwujud lelaki tua tanpa mulut tetapi berhidung sangat besar.",
+          "quote": "nor will he leave off his mischievous tricks till the miller calls out, ... on which he appears, puffing and blowing, in the shape of an old man, the mouth wanting, but with an enormous nose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c09",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, Killmoulis will never quit his favourite corner except to thrash the corn in great emergency or to ride for the howdie (midwife) when the miller's wife needs her services.",
+          "statement_id": "Menurut Henderson, Killmoulis tidak pernah meninggalkan sudut kesukaannya kecuali untuk mengirik gandum dalam keadaan darurat atau menunggang kuda memanggil bidan ketika istri pemilik penggilingan membutuhkannya.",
+          "quote": "Killmoulis will never quit the ... his favourite corner, except to thrash the corn in great emergency, or to ride for the howdie, when the miller's wife needs her services",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c10",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, every mill was haunted by its own Killmoulis.",
+          "statement_id": "Menurut Henderson, setiap penggilingan dihantui Killmoulis-nya sendiri.",
+          "quote": "Every mill was haunted by its own Killmoulis",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c11",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Per Henderson, in Roxburghshire Killmoulis is drawn into the \"blue clue\" divination: towards the end of the winding he holds the thread, and he will snort out the name of your future spouse.",
+          "statement_id": "Menurut Henderson, di Roxburghshire Killmoulis ikut terlibat dalam ramalan \"blue clue\" (gulungan benang biru): menjelang akhir penggulungan ia memegang benang, dan ia akan mendengus menyebut nama calon pasangan hidup.",
+          "quote": "In Roxburghshire Killmoulis is thus drawn into the spell of the ... Towards the end of the winding Killmoulis will hold the thread. You must ask ... and he will snort out the name of your future spouse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kilmoulis-c12",
+          "source_id": "kilmoulis-s3",
+          "host": "archive.org",
+          "statement": "Henderson writes that one would suppose he took his name from the kiln, but Mr. Wilkie considers it to mean the miller's servant.",
+          "statement_id": "Henderson menulis bahwa orang akan mengira namanya berasal dari kiln (tungku pengering), tetapi Mr. Wilkie menganggapnya berarti pelayan pemilik penggilingan.",
+          "quote": "One would suppose that he took his name from the kiln, but Mr. Wilkie considers ... to mean the miller's servant.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -3103,18 +3540,29 @@
     },
     {
       "slug": "krasnoludek",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-1.md",
+      "entry_sha256": "b63c089c2c56895e6f1a17b4123dcf5dec493db5c3c5ba3038e22c5a45450f08",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Belarusia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Belarusia, Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "abilities[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Belarusia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -3125,7 +3573,7 @@
           "statement": "Krasnoludek (krasnal), Polish name for a mythical gnome or dwarf, pointy red hats.",
           "statement_id": "Krasnoludek (krasnal), nama Polandia (Polish) untuk gnome atau kurcaci mitologis, topi merah runcing.",
           "quote": "Krasnoludek or krasnal is the Polish name for a mythological type of gnome or dwarf, common in many Polish and translated folk tales. They resemble small humans and wear pointy red hats.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -3135,7 +3583,7 @@
           "statement": "Germanic origin, in Polish folktales from the 16th or 17th century.",
           "statement_id": "Asal Jermanik (Germanic), muncul dalam dongeng Polandia abad ke-16 atau ke-17.",
           "quote": "The mythological dwarf is of Germanic origin and appeared in Polish folktales in the 16th or 17th century.",
-          "context": "historical-record",
+          "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
@@ -3165,7 +3613,57 @@
           "statement": "ru article: a dwarf folk of Polish and Belarusian mythology (Skrzaty), from belief in ancestors' souls; home guardians.",
           "statement_id": "Artikel ru: bangsa kerdil mitologi Polandia dan Belarus (Skrzaty), dari kepercayaan jiwa leluhur; pelindung rumah.",
           "quote": "в польской и белорусской мифологии народ карликов. По своей мифологии аналогичны западноевропейским гномам и серболужицким людкам. Предполагается, что антропологически мифология краснолюдков происходит от веры в души умерших предков или младенцев. Считаются защитниками человеческих жилищ.",
-          "context": "religious-tradition",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "krasnoludek-c06",
+          "source_id": "krasnoludek-s3",
+          "host": "journals.akademicka.pl",
+          "statement": "In Kregždys's list of Polish dialect forms, krasnyludek/kraśnoludek is glossed as a small human-shaped being who wears a pointy red hat, dwells in the earth, in pits, ruins and all kinds of holes, and is helpful to humans when they are in need.",
+          "statement_id": "Dalam daftar bentuk dialek Polandia yang disusun Kregždys, krasnyludek/kraśnoludek diberi arti makhluk kecil berwujud manusia yang memakai topi merah runcing, tinggal di dalam tanah, lubang, dan reruntuhan, serta menolong manusia yang membutuhkan.",
+          "quote": "krasnyludek, kraśnoludek / kraśnyludek 'a small human-shaped being who wears pointy red hat, dwells in the earth, in pits, ruins and all kinds of holes; helpful to humans when they are in need'",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krasnoludek-c07",
+          "source_id": "krasnoludek-s3",
+          "host": "journals.akademicka.pl",
+          "statement": "In the same list, the dialect form krasnoludek/krusnalek is glossed as a dwarfish man of the size of a fly or a bee who lives in a mousehole.",
+          "statement_id": "Dalam daftar yang sama, bentuk dialek krasnoludek/krusnalek diberi arti manusia kerdil seukuran lalat atau lebah yang tinggal di lubang tikus.",
+          "quote": "krasnoludek / krusnalek 'a dwarfish man of a size of a fly or a bee who lives in a mousehole",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krasnoludek-c08",
+          "source_id": "krasnoludek-s3",
+          "host": "journals.akademicka.pl",
+          "statement": "The dialect form krosnalek is glossed as a dwarf of the size of an insect who lives in a mousehole and gets out to spree on the night of the full moon; harmless to humans, but in the moment of fright it becomes a giant.",
+          "statement_id": "Bentuk dialek krosnalek diberi arti kurcaci seukuran serangga yang tinggal di lubang tikus dan keluar berpesta pada malam bulan purnama; tidak berbahaya bagi manusia, tetapi menjadi raksasa saat ketakutan.",
+          "quote": "krosnalek, (pl.) krosnalki 'a dwarf of a size of an insect who lives in a mousehole and gets out from there to spree in the night of the full moon; harmless to humans, but in the moment of fright it becomes a giant'",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krasnoludek-c09",
+          "source_id": "krasnoludek-s4",
+          "host": "visitwroclaw.eu",
+          "statement": "Per the Wrocław tourism site, in Polish folk demonology it is difficult to find a single term for the dwarf figure; each region uses a different name and attributes different behaviour to it.",
+          "statement_id": "Menurut situs pariwisata Wrocław, dalam demonologi rakyat Polandia sulit menemukan istilah tunggal untuk sosok kurcaci; tiap daerah memakai nama berbeda dan mengaitkan perilaku berbeda dengannya.",
+          "quote": "In Polish folk demonology it is difficult to find a homogeneous term for the dwarf figure. Actually, each region uses a different name and attributes different behavior to it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "krasnoludek-c10",
+          "source_id": "krasnoludek-s4",
+          "host": "visitwroclaw.eu",
+          "statement": "Per the Wrocław tourism site, in the second half of 2020 there were about 360 dwarf figures in Wrocław.",
+          "statement_id": "Menurut situs pariwisata Wrocław, pada paruh kedua 2020 ada sekitar 360 patung kurcaci di Wrocław.",
+          "quote": "In the second half of 2020, there were about 360 dwarf figures in Wroclaw.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -3243,7 +3741,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9b00e44f38649a8c7cfdf5cd778a0aceb8241a1b1a113c686d79c119e7c2ff08"
     },
     {
       "slug": "nimerigar",
@@ -3313,7 +3812,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "75b851087206a2beceb317efcb4d2e720e69f3aa860725f4b818e3ed04bcfd99"
     },
     {
       "slug": "nuggle",
@@ -3387,7 +3887,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2deefc6a2bfc3221158fc828b7a1ba6ee8ec075cf3b0d8927717c525e27a12e1"
     },
     {
       "slug": "queen-of-elphame",
@@ -3457,7 +3958,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f949e0ccbfeb56bfbe9128432a14617035377a695be6ee973450a44a6f56af6f"
     },
     {
       "slug": "rhita-gawr",
@@ -3517,7 +4019,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22948fbd115d3a98d14bab022d6b5a4f3be503c2ac32d6a87b663c6487d5d345"
     },
     {
       "slug": "simonside-dwarfs",
@@ -3591,7 +4094,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b8c4327863516fa9b6c935f8fc27f3bc818f9e7022cf67803b4cace442b3d9ef"
     },
     {
       "slug": "skuld-princess",
@@ -3675,7 +4179,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "75b03bac3f9602231cbe29f3136e538ac859a94bd3c412d6ee1fd747e9193a4e"
     },
     {
       "slug": "wirry-cow",
@@ -3745,7 +4250,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59dcd5efe3eec80a7c8525bc0d201023c68cd48d4733a70964507bfa2a32af23"
     }
   ]
 }
