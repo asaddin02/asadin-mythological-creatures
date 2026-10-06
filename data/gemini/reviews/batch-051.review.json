@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-051",
-  "checked_at": "2026-10-06T05:46:35.471Z",
+  "checked_at": "2026-10-06T14:39:47.373Z",
   "files": [
     "batch-051.md",
     "batch-051-fix-1.md",
-    "batch-051-fix-2.md"
+    "batch-051-fix-2.md",
+    "batch-051-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -271,37 +272,22 @@
     },
     {
       "slug": "gyges",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "dbed11b44abaf60bf08d65cdea6258b757e06382d58df4154207a74666054966",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 12,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (gyges-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        },
-        {
-          "level": "warn",
-          "where": "claims (gyges-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gyges-c01",
           "source_id": "gyges-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Gyges is one of the giants of Greek mythology.",
-          "statement_id": "Gyges adalah salah satu raksasa mitologi Yunani.",
+          "statement": "Gyges (also Gyes) is a giant of Greek mythology.",
+          "statement_id": "Gyges (juga Gyes) adalah raksasa dalam mitologi Yunani.",
           "quote": "ギューゲース（古希: Γύγης, Gȳgēs）あるいはギュエース（古希: Γύης, Gyēs）は、ギリシア神話の巨人である。",
           "context": "traditional-belief",
           "status": "exact"
@@ -310,9 +296,9 @@
           "id": "gyges-c02",
           "source_id": "gyges-s2",
           "host": "www.theoi.com",
-          "statement": "Ancient accounts give his group a hundred arms and fifty heads each.",
-          "statement_id": "Sumber kuno menggambarkan kelompoknya memiliki seratus lengan dan lima puluh kepala.",
-          "quote": "From their shoulders sprang a hundred arms, not to be approached, and each had fifty heads upon his shoulders",
+          "statement": "In this passage Gyes is named with Kottos and Briareos; a hundred arms sprang from their shoulders and each had fifty heads.",
+          "statement_id": "Dalam teks ini Gyes disebut bersama Kottos dan Briareos; dari bahu mereka tumbuh seratus lengan dan masing-masing berkepala lima puluh.",
+          "quote": "Kottos (Cottus) and Briareos (Briareus) and Gyes, presumptuous children. From their shoulders sprang a hundred arms, not to be approached, and each had fifty heads upon his shoulders",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -320,9 +306,9 @@
           "id": "gyges-c03",
           "source_id": "gyges-s2",
           "host": "www.theoi.com",
-          "statement": "Zeus brought the brothers out of their confinement to fight the Titans.",
-          "statement_id": "Zeus membebaskan saudara-saudara itu dari belenggu.",
-          "quote": "brought them up again to the light at Gaia's (Gaea's, Earth's) advising",
+          "statement": "Zeus and the other deathless gods brought them back up to the light at Gaia's advising.",
+          "statement_id": "Zeus dan dewa-dewa lain membawa mereka kembali ke terang atas saran Gaia.",
+          "quote": "But Kronion (Cronion) [Zeus] and the other deathless gods whom rich-haired Rhea bare from union with Kronos (Cronus), brought them up again to the light at Gaia's (Gaea's, Earth's) advising.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -330,54 +316,123 @@
           "id": "gyges-c04",
           "source_id": "gyges-s2",
           "host": "www.theoi.com",
-          "statement": "Gyges is named among the guards of the defeated Titans.",
-          "statement_id": "Gyges disebut sebagai penjaga yang dipercaya Zeus.",
+          "statement": "Gyes, Kottos and Obriareos live there as trusty warders of Zeus.",
+          "statement_id": "Gyes, Kottos, dan Obriareos tinggal di sana sebagai penjaga yang dipercaya Zeus.",
           "quote": "There Gyes and Kottos and great-souled Obriareos live, trusty warders of Zeus",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gyges-c05",
+          "source_id": "gyges-s2",
+          "host": "www.theoi.com",
+          "statement": "Their father Ouranos bound Obriareos, Kottos and Gyes in cruel bonds because he was jealous of their manhood, comeliness and great size.",
+          "statement_id": "Ayah mereka, Ouranos, membelenggu Obriareos, Kottos, dan Gyes karena iri pada keperkasaan, keelokan, dan ukuran mereka yang besar.",
+          "quote": "But when first their father [Ouranos (Uranus)] was vexed in his heart with Obriareos (Briareus) and Kottos (Cottus) and Gyes, he bound them in cruel bonds, because he was jealous of their exceeding manhood and comeliness and great size",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c06",
+          "source_id": "gyges-s2",
+          "host": "www.theoi.com",
+          "statement": "Among the foremost, Kottos, Briareos and Gyes, insatiate for war, launched three hundred rocks one upon another and overshadowed the Titans with their missiles.",
+          "statement_id": "Di barisan terdepan, Kottos, Briareos, dan Gyes yang tak pernah puas berperang melontarkan tiga ratus batu bertubi-tubi sehingga memayungi para Titan dengan lemparan mereka.",
+          "quote": "And amongst the foremost [in the battle were the Hekatonkheires (Hecatoncheires)] Kottos (Cottus) and Briareos (Briareus) and Gyes insatiate for war raised fierce fighting: three hundred rocks, one upon another, they launched from their strong hands and overshadowed the Titanes (TItans) with their missiles",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c07",
+          "source_id": "gyges-s2",
+          "host": "www.theoi.com",
+          "statement": "Kottos and Gyes are said to have their dwelling upon the foundations of Okeanos.",
+          "statement_id": "Kottos dan Gyes disebut tinggal di atas dasar-dasar Okeanos.",
+          "quote": "have their dwelling upon Okeanos' (Oceanus') foundations, even Kottos (Cottus) and Gyes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c08",
+          "source_id": "gyges-s2",
+          "host": "www.theoi.com",
+          "statement": "Gyges and Cottus are named as brothers of Aegaeon; they are known as the Uranids and are described as huge monsters with a hundred arms (hekatoncheires) and fifty heads.",
+          "statement_id": "Gyges dan Cottus disebut saudara Aegaeon; mereka dikenal sebagai Uranid dan digambarkan sebagai monster raksasa berlengan seratus (hekatoncheires) dan berkepala lima puluh.",
+          "quote": "Aegaeon and his brothers Gyges and Cottus are known under the name of the Uranids ... and are described as huge monsters with a hundred arms (hekatoncheires) and fifty heads.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c09",
+          "source_id": "gyges-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Gyges is a son of Ouranos and Gaia, one of the Hekatonkheires with a hundred arms and fifty heads, and a brother of Briareos and Cottus.",
+          "statement_id": "Gyges adalah putra Ouranos dan Gaia, salah satu hekatonkheir berlengan seratus dan berkepala lima puluh, bersaudara dengan Briareos dan Cottus.",
+          "quote": "天空神ウーラノスと大地母神ガイアの息子で、百の腕と50の頭を持つ異形の巨人ヘカトンケイルの1人。ブリアレオース、コットスと兄弟。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c10",
+          "source_id": "gyges-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name Gyges is given the meaning \"one with many limbs\".",
+          "statement_id": "Nama Gyges diartikan \"yang memiliki banyak anggota badan\".",
+          "quote": "ブリアレオース、コットスと兄弟。ギューゲースとは「多くの手足を持つ者」の意。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c11",
+          "source_id": "gyges-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "After the war they went to Tartaros and kept watch over the defeated Titans; Gyges and Cottus are also said to have built a house upon Okeanos.",
+          "statement_id": "Setelah perang berakhir mereka pergi ke Tartaros dan menjaga para Titan yang kalah; Gyges dan Cottus juga dikatakan membangun rumah di atas Okeanos.",
+          "quote": "戦争が終わると彼らはタルタロスに赴き、敗れたティーターン族の見張りを務めた。またギューゲースとコットスはオーケアノスの上に館を建てて住んだともいわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gyges-c12",
+          "source_id": "gyges-s2",
+          "host": "www.theoi.com",
+          "statement": "One opinion regards Aegaeon and his brothers as personifications of the extraordinary powers of nature, such as earthquakes and volcanic eruptions.",
+          "statement_id": "Satu pendapat memandang Aegaeon dan saudara-saudaranya sebagai personifikasi kekuatan alam yang luar biasa, seperti gempa bumi dan letusan gunung berapi.",
+          "quote": "The opinion which regards Aegaeon and his brothers as only personifications of the extraordinary powers of nature, such as are manifested in the violent commotions of the earth, as earth-quakes, volcanic eruptions and the like, seems to explain best the various accounts about them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4a2a3bd452a552b85376c85c08784f4f1a3fb40427a00bac191d9ecab5e897aa"
+      "images": []
     },
     {
       "slug": "hone-onna",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "e1410dd66b2aca22a18a5ea8a218beb3e0e711bc6a42e81b0f54505675914b5a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (hone-onna-c03)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hone-onna-c01",
           "source_id": "hone-onna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Hone-onna is a Japanese yōkai illustrated by Toriyama Sekien.",
-          "statement_id": "Hone-onna adalah yōkai Jepang yang diilustrasikan Toriyama Sekien.",
-          "quote": "Hone-onna (骨(ほね)女(おんな); \"bone woman\") is a type of Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien, and retroactively originated in the famous kaidan Botan Dōrō (1666) by Asai Ryōi.",
-          "context": "traditional-belief",
-          "status": "loose"
+          "statement": "Hone-onna is a Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien and retroactively originated in the kaidan Botan Dōrō (1666) by Asai Ryōi.",
+          "statement_id": "Hone-onna adalah yōkai Jepang yang pertama digambarkan dalam Konjaku Gazu Zoku Hyakki (1779) karya Toriyama Sekien dan secara surut berasal dari kaidan Botan Dōrō (1666) karya Asai Ryōi.",
+          "quote": "is a type of Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien, and retroactively originated in the famous kaidan Botan Dōrō (1666) by Asai Ryōi.",
+          "context": "historical-record",
+          "status": "exact"
         },
         {
           "id": "hone-onna-c02",
           "source_id": "hone-onna-s1",
           "host": "en.wikipedia.org",
-          "statement": "She is shown as bones but appears beautiful to a former lover.",
-          "statement_id": "Dia ditampilkan sebagai tulang tetapi tampak cantik bagi mantan kekasih.",
+          "statement": "Hone-onna are depicted as women in the form of bones, though to the men they loved when alive they appear as beautiful women.",
+          "statement_id": "Hone-onna digambarkan sebagai perempuan berwujud tulang, tetapi bagi laki-laki yang dicintainya semasa hidup ia tampak sebagai perempuan cantik.",
           "quote": "As their name implies, they are depicted as women in the form of bones, though to the men they loved back when they were alive, they appear as beautiful women.",
           "context": "traditional-belief",
           "status": "exact"
@@ -386,8 +441,8 @@
           "id": "hone-onna-c03",
           "source_id": "hone-onna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some stories describe her as a woman unable to rest after death.",
-          "statement_id": "Beberapa cerita menggambarkannya sebagai seorang wanita yang tidak dapat beristirahat setelah kematian.",
+          "statement": "According to folklore, Hone-onna originate in women who died while in a relationship, and whose love was so intense that they cannot rest in peace.",
+          "statement_id": "Menurut cerita rakyat, Hone-onna berasal dari perempuan yang meninggal saat menjalin hubungan dengan kekasih, dan cintanya begitu kuat sehingga ia tidak dapat beristirahat dengan tenang.",
           "quote": "According to folklore, Hone-onna have their origins in women who died while having a relationship with a boyfriend, and their love for their boyfriend is so intense that they can't rest in peace.",
           "context": "traditional-belief",
           "status": "exact"
@@ -396,237 +451,508 @@
           "id": "hone-onna-c04",
           "source_id": "hone-onna-s1",
           "host": "en.wikipedia.org",
-          "statement": "In these stories she rises at night to visit the man she loved.",
-          "statement_id": "Dalam kisah - kisah ini dia bangun di malam hari untuk mengunjungi pria yang dicintainya.",
+          "statement": "They become Hone-onna and awaken from their graves at night to reunite with the men they loved.",
+          "statement_id": "Perempuan itu menjadi Hone-onna dan bangun dari kuburnya pada malam hari untuk bertemu lagi dengan laki-laki yang dicintainya.",
           "quote": "Instead, they become one of these beings and awaken from their graves during the night to reunite with the men they loved.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hone-onna-c05",
+          "source_id": "hone-onna-s2",
+          "host": "yokai.com",
+          "statement": "The hone onna's habitat is given as dark streets, alleys and graveyards.",
+          "statement_id": "Habitat Hone-onna disebut jalan gelap, gang, dan pemakaman.",
+          "quote": "Habitat: dark streets, alleys, graveyards",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c06",
+          "source_id": "hone-onna-s2",
+          "host": "yokai.com",
+          "statement": "Only those unclouded by love or with strong religious faith can penetrate the disguise and see the true form: a rotting, fetid, skeletal corpse returned from the grave.",
+          "statement_id": "Hanya orang yang tidak dibutakan cinta atau yang beriman kuat dapat menembus penyamaran itu dan melihat wujud aslinya, yaitu mayat kerangka yang membusuk dan berbau busuk yang kembali dari kubur.",
+          "quote": "Only those unclouded by love or with strong religious faith are able to penetrate their disguise and see their true form: a rotting, fetid, skeletal corpse returned from the grave.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c07",
+          "source_id": "hone-onna-s2",
+          "host": "yokai.com",
+          "statement": "Each night she drains some of her lover's life force so that he grows sicker and weaker; without intervention he eventually dies, joining her in death.",
+          "statement_id": "Setiap malam ia menyerap sebagian daya hidup kekasihnya sehingga laki-laki itu kian sakit dan lemah; tanpa campur tangan, ia akhirnya meninggal dan bergabung dengannya dalam kematian.",
+          "quote": "Each night she drains some of her lover’s life force, and he grows ever sicker and weaker. Without intervention, he will eventually die, joining his lover forever in death’s embrace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c08",
+          "source_id": "hone-onna-s2",
+          "host": "yokai.com",
+          "statement": "A home can be warded against entry by ghosts with prayers and magic charms, but these only work as long as the master of the house wills them to.",
+          "statement_id": "Rumah dapat dilindungi dari masuknya hantu dengan doa dan jimat, tetapi perlindungan itu hanya bekerja selama tuan rumah menghendakinya.",
+          "quote": "A home can be warded with prayers and magic charms against entry by ghosts, but they only work as long as the master of the house wills them to.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c09",
+          "source_id": "hone-onna-s2",
+          "host": "yokai.com",
+          "statement": "Perhaps the most famous hone onna is Otsuyu from Botan dōrō, or The Tale of the Peony Lantern.",
+          "statement_id": "Hone-onna yang mungkin paling terkenal adalah Otsuyu dari Botan dōrō, atau Kisah Lampion Peoni.",
+          "quote": "Perhaps the most famous hone onna is Otsuyu from Botan dōrō, or The Tale of the Peony Lantern.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c10",
+          "source_id": "hone-onna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an odd tale from Aomori Prefecture about a yōkai titled \"hone-onna\", it is said that she likes fish bones and would collapse upon encountering a high priest.",
+          "statement_id": "Dalam satu kisah aneh dari Prefektur Aomori tentang yōkai bernama \"hone-onna\", disebutkan bahwa ia menyukai tulang ikan dan akan runtuh bila bertemu pendeta tinggi.",
+          "quote": "there is an odd tale in the Aomori Prefecture about a yōkai under the title of \"hone-onna\". ... It is said that she likes fish bones and would collapse upon encountering a high priest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hone-onna-c11",
+          "source_id": "hone-onna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern times this type of yōkai inspired and gave its name to Hone-onna, one of the main characters in the anime series and franchise Hell Girl.",
+          "statement_id": "Di masa modern, jenis yōkai ini menjadi inspirasi dan nama salah satu tokoh utama serial anime dan waralaba Hell Girl.",
+          "quote": "In modern times, this type of yōkai was used as the inspiration and namesake for Hone-onna, one of the main characters in the anime series and franchise Hell Girl.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "098766f57e753efe07afd157feeb89f6f65c0b9fde29dc722fbbac1910a0c5e6"
+      "images": []
     },
     {
       "slug": "kamiyonanayo",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "1f468c924b01a40d4b7cb3ef4f64ad45ea1295851324a04d4edb29d08b59d56d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (kamiyonanayo-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kamiyonanayo-c01",
           "source_id": "kamiyonanayo-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kamiyonanayo names seven generations of early kami in Japanese mythology.",
-          "statement_id": "Kamiyonanayo menamai tujuh generasi kami awal dalam mitologi Jepang.",
-          "quote": "In Japanese mythology, the Kamiyonanayo (神世七代; lit. \"Seven Generations of the Age of the Gods\") are the seven generations of kami that emerged after the formation of heaven and earth(Tenchi-kaibyaku).",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "In Japanese mythology, the Kamiyonanayo are the seven generations of kami that emerged after the formation of heaven and earth (Tenchi-kaibyaku).",
+          "statement_id": "Dalam mitologi Jepang, Kamiyonanayo adalah tujuh generasi kami yang muncul setelah terbentuknya langit dan bumi (Tenchi-kaibyaku).",
+          "quote": "In Japanese mythology, the Kamiyonanayo ... are the seven generations of kami that emerged after the formation of heaven and earth(Tenchi-kaibyaku).",
+          "context": "traditional-belief",
+          "status": "exact"
         },
         {
           "id": "kamiyonanayo-c02",
           "source_id": "kamiyonanayo-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Kojiki places them after the Kotoamatsukami.",
-          "statement_id": "Kojiki menempatkan mereka setelah Kotoamatsukami.",
+          "statement": "According to the Kojiki, these deities appeared after the Kotoamatsukami, which appeared at the time of the creation of the universe.",
+          "statement_id": "Menurut Kojiki, dewa-dewa ini muncul setelah Kotoamatsukami, yang muncul saat penciptaan alam semesta.",
           "quote": "According to the Kojiki, these deities appeared after the Kotoamatsukami, which appeared at the time of the creation of the universe.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "kamiyonanayo-c03",
           "source_id": "kamiyonanayo-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its first two generations are solitary kami, followed by paired deities.",
-          "statement_id": "Dua generasi pertamanya adalah kami soliter, diikuti oleh dewa berpasangan.",
-          "quote": "The first two generations were hitorigami while the five that followed came into being as male-female pairs of kami: brothers and sisters that were at the same time married couples (a common trope in many mythologies, see: List of coupled siblings in religion, mythology and legends).",
-          "context": "religious-tradition",
+          "statement": "The first two generations were hitorigami, while the five that followed came into being as male-female pairs of kami: brothers and sisters who were also married couples.",
+          "statement_id": "Dua generasi pertama adalah hitorigami, sedangkan lima generasi berikutnya muncul sebagai pasangan kami laki-laki dan perempuan, yaitu kakak-adik yang sekaligus suami istri.",
+          "quote": "The first two generations were hitorigami while the five that followed came into being as male-female pairs of kami: brothers and sisters that were at the same time married couples",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "kamiyonanayo-c04",
           "source_id": "kamiyonanayo-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Kojiki counts twelve deities across the seven generations.",
-          "statement_id": "Kojiki menghitung dua belas dewa dari tujuh generasi.",
+          "statement": "In this chronicle the Kamiyonanayo consists of 12 deities in total.",
+          "statement_id": "Dalam kronik ini Kamiyonanayo terdiri atas 12 dewa.",
           "quote": "In total the Kamiyonanayo consists of 12 deities in this chronicle.",
-          "context": "religious-tradition",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c05",
+          "source_id": "kamiyonanayo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The last generation, Izanagi and Izanami, was the couple who would be responsible for creating the Japanese archipelago (Kuniumi) and would engender other deities (Kamiumi).",
+          "statement_id": "Generasi terakhir, Izanagi dan Izanami, adalah pasangan yang kelak bertanggung jawab atas penciptaan kepulauan Jepang (Kuniumi) dan melahirkan dewa-dewa lain (Kamiumi).",
+          "quote": "The last generation, consisting of Izanagi and Izanami, was the couple that would be responsible for the creation of the Japanese archipelago (Kuniumi) and would engender other deities (Kamiumi).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c06",
+          "source_id": "kamiyonanayo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Nihon Shoki says this group was the first to appear after the creation of heaven and earth, and states that the first three generations were hitorigami while the other generations were pairs of the opposite sex.",
+          "statement_id": "Nihon Shoki menyebut kelompok ini sebagai yang pertama muncul setelah penciptaan langit dan bumi, dan menyatakan tiga generasi pertama adalah hitorigami sedangkan generasi lain berupa pasangan lawan jenis.",
+          "quote": "In contrast, the chronicle Nihon Shoki, points out that this group was the first to appear after the creation of heaven and earth. It also states that the first three generations of deities were hitorigami and that the other generations of deities were pairs of the opposite sex.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c07",
+          "source_id": "kamiyonanayo-s2",
+          "host": "kotobank.jp",
+          "statement": "The Kamiyonanayo is a genealogy of deities that came into being at the beginning of heaven and earth.",
+          "statement_id": "Kamiyonanayo adalah silsilah dewa-dewa yang terbentuk pada saat permulaan langit dan bumi.",
+          "quote": "神世七代 かみよななよ 天地初発 (あめつちはじめ) のとき生成した神々の系譜。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c08",
+          "source_id": "kamiyonanayo-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Kojiki, the seven generations are the deities that appeared after the five Kotoamatsukami: Kuni-no-Tokotachi, Toyokumono, Uhijini and Suhijini, Tsunugui and Ikugui, Otonoji and Otonobe, Omodaru and Ayakashikone, and Izanagi and Izanami.",
+          "statement_id": "Menurut Kojiki, tujuh generasi itu adalah dewa-dewa yang muncul setelah lima Kotoamatsukami: Kuni-no-Tokotachi, Toyokumono, Uhijini dan Suhijini, Tsunugui dan Ikugui, Otonoji dan Otonobe, Omodaru dan Ayakashikone, serta Izanagi dan Izanami.",
+          "quote": "『古事記』によると別天神 (ことあまつかみ) 5神の次に出現した (1) クニノトコタチノカミ，(2) トヨクモヌノカミ，(3) ウヒジニノカミ，イモスヒジニノカミ，(4) ツヌグヒノカミ，イモイクグヒノカミ，(5) オホトノジノカミ，イモオホトノベノカミ，(6) オモダルノカミ，イモアヤカシコネノカミ，(7) イザナギノカミ，イモイザナミノカミの7代をいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c09",
+          "source_id": "kamiyonanayo-s2",
+          "host": "kotobank.jp",
+          "statement": "The name can also be read \"kamiyoshichidai\" and written 神代七代 or 天神七代.",
+          "statement_id": "Nama ini juga dapat dibaca \"kamiyoshichidai\" dan ditulis 神代七代 atau 天神七代.",
+          "quote": "神々の系譜。「かみよしちだい」とも読み，神代七代，天神七代とも書く。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c10",
+          "source_id": "kamiyonanayo-s2",
+          "host": "kotobank.jp",
+          "statement": "The Kojiki and the Nihon Shoki differ slightly in the names of the deities.",
+          "statement_id": "Kojiki dan Nihon Shoki memiliki sedikit perbedaan dalam nama dewa-dewanya.",
+          "quote": "天神七代とも書く。『古事記』と『日本書紀』では神の名に若干の違いがある",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamiyonanayo-c11",
+          "source_id": "kamiyonanayo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Kamiyonanayo literally means \"Seven Generations of the Age of the Gods\".",
+          "statement_id": "Nama Kamiyonanayo secara harfiah berarti \"Tujuh Generasi Zaman Para Dewa\".",
+          "quote": "lit. \"Seven Generations of the Age of the Gods\"",
+          "context": "etymology",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f51f9ee1d52fdbbddedd7a97baf242e4cd82dc2477ba616e7a70725160cd3c7e"
+      "images": []
     },
     {
       "slug": "kuni-no-tokotachi",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "539e7172100437b98dabee654770114f5d0890a8001c0b1528fd508c4c11a0b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kuni-no-tokotachi-c01",
           "source_id": "kuni-no-tokotachi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kuni-no-Tokotachi is a deity of the creation accounts in Shinto.",
-          "statement_id": "Kuni-no-Tokotachi adalah dewa dalam kisah penciptaan Shinto.",
-          "quote": "In Shinto faith, Kuninotokotachi (国之常立神; Kuninotokotachi-no-Kami, in Kojiki) (国常立尊; Kuninotokotachi-no-Mikoto, in Nihon Shoki (no-Mikoto here being an honorific of divinity)) or Kuni-toko-tachi is one of the two Gods born from \"something like a reed that arose from the soil\" when the Earth was chaotic.",
+          "statement": "In Shinto faith, Kuninotokotachi or Kuni-toko-tachi is one of the two Gods born from \"something like a reed that arose from the soil\" when the Earth was chaotic.",
+          "statement_id": "Dalam kepercayaan Shinto, Kuninotokotachi atau Kuni-toko-tachi adalah salah satu dari dua dewa yang lahir dari \"sesuatu seperti buluh yang tumbuh dari tanah\" ketika bumi masih kacau.",
+          "quote": "In Shinto faith, Kuninotokotachi ... or Kuni-toko-tachi is one of the two Gods born from \"something like a reed that arose from the soil\" when the Earth was chaotic.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "kuni-no-tokotachi-c02",
           "source_id": "kuni-no-tokotachi-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Kojiki lists this kami first among seven generations after the earliest five deities.",
-          "statement_id": "Kojiki mencantumkan kami ini sebagai yang pertama di antara tujuh generasi setelah lima dewa paling awal.",
-          "quote": "In the Kojiki, he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe.",
+          "statement": "In the Kojiki, he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe.",
+          "statement_id": "Dalam Kojiki, ia adalah yang pertama dari tujuh generasi dewa yang lahir setelah lima dewa pertama yang lahir saat penciptaan alam semesta.",
+          "quote": "In the Kojiki ... he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "kuni-no-tokotachi-c03",
           "source_id": "kuni-no-tokotachi-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Nihon Shoki gives a different order after heaven and earth emerged.",
-          "statement_id": "Nihon Shoki memberikan tatanan yang berbeda setelah langit dan bumi muncul.",
-          "quote": "In the Nihon Shoki, he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth.",
+          "statement": "In the Nihon Shoki, he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth.",
+          "statement_id": "Dalam Nihon Shoki, ia adalah yang pertama dari tiga dewa yang lahir setelah langit dan bumi lahir dari kekacauan, dan lahir dari sesuatu seperti pucuk buluh yang tumbuh di antara langit dan bumi.",
+          "quote": "In the Nihon Shoki ... he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "kuni-no-tokotachi-c04",
           "source_id": "kuni-no-tokotachi-s1",
           "host": "en.wikipedia.org",
-          "statement": "The two chronicles also differ in how they describe the deity's gender.",
-          "statement_id": "Kedua kronik juga berbeda dalam bagaimana mereka menggambarkan jenis kelamin dewa.",
-          "quote": "Kuninotokotachi is described as a hitorigami and genderless in Kojiki, but is described as a male god in Nihon Shoki.",
+          "statement": "Kojiki describes him as a hitorigami and genderless, while the Nihon Shoki describes him as a male god.",
+          "statement_id": "Kojiki menggambarkannya sebagai hitorigami tanpa jenis kelamin, sedangkan Nihon Shoki menggambarkannya sebagai dewa laki-laki.",
+          "quote": "Kuninotokotachi is described as a hitorigami and genderless in Kojiki ... but is described as a male god in Nihon Shoki",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c05",
+          "source_id": "kuni-no-tokotachi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to mythology, he is known to reside on top of Mount Fuji.",
+          "statement_id": "Menurut mitologi, ia diketahui berdiam di puncak Gunung Fuji.",
+          "quote": "He is known by mythology to reside on top of Mount Fuji",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c06",
+          "source_id": "kuni-no-tokotachi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yoshida Kanetomo, founder of the Yoshida Shintō sect, identified Kuninotokotachi with Amenominakanushi and regarded him as the primordial god of the Universe.",
+          "statement_id": "Yoshida Kanetomo, pendiri aliran Yoshida Shintō, menyamakan Kuninotokotachi dengan Amenominakanushi dan menganggapnya dewa purba alam semesta.",
+          "quote": "Yoshida Kanetomo, the founder of the Yoshida Shintō sect, identified Kuninotokotachi with Amenominakanushi and regarded him as the primordial god of the Universe.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c07",
+          "source_id": "kuni-no-tokotachi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Tenrikyo, Kunitokotachi-no-Mikoto is one of the Ten Aspects of God's Providence.",
+          "statement_id": "Dalam Tenrikyo, Kunitokotachi-no-Mikoto adalah salah satu dari Sepuluh Aspek Penyelenggaraan Tuhan.",
+          "quote": "In Tenrikyo, Kunitokotachi-no-Mikoto is one of the Ten Aspects of God's Providence",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c08",
+          "source_id": "kuni-no-tokotachi-s2",
+          "host": "kotobank.jp",
+          "statement": "His name is also written 国底立尊; according to the Nihon Shoki he is the first deity to appear when heaven and earth opened, and together with two other deities he is called one of the three dokka deities (独化の三神).",
+          "statement_id": "Namanya juga ditulis 国底立尊; menurut Nihon Shoki ia adalah dewa yang pertama muncul saat terbukanya langit dan bumi, dan bersama dua dewa lain disebut tiga dewa dokka (独化の三神).",
+          "quote": "国底立尊とも書く。《日本書紀》によれば天地開闢(かいびゃく)の最初に出現した神。国狭槌(くにのさつち)尊・豊斟渟(とよくむぬ)尊とともに独化の三神といわれる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c09",
+          "source_id": "kuni-no-tokotachi-s2",
+          "host": "kotobank.jp",
+          "statement": "He is regarded as a conceptual deity arising, in the process of the recording of Japanese mythology, from a wish for the eternal stability of the state.",
+          "statement_id": "Ia dipandang sebagai dewa yang bersifat gagasan, lahir dalam proses pencatatan mitologi Jepang dari harapan akan kestabilan negara yang abadi.",
+          "quote": "国狭槌(くにのさつち)尊・豊斟渟(とよくむぬ)尊とともに独化の三神といわれる。日本神話が記録される過程での，国家の永久安定を願う観念的神格と考えられる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c10",
+          "source_id": "kuni-no-tokotachi-s2",
+          "host": "kotobank.jp",
+          "statement": "He is the first of the land deities in the creation myth; according to the Nihon Shoki he appeared first when heaven and earth began to separate, and the Kojiki calls him 国之常立神 and places him after five deities treated specially among the heavenly gods.",
+          "statement_id": "Ia adalah dewa tanah pertama dalam mitos penciptaan langit dan bumi; menurut Nihon Shoki ia muncul pertama saat langit dan bumi mulai terpisah, dan Kojiki menyebutnya 国之常立神 serta menempatkannya setelah lima dewa yang diperlakukan khusus di antara para dewa langit.",
+          "quote": "天地創成神話の国土神の最初の神。「日本書紀」によると,天地がわかれはじめたとき第一にあらわれたとされ,国底立尊ともいう。「古事記」では国之常立神(くにのとこたちのかみ)といい,天津神(あまつかみ)のうちでも特別にあつかわれている5柱の神の次に登場する。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-tokotachi-c11",
+          "source_id": "kuni-no-tokotachi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Nihon Shoki names Kuninotokotachi as the first of three deities, followed by Kuninosatsuchi and Toyokumonu, said to have arisen through the male principle alone.",
+          "statement_id": "Nihon Shoki menyebut Kuninotokotachi sebagai yang pertama dari tiga dewa, diikuti Kuninosatsuchi dan Toyokumonu, yang dikatakan muncul hanya melalui prinsip laki-laki.",
+          "quote": "the Nihon Shoki names Kuninotokotachi as the first of three deities, followed by Kuninosatsuchi and Toyokumonu, said to have arisen through the male principle alone",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9d71b5535aeaf4955893fdb1d838fb16ccda0dc859c7555a02fc2a6a36681458"
+      "images": []
     },
     {
       "slug": "mitama",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "a48976dc5f8e8df54b72d13f86ffe50764334e712812bcfd3dbd2058466c8153",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mitama-c01",
           "source_id": "mitama-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mitama is a Japanese term for a kami's spirit or a dead person's soul.",
-          "statement_id": "Mitama adalah istilah Jepang untuk roh kami atau jiwa orang mati.",
-          "quote": "The Japanese word mitama (御魂・御霊・神霊; 'honorable spirit') refers to the spirit of a kami or the soul of a dead person.",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "The Japanese word mitama refers to the spirit of a kami or the soul of a dead person.",
+          "statement_id": "Kata Jepang mitama merujuk pada roh seorang kami atau jiwa orang yang telah meninggal.",
+          "quote": "The Japanese word mitama ... refers to the spirit of a kami or the soul of a dead person.",
+          "context": "traditional-belief",
+          "status": "exact"
         },
         {
           "id": "mitama-c02",
           "source_id": "mitama-s1",
           "host": "en.wikipedia.org",
-          "statement": "The first character of the term is an honorific.",
-          "statement_id": "Aksara pertama pada istilah mitama adalah bentuk penghormatan.",
-          "quote": "It is composed of two characters, the first of which, mi (御; honorable), is simply an honorific.",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "The term is composed of two characters, the first of which, mi, is simply an honorific.",
+          "statement_id": "Istilah ini terdiri atas dua aksara; yang pertama, mi, hanyalah awalan kehormatan.",
+          "quote": "It is composed of two characters, the first of which, mi ... is simply an honorific.",
+          "context": "etymology",
+          "status": "exact"
         },
         {
           "id": "mitama-c03",
           "source_id": "mitama-s1",
           "host": "en.wikipedia.org",
-          "statement": "The second character means spirit.",
-          "statement_id": "Karakter kedua berarti roh.",
-          "quote": "The second, tama (魂・霊) means \"spirit\".",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "The second, tama, means \"spirit\".",
+          "statement_id": "Aksara kedua, tama, berarti \"roh\".",
+          "quote": "The second, tama ... means \"spirit\".",
+          "context": "etymology",
+          "status": "exact"
         },
         {
           "id": "mitama-c04",
           "source_id": "mitama-s1",
           "host": "en.wikipedia.org",
-          "statement": "One written form of mitama is reserved for the spirit of a kami.",
-          "statement_id": "Salah satu cara penulisan mitama khusus merujuk kepada roh kami.",
-          "quote": "The character pair 神霊, also read mitama, is used exclusively to refer to a kami's spirit.",
+          "statement": "The character pair 神霊, also read mitama, is used exclusively to refer to a kami's spirit.",
+          "statement_id": "Pasangan aksara 神霊, yang juga dibaca mitama, digunakan khusus untuk merujuk pada roh kami.",
+          "quote": "The character pair 神霊 ... also read mitama ... is used exclusively to refer to a kami's spirit.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c05",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most developed is the ichirei shikon, a Shinto theory according to which the spirit of both kami and human beings consists of one whole spirit and four sub spirits.",
+          "statement_id": "Teori yang paling berkembang adalah ichirei shikon, teori Shinto bahwa roh kami maupun manusia terdiri atas satu roh utuh dan empat roh bagian.",
+          "quote": "The most developed is the ichirei shikon ... a Shinto theory according to which the spirit ... of both kami and human beings consists of one whole spirit and four sub spirits.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c06",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A kami's first appearance is as an ara-mitama, which must be pacified with appropriate pacification rites and worship so that the nigi-mitama can appear.",
+          "statement_id": "Kemunculan pertama seorang kami adalah sebagai ara-mitama, yang harus ditenangkan dengan upacara dan pemujaan yang sesuai agar nigi-mitama dapat muncul.",
+          "quote": "A kami's first appearance is as an ara-mitama ... which must be pacified with appropriate pacification rites and worship so that the nigi-mitama can appear.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c07",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The nigi-mitama is the static side of a kami, while the ara-mitama appears in times of peril.",
+          "statement_id": "Nigi-mitama adalah sisi tenang seorang kami, sedangkan ara-mitama muncul pada saat bahaya.",
+          "quote": "The Nigi-Mitama ... is the static side of a kami, while the ara-mitama appears in times of peril.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c08",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The saki-mitama is the happy and loving side of a whole, complete spirit, the spirit of blessing and prosperity.",
+          "statement_id": "Saki-mitama adalah sisi yang bahagia dan penuh kasih dari roh yang utuh, yaitu roh berkat dan kemakmuran.",
+          "quote": "The happy and loving side of a whole, complete spirit (mitama); this is the spirit of blessing and prosperity.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c09",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kushi-mitama is the wise and experienced side of a whole, complete spirit; it is believed to have mysterious powers, to cause transformations and to be able to cure illnesses.",
+          "statement_id": "Kushi-mitama adalah sisi bijak dan berpengalaman dari roh yang utuh; ia dipercaya memiliki daya misterius, dapat menyebabkan perubahan, dan dapat menyembuhkan penyakit.",
+          "quote": "The Kushi-mitama ... is the wise and experienced side of a whole, complete spirit (mitama) ... It is believed to have mysterious powers, to cause transformations and to be able to cure illnesses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c10",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sumiyoshi Shrine in Shimonoseki enshrines the ara-mitama of the Sumiyoshi kami, while Sumiyoshi Taisha in Osaka enshrines its nigi-mitama.",
+          "statement_id": "Sumiyoshi Shrine di Shimonoseki memuliakan ara-mitama kami Sumiyoshi, sedangkan Sumiyoshi Taisha di Osaka memuliakan nigi-mitama-nya.",
+          "quote": "For example, Sumiyoshi Shrine in Shimonoseki enshrines the ara-mitama of the Sumiyoshi kami, while Sumiyoshi Taisha in Osaka enshrines its nigi-mitama",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c11",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term mitamashiro is a synonym of shintai, the object which in a Shinto shrine houses the enshrined kami.",
+          "statement_id": "Istilah mitamashiro adalah sinonim shintai, benda yang di dalam kuil Shinto menaungi kami yang dipuja.",
+          "quote": "the term mitamashiro ... is a synonym of shintai, the object which in a Shinto shrine houses the enshrined kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c12",
+          "source_id": "mitama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mitama Festival is a widely celebrated Shinto festival to the dead in Japan, particularly at the Yasukuni Shrine, typically in mid-July.",
+          "statement_id": "Mitama Matsuri adalah festival Shinto untuk orang mati yang dirayakan luas di Jepang, terutama di Kuil Yasukuni, biasanya pada pertengahan Juli.",
+          "quote": "A widely celebrated Shinto festival to the dead in Japan, particularly at the Yasukuni Shrine. Typically in mid-July.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mitama-c13",
+          "source_id": "mitama-s2",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary defines mitama (御霊／御魂) as a word honouring the spirits of kami and of ancestors, with a further sense of spiritual power (霊威).",
+          "statement_id": "Kamus Jepang mendefinisikan mitama (御霊／御魂) sebagai kata yang menghormati roh kami dan roh leluhur, dengan arti lain \"kekuatan gaib\" (霊威).",
+          "quote": "み‐たま【▽御霊／▽御▽魂】 １ 神霊や祖霊を尊んでいう語。「先祖の―を祭る」 ２ 霊威。",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6580346c5fd226d4b2d26e31cbf7ba95b324669160f7a9ca9efb2713e363abf1"
+      "images": []
     },
     {
       "slug": "mujina",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "76d3116feafae87aa425f65299c26835dc59ec20ce6db8aa65a93861f38a1c5b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mujina-c01",
           "source_id": "mujina-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mujina is an old Japanese animal name associated with badgers and tanuki.",
-          "statement_id": "Mujina adalah istilah lama di Jepang yang berkaitan dengan teledu dan tanuki.",
-          "quote": "Mujina (Japanese: 貉) is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion.",
-          "context": "traditional-belief",
-          "status": "loose"
+          "statement": "Mujina is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion.",
+          "statement_id": "Mujina adalah istilah Jepang lama yang terutama merujuk pada teledu Jepang, tetapi secara tradisional pada anjing rakun Jepang (tanuki), sehingga menimbulkan kebingungan.",
+          "quote": "is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         },
         {
           "id": "mujina-c02",
           "source_id": "mujina-s1",
           "host": "en.wikipedia.org",
-          "statement": "Folklore describes a badger-like body with a raccoon-dog-like face.",
-          "statement_id": "Cerita rakyat menggambarkannya bertubuh seperti teledu dan berwajah seperti tanuki.",
+          "statement": "The mujina is said to be a raccoon-faced creature in its natural form, with a Japanese badger's body.",
+          "statement_id": "Mujina dikatakan berwajah seperti rakun dalam wujud aslinya, dengan tubuh utama berupa teledu Jepang.",
           "quote": "The mujina is said to be a raccoon-faced creature in its natural form, with the main body being that of a Japanese badger.",
           "context": "traditional-belief",
           "status": "exact"
@@ -635,8 +961,8 @@
           "id": "mujina-c03",
           "source_id": "mujina-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some tales give the creature a drumming, inflated belly.",
-          "statement_id": "Beberapa kisah menggambarkannya menabuh perut yang menggelembung.",
+          "statement": "Mujina are known to be able to inflate their bellies, creating music by drumming on them while singing.",
+          "statement_id": "Mujina dikenal dapat menggembungkan perutnya dan menciptakan musik dengan menabuhnya sambil bernyanyi.",
           "quote": "The mujina in specific are known to be able to inflate their bellies, creating music by drumming on it whilst singing.",
           "context": "traditional-belief",
           "status": "exact"
@@ -645,76 +971,299 @@
           "id": "mujina-c04",
           "source_id": "mujina-s1",
           "host": "en.wikipedia.org",
-          "statement": "Other tales connect mujina with a ghostly light.",
-          "statement_id": "Cerita lain menghubungkan mujina dengan cahaya hantu.",
+          "statement": "At times the mujina will also create a \"ghost-fire\", also called tanuki-bi (狸火), which resembles will-o'-the-wisps.",
+          "statement_id": "Kadang-kadang mujina juga menciptakan \"api hantu\", disebut juga tanuki-bi (狸火), yang menyerupai will-o'-the-wisp.",
           "quote": "At times, the mujina will also create a \"ghost-fire\", also called tanuki-bi (狸火), which resembles will-o'-the-wisps.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c05",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One of its favorite appearances is that of a black-garbed Buddhist priest, also called the tanuki-bôzu.",
+          "statement_id": "Salah satu wujud kesukaannya adalah pendeta Buddha berjubah hitam, disebut juga tanuki-bōzu.",
+          "quote": "One of its favorite appearances is that of a black-garbed Buddhist priest, also called the tanuki-bôzu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c06",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mujina are said to have been able to transform into dazzling comets, fence posts, stones, trees, and so on.",
+          "statement_id": "Mujina dikatakan mampu berubah menjadi komet yang menyilaukan, tiang pagar, batu, pohon, dan sebagainya.",
+          "quote": "they have been able to transform into dazzling comets, fence posts, stones, trees, and so on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c07",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A mujina's transformation is not always stable; if the badger drifts to sleep, its appearance can become wholly or partially undone.",
+          "statement_id": "Wujud hasil perubahan mujina tidak selalu stabil; bila teledu itu tertidur, penampilannya dapat terurai seluruhnya atau sebagian.",
+          "quote": "The appearance of a mujina's transformation isn't always stable; if the badger were to drift to sleep, their appearance can become wholly or even partially undone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c08",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their earliest appearance in literature is in the Nihon Shoki, in the part about Empress Suiko's 35th year (627).",
+          "statement_id": "Mujina pertama kali tampak dalam sastra di Nihon Shoki, pada bagian tentang tahun ke-35 Permaisuri Suiko (627).",
+          "quote": "They are first seen in literature in the Nihon Shoki in the part about Empress Suiko's 35th year (627)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c09",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Shimōsa region they are called kabukiri-kozō and would shapeshift into a kozō (little monk) wearing a strangely short kimono and a kappa-like bobbed head.",
+          "statement_id": "Di wilayah Shimōsa, mereka disebut kabukiri-kozō dan berubah menjadi kozō (biksu cilik) yang mengenakan kimono aneh yang pendek dan berkepala potongan pendek seperti kappa.",
+          "quote": "In the Shimōsa region, they are called kabukiri-kozō ... and they would shapeshift into a kozō (little monk) wearing a strangely short kimono with a kappa-like bobbed head",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c10",
+          "source_id": "mujina-s2",
+          "host": "kotobank.jp",
+          "statement": "Like the tanuki, the mujina deceives humans, and is also said to frighten people in the form of a 大入道 or other monsters.",
+          "statement_id": "Seperti tanuki, mujina menipu manusia, dan dikatakan pula menakuti orang dengan menyamar sebagai 大入道 atau monster lain.",
+          "quote": "民俗 ムジナはタヌキと同じく人間を化かす，また大入道その他の怪物の姿で人をおどすともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c11",
+          "source_id": "mujina-s2",
+          "host": "kotobank.jp",
+          "statement": "On Sado it was called Tonchibō and also thought of as resembling a mountain deity, with related traditions preserved; in the mountains on the northern border of Nagano Prefecture it was called Banbuku, and one with a hairless belly was said to transform.",
+          "statement_id": "Di Sado, mujina disebut Tonchibō dan juga dianggap seperti wujud dewa gunung, dan ada cerita yang berkaitan dengannya; di pegunungan perbatasan utara Prefektur Nagano disebut Banbuku, dikatakan yang perutnya tak berbulu dapat berubah wujud.",
+          "quote": "佐渡ではトンチボウと呼んで山の神の姿のようにも考え，またこれにまつわる伝承が残っていた。また，長野県北境の山中ではバンブクといって腹に毛のないものが化けるなどともいっていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c12",
+          "source_id": "mujina-s2",
+          "host": "kotobank.jp",
+          "statement": "It is said that anciently the tanuki was called muji or mujina and the badger mami or sasaguma, but this is not necessarily certain, and in some regions both tanuki and badger are called mujina.",
+          "statement_id": "Konon dahulu tanuki disebut muji atau mujina dan teledu disebut mami atau sasaguma, tetapi hal itu tidak selalu pasti, dan ada daerah yang menyebut tanuki maupun teledu sebagai mujina.",
+          "quote": "古くはタヌキを指してムジあるいはムジナと呼び，アナグマをマミあるいはササグマと呼んだという。しかし，これは必ずしも確かではなく，タヌキとアナグマの双方をムジナと呼ぶ地方もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c13",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1924 in Tochigi Prefecture, a hunter killed a raccoon dog which he believed to be called a mujina.",
+          "statement_id": "Pada 1924 di Prefektur Tochigi, seorang pemburu membunuh seekor anjing rakun yang ia kira bernama mujina.",
+          "quote": "In Tochigi Prefecture in 1924, a hunter killed a raccoon dog, which he believed to be called a mujina.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c14",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Like other yōkai, the mujina is a notorious trickster and enjoys using its shapeshifting to play harmless pranks.",
+          "statement_id": "Seperti yōkai lain, mujina adalah penipu yang terkenal dan gemar memakai kemampuan berubah wujud untuk bercanda tanpa niat jahat.",
+          "quote": "Like the other yōkai, the mujina is a notorious trickster, and enjoys using their shapeshifting to play harmless pranks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mujina-c15",
+          "source_id": "mujina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is believed that although these creatures can be extremely chaotic, they have a gentle heart and know how to be grateful.",
+          "statement_id": "Dipercaya bahwa walau bisa sangat kacau, makhluk ini berhati lembut dan tahu berterima kasih.",
+          "quote": "It is believed that although these creatures can be extremely chaotic, they have a gentle heart, and know how to be grateful.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "179389ad19ae5e3210a8aff6b699fade777121f8814f284e7bce0ecdac53cd82"
+      "images": []
     },
     {
       "slug": "toyoke-omikami",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "2e6f1cdab2f5859ada96a2225d32bd4bd51061e7a51e7d62925feb119cb93750",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "toyoke-omikami-c01",
           "source_id": "toyoke-omikami-s1",
           "host": "en.wikipedia.org",
-          "statement": "Toyōke Ōmikami is a Japanese kami associated with food and grain.",
-          "statement_id": "Toyōke Ōmikami adalah kami Jepang yang terkait dengan makanan dan biji - bijian.",
-          "quote": "Toyouke-hime (豊宇気毘売, Toyouke-bime; lit. \"Luxuriant Food Princess\") is the deity (kami) of food and grain in Japan.",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "Toyouke-hime, literally \"Luxuriant Food Princess\", is the deity (kami) of food and grain in Japan.",
+          "statement_id": "Toyouke-hime, yang secara harfiah berarti \"Putri Makanan yang Subur\", adalah dewa (kami) makanan dan biji-bijian di Jepang.",
+          "quote": "lit. \"Luxuriant Food Princess\") is the deity (kami) of food and grain in Japan.",
+          "context": "traditional-belief",
+          "status": "exact"
         },
         {
           "id": "toyoke-omikami-c02",
           "source_id": "toyoke-omikami-s1",
           "host": "en.wikipedia.org",
-          "statement": "A shrine tradition says she came to Ise to provide food for Amaterasu.",
-          "statement_id": "Sebuah tradisi kuil mengatakan dia datang ke Ise untuk menyediakan makanan bagi Amaterasu.",
-          "quote": "Originally enshrined in the Tanba Province, it is said she was called to reside at the Outer Shrine (外宮, Gekū) of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess.",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "Originally enshrined in Tanba Province, she is said to have been called to reside at the Outer Shrine of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess.",
+          "statement_id": "Semula dipuja di Provinsi Tanba, dikatakan ia dipanggil bersemayam di Kuil Luar Kuil Ise pada abad ke-5, pada masa Kaisar Yūryaku, untuk mempersembahkan makanan suci kepada Amaterasu, kami penguasa dan dewi matahari.",
+          "quote": "Originally enshrined in the Tanba Province, it is said she was called to reside at the Outer Shrine ... of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess.",
+          "context": "traditional-belief",
+          "status": "exact"
         },
         {
           "id": "toyoke-omikami-c03",
           "source_id": "toyoke-omikami-s1",
           "host": "en.wikipedia.org",
-          "statement": "Historical texts write her name in several different forms.",
-          "statement_id": "Teks sejarah menuliskan namanya dalam beberapa bentuk yang berbeda.",
-          "quote": "While now popular as Toyouke-Ōhmikami, her name has been transcribed using Chinese characters in several manners including Toyouke bime no kami (豊宇気毘売神) in the Kojiki, while there is no entry about her in the Nihon Shoki.",
-          "context": "religious-tradition",
-          "status": "loose"
+          "statement": "Her name, now popular as Toyouke-Ōhmikami, has been written in Chinese characters in several ways, including Toyouke bime no kami in the Kojiki, while the Nihon Shoki has no entry about her.",
+          "statement_id": "Namanya kini populer sebagai Toyouke-Ōhmikami dan ditulis dengan aksara Cina dalam beberapa cara, termasuk Toyouke bime no kami dalam Kojiki, sedangkan Nihon Shoki tidak memuat entri tentangnya.",
+          "quote": "While now popular as Toyouke-Ōhmikami, her name has been transcribed using Chinese characters in several manners including Toyouke bime no kami ... in the Kojiki, while there is no entry about her in the Nihon Shoki.",
+          "context": "historical-record",
+          "status": "exact"
         },
         {
           "id": "toyoke-omikami-c04",
           "source_id": "toyoke-omikami-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Kojiki calls her a daughter of Wakumusubi.",
-          "statement_id": "Kojiki memanggilnya putri Wakumusubi.",
+          "statement": "In the Kojiki, Toyouke-hime is noted as the daughter of Wakumusubi and granddaughter of Izanami.",
+          "statement_id": "Dalam Kojiki, Toyouke-hime dicatat sebagai putri Wakumusubi dan cucu Izanami.",
           "quote": "In the Kojiki, Toyouke-hime is noted as the daughter of Wakumusubi and granddaughter of Izanami.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c05",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The uke element in her name refers to food, making her the kami of food and grains.",
+          "statement_id": "Unsur uke dalam namanya merujuk pada makanan, sehingga ia menjadi kami makanan dan biji-bijian.",
+          "quote": "in her name refers to food, making her the kami of food and grains.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c06",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This is why she has come to be conflated with Inari Ōkami and Ukanomitama, as with other food-related kami such as Ōgetsu-hime (Ukemochi).",
+          "statement_id": "Karena itulah ia kerap dikacaukan dengan Inari Ōkami dan Ukanomitama, seperti kami lain yang terkait makanan, misalnya Ōgetsu-hime (Ukemochi).",
+          "quote": "This is why she has come to be conflated with Inari Ōkami and Ukanomitama in the same way as other food-related kami such as Ōgetsu-hime (Ukemochi).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c07",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The head priest of Toyouke Daijingu submitted the Toyukegū Gishikichō to the Department of Divinities in 804, in which it is told that Toyouke-hime had originally been in Tanba Province.",
+          "statement_id": "Kepala imam Toyouke Daijingu menyerahkan Toyukegū Gishikichō kepada Departemen Dewa pada 804; di dalamnya diceritakan bahwa Toyouke-hime semula berada di Provinsi Tanba.",
+          "quote": "The head priest of Toyouke Daijingu submitted Toyukegū Gishikichō ... to the Department of Divinities in 804, in which it is told that Toyouke-hime had originally been in Tanba Province.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c16",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The document records that Amaterasu came to Emperor Yūryaku in a dream and said she alone could not supply enough food, so he needed to bring the kami of divine food from Manai Pond in Hiji Village, Tanba Province.",
+          "statement_id": "Dokumen itu mencatat bahwa Amaterasu datang dalam mimpi kepada Kaisar Yūryaku dan mengatakan ia seorang diri tidak cukup menyediakan makanan sehingga kaisar perlu membawakan kami makanan ilahi dari Kolam Manai di Desa Hiji, Provinsi Tanba.",
+          "quote": "It records that Amaterasu came to Emperor Yūryaku in a dream and told him she alone was not able to supply enough food and needed him to bring ... the kami of divine food, from Manai Pond in Hiji Village, Tanba Province.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c08",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Ise Shintō (Watarai Shintō) discipline originated by a Geku priest named Watarai Ieyuki, Toyouke-Ōmikami is recognized as the first divine being to appear in this world.",
+          "statement_id": "Menurut ajaran Ise Shintō (Watarai Shintō) yang dirintis imam Geku bernama Watarai Ieyuki, Toyouke-Ōmikami diakui sebagai makhluk ilahi pertama yang muncul di dunia ini.",
+          "quote": "According to the discipline of Ise Shintō (Watarai Shintō) originated by a priest at Geku named Watarai Ieyuki ... Toyouke-Ōmikami is recognized as the first divine being which appeared in this world.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c09",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is a separate shrine for the ara-mitama of Toyouke-Ōmikami, called the Taka-no-miya, inside the Gekū.",
+          "statement_id": "Ada kuil terpisah untuk ara-mitama Toyouke-Ōmikami bernama Taka-no-miya di dalam Gekū.",
+          "quote": "There is a separate shrine dedicated to Toyouke-Ōmikami no ara-mitama ... called the Taka-no-miya ... inside the Gekū.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c10",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Toyouke-Ōmikami is worshiped along with Amaterasu at many branches of Ise shrines called Shinmei shrines.",
+          "statement_id": "Toyouke-Ōmikami dipuja bersama Amaterasu di banyak cabang kuil Ise yang disebut kuil Shinmei.",
+          "quote": "Toyouke-Ōmikami is worshiped at many branches of Ise shrines called Shinmei shrines, along with Amaterasu",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c11",
+          "source_id": "toyoke-omikami-s2",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary calls her a grandchild of Izanagi and a child of Wakumusubi, a goddess presiding over the five grains, enshrined at the Gekū of Ise Shrine.",
+          "statement_id": "Kamus Jepang menyebutnya cucu Izanagi dan anak Wakumusubi, dewi yang menguasai lima jenis biji-bijian, dipuja di Gekū Kuil Agung Ise.",
+          "quote": "伊弉諾尊 いざなぎのみこと の孫、 和久産巣日神 わくむすびのかみ の子。五穀をつかさどる女神で、伊勢神宮の 外宮 げくう に祭る。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c12",
+          "source_id": "toyoke-omikami-s2",
+          "host": "kotobank.jp",
+          "statement": "Toyouke and Inari are regarded as deities presiding over grain from outside the grain, a form in which the grain spirit has become a great deity.",
+          "statement_id": "Toyouke dan Inari dipandang sebagai dewa yang menguasai biji-bijian dari luar biji-bijian itu sendiri, bentuk roh padi yang telah menjadi dewa besar.",
+          "quote": "日本の豊受大神（とゆけのおおかみ）や稲荷明神などは，穀物の外にあって穀物をつかさどる神々であり，穀霊･稲魂が大神化した形態であると見られる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c13",
+          "source_id": "toyoke-omikami-s2",
+          "host": "kotobank.jp",
+          "statement": "Toyouke, the deity of Ise's Gekū, came from being a food deity to being widely revered by the people as an agricultural deity.",
+          "statement_id": "Dewa Gekū Ise, Toyouke, dari dewa makanan menjadi dewa pertanian yang dipuja luas oleh rakyat.",
+          "quote": "伊勢の外宮（げくう）の祭神たる豊受大神が食物神から，ひいては農業神として広く民衆の帰依を集めたこともあずかっているであろう。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c14",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Omonoimi no kami is considered a possible alternate name of Toyouke-hime.",
+          "statement_id": "Omonoimi no kami dianggap kemungkinan nama lain Toyouke-hime.",
+          "quote": "Omonoimi no kami is considered a possible alternate name to Toyouke-hime",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "toyoke-omikami-c15",
+          "source_id": "toyoke-omikami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several alternative transcriptions and names are attributed to this goddess, including Toyouke-Okami, Toyouke-Ōmikami and Toyoukebime no kami.",
+          "statement_id": "Beberapa transkripsi dan nama lain dikaitkan dengan dewi ini, termasuk Toyouke-Okami, Toyouke-Ōmikami, dan Toyoukebime no kami.",
+          "quote": "Several alternative transcription and names are attributed to this goddess including Toyouke-Okami, Toyouke-Ōmikami, Toyoukebime no kami",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "10bdf377337a11887be6d6787366f8d1d5c6d88653e40403d386a4ff31c484e9"
+      "images": []
     },
     {
       "slug": "akateko-folklore",
@@ -1348,37 +1897,32 @@
     },
     {
       "slug": "jinmenju",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "b0789429992889e3e7cd4186f3cde2873b12f04213f072fb27f2b2f8c9ba2003",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jinmenju-c01",
           "source_id": "jinmenju-s1",
           "host": "en.wikipedia.org",
-          "statement": "Jinmenju is a human-faced tree in Japanese and Chinese supernatural lore.",
-          "statement_id": "Jinmenju adalah pohon berwajah manusia dalam cerita makhluk gaib Jepang dan Tiongkok.",
-          "quote": "Jinmenju or Ninmenju (Chinese: 人面樹; pinyin: Rénmiànshù; Japanese: 人面樹 [にんめんじゅ、じんめんじゅ]; lit. 'human-faced tree') is a type of Yōkai and Yaoguai in Japanese and Chinese folklore.",
+          "statement": "Jinmenju (also Ninmenju, literally \"human-faced tree\") is a type of yōkai and yaoguai in Japanese and Chinese folklore.",
+          "statement_id": "Jinmenju (juga Ninmenju, secara harfiah \"pohon berwajah manusia\") adalah sejenis yōkai dan yaoguai dalam cerita rakyat Jepang dan Tiongkok.",
+          "quote": "is a type of Yōkai and Yaoguai in Japanese and Chinese folklore.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "jinmenju-c02",
           "source_id": "jinmenju-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its flowers are depicted as resembling human heads.",
-          "statement_id": "Bunganya digambarkan menyerupai kepala manusia.",
+          "statement": "It is commonly depicted as a tree bearing flowers that resemble human heads.",
+          "statement_id": "Ia umumnya digambarkan sebagai pohon yang berbunga menyerupai kepala manusia.",
           "quote": "It is commonly depicted as a tree bearing flowers that resemble human heads.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1387,59 +1931,123 @@
           "id": "jinmenju-c03",
           "source_id": "jinmenju-s1",
           "host": "en.wikipedia.org",
-          "statement": "Toriyama Sekien included it in an Edo illustrated collection.",
-          "statement_id": "Toriyama Sekien memasukkannya ke dalam koleksi ilustrasi Edo.",
+          "statement": "Jinmenju notably appears in the Edo-period Konjaku Hyakki Shūi by Toriyama Sekien.",
+          "statement_id": "Jinmenju antara lain muncul dalam Konjaku Hyakki Shūi karya Toriyama Sekien dari zaman Edo.",
           "quote": "It notably appears in the Edo period Konjaku Hyakki Shūi by Toriyama Sekien.",
-          "context": "traditional-belief",
+          "context": "historical-record",
           "status": "exact"
         },
         {
           "id": "jinmenju-c04",
           "source_id": "jinmenju-s1",
           "host": "en.wikipedia.org",
-          "statement": "Other sources include an early Japanese encyclopedia and a Chinese illustrated compendium.",
-          "statement_id": "Sumber lain mencakup ensiklopedia Jepang lama dan kitab bergambar Tiongkok.",
+          "statement": "Other sources naming the \"jinmenju\" include the Wakan Sansai Zue and a quotation from the Chinese Sancai Tuhui, which describes a similar tree from a land called \"Dashiguo\".",
+          "statement_id": "Sumber lain yang menyebut \"jinmenju\" mencakup Wakan Sansai Zue dan kutipan dari Sancai Tuhui Tiongkok, yang menggambarkan pohon serupa dari negeri bernama \"Dashiguo\".",
           "quote": "Other sources naming the \"jinmenju\" include the Wakan Sansai Zue, and a quote from the Chinese Sancai Tuhui, which describes a similar tree from a land called \"Dashiguo\"",
-          "context": "traditional-belief",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c05",
+          "source_id": "jinmenju-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Konjaku Hyakki Shūi depicts it as a tree blooming with flowers that resemble human heads.",
+          "statement_id": "Konjaku Hyakki Shūi menggambarkannya sebagai pohon yang berbunga seperti kepala manusia.",
+          "quote": "The Konjaku Hyakki Shūi depicts it as a tree blooming with flowers that resemble human heads",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c06",
+          "source_id": "jinmenju-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the explanatory text, in mountain valleys its flowers are just like human heads, and without a word they merely smile on and on until their petals fall just like that.",
+          "statement_id": "Teks penjelas dalam Konjaku Hyakki Shūi: di lembah pegunungan bunganya seperti kepala manusia, tanpa kata hanya tersenyum terus-menerus sampai kelopaknya gugur begitu saja.",
+          "quote": "In mountain valleys, its flowers just like human heads, without a word, they merely just smile away, smile away until its petals fall just like that",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c07",
+          "source_id": "jinmenju-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Sancai Tuhui, Dashiguo is a land one thousand li to the southwest with flowers like human heads; if the tree is questioned its flowers laugh but do not understand human language, and if they laugh too much the flowers wither and fall.",
+          "statement_id": "Menurut Sancai Tuhui, Dashiguo adalah negeri sejauh seribu li ke barat daya dengan bunga seperti kepala manusia; bila pohonnya ditanyai, bunganya tertawa tetapi tidak memahami bahasa manusia, dan bila terlalu banyak tertawa bunganya layu dan jatuh.",
+          "quote": "According to the Sancai Tuhui, Dashiguo is a land one thousand li southwest, with flowers like human heads, and upon asking it questions, its flowers would laugh, but it wouldn't understand human language. If they laughed too much, the flowers would wither and fall.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c08",
+          "source_id": "jinmenju-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Rōō Sawa, a collection of strange tales from Aizu, also quotes the Sancai Tuhui when making statements about this tree.",
+          "statement_id": "Rōō Sawa, kumpulan kisah ganjil dari Aizu, juga mengutip Sancai Tuhui ketika membicarakan pohon ini.",
+          "quote": "The Rōō Sawa ... a collection of strange tales from Aizu, also quotes the Sancai Tuhui while making statements about this tree.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c09",
+          "source_id": "jinmenju-s2",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary defines the jinmenju as a fruit-bearing tree whose fruit, about the size of an ume plum, is said to have a pit like a human face.",
+          "statement_id": "Kamus Jepang mendefinisikan jinmenju sebagai pohon berbuah sebesar buah ume yang konon berbiji seperti wajah manusia.",
+          "quote": "にんめん‐じゅ【人面樹】 〘 名詞 〙 ① 梅の実ぐらいの大きさで、人の顔のような核をもつという実のなる樹。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c10",
+          "source_id": "jinmenju-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia calls the jinmenju a tree of Chinese tradition that appears in the Edo-period yōkai picture collection Konjaku Hyakki Shūi by Toriyama Sekien.",
+          "statement_id": "Wikipedia bahasa Jepang menyebut jinmenju sebagai pohon dalam tradisi Tiongkok yang tercantum dalam kumpulan gambar yōkai zaman Edo Konjaku Hyakki Shūi karya Toriyama Sekien.",
+          "quote": "人面樹（にんめんじゅ、じんめんじゅ）は、鳥山石燕による江戸時代の妖怪画集『今昔百鬼拾遺』にある中国の伝承上の木。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinmenju-c11",
+          "source_id": "jinmenju-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Besides Japanese yōkai, the Konjaku Hyakki Shūi includes creatures from outside Japan found in the Wakan Sansai Zue; the jinmenju depicts a tree from the land of Daishikoku (Dashiguo) that the Wakan Sansai Zue quotes from the Chinese Sancai Tuhui.",
+          "statement_id": "Konjaku Hyakki Shūi memuat juga makhluk dari luar Jepang dalam Wakan Sansai Zue; jinmenju menggambarkan pohon dari negeri Daishikoku (Dashiguo) yang dikutip Wakan Sansai Zue dari Sancai Tuhui Tiongkok.",
+          "quote": "『今昔百鬼拾遺』では日本の妖怪以外に、江戸時代の百科事典『和漢三才図会』にある日本国外の動植物や妖怪についても掲載されており、この「人面樹」も、『和漢三才図会』が中国の書『三才図会』から引用して掲載している、「大食国（だいしこく）」という国にあるという木を描いたものである。",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c2b6857e61578bab7c09411595e8f12b811b575913eeca19666ddf9f7d340b75"
+      "images": []
     },
     {
       "slug": "kijimuna",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "13a4bf925364814b2137e2ecc3333dedac1320c521ad1769b5d504a4ca3984bc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kijimuna-c01",
           "source_id": "kijimuna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kijimuna are tree spirits in Okinawan tales.",
-          "statement_id": "Kijimuna adalah roh pohon dalam cerita Okinawa.",
-          "quote": "The kijimuna (Okinawan: キジムナー, romanized: kijimunaa, lit. 'wood spirit') are mythological creatures said to inhabit the island of Okinawa.",
+          "statement": "The kijimuna are mythological creatures said to inhabit the island of Okinawa.",
+          "statement_id": "Kijimuna adalah makhluk mitologi yang dikatakan mendiami pulau Okinawa.",
+          "quote": "are mythological creatures said to inhabit the island of Okinawa.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "kijimuna-c02",
           "source_id": "kijimuna-s1",
           "host": "en.wikipedia.org",
-          "statement": "They are commonly described as small children with red hair.",
-          "statement_id": "Mereka umumnya digambarkan sebagai anak kecil dengan rambut merah.",
+          "statement": "They are described as resembling a child of around three or four years old with wild red hair.",
+          "statement_id": "Mereka digambarkan menyerupai anak berusia sekitar tiga atau empat tahun dengan rambut merah liar.",
           "quote": "They are described as resembling around a three or four-year-old child with wild red hair.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1448,8 +2056,8 @@
           "id": "kijimuna-c03",
           "source_id": "kijimuna-s1",
           "host": "en.wikipedia.org",
-          "statement": "Their stories belong to the folklore of Okinawa.",
-          "statement_id": "Cerita mereka berasal dari cerita rakyat Okinawa.",
+          "statement": "According to Okinawan mythology, the kijimuna are small wood spirits.",
+          "statement_id": "Menurut mitologi Okinawa, kijimuna adalah roh kayu kecil.",
           "quote": "The kijimuna are small wood spirits according to Okinawan mythology.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1458,49 +2066,153 @@
           "id": "kijimuna-c04",
           "source_id": "kijimuna-s1",
           "host": "en.wikipedia.org",
-          "statement": "The spirits are particularly associated with banyan trees.",
-          "statement_id": "Roh - roh itu terutama terkait dengan pohon beringin.",
+          "statement": "The kijimuna are said to live in trees, the most common being the gajumaru or banyan tree.",
+          "statement_id": "Kijimuna dikatakan tinggal di pohon, dan yang paling umum adalah gajumaru atau beringin.",
           "quote": "The kijimuna are said to live in trees, but the most common one is the 'gajumaru' or banyan tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c05",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "The kijimunā's habitat is given as banyan trees on the islands of Okinawa.",
+          "statement_id": "Habitat kijimunā disebut pohon beringin di pulau-pulau Okinawa.",
+          "quote": "Habitat: banyan trees on the islands of Okinawa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c06",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "Physically, kijimunā are about as tall as a child, with wild, thick, bright red hair and red-tinted skin.",
+          "statement_id": "Secara fisik kijimunā setinggi anak-anak, dengan rambut merah terang yang liar dan tebal serta kulit kemerahan.",
+          "quote": "Physically, kijimunā are about the same height as a child, with wild and thick bright red hair, and red tinted skin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c07",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "They are especially fond of fish eyes, even preferring the left eye over the right.",
+          "statement_id": "Mereka sangat menyukai mata ikan, bahkan lebih memilih mata kiri daripada kanan.",
+          "quote": "They are especially fond of fish eyes, even preferring the left eye over the right.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c08",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "They loathe chickens and cooking pots, are extremely put off by people passing gas, and hate the octopus above all else.",
+          "statement_id": "Mereka membenci ayam dan periuk masak, sangat terganggu oleh orang yang buang angin, dan yang paling mereka benci adalah gurita.",
+          "quote": "They loathe chickens and cooking pots. They are extremely put off by people passing gas. However, the thing they hate above all else is the octopus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c09",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "Kijimunā often help fishermen catch fish, or aid humans in other ways, in return for a cooked meal.",
+          "statement_id": "Kijimunā sering membantu nelayan menangkap ikan, atau menolong manusia dengan cara lain sebagai imbalan makanan matang.",
+          "quote": "Kijimunā often help fishermen catch fish, or aid humans in other ways in return for a cooked meal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c10",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "Cutting down the banyan tree in which they live surely earns their wrath; wronged kijimunā are known to kill livestock, sabotage boats so they sink while owners are far out at sea, or magically trap people in hollow trees.",
+          "statement_id": "Menebang pohon beringin tempat mereka tinggal pasti membangkitkan kemarahan mereka; kijimunā yang disakiti dikenal membunuh ternak, merusak perahu agar tenggelam saat pemiliknya jauh di laut, atau menjebak orang di pohon berongga secara gaib.",
+          "quote": "Cutting down the banyan tree in which they live is a sure way to earn their wrath. Kijimunā thus wronged have been known to murder livestock, sabotage boats so they sink while their owners are far out at sea, or magically trap people in hollow trees from which they cannot escape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c11",
+          "source_id": "kijimuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Kijimuna are known to be very mischievous, playing pranks and tricking humans; one of their best-known tricks is to lie upon a person's chest, leaving them unable to move or breathe.",
+          "statement_id": "Kijimuna dikenal sangat jahil, gemar bercanda dan mengelabui manusia; salah satu tipuan terkenalnya adalah berbaring di dada seseorang sehingga orang itu tak bisa bergerak atau bernapas.",
+          "quote": "The Kijimuna are known to be very mischievous, playing pranks and tricking humans. One of their best-known tricks is to lie upon a person's chest, making them unable to move or breathe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c12",
+          "source_id": "kijimuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One story tells of a kijimuna's friend burning down his tree, so that the kijimuna fled to the mountains.",
+          "statement_id": "Satu kisah menceritakan teman seorang kijimuna yang membakar pohonnya sehingga kijimuna itu lari ke pegunungan.",
+          "quote": "One story tells of a kijimuna's friend burning down his tree, so the kijimuna fled to the mountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c13",
+          "source_id": "kijimuna-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary calls the kijimuna a yōkai in the lore of the Okinawa Islands, regarded as a spirit of trees (often the gajumaru), also called \"Kijimun\".",
+          "statement_id": "Kamus Jepang menyebut kijimuna sebagai yōkai dalam tradisi wilayah kepulauan Okinawa, dianggap roh pohon (sering pohon gajumaru), juga disebut \"Kijimun\".",
+          "quote": "沖縄諸島地域の伝承にある妖怪。樹木（しばしばガジュマルの木）の精霊とされる。「キジムン」などとも。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c14",
+          "source_id": "kijimuna-s2",
+          "host": "yokai.com",
+          "statement": "Alternate names of the kijimunā are sēma and bunagaya.",
+          "statement_id": "Nama lain kijimunā adalah sēma dan bunagaya.",
+          "quote": "Alternate names: sēma, bunagaya",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kijimuna-c15",
+          "source_id": "kijimuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kijimuna are a common subject in Okinawan folk tales; many stories begin with the kijimuna befriending a human and end with the relationship going bad.",
+          "statement_id": "Kijimuna adalah tokoh umum dalam cerita rakyat Okinawa; banyak kisahnya bermula dengan kijimuna berteman dengan manusia lalu berakhir dengan hubungan yang memburuk.",
+          "quote": "The kijimuna are a common subject in Okinawan folk tales. Many of their stories begin with the kijimuna becoming a human's friend and then ending with the relationship going bad.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f8bfe733df0bb1208b2136c2c91b16742df908f5fd4192a2c7fbb11d336d5737"
+      "images": []
     },
     {
       "slug": "mokumokuren",
-      "file": "batch-051.md",
+      "file": "batch-051-fix-3.md",
+      "entry_sha256": "082149c01e9f14f55ade18e9847b68acb16abbcd9b6a119027dbf89c34e74458",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mokumokuren-c01",
           "source_id": "mokumokuren-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mokumokuren is a Japanese yōkai depicted as many eyes.",
-          "statement_id": "Mokumokuren adalah yōkai Jepang yang digambarkan sebagai banyak mata.",
-          "quote": "Mokumokuren (目目連 or 目々連) are yōkai in Japanese mythology.",
+          "statement": "Mokumokuren are yōkai in Japanese mythology.",
+          "statement_id": "Mokumokuren adalah yōkai dalam mitologi Jepang.",
+          "quote": "are yōkai in Japanese mythology.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "mokumokuren-c02",
           "source_id": "mokumokuren-s1",
           "host": "en.wikipedia.org",
-          "statement": "It is associated with torn paper screens and sometimes other house surfaces.",
-          "statement_id": "Makhluk itu dikaitkan dengan sekat kertas yang robek dan permukaan rumah lain.",
+          "statement": "The Mokumokuren usually lives in torn shoji (Japanese paper sliding walls), though it can also be found in tatami floor mats and in walls.",
+          "statement_id": "Mokumokuren biasanya tinggal di shoji (dinding geser kertas Jepang) yang sobek, meski juga dapat ditemukan di tikar tatami dan dinding.",
           "quote": "The Mokumokuren usually lives in torn shoji (Japanese paper sliding walls), although they can also be found in tatami floor mats and in walls.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1509,25 +2221,134 @@
           "id": "mokumokuren-c03",
           "source_id": "mokumokuren-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its name refers to its many eyes.",
-          "statement_id": "Namanya mengacu pada banyak matanya.",
+          "statement": "The name \"Mokumokuren\" literally means \"many eyes\" or \"continuous eyes\".",
+          "statement_id": "Nama \"Mokumokuren\" secara harfiah berarti \"banyak mata\" atau \"mata yang bersambung\".",
           "quote": "The name \"Mokumokuren\" literally means \"many eyes\" or \"continuous eyes\".",
-          "context": "traditional-belief",
+          "context": "etymology",
           "status": "exact"
         },
         {
           "id": "mokumokuren-c04",
           "source_id": "mokumokuren-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some accounts regard the figure as an invention of the artist Toriyama Sekien.",
-          "statement_id": "Beberapa sumber menganggapnya ciptaan seniman Toriyama Sekien.",
+          "statement": "Mokumokuren are said to be an invention of Toriyama Sekien.",
+          "statement_id": "Mokumokuren dikatakan merupakan ciptaan Toriyama Sekien.",
           "quote": "Mokumokuren are said to be an invention of Toriyama Sekien.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c05",
+          "source_id": "mokumokuren-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only way to remove the spirit from the wall is to patch up the holes in it.",
+          "statement_id": "Satu-satunya cara menyingkirkan roh itu dari dinding adalah menambal lubang-lubangnya.",
+          "quote": "The only way to remove the spirit from the wall is to patch up the holes in it.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c06",
+          "source_id": "mokumokuren-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Japanese consider the Mokumokuren one of the traditional inhabitants of haunted houses.",
+          "statement_id": "Orang Jepang menganggap Mokumokuren sebagai salah satu penghuni tradisional rumah berhantu.",
+          "quote": "The Mokumokuren is considered by the Japanese to be one of the traditional inhabitants of haunted houses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c07",
+          "source_id": "mokumokuren-s2",
+          "host": "yokai.com",
+          "statement": "When shōji go too long without repair, ghostly eyes begin to pop out of the holes, watching everything that goes on inside the house.",
+          "statement_id": "Bila shōji terlalu lama tidak diperbaiki, mata-mata gaib mulai muncul dari lubangnya dan mengawasi segala yang terjadi di dalam rumah.",
+          "quote": "When shōji have gone too long without repair, ghostly eyes begin to pop out of the holes, watching all that goes on inside of the house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c08",
+          "source_id": "mokumokuren-s2",
+          "host": "yokai.com",
+          "statement": "Mokumokuren are harmless but incredibly creepy; their true danger lies in their companions, as they often work with other tsukumogami and are usually a sign of a greater infestation of yōkai.",
+          "statement_id": "Mokumokuren tidak berbahaya tetapi sangat menyeramkan; bahayanya terletak pada kawanannya, karena sering bekerja bersama tsukumogami lain dan biasanya menandakan rumah dipenuhi yōkai yang lebih banyak.",
+          "quote": "Mokumokuren are harmless, but incredibly creepy. Their true danger lies in who their companions might be. Mokumokuren often work in concert with other tsukumogami, and are usually a sign of a greater infestation of yōkai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c09",
+          "source_id": "mokumokuren-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one story a merchant waking in the night faced an almost entire shoji screen staring at him; instead of being scared, he removed the eyeballs from the screen and sold them to a local eye surgeon.",
+          "statement_id": "Dalam satu kisah, seorang pedagang yang terbangun tengah malam menghadapi layar shoji yang hampir seluruhnya menatapnya; alih-alih takut, ia mencabut bola mata itu dan menjualnya kepada dokter mata setempat.",
+          "quote": "Waking in the middle of the night, he was confronted by an (almost) entire shoji screen staring down at him. Instead of becoming scared, he removed the eyeballs from the screen and sold them to a local eye surgeon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c10",
+          "source_id": "mokumokuren-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another story a traveler stayed in the same house as a Mokumokuren and tried to ignore it by wrapping his blanket tightly around his head; when he awoke, his eyeballs had been removed and were nowhere to be found.",
+          "statement_id": "Dalam kisah lain, seorang pelancong bertekad tetap tinggal di rumah yang sama dengan Mokumokuren dan berusaha mengabaikannya dengan membungkus kepala dengan selimut; saat bangun, bola matanya telah hilang dan tak ditemukan.",
+          "quote": "a traveler was determined to remain in the same house as a Mokumokuren, attempting to ignore it by wrapping the blanket he had been sleeping beneath tightly around his head. When he awoke, he discovered that his eyeballs had been removed, and were nowhere to be found.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c11",
+          "source_id": "mokumokuren-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "It is depicted as countless eyes rising on the shoji of a ruined house; according to the explanatory text, a go player's fixation poured into the go board and then appeared throughout the house.",
+          "statement_id": "Ia digambarkan sebagai banyak mata yang muncul di shoji rumah terbengkalai; menurut teks penjelasnya, ia berasal dari tekad seorang pemain go yang tercurah ke papan go lalu muncul di seluruh rumah.",
+          "quote": "荒れ果てた家の障子に無数の目が浮かび上がった姿で描かれており、解説文によれば碁打ち師の念が碁盤に注がれ、さらに家全体に現れたものとある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c12",
+          "source_id": "mokumokuren-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "It is suggested to be an optical illusion (the Bergen illusion) in which crossings of black lines seem to glow like eyes, so that people who once saw shoji lit by moonlight may have taken it for the Mokumokuren.",
+          "statement_id": "Dikatakan bahwa ini mungkin gejala ilusi optik (ilusi Bergen) yang membuat persilangan garis hitam tampak berkilau seperti mata, sehingga orang yang dahulu melihat shoji disinari cahaya bulan mengira itu Mokumokuren.",
+          "quote": "これは目の錯覚の一種であるバーゲン錯視により、黒い線の交わる箇所が目のように光って見える現象であり、かつて月明かりに照らされた障子を見た人が目目連だと思ったという可能性も示唆されている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c13",
+          "source_id": "mokumokuren-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In one tale a samurai of the Nambu domain, asleep in bed, found an eyeball at his feet; another eye was born from it, and so on until the surroundings were full of eyeballs, and by the next morning his own eyes were gone.",
+          "statement_id": "Dalam satu kisah, seorang samurai domain Nambu yang tidur menemukan bola mata di kakinya; dari mata itu lahir mata lain, berulang hingga sekeliling penuh bola mata, dan keesokan paginya matanya sendiri hilang.",
+          "quote": "ある南部藩士が布団に入って寝ていたところ、足元に目玉が転がっており、その目からもう一つの目が生まれ、その繰り返しで周りが目玉でいっぱいになり、あくる朝には藩士自身の目がなくなっていたという話もあり",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c14",
+          "source_id": "mokumokuren-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "It has also been pointed out that the name of the one-eyed deity 「一目連」 is related to the name of this many-eyed yōkai 「目目連」.",
+          "statement_id": "Ada pula yang menunjukkan bahwa nama dewa bermata satu 「一目連」 berkaitan dengan nama yōkai bermata banyak 「目目連」.",
+          "quote": "一つ目の神である「一目連（いちもくれん）」の名が、目のたくさんあるこの妖怪「目目連」の名に関連しているとの指摘もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mokumokuren-c15",
+          "source_id": "mokumokuren-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Pokémon Stakataka is based on the Mokumokuren.",
+          "statement_id": "Pokémon Stakataka didasarkan pada Mokumokuren.",
+          "quote": "The Pokémon Stakataka is based on the Mokumokuren.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a72baa495b93d3d6a2bf3d4bcdebb2735355167450a2fc6ef0618040bf8f5a1d"
+      "images": []
     },
     {
       "slug": "penghou",

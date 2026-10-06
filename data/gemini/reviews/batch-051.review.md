@@ -1,6 +1,6 @@
 # Review batch-051
 
-Diperiksa 2026-10-06T05:46:35.471Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md.
+Diperiksa 2026-10-06T14:39:47.373Z. Berkas: batch-051.md, batch-051-fix-1.md, batch-051-fix-2.md, batch-051-fix-3.md.
 
 ## basan-legendary-bird — lulus-otomatis
 
@@ -43,117 +43,147 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## gyges — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**warn**
-- `claims (gyges-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-- `claims (gyges-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gyges-c01 | exact | ja.wikipedia.org | Gyges is one of the giants of Greek mythology. | ギューゲース（古希: Γύγης, Gȳgēs）あるいはギュエース（古希: Γύης, Gyēs）は、ギリシア神話の巨人である。 |
-| gyges-c02 | exact | www.theoi.com | Ancient accounts give his group a hundred arms and fifty heads each. | From their shoulders sprang a hundred arms, not to be approached, and each had fifty heads upon his shoulders |
-| gyges-c03 | exact | www.theoi.com | Zeus brought the brothers out of their confinement to fight the Titans. | brought them up again to the light at Gaia's (Gaea's, Earth's) advising |
-| gyges-c04 | exact | www.theoi.com | Gyges is named among the guards of the defeated Titans. | There Gyes and Kottos and great-souled Obriareos live, trusty warders of Zeus |
+| gyges-c01 | exact | ja.wikipedia.org | Gyges (also Gyes) is a giant of Greek mythology. | ギューゲース（古希: Γύγης, Gȳgēs）あるいはギュエース（古希: Γύης, Gyēs）は、ギリシア神話の巨人である。 |
+| gyges-c02 | exact | www.theoi.com | In this passage Gyes is named with Kottos and Briareos; a hundred arms sprang from their shoulders and each had fifty heads. | Kottos (Cottus) and Briareos (Briareus) and Gyes, presumptuous children. From their shoulders sprang a hundred arms, not to be approached, and each had fifty heads upon his shoulders |
+| gyges-c03 | exact | www.theoi.com | Zeus and the other deathless gods brought them back up to the light at Gaia's advising. | But Kronion (Cronion) [Zeus] and the other deathless gods whom rich-haired Rhea bare from union with Kronos (Cronus), brought them up again to the light at Gaia's (Gaea's, Earth's) advising. |
+| gyges-c04 | exact | www.theoi.com | Gyes, Kottos and Obriareos live there as trusty warders of Zeus. | There Gyes and Kottos and great-souled Obriareos live, trusty warders of Zeus |
+| gyges-c05 | exact | www.theoi.com | Their father Ouranos bound Obriareos, Kottos and Gyes in cruel bonds because he was jealous of their manhood, comeliness and great size. | But when first their father [Ouranos (Uranus)] was vexed in his heart with Obriareos (Briareus) and Kottos (Cottus) and Gyes, he bound them in cruel bonds, because he was jealous of their exceeding manhood and comeliness and great size |
+| gyges-c06 | exact | www.theoi.com | Among the foremost, Kottos, Briareos and Gyes, insatiate for war, launched three hundred rocks one upon another and overshadowed the Titans with their missiles. | And amongst the foremost [in the battle were the Hekatonkheires (Hecatoncheires)] Kottos (Cottus) and Briareos (Briareus) and Gyes insatiate for war raised fierce fighting: three hundred rocks, one upon another, they launched from their strong hands and overshadowed the Titanes (TItans) with their missiles |
+| gyges-c07 | exact | www.theoi.com | Kottos and Gyes are said to have their dwelling upon the foundations of Okeanos. | have their dwelling upon Okeanos' (Oceanus') foundations, even Kottos (Cottus) and Gyes |
+| gyges-c08 | exact | www.theoi.com | Gyges and Cottus are named as brothers of Aegaeon; they are known as the Uranids and are described as huge monsters with a hundred arms (hekatoncheires) and fifty heads. | Aegaeon and his brothers Gyges and Cottus are known under the name of the Uranids ... and are described as huge monsters with a hundred arms (hekatoncheires) and fifty heads. |
+| gyges-c09 | exact | ja.wikipedia.org | Gyges is a son of Ouranos and Gaia, one of the Hekatonkheires with a hundred arms and fifty heads, and a brother of Briareos and Cottus. | 天空神ウーラノスと大地母神ガイアの息子で、百の腕と50の頭を持つ異形の巨人ヘカトンケイルの1人。ブリアレオース、コットスと兄弟。 |
+| gyges-c10 | exact | ja.wikipedia.org | The name Gyges is given the meaning "one with many limbs". | ブリアレオース、コットスと兄弟。ギューゲースとは「多くの手足を持つ者」の意。 |
+| gyges-c11 | exact | ja.wikipedia.org | After the war they went to Tartaros and kept watch over the defeated Titans; Gyges and Cottus are also said to have built a house upon Okeanos. | 戦争が終わると彼らはタルタロスに赴き、敗れたティーターン族の見張りを務めた。またギューゲースとコットスはオーケアノスの上に館を建てて住んだともいわれる。 |
+| gyges-c12 | exact | www.theoi.com | One opinion regards Aegaeon and his brothers as personifications of the extraordinary powers of nature, such as earthquakes and volcanic eruptions. | The opinion which regards Aegaeon and his brothers as only personifications of the extraordinary powers of nature, such as are manifested in the violent commotions of the earth, as earth-quakes, volcanic eruptions and the like, seems to explain best the various accounts about them. |
 
 
 ## hone-onna — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (hone-onna-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| hone-onna-c01 | loose | en.wikipedia.org | Hone-onna is a Japanese yōkai illustrated by Toriyama Sekien. | Hone-onna (骨(ほね)女(おんな); "bone woman") is a type of Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien, and retroactively originated in the famous kaidan Botan Dōrō (1666) by Asai Ryōi. |
-| hone-onna-c02 | exact | en.wikipedia.org | She is shown as bones but appears beautiful to a former lover. | As their name implies, they are depicted as women in the form of bones, though to the men they loved back when they were alive, they appear as beautiful women. |
-| hone-onna-c03 | exact | en.wikipedia.org | Some stories describe her as a woman unable to rest after death. | According to folklore, Hone-onna have their origins in women who died while having a relationship with a boyfriend, and their love for their boyfriend is so intense that they can't rest in peace. |
-| hone-onna-c04 | exact | en.wikipedia.org | In these stories she rises at night to visit the man she loved. | Instead, they become one of these beings and awaken from their graves during the night to reunite with the men they loved. |
+| hone-onna-c01 | exact | en.wikipedia.org | Hone-onna is a Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien and retroactively originated in the kaidan Botan Dōrō (1666) by Asai Ryōi. | is a type of Japanese yōkai first depicted in the Konjaku Gazu Zoku Hyakki (1779) by Toriyama Sekien, and retroactively originated in the famous kaidan Botan Dōrō (1666) by Asai Ryōi. |
+| hone-onna-c02 | exact | en.wikipedia.org | Hone-onna are depicted as women in the form of bones, though to the men they loved when alive they appear as beautiful women. | As their name implies, they are depicted as women in the form of bones, though to the men they loved back when they were alive, they appear as beautiful women. |
+| hone-onna-c03 | exact | en.wikipedia.org | According to folklore, Hone-onna originate in women who died while in a relationship, and whose love was so intense that they cannot rest in peace. | According to folklore, Hone-onna have their origins in women who died while having a relationship with a boyfriend, and their love for their boyfriend is so intense that they can't rest in peace. |
+| hone-onna-c04 | exact | en.wikipedia.org | They become Hone-onna and awaken from their graves at night to reunite with the men they loved. | Instead, they become one of these beings and awaken from their graves during the night to reunite with the men they loved. |
+| hone-onna-c05 | exact | yokai.com | The hone onna's habitat is given as dark streets, alleys and graveyards. | Habitat: dark streets, alleys, graveyards |
+| hone-onna-c06 | exact | yokai.com | Only those unclouded by love or with strong religious faith can penetrate the disguise and see the true form: a rotting, fetid, skeletal corpse returned from the grave. | Only those unclouded by love or with strong religious faith are able to penetrate their disguise and see their true form: a rotting, fetid, skeletal corpse returned from the grave. |
+| hone-onna-c07 | exact | yokai.com | Each night she drains some of her lover's life force so that he grows sicker and weaker; without intervention he eventually dies, joining her in death. | Each night she drains some of her lover’s life force, and he grows ever sicker and weaker. Without intervention, he will eventually die, joining his lover forever in death’s embrace. |
+| hone-onna-c08 | exact | yokai.com | A home can be warded against entry by ghosts with prayers and magic charms, but these only work as long as the master of the house wills them to. | A home can be warded with prayers and magic charms against entry by ghosts, but they only work as long as the master of the house wills them to. |
+| hone-onna-c09 | exact | yokai.com | Perhaps the most famous hone onna is Otsuyu from Botan dōrō, or The Tale of the Peony Lantern. | Perhaps the most famous hone onna is Otsuyu from Botan dōrō, or The Tale of the Peony Lantern. |
+| hone-onna-c10 | exact | en.wikipedia.org | In an odd tale from Aomori Prefecture about a yōkai titled "hone-onna", it is said that she likes fish bones and would collapse upon encountering a high priest. | there is an odd tale in the Aomori Prefecture about a yōkai under the title of "hone-onna". ... It is said that she likes fish bones and would collapse upon encountering a high priest. |
+| hone-onna-c11 | exact | en.wikipedia.org | In modern times this type of yōkai inspired and gave its name to Hone-onna, one of the main characters in the anime series and franchise Hell Girl. | In modern times, this type of yōkai was used as the inspiration and namesake for Hone-onna, one of the main characters in the anime series and franchise Hell Girl. |
 
 
 ## kamiyonanayo — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (kamiyonanayo-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kamiyonanayo-c01 | loose | en.wikipedia.org | Kamiyonanayo names seven generations of early kami in Japanese mythology. | In Japanese mythology, the Kamiyonanayo (神世七代; lit. "Seven Generations of the Age of the Gods") are the seven generations of kami that emerged after the formation of heaven and earth(Tenchi-kaibyaku). |
-| kamiyonanayo-c02 | exact | en.wikipedia.org | The Kojiki places them after the Kotoamatsukami. | According to the Kojiki, these deities appeared after the Kotoamatsukami, which appeared at the time of the creation of the universe. |
-| kamiyonanayo-c03 | exact | en.wikipedia.org | Its first two generations are solitary kami, followed by paired deities. | The first two generations were hitorigami while the five that followed came into being as male-female pairs of kami: brothers and sisters that were at the same time married couples (a common trope in many mythologies, see: List of coupled siblings in religion, mythology and legends). |
-| kamiyonanayo-c04 | exact | en.wikipedia.org | The Kojiki counts twelve deities across the seven generations. | In total the Kamiyonanayo consists of 12 deities in this chronicle. |
+| kamiyonanayo-c01 | exact | en.wikipedia.org | In Japanese mythology, the Kamiyonanayo are the seven generations of kami that emerged after the formation of heaven and earth (Tenchi-kaibyaku). | In Japanese mythology, the Kamiyonanayo ... are the seven generations of kami that emerged after the formation of heaven and earth(Tenchi-kaibyaku). |
+| kamiyonanayo-c02 | exact | en.wikipedia.org | According to the Kojiki, these deities appeared after the Kotoamatsukami, which appeared at the time of the creation of the universe. | According to the Kojiki, these deities appeared after the Kotoamatsukami, which appeared at the time of the creation of the universe. |
+| kamiyonanayo-c03 | exact | en.wikipedia.org | The first two generations were hitorigami, while the five that followed came into being as male-female pairs of kami: brothers and sisters who were also married couples. | The first two generations were hitorigami while the five that followed came into being as male-female pairs of kami: brothers and sisters that were at the same time married couples |
+| kamiyonanayo-c04 | exact | en.wikipedia.org | In this chronicle the Kamiyonanayo consists of 12 deities in total. | In total the Kamiyonanayo consists of 12 deities in this chronicle. |
+| kamiyonanayo-c05 | exact | en.wikipedia.org | The last generation, Izanagi and Izanami, was the couple who would be responsible for creating the Japanese archipelago (Kuniumi) and would engender other deities (Kamiumi). | The last generation, consisting of Izanagi and Izanami, was the couple that would be responsible for the creation of the Japanese archipelago (Kuniumi) and would engender other deities (Kamiumi). |
+| kamiyonanayo-c06 | exact | en.wikipedia.org | The Nihon Shoki says this group was the first to appear after the creation of heaven and earth, and states that the first three generations were hitorigami while the other generations were pairs of the opposite sex. | In contrast, the chronicle Nihon Shoki, points out that this group was the first to appear after the creation of heaven and earth. It also states that the first three generations of deities were hitorigami and that the other generations of deities were pairs of the opposite sex. |
+| kamiyonanayo-c07 | exact | kotobank.jp | The Kamiyonanayo is a genealogy of deities that came into being at the beginning of heaven and earth. | 神世七代 かみよななよ 天地初発 (あめつちはじめ) のとき生成した神々の系譜。 |
+| kamiyonanayo-c08 | exact | kotobank.jp | According to the Kojiki, the seven generations are the deities that appeared after the five Kotoamatsukami: Kuni-no-Tokotachi, Toyokumono, Uhijini and Suhijini, Tsunugui and Ikugui, Otonoji and Otonobe, Omodaru and Ayakashikone, and Izanagi and Izanami. | 『古事記』によると別天神 (ことあまつかみ) 5神の次に出現した (1) クニノトコタチノカミ，(2) トヨクモヌノカミ，(3) ウヒジニノカミ，イモスヒジニノカミ，(4) ツヌグヒノカミ，イモイクグヒノカミ，(5) オホトノジノカミ，イモオホトノベノカミ，(6) オモダルノカミ，イモアヤカシコネノカミ，(7) イザナギノカミ，イモイザナミノカミの7代をいう。 |
+| kamiyonanayo-c09 | exact | kotobank.jp | The name can also be read "kamiyoshichidai" and written 神代七代 or 天神七代. | 神々の系譜。「かみよしちだい」とも読み，神代七代，天神七代とも書く。 |
+| kamiyonanayo-c10 | exact | kotobank.jp | The Kojiki and the Nihon Shoki differ slightly in the names of the deities. | 天神七代とも書く。『古事記』と『日本書紀』では神の名に若干の違いがある |
+| kamiyonanayo-c11 | exact | en.wikipedia.org | The name Kamiyonanayo literally means "Seven Generations of the Age of the Gods". | lit. "Seven Generations of the Age of the Gods" |
 
 
 ## kuni-no-tokotachi — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kuni-no-tokotachi-c01 | loose | en.wikipedia.org | Kuni-no-Tokotachi is a deity of the creation accounts in Shinto. | In Shinto faith, Kuninotokotachi (国之常立神; Kuninotokotachi-no-Kami, in Kojiki) (国常立尊; Kuninotokotachi-no-Mikoto, in Nihon Shoki (no-Mikoto here being an honorific of divinity)) or Kuni-toko-tachi is one of the two Gods born from "something like a reed that arose from the soil" when the Earth was chaotic. |
-| kuni-no-tokotachi-c02 | loose | en.wikipedia.org | The Kojiki lists this kami first among seven generations after the earliest five deities. | In the Kojiki, he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe. |
-| kuni-no-tokotachi-c03 | loose | en.wikipedia.org | The Nihon Shoki gives a different order after heaven and earth emerged. | In the Nihon Shoki, he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth. |
-| kuni-no-tokotachi-c04 | loose | en.wikipedia.org | The two chronicles also differ in how they describe the deity's gender. | Kuninotokotachi is described as a hitorigami and genderless in Kojiki, but is described as a male god in Nihon Shoki. |
+| kuni-no-tokotachi-c01 | exact | en.wikipedia.org | In Shinto faith, Kuninotokotachi or Kuni-toko-tachi is one of the two Gods born from "something like a reed that arose from the soil" when the Earth was chaotic. | In Shinto faith, Kuninotokotachi ... or Kuni-toko-tachi is one of the two Gods born from "something like a reed that arose from the soil" when the Earth was chaotic. |
+| kuni-no-tokotachi-c02 | exact | en.wikipedia.org | In the Kojiki, he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe. | In the Kojiki ... he is the first of the seven generations of Divinities born after the first five divinities were born at the time of the creation of the Universe. |
+| kuni-no-tokotachi-c03 | exact | en.wikipedia.org | In the Nihon Shoki, he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth. | In the Nihon Shoki ... he is the first of the three divinities born after Heaven and Earth were born out of chaos, and is born from something looking like a reed-shoot growing between heaven and earth. |
+| kuni-no-tokotachi-c04 | exact | en.wikipedia.org | Kojiki describes him as a hitorigami and genderless, while the Nihon Shoki describes him as a male god. | Kuninotokotachi is described as a hitorigami and genderless in Kojiki ... but is described as a male god in Nihon Shoki |
+| kuni-no-tokotachi-c05 | exact | en.wikipedia.org | According to mythology, he is known to reside on top of Mount Fuji. | He is known by mythology to reside on top of Mount Fuji |
+| kuni-no-tokotachi-c06 | exact | en.wikipedia.org | Yoshida Kanetomo, founder of the Yoshida Shintō sect, identified Kuninotokotachi with Amenominakanushi and regarded him as the primordial god of the Universe. | Yoshida Kanetomo, the founder of the Yoshida Shintō sect, identified Kuninotokotachi with Amenominakanushi and regarded him as the primordial god of the Universe. |
+| kuni-no-tokotachi-c07 | exact | en.wikipedia.org | In Tenrikyo, Kunitokotachi-no-Mikoto is one of the Ten Aspects of God's Providence. | In Tenrikyo, Kunitokotachi-no-Mikoto is one of the Ten Aspects of God's Providence |
+| kuni-no-tokotachi-c08 | exact | kotobank.jp | His name is also written 国底立尊; according to the Nihon Shoki he is the first deity to appear when heaven and earth opened, and together with two other deities he is called one of the three dokka deities (独化の三神). | 国底立尊とも書く。《日本書紀》によれば天地開闢(かいびゃく)の最初に出現した神。国狭槌(くにのさつち)尊・豊斟渟(とよくむぬ)尊とともに独化の三神といわれる。 |
+| kuni-no-tokotachi-c09 | exact | kotobank.jp | He is regarded as a conceptual deity arising, in the process of the recording of Japanese mythology, from a wish for the eternal stability of the state. | 国狭槌(くにのさつち)尊・豊斟渟(とよくむぬ)尊とともに独化の三神といわれる。日本神話が記録される過程での，国家の永久安定を願う観念的神格と考えられる。 |
+| kuni-no-tokotachi-c10 | exact | kotobank.jp | He is the first of the land deities in the creation myth; according to the Nihon Shoki he appeared first when heaven and earth began to separate, and the Kojiki calls him 国之常立神 and places him after five deities treated specially among the heavenly gods. | 天地創成神話の国土神の最初の神。「日本書紀」によると,天地がわかれはじめたとき第一にあらわれたとされ,国底立尊ともいう。「古事記」では国之常立神(くにのとこたちのかみ)といい,天津神(あまつかみ)のうちでも特別にあつかわれている5柱の神の次に登場する。 |
+| kuni-no-tokotachi-c11 | exact | en.wikipedia.org | The Nihon Shoki names Kuninotokotachi as the first of three deities, followed by Kuninosatsuchi and Toyokumonu, said to have arisen through the male principle alone. | the Nihon Shoki names Kuninotokotachi as the first of three deities, followed by Kuninosatsuchi and Toyokumonu, said to have arisen through the male principle alone |
 
 
 ## mitama — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mitama-c01 | loose | en.wikipedia.org | Mitama is a Japanese term for a kami's spirit or a dead person's soul. | The Japanese word mitama (御魂・御霊・神霊; 'honorable spirit') refers to the spirit of a kami or the soul of a dead person. |
-| mitama-c02 | loose | en.wikipedia.org | The first character of the term is an honorific. | It is composed of two characters, the first of which, mi (御; honorable), is simply an honorific. |
-| mitama-c03 | loose | en.wikipedia.org | The second character means spirit. | The second, tama (魂・霊) means "spirit". |
-| mitama-c04 | loose | en.wikipedia.org | One written form of mitama is reserved for the spirit of a kami. | The character pair 神霊, also read mitama, is used exclusively to refer to a kami's spirit. |
+| mitama-c01 | exact | en.wikipedia.org | The Japanese word mitama refers to the spirit of a kami or the soul of a dead person. | The Japanese word mitama ... refers to the spirit of a kami or the soul of a dead person. |
+| mitama-c02 | exact | en.wikipedia.org | The term is composed of two characters, the first of which, mi, is simply an honorific. | It is composed of two characters, the first of which, mi ... is simply an honorific. |
+| mitama-c03 | exact | en.wikipedia.org | The second, tama, means "spirit". | The second, tama ... means "spirit". |
+| mitama-c04 | exact | en.wikipedia.org | The character pair 神霊, also read mitama, is used exclusively to refer to a kami's spirit. | The character pair 神霊 ... also read mitama ... is used exclusively to refer to a kami's spirit. |
+| mitama-c05 | exact | en.wikipedia.org | The most developed is the ichirei shikon, a Shinto theory according to which the spirit of both kami and human beings consists of one whole spirit and four sub spirits. | The most developed is the ichirei shikon ... a Shinto theory according to which the spirit ... of both kami and human beings consists of one whole spirit and four sub spirits. |
+| mitama-c06 | exact | en.wikipedia.org | A kami's first appearance is as an ara-mitama, which must be pacified with appropriate pacification rites and worship so that the nigi-mitama can appear. | A kami's first appearance is as an ara-mitama ... which must be pacified with appropriate pacification rites and worship so that the nigi-mitama can appear. |
+| mitama-c07 | exact | en.wikipedia.org | The nigi-mitama is the static side of a kami, while the ara-mitama appears in times of peril. | The Nigi-Mitama ... is the static side of a kami, while the ara-mitama appears in times of peril. |
+| mitama-c08 | exact | en.wikipedia.org | The saki-mitama is the happy and loving side of a whole, complete spirit, the spirit of blessing and prosperity. | The happy and loving side of a whole, complete spirit (mitama); this is the spirit of blessing and prosperity. |
+| mitama-c09 | exact | en.wikipedia.org | The kushi-mitama is the wise and experienced side of a whole, complete spirit; it is believed to have mysterious powers, to cause transformations and to be able to cure illnesses. | The Kushi-mitama ... is the wise and experienced side of a whole, complete spirit (mitama) ... It is believed to have mysterious powers, to cause transformations and to be able to cure illnesses. |
+| mitama-c10 | exact | en.wikipedia.org | Sumiyoshi Shrine in Shimonoseki enshrines the ara-mitama of the Sumiyoshi kami, while Sumiyoshi Taisha in Osaka enshrines its nigi-mitama. | For example, Sumiyoshi Shrine in Shimonoseki enshrines the ara-mitama of the Sumiyoshi kami, while Sumiyoshi Taisha in Osaka enshrines its nigi-mitama |
+| mitama-c11 | exact | en.wikipedia.org | The term mitamashiro is a synonym of shintai, the object which in a Shinto shrine houses the enshrined kami. | the term mitamashiro ... is a synonym of shintai, the object which in a Shinto shrine houses the enshrined kami. |
+| mitama-c12 | exact | en.wikipedia.org | The Mitama Festival is a widely celebrated Shinto festival to the dead in Japan, particularly at the Yasukuni Shrine, typically in mid-July. | A widely celebrated Shinto festival to the dead in Japan, particularly at the Yasukuni Shrine. Typically in mid-July. |
+| mitama-c13 | exact | kotobank.jp | A Japanese dictionary defines mitama (御霊／御魂) as a word honouring the spirits of kami and of ancestors, with a further sense of spiritual power (霊威). | み‐たま【▽御霊／▽御▽魂】 １ 神霊や祖霊を尊んでいう語。「先祖の―を祭る」 ２ 霊威。 |
 
 
 ## mujina — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mujina-c01 | loose | en.wikipedia.org | Mujina is an old Japanese animal name associated with badgers and tanuki. | Mujina (Japanese: 貉) is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion. |
-| mujina-c02 | exact | en.wikipedia.org | Folklore describes a badger-like body with a raccoon-dog-like face. | The mujina is said to be a raccoon-faced creature in its natural form, with the main body being that of a Japanese badger. |
-| mujina-c03 | exact | en.wikipedia.org | Some tales give the creature a drumming, inflated belly. | The mujina in specific are known to be able to inflate their bellies, creating music by drumming on it whilst singing. |
-| mujina-c04 | exact | en.wikipedia.org | Other tales connect mujina with a ghostly light. | At times, the mujina will also create a "ghost-fire", also called tanuki-bi (狸火), which resembles will-o'-the-wisps. |
+| mujina-c01 | exact | en.wikipedia.org | Mujina is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion. | is an old Japanese term primarily referring to the Japanese badger, but traditionally to the Japanese raccoon dog (tanuki), causing confusion. |
+| mujina-c02 | exact | en.wikipedia.org | The mujina is said to be a raccoon-faced creature in its natural form, with a Japanese badger's body. | The mujina is said to be a raccoon-faced creature in its natural form, with the main body being that of a Japanese badger. |
+| mujina-c03 | exact | en.wikipedia.org | Mujina are known to be able to inflate their bellies, creating music by drumming on them while singing. | The mujina in specific are known to be able to inflate their bellies, creating music by drumming on it whilst singing. |
+| mujina-c04 | exact | en.wikipedia.org | At times the mujina will also create a "ghost-fire", also called tanuki-bi (狸火), which resembles will-o'-the-wisps. | At times, the mujina will also create a "ghost-fire", also called tanuki-bi (狸火), which resembles will-o'-the-wisps. |
+| mujina-c05 | exact | en.wikipedia.org | One of its favorite appearances is that of a black-garbed Buddhist priest, also called the tanuki-bôzu. | One of its favorite appearances is that of a black-garbed Buddhist priest, also called the tanuki-bôzu. |
+| mujina-c06 | exact | en.wikipedia.org | Mujina are said to have been able to transform into dazzling comets, fence posts, stones, trees, and so on. | they have been able to transform into dazzling comets, fence posts, stones, trees, and so on. |
+| mujina-c07 | exact | en.wikipedia.org | A mujina's transformation is not always stable; if the badger drifts to sleep, its appearance can become wholly or partially undone. | The appearance of a mujina's transformation isn't always stable; if the badger were to drift to sleep, their appearance can become wholly or even partially undone. |
+| mujina-c08 | exact | en.wikipedia.org | Their earliest appearance in literature is in the Nihon Shoki, in the part about Empress Suiko's 35th year (627). | They are first seen in literature in the Nihon Shoki in the part about Empress Suiko's 35th year (627) |
+| mujina-c09 | exact | en.wikipedia.org | In the Shimōsa region they are called kabukiri-kozō and would shapeshift into a kozō (little monk) wearing a strangely short kimono and a kappa-like bobbed head. | In the Shimōsa region, they are called kabukiri-kozō ... and they would shapeshift into a kozō (little monk) wearing a strangely short kimono with a kappa-like bobbed head |
+| mujina-c10 | exact | kotobank.jp | Like the tanuki, the mujina deceives humans, and is also said to frighten people in the form of a 大入道 or other monsters. | 民俗 ムジナはタヌキと同じく人間を化かす，また大入道その他の怪物の姿で人をおどすともいう。 |
+| mujina-c11 | exact | kotobank.jp | On Sado it was called Tonchibō and also thought of as resembling a mountain deity, with related traditions preserved; in the mountains on the northern border of Nagano Prefecture it was called Banbuku, and one with a hairless belly was said to transform. | 佐渡ではトンチボウと呼んで山の神の姿のようにも考え，またこれにまつわる伝承が残っていた。また，長野県北境の山中ではバンブクといって腹に毛のないものが化けるなどともいっていた。 |
+| mujina-c12 | exact | kotobank.jp | It is said that anciently the tanuki was called muji or mujina and the badger mami or sasaguma, but this is not necessarily certain, and in some regions both tanuki and badger are called mujina. | 古くはタヌキを指してムジあるいはムジナと呼び，アナグマをマミあるいはササグマと呼んだという。しかし，これは必ずしも確かではなく，タヌキとアナグマの双方をムジナと呼ぶ地方もある。 |
+| mujina-c13 | exact | en.wikipedia.org | In 1924 in Tochigi Prefecture, a hunter killed a raccoon dog which he believed to be called a mujina. | In Tochigi Prefecture in 1924, a hunter killed a raccoon dog, which he believed to be called a mujina. |
+| mujina-c14 | exact | en.wikipedia.org | Like other yōkai, the mujina is a notorious trickster and enjoys using its shapeshifting to play harmless pranks. | Like the other yōkai, the mujina is a notorious trickster, and enjoys using their shapeshifting to play harmless pranks. |
+| mujina-c15 | exact | en.wikipedia.org | It is believed that although these creatures can be extremely chaotic, they have a gentle heart and know how to be grateful. | It is believed that although these creatures can be extremely chaotic, they have a gentle heart, and know how to be grateful. |
 
 
 ## toyoke-omikami — lulus-otomatis
 
-Klaim 4 (loose 3, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| toyoke-omikami-c01 | loose | en.wikipedia.org | Toyōke Ōmikami is a Japanese kami associated with food and grain. | Toyouke-hime (豊宇気毘売, Toyouke-bime; lit. "Luxuriant Food Princess") is the deity (kami) of food and grain in Japan. |
-| toyoke-omikami-c02 | loose | en.wikipedia.org | A shrine tradition says she came to Ise to provide food for Amaterasu. | Originally enshrined in the Tanba Province, it is said she was called to reside at the Outer Shrine (外宮, Gekū) of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess. |
-| toyoke-omikami-c03 | loose | en.wikipedia.org | Historical texts write her name in several different forms. | While now popular as Toyouke-Ōhmikami, her name has been transcribed using Chinese characters in several manners including Toyouke bime no kami (豊宇気毘売神) in the Kojiki, while there is no entry about her in the Nihon Shoki. |
-| toyoke-omikami-c04 | exact | en.wikipedia.org | The Kojiki calls her a daughter of Wakumusubi. | In the Kojiki, Toyouke-hime is noted as the daughter of Wakumusubi and granddaughter of Izanami. |
+| toyoke-omikami-c01 | exact | en.wikipedia.org | Toyouke-hime, literally "Luxuriant Food Princess", is the deity (kami) of food and grain in Japan. | lit. "Luxuriant Food Princess") is the deity (kami) of food and grain in Japan. |
+| toyoke-omikami-c02 | exact | en.wikipedia.org | Originally enshrined in Tanba Province, she is said to have been called to reside at the Outer Shrine of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess. | Originally enshrined in the Tanba Province, it is said she was called to reside at the Outer Shrine ... of Ise Shrine in the 5th century, during the reign of Emperor Yūryaku, to offer sacred food to Amaterasu, the ruling kami and sun goddess. |
+| toyoke-omikami-c03 | exact | en.wikipedia.org | Her name, now popular as Toyouke-Ōhmikami, has been written in Chinese characters in several ways, including Toyouke bime no kami in the Kojiki, while the Nihon Shoki has no entry about her. | While now popular as Toyouke-Ōhmikami, her name has been transcribed using Chinese characters in several manners including Toyouke bime no kami ... in the Kojiki, while there is no entry about her in the Nihon Shoki. |
+| toyoke-omikami-c04 | exact | en.wikipedia.org | In the Kojiki, Toyouke-hime is noted as the daughter of Wakumusubi and granddaughter of Izanami. | In the Kojiki, Toyouke-hime is noted as the daughter of Wakumusubi and granddaughter of Izanami. |
+| toyoke-omikami-c05 | exact | en.wikipedia.org | The uke element in her name refers to food, making her the kami of food and grains. | in her name refers to food, making her the kami of food and grains. |
+| toyoke-omikami-c06 | exact | en.wikipedia.org | This is why she has come to be conflated with Inari Ōkami and Ukanomitama, as with other food-related kami such as Ōgetsu-hime (Ukemochi). | This is why she has come to be conflated with Inari Ōkami and Ukanomitama in the same way as other food-related kami such as Ōgetsu-hime (Ukemochi). |
+| toyoke-omikami-c07 | exact | en.wikipedia.org | The head priest of Toyouke Daijingu submitted the Toyukegū Gishikichō to the Department of Divinities in 804, in which it is told that Toyouke-hime had originally been in Tanba Province. | The head priest of Toyouke Daijingu submitted Toyukegū Gishikichō ... to the Department of Divinities in 804, in which it is told that Toyouke-hime had originally been in Tanba Province. |
+| toyoke-omikami-c16 | exact | en.wikipedia.org | The document records that Amaterasu came to Emperor Yūryaku in a dream and said she alone could not supply enough food, so he needed to bring the kami of divine food from Manai Pond in Hiji Village, Tanba Province. | It records that Amaterasu came to Emperor Yūryaku in a dream and told him she alone was not able to supply enough food and needed him to bring ... the kami of divine food, from Manai Pond in Hiji Village, Tanba Province. |
+| toyoke-omikami-c08 | exact | en.wikipedia.org | According to the Ise Shintō (Watarai Shintō) discipline originated by a Geku priest named Watarai Ieyuki, Toyouke-Ōmikami is recognized as the first divine being to appear in this world. | According to the discipline of Ise Shintō (Watarai Shintō) originated by a priest at Geku named Watarai Ieyuki ... Toyouke-Ōmikami is recognized as the first divine being which appeared in this world. |
+| toyoke-omikami-c09 | exact | en.wikipedia.org | There is a separate shrine for the ara-mitama of Toyouke-Ōmikami, called the Taka-no-miya, inside the Gekū. | There is a separate shrine dedicated to Toyouke-Ōmikami no ara-mitama ... called the Taka-no-miya ... inside the Gekū. |
+| toyoke-omikami-c10 | exact | en.wikipedia.org | Toyouke-Ōmikami is worshiped along with Amaterasu at many branches of Ise shrines called Shinmei shrines. | Toyouke-Ōmikami is worshiped at many branches of Ise shrines called Shinmei shrines, along with Amaterasu |
+| toyoke-omikami-c11 | exact | kotobank.jp | A Japanese dictionary calls her a grandchild of Izanagi and a child of Wakumusubi, a goddess presiding over the five grains, enshrined at the Gekū of Ise Shrine. | 伊弉諾尊 いざなぎのみこと の孫、 和久産巣日神 わくむすびのかみ の子。五穀をつかさどる女神で、伊勢神宮の 外宮 げくう に祭る。 |
+| toyoke-omikami-c12 | exact | kotobank.jp | Toyouke and Inari are regarded as deities presiding over grain from outside the grain, a form in which the grain spirit has become a great deity. | 日本の豊受大神（とゆけのおおかみ）や稲荷明神などは，穀物の外にあって穀物をつかさどる神々であり，穀霊･稲魂が大神化した形態であると見られる。 |
+| toyoke-omikami-c13 | exact | kotobank.jp | Toyouke, the deity of Ise's Gekū, came from being a food deity to being widely revered by the people as an agricultural deity. | 伊勢の外宮（げくう）の祭神たる豊受大神が食物神から，ひいては農業神として広く民衆の帰依を集めたこともあずかっているであろう。 |
+| toyoke-omikami-c14 | exact | en.wikipedia.org | Omonoimi no kami is considered a possible alternate name of Toyouke-hime. | Omonoimi no kami is considered a possible alternate name to Toyouke-hime |
+| toyoke-omikami-c15 | exact | en.wikipedia.org | Several alternative transcriptions and names are attributed to this goddess, including Toyouke-Okami, Toyouke-Ōmikami and Toyoukebime no kami. | Several alternative transcription and names are attributed to this goddess including Toyouke-Okami, Toyouke-Ōmikami, Toyoukebime no kami |
 
 
 ## akateko-folklore — lulus-otomatis
@@ -247,47 +277,67 @@ Klaim 17 (exact 15, loose 2), sumber 2, gambar 0.
 
 ## jinmenju — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| jinmenju-c01 | loose | en.wikipedia.org | Jinmenju is a human-faced tree in Japanese and Chinese supernatural lore. | Jinmenju or Ninmenju (Chinese: 人面樹; pinyin: Rénmiànshù; Japanese: 人面樹 [にんめんじゅ、じんめんじゅ]; lit. 'human-faced tree') is a type of Yōkai and Yaoguai in Japanese and Chinese folklore. |
-| jinmenju-c02 | exact | en.wikipedia.org | Its flowers are depicted as resembling human heads. | It is commonly depicted as a tree bearing flowers that resemble human heads. |
-| jinmenju-c03 | exact | en.wikipedia.org | Toriyama Sekien included it in an Edo illustrated collection. | It notably appears in the Edo period Konjaku Hyakki Shūi by Toriyama Sekien. |
-| jinmenju-c04 | exact | en.wikipedia.org | Other sources include an early Japanese encyclopedia and a Chinese illustrated compendium. | Other sources naming the "jinmenju" include the Wakan Sansai Zue, and a quote from the Chinese Sancai Tuhui, which describes a similar tree from a land called "Dashiguo" |
+| jinmenju-c01 | exact | en.wikipedia.org | Jinmenju (also Ninmenju, literally "human-faced tree") is a type of yōkai and yaoguai in Japanese and Chinese folklore. | is a type of Yōkai and Yaoguai in Japanese and Chinese folklore. |
+| jinmenju-c02 | exact | en.wikipedia.org | It is commonly depicted as a tree bearing flowers that resemble human heads. | It is commonly depicted as a tree bearing flowers that resemble human heads. |
+| jinmenju-c03 | exact | en.wikipedia.org | Jinmenju notably appears in the Edo-period Konjaku Hyakki Shūi by Toriyama Sekien. | It notably appears in the Edo period Konjaku Hyakki Shūi by Toriyama Sekien. |
+| jinmenju-c04 | exact | en.wikipedia.org | Other sources naming the "jinmenju" include the Wakan Sansai Zue and a quotation from the Chinese Sancai Tuhui, which describes a similar tree from a land called "Dashiguo". | Other sources naming the "jinmenju" include the Wakan Sansai Zue, and a quote from the Chinese Sancai Tuhui, which describes a similar tree from a land called "Dashiguo" |
+| jinmenju-c05 | exact | en.wikipedia.org | The Konjaku Hyakki Shūi depicts it as a tree blooming with flowers that resemble human heads. | The Konjaku Hyakki Shūi depicts it as a tree blooming with flowers that resemble human heads |
+| jinmenju-c06 | exact | en.wikipedia.org | In the explanatory text, in mountain valleys its flowers are just like human heads, and without a word they merely smile on and on until their petals fall just like that. | In mountain valleys, its flowers just like human heads, without a word, they merely just smile away, smile away until its petals fall just like that |
+| jinmenju-c07 | exact | en.wikipedia.org | According to the Sancai Tuhui, Dashiguo is a land one thousand li to the southwest with flowers like human heads; if the tree is questioned its flowers laugh but do not understand human language, and if they laugh too much the flowers wither and fall. | According to the Sancai Tuhui, Dashiguo is a land one thousand li southwest, with flowers like human heads, and upon asking it questions, its flowers would laugh, but it wouldn't understand human language. If they laughed too much, the flowers would wither and fall. |
+| jinmenju-c08 | exact | en.wikipedia.org | The Rōō Sawa, a collection of strange tales from Aizu, also quotes the Sancai Tuhui when making statements about this tree. | The Rōō Sawa ... a collection of strange tales from Aizu, also quotes the Sancai Tuhui while making statements about this tree. |
+| jinmenju-c09 | exact | kotobank.jp | A Japanese dictionary defines the jinmenju as a fruit-bearing tree whose fruit, about the size of an ume plum, is said to have a pit like a human face. | にんめん‐じゅ【人面樹】 〘 名詞 〙 ① 梅の実ぐらいの大きさで、人の顔のような核をもつという実のなる樹。 |
+| jinmenju-c10 | exact | ja.wikipedia.org | Japanese Wikipedia calls the jinmenju a tree of Chinese tradition that appears in the Edo-period yōkai picture collection Konjaku Hyakki Shūi by Toriyama Sekien. | 人面樹（にんめんじゅ、じんめんじゅ）は、鳥山石燕による江戸時代の妖怪画集『今昔百鬼拾遺』にある中国の伝承上の木。 |
+| jinmenju-c11 | exact | ja.wikipedia.org | Besides Japanese yōkai, the Konjaku Hyakki Shūi includes creatures from outside Japan found in the Wakan Sansai Zue; the jinmenju depicts a tree from the land of Daishikoku (Dashiguo) that the Wakan Sansai Zue quotes from the Chinese Sancai Tuhui. | 『今昔百鬼拾遺』では日本の妖怪以外に、江戸時代の百科事典『和漢三才図会』にある日本国外の動植物や妖怪についても掲載されており、この「人面樹」も、『和漢三才図会』が中国の書『三才図会』から引用して掲載している、「大食国（だいしこく）」という国にあるという木を描いたものである。 |
 
 
 ## kijimuna — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kijimuna-c01 | loose | en.wikipedia.org | Kijimuna are tree spirits in Okinawan tales. | The kijimuna (Okinawan: キジムナー, romanized: kijimunaa, lit. 'wood spirit') are mythological creatures said to inhabit the island of Okinawa. |
-| kijimuna-c02 | exact | en.wikipedia.org | They are commonly described as small children with red hair. | They are described as resembling around a three or four-year-old child with wild red hair. |
-| kijimuna-c03 | exact | en.wikipedia.org | Their stories belong to the folklore of Okinawa. | The kijimuna are small wood spirits according to Okinawan mythology. |
-| kijimuna-c04 | exact | en.wikipedia.org | The spirits are particularly associated with banyan trees. | The kijimuna are said to live in trees, but the most common one is the 'gajumaru' or banyan tree. |
+| kijimuna-c01 | exact | en.wikipedia.org | The kijimuna are mythological creatures said to inhabit the island of Okinawa. | are mythological creatures said to inhabit the island of Okinawa. |
+| kijimuna-c02 | exact | en.wikipedia.org | They are described as resembling a child of around three or four years old with wild red hair. | They are described as resembling around a three or four-year-old child with wild red hair. |
+| kijimuna-c03 | exact | en.wikipedia.org | According to Okinawan mythology, the kijimuna are small wood spirits. | The kijimuna are small wood spirits according to Okinawan mythology. |
+| kijimuna-c04 | exact | en.wikipedia.org | The kijimuna are said to live in trees, the most common being the gajumaru or banyan tree. | The kijimuna are said to live in trees, but the most common one is the 'gajumaru' or banyan tree. |
+| kijimuna-c05 | exact | yokai.com | The kijimunā's habitat is given as banyan trees on the islands of Okinawa. | Habitat: banyan trees on the islands of Okinawa |
+| kijimuna-c06 | exact | yokai.com | Physically, kijimunā are about as tall as a child, with wild, thick, bright red hair and red-tinted skin. | Physically, kijimunā are about the same height as a child, with wild and thick bright red hair, and red tinted skin. |
+| kijimuna-c07 | exact | yokai.com | They are especially fond of fish eyes, even preferring the left eye over the right. | They are especially fond of fish eyes, even preferring the left eye over the right. |
+| kijimuna-c08 | exact | yokai.com | They loathe chickens and cooking pots, are extremely put off by people passing gas, and hate the octopus above all else. | They loathe chickens and cooking pots. They are extremely put off by people passing gas. However, the thing they hate above all else is the octopus. |
+| kijimuna-c09 | exact | yokai.com | Kijimunā often help fishermen catch fish, or aid humans in other ways, in return for a cooked meal. | Kijimunā often help fishermen catch fish, or aid humans in other ways in return for a cooked meal. |
+| kijimuna-c10 | exact | yokai.com | Cutting down the banyan tree in which they live surely earns their wrath; wronged kijimunā are known to kill livestock, sabotage boats so they sink while owners are far out at sea, or magically trap people in hollow trees. | Cutting down the banyan tree in which they live is a sure way to earn their wrath. Kijimunā thus wronged have been known to murder livestock, sabotage boats so they sink while their owners are far out at sea, or magically trap people in hollow trees from which they cannot escape. |
+| kijimuna-c11 | exact | en.wikipedia.org | The Kijimuna are known to be very mischievous, playing pranks and tricking humans; one of their best-known tricks is to lie upon a person's chest, leaving them unable to move or breathe. | The Kijimuna are known to be very mischievous, playing pranks and tricking humans. One of their best-known tricks is to lie upon a person's chest, making them unable to move or breathe. |
+| kijimuna-c12 | exact | en.wikipedia.org | One story tells of a kijimuna's friend burning down his tree, so that the kijimuna fled to the mountains. | One story tells of a kijimuna's friend burning down his tree, so the kijimuna fled to the mountains. |
+| kijimuna-c13 | exact | kotobank.jp | A Japanese dictionary calls the kijimuna a yōkai in the lore of the Okinawa Islands, regarded as a spirit of trees (often the gajumaru), also called "Kijimun". | 沖縄諸島地域の伝承にある妖怪。樹木（しばしばガジュマルの木）の精霊とされる。「キジムン」などとも。 |
+| kijimuna-c14 | exact | yokai.com | Alternate names of the kijimunā are sēma and bunagaya. | Alternate names: sēma, bunagaya |
+| kijimuna-c15 | exact | en.wikipedia.org | The kijimuna are a common subject in Okinawan folk tales; many stories begin with the kijimuna befriending a human and end with the relationship going bad. | The kijimuna are a common subject in Okinawan folk tales. Many of their stories begin with the kijimuna becoming a human's friend and then ending with the relationship going bad. |
 
 
 ## mokumokuren — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mokumokuren-c01 | loose | en.wikipedia.org | Mokumokuren is a Japanese yōkai depicted as many eyes. | Mokumokuren (目目連 or 目々連) are yōkai in Japanese mythology. |
-| mokumokuren-c02 | exact | en.wikipedia.org | It is associated with torn paper screens and sometimes other house surfaces. | The Mokumokuren usually lives in torn shoji (Japanese paper sliding walls), although they can also be found in tatami floor mats and in walls. |
-| mokumokuren-c03 | exact | en.wikipedia.org | Its name refers to its many eyes. | The name "Mokumokuren" literally means "many eyes" or "continuous eyes". |
-| mokumokuren-c04 | exact | en.wikipedia.org | Some accounts regard the figure as an invention of the artist Toriyama Sekien. | Mokumokuren are said to be an invention of Toriyama Sekien. |
+| mokumokuren-c01 | exact | en.wikipedia.org | Mokumokuren are yōkai in Japanese mythology. | are yōkai in Japanese mythology. |
+| mokumokuren-c02 | exact | en.wikipedia.org | The Mokumokuren usually lives in torn shoji (Japanese paper sliding walls), though it can also be found in tatami floor mats and in walls. | The Mokumokuren usually lives in torn shoji (Japanese paper sliding walls), although they can also be found in tatami floor mats and in walls. |
+| mokumokuren-c03 | exact | en.wikipedia.org | The name "Mokumokuren" literally means "many eyes" or "continuous eyes". | The name "Mokumokuren" literally means "many eyes" or "continuous eyes". |
+| mokumokuren-c04 | exact | en.wikipedia.org | Mokumokuren are said to be an invention of Toriyama Sekien. | Mokumokuren are said to be an invention of Toriyama Sekien. |
+| mokumokuren-c05 | exact | en.wikipedia.org | The only way to remove the spirit from the wall is to patch up the holes in it. | The only way to remove the spirit from the wall is to patch up the holes in it. |
+| mokumokuren-c06 | exact | en.wikipedia.org | The Japanese consider the Mokumokuren one of the traditional inhabitants of haunted houses. | The Mokumokuren is considered by the Japanese to be one of the traditional inhabitants of haunted houses. |
+| mokumokuren-c07 | exact | yokai.com | When shōji go too long without repair, ghostly eyes begin to pop out of the holes, watching everything that goes on inside the house. | When shōji have gone too long without repair, ghostly eyes begin to pop out of the holes, watching all that goes on inside of the house. |
+| mokumokuren-c08 | exact | yokai.com | Mokumokuren are harmless but incredibly creepy; their true danger lies in their companions, as they often work with other tsukumogami and are usually a sign of a greater infestation of yōkai. | Mokumokuren are harmless, but incredibly creepy. Their true danger lies in who their companions might be. Mokumokuren often work in concert with other tsukumogami, and are usually a sign of a greater infestation of yōkai. |
+| mokumokuren-c09 | exact | en.wikipedia.org | In one story a merchant waking in the night faced an almost entire shoji screen staring at him; instead of being scared, he removed the eyeballs from the screen and sold them to a local eye surgeon. | Waking in the middle of the night, he was confronted by an (almost) entire shoji screen staring down at him. Instead of becoming scared, he removed the eyeballs from the screen and sold them to a local eye surgeon. |
+| mokumokuren-c10 | exact | en.wikipedia.org | In another story a traveler stayed in the same house as a Mokumokuren and tried to ignore it by wrapping his blanket tightly around his head; when he awoke, his eyeballs had been removed and were nowhere to be found. | a traveler was determined to remain in the same house as a Mokumokuren, attempting to ignore it by wrapping the blanket he had been sleeping beneath tightly around his head. When he awoke, he discovered that his eyeballs had been removed, and were nowhere to be found. |
+| mokumokuren-c11 | exact | ja.wikipedia.org | It is depicted as countless eyes rising on the shoji of a ruined house; according to the explanatory text, a go player's fixation poured into the go board and then appeared throughout the house. | 荒れ果てた家の障子に無数の目が浮かび上がった姿で描かれており、解説文によれば碁打ち師の念が碁盤に注がれ、さらに家全体に現れたものとある。 |
+| mokumokuren-c12 | exact | ja.wikipedia.org | It is suggested to be an optical illusion (the Bergen illusion) in which crossings of black lines seem to glow like eyes, so that people who once saw shoji lit by moonlight may have taken it for the Mokumokuren. | これは目の錯覚の一種であるバーゲン錯視により、黒い線の交わる箇所が目のように光って見える現象であり、かつて月明かりに照らされた障子を見た人が目目連だと思ったという可能性も示唆されている。 |
+| mokumokuren-c13 | exact | ja.wikipedia.org | In one tale a samurai of the Nambu domain, asleep in bed, found an eyeball at his feet; another eye was born from it, and so on until the surroundings were full of eyeballs, and by the next morning his own eyes were gone. | ある南部藩士が布団に入って寝ていたところ、足元に目玉が転がっており、その目からもう一つの目が生まれ、その繰り返しで周りが目玉でいっぱいになり、あくる朝には藩士自身の目がなくなっていたという話もあり |
+| mokumokuren-c14 | exact | ja.wikipedia.org | It has also been pointed out that the name of the one-eyed deity 「一目連」 is related to the name of this many-eyed yōkai 「目目連」. | 一つ目の神である「一目連（いちもくれん）」の名が、目のたくさんあるこの妖怪「目目連」の名に関連しているとの指摘もある。 |
+| mokumokuren-c15 | exact | en.wikipedia.org | The Pokémon Stakataka is based on the Mokumokuren. | The Pokémon Stakataka is based on the Mokumokuren. |
 
 
 ## penghou — lulus-otomatis
