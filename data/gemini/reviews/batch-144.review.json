@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-144",
-  "checked_at": "2026-10-06T14:55:48.372Z",
+  "checked_at": "2026-10-06T15:42:10.720Z",
   "files": [
     "batch-144.md",
     "batch-144-fix-1.md",
     "batch-144-fix-2.md",
     "batch-144-fix-3.md",
-    "batch-144-fix-4.md"
+    "batch-144-fix-4.md",
+    "batch-144-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3864,20 +3865,15 @@
     },
     {
       "slug": "underwater-panther",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-5.md",
+      "entry_sha256": "8fa1c61f481a0ed8d55135a78b7c11ac2f5450fa6b70958d7b8f01bae0384790",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "underwater-panther-c01",
@@ -3918,27 +3914,141 @@
           "quote": "To the Algonquins, the underwater panther was the most powerful underworld being.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c05",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the mythologies of the Indigenous peoples of the Great Lakes, underwater panthers are described as water monsters opposed to the thunderbirds, masters of the powers of the air.",
+          "statement_id": "Dalam mitologi bangsa-bangsa pribumi Great Lakes, underwater panther digambarkan sebagai monster air yang hidup berseberangan dengan thunderbird, penguasa kekuatan udara.",
+          "quote": "In mythologies of the indigenous peoples of the Great Lakes, underwater panthers are described as water monsters that live in opposition to the thunderbirds, masters of the powers of the air.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c06",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mishipizheu are said to live in the deepest parts of lakes and rivers, where they can cause storms, squalls and rapids, shift currents, sink canoes and drown people, often children.",
+          "statement_id": "Mishipizheu dikatakan hidup di bagian terdalam danau dan sungai, tempat mereka dapat menimbulkan badai, angin kencang, dan jeram, mengubah arah dan kekuatan arus, menenggelamkan kano, dan menewaskan orang, sering anak-anak.",
+          "quote": "Mishipizheu are said to live in the deepest parts of lakes and rivers, where they can cause storms or squalls and rapids, i.e., shift the direction and force of currents, sink canoes, and drown people, often children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c07",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mishipeshu is known for guarding the vast amounts of copper in Lake Superior and the Great Lakes region.",
+          "statement_id": "Mishipeshu dikenal sebagai penjaga tembaga dalam jumlah besar di Danau Superior dan wilayah Great Lakes.",
+          "quote": "Mishipeshu is known for guarding the vast amounts of copper in Lake Superior and the Great Lakes Region.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c08",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some traditions believed underwater panthers could be helpful, protective creatures; for example, they were believed to shelter and feed those who fell through the winter ice.",
+          "statement_id": "Sebagian tradisi meyakini underwater panther dapat menjadi makhluk penolong dan pelindung; misalnya, mereka dipercaya melindungi dan memberi makan orang yang jatuh menembus es musim dingin.",
+          "quote": "Some traditions believed the underwater panthers could be helpful, protective creatures; for example, they were believed to shelter and feed those who fell through the winter ice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c09",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Ojibwe language the creature is sometimes called Mishibizhiw, Mishipizhiw, Mishipizheu, Mishupishu, Mishepishu, Michipeshu, Mishebeshu or Mishibijiw, meaning \"Great Lynx\".",
+          "statement_id": "Dalam bahasa Ojibwe, makhluk ini kadang disebut Mishibizhiw, Mishipizhiw, Mishipizheu, Mishupishu, Mishepishu, Michipeshu, Mishebeshu, atau Mishibijiw, yang berarti \"Lynx Besar\".",
+          "quote": "In the Ojibwe language, this creature is sometimes called Mishibizhiw, Mishipizhiw, Mishipizheu, Mishupishu, Mishepishu, Michipeshu, Mishebeshu, or Mishibijiw, which translates as \"Great Lynx\"",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "underwater-panther-c10",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also called Gichi-anami'e-bizhiw, which translates as \"the fabulous night panther\".",
+          "statement_id": "Makhluk ini juga disebut Gichi-anami'e-bizhiw, yang berarti \"panter malam yang menakjubkan\".",
+          "quote": "or Gichi-anami'e-bizhiw (\"Gitche-anahmi-bezheu\"), which translates as \"the fabulous night panther\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c11",
+          "source_id": "underwater-panther-s2",
+          "host": "ojibwe.lib.umn.edu",
+          "statement": "The Ojibwe People's Dictionary glosses \"mishibizhii\" as a lion or panther (mountain lion, Puma concolor) and as an underwater panther.",
+          "statement_id": "Kamus Ojibwe ini mengartikan \"mishibizhii\" sebagai singa atau panter (puma, Puma concolor) dan sebagai \"underwater panther\".",
+          "quote": "a lion, a panther [mountain lion, Puma concolor] an underwater panther",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c12",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Underwater panthers are seen as an opposing yet complementary force to the Thunderbirds, and they are engaged in eternal conflict.",
+          "statement_id": "Underwater panther dipandang sebagai kekuatan yang berseberangan namun saling melengkapi dengan Thunderbird, dan keduanya terlibat dalam konflik abadi.",
+          "quote": "Underwater Panthers are seen as an opposing yet complementary force to the Thunderbirds, and they are engaged in eternal conflict.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c13",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "More often they were viewed as malevolent beasts that brought death and misfortune, and they often needed to be placated for safe passage across a lake.",
+          "statement_id": "Namun lebih sering mereka dipandang sebagai binatang jahat yang membawa kematian dan kemalangan, dan mereka sering perlu ditenangkan agar perjalanan melintasi danau aman.",
+          "quote": "But more often they were viewed as malevolent beasts that brought death and misfortune. They often need to be placated for safe passage across a lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c14",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The water manito (water panther and serpent) gave medicinal power to the shamans who accepted its guardianship, and made gifts of copper.",
+          "statement_id": "Manito air (panter air dan ular) memberi kekuatan penyembuhan kepada para dukun yang menerima perlindungannya, dan memberi hadiah tembaga.",
+          "quote": "The water manito (water panther and serpent) endowed medicinal power to those (shamans) who accepted its guardianship. It made gifts of copper",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c15",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Taking copper from the region was extremely taboo and forbidden by the Ojibwe, and worse still from the Great Lynx's home on Michipicoten Island, which was considered stealing from Mishipeshu herself.",
+          "statement_id": "Pada masa itu, mengambil tembaga dari wilayah tersebut sangat tabu dan dilarang oleh suku Ojibwe; lebih buruk lagi mengambilnya dari rumah Lynx Besar di Pulau Michipicoten, yang dianggap mencuri dari Mishipeshu sendiri.",
+          "quote": "By that time, taking copper from the region was extremely taboo and forbidden by the Ojibwe tribe. It was even worse to take it from the Great Lynx's home, Michipicoten Island; this was considered to be stealing from Mishipeshu herself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "underwater-panther-c16",
+          "source_id": "underwater-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Prairie Band of Potawatomi Indians was still holding a traditional ceremony in the 1950s to calm the Underwater Panther and keep the balance with the Thunderbird.",
+          "statement_id": "Hingga tahun 1950-an, Prairie Band of Potawatomi Indians masih melakukan upacara tradisional untuk menenangkan Underwater Panther dan menjaga keseimbangan dengan Thunderbird.",
+          "quote": "As late as the 1950s, the Prairie Band of Potawatomi Indians performed a traditional ceremony to placate the Underwater Panther and maintain balance with the Thunderbird.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ecd0f30e0e56a6a8d03d09d0aa92041bf99e07ed2ec470dbddb753d10ca5cf43"
+      "images": []
     },
     {
       "slug": "vision-serpent",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-5.md",
+      "entry_sha256": "83758c962039d5aee1cc6b9e4744bf99dd4b24e582a0141d2927cd4c1509f3c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vision-serpent-c01",
@@ -3969,10 +4079,109 @@
           "quote": "The Vision Serpent is thought to be the most important of the Maya serpents.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c04",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was usually bearded with a rounded snout, and was frequently shown double-headed, or with a god's or ancestor's spirit coming out of its mouth.",
+          "statement_id": "Ia biasanya digambarkan berjenggot dan berhidung bulat, sering berkepala dua atau dengan roh dewa atau leluhur muncul dari rahangnya.",
+          "quote": "It was usually bearded and had a rounded snout. It was also often depicted as having two heads or with the spirit of a god or ancestor emerging from its jaws.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c05",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Maya bloodletting rituals, participants experienced visions in which they communicated with ancestors or gods; the visions took the form of a giant serpent serving as a gateway to the spirit realm.",
+          "statement_id": "Dalam ritual pengeluaran darah Maya, peserta mengalami penglihatan tempat mereka berkomunikasi dengan leluhur atau dewa; penglihatan itu berwujud ular raksasa yang menjadi gerbang ke alam roh.",
+          "quote": "During Maya bloodletting rituals, participants would experience visions in which they communicated with the ancestors or gods. These visions took the form of a giant serpent which served as a gateway to the spirit realm.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c06",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Vision Serpent became the way ancestors or gods manifested themselves to the Maya, a direct link between the spirit realm of the gods and the physical world.",
+          "statement_id": "Vision Serpent menjadi cara leluhur atau dewa menampakkan diri kepada orang Maya, sehingga bagi mereka ia penghubung langsung antara alam roh para dewa dan dunia fisik.",
+          "quote": "The vision serpent thus came to be the method in which ancestors or gods manifested themselves to the Maya. Thus for them, the Vision Serpent was a direct link between the spirit realm of the gods and the physical world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c07",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Once the bloodletting was over, the blood-soaked ceremonial papers were burned, releasing a column of smoke that provided the perfect medium for the Vision Serpent to appear.",
+          "statement_id": "Setelah pengeluaran darah selesai, kertas upacara yang berlumur darah dibakar dan menghasilkan kolom asap; asap itu menjadi medium sempurna bagi Vision Serpent untuk muncul.",
+          "quote": "Once the actual bloodletting was over, the blood soaked ceremonial papers were burned, releasing a column of smoke. The smoke provided the perfect medium for the Vision Serpent to appear.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c08",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Vision Serpent goes back to earlier Maya conceptions and lies at the center of the world as they conceived it.",
+          "statement_id": "Vision Serpent berakar pada konsepsi Maya yang lebih awal dan berada di pusat dunia sebagaimana mereka bayangkan.",
+          "quote": "The Vision Serpent goes back to earlier Maya conceptions and lies at the center of the world as they conceived it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c09",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There was a Vision Serpent named Och-Kan, lord of Kalak'mul.",
+          "statement_id": "Pernah ada Vision Serpent bernama Och-Kan, penguasa Kalak'mul.",
+          "quote": "There was a Vision Serpent named Och-Kan, lord of Kalak'mul.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c10",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Around 1930 J.E.S. Thompson noted in San Antonio, Belize, that the Q'eqchi' Maya still performed a ritual very similar to the classic Maya vision quest, in a different context; it marked the initiation of a new shaman for the village.",
+          "statement_id": "Sekitar tahun 1930 J.E.S. Thompson mencatat di San Antonio, Belize, bahwa orang Maya Q'eqchi' masih melakukan ritual yang sangat mirip pencarian penglihatan Maya klasik, dalam konteks berbeda; ritual itu menandai penahbisan dukun baru bagi desa.",
+          "quote": "Around 1930, J.E.S. Thompson noted in San Antonio, Belize, that the Q'eqchi' Maya still performed a ritual very similar to the vision quest of the classic Maya, although in a different context. The ritual marked the initiation of a new shaman for the village.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c11",
+          "source_id": "vision-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hauberg Stela (A.D. 199) from the Maya Lowlands is described as one of the first dated monuments depicting the Vision Serpent's connection to bloodletting.",
+          "statement_id": "Stela Hauberg (tahun 199 M) dari dataran rendah Maya disebut salah satu monumen bertanggal paling awal yang menggambarkan kaitan Vision Serpent dengan pengeluaran darah.",
+          "quote": "The Hauberg Stela (A. D. 199) from the Maya Lowlands \"is one of the first dated monuments that depict the Vision Serpent's connection to bloodletting\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c12",
+          "source_id": "vision-serpent-s2",
+          "host": "www.worldhistory.org",
+          "statement": "A scene from Temple 23 shows a giant double-headed snake creature from whose mouths emerge a warrior and the war and rain god Tlaloc over a kneeling worshipper, Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar, who sees the monster in a blood-letting induced vision.",
+          "statement_id": "Sebuah relief dari Kuil 23 menampilkan makhluk ular raksasa berkepala dua; dari mulutnya muncul seorang prajurit dan dewa perang dan hujan Tlaloc di atas seorang pemuja berlutut, Lady Xok', istri penguasa Yaxchilan Shield-Jaguar, yang melihat monster itu dalam penglihatan akibat pengeluaran darah.",
+          "quote": "Another vivid scene, from Temple 23, shows a giant double-headed snake creature from the mouths of which emerge a warrior and the war and rain god Tlaloc, who both tower over a kneeling worshipper, identified as Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar (r. 681-742 CE), who sees the monster in a blood-letting induced vision.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vision-serpent-c13",
+          "source_id": "vision-serpent-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Bloodletting was also, though less often, performed in order to communicate with ancestors.",
+          "statement_id": "Pengeluaran darah juga, meski tidak sesering itu, dilakukan untuk berkomunikasi dengan leluhur.",
+          "quote": "Also, but not as often, bloodletting was performed in order to communicate with ancestors.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c12570e7f1564fa314bee83ed01dc9b7fc02c3e38226d505f1c1d5cb1ecd965d"
+      "images": []
     },
     {
       "slug": "ahkiyyini",
@@ -6991,20 +7200,15 @@
     },
     {
       "slug": "mani-mythology",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-5.md",
+      "entry_sha256": "c1af0ac865e40de3fd49e63bfbfcd48202f5155acf10746d0f1c966aaf057a86",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mani-mythology-c01",
@@ -7025,27 +7229,121 @@
           "quote": "The Amazonian legend of Maní is related to the cult of manioc, the native staple food that sprang from her grave.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c03",
+          "source_id": "mani-mythology-s2",
+          "host": "periodicos.uepa.br",
+          "statement": "According to a journal article, the word \"mandioca\" comes from a Tupi legend in which a chief's daughter, pregnant by a foreigner, gives birth to a very white girl named Mani, who dies suddenly, leaving her mother inconsolable.",
+          "statement_id": "Segundo um artigo científico, o termo \"mandioca\" vem de uma lenda tupi em que a filha de um cacique, grávida de um estrangeiro, dá à luz uma menina muito branca chamada Mani, que morre de mal súbito, deixando a mãe desconsolada.",
+          "quote": "A origem do termo \"mandioca\" advém de uma lenda tupi em que a filha de um cacique engravida de um estrangeiro e dá à luz uma menina muito branca, que recebeu o nome de Mani, a qual morreu de mal súbito, deixando sua mãe desconsolada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c04",
+          "source_id": "mani-mythology-s2",
+          "host": "periodicos.uepa.br",
+          "statement": "Seeing cracks in the earth, Mani's mother dug and found thick roots, white as milk and as Mani, who is recognised as a goddess in indigenous mythology; the Tupi term \"mandi-ó\" or \"mani-oca\" means \"house of Mani\".",
+          "statement_id": "Ao ver rachaduras na terra, a mãe de Mani cavou e achou raízes grossas, brancas como o leite e como Mani, que é reconhecida como deusa na mitologia indígena; o termo tupi \"mandi-ó\" ou \"mani-oca\" significa \"casa de Mani\".",
+          "quote": "Notando a presença de rachaduras na terra, a mãe de Mani cavou e encontrou grossas raízes, brancas como o leite, brancas como Mani, reconhecida como deusa na mitologia indígena. O termo tupi \"mandi-ó\" ou \"mani-oca\" significa \"casa de Mani\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c05",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After nine full moons she gave birth to a girl whose skin was as white as the moon and her eyes as dark as the night.",
+          "statement_id": "Setelah sembilan bulan purnama, ia melahirkan seorang gadis yang kulitnya seputih bulan dan matanya segelap malam.",
+          "quote": "After nine full moons she gave birth to a girl whose skin was as white as the moon and her eyes as dark as the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c06",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Maní grew up happy and beautiful until just after her first birthday, when she died unexpectedly without signs of illness or pain; the desolate chief buried her inside his own hut.",
+          "statement_id": "Maní tumbuh bahagia dan cantik sampai lewat ulang tahun pertamanya, ketika ia meninggal mendadak tanpa tanda sakit atau nyeri; sang kepala suku, yang sangat berduka, menguburkannya di dalam pondoknya sendiri.",
+          "quote": "Happy and beautiful Maní grew up until after her first birthday, when she died unexpectedly without signs of any illness or pain. The chief was so desolate that he buried the child inside his own hut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c07",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One day a different kind of plant sprang up from Maní's grave; since no one had seen such a plant, they let it grow and no one in the tribe dared touch it.",
+          "statement_id": "Suatu hari tumbuh jenis tanaman yang berbeda dari kubur Maní; karena belum pernah ada yang melihatnya, mereka membiarkannya tumbuh dan tak seorang pun dalam suku berani menyentuhnya.",
+          "quote": "One day a different kind of plant sprang up from Maní's grave, and as no one had ever seen that kind of plant, they let it grow and no one in the tribe dared touch it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c08",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From that day they used the root as their staple food and called it \"mandioca\", which in Tupi means \"house (oca, in Tupi-Guarani) of Mandi = Maní\".",
+          "statement_id": "Sejak hari itu mereka memakai akar itu sebagai makanan pokok dan menamainya \"mandioca\", yang dalam bahasa Tupi berarti \"rumah (oca, dalam Tupi-Guarani) Mandi = Maní\".",
+          "quote": "So, from this day on, they began using the root as their staple food and called it \"mandioca\", which in Tupi means \"house (oca, in Tupi-Guarani) of Mandi= Maní\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c09",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The chief dreamed of a white-skinned man dressed like a warrior who told him his daughter was telling the truth and had had no contact with any man.",
+          "statement_id": "Kepala suku bermimpi tentang seorang pria berkulit putih berpakaian seperti prajurit yang mengatakan bahwa putrinya berkata jujur dan tidak pernah berhubungan dengan pria mana pun.",
+          "quote": "dreamed of a white-skinned man dressed like a warrior who told him that his daughter was telling him the truth and that she had not had any contact with any man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c10",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Alternative versions exist: in one, a good spirit came down to Earth and showed the manioc to the people, teaching them to extract the evil spirit dwelling in it, though failing to teach them how to reproduce the plant.",
+          "statement_id": "Ada versi lain legenda ini: dalam satu versi, roh baik turun ke Bumi dan menunjukkan singkong kepada orang-orang, mengajari mereka mengeluarkan roh jahat yang menghuninya, tetapi gagal mengajarkan cara memperbanyak tanamannya.",
+          "quote": "Alternative versions for the legend exist. One says that a good spirit came down to Earth and showed the manioc to the Indians, teaching them to extract the evil spirit dwelling in it, despite failing to teach them how the plant might be reproduced.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c11",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a more elaborate version by Couto de Magalhaes, the child born to the maiden was a boy named Maní.",
+          "statement_id": "Versi yang lebih panjang oleh Couto de Magalhaes menyebut anak yang lahir dari sang gadis adalah anak laki-laki bernama Maní.",
+          "quote": "A more elaborate version by Couto de Magalhaes tells how the chief of the tribe was about to kill his daughter ... The child born to the maiden was a boy who was named Maní.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mani-mythology-c12",
+          "source_id": "mani-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version given by Carlos Teschauer, the child of the chief's daughter and the white warrior lived long and taught his tribe many things.",
+          "statement_id": "Versi lain dari Carlos Teschauer menyebut anak hasil persatuan putri kepala suku dan prajurit putih itu hidup lama dan mengajarkan banyak hal kepada sukunya.",
+          "quote": "Another version given by Carlos Teschauer says that the child born from the union of the chief's daughter and the white warrior not only lived long, but also taught his tribe many things.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d9eac2b82803c37b983923575a90391c0f2e4ee44b3918c0c5fea6f9c4daaa1a"
+      "images": []
     },
     {
       "slug": "memphre",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-5.md",
+      "entry_sha256": "ccaf4083bf372a1f61ffa60d648f403deb8025ebc97729cfc348fefcb721d7c9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "memphre-c01",
@@ -7076,10 +7374,69 @@
           "quote": "In August 2011, an artistic impression of Memphré was featured on a coloured Canadian quarter.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "memphre-c04",
+          "source_id": "memphre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The existence of Memphré and most other lake monsters is treated skeptically by the scientific community, yet reports of sightings persist, the last in 2005.",
+          "statement_id": "Keberadaan Memphré dan sebagian besar monster danau lain ditanggapi skeptis oleh komunitas ilmiah, tetapi laporan penampakan tetap ada, yang terakhir pada 2005.",
+          "quote": "While the existence of Memphré and most other lake monsters is treated skeptically by the scientific community, reports of sightings persist, with the last in 2005.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "memphre-c05",
+          "source_id": "memphre-s2",
+          "host": "qahn.org",
+          "statement": "Lake Memphremagog lies partly in Canada and partly in the United States. Before Europeans arrived, the area was occupied by the Abenakis, the indigenous people who gave the lake its name, which roughly translates as \"beautiful waters\".",
+          "statement_id": "Danau Memphremagog terletak sebagian di Kanada dan sebagian di Amerika Serikat. Sebelum orang Eropa tiba, kawasan itu dihuni bangsa Abenaki, penduduk asli yang memberi danau itu namanya, yang kira-kira berarti \"perairan indah\".",
+          "quote": "Lake Memphremagog is located partly in Canada and partly in the United States. Europeans have been living around the lake for only the last two centuries; before their arrival, the area was occupied by the Abenakis, the indigenous people who gave the lake its name, which roughly translates as \"beautiful waters.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "memphre-c06",
+          "source_id": "memphre-s2",
+          "host": "qahn.org",
+          "statement": "One legend of the lake concerns a creature said to inhabit the depths beneath Owl's Head Mountain.",
+          "statement_id": "Salah satu legenda danau itu menyangkut makhluk yang konon mendiami kedalaman di bawah Gunung Owl's Head.",
+          "quote": "One such legend pertains to a creature that is said to inhabit the depths beneath Owl's Head Mountain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "memphre-c07",
+          "source_id": "memphre-s2",
+          "host": "qahn.org",
+          "statement": "According to a document from 1816, when the first settlers arrived from New England, the Indigenous people told them they were afraid to bathe or swim in the lake because it was inhabited by a sea serpent.",
+          "statement_id": "Menurut dokumen tahun 1816, ketika para pemukim pertama tiba dari New England, penduduk pribumi mengatakan takut mandi atau berenang di danau itu karena dihuni ular laut.",
+          "quote": "According to a document from 1816, when the first settlers arrived from New England, the Indigenous people told them that they were afraid to bathe or swim in the lake because it was inhabited by a sea serpent.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "memphre-c08",
+          "source_id": "memphre-s2",
+          "host": "qahn.org",
+          "statement": "Over the past two centuries more than 225 sightings have been recorded; one of the earliest reports dates to 1847, when The Stanstead Journal proclaimed that \"a strange animal, something of a sea serpent... exists in Lake Memphremagog\".",
+          "statement_id": "Dalam dua abad terakhir tercatat lebih dari 225 penampakan monster itu; salah satu laporan paling awal berasal dari 1847, ketika The Stanstead Journal menyatakan bahwa \"hewan aneh, semacam ular laut... ada di Danau Memphremagog\".",
+          "quote": "Over the past two centuries, more than 225 sightings of the monster have been recorded. One of the earliest reports dates to 1847 when The Stanstead Journal proclaimed that \"a strange animal, something of a sea serpent... exists in Lake Memphremagog.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "memphre-c09",
+          "source_id": "memphre-s2",
+          "host": "qahn.org",
+          "statement": "In the past the creature was known by names such as \"Sea Serpent\", \"the Anaconda\" or \"the Lake Memphremagog Monster\"; in recent years it has been affectionately dubbed \"Memphré\".",
+          "statement_id": "Pada masa lalu makhluk ini dikenal dengan nama seperti \"Sea Serpent\", \"the Anaconda\", atau \"Lake Memphremagog Monster\"; belakangan ia dijuluki dengan akrab \"Memphré\".",
+          "quote": "Known in the past by such names as the \"Sea Serpent,\" \"the Anaconda,\" or \"the Lake Memphremagog Monster,\" in recent years, the creature has been affectionately dubbed \"Memphré.\"",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0c8bd973dba0d486ec96448a3de8ff9f7168c3e7198746a914bd39654b473f47"
+      "images": []
     }
   ]
 }

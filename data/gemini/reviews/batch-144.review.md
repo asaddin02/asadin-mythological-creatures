@@ -1,6 +1,6 @@
 # Review batch-144
 
-Diperiksa 2026-10-06T14:55:48.372Z. Berkas: batch-144.md, batch-144-fix-1.md, batch-144-fix-2.md, batch-144-fix-3.md, batch-144-fix-4.md.
+Diperiksa 2026-10-06T15:42:10.720Z. Berkas: batch-144.md, batch-144-fix-1.md, batch-144-fix-2.md, batch-144-fix-3.md, batch-144-fix-4.md, batch-144-fix-5.md.
 
 ## arnakuagsak — skip
 
@@ -546,10 +546,7 @@ Klaim 26 (exact 25, loose 1), sumber 2, gambar 0.
 
 ## underwater-panther — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 15, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -557,20 +554,39 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | underwater-panther-c02 | exact | en.wikipedia.org | Mishipeshu means "the Great Lynx"; it has a giant cat's head and paws, scales, and dagger-like spikes along its back and tail. | Mishipeshu translates into "the Great Lynx". It has the head and paws of a giant cat but is covered in scales and has dagger-like spikes running along its back and tail. |
 | underwater-panther-c03 | exact | en.wikipedia.org | Mishipeshu makes its home on Michipicoten Island in Lake Superior. | Mishipeshu calls Michipicoten Island in Lake Superior its home |
 | underwater-panther-c04 | exact | en.wikipedia.org | To the Algonquins, it was the most powerful underworld being. | To the Algonquins, the underwater panther was the most powerful underworld being. |
+| underwater-panther-c05 | exact | en.wikipedia.org | In the mythologies of the Indigenous peoples of the Great Lakes, underwater panthers are described as water monsters opposed to the thunderbirds, masters of the powers of the air. | In mythologies of the indigenous peoples of the Great Lakes, underwater panthers are described as water monsters that live in opposition to the thunderbirds, masters of the powers of the air. |
+| underwater-panther-c06 | exact | en.wikipedia.org | Mishipizheu are said to live in the deepest parts of lakes and rivers, where they can cause storms, squalls and rapids, shift currents, sink canoes and drown people, often children. | Mishipizheu are said to live in the deepest parts of lakes and rivers, where they can cause storms or squalls and rapids, i.e., shift the direction and force of currents, sink canoes, and drown people, often children. |
+| underwater-panther-c07 | exact | en.wikipedia.org | Mishipeshu is known for guarding the vast amounts of copper in Lake Superior and the Great Lakes region. | Mishipeshu is known for guarding the vast amounts of copper in Lake Superior and the Great Lakes Region. |
+| underwater-panther-c08 | exact | en.wikipedia.org | Some traditions believed underwater panthers could be helpful, protective creatures; for example, they were believed to shelter and feed those who fell through the winter ice. | Some traditions believed the underwater panthers could be helpful, protective creatures; for example, they were believed to shelter and feed those who fell through the winter ice. |
+| underwater-panther-c09 | loose | en.wikipedia.org | In the Ojibwe language the creature is sometimes called Mishibizhiw, Mishipizhiw, Mishipizheu, Mishupishu, Mishepishu, Michipeshu, Mishebeshu or Mishibijiw, meaning "Great Lynx". | In the Ojibwe language, this creature is sometimes called Mishibizhiw, Mishipizhiw, Mishipizheu, Mishupishu, Mishepishu, Michipeshu, Mishebeshu, or Mishibijiw, which translates as "Great Lynx" |
+| underwater-panther-c10 | exact | en.wikipedia.org | It is also called Gichi-anami'e-bizhiw, which translates as "the fabulous night panther". | or Gichi-anami'e-bizhiw ("Gitche-anahmi-bezheu"), which translates as "the fabulous night panther". |
+| underwater-panther-c11 | exact | ojibwe.lib.umn.edu | The Ojibwe People's Dictionary glosses "mishibizhii" as a lion or panther (mountain lion, Puma concolor) and as an underwater panther. | a lion, a panther [mountain lion, Puma concolor] an underwater panther |
+| underwater-panther-c12 | exact | en.wikipedia.org | Underwater panthers are seen as an opposing yet complementary force to the Thunderbirds, and they are engaged in eternal conflict. | Underwater Panthers are seen as an opposing yet complementary force to the Thunderbirds, and they are engaged in eternal conflict. |
+| underwater-panther-c13 | exact | en.wikipedia.org | More often they were viewed as malevolent beasts that brought death and misfortune, and they often needed to be placated for safe passage across a lake. | But more often they were viewed as malevolent beasts that brought death and misfortune. They often need to be placated for safe passage across a lake. |
+| underwater-panther-c14 | exact | en.wikipedia.org | The water manito (water panther and serpent) gave medicinal power to the shamans who accepted its guardianship, and made gifts of copper. | The water manito (water panther and serpent) endowed medicinal power to those (shamans) who accepted its guardianship. It made gifts of copper |
+| underwater-panther-c15 | exact | en.wikipedia.org | Taking copper from the region was extremely taboo and forbidden by the Ojibwe, and worse still from the Great Lynx's home on Michipicoten Island, which was considered stealing from Mishipeshu herself. | By that time, taking copper from the region was extremely taboo and forbidden by the Ojibwe tribe. It was even worse to take it from the Great Lynx's home, Michipicoten Island; this was considered to be stealing from Mishipeshu herself. |
+| underwater-panther-c16 | exact | en.wikipedia.org | The Prairie Band of Potawatomi Indians was still holding a traditional ceremony in the 1950s to calm the Underwater Panther and keep the balance with the Thunderbird. | As late as the 1950s, the Prairie Band of Potawatomi Indians performed a traditional ceremony to placate the Underwater Panther and maintain balance with the Thunderbird. |
 
 
 ## vision-serpent — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | vision-serpent-c01 | exact | en.wikipedia.org | The Vision Serpent is an important creature of pre-Columbian Maya mythology, though the term is becoming outdated. | The Vision Serpent is an important creature in Pre-Columbian Maya mythology, although the term itself is now slowly becoming outdated. |
 | vision-serpent-c02 | exact | en.wikipedia.org | Maya mythology makes serpents the vehicles of the sun and stars across the sky; their shedding made them symbols of rebirth. | Maya mythology describes serpents as being the vehicles by which celestial bodies, such as the sun and stars, cross the heavens. The shedding of their skin made them a symbol of rebirth and renewal. |
 | vision-serpent-c03 | exact | en.wikipedia.org | The Vision Serpent is thought the most important Maya serpent. | The Vision Serpent is thought to be the most important of the Maya serpents. |
+| vision-serpent-c04 | exact | en.wikipedia.org | It was usually bearded with a rounded snout, and was frequently shown double-headed, or with a god's or ancestor's spirit coming out of its mouth. | It was usually bearded and had a rounded snout. It was also often depicted as having two heads or with the spirit of a god or ancestor emerging from its jaws. |
+| vision-serpent-c05 | exact | en.wikipedia.org | In Maya bloodletting rituals, participants experienced visions in which they communicated with ancestors or gods; the visions took the form of a giant serpent serving as a gateway to the spirit realm. | During Maya bloodletting rituals, participants would experience visions in which they communicated with the ancestors or gods. These visions took the form of a giant serpent which served as a gateway to the spirit realm. |
+| vision-serpent-c06 | exact | en.wikipedia.org | The Vision Serpent became the way ancestors or gods manifested themselves to the Maya, a direct link between the spirit realm of the gods and the physical world. | The vision serpent thus came to be the method in which ancestors or gods manifested themselves to the Maya. Thus for them, the Vision Serpent was a direct link between the spirit realm of the gods and the physical world. |
+| vision-serpent-c07 | exact | en.wikipedia.org | Once the bloodletting was over, the blood-soaked ceremonial papers were burned, releasing a column of smoke that provided the perfect medium for the Vision Serpent to appear. | Once the actual bloodletting was over, the blood soaked ceremonial papers were burned, releasing a column of smoke. The smoke provided the perfect medium for the Vision Serpent to appear. |
+| vision-serpent-c08 | exact | en.wikipedia.org | The Vision Serpent goes back to earlier Maya conceptions and lies at the center of the world as they conceived it. | The Vision Serpent goes back to earlier Maya conceptions and lies at the center of the world as they conceived it. |
+| vision-serpent-c09 | exact | en.wikipedia.org | There was a Vision Serpent named Och-Kan, lord of Kalak'mul. | There was a Vision Serpent named Och-Kan, lord of Kalak'mul. |
+| vision-serpent-c10 | exact | en.wikipedia.org | Around 1930 J.E.S. Thompson noted in San Antonio, Belize, that the Q'eqchi' Maya still performed a ritual very similar to the classic Maya vision quest, in a different context; it marked the initiation of a new shaman for the village. | Around 1930, J.E.S. Thompson noted in San Antonio, Belize, that the Q'eqchi' Maya still performed a ritual very similar to the vision quest of the classic Maya, although in a different context. The ritual marked the initiation of a new shaman for the village. |
+| vision-serpent-c11 | exact | en.wikipedia.org | The Hauberg Stela (A.D. 199) from the Maya Lowlands is described as one of the first dated monuments depicting the Vision Serpent's connection to bloodletting. | The Hauberg Stela (A. D. 199) from the Maya Lowlands "is one of the first dated monuments that depict the Vision Serpent's connection to bloodletting". |
+| vision-serpent-c12 | exact | www.worldhistory.org | A scene from Temple 23 shows a giant double-headed snake creature from whose mouths emerge a warrior and the war and rain god Tlaloc over a kneeling worshipper, Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar, who sees the monster in a blood-letting induced vision. | Another vivid scene, from Temple 23, shows a giant double-headed snake creature from the mouths of which emerge a warrior and the war and rain god Tlaloc, who both tower over a kneeling worshipper, identified as Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar (r. 681-742 CE), who sees the monster in a blood-letting induced vision. |
+| vision-serpent-c13 | exact | www.worldhistory.org | Bloodletting was also, though less often, performed in order to communicate with ancestors. | Also, but not as often, bloodletting was performed in order to communicate with ancestors. |
 
 
 ## ahkiyyini — lulus-otomatis
@@ -1005,27 +1021,37 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## mani-mythology — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mani-mythology-c01 | exact | en.wikipedia.org | Maní is a Tupi mythological character, a very fair-skinned girl whose story forms a Tupi origin myth. | is a Tupi mythological character depicted as a girl with very fair complexion, whose story comprises the Tupi myth of origins. |
 | mani-mythology-c02 | exact | en.wikipedia.org | The Amazonian legend of Maní is tied to the cult of manioc, the staple food that grew from her grave. | The Amazonian legend of Maní is related to the cult of manioc, the native staple food that sprang from her grave. |
+| mani-mythology-c03 | exact | periodicos.uepa.br | According to a journal article, the word "mandioca" comes from a Tupi legend in which a chief's daughter, pregnant by a foreigner, gives birth to a very white girl named Mani, who dies suddenly, leaving her mother inconsolable. | A origem do termo "mandioca" advém de uma lenda tupi em que a filha de um cacique engravida de um estrangeiro e dá à luz uma menina muito branca, que recebeu o nome de Mani, a qual morreu de mal súbito, deixando sua mãe desconsolada. |
+| mani-mythology-c04 | exact | periodicos.uepa.br | Seeing cracks in the earth, Mani's mother dug and found thick roots, white as milk and as Mani, who is recognised as a goddess in indigenous mythology; the Tupi term "mandi-ó" or "mani-oca" means "house of Mani". | Notando a presença de rachaduras na terra, a mãe de Mani cavou e encontrou grossas raízes, brancas como o leite, brancas como Mani, reconhecida como deusa na mitologia indígena. O termo tupi "mandi-ó" ou "mani-oca" significa "casa de Mani" |
+| mani-mythology-c05 | exact | en.wikipedia.org | After nine full moons she gave birth to a girl whose skin was as white as the moon and her eyes as dark as the night. | After nine full moons she gave birth to a girl whose skin was as white as the moon and her eyes as dark as the night. |
+| mani-mythology-c06 | exact | en.wikipedia.org | Maní grew up happy and beautiful until just after her first birthday, when she died unexpectedly without signs of illness or pain; the desolate chief buried her inside his own hut. | Happy and beautiful Maní grew up until after her first birthday, when she died unexpectedly without signs of any illness or pain. The chief was so desolate that he buried the child inside his own hut. |
+| mani-mythology-c07 | exact | en.wikipedia.org | One day a different kind of plant sprang up from Maní's grave; since no one had seen such a plant, they let it grow and no one in the tribe dared touch it. | One day a different kind of plant sprang up from Maní's grave, and as no one had ever seen that kind of plant, they let it grow and no one in the tribe dared touch it. |
+| mani-mythology-c08 | exact | en.wikipedia.org | From that day they used the root as their staple food and called it "mandioca", which in Tupi means "house (oca, in Tupi-Guarani) of Mandi = Maní". | So, from this day on, they began using the root as their staple food and called it "mandioca", which in Tupi means "house (oca, in Tupi-Guarani) of Mandi= Maní". |
+| mani-mythology-c09 | exact | en.wikipedia.org | The chief dreamed of a white-skinned man dressed like a warrior who told him his daughter was telling the truth and had had no contact with any man. | dreamed of a white-skinned man dressed like a warrior who told him that his daughter was telling him the truth and that she had not had any contact with any man. |
+| mani-mythology-c10 | exact | en.wikipedia.org | Alternative versions exist: in one, a good spirit came down to Earth and showed the manioc to the people, teaching them to extract the evil spirit dwelling in it, though failing to teach them how to reproduce the plant. | Alternative versions for the legend exist. One says that a good spirit came down to Earth and showed the manioc to the Indians, teaching them to extract the evil spirit dwelling in it, despite failing to teach them how the plant might be reproduced. |
+| mani-mythology-c11 | exact | en.wikipedia.org | In a more elaborate version by Couto de Magalhaes, the child born to the maiden was a boy named Maní. | A more elaborate version by Couto de Magalhaes tells how the chief of the tribe was about to kill his daughter ... The child born to the maiden was a boy who was named Maní. |
+| mani-mythology-c12 | exact | en.wikipedia.org | In another version given by Carlos Teschauer, the child of the chief's daughter and the white warrior lived long and taught his tribe many things. | Another version given by Carlos Teschauer says that the child born from the union of the chief's daughter and the white warrior not only lived long, but also taught his tribe many things. |
 
 
 ## memphre — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | memphre-c01 | exact | en.wikipedia.org | In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog between Newport, Vermont, and Magog, Quebec. | In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog, a fresh water glacial lake located between Newport, Vermont, United States and Magog, Quebec, Canada. |
 | memphre-c02 | exact | en.wikipedia.org | Memphré is often described much like the Loch Ness Monster. | Memphré is often described much like the Loch Ness Monster. |
 | memphre-c03 | exact | en.wikipedia.org | In August 2011 an image of Memphré appeared on a coloured Canadian quarter. | In August 2011, an artistic impression of Memphré was featured on a coloured Canadian quarter. |
+| memphre-c04 | exact | en.wikipedia.org | The existence of Memphré and most other lake monsters is treated skeptically by the scientific community, yet reports of sightings persist, the last in 2005. | While the existence of Memphré and most other lake monsters is treated skeptically by the scientific community, reports of sightings persist, with the last in 2005. |
+| memphre-c05 | exact | qahn.org | Lake Memphremagog lies partly in Canada and partly in the United States. Before Europeans arrived, the area was occupied by the Abenakis, the indigenous people who gave the lake its name, which roughly translates as "beautiful waters". | Lake Memphremagog is located partly in Canada and partly in the United States. Europeans have been living around the lake for only the last two centuries; before their arrival, the area was occupied by the Abenakis, the indigenous people who gave the lake its name, which roughly translates as "beautiful waters." |
+| memphre-c06 | exact | qahn.org | One legend of the lake concerns a creature said to inhabit the depths beneath Owl's Head Mountain. | One such legend pertains to a creature that is said to inhabit the depths beneath Owl's Head Mountain. |
+| memphre-c07 | exact | qahn.org | According to a document from 1816, when the first settlers arrived from New England, the Indigenous people told them they were afraid to bathe or swim in the lake because it was inhabited by a sea serpent. | According to a document from 1816, when the first settlers arrived from New England, the Indigenous people told them that they were afraid to bathe or swim in the lake because it was inhabited by a sea serpent. |
+| memphre-c08 | exact | qahn.org | Over the past two centuries more than 225 sightings have been recorded; one of the earliest reports dates to 1847, when The Stanstead Journal proclaimed that "a strange animal, something of a sea serpent... exists in Lake Memphremagog". | Over the past two centuries, more than 225 sightings of the monster have been recorded. One of the earliest reports dates to 1847 when The Stanstead Journal proclaimed that "a strange animal, something of a sea serpent... exists in Lake Memphremagog." |
+| memphre-c09 | exact | qahn.org | In the past the creature was known by names such as "Sea Serpent", "the Anaconda" or "the Lake Memphremagog Monster"; in recent years it has been affectionately dubbed "Memphré". | Known in the past by such names as the "Sea Serpent," "the Anaconda," or "the Lake Memphremagog Monster," in recent years, the creature has been affectionately dubbed "Memphré." |
 
