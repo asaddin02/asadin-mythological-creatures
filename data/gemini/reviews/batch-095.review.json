@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-10-06T15:09:46.211Z",
+  "checked_at": "2026-10-06T15:24:28.594Z",
   "files": [
     "batch-095.md",
     "batch-095-fix-1.md",
     "batch-095-fix-2.md",
-    "batch-095-fix-3.md"
+    "batch-095-fix-3.md",
+    "batch-095-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2557,20 +2558,15 @@
     },
     {
       "slug": "canens",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "2527b484be68a501f0058782bc5c798edec35b9ccd04e61a72accff96a081fcc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "canens-c01",
@@ -2591,10 +2587,59 @@
           "quote": "Canens searched for her husband for six days and then threw herself into the Tiber river.  She sang one final song and then died.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "canens-c03",
+          "source_id": "canens-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Ovidius' Metamorphoses (Brookes More translation), a nymph borne by Venilia to double-faced Janus on the hill called Palatine was given to Picus Laurentine when she reached marriageable age; her beauty was wonderful but her skill in singing more wonderful still, and from that art she was called Canens.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius (terjemahan Brookes More), seorang nimfa yang dilahirkan Venilia bagi Janus yang berwajah ganda di bukit yang disebut Palatine diberikan kepada Picus Laurentine setelah cukup umur; kecantikannya mengagumkan, tetapi keahliannya bernyanyi lebih mengagumkan, dan dari seni itulah ia dinamai Canens.",
+          "quote": "P. Ovidius Naso, Metamorphoses ... whom on the hill, called Palatine, 'tis said, Venilia bore to Janus double faced. When she had reached the age of marriage, she was given to Picus Laurentine ... wonderful indeed her beauty, but more wonderful her skill in singing, from which art they called her Canens.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "canens-c04",
+          "source_id": "canens-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Ovidius' Metamorphoses, the fascination of Canens' voice would move the woods and rocks, tame wild beasts, stay long rivers, and even detain the wandering bird.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius, daya pikat suara Canens dapat menggerakkan hutan dan batu, menjinakkan binatang buas, menghentikan sungai-sungai panjang, bahkan menahan burung yang mengembara.",
+          "quote": "P. Ovidius Naso, Metamorphoses ... from which art they called her Canens. The fascination of her voice would move the woods and rocks and tame wild beasts, and stay long rivers, and it even detained the wandering bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "canens-c05",
+          "source_id": "canens-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Ovidius' Metamorphoses, her husband is expected in vain by the eyes of longing Canens; distracted, she rushed out and wandered through the Latin fields, and six nights and six dawns found her unrefreshed by food or sleep, wandering at random over hill and dale.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius, suaminya dinantikan dengan sia-sia oleh mata Canens yang merindu; dengan kalut ia berlari dan mengembara di ladang-ladang Latin, dan enam malam serta enam fajar mendapatinya tanpa segar oleh makanan atau tidur, mengembara sembarangan di bukit dan lembah.",
+          "quote": "P. Ovidius Naso, Metamorphoses ... now in vain her husband is expected by the eyes of longing Canens. ... Distracted she rushed forth and wandered through the Latin fields. Six nights, six brightening dawns found her quite unrefreshed with food or sleep wandering at random over hill and dale.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "canens-c06",
+          "source_id": "canens-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Ovidius' Metamorphoses, the Tiber saw her last, wearied with grief and toil and lying on his widespread bank; in tears she poured out words in a faint voice, lamenting her sad woe as the dying swan sings a funereal dirge.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius, Sungai Tiber melihatnya terakhir kali, letih oleh duka dan jerih payah, terbaring di tepi lebar sungai itu; sambil menangis ia melontarkan kata-kata dengan suara lemah, meratapi nasibnya seperti angsa yang hampir mati menyanyikan nyanyian duka.",
+          "quote": "P. Ovidius Naso, Metamorphoses ... The Tiber saw her last, with grief and toil wearied and lying on his widespread bank. In tears she poured out words with a faint voice, lamenting her sad woe, as when the swan about to die sings a funereal dirge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "canens-c07",
+          "source_id": "canens-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Ovidius' Metamorphoses, Canens at last melted with grief and pined away; her flesh, bones and marrow liquefied and vanished by degrees into formless air, yet the story lingers near that place, fitly named Canens by the old-time Camenae.",
+          "statement_id": "Dalam Metamorphoses karya Ovidius, Canens akhirnya mencair oleh duka dan layu; daging, tulang, dan sumsumnya mencair dan lenyap sedikit demi sedikit menjadi udara tak berbentuk, tetapi kisahnya masih tinggal di dekat tempat itu, yang sepantasnya dinamai Canens oleh Camenae zaman dahulu.",
+          "quote": "P. Ovidius Naso, Metamorphoses ... Melting with grief at last she pined away; her flesh, her bones, her marrow liquified and vanished by degrees as formless air and yet the story lingers near that place, fitly named Canens by old-time Camenae!",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c8425d0705bfe6e7a15a4e306f40a409f5091c726b5ebc028d6ee1f708176f10"
+      "images": []
     },
     {
       "slug": "catoblepas",
@@ -2788,20 +2833,15 @@
     },
     {
       "slug": "dragons-in-greek-mythology",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "83427054a29756e2cc8d0cb111172892e71b5640fd6c2ef64ef3e31a80e5da64",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dragons-in-greek-mythology-c01",
@@ -2832,10 +2872,69 @@
           "quote": "Ancient Greeks applied the term to large, constricting snakes.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c04",
+          "source_id": "dragons-in-greek-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Greek drakōn was far more associated with poisonous spit or breath than the modern Western dragon, though fiery breath is still attested in a few myths.",
+          "statement_id": "Drakōn Yunani jauh lebih terkait dengan ludah atau napas beracun daripada naga Barat modern, meskipun napas berapi masih dicatat dalam beberapa mitos.",
+          "quote": "The Greek drakōn was far more associated with poisonous spit or breath than the modern Western dragon, though fiery breath is still attested in a few myths.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c05",
+          "source_id": "dragons-in-greek-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is also the drakaina, the specifically female form or \"she-dragon.\" The drakaina is occasionally treated differently from the more common masculine or gender-neutral drakōn, often surviving by mating with a hero or being the ancestress of an important lineage.",
+          "statement_id": "Ada pula drakaina, bentuk khusus betina atau \"naga betina\". Drakaina kadang diperlakukan berbeda dari drakōn yang lebih umum berjenis jantan atau netral, sering selamat dengan kawin dengan seorang pahlawan atau menjadi leluhur garis keturunan penting.",
+          "quote": "There is also the drakaina, the specifically female form or \"she-dragon.\" The drakaina is occasionally treated differently from the more common masculine or gender-neutral drakōn, often surviving by mating with a hero or being the ancestress of an important lineage.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c06",
+          "source_id": "dragons-in-greek-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "The Hesperian Dragon was a hundred-headed serpent named Ladon tasked with guarding the golden apples of the Hesperides and tormenting the heavens-bearing Titan Atlas. The creature was slain by Herakles when he was sent to recover the golden apples as one of his twelve labours.",
+          "statement_id": "Naga Hesperia (Hesperian Dragon) adalah ular berkepala seratus bernama Ladon yang ditugasi menjaga apel emas para Hesperides dan menyiksa Titan penopang langit, Atlas. Makhluk itu dibunuh Herakles ketika ia diutus mengambil apel emas sebagai salah satu dari dua belas tugasnya.",
+          "quote": "THE DRAKON HESPERION (Hesperian Dragon) was a hundred-headed serpent named Ladon tasked with guarding the golden apples of the Hesperides and tormenting the heavens-bearing Titan Atlas. The creature was slain by Herakles when he was sent to recover the golden apples as one of his twelve labours.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c07",
+          "source_id": "dragons-in-greek-mythology-s3",
+          "host": "www.theoi.com",
+          "statement": "The Colchian Dragon was a giant, watchful serpent that guarded the Golden Fleece in the sacred grove of Ares in Kolkhis (Colchis). When Jason and the Argonauts came to fetch the fleece, the beast was either slain by the hero or put to sleep by the witch Medea.",
+          "statement_id": "Naga Kolkhis (Colchian Dragon) adalah ular raksasa yang waspada yang menjaga Bulu Domba Emas di hutan suci Ares di Kolkhis (Colchis). Ketika Jason dan para Argonaut datang mengambil bulu itu, makhluk tersebut dibunuh sang pahlawan atau ditidurkan oleh penyihir Medea.",
+          "quote": "THE DRAKON KHOLKIKOS (Colchian Dragon) was a giant, watchful serpent which guarded the Golden Fleece in the sacred grove of Ares in Kolkhis (Colchis). When Jason and the Argonauts came to fetch the fleece, the beast was either slain by the hero or put to sleep by the witch Medea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c08",
+          "source_id": "dragons-in-greek-mythology-s3",
+          "host": "www.theoi.com",
+          "statement": "In Pindar's Pythian Ode 4 (trans. Conway), the fleece was laid in a deep thicket, held within the fierce jaws of a ravenous drakon (dragon-serpent), far surpassing in length and breadth a ship of fifty oars.",
+          "statement_id": "Dalam Pythian Ode 4 karya Pindar (terjemahan Conway), bulu domba itu diletakkan di semak lebat, dipegang di antara rahang ganas seekor drakon (ular naga) yang rakus, yang panjang dan lebarnya jauh melampaui kapal berdayung lima puluh.",
+          "quote": "Pindar, Pythian Ode 4. 241 ff (trans. Conway) ... For the fleece was laid in a deep thicket, held within the fierce jaws of a ravenous drakon (dragon-serpent), far surpassing in length and breadth a ship of fifty oars",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragons-in-greek-mythology-c09",
+          "source_id": "dragons-in-greek-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some myths the dragon was called Delphyne. Delphyne was often pictured as being half girl and half snake.",
+          "statement_id": "Dalam beberapa mitos naga itu disebut Delphyne. Delphyne sering digambarkan setengah gadis dan setengah ular.",
+          "quote": "In some myths the dragon was called Delphyne. Delphyne was often pictured as being half girl and half snake.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2bb35b1bbac8b84e6dc93bb83e45ddf55db883bca6fb44a2ad42b6de60e0ebe1"
+      "images": []
     },
     {
       "slug": "ichthyocentaur",
@@ -2934,20 +3033,15 @@
     },
     {
       "slug": "leuce",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "73bb896b8fd53d7733441e5eadd89bb430b493561cf141d954edb17bdf72097a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "leuce-c01",
@@ -2978,27 +3072,71 @@
           "quote": "when she died, the god turned her into a white poplar which he placed in the Elysian Fields.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "leuce-c04",
+          "source_id": "leuce-s2",
+          "host": "www.theoi.com",
+          "statement": "Leuke (Leuce) was an Okeanid nymph who was taken to Elysion (Elysium) by the god Haides, where she was transformed into a white poplar tree.",
+          "statement_id": "Leuke (Leuce) adalah nimfa Okeanid yang oleh dewa Haides dibawa ke Elysion (Elysium), tempat ia diubah menjadi pohon poplar putih.",
+          "quote": "LEUKE (Leuce) was an Okeanid-nymph ... Elysion (Elysium) by the god Haides where she was transformed into a white poplar tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "leuce-c05",
+          "source_id": "leuce-s2",
+          "host": "www.theoi.com",
+          "statement": "Leuke's story was probably connected with the white poplars that grew on the banks of the river Akheron (Acheron) in Thesprotia, a region famed for its necromantic oracle of Haides.",
+          "statement_id": "Kisah Leuke kemungkinan besar berkaitan dengan pohon poplar putih yang tumbuh di tepi sungai Akheron (Acheron) di Thesprotia, daerah yang termasyhur karena orakel nekromantis Haides.",
+          "quote": "LEUKE (Leuce) was an Okeanid-nymph ... Her story was probably connected with the white poplars which grew on the banks of the river Akheron (Acheron) in Thesprotia--a region famed for its necromantic oracle of Haides.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "leuce-c06",
+          "source_id": "leuce-s2",
+          "host": "www.theoi.com",
+          "statement": "Leuke was probably the same as Leukippe, an Okeanid nymph companion of the goddess Persephone mentioned in the Homeric Hymns.",
+          "statement_id": "Leuke kemungkinan besar sama dengan Leukippe, nimfa Okeanid pendamping dewi Persephone yang disebut dalam Himne Homeros.",
+          "quote": "Leuke was probably the same as Leukippe, an Okeanid-nymph companion of the goddess Persephone mentioned in the Homeric Hymns.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "leuce-c07",
+          "source_id": "leuce-s2",
+          "host": "www.theoi.com",
+          "statement": "In R. E. Bell's Women of Classical Mythology, Leuce was a nymph, daughter of Oceanus, carried off by Hades and changed after her death into a white poplar in Elysium. The white poplar was sacred to Hades, and when Heracles returned from the underworld he was crowned with poplar leaves.",
+          "statement_id": "Dalam Women of Classical Mythology karya R. E. Bell, Leuce adalah nimfa putri Oceanus yang dibawa pergi Hades dan setelah mati diubah menjadi poplar putih di Elysium. Poplar putih suci bagi Hades, dan ketika Heracles kembali dari dunia bawah ia dimahkotai daun poplar.",
+          "quote": "R. E. Bell, Women of Classical Mythology ... Leuce was a nymph, a daughter of Oceanus, who was carried off by Hades. After her death she was changed into a white poplar in Elysium. The white poplar was sacred to Hades. When Heracles returned form the underworld, he was crowned with poplar leaves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "leuce-c08",
+          "source_id": "leuce-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece (trans. Jones), Herakles found the white poplar growing on the banks of the Akheron (Acheron), the river in Thesprotia.",
+          "statement_id": "Dalam Description of Greece karya Pausanias (terjemahan Jones), Herakles menemukan pohon poplar putih yang tumbuh di tepi Akheron (Acheron), sungai di Thesprotia.",
+          "quote": "Pausanias, Description of Greece 5. 14. 2 (trans. Jones) ... Herakles found the white poplar ... growing on the banks of the Akheron (Acheron), the river in Thesprotia",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dffedd7d77f2429229c19a8200f1a6b9f342f18914e020c87311c51ce51489d9"
+      "images": []
     },
     {
       "slug": "lysithea",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "da05643fe1cf5f3a585ef506dffc300f8d92d4268b1e6f7a0c0199296c198130",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lysithea-c01",
@@ -3014,32 +3152,66 @@
           "id": "lysithea-c02",
           "source_id": "lysithea-s1",
           "host": "en.wikipedia.org",
-          "statement": "She was one of Zeus's lovers and, in this version, mother of Heracles.",
-          "statement_id": "Ia salah satu kekasih Zeus dan, dalam versi ini, ibu Heracles.",
-          "quote": "She was also one of Zeus' many lovers and by him the mother of Heracles.",
+          "statement": "She was also one of Zeus's many lovers and by him the mother of the first Heracles (out of seven).",
+          "statement_id": "Ia salah satu dari banyak kekasih Zeus dan darinya menjadi ibu Heracles yang pertama (dari tujuh).",
+          "quote": "She was also one of Zeus' many lovers and by him the mother of the first Heracles (out of seven).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lysithea-c03",
+          "source_id": "lysithea-s2",
+          "host": "handbook.epicureanfriends.com",
+          "statement": "In Yonge's translation of Cicero, the most ancient Hercules is the one who fought with Apollo about the Tripos of Delphi, and is the son of Jupiter and Lisyto.",
+          "statement_id": "Dalam terjemahan Yonge atas karya Cicero, Hercules yang paling tua adalah dia yang bertarung melawan Apollo memperebutkan Tripos Delphi, dan putra Jupiter dan Lisyto.",
+          "quote": "which Hercules we should chiefly worship; for they who have searched into those histories, which are but little known, tell us of several. The most ancient is he who fought with Apollo about the Tripos of Delphi, and is son of Jupiter and Lisyto",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lysithea-c04",
+          "source_id": "lysithea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another Lysithea was a daughter of Evenus and mother of Helenus by Zeus; she may be the same as or distinct from the next figure.",
+          "statement_id": "Lysithea lain adalah putri Evenus dan ibu Helenus dari Zeus; ia mungkin sama atau berbeda dengan tokoh berikutnya.",
+          "quote": "Lysithea, a daughter of Evenus and mother of Helenus by Zeus. She may be the same or distinct with the below figure.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lysithea-c05",
+          "source_id": "lysithea-s3",
+          "host": "www.newadvent.org",
+          "statement": "In Recognitions Book X, a catalogue of the adulteries the writer discusses names Lysithea, the daughter of Evenus, of whom Helenus was born.",
+          "statement_id": "Dalam Recognitions Buku X, dalam daftar perzinaan yang dibahas penulisnya disebut Lysithea, putri Evenus, yang darinya lahir Helenus.",
+          "quote": "I shall now speak of his adulteries. ... Lysithea, the daughter of Evenus, of whom Helenus;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lysithea-c06",
+          "source_id": "lysithea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lysithea is also another name of Semele, daughter of King Cadmus of Thebes and mother of Dionysus.",
+          "statement_id": "Lysithea juga nama lain Semele, putri Raja Cadmus dari Thebes dan ibu Dionysus.",
+          "quote": "Lysithea, another name of Semele, daughter of King Cadmus of Thebes and mother of Dionysus.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ac28cfd6ac6ac274f5ef883b91684c3ba056984cb4c135935831a3b7e5bf0ad9"
+      "images": []
     },
     {
       "slug": "pirene",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "ff7346c2635319bb43aee3bedde3262ec8d6738c5194b59587d94a24ffc8fec3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pirene-c01",
@@ -3060,27 +3232,81 @@
           "quote": "When her son Cenchrias was unintentionally killed by Artemis, Pirene's grief was so profound that she became nothing but tears and turned into the fountain outside the gates of Corinth.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pirene-c03",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "Peirene (Pirene) was the Naiad nymph of a fountain in the city of Korinthos (Corinth), southern Greece. She was a daughter of the Sikyonian river god Asopos, abducted to the site of the town by the god Poseidon.",
+          "statement_id": "Peirene (Pirene) adalah nimfa naiad dari sebuah mata air di kota Korinthos (Korintus) di Yunani selatan. Ia putri dewa sungai Asopos dari Sikyon, yang diculik dewa Poseidon ke lokasi kota itu.",
+          "quote": "PEIRENE was the Naiad-nymph of a fountain in the city of Korinthos (Corinth), southern Greece. She was a daughter of the Sikyonian river-god Asopos who was abducted to the site of the town by the god Poseidon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pirene-c04",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "Peirene's sons Lekhes (Leches) and Kenkhrias (Cenchrias) were the eponymous founders of the city's twin ports, one on each side of the Isthmos.",
+          "statement_id": "Putra-putra Peirene, Lekhes (Leches) dan Kenkhrias (Cenchrias), adalah pendiri kedua pelabuhan kembar kota itu yang namanya dipakai untuk pelabuhan tersebut, satu di tiap sisi Isthmos.",
+          "quote": "PEIRENE was the Naiad-nymph of a fountain in the city of Korinthos (Corinth), southern Greece. ... sons Lekhes (Leches) and Kenkhrias (Cenchrias), were the eponymous founders of the city's twin ports--one on each side of the Isthmos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pirene-c05",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece (trans. Jones), the sons are said to be children of Poseidon and Peirene the daughter of Akheloios (Achelous), though in the poem called The Great Eoiai Peirene is said to be a daughter of Oibalos (Oebalus).",
+          "statement_id": "Dalam Description of Greece karya Pausanias (terjemahan Jones), anak-anak itu dikatakan putra Poseidon dan Peirene putri Akheloios (Achelous), sedangkan dalam puisi The Great Eoiai Peirene disebut putri Oibalos (Oebalus).",
+          "quote": "Pausanias, Description of Greece 2. 2. 2 (trans. Jones) ... said to be children of Poseidon and Peirene the daughter of Akheloios (Achelous), though in the poem called The Great Eoiai Peirene is said to be a daughter of Oibalos (Oebalus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pirene-c06",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece, the legend about Peirene is that she was a woman who became a spring because of the tears shed in lamentation for her son Kenkhrias (Cenchrias), who was unintentionally killed by Artemis.",
+          "statement_id": "Dalam Description of Greece karya Pausanias, legenda tentang Peirene ialah bahwa ia seorang perempuan yang menjadi mata air karena air mata yang ditumpahkan dalam ratapan atas putranya Kenkhrias (Cenchrias), yang tak sengaja dibunuh Artemis.",
+          "quote": "Pausanias, Description of Greece 2. 3. 3 ... The legend about Peirene is that she was a woman who became a spring because of the tears shed in lamentation for her son Kenkhrias (Cenchrias), who was unintentionally killed by Artemis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pirene-c07",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece, the spring is ornamented with white marble, and chambers like caves have been made out of which the water flows into an open-air well; it is pleasant to drink.",
+          "statement_id": "Dalam Description of Greece karya Pausanias, mata air itu dihiasi marmer putih, dan dibuat bilik-bilik seperti gua tempat air mengalir ke sumur terbuka; airnya enak diminum.",
+          "quote": "Pausanias, Description of Greece 2. 3. 3 ... The spring is ornamented with white marble, and there have been made chambers like caves, out of which the water flows into an open-air well. It is pleasant to drink.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pirene-c08",
+          "source_id": "pirene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pindar's Olympian Ode 13 (trans. Conway), the grandsire (Bellerophon) once strove in vain beside Peirene's spring (in Korinthos) and suffered much, seeking to yoke the snake-head Gorgon's offspring, Pegasos (Pegasus).",
+          "statement_id": "Dalam Olympian Ode 13 karya Pindar (terjemahan Conway), kakek itu (Bellerophon) pernah berjuang sia-sia di dekat mata air Peirene (di Korinthos) dan banyak menderita karena berusaha memasang kekang pada keturunan Gorgon berkepala ular, Pegasos (Pegasus).",
+          "quote": "Pindar, Olympian Ode 13 ep3 (trans. Conway) ... That grandsire [Bellerophon] who once strove in vain beside Peirene's spring [in Korinthos (Corinth)], and suffered much, seeking to yoke the snake-head Gorgon's offspring, Pegasos (Pegasus).",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "47b10aa565c66d211f780713588494a587938426135bf32060f03f0cc0609dca"
+      "images": []
     },
     {
       "slug": "salamis",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "70867d6aa09c01974c66b4d1c8f83fa003e9af84b916c9c9b9b07615503a98ce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "salamis-c01",
@@ -3101,27 +3327,71 @@
           "quote": "Salamis’ mother was Metope, daughter of Ladon, another river god.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "salamis-c03",
+          "source_id": "salamis-s2",
+          "host": "www.theoi.com",
+          "statement": "Salamis was the Naiad nymph of a spring, well or fountain of the main town of the island of Salamis (in southern Greece). She was a daughter of the river god Asopos, abducted to the island by Poseidon. Their son Kykhreus (Cychreus) was the first king of Salamis.",
+          "statement_id": "Salamis adalah nimfa naiad dari mata air, sumur, atau pancuran di kota utama pulau Salamis (di Yunani selatan). Ia putri dewa sungai Asopos yang diculik ke pulau itu oleh Poseidon. Putra mereka, Kykhreus (Cychreus), adalah raja pertama Salamis.",
+          "quote": "SALAMIS was the Naiad-nymph of a spring, well or fountain of the main town of the island of Salamis (in southern Greece). She was a daughter of the river-god Asopos who was abducted to the island by Poseidon. Their son Kykhreus (Cychreus) was the first king of Salamis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamis-c04",
+          "source_id": "salamis-s2",
+          "host": "www.theoi.com",
+          "statement": "In Corinna's Fragment 654 (trans. Campbell), Korkyra (Corcyra), Salamis and lovely Euboia (Euboea) were stolen by father Poseidon.",
+          "statement_id": "Dalam Fragmen 654 Corinna (terjemahan Campbell), Korkyra (Corcyra), Salamis, dan Euboia (Euboea) yang cantik dicuri oleh ayah mereka Poseidon.",
+          "quote": "Corinna, Fragment 654 (trans. Campbell, Vol. Greek Lyric IV) ... Korkyra (Corcyra) and Salamis and lovely Euboia (Euboea) were stolen by father Poseidon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamis-c05",
+          "source_id": "salamis-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece (trans. Jones), it is said that the first to give the name Salamis to the island was Kykhreus (Cychreus), who called it after his mother Salamis, the daughter of Asopos.",
+          "statement_id": "Dalam Description of Greece karya Pausanias (terjemahan Jones), dikatakan bahwa yang pertama memberi nama itu kepada pulau ialah Kykhreus (Cychreus), yang menamainya menurut ibunya Salamis, putri Asopos.",
+          "quote": "Pausanias, Description of Greece 1. 35. 2 (trans. Jones) ... It is said that the first to give this name [Salamis] to the island was Kykhreus (Cychreus), who called it after his mother Salamis, the daughter of Asopos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamis-c06",
+          "source_id": "salamis-s2",
+          "host": "www.theoi.com",
+          "statement": "In Diodorus Siculus' Library of History (trans. Oldfather), Salamis was seized by Poseidon and taken to the island named Salamis after her; she lay with Poseidon and bore Kykhreus (Cychreus), who became king of this island.",
+          "statement_id": "Dalam Library of History karya Diodorus Siculus (terjemahan Oldfather), Salamis direbut Poseidon dan dibawa ke pulau yang dinamai Salamis menurut namanya; ia berbaring dengan Poseidon dan melahirkan Kykhreus (Cychreus), yang menjadi raja pulau itu.",
+          "quote": "Diodorus Siculus, Library of History 4. 72. 1-5 (trans. Oldfather) ... Salamis was seized by Poseidon and taken to the island which was named Salamis after her; and she lay with Poseidon and bore Kykhreus (Cychreus), who became king of this island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamis-c07",
+          "source_id": "salamis-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece, among the paintings in the temple of Zeus at Olympia is Salamis carrying in her hand the ornament made for the top of a ship's bow.",
+          "statement_id": "Dalam Description of Greece karya Pausanias, di antara lukisan di kuil Zeus di Olympia terdapat Salamis yang membawa di tangannya hiasan yang dibuat untuk ujung haluan kapal.",
+          "quote": "Pausanias, Description of Greece 5. 11. 5 ... [In the temple of Zeus at Olympia are paintings :] Salamis carrying in her hand the ornament made for the top of a ship's bow.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2ed94553743cf407f79cdb291b6e4660fc3a8bb2e8bcd80382f844c521a83b40"
+      "images": []
     },
     {
       "slug": "strix-mythology",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "8bb08923ae7dfc132af8f9761de46b1eb1381905d583ba542b4c035a87d94ac5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "strix-mythology-c01",
@@ -3152,27 +3422,91 @@
           "quote": "The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c04",
+          "source_id": "strix-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, the greedy birds have big heads, goggle eyes, beaks formed for rapine, feathers blotched with grey and claws fitted with hooks; they fly by night and attack nurseless children.",
+          "statement_id": "Dalam Fasti karya Ovidius, burung-burung rakus itu berkepala besar, bermata melotot, berparuh untuk merampas, berbulu kelabu berbercak, dan bercakar berkait; mereka terbang pada malam hari dan menyerang anak-anak tanpa pengasuh.",
+          "quote": "OVID, FASTI 6 ... There are greedy birds ... Big is their head, goggle their eyes, their beaks are formed for rapine, their feathers blotched with grey, their claws fitted with hooks. They fly by night and attack nurseless children",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c05",
+          "source_id": "strix-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, the birds are said to rend the flesh of sucklings with their beaks, and their throats are full of the blood they have drunk; their name is screech-owl because they are wont to screech horribly by night.",
+          "statement_id": "Dalam Fasti karya Ovidius, burung-burung itu dikatakan mencabik daging bayi susuan dengan paruh mereka dan kerongkongan mereka penuh darah yang telah mereka minum; nama mereka burung hantu pekik, karena mereka biasa memekik mengerikan pada malam hari.",
+          "quote": "OVID, FASTI 6 ... There are greedy birds ... They are said to rend the flesh of sucklings with their beaks, and their throats are full of the blood which they have drunk. Screech-owl is their name, but the reason of the name is that they are wont to screech horribly by night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c06",
+          "source_id": "strix-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, whether they are born birds or are made such by enchantment and are nothing but beldames transformed into fowls by a spell, they came into the chambers of Proca.",
+          "statement_id": "Dalam Fasti karya Ovidius, entah mereka lahir sebagai burung atau dijadikan demikian oleh sihir dan tak lain nenek-nenek yang diubah menjadi unggas oleh mantra, mereka masuk ke kamar Proca.",
+          "quote": "OVID, FASTI 6 ... Whether, therefore, they are born birds, or are made such by enchantment and are nothing but beldames transformed into fowls by a ... spell, they came into the chambers of Proca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c07",
+          "source_id": "strix-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, in the chambers of Proca a child five days old was a fresh prey for the birds; they sucked the infant with their greedy tongues, and the poor child squalled and craved help.",
+          "statement_id": "Dalam Fasti karya Ovidius, di kamar Proca, seorang anak berusia lima hari menjadi mangsa segar burung-burung itu; mereka menyedot sang bayi dengan lidah rakus mereka, dan anak malang itu menjerit meminta tolong.",
+          "quote": "OVID, FASTI 6 ... In the chambers Proca, a child five days old, was a fresh prey for the birds. They sucked the infant with their greedy tongues, and the poor child squalled and craved help.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c08",
+          "source_id": "strix-mythology-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, a rod of Janus taken from the white-thorn was placed where a small window gave light to the chambers; after that, it is said, the birds did not violate the cradle, and the boy recovered his former colour.",
+          "statement_id": "Dalam Fasti karya Ovidius, sebatang tongkat Janus dari semak duri putih diletakkan di tempat jendela kecil menerangi kamar; sesudah itu dikatakan burung-burung itu tidak lagi mengganggu buaian, dan anak itu pulih warna kulitnya semula.",
+          "quote": "OVID, FASTI 6 ... A rod of Janus, taken from the white-thorn, was placed where a small window gave light to the chambers. After that, it is said that the birds did not violate the cradle, and the boy recovered his former colour.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c09",
+          "source_id": "strix-mythology-s3",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Pliny the Elder's Natural History (Bostock and Riley translation), the stories of the screech-owl ejecting milk from its teats upon the lips of infants he regards as utterly fabulous.",
+          "statement_id": "Dalam The Natural History karya Plinius Tua (terjemahan Bostock dan Riley), cerita bahwa burung hantu pekik menyemprotkan susu dari putingnya ke bibir bayi dianggapnya sama sekali dongeng.",
+          "quote": "Pliny the Elder, The Natural History ... As for the stories that they tell, about the screech-owl ejecting milk from its teats upon the lips of infants, I look upon it as utterly fabulous",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "strix-mythology-c10",
+          "source_id": "strix-mythology-s3",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Pliny the Elder's Natural History, he is aware that from ancient times the name \"strix\" has been employed in maledictions, but he does not think it well ascertained what bird is really meant by that name.",
+          "statement_id": "Dalam The Natural History karya Plinius Tua, ia menyadari bahwa sejak zaman kuno nama \"strix\" dipakai dalam kutukan, tetapi menurutnya tidak jelas burung apa sebenarnya yang dimaksud dengan nama itu.",
+          "quote": "Pliny the Elder, The Natural History ... from ancient times the name \"strix,\" ... I am aware, has been employed in maledictions, but I do not think it is well ascertained what bird is really meant by that name.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f4655ccb2e75840a6b6ba9f520b25f0b1ec96b0140f296cde4aa94426fe01bd3"
+      "images": []
     },
     {
       "slug": "vrykolakas",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "ff0f5f7684828a9e1a02eacc88abf1a090cc815bc42da9a2d50ede86fa66ef37",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vrykolakas-c01",
@@ -3193,27 +3527,101 @@
           "quote": "It shares similarities with numerous other legendary creatures, but is generally equated with the vampire of the folklore of the neighbouring Slavic countries.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c03",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, Leo Allatius writes that the vrykolakas is the body of a man of evil and immoral life, very often one who has been excommunicated by his bishop.",
+          "statement_id": "Dalam karya Lawson, Leo Allatius menulis bahwa vrykolakas adalah tubuh seorang yang hidupnya jahat dan tak bermoral, sangat sering seorang yang dikucilkan oleh uskupnya.",
+          "quote": "Leo Allatius. ‘The vrykolakas,’ he writes ... ‘is the body of a man of evil and immoral life—very often of one who has been excommunicated by his bishop.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c04",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, according to Leo Allatius, the devil enters such a body, and issuing from the tomb it goes about, chiefly at night, knocking at doors and calling one of the household; if such a one answers he dies next day, but a vrykolakas never calls twice.",
+          "statement_id": "Dalam karya Lawson, menurut Leo Allatius, setan masuk ke tubuh seperti itu, dan keluar dari makam ia berkeliling, terutama pada malam hari, mengetuk pintu dan memanggil salah seorang penghuni rumah; jika orang itu menjawab, ia mati keesokan harinya, tetapi vrykolakas tidak pernah memanggil dua kali.",
+          "quote": "Leo Allatius. ... Into such a body, he continues, the devil enters, and issuing from the tomb goes about, chiefly at night, knocking at doors and calling one of the household. If such an one answer, he dies next day; but a vrykolakas never calls twice",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c05",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, such bodies do not decompose after burial like those of other dead men nor turn to dust; the skin becomes stretched like the parchment of a drum and gives out the same sound when struck, and from this circumstance the vrykolakas has received its name.",
+          "statement_id": "Dalam karya Lawson, tubuh seperti itu tidak membusuk seperti tubuh orang mati lain setelah dimakamkan dan tidak menjadi debu; kulitnya meregang seperti kulit gendang dan mengeluarkan bunyi yang sama bila dipukul, dan dari keadaan itulah vrykolakas mendapat namanya.",
+          "quote": "Such bodies do not like those of other dead men suffer decomposition after burial nor turn to dust, ... the skin becomes stretched like the parchment of a drum, and when struck gives out the same sound; from this circumstance the vrykolakas has received the name",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c06",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, this monster is said to be so destructive to men that, appearing even in the daytime and at noon, in houses, fields, highroads and enclosed vineyards, it advances upon them as they walk and kills them by its mere aspect without speech or touch.",
+          "statement_id": "Dalam karya Lawson, monster ini dikatakan begitu merusak manusia sehingga muncul bahkan pada siang hari, di rumah, ladang, jalan raya, dan kebun anggur berpagar, mendekati mereka yang berjalan dan membunuh mereka hanya dengan penampakannya tanpa bicara atau sentuhan.",
+          "quote": "‘This monster is said to be so destructive to men, that appearing actually in the daytime, even at noon—and that not only in houses but in fields and highroads and enclosed vineyards—it advances upon them as they walk along, and by its mere aspect without either speech or touch kills them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c07",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, the body is taken out of the grave, the priests recite prayers, and it is thrown onto a burning pyre; before the supplications are finished the joints gradually fall apart and all the remains are burnt to ashes.",
+          "statement_id": "Dalam karya Lawson, tubuh itu dikeluarkan dari kubur, para imam membacakan doa, dan ia dilemparkan ke atas tumpukan kayu yang menyala; sebelum doa-doa selesai sendi-sendinya perlahan terlepas dan semua sisanya terbakar menjadi abu.",
+          "quote": "it is taken out of the grave, the priests recite prayers, and it is thrown on to a burning pyre; before the supplications are finished the joints of the body gradually fall apart; and all the remains are burnt to ashes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c08",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, a history of the district says it is popularly believed that most of the dead, those who lived bad lives or were excommunicated by some priest, become vrykolakes: after the soul separates from the body an evil spirit enters the body, takes the place of the soul and assumes the shape of the dead man, and so is transformed into a vrykolakas or man-demon.",
+          "statement_id": "Dalam karya Lawson, sebuah sejarah daerah menyatakan bahwa dipercaya secara umum kebanyakan orang mati, yang hidup jahat atau dikucilkan seorang imam, menjadi vrykolakes: setelah jiwa berpisah dari tubuh, roh jahat masuk ke dalam tubuh, menggantikan jiwa dan mengambil rupa orang mati, lalu berubah menjadi vrykolakas atau manusia-iblis.",
+          "quote": "It is popularly believed that most of the dead, those who have lived bad lives or who have been excommunicated by some priest ... that is to say, after the separation of the soul from the body there enters into the latter an evil ... spirit, which takes the place of the soul and assumes the shape of the dead man and so is transformed into a vrykolakas or man-demon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c09",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, the common practice of the vrykolakes is to seat themselves upon those who are asleep and by their enormous weight cause an agonizing sense of oppression.",
+          "statement_id": "Dalam karya Lawson, kebiasaan umum vrykolakes adalah duduk di atas orang yang sedang tidur dan dengan beratnya yang sangat besar menimbulkan rasa sesak yang menyiksa.",
+          "quote": "The common practice of the vrykolakes is to seat themselves upon those who are asleep and by their enormous weight to cause an agonizing sense of oppression.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c10",
+          "source_id": "vrykolakas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Lawson's work, if someone at hand perceives the sufferer's torment and fires off a gun, the blood-thirsty monster is put to flight; fortunately it is afraid of the report of fire-arms and retreats without effecting its purpose.",
+          "statement_id": "Dalam karya Lawson, bila ada seseorang di dekatnya yang menyadari penderitaan korban dan melepaskan tembakan, monster haus darah itu terusir; untungnya ia takut akan bunyi senjata api dan mundur tanpa mencapai maksudnya.",
+          "quote": "if there be not someone at hand who perceives his torment and fires off a gun, thereby putting the blood-thirsty monster to flight; for fortunately it is afraid of the report of fire-arms and retreats without effecting its purpose.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9d0fe3c4a701b0180b770239cacacd8030d1119e8e83ebde0659a3dc597d41d0"
+      "images": []
     },
     {
       "slug": "aethon-q1371462",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "c790e3d8154f96ecc185d3a1a18b82fd2df0e88a8a55994da9caa53cc45a3ec4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "aethon-q1371462-c01",
@@ -3234,27 +3642,81 @@
           "quote": "Zeus merantai Prometheus di sebuah tebing di pegunungan Kaukasus dan setiap hari akan datang seekor elang yang memakan hati Prometheus.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c03",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "The Aetos Kaukasios (Caucasian Eagle) was a gigantic eagle sent by Zeus to feed upon the ever-regenerating liver of the Titan Prometheus after he was chained to a peak of the Kaukasos (Caucasus) Mountains as punishment for stealing fire from the gods.",
+          "statement_id": "Aetos Kaukasios (Elang Kaukasus) adalah elang raksasa yang diutus Zeus untuk memakan hati Titan Prometheus yang terus memulihkan diri setelah ia dirantai di puncak pegunungan Kaukasos (Kaukasus) sebagai hukuman karena mencuri api dari para dewa.",
+          "quote": "THE AETOS KAUKASIOS (Caucasian Eagle) was a gigantic eagle sent by Zeus to feed upon the ever-regenerating liver of the Titan Prometheus after he was chained to a peak of the Kaukasos (Caucasus) Mountains as punishment for stealing fire from the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c04",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "The eagle was variously described as a bronze automaton constructed by the god Hephaistos (Hephaestus), or as a fell creature spawned by the drakaina Ekhidna (Echidna).",
+          "statement_id": "Elang itu digambarkan beragam: sebagai automaton perunggu buatan dewa Hephaistos (Hephaestus), atau sebagai makhluk ganas yang dilahirkan drakaina Ekhidna (Echidna).",
+          "quote": "The eagle was variously described as a bronze automaton constructed by the god Hephaistos (Hephaestus), or as a fell creature spawned by the drakaina Ekhidna (Echidna).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c05",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "When Herakles set out to free Prometheus from his bonds, he felled the eagle with a volley of arrows.",
+          "statement_id": "Ketika Herakles berangkat membebaskan Prometheus dari belenggunya, ia menjatuhkan elang itu dengan hujan anak panah.",
+          "quote": "When Herakles set out to free Prometheus from his bonds, he felled the eagle with a volley of arrows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c06",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony (trans. Evelyn-White), a long-winged eagle was set on Prometheus to eat his immortal liver, but by night the liver grew as much again as the bird devoured in the whole day; Herakles (Heracles), the valiant son of Alkmene (Alcmena), slew that bird.",
+          "statement_id": "Dalam Theogony karya Hesiodos (terjemahan Evelyn-White), seekor elang bersayap panjang yang biasa memakan hati abadi Prometheus ditempatkan padanya, tetapi pada malam hari hati itu tumbuh sebanyak yang dimakan burung itu sepanjang hari; burung itu dibunuh Herakles (Heracles), putra gagah Alkmene (Alcmena).",
+          "quote": "Hesiod, Theogony 507 ff (trans. Evelyn-White) ... Ready-witted Prometheus he [Zeus] bound with inextricable bonds, cruel chains ... set on him a long-winged eagle, which used to eat his immortal liver; but by night the liver grew as much again everyway as the long-winged bird devoured in the whole day. That bird Herakles (Heracles), the valiant son of shapely-ankled Alkmene (Alcmena), slew",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c07",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "In Apollonius Rhodius' Argonautica (trans. Rieu), they saw it in the afternoon flying high above the ship with a strident whirr; it was near the clouds, yet its wings made all their canvas quiver as it beat by. Its form was not that of an ordinary bird: the long quill-feathers of each wing rose and fell like a bank of polished oars.",
+          "statement_id": "Dalam Argonautica karya Apollonius Rhodius (terjemahan Rieu), mereka melihat elang itu pada sore hari terbang tinggi di atas kapal dengan desing nyaring; ia dekat awan, tetapi sayapnya membuat seluruh layar mereka bergetar saat ia melintas. Bentuknya bukan bentuk burung biasa: bulu-bulu sayap panjangnya naik turun seperti deretan dayung yang digosok.",
+          "quote": "Apollonius Rhodius, Argonautica 2. 1238 ff (trans. Rieu) ... They saw it in the afternoon flying high above the ship with a strident whirr. It was near the clouds, yet it made all their canvas quiver to its wings as it beat by. For its form was not that of an ordinary bird : the long quill-feathers of each wing rose and fell like a bank of polished oars.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c08",
+          "source_id": "aethon-q1371462-s2",
+          "host": "www.theoi.com",
+          "statement": "In Aeschylus' Prometheus Bound, the winged hound of Zeus, the ravening eagle, comes an unbidden banqueter the whole day long and with savage appetite shall tear the body piecemeal into great rents and feast his fill upon the liver until it is black with gnawing.",
+          "statement_id": "Dalam Prometheus Bound karya Aeschylus, anjing bersayap Zeus, elang yang rakus, datang sebagai tamu tak diundang sepanjang hari, dengan nafsu buas akan mencabik tubuhmu sepotong-sepotong dan berpesta atas hatimu sampai menghitam karena dikoyak.",
+          "quote": "Aeschylus, Prometheus Bound 1021 ff ... The winged hound of Zeus, the ravening eagle, coming an unbidden banqueter the whole day long, with savage appetite shall tear your body piecemeal into great rents and feast his fill upon your liver until it is black with gnawing.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a74de0146f3c466e8891a8083af33f2a020627fe5bc18f5ca041a75e4575318d"
+      "images": []
     },
     {
       "slug": "aganippe",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-4.md",
+      "entry_sha256": "0d493f9e7cc70be25a5b1af4fa9b4c64661268e73abed15f1e73d0795860ea1d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "aganippe-c01",
@@ -3285,10 +3747,59 @@
           "quote": "Drinking from her well, it was considered to be a source of poetic inspiration.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "aganippe-c04",
+          "source_id": "aganippe-s2",
+          "host": "www.theoi.com",
+          "statement": "Aganippe was the Naiad nymph of the spring of Aganippe on Mount Helikon (Helicon) in Boiotia (central Greece). She was a daughter of the nearby river Termessos.",
+          "statement_id": "Aganippe adalah nimfa naiad mata air Aganippe di Gunung Helikon (Helicon) di Boiotia (Yunani tengah). Ia putri sungai Termessos di dekatnya.",
+          "quote": "AGANIPPE was the Naiad-nymph of the spring of Aganippe on Mount Helikon (Helicon) in Boiotia (central Greece). She was a daughter of the nearby river Termessos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c05",
+          "source_id": "aganippe-s2",
+          "host": "www.theoi.com",
+          "statement": "Aganippe was perhaps the same as Eupheme, nurse of the Mousai (Muses).",
+          "statement_id": "Aganippe mungkin sama dengan Eupheme, pengasuh para Mousai (Muse).",
+          "quote": "Aganippe was perhaps the same as Eupheme, nurse of the Mousai (Muses).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c06",
+          "source_id": "aganippe-s2",
+          "host": "www.theoi.com",
+          "statement": "In Pausanias' Description of Greece (trans. Jones), on Helikon (the mountain of Boiotia), on the left as you go to the grove of the Mousai (Muses), is the spring Aganippe; they say Aganippe was a daughter of the Termessos, which flows around Helikon.",
+          "statement_id": "Dalam Description of Greece karya Pausanias (terjemahan Jones), di Helikon (gunung di Boiotia), di sebelah kiri jalan menuju hutan suci para Mousai (Muse), terdapat mata air Aganippe; dikatakan Aganippe putri Termessos, sungai yang mengalir mengitari Helikon.",
+          "quote": "Pausanias, Description of Greece 9. 29. 5 (trans. Jones) ... On Helikon (Helicon) [the mountain of Boiotia], on the left as you go to the grove of the Mousai (Muses), is the spring Aganippe; they say that Aganippe was a daughter of the Termessos, which flows around Helikon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c07",
+          "source_id": "aganippe-s2",
+          "host": "www.theoi.com",
+          "statement": "According to this encyclopedia, Aganippe was a nymph of the well of the same name at the foot of Mount Helicon in Boeotia, considered sacred to the Muses and believed to have the power of inspiring those who drank of it.",
+          "statement_id": "Menurut ensiklopedia ini, Aganippe adalah nimfa sumur senama di kaki Gunung Helicon di Boeotia, yang dianggap suci bagi para Muse dan dipercaya berdaya mengilhami mereka yang meminum darinya.",
+          "quote": "A nymph of the well of the same name at the foot of Mount Helicon, in Boeotia, which was considered sacred to the Muses, and believed to have the power of inspiring those who drank of it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c08",
+          "source_id": "aganippe-s2",
+          "host": "www.theoi.com",
+          "statement": "According to this encyclopedia, the nymph is called a daughter of the river god Permessus.",
+          "statement_id": "Menurut ensiklopedia ini, sang nimfa disebut putri dewa sungai Permessus.",
+          "quote": "The nymph is called a daughter of the river-god Permessus.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c980f0f37aece485c5adaa7828e186d136bc940b97128ef4cf2e891b6cc95cca"
+      "images": []
     },
     {
       "slug": "clytius",

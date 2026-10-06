@@ -1,6 +1,6 @@
 # Review batch-095
 
-Diperiksa 2026-10-06T15:09:46.211Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md, batch-095-fix-3.md.
+Diperiksa 2026-10-06T15:24:28.594Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md, batch-095-fix-3.md, batch-095-fix-4.md.
 
 ## chloris — lulus-otomatis
 
@@ -448,15 +448,17 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## canens — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | canens-c01 | exact | en.wikipedia.org | In Roman mythology, Canens was the personification of song, a nymph of Latium, daughter of Janus and Venilia. | In Roman mythology, Canens was the personification of song. A nymph from Latium, she was the daughter of Janus and Venilia. |
 | canens-c02 | exact | en.wikipedia.org | Canens searched six days for her husband, then threw herself into the Tiber, sang a last song and died. | Canens searched for her husband for six days and then threw herself into the Tiber river. She sang one final song and then died. |
+| canens-c03 | exact | www.perseus.tufts.edu | In Ovidius' Metamorphoses (Brookes More translation), a nymph borne by Venilia to double-faced Janus on the hill called Palatine was given to Picus Laurentine when she reached marriageable age; her beauty was wonderful but her skill in singing more wonderful still, and from that art she was called Canens. | P. Ovidius Naso, Metamorphoses ... whom on the hill, called Palatine, 'tis said, Venilia bore to Janus double faced. When she had reached the age of marriage, she was given to Picus Laurentine ... wonderful indeed her beauty, but more wonderful her skill in singing, from which art they called her Canens. |
+| canens-c04 | exact | www.perseus.tufts.edu | In Ovidius' Metamorphoses, the fascination of Canens' voice would move the woods and rocks, tame wild beasts, stay long rivers, and even detain the wandering bird. | P. Ovidius Naso, Metamorphoses ... from which art they called her Canens. The fascination of her voice would move the woods and rocks and tame wild beasts, and stay long rivers, and it even detained the wandering bird. |
+| canens-c05 | exact | www.perseus.tufts.edu | In Ovidius' Metamorphoses, her husband is expected in vain by the eyes of longing Canens; distracted, she rushed out and wandered through the Latin fields, and six nights and six dawns found her unrefreshed by food or sleep, wandering at random over hill and dale. | P. Ovidius Naso, Metamorphoses ... now in vain her husband is expected by the eyes of longing Canens. ... Distracted she rushed forth and wandered through the Latin fields. Six nights, six brightening dawns found her quite unrefreshed with food or sleep wandering at random over hill and dale. |
+| canens-c06 | exact | www.perseus.tufts.edu | In Ovidius' Metamorphoses, the Tiber saw her last, wearied with grief and toil and lying on his widespread bank; in tears she poured out words in a faint voice, lamenting her sad woe as the dying swan sings a funereal dirge. | P. Ovidius Naso, Metamorphoses ... The Tiber saw her last, with grief and toil wearied and lying on his widespread bank. In tears she poured out words with a faint voice, lamenting her sad woe, as when the swan about to die sings a funereal dirge. |
+| canens-c07 | exact | www.perseus.tufts.edu | In Ovidius' Metamorphoses, Canens at last melted with grief and pined away; her flesh, bones and marrow liquefied and vanished by degrees into formless air, yet the story lingers near that place, fitly named Canens by the old-time Camenae. | P. Ovidius Naso, Metamorphoses ... Melting with grief at last she pined away; her flesh, her bones, her marrow liquified and vanished by degrees as formless air and yet the story lingers near that place, fitly named Canens by old-time Camenae! |
 
 
 ## catoblepas — lulus-otomatis
@@ -493,16 +495,19 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## dragons-in-greek-mythology — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dragons-in-greek-mythology-c01 | exact | en.wikipedia.org | Dragons play a significant role in Greek mythology. | play a significant role in Greek mythology. |
 | dragons-in-greek-mythology-c02 | exact | en.wikipedia.org | The Greek drakōn differs from the modern Western dragon but is the origin of the word. | Though the Greek drakōn often differs from the modern Western conception of a dragon, it is both the etymological origin of the modern term |
 | dragons-in-greek-mythology-c03 | exact | en.wikipedia.org | Ancient Greeks used the term for large constricting snakes. | Ancient Greeks applied the term to large, constricting snakes. |
+| dragons-in-greek-mythology-c04 | exact | en.wikipedia.org | The Greek drakōn was far more associated with poisonous spit or breath than the modern Western dragon, though fiery breath is still attested in a few myths. | The Greek drakōn was far more associated with poisonous spit or breath than the modern Western dragon, though fiery breath is still attested in a few myths. |
+| dragons-in-greek-mythology-c05 | exact | en.wikipedia.org | There is also the drakaina, the specifically female form or "she-dragon." The drakaina is occasionally treated differently from the more common masculine or gender-neutral drakōn, often surviving by mating with a hero or being the ancestress of an important lineage. | There is also the drakaina, the specifically female form or "she-dragon." The drakaina is occasionally treated differently from the more common masculine or gender-neutral drakōn, often surviving by mating with a hero or being the ancestress of an important lineage. |
+| dragons-in-greek-mythology-c06 | exact | www.theoi.com | The Hesperian Dragon was a hundred-headed serpent named Ladon tasked with guarding the golden apples of the Hesperides and tormenting the heavens-bearing Titan Atlas. The creature was slain by Herakles when he was sent to recover the golden apples as one of his twelve labours. | THE DRAKON HESPERION (Hesperian Dragon) was a hundred-headed serpent named Ladon tasked with guarding the golden apples of the Hesperides and tormenting the heavens-bearing Titan Atlas. The creature was slain by Herakles when he was sent to recover the golden apples as one of his twelve labours. |
+| dragons-in-greek-mythology-c07 | exact | www.theoi.com | The Colchian Dragon was a giant, watchful serpent that guarded the Golden Fleece in the sacred grove of Ares in Kolkhis (Colchis). When Jason and the Argonauts came to fetch the fleece, the beast was either slain by the hero or put to sleep by the witch Medea. | THE DRAKON KHOLKIKOS (Colchian Dragon) was a giant, watchful serpent which guarded the Golden Fleece in the sacred grove of Ares in Kolkhis (Colchis). When Jason and the Argonauts came to fetch the fleece, the beast was either slain by the hero or put to sleep by the witch Medea. |
+| dragons-in-greek-mythology-c08 | exact | www.theoi.com | In Pindar's Pythian Ode 4 (trans. Conway), the fleece was laid in a deep thicket, held within the fierce jaws of a ravenous drakon (dragon-serpent), far surpassing in length and breadth a ship of fifty oars. | Pindar, Pythian Ode 4. 241 ff (trans. Conway) ... For the fleece was laid in a deep thicket, held within the fierce jaws of a ravenous drakon (dragon-serpent), far surpassing in length and breadth a ship of fifty oars |
+| dragons-in-greek-mythology-c09 | exact | en.wikipedia.org | In some myths the dragon was called Delphyne. Delphyne was often pictured as being half girl and half snake. | In some myths the dragon was called Delphyne. Delphyne was often pictured as being half girl and half snake. |
 
 
 ## ichthyocentaur — lulus-otomatis
@@ -523,109 +528,131 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## leuce — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | leuce-c01 | exact | en.wikipedia.org | Leuce was an Oceanid nymph, a daughter of the Titans Oceanus and Tethys. | was an Oceanid nymph, one of the daughters of the Titans Oceanus and Tethys. |
 | leuce-c02 | exact | en.wikipedia.org | Hades abducted her to the underworld. | Hades abducted her to the underworld. |
 | leuce-c03 | exact | en.wikipedia.org | When she died, the god turned her into a white poplar in the Elysian Fields. | when she died, the god turned her into a white poplar which he placed in the Elysian Fields. |
+| leuce-c04 | exact | www.theoi.com | Leuke (Leuce) was an Okeanid nymph who was taken to Elysion (Elysium) by the god Haides, where she was transformed into a white poplar tree. | LEUKE (Leuce) was an Okeanid-nymph ... Elysion (Elysium) by the god Haides where she was transformed into a white poplar tree. |
+| leuce-c05 | exact | www.theoi.com | Leuke's story was probably connected with the white poplars that grew on the banks of the river Akheron (Acheron) in Thesprotia, a region famed for its necromantic oracle of Haides. | LEUKE (Leuce) was an Okeanid-nymph ... Her story was probably connected with the white poplars which grew on the banks of the river Akheron (Acheron) in Thesprotia--a region famed for its necromantic oracle of Haides. |
+| leuce-c06 | exact | www.theoi.com | Leuke was probably the same as Leukippe, an Okeanid nymph companion of the goddess Persephone mentioned in the Homeric Hymns. | Leuke was probably the same as Leukippe, an Okeanid-nymph companion of the goddess Persephone mentioned in the Homeric Hymns. |
+| leuce-c07 | exact | www.theoi.com | In R. E. Bell's Women of Classical Mythology, Leuce was a nymph, daughter of Oceanus, carried off by Hades and changed after her death into a white poplar in Elysium. The white poplar was sacred to Hades, and when Heracles returned from the underworld he was crowned with poplar leaves. | R. E. Bell, Women of Classical Mythology ... Leuce was a nymph, a daughter of Oceanus, who was carried off by Hades. After her death she was changed into a white poplar in Elysium. The white poplar was sacred to Hades. When Heracles returned form the underworld, he was crowned with poplar leaves. |
+| leuce-c08 | exact | www.theoi.com | In Pausanias' Description of Greece (trans. Jones), Herakles found the white poplar growing on the banks of the Akheron (Acheron), the river in Thesprotia. | Pausanias, Description of Greece 5. 14. 2 (trans. Jones) ... Herakles found the white poplar ... growing on the banks of the Akheron (Acheron), the river in Thesprotia |
 
 
 ## lysithea — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lysithea-c01 | exact | en.wikipedia.org | Lysithea (Lysithoe) is an Oceanid, daughter of the Titans Oceanus and Tethys. | Lysithoe, an Oceanid, as the daughter of the Titans Oceanus and his sister-consort Tethys. |
-| lysithea-c02 | exact | en.wikipedia.org | She was one of Zeus's lovers and, in this version, mother of Heracles. | She was also one of Zeus' many lovers and by him the mother of Heracles. |
+| lysithea-c02 | exact | en.wikipedia.org | She was also one of Zeus's many lovers and by him the mother of the first Heracles (out of seven). | She was also one of Zeus' many lovers and by him the mother of the first Heracles (out of seven). |
+| lysithea-c03 | exact | handbook.epicureanfriends.com | In Yonge's translation of Cicero, the most ancient Hercules is the one who fought with Apollo about the Tripos of Delphi, and is the son of Jupiter and Lisyto. | which Hercules we should chiefly worship; for they who have searched into those histories, which are but little known, tell us of several. The most ancient is he who fought with Apollo about the Tripos of Delphi, and is son of Jupiter and Lisyto |
+| lysithea-c04 | exact | en.wikipedia.org | Another Lysithea was a daughter of Evenus and mother of Helenus by Zeus; she may be the same as or distinct from the next figure. | Lysithea, a daughter of Evenus and mother of Helenus by Zeus. She may be the same or distinct with the below figure. |
+| lysithea-c05 | exact | www.newadvent.org | In Recognitions Book X, a catalogue of the adulteries the writer discusses names Lysithea, the daughter of Evenus, of whom Helenus was born. | I shall now speak of his adulteries. ... Lysithea, the daughter of Evenus, of whom Helenus; |
+| lysithea-c06 | exact | en.wikipedia.org | Lysithea is also another name of Semele, daughter of King Cadmus of Thebes and mother of Dionysus. | Lysithea, another name of Semele, daughter of King Cadmus of Thebes and mother of Dionysus. |
 
 
 ## pirene — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | pirene-c01 | exact | en.wikipedia.org | By Poseidon she became mother of Lecheas and Cenchrias. | By Poseidon she became the mother of Lecheas and Cenchrias. |
 | pirene-c02 | exact | en.wikipedia.org | When Artemis accidentally killed her son Cenchrias, Pirene's grief turned her to tears and into the fountain outside Corinth's gates. | When her son Cenchrias was unintentionally killed by Artemis, Pirene's grief was so profound that she became nothing but tears and turned into the fountain outside the gates of Corinth. |
+| pirene-c03 | exact | www.theoi.com | Peirene (Pirene) was the Naiad nymph of a fountain in the city of Korinthos (Corinth), southern Greece. She was a daughter of the Sikyonian river god Asopos, abducted to the site of the town by the god Poseidon. | PEIRENE was the Naiad-nymph of a fountain in the city of Korinthos (Corinth), southern Greece. She was a daughter of the Sikyonian river-god Asopos who was abducted to the site of the town by the god Poseidon. |
+| pirene-c04 | exact | www.theoi.com | Peirene's sons Lekhes (Leches) and Kenkhrias (Cenchrias) were the eponymous founders of the city's twin ports, one on each side of the Isthmos. | PEIRENE was the Naiad-nymph of a fountain in the city of Korinthos (Corinth), southern Greece. ... sons Lekhes (Leches) and Kenkhrias (Cenchrias), were the eponymous founders of the city's twin ports--one on each side of the Isthmos. |
+| pirene-c05 | exact | www.theoi.com | In Pausanias' Description of Greece (trans. Jones), the sons are said to be children of Poseidon and Peirene the daughter of Akheloios (Achelous), though in the poem called The Great Eoiai Peirene is said to be a daughter of Oibalos (Oebalus). | Pausanias, Description of Greece 2. 2. 2 (trans. Jones) ... said to be children of Poseidon and Peirene the daughter of Akheloios (Achelous), though in the poem called The Great Eoiai Peirene is said to be a daughter of Oibalos (Oebalus). |
+| pirene-c06 | exact | www.theoi.com | In Pausanias' Description of Greece, the legend about Peirene is that she was a woman who became a spring because of the tears shed in lamentation for her son Kenkhrias (Cenchrias), who was unintentionally killed by Artemis. | Pausanias, Description of Greece 2. 3. 3 ... The legend about Peirene is that she was a woman who became a spring because of the tears shed in lamentation for her son Kenkhrias (Cenchrias), who was unintentionally killed by Artemis. |
+| pirene-c07 | exact | www.theoi.com | In Pausanias' Description of Greece, the spring is ornamented with white marble, and chambers like caves have been made out of which the water flows into an open-air well; it is pleasant to drink. | Pausanias, Description of Greece 2. 3. 3 ... The spring is ornamented with white marble, and there have been made chambers like caves, out of which the water flows into an open-air well. It is pleasant to drink. |
+| pirene-c08 | exact | www.theoi.com | In Pindar's Olympian Ode 13 (trans. Conway), the grandsire (Bellerophon) once strove in vain beside Peirene's spring (in Korinthos) and suffered much, seeking to yoke the snake-head Gorgon's offspring, Pegasos (Pegasus). | Pindar, Olympian Ode 13 ep3 (trans. Conway) ... That grandsire [Bellerophon] who once strove in vain beside Peirene's spring [in Korinthos (Corinth)], and suffered much, seeking to yoke the snake-head Gorgon's offspring, Pegasos (Pegasus). |
 
 
 ## salamis — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | salamis-c01 | exact | en.wikipedia.org | Salamis was a nymph of Greek mythology, daughter of the river god Asopus. | was a nymph in Greek mythology, the daughter of the river-god Asopus. |
 | salamis-c02 | exact | en.wikipedia.org | Salamis's mother was Metope, daughter of the river god Ladon. | Salamis’ mother was Metope, daughter of Ladon, another river god. |
+| salamis-c03 | exact | www.theoi.com | Salamis was the Naiad nymph of a spring, well or fountain of the main town of the island of Salamis (in southern Greece). She was a daughter of the river god Asopos, abducted to the island by Poseidon. Their son Kykhreus (Cychreus) was the first king of Salamis. | SALAMIS was the Naiad-nymph of a spring, well or fountain of the main town of the island of Salamis (in southern Greece). She was a daughter of the river-god Asopos who was abducted to the island by Poseidon. Their son Kykhreus (Cychreus) was the first king of Salamis. |
+| salamis-c04 | exact | www.theoi.com | In Corinna's Fragment 654 (trans. Campbell), Korkyra (Corcyra), Salamis and lovely Euboia (Euboea) were stolen by father Poseidon. | Corinna, Fragment 654 (trans. Campbell, Vol. Greek Lyric IV) ... Korkyra (Corcyra) and Salamis and lovely Euboia (Euboea) were stolen by father Poseidon. |
+| salamis-c05 | exact | www.theoi.com | In Pausanias' Description of Greece (trans. Jones), it is said that the first to give the name Salamis to the island was Kykhreus (Cychreus), who called it after his mother Salamis, the daughter of Asopos. | Pausanias, Description of Greece 1. 35. 2 (trans. Jones) ... It is said that the first to give this name [Salamis] to the island was Kykhreus (Cychreus), who called it after his mother Salamis, the daughter of Asopos. |
+| salamis-c06 | exact | www.theoi.com | In Diodorus Siculus' Library of History (trans. Oldfather), Salamis was seized by Poseidon and taken to the island named Salamis after her; she lay with Poseidon and bore Kykhreus (Cychreus), who became king of this island. | Diodorus Siculus, Library of History 4. 72. 1-5 (trans. Oldfather) ... Salamis was seized by Poseidon and taken to the island which was named Salamis after her; and she lay with Poseidon and bore Kykhreus (Cychreus), who became king of this island. |
+| salamis-c07 | exact | www.theoi.com | In Pausanias' Description of Greece, among the paintings in the temple of Zeus at Olympia is Salamis carrying in her hand the ornament made for the top of a ship's bow. | Pausanias, Description of Greece 5. 11. 5 ... [In the temple of Zeus at Olympia are paintings :] Salamis carrying in her hand the ornament made for the top of a ship's bow. |
 
 
 ## strix-mythology — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | strix-mythology-c01 | exact | en.wikipedia.org | In classical mythology the strix was an ill-omened bird, product of metamorphosis, that fed on human flesh and blood. | in the mythology of classical antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. |
 | strix-mythology-c02 | exact | en.wikipedia.org | The term also referred to witches and similar malevolent beings. | It also referred to witches and related malevolent folkloric beings. |
 | strix-mythology-c03 | exact | en.wikipedia.org | In Ovid's Fasti the strix is a large-headed bird with staring eyes, a rapacious beak, greyish-white wings and hooked claws. | The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti. |
+| strix-mythology-c04 | exact | www.theoi.com | In Ovid's Fasti, the greedy birds have big heads, goggle eyes, beaks formed for rapine, feathers blotched with grey and claws fitted with hooks; they fly by night and attack nurseless children. | OVID, FASTI 6 ... There are greedy birds ... Big is their head, goggle their eyes, their beaks are formed for rapine, their feathers blotched with grey, their claws fitted with hooks. They fly by night and attack nurseless children |
+| strix-mythology-c05 | exact | www.theoi.com | In Ovid's Fasti, the birds are said to rend the flesh of sucklings with their beaks, and their throats are full of the blood they have drunk; their name is screech-owl because they are wont to screech horribly by night. | OVID, FASTI 6 ... There are greedy birds ... They are said to rend the flesh of sucklings with their beaks, and their throats are full of the blood which they have drunk. Screech-owl is their name, but the reason of the name is that they are wont to screech horribly by night. |
+| strix-mythology-c06 | exact | www.theoi.com | In Ovid's Fasti, whether they are born birds or are made such by enchantment and are nothing but beldames transformed into fowls by a spell, they came into the chambers of Proca. | OVID, FASTI 6 ... Whether, therefore, they are born birds, or are made such by enchantment and are nothing but beldames transformed into fowls by a ... spell, they came into the chambers of Proca. |
+| strix-mythology-c07 | exact | www.theoi.com | In Ovid's Fasti, in the chambers of Proca a child five days old was a fresh prey for the birds; they sucked the infant with their greedy tongues, and the poor child squalled and craved help. | OVID, FASTI 6 ... In the chambers Proca, a child five days old, was a fresh prey for the birds. They sucked the infant with their greedy tongues, and the poor child squalled and craved help. |
+| strix-mythology-c08 | exact | www.theoi.com | In Ovid's Fasti, a rod of Janus taken from the white-thorn was placed where a small window gave light to the chambers; after that, it is said, the birds did not violate the cradle, and the boy recovered his former colour. | OVID, FASTI 6 ... A rod of Janus, taken from the white-thorn, was placed where a small window gave light to the chambers. After that, it is said that the birds did not violate the cradle, and the boy recovered his former colour. |
+| strix-mythology-c09 | exact | www.perseus.tufts.edu | In Pliny the Elder's Natural History (Bostock and Riley translation), the stories of the screech-owl ejecting milk from its teats upon the lips of infants he regards as utterly fabulous. | Pliny the Elder, The Natural History ... As for the stories that they tell, about the screech-owl ejecting milk from its teats upon the lips of infants, I look upon it as utterly fabulous |
+| strix-mythology-c10 | exact | www.perseus.tufts.edu | In Pliny the Elder's Natural History, he is aware that from ancient times the name "strix" has been employed in maledictions, but he does not think it well ascertained what bird is really meant by that name. | Pliny the Elder, The Natural History ... from ancient times the name "strix," ... I am aware, has been employed in maledictions, but I do not think it is well ascertained what bird is really meant by that name. |
 
 
 ## vrykolakas — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | vrykolakas-c01 | exact | en.wikipedia.org | A vrykolakas is a harmful undead creature of Greek folklore. | is a harmful undead creature in Greek folklore. |
 | vrykolakas-c02 | exact | en.wikipedia.org | It resembles many legendary creatures but is generally equated with the vampire of neighbouring Slavic folklore. | It shares similarities with numerous other legendary creatures, but is generally equated with the vampire of the folklore of the neighbouring Slavic countries. |
+| vrykolakas-c03 | exact | www.gutenberg.org | In Lawson's work, Leo Allatius writes that the vrykolakas is the body of a man of evil and immoral life, very often one who has been excommunicated by his bishop. | Leo Allatius. ‘The vrykolakas,’ he writes ... ‘is the body of a man of evil and immoral life—very often of one who has been excommunicated by his bishop. |
+| vrykolakas-c04 | exact | www.gutenberg.org | In Lawson's work, according to Leo Allatius, the devil enters such a body, and issuing from the tomb it goes about, chiefly at night, knocking at doors and calling one of the household; if such a one answers he dies next day, but a vrykolakas never calls twice. | Leo Allatius. ... Into such a body, he continues, the devil enters, and issuing from the tomb goes about, chiefly at night, knocking at doors and calling one of the household. If such an one answer, he dies next day; but a vrykolakas never calls twice |
+| vrykolakas-c05 | exact | www.gutenberg.org | In Lawson's work, such bodies do not decompose after burial like those of other dead men nor turn to dust; the skin becomes stretched like the parchment of a drum and gives out the same sound when struck, and from this circumstance the vrykolakas has received its name. | Such bodies do not like those of other dead men suffer decomposition after burial nor turn to dust, ... the skin becomes stretched like the parchment of a drum, and when struck gives out the same sound; from this circumstance the vrykolakas has received the name |
+| vrykolakas-c06 | exact | www.gutenberg.org | In Lawson's work, this monster is said to be so destructive to men that, appearing even in the daytime and at noon, in houses, fields, highroads and enclosed vineyards, it advances upon them as they walk and kills them by its mere aspect without speech or touch. | ‘This monster is said to be so destructive to men, that appearing actually in the daytime, even at noon—and that not only in houses but in fields and highroads and enclosed vineyards—it advances upon them as they walk along, and by its mere aspect without either speech or touch kills them. |
+| vrykolakas-c07 | exact | www.gutenberg.org | In Lawson's work, the body is taken out of the grave, the priests recite prayers, and it is thrown onto a burning pyre; before the supplications are finished the joints gradually fall apart and all the remains are burnt to ashes. | it is taken out of the grave, the priests recite prayers, and it is thrown on to a burning pyre; before the supplications are finished the joints of the body gradually fall apart; and all the remains are burnt to ashes |
+| vrykolakas-c08 | exact | www.gutenberg.org | In Lawson's work, a history of the district says it is popularly believed that most of the dead, those who lived bad lives or were excommunicated by some priest, become vrykolakes: after the soul separates from the body an evil spirit enters the body, takes the place of the soul and assumes the shape of the dead man, and so is transformed into a vrykolakas or man-demon. | It is popularly believed that most of the dead, those who have lived bad lives or who have been excommunicated by some priest ... that is to say, after the separation of the soul from the body there enters into the latter an evil ... spirit, which takes the place of the soul and assumes the shape of the dead man and so is transformed into a vrykolakas or man-demon. |
+| vrykolakas-c09 | exact | www.gutenberg.org | In Lawson's work, the common practice of the vrykolakes is to seat themselves upon those who are asleep and by their enormous weight cause an agonizing sense of oppression. | The common practice of the vrykolakes is to seat themselves upon those who are asleep and by their enormous weight to cause an agonizing sense of oppression. |
+| vrykolakas-c10 | exact | www.gutenberg.org | In Lawson's work, if someone at hand perceives the sufferer's torment and fires off a gun, the blood-thirsty monster is put to flight; fortunately it is afraid of the report of fire-arms and retreats without effecting its purpose. | if there be not someone at hand who perceives his torment and fires off a gun, thereby putting the blood-thirsty monster to flight; for fortunately it is afraid of the report of fire-arms and retreats without effecting its purpose. |
 
 
 ## aethon-q1371462 — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | aethon-q1371462-c01 | exact | id.wikipedia.org | In Greek mythology, the Caucasian Eagle is an eagle, child of Typhon and Echidna. | Dalam mitologi Yunani, Elang Kaukasus adalah seekor burung elang yang merupakan anak dari Tifon dan Ekhidna. |
 | aethon-q1371462-c02 | exact | id.wikipedia.org | Zeus chained Prometheus to a Caucasus cliff, and every day an eagle came to eat his liver. | Zeus merantai Prometheus di sebuah tebing di pegunungan Kaukasus dan setiap hari akan datang seekor elang yang memakan hati Prometheus. |
+| aethon-q1371462-c03 | exact | www.theoi.com | The Aetos Kaukasios (Caucasian Eagle) was a gigantic eagle sent by Zeus to feed upon the ever-regenerating liver of the Titan Prometheus after he was chained to a peak of the Kaukasos (Caucasus) Mountains as punishment for stealing fire from the gods. | THE AETOS KAUKASIOS (Caucasian Eagle) was a gigantic eagle sent by Zeus to feed upon the ever-regenerating liver of the Titan Prometheus after he was chained to a peak of the Kaukasos (Caucasus) Mountains as punishment for stealing fire from the gods. |
+| aethon-q1371462-c04 | exact | www.theoi.com | The eagle was variously described as a bronze automaton constructed by the god Hephaistos (Hephaestus), or as a fell creature spawned by the drakaina Ekhidna (Echidna). | The eagle was variously described as a bronze automaton constructed by the god Hephaistos (Hephaestus), or as a fell creature spawned by the drakaina Ekhidna (Echidna). |
+| aethon-q1371462-c05 | exact | www.theoi.com | When Herakles set out to free Prometheus from his bonds, he felled the eagle with a volley of arrows. | When Herakles set out to free Prometheus from his bonds, he felled the eagle with a volley of arrows. |
+| aethon-q1371462-c06 | exact | www.theoi.com | In Hesiod's Theogony (trans. Evelyn-White), a long-winged eagle was set on Prometheus to eat his immortal liver, but by night the liver grew as much again as the bird devoured in the whole day; Herakles (Heracles), the valiant son of Alkmene (Alcmena), slew that bird. | Hesiod, Theogony 507 ff (trans. Evelyn-White) ... Ready-witted Prometheus he [Zeus] bound with inextricable bonds, cruel chains ... set on him a long-winged eagle, which used to eat his immortal liver; but by night the liver grew as much again everyway as the long-winged bird devoured in the whole day. That bird Herakles (Heracles), the valiant son of shapely-ankled Alkmene (Alcmena), slew |
+| aethon-q1371462-c07 | exact | www.theoi.com | In Apollonius Rhodius' Argonautica (trans. Rieu), they saw it in the afternoon flying high above the ship with a strident whirr; it was near the clouds, yet its wings made all their canvas quiver as it beat by. Its form was not that of an ordinary bird: the long quill-feathers of each wing rose and fell like a bank of polished oars. | Apollonius Rhodius, Argonautica 2. 1238 ff (trans. Rieu) ... They saw it in the afternoon flying high above the ship with a strident whirr. It was near the clouds, yet it made all their canvas quiver to its wings as it beat by. For its form was not that of an ordinary bird : the long quill-feathers of each wing rose and fell like a bank of polished oars. |
+| aethon-q1371462-c08 | exact | www.theoi.com | In Aeschylus' Prometheus Bound, the winged hound of Zeus, the ravening eagle, comes an unbidden banqueter the whole day long and with savage appetite shall tear the body piecemeal into great rents and feast his fill upon the liver until it is black with gnawing. | Aeschylus, Prometheus Bound 1021 ff ... The winged hound of Zeus, the ravening eagle, coming an unbidden banqueter the whole day long, with savage appetite shall tear your body piecemeal into great rents and feast his fill upon your liver until it is black with gnawing. |
 
 
 ## aganippe — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | aganippe-c01 | exact | en.wikipedia.org | Aganippe was the name of a spring and of its naiad. | was the name of both a spring and the Naiad (a Crinaea) associated with it. |
 | aganippe-c02 | exact | en.wikipedia.org | The spring is in Boeotia near Thespiae at the foot of Mount Helicon, linked to the Muses, sometimes called Aganippides. | The spring is in Boeotia, near Thespiae, at the base of Mount Helicon, and was associated with the Muses who were sometimes called Aganippides. |
 | aganippe-c03 | exact | en.wikipedia.org | Drinking from her well was considered a source of poetic inspiration. | Drinking from her well, it was considered to be a source of poetic inspiration. |
+| aganippe-c04 | exact | www.theoi.com | Aganippe was the Naiad nymph of the spring of Aganippe on Mount Helikon (Helicon) in Boiotia (central Greece). She was a daughter of the nearby river Termessos. | AGANIPPE was the Naiad-nymph of the spring of Aganippe on Mount Helikon (Helicon) in Boiotia (central Greece). She was a daughter of the nearby river Termessos. |
+| aganippe-c05 | exact | www.theoi.com | Aganippe was perhaps the same as Eupheme, nurse of the Mousai (Muses). | Aganippe was perhaps the same as Eupheme, nurse of the Mousai (Muses). |
+| aganippe-c06 | exact | www.theoi.com | In Pausanias' Description of Greece (trans. Jones), on Helikon (the mountain of Boiotia), on the left as you go to the grove of the Mousai (Muses), is the spring Aganippe; they say Aganippe was a daughter of the Termessos, which flows around Helikon. | Pausanias, Description of Greece 9. 29. 5 (trans. Jones) ... On Helikon (Helicon) [the mountain of Boiotia], on the left as you go to the grove of the Mousai (Muses), is the spring Aganippe; they say that Aganippe was a daughter of the Termessos, which flows around Helikon. |
+| aganippe-c07 | exact | www.theoi.com | According to this encyclopedia, Aganippe was a nymph of the well of the same name at the foot of Mount Helicon in Boeotia, considered sacred to the Muses and believed to have the power of inspiring those who drank of it. | A nymph of the well of the same name at the foot of Mount Helicon, in Boeotia, which was considered sacred to the Muses, and believed to have the power of inspiring those who drank of it. |
+| aganippe-c08 | exact | www.theoi.com | According to this encyclopedia, the nymph is called a daughter of the river god Permessus. | The nymph is called a daughter of the river-god Permessus. |
 
 
 ## clytius — lulus-otomatis
