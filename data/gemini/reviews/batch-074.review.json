@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-074",
-  "checked_at": "2026-10-01T18:43:01.866Z",
+  "checked_at": "2026-10-06T14:41:35.956Z",
   "files": [
     "batch-074.md",
     "batch-074-fix-1.md",
-    "batch-074-fix-2.md"
+    "batch-074-fix-2.md",
+    "batch-074-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -81,7 +82,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac9c6ffc1839d54bde720c470cc43d435a5d983ad6e9d1bd3992e0a96a063113"
     },
     {
       "slug": "kanthaka",
@@ -169,7 +171,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e486deb48130ecf3e9554fbbaff380284bc4a27a4643bbd411a72fb08cef0376"
     },
     {
       "slug": "karkotaka",
@@ -245,7 +248,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9f6be2401615d53b1d357fa5e4874bc413272b85cf07dd2c4c19e92c1c6bff38"
     },
     {
       "slug": "manohara",
@@ -319,7 +323,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b099143de7959d5e3b631bb027fcb88edace8d6b82ab8f119c39098f4960292f"
     },
     {
       "slug": "tarakasur",
@@ -401,7 +406,8 @@
           "archive_url": "https://web.archive.org/web/20251122190407id_/https://www.gutenberg.org/files/31968/31968-h/31968-h.htm"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "58c90a33c786a5f29180f2c55a10c26d47e2de02a20726ce1b483f6707d9d6e0"
     },
     {
       "slug": "aghasura",
@@ -475,7 +481,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "19d4811abf14fce23b12624342ea36baa5f1880931a8197b00ee7ff72bcd4eb5"
     },
     {
       "slug": "sarama",
@@ -556,7 +563,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0dabb1a9c9876719c962d7cbc9cfaaf8dc7603ec82750acd1a8ace67b76aa3e8"
     },
     {
       "slug": "shakchunni",
@@ -648,24 +656,20 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d6c348f5fe05364f179eb82d340f461cb9e1a50a6995aec2e5c74370f1fce610"
     },
     {
       "slug": "lawdasura",
-      "file": "batch-074-fix-1.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "c034de416f7348d0f161be406f4f394a092f604bc22c94982e1ca2f105a3c80a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lawdasura-c01",
@@ -724,6 +728,66 @@
           "statement": "During the fight Lavana uproots trees and throws them at Shatrughna.",
           "statement_id": "Dalam pertarungan, Lavana mencabut pohon dan melemparkannya ke Shatrughna.",
           "quote": "Lavana uprooted many trees and threw them on Shatrughna, and a great battle ensued.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c07",
+          "source_id": "lawdasura-s2",
+          "host": "prekshaa.in",
+          "statement": "According to this retelling, the rakshasa Madhu received a boon from Shiva in the form of an invincible spear (shula) that could reduce enemies to ashes.",
+          "statement_id": "Menurut penuturan ini, raksasa Madhu menerima anugerah dari Shiva berupa tombak (shula) yang tak terkalahkan; tombak itu mampu menghanguskan musuh menjadi abu.",
+          "quote": "In the past, a rākṣasa named Madhu received a boon from Śiva, because of which he got an invincible śūla – spear. The spear was endowed with the ability to reduce enemies to ashes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c08",
+          "source_id": "lawdasura-s2",
+          "host": "prekshaa.in",
+          "statement": "Madhu passed away after giving the spear to his ruthless son Lavana. Lavanasura is described as tormenting the worlds with his vile nature and the special power of the spear.",
+          "statement_id": "Madhu wafat setelah menyerahkan tombak itu kepada putranya yang kejam, Lavana. Lavanasura digambarkan menyiksa dunia dengan sifat buruknya dan kekuatan khusus tombak itu.",
+          "quote": "Madhu passed away bestowing the spear to his ruthless son Lavaṇa. Now, this Lavaṇāsura torments the worlds with his vile nature and the special power of the spear.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c09",
+          "source_id": "lawdasura-s2",
+          "host": "prekshaa.in",
+          "statement": "Rama gave Shatrughna a powerful arrow created by Vishnu and sent him with a large army to vanquish Lavanasura.",
+          "statement_id": "Rama menghadiahkan kepada Shatrughna sebuah panah kuat ciptaan Wisnu dan mengirimnya bersama pasukan besar untuk menaklukkan Lavanasura.",
+          "quote": "Rāma gifted Śatrughna a powerful arrow created by Viṣṇu and sent him with a large army to vanquish Lavaṇāsura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c10",
+          "source_id": "lawdasura-s2",
+          "host": "prekshaa.in",
+          "statement": "Shatrughna arrived at a sage's hermitage on the banks of the River Yamuna and slew Lavanasura with the arrow Rama had given him.",
+          "statement_id": "Shatrughna tiba di pertapaan seorang resi di tepi Sungai Yamuna, lalu membunuh Lavanasura dengan panah pemberian Rama.",
+          "quote": "The next morning, Śatrughna took leave of Sage Vālmīki and arrived at the āśrama of Sage Cyavana on the banks of River Yamunā. He slew Lavaṇāsura using the arrow Rāma had gifted him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c11",
+          "source_id": "lawdasura-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "It is stated that Mandhata once fought Lavanasura but had to accept defeat before the god-given spear that Lavanasura possessed.",
+          "statement_id": "Disebutkan bahwa Mandhata pernah melawan Lavanasura tetapi harus mengaku kalah menghadapi tombak pemberian dewa yang dimiliki Lavanasura.",
+          "quote": "Māndhātā had to fight once against Lavaṇāsura but had to accept defeat before the god-given spear which Lavaṇāsura possessed. (Uttara Rāmāyaṇa).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lawdasura-c12",
+          "source_id": "lawdasura-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "In this source it is Rama, at the request of the munis of the Yamuna plain, who killed Lavanasura, son of Madhu, in the great city called Durga in the middle of the Madhu forest.",
+          "statement_id": "Dalam sumber ini, Rama (atas permintaan para muni di dataran Yamuna) yang membunuh Lavanasura, putra Madhu, di kota besar bernama Durga di tengah hutan Madhu.",
+          "quote": "It was during this period that Rāma, as desired by the munis in the Yamunā plain, killed Lavaṇāsura, son of Madhu in the great city called Durga in the centre of the Madhu forest.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -802,7 +866,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9bf1f784ff08690e9882180aafa86bea2e54d89b0c592a5a77cd3545dd0af298"
     },
     {
       "slug": "world-turtle",
@@ -878,7 +943,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "94b2b4871d8081de9e9ea8674c6671851cbe5b86311e74f819f0cfbbdd4c2a20"
     },
     {
       "slug": "akuma-folklore",
@@ -962,7 +1028,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "838efd236ba2514476b0dacd08294636f29f8ad4d62ccea6d546c70a28f8d7a9"
     },
     {
       "slug": "crocotta",
@@ -1043,7 +1110,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "07563b041e39ab67c7341a9634a984e929a690860bbda55b9a7d593d2e332fef"
     },
     {
       "slug": "keshi",
@@ -1117,7 +1185,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c29998e000f9cfa8b3731ba099dd5c36e7c7b9614fefd32da2d802e72c13b97"
     },
     {
       "slug": "mahoraga",
@@ -1198,7 +1267,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5c60942a653b9c8e1054883805ab85de215a1f10813350810251ed76ca3efc55"
     },
     {
       "slug": "manibhadra",
@@ -1274,7 +1344,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fdd38d155c0ff5b6c77d79efe783f62b1d794acdbf25c06dd436953600751f0d"
     },
     {
       "slug": "matarisvan",
@@ -1350,7 +1421,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9e5548389963cdc4976079c258101e98625f624e9e4a72cfea5321e5a4b64488"
     },
     {
       "slug": "navagunjara",
@@ -1434,7 +1506,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d51f3f0befba2703ee9336d6ea0c34a66e72941ecb854bdb0a76e345bf1ff34f"
     },
     {
       "slug": "acheri",
@@ -1518,7 +1591,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d35ce234f4ab84d73663bdf778a33d44d938d9e90d65add1ea438d3a0445fd1c"
     },
     {
       "slug": "apalala",
@@ -1609,7 +1683,8 @@
           "detail": "HTTP 500"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c45fdbe17db66531dd4d9be0f69ce8a25464cd51c149d93673a1121f5d1f86b"
     },
     {
       "slug": "kalavinka",
@@ -1693,7 +1768,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a1b87f3e6c066e1e1f5e8115e3b58793645d308c3c7a4b8e5fdf549615edf0f3"
     },
     {
       "slug": "kumbhanda",
@@ -1767,24 +1843,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6912082666d280a95ea2d1bb6ac9df786bb61d042438b76e15c9011006080072"
     },
     {
       "slug": "lai-khutshangbi",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "fa856250d687823103b3e642aec41cb13921c0f7ffc534ec31c3f47ab052c173",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lai-khutshangbi-c01",
@@ -1844,6 +1916,86 @@
           "statement_id": "Shasipa memotong kedua tangannya; darah yang jatuh dipercaya menjadi bercak merah pada tanaman.",
           "quote": "The blood flew out of her cut arm and fell onto many plants growing on her way to the forest. It is said that the red patches seen on some plants is her blood. ... Then, he chopped off that arm too.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c07",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "According to this essay, she has no name (she is known so because of her unusually long hands), no lineage, and lives alone in the forest.",
+          "statement_id": "Menurut esai ini, ia tidak punya nama (dikenal demikian karena tangannya yang luar biasa panjang), tidak punya garis keturunan, dan hidup sendirian di hutan.",
+          "quote": "She does not have a name, she is known so because of her unusually long hands, she does not have a lineage, and she lives alone in the forest.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c08",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "The essay says she is never portrayed as a magical, immortal soul but as an extra-human, demon-like, evil witch, a mortal woman with immense faculty (long hands) and evil prowess.",
+          "statement_id": "Esai itu menyebut ia tidak pernah digambarkan sebagai jiwa gaib yang abadi, melainkan sosok di luar manusia biasa yang menyerupai iblis dan penyihir jahat, seorang perempuan fana dengan kemampuan besar (tangan panjang) dan kekuatan jahat.",
+          "quote": "Notwithstanding her extraordinary character, she is never portrayed as a magical, immortal soul; she is portrayed as an extra-human, demon-like, evil witch; she is a mortal woman with immense faculty (long hands) and evil prowess.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c09",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "She kidnaps young children and kills animals and has an inordinate appetite for human flesh, from which the village women and children have to be protected.",
+          "statement_id": "Ia menculik anak kecil dan membunuh hewan, serta memiliki nafsu makan daging manusia yang berlebihan, sehingga para perempuan dan anak di desa harus dilindungi darinya.",
+          "quote": "She kidnaps young children and kills animals, and she has an inordinate appetite for human flesh, from which the village women and children have to be protected.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c10",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "She uses her long hands as weapons to kill her prey.",
+          "statement_id": "Ia memakai tangannya yang panjang sebagai senjata untuk membunuh mangsanya.",
+          "quote": "She uses her long hands as weapons to kill her prey.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c11",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "The essay states she is not inherently weak, but without her hands she is reduced to tears and helplessness; once her hands are cut off she flees in fear.",
+          "statement_id": "Esai itu menyatakan ia pada dasarnya tidak lemah, tetapi tanpa tangannya ia menjadi menangis dan tak berdaya; setelah tangannya terpotong ia melarikan diri ketakutan.",
+          "quote": "Lai Khutsangbi is not inherently weak, but in absence of her hands she is reduced to tears and helplessness. Once her hands are cut off she flees in fear.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c12",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "She lives in a remote area where untamed wilderness meets human dwelling, a heavily forested, sparsely populated village community.",
+          "statement_id": "Ia tinggal di daerah terpencil tempat alam liar bertemu permukiman manusia, yaitu masyarakat desa yang berhutan lebat dan berpenduduk jarang.",
+          "quote": "Lai Khutsangbi lives in a remote geographical area where the wilderness of the untamed nature meets the human dwelling, a heavily forested, sparsely populated village community.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c13",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "According to the essay, the story of Lai Khutsangbi is told to young audiences as a cautionary tale to stay in the safety of the home.",
+          "statement_id": "Menurut esai itu, kisah Lai Khutsangbi disampaikan kepada anak-anak sebagai cerita peringatan agar tetap berada di dalam rumah yang aman.",
+          "quote": "The story of Lai Khutsangbi is tendered for the young audience as a cautionary tale to stay in the safety of the home.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lai-khutshangbi-c14",
+          "source_id": "lai-khutshangbi-s2",
+          "host": "e-pao.net",
+          "statement": "According to the essay, in the everyday parlance of the Manipuris Lai Khutsangbi is used as a metaphor for an unpleasant and unacceptable show of female agency.",
+          "statement_id": "Menurut esai itu, dalam percakapan sehari-hari orang Manipur, nama Lai Khutsangbi dipakai sebagai kiasan bagi unjuk kehendak perempuan yang tidak menyenangkan dan tidak dapat diterima.",
+          "quote": "In the everyday parlance of the Manipuris, Lai Khutsangbi is used as a metaphor for unpleasant and unacceptable show of female agency",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1921,24 +2073,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4fa895c75d7ca721cbe0562e90bebb449b7542de09bc6b64233bf5dce2f303ec"
     },
     {
       "slug": "bramrachokh",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "2faa5cf7dd355c6fb1defa786cf77a79e7b7af20509b03c41d1e49b152664ee4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bramrachokh-c01",
@@ -1998,6 +2146,16 @@
           "statement_id": "Anak desa kadang mengaitkan cahaya berkedip di kejauhan dengan dirinya.",
           "quote": "Village children who see lights burning and extinguishing in the distance sometimes attribute this to Bramrachokh.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bramrachokh-c07",
+          "source_id": "bramrachokh-s2",
+          "host": "dsal.uchicago.edu",
+          "statement": "The Kashmiri dictionary gives the word ब्रमराचोख् (bramarācōkh) and defines it as a kind of demon or ghost that dwells in waste places and misleads travellers by pretending to be a light, a will-o'-the-wisp.",
+          "statement_id": "Kamus bahasa Kashmiri menuliskan kata ब्रमराचोख् (bramarācōkh) dan mendefinisikannya sebagai jenis iblis atau hantu yang tinggal di tempat terbengkalai dan menyesatkan pelancong dengan berpura-pura menjadi cahaya, seperti will-o'-the-wisp.",
+          "quote": "ब्रमराचोख् । भूतविशेषः m. (sg. dat. bramarācōkas ब्रमराचोकस् ), a certain kind of demon or ghost, who dwells in waste places and misleads travellers by pretending to be a light, a will-o'-the-wisp.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -2083,7 +2241,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22f28aff4487493fe728a43ef193e84e0fd77398e08ec667e56b920afabda9b2"
     },
     {
       "slug": "mada",
@@ -2174,7 +2333,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8e13f4ac7da13133c16ae160d186e7dbd535a7c40c120b96b57ca57c2c261f11"
     },
     {
       "slug": "manussiha",
@@ -2248,7 +2408,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4b348abff4ff8314b1802fda412c3c07e3d52550f29722283e192f5917c71f9e"
     },
     {
       "slug": "naale-ba",
@@ -2322,7 +2483,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "afbcb2e3c14f05a38b57bf8844beca272acc72685bc350b48bc2fa15b71a0ac0"
     },
     {
       "slug": "naga-people",
@@ -2403,7 +2565,8 @@
           "detail": "HTTP 500"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "42880aed3383df2e4b62399d0456bc66d36be414f19a4d955ed4e4802a75db87"
     },
     {
       "slug": "nongshaba",
@@ -2494,24 +2657,20 @@
           "detail": "halaman dinamis; teks tidak terbaca otomatis"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1a32357f0ead8e9d44b7fbd63bf516bc08b36a94ddcbaed6757c9dd211589c10"
     },
     {
       "slug": "ahiravana",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "1da85646a3b38b9cef0120a61f2851fb2811bef3d663a157435a22c11724e85e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ahiravana-c01",
@@ -2572,26 +2731,71 @@
           "quote": "He cast the nidra mantra (sleeping spell) on the vanara army, kidnapped Rama and Lakshmana,",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ahiravana-c07",
+          "source_id": "ahiravana-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In the Shiva Purana, the figure whose story is told in that chapter slew the demon Mahiravana and, after guarding them well, brought Rama and Lakshmana from his place to their own.",
+          "statement_id": "Dalam Shiva Purana, tokoh yang dikisahkan di bab itu membunuh iblis Mahiravana dan, setelah menjaga mereka dengan baik, membawa Rama dan Laksmana dari tempat Mahiravana ke tempat mereka sendiri.",
+          "quote": "He slew the demon Mahīrāvaṇa and brought Rāma and Lakṣmaṇa from his place to their own after guarding them well.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahiravana-c08",
+          "source_id": "ahiravana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A study of a temple in Assam mentions the story of Mahiravana, the maternal uncle of Ravana, bringing Ram and Laxman to Paataal for sacrifice.",
+          "statement_id": "Sebuah kajian tentang kuil di Assam menyebut kisah Mahiravana, paman dari pihak ibu Ravana, yang membawa Rama dan Laxman ke Paataal untuk dikorbankan.",
+          "quote": "Here, the story of bringing Ram and Laxman to the Paataal by Mahiravana—the maternal uncle of Ravana for sacrifice.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ahiravana-c09",
+          "source_id": "ahiravana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "According to that study, Mahiravana prepared Ram and Laxmana to be sacrificed before the goddess Kaali in Paataal.",
+          "statement_id": "Menurut kajian itu, Mahiravana menyiapkan Ram dan Laxmana untuk dikorbankan di hadapan dewi Kaali di Paataal.",
+          "quote": "Mahiravana prepared both Ram-Laxmana to sacrifice before the goddess Kaali in Paataal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ahiravana-c10",
+          "source_id": "ahiravana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "At that time Hanuman appeared in the disguise of a fly, rested upon Ram's hands, violated the rituals of Bali, and rescued them.",
+          "statement_id": "Pada saat itu Hanuman muncul menyamar sebagai lalat, hinggap di tangan Ram, melanggar ritual Bali, dan menyelamatkan mereka.",
+          "quote": "During that time Hanuman appeared there in disguise of a fly and rested upon the hands of Ram and violated the rituals of Bali and rescued them from that.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ahiravana-c11",
+          "source_id": "ahiravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mahiravana is the king of Patala (the netherworld) and a trusted friend or brother of Ravana.",
+          "statement_id": "Mahiravana adalah raja Patala (dunia bawah) dan sahabat tepercaya atau saudara Ravana.",
+          "quote": "Mahiravana is the king of the Patala (netherworld) and a trusted friend/brother of Ravana.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dawon",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "23bf75baa8d78df92f95db7b3cc60987665d337bbcfdcc0ef1a36c357f17b5e8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dawon-c01",
@@ -2651,6 +2855,56 @@
           "statement_id": "Artikel menghubungkan Dawon dengan harimau suci Tibet yang kemudian disebut Gdon.",
           "quote": "It is a sacred tiger in Tibetan lore, and was later known as 'Gdon.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dawon-c07",
+          "source_id": "dawon-s2",
+          "host": "devimahatmyam.aurobharati.in",
+          "statement": "In the Devimahatmyam, Himavan gave the Goddess the lion as her vehicle, along with various gems.",
+          "statement_id": "Dalam Devimahatmyam, Himavan memberi Sang Dewi singa sebagai kendaraannya, beserta berbagai permata.",
+          "quote": "Himavān gave her the lion as the vehicle and various gems.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dawon-c08",
+          "source_id": "dawon-s2",
+          "host": "devimahatmyam.aurobharati.in",
+          "statement": "The lion, the mount of Devi, shook its mane in fury and roamed amidst the armies of the Asuras like fire in the forests.",
+          "statement_id": "Singa tunggangan Devi mengibaskan surainya dalam murka dan berkeliaran di antara pasukan Asura bagaikan api di hutan.",
+          "quote": "And the lion also, the mount of Devi, shook its mane in fury and roamed amidst the armies of the Asuras like fire in the forests.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dawon-c09",
+          "source_id": "dawon-s2",
+          "host": "devimahatmyam.aurobharati.in",
+          "statement": "The lion, shaking its mane and roaring terribly, prowled about as if searching for the life-breaths in the bodies of the enemies of the immortals.",
+          "statement_id": "Singa itu mengibaskan surainya dan mengaum dahsyat sambil berkeliaran, seolah-olah mencari napas kehidupan dalam tubuh musuh para dewa abadi.",
+          "quote": "That lion also, shaking its mane and making a terrible roar prowled about, searching as it were the life - breaths in the bodies of the enemies of the immortals.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dawon-c10",
+          "source_id": "dawon-s3",
+          "host": "devimahatmyam.aurobharati.in",
+          "statement": "The lion leaped upwards, seated itself between the temples of the elephant, and engaged in a hand-to-hand fight with that enemy of the gods.",
+          "statement_id": "Singa itu melompat ke atas, duduk di antara pelipis gajah, lalu bertarung tangan kosong melawan musuh para dewa itu.",
+          "quote": "Then, the lion leaped upwards, seated itself between the temples of the elephant and engaged itself in a hand to hand fight with that enemy of the gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "dawon-c11",
+          "source_id": "dawon-s3",
+          "host": "devimahatmyam.aurobharati.in",
+          "statement": "After laying low the hosts of Pramathas, the Asura leaped to slay the lion of the great Goddess; seeing this, the Mother became angry.",
+          "statement_id": "Setelah menjatuhkan pasukan Pramatha, Asura itu melompat untuk membunuh singa milik Dewi Agung; melihat itu, Sang Ibu menjadi murka.",
+          "quote": "After laying low the hosts of Pramathas, that Asura leaped to slay the lion of the great Goddess. Seeing this, the Mother became angry.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -2738,24 +2992,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "218c028b9febb10fbea45159136683e89cb172e246e7cbefdd7c2d784998206d"
     },
     {
       "slug": "gajasimha",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "19e67d76370eefec9279efebe331b9c3a27957e17169071652aaad17139adffa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gajasimha-c01",
@@ -2814,6 +3064,46 @@
           "statement": "It is a supporter in Siam's coat of arms used in 1873–1910.",
           "statement_id": "Ia menjadi penopang dalam lambang Siam yang digunakan pada 1873–1910.",
           "quote": "It appears as a supporter in the coat of arms of Siam, in use from 1873 to 1910,",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gajasimha-c07",
+          "source_id": "gajasimha-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "A study of temple architecture describes giant figures of Gaja-Simha: a lion trampling an elephant, or the mythical animal Gaja-Vidala with the body of a lion and the face of an elephant, trampling the \"Apasmarapurusa\" or demon.",
+          "statement_id": "Sebuah studi arsitektur candi menyebut figur raksasa Gaja-Simha: singa yang menginjak gajah, atau hewan mitos Gaja-Vidala yang bertubuh singa dan berwajah gajah, yang menginjak \"Apasmarapurusa\" atau iblis.",
+          "quote": "occupied by the giant figures of Gaja-Simha, Simha trampling over Elephant or mythical animal Gaja-Vidala having the body of Lion and the face of an elephant trampling over 'Apasmarapurusa' or demon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gajasimha-c08",
+          "source_id": "gajasimha-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A study of temples says the gaja-simhas, or lions on crouching elephants, are installed on both sides of the main doorway of the natamandapa and act as the dvarapalas (door guardians) of the temple.",
+          "statement_id": "Sebuah kajian candi menyebut gaja-simha, atau singa di atas gajah yang berjongkok, dipasang di kedua sisi pintu utama natamandapa dan bertindak sebagai dvarapala (penjaga pintu) candi.",
+          "quote": "The gaja-simhas or lions on croachant elephants are installed on the both sides of the main doorway of the natamandapa. They are acting as the dvarapalas of the temple.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gajasimha-c09",
+          "source_id": "gajasimha-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "A thesis on a temple site describes the popular Gaja Simha or Gaja Kranta motif, in which a lion is placed over a seated or subdued elephant.",
+          "statement_id": "Sebuah tesis tentang situs candi menyebut motif Gaja Simha atau Gaja Kranta yang populer, tempat seekor singa ditempatkan di atas gajah yang duduk atau sedang ditaklukkan.",
+          "quote": "a bold execution of the popular Gaja Simha or Gaja Kranta motif. In this representation a lion is being placed over a seated or subduing elephant.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gajasimha-c10",
+          "source_id": "gajasimha-s5",
+          "host": "philamuseum.org",
+          "statement": "The museum's collection page records a throne leg titled \"Throne Leg with an Elephant-Headed Lion (Gajasimha Vyala)\", dated to about the mid-13th century.",
+          "statement_id": "Halaman koleksi museum mencatat sebuah kaki singgasana berjudul \"Throne Leg with an Elephant-Headed Lion (Gajasimha Vyala)\", bertanggal sekitar pertengahan abad ke-13.",
+          "quote": "c. Mid- 13th century Throne Leg with an Elephant-Headed Lion (Gajasimha Vyala)",
           "context": "historical-record",
           "status": "exact"
         }
@@ -2899,7 +3189,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2cd8f13d42559db1743ac0b8a5b85edec7dfdc534cc2bb2cf526ea995a3f7c90"
     },
     {
       "slug": "gurumapa",
@@ -2973,7 +3264,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f52523232f7f3762a3f9f728bf06e42432aeaeab8a09473a4169354abb6f3ead"
     },
     {
       "slug": "hydaspes",
@@ -3047,24 +3339,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "96e879a75568674063f5b20f8b927359bdb07720e28f5c5983c84f846045f7cc"
     },
     {
       "slug": "jatasura",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "2c64dbc1c7d95cab4cdbe73c354e2f2f0a3863357acc8e379044995c806e7c27",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jatasura-c01",
@@ -3123,6 +3411,56 @@
           "statement": "He fights Bhima with huge trees, rocks, and hands before being defeated.",
           "statement_id": "Ia melawan Bhima menggunakan pohon besar, batu, dan tangan sebelum dikalahkan.",
           "quote": "The Pandava and the rakshasa fought with gigantic trees, large rocks, along with their arms. ... In the end, Bhima was able to inflict a death blow on his opponent's neck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jatasura-c07",
+          "source_id": "jatasura-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In this abridged Mahabharata, the rakshasa disguised himself as a brahmana and secretly stayed with the Pandavas, claiming to be a high-class brahmana; his real desire was to steal their bows, quivers and other possessions.",
+          "statement_id": "Dalam ringkasan Mahabharata ini, raksasa itu menyamar sebagai brahmana dan diam-diam tinggal bersama para Pandawa dengan mengaku brahmana berkedudukan tinggi; keinginannya yang sebenarnya adalah mencuri busur, tabung panah, dan harta milik mereka.",
+          "quote": "That Rakshasa, who had been disguised as a brahmana, had secretly remained in the company of the Pandavas, alleging that he was a high class brahmana. His real desire was to steal the bows, quivers and other possessions of the Pandavas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jatasura-c08",
+          "source_id": "jatasura-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The name of this wicked demon was Jatasura.",
+          "statement_id": "Raksasa jahat itu bernama Jatasura.",
+          "quote": "The name of this wicked demon was Jatasura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jatasura-c09",
+          "source_id": "jatasura-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Sahadeva broke free of the demon's grip and forcefully took the sword named Kausika from his grasp.",
+          "statement_id": "Sahadeva melepaskan diri dari cengkeraman sang iblis dan dengan kuat merebut pedang bernama Kausika dari genggamannya.",
+          "quote": "However, Sahadeva broke away from the demon's grip and forcefully took the sword named Kausika from his grasp.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jatasura-c10",
+          "source_id": "jatasura-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In the fight the two combatants repeatedly uprooted trees and struck each other, shouting, then picked up rocks and flung them at each other.",
+          "statement_id": "Dalam pertarungan itu, kedua petarung berulang kali mencabut pohon dan saling memukul sambil berteriak, lalu mengambil batu dan saling melemparkannya.",
+          "quote": "Repeatedly uprooting trees, they hit each other, shouting and roaring like two masses of clouds. ... those two warriors picked up rocks and flung them at each other.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jatasura-c11",
+          "source_id": "jatasura-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Bhima repeatedly struck the rakshasa's neck and severed his head from his body.",
+          "statement_id": "Bhima berulang kali memukul leher sang raksasa dan memisahkan kepalanya dari tubuhnya.",
+          "quote": "Striking the Rakshasa's neck repeatedly, Bhima severed his head from his body.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -3201,24 +3539,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a879ed74b9b8b76a2bff5bb26a421f27819dfdffb3ae28b4d3c05261b5a6f8f1"
     },
     {
       "slug": "taoroinai",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "8c62d3840a82ccb64852777d5d4f8818c40488dd066c41d4948e935c30dceccb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "taoroinai-c01",
@@ -3279,26 +3613,31 @@
           "quote": "According to the Anoirol, Lady Toibi Tanka Nubi (Tankha Chanu) danced with her father, Taoroinai. She learned how to dance from Taoroinai step by step and movement by movement.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "taoroinai-c07",
+          "source_id": "taoroinai-s2",
+          "host": "www.ijciras.com",
+          "statement": "A journal article on nature worship says Panthoibi, the consort of Nongpok Ningthou, is the daughter of Taoroinai and Lainamung Namungba, and describes her as a great goddess of mankind.",
+          "statement_id": "Sebuah artikel jurnal tentang pemujaan alam menyebut Panthoibi, permaisuri Nongpok Ningthou, sebagai putri Taoroinai dan Lainamung Namungba, dan menggambarkannya sebagai dewi besar umat manusia.",
+          "quote": "Nongpok Ningthou and his divine consort Panthoibi are taken to be indispensable. The Meiteis generally worship them as NongpokPanthoibi. She is the daughter of Taoroinai and Lainamung Namungba, is described as a great goddess of mankind",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tarkshya",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-3.md",
+      "entry_sha256": "0fb7cdbb3e42daa3633514994dc4c1be9babebfc3c9bc6061f4ddac646df503a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tarkshya-c01",
@@ -3358,6 +3697,46 @@
           "statement_id": "Sebutan arishta-nemi diterangkan berarti dengan pinggir roda yang utuh.",
           "quote": "with the epithet áriṣṭa-nemi \"with intact wheel-rims\"",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tarkshya-c07",
+          "source_id": "tarkshya-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In this translated Rigveda hymn, Tarkshya is invoked for welfare and described as mighty, commissioned by the gods, victorious, the outstripper of chariots, of irresistible car, the overthrower of hosts, and swift.",
+          "statement_id": "Dalam terjemahan himne Rigveda ini, Tarkshya diseru demi kesejahteraan dan disifati perkasa, ditugaskan para dewa, pemenang, pelampaui kereta, berkereta tak terkalahkan, penakluk pasukan, dan cepat.",
+          "quote": "Let us invoke here for our welfare that Tārkṣya, who is mighty, the commissioned of the gods, thevictorious, the outstripper of chariots, of irresistible car, the overthrower of hosts, the swift.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarkshya-c08",
+          "source_id": "tarkshya-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The commentary accompanying the hymn equates Tarkshya with suparna, the son of Trksa, commissioned by the gods to bring the Soma from heaven.",
+          "statement_id": "Komentar yang menyertai himne itu menyamakan Tarkshya dengan suparna, putra Trksa, yang ditugaskan para dewa membawa Soma dari surga.",
+          "quote": "Tārk.sya: i.e.,suparṇa, the son of Tṛkṣa, commissioned by the gods to bring the Soma from heaven",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tarkshya-c09",
+          "source_id": "tarkshya-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "In another Rigveda verse, Tarkshya, with unblemished weapons, is asked to guard the welfare of those invoking him.",
+          "statement_id": "Dalam himne Rigveda lain, Tarkshya yang bersenjata tanpa cela dimohon menjaga kesejahteraan para penyeru.",
+          "quote": "may Tārkṣya, with unblemished weapons, guard our welfare.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarkshya-c10",
+          "source_id": "tarkshya-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The commentary on this verse says Tarkshya, son of Trksa, is Garuda, and explains Aristanemi as he who has unharmed or irresistible weapons (nemi being the circumference of a wheel).",
+          "statement_id": "Komentar pada himne ini menyebut Tarkshya, putra Trksa, adalah Garuda, dan menafsirkan Aristanemi sebagai ia yang memiliki senjata tak rusak atau tak terkalahkan (nemi berarti lingkar roda).",
+          "quote": "Tārkṣya, son of Tṛkṣa is Garuḍa. He is Ariṣṭanemi, he who has unharmed or irresistible (aṛṣṭa) weapons (nemi, circumerference of a wheel).",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -3435,7 +3814,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "53c9700f658f94ee3cdf2d2f4a251fecb76a344ae5635c3f079d203588db073c"
     },
     {
       "slug": "uchek-langmeitong",
@@ -3509,7 +3889,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1f68da613abf6917b0d3bb08ac49f64615200bd3aa493407fa8bfdfd328c471c"
     },
     {
       "slug": "aana-marutha",
@@ -3593,7 +3974,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2d7b037ba69d4b25d92d78bb0a1c3f13523b22e2de82ab253564ec281bd8b130"
     }
   ]
 }
