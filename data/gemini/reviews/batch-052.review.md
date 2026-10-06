@@ -1,6 +1,6 @@
 # Review batch-052
 
-Diperiksa 2026-10-06T06:19:30.641Z. Berkas: batch-052.md, batch-052-fix-1.md, batch-052-fix-2.md, batch-052-fix-3.md.
+Diperiksa 2026-10-06T14:37:29.249Z. Berkas: batch-052.md, batch-052-fix-1.md, batch-052-fix-2.md, batch-052-fix-3.md, batch-052-fix-4.md.
 
 ## nukekubi — lulus-otomatis
 
@@ -57,25 +57,23 @@ Klaim 21 (exact 20, loose 1), sumber 3, gambar 0.
 
 ## sabnak — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sabnak-c01 | exact | ja.wikipedia.org | Sabnock is a demon in European demonology. | サブナック（Sabnac、Sabnachまたは、Sabnack）は悪魔学における悪魔の一人。 |
+| sabnak-c01 | exact | ja.wikipedia.org | Sabnock is one of the demons in demonology. | サブナック（Sabnac、Sabnachまたは、Sabnack）は悪魔学における悪魔の一人。 |
 | sabnak-c02 | exact | ja.wikipedia.org | The Goetia calls him its forty-third spirit and a marquis. | 『ゴエティア』によると、地獄の50の軍団を率いる序列43番の偉大にして強大なる侯爵。 |
 | sabnak-c03 | exact | en.wikipedia.org | He appears as a lion-headed soldier on a pale horse. | Sabnock is depicted as a soldier with armor and weapons, the head of a lion, and riding a pale horse. |
 | sabnak-c04 | exact | en.wikipedia.org | The text credits him with building towers, castles and cities. | He builds high towers, castles and cities, furnishing them with weapons, ammunition, etc., gives good familiars |
+| sabnak-c05 | exact | en.wikisource.org | In the Goetia text the forty-third spirit is called Sabnock or Savnok, a mighty marquis who appears as an armed soldier with a lion's head riding a pale-coloured horse. | The Forty-third Spirit, as King Solomon commanded them into the Vessel of Brass, is called Sabnock, or Savnok. He is a Marquis, Mighty, Great and Strong, appearing in the Form of an Armed Soldier with a Lion's Head, riding on a pale-coloured horse. |
+| sabnak-c06 | exact | en.wikisource.org | His office is to build high towers, castles and cities and furnish them with armour; he can also afflict people for many days with wounds and sores that are rotten and full of worms. | His office is to build high Towers, Castles and Cities, and to furnish them with Armour, etc. Also he can afflict Men for many days with Wounds and with Sores rotten and full of Worms. |
+| sabnak-c07 | exact | en.wikisource.org | At the request of the Exorcist he gives good familiars, and he commands 50 legions of spirits. | He giveth Good Familiars at the request of the Exorcist. He commandeth 50 Legions of Spirits |
+| sabnak-c08 | exact | en.wikipedia.org | Wikipedia lists other spellings of Sabnock (Sab Nac, Sabnac, Sabnach, Sabnack, Sabnacke, Salmac, Savnock) and calls him a mighty Great Marquis of Hell commanding 50 legions of demons. | Sabnock (also Sab Nac, Sabnac, Sabnach, Sabnack, Sabnacke, Salmac, and Savnock) is a mighty Great Marquis of Hell, having 50 legions of demons under his command. |
 
 
 ## shiryo — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 4, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -83,14 +81,18 @@ Klaim 4 (loose 4), sumber 1, gambar 0.
 | shiryo-c02 | loose | en.wikipedia.org | The contrasting term ikiryō refers to spirits of living people. | This contrasts with ikiryō, which are souls of the living. |
 | shiryo-c03 | loose | en.wikipedia.org | Classical writings describe different behaviors for shiryō. | Classical literature and folklore material has left many mentions of shiryō, and they have various behaviors. |
 | shiryo-c04 | loose | en.wikipedia.org | A story in Tōno Monogatari has a dead father return to his daughter. | In the Tōno Monogatari, there was a story in which a man died, and afterward, his shiryō appeared before his daughter and tried to take her away. |
+| shiryo-c05 | exact | yokai.com | According to Yokai.com, the word shiryō is almost exclusively used for unpleasant, malevolent spirits, unlike yūrei, which can at times be beautifully mysterious. | while yūrei can be creepy sometimes and beautifully mysterious at other times, shiryō is almost exclusively used to refer to unpleasant, malevolent spirits. |
+| shiryo-c06 | exact | yokai.com | Yokai.com says shiryō act like ikiryō, appearing to relatives or close friends of the deceased; ikiryō usually appear just before death, while a shiryō appears just after. | Shiryō act in similar ways to ikiryō, appearing to relatives or close friends of the deceased. While ikiryō usually appear in the moments just before death, a shiryō appears in the moments just after death. |
+| shiryo-c07 | exact | yokai.com | According to Yokai.com, shiryō do not always appear to say goodbye; sometimes they come to take loved ones away with them into the world of the dead. | shiryō do not always appear in order to say goodbye; sometimes they come to take their loved ones away with them into the world of the dead. |
+| shiryo-c08 | exact | yokai.com | Yokai.com states that belief in shiryō goes back to before recorded history and has long been a staple of Japanese folk superstition. | Belief in shiryō goes back to before recorded history, and has long been a staple of Japanese folk superstition. |
+| shiryo-c09 | exact | yokai.com | In a story as told by Yokai.com, after her father died his shiryō appeared before his daughter and tried to take her into the world of the dead; she narrowly escaped and fled to ask for help. | After her father died, his shiryō appeared before the young girl and tried to take her with him into the world of the dead. The girl narrowly escaped and fled from the house to ask for help. |
+| shiryo-c10 | exact | yokai.com | In that story the ghost stopped appearing only after a whole month of sleepless, terrifying nights. | Only after a whole month of sleepless, terrifying nights did the ghost stop appearing, and finally the girl was left in peace. |
+| shiryo-c11 | exact | yokai.com | Yokai.com gives 死霊 (しりょう) with the translation "dead ghost" and the alternate name shirei. | Shiryō 死霊 しりょう Translation: dead ghost Alternate names: shirei |
 
 
 ## shuten-doji — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 2, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -98,6 +100,16 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | shuten-doji-c02 | exact | en.wikipedia.org | One story says his severed head still bit at Raikō. | Although decapitated, the demon's detached head still took a bite at the hero, who avoided death by wearing multiple helmets stacked on his head. |
 | shuten-doji-c03 | loose | en.wikipedia.org | Accounts place his dwelling on Mount Ōe or Mount Ibuki. | Shuten-dōji had his lair at Mount Ōe (大江山) northwest of the city of Kyoto, or Mount Ibuki, depending on the version. |
 | shuten-doji-c04 | exact | en.wikipedia.org | The fourteenth-century Ōeyama Ekotoba preserves an early form of the legend. | The oldest surviving text of the legend is recorded in the 14th century Ōeyama Ekotoba (大江山絵詞 "Tale of Mount Ōe in Pictures and Words"), a picture scroll held by the Itsuō Art Museum. |
+| shuten-doji-c05 | exact | kotobank.jp | The Digital Daijisen dictionary describes Shuten-dōji as a legendary leader of the oni said to live on Ōeyama in Tanba, who plundered women and treasure in the capital and was said to have been destroyed by Minamoto no Raikō leading his Four Guardian Kings under imperial command. | 丹波の大江山に住んでいたという伝説上の鬼の頭目。都に出ては婦女・財宝を奪ったので、勅命により、源頼光が四天王を率いて退治したという。 |
+| shuten-doji-c06 | exact | kotobank.jp | According to the Heibonsha World Encyclopedia, in the Ōeyama Ekotoba the name Shuten-dōji comes from his being someone who deeply loves sake. | 酒呑童子の名称は,《大江山絵詞》では〈酒を深く愛する者〉ゆえの名となっている |
+| shuten-doji-c07 | exact | kotobank.jp | The Heibonsha World Encyclopedia says Ōeyama was apparently originally Oi-no-saka near the capital, but is the Ōeyama of Senjōgatake in Tanba and Tango in the Ōeyama Ekotoba and Mount Ibuki in Ōmi in the Shuten-dōji Emaki. | 大江山は元来は都のあたりにほど近い老ノ坂であったらしいが,《大江山絵詞》では丹波・丹後の千丈ヶ嶽の大江山,《酒伝童子絵巻》では近江伊吹山となっている。 |
+| shuten-doji-c08 | exact | kotobank.jp | The Heibonsha encyclopedia author says the idea of an oni deity holed up on Ōeyama should be analysed against the background of Oi-no-saka being a boundary between the capital and the outside world, the stage of the Shikyō-sai rite that kept plague deities out, and a haunt of bandits. | 大江山に鬼神がこもるとする観念は,老ノ坂が都(山城国)と外界を隔てる境界の性格をもった場所であったこと,疫神の侵入をさえぎり都の安寧と清浄を確保する四境祭の舞台であったこと,多くの盗賊・強盗が出没し,そのすみかとなったこと,などを背景として分析されるべきであろう。 |
+| shuten-doji-c09 | exact | kotobank.jp | In the Otogi-zōshi Shuten-dōji, Raikō strikes the sleeping Shuten-dōji, who has become an oni about two jō tall, with the three gods appearing to lend their strength; the severed head flies up into the sky and aims at Raikō, who is protected by his star helmet (星甲). | 御伽草子。江戸時代に〈御伽文庫〉として刊行された渋川版の一つ。 ... 頼光は2丈ばかりの鬼となって臥している酒呑童子に切りかかり,3神も現じて力を貸す。切られた童子の首は天に舞いあがり頼光をねらうが,頼光は星甲に守られる。 |
+| shuten-doji-c10 | exact | kotobank.jp | In the Otogi-zōshi plot, Raikō's party is hosted by three old men in whom the gods of three shrines have appeared and is given the Jinben kidoku sake and a hoshi kabuto helmet. | 御伽草子。江戸時代に〈御伽文庫〉として刊行された渋川版の一つ。 ... 三社の神の現じた3人の翁からもてなされ,神便鬼毒(じんべんきどく)酒と星甲(ほしかぶと)とを授けられ |
+| shuten-doji-c11 | exact | en.wikipedia.org | In the oldest version Raikō offers Shuten-dōji the sake given to him by one of the deities, which renders him incapacitated. | Raikō then offered Shuten-dōji the sake given to him by one of the deities, which rendered him incapacitated. |
+| shuten-doji-c12 | exact | en.wikipedia.org | In the oldest version, many people were reported missing in the capital city of Kyoto, most of the victims being young women. | a large number of missing people were being reported in the capital city of Kyoto, most of the victims being young women. |
+| shuten-doji-c13 | exact | en.wikipedia.org | According to the Ōeyama Ekotoba version, Shuten-dōji returned to his true form when he slept: 50 feet tall, with a red body and a five-horned head with fifteen eyes. | According to the Ōeyama Ekotoba version, Shuten-dōji returned to his true form when he slept. He was 50 feet in height, had a red body and a five-horned head, with fifteen eyes |
+| shuten-doji-c14 | exact | en.wikipedia.org | Wikipedia summarises the oldest text version (Ōeyama Ekotoba or Ōeyama Emaki) as a story set in the reign of Emperor Ichijō (r. 986-1011). | The oldest text (Ōeyama Ekotoba or Ōeyama Emaki) version the legend can be summarized as follows: During the reign of Emperor Ichijō (r. 986-1011) |
 
 
 ## wanyudo — lulus-otomatis
@@ -127,10 +139,7 @@ Klaim 17 (loose 1, exact 16), sumber 3, gambar 0.
 
 ## yamabiko-folklore — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -138,6 +147,14 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | yamabiko-folklore-c02 | exact | en.wikipedia.org | Its name literally means mountain boy. | Literally translated, the term means "mountain boy". |
 | yamabiko-folklore-c03 | exact | en.wikipedia.org | Stories place it deep in mountain country. | Living deep in the mountains, direct encounters with the yamabiko are rare. |
 | yamabiko-folklore-c04 | exact | en.wikipedia.org | People are said to hear it more often than they see it. | Often they are heard, but never seen. |
+| yamabiko-folklore-c05 | exact | en.wikipedia.org | The yamabiko is a small creature that resembles a cross between a dog and a monkey. | The yamabiko is a small creature that resembles a cross between a dog and a monkey. |
+| yamabiko-folklore-c06 | exact | en.wikipedia.org | The term "yamabiko" is also used for the phenomenon of a delayed echo in mountains and valleys, thought to be the spirit answering. | The term "yamabiko" is also used to describe the phenomenon of a delayed echo in mountains and valleys, and is thought to be the spirit answering. |
+| yamabiko-folklore-c07 | exact | en.wikipedia.org | This anomaly is sometimes called "kodama" when it is thought to be the answering voice of a tree spirit. | This anomaly is also sometimes called "kodama", when it is thought to be the answering voice of a tree spirit |
+| yamabiko-folklore-c08 | exact | en.wikipedia.org | In Tottori, Tottori Prefecture, a yobuko ("calling child") or yobukodori ("small calling bird") living in the mountain is thought to give out the yamabiko's voice. | In Tottori, Tottori Prefecture, a yobuko (呼子 ; "calling child") or a yobukodori (呼子鳥 ; "small calling bird") that lives in the mountain is thought to give out the yamabiko's voice. |
+| yamabiko-folklore-c09 | exact | en.wikipedia.org | Wikipedia notes a small rock mountain in Kitaazumi District, Nagano Prefecture called the "yamabiko rock" that returns people's words, and concludes that yamabiko as yōkai are not uniform in origin or in what kind of yōkai they are. | there is also a small rock mountain in Kitaazumi District, Nagano Prefecture called the "yamabiko rock" (山彦岩 ) that return people's words, among other appearances of the word "yamabiko", and thus it can be seen that the yamabiko as yōkai are not uniform in either origin or what kind of yōkai they are. |
+| yamabiko-folklore-c10 | exact | yokai.com | According to Yokai.com, yamabiko are known almost exclusively by their voices and are skilled at mimicking any sound, including natural sounds, human language, and trains and cars. | Yamabiko are known almost exclusively by their voices. They are skilled at mimicking any sound, including natural sounds, human language, and trains and cars. |
+| yamabiko-folklore-c11 | exact | yokai.com | According to Yokai.com, yamabiko live deep in the mountains and make their homes in camphor trees. | They live deep in the mountains and make their homes in camphor trees |
+| yamabiko-folklore-c12 | exact | yokai.com | According to Yokai.com, the creature's form was only decided in the Edo period, when yōkai researchers such as Sawaki Sūshi and Toriyama Sekien began making illustrated yokai bestiaries. | It wasn't until the Edo period-when determined yōkai researchers like Sawaki Sūshi and Toriyama Sekien began making illustrated yokai bestiaries-that this creature's form was decided. |
 
 
 ## amatsu-mikaboshi — lulus-otomatis
@@ -464,10 +481,7 @@ Klaim 16 (exact 14, loose 2), sumber 4, gambar 0.
 
 ## saleos — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -475,50 +489,54 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | saleos-c02 | exact | ja.wikipedia.org | The Goetia calls him the nineteenth spirit and a duke. | 『ゴエティア』によると、地獄の30の軍団を率いる序列19番の偉大にして強力な公爵。 |
 | saleos-c03 | exact | ja.wikipedia.org | He appears as a crowned soldier riding a crocodile. | 公爵の宝冠をかぶり、ワニに乗った雄々しい兵士の姿で現れるが、その立ち振る舞いは穏和である。 |
 | saleos-c04 | exact | ja.wikipedia.org | The Goetia associates him with creating affection between men and women. | 公爵の宝冠をかぶり、ワニに乗った雄々しい兵士の姿で現れるが、その立ち振る舞いは穏和である。 ... 男女間に愛情を芽生えさせることができる。 |
+| saleos-c05 | exact | en.wikisource.org | In the Goetia text the nineteenth spirit is Sallos (or Saleos), a great and mighty duke who appears as a gallant soldier riding a crocodile, wearing a ducal crown, and comes peaceably. | The Nineteenth Spirit is Sallos (or Saleos). He is a Great and Mighty Duke, and appeareth in the form of a gallant Soldier riding on a Crocodile, with a Ducal Crown on his head, but peaceably. |
+| saleos-c06 | exact | en.wikisource.org | He causes the love of women for men and of men for women, and governs 30 legions of spirits. | He causeth the Love of Women to Men, and of Men to Women; and governeth 30 Legions of Spirits. |
+| saleos-c07 | exact | en.wikipedia.org | Wikipedia calls Saleos (also Sallos, Zaleos) a mighty Great Duke of Hell ruling 30 legions of demons, and a Great Earl according to Johann Weyer. | Saleos (also Sallos, Zaleos) is a mighty Great Duke (a Great Earl according to Johann Weyer) of Hell, ruling 30 legions of demons |
+| saleos-c08 | exact | en.wikipedia.org | Wikipedia describes Saleos as being of a pacifist nature, causing men to love women and women to love men. | He is of a pacifist nature, and causes men to love women and women to love men. |
 
 
 ## shikome — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `claims (shikome-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shikome-c01 | exact | en.wikipedia.org | Yomotsu-shikome is an underworld woman in Japanese mythology. | in Japanese mythology, was a hag sent by the dead Izanami to pursue her husband Izanagi |
 | shikome-c02 | exact | en.wikipedia.org | She appears in the Kojiki account of Izanagi’s escape. | The hag appears by the Yomotsu-shikome (or Ugly-Female-of-the-Underworld") name in the eldest Japanese chronicle Kojiki. |
 | shikome-c03 | exact | en.wikipedia.org | In that story she pursues Izanagi out of the underworld. | Kojiki version Izanagi was fleeing the Underworld with Yomotsu-shikome in hot pursuit. |
-| shikome-c04 | exact | en.wikipedia.org | He throws down his headwear, which turns into fruit and slows her. | Izanagi first cast down his black headdress, which turned into a kind of grapes and slowed the hag's advance as she devoured them. |
+| shikome-c04 | exact | en.wikipedia.org | Izanagi first cast down his black headdress, which turned into a kind of grapes and slowed the hag's advance as she devoured them. | Izanagi first cast down his black headdress, which turned into a kind of grapes and slowed the hag's advance as she devoured them. |
+| shikome-c05 | exact | yokai.com | According to Yokai.com, shikome is a broad term for kijo, or female oni, who look like ugly human women and often have beast-like features such as claws, paws, pointed ears or patches of furry hair. | Shikome is a broad term describing kijo, or female oni, who look like ugly human women. In addition to being ugly, they often have beast-like features such as claws, paws, pointed ears, or patches of furry hair. |
+| shikome-c06 | exact | yokai.com | According to Yokai.com, shikome are attendants of the land of the dead and quite dangerous; they are very fast, able to leap one thousand ri (about four thousand kilometres) in a single bound. | Shikome are attendants of the land of the dead, and are quite dangerous. They are fast, able to leap one thousand ri (approximately four thousand kilometers) in a single bound. |
+| shikome-c07 | exact | yokai.com | According to Yokai.com, shikome are also ravenous and can devour food at an incredible speed. | They are also ravenous, and can devour food at an incredible speed. |
+| shikome-c08 | exact | yokai.com | In the story as told by Yokai.com, Izanami ordered her servants, the yomotsu shikome, to catch Izanagi; as they closed in, Izanagi threw down his woven headdress, which turned into a vine of grapes. | Izanami ordered her servants, the yomotsu shikome, to catch Izanagi. The shikome were incredibly fast. As they closed in, Izanagi threw his woven headdress to the floor. It transformed into a vine of grapes. |
+| shikome-c09 | exact | yokai.com | According to Yokai.com, Izanagi broke the teeth off his comb and scattered them; they turned into bamboo shoots, which the shikome also devoured, buying him a little more time. | Izanagi broke the teeth off of his comb and scattered them. They turned into bamboo shoots. The shikome devoured these too, buying him just a little more time. |
+| shikome-c10 | exact | yokai.com | According to Yokai.com, Izanagi finally escaped to the surface and rolled a large boulder over the entrance to Yomi, trapping the shikome and his furious wife in the underworld forever. | At last, he was able to escape to the surface. He rolled a large boulder over the entrance to Yomi, trapping the shikome and his furious wife in the underworld forever. |
+| shikome-c11 | exact | yokai.com | Yokai.com gives 醜女 (しこめ) with the translation "ugly woman", the alternate name yomotsu shikome, and Yomi, the Shintō underworld, as habitat. | Shikome 醜女 しこめ Translation: ugly woman Alternate names: yomotsu shikome ("ugly woman from hell") Habitat: Yomi (the Shintō underworld) |
+| shikome-c12 | exact | yokai.com | According to Yokai.com, early shikome illustrations served as the basis for many yōkai satirizing unattractive women, such as ao nyōbo, taka onna and kerakera onna. | Early shikome illustrations have served as the basis for a great number of yōkai which satirize unattractive women, such as ao nyōbo, taka onna, and kerakera onna. |
+| shikome-c13 | exact | en.wikipedia.org | Wikipedia records the alternative name Yomotsu-hisame and says the name may have been a collective term for eight hags, not just one. | Also recorded by the name Yomotsu-hisame (泉津日狭女 ), the name may have been a term referring collectively to eight hags, not just one. |
+| shikome-c14 | exact | en.wikipedia.org | According to the Nihon Shoki, it was either eight demon-hags (female oni) or a woman or women named Yomotsu-hisame who hunted after Izanagi. | But either eight demon-hags (female oni) or a woman/women named Yomotsu-hisame hunted after Izanagi according to the Nihon Shoki |
+| shikome-c15 | exact | en.wikipedia.org | In the Kojiki version as given by Wikipedia, Izanagi climbed the "flat slope" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated. | he climbed atop the "flat slope" or "Even Pass" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated. |
+| shikome-c16 | exact | kotobank.jp | The Digital Daijisen defines 黄泉醜女 (yomotsu-shikome) as a female oni in the land of Yomi. | よも-つ-しこめ【黄=泉▽醜女】 黄泉 よみ の国にいる鬼女。 「すなはち-を遣はして追はしめき」〈記・上〉 |
 
 
 ## sitri — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**warn**
-- `claims (sitri-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | sitri-c01 | exact | ja.wikipedia.org | Sitri is a demon named in Japanese demonological writing. | シトリー(Sitri)は、悪魔学における悪魔の一人。 ... 別名にビトル(Bitru)、シュトリ(Sytry)がある。 |
 | sitri-c02 | exact | ja.wikipedia.org | The Goetia ranks him as its twelfth spirit and a prince. | 『ゴエティア』によると72人の魔神の一人で、60の軍団を支配し、序列12番の地獄の偉大なる君主である。 |
 | sitri-c03 | exact | en.wikipedia.org | He is pictured with a leopard head and griffin wings. | He is depicted with the face of a leopard and the wings of a griffin, but under the conjurer's request he changes into a very beautiful man. |
-| sitri-c04 | exact | en.wikipedia.org | Another form is described as a beautiful human figure. | under the conjurer's request he changes into a very beautiful man. |
+| sitri-c04 | exact | en.wikipedia.org | At the conjurer's request he changes into a very beautiful man. | under the conjurer's request he changes into a very beautiful man. |
+| sitri-c05 | exact | en.wikisource.org | In the Goetia text the twelfth spirit is Sitri, a great prince who first appears with a leopard's head and a gryphon's wings, then at the command of the Master of the Exorcism takes human shape, a very beautiful one. | The Twelfth Spirit is Sitri. He is a Great Prince and appeareth at first with a Leopard's head and the Wings of a Gryphon, but after the command of the Master of the Exorcism he putteth on Human shape, and that very beautiful. |
+| sitri-c06 | exact | en.wikisource.org | He inflames men with love for women and women with love for men, and also makes them show themselves naked if desired; he governs 60 legions of spirits. | He enflameth men with Women's love, and Women with Men's love; and causeth them also to show themselves naked if it be desired. He governeth 60 Legions of Spirits. |
+| sitri-c07 | exact | en.wikipedia.org | Wikipedia lists other spellings of Sitri (Bitru, Sytry, Sytri) and calls him a Great Prince of Hell reigning over 60 legions of demons. | Sitri (also Bitru, Sytry, Sytri) is a Great Prince of Hell, and reigns over 60 legions of demons. |
 
 
 ## sumiyoshi-sanjin — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (loose 2, exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -526,14 +544,23 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | sumiyoshi-sanjin-c02 | exact | en.wikipedia.org | They are associated with the sea and navigation. | The Sumiyoshi sanjin are regarded as the gods of the sea and sailing. |
 | sumiyoshi-sanjin-c03 | exact | en.wikipedia.org | Sumiyoshi-taisha has shrines for them and for Empress Jingū. | Sumiyoshi-taisha has four buildings dedicated to four kami: the three Sumiyoshi brothers and Empress Jingū, who is also enshrined. |
 | sumiyoshi-sanjin-c04 | loose | en.wikipedia.org | The Kojiki and Nihon Shoki give a myth about their birth. | According to Japanese mythology recorded in works like the Kojiki and Nihon Shoki, the Sumiyoshi sanjin were born together with the three Watatsumi deities (綿津見三神) when Izanagi performed a misogi after returning from Yomi. |
+| sumiyoshi-sanjin-c05 | exact | www.sumiyoshitaisha.net | According to Sumiyoshi Taisha, the shrine's deities are the three kami Sokotsutsu no O, Nakatsutsu no O and Uwatsutsu no O, who emerged from the sea when Izanagi performed misogi-harai, together with Empress Jingū, who is enshrined there. | 住吉大社の祭神は、伊弉諾尊が禊祓を行われた際に海中より出現された底筒男命・中筒男命・表筒男命の三神、そして当社鎮斎の神功皇后を祭神とします。 |
+| sumiyoshi-sanjin-c06 | exact | www.sumiyoshitaisha.net | Sumiyoshi Taisha states that the deities are revered as guardians of voyages, as exemplified by the missions to Sui and Tang China; in the dynastic era they were also worshipped as gods of waka poetry and literature and as gods who appear in person, and are honoured as ancestral deities of purification, industry, trade and diplomacy. | 遣隋使・遣唐使に代表される航海の守護神として崇敬をあつめ、また、王朝時代には和歌・文学の神として、あるいは現実に姿を現される神としての信仰もあり、禊祓・産業・貿易・外交の祖神と仰がれています。 |
+| sumiyoshi-sanjin-c07 | exact | www.sumiyoshitaisha.net | According to the tradition from the Nihon Shoki and Kojiki as explained by the shrine, when Izanagi went into the sea to purify himself by misogi, Sokotsutsu no O, Nakatsutsu no O and Uwatsutsu no O, the great kami of Sumiyoshi, were born. | 「日本書紀」や「古事記」の神代の巻での言い伝え ... そのケガレを清めるために海に入って禊祓いしたとき、住吉大神である底筒男命 (そこつつのおのみこと) 、中筒男命 (なかつつのおのみこと) 、表筒男命 (うわつつのおのみこと) が生まれました。 |
+| sumiyoshi-sanjin-c08 | exact | www.sumiyoshitaisha.net | According to the shrine, Empress Jingū subdued powerful Silla with the protection of Sumiyoshi Ōkami and returned safely; on the triumphal return, by the deity's oracle, the deity was enshrined at the present site of Sumiyoshi. | 神功皇后は、住吉大神の加護を得て強大な新羅を平定せられ無事帰還を果たされます。この凱旋の途中、住吉大神の神託によって現在の住吉の地に鎮斎されました。 |
+| sumiyoshi-sanjin-c09 | exact | www.sumiyoshitaisha.net | Sumiyoshi Taisha describes itself as the head shrine of some 2,300 Sumiyoshi shrines across the country. | という社格がつけられ、人々に親しまれてきました。昭和21年までは官幣大社であり、全国約2300社余の住吉神社の総本社でもあります。 |
+| sumiyoshi-sanjin-c10 | exact | www.sumiyoshitaisha.net | According to Sumiyoshi Taisha, because Sumiyoshi Ōkami emerged from the sea during Izanagi's misogi-harai, the deity presides over harai (purification), the most important rite in Shinto. | 住吉大神は伊邪那岐命の禊祓 (みそぎはらえ) の際に海中より出現されたので、神道でもっとも大事な「祓(はらえ)」を司る神です。 |
+| sumiyoshi-sanjin-c11 | exact | www.sumiyoshitaisha.net | Because the deity emerged from the sea, Sumiyoshi Ōkami is worshipped as a sea god and has long been revered as a powerfully efficacious deity among seafarers and fishermen. | 住吉大神は海中より出現されたため、海の神としての信仰があり、古くから航海関係者や漁民の間で、霊験あらたかな神として崇敬されてきました。 |
+| sumiyoshi-sanjin-c12 | exact | www.sumiyoshitaisha.net | In the Nara period, whenever a mission to Tang China was dispatched, prayers for safety at sea were always offered. | 奈良時代、遣唐使の派遣の際には、必ず海上の無事を祈りました。 |
+| sumiyoshi-sanjin-c13 | exact | www.sumiyoshitaisha.net | According to a legend that Sumiyoshi Ōkami taught how to make a rice seedbed without laying down grass, the deity has long been deeply revered as a god of farming. | 住吉大神が草を敷かずに苗代をつくる方法を教えたという伝説により、古くから「農耕の神」として篤い崇敬を受けてきました。 |
+| sumiyoshi-sanjin-c14 | exact | en.wikipedia.org | Wikipedia notes a theory that the Sumiyoshi sanjin are the deification of the three main stars of Orion, a constellation used for navigation in antiquity. | there is a theory that suggests the Sumiyoshi sanjin are the deification of the three main stars in Orion. In antiquity, the constellation Orion was used for navigation; perhaps for this reason, it was deified. |
+| sumiyoshi-sanjin-c15 | exact | en.wikipedia.org | They are sometimes referred to as the Sumiyoshi daijin (住吉大神). | They are sometimes referred to as the Sumiyoshi daijin (住吉大神 ). |
+| sumiyoshi-sanjin-c16 | exact | www.sumiyoshitaisha.net | Sumiyoshi Taisha records the enshrinement (chinza) in the 11th year of Empress Jingū's regency (211 CE). | 鎮座 神功皇后摂政11年(西暦211年) 社格 ・延喜式名神大社 |
 
 
 ## takaonna — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -541,6 +568,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | takaonna-c02 | exact | en.wikipedia.org | Its image shows a woman with an elongated lower body. | The Gazu (illustrated reference) above depicts a woman with an elongated lower body next to what appears to be a brothel. |
 | takaonna-c03 | exact | en.wikipedia.org | Sekien supplied no explanatory text for the picture. | However, the Gazu Hyakki Yagyō has no explanatory text, so it is unclear what kind of yōkai this depiction was intended to be. |
 | takaonna-c04 | exact | en.wikipedia.org | One interpretation considers it a satirical invention from the Edo period. | Some believe that this yōkai was an original invention designed to parody the Yoshiwara Yūkaku of the Edo period. |
+| takaonna-c05 | exact | en.wikipedia.org | Wikipedia records the folklorist Morihiko Fujisawa's explanation that in a story from Wakayama Prefecture called Takanyōbō ("Tall Woman"), a Takaonna would frighten people on the second floors of girō (brothels). | by the folklorist Morihiko Fujisawa explains that in a story from the Wakayama Prefecture called Takanyōbō (高女房, "Tall Woman"), a Takaonna would frighten people on the second floors of girō (brothels). |
+| takaonna-c06 | exact | en.wikipedia.org | In the kaidan "Takaonna" by the novelist Norio Yamada, she is a homely woman who could never be with a man in life; transformed into a yōkai by her own desire, she wanders the earth, elongating her body to peek into the second floor of brothels. | by the novelist Norio Yamada, the kaidan (mysterious tale) titled "Takaonna" depicts the Takaonna as a homely woman who could never be with a man when she was alive. Transformed into a yōkai from her own desire, she wanders the earth, elongating her body to peek into the second floor of brothels |
+| takaonna-c07 | exact | en.wikipedia.org | The yōkai researcher Kenji Murakami notes that Fujisawa's explanation is only one interpretation of Sekien's painting and that Yamada's kaidan is a completely different tale sharing the name Takaonna. | yōkai researcher Kenji Murakami notes that Fujisawa's explanation is nothing more than one interpretation of Sekien's painting and that Yamada's kaidan is a completely different tale that shares the name of Takaonna. |
+| takaonna-c08 | exact | yokai.com | According to Yokai.com, taka onna appear most of the time as ordinary, homely women, but have the power to elongate their bodies to several meters in height. | Taka onna appear as ordinary, homely human women most of the time. But they have the power to elongate their bodies and grow to several meters in height. |
+| takaonna-c09 | exact | yokai.com | According to Yokai.com, taka onna are often seen peering into second-story windows of brothels and homes where romantic liaisons take place; their activities are generally limited to peeping. | Taka onna are frequently spotted peering into the second-story windows of brothels and homes where romantic liaisons are taking place. Their activities are generally limited to peeping into windows. |
+| takaonna-c10 | exact | yokai.com | According to Yokai.com, taka onna rarely attack humans physically but enjoy scaring and harassing the men and women who frequent the pleasure districts. | Though they rarely attack humans physically, taka onna do enjoy scaring and harassing both men and women who frequent the pleasure districts |
+| takaonna-c11 | exact | yokai.com | According to Yokai.com, taka onna were originally ordinary women too unattractive to marry or to find work in the red light districts they haunt. | Taka onna were originally ordinary women who were too unattractive to marry (or to find work in the red light districts which they haunt). |
+| takaonna-c12 | exact | yokai.com | In one account on Yokai.com, a woodcutter pretending to sleep saw his wife jump into a well, then elongate her body and climb back out. | One night while pretending to sleep in bed, he witnessed his wife jump into a well. She then elongated her body and climbed back out. |
+| takaonna-c13 | exact | yokai.com | Yokai.com gives 高女 (たかおんな) with the translation "tall woman", the alternate name takajo, and red light districts as habitat. | Taka onna 高女 たかおんな Translation: tall woman Alternate names: takajo Habitat: red light districts |
+| takaonna-c14 | exact | yokai.com | Yokai.com states that sightings of these yōkai peaked during the Edo period and continued up to the post-war period. | Sightings of these yōkai peaked during the Edo period and continued up to the post-war period |
+| takaonna-c15 | exact | en.wikipedia.org | Wikipedia records a Takaonna statue based on Mizuki Shigeru's design, displayed alongside 9 other yōkai statues since 2009. | This Takaonna statue was based on Mizuki Shigeru's design and has been displayed alongside 9 other yōkai statues since 2009. |
 
 
 ## tofu-kozo — lulus-otomatis
@@ -574,10 +612,7 @@ Klaim 21 (loose 3, exact 18), sumber 3, gambar 0.
 
 ## tsurube-otoshi — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 1, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -585,6 +620,15 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | tsurube-otoshi-c02 | exact | en.wikipedia.org | Stories say it drops from trees to attack people. | They are said to drop from above the trees and attack, and even devour humans. |
 | tsurube-otoshi-c03 | exact | en.wikipedia.org | One local version describes a severed head falling from above. | Also, in the Tera section of Sogabe village, tsurube-oroshi are said to appear as a severed head that would drop down from an old pine tree and then eat and feed on someone and after that not appear for about two to three days, and then they would appear once again. |
 | tsurube-otoshi-c04 | exact | en.wikipedia.org | Another version says it devours humans. | In the Tsuchida section of the village of Ōi, it is also said that tsurube-oroshi would devour humans. |
+| tsurube-otoshi-c05 | exact | yokai.com | According to Yokai.com, tsurube otoshi are gigantic disembodied heads of a human, a tengu or an oni, sometimes appearing wreathed in flames like large fireballs with facial features. | Tsurube otoshi are a gigantic disembodied heads of either a human, a tengu, or an oni. Sometimes they appear wreathed in flames like large fireballs with facial features. |
+| tsurube-otoshi-c06 | exact | yokai.com | According to Yokai.com, tsurube otoshi lurk in the treetops late at night, waiting for unsuspecting creatures to pass underneath, and drop to the ground like a stone when they need to feed. | Tsurube otoshi lurk in the treetops late at night and wait for unsuspecting creatures to pass underneath. When they need to feed, they drop quickly to the ground like a stone. |
+| tsurube-otoshi-c07 | exact | yokai.com | Yokai.com states that this is the reason for its name, which means "falling well bucket". | This is the reason for its name, which means "falling well bucket." |
+| tsurube-otoshi-c08 | exact | yokai.com | According to Yokai.com, they also drop large rocks or even well buckets on their victims from up high, laughing at the damage they inflict. | They also drop large rocks or even well buckets (they have a sense of humor) on their victims from up high, laughing at the damage they inflict. |
+| tsurube-otoshi-c09 | exact | yokai.com | According to Yokai.com, tsurube otoshi in the Kansai region are most often solitary gargantuan heads, while in the Tohoku region they usually come in larger groups of slightly smaller heads. | Tsurube otoshi encountered in the Kansai region are most often solitary, gargantuan heads. In the Tohoku region, tsurube otoshi are usually encountered in larger groups of slightly smaller heads. |
+| tsurube-otoshi-c10 | exact | en.wikipedia.org | In an oral legend from the Hōki section of Sogabe village (now Kameoka), Kyoto Prefecture, recorded by Wikipedia, a tsurube-oroshi suddenly drops from a kaya tree with a sniggering laugh, saying "has your night work ended, how 'bout let's drop a bucket, gii-gii", and then rises above the tree again. | in the Hōki section of the village of Sogabe in Kyoto Prefecture (now Kameoka), a tsurube-oroshi would suddenly drop down from a kaya tree and make a sniggering laugh saying "has your night work ended, how 'bout let's drop a bucket, gii-gii" ("yagyō sunda ka, tsurube oroso ka, gii-gii") and then rise up above the tree again. |
+| tsurube-otoshi-c11 | exact | en.wikipedia.org | In an account recorded by Wikipedia, someone who reaches for something shining at the base of an old tree, thinking it a koban coin, is dragged into a bucket, lifted above the tree, menaced and then devoured by the tsurube-otoshi living there. | In a Genroku period yōkai tale told about in the Kuroe part of Kainan, Wakayama Prefecture, it is said that a certain old tree would have something shining at its base ... they would get dragged into a bucket and lifted up to above the tree where they would be menaced and then devoured by the tsurube-otoshi living there |
+| tsurube-otoshi-c12 | exact | en.wikipedia.org | In the Edo-period kaidan collection recorded by Wikipedia, they are depicted under the name "tsurube-oroshi" as a yōkai that is the spirit of a large tree turned into flames that rain down. | they are depicted under the name of "tsurube-oroshi" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down. |
+| tsurube-otoshi-c13 | exact | en.wikipedia.org | Wikipedia notes a theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights dangling from trees like buckets. | there is also the theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights that dangle from trees like buckets. |
 
 
 ## white-hare-of-inaba — lulus-otomatis
