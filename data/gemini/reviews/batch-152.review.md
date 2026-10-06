@@ -1,6 +1,6 @@
 # Review batch-152
 
-Diperiksa 2026-09-30T09:11:46.455Z. Berkas: batch-152.md, batch-152-fix-1.md.
+Diperiksa 2026-10-06T19:39:24.280Z. Berkas: batch-152.md, batch-152-fix-1.md, batch-152-fix-2.md.
 
 ## will-o-the-wisp — lulus-otomatis
 
@@ -337,10 +337,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## sea-swine — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -351,6 +348,13 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | sea-swine-c05 | exact | en.wikipedia.org | The animals were described as headed like a Hog, toothed, and tusked like a Boar. | The animals were described as "headed like a Hog, toothed, and tusked like a Boar". |
 | sea-swine-c06 | exact | en.wikipedia.org | The Sea Hogs were reported as travelling in packs with hundreds of individuals. | The Sea Hogs were reported as travelling in packs with hundreds of individuals. |
 | sea-swine-c07 | exact | en.wikipedia.org | Naturalist John Ray was explicit in stating that the sea swine and porpoise were one and the same. | However, contemporary naturalist John Ray was explicit in stating that the sea swine and porpoise were one and the same. |
+| sea-swine-c08 | exact | orkneymuseums.co.uk | Orkney Museums identifies the strange creature on the map as a 'Sea Swine', which Olaus describes as a 'monsterous Hog'. | The strange creature above is a ‘Sea Swine’, which Olaus describes as a ‘monsterous Hog’. |
+| sea-swine-c09 | exact | orkneymuseums.co.uk | In the quoted description, it had a hog's head with a quarter of a circle like the moon at the back of the head, four feet like a dragon's, two eyes on both sides of the loins and a third in the belly toward the navel, and a forked tail like other fish. | “For it had a Hogs head, and a quarter of a Circle, like the Moon, in the hinder part of its head, four feet like a dragons, two eyes on both sides of its Loyns, and a third in his belly inkling towards his Navel; behind he had a Forked-tail, like to other Fish commonly.” |
+| sea-swine-c10 | exact | orkneymuseums.co.uk | This fantastic creature was based on accounts of a strange animal published in an anonymous pamphlet in Rome in 1537. | This fantastic creature was based on accounts of a strange animal that was published in an anonymous pamphlet in Rome in 1537. |
+| sea-swine-c11 | exact | www.rug.nl | According to this exhibition, an interpretation was printed in Rome at that time explaining the significance of each part of the beast, which showed how heretics generally pursue a swinish existence. | In the city of Rome at that time an interpretation was printed and published, explaining the significance of the beast’s individual parts, which showed how heretics generally pursue a swinish existence. |
+| sea-swine-c12 | exact | www.rug.nl | In that interpretation, the four dragon's feet signify the grossly evil desires and acts of mankind, bursting in from the four corners of the earth. | Lastly, the four dragon’s feet signify the grossly evil desires and acts of mankind, bursting in viciously from the four corners of the earth |
+| sea-swine-c13 | exact | www.rug.nl | According to this exhibition, the sea-pig represents the deadly sins of lust and greed, which the devout Catholic Olaus Magnus believed to be inherent in the Lutheranism rapidly spreading in the north. | The sea-pig represents the deadly sins of lust and greed, which the devout Catholic Olaus Magnus believed to be inherent within the Lutheranism that was rapidly spreading in the north. |
+| sea-swine-c14 | exact | www.rug.nl | According to this exhibition, the monstrous sea-pig was not a figment of Magnus' personal imagination but was copied from a pamphlet published in Rome in 1537. | The monstrous sea-pig was not a figment of Magnus’ personal imagination, but was copied from a pamphlet published in Rome in 1537. |
 
 
 ## xeglun — lulus-otomatis
@@ -383,14 +387,13 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## roesschaert — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
+Klaim 20 (exact 20), sumber 2, gambar 0.
 
 **warn**
 - `claims (roesschaert-c05)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 - `claims (roesschaert-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims (roesschaert-c14)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (roesschaert-c19)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -401,6 +404,19 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | roesschaert-c05 | exact | vls.wikipedia.org | The hound changed into a cat, a donkey, a child, a walking barrel, and often into a fisherman. | Den ound veranderde e ki in een katte, ton in een ezel, een kind, een vuuloop, een wandelnde tunne… en dikwyls ook in een visscher. |
 | roesschaert-c06 | exact | vls.wikipedia.org | The creature could not utter the name God, replacing it with another expression. | D’r was moar êen twadde: je kost de noame “God“ nie uutspreekn. In plekke van “in Godsnoame” zeit’n alsan “in potsnoame”. |
 | roesschaert-c07 | exact | vls.wikipedia.org | To be freed from the tormenting spirit, it was necessary to change one's name during a baptismal ceremony. | Vo van de kwelgêest bevryd te geroakn was ’t absoluut nôodzoakelik van noame te verandern. Da gebeurde binst een eigenoardige “doopplechtigeid”. |
+| roesschaert-c08 | exact | heykenniscentrum.be | According to this local-history text, a laver (apprentice fisherman) going to sea for the first time was rebaptised so that Roeschaert (Noeschaert), the sea devil (zeeduivel), would not recognise him. | Een laver (leerling visser)die voor het eerst naar zee trok werd herdoopt, opdat Roeschaert ( Noeschaert) de zeeduivel hem niet zou herkennen. |
+| roesschaert-c09 | exact | heykenniscentrum.be | According to the text, if Noesschaert the water devil (waterduivel) came to tug at one's toes at night, one had to tell him one was not Jan Vlietinck or Ko van Dierendonck but Rosten, and Noeschaert slunk away. | Als Noesschaert de waterduivel dan ‘s nachts aan je tenen kwam trekken moest je hem zeggen dat je niet Jan Vlietinck of Ko van Dierendonck was, maar de Rosten en Noeschaert droop af. |
+| roesschaert-c10 | exact | heykenniscentrum.be | According to the text, in that baptism a small cup of beer was poured over the poor fellow's head and the baptiser recited a verse beginning "Rosten, ik doop u" and ending "En Rostekop hiet u". | Er werd de sukkelaar een kappertje bier (als ‘t niets ergers was) over het hoofd gegoten en de doper zei daarbij: Rosten, ik doop u Het water beloop u Het water begiet u En Rostekop hiet u. |
+| roesschaert-c11 | exact | heykenniscentrum.be | The author of the text calls it a "fabeltje" (little fable) that giving nicknames supposedly originated in the fishing milieu, a notion often heard. | Wat we allemaal vaak gehoord hebben is het fabeltje dat het geven van bijnamen uit het vissersmilieu zou stammen. |
+| roesschaert-c12 | exact | vls.wikipedia.org | In the legend, a sorceress lived in that cottage, an ugly, old, dirty woman who took the greatest pleasure in bewitching people. | In dat uzetje weundege d’r een toverekse, een lêlyk, oud, vuul wuuf, die d’r ’t grotste plezier in vound van menschn te betovern. |
+| roesschaert-c13 | exact | vls.wikipedia.org | According to the legend, on the third day of the month sprokkelmoand (February) 1791 a violent storm broke out. | ip de twiddn dag van de sprokkelmoand (februoari) 1791, een geweldige storm losbrak. |
+| roesschaert-c14 | exact | vls.wikipedia.org | Everyone was convinced that the sorceress had changed into an animal. | En iederêen was overtuugd dat d’ekse eur veranderd ad in een bêeste. |
+| roesschaert-c15 | exact | vls.wikipedia.org | According to the article, it was above all the fishermen who were pestered by Roesschaert, and so they were very afraid of him when they went to sea. | ’t Woaren surtout de visschers die gepest wierdn deur Roesschaert en doarom addn ze een emelste schrik van em os ze giengn voarn. |
+| roesschaert-c16 | exact | vls.wikipedia.org | In the baptismal ceremony, the oldest fisherman blackened the whole body of the one to be "baptised" and threw a scoop of seawater in his face while reciting baptismal verses. | Den oudstn visscher makte den dopelienk hêlegans zwart en gôot een kloefe me zêewoater in z’n oanzichte binst dat ’n doopverzn ipzei: |
+| roesschaert-c17 | exact | vls.wikipedia.org | The custom later disappeared, but the nicknames are still passed on from father to son. | Loater is da gebruuk nateurlik verdweenn moa de lapnoamn zyn nog deuregegeevn van voader ip zeune. |
+| roesschaert-c18 | exact | vls.wikipedia.org | In the past all the fishermen of Blankenberge had a nickname (lapnoame), and that was Roesschaert's fault. | Vroeger addn al de Blanknbergsche visschers een lapnoame en da was de schuld van Roesschaert. |
+| roesschaert-c19 | exact | vls.wikipedia.org | In the legend, in the 1700s a small dilapidated cottage, partly of wood and partly of stone, stood to the east in the middle of the Blankenberge dunes. | In de joarn 1700 en zovele stound ôostwoarts in ’t middn van de de Blanknbergsche duunn een klêen vervalln uzetje dêels in out en dêels in stêen, |
+| roesschaert-c20 | exact | vls.wikipedia.org | In the legend, the sorceress's cottage was also completely destroyed. | ook ’t uzetje van d’ekse was hêlegans verwoest |
 
 
 ## terrible-monster — lulus-otomatis

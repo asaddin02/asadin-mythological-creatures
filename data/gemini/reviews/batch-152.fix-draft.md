@@ -10,3 +10,5 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 ## roesschaert
 - `claims (roesschaert-c05)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 - `claims (roesschaert-c06)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (roesschaert-c14)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (roesschaert-c19)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).

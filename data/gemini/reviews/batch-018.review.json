@@ -1,27 +1,24 @@
 {
   "batch_id": "batch-018",
-  "checked_at": "2026-09-29T12:55:08.757Z",
+  "checked_at": "2026-10-06T19:39:23.982Z",
   "files": [
-    "batch-018.md"
+    "batch-018.md",
+    "batch-018-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "pyinsarupa",
-      "file": "batch-018.md",
+      "file": "batch-018-fix-1.md",
+      "entry_sha256": "c6ccd3169c9f1a22758c13eb29a2e06aca5c8ecaab0b9c23ce4eef847088eafa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 8,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Wat Phra Kaeo, Chiang Rai - 2017-06-27 (044).jpg)",
@@ -58,6 +55,126 @@
           "quote": "The creature is commonly featured in traditional Burmese hsaing waing orchestras, and serves as the logo of Myanmar's flagship air carrier, Myanmar Airways International.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c04",
+          "source_id": "pyinsarupa-s2",
+          "host": "wmic.net",
+          "statement": "The pyinsarupa is a chimeric animal of Burmese mythology that combines physical features of five different animals, symbolizing a combination of land, water and winged creatures.",
+          "statement_id": "Pyinsarupa adalah hewan campuran dari mitologi Myanmar yang menggabungkan ciri fisik lima hewan berbeda, melambangkan gabungan makhluk darat, air, dan bersayap.",
+          "quote": "The ‘Pyinsarupa’ is a chimeric animal from Burmese mythology, meaning an amalgamation of the physical characteristics of five different animals, symbolizing a combination of land, water, and winged creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c05",
+          "source_id": "pyinsarupa-s2",
+          "host": "wmic.net",
+          "statement": "According to this collection catalog, the pyinsarupa's components are the elephant (trunk), bullock or water buffalo (body), horse (legs and ears), white carp or nga gyin fish (tail and scales) and hamsa (wings).",
+          "statement_id": "Menurut katalog koleksi ini, komponen pyinsarupa adalah gajah (belalai), sapi jantan atau kerbau (badan), kuda (kaki dan telinga), ikan karper putih atau nga gyin (ekor dan sisik), dan hamsa (sayap).",
+          "quote": "The components of this ‘Pyinsarupa’ consist of the Elephant (trunk); Bullock/Water Buffalo (body); Horse (legs and ears); White Carp/Nga Gyin Fish (tail and scales); and Hamsa (wings).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c06",
+          "source_id": "pyinsarupa-s2",
+          "host": "wmic.net",
+          "statement": "A Burmese harp in this collection is shaped like the pyinsarupa, which the catalog calls an important cultural symbol in Myanmar.",
+          "statement_id": "Sebuah harpa Myanmar dalam koleksi ini berbentuk pyinsarupa, yang disebut sebagai simbol budaya penting di Myanmar.",
+          "quote": "This Burmese harp ... is in the shape of the Burmese creature called a ‘Pyinsarupa’ and is an important cultural symbol in Myanmar (Burma).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c07",
+          "source_id": "pyinsarupa-s2",
+          "host": "wmic.net",
+          "statement": "The catalog says the pyinsarupa on that harp is fully decorated with pieces of mica, glass and gilt.",
+          "statement_id": "Katalog menyebut pyinsarupa pada harpa itu dihias penuh dengan keping mika, kaca, dan sepuhan emas.",
+          "quote": "The ‘Pyinsarupa’ is fully decorated with pieces of mica (Mandalay pearls’), glass, and gilt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c08",
+          "source_id": "pyinsarupa-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the Burmese zodiac, Ketu's sign is a mythical Animal of Five Beauties called pyinsarupa, with a deer's antlers, an elephant's tusks and trunk, a lion's mane, a naga serpent's body and a fish's tail.",
+          "statement_id": "Dalam zodiak Myanmar, lambang Ketu adalah Hewan Lima Keindahan mitos bernama pyinsarupa, dengan tanduk rusa, gading dan belalai gajah, surai singa, tubuh ular naga, dan ekor ikan.",
+          "quote": "Ketu's sign is a mythical Animal of Five Beauties called pyinsarupa ... with the antlers of a deer, the tusks and the trunk of an elephant, the mane of a lion, the body of a naga serpent, and the tail of a fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c09",
+          "source_id": "pyinsarupa-s8",
+          "host": "en.wikipedia.org",
+          "statement": "A list of Burmese mythical creatures glosses the name pyinsarupa literally as 'five features' and calls it a creature made from parts of five different animals.",
+          "statement_id": "Daftar makhluk mitos Myanmar menerjemahkan nama pyinsarupa secara harfiah sebagai 'lima ciri' dan menyebutnya makhluk gabungan bagian lima hewan berbeda.",
+          "quote": "Pyinsarupa – (lit five features); a creature made from the amalgamation of parts of five different animals, mascot of Myanmar Airways International.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c10",
+          "source_id": "pyinsarupa-s4",
+          "host": "en.wikipedia.org",
+          "statement": "A royal barge named Pyinsarupa was used by the chief queens: a gilt barge with a pyinsarupa figurehead, a chimeric animal with the mane of a karaweik bird, an elephant's tusk and trunk, a bull's hump, a ngagyin fish's tail and the horns of a toe naya.",
+          "statement_id": "Tongkang kerajaan bernama Pyinsarupa dipakai para permaisuri utama: tongkang berlapis emas berhias kepala pyinsarupa, hewan campuran dengan surai burung karaweik, gading dan belalai gajah, punuk sapi, ekor ikan ngagyin, dan tanduk toe naya.",
+          "quote": "Pyinsarupa (ပဉ္စရူပ) - used by the chief queens, a gilt barge with the figurehead of a pyinsarupa (a chimeric animal with the mane of karaweik bird, the tusk and trunk of an elephant, the hump of bull, the tail of a ngagyin fish, and the horns of a toe naya)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c11",
+          "source_id": "pyinsarupa-s4",
+          "host": "en.wikipedia.org",
+          "statement": "By the Konbaung dynasty there were several types of royal state barges, each distinguished by a specific mythical figurehead at the bow and allocated to different members of the royal court.",
+          "statement_id": "Pada masa dinasti Konbaung ada beberapa jenis tongkang kerajaan, masing-masing dibedakan oleh kepala mitos tertentu di haluan dan diperuntukkan bagi anggota istana yang berbeda.",
+          "quote": "By the Konbaung dynasty, several types of royal state barges existed, each distinguished by a specific mythical figurehead at the front of the barge, and each allocated to different members of the royal court",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c12",
+          "source_id": "pyinsarupa-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the hsaing waing ensemble, the pat ma gyi is a big drum suspended from a pole frame depicting a mythical pyinsarupa.",
+          "statement_id": "Dalam ansambel hsaing waing, pat ma gyi adalah gendang besar yang digantung pada rangka tiang dan menggambarkan pyinsarupa mitos.",
+          "quote": "Pat ma gyi (ပတ်မကြီး) - a big drum suspended from a pole frame depicting a mythical pyinsarupa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c13",
+          "source_id": "pyinsarupa-s6",
+          "host": "en.wiktionary.org",
+          "statement": "The word is borrowed from Pali pañca ('five') and rūpa ('beauties'); the Wikipedia article glosses it as 'forms'.",
+          "statement_id": "Kata ini dipinjam dari kata Pali pañca ('lima') dan rūpa ('keindahan'; artikel Wikipedia memberi arti 'wujud').",
+          "quote": "borrowed from Pali pañca (“five”) + Pali rūpa (“beauties”).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c14",
+          "source_id": "pyinsarupa-s7",
+          "host": "en.wikipedia.org",
+          "statement": "The logo of Myanmar Airways International shows pyinsarupa, a traditional Burmese chimeric animal.",
+          "statement_id": "Logo maskapai Myanmar Airways International menampilkan pyinsarupa, hewan campuran tradisional Myanmar.",
+          "quote": "MAI's logo shows pyinsarupa (Burmese: ပဉ္စရူပ), a traditional Burmese chimeric animal.",
+          "context": "modern-popular-culture",
+          "status": "loose"
+        },
+        {
+          "id": "pyinsarupa-c15",
+          "source_id": "pyinsarupa-s8",
+          "host": "en.wikipedia.org",
+          "statement": "The nawarupa ('nine features') is a creature made from the amalgamation of parts of nine different animals.",
+          "statement_id": "Nawarupa ('sembilan ciri') adalah makhluk yang terbentuk dari gabungan bagian sembilan hewan berbeda.",
+          "quote": "Nawarupa – (lit nine features); a creature made from the amalgamation of parts of nine different animals.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": [
@@ -88,33 +205,28 @@
             "kategori \"Pyinsarupa\"",
             "dipakai di en.wikipedia.org: Pyinsarupa"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-018/pyinsarupa-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-018/pyinsarupa-1.jpg"
         }
       ]
     },
     {
       "slug": "tigmamanukan",
-      "file": "batch-018.md",
+      "file": "batch-018-fix-1.md",
+      "entry_sha256": "83b785df6fe07a3cc78848549bd36d6f5bc140bf86945b7f70d0870098229df5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 23,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tigmamanukan-c01",
           "source_id": "tigmamanukan-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Philippine mythology, the Tagalog believed the tigmamanukan was an omen bird; before Christianisation it was thought sent by Bathala to show whether a journey should proceed, and in some creation myths it split the primordial bamboo from which the first humans emerged.",
-          "statement_id": "Dalam mitologi Filipina, orang Tagalog meyakini tigmamanukan sebagai burung pertanda; sebelum Kristenisasi, burung ini dipercaya diutus Bathala untuk memberi tahu apakah perjalanan boleh dilanjutkan, dan dalam beberapa mitos penciptaan ia membelah bambu purba tempat manusia pertama keluar.",
+          "statement": "In Philippine mythology, the Tagalog believed the tigmamanukan was an omen or augural bird; among the other birds and lizards watched for omens, particular attention was paid to it, and before Christianisation it was believed sent by Bathala, the supreme deity and creator god.",
+          "statement_id": "Dalam mitologi Filipina, orang Tagalog meyakini tigmamanukan sebagai burung pertanda; di antara burung dan kadal lain yang diamati sebagai pertanda, perhatian khusus diberikan kepadanya, dan sebelum Kristenisasi ia diyakini diutus Bathala, dewa tertinggi dan pencipta.",
           "quote": "In Philippine mythology, the Tigmamanukan was believed by the Tagalog people to be an omen or augural bird. Although numerous other birds and lizards were observed for possible omens, particular attention was paid to the tigmamanukan. Before Christianisation, the Tagalogs believed the tigmamanukan was sent by the supreme deity and creator god Bathala",
           "context": "traditional-belief",
           "status": "exact"
@@ -123,8 +235,8 @@
           "id": "tigmamanukan-c02",
           "source_id": "tigmamanukan-s1",
           "host": "en.wikipedia.org",
-          "statement": "The root of tigmamanukan is manók (Proto-Austronesian *manuk), now meaning only chicken; it once named any bird, lizard or snake crossing one's path as an omen, likely from reading sacrificed chickens' entrails.",
-          "statement_id": "Akar kata tigmamanukan adalah manók (dari Proto-Austronesia *manuk), yang kini hanya berarti ayam; kata ini dulu dipakai untuk setiap burung, kadal, atau ular yang melintas sebagai pertanda, dan kemungkinan berasal dari praktik membaca isi perut ayam kurban.",
+          "statement": "The root of the word tigmamanukan is manók (from Proto-Austronesian *manuk), which in modern Filipino is used exclusively for the chicken (Gallus gallus domesticus).",
+          "statement_id": "Akar kata tigmamanukan adalah manók (dari Proto-Austronesia *manuk), yang dalam bahasa Filipino modern hanya dipakai untuk ayam (Gallus gallus domesticus).",
           "quote": "The root of the word tigmamanukan is manók (from Proto-Austronesian *manuk), which in modern Filipino is exclusively used for the chicken (Gallus gallus domesticus).",
           "context": "etymology",
           "status": "exact"
@@ -133,9 +245,9 @@
           "id": "tigmamanukan-c03",
           "source_id": "tigmamanukan-s1",
           "host": "en.wikipedia.org",
-          "statement": "Per San Buenaventura's 1613 dictionary, the Tagalogs believed the tigmamanukan's flight at a journey's start foretold its result: right meant success (labay), left meant the travellers would never return.",
-          "statement_id": "Menurut kamus San Buenaventura (1613), orang Tagalog percaya arah terbang tigmamanukan di awal perjalanan menandakan hasilnya: ke kanan berarti berhasil (labay), ke kiri berarti para pengembara tak akan kembali.",
-          "quote": "the Tagalogs believed that the direction of a tigmamanukan flying across one's path at the beginning a journey indicated the undertaking's result. If it flew to the right, the expedition would be a success. This sign was called \"labay\"",
+          "statement": "According to San Buenaventura's 1613 Dictionary of the Tagalog Language, the Tagalogs believed that the direction of a tigmamanukan flying across one's path at the start of a journey indicated its result; if it flew to the right, the expedition would succeed.",
+          "statement_id": "Menurut Dictionary of the Tagalog Language karya San Buenaventura tahun 1613, orang Tagalog percaya arah terbang tigmamanukan yang melintas di awal perjalanan menandakan hasilnya; bila terbang ke kanan, perjalanan akan berhasil.",
+          "quote": "According to San Buenaventura's 1613 Dictionary of the Tagalog Language ... the Tagalogs believed that the direction of a tigmamanukan flying across one's path at the beginning a journey indicated the undertaking's result. If it flew to the right, the expedition would be a success.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -143,8 +255,8 @@
           "id": "tigmamanukan-c04",
           "source_id": "tigmamanukan-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some early Western explorers say the bird was a fairy bluebird (genus Irena), and most sources agree it was blue.",
-          "statement_id": "Sebagian penjelajah Barat awal menyebut burung ini burung biru peri (genus Irena), dan kebanyakan sumber sepakat ia berwarna biru.",
+          "statement": "Some early Western explorers say the bird referred to by the name is a fairy bluebird (genus Irena, family Irenidae).",
+          "statement_id": "Sebagian penjelajah Barat awal menyebut burung yang dimaksud nama ini adalah burung biru peri (genus Irena, famili Irenidae).",
           "quote": "some early western explorers say that the specific bird referred to by the name is a fairy bluebird (genus Irena and family Irenidae).",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -153,10 +265,190 @@
           "id": "tigmamanukan-c05",
           "source_id": "tigmamanukan-s1",
           "host": "en.wikipedia.org",
-          "statement": "The tigmamanukan that pecked the bamboo was named Manaul by Bathala.",
-          "statement_id": "Tigmamanukan yang mematuk bambu itu dinamai Manaul oleh Bathala.",
+          "statement": "It is said that the particular tigmamanukan that pecked the bamboo was named Manaul by Bathala.",
+          "statement_id": "Dikatakan bahwa tigmamanukan tertentu yang mematuk bambu itu dinamai Manaul oleh Bathala.",
           "quote": "It is said that the specific tigmamanukan that pecked the bamboo was named by Bathala as Manaul",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c06",
+          "source_id": "tigmamanukan-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to this text, if on leaving home they met a serpent or rat, a bird called Tigmamanuguin singing in a tree, or someone who sneezed, they returned home at once, taking it as an augury that evil might befall them if they continued, especially when the bird sang.",
+          "statement_id": "Menurut teks ini, bila di jalan mereka bertemu ular, tikus, atau burung bernama Tigmamanuguin yang berkicau di pohon, atau bertemu orang yang bersin, mereka segera pulang karena menganggapnya pertanda bahwa celaka dapat menimpa jika perjalanan dilanjutkan, terutama bila burung itu berkicau.",
+          "quote": "if they left their house and met on the way a serpent or rat, or a bird called Tigmamanuguin which was singing in the tree, or if they chanced upon anyone who sneezed, they returned at once to their house, considering the incident as an augury that some evil might befall them if they should continue their journey—especially when the above-mentioned bird sang.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c07",
+          "source_id": "tigmamanukan-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to this text, the bird's song had two forms: one was taken as an evil omen and the other as a good omen, in which case they continued their journey.",
+          "statement_id": "Menurut teks ini, kicau burung itu punya dua bentuk: yang satu dianggap pertanda buruk, yang lain pertanda baik, dan dalam hal kedua mereka melanjutkan perjalanan.",
+          "quote": "especially when the above-mentioned bird sang. This song had two different forms: in the one case it was considered as an evil omen; in the other, as a good omen, and then they continued their journey.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c08",
+          "source_id": "tigmamanukan-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to this text, only Bathala, \"the maker of all things,\" dwelt in heaven and governed from above.",
+          "statement_id": "Menurut teks ini, di surga hanya tinggal Bathala, \"pencipta segala sesuatu\", yang memerintah dari atas.",
+          "quote": "no one would go to heaven, where there dwelt only Bathala, \"the maker of all things,\" who governed from above.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c09",
+          "source_id": "tigmamanukan-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to this text, the Tagalos (as the text spells the name) adored a blue bird as large as a thrush and called it Bathala, a term of divinity among them.",
+          "statement_id": "Menurut teks ini, orang Tagalos (ejaan teks itu) memuja seekor burung biru sebesar thrush dan menyebutnya Bathala, istilah ilahi di kalangan mereka.",
+          "quote": "The Tagalos adored a blue bird, as large as a thrush, and called it Bathala, which was among them a term of divinity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c10",
+          "source_id": "tigmamanukan-s4",
+          "host": "aswangproject.com",
+          "statement": "The Aswang Project lists tigmamanukin, also called tigmamanok, as a bird whose songs serve as an omen to the Tagalogs, giving its scientific name as Jrena cyanogastra (according to Doctor A. B. Meyer).",
+          "statement_id": "The Aswang Project mendaftar tigmamanukin, juga disebut tigmamanok, sebagai burung yang kicauannya menjadi pertanda bagi orang Tagalog; nama ilmiahnya ditulis Jrena cyanogastra (menurut Doctor A. B. Meyer).",
+          "quote": "Tigmamanukin. A bird, also called tigmamanok, whose songs serve as an omen to the Tagalogs. Its scientific name is Jrena cyanogastra (according to Doctor A. B. Meyer).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c11",
+          "source_id": "tigmamanukan-s4",
+          "host": "aswangproject.com",
+          "statement": "Limokon or Limukun is the Bagobo and Mandaya (Mindanao) name of the wild dove Phabotreron brevirostris, whose song serves as an omen.",
+          "statement_id": "Limokon atau Limukun adalah nama dalam bahasa Bagobo dan Mandaya (Mindanao) untuk merpati liar Phabotreron brevirostris yang kicauannya menjadi pertanda.",
+          "quote": "Limokon or Limukun. It is the Bagobo and Mandaya (Mindanao) name of the wild dove Phabotreron brevirostris whose song serves as an omen.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c12",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Before Christianisation, the Tagalogs believed the tigmamanukan was sent by Bathala, the supreme deity and creator god, as an oracle to mankind about whether or not to proceed on a journey.",
+          "statement_id": "Sebelum Kristenisasi, orang Tagalog percaya tigmamanukan diutus Bathala, dewa tertinggi dan pencipta, sebagai orakel bagi manusia tentang perlu tidaknya melanjutkan perjalanan.",
+          "quote": "Before Christianisation, the Tagalogs believed the tigmamanukan was sent by the supreme deity and creator god Bathala as an oracle to mankind concerning whether or not they should proceed on a journey.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c13",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some Philippine creation myths, the tigmamanukan bird was sent by Bathala to split open the primordial bamboo from which the first man and woman came out.",
+          "statement_id": "Dalam beberapa mitos penciptaan Filipina, burung tigmamanukan diutus Bathala untuk membelah bambu purba tempat laki-laki dan perempuan pertama keluar.",
+          "quote": "In some Philippine creation myths, the tigmamanukan bird was sent by Bathala to split open the primordial bamboo whence the first man and woman came out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c14",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Before Christianisation, as documented by Spanish accounts early in the colonial period, the word tigmamanukan was widely used for \"any bird, lizard or snake that crossed one's path as an omen\"; such encounters were called salúbong (\"meeting\", \"encounter\").",
+          "statement_id": "Sebelum Kristenisasi, menurut catatan Spanyol awal masa kolonial, kata tigmamanukan banyak dipakai untuk \"setiap burung, kadal, atau ular yang melintas di jalan seseorang sebagai pertanda\"; pertemuan semacam itu disebut salúbong (\"pertemuan\").",
+          "quote": "Before Christianisation, as documented by Spanish accounts early in the colonial period, the word tigmamanukan was widely used for \"any bird, lizard or snake that crossed one's path as an omen\". Such encounters were called salúbong (\"meeting\", \"encounter\").",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c15",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term most likely evolved from divination practices, that is, reading omens after the ritual sacrifice of chickens and sometimes other animals such as pigs.",
+          "statement_id": "Istilah ini kemungkinan besar berkembang dari praktik ramalan, yaitu membaca pertanda setelah pengorbanan ritual ayam dan kadang hewan lain seperti babi.",
+          "quote": "The term most likely evolved from divination practises, i.e., reading omens following the ritual sacrifice of chickens and sometimes other animals like pigs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c16",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sign was called \"labay\", a term still present in some Filipino languages meaning \"proceed\". If the bird flew to the left, the travelers would surely never return.",
+          "statement_id": "Tanda itu disebut \"labay\", istilah yang masih ada di beberapa bahasa Filipina dengan arti \"melanjutkan\". Bila burung terbang ke kiri, para pengembara pasti tidak akan kembali.",
+          "quote": "This sign was called \"labay\", a term still present in some Filipino languages with the meaning \"proceed\". If the bird flew to the left, the travelers would surely never return.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c17",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most of the sources that describe the tigmamanukan agree that it is distinguished by a \"blue\" color.",
+          "statement_id": "Kebanyakan sumber yang menggambarkan tigmamanukan sepakat bahwa burung ini dicirikan oleh warna \"biru\".",
+          "quote": "In any case, most of the sources which describe the tigmamanukan agree that it is distinguished by a \"blue\" color.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c18",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In at least one telling of the Filipino creation myth, the Tigmamanukan was responsible for opening the bamboo from which the first man, Malakas, and first woman, Maganda, emerged.",
+          "statement_id": "Dalam sedikitnya satu versi mitos penciptaan Filipina, Tigmamanukan bertugas membuka bambu tempat keluar laki-laki pertama, Malakas, dan perempuan pertama, Maganda.",
+          "quote": "In at least one telling of the Filipino creation myth, the Tigmamanukan was responsible for opening the bamboo from which emerged the first man, Malakas, and first woman, Maganda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c19",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "However, in other sources it was the bird form of Amihan, the deity of peace and wind, that pecked the bamboo; some sources also state that Amihan's bird form is Manaul.",
+          "statement_id": "Namun dalam sumber lain, yang mematuk bambu adalah wujud burung Amihan, dewi kedamaian dan angin; sebagian sumber juga menyebut wujud burung Amihan adalah Manaul.",
+          "quote": "however, in other sources, it was the bird form of Amihan, the deity of peace and wind, that pecked the bamboo. Some sources also state that Amihan's bird form is Manaul.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c20",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was also said that if a hunter caught a tigmamanukan in a trap, they would cut its beak and release it, saying \"Kita ay iwawala, kung ako'y mey kakaunan, lalabay ka\" (\"You are free, so when I set forth, sing on the right\").",
+          "statement_id": "Dikatakan pula bahwa bila pemburu menangkap tigmamanukan dalam jerat, ia memotong paruhnya lalu melepaskannya sambil berkata \"Kita ay iwawala, kung ako'y mey kakaunan, lalabay ka\" (\"Kau bebas, maka saat aku berangkat, berkicaulah di sebelah kanan\").",
+          "quote": "It was also said that if a hunter caught a tigmamanukan in a trap, they would cut its beak and release it, saying \"Kita ay iwawala, kung ako'y mey kakaunan, lalabay ka.\" (\"You are free, so when I set forth, sing on the right.\")",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c21",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another kingfisher species was also called tigmamanukan; these birds were considered taboo to kill.",
+          "statement_id": "Satu jenis raja udang lain juga disebut tigmamanukan; burung-burung ini dianggap tabu untuk dibunuh.",
+          "quote": "Another kingfisher species was also called tigmamanukan. These birds were considered taboo to kill.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c22",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a quoted historical account, the Tagalogs worshiped a blue bird as large as a turtle-dove, which they called tigmamanuquin, to which they attributed the name of Bathala, a name for divinity among them.",
+          "statement_id": "Dalam kutipan sebuah catatan sejarah, orang Tagalog memuja burung biru sebesar tekukur yang mereka sebut tigmamanuquin, yang dinamai Bathala, nama bagi keilahian di kalangan mereka.",
+          "quote": "The Tagálogs worshiped a blue bird as large as a turtle-dove, which they called tigmamanuquin, to which they attributed the name of Bathala, which, as above stated, was among them a name for divinity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c23",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There were myriads of species considered omen birds in ancient Philippines, and many of them share a characteristic: blue plumage.",
+          "statement_id": "Di Filipina kuno ada sangat banyak jenis burung yang dianggap burung pertanda, dan banyak di antaranya memiliki ciri yang sama, yaitu bulu biru.",
+          "quote": "There were myriads of species considered \"omen birds\" in ancient Philippines. Many of them share a characteristic: blue plumage.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -164,20 +456,15 @@
     },
     {
       "slug": "begu-ganjang",
-      "file": "batch-018.md",
+      "file": "batch-018-fix-1.md",
+      "entry_sha256": "06542508df3073303a1387488b72987821647cb9ab69902f6b9ea1b7efcf2774",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 30,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "begu-ganjang-c01",
@@ -193,9 +480,9 @@
           "id": "begu-ganjang-c02",
           "source_id": "begu-ganjang-s1",
           "host": "id.wikipedia.org",
-          "statement": "In Batak culture a person has a body (pamatang) and soul (tondi); after death the soul becomes a begu and goes to the parbeguan, where the dead gather.",
-          "statement_id": "Dalam budaya Batak manusia terdiri atas jasad (pamatang) dan roh (tondi); setelah mati roh menjadi begu dan pergi ke parbeguan, tempat berkumpulnya roh orang mati.",
-          "quote": "Manusia dianggap memiliki dua unsur yaitu jasad atau fisik, yang disebut pamatang, dan roh, yang disebut tondi. Setelah kematian, roh dipercaya berubah menjadi begu. Begu kemudian pergi ke parbeguan, tempat gaib di mana berkumpul roh-roh orang yang telah meninggal.",
+          "statement": "In Batak culture, Begu Ganjang is a supernatural being believed to originate from humans or certain places; a person is considered to have a body (pamatang) and a soul (tondi), and after death the soul is believed to become a begu that goes to the parbeguan, where the spirits of the dead gather.",
+          "statement_id": "Dalam budaya Batak, Begu Ganjang adalah makhluk gaib yang diyakini berasal dari manusia atau tempat tertentu; manusia dianggap punya jasad (pamatang) dan roh (tondi), dan setelah kematian roh dipercaya menjadi begu yang pergi ke parbeguan, tempat berkumpulnya roh orang yang telah meninggal.",
+          "quote": "Dalam budaya Batak, Begu Ganjang adalah makhluk gaib yang diyakini berasal dari manusia atau tempat tertentu. Manusia dianggap memiliki dua unsur yaitu jasad atau fisik, yang disebut pamatang, dan roh, yang disebut tondi. Setelah kematian, roh dipercaya berubah menjadi begu. Begu kemudian pergi ke parbeguan, tempat gaib di mana berkumpul roh-roh orang yang telah meninggal.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -203,8 +490,8 @@
           "id": "begu-ganjang-c03",
           "source_id": "begu-ganjang-s1",
           "host": "id.wikipedia.org",
-          "statement": "Begu means spirit or ghost and ganjang long or tall, so the name is translated long ghost; it is big, thin, elongated, shadow-dark, and grows taller the longer one stares.",
-          "statement_id": "Begu berarti roh atau hantu dan ganjang berarti panjang atau tinggi, sehingga namanya diterjemahkan hantu panjang; ia digambarkan besar, kurus, memanjang, gelap seperti bayangan, dan makin lama ditatap makin menjulang.",
+          "statement": "Literally, begu means \"spirit\" or \"ghost\" and ganjang means \"long\" or \"tall\", so the name is often translated as long ghost.",
+          "statement_id": "Secara harfiah begu berarti \"roh\" atau \"hantu\" dan ganjang berarti \"panjang\" atau \"tinggi\", sehingga nama itu sering diterjemahkan sebagai hantu panjang.",
           "quote": "Secara harfiah, istilah begu berarti “roh” atau “hantu”, sedangkan ganjang berarti “panjang” atau “tinggi”, sehingga keseluruhan namanya sering diterjemahkan sebagai hantu panjang",
           "context": "etymology",
           "status": "exact"
@@ -213,8 +500,8 @@
           "id": "begu-ganjang-c04",
           "source_id": "begu-ganjang-s1",
           "host": "id.wikipedia.org",
-          "statement": "In some oral traditions the begu ganjang is a guardian of farmland; later it became more linked with destructive black magic.",
-          "statement_id": "Dalam sejumlah tradisi lisan begu ganjang dipercaya roh penjaga lahan pertanian; kemudian ia lebih sering dikaitkan dengan ilmu hitam yang merusak.",
+          "statement": "In some oral traditions, Begu Ganjang is believed to be a guardian spirit of farmland.",
+          "statement_id": "Dalam sejumlah tradisi lisan, Begu Ganjang dipercaya sebagai roh penjaga lahan pertanian.",
           "quote": "Dalam sejumlah tradisi lisan, Begu Ganjang dipercaya sebagai roh penjaga lahan pertanian.",
           "context": "traditional-belief",
           "status": "exact"
@@ -223,10 +510,260 @@
           "id": "begu-ganjang-c05",
           "source_id": "begu-ganjang-s1",
           "host": "id.wikipedia.org",
-          "statement": "Mysterious illnesses, unexplained decline and sudden deaths are often linked with the begu ganjang.",
-          "statement_id": "Penyakit misterius, kondisi fisik yang memburuk tanpa sebab jelas, dan kematian mendadak kerap dikaitkan dengan begu ganjang.",
-          "quote": "Kemunculan penyakit misterius, kondisi fisik yang memburuk tanpa sebab yang jelas, hingga kematian mendadak kerap diasosiasikan dengan keberadaan atau gangguan entitas ini.",
+          "statement": "Belief in Begu Ganjang in Batak society is generally used to explain events seen as unusual or hard to understand rationally; mysterious illness, unexplained physical decline and sudden death are often associated with this entity.",
+          "statement_id": "Kepercayaan terhadap Begu Ganjang dalam masyarakat Batak umumnya dipakai untuk menjelaskan peristiwa yang dianggap tidak lazim atau sulit dipahami secara rasional; penyakit misterius, kondisi fisik yang memburuk tanpa sebab jelas, hingga kematian mendadak kerap dikaitkan dengan entitas ini.",
+          "quote": "Kepercayaan terhadap Begu Ganjang dalam masyarakat Batak umumnya digunakan untuk menjelaskan berbagai peristiwa yang dianggap tidak lazim atau sulit dipahami secara rasional. Kemunculan penyakit misterius, kondisi fisik yang memburuk tanpa sebab yang jelas, hingga kematian mendadak kerap diasosiasikan dengan keberadaan atau gangguan entitas ini.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c06",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, the begu ganjang myth is an oral tradition that still exists among the Batak Toba people.",
+          "statement_id": "Menurut kajian ini, mitos begu ganjang adalah tradisi lisan yang masih ada di kalangan masyarakat Batak Toba.",
+          "quote": "Mitos begu ganjang merupakan tradisi lisan yang masih eksis bagi masyarakat Batak Toba.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c07",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, people view begu ganjang as a murderous supernatural being with varied descriptions of begu ganjang and parbegu ganjang.",
+          "statement_id": "Menurut kajian ini, masyarakat memandang begu ganjang sebagai makhluk supranatural pembunuh dengan beragam deskripsi tentang begu ganjang dan parbegu ganjang.",
+          "quote": "Persepsi masyarakat memandang begu ganjang sebagai makhluk supranatural pembunuh dengan beragam deskripsi mengenai begu ganjang dan parbegu ganjang.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c08",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, Siagian (1990: 7-11) tells that Datu Tala Dibabana had seven grandchildren born at once to his daughter.",
+          "statement_id": "Menurut kajian ini, Siagian (1990: 7—11) mengisahkan bahwa Datu Tala Dibabana memiliki tujuh cucu yang lahir sekaligus dari anak perempuannya.",
+          "quote": "Siagian (1990: 7—11) mengisahkan bahwa Datu Tala Dibabana memiliki tujuh cucu yang lahir sekaligus dari anak perempuannya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c09",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "In the tale, Datu Tala called his grandchildren and struck seven lidi (palm ribs) on them while naming six of them porhas, sibalik hunik, begu ngurngur, sombaon di laut, patuallang ni aji and begu ganjang, while the seventh grandchild was called jolma (human).",
+          "statement_id": "Dalam kisah itu, Datu Tala memanggil cucu-cucunya dan melibaskan tujuh lidi pada mereka sambil menamai keenam cucunya porhas, sibalik hunik, begu ngurngur, sombaon di laut, patuallang ni aji, dan begu ganjang, sedangkan cucu ketujuh disebut jolma (manusia).",
+          "quote": "Datu Tala memanggil semua cucunya itu dan melibaskan tujuh lidi pada mereka sambil menamai keenam cucunya dengan sebutan porhas, sibalik hunik, begu ngurngur, sombaon di laut, patuallang ni aji, dan begu ganjang sementara cucu ketujuh disebut jolma (manusia).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c10",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "The study notes that this turi-turian (folk tale) does not present the begu as evil beings.",
+          "statement_id": "Kajian ini mencatat bahwa turi-turian (cerita rakyat) tersebut tidak menampilkan para begu sebagai makhluk yang jahat.",
+          "quote": "Perlu diingat bahwa turiturian tersebut tidak menampilkan para begu sebagai makhluk yang jahat.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c11",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, a tona (message) myth that also uses the term begu ganjang warns against envy leading to bad deeds.",
+          "statement_id": "Menurut kajian ini, mitos tona (pesan) yang juga memakai istilah begu ganjang mengingatkan orang agar tidak iri hati sehingga berbuat hal yang tidak baik.",
+          "quote": "Adapun mitos tona yang juga menggunakan istilah begu ganjang mengingatkan untuk tidak iri hati sehingga berbuat hal-hal yang tidak baik.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c12",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, the two oral-tradition forms it discusses are persuasive narratives meant to prevent various bad and harmful behaviors.",
+          "statement_id": "Menurut kajian ini, kedua bentuk tradisi lisan yang dibahasnya adalah narasi persuasif untuk mencegah berbagai perilaku buruk dan merugikan.",
+          "quote": "Sederhananya, kedua bentuk tradisi lisan yang termuat dalam sastra ini merupakan narasi persuasif guna mencegah berbagai perilaku buruk dan merugikan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c13",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, the name begu ganjang exists possibly because its form has a long or tall body and so long strides, and the being is believed to be keepable in order to harm others.",
+          "statement_id": "Menurut kajian ini, sebutan begu ganjang ada karena kemungkinan wujudnya bertubuh panjang atau tinggi sehingga langkahnya panjang, dan sosok itu dipercaya dapat dipelihara untuk mencelakakan orang lain.",
+          "quote": "sebutan begu ganjang eksis karena kemungkinan bentuk dari begu ganjang adalah bertubuh panjang atau tinggi sehingga langkahnya pun panjang. Sosok begu ganjang dipercaya dapat dipelihara guna mencelakakan orang lain",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c14",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, Situmorang (2021: 8) states that the term \"begu ganjang\" signals an underground movement by certain groups to eliminate their opponents.",
+          "statement_id": "Menurut kajian ini, Situmorang (2021: 8) menyatakan bahwa istilah \"begu ganjang\" menandakan adanya gerakan bawah tanah oleh kelompok tertentu untuk menghabisi lawan-lawannya.",
+          "quote": "Terkait istilah “begu ganjang”, Situmorang (2021: 8) menyatakan bahwa istilah ... tersebut menandakan adanya sebuah gerakan bawah tanah oleh kelompok tertentu untuk menghabisi lawan-lawannya.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c15",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to informants in this study who said they had experienced it, begu ganjang looks like a shadow that grows taller the more one looks up at it, and they believe sudden death is caused by begu ganjang.",
+          "statement_id": "Menurut informan yang mengaku pernah mengalaminya dalam kajian ini, begu ganjang tampak seperti bayangan yang semakin tinggi bila semakin dilihat ke atas, dan mereka percaya kematian mendadak disebabkan oleh begu ganjang.",
+          "quote": "begu ganjang tampak seperti bayangan yang semakin tinggi jika semakin dilihat ke atas dan percaya bahwa kematian orang secara mendadak disebabkan oleh begu ganjang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c16",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, one popular description is that begu ganjang is perceived as growing taller the more it is looked at and finally killing the one who looks at it; another says its form is large and black.",
+          "statement_id": "Menurut kajian ini, salah satu deskripsi populer adalah bahwa begu ganjang dipersepsi makin tinggi bila makin dilihat dan akhirnya membunuh orang yang melihatnya; deskripsi lain menyebut bentuknya besar dan hitam.",
+          "quote": "begu ganjang dipersepsi akan semakin tinggi jika semakin dilihat dan akhirnya membunuh orang yang melihatnya. Kedua, bentuknya besar dan hitam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c17",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, another popular description is that begu ganjang is kept for certain purposes, for example guarding fields.",
+          "statement_id": "Menurut kajian ini, deskripsi populer lain adalah bahwa begu ganjang dipelihara untuk tujuan tertentu, misalnya menjaga ladang.",
+          "quote": "Ketiga, begu ganjang dipelihara untuk tujuan tertentu, misalnya menjaga ladang",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c18",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, there is also a perception that begu ganjang has no particular form.",
+          "statement_id": "Menurut kajian ini, ada pula persepsi bahwa begu ganjang tidak memiliki bentuk khusus.",
+          "quote": "Ada pula persepsi bahwa begu ganjang itu tidak memiliki bentuk khusus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c19",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, rumors of begu ganjang generally spread widely when a resident dies suddenly with no visible cause.",
+          "statement_id": "Menurut kajian ini, isu keberadaan begu ganjang umumnya marak beredar bila ada kematian warga secara mendadak tanpa penyebab yang tampak.",
+          "quote": "Umumnya, isu keberadaan begu ganjang akan marak beredar jika ada kematian warga secara mendadak, sebab tidak ada penyebab kematian yang tampak",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c20",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, the narrative was at first respected as cultural heritage by the Batak Toba people, but over time the begu ganjang narrative has often been misused to justify criminal acts.",
+          "statement_id": "Menurut kajian ini, narasi tersebut awalnya dihormati sebagai warisan budaya oleh masyarakat Batak Toba, tetapi seiring waktu narasi begu ganjang sering disalahgunakan untuk membenarkan tindakan kriminal.",
+          "quote": "Awalnya, narasi ini dihormati sebagai warisan budaya oleh masyarakat Batak Toba. Namun, seiring waktu, narasi begu ganjang sering disalahgunakan untuk membenarkan tindakan kriminal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c21",
+          "source_id": "begu-ganjang-s3",
+          "host": "ejurnal.methodist.ac.id",
+          "statement": "In the Batak Toba understanding, the spirit of a person who has died becomes a begu.",
+          "statement_id": "Dalam pemahaman Batak Toba, roh manusia yang sudah mati berubah menjadi begu.",
+          "quote": "Dalam pemahaman Batak Toba manusia yang sudah mati, rohnya akan berubah menjadi begu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c22",
+          "source_id": "begu-ganjang-s3",
+          "host": "ejurnal.methodist.ac.id",
+          "statement": "The Batak Toba people believe a relationship remains between the spirits of the dead and the living; the spirits of the dead can still watch over, protect and look after their descendants.",
+          "statement_id": "Suku Batak Toba meyakini masih ada hubungan antara roh orang meninggal dan orang yang hidup; roh orang yang sudah meninggal masih dapat menjaga, melindungi, dan memelihara keturunannya.",
+          "quote": "Suku Batak Toba, meyakini bahwa masih ada hubungan antara roh orang meninggal dengan orang yang masih hidup. Roh orang yang sudah meninggal masih dapat menjaga, melindungi, dan memelihara keturunannya.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c23",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In various Batak folk tales, Begu Ganjang is depicted as a large, thin, elongated figure with a dark, shadow-like color, and its notable trait is that it appears to grow taller and bigger the longer it is looked at.",
+          "statement_id": "Dalam berbagai cerita rakyat Batak, Begu Ganjang dipaparkan sebagai sosok besar, kurus, dan memanjang dengan warna gelap menyerupai bayangan, dan ciri khasnya adalah tampak makin tinggi dan besar bila dipandang lebih lama.",
+          "quote": "Dalam berbagai cerita rakyat Batak, Begu Ganjang dipaparkan sebagai sosok bertubuh besar, kurus, dan memanjang, dengan warna gelap yang menyerupai bayangan. Ciri khas yang menonjol dalam pengisahannya adalah kemampuannya tampak semakin tinggi dan besar ketika dipandang lebih lama.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c24",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "Begu ganjang is linked with the agrarian belief system, as a supernatural force believed able to protect fields from theft or disturbances that harm the harvest.",
+          "statement_id": "Begu ganjang dikaitkan dengan sistem kepercayaan agraris, yaitu sebagai kekuatan gaib yang diyakini mampu melindungi ladang dari pencurian atau gangguan yang merugikan hasil panen.",
+          "quote": "Begu ganjang dikaitkan dengan sistem kepercayaan agraris, yakni sebagai kekuatan gaib yang diyakini mampu melindungi ladang dari pencurian atau gangguan yang merugikan hasil panen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c25",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In later developments, this entity is more often associated with destructive black magic, described as a spirit that can be summoned or controlled through certain rituals to harm others or gain material benefit quickly.",
+          "statement_id": "Dalam perkembangan berikutnya, entitas ini lebih sering dikaitkan dengan ilmu hitam yang destruktif, digambarkan sebagai roh yang dapat dihadirkan atau dikendalikan lewat ritual tertentu untuk mencelakai orang lain atau memperoleh keuntungan material dengan cepat.",
+          "quote": "Dalam perkembangan berikutnya, entitas ini lebih sering diasosiasikan dengan praktik ilmu hitam yang bersifat destruktif. Ia digambarkan sebagai roh yang dapat dihadirkan atau dikendalikan melalui ritual tertentu untuk tujuan seperti mencelakai orang lain atau memperoleh keuntungan material secara cepat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c26",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In some stories, shamans or individuals with ritual knowledge are believed able to summon, control or even keep this entity for certain purposes.",
+          "statement_id": "Dalam sejumlah cerita, dukun atau orang yang memiliki pengetahuan ritual dipercaya mampu memanggil, mengendalikan, atau bahkan memelihara entitas ini untuk tujuan tertentu.",
+          "quote": "Dalam sejumlah cerita, dukun atau individu yang memiliki pengetahuan ritual dipercaya mampu memanggil, mengendalikan, atau bahkan memelihara entitas ini untuk tujuan tertentu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c27",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The issue gains strength socially when people suspect certain persons of being sigumoang, those regarded as owning and controlling begu ganjang for mystical purposes or wealth.",
+          "statement_id": "Isu ini menguat secara sosial ketika masyarakat mencurigai orang tertentu sebagai sigumoang, yaitu mereka yang dianggap memiliki dan mengendalikan begu ganjang untuk tujuan mistis atau kekayaan.",
+          "quote": "Isu ini menjadi kuat dalam konteks sosial ketika masyarakat mulai mencurigai orang‑orang tertentu sebagai sigumoang, yakni mereka yang dianggap memiliki dan mengendalikan begu ganjang untuk tujuan mistis atau kekayaan.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c28",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "A Tempo magazine report of 2 January 1989 recorded a woman who died after a mob attacked her house because it was believed to bear the marks of a begu ganjang keeper's house.",
+          "statement_id": "Laporan majalah Tempo edisi 2 Januari 1989 mencatat seorang perempuan yang meninggal setelah massa menyerang rumahnya karena diyakini memiliki ciri-ciri rumah pemelihara begu ganjang.",
+          "quote": "Laporan majalah Tempo edisi 2 Januari 1989 mencatat kasus seorang perempuan yang meninggal setelah massa menyerang rumahnya karena diyakini memiliki ciri-ciri rumah pemelihara begu ganjang.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c29",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In May 2010, three family members in Sitanggor Village, Muara District, North Tapanuli died after being burned by residents who accused them of keeping Begu Ganjang.",
+          "statement_id": "Pada Mei 2010, tiga anggota keluarga di Desa Sitanggor, Kecamatan Muara, Tapanuli Utara meninggal dibakar oleh warga setelah dituduh memelihara Begu Ganjang.",
+          "quote": "Pada Mei 2010, tiga anggota keluarga di Desa Sitanggor, Kecamatan Muara, Tapanuli Utara meninggal dunia akibat dibakar oleh warga setelah dituduh memelihara Begu Ganjang",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c30",
+          "source_id": "begu-ganjang-s2",
+          "host": "jurnal.unimed.ac.id",
+          "statement": "According to this study, among the many myths that circulate and are well known in North Sumatra, begu ganjang is a myth that exists quite widely.",
+          "statement_id": "Menurut kajian ini, dari banyak mitos yang berkembang dan terkenal di Sumatra Utara, begu ganjang menjadi mitos yang cukup eksis di mana-mana.",
+          "quote": "Dari banyaknya mitos yang berkembang dan terkenal di Sumatra Utara, begu ganjang menjadi mitos yang cukup eksis di mana-mana.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -234,27 +771,28 @@
     },
     {
       "slug": "ekek",
-      "file": "batch-018.md",
+      "file": "batch-018-fix-1.md",
+      "entry_sha256": "6f345bd541f0ac9275a98084486c73339af0db20893f0228147a6c6c2678bf1d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
       "issues": [
         {
-          "level": "warn",
-          "where": "long_description",
-          "message": "Tingkat rich sebaiknya 2–6 paragraf."
-        },
-        {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 1 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
           "level": "warn",
           "where": "claims (ekek-c01)",
+          "message": "Kutipan berasal dari bagian Wikipedia \"Contents move to sidebar hide (Top) 1 References Toggle the \" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
+        },
+        {
+          "level": "warn",
+          "where": "claims (ekek-c02)",
           "message": "Kutipan berasal dari bagian Wikipedia \"Contents move to sidebar hide (Top) 1 References Toggle the \" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
         }
       ],
@@ -263,9 +801,20 @@
           "id": "ekek-c01",
           "source_id": "ekek-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Philippine mythology, ekek (Ek Ek) are birdlike humans, winged beings who seek victims at night, hungry for flesh and blood, flying and manananggal-like but unable to split their bodies; unlike the wakwak, the ekek has a birdlike bill.",
-          "statement_id": "Dalam mitologi Filipina, ekek (Ek Ek) adalah makhluk manusia mirip burung, manusia bersayap yang mencari korban pada malam hari, haus daging dan darah, terbang dan mirip manananggal tetapi tak dapat memisahkan tubuh; bedanya dengan wakwak, ekek berparuh seperti burung.",
+          "statement": "In Philippine mythology, ekek (Ek Ek) are birdlike humans, winged beings who search for victims at night and hunger for flesh and blood; they are usually described as flying creatures resembling the manananggal but unable to divide or split their body as the manananggal does.",
+          "statement_id": "Dalam mitologi Filipina, ekek (Ek Ek) adalah makhluk manusia mirip burung, manusia bersayap yang mencari korban pada malam hari dan haus daging serta darah; biasanya digambarkan terbang dan mirip manananggal, tetapi tidak dapat membelah atau memisahkan tubuhnya seperti manananggal.",
           "quote": "In Philippine mythology, Ekek (or Ek Ek) are birdlike human creatures. They are winged-humans who search for their victims at night. They hunger for flesh and blood. They are usually described as flying creatures that look like the Manananggal, but are unable to divide or split their body in the way that the Manananggal does.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "wiki_flag": "bagian tanpa sumber"
+        },
+        {
+          "id": "ekek-c02",
+          "source_id": "ekek-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ekek is also associated with the Wak Wak because of some similar characteristics; the only difference is that the Ekek has a birdlike bill whereas the Wak Wak has none.",
+          "statement_id": "Ekek juga dikaitkan dengan Wak Wak karena beberapa ciri yang mirip; satu-satunya perbedaannya, ekek berparuh seperti burung sedangkan Wak Wak tidak.",
+          "quote": "The Ekek is also associated with the Wak Wak because of some similar characteristics. The only difference between a Wak Wak and Ekek is that Ekek has a birdlike bill whereas  the Wak Wak has none.",
           "context": "traditional-belief",
           "status": "exact",
           "wiki_flag": "bagian tanpa sumber"
@@ -275,23 +824,19 @@
     },
     {
       "slug": "hantu-bongkok",
-      "file": "batch-018.md",
+      "file": "batch-018-fix-1.md",
+      "entry_sha256": "b8d0c48c2262ad7af6484f562e196efeeb45a7e522c3f6d1ae7181711b532228",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 3,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "warn",
-          "where": "long_description",
-          "message": "Tingkat rich sebaiknya 2–6 paragraf."
-        },
-        {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 1 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 3 klaim (target 15), 2 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -302,6 +847,26 @@
           "statement": "Hantu Bongkok (literally 'humpback spirit') is a bloodthirsty ghost or evil spirit of pre-colonial folklore in Palembang, South Sumatra, Indonesia; its female variant is Nenek Bongkok ('humpback grandmother').",
           "statement_id": "Hantu Bongkok (harfiah 'roh bungkuk') adalah hantu atau roh jahat haus darah dari cerita rakyat prakolonial di Palembang, Sumatra Selatan, Indonesia; versi perempuannya disebut Nenek Bongkok ('nenek bungkuk').",
           "quote": "Hantu Bongkok (literally, humpback spirit) is a mythological, bloodthirsty ghost or evil spirit from pre-colonial-era folklore in Palembang, South Sumatra, Indonesia. A female variant of the figure is known as Nenek Bongkok (humpback grandmother).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-bongkok-c02",
+          "source_id": "hantu-bongkok-s2",
+          "host": "id.wikipedia.org",
+          "statement": "According to the Indonesian Wikipedia article, Hantu Bongkok (its female form Nenek Bongkok) is an urban legend that has appeared in Palembang, Indonesia, since the Dutch East Indies period.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Indonesia, Hantu Bongkok (bentuk perempuannya Nenek Bongkok) adalah legenda urban yang muncul di Palembang, Indonesia, sejak zaman Hindia Belanda.",
+          "quote": "Hantu Bongkok (bentuk perempuan: Nenek Bongkok) adalah sebuah legenda urban yang muncul di Palembang Indonesia sejak zaman Hindia Belanda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-bongkok-c03",
+          "source_id": "hantu-bongkok-s2",
+          "host": "id.wikipedia.org",
+          "statement": "According to that article, this ghost is believed to appear at the Palembang Mayor's Office and is believed to be the spirit of Edwin Van Brower, who died in a dispute while working as a water-system worker in that building.",
+          "statement_id": "Menurut artikel itu, hantu ini diyakini muncul di Kantor Wali Kota Palembang dan diyakini sebagai arwah Edwin Van Brower, yang tewas dalam sebuah pertikaian saat bekerja sebagai pekerja sistem air di gedung tersebut.",
+          "quote": "Hantu tersebut diyakini muncul di Kantor Wali kota Palembang dan diyakini adalah arwah dari Edwin Van Brower yang tewas dalam sebuah pertikaian saat bekerja sebagai pekerja sistem air di gedung tersebut.",
           "context": "traditional-belief",
           "status": "exact"
         }
