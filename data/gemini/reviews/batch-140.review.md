@@ -1,6 +1,6 @@
 # Review batch-140
 
-Diperiksa 2026-10-05T16:28:32.056Z. Berkas: batch-140-accepted-2026-10-03.md, batch-140-s1.md, batch-140-s3.md, batch-140-u5.md, batch-140-u6.md, batch-140-v5.md, batch-140-v6.md, batch-140.md.
+Diperiksa 2026-10-06T05:04:33.380Z. Berkas: batch-140-accepted-2026-10-03.md, batch-140-s1.md, batch-140-s3.md, batch-140-u5.md, batch-140-u6.md, batch-140-v5.md, batch-140-v6.md, batch-140.md.
 
 ## mokele-mbembe — lulus-otomatis
 
@@ -680,7 +680,10 @@ Klaim 17 (exact 17), sumber 4, gambar 0.
 
 ## aziza-mythology — lulus-otomatis
 
-Klaim 18 (exact 18), sumber 4, gambar 0.
+Klaim 18 (exact 13, unreachable 5), sumber 4, gambar 0.
+
+**manual**
+- `claims` 5 kutipan tidak bisa dicek otomatis: web.archive.org (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -697,11 +700,11 @@ Klaim 18 (exact 18), sumber 4, gambar 0.
 | aziza-mythology-c11 | exact | pt.wikipedia.org | They are described as small, hairy people (pequenas e cabeludas) who live in anthills and silk-cotton trees. | São descritos como pessoas pequenas e cabeludas que vivem em formigueiros e mafumeiras. |
 | aziza-mythology-c12 | exact | pt.wikipedia.org | The Jeje oral tradition (tradição oral Jeje) has a single divinity named Azizá. | Por exemplo, a tradição oral Jeje tem uma divindade chamada |
 | aziza-mythology-c13 | exact | pt.wikipedia.org | Among the Urhobo he is described as a big man (homem grande) with one arm and one leg, dressed in white. | Descrito como um homem grande com um só braço e uma só perna, vestindo branco. |
-| aziza-mythology-c14 | exact | web.archive.org | In one quarter Aziza was believed to be a one-handed and one-legged god. | In one quarter, it was believed that Aziza is a one handed and a one legged god |
-| aziza-mythology-c15 | exact | web.archive.org | He does both good and bad: badly to bad people and good to good people. | He does what is good and what is bad. He does badly to bad people and good to good people. |
-| aziza-mythology-c16 | exact | web.archive.org | Aziza is the herald of dawn, lord of the brief passage between night and dawn. | Aziza is the herald of dawn, lord of the fleetingly transient state between night and dawn |
-| aziza-mythology-c17 | exact | web.archive.org | Aziza is addressed as the king of the forest as well as of the earth. | peculiar aspect of its potent power is acknowledged in Urhobo folklores where Aziza is addressed as the ... king of the forest as well as of the earth |
-| aziza-mythology-c18 | exact | web.archive.org | Hunters cover the place with cabald or snuff, enough to drive Aziza far from its abode. | they cover the entire place with cabald or snuff which is enough to drive Aziza far away from its abode. |
+| aziza-mythology-c14 | unreachable (HTTP 403) | web.archive.org | In one quarter Aziza was believed to be a one-handed and one-legged god. | In one quarter, it was believed that Aziza is a one handed and a one legged god |
+| aziza-mythology-c15 | unreachable (HTTP 403) | web.archive.org | He does both good and bad: badly to bad people and good to good people. | He does what is good and what is bad. He does badly to bad people and good to good people. |
+| aziza-mythology-c16 | unreachable (HTTP 403) | web.archive.org | Aziza is the herald of dawn, lord of the brief passage between night and dawn. | Aziza is the herald of dawn, lord of the fleetingly transient state between night and dawn |
+| aziza-mythology-c17 | unreachable (HTTP 403) | web.archive.org | Aziza is addressed as the king of the forest as well as of the earth. | peculiar aspect of its potent power is acknowledged in Urhobo folklores where Aziza is addressed as the ... king of the forest as well as of the earth |
+| aziza-mythology-c18 | unreachable (HTTP 403) | web.archive.org | Hunters cover the place with cabald or snuff, enough to drive Aziza far from its abode. | they cover the entire place with cabald or snuff which is enough to drive Aziza far away from its abode. |
 
 
 ## dingonek — lulus-otomatis

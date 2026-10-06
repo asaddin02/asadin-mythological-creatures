@@ -1,6 +1,6 @@
 # Review batch-050
 
-Diperiksa 2026-10-01T02:20:33.925Z. Berkas: batch-050.md, batch-050-fix-1.md, batch-050-fix-2.md.
+Diperiksa 2026-10-06T06:38:46.725Z. Berkas: batch-050.md, batch-050-fix-1.md, batch-050-fix-2.md, batch-050-fix-3.md, batch-050-fix-4.md.
 
 ## yatagarasu — lulus-otomatis
 
@@ -436,10 +436,9 @@ Klaim 8 (exact 8), sumber 3, gambar 1.
 
 ## abumi-guchi — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 2, gambar 1.
+Klaim 8 (loose 1, exact 7), sumber 3, gambar 1.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:SekienAbumi-guchi.jpg)` Keterkaitan otomatis: deskripsi berkas, dipakai di en.wikipedia.org: Abumi-guchi. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -447,13 +446,18 @@ Klaim 3 (loose 1, exact 2), sumber 2, gambar 1.
 | abumi-guchi-c01 | loose | en.wikipedia.org | Abumi-guchi is a furry Japanese yōkai meaning stirrup mouth, illustrated by Sekien. | An abumi-guchi (鐙口; lit. "stirrup mouth") is a strange furry yōkai, or Japanese monster, that is illustrated in Sekien Toriyama's Gazu Hyakki Tsurezure Bukuro. |
 | abumi-guchi-c02 | exact | commons.wikimedia.org | The Commons file identifies an illustration of Abumi-guchi in Gazu Hyakki Tsurezure Bukuro. | Abumi-guchi (鐙口) from the Gazu Hyakki Tsurezure Bukuro (百器徒然袋) |
 | abumi-guchi-c03 | exact | commons.wikimedia.org | The illustration file is dated 1784. | Date 1784 Source scanned from ISBN |
+| abumi-guchi-c04 | exact | ja.wikipedia.org | Abumi-guchi (鐙口, read あぶみくち) is a Japanese yōkai in Toriyama Sekien's yōkai picture collection Hyakki Tsurezure Bukuro. | 鐙口（あぶみくち）は、鳥山石燕の妖怪画集『百器徒然袋』にある日本の妖怪 |
+| abumi-guchi-c05 | exact | ja.wikipedia.org | Abumi-guchi is a yōkai of the stirrup (abumi, a piece of horse tack), shaped like a stirrup with a mouth and eyes. | 鐙（あぶみ、馬具のひとつ）の妖怪であり、鐙に口と目が生えた形をしている。 |
+| abumi-guchi-c06 | exact | ja.wikipedia.org | Sekien's caption hardly describes what kind of yōkai it is; it is thought to be the stirrup of a military commander killed in battle and left abandoned in the field, which became a yōkai. Sekien also drew it on the same double-page spread as Kurayarō (鞍野郎). | 石燕の解説にはどうような妖怪かという描写はほぼなく、武将が戦死し野に捨てられたままの鐙が妖怪と化したものではないかと考えられている。また、石燕は鞍野郎とおなじ見開きに鐙口を描いており |
+| abumi-guchi-c07 | exact | ja.wikipedia.org | In a book by yōkai manga artist Mizuki Shigeru, Abumi-guchi is explained as forever waiting for a master who will not return, like a dog waiting for its owner, but Hyakki Tsurezure Bukuro does not state such a tradition. | 妖怪漫画家・水木しげるの著書では、飼い主を待つ犬のように帰るはずのない主をいつまでも待ち続けていると解説されている ... 『百器徒然袋』にはそのような伝承は述べられていない |
+| abumi-guchi-c08 | exact | ja.wikipedia.org | The two yōkai (Abumi-guchi and Kurayarō) are thought to have been created on the motif of Tsurezuregusa, which in section 186 contains a caution about horse tack such as saddles. | この2体は『徒然草』に鞍など馬具について注意しろとする内容（186段）が登場することをモチーフにして創作されているとも考えられている |
 
 - Gambar File:SekienAbumi-guchi.jpg: lisensi Commons "Public domain" (PUBLIC_DOMAIN); pembuat Toriyama Sekien ( 鳥山石燕 ); tanggal 1784
   - deskripsi: Abumi-guchi ( 鐙口 ) from the Gazu Hyakki Tsurezure Bukuro ( 百器徒然袋 )
   - kategori: Gazu Hyakki Tsurezure Bukuro; PD-Japan; PD-old missing SDC copyright status; Tsukumogami
   - dipakai di: bg.wikipedia.org: Абуми-гучи; ca.wikipedia.org: Abumi-kuchi; de.wikipedia.org: Abumikuchi; en.wikipedia.org: Gazu Hyakki Tsurezure Bukuro; en.wikipedia.org: Abumi-guchi; es.wikipedia.org: Abumi-kuchi; fa.wikipedia.org: آبومی گوچی; fr.wikipedia.org: Gazu hyakki tsurezure bukuro; fr.wikipedia.org: Abumi-kuchi; id.wikipedia.org: Abumi-guchi; id.wikipedia.org: Gazu Hyakki Tsurezure Bukuro; it.wikipedia.org: Gazu hyakki tsurezure bukuro; it.wikipedia.org: Abumi-guchi; ja.wikipedia.org: 鐙口; ja.wikipedia.org: 百器徒然袋
   - bukti dari Gemini: Deskripsi berkas Commons menyebut Abumi-guchi (鐙口) secara eksplisit dan mengaitkannya dengan Gazu Hyakki Tsurezure Bukuro.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abumi-guchi-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abumi-guchi-1.jpg
 
 ## abura-akago — lulus-otomatis
 
@@ -581,10 +585,7 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## mononoke — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 2, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -594,14 +595,19 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | mononoke-c04 | exact | en.wikipedia.org | The Aoi chapter of The Tale of Genji links Lady Rokujō’s living spirit with Aoi no Ue’s possession. | As a famous example, in the 9th volume of the Genji Monogatari, "Aoi" is the ikiryō of Lady Rokujo, who possessed Aoi no Ue. |
 | mononoke-c05 | exact | en.wikipedia.org | Ōkagami and Masukagami also mention mononoke. | Other than that, there are also statements about mononoke in publications like Ōkagami and Masukagami. |
 | mononoke-c06 | exact | en.wikipedia.org | The Pillow Book and Lady Murasaki’s diary record practices concerning mononoke. | Statements on this practice can be found in detail in works like The Pillow Book and The Diary of Lady Murasaki. |
+| mononoke-c07 | exact | kotobank.jp | According to the Nihon Kokugo Daijiten (selected edition), mononoke are a class of dead spirits, living spirits and yōkai believed to possess people and make them suffer, fall ill or even die; the word also means the curse caused by such possession. | 人にとりついて悩まし、病気にしたり死にいたらせたりするとされる死霊・生霊・妖怪の類。また、それらがとりついて祟ること。邪気。 |
+| mononoke-c08 | exact | kotobank.jp | According to the Sekai Daihyakka Jiten, the "mono" of mononoke broadly means a natural or supernatural spirit close to mana; the phenomenon in which this unidentified spirit possesses a person and is thought to cause illness or take life is called mononoke. | 物の怪のモノは広義にはマナに近い自然的または超自然的な霊のことで，この正体不明の霊的存在が人に憑依（ひようい）して病気にしたり命を奪ったりすると考えられる現象を〈物の怪〉という。 |
+| mononoke-c09 | exact | kotobank.jp | Mononoke appear frequently in Heian-period texts and usually refer to the manifestation of evil spirits; their identity is mostly a living or dead spirit bearing jealousy or grudge, and later they were sometimes imagined in the form of an oni. | 物の怪は平安時代の文献に頻出し，邪悪な霊の発現をいうことが多い。その正体はたいてい嫉妬や怨恨をもった生霊や死霊であるが，のちには鬼の形でイメージされることもあった。 |
+| mononoke-c10 | exact | kotobank.jp | In that period such mononoke were subdued through the kaji kitō prayer rites of Shingon esoteric Buddhist priests. | 当時，こうした物の怪は真言密教僧の加持祈禱（かじきとう）によって調伏（ちようぶく）された。 |
+| mononoke-c11 | exact | kotobank.jp | According to Nipponica, being possessed by a mononoke was called "mononoke-datsu"; priests or shugenja were summoned to subdue and expel it with kaji kitō prayer, driving it into another person (yorimashi) and then out so that the patient recovered. | 物の怪に取り憑かれることを「物の怪だつ」といい、これにかかると、僧侶(そうりょ)や修験者を招き、加持祈祷(かじきとう)により調伏・退散させた。これには、物の怪を呪法(じゅほう)によって追い出し、別の人（憑坐(よりまし)）にのりうつらせ、さらにそこから外界へ追い出し平癒させた。 |
+| mononoke-c12 | exact | kotobank.jp | Mononoke are occasioned by an individual's illness, whereas goryō (御霊) are enshrined and pacified in response to events causing social unrest, such as epidemics and disasters. | 物の怪は個人の病気を契機にするものであるが，一方，御霊（ごりよう）は疫病や災害などの社会不安をおこす事件を契機にまつり上げられ鎮撫されて社会の浄化をはかるものになっている。 |
+| mononoke-c13 | loose | kotobank.jp | Mononoke, as the manifestation of "mono" (a general term for spiritual beings or mysterious power), is a representative term for yōkai in historical texts; contrasted with "kami no ke" (manifestation of a god), it meant the manifestation of an evil "mono". | 霊的存在ないしは神秘的力の総称である〈もの〉の示現としての〈物の怪（もののけ）〉は，歴史的文献に現れた妖怪の総称の代表といえる語であり，神の示現としての〈かみのけ〉と対比される場合には邪悪な〈もの〉の発現を意味していた。 |
+| mononoke-c14 | exact | kotobank.jp | The Nihon Kokugo Daijiten (selected edition) lists, as its earliest cited usage example, an entry dated Engi 19 (919) from the Teishinkō-ki shō. | [初出の実例]「依レ病不レ参、五節一人忽煩二物気一」(出典：貞信公記‐抄・延喜一九年（919）一一月一六日) |
 
 
 ## ningyo — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -611,14 +617,16 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | ningyo-c04 | exact | en.wikipedia.org | Later examples generally place ningyo in the sea. | But subsequent examples are usually seawater beings. |
 | ningyo-c05 | exact | en.wikipedia.org | In medieval accounts, a ningyo stranded on shore was seen as an ill omen. | In later medieval times (§Kamakura and Muromachi periods)), it was held to be a sign of ill omen, and its beaching (§Omens in Michinoku) was blamed for subsequent bloody battles or calamity. |
 | ningyo-c06 | exact | en.wikipedia.org | In the Edo period, preserved ningyo specimens were made from fish parts. | There were also preserved ningyo being manufactured using fish parts (§Mummies or Feejee mermaids), and illustrated by some scholars of the period (e.g. §Baien gyofu); some such mummies are held by certain temples that have ningyo legend attached to them (cf. §Prince Shōtoku). |
+| ningyo-c07 | exact | yokai.com | Unlike the mermaids of the Atlantic Ocean and the Mediterranean Sea, ningyo from the Pacific Ocean and the Sea of Japan are described as hideous to behold. | Unlike the mermaids of the Atlantic Ocean and Mediterranean Sea, ningyo from the Pacific Ocean and the Sea of Japan are hideous to behold. |
+| ningyo-c08 | exact | yokai.com | Ningyo are more fish than human, ranging from ugly, deformed fish-like faces to entire human torsos with long bony fingers and sharp claws, and in size from a human child to a large seal. | Ningyo are more fish than human. They can have anything from ugly, deformed fish-like faces, to entire human torsos with long, bony fingers and sharp claws. Ningyo range in size from a human child to a large seal. |
+| ningyo-c09 | exact | yokai.com | The flesh of a ningyo is believed to grant eternal life and youth to those who eat it, and so features in many folk tales. | The flesh of a ningyo is believed to grant eternal life and youth to those who eat it, and thus it is the subject of many folk tales. |
+| ningyo-c10 | exact | yokai.com | Ningyo can lay a powerful curse on humans who try to wound or capture them; some legends tell of whole towns swallowed by earthquakes or tidal waves after a fisherman brought home a ningyo in his catch. | ningyo can place a powerful curse on humans who try to wound or capture them. Some legends tell of entire towns that were swallowed by earthquakes or tidal waves after a foolish fisherman brought home a ningyo in one of his catches. |
+| ningyo-c11 | exact | yokai.com | Since the end of the Edo period and the opening of Japan to the West, ningyo resembling Western-style Atlantic mermaids have become popular in Japan. | Since the end of the Edo period and the opening of Japan to the West, ningyo that resemble Western-style Atlantic mermaids have become popular in Japan. |
 
 
 ## raiju — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (loose 1, exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -628,6 +636,17 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | raiju-c04 | exact | en.wikipedia.org | Its name appears in Edo essays and later folklore records. | Its name appears frequently in Edo period essays and modern folklore materials. |
 | raiju-c05 | exact | en.wikipedia.org | Raijū is described as made of or wrapped in lightning. | A raijū's body is composed of (or wrapped in) lightning. |
 | raiju-c06 | exact | en.wikipedia.org | Raijū is described as the companion of the thunder god Raijin. | Raijū is the companion of Raijin, the Shinto god of lightning. |
+| raiju-c07 | exact | yokai.com | A raijū is the embodiment of lightning in animal form, with long sharp claws and ferocious faces. | A raijū is the embodiment of lightning into an animal form. They had long, sharp claws and ferocious faces. |
+| raiju-c08 | exact | yokai.com | Raijū were generally thought to resemble wolves, dogs, tanuki, or even weasels or cats. | Generally, they were thought to look like wolves, dogs, tanuki, or even weasels or cats. |
+| raiju-c09 | exact | yokai.com | Raijū are said to live in the sky, a world totally off limits to humans before the 20th century. | Raijū live in the sky—a world which was totally off limits to humans before the 20th century. |
+| raiju-c10 | exact | yokai.com | Raijū are said to ride bolts of lightning to earth when thunder claps and to create mayhem wherever they land. | They ride bolts of lightning to earth when thunder claps, and create mayhem wherever they land. |
+| raiju-c11 | exact | yokai.com | Long ago raijū were seen as divine beasts, akin to the thunder gods (raijin). | Long ago, raijū were seen as divine beasts, akin to the thunder gods (raijin). |
+| raiju-c12 | exact | yokai.com | Small raijū are said to burrow into human belly buttons to hide from angry thunder gods, the origin of a Japanese superstition about covering the belly button when thunder is heard. | Small raijū like burrow into humans’ belly buttons to hide from angry thunder gods. This is the origin of a Japanese superstition which says to cover your belly button when you hear thunder. |
+| raiju-c13 | exact | yokai.com | Mummified and taxidermied remains of cats, monkeys, and dogs were presented as raijū in traveling shows. | Mummified and taxidermined remains of cats, monkeys, and dogs were presented as raijū and toured around the country in traveling shows. |
+| raiju-c14 | exact | yokai.com | In the Meiji period society changed rapidly with foreign science and technology, and yōkai like raijū were among the first victims of that modernization. | During the Meiji period, society was rapidly transformed due to the influx of foreign science and technology. Yōkai like raijū were one of the first victims of this modernization. |
+| raiju-c15 | exact | yokai.com | One legend tells of the samurai Tachibana Dōsetsu, who one night sheltered from a storm under a tree when lightning struck. | Another legend involves the samurai Tachibana Dōsetsu. One night he was taking shelter from a storm under a tree when lightning struck. |
+| raiju-c16 | exact | yokai.com | When the smoke cleared a dead raijū lay on the ground beside him, and afterwards he named his sword Raikiri. | When the smoke had cleared, there was a dead raijū on the ground next to him. Afterwards, he named his sword Raikiri |
+| raiju-c17 | exact | yokai.com | Because they were so scary, raijū usually appear in stories as beasts to be slain, like oni. | Because they were so scary, raijū are usually presented in stories as beasts to be slain, like oni. |
 
 
 ## satori-folklore — lulus-otomatis
@@ -647,10 +666,7 @@ Klaim 7 (loose 1, exact 6), sumber 3, gambar 0.
 
 ## amefurikozo — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -660,14 +676,16 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | amefurikozo-c04 | exact | en.wikipedia.org | In Edo kibyōshi it appears in a servant role. | In the kibyōshi of the Edo period, just like the popular kibyōshi character tōfu-kozō, they appear as yōkai that take on the role of servants. |
 | amefurikozo-c05 | loose | en.wikipedia.org | A kibyōshi from 1792 depicts it as one-eyed and wearing a bamboo hat in the rain. | In the kibyōshi "Gozonji no Bakemono (御存之化物)" by Jihinari Sakuragawa and illustrated by Utagawa Toyokuni published in Kansei 4 (1792), when a man walks on a rainy night, a one-eyed amefurikozō wearing a bamboo kasa would step up possessing something in both its hands. |
 | amefurikozo-c06 | exact | en.wikipedia.org | The tale of an umbrella that cannot be removed comes from later yōkai literature. | According to yōkai literature published after the Showa and Heisei eras, there are theories that if one were to steal the umbrella from an amefurikozō and wear it, one would not be able to take it off; and that amefurikozō make it shower and delight at seeing people get troubled. |
+| amefurikozo-c07 | exact | yokai.com | Amefuri kozō resemble young boys; they wear children's kimonos, wooden clogs, and wide-brimmed straw hats or umbrellas on their heads. | Amefuri kozō resemble young boys. They wear children’s kimonos, wooden clogs, and wide-brimmed straw hats or umbrellas on their heads. |
+| amefurikozo-c08 | exact | yokai.com | Amefuri kozō are charged with causing rainfall; wherever they go, clouds form and rain comes down. | Despite their childish appearance, amefuri kozō are charged with the very important task of causing rainfall. Wherever they go, they cause clouds to form and rain to come down. |
+| amefurikozo-c09 | exact | yokai.com | They enjoy stealing people's umbrellas and wearing them as hats, then cause rain showers to fall on their victims. | However, they enjoy stealing people’s umbrellas and wearing them as hats. They then cause rain showers to fall upon their victims. |
+| amefurikozo-c10 | exact | yokai.com | According to legend, kitsune (fox yōkai) hold their weddings during sun showers, and before marrying they pray to the amefuri kozō for rain on their wedding day. | Kitsune (fox yōkai) hold their weddings during sun showers. Before getting married, kitsune will say a prayer to the amefuri kozō for rain on their wedding day. |
+| amefurikozo-c11 | exact | yokai.com | Amefuri kozō became widely known thanks to the printing boom of the Edo period; they were common characters in kibyōshi (yellow covers), cheap pocket-sized publications sold by street vendors. | Amefuri kozō became widely known thanks to the printing boom during the Edo period. They were common characters in the cheap, pocket-sized publications sold by street vendors known as kibyōshi, or yellow covers. |
 
 
 ## aoandon — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -677,6 +695,12 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | aoandon-c04 | exact | en.wikipedia.org | Sekien depicts a blue-skinned woman with two horns and sharp teeth. | It appears as a woman with a blue complexion and twin horns from its brow, and sharp teeth. |
 | aoandon-c05 | exact | en.wikipedia.org | The game Onmyōji depicts Aoandon as a storytelling shikigami. | In the mobile game Onmyōji, Aoandon is a shikigami who loves storytelling. |
 | aoandon-c06 | exact | en.wikipedia.org | Aoandon also appears in the 2025 game Assassin’s Creed Shadows. | An Aoandon appears in the 2025 video game Assassin's Creed Shadows as a mini-boss in the side mission "The Yokai". |
+| aoandon-c07 | exact | yokai.com | During the Edo period, a popular summertime pastime among the aristocratic classes was to gather and swap ghost stories, hoping the chill of fear would ward off the intense midsummer heat. | During the Edo period, a popular summertime activity among the aristocratic classes was to gather and swap ghost stories, hoping the chill of fear would stave off the intense midsummer heat. |
+| aoandon-c08 | exact | yokai.com | In a game of hyakumonogatari kaidankai, one hundred candles were lit and placed inside blue paper lanterns called andon, creating an eerie atmosphere suited to storytelling. | During a game of hyakumonogatari kaidankai, one hundred candles would be lit and placed inside of blue paper lanterns, called andon. The andon created an eerie atmosphere suitable for storytelling. |
+| aoandon-c09 | exact | yokai.com | Throughout the night guests took turns telling ever scarier stories about yōkai, demons, ghosts and other strange things; after each story one candle was snuffed out. | Throughout the night, guests would take turns telling progressively scarier stories about yōkai, demons, ghosts, and other strange things. After each story, one candle would be snuffed out. |
+| aoandon-c10 | exact | yokai.com | According to superstition, once the final candle was snuffed an actual spirit would appear out of the darkness to attack the participants; this spirit, summoned by the guests' heightened fears, was called the ao andon. | According to superstition, after the final candle was snuffed an actual spirit would appear out of the darkness to attack the participants. Summoned by the heightened emotional state and fears of guests, this spirit was called the ao andon. |
+| aoandon-c11 | exact | yokai.com | The ao andon is described as the incarnation of mass human terror, formed from the fears of large groups of people, appearing as a demonic woman with long black hair, blue skin, blackened teeth, sharp claws and horns. | The ao andon is the incarnation of mass human terror, formed out of the built up fears of large groups of people. This fear takes the appearance of a demonic woman with long black hair, blue skin, blackened teeth, sharp claws, and horns. |
+| aoandon-c12 | exact | yokai.com | Hyakumonogatari kaidankai gatherings traditionally ended before the final candle was snuffed, so the ao andon could not appear. | Hyakumonogatari kaidankai parties traditionally concluded before the final candle could be snuffed and the ao andon could appear. |
 
 
 ## dosojin — lulus-otomatis
@@ -696,10 +720,7 @@ Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
 
 ## futakuchi-onna — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -709,6 +730,12 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | futakuchi-onna-c04 | exact | en.wikipedia.org | The second mouth is often linked to a woman who eats very little. | The origin of futakuchi-onna's second mouth is often linked to how little a woman eats. |
 | futakuchi-onna-c05 | exact | en.wikipedia.org | In many stories she is the wife of a miser. | In many stories, the soon-to-be futakuchi-onna is a wife of a miser and rarely eats. |
 | futakuchi-onna-c06 | exact | en.wikipedia.org | The extra mouth demands food and utters threats. | The second mouth often mumbles spiteful and threatening things to the woman and demands food. |
+| futakuchi-onna-c07 | exact | yokai.com | In folk tales of eastern Japan, futakuchi onna are most often thought to be shape-changed yama uba posing as young women; in the west they are frequently shape-changed kumo, or magical spiders. | In the folk tales of Japan’s eastern regions, futakuchi onna are most often thought to be shape-changed yama uba posing as young women. In the western regions they are frequently shape-changed kumo, or magical spiders. |
+| futakuchi-onna-c08 | exact | yokai.com | In other tales they result from curses brought about by wicked deeds, similar to rokuro kubi; in every story the yōkai serves as a punishment for a greedy man or woman for wickedness and extreme stinginess. | In the other tales they are the result of curses brought about by wicked deeds, similar to rokuro kubi. In each story, regardless of its true nature, this yōkai is used as a punishment upon a greedy man or woman for wickedness and extreme parsimony. |
+| futakuchi-onna-c09 | exact | yokai.com | One story tells of a stingy miser in a small rural village in Fukushima who could not bear paying for food to support a family and so lived entirely alone. | One story tells of how in a small rural village in Fukushima there lived a stingy miser. Because he could not bear the thought of paying for food to support a family, the miser lived entirely by himself. |
+| futakuchi-onna-c10 | exact | yokai.com | In the story the miser spies from hiding as his wife unties her hair and reveals a second mouth on the back of her head with ghastly lips and teeth; her hair reaches out like tentacles and scoops rice balls into that mouth. | As the miser watched from a hidden location, his wife untied her hair, and revealed a second mouth on the back of her head, complete with ghastly lips and teeth. Her hair reached out with tentacle-like stalks and began to scoop rice balls into the second mouth, which cooed out with pleasure in a vulgar, raspy voice. |
+| futakuchi-onna-c11 | exact | yokai.com | Another story tells of a wicked stepmother who always gave her own daughter plenty of food but never enough to her stepdaughter, who grew sicker and sicker until she starved to death. | Another story tells of a wicked stepmother who always gave plenty of food to her own daughter, but never enough to her stepdaughter. Gradually the stepdaughter grew sicker and sicker, until she starved to death. |
+| futakuchi-onna-c12 | exact | yokai.com | Forty-nine days later the stepmother suffered a terrible headache; the back of her head split open and formed lips, teeth and a tongue, and the new mouth ached until fed and shrieked in the voice of the dead stepdaughter. | Forty-nine days later, the wicked stepmother was afflicted with a terrible headache. The back of her head split open, and lips, teeth, and a tongue formed. This new mouth ached with debilitating pain until it was fed, and it shrieked in the voice of the dead stepdaughter. |
 
 
 ## goryo — lulus-otomatis
@@ -744,10 +771,7 @@ Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
 
 ## kasha-folklore — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -757,14 +781,19 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | kasha-folklore-c04 | exact | en.wikipedia.org | Early modern depictions also associated it with hell wardens or the thunder god. | The kasha as yōkai in the early modern period (16th century) was originally conceived of as the demon-like beings |
 | kasha-folklore-c05 | exact | en.wikipedia.org | Conflation with corpse-stealing nekomata tales helped produce its cat form. | But due to conflation with the legends of the devil-cat (nekomata) stealing cadavers, the kasha came to be seen as a cat-like yōkai in the late 17th century. |
 | kasha-folklore-c06 | exact | en.wikipedia.org | Kasha is often associated with dark clouds and thunder. | The kasha is often said to appear with dark clouds, thunderclaps, or thunderstorms. |
+| kasha-folklore-c07 | exact | yokai.com | Kasha are a type of bake-neko, or monster cat: large bipedal felines as large as or larger than a human, often accompanied by hellish flames or lightning. | Kasha are a type of bake-neko, or monster cat. They are large, bipedal felines as large as or larger than a human. They are often accompanied by hellish flames or lightning. |
+| kasha-folklore-c08 | exact | yokai.com | Kasha like to appear in rainy or stormy weather, and most often at night. | They like to appear during rainy or stormy weather, and most often during the night. |
+| kasha-folklore-c09 | exact | yokai.com | Kasha often live among humans disguised as ordinary house cats or strays, and reveal their true forms at funerals, leaping down from rooftops to snatch corpses out of their coffins. | Kasha, being bake-neko, often live among humans, disguised as ordinary house cats or strays. However, they reveal their true forms during funeral services, when they leap down from rooftops to snatch corpses out of their coffins. |
+| kasha-folklore-c10 | exact | yokai.com | Kasha are occasionally employed as messengers or servants of hell, collecting the corpses of wicked humans and carrying them off to hell for punishment; at other times they steal corpses for their own use, to animate as puppets or to eat. | Kasha are occasionally employed as messengers or servants of hell, in which case they are tasked with collecting the corpses of wicked humans spiriting them off to hell for punishment. Other times, they steal corpses for their own uses — either to animate as puppets or to eat. |
+| kasha-folklore-c11 | exact | yokai.com | In Yamagata, priests hold two funeral ceremonies; the first is a fake with the casket filled only with rocks, so a kasha that comes for the body ends up with nothing. | In Yamagata, clever priests have taken to holding two funeral ceremonies for the deceased. The first ceremony is a fake — the casket is filled only with rocks, so if a kasha comes for the body it will end up with nothing. |
+| kasha-folklore-c12 | exact | yokai.com | In Okayama, priests play a myōhachi, a type of cymbal used in religious ceremonies, to keep the kasha away. | In Okayama, the priests play a myōhachi — a type of cymbal used in religious ceremonies — in order to keep the kasha away. |
+| kasha-folklore-c13 | exact | yokai.com | Kasha were once ordinary house cats; as cats age and their tails lengthen they develop magical powers, some becoming bake-neko, more powerful ones neko-mata, and beyond that some becoming kasha. | Kasha were once ordinary house cats. Like other animals, as they age in years and their tails grow longer, cats begin to develop magical powers. Some turn into bake-neko, more powerful cats turn into neko-mata, and beyond that some turn into kasha. |
+| kasha-folklore-c14 | exact | yokai.com | The name kasha means "fire cart" and sometimes causes confusion with other yōkai, although kasha do not use vehicles of any kind. | Their name sometimes causes confusion with other yokai; while their name means “fire cart,” they do not use vehicles of any kind. |
 
 
 ## nure-onna — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 1, exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -774,6 +803,15 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | nure-onna-c04 | exact | en.wikipedia.org | Tales place nure-onna at seas or rivers. | They are similar to the yōkai called isoonna of Kyushu, and like the isoonna, they are said to appear at seas or rivers. |
 | nure-onna-c05 | exact | en.wikipedia.org | Its name is linked to hair that is always wet. | Their name comes from how their hair is always wet in legends. |
 | nure-onna-c06 | exact | en.wikipedia.org | Edo illustrated books show a snake-bodied woman, though no classical tale of that form has been identified. | Many Edo Period publications such as the Hyakkai Zukan, Gazu Hyakki Yagyō, among others, depict this yōkai as a woman with a snake body, which would make it appear as if this was a well-known yōkai of the time, but there are no stories about a snake-bodied nure-onna in the classical literature of the time that can be found. |
+| nure-onna-c07 | exact | yokai.com | Nure onna are described as vampiric sea serpents who haunt shores and rivers looking for humans to eat. | Nure onna are vampiric sea serpents who haunt shores and rivers looking for humans to eat. |
+| nure-onna-c08 | exact | yokai.com | Nure onna are most commonly found on the shores of Kyūshū, with stories of encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture. | They are most commonly found on the shores of the island of Kyūshū, but there are stories of nure onna encounters as far north as Niigata Prefecture and as far east as Fukushima Prefecture. |
+| nure-onna-c09 | exact | yokai.com | Yokai.com describes two variations of nure onna: one without arms, resembling an enormous sea serpent with a woman's head, and one with human-like arms. | There are two variations of this yōkai: one without arms, which resembles an enormous sea serpent with a woman’s head, and one with human-like arms. |
+| nure-onna-c10 | exact | yokai.com | Their faces are hideous with serpent-like features such as a forked tongue, and long black hair sticks to their dripping bodies. | Their faces are hideous and betray serpent-like features such as a forked tongue. They have long black hair which sticks to their dripping bodies. |
+| nure-onna-c11 | exact | yokai.com | Nure onna magically disguise themselves as a distressed woman carrying a bundled baby and cry out for help from fishers, sailors, or passersby. | Nure onna magically disguise themselves as a distressed woman carrying a bundled up baby. They cry out for help from fishers, sailors, or anybody passing by. |
+| nure-onna-c12 | exact | yokai.com | When the prey approaches, a nure onna pleads with the victim to hold her baby for a moment so she can rest. | When the prey approaches, a nure onna will plead with their victim to hold her baby for just a moment so that she can rest. |
+| nure-onna-c13 | exact | yokai.com | If the victim agrees and takes the bundle, the "baby" becomes as heavy as a boulder and the victim cannot move. | If he agrees and takes the bundle, the “baby” becomes as heavy as a boulder. The victim is unable to move. |
+| nure-onna-c14 | exact | yokai.com | The nure onna is then free to attack her helpless victim, draining his blood with her long, serpentine tongue. | The nure onna is then free to attack her helpless victim, feeding by draining his blood with her long, serpentine tongue. |
+| nure-onna-c15 | exact | yokai.com | Nure onna frequently appear together and cooperate with ushi oni, as they share the same environments and diet. | Nure onna frequently appear together and cooperate with ushi oni, as they inhabit the same environments and share the same diet. |
 
 
 ## sarutahiko-okami — lulus-otomatis
@@ -793,22 +831,22 @@ Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
 
 ## shirime — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**warn**
-- `claims (shirime-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | shirime-c01 | loose | en.wikipedia.org | Shirime is a yōkai that looks human at a distance. | Shirime (Japanese: 尻目; lit. "buttocks eye") is a yōkai, but when close enough, however, it appears that it is a human. |
-| shirime-c02 | exact | en.wikipedia.org | It is depicted faceless, with an eye in its buttocks. | It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus. |
+| shirime-c02 | exact | en.wikipedia.org | It has no facial features, but has an eye in its butt, in the place of its anus. | It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus. |
 | shirime-c03 | exact | en.wikipedia.org | In its tale, a glittering eye opens before a traveler. | A huge glittering eye then opened up where the strange man's anus should have been. |
 | shirime-c04 | exact | en.wikipedia.org | The poet and painter Buson included it in several yōkai pictures. | This creature was so liked by the haiku poet and artist Buson, he included it in many of his yōkai paintings. |
 | shirime-c05 | exact | en.wikipedia.org | The tale says it does not intend to harm people. | Although Shirime appears to have a very startling appearance, it does not mean to harm people. |
 | shirime-c06 | exact | en.wikipedia.org | The creature enjoys frightening people. | Its joy comes from scaring people. |
+| shirime-c07 | exact | yokai.com | From a distance shirime appears to be a normal human being, but up close it becomes apparent that it is a yōkai. | From a distance, shirime appears to be a normal human being. When close enough, however, it becomes apparent that it is a yokai. |
+| shirime-c08 | exact | yokai.com | Shirime has no facial features; a large eye that shines like lightning sits in its butt hole. | It has no facial features, but located in its butt hole is a large eye which shines like lightning. |
+| shirime-c09 | exact | yokai.com | Shirime approaches travelers on the road late at night looking like a man in a kimono, and asks if they have a moment to spare. | Shirime approaches travelers on the road late at night, looking like a man wearing a kimono. Once it has their attention, it asks them if they have a moment to spare. |
+| shirime-c10 | exact | yokai.com | Before they can answer, shirime drops its kimono, bends over, and reveals the giant shining eye in its butt hole. | Before they can answer, the shirime drops its kimono to the ground and bends over, spreading its butt cheeks and revealing the giant, shining eye located inside of its butt hole. |
+| shirime-c11 | exact | yokai.com | Other than its startling behavior shirime does nothing harmful, and appears to thrive solely on the joy of scaring people. | Other than its very startling behavior, shirime does not do anything harmful. It appears to thrive solely on the joy of scaring people. |
+| shirime-c12 | exact | yokai.com | Yokai.com judges that, because of its alternate name nuppori-bōzu and its shocking behavior, shirime is very likely a close relative of the noppera-bō, another faceless ghost. | because of its alternate name (nuppori-bōzu) and its shocking behavior, it is very likely that shirime is a close relative of the noppera-bō, another faceless ghost. |
 
 
 ## takamimusubi — lulus-otomatis
@@ -828,10 +866,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## akkorokamui — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 1, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -841,14 +876,18 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | akkorokamui-c04 | exact | en.wikipedia.org | At-kor-kamuy can be interpreted as a kamuy with tentacles. | at-kor-kamuy, atkor-kamuy also literally translates to "kamuy which has strings (tentacles)" |
 | akkorokamui-c05 | exact | en.wikipedia.org | One of its folktales was first published by Iwao Yoshida in 1914. | An oft-reprinted folk narrative was one initially published by Iwao Yoshida ... (1914) under the double title of atui-na or akkorokamui |
 | akkorokamui-c06 | exact | en.wikipedia.org | An Iburi tale calls it the lord of Funka Bay. | According to the legend of the Iburi region, the akkoro kamuy (a.k.a. atuina) is a giant octopus and the nushi ("lord") of Funka Bay (officially called Uchiura Bay). |
+| akkorokamui-c07 | exact | yokai.com | Akkorokamui is described as a gigantic octopus god residing in Uchiura Bay, Hokkaido; with its legs extended its body stretches over one hectare, and it can swallow boats and even whales in a single gulp. | Akkorokamui is a gigantic octopus god which resides in Hokkaido’s Uchiura Bay. When it extends its legs, its body stretches over one hectare in area. It is so big that it can swallow boats and even whales in a single gulp. |
+| akkorokamui-c08 | exact | yokai.com | Akkorokamui comes from Ainu folklore, where it is known as Atkorkamuy; its name can be translated as "string-holding kamuy". | Akkorokamui comes from Ainu folklore, where it is known as Atkorkamuy. Its name can be translated as “string-holding kamuy.” |
+| akkorokamui-c09 | exact | yokai.com | In Ainu folklore, Akkorokamui is both revered and feared as a water deity, specifically the lord of Uchiura Bay. | In Ainu folklore, Akkorokamui is both revered and feared as a water deity, specifically as the lord of Uchiura Bay. |
+| akkorokamui-c10 | exact | yokai.com | Any ship sailing too close to Akkorokamui is said to be swallowed whole; therefore locals have for generations stayed away from the water when the sea and sky turn red, and fishermen and sailors who had to be on the water carried scythes for protection. | Any ship foolish enough to sail too close to Akkorokamui will be swallowed whole. Therefore, for generations, locals have stayed away from the water when the sea and sky turn red. Fishermen and sailors who had no choice but to be on the waters would carry scythes with them for protection. |
+| akkorokamui-c11 | exact | yokai.com | In one legend, long ago in the mountains near the village of Rebunge there lived a gigantic spider named Yaushikep. | Long ago, in the mountains near the village of Rebunge, there lived a gigantic spider named Yaushikep. |
+| akkorokamui-c12 | exact | yokai.com | The sea god Repun Kamuy pulled Yaushikep into the bay; once in the water, the great spider transformed into a giant octopus and took charge of the bay as its god. | The god of the sea, Repun Kamuy, heard their prayers and pulled Yaushikep into the bay. When the great spider was taken into the water, he transformed into a giant octopus, and took over charge of the bay as its god. |
+| akkorokamui-c13 | exact | yokai.com | Its entire body is red; when it appears, the sea and even the sky reflect its color and turn a deep red. | Its entire body is red. It is so large that when it appears the sea and even the sky reflect its color, turning a deep red. |
 
 
 ## aobozu — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -858,14 +897,17 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | aobozu-c04 | exact | en.wikipedia.org | It is often portrayed as a large priest-like figure. | Though the exact details of the aobōzu vary throughout legends, with differences often split along regional lines, the aobōzu is typically depicted as a large humanoid figure resembling a bōzu (priest). |
 | aobozu-c05 | exact | en.wikipedia.org | Some Gifu and Hiroshima tales describe a disguised tanuki. | In Gifu Prefecture and Hiroshima Prefecture, appearances of the aobōzu are said to be a tanuki disguised as an aobōzu. |
 | aobozu-c06 | exact | en.wikipedia.org | A Shizuoka tale says it takes children crossing wheat fields near dusk. | In Shizuoka Prefecture, it is said that in spring, children who come home late around the time of sunset and run across a wheat field may be kidnapped by an aobōzu appearing from the wheat. |
+| aobozu-c07 | exact | yokai.com | Ao bōzu are generally depicted as large, one-eyed, blue-skinned priests strongly connected with magic, but local accounts vary greatly in size, number of eyes and habitat. | Ao bōzu are generally depicted as large, one-eyed, blue-skinned priests with a strong connection to magic. However, local accounts vary greatly in details such as size, number of eyes, and habitat. |
+| aobozu-c08 | exact | yokai.com | In Okayama they are described as two-eyed giants who occupy abandoned or uninhabited houses; in other stories they appear in wheat fields or on dark, lonely roads. | In Okayama, they are described as two-eyed giants who take up residence in abandoned or uninhabited homes. In other stories, they appear in wheat fields, or on dark, lonely roads. |
+| aobozu-c09 | exact | yokai.com | In Kagawa, ao bōzu appear late at night to young women and ask, "Would you like to hang by your neck?" | In Kagawa, ao bōzu appear late at night to young women and ask them, “Would you like to hang by your neck?” |
+| aobozu-c10 | exact | yokai.com | In Yamaguchi they are considered minor deities who appear on the road and challenge humans to sumo matches; because they are only as big as children, many people have accepted the challenge. | In Yamaguchi, they are considered minor deities. They appear before humans on the road and challenge them to sumo matches. Because Yamaguchi’s ao bōzu are only as big as children, many a person has foolishly accepted the challenge |
+| aobozu-c11 | exact | yokai.com | Toriyama Sekien is said to have been the first to record the ao bōzu, and his illustration carried no description other than its name. | Toriyama Sekien was the first to record the ao bōzu, and his illustration came with not a single word of description other than its name. |
+| aobozu-c12 | exact | yokai.com | The word ao means blue or green and can denote immaturity and inexperience. | From its name, we can glean a little bit of information; the word ao means blue or green, and can denote immaturity and inexperience. |
 
 
 ## aosaginohi — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -875,4 +917,9 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | aosaginohi-c04 | loose | en.wikipedia.org | Sekien illustrated aosaginohi in a yōkai collection published in 1779. | The aosagi-no-hi appears in the illustrated yōkai compendium, Toriyama Sekien's Konjaku Gazu Zoku Hyakki (pub. 1779), whereas goi no hikari appears in Tōsanjin's Ehon hyaku monogatari (1841) illustrated by Takehara Shunsen]. |
 | aosaginohi-c05 | exact | en.wikipedia.org | Since the Edo period, the lights have been explained as apparently glowing heron eyes and wings. | Since the Edo Period, these mystery lights have been explained away as herons whose wings and eyes glowed in the dark as they flew. |
 | aosaginohi-c06 | exact | en.wikipedia.org | Mimibukuro records a tale of a glowing heron shot by a samurai. | Rumor about a glowing heron being killed and eaten by a samurai occurs in Mimibukuro |
+| aosaginohi-c07 | exact | yokai.com | Aosagibi is the name for a bizarre phenomenon caused by transformed herons, particularly the black-crowned night heron. | Aosagibi is the name for a bizarre phenomenon caused by transformed herons—particularly the black-crowned night heron. |
+| aosaginohi-c08 | exact | yokai.com | When they reach an advanced age, many kinds of birds transform into magical yōkai with eerie powers. | When they reach an advanced age, many types of birds transform into magical yōkai with eerie powers. |
+| aosaginohi-c09 | exact | yokai.com | On autumn nights their bodies radiate a bluish-white glow, and their powdery breath ignites into bright blue fireballs that they blow across the water or high in the trees. | During the autumn nights, their bodies radiate a bluish-white glow. Their powdery breath ignites into bright blue fireballs, which they blow across the water or high in the trees. |
+| aosaginohi-c10 | exact | yokai.com | These fireballs give off no heat and do not set fire to what they touch, and eventually vanish in the wind. | These fireballs possess no heat and do not ignite what they touch, but eventually evaporate in the wind. |
+| aosaginohi-c11 | exact | yokai.com | Because their fireball breath resembles other phenomena, aosagibi should not be confused with onibi or other supernatural lights. | However, because their fireball breath appears similar to other phenomena, caution should be taken to avoid confusing aosagibi with onibi or other supernatural lights. |
 

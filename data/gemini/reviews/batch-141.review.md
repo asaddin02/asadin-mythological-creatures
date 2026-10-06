@@ -1,6 +1,6 @@
 # Review batch-141
 
-Diperiksa 2026-10-05T16:31:39.962Z. Berkas: batch-141-s1.md, batch-141-u7.md, batch-141-v7.md, batch-141-v8.md, batch-141.md.
+Diperiksa 2026-10-06T05:05:22.813Z. Berkas: batch-141-s1.md, batch-141-u7.md, batch-141-v7.md, batch-141-v8.md, batch-141.md.
 
 **Belum dikirim:** iansan, lukwata, aruan-of-udo, biher, kokolampo, mangwe, pie-q7191324, takhar, talafsa, watermeisie
 
@@ -331,7 +331,10 @@ Klaim 17 (exact 17), sumber 2, gambar 0.
 
 ## jobar-monster — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 3, gambar 0.
+Klaim 9 (exact 6, unreachable 3), sumber 3, gambar 0.
+
+**manual**
+- `claims` 3 kutipan tidak bisa dicek otomatis: www.radiofrance.fr (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -341,9 +344,9 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 | jobar-monster-c04 | exact | en.wikipedia.org | Bones of Jobaria eroding out of rocks were identified as belonging to Jobar. | as the bones of Jobaria eroding out of rocks were identified as belonging to Jobar. |
 | jobar-monster-c05 | exact | en.wikipedia.org | Because the rocks showed a flood, there is a story of Jobars dying in a flood and a palaeontological theory that Jobaria died in one. | hence why there is a story of Jobars dying in a flood and a palaeontological theory Jobaria died in a flood. |
 | jobar-monster-c06 | exact | australian.museum | The name of this dinosaur found in Niger comes from a mythical African creature called a Jobar, which was like a bogeyman. | The imaginative name given to this monster found In Niger comes from a mythical African creature called a Jobar, who was like a bogeyman. |
-| jobar-monster-c07 | exact | www.radiofrance.fr | Tuareg children may be told: if you are not good (sage), the Jobar will come for you tonight (cette nuit). | Si tu n’es pas sage, le Jobar viendra te chercher cette nuit |
-| jobar-monster-c08 | exact | www.radiofrance.fr | The Jobar is a giant monster (monstre géant) belonging to Tuareg (touarègue) mythology. | Monstre géant, le Jobar fait partie de la mythologie touarègue |
-| jobar-monster-c09 | exact | www.radiofrance.fr | It is also the name archaeologists gave a very large dinosaur (très grand dinosaure) whose skeleton was found in 1990 in the Agadez region. | c’est aussi le nom que des archéologues ont donné à un très grand dinosaure, dont le squelette a été retrouvé en 1990 dans la région d’Agadez. |
+| jobar-monster-c07 | unreachable (HTTP 403) | www.radiofrance.fr | Tuareg children may be told: if you are not good (sage), the Jobar will come for you tonight (cette nuit). | Si tu n’es pas sage, le Jobar viendra te chercher cette nuit |
+| jobar-monster-c08 | unreachable (HTTP 403) | www.radiofrance.fr | The Jobar is a giant monster (monstre géant) belonging to Tuareg (touarègue) mythology. | Monstre géant, le Jobar fait partie de la mythologie touarègue |
+| jobar-monster-c09 | unreachable (HTTP 403) | www.radiofrance.fr | It is also the name archaeologists gave a very large dinosaur (très grand dinosaure) whose skeleton was found in 1990 in the Agadez region. | c’est aussi le nom que des archéologues ont donné à un très grand dinosaure, dont le squelette a été retrouvé en 1990 dans la région d’Agadez. |
 
 
 ## koolakamba — lulus-otomatis
