@@ -3470,8 +3470,8 @@
         "en": "Flying off with Tsuna"
       },
       "description": {
-        "id": "Dalam versi Ichijō Modorihashi, oni itu mencengkeram rambut Tsuna, terbang, dan membawanya ke Gunung Atago.",
-        "en": "In the Ichijō Modorihashi version the oni grasps Tsuna's hair, flies up and carries him toward Mount Atago."
+        "id": "Dalam satu versi, oni itu mencengkeram rambut Tsuna, terbang, dan membawanya ke Gunung Atago.",
+        "en": "In one version the oni grasps Tsuna's hair, flies up and carries him toward Mount Atago."
       },
       "claim_ids": [
         "ibaraki-doji-c10"
@@ -3521,8 +3521,8 @@
         "en": "The oni whose arm is cut off and who disguises himself to take it back"
       },
       "summary": {
-        "id": "Tsuna menebas lengan oni itu, baik di Ichijō Modorihashi maupun di Rashōmon. Oni itu kemudian kembali dengan menyamar untuk merebut lengannya, dan setelah itu keberadaannya tidak diketahui.",
-        "en": "Tsuna cuts off the oni's arm, whether at Ichijō Modorihashi or at Rashōmon. The oni later returns in disguise to take the arm back, and after that his whereabouts are unknown."
+        "id": "Tsuna menebas lengan oni itu, baik dalam satu versi maupun di Rashōmon menurut Yokai.com. Oni itu kemudian kembali dengan menyamar untuk merebut lengannya, dan setelah itu keberadaannya tidak diketahui.",
+        "en": "Tsuna cuts off the oni's arm, whether in one version or, according to Yokai.com, at Rashōmon. The oni later returns in disguise to take the arm back, and after that his whereabouts are unknown."
       },
       "claim_ids": [
         "ibaraki-doji-c10",
@@ -3779,18 +3779,18 @@
       "id": "ibaraki-doji-c10",
       "source_id": "ibaraki-doji-s1",
       "quote": "A young beautiful girl was on the road, worried, so Watanabe no Tsuna made her ride on a horse, but the girl suddenly transformed into an oni, and grasped Tsuna’s hair, flew in the air, and took him to Mount Atago. Tsuna, not panicked at all, cut off the oni's arm, averting disaster.",
-      "locator": "Bagian Ichijō Modorihashi",
+      "locator": "Bagian Ichijō Modorihashi (judul bagian)",
       "context": "traditional-belief",
       "statement": {
-        "id": "Dalam versi Ichijō Modorihashi, seorang gadis cantik yang tampak cemas dinaikkan ke kuda oleh Watanabe no Tsuna, lalu tiba-tiba berubah menjadi oni, mencengkeram rambut Tsuna, terbang, dan membawanya ke Gunung Atago; Tsuna menebas lengan oni itu dan lolos.",
-        "en": "In the Ichijō Modorihashi version, a beautiful, worried-looking girl is put on a horse by Watanabe no Tsuna, suddenly turns into an oni, grasps Tsuna's hair, flies up and carries him toward Mount Atago; Tsuna cuts off the oni's arm and escapes."
+        "id": "Dalam satu versi, seorang gadis cantik yang tampak cemas dinaikkan ke kuda oleh Watanabe no Tsuna, lalu tiba-tiba berubah menjadi oni, mencengkeram rambut Tsuna, terbang, dan membawanya ke Gunung Atago; Tsuna menebas lengan oni itu dan lolos.",
+        "en": "In one version, a beautiful, worried-looking girl is put on a horse by Watanabe no Tsuna, suddenly turns into an oni, grasps Tsuna's hair, flies up and carries him toward Mount Atago; Tsuna cuts off the oni's arm and escapes."
       }
     },
     {
       "id": "ibaraki-doji-c11",
       "source_id": "ibaraki-doji-s1",
       "quote": "Several days after that, Ibaraki-dōji tried to invade Tsuna's estate using the remaining arm, but due to the power of a Humane King Sutra and a talisman, Ibaraki-dōji was not able to enter.",
-      "locator": "Bagian Ichijō Modorihashi",
+      "locator": "Bagian Ichijō Modorihashi (judul bagian)",
       "context": "traditional-belief",
       "statement": {
         "id": "Beberapa hari kemudian Ibaraki-dōji berusaha menyusup ke kediaman Tsuna, tetapi tak bisa masuk karena kekuatan Sutra Raja Penyayang dan sebuah jimat.",
