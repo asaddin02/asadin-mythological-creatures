@@ -1,13 +1,10 @@
 # Review batch-151
 
-Diperiksa 2026-09-30T09:11:45.986Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md.
+Diperiksa 2026-10-06T19:12:09.295Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md.
 
 ## maero — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -19,6 +16,8 @@ Klaim 8 (exact 8), sumber 1, gambar 0.
 | maero-c06 | exact | en.wikipedia.org | Tukoio attacked a maero, cutting off its arms, legs and head. | Tukoio, a mortal man, once found a maero, a mohoao (wild man), and attacked it, cutting off its arms, legs and head. |
 | maero-c07 | exact | en.wikipedia.org | The head brought back was still alive and called for help. | He brought the head back, but it was still alive and called for help. |
 | maero-c08 | exact | en.wikipedia.org | The maero put itself back together and returned to the forest. | Tukoio did not want to fight a whole clan of maero, so he dropped it and came back later with reinforcements, only to find the maero had put itself back together and returned to the forest. |
+| maero-c09 | exact | archive.org | Taylor records that the Maero, wild men of the woods, are said even yet to exist on mountains; a curl of smoke seen there is commonly attributed to the Maero, which he regards as evidence of their past rather than present existence. | as the Maero and Mohocto, or wild man of the woods ; they are said even yet to exist on the Tarama mountains ; if a cnrl of smoke should be seen upon them, it is commonly attributed to the Maero. This, however, is to be regarded as an evidence of their past, rather than present existence. |
+| maero-c10 | exact | archive.org | Tregear's dictionary defines maero (mythological) as an ogre or a wild man of the woods. | MAERO (myth.), an ogre; a wild man of the woods. |
 
 
 ## malingee — lulus-otomatis
@@ -38,10 +37,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## manaia-mythological-creature — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -51,14 +47,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | manaia-mythological-creature-c04 | exact | en.wikipedia.org | In this form it is represented in a figure-of-eight shape culminating in a bird-like beak. | In this form, it is usually represented in a figure-of-eight shape, the upper half culminating in a bird-like beak. |
 | manaia-mythological-creature-c05 | exact | en.wikipedia.org | Related Manaia-like symbols are found in other Polynesian cultures such as Hawaii. | Related Manaia-like symbols are also found in other Polynesian cultures, such as in Hawaii and Easter Island. |
 | manaia-mythological-creature-c06 | exact | en.wikipedia.org | Manaia designs are often depicted three-fingered representing birth, life, and death. | Manaia designs vary subtly in form between iwi, though they are often depicted as three-fingered, with these digits representing the trinity of birth, life, and death. |
+| manaia-mythological-creature-c07 | exact | archive.org | Hamilton describes the Manaia as a lizard or snake form with several varieties, one of the most interesting being the snake form with the eagle's head. | The Manaia, or lizard, or snake, is a remarkable deviation from the general law stated here. There are several varieties : probably the snake form with the eagle's head is one of the most interesting, carrying us back to some of the older mythologies. |
+| manaia-mythological-creature-c08 | exact | archive.org | On a board from a carved storehouse (pataka), conventional human figures alternate with bird-headed manaias. | A fine piece of old workmanship which formed part of a carved storehouse, or pataka. It represents the usual conventional figures of human beings, alternated with the bird-headed manaias. |
+| manaia-mythological-creature-c09 | exact | archive.org | Hamilton suggests that manaias may have been considered representations of lizards, and notes that in Samoa manaia is the name of a lizard. | Possibly these manaias may have been considered as representations of lizards. ... In Samoa, manaia is the name of a lizard. |
+| manaia-mythological-creature-c10 | exact | archive.org | Hamilton notes that a carving in bone or greenstone, probably representing the "seahorse" fish (Hippocampus; kiore moana in Māori), is called a manaia. | Cook mentions seeing dried specimens of the fish known as the "seahorse" {Hippocampus), or the kiore moana of the Maori hanging at the ear. A carving, probably representing this fish, is sometimes seen in bone and in greenstone, and is called a manaia. |
 
 
 ## matuku-tangotango — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -66,14 +63,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | matuku-tangotango-c02 | exact | en.wikipedia.org | In some versions, Matuku lives in a cave called Putawarenuku. | In some versions, Matuku lives in a cave called Putawarenuku. |
 | matuku-tangotango-c03 | exact | en.wikipedia.org | Matuku's servant reveals that at the new moon his master can be killed at his washing pool. | He hears from Matuku's servant that at the new moon his master can be killed at the pool where he washes his face and hair. |
 | matuku-tangotango-c04 | exact | en.wikipedia.org | When the new moon arrives, Rātā grabs the ogre by the hair at the pool and kills him. | When the new moon has come, Rātā waits until the ogre comes out of his cave and is leaning over with his head in the pool. He grabs him by the hair and kills him. |
+| matuku-tangotango-c05 | exact | archive.org | In Grey's collection, Wahieroa was slain treacherously by a chief named Matukutakotako; his son Rata was born some time before his death. | Wahieroa was slain treacherously by a chief named Matukutakotako, but his son Rata was born some time before his death. |
+| matuku-tangotango-c06 | exact | archive.org | When asked where the man who killed his father was, the man left in charge of the place answered that he lives beneath the earth and, when the new moon appears, rises and comes forth upon the earth and devours men as his food. | Where is the man who killed my father ? ' The man who was left in charge of the place answered him : ' He lives beneath in the earth there, and I am left here by him, to call to him and warn him when the new moon appears ; at that season he rises and comes forth upon the earth, and devours men as his food. |
+| matuku-tangotango-c07 | exact | archive.org | Matukutakotako heard him, seized his two-handed wooden sword, rose up from the earth and went straight to his two fountains. | And Matukutakotako heard him, and seizing his two-handed wooden sword, he rose up from the earth there, and went straight to his two fountains |
+| matuku-tangotango-c08 | exact | archive.org | As Matukutakotako raised his head from the water, Rata seized him by the hair with one hand and smote and slew him with the other, avenging the death of his father Wahieroa. | as Matukutakotako raised his head from the water, Rata, with one hand seized him by the hair, while with the other he smote and slew him ; thus he avenged the death of his father Wahieroa. |
+| matuku-tangotango-c09 | exact | archive.org | Tregear's dictionary lists Matuku (mythological), also Matuku-tangotango or Matuku-takotako, as an ogre-chief and slayer of Wahieroa son of Tawhaki, who had an underground habitation, a cave called Putawarenuku. | MATUKU (myth.), or Matuku-tangotango, or Matuku-takotako, an ogre-chief, the slayer of Wahieroa the son of Tawhaki. Matuku had an underground habitation, a cave called Putawarenuku. |
 
 
 ## maui-q1806741 — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 8, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -82,14 +81,16 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | maui-q1806741-c03 | loose | en.wikipedia.org | Māui caught a giant fish using a jaw-bone hook which became the North Island of New Zealand. | Māui is credited with catching a giant fish using a fishhook taken from his grandmother's jaw-bone; the giant fish would become the North Island of New Zealand, known as Te Ika-a-Māui. |
 | maui-q1806741-c04 | loose | en.wikipedia.org | In some traditions his canoe became the South Island, known as Te Waka a Māui. | In some traditions, his canoe (waka) became the South Island, known as Te Waka a Māui. |
 | maui-q1806741-c05 | exact | en.wikipedia.org | His last trick, which led to his death, involved the goddess Hine-nui-te-pō. | His last trick, which led to his death, involved the goddess Hine-nui-te-pō. |
+| maui-q1806741-c06 | exact | archive.org | In Grey's collection, Māui proposes catching the sun in a noose to compel it to move more slowly so that mankind may have long days to labour in, then strikes it with his enchanted weapon with many blows. | Let us now catch the sun in a noose, so that we may compel him to move more slowly, in order that mankind may have long days to labour in to procure subsistence for themselves ... Then forth rushed that bold hero, Maui-tiki-tiki-o- Taranga, with his enchanted weapon. Alas ! the sun screams aloud ; he roars ; Maui strikes him fiercely with many blows |
+| maui-q1806741-c07 | exact | archive.org | In Grey's collection, dry land hidden under the ocean was fished up by Māui with an enchanted fish-hook pointed with a bit of the jaw-bone of his ancestress. | Thus was dry land fished up by Maui after it had been hidden under the ocean by Rangi and Ta- whiri-ma-tea. It was with an enchanted fish-hook that he drew it up, which was pointed with a bit of the jaw-bone of his ancestress Muri-ranga- whenua |
+| maui-q1806741-c08 | exact | archive.org | The laughter of the little bird tiwakawaka woke the old woman, who opened her eyes, started up and killed Māui. | at last, the little Tiwakawaka could no longer keep it in, and laughed out loud, with its merry cheerful note ; this woke the old woman up, she opened her eyes, started up, and killed Maui. |
+| maui-q1806741-c09 | exact | archive.org | According to the traditions recorded by Grey, this was the cause of the introduction of death into the world; Hine-nui-te-po is the goddess of death, and had Māui passed safely through her, death itself would have been destroyed. | this was the cause of the introduction of death into the world (Hine-nui-te-po being the goddess of death : if Maui had passed safely through her, then no more human beings would have died, but death itself would have been destroyed) |
+| maui-q1806741-c10 | exact | en.wikipedia.org | Māui-tikitiki-a-Taranga is one of the names or epithets of Māui, meaning "Māui the top-knot of Taranga". | Māui-tikitiki-a-Taranga ("Māui the top-knot of Taranga") |
 
 
 ## nargun — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -98,14 +99,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | nargun-c03 | exact | en.wikipedia.org | The creature dragged unwary travellers into its den and weapons turned back on their owner. | The fierce creature would drag unwary travellers into its den. Any weapon directed against it would be turned back on its owner. |
 | nargun-c04 | exact | en.wikipedia.org | Campfire stories told of Nargun abducting children who visited the rockpool. | Stories were told around aboriginal campfires about how the Nargun would abduct children who visited the rockpool. |
 | nargun-c05 | exact | en.wikipedia.org | Nargun could not be harmed with boomerangs or spears as they reflected back. | It was said the Nargun could not be harmed with boomerangs or spears, as they would be reflected back to the thrower. |
+| nargun-c06 | exact | gunaikurnai.org | According to Gunaikurnai lore the Nargun is a large female creature who lives in a cave behind the waterfall. | According to Gunaikurnai lore the Nargun is a large female creature who lives in a cave behind the waterfall. |
+| nargun-c07 | exact | gunaikurnai.org | The Den of Nargun on Woolshed Creek, a small tributary of the Mitchell River, is of great cultural significance and known as a women's place; it is a place of women's initiation and learning ceremonies, and traditionally Gunaikurnai men are not allowed to enter the area of the Den and the Woolshed Creek valley. | The Den of Nargun on Woolshed Creek, a small tributary of the Mitchell River, is of great cultural significance and is known as a women's place. ... It is a place of women's initiation and learning ceremonies, and traditionally Gunaikurnai men are not allowed to enter the area of the Den of Nargun and the Woolshed Creek valley. |
+| nargun-c08 | exact | gunaikurnai.org | Stories told around campfires said the Nargun would abduct children who wandered off on their own and could not be harmed with boomerangs or spears; the stories served to keep children close to the campsite and keep people away from the sacred cave. | Stories were told around campfires about how the Nargun would abduct children who wandered off on their own. The Nargun could not be harmed with boomerangs or spears. These stories served the dual purpose of keeping children close to the campsite and ensuring that people stayed away from the sacred cave. |
 
 
 ## patupaiarehe — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 1, exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -114,27 +115,29 @@ Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
 | patupaiarehe-c03 | exact | en.wikipedia.org | They prefer raw food and have an aversion to steam and fire. | They prefer raw food and have an aversion to steam and fire. |
 | patupaiarehe-c04 | exact | en.wikipedia.org | Patupaiarehe live in deep forests and mountainous regions, hostile to human intruders. | Patupaiarehe can be hostile to humans, especially those who intrude on their lands. They are believed to live in deep forests and hilly or mountainous regions, in large guarded communities |
 | patupaiarehe-c05 | exact | en.wikipedia.org | The music of their kōauau and pūtōrino flutes reveals their presence on foggy days. | The music of their kōauau and pūtōrino (bugle flutes), along with their singing of waiata occasionally reveals their presence on foggy days. |
+| patupaiarehe-c06 | exact | www.gutenberg.org | In a story recorded by Shortland, a Patupaiarehe or Fairy came to Ruarangi's house while he was away and carried his wife off to the hills. | One day while Ruarangi was absent from his house a Patupaiarehe or Fairy came to it, and finding only the wife of Ruarangi within, carried her off to the hills. |
+| patupaiarehe-c07 | exact | www.gutenberg.org | In a story recorded by Shortland, a hill is said to have belonged to the Patupaiarehe or Fairies, who had a pa on the hill named Tuahu-o-te-atua. | The hill belonged to the Patupaiarehe or Fairies. They had a Pa on the hill named Tuahu-o-te-atua. |
+| patupaiarehe-c08 | exact | archive.org | In Grey's collection, Ngatoro-i-rangi visited the mountains and placed Patupaiarehe, or fairies, there. | Ngatoro-i-rangi went, how- ever, about the country, and where he found dry valleys ... he also visited the mountains, and placed Patupaiarehe, or fairies, there, and then returned to Maketu and dwelt there. |
+| patupaiarehe-c09 | exact | archive.org | A chapter heading in Grey's collection states that the art of netting was learned by Kahukura from the fairies (patupaiarehe). | THE ART OF NETTING LEARNED BY KAHUKURA FROM THE FAIRIES (ko te korero mo nga patupaiarehe) |
 
 
 ## rogo-tumu-here — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | rogo-tumu-here-c01 | exact | en.wikipedia.org | Rogo-Tumu-Here was an octopus demon from Tuamotu mythology. | Rogo-Tumu-Here was an octopus demon from Tuamotu mythology. |
 | rogo-tumu-here-c02 | exact | en.wikipedia.org | He swallowed Hina-Arau-Riki and was slain by Turi-A-Faumea and Tu-Nui-Ka-Rere. | He attacked and swallowed Hina-Arau-Riki, the wife of Turi-A-Faumea, son of Tangaroa and Faumea, and was slain by the former males along with Tu-Nui-Ka-Rere. |
+| rogo-tumu-here-c03 | exact | archive.org | In Beckwith's account, Turi makes Hina-a-rauriki his wife; as they go surfing, the demon octopus Rogo-tumu-here seizes Hina and carries her away to the bottom of the ocean. | Turi makes Hina-a-rauriki his wife. They go surfing. The demon octopus Rogo-tumu-here seizes Hina and carries her away to the bottom of the ocean. |
+| rogo-tumu-here-c04 | exact | archive.org | Tagaroa baits his hook with sacred red feathers and Rogo is drawn up into the canoe. | Tagaroa baits his hook with sacred red feathers and Rogo is drawn up into the canoe. |
+| rogo-tumu-here-c05 | exact | archive.org | Tagaroa cuts off one tentacle after another until the head comes up; he cuts that off and Hina is drawn out from it covered with slime. | One tentacle after another Tagaroa cuts off until the head comes up. Tagaroa cuts that off and Hina is drawn out from it covered with slime. |
+| rogo-tumu-here-c06 | exact | archive.org | In Vahitahi of the Tuamotus, Faumea is an eel-woman; Tagaroa sleeps with her and she bears Tu-nui-ka-rere (or Ratu-nui) and Turi-a-faumea. | In Vahitahi of the Tuamotus, Faumea is an eel-woman ... Tagaroa sails to the land of Faumea. ... He sleeps with her and she bears Tu-nui-ka-rere (or Ratu-nui) and Turi-a-faumea. |
 
 
 ## rongomai — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -143,20 +146,22 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | rongomai-c03 | exact | en.wikipedia.org | A being in whale form which attacked the war-party of Maru. | a being in whale form which attacked and almost wiped out the war-party of Maru. |
 | rongomai-c04 | exact | en.wikipedia.org | A celebrated demi-god ancestor who visited Miru in the underworld. | a celebrated demi-god ancestor of some iwi. He went with Ihinga and others of his friends to visit the dread Miru in her abode in the underworld. |
 | rongomai-c05 | exact | en.wikipedia.org | A meteor or comet seen in broad daylight during the siege of Rangiuru at Ōtaki. | a meteor or comet, seen in the full light of day when in comparatively recent times, the Ngāti Hau tribe were besieging the fortress named Rangiuru at Ōtaki, occupied by the Ngāti Awa. |
+| rongomai-c06 | exact | archive.org | In Grey's collection, the women took by stealth the gods of the people, namely Maru, Te Iho-o-te-rangi, Rongomai, Itupawa and Haungaroa; having no canoe, they used these gods as a canoe to cross the sea. | The women then took by stealth the gods of the people, that is to say, Maru, and Te Iho-o-te-rangi, and Rongomai, and Itupawa, and Haungaroa, and they had no canoe for their journey, but these gods served them as a canoe to cross the sea. |
 
 
 ## te-wheke-a-muturangi — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | te-wheke-a-muturangi-c01 | exact | en.wikipedia.org | Te Wheke-a-Muturangi is a monstrous octopus destroyed in Tory Channel by Kupe. | In Māori mythology, Te Wheke-a-Muturangi is a monstrous octopus destroyed in Whekenui Bay, Tory Channel or at Pātea by Kupe the navigator. |
 | te-wheke-a-muturangi-c02 | exact | en.wikipedia.org | The octopus was a pet or familiar of Muturangi, a powerful tohunga of Hawaiki. | The octopus was a pet or familiar of Muturangi, a powerful tohunga of Hawaiki. The wheke was nonetheless a wild creature and a guardian. |
 | te-wheke-a-muturangi-c03 | exact | en.wikipedia.org | Kupe chased the giant octopus across Cook Strait to Tory Channel and cut off its arms with his adze. | When Kupe reached New Zealand, he encountered the beast off Castlepoint. The giant octopus then fled across Cook Strait, and was chased by Kupe through Tory Channel. Here a great battle took place, and when the octopus appeared to be about to flee, Kupe cut off its arms with his adze, killing it |
+| te-wheke-a-muturangi-c04 | exact | archive.org | In Grey's collection, the great cuttle-fish or dragon that had fled from Castle Point was named by Kupe Te Wheke-a-Muturangi; it had fled to Tory Channel and was lying hid in this part of the current. | The great cuttle-fish or dragon, that had fled from Castle ... Point, which Kupe named Te Wheke-a-Muturangi ... had fled to Tory Channel, and was lying hid in this part of the current. |
+| te-wheke-a-muturangi-c05 | exact | archive.org | The monster heard the canoe of Kupe approaching and raised its arms above the waters to catch and devour the canoe, men and all. | The monster heard the canoe of Kupe approaching as they were pulling up the current, and raised its arms above the waters to catch and devour the canoe, men and all. |
+| te-wheke-a-muturangi-c06 | exact | archive.org | Kupe seized an immense hollow calabash and threw it overboard; hardly had it touched the water than the monster flew at it, thinking it was the canoe of Kupe. | so Kupe seized an immense hollow calabash he had on board to carry his water in, and threw it overboard ; hardly had it touched the water ere the monster flew at it, thinking that it was the canoe of Kupe |
+| te-wheke-a-muturangi-c07 | exact | archive.org | Kupe, standing in his canoe in an excellent position to cut it with his axe, struck it a tremendous blow and severed it in two, killing it. | Kupe, as he stood in his canoe, being in a most excellent position to cut it with his axe, seized the opportunity, and, striking; it a tremendous blow, he severed it in two, and killed it |
 
 
 ## akurra — lulus-otomatis

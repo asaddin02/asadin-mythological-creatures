@@ -1,30 +1,26 @@
 {
   "batch_id": "batch-151",
-  "checked_at": "2026-09-30T09:11:45.986Z",
+  "checked_at": "2026-10-06T19:12:09.295Z",
   "files": [
     "batch-151.md",
     "batch-151-fix-1.md",
-    "batch-151-fix-2.md"
+    "batch-151-fix-2.md",
+    "batch-151-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "maero",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "e01bd3b8e6f784a11e2f561d382bc90dd4a69f0c4be9b58bad91beea5203cfa7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maero-c01",
@@ -105,6 +101,26 @@
           "quote": "Tukoio did not want to fight a whole clan of maero, so he dropped it and came back later with reinforcements, only to find the maero had put itself back together and returned to the forest.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "maero-c09",
+          "source_id": "maero-s2",
+          "host": "archive.org",
+          "statement": "Taylor records that the Maero, wild men of the woods, are said even yet to exist on mountains; a curl of smoke seen there is commonly attributed to the Maero, which he regards as evidence of their past rather than present existence.",
+          "statement_id": "Taylor mencatat bahwa Maero, manusia liar dari hutan, dikatakan masih ada di pegunungan; kepulan asap yang terlihat di sana lazim dianggap perbuatan Maero, tetapi ia memandangnya sebagai bukti keberadaan mereka di masa lalu, bukan masa kini.",
+          "quote": "as the Maero and Mohocto, or wild man of the woods ; they are said even yet to exist on the Tarama mountains ; if a cnrl of smoke should be seen upon them, it is commonly attributed to the Maero. This, however, is to be regarded as an evidence of their past, rather than present existence.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "maero-c10",
+          "source_id": "maero-s3",
+          "host": "archive.org",
+          "statement": "Tregear's dictionary defines maero (mythological) as an ogre or a wild man of the woods.",
+          "statement_id": "Kamus Tregear mendefinisikan maero (istilah mitologi) sebagai ogre atau manusia liar hutan.",
+          "quote": "MAERO (myth.), an ogre; a wild man of the woods.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -167,24 +183,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1af725e74f8143b7dcce7e5a9d690e80fa59698fee371437e7764e8940937450"
     },
     {
       "slug": "manaia-mythological-creature",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "f0fdab09f5fc5f79fa7143238043c4327302e0d52c9162ab2b917c4328e2934f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "manaia-mythological-creature-c01",
@@ -245,26 +257,61 @@
           "quote": "Manaia designs vary subtly in form between iwi, though they are often depicted as three-fingered, with these digits representing the trinity of birth, life, and death.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "manaia-mythological-creature-c07",
+          "source_id": "manaia-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "Hamilton describes the Manaia as a lizard or snake form with several varieties, one of the most interesting being the snake form with the eagle's head.",
+          "statement_id": "Hamilton menyebut manaia sebagai bentuk kadal atau ular dengan beberapa varian; salah satu yang paling menarik ialah bentuk ular berkepala elang.",
+          "quote": "The Manaia, or lizard, or snake, is a remarkable deviation from the general law stated here. There are several varieties : probably the snake form with the eagle's head is one of the most interesting, carrying us back to some of the older mythologies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaia-mythological-creature-c08",
+          "source_id": "manaia-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "On a board from a carved storehouse (pataka), conventional human figures alternate with bird-headed manaias.",
+          "statement_id": "Pada sebuah papan dari lumbung berukir (pataka), figur manusia yang konvensional berselang-seling dengan manaia berkepala burung.",
+          "quote": "A fine piece of old workmanship which formed part of a carved storehouse, or pataka. It represents the usual conventional figures of human beings, alternated with the bird-headed manaias.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaia-mythological-creature-c09",
+          "source_id": "manaia-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "Hamilton suggests that manaias may have been considered representations of lizards, and notes that in Samoa manaia is the name of a lizard.",
+          "statement_id": "Hamilton menduga manaia mungkin dianggap sebagai gambaran kadal, dan mencatat bahwa di Samoa manaia adalah nama seekor kadal.",
+          "quote": "Possibly these manaias may have been considered as representations of lizards. ... In Samoa, manaia is the name of a lizard.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaia-mythological-creature-c10",
+          "source_id": "manaia-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "Hamilton notes that a carving in bone or greenstone, probably representing the \"seahorse\" fish (Hippocampus; kiore moana in Māori), is called a manaia.",
+          "statement_id": "Hamilton mencatat bahwa ukiran dari tulang atau batu hijau yang kemungkinan menggambarkan ikan \"kuda laut\" (Hippocampus), kiore moana dalam bahasa Māori, disebut manaia.",
+          "quote": "Cook mentions seeing dried specimens of the fish known as the \"seahorse\" {Hippocampus), or the kiore moana of the Maori hanging at the ear. A carving, probably representing this fish, is sometimes seen in bone and in greenstone, and is called a manaia.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "matuku-tangotango",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "36d9890c380b47097cd652184cd73b44f09ce28841421187674679b0679e16b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "matuku-tangotango-c01",
@@ -305,26 +352,71 @@
           "quote": "When the new moon has come, Rātā waits until the ogre comes out of his cave and is leaning over with his head in the pool. He grabs him by the hair and kills him.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "matuku-tangotango-c05",
+          "source_id": "matuku-tangotango-s2",
+          "host": "archive.org",
+          "statement": "In Grey's collection, Wahieroa was slain treacherously by a chief named Matukutakotako; his son Rata was born some time before his death.",
+          "statement_id": "Dalam kumpulan Grey, Wahieroa dibunuh secara curang oleh seorang kepala suku bernama Matukutakotako; putranya Rata lahir beberapa waktu sebelum kematiannya.",
+          "quote": "Wahieroa was slain treacherously by a chief named Matukutakotako, but his son Rata was born some time before his death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matuku-tangotango-c06",
+          "source_id": "matuku-tangotango-s2",
+          "host": "archive.org",
+          "statement": "When asked where the man who killed his father was, the man left in charge of the place answered that he lives beneath the earth and, when the new moon appears, rises and comes forth upon the earth and devours men as his food.",
+          "statement_id": "Ditanya di mana pembunuh ayahnya, penjaga tempat itu menjawab bahwa orang itu tinggal di bawah tanah dan, saat bulan baru muncul, bangkit ke bumi serta melahap manusia sebagai makanannya.",
+          "quote": "Where is the man who killed my father ? ' The man who was left in charge of the place answered him : ' He lives beneath in the earth there, and I am left here by him, to call to him and warn him when the new moon appears ; at that season he rises and comes forth upon the earth, and devours men as his food.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matuku-tangotango-c07",
+          "source_id": "matuku-tangotango-s2",
+          "host": "archive.org",
+          "statement": "Matukutakotako heard him, seized his two-handed wooden sword, rose up from the earth and went straight to his two fountains.",
+          "statement_id": "Matukutakotako mendengar seruan itu, mengambil pedang kayu bermata dua, bangkit dari dalam tanah, dan langsung menuju dua mata airnya.",
+          "quote": "And Matukutakotako heard him, and seizing his two-handed wooden sword, he rose up from the earth there, and went straight to his two fountains",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matuku-tangotango-c08",
+          "source_id": "matuku-tangotango-s2",
+          "host": "archive.org",
+          "statement": "As Matukutakotako raised his head from the water, Rata seized him by the hair with one hand and smote and slew him with the other, avenging the death of his father Wahieroa.",
+          "statement_id": "Saat Matukutakotako mengangkat kepalanya dari air, Rata menangkap rambutnya dengan satu tangan dan menebasnya dengan tangan yang lain hingga tewas, sehingga membalaskan kematian ayahnya Wahieroa.",
+          "quote": "as Matukutakotako raised his head from the water, Rata, with one hand seized him by the hair, while with the other he smote and slew him ; thus he avenged the death of his father Wahieroa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matuku-tangotango-c09",
+          "source_id": "matuku-tangotango-s3",
+          "host": "archive.org",
+          "statement": "Tregear's dictionary lists Matuku (mythological), also Matuku-tangotango or Matuku-takotako, as an ogre-chief and slayer of Wahieroa son of Tawhaki, who had an underground habitation, a cave called Putawarenuku.",
+          "statement_id": "Kamus Tregear mencatat Matuku (mitologi), juga Matuku-tangotango atau Matuku-takotako, sebagai kepala ogre pembunuh Wahieroa putra Tawhaki, yang berdiam di bawah tanah dalam gua bernama Putawarenuku.",
+          "quote": "MATUKU (myth.), or Matuku-tangotango, or Matuku-takotako, an ogre-chief, the slayer of Wahieroa the son of Tawhaki. Matuku had an underground habitation, a cave called Putawarenuku.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "maui-q1806741",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "f3de1bda0e620fce56dd6886cd407f9b5bec92156dd8342cd46bf0a4c25fa426",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maui-q1806741-c01",
@@ -375,26 +467,71 @@
           "quote": "His last trick, which led to his death, involved the goddess Hine-nui-te-pō.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "maui-q1806741-c06",
+          "source_id": "maui-q1806741-s2",
+          "host": "archive.org",
+          "statement": "In Grey's collection, Māui proposes catching the sun in a noose to compel it to move more slowly so that mankind may have long days to labour in, then strikes it with his enchanted weapon with many blows.",
+          "statement_id": "Dalam kumpulan Grey, Māui mengajak saudara-saudaranya menjerat matahari agar bergerak lebih lambat sehingga manusia punya hari yang panjang untuk bekerja, lalu menyerangnya dengan senjata ajaibnya dan memukulnya berkali-kali.",
+          "quote": "Let us now catch the sun in a noose, so that we may compel him to move more slowly, in order that mankind may have long days to labour in to procure subsistence for themselves ... Then forth rushed that bold hero, Maui-tiki-tiki-o- Taranga, with his enchanted weapon. Alas ! the sun screams aloud ; he roars ; Maui strikes him fiercely with many blows",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-q1806741-c07",
+          "source_id": "maui-q1806741-s2",
+          "host": "archive.org",
+          "statement": "In Grey's collection, dry land hidden under the ocean was fished up by Māui with an enchanted fish-hook pointed with a bit of the jaw-bone of his ancestress.",
+          "statement_id": "Dalam kumpulan Grey, daratan yang tersembunyi di bawah laut dipancing naik oleh Māui dengan kail ajaib yang ujungnya dari sepotong tulang rahang leluhur perempuannya.",
+          "quote": "Thus was dry land fished up by Maui after it had been hidden under the ocean by Rangi and Ta- whiri-ma-tea. It was with an enchanted fish-hook that he drew it up, which was pointed with a bit of the jaw-bone of his ancestress Muri-ranga- whenua",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-q1806741-c08",
+          "source_id": "maui-q1806741-s2",
+          "host": "archive.org",
+          "statement": "The laughter of the little bird tiwakawaka woke the old woman, who opened her eyes, started up and killed Māui.",
+          "statement_id": "Tawa burung kecil tiwakawaka membangunkan perempuan tua itu, yang lalu membuka mata, bangkit, dan membunuh Māui.",
+          "quote": "at last, the little Tiwakawaka could no longer keep it in, and laughed out loud, with its merry cheerful note ; this woke the old woman up, she opened her eyes, started up, and killed Maui.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-q1806741-c09",
+          "source_id": "maui-q1806741-s2",
+          "host": "archive.org",
+          "statement": "According to the traditions recorded by Grey, this was the cause of the introduction of death into the world; Hine-nui-te-po is the goddess of death, and had Māui passed safely through her, death itself would have been destroyed.",
+          "statement_id": "Menurut tradisi yang dicatat Grey, peristiwa itu menjadi sebab masuknya kematian ke dunia; Hine-nui-te-po adalah dewi kematian, dan jika Māui melewatinya dengan selamat, kematian itu sendiri akan dihancurkan.",
+          "quote": "this was the cause of the introduction of death into the world (Hine-nui-te-po being the goddess of death : if Maui had passed safely through her, then no more human beings would have died, but death itself would have been destroyed)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-q1806741-c10",
+          "source_id": "maui-q1806741-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui-tikitiki-a-Taranga is one of the names or epithets of Māui, meaning \"Māui the top-knot of Taranga\".",
+          "statement_id": "Māui-tikitiki-a-Taranga adalah salah satu nama atau julukan Māui, yang berarti \"Māui jambul Taranga\".",
+          "quote": "Māui-tikitiki-a-Taranga (\"Māui the top-knot of Taranga\")",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nargun",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "73d2526d4f32a656367c0f00542560ea9ed8ecc6b655f74a84318c740d6b772a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nargun-c01",
@@ -445,26 +582,51 @@
           "quote": "It was said the Nargun could not be harmed with boomerangs or spears, as they would be reflected back to the thrower.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nargun-c06",
+          "source_id": "nargun-s2",
+          "host": "gunaikurnai.org",
+          "statement": "According to Gunaikurnai lore the Nargun is a large female creature who lives in a cave behind the waterfall.",
+          "statement_id": "Menurut tradisi Gunaikurnai, Nargun adalah makhluk besar berjenis kelamin perempuan yang tinggal di sebuah gua di balik air terjun.",
+          "quote": "According to Gunaikurnai lore the Nargun is a large female creature who lives in a cave behind the waterfall.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nargun-c07",
+          "source_id": "nargun-s2",
+          "host": "gunaikurnai.org",
+          "statement": "The Den of Nargun on Woolshed Creek, a small tributary of the Mitchell River, is of great cultural significance and known as a women's place; it is a place of women's initiation and learning ceremonies, and traditionally Gunaikurnai men are not allowed to enter the area of the Den and the Woolshed Creek valley.",
+          "statement_id": "Den of Nargun di Woolshed Creek, anak sungai kecil Mitchell River, bermakna budaya besar dan dikenal sebagai tempat perempuan; di sana berlangsung inisiasi dan pembelajaran perempuan, dan secara tradisional lelaki Gunaikurnai tidak boleh memasuki kawasan itu dan lembah Woolshed Creek.",
+          "quote": "The Den of Nargun on Woolshed Creek, a small tributary of the Mitchell River, is of great cultural significance and is known as a women's place. ... It is a place of women's initiation and learning ceremonies, and traditionally Gunaikurnai men are not allowed to enter the area of the Den of Nargun and the Woolshed Creek valley.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nargun-c08",
+          "source_id": "nargun-s2",
+          "host": "gunaikurnai.org",
+          "statement": "Stories told around campfires said the Nargun would abduct children who wandered off on their own and could not be harmed with boomerangs or spears; the stories served to keep children close to the campsite and keep people away from the sacred cave.",
+          "statement_id": "Kisah di sekitar api unggun menceritakan Nargun menculik anak-anak yang berkeliaran sendirian dan tak dapat dilukai bumerang atau tombak; kisah itu berfungsi menjaga anak-anak tetap dekat perkemahan dan menjauhkan orang dari gua keramat.",
+          "quote": "Stories were told around campfires about how the Nargun would abduct children who wandered off on their own. The Nargun could not be harmed with boomerangs or spears. These stories served the dual purpose of keeping children close to the campsite and ensuring that people stayed away from the sacred cave.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "patupaiarehe",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "567da75aaf7b10abd9a17594f44b658f3212ad857c1cb7d0670ae4fe2d53f7ee",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "patupaiarehe-c01",
@@ -515,26 +677,61 @@
           "quote": "The music of their kōauau and pūtōrino (bugle flutes), along with their singing of waiata occasionally reveals their presence on foggy days.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "patupaiarehe-c06",
+          "source_id": "patupaiarehe-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a story recorded by Shortland, a Patupaiarehe or Fairy came to Ruarangi's house while he was away and carried his wife off to the hills.",
+          "statement_id": "Dalam kisah yang dicatat Shortland, seorang Patupaiarehe atau peri datang ke rumah Ruarangi saat ia pergi dan membawa istrinya ke perbukitan.",
+          "quote": "One day while Ruarangi was absent from his house a Patupaiarehe or Fairy came to it, and finding only the wife of Ruarangi within, carried her off to the hills.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "patupaiarehe-c07",
+          "source_id": "patupaiarehe-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a story recorded by Shortland, a hill is said to have belonged to the Patupaiarehe or Fairies, who had a pa on the hill named Tuahu-o-te-atua.",
+          "statement_id": "Dalam sebuah kisah yang dicatat Shortland, sebuah bukit disebut milik Patupaiarehe atau peri, yang memiliki sebuah pa di bukit itu bernama Tuahu-o-te-atua.",
+          "quote": "The hill belonged to the Patupaiarehe or Fairies. They had a Pa on the hill named Tuahu-o-te-atua.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "patupaiarehe-c08",
+          "source_id": "patupaiarehe-s3",
+          "host": "archive.org",
+          "statement": "In Grey's collection, Ngatoro-i-rangi visited the mountains and placed Patupaiarehe, or fairies, there.",
+          "statement_id": "Dalam kumpulan Grey, Ngatoro-i-rangi mengunjungi pegunungan dan menempatkan Patupaiarehe, atau peri, di sana.",
+          "quote": "Ngatoro-i-rangi went, how- ever, about the country, and where he found dry valleys ... he also visited the mountains, and placed Patupaiarehe, or fairies, there, and then returned to Maketu and dwelt there.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "patupaiarehe-c09",
+          "source_id": "patupaiarehe-s3",
+          "host": "archive.org",
+          "statement": "A chapter heading in Grey's collection states that the art of netting was learned by Kahukura from the fairies (patupaiarehe).",
+          "statement_id": "Judul sebuah bab dalam kumpulan Grey menyatakan bahwa seni menjala dipelajari Kahukura dari para peri (patupaiarehe).",
+          "quote": "THE ART OF NETTING LEARNED BY KAHUKURA FROM THE FAIRIES (ko te korero mo nga patupaiarehe)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "rogo-tumu-here",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "fb79b33b60d01729c3869c5d3341392b024936f017c933c61e5d62573cbde3aa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rogo-tumu-here-c01",
@@ -555,26 +752,61 @@
           "quote": "He attacked and swallowed Hina-Arau-Riki, the wife of Turi-A-Faumea, son of Tangaroa and Faumea, and was slain by the former males along with Tu-Nui-Ka-Rere.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "rogo-tumu-here-c03",
+          "source_id": "rogo-tumu-here-s2",
+          "host": "archive.org",
+          "statement": "In Beckwith's account, Turi makes Hina-a-rauriki his wife; as they go surfing, the demon octopus Rogo-tumu-here seizes Hina and carries her away to the bottom of the ocean.",
+          "statement_id": "Dalam catatan Beckwith, Turi menjadikan Hina-a-rauriki istrinya; saat mereka berselancar, gurita iblis Rogo-tumu-here menyambar Hina dan membawanya ke dasar samudra.",
+          "quote": "Turi makes Hina-a-rauriki his wife. They go surfing. The demon octopus Rogo-tumu-here seizes Hina and carries her away to the bottom of the ocean.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rogo-tumu-here-c04",
+          "source_id": "rogo-tumu-here-s2",
+          "host": "archive.org",
+          "statement": "Tagaroa baits his hook with sacred red feathers and Rogo is drawn up into the canoe.",
+          "statement_id": "Tagaroa memasang kailnya dengan bulu merah sakral dan Rogo terangkat ke dalam perahu.",
+          "quote": "Tagaroa baits his hook with sacred red feathers and Rogo is drawn up into the canoe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rogo-tumu-here-c05",
+          "source_id": "rogo-tumu-here-s2",
+          "host": "archive.org",
+          "statement": "Tagaroa cuts off one tentacle after another until the head comes up; he cuts that off and Hina is drawn out from it covered with slime.",
+          "statement_id": "Tagaroa memotong tentakel satu demi satu hingga kepalanya muncul; ia memotong kepala itu dan Hina ditarik keluar darinya berlumur lendir.",
+          "quote": "One tentacle after another Tagaroa cuts off until the head comes up. Tagaroa cuts that off and Hina is drawn out from it covered with slime.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rogo-tumu-here-c06",
+          "source_id": "rogo-tumu-here-s2",
+          "host": "archive.org",
+          "statement": "In Vahitahi of the Tuamotus, Faumea is an eel-woman; Tagaroa sleeps with her and she bears Tu-nui-ka-rere (or Ratu-nui) and Turi-a-faumea.",
+          "statement_id": "Di Vahitahi, Tuamotu, Faumea disebut perempuan-belut; Tagaroa tidur bersamanya dan ia melahirkan Tu-nui-ka-rere (atau Ratu-nui) dan Turi-a-faumea.",
+          "quote": "In Vahitahi of the Tuamotus, Faumea is an eel-woman ... Tagaroa sails to the land of Faumea. ... He sleeps with her and she bears Tu-nui-ka-rere (or Ratu-nui) and Turi-a-faumea.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "rongomai",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "b8498228f52aad2e042ff4d31b4a78dea90a1b045f4470229854989a976cce7c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rongomai-c01",
@@ -625,26 +857,31 @@
           "quote": "a meteor or comet, seen in the full light of day when in comparatively recent times, the Ngāti Hau tribe were besieging the fortress named Rangiuru at Ōtaki, occupied by the Ngāti Awa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "rongomai-c06",
+          "source_id": "rongomai-s2",
+          "host": "archive.org",
+          "statement": "In Grey's collection, the women took by stealth the gods of the people, namely Maru, Te Iho-o-te-rangi, Rongomai, Itupawa and Haungaroa; having no canoe, they used these gods as a canoe to cross the sea.",
+          "statement_id": "Dalam kumpulan Grey, para perempuan mengambil secara diam-diam dewa-dewa kaum itu, yaitu Maru, Te Iho-o-te-rangi, Rongomai, Itupawa, dan Haungaroa; karena tanpa kano, dewa-dewa itu berfungsi sebagai kano untuk menyeberangi laut.",
+          "quote": "The women then took by stealth the gods of the people, that is to say, Maru, and Te Iho-o-te-rangi, and Rongomai, and Itupawa, and Haungaroa, and they had no canoe for their journey, but these gods served them as a canoe to cross the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "te-wheke-a-muturangi",
-      "file": "batch-151-fix-2.md",
+      "file": "batch-151-fix-3.md",
+      "entry_sha256": "69f884c06dff34bc61d7a9540bff1457705f95e6a30958205db04901faeb5eba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "te-wheke-a-muturangi-c01",
@@ -673,6 +910,46 @@
           "statement": "Kupe chased the giant octopus across Cook Strait to Tory Channel and cut off its arms with his adze.",
           "statement_id": "Kupe mengejar gurita raksasa tersebut melintasi Cook Strait menuju Tory Channel dan memotong lengannya dengan beliung.",
           "quote": "When Kupe reached New Zealand, he encountered the beast off Castlepoint. The giant octopus then fled across Cook Strait, and was chased by Kupe through Tory Channel. Here a great battle took place, and when the octopus appeared to be about to flee, Kupe cut off its arms with his adze, killing it",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "te-wheke-a-muturangi-c04",
+          "source_id": "te-wheke-a-muturangi-s2",
+          "host": "archive.org",
+          "statement": "In Grey's collection, the great cuttle-fish or dragon that had fled from Castle Point was named by Kupe Te Wheke-a-Muturangi; it had fled to Tory Channel and was lying hid in this part of the current.",
+          "statement_id": "Dalam kumpulan Grey, cumi-cumi besar atau naga yang lari dari Castle Point dinamai Kupe Te Wheke-a-Muturangi; ia lari ke Tory Channel dan bersembunyi di bagian arus itu.",
+          "quote": "The great cuttle-fish or dragon, that had fled from Castle ... Point, which Kupe named Te Wheke-a-Muturangi ... had fled to Tory Channel, and was lying hid in this part of the current.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "te-wheke-a-muturangi-c05",
+          "source_id": "te-wheke-a-muturangi-s2",
+          "host": "archive.org",
+          "statement": "The monster heard the canoe of Kupe approaching and raised its arms above the waters to catch and devour the canoe, men and all.",
+          "statement_id": "Monster itu mendengar kano Kupe mendekat dan mengangkat lengannya dari air untuk menangkap dan melahap kano beserta seluruh awaknya.",
+          "quote": "The monster heard the canoe of Kupe approaching as they were pulling up the current, and raised its arms above the waters to catch and devour the canoe, men and all.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "te-wheke-a-muturangi-c06",
+          "source_id": "te-wheke-a-muturangi-s2",
+          "host": "archive.org",
+          "statement": "Kupe seized an immense hollow calabash and threw it overboard; hardly had it touched the water than the monster flew at it, thinking it was the canoe of Kupe.",
+          "statement_id": "Kupe mengambil sebuah labu besar berongga dan melemparkannya ke laut; begitu menyentuh air, monster itu menyerangnya karena mengira itu kano Kupe.",
+          "quote": "so Kupe seized an immense hollow calabash he had on board to carry his water in, and threw it overboard ; hardly had it touched the water ere the monster flew at it, thinking that it was the canoe of Kupe",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "te-wheke-a-muturangi-c07",
+          "source_id": "te-wheke-a-muturangi-s2",
+          "host": "archive.org",
+          "statement": "Kupe, standing in his canoe in an excellent position to cut it with his axe, struck it a tremendous blow and severed it in two, killing it.",
+          "statement_id": "Kupe, yang berdiri di kanonya dalam posisi yang sangat baik untuk menebas, memukulnya dengan kapak dan membelahnya menjadi dua hingga mati.",
+          "quote": "Kupe, as he stood in his canoe, being in a most excellent position to cut it with his axe, seized the opportunity, and, striking; it a tremendous blow, he severed it in two, and killed it",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -747,7 +1024,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e0f2903ae8ae16c6d6391a9ac16459359dd63c8943b22cac29650101ea66e095"
     },
     {
       "slug": "canterbury-panther",
@@ -807,7 +1085,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3d5edcf99445fcd550f3446bdd64f0652e7efc3651c0b501bad8ea69a8995bb"
     },
     {
       "slug": "faumea",
@@ -867,7 +1146,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a8461cd549424b8a3f3493d85cde49128b46894640e64f612a73be5895842a1c"
     },
     {
       "slug": "hakawai-mythology",
@@ -937,7 +1217,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "733e57793185a63b146942bc539373c9e635c4e3c7024a3473cb4540ac64337e"
     },
     {
       "slug": "hoop-snake",
@@ -997,7 +1278,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5ce32876682d9cc4bebcd3a59d5b9d0fd3da0dc4f661babc3a1155f7b3d7f285"
     },
     {
       "slug": "ipilja-ipilja",
@@ -1067,7 +1349,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ca743a8c0d97b37382f14cc97aebcbdd5ed9d7bc251b2d243ff30187a9d18694"
     },
     {
       "slug": "kaupe",
@@ -1137,7 +1420,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "52cc398cf917ec877defe7c06e0dac66fd89f42ea143e80a96330058679de21b"
     },
     {
       "slug": "kurangaituku",
@@ -1207,7 +1491,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9e2624d077d5c902617c6346e2dca9c075302d322773306378fef92441917308"
     },
     {
       "slug": "minka-bird",
@@ -1257,7 +1542,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1a403f3a8f07747682479a30836703e165888ab91cf42fa136338d973492e407"
     },
     {
       "slug": "muldjewangk",
@@ -1327,7 +1613,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "807a1e85a32f593ca2f0741826499a5b20ae85b3ca7346287f50586e1b250d8f"
     },
     {
       "slug": "nanaue",
@@ -1407,7 +1694,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4b076c3ec79541378bafb48a8955f6be0cde242c4384959b1e5f12dbe08a12a5"
     },
     {
       "slug": "pua-tu-tahi",
@@ -1437,7 +1725,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "00acd388e51c6d4d4f0d3ec56b4d329a6481f448b429277aaa932808bb5262b3"
     },
     {
       "slug": "tamangori",
@@ -1487,7 +1776,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c76dc5027d82a443cf265edaa9d046848f0db785465c3d45081c808b9c5182ec"
     },
     {
       "slug": "tapairu",
@@ -1537,7 +1827,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b0b69b8df3fce0b1131ea911698841e081bed893ddca0c4782f839f249b93b41"
     },
     {
       "slug": "tiddalik",
@@ -1617,7 +1908,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1fbb5987a3515c87a1e8010b0e183f7441d1f30c3b9d49a4cab7eaa9e527c45"
     },
     {
       "slug": "tikokura",
@@ -1677,7 +1969,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0dd809c15b61cc72376a46a234ff806e9a0e270796c9f134265d29162f17b006"
     },
     {
       "slug": "wirnpa",
@@ -1707,7 +2000,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d2dd8fad2f891bcdecad0ef017a50129c5494bd14cfe37db044f32d2e568c9b9"
     },
     {
       "slug": "agunua",
@@ -1767,7 +2061,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c433c69850728cd36c5338d2f938eb26044430636d3b4a2c2252b63818e77bf"
     },
     {
       "slug": "arkaroo",
@@ -1837,7 +2132,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d67e8bb6099c6051b3b54a0f0a0a39a933cd528632366c3c7fefbef2269e4e63"
     },
     {
       "slug": "bamapama",
@@ -1887,7 +2183,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "373a7508c8ea8a9386bb2c84363788232e7e911e318fd06b2d957388975e6bf1"
     },
     {
       "slug": "chinny-kinik",
@@ -1947,7 +2244,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "331d821ada20c3eaf62cb11363d826759aad2558220b114fb5049ad3817b9a56"
     },
     {
       "slug": "garkain",
@@ -2007,7 +2305,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "986260660ac565e862c952b3b890322e29f842fc93a48f5df2ab6bcd9df9a66f"
     },
     {
       "slug": "hauwahine",
@@ -2067,7 +2366,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "078940fbf07c79dca7ef7a77d054f2ef42929bc692d823590da03d6968997ff6"
     },
     {
       "slug": "kinie-ger",
@@ -2127,7 +2427,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac26e0e4597c7b458c8592af162bc1f08367a0f0bc2de17bdb5aa54f2a45340c"
     },
     {
       "slug": "mungoon-gali",
@@ -2187,7 +2488,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "70ba2a7d430c201902370a6f99b313eb470e09c92339f8b567afa3f63d61f58f"
     },
     {
       "slug": "negunung",
@@ -2217,7 +2519,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a4f0bc4c6a5ba24fc16ef1019e1922fddf94af8a38ad7766d467477468b3241"
     },
     {
       "slug": "ngintaka",
@@ -2305,7 +2608,8 @@
           "wiki_flag": "citation needed"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dd61d93e65161b3d900252328fdaa4f93ccd96dc7724c0a0b3a001dab3a57da5"
     },
     {
       "slug": "oozlum-bird",
@@ -2355,7 +2659,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cb5dc455ceba37affa74ae5c685fbf9997b1d0d13606299565395e72e2e56646"
     },
     {
       "slug": "pie",
@@ -2385,7 +2690,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4184122b06c9e7da0340585d9042d85960da8f6ea1a0a439c18a847793058ba4"
     },
     {
       "slug": "tahiti-tokerau",
@@ -2425,7 +2731,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f909ed18e748225553825894e5b29788b3eed7a0f55b1d1331c7893b6c88550"
     },
     {
       "slug": "thardid-jimbo",
@@ -2455,7 +2762,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0d6a93d8d274ebc53cf9b7b9f7c0f0288fd42a8f137afdce227a8d03b594c576"
     },
     {
       "slug": "thinan-malkia",
@@ -2485,7 +2793,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7c7f78a2fce47f3d645bdd58406f54621be953161a25b6af2e74f0b3b1311590"
     },
     {
       "slug": "tipua",
@@ -2525,7 +2834,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "983d2ebb644408e4c923ba04b621ed8425a97cd0d6c0523c9cc6a1e5e1e7225e"
     },
     {
       "slug": "warraguk",
@@ -2575,7 +2885,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "daf87ad7da4c01a0a0b64f3abcfd51f5d6e249e9ef9b414e1fa21c72575f110e"
     },
     {
       "slug": "wd-q25459605",
@@ -2615,7 +2926,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e5513f20e54703cc6dca8185ee5a4a7321fabe33eed4e072fbe3bc29cb7141da"
     },
     {
       "slug": "whowie",
@@ -2655,7 +2967,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9e4df2cbd7ab1b4cc18d1aeaaec378d3b09c5de03c5fd013d993c1e5f032a36e"
     },
     {
       "slug": "yalungur",
@@ -2685,7 +2998,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9e7aaac2f7ff97a8135d14fb16b5a3fb7281f2f39f58263184279f4c0301a5a4"
     },
     {
       "slug": "yawkyawk",
@@ -2735,7 +3049,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "512e579a1adf7c599834d5ed59b53faa4d1d39442c06a6e5fba540bce634eca8"
     },
     {
       "slug": "yee-na-pah",
@@ -2765,7 +3080,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "591ce66194aec4ae18578626f5283500c31de77590905c3b2ce8d726b4223a02"
     }
   ]
 }
