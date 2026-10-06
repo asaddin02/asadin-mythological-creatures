@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-055",
-  "checked_at": "2026-10-01T07:28:37.351Z",
+  "checked_at": "2026-10-06T15:34:19.040Z",
   "files": [
     "batch-055.md",
     "batch-055-fix-1.md",
-    "batch-055-fix-2.md"
+    "batch-055-fix-2.md",
+    "batch-055-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -81,24 +82,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c16ee687921c8e280619abcaf8d5a102a41b6fc26d3f590e24a8524053bdb96"
     },
     {
       "slug": "kuni-no-satsuchi-no-mikoto",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "99de6f4a5182081401e28e67c386e92e04a614ad9f0c3ce7612b8db75050cb1f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kuni-no-satsuchi-no-mikoto-c01",
@@ -137,6 +134,86 @@
           "statement": "The main account places this male deity after Kuninotokotachi and before Toyokumono.",
           "statement_id": "Kisah utama menempatkan dewa laki-laki ini setelah Kuninotokotachi dan sebelum Toyokumono.",
           "quote": "『日本書紀』本文では、天地開闢の後国常立尊、国狭槌尊が登場し、次に豊斟渟尊が化生したとしており、これらの三柱の神は男神であると記している。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c05",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the first, second and fourth alternate accounts, Kuni no Satsuchi appears after Kuninotokotachi; the other accounts have no name regarded as the same deity, and he does not appear again in the myths of the Nihon Shoki.",
+          "statement_id": "Dalam riwayat pertama, kedua, dan keempat (isshō), Kuni no Satsuchi muncul setelah Kuninotokotachi; riwayat lain tidak memuat nama yang tampak sama, dan sesudah itu ia tidak muncul lagi dalam mitos Nihon Shoki.",
+          "quote": "第一、第二と第四の一書では、国常立尊の次に国狭槌尊が登場し、他の一書には同一神とみられる神名は登場しない。 ... 『日本書紀』にこれ以降、国狭槌尊が神話に登場することはない。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c06",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name \"Satsuchi\" may be read as \"sa\" (sacred rice) and \"tsuchi\" (earth), that is, the soil in which sacred rice is planted.",
+          "statement_id": "Nama \"Satsuchi\" mungkin dapat dipahami sebagai \"sa\" (padi suci) dan \"tsuchi\" (tanah), yakni tanah tempat padi suci ditanam.",
+          "quote": "神名「サツチ」の「サ」は神稲、「ツチ」は土、即ち神稲を植える土の意か。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c07",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Kojiki has Ame no Satsuchi and Kuni no Satsuchi as children of Ōyamatsumi, but neither is counted among the Seven Generations of the Age of Gods.",
+          "statement_id": "Kojiki memuat Ame no Satsuchi dan Kuni no Satsuchi sebagai anak Ōyamatsumi, tetapi keduanya tidak dihitung dalam Tujuh Generasi Zaman Dewa.",
+          "quote": "『古事記』には大山津見神の子に天之狭土神・国之狭土神がいるが、どちらも神代七代に数えられていない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c08",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The deity is enshrined at, among others, Kumano Hayatama Taisha in Wakayama, Naemura Shrine in Shiga (main deity) and Kunisatsuchi Shrine in Shiga (main deity).",
+          "statement_id": "Dewa ini dipuja antara lain di Kumano Hayatama Taisha (Wakayama), Naemura Jinja (Shiga; dewa utama), dan Kunisatsuchi Jinja (Shiga; dewa utama).",
+          "quote": "熊野速玉大社（和歌山県新宮市新宮）‐一万宮祭神 苗村神社（滋賀県蒲生郡竜王町）‐主祭神 国狭槌神社（滋賀県高島市）‐主祭神",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c09",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Kokugakuin University Kojiki database, in the Nihon Shoki traditions Kuni no Satsuchi appears as the second deity after Kuninotokotachi among the first three deities to arise; one interpretation takes the name to mean an elder deity who manages all paddy-rice cultivation.",
+          "statement_id": "Menurut basis data Kojiki Universitas Kokugakuin, dalam berbagai riwayat Nihon Shoki Kuni no Satsuchi tampil sebagai dewa kedua setelah Kuninotokotachi di antara tiga dewa yang pertama muncul; satu tafsir memahaminya sebagai dewa sesepuh yang mengatur seluruh budi daya padi sawah.",
+          "quote": "『日本書紀』の諸伝には、天地開闢で初めて生じた三神の内、国常立尊に次ぐ第二神として、類似の名を持つ「国狭槌尊（くにのさつちのみこと）」が登場する。この神に関する説としては、サを神稲、ツを助詞、チを生活や社会に必要な品々に関する経済活動を掌握する長老を表わす語と取り、水稲耕作の一切を掌握管理する長老の神と解する説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c10",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s3",
+          "host": "en.wikisource.org",
+          "statement": "In Aston's translation of the Nihongi, Kuni no sa-tsuchi no Mikoto comes next, then Toyo-kumu-nu, three deities in all.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, Kuni no sa-tsuchi no Mikoto muncul berikutnya, lalu Toyo-kumu-nu; seluruhnya tiga dewa.",
+          "quote": "Next there was Kuni no sa-tsuchi no Mikoto, and next Toyo-kumu-nu no Mikoto, in all three deities.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c11",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s3",
+          "host": "en.wikisource.org",
+          "statement": "In one of the alternate accounts of the Nihongi, this deity is also called Kuni no sa-tachi no Mikoto.",
+          "statement_id": "Dalam salah satu riwayat tambahan Nihongi, dewa ini juga disebut Kuni no sa-tachi no Mikoto.",
+          "quote": "Next there was Kuni no sa-tsuchi no Mikoto, also called Kuni no sa-tachi no Mikoto.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuni-no-satsuchi-no-mikoto-c12",
+          "source_id": "kuni-no-satsuchi-no-mikoto-s3",
+          "host": "en.wikisource.org",
+          "statement": "One alternate account in the Nihongi says the deities were produced together: first Kuni-no-toko-tachi, then Kuni no sa-tsuchi.",
+          "statement_id": "Satu riwayat tambahan Nihongi menyebut para dewa itu dihasilkan bersama-sama: pertama Kuni-no-toko-tachi, lalu Kuni no sa-tsuchi.",
+          "quote": "When Heaven and Earth began, there were Deities produced together, whose names were, first, Kuni-no-toko-tachi no Mikoto, and next Kuni no sa-tsuchi no Mikoto.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -215,7 +292,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a16e2cc48856b6ed09ebe7c8e72cf368b13839f460ff33c374857ea60ddf0492"
     },
     {
       "slug": "makuragaeshi",
@@ -289,24 +367,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e1ff4121a849e13d0f34a8dca0758e3b42921e0ea9e6af0d6c278e8927a3e238"
     },
     {
       "slug": "miage-nyudo",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "6ac746251cd12ccfaf847c2a84729985fd1bb2d29f569a1d49ff0900dc2b83f1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "miage-nyudo-c01",
@@ -344,9 +418,9 @@
           "host": "en.wikipedia.org",
           "statement": "A formula declaring that its trick has been seen through is said to dispel it.",
           "statement_id": "Ucapan bahwa tipuannya telah diketahui konon mengusirnya.",
-          "quote": "It is said that by chanting \"miage-nyūdō, I've seen past you (見上入道、見越した)\" and lying down forwards, it would disappear.",
+          "quote": "It is said that by chanting \"miage-nyūdō, I've seen past you (見上入道、見越した )\" and lying down forwards, it would disappear.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "miage-nyudo-c05",
@@ -365,6 +439,86 @@
           "statement": "An Utami account associates it with a stone that changes form.",
           "statement_id": "Kisah Utami mengaitkannya dengan batu yang berubah wujud.",
           "quote": "In Utami, Ryōtsu (now a part of Sado), it is said that they are in places where trees grow thickly and is dim even at noon, and that a large stone called the \"miage-ishi (見上石, look up stone)\" has shapeshifted into a nyūdō.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c07",
+          "source_id": "miage-nyudo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one account a traveler chanted the \"I've seen past you\" formula and struck the figure with a rod, and it vanished; after a jizō was deified above the rock, the nyūdō no longer appeared.",
+          "statement_id": "Menurut satu kisah, seorang pelancong mengucapkan rumus \"sudah kulihat tipumu\" sambil memukul sosok itu dengan tongkat sehingga ia lenyap; setelah sebuah jizō dipuja di atas batu itu, nyūdō tersebut tidak muncul lagi.",
+          "quote": "Once, a traveler met this, and by chanting \"miage-nyūdō, I've seen past you\" and striking it with a rod, the nyūdō disappeared. It is said that afterwards, when a jizō was deified above the rock, the nyūdō no longer appeared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c08",
+          "source_id": "miage-nyudo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a legend from Akadomari, a miage-nyūdō that crushed and killed night travelers fell to the bottom of a ravine, was helped on condition that it no longer attack people and stay away from that place, and no longer appeared there.",
+          "statement_id": "Dalam legenda Akadomari, miage-nyūdō yang meremukkan dan membunuh pelancong malam jatuh ke dasar jurang, ditolong dengan syarat tidak menyerang orang lagi dan menjauhi tempat itu, lalu tidak muncul lagi di sana.",
+          "quote": "Also, in a legend of Akadomari (now a part of Sado), Sado District, there was a miage-nyūdō that squashed and killed night travelers, but it once accidentally fell to the bottom of a ravine, and since it was helped by someone under the condition that it would \"no longer attack people\" and to \"stay away from that place,\" it no longer appeared there",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c09",
+          "source_id": "miage-nyudo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Hatano it is said that when someone meeting a miage-nyūdō challenges it by saying the one seen before was much larger, its feet thin out, a violent sound results, and the miage-nyūdō falls down.",
+          "statement_id": "Di Hatano dikatakan bahwa orang yang bertemu miage-nyūdō dan menantangnya dengan mengatakan bahwa yang dulu dilihatnya jauh lebih besar membuat kakinya mengecil, terdengar bunyi keras, lalu miage-nyūdō itu jatuh.",
+          "quote": "In Hatano, Sado District (now a part of Sado), it is said that when those who meet a miage-nyūdō say, \"the miage-nyūdō I saw before was much larger\" and thus challenge it, and since its feet would thus become thinner, a violent sound would result, and the miage-nyūdō would fall down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c10",
+          "source_id": "miage-nyudo-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com lists miage nyūdō among the alternate names of the mikoshi nyūdō, \"anticipating priest\".",
+          "statement_id": "Yokai.com mencantumkan miage nyūdō di antara nama lain mikoshi nyūdō, \"pendeta yang mengantisipasi\".",
+          "quote": "Mikoshi nyūdō 見越入道 みこしにゅうどう Translation: anticipating priest Alternate names: mikoshi, miage nyūdō, taka bōzu",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c11",
+          "source_id": "miage-nyudo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, as soon as a person looks up at a mikoshi nyūdō, the giant grows as tall as the observer can raise his eyes, and just as fast.",
+          "statement_id": "Menurut Yokai.com, begitu orang menengadah pada mikoshi nyūdō, raksasa itu tumbuh setinggi pandangan si pengamat dan secepat itu pula.",
+          "quote": "As soon as a person raises his eyes to look upon a mikoshi nyūdō, the giant grows to an immense height—as tall the observer is able to raise his eyes, and just as fast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c12",
+          "source_id": "miage-nyudo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, looking at a mikoshi nyūdō from its head down to its feet instead of from the feet up saps the giant's power to grow.",
+          "statement_id": "Menurut Yokai.com, jika orang memandang mikoshi nyūdō dari kepala ke kaki alih-alih dari kaki ke atas, kemampuan raksasa itu untuk bertambah tinggi akan melemah.",
+          "quote": "Then, look from its head down to its feet, rather than starting at the feet and looking up. If done properly, the giant’s power to grow will be sapped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c13",
+          "source_id": "miage-nyudo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, telling the giant that it lost and its trick was anticipated makes it vanish in anger, leaving the traveler to pass safely.",
+          "statement_id": "Menurut Yokai.com, mengatakan kepada raksasa itu bahwa ia kalah dan tipunya sudah diantisipasi membuatnya lenyap dengan marah sehingga pelancong dapat lewat dengan selamat.",
+          "quote": "Telling the giant, “You lost! I anticipated your trick!” causes it to vanish in anger, leaving the traveler to pass safely along.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miage-nyudo-c14",
+          "source_id": "miage-nyudo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the mikoshi nyūdō form is popular with shape-shifting animals; itachi and tanuki are said to turn into these giants to hunt humans.",
+          "statement_id": "Menurut Yokai.com, wujud mikoshi nyūdō populer bagi hewan pengubah wujud; itachi dan tanuki disebut berubah menjadi raksasa ini untuk memburu manusia.",
+          "quote": "Mikoshi nyūdō is a popular form of some shape-shifting animals. In particular, itachi and tanuki transform into these giants in order to hunt humans.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -453,7 +607,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b80508ff3a62c4d76b6b56f5f44fc4c9d9c08eb627a37bd7a7a684a0c492bc3d"
     },
     {
       "slug": "nakisawame",
@@ -527,7 +682,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f286333fb9ae34842f53d08866829bd09a30e2ca94522989290dbcbae9d299c8"
     },
     {
       "slug": "narigama",
@@ -607,24 +763,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5a921a14354b5083e8d491fd7b7cc9f9b57e4ef6e1b32c6d0d3f277004934178"
     },
     {
       "slug": "nigihayahi",
-      "file": "batch-055-fix-1.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "051e0698232706219462424e39df1132bc11c96f21d553ee4063532f9408b3f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nigihayahi-c01",
@@ -684,6 +836,136 @@
           "statement_id": "Kojiki justru memakai nama istri Tomiyahime.",
           "quote": "In the Kojiki, Nigihayahi marries Tomiyahime instead.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c07",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Kokugakuin University Kojiki database synopsis, he came to earth following the descent of the heavenly deity's child, presented the \"amatsu-mizu\" (天津瑞, heavenly tokens) to Kamuyamato Iwarehiko (Jinmu), who had reached Yamato in the eastern expedition, and served him.",
+          "statement_id": "Menurut ringkasan basis data Kojiki Universitas Kokugakuin, ia datang ke bumi menyusul turunnya putra dewa langit, lalu mempersembahkan \"amatsu-mizu\" (天津瑞, pertanda langit) kepada Kamuyamato Iwarehiko (Jinmu) yang telah tiba di Yamato dalam ekspedisi timur dan mengabdi kepadanya.",
+          "quote": "天つ神の御子の天降りを追って地上にやってきて、東征で大和に至っていた神倭伊波礼毘古命（神武天皇）に天津瑞を献上してそのもとに仕えた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c08",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In that synopsis he takes as wife Tomiyabime, younger sister of Tomibiko who fought Kamuyamato Iwarehiko; from them was born Umashimaji, ancestor of the Mononobe no Muraji, Hozumi no Omi and Unemeno-omi.",
+          "statement_id": "Dalam ringkasan itu ia memperistri Tomiyabime, adik Tomibiko yang melawan Kamuyamato Iwarehiko; dari mereka lahir Umashimaji, leluhur Mononobe no Muraji, Hozumi no Omi, dan Unemenoomi.",
+          "quote": "神倭伊波礼毘古命と戦った登美毘古の妹である登美夜毘売を妻とし、その間に宇麻志麻遅命（物部連・穂積臣・婇臣らの祖）が生まれている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c09",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the name, \"nigi\" is taken as abundant, \"haya\" as swift and vigorous, and \"hi\" as spiritual power.",
+          "statement_id": "Dalam nama itu, \"nigi\" dipahami sebagai makmur, \"haya\" sebagai cepat dan bertenaga, dan \"hi\" sebagai kekuatan rohani.",
+          "quote": "神名のニギは「賑」で豊かなさま、ハヤは「速」で勢いの激しいさま、ヒは「霊」で霊力の意とされる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c10",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Nihon Shoki as summarized in that database, Nigihayahi had descended from heaven earlier, married Mikashikiyahime, younger sister of Nagasunehiko, and had a son, Umashimade.",
+          "statement_id": "Menurut Nihon Shoki sebagaimana dirangkum basis data itu, Nigihayahi sudah lebih dulu turun dari langit, menikahi Mikashikiyahime, adik Nagasunehiko, dan mempunyai putra Umashimade.",
+          "quote": "『日本書紀』の記事によると、饒速日命は、夙に天から降りて、長髄彦（ながすねびこ）の妹の三炊屋媛（みかしきやひめ）と結婚し、子に可美真手命（うましまでのみこと）を儲けていた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c11",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Nihon Shoki as summarized in that database, Nigihayahi saw Nagasunehiko's perverse nature, killed him, and led his army in submission to Kamuyamato Iwarehiko.",
+          "statement_id": "Menurut Nihon Shoki sebagaimana dirangkum basis data itu, Nigihayahi menilai sifat Nagasunehiko menyimpang, membunuhnya, lalu memimpin pasukannya tunduk kepada Kamuyamato Iwarehiko.",
+          "quote": "『日本書紀』の記事によると、饒速日命は、夙に天から降りて、長髄彦（ながすねびこ）の妹の三炊屋媛（みかしきやひめ）と結婚し ... 長髄彦の邪な性質を看取したため、彼を殺し、彼の軍勢を率いて神日本磐余彦尊に帰順した、という。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c12",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the Sendai Kuji Hongi he appears under the name Amateru Kuniteru Hiko Ame no Hoakari Kushitama Nigihayahi no Mikoto; his origin and deeds are identified with those of Ame no Hoakari in the Kojiki and Nihon Shoki, and he is made a son of Ame no Oshihomimi and elder brother of Ninigi.",
+          "statement_id": "Dalam Sendai Kuji Hongi ia muncul dengan nama Amateru Kuniteru Hiko Ame no Hoakari Kushitama Nigihayahi no Mikoto; asal-usul dan perbuatannya disamakan dengan Ame no Hoakari dalam Kojiki dan Nihon Shoki, dan ia disebut putra Ame no Oshihomimi serta kakak Ninigi.",
+          "quote": "『先代旧事本紀』では、「天照国照彦天火明櫛玉饒速日尊」という神名で登場するが、出自や事跡が記紀の天火明命と同一視され、天押穂耳尊の子で瓊々杵尊の兄に当たる神とされている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c13",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Nigihayahi tradition is often interpreted as reflecting a time when the Mononobe, as rulers of Yamato preceding the emperor, were hostile to him, and as a claim that the Mononobe origin was not inferior to the emperor's.",
+          "statement_id": "Tradisi Nigihayahi sering ditafsirkan sebagai cerminan masa ketika klan Mononobe, sebagai penguasa Yamato yang mendahului kaisar, memusuhi kaisar, dan sebagai klaim bahwa asal-usul Mononobe tidak lebih rendah dari kaisar.",
+          "quote": "邇芸速日命伝承は、物部氏が天皇に先行する大和の支配者としてある時期まで天皇と敵対していた歴史の反映で、物部氏の出自が天皇に劣らないことを主張した伝承と解釈されることが多い。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c14",
+          "source_id": "nigihayahi-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "A counter-view holds that it is merely a clan tradition about descending to help the imperial house, made to raise the clan's standing at court, and should not be seen as reflecting historical fact.",
+          "statement_id": "Kritik lain menyatakan tradisi itu hanyalah kisah klan tentang turun untuk membantu keluarga kekaisaran dan dibuat untuk mengangkat kedudukan klan di istana, sehingga tidak boleh dipandang sebagai cerminan fakta sejarah.",
+          "quote": "一方、飽くまで、天孫降臨神話に見られる諸氏族の始祖神の降臨と同じく、天皇家を助けるために降臨したことを物語った氏族伝承であるとして、天皇との結びつきを示すことで自氏の宮廷内の地位を高めるために成立したに過ぎず、歴史的事実の反映と見るべきではないとする批判もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c15",
+          "source_id": "nigihayahi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In Aston's translation of the Nihongi, Naga-sune-hiko describes Kushi-dama Nigi-haya-hi no Mikoto as a child of the Heavenly Deity who came down here riding in a Rock-boat of Heaven.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, Nagasunehiko menyebut Kushi-dama Nigi-haya-hi no Mikoto sebagai putra Dewa Langit yang turun ke sini menaiki perahu batu langit.",
+          "quote": "Naga-sune-hiko sent a foot-messenger, who addressed the Emperor, saying: ... Heavenly Deity, who came down from Heaven to dwell here, riding in a Rock-boat of Heaven. His name was Kushi-dama Nigi-haya-hi no Mikoto.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c16",
+          "source_id": "nigihayahi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Nihongi, Nigi-haya-hi took to wife Mi-kashiki-ya-bime, the younger sister of Naga-sune-hiko, who is also called Naga-sune-hime or Tomi-ya-hime, and they had a child, Umashi-ma-te.",
+          "statement_id": "Dalam Nihongi, Nigi-haya-hi memperistri adik perempuan Naga-sune-hiko, Mi-kashiki-ya-bime, yang juga disebut Naga-sune-hime atau Tomi-ya-hime, dan mereka mempunyai putra Umashi-ma-te.",
+          "quote": "Naga-sune-hiko sent a foot-messenger, who addressed the Emperor, saying: ... His name was Kushi-dama Nigi-haya-hi no Mikoto. He took to wife my younger sister ... Mi-kashiki-ya-bime [also called Naga-sune-hime, or Tomi-ya-hime] of whom he at length had a child, named Umashi-ma-te no Mikoto.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c17",
+          "source_id": "nigihayahi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In Aston's translation, Nigi-haya-hi knew the Heavenly Deity had bestowed the Empire on the Heavenly Grandchild and judged it useless to instruct Naga-sune, so he put him to death and came with his army to make submission.",
+          "statement_id": "Dalam terjemahan Aston, Nigi-haya-hi mengetahui bahwa Dewa Langit telah menyerahkan kekaisaran kepada Cucu Langit dan menilai Naga-sune tidak dapat diajari, lalu membunuhnya dan datang bersama pasukannya untuk tunduk.",
+          "quote": "Nigi-haya-hi no Mikoto, knowing from the first that the Heavenly Deity had simply generously bestowed the Empire on the Heavenly Grandchild, and that in view of the perverse disposition of Naga-sune it would be useless to instruct him ... put him to death. He then came with his army and made submission.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c18",
+          "source_id": "nigihayahi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Nihongi, the Emperor praised Nigi-haya-hi and was gracious to him for his faithful service, and he is called the ancestor of the Mono no Be House.",
+          "statement_id": "Dalam Nihongi, kaisar memuji dan bersikap ramah kepada Nigi-haya-hi atas pengabdiannya, dan ia disebut leluhur Wangsa Mono no Be.",
+          "quote": "The Emperor, who from the first had heard that Nigi-haya-hi no Mikoto had come down from Heaven, finding that he now had actually performed faithful service, accordingly praised him, and was gracious to him. He was the ancestor of the Mono no Be House.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nigihayahi-c19",
+          "source_id": "nigihayahi-s3",
+          "host": "en.wikisource.org",
+          "statement": "Aston's footnote glosses Nigi-haya-hi as \"soft-swift-sun\".",
+          "statement_id": "Catatan kaki Aston menerjemahkan Nigi-haya-hi sebagai \"matahari lembut-cepat\".",
+          "quote": "Nigi-haya-hi means soft-swift-sun.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -761,24 +1043,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "edc05e8047e58362572255c3aae6892d1653ef60bdef2a717ead2f421ff1169f"
     },
     {
       "slug": "nunakawa-hime",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "4bca9f44529856f8ce2b7a3e2dd3db9e4b83f715d8809ac1658488d036b9dcd3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nunakawa-hime-c01",
@@ -786,9 +1064,9 @@
           "host": "en.wikipedia.org",
           "statement": "Nunakawahime is a Shinto goddess and spouse of Ōkuninushi.",
           "statement_id": "Nunakawahime adalah dewi Shinto dan istri Ōkuninushi.",
-          "quote": "Nunakawahime (Japanese: 沼河日売) is a female Japanese deity (kami) in Shinto and spouse to Ōkuninushi.",
+          "quote": "Nunakawahime (Japanese: 沼河日売 ) is a female Japanese deity (kami) in Shinto and spouse to Ōkuninushi.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "nunakawa-hime-c02",
@@ -796,9 +1074,9 @@
           "host": "en.wikipedia.org",
           "statement": "Her name is written 沼河日売 in Japanese.",
           "statement_id": "Namanya ditulis 沼河日売 dalam bahasa Jepang.",
-          "quote": "Nunakawahime (Japanese: 沼河日売) is a female Japanese deity (kami) in Shinto and spouse to Ōkuninushi.",
+          "quote": "Nunakawahime (Japanese: 沼河日売 ) is a female Japanese deity (kami) in Shinto and spouse to Ōkuninushi.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "nunakawa-hime-c03",
@@ -819,33 +1097,118 @@
           "quote": "She returned the song, and the two were married the next day.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c05",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Kokugakuin University Kojiki database synopsis, she was a deity of the land of Koshi who was courted by Yachihoko (Ōkuninushi) and became his wife; Yachihoko sent a courtship song to her house, she replied from inside the door, and they married the next night.",
+          "statement_id": "Menurut ringkasan basis data Kojiki Universitas Kokugakuin, ia adalah dewi dari negeri Koshi yang dilamar Yachihoko (Ōkuninushi) dan menjadi istrinya; Yachihoko mengirim lagu lamaran ke rumahnya, ia membalas dari balik pintu, dan mereka menikah pada malam berikutnya.",
+          "quote": "高志国にいた神で、八千矛神（大国主神）に求婚され、その妻となった。八千矛神がその家に到って求婚の歌を贈ると、戸の内から返歌をして、翌日の夜に結婚した。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c06",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the name Nunakawa, \"nu\" is taken to mean jewel, so Nunakawa is thought to mean a river that produces jewels.",
+          "statement_id": "Dalam nama Nunakawa, \"nu\" dipahami sebagai permata, sehingga Nunakawa dianggap berarti sungai penghasil permata.",
+          "quote": "ヌナカハのヌは玉の意とされ、 ... ヌナカハとは、玉を産出する川の意と考えられている（ナは連体助詞）。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c07",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because the Nunakawa district is a source of jade, some interpretations see Nunakawahime as chief of the jewel-making group there or as a queen controlling the jade of Koshi.",
+          "statement_id": "Karena Nunakawa-gō adalah daerah asal batu giok, ada tafsir yang memandang Nunakawahime sebagai kepala kelompok pembuat permata di sana atau ratu yang menguasai giok negeri Koshi.",
+          "quote": "翡翠の原産地という沼川郷の地理的な特質から、沼河比売の性格は、その地の玉作り集団の首長とする説や、越国の翡翠を支配する女王と捉える説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c08",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kojiki records no descendants, but the later Sendai Kuji Hongi records an alternate tradition that she bore Takeminakata, deity of Suwa Shrine, to Ōkuninushi.",
+          "statement_id": "Kojiki tidak mencatat keturunannya, tetapi Sendai Kuji Hongi yang lebih muda mencatat versi lain bahwa ia melahirkan Takeminakata, dewa Kuil Suwa, dari Ōkuninushi.",
+          "quote": "なお、『古事記』には子孫の記述がないが、時代の降る『先代旧事本紀』には、沼河比売が大国主神との間に、諏訪神社の祭神、建御名方神を生んだという異伝が記されている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c09",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the Izumo no Kuni Fudoki, entry for Mihogō in Shimane District, the great god who made the world married Nunagiwahime, grandchild of the Koshi deity Okitsukushii, and bore Mihosusumi.",
+          "statement_id": "Dalam Izumo no Kuni Fudoki, bagian Mihogō, Distrik Shimane, sang dewa pencipta dunia menikahi Nunagiwahime, cucu dewa Okitsukushii dari negeri Koshi, dan melahirkan Mihosusumi.",
+          "quote": "『出雲国風土記』島根郡美保郷の条には、天の下造らしし大神の命が、高志の国に坐す神「意支都久辰為（おきつくしゐ）命」の子「俾都久辰為（へつくしゐ）命」の子「奴奈宜波比売（ぬながはひめ）命」と婚して「御穂須々美（みほすすみ）命」を生んだとある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c10",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Koshi (Koshi no kuni), where Nunakawahime lived, is the pre-division name of a wide Hokuriku area covering Echizen, Etchū and Echigo.",
+          "statement_id": "Koshi (Koshi no kuni) tempat Nunakawahime tinggal adalah nama lama wilayah Hokuriku yang luas sebelum dibagi menjadi Echizen, Etchū, dan Echigo.",
+          "quote": "沼河比売が居た「高志国」（越国）は、北陸地方の広域にわたる、越前・越中・越後の分割前の国名である。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c11",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Around present-day Itoigawa, shrines bearing the name Nunakawa and shrines enshrining Nunakawahime are spread widely, and various traditions about her are still handed down.",
+          "statement_id": "Di sekitar Itoigawa sekarang, kuil bernama Nunakawa dan kuil yang memuja Nunakawahime tersebar di banyak tempat, dan berbagai tradisi tentangnya masih diwariskan.",
+          "quote": "現・糸魚川市あたりには、ヌナカハとつく神社や沼河比売を祭る神社が随所に分布し、沼河比売にまつわる伝承も今日まで様々伝わっている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c12",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The story of an Izumo deity marrying Nunakawahime of Koshi is regarded as based on a regional connection between ancient Izumo and Koshi.",
+          "statement_id": "Kisah dewa Izumo yang menikahi Nunakawahime dari Koshi dianggap berlandaskan hubungan kewilayahan Izumo kuno dengan Koshi.",
+          "quote": "『古事記』『出雲国風土記』の沼河比売の神話で、出雲の神が越の沼河比売と結婚するという内容は、古代の出雲と越との間に地域的な結びつきがあったことが基盤になっているとされる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nunakawa-hime-c13",
+          "source_id": "nunakawa-hime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because the names of Nunagiwahime's ancestral deities, Okitsu and Hetsu, mean \"of the offing\" and \"of the seashore\" and are thought to be sea deities, some interpretations see her as a daughter of a sea deity.",
+          "statement_id": "Karena nama leluhur Nunagiwahime, Okitsu dan Hetsu, berarti \"di laut\" dan \"di tepi laut\" dan dianggap dewa laut, ada tafsir yang memandangnya putri dewa laut.",
+          "quote": "奴奈宜波比売命の祖神の神名のオキツ・ヘツは「沖の」「海辺の」の意で、海神と考えられ、これによって沼河比売を海神の娘と捉える説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "okuri-suzume",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "4017bf0b4a8a3bbfee77cc27146781d2d3572158db22efacc30a1246b9c63fe1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "okuri-suzume-c01",
           "source_id": "okuri-suzume-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Okuri-suzume is a yōkai known in Wakayama and Nara.",
-          "statement_id": "Okuri-suzume adalah yōkai yang dikenal di Wakayama dan Nara.",
+          "statement": "Okuri-suzume is a yōkai known in Wakayama Prefecture and in Higashiyoshino Village, Yoshino District, Nara Prefecture.",
+          "statement_id": "Okuri-suzume adalah yōkai yang dikisahkan di Prefektur Wakayama dan di Desa Higashiyoshino, Distrik Yoshino, Prefektur Nara.",
           "quote": "送り雀（おくりすずめ）は、和歌山県や奈良県吉野郡東吉野村に伝わる妖怪。和歌山では雀送り（すずめおくり）ともいう。",
           "context": "traditional-belief",
           "status": "exact"
@@ -879,26 +1242,101 @@
           "quote": "この鳴き声の後にはオオカミ、もしくは妖怪・送り狼が現れるといい、道で転倒するとすぐにそれらに襲撃されてしまうため、送り雀の鳴き声を聞いた者は、転ばないよう足元に注意を払いつつ歩いたという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c05",
+          "source_id": "okuri-suzume-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "As the name suggests it is said to be bird-shaped, yet no one has seen its form; some say its true identity is the aoji (a real bird), others note it flies at night and so differs from the aoji, and in some regions it is said to be a hare.",
+          "statement_id": "Sesuai namanya ia dianggap berwujud burung, tetapi tak seorang pun pernah melihat wujudnya; ada yang menyebut wujud aslinya aoji (burung nyata), ada yang menunjuk bahwa ia terbang malam sehingga berbeda dari aoji, dan di sebagian daerah dikatakan sebenarnya kelinci.",
+          "quote": "雀の名の通り、鳥の姿だとされるが、その姿を見た者は誰もいない。前述のアオジが送り雀の正体ともいうが、夜に飛ぶためにアオジとは違うとの指摘もあり、実は兎だという地域もある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c06",
+          "source_id": "okuri-suzume-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A similar yōkai is the yosuzume (\"night sparrow\"); in Nara the yosuzume is sometimes identified with the okuri-suzume.",
+          "statement_id": "Yōkai serupa adalah yosuzume (\"burung pipit malam\"); di Nara, yosuzume kadang disamakan dengan okuri-suzume.",
+          "quote": "また、これと似た妖怪に「夜雀」があり、奈良では夜雀が送り雀と同一視されることもある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c07",
+          "source_id": "okuri-suzume-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is also said to come near when someone walks at night carrying a lantern, and in Wakayama it often appeared on Mount Myōhō.",
+          "statement_id": "Dikatakan ia mendekat ketika orang berjalan dengan lentera di malam hari, dan di Wakayama sering muncul di Gunung Myōhō.",
+          "quote": "夜に提灯を灯して歩いていると、寄って来るともいう。和歌山では妙法山によく現れたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c08",
+          "source_id": "okuri-suzume-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A summary in the Nichibunken yōkai tradition database for a case in Nara Prefecture (Gojō, Ōto) says there was a \"night sparrow\" that chirped \"chitchi, chitchi\" at night and followed people, and the teller had heard it called okuri-suzume.",
+          "statement_id": "Ringkasan dalam basis data tradisi yōkai Nichibunken untuk kasus di Prefektur Nara (Gojō, Ōto) menyebut ada \"yosuzume\" yang berkicau \"chitchi, chitchi\" di malam hari dan mengikuti orang, dan si pencerita pernah mendengar itu disebut okuri-suzume.",
+          "quote": "地域（都道府県名） 奈良県 ■ 地域（市・郡名） 五條市 ■ 地域（区町村名） 大塔町 ■ 要約 夜雀というのがいた。夜に、ちっち、ちっちと鳴き、ついて来た。それが送り雀だということを聞いたことがある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c09",
+          "source_id": "okuri-suzume-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "One summary in the Nichibunken database says the okuri-suzume follows at dusk chirping \"chinchin\" but does no harm.",
+          "statement_id": "Satu ringkasan dalam basis data Nichibunken menyebut okuri-suzume mengikuti sambil berkicau \"chinchin\" menjelang malam tetapi tidak berbuat jahat.",
+          "quote": "晩方、送り雀がチンチンと鳴き声をさせてついてくるが、悪いことはしない。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c10",
+          "source_id": "okuri-suzume-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "One summary in the Nichibunken database says the okuri-suzume flies back and forth on night mountain paths chirping, but since it flies at night it is said not to be a bird; its call is said to signal that an okuri-ōkami is following.",
+          "statement_id": "Satu ringkasan dalam basis data Nichibunken menyebut okuri-suzume terbang bolak-balik di jalan gunung malam hari sambil berkicau, tetapi karena terbang malam ia disebut bukan burung; kicauannya dikatakan pertanda okuri-ōkami (serigala pengantar) ada di dekat.",
+          "quote": "オクリスズメは夜の山道でちちちちと啼きながら後先を飛ぶ小鳥であるといわれているが、夜に飛ぶので鳥ではない。送雀が鳴くと送狼がついているしらせだといわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c11",
+          "source_id": "okuri-suzume-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "One summary in the Nichibunken database says someone walking at night with a lantern hears chirping \"chi, chi, chi\" but no one has seen its form; some say a hare, others the aoji, and it is thought not to be a bird.",
+          "statement_id": "Satu ringkasan dalam basis data Nichibunken menyebut orang berjalan malam dengan lentera mendengar kicauan \"chi, chi, chi\" tetapi tak seorang pun melihat wujudnya; ada yang bilang kelinci, ada yang bilang aoji, dan ada yang menganggapnya bukan burung.",
+          "quote": "夜、提灯を持って歩くと、チ、チ、チ、と送雀の鳴き声がきこえるが、その姿を見た人はいない。兎だともいう。又、あおじだという人もいるが、鳥ではないらしい。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-suzume-c12",
+          "source_id": "okuri-suzume-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "One summary in the Nichibunken database says the okuri-suzume follows chirping as one walks a mountain path at night, no one has seen its form, and when it follows, wolves are said to follow too.",
+          "statement_id": "Satu ringkasan dalam basis data Nichibunken menyebut okuri-suzume mengikuti sambil berkicau saat orang berjalan di jalan gunung malam, tak seorang pun melihat wujudnya, dan bila ia mengikuti, serigala ikut mengikuti.",
+          "quote": "送り雀は夜に山道を歩いているとチンチンと鳴きながらあとをつけてくるが、誰も姿を見たことはない。送り雀がついてくると、狼も一緒についてくるといわれている。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "omizunu",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "b1fe80a389e4103b11f963d4b8674e30a8a869c8219499800895433727a4e4b4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "omizunu-c01",
@@ -906,9 +1344,9 @@
           "host": "en.wikipedia.org",
           "statement": "Omizunu is a Japanese deity in the Izumo Fudoki.",
           "statement_id": "Omizunu adalah dewa Jepang dalam Izumo Fudoki.",
-          "quote": "Omizunu (Japanese: 淤美豆奴神, Hepburn: Omizunu no Kami) is a Japanese deity (kami) who appears in the Izumo Fudoki where he expands Izumo Province.",
+          "quote": "Omizunu (Japanese: 淤美豆奴神 , Hepburn: Omizunu no Kami) is a Japanese deity (kami) who appears in the Izumo Fudoki where he expands Izumo Province.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "omizunu-c02",
@@ -916,9 +1354,9 @@
           "host": "en.wikipedia.org",
           "statement": "The narrative has him expand Izumo Province.",
           "statement_id": "Narasi menyebutnya memperluas Provinsi Izumo.",
-          "quote": "Omizunu (Japanese: 淤美豆奴神, Hepburn: Omizunu no Kami) is a Japanese deity (kami) who appears in the Izumo Fudoki where he expands Izumo Province.",
+          "quote": "Omizunu (Japanese: 淤美豆奴神 , Hepburn: Omizunu no Kami) is a Japanese deity (kami) who appears in the Izumo Fudoki where he expands Izumo Province.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "omizunu-c03",
@@ -939,26 +1377,71 @@
           "quote": "He is descended from Susanoo, is son of Fukabuchi-no-Mizuyarehana and Ame-no-Tsudohechine, and married to Futemimi with whom he sires Ame-no-Fuyukinu.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "omizunu-c05",
+          "source_id": "omizunu-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the Kokugakuin University Kojiki database synopsis, he appears in the genealogy of Susanoo: a deity born when Fukabuchi-no-Mizuyarehana married Ame-no-Tsudohechine, and he married Futemimi, daughter of Funozunu, and begot Ame-no-Fuyukinu.",
+          "statement_id": "Menurut ringkasan basis data Kojiki Universitas Kokugakuin, ia muncul dalam silsilah Susanoo: dewa yang lahir dari Fukabuchi-no-Mizuyarehana yang menikahi Ame-no-Tsudohechine, dan ia menikahi Futemimi, putri Funozunu, lalu melahirkan Ame-no-Fuyukinu.",
+          "quote": "須佐之男命の系譜中に見える。深淵之水夜礼花神が天之都度閉知泥神を娶って生んだ神。布怒豆怒神の娘の布帝耳神を娶って、天之冬衣神を生んだ。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "omizunu-c06",
+          "source_id": "omizunu-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Because he belongs to a lineage of water-related deities, his name is explained through water, and one view takes it to mean \"great water lord\".",
+          "statement_id": "Karena ia termasuk silsilah dewa yang berkaitan dengan air, namanya dijelaskan lewat air, dan ada tafsir yang memahaminya sebagai \"penguasa air besar\".",
+          "quote": "淤美豆奴神は、水にちなむ神の系譜に連なっているから、名義も水に関連して説かれ、大水主の意かとする説がある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "omizunu-c07",
+          "source_id": "omizunu-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The related deity in the Izumo no Kuni Fudoki, Yatsukamizu-omitsuno no Mikoto or Omizuno no Mikoto, is the protagonist of the Kunibiki (land-pulling) myth, was worshipped chiefly in Shimane District, and ranks next below the supreme god Ōanamochi.",
+          "statement_id": "Dewa terkait dalam Izumo no Kuni Fudoki, Yatsukamizu-omitsuno no Mikoto atau Omizuno no Mikoto, adalah tokoh utama mitos Kunibiki (menarik daratan), dipuja terutama di Distrik Shimane, dan menempati kedudukan tepat di bawah dewa tertinggi Ōanamochi.",
+          "quote": "関連が説かれている『出雲国風土記』の八束水臣津野命・意美豆努命は、国引き神話の主人公である。この神は、島根郡を中心に信仰された神と把握され、風土記中では「国引き坐しし」神として国土の創造神に位置付けられる事跡が語られており、最高神の「天の下造りましし大神」大穴持命に次ぐ地位を占めている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "omizunu-c08",
+          "source_id": "omizunu-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "If the two deities are regarded as the same, the Fudoki recounts major deeds while the Kojiki gives only the name; one view suggests the deeds were absorbed into Ōkuninushi.",
+          "statement_id": "Jika kedua dewa dianggap sama, Fudoki menceritakan perbuatan penting, sedangkan Kojiki hanya menyebut nama; satu tafsir menduga perbuatan itu diserap oleh Ōkuninushi.",
+          "quote": "これら『古事記』と『出雲国風土記』との神を同神とみると、両書の関係についても問題となる。風土記ではその伝承において重大な事跡が語られているのに対して、『古事記』では名前が挙がるだけでその事跡には触れられていない。この理由について、『古事記』ではその事跡が大国主神に吸収されたためではないかとする説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "omizunu-c09",
+          "source_id": "omizunu-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "For Omitsuno in the Fudoki, views agree it means \"great water lord\", while the preceding \"Yatsukamizu\" has been interpreted in various ways.",
+          "statement_id": "Untuk Omitsuno dalam Fudoki, tafsir sepakat artinya \"penguasa air besar\", sedangkan \"Yatsukamizu\" yang menyertainya ditafsirkan dengan banyak cara.",
+          "quote": "「臣津野」は大水主の意として諸説一致しているが、その修飾語となる「八束水」について様々な見解が提示されている。",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "oni-at-rajomon-gate",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "b40edc1a4624b78b30c05a3b09bdfcc09d8c2d98af20b9bccfe4231b3bcab92f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "oni-at-rajomon-gate-c01",
@@ -1017,6 +1500,66 @@
           "statement": "Their duel ends with Tsuna cutting off the oni’s arm.",
           "statement_id": "Duel mereka berakhir dengan Tsuna memotong lengan oni.",
           "quote": "Tsuna's tachi and the oni's iron rod clashed violent, until finally, Tsuna cut off one of the oni's arm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c07",
+          "source_id": "oni-at-rajomon-gate-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In The Tale of the Heike (Tsurugi no Maki), the story of the oni at Itijō Modoribashi happens at a bridge called Ichijō Modoribashi, and afterward the oni disguised itself as Tsuna's mother and stole the arm.",
+          "statement_id": "Dalam The Tale of the Heike (bagian Tsurugi no Maki), kisah oni di Itijō Modoribashi terjadi di jembatan bernama Ichijō Modoribashi, dan sesudahnya oni itu menyamar sebagai ibu Tsuna lalu mencuri kembali lengannya.",
+          "quote": "In The Tale of the Heike, Tsurugi no Maki, the story about the oni at Itijō Modoribashi happens at a bridge called Ichijō Modoribashi, and afterward, the oni disguised itself as Tsuna's mother and stole the arm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c08",
+          "source_id": "oni-at-rajomon-gate-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of this, the different oni of Rashōmon is often viewed as the same as Ibaraki-dōji.",
+          "statement_id": "Karena itu, oni Rashōmon yang berbeda sering dipandang sama dengan Ibaraki-dōji.",
+          "quote": "Because of this, the different oni, the oni of Rashōmon, is often viewed to be the same as Ibaraki-dōji.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c09",
+          "source_id": "oni-at-rajomon-gate-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, Rashōmon was built in 789 but after the Heian period fell into serious disrepair and became known as an unsavory place.",
+          "statement_id": "Menurut Yokai.com, Rashōmon dibangun pada 789 tetapi setelah zaman Heian rusak parah dan dikenal sebagai tempat yang tidak menyenangkan.",
+          "quote": "Rashōmon was built in 789, but after the Heian period it fell into serious disrepair and became known as an unsavory place.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c10",
+          "source_id": "oni-at-rajomon-gate-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, an enormous hand suddenly reached out of the dark to grab Tsuna's helmet, and Tsuna severed the arm of an enormous demon; it was Ibaraki dōji, coming to avenge the murder of Shuten dōji.",
+          "statement_id": "Menurut Yokai.com, sebuah tangan raksasa tiba-tiba menjulur dari kegelapan merebut helm Tsuna, lalu Tsuna menebas lengan iblis raksasa itu; iblis itu adalah Ibaraki dōji yang datang membalas kematian Shuten dōji.",
+          "quote": "Approaching the gate in the fierce gale, he noticed an enormous hand suddenly reach out of the dark to grab his helmet. Tsuna wasted no time, and swung his great katana around, severing the arm of an enormous demon: it was Ibaraki dōji, coming to avenge the murder of Shuten dōji.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c11",
+          "source_id": "oni-at-rajomon-gate-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, Ibaraki dōji later returned to Rashōmon looking for her arm; she disguised herself as Watanabe no Tsuna's wet nurse, stole back her severed arm, and fled.",
+          "statement_id": "Menurut Yokai.com, Ibaraki dōji kembali ke Rashōmon mencari lengannya; ia menyamar sebagai ibu susu Watanabe no Tsuna, mencuri kembali lengannya, dan kabur.",
+          "quote": "Ibaraki dōji later returned to Rashōmon, looking for her arm. She disguised herself as Watanabe no Tsuna’s wetnurse, and was able to steal back her severed arm and flee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oni-at-rajomon-gate-c12",
+          "source_id": "oni-at-rajomon-gate-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the injured demon ran away leaving her arm behind, and Rashōmon was no longer haunted.",
+          "statement_id": "Menurut Yokai.com, iblis yang terluka lari meninggalkan lengannya, dan Rashōmon tidak lagi angker.",
+          "quote": "The injured demon ran away, leaving her arm behind, and Rashōmon was no longer haunted.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1095,24 +1638,20 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "46926e4d26eb33a4c155a23c0cc9006d1311599390a8b9a9b196c7225e0eab59"
     },
     {
       "slug": "osakabehime",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "61014202b1ef065af5b5e319274c3647a3ace4e61acc92286e9a2f7a5bcfd64e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "osakabehime-c01",
@@ -1173,26 +1712,121 @@
           "quote": "It is believed that this was related Osakabe becoming Osakabehime (Princess Osakabe), \"-hime\" coming from Himeji.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "osakabehime-c07",
+          "source_id": "osakabehime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Osakabehime (刑部姫) is a figure in Japanese folklore described as a yōkai inhabiting Himeji Castle; a Kabuki play based on her story is considered one of the Shin-Kabuki Jūhachiban.",
+          "statement_id": "Osakabehime (刑部姫) adalah tokoh cerita rakyat Jepang yang digambarkan sebagai yōkai penghuni Kastil Himeji; sebuah lakon Kabuki berdasarkan kisahnya dianggap salah satu Shin-Kabuki Jūhachiban.",
+          "quote": "Osakabehime (刑部姫) is a figure in Japanese folklore. She is described as a yōkai inhabiting Himeji Castle. A Kabuki play based on her story is considered one of the Shin-Kabuki Jūhachiban.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c08",
+          "source_id": "osakabehime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In early legends and works such as the Shokokuhyakumonogatari (1677), the yōkai was just called \"Castle Monster\" (城ばけ物).",
+          "statement_id": "Dalam legenda dan karya awal seperti Shokokuhyakumonogatari (1677), yōkai ini hanya disebut \"Castle Monster\" (城ばけ物).",
+          "quote": "However, in early legends and creations such as Shokokuhyakumonogatari (諸国百物語, 1677), the yōkai was just called \"Castle Monster\" (城ばけ物).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c09",
+          "source_id": "osakabehime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Toyotomi Hideyoshi removed the shrine and re-enshrined Osakabe in Harima Sōja, a shrine dedicated to several gods on the outskirts of the town, when the castle was expanded.",
+          "statement_id": "Toyotomi Hideyoshi memindahkan kuil dan mengabadikan kembali Osakabe di Harima Sōja, kuil bagi beberapa dewa di pinggiran kota, ketika kastil diperluas.",
+          "quote": "Toyotomi Hideyoshi removed the shrine and re-enshrined Osakabe in Harima Sōja, a shrine dedicated to several gods to the outskirts of the town when the castle was expanded.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c10",
+          "source_id": "osakabehime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After the new castle tower was completed in 1608 various mysteries occurred, and in 1611 Terumasa fell ill; rumors held it was a curse of the god Osakabe, so the Ikeda family built a shrine in the castle and relocated the god.",
+          "statement_id": "Setelah menara kastil baru selesai pada 1608 terjadi berbagai keanehan, dan pada 1611 Terumasa jatuh sakit; muncul kabar bahwa itu kutukan dewa Osakabe, sehingga keluarga Ikeda membangun kuil di dalam kastil dan memindahkan dewa itu.",
+          "quote": "when the new castle tower was completed in 1608, various mysteries occurred, and in 1611 Terumasa finally fell ill. Rumors circulated that this was a curse of the god Osakabe, so the Ikeda family built a shrine in the castle and relocated the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c11",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com writes her name as 長壁姫 and translates it \"the lady of the walls\"; her habitat is the secret areas of Himeji Castle.",
+          "statement_id": "Yokai.com menulis namanya 長壁姫 dan menerjemahkannya \"the lady of the walls\"; habitatnya adalah area rahasia di Kastil Himeji.",
+          "quote": "Osakabe hime 長壁姫 おさかべひめ Translation: the lady of the walls Habitat: secret areas of Himeji Castle",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c12",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, she is a powerful yōkai able to manipulate people like puppets, extremely knowledgeable, and in control of a multitude of kenzokushin, animal-like spirits who act as messengers.",
+          "statement_id": "Menurut Yokai.com, ia yōkai yang kuat, mampu menggerakkan orang seperti boneka, sangat berpengetahuan, dan mengendalikan banyak kenzokushin, roh mirip hewan yang menjadi pesuruh.",
+          "quote": "Osakabe hime is a powerful yōkai, capable of manipulating people like puppets. She is extremely knowledgeable about many things and controls a multitude of kenzokushin—animal-like spirits who act as messengers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c13",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, she can read a person's heart and see their true desires and then manipulate them as she pleases; it is rumored that anyone who sees her face dies instantly.",
+          "statement_id": "Menurut Yokai.com, ia dapat membaca hati dan melihat keinginan sejati seseorang lalu memanipulasinya sesukanya; dikabarkan siapa pun yang melihat wajahnya langsung mati.",
+          "quote": "She can read a person’s heart and see their true desires. She can then manipulate them any way she pleases. It is rumored that anybody who sees her face will die instantly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c14",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, she takes the appearance of a majestic old woman wearing a 12-layered kimono.",
+          "statement_id": "Menurut Yokai.com, ia berwujud perempuan tua yang agung mengenakan kimono dua belas lapis.",
+          "quote": "She takes the appearance of a majestic old woman wearing a 12-layered kimono.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c15",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, by popular account she is actually an elderly nine-tailed kitsune; other accounts say she may be a snake spirit or the ghost of one of Emperor Fushimi's favorite courtesans.",
+          "statement_id": "Menurut Yokai.com, menurut kisah populer ia sebenarnya kitsune berekor sembilan yang sudah tua; kisah lain menyebutnya roh ular atau hantu salah satu selir kesayangan Kaisar Fushimi.",
+          "quote": "By popular account, she is actually an elderly nine-tailed kitsune who takes the form of this yōkai. According to other accounts, she may be a snake spirit, or the ghost of one of Emperor Fushimi’s favorite courtesans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osakabehime-c16",
+          "source_id": "osakabehime-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, another common legend says she was originally the kami of the mountain upon which Himeji Castle was built.",
+          "statement_id": "Menurut Yokai.com, legenda umum lain menyebut ia semula kami gunung tempat Kastil Himeji dibangun.",
+          "quote": "Another common legend is that she was originally the kami of the mountain upon which Himeji Castle was built.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "osaki",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "aba65c4a0b78e4a2886d9ed829c9ff2cdc322902d79edeeafcbad9548275fe3e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "osaki-c01",
@@ -1253,26 +1887,121 @@
           "quote": "Its name is said to come from how it was born from one of the nine-tailed fox's tails, so it was called \"osaki\" (尾先, \"tail-front\"), and according to the Toen Shōsetsu (兎園小説) by Kyokutei Bakin and others, the tail split into two, which is why it is \"osaki\" (尾裂, \"tail-split\"), and there is also the theory that its name comes from misaki, meaning kin of gods.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "osaki-c07",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com writes the name as オサキ, lists osaki gitsune (\"osaki fox\") as an alternate name, and gives its habitat as forests and mountains, also found in homes and human bodies.",
+          "statement_id": "Yokai.com menulis namanya オサキ, mencantumkan osaki gitsune (\"rubah osaki\") sebagai nama lain, dan menyebut habitatnya hutan dan gunung, serta ditemukan di rumah dan tubuh manusia.",
+          "quote": "Osaki オサキ おさき Translation: varies depending on the kanji used Alternate names: osaki gitsune (“osaki fox”) Habitat: forests and mountains; also found in homes and human bodies",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c08",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, osaki are small, magical mammals with fluffy tails that split at the end, resembling weasels or mice, or very small foxes.",
+          "statement_id": "Menurut Yokai.com, osaki adalah mamalia kecil bersifat gaib dengan ekor berbulu yang ujungnya terbelah, mirip musang atau tikus, atau rubah yang sangat kecil.",
+          "quote": "Osaki are small, magical mammals with fluffy tails that split at the end. They resemble weasels or mice, or very small foxes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c09",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, osaki are usually invisible to the human eye but show themselves at the sound of a pot lid or rice container being struck, and are extremely fast so they appear and disappear suddenly.",
+          "statement_id": "Menurut Yokai.com, osaki biasanya tak terlihat mata manusia tetapi menampakkan diri saat tutup panci atau wadah nasi dipukul, dan sangat cepat sehingga muncul dan lenyap tiba-tiba.",
+          "quote": "They are usually invisible to the human eye, but will show themselves at the sound of a pot lid or a rice container being struck. They are extremely fast, so they appear and disappear suddenly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c10",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, if kept happy, osaki are able to bring material wealth to their owners and ruin to their owners' enemies.",
+          "statement_id": "Menurut Yokai.com, jika dijaga agar senang, osaki dapat membawa kekayaan bagi pemiliknya dan kehancuran bagi musuh pemiliknya.",
+          "quote": "If kept happy, osaki are able to bring material wealth to their owners and ruin to their owners’ enemies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c11",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, like other kinds of kitsune, osaki can enter human bodies; this power, called kitsune tsuki, is used against people who have wronged the osaki or its human family.",
+          "statement_id": "Menurut Yokai.com, seperti jenis kitsune lain, osaki dapat memasuki tubuh manusia; kekuatan yang disebut kitsune tsuki ini dipakai terhadap orang yang berbuat salah kepada osaki atau keluarga manusianya.",
+          "quote": "Like other kinds of kitsune, osaki are capable of entering human bodies. This power is called kitsune tsuki, and is used against people who have wronged the osaki or its human family.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c12",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, victims of osaki possession are struck with bad luck and mysterious injuries, fevers, agitation, gluttonous appetites and other eccentricities; the possession can only be cured through difficult exorcisms.",
+          "statement_id": "Menurut Yokai.com, korban perasukan osaki tertimpa nasib buruk dan cedera misterius, demam, gelisah, nafsu makan rakus, dan keanehan lain; perasukan itu hanya dapat disembuhkan lewat pengusiran roh yang sulit.",
+          "quote": "Victims of osaki possession are struck with bad luck and mysterious injuries. They develop fevers, mental and physical agitation, gluttonous appetites, and other eccentricities. This possession can only be cured through difficult exorcisms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c13",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, osaki are said to come from the nine-tailed kitsune Tamamo no Mae: when she was killed her body became the cursed stone Sesshō seki, which the priest Gennō smashed; pieces of her tails landed in Gunma and became the first osaki.",
+          "statement_id": "Menurut Yokai.com, osaki dikatakan berasal dari kitsune berekor sembilan Tamamo no Mae: setelah ia dibunuh tubuhnya menjadi batu terkutuk Sesshō seki, yang dipecahkan oleh pendeta Gennō; sebagian pecahan ekor Tamamo no Mae jatuh di Gunma dan menjadi osaki pertama.",
+          "quote": "Osaki are said to come from the great nine-tailed kitsune Tamamo no Mae. When she was killed, her body transformed into a great cursed stone called Sesshō seki. Its curse was ended when the priest Gennō smashed the rock into pieces, which then flew across the country. Some of the pieces of Tamamo no Mae’s tails landed in Gunma and transformed into the first osaki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c14",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, villagers are cautioned not to tease wild osaki in order to avoid invoking their curse.",
+          "statement_id": "Menurut Yokai.com, penduduk desa diperingatkan agar tidak mengusik osaki liar supaya tidak memicu kutukannya.",
+          "quote": "Villagers are cautioned not to tease wild osaki in order to avoid invoking their curse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c15",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, osaki mochi families were historically shunned and mistrusted for their unnatural abilities and often withdrew from society.",
+          "statement_id": "Menurut Yokai.com, keluarga osaki mochi secara historis dijauhi dan dicurigai karena kemampuan tak wajar mereka, dan sering menarik diri dari masyarakat.",
+          "quote": "Osaki mochi families were historically shunned and mistrusted for their unnatural abilities. They often withdrew from society and avoided contact with the outside world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osaki-c16",
+          "source_id": "osaki-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, osaki live in the mountains but also find their way into human villages and homes.",
+          "statement_id": "Menurut Yokai.com, osaki hidup di pegunungan tetapi juga masuk ke desa dan rumah manusia.",
+          "quote": "Osaki live in the mountains, but also find their ways into human villages and homes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "qiuniu",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-3.md",
+      "entry_sha256": "8c27fb1b2320bda7098c0771a8b2dfb03dc95e46b50102349f88810d5121cd54",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qiuniu-c01",
@@ -1312,6 +2041,66 @@
           "statement_id": "Contohnya terdapat pada alat musik masyarakat Yi, Bai, dan kelompok terkait Tibet.",
           "quote": "音楽を好み、琴や鼓の飾りになっている。イー族の月琴、ペー族（白族：雲南省）の琴、他チベット系民族のいくつか楽器で見られる。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c05",
+          "source_id": "qiuniu-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia calls Qiuniu the eldest of the Nine Sons of the Dragon and quotes Li Dongyang of the Ming Dynasty in the Huailutang ji, section \"Ji longsheng jiuzi\": \"Qiuniu, a dragon kind, loved music all his life; the beast carved on the head of the huqin today is his remaining image.\"",
+          "statement_id": "Wikipedia bahasa Mandarin menyebut Qiuniu putra sulung dari Sembilan Putra Naga; ia mengutip Li Dongyang (Dinasti Ming) dalam Huailutang ji, bagian \"Ji longsheng jiuzi\": \"Qiuniu, jenis naga, seumur hidup gemar musik; binatang yang kini diukir di kepala huqin adalah wujud peninggalannya.\"",
+          "quote": "囚牛，龍生九子中的長子，明朝李東陽所著《懷麓堂集》之〈記龍生九子〉篇中所記：「囚牛，龍種，平生好音樂，今胡琴頭上刻獸是其遺像。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c06",
+          "source_id": "qiuniu-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to Chinese Wikipedia, its shape is a small yellow dragon with scales and horns; it loved music and playing the qin and was highly skilled in music, so many qin heads use its likeness.",
+          "statement_id": "Menurut Wikipedia bahasa Mandarin, bentuknya naga kecil kuning bersisik dan bertanduk; ia sangat menyukai musik dan gemar memainkan qin dengan keahlian tinggi, sehingga banyak kepala qin memakai wujudnya.",
+          "quote": "形狀為有鱗角的黃色小龍，平生很喜歡音樂，酷愛彈琴，對音樂有很高的造詣，所以很多琴頭都用祂的造像。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c07",
+          "source_id": "qiuniu-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to Chinese Wikipedia, its raised-head, open-mouthed image is also found on the Han huqin, the Yi dragon-head yueqin, the Bai sanxian and some Tibetan instruments.",
+          "statement_id": "Menurut Wikipedia bahasa Mandarin, wujudnya dengan kepala terangkat dan mulut terbuka juga terdapat pada huqin suku Han, yueqin berkepala naga suku Yi, sanxian suku Bai, dan sebagian alat musik suku Tibet.",
+          "quote": "例如：漢族的胡琴、彝族的龍頭月琴、白族的三弦琴以及藏族的一些樂器上也有其揚頭張口的形象。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c08",
+          "source_id": "qiuniu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "English Wikipedia names Li Dongyang's (1447–1516) list, with 9 creatures, as one of four principal versions of the list of the dragon's children.",
+          "statement_id": "Wikipedia bahasa Inggris menyebut daftar Li Dongyang (1447–1516), yang memuat 9 makhluk, sebagai salah satu dari empat versi utama daftar putra naga.",
+          "quote": "There are four principal versions of the list: ... Li Dongyang's (李東陽 , 1447–1516) list, which includes 9 creatures",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c09",
+          "source_id": "qiuniu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Several Ming Dynasty texts list what were claimed as the Nine Offspring of the Dragon, and subsequently these feature prominently in popular Chinese stories and writings.",
+          "statement_id": "Beberapa teks Dinasti Ming memuat apa yang diklaim sebagai Sembilan Putra Naga, dan sejak itu menonjol dalam kisah dan tulisan populer Tiongkok.",
+          "quote": "Several Ming Dynasty texts list what were claimed as the Nine Offspring of the Dragon (Chinese: 龍生九子), and subsequently these feature prominently in popular Chinese stories and writings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiuniu-c10",
+          "source_id": "qiuniu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to English Wikipedia, some of these creatures are based on earlier mythological beasts such as pulao or bixi, but most have no other mythological background and are merely used as names for decorative structures.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, sebagian makhluk dalam daftar itu berdasar pada makhluk mitologis yang lebih tua seperti pulao atau bixi, tetapi kebanyakan tidak punya latar mitologis lain dan hanya dipakai sebagai nama struktur dekoratif.",
+          "quote": "Some of these creatures are based on earlier mythological beasts, such as pulao or bixi, but most of them have no other mythological background and are merely used as names for decorative structures.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1395,7 +2184,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f14e54ff3664336b0c9ff860061027175da8b496be3be2fab25a58cf83eefde8"
     },
     {
       "slug": "shichinin-misaki",
@@ -1475,7 +2265,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c093e7789157c8e5c76598d5969cda6db0c003c3ecce07bcfc067d30a87ee15b"
     },
     {
       "slug": "shidaidaka",
@@ -1555,7 +2346,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "11c5beba0c2d9a9e2aedcc168ee98ed6ceb1a97e30f536b824db4eb6a2d11a1a"
     },
     {
       "slug": "shippeitaro",
@@ -1635,7 +2427,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "059b4cf171fe8d45c6b1fb94911efa797abb4fde1b1744e5f3a9f9d61b5053ba"
     },
     {
       "slug": "takiribime",
@@ -1695,7 +2488,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac8aeb121151ef12cb7412ab09ff7db9dc623ad0d5c406847f04d48c5c5af7a7"
     },
     {
       "slug": "tamakushihime",
@@ -1755,7 +2549,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ade1f68da926c6b3d2dda4fb44259b6b10d6f9ea8dbdc178e00a498d1c374372"
     },
     {
       "slug": "tamanooya",
@@ -1835,7 +2630,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a5f5ce1aedbd4927752d6466572605f3d4fc0ea9d6f7e7e4b375edc1a7a232b2"
     },
     {
       "slug": "ubagabi",
@@ -1915,7 +2711,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ba9a5f930e2a447ccdf09d5d794e2e29674394e66cbe91188f57f737f4c15421"
     },
     {
       "slug": "umi-zato",
@@ -1995,7 +2792,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7d8f215f4893f57ab330ac12b14e489032ca2488bdfb9702dae37076db1fb975"
     },
     {
       "slug": "wakahirume",
@@ -2075,7 +2873,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7d94ab53532f06141876687550c75b8fbf943a2690c34c27d28389c5dd6f932b"
     },
     {
       "slug": "wani-dragon",
@@ -2135,7 +2934,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e208565f310fe92cb51badf1cf67ee502a8ef672c75d9a685b9c808edaadf527"
     },
     {
       "slug": "wd-q15925032",
@@ -2195,7 +2995,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "51977e43d16645e2b1cd1dd260cd53a47bf762873ac582f1bd03bba9bd8d9dc0"
     },
     {
       "slug": "yakusaikazuchi",
@@ -2290,7 +3091,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56d5938f2bd0f0899aca77aac7ef3ebf2b6d289a724e10b46dbe275a17440cb9"
     },
     {
       "slug": "yamabito",
@@ -2350,7 +3152,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b67339407d9c335947c9e208c406e271efde3952902bf6c0d106ea0abdbfd3e6"
     },
     {
       "slug": "yashima-no-hage-tanuki",
@@ -2410,7 +3213,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6d3b8914aa7273fb1bf944b3384d872231e8f49735aa8cf0f58e1269c349c099"
     },
     {
       "slug": "yazi",
@@ -2470,7 +3274,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ba6caed7add785ed8184a3c933770731afe79cc67ffe49ac48761f14ceaac864"
     },
     {
       "slug": "zao-gongen",
@@ -2530,7 +3335,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cc793900d04e46dc3de3a5199217338e2d734b45f6b9d80829b77222f8fb5f2f"
     },
     {
       "slug": "amanomichine",
@@ -2590,7 +3396,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c2adab118ee32ed065128333ea61587a9e7f4d57d0c51f6153e6adce917ced4d"
     },
     {
       "slug": "black-dragon",
@@ -2650,7 +3457,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bfa4dc37d1538afb2696d39c74be2a017b2b707b50a8fefb891cbb640b31780c"
     },
     {
       "slug": "byobunozoki",
@@ -2730,7 +3538,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2d324f76ed9c5457c458b1c651cd750c8e6ed3ad2318afb5d1dbc922c78485ee"
     },
     {
       "slug": "donotsura",
@@ -2790,7 +3599,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8820ef59dc0dd36911413338f0c8d76e4683b41e9209128900fa0a90f20fa2ba"
     },
     {
       "slug": "enko",
@@ -2864,7 +3674,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "71ae8729f8cc43cfdc4e0a27b35a971cb008693b527f52bdc1f116ac9d5851c4"
     },
     {
       "slug": "gangi-kozo",
@@ -2938,7 +3749,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "40c7548100c37963a0cd0083c530d56614a8ec43cb20cd3dc7e73efb36cb53f7"
     },
     {
       "slug": "gotoku-neko",
@@ -3018,7 +3830,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cb5faf18ea3955cf8e4a8972b10d7916cddb250ee44caae1575e9f9e7fa911fe"
     },
     {
       "slug": "hikeshibaba",
@@ -3092,7 +3905,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "956ebec7b8b2e69c740ff51316f2a3138c32cb263a9da4a9562d6a2444ebc11c"
     },
     {
       "slug": "hone-karakasa",
@@ -3166,7 +3980,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1215140b9af5d12f3f244d26540daecd0e597237cabe6b5702f674b86773088a"
     },
     {
       "slug": "hoyau",
@@ -3246,7 +4061,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2884d59dc31e3ee7e41dba348911c8a516e8297b54dba5752a1c6673a1543c17"
     },
     {
       "slug": "ame-no-hiwashi",
@@ -3306,7 +4122,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0d086662ef60e1e419b92def57541e8ad9fb9dfe0013d6f2275e7eed9cc622ab"
     },
     {
       "slug": "ame-no-mahitotsu-no-kami",
@@ -3366,7 +4183,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1508593abf3d11cf27b481066fcc7a9093ef552d8df23200e3f81c56766138bd"
     },
     {
       "slug": "azukibabaa",
@@ -3446,7 +4264,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "41abc7f256fe50407dd305573c58317dd8c087c8dd5fcfed643be88e7b4cb048"
     },
     {
       "slug": "azukihakari",
@@ -3531,7 +4350,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4b0e37af9275eb59290c3e90d80a0bf86910a7019ee9c39d7c6fdaae7372f367"
     }
   ]
 }
