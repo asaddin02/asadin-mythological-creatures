@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-06T19:06:04.837Z",
+  "checked_at": "2026-10-06T19:30:27.357Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
     "batch-068-fix-2.md",
-    "batch-068-fix-3.md"
+    "batch-068-fix-3.md",
+    "batch-068-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2492,20 +2493,15 @@
     },
     {
       "slug": "guhuoniao",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "081301c07f5d3d69bb0678fd99dd32bb1ee770c18cbd6f7a18ce9c9a58dbcfce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "guhuoniao-c01",
@@ -2556,10 +2552,69 @@
           "quote": "It has the habit of kidnapping infants to raise it as its own. It flies by night and marks the child with a drop of its blood. This will cause the child to fall ill and develop convulsions, in an illness condition called \"innocent's gan\" (無辜疳; wugugan, roughly translatable as \"innocent's malnutrition\" or \"wasting-away\" illness).",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "guhuoniao-c06",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu quotes Zangqi (藏器) that 姑獲 can take away people's souls, and the Xuanzhong Ji (玄中記) that the bird belongs to the class of spirits (鬼神類): wearing feathers it is a flying bird, shedding them it becomes a woman.",
+          "statement_id": "Bencao Gangmu mengutip Chen Zangqi (藏器) bahwa 姑獲 dapat merenggut roh dan jiwa orang, serta Xuanzhong Ji (玄中記) bahwa burung ini tergolong makhluk gaib (鬼神類): memakai bulu ia menjadi burung terbang, menanggalkan bulu ia menjadi perempuan.",
+          "quote": "藏器曰︰姑獲能收人魂魄。《玄中記》云︰姑獲鳥，鬼神類也。衣毛為飛鳥，脫毛為女人。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "guhuoniao-c07",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the quotation, homes with small children should not leave clothing out at night, because this bird flies by night and marks it with blood; the child then falls ill with convulsions and wasting, an illness called 無辜疳.",
+          "statement_id": "Menurut kutipan itu, rumah yang punya anak kecil tidak boleh menjemur pakaian di luar pada malam hari, sebab burung ini terbang malam dan menandai dengan setetes darah; anak yang ditandai jatuh sakit kejang dan gizi buruk, penyakit yang disebut 無辜疳.",
+          "quote": "凡有小兒家，不可夜露衣物。此鳥夜飛，以血點之為志。兒輒病驚癇及疳疾，謂之無辜疳也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "guhuoniao-c08",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The quotation says the bird is said to be formed from a woman who died in childbirth, hence two breasts on its chest, and it likes to take other people's children to raise as its own.",
+          "statement_id": "Kutipan itu menyebut burung ini dikatakan berasal dari perempuan yang meninggal saat bersalin, sehingga ada dua payudara di dadanya, dan ia gemar mengambil anak orang untuk diasuh sebagai anaknya.",
+          "quote": "脫毛為女人。云是產婦死後化作，故胸前有兩乳，喜取人子養為己子。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "guhuoniao-c09",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Li Shizhen (時珍) writes that people of old said this bird came from a woman who died in childbirth, that it is entirely female with no males, flies at night in the seventh and eighth months, and is especially venomous in harming people.",
+          "statement_id": "Li Shizhen (時珍) menulis bahwa orang dahulu mengatakan burung ini berasal dari perempuan yang meninggal saat bersalin, bahwa burung ini seluruhnya betina tanpa jantan, terbang pada malam hari di bulan ketujuh dan kedelapan, dan sangat berbisa dalam mencelakai orang.",
+          "quote": "時珍曰︰昔人言此鳥產婦所化，陰慝為妖，故有諸名。 ... 時珍曰︰此鳥純雌無雄，七八月夜飛，害人尤毒也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "guhuoniao-c10",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu identifies the 夭鳥 in the Zhouli (周禮), shot by the official Tingshi (庭氏) with the bow and arrows for rescuing the sun and moon, with this bird.",
+          "statement_id": "Bencao Gangmu menyamakan 夭鳥 dalam Zhouli (周禮) yang dipanah oleh pejabat Tingshi (庭氏) dengan busur dan anak panah penyelamat matahari dan bulan, dengan burung ini.",
+          "quote": "荊州多有之。亦謂之鬼鳥。《周禮》庭氏「以救日之弓，救月之矢，射夭鳥」，即此也。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "guhuoniao-c11",
+          "source_id": "guhuoniao-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu quotation says the bird is common in Jingzhou (荊州) and is also called 鬼鳥.",
+          "statement_id": "Kutipan Bencao Gangmu menyebut burung ini banyak terdapat di Jingzhou (荊州) dan juga disebut 鬼鳥.",
+          "quote": "荊州多有之。亦謂之鬼鳥。《周禮》庭氏「以救日之弓，救月之矢，射夭鳥」，即此也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ae1995d1391c88d7d528449eceac20b01d5621da72fbfdfc81a47afcc65859f6"
+      "images": []
     },
     {
       "slug": "shuixian-zunwang",
@@ -2583,20 +2638,15 @@
     },
     {
       "slug": "hong-rainbow-dragon",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "944752cedf993fb9c0555f802199c4fb2f0e03b628d6d771399c8dd52b8b1957",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hong-rainbow-dragon-c01",
@@ -2637,27 +2687,111 @@
           "quote": "The 121 CE Shuowen Jiezi dictionary, the first Chinese character dictionary, described the seal character for hong (虹; 'rainbow') as 狀似蟲; 'shaped like a wug'. Over 18 centuries later, Hopkins described the recently discovered oracle character for 虹.",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "hong-rainbow-dragon-c05",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Carr, as quoted in Wikipedia, states that the Chinese saw rainbows as meteorological disasters; unlike the auspicious long (龍) dragon that symbolizes coming rain, the two-headed hong (虹) was inauspicious because it appeared after a rain shower.",
+          "statement_id": "Michael Carr, dikutip Wikipedia, menyatakan bahwa orang Tiongkok melihat pelangi sebagai bencana meteorologis; berbeda dengan naga long (龍) yang membawa hujan dan bertuah, hong (虹) yang berkepala dua dianggap tidak bertuah karena muncul setelah hujan.",
+          "quote": "Although many ancient cultures believed rainbows were good omens,\"Carr explains, \"the Chinese saw them as meteorological disasters. Unlike the auspicious [long] 龍 dragon symbolizing forthcoming rain, the two-headed [hong] 虹 was inauspicious because it appeared after a rain shower.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c06",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hopkins, as quoted in Wikipedia, reads the oracle-bone character for the rainbow as a rainbow ending in two animal heads, and concludes the animal must be the dragon.",
+          "statement_id": "Hopkins, dikutip Wikipedia, menafsirkan huruf ramalan tulang kuno untuk pelangi sebagai pelangi yang berujung dua kepala hewan, dan menyimpulkan hewan itu adalah naga.",
+          "quote": "Hopkins described the recently discovered oracle character for 虹 ... We should, I now feel sure, discern a Rainbow terminating in two animal heads. But of what animal? Certainly of the Dragon, must be the answer.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c07",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Eberhard, as quoted in Wikipedia, notes that early reliefs show the rainbow as a snake or two-headed dragon, and in West China it is given a donkey's head and counted a lucky symbol.",
+          "statement_id": "Eberhard, dikutip Wikipedia, mencatat bahwa relief awal menggambarkan pelangi sebagai ular atau naga berkepala dua, dan di Tiongkok Barat diberi kepala keledai serta dianggap lambang keberuntungan.",
+          "quote": "Eberhard notes, \"In early reliefs, the rainbow is shown as a snake or a dragon with two heads. In West China they give it the head of a donkey, and it rates as a lucky symbol.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c08",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Shijing has the oldest known textual usages of hong and didong, and both are bad omens.",
+          "statement_id": "Menurut Wikipedia, Shijing memuat pemakaian tertulis tertua yang diketahui untuk hong dan didong, dan keduanya pertanda buruk.",
+          "quote": "The Shijing has the oldest known textual usages of hong and didong, and both are bad omens.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c09",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Huainanzi says both rainbows and comets were warnings from tian (heaven or god).",
+          "statement_id": "Menurut Wikipedia, Huainanzi menyebut pelangi dan komet sebagai peringatan dari tian (langit atau dewa).",
+          "quote": "The Huainanzi says both rainbows and comets were warnings from tian \"heaven; god\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c10",
+          "source_id": "hong-rainbow-dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, another Chinese rainbow myth has Nüwa (女媧) repairing a crack in the sky caused by the water deity Gong Gong (共工), and supposedly creating the first rainbow by melting stones of five or seven colors to patch the sky.",
+          "statement_id": "Menurut Wikipedia, mitos pelangi Tiongkok lain menyebut Nuwa (女媧) memperbaiki retakan langit akibat dewa air Gong Gong (共工), dan konon menciptakan pelangi pertama dengan melelehkan batu lima atau tujuh warna untuk menambal langit.",
+          "quote": "Lastly, another Chinese rainbow myth involves the creator Nüwa 女媧 repairing a crack in the sky caused by the water deity Gong Gong 共工 (cf. 虹 ). She supposedly created the first rainbow by melting stones of 5 or 7 different colors to patch the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c11",
+          "source_id": "hong-rainbow-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shijing poem titled 蝃蝀 (didong) says the 蝃蝀 is in the east and no one dares to point at it, and then mentions rain through the morning.",
+          "statement_id": "Puisi Shijing berjudul 蝃蝀 (didong) berbunyi bahwa 蝃蝀 ada di timur dan tak seorang pun berani menunjuknya, lalu menyebut hujan sepanjang pagi.",
+          "quote": "蝃蝀在東，莫之敢指，女子有行，遠父母兄弟。 朝隮于西，崇朝其雨，女子有行，遠兄弟父母。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c12",
+          "source_id": "hong-rainbow-dragon-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji, chapter Yue Ling (月令), records that in the last month of spring the rainbow (虹) begins to appear, along with seasonal events such as field mice turning into quails.",
+          "statement_id": "Liji, bab Yue Ling (月令), mencatat bahwa pada bulan terakhir musim semi pelangi (虹) mulai tampak, bersama kejadian musiman seperti tikus ladang berubah menjadi puyuh.",
+          "quote": "季春之月，日在胃，昏七星中，旦牽牛中 ... 桐始華，田鼠化爲鴽，虹始見，蓱始生",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hong-rainbow-dragon-c13",
+          "source_id": "hong-rainbow-dragon-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji, chapter Yue Ling (月令), records that in the first month of winter water begins to freeze, pheasants enter the great water and become large mollusks (蜃), and the rainbow (虹) is hidden and does not appear.",
+          "statement_id": "Liji, bab Yue Ling (月令), mencatat bahwa pada bulan pertama musim dingin air mulai membeku, burung pegar masuk ke air besar menjadi kerang besar (蜃), dan pelangi (虹) bersembunyi dan tidak tampak.",
+          "quote": "孟冬之月，日在尾，昏危中，旦七星中 ... 水始冰，地始凍，雉入大水爲蜃，虹藏不見",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cb2da4bb139fab51804db720d096e074c9d65b69079b74e90732fad84a44b05e"
+      "images": []
     },
     {
       "slug": "huodou",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "bf533589f33902f7da88009a0bf16d33afb56c249d1522d1ff6a5c6708342745",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huodou-c01",
@@ -2708,10 +2842,49 @@
           "quote": "It is also noted in the Chiya (赤雅) of the Ming Dynasty: \"the Huodou looks like a dog, it eats fire and spits fire, it is ominous\".",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "huodou-c06",
+          "source_id": "huodou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu quotes the Yuanhua Ji (原化記) that the Huodou (禍斗) beast is shaped like a dog and eats fire, its dung turns back into fire, and it can burn people's houses.",
+          "statement_id": "Bencao Gangmu mengutip Yuanhua Ji (原化記) bahwa binatang Huodou (禍斗) berbentuk seperti anjing dan memakan api, kotorannya kembali menjadi api, dan ia dapat membakar rumah orang.",
+          "quote": "食火之獸（《原化記》云︰禍斗獸，狀如犬而食火，糞複為火，能燒人屋）",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "huodou-c07",
+          "source_id": "huodou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Li Shizhen mentions a fire-eating people in the southern wilderness (南荒), whose country is near Black Kunlun (黑昆侖) and who can eat fire-charcoal, and also a fire-eating beast.",
+          "statement_id": "Li Shizhen menyebut adanya bangsa pemakan api di Nanhuang (南荒, wilayah liar selatan) yang negerinya dekat Heikunlun (黑昆侖) dan orang-orangnya dapat memakan bara, serta binatang pemakan api.",
+          "quote": "南荒有厭火之民（國近黑昆侖，人能食火炭）、食火之獸（《原化記》云︰禍斗獸，狀如犬而食火",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "huodou-c08",
+          "source_id": "huodou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Li Shizhen sets the Huodou beast beside a fire-eating bird of the Xirong (西戎, western region) and states that these are all ordinary under the principles of the five phases (五行物理), seeming strange only to those hearing of them for the first time.",
+          "statement_id": "Li Shizhen menempatkan binatang Huodou di samping burung pemakan api dari Xirong (西戎, wilayah barat) dan menyatakan hal-hal itu semua wajar menurut hukum lima unsur (五行物理), dan hanya tampak ganjil bagi orang yang baru mendengarnya.",
+          "quote": "食火之獸（《原化記》云︰禍斗獸，狀如犬而食火，糞複為火，能燒人屋）；西戎有食火之鳥（駝鳥，見禽部）。 ... 此皆五行物理之常，而乍聞者目為怪異，蓋未深詣乎此理故爾。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huodou-c09",
+          "source_id": "huodou-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This edition of the Chiya (赤雅) says the Huodou (禍斗) resembles a dog and eats dog dung, spits fire and brings disaster, and is greatly ill-omened; another edition reads 不祥之獸 (an ill-omened beast).",
+          "statement_id": "Chiya (赤雅) edisi ini menulis bahwa Huodou (禍斗) mirip anjing dan memakan kotoran anjing, menyemburkan api dan mendatangkan malapetaka, sangat tidak membawa keberuntungan; edisi lain berbunyi 不祥之獸 (binatang pembawa sial).",
+          "quote": "禍斗似犬而食犬糞，噴火作殃，不祥甚矣〈一本云「不祥之獸」〉。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "98a6285738fe2e4701970fc58a4a2834c7cf429e1f2e85471e5ded2cf5693547"
+      "images": []
     },
     {
       "slug": "imugi",
@@ -2915,20 +3088,15 @@
     },
     {
       "slug": "lo-ting",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "250b906db4ecf83fd9cd17bd7ad9f0970b99e8d6e1057f3bda4b03312a33bb4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lo-ting-c01",
@@ -2979,27 +3147,91 @@
           "quote": "宋朝周去非《嶺外代答·外國門下·蜑蠻》：「廣州有蜑一種，名曰盧停，善水戰。」",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "lo-ting-c06",
+          "source_id": "lo-ting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Lingbiao Luyi (嶺表錄異) records the 盧亭 as the remnants of Lu Xun's (盧循) followers who, after defeat at Guangzhou (廣州), fled to islands at sea, lived wild there, ate only oysters, and piled shells into walls.",
+          "statement_id": "Lingbiao Luyi (嶺表錄異) mencatat 盧亭 sebagai sisa pengikut Lu Xun (盧循) yang, setelah kalah di Guangzhou (廣州), lari ke pulau di laut, hidup liar di sana, hanya makan tiram, dan menumpuk cangkang menjadi dinding.",
+          "quote": "盧亭者。盧循昔據廣州，既敗，餘黨奔入海島，野居，惟食蠔蠣，壘殼為牆壁。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c07",
+          "source_id": "lo-ting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In its section on the 瑇瑁 turtle, the Lingbiao Luyi says a 盧亭 of Guangnan (廣南) caught a live turtle to present to a prince named Xue (薛王), and later a 盧亭 was sent to return it to the seashore.",
+          "statement_id": "Dalam bagian tentang penyu 瑇瑁, Lingbiao Luyi menyebut 盧亭 di Guangnan (廣南) menangkap seekor penyu hidup untuk dipersembahkan kepada seorang pangeran bernama Xue (薛王), dan kemudian 盧亭 diperintahkan mengantarnya kembali ke tepi laut.",
+          "quote": "廣南盧亭，獲活瑇瑁龜一枚，以獻連帥嗣薛王。 ... 後養於使宅後北池，俟其揭處漸生，復遣盧亭送於海畔。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c08",
+          "source_id": "lo-ting-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In its section on the boat-dwelling 蜑, the Lingwai Daida (嶺外代答) says that in Guangzhou (廣州) there is one kind of 蜑 named 盧停, skilled at water fighting.",
+          "statement_id": "Dalam bagian tentang suku perahu 蜑, Lingwai Daida (嶺外代答) menyebut bahwa di Guangzhou (廣州) ada satu golongan 蜑 bernama 盧停 yang mahir bertempur di air.",
+          "quote": "然亦各有統屬，各有界分，各有役於官，以是知無逃乎天地之間。廣州有蜑一種，名日盧停，善水戰。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c09",
+          "source_id": "lo-ting-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Guangdong Xinyu (廣東新語) describes the 盧亭 as a kind of 人魚 (fish-person) found in numerous places including Dayushan in Xin'an (新安大魚山) and Nanting Zhumo Laowanshan (南亭竹沒老萬山); human in height, with male and female, short yellowish hair, a dark face and a tail about one cun long, which plunge into the water in fright when they see people.",
+          "statement_id": "Guangdong Xinyu (廣東新語) menyebut 盧亭 sebagai satu golongan 人魚 (manusia ikan) yang banyak terdapat di dua tempat bernama Dayushan di Xin'an (新安大魚山) dan Nanting Zhumo Laowanshan (南亭竹沒老萬山); tingginya seperti manusia, ada jantan dan betina, rambutnya kuning kecokelatan dan pendek, wajahnya gelap, berekor sepanjang kira-kira satu cun, dan melompat ke air ketakutan bila melihat orang.",
+          "quote": "人魚之種族有盧亭者，新安大魚山與南亭竹沒老萬山多有之。其長如人，有牝牡，毛發焦黃而短，眼睛亦貢，麵黧黑，尾長寸許，見人則驚怖入水，往往隨波飄至，人以為怪，競逐之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c10",
+          "source_id": "lo-ting-s4",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Guangdong Xinyu, a person who caught a female found she could not speak and only laughed; after a long time she wore clothes and ate the five grains, but when taken to Dayushan she sank back into the water. The text calls them 人魚 that do no harm to people.",
+          "statement_id": "Menurut Guangdong Xinyu, orang yang menangkap seekor betina mendapati ia tidak dapat berbicara dan hanya tertawa; lama-kelamaan ia mau berpakaian dan makan lima jenis biji-bijian, tetapi ketika dibawa ke Dayushan ia masuk lagi ke air. Teks itu menyebut mereka sebagai 人魚 yang tidak membahayakan manusia.",
+          "quote": "有得其牝者，與之淫，不能言語，惟笑而已。久之，能著衣，食五穀。攜至大魚山，仍沒入水。蓋人魚之無害於人者。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c11",
+          "source_id": "lo-ting-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Guangdong Xinyu calls male 人魚 'sea monks' (海和尚) and females 'sea women' (海女) that can bring ruin to ships; ship's pilots (火長) recite a prayer not to meet a 海女 or a 人魚.",
+          "statement_id": "Guangdong Xinyu menyebut 人魚 jantan sebagai 海和尚 dan betina sebagai 海女 yang dapat menimbulkan malapetaka bagi kapal; para pengemudi kapal (火長) mengucapkan doa agar tidak bertemu 海女 atau 人魚.",
+          "quote": "人魚雄者為海和尚，雌者為海女，能為舶祟。火長有祝云：「毋逢海女，毋見人魚。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lo-ting-c12",
+          "source_id": "lo-ting-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "The 2016 film 《美人魚》 (The Mermaid) is said to have based its mermaid family on the 盧亭.",
+          "statement_id": "Film 《美人魚》 tahun 2016 disebut memakai 盧亭 sebagai prototipe keluarga putri duyung dalam filmnya.",
+          "quote": "《美人魚》：2016年電影，片中美人魚家族的原型來自「盧亭」。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d2f6615905b4384c0e931ae65d2c3d61a1f8fec8eb23b7987a73fb3141443c05"
+      "images": []
     },
     {
       "slug": "nie-xiaoqian",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "62c400f46eea2577014bb29f241e9193d95555c46f8734bf3b102f277a881015",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nie-xiaoqian-c01",
@@ -3050,27 +3282,101 @@
           "quote": "Then, with Ning's help, she later escaped her demonic captors and found refuge in the Ning household, caring for his mother and his ailing wife. After the wife's death, she married Ning Caichen, and together the couple destroyed the yaoguais that had long haunted Jinhua.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c06",
+          "source_id": "nie-xiaoqian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Pu describes her appearance as \"gorgeous; girl in paintings\" (艷絕；畫中人).",
+          "statement_id": "Menurut Wikipedia, Pu menggambarkan penampilannya sebagai 'jelita; gadis dalam lukisan' (艷絕；畫中人).",
+          "quote": "Pu describes her appearance as \"gorgeous; girl in paintings\" (traditional Chinese: 艷絕；畫中人; simplified Chinese: 艳绝；画中人).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c07",
+          "source_id": "nie-xiaoqian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the story has been adapted into numerous films and television dramas.",
+          "statement_id": "Menurut Wikipedia, kisah ini telah diadaptasi menjadi banyak film dan drama televisi.",
+          "quote": "The story has been adapted into numerous films and television dramas.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c08",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the tale she says her surname is Nie (聶氏), that she died young at eighteen (十八夭殂), was buried by the temple, and was threatened by monstrous beings (妖物) and made to do menial tasks.",
+          "statement_id": "Dalam kisah itu, ia mengaku bermarga Nie (聶氏), meninggal muda pada usia delapan belas (十八夭殂), dimakamkan di dekat kuil, dan diancam oleh makhluk jahat (妖物) sehingga dipaksa mengerjakan tugas-tugas hina.",
+          "quote": "姓聶氏，十八夭殂，葬（於）寺 側一作「中」，（輒）被妖物威脅，（歷）役賤務。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c09",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "She tells Ning that men who take liberties with her are secretly pricked in the foot with an awl and left dazed, and their blood taken for the demon (妖) to drink; or are left gold that is really rakshasa bone (羅剎鬼骨), able to cut out the heart and liver.",
+          "statement_id": "Ia memberi tahu Ning bahwa orang yang berbuat tak senonoh dengannya ditusuk kakinya diam-diam dengan penusuk sehingga linglung, lalu darahnya diambil untuk diminum makhluk jahat (妖); atau ditinggali emas yang sebenarnya tulang raksasa (羅剎鬼骨) yang dapat memotong hati dan jantung.",
+          "quote": "狎暱我者，隱以錐刺其足，彼即茫若迷，因攝血以供妖飲；又或以金——非金也，乃羅剎鬼骨，留之能截取人心肝。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c10",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "She asks where the leather bag (革囊) is; Ning says he stored it elsewhere because she fears it, and she replies that having long taken in the breath of life (生氣) she should no longer fear it and asks to hang it at the bed head.",
+          "statement_id": "Ia bertanya di mana kantong kulit (革囊) berada; Ning menjawab telah menyimpannya di tempat lain karena ia takut, lalu ia berkata bahwa karena sudah lama menyerap hawa kehidupan (生氣) ia tak lagi takut dan meminta kantong itu digantung di kepala ranjang.",
+          "quote": "忽問：「革囊何在？」曰：「以卿畏之，故緘 置一作「致」他所。」曰：「妾受生氣已久，當不復畏，宜取掛牀頭。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c11",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When the yaksha-like being (夜叉) approached the hanging leather bag, the bag suddenly clicked and swelled, and a ghostly figure thrust out half its body and dragged the yaksha in.",
+          "statement_id": "Ketika makhluk berwujud yasa (夜叉) mendekati kantong kulit yang tergantung, kantong itu tiba-tiba berbunyi dan membesar, lalu sesosok gaib menjulurkan setengah badan dan menyeret yasa itu masuk.",
+          "quote": "囊忽格然一響，大可合簣；恍惚有鬼物，突出半身，揪夜叉入。聲遂寂然",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c12",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "At first she neither ate nor drank; after half a year she began to sip thin gruel. The mother and son doted on her and kept quiet that she was a ghost, so others also did not realize it.",
+          "statement_id": "Pada awalnya ia tidak makan atau minum; setelah setengah tahun ia mulai menyesap bubur encer. Ibu dan anak itu menyayanginya dan merahasiakan bahwa ia hantu, sehingga orang lain pun tidak mengetahuinya.",
+          "quote": "女初來未嘗 食飲一作「飲食」，半年漸啜稀𩛆。母子皆溺愛之，諱言其鬼，人亦不 之一作「知」辨也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nie-xiaoqian-c13",
+          "source_id": "nie-xiaoqian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When asked to appear as the new bride, she came out in splendid attire; the whole room did not suspect her of being a ghost and instead took her for an immortal or fairy (仙).",
+          "statement_id": "Ketika diminta menampakkan diri sebagai pengantin baru, ia keluar berdandan megah; seisi ruangan tidak mencurigainya sebagai hantu dan malah mengira ia peri atau dewi (仙).",
+          "quote": "或請覿新婦，女慨然華妝出，一堂盡 眙一作「怡」，（反）不疑其鬼，疑為仙。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b134ec08715c4f4115d3e307cf27794c0dd986ce14cb0255d9841abe967cc3fc"
+      "images": []
     },
     {
       "slug": "qiulong",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "396a724cc467323ed3ab3083d953f96448d076877be7e37449758bc422bb824d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qiulong-c01",
@@ -3111,27 +3417,101 @@
           "quote": "In Japanese, the kanji \"Chinese characters\" 虬 or 虯 are sometimes used for the mizuchi 蛟 \"river dragon\".",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "qiulong-c05",
+          "source_id": "qiulong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Wang Yi's (王逸) commentary on the line 駟玉虯以乘鷖兮 states that one with horns is called long (龍) and one without horns is called qiu (虯).",
+          "statement_id": "Komentar Wang Yi (王逸) pada larik 駟玉虯以乘鷖兮 menyatakan bahwa yang bertanduk disebut long (龍) dan yang tak bertanduk disebut qiu (虯).",
+          "quote": "【駟玉虯以乘鷖兮，】有角曰龍，無角曰虯。鷖，鳳皇別名也。山海經曰：鷖，身有五采。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c06",
+          "source_id": "qiulong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In Wang Yi's explanation of the Lisao, the poet imagines riding a jade qiu (玉虯) and a phoenix chariot, passing through the dust and ascending to leave the common world and keep far from petty people.",
+          "statement_id": "Dalam penjelasan Wang Yi atas Lisao, sang penyair membayangkan mengendarai qiu giok (玉虯) dan kereta burung hong, menembus debu dan naik ke atas untuk meninggalkan dunia biasa dan menjauhi orang-orang rendah.",
+          "quote": "言我設往行游，將乘玉虯，駕鳳車，淹塵埃而上征，去離時俗，遠群小也。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c07",
+          "source_id": "qiulong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In Wang Yi's preface, the Lisao uses qiulong (虯龍) and luan and phoenix birds as figures for the gentleman (君子), while whirlwinds and clouds and secondary rainbows stand for petty persons (小人).",
+          "statement_id": "Dalam pengantar Wang Yi, Lisao memakai qiulong (虯龍) dan burung luan serta burung hong sebagai kiasan bagi orang berbudi (君子), sedangkan angin ribut serta awan dan pelangi sekunder dipakai untuk orang rendahan (小人).",
+          "quote": "靈修美人，以媲於君；宓妃佚女，以譬賢臣；虯龍鸞鳳，以讬君子；飄風雲霓，以為小人。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c08",
+          "source_id": "qiulong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi describes the 赤螭 and the 青虯 (green qiu) roaming Jizhou (冀州) when the sky is clear and the earth settled, venomous beasts do not act and birds are not startled; they enter thickets, eat plants, and their steps do not leave a plot of land.",
+          "statement_id": "Huainanzi menggambarkan 赤螭 dan 青虯 (qiu hijau) berkelana di Jizhou (冀州) ketika langit cerah dan bumi tenang, binatang berbisa tidak bertindak dan burung tidak ketakutan; mereka masuk semak, makan tanaman, dan langkahnya tidak keluar dari satu petak lahan.",
+          "quote": "今夫赤螭、青虯之游冀州也，天清地定，毒獸不作，飛鳥不駭，入榛薄，食薦梅，噆味含甘，步不出頃畝之區",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c09",
+          "source_id": "qiulong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the same passage, on a morning of dark clouds when yin and yang contend, they (the 赤螭 and 青虯) rise on the whirlwind so that their might moves heaven and earth and their sound shakes the realm; eels sink into the mud, bears crouch, and tigers and leopards dare not roar.",
+          "statement_id": "Dalam bagian yang sama, ketika pagi bermendung gelap dan yin-yang bertarung, mereka (赤螭 dan 青虯) naik di atas angin puyuh sehingga wibawanya menggerakkan langit dan bumi dan suaranya mengguncang negeri; belut menyusup ke lumpur, beruang bersujud, dan harimau serta macan tutul tidak berani mengaum.",
+          "quote": "今夫赤螭、青虯之游冀州也 ... 若乃至於玄雲之素朝，陰陽交爭，降扶風，雜凍雨，扶搖而登之，威動天地，聲震海內，蛇鱔著泥百仞之中，熊羆匍匐丘山盤岩，虎豹襲穴而不敢咆",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c10",
+          "source_id": "qiulong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi describes riders of a thunder chariot (雷車) with winged dragons (應龍) as inner horses and green qiu (青虯) as outer horses, with a white 螭 in front and running snakes behind.",
+          "statement_id": "Huainanzi menggambarkan pengendara kereta guntur (雷車) dengan naga bersayap (應龍) sebagai kuda dalam dan 青虯 (qiu hijau) sebagai kuda luar, dengan 白螭 di depan dan ular berlari di belakang.",
+          "quote": "乘雷車，服駕應龍，驂青虯，援絕瑞，席蘿圖，黃雲絡，前白螭，後奔蛇",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c11",
+          "source_id": "qiulong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Shuowen Jiezi scholar Zhu Junsheng (朱駿聲) explains that male long dragons have horns and female ones do not, and among young dragons jiao (蛟) has one horn, qiu (虯) has two, and chi (螭) is hornless.",
+          "statement_id": "Menurut Wikipedia, sarjana Shuowen Jiezi Zhu Junsheng (朱駿聲) menjelaskan bahwa naga long jantan bertanduk dan betina tidak, dan di antara naga muda, jiao (蛟) bertanduk satu, qiu (虯) bertanduk dua, dan chi (螭) tidak bertanduk.",
+          "quote": "The Shuowen Jiezi scholar Zhu Junsheng 朱駿聲 (1788–1834 CE) explains that male long ( 龍) \"dragons\" have horns and female ones do not, and among young dragons, jiao ( 蛟) has one horn, qiu ( 虯) has two, and chi ( 螭) is hornless.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "qiulong-c12",
+          "source_id": "qiulong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Guangya dictionary defines qiu (虯) as a horned dragon and chi (螭) as a hornless dragon.",
+          "statement_id": "Menurut Wikipedia, kamus Guangya mendefinisikan qiu (虯) sebagai naga bertanduk dan chi (螭) sebagai naga tak bertanduk.",
+          "quote": "The c. 230 CE Guangya dictionary defines qiu ( 虯) (written with a rare 黽 \"frog\"-radical graphic variant) as \"horned dragon\" and chi ( 螭) as \"hornless dragon\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e68b1acb1e2e0613320015918aefd1db154b87948916500fd05e0e689d7ebb75"
+      "images": []
     },
     {
       "slug": "tek-ko-kui",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "5cc6de5b170110eb6bb3901f3dfa6f0f3b08efdcf77dde23e4a82576557ff704",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tek-ko-kui-c01",
@@ -3172,27 +3552,101 @@
           "quote": "It is said that they reside in bamboo forest. When someone wants to pass through the bamboo forest, the bamboo will bend and block the way. People can't step over, otherwise, the bamboo will hang people up in the air. The force is so great that it will kill or injure people. If stop moving forward, the bamboo will stand upright again.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c05",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "According to the article, a 竹篙鬼 is not merely a bamboo blocking the road but a being that deliberately bends bamboo to take people's lives; some say it does so to 抓交替 (find a replacement so it can be reborn, like a water ghost), and others say it is simply malicious.",
+          "statement_id": "Menurut artikel itu, 竹篙鬼 bukan sekadar bambu penghalang jalan, melainkan makhluk yang sengaja membengkokkan bambu untuk mencabut nyawa orang; ada yang mengatakan ia melakukannya untuk 抓交替 (mencari pengganti agar bisa bereinkarnasi, seperti hantu air), dan ada yang mengatakan ia hanya berbuat jahat.",
+          "quote": "所謂「竹篙鬼」，指的並不只是攔路的竹子，而是故意把竹子彎下，好取人性命的妖怪。有人說，竹篙鬼這麼做是為了「抓交替」──和水邊的水鬼一樣，取人性命，好去投胎；也有人說，這只是單純地作惡。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c06",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "According to the tale one must not step over the blocking bamboo; one should carefully go around it or curse at it until the bent bamboo stands up again. If one steps over, the bamboo suddenly springs up: lightly, a person is flung into the air and injured; severely, the soul is taken and the person dies in the bamboo grove.",
+          "statement_id": "Menurut kisah itu orang tidak boleh melangkahi bambu penghalang; ia harus berhati-hati menyelinap di sampingnya atau memaki sampai bambu yang membungkuk itu tegak lagi. Jika melangkahinya, bambu mendadak melenting: yang ringan terlempar ke udara dan terluka, yang berat jiwanya direnggut dan mati di rumpun bambu.",
+          "quote": "你千萬、千萬不能跨過，你得謹慎繞過，或者對它破口大罵，直到彎腰的竹子重新立起。否則，在你跨過的那一瞬間，竹子會忽然彈起，輕者將人打得騰空飛起，落下受傷，重者則被勾去魂魄，死在竹林之間",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c07",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "The article quotes a Hakka (客家) legend from Hualien that bamboo was once widely planted in the countryside, many 竹竿鬼 hid in bamboo groves, and a sudden breeze at dusk is when they come out, specifically blocking night travellers.",
+          "statement_id": "Artikel mengutip legenda Hakka (客家) dari Hualien bahwa dahulu banyak bambu ditanam di desa, banyak 竹竿鬼 bersembunyi di rumpun bambu, dan angin sepoi-sepoi mendadak di senja hari adalah saat mereka keluar, khusus menghadang pejalan malam.",
+          "quote": "客家人傳說，以前鄉下地方都種很多竹子，許多竹竿鬼就藏身在竹林裡，黃昏時如果突然起了一陣微風，就是竹竿鬼出來活動的時刻，它專門攔夜行人的路。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c08",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "In the same quoted Hakka legend, an upright bamboo in a clump shakes and slowly bends down across the road; a person who does not know and steps over is caught by the springing bamboo and has the soul taken. If the being does not give way, one swears at it and in the end it withdraws.",
+          "statement_id": "Dalam kutipan legenda Hakka yang sama, sebatang bambu tegak di rumpun bergetar lalu perlahan membungkuk di tengah jalan; orang yang tidak tahu dan melangkahinya ditangkap bambu yang melenting dan jiwanya direnggut. Bila makhluk itu tidak memberi jalan, orang memaki dengan kata kasar dan akhirnya ia menyingkir.",
+          "quote": "竹竿鬼出現時，竹叢裡一支原本直挺挺的竹子會突然抖動起來，慢慢地彎下來倒在路中間等待有人經過，八字輕的人就會碰上這種鬼，不知情的人一腳跨過去，竹竿鬼會突然彈起將人抓住，人的魂魄就被它抓去了。如果它不讓路就罵粗話，最後它會識相的退開讓人過。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c09",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "According to the article, the earliest written record of the 竹篙鬼 can be traced to the Chinese-language edition of the Taiwan Nichinichi Shinpo (臺灣日日新報) of 1 May, Meiji year 43 (明治 43 年 5 月 1 日), in a report titled 照身鏡 that describes the 竹篙鬼 as having a big head and a long body.",
+          "statement_id": "Menurut artikel, catatan tertulis paling awal tentang 竹篙鬼 dapat ditelusuri ke edisi Han Wen koran Taiwan Nichinichi Shinpo (臺灣日日新報) tanggal 1 Mei Meiji tahun ke-43 (明治 43 年 5 月 1 日), dalam laporan berjudul 照身鏡 yang menyebut 竹篙鬼 berkepala besar dan bertubuh panjang.",
+          "quote": "「竹篙鬼」最早有紀錄的文獻，可追溯至明治 43 年 5 月 1 日的漢文版臺灣日日新報，一篇以「照身鏡」為題的報導，提到竹篙鬼「頭大身長」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c10",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "The article's authors conclude that the 竹篙鬼 and the 竹竿鬼 are really two entirely different beings confused because their names are similar.",
+          "statement_id": "Penulis artikel menyimpulkan bahwa 竹篙鬼 dan 竹竿鬼 sebenarnya dua makhluk yang sama sekali berbeda yang tercampur karena namanya mirip.",
+          "quote": "這樣看來，其實「竹篙鬼」和「竹竿鬼」根本是兩種完全不同的妖怪，只是因為名字相似而被混為一談。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c11",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "The article says the Sakizaya (撒奇萊雅族) also have a similar legend of a demon called 嘎利亞 that makes an arched bamboo trap that may injure or kill whoever passes.",
+          "statement_id": "Artikel menyebut suku Sakizaya (撒奇萊雅族) juga memiliki legenda serupa tentang iblis bernama 嘎利亞 yang membuat jebakan melengkung dari bambu sehingga orang yang melewatinya bisa terluka atau mati.",
+          "quote": "連撒奇萊雅族都有與竹篙鬼相似的傳說，說是一種名為「嘎利亞」的惡魔，會把竹子做成拱型的陷阱，走過可能會受傷、死亡。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tek-ko-kui-c12",
+          "source_id": "tek-ko-kui-s2",
+          "host": "pansci.asia",
+          "statement": "The article's authors propose a hypothesis that the blocking bamboo could arise when a young shoot's tip is pressed into the soil and keeps growing like a spring, springing up when someone steps over it and the soil shakes.",
+          "statement_id": "Penulis artikel mengajukan hipotesis bahwa bambu penghalang jalan bisa terjadi bila pucuk bambu muda tertekan hingga menancap ke tanah lalu terus tumbuh seperti pegas, dan melenting ketika orang melangkahinya dan tanah bergetar.",
+          "quote": "發尖後的竹筍，若是受到人類壓過、動物踩過、落石壓住等等外力，使得嫩竹的頂端插進土裡。此時，竹子內的節點開始生長，一方面受到土地的阻擋，一方面仍以極快的速度長長，竹子便會像彈簧那般，儲存越來越多的張力。接著，一個沒聽過禁忌的人跨過攔路的竹子，土壤受到震動而鬆動，致使竹子彈起，使人受傷或死亡，完成竹篙鬼的傳說。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7255f97af34a581e935b7c2d826b6d743aed5e9703aa4d908d07276b63adae71"
+      "images": []
     },
     {
       "slug": "wd-q89656688",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "610a817cc4f4492b6c0f1484403989872a0414d448a2386dc899451c4fd6e111",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q89656688-c01",
@@ -3223,10 +3677,79 @@
           "quote": "在1990年代初開始出現，於1995年經自由時報刊出的地方軼聞而廣泛流傳，大意描述有民眾至高雄縣岡山鎮（今高雄市岡山區）的溪裡（另一說為嘉義市蘭潭）出遊釣起一尾吳郭魚，燒烤欲食用時卻聽到用閩南語詭異的聲音詢問：「魚肉好吃否？」之後其拍攝的照片魚的上頭還浮現人臉，令當事人毛骨悚然。其後台視玫瑰之夜鬼話連篇曾以此題材製播節目，並展示出所謂的「靈異照片」。2018年，根據此傳說改拍成電影《紅衣小女孩》的外傳:《人面魚：紅衣小女孩外傳》。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c04",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "According to the PanSci article, the urban legend of the 人面魚 tells of a group fishing by a stream and grilling a large tilapia, when an old woman's voice speaking Taiwanese (台語) suddenly asks, 'Is the fish meat tasty?' (魚肉好吃否？).",
+          "statement_id": "Menurut artikel PanSci, legenda urban 人面魚 berkisah tentang sekelompok orang memancing di tepi sungai dan memanggang seekor ikan nila besar, lalu tiba-tiba terdengar suara perempuan tua berbahasa Taiwan (台語) yang bertanya, 'Apakah daging ikan ini enak?' (魚肉好吃否？).",
+          "quote": "某天一群人到溪邊釣魚，其中有人釣到了一條巨大的吳郭魚，眾人立刻將其烤食。當大家吃喝得正高興，忽然聽見一個蒼老的女聲，操著台語問：「魚肉好吃否？」",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c05",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "In the story, the grilled tilapia was found to be opening and closing its mouth with an old woman's face on its body; three people vomited on the spot, one took a photo of the fish, and the next day the person who caught it died in his sleep of unknown cause.",
+          "statement_id": "Dalam kisah itu, ikan panggang tersebut ternyata membuka-tutup mulutnya dan wajah seorang perempuan tua tampak pada tubuhnya; tiga orang langsung muntah, seorang memotret ikan itu, dan keesokan harinya orang yang memancing ikan tersebut meninggal dalam tidurnya dengan sebab tak jelas.",
+          "quote": "大家四處尋找聲音的來源，直到聽到第二次問句，才發現竟然是被烤熟的吳郭魚一張一合地開口說話，仔細一看，魚身上還浮現一名老太婆的臉。其中三人當場嘔吐，一人拿相機將魚拍了下來，到了隔天，釣起那條魚的人在睡夢中死去，死因不明。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c06",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "The article says the legend has very many variants with the same outline but differing details: the place is given as Gangshan in Kaohsiung (高雄岡山), Lantan in Chiayi (嘉義蘭潭), or Tainan and Pingtung; the photo date ranges from December 1994 to July 1995; and the number of people is 3, 4, 6 or 8.",
+          "statement_id": "Artikel itu menyebut legenda ini punya banyak varian dengan inti serupa tetapi detail berbeda: lokasinya disebut Gangshan di Kaohsiung (高雄岡山), Lantan di Chiayi (嘉義蘭潭), atau Tainan dan Pingtung; waktu foto dari Desember 1994 sampai Juli 1995; dan jumlah orang 3, 4, 6, atau 8.",
+          "quote": "這則傳說的變體非常多，故事的梗概雖然大致相同，細節卻有許多差異。比如事發地點，有的說是高雄岡山，有的說是嘉義蘭潭，也有說是台南、屏東的；照片拍攝時間，從1994年12月到1995年7月都有；參與人數也有3人、4人、6人、8人的版本",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c07",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "According to the article, because of the legend the fish-farming trade plunged: the price of tilapia per kilogram dropped from 45 to 35 and fishing-pond businesses grew quiet.",
+          "statement_id": "Menurut artikel itu, akibat legenda ini usaha ikan budidaya anjlok: harga ikan nila per kilogram turun dari 45 menjadi 35 dan usaha pemancingan pun sepi.",
+          "quote": "當時因為人面魚的傳說，養殖魚業的生意一落千丈，吳郭魚每公斤價格從45元掉到35元，就連釣魚場生意也變得冷冷清清。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c08",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "The article quotes a parapsychology teacher on the television programme Guihua Lianpian (鬼話連篇) that many people mailed him the 人面魚 photograph, and some told him that whoever receives the photo must copy and send it on to ward off misfortune (消災解厄).",
+          "statement_id": "Artikel itu mengutip seorang ahli ilmu gaib dalam acara televisi Guihua Lianpian (鬼話連篇) bahwa banyak orang mengirimkan foto 人面魚 kepadanya dan sebagian mengatakan bahwa orang yang menerima foto itu harus menyalin dan mengirimkannya agar terhindar dari bencana (消災解厄).",
+          "quote": "節目當中靈學老師提到，有許多人將人面魚照片寄給他，並且告訴他人面魚的故事（雖然版本各不相同）。其中有人告訴他，「拿到這張照片，一定要拷貝一張送出去，這樣才能夠消災解厄。」",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c09",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "The article records a 魚精 (fish-spirit) legend at Lantan (蘭潭) in Chiayi: a great fish spirit is said to take a human life in return whenever its fish soldiers are caught by anglers, so each large fish caught is followed by a drowning, called 蘭潭抓交替.",
+          "statement_id": "Artikel itu mencatat legenda 魚精 (siluman ikan) di Waduk Lantan (蘭潭) di Chiayi: konon seekor siluman ikan besar mengambil satu nyawa sebagai ganti tiap kali anak buahnya ditangkap pemancing, sehingga tiap ikan besar yang ditangkap diikuti satu kejadian tenggelam, yang disebut 蘭潭抓交替.",
+          "quote": "傳說蘭潭內住著一隻大魚精，每當他的魚兵魚將被釣客抓走，就會抓一條人命來賠，因此每釣起一隻大魚，就會發生一起溺水事件，這被稱為「蘭潭抓交替」。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q89656688-c10",
+          "source_id": "wd-q89656688-s2",
+          "host": "pansci.asia",
+          "statement": "The article's authors explain that the human brain, being oversensitive to faces, can see a face in any image with some outline, and conclude that the 人面魚 is merely a coincidence from the brain's sensitivity to faces.",
+          "statement_id": "Penulis artikel menjelaskan bahwa otak manusia yang sangat peka terhadap wajah dapat menganggap pola yang hanya memiliki sedikit kontur sebagai sebuah wajah, dan menyimpulkan bahwa 人面魚 hanyalah kebetulan hasil kepekaan otak terhadap wajah.",
+          "quote": "只要有一些輪廓，我們對人臉過度敏感的大腦，就可以把它看成一張臉。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c25bed22b03b1a31cf3ab8ee672748fd2fc09757b8f652e05ea1bcf61f2d242d"
+      "images": []
     },
     {
       "slug": "snakes-in-chinese-mythology",
@@ -3270,20 +3793,15 @@
     },
     {
       "slug": "wuzhiqi",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "35c08b081c8e62b1128d8c76b59bd36a52d3812e1e8fea74c669adf26ae5c7a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wuzhiqi-c01",
@@ -3334,10 +3852,89 @@
           "quote": "Wuzhiqi \"has provided many scholars with a prototype of Sun Wukong\" ... but that Wuzhiqi and Sun Wukong are \"kept quite distinct\" in the novel.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c06",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji (太平廣記) text names a water god of the Huai (淮) and Guo (渦) rivers, Wuzhiqi (無支祁), skilled at answering and speaking and able to judge the depth of the rivers and the distance across the plains.",
+          "statement_id": "Teks Taiping Guangji (太平廣記) menyebut dewa air Sungai Huai (淮) dan Sungai Guo (渦) bernama Wuzhiqi (無支祁) yang pandai menjawab dan berbicara serta dapat membedakan dalam-dangkalnya sungai dan jauh-dekatnya dataran.",
+          "quote": "乃獲淮、渦水神，名無支祁，善應對言語，辨江淮之淺深，原隰之遠近。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c07",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Its form is like an ape with a shrunken nose, high forehead, blue-green body, white head, golden eyes and snow-white teeth; its neck can stretch a hundred chi, its strength surpasses nine elephants, and it strikes, leaps and runs swiftly.",
+          "statement_id": "Wujudnya seperti kera dengan hidung pendek, dahi tinggi, tubuh biru kehijauan, kepala putih, mata emas, dan taring seputih salju; lehernya dapat memanjang seratus chi, tenaganya melebihi sembilan gajah, dan ia gesit menyerang, melompat, dan berlari.",
+          "quote": "名無支祁，善應對言語，辨江淮之淺深，原隰之遠近。形若猿猴，縮鼻高額，青軀白首，金目雪牙，頸伸百尺，力窬九象，搏擊騰踔疾奔，輕利倏忽，聞視不可久。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c08",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Yu (禹) handed it to Zhanglü (章律) and Niaomuyou (鳥木由), who could not subdue it; only Gengchen (庚辰) could.",
+          "statement_id": "Yu (禹) menyerahkannya kepada Zhanglü (章律) dan Niaomuyou (鳥木由) tetapi keduanya tidak dapat menaklukkannya; hanya Gengchen (庚辰) yang mampu menaklukkannya.",
+          "quote": "乃獲淮、渦水神，名無支祁，善應對言語 ... 禹授之章律，不能制；授之鳥木由，不能制；授之庚辰，能制。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c09",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Gengchen (庚辰) drove off the spirit-beings crowding around it in battle; its neck was chained and its nose pierced with a golden bell, and it was moved to the foot of Turtle Mountain (龜山) at Huaiyin (淮陰) so the Huai River would flow peacefully to the sea. After that, those who drew this form were said to avoid the troubles of Huai waves, wind and rain.",
+          "statement_id": "Gengchen (庚辰) mengusir makhluk-makhluk gaib yang mengerumuninya lewat pertempuran; leher Wuzhiqi dirantai dan hidungnya ditindik lonceng emas, lalu ia dipindahkan ke kaki Gunung Gui (龜山) di Huaiyin (淮陰) agar Sungai Huai mengalir tenang ke laut. Sejak itu, orang yang menggambar wujud ini dikatakan terhindar dari bencana gelombang dan hujan angin Sungai Huai.",
+          "quote": "乃獲淮、渦水神，名無支祁，善應對言語 ... 鴟脾桓木魅水靈山妖石怪，奔號聚繞以數十載，庚辰以戰逐去。頸鎖大索，鼻穿金鈴，徙淮陰之龜山之足下，俾淮水永安流注海也。庚辰之後，皆圖此形者，免淮濤風雨之難。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c10",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Li Tang (李湯) story, dozens of fishermen and swimmers got hold of an iron chain and could not control it until more than fifty oxen were added, when the chain stirred and gradually drew toward the bank.",
+          "statement_id": "Dalam kisah Li Tang (李湯), puluhan nelayan dan perenang menemukan rantai besi di kaki gunung dan tidak mampu menariknya sampai lebih dari lima puluh lembu ditambahkan, hingga rantai itu bergerak dan sedikit demi sedikit mendekati tepi.",
+          "quote": "遂告湯，湯命漁人及能水者數十，獲其鎖，力莫能制。加以牛五十餘頭，鎖乃振動，稍稍就岸。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c11",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "At the end of the chain appeared a beast shaped like an ape, with a white head, long mane, snow-white teeth and golden claws, which burst ashore about five zhang tall.",
+          "statement_id": "Di ujung rantai itu muncul seekor binatang berbentuk seperti kera dengan kepala putih, surai panjang, taring seputih salju, dan cakar emas, yang naik ke darat dengan tinggi sekitar lima zhang.",
+          "quote": "鎖之末，見一獸，狀有如猿，白首長鬐，雪牙金爪，闖然上岸，高五丈許。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c12",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The beast finally stretched its neck and opened eyes that flashed like lightning, glared at the people as if to rage so that the onlookers fled, then slowly dragged the chain and the oxen into the water and never reappeared.",
+          "statement_id": "Binatang itu akhirnya menjulurkan leher dan membuka matanya yang berkilau seperti kilat, menoleh ke orang-orang seolah hendak mengamuk sehingga para penonton lari, lalu perlahan menarik rantai beserta lembu-lembu itu masuk ke air dan tidak muncul lagi.",
+          "quote": "久乃引頸伸欠，雙目忽開，光彩若電。顧視人焉，欲發狂怒。觀者奔走。獸亦徐徐引鎖拽牛，入水去，竟不復出。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wuzhiqi-c13",
+          "source_id": "wuzhiqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text concludes that what Li Tang (李湯) saw matches Yang Heng's (楊衡) account and the Yue Du Jing (岳瀆經).",
+          "statement_id": "Teks menyimpulkan bahwa apa yang dilihat Li Tang (李湯) cocok dengan penuturan Yang Heng (楊衡) dan dengan Yue Du Jing (岳瀆經).",
+          "quote": "獸亦徐徐引鎖拽牛，入水去，竟不復出。 ... 即李湯之見，與楊衡之說，與《岳瀆經》符矣。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ebbe0f8a7b04046b1efff2b708e83176333db1b87da6147f19e93cd19bae383f"
+      "images": []
     },
     {
       "slug": "ao-run",
@@ -3392,20 +3989,15 @@
     },
     {
       "slug": "bifang",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-4.md",
+      "entry_sha256": "cf1bb828a32612891f40d3ad02a0eb870c6c1265afc4a29b2b62221d5dc5b2cf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bifang-c01",
@@ -3456,10 +4048,49 @@
           "quote": "The Bifang bird is described in the Huainanzi, developed by various persons associated with the circle around Liu An, ruler of Huainan, dating back to the second century BCE. Huainanzi associates the Bifang bird with the Wu Xing element Wood (Strassberg 2002, 110–111)",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "bifang-c06",
+          "source_id": "bifang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing describes a bird named Bifang (畢方) shaped like a crane, one-legged, with red markings on a blue-green body and a white beak.",
+          "statement_id": "Shanhaijing menggambarkan burung bernama Bifang (畢方) berbentuk seperti bangau, berkaki satu, bercorak merah pada tubuh biru kehijauan, dan berparuh putih.",
+          "quote": "有鳥焉，其狀如鶴，一足，赤文青質而白喙，名曰畢方，其鳴自叫也，見則其邑有譌火",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bifang-c07",
+          "source_id": "bifang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Shanhaijing, its cry is like calling its own name, and when it is seen, the town (邑) where it appears suffers a strange or erroneous fire (譌火).",
+          "statement_id": "Menurut Shanhaijing, cicitan burung ini seperti menyebut namanya sendiri, dan bila ia terlihat, kota (邑) setempat akan terkena api yang keliru atau ganjil (譌火).",
+          "quote": "有鳥焉，其狀如鶴，一足，赤文青質而白喙，名曰畢方，其鳴自叫也，見則其邑有譌火",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bifang-c08",
+          "source_id": "bifang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The one-legged bird is recorded on Mount Zhang'e (章莪之山), described as lacking grass and trees and rich in jade-like stones.",
+          "statement_id": "Burung berkaki satu itu tercatat di Gunung Zhang'e (章莪之山), yang disebut tanpa rumput dan pohon serta kaya batu giok.",
+          "quote": "又西二百八十里，曰章莪之山，無草木，多瑤碧 ... 有鳥焉，其狀如鶴，一足",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bifang-c09",
+          "source_id": "bifang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Hanfeizi, when the Yellow Emperor (黄帝) gathered ghosts and spirits atop Mount Tai, Bifang was beside his chariot (象車) drawn by six dragons, with Chiyou in front, the Wind Earl sweeping, and the Rain Master sprinkling the road.",
+          "statement_id": "Dalam Hanfeizi, ketika Kaisar Kuning (黄帝) mengumpulkan roh dan dewa di atas Gunung Tai, Bifang berada di sisi kereta (象車) yang ditarik enam naga, sementara Chiyou berada di depan, Dewa Angin menyapu, dan Dewa Hujan menyiram jalan.",
+          "quote": "黄帝合鬼神於泰山之上，駕象車而六蛟龍，畢方並鎋，蚩尤居前，風伯進掃，雨師洒道",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e65763773083417b59646123df98d30d662bb142a7e038f70e518b648d21646e"
+      "images": []
     },
     {
       "slug": "chang-monster",
