@@ -1,141 +1,156 @@
 # Review batch-095
 
-Diperiksa 2026-09-30T09:11:46.969Z. Berkas: batch-095.md.
+Diperiksa 2026-10-06T14:33:55.017Z. Berkas: batch-095.md, batch-095-fix-1.md.
 
 ## chloris — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chloris-c01 | exact | en.wikipedia.org | Chloris was a minor nymph of spring, flowers and new growth, believed to dwell in the Elysian Fields. | was a minor nymph who was associated with spring, flowers and new growth, believed to have dwelt in the Elysian Fields. |
 | chloris-c02 | exact | en.wikipedia.org | Chloris is the equivalent of the Roman goddess Flora, deity of fertility and vegetation. | Chloris is the equivalent of the Roman goddess Flora, a deity presiding over fertility and vegetation. |
 | chloris-c03 | exact | en.wikipedia.org | She was abducted by Zephyrus, god of the west wind. | was abducted by Zephyrus, the god of the west wind |
+| chloris-c04 | exact | www.theoi.com | Chloris was the goddess of flowers and a nymph of the Islands of the Blessed; she was the wife of Zephyros the West-Wind and the mother of Karpos, god of fruit. Her Roman name was Flora. | KHLORIS (Chloris) was the goddess of flowers and a nymph of the Islands of the Blessed. She was the wife of Zephyros the West-Wind and the mother of Karpos (Carpus), god of fruit. |
+| chloris-c05 | exact | www.theoi.com | In the quoted speech her husband filled the garden with flowers and told her to have jurisdiction of the flower. | My husband filled it with well-bred flowers, saying : "Have jurisdiction of the flower, goddess." |
+| chloris-c06 | exact | www.theoi.com | In the quoted speech, a flower from the fields of Olenus, unique to her gardens, will grant Juno's wish; Juno touches it, conceives, and Mars is created. | from the fields of Olenus will grant your wish. It's unique to my gardens. ... Juno feels its touch and at the touch conceives. She bulges, and enters Thrace and west Propontis, and fulfils her wish: Mars [Ares] was created. |
+| chloris-c07 | exact | www.theoi.com | The resemblance between the names Flora and Chloris led the later Romans to identify the two divinities. | The resemblance between the names Flora and Chloris led the later Romans to identify the two divinities. |
+| chloris-c08 | exact | www.theoi.com | In the quoted speech the goddess says she was Chloris and is now called Flora, because Latin speech corrupted a Greek letter of her name. | I was Chloris, whom am now called Flora. Latin speech corrupted a Greek letter of my name. |
 
 
 ## lampetia — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lampetia-c01 | exact | en.wikipedia.org | Lampetia (also Lampetie) was a daughter of the sun god Helios. | also spelled Lampetie, was a daughter of the sun god Helios. |
 | lampetia-c02 | exact | en.wikipedia.org | With her sister Phaethusa she guarded her father's cattle and sheep on Thrinacia (Sicily). | She and her sister Phaethusa watched over their father's prized herds of cattle and sheep on the island of Thrinacia (Sicily). |
 | lampetia-c03 | exact | en.wikipedia.org | Lampetia wielded an orichalcum staff and herded the cattle. | Lampetia wielded an orichalcum staff and herded the cattle. |
+| lampetia-c04 | exact | www.theoi.com | In the quoted text the herds are pastured by lovely-haired nymph goddesses named Phaethousa and Lampetie, daughters of the sun-god Hyperion (Helios) and Neaera. | They are pastured by goddesses, lovely-haired Nymphai (Nymphs) named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera |
+| lampetia-c05 | exact | www.theoi.com | In the quoted text the animals are seven herds of cows and as many flocks of sheep, fifty beasts in each, with no increase from births and no decrease from deaths. | they are Helios'--seven herds of cows and as many fine flocks of sheep. In each herd and each flock there are fifty beasts; no births increase them, no deaths diminish them |
+| lampetia-c06 | exact | www.theoi.com | According to the encyclopedia, the island of Thrinacia (Sicily) was sacred to Helios; his flocks of oxen and sheep were 350 heads each, never increasing or decreasing, and were attended by his daughters Phaetusa and Lampetia. | The island of Thrinacia (Sicily) was sacred to Helios, and he there had flocks of oxen and sheep, each consisting of 350 heads, which never increased or decreased, and were attended to by his daughters Phaetusa and Lampetia. |
+| lampetia-c07 | exact | www.theoi.com | In the quoted text Lampetie hurried to Hyperion (Helios) the sun god to tell him that his cattle had been slain. | But without delay Lampetie (Lampetia) of the trailing robe sped off to Hyperion [Helios] the sun god to tell him that we had slain his cattle |
 
 
 ## marica — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | marica-c01 | exact | en.wikipedia.org | In Roman mythology, Marica was a nymph, mother of Latinus. | In Roman mythology, Marica was a nymph, the mother of Latinus. |
 | marica-c02 | exact | en.wikipedia.org | The sacred forest near Minturnae was dedicated to Marica. | The sacred forest near Minturnae was dedicated to Marica. |
 | marica-c03 | exact | en.wikipedia.org | Various Roman authors say she was a form of Diana or Venus. | Various Roman authors claims that she was a form of Diana or Venus. |
+| marica-c04 | exact | www.perseus.tufts.edu | Marica was a Latin nymph who was worshipped at Minturnae, and a grove on the river Liris was sacred to her. | a Latin nymph who was worshipped at Minturnae, and to whom a grove was sacred on the river Liris. |
+| marica-c05 | exact | www.perseus.tufts.edu | She was said to be the mother of Latinus by Faunus. | She was said to be the mother of Latinus by Faunus. |
+| marica-c06 | exact | www.perseus.tufts.edu | Servius remarks that some considered her to be identical with Aphrodite and others with Circe. | Servius (ad Aen. l.c. and 12.164) remarks that some considered her to be identical with Aphrodite and others with Circe. |
 
 
 ## metope — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | metope-c01 | exact | en.wikipedia.org | Metope is the Arcadian naiad daughter of the river god Ladon, sister of Daphne. | Metope, the Arcadian naiad daughter of the river god Ladon, thus sister to Daphne. |
 | metope-c02 | exact | en.wikipedia.org | Her waters were near Stymphalus in the Peloponnese. | Her waters were near the town of Stymphalus in the Peloponnesus. |
 | metope-c03 | exact | en.wikipedia.org | She married the river god Asopus and bore him 12 or 20 daughters. | She married the river god Asopus by whom she had several (either 12 or 20) daughters |
+| metope-c04 | exact | www.theoi.com | Metope was the Naiad-nymph of the springs and stream of Metope near the town of Stymphalos in Arkadia (southern Greece). | METOPE was the Naiad-nymph of the springs and stream of Metope near the town of Stymphalos in Arkadia (southern Greece). |
+| metope-c05 | exact | www.theoi.com | Her waters were probably regarded as the source of the Sikyonian Asopus, the stream of her river-god husband. | Her waters were probably regarded as the source of the Sikyonian Asopos (Asopus), the stream of her river-god husband. |
+| metope-c06 | exact | www.theoi.com | In the quoted lyric text, Metope is the maid of flowers who bore Thebe, famous rider of horse, and the speaker's mother's mother came from Stymphalos. | From Stymphalos (Stymphalus) [in Arkadia] my mother's mother came, that maid of flowers, Metope, who bore Thebe, famous rider of horse. |
+| metope-c07 | exact | www.theoi.com | In the quoted text, Metope, a daughter of the river Ladon, married the river Asopos and bore two sons, Ismenos and Pelagon, and twenty daughters, of whom Zeus kidnapped one named Aigina. | Metope, herself a daughter of the river Ladon, married him [the river Asopos] and bore two sons, Ismenos (Ismenus) and Pelagon, and twenty daughters, of whom Zeus kidnapped one named Aigina (Aegina). |
+| metope-c08 | exact | www.theoi.com | In the quoted text there were born two sons, Pelasgos and Ismenos, and twelve daughters, among them Korkyra and Salamis. | to whom were born two sons, Pelasgos (Pelasgus) and Ismenos (Ismenus), and twelve daughters, Korkyra (Corcyra) and Salamis |
+| metope-c09 | exact | www.theoi.com | In the quoted text, men who honour rivers have statues made of them, some anthropomorphic and others in bovine form; the Stymphalians attribute a likeness to cattle to Erasinos and Metope. | men who honour them, and have statues made of them, in some cases set up anthropomorphic statues, while others give them bovine form. A likeness to cattle is attributed by the Stymphalians to Erasinos and Metope. |
 
 
 ## orseis — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | orseis-c01 | exact | en.wikipedia.org | Orseis was the naiad of a spring in Thessaly and the mythical ancestor of the Greeks. | was the water-nymph (Naiad) of a spring in Thessalia, Greece, and the mythical ancestor of the Greeks. |
 | orseis-c02 | exact | en.wikipedia.org | According to the Library, Orseis married Hellen, son of Deucalion and Pyrrha. | According to the Library, Orseis married Hellen, son of Deucalion and Pyrrha |
+| orseis-c03 | exact | www.theoi.com | Orseis was the Naiad-nymph of spring of a town in the region of Hellas in Thessalia (northern Greece) and the wife of Hellen, an early king of the Hellenes of northern Greece. | ORSEIS was the Naiad-nymph of spring of a town in the region of Hellas in Thessalia (northern Greece). She was the wife of Hellen, an early king of the Hellenes of northern Greece. |
+| orseis-c04 | exact | www.theoi.com | Hellen was the only son of Deukalion and Pyrrha, the two survivors of the Great Deluge; the descendants of Hellen and Orseis would come to rule most of Greece. | He was the only son of Deukalion and Pyrrha, the two survivors of the Great Deluge. Hellen and Orseis' descendants would come to rule most of Greece. |
+| orseis-c05 | exact | www.theoi.com | In the quoted text, Hellen and a Nymphe named Orseis had Doros, Xouthos, and Aiolos. | Hellen and a Nymphe named Orseis had Doros (Dorus), Xouthos (Xuthus), and Aiolos (Aeolus). |
+| orseis-c06 | exact | www.theoi.com | Orseis was perhaps a daughter of Okeanos or the River Peneios. | Perhaps a daughter of OKEANOS or the River PENEIOS |
 
 
 ## pallas-q2463695 — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | pallas-q2463695-c01 | exact | en.wikipedia.org | Pallas was one of the Gigantes, offspring of Gaia born from the blood of the castrated Uranus. | was one of the Gigantes (Giants), the offspring of Gaia, born from the blood of the castrated Uranus. |
 | pallas-q2463695-c02 | exact | en.wikipedia.org | In the Gigantomachy he was flayed by Athena, who used his skin as a shield. | during the Gigantomachy, the cosmic battle of the Giants with the Olympian gods, he was flayed by Athena, who used his skin as a shield. |
+| pallas-q2463695-c03 | exact | www.theoi.com | Pallas was a Gigante slain by Athena in the war against the gods; she stripped off his goatish skin and made of it a shield (the aigis). | A Gigante slain by Athena in the war against the gods. She stripped off his goatish skin and made of it a shield for the battle (the aigis). |
+| pallas-q2463695-c04 | exact | www.theoi.com | In the quoted text, Athena stripped the skin off Pallas and used it to protect her own body during the battle. | She stripped the skin off Pallas and used it to protect her own body during the battle. |
+| pallas-q2463695-c05 | exact | www.theoi.com | According to some, Pallas was not a Gigante but a Titan opponent of Athena in the earlier Titanomachy. | According to some, Pallas was not a Gigante but a Titan opponent of Athena in the earlier Titanomakhia (War of the Titans). |
+| pallas-q2463695-c06 | exact | www.theoi.com | The Gigante Pallas was perhaps the same as the Titan of the same name. | He was perhaps the same as the Titan of the same name. |
 
 
 ## agathodaemon — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | agathodaemon-c01 | exact | en.wikipedia.org | Agathos Daimon was originally a lesser deity (daemon) of classical Greek and Graeco-Egyptian religion. | originally was a lesser deity (daemon) of classical ancient Greek religion and Graeco-Egyptian religion. |
 | agathodaemon-c02 | exact | en.wikipedia.org | In Greek form he was a household god, offered libations with Zeus Soter after meals. | In his original Greek form, he served as a household god, to whom, along with Zeus Soter, libations were made after a meal. |
 | agathodaemon-c03 | exact | en.wikipedia.org | In Ptolemaic times he became a serpentine civic god, special protector of Alexandria. | a prominent serpentine civic god, who served as the special protector of Alexandria |
+| agathodaemon-c04 | exact | en.wikisource.org | In Greek mythology, Agathodaemon was the good spirit of cornfields and vineyards. | in Greek mythology, the "good spirit" of cornfields and vineyards. |
+| agathodaemon-c05 | exact | en.wikisource.org | It was the custom of the Greeks to drink a cup of pure wine in his honour at the end of each meal. | It was the custom of the Greeks to drink a cup of pure wine in his honour at the end of each meal |
+| agathodaemon-c06 | exact | en.wikisource.org | He was also regarded as the protecting spirit of the state and of individuals. | He was also regarded as the protecting spirit of the state and of individuals. |
+| agathodaemon-c07 | exact | en.wikisource.org | In works of art he is represented as a serpent, or as a young man with a cornucopia and a bowl in one hand and a poppy and ears of corn in the other. | He is represented in works of art in the form of a serpent, or of a young man with a cornucopia and a bowl in one hand, and a poppy and ears of corn in the other. |
+| agathodaemon-c08 | exact | en.wikipedia.org | His other role was as a genus of serpentine household gods, the Agathoi Daimones, individual protectors of the homes in which they were worshipped. | the other as a genus of serpentine household gods, the Agathoi Daimones, individual protectors of the homes in which they were worshipped. |
+| agathodaemon-c09 | exact | en.wikipedia.org | His origin in Alexandria is disputed: two conflicting views paint him either as a Greek cultural importation later identified with Serapis, or as a Hellenized native Egyptian household god. | His origin in Alexandria is a matter of dispute, with two conflicting views either painting Agathos Daimon as a Greek cultural importation later identified with Serapis ... or as a Hellenized native Egyptian household god. |
 
 
 ## cebren — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cebren-c01 | exact | en.wikipedia.org | Cebren was a Greek river god whose river lay near Troy. | was a Greek river-god, whose river was located near Troy. |
 | cebren-c02 | exact | en.wikipedia.org | He was the son of Oceanus and Tethys and father of Asterope and Hesperia. | He was the son of Oceanus and Tethys and he was the father of Asterope and Hesperia |
+| cebren-c03 | exact | www.theoi.com | Kebren (Cebren) was a river-god of the Troad in north-western Mysia, Anatolia. | KEBREN (Cebren) was a river-god of the Troad in north-western Mysia, Anatolia. |
+| cebren-c04 | exact | www.theoi.com | The River Kebren was a tributary of the Skamandros whose headwaters lay in the foothills of Mount Ida near the town of Kebrene. | The River Kebren was a tributary of the Skamandros (Scamander) whose headwaters lay in the foothills of Mount Ida near the town of Kebrene (Cebrene). |
+| cebren-c05 | exact | www.theoi.com | In the quoted text, Alexandros (Paris) married Oinone, daughter of the river Kebren. | Alexandros (Alexander) [Paris] married Oinone (Oenone), daughter of the river Kebren (Cebren). |
+| cebren-c06 | exact | www.theoi.com | In the quoted text, after Alexandros took Helene to wife, Oinone took his conduct exceedingly ill and returned to Kebren, her father. | Alexandros took Helene to wife : Oinone took his conduct exceedingly ill, and returned to Kebren, the author of her days. |
+| cebren-c07 | exact | www.theoi.com | In the quoted text, Hesperie, daughter of Cebren, is seen by her father's river bank. | Hesperie Cebrenis (Daughter of Cebren) he saw by her father Cebren's river bank. |
+| cebren-c08 | exact | www.theoi.com | Kebren may be the same as the river Heptaporos mentioned by Homer. | Kebren may be the same as the river Heptaporos mentioned by Homer. |
 
 
 ## cymopoleia — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cymopoleia-c01 | exact | en.wikipedia.org | Cymopoleia was a daughter of the sea god Poseidon and wife of Briareus, one of the three Hecatoncheires. | was a daughter of the sea god Poseidon, and the wife of Briareus, one of the three Hecatoncheires. |
 | cymopoleia-c02 | exact | en.wikipedia.org | Her only known Classical mention is in the Hesiodic Theogony. | Her only known mention in Classical antiquity occurs in the Hesiodic Theogony. |
+| cymopoleia-c03 | exact | www.theoi.com | Kymopoleia was a sea-nymph daughter of Poseidon and the wife of the hundred-handed storm-giant Briareos; she was probably a goddess of the violent storm waves generated by her husband. | KYMOPOLEIA (Cymopoleia) was a sea-nymph daughter of the god Poseidon and the wife of the hundred-handed, storm-giant Briareos. She was probably a goddess of the violent storm waves generated by her husband. |
+| cymopoleia-c04 | exact | www.theoi.com | In the quoted text, Poseidon made Briareos his son-in-law by giving him Kymopoleia, his daughter, to wed. | Briareos (Briareus), being goodly, the deep-roaring Earth-Shaker [Poseidon] made his son-in-law, giving him Kymopoleia (Cymopoleia) his daughter to wed. |
+| cymopoleia-c05 | exact | www.theoi.com | In the quoted text, Kymodoke, with Kymatolege and Amphitrite, easily stills the waves and hushes the winds on the open water. | [The Nereid] Kymodoke (Cymodoce) who, with Kymatolege (Cymatolege) and Amphitrite, light of foot, on the misty face of the open water easily stills the waves and hushes the winds in their blowing. |
+| cymopoleia-c06 | exact | www.theoi.com | The note says Kymatolege is named in connection with the Nereides but was not numbered among them, and was probably Kymopoleia, daughter of Amphitrite. | Kymatolege is named in connection with the Nereides but was not numbered amongst them. She was probably Kymopoleia, daughter of Amphitrite, who occurs later in Hesiod. |
 
 
 ## himalia — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | himalia-c01 | exact | en.wikipedia.org | Himalia was a nymph of the eastern end of Rhodes. | was a nymph of the eastern end of the island of Rhodes. |
 | himalia-c02 | exact | en.wikipedia.org | After subduing the Titans, Zeus fell for Himalia and joined with her as a fertile rain. | after Zeus subdued the Titans, he became enamored with Himalia and mated with her in the form of a fertile rain. |
 | himalia-c03 | exact | en.wikipedia.org | She bore him three sons: Spartaeus, Cronius and Cytus. | The latter produced three sons with him, Spartaeus, Cronius, and Cytus |
+| himalia-c04 | exact | www.theoi.com | Himalia was a nymph of the Aegean island of Rhodes; Zeus seduced her when he came to subdue the island's resident Titanes, the Telkhines. | HIMALIA was a nymph of the Aegean island of Rhodes. She was seduced by the god Zeus when he came to subdue the island's resident Titanes--the Telkhines. |
+| himalia-c05 | exact | www.theoi.com | In the quoted text, Zeus became enamoured of one of the Nymphai, Himalia by name, and begat by her three sons: Spartaios, Kronios, and Kytos. | he became enamoured of one of the Nymphai (Nymphs), Himalia by name, and begat by her three sons, Spartaios (Spartaeus), Kronios (Cronius), and Kytos (Cytus). |
+| himalia-c06 | exact | www.theoi.com | Himalia was perhaps identified with Halia, the sister of the Telkhines. | Himalia was perhaps identified with Halia, the sister of the Telkhines. |
 
 
 ## kallikantzaros — lulus-otomatis

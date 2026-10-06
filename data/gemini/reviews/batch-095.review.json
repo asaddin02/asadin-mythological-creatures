@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-09-30T09:11:46.969Z",
+  "checked_at": "2026-10-06T14:33:55.017Z",
   "files": [
-    "batch-095.md"
+    "batch-095.md",
+    "batch-095-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "chloris",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "3793c56f3f78f7462a7bc1124ca7ad6691c75d11304f09cbc4afebfbaee59dc3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chloris-c01",
@@ -53,26 +49,71 @@
           "quote": "was abducted by Zephyrus, the god of the west wind",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chloris-c04",
+          "source_id": "chloris-s2",
+          "host": "www.theoi.com",
+          "statement": "Chloris was the goddess of flowers and a nymph of the Islands of the Blessed; she was the wife of Zephyros the West-Wind and the mother of Karpos, god of fruit. Her Roman name was Flora.",
+          "statement_id": "Chloris adalah dewi bunga dan nimfa Kepulauan Orang Terberkati; ia istri Zephyros, angin barat, dan ibu Karpos, dewa buah. Nama Romawinya Flora.",
+          "quote": "KHLORIS (Chloris) was the goddess of flowers and a nymph of the Islands of the Blessed. She was the wife of Zephyros the West-Wind and the mother of Karpos (Carpus), god of fruit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chloris-c05",
+          "source_id": "chloris-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted speech her husband filled the garden with flowers and told her to have jurisdiction of the flower.",
+          "statement_id": "Dalam tuturan yang dikutip, suaminya mengisi kebun mereka dengan bunga dan berkata agar ia memegang wewenang atas bunga.",
+          "quote": "My husband filled it with well-bred flowers, saying : \"Have jurisdiction of the flower, goddess.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chloris-c06",
+          "source_id": "chloris-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted speech, a flower from the fields of Olenus, unique to her gardens, will grant Juno's wish; Juno touches it, conceives, and Mars is created.",
+          "statement_id": "Dalam tuturan yang dikutip, dikatakan bahwa bunga dari ladang Olenus, yang khas bagi kebunnya, akan mengabulkan keinginan Juno; Juno menyentuhnya, hamil, dan Mars tercipta.",
+          "quote": "from the fields of Olenus will grant your wish. It's unique to my gardens. ... Juno feels its touch and at the touch conceives. She bulges, and enters Thrace and west Propontis, and fulfils her wish: Mars [Ares] was created.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chloris-c07",
+          "source_id": "chloris-s2",
+          "host": "www.theoi.com",
+          "statement": "The resemblance between the names Flora and Chloris led the later Romans to identify the two divinities.",
+          "statement_id": "Kemiripan nama Flora dan Chloris membuat orang Romawi kemudian menyamakan kedua dewi itu.",
+          "quote": "The resemblance between the names Flora and Chloris led the later Romans to identify the two divinities.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chloris-c08",
+          "source_id": "chloris-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted speech the goddess says she was Chloris and is now called Flora, because Latin speech corrupted a Greek letter of her name.",
+          "statement_id": "Dalam tuturan yang dikutip, sang dewi berkata bahwa ia dahulu Chloris dan kini disebut Flora, karena ucapan Latin mengubah satu huruf Yunani pada namanya.",
+          "quote": "I was Chloris, whom am now called Flora. Latin speech corrupted a Greek letter of my name.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "lampetia",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "9082e6c53f27ff109cf2b785534fe6872c2c4b3ac329b79cde457e30eec3f658",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lampetia-c01",
@@ -103,26 +144,61 @@
           "quote": "Lampetia wielded an orichalcum staff and herded the cattle.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lampetia-c04",
+          "source_id": "lampetia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text the herds are pastured by lovely-haired nymph goddesses named Phaethousa and Lampetie, daughters of the sun-god Hyperion (Helios) and Neaera.",
+          "statement_id": "Dalam teks yang dikutip, kawanan itu digembalakan oleh dewi nimfa berambut indah bernama Phaethousa dan Lampetie, putri dewa matahari Hyperion (Helios) dan Neaera.",
+          "quote": "They are pastured by goddesses, lovely-haired Nymphai (Nymphs) named Phaethousa (Phaethusa) and Lampetie (Lampetia), whose father is the sun-god Hyperion [Helios] and whose mother is bright Neaera",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lampetia-c05",
+          "source_id": "lampetia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text the animals are seven herds of cows and as many flocks of sheep, fifty beasts in each, with no increase from births and no decrease from deaths.",
+          "statement_id": "Dalam teks yang dikutip, kawanan itu terdiri dari tujuh kawanan sapi dan sebanyak itu pula kawanan domba, masing-masing lima puluh ekor, tanpa tambahan karena kelahiran atau pengurangan karena kematian.",
+          "quote": "they are Helios'--seven herds of cows and as many fine flocks of sheep. In each herd and each flock there are fifty beasts; no births increase them, no deaths diminish them",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lampetia-c06",
+          "source_id": "lampetia-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the encyclopedia, the island of Thrinacia (Sicily) was sacred to Helios; his flocks of oxen and sheep were 350 heads each, never increasing or decreasing, and were attended by his daughters Phaetusa and Lampetia.",
+          "statement_id": "Menurut ensiklopedia itu, pulau Thrinacia (Sicilia) suci bagi Helios; kawanan sapi dan dombanya masing-masing 350 ekor, tidak bertambah atau berkurang, dan dijaga putri-putrinya Phaetusa dan Lampetia.",
+          "quote": "The island of Thrinacia (Sicily) was sacred to Helios, and he there had flocks of oxen and sheep, each consisting of 350 heads, which never increased or decreased, and were attended to by his daughters Phaetusa and Lampetia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lampetia-c07",
+          "source_id": "lampetia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text Lampetie hurried to Hyperion (Helios) the sun god to tell him that his cattle had been slain.",
+          "statement_id": "Dalam teks yang dikutip, Lampetie bergegas menemui Hyperion (Helios) sang dewa matahari untuk memberi tahu bahwa ternaknya telah dibunuh.",
+          "quote": "But without delay Lampetie (Lampetia) of the trailing robe sped off to Hyperion [Helios] the sun god to tell him that we had slain his cattle",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "marica",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "b6d4a459b3c44d20e0bbc479b5688e7e0def569a25cbfe12f8ffcfa4a7aa8a9c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "marica-c01",
@@ -153,26 +229,51 @@
           "quote": "Various Roman authors claims that she was a form of Diana or Venus.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "marica-c04",
+          "source_id": "marica-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Marica was a Latin nymph who was worshipped at Minturnae, and a grove on the river Liris was sacred to her.",
+          "statement_id": "Marica adalah nimfa Latin yang dipuja di Minturnae; sebuah hutan kecil di tepi sungai Liris suci baginya.",
+          "quote": "a Latin nymph who was worshipped at Minturnae, and to whom a grove was sacred on the river Liris.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "marica-c05",
+          "source_id": "marica-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "She was said to be the mother of Latinus by Faunus.",
+          "statement_id": "Dikatakan bahwa ia ibu Latinus dari Faunus.",
+          "quote": "She was said to be the mother of Latinus by Faunus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "marica-c06",
+          "source_id": "marica-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Servius remarks that some considered her to be identical with Aphrodite and others with Circe.",
+          "statement_id": "Servius mencatat bahwa sebagian orang menganggapnya identik dengan Aphrodite dan yang lain dengan Circe.",
+          "quote": "Servius (ad Aen. l.c. and 12.164) remarks that some considered her to be identical with Aphrodite and others with Circe.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "metope",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "01243f3d2a5b563695cc1c978779f998d04c3960dd0eaf02b20e3929d3d49006",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "metope-c01",
@@ -203,26 +304,81 @@
           "quote": "She married the river god Asopus by whom she had several (either 12 or 20) daughters",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "metope-c04",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "Metope was the Naiad-nymph of the springs and stream of Metope near the town of Stymphalos in Arkadia (southern Greece).",
+          "statement_id": "Metope adalah naiad dari mata air dan aliran Metope di dekat kota Stymphalos di Arkadia (Yunani selatan).",
+          "quote": "METOPE was the Naiad-nymph of the springs and stream of Metope near the town of Stymphalos in Arkadia (southern Greece).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "metope-c05",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "Her waters were probably regarded as the source of the Sikyonian Asopus, the stream of her river-god husband.",
+          "statement_id": "Airnya kemungkinan dianggap sebagai sumber sungai Asopus dari Sikyon, aliran suaminya.",
+          "quote": "Her waters were probably regarded as the source of the Sikyonian Asopos (Asopus), the stream of her river-god husband.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "metope-c06",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted lyric text, Metope is the maid of flowers who bore Thebe, famous rider of horse, and the speaker's mother's mother came from Stymphalos.",
+          "statement_id": "Dalam teks lirik yang dikutip, Metope disebut gadis bunga yang melahirkan Thebe, penunggang kuda termasyhur, dan nenek dari pihak ibu penutur berasal dari Stymphalos.",
+          "quote": "From Stymphalos (Stymphalus) [in Arkadia] my mother's mother came, that maid of flowers, Metope, who bore Thebe, famous rider of horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "metope-c07",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Metope, a daughter of the river Ladon, married the river Asopos and bore two sons, Ismenos and Pelagon, and twenty daughters, of whom Zeus kidnapped one named Aigina.",
+          "statement_id": "Dalam teks yang dikutip, Metope, putri sungai Ladon, menikah dengan sungai Asopos dan melahirkan dua putra, Ismenos dan Pelagon, serta dua puluh putri, di antaranya Aigina yang diculik Zeus.",
+          "quote": "Metope, herself a daughter of the river Ladon, married him [the river Asopos] and bore two sons, Ismenos (Ismenus) and Pelagon, and twenty daughters, of whom Zeus kidnapped one named Aigina (Aegina).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "metope-c08",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text there were born two sons, Pelasgos and Ismenos, and twelve daughters, among them Korkyra and Salamis.",
+          "statement_id": "Dalam teks yang dikutip, lahir dua putra, Pelasgos dan Ismenos, serta dua belas putri, di antaranya Korkyra dan Salamis.",
+          "quote": "to whom were born two sons, Pelasgos (Pelasgus) and Ismenos (Ismenus), and twelve daughters, Korkyra (Corcyra) and Salamis",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "metope-c09",
+          "source_id": "metope-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, men who honour rivers have statues made of them, some anthropomorphic and others in bovine form; the Stymphalians attribute a likeness to cattle to Erasinos and Metope.",
+          "statement_id": "Dalam teks yang dikutip, orang yang menghormati sungai membuat patung sungai, sebagian berwujud manusia dan sebagian berbentuk sapi; orang Stymphalus menisbatkan rupa seperti sapi kepada Erasinos dan Metope.",
+          "quote": "men who honour them, and have statues made of them, in some cases set up anthropomorphic statues, while others give them bovine form. A likeness to cattle is attributed by the Stymphalians to Erasinos and Metope.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "orseis",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "095a1aeca3a5ac96cba126060367915ed6ff23d8b35ff8a2de0bc0ade8983de4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orseis-c01",
@@ -243,26 +399,61 @@
           "quote": "According to the Library, Orseis married Hellen, son of Deucalion and Pyrrha",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "orseis-c03",
+          "source_id": "orseis-s2",
+          "host": "www.theoi.com",
+          "statement": "Orseis was the Naiad-nymph of spring of a town in the region of Hellas in Thessalia (northern Greece) and the wife of Hellen, an early king of the Hellenes of northern Greece.",
+          "statement_id": "Orseis adalah naiad mata air sebuah kota di wilayah Hellas di Thessalia (Yunani utara) dan istri Hellen, raja awal bangsa Hellenes di Yunani utara.",
+          "quote": "ORSEIS was the Naiad-nymph of spring of a town in the region of Hellas in Thessalia (northern Greece). She was the wife of Hellen, an early king of the Hellenes of northern Greece.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orseis-c04",
+          "source_id": "orseis-s2",
+          "host": "www.theoi.com",
+          "statement": "Hellen was the only son of Deukalion and Pyrrha, the two survivors of the Great Deluge; the descendants of Hellen and Orseis would come to rule most of Greece.",
+          "statement_id": "Hellen adalah putra tunggal Deukalion dan Pyrrha, dua orang yang selamat dari Air Bah Besar; keturunan Hellen dan Orseis kelak memerintah sebagian besar Yunani.",
+          "quote": "He was the only son of Deukalion and Pyrrha, the two survivors of the Great Deluge. Hellen and Orseis' descendants would come to rule most of Greece.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orseis-c05",
+          "source_id": "orseis-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Hellen and a Nymphe named Orseis had Doros, Xouthos, and Aiolos.",
+          "statement_id": "Dalam teks yang dikutip, Hellen dan seorang nimfa bernama Orseis memiliki Doros, Xouthos, dan Aiolos.",
+          "quote": "Hellen and a Nymphe named Orseis had Doros (Dorus), Xouthos (Xuthus), and Aiolos (Aeolus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orseis-c06",
+          "source_id": "orseis-s2",
+          "host": "www.theoi.com",
+          "statement": "Orseis was perhaps a daughter of Okeanos or the River Peneios.",
+          "statement_id": "Orseis mungkin putri Okeanos atau Sungai Peneios.",
+          "quote": "Perhaps a daughter of OKEANOS or the River PENEIOS",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "pallas-q2463695",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "d64479857fa3d35905939185cd5a183faa9ed03d4c10aa85a38f0bae9a772829",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pallas-q2463695-c01",
@@ -283,26 +474,61 @@
           "quote": "during the Gigantomachy, the cosmic battle of the Giants with the Olympian gods, he was flayed by Athena, who used his skin as a shield.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pallas-q2463695-c03",
+          "source_id": "pallas-q2463695-s2",
+          "host": "www.theoi.com",
+          "statement": "Pallas was a Gigante slain by Athena in the war against the gods; she stripped off his goatish skin and made of it a shield (the aigis).",
+          "statement_id": "Pallas adalah seorang Gigante yang tewas oleh Athena dalam perang melawan para dewa; Athena mengambil kulitnya yang mirip kulit kambing dan menjadikannya perisai (aigis).",
+          "quote": "A Gigante slain by Athena in the war against the gods. She stripped off his goatish skin and made of it a shield for the battle (the aigis).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pallas-q2463695-c04",
+          "source_id": "pallas-q2463695-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Athena stripped the skin off Pallas and used it to protect her own body during the battle.",
+          "statement_id": "Dalam teks yang dikutip, Athena mengulitinya dan memakai kulitnya untuk melindungi tubuhnya selama pertempuran.",
+          "quote": "She stripped the skin off Pallas and used it to protect her own body during the battle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pallas-q2463695-c05",
+          "source_id": "pallas-q2463695-s2",
+          "host": "www.theoi.com",
+          "statement": "According to some, Pallas was not a Gigante but a Titan opponent of Athena in the earlier Titanomachy.",
+          "statement_id": "Menurut sebagian, Pallas bukan Gigante melainkan Titan lawan Athena dalam Titanomachy yang lebih awal.",
+          "quote": "According to some, Pallas was not a Gigante but a Titan opponent of Athena in the earlier Titanomakhia (War of the Titans).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pallas-q2463695-c06",
+          "source_id": "pallas-q2463695-s2",
+          "host": "www.theoi.com",
+          "statement": "The Gigante Pallas was perhaps the same as the Titan of the same name.",
+          "statement_id": "Pallas sang Gigante mungkin sama dengan Titan bernama sama.",
+          "quote": "He was perhaps the same as the Titan of the same name.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "agathodaemon",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "aa906f0bbfaf869c5835e0ddc8cb08dfff7ce2b4a22962d2b1d8c8f09e63d5d5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "agathodaemon-c01",
@@ -333,26 +559,81 @@
           "quote": "a prominent serpentine civic god, who served as the special protector of Alexandria",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c04",
+          "source_id": "agathodaemon-s2",
+          "host": "en.wikisource.org",
+          "statement": "In Greek mythology, Agathodaemon was the good spirit of cornfields and vineyards.",
+          "statement_id": "Dalam mitologi Yunani, Agathodaemon adalah roh baik ladang jagung dan kebun anggur.",
+          "quote": "in Greek mythology, the \"good spirit\" of cornfields and vineyards.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c05",
+          "source_id": "agathodaemon-s2",
+          "host": "en.wikisource.org",
+          "statement": "It was the custom of the Greeks to drink a cup of pure wine in his honour at the end of each meal.",
+          "statement_id": "Orang Yunani biasa meminum secawan anggur murni untuk menghormatinya di akhir tiap santapan.",
+          "quote": "It was the custom of the Greeks to drink a cup of pure wine in his honour at the end of each meal",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c06",
+          "source_id": "agathodaemon-s2",
+          "host": "en.wikisource.org",
+          "statement": "He was also regarded as the protecting spirit of the state and of individuals.",
+          "statement_id": "Ia juga dianggap sebagai roh pelindung negara dan individu.",
+          "quote": "He was also regarded as the protecting spirit of the state and of individuals.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c07",
+          "source_id": "agathodaemon-s2",
+          "host": "en.wikisource.org",
+          "statement": "In works of art he is represented as a serpent, or as a young man with a cornucopia and a bowl in one hand and a poppy and ears of corn in the other.",
+          "statement_id": "Dalam karya seni ia digambarkan sebagai ular, atau pemuda dengan cornucopia dan mangkuk di satu tangan serta bunga poppy dan bulir jagung di tangan lainnya.",
+          "quote": "He is represented in works of art in the form of a serpent, or of a young man with a cornucopia and a bowl in one hand, and a poppy and ears of corn in the other.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c08",
+          "source_id": "agathodaemon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His other role was as a genus of serpentine household gods, the Agathoi Daimones, individual protectors of the homes in which they were worshipped.",
+          "statement_id": "Peran lain Agathos Daimon adalah sekelompok dewa rumah tangga berbentuk ular, Agathoi Daimones, pelindung masing-masing rumah tempat mereka dipuja.",
+          "quote": "the other as a genus of serpentine household gods, the Agathoi Daimones, individual protectors of the homes in which they were worshipped.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agathodaemon-c09",
+          "source_id": "agathodaemon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His origin in Alexandria is disputed: two conflicting views paint him either as a Greek cultural importation later identified with Serapis, or as a Hellenized native Egyptian household god.",
+          "statement_id": "Asal-usulnya di Alexandria diperselisihkan: dua pandangan yang bertentangan menyebutnya dewa budaya Yunani yang dibawa masuk dan kemudian disamakan dengan Serapis, atau dewa rumah tangga asli Mesir yang dihelenisasi.",
+          "quote": "His origin in Alexandria is a matter of dispute, with two conflicting views either painting Agathos Daimon as a Greek cultural importation later identified with Serapis ... or as a Hellenized native Egyptian household god.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cebren",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "74bae7073c01069622aaeff5c050b02db58c23bfb5bedf9ff0a09a237381ec1b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cebren-c01",
@@ -373,26 +654,81 @@
           "quote": "He was the son of Oceanus and Tethys and he was the father of Asterope and Hesperia",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cebren-c03",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "Kebren (Cebren) was a river-god of the Troad in north-western Mysia, Anatolia.",
+          "statement_id": "Kebren (Cebren) adalah dewa sungai di wilayah Troad, Mysia barat laut, Anatolia.",
+          "quote": "KEBREN (Cebren) was a river-god of the Troad in north-western Mysia, Anatolia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cebren-c04",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "The River Kebren was a tributary of the Skamandros whose headwaters lay in the foothills of Mount Ida near the town of Kebrene.",
+          "statement_id": "Sungai Kebren adalah anak sungai Skamandros dengan hulu di kaki Gunung Ida dekat kota Kebrene.",
+          "quote": "The River Kebren was a tributary of the Skamandros (Scamander) whose headwaters lay in the foothills of Mount Ida near the town of Kebrene (Cebrene).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cebren-c05",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Alexandros (Paris) married Oinone, daughter of the river Kebren.",
+          "statement_id": "Dalam teks yang dikutip, Alexandros (Paris) menikahi Oinone, putri sungai Kebren.",
+          "quote": "Alexandros (Alexander) [Paris] married Oinone (Oenone), daughter of the river Kebren (Cebren).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cebren-c06",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, after Alexandros took Helene to wife, Oinone took his conduct exceedingly ill and returned to Kebren, her father.",
+          "statement_id": "Dalam teks yang dikutip, setelah Alexandros mengambil Helene sebagai istri, Oinone sangat tersinggung dan kembali kepada Kebren, ayahnya.",
+          "quote": "Alexandros took Helene to wife : Oinone took his conduct exceedingly ill, and returned to Kebren, the author of her days.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cebren-c07",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Hesperie, daughter of Cebren, is seen by her father's river bank.",
+          "statement_id": "Dalam teks yang dikutip, Hesperie, putri Cebren, terlihat di tepi sungai ayahnya.",
+          "quote": "Hesperie Cebrenis (Daughter of Cebren) he saw by her father Cebren's river bank.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cebren-c08",
+          "source_id": "cebren-s2",
+          "host": "www.theoi.com",
+          "statement": "Kebren may be the same as the river Heptaporos mentioned by Homer.",
+          "statement_id": "Kebren mungkin sama dengan sungai Heptaporos yang disebut Homer.",
+          "quote": "Kebren may be the same as the river Heptaporos mentioned by Homer.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cymopoleia",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "e8e47e0837aba6ae7836b956acf6541deb7ecc61d5de809795dd8cc0f3401873",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cymopoleia-c01",
@@ -413,26 +749,61 @@
           "quote": "Her only known mention in Classical antiquity occurs in the Hesiodic Theogony.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "cymopoleia-c03",
+          "source_id": "cymopoleia-s2",
+          "host": "www.theoi.com",
+          "statement": "Kymopoleia was a sea-nymph daughter of Poseidon and the wife of the hundred-handed storm-giant Briareos; she was probably a goddess of the violent storm waves generated by her husband.",
+          "statement_id": "Kymopoleia adalah nimfa laut, putri Poseidon dan istri Briareos, raksasa badai berseratus tangan; ia kemungkinan dewi ombak badai yang dibangkitkan suaminya.",
+          "quote": "KYMOPOLEIA (Cymopoleia) was a sea-nymph daughter of the god Poseidon and the wife of the hundred-handed, storm-giant Briareos. She was probably a goddess of the violent storm waves generated by her husband.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cymopoleia-c04",
+          "source_id": "cymopoleia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Poseidon made Briareos his son-in-law by giving him Kymopoleia, his daughter, to wed.",
+          "statement_id": "Dalam teks yang dikutip, Poseidon menjadikan Briareos menantunya dengan menyerahkan Kymopoleia, putrinya, untuk dinikahi.",
+          "quote": "Briareos (Briareus), being goodly, the deep-roaring Earth-Shaker [Poseidon] made his son-in-law, giving him Kymopoleia (Cymopoleia) his daughter to wed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cymopoleia-c05",
+          "source_id": "cymopoleia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Kymodoke, with Kymatolege and Amphitrite, easily stills the waves and hushes the winds on the open water.",
+          "statement_id": "Dalam teks yang dikutip, Kymodoke, bersama Kymatolege dan Amphitrite, dengan mudah menenangkan ombak dan meredakan angin di permukaan laut terbuka.",
+          "quote": "[The Nereid] Kymodoke (Cymodoce) who, with Kymatolege (Cymatolege) and Amphitrite, light of foot, on the misty face of the open water easily stills the waves and hushes the winds in their blowing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cymopoleia-c06",
+          "source_id": "cymopoleia-s2",
+          "host": "www.theoi.com",
+          "statement": "The note says Kymatolege is named in connection with the Nereides but was not numbered among them, and was probably Kymopoleia, daughter of Amphitrite.",
+          "statement_id": "Catatan itu menyebut Kymatolege dikaitkan dengan para Nereid tetapi tidak dihitung di antara mereka, dan mungkin ia Kymopoleia, putri Amphitrite.",
+          "quote": "Kymatolege is named in connection with the Nereides but was not numbered amongst them. She was probably Kymopoleia, daughter of Amphitrite, who occurs later in Hesiod.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "himalia",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-1.md",
+      "entry_sha256": "a0c4ebe044c17fc778decbea9797472013741883f111f03882bda002643784a3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "himalia-c01",
@@ -462,6 +833,36 @@
           "statement_id": "Mereka memiliki tiga putra: Spartaeus, Cronius, dan Cytus.",
           "quote": "The latter produced three sons with him, Spartaeus, Cronius, and Cytus",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "himalia-c04",
+          "source_id": "himalia-s2",
+          "host": "www.theoi.com",
+          "statement": "Himalia was a nymph of the Aegean island of Rhodes; Zeus seduced her when he came to subdue the island's resident Titanes, the Telkhines.",
+          "statement_id": "Himalia adalah nimfa dari pulau Rhodes di Laut Aegea; Zeus merayunya ketika datang menaklukkan para Titanes penghuni pulau itu, yaitu Telkhines.",
+          "quote": "HIMALIA was a nymph of the Aegean island of Rhodes. She was seduced by the god Zeus when he came to subdue the island's resident Titanes--the Telkhines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "himalia-c05",
+          "source_id": "himalia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text, Zeus became enamoured of one of the Nymphai, Himalia by name, and begat by her three sons: Spartaios, Kronios, and Kytos.",
+          "statement_id": "Dalam teks yang dikutip, Zeus jatuh cinta pada salah satu nimfa bernama Himalia dan memperanakkan tiga putra: Spartaios, Kronios, dan Kytos.",
+          "quote": "he became enamoured of one of the Nymphai (Nymphs), Himalia by name, and begat by her three sons, Spartaios (Spartaeus), Kronios (Cronius), and Kytos (Cytus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "himalia-c06",
+          "source_id": "himalia-s2",
+          "host": "www.theoi.com",
+          "statement": "Himalia was perhaps identified with Halia, the sister of the Telkhines.",
+          "statement_id": "Himalia mungkin diidentifikasi dengan Halia, saudari Telkhines.",
+          "quote": "Himalia was perhaps identified with Halia, the sister of the Telkhines.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -515,7 +916,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d993cd4d96ab2e8c43624abb6ff003ef8844fd3aeba452d77516fd399f66925a"
     },
     {
       "slug": "larunda",
@@ -565,7 +967,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "66cdbd39df360359f2bdd5672fdb339a626f3b50d7724aee1e61194ab38c715c"
     },
     {
       "slug": "monopod-creature",
@@ -615,7 +1018,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c315e62731ad315d0bdfc3dce6810b2c806ced67f80cfe9b64c82027d03122f1"
     },
     {
       "slug": "mormo",
@@ -655,7 +1059,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fe49a48abf15ceda8d24629957d56fc75bb8c66f3e3b9694f509e5f8524c5ec0"
     },
     {
       "slug": "simoeis",
@@ -695,7 +1100,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1d6b066848f4b5d132385757293b57458545d2d50c0cec01f0b1a9127156c8b"
     },
     {
       "slug": "thalia",
@@ -745,7 +1151,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1aacbf20738b8ac053cdc0e217a8c24b5cfa1aae59b12ad7d9e50e22a64e0bf9"
     },
     {
       "slug": "tiburtine-sibyl",
@@ -785,7 +1192,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "422f2555d80f8a90f2f1ed36951b7b31000d34d147ec0bd5f2ecf4e070977ad3"
     },
     {
       "slug": "volturnus",
@@ -835,7 +1243,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2edc9e65f168fd9652eb24e8c06934a6947c8a1b7e1e214da34147680306d879"
     },
     {
       "slug": "arges",
@@ -885,7 +1294,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "89b02b2c07faf8746bd6a48cb27ff81c9d29d9502389edfe2e37bd8fd56bb65d"
     },
     {
       "slug": "brontes",
@@ -935,7 +1345,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4ec736ad2001fdc980140cf9cd6300539bdd6f0634cc5877c12f9f9860082365"
     },
     {
       "slug": "steropes",
@@ -985,7 +1396,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3debce255e15190c2f2def9ebe9bbd28cfbf0e8fff70d851c599c592e3b408e6"
     },
     {
       "slug": "liriope",
@@ -1035,7 +1447,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0a45d03f9b28423d41925d9aaab9668cdd0c4df781b41adaf8173d69c577703a"
     },
     {
       "slug": "macris",
@@ -1075,7 +1488,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "241bf71f408649c205c35fa2209810baca6cb927b4ee3cc9d83c5a938b4b33a2"
     },
     {
       "slug": "podarge",
@@ -1115,7 +1529,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "243ed5b162d4264dc95d0c026418822f76dcf41667c4e0a5f9187567d506baed"
     },
     {
       "slug": "stilbe",
@@ -1155,7 +1570,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c522407ebd4abf6b10d6532f9eb66d1205f7285da72d477588ea70f4813467b4"
     },
     {
       "slug": "adrasteia",
@@ -1195,7 +1611,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bd4329e64f394c7b51ec38beb0f65f81d17aa856f32235b4514e92c6ac2b5846"
     },
     {
       "slug": "ampelos",
@@ -1245,7 +1662,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7b0da995dc5f694f2cff9577234a49691a6ef0e66dcff1db6aea42dd50f8da96"
     },
     {
       "slug": "canens",
@@ -1285,7 +1703,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c8425d0705bfe6e7a15a4e306f40a409f5091c726b5ebc028d6ee1f708176f10"
     },
     {
       "slug": "catoblepas",
@@ -1335,7 +1754,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fd5adb551eed39383a2afea03005631a700780c4a14ed24c330c7617354c1829"
     },
     {
       "slug": "delphyne",
@@ -1385,7 +1805,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "396131ca46bd2a4b3f68f48896bfc91c84a18eedb268bb3ea24697d12b05db9f"
     },
     {
       "slug": "dragons-in-greek-mythology",
@@ -1435,7 +1856,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2bb35b1bbac8b84e6dc93bb83e45ddf55db883bca6fb44a2ad42b6de60e0ebe1"
     },
     {
       "slug": "ichthyocentaur",
@@ -1475,7 +1897,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "856e9d3f4e0f37a844a426289acb38f532f5b46f60ef2508d5029eb8c7713693"
     },
     {
       "slug": "leuce",
@@ -1525,7 +1948,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dffedd7d77f2429229c19a8200f1a6b9f342f18914e020c87311c51ce51489d9"
     },
     {
       "slug": "lysithea",
@@ -1565,7 +1989,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac28cfd6ac6ac274f5ef883b91684c3ba056984cb4c135935831a3b7e5bf0ad9"
     },
     {
       "slug": "pirene",
@@ -1605,7 +2030,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "47b10aa565c66d211f780713588494a587938426135bf32060f03f0cc0609dca"
     },
     {
       "slug": "salamis",
@@ -1645,7 +2071,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ed94553743cf407f79cdb291b6e4660fc3a8bb2e8bcd80382f844c521a83b40"
     },
     {
       "slug": "strix-mythology",
@@ -1695,7 +2122,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f4655ccb2e75840a6b6ba9f520b25f0b1ec96b0140f296cde4aa94426fe01bd3"
     },
     {
       "slug": "vrykolakas",
@@ -1735,7 +2163,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d0fe3c4a701b0180b770239cacacd8030d1119e8e83ebde0659a3dc597d41d0"
     },
     {
       "slug": "aethon-q1371462",
@@ -1775,7 +2204,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a74de0146f3c466e8891a8083af33f2a020627fe5bc18f5ca041a75e4575318d"
     },
     {
       "slug": "aganippe",
@@ -1825,7 +2255,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c980f0f37aece485c5adaa7828e186d136bc940b97128ef4cf2e891b6cc95cca"
     },
     {
       "slug": "clytius",
@@ -1865,7 +2296,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c72588d28f710ae9e08c2b4df225ac4fac10fbdcaa95e60b149cb07acbc4e1af"
     },
     {
       "slug": "damysos",
@@ -1905,7 +2337,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ee4df479c9295d3180be1ffd03a36741f9a125102093e34ec484849f256a280"
     },
     {
       "slug": "harpina",
@@ -1945,7 +2378,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6596df1e67d26443a725021a1dd0597a63e30c4bbe0b40b3e275a774e18e8c7b"
     },
     {
       "slug": "idaea",
@@ -1985,7 +2419,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8fb9d70cc399dc18014c3815a33f7a8e36da276ccf7ae5abd336d261e4d092b8"
     },
     {
       "slug": "phaethusa",
@@ -2035,7 +2470,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5bc1cd9d5fc54c97a678810e26bcde0bc3ac54b158b48023e8ef6cc7ea0b3eff"
     },
     {
       "slug": "plouto",
@@ -2075,7 +2511,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f8785d607ec5d466ec4661ed0e309fa9f417079c3ca9fe7bf0ea4a9b3927c2f"
     },
     {
       "slug": "tuchulcha",
@@ -2125,7 +2562,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0e7772a38fd35f8a78d98983d711299e64731c33bfde3bc51909e515df82402f"
     },
     {
       "slug": "zeuxo",
@@ -2175,7 +2613,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8506ce1846140543fad729fe495d05c92360c4b5d5fdf80bcc625361e89100c2"
     },
     {
       "slug": "crinisus",
@@ -2225,7 +2664,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b4a3f7885510695f9ff8faf08330f180ab981d170968eb26aaed04b0b4dfce2e"
     }
   ]
 }
