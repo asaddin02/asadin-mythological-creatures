@@ -1,6 +1,6 @@
 # Review batch-066
 
-Diperiksa 2026-10-01T13:17:41.243Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md.
+Diperiksa 2026-10-06T05:35:28.626Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md.
 
 ## loong — lulus-otomatis
 
@@ -78,19 +78,23 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## pangu — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 12, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| pangu-c01 | exact | en.wikipedia.org | Pangu is a primordial creation figure in Chinese mythology who separates heaven from earth. | Pangu or Pan Gu (also sometimes spelled Peng Gu and P’an-ku) (Chinese: 盤古; pinyin: Pángǔ ; PAN-koo) is a primordial being and creation figure in Chinese mythology and in Taoism. According to legend, Pangu separated heaven and earth, and his body later became geographic features such as mountains and flowing water. |
-| pangu-c02 | exact | en.wikipedia.org | Xu Zheng is regarded as an early writer who recorded the Pangu myth. | The earliest known writer to record the myth of Pangu is believed to have been Xu Zheng during the Three Kingdoms period. However, his name was found in a tomb predating the Three Kingdoms period. |
+| pangu-c01 | exact | en.wikipedia.org | Pangu is a primordial being and creation figure in Chinese mythology and Taoism; according to legend he separated heaven and earth. | Pangu or Pan Gu (also sometimes spelled Peng Gu and P’an-ku) (Chinese: 盤古; pinyin: Pángǔ ; PAN-koo) is a primordial being and creation figure in Chinese mythology and in Taoism. According to legend, Pangu separated heaven and earth, and his body later became geographic features such as mountains and flowing water. |
+| pangu-c02 | exact | en.wikipedia.org | Xu Zheng is regarded as an early writer who recorded the Pangu myth, during the Three Kingdoms period. | The earliest known writer to record the myth of Pangu is believed to have been Xu Zheng during the Three Kingdoms period. However, his name was found in a tomb predating the Three Kingdoms period. |
 | pangu-c03 | exact | en.wikipedia.org | In the cosmic-egg tale, Pangu emerges once yin and yang reach balance. | In the beginning, there was nothing and the universe was in a featureless, formless primordial state. This primordial state coalesced into a cosmic egg over the course of about 18,000 years. Within it, the perfectly opposed principles of yin and yang became balanced and Pangu emerged (or woke up) from the egg. Pangu inside the cosmic egg symbolizes Taiji. |
 | pangu-c04 | exact | en.wikipedia.org | Depictions commonly present Pangu as a hairy giant bearing horns. | Pangu inside the cosmic egg symbolizes Taiji. Pangu is usually depicted as a primitive, hairy giant with horns on his head.  |
-| pangu-c05 | loose | en.wikipedia.org | Some versions describe the Four Auspicious Beasts assisting in world creation. | In some versions of the story, Pangu is aided in this task by the Four Auspicious Beasts (四靈獸). There are many different legends about Pangu's creation of the world, with some saying that this task took 18,000 years, while others say that he lived for millions of years. |
+| pangu-c05 | loose | en.wikipedia.org | Some versions say Pangu is aided by the Four Auspicious Beasts in creating the world. | In some versions of the story, Pangu is aided in this task by the Four Auspicious Beasts (四靈獸). There are many different legends about Pangu's creation of the world, with some saying that this task took 18,000 years, while others say that he lived for millions of years. |
 | pangu-c06 | exact | en.wikipedia.org | After his death, his breath becomes wind and clouds, his voice becomes thunder, and his eyes become sun and moon. | When Pangu died, his breath became the wind, mist and clouds; his voice, thunder; his left eye, the Sun; his right eye, the Moon; his head, the mountains and extremes of the world; his blood, rivers; his muscles, fertile land; his facial hair, the stars and Milky Way; his fur, bushes and forests; his bones, valuable minerals; his bone marrow, precious jewels; his sweat, rain; and the fle |
+| pangu-c07 | exact | www.gutenberg.org | Werner calls P'an Ku (Pangu) the most conspicuous figure in Chinese cosmogony, the one who chiselled the universe out of Chaos. | The most conspicuous figure in Chinese cosmogony is P'an Ku. He it was who chiselled the universe out of Chaos. |
+| pangu-c08 | exact | www.gutenberg.org | According to Werner, 'P'an' means 'the shell of an egg' and 'Ku' 'to secure' or 'solid', referring to P'an Ku being hatched from out of Chaos. | 'P'an' means 'the shell of an egg,' and 'Ku' 'to secure,' 'solid,' referring to P'an Ku being hatched from out of Chaos |
+| pangu-c09 | exact | www.gutenberg.org | According to Werner, P'an Ku is pictured as a dwarfish man clothed in bearskin or leaves, with two horns, holding a hammer in his right hand and a chisel in his left (sometimes reversed). | P'an Ku is pictured as a man of dwarfish stature clothed in bearskin, or merely in leaves or with an apron of leaves. He has two horns on his head. In his right hand he holds a hammer and in his left a chisel (sometimes these are reversed) |
+| pangu-c10 | exact | www.gutenberg.org | According to Werner, P'an Ku's task occupied eighteen thousand years, during which he formed the sun, moon, stars, heavens and earth, growing six feet taller each day until he died so that his works might live. | His task occupied eighteen thousand years, during which he formed the sun, moon, and stars, the heavens and the earth, himself increasing in stature day by day, being daily six feet taller than the day before, until, his labours ended, he died that his works might live. |
+| pangu-c11 | exact | www.gutenberg.org | In Werner's account, P'an Ku's head became the mountains, his breath the wind and clouds, his voice thunder, his limbs the four quarters of the earth, his blood the rivers, his flesh the soil and his beard the constellations. | His head became the mountains, his breath the wind and clouds, his voice the thunder, his limbs the four quarters of the earth, his blood the rivers, his flesh the soil, his beard the constellations |
+| pangu-c12 | exact | www.gutenberg.org | Werner states that this account of P'an Ku is of Taoist origin, while the Buddhists gave a somewhat different account that is a late adaptation of the Taoist myth. | This account of P'an Ku and his achievements is of Taoist origin. The Buddhists have given a somewhat different account of him, which is a late adaptation from the Taoist myth |
+| pangu-c13 | exact | www.gutenberg.org | According to Werner, other legends say P'an Ku had the head of a dragon and the body of a serpent, and that his breathing caused the wind. | Other legends recount that P'an Ku had the head of a dragon and the body of a serpent; and that by breathing he caused the wind |
 
 
 ## mazu — lulus-otomatis
@@ -144,10 +148,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## black-tortoise — lulus-otomatis
 
-Klaim 5 (exact 1, loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 5, loose 4), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -156,6 +157,10 @@ Klaim 5 (exact 1, loose 4), sumber 1, gambar 0.
 | black-tortoise-c03 | loose | en.wikipedia.org | Xuanwu is associated with the northern direction. | It represents the north, thus it is sometimes called Black Warrior of the North (北方玄武; Běifāng Xuánwǔ). |
 | black-tortoise-c04 | loose | en.wikipedia.org | The winter association draws on the hibernation of turtles and snakes. | While neither character xuan (玄) or wu (武) literally means turtle, tortoise or snake, tortoises and snakes are known to hibernate during winter, so xuanwu (玄武) as a whole represents the season of winter. |
 | black-tortoise-c05 | loose | en.wikipedia.org | In Japan, Genbu is believed to guard Kyoto's northern side. | In Japan, the characters xuanwu (玄武) are pronounced as Genbu. It is said to protect Kyoto on the north side, being one of the four guardian spirits that protect the city. It is represented by the Kenkun Shrine, which is located on top of Mount Funaoka in Kyoto. |
+| black-tortoise-c06 | exact | zh.wikisource.org | The Liji (Quli) text says that on the march Xuanwu (玄武) is behind, the Azure Dragon (青龍) on the left and the White Tiger (白虎) on the right, with the Zhaoyao (招摇) banner above. | 鳥一作「雀」而後玄武，左青龍而右白虎，招摇在上，急繕其怒。進退有度，左右有局，各司其局。 |
+| black-tortoise-c07 | exact | zh.wikisource.org | In the poem Yuan You (Chu Ci), the traveller summons Xuanwu (玄武) to hasten after him, then has Wenchang (文昌) manage the journey and choose the gods to accompany his chariot. | 旹曖曃其曭莽兮，召玄武而奔屬。後文昌使掌行兮，選署衆神以並轂。 |
+| black-tortoise-c08 | exact | en.wikipedia.org | In ancient China, the tortoise (or turtle) and the serpent were thought to be spiritual creatures symbolizing longevity. | In ancient China, the tortoise (or turtle) and the serpent were thought to be spiritual creatures symbolizing longevity. |
+| black-tortoise-c09 | exact | en.wikipedia.org | In the classic novel Journey to the West, Xuanwu is a king of the north with two generals under him, a "Tortoise General" and a "Snake General". | In the classic novel Journey to the West, Xuanwu was a king of the north who had two generals serving under him, a "Tortoise General" and a "Snake General". |
 
 
 ## white-tiger — lulus-otomatis
@@ -175,19 +180,24 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 
 ## azure-dragon — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | azure-dragon-c01 | loose | en.wikipedia.org | The Azure Dragon is a Chinese dragon counted among the Four Symbols of the constellations. | The Azure Dragon (simplified Chinese: 青龙; traditional Chinese: 青龍; pinyin: Qīnglóng) is one of the Dragon Gods who represent the mounts or chthonic forces of the Five Regions' Highest Deities (五方上帝; Wǔfāng Shàngdì). It is also one of the Four Symbols of the Chinese constellations, which are the astral representations of the Wufang Shangdi. |
 | azure-dragon-c02 | exact | en.wikipedia.org | It corresponds to the eastern direction and spring. | The Azure Dragon represents the east and the spring season. |
-| azure-dragon-c03 | exact | en.wikipedia.org | Japanese and Korean names for this dragon are Seiryū and Cheongryong. | This dragon is also known as Seiryū in Japanese, Cheongryong in Korean and Thanh Long in Vietnamese. |
+| azure-dragon-c03 | exact | en.wikipedia.org | This dragon is also known as Seiryū in Japanese, Cheongryong in Korean and Thanh Long in Vietnamese. | This dragon is also known as Seiryū in Japanese, Cheongryong in Korean and Thanh Long in Vietnamese. |
 | azure-dragon-c04 | exact | en.wikipedia.org | Its constellation region comprises seven lunar mansions. | As with the other three Symbols, there are seven astrological "Mansions" (positions of the Moon) within the Azure Dragon. The names and determinative stars are: |
 | azure-dragon-c05 | exact | en.wikipedia.org | The Azure Dragon also appears as a door deity in Taoist temples. | The Azure Dragon appears as a door god at Taoist temples. He was represented on the tomb of Wang Hui (stone coffin, east side) at Xikang in Lushan. A rubbing of this was collected by David Crockett Graham and is in the Field Museum of Natural History. The dragon featured on the Chinese national flag in 1862–1912, and on the Twelve Symbols national emblem from 1913 to 1928. |
 | azure-dragon-c06 | exact | en.wikipedia.org | Goguryeo tomb murals at Uhyon-ni depict this dragon with the other symbols. | In Korea, the murals of the Goguryeo tombs found at Uhyon-ni in South Pyongan province features the Azure Dragon and the other mythological creatures of the four symbols. |
+| azure-dragon-c07 | exact | archive.org | De Visser, citing De Groot, writes that blue is chosen in China because it is the colour of the East, from where the rain must come; this quarter is represented by the Azure Dragon, the highest in rank among all the dragons. | According to Dr Groot, the colour blue is chosen in China because this is the colour of the East, from where the rain must come; this quarter is represented by the Azure Dragon, the highest in rank among all the dragons. |
+| azure-dragon-c08 | exact | archive.org | De Visser writes that the azure dragon is the symbol of Spring. | The azure dragon is, as we stated above, the symbol of Spring, the season when |
+| azure-dragon-c09 | exact | archive.org | De Visser records that on the night of Confucius' birth (551 BC) two azure dragons descended from the sky. | In the night of Confucius’ birth (B.C. 551) two azure dragons descended from the sky |
+| azure-dragon-c10 | exact | archive.org | According to De Visser, the appearance of yellow or azure dragons was nearly always considered a very good omen. | The appearance of yellow or azure dragons ... was nearly always considered to be a very good omen. |
+| azure-dragon-c11 | exact | en.wikipedia.org | In Japan, the Azure Dragon is one of the four guardian spirits of cities and is believed to protect the city of Kyoto on the east. | In Japan, the Azure Dragon is one of the four guardian spirits of cities and is believed to protect the city of Kyoto on the east. |
+| azure-dragon-c12 | exact | en.wikipedia.org | The Azure Dragon is associated with the East Sea Dragon King Ao Guang, who is the Dragon King Sagara in Buddhist literature. | The Azure Dragon is associated with the East Sea Dragon King Ao Guang, who is the Dragon King Sagara in Buddhist literature. |
+| azure-dragon-c13 | exact | zh.wikisource.org | The Liji (Quli) text says that on the march Xuanwu (玄武) is behind, the Azure Dragon (青龍) on the left and the White Tiger (白虎) on the right, with the Zhaoyao (招摇) banner above. | 鳥一作「雀」而後玄武，左青龍而右白虎，招摇在上，急繕其怒。進退有度，左右有局，各司其局。 |
+| azure-dragon-c14 | exact | en.wikipedia.org | The dragon is also sometimes called the Blue-Green Dragon, Green Dragon, or Blue Dragon. | It is also sometimes referred to as the Blue-Green Dragon, Green Dragon, or the Blue Dragon |
 
 
 ## tengri — lulus-otomatis
@@ -239,18 +249,22 @@ Klaim 5 (loose 3, exact 2), sumber 1, gambar 0.
 
 ## gonggong — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gonggong-c01 | exact | en.wikipedia.org | Gonggong is a Chinese water deity portrayed with human and serpentine features. | Gonggong (/ˈɡɒŋɡɒŋ/) is a Chinese water god who is depicted in Chinese mythology and folktales as having a copper human head with an iron forehead, red hair, and the body of a serpent, or sometimes the head and torso are human, with the tail of a serpent. He is destructive and is blamed for various cosmic catastrophes. |
 | gonggong-c02 | exact | en.wikipedia.org | His portrayal includes red hair and an iron forehead. | Gonggong (/ˈɡɒŋɡɒŋ/) is a Chinese water god who is depicted in Chinese mythology and folktales as having a copper human head with an iron forehead, red hair, and the body of a serpent, or sometimes the head and torso are human, with the tail of a serpent. He is destructive and is blamed for various cosmic catastrophes. |
-| gonggong-c03 | exact | en.wikipedia.org | The Tianwen poem blames him for altering the tilt of sky and earth. | Gonggong is known from the late Warring States period (before 221 BC). Gonggong appears in the ancient "Heavenly Questions" (Tianwen) poem of the Chu Ci, where he is blamed for knocking the Earth's axis off center, causing it to tilt to the southeast and the sky to tilt to the northwest. |
+| gonggong-c03 | exact | en.wikipedia.org | The Tianwen poem blames him for altering the tilt of sky and earth; Gonggong is known from the late Warring States period (before 221 BC). | Gonggong is known from the late Warring States period (before 221 BC). Gonggong appears in the ancient "Heavenly Questions" (Tianwen) poem of the Chu Ci, where he is blamed for knocking the Earth's axis off center, causing it to tilt to the southeast and the sky to tilt to the northwest. |
 | gonggong-c04 | exact | en.wikipedia.org | Gonggong is linked to great floods alongside his subordinate Xiangliu. | Gonggong was credited in various mythological contexts as being responsible for great floods, often in concert with his minister Xiangliu (a.k.a. Xiangyao), who has nine heads and the body of a snake. |
 | gonggong-c05 | exact | en.wikipedia.org | In one myth, he damages Mount Buzhou following defeat by Zhurong. | Gonggong was ashamed that he lost the fight with Zhurong, the Chinese god of fire, to claim the throne of Heaven. In a fit of rage, he smashed his head against Buzhou Mountain, one of eight pillars holding up the sky, greatly damaging it and causing the sky to tilt towards the northwest and the Earth to shift to the southeast, which caused great floods and suffering. |
+| gonggong-c06 | exact | en.wikipedia.org | In the Classic of Mountains and Seas, Gonggong is noted as the son of Zhurong, father of Houtu and a descendant of the Flame Emperor; in a separate verse he is said to descend from the Black Emperor. | Literature from the Han dynasty becomes much more detailed regarding Gonggong. For example, within the Classic of Mountains and Seas, he is noted as being the son of Zhurong, father of Houtu, and a descendant of the Flame Emperor. However, in a separate verse, he is also said to be a descendant of the Black Emperor. |
+| gonggong-c07 | exact | en.wikipedia.org | The goddess Nüwa cut off the legs of the giant turtle Ao and used them in place of the fallen pillar, ending the floods, but she could not fully correct the tilt of sky and earth. | The goddess Nüwa cut off the legs of the giant turtle Ao and used them in place of the fallen pillar, ending the floods and suffering; she was, however, unable to fully correct the tilted sky and Earth and alter their effects on the Sun, Moon, stars, and rivers in China. |
+| gonggong-c08 | exact | www.gutenberg.org | Werner cites an account that toward the end of Nüwa's reign, among the feudatory princes was Kung Kung (Gonggong), who administered punishment; violent and ambitious, he rebelled and sought to overcome wood by the influence of water. | Toward the end of her reign there was among the feudatory princes Kung Kung, whose functions were the administration of punishment. Violent and ambitious, he became a rebel, and sought by the influence of water to overcome that of wood |
+| gonggong-c09 | exact | www.gutenberg.org | In the account Werner cites, Kung Kung fought Chu Jung (Zhurong) but did not win, then struck his head against Mount Pu Chou (Buzhou) and brought it down; the pillars of Heaven were broken and the corners of the earth gave way. | He did battle with Chu Jung [said to have been one of the ministers of Huang Ti, and later the God of Fire], but was not victorious; whereupon he struck his head against the Imperfect Mountain, Pu Chou Shan, and brought it down. The pillars of Heaven were broken and the corners of the earth gave way. |
+| gonggong-c10 | exact | www.gutenberg.org | Thereupon Nue Kua (Nüwa) melted stones of five colours to repair the heavens and cut off the feet of the tortoise to set upright the four extremities of the earth. | Hereupon Nue Kua melted stones of the five colours to repair the heavens, and cut off the feet of the tortoise to set upright the four extremities of the earth. |
+| gonggong-c11 | exact | archive.org | In Giles's translation of the Liezi, Kung Kung (Gonggong) fought Chuan Hsii (Zhuanxu) for the throne and, in his rage, blundered against Mount Pu-chou (Buzhou), snapping the pillar that connects Heaven and earth. | Later on, Kung Kung fought with Chuan Hsii for the throne, and, blundering in his rage against Mount Pu-chou, he snapped the pillar which connects Heaven and earth. |
+| gonggong-c12 | exact | zh.wikisource.org | The Huainanzi (Tianwen Xun) says that Gonggong (共工) once contended with Zhuanxu (顓頊) to be ruler; in his rage he struck Mount Buzhou (不周之山), so that the pillar of heaven snapped and the bonds of the earth broke, whence the sky tilts to the northwest and the earth is not full in the southeast. | 昔者共工與顓頊爭為帝，怒而觸不周之山，天柱折，地維絕。天傾西北，故日月星辰移焉；地不滿東南，故水潦塵埃歸焉。 |
 
 
 ## pixiu — lulus-otomatis
@@ -272,10 +286,7 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 
 ## baku-mythology — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 2, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -285,6 +296,12 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | baku-mythology-c04 | exact | en.wikipedia.org | Baku were known in Japan by the Muromachi period. | The traditional Japanese nightmare-devouring baku originates in Chinese folklore from the mo 貘 and was familiar in Japan as early as the Muromachi period (14th–15th century). Hori Tadao has described the dream-eating abilities attributed to the traditional baku and relates them to other preventatives against nightmare such as amulets. |
 | baku-mythology-c05 | exact | en.wikipedia.org | The Sankai Ibutsu manuscript describes an elephant's trunk and tusks with rhinoceros ears. | describes the baku as a shy, Chinese mythical chimera with the trunk and tusks of an elephant, the ears of a rhinoceros, the tail of a cow, the body of a bear and the paws of a tiger, which protected against pestilence and evil, although eating nightmares was not included among its abilities. |
 | baku-mythology-c06 | exact | en.wikipedia.org | Lafcadio Hearn wrote about a nightmare-eating baku in 1902. | Writing in the Meiji period, Lafcadio Hearn (1902) described a baku with very similar attributes that was also able to devour nightmares. Legend has it that a person who wakes up from a bad dream can call out to baku. |
+| baku-mythology-c07 | exact | www.gutenberg.org | Hearn writes that the creature is named Baku, or Shirokinakatsukami, and that its particular function is eating dreams. | The name of the creature is Baku, or Shirokinakatsukami; and its particular function is the eating of Dreams. |
+| baku-mythology-c08 | exact | www.gutenberg.org | According to an ancient book in Hearn's possession, the male baku has a horse's body, a lion's face, an elephant's trunk and tusks, a rhinoceros's forelock, a cow's tail and a tiger's feet. | An ancient book in my possession states that the male Baku has the body of a horse, the face of a lion, the trunk and tusks of an elephant, the forelock of a rhinoceros, the tail of a cow, and the feet of a tiger. |
+| baku-mythology-c09 | exact | www.gutenberg.org | According to Hearn, the Chinese character for the name baku used to be written in gold on the lacquered wooden pillows of lords and princes, and the sleeper was thought to be protected from evil dreams. | the Chinese character representing its name used to be put in gold upon the lacquered wooden pillows of lords and princes. By the virtue and power of this character on the pillow, the sleeper was thought to be protected from evil dreams. |
+| baku-mythology-c10 | exact | www.gutenberg.org | Hearn records an old invocation to the baku still in common use: "Baku kuraë!", meaning "Devour, O Baku! devour my evil dream!" | the old invocation to the Baku still survives in common parlance: Baku kuraë! Baku kuraë!--"Devour, O Baku! devour my evil dream!" |
+| baku-mythology-c11 | exact | www.gutenberg.org | According to Hearn, a person waking from a nightmare should quickly repeat the invocation three times, after which the baku will eat the dream and change the misfortune or fear into good fortune and gladness. | When you awake from a nightmare, or from any unlucky dream, you should quickly repeat that invocation three times;--then the Baku will eat the dream, and will change the misfortune or the fear into good fortune and gladness. |
+| baku-mythology-c12 | exact | www.gutenberg.org | In the time of the old Chinese learning, pictures of the baku used to be hung in Japanese houses, being supposed to exert the same beneficent power as the creature itself. | In the time of the old Chinese learning, pictures of the Baku used to be hung up in Japanese houses, such pictures being supposed to exert the same beneficent power as the creature itself. |
 
 
 ## gumiho — lulus-otomatis
@@ -405,10 +422,7 @@ Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
 
 ## bai-ze — lulus-otomatis
 
-Klaim 6 (exact 2, loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 8, loose 4), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -418,6 +432,12 @@ Klaim 6 (exact 2, loose 4), sumber 1, gambar 0.
 | bai-ze-c04 | loose | en.wikipedia.org | The History of Yuan gives a variant with a tiger head, red mane, and dragon body. | In the Ming Dynasty book SanCai TuHui (三才圖會), Bai Ze’s appearance is described as having green hair on a loong head, with a horn growing on the top and the ability to fly. In the History of Yuan (元史), it is recorded as having the head of a tiger, red mane, loong’s body, and a horn. Bai Ze’s image in China combines features of both the loong and tiger. |
 | bai-ze-c05 | loose | en.wikipedia.org | The surviving Dunhuang manuscript concerns spirit diagrams and contains no drawing of Bai Ze itself. | The only existing evidence related to Bái Zé Tú in China is an incomplete Dunhuang manuscript. It is said to have been copied in the 9th or 10th century and titled “Baize-jing guai—tu” ‘Bai Ze Diagrams of Spectral Prodigies’ (白澤精惟圖), now kept at the National Library of France (P2682). This Dunhuang manuscript does not contain any drawings of Bai Ze. |
 | bai-ze-c06 | loose | en.wikipedia.org | In Japan, this being is known as Hakutaku. | In Japan, Bai Ze is also called Hakutaku. The oldest known depiction of Hakutaku appears in the Tiandi ruixiang zhi ‘Treatise on the Auspicious Signs of Heaven and Earth’ (天地瑞祥志), a work originated in China. This work is listed in late 9th-century Japanese bibliographies, while it is unknown in Chinese ones. |
+| bai-ze-c07 | exact | zh.wikisource.org | According to the Yunji Qiqian, the Yellow Emperor, touring east to the sea and climbing Mount Huan, obtained the divine beast Bai Ze on the coast; it could speak and understood the nature of all things. He asked about ghosts and spirits; Bai Ze named 11,520 kinds, the emperor had them drawn to show the world, and composed a text for warding off evil. | 帝巡狩東至海，登桓山，於海濱得白澤神獸，能言，達於萬物之情。因問天下鬼神之事，自古精氣為物，游魂為變者，凡萬一千五百二十種，白澤言之，帝令以圖寫之以示天下，帝乃作《祝邪之文》以祝之。 |
+| bai-ze-c08 | exact | zh.wikisource.org | Li Shizhen (Bencao Gangmu) writes that spirit-monsters (精怪) are numerous and harm people, and that books such as the Baize Tu, Xuanzhong Ji, Baopuzi and Youyang Zazu record them in considerable detail, so that those who live among them should know them. | 精怪之屬甚伙，皆為人害。惟《白澤圖》、《玄中記》、《抱朴子》、《酉陽雜俎》諸書載之頗悉，起居者亦不可不知。 |
+| bai-ze-c09 | exact | zh.wikisource.org | Li Shizhen quotes the Baize Tu that the spirit of trees is named Penghou (彭侯), looks like a black dog without a tail, and can be cooked and eaten. | 時珍曰︰按《白澤圖》云︰木之精名曰彭侯，狀如黑狗，無尾，可烹食。 |
+| bai-ze-c10 | exact | en.wikipedia.org | In the folk beliefs of imperial China, Bai Ze also symbolized the ability to expel ghosts and ward off evil spirits. | In the folk beliefs of imperial China, Bai Ze also symbolized the ability to expel ghosts and ward off evil spirits. |
+| bai-ze-c11 | exact | en.wikipedia.org | In the Tiandi ruixiang zhi, Hakutaku has a cow's body and a bearded human head; the "Hakutaku hi kai zu" painted by Fukuhara Gogaku has three faces, each with three eyes and a pair of horns. | In Tiandi ruixiang zhi, Hakutaku has the body of a cow and a human head with a beard. The “Hakutaku hi kai zu” image painted by Fukuhara Gogaku features three faces, each with three eyes and a pair of horns. |
+| bai-ze-c12 | exact | en.wikipedia.org | During the cholera epidemic in Edo in 1858, people were instructed to place Hakutaku's image on their pillows before going to bed to protect themselves. | During the cholera epidemic in Edo in 1858, people were instructed to place Hakutaku’s image on their pillows before going to bed to protect themselves. |
 
 
 ## manimekhala — lulus-otomatis
@@ -439,53 +459,61 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 
 ## xiezhi — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 2, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | xiezhi-c01 | loose | en.wikipedia.org | Xiezhi is a Chinese-origin mythical creature resembling an ox or goat with one horn. | The xiezhi (獬豸; xièzhì < Eastern Han Chinese *gɛʔ-ḍɛʔ) is a mythical creature of Chinese origin found throughout Sinospheric legends. It resembles an ox or goat, with thick dark fur covering its body, bright eyes and a single long horn on its forehead. It has great intellect and understands human speech. |
 | xiezhi-c02 | loose | en.wikipedia.org | This creature is credited with understanding human speech and distinguishing right from wrong. | The xiezhi (獬豸; xièzhì < Eastern Han Chinese *gɛʔ-ḍɛʔ) is a mythical creature of Chinese origin found throughout Sinospheric legends. It resembles an ox or goat, with thick dark fur covering its body, bright eyes and a single long horn on its forehead. It has great intellect and understands human speech. |
-| xiezhi-c03 | exact | en.wikipedia.org | In the Lunheng tale, Gao Yao orders it to ram guilty defendants. | According to legend, the xiezhi, was a single-horned sheep or goat which had power to divine the guilt or innocence of a person. Gao Yao, the minister of justice for the legendary Emperor Shun employed the beast during criminal proceedings and he would command the sheep to ram (head-butt) the accused. The beast would ram the guilty, but spare the innocent. |
+| xiezhi-c03 | exact | en.wikipedia.org | In the Lunheng tale, Gao Yao, minister of justice for the legendary Emperor Shun, orders it to ram guilty defendants. | According to legend, the xiezhi, was a single-horned sheep or goat which had power to divine the guilt or innocence of a person. Gao Yao, the minister of justice for the legendary Emperor Shun employed the beast during criminal proceedings and he would command the sheep to ram (head-butt) the accused. The beast would ram the guilty, but spare the innocent. |
 | xiezhi-c04 | exact | en.wikipedia.org | The Lunheng also mentions their images painted in public offices. | In the same work (Lunheng), the legend is prefaced the remark that public offices are painted with the images of the beast and the minister. |
 | xiezhi-c05 | exact | en.wikipedia.org | Chinese dynasties promoted xiezhi as a symbol of traditional law. | As a symbol of traditional Chinese law, xiezhi has been promoted by the Chinese dynasties. |
 | xiezhi-c06 | exact | en.wikipedia.org | The judicial hat was named xiezhi after the mythical sheep or ox. | was also referred to as the xiezhi after the mythical sheep/ox. The xiezhi hat was part of the attire of censors |
+| xiezhi-c07 | exact | zh.wikisource.org | The Shuowen passage quoted in the Taiping Yulan: the xiezhi resembles an ox with one horn; in antiquity it was ordered to butt the party in the wrong in lawsuits; asked what it eats and where it lives, the answer was that it eats jian (薦), lives by marshes in spring and summer, and among bamboo and pines in autumn and winter. | 獬豸，似牛，一角。古者決訟，命觸不直。黃帝時有遺帝獬豸者，帝問何食何處，曰：「食薦。春夏處水澤，秋冬處竹箭松筠。」 |
+| xiezhi-c08 | exact | zh.wikisource.org | The Shenyijing passage quoted in the Taiping Yulan: in the northeastern wilderness there is a beast like an ox, with one horn, blue fur and four feet like a bear; it is loyal and upright, butting the wrongful party when it sees people fighting and biting the unjust party when it hears an argument; it is named xiezhi, or "Renfa Shou" (任法獸); Zhang Hua adds that the censor's law cap of his day was called xiezhi. | 東北荒中有獸，如牛，一角，毛青，四足，似熊。忠直，見人斗則觸不直，聞人論則咋不正。名曰獬豸，一名任法獸。〈張華曰：今御史法冠曰獬豸。〉 |
+| xiezhi-c09 | exact | zh.wikisource.org | The Lunheng passage quoted in the Taiping Yulan: the xiezhi is a one-horned sheep that by nature recognises the guilty; Gao Yao (皋繇) had it butt the guilty in trials, and revered it, kneeling to serve it. | 獬豸者，一角之羊，性識有罪。皋繇治獄，有罪者令羊觸之。皋繇敬羊，跪坐事之。 |
+| xiezhi-c10 | exact | zh.wikisource.org | The Tangshu passage quoted in the Taiping Yulan: in year 21 of the era written 開玄, a one-horned divine sheep was born in Fuping county, Jingzhao, with a fleshy horn on the crown of its head and white hair; those who knew named it xiezhi. | 開玄二十一年，有一角神羊產於京兆之富平縣，肉角當頂，白毛上捧。識者以獬豸名之。 |
+| xiezhi-c11 | exact | en.wikipedia.org | In Japan it is known as kaichi (獬豸), sometimes called shin'yō (神羊, "divine sheep"), and is described as similar to a lion with one horn on top of its head. | In Japan, it is known as kaichi ... The kaichi is described as similar to a lion with one horn on the top of its head. |
+| xiezhi-c12 | exact | en.wikipedia.org | According to Korean records, the haetae has a muscular, lion-like body covered with sharp scales, a bell at its neck and a horn on its forehead, and lives in the frontier areas of Manchuria. | According to Korean records, the haetae has a muscular leonine body covered with sharp scales, a bell in its neck and a horn on its forehead. It lives in the frontier areas of Manchuria. |
 
 
 ## bixi — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 11, loose 3), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bixi-c01 | exact | en.wikipedia.org | Bixi is a Chinese mythological figure portrayed as a dragon with a turtle shell. | Bixi, or Bi Xi (Wade–Giles: Pi-hsi), is a figure from Chinese mythology. One of the nine sons of the Dragon King, he is depicted as a dragon with the shell of a turtle. |
 | bixi-c02 | exact | en.wikipedia.org | He is described as one of the Dragon King's nine sons. | Bixi, or Bi Xi (Wade–Giles: Pi-hsi), is a figure from Chinese mythology. One of the nine sons of the Dragon King, he is depicted as a dragon with the shell of a turtle. |
 | bixi-c03 | exact | en.wikipedia.org | Bixi stone sculptures form decorative supports for commemorative steles and tablets. | Stone sculptures of Bixi have been used in Chinese culture for centuries as a decorative plinth for commemorative steles and tablets, particularly in the funerary complexes of China's later emperors and to commemorate important events, such as an imperial visit or the anniversary of a World War II victory. |
-| bixi-c04 | loose | en.wikipedia.org | The tortoise-mounted stele tradition existed by the early third century. | The tradition of tortoise-mounted stelae originated no later than early 3rd century (late Han dynasty). According to the 1957 survey by Chêng Tê-k'un (鄭徳坤), the earliest extant tortoise-borne stele is thought to be the one at the tomb of Fan Min (樊敏), in Lushan County, Ya'an, Sichuan. Victor Segalen had earlier identified the stele as a Han dynasty monument. |
+| bixi-c04 | loose | en.wikipedia.org | The tortoise-mounted stele tradition existed by the early third century, in the late Han dynasty. | The tradition of tortoise-mounted stelae originated no later than early 3rd century (late Han dynasty). According to the 1957 survey by Chêng Tê-k'un (鄭徳坤), the earliest extant tortoise-borne stele is thought to be the one at the tomb of Fan Min (樊敏), in Lushan County, Ya'an, Sichuan. Victor Segalen had earlier identified the stele as a Han dynasty monument. |
 | bixi-c05 | exact | en.wikipedia.org | A Nanjing Museum funerary jar dated 272 depicts a miniature stele-bearing tortoise. | In the collection of the Nanjing Museum there is a hunping funerary jar, dating to 272 AD, with a miniature architectural composition on top, depicting, among other objects, a tortoise carrying a stele erected by the Jin dynasty governor of Changsha in honor of a local dignitary. |
-| bixi-c06 | exact | en.wikipedia.org | Ming-era Hongwu regulations restricted tortoise-based stelae according to rank. | The bixi tradition flourished during the Ming and Qing dynasties. The Ming founder, the Hongwu Emperor, in the first year after the dynasty had been proclaimed (1368), adopted regulations, allowing tortoise-based funerary tablets to the higher ranks of the nobility and the mandarinate. |
+| bixi-c06 | exact | en.wikipedia.org | In the first year of the Ming dynasty (1368), the Hongwu Emperor adopted regulations restricting tortoise-based funerary tablets according to rank. | The bixi tradition flourished during the Ming and Qing dynasties. The Ming founder, the Hongwu Emperor, in the first year after the dynasty had been proclaimed (1368), adopted regulations, allowing tortoise-based funerary tablets to the higher ranks of the nobility and the mandarinate. |
+| bixi-c07 | loose | en.wikipedia.org | Chinese dictionaries translate the word bi 贔 or bixi 贔屭 (also written with the variant 贔屓) as "strong" and "capable to support great weight". | The word bi 贔 or bixi 贔屭 (also written with a variant character, 贔屓) is translated by Chinese dictionaries as "strong", "capable to support great weight". |
+| bixi-c08 | exact | en.wikipedia.org | According to this article, Zuo Si in his Wu Capital Rhapsody (Wu Jing Fu) associates the attribute bixi with the legendary giant turtle ao, whose head supports a sacred mountain. | Zhang Heng's follower, Zuo Si (250–305), in his Wu Capital Rhapsody (Wu Jing Fu), explicitly associates the attribute bixi with the legendary giant turtle ao, whose head supports a sacred mountain. |
+| bixi-c09 | exact | en.wikipedia.org | Bixi sculptures are traditionally rubbed for good luck, which can cause conservation problems. | Sculptures of Bixi are traditionally rubbed for good luck, which can cause conservation issues. |
+| bixi-c10 | exact | zh.wikisource.org | This text records two lists of the dragon's sons: in one, Baxia (霸下) likes to carry weight and serves as a stele base while Xibi (屭贔) likes literature and stands at the sides of the stele; in the Bowuzhi (Yipian), Xibi likes to bear weight and is therefore used to carry stone steles. The text notes that the two lists differ in names. | 又龍九子，一名霸下，好負重，故為碑座；屭贔，好文，在碑文兩旁。亦出《總龜》。《博物志•逸篇》又云：「屭贔性好負重，故用載石碑，螭虎形似龍，性好文采，故立於碑文上。」二說名字亦不同。 |
+| bixi-c11 | exact | zh.wikisource.org | In another list of the dragon's sons, the one that likes to carry heavy loads and serves as the stele base is Baxia (霸下), while Xixi (屓屭) likes literature and stands at the sides of steles. | 霸下，好負重，為碑座。狴犴，好訟，為獄門。屓屭，好文，在碑兩傍。 |
+| bixi-c12 | loose | en.wikipedia.org | According to this article, Li Dongyang and Xie Zhaozhe call the stele-carrying tortoise baxia (霸下) rather than bixi, and apply the name bixi to the "literature-loving" dragons on the sides of the stele. | both Li Dongyang (1441–1516), in his Huai Lu Tang Ji, and Xie Zhaozhe (謝肇淛, 1567–1624), in his Wu Za Zu (五雜俎, Five Assorted Offerings, ca. 1592), refer to the tortoise that carries the stele by the name baxia (霸下), rather than bixi; at the same time they apply the name bixi to the "literature-loving" dragons that appear on the sides of the stele |
+| bixi-c13 | exact | zh.wikisource.org | Another list quoted in this text says that Xibi (屭贔) looks like a tortoise, likes bearing weight, and is therefore used to carry stone steles. | 屭贔，其形似龜，性好負重，故用載石碑。螭𧉚，其形似獸，性好望，故立屋角上。 |
+| bixi-c14 | exact | zh.wikisource.org | The author of this text recalls seeing the account in a book at about age eleven or twelve, and after examining written records concluded that the account of the dragon's nine sons is unfounded (不經). | 余憶十一、二時，曾見其說於《對類總龜》中，近因歴考傳記，乃知其說為不經。 |
 
 
 ## snow-lion — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 1, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | snow-lion-c01 | loose | en.wikipedia.org | The Snow Lion is a Tibetan celestial animal symbolizing snowy mountains. | The Snow Lion (sometimes spelled snowlion; Tibetan: གངས་སེང་གེ་, Wylie: gangs seng ge; Chinese: 雪獅) is a celestial animal of Tibet. It is the emblem of Tibet, representing the snowy mountain ranges and glaciers of Tibet, and may also symbolize power and strength, and fearlessness and joy, east and the earth element. It is one of the Four Dignities. |
 | snow-lion-c02 | exact | en.wikipedia.org | It is commonly portrayed as white with a turquoise mane. | It ranges over the mountains, and is commonly pictured as being white with a turquoise mane. |
-| snow-lion-c03 | exact | en.wikipedia.org | Snow lions appeared on Tibetan emblems, currency, stamps, and flags. | From 1909 until 1959, a single snow lion or a pair of them was used as the national emblem of Tibet on coins, postage stamps, banknotes and the national flag of Tibet. The version shown on right with two Snow Lions was introduced by the 13th Dalai Lama in 1912 based on old military banners, and is still used by the Government of Tibet in Exile. |
+| snow-lion-c03 | exact | en.wikipedia.org | Snow lions appeared on Tibetan emblems, currency, stamps and flags from 1909 until 1959; the two-lion version was introduced by the 13th Dalai Lama in 1912 based on old military banners and is still used by the Government of Tibet in Exile. | From 1909 until 1959, a single snow lion or a pair of them was used as the national emblem of Tibet on coins, postage stamps, banknotes and the national flag of Tibet. The version shown on right with two Snow Lions was introduced by the 13th Dalai Lama in 1912 based on old military banners, and is still used by the Government of Tibet in Exile. |
 | snow-lion-c04 | exact | en.wikipedia.org | Tales and proverbs place it as king of beasts in the highest mountains. | Snow lion is frequently mentioned in Tibetan folk songs and proverbs. It is thought to live in the highest mountains as it is the "king of beasts" that would tower over other animals of the lower levels. Snow lions may also represent hermits and yogis who live high up in the mountains. |
 | snow-lion-c05 | exact | en.wikipedia.org | Tibetan lore describes Gesar and Milarepa as raised by snow lionesses. | In Tibetan lore, two Tibetan culture heroes, Gesar and Milarepa, were said to have been raised by snow lioness. The milk of the Snow Lioness (Tibetan: Gangs Sengemo) is reputed to contain special nutrients to heal the body and restore it to harmony. Some holy medicinal remedies are believed to contain the essence of Snow Lioness milk. |
 | snow-lion-c06 | exact | en.wikipedia.org | One legend says the lioness produces milk through her paws. | Legend has it that the lioness produces milk from its paws, and the milk may pass into hollow balls given to the lioness to play with. This ball may be represented in Tibetan art as a three-coloured "wheel of joy" (dga' 'khyil). |
+| snow-lion-c07 | exact | tibet.net | According to the Central Tibetan Administration, the banner of the Ya-ru To regiment showed a pair of snow lions facing each other, and that of Ya-ru Ma a snow lion standing upright and springing toward the sky. | The banner of Ya-ru To regiment had a pair of snow lions facing each other, that of Ya-ru Ma a snow lion standing upright, springing upwards towards the sky |
+| snow-lion-c08 | exact | tibet.net | In the reign of the seventh-century king Songtsen Gampo, Tibet was one of the mightiest empires in Central Asia, and each regiment of its army had its own banner. | During the reign of the seventh-century king, Songtsen Gampo, Tibet was one of the mightiest empires in Central Asia. Tibet, then, had an army of 2,860,000 men. Each regiment of the army had its own banner. |
+| snow-lion-c09 | exact | tibet.net | According to the Central Tibetan Administration, the pair of snow lions on the Tibetan national flag stand proudly with manes of fearlessness, representing the country's victorious accomplishment of a unified spiritual and secular life. | On the slopes of the mountain a pair of snow lions stand proudly, blazing with the manes of fearlessness, which represent the country's victorious accomplishment of a unified spiritual and secular life. |
 
 
 ## he-bo — lulus-otomatis
@@ -684,10 +712,7 @@ Klaim 6 (loose 3, exact 3), sumber 1, gambar 0.
 
 ## ao — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -696,6 +721,9 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ao-c03 | exact | en.wikipedia.org | Nüwa cuts off Ao's four legs to support the damaged sky. | Ao (traditional Chinese: 鰲; simplified Chinese: 鳌; pinyin: áo < Old Chinese (ZS): *ŋaːw) is a large marine turtle in Chinese mythology. He was thought to have lived in the South China Sea during the time of the formation of the world. When the goddess Nüwa, creator of mankind, was repairing the sky after a disaster, she chopped off Ao's four legs and used them as supports. |
 | ao-c04 | exact | en.wikipedia.org | Another version places it in the Bohai Sea carrying three islands of immortals on its back. | Another myth claims that Ao still lives and resides in the Bohai Sea, where he carries the three islands of the Eight Immortals (Penglai, Fangzhang, and Yingzhou) upon his back. |
 | ao-c05 | exact | en.wikipedia.org | Ao is considered an influence on the dragon-turtle figure Bixi. | He is thought to have been an influence on the later half-dragon, half-turtle figure of Bixi in imperial Chinese sculpture. Bixi was considered a son of the Dragon King who was able to carry enormous weights upon his back; figures of the dragon-turtle bearing memorial stelae are common monuments throughout East Asia. |
+| ao-c06 | exact | archive.org | In Giles's translation of the Liezi, Nüwa cut off the legs of the Ao and used them to support the four corners of the heavens; Giles adds that this Chinese "Atlas" was a gigantic sea-turtle. | He cut off the legs of the Ao and used them to support the four corners of the heavens. This Chinese “ Atlas ” was a gigantic sea-turtle. |
+| ao-c07 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Shuowen that the ao (鼇) is a great turtle in the sea; the Yupian that a divine ao carries Mount Penglai on its back in the sea; and the Sanhuang Benji that Nüwa cut off the ao's feet to set up the four poles. The dictionary regards the writing 鰲 as a popular but incorrect form. | 《說文》海中大鱉也。《玉篇》傳曰：有神靈之鼇，背負蓬萊之山，在海中。《史記·三皇本紀》女媧氏斷鼇足，以立四極。俗作鰲，非是。 |
+| ao-c08 | exact | en.wikipedia.org | According to this article, place names referring to an ao are more characteristic of China's southeastern coast (Zhejiang to Guangdong), including the Ao River (Aojiang) in southern Zhejiang and the Liu'ao ("Six ao") peninsula in southern Fujian. | place names referring to an ao are more characteristic of China's southeastern coast (Zhejiang to Guangdong). This includes the Ao River (Aojiang) in southern Zhejiang, with the town of Aojiang on its northern shore, as well as the Liu'ao ("Six ao") peninsula in southern Fujian. |
 
 
 ## gwisin — lulus-otomatis
