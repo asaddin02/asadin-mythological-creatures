@@ -30,6 +30,7 @@ parser.add_argument('--existing', action='store_true')
 parser.add_argument('--review-notes', default='')
 parser.add_argument('--asset-suffix', default='verified')
 parser.add_argument('--skip-historical-batches', action='store_true')
+parser.add_argument('--tool', default='OpenAI built-in image_gen', help='Image generator, recorded as the image source.')
 args = parser.parse_args()
 if not re.fullmatch(r'[a-z0-9-]+', args.asset_suffix):
     raise SystemExit('Asset suffix must contain only lowercase letters, numbers and hyphens.')
@@ -87,9 +88,9 @@ creature['images'] = [{
         'id': f"{creature['display_name']['id']} — interpretasi artistik AI berdasarkan ciri dalam sumber folklor.",
         'en': f"{creature['display_name']['en']} — AI artistic interpretation based on features in folklore sources.",
     },
-    'source_name': 'OpenAI built-in image_gen',
+    'source_name': args.tool,
     'source_url': url,
-    'author': 'Mythics · OpenAI image generation',
+    'author': 'Mythics · OpenAI image generation' if args.tool == 'OpenAI built-in image_gen' else f'Mythics · {args.tool}',
     'license': 'AI-generated editorial illustration; see assets/art/README.md',
     'image_type': 'AI-generated editorial illustration',
     'ai_generated': True,

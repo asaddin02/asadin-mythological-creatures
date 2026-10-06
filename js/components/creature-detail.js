@@ -40,7 +40,7 @@ export async function renderCreatureDetail(container, slug) {
     const didYouKnow = resolveLocalized(creature.did_you_know, '');
 
     const art = editorialArt(creature.slug);
-    const primaryImg = art ? { url: art, image_type: bi('Interpretasi artistik AI', 'AI artistic interpretation'), license: bi('Ilustrasi editorial', 'Editorial illustration'), author: 'Mythics · OpenAI image generation' } : creature.images?.[0];
+    const primaryImg = art ? { url: art, image_type: bi('Interpretasi artistik AI', 'AI artistic interpretation'), license: bi('Ilustrasi editorial', 'Editorial illustration'), author: creature.images?.find(i => i.ai_generated)?.author || 'Mythics · OpenAI image generation' } : creature.images?.[0];
     const imgUrl = primaryImg?.preview_url || primaryImg?.url || '/assets/placeholders/creature-fallback.svg';
     const artData = artwork(creature);
     const profile = getAssessment(creature);

@@ -35,11 +35,12 @@ for (const item of batch.items) {
   const receiptPath = `data/artwork-generated/batch-${batchNumber}/${item.slug}.json`;
   if (!existsSync(resolve(root, receiptPath))) continue;
   const receipt = read(receiptPath);
-  if (['awaiting-visual-review', 'awaiting-independent-review', 'needs-correction'].includes(receipt.status)) continue;
+  // tidak-digambar: the generator declined because the research documents no depictable form.
+  if (['awaiting-visual-review', 'awaiting-independent-review', 'needs-correction', 'tidak-digambar'].includes(receipt.status)) continue;
   if (batch.require_root_visual_review && receipt.root_visual_review?.verdict !== 'pass') continue;
   if (receipt.slug !== item.slug || receipt.worker !== item.worker || receipt.status !== 'reviewed')
     throw new Error(`Receipt identity/status mismatch: ${item.slug}`);
-  if (receipt.tool !== 'OpenAI built-in image_gen' || receipt.visual_review?.verdict !== 'pass' || !receipt.visual_review.notes)
+  if (receipt.tool !== batch.tool || receipt.visual_review?.verdict !== 'pass' || !receipt.visual_review.notes)
     throw new Error(`An inspected passing image is required: ${item.slug}`);
   if (!receipt.prompt || !receipt.depicted_variant || !receipt.aura || !receipt.visual_requirements?.length || !receipt.basis_claim_ids?.length)
     throw new Error(`Missing character-specific visual specification: ${item.slug}`);
@@ -77,7 +78,7 @@ for (const item of batch.items) {
   save('assets/art/verified-prompts.json', prompts);
   const manifestBefore = read('assets/art/verified-manifest.json');
   if (!manifestBefore.artworks[item.slug]) {
-    execFileSync('python3', ['scripts/register-artwork.py', item.slug, source, '--reviewed', '--skip-historical-batches', '--review-notes', receipt.visual_review.notes], { cwd: root, stdio: 'pipe' });
+    execFileSync('python3', ['scripts/register-artwork.py', item.slug, source, '--reviewed', '--skip-historical-batches', '--tool', batch.tool, '--review-notes', receipt.visual_review.notes], { cwd: root, stdio: 'pipe' });
   } else if (manifestBefore.artworks[item.slug].original_file !== source || manifestBefore.artworks[item.slug].prompt !== receipt.prompt) {
     throw new Error(`An existing artwork conflicts with this receipt: ${item.slug}`);
   }

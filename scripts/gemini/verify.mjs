@@ -10,7 +10,15 @@
  * Input:  data/gemini/inbox/<batch>*.md|json (later files override earlier ones per slug)
  * Output: data/gemini/reviews/<batch>.review.json|.review.md|.fix-draft.md
  *
- * Usage: node scripts/gemini/verify.mjs batch-001 [--refresh]
+ * Usage: node scripts/gemini/verify.mjs batch-001 [--refresh] [--changed]
+ *
+ * --changed re-checks only entries that differ from the last review and keeps the earlier verdict of
+ * every other entry. Use it when enriching an accepted batch: source pages change over time (Wikipedia
+ * edits), so re-checking untouched entries against today's pages can fail entries nobody edited.
+ * An entry counts as unchanged when its JSON hash matches the one stored in the last review or in the
+ * committed review (so an enrichment that is dropped again falls back to its earlier verdict), or, for
+ * reviews written before hashes were stored, when it comes from the same inbox file and that file is
+ * committed without local changes.
  */
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -26,8 +34,9 @@ import { tierShortfall } from './tier.mjs';
 const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 const batchId = process.argv[2];
 const REFRESH = process.argv.includes('--refresh');
+const CHANGED_ONLY = process.argv.includes('--changed');
 if (!/^batch-\d{3,4}$/.test(batchId || '')) {
-  console.error('Usage: node scripts/gemini/verify.mjs batch-001 [--refresh]');
+  console.error('Usage: node scripts/gemini/verify.mjs batch-001 [--refresh] [--changed]');
   process.exit(1);
 }
 
@@ -733,8 +742,41 @@ const expected = new Map(manifest.entries.map(e => [e.slug, e]));
 const existingNames = new Map(creatures.map(c => [looseNorm(c.canonical_name), c.slug]));
 const report = { batch_id: batchId, checked_at: new Date().toISOString(), files: submission.files, parse_problems: submission.problems, missing: [], entries: [] };
 report.missing = [...expected.keys()].filter(s => !submission.entries.has(s));
+const entryHash = entry => createHash('sha256').update(JSON.stringify(entry)).digest('hex');
+
+// --changed: the previous verdict stands for every entry that has not changed since it was given.
+const previous = new Map();
+const cleanFiles = new Set();
+if (CHANGED_ONLY) {
+  const git = (...args) => promisify(execFile)('git', args, { cwd: ROOT, maxBuffer: 256 * 1024 * 1024 }).then(r => r.stdout);
+  const reviewPath = `data/gemini/reviews/${batchId}.review.json`;
+  const reviews = [
+    await readFile(join(ROOT, reviewPath), 'utf8').catch(() => 'null'),
+    await git('show', `HEAD:${reviewPath}`).catch(() => 'null'),
+  ].map(text => JSON.parse(text));
+  for (const review of reviews) for (const e of review?.entries || []) previous.set(e.slug, [...(previous.get(e.slug) || []), e]);
+  const lines = text => text.split('\n').filter(Boolean);
+  const tracked = lines(await git('ls-files', '--', 'data/gemini/inbox/'));
+  const dirty = new Set(lines(await git('status', '--porcelain', '--', 'data/gemini/inbox/')).map(l => l.slice(3)));
+  for (const path of tracked) if (!dirty.has(path)) cleanFiles.add(path.replace('data/gemini/inbox/', ''));
+}
+const unchanged = (slug, entry, file) => {
+  const hash = entryHash(entry);
+  for (const prev of previous.get(slug) || []) {
+    if (prev.file !== file) continue;
+    if (prev.entry_sha256 ? prev.entry_sha256 === hash : cleanFiles.has(file)) return { ...prev, entry_sha256: hash };
+  }
+  return null;
+};
+let reused = 0;
 
 for (const [slug, { entry, file }] of submission.entries) {
+  const kept = unchanged(slug, entry, file);
+  if (kept) {
+    report.entries.push(kept);
+    reused++;
+    continue;
+  }
   process.stdout.write(`Memeriksa ${slug} … `);
   if (entry.skip) {
     const issues = [];
@@ -742,7 +784,7 @@ for (const [slug, { entry, file }] of submission.entries) {
     if (!nonEmpty(entry.skip.reason) || !/^https?:\/\//.test(entry.skip.evidence_url || '')) issues.push({ level: 'error', where: 'skip', message: 'skip harus punya reason dan evidence_url.' });
     issues.push({ level: 'manual', where: 'skip', message: `Diusulkan dilewati: ${entry.skip.reason} (${entry.skip.evidence_url}).` });
     const verdict = issues.some(i => i.level === 'error') ? 'perlu-perbaikan' : 'skip';
-    report.entries.push({ slug, file, verdict, counts: { claims: 0, sources: 0, images: 0 }, issues, claims: [], images: [] });
+    report.entries.push({ slug, file, entry_sha256: entryHash(entry), verdict, counts: { claims: 0, sources: 0, images: 0 }, issues, claims: [], images: [] });
     console.log(`${verdict}`);
     continue;
   }
@@ -758,9 +800,11 @@ for (const [slug, { entry, file }] of submission.entries) {
   const images = await checkImages(entry, issues);
   const errors = issues.filter(i => i.level === 'error').length;
   const verdict = errors ? 'perlu-perbaikan' : 'lulus-otomatis';
-  report.entries.push({ slug, file, verdict, counts: { claims: claims.length, sources: (entry.sources || []).length, images: images.length }, issues, claims, images });
+  report.entries.push({ slug, file, entry_sha256: entryHash(entry), verdict, counts: { claims: claims.length, sources: (entry.sources || []).length, images: images.length }, issues, claims, images });
   console.log(`${verdict} (${errors} error, ${issues.filter(i => i.level === 'warn').length} peringatan)`);
 }
+
+if (CHANGED_ONLY) console.log(`--changed: ${reused} entri tidak berubah, hasil pemeriksaan sebelumnya dipakai.`);
 
 // ---------------------------------------------------------------- write reports
 await mkdir(REVIEWS, { recursive: true });
