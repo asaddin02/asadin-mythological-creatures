@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-075",
-  "checked_at": "2026-10-06T19:08:15.587Z",
+  "checked_at": "2026-10-06T19:26:05.286Z",
   "files": [
     "batch-075.md",
     "batch-075-fix-1.md",
     "batch-075-fix-2.md",
     "batch-075-fix-3.md",
     "batch-075-fix-4.md",
-    "batch-075-fix-5.md"
+    "batch-075-fix-5.md",
+    "batch-075-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3535,18 +3536,19 @@
     },
     {
       "slug": "nittaewo",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "4fdc8a8c533cb1085284fe03fb3892b4110498162326bb873379ce12d0c8e510",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: archive.org (HTTP 500)."
         }
       ],
       "claims": [
@@ -3609,27 +3611,84 @@
           "quote": "The Veddahs themselves were the enemies of the nittaewo, which had no defense against the Veddahs’ bows and arrows.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nittaewo-c07",
+          "source_id": "nittaewo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They used no tools, instead disembowelling their prey with their long claws or hooked nails so they could feed on the entrails.",
+          "statement_id": "Mereka tidak memakai perkakas, melainkan membelah perut mangsanya dengan cakar panjang atau kuku melengkungnya sehingga dapat memakan isi perutnya.",
+          "quote": "They did not use tools, instead disembowelling their prey with their long claws or hooked nails, allowing them to feed on the entrails.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nittaewo-c08",
+          "source_id": "nittaewo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel him with its claws.",
+          "statement_id": "Dikatakan bahwa setiap kali seekor nittaewa menjumpai seorang Veddah yang sedang tidur, ia akan membelah perutnya dengan cakar.",
+          "quote": "It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel them with its claws.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nittaewo-c09",
+          "source_id": "nittaewo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The last nittaewo were said to have been exterminated by the Veddahs of Leanama in the late 18th century: they were rounded up into a cave whose entrance was blocked with brushwood that was set alight, suffocating them over three days.",
+          "statement_id": "Nittaewo terakhir dikatakan dimusnahkan oleh orang Veddah di Leanama pada akhir abad ke-18: mereka digiring ke sebuah gua yang pintunya ditutup semak kering lalu dibakar, sehingga mereka mati lemas selama tiga hari.",
+          "quote": "The last of the nittaewo were said to have been exterminated by the Veddahs of Leanama during the late 18th century, when they were rounded up into a cave, the entrance of which was then blocked up with brushwood which was set alight, suffocating the trapped nittaewo over three days.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nittaewo-c10",
+          "source_id": "nittaewo-s2",
+          "host": "archive.org",
+          "statement": "According to this book, the Nittaewo were a pigmy race that lived at one time in the Kattra-gam country of Lenama.",
+          "statement_id": "Menurut buku ini, Nittaewo adalah ras kerdil yang dahulu tinggal di daerah Kattra-gam di Lenama.",
+          "quote": "The Nittaewo were a pigmy race, that lived at one time in the Kattra- gam country of Lenama not far away.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 500"
+        },
+        {
+          "id": "nittaewo-c11",
+          "source_id": "nittaewo-s2",
+          "host": "archive.org",
+          "statement": "According to this book, these hairy cannibals attacked in companies, driving their long nails into the flesh, which they tore out and ate; they were afraid only of the buffalo and the dog.",
+          "statement_id": "Menurut buku ini, para kanibal berbulu itu menyerang berkelompok, menancapkan kuku panjang mereka ke daging lalu merobek dan memakannya; mereka hanya takut pada kerbau dan anjing.",
+          "quote": "These hairy cannibals attacked in companies, driving their long nails into the flesh which they tore out and ate. They were afraid only of the buffalo and the dog",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 500"
+        },
+        {
+          "id": "nittaewo-c12",
+          "source_id": "nittaewo-s2",
+          "host": "archive.org",
+          "statement": "According to this book, the Veddas, not very long ago, are said to have herded the last of the Nittaewo into a cave and destroyed them.",
+          "statement_id": "Menurut buku ini, orang Veddah belum lama berselang dikatakan menggiring Nittaewo terakhir ke sebuah gua dan membinasakan mereka.",
+          "quote": "The Veddas , not very long ago , are said to have herded the last of them into a cave and destroyed them.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 500"
         }
       ],
-      "images": [],
-      "entry_sha256": "d43600bd033e355432116ae5d09813b219173a1722238e65fe0bc3653e77917f"
+      "images": []
     },
     {
       "slug": "shinra-myojin",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "457003f8d375d170220740e9c16a0c6f104bc846b0de0b8a00fa08a02d8f4f6e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shinra-myojin-c01",
@@ -3690,27 +3749,101 @@
           "quote": "The name \"Shinra Myōjin\" can be translated as the \"Shining deity of Silla\". Silla was a historical kingdom on the Korean Peninsula which existed between 57 BCE and 935. The kingdom of Silla (新羅) can be read as \"Shiragi; Shiraki; Shinra\" and the term myōjin, meaning \"bright deity\", designates the class of Japanese deities.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c07",
+          "source_id": "shinra-myojin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Encyclopedia of Shinto, he is one of the \"protectors of the dharma\" (gohō) in the Tendai sect of Buddhism and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture.",
+          "statement_id": "Menurut Encyclopedia of Shinto, ia adalah salah satu \"pelindung dharma\" (gohō) dalam mazhab Tendai Buddha dan dewa pelindung kuil terkenal Onjōji (Miidera) di Ōmi, Prefektur Shiga.",
+          "quote": "One of the \"protectors of the dharma\" (gohō;) in the Tendai sect of Buddhism, and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c08",
+          "source_id": "shinra-myojin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to legend, during Enchin's (Chishō Daishi's) return from China a deity called Shinra Myōjin appeared onboard the ship as an old man and vowed to protect the Buddha Dharma; after Enchin returned to Japan the deity appeared again and led Enchin to Onjōji.",
+          "statement_id": "Menurut legenda, ketika Enchin (Chishō Daishi) kembali dari Tiongkok, dewa bernama Shinra Myōjin muncul di atas kapal sebagai orang tua dan berikrar melindungi Dharma Buddha; setelah Enchin tiba di Jepang, sang dewa muncul lagi dan menuntun Enchin ke Onjōji.",
+          "quote": "According to legend, during the return of Enchin (Chishō Daishi) from China, a deity called Shinra Myōjin appeared onboard the ship in the form of an old man and vowed to protect the Buddha Dharma. After Enchin returned to Japan, the deity appeared again and led Enchin to Onjōji.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c09",
+          "source_id": "shinra-myojin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin.",
+          "statement_id": "Enchin kemudian membangun sebuah kuil kecil di sebelah utara kuil itu dan memuliakan Shinra Myōjin di sana.",
+          "quote": "Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c10",
+          "source_id": "shinra-myojin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "This tradition is first recounted in the Onjōji ryūge-e engi, compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, so veneration of the deity preceded that date.",
+          "statement_id": "Tradisi ini pertama kali dicatat dalam Onjōji ryūge-e engi (1062), tetapi sang dewa sudah diberi peringkat resmi (shinkai) pada 971, sehingga pemujaannya mendahului tanggal itu.",
+          "quote": "This tradition is first recounted in the Onjōji ryūge-e engi, a legendary history compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, making it evident that veneration of the deity preceded that date.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c11",
+          "source_id": "shinra-myojin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The deity is most frequently portrayed as an old man wearing Chinese robes and headpiece and holding a sutra scroll and scepter.",
+          "statement_id": "Sang dewa paling sering digambarkan sebagai orang tua berjubah dan bertutup kepala gaya Tiongkok, memegang gulungan sutra dan tongkat kebesaran.",
+          "quote": "The deity is most frequently portrayed iconographically as an old man wearing Chinese robes and headpiece, and holding a sutra scroll and scepter.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c12",
+          "source_id": "shinra-myojin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shinra Myōjin is also regarded as a deity of pestilence; historical sources indicate he was believed both to cause epidemics and to cure illnesses.",
+          "statement_id": "Shinra Myōjin juga dianggap dewa wabah; sumber sejarah menunjukkan ia dipercaya dapat menimbulkan wabah sekaligus menyembuhkan penyakit.",
+          "quote": "Shinra Myōjin is also regarded as a deity of pestilence. Historical sources indicate that he was believed to both cause epidemics and cure illnesses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c13",
+          "source_id": "shinra-myojin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the eleventh century Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition.",
+          "statement_id": "Pada abad ke-11 Shinra Myōjin memperoleh peran sebagai dewa puisi waka dalam tradisi Jimon.",
+          "quote": "In the eleventh century, Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shinra-myojin-c14",
+          "source_id": "shinra-myojin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In engi stories Shinra Myōjin's primary role is that of a protector of people on sea journeys.",
+          "statement_id": "Dalam kisah engi, peran utama Shinra Myōjin adalah pelindung orang yang melakukan pelayaran.",
+          "quote": "In engi stories, Shinra Myōjin's primary role is that of a protector of people partaking in sea journeys.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e998371a0a3116533d7da11b52b363ad6dd6ae5cd2f12347daebee341eacae0c"
+      "images": []
     },
     {
       "slug": "shomen-kongo",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "2eaa65fe7190c351125f09fff2fe35750d31429df1cea53cf7052175c17b8efb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shomen-kongo-c01",
@@ -3761,25 +3894,95 @@
           "quote": "庚申待は平安貴族の間に始まり、近世に入ってからは、近隣の庚申講の人々が集まって夜通し酒宴を行うという風習が民間にも広まった。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c06",
+          "source_id": "shomen-kongo-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to JAANUS, he is also known as Seishoku Daikongō Yasha (青色大金剛薬叉), a deity guarding people from illnesses thought to come from demons, and one of the raksasa lords ruling the east.",
+          "statement_id": "Menurut JAANUS, ia juga dikenal sebagai Seishoku Daikongō Yasha (青色大金剛薬叉), dewa yang melindungi dari penyakit yang diyakini disebabkan setan, salah satu penguasa raksasa yang memerintah timur.",
+          "quote": "Also known as Seishoku Daikongō Yasha 青色大金剛薬叉. A deity who protects against diseases believed to be caused by demons. Shōmen Kongō is one of the raksasa lords and rules the east.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c07",
+          "source_id": "shomen-kongo-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "In Buddhist texts he is sometimes said to have been a demon who originally caused disease but was then conquered and re-dedicated himself as a protector against disease.",
+          "statement_id": "Dalam teks Buddhis, ia kadang dikatakan dahulu iblis penyebab penyakit yang lalu ditaklukkan dan membaktikan diri kembali sebagai pelindung dari penyakit.",
+          "quote": "In Buddhist texts he is sometimes said to have been a demon who originally caused disease but who was then conquered, and he re-dedicated himself as a protector against disease.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c08",
+          "source_id": "shomen-kongo-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "He often appears as an angry deity with a blue body and four arms: a three-pronged vajra in the upper right hand, a staff in the lower right, a cakra in the upper left, and a noose in the lower left.",
+          "statement_id": "Ia sering tampil sebagai dewa murka bertubuh biru berlengan empat: tangan kanan atas memegang vajra bercabang tiga, kanan bawah tongkat, kiri atas cakra, dan kiri bawah jerat.",
+          "quote": "Shōmen Kongō often appears as an angry deity with a blue body and four arms. He carries a three-pronged vajra *kongōsho 金剛杵 in his upper right hand, a staff *shakujō 錫杖 in his lower right hand, a cakra (J: rinpō 輪宝) in his upper left hand, and a noose in his lower left hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c09",
+          "source_id": "shomen-kongo-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "Since the Kamakura period, Shōmen Kongō, mixed with Daoism, became a deity of the cult of kōshin.",
+          "statement_id": "Sejak zaman Kamakura, Shōmen Kongō yang bercampur dengan Taoisme menjadi dewa pemujaan kōshin.",
+          "quote": "Since the Kamakura period, Shōmen Kongō, being mixed with Daoism, became a deity of the cult of kōshin.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c10",
+          "source_id": "shomen-kongo-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "This cult believed that on the eve of the fifth monkey day it was particularly easy to have one's life shortened; to counteract this, believers stayed awake through the night and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko to hold a devotional celebration.",
+          "statement_id": "Pemujaan ini meyakini bahwa pada malam sebelum hari monyet kelima hidup mudah dipersingkat; untuk menangkalnya, penganut berjaga semalaman, dan pada hari kōshin berkumpul di depan gulungan Shōmen Kongō dan Sarutahiko untuk merayakan pemujaan.",
+          "quote": "This cult believed that on the eve of fifth monkey day, it was particularly easy to have your life shortened. In order to counteract this danger, believers stayed awake through the night, and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko 猿田彦 to hold a devotional celebration.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c11",
+          "source_id": "shomen-kongo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, he is generally depicted with a wrathful face, trampling an evil demon underfoot, with six arms (sometimes two, four or eight) holding a wheel of the law, bow, arrow, sword, staff and a Shokera (human).",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, ia umumnya digambarkan berwajah murka, menginjak setan jahat di kakinya, berlengan enam (kadang dua, empat, atau delapan) dan memegang roda dharma, busur, anak panah, pedang, tongkat, dan Shokera (manusia).",
+          "quote": "一般には、足元に邪鬼を踏みつけ、六臂（二・四・八臂の場合もある）で法輪・弓・矢・剣・錫杖・ショケラ（人間）を持つ忿怒相で描かれることが多い。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shomen-kongo-c12",
+          "source_id": "shomen-kongo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, the link between Mahākāla and Shōmen Kongō is a mistaken transmission and the two are originally unrelated; he derives from Chinese Daoist thought and developed independently within the Kōshin belief, a Japanese folk belief.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, hubungan Mahākāla dan Shōmen Kongō adalah salah kaprah dan pada dasarnya tidak berkaitan; ia berasal dari pemikiran Tao Tiongkok dan berkembang sendiri dalam kepercayaan Kōshin, kepercayaan rakyat Jepang.",
+          "quote": "マハーカーラと青面金剛の関係は「誤伝」であり、本来は無関係である。中国の道教思想に由来し、日本の民間信仰である庚申信仰の中で独自に発展した尊格である。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1725e7c348ab06dc32c6d4bb4ddbfccb6cba64f4dfa38ea91f346c87e020fbbb"
+      "images": []
     },
     {
       "slug": "suiten",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "aba76d51094b39a369ac83706d3410bafc132dafd034db5444b190591470f165",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "timeline[0].description",
+          "message": "Tidak muncul di kutipan mana pun: Januari, Shingon-in, January. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -3832,27 +4035,71 @@
           "quote": "平安時代に、宮中の真言院で毎年正月に行なわれた修法に用いるため、1127年（大治2年）に制作された十二天画像のうちのひとつとして、仏画（絹本著色144.3 x 126.5cm）の水天像（京都国立博物館・所蔵。国宝）が残されている。ほかにも寺社に祀られる十二天のうちの一体としての作例は数多く見られた。日本においては、水や水天を象徴する生物として竜に限らず蛇があつかわれることもある。蛇王権現や水釈天などの項も参照。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "suiten-c06",
+          "source_id": "suiten-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, Suiten originally refers to Varuṇa, an old asura known in India and Iran; in the Vedas Varuṇa holds an important position as a sky god, a god of justice (contracts and righteousness) and a water god.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, Suiten pada asalnya merujuk pada Varuṇa, asura kuno yang dikenal di India dan Iran; dalam Weda Varuṇa menempati kedudukan penting sebagai dewa langit, dewa hukum (kontrak dan keadilan), dan dewa air.",
+          "quote": "もともとはインド・イランで語られていた古いアスラ族のヴァルナのことをさす。インドに伝わるヴェーダのなかでヴァルナは重要な位置に置かれ、天空神・司法神（＝契約と正義の神）・水神などの属性を持つ存在として語られる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suiten-c07",
+          "source_id": "suiten-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, at the Meiji-era separation of Shinto and Buddhism, because the original Suiten (Varuṇa) is a supreme and primordial god, temples that had worshipped Suiten often substituted Ame-no-minakanushi, the primordial god of the Kiki myths.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, pada pemisahan Shinto dan Buddha zaman Meiji, karena Suiten (Varuṇa) pada asalnya dewa tertinggi dan dewa awal, kuil yang memujanya sering menggantinya dengan Ame-no-minakanushi, dewa awal dalam mitologi Kiki.",
+          "quote": "明治時代の神仏分離の際には、元来の水天（ヴァルナ）が最高神・始源神であることから、水天を祀っていた寺社では、記紀神話における始源神・天御中主神が代わりにあてはめらることが多かった。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suiten-c08",
+          "source_id": "suiten-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to JAANUS, the Twelve Deities are a group of tutelary deities made up of various Hindu gods, incorporated into Esoteric Buddhism and supplanting the Four Heavenly Kings as protectors of Buddhism, considered to control all minor gods and demons.",
+          "statement_id": "Menurut JAANUS, Dua Belas Dewa adalah kelompok dewa pelindung yang terdiri dari berbagai dewa Hindu, dimasukkan ke Buddhisme Esoterik dan menggantikan Empat Raja Langit sebagai pelindung Buddhisme, dianggap mengendalikan semua dewa kecil dan iblis.",
+          "quote": "Twelve Deities. A group of tutelary deities consisting of various Hindu gods, which was incorporated into Esoteric Buddhism mikkyō 密教 and came to supplant the Four Heavenly Kings *Shitennō 四天王 as protectors of Buddhism. Considered to exercise control over all minor gods and demons",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "suiten-c09",
+          "source_id": "suiten-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to JAANUS, Suiten (水天) is the fifth deity in the list of the Twelve Deities: Water, Sk: Varuna, west.",
+          "statement_id": "Menurut JAANUS, Suiten (水天) adalah dewa kelima dalam daftar Dua Belas Dewa (Twelve Deities), Air, Sk: Varuna, barat.",
+          "quote": "Twelve Deities. A group of tutelary deities ... (5) Suiten 水天 (Water, Sk: Varuna; west)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "suiten-c10",
+          "source_id": "suiten-s2",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "According to JAANUS, in Japan representations of these deities as a group are generally limited to pictures, and they were used in various esoteric rites.",
+          "statement_id": "Menurut JAANUS, di Jepang penggambaran kedua belas dewa sebagai kelompok umumnya terbatas pada lukisan, dan digunakan dalam berbagai ritus esoterik.",
+          "quote": "In Japan, representations of these deities as a group are generally limited to the pictorial, and these depictions were used in various esoteric rites.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e9e8ce6be9708d40c691112cd66fd7397b9eb99de590d8a2957b852a6ede9c51"
+      "images": []
     },
     {
       "slug": "vadavagni",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "1c9248f09d46c4ae8290d56346c6505949143e98575d0c097f3564a37b4da3b3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vadavagni-c01",
@@ -3913,27 +4160,111 @@
           "quote": "The Vishnu Purana states that the Vadavagni is located beneath the Kshira Sagara, surrounded by seas of curds, ghee, sugarcane juice, wine, and sweet water.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "vadavagni-c07",
+          "source_id": "vadavagni-s2",
+          "host": "www.ibiblio.org",
+          "statement": "In this text Aurva says his rage, like fire consuming dry woods, will certainly consume him if he does not accomplish his vow.",
+          "statement_id": "Dalam teks ini, Aurva berkata bahwa amarahnya, bagai api yang melahap kayu kering, akan melahapnya bila ia tidak menunaikan sumpahnya.",
+          "quote": "Hearing these words of the Pitris, Aurva, O child, replied unto them to this effect: ... Like fire consuming dry woods, this rage of mine will certainly consume me if I do not accomplish my vow.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c08",
+          "source_id": "vadavagni-s2",
+          "host": "www.ibiblio.org",
+          "statement": "In this text it is advised that the fire born of the wrath abide in the great ocean, consuming its waters, for it is said the worlds are made of water.",
+          "statement_id": "Dalam teks ini, disarankan agar api yang lahir dari amarah itu bersemayam di samudra besar sambil melahap airnya, karena dikatakan dunia terbuat dari air.",
+          "quote": "If, therefore, thou desirest it, O Brahmana, let this fire born of thy wrath abide in the great ocean, consuming the waters thereof, for it hath been said that the worlds are made of water.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c09",
+          "source_id": "vadavagni-s2",
+          "host": "www.ibiblio.org",
+          "statement": "In this text Aurva cast the fire of his wrath into the abode of Varuna; that fire which consumes the waters of the great ocean became like a large horse's head that persons conversant with the Vedas call Vadavamukha, and emitting from that mouth it consumes the waters of the mighty ocean.",
+          "statement_id": "Dalam teks ini, Aurva melemparkan api amarahnya ke kediaman Varuna; api yang melahap air samudra besar itu menjadi seperti kepala kuda besar yang oleh para ahli Weda disebut Vadavamukha, dan dari mulut itu ia melahap air samudra perkasa.",
+          "quote": "Then, O child, Aurva cast the fire of his wrath into the abode of Varuna. And that fire which consumeth the waters of the great ocean, became like unto a large horse's head which persons conversant with the Vedas call by the name of Vadavamukha. And emitting itself from that mouth it consumeth the waters of the mighty ocean.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c10",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Aurva said he could not let the flames risen from his austerities come to naught as they would burn him alive, his Pitrs suggested he release his wrathful flame into the ocean; the sage obeyed and the flame became the Vadavagni, a mare-faced inferno, which is why it is also called Aurvanala.",
+          "statement_id": "Ketika Aurva berkata ia tidak dapat membiarkan api pertapaannya sia-sia karena akan membakarnya hidup-hidup, para leluhurnya menyarankan agar ia melepas api amarahnya ke samudra; sang resi menurut, dan api itu menjadi Vadavagni, api neraka berwajah kuda betina, sehingga juga disebut Aurvanala.",
+          "quote": "When Aurva told them that he could not let the flames that had risen from his austerities to come to naught as that would burn him alive, his Pitrs suggested that he release his wrathful flame into the ocean. The sage obeyed, and the flame became the Vadavagni, a mare-faced inferno. Due to this reason, Vadavagni is also called Aurvanala.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c11",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another legend, after a year a mare (vadavā) emerged from Pippalada's thigh and gave birth to a fiery foetus that became the Vadavagni (submarine fire), after which the mare disappeared.",
+          "statement_id": "Dalam kisah lain, setelah setahun seekor kuda betina (vadavā) muncul dari paha Pippalada dan melahirkan janin berapi yang menjadi Vadavagni (api bawah laut), lalu menghilang.",
+          "quote": "Furious, Pippalada performed a severe penance, seeking the destruction of the devas. After a year, a vadavā (a mare) emerged from his thigh. This mare gave birth to a fiery foetus from its womb, which became the Vadavagni (submarine fire), after which it disappeared from the scene.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c12",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Vadavagni acquiesced but required that he be carried in the hand of a virgin to his destination; Saraswati was chosen for this mission.",
+          "statement_id": "Vadavagni setuju, tetapi mensyaratkan dibawa di tangan seorang perawan ke tempat tujuannya; Saraswati dipilih untuk tugas itu.",
+          "quote": "Vadavagni acquiesced, but required that he be carried in the hand of a virgin to be taken to his destination. Saraswati was chosen for this mission.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c13",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Vadavagni's very presence started to evaporate the waters, Vishnu rendered the waters perennial and Saraswati stationed herself along the ocean to protect creation.",
+          "statement_id": "Ketika kehadiran Vadavagni mulai menguapkan air, Wisnu membuat air itu abadi, dan Saraswati menempatkan dirinya di sepanjang samudra untuk melindungi ciptaan.",
+          "quote": "When Vadavagni started to cause the waters to evaporate by his very presence, Vishnu rendered the waters perennial, and Saraswati stationed herself along the ocean to protect creation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c14",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Vadavagni is also described as the product of Shiva's wrath that emerged from his third eye and reduced Kamadeva to ash when he tried to arouse Shiva's desire for Parvati.",
+          "statement_id": "Vadavagni juga digambarkan sebagai hasil amarah Siwa yang keluar dari mata ketiganya dan membakar Kamadewa menjadi abu ketika Kamadewa mencoba membangkitkan hasratnya kepada Parwati.",
+          "quote": "The Vadavagni is also described to be the product of Shiva's wrath that emerged from his third eye and annihilated Kamadeva to ash, when the latter attempted to arouse his desire towards Parvati.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vadavagni-c15",
+          "source_id": "vadavagni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again.",
+          "statement_id": "Dalam Mahabharata, Wisnu menyatakan bahwa dirinya adalah Vadavagni yang melahap air bergolak lalu memuntahkannya lagi.",
+          "quote": "In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "59c51ee83b9f48dc0ce5563a41da1712ce5eab6019a88041b7fc3e91f7e9b792"
+      "images": []
     },
     {
       "slug": "xiaotian-quan",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "f50e4b54eb12005528fab3fc24662c8b73724366444d31256261c29cb63ef694",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xiaotian-quan-c01",
@@ -3984,18 +4315,78 @@
           "quote": "In the novel Journey to the West, Xiaotian Quan helps fight Sun Wukong and later the Nine-Headed Prince Consort (九頭駙馬).",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "xiaotian-quan-c06",
+          "source_id": "xiaotian-quan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dog first appeared in Gan Bao's In Search of the Supernatural, and in the folktale of Lotus Lantern it prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang.",
+          "statement_id": "Anjing itu pertama kali muncul dalam In Search of the Supernatural karya Gan Bao, dan dalam dongeng Lotus Lantern ia mencegah Liu Chenxiang membelah Gunung Hua untuk menyelamatkan ibunya, Huayue Sanniang.",
+          "quote": "The dog first appeared in Gan Bao's In Search of the Supernatural. It prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang in the Chinese folktale of Lotus Lantern.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiaotian-quan-c07",
+          "source_id": "xiaotian-quan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one version of the legend, after Hou Yi's wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased her and swallowed the moon in an attempt to bring her back.",
+          "statement_id": "Dalam satu versi legenda, setelah istri Hou Yi, Chang'e, mencuri eliksir keabadiannya dan melarikan diri ke bulan, anjing setia itu mengejarnya dan menelan bulan untuk membawanya kembali.",
+          "quote": "In one version of the legend, after Hou Yi’s wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased after her and swallowed the moon in an attempt to bring her back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiaotian-quan-c08",
+          "source_id": "xiaotian-quan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title \"Tiangou\" as guardian of the Southern Heavenly Gate; the dog later released the moon and eventually entered the service of Erlang Shen, where it became known as Xiaotian Quan.",
+          "statement_id": "Ibu Suri Barat, tersentuh oleh kesetiaan anjing itu kepada tuannya, mengampuninya dari hukuman dan menganugerahinya gelar \"Tiangou\" sebagai penjaga Gerbang Surga Selatan; anjing itu kemudian melepaskan bulan dan akhirnya mengabdi kepada dewa Erlang Shen, tempat ia dikenal sebagai Xiaotian Quan.",
+          "quote": "The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title of \"Tiangou\", appointing it as guardian of the Southern Heavenly Gate. The dog later released the moon and eventually entered the service of the deity Erlang Shen, where it became known as Xiaotian Quan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiaotian-quan-c09",
+          "source_id": "xiaotian-quan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell; after her release she sought revenge against heaven and tried to swallow the sun and the moon, plunging the world into darkness.",
+          "statement_id": "Menurut satu legenda, Xiaotian Quan dahulu seorang perempuan yang kejahatannya begitu besar sehingga Kaisar Giok mengubahnya menjadi anjing dan memenjarakannya di dasar neraka; setelah dibebaskan ia membalas dendam kepada langit dan berusaha menelan matahari dan bulan sehingga dunia gelap.",
+          "quote": "According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell. ... After her release, she sought revenge against heaven and attempted to swallow the sun and the moon, plunging the world into darkness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiaotian-quan-c10",
+          "source_id": "xiaotian-quan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many temples dedicated to Erlang Shen also enshrine Xiaotian Quan, and in modern times it is suggested that people with sick pets pray to it.",
+          "statement_id": "Banyak kuil Erlang Shen juga memuliakan Xiaotian Quan, dan pada zaman modern disarankan agar orang yang hewan peliharaannya sakit berdoa kepadanya.",
+          "quote": "Many temples dedicated to Erlang Shen to also enshrine Xiaotian Quan and in modern times it is suggested that people with sick pets pray to it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiaotian-quan-c11",
+          "source_id": "xiaotian-quan-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this chapter of Journey to the West, as someone runs away, Erlang's thin dog (二郎爺爺的細犬) catches up, bites the calf and drags him down; the bitten one curses. The chapter calls it 細犬 and does not use the name Xiaotian Quan.",
+          "statement_id": "Dalam teks 西遊記 bab ini, ketika seseorang berlari kabur, anjing kurus milik Erlang (二郎爺爺的細犬) mengejarnya, menggigit betisnya, dan menariknya jatuh; yang digigit mengumpat. Teks bab ini menyebutnya 細犬 dan tidak menyebut nama Xiaotian Quan.",
+          "quote": "爬將起來就跑。被二郎爺爺的細犬趕上，照腿肚子上一口，又扯了一跌。他睡倒在地，罵道：「這個亡人！你不去妨家長，卻來咬老孫！」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f333f1e515982cabf693bd41a184aa877dc3335b739226bd60d76e58f0b124ff"
+      "images": []
     },
     {
       "slug": "almaz-mythical-beast",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "f3380fddda67e0179748127df70898c40eda497ea88df3b3eb6d79527e7d6826",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -4003,11 +4394,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Chechen, Ingush & Circassian folklore\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -4050,27 +4436,71 @@
           "quote": "The almaz is said to have magical powers residing in its hair, but if the hair is removed or even grabbed, it may be rendered helpless.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "almaz-mythical-beast-c05",
+          "source_id": "almaz-mythical-beast-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the first written \"attestation\" of it was by a Bavarian captive of the Mongols, but it is present in the national folklores of the Chechens, Ingush and Circassians.",
+          "statement_id": "Menurut Wikipedia, \"pengesahan\" tertulis pertamanya dibuat oleh seorang tawanan Bavaria dari bangsa Mongol, tetapi makhluk ini hadir dalam cerita rakyat nasional orang Chechen, Ingush, dan Circassian.",
+          "quote": "The first \"attestation\" of it in writing was by a Bavarian captive of the Mongols, but it is present in the national folklores of Chechens, Ingush and Circassians.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "almaz-mythical-beast-c06",
+          "source_id": "almaz-mythical-beast-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The female almaz is described as very beautiful with golden hair, and her \"favorite pastime\" is dancing naked at night under the moon.",
+          "statement_id": "Almaz betina digambarkan sangat cantik berambut keemasan, dan \"kegemarannya\" adalah menari telanjang pada malam hari di bawah bulan.",
+          "quote": "while the female is very beautiful with large breasts and golden hair, and has a \"favorite pastime\" of dancing naked at night under the moon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "almaz-mythical-beast-c07",
+          "source_id": "almaz-mythical-beast-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some theorize that it arose under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or while the northern Dzurdzuk state of Simsir was subjugated to the Golden Horde; the word almaz is a loan from Mongolian, where it originally meant \"forest man\".",
+          "statement_id": "Sebagian orang berteori bahwa makhluk ini muncul di bawah pengaruh Mongol, entah saat invasi Mongol ke Dzurdzuketia atau pada masa negara Dzurdzuk utara, Simsir, tunduk pada Golden Horde; kata almaz dipinjam dari bahasa Mongol, yang semula berarti \"manusia hutan\".",
+          "quote": "It has been theorized by some to have arisen under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or the intervening period where the northern Dzurdzuk state of Simsir was subjugated to the Mongol-controlled Golden Horde. The word almaz is a loan from Mongolian where it originally meant \"forest man\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "almaz-mythical-beast-c08",
+          "source_id": "almaz-mythical-beast-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amjad Jaimoukha suggested that the name \"almaz\" may have started to be used by North Caucasians for an already existing native concept during the sojourn of the Golden Horde in Simsir.",
+          "statement_id": "Amjad Jaimoukha berpendapat bahwa nama \"almaz\" mungkin mulai dipakai orang Kaukasus Utara untuk konsep asli yang sudah ada selama keberadaan Golden Horde di Simsir.",
+          "quote": "Amjad Jaimoukha however suggested that the name \"almaz\" may have started to have been used by North Caucasians for an already existent native concept during the sojourn of the Golden Horde of Simsir.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "almaz-mythical-beast-c09",
+          "source_id": "almaz-mythical-beast-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In this travel account, on a mountain live \"savages\" unlike other people, covered all over the body with hair except hands and face, running about like wild beasts and eating leaves, grass and anything they can find. The text does not name the almaz.",
+          "statement_id": "Dalam kisah perjalanan ini, di sebuah gunung hidup \"orang liar\" yang tidak seperti manusia lain, seluruh tubuhnya berbulu kecuali tangan dan wajah, berlari seperti binatang liar, dan makan daun, rumput, dan apa saja yang dapat ditemukan. Teks ini tidak menyebut nama almaz.",
+          "quote": "On the same mountain there are savages, who are not like other people, and they live there. They are covered all over the body with hair, except the hands and face, and run about like other wild beasts in the mountain, and also eat leaves and grass, and any thing they can find.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "df65a1ecc76099e9360018face67353a270751a6e59ca450815514fb75bf8225"
+      "images": []
     },
     {
       "slug": "atavaka",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "985fd96e89860cabae12578fde3ec5646ecfba67052f977a30b2990e5a362eb0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atavaka-c01",
@@ -4121,27 +4551,91 @@
           "quote": "Gadrabha warned the Buddha of the demon's wrathful nature, but the Buddha fearlessly entered Āṭavaka's abode and sat upon his throne.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "atavaka-c06",
+          "source_id": "atavaka-s2",
+          "host": "www.accesstoinsight.org",
+          "statement": "In the Alavaka Sutta, on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha; the yakkha went to him and said, \"Get out, contemplative!\"",
+          "statement_id": "Dalam Alavaka Sutta, pada suatu ketika Sang Bhagavā tinggal di Alavi, di tempat kediaman yakkha Alavaka; yakkha itu mendatanginya dan berkata, \"Keluar, pertapa!\"",
+          "quote": "I have heard that on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha. Then the Alavaka yakkha went to the Blessed One and on arrival said to him: \"Get out, contemplative!\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c07",
+          "source_id": "atavaka-s2",
+          "host": "www.accesstoinsight.org",
+          "statement": "In the Alavaka Sutta the yakkha threatens that if the contemplative cannot answer his question he will possess his mind, rip open his heart or, grabbing him by the feet, hurl him across the Ganges.",
+          "statement_id": "Dalam Alavaka Sutta, yakkha itu mengancam: bila pertapa tidak dapat menjawab pertanyaannya, ia akan merasuki pikirannya, merobek jantungnya, atau memegang kakinya dan melemparkannya melintasi Sungai Gangga.",
+          "quote": "I will ask you a question, contemplative. If you can't answer me, I will possess your mind or rip open your heart or, grabbing you by the feet, hurl you across the Ganges.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c08",
+          "source_id": "atavaka-s2",
+          "host": "www.accesstoinsight.org",
+          "statement": "In the Alavaka Sutta the contemplative replies that he sees no one in the cosmos, whether devas, Maras, Brahmas, contemplatives, brahmans, royalty or commonfolk, who could possess his mind, rip open his heart or hurl him across the Ganges.",
+          "statement_id": "Dalam Alavaka Sutta, sang pertapa menjawab bahwa ia tidak melihat siapa pun di kosmos, baik dewa, Māra, Brahmā, pertapa, brahmana, bangsawan, maupun rakyat, yang dapat merasuki pikirannya, merobek jantungnya, atau melemparkannya melintasi Sungai Gangga.",
+          "quote": "My friend, I see no one in the cosmos with its devas, Maras & Brahmas, its contemplatives & brahmans, its royalty & commonfolk, who could possess my mind or rip open my heart or, grabbing me by the feet, hurl me across the Ganges.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c09",
+          "source_id": "atavaka-s2",
+          "host": "www.accesstoinsight.org",
+          "statement": "In the Alavaka Sutta, after hearing the answers the Alavaka yakkha says the Awakened One's coming to stay at Alavi was truly for his well-being and that he will wander from village to village and town to town paying homage to the Self-awakened One and the Dhamma.",
+          "statement_id": "Dalam Alavaka Sutta, setelah mendengar jawaban-jawaban itu yakkha Alavaka berkata bahwa kedatangan Sang Buddha di Alavi sungguh demi kesejahteraannya dan ia akan mengembara dari desa ke desa dan kota ke kota memberi hormat kepada Sang Buddha dan Dhamma.",
+          "quote": "It was truly for my well-being that the Awakened One came to stay in Alavi. Today I understand where what is given bears great fruit. I will wander from village to village, town to town, paying homage to the Self-awakened One & the true rightness of the Dhamma.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c10",
+          "source_id": "atavaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Even his ultimate weapon, the cloth Dussāvudha, one of the four most powerful weapons in the world, was of no effect; when he hurled it, it simply fell at the Buddha's feet as a rug.",
+          "statement_id": "Bahkan senjata pamungkasnya, kain Dussāvudha yang disebut salah satu dari empat senjata paling ampuh di dunia, tidak berpengaruh; ketika dilemparkan, kain itu hanya jatuh di kaki Sang Buddha seperti permadani.",
+          "quote": "Even his ultimate weapon; the cloth Dussāvudha, one of the four most powerful weapons in the world; was of no effect. When he hurled it, it simply fell at the Buddha's feet as a rug.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c11",
+          "source_id": "atavaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter.",
+          "statement_id": "Di antara banyak kekuatan Āṭavaka, salah satunya adalah bahwa satu tatapan padanya dapat membuat tubuh seseorang selembut mentega.",
+          "quote": "Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atavaka-c12",
+          "source_id": "atavaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Āṭavaka placed his left foot on Manosilātala and his right on Kelāsakūta, both places in the Himalayas, which suggests the yakṣa grew to an enormous size.",
+          "statement_id": "Āṭavaka meletakkan kaki kirinya di Manosilātala dan kaki kanannya di Kelāsakūta, keduanya tempat di Himalaya, yang menunjukkan bahwa yaksa itu tumbuh menjadi sangat besar.",
+          "quote": "he placed his left foot on Manosilātala and his right foot on Kelāsakūta, both localities in the Himalayas, which suggests that the yakṣa grew to an enormous size.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "09c0bdcb3567d3b5536cfcf11a7cbcec7a03e002509fa88ee7bacec52d0f3b9e"
+      "images": []
     },
     {
       "slug": "byangoma",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "05f52ee4f78534e42fb84b50985045a438aca27b824103012f7341b55bff5f0d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "byangoma-c01",
@@ -4192,25 +4686,45 @@
           "quote": "The Victoria Memorial houses a painting by Abanindranath Tagore, captioned \"ব্যাঙ্গমা-ব্যাঙ্গমী\". The English title is \"The vision anybird\" (1939). In Abanindranath's version, the birds are smaller and do not have human faces.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "byangoma-c06",
+          "source_id": "byangoma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The book also contains illustrations of the birds drawn by its author.",
+          "statement_id": "Buku itu juga memuat ilustrasi burung-burung tersebut yang digambar oleh pengarangnya.",
+          "quote": "The book also contains illustrations of the birds drawn by the author.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "byangoma-c07",
+          "source_id": "byangoma-s2",
+          "host": "oaklores.com",
+          "statement": "According to this essay, animals and birds are also depicted in that section; for instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal.",
+          "statement_id": "Menurut esai ini, hewan dan burung juga digambarkan dalam bagian itu; misalnya Byangoma (burung berwajah manusia) tampak dalam kisah Lalkamal Neelkamal.",
+          "quote": "Animals and birds are also depicted in this section. For instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3a60eb00a38112623b370a64eecc3c9ca58d1efeb1306644ea63797177a1a2c"
+      "images": []
     },
     {
       "slug": "chakora-mythology",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-6.md",
+      "entry_sha256": "57333500d9f70fa36abf01e6e371d5b18c1213f85e7178d56328a25272ca3a97",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis)."
         }
       ],
       "claims": [
@@ -4223,10 +4737,61 @@
           "quote": "In texts such as the Mṛcchakatika, it is believed to feed on the beams of the moon (Chandra).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chakora-mythology-c03",
+          "source_id": "chakora-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chakora is a legendary bird described in Hindu mythology.",
+          "statement_id": "Chakora adalah burung legendaris yang dijelaskan dalam mitologi Hindu.",
+          "quote": "Chakora (Sanskrit: चकोर, romanized: Chakora) is a legendary bird described in Hindu mythology.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "chakora-mythology-c05",
+          "source_id": "chakora-mythology-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the prologue of this play, the author's eyes are likened to those of the chakora bird that feeds on moonbeams.",
+          "statement_id": "Dalam prolog drama ini, mata sang pengarang dilukiskan seperti mata burung chakora yang memakan sinar bulan.",
+          "quote": "Its author was a man Who vied with elephants in lordly grace; Whose eyes were those of the chakora bird That feeds on moonbeams;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chakora-mythology-c06",
+          "source_id": "chakora-mythology-s3",
+          "host": "archive.org",
+          "statement": "According to a footnote in this edition, the Chakora is said to subsist upon moonbeams.",
+          "statement_id": "Menurut catatan kaki edisi ini, Chakora dikatakan hidup dari sinar bulan.",
+          "quote": "The Chakora is said to subsist upon moonbeams.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chakora-mythology-c07",
+          "source_id": "chakora-mythology-s3",
+          "host": "archive.org",
+          "statement": "In this story someone is to the eyes of the delighted Vidyutprabha as the moon, the repository of nectar, is to the partridges.",
+          "statement_id": "Dalam kisah ini, seseorang bagi mata Vidyutprabha yang gembira diibaratkan seperti bulan, gudang nektar, bagi burung-burung partridge.",
+          "quote": "being to the eyes of the delighted Vidyutprabha what the moon, the repository of nectar, is to the partridges.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "halaman dinamis; teks tidak terbaca otomatis"
+        },
+        {
+          "id": "chakora-mythology-c08",
+          "source_id": "chakora-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is considered to be a partridge, most likely based on the chukar partridge.",
+          "statement_id": "Burung ini dianggap sebagai partridge, kemungkinan besar berdasarkan chukar partridge.",
+          "quote": "It is considered to be a partridge, most likely based on the chukar partridge.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cf834a3d0328dbf9ec76e9927142ee2ebfb77df1ff7653a98d1bb89154829ecf"
+      "images": []
     },
     {
       "slug": "dharanendra",

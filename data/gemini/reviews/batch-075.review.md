@@ -1,6 +1,6 @@
 # Review batch-075
 
-Diperiksa 2026-10-06T19:08:15.587Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md.
+Diperiksa 2026-10-06T19:26:05.286Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md.
 
 ## keibu-keioiba — lulus-otomatis
 
@@ -551,10 +551,10 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## nittaewo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 12 (exact 9, unreachable 3), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 3 kutipan tidak bisa dicek otomatis: archive.org (HTTP 500).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -564,14 +564,17 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | nittaewo-c04 | exact | en.wikipedia.org | They are said to walk upright and lack tails. | Unlike monkeys, they walked upright always and had no tails. |
 | nittaewo-c05 | exact | en.wikipedia.org | Tales place them in small groups sleeping in caves or leaf nests in trees. | The nittaewo lived in small parties, and slept in caves or among the branches of trees, in leaf-nests of their own design. |
 | nittaewo-c06 | exact | en.wikipedia.org | Veddha are said to be their enemies, armed with bows and arrows they cannot resist. | The Veddahs themselves were the enemies of the nittaewo, which had no defense against the Veddahs’ bows and arrows. |
+| nittaewo-c07 | exact | en.wikipedia.org | They used no tools, instead disembowelling their prey with their long claws or hooked nails so they could feed on the entrails. | They did not use tools, instead disembowelling their prey with their long claws or hooked nails, allowing them to feed on the entrails. |
+| nittaewo-c08 | exact | en.wikipedia.org | It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel him with its claws. | It was said that whenever a nittaewa came across a sleeping Veddah, it would disembowel them with its claws. |
+| nittaewo-c09 | exact | en.wikipedia.org | The last nittaewo were said to have been exterminated by the Veddahs of Leanama in the late 18th century: they were rounded up into a cave whose entrance was blocked with brushwood that was set alight, suffocating them over three days. | The last of the nittaewo were said to have been exterminated by the Veddahs of Leanama during the late 18th century, when they were rounded up into a cave, the entrance of which was then blocked up with brushwood which was set alight, suffocating the trapped nittaewo over three days. |
+| nittaewo-c10 | unreachable (HTTP 500) | archive.org | According to this book, the Nittaewo were a pigmy race that lived at one time in the Kattra-gam country of Lenama. | The Nittaewo were a pigmy race, that lived at one time in the Kattra- gam country of Lenama not far away. |
+| nittaewo-c11 | unreachable (HTTP 500) | archive.org | According to this book, these hairy cannibals attacked in companies, driving their long nails into the flesh, which they tore out and ate; they were afraid only of the buffalo and the dog. | These hairy cannibals attacked in companies, driving their long nails into the flesh which they tore out and ate. They were afraid only of the buffalo and the dog |
+| nittaewo-c12 | unreachable (HTTP 500) | archive.org | According to this book, the Veddas, not very long ago, are said to have herded the last of the Nittaewo into a cave and destroyed them. | The Veddas , not very long ago , are said to have herded the last of them into a cave and destroyed them. |
 
 
 ## shinra-myojin — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -581,14 +584,19 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | shinra-myojin-c04 | exact | en.wikipedia.org | He is also regarded as a protector of sea routes and a mountain deity. | Domestically, he was regarded as a symbol of Jimon and its institutions, but also as a protector of sea routes and as a mountain deity. |
 | shinra-myojin-c05 | exact | en.wikipedia.org | Art typically portrays him as an old man in clothing resembling Tang officials. | In art form, he is typically depicted as an elderly man dressed in the clothes in line with Tang-era officials with Buddhist elements, and historically, developed connections with a number of other figures, including Susanoo, Matarajin, and Mañjuśrī. |
 | shinra-myojin-c06 | exact | en.wikipedia.org | Shinra Myojin can be translated as the shining deity of Silla. | The name "Shinra Myōjin" can be translated as the "Shining deity of Silla". Silla was a historical kingdom on the Korean Peninsula which existed between 57 BCE and 935. The kingdom of Silla (新羅) can be read as "Shiragi; Shiraki; Shinra" and the term myōjin, meaning "bright deity", designates the class of Japanese deities. |
+| shinra-myojin-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, he is one of the "protectors of the dharma" (gohō) in the Tendai sect of Buddhism and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture. | One of the "protectors of the dharma" (gohō;) in the Tendai sect of Buddhism, and tutelary of the famous temple Onjōji (Miidera) in Ōmi, Shiga Prefecture. |
+| shinra-myojin-c08 | exact | d-museum.kokugakuin.ac.jp | According to legend, during Enchin's (Chishō Daishi's) return from China a deity called Shinra Myōjin appeared onboard the ship as an old man and vowed to protect the Buddha Dharma; after Enchin returned to Japan the deity appeared again and led Enchin to Onjōji. | According to legend, during the return of Enchin (Chishō Daishi) from China, a deity called Shinra Myōjin appeared onboard the ship in the form of an old man and vowed to protect the Buddha Dharma. After Enchin returned to Japan, the deity appeared again and led Enchin to Onjōji. |
+| shinra-myojin-c09 | exact | d-museum.kokugakuin.ac.jp | Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin. | Enchin then had a shrine built to the north of the temple, where he enshrined Shinra Myōjin. |
+| shinra-myojin-c10 | exact | d-museum.kokugakuin.ac.jp | This tradition is first recounted in the Onjōji ryūge-e engi, compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, so veneration of the deity preceded that date. | This tradition is first recounted in the Onjōji ryūge-e engi, a legendary history compiled in 1062, but the deity had already been given an official rank (shinkai) in 971, making it evident that veneration of the deity preceded that date. |
+| shinra-myojin-c11 | exact | d-museum.kokugakuin.ac.jp | The deity is most frequently portrayed as an old man wearing Chinese robes and headpiece and holding a sutra scroll and scepter. | The deity is most frequently portrayed iconographically as an old man wearing Chinese robes and headpiece, and holding a sutra scroll and scepter. |
+| shinra-myojin-c12 | exact | en.wikipedia.org | Shinra Myōjin is also regarded as a deity of pestilence; historical sources indicate he was believed both to cause epidemics and to cure illnesses. | Shinra Myōjin is also regarded as a deity of pestilence. Historical sources indicate that he was believed to both cause epidemics and cure illnesses. |
+| shinra-myojin-c13 | exact | en.wikipedia.org | In the eleventh century Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition. | In the eleventh century, Shinra Myōjin developed the role of a deity of waka poetry in the Jimon tradition. |
+| shinra-myojin-c14 | exact | en.wikipedia.org | In engi stories Shinra Myōjin's primary role is that of a protector of people on sea journeys. | In engi stories, Shinra Myōjin's primary role is that of a protector of people partaking in sea journeys. |
 
 
 ## shomen-kongo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -597,14 +605,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | shomen-kongo-c03 | exact | ja.wikipedia.org | In Taoist belief the sanshi report a person's misdeeds to the heavenly ruler while that person sleeps. | 道教では、人間の体内には三尸という3種類の悪い虫が棲み、人の睡眠中にその人の悪事をすべて天帝に報告に行くという。 そのため、三尸が活動するとされる庚申の日（60日に一度）の夜は、眠ってはならないとされ、庚申の日の夜は人々が集まって、徹夜で過ごすという「庚申待」の風習があった。 |
 | shomen-kongo-c04 | exact | ja.wikipedia.org | The Koshin-machi custom requires people to stay awake throughout the Koshin night. | 庚申の日の夜は人々が集まって、徹夜で過ごすという「庚申待」の風習があった。 |
 | shomen-kongo-c05 | exact | ja.wikipedia.org | The vigil custom begins among Heian aristocrats and later spreads among the public. | 庚申待は平安貴族の間に始まり、近世に入ってからは、近隣の庚申講の人々が集まって夜通し酒宴を行うという風習が民間にも広まった。 |
+| shomen-kongo-c06 | exact | projects.mcah.columbia.edu | According to JAANUS, he is also known as Seishoku Daikongō Yasha (青色大金剛薬叉), a deity guarding people from illnesses thought to come from demons, and one of the raksasa lords ruling the east. | Also known as Seishoku Daikongō Yasha 青色大金剛薬叉. A deity who protects against diseases believed to be caused by demons. Shōmen Kongō is one of the raksasa lords and rules the east. |
+| shomen-kongo-c07 | exact | projects.mcah.columbia.edu | In Buddhist texts he is sometimes said to have been a demon who originally caused disease but was then conquered and re-dedicated himself as a protector against disease. | In Buddhist texts he is sometimes said to have been a demon who originally caused disease but who was then conquered, and he re-dedicated himself as a protector against disease. |
+| shomen-kongo-c08 | exact | projects.mcah.columbia.edu | He often appears as an angry deity with a blue body and four arms: a three-pronged vajra in the upper right hand, a staff in the lower right, a cakra in the upper left, and a noose in the lower left. | Shōmen Kongō often appears as an angry deity with a blue body and four arms. He carries a three-pronged vajra *kongōsho 金剛杵 in his upper right hand, a staff *shakujō 錫杖 in his lower right hand, a cakra (J: rinpō 輪宝) in his upper left hand, and a noose in his lower left hand. |
+| shomen-kongo-c09 | exact | projects.mcah.columbia.edu | Since the Kamakura period, Shōmen Kongō, mixed with Daoism, became a deity of the cult of kōshin. | Since the Kamakura period, Shōmen Kongō, being mixed with Daoism, became a deity of the cult of kōshin. |
+| shomen-kongo-c10 | exact | projects.mcah.columbia.edu | This cult believed that on the eve of the fifth monkey day it was particularly easy to have one's life shortened; to counteract this, believers stayed awake through the night and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko to hold a devotional celebration. | This cult believed that on the eve of fifth monkey day, it was particularly easy to have your life shortened. In order to counteract this danger, believers stayed awake through the night, and on the kōshin day gathered before scrolls of Shōmen Kongō and Sarutahiko 猿田彦 to hold a devotional celebration. |
+| shomen-kongo-c11 | exact | ja.wikipedia.org | According to Japanese Wikipedia, he is generally depicted with a wrathful face, trampling an evil demon underfoot, with six arms (sometimes two, four or eight) holding a wheel of the law, bow, arrow, sword, staff and a Shokera (human). | 一般には、足元に邪鬼を踏みつけ、六臂（二・四・八臂の場合もある）で法輪・弓・矢・剣・錫杖・ショケラ（人間）を持つ忿怒相で描かれることが多い。 |
+| shomen-kongo-c12 | exact | ja.wikipedia.org | According to Japanese Wikipedia, the link between Mahākāla and Shōmen Kongō is a mistaken transmission and the two are originally unrelated; he derives from Chinese Daoist thought and developed independently within the Kōshin belief, a Japanese folk belief. | マハーカーラと青面金剛の関係は「誤伝」であり、本来は無関係である。中国の道教思想に由来し、日本の民間信仰である庚申信仰の中で独自に発展した尊格である。 |
 
 
 ## suiten — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `timeline[0].description` Tidak muncul di kutipan mana pun: Januari, Shingon-in, January. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -613,14 +628,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | suiten-c03 | exact | ja.wikipedia.org | He is believed to rule dragons and possess the power to bring rain. | 水の神であり、竜を支配し、雨をもたらす力があるとされる。そのため雨乞いの儀式にも祭祀された。 |
 | suiten-c04 | exact | ja.wikipedia.org | He is therefore worshipped in rainmaking rites. | そのため雨乞いの儀式にも祭祀された。 もともとはインド・イランで語られていた古いアスラ族のヴァルナのことをさす |
 | suiten-c05 | exact | ja.wikipedia.org | Kyoto National Museum holds a Suiten image from a Twelve Devas series made in 1127. | 平安時代に、宮中の真言院で毎年正月に行なわれた修法に用いるため、1127年（大治2年）に制作された十二天画像のうちのひとつとして、仏画（絹本著色144.3 x 126.5cm）の水天像（京都国立博物館・所蔵。国宝）が残されている。ほかにも寺社に祀られる十二天のうちの一体としての作例は数多く見られた。日本においては、水や水天を象徴する生物として竜に限らず蛇があつかわれることもある。蛇王権現や水釈天などの項も参照。 |
+| suiten-c06 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Suiten originally refers to Varuṇa, an old asura known in India and Iran; in the Vedas Varuṇa holds an important position as a sky god, a god of justice (contracts and righteousness) and a water god. | もともとはインド・イランで語られていた古いアスラ族のヴァルナのことをさす。インドに伝わるヴェーダのなかでヴァルナは重要な位置に置かれ、天空神・司法神（＝契約と正義の神）・水神などの属性を持つ存在として語られる。 |
+| suiten-c07 | exact | ja.wikipedia.org | According to Japanese Wikipedia, at the Meiji-era separation of Shinto and Buddhism, because the original Suiten (Varuṇa) is a supreme and primordial god, temples that had worshipped Suiten often substituted Ame-no-minakanushi, the primordial god of the Kiki myths. | 明治時代の神仏分離の際には、元来の水天（ヴァルナ）が最高神・始源神であることから、水天を祀っていた寺社では、記紀神話における始源神・天御中主神が代わりにあてはめらることが多かった。 |
+| suiten-c08 | exact | projects.mcah.columbia.edu | According to JAANUS, the Twelve Deities are a group of tutelary deities made up of various Hindu gods, incorporated into Esoteric Buddhism and supplanting the Four Heavenly Kings as protectors of Buddhism, considered to control all minor gods and demons. | Twelve Deities. A group of tutelary deities consisting of various Hindu gods, which was incorporated into Esoteric Buddhism mikkyō 密教 and came to supplant the Four Heavenly Kings *Shitennō 四天王 as protectors of Buddhism. Considered to exercise control over all minor gods and demons |
+| suiten-c09 | exact | projects.mcah.columbia.edu | According to JAANUS, Suiten (水天) is the fifth deity in the list of the Twelve Deities: Water, Sk: Varuna, west. | Twelve Deities. A group of tutelary deities ... (5) Suiten 水天 (Water, Sk: Varuna; west) |
+| suiten-c10 | exact | projects.mcah.columbia.edu | According to JAANUS, in Japan representations of these deities as a group are generally limited to pictures, and they were used in various esoteric rites. | In Japan, representations of these deities as a group are generally limited to the pictorial, and these depictions were used in various esoteric rites. |
 
 
 ## vadavagni — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 1, exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -630,14 +647,20 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | vadavagni-c04 | exact | en.wikipedia.org | Tales of its suppression concern Saraswati's descent as the Sarasvati River. | Various legends regarding the origin and suppression of the Vadavagni exist in Hindu literature, most prominently the descent of the goddess Saraswati as the Sarasvati river. |
 | vadavagni-c05 | exact | en.wikipedia.org | It is said to emerge from a mare's mouth called Vadavamukha. | The Vadavagni is described to emerge from the mouth of a mare called Vadavamukha (mare-face). This mare's mouth is sometimes described to be present under a sea at the South Pole. It is stated to remain under the sea until it finally erupts, leading to the destruction of the earth. It is stated to be a metaphor for insatiable energy. |
 | vadavagni-c06 | exact | en.wikipedia.org | The Vishnu Purana locates it beneath the Kshira Sagara. | The Vishnu Purana states that the Vadavagni is located beneath the Kshira Sagara, surrounded by seas of curds, ghee, sugarcane juice, wine, and sweet water. |
+| vadavagni-c07 | exact | www.ibiblio.org | In this text Aurva says his rage, like fire consuming dry woods, will certainly consume him if he does not accomplish his vow. | Hearing these words of the Pitris, Aurva, O child, replied unto them to this effect: ... Like fire consuming dry woods, this rage of mine will certainly consume me if I do not accomplish my vow. |
+| vadavagni-c08 | exact | www.ibiblio.org | In this text it is advised that the fire born of the wrath abide in the great ocean, consuming its waters, for it is said the worlds are made of water. | If, therefore, thou desirest it, O Brahmana, let this fire born of thy wrath abide in the great ocean, consuming the waters thereof, for it hath been said that the worlds are made of water. |
+| vadavagni-c09 | exact | www.ibiblio.org | In this text Aurva cast the fire of his wrath into the abode of Varuna; that fire which consumes the waters of the great ocean became like a large horse's head that persons conversant with the Vedas call Vadavamukha, and emitting from that mouth it consumes the waters of the mighty ocean. | Then, O child, Aurva cast the fire of his wrath into the abode of Varuna. And that fire which consumeth the waters of the great ocean, became like unto a large horse's head which persons conversant with the Vedas call by the name of Vadavamukha. And emitting itself from that mouth it consumeth the waters of the mighty ocean. |
+| vadavagni-c10 | exact | en.wikipedia.org | When Aurva said he could not let the flames risen from his austerities come to naught as they would burn him alive, his Pitrs suggested he release his wrathful flame into the ocean; the sage obeyed and the flame became the Vadavagni, a mare-faced inferno, which is why it is also called Aurvanala. | When Aurva told them that he could not let the flames that had risen from his austerities to come to naught as that would burn him alive, his Pitrs suggested that he release his wrathful flame into the ocean. The sage obeyed, and the flame became the Vadavagni, a mare-faced inferno. Due to this reason, Vadavagni is also called Aurvanala. |
+| vadavagni-c11 | exact | en.wikipedia.org | In another legend, after a year a mare (vadavā) emerged from Pippalada's thigh and gave birth to a fiery foetus that became the Vadavagni (submarine fire), after which the mare disappeared. | Furious, Pippalada performed a severe penance, seeking the destruction of the devas. After a year, a vadavā (a mare) emerged from his thigh. This mare gave birth to a fiery foetus from its womb, which became the Vadavagni (submarine fire), after which it disappeared from the scene. |
+| vadavagni-c12 | exact | en.wikipedia.org | Vadavagni acquiesced but required that he be carried in the hand of a virgin to his destination; Saraswati was chosen for this mission. | Vadavagni acquiesced, but required that he be carried in the hand of a virgin to be taken to his destination. Saraswati was chosen for this mission. |
+| vadavagni-c13 | exact | en.wikipedia.org | When Vadavagni's very presence started to evaporate the waters, Vishnu rendered the waters perennial and Saraswati stationed herself along the ocean to protect creation. | When Vadavagni started to cause the waters to evaporate by his very presence, Vishnu rendered the waters perennial, and Saraswati stationed herself along the ocean to protect creation. |
+| vadavagni-c14 | exact | en.wikipedia.org | Vadavagni is also described as the product of Shiva's wrath that emerged from his third eye and reduced Kamadeva to ash when he tried to arouse Shiva's desire for Parvati. | The Vadavagni is also described to be the product of Shiva's wrath that emerged from his third eye and annihilated Kamadeva to ash, when the latter attempted to arouse his desire towards Parvati. |
+| vadavagni-c15 | exact | en.wikipedia.org | In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again. | In the Mahabharata, Vishnu declares that he is the Vadavagni, consuming the turbulent waters and disgorging them again. |
 
 
 ## xiaotian-quan — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 10, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -646,15 +669,20 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | xiaotian-quan-c03 | exact | en.wikipedia.org | Some identify it with Tiangou. | Many identify Xiaotian Quan with the mythological Tiangou. Consequently, the cultural idiom describing a solar eclipse as the 'heavenly dog eating the sun' is often interpreted as an allusion to Xiaotian Quan. |
 | xiaotian-quan-c04 | exact | en.wikipedia.org | It is also identified with Hou Yi's hunting hound. | The dog is also identified with the hunting hound of the legendary archer Hou Yi. |
 | xiaotian-quan-c05 | loose | en.wikipedia.org | In Journey to the West it helps fight Sun Wukong. | In the novel Journey to the West, Xiaotian Quan helps fight Sun Wukong and later the Nine-Headed Prince Consort (九頭駙馬). |
+| xiaotian-quan-c06 | exact | en.wikipedia.org | The dog first appeared in Gan Bao's In Search of the Supernatural, and in the folktale of Lotus Lantern it prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang. | The dog first appeared in Gan Bao's In Search of the Supernatural. It prevents Liu Chenxiang from splitting Mount Hua to rescue his mother Huayue Sanniang in the Chinese folktale of Lotus Lantern. |
+| xiaotian-quan-c07 | exact | en.wikipedia.org | In one version of the legend, after Hou Yi's wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased her and swallowed the moon in an attempt to bring her back. | In one version of the legend, after Hou Yi’s wife Chang'e stole his elixir of immortality and fled to the moon, the loyal dog chased after her and swallowed the moon in an attempt to bring her back. |
+| xiaotian-quan-c08 | exact | en.wikipedia.org | The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title "Tiangou" as guardian of the Southern Heavenly Gate; the dog later released the moon and eventually entered the service of Erlang Shen, where it became known as Xiaotian Quan. | The Queen Mother of the West, moved by the dog's devotion to its master, spared it from punishment and granted it the title of "Tiangou", appointing it as guardian of the Southern Heavenly Gate. The dog later released the moon and eventually entered the service of the deity Erlang Shen, where it became known as Xiaotian Quan. |
+| xiaotian-quan-c09 | exact | en.wikipedia.org | According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell; after her release she sought revenge against heaven and tried to swallow the sun and the moon, plunging the world into darkness. | According to one legend, Xiaotian Quan was once a woman whose extreme wickedness led the Jade Emperor to transform her into a dog and imprison her in the depths of hell. ... After her release, she sought revenge against heaven and attempted to swallow the sun and the moon, plunging the world into darkness. |
+| xiaotian-quan-c10 | exact | en.wikipedia.org | Many temples dedicated to Erlang Shen also enshrine Xiaotian Quan, and in modern times it is suggested that people with sick pets pray to it. | Many temples dedicated to Erlang Shen to also enshrine Xiaotian Quan and in modern times it is suggested that people with sick pets pray to it. |
+| xiaotian-quan-c11 | exact | zh.wikisource.org | In this chapter of Journey to the West, as someone runs away, Erlang's thin dog (二郎爺爺的細犬) catches up, bites the calf and drags him down; the bitten one curses. The chapter calls it 細犬 and does not use the name Xiaotian Quan. | 爬將起來就跑。被二郎爺爺的細犬趕上，照腿肚子上一口，又扯了一跌。他睡倒在地，罵道：「這個亡人！你不去妨家長，卻來咬老孫！」 |
 
 
 ## almaz-mythical-beast — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Chechen, Ingush & Circassian folklore".
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -662,14 +690,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | almaz-mythical-beast-c02 | exact | en.wikipedia.org | Male almaz are described as hairy and hideous with an axe embedded in the chest. | The male almaz is said to be hairy and hideous, and have an axe embedded in its chest |
 | almaz-mythical-beast-c03 | exact | en.wikipedia.org | Females are described as beautiful with golden hair. | the female is very beautiful with large breasts and golden hair |
 | almaz-mythical-beast-c04 | exact | en.wikipedia.org | Removing or grabbing its hair can render an almaz helpless. | The almaz is said to have magical powers residing in its hair, but if the hair is removed or even grabbed, it may be rendered helpless. |
+| almaz-mythical-beast-c05 | exact | en.wikipedia.org | According to Wikipedia, the first written "attestation" of it was by a Bavarian captive of the Mongols, but it is present in the national folklores of the Chechens, Ingush and Circassians. | The first "attestation" of it in writing was by a Bavarian captive of the Mongols, but it is present in the national folklores of Chechens, Ingush and Circassians. |
+| almaz-mythical-beast-c06 | exact | en.wikipedia.org | The female almaz is described as very beautiful with golden hair, and her "favorite pastime" is dancing naked at night under the moon. | while the female is very beautiful with large breasts and golden hair, and has a "favorite pastime" of dancing naked at night under the moon. |
+| almaz-mythical-beast-c07 | exact | en.wikipedia.org | Some theorize that it arose under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or while the northern Dzurdzuk state of Simsir was subjugated to the Golden Horde; the word almaz is a loan from Mongolian, where it originally meant "forest man". | It has been theorized by some to have arisen under Mongolian influence, either during the Mongol invasions of Dzurdzuketia or the intervening period where the northern Dzurdzuk state of Simsir was subjugated to the Mongol-controlled Golden Horde. The word almaz is a loan from Mongolian where it originally meant "forest man". |
+| almaz-mythical-beast-c08 | exact | en.wikipedia.org | Amjad Jaimoukha suggested that the name "almaz" may have started to be used by North Caucasians for an already existing native concept during the sojourn of the Golden Horde in Simsir. | Amjad Jaimoukha however suggested that the name "almaz" may have started to have been used by North Caucasians for an already existent native concept during the sojourn of the Golden Horde of Simsir. |
+| almaz-mythical-beast-c09 | exact | www.gutenberg.org | In this travel account, on a mountain live "savages" unlike other people, covered all over the body with hair except hands and face, running about like wild beasts and eating leaves, grass and anything they can find. The text does not name the almaz. | On the same mountain there are savages, who are not like other people, and they live there. They are covered all over the body with hair, except the hands and face, and run about like other wild beasts in the mountain, and also eat leaves and grass, and any thing they can find. |
 
 
 ## atavaka — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -678,14 +708,18 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | atavaka-c03 | exact | en.wikipedia.org | Vaisravana permits him to devour anyone entering the shadow of his dwelling. | The yakṣa was granted permission by King Vaiśravaṇa that he could seize and devour anyone who came within the shadow of his abode. |
 | atavaka-c04 | exact | en.wikipedia.org | A shortage of prisoners forces households in the area to provide children as sacrifices. | due to a shortage of criminals, each household in the vicinity was forced to sacrifice one child to satiate the demon. |
 | atavaka-c05 | exact | en.wikipedia.org | Buddha enters his dwelling despite the doorkeeper's warning. | Gadrabha warned the Buddha of the demon's wrathful nature, but the Buddha fearlessly entered Āṭavaka's abode and sat upon his throne. |
+| atavaka-c06 | exact | www.accesstoinsight.org | In the Alavaka Sutta, on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha; the yakkha went to him and said, "Get out, contemplative!" | I have heard that on one occasion the Blessed One was staying at Alavi in the haunt of the Alavaka yakkha. Then the Alavaka yakkha went to the Blessed One and on arrival said to him: "Get out, contemplative!" |
+| atavaka-c07 | exact | www.accesstoinsight.org | In the Alavaka Sutta the yakkha threatens that if the contemplative cannot answer his question he will possess his mind, rip open his heart or, grabbing him by the feet, hurl him across the Ganges. | I will ask you a question, contemplative. If you can't answer me, I will possess your mind or rip open your heart or, grabbing you by the feet, hurl you across the Ganges. |
+| atavaka-c08 | exact | www.accesstoinsight.org | In the Alavaka Sutta the contemplative replies that he sees no one in the cosmos, whether devas, Maras, Brahmas, contemplatives, brahmans, royalty or commonfolk, who could possess his mind, rip open his heart or hurl him across the Ganges. | My friend, I see no one in the cosmos with its devas, Maras & Brahmas, its contemplatives & brahmans, its royalty & commonfolk, who could possess my mind or rip open my heart or, grabbing me by the feet, hurl me across the Ganges. |
+| atavaka-c09 | exact | www.accesstoinsight.org | In the Alavaka Sutta, after hearing the answers the Alavaka yakkha says the Awakened One's coming to stay at Alavi was truly for his well-being and that he will wander from village to village and town to town paying homage to the Self-awakened One and the Dhamma. | It was truly for my well-being that the Awakened One came to stay in Alavi. Today I understand where what is given bears great fruit. I will wander from village to village, town to town, paying homage to the Self-awakened One & the true rightness of the Dhamma. |
+| atavaka-c10 | exact | en.wikipedia.org | Even his ultimate weapon, the cloth Dussāvudha, one of the four most powerful weapons in the world, was of no effect; when he hurled it, it simply fell at the Buddha's feet as a rug. | Even his ultimate weapon; the cloth Dussāvudha, one of the four most powerful weapons in the world; was of no effect. When he hurled it, it simply fell at the Buddha's feet as a rug. |
+| atavaka-c11 | exact | en.wikipedia.org | Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter. | Of Āṭavaka's many powers, one was that a glance at him could make one's body as soft as butter. |
+| atavaka-c12 | exact | en.wikipedia.org | Āṭavaka placed his left foot on Manosilātala and his right on Kelāsakūta, both places in the Himalayas, which suggests the yakṣa grew to an enormous size. | he placed his left foot on Manosilātala and his right foot on Kelāsakūta, both localities in the Himalayas, which suggests that the yakṣa grew to an enormous size. |
 
 
 ## byangoma — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -694,18 +728,25 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | byangoma-c03 | exact | en.wikipedia.org | In Lalkamal Neelkamal, the nestlings are born sightless and drops of blood activate their sight. | In Thakurmar Jhuli by Dakshinaranjan Mitra Majumder, the fairy-tale "Lalkamal Neelkamal" describe how the nestlings of these birds are sightless at birth and how few drops of blood from a donor can activate their sight. Lalkamal and Neelkamal are the eponymous princes who seek help from these birds living on a tree at the edge of Tepantorer Math (The Field of Three Horizons). |
 | byangoma-c04 | exact | en.wikipedia.org | The birds carry the princes across a broad field on their backs. | The birds display remarkable strength in carrying the princes on their backs safely across the very large field. |
 | byangoma-c05 | exact | en.wikipedia.org | In Abanindranath's painting the birds are smaller and lack human faces. | The Victoria Memorial houses a painting by Abanindranath Tagore, captioned "ব্যাঙ্গমা-ব্যাঙ্গমী". The English title is "The vision anybird" (1939). In Abanindranath's version, the birds are smaller and do not have human faces. |
+| byangoma-c06 | exact | en.wikipedia.org | The book also contains illustrations of the birds drawn by its author. | The book also contains illustrations of the birds drawn by the author. |
+| byangoma-c07 | exact | oaklores.com | According to this essay, animals and birds are also depicted in that section; for instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal. | Animals and birds are also depicted in this section. For instance, Byangoma (birds with human faces) are seen in the story of Lalkamal Neelkamal. |
 
 
 ## chakora-mythology — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 6 (exact 3, loose 1, unreachable 2), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: archive.org (halaman dinamis; teks tidak terbaca otomatis).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chakora-mythology-c02 | exact | en.wikipedia.org | The Mrcchakatika records the belief that the bird feeds on moonbeams. | In texts such as the Mṛcchakatika, it is believed to feed on the beams of the moon (Chandra). |
+| chakora-mythology-c03 | loose | en.wikipedia.org | Chakora is a legendary bird described in Hindu mythology. | Chakora (Sanskrit: चकोर, romanized: Chakora) is a legendary bird described in Hindu mythology. |
+| chakora-mythology-c05 | exact | www.gutenberg.org | In the prologue of this play, the author's eyes are likened to those of the chakora bird that feeds on moonbeams. | Its author was a man Who vied with elephants in lordly grace; Whose eyes were those of the chakora bird That feeds on moonbeams; |
+| chakora-mythology-c06 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | According to a footnote in this edition, the Chakora is said to subsist upon moonbeams. | The Chakora is said to subsist upon moonbeams. |
+| chakora-mythology-c07 | unreachable (halaman dinamis; teks tidak terbaca otomatis) | archive.org | In this story someone is to the eyes of the delighted Vidyutprabha as the moon, the repository of nectar, is to the partridges. | being to the eyes of the delighted Vidyutprabha what the moon, the repository of nectar, is to the partridges. |
+| chakora-mythology-c08 | exact | en.wikipedia.org | It is considered to be a partridge, most likely based on the chukar partridge. | It is considered to be a partridge, most likely based on the chukar partridge. |
 
 
 ## dharanendra — lulus-otomatis

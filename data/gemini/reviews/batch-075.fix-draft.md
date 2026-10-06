@@ -6,3 +6,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 
 ## eight-great-yaksa-generals
 - `places[0].name`: Tidak muncul di kutipan mana pun: Buddhas. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+
+## suiten
+- `timeline[0].description`: Tidak muncul di kutipan mana pun: Januari, Shingon-in, January. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
