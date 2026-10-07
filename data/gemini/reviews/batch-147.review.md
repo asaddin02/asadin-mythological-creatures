@@ -1,243 +1,368 @@
 # Review batch-147
 
-Diperiksa 2026-09-30T09:11:48.917Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md.
+Diperiksa 2026-10-07T05:05:21.476Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md, batch-147-fix-4.md, batch-147-fix-5.md.
 
 ## basilisco-chilote — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | basilisco-chilote-c01 | exact | en.wikipedia.org | The Basilisco chilote originates from Chilota mythology in the southern region of Chile. | The Basilisco chilote is a creature from Chilota mythology originating from the Chiloé Archipelago, in southern Chile. |
 | basilisco-chilote-c02 | exact | en.wikipedia.org | The creature has the crest of a rooster and a serpent body. | The Basilisco chilote is described as having the crest of a rooster and the body of a serpent. |
 | basilisco-chilote-c03 | exact | en.wikipedia.org | It feeds on saliva and phlegm, causing victims to dehydrate and perish. | It feeds on the phlegm and saliva of the people who live in the house, causing the inhabitants to dehydrate and eventually die. |
+| basilisco-chilote-c04 | exact | es.wikipedia.org | Basilisco, fasilisco, culebrón and athrathrao are names for a creature of Chilota mythology that is half rooster and half snake. | El basilisco, fasilisco, culebrón o athrathrao de la mitología chilota es una criatura mitad gallo y mitad culebra. |
+| basilisco-chilote-c05 | exact | es.wikipedia.org | Its origin may be a union of the Basilisk myth of Greek mythology and the Colo Colo of Mapuche mythology. | Posiblemente su origen se deba a la unión del mito del Basilisco de la mitología griega, y del Colo Colo de la mitología mapuche. |
+| basilisco-chilote-c06 | exact | es.wikipedia.org | It has a rooster's head with a red crest and a long neck like a snake's body; its body is like a rooster's but with small wings and legs, so it can only move by crawling along the ground. | tiene cabeza de gallo con una cresta roja, y un cuello largo como el cuerpo de una serpiente. Su cuerpo es igual al del gallo pero con pequeñas alas y patas, por eso sólo puede moverse arrastrándose por el suelo. |
+| basilisco-chilote-c07 | exact | es.wikipedia.org | It is born in a henhouse from a small, round, thick-shelled, grayish-white egg called the huevo lloilloy or huevo lloe, which legend holds was laid and incubated by a rooster. | Nace en un gallinero, de un pequeño huevo redondo de cáscara gruesa y rugosa (aproximadamente de un centímetro de diámetro), de color blanco grisáceo, llamado huevo lloilloy o huevo lloe, el cual según la leyenda se cree que sería puesto e incubado por un gallo. |
+| basilisco-chilote-c08 | exact | es.wikipedia.org | By day the Basilisco chilote hides beneath the house of the henhouse's owner, and at night it comes out of its hiding place while everyone sleeps. | En el día, el basilisco chilote se oculta debajo de la casa del dueño del gallinero, y en la noche saldría de su escondite mientras todas las personas duermen. |
+| basilisco-chilote-c09 | exact | es.wikipedia.org | At that moment it would emit a hypnotic song like a rooster's crow, which keeps people asleep. | En ese momento emitiría un canto hipnótico similar al canto del gallo, que provocaría que las personas se mantengan dormidas. |
+| basilisco-chilote-c10 | exact | en.wikipedia.org | To kill it, the egg must be burned as soon as it is laid and the chicken that laid it killed; once hatched, the only way to destroy it is to burn down the house where it lives. | To kill Basilisco chilote, you must burn the egg as soon as it is laid and kill the chicken that laid it, to prevent further eggs from being laid. Once hatched the only way to destroy it is by burning down the house where it lives. |
+| basilisco-chilote-c11 | exact | en.wikipedia.org | It hatches from an egg incubated by a rooster and lives in a hole it digs under a house. | It is hatched from an egg that is incubated by a rooster and lives in a hole which it digs under a house. |
 
 
 ## burrokeet — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | burrokeet-c01 | exact | en.wikipedia.org | The Burrokeet is a donkey-man character traditionally staged in Trinidad and Tobago Carnival. | The Burrokeet (alternative spellings: Burroquite, borokit, borokite, bourriquite) is a "donkey-man" character traditionally portrayed in Trinidad and Tobago Carnival. |
 | burrokeet-c02 | exact | en.wikipedia.org | Derived from burroquito, the costume gives the illusion of a dancer mounted on a donkey. | The name derives from the Spanish word burroquito (little donkey), the character's costume being constructed so as to give the illusion of a dancer riding a small burro or donkey. |
 | burrokeet-c03 | exact | en.wikipedia.org | Venezuelan settlers introduced this masquerade performance into Trinidad. | This masquerade was brought to Trinidad by Venezuelan settlers. |
+| burrokeet-c04 | exact | en.wikipedia.org | The costume is a well-decorated donkey's head of coloured paper on a bamboo frame; the masquerader enters through a hole at the back of the "donkey"'s neck, holds the reins, and wears the animal's body around his hips, creating the illusion of being its rider. | The burrokeet costume is a well-decorated donkey's head made from coloured paper and attached to a bamboo frame. The masquerader enters through a hole at the back of the "donkey"'s neck and carries the reins in his hands, with the animal's body fitted around his hips, thereby creating the illusion of being the donkey's rider. |
+| burrokeet-c05 | exact | en.wikipedia.org | The donkey's body is covered in a long satin skirt and has a sisal rope tail, sometimes decorated with flowers; the bit and bridle are of coloured cord. | The donkey's body is covered in a long satin skirt and has a sisal rope tail, sometimes decorated with flowers. The bit and bridle are made of coloured cord. |
+| burrokeet-c06 | exact | en.wikipedia.org | The "rider" wears a satin shirt and a large matador straw hat and dances in a way that mimics the antics of a donkey, making it caper and bow. | The "rider" wears a satin shirt and a large matador straw hat and dances in a way that mimics the antics of a donkey, making it caper and bow. |
+| burrokeet-c07 | exact | en.wikipedia.org | A dance called Burriquite with origins in Venezuela is also performed. | A dance called Burriquite with origins in Venezuela is also performed. |
+| burrokeet-c08 | exact | en.wikipedia.org | The burrokeet masquerade, associated with the South American mainland and Venezuelan Spaniards, has become linked with the "Sou-Marie" character derived from East Indian culture brought to Trinidad by indentured labourers. | The burrokeet masquerade, associated with the South American mainland and Venezuelan Spaniards, has become linked with the "Sou-Marie" character that derives from East Indian culture brought to Trinidad by indentured labourers. |
+| burrokeet-c09 | exact | ncctt.org | The National Carnival Commission says the Burrokeet, named from the Spanish word burroquito (little donkey), is designed to look like a dancer riding a donkey, with a decorated donkey's head typically made from coloured paper. | The Burrokeet, which originated from the Spanish word burroquito (little donkey), is designed to look like a dancer riding a donkey. The costume comprises a decorated donkey's head typically made from coloured paper. |
+| burrokeet-c10 | exact | ncctt.org | Sometimes the Burrokeet performer stages a dance called Burriquite, which originated in Venezuela. | Sometimes, the Burrokeet performer will stage a dance called Burriquite, which originated in Venezuela. |
 
 
 ## cactus-cat — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cactus-cat-c01 | exact | en.wikipedia.org | The cactus cat is a legendary creature of the American Southwest. | The cactus cat is a legendary "fearsome critter" of the American Southwest. |
 | cactus-cat-c02 | exact | en.wikipedia.org | It resembles a bobcat covered in thorns with long spiny legs and an armored branched tail. | The cactus cat was generally described being a bobcat-like creature, covered in hair-like thorns, with particularly long spines extending from the legs and its armored, branching tail. |
 | cactus-cat-c03 | exact | en.wikipedia.org | The creature used its sharp spines to puncture cacti at night for plant juice. | The creature was said to use its spines to slash cacti at night, allowing juice to run from the plants. |
+| cactus-cat-c04 | exact | en.wikisource.org | According to Cox, the cactus cat, as its name signifies, lives in the great cactus districts and is particularly abundant between Prescott and Tucson. | The cactus cat, as its name signifies, lives in the great cactus districts, and is particularly abundant between Prescott and Tucson. |
+| cactus-cat-c05 | exact | en.wikisource.org | It has also been reported from the valley of the lower Yaqui in Old Mexico and the cholla-covered hills of Yucatan. | It has been reported, also, from the valley of the lower Yaqui, in Old Mexico, and the cholla-covered hills of Yucatan. |
+| cactus-cat-c06 | exact | en.wikisource.org | The cactus cat has thorny hair, with especially long, rigid thorns on its ears; its tail is branched, and on the forearms above its front feet are sharp, knifelike blades of bone. | The cactus cat has thorny hair, the thorns being especially long and rigid on its ears. Its tail is branched, and upon the forearms above its front feet are sharp, knifelike blades of bone. |
+| cactus-cat-c07 | exact | en.wikisource.org | With these blades it slashes the base of giant cactus trees so that the sap exudes, doing this systematically to many trees over several nights as it makes a big circuit. | With these blades it slashes the base of giant cactus trees, causing the sap to exude. This is done systematically, many trees being slashed in the course of several nights as the cat makes a big circuit. |
+| cactus-cat-c08 | exact | en.wikisource.org | By the time it returns to its starting place the first cactus's sap has fermented into a sweet, very intoxicating kind of mescal; the thirsty beast laps it up greedily, soon becomes fiddling drunk, and waltzes off in the moonlight rasping its bony forearms together and screaming with delight. | By the time it is back to the place of beginning the sap of the first cactus has fermented into a kind of mescal, sweet and very intoxicating. This is greedily lapped up by the thirsty beast, which soon becomes fiddling drunk, and goes waltzing off in the moonlight, rasping its bony forearms across each other and screaming with delight. |
+| cactus-cat-c09 | exact | en.wikisource.org | According to Cox, only the old-timers know of the beast and its queer habits. | Only the old-timers know of the beast and its queer habits. |
+| cactus-cat-c10 | exact | en.wikisource.org | Cox writes that nearly every lumber district has mysterious stories or vague rumors of dreadful beasts with which to regale newcomers and frighten people unfamiliar with the woods. | Some have their songs also, and nearly all have mysterious stories or vague rumors of dreadful beasts with which to regale newcomers and frighten people unfamiliar with the woods. |
+| cactus-cat-c11 | exact | en.wikisource.org | Cox states his purpose is to preserve at least a description and sketch of some of the interesting animals the lumberjacks originated. | It is my purpose in this little book to preserve at least a description and sketch of some of the interesting animals which he has originated. |
 
 
 ## cahuelche — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cahuelche-c01 | exact | es.wikipedia.org | The Cahuelche or Cahuella is a magical aquatic creature in Chilota mythology. | El Cahuelche (del mapudungun kawel: «delfín» y che: «persona»), también llamado Cahuella, es una criatura mágica acuática presente en la mitología chilota. |
 | cahuelche-c02 | exact | es.wikipedia.org | It possesses an appearance virtually identical to the tonina dolphin. | Se dice que es un bello animal, con apariencia muy similar, o idéntica, a la especie de cetáceo llamado delfín chileno o tonina (Cephalorhynchus eutropia), por lo que a simple vista no se podría diferenciar del mismo. |
 | cahuelche-c03 | exact | es.wikipedia.org | It was granted high intelligence and a magical cry to communicate with human beings. | le habría devuelto su inteligencia y dado un mágico chillido para comunicarse con los humanos nuevamente. |
+| cahuelche-c04 | exact | es.wikipedia.org | According to the legend, it was originally human and was transformed by magic into what it now is. | Su origen habría sido humano; pero habría sido transformado en lo que ahora sería por arte de magia. |
+| cahuelche-c05 | exact | es.wikipedia.org | Its transformation happened during the mythic struggle between Tenten Vilu and Caicai Vilu, when it was one of the humans drowning in the great flood and was saved by Tenten by being turned into a magical tonina. | Su transformación habría ocurrido en los tiempos de la lucha mítica entre Tenten Vilu Y Caicai Vilu, siendo uno de los humanos que se ahogaban en la gran inundación y que fue salvado por Tenten al ser transformado en una mágica tonina. |
+| cahuelche-c06 | exact | es.wikipedia.org | The Cahuelche is much more intelligent than animals of that species, and the sound it emits is different, carrying a meaning that is magically understandable to humans. | el Cahuelche no solamente sería mucho más inteligente que los animales de esta especie sino que el sonido que emitiría sería distinto, presentando un significado que sería mágicamente comprensible para los seres humanos. |
+| cahuelche-c07 | exact | es.wikipedia.org | From that day the Cahuelche accompanies the Huenchur and acts as both her helper and secretary before humans, since the Huenchur is not permitted to communicate directly with any human being. | Desde ese día, el Cahuelche acompañaría a la Huenchur y actuaría tanto como su ayudante como su secretario frente a los humanos - ya que a la Huenchur no se le está permitido comunicarse directamente con ningún ser humano. |
+| cahuelche-c08 | exact | es.wikipedia.org | When the Huenchur wants to communicate changes in the weather or the nearby presence of the ghost ship "El Caleuche", she orders the Cahuelche to make great leaps over the sea surface. | Así, cuando la Huenchur desea comunicar cambios en el clima o la presencia cercana del barco fantasma "El Caleuche", ordenaría al Cahuelche dar grandes saltos sobre la superficie del mar |
+| cahuelche-c09 | exact | es.wikipedia.org | If the Huenchur wants to announce the approaching death of one of the inhabitants living by the sea, she sends the Cahuelche to the shore, very near the house of the person about to die. | En el caso de que la Huenchur desee anunciar que se producirá una próxima muerte de alguno de los habitantes que vive a la orilla del mar, enviaría al Cahuelche a la orilla de la playa, muy cerca de la casa del próximo difunto. |
+| cahuelche-c10 | exact | es.wikipedia.org | Millalobo gave the Huenchur the power to communicate with the inhabitants of the land through the wind and by means of a helper called the Cahuelche. | le dio el poder para comunicarse con los habitantes de la tierra, a través del viento y por medio de un ayudante, llamado el Cahuelche. |
+| cahuelche-c11 | exact | es.wikipedia.org | Millalobo, sensing the sorrow of this tonina and also wishing to give help and company to the Huenchur, decided to help them both. | El gran Millalobo, sintiendo la amargura de esta tonina, y como igualmente deseaba darle ayuda y compañía a la Huenchur, decidió ayudar a ambos. |
 
 
 ## chashkel — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chashkel-c01 | exact | es.wikipedia.org | In Selknam mythology, Chashkel was an anthropophagous giant. | En la mitología selknam, Chashkel, Cháskilts o Čáskels era un gigante antropófago. |
 | chashkel-c02 | exact | es.wikipedia.org | The arch-rival of Kwányip, he was defeated while saving the hero's nephews. | Adversario por excelencia de Kwányip, fue derrotado por este al salvar a sus sobrinos, los hermanos Sasán. |
 | chashkel-c03 | exact | es.wikipedia.org | Chashkel inhabited the banks along the Mac Lelan river. | Chashkel vivía a orillas del río Mac Lelan |
+| chashkel-c04 | exact | es.wikipedia.org | He was feared by his contemporaries because of his enormous power. | Era temido por sus contemporáneos debido a su enorme poder. |
+| chashkel-c05 | exact | es.wikipedia.org | Chashkel lived on the banks of the Mac Lelan (or McCLellan) river, which flows into Bahía Inútil in Tierra del Fuego province (Chile), Magallanes and Chilean Antarctica Region, in the area of Villa Cameron, capital of the Timaukel commune. | Chashkel vivía a orillas del río Mac Lelan (o McCLellan), que desemboca en la bahía Inútil, provincia de Tierra del Fuego (chile), Región de Magallanes y de la Antártica Chilena, en la zona de Villa Cameron, capital de la comuna de Timaukel. |
+| chashkel-c06 | exact | es.wikipedia.org | It is said that many scattered bones of the people the giant devoured can still be found at that place today. | Se dice que actualmente en aquel lugar es posible encontrar muchos huesos dispersos, de las personas que el gigante devoraba. |
+| chashkel-c07 | exact | es.wikipedia.org | Chashkel had several dogs he specially trained to hunt and kill people; the dogs devoured their prey or brought it to the giant's hut. | Chashkel tenía varios perros a los cuales adiestraba especialmente para perseguir y matar personas. Estos perros devoraban a sus presas, o bien las llevaban a la choza del gigante. |
+| chashkel-c08 | exact | es.wikipedia.org | According to the myth, Chashkel kidnapped the Sasán brothers, Kwányip's nephews, and kept them as slaves in his hut, where he forced them to gut and clean the entrails of the human corpses he brought. | Según cuenta el mito, Chashkel secuestró a los hermanos Sasán, sobrinos de Kwányip, y los mantuvo como esclavos en su choza, donde les obligaba a destripar y limpiar las entrañas de los cadáveres humanos que llevaba. |
+| chashkel-c09 | exact | es.wikipedia.org | Kwányip set a trap, catching Chashkel in a mire and then freezing him; once Chashkel was exhausted from escaping the trap, Kwányip took the chance to break his spine. | Kwányip le tendió una trampa, atrapándolo en un lodazal y posteriormente congelándolo. Chashkel quedó fatigado al escapar de la trampa y luego Kwányip aprovechó la oportunidad para fracturar su columna. |
+| chashkel-c10 | exact | es.wikipedia.org | The Sasán brothers came out of hiding and, each with a sling, shot at the giant's eyes; once destroyed, flies were born from them. | Los hermanos Sasán salieron de su escondite y, cada uno con una honda, dispararon a los ojos del gigante, de los cuales, una vez destruidos, nacieron moscas. |
+| chashkel-c11 | exact | www.memoriachilena.gob.cl | Memoria Chilena states that Kwanyip, another very powerful shaman who distributed day and night, killed the giant Cháskels and brought death to the world. | Kwanyip, otro chamán muy poderoso que distribuyó el día y la noche, mató al gigante Cháskels y trajo la muerte al mundo |
 
 
 ## chuzalongo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chuzalongo-c01 | exact | es.wikipedia.org | The Chuzalongo is a creature in Ecuadorian mythology inhabiting Andean crags. | El chuzalongo o chuhuajinu, chiro o indio del monte es una criatura fantástica de la mitología del Ecuador, habitante de las peñas de los Andes. |
 | chuzalongo-c02 | exact | es.wikipedia.org | One version traces its descent from urcu-yaya and urcu-mama, the mountain spirits. | una versión indica que podría ser hijo del urcu-yaya y la urcu-mama, esto es, hijos del cerro. |
 | chuzalongo-c03 | exact | es.wikipedia.org | It is consistently described as a humanoid being, small as a six-year-old child. | siempre es descrito como un ser de rasgos humanoides, pequeño como un niño de 6 años |
+| chuzalongo-c04 | exact | es.wikipedia.org | Another, more earthly version says it could be the fruit of an incestuous relationship between parents and children or between siblings. | Otra versión más terrenal indica que podría ser el fruto de una relación incestuosa entre padres e hijos o entre hermanos. |
+| chuzalongo-c05 | exact | es.wikipedia.org | Other versions suggest the myth arose in the time of the Spanish conquistadors and was also used by the criollos to evade responsibility for the offspring of their relations with Amerindian women, since the chuzalongo is described as blond and light-eyed. | También hay versiones que indicarían que el mito del chuzalongo se habría originado en tiempo de los conquistadores españoles, y aprovechado también por los criollos, para eludir responsabilidades sobre la descendencia fruto de las relaciones entre estos y las amerindias, ya que el chuzalongo es descrito como un ser rubio y de ojos celestes. |
+| chuzalongo-c06 | exact | es.wikipedia.org | It is always described as a being with humanoid features, small as a 6-year-old child, with long hair that may be blond, white skin and light-blue eyes. | siempre es descrito como un ser de rasgos humanoides, pequeño como un niño de 6 años, y de larga cabellera, que puede ser rubia, y de tez blanca y ojos celestes. |
+| chuzalongo-c07 | exact | es.wikipedia.org | Some versions describe it with its feet turned backwards, which would help it elude its pursuers. | Hay versiones que lo describen con sus pies vueltos hacia atrás, lo cual le serviría para burlar a sus perseguidores. |
+| chuzalongo-c08 | exact | es.wikipedia.org | It is very similar to the duende Tin-Tin, who is its coastal version in Ecuadorian folk legends. | Es muy similar al duende Tin-Tin quien es su versión costeña en el folclore de leyendas ecuatorianas. |
+| chuzalongo-c09 | exact | es.wikipedia.org | The chuzalongo is described as having an unbridled sexual appetite that leads it to boldly seduce or rape women it finds alone, and whom it afterwards usually kills. | El chuzalongo cuenta con un desenfrenado apetito sexual que lo lleva seducir audazmente o violar a las mujeres que encuentra solas y a las cuales, posteriormente, suele asesinar. |
+| chuzalongo-c10 | exact | es.wikipedia.org | It is also said to feed on people's blood, although not all versions agree on this. | Se dice que también se alimentaría de la sangre de las personas, aunque no todas las versiones son coincidentes en este aspecto. |
+| chuzalongo-c11 | exact | es.wikipedia.org | It is considered not to be ill-tempered, but if irritated it can kill people with a blow of wind. | Se le considera que no es un ser malhumorado, aunque, en caso de irritarse, puede llegar a asesinar a las personas con un golpe de viento. |
+| chuzalongo-c12 | exact | zenodo.org | An independent report says its physical description, though variable, likens it to a "duende one metre tall". | Su descripción física, aunque variable, lo asimila a un "duende de un metro de altura" |
+| chuzalongo-c13 | exact | zenodo.org | According to the report, cultural promoters in the area distinguish the playful, amorous duende from the Chuzalongo of Imbabura, whom they call "a bit of a satyr" and of clearly indigenous characteristics. | Los promotores culturales de la zona diferencian explícitamente a este ser, juguetón y enamoradizo, de otras figuras mitológicas ecuatorianas como el Chuzalongo de Imbabura, al que califican de "un tanto sátiro" y de claras características indígenas |
+| chuzalongo-c14 | exact | zenodo.org | An independent report states that the legend's declared social function is that of a moral fable and an explicit warning addressed to "young women who must preserve their virginity". | La función social declarada de esta leyenda es la de una fábula moral. Es una advertencia explícita: "las jóvenes mujeres que deben preservar su virginidad" son las destinatarias del mensaje |
 
 
 ## cuca — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cuca-c01 | exact | pt.wikipedia.org | Cuca is one of the main mythological entities in Brazilian folklore. | Cuca é um dos principais seres mitológicos do folclore brasileiro. |
 | cuca-c02 | exact | pt.wikipedia.org | She takes the form of an old witch with alligator appearance who may be over 3,000 years old. | assume a forma de bruxa velha com aspecto de jacaré, que não se sabe ao certo sua idade mas que pode ter mais de 3 mil anos |
 | cuca-c03 | exact | fr.wikipedia.org | In Brazil, Cuca was popularized by Monteiro Lobato's 1921 work O Saci. | Au Brésil, la Cuca a été popularisée par le livre "O Saci" (1921), de Monteiro Lobato. |
+| cuca-c04 | exact | pt.wikipedia.org | According to Luís da Câmara Cascudo in "Geografia dos Mitos Brasileiros", the Cuca is a myth of Portuguese origin related to the Coca, a figure who appeared in processions in the province of Minho, Portugal. | Em seu livro "Geografia dos Mitos Brasileiros", Luís da Câmara Cascudo (1898-1986) diz que a Cuca é um mito de origem portuguesa relacionado à Coca, figura que aparecia nas procissões da província do Minho, em Portugal. |
+| cuca-c05 | exact | pt.wikipedia.org | Also in Minho, "cuca" is the popular name of a kind of pumpkin that used to be pierced with the outlines of eyes and mouth and had a lit candle placed inside. | Também no Minho, "cuca" é o nome popular de uma espécie de abóbora que costumava-se perfurar com contornos de olhos e boca, e dentro da qual era colocada uma vela acesa |
+| cuca-c06 | exact | pt.wikipedia.org | Another possible origin is the "Farricoco", a character who accompanied the Passos procession in the Algarve, also in Portugal. | Outra origem possível seria o “Farricoco”, personagem que acompanhava a procissão de Passos, no Algarve, também em Portugal. |
+| cuca-c07 | exact | pt.wikipedia.org | There are also versions in which more than one cuca may exist, as a kind of subclass of the bicho-papão, as described in the book "O Saci" (1921) by Monteiro Lobato. | como também existem versões em que pode se existir mais de uma cuca, como se fosse uma subclasse de bicho-papão, como é descrito no livro “O Saci” (1921), de Monteiro Lobato. |
+| cuca-c08 | exact | fr.wikipedia.org | She is described as a witch who kidnaps children and can take the form of an old woman or of a witch with an alligator head. | Elle est décrite comme une sorcière qui kidnappe les enfants et qui peut prendre la forme d'une vieille femme ou d'une sorcière à tête d'alligator. |
+| cuca-c09 | exact | fr.wikipedia.org | This legend derives from that of the Coca (or Coco) of Iberian folklore, a tradition that was probably introduced into Brazil at the time of colonisation. | Cette légende dérive de celle de la Coca (ou Coco) du folklore ibérique, une tradition qui a vraisemblablement été introduite au Brésil au moment de la colonisation. |
+| cuca-c10 | exact | fr.wikipedia.org | According to some traditions, a new Cuca emerges from an egg every 1,000 years; the previous Cuca then turns into a bird with a sad song, while the new one takes up her role, causing more harm than the previous one. | Ainsi, selon certaines de ces traditions, une nouvelle Cuca émergerait d'un œuf tous les 1 000 ans. La précédente Cuca se transformerait alors en un oiseau au chant triste, tandis que la nouvelle remplirait son rôle, occasionnant plus de mal que la précédente. |
+| cuca-c11 | exact | fr.wikipedia.org | In Monteiro Lobato's book "O Saci" (1921), the Cuca is described as a "horrible witch" with very fine hearing, "as old as time", living in a cave in the forest and sleeping only one night every seven years; it is the only work by the writer in which she appears. | Au Brésil, la Cuca a été popularisée par le livre "O Saci" (1921), de Monteiro Lobato. C'est par ailleurs la seule œuvre de l'écrivain dans laquelle elle apparaît. Elle y est décrite comme une "horrible sorcière", dotée d'une ouïe très fine, "vieille comme le temps", vivant dans une grotte dans la forêt et ne dormant qu'une nuit tous les sept ans. |
+| cuca-c12 | exact | fr.wikipedia.org | According to the book, the Cuca has "a face like an alligator and claws on her fingers like hawks". | Selon le livre, la Cuca a « un visage comme un alligator et des griffes sur ses doigts comme les faucons ». |
+| cuca-c13 | exact | fr.wikipedia.org | In the two series adapted from Monteiro Lobato's work produced by Rede Globo, five different costumes were used for the Cuca. | Dans les deux séries adaptatées de l'œuvre de Monteiro Lobato produites par Rede Globo, cinq costumes différents ont été utilisés pour la Cuca. |
+| cuca-c14 | exact | www.todamateria.com.br | Legend has it ("Reza a lenda") that the bruxa (witch) Cuca dorme (sleeps) uma vez a cada sete anos (once every seven years). | Reza a lenda que a bruxa Cuca dorme uma vez a cada sete anos. |
 
 
 ## cuyancua — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cuyancua-c01 | exact | es.wikipedia.org | The Cuyancúa is a Salvadoran legend recounted mainly in Izalco, Sonsonate. | La cuyancúa o Cuyancuat, es una leyenda salvadoreña narrada principalmente en el municipio de Izalco, en el departamento de Sonsonate. |
 | cuyancua-c02 | exact | es.wikipedia.org | It is a mythological entity that holds dominion over river waters and rain. | es también un ser mitológico que tiene cierto dominio sobre las aguas de los ríos y la lluvia. |
 | cuyancua-c03 | exact | es.wikipedia.org | A sinister screech followed by strong subterranean turbulence was attributed to the Cuyancúa. | se escuchaba una especie de graznido o chillido tenebroso, seguido de fuertes turbulencias bajo la tierra, este fenómeno se le atribuía a la Cuyancúa |
+| cuyancua-c04 | exact | es.wikipedia.org | According to oral tradition, it is a large mythical being of strange appearance, the lower half of its body shaped like a snake and the upper half like a pig. | Según la tradición oral, es un ser mítico de gran tamaño y apariencia extraña, la mitad inferior de su cuerpo tiene forma de serpiente y la mitad superior tiene forma de cerdo. |
+| cuyancua-c05 | exact | es.wikipedia.org | This being announces the coming of rain, and according to testimonies not just one cuyancúa appears but sometimes several do so in a group. | Este ser anuncia la llegada de la lluvia y según los testimonios, no solo aparece una cuyancúa sino a veces lo hacen en grupo. |
+| cuyancua-c06 | exact | es.wikipedia.org | This sound was heard mainly around rivers and streams, where the Cuyancúa crawled looking for food. | Este sonido se escuchaba principalmente en los alrededores de los ríos y quebradas, donde la Cuyancúa se arrastraba buscando alimento. |
+| cuyancua-c07 | exact | es.wikipedia.org | People who stayed up late claim to have seen it face to face; they say the shock of seeing the Cuyancúa can cause fainting and loss of speech for a time. | Personas que trasnochaban aseguran haberla visto de frente, comentan que el impacto de ver a la Cuyancúa puede provocar desmayos y la pérdida del habla por algún tiempo. |
+| cuyancua-c08 | exact | es.wikipedia.org | It is said that on seeing or hearing the Cuyancúa the best course is to adopt a peaceful attitude, close one's eyes and commend oneself to God. | Se dice que al ver o escuchar a la Cuyancúa lo mejor es adoptar una actitud pacífica, cerrar los ojos y encomendarse a Dios. |
+| cuyancua-c09 | exact | es.wikipedia.org | The legend also says that where the Cuyancúa digs to lie down, springs form from which clean, fresh water gushes. | la leyenda narra también, que donde la Cuyancúa escarba para echarse se forman nacimientos donde brota un agua limpia y fresca |
+| cuyancua-c10 | exact | es.wikipedia.org | For anyone daring to look for it, the Cuyancúa is said to still hide in the surroundings of the Atecozol spa. | Para quien se anime a buscarla, se dice que la Cuyancúa aún se esconde en los alrededores del balneario Atecozol. |
+| cuyancua-c11 | exact | es.wikipedia.org | At the Atecozol Tourist Centre in Sonsonate a stone image of this mythical being can be found. | En el Centro Turístico Atecozol, en Sonsonate, se puede encontrar una imagen en piedra de este ser mítico. |
+| cuyancua-c12 | exact | camjol.info | According to this journal article, the Cuyancúa is one of the mythological beings that announce the season of the earth's "pregnancy" and is, for the people of Izalco, their cultural heritage, also associated with the natural. | uno de los seres mitológicos que anuncian la época de preñez de la tierra es la Cuyancúa, que es para los izalqueños su patrimonio cultural, asociado también al natural |
+| cuyancua-c13 | exact | camjol.info | A respondent quoted in the article recounts that when it was raining very hard and the Cuyancúa's shriek was heard, it meant a storm was coming. | cuando estaba lloviendo bastante fuerte y se escuchaba el chillido de la Cuyancúa, que era porque iba a ver temporal. |
+| cuyancua-c14 | exact | camjol.info | The article stresses that the Cuyancúa is the nahual of the Izalcos within their Nahua-Pipil mythology. | Es importante recalcar que la Cuyancúa es el nahual de los Izalcos, dentro de su mitología nahua pipil |
+| cuyancua-c15 | exact | camjol.info | According to the article, the Cuyancúa and the Xipetotec both announce the start of the dry season, when food is scarcer, and the arrival of the rainy season that signals the earth's "pregnancy" and hence abundant food. | Ambos la Cuyancúa y el Xipetotec, son los que anuncian el inicio de la época seca, en donde el alimento es más escaso, y la llegada del invierno que anuncia la preñez de la tierra, y por ende la abundancia del alimento. |
 
 
 ## dewey-lake-monster — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dewey-lake-monster-c01 | exact | en.wikipedia.org | The creature is also known as Sister Lakes Sasquatch, similar to descriptions of Bigfoot. | The Dewey Lake Monster, also known as the Sister Lakes Sasquatch, is purported to be an ape-like cryptid, similar to descriptions of Bigfoot |
 | dewey-lake-monster-c02 | exact | en.wikipedia.org | Described as covered in hair, 10 feet tall, 500 pounds, with glowing eyes. | The creature was described as covered in hair, approximately 10 feet (3 m) tall, 500 pounds (230 kilograms), and had glowing eyes. |
 | dewey-lake-monster-c03 | exact | en.wikipedia.org | Attracted national attention in June 1964 following sightings by local residents. | In June 1964, the story gained national attention after local residents reported seeing a large, hairy creature with glowing eyes. |
+| dewey-lake-monster-c04 | exact | en.wikipedia.org | It was allegedly sighted in the summer of 1964 near Dewey Lake and Sister Lakes in Dowagiac. | that was allegedly sighted in the summer of 1964 near Dewey Lake and Sister Lakes in Dowagiac. |
+| dewey-lake-monster-c05 | exact | en.wikipedia.org | Police searched the area of the sightings and found nothing, but the reports caused thrill-seekers and monster hunters to besiege the community that summer. | Police searched the area of the alleged sightings and found nothing. Nevertheless, the reports caused curious thrill-seekers and monster hunters to besiege the community that summer. |
+| dewey-lake-monster-c06 | exact | en.wikipedia.org | Local businesspeople profited from the excitement, selling "monster getaway gas", "monster burgers" and "monster hunting kits" that held a net, a flashlight, a squirt gun, a mallet and a stake. | Local entrepreneurs capitalized on the event by selling "monster getaway gas", "monster burgers", and "monster hunting kits" — with a net, flashlight, squirt gun, a mallet, and a stake. |
+| dewey-lake-monster-c07 | exact | en.wikipedia.org | Newspapers in Chicago began dubbing Sister Lakes "Monster Town USA" and caricaturing small-town stereotypes. | Newspapers in Chicago began dubbing Sister Lakes "Monster Town USA", as well as caricaturing small town stereotypes. |
+| dewey-lake-monster-c08 | exact | en.wikipedia.org | Several zoologists suggested people may have misidentified a bear or gorilla, while Cass County Sheriff Robert Dool and conservation officer William Rowe dismissed speculation of a monster. | Several zoologists suggested that people may have misidentified a bear or gorilla. Cass County Sheriff Robert Dool and conservation officer William Rowe dismissed speculations of a monster. |
+| dewey-lake-monster-c09 | exact | en.wikipedia.org | Within a week the hysteria diminished, and the South Bend Tribune reported that "nobody seems frightened anymore". | Within a week, the hysteria diminished, and the South Bend Tribune reported that "nobody seems frightened anymore". |
+| dewey-lake-monster-c10 | exact | en.wikipedia.org | In a 1983 retrospective, the South Bend Tribune suggested that the monster was imagined by intoxicated strawberry pickers. | In a 1983 retrospective, the South Bend Tribune suggested that the monster was imagined by intoxicated strawberry pickers. |
+| dewey-lake-monster-c11 | exact | en.wikipedia.org | Dowagiac gained national attention in June 1964 after police began investigating multiple reports of what became known as the Dewey Lake Monster. | Dowagiac gained national attention in June 1964 after police began investigating multiple reports of what became known as the Dewey Lake Monster. |
 
 
 ## dungarvon-whooper — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dungarvon-whooper-c01 | exact | en.wikipedia.org | The Dungarvon Whooper is a ghost story in a song by Michael Whelan about an alleged murder in New Brunswick, Canada. | The Dungarvon Whooper (pronounced "hooper") is a ghost story told in a song composed by Michael Whelan, about the alleged murder along the Dungarvon River in central New Brunswick, Canada |
 | dungarvon-whooper-c02 | exact | en.wikipedia.org | The story revolves around a young cook working in a New Brunswick lumber camp along the river. | The story revolves around a young cook working in a New Brunswick lumber camp, along Dungarvon river. |
 | dungarvon-whooper-c03 | exact | en.wikipedia.org | It is described as an invisible ghost, or sometimes as a wildcat or puma-like creature. | The Dungarvon Whooper's physical description is usually that of an invisible ghost, but it is also sometimes said to resemble a wildcat or puma-like creature |
+| dungarvon-whooper-c04 | exact | en.wikipedia.org | While the lumberjacks are away, the cook is left alone with the camp boss, who decides to murder and rob him. | While the lumberjacks are out, the cook is left alone with the boss of the camp, who decides to murder and rob the young cook. |
+| dungarvon-whooper-c05 | exact | en.wikipedia.org | That night a terrible "whooping" sound keeps the group awake, presumably the ghost of Ryan crying out against the crime he suffered; the men flee the camp, and finally a priest arrives and his prayers bring peace to the haunting spirit. | However, a terrible "whooping" sound keeps the group from falling asleep that night, presumably the ghost of Ryan crying out against the crime of which he was the victim. Scared, the men flee the camp. Finally a priest arrives, and his prayers bring peace to the haunting spirit of the dead man |
+| dungarvon-whooper-c06 | exact | en.wikipedia.org | In most versions the cook is regarded as an Irishman and later tellings give him the name Ryan or Ryan Garvon. | In most versions, the cook is regarded to be an Irishman, and is assigned the name of Ryan or Ryan Garvon by later tellings of the tale. |
+| dungarvon-whooper-c07 | exact | en.wikipedia.org | The murder and haunting are purported to have taken place around 1850–1875, a period of mass migration from Ireland to Canada following the Great Famine. | The murder and haunting is purported to have taken place around 1850–1875, a period of mass migration from Ireland to Canada, following the Great Famine. |
+| dungarvon-whooper-c08 | exact | en.wikipedia.org | It has been commented that the "whooping" call heard might actually have come from a screech owl or a panther. | It has been commented that the "whooping" call heard might have actually come from a screech owl or a panther. |
+| dungarvon-whooper-c09 | exact | en.wikipedia.org | While the exact origin of the story is unknown, the best-known version comes from a song published in a local newspaper by Michael Whelan in 1912. | While the exact origin of the story is unknown, the best-known version comes from a song published in a local newspaper by Michael Whelan in 1912. |
+| dungarvon-whooper-c10 | exact | en.wikipedia.org | Maine storyteller Leroy Dudley tells a version in which the Dungarvon Whooper contests the Native American spirit Pamola for hegemony over Katahdin, the tallest mountain in Maine. | Leroy Dudley, a storyteller from Maine (which borders New Brunswick) tells a version where the Dungarvon Whooper contests the Native American spirit Pamola over hegemony of the Katahdin, the tallest mountain in the state of Maine. |
+| dungarvon-whooper-c11 | exact | en.wikipedia.org | The first issue of the Dark Horse comic series "Blue Book: 1947" includes a back-up segment called "True Weird" that features an adaptation of the Dungarvon Whooper. | The first issue of the Dark Horse comic series, "Blue Book: 1947", includes a back-up segment called "True Weird", which features an adaptation of the Dungarvon Whooper. |
+| dungarvon-whooper-c16 | exact | en.wikipedia.org | The story concerns an alleged murder along the Dungarvon River in central New Brunswick, Canada, in the mid to late 19th century. | about the alleged murder along the Dungarvon River in central New Brunswick, Canada, in the mid to late 19th century. |
+| dungarvon-whooper-c12 | exact | americanfolklore.net | In this retelling, an Irish lumberjack named Ryan coveted the cook's money and concocted a plan to get it. | Now an Irish lumberjack named Ryan coveted the cook's money and concocted a plan to get it. |
+| dungarvon-whooper-c13 | exact | americanfolklore.net | Deep in the woods, Ryan turned his rifle on the cook and shot him dead. | When they were deep in the woods, Ryan turned his rifle on the cook and shot him dead. |
+| dungarvon-whooper-c14 | exact | americanfolklore.net | At dusk every evening for several weeks the cook's ghost shrieked out his terror and rage over his murder; all activity in the camp stopped at the first sound of the "Dungarvon Whooper", as the ghost came to be called. | At dusk every evening for several weeks, the ghost of the cook shrieked out his terror and rage over his murder. All action in the logging camp ceased at the first sound of the "Dungarvon Whooper," as the ghost came to be called |
+| dungarvon-whooper-c15 | exact | americanfolklore.net | In this retelling the priest prayed over the area and tried to exorcise the spirit with bell, book and candle, but the ghost was too strong and he left in defeat. | The holy man prayed over the area and tried to exorcise the spirit with bell, book, and candle, but the ghost was too strong for him, and he left in defeat. |
 
 
 ## ewiger-jager — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 22 (exact 22), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ewiger-jager-c01 | loose | en.wikipedia.org | The ewiger Jäger is a local variant of the ghostly wild huntsman. | The ewiger Jäger (eternal hunter; der ewige Jäger; German: [ˈeːvɪɡɐ ˈjɛːɡɐ, deːɐ̯ ˈeːvɪɡə ˈjɛːɡɐ]) is a local variant of the ghostly wild huntsman |
+| ewiger-jager-c01 | exact | en.wikipedia.org | The ewiger Jäger is a local variant of the ghostly wild huntsman. | The ewiger Jäger (eternal hunter; der ewige Jäger; German: ... is a local variant of the ghostly wild huntsman |
 | ewiger-jager-c02 | exact | en.wikipedia.org | Count Eberhard of Württemberg encountered the ewiger Jäger while hunting in the woods. | Count Eberhard of Württemberg encountered the ewiger Jäger while hunting in the woods. |
 | ewiger-jager-c03 | exact | pdc.wikipedia.org | Der Ewich Yeeger is a ghostly entity dwelling on the Blobarrickgrat ridge in Pennsilfaani. | Der Ewich Yeeger iss en geischtiches Wese, wu uff em Blobarrickgrat im Pennsilfaani wuhnt. |
+| ewiger-jager-c22 | exact | en.wikipedia.org | The ewiger Jäger is found in German, Belgian and American folklore. | found in German, Belgian, and American folklore. |
+| ewiger-jager-c04 | exact | en.wikipedia.org | Ludwig Bechstein told the same legend with extra detail: according to him the ewiger Jäger appears as a gnarled little man dressed in green. | Ludwig Bechstein told the same legend and gave additional detail. According to him, the ewiger Jäger appears as a gnarled little man dressed in green. |
+| ewiger-jager-c05 | exact | en.wikipedia.org | In Bechstein's version he was punished with an eternal hunt for hunting on a Sunday, breaking Sunday rest. | He was punished with eternal hunt for going for a hunt on a Sunday, breaking Sunday rest. |
+| ewiger-jager-c06 | exact | en.wikipedia.org | Other names for the eternal hunter are Ruprecht, Hans and Riesenjäger. | Other names for the eternal hunter are Ruprecht, Hans, and Riesenjäger. |
+| ewiger-jager-c07 | exact | en.wikipedia.org | Bechstein also told a legend from Belgium about the eternal hunter: near Wijnendale Castle in Flanders lived a pious, hardworking farmer with an only son. | Bechstein also told a legend from Belgium about the eternal hunter. Near Wijnendale Castle in Flanders, there dwelled a pious and hardworking farmer who had an only son. |
+| ewiger-jager-c08 | exact | en.wikipedia.org | The cursed son never returned home and was heard in the woods shouting "Jakko! Jakko! Jakko!", screeching like a bird of prey or barking like a dog, doomed to go on until Judgement Day or longer. | Afterward, the cursed son never returned home and was heard in the woods shouting "Jakko! Jakko! Jakko!", screeching like a bird of prey or barking like a dog, doomed to continue until Judgement Day or longer. |
+| ewiger-jager-c09 | exact | en.wikipedia.org | In the United States the ewiger Jäger was introduced by German immigrants in Pennsylvania who were later called Pennsylvania Dutch. | In the United States, the ewiger Jäger was introduced by German immigrants in Pennsylvania who later were called Pennsylvania Dutch. |
+| ewiger-jager-c10 | exact | en.wikipedia.org | In Pine Grove, Blue Mountain is believed to be haunted by Dar Ewich Jaejer or Ewige Jaeger; when a phantom pack of hounds is heard on a quiet fall hunting-season night, people look to the sky and say the eternal hunter is riding. | In Pine Grove, Blue Mountain is believed to be haunted by Dar Ewich Jaejer or Ewige Jaeger. When a phantom pack of hounds is heard on a quiet night in the fall hunting season, people look to the sky and say that the eternal hunter is riding. |
+| ewiger-jager-c11 | exact | en.wikipedia.org | He is said to have been a fox hunter who cursed and swore an oath to catch a certain fox, even if he had to chase it into eternity. | He is said to have been a fox hunter who cursed and swore an oath to catch a certain fox, even if he had to chase it into eternity. |
+| ewiger-jager-c12 | exact | en.wikipedia.org | The Canada goose is called Awicher Yager (eternal hunter) because of its sounds: a flock travelling at night can sound like a pack of dogs baying in the sky. | The Canada goose is called Awicher Yager (i.e., eternal hunter) because of its sounds: a flock traveling at night can sound like a pack of dogs baying in the sky. |
+| ewiger-jager-c13 | exact | en.wikipedia.org | In Blue Mountain (Blobarrick in Pennsylvania German), the Ewicher Yeeger became known when, after Lynn Township was founded in 1732, a severe drought with crop failure and the disappearance of all game animals struck the area the settlers called Allemaengel. | In Blue Mountain (Pennsylvania German Blobarrick), the Ewicher Yeeger became known when, after the foundation of Lynn Township in 1732, in the area called Allemaengel (all deficiencies) by Pennsylvania German settlers, there was a severe drought accompanied by crop failure and the disappearance of all game animals. |
+| ewiger-jager-c14 | exact | en.wikipedia.org | The barking and howling pack of the Ewicher Yeeger can be heard while the wild huntsman assures people that Blue Mountain remains bountiful. | The barking and howling pack of Ewicher Yeeger can be heard while the wild huntsman assures people that Blue Mountain remains bountiful. |
+| ewiger-jager-c15 | exact | en.wikipedia.org | The eternal hunter is said to hunt on South Mountain at night, heard calling his pack of dogs; those who meet him at night are either torn to bits by his dogs or spirited away, never to be seen again. | The eternal hunter is said to hunt on South Mountain at night, where he can be heard calling for his pack of dogs. Those encountering him at night will either be torn to bits by his dogs or spirited away, never to be seen again. |
+| ewiger-jager-c16 | exact | en.wikipedia.org | In Lebanon County der Eewich Yeager is associated with the Cornwall Iron Furnace, and his story is told by George Henry Boker in the poem "The Legend of the Hounds"; he is said to have been the furnace's cruel ironmaster in life. | In Lebanon County, der Eewich Yeager is associated with the Cornwall Iron Furnace, and his story is told by George Henry Boker in the poem "The Legend of the Hounds". Der Eewich Yeager is said to have been the cruel ironmaster of the furnace in life. |
+| ewiger-jager-c17 | exact | pdc.wikipedia.org | There are two distinct traditions about the Ewicher Yeeger: the first, widespread, holds that he is an airy ghost; the second holds that he must fulfil a vow. | Es gebt zwee deitliche Iwwerlieferinge um Ewicher Yeeger. Die aerscht, wu weitverbreit iss, haldet, as er en lufdicher Geischt iss. Zwetti haldet, as er en Verschpreche erfille muss. |
+| ewiger-jager-c18 | exact | pdc.wikipedia.org | All the stories say that Der Ewich Yeeger and his pack of dogs can be heard; although he is a rescuer, he is also dangerous. | Alle Gschichte verzehle, as mer nooch Der Ewich Yeeger un sei Hundpack heere kann. Ebwohl Der Ewich Yeeger en Redder iss, iss er aa gfaehrlich. |
+| ewiger-jager-c19 | exact | de.wikisource.org | According to the Grimms' Deutsche Sagen, Count Eberhard of Württemberg rode alone into the green forest one day to hunt; suddenly he heard a strong roaring and noise as if a huntsman were passing. | Graf Eberhard von Würtenberg ritt eines Tages allein in den grünen Wald aus und wollte zu seiner Kurzweil jagen. Plötzlich hörte er ein starkes Brausen und Lärmen, wie wenn ein Weidmann vorüber käme |
+| ewiger-jager-c20 | exact | de.wikisource.org | The ghost says he so loved hunting that he begged God to let him hunt until Judgement Day; his wish was granted, and for four and a half centuries he has chased the same stag. | An dem Jagen hatte ich aber solche Lust, daß ich Gott anflehte, er möge mich jagen lassen, bis zu dem jüngsten Tag. Mein Wunsch wurde leider erhört und schon fünfthalb hundert Jahre jage ich an einem und demselben Hirsch. |
+| ewiger-jager-c21 | exact | de.wikisource.org | When the ghost revealed his face, it was barely fist-sized, withered like a turnip and wrinkled like a sponge. | Da entblößte sich der Geist, sein Antlitz war kaum faustgroß, verdorrt, wie eine Rübe und gerunzelt, als ein Schwamm. |
 
 
 ## galipote — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (exact 20), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | galipote-c01 | exact | es.wikipedia.org | The Galipote, also called Zángano or Lugarú, is a legendary figure from San Juan in the Dominican Republic. | El Galipote, también llamado Zángano o Lugarú, es un personaje legendario supuestamente de República Dominicana, oriundo de San Juan |
 | galipote-c02 | exact | es.wikipedia.org | It is characterized by the ability to transform into diverse animals and inanimate objects. | Se trataba de un ser mítico caracterizado por la habilidad de transformarse en distintos animales y objetos inanimados |
 | galipote-c03 | exact | es.wikipedia.org | It possesses atrocious physical strength and immunity against firearms. | además de gozar de una fuerza atroz e inmunidad contra las armas de fuego. |
+| galipote-c04 | exact | es.wikipedia.org | Originally from San Juan, it probably dates back to between the 17th and 18th centuries. | oriundo de San Juan, que probablemente remonta sus orígenes entre los siglos XVII y XVIII. |
+| galipote-c05 | exact | es.wikipedia.org | It was said to feed on the blood of innocent children, sucked at night, with which it obtained eternal life. | Se decía que solía alimentarse de la sangre de niños inocentes (que succionaba durante las noches), con la que obtenía la vida eterna |
+| galipote-c06 | exact | es.wikipedia.org | The origin of its power is not entirely clear, but most agree it came from a pact with the devil. | El origen de su poder no está del todo claro, sin embargo, la mayoría coincide en que se debía a un pacto con el diablo |
+| galipote-c07 | exact | es.wikipedia.org | There is a belief in a galipote able to turn only into a dog, called lugaru, a term that seems to come from French loup-garou, the legendary werewolf. | Existe la creencia de un galipote capaz de convertirse exclusivamente en perro, conocido como lugaru (término que parece provenir del francés loup-garou, denominación empleada para el legendario hombre lobo o licántropo). |
+| galipote-c08 | exact | es.wikipedia.org | Another subspecies called zángano or zancú is also mentioned, able to take strides as long as the distance between one river and the next and even to become invisible. | También se habla de otra subespecie conocida como zángano o zancú, caracterizada por la habilidad de andar dando zancadas (tan largas como la distancia entre un río y otro), capaces incluso de volverse invisibles. |
+| galipote-c09 | exact | es.wikipedia.org | According to popular belief, the galipote was vulnerable only to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday. | Según la creencia popular, el galipote solamente era vulnerable a una estaca proveniente de un árbol conocido como palo de cruz, que debía ser cortada específicamente el Viernes Santo. |
+| galipote-c10 | exact | es.wikipedia.org | According to the legend, they were cruel and violent beings who enjoyed leading night walkers astray and frightening the unwary. | Según cuenta la leyenda, se trataba de seres crueles y violentos que disfrutaban extraviando a los caminantes nocturnos y espantando a los desprevenidos. |
+| galipote-c11 | exact | es.wikipedia.org | The legend is so deeply rooted that in some areas walkers do not go out at night without protective amulets or reciting a spell. | Tan arraigada está la leyenda que, en algunas zonas del país, los caminantes no salen por la noche sin amuletos protectores o recitar algún conjuro. |
+| galipote-c12 | exact | acento.com.do | The Diccionario del español dominicano, as cited in this column, defines the galipote as a "person who, according to popular belief, has the ability to turn into an animal or a tree". | El galipote es una “Persona que, según la creencia popular, tiene la facultad de convertirse en animal o en árbol. |
+| galipote-c13 | exact | acento.com.do | According to this column, the word entered Dominican Spanish through Haitian Creole galipòt, galpòt, gayipòt, a mythical animal resembling the lugarú (lougawou). | La voz del título entró al español dominicano a través del criollo haitiano, galipòt, galpòt, gayipòt, que es un animal mítico que se asemeja al lugarú (lougawou). |
+| galipote-c14 | exact | acento.com.do | The column says the French galipote closest to the Dominican one was known in the Centre-West and Auvergne of France, where the word named a monstrous animal wandering the fields at night. | El galipote francés más próximo del dominicano es el que se conoció en la región del Centro-Oeste y Auvernia en Francia, en la que se empleaba la voz para designar un animal monstruoso que deambulaba por la noche en los campos. |
+| galipote-c15 | exact | acento.com.do | From there the word passed into Dominican Spanish to name a person who makes an evil pact and can turn into an animal or a tree. | De aquí pasó al español dominicano para denominar a una persona que hace un pacto maléfico y puede convertirse en animal o árbol. |
+| galipote-c16 | exact | acento.com.do | The column quotes a Dominican folklorist: among the most widespread rural beliefs is that some people can turn into animals and inanimate objects; those credited with this power are called "Galipotes o Dundunes". | Entre las creencias más extendidas en las zonas rurales dominicanas está la de atribuir a algunas personas la facultad de convertirse en animales y en objetos inanimados; los individuos a quienes se atribuye ese poder sobrenatural son llamados “Galipotes o Dundunes”. |
+| galipote-c17 | exact | acento.com.do | The stories are heard in all regions of the country, more often in the South and near the Haitian border; few present Galipotes as interested in causing physical harm. | Tales historias, que se escuchan en todas las regiones del país, son más frecuentes en el Sur y en las poblaciones cercanas a la frontera con Haití. Son pocas las historias en las que se presentan a los Galipotes como seres interesados en provocar daños físicos. |
+| galipote-c18 | exact | acento.com.do | More numerous are stories in which they play mischievous tricks, such as blocking night walkers and confusing their way. | Abundan más aquellas en las que aparecen haciendo bellaquerías, como impedir el paso a los caminantes nocturnos y confundirles los caminos. |
+| galipote-c19 | exact | acento.com.do | It is also told that Galipotes, mostly men, turn into animals and inanimate objects that guard their property. | También se cuenta que los Galipotes, hombres, la mayoría de ellos, se convierten en animales y objetos inanimados que cuidan sus propiedades. |
+| galipote-c20 | exact | acento.com.do | It is believed that people who turn into animals have made pacts with the Devil. | Según se cree, las personas que se vuelven animales han hecho pactos con el Diablo. |
 
 
 ## galipote-mythological-creature — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 20 (loose 1, exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | galipote-mythological-creature-c01 | loose | en.wikipedia.org | The Galipote, also called Zángano or Lugarú, is a legendary creature from the Dominican Republic. | The Galipote (Spanish pronunciation: [galiˈpote]), also called Zángano (pronounced [ˈsaŋɡano]) or Lugarú (pronounced [luɣaˈɾu]), is a legendary creature from the Dominican Republic |
 | galipote-mythological-creature-c02 | exact | en.wikipedia.org | It is characterized by the capacity to transform into various animals and inanimate objects. | It was a mythical being characterized by the ability to transform into different animals and inanimate objects |
 | galipote-mythological-creature-c03 | exact | en.wikipedia.org | Legend tells of cruel beings delighting in misleading nocturnal walkers and terrifying the unwary. | According to legend, they were cruel and violent beings who enjoyed leading night walkers astray and frightening the unwary. |
+| galipote-mythological-creature-c04 | exact | en.wikipedia.org | Originally from San Juan, it probably dates back to the 17th and 18th centuries. | originally from San Juan, which probably dates back to the 17th and 18th centuries. |
+| galipote-mythological-creature-c05 | exact | en.wikipedia.org | It was said to feed on the blood of innocent children, sucked at night, with which it obtained eternal life. | It was said that he used to feed on the blood of innocent children (which he sucked during the nights), with which he obtained eternal life |
+| galipote-mythological-creature-c06 | exact | en.wikipedia.org | The origin of its power is not entirely clear, but most agree it came from a pact with the devil. | The origin of his power is not entirely clear, however, most agree that it was due to a pact with the devil |
+| galipote-mythological-creature-c07 | exact | en.wikipedia.org | There is a belief in a galipote able to turn only into a dog, called lugaru, a term that seems to come from French loup-garou, the legendary werewolf. | There is a belief in a galipote capable of turning exclusively into a dog, known as lugaru (a term that seems to come from the French loup-garou, a name used for the legendary werewolf or lycanthrope). |
+| galipote-mythological-creature-c08 | exact | en.wikipedia.org | Another subspecies (rendered "drone" in this source, or zancú) is also mentioned, able to take strides as long as the distance between one river and the next and even to become invisible. | There is also talk of another subspecies known as drone or zancú, characterized by the ability to walk with strides (as long as the distance between one river and another), capable even of becoming invisible. |
+| galipote-mythological-creature-c09 | exact | en.wikipedia.org | According to popular belief, the galipote was vulnerable only to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday. | According to popular belief, the galipote was only vulnerable to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday. |
+| galipote-mythological-creature-c10 | exact | en.wikipedia.org | The legend is so deeply rooted that in some areas walkers do not go out at night without protective amulets or reciting a spell. | The legend is so deep-rooted that, in some areas of the country, walkers do not go out at night without protective amulets or reciting some spell. |
+| galipote-mythological-creature-c11 | exact | en.wikipedia.org | It also enjoys atrocious strength and immunity against firearms. | as well as enjoying atrocious strength and immunity against firearms. |
+| galipote-mythological-creature-c12 | exact | acento.com.do | The Diccionario del español dominicano, as cited in this column, defines the galipote as a "person who, according to popular belief, has the ability to turn into an animal or a tree". | El galipote es una “Persona que, según la creencia popular, tiene la facultad de convertirse en animal o en árbol. |
+| galipote-mythological-creature-c13 | exact | acento.com.do | According to this column, the word entered Dominican Spanish through Haitian Creole galipòt, galpòt, gayipòt, a mythical animal resembling the lugarú (lougawou). | La voz del título entró al español dominicano a través del criollo haitiano, galipòt, galpòt, gayipòt, que es un animal mítico que se asemeja al lugarú (lougawou). |
+| galipote-mythological-creature-c14 | exact | acento.com.do | The column says the French galipote closest to the Dominican one was known in the Centre-West and Auvergne of France, where the word named a monstrous animal wandering the fields at night. | El galipote francés más próximo del dominicano es el que se conoció en la región del Centro-Oeste y Auvernia en Francia, en la que se empleaba la voz para designar un animal monstruoso que deambulaba por la noche en los campos. |
+| galipote-mythological-creature-c15 | exact | acento.com.do | From there the word passed into Dominican Spanish to name a person who makes an evil pact and can turn into an animal or a tree. | De aquí pasó al español dominicano para denominar a una persona que hace un pacto maléfico y puede convertirse en animal o árbol. |
+| galipote-mythological-creature-c16 | exact | acento.com.do | The column quotes a Dominican folklorist: among the most widespread rural beliefs is that some people can turn into animals and inanimate objects; those credited with this power are called "Galipotes o Dundunes". | Entre las creencias más extendidas en las zonas rurales dominicanas está la de atribuir a algunas personas la facultad de convertirse en animales y en objetos inanimados; los individuos a quienes se atribuye ese poder sobrenatural son llamados “Galipotes o Dundunes”. |
+| galipote-mythological-creature-c17 | exact | acento.com.do | The stories are heard in all regions of the country, more often in the South and near the Haitian border; few present Galipotes as interested in causing physical harm. | Tales historias, que se escuchan en todas las regiones del país, son más frecuentes en el Sur y en las poblaciones cercanas a la frontera con Haití. Son pocas las historias en las que se presentan a los Galipotes como seres interesados en provocar daños físicos. |
+| galipote-mythological-creature-c18 | exact | acento.com.do | More numerous are stories in which they play mischievous tricks, such as blocking night walkers and confusing their way. | Abundan más aquellas en las que aparecen haciendo bellaquerías, como impedir el paso a los caminantes nocturnos y confundirles los caminos. |
+| galipote-mythological-creature-c19 | exact | acento.com.do | It is also told that Galipotes, mostly men, turn into animals and inanimate objects that guard their property. | También se cuenta que los Galipotes, hombres, la mayoría de ellos, se convierten en animales y objetos inanimados que cuidan sus propiedades. |
+| galipote-mythological-creature-c20 | exact | acento.com.do | It is believed that people who turn into animals have made pacts with the Devil. | Según se cree, las personas que se vuelven animales han hecho pactos con el Diablo. |
 
 
 ## gougou — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gougou-c01 | exact | en.wikipedia.org | The Gougou is one of the oldest Mi'kmaq legends in Canadian folklore. | The Gougou is one of the oldest Mi'kmaq legends in Canadian folklore. |
 | gougou-c02 | exact | en.wikipedia.org | Described as an ogress residing on Miscou Island in northeastern New Brunswick. | It is said to be ogress that lives on Miscou Island, located in northeast New Brunswick in the Gulf of St. Lawrence. |
 | gougou-c03 | exact | en.wikipedia.org | Mentioned by explorer Samuel de Champlain during his regional exploration in 1603. | It was mentioned by Samuel de Champlain when writing about his exploration of the area in 1603. |
+| gougou-c04 | exact | www.gutenberg.org | Champlain records that near the Bay of Chaleurs, towards the south, there is an island where a terrible monster lives that his informants (called "savages" in the text) name Gougou and described as having the form of a woman, though very frightful. | near the Bay of Chaleurs, towards the south, there is an island where a terrible monster resides, which the savages call Gougou, and which they told me had the form of a woman, though very frightful |
+| gougou-c05 | exact | www.gutenberg.org | Its size is described as so great that the tops of the masts of Champlain's vessel would not reach to its middle. | of such a size that they told me the tops of the masts of our vessel would not reach to his middle, so great do they picture him |
+| gougou-c06 | exact | www.gutenberg.org | They say it has often devoured and still devours many people; when it can catch them it puts them into a great pocket and then eats them. | they say that he has often devoured and still continues to devour many savages; these he puts, when he can catch them, into a great pocket, and afterwards eats them |
+| gougou-c07 | exact | www.gutenberg.org | Those who escaped the creature's jaws said its pocket was so great it could have held Champlain's vessel; the monster makes horrible noises on the island. | those who had escaped the jaws of this wretched creature said that its pocket was so great that it could have put our vessel into it. This monster makes horrible noises in this island |
+| gougou-c08 | exact | www.gutenberg.org | Prevert of St. Malo told Champlain that, while searching for mines, he passed so near the creature's dwelling that he and everyone aboard heard strange hissings from its noise. | Even the above-mentioned Prevert from St. Malo told me that, while going in search of mines, as mentioned in the previous chapter, he passed so near the dwelling-place of this frightful creature, that he and all those on board his vessel heard strange hissings from the noise it made |
+| gougou-c09 | exact | www.gutenberg.org | Champlain writes that all the Indigenous people fear it and tell such strange things that it would be regarded as a myth, but he holds that the place is the dwelling of some devil that torments them. | What makes me believe what they say is the fact that all the savages in general fear it, and tell such strange things about it that, if I were to record all they say, it would be regarded as a myth; but I hold that this is the dwelling-place of some devil that torments them in the above-mentioned manner. |
+| gougou-c10 | exact | fr.wikipedia.org | French Wikipedia calls the Gougou one of the oldest legends of Mi'kmaq origin, about an ogress living on the Miscou plain near the Bay of Chaleurs, south of the Gaspé and on the edge of Acadia, in North America. | La Gougou (la Roulotte) est l'une des plus vieilles légendes d'origine micmaque racontant la légende d'une ogresse vivant dans la plaine de Miscou près de la baie des Chaleurs, au sud de la Gaspésie et aux confins de l'Acadie, en Amérique du Nord. |
+| gougou-c11 | exact | en.wikipedia.org | William F. Ganong made attempts to uncover the legend when surveying the area in 1903. | William F. Ganong made attempts to uncover the legend when surveying the area in 1903. |
 
 
 ## gualichu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gualichu-c01 | exact | en.wikipedia.org | Gualichu, or gualicho, was an evil spirit or demon in Mapuche and Tehuelche cultures. | Gualichu, or gualicho, in Mapuche mythology and mainly in the Tehuelche culture, was an evil spirit or demon, comparable but not similar to the Devil. |
 | gualichu-c02 | exact | en.wikipedia.org | Gualichu was not worshipped but feared, held responsible for every disease or calamity. | As the Araucanians had not a properly called god of evil, Gualichu was not worshipped but feared. He was blamed for every disease or calamity |
 | gualichu-c03 | exact | en.wikipedia.org | He could enter bodies or objects, requiring an exorcism to expel him. | Gualichu could enter people's body or objects and then an exorcism had to be performed to expel him |
+| gualichu-c04 | exact | en.wikipedia.org | By extension the term is used for an evil spell, charm or jinx ("It has Gualichu"); in that sense the word became gualicho and survives in the folklore of Chile, Argentina, southern Brazil and Uruguay as a noun and a verb (engualichar, to cast an evil spell on someone or something). | By extension, the term applied to an evil spell or charm, or a jinx ("It has Gualichu"). In this sense the word has evolved into gualicho and still survives in the local folklore of Chile, Argentina, south of Brazil and Uruguay, in the form of a noun and a verb (engualichar, to cast an evil spell on somebody or something). |
+| gualichu-c05 | exact | en.wikipedia.org | He was a purely spiritual being with no depiction, and was believed to live underground. | He was a purely spiritual being and there is no depiction of him. He was believed to live underground. |
+| gualichu-c06 | exact | chileprecolombino.cl | According to the museum, the Tehuelche believed in evil beings, the Gualichu, who dwelt in the underworld and were always looking for ways to do harm. | The Tehuelche believed in the existence of evil beings, the Gualichu, who dwelt in the underworld and were always looking for ways to do harm. |
+| gualichu-c07 | exact | chileprecolombino.cl | Some stories suggest the Gualichu was actually a single evil being, although this understanding may come from Mapuche influence in the northern reaches of Tehuelche territory. | Some stories suggest that the Gualichu was actually a single evil being, although this understanding may have come from the Mapuche influence in the northern reaches of Tehuelche territory. |
 
 
 ## headless-nun — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | headless-nun-c01 | exact | en.wikipedia.org | The Headless Nun is a ghost legend tied to French Fort Cove in Miramichi, New Brunswick. | The Headless Nun is a ghost story associated with French Fort Cove in Nordin, now the City of Miramichi, New Brunswick. |
 | headless-nun-c02 | exact | en.wikipedia.org | The figure was an 18th-century inhabitant named Sister Marie Inconnue. | the Headless Nun was an 18th-century resident of the area named Sister Marie Inconnue |
 | headless-nun-c03 | exact | en.wikipedia.org | In one version, a mad trapper severed her head and escaped into the woods. | in one version, a "mad trapper" cut off her head and ran into the woods with it. |
+| headless-nun-c04 | exact | en.wikipedia.org | In another version, two sailors cut off her head after she refused to divulge the location of a treasure. | In another, two sailors cut off her head after she refused to divulge the location of a treasure. |
+| headless-nun-c05 | exact | en.wikipedia.org | The story holds that Sister Marie's head was never found, so her spirit forever roams the area searching for it. | The story holds that Sister Marie's head was never found, resulting in her spirit forever roaming the area in search of it. |
+| headless-nun-c06 | exact (tidak bisa dibuka (timeout); dicek lewat arsip Wayback) | www.cbc.ca | In the tour guide's telling, one night around 1758, after helping a woman through a difficult childbirth, Sister Marie Inconnue was returning to the settlement at the cove, then home to a battery of 16 cannons and a small detachment of soldiers. | one night, around 1758, after having helped a woman through a difficult childbirth, Sister Marie Inconnue was returning to the settlement at the cove — at the time home to a battery of 16 cannons and a small detachment of soldiers. |
+| headless-nun-c07 | exact (tidak bisa dibuka (timeout); dicek lewat arsip Wayback) | www.cbc.ca | As she crossed the footbridge over Crow Brook she was attacked. Some say the attackers were a pair of leprous sailors from L'Indienne de Morlaix seeking revenge; others insist it was a mad trapper, wild and desperate from years in the woods. | As she crossed the footbridge over Crow Brook, she was set upon. Some say it was a pair of leprous sailors from L'Indienne de Morlaix, out for revenge on those who had imprisoned them. Others insist that it was a mad trapper, wild and desperate from years living in the woods. |
+| headless-nun-c08 | exact (tidak bisa dibuka (timeout); dicek lewat arsip Wayback) | www.cbc.ca | Whoever he was, he wanted to extort the location of buried treasure from the young nun; Sister Marie adamantly refused and uttered only prayers for the redemption of the poor wretch's soul. | Whoever he was, he was looking to extort the location of a buried treasure from the young nun. Sister Marie adamantly refused to divulge the whereabouts of the treasure, uttering only prayers for the redemption of the poor wretch's soul. |
+| headless-nun-c09 | exact (tidak bisa dibuka (timeout); dicek lewat arsip Wayback) | www.cbc.ca | In a fit of rage the maniac severed her head with one violent blow; some say he did so to dig into her throat, thinking she had swallowed the map. The head was thrown into the waters of the cove and her body was left on the bridge. | In a fit of rage, the maniac severed her head with a violent blow. Some say he severed the head so he could dig into her throat, thinking she had swallowed the map as she saw him approach. The head was thrown into the waters of the cove, and her body was left on the bridge. |
+| headless-nun-c10 | exact (tidak bisa dibuka (timeout); dicek lewat arsip Wayback) | www.cbc.ca | Her body was sent to France for burial but her head was never recovered; since then the ghost of Sister Marie is said to roam the cove, still guarding the treasure and searching for her head. | Her body was sent to France for burial, but her head was never recovered. Since that day, it is said that the ghost of Sister Marie still roams the cove, still diligently protecting the treasure — and searching for the head that will make her whole again. |
+| headless-nun-c11 | exact | en.wikipedia.org | The Headless Nun Tour is a one-hour guided tour of French Fort Cove after dark, with costumed guides reciting the tale of the supposed headless nun haunting the cove. | The Headless Nun Tour is a one-hour guided tour of the French Fort Cove. It takes place after dark and involves costumed tour guides reciting the tale of the supposed headless nun that haunts the cove. |
+| headless-nun-c12 | exact | en.wikipedia.org | The tour was featured on the nationally televised show Creepy Canada. | The tour was featured on the nationally televised show Creepy Canada. |
 
 
 ## huenchula — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | huenchula-c01 | exact | es.wikipedia.org | Huenchula is a character belonging to the mythology of the Chiloé archipelago in Chile. | es un personaje perteneciente a la mitología del archipiélago de Chiloé (Chile). |
 | huenchula-c02 | exact | es.wikipedia.org | Huenchula was a maiden from Cucao on the western coast who loved an aquatic being. | Se cuenta que la Huenchula es una muchacha de la zona de Cucao (costa occidental de la Isla Grande de Chiloé) que tenía amores con un ser acuático |
 | huenchula-c03 | exact | es.wikipedia.org | She was taken by him and transformed into a guardian of the ocean's fertility. | fue secuestrada por él y convertida luego en guardiana de la fecundidad del océano. |
+| huenchula-c04 | exact | es.wikipedia.org | There are several versions of the story that differ in many elements, such as the girl's relationship with her parents, with the fantastic being who took her, or the fate of their baby, but all place the events in the Lake Cucao area. | Existen varias versiones de la historia, que difieren en numerosos elementos, tales como la relación que existía entre la muchacha y sus padres, entre ella y el ser fantástico que se la llevó o el destino del bebé que tuvieron, pero todas sitúan los hechos en la zona del lago Cucao |
+| huenchula-c05 | exact | es.wikipedia.org | A Huilliche myth about the origin of Lake Cucao recorded in the 18th century is seen as the first version of the tale. | Un mito huilliche acerca del origen del lago Cucao que fue registrado en el siglo XVIII, es visto como la primera versión de relato. |
+| huenchula-c06 | exact | es.wikipedia.org | According to the legend, the Huenchula was a Huilliche girl born of a machi named Huenchur and a woodcutter. | De acuerdo a la leyenda, la Huenchula era una joven huilliche nacida de la unión de una machi, llamada Huenchur, y de un leñador. |
+| huenchula-c07 | exact | es.wikipedia.org | Her mother had warned her not to look at herself in the well, since she might not see her reflection but the Millalobo taking on her appearance to watch her unnoticed. | Su madre le había advertido que no debía mirarse en el pozo, pues podía ser que no viera su reflejo, sino que el Millalobo tomara su aspecto para observarla sin ser notado. |
+| huenchula-c08 | exact | es.wikipedia.org | After a year the Huenchula came to her mother's house with a bundle in her arms and greeted her naturally, as if she had never left, saying she had married a fish. | Al cabo de un año, la Huenchula llegó a la casa de su madre con un bulto en sus brazos y la saludó con naturalidad como si nunca se hubiera separado de ella y diciéndole que se había casado con un pez. |
+| huenchula-c09 | exact | es.wikipedia.org | Her husband, the being known as Millalobo, told her to stop crying because her daughter was not dead, and then a beautiful young woman named Pincoya emerged, the daughter of them both. | Su esposo, el ser conocido como Millalobo le dijo que dejara de llorar ya que su hija no estaba muerta, y luego de decir esto, emergió una bella joven llamada Pincoya; la cual era la hija de ambos. |
+| huenchula-c10 | exact | es.wikipedia.org | They all went to live in the palace the Millalobo has at the bottom of the sea; over the years the Huenchula and the Millalobo had two more children, called Pincoy and Sirena. | así todos se fueron a vivir al palacio que el Millalobo tiene en el fondo del mar. Al pasar los años, la Huenchula y el Millalobo tendrían dos hijos más; llamados Pincoy y Sirena. |
+| huenchula-c11 | exact | en.wikipedia.org | The Millalobo lives at the bottom of the sea with his wife Huenchula and their three children, the Pincoya, the Pincoy and the Sirena Chilota, who help him manage the seas. | The Millalobo lives at the bottom of the sea, together with his wife Huenchula and their three children, The Pincoya, The Pincoy and La Sirena Chilota, who help him in his task of managing the seas. |
 
 
 ## human-face-fish — skip
@@ -253,33 +378,43 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## idlirvirissong — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | idlirvirissong-c01 | exact | en.wikipedia.org | Idlirvirissong is an evil spirit in the religion of the Inuit of Baffin Island and Greenland. | Idlirvirissong, or Irdlirvirisissong, is an evil spirit in the religion of the Inuit of Baffin Island and the Greenlandic Inuit. |
 | idlirvirissong-c02 | exact | en.wikipedia.org | Depicted as a clown with an upturned nose, she possesses numerous dogs. | Idlirvirissong is a demonic, evil spirit usually depicted as a clown, with a nose "turned up on the side." She owns many dogs |
 | idlirvirissong-c03 | exact | en.wikipedia.org | She is described as the cousin and adversary of the spirit of the Sun. | Idlirvirissong is said to be the cousin of the spirit of the Sun, to whom she is opposed |
+| idlirvirissong-c04 | exact | en.wikipedia.org | In most descriptions Idlirvirissong is female, though some give the gender as male. | In most descriptions, Idlirvirissong is a female, though some give Idlirvirissong's gender as a male. |
+| idlirvirissong-c05 | exact | en.wikipedia.org | Idlirvirissong lives in a house in the sky with her dogs, awaiting the newly deceased; when they arrive she dances, saying "Qimitiaka nexessaqtaqpaka" ("I am looking for food for my dogs"). | Idlirvirissong lives in a house in the sky with her dogs, where she awaits the arrival of the newly deceased. When the deceased arrive, Idlirvirissong will dance while saying "Qimitiaka nexessaqtaqpaka" ("I am looking for food for my dogs"). |
+| idlirvirissong-c06 | exact | en.wikipedia.org | Those who laugh at Idlirvirissong and her dance have their bodies cut open and their intestines placed on her plate called qengmerping and fed to the dogs; those who do not laugh are spared. | Those who laugh at Idlirvirissong and her dance will have their bodies cut open, and their intestines placed on a Idlirvirissong's plate called qengmerping and be fed to the dogs. Those who do not laugh are spared. |
+| idlirvirissong-c07 | exact | en.wikipedia.org | In other parts of Greenland she is known as the Erdlaveersissok, the "entrail-seizer"; on Baffin Island a similar figure called Ululiernang or Ululiarnåq is present. | In other parts of Greenland, she is known as the Erdlaveersissok, the "entrail-seizer." In Baffin Island a similar figure known as Ululiernang or Ululiarnåq is present. |
+| idlirvirissong-c08 | exact | en.wikipedia.org | In some versions she is instead the cousin of the Moon spirit Aningan; in one version told by the Inuit of Smith Sound, Aningan warns people not to laugh around Idlirvirissong. | in some versions, she is the cousin of the Moon spirit Aningan instead. In one version recounted by the Inuit of Smith Sound, Aningan warns people not to laugh around Idlirvirissong. |
+| idlirvirissong-c09 | exact | digitallibrary.amnh.org | Kroeber (1899) records that besides his wife and sister, Aningan has a female cousin, Irdlirvirisissong, who lives in the sky in a separate house, sometimes visits Aningan, and has her nose turned up on the sides. | Irdlirvirisissong. She lives in the sky, but in a separate house, and sometimes visits Aningan. Her nose is turned up on the sides. |
+| idlirvirissong-c10 | exact | digitallibrary.amnh.org | Kroeber's record says that those who laugh she cuts open and gives their entrails to the dogs, while others are spared. | Those of the people that laugh, she cuts open, and gives their entrails to the dogs. Others are spared. |
+| idlirvirissong-c11 | exact | digitallibrary.amnh.org | In Greenland she is called Erdlaveersissok ("the entrail-seizer"); residing on the way to the moon, she tempts people to laugh by her dancing and grimaces and, if successful, takes out their intestines. | In Greenland she is called' Erdlaveersissok' ('the entrail-seizer'). Residing on the way to the moon, she tempts people to laugh by her dancing and grimaces, and if successful takes out their intestines. |
+| idlirvirissong-c12 | exact | digitallibrary.amnh.org | According to Kroeber, on Baffin Land the story is told as in Greenland, except that the woman, there the wife of the moon, is named Ululiernang. | In Baffin Land the story is told as in Greenland, except that the woman, who is here the wife of the moon, is named Ululiernang. |
+| idlirvirissong-c13 | exact | en.wikipedia.org | Ululiernang has a hollow back and no entrails, and she offers the entrails she obtains to the moon's ermine. | Ululiernang has a hollow back with her entrails missing, and she offers the entrails she acquired to the moon's ermine. |
 
 
 ## iemisch — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (iemisch-c03)` Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | iemisch-c01 | exact | en.wikipedia.org | The Iemisch is a cryptid from Patagonia, specifically near the Lake Colhué region. | The Iemisch (a.k.a. Iemisch Listai) is a supposed cryptid from Patagonia, specifically in the mountains near the Lake Colhué region. |
 | iemisch-c02 | exact | en.wikipedia.org | It is nocturnal and powerful enough to seize horses and drag them underwater. | The animal is of nocturnal habits, and it's said to be so strong that it can seize horses with its claws and drag them to the bottom of the water. |
-| iemisch-c03 | exact | en.wikipedia.org | Described as a mixture of jaguar and otter, reaching the size of an ox. | described the iemisch as a mixture of a jaguar and otter, though by some accounts it was as big as an ox. |
+| iemisch-c03 | exact | opac.geologie.ac.at | Lehmann-Nitsche writes that the word Jemisch, which according to Ameghino the Patagonian natives use for that Neomylodon, most probably means the otter (Lutra felina). | La palabra Jemisch (capítulo 11) con que según el señor Ameghino los indígenas de la Patagonia designan á aquel Neomylodon, significa muy probablemente la lutra (Lutra felina Mol.) |
+| iemisch-c04 | exact | en.wikipedia.org | First attested by Florentino Ameghino in 1897; a full study appeared in the 1955 book On the Track of Unknown Animals. | First attested to by Florentino Ameghino in 1897, a full study on the creature was published in the 1955 book On the Track of Unknown Animals. |
+| iemisch-c05 | exact | en.wikipedia.org | According to the description in the original letter, it has a short head, big canines and no external ears, short plantigrade feet with three toes on the forefeet and four on the hind ones, webbed for swimming and armed with formidable claws, and a long, flat, prehensile tail. | According to the description I have been given, it has a short head, big canine teeth, and no external ears: its feet are short and plantigrade, with three toes on the forefeet and four on the hind, three toaes are formed by a membrane for swimming, and are also armed with formidable claws. Its tail is long, flat and prehensile. |
+| iemisch-c06 | exact | en.wikipedia.org | It reportedly could move as quickly on land as in water and was described as having a "soul-wrenching scream". | It reportedly could move as quickly on land as in the water, and was described as having a "soul-wrenching scream". |
+| iemisch-c07 | exact | en.wikipedia.org | Robert Lehmann-Nitsche, a German anthropologist in Argentina, claimed to have a sample of iemisch skin from a local rancher, with small bone plates embedded in it that protected the creature from arrowheads. | Robert Lehmann-Nitsche, a German anthropologist working in Argentina, claimed to have a sample of the iemisch's skin given to him by a local rancher. He stated that there were small bone plates embedded in its skin, which protected the creature from arrowheads. |
+| iemisch-c08 | exact | en.wikipedia.org | Lehmann-Nitsche and Santiago Roth later published more iemisch tales, concluding it must be an unknown type of otter; paleontologist John Bell Hatcher noted that despite spending as much time with Patagonian natives he had never heard of such a creature. | Robert Lehmann-Nitsche and Santiago Roth would eventually publish more iemisch tales, concluding that the iemisch must be an unknown type of otter. Upon peer review, paleontologist John Bell Hatcher noted that though he had spent equal amounts of time with Patagonian natives, he had never heard of such a creature. |
+| iemisch-c09 | exact | en.wikipedia.org | Later scholars also cast doubt on Heuvelmans's research, noting that the word 'Iemisch' is not associated with any language spoken in Patagonia. | Later scholars also cast doubt on research by Heuvelmans, noting that the word 'Iemisch' isn't associated with any language spoken in Patagonia. |
+| iemisch-c10 | exact | opac.geologie.ac.at | Lehmann-Nitsche argues that the Indians' myths, legends and tales of a fierce animal mostly may refer to the jaguar (tigre). | Los mitos (capítulo III), leyendas y cuentos de los indios en que se habla de un animal feroz, pueden referirse en su mayoría al tigre |
+| iemisch-c11 | exact | opac.geologie.ac.at | Lehmann-Nitsche lists other spellings of the name from earlier recorders: Chimchimen (de la Cruz and Gay), Jémechim (Lista), Yem'chen (Moreno), Jemisch (Carlos Ameghino) and Hymché (Tournouer). | « Chimchimen », de la Cruz y Gay. «Jémechim», Lista. « Yem'chen», Moreno. «Jemisch», Carlos Ameghino. « Hymché », Tournouer. |
+| iemisch-c12 | exact | opac.geologie.ac.at | Lehmann-Nitsche records that Tournouer claimed to have seen the enigmatic neomylodon living in the water in Patagonia, and his guide called it Hymché. | haber visto en la Patagonia al neomylodon enigmático, vivo en el agua. El guía lo llamó Hymché. |
 
 
 ## igopogo — lulus-otomatis
@@ -512,10 +647,7 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 
 ## papa-bois — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -528,6 +660,7 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | papa-bois-c07 | exact | en.wikipedia.org | He can change shape, commonly into a deer, luring hunters deep into the forest until they are lost. | He is also known to have the power of metamorphosis and is commonly thought to transform himself into a deer, luring hunters deep into the forest and getting them lost |
 | papa-bois-c08 | exact | en.wikipedia.org | Anyone who meets Papa Bois is believed to need to be polite, avoid staring at his hooves, and greet him politely. | It is believed that if one meets Papa Bois, one must be polite and refrain from staring at his hooves, and say a polite greeting to him. |
 | papa-bois-c09 | exact | en.wikipedia.org | In Nalo Hopkinson's Midnight Robber, Papa Bois is the name of large trees that serve as shelter and ecosystem for sentient creatures. | In Nalo Hopkinson's book Midnight Robber, Papa Bois is the name of the large "daddy trees" that function as both shelter and ecosystem for sentient creatures. |
+| papa-bois-c10 | exact | strangehorizons.com | In a review of the novel Midnight Robber, "Papa Bois" is a huge "daddy tree" that is the home of the douens and provides them with food and shelter. | Chichibud and Benta bring Tan-Tan to the home of the douens, a huge tree called a "Papa Bois," a daddy tree that provides food and shelter for the douens. |
 
 
 ## pe-de-garrafa — lulus-otomatis

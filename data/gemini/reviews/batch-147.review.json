@@ -1,31 +1,28 @@
 {
   "batch_id": "batch-147",
-  "checked_at": "2026-09-30T09:11:48.917Z",
+  "checked_at": "2026-10-07T05:05:21.476Z",
   "files": [
     "batch-147.md",
     "batch-147-fix-1.md",
     "batch-147-fix-2.md",
-    "batch-147-fix-3.md"
+    "batch-147-fix-3.md",
+    "batch-147-fix-4.md",
+    "batch-147-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "basilisco-chilote",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "823cd165e3eb5330abae2d390f5f73c85d4e46292146ff98b65cc9d9ad39c097",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "basilisco-chilote-c01",
@@ -56,26 +53,101 @@
           "quote": "It feeds on the phlegm and saliva of the people who live in the house, causing the inhabitants to dehydrate and eventually die.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c04",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Basilisco, fasilisco, culebrón and athrathrao are names for a creature of Chilota mythology that is half rooster and half snake.",
+          "statement_id": "Basilisco, fasilisco, culebrón, athrathrao adalah nama-nama makhluk mitologi Chiloé yang setengah ayam jantan dan setengah ular.",
+          "quote": "El basilisco, fasilisco, culebrón o athrathrao de la mitología chilota es una criatura mitad gallo y mitad culebra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c05",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Its origin may be a union of the Basilisk myth of Greek mythology and the Colo Colo of Mapuche mythology.",
+          "statement_id": "Asalnya mungkin berupa gabungan mitos Basilisk dari mitologi Yunani dan Colo Colo dari mitologi Mapuche.",
+          "quote": "Posiblemente su origen se deba a la unión del mito del Basilisco de la mitología griega, y del Colo Colo de la mitología mapuche.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c06",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "It has a rooster's head with a red crest and a long neck like a snake's body; its body is like a rooster's but with small wings and legs, so it can only move by crawling along the ground.",
+          "statement_id": "Ia berkepala ayam jantan dengan jengger merah dan berleher panjang seperti tubuh ular; tubuhnya seperti ayam jantan tetapi bersayap dan berkaki kecil sehingga hanya dapat bergerak dengan merayap di tanah.",
+          "quote": "tiene cabeza de gallo con una cresta roja, y un cuello largo como el cuerpo de una serpiente. Su cuerpo es igual al del gallo pero con pequeñas alas y patas, por eso sólo puede moverse arrastrándose por el suelo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c07",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "It is born in a henhouse from a small, round, thick-shelled, grayish-white egg called the huevo lloilloy or huevo lloe, which legend holds was laid and incubated by a rooster.",
+          "statement_id": "Menurut legenda, ia lahir di kandang ayam dari telur kecil bulat bercangkang tebal dan kasar, berwarna putih keabu-abuan, yang disebut huevo lloilloy atau huevo lloe dan dipercaya dierami oleh seekor ayam jantan.",
+          "quote": "Nace en un gallinero, de un pequeño huevo redondo de cáscara gruesa y rugosa (aproximadamente de un centímetro de diámetro), de color blanco grisáceo, llamado huevo lloilloy o huevo lloe, el cual según la leyenda se cree que sería puesto e incubado por un gallo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c08",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "By day the Basilisco chilote hides beneath the house of the henhouse's owner, and at night it comes out of its hiding place while everyone sleeps.",
+          "statement_id": "Pada siang hari basilisco chilote bersembunyi di bawah rumah pemilik kandang ayam, dan pada malam hari keluar dari persembunyiannya saat semua orang tidur.",
+          "quote": "En el día, el basilisco chilote se oculta debajo de la casa del dueño del gallinero, y en la noche saldría de su escondite mientras todas las personas duermen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c09",
+          "source_id": "basilisco-chilote-s2",
+          "host": "es.wikipedia.org",
+          "statement": "At that moment it would emit a hypnotic song like a rooster's crow, which keeps people asleep.",
+          "statement_id": "Saat itu ia mengeluarkan nyanyian menghipnotis yang mirip kokok ayam jantan sehingga orang-orang tetap tertidur.",
+          "quote": "En ese momento emitiría un canto hipnótico similar al canto del gallo, que provocaría que las personas se mantengan dormidas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c10",
+          "source_id": "basilisco-chilote-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To kill it, the egg must be burned as soon as it is laid and the chicken that laid it killed; once hatched, the only way to destroy it is to burn down the house where it lives.",
+          "statement_id": "Untuk membunuhnya, telur harus dibakar segera setelah dikeluarkan dan ayam yang bertelur harus dibunuh; setelah menetas, satu-satunya cara memusnahkannya adalah membakar rumah tempat ia tinggal.",
+          "quote": "To kill Basilisco chilote, you must burn the egg as soon as it is laid and kill the chicken that laid it, to prevent further eggs from being laid. Once hatched the only way to destroy it is by burning down the house where it lives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "basilisco-chilote-c11",
+          "source_id": "basilisco-chilote-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It hatches from an egg incubated by a rooster and lives in a hole it digs under a house.",
+          "statement_id": "Ia menetas dari telur yang dierami seekor ayam jantan dan tinggal di lubang yang digalinya di bawah sebuah rumah.",
+          "quote": "It is hatched from an egg that is incubated by a rooster and lives in a hole which it digs under a house.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "burrokeet",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "0c7dc85930dfbe18f681bb48a9f1f5425ced8291ce560f7311ae9eb42e0c2d0c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "burrokeet-c01",
@@ -106,26 +178,91 @@
           "quote": "This masquerade was brought to Trinidad by Venezuelan settlers.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "burrokeet-c04",
+          "source_id": "burrokeet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The costume is a well-decorated donkey's head of coloured paper on a bamboo frame; the masquerader enters through a hole at the back of the \"donkey\"'s neck, holds the reins, and wears the animal's body around his hips, creating the illusion of being its rider.",
+          "statement_id": "Kostumnya berupa kepala keledai berhias dari kertas berwarna pada rangka bambu; penari masuk lewat lubang di belakang leher \"keledai\", memegang tali kekang, dengan tubuh keledai terpasang di pinggulnya sehingga tampak seperti penunggangnya.",
+          "quote": "The burrokeet costume is a well-decorated donkey's head made from coloured paper and attached to a bamboo frame. The masquerader enters through a hole at the back of the \"donkey\"'s neck and carries the reins in his hands, with the animal's body fitted around his hips, thereby creating the illusion of being the donkey's rider.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c05",
+          "source_id": "burrokeet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The donkey's body is covered in a long satin skirt and has a sisal rope tail, sometimes decorated with flowers; the bit and bridle are of coloured cord.",
+          "statement_id": "Tubuh keledai ditutup rok satin panjang dan berekor tali sisal yang kadang dihiasi bunga; kekang dan tali kepalanya dibuat dari tali berwarna.",
+          "quote": "The donkey's body is covered in a long satin skirt and has a sisal rope tail, sometimes decorated with flowers. The bit and bridle are made of coloured cord.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c06",
+          "source_id": "burrokeet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The \"rider\" wears a satin shirt and a large matador straw hat and dances in a way that mimics the antics of a donkey, making it caper and bow.",
+          "statement_id": "\"Penunggang\" mengenakan kemeja satin dan topi jerami matador besar, lalu menari menirukan tingkah keledai yang melonjak dan membungkuk.",
+          "quote": "The \"rider\" wears a satin shirt and a large matador straw hat and dances in a way that mimics the antics of a donkey, making it caper and bow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c07",
+          "source_id": "burrokeet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A dance called Burriquite with origins in Venezuela is also performed.",
+          "statement_id": "Tarian bernama Burriquite yang berasal dari Venezuela juga dibawakan.",
+          "quote": "A dance called Burriquite with origins in Venezuela is also performed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c08",
+          "source_id": "burrokeet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The burrokeet masquerade, associated with the South American mainland and Venezuelan Spaniards, has become linked with the \"Sou-Marie\" character derived from East Indian culture brought to Trinidad by indentured labourers.",
+          "statement_id": "Mas burrokeet, yang dikaitkan dengan daratan Amerika Selatan dan orang Spanyol Venezuela, telah terkait dengan tokoh \"Sou-Marie\" yang berasal dari budaya India Timur yang dibawa buruh kontrak ke Trinidad.",
+          "quote": "The burrokeet masquerade, associated with the South American mainland and Venezuelan Spaniards, has become linked with the \"Sou-Marie\" character that derives from East Indian culture brought to Trinidad by indentured labourers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c09",
+          "source_id": "burrokeet-s2",
+          "host": "ncctt.org",
+          "statement": "The National Carnival Commission says the Burrokeet, named from the Spanish word burroquito (little donkey), is designed to look like a dancer riding a donkey, with a decorated donkey's head typically made from coloured paper.",
+          "statement_id": "National Carnival Commission menyebut Burrokeet, yang namanya berasal dari kata Spanyol burroquito (keledai kecil), dirancang agar tampak seperti penari menunggang keledai, dengan kepala keledai berhias yang umumnya dari kertas berwarna.",
+          "quote": "The Burrokeet, which originated from the Spanish word burroquito (little donkey), is designed to look like a dancer riding a donkey. The costume comprises a decorated donkey's head typically made from coloured paper.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burrokeet-c10",
+          "source_id": "burrokeet-s2",
+          "host": "ncctt.org",
+          "statement": "Sometimes the Burrokeet performer stages a dance called Burriquite, which originated in Venezuela.",
+          "statement_id": "Kadang-kadang penampil Burrokeet membawakan tarian bernama Burriquite yang berasal dari Venezuela.",
+          "quote": "Sometimes, the Burrokeet performer will stage a dance called Burriquite, which originated in Venezuela.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cactus-cat",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "920e77b328ce436066cce416e54d39db447ec2bdda2eeeae591328696afe27e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cactus-cat-c01",
@@ -156,26 +293,101 @@
           "quote": "The creature was said to use its spines to slash cacti at night, allowing juice to run from the plants.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c04",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to Cox, the cactus cat, as its name signifies, lives in the great cactus districts and is particularly abundant between Prescott and Tucson.",
+          "statement_id": "Menurut Cox, kucing kaktus, seperti namanya, hidup di daerah-daerah kaktus yang luas dan terutama banyak di antara Prescott dan Tucson.",
+          "quote": "The cactus cat, as its name signifies, lives in the great cactus districts, and is particularly abundant between Prescott and Tucson.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c05",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "It has also been reported from the valley of the lower Yaqui in Old Mexico and the cholla-covered hills of Yucatan.",
+          "statement_id": "Makhluk ini juga dilaporkan dari lembah Yaqui bagian bawah di Meksiko Lama dan perbukitan Yucatan yang dipenuhi cholla.",
+          "quote": "It has been reported, also, from the valley of the lower Yaqui, in Old Mexico, and the cholla-covered hills of Yucatan.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c06",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "The cactus cat has thorny hair, with especially long, rigid thorns on its ears; its tail is branched, and on the forearms above its front feet are sharp, knifelike blades of bone.",
+          "statement_id": "Kucing kaktus berambut berduri, duri pada telinganya sangat panjang dan kaku; ekornya bercabang, dan pada lengan bawah di atas kaki depannya terdapat bilah tulang tajam seperti pisau.",
+          "quote": "The cactus cat has thorny hair, the thorns being especially long and rigid on its ears. Its tail is branched, and upon the forearms above its front feet are sharp, knifelike blades of bone.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c07",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "With these blades it slashes the base of giant cactus trees so that the sap exudes, doing this systematically to many trees over several nights as it makes a big circuit.",
+          "statement_id": "Dengan bilah itu ia menyayat pangkal pohon kaktus raksasa sehingga getahnya keluar; ini dilakukan secara sistematis pada banyak pohon selama beberapa malam saat ia berkeliling dalam lingkaran besar.",
+          "quote": "With these blades it slashes the base of giant cactus trees, causing the sap to exude. This is done systematically, many trees being slashed in the course of several nights as the cat makes a big circuit.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c08",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "By the time it returns to its starting place the first cactus's sap has fermented into a sweet, very intoxicating kind of mescal; the thirsty beast laps it up greedily, soon becomes fiddling drunk, and waltzes off in the moonlight rasping its bony forearms together and screaming with delight.",
+          "statement_id": "Ketika ia kembali ke titik awal, getah kaktus pertama telah berfermentasi menjadi sejenis mescal yang manis dan sangat memabukkan; makhluk yang haus itu menjilatnya dengan rakus, segera mabuk berat, lalu berjalan berdansa di bawah cahaya bulan sambil menggesekkan lengan bawahnya yang bertulang dan menjerit kegirangan.",
+          "quote": "By the time it is back to the place of beginning the sap of the first cactus has fermented into a kind of mescal, sweet and very intoxicating. This is greedily lapped up by the thirsty beast, which soon becomes fiddling drunk, and goes waltzing off in the moonlight, rasping its bony forearms across each other and screaming with delight.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c09",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "According to Cox, only the old-timers know of the beast and its queer habits.",
+          "statement_id": "Menurut Cox, hanya para penghuni lama yang mengetahui hewan ini dan kebiasaannya yang aneh.",
+          "quote": "Only the old-timers know of the beast and its queer habits.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c10",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "Cox writes that nearly every lumber district has mysterious stories or vague rumors of dreadful beasts with which to regale newcomers and frighten people unfamiliar with the woods.",
+          "statement_id": "Cox menulis bahwa hampir setiap daerah penebangan kayu punya cerita misterius atau kabar samar tentang binatang menakutkan untuk menghibur pendatang baru dan menakuti orang yang tak mengenal hutan.",
+          "quote": "Some have their songs also, and nearly all have mysterious stories or vague rumors of dreadful beasts with which to regale newcomers and frighten people unfamiliar with the woods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cactus-cat-c11",
+          "source_id": "cactus-cat-s2",
+          "host": "en.wikisource.org",
+          "statement": "Cox states his purpose is to preserve at least a description and sketch of some of the interesting animals the lumberjacks originated.",
+          "statement_id": "Cox menyatakan tujuan bukunya adalah melestarikan setidaknya deskripsi dan sketsa sebagian hewan menarik yang diciptakan oleh para penebang kayu.",
+          "quote": "It is my purpose in this little book to preserve at least a description and sketch of some of the interesting animals which he has originated.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cahuelche",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "5abc889c9899d9b672171480e377abf5162553f126abcb7a6be5e9a5bcf347f4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cahuelche-c01",
@@ -206,26 +418,101 @@
           "quote": "le habría devuelto su inteligencia y dado un mágico chillido para comunicarse con los humanos nuevamente.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cahuelche-c04",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to the legend, it was originally human and was transformed by magic into what it now is.",
+          "statement_id": "Menurut legenda, asalnya manusia yang diubah menjadi wujudnya sekarang dengan sihir.",
+          "quote": "Su origen habría sido humano; pero habría sido transformado en lo que ahora sería por arte de magia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c05",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Its transformation happened during the mythic struggle between Tenten Vilu and Caicai Vilu, when it was one of the humans drowning in the great flood and was saved by Tenten by being turned into a magical tonina.",
+          "statement_id": "Perubahannya terjadi pada masa pertarungan mitis antara Tenten Vilu dan Caicai Vilu: ia salah satu manusia yang tenggelam dalam banjir besar dan diselamatkan Tenten dengan diubah menjadi tonina ajaib.",
+          "quote": "Su transformación habría ocurrido en los tiempos de la lucha mítica entre Tenten Vilu Y Caicai Vilu, siendo uno de los humanos que se ahogaban en la gran inundación y que fue salvado por Tenten al ser transformado en una mágica tonina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c06",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Cahuelche is much more intelligent than animals of that species, and the sound it emits is different, carrying a meaning that is magically understandable to humans.",
+          "statement_id": "Cahuelche jauh lebih cerdas daripada hewan sejenisnya, dan suara yang dikeluarkannya berbeda serta bermakna yang secara ajaib dapat dipahami manusia.",
+          "quote": "el Cahuelche no solamente sería mucho más inteligente que los animales de esta especie sino que el sonido que emitiría sería distinto, presentando un significado que sería mágicamente comprensible para los seres humanos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c07",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "From that day the Cahuelche accompanies the Huenchur and acts as both her helper and secretary before humans, since the Huenchur is not permitted to communicate directly with any human being.",
+          "statement_id": "Sejak hari itu Cahuelche menemani Huenchur dan bertindak sebagai pembantu sekaligus sekretarisnya di hadapan manusia, karena Huenchur tidak diizinkan berkomunikasi langsung dengan manusia mana pun.",
+          "quote": "Desde ese día, el Cahuelche acompañaría a la Huenchur y actuaría tanto como su ayudante como su secretario frente a los humanos - ya que a la Huenchur no se le está permitido comunicarse directamente con ningún ser humano.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c08",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "When the Huenchur wants to communicate changes in the weather or the nearby presence of the ghost ship \"El Caleuche\", she orders the Cahuelche to make great leaps over the sea surface.",
+          "statement_id": "Ketika Huenchur ingin menyampaikan perubahan cuaca atau kedekatan kapal hantu \"El Caleuche\", ia menyuruh Cahuelche melompat tinggi di permukaan laut.",
+          "quote": "Así, cuando la Huenchur desea comunicar cambios en el clima o la presencia cercana del barco fantasma \"El Caleuche\", ordenaría al Cahuelche dar grandes saltos sobre la superficie del mar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c09",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "If the Huenchur wants to announce the approaching death of one of the inhabitants living by the sea, she sends the Cahuelche to the shore, very near the house of the person about to die.",
+          "statement_id": "Bila Huenchur ingin mengumumkan kematian seorang penghuni tepi laut, ia mengirim Cahuelche ke tepi pantai, dekat rumah orang yang akan meninggal.",
+          "quote": "En el caso de que la Huenchur desee anunciar que se producirá una próxima muerte de alguno de los habitantes que vive a la orilla del mar, enviaría al Cahuelche a la orilla de la playa, muy cerca de la casa del próximo difunto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c10",
+          "source_id": "cahuelche-s2",
+          "host": "es.wikipedia.org",
+          "statement": "Millalobo gave the Huenchur the power to communicate with the inhabitants of the land through the wind and by means of a helper called the Cahuelche.",
+          "statement_id": "Millalobo memberi Huenchur kekuatan untuk berkomunikasi dengan penghuni daratan melalui angin dan lewat seorang pembantu bernama Cahuelche.",
+          "quote": "le dio el poder para comunicarse con los habitantes de la tierra, a través del viento y por medio de un ayudante, llamado el Cahuelche.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahuelche-c11",
+          "source_id": "cahuelche-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Millalobo, sensing the sorrow of this tonina and also wishing to give help and company to the Huenchur, decided to help them both.",
+          "statement_id": "Millalobo, yang merasakan kepedihan tonina itu dan ingin membantu serta menemani Huenchur, memutuskan menolong keduanya.",
+          "quote": "El gran Millalobo, sintiendo la amargura de esta tonina, y como igualmente deseaba darle ayuda y compañía a la Huenchur, decidió ayudar a ambos.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chashkel",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "96c34f21960bb11c3fea3d0b586731de8d528981b13364407df1855d72243d48",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chashkel-c01",
@@ -256,26 +543,101 @@
           "quote": "Chashkel vivía a orillas del río Mac Lelan",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chashkel-c04",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "He was feared by his contemporaries because of his enormous power.",
+          "statement_id": "Ia ditakuti orang-orang sezamannya karena kekuatannya yang sangat besar.",
+          "quote": "Era temido por sus contemporáneos debido a su enorme poder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c05",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Chashkel lived on the banks of the Mac Lelan (or McCLellan) river, which flows into Bahía Inútil in Tierra del Fuego province (Chile), Magallanes and Chilean Antarctica Region, in the area of Villa Cameron, capital of the Timaukel commune.",
+          "statement_id": "Chashkel tinggal di tepi sungai Mac Lelan (atau McCLellan), yang bermuara di Bahía Inútil, provinsi Tierra del Fuego (Chile), Región de Magallanes dan Antártica Chilena, di kawasan Villa Cameron, ibu kota komune Timaukel.",
+          "quote": "Chashkel vivía a orillas del río Mac Lelan (o McCLellan), que desemboca en la bahía Inútil, provincia de Tierra del Fuego (chile), Región de Magallanes y de la Antártica Chilena, en la zona de Villa Cameron, capital de la comuna de Timaukel.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c06",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is said that many scattered bones of the people the giant devoured can still be found at that place today.",
+          "statement_id": "Konon di tempat itu kini masih dapat ditemukan banyak tulang berserakan milik orang-orang yang dimakan sang raksasa.",
+          "quote": "Se dice que actualmente en aquel lugar es posible encontrar muchos huesos dispersos, de las personas que el gigante devoraba.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c07",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Chashkel had several dogs he specially trained to hunt and kill people; the dogs devoured their prey or brought it to the giant's hut.",
+          "statement_id": "Chashkel memiliki beberapa anjing yang ia latih khusus untuk memburu dan membunuh manusia; anjing-anjing itu memakan mangsanya atau membawanya ke gubuk sang raksasa.",
+          "quote": "Chashkel tenía varios perros a los cuales adiestraba especialmente para perseguir y matar personas. Estos perros devoraban a sus presas, o bien las llevaban a la choza del gigante.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c08",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to the myth, Chashkel kidnapped the Sasán brothers, Kwányip's nephews, and kept them as slaves in his hut, where he forced them to gut and clean the entrails of the human corpses he brought.",
+          "statement_id": "Menurut mitos, Chashkel menculik saudara-saudara Sasán, keponakan Kwányip, dan menahan mereka sebagai budak di gubuknya, memaksa mereka membuang dan membersihkan isi perut mayat manusia yang ia bawa.",
+          "quote": "Según cuenta el mito, Chashkel secuestró a los hermanos Sasán, sobrinos de Kwányip, y los mantuvo como esclavos en su choza, donde les obligaba a destripar y limpiar las entrañas de los cadáveres humanos que llevaba.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c09",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Kwányip set a trap, catching Chashkel in a mire and then freezing him; once Chashkel was exhausted from escaping the trap, Kwányip took the chance to break his spine.",
+          "statement_id": "Kwányip memasang jebakan, menjebak Chashkel di rawa lumpur lalu membekukannya; setelah Chashkel kelelahan lolos dari jebakan, Kwányip memanfaatkan kesempatan itu untuk mematahkan tulang punggungnya.",
+          "quote": "Kwányip le tendió una trampa, atrapándolo en un lodazal y posteriormente congelándolo. Chashkel quedó fatigado al escapar de la trampa y luego Kwányip aprovechó la oportunidad para fracturar su columna.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c10",
+          "source_id": "chashkel-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Sasán brothers came out of hiding and, each with a sling, shot at the giant's eyes; once destroyed, flies were born from them.",
+          "statement_id": "Saudara-saudara Sasán keluar dari persembunyian dan, masing-masing dengan ketapel, menembak mata sang raksasa; setelah mata itu hancur, lahirlah lalat-lalat darinya.",
+          "quote": "Los hermanos Sasán salieron de su escondite y, cada uno con una honda, dispararon a los ojos del gigante, de los cuales, una vez destruidos, nacieron moscas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chashkel-c11",
+          "source_id": "chashkel-s2",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "Memoria Chilena states that Kwanyip, another very powerful shaman who distributed day and night, killed the giant Cháskels and brought death to the world.",
+          "statement_id": "Memoria Chilena menyebut Kwanyip, dukun yang sangat kuat yang membagi siang dan malam, membunuh raksasa Cháskels dan membawa kematian ke dunia.",
+          "quote": "Kwanyip, otro chamán muy poderoso que distribuyó el día y la noche, mató al gigante Cháskels y trajo la muerte al mundo",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chuzalongo",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "a099c2ad8d5ea4566d03738cdf69fe81dd00b614dc3be0832b04a85829640ed7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chuzalongo-c01",
@@ -306,26 +668,131 @@
           "quote": "siempre es descrito como un ser de rasgos humanoides, pequeño como un niño de 6 años",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c04",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Another, more earthly version says it could be the fruit of an incestuous relationship between parents and children or between siblings.",
+          "statement_id": "Versi lain yang lebih duniawi menyebut ia mungkin buah hubungan inses antara orang tua dan anak atau antarsaudara.",
+          "quote": "Otra versión más terrenal indica que podría ser el fruto de una relación incestuosa entre padres e hijos o entre hermanos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c05",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Other versions suggest the myth arose in the time of the Spanish conquistadors and was also used by the criollos to evade responsibility for the offspring of their relations with Amerindian women, since the chuzalongo is described as blond and light-eyed.",
+          "statement_id": "Ada pula versi yang menyebut mitos chuzalongo berasal dari masa para penakluk Spanyol dan dimanfaatkan juga oleh kaum criollo untuk menghindari tanggung jawab atas keturunan hasil hubungan mereka dengan perempuan Amerindian, karena chuzalongo digambarkan berambut pirang dan bermata biru muda.",
+          "quote": "También hay versiones que indicarían que el mito del chuzalongo se habría originado en tiempo de los conquistadores españoles, y aprovechado también por los criollos, para eludir responsabilidades sobre la descendencia fruto de las relaciones entre estos y las amerindias, ya que el chuzalongo es descrito como un ser rubio y de ojos celestes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c06",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is always described as a being with humanoid features, small as a 6-year-old child, with long hair that may be blond, white skin and light-blue eyes.",
+          "statement_id": "Ia selalu digambarkan sebagai makhluk berciri mirip manusia, sekecil anak berusia 6 tahun, berambut panjang yang bisa pirang, berkulit putih, dan bermata biru muda.",
+          "quote": "siempre es descrito como un ser de rasgos humanoides, pequeño como un niño de 6 años, y de larga cabellera, que puede ser rubia, y de tez blanca y ojos celestes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c07",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Some versions describe it with its feet turned backwards, which would help it elude its pursuers.",
+          "statement_id": "Ada versi yang menggambarkannya dengan kaki terbalik ke belakang, yang membantunya mengelabui para pengejarnya.",
+          "quote": "Hay versiones que lo describen con sus pies vueltos hacia atrás, lo cual le serviría para burlar a sus perseguidores.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c08",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is very similar to the duende Tin-Tin, who is its coastal version in Ecuadorian folk legends.",
+          "statement_id": "Chuzalongo sangat mirip dengan duende Tin-Tin, yang merupakan versi pesisirnya dalam cerita rakyat Ecuador.",
+          "quote": "Es muy similar al duende Tin-Tin quien es su versión costeña en el folclore de leyendas ecuatorianas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c09",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The chuzalongo is described as having an unbridled sexual appetite that leads it to boldly seduce or rape women it finds alone, and whom it afterwards usually kills.",
+          "statement_id": "Chuzalongo digambarkan memiliki nafsu seksual tak terkendali yang mendorongnya merayu secara berani atau memperkosa perempuan yang ia temui sendirian, dan kemudian biasanya membunuh mereka.",
+          "quote": "El chuzalongo cuenta con un desenfrenado apetito sexual que lo lleva seducir audazmente o violar a las mujeres que encuentra solas y a las cuales, posteriormente, suele asesinar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c10",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is also said to feed on people's blood, although not all versions agree on this.",
+          "statement_id": "Konon ia juga memakan darah manusia, meskipun tidak semua versi sependapat dalam hal ini.",
+          "quote": "Se dice que también se alimentaría de la sangre de las personas, aunque no todas las versiones son coincidentes en este aspecto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c11",
+          "source_id": "chuzalongo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is considered not to be ill-tempered, but if irritated it can kill people with a blow of wind.",
+          "statement_id": "Ia dianggap tidak berwatak pemarah, tetapi bila terganggu ia dapat membunuh orang dengan satu embusan angin.",
+          "quote": "Se le considera que no es un ser malhumorado, aunque, en caso de irritarse, puede llegar a asesinar a las personas con un golpe de viento.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c12",
+          "source_id": "chuzalongo-s2",
+          "host": "zenodo.org",
+          "statement": "An independent report says its physical description, though variable, likens it to a \"duende one metre tall\".",
+          "statement_id": "Sebuah laporan independen menyatakan bahwa rupa fisiknya, meski bervariasi, menyerupai \"duende setinggi satu meter\".",
+          "quote": "Su descripción física, aunque variable, lo asimila a un \"duende de un metro de altura\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c13",
+          "source_id": "chuzalongo-s2",
+          "host": "zenodo.org",
+          "statement": "According to the report, cultural promoters in the area distinguish the playful, amorous duende from the Chuzalongo of Imbabura, whom they call \"a bit of a satyr\" and of clearly indigenous characteristics.",
+          "statement_id": "Menurut laporan itu, para promotor budaya di Carchi membedakan duende yang suka bermain dan jatuh cinta dari Chuzalongo de Imbabura, yang mereka sebut \"agak satir\" dan berciri jelas pribumi.",
+          "quote": "Los promotores culturales de la zona diferencian explícitamente a este ser, juguetón y enamoradizo, de otras figuras mitológicas ecuatorianas como el Chuzalongo de Imbabura, al que califican de \"un tanto sátiro\" y de claras características indígenas",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chuzalongo-c14",
+          "source_id": "chuzalongo-s2",
+          "host": "zenodo.org",
+          "statement": "An independent report states that the legend's declared social function is that of a moral fable and an explicit warning addressed to \"young women who must preserve their virginity\".",
+          "statement_id": "Sebuah laporan independen menyebut fungsi sosial legenda ini sebagai fabel moral dan peringatan eksplisit yang ditujukan kepada \"perempuan muda yang harus menjaga keperawanan\".",
+          "quote": "La función social declarada de esta leyenda es la de una fábula moral. Es una advertencia explícita: \"las jóvenes mujeres que deben preservar su virginidad\" son las destinatarias del mensaje",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cuca",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "d7f577a810e437a4e11d7a46a58a7b73a9c585db6669ef1c862d22dae4787ba4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cuca-c01",
@@ -356,26 +823,131 @@
           "quote": "Au Brésil, la Cuca a été popularisée par le livre \"O Saci\" (1921), de Monteiro Lobato.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cuca-c04",
+          "source_id": "cuca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "According to Luís da Câmara Cascudo in \"Geografia dos Mitos Brasileiros\", the Cuca is a myth of Portuguese origin related to the Coca, a figure who appeared in processions in the province of Minho, Portugal.",
+          "statement_id": "Menurut Luís da Câmara Cascudo dalam \"Geografia dos Mitos Brasileiros\", Cuca adalah mitos asal Portugis yang terkait dengan Coca, tokoh yang muncul dalam prosesi di provinsi Minho, Portugal.",
+          "quote": "Em seu livro \"Geografia dos Mitos Brasileiros\", Luís da Câmara Cascudo (1898-1986) diz que a Cuca é um mito de origem portuguesa relacionado à Coca, figura que aparecia nas procissões da província do Minho, em Portugal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c05",
+          "source_id": "cuca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Also in Minho, \"cuca\" is the popular name of a kind of pumpkin that used to be pierced with the outlines of eyes and mouth and had a lit candle placed inside.",
+          "statement_id": "Di Minho, \"cuca\" juga nama populer sejenis labu yang biasa dilubangi membentuk mata dan mulut, dengan lilin menyala di dalamnya.",
+          "quote": "Também no Minho, \"cuca\" é o nome popular de uma espécie de abóbora que costumava-se perfurar com contornos de olhos e boca, e dentro da qual era colocada uma vela acesa",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c06",
+          "source_id": "cuca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Another possible origin is the \"Farricoco\", a character who accompanied the Passos procession in the Algarve, also in Portugal.",
+          "statement_id": "Asal lain yang mungkin adalah \"Farricoco\", tokoh yang menyertai prosesi Passos di Algarve, juga di Portugal.",
+          "quote": "Outra origem possível seria o “Farricoco”, personagem que acompanhava a procissão de Passos, no Algarve, também em Portugal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c07",
+          "source_id": "cuca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "There are also versions in which more than one cuca may exist, as a kind of subclass of the bicho-papão, as described in the book \"O Saci\" (1921) by Monteiro Lobato.",
+          "statement_id": "Ada pula versi yang mengenal lebih dari satu cuca, seolah subkelas bicho-papão, seperti dalam buku \"O Saci\" (1921) karya Monteiro Lobato.",
+          "quote": "como também existem versões em que pode se existir mais de uma cuca, como se fosse uma subclasse de bicho-papão, como é descrito no livro “O Saci” (1921), de Monteiro Lobato.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c08",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "She is described as a witch who kidnaps children and can take the form of an old woman or of a witch with an alligator head.",
+          "statement_id": "Ia digambarkan sebagai penyihir yang menculik anak-anak dan dapat berwujud perempuan tua atau penyihir berkepala aligator.",
+          "quote": "Elle est décrite comme une sorcière qui kidnappe les enfants et qui peut prendre la forme d'une vieille femme ou d'une sorcière à tête d'alligator.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c09",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "This legend derives from that of the Coca (or Coco) of Iberian folklore, a tradition that was probably introduced into Brazil at the time of colonisation.",
+          "statement_id": "Legenda ini diturunkan dari legenda Coca (atau Coco) dalam cerita rakyat Iberia, tradisi yang diduga masuk ke Brasil pada masa kolonisasi.",
+          "quote": "Cette légende dérive de celle de la Coca (ou Coco) du folklore ibérique, une tradition qui a vraisemblablement été introduite au Brésil au moment de la colonisation.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c10",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "According to some traditions, a new Cuca emerges from an egg every 1,000 years; the previous Cuca then turns into a bird with a sad song, while the new one takes up her role, causing more harm than the previous one.",
+          "statement_id": "Menurut sebagian tradisi, Cuca baru muncul dari sebuah telur setiap 1.000 tahun; Cuca sebelumnya berubah menjadi burung berkicau sedih, sedangkan yang baru menjalankan perannya dan menimbulkan lebih banyak kerugian.",
+          "quote": "Ainsi, selon certaines de ces traditions, une nouvelle Cuca émergerait d'un œuf tous les 1 000 ans. La précédente Cuca se transformerait alors en un oiseau au chant triste, tandis que la nouvelle remplirait son rôle, occasionnant plus de mal que la précédente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c11",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "In Monteiro Lobato's book \"O Saci\" (1921), the Cuca is described as a \"horrible witch\" with very fine hearing, \"as old as time\", living in a cave in the forest and sleeping only one night every seven years; it is the only work by the writer in which she appears.",
+          "statement_id": "Dalam buku \"O Saci\" (1921) karya Monteiro Lobato, Cuca digambarkan sebagai \"penyihir mengerikan\" berpendengaran sangat tajam, \"setua waktu\", tinggal di gua di hutan dan hanya tidur satu malam setiap tujuh tahun; itu satu-satunya karya Lobato tempat ia muncul.",
+          "quote": "Au Brésil, la Cuca a été popularisée par le livre \"O Saci\" (1921), de Monteiro Lobato. C'est par ailleurs la seule œuvre de l'écrivain dans laquelle elle apparaît. Elle y est décrite comme une \"horrible sorcière\", dotée d'une ouïe très fine, \"vieille comme le temps\", vivant dans une grotte dans la forêt et ne dormant qu'une nuit tous les sept ans.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c12",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "According to the book, the Cuca has \"a face like an alligator and claws on her fingers like hawks\".",
+          "statement_id": "Menurut buku itu, Cuca memiliki \"wajah seperti aligator dan cakar di jari-jarinya seperti elang\".",
+          "quote": "Selon le livre, la Cuca a « un visage comme un alligator et des griffes sur ses doigts comme les faucons ».",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c13",
+          "source_id": "cuca-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "In the two series adapted from Monteiro Lobato's work produced by Rede Globo, five different costumes were used for the Cuca.",
+          "statement_id": "Dalam dua serial adaptasi karya Monteiro Lobato yang diproduksi Rede Globo, lima kostum berbeda dipakai untuk Cuca.",
+          "quote": "Dans les deux séries adaptatées de l'œuvre de Monteiro Lobato produites par Rede Globo, cinq costumes différents ont été utilisés pour la Cuca.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cuca-c14",
+          "source_id": "cuca-s3",
+          "host": "www.todamateria.com.br",
+          "statement": "Legend has it (\"Reza a lenda\") that the bruxa (witch) Cuca dorme (sleeps) uma vez a cada sete anos (once every seven years).",
+          "statement_id": "Menurut legenda (\"Reza a lenda\"), bruxa (penyihir) Cuca dorme (tidur) uma vez a cada sete anos (sekali setiap tujuh tahun).",
+          "quote": "Reza a lenda que a bruxa Cuca dorme uma vez a cada sete anos.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cuyancua",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "3910599ed3933fa215edafdc14af5379d880f45bc231d0a49a4060521b3357c7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cuyancua-c01",
@@ -406,26 +978,141 @@
           "quote": "se escuchaba una especie de graznido o chillido tenebroso, seguido de fuertes turbulencias bajo la tierra, este fenómeno se le atribuía a la Cuyancúa",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cuyancua-c04",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to oral tradition, it is a large mythical being of strange appearance, the lower half of its body shaped like a snake and the upper half like a pig.",
+          "statement_id": "Menurut tradisi lisan, ia makhluk mitis berukuran besar dan berpenampilan aneh; separuh bawah tubuhnya berbentuk ular dan separuh atasnya berbentuk babi.",
+          "quote": "Según la tradición oral, es un ser mítico de gran tamaño y apariencia extraña, la mitad inferior de su cuerpo tiene forma de serpiente y la mitad superior tiene forma de cerdo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c05",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "This being announces the coming of rain, and according to testimonies not just one cuyancúa appears but sometimes several do so in a group.",
+          "statement_id": "Makhluk ini mengumumkan datangnya hujan, dan menurut kesaksian, yang muncul tidak hanya satu cuyancúa tetapi kadang berkelompok.",
+          "quote": "Este ser anuncia la llegada de la lluvia y según los testimonios, no solo aparece una cuyancúa sino a veces lo hacen en grupo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c06",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "This sound was heard mainly around rivers and streams, where the Cuyancúa crawled looking for food.",
+          "statement_id": "Bunyi itu terutama terdengar di sekitar sungai dan anak sungai, tempat Cuyancúa merayap mencari makanan.",
+          "quote": "Este sonido se escuchaba principalmente en los alrededores de los ríos y quebradas, donde la Cuyancúa se arrastraba buscando alimento.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c07",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "People who stayed up late claim to have seen it face to face; they say the shock of seeing the Cuyancúa can cause fainting and loss of speech for a time.",
+          "statement_id": "Orang yang begadang mengaku pernah melihatnya langsung; dikatakan melihat Cuyancúa dapat menyebabkan pingsan dan kehilangan suara untuk sementara.",
+          "quote": "Personas que trasnochaban aseguran haberla visto de frente, comentan que el impacto de ver a la Cuyancúa puede provocar desmayos y la pérdida del habla por algún tiempo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c08",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It is said that on seeing or hearing the Cuyancúa the best course is to adopt a peaceful attitude, close one's eyes and commend oneself to God.",
+          "statement_id": "Konon bila melihat atau mendengar Cuyancúa, sebaiknya bersikap tenang, memejamkan mata, dan menyerahkan diri kepada Tuhan.",
+          "quote": "Se dice que al ver o escuchar a la Cuyancúa lo mejor es adoptar una actitud pacífica, cerrar los ojos y encomendarse a Dios.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c09",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The legend also says that where the Cuyancúa digs to lie down, springs form from which clean, fresh water gushes.",
+          "statement_id": "Legenda juga mengisahkan bahwa di tempat Cuyancúa menggali untuk berbaring terbentuk mata air yang memancarkan air bersih dan segar.",
+          "quote": "la leyenda narra también, que donde la Cuyancúa escarba para echarse se forman nacimientos donde brota un agua limpia y fresca",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c10",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "For anyone daring to look for it, the Cuyancúa is said to still hide in the surroundings of the Atecozol spa.",
+          "statement_id": "Bagi yang berani mencarinya, konon Cuyancúa masih bersembunyi di sekitar balneario (pemandian) Atecozol.",
+          "quote": "Para quien se anime a buscarla, se dice que la Cuyancúa aún se esconde en los alrededores del balneario Atecozol.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c11",
+          "source_id": "cuyancua-s1",
+          "host": "es.wikipedia.org",
+          "statement": "At the Atecozol Tourist Centre in Sonsonate a stone image of this mythical being can be found.",
+          "statement_id": "Di Pusat Wisata Atecozol di Sonsonate terdapat patung batu makhluk mitis ini.",
+          "quote": "En el Centro Turístico Atecozol, en Sonsonate, se puede encontrar una imagen en piedra de este ser mítico.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c12",
+          "source_id": "cuyancua-s2",
+          "host": "camjol.info",
+          "statement": "According to this journal article, the Cuyancúa is one of the mythological beings that announce the season of the earth's \"pregnancy\" and is, for the people of Izalco, their cultural heritage, also associated with the natural.",
+          "statement_id": "Menurut artikel jurnal ini, Cuyancúa adalah salah satu makhluk mitologis yang mengumumkan musim \"kehamilan bumi\" dan bagi warga Izalco merupakan warisan budaya mereka, yang juga terkait dengan alam.",
+          "quote": "uno de los seres mitológicos que anuncian la época de preñez de la tierra es la Cuyancúa, que es para los izalqueños su patrimonio cultural, asociado también al natural",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c13",
+          "source_id": "cuyancua-s2",
+          "host": "camjol.info",
+          "statement": "A respondent quoted in the article recounts that when it was raining very hard and the Cuyancúa's shriek was heard, it meant a storm was coming.",
+          "statement_id": "Seorang narasumber dalam artikel itu mengisahkan bahwa ketika hujan sangat deras dan terdengar jeritan Cuyancúa, itu pertanda akan datang badai.",
+          "quote": "cuando estaba lloviendo bastante fuerte y se escuchaba el chillido de la Cuyancúa, que era porque iba a ver temporal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c14",
+          "source_id": "cuyancua-s2",
+          "host": "camjol.info",
+          "statement": "The article stresses that the Cuyancúa is the nahual of the Izalcos within their Nahua-Pipil mythology.",
+          "statement_id": "Artikel itu menegaskan bahwa Cuyancúa adalah nahual orang Izalco dalam mitologi Nahua-Pipil mereka.",
+          "quote": "Es importante recalcar que la Cuyancúa es el nahual de los Izalcos, dentro de su mitología nahua pipil",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cuyancua-c15",
+          "source_id": "cuyancua-s2",
+          "host": "camjol.info",
+          "statement": "According to the article, the Cuyancúa and the Xipetotec both announce the start of the dry season, when food is scarcer, and the arrival of the rainy season that signals the earth's \"pregnancy\" and hence abundant food.",
+          "statement_id": "Menurut artikel itu, Cuyancúa dan Xipetotec sama-sama mengumumkan awal musim kering, ketika makanan lebih langka, dan datangnya musim hujan yang menandakan \"kehamilan bumi\" sehingga makanan berlimpah.",
+          "quote": "Ambos la Cuyancúa y el Xipetotec, son los que anuncian el inicio de la época seca, en donde el alimento es más escaso, y la llegada del invierno que anuncia la preñez de la tierra, y por ende la abundancia del alimento.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dewey-lake-monster",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "1aa2b2760f61513deefbc835f26303d49996021bc2ab6e835109de4cb34c2f17",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dewey-lake-monster-c01",
@@ -456,26 +1143,101 @@
           "quote": "In June 1964, the story gained national attention after local residents reported seeing a large, hairy creature with glowing eyes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c04",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was allegedly sighted in the summer of 1964 near Dewey Lake and Sister Lakes in Dowagiac.",
+          "statement_id": "Makhluk ini konon terlihat pada musim panas 1964 di dekat Dewey Lake dan Sister Lakes di Dowagiac.",
+          "quote": "that was allegedly sighted in the summer of 1964 near Dewey Lake and Sister Lakes in Dowagiac.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c05",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Police searched the area of the sightings and found nothing, but the reports caused thrill-seekers and monster hunters to besiege the community that summer.",
+          "statement_id": "Polisi menyisir daerah penampakan dan tidak menemukan apa pun, tetapi laporan itu membuat para pencari sensasi dan pemburu monster mengepung komunitas tersebut pada musim panas itu.",
+          "quote": "Police searched the area of the alleged sightings and found nothing. Nevertheless, the reports caused curious thrill-seekers and monster hunters to besiege the community that summer.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c06",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Local businesspeople profited from the excitement, selling \"monster getaway gas\", \"monster burgers\" and \"monster hunting kits\" that held a net, a flashlight, a squirt gun, a mallet and a stake.",
+          "statement_id": "Pengusaha setempat memanfaatkan peristiwa itu dengan menjual \"monster getaway gas\", \"monster burgers\", dan \"monster hunting kits\" berisi jaring, senter, pistol air, palu, dan pasak.",
+          "quote": "Local entrepreneurs capitalized on the event by selling \"monster getaway gas\", \"monster burgers\", and \"monster hunting kits\" — with a net, flashlight, squirt gun, a mallet, and a stake.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c07",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Newspapers in Chicago began dubbing Sister Lakes \"Monster Town USA\" and caricaturing small-town stereotypes.",
+          "statement_id": "Surat kabar di Chicago mulai menjuluki Sister Lakes \"Monster Town USA\" dan sekaligus mengkarikaturkan stereotip kota kecil.",
+          "quote": "Newspapers in Chicago began dubbing Sister Lakes \"Monster Town USA\", as well as caricaturing small town stereotypes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c08",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several zoologists suggested people may have misidentified a bear or gorilla, while Cass County Sheriff Robert Dool and conservation officer William Rowe dismissed speculation of a monster.",
+          "statement_id": "Beberapa ahli zoologi menduga orang keliru mengenali beruang atau gorila, sedangkan Sheriff Cass County Robert Dool dan petugas konservasi William Rowe menepis dugaan adanya monster.",
+          "quote": "Several zoologists suggested that people may have misidentified a bear or gorilla. Cass County Sheriff Robert Dool and conservation officer William Rowe dismissed speculations of a monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c09",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Within a week the hysteria diminished, and the South Bend Tribune reported that \"nobody seems frightened anymore\".",
+          "statement_id": "Dalam seminggu kehebohan mereda, dan South Bend Tribune melaporkan bahwa \"nobody seems frightened anymore\".",
+          "quote": "Within a week, the hysteria diminished, and the South Bend Tribune reported that \"nobody seems frightened anymore\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c10",
+          "source_id": "dewey-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a 1983 retrospective, the South Bend Tribune suggested that the monster was imagined by intoxicated strawberry pickers.",
+          "statement_id": "Dalam tinjauan tahun 1983, South Bend Tribune menyatakan bahwa monster itu dibayangkan oleh para pemetik stroberi yang mabuk.",
+          "quote": "In a 1983 retrospective, the South Bend Tribune suggested that the monster was imagined by intoxicated strawberry pickers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dewey-lake-monster-c11",
+          "source_id": "dewey-lake-monster-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Dowagiac gained national attention in June 1964 after police began investigating multiple reports of what became known as the Dewey Lake Monster.",
+          "statement_id": "Dowagiac menarik perhatian nasional pada Juni 1964 setelah polisi mulai menyelidiki banyak laporan tentang apa yang kemudian dikenal sebagai Dewey Lake Monster.",
+          "quote": "Dowagiac gained national attention in June 1964 after police began investigating multiple reports of what became known as the Dewey Lake Monster.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dungarvon-whooper",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "0eed22776c853191d099f15c91d06f4e08eed6deb75ae4291ea0bac4f3b648a7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dungarvon-whooper-c01",
@@ -506,26 +1268,151 @@
           "quote": "The Dungarvon Whooper's physical description is usually that of an invisible ghost, but it is also sometimes said to resemble a wildcat or puma-like creature",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c04",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While the lumberjacks are away, the cook is left alone with the camp boss, who decides to murder and rob him.",
+          "statement_id": "Saat para penebang kayu pergi, sang juru masak ditinggal berdua dengan bos kamp, yang memutuskan membunuh dan merampoknya.",
+          "quote": "While the lumberjacks are out, the cook is left alone with the boss of the camp, who decides to murder and rob the young cook.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c05",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "That night a terrible \"whooping\" sound keeps the group awake, presumably the ghost of Ryan crying out against the crime he suffered; the men flee the camp, and finally a priest arrives and his prayers bring peace to the haunting spirit.",
+          "statement_id": "Malam itu suara \"whooping\" yang mengerikan membuat rombongan tak bisa tidur, diduga hantu Ryan yang menjerit menentang kejahatan yang menimpanya; para lelaki melarikan diri, dan akhirnya seorang pastor datang dan doanya menenangkan arwah itu.",
+          "quote": "However, a terrible \"whooping\" sound keeps the group from falling asleep that night, presumably the ghost of Ryan crying out against the crime of which he was the victim. Scared, the men flee the camp. Finally a priest arrives, and his prayers bring peace to the haunting spirit of the dead man",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c06",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In most versions the cook is regarded as an Irishman and later tellings give him the name Ryan or Ryan Garvon.",
+          "statement_id": "Dalam kebanyakan versi, sang juru masak dianggap orang Irlandia, dan penuturan belakangan memberinya nama Ryan atau Ryan Garvon.",
+          "quote": "In most versions, the cook is regarded to be an Irishman, and is assigned the name of Ryan or Ryan Garvon by later tellings of the tale.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c07",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The murder and haunting are purported to have taken place around 1850–1875, a period of mass migration from Ireland to Canada following the Great Famine.",
+          "statement_id": "Pembunuhan dan penghantuan itu konon terjadi sekitar 1850–1875, masa migrasi besar-besaran dari Irlandia ke Kanada setelah Kelaparan Besar.",
+          "quote": "The murder and haunting is purported to have taken place around 1850–1875, a period of mass migration from Ireland to Canada, following the Great Famine.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c08",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has been commented that the \"whooping\" call heard might actually have come from a screech owl or a panther.",
+          "statement_id": "Ada komentar bahwa panggilan \"whooping\" itu mungkin sebenarnya berasal dari burung hantu screech owl atau panther.",
+          "quote": "It has been commented that the \"whooping\" call heard might have actually come from a screech owl or a panther.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c09",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While the exact origin of the story is unknown, the best-known version comes from a song published in a local newspaper by Michael Whelan in 1912.",
+          "statement_id": "Asal-usul pastinya tidak diketahui, tetapi versi paling terkenal berasal dari lagu karya Michael Whelan yang dimuat di surat kabar lokal pada 1912.",
+          "quote": "While the exact origin of the story is unknown, the best-known version comes from a song published in a local newspaper by Michael Whelan in 1912.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c10",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Maine storyteller Leroy Dudley tells a version in which the Dungarvon Whooper contests the Native American spirit Pamola for hegemony over Katahdin, the tallest mountain in Maine.",
+          "statement_id": "Penutur cerita dari Maine, Leroy Dudley, menuturkan versi tempat Dungarvon Whooper memperebutkan kekuasaan atas Katahdin, gunung tertinggi di negara bagian Maine, dengan roh pribumi Amerika Pamola.",
+          "quote": "Leroy Dudley, a storyteller from Maine (which borders New Brunswick) tells a version where the Dungarvon Whooper contests the Native American spirit Pamola over hegemony of the Katahdin, the tallest mountain in the state of Maine.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c11",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first issue of the Dark Horse comic series \"Blue Book: 1947\" includes a back-up segment called \"True Weird\" that features an adaptation of the Dungarvon Whooper.",
+          "statement_id": "Edisi pertama seri komik Dark Horse \"Blue Book: 1947\" memuat segmen tambahan \"True Weird\" yang menampilkan adaptasi Dungarvon Whooper.",
+          "quote": "The first issue of the Dark Horse comic series, \"Blue Book: 1947\", includes a back-up segment called \"True Weird\", which features an adaptation of the Dungarvon Whooper.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c16",
+          "source_id": "dungarvon-whooper-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story concerns an alleged murder along the Dungarvon River in central New Brunswick, Canada, in the mid to late 19th century.",
+          "statement_id": "Kisah ini tentang dugaan pembunuhan di tepi Sungai Dungarvon di tengah New Brunswick, Kanada, pada pertengahan hingga akhir abad ke-19.",
+          "quote": "about the alleged murder along the Dungarvon River in central New Brunswick, Canada, in the mid to late 19th century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c12",
+          "source_id": "dungarvon-whooper-s2",
+          "host": "americanfolklore.net",
+          "statement": "In this retelling, an Irish lumberjack named Ryan coveted the cook's money and concocted a plan to get it.",
+          "statement_id": "Dalam penceritaan ulang ini, seorang penebang kayu Irlandia bernama Ryan mengincar uang sang juru masak dan menyusun rencana untuk mendapatkannya.",
+          "quote": "Now an Irish lumberjack named Ryan coveted the cook's money and concocted a plan to get it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c13",
+          "source_id": "dungarvon-whooper-s2",
+          "host": "americanfolklore.net",
+          "statement": "Deep in the woods, Ryan turned his rifle on the cook and shot him dead.",
+          "statement_id": "Di dalam hutan yang dalam, Ryan mengarahkan senapannya ke sang juru masak dan menembaknya mati.",
+          "quote": "When they were deep in the woods, Ryan turned his rifle on the cook and shot him dead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c14",
+          "source_id": "dungarvon-whooper-s2",
+          "host": "americanfolklore.net",
+          "statement": "At dusk every evening for several weeks the cook's ghost shrieked out his terror and rage over his murder; all activity in the camp stopped at the first sound of the \"Dungarvon Whooper\", as the ghost came to be called.",
+          "statement_id": "Setiap senja selama beberapa minggu, hantu sang juru masak menjerit karena ketakutan dan amarah atas pembunuhannya; kegiatan di kamp berhenti begitu terdengar bunyi \"Dungarvon Whooper\", nama yang kemudian diberikan kepada hantu itu.",
+          "quote": "At dusk every evening for several weeks, the ghost of the cook shrieked out his terror and rage over his murder. All action in the logging camp ceased at the first sound of the \"Dungarvon Whooper,\" as the ghost came to be called",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungarvon-whooper-c15",
+          "source_id": "dungarvon-whooper-s2",
+          "host": "americanfolklore.net",
+          "statement": "In this retelling the priest prayed over the area and tried to exorcise the spirit with bell, book and candle, but the ghost was too strong and he left in defeat.",
+          "statement_id": "Menurut penceritaan ulang ini, sang pastor berdoa di daerah itu dan mencoba mengusir arwah dengan lonceng, kitab, dan lilin, tetapi hantu itu terlalu kuat dan ia pergi dalam kekalahan.",
+          "quote": "The holy man prayed over the area and tried to exorcise the spirit with bell, book, and candle, but the ghost was too strong for him, and he left in defeat.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ewiger-jager",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "56856eb02c1a9045d65902b73f6f1d4aadce9de9224cc25e74436601bd33f237",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 22,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ewiger-jager-c01",
@@ -533,9 +1420,9 @@
           "host": "en.wikipedia.org",
           "statement": "The ewiger Jäger is a local variant of the ghostly wild huntsman.",
           "statement_id": "Ewiger Jäger adalah varian lokal dari hantu pemburu liar dalam cerita rakyat Jerman.",
-          "quote": "The ewiger Jäger (eternal hunter; der ewige Jäger; German: [ˈeːvɪɡɐ ˈjɛːɡɐ, deːɐ̯ ˈeːvɪɡə ˈjɛːɡɐ]) is a local variant of the ghostly wild huntsman",
+          "quote": "The ewiger Jäger (eternal hunter; der ewige Jäger; German: ... is a local variant of the ghostly wild huntsman",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "ewiger-jager-c02",
@@ -556,26 +1443,211 @@
           "quote": "Der Ewich Yeeger iss en geischtiches Wese, wu uff em Blobarrickgrat im Pennsilfaani wuhnt.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c22",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ewiger Jäger is found in German, Belgian and American folklore.",
+          "statement_id": "Ewiger Jäger ditemukan dalam cerita rakyat Jerman, Belgia, dan Amerika.",
+          "quote": "found in German, Belgian, and American folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c04",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ludwig Bechstein told the same legend with extra detail: according to him the ewiger Jäger appears as a gnarled little man dressed in green.",
+          "statement_id": "Ludwig Bechstein menceritakan legenda yang sama dengan detail tambahan: menurutnya ewiger Jäger tampil sebagai lelaki kecil berbuku-buku yang berpakaian hijau.",
+          "quote": "Ludwig Bechstein told the same legend and gave additional detail. According to him, the ewiger Jäger appears as a gnarled little man dressed in green.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c05",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Bechstein's version he was punished with an eternal hunt for hunting on a Sunday, breaking Sunday rest.",
+          "statement_id": "Menurut versi Bechstein, ia dihukum berburu abadi karena berburu pada hari Minggu dan melanggar istirahat hari Minggu.",
+          "quote": "He was punished with eternal hunt for going for a hunt on a Sunday, breaking Sunday rest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c06",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other names for the eternal hunter are Ruprecht, Hans and Riesenjäger.",
+          "statement_id": "Nama lain bagi pemburu abadi ini adalah Ruprecht, Hans, dan Riesenjäger.",
+          "quote": "Other names for the eternal hunter are Ruprecht, Hans, and Riesenjäger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c07",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bechstein also told a legend from Belgium about the eternal hunter: near Wijnendale Castle in Flanders lived a pious, hardworking farmer with an only son.",
+          "statement_id": "Bechstein juga menceritakan legenda dari Belgia tentang pemburu abadi: di dekat Kastil Wijnendale di Flanders tinggal seorang petani saleh dan pekerja keras yang memiliki satu putra.",
+          "quote": "Bechstein also told a legend from Belgium about the eternal hunter. Near Wijnendale Castle in Flanders, there dwelled a pious and hardworking farmer who had an only son.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c08",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cursed son never returned home and was heard in the woods shouting \"Jakko! Jakko! Jakko!\", screeching like a bird of prey or barking like a dog, doomed to go on until Judgement Day or longer.",
+          "statement_id": "Putra yang dikutuk itu tak pernah pulang dan terdengar di hutan berteriak \"Jakko! Jakko! Jakko!\", menjerit seperti burung pemangsa atau menggonggong seperti anjing, ditakdirkan terus hingga Hari Penghakiman atau lebih lama.",
+          "quote": "Afterward, the cursed son never returned home and was heard in the woods shouting \"Jakko! Jakko! Jakko!\", screeching like a bird of prey or barking like a dog, doomed to continue until Judgement Day or longer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c09",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the United States the ewiger Jäger was introduced by German immigrants in Pennsylvania who were later called Pennsylvania Dutch.",
+          "statement_id": "Di Amerika Serikat, ewiger Jäger dibawa oleh para imigran Jerman di Pennsylvania yang kemudian disebut Pennsylvania Dutch.",
+          "quote": "In the United States, the ewiger Jäger was introduced by German immigrants in Pennsylvania who later were called Pennsylvania Dutch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c10",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Pine Grove, Blue Mountain is believed to be haunted by Dar Ewich Jaejer or Ewige Jaeger; when a phantom pack of hounds is heard on a quiet fall hunting-season night, people look to the sky and say the eternal hunter is riding.",
+          "statement_id": "Di Pine Grove, Blue Mountain dipercaya dihantui Dar Ewich Jaejer atau Ewige Jaeger; ketika segerombolan anjing hantu terdengar pada malam sunyi musim berburu musim gugur, orang menengok ke langit dan berkata bahwa pemburu abadi sedang berkuda.",
+          "quote": "In Pine Grove, Blue Mountain is believed to be haunted by Dar Ewich Jaejer or Ewige Jaeger. When a phantom pack of hounds is heard on a quiet night in the fall hunting season, people look to the sky and say that the eternal hunter is riding.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c11",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is said to have been a fox hunter who cursed and swore an oath to catch a certain fox, even if he had to chase it into eternity.",
+          "statement_id": "Konon ia dulunya pemburu rubah yang mengumpat dan bersumpah menangkap seekor rubah tertentu, meski harus mengejarnya sampai keabadian.",
+          "quote": "He is said to have been a fox hunter who cursed and swore an oath to catch a certain fox, even if he had to chase it into eternity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c12",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Canada goose is called Awicher Yager (eternal hunter) because of its sounds: a flock travelling at night can sound like a pack of dogs baying in the sky.",
+          "statement_id": "Angsa Kanada disebut Awicher Yager (pemburu abadi) karena suaranya: kawanan yang terbang pada malam hari dapat terdengar seperti segerombolan anjing yang menyalak di langit.",
+          "quote": "The Canada goose is called Awicher Yager (i.e., eternal hunter) because of its sounds: a flock traveling at night can sound like a pack of dogs baying in the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c13",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Blue Mountain (Blobarrick in Pennsylvania German), the Ewicher Yeeger became known when, after Lynn Township was founded in 1732, a severe drought with crop failure and the disappearance of all game animals struck the area the settlers called Allemaengel.",
+          "statement_id": "Di Blue Mountain (Blobarrick dalam bahasa Jerman Pennsylvania), Ewicher Yeeger menjadi dikenal ketika setelah berdirinya Lynn Township pada 1732, di daerah yang oleh para pemukim disebut Allemaengel, terjadi kekeringan parah disertai gagal panen dan lenyapnya semua hewan buruan.",
+          "quote": "In Blue Mountain (Pennsylvania German Blobarrick), the Ewicher Yeeger became known when, after the foundation of Lynn Township in 1732, in the area called Allemaengel (all deficiencies) by Pennsylvania German settlers, there was a severe drought accompanied by crop failure and the disappearance of all game animals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c14",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The barking and howling pack of the Ewicher Yeeger can be heard while the wild huntsman assures people that Blue Mountain remains bountiful.",
+          "statement_id": "Gonggongan dan lolongan kawanan Ewicher Yeeger dapat terdengar, sementara sang pemburu liar meyakinkan orang bahwa Blue Mountain tetap melimpah.",
+          "quote": "The barking and howling pack of Ewicher Yeeger can be heard while the wild huntsman assures people that Blue Mountain remains bountiful.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c15",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The eternal hunter is said to hunt on South Mountain at night, heard calling his pack of dogs; those who meet him at night are either torn to bits by his dogs or spirited away, never to be seen again.",
+          "statement_id": "Pemburu abadi konon berburu di South Mountain pada malam hari dan terdengar memanggil gerombolan anjingnya; yang bertemu dengannya malam itu akan dicabik anjingnya atau dibawa pergi dan tak pernah terlihat lagi.",
+          "quote": "The eternal hunter is said to hunt on South Mountain at night, where he can be heard calling for his pack of dogs. Those encountering him at night will either be torn to bits by his dogs or spirited away, never to be seen again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c16",
+          "source_id": "ewiger-jager-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Lebanon County der Eewich Yeager is associated with the Cornwall Iron Furnace, and his story is told by George Henry Boker in the poem \"The Legend of the Hounds\"; he is said to have been the furnace's cruel ironmaster in life.",
+          "statement_id": "Di Lebanon County, der Eewich Yeager dikaitkan dengan Cornwall Iron Furnace dan kisahnya dituturkan George Henry Boker dalam puisi \"The Legend of the Hounds\"; konon semasa hidup ia adalah pemilik tungku besi yang kejam.",
+          "quote": "In Lebanon County, der Eewich Yeager is associated with the Cornwall Iron Furnace, and his story is told by George Henry Boker in the poem \"The Legend of the Hounds\". Der Eewich Yeager is said to have been the cruel ironmaster of the furnace in life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c17",
+          "source_id": "ewiger-jager-s2",
+          "host": "pdc.wikipedia.org",
+          "statement": "There are two distinct traditions about the Ewicher Yeeger: the first, widespread, holds that he is an airy ghost; the second holds that he must fulfil a vow.",
+          "statement_id": "Ada dua tradisi yang jelas tentang Ewicher Yeeger: yang pertama, yang tersebar luas, menyatakan ia hantu udara; yang kedua menyatakan ia harus memenuhi sebuah janji.",
+          "quote": "Es gebt zwee deitliche Iwwerlieferinge um Ewicher Yeeger. Die aerscht, wu weitverbreit iss, haldet, as er en lufdicher Geischt iss. Zwetti haldet, as er en Verschpreche erfille muss.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c18",
+          "source_id": "ewiger-jager-s2",
+          "host": "pdc.wikipedia.org",
+          "statement": "All the stories say that Der Ewich Yeeger and his pack of dogs can be heard; although he is a rescuer, he is also dangerous.",
+          "statement_id": "Semua cerita mengatakan Der Ewich Yeeger dan kawanan anjingnya dapat terdengar; walau ia penyelamat, ia juga berbahaya.",
+          "quote": "Alle Gschichte verzehle, as mer nooch Der Ewich Yeeger un sei Hundpack heere kann. Ebwohl Der Ewich Yeeger en Redder iss, iss er aa gfaehrlich.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c19",
+          "source_id": "ewiger-jager-s3",
+          "host": "de.wikisource.org",
+          "statement": "According to the Grimms' Deutsche Sagen, Count Eberhard of Württemberg rode alone into the green forest one day to hunt; suddenly he heard a strong roaring and noise as if a huntsman were passing.",
+          "statement_id": "Menurut Deutsche Sagen Grimm, Graf Eberhard dari Württemberg suatu hari berkuda sendirian ke hutan hijau untuk berburu; tiba-tiba ia mendengar deru dan keributan keras, seakan seorang pemburu lewat.",
+          "quote": "Graf Eberhard von Würtenberg ritt eines Tages allein in den grünen Wald aus und wollte zu seiner Kurzweil jagen. Plötzlich hörte er ein starkes Brausen und Lärmen, wie wenn ein Weidmann vorüber käme",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c20",
+          "source_id": "ewiger-jager-s3",
+          "host": "de.wikisource.org",
+          "statement": "The ghost says he so loved hunting that he begged God to let him hunt until Judgement Day; his wish was granted, and for four and a half centuries he has chased the same stag.",
+          "statement_id": "Sang hantu berkata ia begitu gemar berburu hingga memohon kepada Tuhan agar boleh berburu sampai hari kiamat; permintaannya dikabulkan, dan sudah empat setengah abad ia mengejar rusa jantan yang sama.",
+          "quote": "An dem Jagen hatte ich aber solche Lust, daß ich Gott anflehte, er möge mich jagen lassen, bis zu dem jüngsten Tag. Mein Wunsch wurde leider erhört und schon fünfthalb hundert Jahre jage ich an einem und demselben Hirsch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ewiger-jager-c21",
+          "source_id": "ewiger-jager-s3",
+          "host": "de.wikisource.org",
+          "statement": "When the ghost revealed his face, it was barely fist-sized, withered like a turnip and wrinkled like a sponge.",
+          "statement_id": "Ketika sang hantu menampakkan wajahnya, wajah itu hampir sebesar kepalan tangan, kering seperti lobak dan berkerut seperti spons.",
+          "quote": "Da entblößte sich der Geist, sein Antlitz war kaum faustgroß, verdorrt, wie eine Rübe und gerunzelt, als ein Schwamm.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "galipote",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "c17c04674c864a34bd315fae14aa25eefdeb0a0b877598afd9baf32495570702",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 20,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "galipote-c01",
@@ -606,26 +1678,191 @@
           "quote": "además de gozar de una fuerza atroz e inmunidad contra las armas de fuego.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "galipote-c04",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Originally from San Juan, it probably dates back to between the 17th and 18th centuries.",
+          "statement_id": "Berasal dari San Juan, asal-usulnya mungkin berasal dari antara abad ke-17 dan ke-18.",
+          "quote": "oriundo de San Juan, que probablemente remonta sus orígenes entre los siglos XVII y XVIII.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c05",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "It was said to feed on the blood of innocent children, sucked at night, with which it obtained eternal life.",
+          "statement_id": "Konon ia biasa makan darah anak-anak tak berdosa yang dihisapnya pada malam hari, dan dengannya memperoleh hidup abadi.",
+          "quote": "Se decía que solía alimentarse de la sangre de niños inocentes (que succionaba durante las noches), con la que obtenía la vida eterna",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c06",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The origin of its power is not entirely clear, but most agree it came from a pact with the devil.",
+          "statement_id": "Asal kekuatannya tidak sepenuhnya jelas, tetapi kebanyakan sepakat bahwa itu berasal dari perjanjian dengan setan.",
+          "quote": "El origen de su poder no está del todo claro, sin embargo, la mayoría coincide en que se debía a un pacto con el diablo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c07",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "There is a belief in a galipote able to turn only into a dog, called lugaru, a term that seems to come from French loup-garou, the legendary werewolf.",
+          "statement_id": "Ada kepercayaan tentang galipote yang hanya dapat berubah menjadi anjing, disebut lugaru, istilah yang tampaknya berasal dari bahasa Prancis loup-garou untuk manusia serigala.",
+          "quote": "Existe la creencia de un galipote capaz de convertirse exclusivamente en perro, conocido como lugaru (término que parece provenir del francés loup-garou, denominación empleada para el legendario hombre lobo o licántropo).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c08",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Another subspecies called zángano or zancú is also mentioned, able to take strides as long as the distance between one river and the next and even to become invisible.",
+          "statement_id": "Disebut pula subspesies lain bernama zángano atau zancú, yang mampu melangkah sejauh jarak antara satu sungai dan sungai lain, bahkan bisa menjadi tak terlihat.",
+          "quote": "También se habla de otra subespecie conocida como zángano o zancú, caracterizada por la habilidad de andar dando zancadas (tan largas como la distancia entre un río y otro), capaces incluso de volverse invisibles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c09",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to popular belief, the galipote was vulnerable only to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday.",
+          "statement_id": "Menurut kepercayaan populer, galipote hanya rentan terhadap pasak dari pohon yang disebut palo de cruz, yang harus ditebang khusus pada Jumat Agung.",
+          "quote": "Según la creencia popular, el galipote solamente era vulnerable a una estaca proveniente de un árbol conocido como palo de cruz, que debía ser cortada específicamente el Viernes Santo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c10",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to the legend, they were cruel and violent beings who enjoyed leading night walkers astray and frightening the unwary.",
+          "statement_id": "Menurut legenda, mereka makhluk kejam dan kasar yang gemar menyesatkan pejalan malam dan menakuti orang yang lengah.",
+          "quote": "Según cuenta la leyenda, se trataba de seres crueles y violentos que disfrutaban extraviando a los caminantes nocturnos y espantando a los desprevenidos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c11",
+          "source_id": "galipote-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The legend is so deeply rooted that in some areas walkers do not go out at night without protective amulets or reciting a spell.",
+          "statement_id": "Legenda ini begitu mengakar sehingga di beberapa daerah para pejalan tidak keluar malam tanpa jimat pelindung atau membaca mantra.",
+          "quote": "Tan arraigada está la leyenda que, en algunas zonas del país, los caminantes no salen por la noche sin amuletos protectores o recitar algún conjuro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c12",
+          "source_id": "galipote-s2",
+          "host": "acento.com.do",
+          "statement": "The Diccionario del español dominicano, as cited in this column, defines the galipote as a \"person who, according to popular belief, has the ability to turn into an animal or a tree\".",
+          "statement_id": "Menurut Diccionario del español dominicano yang dikutip kolom ini, galipote adalah \"orang yang menurut kepercayaan populer berkemampuan berubah menjadi hewan atau pohon\".",
+          "quote": "El galipote es una “Persona que, según la creencia popular, tiene la facultad de convertirse en animal o en árbol.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c13",
+          "source_id": "galipote-s2",
+          "host": "acento.com.do",
+          "statement": "According to this column, the word entered Dominican Spanish through Haitian Creole galipòt, galpòt, gayipòt, a mythical animal resembling the lugarú (lougawou).",
+          "statement_id": "Menurut kolom ini, kata itu masuk ke bahasa Spanyol Dominika lewat Kreol Haiti galipòt, galpòt, gayipòt, hewan mitos yang menyerupai lugarú (lougawou).",
+          "quote": "La voz del título entró al español dominicano a través del criollo haitiano, galipòt, galpòt, gayipòt, que es un animal mítico que se asemeja al lugarú (lougawou).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c14",
+          "source_id": "galipote-s2",
+          "host": "acento.com.do",
+          "statement": "The column says the French galipote closest to the Dominican one was known in the Centre-West and Auvergne of France, where the word named a monstrous animal wandering the fields at night.",
+          "statement_id": "Kolom ini menyebut galipote Prancis yang paling dekat dikenal di wilayah Centre-Ouest dan Auvergne, tempat kata itu menamai hewan monster yang berkeliaran malam hari di ladang.",
+          "quote": "El galipote francés más próximo del dominicano es el que se conoció en la región del Centro-Oeste y Auvernia en Francia, en la que se empleaba la voz para designar un animal monstruoso que deambulaba por la noche en los campos.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c15",
+          "source_id": "galipote-s2",
+          "host": "acento.com.do",
+          "statement": "From there the word passed into Dominican Spanish to name a person who makes an evil pact and can turn into an animal or a tree.",
+          "statement_id": "Dari sana kata itu masuk ke bahasa Spanyol Dominika untuk menyebut orang yang membuat perjanjian jahat dan dapat berubah menjadi hewan atau pohon.",
+          "quote": "De aquí pasó al español dominicano para denominar a una persona que hace un pacto maléfico y puede convertirse en animal o árbol.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c16",
+          "source_id": "galipote-s3",
+          "host": "acento.com.do",
+          "statement": "The column quotes a Dominican folklorist: among the most widespread rural beliefs is that some people can turn into animals and inanimate objects; those credited with this power are called \"Galipotes o Dundunes\".",
+          "statement_id": "Kolom ini mengutip folkloris Dominika: salah satu kepercayaan paling meluas di pedesaan adalah bahwa sebagian orang dapat berubah menjadi hewan dan benda mati; mereka yang dianggap berkuasa itu disebut \"Galipotes o Dundunes\".",
+          "quote": "Entre las creencias más extendidas en las zonas rurales dominicanas está la de atribuir a algunas personas la facultad de convertirse en animales y en objetos inanimados; los individuos a quienes se atribuye ese poder sobrenatural son llamados “Galipotes o Dundunes”.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c17",
+          "source_id": "galipote-s3",
+          "host": "acento.com.do",
+          "statement": "The stories are heard in all regions of the country, more often in the South and near the Haitian border; few present Galipotes as interested in causing physical harm.",
+          "statement_id": "Cerita-cerita itu terdengar di seluruh negeri, lebih sering di Selatan dan dekat perbatasan Haiti; hanya sedikit yang menampilkan Galipote ingin mencelakai secara fisik.",
+          "quote": "Tales historias, que se escuchan en todas las regiones del país, son más frecuentes en el Sur y en las poblaciones cercanas a la frontera con Haití. Son pocas las historias en las que se presentan a los Galipotes como seres interesados en provocar daños físicos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c18",
+          "source_id": "galipote-s3",
+          "host": "acento.com.do",
+          "statement": "More numerous are stories in which they play mischievous tricks, such as blocking night walkers and confusing their way.",
+          "statement_id": "Lebih banyak cerita yang menampilkan Galipote berbuat jahil, seperti menghalangi pejalan malam dan mengacaukan jalan mereka.",
+          "quote": "Abundan más aquellas en las que aparecen haciendo bellaquerías, como impedir el paso a los caminantes nocturnos y confundirles los caminos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c19",
+          "source_id": "galipote-s3",
+          "host": "acento.com.do",
+          "statement": "It is also told that Galipotes, mostly men, turn into animals and inanimate objects that guard their property.",
+          "statement_id": "Diceritakan pula bahwa para Galipote, kebanyakan laki-laki, berubah menjadi hewan dan benda mati yang menjaga harta milik mereka.",
+          "quote": "También se cuenta que los Galipotes, hombres, la mayoría de ellos, se convierten en animales y objetos inanimados que cuidan sus propiedades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-c20",
+          "source_id": "galipote-s3",
+          "host": "acento.com.do",
+          "statement": "It is believed that people who turn into animals have made pacts with the Devil.",
+          "statement_id": "Menurut kepercayaan, orang yang berubah menjadi hewan telah membuat perjanjian dengan Iblis.",
+          "quote": "Según se cree, las personas que se vuelven animales han hecho pactos con el Diablo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "galipote-mythological-creature",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "9e826e5711b54f613ed420f781bc193fbd4591f896b509f9f2e6fd2e6b4ef91d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 20,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "galipote-mythological-creature-c01",
@@ -656,26 +1893,191 @@
           "quote": "According to legend, they were cruel and violent beings who enjoyed leading night walkers astray and frightening the unwary.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c04",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Originally from San Juan, it probably dates back to the 17th and 18th centuries.",
+          "statement_id": "Berasal dari San Juan, asal-usulnya mungkin berasal dari antara abad ke-17 dan ke-18.",
+          "quote": "originally from San Juan, which probably dates back to the 17th and 18th centuries.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c05",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was said to feed on the blood of innocent children, sucked at night, with which it obtained eternal life.",
+          "statement_id": "Konon ia biasa makan darah anak-anak tak berdosa yang dihisapnya pada malam hari, dan dengannya memperoleh hidup abadi.",
+          "quote": "It was said that he used to feed on the blood of innocent children (which he sucked during the nights), with which he obtained eternal life",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c06",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The origin of its power is not entirely clear, but most agree it came from a pact with the devil.",
+          "statement_id": "Asal kekuatannya tidak sepenuhnya jelas, tetapi kebanyakan sepakat bahwa itu berasal dari perjanjian dengan setan.",
+          "quote": "The origin of his power is not entirely clear, however, most agree that it was due to a pact with the devil",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c07",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is a belief in a galipote able to turn only into a dog, called lugaru, a term that seems to come from French loup-garou, the legendary werewolf.",
+          "statement_id": "Ada kepercayaan tentang galipote yang hanya dapat berubah menjadi anjing, disebut lugaru, istilah yang tampaknya berasal dari bahasa Prancis loup-garou untuk manusia serigala.",
+          "quote": "There is a belief in a galipote capable of turning exclusively into a dog, known as lugaru (a term that seems to come from the French loup-garou, a name used for the legendary werewolf or lycanthrope).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c08",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another subspecies (rendered \"drone\" in this source, or zancú) is also mentioned, able to take strides as long as the distance between one river and the next and even to become invisible.",
+          "statement_id": "Disebut pula subspesies lain (dalam sumber ini disebut \"drone\", atau zancú) yang mampu melangkah sejauh jarak antara satu sungai dan sungai lain, bahkan bisa menjadi tak terlihat.",
+          "quote": "There is also talk of another subspecies known as drone or zancú, characterized by the ability to walk with strides (as long as the distance between one river and another), capable even of becoming invisible.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c09",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to popular belief, the galipote was vulnerable only to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday.",
+          "statement_id": "Menurut kepercayaan populer, galipote hanya rentan terhadap pasak dari pohon yang disebut palo de cruz, yang harus ditebang khusus pada Jumat Agung.",
+          "quote": "According to popular belief, the galipote was only vulnerable to a stake from a tree known as palo de cruz, which had to be cut specifically on Good Friday.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c10",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend is so deeply rooted that in some areas walkers do not go out at night without protective amulets or reciting a spell.",
+          "statement_id": "Legenda ini begitu mengakar sehingga di beberapa daerah para pejalan tidak keluar malam tanpa jimat pelindung atau membaca mantra.",
+          "quote": "The legend is so deep-rooted that, in some areas of the country, walkers do not go out at night without protective amulets or reciting some spell.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c11",
+          "source_id": "galipote-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It also enjoys atrocious strength and immunity against firearms.",
+          "statement_id": "Ia juga memiliki kekuatan dahsyat dan kebal terhadap senjata api.",
+          "quote": "as well as enjoying atrocious strength and immunity against firearms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c12",
+          "source_id": "galipote-mythological-creature-s2",
+          "host": "acento.com.do",
+          "statement": "The Diccionario del español dominicano, as cited in this column, defines the galipote as a \"person who, according to popular belief, has the ability to turn into an animal or a tree\".",
+          "statement_id": "Menurut Diccionario del español dominicano yang dikutip kolom ini, galipote adalah \"orang yang menurut kepercayaan populer berkemampuan berubah menjadi hewan atau pohon\".",
+          "quote": "El galipote es una “Persona que, según la creencia popular, tiene la facultad de convertirse en animal o en árbol.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c13",
+          "source_id": "galipote-mythological-creature-s2",
+          "host": "acento.com.do",
+          "statement": "According to this column, the word entered Dominican Spanish through Haitian Creole galipòt, galpòt, gayipòt, a mythical animal resembling the lugarú (lougawou).",
+          "statement_id": "Menurut kolom ini, kata itu masuk ke bahasa Spanyol Dominika lewat Kreol Haiti galipòt, galpòt, gayipòt, hewan mitos yang menyerupai lugarú (lougawou).",
+          "quote": "La voz del título entró al español dominicano a través del criollo haitiano, galipòt, galpòt, gayipòt, que es un animal mítico que se asemeja al lugarú (lougawou).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c14",
+          "source_id": "galipote-mythological-creature-s2",
+          "host": "acento.com.do",
+          "statement": "The column says the French galipote closest to the Dominican one was known in the Centre-West and Auvergne of France, where the word named a monstrous animal wandering the fields at night.",
+          "statement_id": "Kolom ini menyebut galipote Prancis yang paling dekat dikenal di wilayah Centre-Ouest dan Auvergne, tempat kata itu menamai hewan monster yang berkeliaran malam hari di ladang.",
+          "quote": "El galipote francés más próximo del dominicano es el que se conoció en la región del Centro-Oeste y Auvernia en Francia, en la que se empleaba la voz para designar un animal monstruoso que deambulaba por la noche en los campos.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c15",
+          "source_id": "galipote-mythological-creature-s2",
+          "host": "acento.com.do",
+          "statement": "From there the word passed into Dominican Spanish to name a person who makes an evil pact and can turn into an animal or a tree.",
+          "statement_id": "Dari sana kata itu masuk ke bahasa Spanyol Dominika untuk menyebut orang yang membuat perjanjian jahat dan dapat berubah menjadi hewan atau pohon.",
+          "quote": "De aquí pasó al español dominicano para denominar a una persona que hace un pacto maléfico y puede convertirse en animal o árbol.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c16",
+          "source_id": "galipote-mythological-creature-s3",
+          "host": "acento.com.do",
+          "statement": "The column quotes a Dominican folklorist: among the most widespread rural beliefs is that some people can turn into animals and inanimate objects; those credited with this power are called \"Galipotes o Dundunes\".",
+          "statement_id": "Kolom ini mengutip folkloris Dominika: salah satu kepercayaan paling meluas di pedesaan adalah bahwa sebagian orang dapat berubah menjadi hewan dan benda mati; mereka yang dianggap berkuasa itu disebut \"Galipotes o Dundunes\".",
+          "quote": "Entre las creencias más extendidas en las zonas rurales dominicanas está la de atribuir a algunas personas la facultad de convertirse en animales y en objetos inanimados; los individuos a quienes se atribuye ese poder sobrenatural son llamados “Galipotes o Dundunes”.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c17",
+          "source_id": "galipote-mythological-creature-s3",
+          "host": "acento.com.do",
+          "statement": "The stories are heard in all regions of the country, more often in the South and near the Haitian border; few present Galipotes as interested in causing physical harm.",
+          "statement_id": "Cerita-cerita itu terdengar di seluruh negeri, lebih sering di Selatan dan dekat perbatasan Haiti; hanya sedikit yang menampilkan Galipote ingin mencelakai secara fisik.",
+          "quote": "Tales historias, que se escuchan en todas las regiones del país, son más frecuentes en el Sur y en las poblaciones cercanas a la frontera con Haití. Son pocas las historias en las que se presentan a los Galipotes como seres interesados en provocar daños físicos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c18",
+          "source_id": "galipote-mythological-creature-s3",
+          "host": "acento.com.do",
+          "statement": "More numerous are stories in which they play mischievous tricks, such as blocking night walkers and confusing their way.",
+          "statement_id": "Lebih banyak cerita yang menampilkan Galipote berbuat jahil, seperti menghalangi pejalan malam dan mengacaukan jalan mereka.",
+          "quote": "Abundan más aquellas en las que aparecen haciendo bellaquerías, como impedir el paso a los caminantes nocturnos y confundirles los caminos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c19",
+          "source_id": "galipote-mythological-creature-s3",
+          "host": "acento.com.do",
+          "statement": "It is also told that Galipotes, mostly men, turn into animals and inanimate objects that guard their property.",
+          "statement_id": "Diceritakan pula bahwa para Galipote, kebanyakan laki-laki, berubah menjadi hewan dan benda mati yang menjaga harta milik mereka.",
+          "quote": "También se cuenta que los Galipotes, hombres, la mayoría de ellos, se convierten en animales y objetos inanimados que cuidan sus propiedades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galipote-mythological-creature-c20",
+          "source_id": "galipote-mythological-creature-s3",
+          "host": "acento.com.do",
+          "statement": "It is believed that people who turn into animals have made pacts with the Devil.",
+          "statement_id": "Menurut kepercayaan, orang yang berubah menjadi hewan telah membuat perjanjian dengan Iblis.",
+          "quote": "Según se cree, las personas que se vuelven animales han hecho pactos con el Diablo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gougou",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "ebadecdc1c418f641332ed62884400912759795d5c71caf3b76879acf554d796",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gougou-c01",
@@ -706,26 +2108,101 @@
           "quote": "It was mentioned by Samuel de Champlain when writing about his exploration of the area in 1603.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "gougou-c04",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Champlain records that near the Bay of Chaleurs, towards the south, there is an island where a terrible monster lives that his informants (called \"savages\" in the text) name Gougou and described as having the form of a woman, though very frightful.",
+          "statement_id": "Champlain mencatat bahwa dekat Teluk Chaleurs, ke arah selatan, ada sebuah pulau tempat tinggal monster mengerikan yang disebut Gougou oleh para penutur (disebut \"savages\" dalam teks) dan digambarkan berbentuk perempuan yang sangat menakutkan.",
+          "quote": "near the Bay of Chaleurs, towards the south, there is an island where a terrible monster resides, which the savages call Gougou, and which they told me had the form of a woman, though very frightful",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c05",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Its size is described as so great that the tops of the masts of Champlain's vessel would not reach to its middle.",
+          "statement_id": "Ukurannya digambarkan begitu besar sehingga puncak tiang kapal Champlain tidak akan mencapai pinggangnya.",
+          "quote": "of such a size that they told me the tops of the masts of our vessel would not reach to his middle, so great do they picture him",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c06",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They say it has often devoured and still devours many people; when it can catch them it puts them into a great pocket and then eats them.",
+          "statement_id": "Dikatakan ia sering memangsa dan masih terus memangsa banyak orang; bila dapat menangkap mereka, ia memasukkannya ke kantong besar lalu memakannya.",
+          "quote": "they say that he has often devoured and still continues to devour many savages; these he puts, when he can catch them, into a great pocket, and afterwards eats them",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c07",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Those who escaped the creature's jaws said its pocket was so great it could have held Champlain's vessel; the monster makes horrible noises on the island.",
+          "statement_id": "Mereka yang lolos dari rahang makhluk malang itu mengatakan kantongnya begitu besar hingga dapat memuat kapal Champlain; monster ini membuat bunyi mengerikan di pulau itu.",
+          "quote": "those who had escaped the jaws of this wretched creature said that its pocket was so great that it could have put our vessel into it. This monster makes horrible noises in this island",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c08",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Prevert of St. Malo told Champlain that, while searching for mines, he passed so near the creature's dwelling that he and everyone aboard heard strange hissings from its noise.",
+          "statement_id": "Prevert dari St. Malo menuturkan bahwa saat mencari tambang ia melewati begitu dekat tempat tinggal makhluk itu sehingga ia dan seluruh awak kapalnya mendengar desisan aneh dari suaranya.",
+          "quote": "Even the above-mentioned Prevert from St. Malo told me that, while going in search of mines, as mentioned in the previous chapter, he passed so near the dwelling-place of this frightful creature, that he and all those on board his vessel heard strange hissings from the noise it made",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c09",
+          "source_id": "gougou-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Champlain writes that all the Indigenous people fear it and tell such strange things that it would be regarded as a myth, but he holds that the place is the dwelling of some devil that torments them.",
+          "statement_id": "Champlain menulis bahwa semua penduduk asli takut kepadanya dan menceritakan hal-hal yang begitu aneh hingga dianggap mitos, tetapi ia berpendapat tempat itu adalah kediaman semacam iblis yang menyiksa mereka.",
+          "quote": "What makes me believe what they say is the fact that all the savages in general fear it, and tell such strange things about it that, if I were to record all they say, it would be regarded as a myth; but I hold that this is the dwelling-place of some devil that torments them in the above-mentioned manner.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c10",
+          "source_id": "gougou-s3",
+          "host": "fr.wikipedia.org",
+          "statement": "French Wikipedia calls the Gougou one of the oldest legends of Mi'kmaq origin, about an ogress living on the Miscou plain near the Bay of Chaleurs, south of the Gaspé and on the edge of Acadia, in North America.",
+          "statement_id": "Wikipedia Prancis menyebut Gougou sebagai salah satu legenda tertua asal Mi'kmaq, tentang ogresse yang tinggal di dataran Miscou dekat Teluk Chaleurs, di selatan Gaspésie dan perbatasan Acadie, Amerika Utara.",
+          "quote": "La Gougou (la Roulotte) est l'une des plus vieilles légendes d'origine micmaque racontant la légende d'une ogresse vivant dans la plaine de Miscou près de la baie des Chaleurs, au sud de la Gaspésie et aux confins de l'Acadie, en Amérique du Nord.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gougou-c11",
+          "source_id": "gougou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "William F. Ganong made attempts to uncover the legend when surveying the area in 1903.",
+          "statement_id": "William F. Ganong berusaha menggali legenda ini saat menyurvei daerah itu pada 1903.",
+          "quote": "William F. Ganong made attempts to uncover the legend when surveying the area in 1903.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gualichu",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "4117ba318c0a9cebdcbacbb6d5a9ab97e2b734ddc4cb7c4ecda3fe1282174ca8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gualichu-c01",
@@ -756,26 +2233,61 @@
           "quote": "Gualichu could enter people's body or objects and then an exorcism had to be performed to expel him",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gualichu-c04",
+          "source_id": "gualichu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "By extension the term is used for an evil spell, charm or jinx (\"It has Gualichu\"); in that sense the word became gualicho and survives in the folklore of Chile, Argentina, southern Brazil and Uruguay as a noun and a verb (engualichar, to cast an evil spell on someone or something).",
+          "statement_id": "Secara perluasan, istilah ini dipakai untuk guna-guna atau kutukan (\"It has Gualichu\"); dalam arti itu kata tersebut menjadi gualicho dan masih hidup dalam cerita rakyat Chile, Argentina, selatan Brasil, dan Uruguay sebagai kata benda dan kata kerja (engualichar, menyihir seseorang atau sesuatu).",
+          "quote": "By extension, the term applied to an evil spell or charm, or a jinx (\"It has Gualichu\"). In this sense the word has evolved into gualicho and still survives in the local folklore of Chile, Argentina, south of Brazil and Uruguay, in the form of a noun and a verb (engualichar, to cast an evil spell on somebody or something).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gualichu-c05",
+          "source_id": "gualichu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was a purely spiritual being with no depiction, and was believed to live underground.",
+          "statement_id": "Ia makhluk yang murni rohani dan tidak ada penggambarannya; ia dipercaya tinggal di bawah tanah.",
+          "quote": "He was a purely spiritual being and there is no depiction of him. He was believed to live underground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gualichu-c06",
+          "source_id": "gualichu-s2",
+          "host": "chileprecolombino.cl",
+          "statement": "According to the museum, the Tehuelche believed in evil beings, the Gualichu, who dwelt in the underworld and were always looking for ways to do harm.",
+          "statement_id": "Menurut museum itu, orang Tehuelche percaya akan adanya makhluk-makhluk jahat, para Gualichu, yang berdiam di dunia bawah dan selalu mencari cara untuk mencelakai.",
+          "quote": "The Tehuelche believed in the existence of evil beings, the Gualichu, who dwelt in the underworld and were always looking for ways to do harm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gualichu-c07",
+          "source_id": "gualichu-s2",
+          "host": "chileprecolombino.cl",
+          "statement": "Some stories suggest the Gualichu was actually a single evil being, although this understanding may come from Mapuche influence in the northern reaches of Tehuelche territory.",
+          "statement_id": "Sebagian cerita menyiratkan bahwa Gualichu sebenarnya satu makhluk jahat, meskipun pemahaman itu mungkin berasal dari pengaruh Mapuche di wilayah utara Tehuelche.",
+          "quote": "Some stories suggest that the Gualichu was actually a single evil being, although this understanding may have come from the Mapuche influence in the northern reaches of Tehuelche territory.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "headless-nun",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "ce85667a17264038f288e1663abbcde4d651065ce3c61e3fd073bcdd8bcccaa9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "headless-nun-c01",
@@ -806,26 +2318,121 @@
           "quote": "in one version, a \"mad trapper\" cut off her head and ran into the woods with it.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "headless-nun-c04",
+          "source_id": "headless-nun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version, two sailors cut off her head after she refused to divulge the location of a treasure.",
+          "statement_id": "Dalam versi lain, dua pelaut memenggal kepalanya setelah ia menolak membocorkan lokasi harta karun.",
+          "quote": "In another, two sailors cut off her head after she refused to divulge the location of a treasure.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-nun-c05",
+          "source_id": "headless-nun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story holds that Sister Marie's head was never found, so her spirit forever roams the area searching for it.",
+          "statement_id": "Menurut cerita, kepala Suster Marie tidak pernah ditemukan, sehingga rohnya terus berkeliaran di daerah itu untuk mencarinya.",
+          "quote": "The story holds that Sister Marie's head was never found, resulting in her spirit forever roaming the area in search of it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-nun-c06",
+          "source_id": "headless-nun-s2",
+          "host": "www.cbc.ca",
+          "statement": "In the tour guide's telling, one night around 1758, after helping a woman through a difficult childbirth, Sister Marie Inconnue was returning to the settlement at the cove, then home to a battery of 16 cannons and a small detachment of soldiers.",
+          "statement_id": "Menurut penuturan pemandu wisata, sekitar 1758, setelah menolong seorang perempuan melahirkan dengan sulit, Suster Marie Inconnue pulang ke permukiman di teluk kecil itu, yang saat itu memiliki baterai 16 meriam dan sepasukan kecil tentara.",
+          "quote": "one night, around 1758, after having helped a woman through a difficult childbirth, Sister Marie Inconnue was returning to the settlement at the cove — at the time home to a battery of 16 cannons and a small detachment of soldiers.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250726030719id_/https://www.cbc.ca/life/culture/5-ghost-tour-guides-share-their-favourite-haunting-tales-from-across-canada-1.6630109",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "headless-nun-c07",
+          "source_id": "headless-nun-s2",
+          "host": "www.cbc.ca",
+          "statement": "As she crossed the footbridge over Crow Brook she was attacked. Some say the attackers were a pair of leprous sailors from L'Indienne de Morlaix seeking revenge; others insist it was a mad trapper, wild and desperate from years in the woods.",
+          "statement_id": "Ketika ia menyeberangi jembatan kecil di atas Crow Brook, ia diserang. Ada yang mengatakan pelakunya dua pelaut berkusta dari L'Indienne de Morlaix yang membalas dendam; yang lain berkeras pelakunya seorang penjerat liar yang putus asa setelah bertahun-tahun hidup di hutan.",
+          "quote": "As she crossed the footbridge over Crow Brook, she was set upon. Some say it was a pair of leprous sailors from L'Indienne de Morlaix, out for revenge on those who had imprisoned them. Others insist that it was a mad trapper, wild and desperate from years living in the woods.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250726030719id_/https://www.cbc.ca/life/culture/5-ghost-tour-guides-share-their-favourite-haunting-tales-from-across-canada-1.6630109",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "headless-nun-c08",
+          "source_id": "headless-nun-s2",
+          "host": "www.cbc.ca",
+          "statement": "Whoever he was, he wanted to extort the location of buried treasure from the young nun; Sister Marie adamantly refused and uttered only prayers for the redemption of the poor wretch's soul.",
+          "statement_id": "Siapa pun dia, ia hendak memaksa biarawati muda itu membocorkan lokasi harta terpendam; Suster Marie menolak keras dan hanya mengucapkan doa bagi penebusan jiwa si malang itu.",
+          "quote": "Whoever he was, he was looking to extort the location of a buried treasure from the young nun. Sister Marie adamantly refused to divulge the whereabouts of the treasure, uttering only prayers for the redemption of the poor wretch's soul.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250726030719id_/https://www.cbc.ca/life/culture/5-ghost-tour-guides-share-their-favourite-haunting-tales-from-across-canada-1.6630109",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "headless-nun-c09",
+          "source_id": "headless-nun-s2",
+          "host": "www.cbc.ca",
+          "statement": "In a fit of rage the maniac severed her head with one violent blow; some say he did so to dig into her throat, thinking she had swallowed the map. The head was thrown into the waters of the cove and her body was left on the bridge.",
+          "statement_id": "Dalam amarah, pelaku memenggal kepalanya dengan satu pukulan; ada yang bilang ia melakukannya untuk membongkar kerongkongan karena mengira peta telah ditelan. Kepala dilempar ke perairan teluk kecil dan jasadnya ditinggalkan di jembatan.",
+          "quote": "In a fit of rage, the maniac severed her head with a violent blow. Some say he severed the head so he could dig into her throat, thinking she had swallowed the map as she saw him approach. The head was thrown into the waters of the cove, and her body was left on the bridge.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250726030719id_/https://www.cbc.ca/life/culture/5-ghost-tour-guides-share-their-favourite-haunting-tales-from-across-canada-1.6630109",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "headless-nun-c10",
+          "source_id": "headless-nun-s2",
+          "host": "www.cbc.ca",
+          "statement": "Her body was sent to France for burial but her head was never recovered; since then the ghost of Sister Marie is said to roam the cove, still guarding the treasure and searching for her head.",
+          "statement_id": "Jasadnya dikirim ke Prancis untuk dimakamkan, tetapi kepalanya tak pernah ditemukan; sejak itu hantu Suster Marie konon masih berkeliaran di teluk kecil itu, menjaga harta karun dan mencari kepalanya.",
+          "quote": "Her body was sent to France for burial, but her head was never recovered. Since that day, it is said that the ghost of Sister Marie still roams the cove, still diligently protecting the treasure — and searching for the head that will make her whole again.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250726030719id_/https://www.cbc.ca/life/culture/5-ghost-tour-guides-share-their-favourite-haunting-tales-from-across-canada-1.6630109",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "headless-nun-c11",
+          "source_id": "headless-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Headless Nun Tour is a one-hour guided tour of French Fort Cove after dark, with costumed guides reciting the tale of the supposed headless nun haunting the cove.",
+          "statement_id": "Headless Nun Tour adalah tur berpemandu satu jam di French Fort Cove yang berlangsung setelah gelap, dengan pemandu berkostum menuturkan kisah biarawati tanpa kepala yang dianggap menghantui teluk itu.",
+          "quote": "The Headless Nun Tour is a one-hour guided tour of the French Fort Cove. It takes place after dark and involves costumed tour guides reciting the tale of the supposed headless nun that haunts the cove.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "headless-nun-c12",
+          "source_id": "headless-nun-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The tour was featured on the nationally televised show Creepy Canada.",
+          "statement_id": "Tur itu pernah ditampilkan dalam acara televisi nasional Creepy Canada.",
+          "quote": "The tour was featured on the nationally televised show Creepy Canada.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "huenchula",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "bc49d8172518f8de22cacd2314210623fbd6fb1d536d57bbe91aef687c50a83a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huenchula-c01",
@@ -856,6 +2463,86 @@
           "quote": "fue secuestrada por él y convertida luego en guardiana de la fecundidad del océano.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "huenchula-c04",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "There are several versions of the story that differ in many elements, such as the girl's relationship with her parents, with the fantastic being who took her, or the fate of their baby, but all place the events in the Lake Cucao area.",
+          "statement_id": "Ada beberapa versi cerita yang berbeda dalam banyak unsur, misalnya hubungan gadis itu dengan orang tuanya, hubungannya dengan makhluk gaib yang membawanya, atau nasib bayi mereka, tetapi semuanya menempatkan peristiwa di sekitar danau Cucao.",
+          "quote": "Existen varias versiones de la historia, que difieren en numerosos elementos, tales como la relación que existía entre la muchacha y sus padres, entre ella y el ser fantástico que se la llevó o el destino del bebé que tuvieron, pero todas sitúan los hechos en la zona del lago Cucao",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c05",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "A Huilliche myth about the origin of Lake Cucao recorded in the 18th century is seen as the first version of the tale.",
+          "statement_id": "Mitos Huilliche tentang asal danau Cucao yang dicatat pada abad ke-18 dipandang sebagai versi pertama cerita ini.",
+          "quote": "Un mito huilliche acerca del origen del lago Cucao que fue registrado en el siglo XVIII, es visto como la primera versión de relato.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c06",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to the legend, the Huenchula was a Huilliche girl born of a machi named Huenchur and a woodcutter.",
+          "statement_id": "Menurut legenda, Huenchula adalah gadis Huilliche, anak seorang machi bernama Huenchur dan seorang penebang kayu.",
+          "quote": "De acuerdo a la leyenda, la Huenchula era una joven huilliche nacida de la unión de una machi, llamada Huenchur, y de un leñador.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c07",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Her mother had warned her not to look at herself in the well, since she might not see her reflection but the Millalobo taking on her appearance to watch her unnoticed.",
+          "statement_id": "Ibunya telah memperingatkannya agar tidak bercermin di sumur, sebab yang terlihat mungkin bukan bayangannya, melainkan Millalobo yang menyerupainya untuk mengamatinya tanpa ketahuan.",
+          "quote": "Su madre le había advertido que no debía mirarse en el pozo, pues podía ser que no viera su reflejo, sino que el Millalobo tomara su aspecto para observarla sin ser notado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c08",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "After a year the Huenchula came to her mother's house with a bundle in her arms and greeted her naturally, as if she had never left, saying she had married a fish.",
+          "statement_id": "Setahun kemudian Huenchula datang ke rumah ibunya sambil menggendong bungkusan, menyapanya seolah tak pernah berpisah, dan berkata bahwa ia telah menikah dengan seekor ikan.",
+          "quote": "Al cabo de un año, la Huenchula llegó a la casa de su madre con un bulto en sus brazos y la saludó con naturalidad como si nunca se hubiera separado de ella y diciéndole que se había casado con un pez.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c09",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Her husband, the being known as Millalobo, told her to stop crying because her daughter was not dead, and then a beautiful young woman named Pincoya emerged, the daughter of them both.",
+          "statement_id": "Suaminya, makhluk yang dikenal sebagai Millalobo, menyuruhnya berhenti menangis karena putrinya belum mati; lalu muncul seorang gadis cantik bernama Pincoya, putri mereka berdua.",
+          "quote": "Su esposo, el ser conocido como Millalobo le dijo que dejara de llorar ya que su hija no estaba muerta, y luego de decir esto, emergió una bella joven llamada Pincoya; la cual era la hija de ambos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c10",
+          "source_id": "huenchula-s1",
+          "host": "es.wikipedia.org",
+          "statement": "They all went to live in the palace the Millalobo has at the bottom of the sea; over the years the Huenchula and the Millalobo had two more children, called Pincoy and Sirena.",
+          "statement_id": "Mereka semua pergi tinggal di istana Millalobo di dasar laut; bertahun-tahun kemudian Huenchula dan Millalobo mendapat dua anak lagi bernama Pincoy dan Sirena.",
+          "quote": "así todos se fueron a vivir al palacio que el Millalobo tiene en el fondo del mar. Al pasar los años, la Huenchula y el Millalobo tendrían dos hijos más; llamados Pincoy y Sirena.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huenchula-c11",
+          "source_id": "huenchula-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Millalobo lives at the bottom of the sea with his wife Huenchula and their three children, the Pincoya, the Pincoy and the Sirena Chilota, who help him manage the seas.",
+          "statement_id": "Millalobo tinggal di dasar laut bersama istrinya Huenchula dan ketiga anak mereka, Pincoya, Pincoy, dan Sirena Chilota, yang membantunya mengelola lautan.",
+          "quote": "The Millalobo lives at the bottom of the sea, together with his wife Huenchula and their three children, The Pincoya, The Pincoy and La Sirena Chilota, who help him in his task of managing the seas.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -877,24 +2564,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c4e489bf59022aad1503010ceb535c1f698f6f1383abcacd3d9d063e0cce67b"
     },
     {
       "slug": "idlirvirissong",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "5dc57b1a2a8034c2d158e2cde20893eb72d5d822604c5fc64e60a93801dca5f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "idlirvirissong-c01",
@@ -925,31 +2608,121 @@
           "quote": "Idlirvirissong is said to be the cousin of the spirit of the Sun, to whom she is opposed",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c04",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In most descriptions Idlirvirissong is female, though some give the gender as male.",
+          "statement_id": "Dalam kebanyakan deskripsi Idlirvirissong perempuan, meskipun sebagian menyebutnya laki-laki.",
+          "quote": "In most descriptions, Idlirvirissong is a female, though some give Idlirvirissong's gender as a male.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c05",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Idlirvirissong lives in a house in the sky with her dogs, awaiting the newly deceased; when they arrive she dances, saying \"Qimitiaka nexessaqtaqpaka\" (\"I am looking for food for my dogs\").",
+          "statement_id": "Idlirvirissong tinggal di rumah di langit bersama anjing-anjingnya, menanti kedatangan orang yang baru meninggal; ketika mereka tiba ia menari sambil berkata \"Qimitiaka nexessaqtaqpaka\" (\"Aku mencari makanan untuk anjing-anjingku\").",
+          "quote": "Idlirvirissong lives in a house in the sky with her dogs, where she awaits the arrival of the newly deceased. When the deceased arrive, Idlirvirissong will dance while saying \"Qimitiaka nexessaqtaqpaka\" (\"I am looking for food for my dogs\").",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c06",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those who laugh at Idlirvirissong and her dance have their bodies cut open and their intestines placed on her plate called qengmerping and fed to the dogs; those who do not laugh are spared.",
+          "statement_id": "Mereka yang menertawakan Idlirvirissong dan tariannya akan dibelah tubuhnya, ususnya diletakkan di piring bernama qengmerping dan diberikan kepada anjing; yang tidak tertawa dibiarkan selamat.",
+          "quote": "Those who laugh at Idlirvirissong and her dance will have their bodies cut open, and their intestines placed on a Idlirvirissong's plate called qengmerping and be fed to the dogs. Those who do not laugh are spared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c07",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other parts of Greenland she is known as the Erdlaveersissok, the \"entrail-seizer\"; on Baffin Island a similar figure called Ululiernang or Ululiarnåq is present.",
+          "statement_id": "Di bagian lain Greenland ia dikenal sebagai Erdlaveersissok, \"perebut isi perut\"; di Pulau Baffin terdapat tokoh serupa bernama Ululiernang atau Ululiarnåq.",
+          "quote": "In other parts of Greenland, she is known as the Erdlaveersissok, the \"entrail-seizer.\" In Baffin Island a similar figure known as Ululiernang or Ululiarnåq is present.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c08",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some versions she is instead the cousin of the Moon spirit Aningan; in one version told by the Inuit of Smith Sound, Aningan warns people not to laugh around Idlirvirissong.",
+          "statement_id": "Dalam sebagian versi ia sepupu roh Bulan, Aningan; dalam satu versi yang dituturkan Inuit Smith Sound, Aningan memperingatkan orang agar tidak tertawa di dekat Idlirvirissong.",
+          "quote": "in some versions, she is the cousin of the Moon spirit Aningan instead. In one version recounted by the Inuit of Smith Sound, Aningan warns people not to laugh around Idlirvirissong.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c09",
+          "source_id": "idlirvirissong-s2",
+          "host": "digitallibrary.amnh.org",
+          "statement": "Kroeber (1899) records that besides his wife and sister, Aningan has a female cousin, Irdlirvirisissong, who lives in the sky in a separate house, sometimes visits Aningan, and has her nose turned up on the sides.",
+          "statement_id": "Kroeber (1899) mencatat bahwa selain istri dan saudarinya, Aningan memiliki sepupu perempuan, Irdlirvirisissong, yang tinggal di langit di rumah terpisah, kadang mengunjungi Aningan, dan hidungnya terlipat ke atas di sisi-sisinya.",
+          "quote": "Irdlirvirisissong. She lives in the sky, but in a separate house, and sometimes visits Aningan. Her nose is turned up on the sides.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c10",
+          "source_id": "idlirvirissong-s2",
+          "host": "digitallibrary.amnh.org",
+          "statement": "Kroeber's record says that those who laugh she cuts open and gives their entrails to the dogs, while others are spared.",
+          "statement_id": "Menurut catatan Kroeber, orang yang tertawa dibelahnya dan isi perutnya diberikan kepada anjing, sedangkan yang lain dibiarkan.",
+          "quote": "Those of the people that laugh, she cuts open, and gives their entrails to the dogs. Others are spared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c11",
+          "source_id": "idlirvirissong-s2",
+          "host": "digitallibrary.amnh.org",
+          "statement": "In Greenland she is called Erdlaveersissok (\"the entrail-seizer\"); residing on the way to the moon, she tempts people to laugh by her dancing and grimaces and, if successful, takes out their intestines.",
+          "statement_id": "Di Greenland ia disebut Erdlaveersissok (\"perebut isi perut\"); tinggal di jalan menuju bulan, ia menggoda orang tertawa dengan tarian dan seringai, dan bila berhasil mengeluarkan usus mereka.",
+          "quote": "In Greenland she is called' Erdlaveersissok' ('the entrail-seizer'). Residing on the way to the moon, she tempts people to laugh by her dancing and grimaces, and if successful takes out their intestines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c12",
+          "source_id": "idlirvirissong-s2",
+          "host": "digitallibrary.amnh.org",
+          "statement": "According to Kroeber, on Baffin Land the story is told as in Greenland, except that the woman, there the wife of the moon, is named Ululiernang.",
+          "statement_id": "Menurut Kroeber, di Pulau Baffin kisahnya sama seperti di Greenland, hanya saja perempuan itu, di sana istri bulan, bernama Ululiernang.",
+          "quote": "In Baffin Land the story is told as in Greenland, except that the woman, who is here the wife of the moon, is named Ululiernang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idlirvirissong-c13",
+          "source_id": "idlirvirissong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ululiernang has a hollow back and no entrails, and she offers the entrails she obtains to the moon's ermine.",
+          "statement_id": "Ululiernang berpunggung berongga dan tanpa isi perut, dan ia mempersembahkan isi perut yang diperolehnya kepada cerpelai milik bulan.",
+          "quote": "Ululiernang has a hollow back with her entrails missing, and she offers the entrails she acquired to the moon's ermine.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "iemisch",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-5.md",
+      "entry_sha256": "0944ece497074de60fe7583caa9d5db4de92fe01d13db2216b82cbc6d11ed513",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (iemisch-c03)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "iemisch-c01",
@@ -973,14 +2746,103 @@
         },
         {
           "id": "iemisch-c03",
+          "source_id": "iemisch-s2",
+          "host": "opac.geologie.ac.at",
+          "statement": "Lehmann-Nitsche writes that the word Jemisch, which according to Ameghino the Patagonian natives use for that Neomylodon, most probably means the otter (Lutra felina).",
+          "statement_id": "Lehmann-Nitsche menulis bahwa kata Jemisch, yang menurut Ameghino dipakai penduduk asli Patagonia untuk menyebut Neomylodon, kemungkinan besar berarti berang-berang (Lutra felina).",
+          "quote": "La palabra Jemisch (capítulo 11) con que según el señor Ameghino los indígenas de la Patagonia designan á aquel Neomylodon, significa muy probablemente la lutra (Lutra felina Mol.)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c04",
           "source_id": "iemisch-s1",
           "host": "en.wikipedia.org",
-          "statement": "Described as a mixture of jaguar and otter, reaching the size of an ox.",
-          "statement_id": "Masyarakat menggambarkannya sebagai campuran jaguar dan berang-berang berukuran sebesar lembu.",
-          "quote": "described the iemisch as a mixture of a jaguar and otter, though by some accounts it was as big as an ox.",
+          "statement": "First attested by Florentino Ameghino in 1897; a full study appeared in the 1955 book On the Track of Unknown Animals.",
+          "statement_id": "Pertama dicatat oleh Florentino Ameghino pada 1897; kajian lengkapnya terbit dalam buku On the Track of Unknown Animals tahun 1955.",
+          "quote": "First attested to by Florentino Ameghino in 1897, a full study on the creature was published in the 1955 book On the Track of Unknown Animals.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c05",
+          "source_id": "iemisch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the description in the original letter, it has a short head, big canines and no external ears, short plantigrade feet with three toes on the forefeet and four on the hind ones, webbed for swimming and armed with formidable claws, and a long, flat, prehensile tail.",
+          "statement_id": "Menurut deskripsi dalam surat asli, kepalanya pendek, bertaring besar, tanpa telinga luar, berkaki pendek plantigrad dengan tiga jari depan dan empat belakang berselaput renang dan bercakar kuat, berekor panjang, pipih, dan dapat menggenggam.",
+          "quote": "According to the description I have been given, it has a short head, big canine teeth, and no external ears: its feet are short and plantigrade, with three toes on the forefeet and four on the hind, three toaes are formed by a membrane for swimming, and are also armed with formidable claws. Its tail is long, flat and prehensile.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c06",
+          "source_id": "iemisch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It reportedly could move as quickly on land as in water and was described as having a \"soul-wrenching scream\".",
+          "statement_id": "Konon ia bergerak secepat di darat seperti di air, dan digambarkan memiliki jeritan \"soul-wrenching\".",
+          "quote": "It reportedly could move as quickly on land as in the water, and was described as having a \"soul-wrenching scream\".",
           "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c07",
+          "source_id": "iemisch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Robert Lehmann-Nitsche, a German anthropologist in Argentina, claimed to have a sample of iemisch skin from a local rancher, with small bone plates embedded in it that protected the creature from arrowheads.",
+          "statement_id": "Robert Lehmann-Nitsche, antropolog Jerman di Argentina, mengaku memiliki contoh kulit iemisch dari seorang peternak setempat, dengan keping tulang kecil tertanam di kulit yang melindunginya dari mata panah.",
+          "quote": "Robert Lehmann-Nitsche, a German anthropologist working in Argentina, claimed to have a sample of the iemisch's skin given to him by a local rancher. He stated that there were small bone plates embedded in its skin, which protected the creature from arrowheads.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c08",
+          "source_id": "iemisch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lehmann-Nitsche and Santiago Roth later published more iemisch tales, concluding it must be an unknown type of otter; paleontologist John Bell Hatcher noted that despite spending as much time with Patagonian natives he had never heard of such a creature.",
+          "statement_id": "Lehmann-Nitsche dan Santiago Roth kemudian menerbitkan lebih banyak kisah iemisch dan menyimpulkan bahwa iemisch tentulah sejenis berang-berang yang belum dikenal; paleontolog John Bell Hatcher mencatat bahwa walau lama bersama penduduk asli Patagonia ia tak pernah mendengar makhluk semacam itu.",
+          "quote": "Robert Lehmann-Nitsche and Santiago Roth would eventually publish more iemisch tales, concluding that the iemisch must be an unknown type of otter. Upon peer review, paleontologist John Bell Hatcher noted that though he had spent equal amounts of time with Patagonian natives, he had never heard of such a creature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c09",
+          "source_id": "iemisch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Later scholars also cast doubt on Heuvelmans's research, noting that the word 'Iemisch' is not associated with any language spoken in Patagonia.",
+          "statement_id": "Para sarjana kemudian meragukan penelitian Heuvelmans, mencatat bahwa kata 'Iemisch' tidak dikaitkan dengan bahasa mana pun yang dituturkan di Patagonia.",
+          "quote": "Later scholars also cast doubt on research by Heuvelmans, noting that the word 'Iemisch' isn't associated with any language spoken in Patagonia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c10",
+          "source_id": "iemisch-s2",
+          "host": "opac.geologie.ac.at",
+          "statement": "Lehmann-Nitsche argues that the Indians' myths, legends and tales of a fierce animal mostly may refer to the jaguar (tigre).",
+          "statement_id": "Lehmann-Nitsche berpendapat bahwa mitos, legenda, dan cerita orang Indian tentang hewan buas sebagian besar dapat merujuk pada macan (tigre).",
+          "quote": "Los mitos (capítulo III), leyendas y cuentos de los indios en que se habla de un animal feroz, pueden referirse en su mayoría al tigre",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c11",
+          "source_id": "iemisch-s2",
+          "host": "opac.geologie.ac.at",
+          "statement": "Lehmann-Nitsche lists other spellings of the name from earlier recorders: Chimchimen (de la Cruz and Gay), Jémechim (Lista), Yem'chen (Moreno), Jemisch (Carlos Ameghino) and Hymché (Tournouer).",
+          "statement_id": "Lehmann-Nitsche mendaftar ejaan lain nama ini dari para pencatat sebelumnya: Chimchimen (Febres, de la Cruz dan Gay), Jémechim (Lista), Yem'chen (Moreno), Jemisch (Carlos Ameghino), dan Hymché (Tournouer).",
+          "quote": "« Chimchimen », de la Cruz y Gay. «Jémechim», Lista. « Yem'chen», Moreno. «Jemisch», Carlos Ameghino. « Hymché », Tournouer.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "iemisch-c12",
+          "source_id": "iemisch-s2",
+          "host": "opac.geologie.ac.at",
+          "statement": "Lehmann-Nitsche records that Tournouer claimed to have seen the enigmatic neomylodon living in the water in Patagonia, and his guide called it Hymché.",
+          "statement_id": "Lehmann-Nitsche mencatat bahwa Tournouer mengaku melihat neomylodon yang misterius hidup di air di Patagonia, dan pemandunya menyebutnya Hymché.",
+          "quote": "haber visto en la Patagonia al neomylodon enigmático, vivo en el agua. El guía lo llamó Hymché.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1033,7 +2895,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "85a52742915f899d37aec9164126a91e243bfa37a8fa44e8cd8e77401a6eb2b6"
     },
     {
       "slug": "imbunche",
@@ -1083,7 +2946,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "798c54b5db38c25d7fbe5bd996f1c5b4826e1167d20d3ab6357dff16fc437f42"
     },
     {
       "slug": "joint-snake",
@@ -1133,7 +2997,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8df54a0573d241d94f2aae23ec3674c0f0ba4646ffbe92917c951165d7948f85"
     },
     {
       "slug": "jumbee",
@@ -1183,7 +3048,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b82f96e24119021bb20042112ee269866a3d7dfa5891ad2085d81f300c8dc6be"
     },
     {
       "slug": "ka-a-pora",
@@ -1233,7 +3099,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "66efca0945f90b55422ca35300474ebbd109e744cfa8cec8c02a0687c8033be4"
     },
     {
       "slug": "kasogonaga",
@@ -1283,7 +3150,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "88d960e6bb2d84ef65fb0f0ad5b3d69c17e9af69210a8cb535a84f61a4fc1999"
     },
     {
       "slug": "la-condena",
@@ -1333,7 +3201,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ddf8eb38b9b693792fddb7da8d3b38841f77a80edc1a8dc9d686f917fcbe08ad"
     },
     {
       "slug": "lang-bobi-suzi",
@@ -1383,7 +3252,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7e64acd5564b079d933185ec8abd5fc7f2c37f9087d929ee2f201b3f7e13245f"
     },
     {
       "slug": "mama-d-leau",
@@ -1433,7 +3303,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e82fa8bba762083c9d348dd371f7260599cc8c2449372aa78e0319ba67c1c4bc"
     },
     {
       "slug": "maushop",
@@ -1483,7 +3354,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "66c7019ba2425817345e6fc492efab15ac99ab1bad8f7b9af0cab662e1623280"
     },
     {
       "slug": "millalobo",
@@ -1533,7 +3405,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ef3b1706dd5297f8013e18fe44175f1bcc05f8ab7f63bfca3a626ba2915a0ed"
     },
     {
       "slug": "milton-lizard",
@@ -1583,7 +3456,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c47a8d64a8ee2627f55f0e8342932ec383306210df423b38ab59b350f296cc1f"
     },
     {
       "slug": "minnie-quay",
@@ -1633,7 +3507,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5829bba604afcefd3c7ec6ef7ce7d87445a4fcda7cfb4e9916512bfd6c87193d"
     },
     {
       "slug": "mohan-legendary",
@@ -1683,7 +3558,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "51d68cc06cdbb08830a243fcf634e6d76992226b8fa5e2b82938c85c2466a0d7"
     },
     {
       "slug": "momo-the-monster",
@@ -1733,7 +3609,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "87ea911fa72d8bd60b2bf45cabf478487c6b00317b9183c99a2bb1f7ae5b8181"
     },
     {
       "slug": "mono-grande",
@@ -1823,24 +3700,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cde3017e88755d702890154996cc8aec7f1981033fc08bdaa180f0e8e30629af"
     },
     {
       "slug": "papa-bois",
-      "file": "batch-147.md",
+      "file": "batch-147-fix-4.md",
+      "entry_sha256": "8e5012d6037eaed36e0e9e65f925f395b279b171562465dea3ca363cba52de0b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "papa-bois-c01",
@@ -1929,6 +3802,16 @@
           "statement": "In Nalo Hopkinson's Midnight Robber, Papa Bois is the name of large trees that serve as shelter and ecosystem for sentient creatures.",
           "statement_id": "Dalam buku Midnight Robber karya Nalo Hopkinson, Papa Bois adalah nama pohon-pohon besar yang menjadi tempat berlindung dan ekosistem bagi makhluk berakal.",
           "quote": "In Nalo Hopkinson's book Midnight Robber, Papa Bois is the name of the large \"daddy trees\" that function as both shelter and ecosystem for sentient creatures.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "papa-bois-c10",
+          "source_id": "papa-bois-s2",
+          "host": "strangehorizons.com",
+          "statement": "In a review of the novel Midnight Robber, \"Papa Bois\" is a huge \"daddy tree\" that is the home of the douens and provides them with food and shelter.",
+          "statement_id": "Dalam ulasan novel Midnight Robber, Papa Bois adalah pohon besar yang disebut \"daddy tree\", rumah para douen yang menyediakan makanan dan tempat berlindung bagi mereka.",
+          "quote": "Chichibud and Benta bring Tan-Tan to the home of the douens, a huge tree called a \"Papa Bois,\" a daddy tree that provides food and shelter for the douens.",
           "context": "modern-popular-culture",
           "status": "exact"
         }
@@ -2043,7 +3926,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d49aabbccc869c76ad38132a0071d89375052706ab539cb49c3dd2ed75845ee8"
     },
     {
       "slug": "phantome",
@@ -2123,7 +4007,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "013298fe26eb91155c5ae004c35e18e4850165e23fc88678737dacfbcc8dd420"
     },
     {
       "slug": "proctor-valley-monster",
@@ -2203,7 +4088,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a2c356e321342551d3af2c5a2e070dc3f41877d3e9d9f475ce4b35865c352367"
     },
     {
       "slug": "resurrection-mary",
@@ -2343,7 +4229,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f617e6aca61617a9cfb9f7dc4f6922d9a9205ca7ca3986eaf5701c5d78c1a921"
     },
     {
       "slug": "sharlie",
@@ -2423,7 +4310,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ddf3a1a4983f5190f1604cccb24d18458b287153558dfe8d2ed769a8234dbdf6"
     },
     {
       "slug": "shuswap-lake-monster",
@@ -2483,7 +4371,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fd03d9e0e1ac7ec2000c975d9d2fe5d25ed6464099f99596c781a877108b54e6"
     },
     {
       "slug": "sirena-chilota",
@@ -2623,7 +4512,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e1d2f69c5e1f074d0924ddde77c95c1a57c8f5d1db71232159eba00a0ddfb66d"
     },
     {
       "slug": "sisimito",
@@ -2803,7 +4693,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "79f219362683a08cb44fbd1d98fae5ed6d6150d0f62bed68b000f4af878ec3ee"
     },
     {
       "slug": "tahoe-tessie",
@@ -2923,7 +4814,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f108a2d50b9b3213f5db1263ddf9e79248977a1f697d1d48a83805ee1bd4c4f1"
     }
   ]
 }
