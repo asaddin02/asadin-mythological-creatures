@@ -1,39 +1,26 @@
 {
   "batch_id": "batch-148",
-  "checked_at": "2026-09-30T09:11:44.581Z",
+  "checked_at": "2026-10-07T04:40:44.156Z",
   "files": [
     "batch-148.md",
-    "batch-148-fix-1.md"
+    "batch-148-fix-1.md",
+    "batch-148-fix-2.md",
+    "batch-148-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "tata-duende",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "d79a62cc96fe40606ddd76757dd5cd075f171b79232f1c3bd1a72b687de1e3bf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the tata duende or el dueno del monte is a supernatural creature…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the name tata duende comes from the yucatec maya word tata meaning…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tata-duende-c01",
@@ -74,31 +61,131 @@
           "quote": "This creature has appeared on a postage stamp of Belize as part of a series on Belizean folklore.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "tata-duende-c05",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Yucatec Maya of Belize the Tata Duende is known as Nukuch Tat or Tata Balam and is seen as a good Maya guardian spirit of the forest, animals and humans.",
+          "statement_id": "Di kalangan Maya Yukatek di Belize, Tata Duende dikenal sebagai Nukuch Tat atau Tata Balam dan dipandang sebagai roh penjaga Maya yang baik bagi hutan, hewan, dan manusia.",
+          "quote": "Between the Yucatec Maya of Belize the Tata duende is known as Nukuch Tat or Tata Balam, it is seen as a good Maya guardian spirit of the forest, animals and humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c06",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to different stories, the Tata Duende is well known for luring children into the jungle, and so has been used to scare children into behaving.",
+          "statement_id": "Menurut berbagai cerita, Tata Duende dikenal membujuk anak-anak masuk ke hutan, sehingga ia dipakai untuk menakuti anak agar berperilaku baik.",
+          "quote": "According to different stories, the Tata Duende is well known for luring children into the jungle, therefore, the Tata Duende has been used to scare children into behaving.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c07",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said that if you meet him in the forest you must show your hands with the thumbs hidden or he will break them off.",
+          "statement_id": "Konon, bila bertemu dengannya di hutan, orang harus memperlihatkan tangan dengan ibu jari disembunyikan, atau ibu jarinya akan dipatahkan.",
+          "quote": "It is said that if you encounter him in the forest, you must show your hands with the thumbs hidden or he will break them off.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c08",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is also described as having his feet pointing backwards and his thumbs missing.",
+          "statement_id": "Ia juga digambarkan berkaki menghadap ke belakang dan tidak berjempol.",
+          "quote": "He is also described as having his feet pointing backwards and his thumbs missing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c09",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is also known for braiding horses' manes and little girls' hair.",
+          "statement_id": "Ia juga dikenal suka mengepang surai kuda dan rambut anak perempuan kecil.",
+          "quote": "He is also known for braiding horses' manes and little girls' hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c10",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In addition, the Tata Duende is known to often change into a small animal, or even someone you know.",
+          "statement_id": "Selain itu, Tata Duende dikenal sering berubah menjadi hewan kecil, atau bahkan orang yang dikenal.",
+          "quote": "In addition, the 'Tata Duende' is known to often change into a small animal, or even someone you know.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c11",
+          "source_id": "tata-duende-s2",
+          "host": "www.greaterbelize.com",
+          "statement": "In Yucatec Maya, Tata Duende translates to Nukuch Tat.",
+          "statement_id": "Dalam bahasa Maya Yukatek, Tata Duende diterjemahkan sebagai Nukuch Tat.",
+          "quote": "In Yucatec Maya, Tata Duende translates to Nukuch Tat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c12",
+          "source_id": "tata-duende-s2",
+          "host": "www.greaterbelize.com",
+          "statement": "A Belizean cultural activist states that in Yucatec Maya culture Tata Duende is not seen as a terror figure that takes children to the bush and takes away their thumbs, but is described as a protector.",
+          "statement_id": "Seorang penggiat budaya Belize menyatakan bahwa dalam budaya Maya Yukatek Tata Duende tidak dipandang sebagai sosok teror yang membawa anak ke semak dan mengambil jempolnya, melainkan sebagai pelindung.",
+          "quote": "Now in Yucatec Maya the tata Duende is not seen as a terror figure or a horror figure that would take children to the bush and take away their thumb. In Yucatec maya they are described as protectors.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c13",
+          "source_id": "tata-duende-s2",
+          "host": "www.greaterbelize.com",
+          "statement": "Over time it has taken on human features and is described as a bearded, dwarfed, elderly man with missing thumbs, backward feet and a tall hat.",
+          "statement_id": "Seiring waktu ia berwujud manusia dan digambarkan sebagai lelaki tua bertubuh kerdil dan berjanggut, tanpa jempol, berkaki terbalik, dan bertopi tinggi.",
+          "quote": "But over time, it has taken on human features and is described as a bearded, dwarfed, elderly man with missing thumbs, backward feet, and wearing a tall hat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c14",
+          "source_id": "tata-duende-s2",
+          "host": "www.greaterbelize.com",
+          "statement": "Some people believe he is a fearful creature that kidnaps children and steals their thumbs; others believe he is a spiritual entity that protects the forest and is meant to be respected.",
+          "statement_id": "Sebagian orang meyakininya makhluk menakutkan yang menculik anak dan mencuri jempol mereka; yang lain meyakininya entitas spiritual yang melindungi hutan dan harus dihormati.",
+          "quote": "Some people believe he is this fearful creature that kidnaps children and steals their thumbs. Others are of the belief that Tata Duende is a spiritual entity that protects the forest and is meant to be respected.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c15",
+          "source_id": "tata-duende-s2",
+          "host": "www.greaterbelize.com",
+          "statement": "One way to recognize Tata Duende's presence is through a loud and eerie whistle that the entity makes.",
+          "statement_id": "Salah satu cara mengenali kehadiran Tata Duende adalah lewat siulan keras dan menyeramkan yang dibuatnya.",
+          "quote": "One way to recognize Tata Duende’s presence is through a loud and eerie whistle that the entity makes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tate",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "dbc77053c533906d94d1c55c1adebc6f482b76160f876088f205cf91038fc901",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"oversee the cardinal directions the four winds health the weather and fertility…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tate-c01",
@@ -129,16 +216,67 @@
           "quote": "Wani, or Wanim - The four elder sons of Tate who oversee the cardinal directions, the four winds, health, the weather, and fertility.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "tate-c04",
+          "source_id": "tate-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Anúŋğite, or Ite, is the wife of the wind Spirit Tate; the two-faced Spirit is referred to as mother of the Four Winds and of Yum the Whirlwind.",
+          "statement_id": "Anúŋğite, atau Ite, adalah istri Roh Angin Tate; Roh berwajah dua yang disebut ibu Empat Angin dan Yum sang Angin Puyuh.",
+          "quote": "Anúŋğite, or Ite - Wife of the wind Spirit Tate. The two-faced Spirit referred to as mother of the Four Winds, Yum the Whirlwind",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c05",
+          "source_id": "tate-s3",
+          "host": "neonvagabond.xyz",
+          "statement": "In this narrative, before the directions were given to the world, Tate dwelt with his four sons and his little son in his round lodge beyond the region of the pines.",
+          "statement_id": "Menurut narasi ini, sebelum arah-arah diberikan kepada dunia, Tate tinggal bersama empat putranya dan seorang putra kecilnya di pondok bundar di seberang wilayah pinus.",
+          "quote": "Before the directions were given to the world Tate with his four sons and his little son dwelt in his round lodge beyond the region of the pines.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c06",
+          "source_id": "tate-s3",
+          "host": "neonvagabond.xyz",
+          "statement": "Tate's seat was the place of honor, with his eldest son Yata beside him; Eya sat at the right side of the lodge, Yanpa at the left, and the youngest son Okaga beside the door.",
+          "statement_id": "Tempat duduk Tate adalah tempat kehormatan, dan di sampingnya duduk putra sulung Yata; Eya di sisi kanan pondok, Yanpa di sisi kiri, dan putra bungsu Okaga di dekat pintu.",
+          "quote": "The seat of Tate was the place of honor and that of his oldest son, Yata, was beside him. The seat of the second-born son, Eya, was at the right side of the lodge, and that of the third-born son, Yanpa, was at the left side, while that of the youngest son, Okaga, was beside the door.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c07",
+          "source_id": "tate-s3",
+          "host": "neonvagabond.xyz",
+          "statement": "In the narrative Tate did the woman's work in the lodge, while each morning his four sons set out to travel over the world.",
+          "statement_id": "Dalam narasi itu, Tate mengerjakan pekerjaan perempuan di pondok, sementara tiap pagi keempat putranya berangkat menjelajahi dunia.",
+          "quote": "Tate did the woman's work in the lodge. Each morning his four sons set out to travel over the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c08",
+          "source_id": "tate-s3",
+          "host": "neonvagabond.xyz",
+          "statement": "One time when all the sons were away, something shining fell near the lodge and Tate went to look at it; it was a woman wearing a soft white dress.",
+          "statement_id": "Pada suatu waktu ketika semua putranya pergi, sesuatu yang berkilau jatuh dekat pondok dan Tate pergi melihatnya; ternyata seorang perempuan berbaju putih lembut.",
+          "quote": "One time when all the sons were away something shining fell near the lodge and Tate went to look at it. It was a woman wearing a soft white dress.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "the-cu-bird",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "0b2523acbb63f1a21364109dd26edbbb831501112e5147f424c7887479f44de3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 9,
         "sources": 1,
         "images": 0
       },
@@ -146,22 +284,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the cu bird spanish pajaro cu or cu is a bird from…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the cu bird spanish pajaro cu or cu is a bird from…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"to a meeting but it was so entranced by the reflection of…\"). Tulis ulang dengan kata-kata sendiri."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -194,26 +317,81 @@
           "quote": "One day the eagle, the head of the council, sent the Cu bird to call other birds to a meeting, but it was so entranced by the reflection of its feathers in a lake that it completely forgot the task.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c04",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the ballad version the Cu bird has no feathers, so the barn owl and the hoot owl (tecolote) organize all the birds to donate a feather each; the hoot owl guarantees that the Cu bird will not be a \"traitor\".",
+          "statement_id": "Dalam versi balada, burung Cu tidak berbulu, sehingga burung hantu kandang dan burung hantu tecolote mengorganisasi semua burung untuk menyumbangkan sebulu masing-masing; tecolote menjamin burung Cu tidak akan menjadi \"pengkhianat\".",
+          "quote": "The Cu bird has no feathers, so the barn owl and the hoot owl (tecolote) organize all the birds to donate a feather each to it; the hoot owl guarantees that the Cu bird will not be a \"traitor\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c05",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Once the Cu bird is dressed, it flies to better lands and the other birds blame the hoot owl; this is why the owl calls to the Cu bird at night, \"Ticú-ticú\", and why it cannot see during the day.",
+          "statement_id": "Setelah berbulu, burung Cu terbang ke negeri yang lebih baik dan burung-burung lain menyalahkan tecolote; itulah sebabnya tecolote memanggil burung Cu pada malam hari, \"Ticú-ticú\", dan tidak dapat melihat pada siang hari.",
+          "quote": "However, once the Cu bird is dressed, it flies to better lands, and the other birds blame the hoot owl. This is why the latter calls at night to the Cu bird, Ticú-ticú, and why it cannot see during the day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c06",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the first version the god of the forest sent a silent bird to quieten the quarrelling birds, but it was ignored; the god became angry and took away the birds' speech.",
+          "statement_id": "Dalam versi pertama, dewa hutan mengirim burung pendiam untuk menenangkan burung-burung yang bertengkar, tetapi burung itu diabaikan; sang dewa murka dan mencabut kemampuan bicara burung-burung.",
+          "quote": "He sent a silent bird to quieten them down, but being silent, it was ignored by the quarrelling birds. The god became angry and took away the birds' speech.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c07",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Now both the owl and the Cu bird hide from other birds in the dark, and the Cu bird's beautiful plumage serves no purpose because no one can see it in the light of the Sun.",
+          "statement_id": "Kini burung hantu dan burung Cu bersembunyi dari burung lain dalam gelap, dan bulu indah burung Cu tak berguna karena tak seorang pun dapat melihatnya di bawah sinar matahari.",
+          "quote": "Now both the owl and the Cu bird hide from other birds in the dark and the Cu bird's beautiful plumage serves no purpose because no one can see it in the light of the Sun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c08",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is a song titled \"El pájaro cu\" in the Mexican Son Jarocho style.",
+          "statement_id": "Ada sebuah lagu berjudul \"El pájaro cu\" dalam gaya Son Jarocho Meksiko.",
+          "quote": "There is a song titled \"El pájaro cu\" in the Mexican Son Jarocho style.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c09",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to one source, \"pájaro cu\" is a name used in the Yucatan Peninsula for the russet-crowned motmot, a colorful bird.",
+          "statement_id": "Menurut satu sumber, \"pájaro cu\" adalah nama yang dipakai di Semenanjung Yucatan untuk motmot berkepala cokelat kemerahan, burung berwarna-warni.",
+          "quote": "According to one source, pájaro cu is a name used in the Yucatan Peninsula for the russet-crowned motmot, a colorful bird.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tin-tin",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "5e517c880b91a4017dc262b8ab8eb819210136b0924b47b45cc6f320b3da1c73",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tin-tin-c01",
@@ -244,31 +422,101 @@
           "quote": "Su origen proviene de una deidad de la Isla Puná en tiempos prehispánicos, llamado Tin, un noctámbulo Dios Murciélago, quien tenía la facultad de fecundar a las mujeres y así dar vida un nuevo ser.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tin-tin-c04",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The legend also spread to the rural and wooded areas of the city of Guayaquil and to Manabí province, where sightings were reported in the countryside and villages.",
+          "statement_id": "Legenda ini juga menyebar ke daerah pedesaan dan berhutan di kota Guayaquil dan ke provinsi Manabí, tempat penampakan dilaporkan di ladang dan desa.",
+          "quote": "aunque la leyenda también se extendió a las zonas rurales y boscosas de la ciudad de Guayaquil, y en la provincia de Manabí, donde se veían avistamientos en el campo y pueblos",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c05",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Today he is described as a malevolent being, a kind of duende that pursues young women, single or married.",
+          "statement_id": "Pada masa kini ia digambarkan sebagai makhluk jahat, sejenis duende yang mengejar perempuan muda, lajang atau bersuami.",
+          "quote": "En la actualidad se lo describe como un ser malévolo, una especie de duende que persigue a mujeres jóvenes, solteras o casadas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c06",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "He is described as a small, big-headed being resembling a duende or magical gnome, wearing an enormous hat and giving off a wailing, gloomy whistle.",
+          "statement_id": "Ia digambarkan sebagai makhluk kecil berkepala besar yang tampak seperti duende atau gnom ajaib, memakai topi besar sekali, dan mengeluarkan siulan melengking yang muram.",
+          "quote": "Se lo describe como un ser pequeño y cabezón con aspecto de duende o gnomo mágico que usa un enorme sombrero y emite un silbido ululante y lúgubre",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c07",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "On Isla Corazón in Manabí province he is known as Felipe or Felipe el tintin; he is believed to live in the mangroves, wear an enormous hat, and play melodies on his guitar that make women fall in love.",
+          "statement_id": "Di Isla Corazón, provinsi Manabí, ia dikenal sebagai Felipe atau Felipe el tintin; ia dipercaya hidup di hutan bakau, memakai topi besar, dan memainkan melodi dengan gitarnya yang memikat para perempuan.",
+          "quote": "se cree que vive en los mangles, usa un sombrero enorme y toca melodías que enamoran a las mujeres con su guitarra",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c08",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "In various parts of Manabí he is known for the power to turn into a bird, specifically the Pedrote or Motmot.",
+          "statement_id": "Di berbagai bagian Manabí ia dikenal memiliki kekuatan berubah menjadi burung, khususnya Pedrote atau Motmot.",
+          "quote": "En diversas partes de Manabí se lo conoce con el poder de convertirse en ave, específicamente en Pedrote o Motmot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c09",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "One of the traits mentioned is similar to the Andean version, the Chuzalongo.",
+          "statement_id": "Salah satu ciri yang disebutkan mirip dengan versi Andes, yaitu Chuzalongo.",
+          "quote": "Este último aspecto es similar a la versión andina, el Chuzalongo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c10",
+          "source_id": "tin-tin-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "The Catalan Wikipedia likewise describes him as a small, big-headed being resembling a follet or magical gnome, wearing an enormous hat and giving a wailing, gloomy whistle.",
+          "statement_id": "Versi Wikipedia Katalan juga menggambarkannya sebagai makhluk kecil berkepala besar, mirip follet atau gnom ajaib, bertopi besar sekali, dan bersiul muram.",
+          "quote": "Se'l descriu com un ésser petit amb un gran cap, amb aspecte de follet o gnom màgic que utilitza un enorme barret i emet un xiulet ul·lulant i lúgubre",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c11",
+          "source_id": "tin-tin-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "According to the Catalan Wikipedia, his legend spread through the oral tradition of the coastal montubios and cholos across the whole coastal zone of Ecuador.",
+          "statement_id": "Menurut Wikipedia Katalan, legendanya menyebar lewat tradisi lisan para montubio dan cholo pesisir ke seluruh kawasan pantai Ekuador.",
+          "quote": "La seva llegenda s'ha estès per la tradició oral dels montubis i cholos costaners a tota la zona costanera de l'Equador.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "trout-lake-monster",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "ecc25b1c533cfc05adf0f8df917fb36abedaf05bee5f69cc87a3ff676bcad503",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the trout lake monster is an animal claimed to inhabit big trout…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "trout-lake-monster-c01",
@@ -299,36 +547,71 @@
           "quote": "According to a University of Toronto professor, the animal carcass was likely an ordinary mink in a state of decomposition.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c04",
+          "source_id": "trout-lake-monster-s2",
+          "host": "www.theglobeandmail.com",
+          "statement": "Some residents of Big Trout Lake, an Oji-Cree community of 1,200 south of Hudson Bay, believe the animal is a rare local creature known as an omajinaakoos, which roughly translates to \"ugly one\".",
+          "statement_id": "Sebagian warga Big Trout Lake, komunitas Oji-Cree berpenduduk 1.200 jiwa di selatan Teluk Hudson, meyakini hewan itu sebagai makhluk lokal langka bernama omajinaakoos, yang kira-kira berarti \"si buruk rupa\".",
+          "quote": "Some residents of Big Trout Lake, an Oji-Cree community of 1,200 south of Hudson Bay, believe the animal is a rare local creature known as an omajinaakoos, which roughly translates to \"ugly one\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c05",
+          "source_id": "trout-lake-monster-s2",
+          "host": "www.theglobeandmail.com",
+          "statement": "Some local elders in the community, also known as Kitchenuhmaykoosib Inninuwug, believe the animal is a messenger of bad news.",
+          "statement_id": "Sebagian tetua komunitas, yang juga dikenal sebagai Kitchenuhmaykoosib Inninuwug, meyakini hewan itu pembawa kabar buruk.",
+          "quote": "Some local elders in the community, which is also known as Kitchenuhmaykoosib Inninuwug, believe the animal is a messenger of bad news.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c06",
+          "source_id": "trout-lake-monster-s2",
+          "host": "www.theglobeandmail.com",
+          "statement": "A quoted resident said the animal lives in swamps and feeds on beavers.",
+          "statement_id": "Seorang narasumber yang dikutip menyatakan bahwa hewan itu hidup di rawa dan memakan berang-berang.",
+          "quote": "said the animal lives in swamps and feeds on beavers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c07",
+          "source_id": "trout-lake-monster-s2",
+          "host": "www.theglobeandmail.com",
+          "statement": "According to The Globe and Mail (21 May 2010), the unsightly critter was spotted in Big Trout Lake by two nurses walking their dog earlier that month.",
+          "statement_id": "Menurut The Globe and Mail (21 Mei 2010), makhluk yang tak sedap dipandang itu ditemukan di Big Trout Lake oleh dua perawat yang sedang mengajak anjing berjalan pada awal bulan yang sama.",
+          "quote": "The unsightly critter was spotted in Big Trout Lake by two nurses walking their dog earlier this month.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c08",
+          "source_id": "trout-lake-monster-s2",
+          "host": "www.theglobeandmail.com",
+          "statement": "Some say the animal is a water-logged muskrat, otter, possum, mink, beaver or bear cub whose facial fur wore off as its corpse drifted in the lake.",
+          "statement_id": "Sebagian orang berpendapat hewan itu adalah muskrat, berang-berang sungai, posum, cerpelai, berang-berang, atau anak beruang yang terendam, yang bulu wajahnya terkelupas saat bangkainya hanyut di danau.",
+          "quote": "is a water-logged muskrat, otter, possum, mink, beaver or bear cub whose facial fur wore off as its corpse drifted in the lake.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tuttle-bottoms-monster",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "3c863db39278282f0cc9e683e380d89190d0f591bc585f774bcd082fd9354a85",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the tuttle bottoms monster is a legendary creature said to inhabit a…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"former harrisburg police chief gary crabtree told the harrisburg daily register that…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tuttle-bottoms-monster-c01",
@@ -359,26 +642,111 @@
           "quote": "Most described it as having a long, almost anteater-like snout.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c04",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On August 6, 1963, The Harrisburg Daily Register published what seemed to be the first report of the creature.",
+          "statement_id": "Pada 6 Agustus 1963, The Harrisburg Daily Register memuat apa yang tampaknya laporan pertama tentang makhluk itu.",
+          "quote": "On August 6, 1963, The Harrisburg Daily Register reported what seemed to be the first report of the creature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c05",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 1963 newspaper account a youth said the creature was eight feet long, four feet high and had a nose like an anteater.",
+          "statement_id": "Menurut laporan koran 1963 itu, seorang pemuda menyebut makhluk tersebut panjangnya delapan kaki, tingginya empat kaki, dan berhidung seperti trenggiling.",
+          "quote": "He said it was eight feet long, four feet high and had a nose like an anteater.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c06",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest reports date to the 1960s, from teenagers who used the area as a local \"make-out\" spot and from hunters who made frantic calls to the police after seeing the creature.",
+          "statement_id": "Laporan paling awal berasal dari tahun 1960-an, dari remaja yang memakai kawasan itu sebagai tempat berpacaran dan dari pemburu yang menelepon polisi dengan panik setelah melihat makhluk itu.",
+          "quote": "The earliest reports of the creature date to the 1960s by teenagers who used the area as a local \"make-out\" spot and by hunters who would make frantic calls to the police after seeing the creature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c07",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A local resident told the Register he believes the creature is not a monster out of myth but an actual animal \"released by the federal government\" that has long since died.",
+          "statement_id": "Seorang warga setempat mengatakan kepada koran Register bahwa ia yakin makhluk itu bukan monster dari mitos, melainkan hewan sungguhan yang \"dilepaskan oleh pemerintah federal\" dan sudah lama mati.",
+          "quote": "A local resident named Virgil Smith told the Register he believes the creature is not a monster out of myth but was an actual animal \"released by the federal government\" that has long since died.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c08",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The resident said the creature was a hairy primate that stood on two legs and was not scared of humans, adding that one couple reported the animal walked right up to them.",
+          "statement_id": "Warga itu menyebut makhluk tersebut primata berbulu yang berdiri dengan dua kaki dan tidak takut pada manusia, dan menambahkan bahwa sepasang orang melaporkan hewan itu berjalan tepat mendekati mereka.",
+          "quote": "Smith said the creature was a hairy primate, stood on two legs, and was not scared of humans, adding that one couple reported the animal walked right up to them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c09",
+          "source_id": "tuttle-bottoms-monster-s2",
+          "host": "1440wrok.com",
+          "statement": "According to the reports it is eight feet long or tall, depending on whether it is upright on two feet or down on all fours.",
+          "statement_id": "Menurut laporan, ukurannya delapan kaki panjang atau tinggi, bergantung pada apakah ia berdiri tegak dengan dua kaki atau berjalan dengan keempat kaki.",
+          "quote": "The reports have said that it is eight feet long or tall, depending upon whether it is upright on two feet, or down on all fours.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c10",
+          "source_id": "tuttle-bottoms-monster-s2",
+          "host": "1440wrok.com",
+          "statement": "Many local teens would wander into the boggy areas with rifles to hunt the monster, which was known to be active at night.",
+          "statement_id": "Banyak remaja setempat berkeliaran di area berawa dengan senapan untuk memburu monster itu, yang dikenal aktif pada malam hari.",
+          "quote": "Many local teens would wander out into the boggy areas with rifles to hunt the monster, who was known to be active at night.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c11",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Tuttle Bottoms Monster legend is familiar to generations of Saline County residents.",
+          "statement_id": "Legenda Tuttle Bottoms Monster dikenal oleh beberapa generasi warga Saline County.",
+          "quote": "The Tuttle Bottoms Monster legend is familiar to generations of Saline County residents.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c12",
+          "source_id": "tuttle-bottoms-monster-s2",
+          "host": "1440wrok.com",
+          "statement": "The creature is also believed to have been released into the area either by the federal government or by a rural zoo owner.",
+          "statement_id": "Makhluk itu juga diyakini dilepas ke kawasan tersebut oleh pemerintah federal, atau dilepaskan oleh pemilik kebun binatang pedesaan.",
+          "quote": "Also, the creature is believed to have been released into the area by either the federal government, or was set loose by a rural zoo owner",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "uirapuru",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "4c1ebdbcfba36db0a4c3d541d78c3e832bc8d66ce27fd19f486c47256b3fabaf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "uirapuru-c01",
@@ -409,31 +777,91 @@
           "quote": "Tupã atendeu seu desejo transformando-lhe em um pássaro vermelho-telha que à noite cantava para sua amada.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "uirapuru-c04",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It was the chief who noticed; fascinated, he chased the bird to capture it, but the Uirapuru hid in the depths of the forest and the chief got lost there.",
+          "statement_id": "Quem percebeu foi o cacique, que, fascinado, perseguiu o pássaro para prendê-lo; mas o Uirapuru se escondeu nas entranhas da floresta e o cacique se perdeu ali.",
+          "quote": "Entretanto, quem notou fora o cacique que, fascinado, perseguiu o pássaro para prendê-lo, mas o Uirapuru se escondeu nas entranhas da floresta e o cacique por lá se perdeu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c05",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "At night the Uirapuru sings to his beloved, hoping she will discover his song.",
+          "statement_id": "À noite, o Uirapuru canta para sua amada, esperando que ela descubra seu canto.",
+          "quote": "À noite o Uirapuru canta para sua amada, esperando que ela descubra seu canto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c06",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Uirapuru is considered an amulet able to bring happiness in love and in business, and luck.",
+          "statement_id": "O Uirapuru é considerado um amuleto capaz de proporcionar felicidade no amor e nos negócios, e sorte.",
+          "quote": "O Uirapuru é considerado um amuleto capaz de proporcionar felicidade no amor, nos negócios e sorte.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c07",
+          "source_id": "uirapuru-s2",
+          "host": "portalamazonia.com",
+          "statement": "According to Portal Amazônia, the uirapuru has a song unique among birds: it can sing for 10 or 15 minutes straight without repeating a single note of the melody.",
+          "statement_id": "Segundo o Portal Amazônia, o uirapuru tem um canto único entre as aves: pode cantar por 10 ou 15 minutos seguidos sem repetir uma nota da melodia.",
+          "quote": "O uirapuru tem um canto único entre os pássaros: ele é capaz de cantar durante 10 ou 15 minutos seguidos sem repetir uma nota sequer da melodia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c08",
+          "source_id": "uirapuru-s2",
+          "host": "portalamazonia.com",
+          "statement": "One legend says that anyone who hears the uirapuru's song will be blessed with good luck and may make a wish, which will surely come true.",
+          "statement_id": "Uma das lendas diz que quem ouvir o canto do uirapuru será abençoado com boa sorte e poderá fazer um pedido, que certamente se realizará.",
+          "quote": "Uma das lendas diz que a pessoa que ouvir o canto do uirapuru será abençoada com boa sorte e poderá fazer um pedido, que certamente será realizado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c09",
+          "source_id": "uirapuru-s2",
+          "host": "portalamazonia.com",
+          "statement": "Another legend says that burying the bird in front of a business guarantees success and good sales, and that carrying one of its feathers or a piece of its nest attracts love, passion and eternal fidelity.",
+          "statement_id": "Outra lenda diz que enterrar o pássaro diante de um estabelecimento comercial garante sucesso e boas vendas, e que levar consigo uma pena ou um pedaço do ninho atrai amor, paixão e fidelidade eterna.",
+          "quote": "Outra lenda, que ameaça muito a sobrevivência do uirapuru, diz que enterrar o pássaro em frente a um estabelecimento comercial é garantia de sucesso e boas vendas, bem como andar com uma pena do pássaro ou um pedaço do seu ninho junto ao corpo é capaz de atrair amor, paixão e fidelidade eterna.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c10",
+          "source_id": "uirapuru-s2",
+          "host": "portalamazonia.com",
+          "statement": "There is much folklore around the uirapuru; one of the stories tells of the forbidden love between a warrior and the chief's daughter.",
+          "statement_id": "Há muito folclore em torno do uirapuru; uma das histórias fala do amor proibido entre um guerreiro e a filha do cacique da tribo.",
+          "quote": "Há muito folclore em torno do uirapuru, mas uma das histórias mais bonitas fala do amor proibido entre um guerreiro e a filha do cacique da tribo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "vegetable-man-cryptid",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "39ec283e0c069a33ec0e7a93aaae90b48a32d3c12ad152bb3cbf583b702f0bb6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"no evidence of the alleged sighting has been documented and there have…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vegetable-man-cryptid-c01",
@@ -464,31 +892,111 @@
           "quote": "No evidence of the alleged sighting has been documented and there have been no subsequent sightings of the creature.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c04",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Frederick's account, in July 1968 he was hunting groundhogs near Grant Town and, after an unsuccessful hunt, began walking home.",
+          "statement_id": "Menurut kisah Frederick, pada Juli 1968 ia sedang berburu marmut tanah di dekat Grant Town dan, setelah berburu tanpa hasil, mulai berjalan pulang.",
+          "quote": "According to Frederick's account, in July of 1968 he was hunting groundhogs near Grant Town when, after an unsuccessful hunt, he began walking home.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c05",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He further claimed that his wrist was being held by a seven-foot-tall humanoid with extremely thin arms.",
+          "statement_id": "Ia selanjutnya mengaku pergelangan tangannya dipegang oleh makhluk mirip manusia setinggi tujuh kaki dengan lengan sangat kurus.",
+          "quote": "He further claimed that his wrist was being held by a seven-foot-tall humanoid with extremely thin arms",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c06",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Barker wrote about the creature in a March 10, 1976 article titled \"The Vegetable Man: A semi-abductee?\" in The Gray Barker Newsletter.",
+          "statement_id": "Barker menulis tentang makhluk itu dalam artikel 10 Maret 1976 berjudul \"The Vegetable Man: A semi-abductee?\" di The Gray Barker Newsletter.",
+          "quote": "Barker wrote about the creature in a March 10th, 1976 article called \"The Vegetable Man: A semi-abductee?\", which appeared in The Gray Barker Newsletter.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c07",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Reed writes that the entire Vegetable Man story rests on the testimony of one single eyewitness/victim whose only recorded report of the alleged incident was made to, and reported by, a known hoaxer.",
+          "statement_id": "Reed menulis bahwa seluruh kisah Vegetable Man bertumpu pada kesaksian satu saksi/korban yang satu-satunya laporan tercatatnya disampaikan kepada, dan dilaporkan oleh, seorang pembuat hoaks yang dikenal.",
+          "quote": "Reed writes that the entire story of the Vegetable Man, \"rests on the testimony of one single eyewitness/victim whose only recorded report of the alleged incident was made to—and reported by—a known hoaxer\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c08",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Since 2024, Veggie Man Day has been held in Fairmont, West Virginia, to celebrate the Veggie Man and other West Virginia cryptids.",
+          "statement_id": "Sejak 2024, Veggie Man Day diselenggarakan di Fairmont, West Virginia, untuk merayakan Veggie Man dan kriptid West Virginia lainnya.",
+          "quote": "Since 2024, Veggie Man Day has been hosted in Fairmont, West Virginia, to celebrate the Veggie man and other West Virginia cryptids.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c09",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Vegetable Man has been featured in the video game Fallout 76.",
+          "statement_id": "Vegetable Man pernah tampil dalam gim video Fallout 76.",
+          "quote": "The Vegetable Man has been featured in the video game Fallout 76.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c10",
+          "source_id": "vegetable-man-cryptid-s2",
+          "host": "wvexplorer.com",
+          "statement": "According to Frederick, the Vegetable Man was about seven feet tall, with semi-human facial features and a plant-like body, with a tuft of hair on its head.",
+          "statement_id": "Menurut Frederick, Vegetable Man setinggi sekitar tujuh kaki, berwajah setengah manusia dan bertubuh seperti tumbuhan, dengan seberkas rambut di kepalanya.",
+          "quote": "Approximately seven feet tall, the Vegetable Man, according to Frederick, had semi-human facial features and a plant-like body, with a tuft of hair on its head",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c11",
+          "source_id": "vegetable-man-cryptid-s2",
+          "host": "wvexplorer.com",
+          "statement": "The quoted source admits the tale of the Vegetable Man is brief and the creature was never seen or heard from again.",
+          "statement_id": "Narasumber yang dikutip mengakui bahwa kisah Vegetable Man singkat dan makhluk itu tak pernah terlihat atau terdengar lagi.",
+          "quote": "Admittedly, Strayer says, the tale of Vegetable Man is brief, and the creature was never seen or heard from again.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c12",
+          "source_id": "vegetable-man-cryptid-s2",
+          "host": "wvexplorer.com",
+          "statement": "Gray Barker reported the encounter in the March 10, 1976 issue of his newsletter, though many researchers take Barker's recounting with a grain of salt, as he was known for his hoaxes.",
+          "statement_id": "Gray Barker melaporkan perjumpaan itu dalam buletinnya edisi 10 Maret 1976, tetapi banyak peneliti menyikapi penuturan Barker dengan hati-hati karena ia dikenal gemar membuat hoaks.",
+          "quote": "He adds that world-renowned paranormal investigator Gray Barker reported the encounter in the March 10, 1976, issue of his newsletter, though many researchers take Barker’s recounting with a grain of salt, as Barker was known for his hoaxes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "water-baby-folklore",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "18fc151e6d308f1ef9064f6b911eac5239ffd9a1560e668c7a060661aa34f912",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"they are described as small beings with long dark hair possessing physical…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "water-baby-folklore-c01",
@@ -519,31 +1027,131 @@
           "quote": "They are described as small beings with long, dark hair, possessing physical attributes such as fangs, fish tails, or reptilian skin.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c04",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These spirits are regarded as guardians of water sources and, in shamanic traditions, serve as helpers for medicine people.",
+          "statement_id": "Roh-roh ini dipandang sebagai penjaga sumber air dan, dalam tradisi perdukunan, menjadi penolong bagi para tabib.",
+          "quote": "These spirits are regarded as guardians of water sources and, in shamanic traditions, serve as helpers for medicine people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c05",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Washoe, these spirits are guardians of the water table, particularly at Lake Tahoe and Cave Rock.",
+          "statement_id": "Di kalangan Washoe, roh-roh ini adalah penjaga muka air tanah, terutama di Lake Tahoe dan Cave Rock.",
+          "quote": "Among the Washoe, these spirits are guardians of the water table, particularly at Lake Tahoe and Cave Rock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c06",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Paiute and Shoshone accounts emphasize mimicry, specifically imitating human infant cries to lure people to the water's edge.",
+          "statement_id": "Penuturan Paiute dan Shoshone menekankan penggunaan tiruan suara, yaitu meniru tangisan bayi manusia untuk memancing orang ke tepi air.",
+          "quote": "Paiute and Shoshone accounts emphasize the use of mimicry, specifically the imitation of human infant cries to lure individuals to the water's edge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c07",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ute of Utah Lake and the Provo River attribute control of water levels and flash floods to the pawapicts.",
+          "statement_id": "Suku Ute di Utah Lake dan Sungai Provo mengaitkan pengendalian tinggi muka air dan banjir bandang dengan pawapicts.",
+          "quote": "The Ute of Utah Lake and the Provo River attribute the control of water levels and flash floods to the pawapicts.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c08",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Pahranagat Valley and Delamar Valley, petroglyphs depict figures identified by Southern Paiute elders as water babies.",
+          "statement_id": "Di Pahranagat Valley dan Delamar Valley, petroglif menggambarkan sosok yang oleh para tetua Paiute Selatan dikenali sebagai bayi air.",
+          "quote": "In the Pahranagat Valley and Delamar Valley, petroglyphs depict figures identified by Southern Paiute elders as water babies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c09",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tribal members generally reject non-Native theories linking these spirits to historical infanticide, maintaining that water babies are an independent species that predates human presence.",
+          "statement_id": "Anggota suku umumnya menolak teori non-pribumi yang mengaitkan roh-roh ini dengan pembunuhan bayi di masa lalu, dan berpegang bahwa bayi air adalah spesies tersendiri yang sudah ada sebelum manusia.",
+          "quote": "Tribal members generally reject non-Native theories that link these spirits to historical infanticide, maintaining that water babies are an independent species that predates human presence.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c10",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Across these groups the being is consistently identified as a non-human, water-dwelling spirit with supernatural power and varying levels of malevolence toward humans.",
+          "statement_id": "Di berbagai kelompok itu, makhluk ini konsisten dikenali sebagai roh non-manusia penghuni air yang memiliki kekuatan supranatural dan tingkat kejahatan terhadap manusia yang bervariasi.",
+          "quote": "Across these groups, the entity is consistently identified as a non-human, water-dwelling spirit possessing supernatural power and varied levels of malevolence toward humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c11",
+          "source_id": "water-baby-folklore-s2",
+          "host": "www.native-languages.org",
+          "statement": "According to Native Languages of the Americas, water babies are mysterious and dangerous water spirits from the folklore of California and other Western Native American tribes.",
+          "statement_id": "Menurut Native Languages of the Americas, bayi air adalah roh air yang misterius dan berbahaya dalam cerita rakyat California dan suku-suku Pribumi Amerika bagian barat lainnya.",
+          "quote": "Water babies are mysterious and dangerous water spirits from the folklore of California and other Western Native American tribes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c12",
+          "source_id": "water-baby-folklore-s2",
+          "host": "www.native-languages.org",
+          "statement": "Water-babies are said to inhabit springs and sometimes ponds or streams.",
+          "statement_id": "Bayi air dikatakan mendiami mata air dan kadang kolam atau sungai kecil.",
+          "quote": "Water-babies are said to inhabit springs and sometimes ponds or streams.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c13",
+          "source_id": "water-baby-folklore-s2",
+          "host": "www.native-languages.org",
+          "statement": "In many tribal traditions, the cry of a water baby is an omen of death.",
+          "statement_id": "Dalam banyak tradisi suku, tangisan bayi air adalah pertanda kematian.",
+          "quote": "In many tribal traditions, the cry of a water baby is an omen of death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c14",
+          "source_id": "water-baby-folklore-s2",
+          "host": "www.native-languages.org",
+          "statement": "In other traditions, responding to a water baby's crying by picking it up results in catastrophe.",
+          "statement_id": "Dalam tradisi lain, menanggapi tangisan bayi air dengan mengangkatnya berujung malapetaka.",
+          "quote": "In others, responding to a water baby's crying by picking it up results in catastrophe.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "white-river-monster",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "159987ff0f4e7b016e5980f58b3af8446426b2ac060982f14012a4ec4ed00412",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in arkansas folklore the white river monster is a large creature reportedly…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "white-river-monster-c01",
@@ -574,36 +1182,141 @@
           "quote": "It is illegal to harm the monster inside the refuge.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c04",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "Sightings of \"Whitey\" began in 1915 but were sporadic until 1937. On July 1 of that year, Bramlett Bateman, owner of a plantation near the river, saw the monster.",
+          "statement_id": "Penampakan \"Whitey\" dimulai pada 1915 tetapi jarang sampai 1937. Pada 1 Juli tahun itu, Bramlett Bateman, pemilik perkebunan di dekat sungai, melihat monster itu.",
+          "quote": "Sightings of “Whitey” began in 1915 but were sporadic until 1937. On July 1 of that year, Bramlett Bateman, owner of a plantation near the river, saw the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c05",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "He reported it as having gray skin and being \"as wide as a car and three cars long\".",
+          "statement_id": "Ia melaporkannya berkulit abu-abu dan \"selebar mobil dan sepanjang tiga mobil\".",
+          "quote": "He reported it as having gray skin and being “as wide as a car and three cars long.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c06",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "As news spread, construction of a huge rope net to capture the monster began. The monster had been seen in an eddy, so a diver was brought in to search for it.",
+          "statement_id": "Ketika kabar menyebar, pembuatan jaring tali raksasa untuk menangkap monster itu dimulai. Monster itu terlihat di pusaran air, sehingga seorang penyelam didatangkan untuk mencarinya.",
+          "quote": "As news spread, construction of a huge rope net to capture the monster began. The monster had been seen in an eddy, so a diver was brought in to search for it.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c07",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "In 1971 sightings began again when someone reported a gray creature with a horn sticking out of its forehead. Other witnesses described a spiny back twenty feet long.",
+          "statement_id": "Pada 1971 penampakan dimulai lagi ketika seseorang melaporkan makhluk abu-abu dengan tanduk mencuat dari dahinya. Saksi lain menggambarkannya berpunggung berduri sepanjang dua puluh kaki.",
+          "quote": "In 1971, the sightings began again when someone reported seeing a gray creature with a horn sticking out from its forehead. Other witnesses described it as having a spiny back twenty feet long.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c08",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "Later, a trail of three-toed, fourteen-inch prints was found in the White River area.",
+          "statement_id": "Kemudian ditemukan jejak tapak bertiga jari sepanjang empat belas inci di kawasan White River.",
+          "quote": "Later, a trail of three-toed, fourteen-inch prints was found in the White River area.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c09",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "In 1973, the Arkansas General Assembly passed Senate Resolution 23, creating the White River Monster Refuge along the White River.",
+          "statement_id": "Pada 1973, Majelis Umum Arkansas mengesahkan Resolusi Senat 23 yang membentuk Suaka Monster White River di sepanjang White River.",
+          "quote": "In 1973, the Arkansas General Assembly passed Senate Resolution 23 ... creating the White River Monster Refuge along the White River.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c10",
+          "source_id": "white-river-monster-s2",
+          "host": "encyclopediaofarkansas.net",
+          "statement": "Although there have been no recent sightings, theories about Whitey abound. It is hypothesized to be anything from a huge fish to an elephant seal, though none of the theories fully explain Whitey.",
+          "statement_id": "Meski belum ada penampakan terbaru, teori tentang Whitey berlimpah. Ia diduga apa saja, dari ikan raksasa sampai anjing laut gajah, tetapi tak satu teori pun menjelaskannya sepenuhnya.",
+          "quote": "While there have been no recent sightings, theories about Whitey abound. It is hypothesized to be anything from a huge fish to an elephant seal, though none of the theories fully explain Whitey.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c11",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nickell proposed that the monster(s) were likely Florida manatees, also known as \"sea cows\".",
+          "statement_id": "Nickell mengusulkan bahwa monster itu kemungkinan besar manatee Florida, juga disebut \"sapi laut\".",
+          "quote": "Nickell proposed that the monster(s) were likely Florida manatees, also known as \"sea cows\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c12",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Biologist Roy Mackal was persuaded that the monster was an elephant seal, but Nickell disagreed because the White River is well out of that species' range.",
+          "statement_id": "Biolog Roy Mackal yakin bahwa monster itu anjing laut gajah, tetapi Nickell tidak setuju karena White River jauh di luar jangkauan spesies itu.",
+          "quote": "Biologist Roy Mackal was persuaded that the monster was an elephant seal, but Nickell disagreed with this hypothesis due to the White River being well out of the range of that species.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c13",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others have speculated that the legend might have come from the discovery of a 230-pound, eight-foot alligator gar.",
+          "statement_id": "Pihak lain menduga sumber legenda ini mungkin berasal dari penemuan seekor ikan aligator gar seberat 230 pon dan sepanjang delapan kaki.",
+          "quote": "Others have speculated that the source of the legend might have come from the discovery of a 230-pound, eight-foot alligator gar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c14",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, sightings of the monster began in 1915, and on July 1 of that year a plantation owner near the river saw it.",
+          "statement_id": "Menurut Wikipedia, penampakan monster itu dimulai pada 1915, dan pada 1 Juli tahun itu pemilik perkebunan di dekat sungai melihatnya.",
+          "quote": "Sightings of the monster began in 1915.  On July 1 of that year, an owner of a plantation near the river saw the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c15",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The White River Monster was featured in the 2009 Lost Tapes episode \"White River Monster\".",
+          "statement_id": "White River Monster tampil dalam episode Lost Tapes tahun 2009 berjudul \"White River Monster\".",
+          "quote": "The White River Monster was featured in the 2009 Lost Tapes episode, \"White River Monster\".",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "xtabay",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "bedeeb85ffb3fa158a0e560c5cc8adfbd21726e3e402d9159c1fd986b0764946",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"she is said to dwell in the forest to lure men to…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"she is described as having beautiful shining black hair that falls down…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xtabay-c01",
@@ -611,9 +1324,9 @@
           "host": "en.wikipedia.org",
           "statement": "La Xtabay is a Yucatec Maya folklore tale about a demonic femme fatale who preys upon men in the Yucatan Peninsula.",
           "statement_id": "La Xtabay adalah dongeng rakyat Maya Yukatek tentang iblis wanita penggoda yang memangsa pria di Semenanjung Yucatan.",
-          "quote": "La Xtabay (Spanish pronunciation: [la iʃ.taˈβaj]) is a Yucatec Maya folklore tale about a demonic femme fatale who preys upon men in the Yucatán Peninsula.",
+          "quote": "is a Yucatec Maya folklore tale about a demonic femme fatale who preys upon men in the Yucatán Peninsula.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "xtabay-c02",
@@ -634,13 +1347,184 @@
           "quote": "She is described as having beautiful, shining black hair that falls down to her ankles and wearing a white dress.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "xtabay-c04",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two equally beautiful women, Xkeban and Utz-colel, lived in a village in the Yucatán Peninsula.",
+          "statement_id": "Dua perempuan yang sama-sama cantik, Xkeban dan Utz-colel, tinggal di sebuah desa di Semenanjung Yucatán.",
+          "quote": "Two equally beautiful women, Xkeban and Utz-colel, lived in a village or pueblo in the Yucatán Peninsula.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c05",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Xkeban was treated poorly by her community for her promiscuous behavior, while Utz-colel was considered virtuous for remaining celibate.",
+          "statement_id": "Xkeban diperlakukan buruk oleh komunitasnya karena perilakunya yang dianggap bebas, sedangkan Utz-colel dianggap berbudi luhur karena tetap membujang.",
+          "quote": "Xkeban was treated poorly by her community for her promiscuous behavior while Utz-colel was considered virtuous for remaining celibate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c06",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Xkeban had metamorphosed into the species of morning glory called xtabentún in the Maya language.",
+          "statement_id": "Xkeban berubah menjadi jenis bunga morning glory yang dalam bahasa Maya disebut xtabentún.",
+          "quote": "for Xkeban had metamorphosed into the species of morning glory called, in the Maya language, xtabentún",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c07",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Utz-colel prayed to evil spirits, who granted her wish to become a woman again so she too might become a beautiful flower in death, but, incapable of love and driven only by jealousy and rage, she became instead the demon Xtabay, outwardly a beautiful woman but inwardly cruel and predatory.",
+          "statement_id": "Utz-colel berdoa kepada roh jahat yang mengabulkan keinginannya menjadi perempuan lagi agar ia pun menjadi bunga yang indah setelah mati, tetapi karena tak mampu mencinta dan hanya digerakkan iri dan amarah, ia justru menjadi iblis Xtabay, tampak cantik di luar namun kejam dan buas di dalam hati.",
+          "quote": "Utz-colel prayed to evil spirits who fulfilled her desire to become a woman again so that she too might become a beautiful flower in death, but, incapable of love and motivated only by jealousy and rage, she became instead the demon Xtabay, outwardly a beautiful woman but inwardly cruel and predatory of heart.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c08",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She waits behind a ceiba tree (a sacred tree in Maya culture) and is said to comb her hair with the spines of the Tzacam cactus.",
+          "statement_id": "Ia menunggu di balik pohon ceiba (pohon suci dalam budaya Maya) dan konon menyisir rambutnya dengan duri kaktus Tzacam.",
+          "quote": "She waits behind a ceiba tree (a sacred tree in Maya culture) and is said to comb her hair with the spines of the Tzacam cactus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c09",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other versions of the myth, the Xtabay can appear in any form or sex she chooses to lure a person to their doom.",
+          "statement_id": "Dalam versi lain mitos ini, Xtabay dapat tampil dalam wujud atau jenis kelamin apa pun yang ia pilih untuk memancing seseorang menuju kebinasaan.",
+          "quote": "In other versions of the myth, the Xtabay can appear in any form or sex she chooses in order to lure a person to their doom.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c10",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An alternative version of the legend, particularly in Quintana Roo, states that Xtabay is the punisher of drunks, thieves and violent criminals.",
+          "statement_id": "Versi alternatif legenda ini, terutama di Quintana Roo, menyatakan bahwa Xtabay adalah penghukum pemabuk, pencuri, dan penjahat kekerasan.",
+          "quote": "An alternative version of the legend, particularly in Quintana Roo, states that Xtabay is the punisher of drunks, thieves, and violent criminals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c11",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term \"Xtab\" was used to refer to an ancient Maya goddess Ixtab, the goddess of suicide by hanging or the gallows.",
+          "statement_id": "Istilah \"Xtab\" dipakai untuk merujuk pada dewi Maya kuno Ixtab, dewi bunuh diri dengan menggantung diri atau tiang gantungan.",
+          "quote": "The term \"Xtab\" was used to refer to an ancient Maya goddess Ixtab, the goddess of suicide by hanging or the gallows.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c12",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Yucatán peninsula the word Xtabay illustrates undesirable behavior in women and men, and the legend is used by mothers and grandmothers to instill good behavior in children.",
+          "statement_id": "Di Semenanjung Yucatán, kata Xtabay melambangkan perilaku buruk pada perempuan dan laki-laki, dan legenda ini dipakai para ibu dan nenek untuk menanamkan perilaku baik pada anak.",
+          "quote": "In the Yucatán peninsula, the word Xtabay illustrates undesirable behavior in women and men, and the legend is used by mothers and grandmothers to inculcate good behaviour in children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c13",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mexican animated film Nikté, released in 2009, Xtabay appears to function as an antagonist who sets tests the characters must overcome.",
+          "statement_id": "Dalam film animasi Meksiko Nikté yang dirilis pada 2009, Xtabay tampak berfungsi sebagai antagonis yang memberi ujian bagi para tokoh untuk diatasi.",
+          "quote": "In the Mexican animated film Nikté released on 2009, Xtabay appears to function as an antagonist who actually sets tests for the characters that they must overcome.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c14",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There are many similarities to the legend of La Llorona, a ghost said to wander Mexico searching for her children and luring away any living children she comes across.",
+          "statement_id": "Ada banyak kemiripan dengan legenda La Llorona, hantu yang konon berkeliaran di Meksiko mencari anak-anaknya dan memikat anak-anak hidup yang ia jumpai.",
+          "quote": "There are many similarities to the legend of La Llorona, a ghost who is said to wander Mexico searching for her children and luring away any living children she comes across.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c15",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "According to Yucatán Today, La Xtabay is a beautiful woman with long dark hair, dressed in white.",
+          "statement_id": "Menurut Yucatán Today, La Xtabay adalah perempuan cantik berambut panjang gelap yang berpakaian putih.",
+          "quote": "La Xtabay is a beautiful woman with long dark hair, dressed in white.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c16",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "There she brushes her hair and waits for drunk, lost men stumbling through the night.",
+          "statement_id": "Di sana ia menyisir rambutnya dan menunggu lelaki mabuk yang tersesat dan terhuyung-huyung di malam hari.",
+          "quote": "There, she brushes her hair and waits for drunk, lost men, who find themselves stumbling through the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c17",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "In the Yucatán Today version, Utz-Colel made a deal with death and was allowed to come back to the land of the living as Xtabay, dedicated to seducing and punishing wayward men.",
+          "statement_id": "Dalam versi Yucatán Today, Utz-Colel membuat kesepakatan dengan maut sehingga diizinkan kembali ke dunia orang hidup sebagai Xtabay, yang bertugas merayu dan menghukum lelaki yang menyimpang.",
+          "quote": "Unhappy with this, Utz-Colel made a deal with death, so she was allowed to come back to the land of the living as Xtabay, dedicated to seduce and punish wayward men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c18",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "A local high school teacher explained to the author that the legend was modified by the priests of the colonization in order to create order.",
+          "statement_id": "Seorang guru SMA setempat menjelaskan kepada penulis bahwa legenda ini diubah oleh para pastor masa kolonisasi untuk menciptakan ketertiban.",
+          "quote": "Local high school teacher Edgar Pérez Aguilar explained to me that the legend was modified by the priests of the colonization in order to create order.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c19",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "As a result, the legend is considered \"mestizo\", a combination of indigenous and Spanish culture.",
+          "statement_id": "Akibatnya, legenda ini dianggap \"mestizo\", perpaduan budaya pribumi dan Spanyol.",
+          "quote": "As a result, the legend is considered “mestizo,” a combination of indigenous and Spanish culture.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c20",
+          "source_id": "xtabay-s2",
+          "host": "yucatantoday.com",
+          "statement": "Mérida has a monument honoring the legend of La Xtabay: a huge statue in which she is wrapped around a majestic ceiba tree.",
+          "statement_id": "Mérida memiliki monumen yang menghormati legenda La Xtabay: patung besar tempat ia melingkari pohon ceiba yang megah.",
+          "quote": "Mérida boasts a monument that honors the legend of La Xtabay: a huge statue where she is wrapped around a majestic ceiba tree.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "acalica",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "aef6678d396b55abd2d935806bd86d0b3cb4c8c6967debb9679e2bb1f3318d56",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -652,16 +1536,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"they are said to control the weather live in caves and are…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"when they do appear they are said to take the form of…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -700,7 +1574,8 @@
     },
     {
       "slug": "agnen",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "817f4dd6432e7a549c30d5bfab368a073e5b99d1773f563a7920685c88fb9a37",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -712,11 +1587,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"he plays a role in the myth of the twins devouring one…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -745,20 +1615,15 @@
     },
     {
       "slug": "amikuk",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "291f2722a1cf4c6552dfca2f8ba654167aae1c7656b72f8c19a580c2e825378c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amikuk-c01",
@@ -789,26 +1654,115 @@
           "quote": "As it lives within the ground, the Amikuk will pursue hunters onto land, swimming through the earth as easily as they swim through the water.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "amikuk-c04",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a shapeshifter, the Amikuk is said to take many forms and to behave differently depending on where a person meets it.",
+          "statement_id": "Sebagai pengubah wujud, Amikuk dikatakan mengambil banyak bentuk dan berperilaku berbeda tergantung tempat seseorang bertemu dengannya.",
+          "quote": "As a shapeshifter, the Amikuk is said to take many forms, and to behave differently dependent on where a person encounters them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c05",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its skin is leathery, and it attacks hunters in their kayaks, dragging them under the water to be eaten.",
+          "statement_id": "Kulitnya liat seperti kulit samak, dan ia menyerang pemburu di kayak mereka, menyeret mereka ke bawah air untuk dimakan.",
+          "quote": "Its skin is leathery, and it will attack hunters in their kayaks, dragging them under the water to be eaten.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c06",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In its natural habitat within the earth, the Amikuk is said to turn the surface a person is walking on into quicksand by quickly \"swimming\" around them.",
+          "statement_id": "Di habitat alaminya di dalam tanah, Amikuk dikatakan mengubah permukaan tempat seseorang berjalan menjadi pasir hisap dengan cepat \"berenang\" mengelilinginya.",
+          "quote": "In its natural habitat within the earth itself, the Amikuk is said to turn the surface a person is walking on into quicksand by quickly \"swimming\" around them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c07",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Amikuk can also take human form, which it may do when it is \"tired of being amikut for a long time\". In human form it may be called a Qamungelriit.",
+          "statement_id": "Amikuk juga dapat berwujud manusia, yang mungkin dilakukannya ketika ia \"lelah menjadi amikut dalam waktu lama\". Dalam wujud manusia ia dapat disebut Qamungelriit.",
+          "quote": "The Amikuk can also take the form of a human, which it may do when it is \"tired of being amikut for a long time\". In human form, the Amikuk may be referred to as a Qamungelriit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c08",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If a person meets an Amikuk in human form, they should sit down with their back to the creature and not speak to it.",
+          "statement_id": "Bila seseorang bertemu Amikuk dalam wujud manusia, ia sebaiknya duduk membelakangi makhluk itu dan tidak berbicara kepadanya.",
+          "quote": "If a person encounters an Amikuk in human form, they should sit down with their back to the creature, and not speak to it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c09",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the Amikuk is shot, it is said to multiply into eight beings.",
+          "statement_id": "Bila Amikuk ditembak, ia dikatakan berlipat menjadi delapan makhluk.",
+          "quote": "When the Amikuk is shot, it is said to multiply into eight beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c10",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A traditional Yup'ik mask representing the Amikuk by Aarnaquq (a.k.a. Phillip John Charette) is on permanent display at the Portland Art Museum.",
+          "statement_id": "Sebuah topeng Yup'ik tradisional yang mewakili Amikuk, karya Aarnaquq (alias Phillip John Charette), dipamerkan permanen di Portland Art Museum.",
+          "quote": "A traditional Yup'ik mask representing the Amikuk by Aarnaquq (a.k.a. Phillip John Charette) is on permanent display at the Portland Art Museum.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c11",
+          "source_id": "amikuk-s2",
+          "host": "www.si.edu",
+          "statement": "A National Museum of the American Indian collection record titles a mask as a mask representing \"amikuk,\" a spirit that lives in the ground.",
+          "statement_id": "Catatan koleksi National Museum of the American Indian menjuluki sebuah topeng sebagai topeng yang mewakili \"amikuk\", roh yang hidup di dalam tanah.",
+          "quote": "Mask representing \"amikuk,\" a spirit that lives in the ground",
+          "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240726022145id_/https://www.si.edu/object/NMAI_100604",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "amikuk-c12",
+          "source_id": "amikuk-s2",
+          "host": "www.si.edu",
+          "statement": "According to the collection history, the mask was collected by Bethel, Alaska, trader Adams Hollis Twitchell, probably between 1905 and 1916, and purchased by the museum from Twitchell in 1919.",
+          "statement_id": "Menurut riwayat koleksi, topeng itu dikumpulkan oleh pedagang Bethel, Alaska, Adams Hollis Twitchell, kemungkinan antara 1905 dan 1916, dan dibeli museum dari Twitchell pada 1919.",
+          "quote": "Collected by Bethel, Alaska, trader Adams Hollis Twitchell (1872-1949), probably between 1905 and 1916; purchased by MAI from A. H. Twitchell in 1919",
+          "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240726022145id_/https://www.si.edu/object/NMAI_100604",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         }
       ],
       "images": []
     },
     {
       "slug": "animikii",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "c3f051144aee2e70bf8bb38acc509de0191b062a17e1d368494a4199f4184d7a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "animikii-c01",
@@ -839,36 +1793,81 @@
           "quote": "Animikii doslovno znači \"gromovnik\", a Binesi znači \"velika ptica\".",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "animikii-c04",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "Animikii is a giant mythological thunderbird common to the northern and western tribes. Thunder is caused by the beating of their immense wings.",
+          "statement_id": "Animikii adalah burung guntur mitologis raksasa yang dikenal di suku-suku utara dan barat. Guntur disebabkan oleh kepakan sayap mereka yang sangat besar.",
+          "quote": "Animikii is a giant mythological thunder-bird common to the northern and western tribes. Thunder is caused by the beating of their immense wings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c05",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "Although thunderbirds are very powerful beings, they rarely bother humans and are treated with reverence by the Ojibwe.",
+          "statement_id": "Meski burung guntur adalah makhluk yang sangat kuat, mereka jarang mengganggu manusia dan diperlakukan dengan hormat oleh orang Ojibwe.",
+          "quote": "Although thunderbirds are very powerful beings, they rarely bother humans, and are treated with reverence by Ojibwe people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c06",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "Animikii literally means \"thunderer\", and Binesi means \"the great bird\".",
+          "statement_id": "Animikii secara harfiah berarti \"pembuat guntur\", dan Binesi berarti \"burung besar\".",
+          "quote": "Animikii literally means \"thunderer,\" and Binesi means \"the great bird.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c07",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "Animikii is also known as Binesi, Wapoothi and Waputhi.",
+          "statement_id": "Animikii juga dikenal sebagai Binesi, Wapoothi, dan Waputhi.",
+          "quote": "Also known as: Binesi, Wapoothi, Waputhi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c08",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "Alternate spellings include Animiki, Nimkii, Onimiki, Nemki and Nenimkee.",
+          "statement_id": "Ejaan alternatifnya antara lain Animiki, Nimkii, Onimiki, Nemki, dan Nenimkee.",
+          "quote": "Alternate spellings: Animiki, Animkii, Nimkii, Nimki, Onimikì, Animikì, Onimiki, Onimiski, Nimki, Nemki, Animike, Nenemki, Nenimkee, Nenemhki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c09",
+          "source_id": "animikii-s2",
+          "host": "www.native-languages.org",
+          "statement": "One related Ojibwe legend tells of Nanabozho stealing fire from Thunderbird to share with the people.",
+          "statement_id": "Salah satu kisah Ojibwe yang terkait berkisah tentang Nanabozho yang mencuri api dari Burung Guntur untuk dibagikan kepada manusia.",
+          "quote": "Ojibwe legend about the Nanabozho stealing fire from Thunderbird to share with the people.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "atahsaia",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-3.md",
+      "entry_sha256": "2ea21c268537318f0022ba3ccf38b5e0cee685b9c9006d76065bac3bcf2f0805",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"he is a giant several times larger than a normal human being…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in one story he is depicted as so huge that he cannot…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atahsaia-c01",
@@ -897,6 +1896,126 @@
           "statement": "In one story, he is depicted as so huge that he cannot fit his shoulders into a cave that a normal human easily passes.",
           "statement_id": "Dalam satu kisah, ia digambarkan sedemikian besar sehingga pundaknya tidak muat ke dalam gua yang dapat dilalui manusia biasa.",
           "quote": "In one story, he is depicted as so huge that he cannot fit his shoulders into a cave in which a normal human being can pass easily.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c04",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is a cannibal, but besides eating his fellow demons he is also depicted as hungry for human flesh. He is also an inveterate liar.",
+          "statement_id": "Ia seorang kanibal; selain memakan sesama iblis, ia juga digambarkan lapar akan daging manusia. Ia juga pembohong kawakan.",
+          "quote": "He is a cannibal, but in addition to eating his fellow demons he is also depicted as hungry for human flesh. He is also an inveterate liar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c05",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to anthropologist Elsie Clews Parsons, Átahsaia figures in a Zuni spiritual dance intended to teach children lessons about obedience.",
+          "statement_id": "Menurut antropolog Elsie Clews Parsons, Átahsaia muncul dalam tarian spiritual Zuni yang dimaksudkan mengajarkan anak-anak tentang kepatuhan.",
+          "quote": "According to anthropologist Elsie Clews Parsons, Átahsaia figures in a Zuni spiritual dance intended to teach children lessons about obedience.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c06",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Zuni folklore, the a'doshlě is a \"grandfather god\" and the suukě a \"grandmother god\", representations of Átahsaia.",
+          "statement_id": "Dalam cerita rakyat Zuni, a'doshlě adalah \"dewa kakek\" dan suukě \"dewa nenek\", yang merupakan representasi Átahsaia.",
+          "quote": "In Zuni folklore, the a'doshlě is a \"grandfather god\" and the suukě a \"grandmother god\"—representations of Átahsaia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c07",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story \"Átahsaia, the Cannibal Demon\", the demon lies to two young maidens who, believing he is their ugly grandfather, follow him to his home.",
+          "statement_id": "Dalam kisah \"Átahsaia, the Cannibal Demon\", iblis itu berbohong kepada dua gadis muda yang, mengira ia kakek mereka yang buruk rupa, mengikutinya ke rumahnya.",
+          "quote": "In the story \"Átahsaia, the Cannibal Demon,\" the demon lies to two young maidens, who (believing he is their ugly grandfather) follow Átahsaia to his home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c08",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In Cushing's telling, the cave is still called the \"Cave of Átahsaia\", and there Átahsaia himself lived in the times of the tale.",
+          "statement_id": "Menurut penuturan Cushing, gua itu hingga kini disebut \"Gua Átahsaia\", dan di sanalah Átahsaia sendiri tinggal pada masa yang dikisahkan.",
+          "quote": "to this day it is called the “Cave of Átahsaia,” and there, in the times I tell of, lived Átahsaia himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c09",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In Cushing's telling his body was as big as the biggest elk's and his breast was shaggy with hair as stiff as porcupine quills.",
+          "statement_id": "Dalam penuturan Cushing, tubuhnya sebesar tubuh rusa elk terbesar dan dadanya berbulu kaku seperti duri landak.",
+          "quote": "Uhh! what an ugly demon he was! His body was as big as the biggest elk’s, and his breast was shaggy with hair as stiff as porcupine-quills.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c10",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In Cushing's telling Átahsaia was ugly, could not speak without chattering his teeth or laugh without barking like a wolf, yet he was a very polite demon and a great liar.",
+          "statement_id": "Dalam penuturan Cushing, Átahsaia buruk rupa, tak bisa bicara tanpa gigi bergemeletuk atau tertawa tanpa menggonggong seperti serigala, tetapi ia iblis yang sangat sopan dan pembohong besar.",
+          "quote": "Now, although Átahsaia was ugly and could not speak without chattering his teeth, or laugh without barking like a wolf, he was a very polite demon. But, like many ugly and polite people nowadays, he was a great liar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c11",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In the tale the character Mátsailéma says that there Átahsaia cuts the throats of his captives and casts their bones and heads into the depths of the chasm.",
+          "statement_id": "Dalam kisah itu, tokoh Mátsailéma berkata bahwa di tempat itu Átahsaia menggorok leher tawanannya dan melempar tulang serta kepala mereka ke dalam jurang.",
+          "quote": "What but that there he cuts the throats of his captives and casts their bones and heads into the depths of the chasm!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c12",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In Cushing's telling, Áhaiyúta and Mátsailéma were the twin children of the Sun-father and the Mother Waters of the World.",
+          "statement_id": "Dalam penuturan Cushing, Áhaiyúta dan Mátsailéma adalah anak kembar Bapa Matahari dan Ibu Air Dunia.",
+          "quote": "They were the twin children of the Sun-father and the Mother Waters of the World.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c13",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In the tale Áhaiyúta looses an arrow that, with a thundering noise and a rush of strong wind, buries itself in the demon's shoulders.",
+          "statement_id": "Dalam kisah itu, Áhaiyúta melepaskan anak panah yang menembus bahu sang iblis disertai gemuruh dan angin kencang.",
+          "quote": "Áhaiyúta drew a shaft to the point and let fly. With a thundering noise that rent the rocks, and a rush of strong wind, the shaft blazed through the air and buried itself in the demon’s shoulders",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c14",
+          "source_id": "atahsaia-s2",
+          "host": "standardebooks.org",
+          "statement": "In the tale Áhaiyúta tells the demon's head that it has been a liar and shall become a lying star.",
+          "statement_id": "Dalam kisah itu, Áhaiyúta berkata kepada kepala sang iblis bahwa ia pembohong dan akan menjadi bintang pembohong.",
+          "quote": "Thou hast been a liar, and told a falsehood for every life thou hast taken in the world; therefore shall thou become a lying star",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c15",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The twin Zuni war gods, Åhayúta and Mátsailéma, rescue the two young women and kill the demon.",
+          "statement_id": "Dua dewa perang kembar Zuni, Åhayúta dan Mátsailéma, menyelamatkan kedua gadis itu dan membunuh iblis tersebut.",
+          "quote": "The twin Zuni war gods, Åhayúta and Mátsailéma, rescue the two young women and kill the demon.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -951,7 +2070,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1db6ceeb1063e750da9627c8e1901ee46037d97df04fbd0dad547eba00ed29bd"
     },
     {
       "slug": "augerino",
@@ -1001,7 +2121,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "06291b5c876b271db0445baba66655559a135ad321bb884b2efebe10e047f403"
     },
     {
       "slug": "awanyu",
@@ -1061,29 +2182,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a906ce3e844b513c509c3c72ccd09869676b8a866a8df8547bdb1e647bf0fdb"
     },
     {
       "slug": "baca-mythological-creature",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "b23358ab8145556a725644e9b34a8454ade5f61afd403f92e4cfd5b40796bff7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"commonly described as a large black dog or bull although folklore suggests…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "baca-mythological-creature-c01",
@@ -1113,6 +2225,76 @@
           "statement_id": "Baca adalah hewan familiar iblis yang umumnya berwujud anjing hitam besar atau banteng.",
           "quote": "The Bacá is a demonic animal familiar commonly described as a large black dog or bull, although folklore suggests they can take the form of other domestic animals—such as cats, pigs, or chickens.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c04",
+          "source_id": "baca-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bacá is also known as a \"sent spirit\" and can transform into any animal, but is often depicted as a large dog or bull.",
+          "statement_id": "Bacá juga disebut \"roh kiriman\" dan dapat berubah menjadi hewan apa pun, tetapi paling sering digambarkan sebagai anjing atau banteng besar.",
+          "quote": "The Bacá is also known as a \"sent spirit\" and can transform into any animal, but is often depicted as a large dog or bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c05",
+          "source_id": "baca-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bacá is often associated with southern rural regions of the Dominican Republic, where it represents anxieties around race, gender, money, and power.",
+          "statement_id": "Bacá sering dikaitkan dengan daerah pedesaan di bagian selatan Republik Dominika, tempat ia mewakili kecemasan seputar ras, gender, uang, dan kekuasaan.",
+          "quote": "The Bacá is often associated with southern rural regions of the Dominican Republic, where it represents anxieties around race, gender, money, and power.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c06",
+          "source_id": "baca-mythological-creature-s2",
+          "host": "www.international.ucla.edu",
+          "statement": "The baka/bacá (Haitian Creole and Spanish spellings respectively) are errant spirits on the Caribbean island of Hispaniola that turn humans into animals through sorcery.",
+          "statement_id": "Baka/bacá (ejaan Kreol Haiti dan Spanyol) adalah roh pengembara di pulau Hispaniola di Karibia yang mengubah manusia menjadi hewan lewat ilmu sihir.",
+          "quote": "errant spirits on the Caribbean island of Hispaniola that turn humans into animals through sorcery.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c07",
+          "source_id": "baca-mythological-creature-s2",
+          "host": "www.international.ucla.edu",
+          "statement": "The animals in question are those brought to the island by successive Spanish colonial invasions: cows, horses, mules, pigs and dogs.",
+          "statement_id": "Hewan yang dimaksud adalah hewan yang dibawa ke pulau itu oleh gelombang invasi kolonial Spanyol: sapi, kuda, bagal, babi, dan anjing.",
+          "quote": "Not just any animals, mind you, but the animals brought to the island by successive Spanish colonial invasions: cows, horses, mules, pigs and dogs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c08",
+          "source_id": "baca-mythological-creature-s2",
+          "host": "www.international.ucla.edu",
+          "statement": "Baka both empower people and do bad things to them.",
+          "statement_id": "Baka memberi kekuatan kepada manusia sekaligus berbuat hal-hal buruk terhadap mereka.",
+          "quote": "Baka both empower people and do bad things to them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c09",
+          "source_id": "baca-mythological-creature-s2",
+          "host": "www.international.ucla.edu",
+          "statement": "Belief in the baka/bacá spreads across both parts of the island, but in the Dominican Republic only Haitian sorcery is believed able to create one or remove it.",
+          "statement_id": "Kepercayaan pada baka/bacá meresap di kedua bagian pulau, tetapi di Republik Dominika diyakini hanya sihir Haiti yang dapat menciptakan atau melenyapkannya.",
+          "quote": "Belief in the baka/bac ... permeates both parts of the island, but in the DR it is believed that only Haitian sorcery can create or get rid of one.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c10",
+          "source_id": "baca-mythological-creature-s2",
+          "host": "www.international.ucla.edu",
+          "statement": "People commonly associate bacá with ill-gotten wealth.",
+          "statement_id": "Orang umumnya mengaitkan bacá dengan kekayaan yang diperoleh secara tidak sah.",
+          "quote": "People commonly associate bac ... with ill-gotten wealth.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1166,7 +2348,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ae78a20abe4a65c53b6b3f69d5237d806740966e08bb67e9e0e824d2825d4ae"
     },
     {
       "slug": "bicho-da-fortaleza",
@@ -1216,7 +2399,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1452998bbbc7d76af0a478edeb605837bc72701e5ed1333f4e02ee0ebd72af14"
     },
     {
       "slug": "blue-crow",
@@ -1235,7 +2419,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "c9ddcd5d44b63dce03ca6a5167ea48593185dd25b1402b28f9986e15a37e3dbb"
     },
     {
       "slug": "boi-vaquim",
@@ -1285,7 +2470,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e883c9ebd1a2b34188bf68acefb72b04987897c25cb0ec2c939be5dc80974cd5"
     },
     {
       "slug": "boo-hag",
@@ -1335,7 +2521,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1ca8aceb1f589b9a5f3e92bed00def8a6cc87288e85903b9396559fbd28d447b"
     },
     {
       "slug": "cainame",
@@ -1375,7 +2562,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3aebb7cbed93c38fadb0f70b26ae85d8d8c99cc49f291aa83e543b33227ef2ad"
     },
     {
       "slug": "capeta-do-vilarinho",
@@ -1425,7 +2613,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f7d64d0ccb0cf6027ebf0ad4d85db623e8f70469ca9ef3556f8648fcd50888fd"
     },
     {
       "slug": "cavalo-d-agua",
@@ -1455,7 +2644,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "17f209b25ffb0f8e00b368109f3db85124fc2499b106944b3255bc535aecb626"
     },
     {
       "slug": "che-uinic",
@@ -1515,7 +2705,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eea116ae5d167e9f64f3d1c2bf27411300b1711d0db3c03300160f288fac1b7a"
     },
     {
       "slug": "clermeil",
@@ -1570,7 +2761,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ceae7644aeb9dbcfcc1ce867695f91419f97308feae15fb2652d17944f5fb3b5"
     },
     {
       "slug": "coo",
@@ -1620,24 +2812,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4df9d8ea0d2a526f6b543c2af721e9721839527e76bd7cc6fc4eef8cef7dd105"
     },
     {
       "slug": "dark-watchers",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "76fbe848070eb4991a4fbda74f5a1ef76b8a666a30dea96c89f3cc16f1cd261c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dark-watchers-c01",
@@ -1667,6 +2855,86 @@
           "statement_id": "Mereka paling sering dilaporkan terlihat pada saat senja dan fajar.",
           "quote": "They are most often reported to be seen in the hours around twilight and dawn.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c04",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, no one has seen one up close and if someone were to approach them, they disappear.",
+          "statement_id": "Menurut legenda, tak seorang pun pernah melihatnya dari dekat, dan jika seseorang mendekat, mereka menghilang.",
+          "quote": "According to legend, no one has seen one up close and if someone were to approach them, they disappear.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c05",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Although sometimes attributed to the Chumash people who historically inhabited the central and southern coastal regions of California, nothing analogous to the legend appears to exist in their mythology.",
+          "statement_id": "Meski kadang dikaitkan dengan suku Chumash yang secara historis mendiami pesisir tengah dan selatan California, tampaknya tidak ada hal serupa dalam mitologi mereka.",
+          "quote": "While sometimes attributed to the Chumash people who historically inhabited the central and southern coastal regions of California, nothing analogous to the legend appears to exist in their mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c06",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Dark Watchers are most famously given a brief mention in John Steinbeck's \"Flight\", included in his 1938 short story collection The Long Valley.",
+          "statement_id": "Para Dark Watchers paling terkenal disebut sekilas dalam cerpen \"Flight\" karya John Steinbeck, yang dimuat dalam kumpulan cerpen The Long Valley tahun 1938.",
+          "quote": "The Dark Watchers are most famously given a brief mention in John Steinbeck's \"Flight\", included in the 1938 collection of his short stories The Long Valley",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c07",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Psychologists have proposed illusions, hallucinations or misinterpretation of natural stimuli brought on by exhaustion or isolation.",
+          "statement_id": "Psikolog mengusulkan bahwa penampakan itu berasal dari ilusi, halusinasi, atau salah tafsir rangsangan alam akibat kelelahan atau keterasingan.",
+          "quote": "Illusions, hallucinations or misinterpretation of natural stimulus brought on by exhaustion or isolation have been proposed by psychologists.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c08",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An optical illusion known as the Brocken spectre is described as a plausible explanation for the legend.",
+          "statement_id": "Ilusi optik yang dikenal sebagai Brocken spectre disebut sebagai penjelasan yang masuk akal bagi legenda ini.",
+          "quote": "An optical illusion known as the Brocken spectre is a plausible explanation for the legend.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c09",
+          "source_id": "dark-watchers-s2",
+          "host": "skeptoid.com",
+          "statement": "As summarized by Skeptoid, the Dark Watchers survey the crags and peaks of California's Santa Lucia Mountains and look out to sea, often in broad-brimmed hats and with a staff or walking stick, but always still, silent and featureless.",
+          "statement_id": "Dalam penuturan yang dirangkum Skeptoid, para Dark Watchers mengamati puncak dan tebing Pegunungan Santa Lucia di California ke arah laut, sering bertopi lebar dan membawa tongkat, tetapi selalu diam, tak bersuara, dan tak berwajah.",
+          "quote": "Surveying the crags and peaks of California's Santa Lucia Moutains, the Dark Watchers look out to sea, often in broad brimmed hats, often with a staff or walking stick, but always still and silent and featureless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c10",
+          "source_id": "dark-watchers-s2",
+          "host": "skeptoid.com",
+          "statement": "The poet Robinson Jeffers, who lived and wrote in Big Sur, published the poem Such Counsels You Gave to Me in 1937 in a volume of the same title.",
+          "statement_id": "Penyair Robinson Jeffers, yang tinggal dan menulis di Big Sur, pada 1937 menerbitkan puisi Such Counsels You Gave to Me dalam kumpulan puisi berjudul sama.",
+          "quote": "The poet Robinson Jeffers also lived and wrote in Big Sur, and in 1937 he published the poem Such Counsels You Gave to Me in a volume of the same title",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c11",
+          "source_id": "dark-watchers-s2",
+          "host": "skeptoid.com",
+          "statement": "The Skeptoid author states he found no earlier mention of the stoic observers in any archive of published material prior to 1937.",
+          "statement_id": "Penulis Skeptoid menyatakan tidak menemukan penyebutan yang lebih awal tentang para pengamat ini di arsip bahan terbitan mana pun sebelum 1937.",
+          "quote": "I found no earlier mention of the stoic observers in any archive of published material prior to 1937.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1720,7 +2988,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b2dd0204707c94cd2103e3e0fe0d6f9c57cf030a1f5d46e6ec5fe7987f07e11c"
     },
     {
       "slug": "dungavenhooter",
@@ -1760,7 +3029,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cfe38094dcda8f54f7579725bb0d4bb98e899f972893eec9389ae863f0dc0bbf"
     },
     {
       "slug": "gang-gang-sarah",
@@ -1805,24 +3075,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "71e121fb7c9cba4eceb3821d69014e517def7684cfbce472566f5acd607a9e7a"
     },
     {
       "slug": "gloucester-sea-serpent",
-      "file": "batch-148-fix-1.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "7e70244bd5a9bd340f941eef8c1477d9ae3c6550921feeed1a2ae49b2e65ebc4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gloucester-sea-serpent-c01",
@@ -1852,6 +3118,106 @@
           "statement_id": "Digambarkan sebagai makhluk mirip ular raksasa dengan punuk di sepanjang punggungnya, ular laut ini disaksikan banyak nelayan.",
           "quote": "Described as a massive serpent-like creature with humps along its back, the Gloucester Sea Serpent has been the subject of numerous sightings and tales of encounters by fishermen and sailors.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c04",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest alleged sighting of such a creature off Cape Ann was recorded in 1638 by John Josselyn.",
+          "statement_id": "Penampakan makhluk serupa yang diduga paling awal di lepas Cape Ann dicatat pada 1638 oleh John Josselyn.",
+          "quote": "The earliest alleged sighting of such a creature off Cape Ann was recorded in 1638 by John Josselyn.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c05",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several witnesses reported seeing a stinger or spear protruding from the creature's head, which led Joe Nickell to conclude that it was a narwhal.",
+          "statement_id": "Beberapa saksi melaporkan melihat sengat atau tombak mencuat dari kepala makhluk itu, yang membuat Joe Nickell menyimpulkan bahwa makhluk itu adalah narwhal.",
+          "quote": "Several witnesses had reported seeing a stinger or spear protruding from the head of the creature, which has led Joe Nickell to conclude that the creature is a narwhal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c06",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some described it as a long, snake-like creature, while others claimed to have seen a hump-backed animal with a head like a horse, a seal or a dinosaur.",
+          "statement_id": "Ada yang menggambarkannya sebagai makhluk panjang seperti ular, sementara yang lain melihat hewan berpunuk dengan kepala seperti kuda, anjing laut, atau dinosaurus.",
+          "quote": "Some have described it as a long, snake-like creature, while others have claimed to have seen a hump-backed animal with a head like a horse, a seal or a dinosaur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c07",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2023 Karl Brandt suggested that well-known sea serpent sightings, including those of the Gloucester sea serpent, could be explained by harpooned sperm whales held fast to their hunters' overturned rowboats.",
+          "statement_id": "Pada 2023 Karl Brandt mengusulkan bahwa penampakan ular laut yang terkenal, termasuk ular laut Gloucester, dapat dijelaskan oleh paus sperma yang terkena harpun dan menarik perahu pemburunya yang terbalik.",
+          "quote": "In 2023, Karl Brandt suggested well-known sea serpent sightings, including those of the Gloucester Sea Serpent, could be explained by harpooned sperm whales held fast to their hunters’ overturned rowboats.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c08",
+          "source_id": "gloucester-sea-serpent-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, it was first spotted in 1817 by two women who saw a long line of humps moving across Gloucester Harbor.",
+          "statement_id": "Menurut Skeptoid, makhluk itu pertama kali terlihat pada 1817 oleh dua perempuan yang melihat deretan punuk panjang bergerak melintasi Pelabuhan Gloucester.",
+          "quote": "was first spotted in 1817 by two women who saw a long line of humps moving along across Gloucester Harbor.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c09",
+          "source_id": "gloucester-sea-serpent-s2",
+          "host": "skeptoid.com",
+          "statement": "By the end of 1817 there were eighteen published accounts. They continued but steadily declined, with the last known published sighting in 1819.",
+          "statement_id": "Pada akhir 1817 terdapat delapan belas laporan terbit. Laporan terus muncul tetapi kian berkurang, dengan penampakan terbit terakhir yang diketahui pada 1819.",
+          "quote": "By the end of 1817 there were eighteen published accounts. They continued but steadily declined, with the last known published sighting in 1819.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c10",
+          "source_id": "gloucester-sea-serpent-s2",
+          "host": "skeptoid.com",
+          "statement": "Nearly all reports described it as a long line of humps; one witness said it looked like a rope lined with keg or cork buoys.",
+          "statement_id": "Hampir semua laporan menggambarkannya sebagai deretan punuk yang panjang; seorang saksi menyamakannya dengan tali yang dipasangi pelampung tong atau gabus.",
+          "quote": "Nearly all the reports described it as a long line of humps; one witness described it as looking like \"a rope lined with keg or cork buoys\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c11",
+          "source_id": "gloucester-sea-serpent-s2",
+          "host": "skeptoid.com",
+          "statement": "Several times the creature was said to have what the papers called a \"sting\", like a spear, stinger or pointed tusk sticking out of the front of its head.",
+          "statement_id": "Beberapa kali makhluk itu dikatakan memiliki apa yang di surat kabar disebut \"sengat\", seperti tombak atau gading runcing yang mencuat dari depan kepalanya.",
+          "quote": "Several times Glossy was said to have what was written in the papers as a \"sting,\" like a spear or stinger or pointed tusk sticking out the front of its head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c12",
+          "source_id": "gloucester-sea-serpent-s2",
+          "host": "skeptoid.com",
+          "statement": "Skeptoid argues that a wave phenomenon fits all the reports of a long line of regularly spaced humps.",
+          "statement_id": "Skeptoid berpendapat bahwa fenomena gelombang cocok dengan semua laporan tentang deretan punuk yang berjarak teratur.",
+          "quote": "the wave phenomenon fits very nicely for all the reports of a long line of regularly spaced humps",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c13",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Charleston playwright William Crafts lampooned the reports of the serpent in his play The sea serpent; or, Gloucester hoax, published in 1819.",
+          "statement_id": "Penulis drama Charleston William Crafts menyindir laporan tentang ular itu dalam lakonnya The sea serpent; or, Gloucester hoax, yang terbit pada 1819.",
+          "quote": "Charleston playwright William Crafts lampooned the reports of the serpent in his play The sea serpent; or, Gloucester hoax: A dramatic jeu d'esprit, in three acts, published in 1819.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1910,7 +3276,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f406a655a4e50169a307431c1d2fa17580de9e1ce61cac08b811229a96418de4"
     },
     {
       "slug": "goose-wife",
@@ -1960,24 +3327,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5a4f4b72bd107335d3a6a5af9c9679bb31d38c29875df1f2a4ddebd0afd447a0"
     },
     {
       "slug": "grafton-monster",
-      "file": "batch-148.md",
+      "file": "batch-148-fix-2.md",
+      "entry_sha256": "aab5ae340f0e14a163bd0b946e03f9710c7a1ce146b95aeaa6ce37deb3291f8a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "grafton-monster-c01",
@@ -1997,6 +3360,76 @@
           "statement_id": "Makhluk ini digambarkan sangat tinggi, berkulit pucat, kadang tampak tanpa kepala dan bersiul ganjil.",
           "quote": "Descriptions vary by source, but the creature is commonly portrayed as a very tall, pale or light-colored figure, sometimes described as appearing headless and producing an unusual whistling sound.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c03",
+          "source_id": "grafton-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most-cited origin account places the first reported sighting late on the night of June 16, 1964, along Route 119 near the Tygart Valley River outside Grafton.",
+          "statement_id": "Kisah asal yang paling banyak dikutip menempatkan laporan penampakan pertama pada larut malam 16 Juni 1964 di Route 119 dekat Sungai Tygart Valley di luar Grafton.",
+          "quote": "The most-cited origin account places the first reported sighting late on the night of June 16, 1964, along Route 119 near the Tygart Valley River outside Grafton.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c04",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "Cockrell wrote in the Grafton Sentinel newspaper that the creature stood between seven and nine feet tall, had \"seal-like\" skin, and appeared to be headless. It also produced a whistling sound.",
+          "statement_id": "Cockrell menulis di surat kabar Grafton Sentinel bahwa makhluk itu setinggi tujuh hingga sembilan kaki, berkulit \"seperti anjing laut\", dan tampak tak berkepala. Makhluk itu juga mengeluarkan bunyi siulan.",
+          "quote": "Cockrell wrote in the Grafton Sentinel newspaper that the creature stood between seven and nine feet tall, had \"seal-like\" skin, and appeared to be headless. It also produced a whistling sound.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c05",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "Cockrell's report sparked a frenzy, and word of the sighting spread quickly. Local teenagers began forming search parties.",
+          "statement_id": "Laporan Cockrell memicu kehebohan dan kabar penampakan itu cepat menyebar. Remaja setempat mulai membentuk regu pencari.",
+          "quote": "Cockrell's report sparked a frenzy, and word of the sighting spread quickly. Local teenagers began forming search parties.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c06",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "The town was so overwhelmed that the Sentinel rejected the story as a \"spring fever\" fantasy and encouraged visitors to return home.",
+          "statement_id": "Kota itu begitu kewalahan sehingga Sentinel menolak ceritanya sebagai khayalan \"demam musim semi\" dan mengimbau pengunjung pulang.",
+          "quote": "The town was so overwhelmed that the Sentinel rejected the story as a \"spring fever\" fantasy and encouraged visitors to return home.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c07",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "Worldwide interest in the Grafton Monster waned over the next half-century, but increased significantly when the creature was featured in the 2018 video game Fallout 76, set in a fictionalized version of West Virginia.",
+          "statement_id": "Minat dunia pada Grafton Monster surut selama setengah abad berikutnya, tetapi meningkat tajam ketika makhluk itu muncul dalam gim video Fallout 76 (2018) yang berlatar versi fiksi West Virginia.",
+          "quote": "Worldwide interest in the Grafton Monster waned over the next half-century, but increased significantly when the creature was featured in the 2018 video game Fallout 76, set in a fictionalized version of West Virginia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c08",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "In June 2024, the city hosted the first annual Grafton Monster Festival.",
+          "statement_id": "Pada Juni 2024 kota itu menggelar Grafton Monster Festival tahunan yang pertama.",
+          "quote": "In June 2024, the city hosted the first annual Grafton Monster Festival.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c09",
+          "source_id": "grafton-monster-s2",
+          "host": "www.wvencyclopedia.org",
+          "statement": "To date, Cockrell's sighting is considered the most credible encounter with the Grafton Monster.",
+          "statement_id": "Hingga kini, penampakan oleh Cockrell dianggap sebagai perjumpaan paling kredibel dengan Grafton Monster.",
+          "quote": "To date, Cockrell's sighting is considered the most credible encounter with the Grafton Monster.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -2040,7 +3473,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b304c582cb2ff5a9486979041eec3328caaa6fb635546f02a1e5e662bfcfdcd7"
     },
     {
       "slug": "gumberoo",
@@ -2090,7 +3524,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "539a023a3fefca554bbb5dcfc04873013b8df558ad8723dcd6c475fdf20d980c"
     },
     {
       "slug": "hillbilly-beast-of-kentucky",
@@ -2130,7 +3565,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "faa043027a8e6b5878de172c906fd3baa596eedf7f77e1cfb7232678f0eb951e"
     },
     {
       "slug": "hombre-gato",
@@ -2180,7 +3616,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3acc38452320a8f3a3a5ba84232efbfaefc426a719464e306da1b39b9572c29"
     },
     {
       "slug": "homem-dos-pes-de-louca",
@@ -2230,7 +3667,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3483e160e46a368b0d88ccfcc3a4021f9861e3ffb9a104dc367ffbeb34413e11"
     },
     {
       "slug": "horned-serpent",
@@ -2280,7 +3718,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9cb10eca2949fd15eb3a07aa2f29d6af637a71a88ddd528b147c93ea72e36478"
     },
     {
       "slug": "hugag",
@@ -2320,7 +3759,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "211cdd904438cae3d20a0233583d6f9aaedb1bf09e9eaf0196cda770fe07a1c8"
     }
   ]
 }
