@@ -1,6 +1,6 @@
 # Review batch-150
 
-Diperiksa 2026-10-06T19:16:09.572Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md.
+Diperiksa 2026-10-07T04:44:38.482Z. Berkas: batch-150.md, batch-150-fix-1.md, batch-150-fix-2.md, batch-150-fix-3.md, batch-150-fix-4.md, batch-150-fix-5.md, batch-150-fix-6.md.
 
 ## bunyip — lulus-otomatis
 
@@ -714,57 +714,69 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## adaro-mythology — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | adaro-mythology-c01 | exact | en.wikipedia.org | Adaro is a term for two distinct classes of beings in Makira mythology in the Solomon Islands. | Adaro is a term for two distinct classes of beings found in the mythology of Makira island, in the Solomon Islands. |
 | adaro-mythology-c02 | exact | en.wikipedia.org | The word adaro comes from Arosi, meaning corpse, ghost, soul, or spirit. | The word adaro is from the Arosi language; it has several meanings, including 'corpse; ghost; soul; spirit'. |
 | adaro-mythology-c03 | exact | en.wikipedia.org | Adaro most often inhabit sharks or other marine creatures. | Adaro (ghosts) most often enter into sharks or other marine animals. |
+| adaro-mythology-c04 | exact | en.wikipedia.org | The aunga passes from this world after death, while the adaro remains. | The aunga passes from this world after death, while the adaro remains. |
+| adaro-mythology-c05 | exact | en.wikipedia.org | There is an adaro who guards and an adaro who rules the Rotomana, the place where the aunga go upon death. | There is an adaro who guards and an adaro who rules the Rotomana, the place where the aunga go upon death. |
+| adaro-mythology-c06 | exact | archive.org | According to Fox, one great class of adaro consists of ghosts, and it is these chiefly that are worshipped. | One great class of adaro consists therefore of ghosts, and it is these chiefly that are worshipped. |
+| adaro-mythology-c07 | exact | archive.org | According to Fox, a second class are spirits of the sea, woods and shore, and others found in the rainbow and the waterspout; in native opinion these are not ghosts. | spirits of the sea, woods, and shore, and others found in the rainbow and the waterspout. These are not ghosts, in native opinion, whatever their origin may have been. |
+| adaro-mythology-c08 | exact | archive.org | These ghost sharks did not harm their worshippers but were often sent by them to kill men at a distance. | These ghost sharks did not harm their worshippers, but were often sent by them to kill men at a distance. |
+| adaro-mythology-c09 | exact | archive.org | Sea spirits are represented as partly human, partly fish-like, and are thought to live far out to sea or near small islands along the coast. | They are represented as partly human, partly fish-like. They are thought to live far out to sea or near small islands along the coast. |
+| adaro-mythology-c10 | exact | archive.org | Adaro ni matawa, the sea spirits, are malevolent beings that shoot men with flying-fish. | Adaro ni matawa are malevolent beings. They shoot men with flying-fish. |
 
 
 ## atanua — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | atanua-c01 | exact | en.wikipedia.org | Atanua is the goddess of dawn in Marquesan Polynesian mythology and wife of Atea. | Atanua (or Atanea) in Polynesian mythology (specifically: the Marquesas Islands) is the goddess of the dawn and wife of Atea |
 | atanua-c02 | exact | en.wikipedia.org | Their son is the first human, named Tu-Mea. | Their son is the first man, Tu-Mea. |
 | atanua-c03 | exact | en.wikipedia.org | She created the seas after a miscarriage that filled the oceans with amniotic fluid. | She created the seas after having a miscarriage and filling the oceans with her amniotic fluid. |
+| atanua-c04 | exact | archive.org | According to Handy, in house-building chants Atanua is called wife of Atea and ancestress of all men. | of the house of Atanua, wife of Atea and ancestress of all men. |
+| atanua-c05 | exact | archive.org | According to Handy, the platform of the original fa'e Papa, where Atanua the ancestress of the Marquesas islanders lived, is said to lie under the sea a little way from the western end of the beach at Atu Ona. | in which lived Atanua, the ancestress of the Marquesas islanders, lies under the sea a little way from the westward end of the beach at Atu Ona. |
+| atanua-c06 | exact | archive.org | According to Handy, genealogies usually start with the names Atea and Atanua, regarded as progenitor and progenitress of the native people. | Genealogies usually start with these names, these two being regarded as, respectively, progenitor and progenitress of the native people. |
+| atanua-c07 | exact | archive.org | According to Handy, modern natives explain that Atea and Atanua are like Adam and Eve. | Modern natives, in explaining the matter, say that Atea and Atanua are like Adam and Eve. |
+| atanua-c08 | exact | archive.org | Handy judges that Atea and Atanua were distinctly deities rather than human beings, with nothing to indicate that they were conceived as ever living on the islands in human form. | for Atea and Atanua were distinctly deities rather than human beings, and there is nothing to indicate that they are conceived of as having ever inhabited the islands as beings in human form. |
 
 
 ## aumakua — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | aumakua-c01 | exact | en.wikipedia.org | In Hawaiian mythology, an ʻaumakua is a personal or family god that originated as a deified ancestor. | is a personal or family god that originated as a deified ancestor, and which takes on physical forms such as spirit vehicles. |
 | aumakua-c02 | exact | en.wikipedia.org | An ʻaumakua can manifest as a shark, owl, bird, octopus, or inanimate objects. | An ʻaumakua may manifest as a shark, owl, bird, octopus, or inanimate objects such as plants or rocks. |
+| aumakua-c03 | exact | en.wikipedia.org | ʻAumākua were believed to watch over their families and hear their words, give them strength and guidance, warn them of misfortune or danger, and punish wrong-doers. | ʻAumākua were believed to watch over their families and hear their words, give them strength and guidance, warn them of misfortune or danger, give punishments to wrong-doers |
+| aumakua-c04 | exact | en.wikipedia.org | ʻAumākua could also bring punishment to families who offended or displeased them. | ʻAumākua could also bring punishment to families who offended or displeased them. |
+| aumakua-c05 | exact | en.wikipedia.org | ʻAumākua were able to take on kino lau (many bodies, many forms). | ʻAumākua were able to take on kino lau (many bodies, many forms) |
+| aumakua-c06 | exact | archive.org | A note to Malo's text says that, in general, an aumakua was an ancestral deity whose worship and mutual service was handed down from father to son. | In general an aumakua was an ancestral deity, whose worship and mutual service was handed down from father to son. |
+| aumakua-c07 | exact | archive.org | The note names Ku, Kane, Kanaloa and Lono as aumakuas, as were many lesser gods, and says a man might have several aumakuas. | Ku, Kane, Kanaloa and Lono were aumakuas, as were a host of lesser gods. A man might have several aumakuas. |
 
 
 ## daucina — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | daucina-c01 | exact | en.wikipedia.org | Daucina is the great god of seafaring in Fijian mythology. | In Fijian mythology (Fiji), Daucina ("torchbearer") is the great god of seafaring Fiji. |
 | daucina-c02 | exact | en.wikipedia.org | As a toddler Daucina was only quiet when looking at a lamp. | When Daucina was a toddler, he was only quiet when looking at a lamp. |
 | daucina-c03 | exact | en.wikipedia.org | His mother tied fiery reeds to his head to keep him calm. | His mother tied fiery reeds to his head so that he would be calm. |
+| daucina-c04 | exact | archive.org | Thomson writes that next after Ndengei comes Ndauthina (the torch-bearer), the god of the seafaring and fishing community throughout Fiji. | Next in order to Ndengei is Ndauthina (the torch-bearer), the god of the seafaring and fishing community throughout Fiji. |
+| daucina-c05 | exact | archive.org | Thomson records that his love of light in infancy led his mother to bind lighted reeds on his head, and that he now roams the reefs by night hooded with a flaming brazier. | His love of light in infancy prompted his mother to bind lighted reeds upon his head to amuse him, and now he roams the reefs by night hooded with a flaming brazier. |
+| daucina-c06 | exact | archive.org | Thomson records that he is the patron of adulterers and himself steals women away by night. | He is the patron of adulterers, and himself steals women away by night. |
+| daucina-c07 | exact | archive.org | Thomson records that he loves night attacks and flashes light on the defences to guide the besiegers. | He loves night attacks, and flashes light upon the defences to guide the besiegers. |
+| daucina-c08 | exact | archive.org | Thomson records that upon his friends the fishermen he plays no pranks, giving them fair winds and good fishing. | But upon his friends the fishermen he plays no pranks, giving them fair winds and good fishing. |
+| daucina-c09 | exact | archive.org | According to Thomson, a shipwrecked fisherman might always find sanctuary in a temple dedicated to Ndauthina. | But the shipwrecked fisherman might always find sanctuary in a temple dedicated to Ndauthina |
+| daucina-c10 | exact | archive.org | Williams records that Ndauthina steals women of rank and beauty by night or torch-light. | Ndauthina steals women of rank and beauty by night or torch-light. |
 
 
 ## flaming-teeth — lulus-otomatis
@@ -792,206 +804,269 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## galeru — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | galeru-c01 | exact | fr.wikipedia.org | In Australian Aboriginal mythology, Galeru or Galaru is a rainbow serpent. | Dans la mythologie des Aborigènes d'Australie, Galeru (ou Galaru) est un serpent arc-en-ciel |
 | galeru-c02 | exact | fr.wikipedia.org | Galeru symbolizes the continuation of life on Earth. | Il symbolise la continuation de la vie sur Terre. |
 | galeru-c03 | exact | en.wikipedia.org | The Rainbow Serpent is a common creator deity known under many names across Aboriginal languages. | The Rainbow Serpent or Rainbow Snake is a common deity, often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples. |
+| galeru-c04 | exact | en.wikipedia.org | In the list of names for the Rainbow Serpent, Galeru (or Galoru, Kaleru) is attributed to the Wandjina of the Kimberley Region. | Galeru (or Galoru, Kaleru) by the Wandjina (Kimberley Region) |
+| galeru-c05 | exact | en.wikipedia.org | A Wikipedia list describes Galeru as a rainbow snake in Arnhem Land mythology who swallowed the Djanggawul. | Galeru, rainbow snake in Arnhem Land mythology who swallowed the Djanggawul |
+| galeru-c06 | exact | en.wikipedia.org | In general terms, the Rainbow Serpent creates land and diversity for Aboriginal people but can bring great chaos when disturbed. | Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but when disturbed can bring great chaos. |
+| galeru-c07 | exact | www.encyclopedia.com | According to Berndt citing Kaberry, in northeastern Kimberley the Rainbow Snake known as Galeru (Kaleru) is a life saver and sustainer, the embodiment of fertility. | According to Phyllis M. Kaberry, in northeastern Kimberley, the Rainbow Snake known as Galeru (Kaleru) is also a life saver and sustainer, the embodiment of fertility |
+| galeru-c08 | exact | www.encyclopedia.com | According to Berndt, he is a lawgiver responsible for features of social organization such as marriage rules and subsections. | He is a lawgiver, responsible for such features of social organization as marriage rules and subsections |
+| galeru-c09 | exact | www.encyclopedia.com | According to Berndt, pearl shells come from him, and in some circumstances it is dangerous to dream of them. | Pearl shells come from him, and in some circumstances it is dangerous to dream of them |
 
 
 ## kamohoali-i — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kamohoali-i-c01 | exact | en.wikipedia.org | In Hawaiian religion, Kamohoaliʻi is a shark and steam god and sibling of Pele and Nāmaka. | In Hawaiian religion, Kamohoaliʻi (also Ka-moho-ali’i or Moho) is a shark and steam god and a brother of Kāne Milohaʻi, Pele, Kapo, Nāmaka, and Hiʻiaka. |
 | kamohoali-i-c02 | exact | en.wikipedia.org | Kamohoaliʻi swam in waters around Maui and Kahoʻolawe. | Kamohoaliʻi swam in the area around the islands of Maui and Kahoʻolawe. |
 | kamohoali-i-c03 | exact | en.wikipedia.org | When a ship was lost, Kamohoaliʻi shook his tail to guide sailors home after kahuna fed him awa. | When a ship was lost at sea, Ka-moho-aliʻi shook his tail in front of the fleet and the kahuna would feed him awa, a narcotic drink, and Kamohoaliʻi would guide the men home. |
+| kamohoali-i-c04 | exact | archive.org | Westervelt records that Ka-moho-alii, whose name was sometimes given as Ka-moo-alii, was king of the sharks. | Ka-moho-alii, whose name was sometimes given as Ka-moo-alii, was king of the sharks. |
+| kamohoali-i-c05 | exact | archive.org | Westervelt writes that Ka-moho-alii, the shark-god, was the elder brother and the caretaker of the family. | Ka-moho-alii, the shark-god, ... He was the elder brother, the caretaker of the family. |
+| kamohoali-i-c06 | exact | archive.org | Westervelt relates that Ka-moho-alii provided the great boat Honua-i-a-kea (The great spread-out world) and carried the family away to distant islands. | There Ka-moho-alii provided them with the great boat Honua-i-a-kea (The great spread-out world) and carried them away to distant islands. |
+| kamohoali-i-c07 | exact | archive.org | Westervelt records that sometimes Pele's brother Kamohoalii, the great shark-god, in the form of a shark would be her surf-board. | Sometimes her brother, Kamohoalii, the great shark-god, in the form of a shark would be her surf-board. |
+| kamohoali-i-c08 | exact | archive.org | Emerson notes that he was the brother of Pele and in one metamorphosis took the form of a shark. | The brother of Pele ; in one metamorphosis he took the form of a shark. |
+| kamohoali-i-c09 | exact | archive.org | Emerson notes that a high point in the northwest quarter of the wall of Kilauea was considered his special residence and so sacred that no smoke or flame from the volcano ever touched it. | A high point in the northwest quarter of the wall of Kilauea was considered his special residence and regarded as so sacred that no smoke or flame from the volcano ever touched it. |
 
 
 ## moehau — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | moehau-c01 | exact | en.wikipedia.org | The moehau is a creature in New Zealand folklore reputed to live on Coromandel Peninsula's Moehau. | In New Zealand folklore, the moehau (also called the maeroero) is a creature said to dwell in the Coromandel Peninsula's Moehau of New Zealand's North Island. |
 | moehau-c02 | exact | en.wikipedia.org | Some Māori suggest it descends from maero wild men, while another theory posited an escaped baboon. | Some Māori people suggest that the creature is a descendant of the maero (sometimes described as giants or wild men of the woods), but another explanation for the moehau is that it was an exaggerated report of an escaped gorilla or baboon. |
+| moehau-c03 | exact | en.wikipedia.org | In 1970 County Councillor Jim Reedy told Robyn Gosset that the Hairy Moehau was an exaggeration that started from a joke. | However, in 1970, County Councillor Jim Reedy told Robyn Gosset that the Hairy Moehau was an exaggeration started from a joke. |
+| moehau-c04 | exact | en.wikipedia.org | George Dean, Director of Auckland Zoo, refuted the baboon theory. | George Dean, Director of Auckland Zoo, refuted the baboon theory |
+| moehau-c05 | exact | en.wikipedia.org | In 1970 Bob Grey told researcher Robyn Gosset that the term Moehau Monster came from a name given to a Yankee steam hauler used for logging. | Also in 1970, Bob Grey told researcher Robyn Gosset that the term Moehau Monster came from a name given to a Yankee steam hauler that was utilized for logging. |
+| moehau-c06 | exact | en.wikipedia.org | In Māori tradition the Maero (or Mohoao) are an iwi-atua, a supernatural people of New Zealand. | In Māori tradition, the Maero (or Mohoao) are an iwi-atua or supernatural people from New Zealand. |
+| moehau-c07 | exact | en.wikipedia.org | Maero are characterised as wild, malevolent and often violent, carrying stone clubs, and covered in dark body hair. | Maero are characterised as wild, malevolent and often violent, carrying stone clubs as weapons. They are covered in dark body hair |
+| moehau-c08 | exact | www.aa.co.nz | An AA Directions magazine article calls Mount Moehau (also Te Moengahau-o-Tamatekapua) a sacred mountain of the Marutūāhu, a collective of five iwi in the Hauraki region. | Mount Moehau (also called Te Moengahau-o-Tamatekapua, the windy sleeping place of Tamatekapua) is a sacred mountain of the Marutūāhu, a collective of five iwi in the Hauraki region. |
+| moehau-c09 | exact | www.aa.co.nz | The same article says the mountain is said in Māori mythology to be home to both Patupaiarehe and the moehau (or maeroero), a large bipedal creature covered in a thick coat of hair. | it is also said in Māori mythology to be home to both Patupaiarehe, fairy-like supernatural beings (he iwi atua), and moehau (or maeroero), a large bipedal creature covered in a thick coat of hair. |
 
 
 ## mokoi — lulus-otomatis
-
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| mokoi-c01 | exact | en.wikipedia.org | Mokoi is an evil spirit in Yolngu Aboriginal lore who killed sorcerers practicing black magic. | In Australian Aboriginal mythology (specifically: Yolngu), Mokoi (lit. "evil spirit") is an evil spirit who killed sorcerers who used black magic. |
-| mokoi-c02 | exact | en.wikipedia.org | The Murngin believed deaths resulted from disease or accidents caused by a mokoi. | The Murngin believed that death was rarely caused by old age and instead it was the work of a mokoi, who would bring about some sort of disease or fatal accident. |
-
-
-## taotao-mona — lulus-otomatis
-
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-
-| klaim | status | sumber | pernyataan (en) | kutipan |
-|---|---|---|---|---|
-| taotao-mona-c01 | exact | en.wikipedia.org | Taotao Mo'na are spirits of ancient giant inhabitants protecting mountains in the Mariana Islands. | Taotao Mo'na, also commonly written as taotaomona or taotaomo'na (Chamoru taotao, "person/people" and mo'na "precede", loosely translated as "people before history" or "ancient people"), are spirits of ancient giant inhabitants believed to protect the mountains and wild places of the Mariana Islands, which include Luta, Saipan, Tinian and Guam, in Micronesia. |
-| taotao-mona-c02 | exact | en.wikipedia.org | Locals believe permission must be requested before entering the jungle or harvesting fruit and wood. | Locals and "traditional" Chamorros claim that one must request permission from the Taotao Mo'na before entering the jungle or taking fruit or wood from it. |
-
-
-## tinirau — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| mokoi-c01 | exact | en.wikipedia.org | Mokoi is an evil spirit in Yolngu Aboriginal lore who killed sorcerers practicing black magic. | In Australian Aboriginal mythology (specifically: Yolngu), Mokoi (lit. "evil spirit") is an evil spirit who killed sorcerers who used black magic. |
+| mokoi-c02 | exact | en.wikipedia.org | The Murngin believed deaths resulted from disease or accidents caused by a mokoi. | The Murngin believed that death was rarely caused by old age and instead it was the work of a mokoi, who would bring about some sort of disease or fatal accident. |
+| mokoi-c03 | exact | en.wikipedia.org | The mokoi is also known to kidnap children at night to eat them. | Also known to kidnap children at night to eat them. |
+
+
+## taotao-mona — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| taotao-mona-c01 | exact | en.wikipedia.org | Taotao Mo'na are spirits of ancient giant inhabitants protecting mountains in the Mariana Islands. | Taotao Mo'na, also commonly written as taotaomona or taotaomo'na (Chamoru taotao, "person/people" and mo'na "precede", loosely translated as "people before history" or "ancient people"), are spirits of ancient giant inhabitants believed to protect the mountains and wild places of the Mariana Islands, which include Luta, Saipan, Tinian and Guam, in Micronesia. |
+| taotao-mona-c02 | exact | en.wikipedia.org | Locals believe permission must be requested before entering the jungle or harvesting fruit and wood. | Locals and "traditional" Chamorros claim that one must request permission from the Taotao Mo'na before entering the jungle or taking fruit or wood from it. |
+| taotao-mona-c03 | exact | www.guampedia.com | According to Guampedia, taotaomo’na (the people of before) refers to ancestral spirits that inhabited the earth along with the living. | Taotaomo’na, the people of before, refers to ancestral spirits that inhabited the earth along with the living. |
+| taotao-mona-c04 | exact | www.guampedia.com | Guampedia says that ancient CHamorus believed the world was full of spirits that gave daily protection and help but also created dangers and problems. | Ancient CHamorus/Chamorros believed the world around them was full of spirits who provided both daily protection and assistance in their tasks, but also created dangers and problems. |
+| taotao-mona-c05 | exact | www.guampedia.com | According to Guampedia, these taotaomo’na were thought to dwell on their descendants' land or in ancestral skulls kept in baskets in the rafters of homes. | these sorts of taotaomo’na were thought to dwell on the tåno’ (land) of their descendants or thought to inhabit ancestral skulls or maranan uchan which CHamorus kept in baskets in the rafters of their guma’saga’ (homes). |
+| taotao-mona-c06 | exact | www.guampedia.com | According to Guampedia, when passing through land where particular spirits resided, one had to call to them first respectfully as great elders and then ask permission to pass. | When passing through the tano’ (land) where particular spirits resided, it was crucial that the passer-by call to them first in this sort of respectful manner, as great elders, and then request permission to pass through their land. |
+| taotao-mona-c07 | exact | www.guampedia.com | According to Guampedia, over time these spirits changed from ancestral spirits into wily ghosts, devils and demons that play tricks or cause harm to CHamorus today. | Slowly over time, these spirits have changed from the ante of ancestors to the wily ghosts, devils and demons that play tricks or cause harm to CHamorus today. |
+| taotao-mona-c08 | exact | www.guampedia.com | According to Guampedia, taotaomo’na can make the living terribly ill by pinching (de’on), biting (akka’) or touching (pacha’). | Taotaomo’na have the ability to cause the living to become terribly ill. They do so by de’on (pinching), akka’ (biting) or pacha’ (touching). |
+| taotao-mona-c09 | exact | www.guampedia.com | According to Guampedia, salt is thought to weaken taotaomo’na, one reason they are found mainly inland in the jungle rather than on the coast. | Salt is thought to weaken taotaomo’na, which is one reason why they are found primarily inland in the halom tano’ (jungle) and not along the coast near i tasi (the sea). |
+| taotao-mona-c10 | exact | en.wikipedia.org | According to Wikipedia, early Spanish accounts of Chamorros did not mention Taotao Mo'na. | Early Spanish accounts of Chamorros did not include any mention of Taotao Mo'na. |
+| taotao-mona-c11 | exact | en.wikipedia.org | According to Wikipedia, Taotao Mo'na have been known to pinch, bruise, imitate voices and kidnap children for short periods. | Taotao Mo'na have been known to pinch, bruise, imitate voices and kidnap children for short periods of time. |
+
+
+## tinirau — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tinirau-c01 | exact | en.wikipedia.org | In Polynesian mythology, Tinirau is celebrated as a guardian of fish. | In Polynesian mythology, stories about Tinirau are found throughout the islands of Polynesia. He is a guardian of fish. |
 | tinirau-c02 | exact | en.wikipedia.org | In some traditions he has a dual nature, with one side human and the other fish. | In some traditions, he has a dual nature; one destructive as the guardian of sharks, and one a kind, handsome male youth; in others, his right side is human and his left side is a fish. |
 | tinirau-c03 | exact | en.wikipedia.org | Stories about Tinilau and his wife Sina are very popular in Samoa. | Stories about Tinilau (or Tigilau) and his wife Sina are very popular in Samoa. |
+| tinirau-c04 | exact | archive.org | According to Tregear, Tinirau is the tutelary deity of fishes and a son of Tangaroa, the Lord of Ocean. | the tutelary deity of fishes ; a son of Tangaroa, the Lord of Ocean. |
+| tinirau-c05 | exact | archive.org | According to Tregear, Tinirau dwelt in Holy Island (Motutapu), an account of his residence agreed to by all Polynesians. | Tinirau dwelt in Holy Island (Motutapu), and this account of his residence is agreed to by all Polynesians |
+| tinirau-c06 | exact | archive.org | According to Tregear, the home of Tinirau was a preserve for fish, surrounded with pools for breeding fish. | The home of Tinirau was a preserve for fish, and surrounded with pools for breeding fish |
+| tinirau-c07 | exact | archive.org | According to Tregear, Tinirau kept several domesticated whales and lent one to the magician Kae; Kae killed it, and the angry Tinirau sent Hina with a party of women to trap him. | Tinirau kept several domesticated whales, and one of these he lent to Kae, the magician, to carry him homeward. Kae maliciously killed the whale, much to the wrath of Tinirau, who sent Hina with a party of women to trap him. |
+| tinirau-c08 | exact | archive.org | In the Mangaian tradition recorded by Tregear, Tinirau was half a fish, was given Motu-tapu as his inheritance and was lord of all fish. | He was half a fish. Motu-tapu was given to him as his inheritance. He was lord of all fish. |
+| tinirau-c09 | exact | archive.org | According to Tregear's entry on Hina, she became the wife of Tinirau, the chief of that country, who was also a god, the Lord of Fishes. | and she became the wife of Tinirau, the chief of that country, who was also a god, the Lord of Fishes. |
+| tinirau-c10 | exact | en.wikipedia.org | According to Wikipedia, alternate names in the various Polynesian languages include Kinilau, Sinilau, Tigilau and Tinilau. | Alternate names in the various Polynesian languages include Kinilau, Sinilau, Tigilau, and Tinilau. |
 
 
 ## ungud — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ungud-c01 | exact | en.wikipedia.org | Ungud is a snake god in Wunambal mythology of northwestern Australia. | In the mythology of the Wunambal people of northwestern Australia, Ungud is a snake god who is sometimes male, sometimes female and sometimes androgynous. |
 | ungud-c02 | exact | en.wikipedia.org | In the beginning, Ungud lived underground as a giant python. | In the beginning, when only the sky and the earth existed, Ungud lived underground as a giant python. |
 | ungud-c03 | exact | en.wikipedia.org | Ungud is associated with earth and water and credited with bringing rain and monsoons. | Ungud is associated with earth and water and is credited with causing rain to fall and also has connections with monsoons. |
+| ungud-c04 | exact | www.encyclopedia.com | According to Berndt, in Ungarinyin territory the wandjina spirits, which can be manifestations of the Rainbow Snake, are also sometimes called Ungud. | In Ungarinyin territory, these spirits, which can be manifestations of Rainbow Snake, are also sometimes called Ungud. |
+| ungud-c05 | exact | www.encyclopedia.com | According to Berndt quoting Elkin, Ungud brings down spirit babies in the rain to the waterholes. | Ungud "brings down spirit babies in the rain to the waterholes" |
+| ungud-c06 | exact | www.encyclopedia.com | According to Elkin as quoted by Berndt, the rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind. | The rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind. |
+| ungud-c07 | exact | www.encyclopedia.com | According to Crawford, life-spirits were identified as originating in a number of mythological beings; wandjina were important in central and northern Kimberley, with the mythical snake Ungud and other animal spirits playing less significant parts. | Life-spirits were identified as originating in a number of mythological beings, of which those called wandjina were important in central and northern Kimberley, with the mythical snake Ungud and other animal spirits playing less significant parts. |
+| ungud-c08 | exact | en.wikipedia.org | According to Wikipedia, at night Ungud and Wallanganda, the sky deity associated with the Milky Way, created living beings through their dreams. | At night, Ungud and Wallanganda, the sky deity (associated with the Milky Way), created living beings through their dreams. |
 
 
 ## wagyl — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wagyl-c01 | exact | en.wikipedia.org | The Wagyl is the Noongar manifestation of the Rainbow Serpent in southwestern Western Australia. | The Wagyl (also written Waugal, Waagal, and variants) is the Noongar manifestation of the Rainbow Serpent in Australian Aboriginal religion and mythology, from the culture based around the south-west of Western Australia. |
 | wagyl-c02 | exact | en.wikipedia.org | The Wagyl is credited with creating the Swan and Canning rivers and surrounding waterways. | The Noongar describe the Wagyl as a snakelike Dreaming creature responsible for the creation of the Swan and Canning rivers and other waterways and landforms around present day Perth and the south-west of Western Australia. |
 | wagyl-c03 | exact | en.wikipedia.org | In the Wiilman dialect, the Wagyl is titled Ngunnunguddy Gnuditj, meaning hairy-faced snake. | In the Wiilman Noongar dialect, the Wagyl is called the Ngunnunguddy Gnuditj (meaning 'hairy-faced snake'). |
+| wagyl-c04 | exact | en.wikipedia.org | According to Wikipedia, some groups state that the Wagyl is the ruler of the Earth and sky and inhabits water sources. | Some groups state that the Wagyl is the ruler of the Earth and sky, and that it inhabits water sources. |
+| wagyl-c05 | exact | en.wikipedia.org | According to Wikipedia, in all Noongar groups the Wagyl is a central figure responsible for giving life or sustenance for life to the custodians of its land. | However, in all Noongar groups it is a central figure and responsible for giving life or sustenance for life to the people who are the custodians of its land. |
+| wagyl-c06 | exact | en.wikipedia.org | According to Wikipedia, piles of rocks are said to be his droppings and such sites are considered sacred. | Piles of rocks are said to be his droppings, and such sites are considered sacred. |
+| wagyl-c07 | exact | en.wikipedia.org | According to Wikipedia, the Wagyl stories may represent the survival in oral tradition of extinct Australian megafauna. | The Wagyl stories may represent the survival in oral tradition of extinct Australian megafauna |
+| wagyl-c08 | exact | www.cockburn.wa.gov.au | In the Nyitting story told by Trevor Walley, as the Waugal and the Spirit Crocodile rolled and tumbled they gouged out Derbal Nara (Cockburn Sound) and the sea waters rushed in. | As they rolled and tumbled, they gouged out Derbal Nara or Cockburn Sound and all the sea waters came rushing in. |
+| wagyl-c09 | exact | www.cockburn.wa.gov.au | In the story, the Waugal placed the Spirit Crocodile's tail at the mouth of the Swan River to stop salt water coming up the river, and it became a limestone sand bar. | The Waugal placed tail of the Spirit Crocodile at the mouth of the Swan River to prevent salt water coming up the river. It became a limestone sand bar. |
+| wagyl-c10 | exact | www.cockburn.wa.gov.au | In the story, the body of the Spirit Crocodile drifted off and became Garden Island. | The body of the Spirit Crocodile drifted off and became Garden Island. |
+| wagyl-c11 | exact | slwa.wa.gov.au | In a State Library of Western Australia podcast transcript, the river in Noongar country is described as part of the creation story of the Wagyl, the rainbow serpent. | it was part of the creation story of the Wagyl, the rainbow serpent. |
+| wagyl-c12 | exact | slwa.wa.gov.au | According to the same transcript, wherever he turned he created the hole for the river, and then the water came and filled the river. | wherever he turned, he created the hole for the river. And then the water came and filled the river up |
 
 
 ## yurlungur — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yurlungur-c01 | exact | en.wikipedia.org | Yurlunggur or Yurlungur is the name of the rainbow serpent among the Murngin of Arnhem Land. | Yurlunggur is the name of the "rainbow serpent" according to the Murngin (a Yolngu group) in north-eastern Arnhem Land, also styled Yurlungur, Yulunggur, Jurlungur, Julunggur or Julunggul. |
 | yurlungur-c02 | exact | en.wikipedia.org | The Yurlunggur was regarded as the great father. | The Yurlunggur was considered "the great father". |
 | yurlungur-c03 | exact | en.wikipedia.org | The Rainbow Serpent is a common creator deity known across Australian Aboriginal languages. | The Rainbow Serpent or Rainbow Snake is a common deity, often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples. |
+| yurlungur-c04 | exact | www.encyclopedia.com | According to Berndt, Yulunggul is the Great Python of north-central Arnhem Land who swallowed the Wawalag sisters and their child or children. | Yulunggul is the Great Python of north-central Arnhem Land, who swallowed the Wawalag sisters and their child(ren). |
+| yurlungur-c05 | exact | www.encyclopedia.com | According to Berndt, Yulunggul is most often identified as male, with or without female counterparts. | Yulunggul is most often identified as male, with or without female counterparts. |
+| yurlungur-c06 | exact | www.encyclopedia.com | According to Berndt, there are divergent views on whether Yulunggul is a Rainbow Snake manifestation. | There are divergent views on whether Yulunggul is a Rainbow Snake manifestation. |
+| yurlungur-c07 | exact | www.encyclopedia.com | According to Berndt, unlike many great mythic characters who came from elsewhere, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul. | Unlike so many of the great mythic characters, who came from elsewhere to sites that were to be spiritually associated with them, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul |
+| yurlungur-c08 | exact | www.encyclopedia.com | According to Berndt, Yulunggul is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season. | He is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season. |
+| yurlungur-c09 | exact | www.encyclopedia.com | According to Berndt, Warner calls Yulunggul "great father" (Yindi Bapa or Bapa Yindi) but may have misheard the more usual expression "great snake" (Yindi Baapi). | Warner refers to Yulunggul as "great father" (Yindi Bapa or Bapa Yindi), but it is possible that he misheard the more usual expression, "great snake" (Yindi Baapi). |
 
 
 ## blue-mountains-panther — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | blue-mountains-panther-c01 | exact | en.wikipedia.org | The Blue Mountains panther is an Australian folk cryptid big cat reported west of Sydney. | In Australian folklore, the Blue Mountains panther or Lithgow panther is a big cat said to exist by residents of the Blue Mountains area, west of Sydney, Australia, for over a century. |
 | blue-mountains-panther-c02 | exact | en.wikipedia.org | Over 500 sightings of the panther were documented within a 20-year span. | Over 500 sightings in 20 years have been reported of the panther. |
 | blue-mountains-panther-c03 | exact | en.wikipedia.org | Theories posit it descends from World War II military mascot cats released into the wild. | Theories suggest the animal may be a descendant of big cats released by World War II US soldiers, which had been used as military mascots. |
+| blue-mountains-panther-c04 | exact | en.wikipedia.org | According to Wikipedia, the NSW Department of Primary Industries (NPWS) has commissioned four reports into the phenomenon, in 1999, 2003, 2009 and 2013. | The NSW Department of Primary Industries (NPWS) has commissioned four reports into the phenomenon, in 1999, 2003, 2009 and 2013. |
+| blue-mountains-panther-c05 | exact | en.wikipedia.org | According to Wikipedia, the Grose Vale Group, which has collected sighting reports since 1998, claims it collects 20 to 30 sightings a year. | The Grose Vale Group, which has collected reports of sightings since 1998, claims it collects 20 to 30 sightings a year. |
+| blue-mountains-panther-c06 | exact | en.wikipedia.org | According to Wikipedia, the 2003 report concluded that no conclusive evidence exists but that it was more likely than not that such a cat existed. | The 2003 report concluded no conclusive evidence exists, but that it was more likely than not that such a cat existed. |
+| blue-mountains-panther-c07 | exact | en.wikipedia.org | According to Wikipedia, a 2013 report was written by John Parkes, an invasive species expert, who concluded there is no evidence of a big cat in the Blue Mountains. | A 2013 report was written by John Parkes, an invasive species expert, who concluded that there is no evidence of a big cat in the Blue Mountains. |
+| blue-mountains-panther-c08 | exact | www.illawarramercury.com.au | According to the Illawarra Mercury, John Parkes, author of the 2013 study, said there is no conclusive evidence that large cats exist in the wild in NSW. | There is no conclusive evidence that large cats exist in the wild in NSW |
+| blue-mountains-panther-c09 | exact | www.illawarramercury.com.au | According to the Illawarra Mercury, reports of panther sightings are generally made in good faith but are not reliable proof that such animals exist. | Reports of “panther” sightings are generally made in good faith, but are not reliable proof such animals exist. |
+| blue-mountains-panther-c10 | exact | beat.com.au | According to Beat Magazine, after Grose Vale resident Chris Coffey had her own close encounter with a black panther, she began compiling a database of other residents' sightings. | After Grose Vale resident Chris Coffey had her own close encounter with a black panther, she started to compile a database of other sightings made by residents around the area. |
+| blue-mountains-panther-c11 | exact | www.lithgowmercury.com.au | According to the Lithgow Mercury, a photo of a black panther spotted in the Blue Mountains surfaced on Facebook. | This myth could be broken as a photo of a black panther spotted in the Blue Mountains has surfaced on Facebook. |
+| blue-mountains-panther-c12 | exact | www.lithgowmercury.com.au | According to the Lithgow Mercury, Mike Williams, co-author of Australian Big Cats: An Unnatural History of Panthers, said the photo was a hoax. | Hazelbrook resident Mike Williams, co-author of the book Australian Big Cats: An Unnatural History of Panthers on the subject, said the photo was a hoax. |
 
 
 ## dirawong — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dirawong-c01 | exact | en.wikipedia.org | Dirawong is an ancestral goanna being in Bundjalung mythology who taught rituals and survival. | In Australian Aboriginal mythology (specifically Bundjalung, from the northern New South Wales coast and South-East Queensland) Dirawong is a goanna Ancestral Being who taught humans how to live on the land, as well as important ceremonies and rituals. |
 | dirawong-c02 | exact | en.wikipedia.org | Dirawong is known as a benevolent protector of its people from the Rainbow Serpent. | Dirawong is known as a benevolent protector of its people from the Rainbow Serpent. |
 | dirawong-c03 | exact | en.wikipedia.org | Dirawong and the Rainbow Serpent created portions of the Richmond River and Goanna Headland. | Dirawong and the Rainbow Serpent together created parts of the Richmond River, Goanna Headland, Snake Island, and Pelican Island. |
+| dirawong-c04 | exact | en.wikipedia.org | According to Wikipedia, Dirawong is also believed to have been transformed into, and still resides within, the Goanna Headland. | Dirawong is also believed to have been transformed into, and still resides within, the Goanna Headland. |
+| dirawong-c05 | exact | en.wikipedia.org | According to Wikipedia, Dirawong is associated with rain, and there is a rain cave on Goanna Headland where Bundjalung elders once organised rain ceremonies. | Dirawong is associated with rain, and there is a rain cave on Goanna Headland where the elders of the Bundjalung people went in the past to organise ceremonies for rain. |
+| dirawong-c06 | exact | en.wikipedia.org | According to Wikipedia, a deposit of red ochre at Goanna Headland is said to originate from the wound where the Rainbow Serpent bit Dirawong. | A deposit of red ochre at Goanna Headland is said to originate from the wound where the Rainbow Serpent bit Dirawong. |
+| dirawong-c07 | exact | en.wikipedia.org | According to Wikipedia, Dirawong's gender is ambiguous. | Dirawong's gender is ambiguous. |
+| dirawong-c08 | exact | discoverrichmondvalley.com.au | In the local story told by Douglas Cook in a Richmond Valley Council brochure, a local clever man called on Goanna to chase Rainbow Snake away, and only Goanna was powerful enough to deal with him. | a local clever man called on Goanna to chase Rainbow Snake away. Only Goanna was powerful enough to deal with Rainbow Snake. |
+| dirawong-c09 | exact | discoverrichmondvalley.com.au | In the story, Goanna chased Rainbow Snake towards the coast and as they went they formed parts of the Richmond River. | Goanna chased Rainbow Snake down towards the coast and as they went they formed parts of the Richmond River. |
+| dirawong-c10 | exact | discoverrichmondvalley.com.au | In the story, half-way down the Evans River Goanna caught Rainbow Snake, who turned around and bit him. | Half-way down the Evans River, Goanna caught Rainbow Snake. Snake turned around and bit him. |
+| dirawong-c11 | exact | discoverrichmondvalley.com.au | In the story, as Snake turned, his body made a small island in the river, now known as Pelican Island. | As he turned, his body made a small island in the river, now known as Pelican Island. |
+| dirawong-c12 | exact | discoverrichmondvalley.com.au | In the story, Goanna reached the coast and lay down facing the sea, waiting for Rainbow Snake to come back. | Goanna reached the coast. He lay down facing the sea, waiting for Rainbow Snake to come back. |
+| dirawong-c13 | exact | www.ballinahistoricalsociety.org.au | According to Ballina Historical Society, the Headland is believed to be the body of the mythical Dirawong. | The Headland is believed to be the body of the mythical 'Dirawong'. |
+| dirawong-c14 | exact | www.ballinahistoricalsociety.org.au | According to Ballina Historical Society, Dirawong, an unseen spiritual creature also known as the goanna spirit, is one of the Creator Beings of the Bundjalung that protects, guards, battles the Rainbow Snake and helps the people. | Mythology says the 'Dirawong', an unseen spiritual creature also known as the goanna spirit, is one of the Creator Beings of the Bundjalung, that protects, guards, battles the Rainbow Snake, and helps the people. |
+| dirawong-c15 | exact | www.ballinahistoricalsociety.org.au | According to Ballina Historical Society, Goanna Headland has been the mythological place of origin of the Bundjalung Nation for thousands of years. | Goanna Headland has been the mythological place of origin of the Bundjalung Nation, for thousands of years. |
+| dirawong-c16 | exact | discoverrichmondvalley.com.au | Richmond Valley Council states that the Reserve holds great spiritual significance to the traditional custodians, the Bundjalung people. | The Reserve holds great spiritual significance to the traditional custodians, the Bundjalung people. |
 
 
 ## hahau-whenua — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hahau-whenua-c01 | exact | en.wikipedia.org | Hāhau-whenua is the great fish caught by Māui that became New Zealand's North Island. | In a Māori tradition ascribed by John White to the Ngāti Hau tribe, Hāhau-whenua is the name of the great fish caught by Māui which became the North Island of New Zealand |
 | hahau-whenua-c02 | exact | en.wikipedia.org | When Māui pulled up the fish, he saw that it was Hāhau-whenua. | When he pulled the fish up, he saw it was Hāhau-whenua |
+| hahau-whenua-c03 | exact | en.wikipedia.org | In the tradition Māui guesses the fish may be Hāhau-tangaroa ("search for the sea god"), Hāhau-uru ("search for the west wind") or Hāhau-whenua ("search for land"). | Perhaps it is the fish called Hāhau-tangaroa ("search for the sea god"), or Hāhau-uru ("search for the west wind"), or Hāhau-whenua ("search for land"). |
+| hahau-whenua-c04 | exact | archive.org | According to Tregear, Te Ika-a-Maui, the fish of Maui, is the North Island of New Zealand, so called because it was pulled up by Maui from the depths of the ocean. | IKA-A-MAUI (myth.), Te Ika-a-Maui, the fish of Maui, the North Island of New Zealand, so called because pulled up by Maui from the depths of the ocean. |
+| hahau-whenua-c05 | exact | archive.org | Tregear records that the word hahau means to seek or to search for. | HAHAU, to seek, to search for: Hei aha ma korua i hahauria ai teiia loahine |
+| hahau-whenua-c06 | exact | archive.org | According to Tregear, the North Island of New Zealand is well known as Te-Ika-a-Maui (The Fish of Maui). | The North Island of New Zealand is well-known as Te-Ika-a-Maui (The Fish of Maui) |
+| hahau-whenua-c07 | exact | en.wikipedia.org | According to Wikipedia, Māui pulled up a giant fish that became the North Island, known as Te Ika-a-Māui; the island's valleys and mountains were made by his brothers chopping up the fish. | He pulled up a giant fish which would become the North Island of New Zealand, known as Te Ika-a-Māui; the valleys and mountains of the island were made by his brothers chopping up the fish for themselves. |
 
 
 ## hakuturi — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hakuturi-c01 | exact | en.wikipedia.org | In Māori mythology, the hākuturi are guardians of the forest. | In Māori mythology, the hākuturi are guardians of the forest. |
 | hakuturi-c02 | exact | en.wikipedia.org | They are responsible for protecting the forest and avenging desecration of its sacredness. | They are responsible for guarding the forest, and to avenge any desecration of its sacredness. |
 | hakuturi-c03 | exact | en.wikipedia.org | The hākuturi are regarded as birdlike beings and children of forest deity Tāne. | The hākuturi seem to have been regarded as birds or birdlike: one source calls them the children of Tāne, god of the forest and ancestor of birds |
+| hakuturi-c04 | exact | en.wikipedia.org | According to Wikipedia, when Rātā cut down a tree without the proper incantations and rituals the hākuturi rebuked him by re-erecting it; when he showed remorse they felled it again and made it into a canoe for him in a single night. | When Rātā cut down a tree without first making the proper incantations and rituals, the hākuturi rebuked him by re-erecting the tree. When he showed remorse, they felled the tree again and made it into a canoe for him in a single night. |
+| hakuturi-c05 | exact | archive.org | Tregear defines the Hakuturi as wood-fairies, forest elves (mythological). | HAKUTURI (myth.), wood-fairies, forest elves |
+| hakuturi-c06 | exact | archive.org | Tregear records that they were also called the offspring of Tane, that is, of Tane-mahuta, the lord of forests. | They were also called " the offspring of Tane," that is, of Tane-mahuta, the lord of forests. |
+| hakuturi-c07 | exact | archive.org | Tregear writes that the Hakuturi are the wood-elves who made the tree felled by one printed as Eata in the digitised text stand up again and finally made his canoe. | The Hakuturi are the wood-elves, who made the tree felled by Eata stand up again, and finally made his canoe. |
 
 
 ## hatuibwari — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hatuibwari-c01 | exact | en.wikipedia.org | The Hatuibwari, also known as Agunua, was a dragon in the Solomon Islands in Melanesia. | The Hatuibwari otherwise known as Agunua was a dragon in the Solomon Islands in Melanesia. |
 | hatuibwari-c02 | exact | en.wikipedia.org | It has a human head, four eyes, clawed arms, bat wings, and a serpent body. | It has the head of a human, four eyes, clawed arms, bat wings, and the body of a serpent. |
 | hatuibwari-c03 | exact | en.wikipedia.org | Ancient belief held that he created and nourished all living things. | The ancient belief is that he created and nourished all living things; that he is the male version of Mother Earth. |
+| hatuibwari-c04 | exact | archive.org | Although male, he is represented with female breasts from which he gives suck to all created things. | More remarkable still, although he is male he is represented as having female breasts, from which he gives suck to all created things. |
+| hatuibwari-c05 | exact | archive.org | Hatuibwari lives on the summits of sacred mountains, and bwari means summit. | Hatuibwari lives on the summits of sacred mountains. Bwari means summit |
+| hatuibwari-c06 | exact | archive.org | Hatuibwari is a figona so powerful that he seems to dispute Agunua's position, and the supreme being of Arosi is this great figona rather than Agunua. | there is a jfigona so powerful as to seem to dispute with Agunua his position, the Figona Hatuibwari; and the supreme being of Arosi is rather this great figona than Agunua. |
+| hatuibwari-c07 | exact | archive.org | In a footnote Fox states that Agunua is a name for Hatuibwari, the winged serpent. | Agunua is a name for Hatuibwari, the winged serpent. |
+| hatuibwari-c08 | exact | archive.org | Almost all of these local figona are represented as female snakes, Agunua as a male snake. | Almost all of these local figona are represented as female snakes, Agunua as a male snake. |
+| hatuibwari-c09 | exact | archive.org | The embryo (hasiabu) is said to be put into women's wombs by an adaro named Hatuibwari, who lives on a mountain in Marau Sound in Guadalcanar. | the embryo (hasiabu) is said to be put into the womb of women by an adaro named Hatuibwari, who lives on a mountain in Marau Sound in Guadalcanar |
+| hatuibwari-c10 | exact | en.wikipedia.org | This legend comes from Makira (formerly San Cristobal) in Melanesia. | This legend comes from Makira (formerly San Cristobal) in Melanesia. |
 
 
 ## kumi-lizard — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kumi-lizard-c01 | exact | en.wikipedia.org | The Kumi Lizard is a purported reptile in New Zealand folklore, possibly a giant monitor lizard. | In New Zealand folklore, the Kumi Lizard is a purported reptile, possibly a giant monitor lizard, which allegedly once lived in New Zealand. |
 | kumi-lizard-c02 | exact | en.wikipedia.org | Robyn Gosset documents an 1898 sighting of a Kumi by a Maori bushman. | In New Zealand Mysteries, author Robyn Gosset refers to a sighting of a Kumi in 1898 by a Maori bushman. |
 | kumi-lizard-c03 | exact | en.wikipedia.org | Although the animal was not seen again, photographs of footprints were taken. | Although the animal itself was not spotted again, photographs of its footprints were taken. |
+| kumi-lizard-c04 | exact | en.wikipedia.org | According to Wikipedia, the length of the Kumi in the 1898 sighting was estimated at 1.5 metres. | Its length was estimated at 1.5 metres. |
+| kumi-lizard-c05 | exact | en.wikipedia.org | According to Wikipedia, the first edition of Gosset's book includes an account from captain James Cook, who was told by Maori in Queen Charlotte Sound that huge arboreal lizards lived in the surrounding bushland and were greatly feared. | These include an account from captain James Cook, who was told by Maori in Queen Charlotte Sound that huge, arboreal lizards were present in the surrounding bushland, and that they were greatly feared |
+| kumi-lizard-c06 | exact | en.wikipedia.org | According to Wikipedia, the first edition also contains a 1875 sighting of a large lizard washed up in a flooded Hokianga river and the discovery of bones possibly from the animal that same year. | as well as a sighting from 1875 of a large lizard washed up in a flooded Hokianga river and the discovery of bones possibly from the animal that same year |
+| kumi-lizard-c07 | exact | en.wikipedia.org | According to Wikipedia, two reports from 1898: a large reptile near Gisborne, and a huge creature akin to a monitor lizard on Mount Arowhana that advanced toward a bushman before retreating into a Rata tree. | one describing a large reptile seen near Gisborne, New Zealand, the other a huge creature akin to a monitor lizard which advanced toward a bushman in Mount Arowhana before retreating into a Rata tree |
+| kumi-lizard-c08 | exact | en.wikipedia.org | According to Wikipedia, the first edition of Gosset's book refers to several more accounts of the lizard that are absent from the second edition. | In the first edition of the book, Gosset refers to several more accounts of the lizard which are absent from the second edition. |
+| kumi-lizard-c09 | exact | web.archive.org | According to Bagnall and McLintock, in all probability such tales of water monsters and huge reptiles known as kumi were nothing more than distorted folk memories of the crocodile of the western Pacific or Asia. | In all probability such tales of water-dwelling monsters and other huge reptiles known as kumi were nothing more than distorted folk memories of the crocodile of the western Pacific or Asia. |
+| kumi-lizard-c10 | exact | web.archive.org | According to Te Ara (1966), a more precise sighting of a kumi was allegedly made in September 1898 on W. D. Lysnar's East Coast station, Arowhana: a Maori bushman was startled by a huge lizard some 5 ft long advancing towards him. | A more precise sighting of a kumi was allegedly made in September 1898 on W. D. Lysnar's East Coast station, Arowhana. A Maori bushman was startled by the sight of a huge lizard some 5 ft long advancing towards him. |
+| kumi-lizard-c11 | exact | web.archive.org | According to Te Ara (1966), the animal disappeared into a rata tree and the description matched the traditional kumi, once well known in the area but not seen for at least three generations. | The animal disappeared into a rata tree but the subsequent description matched that of the traditional kumi which, although ones well known in the area, had not been seen for at least three generations. |
+| kumi-lizard-c12 | exact | web.archive.org | According to Te Ara (1966), Lysnar and his party went into the bush and photographed the footprints but failed to disturb the animal. | Lysnar and party went into the bush and photographed the footprints but failed to disturb the animal |
+| kumi-lizard-c13 | exact | web.archive.org | According to Te Ara (1966), the Maori may have caught a hasty glimpse of an opossum, since the first liberations on the East Coast pre-dated the sighting. | The Maori may have caught a hasty glimpse of an opossum, the first liberations on the East Coast having ante-dated the sighting. |
+| kumi-lizard-c14 | exact | web.archive.org | According to Te Ara (1966), a strange six-legged animal was reported captured near Hokianga in 1875. | He was referring to the reported capture near Hokianga of a strange animal with six legs. |
 

@@ -1,12 +1,14 @@
 {
   "batch_id": "batch-150",
-  "checked_at": "2026-10-06T19:16:09.572Z",
+  "checked_at": "2026-10-07T04:44:38.482Z",
   "files": [
     "batch-150.md",
     "batch-150-fix-1.md",
     "batch-150-fix-2.md",
     "batch-150-fix-3.md",
-    "batch-150-fix-4.md"
+    "batch-150-fix-4.md",
+    "batch-150-fix-5.md",
+    "batch-150-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -5121,20 +5123,15 @@
     },
     {
       "slug": "adaro-mythology",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "02c1fd1b2c1b7ef0496dc53be9b1dcaca2cee03113b33fdd160f88e0a302c64d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "adaro-mythology-c01",
@@ -5165,27 +5162,91 @@
           "quote": "Adaro (ghosts) most often enter into sharks or other marine animals.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c04",
+          "source_id": "adaro-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The aunga passes from this world after death, while the adaro remains.",
+          "statement_id": "Menurut Wikipedia, aunga meninggalkan dunia ini setelah kematian, sedangkan adaro tetap tinggal.",
+          "quote": "The aunga passes from this world after death, while the adaro remains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c05",
+          "source_id": "adaro-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There is an adaro who guards and an adaro who rules the Rotomana, the place where the aunga go upon death.",
+          "statement_id": "Ada adaro yang menjaga dan adaro yang memerintah Rotomana, tempat aunga pergi setelah kematian.",
+          "quote": "There is an adaro who guards and an adaro who rules the Rotomana, the place where the aunga go upon death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c06",
+          "source_id": "adaro-mythology-s2",
+          "host": "archive.org",
+          "statement": "According to Fox, one great class of adaro consists of ghosts, and it is these chiefly that are worshipped.",
+          "statement_id": "Menurut Fox, satu golongan besar adaro adalah arwah orang mati, dan inilah yang terutama disembah.",
+          "quote": "One great class of adaro consists therefore of ghosts, and it is these chiefly that are worshipped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c07",
+          "source_id": "adaro-mythology-s2",
+          "host": "archive.org",
+          "statement": "According to Fox, a second class are spirits of the sea, woods and shore, and others found in the rainbow and the waterspout; in native opinion these are not ghosts.",
+          "statement_id": "Menurut Fox, golongan kedua adalah roh laut, hutan, dan pantai, serta roh pelangi dan pusaran air; menurut penduduk setempat mereka bukan arwah orang mati.",
+          "quote": "spirits of the sea, woods, and shore, and others found in the rainbow and the waterspout. These are not ghosts, in native opinion, whatever their origin may have been.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c08",
+          "source_id": "adaro-mythology-s2",
+          "host": "archive.org",
+          "statement": "These ghost sharks did not harm their worshippers but were often sent by them to kill men at a distance.",
+          "statement_id": "Hiu-hiu arwah ini tidak mencelakai para penyembahnya, tetapi sering dikirim mereka untuk membunuh orang dari jauh.",
+          "quote": "These ghost sharks did not harm their worshippers, but were often sent by them to kill men at a distance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c09",
+          "source_id": "adaro-mythology-s2",
+          "host": "archive.org",
+          "statement": "Sea spirits are represented as partly human, partly fish-like, and are thought to live far out to sea or near small islands along the coast.",
+          "statement_id": "Roh laut digambarkan setengah manusia, setengah ikan, dan dipercaya tinggal jauh di tengah laut atau dekat pulau-pulau kecil di sepanjang pantai.",
+          "quote": "They are represented as partly human, partly fish-like. They are thought to live far out to sea or near small islands along the coast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adaro-mythology-c10",
+          "source_id": "adaro-mythology-s2",
+          "host": "archive.org",
+          "statement": "Adaro ni matawa, the sea spirits, are malevolent beings that shoot men with flying-fish.",
+          "statement_id": "Adaro ni matawa (roh laut) adalah makhluk jahat yang menembak manusia dengan ikan terbang.",
+          "quote": "Adaro ni matawa are malevolent beings. They shoot men with flying-fish.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7ec16b5648a531fd3c2ff9464b3fc00effc4778f293ecdef63bafcea83828484"
+      "images": []
     },
     {
       "slug": "atanua",
-      "file": "batch-150-fix-1.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "cba2a18691aa3d59c11d2c8ad9ae306c069301103225dcfb5413d7eb666015cc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atanua-c01",
@@ -5216,27 +5277,71 @@
           "quote": "She created the seas after having a miscarriage and filling the oceans with her amniotic fluid.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "atanua-c04",
+          "source_id": "atanua-s2",
+          "host": "archive.org",
+          "statement": "According to Handy, in house-building chants Atanua is called wife of Atea and ancestress of all men.",
+          "statement_id": "Menurut Handy, dalam nyanyian pembangunan rumah Atanua disebut istri Atea dan leluhur perempuan semua manusia.",
+          "quote": "of the house of Atanua, wife of Atea and ancestress of all men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atanua-c05",
+          "source_id": "atanua-s2",
+          "host": "archive.org",
+          "statement": "According to Handy, the platform of the original fa'e Papa, where Atanua the ancestress of the Marquesas islanders lived, is said to lie under the sea a little way from the western end of the beach at Atu Ona.",
+          "statement_id": "Menurut Handy, landasan (paepae) fa'e Papa asli, tempat tinggal Atanua leluhur penduduk Marquesas, dikatakan terletak di bawah laut tidak jauh dari ujung barat pantai Atu Ona.",
+          "quote": "in which lived Atanua, the ancestress of the Marquesas islanders, lies under the sea a little way from the westward end of the beach at Atu Ona.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atanua-c06",
+          "source_id": "atanua-s2",
+          "host": "archive.org",
+          "statement": "According to Handy, genealogies usually start with the names Atea and Atanua, regarded as progenitor and progenitress of the native people.",
+          "statement_id": "Menurut Handy, silsilah biasanya dimulai dengan nama Atea dan Atanua, yang dianggap sebagai leluhur laki-laki dan perempuan penduduk asli.",
+          "quote": "Genealogies usually start with these names, these two being regarded as, respectively, progenitor and progenitress of the native people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atanua-c07",
+          "source_id": "atanua-s2",
+          "host": "archive.org",
+          "statement": "According to Handy, modern natives explain that Atea and Atanua are like Adam and Eve.",
+          "statement_id": "Menurut Handy, penduduk asli masa kini menjelaskan bahwa Atea dan Atanua seperti Adam dan Hawa.",
+          "quote": "Modern natives, in explaining the matter, say that Atea and Atanua are like Adam and Eve.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atanua-c08",
+          "source_id": "atanua-s2",
+          "host": "archive.org",
+          "statement": "Handy judges that Atea and Atanua were distinctly deities rather than human beings, with nothing to indicate that they were conceived as ever living on the islands in human form.",
+          "statement_id": "Handy menilai bahwa Atea dan Atanua jelas adalah dewa, bukan manusia, dan tidak ada petunjuk bahwa mereka pernah dibayangkan mendiami pulau-pulau itu dalam wujud manusia.",
+          "quote": "for Atea and Atanua were distinctly deities rather than human beings, and there is nothing to indicate that they are conceived of as having ever inhabited the islands as beings in human form.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c8921499a07ee8c0ec6c8f62d942e9e7af38716ddc1fc28444edcbb8dab7c675"
+      "images": []
     },
     {
       "slug": "aumakua",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "84ba8fbfe5aaa8af9bf85b04ffd1ba1df2943d06246bb9834230c163c49748ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "aumakua-c01",
@@ -5257,27 +5362,71 @@
           "quote": "An ʻaumakua may manifest as a shark, owl, bird, octopus, or inanimate objects such as plants or rocks.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "aumakua-c03",
+          "source_id": "aumakua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "ʻAumākua were believed to watch over their families and hear their words, give them strength and guidance, warn them of misfortune or danger, and punish wrong-doers.",
+          "statement_id": "Menurut kepercayaan, ʻaumākua mengawasi keluarga mereka dan mendengar kata-kata mereka, memberi kekuatan dan bimbingan, memperingatkan akan kemalangan atau bahaya, serta menghukum pelaku kesalahan.",
+          "quote": "ʻAumākua were believed to watch over their families and hear their words, give them strength and guidance, warn them of misfortune or danger, give punishments to wrong-doers",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aumakua-c04",
+          "source_id": "aumakua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "ʻAumākua could also bring punishment to families who offended or displeased them.",
+          "statement_id": "ʻAumākua juga dapat menghukum keluarga yang menyinggung atau tidak menyenangkan mereka.",
+          "quote": "ʻAumākua could also bring punishment to families who offended or displeased them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aumakua-c05",
+          "source_id": "aumakua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "ʻAumākua were able to take on kino lau (many bodies, many forms).",
+          "statement_id": "ʻAumākua dapat mengambil kino lau (banyak tubuh, banyak wujud).",
+          "quote": "ʻAumākua were able to take on kino lau (many bodies, many forms)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aumakua-c06",
+          "source_id": "aumakua-s2",
+          "host": "archive.org",
+          "statement": "A note to Malo's text says that, in general, an aumakua was an ancestral deity whose worship and mutual service was handed down from father to son.",
+          "statement_id": "Dalam catatan penerjemah Malo, secara umum aumakua adalah dewa leluhur yang pemujaan dan pelayanan timbal baliknya diwariskan dari ayah kepada anak.",
+          "quote": "In general an aumakua was an ancestral deity, whose worship and mutual service was handed down from father to son.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aumakua-c07",
+          "source_id": "aumakua-s2",
+          "host": "archive.org",
+          "statement": "The note names Ku, Kane, Kanaloa and Lono as aumakuas, as were many lesser gods, and says a man might have several aumakuas.",
+          "statement_id": "Catatan itu menyebut Ku, Kane, Kanaloa, dan Lono sebagai aumakua, demikian pula banyak dewa yang lebih kecil, dan seseorang boleh memiliki beberapa aumakua.",
+          "quote": "Ku, Kane, Kanaloa and Lono were aumakuas, as were a host of lesser gods. A man might have several aumakuas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "06ab1fd06aef11096293a137b79f581c1cb2af05ae17e6ce947a477c6cd32c14"
+      "images": []
     },
     {
       "slug": "daucina",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "816a7564bacb62364400e294e741d4f0c7aace5aca1783930bb262fe6cacce09",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "daucina-c01",
@@ -5308,10 +5457,79 @@
           "quote": "His mother tied fiery reeds to his head so that he would be calm.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "daucina-c04",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "Thomson writes that next after Ndengei comes Ndauthina (the torch-bearer), the god of the seafaring and fishing community throughout Fiji.",
+          "statement_id": "Menurut Thomson, setelah Ndengei, Ndauthina (sang pembawa obor) adalah dewa komunitas pelaut dan nelayan di seluruh Fiji.",
+          "quote": "Next in order to Ndengei is Ndauthina (the torch-bearer), the god of the seafaring and fishing community throughout Fiji.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c05",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "Thomson records that his love of light in infancy led his mother to bind lighted reeds on his head, and that he now roams the reefs by night hooded with a flaming brazier.",
+          "statement_id": "Menurut Thomson, karena cintanya pada cahaya sejak bayi, ibunya mengikatkan alang-alang bernyala di kepalanya, dan kini ia berkeliaran di terumbu pada malam hari berkerudung tungku menyala.",
+          "quote": "His love of light in infancy prompted his mother to bind lighted reeds upon his head to amuse him, and now he roams the reefs by night hooded with a flaming brazier.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c06",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "Thomson records that he is the patron of adulterers and himself steals women away by night.",
+          "statement_id": "Menurut Thomson, ia adalah pelindung para pezina dan sendiri membawa pergi perempuan pada malam hari.",
+          "quote": "He is the patron of adulterers, and himself steals women away by night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c07",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "Thomson records that he loves night attacks and flashes light on the defences to guide the besiegers.",
+          "statement_id": "Thomson mencatat bahwa ia menyukai serangan malam dan menyorotkan cahaya ke pertahanan untuk memandu para pengepung.",
+          "quote": "He loves night attacks, and flashes light upon the defences to guide the besiegers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c08",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "Thomson records that upon his friends the fishermen he plays no pranks, giving them fair winds and good fishing.",
+          "statement_id": "Thomson mencatat bahwa terhadap para nelayan sahabatnya ia tidak berbuat jahil, malah memberi angin baik dan hasil tangkapan yang bagus.",
+          "quote": "But upon his friends the fishermen he plays no pranks, giving them fair winds and good fishing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c09",
+          "source_id": "daucina-s2",
+          "host": "archive.org",
+          "statement": "According to Thomson, a shipwrecked fisherman might always find sanctuary in a temple dedicated to Ndauthina.",
+          "statement_id": "Menurut Thomson, nelayan yang karam selalu dapat menemukan perlindungan di kuil yang dipersembahkan kepada Ndauthina.",
+          "quote": "But the shipwrecked fisherman might always find sanctuary in a temple dedicated to Ndauthina",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "daucina-c10",
+          "source_id": "daucina-s3",
+          "host": "archive.org",
+          "statement": "Williams records that Ndauthina steals women of rank and beauty by night or torch-light.",
+          "statement_id": "Williams mencatat bahwa Ndauthina mencuri perempuan bangsawan dan cantik pada malam hari atau dengan cahaya obor.",
+          "quote": "Ndauthina steals women of rank and beauty by night or torch-light.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "699d4311a83cf9db5fc009e2d04f3166dbf89d974615cea35105d7d10e7f1f6d"
+      "images": []
     },
     {
       "slug": "flaming-teeth",
@@ -5441,20 +5659,15 @@
     },
     {
       "slug": "galeru",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "438e4049aa219bb09a4b8cea9dbec2ff5ffb038d7c2ab6f22e64fba83601d9be",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "galeru-c01",
@@ -5485,27 +5698,81 @@
           "quote": "The Rainbow Serpent or Rainbow Snake is a common deity, often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "galeru-c04",
+          "source_id": "galeru-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In the list of names for the Rainbow Serpent, Galeru (or Galoru, Kaleru) is attributed to the Wandjina of the Kimberley Region.",
+          "statement_id": "Dalam daftar nama Ular Pelangi, Galeru (atau Galoru, Kaleru) dikaitkan dengan Wandjina di wilayah Kimberley.",
+          "quote": "Galeru (or Galoru, Kaleru) by the Wandjina (Kimberley Region)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galeru-c05",
+          "source_id": "galeru-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A Wikipedia list describes Galeru as a rainbow snake in Arnhem Land mythology who swallowed the Djanggawul.",
+          "statement_id": "Daftar Wikipedia menyebut Galeru sebagai ular pelangi dalam mitologi Arnhem Land yang menelan Djanggawul.",
+          "quote": "Galeru, rainbow snake in Arnhem Land mythology who swallowed the Djanggawul",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galeru-c06",
+          "source_id": "galeru-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In general terms, the Rainbow Serpent creates land and diversity for Aboriginal people but can bring great chaos when disturbed.",
+          "statement_id": "Secara umum, Ular Pelangi menciptakan tanah dan keragaman bagi orang Aborigin, tetapi bila diganggu dapat membawa kekacauan besar.",
+          "quote": "Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but when disturbed can bring great chaos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galeru-c07",
+          "source_id": "galeru-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt citing Kaberry, in northeastern Kimberley the Rainbow Snake known as Galeru (Kaleru) is a life saver and sustainer, the embodiment of fertility.",
+          "statement_id": "Menurut Berndt yang merujuk Kaberry, di Kimberley timur laut Ular Pelangi bernama Galeru (Kaleru) adalah penyelamat dan penopang hidup, perwujudan kesuburan.",
+          "quote": "According to Phyllis M. Kaberry, in northeastern Kimberley, the Rainbow Snake known as Galeru (Kaleru) is also a life saver and sustainer, the embodiment of fertility",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galeru-c08",
+          "source_id": "galeru-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, he is a lawgiver responsible for features of social organization such as marriage rules and subsections.",
+          "statement_id": "Menurut Berndt, ia adalah pemberi hukum, yang bertanggung jawab atas ciri organisasi sosial seperti aturan perkawinan dan subseksi.",
+          "quote": "He is a lawgiver, responsible for such features of social organization as marriage rules and subsections",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "galeru-c09",
+          "source_id": "galeru-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, pearl shells come from him, and in some circumstances it is dangerous to dream of them.",
+          "statement_id": "Menurut Berndt, kerang mutiara berasal darinya, dan dalam keadaan tertentu berbahaya memimpikannya.",
+          "quote": "Pearl shells come from him, and in some circumstances it is dangerous to dream of them",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "51b7b13c81b78d81b328a64bc6d77543f425e1f9043312feb1738fbc78622be7"
+      "images": []
     },
     {
       "slug": "kamohoali-i",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "a0e4303b0c71f0f32ee71dc7092447adbf4bbcf9764aa478426a3b12baf1e2ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kamohoali-i-c01",
@@ -5536,27 +5803,81 @@
           "quote": "When a ship was lost at sea, Ka-moho-aliʻi shook his tail in front of the fleet and the kahuna would feed him awa, a narcotic drink, and Kamohoaliʻi would guide the men home.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c04",
+          "source_id": "kamohoali-i-s2",
+          "host": "archive.org",
+          "statement": "Westervelt records that Ka-moho-alii, whose name was sometimes given as Ka-moo-alii, was king of the sharks.",
+          "statement_id": "Westervelt mencatat bahwa Ka-moho-alii, yang namanya kadang ditulis Ka-moo-alii, adalah raja para hiu.",
+          "quote": "Ka-moho-alii, whose name was sometimes given as Ka-moo-alii, was king of the sharks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c05",
+          "source_id": "kamohoali-i-s2",
+          "host": "archive.org",
+          "statement": "Westervelt writes that Ka-moho-alii, the shark-god, was the elder brother and the caretaker of the family.",
+          "statement_id": "Westervelt menulis bahwa Ka-moho-alii, sang dewa hiu, adalah kakak tertua dan penjaga keluarga.",
+          "quote": "Ka-moho-alii, the shark-god, ... He was the elder brother, the caretaker of the family.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c06",
+          "source_id": "kamohoali-i-s2",
+          "host": "archive.org",
+          "statement": "Westervelt relates that Ka-moho-alii provided the great boat Honua-i-a-kea (The great spread-out world) and carried the family away to distant islands.",
+          "statement_id": "Westervelt menceritakan bahwa Ka-moho-alii menyediakan perahu besar Honua-i-a-kea (Dunia yang terbentang luas) dan membawa keluarga itu ke pulau-pulau yang jauh.",
+          "quote": "There Ka-moho-alii provided them with the great boat Honua-i-a-kea (The great spread-out world) and carried them away to distant islands.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c07",
+          "source_id": "kamohoali-i-s2",
+          "host": "archive.org",
+          "statement": "Westervelt records that sometimes Pele's brother Kamohoalii, the great shark-god, in the form of a shark would be her surf-board.",
+          "statement_id": "Westervelt mencatat bahwa kadang-kadang saudaranya Kamohoalii, dewa hiu agung, berwujud hiu menjadi papan selancar Pele.",
+          "quote": "Sometimes her brother, Kamohoalii, the great shark-god, in the form of a shark would be her surf-board.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c08",
+          "source_id": "kamohoali-i-s3",
+          "host": "archive.org",
+          "statement": "Emerson notes that he was the brother of Pele and in one metamorphosis took the form of a shark.",
+          "statement_id": "Emerson mencatat bahwa ia saudara Pele dan dalam satu perubahan wujud ia berbentuk hiu.",
+          "quote": "The brother of Pele ; in one metamorphosis he took the form of a shark.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kamohoali-i-c09",
+          "source_id": "kamohoali-i-s3",
+          "host": "archive.org",
+          "statement": "Emerson notes that a high point in the northwest quarter of the wall of Kilauea was considered his special residence and so sacred that no smoke or flame from the volcano ever touched it.",
+          "statement_id": "Emerson mencatat bahwa sebuah titik tinggi di sisi barat laut dinding Kilauea dianggap sebagai tempat tinggal khususnya dan begitu keramat sehingga asap atau api gunung itu tidak pernah menyentuhnya.",
+          "quote": "A high point in the northwest quarter of the wall of Kilauea was considered his special residence and regarded as so sacred that no smoke or flame from the volcano ever touched it.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "78ee543263746e39c4e31b56b23d99ed6e8a67aa48ece2c9a731c16b99e10661"
+      "images": []
     },
     {
       "slug": "moehau",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "55561f0b3479da333c5272d019238c5e1c498319ca4a57a8c7a04e1a8bf9bcbd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "moehau-c01",
@@ -5577,17 +5898,87 @@
           "quote": "Some Māori people suggest that the creature is a descendant of the maero (sometimes described as giants or wild men of the woods), but another explanation for the moehau is that it was an exaggerated report of an escaped gorilla or baboon.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "moehau-c03",
+          "source_id": "moehau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1970 County Councillor Jim Reedy told Robyn Gosset that the Hairy Moehau was an exaggeration that started from a joke.",
+          "statement_id": "Pada 1970 anggota dewan daerah Jim Reedy mengatakan kepada Robyn Gosset bahwa Moehau Berbulu adalah pembesar-besaran yang bermula dari lelucon.",
+          "quote": "However, in 1970, County Councillor Jim Reedy told Robyn Gosset that the Hairy Moehau was an exaggeration started from a joke.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c04",
+          "source_id": "moehau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "George Dean, Director of Auckland Zoo, refuted the baboon theory.",
+          "statement_id": "George Dean, Direktur Kebun Binatang Auckland, membantah teori babon.",
+          "quote": "George Dean, Director of Auckland Zoo, refuted the baboon theory",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c05",
+          "source_id": "moehau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1970 Bob Grey told researcher Robyn Gosset that the term Moehau Monster came from a name given to a Yankee steam hauler used for logging.",
+          "statement_id": "Pada 1970 Bob Grey mengatakan kepada peneliti Robyn Gosset bahwa istilah Moehau Monster berasal dari nama yang diberikan kepada sebuah Yankee steam hauler yang dipakai untuk menebang kayu.",
+          "quote": "Also in 1970, Bob Grey told researcher Robyn Gosset that the term Moehau Monster came from a name given to a Yankee steam hauler that was utilized for logging.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c06",
+          "source_id": "moehau-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In Māori tradition the Maero (or Mohoao) are an iwi-atua, a supernatural people of New Zealand.",
+          "statement_id": "Dalam tradisi Māori, Maero (atau Mohoao) adalah iwi-atua, bangsa supernatural dari Selandia Baru.",
+          "quote": "In Māori tradition, the Maero (or Mohoao) are an iwi-atua or supernatural people from New Zealand.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c07",
+          "source_id": "moehau-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Maero are characterised as wild, malevolent and often violent, carrying stone clubs, and covered in dark body hair.",
+          "statement_id": "Maero digambarkan liar, jahat, dan sering kasar, membawa gada batu sebagai senjata, serta berbulu tubuh gelap.",
+          "quote": "Maero are characterised as wild, malevolent and often violent, carrying stone clubs as weapons. They are covered in dark body hair",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c08",
+          "source_id": "moehau-s3",
+          "host": "www.aa.co.nz",
+          "statement": "An AA Directions magazine article calls Mount Moehau (also Te Moengahau-o-Tamatekapua) a sacred mountain of the Marutūāhu, a collective of five iwi in the Hauraki region.",
+          "statement_id": "Sebuah artikel majalah AA Directions menyebut Gunung Moehau (juga Te Moengahau-o-Tamatekapua) sebagai gunung keramat Marutūāhu, gabungan lima iwi di wilayah Hauraki.",
+          "quote": "Mount Moehau (also called Te Moengahau-o-Tamatekapua, the windy sleeping place of Tamatekapua) is a sacred mountain of the Marutūāhu, a collective of five iwi in the Hauraki region.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "moehau-c09",
+          "source_id": "moehau-s3",
+          "host": "www.aa.co.nz",
+          "statement": "The same article says the mountain is said in Māori mythology to be home to both Patupaiarehe and the moehau (or maeroero), a large bipedal creature covered in a thick coat of hair.",
+          "statement_id": "Artikel yang sama menyebut gunung itu dikatakan dalam mitologi Māori sebagai tempat tinggal Patupaiarehe dan moehau (atau maeroero), makhluk besar berkaki dua yang berbulu lebat.",
+          "quote": "it is also said in Māori mythology to be home to both Patupaiarehe, fairy-like supernatural beings (he iwi atua), and moehau (or maeroero), a large bipedal creature covered in a thick coat of hair.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "abff3b1fad95b37cb8207913906947800cd6fe7b91ba6b7953995cc9b8d8b306"
+      "images": []
     },
     {
       "slug": "mokoi",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "8eced883c8e7d1b4b0940a63c3f28aa2defde9795d323ff87a71022915c03b13",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -5595,7 +5986,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -5618,27 +6009,31 @@
           "quote": "The Murngin believed that death was rarely caused by old age and instead it was the work of a mokoi, who would bring about some sort of disease or fatal accident.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mokoi-c03",
+          "source_id": "mokoi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The mokoi is also known to kidnap children at night to eat them.",
+          "statement_id": "Mokoi juga dikenal menculik anak-anak pada malam hari untuk dimakan.",
+          "quote": "Also known to kidnap children at night to eat them.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4f20c56d59c5289f48e2519d86ac7a62cfc96d63b0d0300f1cbd6b7e3a609ed4"
+      "images": []
     },
     {
       "slug": "taotao-mona",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "b3a94ee7cd5acc9cd4653a5233319041ae59f7fff4564264ba511e1e57da06f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "taotao-mona-c01",
@@ -5659,27 +6054,111 @@
           "quote": "Locals and \"traditional\" Chamorros claim that one must request permission from the Taotao Mo'na before entering the jungle or taking fruit or wood from it.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c03",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, taotaomo’na (the people of before) refers to ancestral spirits that inhabited the earth along with the living.",
+          "statement_id": "Menurut Guampedia, taotaomo’na (orang-orang dari masa lalu) merujuk pada arwah leluhur yang menghuni bumi bersama orang hidup.",
+          "quote": "Taotaomo’na, the people of before, refers to ancestral spirits that inhabited the earth along with the living.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c04",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "Guampedia says that ancient CHamorus believed the world was full of spirits that gave daily protection and help but also created dangers and problems.",
+          "statement_id": "Menurut Guampedia, orang CHamoru kuno percaya dunia di sekitar mereka penuh roh yang memberi perlindungan dan bantuan sehari-hari, tetapi juga menimbulkan bahaya dan masalah.",
+          "quote": "Ancient CHamorus/Chamorros believed the world around them was full of spirits who provided both daily protection and assistance in their tasks, but also created dangers and problems.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c05",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, these taotaomo’na were thought to dwell on their descendants' land or in ancestral skulls kept in baskets in the rafters of homes.",
+          "statement_id": "Menurut Guampedia, taotaomo’na jenis ini dipercaya tinggal di tanah keturunan mereka atau di tengkorak leluhur yang disimpan dalam keranjang di kasau rumah.",
+          "quote": "these sorts of taotaomo’na were thought to dwell on the tåno’ (land) of their descendants or thought to inhabit ancestral skulls or maranan uchan which CHamorus kept in baskets in the rafters of their guma’saga’ (homes).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c06",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, when passing through land where particular spirits resided, one had to call to them first respectfully as great elders and then ask permission to pass.",
+          "statement_id": "Menurut Guampedia, saat melewati tanah tempat roh tertentu tinggal, orang harus lebih dulu memanggil mereka dengan hormat sebagai tetua agung lalu meminta izin lewat.",
+          "quote": "When passing through the tano’ (land) where particular spirits resided, it was crucial that the passer-by call to them first in this sort of respectful manner, as great elders, and then request permission to pass through their land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c07",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, over time these spirits changed from ancestral spirits into wily ghosts, devils and demons that play tricks or cause harm to CHamorus today.",
+          "statement_id": "Menurut Guampedia, seiring waktu roh-roh ini berubah dari arwah leluhur menjadi hantu, setan, dan iblis licik yang mempermainkan atau mencelakai orang CHamoru masa kini.",
+          "quote": "Slowly over time, these spirits have changed from the ante of ancestors to the wily ghosts, devils and demons that play tricks or cause harm to CHamorus today.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c08",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, taotaomo’na can make the living terribly ill by pinching (de’on), biting (akka’) or touching (pacha’).",
+          "statement_id": "Menurut Guampedia, taotaomo’na mampu membuat orang hidup sakit parah dengan mencubit (de’on), menggigit (akka’), atau menyentuh (pacha’).",
+          "quote": "Taotaomo’na have the ability to cause the living to become terribly ill. They do so by de’on (pinching), akka’ (biting) or pacha’ (touching).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c09",
+          "source_id": "taotao-mona-s2",
+          "host": "www.guampedia.com",
+          "statement": "According to Guampedia, salt is thought to weaken taotaomo’na, one reason they are found mainly inland in the jungle rather than on the coast.",
+          "statement_id": "Menurut Guampedia, garam dianggap melemahkan taotaomo’na, sehingga mereka terutama ditemukan di pedalaman hutan, bukan di pantai.",
+          "quote": "Salt is thought to weaken taotaomo’na, which is one reason why they are found primarily inland in the halom tano’ (jungle) and not along the coast near i tasi (the sea).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c10",
+          "source_id": "taotao-mona-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, early Spanish accounts of Chamorros did not mention Taotao Mo'na.",
+          "statement_id": "Menurut Wikipedia, catatan awal Spanyol tentang orang Chamorro tidak menyebut Taotao Mo'na.",
+          "quote": "Early Spanish accounts of Chamorros did not include any mention of Taotao Mo'na.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "taotao-mona-c11",
+          "source_id": "taotao-mona-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Taotao Mo'na have been known to pinch, bruise, imitate voices and kidnap children for short periods.",
+          "statement_id": "Menurut Wikipedia, Taotao Mo'na dikenal mencubit, membuat memar, meniru suara, dan menculik anak untuk waktu singkat.",
+          "quote": "Taotao Mo'na have been known to pinch, bruise, imitate voices and kidnap children for short periods of time.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6ed151c195a85f9d8ce4c4e387c2eb1e9ce638b4aa8f83d65e65454dd20bdeba"
+      "images": []
     },
     {
       "slug": "tinirau",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "718d758e0d1f55f4f45c1037b38b7a499e8a0a9408eedce373ca1f966cf1d99e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tinirau-c01",
@@ -5710,27 +6189,91 @@
           "quote": "Stories about Tinilau (or Tigilau) and his wife Sina are very popular in Samoa.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tinirau-c04",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, Tinirau is the tutelary deity of fishes and a son of Tangaroa, the Lord of Ocean.",
+          "statement_id": "Menurut Tregear, Tinirau adalah dewa pelindung ikan dan putra Tangaroa, Penguasa Samudra.",
+          "quote": "the tutelary deity of fishes ; a son of Tangaroa, the Lord of Ocean.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c05",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, Tinirau dwelt in Holy Island (Motutapu), an account of his residence agreed to by all Polynesians.",
+          "statement_id": "Menurut Tregear, Tinirau tinggal di Pulau Suci (Motutapu), dan keterangan tentang tempat tinggalnya ini disepakati oleh semua orang Polinesia.",
+          "quote": "Tinirau dwelt in Holy Island (Motutapu), and this account of his residence is agreed to by all Polynesians",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c06",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, the home of Tinirau was a preserve for fish, surrounded with pools for breeding fish.",
+          "statement_id": "Menurut Tregear, rumah Tinirau adalah cagar ikan yang dikelilingi kolam pembiakan ikan.",
+          "quote": "The home of Tinirau was a preserve for fish, and surrounded with pools for breeding fish",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c07",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, Tinirau kept several domesticated whales and lent one to the magician Kae; Kae killed it, and the angry Tinirau sent Hina with a party of women to trap him.",
+          "statement_id": "Menurut Tregear, Tinirau memelihara beberapa paus jinak dan meminjamkan satu kepada penyihir Kae; Kae membunuh paus itu sehingga Tinirau murka dan mengirim Hina bersama sekelompok perempuan untuk menjebaknya.",
+          "quote": "Tinirau kept several domesticated whales, and one of these he lent to Kae, the magician, to carry him homeward. Kae maliciously killed the whale, much to the wrath of Tinirau, who sent Hina with a party of women to trap him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c08",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "In the Mangaian tradition recorded by Tregear, Tinirau was half a fish, was given Motu-tapu as his inheritance and was lord of all fish.",
+          "statement_id": "Menurut tradisi Mangaia dalam Tregear, Tinirau setengah ikan, mewarisi Motu-tapu, dan menjadi penguasa semua ikan.",
+          "quote": "He was half a fish. Motu-tapu was given to him as his inheritance. He was lord of all fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c09",
+          "source_id": "tinirau-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear's entry on Hina, she became the wife of Tinirau, the chief of that country, who was also a god, the Lord of Fishes.",
+          "statement_id": "Menurut entri Hina dalam Tregear, Hina menjadi istri Tinirau, kepala negeri itu yang juga dewa, Penguasa Ikan.",
+          "quote": "and she became the wife of Tinirau, the chief of that country, who was also a god, the Lord of Fishes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tinirau-c10",
+          "source_id": "tinirau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, alternate names in the various Polynesian languages include Kinilau, Sinilau, Tigilau and Tinilau.",
+          "statement_id": "Menurut Wikipedia, nama lain dalam berbagai bahasa Polinesia mencakup Kinilau, Sinilau, Tigilau, dan Tinilau.",
+          "quote": "Alternate names in the various Polynesian languages include Kinilau, Sinilau, Tigilau, and Tinilau.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4a316c9ac72f7bdf81f24319158b160899f546e80686c8b6948c88a7fd76e8ed"
+      "images": []
     },
     {
       "slug": "ungud",
-      "file": "batch-150-fix-1.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "74f074732e67be2156f64d8c7a7293783d6ba39599d6f3bf8ed9e3c2d2e673bf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ungud-c01",
@@ -5761,27 +6304,71 @@
           "quote": "Ungud is associated with earth and water and is credited with causing rain to fall and also has connections with monsoons.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ungud-c04",
+          "source_id": "ungud-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, in Ungarinyin territory the wandjina spirits, which can be manifestations of the Rainbow Snake, are also sometimes called Ungud.",
+          "statement_id": "Menurut Berndt, di wilayah Ungarinyin roh-roh wandjina, yang dapat menjadi perwujudan Ular Pelangi, kadang juga disebut Ungud.",
+          "quote": "In Ungarinyin territory, these spirits, which can be manifestations of Rainbow Snake, are also sometimes called Ungud.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ungud-c05",
+          "source_id": "ungud-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt quoting Elkin, Ungud brings down spirit babies in the rain to the waterholes.",
+          "statement_id": "Menurut Berndt yang mengutip Elkin, Ungud membawa turun bayi-bayi roh bersama hujan ke lubang-lubang air.",
+          "quote": "Ungud \"brings down spirit babies in the rain to the waterholes\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ungud-c06",
+          "source_id": "ungud-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Elkin as quoted by Berndt, the rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind.",
+          "statement_id": "Menurut Elkin yang dikutip Berndt, ular pelangi dikaitkan dengan datangnya hujan, bertambahnya spesies alam, dan kelangsungan umat manusia.",
+          "quote": "The rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ungud-c07",
+          "source_id": "ungud-s3",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Crawford, life-spirits were identified as originating in a number of mythological beings; wandjina were important in central and northern Kimberley, with the mythical snake Ungud and other animal spirits playing less significant parts.",
+          "statement_id": "Menurut Crawford, roh-hidup bersumber dari sejumlah makhluk mitologis; wandjina penting di Kimberley tengah dan utara, sedangkan ular mitos Ungud dan roh hewan lain berperan lebih kecil.",
+          "quote": "Life-spirits were identified as originating in a number of mythological beings, of which those called wandjina were important in central and northern Kimberley, with the mythical snake Ungud and other animal spirits playing less significant parts.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ungud-c08",
+          "source_id": "ungud-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, at night Ungud and Wallanganda, the sky deity associated with the Milky Way, created living beings through their dreams.",
+          "statement_id": "Menurut Wikipedia, pada malam hari Ungud dan Wallanganda, dewa langit yang dikaitkan dengan Bima Sakti, menciptakan makhluk hidup melalui mimpi mereka.",
+          "quote": "At night, Ungud and Wallanganda, the sky deity (associated with the Milky Way), created living beings through their dreams.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8a62cb31e7d8f0921cece06d88bafd2b4ddffa0862a035149b96a03aaa718bf6"
+      "images": []
     },
     {
       "slug": "wagyl",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "e32f9202879a165742a6094ee7db741d81e198c3efc89a12d9d7f4d6775eed02",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wagyl-c01",
@@ -5812,27 +6399,111 @@
           "quote": "In the Wiilman Noongar dialect, the Wagyl is called the Ngunnunguddy Gnuditj (meaning 'hairy-faced snake').",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wagyl-c04",
+          "source_id": "wagyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, some groups state that the Wagyl is the ruler of the Earth and sky and inhabits water sources.",
+          "statement_id": "Menurut Wikipedia, sebagian kelompok menyatakan Wagyl adalah penguasa bumi dan langit serta tinggal di sumber-sumber air.",
+          "quote": "Some groups state that the Wagyl is the ruler of the Earth and sky, and that it inhabits water sources.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c05",
+          "source_id": "wagyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in all Noongar groups the Wagyl is a central figure responsible for giving life or sustenance for life to the custodians of its land.",
+          "statement_id": "Menurut Wikipedia, di semua kelompok Noongar Wagyl adalah tokoh sentral yang bertanggung jawab memberi hidup atau penopang hidup bagi para penjaga tanahnya.",
+          "quote": "However, in all Noongar groups it is a central figure and responsible for giving life or sustenance for life to the people who are the custodians of its land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c06",
+          "source_id": "wagyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, piles of rocks are said to be his droppings and such sites are considered sacred.",
+          "statement_id": "Menurut Wikipedia, tumpukan batu dikatakan sebagai kotorannya dan tempat-tempat itu dianggap keramat.",
+          "quote": "Piles of rocks are said to be his droppings, and such sites are considered sacred.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c07",
+          "source_id": "wagyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Wagyl stories may represent the survival in oral tradition of extinct Australian megafauna.",
+          "statement_id": "Menurut Wikipedia, kisah Wagyl mungkin mewakili bertahannya ingatan lisan tentang megafauna Australia yang punah.",
+          "quote": "The Wagyl stories may represent the survival in oral tradition of extinct Australian megafauna",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c08",
+          "source_id": "wagyl-s2",
+          "host": "www.cockburn.wa.gov.au",
+          "statement": "In the Nyitting story told by Trevor Walley, as the Waugal and the Spirit Crocodile rolled and tumbled they gouged out Derbal Nara (Cockburn Sound) and the sea waters rushed in.",
+          "statement_id": "Dalam kisah Nyitting yang disampaikan Trevor Walley, saat Waugal dan Buaya Roh bergulat, mereka mengeruk Derbal Nara (Cockburn Sound) dan air laut mengalir masuk.",
+          "quote": "As they rolled and tumbled, they gouged out Derbal Nara or Cockburn Sound and all the sea waters came rushing in.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c09",
+          "source_id": "wagyl-s2",
+          "host": "www.cockburn.wa.gov.au",
+          "statement": "In the story, the Waugal placed the Spirit Crocodile's tail at the mouth of the Swan River to stop salt water coming up the river, and it became a limestone sand bar.",
+          "statement_id": "Dalam kisah itu, Waugal meletakkan ekor Buaya Roh di muara Sungai Swan untuk mencegah air asin naik ke sungai, dan ekor itu menjadi gosong pasir batu kapur.",
+          "quote": "The Waugal placed tail of the Spirit Crocodile at the mouth of the Swan River to prevent salt water coming up the river. It became a limestone sand bar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c10",
+          "source_id": "wagyl-s2",
+          "host": "www.cockburn.wa.gov.au",
+          "statement": "In the story, the body of the Spirit Crocodile drifted off and became Garden Island.",
+          "statement_id": "Dalam kisah itu, tubuh Buaya Roh hanyut dan menjadi Garden Island.",
+          "quote": "The body of the Spirit Crocodile drifted off and became Garden Island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c11",
+          "source_id": "wagyl-s3",
+          "host": "slwa.wa.gov.au",
+          "statement": "In a State Library of Western Australia podcast transcript, the river in Noongar country is described as part of the creation story of the Wagyl, the rainbow serpent.",
+          "statement_id": "Dalam transkrip podcast Perpustakaan Negara Bagian Australia Barat, sungai di tanah Noongar disebut bagian dari kisah penciptaan Wagyl, ular pelangi.",
+          "quote": "it was part of the creation story of the Wagyl, the rainbow serpent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wagyl-c12",
+          "source_id": "wagyl-s3",
+          "host": "slwa.wa.gov.au",
+          "statement": "According to the same transcript, wherever he turned he created the hole for the river, and then the water came and filled the river.",
+          "statement_id": "Menurut transkrip yang sama, di mana pun ia berbelok ia membuat cekungan untuk sungai, lalu air datang dan memenuhi sungai.",
+          "quote": "wherever he turned, he created the hole for the river. And then the water came and filled the river up",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e6c843ae5caec889a454a0719de3fe86f6a57c680ce441680a6d9a3b14e221ce"
+      "images": []
     },
     {
       "slug": "yurlungur",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "c9386eddf9c124f50dbbd217b7b9fab2f6e61df637aaba2335fb068a3d2a4216",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yurlungur-c01",
@@ -5863,27 +6534,81 @@
           "quote": "The Rainbow Serpent or Rainbow Snake is a common deity, often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yurlungur-c04",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, Yulunggul is the Great Python of north-central Arnhem Land who swallowed the Wawalag sisters and their child or children.",
+          "statement_id": "Menurut Berndt, Yulunggul adalah Piton Agung di Arnhem Land utara-tengah yang menelan saudari-saudari Wawalag dan anak mereka.",
+          "quote": "Yulunggul is the Great Python of north-central Arnhem Land, who swallowed the Wawalag sisters and their child(ren).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yurlungur-c05",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, Yulunggul is most often identified as male, with or without female counterparts.",
+          "statement_id": "Menurut Berndt, Yulunggul paling sering diidentifikasi sebagai laki-laki, dengan atau tanpa pasangan perempuan.",
+          "quote": "Yulunggul is most often identified as male, with or without female counterparts.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yurlungur-c06",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, there are divergent views on whether Yulunggul is a Rainbow Snake manifestation.",
+          "statement_id": "Menurut Berndt, ada pandangan yang berbeda tentang apakah Yulunggul perwujudan Ular Pelangi.",
+          "quote": "There are divergent views on whether Yulunggul is a Rainbow Snake manifestation.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yurlungur-c07",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, unlike many great mythic characters who came from elsewhere, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul.",
+          "statement_id": "Menurut Berndt, berbeda dari banyak tokoh mitos agung yang datang dari tempat lain, Yulunggul selalu berada di lubang air khususnya, yang disebut Mirara-minar dan Muruwul.",
+          "quote": "Unlike so many of the great mythic characters, who came from elsewhere to sites that were to be spiritually associated with them, Yulunggul had always been at his special water hole, known as Mirara-minar and Muruwul",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yurlungur-c08",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, Yulunggul is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season.",
+          "statement_id": "Menurut Berndt, Yulunggul adalah roh monsun, angin barat dan barat laut yang membawa hujan penyubur musim hujan.",
+          "quote": "He is the spirit of the monsoon, the west and northwest wind that brings the fertilizing rains of the wet season.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yurlungur-c09",
+          "source_id": "yurlungur-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Berndt, Warner calls Yulunggul \"great father\" (Yindi Bapa or Bapa Yindi) but may have misheard the more usual expression \"great snake\" (Yindi Baapi).",
+          "statement_id": "Menurut Berndt, Warner menyebut Yulunggul sebagai \"great father\" (Yindi Bapa atau Bapa Yindi), tetapi mungkin ia salah dengar ungkapan yang lebih lazim, \"great snake\" (Yindi Baapi).",
+          "quote": "Warner refers to Yulunggul as \"great father\" (Yindi Bapa or Bapa Yindi), but it is possible that he misheard the more usual expression, \"great snake\" (Yindi Baapi).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6c0dc1157026737bc7252be756ed00d2d53dc28d4c24f485bb8330a18e1c80fe"
+      "images": []
     },
     {
       "slug": "blue-mountains-panther",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "05d7cc2a523ac4ef619202177310abcf0b01609cd6de77db5e0dfafb5f5328cd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "blue-mountains-panther-c01",
@@ -5914,27 +6639,111 @@
           "quote": "Theories suggest the animal may be a descendant of big cats released by World War II US soldiers, which had been used as military mascots.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c04",
+          "source_id": "blue-mountains-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the NSW Department of Primary Industries (NPWS) has commissioned four reports into the phenomenon, in 1999, 2003, 2009 and 2013.",
+          "statement_id": "Menurut Wikipedia, NSW Department of Primary Industries (NPWS) telah memesan empat laporan tentang fenomena ini, pada 1999, 2003, 2009, dan 2013.",
+          "quote": "The NSW Department of Primary Industries (NPWS) has commissioned four reports into the phenomenon, in 1999, 2003, 2009 and 2013.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c05",
+          "source_id": "blue-mountains-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Grose Vale Group, which has collected sighting reports since 1998, claims it collects 20 to 30 sightings a year.",
+          "statement_id": "Menurut Wikipedia, Grose Vale Group, yang mengumpulkan laporan penampakan sejak 1998, mengklaim menghimpun 20 sampai 30 penampakan per tahun.",
+          "quote": "The Grose Vale Group, which has collected reports of sightings since 1998, claims it collects 20 to 30 sightings a year.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c06",
+          "source_id": "blue-mountains-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the 2003 report concluded that no conclusive evidence exists but that it was more likely than not that such a cat existed.",
+          "statement_id": "Menurut Wikipedia, laporan 2003 menyimpulkan tidak ada bukti meyakinkan, tetapi lebih mungkin daripada tidak bahwa kucing semacam itu ada.",
+          "quote": "The 2003 report concluded no conclusive evidence exists, but that it was more likely than not that such a cat existed.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c07",
+          "source_id": "blue-mountains-panther-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, a 2013 report was written by John Parkes, an invasive species expert, who concluded there is no evidence of a big cat in the Blue Mountains.",
+          "statement_id": "Menurut Wikipedia, laporan 2013 ditulis John Parkes, pakar spesies invasif, yang menyimpulkan tidak ada bukti kucing besar di Blue Mountains.",
+          "quote": "A 2013 report was written by John Parkes, an invasive species expert, who concluded that there is no evidence of a big cat in the Blue Mountains.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c08",
+          "source_id": "blue-mountains-panther-s2",
+          "host": "www.illawarramercury.com.au",
+          "statement": "According to the Illawarra Mercury, John Parkes, author of the 2013 study, said there is no conclusive evidence that large cats exist in the wild in NSW.",
+          "statement_id": "Menurut Illawarra Mercury, John Parkes, penulis studi 2013, menyatakan tidak ada bukti meyakinkan bahwa kucing besar hidup liar di NSW.",
+          "quote": "There is no conclusive evidence that large cats exist in the wild in NSW",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c09",
+          "source_id": "blue-mountains-panther-s2",
+          "host": "www.illawarramercury.com.au",
+          "statement": "According to the Illawarra Mercury, reports of panther sightings are generally made in good faith but are not reliable proof that such animals exist.",
+          "statement_id": "Menurut Illawarra Mercury, laporan penampakan panther umumnya disampaikan dengan itikad baik tetapi bukan bukti andal bahwa hewan itu ada.",
+          "quote": "Reports of “panther” sightings are generally made in good faith, but are not reliable proof such animals exist.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c10",
+          "source_id": "blue-mountains-panther-s3",
+          "host": "beat.com.au",
+          "statement": "According to Beat Magazine, after Grose Vale resident Chris Coffey had her own close encounter with a black panther, she began compiling a database of other residents' sightings.",
+          "statement_id": "Menurut Beat Magazine, setelah warga Grose Vale, Chris Coffey, mengalami perjumpaan dengan panther hitam, ia mulai menyusun basis data penampakan lain dari warga sekitar.",
+          "quote": "After Grose Vale resident Chris Coffey had her own close encounter with a black panther, she started to compile a database of other sightings made by residents around the area.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c11",
+          "source_id": "blue-mountains-panther-s4",
+          "host": "www.lithgowmercury.com.au",
+          "statement": "According to the Lithgow Mercury, a photo of a black panther spotted in the Blue Mountains surfaced on Facebook.",
+          "statement_id": "Menurut Lithgow Mercury, foto panther hitam yang terlihat di Blue Mountains muncul di Facebook.",
+          "quote": "This myth could be broken as a photo of a black panther spotted in the Blue Mountains has surfaced on Facebook.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "blue-mountains-panther-c12",
+          "source_id": "blue-mountains-panther-s4",
+          "host": "www.lithgowmercury.com.au",
+          "statement": "According to the Lithgow Mercury, Mike Williams, co-author of Australian Big Cats: An Unnatural History of Panthers, said the photo was a hoax.",
+          "statement_id": "Menurut Lithgow Mercury, Mike Williams, penulis bersama buku Australian Big Cats: An Unnatural History of Panthers, mengatakan foto itu tipuan.",
+          "quote": "Hazelbrook resident Mike Williams, co-author of the book Australian Big Cats: An Unnatural History of Panthers on the subject, said the photo was a hoax.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e5a240be618a1663dcf6d634b9bcc6f628b3ce7b8292e89fc3cb616f2898c1d4"
+      "images": []
     },
     {
       "slug": "dirawong",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "42de9a6256813f8b46132be1e905498d570d420c7db869e8f58636cbce74703c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dirawong-c01",
@@ -5965,27 +6774,151 @@
           "quote": "Dirawong and the Rainbow Serpent together created parts of the Richmond River, Goanna Headland, Snake Island, and Pelican Island.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dirawong-c04",
+          "source_id": "dirawong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Dirawong is also believed to have been transformed into, and still resides within, the Goanna Headland.",
+          "statement_id": "Menurut Wikipedia, Dirawong juga dipercaya berubah menjadi dan masih tinggal di dalam Goanna Headland.",
+          "quote": "Dirawong is also believed to have been transformed into, and still resides within, the Goanna Headland.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c05",
+          "source_id": "dirawong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Dirawong is associated with rain, and there is a rain cave on Goanna Headland where Bundjalung elders once organised rain ceremonies.",
+          "statement_id": "Menurut Wikipedia, Dirawong dikaitkan dengan hujan, dan ada gua hujan di Goanna Headland tempat para tetua Bundjalung dahulu mengatur upacara hujan.",
+          "quote": "Dirawong is associated with rain, and there is a rain cave on Goanna Headland where the elders of the Bundjalung people went in the past to organise ceremonies for rain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c06",
+          "source_id": "dirawong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, a deposit of red ochre at Goanna Headland is said to originate from the wound where the Rainbow Serpent bit Dirawong.",
+          "statement_id": "Menurut Wikipedia, endapan oker merah di Goanna Headland dikatakan berasal dari luka tempat Ular Pelangi menggigit Dirawong.",
+          "quote": "A deposit of red ochre at Goanna Headland is said to originate from the wound where the Rainbow Serpent bit Dirawong.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c07",
+          "source_id": "dirawong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Dirawong's gender is ambiguous.",
+          "statement_id": "Menurut Wikipedia, jenis kelamin Dirawong tidak jelas.",
+          "quote": "Dirawong's gender is ambiguous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c08",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "In the local story told by Douglas Cook in a Richmond Valley Council brochure, a local clever man called on Goanna to chase Rainbow Snake away, and only Goanna was powerful enough to deal with him.",
+          "statement_id": "Dalam kisah setempat yang dituturkan Douglas Cook dalam brosur Richmond Valley Council, seorang lelaki pandai memanggil Goanna untuk mengusir Ular Pelangi, dan hanya Goanna yang cukup kuat menghadapinya.",
+          "quote": "a local clever man called on Goanna to chase Rainbow Snake away. Only Goanna was powerful enough to deal with Rainbow Snake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c09",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "In the story, Goanna chased Rainbow Snake towards the coast and as they went they formed parts of the Richmond River.",
+          "statement_id": "Dalam kisah itu, Goanna mengejar Ular Pelangi ke arah pantai dan dalam perjalanan keduanya membentuk bagian-bagian Sungai Richmond.",
+          "quote": "Goanna chased Rainbow Snake down towards the coast and as they went they formed parts of the Richmond River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c10",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "In the story, half-way down the Evans River Goanna caught Rainbow Snake, who turned around and bit him.",
+          "statement_id": "Dalam kisah itu, di tengah Evans River, Goanna menangkap Ular Pelangi, yang berbalik dan menggigitnya.",
+          "quote": "Half-way down the Evans River, Goanna caught Rainbow Snake. Snake turned around and bit him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c11",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "In the story, as Snake turned, his body made a small island in the river, now known as Pelican Island.",
+          "statement_id": "Dalam kisah itu, saat Ular berbalik, tubuhnya membentuk pulau kecil di sungai yang kini disebut Pelican Island.",
+          "quote": "As he turned, his body made a small island in the river, now known as Pelican Island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c12",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "In the story, Goanna reached the coast and lay down facing the sea, waiting for Rainbow Snake to come back.",
+          "statement_id": "Dalam kisah itu, Goanna mencapai pantai dan berbaring menghadap laut, menunggu Ular Pelangi kembali.",
+          "quote": "Goanna reached the coast. He lay down facing the sea, waiting for Rainbow Snake to come back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c13",
+          "source_id": "dirawong-s3",
+          "host": "www.ballinahistoricalsociety.org.au",
+          "statement": "According to Ballina Historical Society, the Headland is believed to be the body of the mythical Dirawong.",
+          "statement_id": "Menurut Ballina Historical Society, Goanna Headland dipercaya sebagai tubuh Dirawong yang mitos.",
+          "quote": "The Headland is believed to be the body of the mythical 'Dirawong'.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c14",
+          "source_id": "dirawong-s3",
+          "host": "www.ballinahistoricalsociety.org.au",
+          "statement": "According to Ballina Historical Society, Dirawong, an unseen spiritual creature also known as the goanna spirit, is one of the Creator Beings of the Bundjalung that protects, guards, battles the Rainbow Snake and helps the people.",
+          "statement_id": "Menurut Ballina Historical Society, Dirawong, makhluk roh tak terlihat yang juga disebut roh goanna, adalah salah satu Makhluk Pencipta Bundjalung yang melindungi, menjaga, melawan Ular Pelangi, dan menolong orang.",
+          "quote": "Mythology says the 'Dirawong', an unseen spiritual creature also known as the goanna spirit, is one of the Creator Beings of the Bundjalung, that protects, guards, battles the Rainbow Snake, and helps the people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c15",
+          "source_id": "dirawong-s3",
+          "host": "www.ballinahistoricalsociety.org.au",
+          "statement": "According to Ballina Historical Society, Goanna Headland has been the mythological place of origin of the Bundjalung Nation for thousands of years.",
+          "statement_id": "Menurut Ballina Historical Society, Goanna Headland telah menjadi tempat asal mitologis Bundjalung Nation selama ribuan tahun.",
+          "quote": "Goanna Headland has been the mythological place of origin of the Bundjalung Nation, for thousands of years.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dirawong-c16",
+          "source_id": "dirawong-s2",
+          "host": "discoverrichmondvalley.com.au",
+          "statement": "Richmond Valley Council states that the Reserve holds great spiritual significance to the traditional custodians, the Bundjalung people.",
+          "statement_id": "Richmond Valley Council menyatakan reservat itu memiliki makna spiritual besar bagi para penjaga tradisional, yaitu orang Bundjalung.",
+          "quote": "The Reserve holds great spiritual significance to the traditional custodians, the Bundjalung people.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1dd9d1f54034e2e2ad474f2f07293ffcb79a1d193853e66178807928d8a4343f"
+      "images": []
     },
     {
       "slug": "hahau-whenua",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "c481388cd87b4791e4968d5c821b332bbee07e57885fb1477c62371c13e4a8c9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hahau-whenua-c01",
@@ -6006,27 +6939,71 @@
           "quote": "When he pulled the fish up, he saw it was Hāhau-whenua",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c03",
+          "source_id": "hahau-whenua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tradition Māui guesses the fish may be Hāhau-tangaroa (\"search for the sea god\"), Hāhau-uru (\"search for the west wind\") or Hāhau-whenua (\"search for land\").",
+          "statement_id": "Dalam tradisi itu Māui menduga ikan yang menarik kailnya mungkin Hāhau-tangaroa (\"mencari dewa laut\"), Hāhau-uru (\"mencari angin barat\"), atau Hāhau-whenua (\"mencari daratan\").",
+          "quote": "Perhaps it is the fish called Hāhau-tangaroa (\"search for the sea god\"), or Hāhau-uru (\"search for the west wind\"), or Hāhau-whenua (\"search for land\").",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c04",
+          "source_id": "hahau-whenua-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, Te Ika-a-Maui, the fish of Maui, is the North Island of New Zealand, so called because it was pulled up by Maui from the depths of the ocean.",
+          "statement_id": "Menurut Tregear, Te Ika-a-Maui, ikan Maui, adalah North Island of New Zealand, dinamai demikian karena ditarik Maui dari kedalaman samudra.",
+          "quote": "IKA-A-MAUI (myth.), Te Ika-a-Maui, the fish of Maui, the North Island of New Zealand, so called because pulled up by Maui from the depths of the ocean.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c05",
+          "source_id": "hahau-whenua-s2",
+          "host": "archive.org",
+          "statement": "Tregear records that the word hahau means to seek or to search for.",
+          "statement_id": "Tregear mencatat kata hahau berarti mencari atau mencari-cari.",
+          "quote": "HAHAU, to seek, to search for: Hei aha ma korua i hahauria ai teiia loahine",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c06",
+          "source_id": "hahau-whenua-s2",
+          "host": "archive.org",
+          "statement": "According to Tregear, the North Island of New Zealand is well known as Te-Ika-a-Maui (The Fish of Maui).",
+          "statement_id": "Menurut Tregear, North Island of New Zealand dikenal luas sebagai Te-Ika-a-Maui (Ikan Maui).",
+          "quote": "The North Island of New Zealand is well-known as Te-Ika-a-Maui (The Fish of Maui)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hahau-whenua-c07",
+          "source_id": "hahau-whenua-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Māui pulled up a giant fish that became the North Island, known as Te Ika-a-Māui; the island's valleys and mountains were made by his brothers chopping up the fish.",
+          "statement_id": "Menurut Wikipedia, Māui menarik ikan raksasa yang menjadi North Island, dikenal sebagai Te Ika-a-Māui; lembah dan gunung pulau itu dibuat oleh saudara-saudaranya yang mencincang ikan itu.",
+          "quote": "He pulled up a giant fish which would become the North Island of New Zealand, known as Te Ika-a-Māui; the valleys and mountains of the island were made by his brothers chopping up the fish for themselves.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5c581a0b27682e1758b128f5419bc6e0d24ad7a67f9008d6bf0a1cf2cb0441b9"
+      "images": []
     },
     {
       "slug": "hakuturi",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "b2e02f56acc650a1128f0a5207299cfd53109843f6c57619231e5d675fda83ec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hakuturi-c01",
@@ -6057,27 +7034,61 @@
           "quote": "The hākuturi seem to have been regarded as birds or birdlike: one source calls them the children of Tāne, god of the forest and ancestor of birds",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hakuturi-c04",
+          "source_id": "hakuturi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, when Rātā cut down a tree without the proper incantations and rituals the hākuturi rebuked him by re-erecting it; when he showed remorse they felled it again and made it into a canoe for him in a single night.",
+          "statement_id": "Menurut Wikipedia, ketika Rātā menebang pohon tanpa lebih dulu mengucapkan mantra dan upacara yang semestinya, hākuturi menegurnya dengan menegakkan kembali pohon itu; setelah ia menyesal, mereka menebangnya lagi dan menjadikannya perahu dalam satu malam.",
+          "quote": "When Rātā cut down a tree without first making the proper incantations and rituals, the hākuturi rebuked him by re-erecting the tree. When he showed remorse, they felled the tree again and made it into a canoe for him in a single night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hakuturi-c05",
+          "source_id": "hakuturi-s2",
+          "host": "archive.org",
+          "statement": "Tregear defines the Hakuturi as wood-fairies, forest elves (mythological).",
+          "statement_id": "Tregear mendefinisikan Hakuturi sebagai peri kayu atau elf hutan (mitos).",
+          "quote": "HAKUTURI (myth.), wood-fairies, forest elves",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hakuturi-c06",
+          "source_id": "hakuturi-s2",
+          "host": "archive.org",
+          "statement": "Tregear records that they were also called the offspring of Tane, that is, of Tane-mahuta, the lord of forests.",
+          "statement_id": "Tregear mencatat bahwa mereka juga disebut keturunan Tane, yaitu Tane-mahuta, penguasa hutan.",
+          "quote": "They were also called \" the offspring of Tane,\" that is, of Tane-mahuta, the lord of forests.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hakuturi-c07",
+          "source_id": "hakuturi-s2",
+          "host": "archive.org",
+          "statement": "Tregear writes that the Hakuturi are the wood-elves who made the tree felled by one printed as Eata in the digitised text stand up again and finally made his canoe.",
+          "statement_id": "Tregear menulis bahwa para Hakuturi adalah elf kayu yang membuat pohon yang ditebang tokoh bernama Eata (ejaan teks hasil pindai) berdiri lagi dan akhirnya membuat perahunya.",
+          "quote": "The Hakuturi are the wood-elves, who made the tree felled by Eata stand up again, and finally made his canoe.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e0f1cd6518ce7c30dd0424bfa9fe043103f74c94305ee4bb7e0323ca8c6b9e3f"
+      "images": []
     },
     {
       "slug": "hatuibwari",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-5.md",
+      "entry_sha256": "94158397f39592d37eb7369195034bceee627b518d0d59c45eb5eb9f8b542867",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hatuibwari-c01",
@@ -6108,27 +7119,91 @@
           "quote": "The ancient belief is that he created and nourished all living things; that he is the male version of Mother Earth.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c04",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "Although male, he is represented with female breasts from which he gives suck to all created things.",
+          "statement_id": "Meskipun laki-laki, ia digambarkan memiliki payudara perempuan yang menyusui segala makhluk ciptaan.",
+          "quote": "More remarkable still, although he is male he is represented as having female breasts, from which he gives suck to all created things.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c05",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "Hatuibwari lives on the summits of sacred mountains, and bwari means summit.",
+          "statement_id": "Hatuibwari tinggal di puncak gunung-gunung keramat, dan bwari berarti puncak.",
+          "quote": "Hatuibwari lives on the summits of sacred mountains. Bwari means summit",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c06",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "Hatuibwari is a figona so powerful that he seems to dispute Agunua's position, and the supreme being of Arosi is this great figona rather than Agunua.",
+          "statement_id": "Hatuibwari adalah figona yang begitu kuat sehingga tampak menyaingi kedudukan Agunua, dan makhluk tertinggi di Arosi lebih tepat adalah figona agung ini daripada Agunua.",
+          "quote": "there is a jfigona so powerful as to seem to dispute with Agunua his position, the Figona Hatuibwari; and the supreme being of Arosi is rather this great figona than Agunua.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c07",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "In a footnote Fox states that Agunua is a name for Hatuibwari, the winged serpent.",
+          "statement_id": "Dalam catatan kaki Fox, Agunua adalah nama lain untuk Hatuibwari, ular bersayap.",
+          "quote": "Agunua is a name for Hatuibwari, the winged serpent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c08",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "Almost all of these local figona are represented as female snakes, Agunua as a male snake.",
+          "statement_id": "Hampir semua figona setempat digambarkan sebagai ular betina, sedangkan Agunua sebagai ular jantan.",
+          "quote": "Almost all of these local figona are represented as female snakes, Agunua as a male snake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c09",
+          "source_id": "hatuibwari-s2",
+          "host": "archive.org",
+          "statement": "The embryo (hasiabu) is said to be put into women's wombs by an adaro named Hatuibwari, who lives on a mountain in Marau Sound in Guadalcanar.",
+          "statement_id": "Embrio (hasiabu) konon ditempatkan ke rahim perempuan oleh seorang adaro bernama Hatuibwari yang tinggal di sebuah gunung di Marau Sound di Guadalcanar.",
+          "quote": "the embryo (hasiabu) is said to be put into the womb of women by an adaro named Hatuibwari, who lives on a mountain in Marau Sound in Guadalcanar",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatuibwari-c10",
+          "source_id": "hatuibwari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This legend comes from Makira (formerly San Cristobal) in Melanesia.",
+          "statement_id": "Legenda ini berasal dari Makira (dahulu San Cristobal) di Melanesia.",
+          "quote": "This legend comes from Makira (formerly San Cristobal) in Melanesia.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "39f371894394a72539a52a730630727e6b5ca3da2448a2139c3aacae1bd249fb"
+      "images": []
     },
     {
       "slug": "kumi-lizard",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-6.md",
+      "entry_sha256": "1321f8c9e2ae2bec29571967374b2bd126f38fa3d98f3164f65402e268a8ad5a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kumi-lizard-c01",
@@ -6159,10 +7234,119 @@
           "quote": "Although the animal itself was not spotted again, photographs of its footprints were taken.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c04",
+          "source_id": "kumi-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the length of the Kumi in the 1898 sighting was estimated at 1.5 metres.",
+          "statement_id": "Menurut Wikipedia, panjang Kumi dalam penampakan 1898 diperkirakan 1,5 meter.",
+          "quote": "Its length was estimated at 1.5 metres.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c05",
+          "source_id": "kumi-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the first edition of Gosset's book includes an account from captain James Cook, who was told by Maori in Queen Charlotte Sound that huge arboreal lizards lived in the surrounding bushland and were greatly feared.",
+          "statement_id": "Menurut Wikipedia, edisi pertama buku Gosset memuat kisah dari kapten James Cook, yang diberi tahu orang Maori di Queen Charlotte Sound bahwa kadal besar yang hidup di pohon ada di semak belukar sekitarnya dan sangat ditakuti.",
+          "quote": "These include an account from captain James Cook, who was told by Maori in Queen Charlotte Sound that huge, arboreal lizards were present in the surrounding bushland, and that they were greatly feared",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c06",
+          "source_id": "kumi-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the first edition also contains a 1875 sighting of a large lizard washed up in a flooded Hokianga river and the discovery of bones possibly from the animal that same year.",
+          "statement_id": "Menurut Wikipedia, edisi pertama juga memuat penampakan tahun 1875 berupa kadal besar yang hanyut di sungai Hokianga yang banjir dan penemuan tulang yang mungkin berasal dari hewan itu pada tahun yang sama.",
+          "quote": "as well as a sighting from 1875 of a large lizard washed up in a flooded Hokianga river and the discovery of bones possibly from the animal that same year",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c07",
+          "source_id": "kumi-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, two reports from 1898: a large reptile near Gisborne, and a huge creature akin to a monitor lizard on Mount Arowhana that advanced toward a bushman before retreating into a Rata tree.",
+          "statement_id": "Menurut Wikipedia, dua laporan tahun 1898: reptil besar dekat Gisborne, dan makhluk besar mirip kadal monitor di Mount Arowhana yang maju ke arah seorang penebang kayu sebelum mundur ke pohon Rata.",
+          "quote": "one describing a large reptile seen near Gisborne, New Zealand, the other a huge creature akin to a monitor lizard which advanced toward a bushman in Mount Arowhana before retreating into a Rata tree",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c08",
+          "source_id": "kumi-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the first edition of Gosset's book refers to several more accounts of the lizard that are absent from the second edition.",
+          "statement_id": "Menurut Wikipedia, edisi pertama buku Gosset memuat beberapa kisah tambahan tentang kadal itu yang tidak ada di edisi kedua.",
+          "quote": "In the first edition of the book, Gosset refers to several more accounts of the lizard which are absent from the second edition.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c09",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Bagnall and McLintock, in all probability such tales of water monsters and huge reptiles known as kumi were nothing more than distorted folk memories of the crocodile of the western Pacific or Asia.",
+          "statement_id": "Menurut Bagnall dan McLintock, kemungkinan besar kisah monster air dan reptil raksasa yang disebut kumi tidak lebih dari ingatan rakyat yang terdistorsi tentang buaya di Pasifik barat atau Asia.",
+          "quote": "In all probability such tales of water-dwelling monsters and other huge reptiles known as kumi were nothing more than distorted folk memories of the crocodile of the western Pacific or Asia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c10",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Te Ara (1966), a more precise sighting of a kumi was allegedly made in September 1898 on W. D. Lysnar's East Coast station, Arowhana: a Maori bushman was startled by a huge lizard some 5 ft long advancing towards him.",
+          "statement_id": "Menurut Te Ara (1966), penampakan kumi yang lebih tepat konon terjadi pada September 1898 di stasiun W. D. Lysnar di Pantai Timur, Arowhana: seorang penebang kayu Maori terkejut melihat kadal raksasa sepanjang sekitar 5 kaki maju ke arahnya.",
+          "quote": "A more precise sighting of a kumi was allegedly made in September 1898 on W. D. Lysnar's East Coast station, Arowhana. A Maori bushman was startled by the sight of a huge lizard some 5 ft long advancing towards him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c11",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Te Ara (1966), the animal disappeared into a rata tree and the description matched the traditional kumi, once well known in the area but not seen for at least three generations.",
+          "statement_id": "Menurut Te Ara (1966), hewan itu menghilang ke pohon rata, dan deskripsinya cocok dengan kumi tradisional yang dahulu dikenal di daerah itu tetapi tidak terlihat selama sedikitnya tiga generasi.",
+          "quote": "The animal disappeared into a rata tree but the subsequent description matched that of the traditional kumi which, although ones well known in the area, had not been seen for at least three generations.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c12",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Te Ara (1966), Lysnar and his party went into the bush and photographed the footprints but failed to disturb the animal.",
+          "statement_id": "Menurut Te Ara (1966), Lysnar dan rombongannya masuk ke semak dan memotret jejak kaki tetapi gagal menemukan hewan itu.",
+          "quote": "Lysnar and party went into the bush and photographed the footprints but failed to disturb the animal",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c13",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Te Ara (1966), the Maori may have caught a hasty glimpse of an opossum, since the first liberations on the East Coast pre-dated the sighting.",
+          "statement_id": "Menurut Te Ara (1966), orang Maori itu mungkin sekilas melihat oposum, karena pelepasan pertama oposum di Pantai Timur terjadi sebelum penampakan.",
+          "quote": "The Maori may have caught a hasty glimpse of an opossum, the first liberations on the East Coast having ante-dated the sighting.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kumi-lizard-c14",
+          "source_id": "kumi-lizard-s2",
+          "host": "web.archive.org",
+          "statement": "According to Te Ara (1966), a strange six-legged animal was reported captured near Hokianga in 1875.",
+          "statement_id": "Menurut Te Ara (1966), pada 1875 dilaporkan penangkapan hewan aneh berkaki enam di dekat Hokianga.",
+          "quote": "He was referring to the reported capture near Hokianga of a strange animal with six legs.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "263c72e3d817e4d485f4b6ae1fe3e4a36239ebdcab17fe93b5465d5fdf92b124"
+      "images": []
     }
   ]
 }
