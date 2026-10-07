@@ -1,11 +1,13 @@
 {
   "batch_id": "batch-145",
-  "checked_at": "2026-10-06T19:20:50.466Z",
+  "checked_at": "2026-10-07T05:34:09.511Z",
   "files": [
     "batch-145.md",
     "batch-145-fix-1.md",
     "batch-145-fix-2.md",
-    "batch-145-fix-3.md"
+    "batch-145-fix-3.md",
+    "batch-145-fix-4.md",
+    "batch-145-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4202,20 +4204,15 @@
     },
     {
       "slug": "lake-worth-monster",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "5dc0082d8b304fdd3368d34ecc5a2d8b572cb32f7636bf34f523499c4d056e1a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lake-worth-monster-c01",
@@ -4256,27 +4253,111 @@
           "quote": "Local police investigated the claims, but found no evidence of the monster in the Lake Worth and Greer Island area.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c05",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "Six residents told police they were attacked by a thing they described as half-man, half-goat and covered with fur and scales.",
+          "statement_id": "Enam warga melapor kepada polisi bahwa mereka diserang makhluk yang mereka gambarkan setengah manusia, setengah kambing, dan berbulu serta bersisik.",
+          "quote": "Six terrified residents told police early today they were attacked by a thing they described as being half-man, half-goat and covered with fur and scales.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c06",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "Four police units and the residents searched in vain for the thing, reported seen at Lake Worth near Greer Island.",
+          "statement_id": "Empat unit polisi dan para warga mencari makhluk itu tanpa hasil; makhluk itu dilaporkan terlihat di Lake Worth, dekat Greer Island.",
+          "quote": "Four units of Fort Worth police and the residents searched in vain for the thing, which was reported seen at Lake Worth, near Greer Island.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c07",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "A resident told police the creature leapt from a tree onto his car, and showed an 18-inch scar down the side of the car as proof.",
+          "statement_id": "Seorang warga mengatakan kepada polisi bahwa makhluk itu melompat dari pohon dan mendarat di mobilnya, dan ia menunjukkan goresan sepanjang 18 inci di sisi mobil sebagai bukti.",
+          "quote": "John Reichart told police that the creature leapt from a tree and landed on his car, and he showed them an 18-inch scar down the side of his car as proof.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c08",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "The next night, before a couple of dozen witnesses, the monster was said to have uttered a \"pitiful cry\" and hurled a tire at them from a bluff.",
+          "statement_id": "Pada malam berikutnya, di depan sekitar dua puluh empat saksi, makhluk itu konon mengeluarkan \"tangisan memilukan\" dan melemparkan ban dari tebing ke arah mereka.",
+          "quote": "The next night, the monster, in front of a couple of dozen witnesses, was said to have uttered a \"pitiful cry\" and hurled a tire from a bluff at them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c09",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "About the time school resumed, the Lake Worth Monster furor largely disappeared.",
+          "statement_id": "Ketika sekolah kembali dibuka, kehebohan tentang Lake Worth Monster sebagian besar mereda.",
+          "quote": "Then, about the time school resumed, perhaps not coincidentally, the Lake Worth Monster furor largely disappeared.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c10",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "The article says more people suspect the monster was really several hoaxes by opportunistic mischief-makers rather than a single creature.",
+          "statement_id": "Menurut artikel ini, lebih banyak orang menduga \"monster\" itu sebenarnya beberapa pelaku iseng yang memanfaatkan kesempatan, bukan satu makhluk.",
+          "quote": "Or, as more people actually suspect, the monster was really several creatures, all hoaxes carried out by enterprising and opportunistic mischief-makers from Brewer, Castleberry or North Side high school.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c11",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "Clarke's husband maintains that it was definitely not pranksters.",
+          "statement_id": "Suami Clarke berkeras bahwa penampakan itu pasti bukan ulah orang iseng.",
+          "quote": "Clarke's husband maintains that the monster was definitely not pranksters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c12",
+          "source_id": "lake-worth-monster-s2",
+          "host": "www.nbcdfw.com",
+          "statement": "A slightly tongue-in-cheek book, \"The Lake Worth Monster of Greer Island,\" was self-published in September '69.",
+          "statement_id": "Sebuah buku yang agak bernada jenaka berjudul \"The Lake Worth Monster of Greer Island\" terbit swadaya pada September '69.",
+          "quote": "her quick-draw and slightly tongue-in-cheek book, \"The Lake Worth Monster of Greer Island,\" self-published in September '69.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-worth-monster-c13",
+          "source_id": "lake-worth-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Since 2009, the 40th anniversary of the sightings, the Fort Worth Nature Center and Refuge has held a Lake Worth Monster Bash each October.",
+          "statement_id": "Sejak 2009, tahun peringatan ke-40 penampakan itu, Fort Worth Nature Center and Refuge menggelar acara Lake Worth Monster Bash setiap Oktober.",
+          "quote": "Since 2009 (the 40th anniversary of the sightings), the Fort Worth Nature Center and Refuge has held a Lake Worth Monster Bash each October.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0c6f44e45d167da9e1a49416912fe2724a6a60543c29555c3cc960b3415b86ad"
+      "images": []
     },
     {
       "slug": "lava-bear",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "6a896203aa7e2e15378e31b97dae3394da44e91f3f73992e362167a194bf63af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lava-bear-c01",
@@ -4317,27 +4398,81 @@
           "quote": "Today, it is acknowledged that lava bears never existed as a unique species.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "lava-bear-c05",
+          "source_id": "lava-bear-s2",
+          "host": "archive.org",
+          "statement": "Since the spring of 1917 many wonderful and weird tales have circulated of a hitherto unknown species of bear.",
+          "statement_id": "Sejak musim semi 1917 beredar banyak kisah ajaib dan aneh tentang spesies beruang yang belum dikenal.",
+          "quote": "Since the spring of 1917 there have been current many wonderful and weird tales of a hitherto unknown species of bear",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lava-bear-c06",
+          "source_id": "lava-bear-s2",
+          "host": "archive.org",
+          "statement": "The author recalls the specimen as much like any other bear except that its fur was rather woolly and a light buckskin color.",
+          "statement_id": "Penulis mengingat spesimen itu mirip beruang lain, kecuali bulunya agak seperti wol dan berwarna kuning kulit rusa muda.",
+          "quote": "I remember the specimen as being not unlike any other bear except that its fur was rather wooly and the color a light buckskin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lava-bear-c07",
+          "source_id": "lava-bear-s2",
+          "host": "archive.org",
+          "statement": "The examined specimen was pronounced an immature animal that possibly was an abnormal specimen of the common black bear.",
+          "statement_id": "Spesimen yang diperiksa itu dinyatakan sebagai hewan belum dewasa yang mungkin merupakan spesimen abnormal beruang hitam biasa.",
+          "quote": "was pronounced by him to be an immature animal that possibly was an abnormal specimen of the common black bear",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lava-bear-c08",
+          "source_id": "lava-bear-s2",
+          "host": "archive.org",
+          "statement": "Old-timers still insist that a dwarf bear lives in the lava beds.",
+          "statement_id": "Para penduduk lama tetap berkeras bahwa beruang kerdil hidup di hamparan lava.",
+          "quote": "Still old-timers insist that a dwarf bear lives in the lava beds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lava-bear-c09",
+          "source_id": "lava-bear-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bears were initially called \"sand lappers\" but eventually became known as lava bears.",
+          "statement_id": "Beruang-beruang itu awalnya disebut \"sand lapper\", tetapi lama-kelamaan dikenal sebagai lava bear.",
+          "quote": "The bears were initially called \"sand lappers\", but eventually became known as lava bears.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lava-bear-c10",
+          "source_id": "lava-bear-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1924 a high school selected the lava bear as its sports mascot.",
+          "statement_id": "Pada 1924 sebuah SMA memilih lava bear sebagai maskot olahraga sekolahnya.",
+          "quote": "In 1924, Bend Senior High School selected the lava bear as the school's sports mascot.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "907be5750f204adc0fbd43dbbd1b40327a9b839457b0ab55070d89a62e90493b"
+      "images": []
     },
     {
       "slug": "monster-of-lake-tota",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "00e61752baf4d9c4becfb8dd88e4a3a27c726ea7afddb5917d89623567065520",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "monster-of-lake-tota-c01",
@@ -4378,27 +4513,81 @@
           "quote": "A report of an alleged sighting took place in 1652.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c05",
+          "source_id": "monster-of-lake-tota-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The monster was also called \"a monstrous fish\", \"a black monster\", and even \"the Dragon\" and a \"divine animal archetype\".",
+          "statement_id": "Makhluk ini juga pernah disebut \"ikan monster\", \"monster hitam\", bahkan \"sang Naga\" dan \"arketipe hewan ilahi\".",
+          "quote": "The monster was also defined as \"a monstrous fish\", \"a black monster\", and even as \"the Dragon\" and as a \"divine animal archetype\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c06",
+          "source_id": "monster-of-lake-tota-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the account quoted, trusted persons and the Indians of the time affirmed that it was the devil.",
+          "statement_id": "Dalam catatan yang dikutip, orang-orang tepercaya dan penduduk asli pada masa itu menegaskan bahwa makhluk itu adalah iblis.",
+          "quote": "Quesada says that in his time, trusted persons and the Indians affirmed that it was the devil",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c07",
+          "source_id": "monster-of-lake-tota-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to an account quoted, a monstrous fish is occasionally seen only briefly out of the abyss.",
+          "statement_id": "Menurut sebuah catatan yang dikutip, ikan monster kadang terlihat sebentar muncul dari jurang air.",
+          "quote": "occasionally out of the abyss a monstrous fish can be seen only briefly.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c08",
+          "source_id": "monster-of-lake-tota-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ceremony spell against Busiraco, aimed at resolving the suffering of summer and water shortages, led to the creation of Lake Tota; the monster is also mentioned as a snake, fatally attacked.",
+          "statement_id": "Mantra upacara melawan Busiraco, yang bertujuan mengatasi penderitaan musim panas dan kelangkaan air, berujung pada terciptanya Danau Tota; monster itu juga disebut sebagai ular yang diserang hingga luka parah.",
+          "quote": "The ceremony spell against Busiraco aimed at resolving the suffering of summer and water shortages, led to the creation of Lake Tota; the monster is also mentioned as a snake, when he was fatally attacked:",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c09",
+          "source_id": "monster-of-lake-tota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The oldest reference was given to a conquistador by indigenous people of the region.",
+          "statement_id": "Rujukan tertua diberikan oleh penduduk asli kawasan itu kepada seorang conquistador.",
+          "quote": "La más antigua referencia fue dada al conquistador Gonzalo Jiménez de Quesada por indígenas de la región",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monster-of-lake-tota-c10",
+          "source_id": "monster-of-lake-tota-s2",
+          "host": "es.wikipedia.org",
+          "statement": "The legend has also been analysed by cryptozoology, called a pseudoscience in the source, which relates it to cases such as the Loch Ness monster.",
+          "statement_id": "Legenda ini juga dianalisis oleh kriptozoologi, yang disebut sebagai pseudosains dalam sumber ini, dan dikaitkan dengan kasus seperti monster Danau Ness.",
+          "quote": "La leyenda del monstruo del lago de Tota ha sido también analizada por la criptozoología, pseudociencia que lo relaciona con casos como el monstruo del lago Ness",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "eac14d744dfd4b05a7f85fd334f7b7566a70a20586c7231da921745b5a6dadfb"
+      "images": []
     },
     {
       "slug": "muelona",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "8ffb9304031bcc2bc025ec1fd5c83a6f9868648f3ffcafe506a5fbef2d12e9c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "muelona-c01",
@@ -4419,27 +4608,81 @@
           "quote": "La Muelona attacks the walkers that appears at the edge of the path as a very attractive and seductive woman, but once they are in her arms, they are crushed by her teeth.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "muelona-c03",
+          "source_id": "muelona-s3",
+          "host": "www.eltiempo.com",
+          "statement": "This mythological figure is known in the peasant oral tradition of the Andean zone of Colombia.",
+          "statement_id": "Tokoh mitologi ini dikenal dalam kisah tradisi lisan petani di kawasan Andes Kolombia.",
+          "quote": "Este personaje mitológico es reconocido en los relatos de la tradición oral campesina de la zona Andina de Colombia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muelona-c04",
+          "source_id": "muelona-s3",
+          "host": "www.eltiempo.com",
+          "statement": "She is said to let out loud laughter that is as deafening as it is terrifying.",
+          "statement_id": "Konon ia mengeluarkan tawa keras yang memekakkan sekaligus menakutkan.",
+          "quote": "Se dice que emite fuertes carcajadas que son tan ensordecedoras como aterradoras.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muelona-c05",
+          "source_id": "muelona-s2",
+          "host": "radionacional.co",
+          "statement": "She is described as a woman with long hair, large eyes and an enormous set of teeth.",
+          "statement_id": "Ia digambarkan sebagai perempuan berambut panjang, bermata besar, dan bergigi sangat besar.",
+          "quote": "es una mujer de cabello largo y grandes ojos con una enorme dentadura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muelona-c06",
+          "source_id": "muelona-s2",
+          "host": "radionacional.co",
+          "statement": "She is said to come from a young woman called \"la Maga\" who told fortunes, freed women and punished men.",
+          "statement_id": "Konon ia berasal dari seorang gadis bernama \"la Maga\" yang meramal masa depan, membebaskan perempuan, dan menghukum laki-laki.",
+          "quote": "Dicen que proviene de una muchacha llamada ´la Maga´, quien se dedicaba a adivinar el futuro, liberar mujeres y castigar a hombres.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muelona-c07",
+          "source_id": "muelona-s2",
+          "host": "radionacional.co",
+          "statement": "At her death, neighbours said they heard her inside her house swearing vengeance on unfaithful, drunken and vicious men.",
+          "statement_id": "Saat ia meninggal, para tetangga mengaku mendengarnya di dalam rumah bersumpah membalas dendam kepada laki-laki tak setia, pemabuk, dan bejat.",
+          "quote": "Durante su muerte, los vecinos decían escucharla dentro de su casa jurando venganza hacia los hombres infieles, borrachos y viciosos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muelona-c08",
+          "source_id": "muelona-s2",
+          "host": "radionacional.co",
+          "statement": "Some people say her spirit appears at the edges of paths, especially as evening falls.",
+          "statement_id": "Sebagian orang mengatakan rohnya muncul di tepi jalan setapak, terutama menjelang malam.",
+          "quote": "Algunas personas afirman que su espíritu se aparece en las orillas de los senderos, especialmente cuando cae la tarde.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "abe8786aea0a532a9e99a1cac981f4af608be5325e2005e01231fe164feefe7b"
+      "images": []
     },
     {
       "slug": "nain-rouge",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "6bcb60cbb2c520032531e015b41a54e7b97b8c8d48b886bdea557810b85afc8b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nain-rouge-c01",
@@ -4490,27 +4733,81 @@
           "quote": "Each Spring, there is an event called the Marche du Nain Rouge where hundreds of people chase a",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c06",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "In this text, the uncouth figure of a dwarf, very red in the face, with a bright, glistening eye, advances across their path along the beach.",
+          "statement_id": "Dalam teks ini, sosok kerdil yang kasar muncul menyeberangi jalan mereka di pantai, wajahnya sangat merah dan matanya cerah berkilau.",
+          "quote": "Suddenly across their path, trotting along the beach, advanced the uncouth figure of a dwarf, very red in the face, with a bright, glistening eye",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c07",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "A grinning mouth displaying sharp, pointed teeth completed this strange face.",
+          "statement_id": "Mulut yang menyeringai memperlihatkan gigi tajam dan runcing melengkapi wajah anehnya.",
+          "quote": "A grinning mouth displaying sharp, pointed teeth, completed this strange face.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c08",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "A footnote says the Nain Rouge was the demon of the Strait, in the old traditions described as most malignant if offended but capable of being appeased by flattery.",
+          "statement_id": "Menurut catatan kaki teks ini, Nain Rouge adalah iblis dari Selat, dalam tradisi lama digambarkan sangat jahat jika tersinggung tetapi bisa ditenangkan dengan sanjungan.",
+          "quote": "The Nain Rouge was the demon of the Strait, and in the old traditions is described as most malignant, if offended, but capable of being appeased by flattery.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c09",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "A fiendish, mocking laugh pierced the still night air as the monster vanished.",
+          "statement_id": "Tawa jahat yang mengejek menembus udara malam yang sunyi ketika monster itu lenyap.",
+          "quote": "A fiendish, mocking laugh pierced the still night air as the monster vanished.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c10",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "In this text, whenever he appeared it was a sure sign of impending evil.",
+          "statement_id": "Dalam teks ini, setiap kali ia muncul itu menjadi pertanda pasti akan datangnya malapetaka.",
+          "quote": "whenever he appeared it was a sure sign of impending evil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nain-rouge-c11",
+          "source_id": "nain-rouge-s2",
+          "host": "archive.org",
+          "statement": "In this text, he was seen running along the shore the night before the ill-fated attack at Bloody Run.",
+          "statement_id": "Dalam teks ini, ia terlihat berlari di sepanjang pantai pada malam sebelum serangan nahas di Bloody Run.",
+          "quote": "The night before ... ill-fated attack at Bloody Run, he was seen running along the shore.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f13f78371fd35d60dc0979874f4569cef8b210492cf612f0d6a975e952e456b5"
+      "images": []
     },
     {
       "slug": "nootaikok",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "67589a6570faf7d82154e6ce573c5f424e6e3b01e6d68ad3af7f6dcb002f8abb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nootaikok-c01",
@@ -4521,27 +4818,71 @@
           "quote": "In Inuit mythology, Nootaikok was a spirit who presided over and lived inside icebergs and glaciers. Along with Agloolik, the spirit led hunters to seals.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nootaikok-c02",
+          "source_id": "nootaikok-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "In this source Nootaikok is also called Nootîttok or Nutittuq and is described as the god who rules icebergs and glaciers.",
+          "statement_id": "Dalam sumber ini, Nootaikok juga disebut Nootîttok atau Nutittuq dan digambarkan sebagai dewa yang memimpin gunung es dan gletser.",
+          "quote": "Nootaikok, Nootîttok ou Nutittuq est le dieu qui dirige les icebergs et les glaciers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nootaikok-c03",
+          "source_id": "nootaikok-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "It is described as a beneficial, friendly spirit dressed in black that lives in the water and offers seals when invoked.",
+          "statement_id": "Ia digambarkan sebagai roh yang baik dan ramah, berpakaian hitam, hidup di dalam air, dan memberikan anjing laut ketika dipanggil.",
+          "quote": "C'est un esprit bénéfique et amical vêtu de noir qui vit dans l'eau et offre des phoques lorsqu'il est invoqué.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nootaikok-c04",
+          "source_id": "nootaikok-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "With Agloolik, it leads hunters to seals.",
+          "statement_id": "Bersama Agloolik, ia menuntun para pemburu ke anjing laut.",
+          "quote": "Avec Agloolik, il conduit les chasseurs vers les phoques.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nootaikok-c05",
+          "source_id": "nootaikok-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Agloolik, the spirit named alongside Nootaikok in other sources, lives underneath the ice of the Arctic Ocean as tutelary guardian of seals.",
+          "statement_id": "Agloolik, roh yang disebut bersama Nootaikok dalam sumber lain, hidup di bawah es Samudra Arktik dan menjadi penjaga pelindung anjing laut.",
+          "quote": "is a spirit that lives underneath the ice of the Arctic Ocean and acts as tutelary guardian for the protection of seals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nootaikok-c06",
+          "source_id": "nootaikok-s3",
+          "host": "en.wikipedia.org",
+          "statement": "If Inuit hunters prayed to Agloolik before fishing, it would bless them with prey.",
+          "statement_id": "Jika pemburu Inuit berdoa kepada Agloolik sebelum memancing, ia akan memberkati mereka dengan buruan.",
+          "quote": "If Inuit hunters prayed to the spirit before fishing, Agloolik will bless them with prey.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "31120c0ed684dc37b6ce0bec76ea11c5c8e9416b22f21327ba88db199eff58a4"
+      "images": []
     },
     {
       "slug": "obia-folklore",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "71a54d49e7c722ee8b54067c009ec426c78e2e9953c62734d8a8d0277595ffbb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "obia-folklore-c01",
@@ -4572,27 +4913,61 @@
           "quote": "It is also the common term in the Bay Islands of Honduras for a witch or the spell that is cast by the witch.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "obia-folklore-c04",
+          "source_id": "obia-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An obiama or obiaman is one who uses the power of obia.",
+          "statement_id": "Seorang obiama atau obiaman adalah orang yang memakai kekuatan obia.",
+          "quote": "An obiama or obiaman is one who uses the power of obia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "obia-folklore-c05",
+          "source_id": "obia-folklore-s2",
+          "host": "zenodo.org",
+          "statement": "In the older passage quoted in this article, the term Obeah in Jamaica became the general term for Africans on the island who practise witchcraft or sorcery.",
+          "statement_id": "Dalam kutipan catatan lama di artikel ini, istilah Obeah di Jamaika menjadi sebutan umum bagi orang Afrika di pulau itu yang mempraktikkan ilmu sihir.",
+          "quote": "The term Obeah is now become in Jamaica the general term to denote those Africans who in that island practise witchcraft or sorcery",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "obia-folklore-c06",
+          "source_id": "obia-folklore-s2",
+          "host": "zenodo.org",
+          "statement": "According to the passage, they brought the science with them to Jamaica.",
+          "statement_id": "Menurut kutipan itu, mereka membawa ilmu tersebut bersama mereka ke Jamaika.",
+          "quote": "and they have brought the science with them to Jamaica",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "obia-folklore-c07",
+          "source_id": "obia-folklore-s2",
+          "host": "zenodo.org",
+          "statement": "According to the passage, people resorted to these oracles with implicit faith, for the cure of disorders, revenge for injuries or insults, and the conciliation of favours.",
+          "statement_id": "Menurut kutipan itu, orang mendatangi para \"peramal\" tersebut dengan penuh kepercayaan, antara lain untuk menyembuhkan penyakit, membalas dendam, dan mendapatkan bantuan.",
+          "quote": "to these oracles they resort, and with the most implicit faith, upon all occasions, whether for the cure of disorders, the obtaining revenge for injuries or insults, the conciliation of favours",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a8451ad79194e58b58e80303b02aa27f11875055b0069e8fa2bbcc4903399773"
+      "images": []
     },
     {
       "slug": "qallupilluit",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "2b69f4067eec7019b555ed8accbb3b3311c1979c01b4f9c4a56d94672da63ef0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qallupilluit-c01",
@@ -4633,27 +5008,91 @@
           "quote": "It wears an amautik, an Inuit parka mostly worn by women.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c05",
+          "source_id": "qallupilluit-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In this ethnographic text, Kalopaling is a fabulous being that lives in the sea, with a human-like body, wearing clothing made of eider duck skins.",
+          "statement_id": "Dalam teks etnografi ini, Kalopaling adalah makhluk ajaib yang hidup di laut, bertubuh seperti manusia, dan berpakaian kulit bebek eider.",
+          "quote": "Kalopaling is a fabulous being that lives in the sea. His body is like that of a human being and he wears clothing made of eider ducks’ skins.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c06",
+          "source_id": "qallupilluit-s2",
+          "host": "www.gutenberg.org",
+          "statement": "His jacket has an enormous hood, feared by the Inuit; if a kayak capsizes and the boatman drowns, Kalopaling puts him into this hood.",
+          "statement_id": "Jaketnya berkerudung besar yang ditakuti orang Inuit; jika kayak terbalik dan pendayungnya tenggelam, Kalopaling memasukkannya ke dalam kerudung itu.",
+          "quote": "His jacket has an enormous hood, which is an object of fear to the Inuit. If a kayak capsizes and the boatman is drowned Kalopaling puts him into this hood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c07",
+          "source_id": "qallupilluit-s2",
+          "host": "www.gutenberg.org",
+          "statement": "His feet are very large and look like inflated sealskin floats.",
+          "statement_id": "Kakinya sangat besar dan tampak seperti pelampung kulit anjing laut yang digembungkan.",
+          "quote": "His feet are very large and look like inflated sealskin floats.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c08",
+          "source_id": "qallupilluit-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Inuit believe there were once a great number of Kalopalit, but their number gradually diminished and very few are left.",
+          "statement_id": "Orang Inuit percaya bahwa dahulu ada banyak Kalopalit, tetapi jumlahnya berangsur berkurang dan kini tinggal sedikit.",
+          "quote": "The Inuit believe that in olden times there were a great number of Kalopalit, but gradually their number diminished and there are now very few left.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c09",
+          "source_id": "qallupilluit-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In an old tradition, an angry grandmother called Kalopaling to take her grandson; it entered and put the boy into its large hood, where he almost immediately disappeared.",
+          "statement_id": "Dalam sebuah tradisi tua, seorang nenek yang marah memanggil Kalopaling untuk membawa cucunya; makhluk itu masuk dan memasukkan anak itu ke dalam kerudung besarnya, tempat anak itu hampir seketika lenyap.",
+          "quote": "The grandmother told him to be quiet, but as he did not obey she became angry and called Kalopaling to come and take him away. He entered at once and the woman put the boy into the large hood, in which he disappeared almost immediately.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c10",
+          "source_id": "qallupilluit-s3",
+          "host": "www.inuitmyths.com",
+          "statement": "On the page presenting the same tale, the being is named Qallupilluk: the grandmother called it to take the boy, who was put into the large hood.",
+          "statement_id": "Pada halaman yang menyajikan kisah yang sama, tokoh itu dinamai Qallupilluk: sang nenek memanggilnya untuk membawa si anak, yang lalu dimasukkan ke kerudung besar.",
+          "quote": "called Qallupilluk to come and take him away. He entered at once and the woman put the boy into the large hood",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qallupilluit-c11",
+          "source_id": "qallupilluit-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some interpretations use the pronoun \"he\", but the Qallupilluit is predominantly described in a feminine manner.",
+          "statement_id": "Beberapa tafsir memakai kata ganti \"dia laki-laki\", tetapi Qallupilluit terutama digambarkan secara feminin.",
+          "quote": "While some interpretations include the pronoun 'he', the Qallupilluit is predominantly described in a feminine manner.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b96c1d35708cea72453c40e3d3221ff0f670a11dde10e9b4bdacb80fc4ea4745"
+      "images": []
     },
     {
       "slug": "sayona",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "b9fd5a363d8f88aa4b7055c0233cc1a77e2126e7b58fcad73ec8cbecf50e1bca",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sayona-c01",
@@ -4694,27 +5133,91 @@
           "quote": "The legend says that \"La Sayona\" was a young woman named Casilda.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "sayona-c05",
+          "source_id": "sayona-s2",
+          "host": "psicologiaymente.com",
+          "statement": "The sayona is said to seduce men with her beauty and then lead them to the plain.",
+          "statement_id": "Konon La Sayona memikat laki-laki dengan kecantikannya lalu membawa mereka ke dataran.",
+          "quote": "Se dice que la figura de la sayona seduce a los hombres con su belleza para luego llevarles a la llanura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c06",
+          "source_id": "sayona-s2",
+          "host": "psicologiaymente.com",
+          "statement": "There she takes her true form, with enormous sharp fangs and claws and blood-colored eyes, often causing them death or madness.",
+          "statement_id": "Di sana ia mengambil wujud aslinya, bertaring dan bercakar besar nan tajam serta bermata semerah darah, dan sering menyebabkan kematian atau kegilaan pada mereka.",
+          "quote": "Allí adopta su verdadera forma, con colmillos y garras enormes y afiladas y ojos de color de la sangre, a menudo provocándoles la muerte o la locura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c07",
+          "source_id": "sayona-s2",
+          "host": "psicologiaymente.com",
+          "statement": "Since then, in this telling, the sayona wanders forever, pursuing unfaithful men who fall for her attempts at seduction.",
+          "statement_id": "Sejak itu, dalam kisah ini, La Sayona mengembara selamanya mengejar laki-laki tak setia yang terjerat rayuannya.",
+          "quote": "Desde entonces la sayona vaga eternamente, persiguiendo a los hombres infieles que caen en sus intentos de seducción",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c08",
+          "source_id": "sayona-s3",
+          "host": "www.culturagenial.com",
+          "statement": "This legend is believed to have possibly originated in the Llanos region in the 19th century and has different versions.",
+          "statement_id": "Legenda ini diperkirakan berasal dari kawasan Los Llanos pada abad ke-19 dan memiliki beberapa versi.",
+          "quote": "Se cree que esta leyenda pudo originarse en la región de los Llanos durante el siglo XIX y cuenta con diferentes versiones.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c09",
+          "source_id": "sayona-s3",
+          "host": "www.culturagenial.com",
+          "statement": "The purpose of this story is to intimidate men who commit infidelities, but also to frighten small children.",
+          "statement_id": "Tujuan kisah ini menakut-nakuti laki-laki yang berselingkuh, tetapi juga anak-anak kecil.",
+          "quote": "El propósito de esta historia no es otro que el de intimidar a los hombres que cometen infidelidades, pero también para atemorizar a los más pequeños.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c10",
+          "source_id": "sayona-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Casilda ran home and found her husband asleep with the baby in his arms; blind with anger, she burned the house with them inside.",
+          "statement_id": "Casilda berlari pulang dan menemukan suaminya tertidur dengan bayi dalam pelukannya; buta oleh amarah, ia membakar rumah dengan mereka di dalamnya.",
+          "quote": "Casilda ran home and found her husband asleep with the baby in his arms. Blind with anger, she burned the house with them inside.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sayona-c11",
+          "source_id": "sayona-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other versions of the tale, Sayona appears to men working in the jungle.",
+          "statement_id": "Dalam versi lain, Sayona menampakkan diri kepada laki-laki yang bekerja di hutan.",
+          "quote": "In other versions of the tale, Sayona appears to men working in the jungle.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0ac904c7d79fdec1a15df3ca5935fd59fc5f91d5735fe9c6aea9fc488137bc00"
+      "images": []
     },
     {
       "slug": "the-hairy-leg",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-4.md",
+      "entry_sha256": "d6aeb255dbad06e33ec941a4636802ff17417c97cc5ac79159a724da67234f0f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "the-hairy-leg-c01",
@@ -4755,27 +5258,101 @@
           "quote": "The film The Secret Agent (2025) (Portuguese: O Agente Secreto) incorporated it as a central element of its narrative.",
           "context": "modern-popular-culture",
           "status": "loose"
+        },
+        {
+          "id": "the-hairy-leg-c05",
+          "source_id": "the-hairy-leg-s2",
+          "host": "www.cnnbrasil.com.br",
+          "statement": "Residents heard in the report described a severed leg, full of hair and nails, that attacked people at night.",
+          "statement_id": "Moradores ouvidos pela reportagem descreviam uma perna decepada, cheia de pelos e unhas, que violentava pessoas durante a noite.",
+          "quote": "Os moradores ouvidos pela matéria descrevia uma perna decepada, cheia de pelos e unhas que violentava pessoas durante a noite.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c06",
+          "source_id": "the-hairy-leg-s2",
+          "host": "www.cnnbrasil.com.br",
+          "statement": "According to the residents' account, the \"leg\" measures about a metre and a half, walks all over the house, hangs from the roof and turns into an animal.",
+          "statement_id": "Segundo o relato dos moradores, a \"perna\" mede cerca de um metro e meio, anda pela casa toda, pendura-se no telhado e se transforma em animal.",
+          "quote": "A 'perna' mede mais ou menos e um metro e meio, anda a casa todinha, pendura-se no telhado e transforma-se em animal",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c07",
+          "source_id": "the-hairy-leg-s2",
+          "host": "www.cnnbrasil.com.br",
+          "statement": "The origins of the story are not clear, and different journalists claim authorship of the legend.",
+          "statement_id": "Asal-usul kisah ini tidak jelas, dan beberapa jurnalis berbeda mengklaim sebagai penciptanya.",
+          "quote": "As origens da história não são claras, e diferentes jornalistas reafirmam a autoria da lenda.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c08",
+          "source_id": "the-hairy-leg-s2",
+          "host": "www.cnnbrasil.com.br",
+          "statement": "Another claimed authorship of the legend goes back to the journalist Jota Ferreira.",
+          "statement_id": "Klaim penciptaan lain merujuk pada jurnalis bernama Jota Ferreira.",
+          "quote": "Outro suposta autoria da lenda remonta ao jornalista Jota Ferreira",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c09",
+          "source_id": "the-hairy-leg-s3",
+          "host": "www.opovo.com.br",
+          "statement": "In Carrero's text, the modus operandi that made the leg famous appears for the first time: kicking and tripping people.",
+          "statement_id": "Dalam tulisan Carrero, untuk pertama kalinya muncul cara kerja yang membuat kaki itu terkenal, yaitu menendang dan menjegal orang.",
+          "quote": "Carrero traz pela primeira vez o modus operandi pelo qual a perna ficaria famosa, chutando e dando rasteira nas pessoas.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c10",
+          "source_id": "the-hairy-leg-s3",
+          "host": "www.opovo.com.br",
+          "statement": "In the following years the Perna Cabeluda became a frevo, a carnival bloco and a costume.",
+          "statement_id": "Dalam tahun-tahun berikutnya, Perna Cabeluda menjadi frevo, bloco karnaval, dan kostum.",
+          "quote": "A Perna Cabeluda virou frevo, bloco de carnaval e fantasia nos anos seguintes",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c11",
+          "source_id": "the-hairy-leg-s3",
+          "host": "www.opovo.com.br",
+          "statement": "According to Roberto Beltrão, journalist and writer, legends like this in Recife were used to sublimate the pains of society.",
+          "statement_id": "Menurut Roberto Beltrão, jurnalis dan penulis, legenda semacam ini di Recife dipakai untuk menyublimasi kepedihan masyarakat.",
+          "quote": "Lendas como essa no Recife eram usadas para sublimar as dores da sociedade\", diz Roberto Beltrão, jornalista, escritor",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "the-hairy-leg-c12",
+          "source_id": "the-hairy-leg-s3",
+          "host": "www.opovo.com.br",
+          "statement": "On 10 December 1975 a rare \"birth certificate\" of an urban legend is recorded on paper.",
+          "statement_id": "Pada 10 Desember 1975 tercatat di atas kertas sebuah \"akta kelahiran\" langka dari legenda urban ini.",
+          "quote": "Em 10 de dezembro de 1975, está registrada em papel uma rara \"certidão de nascimento\" de uma lenda urbana",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f67e8e7791d765235614f515dc496af15250d157181119554a9c21932ecf0163"
+      "images": []
     },
     {
       "slug": "ti-malice-and-bouki",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-5.md",
+      "entry_sha256": "f0e49ff5469447d818792840b7c807e0f72623e6a3400569df237d08bac80608",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ti-malice-and-bouki-c01",
@@ -4806,27 +5383,91 @@
           "quote": "Bouki is represented as a hyena, which is called \"Bouki\" in the Fulani and Wolof languages, while Malice is a hare called \"Leuk\" in Senegal.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c04",
+          "source_id": "ti-malice-and-bouki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bouki and Malice originate in African oral traditions; in Senegal and neighbouring countries the two characters appear in animal form.",
+          "statement_id": "Bouki dan Malice berasal dari tradisi lisan Afrika; di Senegal dan negara tetangganya, keduanya tampil dalam wujud hewan.",
+          "quote": "Bouki and Malice have their origins in African oral traditions. In Senegal and neighbouring countries, these two characters appear in animal form.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c05",
+          "source_id": "ti-malice-and-bouki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bouki is the hungry and skinny hyena and Leuk the hare with a mischievous character and legendary cunning.",
+          "statement_id": "Bouki adalah hiena yang lapar dan kurus, sedangkan Leuk adalah kelinci yang nakal dan terkenal licik.",
+          "quote": "Bouki, the hungry and skinny hyena and Leuk, the hare with a mischievous character and legendary cunning.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c06",
+          "source_id": "ti-malice-and-bouki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "By manipulating this greed, Ti Malice often gets the best of Uncle Bouki.",
+          "statement_id": "Dengan memanipulasi keserakahan itu, Ti Malice sering berhasil mengalahkan Paman Bouki.",
+          "quote": "It is the manipulation of this greed that allows Ti Malice to often get the best of Uncle Bouki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c07",
+          "source_id": "ti-malice-and-bouki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two equivalent figures, also a hyena known as Bouki and a hare called Lapin, are known in Louisiana folktales.",
+          "statement_id": "Dua tokoh padanan, juga hiena bernama Bouki dan kelinci (bernama Lapin), dikenal ada dalam dongeng Louisiana.",
+          "quote": "Two equivalent figures, also a hyena known as Bouki and a hare (called Lapin), are known to exist in Louisiana folktales.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c08",
+          "source_id": "ti-malice-and-bouki-s2",
+          "host": "potomitan.info",
+          "statement": "According to the reviewer, in Haiti Uncle Bouki and Ti Malice are perhaps the most dominant figures in folk tales.",
+          "statement_id": "Menurut penulis ulasan ini, di Haiti Paman Bouki dan Ti Malice mungkin tokoh paling dominan dalam dongeng rakyat.",
+          "quote": "In Haiti perhaps the most dominant figures in folk tales are Uncle Bouki and Ti Malice.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c09",
+          "source_id": "ti-malice-and-bouki-s2",
+          "host": "potomitan.info",
+          "statement": "Bouki is almost invariably a bit of a dunce, lazy, and when pictured dumpy and sloppy; Ti Malice is a bright brat who usually takes advantage of Uncle Bouki.",
+          "statement_id": "Bouki hampir selalu agak dungu, malas, dan kalau digambar tampak gemuk pendek dan berantakan; Ti Malice adalah anak cerdas yang nakal dan biasanya memanfaatkan Paman Bouki.",
+          "quote": "Bouki is almost invariably a bit of a dunce, lazy, often, when pictured, he is a bit dumpy and sloppy. Ti Malice is a bright brat, and usually takes advantage of Uncle Bouki in some measure.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ti-malice-and-bouki-c10",
+          "source_id": "ti-malice-and-bouki-s3",
+          "host": "geography.wisc.edu",
+          "statement": "The most popular folk tales concern the smart but mischievous Ti Malice and his very slow-witted friend Bouki.",
+          "statement_id": "Dongeng rakyat paling populer menceritakan Ti Malice yang pintar tetapi jahil dan temannya Bouki yang sangat lamban berpikir.",
+          "quote": "The most popular folk tales concern the smart, but mischievous Ti Malice and his very slow-witted friend Bouki.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "eaf425a0f708042c90a5d894c154a3eddde695fad086090fcfd86c9185956c3c"
+      "images": []
     },
     {
       "slug": "tunda",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-5.md",
+      "entry_sha256": "2b3c1162d9ffa5a146d8c9983770e16739ffcd57cb83b78e2a4c29f252048de8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tunda-c01",
@@ -4857,27 +5498,101 @@
           "quote": "Her shapeshifting abilities are said to be imperfect, as this doppelgänger of sorts would always have a wooden leg in the shape of a molinillo",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tunda-c04",
+          "source_id": "tunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This deception is called entundamiento, and a person in this pacified stupor is called entundado(a).",
+          "statement_id": "Tipuan ini disebut entundamiento, dan orang yang berada dalam keadaan terbius itu disebut entundado(a).",
+          "quote": "This deception is referred to as entundamiento and a person in this state of pacified stupor is called entundado(a).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c05",
+          "source_id": "tunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other versions it appears to male loggers or hunters deep in the jungle as a beautiful woman who lures a man away, then reveals its hideous nature and sucks his blood or devours him like a wild animal such as a bear.",
+          "statement_id": "Dalam versi lain, ia muncul kepada penebang atau pemburu laki-laki di dalam hutan sebagai perempuan cantik yang membujuk seorang laki-laki pergi, lalu menampakkan wujud mengerikannya, mengisap darahnya, atau menerkamnya seperti binatang buas semacam beruang.",
+          "quote": "In other versions, it appears to male loggers or hunters working deep into the jungle as a beautiful woman that tries to lure a man away, so it can reveal its hideous nature and suck his blood and drink it or devour him as a wild animal like bears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c06",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "According to the legend, her right foot looks like a baby's foot, while the left resembles a molinillo or a tree root.",
+          "statement_id": "Menurut legenda, kaki kanannya tampak seperti kaki bayi, sedangkan kaki kirinya mirip molinillo atau akar pohon.",
+          "quote": "Su pie derecho tendría la apariencia del pie de un bebé, mientras que el izquierdo sería parecido a un molinillo o a la raíz de un árbol.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c07",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "According to oral accounts, her victims included the so-called moritos (unbaptized children), rude children, and men or women considered unfaithful or badly behaved.",
+          "statement_id": "Menurut kisah lisan, korbannya termasuk \"moritos\" (anak yang belum dibaptis), anak-anak yang kasar, serta laki-laki atau perempuan yang dianggap tidak setia atau berperilaku buruk.",
+          "quote": "De acuerdo con los relatos transmitidos oralmente, entre sus víctimas estaban los llamados moritos —niños que no habían sido bautizados—, así como niños groseros y hombres o mujeres considerados infieles o de mal comportamiento.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c08",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "In the mountains, La Tunda fed her captives roasted shrimp; she was also said to expel foul gases on their faces, thereby keeping them under her control.",
+          "statement_id": "Di pegunungan, La Tunda memberi tawanannya udang panggang; konon ia juga mengembuskan gas busuk ke wajah mereka sehingga mereka tetap dalam kekuasaannya.",
+          "quote": "En la montaña, La Tunda alimentaba a sus cautivos con camarones asados. También se decía que expulsaba gases pestilentes sobre sus rostros y, de esa manera, lograba mantenerlos bajo su dominio.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c09",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "According to tradition, rescuing an entundado required long days of prayer and the participation of the community.",
+          "statement_id": "Menurut tradisi, menyelamatkan orang yang terkena entunda membutuhkan doa berhari-hari dan keterlibatan komunitas.",
+          "quote": "Según la tradición, rescatar a un entundado requería grandes jornadas de oración y la participación de la comunidad.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c10",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "Prayers and songs were accompanied by burning gunpowder and shotgun blasts used to drive La Tunda away.",
+          "statement_id": "Doa dan nyanyian disertai pembakaran bubuk mesiu dan tembakan senapan untuk mengusir La Tunda.",
+          "quote": "A los rezos y cantos se sumaban la quema de pólvora y los disparos de escopeta, utilizados para ahuyentar a La Tunda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tunda-c11",
+          "source_id": "tunda-s2",
+          "host": "www.relatosesmeraldenos.com",
+          "statement": "The warning phrase about La Tunda was a way of frightening children considered rude, rebellious or disobedient to their elders.",
+          "statement_id": "Ungkapan peringatan tentang La Tunda dipakai sebagai cara menakut-nakuti anak yang dianggap kasar, memberontak, atau tidak patuh kepada orang yang lebih tua.",
+          "quote": "Era una manera de generar temor entre los niños considerados groseros, rebeldes o desobedientes con las personas mayores.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ebbad6d57d99133508a4475979aa2d00a25af7944fcfaccb1d056c42a916c9de"
+      "images": []
     },
     {
       "slug": "two-toed-tom",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-5.md",
+      "entry_sha256": "521d5b4f8fd3999268ae2e70d63090e79585f677b36183a9c119fbc783ace0a0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "two-toed-tom-c01",
@@ -4908,27 +5623,111 @@
           "quote": "One of the earliest written accounts can be traced to the 1934 book Stars Fell on Alabama, by Carl Carmer.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c04",
+          "source_id": "two-toed-tom-s2",
+          "host": "estoherald.com",
+          "statement": "The gator, who supposedly lost three toes from his left front paw to a trap, had been a legend in Alabama long before he crossed the state line.",
+          "statement_id": "Aligator itu konon kehilangan tiga jari dari kaki depan kirinya akibat perangkap, dan sudah menjadi legenda di Alabama jauh sebelum melintasi batas negara bagian.",
+          "quote": "The gator, who supposedly lost three toes from his left front paw to a steep trap, had been a legend in Alabama long before he crossed the state line.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c05",
+          "source_id": "two-toed-tom-s2",
+          "host": "estoherald.com",
+          "statement": "According to Carmer's account, the huge red-eyed gator terrorized South Alabama before being chased into Florida by a posse of lynch-mad men.",
+          "statement_id": "Menurut catatan Carmer, aligator raksasa bermata merah itu meneror Alabama selatan sebelum dikejar ke Florida oleh sekelompok pria yang bernafsu menghukum.",
+          "quote": "According to Carmer’s account, the huge red-eyed gator — the worst kind — terrorized South Alabama before being chased into Florida by a posse of lynch-mad men.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c06",
+          "source_id": "two-toed-tom-s2",
+          "host": "estoherald.com",
+          "statement": "South of the border, the gator first drew attention with his bellowing in response to the Alabama-Florida Lumber Co whistle at its Noma mill.",
+          "statement_id": "Di selatan perbatasan, aligator itu mula-mula menarik perhatian lewat raungannya yang menjawab peluit Alabama-Florida Lumber Co di pabrik penggergajian Noma.",
+          "quote": "The gator first attracted attention south of the border with his bellowing response to the Alabama-Florida Lumber Co’s whistle at its Noma mill.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c07",
+          "source_id": "two-toed-tom-s2",
+          "host": "estoherald.com",
+          "statement": "Carswell acknowledges the legend is probably a composite, with Two-Toe blamed for the misdeeds of any and all gators in the area.",
+          "statement_id": "Carswell mengakui bahwa legenda ini mungkin gabungan, dengan Two-Toe disalahkan atas ulah semua aligator di kawasan itu.",
+          "quote": "Carswell acknowledges the legend probably is a composite, with Two-Toe being blamed for the misdeeds of any and all gators in the area.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c08",
+          "source_id": "two-toed-tom-s2",
+          "host": "estoherald.com",
+          "statement": "A Florida Panhandle hamlet is reviving the legend of Two-Toed Tom, a notorious bull alligator who some say fell in love with a sawmill whistle after being chased from Alabama.",
+          "statement_id": "Sebuah dusun di Florida Panhandle menghidupkan kembali legenda Two-Toed Tom, aligator jantan terkenal yang menurut sebagian orang jatuh cinta pada peluit pabrik penggergajian setelah dikejar dari Alabama.",
+          "quote": "This Florida Panhandle hamlet is reviving the legend of Two-Toed Tom, a notorious bull alligator who some folks say fell in love with a sawmill whistle after being chased from Alabama",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c09",
+          "source_id": "two-toed-tom-s3",
+          "host": "twotoedtomfest.com",
+          "statement": "Two-Toed Tom was a massive alligator that roamed the lakes and swamps around the Alabama-Florida state line around the turn of the 20th century.",
+          "statement_id": "Two-Toed Tom adalah aligator raksasa yang berkeliaran di danau dan rawa sekitar perbatasan Alabama-Florida sekitar pergantian abad ke-20.",
+          "quote": "Two-Toed Tom was a massive alligator that roamed the lakes and swamps around the Alabama-Florida state line around the turn of the 20th century.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c10",
+          "source_id": "two-toed-tom-s3",
+          "host": "twotoedtomfest.com",
+          "statement": "Some said Two-Toed Tom was no mere alligator and must be demon possessed, with red glowing eyes and immense power, able to tear a horse to shreds in one swift thrash of his teeth.",
+          "statement_id": "Sebagian orang menyebut Two-Toed Tom bukan sekadar aligator dan pasti dirasuki iblis, karena bermata merah menyala dan sangat kuat hingga mampu mencabik seekor kuda dalam satu sentakan gigi.",
+          "quote": "Some indicated that Two-Toed Tom was no mere alligator and must surely be demon possessed, explaining that he possessed red glowing eyes, and was immensely powerful being able to tear a horse to shreds in one swift thrash of his teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c11",
+          "source_id": "two-toed-tom-s3",
+          "host": "twotoedtomfest.com",
+          "statement": "Local boys told stories of firing on the enormous reptile, their bullets bouncing off his hide like \"dried peas on a tin roof\".",
+          "statement_id": "Anak-anak setempat bercerita menembaki reptil raksasa itu, dan peluru mereka memantul dari kulitnya seperti \"kacang kering di atap seng\".",
+          "quote": "Local boys told stories of firing upon the enormous reptile and their bullets bounced off his hide like “dried peas on a tin roof”.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "two-toed-tom-c12",
+          "source_id": "two-toed-tom-s3",
+          "host": "twotoedtomfest.com",
+          "statement": "The Two-Toed Tom Festival first began in 1987.",
+          "statement_id": "Festival Two-Toed Tom pertama kali diadakan pada 1987.",
+          "quote": "The Two-Toed Tom Festival first began in 1987.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "056b4641f5a863e9c00112ebd867ddc8462697f5a3174122a2c39d46a0d537af"
+      "images": []
     },
     {
       "slug": "wayob",
-      "file": "batch-145.md",
+      "file": "batch-145-fix-5.md",
+      "entry_sha256": "6513ea5f69f632a515de4458f08d79ff2a3bbfdc226cdd3d581112469523ba54",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wayob-c01",
@@ -4959,10 +5758,79 @@
           "quote": "In Yucatec ethnography, the animal transformation involved is usually a common domestic or domesticated animal, but may also be a ghost or apparition",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wayob-c04",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "In one scholarly distinction, the nagual is the witch that by night took the form of an aggressive and feared animal that strove to injure and kill its victims.",
+          "statement_id": "Dalam satu pembedaan ilmiah, nagual adalah penyihir yang pada malam hari mengambil wujud hewan agresif yang ditakuti dan berusaha melukai serta membunuh korbannya.",
+          "quote": "The witch, or nagual, was far more sinister: By night it took the form of an aggressive and feared animal, which strove to injure and kill its victims.",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "wayob-c05",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "The linkage is so close that when the co-essence is wounded or destroyed, the owner grows ill or dies.",
+          "statement_id": "Hubungan itu begitu erat sehingga ketika co-essence terluka atau dihancurkan, pemiliknya jatuh sakit atau mati.",
+          "quote": "The linkage is so close that when the co-essence is wounded or destroyed, the owner grows ill or dies",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wayob-c06",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "When a person is asleep, his co-essence roams.",
+          "statement_id": "Ketika seseorang tidur, co-essence-nya berkeliaran.",
+          "quote": "Yet when a person is asleep his co-essence roams.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wayob-c07",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "Co-essences take many forms: some are reptiles, rain, dwarfs, balls of fire, comets, inanimate objects or rainbows; others appear as huge bucks, birds, flying jaguars, or peculiar composite creatures.",
+          "statement_id": "Co-essence mengambil banyak bentuk: ada yang berupa reptil, hujan, kurcaci, bola api, komet, benda mati, atau pelangi, dan ada yang tampil sebagai rusa jantan besar, burung, jaguar terbang, atau makhluk campuran yang aneh.",
+          "quote": "Some are reptiles, rain, dwarfs, balls of fire, comets, inanimate objects, or rainbows; others appear as huge bucks, birds, flying jaguars, or peculiar composite creatures",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wayob-c08",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "Humans are not the only entities who have them, and many people have more than one.",
+          "statement_id": "Manusia bukan satu-satunya yang memilikinya, dan banyak orang memiliki lebih dari satu.",
+          "quote": "Humans are not the only entities who have them, and many people have more than one.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wayob-c09",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "The authors believe that a relatively common hieroglyph is the sign for co-essence and is read way.",
+          "statement_id": "Para penulis meyakini bahwa sebuah hieroglif yang cukup umum merupakan tanda untuk co-essence dan dibaca way.",
+          "quote": "We now believe that a relatively common hieroglyph, T539 ... is the sign for co-essence, and that its reading is way",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wayob-c10",
+          "source_id": "wayob-s2",
+          "host": "www.mesoweb.com",
+          "statement": "The authors prefer the term co-essence because it steers away from ideas of \"witchcraft\" and \"werewolfism\", of doubtful relevance to many parts of the Maya region.",
+          "statement_id": "Para penulis memilih istilah co-essence karena menjauhi gagasan \"ilmu sihir\" dan \"manusia serigala\" yang diragukan relevansinya di banyak bagian wilayah Maya.",
+          "quote": "steers away from ideas of \"witchcraft\" and \"werewolfism,\" which are of doubtful relevance to many parts of the Maya region",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a13816fdb8fdf5fe25037be2c2e7ebb21748706bc6c7c535abf3817de3d1834d"
+      "images": []
     }
   ]
 }

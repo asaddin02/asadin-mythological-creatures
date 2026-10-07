@@ -1,6 +1,6 @@
 # Review batch-145
 
-Diperiksa 2026-10-06T19:20:50.466Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md, batch-145-fix-3.md.
+Diperiksa 2026-10-07T05:34:09.511Z. Berkas: batch-145.md, batch-145-fix-1.md, batch-145-fix-2.md, batch-145-fix-3.md, batch-145-fix-4.md, batch-145-fix-5.md.
 
 ## mogollon-monster — lulus-otomatis
 
@@ -636,10 +636,7 @@ Klaim 17 (exact 17), sumber 2, gambar 0.
 
 ## lake-worth-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -647,14 +644,20 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | lake-worth-monster-c02 | exact | en.wikipedia.org | It is often described as "part-man, part-goat" with scales and long clawed fingers. | The creature is often described as a "part-man, part-goat" with scales and long clawed fingers. |
 | lake-worth-monster-c03 | exact | en.wikipedia.org | July 1969 reports of "a half-man, half-goat, with fur and scales" led to belief in a creature at Lake Worth. | Reports of sightings by local citizens of "a half-man, half-goat, with fur and scales" in July 1969 led to the belief that a mysterious creature lived in Lake Worth. |
 | lake-worth-monster-c04 | exact | en.wikipedia.org | Local police investigated but found no evidence. | Local police investigated the claims, but found no evidence of the monster in the Lake Worth and Greer Island area. |
+| lake-worth-monster-c05 | exact | www.nbcdfw.com | Six residents told police they were attacked by a thing they described as half-man, half-goat and covered with fur and scales. | Six terrified residents told police early today they were attacked by a thing they described as being half-man, half-goat and covered with fur and scales. |
+| lake-worth-monster-c06 | exact | www.nbcdfw.com | Four police units and the residents searched in vain for the thing, reported seen at Lake Worth near Greer Island. | Four units of Fort Worth police and the residents searched in vain for the thing, which was reported seen at Lake Worth, near Greer Island. |
+| lake-worth-monster-c07 | exact | www.nbcdfw.com | A resident told police the creature leapt from a tree onto his car, and showed an 18-inch scar down the side of the car as proof. | John Reichart told police that the creature leapt from a tree and landed on his car, and he showed them an 18-inch scar down the side of his car as proof. |
+| lake-worth-monster-c08 | exact | www.nbcdfw.com | The next night, before a couple of dozen witnesses, the monster was said to have uttered a "pitiful cry" and hurled a tire at them from a bluff. | The next night, the monster, in front of a couple of dozen witnesses, was said to have uttered a "pitiful cry" and hurled a tire from a bluff at them. |
+| lake-worth-monster-c09 | exact | www.nbcdfw.com | About the time school resumed, the Lake Worth Monster furor largely disappeared. | Then, about the time school resumed, perhaps not coincidentally, the Lake Worth Monster furor largely disappeared. |
+| lake-worth-monster-c10 | exact | www.nbcdfw.com | The article says more people suspect the monster was really several hoaxes by opportunistic mischief-makers rather than a single creature. | Or, as more people actually suspect, the monster was really several creatures, all hoaxes carried out by enterprising and opportunistic mischief-makers from Brewer, Castleberry or North Side high school. |
+| lake-worth-monster-c11 | exact | www.nbcdfw.com | Clarke's husband maintains that it was definitely not pranksters. | Clarke's husband maintains that the monster was definitely not pranksters. |
+| lake-worth-monster-c12 | exact | www.nbcdfw.com | A slightly tongue-in-cheek book, "The Lake Worth Monster of Greer Island," was self-published in September '69. | her quick-draw and slightly tongue-in-cheek book, "The Lake Worth Monster of Greer Island," self-published in September '69. |
+| lake-worth-monster-c13 | exact | en.wikipedia.org | Since 2009, the 40th anniversary of the sightings, the Fort Worth Nature Center and Refuge has held a Lake Worth Monster Bash each October. | Since 2009 (the 40th anniversary of the sightings), the Fort Worth Nature Center and Refuge has held a Lake Worth Monster Bash each October. |
 
 
 ## lava-bear — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -662,14 +665,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | lava-bear-c02 | exact | en.wikipedia.org | It was described as a very small bear with woolly light brown fur. | The animal was described as a very small bear with wooly light brown fur. |
 | lava-bear-c03 | exact | en.wikipedia.org | It was once thought a separate species, but scientists found the animals were stunted by their harsh environment. | It was once thought to be a separate species. However, scientists who examined the specimens determined that the animals were stunted due to the harsh environment in which they lived. |
 | lava-bear-c04 | exact | en.wikipedia.org | Today lava bears are acknowledged never to have been a unique species. | Today, it is acknowledged that lava bears never existed as a unique species. |
+| lava-bear-c05 | exact | archive.org | Since the spring of 1917 many wonderful and weird tales have circulated of a hitherto unknown species of bear. | Since the spring of 1917 there have been current many wonderful and weird tales of a hitherto unknown species of bear |
+| lava-bear-c06 | exact | archive.org | The author recalls the specimen as much like any other bear except that its fur was rather woolly and a light buckskin color. | I remember the specimen as being not unlike any other bear except that its fur was rather wooly and the color a light buckskin. |
+| lava-bear-c07 | exact | archive.org | The examined specimen was pronounced an immature animal that possibly was an abnormal specimen of the common black bear. | was pronounced by him to be an immature animal that possibly was an abnormal specimen of the common black bear |
+| lava-bear-c08 | exact | archive.org | Old-timers still insist that a dwarf bear lives in the lava beds. | Still old-timers insist that a dwarf bear lives in the lava beds. |
+| lava-bear-c09 | exact | en.wikipedia.org | The bears were initially called "sand lappers" but eventually became known as lava bears. | The bears were initially called "sand lappers", but eventually became known as lava bears. |
+| lava-bear-c10 | exact | en.wikipedia.org | In 1924 a high school selected the lava bear as its sports mascot. | In 1924, Bend Senior High School selected the lava bear as the school's sports mascot. |
 
 
 ## monster-of-lake-tota — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -677,27 +683,33 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | monster-of-lake-tota-c02 | exact | en.wikipedia.org | According to the Muisca, the monster inhabits Lake Tota in present-day Colombia. | The monster is an inhabitant of Lake Tota in present-day Colombia, according to the Muisca, who inhabited the Altiplano Cundiboyacense. |
 | monster-of-lake-tota-c03 | exact | en.wikipedia.org | The conquistador Gonzalo Jiménez de Quesada described it as "A fish with a black head like an ox and larger than a whale". | He described the monster as "A fish with a black head like an ox and larger than a whale" |
 | monster-of-lake-tota-c04 | exact | en.wikipedia.org | A reported sighting took place in 1652. | A report of an alleged sighting took place in 1652. |
+| monster-of-lake-tota-c05 | exact | en.wikipedia.org | The monster was also called "a monstrous fish", "a black monster", and even "the Dragon" and a "divine animal archetype". | The monster was also defined as "a monstrous fish", "a black monster", and even as "the Dragon" and as a "divine animal archetype" |
+| monster-of-lake-tota-c06 | exact | en.wikipedia.org | In the account quoted, trusted persons and the Indians of the time affirmed that it was the devil. | Quesada says that in his time, trusted persons and the Indians affirmed that it was the devil |
+| monster-of-lake-tota-c07 | exact | en.wikipedia.org | According to an account quoted, a monstrous fish is occasionally seen only briefly out of the abyss. | occasionally out of the abyss a monstrous fish can be seen only briefly. |
+| monster-of-lake-tota-c08 | exact | en.wikipedia.org | The ceremony spell against Busiraco, aimed at resolving the suffering of summer and water shortages, led to the creation of Lake Tota; the monster is also mentioned as a snake, fatally attacked. | The ceremony spell against Busiraco aimed at resolving the suffering of summer and water shortages, led to the creation of Lake Tota; the monster is also mentioned as a snake, when he was fatally attacked: |
+| monster-of-lake-tota-c09 | exact | es.wikipedia.org | The oldest reference was given to a conquistador by indigenous people of the region. | La más antigua referencia fue dada al conquistador Gonzalo Jiménez de Quesada por indígenas de la región |
+| monster-of-lake-tota-c10 | exact | es.wikipedia.org | The legend has also been analysed by cryptozoology, called a pseudoscience in the source, which relates it to cases such as the Loch Ness monster. | La leyenda del monstruo del lago de Tota ha sido también analizada por la criptozoología, pseudociencia que lo relaciona con casos como el monstruo del lago Ness |
 
 
 ## muelona — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | muelona-c01 | exact | en.wikipedia.org | La Muelona ("big molar woman"), also Colmillona ("big fang woman"), is a figure of Colombian mythology from the Andean region (Huila and Tolima). | La Muelona ("big molar woman"), (also known as Colmillona; "big fang woman") is a character from Colombian mythology, present in the folkloric legends of the populations located in the Andean region (Huila and Tolima) of Colombia. |
 | muelona-c02 | exact | en.wikipedia.org | She appears at the path's edge as a seductive woman and crushes walkers with her teeth once in her arms. | La Muelona attacks the walkers that appears at the edge of the path as a very attractive and seductive woman, but once they are in her arms, they are crushed by her teeth. |
+| muelona-c03 | exact | www.eltiempo.com | This mythological figure is known in the peasant oral tradition of the Andean zone of Colombia. | Este personaje mitológico es reconocido en los relatos de la tradición oral campesina de la zona Andina de Colombia |
+| muelona-c04 | exact | www.eltiempo.com | She is said to let out loud laughter that is as deafening as it is terrifying. | Se dice que emite fuertes carcajadas que son tan ensordecedoras como aterradoras. |
+| muelona-c05 | exact | radionacional.co | She is described as a woman with long hair, large eyes and an enormous set of teeth. | es una mujer de cabello largo y grandes ojos con una enorme dentadura. |
+| muelona-c06 | exact | radionacional.co | She is said to come from a young woman called "la Maga" who told fortunes, freed women and punished men. | Dicen que proviene de una muchacha llamada ´la Maga´, quien se dedicaba a adivinar el futuro, liberar mujeres y castigar a hombres. |
+| muelona-c07 | exact | radionacional.co | At her death, neighbours said they heard her inside her house swearing vengeance on unfaithful, drunken and vicious men. | Durante su muerte, los vecinos decían escucharla dentro de su casa jurando venganza hacia los hombres infieles, borrachos y viciosos. |
+| muelona-c08 | exact | radionacional.co | Some people say her spirit appears at the edges of paths, especially as evening falls. | Algunas personas afirman que su espíritu se aparece en las orillas de los senderos, especialmente cuando cae la tarde. |
 
 
 ## nain-rouge — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -706,40 +718,46 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | nain-rouge-c03 | exact | en.wikipedia.org | Detroit's founder Cadillac was told to appease the Nain Rouge but attacked it with his cane. | Detroit's founder Antoine de la Mothe Cadillac was told by a fortuneteller to appease the Nain Rouge, but he instead attacked it with his cane |
 | nain-rouge-c04 | exact | en.wikipedia.org | It is also known as "the Demon of the Strait." | The Nain Rouge is also known as "the Demon of the Strait." |
 | nain-rouge-c05 | exact | en.wikipedia.org | Each spring the Marche du Nain Rouge sees hundreds of people chase a Nain Rouge figure. | Each Spring, there is an event called the Marche du Nain Rouge where hundreds of people chase a |
+| nain-rouge-c06 | exact | archive.org | In this text, the uncouth figure of a dwarf, very red in the face, with a bright, glistening eye, advances across their path along the beach. | Suddenly across their path, trotting along the beach, advanced the uncouth figure of a dwarf, very red in the face, with a bright, glistening eye |
+| nain-rouge-c07 | exact | archive.org | A grinning mouth displaying sharp, pointed teeth completed this strange face. | A grinning mouth displaying sharp, pointed teeth, completed this strange face. |
+| nain-rouge-c08 | exact | archive.org | A footnote says the Nain Rouge was the demon of the Strait, in the old traditions described as most malignant if offended but capable of being appeased by flattery. | The Nain Rouge was the demon of the Strait, and in the old traditions is described as most malignant, if offended, but capable of being appeased by flattery. |
+| nain-rouge-c09 | exact | archive.org | A fiendish, mocking laugh pierced the still night air as the monster vanished. | A fiendish, mocking laugh pierced the still night air as the monster vanished. |
+| nain-rouge-c10 | exact | archive.org | In this text, whenever he appeared it was a sure sign of impending evil. | whenever he appeared it was a sure sign of impending evil. |
+| nain-rouge-c11 | exact | archive.org | In this text, he was seen running along the shore the night before the ill-fated attack at Bloody Run. | The night before ... ill-fated attack at Bloody Run, he was seen running along the shore. |
 
 
 ## nootaikok — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nootaikok-c01 | exact | en.wikipedia.org | In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals. | In Inuit mythology, Nootaikok was a spirit who presided over and lived inside icebergs and glaciers. Along with Agloolik, the spirit led hunters to seals. |
+| nootaikok-c02 | exact | fr.wikipedia.org | In this source Nootaikok is also called Nootîttok or Nutittuq and is described as the god who rules icebergs and glaciers. | Nootaikok, Nootîttok ou Nutittuq est le dieu qui dirige les icebergs et les glaciers. |
+| nootaikok-c03 | exact | fr.wikipedia.org | It is described as a beneficial, friendly spirit dressed in black that lives in the water and offers seals when invoked. | C'est un esprit bénéfique et amical vêtu de noir qui vit dans l'eau et offre des phoques lorsqu'il est invoqué. |
+| nootaikok-c04 | exact | fr.wikipedia.org | With Agloolik, it leads hunters to seals. | Avec Agloolik, il conduit les chasseurs vers les phoques. |
+| nootaikok-c05 | exact | en.wikipedia.org | Agloolik, the spirit named alongside Nootaikok in other sources, lives underneath the ice of the Arctic Ocean as tutelary guardian of seals. | is a spirit that lives underneath the ice of the Arctic Ocean and acts as tutelary guardian for the protection of seals. |
+| nootaikok-c06 | exact | en.wikipedia.org | If Inuit hunters prayed to Agloolik before fishing, it would bless them with prey. | If Inuit hunters prayed to the spirit before fishing, Agloolik will bless them with prey. |
 
 
 ## obia-folklore — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | obia-folklore-c01 | exact | en.wikipedia.org | An obia or obeah is a monster of West African folklore. | An obia or obeah is a monster in West African folklore. |
 | obia-folklore-c02 | exact | en.wikipedia.org | It is a massive animal witches send into villages to kidnap young girls and wear their skin as a coat. | It is described as being a massive animal that witches send into villages to kidnap young girls and wear their skin for a coat. |
 | obia-folklore-c03 | exact | en.wikipedia.org | In the Bay Islands of Honduras it also means a witch or the witch's spell. | It is also the common term in the Bay Islands of Honduras for a witch or the spell that is cast by the witch. |
+| obia-folklore-c04 | exact | en.wikipedia.org | An obiama or obiaman is one who uses the power of obia. | An obiama or obiaman is one who uses the power of obia. |
+| obia-folklore-c05 | exact | zenodo.org | In the older passage quoted in this article, the term Obeah in Jamaica became the general term for Africans on the island who practise witchcraft or sorcery. | The term Obeah is now become in Jamaica the general term to denote those Africans who in that island practise witchcraft or sorcery |
+| obia-folklore-c06 | exact | zenodo.org | According to the passage, they brought the science with them to Jamaica. | and they have brought the science with them to Jamaica |
+| obia-folklore-c07 | exact | zenodo.org | According to the passage, people resorted to these oracles with implicit faith, for the cure of disorders, revenge for injuries or insults, and the conciliation of favours. | to these oracles they resort, and with the most implicit faith, upon all occasions, whether for the cure of disorders, the obtaining revenge for injuries or insults, the conciliation of favours |
 
 
 ## qallupilluit — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -747,14 +765,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | qallupilluit-c02 | exact | en.wikipedia.org | The myth is thought to protect children from dangers such as playing on hazardous sea ice. | This myth is believed to serve the purpose of protecting children from a dangerous environment, such as keeping them from playing on hazardous sea ice. |
 | qallupilluit-c03 | exact | en.wikipedia.org | It is often described with green, slimy skin, long hair and long fingernails. | The Qallupilluit is often described as having green, slimy skin, long hair, and long fingernails. |
 | qallupilluit-c04 | exact | en.wikipedia.org | It wears an amautik, an Inuit parka mostly worn by women. | It wears an amautik, an Inuit parka mostly worn by women. |
+| qallupilluit-c05 | exact | www.gutenberg.org | In this ethnographic text, Kalopaling is a fabulous being that lives in the sea, with a human-like body, wearing clothing made of eider duck skins. | Kalopaling is a fabulous being that lives in the sea. His body is like that of a human being and he wears clothing made of eider ducks’ skins. |
+| qallupilluit-c06 | exact | www.gutenberg.org | His jacket has an enormous hood, feared by the Inuit; if a kayak capsizes and the boatman drowns, Kalopaling puts him into this hood. | His jacket has an enormous hood, which is an object of fear to the Inuit. If a kayak capsizes and the boatman is drowned Kalopaling puts him into this hood. |
+| qallupilluit-c07 | exact | www.gutenberg.org | His feet are very large and look like inflated sealskin floats. | His feet are very large and look like inflated sealskin floats. |
+| qallupilluit-c08 | exact | www.gutenberg.org | The Inuit believe there were once a great number of Kalopalit, but their number gradually diminished and very few are left. | The Inuit believe that in olden times there were a great number of Kalopalit, but gradually their number diminished and there are now very few left. |
+| qallupilluit-c09 | exact | www.gutenberg.org | In an old tradition, an angry grandmother called Kalopaling to take her grandson; it entered and put the boy into its large hood, where he almost immediately disappeared. | The grandmother told him to be quiet, but as he did not obey she became angry and called Kalopaling to come and take him away. He entered at once and the woman put the boy into the large hood, in which he disappeared almost immediately. |
+| qallupilluit-c10 | exact | www.inuitmyths.com | On the page presenting the same tale, the being is named Qallupilluk: the grandmother called it to take the boy, who was put into the large hood. | called Qallupilluk to come and take him away. He entered at once and the woman put the boy into the large hood |
+| qallupilluit-c11 | exact | en.wikipedia.org | Some interpretations use the pronoun "he", but the Qallupilluit is predominantly described in a feminine manner. | While some interpretations include the pronoun 'he', the Qallupilluit is predominantly described in a feminine manner. |
 
 
 ## sayona — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -762,14 +784,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | sayona-c02 | exact | en.wikipedia.org | The name refers to her garment, a long white dress like a medieval undergarment. | The name "Sayona" refers to the cloth the ghost wears which is a long white dress similar to a medieval undergarment. |
 | sayona-c03 | exact | en.wikipedia.org | She asks for a ride, and when the victim looks at her face he sees a skull with horrible teeth. | The legend claims that when this woman appears she asks for a ride, and after a while when the victim tries to see her face, he notices that she has instead a skull with horrible teeth. |
 | sayona-c04 | exact | en.wikipedia.org | The legend says La Sayona was a young woman named Casilda. | The legend says that "La Sayona" was a young woman named Casilda. |
+| sayona-c05 | exact | psicologiaymente.com | The sayona is said to seduce men with her beauty and then lead them to the plain. | Se dice que la figura de la sayona seduce a los hombres con su belleza para luego llevarles a la llanura. |
+| sayona-c06 | exact | psicologiaymente.com | There she takes her true form, with enormous sharp fangs and claws and blood-colored eyes, often causing them death or madness. | Allí adopta su verdadera forma, con colmillos y garras enormes y afiladas y ojos de color de la sangre, a menudo provocándoles la muerte o la locura. |
+| sayona-c07 | exact | psicologiaymente.com | Since then, in this telling, the sayona wanders forever, pursuing unfaithful men who fall for her attempts at seduction. | Desde entonces la sayona vaga eternamente, persiguiendo a los hombres infieles que caen en sus intentos de seducción |
+| sayona-c08 | exact | www.culturagenial.com | This legend is believed to have possibly originated in the Llanos region in the 19th century and has different versions. | Se cree que esta leyenda pudo originarse en la región de los Llanos durante el siglo XIX y cuenta con diferentes versiones. |
+| sayona-c09 | exact | www.culturagenial.com | The purpose of this story is to intimidate men who commit infidelities, but also to frighten small children. | El propósito de esta historia no es otro que el de intimidar a los hombres que cometen infidelidades, pero también para atemorizar a los más pequeños. |
+| sayona-c10 | exact | en.wikipedia.org | Casilda ran home and found her husband asleep with the baby in his arms; blind with anger, she burned the house with them inside. | Casilda ran home and found her husband asleep with the baby in his arms. Blind with anger, she burned the house with them inside. |
+| sayona-c11 | exact | en.wikipedia.org | In other versions of the tale, Sayona appears to men working in the jungle. | In other versions of the tale, Sayona appears to men working in the jungle. |
 
 
 ## the-hairy-leg — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 2, exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -777,60 +803,87 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | the-hairy-leg-c02 | exact | en.wikipedia.org | It was created by the Diário de Pernambuco in the 1970s military dictatorship to replace and signal censored material. | It was conceived by the newspaper Diário de Pernambuco during the Brazilian military dictatorship in the 1970s. The newspaper used fictional narratives about the Leg to replace and signal material that had been censored by the regime. |
 | the-hairy-leg-c03 | exact | en.wikipedia.org | It is described as a hairy human leg that attacks people at night by tackling and kicking them. | The creature is described as a hairy human leg that attacks people at night by tackling and kicking them. |
 | the-hairy-leg-c04 | loose | en.wikipedia.org | The film The Secret Agent (2025) made it a central element of its story. | The film The Secret Agent (2025) (Portuguese: O Agente Secreto) incorporated it as a central element of its narrative. |
+| the-hairy-leg-c05 | exact | www.cnnbrasil.com.br | Residents heard in the report described a severed leg, full of hair and nails, that attacked people at night. | Os moradores ouvidos pela matéria descrevia uma perna decepada, cheia de pelos e unhas que violentava pessoas durante a noite. |
+| the-hairy-leg-c06 | exact | www.cnnbrasil.com.br | According to the residents' account, the "leg" measures about a metre and a half, walks all over the house, hangs from the roof and turns into an animal. | A 'perna' mede mais ou menos e um metro e meio, anda a casa todinha, pendura-se no telhado e transforma-se em animal |
+| the-hairy-leg-c07 | exact | www.cnnbrasil.com.br | The origins of the story are not clear, and different journalists claim authorship of the legend. | As origens da história não são claras, e diferentes jornalistas reafirmam a autoria da lenda. |
+| the-hairy-leg-c08 | exact | www.cnnbrasil.com.br | Another claimed authorship of the legend goes back to the journalist Jota Ferreira. | Outro suposta autoria da lenda remonta ao jornalista Jota Ferreira |
+| the-hairy-leg-c09 | exact | www.opovo.com.br | In Carrero's text, the modus operandi that made the leg famous appears for the first time: kicking and tripping people. | Carrero traz pela primeira vez o modus operandi pelo qual a perna ficaria famosa, chutando e dando rasteira nas pessoas. |
+| the-hairy-leg-c10 | exact | www.opovo.com.br | In the following years the Perna Cabeluda became a frevo, a carnival bloco and a costume. | A Perna Cabeluda virou frevo, bloco de carnaval e fantasia nos anos seguintes |
+| the-hairy-leg-c11 | exact | www.opovo.com.br | According to Roberto Beltrão, journalist and writer, legends like this in Recife were used to sublimate the pains of society. | Lendas como essa no Recife eram usadas para sublimar as dores da sociedade", diz Roberto Beltrão, jornalista, escritor |
+| the-hairy-leg-c12 | exact | www.opovo.com.br | On 10 December 1975 a rare "birth certificate" of an urban legend is recorded on paper. | Em 10 de dezembro de 1975, está registrada em papel uma rara "certidão de nascimento" de uma lenda urbana |
 
 
 ## ti-malice-and-bouki — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ti-malice-and-bouki-c01 | exact | en.wikipedia.org | Ti Malice is a trickster and the nemesis of Tonton (Uncle) Bouki in Haitian folklore. | Ti Malice is a trickster character and nemesis of Tonton (Uncle) Bouki in Haitian folklore. |
 | ti-malice-and-bouki-c02 | exact | en.wikipedia.org | Ti Malice is clever and guileful, while Uncle Bouki is hardworking but very greedy. | While Ti Malice is smart and guileful, Uncle Bouki is hardworking but is also very greedy. |
 | ti-malice-and-bouki-c03 | exact | en.wikipedia.org | In Senegal, Bouki is a hyena and Malice a hare called "Leuk". | Bouki is represented as a hyena, which is called "Bouki" in the Fulani and Wolof languages, while Malice is a hare called "Leuk" in Senegal. |
+| ti-malice-and-bouki-c04 | exact | en.wikipedia.org | Bouki and Malice originate in African oral traditions; in Senegal and neighbouring countries the two characters appear in animal form. | Bouki and Malice have their origins in African oral traditions. In Senegal and neighbouring countries, these two characters appear in animal form. |
+| ti-malice-and-bouki-c05 | exact | en.wikipedia.org | Bouki is the hungry and skinny hyena and Leuk the hare with a mischievous character and legendary cunning. | Bouki, the hungry and skinny hyena and Leuk, the hare with a mischievous character and legendary cunning. |
+| ti-malice-and-bouki-c06 | exact | en.wikipedia.org | By manipulating this greed, Ti Malice often gets the best of Uncle Bouki. | It is the manipulation of this greed that allows Ti Malice to often get the best of Uncle Bouki. |
+| ti-malice-and-bouki-c07 | exact | en.wikipedia.org | Two equivalent figures, also a hyena known as Bouki and a hare called Lapin, are known in Louisiana folktales. | Two equivalent figures, also a hyena known as Bouki and a hare (called Lapin), are known to exist in Louisiana folktales. |
+| ti-malice-and-bouki-c08 | exact | potomitan.info | According to the reviewer, in Haiti Uncle Bouki and Ti Malice are perhaps the most dominant figures in folk tales. | In Haiti perhaps the most dominant figures in folk tales are Uncle Bouki and Ti Malice. |
+| ti-malice-and-bouki-c09 | exact | potomitan.info | Bouki is almost invariably a bit of a dunce, lazy, and when pictured dumpy and sloppy; Ti Malice is a bright brat who usually takes advantage of Uncle Bouki. | Bouki is almost invariably a bit of a dunce, lazy, often, when pictured, he is a bit dumpy and sloppy. Ti Malice is a bright brat, and usually takes advantage of Uncle Bouki in some measure. |
+| ti-malice-and-bouki-c10 | exact | geography.wisc.edu | The most popular folk tales concern the smart but mischievous Ti Malice and his very slow-witted friend Bouki. | The most popular folk tales concern the smart, but mischievous Ti Malice and his very slow-witted friend Bouki. |
 
 
 ## tunda — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tunda-c01 | exact | en.wikipedia.org | La Tunda is a myth of the Pacific coast of Colombia and Ecuador, especially the Afro-Colombian community of Chocó, about a shapeshifting woman-like being who lures people into the forest and traps them forever. | is a myth from the Pacific coastal region of Colombia and Ecuador, and particularly in the Afro-Colombian community of the Chocó department, about a shapeshifting entity resembling a human woman that lures people into the forests and traps them never to seen again. |
 | tunda-c02 | exact | en.wikipedia.org | The Tunda can take the form of a loved one, such as a child's mother, to lure victims into the forest and feed them shrimp to keep them docile. | The Tunda is described as being capable of changing its shape to appear in the form of a loved one, such as in the likeness of a child's mother, to lure its victims into the forest and feed them with shrimp (camarones peneídos) to keep them docile. |
 | tunda-c03 | exact | en.wikipedia.org | Her disguise is imperfect: she always has a wooden leg shaped like a molinillo (a stirring utensil). | Her shapeshifting abilities are said to be imperfect, as this doppelgänger of sorts would always have a wooden leg in the shape of a molinillo |
+| tunda-c04 | exact | en.wikipedia.org | This deception is called entundamiento, and a person in this pacified stupor is called entundado(a). | This deception is referred to as entundamiento and a person in this state of pacified stupor is called entundado(a). |
+| tunda-c05 | exact | en.wikipedia.org | In other versions it appears to male loggers or hunters deep in the jungle as a beautiful woman who lures a man away, then reveals its hideous nature and sucks his blood or devours him like a wild animal such as a bear. | In other versions, it appears to male loggers or hunters working deep into the jungle as a beautiful woman that tries to lure a man away, so it can reveal its hideous nature and suck his blood and drink it or devour him as a wild animal like bears. |
+| tunda-c06 | exact | www.relatosesmeraldenos.com | According to the legend, her right foot looks like a baby's foot, while the left resembles a molinillo or a tree root. | Su pie derecho tendría la apariencia del pie de un bebé, mientras que el izquierdo sería parecido a un molinillo o a la raíz de un árbol. |
+| tunda-c07 | exact | www.relatosesmeraldenos.com | According to oral accounts, her victims included the so-called moritos (unbaptized children), rude children, and men or women considered unfaithful or badly behaved. | De acuerdo con los relatos transmitidos oralmente, entre sus víctimas estaban los llamados moritos —niños que no habían sido bautizados—, así como niños groseros y hombres o mujeres considerados infieles o de mal comportamiento. |
+| tunda-c08 | exact | www.relatosesmeraldenos.com | In the mountains, La Tunda fed her captives roasted shrimp; she was also said to expel foul gases on their faces, thereby keeping them under her control. | En la montaña, La Tunda alimentaba a sus cautivos con camarones asados. También se decía que expulsaba gases pestilentes sobre sus rostros y, de esa manera, lograba mantenerlos bajo su dominio. |
+| tunda-c09 | exact | www.relatosesmeraldenos.com | According to tradition, rescuing an entundado required long days of prayer and the participation of the community. | Según la tradición, rescatar a un entundado requería grandes jornadas de oración y la participación de la comunidad. |
+| tunda-c10 | exact | www.relatosesmeraldenos.com | Prayers and songs were accompanied by burning gunpowder and shotgun blasts used to drive La Tunda away. | A los rezos y cantos se sumaban la quema de pólvora y los disparos de escopeta, utilizados para ahuyentar a La Tunda. |
+| tunda-c11 | exact | www.relatosesmeraldenos.com | The warning phrase about La Tunda was a way of frightening children considered rude, rebellious or disobedient to their elders. | Era una manera de generar temor entre los niños considerados groseros, rebeldes o desobedientes con las personas mayores. |
 
 
 ## two-toed-tom — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | two-toed-tom-c01 | exact | en.wikipedia.org | Two-Toed Tom is a legendary cryptid of the Southern United States that terrorized swamp residents in Florida and Alabama. | Two-Toed Tom is a legendary cryptid in the Southern United States who terrorized swamp residents in Florida and Alabama. |
 | two-toed-tom-c02 | exact | en.wikipedia.org | The name comes from the legendary alligator losing all but two toes on one or more feet to a steel trap. | The name originates from the legendary alligator having lost all but two toes on one or more feet to a steel trap. |
 | two-toed-tom-c03 | exact | en.wikipedia.org | One of the earliest written accounts is in Carl Carmer's 1934 book Stars Fell on Alabama. | One of the earliest written accounts can be traced to the 1934 book Stars Fell on Alabama, by Carl Carmer. |
+| two-toed-tom-c04 | exact | estoherald.com | The gator, who supposedly lost three toes from his left front paw to a trap, had been a legend in Alabama long before he crossed the state line. | The gator, who supposedly lost three toes from his left front paw to a steep trap, had been a legend in Alabama long before he crossed the state line. |
+| two-toed-tom-c05 | exact | estoherald.com | According to Carmer's account, the huge red-eyed gator terrorized South Alabama before being chased into Florida by a posse of lynch-mad men. | According to Carmer’s account, the huge red-eyed gator — the worst kind — terrorized South Alabama before being chased into Florida by a posse of lynch-mad men. |
+| two-toed-tom-c06 | exact | estoherald.com | South of the border, the gator first drew attention with his bellowing in response to the Alabama-Florida Lumber Co whistle at its Noma mill. | The gator first attracted attention south of the border with his bellowing response to the Alabama-Florida Lumber Co’s whistle at its Noma mill. |
+| two-toed-tom-c07 | exact | estoherald.com | Carswell acknowledges the legend is probably a composite, with Two-Toe blamed for the misdeeds of any and all gators in the area. | Carswell acknowledges the legend probably is a composite, with Two-Toe being blamed for the misdeeds of any and all gators in the area. |
+| two-toed-tom-c08 | exact | estoherald.com | A Florida Panhandle hamlet is reviving the legend of Two-Toed Tom, a notorious bull alligator who some say fell in love with a sawmill whistle after being chased from Alabama. | This Florida Panhandle hamlet is reviving the legend of Two-Toed Tom, a notorious bull alligator who some folks say fell in love with a sawmill whistle after being chased from Alabama |
+| two-toed-tom-c09 | exact | twotoedtomfest.com | Two-Toed Tom was a massive alligator that roamed the lakes and swamps around the Alabama-Florida state line around the turn of the 20th century. | Two-Toed Tom was a massive alligator that roamed the lakes and swamps around the Alabama-Florida state line around the turn of the 20th century. |
+| two-toed-tom-c10 | exact | twotoedtomfest.com | Some said Two-Toed Tom was no mere alligator and must be demon possessed, with red glowing eyes and immense power, able to tear a horse to shreds in one swift thrash of his teeth. | Some indicated that Two-Toed Tom was no mere alligator and must surely be demon possessed, explaining that he possessed red glowing eyes, and was immensely powerful being able to tear a horse to shreds in one swift thrash of his teeth. |
+| two-toed-tom-c11 | exact | twotoedtomfest.com | Local boys told stories of firing on the enormous reptile, their bullets bouncing off his hide like "dried peas on a tin roof". | Local boys told stories of firing upon the enormous reptile and their bullets bounced off his hide like “dried peas on a tin roof”. |
+| two-toed-tom-c12 | exact | twotoedtomfest.com | The Two-Toed Tom Festival first began in 1987. | The Two-Toed Tom Festival first began in 1987. |
 
 
 ## wayob — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 2, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wayob-c01 | loose | en.wikipedia.org | Wayob is the plural of way (uay), a Maya word meaning 'sleep(ing)'; in Yucatec Maya it denotes the nagual, a person who turns into an animal while asleep to do harm, or that animal form itself. | Wayob is the plural form of way (or uay), a Maya word with a basic meaning of 'sleep(ing)', but which in Yucatec Maya is a term specifically denoting the Mesoamerican nagual, that is, a person who can transform into an animal while asleep in order to do harm, or else the resulting animal transformation itself. |
 | wayob-c02 | exact | en.wikipedia.org | Already in Classic Maya belief, way animals, marked by a special hieroglyph, played an important role. | Already in Classic Maya belief, way animals, identifiable by a special hieroglyph, had an important role to play. |
 | wayob-c03 | exact | en.wikipedia.org | In Yucatec ethnography the animal form is usually a common domestic animal, but may be a ghost or apparition. | In Yucatec ethnography, the animal transformation involved is usually a common domestic or domesticated animal, but may also be a ghost or apparition |
+| wayob-c04 | loose | www.mesoweb.com | In one scholarly distinction, the nagual is the witch that by night took the form of an aggressive and feared animal that strove to injure and kill its victims. | The witch, or nagual, was far more sinister: By night it took the form of an aggressive and feared animal, which strove to injure and kill its victims. |
+| wayob-c05 | exact | www.mesoweb.com | The linkage is so close that when the co-essence is wounded or destroyed, the owner grows ill or dies. | The linkage is so close that when the co-essence is wounded or destroyed, the owner grows ill or dies |
+| wayob-c06 | exact | www.mesoweb.com | When a person is asleep, his co-essence roams. | Yet when a person is asleep his co-essence roams. |
+| wayob-c07 | exact | www.mesoweb.com | Co-essences take many forms: some are reptiles, rain, dwarfs, balls of fire, comets, inanimate objects or rainbows; others appear as huge bucks, birds, flying jaguars, or peculiar composite creatures. | Some are reptiles, rain, dwarfs, balls of fire, comets, inanimate objects, or rainbows; others appear as huge bucks, birds, flying jaguars, or peculiar composite creatures |
+| wayob-c08 | exact | www.mesoweb.com | Humans are not the only entities who have them, and many people have more than one. | Humans are not the only entities who have them, and many people have more than one. |
+| wayob-c09 | exact | www.mesoweb.com | The authors believe that a relatively common hieroglyph is the sign for co-essence and is read way. | We now believe that a relatively common hieroglyph, T539 ... is the sign for co-essence, and that its reading is way |
+| wayob-c10 | exact | www.mesoweb.com | The authors prefer the term co-essence because it steers away from ideas of "witchcraft" and "werewolfism", of doubtful relevance to many parts of the Maya region. | steers away from ideas of "witchcraft" and "werewolfism," which are of doubtful relevance to many parts of the Maya region |
 
