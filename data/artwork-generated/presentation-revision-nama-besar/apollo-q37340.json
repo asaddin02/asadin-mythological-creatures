@@ -1,0 +1,91 @@
+{
+  "slug": "apollo-q37340",
+  "canonical_name": "Apollo",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_3",
+  "subagent_model": "gpt-6.1-sol",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "prompt": "Use case: stylized-concept. Asset: ONE square premium painterly naturalistic Mythics illustration, 1024x1024 or larger. Portray Apollo of ancient Greek Delphi as one awe-inspiring living god, a handsome YOUNG ADULT MAN with a smooth BEARDLESS face and LONG wavy dark-golden HAIR, ONE head, TWO normal eyes, TWO arms, TWO legs. Noble focused serene expression, heroic grounded presence. He stands on the broad stone steps of a monumental Greek sanctuary, full figure entirely inside the square, very low camera angle, small columns and distant valley structures establish mythic scale. Wear a FULLY OPAQUE ivory Greek chiton from shoulders to ankles, securely covering chest, torso and legs, with a rich amber-purple mantle. One hand holds an elegantly simple SILVER BOW pointed downward; the other supports a beautifully readable TORTOISESHELL LYRE with two arms, crossbar and strings, grounded instrument design, no weapon-instrument hybrids. Beside him stands a smaller ancient BRONZE THREE-LEGGED SACRIFICIAL TRIPOD, associated with his Delphi oracle, in clearly visible silhouette. Apollo is god of light: powerful warm golden radiance enters through the high temple opening and bathes the god and steps in broad cinematic beams, but ordinary unlit eyes, no flaming body, NO sun disk or spiked solar crown, no chariot, no claim he is Helios. Light, bronze and marble are realistic material textures, majestic music/oracle/light presence, rich painterly brushwork, deep teal shadows. No other gods, no killing scenes, no extra heads/arms/legs, no nudity or see-through cloth, no generic laser magic, no runes, no modern film/game/anime/comic designs, no text/letters/logo/border/watermark.",
+  "depicted_variant": "Apollo as the youthful beardless long-haired god of light, music and Delphi, with silver bow, tortoiseshell lyre and oracle tripod",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "basis_claim_ids": [
+    "apollo-q37340-c01",
+    "apollo-q37340-c02",
+    "apollo-q37340-c05",
+    "apollo-q37340-c22",
+    "apollo-q37340-c33",
+    "apollo-q37340-c37"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One handsome beardless long-haired youthful adult man, human anatomy, clothed; silver bow, tortoiseshell lyre and bronze sacrificial tripod.",
+      "claim_ids": [
+        "apollo-q37340-c05",
+        "apollo-q37340-c22",
+        "apollo-q37340-c33",
+        "apollo-q37340-c37"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strong warm divine light to represent Apollo's documented light domain; no solar fire or claim of literal Helios identity.",
+      "claim_ids": [
+        "apollo-q37340-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Monumental Greek sanctuary of Delphi and oracle tripod.",
+      "claim_ids": [
+        "apollo-q37340-c02",
+        "apollo-q37340-c33"
+      ]
+    }
+  ],
+  "aura": "Warm light-domain radiance; the beam arrangement is an editorial visualization, not a literal quoted luminous-body description.",
+  "artistic_choices": [
+    "Emphasize music and the Delphic oracle through lyre and tripod, avoiding solar fire and a solar chariot. The later Apollo/Helios association in c24/c25 is not required for this scene.",
+    "Opaque ivory chiton, amber-purple drape, low-angle sanctuary composition and warm light beams are original visual choices. No glowing eyes, energy rings or magic glyphs."
+  ],
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/apollo-q37340-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-370fdf31-c16b-4e29-990d-f1ca079c627d.png",
+  "native_sha256": "b50289e723b67042a1b775f669fdd0824fa4c7204b19549371f185e1500cb354",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:24:39.219931+00:00",
+  "review_path": "data/gemini/reviews/batch-025.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "b50289e723b67042a1b775f669fdd0824fa4c7204b19549371f185e1500cb354",
+    "reviewed_at": "2026-10-07T09:26:07.086Z",
+    "notes": "Main agent viewed native PNG directly: youthful beardless long-haired Apollo in an opaque long chiton, two arms holding a silver bow and tortoiseshell-pattern lyre, two sandal-clad feet. Bronze offering tripod and monumental Delphi-like temple architecture are visible. Warm broad light beams interpret documented light domain c01; no solar weapon, disk or Helios chariot. Ordinary offering smoke and sanctuary layout are artistic staging. No visible text, watermark, extra limbs, gore or nudity; small decorative details are not independently authenticated archaeology.",
+    "generator_notes": "Native inspected: one youthful beardless man with long wavy hair and normal eyes; two arms/hands, silver bow in one hand and stringed tortoiseshell-pattern lyre in the other, two sandalled feet under opaque long chiton. Bronze tripod clearly has three visible supports; smoke is ordinary offering-bowl atmosphere, not a magical oracle vision. Warm broad temple light beams and monumental Delphi-like setting, no solar fire/disk/chariot, no text, watermark, nudity or gore. Temple plan, decorative tripod motifs and lyre colour are editorial designs rather than archaeological reconstructions. Radiance reads predominantly as strong environmental light, not proof of a literal glowing-body claim."
+  },
+  "generation_failures": [],
+  "revision": "nama-besar",
+  "old_url": "/assets/art/apollo-q37340-verified.webp",
+  "old_webp_sha256": "b32be431914e68c4c9f59ccedc53d2d0c38cdb8aadc9f0851c02575095448826",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/apollo-q37340-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "cbd3b834cb652957027beef50683665db5fe8aa3458e5a48151f4590f91aba4c",
+  "original_available_at_start": false,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "b50289e723b67042a1b775f669fdd0824fa4c7204b19549371f185e1500cb354",
+    "inspected_at": "2026-10-07T09:26:07.086Z",
+    "notes": "Main agent viewed native PNG directly: youthful beardless long-haired Apollo in an opaque long chiton, two arms holding a silver bow and tortoiseshell-pattern lyre, two sandal-clad feet. Bronze offering tripod and monumental Delphi-like temple architecture are visible. Warm broad light beams interpret documented light domain c01; no solar weapon, disk or Helios chariot. Ordinary offering smoke and sanctuary layout are artistic staging. No visible text, watermark, extra limbs, gore or nudity; small decorative details are not independently authenticated archaeology."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "b50289e723b67042a1b775f669fdd0824fa4c7204b19549371f185e1500cb354",
+    "notes": "Youthful long-haired Apollo with lyre and silver bow at Delphi beside a tripod; matches light, music and oracle claims."
+  }
+}

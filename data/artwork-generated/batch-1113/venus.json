@@ -1,0 +1,87 @@
+{
+  "slug": "venus",
+  "canonical_name": "Venus",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_3",
+  "subagent_model": "gpt-6.1-sol",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "prompt": "Use case: stylized-concept. Create ONE original square premium painterly naturalistic monumental Mythics illustration, 1024x1024 or larger, of VENUS, the ROMAN goddess and protective MOTHER OF THE ROMAN STATE. Emblematic respectful composition, not a literal reconstruction of one ancient episode. ONE mature beautiful ADULT WOMAN with noble protective maternal expression, AUBURN braided/wavy hair, ONE head, TWO ordinary eyes, TWO arms, TWO legs. Entire standing figure including both sandalled feet inside square. She towers on Roman marble sanctuary steps above a small distant coastal settlement, low camera perspective, immense sky and architecture establish mythic grandeur. Wear a FULLY OPAQUE thick ivory Roman tunic up to neck and down to ankles, a deep BURGUNDY mantle flowing from shoulders, no transparent cloth, no cleavage, no nude forms, no erotic pose. One hand rests on her heart, the other extends a calm open blessing gesture toward an ancient bronze ALTAR BOWL in the lower foreground. From this bowl rises ONE strong tall TAPERING NATURAL ORANGE FLAME, recalling the documented favourable omen in the Pygmalion story; the flame originates from the altar fuel, never from her hands/eyes/body. DUSK atmosphere: ONE conspicuously BRIGHT EVENING STAR shines naturally in the dark violet sky above and beside her, referencing Venus guiding Aeneas in evening-star form, with only a few dim background stars. No geometric star badge, no halo or radiating beams connecting her to star. Roman sanctuary colonnade and a very distant Mediterranean harbour with two tiny ancient sailing ships provide scale and her protective guiding context; no other people or gods. Distinct darker twilight palette with glowing altar warmth, rich painterly cloth/bronze/marble textures, majestic goddess as civilizational guardian. No Greek Aphrodite sea-foam scene, no dove/myrtle/scallop shell, no cherubs, no weapon or war armour, no hearts/magic runes/energy circles, no modern movie/game/anime/comic design, no text/lettering/logos/watermark/border, no gore or nudity.",
+  "depicted_variant": "Fully clothed Venus as the protective mother of Rome, with evening-star emblem and a tapering altar flame recalling the favourable Pygmalion omen",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "basis_claim_ids": [
+    "venus-c01",
+    "venus-c02",
+    "venus-c12",
+    "venus-c18",
+    "venus-c19",
+    "venus-c22"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One beautiful adult goddess with natural human anatomy in fully opaque garments; modest respectful portrayal of love/fertility goddess.",
+      "claim_ids": [
+        "venus-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "One tapering altar flame represents the favourable flame omen, and one bright evening star signifies Venus's celestial guiding form; no invented spell beam.",
+      "claim_ids": [
+        "venus-c19",
+        "venus-c22"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Monumental Roman sanctuary setting presents Venus as protective mother of Roman state, with distant ships recalling Aeneas's guidance.",
+      "claim_ids": [
+        "venus-c02",
+        "venus-c12",
+        "venus-c18",
+        "venus-c19"
+      ]
+    }
+  ],
+  "aura": "Protective maternal majesty, evening-star identity and the documented altar-flame omen, expressed in a symbolic composition.",
+  "artistic_choices": [
+    "Deliberately distinct from Greek Aphrodite: Roman protective-mother setting at dusk, auburn-haired mature goddess in burgundy/ivory, evening star and altar flame; no dove/shell/myrtle or sea-foam emergence.",
+    "This is an emblematic composition combining documented Venus associations, not a claim that Pygmalion's Cyprus festival occurred in a Roman sanctuary. One moment of the tapering flame omen is shown; the three sequential ignitions in c22 cannot be counted from a still image.",
+    "Opaque Roman clothing is a modest editorial choice despite traditional nude sculptures noted in c20. Temple design, colours, ships and gesture are original artistic staging, not literal quotations.",
+    "Generated gold leaf-like hair ornament is treated as editorial dress decoration consistent with victory-domain presentation, not asserted as an independently sourced mandatory Venus attribute."
+  ],
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1113/originals/venus-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-0130cae6-51a3-45b4-b07e-c72eae10f413.png",
+  "native_sha256": "5afa503241fc76e3bc072f6c09ea8547fc24f79847ee007f90239fc58c856ee6",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:33:44.943361+00:00",
+  "review_path": "data/gemini/reviews/batch-027.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5afa503241fc76e3bc072f6c09ea8547fc24f79847ee007f90239fc58c856ee6",
+    "reviewed_at": "2026-10-07T09:36:03.489Z",
+    "notes": "Main agent viewed native PNG directly: one noble living Venus with two normal hands and two sandal-clad feet, fully opaque ivory tunic and burgundy mantle. Open palm beside a bronze bowl; tapering flame clearly begins at the bowl, not her fingers. One bright evening star above distant ships, source-grounded by celestial guiding form c19 and favourable flame omen c22. Roman protective-mother setting is an emblematic combination (c02/c12/c18), distinct from Aphrodite foam/dove/shell depiction. No visible text, watermark, body-energy beams, extra limbs, gore or nudity. Gold hair ornament and architecture are artistic decoration; a still image cannot establish three sequential fire ignitions or actual historical festival location.",
+    "generator_notes": "Native inspected: one noble living adult woman, natural eyes, two hands with normal fingers and two sandalled feet, opaque high-covered ivory tunic and burgundy mantle. Open hand extends beside rather than emitting the altar fire; tall tapering ordinary flame clearly originates in one bronze bowl. One bright evening star stands out in dusk sky, no body/eye beams or energy connection, two distant sailing ships visible. Leaf-like gold hair ornament and bronze bowl motifs are editorial costume/material decoration, not a quoted specific Venus attribute. Distinct from Aphrodite's foam/dove/shell/myrtle scene. Symbolic Roman-protector composition is not presented as literal location of Pygmalion's Cyprus festival. Three sequential flame ignitions cannot be assessed from this one moment. No text, watermark, nudity or gore."
+  },
+  "generation_failures": [],
+  "batch": 1113,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5afa503241fc76e3bc072f6c09ea8547fc24f79847ee007f90239fc58c856ee6",
+    "inspected_at": "2026-10-07T09:36:03.489Z",
+    "notes": "Main agent viewed native PNG directly: one noble living Venus with two normal hands and two sandal-clad feet, fully opaque ivory tunic and burgundy mantle. Open palm beside a bronze bowl; tapering flame clearly begins at the bowl, not her fingers. One bright evening star above distant ships, source-grounded by celestial guiding form c19 and favourable flame omen c22. Roman protective-mother setting is an emblematic combination (c02/c12/c18), distinct from Aphrodite foam/dove/shell depiction. No visible text, watermark, body-energy beams, extra limbs, gore or nudity. Gold hair ornament and architecture are artistic decoration; a still image cannot establish three sequential fire ignitions or actual historical festival location."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "5afa503241fc76e3bc072f6c09ea8547fc24f79847ee007f90239fc58c856ee6",
+    "notes": "Fully clothed Venus as protective mother of Rome with the evening star (c19) and the Pygmalion altar-flame omen (c22); dignified."
+  }
+}

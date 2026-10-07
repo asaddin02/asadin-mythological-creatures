@@ -1,0 +1,71 @@
+{
+  "slug": "satan",
+  "canonical_name": "Satan",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_2",
+  "subagent_model": "gpt-6.1-sol",
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Use case: stylized-concept. ONE original square premium painterly naturalistic mythological illustration depicting SATAN ONLY in the documented medieval CHRISTIAN ART appearance, NOT a mixed Abrahamic form and NOT the Revelation dragon. One menacing towering living humanoid adversary with ONE human-like head, TWO eyes, exactly TWO human arms and TWO legs. TWO curved goat-like horns on head, dark coarse unusually HAIRY lower legs ending in clearly visible CLOVEN HOOVES, one long tail curling plainly at the side. These horns, hairy legs, cloven hooves and tail are the required historical iconography. No wings. No fire, no glowing eyes, no magical power effects, no dragon heads, no crown, no weapons. Torso fully covered by heavy fully OPAQUE black medieval-style tunic with deep rust-red cape; waist and upper legs modestly clothed, garment ends above knees so the two hairy lower legs and two hooves are not hidden. An unsettling calculating human-like mature face, sharp non-glowing eyes, dark skin selected artistically. Both arms visible: one extends an open hand in a coaxing deceptive offer, the other rests near the cloak; coherent hands. Low ground camera: immense figure fills frame from hoofs to horns, looms above a barren distant wilderness canyon, tiny rugged ridges at his feet give overwhelming threatening scale. Cold stormy natural sky with a narrow warm distant opening, long shadows, dark atmospheric menace through COMPOSITION and LIGHT only; no supernatural emitted aura. No other people, demons or creatures. Original historical Christian visual interpretation, naturalistic painterly premium texture, broad imposing silhouette, no ordinary portrait. DO NOT borrow any horn/wing/fire designs from modern film, game, anime or comic characters. No extra heads/arms/legs, skull piles, gore, bare torso, nudity, text, inscriptions, logo, watermark, border or frame. ONE square image at least 1024 by 1024.",
+  "depicted_variant": "Satan in medieval Christian art iconography: horned humanoid with hairy legs, cloven hooves and tail, fully clothed and without wings or emitted fire.",
+  "basis_claim_ids": [
+    "satan-c01",
+    "satan-c15",
+    "satan-c24"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Single humanoid in historical Christian art appearance with horns, unusually hairy lower legs, cloven hooves and one tail; no wings or dragon anatomy.",
+      "claim_ids": [
+        "satan-c24"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Wilderness relates to the Christian temptation setting; gesture expresses temptation without depicting another religious figure.",
+      "claim_ids": [
+        "satan-c01",
+        "satan-c15"
+      ]
+    }
+  ],
+  "aura": "No supernatural emitted aura or fire. Menace comes from camera, landscape scale and natural cinematic light.",
+  "artistic_choices": [
+    "Exactly one head/two arms/two legs is a conservative humanoid construction for the c24 art appearance. Horn shape, dark skin, opaque tunic/cape, coaxing hand gesture and canyon are artistic interpretations, not extra documented physiology/powers. The appearance is explicitly a historical Christian-art variant, not a Biblical anatomical description. No merging with Revelation dragon or Islamic fire-created jinn."
+  ],
+  "generation_failures": [],
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1113/originals/satan-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-0159-7122-b95b-9580c8f816b4/exec-8f1b7ef3-8aa5-4a64-adef-4aac9ea45901.png",
+  "native_sha256": "0fa67bb02619ef00cd21f716984aa0f671c44681d805b451a7e84ea964b02d54",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:28:53.116Z",
+  "review_path": "data/gemini/reviews/batch-026.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "0fa67bb02619ef00cd21f716984aa0f671c44681d805b451a7e84ea964b02d54",
+    "reviewed_at": "2026-10-07T09:30:44.365Z",
+    "notes": "Main agent viewed native PNG directly: one menacing humanoid Satan in the explicit historical Christian-art variant of c24; two horns, two non-glowing eyes, two visible hands, two hairy lower legs ending in clearly cloven hooves, and one tail. Torso and upper legs covered by opaque dark tunic/cape. Wilderness setting and coaxing hand recall temptation (c01/c15). No wings, fire, supernatural aura, text, watermark or gore. Tail attachment hidden by cloth; ears, beard and dark palette are artistic styling. The art appearance is not asserted to be a Biblical anatomical description.",
+    "generator_notes": "Native individually viewed: one mature humanoid head, two curved horns, two visible non-glowing eyes, two arms/hands, two coarse hairy lower legs with clearly split cloven hooves, one tail. Torso and upper legs covered by opaque black tunic/rust cape. No wings, dragon anatomy, fire, supernatural emissions, text, watermark, frame, gore or nudity. Low camera and tiny wilderness ridges give imposing scale. Tapered ears, beard, dark palette and clothing are artistic detail, not separately claimed literal features; tail root concealed by clothes."
+  },
+  "batch": 1113,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "0fa67bb02619ef00cd21f716984aa0f671c44681d805b451a7e84ea964b02d54",
+    "inspected_at": "2026-10-07T09:30:44.365Z",
+    "notes": "Main agent viewed native PNG directly: one menacing humanoid Satan in the explicit historical Christian-art variant of c24; two horns, two non-glowing eyes, two visible hands, two hairy lower legs ending in clearly cloven hooves, and one tail. Torso and upper legs covered by opaque dark tunic/cape. Wilderness setting and coaxing hand recall temptation (c01/c15). No wings, fire, supernatural aura, text, watermark or gore. Tail attachment hidden by cloth; ears, beard and dark palette are artistic styling. The art appearance is not asserted to be a Biblical anatomical description."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "0fa67bb02619ef00cd21f716984aa0f671c44681d805b451a7e84ea964b02d54",
+    "notes": "Horned humanoid with hairy legs, cloven hooves and tail in medieval Christian iconography, menacing but not gory; matches the art-iconography claims."
+  }
+}

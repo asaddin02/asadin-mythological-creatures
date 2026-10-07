@@ -1,0 +1,149 @@
+{
+  "slug": "sun-wukong",
+  "canonical_name": "Sun Wukong",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "wukong_b",
+  "revision": "nama-besar",
+  "variant": "b",
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Use case: historical-scene.\nAsset type: ONE original square full-bleed realistic cinematic mythology catalogue illustration, Sun Wukong pilot variant B.\nScene: close battle view amid dark stone ruins of a heavenly palace, rough broken stone ledge at the lower foreground, drifting battle dust and a few stone chips. This is a literary composite evoking his fighting and havoc in heaven; no literal crowds needed.\nSubject: Sun Wukong from the Ming novel Journey to the West, a formidable LIVING furry rhesus-like MACAQUE, not a stone statue. One head, exactly TWO arms, exactly TWO legs (legs are below the portrait crop), proper projecting macaque muzzle, recognizable monkey nose and ears, realistic ruffled coarse brown-gray battle-dust fur. Terrifyingly intense threatening fierce gaze directly at viewer, narrowed natural dark amber eyes with ordinary reflected catchlights, a tense snarling macaque mouth. This is fierce expression, not monstrous transformed anatomy.\nComposition: waist-up or half-body battle portrait; head and chest prominently readable, face fully unobstructed. He twists his torso while BOTH visible hands grip and swing/spin ONE SINGLE straight black iron staff across the lower chest and foreground in a shallow diagonal. The entire staff is readable within the square, including BOTH ends, each end encircled by a SIMPLE GOLD BAND; black iron shaft between them. Both hands have coherent monkey fingers and oppose each other naturally on the same shaft. No second stick, no overlapping duplicated shaft. Motion is suggested by swirling dust and cloth only: keep face, hands, shaft and both gold ends sharp.\nPhysical effect: one end of the staff just scrapes the broken stone foreground edge, producing a small localized spray of real orange contact sparks and stone dust at that precise point. The sparks are physical battle contact, not supernatural flame, lightning, an aura or a magic power.\nClothing and object design: a simple tight plain GOLD BUDDHIST HEAD CIRCLET across his brow, original understated design, visible over fur. Plain opaque weathered historic Chinese wrap tunic and cloth sash, cloth sleeves, muted charcoal and earthy brown, original unarmored pilgrim clothing. No ornaments borrowed from any modern design.\nStyle: premium naturalistic illustration with very convincing macaque facial anatomy and tactile fur, worn iron, scratched gold, dusty fabric and stone; cinematic low-key cool side lighting, a faint warm reflection from tiny contact sparks, deep dark background but clear readable face and silhouette. Dangerous and imposing rather than cute.\nLiterary basis: living monkey four-limbed macaque c04/c33/c38; circlet c10; black iron staff with gold at both ends c41; fighting and heavenly havoc c23/c47. Do not add new powers.\nHARD CONSTRAINTS: new original composition and character design; square 1:1; opaque background. No modern game costume, armor, recognizable game character face, game poster composition, imitation of Black Myth or any branded work. No human face, anime, extra heads/arms/legs/fingers, creature mutation, gore, glowing magical eyes, lightning, fire aura, magic rings, energy ribbons or halos. NO TEXT OF ANY KIND: no staff inscription, no letters, Chinese characters, label, logo, signature, watermark, border, decorative frame.",
+  "depicted_variant": "Half-body fierce living macaque Sun Wukong, twisting with one black iron staff; both gold-banded ends visible, one end scraping stone with localized physical sparks and battle dust.",
+  "basis_claim_ids": [
+    "sun-wukong-c04",
+    "sun-wukong-c33",
+    "sun-wukong-c38",
+    "sun-wukong-c10",
+    "sun-wukong-c41",
+    "sun-wukong-c23",
+    "sun-wukong-c47"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living furry macaque with projecting muzzle, monkey nose and ears, one head and two visible arms; normal two-legged anatomy intended, with legs outside the half-body crop.",
+      "claim_ids": [
+        "sun-wukong-c04",
+        "sun-wukong-c33",
+        "sun-wukong-c38"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Gold Buddhist head circlet and one continuous black iron staff with gold bands at both ends; no inscription.",
+      "claim_ids": [
+        "sun-wukong-c10",
+        "sun-wukong-c41"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Threatening intense expression, battle dust, flying stone fragments and localized physical sparks where the staff scrapes a stone edge. Contact sparks are an artistic physical consequence of battle, not a claimed magical power.",
+      "claim_ids": [
+        "sun-wukong-c23",
+        "sun-wukong-c47"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark ruined palace battle surroundings evoke Wukong's fighting and havoc in heaven; the circlet-wearing portrait and palace context form an illustrative composite rather than a precise chronological reconstruction.",
+      "claim_ids": [
+        "sun-wukong-c23",
+        "sun-wukong-c47"
+      ]
+    }
+  ],
+  "aura": "None. Only physical contact sparks at the stone edge and atmospheric battle dust; no magical eyes, lightning, fire aura or energy halo.",
+  "artistic_choices": [
+    "Variant B prioritizes the fierce portrait and clear weapon anatomy over motion blur.",
+    "Cool gray stone architecture and dusty charcoal/brown opaque cloth make the gold circlet, both staff ends and face readable.",
+    "Sparks are localized physical battle contact against stone, not new magic or a fire power; c23/c47 supply the broader combat context.",
+    "Plain original cloth garments and a simple circlet are artistic choices; no modern game reference image was used.",
+    "This variant is an original half-body literary composite; no transformed anatomy or additional limbs were introduced.",
+    "Provisional pilot only: root agent will compare all variants and an independent reviewer still must decide installation.",
+    "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu.",
+    "All three native variants were personally inspected by the main agent. A and C retained with nonselection reasons and their hashes in variants/sun-wukong; awaiting owner pilot approval and independent Claude review."
+  ],
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-b.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1159c-6be0-7403-bfbd-3dccc88de24f/exec-2c7264fa-0963-44b3-93be-93e5c0bc9c43.png",
+  "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:07:52.929Z",
+  "review_path": "data/gemini/reviews/batch-154.review.json",
+  "old_url": "/assets/art/sun-wukong-verified.webp",
+  "old_webp_sha256": "0d7759c69877db32bdacbc46c95d279159bbde318f0cf3a358c392815cf60634",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/sun-wukong-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "5414b3221f445421b4944cd8f21d3c4a0a3ae292e59fe3b68f826520caebecda",
+  "original_available_at_start": false,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "reviewed_at": "2026-10-07T09:10:51.689Z",
+    "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+    "notes": "Main agent inspected native PNG B directly: intense threatening macaque gaze, one head, two distinct arms and gripping hands, gold circlet, one readable black iron staff with both gold ends; localized sparks at stone contact and battle dust. Opaque cloth. Legs below portrait crop cannot be counted. No visible text, watermark, glowing eye aura or added magic.",
+    "observations": [
+      "Half-body portrait with both hands visible; staff crosses beneath the face.",
+      "Both gold-banded ends visible, including the right end at the stone contact.",
+      "Natural amber irises have small reflected catchlights rather than emissive glow.",
+      "Plain worn cloth and original scene; no reference image or branded design supplied."
+    ],
+    "limitations": [
+      "Lower legs and feet lie outside the half-body crop and cannot be visually counted.",
+      "Sparks and ruined architectural styling are artistic scene choices, not exact quoted novel details.",
+      "Sun Wukong's circlet and heavenly battle surroundings are a composite presentation, not a claim that all elements occur together chronologically."
+    ]
+  },
+  "generation_failures": [],
+  "tool_output_file": "/home/asadin/.codex/generated_images/01a1159c-6be0-7403-bfbd-3dccc88de24f/exec-2c7264fa-0963-44b3-93be-93e5c0bc9c43.png",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "selection_reason": "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu.",
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "inspected_at": "2026-10-07T09:10:51.678Z",
+    "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+    "notes": "Main agent inspected native PNG B directly: intense threatening macaque gaze, one head, two distinct arms and gripping hands, gold circlet, one readable black iron staff with both gold ends; localized sparks at stone contact and battle dust. Opaque cloth. Legs below portrait crop cannot be counted. No visible text, watermark, glowing eye aura or added magic."
+  },
+  "pilot_selected_variant": "b",
+  "model_authorization": "Pemilik mengizinkan image_gen bawaan pada 7 Oktober 2026; nama model sebenarnya tidak tersedia dari alat.",
+  "pilot_variants": [
+    {
+      "variant": "a",
+      "status": "not-selected",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/a.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-a.png",
+      "native_sha256": "346f70a10f7beaf7370bbeb6072a62ea1c7386c5d3930d4dd8b5656a1cdb7d58",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Komposisi pertempuran megah dan prajurit langit terbaca, tetapi tatapan lebih kecil serta kaki belakang sebagian tertutup; B menyampaikan ancaman wajah lebih jelas."
+    },
+    {
+      "variant": "b",
+      "status": "selected-pilot-variant",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/b.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-b.png",
+      "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu."
+    },
+    {
+      "variant": "c",
+      "status": "not-selected",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/c.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-c.png",
+      "native_sha256": "60bff2b8d04388bb8d3749b887798665f33ba1902aba09e3a4ce55724dcd71d0",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Penerbangan awan dan tubuh penuh terbaca jelas, tetapi bidang awan/pegunungan mengurangi dominasi wajah; B lebih tepat untuk target potret sangar."
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+    "notes": "Fierce battle-worn living macaque with gold circlet and black iron staff with gold bands (c10, c41) amid shattered heavenly palace ruins (c23); original design, no game likeness, no text."
+  }
+}

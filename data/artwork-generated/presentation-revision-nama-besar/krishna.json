@@ -1,0 +1,89 @@
+{
+  "slug": "krishna",
+  "canonical_name": "Krishna",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_2",
+  "subagent_model": "gpt-6.1-sol",
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Use case: stylized-concept. ONE original square premium painterly naturalistic mythological illustration of KRISHNA respectfully depicted as the compassionate protector lifting GOVARDHAN HILL. Spectacular low camera from ground, Krishna a monumental youthful divine man dominates foreground, dark BLUE-BLACK skin, one head, TWO eyes, exactly TWO arms and TWO legs. Serene authoritative expression, dark hair bearing a plainly readable single peacock feather. Elegant fully opaque YELLOW traditional robe covers his entire chest, waist and legs, original modest drapery. His left arm stretches high: ONE hand visibly touches and UPHOLDS the underside of an enormous suspended rocky HILL, effortlessly as if in sport. The hill's broad rocky roof spans most of the top of the square, with grass and tiny trees on its summit; clear visible gap between hill and ground. His other hand extends compassionately downward. Krishna's whole body, the supporting hand and physical contact must stay readable. Several very small cattle sheltered near distant tree roots beneath the hill reinforce scale; no other gods or monsters. Torrential rain cascades outside the shelter in the distance while dry ground under the hill remains safe, a huge rain curtain with soft daylight breaking beneath the overhang. This depicts his seven-day Govardhan protection; do not make rain emerge from Krishna. Warm reflected light on yellow silk contrasts with the storm; divine dignity through light and scale, NO invented magic rings or luminous body effects. Rich detailed brushwork, original respectful Hindu illustration, powerful monumental action rather than a portrait. No extra heads/arms, wings, weapon, flame, laser, copied game/film/anime/comic design, bare torso, nudity, gore, text, inscriptions, watermark, logo or frame. ONE square image at least 1024 by 1024.",
+  "depicted_variant": "Blue-black Krishna in yellow opaque robe and peacock feather, holding Govardhan Hill in one hand during torrential rain.",
+  "basis_claim_ids": [
+    "krishna-c01",
+    "krishna-c03",
+    "krishna-c05",
+    "krishna-c18",
+    "krishna-c24",
+    "krishna-c31"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Youthful dark blue-black Krishna with peacock feather and yellow robe; one head, two arms and two legs in the single familiar Krishna form.",
+      "claim_ids": [
+        "krishna-c03",
+        "krishna-c24"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Govardhan held up with one hand, sheltering his community from catastrophic rain; the rain is external rather than emitted power.",
+      "claim_ids": [
+        "krishna-c05",
+        "krishna-c18",
+        "krishna-c31"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hill lifted clear of ground with a protected dry shelter, small cattle and storm rain beyond.",
+      "claim_ids": [
+        "krishna-c31"
+      ]
+    }
+  ],
+  "aura": "No invented emitted aura. Monumental physical mountain-lifting and external deluge follow c31.",
+  "artistic_choices": [
+    "Fully opaque torso coverage and original yellow drapery are modest clothing choices; low viewpoint, small cattle, warm reflected daylight and broad overhang express scale. No literal claim of body luminescence. Familiar single-bodied form chosen instead of the countless cosmic forms."
+  ],
+  "generation_failures": [],
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/krishna-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-0159-7122-b95b-9580c8f816b4/exec-2c1a3834-64cd-4966-924a-258a6c49a73f.png",
+  "native_sha256": "0e708e915542099a2e7cfda9fdf05af5ca66d31c9e439d91f6cefc7eb404cec3",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:23:19.994Z",
+  "review_path": "data/gemini/reviews/batch-024.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "0e708e915542099a2e7cfda9fdf05af5ca66d31c9e439d91f6cefc7eb404cec3",
+    "reviewed_at": "2026-10-07T09:24:54.971Z",
+    "notes": "Main agent viewed native PNG directly: one youthful dark blue-black Krishna with a peacock feather and fully opaque yellow garments; two arms and two bare feet visible. One raised hand visibly supports the underside of Govardhan while his other hand extends toward the protected community and cattle. Storm rain falls beyond the hill and dry shelter; rain belongs to the deluge sent by Indra, not an invented Krishna power (c05/c18/c31). Strong low-angle monumental scale, no visible text, watermark, extra limbs or nudity. Raised palm/fingers partly occluded at rock contact; tiny background people are not individually inspectable.",
+    "generator_notes": "Native individually viewed: one youthful blue-black head and single peacock feather, two coherent arms, two bare feet beneath fully opaque yellow robes. Raised palm makes visible physical contact with suspended rocky hill; open other hand clear. Huge overhang shelters small cattle and tiny community silhouettes; driving rain outside and trees on summit visible. No magical body emissions, text, watermark, frame, gore or nudity. Finger detail at supporting palm partly occluded by physical contact; distant people/animals not individually detailed."
+  },
+  "revision": "nama-besar",
+  "old_url": "/assets/art/krishna-verified.webp",
+  "old_webp_sha256": "7f9b95b9836c2d730164ff09d11fe69c97a59f0bc808457de1baa5d92158d092",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/krishna-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "4e79bd40b6dcadf414907cdc8869873b00ead0c793140ea734a4c238f5448f39",
+  "original_available_at_start": false,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "0e708e915542099a2e7cfda9fdf05af5ca66d31c9e439d91f6cefc7eb404cec3",
+    "inspected_at": "2026-10-07T09:24:54.971Z",
+    "notes": "Main agent viewed native PNG directly: one youthful dark blue-black Krishna with a peacock feather and fully opaque yellow garments; two arms and two bare feet visible. One raised hand visibly supports the underside of Govardhan while his other hand extends toward the protected community and cattle. Storm rain falls beyond the hill and dry shelter; rain belongs to the deluge sent by Indra, not an invented Krishna power (c05/c18/c31). Strong low-angle monumental scale, no visible text, watermark, extra limbs or nudity. Raised palm/fingers partly occluded at rock contact; tiny background people are not individually inspectable."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "0e708e915542099a2e7cfda9fdf05af5ca66d31c9e439d91f6cefc7eb404cec3",
+    "notes": "Blue-skinned Krishna in yellow robe with peacock feather lifting Govardhan Hill to shelter cowherds and cattle from the rain; documented episode, respectful."
+  }
+}

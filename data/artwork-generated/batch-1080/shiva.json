@@ -1,52 +1,60 @@
 {
   "slug": "shiva",
-  "prompt": "Use case: stylized-concept. Create ONE square premium painterly naturalistic Mythics educational editorial illustration of SHIVA, respectful living Hindu religious iconography, majestic benevolent Protector in his mountain abode Kailasa, original composition. One monumental living deity fills the frame, pale ash-toned skin with a clearly BLUE THROAT, one head, exactly FOUR anatomically coherent arms and two legs. Third eye clearly in forehead; a physical serpent Vasuki loosely around his neck; crescent moon in high matted hair topknot; actual river water Ganga cascades gently from topknot; one hand holds a tall three-pronged trident, another holds a small damaru drum, other two hold calm protective gestures. Modest traditional tiger-skin cloth and drapery covers torso/lower body. View from low on the mountain with small distant peaks giving scale, composed authoritative upright active presence rather than ordinary human portrait. A narrow directed tongue of fire emerges clearly from the THIRD EYE, source-supported third-eye fire (shiva-c05,c20), distinct from the gently flowing Ganga (c05,c19). Keep face readable and beautiful, serene and awe-inspiring, no victims. Dramatic firelight and natural cool mountain dawn, rich brushwork, dignified authentic iconography. Blue throat c09,c25; mountain context c03,c29; four-arm arrangement is editorial traditional iconographic choice informed by sculpture reference, not asserted textual anatomy. Avoid cosmic generic ribbons, extra heads/limbs, weapons beyond trident, modern film/game/anime/comic designs, nakedness, gore, text, logos, labels, border or watermark.",
-  "depicted_variant": "Majestic Shiva on Kailasa with traditional four-arm iconography, third-eye fire and Ganga flowing from matted hair.",
+  "prompt": "Use case: stylized-concept. Create ONE original square premium naturalistic painterly illustration of SHIVA for Mythics, respectful living Hindu sacred figure, monumental and immensely powerful but serene benevolent Protector. Low-angle full-body view looking upward from the rocky slopes of Kailasa: Shiva dominates the square, distant snowy mountain ridges tiny beneath him. One human head, exactly TWO arms and TWO legs, two normal eyes plus a clearly discernible THIRD vertical eye in the center of his forehead. Pale ash complexion and distinctly BLUE THROAT. High matted hair topknot with a crescent moon, a real physical serpent Vasuki around the neck. One hand holds a tall plain three-pronged trident; the other holds one small hourglass damaru drum. Cover chest, shoulders, waist and legs entirely with opaque modest traditional drapery and a tiger-skin patterned outer wrap; never shirtless. Visibly show his documented power: a powerful narrow tongue of orange-white FIRE issues from the FOREHEAD THIRD EYE into the upper air, not from either normal eye; Ganga is clear actual cascading WATER issuing from his matted topknot and descending beside him to the mountain. Keep fire and water visually distinct, face calm and readable. Radiant sunrise and firelight on cloth and mist; rich tactile brushwork, sculptural cinematic depth, strong silhouette, awe-inspiring divine scale. The exact scene and scale are artistic interpretation of accepted mountain-abode iconography; fire from third eye and water in hair are documented. No other supernatural effects. No extra heads, arms, fingers, halos, wings, lightning or magical ribbons. No victims, gore, nudity, text, inscriptions, labels, borders, logo, watermark. Entirely original design, no copying films, games, comics or existing artwork.",
+  "depicted_variant": "Two-armed, one-headed Shiva the serene Protector on Kailasa with third-eye fire and the Ganga flowing from his matted topknot.",
   "basis_claim_ids": [
     "shiva-c03",
     "shiva-c05",
     "shiva-c09",
+    "shiva-c12",
     "shiva-c19",
     "shiva-c20",
     "shiva-c24",
+    "shiva-c25",
     "shiva-c29"
   ],
   "visual_requirements": [
     {
-      "description": "Third forehead eye, Vasuki at neck, crescent in matted topknot, trident and damaru.",
+      "kind": "anatomy",
+      "description": "One human head, two arms and two legs; two normal eyes plus third forehead eye, crescent in matted topknot, physical Vasuki at neck, trident and damaru.",
       "claim_ids": [
         "shiva-c05"
       ]
     },
     {
-      "description": "Distinct blue throat.",
+      "kind": "anatomy",
+      "description": "Distinct blue throat and tiger-skin outer garment; opaque modest drapery covers torso and lower body.",
       "claim_ids": [
-        "shiva-c09"
+        "shiva-c09",
+        "shiva-c24",
+        "shiva-c25"
       ]
     },
     {
-      "description": "Ganga visibly flowing from topknot.",
+      "kind": "effect",
+      "description": "Directed flame visibly issuing from third forehead eye.",
+      "claim_ids": [
+        "shiva-c20"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ganga visibly cascades from matted topknot, physically distinct from fire.",
       "claim_ids": [
         "shiva-c05",
         "shiva-c19"
       ]
     },
     {
-      "description": "Directed fire emerges from third eye.",
-      "claim_ids": [
-        "shiva-c20"
-      ]
-    },
-    {
-      "description": "Kailasa mountain abode and tiger-skin garment.",
+      "kind": "setting",
+      "description": "Rocky snowy Kailasa mountain abode.",
       "claim_ids": [
         "shiva-c03",
-        "shiva-c24",
         "shiva-c29"
       ]
     }
   ],
-  "aura": "Majestic protective authority, third-eye fire and flowing Ganga against natural mountain dawn.",
+  "aura": "Claim-supported third-eye fire (shiva-c20) and flowing Ganga (shiva-c05,c19). Warm dawn is ordinary atmospheric lighting, not a separate power.",
   "artistic_choices": [
     "Four-arm traditional arrangement follows the inspected Dieng sculpture; textual claims name attributes but do not specify arm count. Pose and monumental scale are editorial presentation under nama-besar policy.",
     "Ash-toned skin, cloth palette, framing and mountain dawn are editorial choices; modest tiger-skin drapery derives from c24."
@@ -54,9 +62,15 @@
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Selected native image individually inspected: four coherent arms with trident, damaru, open protective palms; third eye emits a directed flame, blue throat, physical Vasuki, crescent topknot and flowing Ganga. Mountain setting and tiger skin readable. Dignified imposing living deity, no text or watermark.",
-    "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
-    "reviewed_at": "2026-10-07T00:08:22.701905+00:00"
+    "notes": "Main agent viewed native PNG directly: monumental respectful Shiva on snowy rocks, one head and two visible clothed legs; two coherent arms hold a three-pronged trident and hourglass drum. Distinct blue throat, physical cobra at neck, crescent on topknot, tiger outer wrap. Fire visibly starts at central forehead third-eye location and Ganga flows down from matted hair; these reference c20 and c05/c19 respectively. No visible text, watermark, nudity or extra arms. Two-arm arrangement and simultaneous iconographic effects are editorial composition rather than a fixed textual arm count or single episode.",
+    "limitations": [
+      "Accepted claims describe attributes but do not specify a fixed arm count; the two-arm arrangement is editorial.",
+      "The lit third eye is small at full-image scale but its forehead source is visible.",
+      "River and directed fire are illustrative visualizations, not claims of a specific historical scene."
+    ],
+    "native_sha256": "7b436ae540e8c15b0e6efa7c6a11ee58130db303c50841812bf17d56facfc209",
+    "reviewed_at": "2026-10-07T09:21:32.306Z",
+    "generator_notes": "Personally inspected native PNG: one head, two coherent arms with three-pronged trident and damaru, two clothed legs, third forehead eye visibly emits fire, blue throat, crescent topknot and water cascade, physical neck cobra and tiger wrap; monumental mountain scale and calm dignity. No visible text, watermark, nudity or gore."
   },
   "reference": {
     "commons_url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Beeld_van_Shiva_Dijeng-plateau_TMnr_60037355.jpg",
@@ -66,16 +80,128 @@
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "original_file": "data/artwork-generated/batch-1080/originals/shiva-commons-43.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-a44575e9-dd46-4d1d-85bb-ba27c9cfbfe9.png",
-  "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/shiva-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a7-a977-75e0-897f-5ca01c93bdb1/exec-b9fb76c1-b555-47c4-976b-96a5bd1f4819.png",
+  "native_sha256": "7b436ae540e8c15b0e6efa7c6a11ee58130db303c50841812bf17d56facfc209",
   "generated_at": "2026-10-07T00:08:22.701905+00:00",
   "review_path": "data/gemini/reviews/batch-024.review.json",
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-07T09:30:00+07:00",
-    "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
-    "notes": "Third eye loosing fire, blue throat, Vasuki, crescent moon, trident, damaru and tiger skin on Kailasa; respectful and imposing."
-  }
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "7b436ae540e8c15b0e6efa7c6a11ee58130db303c50841812bf17d56facfc209",
+    "notes": "Two-armed Shiva on snowy Kailasa with trident, damaru, crescent moon, serpent and Ganga falling from his hair; third-eye fire as documented power; respectful."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "shiva",
+      "prompt": "Use case: stylized-concept. Create ONE square premium painterly naturalistic Mythics educational editorial illustration of SHIVA, respectful living Hindu religious iconography, majestic benevolent Protector in his mountain abode Kailasa, original composition. One monumental living deity fills the frame, pale ash-toned skin with a clearly BLUE THROAT, one head, exactly FOUR anatomically coherent arms and two legs. Third eye clearly in forehead; a physical serpent Vasuki loosely around his neck; crescent moon in high matted hair topknot; actual river water Ganga cascades gently from topknot; one hand holds a tall three-pronged trident, another holds a small damaru drum, other two hold calm protective gestures. Modest traditional tiger-skin cloth and drapery covers torso/lower body. View from low on the mountain with small distant peaks giving scale, composed authoritative upright active presence rather than ordinary human portrait. A narrow directed tongue of fire emerges clearly from the THIRD EYE, source-supported third-eye fire (shiva-c05,c20), distinct from the gently flowing Ganga (c05,c19). Keep face readable and beautiful, serene and awe-inspiring, no victims. Dramatic firelight and natural cool mountain dawn, rich brushwork, dignified authentic iconography. Blue throat c09,c25; mountain context c03,c29; four-arm arrangement is editorial traditional iconographic choice informed by sculpture reference, not asserted textual anatomy. Avoid cosmic generic ribbons, extra heads/limbs, weapons beyond trident, modern film/game/anime/comic designs, nakedness, gore, text, logos, labels, border or watermark.",
+      "depicted_variant": "Majestic Shiva on Kailasa with traditional four-arm iconography, third-eye fire and Ganga flowing from matted hair.",
+      "basis_claim_ids": [
+        "shiva-c03",
+        "shiva-c05",
+        "shiva-c09",
+        "shiva-c19",
+        "shiva-c20",
+        "shiva-c24",
+        "shiva-c29"
+      ],
+      "visual_requirements": [
+        {
+          "description": "Third forehead eye, Vasuki at neck, crescent in matted topknot, trident and damaru.",
+          "claim_ids": [
+            "shiva-c05"
+          ]
+        },
+        {
+          "description": "Distinct blue throat.",
+          "claim_ids": [
+            "shiva-c09"
+          ]
+        },
+        {
+          "description": "Ganga visibly flowing from topknot.",
+          "claim_ids": [
+            "shiva-c05",
+            "shiva-c19"
+          ]
+        },
+        {
+          "description": "Directed fire emerges from third eye.",
+          "claim_ids": [
+            "shiva-c20"
+          ]
+        },
+        {
+          "description": "Kailasa mountain abode and tiger-skin garment.",
+          "claim_ids": [
+            "shiva-c03",
+            "shiva-c24",
+            "shiva-c29"
+          ]
+        }
+      ],
+      "aura": "Majestic protective authority, third-eye fire and flowing Ganga against natural mountain dawn.",
+      "artistic_choices": [
+        "Four-arm traditional arrangement follows the inspected Dieng sculpture; textual claims name attributes but do not specify arm count. Pose and monumental scale are editorial presentation under nama-besar policy.",
+        "Ash-toned skin, cloth palette, framing and mountain dawn are editorial choices; modest tiger-skin drapery derives from c24."
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Selected native image individually inspected: four coherent arms with trident, damaru, open protective palms; third eye emits a directed flame, blue throat, physical Vasuki, crescent topknot and flowing Ganga. Mountain setting and tiger skin readable. Dignified imposing living deity, no text or watermark.",
+        "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
+        "reviewed_at": "2026-10-07T00:08:22.701905+00:00"
+      },
+      "reference": {
+        "commons_url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Beeld_van_Shiva_Dijeng-plateau_TMnr_60037355.jpg",
+        "reference_file": "tmp/commons-43/shiva-reference.jpg",
+        "notes": "Inspected seated four-arm stone icon with high head ornament; original standing mountain composition."
+      },
+      "worker": "codex",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "original_file": "data/artwork-generated/batch-1080/originals/shiva-commons-43.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-a44575e9-dd46-4d1d-85bb-ba27c9cfbfe9.png",
+      "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
+      "generated_at": "2026-10-07T00:08:22.701905+00:00",
+      "review_path": "data/gemini/reviews/batch-024.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-07T09:30:00+07:00",
+        "native_sha256": "56822d0c831fa56e958b6b363e964592fc9764d281f25da524a6a83151dd5d15",
+        "notes": "Third eye loosing fire, blue throat, Vasuki, crescent moon, trident, damaru and tiger skin on Kailasa; respectful and imposing."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/shiva.json",
+    "native_sha256": "7b436ae540e8c15b0e6efa7c6a11ee58130db303c50841812bf17d56facfc209",
+    "old_url": "/assets/art/shiva-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/shiva-commons-43.png",
+    "old_webp_sha256": "fca384ae685a7d6a804599534862151453127e0b2ee8d5be4a602a5e5ed774fc",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "shiva-c03",
+      "shiva-c05",
+      "shiva-c09",
+      "shiva-c12",
+      "shiva-c19",
+      "shiva-c20",
+      "shiva-c24",
+      "shiva-c25",
+      "shiva-c29"
+    ]
+  },
+  "url": "/assets/art/shiva-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "19ce152651d8bddcc89aba171d8c3622d0a2781e6f9fbce9bc72af4e4b863baf",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Selected Shiva's ascetic mountain iconography rather than Nataraja or Kirata variants. Two-arm human-form arrangement is an editorial interpretation where accepted textual claims specify attributes but no arm count; no four-arm requirement is asserted. One head and three total eyes follow third-eye iconography. Giant-seeming scale, sunrise, garment colors and placement are original artistic interpretation. Fully opaque drapery adds modest coverage while preserving accepted tiger skin. No modern_depictions used."
+  ]
 }

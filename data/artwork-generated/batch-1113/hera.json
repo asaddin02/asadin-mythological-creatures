@@ -1,0 +1,87 @@
+{
+  "slug": "hera",
+  "canonical_name": "Hera",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_3",
+  "subagent_model": "gpt-6.1-sol",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "prompt": "Use case: stylized-concept. Create ONE original square premium painterly naturalistic monumental Mythics illustration, 1024x1024 or larger. HERA, revered ancient Greek queen of the Olympians and goddess of marriage, women, SKY and STARS, shown as a dignified noble ADULT WOMAN seated upright on a great GOLDEN THRONE. ONE head, TWO normal eyes, TWO arms, TWO legs, natural respectful anatomy, mature regal face and composed commanding expression, not monstrous or villainous. Put a substantial Greek POLOS CROWN on her head and a bridal veil draped behind her head and shoulders. Wear a FULLY OPAQUE royal midnight-blue ankle-length Greek robe and thick ivory-gold mantle covering chest, torso and legs securely; no transparency, cleavage or exposed body. Her right hand holds a tall physically solid GOLD ROYAL SCEPTRE tipped with a distinct LOTUS FLOWER, clearly not an orb or spear; left hand presents a small natural POMEGRANATE at her knee. Both hands and both sandalled feet readable, throne back frames her living face without a halo. Low camera angle from broad ancient stone sanctuary steps gives enormous monumental authority. Greek columns flank the sides and open toward the Argos/Mycenae-like distant mountain valley; above and behind the throne spreads a spectacular dark blue STAR-FILLED SKY, with ordinary stars at different brightnesses and silver cloud bands. Stars remain in sky, never on her skin or as magical missiles. Cinematic warm reflected temple light reveals gold throne and face, cool celestial atmosphere, rich original painted cloth/marble/metal textures. ONLY Hera, no other humanoid deities, no peacock, no lion, no lightning/fire/laser powers, no glowing eyes or magic glyphs, no modern movie/game/anime/comic design, no text/letters/logo/watermark/border, no gore or nudity. Make her look like the honoured queen of the immortals, not an ordinary seated portrait.",
+  "depicted_variant": "Dignified crowned and veiled Hera on a golden throne with lotus-tipped royal sceptre and pomegranate beneath the starry sky",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "basis_claim_ids": [
+    "hera-c01",
+    "hera-c02",
+    "hera-c04",
+    "hera-c08",
+    "hera-c19",
+    "hera-c21",
+    "hera-c31"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One noble adult woman, crowned and bridal-veiled, fully clothed, seated on a golden throne, holding lotus-tipped sceptre and pomegranate.",
+      "claim_ids": [
+        "hera-c02",
+        "hera-c08",
+        "hera-c21",
+        "hera-c31"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Star-filled sky expresses her sky/stars domain without invented lightning or energy beams.",
+      "claim_ids": [
+        "hera-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Greek sanctuary setting recalling Argos/Mycenae and golden throne iconography.",
+      "claim_ids": [
+        "hera-c19",
+        "hera-c21"
+      ]
+    }
+  ],
+  "aura": "Royal majesty conveyed by golden throne and documented starry-sky domain; warm cinematic light is editorial, no invented emitted magic.",
+  "artistic_choices": [
+    "Select dignified enthroned marriage-queen variant, not punitive scenes or abuse narratives.",
+    "Gold/ivory throne materials, blue robe, sheltered temple opening and low-angle architecture are editorial staging, not exact reconstruction of the Polycletus statue.",
+    "Avoid peacock so no uncertain literal count of Argos's 100 transferred eyes is introduced; lotus-tipped sceptre and pomegranate give source-derived identity."
+  ],
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1113/originals/hera-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-7c110715-2e1b-4699-9bf9-935a22d0f3ae.png",
+  "native_sha256": "5182ba1a86b8d7b091ca50d58de1aa31b302e997c166cfe53a88affab1279675",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:30:54.013872+00:00",
+  "review_path": "data/gemini/reviews/batch-026.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5182ba1a86b8d7b091ca50d58de1aa31b302e997c166cfe53a88affab1279675",
+    "reviewed_at": "2026-10-07T09:33:26.086Z",
+    "notes": "Main agent viewed native PNG directly: one dignified crowned and bridal-veiled Hera enthroned in fully opaque ivory/blue robes, two hands holding a lotus-tipped sceptre and a pomegranate, one sandal-clad foot visible while the other is concealed. Gold throne and starry sky express queen/sky domain c02/c04/c08/c21/c31. Cloth star embroidery and throne animal reliefs are decoration. No visible lightning, energy beams, extra limbs, text, watermark, gore or nudity. Sanctuary and crown design are illustrative, not exact archaeological reconstructions.",
+    "generator_notes": "Native inspected: one dignified enthroned adult woman, normal eyes, crown/polos-like headdress and bridal veil, two hands holding lotus-tipped gold sceptre and natural pomegranate. Fully opaque ivory/blue garments cover chest/torso/legs. One sandalled foot visible; other is obscured by robe and seated pose, no apparent additional limbs. Golden throne, ordinary cloth star embroidery and expansive night stars support royal/celestial identity. No lightning or invented magic, no peacock/uncountable eye transfer, no text, nudity or gore. Sky brightness and architectural/cloth designs are artistic staging, not exact archaeological reconstruction."
+  },
+  "generation_failures": [],
+  "batch": 1113,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5182ba1a86b8d7b091ca50d58de1aa31b302e997c166cfe53a88affab1279675",
+    "inspected_at": "2026-10-07T09:33:26.086Z",
+    "notes": "Main agent viewed native PNG directly: one dignified crowned and bridal-veiled Hera enthroned in fully opaque ivory/blue robes, two hands holding a lotus-tipped sceptre and a pomegranate, one sandal-clad foot visible while the other is concealed. Gold throne and starry sky express queen/sky domain c02/c04/c08/c21/c31. Cloth star embroidery and throne animal reliefs are decoration. No visible lightning, energy beams, extra limbs, text, watermark, gore or nudity. Sanctuary and crown design are illustrative, not exact archaeological reconstructions."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "5182ba1a86b8d7b091ca50d58de1aa31b302e997c166cfe53a88affab1279675",
+    "notes": "Crowned, veiled Hera enthroned with lotus-tipped sceptre and pomegranate under a starry sky; regal and source-grounded."
+  }
+}

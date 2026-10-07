@@ -1,0 +1,238 @@
+{
+  "title": "Pilot Sun Wukong: tiga varian komposisi",
+  "date": "2026-10-07",
+  "requested_creatures": 16,
+  "creatures_generated_this_session": 1,
+  "remaining_creatures_after_pilot": 15,
+  "status": "continuation-authorized-awaiting-independent-review",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "selected_variant": "b",
+  "selection_reason": "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu.",
+  "receipt": "data/artwork-generated/presentation-revision-nama-besar/sun-wukong.json",
+  "worker_agents": [
+    {
+      "agent": "/root/wukong_a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "variant": "a",
+      "composition": "Varian A: Sun Wukong kera makaka hidup yang garang mendarat di reruntuhan gerbang istana langit; kedua tangan menggenggam satu tongkat besi hitam dengan dua ujung emas, prajurit langit kecil terpental di latar."
+    },
+    {
+      "agent": "wukong_b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "variant": "b",
+      "composition": "Half-body fierce living macaque Sun Wukong, twisting with one black iron staff; both gold-banded ends visible, one end scraping stone with localized physical sparks and battle dust."
+    },
+    {
+      "agent": "wukong_c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "variant": "c",
+      "composition": "Living macaque Sun Wukong in a full-body aerial leap emerging from a rolling somersault cloud, holding a raised black iron staff with gold bands at both ends, wearing a golden Buddhist circlet and plain historical cloth clothing."
+    }
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "status": "not-selected",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/a.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-a.png",
+      "native_sha256": "346f70a10f7beaf7370bbeb6072a62ea1c7386c5d3930d4dd8b5656a1cdb7d58",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Komposisi pertempuran megah dan prajurit langit terbaca, tetapi tatapan lebih kecil serta kaki belakang sebagian tertutup; B menyampaikan ancaman wajah lebih jelas."
+    },
+    {
+      "variant": "b",
+      "status": "selected-pilot-variant",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/b.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-b.png",
+      "native_sha256": "d08fa560f568ceec5b78f4bfe14d56a70f91da5e5a2dadd8ec4d0d8d729ba089",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu."
+    },
+    {
+      "variant": "c",
+      "status": "not-selected",
+      "receipt": "data/artwork-generated/presentation-revision-nama-besar/variants/sun-wukong/c.json",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-c.png",
+      "native_sha256": "60bff2b8d04388bb8d3749b887798665f33ba1902aba09e3a4ce55724dcd71d0",
+      "image_model": "tidak dilaporkan alat",
+      "selection_reason": "Penerbangan awan dan tubuh penuh terbaca jelas, tetapi bidang awan/pegunungan mengurangi dominasi wajah; B lebih tepat untuk target potret sangar."
+    }
+  ],
+  "main_agent_inspected_each_native_image": true,
+  "original_available_at_start": false,
+  "old_webp_backup": "data/artwork-generated/presentation-revision-nama-besar/backups/sun-wukong.webp",
+  "old_webp_sha256": "0d7759c69877db32bdacbc46c95d279159bbde318f0cf3a358c392815cf60634",
+  "historical_native_sha256": "5414b3221f445421b4944cd8f21d3c4a0a3ae292e59fe3b68f826520caebecda",
+  "effects": [
+    {
+      "variant": "a",
+      "requirements": [
+        {
+          "kind": "effect",
+          "description": "Prajurit langit sangat kecil di latar tampak terpental atau kalah; tanpa darah atau gore.",
+          "claim_ids": [
+            "sun-wukong-c23"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Debu dan serpihan batu fisik akibat pertempuran, tanpa kilat, api, aura atau mata magis; detail dampak fisik merupakan pilihan komposisi, bukan klaim kekuatan baru.",
+          "claim_ids": [
+            "sun-wukong-c23"
+          ]
+        }
+      ],
+      "artistic_choices": [
+        "Sudut pandang rendah dan pose mendarat penuh tubuh membuat Wukong tampak berbahaya; wajah dan dua tangan tetap terbaca jelas.",
+        "Pakaian kain historis polos dan lusuh berwarna tanah, bulu berdebu, langit kelabu serta cahaya sinematik merupakan pilihan artistik orisinal.",
+        "Gerbang rusak, posisi prajurit yang terpental, skala dan debu divisualisasikan sebagai interpretasi pertempuran, bukan rincian yang dinyatakan verbatim oleh klaim.",
+        "Circlet dari fase perjalanan bersama Tang Sanzang dipadukan dengan pertempuran langit lebih awal; ini komposisi ilustratif lintas episode, bukan rekonstruksi kronologis satu adegan.",
+        "Varian A dipertahankan untuk dibandingkan oleh agen utama dengan varian lain; belum merupakan varian terpilih atau siap dipasang.",
+        "Komposisi pertempuran megah dan prajurit langit terbaca, tetapi tatapan lebih kecil serta kaki belakang sebagian tertutup; B menyampaikan ancaman wajah lebih jelas."
+      ]
+    },
+    {
+      "variant": "b",
+      "requirements": [
+        {
+          "kind": "effect",
+          "description": "Threatening intense expression, battle dust, flying stone fragments and localized physical sparks where the staff scrapes a stone edge. Contact sparks are an artistic physical consequence of battle, not a claimed magical power.",
+          "claim_ids": [
+            "sun-wukong-c23",
+            "sun-wukong-c47"
+          ]
+        }
+      ],
+      "artistic_choices": [
+        "Variant B prioritizes the fierce portrait and clear weapon anatomy over motion blur.",
+        "Cool gray stone architecture and dusty charcoal/brown opaque cloth make the gold circlet, both staff ends and face readable.",
+        "Sparks are localized physical battle contact against stone, not new magic or a fire power; c23/c47 supply the broader combat context.",
+        "Plain original cloth garments and a simple circlet are artistic choices; no modern game reference image was used.",
+        "This variant is an original half-body literary composite; no transformed anatomy or additional limbs were introduced.",
+        "Provisional pilot only: root agent will compare all variants and an independent reviewer still must decide installation.",
+        "Dipilih karena tatapan makaka paling tajam dan mengancam, wajah serta dua tangan jelas, kedua ujung emas utuh, dan percikan lokal dapat dibaca sebagai kontak tongkat dengan batu."
+      ]
+    },
+    {
+      "variant": "C",
+      "requirements": [
+        {
+          "kind": "effect",
+          "description": "One raised black iron Ruyi Jingu Bang with a gold band at each of its two ends, no written inscription.",
+          "claim_ids": [
+            "sun-wukong-c41"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Somersault cloud flight represented by an aerial leap from a tangible billowing cloud; no added lightning, magic fire, eye glow or neon aura.",
+          "claim_ids": [
+            "sun-wukong-c08",
+            "sun-wukong-c40"
+          ]
+        }
+      ],
+      "artistic_choices": [
+        "Variant C uses a full-body airborne leap with one hand raising the long staff and the other extended for balance; separated bent and extended legs preserve readable anatomy.",
+        "Dark blue-black sculptural clouds, natural rim light, wind-ruffled dusty fur, hostile bared-teeth expression and worn charcoal cloth create the requested fierce cinematic mood.",
+        "Plain opaque historical-style tunic, trousers and wraps are original artistic costume choices, not asserted source-specific costume facts.",
+        "Original pose, cloth costume, staff and composition were requested without game or movie references; visual inspection cannot prove absence of resemblance to all existing designs.",
+        "Rejected variants: none generated by worker wukong_c. Main agent chooses among the separate pilot variants.",
+        "Penerbangan awan dan tubuh penuh terbaca jelas, tetapi bidang awan/pegunungan mengurangi dominasi wajah; B lebih tepat untuk target potret sangar."
+      ]
+    }
+  ],
+  "image_tool_failures": [],
+  "workflow_notes": [
+    "Model-specific availability gate overridden by explicit owner authorization to use built-in image_gen.",
+    "prepare-artwork-presentation --revision nama-besar --slugs sun-wukong refused to change existing selection. Main agent added only the Sun Wukong snapshot, screening and item, preserving all existing revision work.",
+    "Original batch-1080 PNG absent on this PC. Old WebP copied byte-for-byte; historical original hash retained without claiming local availability.",
+    "Agent A had a local copy-command failure because python executable absent; reran successfully with python3. No image generation failed."
+  ],
+  "validation": {
+    "pilot_receipt_contract": "pass",
+    "native_pngs": "three square images, byte hashes verified",
+    "backup_webp": "pass",
+    "protected_file_hashes": "unchanged since pilot preparation",
+    "revision_contract_tests": "pass",
+    "full_named_revision_audit": "blocked by pre-existing missing Lucifer PNG",
+    "full_revision_1000_audit": "blocked by pre-existing missing historical generated PNG",
+    "legacy_revision_1000_test": "blocked by pre-existing missing Heqet PNG",
+    "gallery_browser": [
+      {
+        "width": 1280,
+        "overflow": false,
+        "images": [
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          }
+        ],
+        "selected": "B · Potret garang — dipilih"
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "images": [
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          },
+          {
+            "loaded": true,
+            "width": 1254,
+            "height": 1254,
+            "alt": true
+          }
+        ],
+        "selected": "B · Potret garang — dipilih"
+      }
+    ]
+  },
+  "approval_boundary": {
+    "source": "docs/PROMPT-CODEX-GAMBAR-SUBAGEN.md",
+    "instruction": "Setelah pilot selesai, berhenti dan laporkan sebelum lanjut ke makhluk lain."
+  },
+  "generated_at": "2026-10-07T09:10:51.727Z",
+  "owner_continuation_authorized": true,
+  "continuation_report": "data/artwork-nama-besar-16-review.json",
+  "continuation_creatures_generated": 15
+}

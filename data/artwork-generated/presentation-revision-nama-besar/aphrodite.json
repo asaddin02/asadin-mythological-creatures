@@ -1,0 +1,121 @@
+{
+  "slug": "aphrodite",
+  "canonical_name": "Aphrodite",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_3",
+  "subagent_model": "gpt-6.1-sol",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "prompt": "Use case: precise-object-edit. Edit this original square Aphrodite illustration with ONE targeted iconography correction. Keep the same majestic woman, face, pose, exactly two arms and legs, dove, myrtle wreath, scallop shell, sea foam, Cypriot shore, light, rich painterly style and fully opaque modest garments. The elaborately embroidered power girdle MUST visibly CROSS HER CLOTHED UPPER CHEST, not be only a waist belt. Add/relocate a broad physical woven embroidered gold-and-rose band diagonally across the upper ivory-covered chest, from her left shoulder toward right ribs, with clearly rendered fabric embroidery. Keep chest completely covered; band is cloth, no magical glow or energy beams. Remove the separate broad embroidered waist corset/belt to avoid confusion; keep the robe flowing naturally. No exposed cleavage, nudity or transparency, no extra limbs, no text/logo/watermark/border. All other composition details unchanged, native square 1024 or larger.",
+  "depicted_variant": "Foam-born Aphrodite approaching Cyprus, clothed in the Archaic/Classical manner with embroidered girdle and sacred dove",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "basis_claim_ids": [
+    "aphrodite-c05",
+    "aphrodite-c25",
+    "aphrodite-c34",
+    "aphrodite-c37",
+    "aphrodite-c48",
+    "aphrodite-c49",
+    "aphrodite-c50"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One beautiful adult woman in opaque garments and elaborately embroidered chest band/girdle; sacred dove and myrtle wreath identify her.",
+      "claim_ids": [
+        "aphrodite-c05",
+        "aphrodite-c25",
+        "aphrodite-c48",
+        "aphrodite-c49"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sea foam recalls the documented foam-born emergence; embroidered band represents love power without invented beams.",
+      "claim_ids": [
+        "aphrodite-c34",
+        "aphrodite-c48",
+        "aphrodite-c50"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sea-shore approach to Cyprus; scallop-shell attribute.",
+      "claim_ids": [
+        "aphrodite-c05",
+        "aphrodite-c34"
+      ]
+    }
+  ],
+  "aura": "Majestic foam-born beauty and embroidered love-girdle, expressed through composition rather than unsupported magical energy.",
+  "artistic_choices": [
+    "Distinct from Roman Venus: Greek sea-foam emergence, dove, shell and myrtle; clothed Archaic/Classical iconography chosen over later nude sculpture.",
+    "Golden dawn, dress palette, size of shore-shell and low-angle scale are editorial staging. Foaming waves are an origin setting, not a claim that Aphrodite controls ocean storms.",
+    "No heart-shaped magic, laser charms or glowing eyes; source-supported love power is signalled through the girdle.",
+    "Initial waist-level embroidered girdle rejected; targeted edit places the physical band across the clothed chest. Original generation and edit prompts preserved in prompt_history."
+  ],
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/aphrodite-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-883deb7b-6458-4225-a42b-627aa8249d56.png",
+  "native_sha256": "6260087c76310e806512a4ffebe64dc69886b322de8f511f0e65ef1d8abca252",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:28:34.437878+00:00",
+  "review_path": "data/gemini/reviews/batch-025.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "6260087c76310e806512a4ffebe64dc69886b322de8f511f0e65ef1d8abca252",
+    "reviewed_at": "2026-10-07T09:30:00.646Z",
+    "notes": "Main agent viewed corrected native PNG directly: one fully clothed Aphrodite with two arms/hands and two visible feet, a white dove on one hand, leafy flowering wreath, scallop shell and foamy shore. Broad embroidered physical band now crosses her chest diagonally, matching c48; the foam recalls foam-born emergence c34/c50, without implying ocean-control or invented love beams. Low viewpoint and natural warm sky support majestic presence. No visible text, watermark, extra humanoids, nudity or gore. Wreath species and shoreline architecture remain illustrative, not botanical or archaeological verification.",
+    "generator_notes": "Corrected native inspected: one clothed adult goddess, two arms/hands and two visible feet, normal eyes. Fully opaque ivory robe and copper mantle cover chest/torso/legs. Broad embroidered physical band now diagonally crosses the clothed chest, matching c48, with no energy glow. One white dove perched on hand, leafy flowering myrtle-like wreath and scallop shell near feet, Cyprus-like shore and substantial natural sea foam. Low camera gives mythic presence; waves depict foam-born origin rather than literal ocean-control power. No Eros or additional humanoids, no text, watermark, nudity or gore. Wreath species and invented shore architecture are editorial illustrations, not botanical/archaeological proof. One visual retry preserved for original incorrect band position."
+  },
+  "generation_failures": [
+    {
+      "attempt": 1,
+      "type": "visual-rejection",
+      "native_sha256": "fa7f39dd84405c05d14aa979f40085dbf709a6878db777d0405a8abd51e62088",
+      "rejected_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/rejected/aphrodite-nama-besar-16-attempt-1.png",
+      "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/rejected/aphrodite-nama-besar-16-attempt-1.json",
+      "reason": "Girdle placed at waist rather than across clothed chest; targeted iconography correction."
+    }
+  ],
+  "prompt_history": [
+    {
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Make ONE original square premium painterly naturalistic monumental Mythics illustration, 1024x1024 or larger. Subject: APHRODITE, Greek foam-born goddess arriving at the shore of Cyprus. ONE majestic beautiful ADULT WOMAN, ONE head, TWO ordinary eyes, TWO arms, TWO legs, natural nonsexual anatomy and dignified serene smile. She stands upright at the edge of luminous SEA FOAM on a broad beach rock, full body including feet inside frame. Wear a FULLY OPAQUE floor-length Greek robe securely covering shoulders, chest, torso, waist and legs; heavy ivory-gold fabric with broad flowing rose-copper mantle, no transparency, no wet-cloth body outline, no exposed cleavage. Across her clothed chest put an elaborate wide EMBROIDERED BAND/GIRDLE, her documented love-power attribute, physically woven gold and coloured thread, not a beam or floating energy. Wear a MYRTLE WREATH. She gracefully holds ONE natural white DOVE beside her shoulder in one hand; other hand gently holds the edge of her mantle, five fingers per hand. A readable SCALLOP SHELL rests on the rock near her feet as an identifying attribute; no giant floating shell vehicle. Sweep the white sea foam around the lower rock; deep turquoise sea and small Cypriot shore cliffs establish mythic origin and scale. Low camera perspective and grand warm dawn light make her commanding and divine rather than an ordinary glamorous portrait. Original luminous but natural painterly light, rich cloth/water textures, powerful composed silhouette. No Venus evening-star symbolism, no Roman temples, no other humanoid gods or cherubs, no storm-control beams, no hearts, no eye glow or magical smoke, no nude forms or see-through fabric, no modern movie/game/anime/comic design, no text/lettering/logos/watermark/border, no gore.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-b869521a-338c-4b4d-9a14-161793c437ee.png",
+      "verdict": "rejected"
+    },
+    {
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Edit this original square Aphrodite illustration with ONE targeted iconography correction. Keep the same majestic woman, face, pose, exactly two arms and legs, dove, myrtle wreath, scallop shell, sea foam, Cypriot shore, light, rich painterly style and fully opaque modest garments. The elaborately embroidered power girdle MUST visibly CROSS HER CLOTHED UPPER CHEST, not be only a waist belt. Add/relocate a broad physical woven embroidered gold-and-rose band diagonally across the upper ivory-covered chest, from her left shoulder toward right ribs, with clearly rendered fabric embroidery. Keep chest completely covered; band is cloth, no magical glow or energy beams. Remove the separate broad embroidered waist corset/belt to avoid confusion; keep the robe flowing naturally. No exposed cleavage, nudity or transparency, no extra limbs, no text/logo/watermark/border. All other composition details unchanged, native square 1024 or larger.",
+      "referenced_image_paths": [
+        "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-b869521a-338c-4b4d-9a14-161793c437ee.png"
+      ],
+      "verdict": "pass"
+    }
+  ],
+  "revision": "nama-besar",
+  "old_url": "/assets/art/aphrodite-verified.webp",
+  "old_webp_sha256": "d5b11d4baef5388cb39ced2fff61a9fff821e03982d949626e3a7dc863d48766",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/aphrodite-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "246879deb6e5734d33ea7d4c98d6782a0f3e9a18e1a6a5d5d29b364a716761f6",
+  "original_available_at_start": false,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "6260087c76310e806512a4ffebe64dc69886b322de8f511f0e65ef1d8abca252",
+    "inspected_at": "2026-10-07T09:30:00.646Z",
+    "notes": "Main agent viewed corrected native PNG directly: one fully clothed Aphrodite with two arms/hands and two visible feet, a white dove on one hand, leafy flowering wreath, scallop shell and foamy shore. Broad embroidered physical band now crosses her chest diagonally, matching c48; the foam recalls foam-born emergence c34/c50, without implying ocean-control or invented love beams. Low viewpoint and natural warm sky support majestic presence. No visible text, watermark, extra humanoids, nudity or gore. Wreath species and shoreline architecture remain illustrative, not botanical or archaeological verification."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "6260087c76310e806512a4ffebe64dc69886b322de8f511f0e65ef1d8abca252",
+    "notes": "Fully clothed foam-born Aphrodite on the Cyprus shore with dove and scallop shell; dignified, modest, matches claims."
+  }
+}

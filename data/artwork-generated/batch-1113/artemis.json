@@ -1,0 +1,86 @@
+{
+  "slug": "artemis",
+  "canonical_name": "Artemis",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_2",
+  "subagent_model": "gpt-6.1-sol",
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Use case: stylized-concept. ONE original square premium painterly naturalistic mythological illustration of ARTEMIS, the majestic Greek maiden huntress, ONLY her familiar unwinged young adult woman variant. Low camera from a rocky ledge below her, a monumental living divine huntress dominates the square from boots to head, not an ordinary portrait. Exactly ONE head, TWO eyes, TWO arms and TWO legs. Calm intense sovereign focus, natural dark hair tied for hunting. Fully opaque cream and forest-green ancient Greek tunic covers entire chest, shoulders, waist and thighs to knees, wind-swept opaque cloak, modest functional classical sandals or boots. No cleavage, no transparent fabric, no modern armor or fantasy game clothing. She draws a beautiful GOLDEN HUNTING BOW with a SINGLE mundane feathered ARROW aimed diagonally toward the open distant sky: one hand grips bow, other pulls bowstring with arrow nock, readable hands, taut physical string with coherent geometry, proper natural arrow in alignment. QUIVER with a few distinct arrows at shoulder. One smaller natural deer standing peacefully beside her near foreground ledge, with four slender legs and natural anatomy, no other people/creatures. Vast forested SHADOWY HILLS and WINDY mountain peaks below and behind, tiny trees and far ridges reinforce immense mythic scale. Broken natural dawn sunlight streams across mountains and glints on golden bow and face, illuminating dignified goddess; entirely natural light, no emitted magic, no moon, no crescent crown, no glowing arrow, no energy trails. Strong silhouette, detailed skin, cloth, bow and rich brushed rock texture, premium high-contrast painted realism. Documented bow hunting action and mastery of wild animals guide iconography. ONE original illustration, no recognizable modern movie/game/anime/comic design or copied historical painting. No wings, third eye, extra heads/arms, extra arrow hands, nude skin beyond face/arms/lower legs, gore, victims, text, inscriptions, logos, watermark, border or frame. ONE square image at least 1024 by 1024.",
+  "depicted_variant": "Unwinged classical maiden huntress Artemis drawing her golden bow above shadowy forested hills and windy peaks, with quiver and deer.",
+  "basis_claim_ids": [
+    "artemis-c03",
+    "artemis-c05",
+    "artemis-c17",
+    "artemis-c18",
+    "artemis-c21",
+    "artemis-c26",
+    "artemis-c37"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Familiar young adult maiden huntress with bow and quiver, one head/two arms/two legs, excluding early winged and Ephesian variants.",
+      "claim_ids": [
+        "artemis-c05",
+        "artemis-c17",
+        "artemis-c26"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Golden bow physically drawn for the hunt, not a magical arrow beam; documented extraordinary huntress and mistress of wild animals.",
+      "claim_ids": [
+        "artemis-c21",
+        "artemis-c37"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forests, shadowy hills and windy mountain peaks; one natural deer as sacred animal.",
+      "claim_ids": [
+        "artemis-c03",
+        "artemis-c18",
+        "artemis-c21"
+      ]
+    }
+  ],
+  "aura": "No emitted supernatural aura. Natural dawn light and wind express grandeur; moon effects excluded because accepted claims do not establish them.",
+  "artistic_choices": [
+    "Cream/green opaque tunic, boots, calm powerful pose, mountain scale and dawn lighting are original artistic decisions. Light is ordinary scene illumination, not assertion of a new magical ability. Natural deer is an attribute/mistress-of-animals context, not the transformed Actaion. Drawn golden bow follows c21; choose familiar unwinged huntress rather than merge distinct early winged or Ephesian iconography."
+  ],
+  "generation_failures": [],
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1113/originals/artemis-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-0159-7122-b95b-9580c8f816b4/exec-94528fa9-8590-4040-8765-06cb05d8abb2.png",
+  "native_sha256": "5d7d187a4e162f33805c168e36da9ec0ed84a059b8a6e9c2d1d78f2529cdeb81",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:31:05.039Z",
+  "review_path": "data/gemini/reviews/batch-027.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5d7d187a4e162f33805c168e36da9ec0ed84a059b8a6e9c2d1d78f2529cdeb81",
+    "reviewed_at": "2026-10-07T09:33:26.077Z",
+    "notes": "Main agent viewed native PNG directly: one unwinged maiden Artemis, two distinct arms and two legs/feet, modest opaque cream tunic and green windblown cloak. She physically draws a gold bow with one feathered arrow; quiver visible, natural deer beside her, and immense forest/mountain landscape below. Hunting action and windy peaks follow c21/c37, with no invented lunar magic or emitted energy. No visible text, watermark, victims, gore or extra limbs. Upper bow tip cropped; deer rear legs overlap and cannot all be counted independently.",
+    "generator_notes": "Native individually viewed: one young adult female head, two visible eyes, two coherent arms, two legs/feet. Opaque cream tunic covers chest/waist/upper legs; green windblown cloak. Golden bow drawn with one physical feathered arrow and coherent taut string, quiver over shoulder. One natural deer with four slender legs, distant forested peaks and natural sun illumination. No wings, lunar symbol/effect, magic arrow glow, victims, gore, text, watermark, frame or nudity. Upper bow tip lies slightly outside top crop, and overlapping deer rear legs limit complete independent limb separation; neither suggests an added limb."
+  },
+  "batch": 1113,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "5d7d187a4e162f33805c168e36da9ec0ed84a059b8a6e9c2d1d78f2529cdeb81",
+    "inspected_at": "2026-10-07T09:33:26.077Z",
+    "notes": "Main agent viewed native PNG directly: one unwinged maiden Artemis, two distinct arms and two legs/feet, modest opaque cream tunic and green windblown cloak. She physically draws a gold bow with one feathered arrow; quiver visible, natural deer beside her, and immense forest/mountain landscape below. Hunting action and windy peaks follow c21/c37, with no invented lunar magic or emitted energy. No visible text, watermark, victims, gore or extra limbs. Upper bow tip cropped; deer rear legs overlap and cannot all be counted independently."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "5d7d187a4e162f33805c168e36da9ec0ed84a059b8a6e9c2d1d78f2529cdeb81",
+    "notes": "Unwinged maiden huntress Artemis drawing a golden bow with a deer on forested hills; modest clothing, matches claims."
+  }
+}

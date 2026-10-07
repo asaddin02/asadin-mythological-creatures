@@ -1,46 +1,70 @@
 {
   "slug": "athena",
-  "prompt": "ONE square premium painterly naturalistic original Greek mythology illustration of ATHENA, living stately bright-eyed woman one head two arms two legs, opaque long classical robe, golden crested helmet, spear in one hand and polished bronze round shield in the other; snake-trimmed aegis cape with ornamental Gorgon face at chest (athena-c05,c26,c37,c40). Looming divine presence high above dark Aegean cliffs, low camera, confident commanding martial action. A furious sea STORM drives enormous waves against tiny distant Greek ships below, expressing her documented attack on Greek ships with storm (c25), dramatic ocean spray and slashing rain and cloud but no lightning wielded from spear or eyes. One owl rests on cliff near her feet (c02,c37). Authentic classical iconography, readable anatomy and attributes; original composition distinct from Louvre sculpture. Rich painterly texture, no film/game/anime design, nudity, gore, text, labels, logos, border or watermark.",
-  "depicted_variant": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+  "prompt": "Use case: stylized-concept. Create ONE original square premium naturalistic painterly Mythics illustration of ATHENA as a living Olympian goddess, majestic radiant wise defender with overwhelming divine scale. Low viewpoint from the foot of the Athenian Acropolis at a stormy coast; Athena fills the square, distant classical temple columns and sea-cliffs provide tiny scale references. One human head, exactly TWO arms and TWO legs, TWO bright but natural eyes. A stately woman wearing an ornate golden CRESTED HELMET, a fully opaque long ivory robe from high neck to feet, bronze armor over the covered torso, and an AEGIS cape with real snake-shaped edging and a non-gory sculpted GORGON FACE medallion. One hand grips a long plain spear; the other bears a broad round bronze shield. Both hands clearly connected to the two arms. A small natural owl perched beside a physical olive tree at the foot of the rock are her documented symbols. Visibly embody her documented power to send a sea STORM: enormous wind-driven dark clouds gather over the grey coastal sea, towering waves and rain sweep behind her; a calm opening in the clouds casts powerful golden natural light over her helmet, dignified face and armor. This is an original mythic tableau illustrating documented Athena storm ability, not a reconstruction of a specific battle. No lightning bolts, glowing weapons, laser eyes, magical fire, energy wings or invented effects. Her expression is brave, composed and protective, not monstrous. Rich cinematic contrast, tactile painterly bronze and woven cloth, strong original silhouette, monumental grandeur; fully clothed and respectful. No nudity, exposed chest, gore, severed heads, victims, text, writing, inscriptions, border, watermark or logos. No film/game/anime/comic designs.",
+  "depicted_variant": "Living Athena the stately armored defender above the Athenian Acropolis and coast, with a documented sea storm behind her.",
   "basis_claim_ids": [
-    "athena-c05",
-    "athena-c37",
     "athena-c02",
+    "athena-c03",
+    "athena-c05",
+    "athena-c09",
+    "athena-c25",
     "athena-c26",
-    "athena-c25"
+    "athena-c37",
+    "athena-c38",
+    "athena-c40"
   ],
   "visual_requirements": [
     {
-      "description": "Stately woman in long robe and crested helmet holding shield and spear",
+      "kind": "anatomy",
+      "description": "Stately human woman, one head, two arms/two legs and two eyes; long opaque robe, crested helm, shield and spear.",
       "claim_ids": [
         "athena-c05",
+        "athena-c37",
+        "athena-c40"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Snake-trimmed aegis with sculptural non-gory Gorgon face ornament.",
+      "claim_ids": [
+        "athena-c26",
+        "athena-c38"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Acropolis temple, olive tree and natural owl, her documented setting and symbols.",
+      "claim_ids": [
+        "athena-c02",
+        "athena-c03",
+        "athena-c09",
         "athena-c37"
       ]
     },
     {
-      "description": "Snake-trimmed Gorgon aegis and owl",
-      "claim_ids": [
-        "athena-c02",
-        "athena-c26"
-      ]
-    },
-    {
-      "description": "Storm against Greek ships",
+      "kind": "effect",
+      "description": "Wind-driven rain clouds and rough sea illustrate her documented sea-storm action.",
       "claim_ids": [
         "athena-c25"
       ]
     }
   ],
-  "aura": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+  "aura": "Claim-grounded sea storm (athena-c25) with dark clouds, rain and rough coastal waves. Golden shafts of sunlight are ordinary cinematic lighting, not magical lightning or power beams.",
   "artistic_choices": [
     "Robe palette, wave scale, lighting and low viewpoint are editorial staging; storm specifically illustrates c25."
   ],
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Native individually inspected: coherent helmeted woman in opaque long robe with spear and round shield, snake-trimmed Gorgon aegis and owl. Strong monumental presence above Greek ships in rough storm sea; no generic energy, text or watermark.",
-    "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
-    "reviewed_at": "2026-10-07T00:13:10.036519+00:00"
+    "notes": "Main agent viewed native PNG directly: a stately Athena with one head and crested helmet, spear in one arm and coherent shield-bearing side; shield hand and lower legs hidden behind shield/opaque long robes. Snake-trimmed aegis and non-gory Gorgon face relief, natural owl, olive tree and Acropolis architecture are visible. Dark rain clouds and rough sea illustrate storm action c25, with no lightning. Strong majestic low-angle presence, no visible text, watermark or extra limbs. Athens setting and Trojan sea-storm power form an explicitly artistic iconographic tableau rather than a reconstructed single event.",
+    "limitations": [
+      "Shield hand is obscured behind shield, and lower legs mostly concealed by robe; no extra-limb artifacts seen.",
+      "Athens and storm action are an editorial combination, not one source-described event.",
+      "Storm is background rain/waves; no unsupported lightning added."
+    ],
+    "native_sha256": "619e20e1454069102d9d6961cc5a95bccadf2b98435338da1a7c7d62c57e9459",
+    "reviewed_at": "2026-10-07T09:29:23.167Z",
+    "generator_notes": "Personally inspected native PNG: one human head, two natural eyes, spear arm visible and shield-bearing side coherent, no extra arms; two legs contained by long opaque robe. Crested helm, snake-edge aegis and Gorgon face relief, owl and olive, Acropolis, huge rain clouds and rough coast all readable. Strong monumental radiant goddess; no visible text, watermark, gore or nudity."
   },
   "reference": {
     "reference_file": "tmp/commons-43/athena-reference.jpg",
@@ -49,16 +73,115 @@
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "original_file": "data/artwork-generated/batch-1080/originals/athena-commons-43.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-20d070c5-b2f5-43f9-b75e-16b8bb0d1941.png",
-  "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/athena-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a7-a977-75e0-897f-5ca01c93bdb1/exec-52ab748e-d759-4796-9bb8-a2e48853d238.png",
+  "native_sha256": "619e20e1454069102d9d6961cc5a95bccadf2b98435338da1a7c7d62c57e9459",
   "generated_at": "2026-10-07T00:13:10.036519+00:00",
   "review_path": "data/gemini/reviews/batch-025.review.json",
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-07T09:30:00+07:00",
-    "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
-    "notes": "Helmeted goddess with spear, Gorgon aigis, shield and owl, raising the storm against the Greek ships."
-  }
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "619e20e1454069102d9d6961cc5a95bccadf2b98435338da1a7c7d62c57e9459",
+    "notes": "Armoured Athena with crested helmet, spear, shield and gorgoneion aegis, owl and olive tree above the Acropolis; stately and source-grounded."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "athena",
+      "prompt": "ONE square premium painterly naturalistic original Greek mythology illustration of ATHENA, living stately bright-eyed woman one head two arms two legs, opaque long classical robe, golden crested helmet, spear in one hand and polished bronze round shield in the other; snake-trimmed aegis cape with ornamental Gorgon face at chest (athena-c05,c26,c37,c40). Looming divine presence high above dark Aegean cliffs, low camera, confident commanding martial action. A furious sea STORM drives enormous waves against tiny distant Greek ships below, expressing her documented attack on Greek ships with storm (c25), dramatic ocean spray and slashing rain and cloud but no lightning wielded from spear or eyes. One owl rests on cliff near her feet (c02,c37). Authentic classical iconography, readable anatomy and attributes; original composition distinct from Louvre sculpture. Rich painterly texture, no film/game/anime design, nudity, gore, text, labels, logos, border or watermark.",
+      "depicted_variant": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+      "basis_claim_ids": [
+        "athena-c05",
+        "athena-c37",
+        "athena-c02",
+        "athena-c26",
+        "athena-c25"
+      ],
+      "visual_requirements": [
+        {
+          "description": "Stately woman in long robe and crested helmet holding shield and spear",
+          "claim_ids": [
+            "athena-c05",
+            "athena-c37"
+          ]
+        },
+        {
+          "description": "Snake-trimmed Gorgon aegis and owl",
+          "claim_ids": [
+            "athena-c02",
+            "athena-c26"
+          ]
+        },
+        {
+          "description": "Storm against Greek ships",
+          "claim_ids": [
+            "athena-c25"
+          ]
+        }
+      ],
+      "aura": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+      "artistic_choices": [
+        "Robe palette, wave scale, lighting and low viewpoint are editorial staging; storm specifically illustrates c25."
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native individually inspected: coherent helmeted woman in opaque long robe with spear and round shield, snake-trimmed Gorgon aegis and owl. Strong monumental presence above Greek ships in rough storm sea; no generic energy, text or watermark.",
+        "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+        "reviewed_at": "2026-10-07T00:13:10.036519+00:00"
+      },
+      "reference": {
+        "reference_file": "tmp/commons-43/athena-reference.jpg",
+        "notes": "Commons source image individually inspected; attributes followed, composition original."
+      },
+      "worker": "codex",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "original_file": "data/artwork-generated/batch-1080/originals/athena-commons-43.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-20d070c5-b2f5-43f9-b75e-16b8bb0d1941.png",
+      "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+      "generated_at": "2026-10-07T00:13:10.036519+00:00",
+      "review_path": "data/gemini/reviews/batch-025.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-07T09:30:00+07:00",
+        "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+        "notes": "Helmeted goddess with spear, Gorgon aigis, shield and owl, raising the storm against the Greek ships."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/athena.json",
+    "native_sha256": "619e20e1454069102d9d6961cc5a95bccadf2b98435338da1a7c7d62c57e9459",
+    "old_url": "/assets/art/athena-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/athena-commons-43.png",
+    "old_webp_sha256": "8bcd16823cfcdd84609ac89b7a2b373ad4d5afb91fa6faa5e1b4e36d081ab3d5",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "athena-c02",
+      "athena-c03",
+      "athena-c05",
+      "athena-c09",
+      "athena-c25",
+      "athena-c26",
+      "athena-c37",
+      "athena-c38",
+      "athena-c40"
+    ]
+  },
+  "url": "/assets/art/athena-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "9bfcf3b2104a12a5c6ca967630260532a5d093cba6dfa0ac7f5780da52ee6fa3",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Selected stately long-robed shield-and-spear Athena iconography; not Medusa-transformation, birth, or modern statue variant.",
+    "Original mythic tableau combines accepted Athenian setting/symbols with documented storm ability; not a literal depiction of the Trojan-ship episode.",
+    "Low view, monumental scale, exact armor decoration and warm light opening are artistic interpretation.",
+    "Gorgon face is a sculpted medallion, avoiding gore or severed flesh.",
+    "No modern_depictions used."
+  ]
 }

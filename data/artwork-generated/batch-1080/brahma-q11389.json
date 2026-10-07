@@ -1,8 +1,9 @@
 {
   "slug": "brahma-q11389",
-  "prompt": "ONE square premium painterly naturalistic epic respectful Hindu BRAHMA illustration. Anatomy priority: exactly FOUR DISTINCT SEPARATE GOLDEN BEARDED HEADS with FOUR clearly countable crowns on one torso, heads facing four cardinal directions (brahma-q11389-c03,c19,c20). Use an ELEVATED OBLIQUE THREE-QUARTER CAMERA looking down slightly at his heads so the front head, two side profile heads, and fourth head FACING AWAY at the back are all separately visible, fourth rear crown and rear skull clearly separated by background from other three. Not only three crowns; not five; not four unrelated people. Exactly FOUR ARMS, hands hold palm-leaf manuscript, beads, water vessel and an open creation gesture, NO weapons (c19). Two folded legs, fine opaque traditional robes; seated on large living lotus above endless primordial waters (c03). Vast golden cosmic egg splits into two curved halves behind him, brilliant gold light and emerging EARTH and HEAVEN horizons dramatize cosmogony c42,c43; no unrelated galaxy planets or laser attack. Figure fills frame majestically despite slightly elevated viewpoint. Fully readable countable anatomy, rich painted textures, no nudity, gore, modern movie/game/anime/comic designs, text, logo, border or watermark.",
-  "depicted_variant": "Four-headed and four-armed golden Brahma on a lotus amid split cosmic egg.",
+  "prompt": "Edit the provided Brahma illustration. Keep EXACTLY the existing FOUR separated heads including the rear-facing head, FOUR arms and hands, single golden body, lotus seat, manuscript, open gestures, ocean, golden egg shell halves, square composition and premium painterly realism unchanged. Correct only two fidelity details: (1) cover the ENTIRE bare chest, torso and abdomen with a fully opaque elegant saffron-gold traditional tunic under the existing draped shawl and necklaces, fabric from collarbone to waist; NO bare torso or translucent fabric. (2) remove the galaxy spirals, celestial planets and small space orbs from the upper background, replacing them with natural softly radiant HEAVEN sky and tiny clouds above the existing earthly mountain horizon, keeping the golden shell and sun-bright creation light. No additional objects, no extra head/arm/hand, no third eye, no text, watermark, logo, frame, nudity or gore. Anatomy and lotus already correct; preserve them strictly.",
+  "depicted_variant": "Golden four-headed, four-armed bearded Brahma on lotus, in the split cosmic golden egg cosmogony.",
   "basis_claim_ids": [
+    "brahma-q11389-c01",
     "brahma-q11389-c03",
     "brahma-q11389-c19",
     "brahma-q11389-c20",
@@ -11,30 +12,42 @@
   ],
   "visual_requirements": [
     {
-      "description": "Four cardinal heads and four arms, no weapons",
+      "kind": "anatomy",
+      "description": "Exactly four cardinal heads, four arms, golden bearded complexion; no weapons; symbols of knowledge and creation.",
       "claim_ids": [
         "brahma-q11389-c03",
-        "brahma-q11389-c19"
+        "brahma-q11389-c19",
+        "brahma-q11389-c20"
       ]
     },
     {
-      "description": "Golden egg split into earth and heaven over primeval waters",
+      "kind": "setting",
+      "description": "Lotus seat above primordial waters.",
+      "claim_ids": [
+        "brahma-q11389-c03",
+        "brahma-q11389-c42"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sun-bright golden egg divides into two halves forming heaven and earth with waters.",
       "claim_ids": [
         "brahma-q11389-c42",
         "brahma-q11389-c43"
       ]
     }
   ],
-  "aura": "Creation grandeur and radiant cosmic egg.",
+  "aura": "Sun-bright golden egg creation radiance grounded in c42/c43, not weapon energy.",
   "artistic_choices": [
     "Nonweapon manuscript, beads and water vessel interpret knowledge/creation symbols c19. Lotus and cosmic egg staged together as editorial composite of iconography and cosmogony."
   ],
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Four separate crowns/heads including rear-facing head visible; four arms with manuscript, beads, vessel, open palm. Cosmic split golden egg and lotus.",
-    "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
-    "reviewed_at": "2026-10-07T00:27:17.614196+00:00"
+    "native_sha256": "177bdc1350fe349d0739abebc087e5a410c0cc58205ff9bffd4037a61b7d8d89",
+    "reviewed_at": "2026-10-07T09:29:23.157Z",
+    "notes": "Main agent viewed corrected native PNG directly: exactly four separate crowned heads, front and both side faces bearded with the rear head facing away; four coherent arms with three open palms and one blank closed manuscript, no weapons. Opaque gold tunic and cloth over folded legs; lotus seat above water, two large gold shell arcs framing heaven and earth. Egg-creation visualization supported by c42/c43 and body counts by c03/c19. No added galaxies or planets, text, watermark, gore or nudity. Rear face and folded leg details are occluded; manuscript interprets knowledge symbols, with no invented readable scripture.",
+    "generator_notes": "Native correction individually viewed: exactly four distinct crowned skulls, main forward bearded face plus two side profiles and one rear-facing head; exactly four visible arms/hands. Golden skin, closed blank palm-leaf manuscript and three open palms; no weapons. Fully opaque embroidered torso tunic and drapery cover folded legs. Large lotus above ocean, two curved golden shell halves, heaven sky and earthly mountain horizon readable; decorative planets/galaxy removed. Fourth head's eyes/face necessarily not visible because it faces away; legs and feet occluded in folded drapery. No text/watermark/frame/nudity/gore observed."
   },
   "generation_prompts": [
     "ONE square premium painterly naturalistic Mythics illustration of BRAHMA, respectful Hindu creator deity. One living bearded golden-skinned deity on a large LOTUS floating above primeval cosmic waters, exactly FOUR HEADS facing four cardinal directions and exactly FOUR ARMS (brahma-q11389-c03,c19,c20), two folded legs. Three faces front/left/right clearly visible and the fourth rear head visible as rear crown and back of head, natural perspectival arrangement, never four unrelated people. Four hands hold nonweapon symbols of knowledge/creation: palm-leaf manuscript, prayer beads, small water vessel and open generative palm; symbols editorial interpretation of c19, absolutely NO SWORD or weapons. Fine modest traditional opaque robes and crowns. Behind him a vast GOLDEN COSMIC EGG splits into two halves becoming earth and heaven above the waters, spectacular brilliant gold light from the egg and the emerging cosmic horizons (c42,c43), visual creation allegory not sci-fi attack. Divine figure dominates low-angle composition with readable four-head/arm anatomy, tiny distant horizon for scale, rich painterly surfaces. Not a statue, no arbitrary lasers/ribbons, movie/game/anime designs, nudity, gore, words, logos, border or watermark.",
@@ -50,16 +63,109 @@
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "original_file": "data/artwork-generated/batch-1080/originals/brahma-q11389-commons-43.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-d5f2451a-ec75-40c5-a51c-8a8f6cf0fcc6.png",
-  "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/brahma-q11389-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-0159-7122-b95b-9580c8f816b4/exec-eb8d6649-d203-4d32-87d3-50fe05fe80ad.png",
+  "native_sha256": "177bdc1350fe349d0739abebc087e5a410c0cc58205ff9bffd4037a61b7d8d89",
   "generated_at": "2026-10-07T00:27:17.614196+00:00",
   "review_path": "data/gemini/reviews/batch-025.review.json",
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-07T09:30:00+07:00",
-    "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
-    "notes": "Four heads and four arms holding scripture, beads and water pot, seated on a lotus over the cosmic waters; no weapons as documented."
-  }
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "177bdc1350fe349d0739abebc087e5a410c0cc58205ff9bffd4037a61b7d8d89",
+    "notes": "Four-headed, four-armed bearded Brahma on a lotus within the split golden cosmic egg, holding a book; iconography correct and respectful."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "brahma-q11389",
+      "prompt": "ONE square premium painterly naturalistic epic respectful Hindu BRAHMA illustration. Anatomy priority: exactly FOUR DISTINCT SEPARATE GOLDEN BEARDED HEADS with FOUR clearly countable crowns on one torso, heads facing four cardinal directions (brahma-q11389-c03,c19,c20). Use an ELEVATED OBLIQUE THREE-QUARTER CAMERA looking down slightly at his heads so the front head, two side profile heads, and fourth head FACING AWAY at the back are all separately visible, fourth rear crown and rear skull clearly separated by background from other three. Not only three crowns; not five; not four unrelated people. Exactly FOUR ARMS, hands hold palm-leaf manuscript, beads, water vessel and an open creation gesture, NO weapons (c19). Two folded legs, fine opaque traditional robes; seated on large living lotus above endless primordial waters (c03). Vast golden cosmic egg splits into two curved halves behind him, brilliant gold light and emerging EARTH and HEAVEN horizons dramatize cosmogony c42,c43; no unrelated galaxy planets or laser attack. Figure fills frame majestically despite slightly elevated viewpoint. Fully readable countable anatomy, rich painted textures, no nudity, gore, modern movie/game/anime/comic designs, text, logo, border or watermark.",
+      "depicted_variant": "Four-headed and four-armed golden Brahma on a lotus amid split cosmic egg.",
+      "basis_claim_ids": [
+        "brahma-q11389-c03",
+        "brahma-q11389-c19",
+        "brahma-q11389-c20",
+        "brahma-q11389-c42",
+        "brahma-q11389-c43"
+      ],
+      "visual_requirements": [
+        {
+          "description": "Four cardinal heads and four arms, no weapons",
+          "claim_ids": [
+            "brahma-q11389-c03",
+            "brahma-q11389-c19"
+          ]
+        },
+        {
+          "description": "Golden egg split into earth and heaven over primeval waters",
+          "claim_ids": [
+            "brahma-q11389-c42",
+            "brahma-q11389-c43"
+          ]
+        }
+      ],
+      "aura": "Creation grandeur and radiant cosmic egg.",
+      "artistic_choices": [
+        "Nonweapon manuscript, beads and water vessel interpret knowledge/creation symbols c19. Lotus and cosmic egg staged together as editorial composite of iconography and cosmogony."
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Four separate crowns/heads including rear-facing head visible; four arms with manuscript, beads, vessel, open palm. Cosmic split golden egg and lotus.",
+        "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
+        "reviewed_at": "2026-10-07T00:27:17.614196+00:00"
+      },
+      "generation_prompts": [
+        "ONE square premium painterly naturalistic Mythics illustration of BRAHMA, respectful Hindu creator deity. One living bearded golden-skinned deity on a large LOTUS floating above primeval cosmic waters, exactly FOUR HEADS facing four cardinal directions and exactly FOUR ARMS (brahma-q11389-c03,c19,c20), two folded legs. Three faces front/left/right clearly visible and the fourth rear head visible as rear crown and back of head, natural perspectival arrangement, never four unrelated people. Four hands hold nonweapon symbols of knowledge/creation: palm-leaf manuscript, prayer beads, small water vessel and open generative palm; symbols editorial interpretation of c19, absolutely NO SWORD or weapons. Fine modest traditional opaque robes and crowns. Behind him a vast GOLDEN COSMIC EGG splits into two halves becoming earth and heaven above the waters, spectacular brilliant gold light from the egg and the emerging cosmic horizons (c42,c43), visual creation allegory not sci-fi attack. Divine figure dominates low-angle composition with readable four-head/arm anatomy, tiny distant horizon for scale, rich painterly surfaces. Not a statue, no arbitrary lasers/ribbons, movie/game/anime designs, nudity, gore, words, logos, border or watermark.",
+        "ONE square premium painterly naturalistic epic respectful Hindu BRAHMA illustration. Anatomy priority: exactly FOUR DISTINCT SEPARATE GOLDEN BEARDED HEADS with FOUR clearly countable crowns on one torso, heads facing four cardinal directions (brahma-q11389-c03,c19,c20). Use an ELEVATED OBLIQUE THREE-QUARTER CAMERA looking down slightly at his heads so the front head, two side profile heads, and fourth head FACING AWAY at the back are all separately visible, fourth rear crown and rear skull clearly separated by background from other three. Not only three crowns; not five; not four unrelated people. Exactly FOUR ARMS, hands hold palm-leaf manuscript, beads, water vessel and an open creation gesture, NO weapons (c19). Two folded legs, fine opaque traditional robes; seated on large living lotus above endless primordial waters (c03). Vast golden cosmic egg splits into two curved halves behind him, brilliant gold light and emerging EARTH and HEAVEN horizons dramatize cosmogony c42,c43; no unrelated galaxy planets or laser attack. Figure fills frame majestically despite slightly elevated viewpoint. Fully readable countable anatomy, rich painted textures, no nudity, gore, modern movie/game/anime/comic designs, text, logo, border or watermark."
+      ],
+      "reference": {
+        "slug": "brahma-q11389",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Brahma,_dal_soffitto_del_tempio_di_huchchappaiyya_gudi,_aihole_(balgakot),_karnataka,_VII_secolo_(cropped).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Brahma%2C_dal_soffitto_del_tempio_di_huchchappaiyya_gudi%2C_aihole_%28balgakot%29%2C_karnataka%2C_VII_secolo_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reference_file": "tmp/commons-43/brahma-q11389-reference.jpg",
+        "notes": "Commons image individually inspected before generation; iconography considered, composition original."
+      },
+      "worker": "codex",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "original_file": "data/artwork-generated/batch-1080/originals/brahma-q11389-commons-43.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-d5f2451a-ec75-40c5-a51c-8a8f6cf0fcc6.png",
+      "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
+      "generated_at": "2026-10-07T00:27:17.614196+00:00",
+      "review_path": "data/gemini/reviews/batch-025.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-07T09:30:00+07:00",
+        "native_sha256": "e5ab561022b1cd5ecde1fd92034ce3827b03a1e094b246a76d658856e6d0c729",
+        "notes": "Four heads and four arms holding scripture, beads and water pot, seated on a lotus over the cosmic waters; no weapons as documented."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/brahma-q11389.json",
+    "native_sha256": "177bdc1350fe349d0739abebc087e5a410c0cc58205ff9bffd4037a61b7d8d89",
+    "old_url": "/assets/art/brahma-q11389-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/brahma-q11389-commons-43.png",
+    "old_webp_sha256": "a7f985106aa8f0bb75f4979f2e4c592af9e656a8fc7fc301cff9b931bcf80e6c",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "brahma-q11389-c01",
+      "brahma-q11389-c03",
+      "brahma-q11389-c19",
+      "brahma-q11389-c20",
+      "brahma-q11389-c42",
+      "brahma-q11389-c43"
+    ]
+  },
+  "url": "/assets/art/brahma-q11389-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "ee2079e6a430ca01e94773854adf3e01ca7b379235164ec85074a066670d11e0",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Blank palm-leaf manuscript and open hand gestures are visual interpretations of the general knowledge/creation symbols in c19, not claims that this research enumerates those exact props. Four crowns, opaque robes, low viewpoint and depth-separated rear head are artistic clarity choices. Cosmic light belongs to the golden egg, not an invented body attack. Chosen four-head form excludes the earlier five-head story and Tibetan sword variant."
+  ]
 }

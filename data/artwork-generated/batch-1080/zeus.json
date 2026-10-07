@@ -1,43 +1,53 @@
 {
   "slug": "zeus",
-  "prompt": "One square premium painterly naturalistic Greek mythology illustration ZEUS, regal mature living man with thick dark curled beard and hair (zeus-c02), exactly one head two arms two legs, classical opaque chiton and mantle. The KING OF HEAVEN dominates frame from an immense storm cloud above distant tiny Olympus mountains (c01,c09). Three-quarter low camera, furious powerful authority: one arm hurls a physical forked LIGHTNING BOLT like a javelin (c12,c18,c21), other hand grips royal sceptre, a single eagle beside him (c02,c21). Strong sky-wide white lightning, churning storm clouds and rain visibly express weather dominion c02,c09. True mythic presence, not ordinary man posing, coherent hands and readable face, rich naturalistic painted surfaces, no video game/film/anime designs, nudity, gore, text, labels, border or watermark.",
-  "depicted_variant": "Regal dark-bearded Zeus hurling lightning above Olympus, bearing sceptre with eagle.",
+  "prompt": "Use case: stylized-concept. Make ONE original square premium painterly naturalistic illustration of ZEUS, king of the Greek gods. Monumental full living figure dominates 80% of square, spectacular low camera looking up from tiny rugged Mount Olympus peaks into a vast tempest. Exactly one mature human head with thick DARK beard, two eyes, TWO arms and TWO legs. Regal commanding face. Fully opaque ivory Greek chiton covers chest and waist and legs, heavy deep indigo mantle with subtle gold trim. His right hand raises and grips a sharply branching white-gold THUNDERBOLT like a physical javelin, his left hand grips a tall royal sceptre; each hand clearly attached to its own arm. One natural eagle perched on a rock beside his feet, much smaller than Zeus, no other beings. Sky-wide branching lightning and immense turbulent storm clouds express his documented sky/weather domain, severe wind pulling drapery, powerful cool and gold reflected light. Tiny distant mountain ridge gives mythic scale, dynamic commanding pose and strong readable silhouette. Rich brushwork, skin and cloth realism, cinematic awe, no ordinary posed portrait. Respectful ancient Greek iconography, entirely original design. No magical body mutations, no extra limbs, no glowing eyes, no wings on Zeus, no flame, no modern movie/game/comic/anime design, no nudity, gore, text, inscriptions, logo, watermark or frame. Square at least 1024 by 1024.",
+  "depicted_variant": "Regal mature dark-bearded Zeus above Olympus, grasping lightning javelin and royal sceptre with eagle.",
   "basis_claim_ids": [
     "zeus-c01",
     "zeus-c02",
     "zeus-c09",
     "zeus-c12",
-    "zeus-c18",
     "zeus-c21"
   ],
   "visual_requirements": [
     {
-      "description": "Regal mature dark-bearded man with lightning javelin, sceptre and eagle.",
+      "kind": "anatomy",
+      "description": "Regal mature dark-bearded man with one head, two arms, two legs; lightning held like javelin, royal sceptre and eagle.",
       "claim_ids": [
         "zeus-c02",
         "zeus-c21"
       ]
     },
     {
-      "description": "Sky and weather dominion manifests as lightning and storm above Olympus.",
+      "kind": "effect",
+      "description": "Strong lightning and monumental storm clouds express sky and weather dominion.",
       "claim_ids": [
-        "zeus-c01",
+        "zeus-c02",
         "zeus-c09",
         "zeus-c12",
-        "zeus-c18"
+        "zeus-c21"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Olympus mountain scale beneath the king of gods.",
+      "claim_ids": [
+        "zeus-c01",
+        "zeus-c09"
       ]
     }
   ],
-  "aura": "Monumental king of heaven with documented lightning and storm.",
+  "aura": "Claim-grounded sky-wide lightning and storm; no invented body glow.",
   "artistic_choices": [
     "Chiton and mantle palette, turbulent cloud staging and gigantic presentation are editorial nama-besar composition; lightning and weather come directly from cited claims."
   ],
   "visual_review": {
     "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Native individually inspected: mature dark-bearded regal Zeus, two coherent arms grasp lightning and sceptre, one eagle, Olympus distant below; lightning/weather overwhelming but face and attributes clear. No text or watermark.",
-    "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
-    "reviewed_at": "2026-10-07T00:11:06.247247+00:00"
+    "native_sha256": "bd4058a7ed02e034a1e3ea947ef92daa677533a619b26242988811d334c0f6dc",
+    "reviewed_at": "2026-10-07T09:22:22.724Z",
+    "notes": "Main agent viewed native PNG directly: one mature dark-bearded Zeus, two distinct arms holding lightning and a royal sceptre, two sandal-clad feet, one living eagle on rocks. Strong lightning crosses storm clouds, Olympus mountain landscape and low viewpoint give monumental presence. Torso and pelvis covered by opaque robes; no text, watermark, gore, extra limbs or magical anatomy. Decorative sceptre finial is an object ornament. c02/c09/c12/c21 support attributes and weather effects.",
+    "generator_notes": "Native individually viewed: one mature dark-bearded head, two coherent arms holding lightning and sceptre, two legs/feet beneath opaque drapery, one eagle on rocks. Strong storm lightning, tiny mountain range and low viewpoint give monumental scale. No text/watermark/frame, gore or nudity seen. Sceptre finial decorative, not a separately living being. Detailed anatomy beneath opaque robe cannot be inspected."
   },
   "reference": {
     "reference_file": "tmp/commons-43/zeus-reference.jpg",
@@ -46,16 +56,104 @@
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "original_file": "data/artwork-generated/batch-1080/originals/zeus-commons-43.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-179b5274-c9ed-4b15-a88f-0df752ebc565.png",
-  "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/zeus-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-0159-7122-b95b-9580c8f816b4/exec-f76e5be1-8fb9-428c-985c-d6bd78cb2c83.png",
+  "native_sha256": "bd4058a7ed02e034a1e3ea947ef92daa677533a619b26242988811d334c0f6dc",
   "generated_at": "2026-10-07T00:11:06.247247+00:00",
   "review_path": "data/gemini/reviews/batch-024.review.json",
   "root_visual_review": {
     "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-07T09:30:00+07:00",
-    "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
-    "notes": "King of the gods hurling lightning amid storm clouds with sceptre and eagle above Olympos."
-  }
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "bd4058a7ed02e034a1e3ea947ef92daa677533a619b26242988811d334c0f6dc",
+    "notes": "Regal bearded Zeus on Olympus brandishing lightning under storm clouds, with sceptre and eagle; one head, two arms, majestic and source-grounded."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "zeus",
+      "prompt": "One square premium painterly naturalistic Greek mythology illustration ZEUS, regal mature living man with thick dark curled beard and hair (zeus-c02), exactly one head two arms two legs, classical opaque chiton and mantle. The KING OF HEAVEN dominates frame from an immense storm cloud above distant tiny Olympus mountains (c01,c09). Three-quarter low camera, furious powerful authority: one arm hurls a physical forked LIGHTNING BOLT like a javelin (c12,c18,c21), other hand grips royal sceptre, a single eagle beside him (c02,c21). Strong sky-wide white lightning, churning storm clouds and rain visibly express weather dominion c02,c09. True mythic presence, not ordinary man posing, coherent hands and readable face, rich naturalistic painted surfaces, no video game/film/anime designs, nudity, gore, text, labels, border or watermark.",
+      "depicted_variant": "Regal dark-bearded Zeus hurling lightning above Olympus, bearing sceptre with eagle.",
+      "basis_claim_ids": [
+        "zeus-c01",
+        "zeus-c02",
+        "zeus-c09",
+        "zeus-c12",
+        "zeus-c18",
+        "zeus-c21"
+      ],
+      "visual_requirements": [
+        {
+          "description": "Regal mature dark-bearded man with lightning javelin, sceptre and eagle.",
+          "claim_ids": [
+            "zeus-c02",
+            "zeus-c21"
+          ]
+        },
+        {
+          "description": "Sky and weather dominion manifests as lightning and storm above Olympus.",
+          "claim_ids": [
+            "zeus-c01",
+            "zeus-c09",
+            "zeus-c12",
+            "zeus-c18"
+          ]
+        }
+      ],
+      "aura": "Monumental king of heaven with documented lightning and storm.",
+      "artistic_choices": [
+        "Chiton and mantle palette, turbulent cloud staging and gigantic presentation are editorial nama-besar composition; lightning and weather come directly from cited claims."
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native individually inspected: mature dark-bearded regal Zeus, two coherent arms grasp lightning and sceptre, one eagle, Olympus distant below; lightning/weather overwhelming but face and attributes clear. No text or watermark.",
+        "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
+        "reviewed_at": "2026-10-07T00:11:06.247247+00:00"
+      },
+      "reference": {
+        "reference_file": "tmp/commons-43/zeus-reference.jpg",
+        "notes": "Inspected Otricoli bust for mature curled hair and beard; action and clouds are original."
+      },
+      "worker": "codex",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "original_file": "data/artwork-generated/batch-1080/originals/zeus-commons-43.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-179b5274-c9ed-4b15-a88f-0df752ebc565.png",
+      "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
+      "generated_at": "2026-10-07T00:11:06.247247+00:00",
+      "review_path": "data/gemini/reviews/batch-024.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-07T09:30:00+07:00",
+        "native_sha256": "9f8169c132d9d5cada59d75e5490f6570c6dc1a0aa971013578f1370d0255a9d",
+        "notes": "King of the gods hurling lightning amid storm clouds with sceptre and eagle above Olympos."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/zeus.json",
+    "native_sha256": "bd4058a7ed02e034a1e3ea947ef92daa677533a619b26242988811d334c0f6dc",
+    "old_url": "/assets/art/zeus-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/zeus-commons-43.png",
+    "old_webp_sha256": "3a04f2030b9da79429aa60151e413742fcead6afdaed5c8a0dcd27a628c1b52b",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "zeus-c01",
+      "zeus-c02",
+      "zeus-c09",
+      "zeus-c12",
+      "zeus-c21"
+    ]
+  },
+  "url": "/assets/art/zeus-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "4ba1de2e15a66700b758569cb112c6082a231dada2f279943b01a6c8d9158ad2",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low viewpoint, relative mountain scale, ivory and indigo opaque garments, reflected cool/gold light and dramatic wind are composition and clothing choices. They do not add powers or assert literal historical costume."
+  ]
 }

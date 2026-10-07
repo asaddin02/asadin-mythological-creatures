@@ -1,0 +1,111 @@
+{
+  "slug": "sun-wukong",
+  "canonical_name": "Sun Wukong",
+  "status": "not-selected",
+  "worker": "codex",
+  "worker_agent": "wukong_c",
+  "revision": "nama-besar",
+  "variant": "c",
+  "image_model": "tidak dilaporkan alat",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: ONE original square opaque premium mythology catalogue illustration, pilot variant C.\nScene: at an immense altitude above distant tiny mountain peaks, dark tumultuous storm-like clouds rolling in sculptural layers. SUN WUKONG erupts from a somersault cloud into a fierce aerial leap. Cloud flight is the ONLY supernatural visual effect: a tangible billowing cloud supports and trails his leap, never neon energy.\nSubject: exactly ONE living furry macaque Monkey King, with actual macaque muzzle and ears, one head, TWO arms and TWO legs. Full body entirely inside the square with clear separation of both arms and both legs. Terrifying yet anatomically natural macaque face, fierce focused hostile eyes, angry bared teeth, realistic ruffled dark brown fur dusty from battle. Gold Buddhist circlet visibly encircles forehead. Original simple historical Chinese opaque worn charcoal pilgrim tunic, trousers and cloth wraps; natural textiles, never game armor.\nWeapon: exactly ONE long straight BLACK IRON staff raised high diagonally above him, with ONE GOLD BAND AT EACH OF ITS TWO ENDS. Both gold-banded ends must be plainly visible inside frame. One hand strongly grips the middle black shaft above the head; the other arm is extended separately downward and outward for balance, hand visible. Two legs form a readable separated dynamic leaping silhouette, one bent forward and one extended behind. Entire staff and body fit within margins; do not crop limbs or either end of the staff.\nStyle: masterful realistic cinematic fantasy illustration, tactile detailed fur, weathered cloth and black iron. Dangerous commanding monumental presence. Cloud backdrop deeply shadowed blue-black and charcoal, restrained natural cold rim lighting and soft reflected pale sky light reveal the face, all limbs, circlet and staff. Dramatic height and speed, subtle dust, no gore.\nNovel basis: macaque form c04/c33/c38, circlet c10, somersault cloud c08/c40, black iron staff with gold at both ends c41. Plain costume, weather, pose and lighting are artistic choices. The image is not a literal claim of one historical event.\nConstraints: Original character face, original simple costume, original staff and composition, no reference to any existing game/movie/comic character or poster. No additional beings, extra heads or extra limbs. No lightning, electricity, magic fire, glowing eyes, eye aura, halos, neon energy, rocks growing from skin, exposed nudity, gore, writing or staff inscriptions, letters, text, logos, watermark or border. Square image; no transparency.",
+  "depicted_variant": "Living macaque Sun Wukong in a full-body aerial leap emerging from a rolling somersault cloud, holding a raised black iron staff with gold bands at both ends, wearing a golden Buddhist circlet and plain historical cloth clothing.",
+  "basis_claim_ids": [
+    "sun-wukong-c04",
+    "sun-wukong-c33",
+    "sun-wukong-c38",
+    "sun-wukong-c10",
+    "sun-wukong-c08",
+    "sun-wukong-c40",
+    "sun-wukong-c41"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One living furry macaque, one head, two arms and two legs, all limbs visible and separately readable; macaque muzzle and ears.",
+      "claim_ids": [
+        "sun-wukong-c04",
+        "sun-wukong-c33",
+        "sun-wukong-c38"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Golden Buddhist circlet on the forehead.",
+      "claim_ids": [
+        "sun-wukong-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "One raised black iron Ruyi Jingu Bang with a gold band at each of its two ends, no written inscription.",
+      "claim_ids": [
+        "sun-wukong-c41"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Somersault cloud flight represented by an aerial leap from a tangible billowing cloud; no added lightning, magic fire, eye glow or neon aura.",
+      "claim_ids": [
+        "sun-wukong-c08",
+        "sun-wukong-c40"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cloud flight high above mountain peaks; specific storm-like weather, height perspective and mountain arrangement are artistic staging.",
+      "claim_ids": [
+        "sun-wukong-c08",
+        "sun-wukong-c40"
+      ]
+    }
+  ],
+  "aura": "Only the documented somersault cloud flight (sun-wukong-c08, sun-wukong-c40) is visualized as a supernatural effect; no luminous aura, lightning, magical fire or glowing eyes.",
+  "artistic_choices": [
+    "Variant C uses a full-body airborne leap with one hand raising the long staff and the other extended for balance; separated bent and extended legs preserve readable anatomy.",
+    "Dark blue-black sculptural clouds, natural rim light, wind-ruffled dusty fur, hostile bared-teeth expression and worn charcoal cloth create the requested fierce cinematic mood.",
+    "Plain opaque historical-style tunic, trousers and wraps are original artistic costume choices, not asserted source-specific costume facts.",
+    "Original pose, cloth costume, staff and composition were requested without game or movie references; visual inspection cannot prove absence of resemblance to all existing designs.",
+    "Rejected variants: none generated by worker wukong_c. Main agent chooses among the separate pilot variants.",
+    "Penerbangan awan dan tubuh penuh terbaca jelas, tetapi bidang awan/pegunungan mengurangi dominasi wajah; B lebih tepat untuk target potret sangar."
+  ],
+  "rationale": "Pilot variant C replaces a cute cloud-riding treatment with a threatening realistic macaque in cloud flight while keeping the novel-grounded anatomy, circlet and two-ended gold-banded black iron staff readable. The scene combines sourced attributes into an original illustrative moment.",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sun-wukong-pilot-c.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a1159c-af92-7f73-9d69-b88fb1f1ddda/exec-f9d549b3-3bf2-4db0-9649-3549193bd2b7.png",
+  "native_sha256": "60bff2b8d04388bb8d3749b887798665f33ba1902aba09e3a4ce55724dcd71d0",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:08:08.206Z",
+  "review_path": "data/gemini/reviews/batch-154.review.json",
+  "old_url": "/assets/art/sun-wukong-verified.webp",
+  "old_webp_sha256": "0d7759c69877db32bdacbc46c95d279159bbde318f0cf3a358c392815cf60634",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/sun-wukong-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "5414b3221f445421b4944cd8f21d3c4a0a3ae292e59fe3b68f826520caebecda",
+  "original_available_at_start": false,
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "reviewed_at": "2026-10-07T09:08:44.596Z",
+    "native_sha256": "60bff2b8d04388bb8d3749b887798665f33ba1902aba09e3a4ce55724dcd71d0",
+    "notes": "Native PNG individually inspected using view_image before receipt. Exactly one macaque head, two arms and two legs are visibly distinct; fierce bared-teeth face and realistic fur, gold forehead circlet, one raised straight black shaft with gold end bands both within frame. Full body is uncropped. Billowing clouds support the airborne leap, with mountain peaks below. Opaque torn cloth clothing; no visible armor, text, watermark, border, lightning, magic fire, glowing eyes, gore or extra beings.",
+    "limitations": [
+      "The single image shows a cloud-flight leap, not a literal inverted somersault or sequence proving rotation.",
+      "Bottom mountain peaks are detailed and occupy foreground space; the implied immense altitude is artistic perspective, not measured geography.",
+      "Clouds are deeply shadowed, but the lower flight cloud is brighter and the face has readable pale side lighting.",
+      "Stylized gold-end scroll engraving is visible; it does not read as writing at native inspection.",
+      "This is a provisional self-review; independent review and comparison with the other pilot variants remain pending."
+    ]
+  },
+  "generation_failures": [],
+  "tool_output_file": "/home/asadin/.codex/generated_images/01a1159c-af92-7f73-9d69-b88fb1f1ddda/exec-f9d549b3-3bf2-4db0-9649-3549193bd2b7.png",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "selection_reason": "Penerbangan awan dan tubuh penuh terbaca jelas, tetapi bidang awan/pegunungan mengurangi dominasi wajah; B lebih tepat untuk target potret sangar.",
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "inspected_at": "2026-10-07T09:10:51.686Z",
+    "native_sha256": "60bff2b8d04388bb8d3749b887798665f33ba1902aba09e3a4ce55724dcd71d0",
+    "notes": "Main agent inspected native PNG C directly: one head, two arms, two legs and bare macaque feet visible, gold circlet, raised single black iron staff with both gold ends visible; dark turbulent clouds and mountain peaks. Cloud flight leap rather than literal somersault rotation. No visible text, watermark, lightning or fire aura."
+  }
+}

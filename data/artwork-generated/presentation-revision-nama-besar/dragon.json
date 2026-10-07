@@ -1,0 +1,91 @@
+{
+  "slug": "dragon",
+  "canonical_name": "Dragon",
+  "status": "reviewed",
+  "worker": "codex",
+  "worker_agent": "nama_besar_lane_3",
+  "subagent_model": "gpt-6.1-sol",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "prompt": "Use case: stylized-concept. Make ONE original square premium painterly naturalistic Mythics illustration, 1024x1024 or larger, of a majestic CHINESE RAIN DRAGON, specifically the four-legged horned Chinese dragon race of the Lung-Wang tradition. NOT a European dragon. One enormous long lithe serpentine body with ONE head, TWO natural non-glowing eyes, a camel-like forehead, branching STAG HORNS, OX-LIKE EARS, long snake neck, carp scales, broad sea-monster belly, exactly FOUR clearly distinct LEGS ending in EAGLE CLAWS with tiger-like paw pads, and ONE tapering tail. NO wings, no fire, no extra limbs, no whisker tentacles or head spines. Put the body in a spacious sweeping side-three-quarter S curve across the square, with two separated front legs extending below the front torso and two separated hind legs below the rear torso; every leg attaches visibly to the same body and ends in one clearly readable clawed paw. Full head, all four legs, tail and both antlers entirely inside frame. The dragon floats low above a river and a small ancient Chinese valley settlement, rain sweeping beneath it, monumental low camera perspective and dramatic thunderclouds. Two distant jagged atmospheric lightning strokes behind its body and dense falling RAIN show its documented rain/thunder domain; lightning must not come from eyes or paws. Its fearsome but intelligent expression is noble and benevolent, a powerful living rain-bringer, not an attacking demon. Bronze-olive carp scales, dark wet stones and jade-grey river, cinematic storm lighting and rich realistic painted texture. No hoard, no Western bat wings, no burning villages, no humans in danger, no victims, no hybrid cultures, no copied movie/game/anime/comic designs, no text/letters/logos/borders/watermarks, no gore or nudity.",
+  "depicted_variant": "Chinese four-legged horned wingless rain-dragon of the Lung-Wang tradition",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "basis_claim_ids": [
+    "dragon-c02",
+    "dragon-c07",
+    "dragon-c08",
+    "dragon-c10",
+    "dragon-c11",
+    "dragon-c16"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One lithe serpentine dragon with one head, two natural eyes, four clearly separate clawed legs, horns, carp scales, ox ears, camel forehead, eagle claws and tiger-like paw pads; no wings.",
+      "claim_ids": [
+        "dragon-c08",
+        "dragon-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Heavy rain and atmospheric lightning accompany the dragon's flight over water.",
+      "claim_ids": [
+        "dragon-c02",
+        "dragon-c07",
+        "dragon-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Water source and cloud habitat; majestic benevolent presence.",
+      "claim_ids": [
+        "dragon-c07",
+        "dragon-c10"
+      ]
+    }
+  ],
+  "aura": "Majestic rain-bringing power, conveyed by documented weather effects; no detached magical aura.",
+  "artistic_choices": [
+    "Chinese variant selected because its exact four-leg count is explicit in c16; Western fire and wings deliberately excluded.",
+    "Scale colour, low-angle perspective, river-valley layout and cinematic light are editorial choices, not literal source claims."
+  ],
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/dragon-nama-besar-16.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a115a8-5888-7881-8691-4804e60f6dd0/exec-6e263df3-12a6-41a9-91a8-855a11404c60.png",
+  "native_sha256": "a5afed6758e82fa0e4fcc63eedd7bad7e33ba2b14a3d9a330388e806d611ae22",
+  "width": 1254,
+  "height": 1254,
+  "generated_at": "2026-10-07T09:21:40.641511+00:00",
+  "review_path": "data/gemini/reviews/batch-024.review.json",
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "a5afed6758e82fa0e4fcc63eedd7bad7e33ba2b14a3d9a330388e806d611ae22",
+    "reviewed_at": "2026-10-07T09:22:22.734Z",
+    "notes": "Main agent viewed native PNG directly: one enormous wingless serpentine Chinese dragon with a single head, branching stag antlers, ox-like ears, carp-like scales and exactly four separated clawed legs. Near eye visible and far eye occluded. Rain and lightning surround flight over a river and small settlement, supported by c02/c07/c11; four legs and horns by c16. No fire, wings, text, watermark, gore or victims. Paw-pad texture is too small to fully inspect; settlement design and perspective are artistic choices.",
+    "generator_notes": "Native inspected: one serpentine scaled body, one head with two stag antlers and ox-like ears, exactly four distinctly separated legs/paws, no wings/fire, rain and two atmospheric lightning strokes. Near eye is visible; far eye is occluded by the three-quarter head. Claw pads are small and not independently verifiable at this view. Raised overlapping dorsal scales are natural texture, not magical additions. Noble living dragon over a small settlement/river; no text, watermark, victims or gore."
+  },
+  "generation_failures": [],
+  "revision": "nama-besar",
+  "old_url": "/assets/art/dragon-verified.webp",
+  "old_webp_sha256": "b92f10d528f109c8b38aef88c304843b9d4e0fb047b31d123fcbdfda51dd55e2",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1080/originals/dragon-commons-43.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "3c8048bc4f01ae26d052e31245385ff9dbda7e2c64aa5b311b896d859bff5558",
+  "original_available_at_start": false,
+  "main_agent_inspection": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "a5afed6758e82fa0e4fcc63eedd7bad7e33ba2b14a3d9a330388e806d611ae22",
+    "inspected_at": "2026-10-07T09:22:22.734Z",
+    "notes": "Main agent viewed native PNG directly: one enormous wingless serpentine Chinese dragon with a single head, branching stag antlers, ox-like ears, carp-like scales and exactly four separated clawed legs. Near eye visible and far eye occluded. Rain and lightning surround flight over a river and small settlement, supported by c02/c07/c11; four legs and horns by c16. No fire, wings, text, watermark, gore or victims. Paw-pad texture is too small to fully inspect; settlement design and perspective are artistic choices."
+  },
+  "subagent_reasoning_effort": "high",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
+    "native_sha256": "a5afed6758e82fa0e4fcc63eedd7bad7e33ba2b14a3d9a330388e806d611ae22",
+    "notes": "Chinese four-legged wingless rain dragon with deer antlers in a thunderstorm over a river village; matches the Lung-Wang rain-dragon claims."
+  }
+}
