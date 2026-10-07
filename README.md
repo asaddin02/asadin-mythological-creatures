@@ -2,7 +2,7 @@
 
 > **Mythics** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan catatan sumber, panduan belajar, dan konteks budaya.
 
-**Lanjut dari PC lain:** baca [serah terima 6 Oktober 2026 (sore)](docs/HANDOFF-2026-10-06-SORE.md): status terbaru, pekerjaan yang belum jalan, dan perintah melanjutkan.
+**Lanjut dari PC lain:** baca [serah terima 7 Oktober 2026](docs/HANDOFF-2026-10-07.md): status terbaru, hasil tes kelima proyek, pekerjaan yang belum jalan, dan perintah melanjutkan.
 
 ---
 
