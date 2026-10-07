@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-147",
-  "checked_at": "2026-10-07T05:05:21.476Z",
+  "checked_at": "2026-10-07T06:54:41.828Z",
   "files": [
     "batch-147.md",
     "batch-147-fix-1.md",
     "batch-147-fix-2.md",
     "batch-147-fix-3.md",
     "batch-147-fix-4.md",
-    "batch-147-fix-5.md"
+    "batch-147-fix-5.md",
+    "batch-147-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2849,20 +2850,15 @@
     },
     {
       "slug": "igopogo",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-6.md",
+      "entry_sha256": "1ac2a2c657e250d6690653677954732d448301752495c665e260bbb9ac08c7ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "igopogo-c01",
@@ -2893,35 +2889,149 @@
           "quote": "David Soules, an early settler, is credited with the first alleged Igopogo sighting in 1823.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "igopogo-c04",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other nicknames for the Igopogo are Beaverton Bessie, after Beaverton, Ontario, and \"Kempenfelt Kelly\", after the bay that extends from the lake into the city of Barrie, Ontario.",
+          "statement_id": "Nama lain Igopogo adalah Beaverton Bessie, dari Beaverton, Ontario, dan \"Kempenfelt Kelly\", dari teluk yang menjorok dari danau ke kota Barrie, Ontario.",
+          "quote": "Other nicknames for the Igopogo include Beaverton Bessie, after Beaverton, Ontario, and \"Kempenfelt Kelly\", after the bay that extends from the lake into the city of Barrie, Ontario.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c05",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While tending sheep, Soules reportedly saw a long creature leaving a wake in the water and a trail in the mud.",
+          "statement_id": "Saat menggembala domba, Soules dilaporkan melihat makhluk panjang yang meninggalkan riak di air dan jejak di lumpur.",
+          "quote": "While tending sheep, Soules reportedly saw a long creature leaving a wake in the water and a trail in the mud.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c06",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Descriptions of the Igopogo vary. George M. Eberhart describes it as a gray, seal-like animal 12–70 feet (3.7–21.3 m) long with a dog- or horse-like face, prominent eyes, a gaping mouth, dorsal fins, and a fishlike tail.",
+          "statement_id": "Gambaran Igopogo beragam. George M. Eberhart menggambarkannya sebagai hewan abu-abu mirip anjing laut sepanjang 12–70 kaki (3,7–21,3 m) dengan wajah seperti anjing atau kuda, mata menonjol, mulut menganga, sirip punggung, dan ekor seperti ikan.",
+          "quote": "Descriptions of the Igopogo vary. Writer George M. Eberhart describes the Igopogo as a gray, seal-like animal stretching 12–70 feet (3.7–21.3 m) in length with a dog- or horse-like face, prominent eyes, a gaping mouth, dorsal fins, and a fishlike tail",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c07",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some writers have speculated, based on this appearance, that the sightings were actually of pinnipeds such as seals or mustelids such as otters.",
+          "statement_id": "Sebagian penulis menduga, berdasarkan penampilan itu, bahwa penampakan tersebut sebenarnya hewan pinniped seperti anjing laut atau mustelid seperti berang-berang.",
+          "quote": "Some writers have speculated based on this appearance that the sightings were actually of pinnipeds, such as seals, or mustelids, such as otters.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c08",
+          "source_id": "igopogo-s2",
+          "host": "www.livescience.com",
+          "statement": "Residents of Beaverton on the eastern shore call it Beaverton Bessie, while others call it Kempenfelt Kelly, after Kempenfelt Bay, which has the lake's deepest water and the most sightings.",
+          "statement_id": "Warga Beaverton di tepi timur menyebutnya Beaverton Bessie, sedangkan yang lain menyebutnya Kempenfelt Kelly, dari Kempenfelt Bay, bagian danau yang paling dalam dan paling banyak dilaporkan penampakannya.",
+          "quote": "Residents of Beaverton, on the eastern shore, call it Beaverton Bessie, while others refer to it as Kempenfelt Kelly, after Kempenfelt Bay, which has the lake's deepest water and claims the most sightings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c09",
+          "source_id": "igopogo-s2",
+          "host": "www.livescience.com",
+          "statement": "According to John Robert Colombo in his book \"Mysterious Canada,\" no two descriptions of Kempenfelt Kelly coincide.",
+          "statement_id": "Menurut John Robert Colombo dalam bukunya \"Mysterious Canada\", tidak ada dua deskripsi Kempenfelt Kelly yang sama.",
+          "quote": "Significantly, according to John Robert Colombo in his book \"Mysterious Canada,\" \"No two descriptions of Kempenfelt Kelly coincide.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c10",
+          "source_id": "igopogo-s2",
+          "host": "www.livescience.com",
+          "statement": "The article's author says that many sightings, including one he heard directly from a witness, could reasonably be explained as otters swimming in a line, diving and resurfacing.",
+          "statement_id": "Penulis artikel menyatakan bahwa banyak laporan penampakan, termasuk salah satu yang ia dengar langsung dari seorang saksi, dapat dijelaskan secara wajar sebagai berang-berang yang berenang berjajar, menyelam, dan muncul kembali.",
+          "quote": "Like many of the other sightings, his could be reasonably explained as otters swimming in a line, diving and resurfacing.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c11",
+          "source_id": "igopogo-s2",
+          "host": "www.livescience.com",
+          "statement": "The article's author reports that their search for Igopogo ended without good evidence for the monster, and that sightings will surely continue as long as people believe it exists in the cold waters of Lake Simcoe.",
+          "statement_id": "Penulis artikel melaporkan bahwa pencarian mereka atas Igopogo berakhir tanpa bukti yang baik, tetapi penampakan akan terus dilaporkan selama orang percaya makhluk itu ada di perairan dingin Lake Simcoe.",
+          "quote": "Our search for Igopogo ended without finding good evidence for the monster, but the sightings will surely continue as long as people believe it exists in the cold waters of Lake Simcoe.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c12",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature's name is ostensibly based on the Ogopogo of Lake Okanagan, British Columbia, and also on the title of the 1952 book I Go Pogo, a slogan often mentioned in the comic.",
+          "statement_id": "Nama makhluk ini tampaknya didasarkan pada Ogopogo dari Lake Okanagan, British Columbia, dan juga pada judul buku I Go Pogo tahun 1952, semboyan yang sering disebut dalam komik itu.",
+          "quote": "The creature's name is ostensibly based on the Ogopogo of Lake Okanagan, British Columbia, and also the title of the 1952 book I Go Pogo, a slogan often mentioned in the comic.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c13",
+          "source_id": "igopogo-s2",
+          "host": "www.livescience.com",
+          "statement": "Important sightings occurred in 1952 and 1963; a \"sonar sounding of a large animal\" in 1983 was followed by a videotape in 1991 of \"a large, seal-like animal.\"",
+          "statement_id": "Penampakan penting terjadi pada 1952 dan 1963; \"sonar sounding of a large animal\" pada 1983 disusul rekaman video tahun 1991 tentang \"a large, seal-like animal\".",
+          "quote": "Important sightings occurred in 1952 and 1963, and a \"sonar sounding of a large animal\" in 1983 was followed by a videotape in 1991 of \"a large, seal-like animal.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c14",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The city of Barrie erected The Sea Serpent sculpture, representing the legendary Igopogo, at the waterfront.",
+          "statement_id": "Kota Barrie mendirikan patung The Sea Serpent di tepi air yang menggambarkan Igopogo yang legendaris.",
+          "quote": "The city of Barrie erected The Sea Serpent sculpture, representing the legendary Igopogo, at the waterfront.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "igopogo-c15",
+          "source_id": "igopogo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1983, sonar operator William W. Skrypetz reported spotting a large animal with a long neck, although some have disputed this, saying the reading could instead have been a school of fish.",
+          "statement_id": "Pada 1983, operator sonar William W. Skrypetz melaporkan melihat hewan besar berleher panjang, meski sebagian orang membantahnya dan menyebut pembacaan itu bisa jadi gerombolan ikan.",
+          "quote": "In 1983, sonar operator William W. Skrypetz reported spotting a large animal with a long neck, although some have disputed this account, claiming the reading could have instead been a school of fish.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "85a52742915f899d37aec9164126a91e243bfa37a8fa44e8cd8e77401a6eb2b6"
+      "images": []
     },
     {
       "slug": "imbunche",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-6.md",
+      "entry_sha256": "7ef0cc491df2e792783ac2541ad88ea84eb6436204c4e8b34dc29e0be2fc6916",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "imbunche-c01",
           "source_id": "imbunche-s1",
           "host": "en.wikipedia.org",
-          "statement": "The imbunche is a legendary monster protecting the entrance to a warlock's cave.",
-          "statement_id": "Imbunche adalah monster legendaris yang menjaga pintu masuk ke gua penyihir.",
-          "quote": "the imbunche (Mapudungun: ifünche, lit. \"short person\") is a legendary monster that protects the entrance to a warlock's cave.",
+          "statement": "In the Chilote folklore and mythology of Chiloé Island in southern Chile, the imbunche (Mapudungun: ifünche, \"short person\") is a legendary monster that protects the entrance to a warlock's cave.",
+          "statement_id": "Dalam cerita rakyat dan mitologi Chilote dari Pulau Chiloé di Chili selatan, imbunche (Mapudungun: ifünche, \"orang pendek\") adalah monster legendaris yang melindungi pintu masuk gua seorang penyihir.",
+          "quote": "In the Chilote folklore and Chilote mythology of Chiloé Island in southern Chile, the imbunche (Mapudungun: ifünche, lit. \"short person\") is a legendary monster that protects the entrance to a warlock's cave.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2944,27 +3054,181 @@
           "quote": "According to legend, the imbunche is a first-born child less than nine days old that was kidnapped by, or sold by their parents to, a Brujo Chilote",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "imbunche-c04",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature walks on one foot or three feet (actually one leg and two hands) because one of its legs is attached to the back of its neck. It has blue skin and sharp teeth.",
+          "statement_id": "Makhluk ini berjalan dengan satu kaki atau tiga kaki (sebenarnya satu kaki dan dua tangan) karena salah satu kakinya melekat di belakang lehernya. Kulitnya biru dan giginya tajam.",
+          "quote": "The creature walks on one foot or on three feet (actually one leg and two hands) because one of its legs is attached to the back of its neck. It has blue skin and sharp teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c05",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The imbunche cannot talk and communicates only through guttural, rough and unpleasant sounds.",
+          "statement_id": "Imbunche tidak dapat berbicara dan hanya berkomunikasi dengan bunyi parau, kasar, dan tidak enak didengar.",
+          "quote": "The imbunche cannot talk, and communicates only by guttural, rough and unpleasant sounds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c06",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Brujo chilote turns the child into a deformed hairy monster by breaking its right leg and twisting it over its back. At three months its tongue is forked, its teeth become sharp, its skin turns blue, and the warlock applies a magic cream to its back to make thick hair grow.",
+          "statement_id": "Brujo chilote mengubah anak itu menjadi monster cacat berbulu dengan mematahkan kaki kanannya dan memelintirnya ke punggung. Pada usia tiga bulan lidahnya dibelah, giginya meruncing, kulitnya membiru, dan sang penyihir mengoleskan krim ajaib di punggungnya agar tumbuh bulu tebal.",
+          "quote": "The Brujo chilote transforms the child into a deformed hairy monster by breaking their right leg and twisting it over their back. When the child is three months old their tongue is forked, their teeth turn sharp, their skin turns blue, and the warlock applies a magic cream over the child's back to cause thick hairs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c07",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides guarding the entrance to the warlock's cave, the imbunche is used by warlocks as an instrument of revenge or curses. Because it gains magical knowledge while guarding the cave, it sometimes acts as the warlock's advisor even though it is not initiated into wizardry.",
+          "statement_id": "Selain menjaga pintu masuk gua penyihir, imbunche dipakai para penyihir sebagai alat balas dendam atau kutukan. Karena memperoleh pengetahuan gaib selama menjaga gua, ia kadang menjadi penasihat sang penyihir meski tidak diinisiasi dalam ilmu sihir.",
+          "quote": "Besides guarding the entrance to the warlock's cave, the imbunche is used by warlocks as an instrument for revenge or curses. And, because it has acquired magical knowledge over its lifetime spent guarding the cave, even if the imbunche is not initiated into wizardry, it sometimes acts as the warlock's advisor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c08",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The imbunche leaves the cave only in certain circumstances, such as when the cave is destroyed or discovered and the warlock moves to another cave, or when the warlocks need it and carry it out thrashing and yelling, frightening the townspeople and announcing misfortune to come.",
+          "statement_id": "Imbunche meninggalkan gua hanya dalam keadaan tertentu, misalnya saat gua dihancurkan atau ditemukan dan sang penyihir pindah ke gua lain, atau saat para penyihir membutuhkannya dan membawanya keluar sambil meronta dan berteriak, menakuti warga dan menandakan nasib buruk yang akan datang.",
+          "quote": "The imbunche leaves the cave only in certain circumstances, such as when the cave is destroyed or discovered and the warlock moves to another cave, or when the warlocks have need of it and carry it thrashing and yelling, scaring the townspeople and announcing misfortune to come.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c09",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During its first months the imbunche is fed black cat's milk and goat flesh and, when old enough, human corpses from cemeteries.",
+          "statement_id": "Pada bulan-bulan pertama imbunche diberi susu kucing hitam dan daging kambing, dan setelah cukup besar diberi mayat manusia dari pemakaman.",
+          "quote": "During its first months the imbunche is fed on black cat's milk and goat flesh, and when old enough, with human corpses from cemeteries.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c10",
+          "source_id": "imbunche-s1",
+          "host": "en.wikipedia.org",
+          "statement": "José Donoso's magical realist novel The Obscene Bird of Night reinterprets imbunche folklore as a way of binding a male child in a sack to prevent escape and bodily growth.",
+          "statement_id": "Novel realisme magis José Donoso, The Obscene Bird of Night, menafsir ulang cerita rakyat imbunche sebagai cara mengikat anak laki-laki dalam karung untuk mencegah pelarian dan pertumbuhan tubuh.",
+          "quote": "José Donoso's magical realist novel The Obscene Bird of Night reinterprets imbunche folklore as a way to bind a male child in a sack to prevent escape and bodily growth.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c11",
+          "source_id": "imbunche-s3",
+          "host": "es.wikipedia.org",
+          "statement": "The invunche or imbunche (from Mapudungun ifünche, \"persona deforme\", a deformed person) is a being of Mapuche and Chilote mythology. In Chiloé it is also called Machucho, Butamacho or Chivato.",
+          "statement_id": "Invunche atau imbunche (dari kata Mapudungun ifünche, \"persona deforme\" atau orang cacat bentuk) adalah makhluk dari mitologi Mapuche dan mitologi Chilote. Di Chiloé ia juga disebut Machucho, Butamacho, atau Chivato.",
+          "quote": "El invunche o imbunche (del mapudungun ifünche: \"persona deforme\") es un ser de la mitología mapuche y de la mitología chilota. En Chiloé también recibe el nombre de Machucho, Butamacho o Chivato.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c12",
+          "source_id": "imbunche-s3",
+          "host": "es.wikipedia.org",
+          "statement": "Its head would be flattened with a pair of boards and twisted in the process to give it an elongated shape; finally its tongue would be split in two to imitate the tongue of snakes.",
+          "statement_id": "Kepalanya dipipihkan dengan dua papan dan dipelintir sehingga berbentuk memanjang; terakhir lidahnya dibelah dua untuk meniru lidah ular.",
+          "quote": "se aplastaría su cabeza con un par de tablas y torcerían su cabeza en el proceso para darle una forma alargada. Por último le partirían la lengua en dos, para imitar la lengua de las serpientes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c13",
+          "source_id": "imbunche-s3",
+          "host": "es.wikipedia.org",
+          "statement": "After this ritual the new Invunche must be fed in a special way: first black cat's milk or the milk of an indigenous wet nurse, then, once it has teeth, \"cabrito\" meat (meaning the flesh of a newborn child), and when it is older \"chivo\" meat (meaning the flesh of an adult person).",
+          "statement_id": "Setelah ritual itu, imbunche baru diberi makan secara khusus: pertama susu kucing hitam atau susu inang Pribumi, lalu setelah bergigi daging \"cabrito\" (maksudnya daging bayi baru lahir), dan setelah lebih dewasa daging \"chivo\" (maksudnya daging orang dewasa).",
+          "quote": "Después de este ritual, deben alimentar al nuevo Invunche de una manera especial; primeramente le darían leche de gata negra o leche de una nodriza indígena, luego cuando tiene dientes, le darían carne de \"cabrito\" (refiriéndose a carne de niño recién nacido), y cuando es más adulto le darían carne de \"chivo\" (refiriéndose a carne de persona adulta).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c14",
+          "source_id": "imbunche-s2",
+          "host": "uchile.cl",
+          "statement": "The Imbunche is a human being who stands on one foot while the other is stuck to the back, so it moves in little hops. Its arms are twisted and its face is turned backward.",
+          "statement_id": "Imbunche adalah manusia yang bertumpu pada satu kaki sementara kaki lainnya melekat di punggung, sehingga ia berjalan melompat-lompat kecil. Lengannya terpelintir dan wajahnya menghadap ke belakang.",
+          "quote": "ser humano que se sostiene en un pie y el otro lo lleva pegado a la espalda; por esta causa, anda a saltitos. Tiene los brazos torcidos y la cara vuelta hacia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c15",
+          "source_id": "imbunche-s2",
+          "host": "uchile.cl",
+          "statement": "It does not speak; it bleats like a young goat in an extraordinary way. It is also called Chivato de la cueva.",
+          "statement_id": "Imbunche tidak berbicara; ia mengembik seperti anak kambing dengan cara yang luar biasa. Ia juga dinamai Chivato de la cueva.",
+          "quote": "No habla, bala como un chivato, pero en una forma extraordinaria. ... el nombre de Chivato de la cueva.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c16",
+          "source_id": "imbunche-s2",
+          "host": "uchile.cl",
+          "statement": "To obtain this human figure the warlocks use a young child, and as it grows its organs are arranged until they suit its purpose. It is fed with the flesh and blood of a newborn child.",
+          "statement_id": "Untuk memperoleh sosok manusia ini, para penyihir memakai seorang anak kecil; seiring ia tumbuh, organ-organnya ditata hingga sesuai tujuannya. Ia diberi makan daging dan darah bayi yang baru lahir.",
+          "quote": "Para lograr esta figura humana, los brujos emplean un ... de corta edad, y a medida que va creciendo se le acomodan los ... hasta que quedan dispuestos para su finalidad. Lo alimentan con carne y sangre de",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c17",
+          "source_id": "imbunche-s2",
+          "host": "uchile.cl",
+          "statement": "It leaves only when the cave is changed or has been destroyed; it is generally carried on shoulders when there is a move.",
+          "statement_id": "Imbunche hanya keluar ketika gua dipindahkan atau telah dihancurkan; umumnya ia dipanggul di bahu ketika terjadi pemindahan.",
+          "quote": "Unicamente sale cuando ... se cambia o ha sido destruida. Generalmente, es llevado en hombros, cuando hay traslado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c18",
+          "source_id": "imbunche-s2",
+          "host": "uchile.cl",
+          "statement": "The Imbunche, or Invunche, is also Vuta or Vutamacho, and some call it Machucho, but describe it as an animal that bleats like a goat and walks on two hands and one foot, only at night.",
+          "statement_id": "Imbunche atau Invunche juga disebut Vuta atau Vutamacho, dan sebagian menyebutnya Machucho, tetapi mereka menggambarkannya sebagai hewan yang mengembik seperti kambing dan berjalan dengan dua tangan dan satu kaki, hanya pada malam hari.",
+          "quote": "El Imbunche, o Invunche, es, ... Vuta o Vutamacho y algunos lo llaman Machucho, pero lo describen como un animal que bala como cabro y que anda con las dos manos y un pie, ... por la noche.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imbunche-c19",
+          "source_id": "imbunche-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, the warlocks' society worked out of a cave, the Cueva de Quicaví or Casa Grande, which was guarded by a deformed being, the Imbunche.",
+          "statement_id": "Menurut legenda, perkumpulan para penyihir bekerja dari sebuah gua, Cueva de Quicaví atau Casa Grande, yang dijaga oleh makhluk cacat bernama Imbunche.",
+          "quote": "The seat of the King was in the Cueva de Quicaví or Casa Grande, in the surroundings of Quicaví, in the commune of Quemchi. According to legend, the society worked out of a cave that was guarded by a deformed being, the Imbunche.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "798c54b5db38c25d7fbe5bd996f1c5b4826e1167d20d3ab6357dff16fc437f42"
+      "images": []
     },
     {
       "slug": "joint-snake",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-6.md",
+      "entry_sha256": "a9de3cc81d66e7364c35f9cbf39c029ed1eb3ace2c8a0572496ba2c5ff7b4b95",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "joint-snake-c01",
@@ -2995,25 +3259,155 @@
           "quote": "Mistaken identity is probably responsible for the myth that some snakes can magically break apart and reconnect the pieces",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "joint-snake-c04",
+          "source_id": "joint-snake-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said that if a piece of the snake is taken and the pocket knife used to cut it is set down in place of that piece, the knife will join up with the rest of the snake.",
+          "statement_id": "Dikatakan bahwa jika sepotong ular itu diambil dan pisau lipat yang dipakai memotongnya diletakkan di tempat potongan tersebut, pisau itu akan menyatu dengan seluruh tubuh ular.",
+          "quote": "It is said that if a piece of the snake is taken and the pocket knife used to cut the snake is set down in the place of the snake's piece, the knife will join up with the whole of the snake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c05",
+          "source_id": "joint-snake-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to travelers' accounts, its skin is as hard as parchment and as smooth as glass, and so stiff that it can hardly bend. When struck it breaks; with a whip it can be broken from tail to bowels into pieces less than an inch long, without the least trace of blood.",
+          "statement_id": "Menurut catatan para pelancong, kulitnya sekeras perkamen dan selicin kaca, dan begitu kaku sehingga hampir tak dapat menekuk. Jika dipukul ia pecah; dengan cambuk orang dapat memecahnya dari ekor sampai usus menjadi potongan yang panjangnya kurang dari satu inci, tanpa setetes darah pun.",
+          "quote": "According to travelers' accounts, their skin is as hard as parchment and as smooth as glass. It is so stiff that it can hardly bend itself. When it is struck it breaks, and you may, with a whip, break it from the tail to the bowels into pieces not an inch long, and not produce the least tincture of blood.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c06",
+          "source_id": "joint-snake-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One species of lizard has a long, snakelike body and no legs. These legless lizards are commonly called \"glass snakes\" or \"joint snakes,\" even though they are not snakes at all.",
+          "statement_id": "Satu spesies kadal bertubuh panjang seperti ular dan tak berkaki. Kadal tak berkaki ini lazim disebut \"glass snakes\" atau \"joint snakes\", padahal bukan ular sama sekali.",
+          "quote": "One species of lizard has a long, snakelike body and no legs. These legless lizards are commonly called \"glass snakes\" or \"joint snakes,\" even though they are not snakes at all.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c07",
+          "source_id": "joint-snake-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is physically impossible for any snake to do this and live, but another type of reptile comes close: lizards can cast off body parts when attacked and then regrow them.",
+          "statement_id": "Secara fisik mustahil bagi ular mana pun melakukannya dan tetap hidup, tetapi jenis reptil lain mendekatinya: kadal dapat melepas bagian tubuh saat diserang lalu menumbuhkannya kembali.",
+          "quote": "It's physically impossible for any snake to do so and live, but another type of reptile comes close. Lizards are able to cast off body parts when under attack, then regrow them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c08",
+          "source_id": "joint-snake-s2",
+          "host": "en.wikisource.org",
+          "statement": "Messrs. O. R. Glover and Charles H. Lawrence of Chicago supplied a living specimen of a \"joint- or glass-snake\" that had been captured on their farm in Starke County, Indiana.",
+          "statement_id": "Messrs. O. R. Glover dan Charles H. Lawrence dari Chicago menyerahkan spesimen hidup \"joint- or glass-snake\" yang ditangkap di pertanian milik mereka di Starke County, Indiana.",
+          "quote": "Messrs. O. R. Glover and Charles H. Lawrence, of Chicago, favored us with a living specimen of joint- or glass-snake, which had been captured on a farm owned by them in Starke County, Indiana.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c09",
+          "source_id": "joint-snake-s2",
+          "host": "en.wikisource.org",
+          "statement": "The creature was sent for examination to Dr. W. A. Conklin, Director of the Central Park Menagerie, New York, who kindly furnished the following report.",
+          "statement_id": "Hewan itu dikirim untuk diperiksa kepada Dr. W. A. Conklin, Direktur Central Park Menagerie, New York, yang berbaik hati menyusun laporan berikut.",
+          "quote": "the creature was sent for examination to Dr. W. A. Conklin, Director of the Central Park Menagerie, New York, who has kindly furnished the following report.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c10",
+          "source_id": "joint-snake-s2",
+          "host": "en.wikisource.org",
+          "statement": "A letter in the magazine says the theory that a full-fledged vertebrate animal such as this could unjoint and rejoint itself seems hardly worthy of discussion.",
+          "statement_id": "Sebuah surat dalam majalah itu menyatakan bahwa teori bahwa hewan bertulang belakang yang utuh seperti ini dapat melepas dan menyambung sendiri sambungan tubuhnya tampaknya hampir tak layak dibahas.",
+          "quote": "The theory that a full-fledged vertebrate animal such as this should possess power of unjointing and rejointing itself seems hardly worthy of discussion.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c11",
+          "source_id": "joint-snake-s2",
+          "host": "en.wikisource.org",
+          "statement": "The dissection report quoted in the letter states that it is no more possible for the animal to unjoint than for a person to unjoint his head from his trunk.",
+          "statement_id": "Laporan pembedahan dalam surat itu menyatakan bahwa hewan itu tidak mungkin melepas sambungan tubuhnya, sama seperti seseorang tak mungkin melepas kepalanya dari batang tubuhnya.",
+          "quote": "There is no more possibility for it to unjoint than for a person to unjoint his head from his trunk.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c12",
+          "source_id": "joint-snake-s3",
+          "host": "bio.davidson.edu",
+          "statement": "A common myth about legless lizards (genus Ophisaurus, also called \"jointed lizards\" and \"glass lizards\") is that when disturbed they break into segments that later rejoin.",
+          "statement_id": "Mitos umum tentang kadal tak berkaki (genus Ophisaurus, yang juga disebut \"jointed lizards\" dan \"glass lizards\") adalah bahwa saat terganggu mereka pecah menjadi segmen-segmen yang kemudian menyambung kembali.",
+          "quote": "A common myth concerning legless lizards (genus Ophisaurus; which are also called \"jointed lizards\" and \"glass lizards\") is that when they are disturbed they will break up into segments and that these segments rejoin at a later time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c13",
+          "source_id": "joint-snake-s3",
+          "host": "bio.davidson.edu",
+          "statement": "Legless lizards, like other lizards, can break off part of their tail to escape danger, but once a lizard loses a portion of its body it can never reattach it.",
+          "statement_id": "Kadal tak berkaki, seperti kadal lain, dapat melepas bagian ekornya untuk lolos dari bahaya, tetapi setelah kehilangan sebagian tubuhnya kadal tidak pernah dapat menyambungkannya kembali.",
+          "quote": "Legless lizards are similar to other lizards in that they have the ability to break off portions of their tail in order to escape danger. However, once a lizard loses a portion of its body it is never able to reattach that portion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "joint-snake-c14",
+          "source_id": "joint-snake-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A joint snake symbolizes the American colonies in Benjamin Franklin's 1754 political cartoon, Join, or Die.",
+          "statement_id": "Seekor joint snake melambangkan koloni-koloni Amerika dalam kartun politik Benjamin Franklin tahun 1754, Join, or Die.",
+          "quote": "A joint snake symbolizes the American colonies in Benjamin Franklin's 1754 political cartoon, Join, or Die.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8df54a0573d241d94f2aae23ec3674c0f0ba4646ffbe92917c951165d7948f85"
+      "images": []
     },
     {
       "slug": "jumbee",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-6.md",
+      "entry_sha256": "93d18ebc7ffe9bb5b7928483233196cba5685c1d871c6aa60d2df877059ca861",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "claims (jumbee-c15)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Britain. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[3]",
+          "message": "Tidak muncul di kutipan mana pun: Congolese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[2].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"a jumbie is a ghost or spirit of the dead jumbies are…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "stories[0].summary.en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"was killed by her husband for trying to free his slaves and…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -3046,10 +3440,139 @@
           "quote": "There are numerous kinds of jumbees, reflecting the Caribbean's complex history and ethnic makeup",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jumbee-c04",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Different cultures have different concepts of jumbees, but the general idea is that people who have been evil are destined to become instruments of evil (jumbees) in death. Unlike ghost folklore's wispy, fog-like entity, the jumbee is cast as a dark, shadowy figure.",
+          "statement_id": "Tiap budaya punya konsep jumbee sendiri, tetapi gagasan umumnya adalah bahwa orang yang pernah berbuat jahat ditakdirkan menjadi alat kejahatan (jumbee) setelah mati. Berbeda dari cerita hantu yang berupa sosok tipis seperti kabut, jumbee digambarkan sebagai sosok gelap dan berbayang.",
+          "quote": "Different cultures have different concepts of jumbees, but the general idea is that people who have been evil are destined to become instruments of evil (jumbees) in death. Unlike the ghost folklore which represents a wispy fog-like entity, the jumbee is cast as a dark, shadowy figure.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c05",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the folk religion of Montserrat, a jumbie is a ghost, or spirit of the dead. Jumbies are said to possess people during ceremonies called jumbie dances, accompanied by jumbie drums.",
+          "statement_id": "Dalam agama rakyat Montserrat, jumbie adalah hantu atau roh orang mati. Jumbie dikatakan merasuki orang dalam upacara yang disebut jumbie dance, diiringi genderang jumbie.",
+          "quote": "In the folk religion of Montserrat, a jumbie is a ghost, or spirit of the dead. Jumbies are said to possess people during ceremonies called jumbie dances, which are accompanied by jumbie drums.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c06",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is believed that the spirit separates from the body three days after death, at which point the havoc begins. Jumbies are believed able to shape-shift, usually into a dog, a pig or, more likely, a cat.",
+          "statement_id": "Diyakini roh terpisah dari tubuh tiga hari setelah kematian, dan saat itulah kekacauan dimulai. Jumbie dipercaya dapat berubah wujud, biasanya menjadi anjing, babi, atau lebih mungkin kucing.",
+          "quote": "It is believed that the spirit separates from the body three days after death, at which point the havoc begins. Jumbies are believed to have the ability to shape-shift, usually taking the form of a dog, pig, or more likely, a cat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c07",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jumbies receive numerous small offerings from Montserratians, such as a few drops of rum or food.",
+          "statement_id": "Jumbie menerima banyak persembahan kecil dari warga Montserrat, seperti beberapa tetes rum atau makanan.",
+          "quote": "Jumbies receive numerous small offerings from Montserratians, such as a few drops of rum or food.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c08",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the French islands of Guadeloupe and Martinique, people say \"zombi\" rather than \"jumbie\" for ghosts, revenants and other supernatural creatures.",
+          "statement_id": "Di pulau-pulau Prancis, Guadeloupe dan Martinique, orang menyebut \"zombi\" dan bukan \"jumbie\" untuk menggambarkan hantu, arwah yang kembali, dan makhluk gaib lainnya.",
+          "quote": "In the French islands Guadeloupe and Martinique, people speak of \"zombi\" rather than \"jumbie\" to describe ghosts, revenants, and other supernatural creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c09",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Jamaica and Barbados the old Akan word \"duppy\" is used rather than the Kikongo-rooted word \"jumbee.\"",
+          "statement_id": "Di Jamaika dan Barbados dipakai kata Akan lama \"duppy\", bukan kata \"jumbee\" yang berakar Kikongo.",
+          "quote": "In Jamaica and Barbados, the old Akan word \"duppy\" is used rather than the Kikongo-rooted word \"jumbee.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c10",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People in English-speaking Caribbean states colonized by the British commonly believe in this creature. The belief is also held by practitioners of Obeah, a form of mystical wizardry combining traditional African beliefs with Western European, primarily Anglican, images and beliefs about the dead.",
+          "statement_id": "Orang di negara-negara Karibia berbahasa Inggris bekas jajahan Inggris umumnya mempercayai makhluk ini. Kepercayaan itu juga dianut para praktisi Obeah, bentuk ilmu gaib yang memuat kepercayaan tradisional Afrika serta gambaran dan kepercayaan Eropa Barat, terutama Anglikan, tentang orang mati.",
+          "quote": "People in English-speaking Caribbean states that were colonized by the British commonly believe in this creature. The belief is also held by practitioners of Obeah, a form of mystical wizardry that encompasses traditional African beliefs and Western European, primarily Anglican, images and beliefs concerning the dead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c11",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Guyana and various islands, including Antigua and Barbuda in the east, The Bahamas in the north and as far south as Trinidad, have long held a folklore tradition that includes the jumbee.",
+          "statement_id": "Guyana dan berbagai pulau, termasuk Antigua dan Barbuda di timur, Bahama di utara, dan sejauh Trinidad di selatan, telah lama memiliki tradisi cerita rakyat yang memuat jumbee.",
+          "quote": "Guyana, and various islands—including Antigua and Barbuda in the east, The Bahamas in the north and as far south as Trinidad—have long held a tradition of folklore that includes the jumbee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c12",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The people of the Congo speak of a nfumbi, an ancestral ghost, which could be related to the word \"jumbie.\"",
+          "statement_id": "Orang Kongo menyebut nfumbi, hantu leluhur, yang mungkin berkaitan dengan kata \"jumbie\".",
+          "quote": "The people of the Congo speak of a nfumbi — ancestral ghost — which could be related to the word \"jumbie.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c13",
+          "source_id": "jumbee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Étang Zombi in Guadeloupe owes its name to the legend of a slave owner's wife who was killed by her husband for trying to free his slaves and who now haunts the pond.",
+          "statement_id": "Étang Zombi di Guadeloupe mendapat namanya dari legenda istri seorang pemilik budak yang dibunuh suaminya karena berusaha membebaskan para budaknya dan kini menghantui kolam itu.",
+          "quote": "The Étang Zombi in Guadeloupe owes its name to the legend of the wife of a slave owner who was killed by her husband for trying to free his slaves and now haunts the pond.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c14",
+          "source_id": "jumbee-s2",
+          "host": "en.wiktionary.org",
+          "statement": "The word is borrowed from Kongo zumbi (\"fetish\") and is a doublet of zombie.",
+          "statement_id": "Kata ini dipinjam dari kata Kongo zumbi (\"fetish\") dan merupakan kembaran etimologis kata zombie.",
+          "quote": "Borrowed from Kongo zumbi (“fetish”). Doublet of zombie.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c15",
+          "source_id": "jumbee-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Jumbie (plural jumbies) is chiefly Caribbean and means a ghost or evil spirit.",
+          "statement_id": "Jumbie (jamak jumbies) terutama dipakai di Karibia dan berarti hantu atau roh jahat.",
+          "quote": "jumbie (plural jumbies) (chiefly Caribbean) A ghost or evil spirit.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jumbee-c16",
+          "source_id": "jumbee-s3",
+          "host": "archive.org",
+          "statement": "In this old account the believer at once explains that a jumbie can assume the shape of a tree, a rock or another natural object in order to escape detection.",
+          "statement_id": "Dalam catatan lama ini, orang yang percaya langsung menjelaskan bahwa jumbie dapat menyerupai pohon, batu, atau benda alam lain untuk menghindari terdeteksi.",
+          "quote": "or apparition, is a tree or rock or other natural object. He at once explains that a jumbie is able to assume these shapes to escape detection.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b82f96e24119021bb20042112ee269866a3d7dfa5891ad2085d81f300c8dc6be"
+      "images": []
     },
     {
       "slug": "ka-a-pora",

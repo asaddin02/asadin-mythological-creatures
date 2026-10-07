@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-069",
-  "checked_at": "2026-10-07T06:17:26.782Z",
+  "checked_at": "2026-10-07T06:55:10.035Z",
   "files": [
     "batch-069.md",
     "batch-069-fix-1.md",
     "batch-069-fix-2.md",
     "batch-069-fix-3.md",
-    "batch-069-fix-4.md"
+    "batch-069-fix-4.md",
+    "batch-069-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2223,21 +2224,15 @@
     },
     {
       "slug": "hua-po",
-      "file": "batch-069-fix-4.md",
-      "entry_sha256": "bba7f67920ce7872f62a8e0193c8ec357fba01a42ac87d1a6a4d5887cfcc0760",
+      "file": "batch-069-fix-5.md",
+      "entry_sha256": "d189b3c3b6f846e305385ad7faa723eee4c8a25acf0ba01ebcfe759734d0d166",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hua-po-c01",
@@ -2286,6 +2281,46 @@
           "statement": "It is said to dry out if left alone and recover when sprinkled with water.",
           "statement_id": "Ia dikatakan mengering jika dibiarkan, lalu pulih ketika diperciki air.",
           "quote": "掌サイズの大きさで、肌の白い美女の姿をしている。\nその鳴き声はインコに似ているとされる。\nそのまま放っておくと干からびるが、水をかけると元通りになると言う。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-po-c06",
+          "source_id": "hua-po-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the story \"Huapo\" in 《子不語》 (Zibuyu), a scholar surnamed Xie who was studying on Zhanggong Mountain heard a chirping in the trees like a parrot. On going closer he saw a beautiful woman about five cun tall, hairless, white all over like jade, with a look of grief about her eyes and brows.",
+          "statement_id": "Dalam kisah 〈花魄〉 pada 《子不語》 (Zibuyu), seorang terpelajar bermarga Xie yang belajar di Gunung Zhanggong mendengar bunyi berkicau di hutan pohon yang mirip beo. Saat mendekat, ia melihat seorang perempuan cantik setinggi sekitar lima cun, tanpa bulu di tubuhnya, putih mengilap seperti giok, dengan raut sedih di antara kedua matanya.",
+          "quote": "婺源士人謝某，讀書張公山。早起，聞樹林鳥聲啁啾，有似鸚哥。因近視之，乃一美女，長五寸許，赤身無毛，通體潔白如玉，眉目間有愁苦之狀。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-po-c07",
+          "source_id": "hua-po-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The scholar took her home, kept her in a cage and fed her rice. She chattered to people but could not be understood. After some days, exposed to the sun, she dried up and died.",
+          "statement_id": "Sang terpelajar membawanya pulang dan menyimpannya dalam sangkar serta memberinya nasi. Makhluk itu berbicara terus-menerus kepada orang tetapi ucapannya tidak dapat dimengerti. Setelah beberapa hari terkena sinar matahari, ia mengering dan mati.",
+          "quote": "遂攜以歸，女無懼色。乃畜籠中，以飯喂之。向人絮語，了不可辨。畜數日，為太陽所照，竟成枯臘而死。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-po-c08",
+          "source_id": "hua-po-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A xiaolian (孝廉) named Hong said the creature was called 花魄 (Huapo), formed from the aggrieved and anguished qi of a tree on which people had hanged themselves three times, and that pouring water on it could still revive it; when tried, it proved so.",
+          "statement_id": "Seorang bergelar xiaolian (孝廉) bermarga Hong berkata bahwa makhluk itu bernama 花魄 (Huapo), terbentuk dari hawa dendam dan derita pada pohon tempat orang gantung diri sampai tiga kali, dan bahwa menyiramnya dengan air masih dapat menghidupkannya; ketika dicoba, memang demikian.",
+          "quote": "洪孝廉字麟聞之曰：「此名花魄，凡樹經三次人縊死者，其冤苦之氣結成此物，沃以水，猶可活也。」試之果然。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-po-c09",
+          "source_id": "hua-po-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Villagers crowded round to look. Fearing the stir, Xie put her back in the tree, and shortly afterwards a large strange bird seized her in its beak and flew off.",
+          "statement_id": "Penduduk desa berbondong-bondong datang menonton. Karena khawatir menimbulkan kehebohan, Xie meletakkannya kembali di pohon, dan tak lama kemudian seekor burung besar yang aneh menyambarnya dan terbang membawanya.",
+          "quote": "里人聚觀者，如雲而至。謝恐招搖，乃仍送之樹上。須臾間，一大怪鳥銜之飛去。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2595,18 +2630,24 @@
     },
     {
       "slug": "klu",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-5.md",
+      "entry_sha256": "840bb019cfa55747c329995f8bc53d3ae423d08c26ca1d1f80ff694e0e0f00ae",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Mandarin, Buddha, Chinese, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[0].note",
+          "message": "Tidak muncul di kutipan mana pun: Buddha, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2649,25 +2690,70 @@
           "quote": "在苯教经过辛饶米沃祖师的改革而进入恰苯时期後，鲁龙被作为重要的神祇加以供奉，其形象演變為多種動物的綜合。苯教《大品黑白花濟龍經》（《十万龙经》）記載，龍神有人身、馬頭，或蛇頭、虎頭、熊頭、鼠頭、羊頭、牛頭、豹頭、豕頭、鹿頭、狼頭、孔雀頭等等不同形象，且都有蛇尾或魚尾。這與漢地龍形象的演變頗有相近之處，即“九擬”理論——角似鹿（最初漢地龍沒有角）、頭似駝、眼似兔、項似蛇、腹似蜃、鱗似魚、爪似鷹、掌似虎、身如牛。此時期，魯龍的故事也在原始傳說基礎上豐富而具體起來。如苯教经典《花黑白十万龙经》（简称《十万龙经》，也稱《十二萬龍經》）中寫道，魯龍是世界誕生之母，故稱“龍母”，它們居住在水域中，或山林中，也說住在海底龍宮，守护着无数财宝。藏学家海爾姆特·霍夫曼在《西藏的宗教》一书中写道：“这些龙的最初的住所是河和湖，甚至是些井；他们在水底有家，守卫着秘密的财富。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "klu-c05",
+          "source_id": "klu-s2",
+          "host": "waterstories.fas.harvard.edu",
+          "statement": "Water spirits known in Ladakh as lu (klu in Tibetan and Ladakhi) are commonly translated as naga, which the essay describes as semi-divine hybrid beings of Indian mythology with human torsos and serpent tails.",
+          "statement_id": "Roh air yang dikenal di Ladakh sebagai lu (klu dalam bahasa Tibet dan Ladakh) umumnya diterjemahkan sebagai naga; esai ini menggambarkan naga sebagai makhluk hibrida semi-ilahi dari mitologi India dengan batang tubuh manusia dan ekor ular.",
+          "quote": "These spirits, known locally as lu (klu in Tibetan and Ladakhi)—commonly translated as naga (semi-divine hybrid beings from Indian Mythology who have human torsos with serpent tails), remind us of their contribution to Buddhist practice and role in navigating human relationships with the environment.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "klu-c06",
+          "source_id": "klu-s2",
+          "host": "waterstories.fas.harvard.edu",
+          "statement": "In Ladakh, nagas are described as temperamental shape-shifting water spirits called lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well known for being able both to control water and to bring misfortune when disturbed.",
+          "statement_id": "Di Ladakh, naga dipandang sebagai roh air pengubah wujud yang mudah tersinggung, disebut lu; mereka mendiami berbagai sudut alam dan dapat memberi kekayaan besar. Dari aliran air dan tanah hingga pohon dan batu, lu terkenal mampu mengendalikan air sekaligus mendatangkan kemalangan bila diusik.",
+          "quote": "In Ladakh, nagas are temperamental shape-shifting water spirits known as lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well-known for their abilities to both control water and wreck misfortune when perturbed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "klu-c07",
+          "source_id": "klu-s2",
+          "host": "waterstories.fas.harvard.edu",
+          "statement": "Lu are known for their affinity for natural springs; contaminating a spring, even washing hands in it, is said to disturb the lu and can bring skin ailments, stomach trouble and joint pain. An unhappy lu can bring illness, hardship and unending tragedy to an individual, family or community.",
+          "statement_id": "Lu dikenal lekat dengan mata air alami; mencemari mata air, bahkan mencuci tangan di sana, dikatakan mengganggu lu dan dapat menimbulkan penyakit kulit, gangguan pencernaan, dan nyeri sendi. Lu yang tidak senang dapat mendatangkan penyakit, kesulitan, dan tragedi tak berkesudahan bagi seseorang, keluarga, atau komunitas.",
+          "quote": "lu are known for their affinity for natural springs and contaminating a spring, even washing one’s hands in the spring, will disrupt the lu and can result in bodily afflictions, such as skin maladies, gastrointestinal discomfort, and joint pain. An unhappy lu can bring illness, hardship, and unending tragedy to an individual, family, or community.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "klu-c08",
+          "source_id": "klu-s2",
+          "host": "waterstories.fas.harvard.edu",
+          "statement": "Nagas are said to control water, inhabit aquatic domains and move between realms; in Ladakh, keeping good relations with the lu is regarded as essential to sustaining balance and harmony in the environment.",
+          "statement_id": "Naga dikatakan mengendalikan air, mendiami ranah perairan, dan berpindah antar-alam; di Ladakh, menjaga hubungan baik dengan lu dinilai penting untuk menjaga keseimbangan dan keharmonisan lingkungan.",
+          "quote": "Nagas control water, inhabit aquatic domains, and navigate between realms. In Ladakh, maintaining good relationships with the lu (nagas) is essential for sustaining balance and harmonious in the environment.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "aa2cb447b6341a4525e2d80c1298b157271959fa928b3eaa6f1d1aea761f6039"
+      "images": []
     },
     {
       "slug": "lankeswari",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-5.md",
+      "entry_sha256": "7cc77f9b242e1be6856866fe5c625910acecb7697b0f3e288499901ab5f341a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia, Orissa, Review. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Review, Orissa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2700,10 +2786,89 @@
           "quote": "兰克斯瓦里（奧里亞語：ଲଙ୍କେଶ୍ୱରୀ，英語：Lankeswari；意为“楞伽女主宰者”或“楞伽自在母”）是印度奥里萨邦民间信仰的女神之一，相传她是来自斯里兰卡的海神。其主庙为位于索那普尔县的兰克斯瓦里神庙。",
           "context": "religious-tradition",
           "status": "loose"
+        },
+        {
+          "id": "lankeswari-c04",
+          "source_id": "lankeswari-s2",
+          "host": "magazines.odisha.gov.in",
+          "statement": "By tradition, Lankeswari is the protectress of the mythical city of Lanka ruled by Ravan; the protectress is also referred to as Lankini or Lankadevi.",
+          "statement_id": "Menurut tradisi, Lankeswari adalah pelindung kota mitos Lanka yang diperintah Rahwana (Ravan); sang pelindung ini disebut juga Lankini atau Lankadevi.",
+          "quote": "Lankeswari is stated by tradition to be the ... protectress of mythical city Lanka ruled by Ravan ... referred to as Lankini or Lankadevi.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240623110609id_/https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/121-125.pdf",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lankeswari-c05",
+          "source_id": "lankeswari-s2",
+          "host": "magazines.odisha.gov.in",
+          "statement": "Lankeswari is the presiding deity of Junagarh, the old capital of Kalahandi.",
+          "statement_id": "Lankeswari adalah dewa pelindung (presiding deity) Junagarh, ibu kota lama Kalahandi.",
+          "quote": "Lankeswari is the presiding deity of ... Junagarh, the old capital of Kalahandi.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240623110609id_/https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/121-125.pdf",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lankeswari-c06",
+          "source_id": "lankeswari-s2",
+          "host": "magazines.odisha.gov.in",
+          "statement": "Lankeswari is treated as a war goddess who, according to tradition, confers victory and success on the battlefield and also takes part in the war.",
+          "statement_id": "Lankeswari dianggap sebagai dewi perang, yang menurut tradisi memberi kemenangan dan keberhasilan di medan perang dan juga ikut serta dalam perang.",
+          "quote": "Deity Lankeswari is treated as war ... goddess who not only conferring victory and ... success in the battle field but also participating ... in the war as per tradition.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240623110609id_/https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/121-125.pdf",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lankeswari-c07",
+          "source_id": "lankeswari-s2",
+          "host": "magazines.odisha.gov.in",
+          "statement": "Local people claim that the goddess very often comes out of the temple as a beautiful young girl and joins the young girls of the locality in the Boria dance.",
+          "statement_id": "Penduduk setempat meyakini bahwa sang dewi kerap keluar dari kuil dalam rupa gadis muda yang cantik dan ikut menari Boria bersama gadis-gadis setempat.",
+          "quote": "Local people claim that very often deity use to come out from the temple in the form of a young beautiful girl and participate in Boria dance along with young girls of the locality.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240623110609id_/https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/121-125.pdf",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lankeswari-c08",
+          "source_id": "lankeswari-s2",
+          "host": "magazines.odisha.gov.in",
+          "statement": "The image of Lankeswari is described as four-armed, seated in Bajraparyanka posture on a lotus throne and holding the Sankha and the Chakra.",
+          "statement_id": "Arca Lankeswari digambarkan berlengan empat, duduk dalam sikap Bajraparyanka di atas singgasana teratai, dan memegang Sankha dan Chakra.",
+          "quote": "Deity Lankeswari is four armed. ... She sits in Bajraparyanka posture on a lotus ... throne. She holds Sankha and Chakra in her",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240623110609id_/https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/121-125.pdf",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lankeswari-c09",
+          "source_id": "lankeswari-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Goddess Lankeswari or Nikumbhilaa was the presiding deity of Paschima Lanka.",
+          "statement_id": "Menurut artikel ini, Dewi Lankeswari atau Nikumbhilaa adalah dewa pelindung Paschima Lanka.",
+          "quote": "Goddess Lankeswari or Nikumbhilaa was the presiding deity of Paschima Lanka.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lankeswari-c10",
+          "source_id": "lankeswari-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Maa Lankeswari is now worshipped by the Kaibarta community of Sonepur and the people of Subarnapur district.",
+          "statement_id": "Kini Maa Lankeswari dipuja oleh komunitas Kaibarta di Sonepur dan masyarakat Distrik Subarnapur.",
+          "quote": "Now Maa Lankeswari is worshiped by the Kaibarta community of Sonepur and people of Subarnapur district.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7dbd246e9af32c54ab7c1a0f6e85eb5e077dd939c27155b1ce912f2e5627fbaf"
+      "images": []
     },
     {
       "slug": "merperson-in-southsea",

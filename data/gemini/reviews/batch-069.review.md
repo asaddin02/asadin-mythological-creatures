@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-07T06:17:26.782Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md.
+Diperiksa 2026-10-07T06:55:10.035Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -390,10 +390,7 @@ Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 ## hua-po — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -402,6 +399,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | hua-po-c03 | exact | ja.wikipedia.org | The spirit is described as a pale beautiful woman the size of a palm. | 掌サイズの大きさで、肌の白い美女の姿をしている。 その鳴き声はインコに似ているとされる。 そのまま放っておくと干からびるが、水をかけると元通りになると言う。 |
 | hua-po-c04 | exact | ja.wikipedia.org | Its voice resembles a parakeet. | 掌サイズの大きさで、肌の白い美女の姿をしている。 その鳴き声はインコに似ているとされる。 そのまま放っておくと干からびるが、水をかけると元通りになると言う。 |
 | hua-po-c05 | exact | ja.wikipedia.org | It is said to dry out if left alone and recover when sprinkled with water. | 掌サイズの大きさで、肌の白い美女の姿をしている。 その鳴き声はインコに似ているとされる。 そのまま放っておくと干からびるが、水をかけると元通りになると言う。 |
+| hua-po-c06 | exact | zh.wikisource.org | In the story "Huapo" in 《子不語》 (Zibuyu), a scholar surnamed Xie who was studying on Zhanggong Mountain heard a chirping in the trees like a parrot. On going closer he saw a beautiful woman about five cun tall, hairless, white all over like jade, with a look of grief about her eyes and brows. | 婺源士人謝某，讀書張公山。早起，聞樹林鳥聲啁啾，有似鸚哥。因近視之，乃一美女，長五寸許，赤身無毛，通體潔白如玉，眉目間有愁苦之狀。 |
+| hua-po-c07 | exact | zh.wikisource.org | The scholar took her home, kept her in a cage and fed her rice. She chattered to people but could not be understood. After some days, exposed to the sun, she dried up and died. | 遂攜以歸，女無懼色。乃畜籠中，以飯喂之。向人絮語，了不可辨。畜數日，為太陽所照，竟成枯臘而死。 |
+| hua-po-c08 | exact | zh.wikisource.org | A xiaolian (孝廉) named Hong said the creature was called 花魄 (Huapo), formed from the aggrieved and anguished qi of a tree on which people had hanged themselves three times, and that pouring water on it could still revive it; when tried, it proved so. | 洪孝廉字麟聞之曰：「此名花魄，凡樹經三次人縊死者，其冤苦之氣結成此物，沃以水，猶可活也。」試之果然。 |
+| hua-po-c09 | exact | zh.wikisource.org | Villagers crowded round to look. Fearing the stir, Xie put her back in the tree, and shortly afterwards a large strange bird seized her in its beak and flew off. | 里人聚觀者，如雲而至。謝恐招搖，乃仍送之樹上。須臾間，一大怪鳥銜之飛去。 |
 
 
 ## kaimingshou — lulus-otomatis
@@ -458,10 +459,11 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## klu — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
+Klaim 8 (loose 2, exact 6), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Mandarin, Buddha, Chinese, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `relations[0].note` Tidak muncul di kutipan mana pun: Buddha, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -469,20 +471,32 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | klu-c02 | loose | zh.wikipedia.org | In Bon, some bring harvests and happiness while others bring disease and disaster. | 鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；魯龙是重要的水界神靈，传说作为天神之子的吐蕃王赞普，最初皆与龙女或神女婚配；佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。考古認為魯龙文化的起源非常久遠，可能是漢藏民族的共同信仰，在纳西、彝、傈僳等其他民族中都有流传，和汉地的龙文化也可能同源。 |
 | klu-c03 | exact | zh.wikipedia.org | Early Klu forms are variable and can include different aquatic animals. | 根據對遺跡、壁畫和史料記載等的考古研究，推断“魯”龍神崇拜起源於吐蕃以前的原始社會。早期的鲁龙形象复杂多变，可以附身或化身爲水生動物，沒有固定的形象，甚至可以泛指魚、蝦、蛙、蛇、蝎、蟹等。牠們能帶來420多種疾病，如瘟疫、梅毒、傷寒、天花、麻風等，藏人稱之為“龍病”。在近代的川西南藏区仍流传着“亵渎了水中的神灵，身上就会起水泡、长脓疮”的说法，是“龙病”观点的遗留。 |
 | klu-c04 | exact | zh.wikipedia.org | Bon texts describe composite forms with human bodies, various animal heads, and snake or fish tails. | 在苯教经过辛饶米沃祖师的改革而进入恰苯时期後，鲁龙被作为重要的神祇加以供奉，其形象演變為多種動物的綜合。苯教《大品黑白花濟龍經》（《十万龙经》）記載，龍神有人身、馬頭，或蛇頭、虎頭、熊頭、鼠頭、羊頭、牛頭、豹頭、豕頭、鹿頭、狼頭、孔雀頭等等不同形象，且都有蛇尾或魚尾。這與漢地龍形象的演變頗有相近之處，即“九擬”理論——角似鹿（最初漢地龍沒有角）、頭似駝、眼似兔、項似蛇、腹似蜃、鱗似魚、爪似鷹、掌似虎、身如牛。此時期，魯龍的故事也在原始傳說基礎上豐富而具體起來。如苯教经典《花黑白十万龙经》（简称《十万龙经》，也稱《十二萬龍經》）中寫道，魯龍是世界誕生之母，故稱“龍母”，它們居住在水域中，或山林中，也說住在海底龍宮，守护着无数财宝。藏学家海爾姆特·霍夫曼在《西藏的宗教》一书中写道：“这些龙的最初的住所是河和湖，甚至是些井；他们在水底有家，守卫着秘密的财富。 |
+| klu-c05 | exact | waterstories.fas.harvard.edu | Water spirits known in Ladakh as lu (klu in Tibetan and Ladakhi) are commonly translated as naga, which the essay describes as semi-divine hybrid beings of Indian mythology with human torsos and serpent tails. | These spirits, known locally as lu (klu in Tibetan and Ladakhi)—commonly translated as naga (semi-divine hybrid beings from Indian Mythology who have human torsos with serpent tails), remind us of their contribution to Buddhist practice and role in navigating human relationships with the environment. |
+| klu-c06 | exact | waterstories.fas.harvard.edu | In Ladakh, nagas are described as temperamental shape-shifting water spirits called lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well known for being able both to control water and to bring misfortune when disturbed. | In Ladakh, nagas are temperamental shape-shifting water spirits known as lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well-known for their abilities to both control water and wreck misfortune when perturbed. |
+| klu-c07 | exact | waterstories.fas.harvard.edu | Lu are known for their affinity for natural springs; contaminating a spring, even washing hands in it, is said to disturb the lu and can bring skin ailments, stomach trouble and joint pain. An unhappy lu can bring illness, hardship and unending tragedy to an individual, family or community. | lu are known for their affinity for natural springs and contaminating a spring, even washing one’s hands in the spring, will disrupt the lu and can result in bodily afflictions, such as skin maladies, gastrointestinal discomfort, and joint pain. An unhappy lu can bring illness, hardship, and unending tragedy to an individual, family, or community. |
+| klu-c08 | exact | waterstories.fas.harvard.edu | Nagas are said to control water, inhabit aquatic domains and move between realms; in Ladakh, keeping good relations with the lu is regarded as essential to sustaining balance and harmony in the environment. | Nagas control water, inhabit aquatic domains, and navigate between realms. In Ladakh, maintaining good relationships with the lu (nagas) is essential for sustaining balance and harmonious in the environment. |
 
 
 ## lankeswari — lulus-otomatis
 
-Klaim 3 (loose 3), sumber 1, gambar 0.
+Klaim 10 (loose 3, exact 7), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia, Orissa, Review. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[2]` Tidak muncul di kutipan mana pun: Review, Orissa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lankeswari-c01 | loose | zh.wikipedia.org | Lankeswari is a goddess in the folk traditions of Odisha, India. | 兰克斯瓦里（奧里亞語：ଲଙ୍କେଶ୍ୱରୀ，英語：Lankeswari；意为“楞伽女主宰者”或“楞伽自在母”）是印度奥里萨邦民间信仰的女神之一，相传她是来自斯里兰卡的海神。其主庙为位于索那普尔县的兰克斯瓦里神庙。 |
 | lankeswari-c02 | loose | zh.wikipedia.org | The cited tradition describes her as a sea goddess originating from Sri Lanka. | 兰克斯瓦里（奧里亞語：ଲଙ୍କେଶ୍ୱରୀ，英語：Lankeswari；意为“楞伽女主宰者”或“楞伽自在母”）是印度奥里萨邦民间信仰的女神之一，相传她是来自斯里兰卡的海神。其主庙为位于索那普尔县的兰克斯瓦里神庙。 |
 | lankeswari-c03 | loose | zh.wikipedia.org | The principal temple mentioned is in the Sonepur area. | 兰克斯瓦里（奧里亞語：ଲଙ୍କେଶ୍ୱରୀ，英語：Lankeswari；意为“楞伽女主宰者”或“楞伽自在母”）是印度奥里萨邦民间信仰的女神之一，相传她是来自斯里兰卡的海神。其主庙为位于索那普尔县的兰克斯瓦里神庙。 |
+| lankeswari-c04 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | magazines.odisha.gov.in | By tradition, Lankeswari is the protectress of the mythical city of Lanka ruled by Ravan; the protectress is also referred to as Lankini or Lankadevi. | Lankeswari is stated by tradition to be the ... protectress of mythical city Lanka ruled by Ravan ... referred to as Lankini or Lankadevi. |
+| lankeswari-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | magazines.odisha.gov.in | Lankeswari is the presiding deity of Junagarh, the old capital of Kalahandi. | Lankeswari is the presiding deity of ... Junagarh, the old capital of Kalahandi. |
+| lankeswari-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | magazines.odisha.gov.in | Lankeswari is treated as a war goddess who, according to tradition, confers victory and success on the battlefield and also takes part in the war. | Deity Lankeswari is treated as war ... goddess who not only conferring victory and ... success in the battle field but also participating ... in the war as per tradition. |
+| lankeswari-c07 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | magazines.odisha.gov.in | Local people claim that the goddess very often comes out of the temple as a beautiful young girl and joins the young girls of the locality in the Boria dance. | Local people claim that very often deity use to come out from the temple in the form of a young beautiful girl and participate in Boria dance along with young girls of the locality. |
+| lankeswari-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | magazines.odisha.gov.in | The image of Lankeswari is described as four-armed, seated in Bajraparyanka posture on a lotus throne and holding the Sankha and the Chakra. | Deity Lankeswari is four armed. ... She sits in Bajraparyanka posture on a lotus ... throne. She holds Sankha and Chakra in her |
+| lankeswari-c09 | exact | en.wikipedia.org | According to the article, Goddess Lankeswari or Nikumbhilaa was the presiding deity of Paschima Lanka. | Goddess Lankeswari or Nikumbhilaa was the presiding deity of Paschima Lanka. |
+| lankeswari-c10 | exact | en.wikipedia.org | Maa Lankeswari is now worshipped by the Kaibarta community of Sonepur and the people of Subarnapur district. | Now Maa Lankeswari is worshiped by the Kaibarta community of Sonepur and people of Subarnapur district. |
 
 
 ## merperson-in-southsea — lulus-otomatis
