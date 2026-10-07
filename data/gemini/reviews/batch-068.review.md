@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-06T19:30:27.357Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md.
+Diperiksa 2026-10-07T05:23:48.459Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -625,16 +625,20 @@ Klaim 13 (exact 11, loose 2), sumber 2, gambar 0.
 
 ## ao-run — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Tiongkok, Korea. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `relations[0].note` Tidak muncul di kutipan mana pun: Timur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ao-run-c01 | exact | en.wikipedia.org | Ao Run is the West Sea Dragon King and a member of the Dragon Kings of the Four Seas. | Ao Run (敖闰) or Ao Ji (敖吉), is the Dragon King of the West Sea (西海龙王, Xīhǎi Lóngwáng) and one of the Dragon Kings of the Four Seas in Chinese religion and Korean mythology. As an important belief in Chinese folk religion, Four Dragon King Temples are built around the place to worship the Dragon Kings. |
 | ao-run-c02 | exact | en.wikipedia.org | He is associated with Qinghai Lake and the brothers Ao Guang, Ao Qin, and Ao Shun. | Ao Run is the patron of Qinghai Lake and could be linked to the White Tiger as both are Chinese western gods. His brothers are Ao Guang, the Dragon King of the East Sea, Ao Qin, the Dragon King of the South Sea, and Ao Shun, the Dragon King of the North Sea. |
 | ao-run-c03 | exact | en.wikipedia.org | In the Jakjaegeon myth, the West Sea Dragon King seeks help against an old spirit. | In the Jakjaegeon myth, a part of the Goryeo Dynasty founding myth, Jakjaegeon kills an old Gwishin with a bow at the request of the Dragon King of the West Sea, who appears to him in a dream. The Dragon King of the West Sea gives him his daughter in gratitude, and the Dragon King of the West Sea tells Jakjaegeon that his grandson (King Taejo of Goryeo) will be king. |
+| ao-run-c04 | exact | zh.wikisource.org | In chapter 3 of the novel Xiyouji (Journey to the West), a Dragon King answers Wukong that his younger brothers are Ao Qin, dragon king of the South Sea, Ao Shun, of the North Sea, and Ao Run, of the West Sea. | 悟空道：「令弟何在？」龍王道：「舍弟乃南海龍王敖欽、北海龍王敖順、西海龍王敖閏是也。」 |
+| ao-run-c05 | exact | zh.wikisource.org | In chapter 3 of Xiyouji, Ao Run, the West Sea Dragon King, tells his elder brother not to fight the man but only to put together a suit of armour for him, send him out the door, and submit a memorial to Heaven so that Heaven itself will punish him. | 西海龍王敖閏說：「二哥不可與他動手。且只湊副披掛與他，打發他出了門，啟表奏上上天，天自誅也。」 |
+| ao-run-c06 | exact | zh.wikisource.org | In chapter 15 of Xiyouji, the Bodhisattva says the creature, called a wicked dragon, is a son of Ao Run of the West Sea; he set fire to the pearl in the hall, his father accused him of impiety, and he committed a capital crime at the heavenly court. | 那大聖著小神來告請菩薩降這孽龍，還他馬匹。」菩薩聞言道：「這廝本是西海敖閏之子，他為縱火燒了殿上明珠，他父告他忤逆，天庭上犯了死罪。 |
 
 
 ## bifang — lulus-otomatis
@@ -656,25 +660,23 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## chang-monster — lulus-otomatis
 
-Klaim 4 (exact 3, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 7, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| chang-monster-c01 | exact | en.wikipedia.org | Chang is a Chinese ghost that lures people toward death. | A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning. |
-| chang-monster-c02 | exact | en.wikipedia.org | In common accounts, a tiger's victim becomes a spirit bound to the killing animal. | A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning. |
-| chang-monster-c03 | exact | en.wikipedia.org | The spirit gains release only after providing a replacement victim for the tiger. | A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning. |
+| chang-monster-c01 | exact | en.wikipedia.org | Chang is a Chinese ghost that lures people toward death. | A chang is a kind of Chinese ghost or zombie who lures others to their death. |
+| chang-monster-c02 | exact | en.wikipedia.org | In common accounts, a tiger's victim becomes a spirit bound to the killing animal. | Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them |
+| chang-monster-c03 | exact | en.wikipedia.org | The spirit gains release only after providing a replacement victim for the tiger. | unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning. |
 | chang-monster-c04 | loose | en.wikipedia.org | The idiom acting as chang for a tiger denotes helping evil people. | The chang appears in the Chinese idioms "act the chang for the tiger" (為虎作倀, 为虎作伥, "to help evil people") and "wolves can't go without beis and tigers can't bite without changs" (狼無狽不行，虎無倀不噬, 狼无狈不行，虎无伥不噬, "evil people can't succeed on their own"). |
+| chang-monster-c05 | exact | zh.wikisource.org | The Kangxi Dictionary records that a person bitten by a tiger, once dead, has a soul that dares not go elsewhere and keeps serving the tiger; it is called chang. | 倀倀乎其何之。又倀鬼，虎齧人，人死，魂不敢他適，輒隷事虎，名曰倀。 |
+| chang-monster-c06 | exact | zh.wikisource.org | In the Taiping Guangji, a man walking in the mountains of Jingzhou meets a chang, is covered with a tiger skin and turns into a tiger, and for three or four years devours people, livestock and wild animals under the chang's direction. | 荊州有人山行，忽遇倀鬼，以虎皮冒己，因化為虎，受倀鬼指揮。凡三四年，搏食人畜及諸野獸，不可勝數。 |
+| chang-monster-c07 | exact | zh.wikisource.org | In the tale of Liu Lao in the Taiping Guangji, an old man says that a chang teaches the tiger; the chang likes sour things, and if it eats plums scattered on the road it can no longer see, so the tiger can be caught. | 叟曰：「此為倀鬼所教，若先制倀，即當得虎。」劉問何法取之？叟云：「此鬼好酸，可以烏白等梅及楊梅布之要路，倀若食之，便不見物，虎乃可獲。」 |
+| chang-monster-c08 | exact | zh.wikisource.org | In the tale of the Xunyang hunter in the Taiping Guangji, after the tiger is killed by the arrow, the chang returns, sees the tiger dead, and leaves dancing. | 少頃虎至，履弓箭發，其虎貫脅而死。其倀鬼良久卻回，見虎死，遂鼓舞而去也。 |
 
 
 ## dilang — lulus-otomatis
 
-Klaim 6 (exact 2, loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 7, loose 4), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -684,14 +686,19 @@ Klaim 6 (exact 2, loose 4), sumber 1, gambar 0.
 | dilang-c04 | loose | en.wikipedia.org | Another tale describes Zhang Mao discovering two puppies when the ground beneath his bed opens. | Gan Bao's book also mentioned another discovery, that of the Grand Protector of Wu Commandery, Zhang Mao (張茂), which supposedly took place during the taixing period (c. 318–321) of Emperor Yuan of Jin's reign. Zhang had heard sounds of dogs beneath his bed but could not find the source; finally the earth cracked open and revealed two puppies. |
 | dilang-c05 | loose | en.wikipedia.org | The Book of Jin records Sun Wuzhong finding white puppies. | A similar story is found in the official historical text Book of Jin (648) about Sun Wuzhong (孫無終), a general under Emperor Xiaowu of Jin, who found two white puppies, also one gender each, under his residence in Jiyang County (既陽縣). Sun also tried but failed to rear them; he was soon killed in 402 by the rebel Huan Xuan. |
 | dilang-c06 | loose | en.wikipedia.org | Another Book of Jin account describes He Xu finding two puppies underground. | According to the same chapter in Book of Jin, in the year 434, a man named He Xu (何旭) in Qian County (灊縣) also found two puppies underground; their thin and "blue" mother escaped. He Xu also tried to rear them; the female died but the male survived and grew to be "good at devouring beasts". Later, He Xu's village was destroyed by "barbarians". |
+| dilang-c07 | exact | zh.wikisource.org | In the Soushen Ji, an elder says the puppies dug from the ground are called 'xiquan' and that whoever obtains them makes his family prosperous, so they should be raised. | 形大於常犬。哺之，而食。左右咸往觀焉。長老或云：「此名『犀犬』，得之者，令家富昌，宜當養之。」 |
+| dilang-c08 | exact | zh.wikisource.org | The Soushen Ji quotes the Shizi: a dog in the earth is called dilang and a person in the earth is called wushang; a quoted Xia Ding Zhi says a dog dug out of the ground is called jia. | 尸子曰：「地中有犬，名曰『地狼』；有人，名曰『無傷』。」夏鼎志曰：「掘地而得狗，名曰『賈』 |
+| dilang-c09 | exact | zh.wikisource.org | The Book of Jin records that in the fourth year of Taixing, the household of He Xu in Qian, Lujiang, heard puppy sounds underground, dug and found a thin mother dog that ran into the grass and two puppies; the female died, the male lived and grew into a dog good at biting beasts. | 太興四年，廬江灊縣何旭家忽聞地中有犬子聲，掘之得一母犬，青釐色，狀甚羸瘦，走入草中，不知所在。視其處有二犬子，一雄一雌，哺而養之，雌死雄活。及長為犬，善噬獸。 |
+| dilang-c10 | exact | zh.wikisource.org | The Book of Jin records that at Sun Wuzhong's home in Jiyang the ground split and two white puppies, one male and one female, appeared; both died despite being raised, and Sun Wuzhong was later put to death by Huan Xuan. | 是時輔國將軍孫無終家于既陽，地中聞犬子聲，尋而地坼，有二犬子，皆白色，一雄一雌，取而養之，皆死。後無終為桓玄所誅滅。 |
+| dilang-c11 | exact | zh.wikisource.org | After citing the Shizi that a dog in the earth is called dilang, the Book of Jin calls it a natural thing that appears when it should not, a 'dog calamity'. | 案《屍子》曰：「地中有犬，名曰地狼。」《夏鼎志》曰；「掘地得犬，名曰賈。」此蓋自然之物，不應出而出，為犬禍也。 |
 
 
 ## feilong — lulus-otomatis
 
-Klaim 4 (exact 1, loose 3), sumber 1, gambar 0.
+Klaim 6 (exact 3, loose 3), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Jepang, Korea, Vietnam. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -699,81 +706,100 @@ Klaim 4 (exact 1, loose 3), sumber 1, gambar 0.
 | feilong-c02 | loose | en.wikipedia.org | Its name combines words for flying and dragon. | The Chinese dragon name feilong combines fei (飞; 飛; 'fly', 'flying', 'hover', 'flutter') and long (龙; 龍; 'dragon'). This loanword 飛龍 became the Japanese: 飛竜; rōmaji: hiryū; Korean: 비룡; romaja: biryong; Vietnamese: philong. The inverted Longfei (龍飛) was an era name (396–399 CE) during the Later Liang Dynasty. |
 | feilong-c03 | loose | en.wikipedia.org | The Shuowen Jiezi uses Feilong in the definition of the da character for a flying dragon. | The (121 CE) Shuowen Jiezi, the first Chinese character dictionary, uses feilong to define da (龖) (written with 2 龍 dragons) "flying dragon; appearance of a dragon in flight". |
 | feilong-c04 | loose | en.wikipedia.org | The Yijing uses a flying dragon as an image of a great or accomplished person. | The (5th–3rd centuries BCE) Yijing "Book of Changes" first uses feilong to symbolize a daren (大人) "great person; accomplished person". Qian (乾) "The Creative", the first hexagram, says, "Nine in the fifth place means: Flying dragons in the heavens. |
+| feilong-c05 | exact | zh.wikisource.org | The Yijing text (Wenyan commentary on the hexagram Qian) quotes the line 'a flying dragon in the heavens' and explains it with the saying that clouds follow the dragon and wind follows the tiger. | 九五曰：「飛龍在天，利見大人。」何謂也？子曰：「同聲相應，同氣相求；水流濕，火就燥，雲從龍，風從虎； |
+| feilong-c06 | exact | zh.wikisource.org | The Hanfeizi quotes Shenzi: the flying dragon rides the clouds and the soaring snake roams the mist, but when clouds and mist clear, dragon and snake are the same as earthworms and ants, having lost what they ride. | 慎子曰：飛龍乘雲，騰蛇遊霧，雲罷霧霽，而龍蛇與螾螘同矣，則失其所乘也。 |
 
 
 ## fuzhu-mythical-beast — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | fuzhu-mythical-beast-c01 | exact | en.wikipedia.org | Fuzhu is a Chinese mythological beast appearing in the Shanhaijing. | Fuzhu (Chinese: 夫諸) is a mythical beast in ancient Chinese myths and legends. It appears in the Shanhaijing. |
-| fuzhu-mythical-beast-c02 | exact | en.wikipedia.org | Its portrayal is a deer with four horns. | Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood. |
-| fuzhu-mythical-beast-c03 | exact | en.wikipedia.org | The creature is described as gentle and fond of cleanliness. | Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood. |
-| fuzhu-mythical-beast-c04 | exact | en.wikipedia.org | Its appearance is associated with periods of flooding. | Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood. |
+| fuzhu-mythical-beast-c02 | exact | en.wikipedia.org | Its portrayal is a deer with four horns. | Fuzhu is described to be a kind of deer with four horns. |
+| fuzhu-mythical-beast-c03 | exact | en.wikipedia.org | The creature is described as gentle and fond of cleanliness. | It is described as being gentle and having a desire to be clean. |
+| fuzhu-mythical-beast-c04 | exact | en.wikipedia.org | Its appearance is associated with periods of flooding. | The Fuzhu usually appears during periods of flood. |
+| fuzhu-mythical-beast-c05 | exact | zh.wikisource.org | In the Shanhaijing (Zhongshan Jing), there is a beast shaped like a white deer with four horns called fuzhu; when it appears, its city suffers a great flood. | 北望河林，其狀如莤如舉。有獸焉，其狀如白鹿而四角，名曰夫諸，見則其邑大水。 |
+| fuzhu-mythical-beast-c06 | exact | zh.wikisource.org | In Wu Renchen's notes to the Shanhaijing, the Pianya is cited as saying that a white deer with four horns is fuzhu. | 如蒨如舉言其一望蔚葱有如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸 |
 
 
 ## gangcheori — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
+Klaim 9 (loose 2, exact 7), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: 17. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gangcheori-c01 | loose | en.wikipedia.org | Gangcheori is a dragon-shaped monster of Korean mythology. | Gangcheori (강철이; 強鐵) is a dragon-shaped monster in Korean mythology that was introduced in the 17th century. It is a monster that has traditionally been popular throughout the country. It also has been called Gangcheol (강철), Kkangcheol (깡철), and Ggoangcheol (꽝철). |
-| gangcheori-c02 | loose | en.wikipedia.org | Other names include Gangcheol, Kkangcheol, and Ggoangcheol. | Gangcheori (강철이; 強鐵) is a dragon-shaped monster in Korean mythology that was introduced in the 17th century. It is a monster that has traditionally been popular throughout the country. It also has been called Gangcheol (강철), Kkangcheol (깡철), and Ggoangcheol (꽝철). |
+| gangcheori-c02 | loose | en.wikipedia.org | Other names include Gangcheol, Kkangcheol, and Ggoangcheol. | It also has been called Gangcheol (강철), Kkangcheol (깡철), and Ggoangcheol (꽝철). |
 | gangcheori-c03 | exact | en.wikipedia.org | The Jibong Yuseol of 1614 contains an early record of Gangcheori. | One of the earliest records of Gangcheori being mentioned is the Jibong Yuseol (1614). In those days, there was an old saying, "Where Gangcheori goes it is like spring, even if it is fall." When author Lee Soo-kwang asked an old man in the countryside about the origin of the word, the old man told him about a monster called Gangcheori that burns down everything in a few miles. |
-| gangcheori-c04 | exact | en.wikipedia.org | The account recorded by Lee Soo-kwang describes it burning an area of several miles. | One of the earliest records of Gangcheori being mentioned is the Jibong Yuseol (1614). In those days, there was an old saying, "Where Gangcheori goes it is like spring, even if it is fall." When author Lee Soo-kwang asked an old man in the countryside about the origin of the word, the old man told him about a monster called Gangcheori that burns down everything in a few miles. |
+| gangcheori-c04 | exact | en.wikipedia.org | When the author Lee Soo-kwang asked an old man in the countryside where the saying came from, the old man described a monster called Gangcheori that burns everything down for a few miles. | When author Lee Soo-kwang asked an old man in the countryside about the origin of the word, the old man told him about a monster called Gangcheori that burns down everything in a few miles. |
+| gangcheori-c05 | exact | ko.wikisource.org | In the Yeolha Ilgi, the speaker says the creature is named gangcheol (罡鐵) and cites the Korean folk saying 'where gangcheol goes, autumn becomes spring', meaning it brings drought and a poor harvest; poor people whose plans go awry speak of 'gangcheol's autumn'. | 此名罡鐵 我東鄙諺云 罡鐵去處 秋亦爲春 謂其致旱歲歉也 故貧人謀事違心 稱罡鐵之秋 |
+| gangcheori-c06 | exact | ko.wikipedia.org | Korean Wikipedia says Yi Su-gwang, author of the Jibong Yuseol, took the monster that burns all plants for several ri around to be the monster bi (蜚) of the Shanhaijing. | 강철이 언급되는 가장 이른 기록 중 하나는 《지봉유설》(1614년)이다. ... 근방 몇 리의 식물을 모두 태워죽이는 강철이라는 괴물을 알려주었다. 이수광은 이것을 《산해경》에 나오는 괴물 비(蜚)라고 생각했다. |
+| gangcheori-c07 | exact | ko.wikipedia.org | According to Korean Wikipedia, Yi Ik's Seongho Saseol (1740) describes gangcheori as a creature that ruins farming not by drought but by heavy rain, and Yi Ik took it to be the same as the Chinese poison dragon (dokryong). | 이익의 《성호사설》(1740년)에서는 가뭄이 아니라 호우로 농사를 망치는 요괴라고 하는데, 이익은 이를 중국에서 전하는 독룡과 같다고 보았다. |
+| gangcheori-c08 | exact | ko.wikipedia.org | According to Korean Wikipedia, Yi Deok-mu's Anyeop Gi describes it as a creature like a foal living in a swamp in Gimpo and causing drought, and Yi Deok-mu took it to be the same as the Chinese creature hou (犼). | 이덕무의 《앙엽기》에서는 망아지처럼 생긴 요괴로, 김포의 늪 속에 살면서 가뭄을 일으킨다고 한다. 이덕무는 강철을 중국 요괴 후(犼)와 같은 것이라고 생각했다. |
+| gangcheori-c09 | exact | ko.wikipedia.org | Korean Wikipedia interprets that, because stories of crops ruined by drought and by heavy rain circulated at about the same time, natural disasters that ruin farming in general seem to have been attributed to gangcheori. | 가뭄으로 농사를 망친다는 이야기와 호우로 농사를 망친다는 상반된 이야기가 비슷한 시기에 모두 전해지는 것으로 보아, 농사를 망치는 자연재해 전반을 강철의 소행으로 돌린 것 같으며 |
 
 
 ## heluo-fish — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Inggris, English. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | heluo-fish-c01 | exact | en.wikipedia.org | Heluo fish is a Chinese mythological fish with one head and ten bodies. | In Chinese mythology, Heluo fish (simplified Chinese: 何罗鱼; traditional Chinese: 何羅魚; pinyin: Héluóyú) and Zi fish (simplified Chinese: 茈鱼; traditional Chinese: 茈魚; pinyin: Zǐyú) are fish with one head and ten bodies. |
-| heluo-fish-c02 | exact | en.wikipedia.org | A quoted Shanhaijing passage places it in a river rising from Mount Burnbright. | ...Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River. The River Burning contains many what-not fish [Heluo fish] with one head and ten bodies. They make a noise like a dog barking. If you eat them, they will cure cancerous growths. |
-| heluo-fish-c03 | exact | en.wikipedia.org | The fish is described as making a dog-like barking sound. | ...Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River. The River Burning contains many what-not fish [Heluo fish] with one head and ten bodies. They make a noise like a dog barking. If you eat them, they will cure cancerous growths. |
+| heluo-fish-c02 | exact | en.wikipedia.org | A quoted Shanhaijing passage places the fish in the River Burning, which rises at Mount Burnbright and flows west into the Great River. | Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River. |
+| heluo-fish-c03 | exact | en.wikipedia.org | The fish is described as making a noise like a dog barking, and eating it is said to cure cancerous growths. | They make a noise like a dog barking. If you eat them, they will cure cancerous growths. |
 | heluo-fish-c04 | exact | en.wikipedia.org | That account comes from the Northern Mountains section of the Shanhaijing. | — Book Three, The Classic of the Northern Mountains, Chapter 1 |
+| heluo-fish-c05 | exact | zh.wikisource.org | The Shanhaijing (Beishan Jing) says that the waters of Mount Qiaoming hold many heluo fish with one head and ten bodies, whose sound is like a barking dog, and that eating them cures carbuncles (yong). | 又北四百里，曰譙明之山。譙水出焉，西流注于河。其中多何羅之魚，一首而十身，其音如吠犬，食之已癰。 |
+| heluo-fish-c06 | exact | zh.wikisource.org | In Wu Renchen's notes to the Shanhaijing, Yang Shen's supplementary note says the heluo fish is now the 'eight-band fish' (badaiyu), and the Yiyu Tuzan is quoted as saying that the heluo fish, with one head and ten bodies, turns into a bird named xiujiu that steals husked rice and falls dead into the mortar. | 譙水出焉西流注于河〈任臣案一統志譙水在陜州城南三里湧出入河俗呼三里澗〉其中多何羅之魚一首而十身〈任臣案張融海賦何羅鱅鮨即此也楊慎補注云何羅魚今八帶魚也異魚圖贊曰何羅之魚十身一首化而為鳥其名休舊竊糈于舂傷隕在臼 |
+| heluo-fish-c07 | exact | en.wikipedia.org | Wikipedia states that in the 16th century Yang Shen wrote in the Yiyu Tuzan that, like the Kun fish, the heluo fish can change into a bird called xiujiu, notorious for stealing husked rice and falling dead into mortars. | In the 16th century, Yang Shen wrote in Encomiums on Strange Fish ... that, just like the Kun fish (which can transform itself into a bird), the Heluo fish can also change into a bird known as Xiujiu ... notorious for stealing husked rice and falling into mortars, dead. |
+| heluo-fish-c08 | exact | en.wikipedia.org | A quoted Shanhaijing passage describes the Zi fish, which looks like a perch, as also having one head and ten bodies and smelling like the scent-herb. | The River Limpid rises here and flows northeast to empty into the sea. This river contains many fine cowrie shells and numerous red-dye fish [Zi fish] which look like perch. They have one head and ten bodies, and they smell like the scent-herb. |
 
 
 ## kawas-mythology — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Tradisi Amis".
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kawas-mythology-c01 | exact | en.wikipedia.org | Kawas are supernatural entities in Amis belief. | Kawas are supernatural entities in the Amis faith. Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used. |
-| kawas-mythology-c02 | exact | en.wikipedia.org | Amis belief and Christianity have syncretized while the term kawas remains in use. | Kawas are supernatural entities in the Amis faith. Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used. |
-| kawas-mythology-c03 | exact | en.wikipedia.org | Kawas categories include deities, ancestors, living beings' souls, object spirits, and ghosts. | Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings, giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas. |
-| kawas-mythology-c04 | exact | en.wikipedia.org | Lisin ceremonies address kawas that may bring blessings or calamities. | Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings, giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas. |
+| kawas-mythology-c01 | exact | en.wikipedia.org | Kawas are supernatural entities in Amis belief. | Kawas are supernatural entities in the Amis faith. |
+| kawas-mythology-c02 | exact | en.wikipedia.org | Amis belief and Christianity have syncretized while the term kawas remains in use. | Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used. |
+| kawas-mythology-c03 | exact | en.wikipedia.org | Kawas categories include deities, ancestors, living beings' souls, object spirits, and ghosts. | Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings |
+| kawas-mythology-c04 | exact | en.wikipedia.org | Lisin ceremonies address kawas that may bring blessings or calamities. | giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas. |
 | kawas-mythology-c05 | exact | en.wikipedia.org | Kawas is also used in terms for Amis spiritual practitioners or healers. | Kawas is a root word used to describe a spiritual practitioner, healer, or shaman in the Amis culture. |
+| kawas-mythology-c06 | exact | web.alcd.center | According to Namoh Rata, the common understanding of kawas across Amis communities is a good spirit, coming from good people after death and the source of happiness, health and natural phenomena, and an evil spirit, coming from bad people or those who died unnaturally and the source of misfortune, illness and calamity. | 「kawas」的共同認識是：（1）指善靈，是由善 ... 人死後變來的，是一切幸福、健康和自然界各種 ... 現象的根源。（2）指惡靈，是壞人或死於非命 ... 者死後變來的靈，是一切不幸、疾病和災禍的來 |
+| kawas-mythology-c07 | exact | web.alcd.center | Namoh Rata writes that kawas also means ancestral spirits, who hold a very important place and are counted among good spirits; as long as their descendants willingly follow the rules and customs set by the ancestors, they are glad to protect and help them live a peaceful life. | （3）指祖先的靈。在阿美族人的腦海裡， ... 祖先的靈占有非常重要的地位，他們被列為善 ... 靈，只要他們的後裔樂意遵守祖先生前所規定的 ... 律例和習慣，他們將樂意保護和幫助他們的後裔 ... 過安逸平順的生活。 |
+| kawas-mythology-c08 | exact | web.alcd.center | Namoh Rata notes that the Amis use the word kawas to refer to the 'supreme being' of Christianity, God. | 以「上帝」和「神」為例，阿美族以kawas ... 指涉基督教「至高無上的存在者」——上帝。 |
 
 
 ## kun — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kun-c01 | exact | ja.wikipedia.org | Kun is a Chinese legendary fish described as immensely large. | 鯤（こん）は、中国に伝わる伝説の魚。頭から尾の先までの大きさがわからないほど、非常に体が大きいとされる。 |
-| kun-c02 | exact | ja.wikipedia.org | In a Zhuangzi parable, Kun dwells in the far northern sea and spans thousands of li. | 『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。 |
-| kun-c03 | exact | ja.wikipedia.org | The tale connects Kun's transformation with the giant bird Peng. | 『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。 |
+| kun-c02 | exact | ja.wikipedia.org | In a Zhuangzi parable, Kun dwells in the far northern sea and spans thousands of li. | 『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。 |
+| kun-c03 | exact | ja.wikipedia.org | The tale connects Kun's transformation with the giant bird Peng. | この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。 |
 | kun-c04 | exact | ja.wikipedia.org | The Erya uses the Kun character for fish fry or eggs, unlike the giant in the tale. | 鯤は『荘子』などにおいて非常に大きな魚の名前として用いられているが、それ以前の古代の辞書である『爾雅』には「鯤」の文字の説明には「魚子」（魚の子）とあり、卵から孵ったばかりのこまかい魚、あるいは魚卵だとしている。そのため、非常に小さいものを現わす名称を持つ巨大な魚という転倒によるおかしみや、非常に巨大な魚として語られている鯤も小さな一存在に過ぎないという寓意が込められてもいる、とも解釈されている。 |
+| kun-c05 | exact | zh.wikisource.org | In the Zhuangzi, in the Northern Darkness there is a fish named Kun whose size is not known to be how many thousand li; it transforms into a bird named Peng. | 北冥有魚，其名爲鯤。鯤之大，不知其幾千里也，化而爲鳥，其名爲鵬。 |
+| kun-c06 | exact | zh.wikisource.org | In the Zhuangzi, north of Qiongfa lies the dark sea called Tianchi, where there is a fish named Kun, thousands of li wide, whose length no one knows. | 窮髮之北，有冥海者，天池也。有魚焉，其廣數千里，未有知其脩者，其名爲鯤。 |
+| kun-c07 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Erya (Shiyu): kun means fish roe or fry, and a note says the young of any fish is called kun. | 《爾雅·釋魚》鯤，魚子。《註》凡魚之子名鯤。《魯語》魚禁鯤鮞。 |
+| kun-c08 | exact | zh.wikisource.org | The Kangxi Dictionary also records the Yupian describing kun as a large fish, passages from the Liezi (a fish named Kun thousands of li wide and of matching length) and the Zhuangzi, and Cui Zhuan's view in Lu Deming's Yinyi that kun should be read as jing (whale). | 又《玉篇》大魚。《列子·湯問篇》有魚焉，其廣數千里，其長稱焉，其名爲鯤。《莊子·逍遙遊》北冥有魚，其名爲鯤。《陸德明·音義》崔譔云：鯤當爲鯨。 |
 

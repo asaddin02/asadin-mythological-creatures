@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-138",
-  "checked_at": "2026-10-05T16:13:46.924Z",
+  "checked_at": "2026-10-07T05:23:48.773Z",
   "files": [
     "batch-138-accepted-2026-10-03.md",
     "batch-138-p4.md",
@@ -13,7 +13,8 @@
     "batch-138-u2.md",
     "batch-138-v1.md",
     "batch-138-v2.md",
-    "batch-138.md"
+    "batch-138.md",
+    "batch-138-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -132,7 +133,8 @@
           "detail": "tidak bisa dibuka (Command failed: pdftotext -q -enc UTF-8 /home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/cache/gemini-verify/pages/1dbe526036201e6fd35da0ef3892499fea4d4035.pdf -\n); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "85c304f85b2fd3203bd31a2365b03802ba688574fe7220d588367c9c4c96346c"
     },
     {
       "slug": "ayd-n-ata",
@@ -151,7 +153,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "d2c421867430435f96901c1f21ded65c87eb4a4cd2c3f6c252002e5462177ac9"
     },
     {
       "slug": "bedik",
@@ -225,7 +228,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "13f12c71526a80233ee35f5a581c82154bda816297a274cda3d81d6e2c854ea7"
     },
     {
       "slug": "c",
@@ -329,7 +333,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "643d6fa39cf5113ccfbddd1bd19208f817e6d4d2fc0e929e1f97ccebd22d6439"
     },
     {
       "slug": "congolos",
@@ -453,22 +458,29 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c5901e1bcc975b2e680e57d5ad75c7ea764cf7156e5c461b420ec52bddb6c62d"
     },
     {
       "slug": "daw-g",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "286900e4cfe891b8fae0ba766eaf966dde79f237094e8ffe4bdfccd78ef136d5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Duægtæ, Idaugutæ. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "did_you_know",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia, Rusia, Russian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -476,7 +488,7 @@
           "id": "daw-g-c01",
           "source_id": "daw-g-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Dauagi or Duagi is the designation of supernatural spirits in Ossetian myth and the Nart epic. in the Caucasian region",
+          "statement": "Dauagi or Duagi is the designation of supernatural spirits on the lowest step of the hierarchy of spiritual beings in Ossetian myth and the Nart epic.",
           "statement_id": "Dauagi atau Duagi adalah nama roh supranatural dalam mitologi Ossetia dan epos Nart. di kawasan Kaukasus (Caucasian)",
           "quote": "Дауаги, Дуаги (осет. Дауджытæ, Дуæгтæ, Идаугутæ) — в осетинской мифологии и нартском эпосе название сверхъестественных духов, стоящих на низшей ступени в иерархии духовных существ.",
           "context": "traditional-belief",
@@ -486,9 +498,9 @@
           "id": "daw-g-c02",
           "source_id": "daw-g-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Duagi spirits were protectors of animals, people, and nature phenomena, befriending the Nart heroes.",
-          "statement_id": "Duagi merupakan pelindung hewan, manusia, dan fenomena alam serta bersahabat dengan para ksatria Nart.",
-          "quote": "У сказителей нартского эпоса не было чёткого различия между зедами и дуагами. Если зеды выполняли в нартском мире определённые, свойственные только им специфические действия, то дуаги являлись покровителями животных, людей и определённых явлений природы. Также в отличие от зедов, постоянно враждовавших с людьми, дуаги дружили с нартами и покровительствовали им.",
+          "statement": "Among the tellers of the Nart epic there was no clear distinction between the zeds and the duags.",
+          "statement_id": "Dalam kalangan pencerita epos Nart tidak ada pembedaan yang jelas antara zed dan duag.",
+          "quote": "У сказителей нартского эпоса не было чёткого различия между зедами и дуагами.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -503,32 +515,62 @@
           "status": "exact"
         },
         {
-          "id": "daw-g-c04",
+          "id": "daw-g-c07",
           "source_id": "daw-g-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Ethnography and Ossetian mythology records document the spiritual role of these beings.",
-          "statement_id": "Catatan etnografi dan mitologi Ossetia mendokumentasikan peran spiritual makhluk ini.",
-          "quote": "Б., Этнография и мифология осетин, Владикавказ, 1994, стр.",
+          "statement": "The duags were protectors of animals, people and certain natural phenomena.",
+          "statement_id": "Duag adalah pelindung hewan, manusia, dan gejala alam tertentu.",
+          "quote": "дуаги являлись покровителями животных, людей и определённых явлений природы.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daw-g-c08",
+          "source_id": "daw-g-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Unlike the zeds, who were constantly at enmity with people, the duags were friends of the Narts and protected them.",
+          "statement_id": "Berbeda dari para zed yang terus bermusuhan dengan manusia, para duag berteman dengan para Nart dan melindungi mereka.",
+          "quote": "Также в отличие от зедов, постоянно враждовавших с людьми, дуаги дружили с нартами и покровительствовали им.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daw-g-c09",
+          "source_id": "daw-g-s2",
+          "host": "digora.ru",
+          "statement": "The glossary to the Tales of the Narts on the Digora District website defines dauagi (duagi) as spirits, protectors of people and animals.",
+          "statement_id": "Glosarium untuk Kisah-kisah Nart di situs Distrik Digora mendefinisikan dauagi (duagi) sebagai roh, pelindung manusia dan hewan.",
+          "quote": "Дауаги (дуаги) – духи, покровители людей и животных.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daw-g-c10",
+          "source_id": "daw-g-s2",
+          "host": "digora.ru",
+          "statement": "The same glossary records Tatartup as the name of a locality in northern Ossetia and also the proper name of a celestial being (nebozhitel) who is a dauag.",
+          "statement_id": "Glosarium yang sama mencatat Tatartup sebagai nama sebuah daerah di Ossetia utara dan sekaligus nama diri seorang makhluk langit (nebozhitel) yang adalah dauag.",
+          "quote": "Татартуп — название местности на севере Осетии; собственное имя небожителя-дауага.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "daw-g-c11",
+          "source_id": "daw-g-s3",
+          "host": "s.fundamental-research.ru",
+          "statement": "Takazov notes that the three Ossetian epics (Narts, Daredzanta, Tsartsiata) reflect one mythic system with the same images, belonging to the so-called 'celestials' (nebozhiteli): the zeds and duags.",
+          "statement_id": "Таказов menyebut bahwa tiga epos Ossetia (Nart, Daredzanta, Tsartsiata) mencerminkan satu sistem mitos dengan citra yang sama, yang termasuk apa yang disebut 'penghuni langit' (nebozhiteli): zed dan duag.",
+          "quote": "хотя все три поэтических произведения отражают одну мифосистему, и в них встречаются одни и те же мифологические образы, относящиеся к так называемым небожителям – зэдам и дуагам",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
-          "id": "daw-g-c05",
-          "source_id": "daw-g-s1",
-          "host": "ru.wikipedia.org",
-          "statement": "Scholarly comparative literature documents Ossetian epic and mythology in detail.",
-          "statement_id": "Kajian komparatif karya sarjana mendokumentasikan epos dan mitologi Ossetia secara mendalam.",
-          "quote": "Ж. Дюмезиль, Осетинский эпос и мифология, Владикавказ, изд. Наука, 2001.",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
-          "id": "daw-g-c06",
-          "source_id": "daw-g-s1",
-          "host": "ru.wikipedia.org",
-          "statement": "These entities are classified among deities and spirits in the Nart epic and Ossetian myth.",
-          "statement_id": "Entitas ini termasuk ke dalam golongan dewa dan roh dalam epos Nart serta mitologi Ossetia.",
-          "quote": "Нартский эпос и осетинская мифология Божества",
+          "id": "daw-g-c12",
+          "source_id": "daw-g-s3",
+          "host": "s.fundamental-research.ru",
+          "statement": "According to some variants, the Narts grew proud and stopped honouring the celestials (zeds and duags) and God himself.",
+          "statement_id": "Menurut beberapa versi, para Nart menjadi sombong dan berhenti menghormati para penghuni langit (zed dan duag) serta Tuhan sendiri.",
+          "quote": "Согласно одним вариантам, нарты возгордились, перестали почитать небожителей (зэдов и дуагов) и самого Бога.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -537,18 +579,19 @@
     },
     {
       "slug": "e",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "b29e829a069455ae1f5d710e83a19041b39d190d1dbbfff0f8ee95959446c388",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "conflicts[0].positions[1].summary",
+          "message": "Tidak muncul di kutipan mana pun: Rusia, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -576,9 +619,9 @@
           "id": "e-c03",
           "source_id": "e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "It possesses numerous functions including acting as a human-like messenger conveying tidings.",
-          "statement_id": "Ia memiliki banyak fungsi termasuk sebagai utusan berwujud manusia yang meneruskan pesan.",
-          "quote": "Обладает многочисленными функциями и выступает в различных образах: человекоподобный вестник, передающий через Кебе́ (чув.",
+          "statement": "Pireşti has numerous functions and appears in various forms.",
+          "statement_id": "Pireşti memiliki banyak fungsi dan tampil dalam berbagai wujud.",
+          "quote": "Обладает многочисленными функциями и выступает в различных образах",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -586,9 +629,9 @@
           "id": "e-c04",
           "source_id": "e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "It delivers communications to the supreme God Tura.",
-          "statement_id": "Ia menyampaikan pesan kepada Tuhan Yang Maha Tinggi (Tura).",
-          "quote": "Пӳлӗхҫӗ) верховному Богу Ту́ра (чув.",
+          "statement": "One form is a human-like messenger who passes people's requests through Kepe or Pyulehse to the supreme God Tura, or conversely brings people good news from the gods of the heavenly world.",
+          "statement_id": "Salah satu wujudnya adalah utusan mirip manusia yang menyampaikan permohonan manusia lewat Kepe atau Pyulehse kepada Tuhan tertinggi Tura, atau sebaliknya membawa kabar baik dari dewa-dewa dunia langit kepada manusia.",
+          "quote": "человекоподобный вестник, передающий через Кебе́ (чув. Кепе) или Пю́лехсе (чув. Пӳлӗхҫӗ) верховному Богу Ту́ра (чув. Турӑ) просьбы людей, или, наоборот, доносящий до людей добрые вести от богов небесного мира",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -596,9 +639,9 @@
           "id": "e-c05",
           "source_id": "e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "It conveys human petitions, brings good tidings from heaven, and sits on shoulders as a guardian angel.",
-          "statement_id": "Ia meneruskan permohonan manusia atau menyampaikan kabar baik dari para dewa, bertindak sebagai malaikat penjaga di pundak manusia.",
-          "quote": "Турӑ) просьбы людей, или, наоборот, доносящий до людей добрые вести от богов небесного мира; ангел-хранитель человека, сидящий на его плечах (часто их двое); дух-хранитель души, в виде неопределенной птицы; божество дома, в отличие от Хэртсю́рт (чув.",
+          "statement": "Other forms are a guardian angel of a person sitting on the shoulders (often two of them) and a spirit-guardian of the soul in the form of an indeterminate bird.",
+          "statement_id": "Wujud lainnya adalah malaikat pelindung manusia yang duduk di bahunya (sering berdua) dan roh pelindung jiwa berupa burung yang tidak jelas jenisnya.",
+          "quote": "ангел-хранитель человека, сидящий на его плечах (часто их двое); дух-хранитель души, в виде неопределенной птицы",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -606,9 +649,59 @@
           "id": "e-c06",
           "source_id": "e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "It is capable of performing only good and acts as a patron of horses and cattle.",
-          "statement_id": "Ia mampu melakukan hanya kebaikan semata serta menjadi pelindung bagi kuda dan hewan ternak.",
-          "quote": "Хӗртҫурт), способное делать только добро; покровитель лошадей, скота.",
+          "statement": "It is also described as a house deity that, unlike Hertsurt, is capable of doing only good, and as a patron of horses and cattle.",
+          "statement_id": "Pireşti juga digambarkan sebagai dewa rumah yang, berbeda dari Hertsurt, hanya mampu berbuat baik, serta pelindung kuda dan ternak.",
+          "quote": "божество дома, в отличие от Хэртсю́рт (чув. Хӗртҫурт), способное делать только добро; покровитель лошадей, скота.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-c07",
+          "source_id": "e-s2",
+          "host": "web.archive.org",
+          "statement": "The Chuvash Encyclopedia describes Pireşti in traditional Chuvash belief as a spirit-guardian of the human soul, an angel; according to belief it passes people's requests through Kepe or Pyulehse to the supreme god Tura, or brings people good news from the gods of the heavenly world.",
+          "statement_id": "Chuvash Encyclopedia menyebut Pireşti dalam kepercayaan tradisional Chuvash sebagai roh pelindung jiwa manusia, malaikat; menurut kepercayaan ia menyampaikan permohonan manusia lewat Kepe atau Pyulehse kepada dewa tertinggi Tura, atau membawa kabar baik dari dewa-dewa dunia langit kepada manusia.",
+          "quote": "в традиционных чувашских верованиях дух-хранитель человеческой души, ангел. Согласно поверьям, П. через Кепе или Пÿлĕхçĕ передаёт просьбы людей верховному богу Турă, или, наоборот, от богов небесного мира доносит до людей добрые вести.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-c08",
+          "source_id": "e-s2",
+          "host": "web.archive.org",
+          "statement": "In Chuvash myths a person acquires a Pireşti together with the name; two Pireşti are always invisibly on a person's shoulders, recording (and in some accounts reporting to Tura) all the owner's deeds and words, good and bad, trying to protect them from misfortune and bad actions.",
+          "statement_id": "Dalam mitos Chuvash, manusia memperoleh Pireşti bersama namanya; dua Pireşti selalu berada tak terlihat di bahu seseorang, mencatat (dan dalam beberapa kisah menyampaikan kepada Tura) semua perbuatan dan ucapannya, baik dan buruk, sambil berusaha melindunginya dari bencana dan perbuatan buruk.",
+          "quote": "человек обретает П. вместе с именем, что на плечах человека незримо, но постоянно находятся два П., к-рые фиксируют (в нек-рых – и доводят до Турă) все поступки и речи их хозяина – и хорошие, и плохие, стараясь уберечь их от бед и дурных действий.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-c09",
+          "source_id": "e-s2",
+          "host": "web.archive.org",
+          "statement": "The Chuvash Encyclopedia records myths about Pireşti as the soul of a person, which can leave the body during sleep and return, and as a guardian of a person and their dwelling.",
+          "statement_id": "Chuvash Encyclopedia mencatat mitos tentang Pireşti sebagai jiwa manusia, yang dapat meninggalkan tubuh saat tidur lalu kembali, serta sebagai pelindung manusia dan tempat tinggalnya.",
+          "quote": "есть мифы, повествующие о П. – душе человека (может покинуть тело во время сна, вернуться обратно), о П. – хранителе человека и его жилища",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-c10",
+          "source_id": "e-s2",
+          "host": "web.archive.org",
+          "statement": "The same encyclopedia records myths about Pireşti as a guardian of domestic livestock, who, like Pihampar, tends a beloved horse and braids its mane.",
+          "statement_id": "Ensiklopedia yang sama mencatat mitos tentang Pireşti sebagai pelindung ternak rumahan, yang seperti Pihampar merawat kuda kesayangan dan mengepang surainya.",
+          "quote": "о П. – хранителе домашнего скота (подобно Пихампару ухаживает за любимой лошадью и заплетает ей гриву)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-c11",
+          "source_id": "e-s2",
+          "host": "web.archive.org",
+          "statement": "In prayer and charm texts Pireşti is represented as a guardian not only of the soul but also of the body, and people asked it to cure them of illness.",
+          "statement_id": "Dalam teks doa dan mantra, Pireşti digambarkan sebagai pelindung bukan hanya jiwa tetapi juga tubuh, dan orang memohon kepadanya untuk menyembuhkan penyakit.",
+          "quote": "В текстах молитвословий и заговоров отражены представления о П. как хранителе не только души, но и тела, к нему обращались с просьбой вылечить от хвори.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -617,41 +710,22 @@
     },
     {
       "slug": "e-e",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "219ac8c9d9eee299df8ad94cc51dc297e7bccd6b71577da5f5e687d8b15b2af4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Ulchi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
-        {
-          "id": "e-e-c01",
-          "source_id": "e-e-s1",
-          "host": "ru.wikipedia.org",
-          "statement": "There exists magical belief surrounding objects associated with irikh.",
-          "statement_id": "Terdapat kepercayaan magis seputar benda-benda yang berhubungan dengan irikh.",
-          "quote": "Магия предметов, связанных с ирих",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "e-e-c02",
-          "source_id": "e-e-s1",
-          "host": "ru.wikipedia.org",
-          "statement": "Can inflict external diseases on people if offended.",
-          "statement_id": "Dapat mendatangkan penyakit luar pada tubuh bila diabaikan.",
-          "quote": "злой дух, насылающий на людей наружные болезни",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
         {
           "id": "e-e-c03",
           "source_id": "e-e-s1",
@@ -676,8 +750,8 @@
           "id": "e-e-c05",
           "source_id": "e-e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "In life she was celebrated for healing skills, leading people after death to pray to her for eye illnesses.",
-          "statement_id": "Semasa hidupnya ia sangat terkenal karena keahlian mengobati sehingga setelah tiada ia dihormati dalam doa penyembuhan penyakit mata dan tumor.",
+          "statement": "In life she became so famous for healing that after death people revered her and prayed to her for tumours and eye diseases; she is not visible bodily but sometimes appears in dreams as an old maid, and is considered a good spirit but may harm if offended.",
+          "statement_id": "Semasa hidup ia begitu termasyhur karena kemampuan menyembuhkan sehingga setelah meninggal orang menghormatinya dan berdoa kepadanya untuk tumor dan penyakit mata; ia tidak terlihat secara fisik tetapi kadang muncul dalam mimpi sebagai perawan tua, dianggap roh baik namun dapat mencelakai bila disakiti.",
           "quote": "При жизни она настолько прославилась своим умением лечить, что после смерти начали её уважать и в молитвах обращаться к ней при опухолях и глазных болезнях. Телесно она не видна, а появляется иногда во сне в образе старой девы. Считается в целом добрым духом, так как лечит болезни, однако если её обидеть, то может навредить.",
           "context": "traditional-belief",
           "status": "exact"
@@ -686,10 +760,70 @@
           "id": "e-e-c06",
           "source_id": "e-e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "The archaic image of Yerekh bore similarities to general Turkic demiurgic figures.",
-          "statement_id": "Citra purba Yerekh memiliki kemiripan dengan konsep dewa demiurgos umum Turkik.",
+          "statement": "Russian Wikipedia states that the original image of Yĕrĕh was analogous to the pan-Turkic Erlik and that it was a demiurge.",
+          "statement_id": "Wikipedia bahasa Rusia menyatakan bahwa wujud awal Yĕrĕh serupa dengan Erlik dalam tradisi Turkik umum dan bahwa ia adalah demiurg.",
           "quote": "Первоначальный образ Йĕрĕха был аналогичен общетюркскому Эрлику. Являлся демиургом.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c07",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "The Chuvash Encyclopedia describes Yĕrĕh, in traditional Chuvash belief, as a guardian deity of the household hearth and also a spirit able to send illness on people; it was mostly imagined in female form, more often invisible.",
+          "statement_id": "Chuvash Encyclopedia menyebut Yĕrĕh, menurut kepercayaan tradisional Chuvash, sebagai dewa pelindung perapian rumah sekaligus roh yang dapat mendatangkan penyakit; ia terutama digambarkan berwujud perempuan dan sering tidak terlihat.",
+          "quote": "по традиционным верованиям чувашей, божество-хранитель домашнего очага; дух, способный насылать на людей болезни. Представлялся в основном в женском образе, чаще как невидимый.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c08",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "Yĕrĕh was given a dwelling, the yĕrĕh pĕrni, a basket hung out of children's reach in the house or other buildings.",
+          "statement_id": "Yĕrĕh diberi tempat tinggal berupa yĕrĕh pĕrni, sebuah keranjang yang digantung di tempat yang tidak terjangkau anak-anak di dalam rumah atau bangunan lain.",
+          "quote": "Ему предоставлялось место для обитания – Й. пĕрни: лукошко, вывешиваемое на недоступной для детей высоте в избе или др. строениях.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c09",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "In some localities there were figurines symbolising Yĕrĕh, made of wood, clay or cast tin as animal figures, dolls in women's or girls' traditional dress, or male figures.",
+          "statement_id": "Di beberapa daerah ada figur yang melambangkan Yĕrĕh, dibuat dari kayu, tanah liat, atau timah dalam bentuk hewan, boneka berpakaian tradisional perempuan atau gadis, atau sosok laki-laki.",
+          "quote": "Есть сведения о бытовании в нек-рых местностях фигурок, символизирующих Й. Изготавливались они из дерева, глины или отливались из олова в виде фигурок животных, кукол в жен. или девичьих традицион. нарядах, или в образе муж. фигур.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c10",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "Yĕrĕh's abodes were considered to be storehouses, barns, ravines and bridges; the deity's main requirement is a peaceful life in family and society.",
+          "statement_id": "Tempat tinggal Yĕrĕh dianggap lumbung dan gudang, jurang, dan jembatan; tuntutan utama dewa ini adalah kehidupan yang damai dalam keluarga dan masyarakat.",
+          "quote": "Обиталищами Й. считались клети, амбары, овраги, мосты. Основное требование божества – это мирная жизнь в семье и обществе.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c11",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "In case of skin and eye diseases, offerings were made to it: bits of lead, silver coins, scraps of silk and food, placed in the basket.",
+          "statement_id": "Saat terkena penyakit kulit dan mata, orang mempersembahkan kepadanya potongan timbal, uang perak, secarik sutra, dan makanan, yang diletakkan dalam keranjang.",
+          "quote": "При заболевании кожными и глазными болезнями ему приносили жертвен. дары: кусочки свинца, серебряные монеты, лоскутки шёлка, еду, к-рые клали в кузовок.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-e-c12",
+          "source_id": "e-e-s2",
+          "host": "web.archive.org",
+          "statement": "Among the Saratov Chuvash the cult of Yĕrĕh persisted until the early 20th century.",
+          "statement_id": "Di kalangan orang Chuvash Saratov, pemujaan Yĕrĕh bertahan hingga awal abad ke-20.",
+          "quote": "У саратов. чувашей культ Й. бытовал вплоть до нач. 20 в.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -837,7 +971,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e1386a61483d1b0d098d8af855382a2174b8597b6108e3532e83a3fa03a8cac3"
     },
     {
       "slug": "esik-iy-si",
@@ -971,7 +1106,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ac9c050964ce71223823b85bc63f000f52e20bee678b84b4c1fb978c5f1f2a3"
     },
     {
       "slug": "germakochi",
@@ -1111,7 +1247,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b50fc118457e1f1778964860f28c2b6d364728e1d98279252a59c5a33f633c6a"
     },
     {
       "slug": "kharqyt",
@@ -1195,7 +1332,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "102756bdc1057f2bac8d16589e75b881056029f4f82d027b37686da8f8676fd1"
     },
     {
       "slug": "or-n-iy-si",
@@ -1329,7 +1467,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ba0c65e3076641fc58632ce307e6e5b3a5258f027268af63d1a433b607ebe601"
     },
     {
       "slug": "rs-k",
@@ -1413,7 +1552,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "52c813e2524af8249bddb8d2de30fbb50026ef06c3d28916f7d9156b2b98f32a"
     },
     {
       "slug": "tarla-iyesi",
@@ -1543,22 +1683,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3ee8b2b5ec688874febd84d45f19b308e69e0d3a069ff7a4ebd2dc0afd04de0b"
     },
     {
       "slug": "ubir",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "35f105feee8e41a680ce587b2e65cc973d7a2f9ad284dfdaf05dc86f21cf746a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Karachay-Balkar, Nogai, Tatars, Bashkirs. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1600,6 +1742,66 @@
           "statement_id": "Vubar tidak hanya mencekik orang saat tidur tetapi juga mendatangkan penyakit",
           "quote": "Вубар не только душит людей во сне, но может навести на них и порчу, причиняя им таким образом тяжелую болезнь,",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c05",
+          "source_id": "ubir-s2",
+          "host": "www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai",
+          "statement": "The Batyrevo Encyclopedia describes vupăr (Tatar: ubyr) as an evil spirit in the Chuvash pantheon that sent illness and attacked a sleeping person.",
+          "statement_id": "Batyrevo Encyclopedia menyebut vupăr (dalam bahasa Tatar ubyr) sebagai roh jahat dalam panteon Chuvash yang mendatangkan penyakit dan menyerang orang yang sedang tidur.",
+          "quote": "ВУПӐР (тат. – убыр) – в чувашском пантеоне злой дух насылал болезни, нападал на спящего человека.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c06",
+          "source_id": "ubir-s2",
+          "host": "www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai",
+          "statement": "In the same encyclopedia the vupăr devours the Sun or the Moon before people's eyes, covering the earth in darkness; Chuvash elders fought it by shooting arrows and throwing metal objects to be freed from the darkness.",
+          "statement_id": "Dalam ensiklopedia yang sama, vupăr dikatakan melahap Matahari atau Bulan di depan mata orang sehingga bumi gelap; para tetua Chuvash melawannya dengan memanah dan melempar benda logam agar terbebas dari kegelapan.",
+          "quote": "Вупӑр на глазах у людей пожирает Солнце или Луну, покрывая землю темнотой. В целях освобождения от тьмы чуваши-старики вели с ним борьбу (стреляли из лука, бросали металлические предметы).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c07",
+          "source_id": "ubir-s2",
+          "host": "www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai",
+          "statement": "The encyclopedia notes that the image of vupăr has some parallels with ubyr (Tatar, Bashkir), vuver (Mari), obur (Karachay), upyr (Slavic) and vampire (German, French and others).",
+          "statement_id": "Ensiklopedia itu menyebut citra vupăr memiliki sejumlah kesejajaran dengan ubyr (Tatar, Bashkir), vuver (Mari), obur (Karachay), upyr (Slavia), dan vampir (Jerman, Prancis, dan lain-lain).",
+          "quote": "Образ Вупӑр находит некоторые параллели с убыр (тат., башк.), вувер (марий.) обур (карач.), упырь (слав.), вампир (немец., франц. и др.).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c08",
+          "source_id": "ubir-s3",
+          "host": "ru.samah.chv.su",
+          "statement": "Egorov's etymological dictionary records that, by the explanation of the ancient Chuvash, a lunar eclipse is the vupăr devouring the moon; the phrase vupăr karčăk means 'Baba Yaga'.",
+          "statement_id": "Kamus etimologi Egorov mencatat bahwa menurut penjelasan orang Chuvash kuno, gerhana bulan terjadi karena vupăr melahap bulan; frasa vupăr karčăk berarti 'Baba Yaga'.",
+          "quote": "по объяснению древних чуваш, затмение луны — это вупăр пожирает луну; вупăр карчăк «баба-яга»",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c09",
+          "source_id": "ubir-s3",
+          "host": "ru.samah.chv.su",
+          "statement": "Egorov's dictionary lists the meanings of vupăr (dialect văpăr, obsolete) as evil spirit, upyr, nightmare and werewolf.",
+          "statement_id": "Kamus Egorov mendaftar arti vupăr (dialek văpăr, usang) sebagai roh jahat, upyr, mimpi buruk, dan manusia serigala.",
+          "quote": "вупăр , диал. вăпăр уст. «злой дух», «упырь», «кошмар», «оборотень»",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c10",
+          "source_id": "ubir-s3",
+          "host": "ru.samah.chv.su",
+          "statement": "Egorov's dictionary says the related words derive from the verb ub (Tatar) ~ up ~ op meaning 'to swallow'.",
+          "statement_id": "Kamus Egorov menyatakan kata-kata terkait berasal dari kata kerja ub (Tatar) ~ up ~ op yang berarti 'menelan'.",
+          "quote": "Происходят от глагола уб (тат.) ~ уп ~ oп «проглотить»",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -1787,14 +1989,16 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dffa72d615da51f1d33aee6780d103b985b5a154c70242c86dd3db4d7f1ea508"
     },
     {
       "slug": "alara-fairy",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "91a0d0fddfa5b16a942072f6247069da8098941b350c29cc2fca24d3e4cece2f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
@@ -1802,7 +2006,12 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1855,24 +2064,55 @@
           "quote": "Those who seek Alara's help must travel to a lake where she was last seen and tie a colorful ribbon on the branch of a blooming lakeside tree.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c06",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If the ribbon was cut from a handkerchief last used to wipe the tears of a heartbroken person, the wish is said to be more likely to come true.",
+          "statement_id": "Bila pita itu dipotong dari saputangan yang terakhir dipakai menyeka air mata orang patah hati, harapan itu dikatakan lebih mungkin terkabul.",
+          "quote": "If the ribbon was cut from a handkerchief last used to wipe off the tears of a heartbroken person, the wish becomes more likely to come true.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c07",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wishes must be made under a cloudless night sky shortly before dawn; Alara answers with a light breeze, a shooting star, a light show of bioluminescent algae, or by manifesting herself and even speaking to the wish maker.",
+          "statement_id": "Harapan harus diucapkan di bawah langit malam tanpa awan menjelang fajar; Alara menjawab dengan angin sepoi-sepoi, bintang jatuh, pertunjukan cahaya alga bercahaya, atau menampakkan diri dan bahkan berbicara kepada pemohon.",
+          "quote": "Wishes must be made under a cloudless night sky shortly before dawn. Alara then answers the wish maker with a light breeze, a shooting star, a light show of bioluminescent algae or by outright manifesting herself and even talking to the wish maker.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "anka",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "9f5787ca7cfc9c310af6a9d04896188ec6ab74e3a63d9a19f6a9995c6505a0e2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Iran, Iranian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Iran, Iranian, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[1].note",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1884,6 +2124,56 @@
           "statement_id": "Anka adalah burung raksasa penghuni Gunung Qaf dalam dongeng Kazakh dan Altay yang sepadan dengan Samuryq",
           "quote": "Аңқа  — иран аңыздары бойынша Қап тауында жүретін алып құс. Оның екінші түрі — самұрық. Қазақ пен алтай халықтары ертегілерінде оған теңдестіріліп айтылатын ертегі құстар: қартлан, көкжөре, құмай.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anka-c02",
+          "source_id": "anka-s2",
+          "host": "archive.org",
+          "statement": "Karakurt's Dictionary of Turkic Mythology defines Anka (Persian) as a giant red-coloured bird that lives on Mount Kaf, sometimes depicted with a dog's head and tiger claws, and is reborn from its own ashes.",
+          "statement_id": "Kamus Mitologi Turki karya Karakurt mendefinisikan Anka (dari bahasa Persia) sebagai burung raksasa berwarna merah, yang tinggal di Gunung Kaf, kadang digambarkan berkepala anjing dan bercakar harimau, dan lahir kembali dari abunya sendiri.",
+          "quote": "Anka (Farsça, Anka): Kızıl renkli devasa kuş. Kaf dağında yaşar. Köpek başlı, kaplan pençeli olarak tasvir edildiği de olur. Kendi küllerinden yeniden doğar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anka-c03",
+          "source_id": "anka-s2",
+          "host": "archive.org",
+          "statement": "In the Mount Kaf entry, the Anka bird (in old Turkic belief the Toğrul and Kongrul birds) is said to live there and to have built its nest on the summit.",
+          "statement_id": "Dalam entri Gunung Kaf, burung Anka (dalam kepercayaan Turki lama adalah burung Toğrul dan Kongrul) disebut hidup di sana dan membuat sarangnya di puncak gunung itu.",
+          "quote": "Anka Kuşu (eski Türk inancında Toğrul ve Kongrul Kuşları) burada yaşar ve yuvasını bu dağın zirvesine kurmuştur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anka-c04",
+          "source_id": "anka-s2",
+          "host": "archive.org",
+          "statement": "The Toğrul entry, headed 'Anka Kuşu', calls it a giant red bird with supernatural qualities that symbolises immortality and resurrection and exists under different names in the mythologies of many peoples.",
+          "statement_id": "Entri Toğrul, yang diberi judul 'Anka Kuşu', menyebutnya burung raksasa merah berkemampuan gaib yang melambangkan keabadian dan kebangkitan, dan ada dalam mitologi banyak bangsa dengan nama berbeda.",
+          "quote": "Doğaüstü nitelikleri olan kızıl renkli devasa kuş. Ölümsüzlüğü ve yeniden dirilişi simgeler. Diğer pek çok Dünyâ uluslarının mitolojilerinde de değişik adlarla mevcuttur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anka-c05",
+          "source_id": "anka-s2",
+          "host": "archive.org",
+          "statement": "Karakurt states that the Kongrul bird shares many features with the Anka bird of other peoples' legends, and the features of the Anka in Persian culture were transferred entirely to this bird.",
+          "statement_id": "Karakurt menyatakan burung Kongrul memiliki banyak ciri yang mirip burung Anka dalam legenda bangsa lain, dan ciri Anka dalam budaya Persia dipindahkan seluruhnya kepada burung ini.",
+          "quote": "Kongrul Kuşu diğer ulusların söylencelerindeki Anka Kuşu ile pek çok benzer özellikler taşır, hattâ zaman zaman geçişim yoluyla o mitolojilerden alıntılar yapılarak içselleştirilmiştir. Örneğin Fars kültüründeki Anka Kuşu'nun özellikleri bütünüyle bu kuşa aktarılmıştır.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anka-c06",
+          "source_id": "anka-s2",
+          "host": "archive.org",
+          "statement": "Karakurt writes that, through Persian and Middle Eastern influence, the belief that it burns to death each day and is reborn from its ashes is widespread, and this in fact symbolises the Sun; it lives on Mount Kaf and guards it.",
+          "statement_id": "Karakurt menulis bahwa, karena pengaruh budaya Persia dan Timur Tengah, kepercayaan bahwa burung itu mati terbakar setiap hari dan lahir kembali dari abunya tersebar luas, dan hal ini sebenarnya melambangkan Matahari; ia tinggal di Gunung Kaf dan menjaganya.",
+          "quote": "Fars ve hatta genel olarak Ortadoğu kültürünün etkisiyle her gün yanarak öldüğü ve kendi küllerinden yeniden doğduğu inanışı yaygındır. Bu ise aslında Güneş'i sembolize eder. Kaf Dağı'nda yaşar ve bu dağı korur.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -2011,7 +2301,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "21ee0b2731cf4eb75d78aacd75b3c79070213a704c82127c66252e224da838d6"
     },
     {
       "slug": "aza",
@@ -2175,7 +2466,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02048ab8c451b70ba61d157cd0d92eff40b3670779a86d5311ed6f7cec91e8c2"
     },
     {
       "slug": "azm-c",
@@ -2299,7 +2591,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c9e2667261f448caa7c6afd8bf4af631acad5c7cc5eb868d7b56016988226be8"
     },
     {
       "slug": "badrac",
@@ -2413,7 +2706,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "974157b6a227c78b083155ad9ceb90dd61e11498036428132cd9946501fab26e"
     },
     {
       "slug": "bajbur",
@@ -2503,7 +2797,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ad3085cb729eb79481fe095d8f01d69de96bd990fd86fa9a56da89e52363ee89"
     },
     {
       "slug": "barak",
@@ -2607,7 +2902,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "513e9606fd8b08026f0b9ca70930d62f22876b05fb403cca4954a6c6ddcb074d"
     },
     {
       "slug": "bukrek-and-sangal",
@@ -2741,7 +3037,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8258dd96beaf773adccd882b2078fa8ac2879f6381fd87804891c5a885e9616b"
     },
     {
       "slug": "bulud-iy-si",
@@ -2845,7 +3142,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df93c9b7fa08975ff6f6fb7e2a1f7da5d3f6614e42542ca105fbf611c569396f"
     },
     {
       "slug": "carsamba-kar-s",
@@ -2929,22 +3227,39 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a125cb6b84c1f5d3f095bf384dad0be62c65f27f3bd1aa70bca99f8b4e43084d"
     },
     {
       "slug": "degirmen-iyesi",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "282a04ae0e31761e3265e0ed6120a9079b09a2b120edea9729e90cd463c172f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2959,42 +3274,62 @@
           "status": "exact"
         },
         {
-          "id": "degirmen-iyesi-c02",
-          "source_id": "degirmen-iyesi-s1",
-          "host": "tr.wikipedia.org",
-          "statement": "Rotation of millstone evokes mystical mood symbolizing eras",
-          "statement_id": "Putaran batu penggilingan menciptakan suasana mistis melambangkan perputaran masa",
-          "quote": "Bu dönüş zamanın geçişini ve dünyanın dönemlerini çağrıştırmaktadır.",
+          "id": "degirmen-iyesi-c06",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "According to Karakurt, it is generally depicted as a short old man covered in white flour up to his hair, and rarely as an old woman.",
+          "statement_id": "Menurut Karakurt, ia umumnya digambarkan sebagai lelaki tua bertubuh pendek yang tubuhnya sampai ke rambut berlumur tepung putih, dan jarang sebagai perempuan tua.",
+          "quote": "Genelde saçlarına kadar apak una bulanmış, kısa boylu ihtiyar bir erkek (nâdiren bir kocakarı) olarak betimlenir",
           "context": "traditional-belief",
           "status": "exact"
         },
         {
-          "id": "degirmen-iyesi-c03",
-          "source_id": "degirmen-iyesi-s1",
-          "host": "tr.wikipedia.org",
-          "statement": "Located away from villages considered at borders of civilization",
-          "statement_id": "Terletak terpisah dari permukiman dianggap di perbatasan peradaban",
-          "quote": "Değirmenler yerleşim yerlerinden nispeten uzak oldukları için de, uygarlığın sınırındaki mekanlar arasında kabul edilirler.",
+          "id": "degirmen-iyesi-c07",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "According to belief, it does not let evil spirits and evil people approach the mill, keeping them away so they do not touch the flour and bread.",
+          "statement_id": "Menurut kepercayaan, ia tidak membiarkan roh jahat dan orang jahat mendekati kincir, menjauhkan mereka agar tidak menyentuh tepung dan roti.",
+          "quote": "inanışa göre kötü ruhları ve kötü insanları değirmene yaklaştırmaz, onları uzak tutarak una ve ekmeğe dokundurmaz.",
           "context": "traditional-belief",
           "status": "exact"
         },
         {
-          "id": "degirmen-iyesi-c04",
-          "source_id": "degirmen-iyesi-s1",
-          "host": "tr.wikipedia.org",
-          "statement": "Shamans take water from seven mill troughs for rituals",
-          "statement_id": "Dukun şaman mengambil air dari tujuh talang penggilingan untuk ritual",
-          "quote": "Şamanlar, büyü / urasa yaparken, demir kızdırarak yedi pınardan, yedi değirmen oluğundan aldıkları yedi suya atarlar.",
+          "id": "degirmen-iyesi-c08",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "It is believed the grain container in the mill must not be left empty because the spirit abandons a mill whose trough is empty; it also protects those who come to grind flour, so customers formerly left it a share of the ground flour.",
+          "statement_id": "Dipercaya wadah biji-bijian di kincir tidak boleh kosong karena roh itu meninggalkan kincir yang wadahnya kosong; ia juga melindungi orang yang datang menggiling tepung, sehingga dahulu pelanggan menyisakan bagian dari tepung yang digiling untuknya.",
+          "quote": "Değirmende tahıl konulan kabın boş kalmaması gerektiğine inanılır. ... Çünkü teknesi boş kalan değirmeni iye terkeder. Aynı zamanda değirmene un öğütmeye gelenleri de korur. Bu yüzden eskiden, değirmene gelen müşteriler öğütülen undan ona da pay bırakırlarmış.",
           "context": "traditional-belief",
           "status": "exact"
         },
         {
-          "id": "degirmen-iyesi-c05",
-          "source_id": "degirmen-iyesi-s1",
-          "host": "tr.wikipedia.org",
-          "statement": "Child illness avak is healed by shamans through tozlandırma method",
-          "statement_id": "Penyakit avak pada anak diobati dukun lewat metode tozlandırma",
-          "quote": "Zayıf kalan çocukların “avak” denilen bir hastalığa yakalandığına inanılır ve bu hastalığı şaman (veya hoca) “tozlandırma” yöntemi ile sağaltır (tedavi eder).",
+          "id": "degirmen-iyesi-c09",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "It grinds good people's flour clean and snow-white but bad-intentioned people's flour black and dirty; if the mill works by itself it is believed to have come, so people take care.",
+          "statement_id": "Ia menggiling tepung orang baik menjadi bersih dan putih, tetapi tepung orang berniat jahat menjadi hitam dan kotor; bila kincir bekerja sendiri, dipercaya ia datang sehingga orang berhati-hati.",
+          "quote": "İyi insanların ununu temiz ve bembeyaz öğütür, kötü niyetli insanların ununu ise kara ve kirli öğütür. Değirmen kendi kendine çalışırsa onun geldiğine inanıldığı için dikkatli olunur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c10",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "In some regions belief is held in yet another spirit named 'Değirmentaşı iyesi' (Suğoruna İççi / Suvoruna İyesi).",
+          "statement_id": "Di beberapa daerah dipercaya pula adanya roh lain bernama 'Değirmentaşı iyesi' (Suğoruna İççi / Suvoruna İyesi).",
+          "quote": "Bazı yörelerde \"Değirmentaşı iyesi\" (Suğoruna İççi / Suvoruna İyesi) adında başka bir ruhun varlığına daha inanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c11",
+          "source_id": "degirmen-iyesi-s2",
+          "host": "archive.org",
+          "statement": "Karakurt lists two related beings: Değirmen Anası, protective spirit of the mill (female), and Değirmen Atası, protective spirit of the mill (male).",
+          "statement_id": "Karakurt mencatat dua makhluk terkait: Değirmen Anası, roh pelindung kincir (betina), dan Değirmen Atası, roh pelindung kincir (jantan).",
+          "quote": "Bağlantılı Varlıklar 1. DEĞİRMEN ANASI: Değirmenin Koruyucu Ruhu (Dişi). 2. DEĞİRMEN ATASI: Değirmenin Koruyucu Ruhu (Erkek).",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -3113,7 +3448,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f49afaad0330ee51b3c74ee50822ed64dc801af22e9ec887561b0e7b92250e28"
     },
     {
       "slug": "dir-n",
@@ -3267,7 +3603,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5016fe3b7b82681d8b1501bb2f90bc6d615f6c7c527023fe07a51820f9372e95"
     },
     {
       "slug": "diyu",
@@ -3421,7 +3758,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d7f54a0db7153c801eacd58894ac30bf979f1fd0b465309335fd316d3fb60a56"
     },
     {
       "slug": "doo",
@@ -3565,24 +3903,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b171e1e10e286763d90e1821d131fe0402da8a88ac6e664d1c0766c761db5f5d"
     },
     {
       "slug": "doydu",
-      "file": "batch-138-accepted-2026-10-03.md",
+      "file": "batch-138-fix-1.md",
+      "entry_sha256": "fa1eb1ac5f55e2a08fa26d12a277b8962ef1ee8fe5dad3678a050f1253a2559f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "doydu-c01",
@@ -3632,6 +3966,46 @@
           "statement_id": "Namanya diingat bersama makhluk Abra dan Yutpa",
           "quote": "Adı Abra və Yutpa ilə birlikdə xatırlanar.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c06",
+          "source_id": "doydu-s2",
+          "host": "archive.org",
+          "statement": "According to Karakurt's Dictionary of Turkic Mythology, Doydu's spine is turned upside down and it is kept bound with chains.",
+          "statement_id": "Menurut Kamus Mitologi Turki karya Karakurt, tulang punggung Doydu terbalik dan ia dikatakan diikat dengan rantai.",
+          "quote": "Belkemiği ters çevrilmiştir. Zincirlerle bağlı tutulur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c07",
+          "source_id": "doydu-s2",
+          "host": "archive.org",
+          "statement": "Karakurt notes that in Turkic folk culture the world-carrying function of the fish received little attention; its size and its life underground were found more interesting.",
+          "statement_id": "Karakurt mencatat bahwa dalam budaya rakyat Turki fungsi ikan sebagai penopang dunia kurang mendapat perhatian; yang lebih menarik adalah ukuran besarnya dan kehidupannya di bawah tanah.",
+          "quote": "Fakat Türk halk kültüründe bu taşıma işlevi çok fazla ilgi görmemiştir. Balığın yalnızca büyüklüğü ve yeraltında yaşaması daha fazla ilginç bulunmuştur",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c08",
+          "source_id": "doydu-s2",
+          "host": "archive.org",
+          "statement": "Karakurt notes Doydu is also called Ker Balık; some views explain 'ker' as 'blind', which they take to show that it belongs to the other world.",
+          "statement_id": "Karakurt mencatat bahwa Doydu juga disebut Ker Balık; sebagian pendapat menjelaskan 'ker' sebagai 'buta', yang menurut mereka menunjukkan bahwa ia termasuk dunia lain.",
+          "quote": "Ker Balık'da denir. \"Ker\" sözcüğünün anlamını kör olarak açıklayan bazı görüşlere göre, bu onun öte âleme âit olduğunu gösterir.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c09",
+          "source_id": "doydu-s2",
+          "host": "archive.org",
+          "statement": "Karakurt explains the name (Doy/Toy) as meaning 'eater of the earth', covering the senses of eating and swallowing, from the same root as the verb doymak ('to be full'); in some Turkic dialects the word 'doydu' means 'the earth'.",
+          "statement_id": "Karakurt menjelaskan nama (Doy/Toy) berarti 'pemakan bumi', mencakup makna makan dan menelan, dari akar kata yang sama dengan kata kerja doymak ('kenyang'); dalam beberapa dialek Turki kata 'doydu' berarti 'bumi'.",
+          "quote": "Anlam: (Doy/Toy). Yeryüzünü yiyen demektir. Yemek, yutmak anlamlarını içerir. Doymak fiili bu köktendir. \"Doydu\" sözcüğü Türkçenin bazı lehçelerde Yeryüzü demektir.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -3779,7 +4153,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aa7b85710b69b7e5a91c255950885b8b4e7a4fbacce052c1260b3a7aa3c7827b"
     },
     {
       "slug": "h-b-l-k",
@@ -3923,7 +4298,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "39aa0749511e4e3b286a6608afec85c9db9b0d2b8297cc172cf6818051b9eca0"
     },
     {
       "slug": "h-nk-r",
@@ -3997,7 +4373,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "16640cc6c4e89e8d6a26cb7bc388fe991840950bc3d7e42a9679596622e72879"
     },
     {
       "slug": "h-rt-k",
@@ -4121,7 +4498,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e7737cc2a8eab309becdc5a3810ff1137e450fda71fdf6d8d4a7cec2cb5c2e73"
     },
     {
       "slug": "imr",
@@ -4265,7 +4643,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1cd71e8ba8366178b9cfc996e7270a07575618470ffcd2ec501462632a8c530e"
     }
   ]
 }

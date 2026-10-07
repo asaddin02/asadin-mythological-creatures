@@ -1,6 +1,6 @@
 # Review batch-138
 
-Diperiksa 2026-10-05T16:13:46.924Z. Berkas: batch-138-accepted-2026-10-03.md, batch-138-p4.md, batch-138-q1.md, batch-138-q2.md, batch-138-q3.md, batch-138-q4.md, batch-138-r1.md, batch-138-u1.md, batch-138-u2.md, batch-138-v1.md, batch-138-v2.md, batch-138.md.
+Diperiksa 2026-10-07T05:23:48.773Z. Berkas: batch-138-accepted-2026-10-03.md, batch-138-p4.md, batch-138-q1.md, batch-138-q2.md, batch-138-q3.md, batch-138-q4.md, batch-138-r1.md, batch-138-u1.md, batch-138-u2.md, batch-138-v1.md, batch-138-v2.md, batch-138.md, batch-138-fix-1.md.
 
 ## ardov — lulus-otomatis
 
@@ -83,53 +83,66 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 
 ## daw-g — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Duægtæ, Idaugutæ. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `did_you_know` Tidak muncul di kutipan mana pun: Wikipedia, Rusia, Russian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| daw-g-c01 | exact | ru.wikipedia.org | Dauagi or Duagi is the designation of supernatural spirits in Ossetian myth and the Nart epic. in the Caucasian region | Дауаги, Дуаги (осет. Дауджытæ, Дуæгтæ, Идаугутæ) — в осетинской мифологии и нартском эпосе название сверхъестественных духов, стоящих на низшей ступени в иерархии духовных существ. |
-| daw-g-c02 | exact | ru.wikipedia.org | Duagi spirits were protectors of animals, people, and nature phenomena, befriending the Nart heroes. | У сказителей нартского эпоса не было чёткого различия между зедами и дуагами. Если зеды выполняли в нартском мире определённые, свойственные только им специфические действия, то дуаги являлись покровителями животных, людей и определённых явлений природы. Также в отличие от зедов, постоянно враждовавших с людьми, дуаги дружили с нартами и покровительствовали им. |
+| daw-g-c01 | exact | ru.wikipedia.org | Dauagi or Duagi is the designation of supernatural spirits on the lowest step of the hierarchy of spiritual beings in Ossetian myth and the Nart epic. | Дауаги, Дуаги (осет. Дауджытæ, Дуæгтæ, Идаугутæ) — в осетинской мифологии и нартском эпосе название сверхъестественных духов, стоящих на низшей ступени в иерархии духовных существ. |
+| daw-g-c02 | exact | ru.wikipedia.org | Among the tellers of the Nart epic there was no clear distinction between the zeds and the duags. | У сказителей нартского эпоса не было чёткого различия между зедами и дуагами. |
 | daw-g-c03 | exact | ru.wikipedia.org | In the epic it is narrated how the Nart hero Batradz fought against zed and duag spirits. | В эпосе есть повествование, как нарт Батрадз, вступив в борьбу с зедами и дуагами, многих из них погубил. Они пожаловались Богу, который наказал Батрадза за убийство этих духовных существ. Батрадз же в отместку даже после своей смерти мстил зедам и дуагам. |
-| daw-g-c04 | exact | ru.wikipedia.org | Ethnography and Ossetian mythology records document the spiritual role of these beings. | Б., Этнография и мифология осетин, Владикавказ, 1994, стр. |
-| daw-g-c05 | exact | ru.wikipedia.org | Scholarly comparative literature documents Ossetian epic and mythology in detail. | Ж. Дюмезиль, Осетинский эпос и мифология, Владикавказ, изд. Наука, 2001. |
-| daw-g-c06 | exact | ru.wikipedia.org | These entities are classified among deities and spirits in the Nart epic and Ossetian myth. | Нартский эпос и осетинская мифология Божества |
+| daw-g-c07 | exact | ru.wikipedia.org | The duags were protectors of animals, people and certain natural phenomena. | дуаги являлись покровителями животных, людей и определённых явлений природы. |
+| daw-g-c08 | exact | ru.wikipedia.org | Unlike the zeds, who were constantly at enmity with people, the duags were friends of the Narts and protected them. | Также в отличие от зедов, постоянно враждовавших с людьми, дуаги дружили с нартами и покровительствовали им. |
+| daw-g-c09 | exact | digora.ru | The glossary to the Tales of the Narts on the Digora District website defines dauagi (duagi) as spirits, protectors of people and animals. | Дауаги (дуаги) – духи, покровители людей и животных. |
+| daw-g-c10 | exact | digora.ru | The same glossary records Tatartup as the name of a locality in northern Ossetia and also the proper name of a celestial being (nebozhitel) who is a dauag. | Татартуп — название местности на севере Осетии; собственное имя небожителя-дауага. |
+| daw-g-c11 | exact | s.fundamental-research.ru | Takazov notes that the three Ossetian epics (Narts, Daredzanta, Tsartsiata) reflect one mythic system with the same images, belonging to the so-called 'celestials' (nebozhiteli): the zeds and duags. | хотя все три поэтических произведения отражают одну мифосистему, и в них встречаются одни и те же мифологические образы, относящиеся к так называемым небожителям – зэдам и дуагам |
+| daw-g-c12 | exact | s.fundamental-research.ru | According to some variants, the Narts grew proud and stopped honouring the celestials (zeds and duags) and God himself. | Согласно одним вариантам, нарты возгордились, перестали почитать небожителей (зэдов и дуагов) и самого Бога. |
 
 
 ## e — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `conflicts[0].positions[1].summary` Tidak muncul di kutipan mana pun: Rusia, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | e-c01 | exact | ru.wikipedia.org | Derived from Persian ferešte meaning angel. | перс. فرشته‎ (ferešte) — «ангел» |
 | e-c02 | exact | ru.wikipedia.org | Pireşti is an anthropomorphic and zoomorphic entity in Chuvash mythology classified among deities. | Пирешти́ (чув. Пирӗшти) — антропоморфное и зооморфное существо в чувашской мифологии, включаемое в разряд божеств. |
-| e-c03 | exact | ru.wikipedia.org | It possesses numerous functions including acting as a human-like messenger conveying tidings. | Обладает многочисленными функциями и выступает в различных образах: человекоподобный вестник, передающий через Кебе́ (чув. |
-| e-c04 | exact | ru.wikipedia.org | It delivers communications to the supreme God Tura. | Пӳлӗхҫӗ) верховному Богу Ту́ра (чув. |
-| e-c05 | exact | ru.wikipedia.org | It conveys human petitions, brings good tidings from heaven, and sits on shoulders as a guardian angel. | Турӑ) просьбы людей, или, наоборот, доносящий до людей добрые вести от богов небесного мира; ангел-хранитель человека, сидящий на его плечах (часто их двое); дух-хранитель души, в виде неопределенной птицы; божество дома, в отличие от Хэртсю́рт (чув. |
-| e-c06 | exact | ru.wikipedia.org | It is capable of performing only good and acts as a patron of horses and cattle. | Хӗртҫурт), способное делать только добро; покровитель лошадей, скота. |
+| e-c03 | exact | ru.wikipedia.org | Pireşti has numerous functions and appears in various forms. | Обладает многочисленными функциями и выступает в различных образах |
+| e-c04 | exact | ru.wikipedia.org | One form is a human-like messenger who passes people's requests through Kepe or Pyulehse to the supreme God Tura, or conversely brings people good news from the gods of the heavenly world. | человекоподобный вестник, передающий через Кебе́ (чув. Кепе) или Пю́лехсе (чув. Пӳлӗхҫӗ) верховному Богу Ту́ра (чув. Турӑ) просьбы людей, или, наоборот, доносящий до людей добрые вести от богов небесного мира |
+| e-c05 | exact | ru.wikipedia.org | Other forms are a guardian angel of a person sitting on the shoulders (often two of them) and a spirit-guardian of the soul in the form of an indeterminate bird. | ангел-хранитель человека, сидящий на его плечах (часто их двое); дух-хранитель души, в виде неопределенной птицы |
+| e-c06 | exact | ru.wikipedia.org | It is also described as a house deity that, unlike Hertsurt, is capable of doing only good, and as a patron of horses and cattle. | божество дома, в отличие от Хэртсю́рт (чув. Хӗртҫурт), способное делать только добро; покровитель лошадей, скота. |
+| e-c07 | exact | web.archive.org | The Chuvash Encyclopedia describes Pireşti in traditional Chuvash belief as a spirit-guardian of the human soul, an angel; according to belief it passes people's requests through Kepe or Pyulehse to the supreme god Tura, or brings people good news from the gods of the heavenly world. | в традиционных чувашских верованиях дух-хранитель человеческой души, ангел. Согласно поверьям, П. через Кепе или Пÿлĕхçĕ передаёт просьбы людей верховному богу Турă, или, наоборот, от богов небесного мира доносит до людей добрые вести. |
+| e-c08 | exact | web.archive.org | In Chuvash myths a person acquires a Pireşti together with the name; two Pireşti are always invisibly on a person's shoulders, recording (and in some accounts reporting to Tura) all the owner's deeds and words, good and bad, trying to protect them from misfortune and bad actions. | человек обретает П. вместе с именем, что на плечах человека незримо, но постоянно находятся два П., к-рые фиксируют (в нек-рых – и доводят до Турă) все поступки и речи их хозяина – и хорошие, и плохие, стараясь уберечь их от бед и дурных действий. |
+| e-c09 | exact | web.archive.org | The Chuvash Encyclopedia records myths about Pireşti as the soul of a person, which can leave the body during sleep and return, and as a guardian of a person and their dwelling. | есть мифы, повествующие о П. – душе человека (может покинуть тело во время сна, вернуться обратно), о П. – хранителе человека и его жилища |
+| e-c10 | exact | web.archive.org | The same encyclopedia records myths about Pireşti as a guardian of domestic livestock, who, like Pihampar, tends a beloved horse and braids its mane. | о П. – хранителе домашнего скота (подобно Пихампару ухаживает за любимой лошадью и заплетает ей гриву) |
+| e-c11 | exact | web.archive.org | In prayer and charm texts Pireşti is represented as a guardian not only of the soul but also of the body, and people asked it to cure them of illness. | В текстах молитвословий и заговоров отражены представления о П. как хранителе не только души, но и тела, к нему обращались с просьбой вылечить от хвори. |
 
 
 ## e-e — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Ulchi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| e-e-c01 | exact | ru.wikipedia.org | There exists magical belief surrounding objects associated with irikh. | Магия предметов, связанных с ирих |
-| e-e-c02 | exact | ru.wikipedia.org | Can inflict external diseases on people if offended. | злой дух, насылающий на людей наружные болезни |
 | e-e-c03 | exact | ru.wikipedia.org | Irikh or Yerekh is the guardian spirit of the hearth tasked with ensuring peace in the family. of the Chuvash (Çuvaş) people | И́рих (чув. Йĕрĕх) — демиург и брат Ульчи в традиционных верованиях чувашей, дух-хранитель домашнего очага (домовой). Основная задача этого божества — обеспечение мирной жизни в семье и обществе. |
 | e-e-c04 | exact | ru.wikipedia.org | Believed to have once been an unmarried woman skilled in healing and herbal medicine. | Считается, что когда-то давным-давно она была старой девой и занималась знахарством, лечением. |
-| e-e-c05 | exact | ru.wikipedia.org | In life she was celebrated for healing skills, leading people after death to pray to her for eye illnesses. | При жизни она настолько прославилась своим умением лечить, что после смерти начали её уважать и в молитвах обращаться к ней при опухолях и глазных болезнях. Телесно она не видна, а появляется иногда во сне в образе старой девы. Считается в целом добрым духом, так как лечит болезни, однако если её обидеть, то может навредить. |
-| e-e-c06 | exact | ru.wikipedia.org | The archaic image of Yerekh bore similarities to general Turkic demiurgic figures. | Первоначальный образ Йĕрĕха был аналогичен общетюркскому Эрлику. Являлся демиургом. |
+| e-e-c05 | exact | ru.wikipedia.org | In life she became so famous for healing that after death people revered her and prayed to her for tumours and eye diseases; she is not visible bodily but sometimes appears in dreams as an old maid, and is considered a good spirit but may harm if offended. | При жизни она настолько прославилась своим умением лечить, что после смерти начали её уважать и в молитвах обращаться к ней при опухолях и глазных болезнях. Телесно она не видна, а появляется иногда во сне в образе старой девы. Считается в целом добрым духом, так как лечит болезни, однако если её обидеть, то может навредить. |
+| e-e-c06 | exact | ru.wikipedia.org | Russian Wikipedia states that the original image of Yĕrĕh was analogous to the pan-Turkic Erlik and that it was a demiurge. | Первоначальный образ Йĕрĕха был аналогичен общетюркскому Эрлику. Являлся демиургом. |
+| e-e-c07 | exact | web.archive.org | The Chuvash Encyclopedia describes Yĕrĕh, in traditional Chuvash belief, as a guardian deity of the household hearth and also a spirit able to send illness on people; it was mostly imagined in female form, more often invisible. | по традиционным верованиям чувашей, божество-хранитель домашнего очага; дух, способный насылать на людей болезни. Представлялся в основном в женском образе, чаще как невидимый. |
+| e-e-c08 | exact | web.archive.org | Yĕrĕh was given a dwelling, the yĕrĕh pĕrni, a basket hung out of children's reach in the house or other buildings. | Ему предоставлялось место для обитания – Й. пĕрни: лукошко, вывешиваемое на недоступной для детей высоте в избе или др. строениях. |
+| e-e-c09 | exact | web.archive.org | In some localities there were figurines symbolising Yĕrĕh, made of wood, clay or cast tin as animal figures, dolls in women's or girls' traditional dress, or male figures. | Есть сведения о бытовании в нек-рых местностях фигурок, символизирующих Й. Изготавливались они из дерева, глины или отливались из олова в виде фигурок животных, кукол в жен. или девичьих традицион. нарядах, или в образе муж. фигур. |
+| e-e-c10 | exact | web.archive.org | Yĕrĕh's abodes were considered to be storehouses, barns, ravines and bridges; the deity's main requirement is a peaceful life in family and society. | Обиталищами Й. считались клети, амбары, овраги, мосты. Основное требование божества – это мирная жизнь в семье и обществе. |
+| e-e-c11 | exact | web.archive.org | In case of skin and eye diseases, offerings were made to it: bits of lead, silver coins, scraps of silk and food, placed in the basket. | При заболевании кожными и глазными болезнями ему приносили жертвен. дары: кусочки свинца, серебряные монеты, лоскутки шёлка, еду, к-рые клали в кузовок. |
+| e-e-c12 | exact | web.archive.org | Among the Saratov Chuvash the cult of Yĕrĕh persisted until the early 20th century. | У саратов. чувашей культ Й. бытовал вплоть до нач. 20 в. |
 
 
 ## ergene-iyesi — lulus-otomatis
@@ -270,10 +283,10 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 
 ## ubir — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Karachay-Balkar, Nogai, Tatars, Bashkirs. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -281,6 +294,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ubir-c02 | exact | ru.wikipedia.org | Vubar corresponds to Obur or Ubyr in Kyrgyz Kazakh Tatar and Bashkir | тур. obur кирг. обур карач.-балк. обур каз. и ног. обыр тат. и баш. убыр |
 | ubir-c03 | exact | ru.wikipedia.org | Vubar appears at night in forms of animals fiery snakes or humans crushing sleepers | Вубар появляется ночью и, принимая облик домашних животных, огненного змея или человека, наваливается на спящих людей, |
 | ubir-c04 | exact | ru.wikipedia.org | Vubar not only suffocates sleepers but can inflict severe sickness | Вубар не только душит людей во сне, но может навести на них и порчу, причиняя им таким образом тяжелую болезнь, |
+| ubir-c05 | exact | www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai | The Batyrevo Encyclopedia describes vupăr (Tatar: ubyr) as an evil spirit in the Chuvash pantheon that sent illness and attacked a sleeping person. | ВУПӐР (тат. – убыр) – в чувашском пантеоне злой дух насылал болезни, нападал на спящего человека. |
+| ubir-c06 | exact | www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai | In the same encyclopedia the vupăr devours the Sun or the Moon before people's eyes, covering the earth in darkness; Chuvash elders fought it by shooting arrows and throwing metal objects to be freed from the darkness. | Вупӑр на глазах у людей пожирает Солнце или Луну, покрывая землю темнотой. В целях освобождения от тьмы чуваши-старики вели с ним борьбу (стреляли из лука, бросали металлические предметы). |
+| ubir-c07 | exact | www.xn--b1a7al.xn--d1abicaihnmk6e2d.xn--80aafhebudawu3c5a9cs.xn--p1ai | The encyclopedia notes that the image of vupăr has some parallels with ubyr (Tatar, Bashkir), vuver (Mari), obur (Karachay), upyr (Slavic) and vampire (German, French and others). | Образ Вупӑр находит некоторые параллели с убыр (тат., башк.), вувер (марий.) обур (карач.), упырь (слав.), вампир (немец., франц. и др.). |
+| ubir-c08 | exact | ru.samah.chv.su | Egorov's etymological dictionary records that, by the explanation of the ancient Chuvash, a lunar eclipse is the vupăr devouring the moon; the phrase vupăr karčăk means 'Baba Yaga'. | по объяснению древних чуваш, затмение луны — это вупăр пожирает луну; вупăр карчăк «баба-яга» |
+| ubir-c09 | exact | ru.samah.chv.su | Egorov's dictionary lists the meanings of vupăr (dialect văpăr, obsolete) as evil spirit, upyr, nightmare and werewolf. | вупăр , диал. вăпăр уст. «злой дух», «упырь», «кошмар», «оборотень» |
+| ubir-c10 | exact | ru.samah.chv.su | Egorov's dictionary says the related words derive from the verb ub (Tatar) ~ up ~ op meaning 'to swallow'. | Происходят от глагола уб (тат.) ~ уп ~ oп «проглотить» |
 
 
 ## yel-iyesi — lulus-otomatis
@@ -310,10 +329,13 @@ Klaim 17 (exact 17), sumber 3, gambar 0.
 
 ## alara-fairy — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 1, gambar 0.
+
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -322,18 +344,27 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | alara-fairy-c03 | exact | en.wikipedia.org | Her beauty and youth depend on water and must stay close to water sources | Her beauty and youth depend on water so she must always remain close to water sources. |
 | alara-fairy-c04 | exact | en.wikipedia.org | She has power to remove hate and greed from people's hearts | She has the power to remove hate and greed from people's hearts and hence make them capable of true love. |
 | alara-fairy-c05 | exact | en.wikipedia.org | Those seeking help tie a colorful ribbon on a lakeside tree branch | Those who seek Alara's help must travel to a lake where she was last seen and tie a colorful ribbon on the branch of a blooming lakeside tree. |
+| alara-fairy-c06 | exact | en.wikipedia.org | If the ribbon was cut from a handkerchief last used to wipe the tears of a heartbroken person, the wish is said to be more likely to come true. | If the ribbon was cut from a handkerchief last used to wipe off the tears of a heartbroken person, the wish becomes more likely to come true. |
+| alara-fairy-c07 | exact | en.wikipedia.org | Wishes must be made under a cloudless night sky shortly before dawn; Alara answers with a light breeze, a shooting star, a light show of bioluminescent algae, or by manifesting herself and even speaking to the wish maker. | Wishes must be made under a cloudless night sky shortly before dawn. Alara then answers the wish maker with a light breeze, a shooting star, a light show of bioluminescent algae or by outright manifesting herself and even talking to the wish maker. |
 
 
 ## anka — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `short_description` Tidak muncul di kutipan mana pun: Iran, Iranian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[0]` Tidak muncul di kutipan mana pun: Iran, Iranian, Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `relations[1].note` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | anka-c01 | exact | kk.wikipedia.org | Anka is a giant bird roaming Mount Qaf in Kazakh and Altay tales equivalent to Samuryq | Аңқа — иран аңыздары бойынша Қап тауында жүретін алып құс. Оның екінші түрі — самұрық. Қазақ пен алтай халықтары ертегілерінде оған теңдестіріліп айтылатын ертегі құстар: қартлан, көкжөре, құмай. |
+| anka-c02 | exact | archive.org | Karakurt's Dictionary of Turkic Mythology defines Anka (Persian) as a giant red-coloured bird that lives on Mount Kaf, sometimes depicted with a dog's head and tiger claws, and is reborn from its own ashes. | Anka (Farsça, Anka): Kızıl renkli devasa kuş. Kaf dağında yaşar. Köpek başlı, kaplan pençeli olarak tasvir edildiği de olur. Kendi küllerinden yeniden doğar. |
+| anka-c03 | exact | archive.org | In the Mount Kaf entry, the Anka bird (in old Turkic belief the Toğrul and Kongrul birds) is said to live there and to have built its nest on the summit. | Anka Kuşu (eski Türk inancında Toğrul ve Kongrul Kuşları) burada yaşar ve yuvasını bu dağın zirvesine kurmuştur. |
+| anka-c04 | exact | archive.org | The Toğrul entry, headed 'Anka Kuşu', calls it a giant red bird with supernatural qualities that symbolises immortality and resurrection and exists under different names in the mythologies of many peoples. | Doğaüstü nitelikleri olan kızıl renkli devasa kuş. Ölümsüzlüğü ve yeniden dirilişi simgeler. Diğer pek çok Dünyâ uluslarının mitolojilerinde de değişik adlarla mevcuttur. |
+| anka-c05 | exact | archive.org | Karakurt states that the Kongrul bird shares many features with the Anka bird of other peoples' legends, and the features of the Anka in Persian culture were transferred entirely to this bird. | Kongrul Kuşu diğer ulusların söylencelerindeki Anka Kuşu ile pek çok benzer özellikler taşır, hattâ zaman zaman geçişim yoluyla o mitolojilerden alıntılar yapılarak içselleştirilmiştir. Örneğin Fars kültüründeki Anka Kuşu'nun özellikleri bütünüyle bu kuşa aktarılmıştır. |
+| anka-c06 | exact | archive.org | Karakurt writes that, through Persian and Middle Eastern influence, the belief that it burns to death each day and is reborn from its ashes is widespread, and this in fact symbolises the Sun; it lives on Mount Kaf and guards it. | Fars ve hatta genel olarak Ortadoğu kültürünün etkisiyle her gün yanarak öldüğü ve kendi küllerinden yeniden doğduğu inanışı yaygındır. Bu ise aslında Güneş'i sembolize eder. Kaf Dağı'nda yaşar ve bu dağı korur. |
 
 
 ## az-kt — lulus-otomatis
@@ -504,18 +535,23 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## degirmen-iyesi — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `short_description` Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[0]` Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `story_mode.who` Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `story_mode.origin` Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | degirmen-iyesi-c01 | exact | tr.wikipedia.org | Değirmen İyesi or Tegermän İyäse is the mill guardian spirit in Turkic and Tatar myth | Değirmen İyesi (Tatarca: Tegermän İyäse veya Tegermän Anası) - Türk ve Tatar mitolojilerinde değirmenin koruyucu ruhu. Deyirmen İyesi de denir. Değişik Türk dillerinde Tegermen (Tiyirmen) İyesi olarak da bilinir. |
-| degirmen-iyesi-c02 | exact | tr.wikipedia.org | Rotation of millstone evokes mystical mood symbolizing eras | Bu dönüş zamanın geçişini ve dünyanın dönemlerini çağrıştırmaktadır. |
-| degirmen-iyesi-c03 | exact | tr.wikipedia.org | Located away from villages considered at borders of civilization | Değirmenler yerleşim yerlerinden nispeten uzak oldukları için de, uygarlığın sınırındaki mekanlar arasında kabul edilirler. |
-| degirmen-iyesi-c04 | exact | tr.wikipedia.org | Shamans take water from seven mill troughs for rituals | Şamanlar, büyü / urasa yaparken, demir kızdırarak yedi pınardan, yedi değirmen oluğundan aldıkları yedi suya atarlar. |
-| degirmen-iyesi-c05 | exact | tr.wikipedia.org | Child illness avak is healed by shamans through tozlandırma method | Zayıf kalan çocukların “avak” denilen bir hastalığa yakalandığına inanılır ve bu hastalığı şaman (veya hoca) “tozlandırma” yöntemi ile sağaltır (tedavi eder). |
+| degirmen-iyesi-c06 | exact | archive.org | According to Karakurt, it is generally depicted as a short old man covered in white flour up to his hair, and rarely as an old woman. | Genelde saçlarına kadar apak una bulanmış, kısa boylu ihtiyar bir erkek (nâdiren bir kocakarı) olarak betimlenir |
+| degirmen-iyesi-c07 | exact | archive.org | According to belief, it does not let evil spirits and evil people approach the mill, keeping them away so they do not touch the flour and bread. | inanışa göre kötü ruhları ve kötü insanları değirmene yaklaştırmaz, onları uzak tutarak una ve ekmeğe dokundurmaz. |
+| degirmen-iyesi-c08 | exact | archive.org | It is believed the grain container in the mill must not be left empty because the spirit abandons a mill whose trough is empty; it also protects those who come to grind flour, so customers formerly left it a share of the ground flour. | Değirmende tahıl konulan kabın boş kalmaması gerektiğine inanılır. ... Çünkü teknesi boş kalan değirmeni iye terkeder. Aynı zamanda değirmene un öğütmeye gelenleri de korur. Bu yüzden eskiden, değirmene gelen müşteriler öğütülen undan ona da pay bırakırlarmış. |
+| degirmen-iyesi-c09 | exact | archive.org | It grinds good people's flour clean and snow-white but bad-intentioned people's flour black and dirty; if the mill works by itself it is believed to have come, so people take care. | İyi insanların ununu temiz ve bembeyaz öğütür, kötü niyetli insanların ununu ise kara ve kirli öğütür. Değirmen kendi kendine çalışırsa onun geldiğine inanıldığı için dikkatli olunur. |
+| degirmen-iyesi-c10 | exact | archive.org | In some regions belief is held in yet another spirit named 'Değirmentaşı iyesi' (Suğoruna İççi / Suvoruna İyesi). | Bazı yörelerde "Değirmentaşı iyesi" (Suğoruna İççi / Suvoruna İyesi) adında başka bir ruhun varlığına daha inanılır. |
+| degirmen-iyesi-c11 | exact | archive.org | Karakurt lists two related beings: Değirmen Anası, protective spirit of the mill (female), and Değirmen Atası, protective spirit of the mill (male). | Bağlantılı Varlıklar 1. DEĞİRMEN ANASI: Değirmenin Koruyucu Ruhu (Dişi). 2. DEĞİRMEN ATASI: Değirmenin Koruyucu Ruhu (Erkek). |
 
 
 ## demirk-ynak — lulus-otomatis
@@ -603,10 +639,7 @@ Klaim 13 (exact 13), sumber 2, gambar 0.
 
 ## doydu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -615,6 +648,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | doydu-c03 | exact | az.wikipedia.org | Giant fish living in subterranean sea with mouth under throat and eyes on nape | Yeraltındaki böyük dənizdə yaşadığına inanılan əfsanəvi nəhəng balıq. Ağzı gırtlağının altında, gözü isə peysərindədir. |
 | doydu-c04 | exact | az.wikipedia.org | When it moves its head and body earthquakes and storms erupt | Baş və bədənini oynatınca zəlzələlər olur, tufanlar qopar. |
 | doydu-c05 | exact | az.wikipedia.org | Its name is remembered alongside Abra and Yutpa | Adı Abra və Yutpa ilə birlikdə xatırlanar. |
+| doydu-c06 | exact | archive.org | According to Karakurt's Dictionary of Turkic Mythology, Doydu's spine is turned upside down and it is kept bound with chains. | Belkemiği ters çevrilmiştir. Zincirlerle bağlı tutulur. |
+| doydu-c07 | exact | archive.org | Karakurt notes that in Turkic folk culture the world-carrying function of the fish received little attention; its size and its life underground were found more interesting. | Fakat Türk halk kültüründe bu taşıma işlevi çok fazla ilgi görmemiştir. Balığın yalnızca büyüklüğü ve yeraltında yaşaması daha fazla ilginç bulunmuştur |
+| doydu-c08 | exact | archive.org | Karakurt notes Doydu is also called Ker Balık; some views explain 'ker' as 'blind', which they take to show that it belongs to the other world. | Ker Balık'da denir. "Ker" sözcüğünün anlamını kör olarak açıklayan bazı görüşlere göre, bu onun öte âleme âit olduğunu gösterir. |
+| doydu-c09 | exact | archive.org | Karakurt explains the name (Doy/Toy) as meaning 'eater of the earth', covering the senses of eating and swallowing, from the same root as the verb doymak ('to be full'); in some Turkic dialects the word 'doydu' means 'the earth'. | Anlam: (Doy/Toy). Yeryüzünü yiyen demektir. Yemek, yutmak anlamlarını içerir. Doymak fiili bu köktendir. "Doydu" sözcüğü Türkçenin bazı lehçelerde Yeryüzü demektir. |
 
 
 ## gol-bogalar — lulus-otomatis

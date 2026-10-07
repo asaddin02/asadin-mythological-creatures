@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-06T19:30:27.357Z",
+  "checked_at": "2026-10-07T05:23:48.459Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
     "batch-068-fix-2.md",
     "batch-068-fix-3.md",
-    "batch-068-fix-4.md"
+    "batch-068-fix-4.md",
+    "batch-068-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3938,18 +3939,24 @@
     },
     {
       "slug": "ao-run",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "cfd415b49d70e3121feb40a29429372e2aefd7a6b4231ec4669c04892cf771fe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Tiongkok, Korea. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[0].note",
+          "message": "Tidak muncul di kutipan mana pun: Timur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -3982,10 +3989,39 @@
           "quote": "In the Jakjaegeon myth, a part of the Goryeo Dynasty founding myth, Jakjaegeon kills an old Gwishin with a bow at the request of the Dragon King of the West Sea, who appears to him in a dream. The Dragon King of the West Sea gives him his daughter in gratitude, and the Dragon King of the West Sea tells Jakjaegeon that his grandson (King Taejo of Goryeo) will be king.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ao-run-c04",
+          "source_id": "ao-run-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In chapter 3 of the novel Xiyouji (Journey to the West), a Dragon King answers Wukong that his younger brothers are Ao Qin, dragon king of the South Sea, Ao Shun, of the North Sea, and Ao Run, of the West Sea.",
+          "statement_id": "Dalam novel Xiyouji bab 3, seorang Raja Naga menjawab Wukong bahwa adik-adiknya adalah Ao Qin, raja naga Laut Selatan, Ao Shun, raja naga Laut Utara, dan Ao Run, raja naga Laut Barat.",
+          "quote": "悟空道：「令弟何在？」龍王道：「舍弟乃南海龍王敖欽、北海龍王敖順、西海龍王敖閏是也。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ao-run-c05",
+          "source_id": "ao-run-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In chapter 3 of Xiyouji, Ao Run, the West Sea Dragon King, tells his elder brother not to fight the man but only to put together a suit of armour for him, send him out the door, and submit a memorial to Heaven so that Heaven itself will punish him.",
+          "statement_id": "Dalam bab 3 Xiyouji, Ao Run, Raja Naga Laut Barat, berkata kepada abangnya agar tidak melawan orang itu, cukup mengumpulkan satu set zirah untuknya, mengantarnya keluar pintu, lalu mengirim laporan ke langit agar langit sendiri yang menghukumnya.",
+          "quote": "西海龍王敖閏說：「二哥不可與他動手。且只湊副披掛與他，打發他出了門，啟表奏上上天，天自誅也。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ao-run-c06",
+          "source_id": "ao-run-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In chapter 15 of Xiyouji, the Bodhisattva says the creature, called a wicked dragon, is a son of Ao Run of the West Sea; he set fire to the pearl in the hall, his father accused him of impiety, and he committed a capital crime at the heavenly court.",
+          "statement_id": "Dalam bab 15 Xiyouji, Bodhisattva menyebut makhluk yang disebut sebagai naga durhaka itu putra Ao Run dari Laut Barat; ia membakar mutiara di aula, ayahnya menuduhnya durhaka, dan ia melakukan kejahatan yang diancam hukuman mati di istana langit.",
+          "quote": "那大聖著小神來告請菩薩降這孽龍，還他馬匹。」菩薩聞言道：「這廝本是西海敖閏之子，他為縱火燒了殿上明珠，他父告他忤逆，天庭上犯了死罪。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3c1c66460a5ee81c64e0e59d1cc765453472c85a7e29e80a0dbc07a57c006b7a"
+      "images": []
     },
     {
       "slug": "bifang",
@@ -4094,20 +4130,15 @@
     },
     {
       "slug": "chang-monster",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "e0acdbcac7bb47c7ff5cb87ba14b882a237c7394d6261d8740cbdf866af24e02",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chang-monster-c01",
@@ -4115,7 +4146,7 @@
           "host": "en.wikipedia.org",
           "statement": "Chang is a Chinese ghost that lures people toward death.",
           "statement_id": "Chang adalah hantu Tiongkok yang memikat orang menuju kematian.",
-          "quote": "A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning.",
+          "quote": "A chang is a kind of Chinese ghost or zombie who lures others to their death.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4125,7 +4156,7 @@
           "host": "en.wikipedia.org",
           "statement": "In common accounts, a tiger's victim becomes a spirit bound to the killing animal.",
           "statement_id": "Dalam kisah umum, korban harimau menjadi roh yang terikat pada hewan pembunuhnya.",
-          "quote": "A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning.",
+          "quote": "Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4135,7 +4166,7 @@
           "host": "en.wikipedia.org",
           "statement": "The spirit gains release only after providing a replacement victim for the tiger.",
           "statement_id": "Roh baru dapat lepas setelah menyediakan korban pengganti bagi harimau.",
-          "quote": "A chang is a kind of Chinese ghost or zombie who lures others to their death. Most often, changs are the spirits of those killed by tigers, enslaved by the beast that killed them and unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning.",
+          "quote": "unable to find release until they find a new victim for the tiger, who then takes their place. In some tellings, the chang performs a similar role after drowning.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4148,27 +4179,61 @@
           "quote": "The chang appears in the Chinese idioms \"act the chang for the tiger\" (為虎作倀, 为虎作伥, \"to help evil people\") and \"wolves can't go without beis and tigers can't bite without changs\" (狼無狽不行，虎無倀不噬, 狼无狈不行，虎无伥不噬, \"evil people can't succeed on their own\").",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "chang-monster-c05",
+          "source_id": "chang-monster-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary records that a person bitten by a tiger, once dead, has a soul that dares not go elsewhere and keeps serving the tiger; it is called chang.",
+          "statement_id": "Kamus Kangxi mencatat bahwa orang yang digigit harimau, setelah mati, rohnya tidak berani pergi ke tempat lain dan selalu melayani harimau; roh itu disebut chang.",
+          "quote": "倀倀乎其何之。又倀鬼，虎齧人，人死，魂不敢他適，輒隷事虎，名曰倀。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chang-monster-c06",
+          "source_id": "chang-monster-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Taiping Guangji, a man walking in the mountains of Jingzhou meets a chang, is covered with a tiger skin and turns into a tiger, and for three or four years devours people, livestock and wild animals under the chang's direction.",
+          "statement_id": "Dalam Taiping Guangji, seorang pria di Jingzhou yang berjalan di gunung bertemu chang, ditutup kulit harimau, berubah menjadi harimau, dan selama tiga-empat tahun menerkam manusia, ternak, dan binatang liar atas perintah chang.",
+          "quote": "荊州有人山行，忽遇倀鬼，以虎皮冒己，因化為虎，受倀鬼指揮。凡三四年，搏食人畜及諸野獸，不可勝數。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chang-monster-c07",
+          "source_id": "chang-monster-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the tale of Liu Lao in the Taiping Guangji, an old man says that a chang teaches the tiger; the chang likes sour things, and if it eats plums scattered on the road it can no longer see, so the tiger can be caught.",
+          "statement_id": "Dalam kisah Liu Lao di Taiping Guangji, seorang lelaki tua berkata bahwa chang yang mengajari harimau; chang menyukai rasa asam, dan jika memakan prem yang ditebar di jalan ia tidak melihat apa-apa sehingga harimau dapat ditangkap.",
+          "quote": "叟曰：「此為倀鬼所教，若先制倀，即當得虎。」劉問何法取之？叟云：「此鬼好酸，可以烏白等梅及楊梅布之要路，倀若食之，便不見物，虎乃可獲。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chang-monster-c08",
+          "source_id": "chang-monster-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the tale of the Xunyang hunter in the Taiping Guangji, after the tiger is killed by the arrow, the chang returns, sees the tiger dead, and leaves dancing.",
+          "statement_id": "Dalam kisah pemburu Xunyang di Taiping Guangji, setelah harimau mati terkena panah, chang kembali, melihat harimau itu mati, lalu pergi sambil menari gembira.",
+          "quote": "少頃虎至，履弓箭發，其虎貫脅而死。其倀鬼良久卻回，見虎死，遂鼓舞而去也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "25a345a82e7d871bb3ff50e0cbeae9e354badeddc966ab298aa0a3e82b6f3bc0"
+      "images": []
     },
     {
       "slug": "dilang",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "6a11776563589ac5f4a4483cfd2bac93486df46dbb9fb375079054b77169d484",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dilang-c01",
@@ -4229,25 +4294,75 @@
           "quote": "According to the same chapter in Book of Jin, in the year 434, a man named He Xu (何旭) in Qian County (灊縣) also found two puppies underground; their thin and \"blue\" mother escaped. He Xu also tried to rear them; the female died but the male survived and grew to be \"good at devouring beasts\". Later, He Xu's village was destroyed by \"barbarians\".",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "dilang-c07",
+          "source_id": "dilang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Soushen Ji, an elder says the puppies dug from the ground are called 'xiquan' and that whoever obtains them makes his family prosperous, so they should be raised.",
+          "statement_id": "Dalam Soushen Ji, seorang tetua berkata bahwa anak anjing yang digali dari tanah itu bernama 'xiquan' dan siapa yang memperolehnya akan membuat keluarganya makmur sehingga patut dipelihara.",
+          "quote": "形大於常犬。哺之，而食。左右咸往觀焉。長老或云：「此名『犀犬』，得之者，令家富昌，宜當養之。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dilang-c08",
+          "source_id": "dilang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Soushen Ji quotes the Shizi: a dog in the earth is called dilang and a person in the earth is called wushang; a quoted Xia Ding Zhi says a dog dug out of the ground is called jia.",
+          "statement_id": "Soushen Ji mengutip Shizi: anjing di dalam tanah bernama dilang, dan manusia di dalam tanah bernama wushang; kutipan Xia Ding Zhi menyebut anjing yang digali dari tanah bernama jia.",
+          "quote": "尸子曰：「地中有犬，名曰『地狼』；有人，名曰『無傷』。」夏鼎志曰：「掘地而得狗，名曰『賈』",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dilang-c09",
+          "source_id": "dilang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Book of Jin records that in the fourth year of Taixing, the household of He Xu in Qian, Lujiang, heard puppy sounds underground, dug and found a thin mother dog that ran into the grass and two puppies; the female died, the male lived and grew into a dog good at biting beasts.",
+          "statement_id": "Kitab Jin mencatat bahwa pada tahun Taixing keempat, keluarga He Xu di Qian, Lujiang, mendengar suara anak anjing dari dalam tanah, menggali dan menemukan induk anjing kurus yang lari ke rumput serta dua anak anjing; yang betina mati, yang jantan hidup dan menjadi anjing yang pandai menerkam binatang buas.",
+          "quote": "太興四年，廬江灊縣何旭家忽聞地中有犬子聲，掘之得一母犬，青釐色，狀甚羸瘦，走入草中，不知所在。視其處有二犬子，一雄一雌，哺而養之，雌死雄活。及長為犬，善噬獸。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dilang-c10",
+          "source_id": "dilang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Book of Jin records that at Sun Wuzhong's home in Jiyang the ground split and two white puppies, one male and one female, appeared; both died despite being raised, and Sun Wuzhong was later put to death by Huan Xuan.",
+          "statement_id": "Kitab Jin mencatat bahwa di rumah Sun Wuzhong di Jiyang, tanah terbelah dan muncul dua anak anjing putih, jantan dan betina; keduanya mati meski dipelihara, dan kemudian Sun Wuzhong dibinasakan oleh Huan Xuan.",
+          "quote": "是時輔國將軍孫無終家于既陽，地中聞犬子聲，尋而地坼，有二犬子，皆白色，一雄一雌，取而養之，皆死。後無終為桓玄所誅滅。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dilang-c11",
+          "source_id": "dilang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "After citing the Shizi that a dog in the earth is called dilang, the Book of Jin calls it a natural thing that appears when it should not, a 'dog calamity'.",
+          "statement_id": "Kitab Jin, setelah mengutip Shizi bahwa anjing di dalam tanah bernama dilang, menyebut hal itu sebagai benda alami yang muncul padahal seharusnya tidak muncul, yaitu bencana anjing.",
+          "quote": "案《屍子》曰：「地中有犬，名曰地狼。」《夏鼎志》曰；「掘地得犬，名曰賈。」此蓋自然之物，不應出而出，為犬禍也。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "22feee6767444866eddbd45b3aa8542ec8d48c780251a2c7b47a89d67011de35"
+      "images": []
     },
     {
       "slug": "feilong",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "f236524fa1be7c00a2ae67e78b8ac03c661a7360313e76032c54bf6519ab517b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Jepang, Korea, Vietnam. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4290,25 +4405,45 @@
           "quote": "The (5th–3rd centuries BCE) Yijing \"Book of Changes\" first uses feilong to symbolize a daren (大人) \"great person; accomplished person\". Qian (乾) \"The Creative\", the first hexagram, says, \"Nine in the fifth place means: Flying dragons in the heavens.",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "feilong-c05",
+          "source_id": "feilong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Yijing text (Wenyan commentary on the hexagram Qian) quotes the line 'a flying dragon in the heavens' and explains it with the saying that clouds follow the dragon and wind follows the tiger.",
+          "statement_id": "Teks Yijing (bagian Wenyan hexagram Qian) mengutip baris 'naga terbang di langit' lalu menjelaskannya dengan ucapan bahwa awan mengikuti naga dan angin mengikuti harimau.",
+          "quote": "九五曰：「飛龍在天，利見大人。」何謂也？子曰：「同聲相應，同氣相求；水流濕，火就燥，雲從龍，風從虎；",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feilong-c06",
+          "source_id": "feilong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Hanfeizi quotes Shenzi: the flying dragon rides the clouds and the soaring snake roams the mist, but when clouds and mist clear, dragon and snake are the same as earthworms and ants, having lost what they ride.",
+          "statement_id": "Hanfeizi mengutip Shenzi: naga terbang menunggangi awan dan ular terbang mengarungi kabut, tetapi ketika awan dan kabut menghilang, naga dan ular menjadi sama dengan cacing dan semut karena kehilangan apa yang ditunggangi.",
+          "quote": "慎子曰：飛龍乘雲，騰蛇遊霧，雲罷霧霽，而龍蛇與螾螘同矣，則失其所乘也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "025104c2b149fcd1cc373d26c76181729c6575867c2619f957ea678ebf23a2bf"
+      "images": []
     },
     {
       "slug": "fuzhu-mythical-beast",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "b7d51be0d802537f3bb6db199003d6eb9b5a5b25199720771860c362bf1af1a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4328,7 +4463,7 @@
           "host": "en.wikipedia.org",
           "statement": "Its portrayal is a deer with four horns.",
           "statement_id": "Penggambarannya berupa rusa bertanduk empat.",
-          "quote": "Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood.",
+          "quote": "Fuzhu is described to be a kind of deer with four horns.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4338,7 +4473,7 @@
           "host": "en.wikipedia.org",
           "statement": "The creature is described as gentle and fond of cleanliness.",
           "statement_id": "Makhluk ini digambarkan lembut dan menyukai kebersihan.",
-          "quote": "Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood.",
+          "quote": "It is described as being gentle and having a desire to be clean.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4348,28 +4483,48 @@
           "host": "en.wikipedia.org",
           "statement": "Its appearance is associated with periods of flooding.",
           "statement_id": "Kemunculannya dikaitkan dengan masa banjir.",
-          "quote": "Fuzhu is described to be a kind of deer with four horns. It is described as being gentle and having a desire to be clean. The Fuzhu usually appears during periods of flood.",
+          "quote": "The Fuzhu usually appears during periods of flood.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c05",
+          "source_id": "fuzhu-mythical-beast-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shanhaijing (Zhongshan Jing), there is a beast shaped like a white deer with four horns called fuzhu; when it appears, its city suffers a great flood.",
+          "statement_id": "Dalam Shanhaijing (Zhongshan Jing), ada binatang yang bentuknya seperti rusa putih bertanduk empat bernama fuzhu; bila ia muncul, kotanya dilanda banjir besar.",
+          "quote": "北望河林，其狀如莤如舉。有獸焉，其狀如白鹿而四角，名曰夫諸，見則其邑大水。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c06",
+          "source_id": "fuzhu-mythical-beast-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In Wu Renchen's notes to the Shanhaijing, the Pianya is cited as saying that a white deer with four horns is fuzhu.",
+          "statement_id": "Dalam catatan Wu Renchen pada Shanhaijing, kamus Pianya disebut menyatakan bahwa rusa putih bertanduk empat adalah fuzhu.",
+          "quote": "如蒨如舉言其一望蔚葱有如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "37cd98b22377a93bd4710d46ea6a9bf4fdd4467670a14b96400dfb060edabf35"
+      "images": []
     },
     {
       "slug": "gangcheori",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "25d310a0f212eae717f0a084594ae88b1347df6c16d26a690cabeac355d55cf1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: 17. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4389,7 +4544,7 @@
           "host": "en.wikipedia.org",
           "statement": "Other names include Gangcheol, Kkangcheol, and Ggoangcheol.",
           "statement_id": "Nama lain meliputi Gangcheol, Kkangcheol, dan Ggoangcheol.",
-          "quote": "Gangcheori (강철이; 強鐵) is a dragon-shaped monster in Korean mythology that was introduced in the 17th century. It is a monster that has traditionally been popular throughout the country. It also has been called Gangcheol (강철), Kkangcheol (깡철), and Ggoangcheol (꽝철).",
+          "quote": "It also has been called Gangcheol (강철), Kkangcheol (깡철), and Ggoangcheol (꽝철).",
           "context": "etymology",
           "status": "loose"
         },
@@ -4407,30 +4562,80 @@
           "id": "gangcheori-c04",
           "source_id": "gangcheori-s1",
           "host": "en.wikipedia.org",
-          "statement": "The account recorded by Lee Soo-kwang describes it burning an area of several miles.",
-          "statement_id": "Kisah yang dicatat Lee Soo-kwang menyebutnya membakar wilayah beberapa mil.",
-          "quote": "One of the earliest records of Gangcheori being mentioned is the Jibong Yuseol (1614). In those days, there was an old saying, \"Where Gangcheori goes it is like spring, even if it is fall.\" When author Lee Soo-kwang asked an old man in the countryside about the origin of the word, the old man told him about a monster called Gangcheori that burns down everything in a few miles.",
+          "statement": "When the author Lee Soo-kwang asked an old man in the countryside where the saying came from, the old man described a monster called Gangcheori that burns everything down for a few miles.",
+          "statement_id": "Ketika pengarang Lee Soo-kwang bertanya kepada seorang lelaki tua di pedesaan tentang asal ungkapan itu, lelaki itu menceritakan monster bernama Gangcheori yang membakar habis segalanya sejauh beberapa mil.",
+          "quote": "When author Lee Soo-kwang asked an old man in the countryside about the origin of the word, the old man told him about a monster called Gangcheori that burns down everything in a few miles.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gangcheori-c05",
+          "source_id": "gangcheori-s2",
+          "host": "ko.wikisource.org",
+          "statement": "In the Yeolha Ilgi, the speaker says the creature is named gangcheol (罡鐵) and cites the Korean folk saying 'where gangcheol goes, autumn becomes spring', meaning it brings drought and a poor harvest; poor people whose plans go awry speak of 'gangcheol's autumn'.",
+          "statement_id": "Dalam Yeolha Ilgi, penutur menyebut makhluk itu bernama gangcheol (罡鐵) dan mengutip peribahasa rakyat Korea 'di mana gangcheol pergi, musim gugur pun menjadi musim semi', artinya ia mendatangkan kekeringan dan gagal panen; orang miskin yang rencananya gagal menyebutnya 'musim gugur gangcheol'.",
+          "quote": "此名罡鐵 我東鄙諺云 罡鐵去處 秋亦爲春 謂其致旱歲歉也 故貧人謀事違心 稱罡鐵之秋",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gangcheori-c06",
+          "source_id": "gangcheori-s3",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia says Yi Su-gwang, author of the Jibong Yuseol, took the monster that burns all plants for several ri around to be the monster bi (蜚) of the Shanhaijing.",
+          "statement_id": "Wikipedia bahasa Korea menyebut bahwa Yi Su-gwang, penulis Jibong Yuseol, menganggap makhluk pembakar tumbuhan sejauh beberapa ri itu sebagai monster bi (蜚) dalam Shanhaijing.",
+          "quote": "강철이 언급되는 가장 이른 기록 중 하나는 《지봉유설》(1614년)이다. ... 근방 몇 리의 식물을 모두 태워죽이는 강철이라는 괴물을 알려주었다. 이수광은 이것을 《산해경》에 나오는 괴물 비(蜚)라고 생각했다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gangcheori-c07",
+          "source_id": "gangcheori-s3",
+          "host": "ko.wikipedia.org",
+          "statement": "According to Korean Wikipedia, Yi Ik's Seongho Saseol (1740) describes gangcheori as a creature that ruins farming not by drought but by heavy rain, and Yi Ik took it to be the same as the Chinese poison dragon (dokryong).",
+          "statement_id": "Menurut Wikipedia bahasa Korea, Seongho Saseol karya Yi Ik (1740) menyebut gangcheori sebagai makhluk yang merusak pertanian bukan lewat kekeringan melainkan hujan lebat, dan Yi Ik menganggapnya sama dengan naga beracun (dokryong) dari Tiongkok.",
+          "quote": "이익의 《성호사설》(1740년)에서는 가뭄이 아니라 호우로 농사를 망치는 요괴라고 하는데, 이익은 이를 중국에서 전하는 독룡과 같다고 보았다.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gangcheori-c08",
+          "source_id": "gangcheori-s3",
+          "host": "ko.wikipedia.org",
+          "statement": "According to Korean Wikipedia, Yi Deok-mu's Anyeop Gi describes it as a creature like a foal living in a swamp in Gimpo and causing drought, and Yi Deok-mu took it to be the same as the Chinese creature hou (犼).",
+          "statement_id": "Menurut Wikipedia bahasa Korea, Anyeop Gi karya Yi Deok-mu menggambarkannya sebagai makhluk mirip anak kuda yang hidup di rawa Gimpo dan menyebabkan kekeringan, dan Yi Deok-mu menganggapnya sama dengan makhluk hou (犼) Tiongkok.",
+          "quote": "이덕무의 《앙엽기》에서는 망아지처럼 생긴 요괴로, 김포의 늪 속에 살면서 가뭄을 일으킨다고 한다. 이덕무는 강철을 중국 요괴 후(犼)와 같은 것이라고 생각했다.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gangcheori-c09",
+          "source_id": "gangcheori-s3",
+          "host": "ko.wikipedia.org",
+          "statement": "Korean Wikipedia interprets that, because stories of crops ruined by drought and by heavy rain circulated at about the same time, natural disasters that ruin farming in general seem to have been attributed to gangcheori.",
+          "statement_id": "Wikipedia bahasa Korea menafsirkan bahwa karena kisah gagal panen akibat kekeringan dan akibat hujan lebat sama-sama beredar pada masa yang mirip, bencana alam perusak pertanian secara umum tampaknya dialihkan sebagai perbuatan gangcheori.",
+          "quote": "가뭄으로 농사를 망친다는 이야기와 호우로 농사를 망친다는 상반된 이야기가 비슷한 시기에 모두 전해지는 것으로 보아, 농사를 망치는 자연재해 전반을 강철의 소행으로 돌린 것 같으며",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2e31f0fcd1d46d4ce97d8735105ea8c0e5682471da5f6e92339123da55de18b6"
+      "images": []
     },
     {
       "slug": "heluo-fish",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "d7701457b5888901f2e77076dfb718bea6d9dacbee3c55c65e44139d0e612ec5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Inggris, English. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4448,9 +4653,9 @@
           "id": "heluo-fish-c02",
           "source_id": "heluo-fish-s1",
           "host": "en.wikipedia.org",
-          "statement": "A quoted Shanhaijing passage places it in a river rising from Mount Burnbright.",
-          "statement_id": "Kutipan Shanhaijing menempatkannya dalam sungai yang berasal dari Gunung Burnbright.",
-          "quote": "...Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River. The River Burning contains many what-not fish [Heluo fish] with one head and ten bodies. They make a noise like a dog barking. If you eat them, they will cure cancerous growths.",
+          "statement": "A quoted Shanhaijing passage places the fish in the River Burning, which rises at Mount Burnbright and flows west into the Great River.",
+          "statement_id": "Kutipan Shanhaijing menempatkan ikan ini di Sungai Burning, yang berhulu di Gunung Burnbright dan mengalir ke barat ke Sungai Besar.",
+          "quote": "Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -4458,9 +4663,9 @@
           "id": "heluo-fish-c03",
           "source_id": "heluo-fish-s1",
           "host": "en.wikipedia.org",
-          "statement": "The fish is described as making a dog-like barking sound.",
-          "statement_id": "Ikan ini digambarkan mengeluarkan suara menyerupai gonggongan anjing.",
-          "quote": "...Four hundred leagues further north is a mountain called Mount Burnbright. The River Burning rises here and flows west to empty into the Great River. The River Burning contains many what-not fish [Heluo fish] with one head and ten bodies. They make a noise like a dog barking. If you eat them, they will cure cancerous growths.",
+          "statement": "The fish is described as making a noise like a dog barking, and eating it is said to cure cancerous growths.",
+          "statement_id": "Ikan ini digambarkan mengeluarkan suara seperti anjing menggonggong, dan memakannya disebut menyembuhkan tumor ganas.",
+          "quote": "They make a noise like a dog barking. If you eat them, they will cure cancerous growths.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4473,18 +4678,58 @@
           "quote": "— Book Three, The Classic of the Northern Mountains, Chapter 1",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "heluo-fish-c05",
+          "source_id": "heluo-fish-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing (Beishan Jing) says that the waters of Mount Qiaoming hold many heluo fish with one head and ten bodies, whose sound is like a barking dog, and that eating them cures carbuncles (yong).",
+          "statement_id": "Dalam Shanhaijing (Beishan Jing) disebutkan bahwa di air Gunung Qiaoming banyak terdapat ikan heluo yang berkepala satu dan bertubuh sepuluh, bersuara seperti anjing menyalak, dan bila dimakan menyembuhkan bisul (ai).",
+          "quote": "又北四百里，曰譙明之山。譙水出焉，西流注于河。其中多何羅之魚，一首而十身，其音如吠犬，食之已癰。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heluo-fish-c06",
+          "source_id": "heluo-fish-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In Wu Renchen's notes to the Shanhaijing, Yang Shen's supplementary note says the heluo fish is now the 'eight-band fish' (badaiyu), and the Yiyu Tuzan is quoted as saying that the heluo fish, with one head and ten bodies, turns into a bird named xiujiu that steals husked rice and falls dead into the mortar.",
+          "statement_id": "Dalam catatan Wu Renchen pada Shanhaijing, catatan tambahan Yang Shen menyebut ikan heluo kini adalah 'ikan delapan sabuk' (badaiyu), dan Yiyu Tuzan dikutip menyatakan bahwa ikan heluo berkepala satu dan bertubuh sepuluh berubah menjadi burung bernama xiujiu yang mencuri beras tumbuk dan jatuh mati di lesung.",
+          "quote": "譙水出焉西流注于河〈任臣案一統志譙水在陜州城南三里湧出入河俗呼三里澗〉其中多何羅之魚一首而十身〈任臣案張融海賦何羅鱅鮨即此也楊慎補注云何羅魚今八帶魚也異魚圖贊曰何羅之魚十身一首化而為鳥其名休舊竊糈于舂傷隕在臼",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "heluo-fish-c07",
+          "source_id": "heluo-fish-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia states that in the 16th century Yang Shen wrote in the Yiyu Tuzan that, like the Kun fish, the heluo fish can change into a bird called xiujiu, notorious for stealing husked rice and falling dead into mortars.",
+          "statement_id": "Wikipedia menyebut bahwa pada abad ke-16 Yang Shen menulis dalam Yiyu Tuzan bahwa seperti ikan Kun, ikan heluo dapat berubah menjadi burung bernama xiujiu yang terkenal mencuri beras tumbuk dan jatuh mati ke lesung.",
+          "quote": "In the 16th century, Yang Shen wrote in Encomiums on Strange Fish ... that, just like the Kun fish (which can transform itself into a bird), the Heluo fish can also change into a bird known as Xiujiu ... notorious for stealing husked rice and falling into mortars, dead.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "heluo-fish-c08",
+          "source_id": "heluo-fish-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A quoted Shanhaijing passage describes the Zi fish, which looks like a perch, as also having one head and ten bodies and smelling like the scent-herb.",
+          "statement_id": "Kutipan Shanhaijing menyebut ikan zi, mirip ikan perch, juga berkepala satu dan bertubuh sepuluh serta berbau seperti tanaman wangi.",
+          "quote": "The River Limpid rises here and flows northeast to empty into the sea. This river contains many fine cowrie shells and numerous red-dye fish [Zi fish] which look like perch. They have one head and ten bodies, and they smell like the scent-herb.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7f5718d941db47d01aa66ba3866bfc1b56e86345eccf8b6cf54b7bb8a280b5d1"
+      "images": []
     },
     {
       "slug": "kawas-mythology",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "59743ac407e8d8425ed441114dd9c78210680ec339cf38be4231042f8f508cb2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -4494,9 +4739,9 @@
           "message": "Mengusulkan tradisi baru: \"Tradisi Amis\"."
         },
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -4506,7 +4751,7 @@
           "host": "en.wikipedia.org",
           "statement": "Kawas are supernatural entities in Amis belief.",
           "statement_id": "Kawas adalah entitas gaib dalam kepercayaan Amis.",
-          "quote": "Kawas are supernatural entities in the Amis faith. Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used.",
+          "quote": "Kawas are supernatural entities in the Amis faith.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4516,7 +4761,7 @@
           "host": "en.wikipedia.org",
           "statement": "Amis belief and Christianity have syncretized while the term kawas remains in use.",
           "statement_id": "Kepercayaan Amis dan Kekristenan berpadu, dengan istilah kawas tetap digunakan.",
-          "quote": "Kawas are supernatural entities in the Amis faith. Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used.",
+          "quote": "Though the Amis have converted to Christianity, their spiritual beliefs and Christianity have syncretized and the term kawas is still used.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -4526,7 +4771,7 @@
           "host": "en.wikipedia.org",
           "statement": "Kawas categories include deities, ancestors, living beings' souls, object spirits, and ghosts.",
           "statement_id": "Kategori kawas mencakup dewa, leluhur, jiwa makhluk hidup, roh benda, dan hantu.",
-          "quote": "Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings, giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas.",
+          "quote": "Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4536,7 +4781,7 @@
           "host": "en.wikipedia.org",
           "statement": "Lisin ceremonies address kawas that may bring blessings or calamities.",
           "statement_id": "Upacara lisin digunakan untuk menghadapi kawas yang dapat membawa berkat atau bencana.",
-          "quote": "Kawas are divided into six groups: gods, ancestors, souls of living, spirits of living things, spirits of lifeless objects, and ghosts and mysterious beings, giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas.",
+          "quote": "giving their blessing or calamities to mortals according to myths about them . Bamboo oracle specialists were among communicators. Lisin, or ceremony, was the preferred method to cope with kawas.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4549,27 +4794,51 @@
           "quote": "Kawas is a root word used to describe a spiritual practitioner, healer, or shaman in the Amis culture.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "kawas-mythology-c06",
+          "source_id": "kawas-mythology-s2",
+          "host": "web.alcd.center",
+          "statement": "According to Namoh Rata, the common understanding of kawas across Amis communities is a good spirit, coming from good people after death and the source of happiness, health and natural phenomena, and an evil spirit, coming from bad people or those who died unnaturally and the source of misfortune, illness and calamity.",
+          "statement_id": "Menurut Namoh Rata, pemahaman umum di berbagai komunitas Amis tentang kawas ialah roh baik, yang berasal dari orang baik yang telah meninggal dan menjadi sumber kebahagiaan, kesehatan, dan berbagai gejala alam, serta roh jahat, yang berasal dari orang jahat atau orang yang mati tidak wajar dan menjadi sumber ketidakberuntungan, penyakit, dan bencana.",
+          "quote": "「kawas」的共同認識是：（1）指善靈，是由善 ... 人死後變來的，是一切幸福、健康和自然界各種 ... 現象的根源。（2）指惡靈，是壞人或死於非命 ... 者死後變來的靈，是一切不幸、疾病和災禍的來",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kawas-mythology-c07",
+          "source_id": "kawas-mythology-s2",
+          "host": "web.alcd.center",
+          "statement": "Namoh Rata writes that kawas also means ancestral spirits, who hold a very important place and are counted among good spirits; as long as their descendants willingly follow the rules and customs set by the ancestors, they are glad to protect and help them live a peaceful life.",
+          "statement_id": "Namoh Rata menulis bahwa kawas juga berarti roh leluhur, yang menempati posisi penting dan digolongkan roh baik; selama keturunan mau menaati aturan dan kebiasaan yang ditetapkan leluhur, mereka bersedia melindungi dan membantu keturunannya hidup tenteram.",
+          "quote": "（3）指祖先的靈。在阿美族人的腦海裡， ... 祖先的靈占有非常重要的地位，他們被列為善 ... 靈，只要他們的後裔樂意遵守祖先生前所規定的 ... 律例和習慣，他們將樂意保護和幫助他們的後裔 ... 過安逸平順的生活。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kawas-mythology-c08",
+          "source_id": "kawas-mythology-s2",
+          "host": "web.alcd.center",
+          "statement": "Namoh Rata notes that the Amis use the word kawas to refer to the 'supreme being' of Christianity, God.",
+          "statement_id": "Namoh Rata mencatat bahwa orang Amis memakai kata kawas untuk menyebut 'Yang Mahatinggi' dalam agama Kristen, yaitu Tuhan.",
+          "quote": "以「上帝」和「神」為例，阿美族以kawas ... 指涉基督教「至高無上的存在者」——上帝。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fa25972fe07452f105373686b4a4c232f62aa3ea37ab15bfd1b1d7fd7d5b4651"
+      "images": []
     },
     {
       "slug": "kun",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-5.md",
+      "entry_sha256": "d263f6ecef6f20ba37b55b985302394db734f81eb66bee2a50e91fa53fc3a042",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kun-c01",
@@ -4587,7 +4856,7 @@
           "host": "ja.wikipedia.org",
           "statement": "In a Zhuangzi parable, Kun dwells in the far northern sea and spans thousands of li.",
           "statement_id": "Dalam perumpamaan Zhuangzi, Kun hidup di laut paling utara dan ukurannya mencapai ribuan li.",
-          "quote": "『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。",
+          "quote": "『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -4597,7 +4866,7 @@
           "host": "ja.wikipedia.org",
           "statement": "The tale connects Kun's transformation with the giant bird Peng.",
           "statement_id": "Kisah menghubungkan perubahan Kun dengan burung raksasa Peng.",
-          "quote": "『荘子』逍遥遊篇にある寓話で、鯤は北の果ての海（北冥）にいる体の大きさが数千里もある巨大な魚として登場する。この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。",
+          "quote": "この説話では鵬（ほう）が対となる存在として登場しており、共に非常に巨大な存在として描写される。『荘子』などの本文では、この鯤が化したものが鵬だともある。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4610,10 +4879,49 @@
           "quote": "鯤は『荘子』などにおいて非常に大きな魚の名前として用いられているが、それ以前の古代の辞書である『爾雅』には「鯤」の文字の説明には「魚子」（魚の子）とあり、卵から孵ったばかりのこまかい魚、あるいは魚卵だとしている。そのため、非常に小さいものを現わす名称を持つ巨大な魚という転倒によるおかしみや、非常に巨大な魚として語られている鯤も小さな一存在に過ぎないという寓意が込められてもいる、とも解釈されている。",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "kun-c05",
+          "source_id": "kun-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Zhuangzi, in the Northern Darkness there is a fish named Kun whose size is not known to be how many thousand li; it transforms into a bird named Peng.",
+          "statement_id": "Dalam Zhuangzi, di Laut Utara ada ikan bernama Kun yang besarnya tidak diketahui berapa ribu li; ia berubah menjadi burung bernama Peng.",
+          "quote": "北冥有魚，其名爲鯤。鯤之大，不知其幾千里也，化而爲鳥，其名爲鵬。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kun-c06",
+          "source_id": "kun-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Zhuangzi, north of Qiongfa lies the dark sea called Tianchi, where there is a fish named Kun, thousands of li wide, whose length no one knows.",
+          "statement_id": "Dalam Zhuangzi, di utara Qiongfa ada laut gelap bernama Tianchi, tempat ikan bernama Kun yang lebarnya ribuan li dan panjangnya tidak diketahui siapa pun.",
+          "quote": "窮髮之北，有冥海者，天池也。有魚焉，其廣數千里，未有知其脩者，其名爲鯤。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kun-c07",
+          "source_id": "kun-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary quotes the Erya (Shiyu): kun means fish roe or fry, and a note says the young of any fish is called kun.",
+          "statement_id": "Kamus Kangxi mengutip Erya, Shiyu: Kun berarti anak ikan, dan catatan menyebut anak ikan apa pun disebut Kun.",
+          "quote": "《爾雅·釋魚》鯤，魚子。《註》凡魚之子名鯤。《魯語》魚禁鯤鮞。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kun-c08",
+          "source_id": "kun-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary also records the Yupian describing kun as a large fish, passages from the Liezi (a fish named Kun thousands of li wide and of matching length) and the Zhuangzi, and Cui Zhuan's view in Lu Deming's Yinyi that kun should be read as jing (whale).",
+          "statement_id": "Kamus Kangxi juga mencatat Yupian yang menyebut Kun sebagai ikan besar, kutipan Liezi (ikan bernama Kun yang lebarnya ribuan li dan panjangnya sepadan) dan Zhuangzi, serta pendapat Cui Zhuan dalam Yinyi Lu Deming bahwa Kun seharusnya dibaca jing (paus).",
+          "quote": "又《玉篇》大魚。《列子·湯問篇》有魚焉，其廣數千里，其長稱焉，其名爲鯤。《莊子·逍遙遊》北冥有魚，其名爲鯤。《陸德明·音義》崔譔云：鯤當爲鯨。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3e4d8c038f41fdb0464f916de3fa77b89ae8c013d19ccda92c3cc0c18f8034ac"
+      "images": []
     }
   ]
 }
