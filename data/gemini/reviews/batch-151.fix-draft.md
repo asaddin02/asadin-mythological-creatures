@@ -29,5 +29,3 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 
 ## ngintaka
 - `claims (ngintaka-c01)`: Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-- `claims (ngintaka-c02)`: Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-- `claims (ngintaka-c05)`: Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.

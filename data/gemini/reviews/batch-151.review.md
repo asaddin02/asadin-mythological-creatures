@@ -1,6 +1,6 @@
 # Review batch-151
 
-Diperiksa 2026-10-06T19:30:00.844Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md, batch-151-fix-4.md.
+Diperiksa 2026-10-07T05:03:00.213Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md, batch-151-fix-4.md, batch-151-fix-5.md, batch-151-fix-6.md.
 
 ## maero — lulus-otomatis
 
@@ -357,10 +357,7 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## nanaue — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -370,18 +367,23 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | nanaue-c04 | exact | en.wikipedia.org | When Nanaue worked, others took off his clothing, revealing his shark mouth on his back. | When Nanaue was a man, ʻUmi-a-Līloa, the king of Hawaii, issued an order for all men to till a large plantation for the king. When Nanaue worked, other workers took off his clothing, revealing his shark mouth on his back. |
 | nanaue-c05 | exact | en.wikipedia.org | Nanaue escaped being burned alive by shapeshifting into a shark to swim away. | The King had Nanaue tied to a stake to be burned alive, but Nanaue prayed to his father and escaped, shapeshifting into a shark to swim away. |
 | nanaue-c06 | exact | en.wikipedia.org | The people of Molokai prayed to the demigod Unauna, who burned Nanaue alive. | The people of Molokai prayed to the demigod Unauna, who burned Nanaue alive. |
+| nanaue-c07 | exact | archive.org | Nanaue is called the shark-man of Waipio in the time of Umi. | Nanaue is the shark-man of Waipio in the time of Umi |
+| nanaue-c08 | exact | archive.org | When detected at Waipio he turns into a shark and swims to Hana, where he marries the sister of a petty chief; at Molokai he lives at Poniu-o-Hua. | When detected at Waipio he turns into a shark and swims to Hana, where he marries the sister of a petty chief. At Molokai he lives at Poniu-o-Hua. |
+| nanaue-c09 | exact | archive.org | The marks of the struggle are to be seen on the Kainalu hillslope and on a grooved rock called Pu‘u-mano, around which the ropes holding the net that caught him were wound. | and the marks of the struggle are to be seen on the Kainalu hillslope and on a grooved rock called Pu‘u-mano about which the ropes were wound which held the net with which he was caught. |
 
 
 ## pua-tu-tahi — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | pua-tu-tahi-c01 | exact | en.wikipedia.org | In the mythology of Tahiti, Pua Tu Tahi was one of the giant monster clams of the deep in the legend of Rata. | In the mythology of Tahiti, Pua Tu Tahi was one of the giant monster clams of the deep in the legend of Rata. |
+| pua-tu-tahi-c02 | exact | archive.org | In the Tahitian version, Rata is born after Tumu-nui, his four rat brothers and his brother-in-law Vahieroa, Rata's father, have all been swallowed by a giant clam while voyaging to Tu-i-hiti. | Rata is son of Vahieroa and Maemae-a-rohi, sister of the ruling chief of North Tahiti, Tumu-nui. ... He is born after Tumu-nui and his four rat brothers ... and his brother-in-law Vahieroa, father of Rata, have all been swallowed by a giant clam while voyaging to Tu-i-hiti |
+| pua-tu-tahi-c03 | exact | archive.org | The warriors who accompany Rata slay all the monsters; first they slay the great clam, then recover the bones of the dead and also Rata's living mother. | accompany him, and slay all the monsters ... First they slay the great clam, recover the bones of the dead, and also Rata’s living mother |
+| pua-tu-tahi-c04 | exact | en.wikipedia.org | In Tahitian mythology, Rata's uncle, king Tumu-nui, and his father Vahieroa are swallowed by a great clam, Pua Tu Tahi, on their way to Pitcairn. | Rata, in Tahitian mythology, is said to have become king of Tahiti when his uncle, king Tumu-nui, and his father Vahieroa are swallowed by a great clam, Pua Tu Tahi, while they are on their way to Pitcairn. |
+| pua-tu-tahi-c05 | exact | en.wikipedia.org | En route for Pitcairn, Rata and his crew are sucked down into the same clam but cut the monster open with their spears, rescue the remains of Rata's father and uncle, and bury them in Tahiti. | While en route for Pitcairn, Rata and his crew are sucked down into the same clam, but they use their spears to cut the monster open. They rescue the remains of Rata's father and uncle and bury them back in Tahiti. |
+| pua-tu-tahi-c06 | exact | archive.org | In the tale, one figure invokes monsters who guard the way to let him pass but to attack Tumu-nui should he attempt to follow. | He invokes monsters who guard the way to let him pass but to attack Tumu-nui should he attempt to follow. |
 
 
 ## tamangori — lulus-otomatis
@@ -400,24 +402,22 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## tapairu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tapairu-c01 | exact | en.wikipedia.org | In the mythology of Mangaia in the Cook Islands, the Tapairu are elves or fairies named after daughters of Miru. | In the mythology of Mangaia in the Cook Islands, the Tapairu are elves or fairies, who are named after the four daughters of Miru, the deformed goddess of the underworld. |
 | tapairu-c02 | exact | en.wikipedia.org | They were said to have been present when mortals danced in honor of their brother, Tau-Titi. | They were said to have been present when mortals danced in honor of their brother, Tau-Titi. |
 | tapairu-c03 | exact | en.wikipedia.org | They were also associated with the god Tane. | They were also associated with the god Tane. |
+| tapairu-c04 | exact | archive.org | The deformed and ugly Miru has her home in the nether-world, where she cooks human spirits in her oven. | The deformed and ugly Miru has her home in the nether-world, where she cooks human spirits in her oven. |
+| tapairu-c05 | exact | archive.org | Besides Tautiti, the pitiless spirit-eater has four daughters, called Tapairu, or peerless ones, on account of their matchless beauty. | Besides Tautiti, the pitiless spirit-eater has four daughters, called Tapairu, or peerless ones, on account of their matchless beauty. |
+| tapairu-c06 | exact | archive.org | These fairies, always associated with the worship of Tane, would take part in the dance provided that one end of the dancing ground were well covered with fresh cut banana leaves. | These fairies, always associated with the worship of Tane, would even deign to take part in the dance, provided that one end of the dancing ground were well covered with fresh cut banana leaves. |
+| tapairu-c07 | exact | archive.org | As soon as the morning star rose they disappeared and returned to their gloomy home in Avaiki. | As soon as the morning star rose they disappeared, and returned to their gloomy home in Avaiki. |
 
 
 ## tiddalik — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -427,14 +427,18 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tiddalik-c04 | exact | en.wikipedia.org | Creatures and plant life everywhere began to die due to lack of moisture. | Creatures and plant life everywhere began to die due to lack of moisture. |
 | tiddalik-c05 | exact | en.wikipedia.org | Nabunum the eel made Tiddalik laugh when he tied himself in comical shapes. | This was successfully coordinated by a wise old owl, when Nabunum the eel made Tiddalik laugh when he tied himself in comical shapes. |
 | tiddalik-c06 | exact | en.wikipedia.org | As Tiddalik laughed, the water rushed out to replenish lakes, swamps and rivers. | As Tiddalik laughed, the water rushed out of him to replenish the lakes, swamps and rivers. |
+| tiddalik-c07 | exact | frogs.org.au | According to the article's author, the story originally belonged to the Aboriginal people of South Gippsland, in Victoria. | Actually, the story originally belonged to the Aboriginal people of South Gippsland, in Victoria |
+| tiddalik-c08 | exact | frogs.org.au | Every version of Tiddalik now circulating can be traced back to early records that locate the story on the coast of South Gippsland near Port Albert. | Each of the myriad versions of Tiddalik which now abound across the globe can be traced back to these early records, which locate the story in the coastal area of South Gippsland near Port Albert |
+| tiddalik-c09 | exact | frogs.org.au | The missionary John Bulmer, the pastoralist Edward Curr, and the geologists Alfred Howitt and Robert Brough Smyth all recorded early versions of the Tiddalik story. | Among those anthropologists were the missionary John Bulmer, the pastoralist Edward Curr, and the geologists Alfred Howitt and Robert Brough Smyth, all of whom recorded early versions of the Tiddalik story. |
+| tiddalik-c10 | exact | frogs.org.au | In the original Kurnai versions recorded in the nineteenth century, Tiddalik's release of water was a natural disaster, causing many to drown and many to become stranded on islands. | In fact, in the original Kurnai versions recorded in the nineteenth century, Tiddalik's release of water into the environment was a natural disaster, causing many to drown and many to become stranded on the islands |
+| tiddalik-c11 | exact | frogs.org.au | Those who were stranded were rescued by Borun the pelican, whose feathers were then entirely black. | Those who were stranded were rescued by Borun the pelican, whose feathers were then entirely black. |
+| tiddalik-c12 | exact | frogs.org.au | The problem is that the Water-holding Frog is not found in or anywhere near Tiddalik's original home in Gippsland. | The problem is that the Water-holding Frog is not found in or anywhere near Tiddalik's original home in Gippsland. |
+| tiddalik-c13 | exact | frogs.org.au | The author says that for children as well as adults it is a story with a moral lesson about greed and about how it is better to share. | For children, as well as adults, it is a story with a moral lesson about greed and about how it is better to share |
 
 
 ## tikokura — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -442,26 +446,29 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tikokura-c02 | exact | en.wikipedia.org | Ngaru determined to try his strength against Tikokura and his shark-like companion, Tumuitearetoka. | Ngaru determined to try his strength against Tikokura and his shark-like companion, Tumuitearetoka. |
 | tikokura-c03 | exact | en.wikipedia.org | He provided himself with a surfboard named Orua (the two). | He provided himself with a surfboard named Orua (the two). |
 | tikokura-c04 | exact | en.wikipedia.org | After eight days and nights, Ngaru threw his surfboard to the monsters, who retired to the deep. | After eight days and nights, Ngaru threw his surfboard to the monsters, who gladly retired to their home in the deep, while Ngaru went off to find Tongatea, his wife (Gill 1876:225-227). |
+| tikokura-c05 | exact | archive.org | Thirsting for distinction, Ngaru resolved to try his strength against some of the numerous monsters and evil spirits of his time. | Thirsting for distinction, Ngaru resolved to try his strength against some of the numerous monsters and evil spirits of his time. |
+| tikokura-c06 | exact | archive.org | Tumuitearetoka is described as a vast shark that fed exclusively on human flesh, and these evil spirits always went in each other's company. | or a vast shark, which fed exclusively upon human flesh. These evil spirits always went in each other's company |
+| tikokura-c07 | exact | archive.org | Moko sat on a projecting crag of rock to watch over his grandson, who advanced to the outer edge of the reef where the surf ceaselessly beats and loudly cursed the sea-monsters by name. | Moko sat on a projecting crag of rock to watch over the safety of his grandson, who now advanced to the outer edge of the reef, where the surf ceaselessly beats, and loudly cursed these sea-monsters by name. |
+| tikokura-c08 | exact | archive.org | For eight weary days and nights the contest went on, until the exhausted Ngaru ended it by throwing his surf-board to the sea-monsters, who gladly retired to their ancient haunts in the deep blue ocean. | For eight weary days and nights this terrible contest went on, until the exhausted Ngaru put an end to it by throwing his surf-board to the sea-monsters, who gladly retired to their ancient haunts in the deep blue ocean. |
 
 
 ## wirnpa — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wirnpa-c01 | exact | en.wikipedia.org | Wirnpa is a rainmaking snake who according to Western Desert legend created the land around Percival Lakes in the Dreaming and repelled outsiders. | Wirnpa is a rainmaking snake who according to Western Desert Australian Aboriginal legend created the land around the Percival Lakes in Wirnpa country, Australia in the Dreaming and whose image was used to repel outsiders. |
+| wirnpa-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | www.nma.gov.au | Before they became snakes, the jila ancestral beings were men who made rain, shaped the features of the land and introduced practices of law into the jila Country. | Before they became snakes, however, these ancestral beings were men who made rain, shaped the features of the land and introduced practices of law into the jila Country. |
+| wirnpa-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | www.nma.gov.au | Wirnpa was one of the most powerful of the jila men and the last to travel the desert before becoming a snake and entering the spring that bears his name; his adventures are celebrated in the songs and stories of many language groups. | Wirnpa was one of the most powerful of the jila men and the last to travel the desert before becoming a snake and entering the spring, which bears his name. His adventures are celebrated in the songs and stories of many language groups. |
+| wirnpa-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | www.nma.gov.au | Aboriginal people enter Wirnpa, which lies west of the stock route, ritually, sweeping the ground with branches and approaching in single file. | Aboriginal people enter Wirnpa, which lies west of the stock route, ritually, sweeping the ground with branches and approaching in single file. |
+| wirnpa-c05 | exact (HTTP 403; dicek lewat arsip Wayback) | www.nma.gov.au | On either side of the stock route, jila such as Kurtal and Wirnpa live on at these sites; their enduring power and importance is asserted in the songs, ceremonies and paintings of their people. | Either side of the stock route, jila such as Kurtal and Wirnpa live on at these sites. Their enduring power and importance is asserted in the songs, ceremonies and paintings of their people. |
+| wirnpa-c06 | exact (HTTP 403; dicek lewat arsip Wayback) | www.nma.gov.au | The museum notes that many of these people worry about proposals to mine the Country around Wirnpa. | Today, many of these people worry about proposals to mine the Country around Wirnpa. |
 
 
 ## agunua — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -469,14 +476,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | agunua-c02 | exact | en.wikipedia.org | The first coconut from each tree is sacred to Agunua. | The first coconut from each tree is sacred to Agunua. |
 | agunua-c03 | exact | en.wikipedia.org | He is also the god of the sea. | He is also the god of the sea. |
 | agunua-c04 | exact | en.wikipedia.org | He is worshiped through prayer, with many requesting good health and rich harvests. | He is worshiped through prayer, with many requesting general good health and rich harvests of him. |
+| agunua-c05 | exact | archive.org | There is one figona who seems almost like a supreme spirit, called Agunua. | There is one, indeed, who seems almost like a supreme spirit, called Agunua. |
+| agunua-c06 | exact | archive.org | Agunua is a name for Hatuibwari, the winged serpent. | Agunua is a name for Hatuibwari, the winged serpent. |
+| agunua-c07 | exact | archive.org | In the account of the men of Ngorangora, Agunua created all things: the sea, the land, men and animals, thunder, lightning, rain and storms. | Agunua created all things—the sea, the land, men, and animals, thunder, lightning, rain, and storms |
+| agunua-c08 | exact | archive.org | Almost all of these local figona are represented as female snakes, Agunua as a male snake. | Almost all of these local figona are represented as female snakes, Agunua as a male snake. |
+| agunua-c09 | exact | archive.org | The first drinking nut from a coco-nut tree is sacred to Agunua, and its milk is poured out as a libation in the sacred grove. | The first drinking nut from a coco-nut tree is sacred to Agunua, and the milk is poured out as a libation in the sacred grove. |
+| agunua-c10 | exact | archive.org | It is told that Agunua was thirsty and rain fell to assuage his thirst; this was the origin of rain. | He was thirsty and rain fell to assuage his thirst. This was the origin of rain. |
+| agunua-c11 | exact | archive.org | The centre of the cult of Agunua is at Haununu, on the south-west coast. | The centre of the cult is at Haununu, on the south-west coast |
 
 
 ## arkaroo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -485,28 +496,30 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | arkaroo-c03 | exact | en.wikipedia.org | Attacked by mystic beasts, water from his rests formed waterholes such as Arkaroola Springs. | He was attacked by other mystic beasts and let water on his rests, each position resulting in a waterhole, such as that of Arkaroola Springs and others. |
 | arkaroo-c04 | exact | en.wikipedia.org | Rumblings of the Arkaroo can be heard in the mountains, explained by seismic activity. | Today as in ancient times, rumblings of the Arkaroo can be heard in the mountains, which are scientifically explained by the seismic activity of the ranges. |
 | arkaroo-c05 | exact | en.wikipedia.org | The Arkaroo gave origin to place names including Arkaroola Village, Arkaroola Creek, and Arkaroo Rock in Wilpena Pound. | The Arkaroo has given origin of name to places in this region, namely Arkaroola Village, Arkaroola Creek, Arkaroola Springs and the Arkaroo Rock in Wilpena Pound. |
+| arkaroo-c06 | exact | austhrutime.com | Arkaroo was a great serpent from the Dreamtime who lived in the Gammon Ranges south of Arkaroola. | Arkaroo was a great serpent from the Dreamtime who lived in the Gammon Ranges south of Arkaroola. |
+| arkaroo-c07 | exact | austhrutime.com | According to Adnyamathanha stories, Arkaroo grew very thirsty, slithered down to the plains and drank Lake Frome and Lake Callabonna dry. | According to the stories about him among the Adnyamathanha people, he felt very thirsty so slithered down to the plains and drank Lake Frome and Lake Callabonna dry. |
+| arkaroo-c08 | exact | austhrutime.com | The large volume of salty water he drank gave him a terrible bellyache, which the Aboriginal people believed caused the rumblings from beneath the ground in the Gammon Ranges. | The large volume of salty water he drank gave him a terrible bellyache. The Aboriginal People believed that was the cause of the rumblings coming from beneath the ground in the Gammon Ranges |
+| arkaroo-c09 | exact | austhrutime.com | An alternative explanation is that the sounds result from minor tremors along fault lines produced by earth movements associated with readjustment of the crust after uplift of the area. | An alternative explanation is that the sounds result from minor tremors along fault lines produced by earth movements associated with readjustment of the crust after uplift of the area. |
+| arkaroo-c10 | exact | austhrutime.com | Paralana Hot Springs is described as one of the most important of the waterholes left by Arkaroo. | Paralana Hot Springs is one of the most important of the waterholes left by Arkaroo. |
 
 
 ## bamapama — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bamapama-c01 | exact | pl.wikipedia.org | Bamapama (Ure) is a trickster god in Aboriginal mythology. | Bamapama (Ure) – bóg oszust w mitologii Aborygenów. |
 | bamapama-c02 | exact | en.wikipedia.org | In Yolngu mythology, Bamapana is a trickster god who causes discord. | In Yolngu mythology, Bamapana is a trickster god who causes discord. |
 | bamapama-c03 | exact | en.wikipedia.org | He broke a strict taboo in tribal tradition. | He is obscene and profane and once committed incest, thus breaking a strict taboo. |
+| bamapama-c04 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.oxfordreference.com | Bamapana is the trickster hero of the Murngin in northern Australia, "a crazy man". | The trickster hero of the Murngin in northern Australia, ‘a crazy man’. |
+| bamapama-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.oxfordreference.com | Bamapana was obscene and broke clan incest taboos, to the open horror and hidden delight of these aboriginal tribesmen. | To the open horror and hidden delight of these aboriginal tribesmen Bamapana was obscene and broke clan incest taboos. |
+| bamapama-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.oxfordreference.com | The quarrels and misunderstandings he caused were innumerable. | The quarrels and misunderstandings he caused were innumerable. |
 
 
 ## chinny-kinik — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -514,14 +527,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | chinny-kinik-c02 | exact | en.wikipedia.org | Two of his uncles tracked him to a sinkhole in Pekarra and found the entrance to a vast cave. | Two of his uncles, members of the local clan whose numbers had been decimated, tracked him to a sinkhole in an area called Pekarra and discovered the entrance to a vast cave. |
 | chinny-kinik-c03 | exact | en.wikipedia.org | With Chinny-kinik sheltering inside, they stacked firewood at the entrance and ignited it. | With Chinny-kinik sheltering inside from a cold wind, they stacked the entrance with bundles of firewood and set them alight. |
 | chinny-kinik-c04 | exact | en.wikipedia.org | The uncles added logs to the blaze to seal the cannibal giant's doom. | The uncles added logs to the blaze to block the entrance and seal the cannibal giant’s doom. |
+| chinny-kinik-c05 | exact | cavesaustralia.caves.org.au | In 1921 Tom Bellchambers, a renowned South Australian naturalist and conservationist, recorded the Indigenous legend of Chinny-kinik, the dreaded cannibal giant of the Murraylands. | In 1921 renowned South Australian naturalist and conservationist, Tom Bellchambers, recorded the Indigenous legend of Chinny-kinik, the dreaded cannibal giant of the Murraylands. |
+| chinny-kinik-c06 | exact | cavesaustralia.caves.org.au | Chinny-kinik roamed a vast mallee-covered plain east of the Murray River, catching and devouring anyone he met. | Chinny-kinik roamed a vast mallee-covered plain to the east of the Murray River, catching and devouring anyone he encountered. |
+| chinny-kinik-c07 | exact | cavesaustralia.caves.org.au | His ravenous reign continued until two of his uncles, members of the decimated local clan, tracked his enormous footprints to a sinkhole in an area called Pekarra. | His ravenous reign continued unabated until two of his uncles, members of the local clan whose numbers had been decimated, tracked his enormous footprints to a sinkhole in an area called Pekarra. |
+| chinny-kinik-c08 | exact | cavesaustralia.caves.org.au | Chinny-kinik's mighty struggles shook the earth as smoke wafted through his lair. | Chinny-kinik’s mighty struggles shook the earth as smoke wafted through his lair. |
+| chinny-kinik-c09 | exact | cavesaustralia.caves.org.au | Bellchambers was determined to find the legendary cave and narrowed its likely location to a fifty-kilometre stretch of the western Murray Mallee. | Bellchambers was determined to track down the legendary cave and narrowed the likely location to a fifty kilometre stretch of the western Murray Mallee |
+| chinny-kinik-c10 | exact | cavesaustralia.caves.org.au | The article's author notes that some Aboriginal speakers did not distinguish the sounds p and b, so the cave site may in fact be "Bakara" rather than "Pekarra". | some Aboriginal speakers did not make a distinction between the sounds ‘p’ and ‘b’. Instead of ‘Pekarra’, the cave site may in fact be ‘Bakara’. |
+| chinny-kinik-c11 | exact | cavesaustralia.caves.org.au | The Bakara Well Cave was not discovered until the early 1970s, by Wayne Goedecke. | It wasn’t until the early 1970s that Wayne Goedecke discovered the Bakara Well Cave |
+| chinny-kinik-c12 | exact | cavesaustralia.caves.org.au | The author argues that the low sinkhole and gully leading to the collapse entrance to the south align with the description in the legend. | The low sinkhole and gully leading to the collapse entrance to the south align with the description in the legend. |
 
 
 ## garkain — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -529,14 +547,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | garkain-c02 | exact | en.wikipedia.org | Garkain kills unwary travellers by smothering them with loose folds of skin on his arms and legs. | Should an unwary traveller enter his domain, Garkain kills them by smothering them with the loose folds of skin on his arms and legs. |
 | garkain-c03 | exact | en.wikipedia.org | He is a nocturnal hunter who sleeps during the day under a pile of leaves. | He is a nocturnal hunter and sleeps during the day on the jungle floor under a pile of leaves. |
 | garkain-c04 | exact | en.wikipedia.org | He is capable of walking and flying but lacks speech and eats prey raw. | He is similar in size to an Aboriginal man, and is capable of both walking and flying, but lacks the power of speech and does not know how to make fire or tools, thus forcing him to catch prey with his bare hands and eat it raw. |
+| garkain-c05 | exact | en.wikipedia.org | In 1957 the anthropologist Charles P. Mountford donated a eucalyptus bark painting of Garkain (1948 or 1949) from the Gunbalanya Aboriginal community in western Arnhem Land to the Art Gallery of South Australia in Adelaide. | In 1957, anthropologist Charles P. Mountford donated a eucalyptus bark painting of Garkain (1948 or 1949) from the Gunbalanya Aboriginal community in western Arnhem Land to the Art Gallery of South Australia in Adelaide. |
+| garkain-c06 | exact | en.wikipedia.org | The painting shows the creature's flaps of skin, and his feet are illustrated as footprints, as is common in depictions of spiritual and human beings. | The painting shows the creature's flaps of skin, and his feet are illustrated as footprints, as is common in depictions of spiritual and human beings. |
+| garkain-c07 | exact | en.wikipedia.org | Mountford noted similarities between Garkain and Warraguk and observed that overall the creature was not as feared as other spirit beings of the area such as the Namarakain and the Nabudi. | Mountford noted similarities between Garkain and Warraguk, and observed that the creature was overall not as feared as other spirit beings of the area like the Namarakain and the Nabudi. |
+| garkain-c08 | exact | www.agsa.sa.gov.au | The Art Gallery of South Australia's collection records a work titled Garkain by an unknown maker, from Gunbalanya (Oenpelli), western Arnhem Land, 1948 or 1949, in natural ochres on eucalyptus bark, a gift of Charles P. Mountford in 1957. | Unknown, Garkain, 1948 or 1949, Gunbalanya (Oenpelli), western Arnhem Land, Northern Territory, natural ochres on eucalyptus bark, 78.5 x 30.5 cm (irreg); Gift of Charles P. Mountford 1957 |
 
 
 ## hauwahine — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -544,14 +563,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hauwahine-c02 | exact | en.wikipedia.org | Hauwahine ensured food was available but removed fish if people were oppressed by the aliʻi. | It was believed that Hauwahine ensured there was enough food available for the people, but removed the fish from the pond if the people living in the area were oppressed by the aliʻi. |
 | hauwahine-c03 | exact | en.wikipedia.org | In the Hawaiian language, the name Hauwahine literally means "female ruler". | In the Hawaiian language, the name Hauwahine literally means "female ruler". |
 | hauwahine-c04 | exact | en.wikipedia.org | She was believed to prevent sickness and pollution was considered an insult to her. | She was additionally believed to prevent sickness. Pollution and overgrowth were thought to be insults to Hauwahine, which was one motivation for the Hawaiians to keep the fishpond clean. |
+| hauwahine-c05 | exact | archive.org | Hau-wahine is the moʻo goddess of the ponds of Kawainui and Kaelepule in the Koolau district on Oahu; she brings abundant fish, punishes pond owners who oppress the poor, and wards off sickness. | Hau-wahine is the mo‘o goddess of the ponds of Kawainui and Kaelepule in Koolau district on Oahu. She brings abundance of fish, punishes the owners of the pond if they oppress the poor, and wards off sickness. |
+| hauwahine-c06 | exact | en.wikipedia.org | The goddess Hiʻiaka was believed to have fought all the moʻo except Hauwahine, for whom she chanted a mele. | The Hawaiian goddess Hiʻiaka was believed to have fought all the moʻo except for Hauwahine, for whom she chanted a mele. |
+| hauwahine-c07 | exact | en.wikipedia.org | Nā Pōhaku o Hauwahine, a basalt outcropping on the west side of Kawainui, was thought to be a favored location of Hauwahine; yellow grass and rushes were believed to mark her presence. | Nā Pōhaku o Hauwahine, a basalt outcropping on the west side of Kawainui, was thought to be a favored location of Hauwahine. Yellow grass and rushes were believed to mark her location. |
 
 
 ## kinie-ger — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -559,14 +578,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kinie-ger-c02 | exact | en.wikipedia.org | It had the head and body of a quoll but the limbs of a man. | It was a ruthless killer with the head and body of a quoll but the limbs of a man. |
 | kinie-ger-c03 | exact | en.wikipedia.org | The creature was killed by the owl and the crow who ambushed him at a water hole. | In the myth, the creature was stated to have been killed by the owl and the crow who ambushed him when he came to drink at a water hole. |
 | kinie-ger-c04 | exact | en.wikipedia.org | When defeated, it shrank down and became the first quoll. | Supposedly when the creature was finally defeated, it shrank down and became the first quoll, the founding father of the quoll race. |
+| kinie-ger-c05 | exact | adb.anu.edu.au | From the early 1920s Unaipon studied Aboriginal mythology and compiled his versions of legends; Kinie Ger—The Native Cat was among the publications funded in 1928. | From the early 1920s Unaipon studied Aboriginal mythology and compiled his versions of legends; he was influenced by the classics and by his researches into Egyptology at the South Australian Museum. The A.F.A. funded publication of Hungarrda (1927), Kinie Ger—The Native Cat (1928) and Native Legends (1929). |
+| kinie-ger-c06 | exact | web.archive.org | In Aboriginal mythology, Kinie Ger was a ruthless and murderous beast with the head and body of a cat but the limbs of a man, who killed innocent people, animals and birds; he was killed by the owl and the crow who ambushed him as he came to drink at a water hole. | In Australian Aborigine mythology, Kinie Ger was a ruthless and murderous beast with the head and body of a cat but the limbs of a man who went around killing innocent people, animals and birds. He was killed by the owl and the crow who ambushed him when he came to drink at a water hole. |
 
 
 ## mungoon-gali — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -574,53 +592,63 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | mungoon-gali-c02 | exact | en.wikipedia.org | In those days lizards were venomous instead of snakes, and Ouyouboolooey offered to steal the poison bag. | Afraid the tribes would soon be wiped out by the constant attacks, Ouyouboolooey the black snake offered to steal the hidden poison bag from Mungoon-Gali for in those days, it was lizards instead of snakes that were venomous. |
 | mungoon-gali-c03 | exact | en.wikipedia.org | Mungoon-Gali handed the poison bag to Ouyouboolooey who fled with it. | Mungoon-Gali, reluctant but determined to learn of the plot against him, took the poison bag from his mouth and handed it Ouyouboolooey who placed it in his own and fled, easily outpacing the still sluggish reptile. |
 | mungoon-gali-c04 | exact | en.wikipedia.org | This explains how snakes became venomous and lizards lost their toxic bite. | On returning to the tribes, Ouyouboolooey refused to destroy the bag and instead retreated into the bush which explains how snakes become venomous and lizards, like the ferocious Mungoon-Gali, lost their bite. |
+| mungoon-gali-c05 | exact | gutenberg.net.au | Mungoongarlee, the largest kind of iguana, which even now in its dwarfed condition measures about five feet from tongue to tail, was quite a terror in the land because of his poisonous bite. | Mungoongarlee, the largest kind of iguana, which even now in its comparatively dwarfed condition measures five feet or so from tongue to tail, was, by reason of his poisonous bite, quite a terror in the land. |
+| mungoon-gali-c06 | exact | gutenberg.net.au | In those days the bite of a snake was not poisonous, but that of an iguana was. | In those days the bite of a snake was not poisonous, but that of an iguana was. |
+| mungoon-gali-c07 | exact | gutenberg.net.au | Such havoc had he wrought that at last all the other tribes held a meeting to discuss how best to check the wholesale slaughter. | Such havoc had he wrought amongst them that at last all the other tribes held a meeting to discuss how best to check this wholesale slaughter. |
+| mungoon-gali-c08 | exact | gutenberg.net.au | Ever since then the snakes have been poisonous and not the iguanas, and there has been a feud between snakes and iguanas, who never meet without fighting. | Ever since then the snakes have been poisonous, and not the iguanas, and there has been a feud between the snakes and the iguanas, who never meet without fighting. |
+| mungoon-gali-c09 | exact | gutenberg.net.au | Mungoongarlee was a great wirreenun and knew of a plant which, if eaten after snakebite, made the poison powerless to kill or injure. | For Mungoongarlee was a great wirreenun, and he knew of a plant which if eaten after snakebite made the poison powerless to kill or injure. |
 
 
 ## negunung — lulus-otomatis
 
-Klaim 1 (loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (loose 1, exact 5), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | negunung-c01 | loose | ar.wikipedia.org | Negunung is a bat in Australian myths who created the first woman to bring balance. | نجوننج (الإنجليزية: Negunung) الخفاش في أساطير استراليا الذي خلق المرأة الأولى ليحقق التوازن في الطبيعة حيث لم يكن يوجد سوى الرجال. |
+| negunung-c02 | exact | archive.org | According to the Wotjobaluk account of the creation of man, long ago Ngunung-ngunnut, the bat, who was a man, lived on the earth with others like him, and there was no difference between the sexes. | The Wotjobaluk account of the creation of man says that long ago Ngunung-ngunnut, the bat, who was a man, lived on the earth, and there were others like him, but there was no difference between the sexes. |
+| negunung-c03 | exact | archive.org | Feeling lonely, he wished for a wife and altered himself and one other so that he became the man and the other the woman. | Feeling lonely, he wished for a wife, and he altered himself and one other, so that he was the man and the other was the woman. |
+| negunung-c04 | exact | archive.org | Then he made fire by rubbing a stick on a log of wood. | Then he made fire by rubbing a stick on a log of wood. |
+| negunung-c05 | exact | archive.org | According to the Wurunjerri, Bunjil made men of clay and gave them life, while his brother Pallina, the bat, brought women up out of the water to be their wives. | According to the Wurunjerri, it was Bunjil who made men of clay and imparted life to them, while his brother, Pallina, the bat, brought women up out of the water to be their wives. |
+| negunung-c06 | exact | en.wikipedia.org | A list of Australian Aboriginal mythological figures names Balayang, a bat deity and brother of Bunjil. | Balayang, bat deity and brother of Bunjil |
 
 
 ## ngintaka — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 1, gambar 0.
+Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 **warn**
 - `claims (ngintaka-c01)` Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-- `claims (ngintaka-c02)` Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-- `claims (ngintaka-c05)` Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ngintaka-c01 | loose | en.wikipedia.org | Ngiṉṯaka is a mythological giant perentie lizard from Aṉangu and Pitjantjatjara Aboriginal religion. | Ngiṉṯaka (Aboriginal pronunciation: [ŋiɳʈaka]), also spelled Ngintaku, is a mythological giant perentie lizard from Aṉangu and Pitjantjatjara Aboriginal religion. It is associated with Angatja, an area along an important songline. |
-| ngintaka-c02 | exact | en.wikipedia.org | Ngiṉṯaka is one of two major reptile Ancestral Beings associated with Uluru. | Ngiṉṯaka is one of the two major reptile Ancestral Beings associated with Uluru, the other being Milpali. |
 | ngintaka-c03 | exact | en.wikipedia.org | Ngiṉṯaka travels searching for a better grindstone in the myth. | In the myth, Ngiṉṯaka travels from his home near the Western Australia border to the camp of another lizard tribe, near Oodnadatta, in search of a better grindstone. |
 | ngintaka-c04 | exact | en.wikipedia.org | As he travels, he creates many landforms in the Musgrave and Mann Ranges. | As he travels, he creates many landforms in the Musgrave and Mann Ranges and vomits up various grass seeds and vegetable foods. |
-| ngintaka-c05 | exact | en.wikipedia.org | Ngarutjaranya, the highest mountain in South Australia, is also Ngiṉṯaka rearing up to look over the country. | According to mythology, Ngarutjaranya, the highest mountain in South Australia, is also Ngiṉṯaka as he rears up to look over the country. |
+| ngintaka-c06 | exact | www.sbs.com.au | The project has overcome controversy to preserve one of Central Australia's oldest intact songlines, the Ngintaka or Perentie Lizard dreaming. | The endeavour has overcome controversy to preserve one of Central Australia's oldest intact songlines called the Ngintaka, or Perentie Lizard, dreaming. |
+| ngintaka-c07 | exact | www.sbs.com.au | The paintings showcase Ngintaka, the perenti lizard man, a mystical being at the heart of a creation story mapping outback lands. | The paintings showcase Ngintaka - the perenti lizard man - a mystical being at the heart of a creation story mapping outback lands. |
+| ngintaka-c08 | exact | www.sbs.com.au | His is a tale of theft, deceit and vengeance: Ngintaka steals a grinding stone and flees, changing the landscape along the way and eventually being transformed into a mountain. | His is a tale of theft, deceit, and vengeance, involving Ngintaka stealing a grinding stone and fleeing, changing the landscape along the way and eventually being transformed himself into a mountain. |
+| ngintaka-c09 | exact | www.sbs.com.au | Generations of Aboriginal people known as Anangu have learned the Ngintaka tale, and how he created food sources and waterholes still found today, through a musical story called a songline. | Generations of Aboriginal people known as Anangu have learned the Ngintaka tale - and how he created food sources and waterholes still found today - through a musical story called a songline. |
+| ngintaka-c10 | exact | www.sbs.com.au | Elder Inawinytji Williamson says the Ngintaka story is one of the most important to Anangu. | Elder Inawinytji Williamson says the Ngintaka story is one of the most important to Anangu |
 
 
 ## oozlum-bird — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | oozlum-bird-c01 | exact | en.wikipedia.org | The oozlum bird is a legendary creature found in Australian and British folk tales. | The oozlum bird, also spelled ouzelum, is a legendary creature found in Australian and British folk tales and legends. |
 | oozlum-bird-c02 | exact | en.wikipedia.org | When startled, it flies in ever-decreasing circles until disappearing completely. | Some versions have it that, when startled, the bird will take off and fly around in ever-decreasing circles until it manages to fly up its own backside, disappearing completely, which adds to its rarity. |
 | oozlum-bird-c03 | exact | en.wikipedia.org | Other sources state the bird flies backwards to admire its own beautiful tail feathers. | Other sources state that the bird flies backwards so that it can admire its own beautiful tail feathers, or because while it does not know where it is going, it likes to know where it has been. |
+| oozlum-bird-c04 | exact (HTTP 404; dicek lewat arsip Wayback) | www.poetrylibrary.edu.au | In a poem, the Oozlum Bird is said to be no chicken: as big and wide across as the bird that beats the steamships, the albatross. | Bet yer boots it ain't no chicken, It's as big and wide across As the bird what beats the steamships, What's it called? The albatross! |
+| oozlum-bird-c05 | exact (HTTP 404; dicek lewat arsip Wayback) | www.poetrylibrary.edu.au | In the same poem, a character saddles up the Oozlum, rises some miles above the plain and lets the Earth turn underneath him until he spots the Domain. | So he saddled up the Oozlum, Rose some miles above the plain, Let the Earth turn underneath him Till he spotted the Domain! |
+| oozlum-bird-c06 | exact (HTTP 404; dicek lewat arsip Wayback) | www.poetrylibrary.edu.au | The poem calls the Oozlum a curious and mighty wise bird that always flies tail-first to keep the dust out of its eyes. | It's a curious bird, the Oozlum, And a bird that's mighty wise, For it always flies tail-first to Keep the dust out of its eyes! |
+| oozlum-bird-c07 | exact | en.wikipedia.org | The dictionary the article refers to records its earliest citation as dating from 1858. | The earliest citation recorded by the dictionary dates from 1858. |
+| oozlum-bird-c08 | exact | en.wikipedia.org | The dictionary speculates that the word could have been suggested by the word ouzel, meaning a blackbird (Turdus merula). | speculates that the word could have been suggested by the word ouzel, meaning a blackbird (Turdus merula). |
+| oozlum-bird-c09 | exact | en.wikipedia.org | A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing and so flies in tighter, faster, smaller circles until it disappears up itself. | A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing which causes it to fly in tighter, faster, smaller circles, until it disappears up its own fundament. |
+| oozlum-bird-c10 | exact | en.wikipedia.org | The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle. | The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle. |
+| oozlum-bird-c11 | exact | en.wikipedia.org | The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation. | The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation. |
 
 
 ## pie — lulus-otomatis
@@ -637,15 +665,16 @@ Klaim 1 (loose 1), sumber 1, gambar 0.
 
 ## tahiti-tokerau — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tahiti-tokerau-c01 | exact | en.wikipedia.org | In the Tuamotu Rata cycle, Tahiti-tokerau was a water-nymph whom Vahi-vero marries. | In the Tuamotu Rata cycle, Tahiti-tokerau was a water-nymph whom Vahi-vero marries. |
 | tahiti-tokerau-c02 | exact | en.wikipedia.org | She was abducted by Puna, king of the underworld and rescued by her husband, becoming parents of Rata. | She was abducted by Puna, king of the underworld and rescued by her husband. They then become parents of Rata. |
+| tahiti-tokerau-c03 | exact | archive.org | Vahi-vero visits a pool from which the beautiful Tahiti-tokerau emerges daily. | Vahi-vero visits a pool from which the beautiful Tahiti-tokerau daily emerges. |
+| tahiti-tokerau-c04 | exact | archive.org | Having mastered her, Vahi-vero finds that Puna, king of Vavau, is his rival. | Having mastered her, he finds that Puna, king of Vavau, is his rival. |
+| tahiti-tokerau-c05 | exact | archive.org | He goes by way of the pool to where Puna guards the girl in a house with round ends and brings her back, leaving her sister Huarehu in her place; Tahiti-tokerau bears him the boy Rata. | He goes by way of the pool to the place where Puna guards the girl in a house with round ends, and brings her back with him, leaving her sister Huarehu in her place. Tahiti-tokerau bears to him the boy Rata. |
+| tahiti-tokerau-c06 | exact | archive.org | Puna comes in shark form to avenge himself, kills Vahi-vero and takes his wife back, and makes of her eyes lights for her sister to do sennit work by and of her feet supports for the sister's work basket. | Puna comes in shark form to avenge himself, kills Vahi-vero and takes his wife back and makes of her eyes lights for her sister to do sennit work by and of her feet supports for the sister’s work basket. |
 
 
 ## thardid-jimbo — lulus-otomatis

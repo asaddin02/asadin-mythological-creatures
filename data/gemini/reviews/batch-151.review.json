@@ -1,12 +1,14 @@
 {
   "batch_id": "batch-151",
-  "checked_at": "2026-10-06T19:30:00.844Z",
+  "checked_at": "2026-10-07T05:03:00.213Z",
   "files": [
     "batch-151.md",
     "batch-151-fix-1.md",
     "batch-151-fix-2.md",
     "batch-151-fix-3.md",
-    "batch-151-fix-4.md"
+    "batch-151-fix-4.md",
+    "batch-151-fix-5.md",
+    "batch-151-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2026,20 +2028,15 @@
     },
     {
       "slug": "nanaue",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "1805f94db183e5067fc3063310475053c323eaf878c4b19c060214743bb1b9b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nanaue-c01",
@@ -2100,27 +2097,51 @@
           "quote": "The people of Molokai prayed to the demigod Unauna, who burned Nanaue alive.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nanaue-c07",
+          "source_id": "nanaue-s2",
+          "host": "archive.org",
+          "statement": "Nanaue is called the shark-man of Waipio in the time of Umi.",
+          "statement_id": "Nanaue disebut manusia hiu (shark-man) dari Waipio pada masa Umi.",
+          "quote": "Nanaue is the shark-man of Waipio in the time of Umi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nanaue-c08",
+          "source_id": "nanaue-s2",
+          "host": "archive.org",
+          "statement": "When detected at Waipio he turns into a shark and swims to Hana, where he marries the sister of a petty chief; at Molokai he lives at Poniu-o-Hua.",
+          "statement_id": "Ketika ketahuan di Waipio ia berubah menjadi hiu dan berenang ke Hana, tempat ia menikahi saudari seorang kepala (chief) kecil; di Molokai ia tinggal di Poniu-o-Hua.",
+          "quote": "When detected at Waipio he turns into a shark and swims to Hana, where he marries the sister of a petty chief. At Molokai he lives at Poniu-o-Hua.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nanaue-c09",
+          "source_id": "nanaue-s2",
+          "host": "archive.org",
+          "statement": "The marks of the struggle are to be seen on the Kainalu hillslope and on a grooved rock called Pu‘u-mano, around which the ropes holding the net that caught him were wound.",
+          "statement_id": "Tanda-tanda pergumulan dapat dilihat di lereng bukit Kainalu dan pada batu beralur bernama Pu‘u-mano, tempat tali jaring yang menahannya dililitkan.",
+          "quote": "and the marks of the struggle are to be seen on the Kainalu hillslope and on a grooved rock called Pu‘u-mano about which the ropes were wound which held the net with which he was caught.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4b076c3ec79541378bafb48a8955f6be0cde242c4384959b1e5f12dbe08a12a5"
+      "images": []
     },
     {
       "slug": "pua-tu-tahi",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "c40195a88ba35faa04616df1f3e1f676bc2acb9f6edbaa7dd09ccdba60017a8d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pua-tu-tahi-c01",
@@ -2131,10 +2152,59 @@
           "quote": "In the mythology of Tahiti, Pua Tu Tahi was one of the giant monster clams of the deep in the legend of Rata.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pua-tu-tahi-c02",
+          "source_id": "pua-tu-tahi-s2",
+          "host": "archive.org",
+          "statement": "In the Tahitian version, Rata is born after Tumu-nui, his four rat brothers and his brother-in-law Vahieroa, Rata's father, have all been swallowed by a giant clam while voyaging to Tu-i-hiti.",
+          "statement_id": "Dalam versi Tahiti, Rata lahir setelah Tumu-nui, empat saudara tikusnya, dan iparnya Vahieroa (ayah Rata) semuanya ditelan seekor kerang raksasa ketika berlayar menuju Tu-i-hiti.",
+          "quote": "Rata is son of Vahieroa and Maemae-a-rohi, sister of the ruling chief of North Tahiti, Tumu-nui. ... He is born after Tumu-nui and his four rat brothers ... and his brother-in-law Vahieroa, father of Rata, have all been swallowed by a giant clam while voyaging to Tu-i-hiti",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pua-tu-tahi-c03",
+          "source_id": "pua-tu-tahi-s2",
+          "host": "archive.org",
+          "statement": "The warriors who accompany Rata slay all the monsters; first they slay the great clam, then recover the bones of the dead and also Rata's living mother.",
+          "statement_id": "Para pejuang yang menyertai Rata membunuh semua monster di jalan mereka; yang pertama dibunuh adalah kerang raksasa, lalu mereka mengambil kembali tulang orang-orang yang tewas dan juga ibu Rata yang masih hidup.",
+          "quote": "accompany him, and slay all the monsters ... First they slay the great clam, recover the bones of the dead, and also Rata’s living mother",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pua-tu-tahi-c04",
+          "source_id": "pua-tu-tahi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Tahitian mythology, Rata's uncle, king Tumu-nui, and his father Vahieroa are swallowed by a great clam, Pua Tu Tahi, on their way to Pitcairn.",
+          "statement_id": "Menurut mitologi Tahiti, paman Rata, raja Tumu-nui, dan ayahnya Vahieroa ditelan kerang besar bernama Pua Tu Tahi dalam perjalanan ke Pitcairn.",
+          "quote": "Rata, in Tahitian mythology, is said to have become king of Tahiti when his uncle, king Tumu-nui, and his father Vahieroa are swallowed by a great clam, Pua Tu Tahi, while they are on their way to Pitcairn.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pua-tu-tahi-c05",
+          "source_id": "pua-tu-tahi-s3",
+          "host": "en.wikipedia.org",
+          "statement": "En route for Pitcairn, Rata and his crew are sucked down into the same clam but cut the monster open with their spears, rescue the remains of Rata's father and uncle, and bury them in Tahiti.",
+          "statement_id": "Dalam perjalanan ke Pitcairn, Rata dan awak kapalnya terisap ke dalam kerang yang sama, tetapi mereka membelah monster itu dengan tombak, menyelamatkan sisa jasad ayah dan paman Rata, dan menguburkannya di Tahiti.",
+          "quote": "While en route for Pitcairn, Rata and his crew are sucked down into the same clam, but they use their spears to cut the monster open. They rescue the remains of Rata's father and uncle and bury them back in Tahiti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pua-tu-tahi-c06",
+          "source_id": "pua-tu-tahi-s2",
+          "host": "archive.org",
+          "statement": "In the tale, one figure invokes monsters who guard the way to let him pass but to attack Tumu-nui should he attempt to follow.",
+          "statement_id": "Dalam kisah itu, seorang tokoh memanggil monster-monster penjaga jalan agar membiarkannya lewat tetapi menyerang Tumu-nui bila ia mencoba mengikuti.",
+          "quote": "He invokes monsters who guard the way to let him pass but to attack Tumu-nui should he attempt to follow.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "00acd388e51c6d4d4f0d3ec56b4d329a6481f448b429277aaa932808bb5262b3"
+      "images": []
     },
     {
       "slug": "tamangori",
@@ -2189,20 +2259,15 @@
     },
     {
       "slug": "tapairu",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "fcbb689ff1a8014ed2fc3920a03b0fc039f20b1c5dec23786c4ec7b63b234067",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tapairu-c01",
@@ -2233,27 +2298,61 @@
           "quote": "They were also associated with the god Tane.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tapairu-c04",
+          "source_id": "tapairu-s2",
+          "host": "archive.org",
+          "statement": "The deformed and ugly Miru has her home in the nether-world, where she cooks human spirits in her oven.",
+          "statement_id": "Miru yang cacat dan buruk rupa tinggal di dunia bawah, tempat ia memasak roh manusia di tungkunya.",
+          "quote": "The deformed and ugly Miru has her home in the nether-world, where she cooks human spirits in her oven.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tapairu-c05",
+          "source_id": "tapairu-s2",
+          "host": "archive.org",
+          "statement": "Besides Tautiti, the pitiless spirit-eater has four daughters, called Tapairu, or peerless ones, on account of their matchless beauty.",
+          "statement_id": "Selain Tautiti, Miru si pemakan roh yang tak berbelas kasih memiliki empat putri bernama Tapairu, atau \"yang tiada tara\", karena kecantikan mereka yang tiada bandingnya.",
+          "quote": "Besides Tautiti, the pitiless spirit-eater has four daughters, called Tapairu, or peerless ones, on account of their matchless beauty.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tapairu-c06",
+          "source_id": "tapairu-s2",
+          "host": "archive.org",
+          "statement": "These fairies, always associated with the worship of Tane, would take part in the dance provided that one end of the dancing ground were well covered with fresh cut banana leaves.",
+          "statement_id": "Peri-peri ini selalu dikaitkan dengan pemujaan Tane dan mau ikut menari asalkan salah satu ujung tempat menari dialasi daun pisang segar.",
+          "quote": "These fairies, always associated with the worship of Tane, would even deign to take part in the dance, provided that one end of the dancing ground were well covered with fresh cut banana leaves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tapairu-c07",
+          "source_id": "tapairu-s2",
+          "host": "archive.org",
+          "statement": "As soon as the morning star rose they disappeared and returned to their gloomy home in Avaiki.",
+          "statement_id": "Begitu bintang fajar terbit, mereka menghilang dan kembali ke kediaman mereka yang muram di Avaiki.",
+          "quote": "As soon as the morning star rose they disappeared, and returned to their gloomy home in Avaiki.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b0b69b8df3fce0b1131ea911698841e081bed893ddca0c4782f839f249b93b41"
+      "images": []
     },
     {
       "slug": "tiddalik",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "ef356f2c0143a1057974f702819cb1a84897d644f449e69784a24bd2e2602fa8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tiddalik-c01",
@@ -2314,27 +2413,91 @@
           "quote": "As Tiddalik laughed, the water rushed out of him to replenish the lakes, swamps and rivers.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tiddalik-c07",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "According to the article's author, the story originally belonged to the Aboriginal people of South Gippsland, in Victoria.",
+          "statement_id": "Menurut penulis artikel, kisah ini semula milik masyarakat Aborigin South Gippsland di Victoria.",
+          "quote": "Actually, the story originally belonged to the Aboriginal people of South Gippsland, in Victoria",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c08",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "Every version of Tiddalik now circulating can be traced back to early records that locate the story on the coast of South Gippsland near Port Albert.",
+          "statement_id": "Semua versi Tiddalik yang beredar sekarang dapat ditelusuri ke catatan-catatan awal yang menempatkan kisah itu di wilayah pesisir South Gippsland dekat Port Albert.",
+          "quote": "Each of the myriad versions of Tiddalik which now abound across the globe can be traced back to these early records, which locate the story in the coastal area of South Gippsland near Port Albert",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c09",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "The missionary John Bulmer, the pastoralist Edward Curr, and the geologists Alfred Howitt and Robert Brough Smyth all recorded early versions of the Tiddalik story.",
+          "statement_id": "Misionaris John Bulmer, peternak Edward Curr, serta ahli geologi Alfred Howitt dan Robert Brough Smyth semuanya mencatat versi awal kisah Tiddalik.",
+          "quote": "Among those anthropologists were the missionary John Bulmer, the pastoralist Edward Curr, and the geologists Alfred Howitt and Robert Brough Smyth, all of whom recorded early versions of the Tiddalik story.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c10",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "In the original Kurnai versions recorded in the nineteenth century, Tiddalik's release of water was a natural disaster, causing many to drown and many to become stranded on islands.",
+          "statement_id": "Dalam versi asli Kurnai yang dicatat pada abad ke-19, pelepasan air oleh Tiddalik adalah bencana alam yang membuat banyak orang tenggelam dan banyak lainnya terdampar di pulau-pulau.",
+          "quote": "In fact, in the original Kurnai versions recorded in the nineteenth century, Tiddalik's release of water into the environment was a natural disaster, causing many to drown and many to become stranded on the islands",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c11",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "Those who were stranded were rescued by Borun the pelican, whose feathers were then entirely black.",
+          "statement_id": "Mereka yang terdampar diselamatkan oleh Borun si pelikan, yang saat itu bulunya hitam seluruhnya.",
+          "quote": "Those who were stranded were rescued by Borun the pelican, whose feathers were then entirely black.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c12",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "The problem is that the Water-holding Frog is not found in or anywhere near Tiddalik's original home in Gippsland.",
+          "statement_id": "Masalahnya, katak penyimpan air tidak ditemukan di Gippsland atau di dekat tempat asal Tiddalik.",
+          "quote": "The problem is that the Water-holding Frog is not found in or anywhere near Tiddalik's original home in Gippsland.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tiddalik-c13",
+          "source_id": "tiddalik-s2",
+          "host": "frogs.org.au",
+          "statement": "The author says that for children as well as adults it is a story with a moral lesson about greed and about how it is better to share.",
+          "statement_id": "Menurut penulis, bagi anak-anak maupun orang dewasa ini adalah kisah dengan pelajaran moral tentang keserakahan dan tentang lebih baiknya berbagi.",
+          "quote": "For children, as well as adults, it is a story with a moral lesson about greed and about how it is better to share",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d1fbb5987a3515c87a1e8010b0e183f7441d1f30c3b9d49a4cab7eaa9e527c45"
+      "images": []
     },
     {
       "slug": "tikokura",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "ef08d3eeb26ff034932c63c2d2f9bdf78c200d4e5c05fa6b771697342b7045a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tikokura-c01",
@@ -2375,27 +2538,61 @@
           "quote": "After eight days and nights, Ngaru threw his surfboard to the monsters, who gladly retired to their home in the deep, while Ngaru went off to find Tongatea, his wife (Gill 1876:225-227).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tikokura-c05",
+          "source_id": "tikokura-s2",
+          "host": "archive.org",
+          "statement": "Thirsting for distinction, Ngaru resolved to try his strength against some of the numerous monsters and evil spirits of his time.",
+          "statement_id": "Haus akan kemasyhuran, Ngaru bertekad menguji kekuatannya melawan sejumlah monster dan roh jahat pada zamannya.",
+          "quote": "Thirsting for distinction, Ngaru resolved to try his strength against some of the numerous monsters and evil spirits of his time.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikokura-c06",
+          "source_id": "tikokura-s2",
+          "host": "archive.org",
+          "statement": "Tumuitearetoka is described as a vast shark that fed exclusively on human flesh, and these evil spirits always went in each other's company.",
+          "statement_id": "Tumuitearetoka digambarkan sebagai hiu raksasa yang hanya memakan daging manusia, dan roh-roh jahat itu selalu pergi bersama.",
+          "quote": "or a vast shark, which fed exclusively upon human flesh. These evil spirits always went in each other's company",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikokura-c07",
+          "source_id": "tikokura-s2",
+          "host": "archive.org",
+          "statement": "Moko sat on a projecting crag of rock to watch over his grandson, who advanced to the outer edge of the reef where the surf ceaselessly beats and loudly cursed the sea-monsters by name.",
+          "statement_id": "Moko duduk di tonjolan karang untuk menjaga keselamatan cucunya, yang maju ke tepi luar terumbu tempat ombak tak henti memukul dan dengan lantang mengutuk para monster laut itu dengan menyebut nama mereka.",
+          "quote": "Moko sat on a projecting crag of rock to watch over the safety of his grandson, who now advanced to the outer edge of the reef, where the surf ceaselessly beats, and loudly cursed these sea-monsters by name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikokura-c08",
+          "source_id": "tikokura-s2",
+          "host": "archive.org",
+          "statement": "For eight weary days and nights the contest went on, until the exhausted Ngaru ended it by throwing his surf-board to the sea-monsters, who gladly retired to their ancient haunts in the deep blue ocean.",
+          "statement_id": "Pertarungan itu berlangsung delapan hari delapan malam, sampai Ngaru yang kelelahan mengakhirinya dengan melemparkan papan selancarnya kepada para monster laut, yang dengan senang hati kembali ke tempat lama mereka di samudra biru yang dalam.",
+          "quote": "For eight weary days and nights this terrible contest went on, until the exhausted Ngaru put an end to it by throwing his surf-board to the sea-monsters, who gladly retired to their ancient haunts in the deep blue ocean.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0dd809c15b61cc72376a46a234ff806e9a0e270796c9f134265d29162f17b006"
+      "images": []
     },
     {
       "slug": "wirnpa",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "fdc91ad66e31befabd70969a720f1ba9eded841c732096b02a5b87626fe4d39f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wirnpa-c01",
@@ -2406,27 +2603,81 @@
           "quote": "Wirnpa is a rainmaking snake who according to Western Desert Australian Aboriginal legend created the land around the Percival Lakes in Wirnpa country, Australia in the Dreaming and whose image was used to repel outsiders.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wirnpa-c02",
+          "source_id": "wirnpa-s2",
+          "host": "www.nma.gov.au",
+          "statement": "Before they became snakes, the jila ancestral beings were men who made rain, shaped the features of the land and introduced practices of law into the jila Country.",
+          "statement_id": "Sebelum menjadi ular, para leluhur jila adalah manusia yang membuat hujan, membentuk bentang alam, dan memperkenalkan hukum ke wilayah jila.",
+          "quote": "Before they became snakes, however, these ancestral beings were men who made rain, shaped the features of the land and introduced practices of law into the jila Country.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213104031id_/https://www.nma.gov.au/exhibitions/yiwarra-kuju-canning-stock-route/artworks/the-jila-man",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "wirnpa-c03",
+          "source_id": "wirnpa-s2",
+          "host": "www.nma.gov.au",
+          "statement": "Wirnpa was one of the most powerful of the jila men and the last to travel the desert before becoming a snake and entering the spring that bears his name; his adventures are celebrated in the songs and stories of many language groups.",
+          "statement_id": "Wirnpa adalah salah satu laki-laki jila yang paling kuat dan yang terakhir menjelajahi gurun sebelum menjadi ular dan masuk ke mata air yang memakai namanya; petualangannya dirayakan dalam lagu dan kisah banyak kelompok bahasa.",
+          "quote": "Wirnpa was one of the most powerful of the jila men and the last to travel the desert before becoming a snake and entering the spring, which bears his name. His adventures are celebrated in the songs and stories of many language groups.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213104031id_/https://www.nma.gov.au/exhibitions/yiwarra-kuju-canning-stock-route/artworks/the-jila-man",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "wirnpa-c04",
+          "source_id": "wirnpa-s2",
+          "host": "www.nma.gov.au",
+          "statement": "Aboriginal people enter Wirnpa, which lies west of the stock route, ritually, sweeping the ground with branches and approaching in single file.",
+          "statement_id": "Orang Aborigin memasuki Wirnpa, yang terletak di barat jalur ternak, secara ritual: menyapu tanah dengan dahan dan mendekat dalam satu barisan.",
+          "quote": "Aboriginal people enter Wirnpa, which lies west of the stock route, ritually, sweeping the ground with branches and approaching in single file.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213104031id_/https://www.nma.gov.au/exhibitions/yiwarra-kuju-canning-stock-route/artworks/the-jila-man",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "wirnpa-c05",
+          "source_id": "wirnpa-s2",
+          "host": "www.nma.gov.au",
+          "statement": "On either side of the stock route, jila such as Kurtal and Wirnpa live on at these sites; their enduring power and importance is asserted in the songs, ceremonies and paintings of their people.",
+          "statement_id": "Di kedua sisi jalur ternak, jila seperti Kurtal dan Wirnpa tetap hidup di situs-situs itu; kekuatan dan arti pentingnya ditegaskan dalam lagu, upacara, dan lukisan umat mereka.",
+          "quote": "Either side of the stock route, jila such as Kurtal and Wirnpa live on at these sites. Their enduring power and importance is asserted in the songs, ceremonies and paintings of their people.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213104031id_/https://www.nma.gov.au/exhibitions/yiwarra-kuju-canning-stock-route/artworks/the-jila-man",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "wirnpa-c06",
+          "source_id": "wirnpa-s2",
+          "host": "www.nma.gov.au",
+          "statement": "The museum notes that many of these people worry about proposals to mine the Country around Wirnpa.",
+          "statement_id": "Dalam keterangan museum, banyak orang dari kelompok-kelompok itu khawatir terhadap usulan menambang wilayah di sekitar Wirnpa.",
+          "quote": "Today, many of these people worry about proposals to mine the Country around Wirnpa.",
+          "context": "historical-record",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213104031id_/https://www.nma.gov.au/exhibitions/yiwarra-kuju-canning-stock-route/artworks/the-jila-man",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         }
       ],
-      "images": [],
-      "entry_sha256": "d2dd8fad2f891bcdecad0ef017a50129c5494bd14cfe37db044f32d2e568c9b9"
+      "images": []
     },
     {
       "slug": "agunua",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "696011a6c408c5d678e448aaf2d234123d63b92817c616929acb24a999ea8de5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "agunua-c01",
@@ -2467,27 +2718,91 @@
           "quote": "He is worshiped through prayer, with many requesting general good health and rich harvests of him.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "agunua-c05",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "There is one figona who seems almost like a supreme spirit, called Agunua.",
+          "statement_id": "Ada satu figona yang tampak hampir seperti roh tertinggi, bernama Agunua.",
+          "quote": "There is one, indeed, who seems almost like a supreme spirit, called Agunua.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c06",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "Agunua is a name for Hatuibwari, the winged serpent.",
+          "statement_id": "Agunua adalah nama untuk Hatuibwari, ular bersayap.",
+          "quote": "Agunua is a name for Hatuibwari, the winged serpent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c07",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "In the account of the men of Ngorangora, Agunua created all things: the sea, the land, men and animals, thunder, lightning, rain and storms.",
+          "statement_id": "Dalam penuturan para lelaki Ngorangora, Agunua menciptakan segala sesuatu: laut, daratan, manusia, hewan, guntur, kilat, hujan, dan badai.",
+          "quote": "Agunua created all things—the sea, the land, men, and animals, thunder, lightning, rain, and storms",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c08",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "Almost all of these local figona are represented as female snakes, Agunua as a male snake.",
+          "statement_id": "Hampir semua figona setempat digambarkan sebagai ular betina, sedangkan Agunua sebagai ular jantan.",
+          "quote": "Almost all of these local figona are represented as female snakes, Agunua as a male snake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c09",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "The first drinking nut from a coco-nut tree is sacred to Agunua, and its milk is poured out as a libation in the sacred grove.",
+          "statement_id": "Buah kelapa minum pertama dari sebatang pohon kelapa dikeramatkan bagi Agunua, dan airnya dituangkan sebagai persembahan di hutan keramat.",
+          "quote": "The first drinking nut from a coco-nut tree is sacred to Agunua, and the milk is poured out as a libation in the sacred grove.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c10",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "It is told that Agunua was thirsty and rain fell to assuage his thirst; this was the origin of rain.",
+          "statement_id": "Dikisahkan Agunua haus lalu hujan turun untuk meredakan hausnya; itulah asal mula hujan.",
+          "quote": "He was thirsty and rain fell to assuage his thirst. This was the origin of rain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agunua-c11",
+          "source_id": "agunua-s2",
+          "host": "archive.org",
+          "statement": "The centre of the cult of Agunua is at Haununu, on the south-west coast.",
+          "statement_id": "Pusat pemujaan Agunua berada di Haununu, di pesisir barat daya.",
+          "quote": "The centre of the cult is at Haununu, on the south-west coast",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9c433c69850728cd36c5338d2f938eb26044430636d3b4a2c2252b63818e77bf"
+      "images": []
     },
     {
       "slug": "arkaroo",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "1df038c2ff2f69fa1e2e6b6419b1d5d938f12b210abde425fbc1975ddb66245a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "arkaroo-c01",
@@ -2538,27 +2853,71 @@
           "quote": "The Arkaroo has given origin of name to places in this region, namely Arkaroola Village, Arkaroola Creek, Arkaroola Springs and the Arkaroo Rock in Wilpena Pound.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "arkaroo-c06",
+          "source_id": "arkaroo-s2",
+          "host": "austhrutime.com",
+          "statement": "Arkaroo was a great serpent from the Dreamtime who lived in the Gammon Ranges south of Arkaroola.",
+          "statement_id": "Arkaroo adalah ular besar dari Dreamtime yang tinggal di Gammon Ranges, di selatan Arkaroola.",
+          "quote": "Arkaroo was a great serpent from the Dreamtime who lived in the Gammon Ranges south of Arkaroola.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arkaroo-c07",
+          "source_id": "arkaroo-s2",
+          "host": "austhrutime.com",
+          "statement": "According to Adnyamathanha stories, Arkaroo grew very thirsty, slithered down to the plains and drank Lake Frome and Lake Callabonna dry.",
+          "statement_id": "Menurut kisah masyarakat Adnyamathanha, Arkaroo sangat haus lalu turun ke dataran dan menghabiskan air Lake Frome dan Lake Callabonna.",
+          "quote": "According to the stories about him among the Adnyamathanha people, he felt very thirsty so slithered down to the plains and drank Lake Frome and Lake Callabonna dry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arkaroo-c08",
+          "source_id": "arkaroo-s2",
+          "host": "austhrutime.com",
+          "statement": "The large volume of salty water he drank gave him a terrible bellyache, which the Aboriginal people believed caused the rumblings from beneath the ground in the Gammon Ranges.",
+          "statement_id": "Air asin dalam jumlah besar yang ia minum membuat perutnya sakit hebat; masyarakat Aborigin percaya itulah penyebab gemuruh dari bawah tanah di Gammon Ranges.",
+          "quote": "The large volume of salty water he drank gave him a terrible bellyache. The Aboriginal People believed that was the cause of the rumblings coming from beneath the ground in the Gammon Ranges",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arkaroo-c09",
+          "source_id": "arkaroo-s2",
+          "host": "austhrutime.com",
+          "statement": "An alternative explanation is that the sounds result from minor tremors along fault lines produced by earth movements associated with readjustment of the crust after uplift of the area.",
+          "statement_id": "Penjelasan alternatif menyebut bunyi itu berasal dari getaran kecil di sepanjang garis sesar akibat pergerakan bumi terkait penyesuaian kerak setelah wilayah itu terangkat.",
+          "quote": "An alternative explanation is that the sounds result from minor tremors along fault lines produced by earth movements associated with readjustment of the crust after uplift of the area.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "arkaroo-c10",
+          "source_id": "arkaroo-s2",
+          "host": "austhrutime.com",
+          "statement": "Paralana Hot Springs is described as one of the most important of the waterholes left by Arkaroo.",
+          "statement_id": "Paralana Hot Springs disebut sebagai salah satu lubang air terpenting yang ditinggalkan Arkaroo.",
+          "quote": "Paralana Hot Springs is one of the most important of the waterholes left by Arkaroo.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d67e8bb6099c6051b3b54a0f0a0a39a933cd528632366c3c7fefbef2269e4e63"
+      "images": []
     },
     {
       "slug": "bamapama",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-5.md",
+      "entry_sha256": "7ec907f22f4193fd68c4a0fa0518a0dc4326b84737c1e902b682adddba58501d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bamapama-c01",
@@ -2589,27 +2948,57 @@
           "quote": "He is obscene and profane and once committed incest, thus breaking a strict taboo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bamapama-c04",
+          "source_id": "bamapama-s3",
+          "host": "www.oxfordreference.com",
+          "statement": "Bamapana is the trickster hero of the Murngin in northern Australia, \"a crazy man\".",
+          "statement_id": "Bamapana adalah pahlawan penipu (trickster) kelompok Murngin di Australia utara, \"orang gila\" (a crazy man).",
+          "quote": "The trickster hero of the Murngin in northern Australia, ‘a crazy man’.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240616231049id_/https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095444110",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "bamapama-c05",
+          "source_id": "bamapama-s3",
+          "host": "www.oxfordreference.com",
+          "statement": "Bamapana was obscene and broke clan incest taboos, to the open horror and hidden delight of these aboriginal tribesmen.",
+          "statement_id": "Bamapana cabul dan melanggar tabu inses klan, yang membuat anggota kelompok itu ngeri secara terbuka tetapi diam-diam senang.",
+          "quote": "To the open horror and hidden delight of these aboriginal tribesmen Bamapana was obscene and broke clan incest taboos.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240616231049id_/https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095444110",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "bamapama-c06",
+          "source_id": "bamapama-s3",
+          "host": "www.oxfordreference.com",
+          "statement": "The quarrels and misunderstandings he caused were innumerable.",
+          "statement_id": "Pertengkaran dan salah paham yang ia timbulkan tak terhitung jumlahnya.",
+          "quote": "The quarrels and misunderstandings he caused were innumerable.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240616231049id_/https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095444110",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": [],
-      "entry_sha256": "373a7508c8ea8a9386bb2c84363788232e7e911e318fd06b2d957388975e6bf1"
+      "images": []
     },
     {
       "slug": "chinny-kinik",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "1e8e8d000916d55adf8a16196f5cc1943376f80dd059da090e81685c6c000278",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chinny-kinik-c01",
@@ -2650,27 +3039,101 @@
           "quote": "The uncles added logs to the blaze to block the entrance and seal the cannibal giant’s doom.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c05",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "In 1921 Tom Bellchambers, a renowned South Australian naturalist and conservationist, recorded the Indigenous legend of Chinny-kinik, the dreaded cannibal giant of the Murraylands.",
+          "statement_id": "Pada 1921 Tom Bellchambers, naturalis dan konservasionis terkenal dari South Australia, mencatat legenda Pribumi tentang Chinny-kinik, raksasa kanibal yang ditakuti di Murraylands.",
+          "quote": "In 1921 renowned South Australian naturalist and conservationist, Tom Bellchambers, recorded the Indigenous legend of Chinny-kinik, the dreaded cannibal giant of the Murraylands.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c06",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "Chinny-kinik roamed a vast mallee-covered plain east of the Murray River, catching and devouring anyone he met.",
+          "statement_id": "Chinny-kinik berkeliaran di dataran luas berhutan mallee di sebelah timur Murray River, menangkap dan melahap siapa pun yang ia temui.",
+          "quote": "Chinny-kinik roamed a vast mallee-covered plain to the east of the Murray River, catching and devouring anyone he encountered.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c07",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "His ravenous reign continued until two of his uncles, members of the decimated local clan, tracked his enormous footprints to a sinkhole in an area called Pekarra.",
+          "statement_id": "Kekejamannya berlanjut tanpa henti sampai dua pamannya, anggota klan setempat yang jumlahnya sudah menyusut drastis, melacak jejak kakinya yang sangat besar ke sebuah lubang runtuhan di daerah bernama Pekarra.",
+          "quote": "His ravenous reign continued unabated until two of his uncles, members of the local clan whose numbers had been decimated, tracked his enormous footprints to a sinkhole in an area called Pekarra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c08",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "Chinny-kinik's mighty struggles shook the earth as smoke wafted through his lair.",
+          "statement_id": "Perjuangan dahsyat Chinny-kinik mengguncang bumi saat asap menyusup ke sarangnya.",
+          "quote": "Chinny-kinik’s mighty struggles shook the earth as smoke wafted through his lair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c09",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "Bellchambers was determined to find the legendary cave and narrowed its likely location to a fifty-kilometre stretch of the western Murray Mallee.",
+          "statement_id": "Bellchambers bertekad menemukan gua legendaris itu dan mempersempit lokasinya ke bentang lima puluh kilometer di Murray Mallee bagian barat.",
+          "quote": "Bellchambers was determined to track down the legendary cave and narrowed the likely location to a fifty kilometre stretch of the western Murray Mallee",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c10",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "The article's author notes that some Aboriginal speakers did not distinguish the sounds p and b, so the cave site may in fact be \"Bakara\" rather than \"Pekarra\".",
+          "statement_id": "Menurut penulis artikel, sebagian penutur Aborigin tidak membedakan bunyi p dan b, sehingga lokasi gua mungkin sebenarnya \"Bakara\", bukan \"Pekarra\".",
+          "quote": "some Aboriginal speakers did not make a distinction between the sounds ‘p’ and ‘b’. Instead of ‘Pekarra’, the cave site may in fact be ‘Bakara’.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c11",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "The Bakara Well Cave was not discovered until the early 1970s, by Wayne Goedecke.",
+          "statement_id": "Gua Bakara Well baru ditemukan oleh Wayne Goedecke pada awal 1970-an.",
+          "quote": "It wasn’t until the early 1970s that Wayne Goedecke discovered the Bakara Well Cave",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chinny-kinik-c12",
+          "source_id": "chinny-kinik-s2",
+          "host": "cavesaustralia.caves.org.au",
+          "statement": "The author argues that the low sinkhole and gully leading to the collapse entrance to the south align with the description in the legend.",
+          "statement_id": "Menurut penulis artikel, lubang runtuhan yang rendah dan parit yang mengarah ke pintu masuk di selatan sesuai dengan deskripsi dalam legenda.",
+          "quote": "The low sinkhole and gully leading to the collapse entrance to the south align with the description in the legend.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "331d821ada20c3eaf62cb11363d826759aad2558220b114fb5049ad3817b9a56"
+      "images": []
     },
     {
       "slug": "garkain",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "911795ced1914be7af3678d5a00cc3588e9788f98553a9983a362d3dfe079e83",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "garkain-c01",
@@ -2711,27 +3174,61 @@
           "quote": "He is similar in size to an Aboriginal man, and is capable of both walking and flying, but lacks the power of speech and does not know how to make fire or tools, thus forcing him to catch prey with his bare hands and eat it raw.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "garkain-c05",
+          "source_id": "garkain-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1957 the anthropologist Charles P. Mountford donated a eucalyptus bark painting of Garkain (1948 or 1949) from the Gunbalanya Aboriginal community in western Arnhem Land to the Art Gallery of South Australia in Adelaide.",
+          "statement_id": "Pada 1957 antropolog Charles P. Mountford menyumbangkan lukisan kulit kayu eukaliptus bergambar Garkain (1948 atau 1949) dari komunitas Aborigin Gunbalanya di Arnhem Land barat kepada Art Gallery of South Australia di Adelaide.",
+          "quote": "In 1957, anthropologist Charles P. Mountford donated a eucalyptus bark painting of Garkain (1948 or 1949) from the Gunbalanya Aboriginal community in western Arnhem Land to the Art Gallery of South Australia in Adelaide.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "garkain-c06",
+          "source_id": "garkain-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The painting shows the creature's flaps of skin, and his feet are illustrated as footprints, as is common in depictions of spiritual and human beings.",
+          "statement_id": "Lukisan itu memperlihatkan lipatan kulit makhluk tersebut, dan kakinya digambarkan sebagai jejak kaki, seperti lazim pada penggambaran makhluk roh dan manusia.",
+          "quote": "The painting shows the creature's flaps of skin, and his feet are illustrated as footprints, as is common in depictions of spiritual and human beings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "garkain-c07",
+          "source_id": "garkain-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mountford noted similarities between Garkain and Warraguk and observed that overall the creature was not as feared as other spirit beings of the area such as the Namarakain and the Nabudi.",
+          "statement_id": "Mountford mencatat kemiripan antara Garkain dan Warraguk, serta mengamati bahwa secara keseluruhan makhluk ini tidak seditakuti makhluk roh lain di daerah itu seperti Namarakain dan Nabudi.",
+          "quote": "Mountford noted similarities between Garkain and Warraguk, and observed that the creature was overall not as feared as other spirit beings of the area like the Namarakain and the Nabudi.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "garkain-c08",
+          "source_id": "garkain-s2",
+          "host": "www.agsa.sa.gov.au",
+          "statement": "The Art Gallery of South Australia's collection records a work titled Garkain by an unknown maker, from Gunbalanya (Oenpelli), western Arnhem Land, 1948 or 1949, in natural ochres on eucalyptus bark, a gift of Charles P. Mountford in 1957.",
+          "statement_id": "Koleksi Art Gallery of South Australia mencatat sebuah karya berjudul Garkain, tanpa pembuat yang diketahui, dari Gunbalanya (Oenpelli), Arnhem Land barat, 1948 atau 1949, dari ochre alami di atas kulit kayu eukaliptus, hadiah Charles P. Mountford 1957.",
+          "quote": "Unknown, Garkain, 1948 or 1949, Gunbalanya (Oenpelli), western Arnhem Land, Northern Territory, natural ochres on eucalyptus bark, 78.5 x 30.5 cm (irreg); Gift of Charles P. Mountford 1957",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "986260660ac565e862c952b3b890322e29f842fc93a48f5df2ab6bcd9df9a66f"
+      "images": []
     },
     {
       "slug": "hauwahine",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "98a756592e5db63f7e31bee2809b1c710b1577696ee42ec52bd8b74a24111f47",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hauwahine-c01",
@@ -2772,27 +3269,51 @@
           "quote": "She was additionally believed to prevent sickness. Pollution and overgrowth were thought to be insults to Hauwahine, which was one motivation for the Hawaiians to keep the fishpond clean.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hauwahine-c05",
+          "source_id": "hauwahine-s2",
+          "host": "archive.org",
+          "statement": "Hau-wahine is the moʻo goddess of the ponds of Kawainui and Kaelepule in the Koolau district on Oahu; she brings abundant fish, punishes pond owners who oppress the poor, and wards off sickness.",
+          "statement_id": "Hau-wahine adalah dewi moʻo untuk kolam-kolam Kawainui dan Kaelepule di distrik Koolau, Oahu; ia mendatangkan ikan melimpah, menghukum pemilik kolam yang menindas orang miskin, dan menangkal penyakit.",
+          "quote": "Hau-wahine is the mo‘o goddess of the ponds of Kawainui and Kaelepule in Koolau district on Oahu. She brings abundance of fish, punishes the owners of the pond if they oppress the poor, and wards off sickness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hauwahine-c06",
+          "source_id": "hauwahine-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The goddess Hiʻiaka was believed to have fought all the moʻo except Hauwahine, for whom she chanted a mele.",
+          "statement_id": "Dewi Hiʻiaka dipercaya telah melawan semua moʻo kecuali Hauwahine, yang untuknya ia melantunkan sebuah mele.",
+          "quote": "The Hawaiian goddess Hiʻiaka was believed to have fought all the moʻo except for Hauwahine, for whom she chanted a mele.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hauwahine-c07",
+          "source_id": "hauwahine-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nā Pōhaku o Hauwahine, a basalt outcropping on the west side of Kawainui, was thought to be a favored location of Hauwahine; yellow grass and rushes were believed to mark her presence.",
+          "statement_id": "Nā Pōhaku o Hauwahine, singkapan basal di sisi barat Kawainui, dianggap sebagai tempat kesukaan Hauwahine; rumput kuning dan gelagah dipercaya menandai keberadaannya.",
+          "quote": "Nā Pōhaku o Hauwahine, a basalt outcropping on the west side of Kawainui, was thought to be a favored location of Hauwahine. Yellow grass and rushes were believed to mark her location.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "078940fbf07c79dca7ef7a77d054f2ef42929bc692d823590da03d6968997ff6"
+      "images": []
     },
     {
       "slug": "kinie-ger",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "09162a136fd0547a046a2aa01e9ca578dbe90055ceee549237b63cd55b1f6ff1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kinie-ger-c01",
@@ -2833,27 +3354,41 @@
           "quote": "Supposedly when the creature was finally defeated, it shrank down and became the first quoll, the founding father of the quoll race.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kinie-ger-c05",
+          "source_id": "kinie-ger-s2",
+          "host": "adb.anu.edu.au",
+          "statement": "From the early 1920s Unaipon studied Aboriginal mythology and compiled his versions of legends; Kinie Ger—The Native Cat was among the publications funded in 1928.",
+          "statement_id": "Sejak awal 1920-an Unaipon mempelajari mitologi Aborigin dan menyusun versi-versinya atas legenda; Kinie Ger—The Native Cat termasuk terbitan yang didanai pada 1928.",
+          "quote": "From the early 1920s Unaipon studied Aboriginal mythology and compiled his versions of legends; he was influenced by the classics and by his researches into Egyptology at the South Australian Museum. The A.F.A. funded publication of Hungarrda (1927), Kinie Ger—The Native Cat (1928) and Native Legends (1929).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kinie-ger-c06",
+          "source_id": "kinie-ger-s3",
+          "host": "web.archive.org",
+          "statement": "In Aboriginal mythology, Kinie Ger was a ruthless and murderous beast with the head and body of a cat but the limbs of a man, who killed innocent people, animals and birds; he was killed by the owl and the crow who ambushed him as he came to drink at a water hole.",
+          "statement_id": "Dalam mitologi Aborigin, Kinie Ger adalah makhluk kejam dan haus darah berkepala dan bertubuh kucing tetapi berkaki tangan manusia, yang membunuh orang tak bersalah, hewan, dan burung; ia dibunuh oleh burung hantu dan burung gagak yang menyergapnya saat ia datang minum di lubang air.",
+          "quote": "In Australian Aborigine mythology, Kinie Ger was a ruthless and murderous beast with the head and body of a cat but the limbs of a man who went around killing innocent people, animals and birds. He was killed by the owl and the crow who ambushed him when he came to drink at a water hole.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ac26e0e4597c7b458c8592af162bc1f08367a0f0bc2de17bdb5aa54f2a45340c"
+      "images": []
     },
     {
       "slug": "mungoon-gali",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "876dc2f7ea73775b888a8603c7fe0f56f0817572cb67a03d46d687684f899e50",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mungoon-gali-c01",
@@ -2894,27 +3429,71 @@
           "quote": "On returning to the tribes, Ouyouboolooey refused to destroy the bag and instead retreated into the bush which explains how snakes become venomous and lizards, like the ferocious Mungoon-Gali, lost their bite.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mungoon-gali-c05",
+          "source_id": "mungoon-gali-s2",
+          "host": "gutenberg.net.au",
+          "statement": "Mungoongarlee, the largest kind of iguana, which even now in its dwarfed condition measures about five feet from tongue to tail, was quite a terror in the land because of his poisonous bite.",
+          "statement_id": "Mungoongarlee, iguana terbesar yang bahkan kini dalam wujudnya yang lebih kecil panjangnya sekitar lima kaki dari lidah hingga ekor, menjadi teror di negeri itu karena gigitannya yang beracun.",
+          "quote": "Mungoongarlee, the largest kind of iguana, which even now in its comparatively dwarfed condition measures five feet or so from tongue to tail, was, by reason of his poisonous bite, quite a terror in the land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mungoon-gali-c06",
+          "source_id": "mungoon-gali-s2",
+          "host": "gutenberg.net.au",
+          "statement": "In those days the bite of a snake was not poisonous, but that of an iguana was.",
+          "statement_id": "Pada masa itu gigitan ular tidak beracun, tetapi gigitan iguana beracun.",
+          "quote": "In those days the bite of a snake was not poisonous, but that of an iguana was.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mungoon-gali-c07",
+          "source_id": "mungoon-gali-s2",
+          "host": "gutenberg.net.au",
+          "statement": "Such havoc had he wrought that at last all the other tribes held a meeting to discuss how best to check the wholesale slaughter.",
+          "statement_id": "Kerusakan yang ia timbulkan begitu besar sehingga akhirnya semua suku lain mengadakan pertemuan untuk membahas cara terbaik menghentikan pembantaian massal itu.",
+          "quote": "Such havoc had he wrought amongst them that at last all the other tribes held a meeting to discuss how best to check this wholesale slaughter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mungoon-gali-c08",
+          "source_id": "mungoon-gali-s2",
+          "host": "gutenberg.net.au",
+          "statement": "Ever since then the snakes have been poisonous and not the iguanas, and there has been a feud between snakes and iguanas, who never meet without fighting.",
+          "statement_id": "Sejak saat itu ularlah yang beracun, bukan iguana, dan terjadi permusuhan antara ular dan iguana, yang tak pernah bertemu tanpa berkelahi.",
+          "quote": "Ever since then the snakes have been poisonous, and not the iguanas, and there has been a feud between the snakes and the iguanas, who never meet without fighting.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mungoon-gali-c09",
+          "source_id": "mungoon-gali-s2",
+          "host": "gutenberg.net.au",
+          "statement": "Mungoongarlee was a great wirreenun and knew of a plant which, if eaten after snakebite, made the poison powerless to kill or injure.",
+          "statement_id": "Mungoongarlee adalah wirreenun yang hebat dan mengetahui tanaman yang jika dimakan setelah gigitan ular membuat racunnya tak mampu membunuh atau melukai.",
+          "quote": "For Mungoongarlee was a great wirreenun, and he knew of a plant which if eaten after snakebite made the poison powerless to kill or injure.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "70ba2a7d430c201902370a6f99b313eb470e09c92339f8b567afa3f63d61f58f"
+      "images": []
     },
     {
       "slug": "negunung",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "b8038ae97b069c1fc2202be2db1d0f76f5b1f96d9ffab08a92b93084ff9b33a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "negunung-c01",
@@ -2925,39 +3504,74 @@
           "quote": "نجوننج (الإنجليزية: Negunung) الخفاش في أساطير استراليا الذي خلق المرأة الأولى ليحقق التوازن في الطبيعة حيث لم يكن يوجد سوى الرجال.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "negunung-c02",
+          "source_id": "negunung-s2",
+          "host": "archive.org",
+          "statement": "According to the Wotjobaluk account of the creation of man, long ago Ngunung-ngunnut, the bat, who was a man, lived on the earth with others like him, and there was no difference between the sexes.",
+          "statement_id": "Menurut kisah Wotjobaluk tentang penciptaan manusia, dahulu Ngunung-ngunnut, si kelelawar yang adalah seorang laki-laki, hidup di bumi bersama yang lain seperti dia, dan belum ada perbedaan jenis kelamin.",
+          "quote": "The Wotjobaluk account of the creation of man says that long ago Ngunung-ngunnut, the bat, who was a man, lived on the earth, and there were others like him, but there was no difference between the sexes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "negunung-c03",
+          "source_id": "negunung-s2",
+          "host": "archive.org",
+          "statement": "Feeling lonely, he wished for a wife and altered himself and one other so that he became the man and the other the woman.",
+          "statement_id": "Karena merasa kesepian, ia menginginkan seorang istri, lalu mengubah dirinya dan satu orang lain sehingga ia menjadi laki-laki dan yang lain menjadi perempuan.",
+          "quote": "Feeling lonely, he wished for a wife, and he altered himself and one other, so that he was the man and the other was the woman.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "negunung-c04",
+          "source_id": "negunung-s2",
+          "host": "archive.org",
+          "statement": "Then he made fire by rubbing a stick on a log of wood.",
+          "statement_id": "Setelah itu ia membuat api dengan menggosokkan sebatang kayu pada kayu gelondongan.",
+          "quote": "Then he made fire by rubbing a stick on a log of wood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "negunung-c05",
+          "source_id": "negunung-s2",
+          "host": "archive.org",
+          "statement": "According to the Wurunjerri, Bunjil made men of clay and gave them life, while his brother Pallina, the bat, brought women up out of the water to be their wives.",
+          "statement_id": "Menurut kisah Wurunjerri, Bunjil membuat manusia dari tanah liat dan memberinya kehidupan, sedangkan saudaranya, Pallina si kelelawar, membawa perempuan naik dari air untuk menjadi istri mereka.",
+          "quote": "According to the Wurunjerri, it was Bunjil who made men of clay and imparted life to them, while his brother, Pallina, the bat, brought women up out of the water to be their wives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "negunung-c06",
+          "source_id": "negunung-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A list of Australian Aboriginal mythological figures names Balayang, a bat deity and brother of Bunjil.",
+          "statement_id": "Daftar tokoh mitologi Aborigin menyebut Balayang, dewa kelelawar dan saudara Bunjil.",
+          "quote": "Balayang, bat deity and brother of Bunjil",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2a4f0bc4c6a5ba24fc16ef1019e1922fddf94af8a38ad7766d467477468b3241"
+      "images": []
     },
     {
       "slug": "ngintaka",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "11e132f0ecf8315fabcb5e138ab4c0d1fb2dd4dc7a7b0d9f30c5ce9dea28ef2b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
           "level": "warn",
           "where": "claims (ngintaka-c01)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        },
-        {
-          "level": "warn",
-          "where": "claims (ngintaka-c02)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        },
-        {
-          "level": "warn",
-          "where": "claims (ngintaka-c05)",
           "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
         }
       ],
@@ -2971,17 +3585,6 @@
           "quote": "Ngiṉṯaka (Aboriginal pronunciation: [ŋiɳʈaka]), also spelled Ngintaku, is a mythological giant perentie lizard from Aṉangu and Pitjantjatjara Aboriginal religion. It is associated with Angatja, an area along an important songline.",
           "context": "traditional-belief",
           "status": "loose",
-          "wiki_flag": "citation needed"
-        },
-        {
-          "id": "ngintaka-c02",
-          "source_id": "ngintaka-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Ngiṉṯaka is one of two major reptile Ancestral Beings associated with Uluru.",
-          "statement_id": "Ngiṉṯaka adalah salah satu dari dua makhluk leluhur reptil utama yang terhubung dengan Uluru.",
-          "quote": "Ngiṉṯaka is one of the two major reptile Ancestral Beings associated with Uluru, the other being Milpali.",
-          "context": "traditional-belief",
-          "status": "exact",
           "wiki_flag": "citation needed"
         },
         {
@@ -3005,36 +3608,69 @@
           "status": "exact"
         },
         {
-          "id": "ngintaka-c05",
-          "source_id": "ngintaka-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Ngarutjaranya, the highest mountain in South Australia, is also Ngiṉṯaka rearing up to look over the country.",
-          "statement_id": "Gunung Ngarutjaranya puncak tertinggi di South Australia dipercaya sebagai Ngiṉṯaka yang berdiri melihat negerinya.",
-          "quote": "According to mythology, Ngarutjaranya, the highest mountain in South Australia, is also Ngiṉṯaka as he rears up to look over the country.",
+          "id": "ngintaka-c06",
+          "source_id": "ngintaka-s2",
+          "host": "www.sbs.com.au",
+          "statement": "The project has overcome controversy to preserve one of Central Australia's oldest intact songlines, the Ngintaka or Perentie Lizard dreaming.",
+          "statement_id": "Proyek ini mengatasi kontroversi untuk melestarikan salah satu songline tertua yang masih utuh di Australia Tengah, yaitu dreaming Ngintaka atau Perentie Lizard.",
+          "quote": "The endeavour has overcome controversy to preserve one of Central Australia's oldest intact songlines called the Ngintaka, or Perentie Lizard, dreaming.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ngintaka-c07",
+          "source_id": "ngintaka-s2",
+          "host": "www.sbs.com.au",
+          "statement": "The paintings showcase Ngintaka, the perenti lizard man, a mystical being at the heart of a creation story mapping outback lands.",
+          "statement_id": "Lukisan-lukisan itu menampilkan Ngintaka, manusia perenti (perenti lizard man), makhluk mistis di jantung kisah penciptaan yang memetakan wilayah pedalaman.",
+          "quote": "The paintings showcase Ngintaka - the perenti lizard man - a mystical being at the heart of a creation story mapping outback lands.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ngintaka-c08",
+          "source_id": "ngintaka-s2",
+          "host": "www.sbs.com.au",
+          "statement": "His is a tale of theft, deceit and vengeance: Ngintaka steals a grinding stone and flees, changing the landscape along the way and eventually being transformed into a mountain.",
+          "statement_id": "Kisahnya adalah kisah pencurian, tipu daya, dan balas dendam: Ngintaka mencuri batu gerinda lalu kabur, mengubah bentang alam di sepanjang jalan, dan akhirnya berubah menjadi gunung.",
+          "quote": "His is a tale of theft, deceit, and vengeance, involving Ngintaka stealing a grinding stone and fleeing, changing the landscape along the way and eventually being transformed himself into a mountain.",
           "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
+          "status": "exact"
+        },
+        {
+          "id": "ngintaka-c09",
+          "source_id": "ngintaka-s2",
+          "host": "www.sbs.com.au",
+          "statement": "Generations of Aboriginal people known as Anangu have learned the Ngintaka tale, and how he created food sources and waterholes still found today, through a musical story called a songline.",
+          "statement_id": "Generasi demi generasi orang Aborigin yang dikenal sebagai Anangu mempelajari kisah Ngintaka, dan bagaimana ia menciptakan sumber makanan serta lubang air yang masih ada kini, lewat kisah bermusik yang disebut songline.",
+          "quote": "Generations of Aboriginal people known as Anangu have learned the Ngintaka tale - and how he created food sources and waterholes still found today - through a musical story called a songline.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ngintaka-c10",
+          "source_id": "ngintaka-s2",
+          "host": "www.sbs.com.au",
+          "statement": "Elder Inawinytji Williamson says the Ngintaka story is one of the most important to Anangu.",
+          "statement_id": "Tetua Inawinytji Williamson mengatakan kisah Ngintaka adalah salah satu yang terpenting bagi Anangu.",
+          "quote": "Elder Inawinytji Williamson says the Ngintaka story is one of the most important to Anangu",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dd61d93e65161b3d900252328fdaa4f93ccd96dc7724c0a0b3a001dab3a57da5"
+      "images": []
     },
     {
       "slug": "oozlum-bird",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "b9d081807fd15c3563f6f0933a165ff1c230134165398e2df45c2c3d97b5bd60",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "oozlum-bird-c01",
@@ -3065,10 +3701,95 @@
           "quote": "Other sources state that the bird flies backwards so that it can admire its own beautiful tail feathers, or because while it does not know where it is going, it likes to know where it has been.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "oozlum-bird-c04",
+          "source_id": "oozlum-bird-s2",
+          "host": "www.poetrylibrary.edu.au",
+          "statement": "In a poem, the Oozlum Bird is said to be no chicken: as big and wide across as the bird that beats the steamships, the albatross.",
+          "statement_id": "Dalam sebuah puisi, burung Oozlum disebut bukan ayam kecil: sebesar dan selebar burung yang mengalahkan kapal uap, yaitu albatros.",
+          "quote": "Bet yer boots it ain't no chicken, It's as big and wide across As the bird what beats the steamships, What's it called? The albatross!",
+          "context": "modern-popular-culture",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20190326193754id_/https://www.poetrylibrary.edu.au/poets/goodge-w-t/the-oozlum-bird-0103001",
+          "detail": "HTTP 404; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "oozlum-bird-c05",
+          "source_id": "oozlum-bird-s2",
+          "host": "www.poetrylibrary.edu.au",
+          "statement": "In the same poem, a character saddles up the Oozlum, rises some miles above the plain and lets the Earth turn underneath him until he spots the Domain.",
+          "statement_id": "Dalam puisi yang sama, seorang tokoh menunggangi Oozlum, naik beberapa mil di atas dataran, dan membiarkan Bumi berputar di bawahnya sampai ia melihat Domain.",
+          "quote": "So he saddled up the Oozlum, Rose some miles above the plain, Let the Earth turn underneath him Till he spotted the Domain!",
+          "context": "modern-popular-culture",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20190326193754id_/https://www.poetrylibrary.edu.au/poets/goodge-w-t/the-oozlum-bird-0103001",
+          "detail": "HTTP 404; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "oozlum-bird-c06",
+          "source_id": "oozlum-bird-s2",
+          "host": "www.poetrylibrary.edu.au",
+          "statement": "The poem calls the Oozlum a curious and mighty wise bird that always flies tail-first to keep the dust out of its eyes.",
+          "statement_id": "Puisi itu menyebut Oozlum burung yang aneh dan sangat cerdik, yang selalu terbang dengan ekor lebih dulu agar debu tidak masuk ke matanya.",
+          "quote": "It's a curious bird, the Oozlum, And a bird that's mighty wise, For it always flies tail-first to Keep the dust out of its eyes!",
+          "context": "modern-popular-culture",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20190326193754id_/https://www.poetrylibrary.edu.au/poets/goodge-w-t/the-oozlum-bird-0103001",
+          "detail": "HTTP 404; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "oozlum-bird-c07",
+          "source_id": "oozlum-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dictionary the article refers to records its earliest citation as dating from 1858.",
+          "statement_id": "Kamus yang dirujuk artikel itu mencatat kutipan paling awal berasal dari 1858.",
+          "quote": "The earliest citation recorded by the dictionary dates from 1858.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oozlum-bird-c08",
+          "source_id": "oozlum-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dictionary speculates that the word could have been suggested by the word ouzel, meaning a blackbird (Turdus merula).",
+          "statement_id": "Kamus itu menduga kata oozlum mungkin terinspirasi kata ouzel, yang berarti burung hitam (blackbird, Turdus merula).",
+          "quote": "speculates that the word could have been suggested by the word ouzel, meaning a blackbird (Turdus merula).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "oozlum-bird-c09",
+          "source_id": "oozlum-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing and so flies in tighter, faster, smaller circles until it disappears up itself.",
+          "statement_id": "Varian oozlum, mungkin hasil mutasi, adalah burung weejy weejy yang hanya punya satu sayap sehingga terbang dalam lingkaran yang lebih sempit dan cepat sampai lenyap ke dalam dirinya sendiri.",
+          "quote": "A variant of the oozlum, possibly a mutation, is the weejy weejy bird, which has only one wing which causes it to fly in tighter, faster, smaller circles, until it disappears up its own fundament.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oozlum-bird-c10",
+          "source_id": "oozlum-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle.",
+          "statement_id": "Burung oozlum menjadi subjek film Inggris Carry On Up the Jungle (1970).",
+          "quote": "The oozlum bird was the subject of the 1970 British film Carry On Up the Jungle.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "oozlum-bird-c11",
+          "source_id": "oozlum-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation.",
+          "statement_id": "Burung oozlum kadang dipakai sebagai simbol rujukan-diri dan argumentasi melingkar.",
+          "quote": "The oozlum bird is sometimes used as a symbol of self-reference and circular argumentation.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cb5dc455ceba37affa74ae5c685fbf9997b1d0d13606299565395e72e2e56646"
+      "images": []
     },
     {
       "slug": "pie",
@@ -3103,20 +3824,15 @@
     },
     {
       "slug": "tahiti-tokerau",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-6.md",
+      "entry_sha256": "b94636e40d1976f44f8b30e11c0754747b9c5b8cce0915ca54920a45519e3a04",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tahiti-tokerau-c01",
@@ -3137,10 +3853,49 @@
           "quote": "She was abducted by Puna, king of the underworld and rescued by her husband. They then become parents of Rata.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tahiti-tokerau-c03",
+          "source_id": "tahiti-tokerau-s2",
+          "host": "archive.org",
+          "statement": "Vahi-vero visits a pool from which the beautiful Tahiti-tokerau emerges daily.",
+          "statement_id": "Vahi-vero mengunjungi sebuah kolam, tempat Tahiti-tokerau yang cantik muncul setiap hari.",
+          "quote": "Vahi-vero visits a pool from which the beautiful Tahiti-tokerau daily emerges.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tahiti-tokerau-c04",
+          "source_id": "tahiti-tokerau-s2",
+          "host": "archive.org",
+          "statement": "Having mastered her, Vahi-vero finds that Puna, king of Vavau, is his rival.",
+          "statement_id": "Setelah menaklukkannya, Vahi-vero mendapati bahwa Puna, raja Vavau, adalah saingannya.",
+          "quote": "Having mastered her, he finds that Puna, king of Vavau, is his rival.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tahiti-tokerau-c05",
+          "source_id": "tahiti-tokerau-s2",
+          "host": "archive.org",
+          "statement": "He goes by way of the pool to where Puna guards the girl in a house with round ends and brings her back, leaving her sister Huarehu in her place; Tahiti-tokerau bears him the boy Rata.",
+          "statement_id": "Ia pergi lewat kolam ke tempat Puna menjaga gadis itu di sebuah rumah berujung bulat, membawanya pulang, dan meninggalkan saudarinya Huarehu sebagai gantinya; Tahiti-tokerau melahirkan putra bernama Rata baginya.",
+          "quote": "He goes by way of the pool to the place where Puna guards the girl in a house with round ends, and brings her back with him, leaving her sister Huarehu in her place. Tahiti-tokerau bears to him the boy Rata.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tahiti-tokerau-c06",
+          "source_id": "tahiti-tokerau-s2",
+          "host": "archive.org",
+          "statement": "Puna comes in shark form to avenge himself, kills Vahi-vero and takes his wife back, and makes of her eyes lights for her sister to do sennit work by and of her feet supports for the sister's work basket.",
+          "statement_id": "Puna datang dalam wujud hiu untuk membalas dendam, membunuh Vahi-vero dan membawa kembali istrinya, serta menjadikan matanya lampu bagi saudarinya untuk menganyam sennit dan kakinya penopang keranjang kerja saudarinya.",
+          "quote": "Puna comes in shark form to avenge himself, kills Vahi-vero and takes his wife back and makes of her eyes lights for her sister to do sennit work by and of her feet supports for the sister’s work basket.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0f909ed18e748225553825894e5b29788b3eed7a0f55b1d1331c7893b6c88550"
+      "images": []
     },
     {
       "slug": "thardid-jimbo",
