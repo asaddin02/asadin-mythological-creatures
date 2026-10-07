@@ -6,3 +6,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 
 ## momonji
 - `claims (momonji-c05)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
+## onyudo
+- `claims[7] (onyudo-c08)`: Panjang quote 29 karakter; aturannya 30–400.
