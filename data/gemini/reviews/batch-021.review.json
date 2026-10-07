@@ -1,35 +1,31 @@
 {
   "batch_id": "batch-021",
-  "checked_at": "2026-09-29T13:03:26.134Z",
+  "checked_at": "2026-10-07T04:54:26.042Z",
   "files": [
-    "batch-021.md"
+    "batch-021.md",
+    "batch-021-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "seri-pahang",
-      "file": "batch-021.md",
+      "file": "batch-021-fix-1.md",
+      "entry_sha256": "08a7f427a193d07972cf216bf924897c620f7f3adf737826bcec47cf83836890",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 24,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "seri-pahang-c01",
           "source_id": "seri-pahang-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Pahang Malay folklore, Seri Pahang (سري ڤهڠ) was a giant white saltwater crocodile said to live in Chini Lake, Pekan, Pahang, famous for its duel with the black sea demon Seri Kemboja; in another version both are nāga.",
-          "statement_id": "Dalam cerita rakyat Melayu Pahang, Seri Pahang (سري ڤهڠ) adalah buaya muara putih raksasa yang konon tinggal di Tasik Chini, Pekan, Pahang, terkenal karena duelnya dengan iblis laut hitam Seri Kemboja; dalam versi lain keduanya naga.",
+          "statement": "In Pahang Malay folklore, Seri Pahang (سري ڤهڠ) was a legendary giant white saltwater crocodile thought to have lived in Chini Lake, Pekan District, Pahang, famous for his duel with a black sea demon called Seri Kemboja off the coast of Pahang.",
+          "statement_id": "Dalam cerita rakyat Melayu Pahang, Seri Pahang adalah buaya muara putih raksasa yang konon hidup di Tasik Chini, Distrik Pekan, Pahang, dan terkenal karena duelnya dengan iblis laut hitam bernama Seri Kemboja di lepas pantai Pahang.",
           "quote": "In Pahang Malay folklore, Seri Pahang (Jawi: سري ڤهڠ) was a legendary giant white saltwater crocodile thought to have lived in the Chini Lake, Pekan District, Pahang. He was famous for his duel with a black sea demon called Seri Kemboja that took place off the coast of Pahang.",
           "context": "traditional-belief",
           "status": "exact"
@@ -38,8 +34,8 @@
           "id": "seri-pahang-c02",
           "source_id": "seri-pahang-s1",
           "host": "en.wikipedia.org",
-          "statement": "In local lore Chini Lake, Malaysia's second largest natural lake, and its mountain are sacred, home to a white crocodile styled Seri Pahang ('glory of Pahang').",
-          "statement_id": "Menurut kepercayaan setempat, Tasik Chini, danau alami terbesar kedua di Malaysia, dan gunung di dekatnya keramat, dihuni buaya putih yang dijuluki Seri Pahang ('kemuliaan Pahang').",
+          "statement": "In the local lore the lake and its adjoining mountain are sacred, and locals credit the place with a white crocodile styled 'Seri Pahang' (Malay for 'glory of Pahang').",
+          "statement_id": "Dalam kisah setempat, danau dan gunung di sampingnya keramat, dan penduduk menganggap tempat itu memiliki buaya putih yang dijuluki 'Seri Pahang' (bahasa Melayu untuk 'kemuliaan Pahang').",
           "quote": "In the local lore, the lake and its adjoining mountain are sacred, and locals credit the place with the possession of a white crocodile styled 'Seri Pahang' (Malay for 'glory of Pahang').",
           "context": "traditional-belief",
           "status": "exact"
@@ -58,8 +54,8 @@
           "id": "seri-pahang-c04",
           "source_id": "seri-pahang-s1",
           "host": "en.wikipedia.org",
-          "statement": "Southeast of Sedili Kechil he leapt into the sea and became a giant white crocodile, while the turmeric in his pail turned to gold; after a long battle he killed Seri Kemboja but was badly wounded.",
-          "statement_id": "Di tenggara Sedili Kechil ia terjun ke laut dan berubah menjadi buaya putih raksasa, sementara kunyit di timbanya berubah menjadi emas; setelah pertarungan panjang ia membunuh Seri Kemboja tetapi terluka parah.",
+          "statement": "He immediately turned into a giant white crocodile and the men were amazed to see that the turmeric in the dipper had turned to gold.",
+          "statement_id": "Seri Pahang segera berubah menjadi buaya putih raksasa dan para pelaut takjub melihat kunyit di dalam timba telah menjadi emas.",
           "quote": "He immediately turned into a giant white crocodile and the men were amazed to see that the turmeric in the dipper had turned to gold.",
           "context": "traditional-belief",
           "status": "exact"
@@ -68,8 +64,8 @@
           "id": "seri-pahang-c05",
           "source_id": "seri-pahang-s1",
           "host": "en.wikipedia.org",
-          "statement": "The ruler of Pahang gave Seri Pahang a proper burial near Sekukoh; the place is still known as Makam Tok Pahang (Tok Pahang's Tomb).",
-          "statement_id": "Penguasa Pahang memberi Seri Pahang pemakaman yang layak di dekat Sekukoh; tempat itu hingga kini dikenal sebagai Makam Tok Pahang.",
+          "statement": "Seri Pahang came to be buried in a sandy pit near Sekukoh; the place is known to this day as Makam Tok Pahang ('Tok Pahang's Tomb').",
+          "statement_id": "Seri Pahang dimakamkan di lubang berpasir dekat Sekukoh; tempat itu hingga kini dikenal sebagai Makam Tok Pahang ('Makam Tok Pahang').",
           "quote": "That is how Seri Pahang came to be buried in a sandy pit near Sekukoh. The place is known to this day as Makam Tok Pahang ('Tok Pahang's Tomb').",
           "context": "traditional-belief",
           "status": "exact"
@@ -78,9 +74,189 @@
           "id": "seri-pahang-c06",
           "source_id": "seri-pahang-s1",
           "host": "en.wikipedia.org",
-          "statement": "When Sultan Ahmad died in 1914, twenty-six crocodiles were seen swimming upriver in a V formation on the Pahang River, believed to be returning from his funeral in gratitude.",
-          "statement_id": "Ketika Sultan Ahmad wafat pada 1914, orang melihat dua puluh enam buaya berenang dalam formasi V ke hulu Sungai Pahang, dipercaya pulang dari pemakaman sultan sebagai tanda terima kasih.",
+          "statement": "In 1914, when Sultan Ahmad died, people saw twenty six crocodiles cruising in a \"V\" formation in the Pahang River, heading upriver.",
+          "statement_id": "Pada 1914, ketika Sultan Ahmad wafat, orang melihat dua puluh enam buaya berenang dalam formasi \"V\" di Sungai Pahang menuju hulu.",
           "quote": "In 1914, when Sultan Ahmad died, people saw twenty six crocodiles cruising in a “V” formation in Pahang River, heading upriver.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c07",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version of the legend, both Seri Pahang and Seri Kemboja are described as giant serpents called naga.",
+          "statement_id": "Dalam versi lain legenda ini, Seri Pahang dan Seri Kemboja sama-sama digambarkan sebagai ular raksasa yang disebut naga.",
+          "quote": "In another version of the legend, both Seri Pahang and Seri Kemboja, are described as giant serpents called Nāga.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c08",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the legend, news reached Seri Pahang of a devastating black sea demon, Seri Kemboja (\"the Glory of Kemboja\"); he vowed to fight and get rid of him.",
+          "statement_id": "Menurut legenda, kabar sampai kepada Seri Pahang tentang iblis laut hitam yang merusak, Seri Kemboja (\"Kemuliaan Kemboja\"); ia bersumpah melawan dan menyingkirkannya.",
+          "quote": "According to the legend, news had reached Seri Pahang about a devastating black sea demon, Seri Kemboja (the Glory of Kemboja). He vowed to fight the demon and get rid of him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c09",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the form of the old man, Seri Pahang persuaded a group of sailors to take him aboard; since he had a bailing pail they thought he might be useful if the boat needed bailing.",
+          "statement_id": "Dalam wujud lelaki tua, Seri Pahang membujuk sekelompok pelaut agar membawanya serta; karena ia membawa timba, mereka mengira ia berguna bila perahu perlu dikuras.",
+          "quote": "In the form of the old man, Seri Pahang persuaded a group of sailors to take him on board with them. Since he had a bailing pail, they thought he might be useful if the boat needed to be bailed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c10",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the boat reached a spot southeast of Sedili Kechil, Seri Pahang handed the bailing pail to the nakhoda and jumped into the sea.",
+          "statement_id": "Ketika perahu tiba di titik tenggara Sedili Kechil, Seri Pahang menyerahkan timba kepada nakhoda dan melompat ke laut.",
+          "quote": "When the boat reached a spot southeast of Sedili Kechil, Seri Pahang handed the bailing pail to the nakhuda and jumped into the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c11",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The gold was the sailors' payment for giving Seri Pahang a ride to the spot where he wanted to challenge Seri Kemboja, the black demon.",
+          "statement_id": "Emas itu menjadi upah para pelaut karena telah membawa Seri Pahang ke tempat ia hendak menantang Seri Kemboja, iblis hitam itu.",
+          "quote": "This was their payment for giving Seri Pahang a ride to the spot where he wanted to challenge Seri Kemboja, the black demon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c12",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The fight lasted long: the sea turned dark, thunder rolled and lightning flashed; after a fierce battle Seri Pahang killed Seri Kemboja but was himself badly wounded.",
+          "statement_id": "Pertarungan itu berlangsung lama: laut menjadi gelap, guruh bergemuruh, dan kilat menyambar; setelah pertempuran sengit Seri Pahang berhasil membunuh Seri Kemboja tetapi sendiri terluka parah.",
+          "quote": "The fight between Seri Pahang and Seri Kemboja lasted long. The sea became dark, thunder rolled and lightning flashed. After a fierce battle, Seri Pahang managed to kill Seri Kemboja but he was wounded badly himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c13",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In great pain he swam to Aur Island, changed back into an old man and got a boat ride back to Kuala Pahang.",
+          "statement_id": "Dalam kesakitan, ia berenang ke Pulau Aur, kembali menjadi lelaki tua, dan menumpang perahu pulang ke Kuala Pahang.",
+          "quote": "In great pain, he swam away to Aur Island, transformed himself back into an old man and got a boat ride back to Kuala Pahang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c14",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On reaching the village of Sekukoh on the Pahang River he grew very weak, told the sailors to stop at the mouth of the Chini River and announced that he was dying at Sekukoh.",
+          "statement_id": "Setibanya di desa Sekukoh di Sungai Pahang ia makin lemah, menyuruh pelaut berhenti di muara Sungai Chini, dan mengumumkan bahwa ia sekarat di Sekukoh.",
+          "quote": "Once he reached a village called Sekukoh on the Pahang River, he was getting a very weak, and told the sailors to stop at the mouth of the Chini River and made announcement that he is dying at Sekukoh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c15",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Before long hundreds of crocodiles were seen swimming downriver to Sekukoh, so many that villagers said daring young men could cross the river on their backs.",
+          "statement_id": "Tak lama kemudian ratusan buaya terlihat berenang ke hilir menuju Sekukoh, begitu banyak sehingga warga mengatakan pemuda berani dapat menyeberangi sungai di atas punggung buaya.",
+          "quote": "Before long, hundreds of crocodiles could be seen swimming downriver to Sekukoh. There were so many crocodiles in the river that, villagers living along the banks claimed that daring young men could cross the river on backs of the crocodiles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c16",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Before dying the great white crocodile asked the ruler of Pahang for a proper religious burial; after learning how the crocodile had killed the sea demon, the ruler agreed.",
+          "statement_id": "Sebelum mati, buaya putih besar itu meminta penguasa Pahang memberinya pemakaman keagamaan yang layak; setelah mengetahui bagaimana buaya itu membunuh iblis laut, sang penguasa setuju.",
+          "quote": "Before he died, the great white crocodile, asked the ruler of Pahang to give him a proper religious burial. After learning how the crocodile had killed the sea demon, the ruler agreed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c17",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People believed the crocodiles and fish were returning from Sultan Ahmad's funeral, paying respects in gratitude because the sultan's ancestor had properly buried Seri Pahang at Sekukoh.",
+          "statement_id": "Orang percaya buaya dan ikan itu pulang dari pemakaman Sultan Ahmad; mereka memberi penghormatan sebagai tanda terima kasih karena leluhur sultan pernah memakamkan Seri Pahang dengan layak di Sekukoh.",
+          "quote": "The people believed that the crocodiles and fish were coming back from the funeral of Sultan Ahmad. They had been paying their respects in gratitude, because the Sultan's ancestor had buried Seri Pahang properly at Sekukoh before he died.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c18",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Behind the crocodiles came a shoal of fish fanned out across the river; people cast nets but the fish escaped magically.",
+          "statement_id": "Di belakang buaya-buaya itu datang kawanan ikan yang menyebar di sungai; orang menebar jala tetapi ikan itu lolos secara ajaib.",
+          "quote": "Behind them came a shoal of fish fanned out across the river. The people cast nets, but the fish magically escaped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c19",
+          "source_id": "seri-pahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chini Lake is the second largest natural freshwater lake in Malaysia; the Chini River, which drains from it, flows into the Pahang River.",
+          "statement_id": "Tasik Chini adalah danau air tawar alami terbesar kedua di Malaysia; Sungai Chini yang mengalir dari danau itu bermuara ke Sungai Pahang.",
+          "quote": "Chini Lake is the second largest natural freshwater lake in Malaysia. The Chini River, which drains from the lake, flows into the Pahang River.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c20",
+          "source_id": "seri-pahang-s2",
+          "host": "mythlok.com",
+          "statement": "Mythlok presents the Chini Lake naga as one of five dragon siblings: Seri Daik (golden-scaled), Seri Pahang (silver-scaled), Seri Kemboja (copper or bronze-scaled), Seri Siam and Seri Gumum (iron-scaled), who inhabits Lake Chini.",
+          "statement_id": "Mythlok menyebut naga Tasik Chini sebagai satu dari lima naga bersaudara: Seri Daik (bersisik emas), Seri Pahang (bersisik perak), Seri Kemboja (bersisik tembaga atau perunggu), Seri Siam, dan Seri Gumum (bersisik besi) yang mendiami Tasik Chini.",
+          "quote": "It is one of five mythical dragon siblings, each associated with a different region and elemental color. The naga family includes Seri Daik (golden-scaled), Seri Pahang (silver-scaled), Seri Kemboja (copper or bronze-scaled), Seri Siam (with dull or ordinary scales), and Seri Gumum (iron-scaled), who inhabits Lake Chini.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c21",
+          "source_id": "seri-pahang-s2",
+          "host": "mythlok.com",
+          "statement": "According to Mythlok, one tale recounts a royal couple cursed into naga, Seri Gumum and her consort Seri Kemboja, explaining their guardianship of the lake and their supernatural bond.",
+          "statement_id": "Menurut Mythlok, satu kisah menceritakan pasangan bangsawan yang dikutuk menjadi naga, Seri Gumum dan pasangannya Seri Kemboja, menjelaskan penjagaan mereka atas danau dan ikatan gaib keduanya.",
+          "quote": "One tale recounts how a royal couple was cursed and transformed into naga—Seri Gumum and her consort Seri Kemboja—explaining both their guardianship of the lake and their supernatural bond.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c22",
+          "source_id": "seri-pahang-s3",
+          "host": "www.sinarharian.com.my",
+          "statement": "Sinar Harian (2021) says Chini Lake in Pahang is famous for the legend of the nagas Seri Gumum, Seri Pahang and Seri Daik, said to have once lived there.",
+          "statement_id": "Sinar Harian (2021) menyebut Tasik Chini di Pahang terkenal dengan legenda Naga Seri Gumum, Naga Seri Pahang, dan Naga Seri Daik yang dikatakan pernah menghuninya.",
+          "quote": "TASIK Chini yang terletak di Pahang terkenal dengan legenda Naga Seri Gumum, Naga Seri Pahang dan Naga Seri Daik yang dikatakan pernah menghuninya.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c23",
+          "source_id": "seri-pahang-s4",
+          "host": "thesmartlocal.my",
+          "statement": "TheSmartLocal says Malaysia has a Nessie of its own called the Seri Gumum Dragon, or Seri Pahang.",
+          "statement_id": "TheSmartLocal menyebut \"Nessie\" Malaysia sendiri bernama Naga Seri Gumum, atau Seri Pahang.",
+          "quote": "Malaysia has a Nessie of its own called Seri Gumum Dragon, or Seri Pahang.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "seri-pahang-c24",
+          "source_id": "seri-pahang-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the Seri Gumum article, another legend recounts a love story between the female Seri Gumum and a male naga called Seri Kemboja that leads to the origin myth of Tioman and Lingga Islands.",
+          "statement_id": "Dalam artikel Seri Gumum, satu legenda lain menceritakan kisah cinta antara Seri Gumum (betina) dan naga jantan bernama Seri Kemboja yang melahirkan mitos asal Pulau Tioman dan Lingga.",
+          "quote": "another recounts a love story between the female Seri Gumum and a male Nāga called Seri Kemboja that leads to the origin myth of Tioman and Lingga Islands",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -89,41 +265,25 @@
     },
     {
       "slug": "thaye",
-      "file": "batch-021.md",
+      "file": "batch-021-fix-1.md",
+      "entry_sha256": "b87a91426eb2d955c2e08cd5d887bec5b53461cffdbcdceac61ae01eac03eb94",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (thaye-c01)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        },
-        {
-          "level": "warn",
-          "where": "claims (thaye-c03)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "thaye-c01",
           "source_id": "thaye-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Burmese mythology the thayé (သရဲ, also tasei) are dead evil people condemned to be disembodied spirits, often tall and dark with huge ears, long tongues and tusk-like teeth.",
-          "statement_id": "Dalam mitologi Myanmar, thayé (သရဲ, juga tasei) adalah orang jahat yang telah mati dan dihukum menjadi roh tanpa tubuh, sering tampak tinggi gelap dengan telinga sangat besar, lidah panjang, dan gigi seperti taring.",
-          "quote": "In Burmese mythology, the thayé (Burmese: သရဲ), also spelled 'tasei' (တစ္ဆေ), are deceased evil people condemned to be disembodied spirits. They often appear as tall, dark people with huge ears, long tongues, and tusk-like teeth.",
+          "statement": "In Burmese mythology the thayé (သရဲ), also spelled 'tasei' (တစ္ဆေ), are deceased evil people condemned to be disembodied spirits.",
+          "statement_id": "Dalam mitologi Myanmar, thayé (သရဲ), juga dieja 'tasei' (တစ္ဆေ), adalah orang jahat yang telah mati dan dihukum menjadi roh tanpa tubuh.",
+          "quote": "In Burmese mythology, the thayé (Burmese: သရဲ), also spelled 'tasei' (တစ္ဆေ), are deceased evil people condemned to be disembodied spirits.",
           "context": "traditional-belief",
-          "status": "loose",
-          "wiki_flag": "citation needed"
+          "status": "loose"
         },
         {
           "id": "thaye-c02",
@@ -137,33 +297,168 @@
         },
         {
           "id": "thaye-c03",
-          "source_id": "thaye-s1",
-          "host": "en.wikipedia.org",
-          "statement": "The thayé has many faces and bodies, e.g. a pregnant ghost with a fat white body and big ears, or tall and slim ones.",
-          "statement_id": "Thayé dikatakan punya banyak wajah dan tubuh, misalnya hantu hamil bertubuh gemuk putih dan bertelinga besar, atau yang tinggi dan kurus.",
-          "quote": "The thayé is said to have many faces and bodies; e.g., one might be a pregnant ghost with a fat white body and big ears. Others may be tall and slim, male, or with other varying characteristics.",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "Taw Sein Ko describes the fifth class of Burmese spirits as those doomed to continue existing in a disembodied state, whose interference in human affairs is supposed to be malignant.",
+          "statement_id": "Taw Sein Ko menyebut kelas kelima roh Burma sebagai roh yang dikutuk untuk terus ada tanpa tubuh dan yang campur tangannya dalam urusan manusia dianggap jahat.",
+          "quote": "There remains to be dealt with the fifth class of spirits, who are doomed to continue their existence in a disembodied state, and whose interference in human affairs is supposed to be of a malignant nature.",
           "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c04",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "Tase is the generic term for all disembodied spirits that once existed as human beings.",
+          "statement_id": "Tase adalah istilah umum untuk semua roh tanpa tubuh yang dahulu pernah hidup sebagai manusia.",
+          "quote": "Tase is the generic term applied to all disembodied spirits ... which existed as human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c05",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "The Thaye and Thabet are spirits of those who died violent deaths, of women who died in childbirth, or of those who lived wicked and sinful lives.",
+          "statement_id": "Thaye dan Thabet adalah roh orang yang mati dengan kematian kekerasan, perempuan yang meninggal saat melahirkan, atau orang yang hidup jahat dan penuh dosa.",
+          "quote": "The Thaye and Thabet are spirits of those who died violent deaths, or of women who died in childbirth, or of those who lived wicked and sinful lives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c06",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "These spirits are always inimical to mankind and are represented in folk-lore stories as having hideous giant-sized bodies with long, huge, slimy tongues they could use as an elephant uses its trunk.",
+          "statement_id": "Roh-roh ini selalu memusuhi umat manusia, dan dalam cerita rakyat digambarkan bertubuh mengerikan sebesar raksasa dengan lidah panjang, besar, dan berlendir yang dapat dipakai seperti belalai gajah.",
+          "quote": "These spirits are always inimical to mankind ... as having hideous bodies, as big as those of a giant, and with long, huge, slimy tongues, which they could make use of as the elephant would his trunk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c07",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "Their special delight is to cause the death of human beings.",
+          "statement_id": "Kegemaran khusus mereka adalah menyebabkan kematian manusia.",
+          "quote": "and their special delight is to cause the death of human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c08",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "These spirits are believed to roam the haunts of men at sunset in search of prey and to be especially active in times of epidemic, such as cholera or small-pox.",
+          "statement_id": "Roh-roh ini dipercaya berkeliaran di tempat manusia saat matahari terbenam untuk mencari mangsa dan sangat aktif pada masa wabah, seperti kolera atau cacar.",
+          "quote": "are believed to roam about the haunts of men at sunset in search of their prey ... in times of an epidemic, as cholera or small-pox.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c09",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "Therefore, during epidemics they are frightened off by making a tremendous jarring noise, beating whatever comes to hand, such as the walls and doors of houses, tin kettles, metal trays and cymbals.",
+          "statement_id": "Karena itu, saat wabah mereka diusir dengan membuat bunyi gaduh yang sangat keras dengan memukul apa saja, seperti dinding dan pintu rumah, ketel timah, nampan logam, dan simbal.",
+          "quote": "They are, therefore, frightened off during epidemics by making a tremendous jarring noise by beating any thing that might come in one's way, as the walls and doors of houses, tin kettles, metal trays, cymbals, &c.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c10",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "These evil spirits are sometimes said to enter the bodies of alligators or tigers and incite them to cause great destruction of human life.",
+          "statement_id": "Roh jahat ini kadang dikatakan memasuki tubuh buaya atau harimau dan menghasut mereka menimbulkan banyak korban jiwa.",
+          "quote": "These evil spirits are sometimes said to enter the bodies of alligators or tigers, and to incite them to cause great destruction of human life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c11",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "Sudden fright or a fall is believed to be a condition favourable to their baneful influence.",
+          "statement_id": "Terkejut atau jatuh mendadak dipercaya menjadi keadaan yang mempermudah pengaruh buruk mereka.",
+          "quote": "sudden fright or fall is believed to be a condition favourable to their baneful influence.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c12",
+          "source_id": "thaye-s2",
+          "host": "archive.org",
+          "statement": "According to Taw Sein Ko, most Burmese people, like the neighbouring wild tribes, say most ills may be ascribed to the occult influence of disease-spirits or witches.",
+          "statement_id": "Menurut Taw Sein Ko, sebagian besar rakyat Burma, seperti suku-suku liar tetangganya, menyatakan bahwa kebanyakan penyakit dapat dikaitkan dengan pengaruh gaib roh penyakit atau penyihir.",
+          "quote": "The majority of the masses of the Burmese people, in common with the neighbouring wild tribes, say that most of the ills that flesh is heir to may be ascribed to the occult influence of disease-spirits or witches",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c13",
+          "source_id": "thaye-s3",
+          "host": "pantheon.org",
+          "statement": "Encyclopedia Mythica describes the thayè as hideous spirits of Burmese folk belief with giant bodies and long, slimy fingers or tongues.",
+          "statement_id": "Encyclopedia Mythica menyebut thayè sebagai roh mengerikan dalam kepercayaan rakyat Burma, bertubuh raksasa dengan jari atau lidah panjang berlendir.",
+          "quote": "In Burmese folk believe, hideous spirits with giant bodies and long, slimy fingers or tongues.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c14",
+          "source_id": "thaye-s3",
+          "host": "pantheon.org",
+          "statement": "They are the disembodied spirits of people who died violent deaths and are hostile to mankind.",
+          "statement_id": "Mereka adalah roh tanpa tubuh orang yang mati dengan kematian kekerasan dan memusuhi umat manusia.",
+          "quote": "They are the disembodied spirits of people who have died violent deaths and are hostile to mankind.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c15",
+          "source_id": "thaye-s4",
+          "host": "vampire_mythology.en-academic.com",
+          "statement": "The Encyclopedia of vampire mythology says Burma has a vampiric revenant called a thaye tase, created when a person has died a violent death.",
+          "statement_id": "Ensiklopedia mitologi vampir menyebut di Burma ada revenan mirip vampir bernama thaye tase yang tercipta ketika seseorang mati dengan kematian kekerasan.",
+          "quote": "In Burma there is a vampiric REVENANT called a thaye tase. It is created when a person has died a violent death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c16",
+          "source_id": "thaye-s4",
+          "host": "vampire_mythology.en-academic.com",
+          "statement": "It returns as an ugly giant, causing cholera and smallpox outbreaks wherever it goes.",
+          "statement_id": "Ia kembali sebagai raksasa buruk rupa dan menyebabkan wabah kolera dan cacar ke mana pun ia pergi.",
+          "quote": "It returns as an ugly giant, causing cholera and smallpox outbreaks wherever it goes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thaye-c17",
+          "source_id": "thaye-s4",
+          "host": "vampire_mythology.en-academic.com",
+          "statement": "It takes great pleasure in visiting the deathbed of the dying and, visible only to them, laughs and revels in their misery.",
+          "statement_id": "Ia sangat senang mendatangi ranjang orang yang sekarat dan, hanya terlihat oleh mereka, menertawakan dan menikmati penderitaan mereka.",
+          "quote": "It takes great pleasure in going to the deathbed of those dying and, visible only to them, laughs and revels in their misery.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "women-in-black-of-wat-samian-nari",
-      "file": "batch-021.md",
+      "file": "batch-021-fix-1.md",
+      "entry_sha256": "7b13a1ed1eaac25598c8bdd0d44179efac7c85ced7f52876e9e749f8e45e7fd7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 27,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:วัดเสมียนนารี เขตจตุจักร กรุงเทพมหานคร (21).jpg)",
@@ -195,8 +490,8 @@
           "id": "women-in-black-of-wat-samian-nari-c03",
           "source_id": "women-in-black-of-wat-samian-nari-s1",
           "host": "en.wikipedia.org",
-          "statement": "Two beautiful women in black hail a taxi after midnight and silently ask to go to Wat Samian Nari; at the temple gates they vanish, and some drivers see them crawling on the railway tracks, bloodied and cut in half.",
-          "statement_id": "Dua perempuan cantik berbaju hitam menghentikan taksi setelah tengah malam dan minta diantar ke Wat Samian Nari tanpa berbicara; di gerbang kuil mereka lenyap, dan sebagian sopir melihat mereka merangkak di rel kereta, berlumuran darah dan terpotong dua.",
+          "statement": "When the taxi finally arrived at the temple gates, the passengers would suddenly vanish without a trace.",
+          "statement_id": "Ketika taksi akhirnya tiba di gerbang kuil, para penumpang tiba-tiba lenyap tanpa jejak.",
           "quote": "When the taxi finally arrived at the temple gates, the passengers would suddenly vanish without a trace.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -219,6 +514,226 @@
           "statement_id": "Menurut acara itu, kedua perempuan adalah kakak-beradik bermarga Tipsuksri, Chulee dan Sulee, yang tewas tertabrak kereta di depan Wat Samian Nari pada awal 1990-an.",
           "quote": "In the program, additional information was revealed: the women were sisters with the surname Tipsuksri, named Chulee and Sulee. They had died in the early 1990s after being struck by a train in front of Wat Samian Nari.",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c06",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Witnesses commonly describe the women as beautiful and dressed entirely in black; they were often seen in nightlife districts of Bangkok such as RCA or Ratchadaphisek, hailing a taxi after midnight and asking to go to Wat Samian Nari.",
+          "statement_id": "Para saksi umumnya menggambarkan kedua perempuan itu cantik dan berbusana serba hitam; mereka sering terlihat di kawasan hiburan malam Bangkok seperti RCA atau Ratchadaphisek, menyetop taksi lewat tengah malam dan minta diantar ke Wat Samian Nari.",
+          "quote": "Witnesses commonly describe the women as beautiful figures dressed entirely in black. They were often seen in Bangkok's nightlife districts, such as RCA or Ratchadaphisek, hailing a taxi after midnight and asking to be taken to Wat Samian Nari.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c07",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the ride the two women remain completely silent, never speak to each other and keep their eyes fixed straight ahead.",
+          "statement_id": "Selama perjalanan kedua perempuan itu diam sama sekali, tidak berbicara satu sama lain, dan menatap lurus ke depan.",
+          "quote": "During the ride, the two women would remain completely silent. They never spoke to each other and kept their eyes fixed straight ahead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c08",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some drivers who stepped out saw the two women crawling across the railway tracks beside the temple, bodies drenched in blood and severed in half, dragging themselves forward in anguish.",
+          "statement_id": "Sebagian sopir yang turun melihat kedua perempuan itu merangkak melintasi rel kereta di dekat kuil, tubuh bersimbah darah dan terbelah dua, menyeret diri ke depan dengan menyayat hati.",
+          "quote": "The two women were crawling across the railway tracks that run past the temple, their bodies drenched in blood and severed in half, dragging themselves forward in a dreadful and anguished manner.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c09",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some versions say the two were sisters dressed in black because they were on their way to their mother's funeral, but died before reaching it.",
+          "statement_id": "Sebagian versi menyebut keduanya kakak-beradik berbaju hitam karena hendak ke pemakaman ibu mereka tetapi meninggal sebelum tiba.",
+          "quote": "Some versions of the story claim that the two women were sisters dressed in black because they were on their way to their mother's funeral, but they died before ever reaching it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c10",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A taxi driver reported receiving a 50-baht note as the fare, the woman refusing any change; the next morning the banknote had turned into a leaf.",
+          "statement_id": "Seorang sopir taksi mengaku menerima uang 50 baht sebagai ongkos, dan perempuan itu menolak kembalian; esok paginya uang itu berubah menjadi daun.",
+          "quote": "A taxi driver reported that he once received a 50-baht bill as the fare, and the woman declined to take any change. The next morning, when he opened his wallet, the banknote had inexplicably turned into a leaf.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c11",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Whether by day or at night, engines passing Wat Samian Nari are said to sputter or stall mysteriously for no apparent reason.",
+          "statement_id": "Konon baik siang maupun malam, mesin kendaraan yang lewat di depan Wat Samian Nari tiba-tiba tersendat atau mati tanpa sebab jelas.",
+          "quote": "Whether in broad daylight or in the dead of night, engines are said to mysteriously sputter or stall for no apparent reason.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c12",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Somkiat's version the two women were friends, not sisters, dressed in black to hurry to the cremation of the long-haired woman's boyfriend; their motorcycle stalled on the tracks just as a train approached, killing them instantly.",
+          "statement_id": "Dalam versi Somkiat, kedua perempuan itu bukan kakak-beradik melainkan teman, berbaju hitam untuk bergegas ke kremasi pacar si perempuan berambut panjang; motor mereka mati di rel tepat saat kereta mendekat sehingga keduanya tewas seketika.",
+          "quote": "the two women were not sisters but friends, dressed in black to hurry to the cremation of the long-haired woman's boyfriend. They rode a motorcycle together, but the bike stalled on the railway tracks just as a train approached, killing them instantly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c13",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The show invited two taxi drivers who claimed to have met the women in person; sketches from their memories showed one woman with short hair and another with long hair.",
+          "statement_id": "Acara itu mengundang dua sopir taksi yang mengaku bertemu langsung kedua perempuan itu; sketsa dari ingatan mereka menunjukkan satu perempuan berambut pendek dan satu berambut panjang.",
+          "quote": "The show invited two taxi drivers who claimed to have personally encountered the women. Sketches were drawn from their memories, revealing one woman with short hair and another with long hair.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c14",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In June 2024 Thairath Studio interviewed Somkiat Sapchalerm, a Pathum Thani reporter who claimed he was the first to publicize the story of the two Women in Black.",
+          "statement_id": "Pada Juni 2024 Thairath Studio mewawancarai Somkiat Sapchalerm, reporter dari Pathum Thani yang mengaku orang pertama yang mempublikasikan kisah dua Perempuan Berbaju Hitam.",
+          "quote": "In June 2024, Thairath Studio interviewed Somkiat Sapchalerm, a reporter from Pathum Thani who claimed he was the first to publicize the story of the two Women in Black.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c15",
+          "source_id": "women-in-black-of-wat-samian-nari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 2020 MCOT report notes that train accidents in front of the temple have occurred but there is no evidence of any ghost, and Khaosod's archives back to 1997 show no report of a train accident killing women in two halves in front of the temple.",
+          "statement_id": "Liputan MCOT 2020 mencatat bahwa kecelakaan kereta di depan kuil memang pernah terjadi tetapi tidak ada bukti hantu, dan arsip Khaosod sejak 1997 tidak memuat laporan kecelakaan kereta yang menewaskan perempuan terbelah dua di depan kuil.",
+          "quote": "In 2020, Channel 9 MCOT HD news investigated the legend of the Women in Black at Wat Samian Nari. ... there is no evidence of any ghost. Furthermore, searches of Khaosod's archives back to 1997 revealed no reports of a train accident killing women in two halves in front of the temple.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c16",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "According to the Thai News Agency, the story is of two sisters aged about 20-28 standing flagging down vehicles about 10 kilometres from Wat Samian Nari, dressed in black.",
+          "statement_id": "Menurut Thai News Agency, ceritanya: dua perempuan berusia sekitar 20-28 tahun, kakak-beradik, berdiri menyetop kendaraan sekitar 10 kilometer dari Wat Samian Nari, berpakaian hitam.",
+          "quote": "มีผู้หญิง 2 คน อายุประมาณ 20 – 28 ปี ซึ่งเป็นพี่น้องกัน ยืนโบกรถห่างจะบริเวณโดยรอบของวัดเสมียนนารี ประมาณ 10 กิโลเมตร แต่งกายชุดดำ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c17",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "Whoever picks them up is asked to take them to the front of Wat Samian Nari; on arrival, if one turns round, they have vanished without a trace.",
+          "statement_id": "Siapa pun yang menjemput mereka diminta mengantar ke depan Wat Samian Nari; setibanya di sana, jika menoleh, keduanya telah lenyap tanpa jejak.",
+          "quote": "เมื่อผู้ใดที่รับสาวทั้งสองคนขึ้นมา พวกเธอก็จะขอให้ไปส่งที่หน้าวัดเสมียนนารี เมื่อส่งถึงที่ ถ้าใครหันไปก็จะพบว่าพวกเธอหายไปอย่างไร้ร่องรอย",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c18",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "In another telling, drivers crossing the tracks find the car dead and unable to start, the headlights shine along the rails, and two women severed in half, faces covered in blood, crawl dragging their own entrails right up onto the bonnet.",
+          "statement_id": "Dalam cerita lain, pengemudi yang melintasi rel mendapati mobilnya mati dan tak bisa distarter, lalu lampu depan menyorot rel dan tampak dua perempuan terbelah dua, berlumur darah, merangkak menyeret usus mereka hingga ke kap mobil.",
+          "quote": "ในอดีตใครที่ต้องขับรถผ่านทางรถไฟ ด้วยอาถรรพ์อะไรสักอย่างจะทำให้รถดับ สตาร์ทไม่ติด เหลือเพียงแต่ไฟหน้ารถที่ส่องสว่างตรงไปยังรางรถไฟ ทันใดนั้นมีเห็นผู้หญิงสองคน ตัวขาดครึ่ง หน้าโชกไปด้วยเลือด คลานลากไส้ตัวเองตรงเข้ามาหน้ารถ จนขึ้นฝากระโปรง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c19",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "Another story says the sisters were riding a motorcycle to their mother's funeral at Wat Samian, crossing the tracks in a hurry, and were struck by a train that cut their bodies in two.",
+          "statement_id": "Cerita lain menyebut kakak-beradik itu mengendarai sepeda motor ke pemakaman ibu di Wat Samian, menyeberangi rel dengan terburu-buru, dan tertabrak kereta hingga tubuh mereka terpotong dua.",
+          "quote": "สองพี่น้องคนนี้กำลังขี่รถจักรยานยนต์ไปงานศพแม่ที่จัดอยู่ในวัดเสมียน ในระหว่างทางจะต้องข้ามทางรถไฟด้วยความเร่งรีบเพื่อที่จะไปให้ทันพระสวด โดยไม่ทันระวังว่ารถไฟได้ใกล้เข้ามา ทำให้ร่างของทั้งสองโดนรถไฟชนขาดสองท่อน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c20",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "According to the Thai News Agency, decades earlier a newspaper reported the deaths of two sisters under the headline \"ตายขาดสยอง\"; they were said to have died after driving into a train.",
+          "statement_id": "Menurut Thai News Agency, bertahun-tahun lalu koran memberitakan kematian dua kakak-beradik dengan judul \"ตายขาดสยอง\"; mereka disebut mati tertabrak kereta setelah mengemudi menabrak kereta.",
+          "quote": "เมื่อหลายสิบปีก่อนมีข่าวหนังสือพิมพ์ลงข่าวการตายของหญิงสาวสองพี่น้อง พาดหัวข่าวว่า “ตายขาดสยอง” สาเหตุการตายเพราะโดนรถไฟทับจนตัวขาดครึ่งจนเครื่องในเละเต็มพื้นไปหมด สาเหตุที่โดนรถไฟทับเกิดจากพี่น้องสองคนนี้ขับรถสวนชนเข้ากับรถไฟ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c21",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "The abbot of Wat Samian Nari said he has lived at the temple for over 50 years and has often heard the tale of the two sisters' ghosts, but neither he nor any of the monks has ever met them.",
+          "statement_id": "Kepala biara Wat Samian Nari mengatakan ia telah tinggal di kuil lebih dari 50 tahun dan sering mendengar kisah dua hantu kakak-beradik, tetapi tidak ada dirinya maupun para biksu yang pernah bertemu.",
+          "quote": "อาตมาอยู่ที่วัดมานานกว่า 50 ปี ได้ยินเรื่องเล่าความเฮี้ยนของผีสองพี่น้องที่หลอกหลอนคนแถวนี้อยู่ตลอด แต่ยืนยันว่าตัวท่าน และพระลูกวัดไม่ว่าจะพระเก่า หรือพระใหม่ ก็ไม่มีใครเคยเจอ",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c22",
+          "source_id": "women-in-black-of-wat-samian-nari-s2",
+          "host": "today.line.me",
+          "statement": "The abbot urged people not to believe simply because they have heard it passed on, but to use mindfulness, wisdom and reason before believing.",
+          "statement_id": "Kepala biara mengimbau agar orang tidak langsung percaya hanya karena \"katanya\", melainkan berpikir dengan kesadaran, kebijaksanaan, dan nalar sebelum percaya.",
+          "quote": "และอย่าเพิ่งเชื่อโดยฟังตามกันมา บางคนเมื่อฟังตามกันมาก็เกิดความเชื่อ เมื่อคนนั้นว่าอย่างนั้น คนนี้ว่าอย่างนี้ ก็เชื่อตามกันไป โดยเพียงแค่ \"เขาบอกว่า\" ขอให้มีสติ คิดตรึกตรองด้วยปัญญา และเหตุผลก่อนที่จะเชื่อ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c23",
+          "source_id": "women-in-black-of-wat-samian-nari-s3",
+          "host": "www.dhammathai.org",
+          "statement": "Wat Samian Nari (also called Wat Khrai) is located in Lat Yao subdistrict, Chatuchak district, Bangkok.",
+          "statement_id": "Wat Samian Nari (juga disebut Wat Khrai) berlokasi di Khwaeng Lat Yao, Khet Chatuchak, Bangkok.",
+          "quote": "วัดเสมียนนารี (วัดแคราย) ตั้งอยู่เลขที่ 32 หมู่ 2 แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c24",
+          "source_id": "women-in-black-of-wat-samian-nari-s3",
+          "host": "www.dhammathai.org",
+          "statement": "According to the Department of Religious Affairs records, Wat Samian Nari was founded in Buddhist Era 2400 and granted its wisungkhamasima in 2420.",
+          "statement_id": "Menurut catatan Departemen Agama, Wat Samian Nari didirikan pada tahun Buddhis 2400 dan menerima wisungkhamasima pada 2420.",
+          "quote": "ตามบันทึกของกรมการศาสนา ปรากฏว่า วัดเสมียนนารี เริ่มก่อตั้งเมื่อปี พ.ศ. 2400 โดยได้รับพระราชทานวิสุงคามสีมาเมื่อ ปี พ.ศ.2420",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c25",
+          "source_id": "women-in-black-of-wat-samian-nari-s3",
+          "host": "www.dhammathai.org",
+          "statement": "The east side of the temple borders Kamphaeng Phet 6 Road and the northern/north-eastern railway line.",
+          "statement_id": "Sisi timur kuil berbatasan dengan Jalan Kamphaeng Phet 6 dan jalur kereta api lintas utara-timur laut.",
+          "quote": "ทิศตะวันออก ติดกับถนนกำแพงเพชร 6 (โรคอลโรด) และทางรถไฟ สายเหนือ-อิสาน",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c26",
+          "source_id": "women-in-black-of-wat-samian-nari-s3",
+          "host": "www.dhammathai.org",
+          "statement": "The temple's founder was a woman of the palace who held the post of clerk of the privy treasury (samian phra khlang khang thi).",
+          "statement_id": "Pendiri kuil adalah seorang perempuan istana yang berjabatan juru tulis perbendaharaan istana (samian phra khlang khang thi).",
+          "quote": "ท่านผู้ที่ริเริ่มสร้างวัด เป็นสุภาพสตรีในวัง ท่านมีตำแหน่งเป็นเสมียนพระคลังข้างที่",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "women-in-black-of-wat-samian-nari-c27",
+          "source_id": "women-in-black-of-wat-samian-nari-s3",
+          "host": "www.dhammathai.org",
+          "statement": "The temple was named \"Wat Samian Nari\" in honour of the two people credited with founding it.",
+          "statement_id": "Kuil dinamai \"Wat Samian Nari\" untuk menghormati kedua orang yang disebut sebagai pendirinya.",
+          "quote": "ดังนั้นวัดนี้จึงได้ขนานนามว่า \"วัดเสมียนนารี\" เพื่อเป็นเกียรติประวัติ แก่ท่านทั้งสอง",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -271,47 +786,27 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "11e864950905a08523d0081bf5ab70e4d6762a486db8402c26bee571154df56b"
     },
     {
       "slug": "busaw",
-      "file": "batch-021.md",
+      "file": "batch-021-fix-1.md",
+      "entry_sha256": "28a02f70a589927b6d1d47a919a61cd066df20701e7333088a45e0300ff93c79",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 27,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 2 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (busaw-c01)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        }
-      ],
+      "issues": [],
       "claims": [
-        {
-          "id": "busaw-c01",
-          "source_id": "busaw-s1",
-          "host": "en.wikipedia.org",
-          "statement": "The busaw is a legendary creature resembling humans, raising animals and root crops, but its favourite food is humans, leaving skeletons around its home.",
-          "statement_id": "Busaw adalah makhluk legenda yang menyerupai manusia dalam rupa dan perilaku, beternak dan menanam umbi, tetapi makanan kesukaannya manusia sehingga kerangka manusia berserakan di sekitar tempat tinggalnya.",
-          "quote": "Busaw is a legendary creature that resembles humans in appearance and behavior, raising farm animals and planting root crops. However, its favorite food is humans, resulting in scattered human skeletons on the grounds of its dwelling place.",
-          "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
-        },
         {
           "id": "busaw-c02",
           "source_id": "busaw-s1",
           "host": "en.wikipedia.org",
-          "statement": "The busaw was an evil ghoul and corpse thief, human-seeming by day, listening for death at night, living in large trees near cemeteries, with pointed teeth, hooked nails and a long tongue; it replaced corpses with banana trunks, turned them into pigs and ate them.",
-          "statement_id": "Busaw adalah roh jahat pemakan mayat dan pencuri jenazah yang siang hari tampak seperti manusia biasa, malam hari mendengarkan tanda kematian, tinggal di pohon besar dekat kuburan, bergigi runcing, berkuku bengkok, dan berlidah panjang; ia mengganti jenazah dengan batang pisang, mengubahnya menjadi babi, dan memakannya.",
+          "statement": "The busaw was a ghoul and corpse thief, an evil spirit that looked and behaved like ordinary humans by day, listened for sounds of death in the evenings and dwelled in large trees near cemeteries; it had pointed teeth, hooked nails and a long tongue.",
+          "statement_id": "Busaw adalah makhluk pemakan mayat dan pencuri jenazah, roh jahat yang siang hari tampak dan berperilaku seperti manusia biasa, mendengarkan tanda kematian di malam hari, dan tinggal di pohon besar dekat kuburan; giginya runcing, kukunya bengkok, dan lidahnya panjang.",
           "quote": "The Busaw was a ghoul and corpse thief. An evil spirit who looked and behaved like ordinary human beings by day, it listened for sounds of death in the evenings, and dwelled in large trees near cemeteries. It had pointed teeth, hooked nails and a long tongue.",
           "context": "traditional-belief",
           "status": "exact"
@@ -334,6 +829,246 @@
           "statement_id": "Bal-bal dikaitkan dengan aswang, amalanhig, dan busaw, semuanya pemakan daging dan tergolong makhluk paling menakutkan di Filipina.",
           "quote": "Bal-Bal was also associated to Aswang, Amalanhig, and even to Busaw, which were all flesh eaters. They were classified to one of the most fearful creatures in the Philippines because of their appearance.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c05",
+          "source_id": "busaw-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The busaw took banana trunks to replace the dead it stole from coffins; after turning the corpse into a pig and spiriting it away, it feasted on it and even tried to feed it to human neighbours by day to turn them into ghouls like itself.",
+          "statement_id": "Busaw mengambil batang pisang untuk menggantikan jenazah yang dicurinya dari peti; setelah mengubah jenazah menjadi babi dan membawanya pergi, ia memakannya dan bahkan mencoba memberikannya kepada tetangga manusia pada siang hari agar mereka menjadi ghoul sepertinya.",
+          "quote": "It took banana tree trunks to replace the dead as it stole the corpses out of their coffins. Then, spiriting the corpse off after first turning it into a pig, the Busaw would feast on it and even try to feed it to their human neighbors during the day in order to turn them into ghouls like itself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c06",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "According to Ragragio and Paluga, early colonial documentation said \"busaw\" named a generic type of malignant spirit that did bad things to people.",
+          "statement_id": "Menurut Ragragio dan Paluga, dalam dokumentasi kolonial awal, \"busaw\" disebut sebagai jenis umum roh jahat yang berbuat buruk kepada orang.",
+          "quote": "We knew that in early colonial documentation of Indigenous life, “busaw” was said to name a generic type of malignant spirit that did bad things to people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c07",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "For Jesuit missionaries in the late 1800s the \"busao\" conveniently took the place of \"the devil\"; anthropologist Laura Benedict noted they were \"demons\" that \"haunt graveyards, forests, and rocks\".",
+          "statement_id": "Bagi misionaris Jesuit akhir 1800-an, \"busao\" menggantikan \"iblis\"; antropolog Laura Benedict mencatat bahwa mereka adalah \"setan\" yang menghantui kuburan, hutan, dan batu.",
+          "quote": "For Jesuit missionaries in the late 1800s, for instance, the “busao” conveniently took the place of “the devil.” Another U.S. colonial-era anthropologist, Laura Benedict, noted that these were “demons” that “haunt graveyards, forests, and rocks.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c08",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "A Pantaron Manobo man called his pendant \"gahum\", meaning \"power\" in Bisaya; in the Manobo language, he said, they call it busaw.",
+          "statement_id": "Seorang pria Manobo Pantaron menyebut bandul kalungnya \"gahum\" (kekuatan dalam bahasa Bisaya); dalam bahasa Manobo, katanya, mereka menyebutnya busaw.",
+          "quote": "“It’s gahum,” meaning “power” in the Bisaya language. “How would you call gahum in your Manobo language?” we asked. “We call it busaw,” he replied.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c09",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "A respected elder who was a baylan (shaman) was described as \"dakel busaw\", having \"big busaw\".",
+          "statement_id": "Seorang tetua baylan (dukun) yang dihormati dijuluki \"dakel busaw\", artinya memiliki \"busaw besar\".",
+          "quote": "This same elder was a baylan (shaman) who, because of his respected reputation, was described by others as being “dakel busaw,” or having “big busaw.”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c10",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "An older female leader said the dead became \"busaw to tanu\" (busaw of the land).",
+          "statement_id": "Seorang pemimpin perempuan berkata bahwa para leluhur yang telah tiada menjadi \"busaw to tanu\" (busaw tanah).",
+          "quote": "While reflecting on her departed relatives, an older female leader told us that the dead became “busaw to tanu” (busaw of the land).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c11",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "The authors ask whether busaw, rather than being \"the devil\", is more akin to \"power\" or \"potency\".",
+          "statement_id": "Para penulis bertanya apakah busaw, alih-alih \"iblis\", lebih mirip \"kekuatan\" atau \"potensi\".",
+          "quote": "Is busaw, instead of being “the devil,” more akin to “power” or “potency”?",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c12",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "According to Sapiens, adding the prefix \"Tala\" turns it into the proper name of a god, Talagbusao, literally \"of the busaw\".",
+          "statement_id": "Menurut Sapiens, awalan \"Tala\" menjadikannya nama dewa, Talagbusao, yang secara harfiah berarti \"milik busaw\".",
+          "quote": "(Adding the prefix “Tala” turns it into the proper name of a god—Talagbusao—which literally means “of the busaw.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c13",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "In areas disrupted by militarization, Manobo youth euphemistically refer to soldiers as busaw.",
+          "statement_id": "Di wilayah yang terganggu militerisasi, pemuda Manobo secara halus menyebut tentara sebagai busaw.",
+          "quote": "In areas disrupted by militarization, Manobo youth euphemistically refer to soldiers as busaw.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c14",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "The ultimate antagonist of the series Trese is Talagbusao, presented as a bloodthirsty male \"god of war\" who wreaks havoc and thrives in it.",
+          "statement_id": "Antagonis utama serial Trese adalah Talagbusao, digambarkan sebagai \"dewa perang\" jantan yang haus darah dan gemar membuat kekacauan.",
+          "quote": "But the ultimate antagonist of the series is Talagbusao, a figure presented in the show as a bloodthirsty, male “god of war” whose nature is to wreak havoc and thrive in it.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c15",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Benedict writes that one class of Bagobo stories deals with the demons known as Buso, who haunt graveyards, forests and rocks.",
+          "statement_id": "Benedict menulis bahwa satu kelas cerita Bagobo menyangkut setan bernama Buso yang menghantui kuburan, hutan, dan batu.",
+          "quote": "Another class of stories deals with the demons known as Buso, who haunt graveyards, forests, and rocks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c16",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The fear of Buso is an ever-present element in the Bagobo mind and a definite factor in shaping ritual forms and magical usages.",
+          "statement_id": "Rasa takut pada Buso selalu hadir dalam pikiran orang Bagobo dan menjadi faktor pasti dalam bentuk ritual dan praktik sihir.",
+          "quote": "The fear of Buso is an ever-present element in the mental associations of the Bagobo, and a definite factor in shaping ritual forms and magical usages.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c17",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The Buso live in great branching trees and in the graveyard; the night after a burial they dig up the body with their claws, drink the blood and eat the flesh, leaving the bones.",
+          "statement_id": "Buso tinggal di pohon besar yang bercabang dan di kuburan; malam setelah orang dikubur, mereka menggali jenazah dengan cakar, meminum darah dan memakan dagingnya, dan meninggalkan tulangnya.",
+          "quote": "The Buso live in the great branching trees and in the graveyard. The night after a person has been buried, the Buso dig up the body with their claws, and drink all the blood, and eat the flesh. The bones they leave, after eating all the flesh off from them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c18",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The Buso cannot be seen, and if glimpsed it is only for a few minutes; he looks like a shadow.",
+          "statement_id": "Buso tidak dapat dilihat, dan bila sekilas terlihat hanya beberapa menit, tampak seperti bayangan.",
+          "quote": "You cannot see the Buso; but if you do get a glimpse of one of them, it is only for a few minutes. He looks like a shadow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c19",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the beginning everyone could see the Buso because Buso and people were friends and the Buso kept men from dying; after a quarrel many years ago, nobody could see the Buso any more.",
+          "statement_id": "Pada mulanya semua orang dapat melihat Buso karena Buso dan manusia bersahabat dan Buso membantu manusia agar tak mati; setelah bertengkar bertahun-tahun lalu, tak seorang pun lagi dapat melihat Buso.",
+          "quote": "In the beginning, everybody could see the Buso, because then the Buso and the people were friendly together. Nobody died in those days, for the Buso helped the men, and kept them from dying. But many years ago the Buso and man had a quarrel, and after that nobody could see the Buso any more.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c20",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale \"Buso and the Woman\", the Buso comes while the woman's husband is away and tries to pass himself off as her husband.",
+          "statement_id": "Dalam kisah \"Buso and the Woman\", Buso datang saat suami perempuan itu pergi dan mencoba menyamar sebagai suaminya.",
+          "quote": "In the night, while her husband was away, the Buso came, and tried to pass himself off as her husband",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c21",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In \"The Buso's Basket\" the Buso stuffs two children into his deep burden-basket and shoulders it; the children escape and fill it with stones.",
+          "statement_id": "Dalam kisah \"The Buso's Basket\", Buso menjejalkan dua anak ke keranjang dalam dan memanggulnya; anak-anak itu lolos dan memenuhi keranjang dengan batu.",
+          "quote": "Then he stuffed the children into his deep burden-basket, and swung the basket upon his back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c22",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Pregnant Bagobo women place the woman's knife (gulat), the kampilan and all other knives near them to frighten Buso away.",
+          "statement_id": "Perempuan Bagobo yang hamil menaruh pisau perempuan (gulat), kampilan, dan semua pisau lain di dekatnya untuk menakut-nakuti Buso.",
+          "quote": "an expectant mother places near her the woman's knife (gulat), the kampilan ... and all the other knives, to frighten Buso away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c23",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Failing this, the Buso will come to the woman while she sleeps and change her baby into a Buso-child.",
+          "statement_id": "Bila pisau tidak ditaruh, Buso akan datang saat perempuan itu tidur dan mengubah bayinya menjadi anak-Buso.",
+          "quote": "Failing this, the Buso will come to the woman while she sleeps, and change her baby into a Buso-child.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c24",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bagobo tale, the very bad buso have only one eye and some have only one leg.",
+          "statement_id": "Dalam kisah Bagobo, buso yang sangat jahat hanya bermata satu, dan sebagian hanya berkaki satu.",
+          "quote": "the very bad buso have only one eye; some have only one leg",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c25",
+          "source_id": "busaw-s5",
+          "host": "acd.clld.org",
+          "statement": "The Austronesian Comparative Dictionary records Binukid busaw as an evil spirit or demon, a witch or human with supernatural powers, and the act of an evil spirit entering or possessing someone.",
+          "statement_id": "The Austronesian Comparative Dictionary mencatat busaw dalam bahasa Binukid berarti roh jahat atau setan, penyihir atau manusia berkekuatan gaib, serta tindakan roh jahat memasuki atau merasuki seseorang.",
+          "quote": "evil spirit, demon; witch, human with supernatural powers (who shows himself in an unexpected or startling way); for an evil spirit to enter or possess someone",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c26",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "According to Sapiens, the early-1900s U.S. anthropologist Fay-Cooper Cole wrote that among the tribal communities of southern Mindanao the Talagbusao was the \"patron of the warriors and of people who run amuck\".",
+          "statement_id": "Menurut Sapiens, Fay-Cooper Cole, antropolog Amerika awal 1900-an, menulis bahwa di komunitas suku Mindanao selatan Talagbusao adalah \"pelindung para prajurit dan orang yang mengamuk\".",
+          "quote": "Fay-Cooper Cole, a U.S. anthropologist who worked in the Philippines in the early 1900s, provided one of the first written descriptions of the Talagbusao (or as he spelled it, Talabosau). He wrote that among the tribal communities of the southern island of Mindanao, the Talagbusao was the “patron of the warriors and of people who run amuck.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c27",
+          "source_id": "busaw-s3",
+          "host": "www.sapiens.org",
+          "statement": "Within days of its release the Netflix animated series Trese landed on the top 10 lists of most-streamed shows.",
+          "statement_id": "Dalam beberapa hari setelah dirilis, serial animasi Netflix Trese masuk daftar sepuluh besar acara paling banyak ditonton.",
+          "quote": "Within days of its release last June, the Netflix animated series Trese—based upon the award-winning Filipino comic book series of the same name—landed on the top 10 lists",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "busaw-c28",
+          "source_id": "busaw-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Benedict writes that the stories were obtained from the Bagobo people in southeastern Mindanao, Philippine Islands.",
+          "statement_id": "Benedict menulis bahwa cerita-cerita itu diperoleh dari orang Bagobo di Mindanao tenggara, Kepulauan Filipina.",
+          "quote": "The following stories were obtained from the Bagobo people ... in southeastern Mindanao, Philippine Islands.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],

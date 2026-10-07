@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-017",
-  "checked_at": "2026-09-29T12:52:20.445Z",
+  "checked_at": "2026-10-07T04:54:25.680Z",
   "files": [
-    "batch-017.md"
+    "batch-017.md",
+    "batch-017-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "minokawa",
-      "file": "batch-017.md",
+      "file": "batch-017-fix-1.md",
+      "entry_sha256": "539af90823a8133aa00a97dc6da76a09e68ac01efa55643b8c3430441004bef5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 19,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "minokawa-c01",
@@ -73,25 +69,161 @@
           "quote": "In the Bagani television series, Minokawa is one of Apo's creatures.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "minokawa-c06",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the Bagobo story recorded by Benedict, the people scream and make a great noise; the bird peeps down to see what is the matter and opens its mouth, and the moon springs out and runs away.",
+          "statement_id": "Dalam kisah Bagobo yang dicatat Benedict, orang-orang menjerit dan membuat keributan besar; burung itu menunduk melihat apa yang terjadi dan membuka mulutnya, lalu bulan melompat keluar dan lari.",
+          "quote": "Seized with fear, all the people began to scream and make a great noise. Then the bird peeped down to see what was the matter, and he opened his mouth. But as soon as he opened his mouth, the moon sprang out and ran away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c07",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The minokawa-bird is as large as the Island of Negros or Bohol; its beak and claws are of steel.",
+          "statement_id": "Burung minokawa sebesar Pulau Negros atau Bohol; paruhnya dan cakarnya dari baja.",
+          "quote": "The minokawa-bird is as large as the Island of Negros or Bohol. He has a beak of steel, and his claws too are of steel.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c08",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Its eyes are mirrors and each feather is a sharp sword; it lives outside the sky at the eastern horizon, ready to seize the moon when she arrives there from her journey under the earth.",
+          "statement_id": "Matanya cermin dan tiap helai bulunya pedang tajam; ia tinggal di luar langit, di cakrawala timur, siap menyambar bulan ketika bulan tiba di sana dari perjalanannya di bawah bumi.",
+          "quote": "His eyes are mirrors, and each single feather is a sharp sword. He lives outside the sky, at the eastern horizon, ready to seize the moon when she reaches there from her journey under the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c09",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "If the minokawa should swallow the moon and the sun too, it would then come down to earth and gulp down men also.",
+          "statement_id": "Jika minokawa menelan bulan dan matahari, ia kemudian akan turun ke bumi dan menelan manusia juga.",
+          "quote": "If the minokawa should swallow the moon, and swallow the sun too, he would then come down to earth and gulp down men also.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c10",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "All the old men know about the minokawa-bird from the ulit stories.",
+          "statement_id": "Semua orang tua mengetahui burung minokawa dari cerita-cerita ulit.",
+          "quote": "All the old men know about the minokawa-bird in the ulit stories.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c11",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a footnote Benedict writes that the Visayans believe an eclipse of the moon is caused by an enormous animal that seizes the moon and holds her in its mouth.",
+          "statement_id": "Dalam catatan kakinya Benedict menulis bahwa orang Visaya percaya gerhana bulan disebabkan oleh seekor hewan raksasa yang menangkap bulan dan menahannya di mulutnya.",
+          "quote": "The Visayans believe that an eclipse of the moon is caused by an enormous animal that seizes the moon, and holds her in his mouth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c12",
+          "source_id": "minokawa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Benedict writes that the Bagobo, from whom the story was obtained, live on the eastern folds of the Cabadangan range near Mount Apo, the highest peak.",
+          "statement_id": "Benedict menulis bahwa orang Bagobo, sumber kisah ini, mendiami lereng timur pegunungan Cabadangan di sekitar Gunung Apo, puncak tertinggi.",
+          "quote": "Their habitat is on the eastern folds of the Cabadangan mountain-range, in the vicinity of Mount Apo, the highest peak",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c13",
+          "source_id": "minokawa-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project describes the minokawa as a giant, dragon-like bird in Philippine legends, particularly of the Bagobo ethnic groups of Mindanao.",
+          "statement_id": "The Aswang Project menyebut minokawa burung raksasa mirip naga dalam legenda Filipina, terutama pada kelompok etnis Bagobo di Mindanao.",
+          "quote": "Minokawa is a giant, dragon-like bird in Philippine legends, particularly the Bagobo ethnic groups of Mindanao.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c14",
+          "source_id": "minokawa-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to Jordan Clark, all references to the minokawa (apart from its indigenous origins) trace back to the tale recorded by Laura Watson Benedict, the first anthropologist to travel to the Philippines, in 1906, to study the Bagobo.",
+          "statement_id": "Menurut Jordan Clark, semua rujukan pada minokawa (selain asal-usul pribumi) bersumber dari kisah yang dicatat Laura Watson Benedict, antropolog pertama yang pergi ke Filipina pada 1906 untuk mempelajari orang Bagobo.",
+          "quote": "all of the references (aside from the indigenous origins) to Minokawa trace back to the tale recorded by Laura Watson Benedict, the first anthropologist to travel to the Philippines in 1906 to study the Bagobo people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c15",
+          "source_id": "minokawa-s4",
+          "host": "mythlok.com",
+          "statement": "Mythlok lists similar eclipse-causing creatures elsewhere in the Philippines: the Arimaonga (Maranao), the Bannog or Ban-og (Iloko and Tinguian traditions) and the Baua or Bawa (Pampangan, Tagalog and Hiligaynon narratives).",
+          "statement_id": "Mythlok mencatat makhluk pemakan benda langit serupa di daerah lain Filipina: Arimaonga (Maranao), Bannog atau Ban-og (tradisi Iloko dan Tinguian), serta Baua atau Bawa (kisah Pampangan, Tagalog, dan Hiligaynon).",
+          "quote": "These include the Arimaonga among the Maranao, the Bannog or Ban-og in Iloko and Tinguian traditions, and the Baua or Bawa in Pampangan, Tagalog, and Hiligaynon narratives.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c16",
+          "source_id": "minokawa-s4",
+          "host": "mythlok.com",
+          "statement": "According to Mythlok, the minokawa is not invincible and can be startled or distracted by loud noises.",
+          "statement_id": "Menurut Mythlok, minokawa tidak kebal; ia dapat dikejutkan atau dialihkan perhatiannya oleh bunyi keras.",
+          "quote": "Despite its immense power, the Minokawa is not invincible. It can be startled or distracted by loud noises.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c17",
+          "source_id": "minokawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Baua is said to live \"above the sky\" because the Visayans believe there is a cave called \"calulundan\" above the sky, its entrance covered by blue smoke.",
+          "statement_id": "Baua disebut tinggal \"di atas langit\" karena orang Visaya percaya ada gua bernama \"calulundan\" di atas langit dengan pintu masuk tertutup asap biru.",
+          "quote": "While the Baua lived \"above the sky\" because the Visayans believe that there is a cave called \"calulundan\" above the sky, the entrance covered by blue smoke.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c18",
+          "source_id": "minokawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the GMA 7 fantasy series Mulawin Vs Ravena, the minokawa is finally killed by Anya using the Ruwido.",
+          "statement_id": "Dalam serial fantasi GMA 7 Mulawin Vs Ravena, minokawa akhirnya dibunuh oleh Anya dengan Ruwido.",
+          "quote": "In TV fantasy series of GMA 7 Mulawin Vs Ravena, the Minokawa was finally killed by Anya using the Ruwido",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "minokawa-c19",
+          "source_id": "minokawa-s4",
+          "host": "mythlok.com",
+          "statement": "Mythlok: the myth was a lived cultural response, with communities making loud noises with gongs and instruments to make the creature release its prey.",
+          "statement_id": "Mythlok: mitos ini adalah tanggapan budaya yang hidup; masyarakat membuat bunyi keras dengan gong dan alat lain agar makhluk itu melepaskan mangsanya.",
+          "quote": "The myth was not just a story but a lived cultural response, as communities would create loud noises using gongs and instruments to frighten the creature into releasing its prey.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nang-mai",
-      "file": "batch-017.md",
+      "file": "batch-017-fix-1.md",
+      "entry_sha256": "ac1caef5b8dd4eb7ca24b4e52555beb0eacdc82d8e00dabfcef32066df9fe172",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 35,
+        "sources": 5,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Spirit-tree IMG 2518.jpg)",
@@ -113,8 +245,8 @@
           "id": "nang-mai-c02",
           "source_id": "nang-mai-s1",
           "host": "en.wikipedia.org",
-          "statement": "Nang mai is a young woman in a pleated robe with a sash and shoulder-length hair; the male version, rukkhadeva, inhabits banyans or large trees; villagers tie three-coloured cloth around her tree.",
-          "statement_id": "Nang mai digambarkan perempuan muda berjubah lipit, berselendang, dan berambut sebahu; versi laki-lakinya disebut rukkhadeva yang menghuni pohon beringin atau pohon besar; warga mengikatkan kain tiga warna pada pohon yang dihuninya.",
+          "statement": "Nang mai is described as a young woman in a pleated robe with a sash and shoulder-length hair; it can also be male, in which case it is called Rukkhadeva.",
+          "statement_id": "Nang mai digambarkan sebagai perempuan muda berjubah lipit, berselendang, dan berambut sebahu; ia juga bisa laki-laki dan disebut Rukkhadeva.",
           "quote": "Nang mai in Thai folklore, is said to be a young woman wearing a pleated robe and covering herself in a sash with shoulder-length hair. Nang mai can also be a male, and they would be called Rukkhadeva",
           "context": "traditional-belief",
           "status": "exact"
@@ -137,6 +269,316 @@
           "statement_id": "Nang mai penghuni pohon besar seperti ta-khian dianggap paling berbahaya, karena makin besar pohonnya makin tua dan angker penghuninya.",
           "quote": "is considered to be one of the most hostile Nang mai because they believe that the larger the tree, the older and more haunting it is.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c05",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The male rukkhadeva would mostly inhabit a banyan or a large tree, whereas nang mai would mostly live in a smaller tree.",
+          "statement_id": "Rukkhadeva (versi laki-laki) kebanyakan menghuni pohon beringin atau pohon besar, sedangkan nang mai kebanyakan tinggal di pohon yang lebih kecil.",
+          "quote": "who would mostly inhabit a banyan tree or in a large tree, but Nang mai would mostly live in a smaller size tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c06",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If someone in a village saw a nang mai inhabiting a tree, they would bring a 3-colour cloth to tie around the tree.",
+          "statement_id": "Jika seseorang di desa melihat nang mai menghuni sebuah pohon, mereka membawa kain tiga warna untuk diikatkan pada pohon itu.",
+          "quote": "If someone in a village saw Nang mai inhabiting a tree, they would bring a 3-colour cloth to tie up the tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c07",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Thai beliefs, nang mai had the power to make people fear cutting down trees and could cast a spell to make those who cut trees sick or insane.",
+          "statement_id": "Dalam kepercayaan Thailand, nang mai berkuasa membuat orang takut menebang pohon dan dapat menyihir penebang pohon agar jatuh sakit atau gila.",
+          "quote": "In Thai beliefs, Nang Mai had the power to make people fear cutting down trees. They could cast a spell to make people who cut down trees sick or go insane and lose their minds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c08",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If people want to cut down large trees in the forest, they must first perform a ceremony asking for forgiveness.",
+          "statement_id": "Bila orang ingin menebang pohon besar di hutan, mereka harus lebih dulu melakukan upacara memohon maaf.",
+          "quote": "If people want to cut down large trees in the forest, they must first perform a ceremony to ask for forgiveness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c09",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, a daughter of the monarch of Nakhon Si Thammarat was kidnapped for ransom but was killed on the journey, and her body was hidden in the hollow of a big mango tree.",
+          "statement_id": "Menurut legenda, putri raja Nakhon Si Thammarat diculik untuk meminta tebusan, tetapi terbunuh dalam perjalanan dan jasadnya disembunyikan di rongga pohon mangga besar.",
+          "quote": "According to legend, a daughter of Nakhon Si Thammarat's monarch was kidnapped to loot and demand ransom. But the king's daughter was killed during the journey, and her body was hidden in the hollow of a big mango tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c10",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In this tradition, a man who undergoes marriage ceremonies with a nang mai may marry another woman, but if his firstborn child is a boy, the boy must complete the wedding ceremonies with the nang mai.",
+          "statement_id": "Dalam tradisi ini, laki-laki yang menjalani upacara pernikahan dengan nang mai boleh menikahi perempuan lain, tetapi jika anak sulungnya laki-laki, anak itu harus menyelesaikan upacara pernikahan dengan nang mai.",
+          "quote": "The male who undertakes marriage ceremonies with Nang mai can marry another lady, but if their firstborn child is a boy, the boy must complete the wedding ceremonies with the Nang mai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c11",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, Saraburi sent a large takhian thong wooden pole found in the Dong Phaya Yen forest (Muak Lek) down the Pa Sak River; it reached Bangkok and was chosen as the first pillar, but the authorities complained its tip was crooked.",
+          "statement_id": "Menurut legenda, Saraburi mengirim tiang kayu takhian thong besar yang ditemukan di hutan Dong Phaya Yen (Muak Lek) menyusuri Sungai Pa Sak; tiang itu sampai di Bangkok dan dipilih sebagai tiang pertama, tetapi pejabat mengeluh ujungnya bengkok.",
+          "quote": "Saraburi sent a large Takhian Thong wooden pole discovered in the Dong Phaya Yen forest (Muak Lek) sailing down the Pa Sak River. This pillar traveled all the way to Bangkok and was chosen as the first pillar. However, the authorities complained that the pole's tip was crooked.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c12",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of this, the spirit residing in the tree became depressed; crying, it floated upstream from Bangkok to the Pa Sak River and landed in front of the Sao Hai District Office.",
+          "statement_id": "Karena itu roh yang berdiam di dalam pohon itu bersedih; sambil menangis ia hanyut ke hulu dari Bangkok menuju Sungai Pa Sak dan mendarat di depan kantor Distrik Sao Hai.",
+          "quote": "Because of this, the spirit who resided within the tree became depressed. Crying and floating upstream from Bangkok to the Pa Sak River, it lands in front of the Sao Hai District Office.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c13",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After that, people often heard women crying, and so they named the nearby village Ban Sao Hai.",
+          "statement_id": "Sesudah itu orang sering mendengar tangisan perempuan, sehingga desa di dekatnya dinamai Ban Sao Hai.",
+          "quote": "After that, people often heard women crying. As a result, they named the nearby village Ban Sao Hai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c14",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sao Ronghai is one of Thailand's most popular nang mai shrines, located at Wat Sung, Tambon Sao Hai, within the Chao Mae Takhian Tong Shrine.",
+          "statement_id": "Sao Ronghai adalah salah satu kuil nang mai paling populer di Thailand, terletak di Wat Sung, Tambon Sao Hai, di dalam Kuil Chao Mae Takhian Tong.",
+          "quote": "Sao Ronghai is one of Thailand's most popular Nang Mai shrines. It is located at Wat Sung, Tambon Sao Hai, in the Chao Mae Takhian Tong Shrine.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c15",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nowadays, Thai people like to pay homage to large trees by offering Thai costumes, perfumes and make-up sets.",
+          "statement_id": "Kini orang Thailand gemar menghormati pohon besar dengan mempersembahkan pakaian Thai, parfum, dan perlengkapan rias.",
+          "quote": "Nowadays, Thai people like to pay homage to large trees by offering Thai costumes, perfumes, and make-up sets.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c16",
+          "source_id": "nang-mai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The list of films on the theme includes Takien (2003), Nymph (2009) and Takien The Haunted Tree (2010).",
+          "statement_id": "Daftar film bertema ini mencakup Takien (2003), Nymph (2009), dan Takien The Haunted Tree (2010).",
+          "quote": "พรายตะเคียน (1940) ตะเคียนคู่ (1990) Takien (2003) Nymph (2009) Takien The Haunted Tree (2010)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c17",
+          "source_id": "nang-mai-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Nang Ta-khian belong to a type of tree spirits or fairies known generically in Thai folklore as Nang Mai (นางไม้, \"Lady of the Tree\").",
+          "statement_id": "Nang Ta-khian tergolong roh atau peri pohon yang secara umum dalam cerita rakyat Thailand disebut Nang Mai (นางไม้, \"Perempuan Pohon\").",
+          "quote": "The Nang Ta-khian belong to a type of spirits or fairies related to trees and known generically in Thai folklore as Nang Mai (นางไม้, \"Lady of the Tree\").",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c18",
+          "source_id": "nang-mai-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Like all nang mai, Nang Ta-khian haunts the immediate surroundings of her tree and may also haunt a house with beams, stilts or pillars made of ta-khian wood.",
+          "statement_id": "Seperti semua nang mai, Nang Ta-khian mendiami lingkungan sekitar pohonnya dan dapat pula mendiami rumah yang bertiang atau berbalok kayu ta-khian.",
+          "quote": "Like all Nang Mai, Nang Ta-khian haunts the immediate environment of her tree and she may also haunt a house having beams, stilts or pillars made from Ta-khian wood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c19",
+          "source_id": "nang-mai-s4",
+          "host": "en.wikipedia.org",
+          "statement": "About the only place ta-khian is used as lumber is a Buddhist monastery, where the merit of the monks is considered enough to render the spirit harmless.",
+          "statement_id": "Satu-satunya tempat kayu ta-khian lazim dipakai sebagai bahan bangunan adalah biara Buddha, karena jasa (merit) para biksu dianggap cukup untuk membuat roh itu tidak berbahaya.",
+          "quote": "About the only place Ta-khian is used as lumber is in a Buddhist monastery, where the merit of the monks is considered sufficient to render the spirit harmless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c20",
+          "source_id": "nang-mai-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Traditionally, trees where a ta-khian spirit resides have lengths of coloured satin wrapped around the trunk.",
+          "statement_id": "Secara tradisional, pohon tempat ta-khian berdiam dililit lembaran kain satin berwarna pada batangnya.",
+          "quote": "Traditionally trees where Ta-khian resides have lengths of colored satin cloth wrapped around their trunk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c21",
+          "source_id": "nang-mai-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In present times, Nang Ta-khian is usually propitiated in order to be lucky in the lottery.",
+          "statement_id": "Pada masa kini, Nang Ta-khian biasanya dipuja agar mujur dalam undian.",
+          "quote": "In present times, Nang Ta-Khian is usually propitiated in order to be lucky in the lottery.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c22",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Duangwises classes the nang mai, nang tani and nang takhian among female spirits that may bring both benefit and harm.",
+          "statement_id": "Duangwises menggolongkan nang mai, nang tani, dan nang takhian ke dalam hantu perempuan yang dapat memberi manfaat sekaligus merugikan.",
+          "quote": "ผีเพศหญิงจะประกอบด้วย ผีปอบ ผีกระสือ ผีพราย นางกวัก ผีที่อาจให้ทั้งคุณและโทษ เช่น นางไม้ นางตานี และนางตะเคียน",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c23",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Local belief about the nang takhian holds that large trees are inhabited by a tree deity (rukkhadeva).",
+          "statement_id": "Kepercayaan lokal tentang nang takhian menyatakan bahwa pohon besar dihuni oleh dewa pohon (rukkhadeva).",
+          "quote": "ในกรณีของนางตะเคียนหรือเจ้าแม่ตะเคียน เป็นความเชื่อท้องถิ่นที่ชาวบ้านเชื่อ ว่าต้นไม้ใหญ่จะมีรุกขเทวดาอาศัยอยู่",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c24",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Sunthorn Phu's Nirat Mueang Klaeng, written in Buddhist Era 2349 in the reign of Rama I, mentions the nang takhian ghost along the canals.",
+          "statement_id": "Nirat Mueang Klaeng karya Sunthorn Phu, ditulis pada tahun Buddhis 2349 di masa Rama I, menyebut hantu nang takhian di sungai-sungai kecil.",
+          "quote": "ในนิราศเมืองแกลงของสุนทรภู่ แต่งในปี พ.ศ. 2349 ตรงกับสมัยรัชกาลที่ 1 มีการ กล่าวถึงผีนางตะเคียนในลาคลอง",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c25",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "According to Duangwises, the verse shows that in the early Rattanakosin period, worship of the nang takhian as a sacred and fearsome tree deity and nang mai was commonly seen in localities.",
+          "statement_id": "Menurut Duangwises, bait tersebut menunjukkan bahwa pada awal masa Rattanakosin pemujaan kepada nang takhian sebagai dewa pohon dan nang mai yang sakral sekaligus menakutkan lazim ditemui di daerah.",
+          "quote": "จากคาอธิบายในบทกลอนข้างต้น ชี้ให้เห็นว่าในช่วงต้นรัตนโกสินทร์ การกราบ ไหว้บูชาเจ้าแม่ตะเคียนในฐานะเป็นรุกขเทวดาและนางไม้ที่ศักดิ์สิทธิ์และมีความน่ากลัว เป็น เรื่องที่พบเห็นได้ทั่วไปในท้องถิ่น",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c26",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Duangwises cites Sombat Plainoi's observation that when a takhian tree is made into a boat, the nang mai comes to dwell in the boat and becomes the mae ya nang ruea of villagers' belief.",
+          "statement_id": "Duangwises mengutip pengamatan Sombat Plainoi: bila pohon takhian dijadikan perahu, nang mai berpindah mendiami perahu itu dan menjadi mae ya nang ruea menurut kepercayaan warga.",
+          "quote": "สมบัติ พลายน้อย (2543) ตั้งข้อสังเกตว่าในกรณีที่ต้นตะเคียนเปลี่ยนสภาพเป็น เรือ ทาให้นางไม้มาสิงในเรือจนเกิดเป็นแม่ยานางเรือ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c27",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Duangwises states that the standing of the nang takhian is still much debated, among tree deity, nang mai, ghost, mae ya and chao mae, and that these standings overlap.",
+          "statement_id": "Duangwises menyatakan kedudukan nang takhian masih banyak dipertanyakan: antara dewa pohon, nang mai, hantu, mae ya, dan chao mae, dan kedudukan-kedudukan itu tumpang tindih.",
+          "quote": "การทาความเข้าใจฐานะของนางตะเคียนยังเป็นเรื่องที่มีข้อสงสัยอยู่มาก ระหว่าง การเป็นรุกขเทวดา นางไม้ ผี แม่ย่า และเจ้าแม่ ฐานะเหล่านี้มีความเหลื่อมซ้อนกัน",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c28",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "According to Duangwises' abstract, ritual worship of the Ta-Khian Goddess in local communities shows an adaptive merging of modernity and superstition.",
+          "statement_id": "Menurut abstrak Duangwises, pemujaan ritual terhadap Dewi Ta-Khian di komunitas lokal menunjukkan perpaduan penyesuaian antara modernitas dan kepercayaan takhayul.",
+          "quote": "Moreover, the ritual worship of sacred Ta-Khian Goddess found in local communities indicates the adaptive consolidation in which modernity and superstition are merged.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c29",
+          "source_id": "nang-mai-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "In the story Duangwises cites, a takhian pillar from the Pa Sak River is believed to be the abode of the nang takhian; when it was not chosen as the main post of a royal palace, she grieved, wept and floated back to the Pa Sak River.",
+          "statement_id": "Menurut kisah yang dikutip Duangwises, tiang kayu takhian dari Sungai Pa Sak diyakini dihuni nang takhian; ketika tidak dipilih menjadi tiang utama istana raja, roh itu sedih, menangis, dan hanyut kembali ke Sungai Pa Sak.",
+          "quote": "โดยเชื่อว่า เสาต้นตะเคียนที่มาจากแม่น้าป่าสักเป็นที่สิงสถิตของนางตะเคียน แต่เมื่อไม่ถูกเลือกให้เป็น เสาเอกสาหรับสร้างวังของกษัตริย์ในสมัยรัตนโกสินทร์ ก็เกิดความเสียใจจึงร้องไห้และลอย ทวนน้ากลับไปที่แม่น้าป่าสักตามเดิม",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c30",
+          "source_id": "nang-mai-s3",
+          "host": "so02.tci-thaijo.org",
+          "statement": "Rattanaphon finds nang mai in three nirat poems, Nirat Mueang Klaeng, Khlong Nirat Chachoengsao and Nirat Prachinburi, namely the nang takhian and forest nang mai whom the poet does not name.",
+          "statement_id": "Rattanaphon menemukan nang mai dalam tiga nirat, yaitu Nirat Mueang Klaeng, Khlong Nirat Chachoengsao, dan Nirat Prachinburi, yakni nang takhian dan nang mai di hutan yang tidak disebut namanya oleh penyair.",
+          "quote": "นางไม้ พบใน นิราศเมืองแกลง โคลงนิราศฉะเชิงเทรา และ นิราศปราจีนบุรี ได้แก่ นางตะเคียนและนางไม้ในป่า โดยที่กวีไม่ได้ระบุชื่อ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c31",
+          "source_id": "nang-mai-s3",
+          "host": "so02.tci-thaijo.org",
+          "statement": "According to Rattanaphon, these depictions carry on the traditional belief in phi arak, the guardian spirits attached to trees, in Thai society.",
+          "statement_id": "Menurut Rattanaphon, penggambaran ini meneruskan kepercayaan tradisional tentang phi arak, yaitu roh penjaga yang menetap di pohon, dalam masyarakat Thailand.",
+          "quote": "สืบทอด คติความเชื่อดั้งเดิมเรื่องผีอารักษ์ ประเภทผีประจำต้นไม้ในสังคมไทย",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c32",
+          "source_id": "nang-mai-s5",
+          "host": "legacy.orst.go.th",
+          "statement": "According to the Office of the Royal Society of Thailand, the nang mai is a deva (thewada) who lives in large trees and builds a palace (wiman) in the tree that no one can see.",
+          "statement_id": "Menurut Kantor Royal Society Thailand, nang mai adalah dewa (thewada) yang berdiam di pohon-pohon besar dan membangun istana (wiman) di pohon yang tidak dapat dilihat siapa pun.",
+          "quote": "นางไม้เป็นเทวดาที่อยู่ประจำตามต้นไม้ใหญ่ ๆ นางไม้สร้างวิมานเป็นที่อยู่บนต้นไม้ ไม่มีใครสามารถแลเห็นวิมานนั้น",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c33",
+          "source_id": "nang-mai-s5",
+          "host": "legacy.orst.go.th",
+          "statement": "If the tree is cut down the nang mai loses her home, so she shows her power to make people dare not cut it, for example making the cutter fall ill with fever or go frenzied.",
+          "statement_id": "Bila pohonnya ditebang, nang mai kehilangan tempat tinggal, maka ia menunjukkan kekuatan agar orang tidak berani menebang, misalnya membuat penebang jatuh sakit demam atau menjadi gila.",
+          "quote": "แต่ถ้าใครตัดต้นไม้นั้น นางไม้ก็จะไม่มีที่อยู่ นางไม้จึงต้องแสดงฤทธิ์ทำให้คนไม่กล้าตัดต้นไม้ เช่น ทำให้คนที่ตัดต้นไม้ล้มเจ็บเป็นไข้หรือคลุ้มคลั่ง เป็นต้น",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c34",
+          "source_id": "nang-mai-s5",
+          "host": "legacy.orst.go.th",
+          "statement": "In the imagination of people of former times the nang mai is a beautiful young woman with shoulder-length hair, wearing a pleated cloth and a diagonal sash (sabai chiang).",
+          "statement_id": "Dalam bayangan orang zaman dahulu, nang mai adalah gadis cantik berambut panjang sebahu, berkain lipit, dan berselendang miring (sabai chiang).",
+          "quote": "ตามจินตนาการของคนแต่ก่อน นางไม้เป็นหญิงสาวสวย ผมยาวประบ่า นุ่งผ้าจีบ ห่มผ้าสไบเฉียง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-mai-c35",
+          "source_id": "nang-mai-s5",
+          "host": "legacy.orst.go.th",
+          "statement": "In Thai literature the rukkhadeva of the banyan tree is called Phra Sai and acts as a helper of the hero.",
+          "statement_id": "Dalam sastra Thai, rukkhadeva penghuni pohon beringin disebut Phra Sai dan berperan sebagai penolong tokoh pahlawan.",
+          "quote": "ในวรรณคดีไทยมักจะให้รุกขเทวดาซึ่งอยู่ประจำที่ต้นไทร เรียกว่า พระไทร มีบทบาทเป็นผู้ช่วยพระเอก",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -184,20 +626,15 @@
     },
     {
       "slug": "nini-pelet",
-      "file": "batch-017.md",
+      "file": "batch-017-fix-1.md",
+      "entry_sha256": "b9bea44d623506be870dbd2d1e92f2c040937eaa81b049586f52cd9fa8cb7bb0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 23,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nini-pelet-c01",
@@ -223,8 +660,8 @@
           "id": "nini-pelet-c03",
           "source_id": "nini-pelet-s1",
           "host": "en.wikipedia.org",
-          "statement": "Nini Pelet stole the sacred Kitab Mantra Asmara from the sage Ki Buyut Mangun Tapa; it held the Jaran Goyang spell, believed in Indonesian occultism to cause uncontrollable love, which she used on young men and officials to keep her youth.",
-          "statement_id": "Nini Pelet mencuri kitab sakral Kitab Mantra Asmara dari resi Ki Buyut Mangun Tapa; kitab itu memuat mantra Jaran Goyang, yang dalam okultisme Indonesia dipercaya membuat orang jatuh cinta tak terkendali, dan ia memakainya untuk memikat pemuda dan pejabat demi kemudaannya.",
+          "statement": "Nini Pelet is said to have stolen the sacred Kitab Mantra Asmara from the sage Ki Buyut Mangun Tapa; it contained powerful spells, notably Jaran Goyang, which in Indonesian occultism is believed to make a person fall uncontrollably in love with the caster.",
+          "statement_id": "Nini Pelet konon mencuri naskah suci Kitab Mantra Asmara dari resi Ki Buyut Mangun Tapa; kitab itu memuat mantra kuat, terutama Jaran Goyang, yang dalam okultisme Indonesia dikenal dapat membuat seseorang jatuh cinta tak terkendali pada pengucapnya.",
           "quote": "Nini Pelet is said to have stolen a sacred manuscript from him called the Kitab Mantra Asmara (The Book of Love Mantras). This book contained powerful spells, most notably the Jaran Goyang. In Indonesian occultism, this spell is legendary for its supposed ability to make a person fall uncontrollably in love with the caster.",
           "context": "traditional-belief",
           "status": "exact"
@@ -243,8 +680,8 @@
           "id": "nini-pelet-c05",
           "source_id": "nini-pelet-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its popularity was driven by the radio drama Misteri Nini Pelet, widely popular in the 1980s and 1990s; her name is considered the origin of the Indonesian word pelet for love charms.",
-          "statement_id": "Kepopuleran legenda ini terutama didorong sandiwara radio Misteri Nini Pelet yang sangat populer pada 1980-an dan 1990-an; nama Nini Pelet dianggap asal kata pelet, ilmu pengasih dalam bahasa Indonesia.",
+          "statement": "The legend's prominence was largely driven by the radio drama Misteri Nini Pelet, which was widely popular throughout the 1980s and 1990s.",
+          "statement_id": "Popularitas legenda ini sebagian besar didorong oleh sandiwara radio Misteri Nini Pelet yang sangat populer sepanjang 1980-an dan 1990-an.",
           "quote": "This prominence was largely driven by the radio drama Misteri Nini Pelet, which enjoyed widespread popularity throughout the 1980s and 1990s.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -258,26 +695,191 @@
           "quote": "the actress **Leily Sagita** became the most recognizable face of the character, achieving fame for her iconic portrayal of the sorceress’s malevolent laugh.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c07",
+          "source_id": "nini-pelet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nini Pelet reportedly used these enchantments to manipulate young men and officials to maintain her youth.",
+          "statement_id": "Nini Pelet konon memakai mantra itu untuk memanipulasi pemuda dan pejabat demi mempertahankan kemudaannya.",
+          "quote": "Nini Pelet reportedly used these enchantments to manipulate young men and officials to maintain her youth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c08",
+          "source_id": "nini-pelet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nini Pelet is characterized by her immense mystical strength and martial arts prowess.",
+          "statement_id": "Nini Pelet dicirikan oleh kekuatan mistis yang besar dan kemahiran bela diri.",
+          "quote": "Nini Pelet is characterized by her immense mystical strength and martial arts prowess.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c09",
+          "source_id": "nini-pelet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend of Nini Pelet became a significant fixture of Indonesian popular culture during the 1990s.",
+          "statement_id": "Legenda Nini Pelet menjadi bagian penting budaya populer Indonesia pada 1990-an.",
+          "quote": "The legend of Nini Pelet became a significant fixture of Indonesian popular culture during the 1990s.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c10",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Misteri Nini Pelet is a very well-known folk tale among the communities living around Mount Ceremai.",
+          "statement_id": "Misteri Nini Pelet adalah kisah atau cerita rakyat yang sangat melegenda bagi masyarakat di sekitar Gunung Ceremai.",
+          "quote": "Misteri Nini Pelet, adalah sebuah kisah atau cerita rakyat yang sangat melegenda bagi masyarakat yang bermukim di sekitar Gunung Ceremai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c11",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "According to legend handed down through generations, the summit of Mount Ceremai is the throne of Nini Pelet's kingdom; she is said to come from the \"black\" (dark-arts) school.",
+          "statement_id": "Menurut legenda turun-temurun, puncak Gunung Ceremai adalah singgasana kerajaan Nini Pelet, tokoh yang konon berasal dari aliran hitam.",
+          "quote": "puncak Gunung Ceremai adalah singgasana dari kerajaan Nini Pelet. Nini Pelet sendiri adalah seorang tokoh yang konon berasal dari aliran hitam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c12",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Thanks to her extraordinary power, Nini Pelet seized the heirloom book Mantra Asmara created by the mighty hermit Ki Buyut Mangun Tapa.",
+          "statement_id": "Berkat kesaktiannya, Nini Pelet berhasil merebut kitab pusaka Mantra Asmara ciptaan petapa sakti Ki Buyut Mangun Tapa.",
+          "quote": "Karena memiliki kesaktian yang luar biasa hebat, Nini Pelet kemudian berhasil merebut sebuah kitab pusaka ampuh Mantra Asmara ciptaan seorang petapa sakti bernama Ki Buyut Mangun Tapa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c13",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "The Kitab Mantra Asmara contains several powers, among them the Jaran Goyang spell, very potent for winning the heart of the opposite sex.",
+          "statement_id": "Kitab Mantra Asmara memuat beberapa ilmu kesaktian, antara lain ajian Jaran Goyang yang sangat ampuh memikat hati lawan jenis.",
+          "quote": "Kitab Mantra Asmara sendiri berisi beberapa ilmu kesaktian yang diantaranya adalah ajian Jaran Goyang, yang sangat ampuh untuk memikat hati lawan jenis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c14",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Ki Buyut Mangun Tapa and his fellow disciples sent their chief pupil, Restu Singgih, to take the heirloom book back.",
+          "statement_id": "Ki Buyut Mangun Tapa dan saudara seperguruannya mengutus murid utama mereka, Restu Singgih, untuk merebut kembali kitab pusaka itu.",
+          "quote": "Ki Buyut Mangun Tapa dan saudara seperguruannya kemudian mengutus murid utama mereka yakni Restu Singgih untuk merebut kembali kitab pusaka tersebut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c15",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Some residents around Linggarjati believe in the existence of Nini Pelet's tomb or petilasan (sacred trace).",
+          "statement_id": "Sebagian warga di sekitar Linggarjati meyakini adanya makam atau petilasan Nini Pelet.",
+          "quote": "Sebagian masyarakat yang bermukim di sekitar Linggarjati bahkan meyakini keberadaan makam atau petilasan Nini Pelet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c16",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "It is said that the spirits of mighty warriors also dwell on Mount Ceremai, including Ki Rempah Mayit, said to be Nini Pelet's husband.",
+          "statement_id": "Konon di Gunung Ceremai juga bersemayam arwah para pendekar sakti, termasuk Ki Rempah Mayit yang disebut suami Nini Pelet.",
+          "quote": "Selain Nini Pelet, konon di gunung Ceremai juga bersemayam arwah para pendekar sakti diantaranya Ki Rempah Mayit yang tak lain adalah suami dari Nini Pelet sendiri.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c17",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "According to budaya-indonesia.org, a shape-shifting tiger said to be Ki Buyut Mangun Tapa's pet often appears at his tomb after midnight on Jumat Kliwon and Selasa Legi nights.",
+          "statement_id": "Menurut budaya-indonesia.org, harimau jadi-jadian yang konon peliharaan Ki Buyut Mangun Tapa sering muncul di makamnya pada malam Jumat Kliwon dan Selasa Legi selepas tengah malam.",
+          "quote": "sering muncul harimau jadi-jadian atau harimau siluman di makam Ki Buyut Mangun Tapa saat tengah malam. Macan siluman yang konon adalah peliharaan Ki Buyut ini sering muncul pada malam Jumat Kliwon dan Selasa Legi selepas tengah malam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c18",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Although modern society regards it as only a legend, the story of Nini Pelet and the Jaran Goyang spell is believed to have happened in the past.",
+          "statement_id": "Meski masyarakat modern menganggapnya legenda, kisah Nini Pelet dan ajian Jaran Goyang diyakini pernah terjadi di masa lalu.",
+          "quote": "Meski dianggap hanya sebuah legenda oleh masyarakat modern, namun kisah Misteri Nini Pelet dan Ajian Jarang Goyang sendiri diyakini pernah ada dan terjadi di masa lalu.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c19",
+          "source_id": "nini-pelet-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Nini Pelet's popularity almost matched that of Mak Lampir or Brama Kumbara in the Saur Sepuh series.",
+          "statement_id": "Popularitas Nini Pelet hampir menyamai Mak Lampir atau Brama Kumbara dalam serial Saur Sepuh.",
+          "quote": "Popularitas Nini Pelet bahkan hampir menyamai Mak Lampir atau Brama Kumbara dalam serial Saur Sepuh.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c20",
+          "source_id": "nini-pelet-s3",
+          "host": "www.liputan6.com",
+          "statement": "In the 1980s a radio drama series about Nini Pelet of Mount Ciremai appeared, and her story was also made into a television series titled Dendam Nyi Pelet.",
+          "statement_id": "Pada 1980-an muncul serial sandiwara radio tentang Nini Pelet dari Gunung Ciremai, dan kisahnya pernah menjadi serial televisi berjudul Dendam Nyi Pelet.",
+          "quote": "Pada 1980-an, muncul serial sandiwara radio yang mengangkat cerita Nini Pelet dari Gunung Ciremai. Kisah tentang Nini Pelet bahkan pernah menjadi serial televisi dengan judul Dendam Nyi Pelet.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c21",
+          "source_id": "nini-pelet-s3",
+          "host": "www.liputan6.com",
+          "statement": "Administratively, Mount Ciremai lies in three regencies: Cirebon, Kuningan and Majalengka.",
+          "statement_id": "Gunung Ciremai secara administratif berada di tiga wilayah: Kabupaten Cirebon, Kuningan, dan Majalengka.",
+          "quote": "Gunung Ciremai di Jawa Barat secara administratif berada di tiga wilayah, yakni Kabupaten Cirebon, Kuningan, dan Majalengka.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c22",
+          "source_id": "nini-pelet-s4",
+          "host": "www.merdeka.com",
+          "statement": "Mount Ceremai, 3,078 metres above sea level, is recorded as the highest mountain in West Java.",
+          "statement_id": "Gunung Ceremai setinggi 3.078 meter di atas permukaan laut tercatat sebagai gunung tertinggi di Jawa Barat.",
+          "quote": "Gunung Ceremai dengan ketinggian 3.078 meter di atas permukaan laut, itu juga tercatat sebagai gunung tertinggi di Jawa Barat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nini-pelet-c23",
+          "source_id": "nini-pelet-s4",
+          "host": "www.merdeka.com",
+          "statement": "The story of Nini Pelet and Ki Buyut Mangun Tapa became popular when a radio drama series about Nini Pelet of Mount Ceremai appeared in the 1980s.",
+          "statement_id": "Kisah Nini Pelet dan Ki Buyut Mangun Tapa menjadi populer ketika muncul serial sandiwara radio tentang Nini Pelet dari Gunung Ceremai pada tahun 80-an.",
+          "quote": "Bahkan cerita Nini Pelet dan Ki Buyut Mangun Tapa ini menjadi popular ketika muncul serial sandiwara radio yang mengangkat cerita tentang Nini Pelet dari Gunung Ceremai pada tahun 80-an silam.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "pop-ghost",
-      "file": "batch-017.md",
+      "file": "batch-017-fix-1.md",
+      "entry_sha256": "5840ec1154ec06838e97303f169b9482523577670d95b4b56d0e1afd1ec006b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 44,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pop-ghost-c01",
@@ -303,8 +905,8 @@
           "id": "pop-ghost-c03",
           "source_id": "pop-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "Village legend says the ghost lives in a sorceress and leaves while she sleeps; before she dies it must find a new body, which receives it by swallowing her saliva; when it haunts someone, it eats their intestines as they sleep.",
-          "statement_id": "Menurut legenda desa, hantu ini tinggal di tubuh penyihir dan keluar saat ia tidur; sebelum penyihir mati, roh itu harus menemukan tubuh baru, yang menerimanya dengan menelan air liur si penyihir; bila merasuki seseorang, pop memakan ususnya saat tidur.",
+          "statement": "Village legends say the ghost lives inside a sorceress and leaves her body during sleep; before the witch can die, the spirit must find a body into which it is transmitted by consuming some saliva from the old sorceress.",
+          "statement_id": "Legenda desa menyebut hantu ini hidup di dalam tubuh seorang penyihir dan keluar saat ia tidur; sebelum penyihir itu mati, roh itu harus menemukan tubuh yang menerimanya dengan menelan air liur si penyihir tua.",
           "quote": "Village legends say that this ghost lives inside a sorceress and leaves her body during sleep. Before the witch can die, the spirit has to find a body into which the Pop will be transmitted by consuming some saliva from the old sorceress.",
           "context": "traditional-belief",
           "status": "exact"
@@ -323,8 +925,8 @@
           "id": "pop-ghost-c05",
           "source_id": "pop-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "Especially among the Isan, a pop is believed to take animal forms, most often a black dog; Thai folklore distinguishes ordinary, hereditary and face-switching pops, with Ha Gom as their lord.",
-          "statement_id": "Terutama di kalangan orang Isan, pop dipercaya dapat berwujud berbagai hewan, paling sering anjing hitam; cerita rakyat Thai membedakan pop biasa, pop turunan, dan pop berganti wajah, dengan Ha Gom sebagai penguasanya.",
+          "statement": "Especially among the Isan people, a pop is believed to be able to take the form of various animals; one of the most common is a black dog.",
+          "statement_id": "Khususnya di kalangan orang Isan, dipercaya pop dapat berwujud berbagai hewan; salah satu yang paling umum adalah anjing hitam.",
           "quote": "In addition, especially among Isan people, it is believed that a Pop can take on the form of various animals. One of the most common is a black dog.",
           "context": "traditional-belief",
           "status": "exact"
@@ -343,10 +945,380 @@
           "id": "pop-ghost-c07",
           "source_id": "pop-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "In November 1892, under King Rama V, an incident in Uttaradit concerned an old Phuan man named Ta Puang, rumoured to be a pop after three young women died mysteriously.",
-          "statement_id": "Pada November 1892, masa Raja Rama V, tercatat peristiwa di Uttaradit tentang seorang tua keturunan Phuan bernama Ta Puang yang dikabarkan sebagai pop setelah tiga perempuan muda meninggal misterius.",
+          "statement": "In November 1892, during the reign of King Rama V, an incident was recorded in what is now Uttaradit town, concerning an old Laotian man of Phuan descent known as Ta Puang.",
+          "statement_id": "Pada November 1892, di masa Raja Rama V, tercatat sebuah kejadian di wilayah yang kini menjadi kota Uttaradit, menyangkut seorang lelaki tua keturunan Phuan asal Laos bernama Ta Puang.",
           "quote": "In November 1892, during the reign of King Rama V, a notable incident was recorded in what is now Uttaradit town. It concerned an old Laotian man of Phuan descent, known as Ta Puang",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c08",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If these ghosts succeed in haunting someone, they eat that person's intestines while sleeping.",
+          "statement_id": "Bila hantu ini berhasil merasuki seseorang, ia memakan usus orang itu saat tidur.",
+          "quote": "If these ghosts succeed in haunting someone, they will eat that person's intestines while sleeping.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c09",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pop Thammada (\"ordinary pop\") is a person possessed by a pop spirit; the person and the pop are one and the same, and when the host dies the pop dies too, so the curse does not continue.",
+          "statement_id": "Pop Thammada (\"pop biasa\") adalah orang yang dirasuki roh pop; orang dan pop-nya satu dan sama, dan ketika inang mati, pop-nya ikut mati sehingga kutukan tidak berlanjut.",
+          "quote": "Pop Thammada (ปอบธรรมดา ; 'Ordinary Pop'): This is a person possessed by a Pop spirit. In this case, the person and the Pop are essentially one and the same. When the host dies, the Pop within them dies as well, and the curse does not continue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c10",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pop Chuea (\"hereditary pop\"): in some families the pop is believed to pass from parent to child like a bloodline, so children may inherit the spirit after the parents die.",
+          "statement_id": "Pop Chuea (\"pop keturunan\"): di sebagian keluarga pop dipercaya diwariskan dari orang tua ke anak seperti garis darah, sehingga anak dapat mewarisi roh itu setelah orang tuanya meninggal.",
+          "quote": "In some families, Pop is believed to be passed down from parent to child like a bloodline. If the parents are Pop, their children may inherit the spirit after the parents’ death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c11",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pop Laek Na (\"face-switching pop\") is a deceitful, cunning variant: when it possesses someone it refuses to reveal its true master if questioned and often falsely accuses an innocent person.",
+          "statement_id": "Pop Laek Na (\"pop penukar wajah\") adalah varian licik: ketika merasuki seseorang ia menolak menyebut tuannya yang sebenarnya jika ditanya dan sering menuduh orang tak bersalah.",
+          "quote": "This is a deceitful and cunning variant. When it possesses someone, it refuses to reveal its true master if questioned—often falsely accusing an innocent person instead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c12",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ha Gom is considered the supreme entity, lord of all pops, commanding lesser pop spirits and even other kinds of ghosts as subordinates.",
+          "statement_id": "Ha Gom dianggap sosok tertinggi, penguasa semua pop, yang memerintah pop lebih rendah bahkan jenis hantu lain sebagai bawahannya.",
+          "quote": "Ha Gom is considered the supreme entity, the lord of all Pops. It commands lesser Pop spirits and even other types of ghosts as its subordinates.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c13",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike ordinary pops, Ha Gom is not afraid of sunlight, can shapeshift into a human or animal and blend in by day, and is unaffected by sacred objects, monks or holy amulets.",
+          "statement_id": "Tidak seperti pop biasa, Ha Gom tidak takut sinar matahari, dapat berubah menjadi manusia atau hewan dan berbaur di siang hari, serta tidak terpengaruh benda suci, biksu, atau jimat.",
+          "quote": "Unlike ordinary Pop, Ha Gom is not afraid of sunlight. It can shapeshift into a human or an animal and blend in among people during the day without arousing suspicion. It is unaffected by sacred objects, monks, or holy amulets.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c14",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the technical description, the pop is described as a social process that rejects people alienated from society; the accused pop is expelled from the village community.",
+          "statement_id": "Dalam deskripsi teknis, pop disebut sebagai proses sosial yang menyingkirkan orang yang terasing dari masyarakat; orang yang dituduh pop akan diusir dari komunitas desa.",
+          "quote": "In the technical description, it is described that 'Pop is a social process'. That is to deny people who are alienated from society or the community. The accused is a Pop who will be expelled from the village community.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c15",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Not long after Ta Puang arrived, three young local women died in quick succession under mysterious circumstances, and rumours spread that he was in fact a pop in disguise.",
+          "statement_id": "Tak lama setelah Ta Puang tiba, tiga perempuan muda setempat meninggal berturut-turut dalam keadaan misterius, dan desas-desus menyebarkan bahwa ia sebenarnya pop yang menyamar.",
+          "quote": "Not long after his arrival, three young local women died under mysterious circumstances in quick succession. Rumors soon spread that Ta Puang was, in fact, a Pop in disguise.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c16",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another famous case occurred in 1908 at Ban Songyae (now Yasothon province): pop was said to have possessed members of five families, and the situation was brought under control after two Catholic priests, Father Desaval and Father Ambrosio, performed an exorcism.",
+          "statement_id": "Kasus terkenal lain terjadi pada 1908 di Ban Songyae (kini Provinsi Yasothon): pop disebut merasuki anggota lima keluarga, dan keadaan terkendali setelah dua pastor Katolik, Father Desaval dan Father Ambrosio, melakukan eksorsisme.",
+          "quote": "Another famous case occurred in 1908 at Ban Songyae, in what is now Yasothon province, home to St. Michael's Church, the largest wooden church in Thailand. It was said that Pop had possessed members of five families in the village. The situation was finally brought under control when two Catholic priests, Father Desaval and Father Ambrosio, performed an exorcism.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c17",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Wikipedia note: although many villagers believed the priests performed an exorcism, historical accounts clarify that the ceremony consisted only of prayers and blessings.",
+          "statement_id": "Catatan Wikipedia: meski banyak warga mengira para pastor melakukan eksorsisme, catatan sejarah menjelaskan bahwa upacara itu hanya berupa doa dan pemberkatan.",
+          "quote": "Although many villagers believed that the priests performed an exorcism, historical accounts clarify that the ceremony consisted only of prayers and blessings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c18",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1996 Thai Rath journalists found that Yai Sao, whom Bang Sue residents suspected of being a pop, was only an elderly, stooped woman with limited mobility.",
+          "statement_id": "Pada 1996 wartawan Thai Rath menemukan bahwa Yai Sao, perempuan yang dicurigai warga Bang Sue sebagai pop, hanyalah perempuan tua yang bungkuk dengan mobilitas terbatas.",
+          "quote": "When Thai Rath journalists investigated, they found that she was in fact only an elderly, stooped woman with limited mobility",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c19",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2007, after four villagers in Sam Chai district, Kalasin province, died suddenly, some 1000 residents raised some 35,000 baht for an exorcism of pop.",
+          "statement_id": "Pada 2007, setelah empat warga Distrik Sam Chai, Provinsi Kalasin, meninggal mendadak, sekitar 1000 penduduk mengumpulkan sekitar 35.000 baht untuk eksorsisme pop.",
+          "quote": "In 2007, following the mysterious and sudden deaths of four villagers in Kalasin province's Sam Chai district, some 1000 residents raised some 35,000 baht for an exorcism of Pop",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c20",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 2002 scare caused the price of nard (หนาด), a medicinal plant whose leaves Thais believe ward off ghosts, to rise sharply.",
+          "statement_id": "Kehebohan pada 2002 membuat harga nard (หนาด), tanaman obat yang oleh orang Thai dipercaya daunnya menolak hantu, naik tajam.",
+          "quote": "This event also caused the price of nard (หนาด), a medicinal plant that Thais believe its leaves can ward off ghosts",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c21",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most movies about pop are comedy horrors.",
+          "statement_id": "Sebagian besar film tentang pop adalah horor komedi.",
+          "quote": "Most movies about Pop are comedy horrors.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c22",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 1990 film Krasue Fat Pop stars Chutima Naiyana; in it the krasue fights the pop, judged by villagers to be a more malevolent spirit than the krasue.",
+          "statement_id": "Film Krasue Fat Pop (1990) dibintangi Chutima Naiyana; di dalamnya krasue melawan pop yang oleh warga dinilai lebih jahat daripada krasue.",
+          "quote": "Krasue Fat Pop Thai: กระสือฟัดปอบ (1990) with Chutima Naiyana, in which Krasue fights against Pop, judged to be a more malevolent spirit than Krasue by the villagers.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c23",
+          "source_id": "pop-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2023 Tee Yod (\"Death Whisperer\") became the fastest Thai film of the year to gross 100 million baht, and its sequel Tee Yod 2 the following year became the highest-grossing Thai film of the year.",
+          "statement_id": "Pada 2023 Tee Yod (\"Death Whisperer\") menjadi film Thai tercepat yang meraih 100 juta baht tahun itu, dan sekuelnya Tee Yod 2 tahun berikutnya menjadi film Thai terlaris tahun itu.",
+          "quote": "In 2023, Tee Yod, \"Death Whisperer\" became the fastest Thai film to gross 100 million baht of the year. And its seque, Tee Yod 2, the following year, it became the highest grossing Thai film of the year.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c24",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "According to Ancuta, phi pop and phi krasue are notoriously hard for foreign scholars to describe; they defy Western terms for ghosts, spirits, monsters and demons yet show features of all of them.",
+          "statement_id": "Menurut Ancuta, bagi sarjana asing phi pop dan phi krasue sulit dijelaskan; keduanya menyalahi istilah Barat tentang hantu, roh, monster, dan iblis, tetapi menampilkan ciri semuanya.",
+          "quote": "For foreign scholars, phi pop and phi krasue are notoriously difficult to describe. They certainly defy Western terminology of ghosts, spirits, monsters and demons, but at the same time, exhibit features characteristic of all the above.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c25",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Phi pop and phi krasue are known to enter the living body of a host, predominantly a woman who dabbled in black magic, inherited the \"curse\" from ancestors or was infected by swallowing another creature's saliva, and reconstitute that body for their purposes.",
+          "statement_id": "Phi pop dan phi krasue dikenal memasuki tubuh inang yang hidup, umumnya perempuan yang bermain ilmu hitam, mewarisi \"kutukan\" dari leluhur, atau tertular dengan menelan air liur makhluk lain, lalu membentuk ulang tubuh itu sesuai tujuannya.",
+          "quote": "Both phi pop and phi krasue are known to enter the living body of a host, predominantly a woman who dabbled in black magic, inherited the “curse” from her ancestors, or became infected by swallowing another creature’s saliva, and reconstitute this body for its purposes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c26",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Both are commonly identified as \"evil spirits\" a person gets possessed by or turns into as punishment for breaking taboos associated with malevolent forms of magic.",
+          "statement_id": "Keduanya lazim disebut \"roh jahat\" yang merasuki atau menjadi bagian dari seseorang sebagai hukuman karena melanggar pantangan yang terkait bentuk-bentuk sihir jahat.",
+          "quote": "They are both commonly identified as “evil spirits” a person gets possessed by, or turns into, as punishment for “the breaking of taboos associated with malevolent forms of magic”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c27",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "According to Ancuta, the phi pop moves on to inhabit the children (father to son, mother to daughter) after its original host dies of old age.",
+          "statement_id": "Menurut Ancuta, phi pop berpindah mendiami anak-anak (dari ayah ke putra, dari ibu ke putri) setelah inang aslinya meninggal karena usia tua.",
+          "quote": "phi pop moves on to inhabit the children (from father to son, from mother to daughter) after its original host dies of old age",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c28",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "The phi pop can also originate in auspicious objects, from which it transfers to humans.",
+          "statement_id": "Phi pop juga dapat berasal dari benda-benda bertuah, lalu berpindah ke manusia.",
+          "quote": "Phi pop can additionally originate in auspicious objects, from which they transfer to humans",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c29",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "The phi pop is often thought to be shapeless and can possess men and women alike.",
+          "statement_id": "Phi pop sering dianggap tak berbentuk dan dapat merasuki laki-laki maupun perempuan.",
+          "quote": "though phi pop is often thought to be shapeless and can possess men and women alike",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c30",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "The pop's consumption of its host from within manifests as physical or mental illness.",
+          "statement_id": "Pop yang memakan inangnya dari dalam tampak sebagai penyakit fisik atau mental.",
+          "quote": "Phi pop’s consumption of its host from within similarly manifests itself as physical or mental illness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c31",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "The phi pop can also be sent out deliberately to harm others.",
+          "statement_id": "Phi pop juga dapat sengaja dikirim untuk mencelakai orang lain.",
+          "quote": "just as it can be sent out with a deliberate intention to harm others",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c32",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "A phi pop can sometimes be exorcised by incantations or, more drastically, beaten out of the afflicted person with a magic rod, after which that person lives normally again; the originating hosts are usually driven into exile.",
+          "statement_id": "Phi pop kadang dapat diusir dengan mantra atau, lebih keras, dipukul keluar dari orang yang diserangnya dengan tongkat sakti, lalu orang itu hidup normal kembali; inang asalnya biasanya diasingkan.",
+          "quote": "phi pop can sometimes be exorcised by incantations or, more drastically, beaten out of the afflicted person with a magic rod, after which the person continues to live a regular life",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c33",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Like many Thai animistic beings, the phi pop has traditionally been associated with the wilderness, from which it moved into bordering villages to live among humans.",
+          "statement_id": "Seperti banyak makhluk animistik Thai, phi pop secara tradisional dikaitkan dengan hutan belantara, lalu pindah ke desa-desa perbatasan untuk hidup di antara manusia.",
+          "quote": "Like many Thai animistic beings, phi pop and phi krasue have traditionally been associated with the wilderness, from which they moved into the bordering villages to live among humans.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c34",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Phi pop tend to live as humans by day and engage in supernatural activities by night.",
+          "statement_id": "Phi pop cenderung hidup sebagai manusia di siang hari dan melakukan kegiatan gaib di malam hari.",
+          "quote": "Phi pop and phi krasue tend to live as humans by day ... and engage in supernatural activities by night",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c35",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "The Thai word phi is most commonly translated as \"spirits\" but can also mean ghosts (dead humans), demons (evil immaterial spirits) or monsters (corporeal creatures).",
+          "statement_id": "Kata Thai phi biasanya diterjemahkan \"roh\" tetapi dapat juga berarti hantu (manusia mati), iblis (roh jahat tak berjasad), atau monster (makhluk berjasad).",
+          "quote": "Most commonly translated as “spirits,” the Thai word phi can also refer to ghosts (i.e. dead humans), demons (i.e. evil immaterial spirits), or monsters (corporeal creatures).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c36",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "In Lower Northeastern Thailand the terms phi pop, phi krasue and phi thamop are often used interchangeably for the same creature, while elsewhere they are distinct beings with their own characteristics.",
+          "statement_id": "Di Thailand timur laut bagian bawah, phi pop, phi krasue, dan phi thamop sering dipakai bergantian untuk makhluk yang sama; di daerah lain ketiganya makhluk berbeda dengan ciri sendiri.",
+          "quote": "In Lower Northeastern Thailand, these three terms are often used interchangeably to refer to the same creature that signifies a witch-like phi (2016, p. 154), while in other regions phi krasue, phi pop and phi thamop are distinct beings with unique characteristics.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c37",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Ancuta discusses Paul Spurrier's film P (2005), which portrays the phi pop's adaptation to city life.",
+          "statement_id": "Ancuta membahas film P (2005) karya Paul Spurrier, yang menampilkan adaptasi phi pop pada kehidupan kota.",
+          "quote": "This paper discusses two such cases, Paul Spurrier’s film P (2005), and Yuthlert Sippapak’s Krasue Valentine (2006), which portray phi pop and phi krasue’s adaptation to city life.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c38",
+          "source_id": "pop-ghost-s2",
+          "host": "journals.jcu.edu.au",
+          "statement": "Creatures like the phi pop have been branded uncivilised superstition and ridiculed in oddball comedies.",
+          "statement_id": "Makhluk seperti phi pop dicap takhayul tak beradab dan ditertawakan dalam komedi aneh.",
+          "quote": "Creatures like phi pop and phi krasue have been branded as uncivilised superstition and ridiculed through their unflattering portrayals in oddball comedies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c39",
+          "source_id": "pop-ghost-s3",
+          "host": "www.thaipbs.or.th",
+          "statement": "Thai PBS: belief in the \"phi pop\" is often raised whenever a series of deaths occurs in rural Isan villages.",
+          "statement_id": "Thai PBS: kepercayaan pada \"phi pop\" sering dibicarakan setiap kali terjadi kematian beruntun di desa-desa pedesaan Isan.",
+          "quote": "ถอดรหัสความเชื่อเรื่อง \"ผีปอบ\" ซึ่งมักจะถูกหยิบขึ้นมาพูดถึงทุกครั้ง ที่มีปรากฏการณ์ตายติดต่อกัน ของคนในหมู่บ้านชนบทภาคอีสาน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c40",
+          "source_id": "pop-ghost-s3",
+          "host": "www.thaipbs.or.th",
+          "statement": "In early November 2017 the entrances to Ban Na Bong in Kalasin were temporarily closed for a ceremony to drive out the phi pop according to Isan belief.",
+          "statement_id": "Pada awal November 2017 pintu masuk Ban Na Bong, Kalasin, ditutup sementara untuk upacara mengusir phi pop menurut kepercayaan orang Isan.",
+          "quote": "ต้นเดือนพฤศจิกายน ทางเข้าออก \"บ้านนาบง\" ถูกปิดตายชั่วคราว เพื่อทำ \"พิธีไล่ผีปอบ\" ตามความเชื่อของคนอีสาน",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c41",
+          "source_id": "pop-ghost-s3",
+          "host": "www.thaipbs.or.th",
+          "statement": "The Ban Na Bong exorcism differed from the past: no one was identified as the pop and no violence was used.",
+          "statement_id": "Upacara pengusiran phi pop di Ban Na Bong berbeda dari masa lalu: tidak ada penunjukan orang yang menjadi pop dan tidak ada kekerasan.",
+          "quote": "ที่บ้านนาบง แตกต่างจากพิธีกรรมในอดีต คือไม่มีการชี้ชัด หรือระบุตัวคนที่เป็นปอบ ไม่มีการใช้ความรุนแรง",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c42",
+          "source_id": "pop-ghost-s3",
+          "host": "www.thaipbs.or.th",
+          "statement": "At the village entrance, woven kha grass is strung up, believed to protect against ghosts or evil things entering the village.",
+          "statement_id": "Di pintu masuk desa terpasang rumput kha anyam (ya kha thak) yang dipercaya melindungi dari hantu atau hal buruk yang masuk ke desa.",
+          "quote": "ทางเข้าหมู่บ้าน ยังมี \"หญ้าคาถัก\" ขึงไว้ ตามความเชื่อที่ว่า จะสามารถป้องกันผี หรือสิ่งเลวร้ายที่จะเข้ามายังหมู่บ้าน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c43",
+          "source_id": "pop-ghost-s4",
+          "host": "www.thaipbs.or.th",
+          "statement": "Thai PBS: the phi pop is a kind of ghost in local belief in Thailand, especially in Isan, that eats raw, fresh food.",
+          "statement_id": "Thai PBS: phi pop adalah sejenis hantu dalam kepercayaan masyarakat setempat di Thailand, terutama di Isan, yang makan makanan mentah dan segar.",
+          "quote": "ผีปอบ เป็นผีจำพวกหนึ่ง อยู่ในความเชื่อคนท้องถิ่นในประเทศไทย โดยเฉพาะในภาคอีสาน ลักษณะเป็นผีที่กินของดิบ ๆ สด ๆ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pop-ghost-c44",
+          "source_id": "pop-ghost-s4",
+          "host": "www.thaipbs.or.th",
+          "statement": "The phi pop usually originates from someone fond of incantations or occult arts who cannot keep them or breaks a taboo and becomes a phi pop; it can be female or male.",
+          "statement_id": "Asal phi pop biasanya orang yang gemar bermain mantra atau ilmu gaib tetapi tidak dapat menjaganya atau melanggar pantangan hingga menjadi phi pop; phi pop dapat berjenis kelamin perempuan atau laki-laki.",
+          "quote": "โดยที่มาของผีปอบ มักเป็นผู้ที่ชอบเล่นคาถาอาคม หรือคุณไสย แต่รักษาคาถาอาคมที่มีอยู่กับตัวไม่ได้ หรือกระทำผิดข้อห้าม จนต้องกลายเป็นผีปอบ ผีปอบเป็นได้ทั้งหญิงและชาย",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -354,20 +1326,15 @@
     },
     {
       "slug": "pugot",
-      "file": "batch-017.md",
+      "file": "batch-017-fix-1.md",
+      "entry_sha256": "b671ed2da09eda2f597ef5e33e59c84847ebe37ad41f8448320d5b8bff1cc6b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 25,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pugot-c01",
@@ -393,8 +1360,8 @@
           "id": "pugot-c03",
           "source_id": "pugot-s1",
           "host": "en.wikipedia.org",
-          "statement": "The pugot moves very fast, eats snakes and insects in trees by thrusting food into its neck stump, and is fairly harmless though frightening; it likes to take women's underwear from the clothesline.",
-          "statement_id": "Pugot dapat bergerak sangat cepat, memakan ular dan serangga di pepohonan dengan menyodokkan makanan ke tunggul lehernya, dan umumnya tidak berbahaya meski menakutkan; ia suka mengambil pakaian dalam perempuan yang sedang dijemur.",
+          "statement": "Besides shapeshifting, the pugot can move at great speed, feeding on snakes and insects among the trees by thrusting food through its neck stump; though frightening, it is relatively harmless.",
+          "statement_id": "Selain dapat berubah wujud, pugot dapat bergerak sangat cepat dan memakan ular serta serangga di antara pepohonan dengan menyodorkan makanan ke tunggul lehernya; meski menakutkan, ia relatif tidak berbahaya.",
           "quote": "Aside from its shapeshifting abilities, the pugot can also move at great speeds, feeding on snakes and insects that it finds among the trees. It feeds by thrusting food through its neck stump. Although frightening, the pugot is otherwise relatively harmless.",
           "context": "traditional-belief",
           "status": "exact"
@@ -407,6 +1374,216 @@
           "statement_id": "Pugot juga muncul dalam mitos Ifugao Tulud Nimputul: Si Pemenggal Diri, ketika sang pahlawan memberinya daging ayam cincang bercampur darah.",
           "quote": "The pugot is also found in the Ifugao myth \"Tulud Nimputul: The Self-Beheaded\" where he appears to the human hero. He was fed by the hero with chopped chicken meat that was mixed with blood.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c05",
+          "source_id": "pugot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The pugot is fond of women's underwear and takes it while it is being dried on a clothesline.",
+          "statement_id": "Pugot gemar pakaian dalam perempuan dan mengambilnya saat dijemur di tali jemuran.",
+          "quote": "However, the creature is fond of women's underwear and takes them while they are being dried on a clothesline.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c06",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "\"Suac and His Adventures\" was narrated by Anastacia Villegas of Arayat, Pampanga, who heard it from her grandmother.",
+          "statement_id": "Kisah \"Suac and His Adventures\" dituturkan oleh Anastacia Villegas dari Arayat, Pampanga, yang mendengarnya dari neneknya.",
+          "quote": "Suac and His Adventures. Narrated by Anastacia Villegas of Arayat, Pampanga, who heard the story from her grandmother.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c07",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In this Pampanga tale the hunter sees on top of a tree a horrible creature, a very large black man with a long beard; this was Pugut.",
+          "statement_id": "Dalam kisah Pampanga ini, pemburu melihat di puncak pohon makhluk mengerikan, seorang lelaki hitam sangat besar berjanggut panjang; itulah Pugut.",
+          "quote": "saw on the top of the tree a horrible creature,—a very large black man with a long beard. This was Pugut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c08",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Pugut knocks the hunter down and eats up all the food before he can recover.",
+          "statement_id": "Pugut menjatuhkan si pemburu dan menghabiskan semua makanan sebelum ia sempat bangkit.",
+          "quote": "Pugut knocked the hunter down, and before he had time to recover had eaten up all the food.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c09",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Suac places the food near the fire and pushes Pugut into it; Pugut's beard is burnt and becomes kinky.",
+          "statement_id": "Suac menaruh makanan dekat api dan mendorong Pugut ke dalam api; janggut Pugut terbakar dan menjadi keriting.",
+          "quote": "But Suac placed the food near the fire and stood by it; and when Pugut tried to seize it, the boy pushed him into the fire. Pugut’s beard was burnt, and it became kinky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c10",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Suac pushes Pugut into a crocodile's mouth, destroying him, and takes his victim's club.",
+          "statement_id": "Suac mendorong Pugut ke mulut buaya sehingga Pugut binasa, lalu mengambil gada korbannya.",
+          "quote": "Thus Pugut was destroyed. Suac then took his victim’s club, and returned under the tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c11",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Fansler's notes: after killing Pugut and gaining his victim's magic club, Suac easily slays a man-eating giant.",
+          "statement_id": "Catatan Fansler: setelah membunuh Pugut dan memperoleh gada sakti korbannya, Suac dengan mudah membunuh raksasa pemakan manusia.",
+          "quote": "After Suac has killed Pugut and has come into possession of his victim’s magic club, he easily slays a man-eating giant",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c12",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Fansler's note suggests a myth element explaining why the Negrito's hair is kinky.",
+          "statement_id": "Menurut catatan Fansler, tampaknya ada unsur mitos yang menjelaskan mengapa rambut orang Negrito keriting.",
+          "quote": "We seem here to have a myth element explaining why the Negrito’s hair is kinky.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c13",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Fansler, the root pugut is found in many dialects with two meanings: a Negro or Negrito of the mountains, and \"decapitated, or with the hands or feet cut off\".",
+          "statement_id": "Menurut Fansler, akar kata pugut ada di banyak dialek dengan dua arti: orang Negro atau Negrito pegunungan, dan \"terpenggal\" atau \"terpotong tangan atau kakinya\".",
+          "quote": "The root pugut is found in many of the dialects, and has two distinct meanings: (1) “a Negro or Negrito of the mountains;” (2) “decapitated, or with the hands or feet cut off.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c14",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Fansler notes that among the Tagalogs, Bicols and Visayans the word is not used for a night-appearing demon or monster.",
+          "statement_id": "Fansler mencatat bahwa di antara orang Tagalog, Bicol, dan Visaya kata itu tidak dipakai untuk setan atau monster yang muncul malam hari.",
+          "quote": "Among the Tagalogs, Bicols, and Visayans, the word is not used to designate a night-appearing demon or monster.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c15",
+          "source_id": "pugot-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Fansler: Tagalog cafre is equivalent to Ilokano pugut and is Spanish for Kaffir.",
+          "statement_id": "Fansler: cafre dalam bahasa Tagalog setara dengan pugut dalam bahasa Ilokano, dan berasal dari kata Spanyol untuk Kaffir.",
+          "quote": "Tag. cafre, which is equivalent to Iloc. pugut, is Spanish for Kaffir.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c16",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to The Aswang Project, among the Ilocanos and Pampangos the pugot was a nocturnal spirit, usually a gigantic dark figure, terrifying but not particularly harmful.",
+          "statement_id": "Menurut The Aswang Project, di antara orang Ilocano dan Pampango, pugot adalah roh malam hari, biasanya berbentuk sosok negro raksasa, menakutkan tetapi tidak terlalu berbahaya.",
+          "quote": "Among the Ilocanos and Pampangos, the Pugot was a nocturnal spirit, usually in the form of a gigantic negro figure, terrifying, but not particularly harmful.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c17",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The pugot corresponded to the Tagalog kapre, which eventually took over the pugot's early attributes.",
+          "statement_id": "Pugot setara dengan kapre dalam tradisi Tagalog, yang akhirnya mengambil alih ciri-ciri awal pugot.",
+          "quote": "It corresponded to the Tagalog Kapre, which eventually took ownership of the Pugot’s early attributes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c18",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Its power of rapid transformation made it a formidable opponent: sometimes a cat with fiery eyes, a minute later a large dog, then an enormous black figure smoking a large cigar, finally disappearing as a ball of fire.",
+          "statement_id": "Kemampuannya berubah wujud dengan cepat membuatnya lawan yang tangguh: kadang berupa kucing bermata api, semenit kemudian anjing besar, lalu sosok hitam raksasa yang mengisap cerutu, dan akhirnya lenyap sebagai bola api.",
+          "quote": "Its power of rapid transformation made it a more or less formidable opponent. Sometimes it took the form of a cat with fiery eyes, a minute later appearing as a large dog. Then it would turn into an enormous black negro smoking a large cigar, and finally disappear as a ball of fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c19",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The pugot lived either in large trees or in abandoned houses.",
+          "statement_id": "Pugot tinggal di pohon besar atau rumah terbengkalai.",
+          "quote": "It lived either in large trees or in abandoned houses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c20",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to Jordan Clark, the earliest belief in the pugot \"spirit\" is found in Ilocano myths as the spirits of ancestral aborigines (Aetas) who guard treasures.",
+          "statement_id": "Menurut Jordan Clark, kepercayaan paling awal tentang \"roh\" pugot ada dalam mitos Ilocano sebagai roh penduduk asli leluhur (Aeta) yang menjaga harta karun.",
+          "quote": "The earliest belief of the Pugot “spirit” is found in Ilocano myths as the spirits of ancestral aborigines (Aetas) who guard treasures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c21",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project quotes Maximo Ramos: the term pugot denotes \"the black one\", \"the decapitated one\" or \"one with hands cut off\", and the creature is known by that name in Northern and Central Luzon.",
+          "statement_id": "The Aswang Project mengutip Maximo Ramos: pugot berarti \"yang hitam\", \"yang terpenggal\", atau \"yang terpotong tangannya\", dan makhluk ini dikenal dengan nama itu di Luzon utara dan tengah.",
+          "quote": "The term pugot denotes either “the black one,” “the decapitated one,” or “one with hands cut off,” and the creature is widely known by that name in Northern and Central Luzon",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c22",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Jordan Clark speculates that the pugot was perhaps originally thought to be the spirits of dishonoured, decapitated bodies not claimed by relatives and given proper burial rites.",
+          "statement_id": "Jordan Clark berspekulasi bahwa pugot mungkin semula dianggap roh jasad terhormat yang dipenggal dan tidak diklaim kerabat serta tidak diberi upacara pemakaman layak.",
+          "quote": "Perhaps the Pugot was originally thought to be the spirits of the dishonoured and decapitated bodies that were not claimed by their relatives and given proper burial rites.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c23",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to Jordan Clark, the killing of Catholic priests by the Ifugao in the late 19th century was incorporated into existing lowland superstition, giving rise to the pugot as a headless priest.",
+          "statement_id": "Menurut Jordan Clark, pembunuhan pastor Katolik oleh orang Ifugao pada akhir abad ke-19 dimasukkan ke dalam takhayul dataran rendah yang sudah ada, sehingga muncul pugot sebagai pastor tanpa kepala.",
+          "quote": "Lastly, the killing of Catholic priests by the Ifugao in the late 19th century was incorporated into existing lowland superstition.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c24",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Jordan Clark says there are three clearly defined versions of the pugot, not counting the child-eating version known as the Pugot Mamu.",
+          "statement_id": "Jordan Clark menyebut ada tiga versi pugot yang jelas terdefinisi, belum termasuk versi pemakan anak yang dikenal sebagai Pugot Mamu.",
+          "quote": "In the case of the Pugot, there are three clearly defined versions – and those don’t even touch on the horrific child eating version known as the Pugot Mamu!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pugot-c25",
+          "source_id": "pugot-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project quotes Ramos: in Northern and Central Luzon the pugot is known less as a headless being than as a black being of varying size, from as tiny as a new-born babe to the size of a large acacia tree.",
+          "statement_id": "The Aswang Project mengutip Ramos: di Luzon utara dan tengah pugot lebih dikenal bukan sebagai makhluk tanpa kepala melainkan sebagai makhluk hitam yang ukurannya bisa berubah-ubah, dari sekecil bayi baru lahir hingga sebesar pohon akasia besar.",
+          "quote": "though less as a headless being than as “a black being that can assume varying sizes—from a man tiny as a new-born babe to a giant the size of a large acacia tree,”",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
