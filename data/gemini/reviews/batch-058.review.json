@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-058",
-  "checked_at": "2026-10-07T06:18:29.916Z",
+  "checked_at": "2026-10-07T07:43:50.472Z",
   "files": [
     "batch-058.md",
     "batch-058-fix-1.md",
     "batch-058-fix-2.md",
     "batch-058-fix-3.md",
-    "batch-058-fix-4.md"
+    "batch-058-fix-4.md",
+    "batch-058-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -883,27 +884,22 @@
     },
     {
       "slug": "mino-waraji",
-      "file": "batch-058-fix-2.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "467e9019ce40ba9420012a19d6f295b4940462213d7f4217212a3579412d108b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mino-waraji-c01",
           "source_id": "mino-waraji-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Mino-waraji is a yōkai illustrated in Sekien’s collection.",
-          "statement_id": "Mino-waraji adalah yōkai yang digambar dalam kumpulan Sekien.",
+          "statement": "Mino-waraji is a yōkai in Toriyama Sekien’s yōkai picture collection Hyakki Tsurezure-bukuro.",
+          "statement_id": "Mino-waraji adalah yōkai dalam kumpulan gambar yōkai Hyakki Tsurezure-bukuro karya Toriyama Sekien.",
           "quote": "蓑草鞋（みのわらじ）は、鳥山石燕の妖怪画集『百器徒然袋』にある日本の妖怪。",
           "context": "traditional-belief",
           "status": "exact"
@@ -922,8 +918,8 @@
           "id": "mino-waraji-c03",
           "source_id": "mino-waraji-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Researchers connect the design with raincoat and sandal spirits in older scrolls.",
-          "statement_id": "Peneliti menghubungkan desainnya dengan roh jas hujan dan sandal dalam gulungan lebih tua.",
+          "statement": "It is thought that Sekien drew inspiration from yōkai with sandal and raincoat motifs already present in the Hyakki Yagyō Emaki and Tsukumogami Emaki scrolls.",
+          "statement_id": "Diperkirakan Sekien terinspirasi oleh yōkai bermotif sandal jerami dan jas hujan jerami yang sudah ada dalam gulungan Hyakki Yagyō Emaki dan Tsukumogami Emaki.",
           "quote": "『百鬼夜行絵巻』や『付喪神絵巻』に草鞋や蓑をモチーフとして描かれた妖怪は存在しているので、それらから石燕が着想を得て描いたものであろうと考えられている。",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -932,15 +928,74 @@
           "id": "mino-waraji-c04",
           "source_id": "mino-waraji-s1",
           "host": "ja.wikipedia.org",
-          "statement": "A later explanation attributes it to resentment of heavily taxed peasants.",
-          "statement_id": "Penjelasan belakangan mengaitkannya dengan kebencian petani yang dibebani pajak berat.",
+          "statement": "In explanations from the Heisei era onward, it is sometimes described as a tsukumogami born when the resentment of farmers harshly taxed during successive crop failures possessed old straw raincoats and sandals. The straw raincoat was thought to hold magical power, as many visiting deities (raihōjin) wear one, and straw sandals were often used as protective charms against yōkai, so such objects were thought to turn easily into yōkai.",
+          "statement_id": "Dalam penjelasan sejak era Heisei, ia kadang diterangkan sebagai tsukumogami yang lahir ketika dendam petani yang dipajaki berat pada masa gagal panen berturut-turut merasuki jas hujan dan sandal jerami tua. Jas hujan jerami dianggap memiliki daya magis seperti yang dikenakan banyak dewa pengunjung (raihōjin), dan sandal jerami sering dipakai sebagai benda bertuah penangkal yōkai, sehingga benda-benda itu dianggap mudah menjadi yōkai.",
           "quote": "凶作が続いた時期に年貢を厳しく取り立てられた農民の怨みの念が、古い蓑や草鞋に乗り移って付喪神と化したものと解説されることもある。蓑は来訪神の多くが身に纏っているように呪力があるものとされ、また草鞋も妖怪を避けるためによく呪物として使用されており、そのような器物は呪力によって妖怪化しやすいと考えられていたともされる。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c05",
+          "source_id": "mino-waraji-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Kaii-Yōkai Image Database of Nichibunken (International Research Center for Japanese Studies) records an image from a yōkai picture scroll (妖怪絵巻) under the double subject 草履 (zōri) and 蓑草鞋 (ミノワラジ), described as a sandal monster whose whole body is covered in yellow straw and whose face is a straw sandal, riding a staff topped with a horse head, with animal-like arms and legs showing below its hem.",
+          "statement_id": "Basis data Gambar Kaii-Yōkai milik Nichibunken (International Research Center for Japanese Studies) mencatat satu gambar dari gulungan yōkai (妖怪絵巻) dengan subjek ganda 草履 (zōri) dan 蓑草鞋 (ミノワラジ), dan menerangkannya sebagai monster sandal yang seluruh tubuhnya tertutup jerami kuning, berwajah sandal jerami, menunggangi tongkat berkepala kuda, dengan lengan dan kaki seperti hewan yang tampak dari bawah ujung pakaian.",
+          "quote": "草履の化物。全身黄色い藁で覆われており、顔が草鞋である。馬頭の杖にまたがり、裾下から動物のような腕脚を覗かせている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c06",
+          "source_id": "mino-waraji-s3",
+          "host": "de.wikipedia.org",
+          "statement": "German Wikipedia glosses 蓑草鞋 literally as \"straw coat and straw shoe\" and places it in the yōkai group of tsukumogami.",
+          "statement_id": "Wikipedia bahasa Jerman mengartikan 蓑草鞋 secara harfiah sebagai \"mantel jerami dan sepatu jerami\" dan menggolongkannya ke kelompok yōkai tsukumogami.",
+          "quote": "(蓑草鞋; wörtlich „Strohmantel und Strohschuh“) ist ein fiktives Wesen aus der japanischen Folklore und gehört zur Yōkai-Gruppe der Tsukumogami.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c07",
+          "source_id": "mino-waraji-s3",
+          "host": "de.wikipedia.org",
+          "statement": "According to German Wikipedia, it is said to appear as a large upright-walking straw coat (mino) using two straw sandals (waraji) as feet and a third as its head, and to stay at the edge of tall rice fields or in bamboo groves.",
+          "statement_id": "Menurut Wikipedia bahasa Jerman, ia konon tampil sebagai mantel jerami (mino) besar yang berjalan tegak dengan dua sandal jerami (waraji) sebagai kaki dan sandal ketiga sebagai kepala, dan konon berdiam di tepi sawah padi yang tinggi atau di rumpun bambu.",
+          "quote": "Der Mino-waraji soll als großer, aufrecht gehender Mino-Strohmantel erscheinen, der zwei Waraji als Füße benutzt, ein dritter Waraji dient ihm als Kopf. Er soll sich am Rande hoher Reisfelder oder in Bambushainen aufhalten.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c08",
+          "source_id": "mino-waraji-s3",
+          "host": "de.wikipedia.org",
+          "statement": "According to German Wikipedia, a Mino-waraji is said to arise when its former owner, usually a humble rice farmer, died unhappily after much suffering in life, and the soul is trapped in his garb.",
+          "statement_id": "Menurut Wikipedia bahasa Jerman, Mino-waraji konon muncul ketika bekas pemiliknya, biasanya petani padi yang sederhana, meninggal dalam keadaan tidak bahagia setelah banyak menderita, dan rohnya terperangkap dalam pakaiannya.",
+          "quote": "Ein Mino-waraji soll dann entstehen, wenn dessen ehemaliger Besitzer, meist ein bescheidener Reisbauer, unglücklich starb und zu Lebzeiten viel Leid hatte erdulden müssen. Nun sei dessen Seele in seiner Staffur gefangen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c09",
+          "source_id": "mino-waraji-s3",
+          "host": "de.wikipedia.org",
+          "statement": "German Wikipedia adds that other anecdotes tell the opposite: an over-eager soul dwells in the Mino-waraji and cannot give up field work even after death.",
+          "statement_id": "Wikipedia bahasa Jerman menambahkan bahwa anekdot lain menceritakan hal yang sangat berlawanan: di dalam Mino-waraji berdiam roh yang terlalu rajin dan tidak bisa berhenti mengerjakan ladang bahkan setelah mati.",
+          "quote": "Abweichende Anekdoten erzählen das krasse Gegenteil: In dem Mino-waraji hause eine übereifrige Seele, die auch nach dem Tod nicht von der Feldarbeit lassen könne.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mino-waraji-c10",
+          "source_id": "mino-waraji-s3",
+          "host": "de.wikipedia.org",
+          "statement": "According to German Wikipedia, it is regarded as grumpy but harmless.",
+          "statement_id": "Menurut Wikipedia bahasa Jerman, ia dianggap pemurung tetapi tidak berbahaya.",
+          "quote": "Er gilt als mürrisch, aber harmlos.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "53a36b4e586cecaeb0be1baa11f9a1fe87df4c4e21c9d7379174be0df54de6ec"
+      "images": []
     },
     {
       "slug": "miyazu-hime",
@@ -1236,27 +1291,22 @@
     },
     {
       "slug": "nyubachi-bo",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "670d8d51010271d73fc3310e794e717d0e3283df5065760e47fd50b50b76602e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nyubachi-bo-c01",
           "source_id": "nyubachi-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Nyūbachi-bō is a metal-percussion yōkai illustrated by Sekien.",
-          "statement_id": "Nyūbachi-bō adalah yōkai alat perkusi logam yang digambar Sekien.",
+          "statement": "Nyūbachi-bō is a yōkai depicted in Toriyama Sekien’s Hyakki Tsurezure-bukuro, a yōkai of a copper plate (銅盤).",
+          "statement_id": "Nyūbachi-bō adalah yōkai dalam Hyakki Tsurezure-bukuro karya Toriyama Sekien, yaitu yōkai berupa piringan tembaga (銅盤).",
           "quote": "乳鉢坊（にゅうばちぼう）は、鳥山石燕 『百器徒然袋』に描かれている日本の妖怪で、銅盤の妖怪である。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1265,8 +1315,8 @@
           "id": "nyubachi-bo-c02",
           "source_id": "nyubachi-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "It wears a metal plate on its head and appears with Hyōtan-kozō, echoing an older scroll.",
-          "statement_id": "Ia memakai piring logam di kepala dan muncul bersama Hyōtan-kozō, mengacu pada gulungan lebih tua.",
+          "statement": "It is drawn as a human-like figure wearing a copper plate on its head, together with Hyōtan-kozō, a gourd yōkai. A yōkai of the same shape is already drawn in the Muromachi-period Hyakki Yagyō Emaki, and Sekien is thought to have drawn and named it using that as a model.",
+          "statement_id": "Ia digambar seperti manusia dengan piringan tembaga di kepala, bersama Hyōtan-kozō, yōkai labu. Yōkai berbentuk sama sudah tergambar dalam Hyakki Yagyō Emaki zaman Muromachi, dan diperkirakan itulah model yang dipakai Sekien untuk menggambar dan menamainya.",
           "quote": "銅盤を頭にかぶった人のような姿で、瓢箪の妖怪である瓢箪小僧と共に描かれている。室町時代の『百鬼夜行絵巻』にも同じ形状な妖怪が描かれているので、これをモデルとして石燕が描いて名づけた妖怪であろうと考えられている。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1275,49 +1325,63 @@
           "id": "nyubachi-bo-c03",
           "source_id": "nyubachi-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "The instrument is associated with performances and Buddhist ceremonies.",
-          "statement_id": "Alat itu terkait dengan pertunjukan dan upacara Buddha.",
+          "statement": "The copper plate is an instrument also used for stage accompaniment, called nyōhachi or nyūbachi (鐃鈸), dōbatsushi (銅鈸子) or 銅拍子; it was originally an imported metal instrument used by monks at Buddhist ceremonies in temples.",
+          "statement_id": "Piringan tembaga itu adalah alat musik yang juga dipakai sebagai pengiring pertunjukan panggung, disebut nyōhachi atau nyūbachi (鐃鈸), dōbatsushi (銅鈸子), atau 銅拍子; aslinya alat logam impor yang dipakai biksu dalam upacara Buddha di kuil.",
           "quote": "銅盤は芝居の鳴り物にも使われる楽器で、鐃鈸（にょうはち、にゅうばち）あるいは銅鈸子（どうばつし）・銅拍子とも呼ばれる。本来は寺社などで僧侶が法会をおこなう時などに使用していた金属製の輸入楽器である。",
-          "context": "traditional-belief",
+          "context": "historical-record",
           "status": "exact"
         },
         {
           "id": "nyubachi-bo-c04",
           "source_id": "nyubachi-bo-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Modern descriptions add startling people with loud noise.",
-          "statement_id": "Uraian modern menambahkan kemampuan mengejutkan orang dengan suara keras.",
+          "statement": "Wikipedia notes that, like Sekien’s other yōkai, it is unclear what kind of yōkai this is, and that since the Heisei era it has often been explained as one that startles people with loud noise.",
+          "statement_id": "Wikipedia mencatat bahwa wujud yōkai ini tidak jelas, seperti yōkai Sekien lainnya, dan sejak era Heisei sering dijelaskan sebagai yōkai yang mengejutkan orang dengan bunyi keras.",
           "quote": "どのような妖怪か他の鳥山石燕の描いている妖怪たち同様に明確ではない点が多いが、平成以降は、大きな音を鳴らして人を驚かせるなどと解説されていることが多い。",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nyubachi-bo-c05",
+          "source_id": "nyubachi-bo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Inada Atsunobu explains Sekien’s Nyūbachi-bō as perhaps a yōkai of the suri-gane (摺鉦).",
+          "statement_id": "Inada Atsunobu menjelaskan bahwa Nyūbachi-bō gambaran Sekien mungkin adalah yōkai dari suri-gane (摺鉦).",
+          "quote": "稲田篤信は石燕の描いた乳鉢坊について、摺鉦（すりがね）の妖怪であろうかと解説している。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nyubachi-bo-c06",
+          "source_id": "nyubachi-bo-s2",
+          "host": "kotobank.jp",
+          "statement": "Digital Daijisen Plus (Shogakukan) describes Nyūbachi-bō as a Japanese yōkai, a kind of tsukumogami, a monster of the copper plate (銅盤), a percussion instrument used in theatre and similar performances.",
+          "statement_id": "Digital Daijisen Plus (Shogakukan) menerangkan Nyūbachi-bō sebagai yōkai Jepang, sejenis tsukumogami, yaitu hantu dari piringan tembaga (銅盤), alat perkusi yang dipakai dalam sandiwara.",
+          "quote": "日本の妖怪。付喪神(つくもがみ)の一種で、芝居などで使われる打楽器の銅盤の化け物。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cc515d4caae53bba26ce2b92c5237d4ecf3b787b60e37c2f900244d2df0d351c"
+      "images": []
     },
     {
       "slug": "ogotooshio",
-      "file": "batch-058-fix-3.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "2bdf701703047ed3adbec8de177ff3c315f30e90840b7d3975b01c02045af0b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ogotooshio-c01",
           "source_id": "ogotooshio-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Ōgotooshio is a deity in Japanese mythology.",
-          "statement_id": "Ōgotooshio adalah dewa dalam mitologi Jepang.",
+          "statement": "Ōgotooshio (大事忍男神) is a deity who appears in Japanese mythology.",
+          "statement_id": "Ōgotooshio (大事忍男神) adalah dewa yang muncul dalam mitologi Jepang.",
           "quote": "大事忍男神（おおごとおしおのかみ／おほごとおしをのかみ）は、日本神話に登場する神である。",
           "context": "religious-tradition",
           "status": "exact"
@@ -1326,8 +1390,8 @@
           "id": "ogotooshio-c03",
           "source_id": "ogotooshio-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Norinaga interprets his placement as an error involving Kotosakanoo.",
-          "statement_id": "Norinaga menafsirkan penempatannya sebagai kekeliruan yang melibatkan Kotosakanoo.",
+          "statement": "The Kojiki-den (古事記伝) interprets Ōgotooshio as Kotosakanoo (事解之男神), enshrined at Kumano Hongū Taisha, and supposes that a deity who should have appeared at Izanagi’s purification after his return from Yomi was mistakenly placed at the very start of the birth of the deities.",
+          "statement_id": "Kojiki-den (古事記伝) menafsirkan Ōgotooshio sebagai Kotosakanoo (事解之男神) yang dipuja di Kumano Hongū Taisha, dan menduga dewa yang seharusnya muncul pada upacara pembersihan Izanagi sepulang dari Yomi keliru ditempatkan di awal kelahiran para dewa.",
           "quote": "『古事記伝』は、大事忍男神は熊野本宮大社に祭られる事解之男神のことであり、本来は黄泉から帰還したイザナギの禊祓に現れるべき神を誤って神産みの最初に入れてしまったのであろうと解釈している。",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -1336,8 +1400,8 @@
           "id": "ogotooshio-c04",
           "source_id": "ogotooshio-s2",
           "host": "kojiki.kokugakuin.ac.jp",
-          "statement": "The university translation sets the divine births after completion of the land.",
-          "statement_id": "Terjemahan universitas menempatkan kelahiran dewa setelah negeri selesai dibentuk.",
+          "statement": "The Kokugakuin University translation of the Kojiki states that after they had finished giving birth to the land, [Izanaki and Izanami] gave birth to deities.",
+          "statement_id": "Terjemahan Kojiki dari Universitas Kokugakuin menyatakan bahwa setelah selesai melahirkan negeri, [Izanaki dan Izanami] melahirkan para dewa.",
           "quote": "After they had finished giving birth to the land, [Izanaki and Izanami] gave birth to deities.",
           "context": "religious-tradition",
           "status": "exact"
@@ -1346,15 +1410,54 @@
           "id": "ogotooshio-c05",
           "source_id": "ogotooshio-s2",
           "host": "kojiki.kokugakuin.ac.jp",
-          "statement": "The translation explicitly lists Ōkoto Oshio first.",
-          "statement_id": "Terjemahan itu secara tegas mencantumkan Ōkoto Oshio pertama.",
+          "statement": "The translation records Ōkoto oshio no kami (大事忍男神) as the first deity they bore.",
+          "statement_id": "Terjemahan itu mencatat Ōkoto oshio no kami (大事忍男神) sebagai dewa pertama yang mereka lahirkan.",
           "quote": "The name of the [first] deity they bore is Ōkoto oshio no kami 大事忍男神 (1).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ogotooshio-c06",
+          "source_id": "ogotooshio-s3",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The deity-name database of the Kokugakuin University Kojiki Studies Center records that the meaning of the name is often linked to his being the first born of the births of the deities. Views include that the name marks the start of the great matter of giving birth to deities, that he is the male deity who unifies all the matter of birthing deities, that he is a powerful male about to do that great work, that the name stands as a herald for the deities born after him, or that the deities from him to 大屋毘古神 are seen as house-building deities so the name expresses the great matter of building houses.",
+          "statement_id": "Basis data nama dewa dari Pusat Studi Kojiki Universitas Kokugakuin mencatat bahwa arti nama ini sering dikaitkan dengan statusnya sebagai yang pertama lahir dari kelahiran para dewa. Ada pendapat bahwa nama itu menandakan dimulainya urusan besar melahirkan para dewa, bahwa ia dewa pria yang menyatukan seluruh urusan melahirkan dewa, bahwa ia pria berkuasa yang akan mengerjakan tugas besar itu, bahwa nama itu diletakkan sebagai pembuka bagi dewa-dewa yang lahir sesudahnya, atau bahwa dewa-dewa dari dia sampai 大屋毘古神 dipandang sebagai dewa pembangunan rumah sehingga nama itu menyatakan tugas besar membangun rumah.",
+          "quote": "名義は、二神の神生みの第一子であることと関連づけて説かれることが多い。神生みの大事がこれから始まることを表した名とする説や、「大」を美称、「忍」をおしなべての意に取り、「事」すなわち神々を生む事をおしなべて一体にする男神の意とする説、これから神生みの大仕事をする威力ある男の意とする説、以下に生まれてくる神々の先触れとして枕詞風に置かれた名とする説、また、この神以下大屋毘古神までを家屋造営の神として、家屋造営の大事を掌ることを表した名とする説などがある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ogotooshio-c07",
+          "source_id": "ogotooshio-s3",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Among interpreters who read the name as the great matter of birthing deities, one view holds that the birth is represented by a male deity because of an ancient notion that women physiologically bear children but men acknowledge them, so sovereignty over the birth of the deities lies with the male.",
+          "statement_id": "Menurut sebagian penafsir yang membaca namanya sebagai urusan besar melahirkan dewa, kelahiran diwakili dewa pria karena pandangan masyarakat kuno bahwa secara biologis perempuan yang melahirkan tetapi pengakuan anak dilakukan oleh pria, sehingga kedaulatan atas kelahiran para dewa ada pada pria.",
+          "quote": "神生みの大事と解する説で、子供が生まれることを表すのが男神であることについては、生理的には女子が子を産むが、子の認知は男がするという古代社会の通念によるとし、神生みの主権が男にあることを表していると考える説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ogotooshio-c08",
+          "source_id": "ogotooshio-s4",
+          "host": "kotobank.jp",
+          "statement": "The Nihonjinmei Daijiten Plus (Kodansha) describes him as a deity appearing in the Kojiki, the first deity born to Izanagi (伊邪那岐命) and Izanami (伊邪那美命) after they finished giving birth to the islands of Japan.",
+          "statement_id": "Kamus Nihonjinmei Daijiten Plus (Kodansha) menerangkannya sebagai dewa yang muncul dalam Kojiki, yaitu dewa pertama yang dilahirkan Izanagi (伊邪那岐命) dan Izanami (伊邪那美命) setelah selesai melahirkan pulau-pulau Jepang.",
+          "quote": "「古事記」にみえる神。 伊邪那岐命(いざなぎのみこと),伊邪那美命(いざなみのみこと)2神が日本の島々を生みおえたのち最初に生んだ神。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ogotooshio-c09",
+          "source_id": "ogotooshio-s4",
+          "host": "kotobank.jp",
+          "statement": "According to the same dictionary, 大事 is said to come from the completion of the great work of giving birth to the land, and 忍男 is a praise-name.",
+          "statement_id": "Menurut kamus yang sama, 大事 dikatakan berasal dari selesainya pekerjaan besar melahirkan negeri, dan 忍男 adalah gelar pujian.",
+          "quote": "大事は国生みの大事業をおえたことからついた名といわれ,忍男は称(たた)え名。",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "64a4406e6d0722b99aa1b765d34783ae85d920e7e7c8fb0d26899eaec47d09d3"
+      "images": []
     },
     {
       "slug": "okaburo",
@@ -1583,20 +1686,15 @@
     },
     {
       "slug": "osan-kitsune",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "2d5a23d5d7aa85ac47d76d8cc555a942fabe7fa318865ad56222d617c9efcf6f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 20,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "osan-kitsune-c01",
@@ -1622,8 +1720,8 @@
           "id": "osan-kitsune-c03",
           "source_id": "osan-kitsune-s1",
           "host": "en.wikipedia.org",
-          "statement": "It appears as a woman carrying a baby and asking for help.",
-          "statement_id": "Ia muncul sebagai perempuan yang membawa bayi dan meminta bantuan.",
+          "statement": "According to English Wikipedia, in the tale the fox spirit appears as a woman carrying a baby and asking passersby for help.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, dalam dongeng itu roh rubah muncul sebagai wanita yang menggendong bayi dan meminta bantuan orang yang lewat.",
           "quote": "In the tale, the fox spirit appears as a woman carrying an infant and asks passersby for help.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1632,8 +1730,8 @@
           "id": "osan-kitsune-c04",
           "source_id": "osan-kitsune-s1",
           "host": "en.wikipedia.org",
-          "statement": "The woman disappears after handing over the child, which proves to be a stone.",
-          "statement_id": "Perempuan menghilang setelah menyerahkan bayi, yang ternyata batu.",
+          "statement": "According to English Wikipedia, after handing over the baby the figure disappears, and the baby is later revealed to be a stone.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, setelah menyerahkan bayi itu, sosok tersebut menghilang, dan bayinya kemudian ternyata batu.",
           "quote": "After handing over the child, the figure disappears; the child is later revealed to be a stone.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1657,34 +1755,168 @@
           "quote": "A road known as Osan-dōri (おさん通り) is named after the figure.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c07",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia describes the Osan kitsune (おさん狐), also called Osanwa kitsune (おさんわ狐), as a fox yōkai that disguises itself as a beautiful woman and approaches men who are married or have lovers; its tales are told widely in western Japan, especially in the Chūgoku region.",
+          "statement_id": "Wikipedia bahasa Jepang menggambarkan Osan kitsune (おさん狐), juga disebut Osanwa kitsune (おさんわ狐), sebagai yōkai rubah yang menyamar menjadi wanita cantik dan menggoda pria yang beristri atau punya kekasih; kisahnya banyak tersebar di Jepang bagian barat, terutama di wilayah Chūgoku.",
+          "quote": "おさん狐（おさんきつね）、またはおさんわ狐とは、美女に化けて妻帯者や恋人のいる男へ言い寄ってくる狐の妖怪。西日本、特に中国地方に多く伝わる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c08",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Osan kitsune is said to like lovers’ quarrels and to have a jealous side; the modern derogatory term 女狐 (\"female fox\") for a woman who interferes in a romance or is the other woman is said to have originated from this yōkai.",
+          "statement_id": "Osan kitsune digambarkan suka pertengkaran sepasang kekasih dan cemburu; sebutan merendahkan 女狐 (rubah betina) untuk perempuan yang mengganggu hubungan asmara atau menjadi selingkuhan disebut berasal dari yōkai ini.",
+          "quote": "おさん狐は痴話喧嘩を好み、嫉妬深い一面がある。現代において、恋路を邪魔する女性や浮気相手の女性に対し、蔑称として女狐と呼ぶ場合があるが、このような呼称はこの妖怪が発祥とされている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c09",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In a tale from Hiroshima City, the Osan kitsune frightens people by lighting a fire on its tail and turning into a lion. When a craftsman caught it to burn it, it begged for mercy by promising to turn into a daimyō procession the next night. A procession appeared and the craftsman praised the fox, but it was a real daimyō procession and the craftsman was beheaded.",
+          "statement_id": "Dalam kisah dari Kota Hiroshima, Osan kitsune menakuti orang dengan menyalakan api di ekornya dan menjelma menjadi singa. Ketika seorang pengrajin menangkapnya untuk dibakar, ia memohon ampun dengan berjanji menjelma menjadi arak-arakan daimyō malam berikutnya. Arak-arakan muncul dan pengrajin memuji si rubah, tetapi itu arak-arakan daimyō yang sungguhan dan sang pengrajin dipenggal.",
+          "quote": "広島県広島市では、おさん狐が尻尾に火を灯したりライオンに化けたりして人を脅かすので、職人が捕まえて火あぶりにしようとしたところ、翌晩に大名行列に化けて見せると言って許しを乞うた。翌晩に大名行列が現れたので職人は狐を褒めたところ、それは本物の大名行列で、職人は打ち首になったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c10",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The tale has a related version in which, instead of a craftsman, Osan kitsune and Yozaburō the tanuki of 伊像 trick each other and Osan kitsune is cut down by the lord in a daimyō procession; a version in which the tanuki is cut down is also told.",
+          "statement_id": "Kisah itu punya versi lain: bukan pengrajin, melainkan Osan kitsune dan tanuki Yozaburō dari 伊像 yang saling menipu, lalu Osan kitsune ditebas oleh tuan daimyō dalam arak-arakan. Ada juga versi di mana tanukilah yang ditebas.",
+          "quote": "この話には類話があり、職人ではなく、お三キツネと伊像の与三郎タヌキが化かし合いをして、大名行列の殿様にお三キツネが斬られたという話もある。また、タヌキの方が斬られたという話も伝わっている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c11",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Also in Hiroshima, the Osan kitsune said to have lived near Sarayama Park in the Eba district (Naka Ward) was 80 years old and commanded 500 retainers, made pilgrimages to Kyoto and went to Fushimi to receive rank; it was a dignified fox that never killed people and was beloved locally.",
+          "statement_id": "Di Hiroshima juga, Osan kitsune yang tinggal di dekat Taman Sarayama di kawasan Eba (Naka-ku) disebut berusia 80 tahun dan mengendalikan 500 pengikut, berziarah ke Kyoto dan pergi ke Fushimi untuk menerima pangkat; ia berwibawa, tidak pernah membunuh orang, dan dicintai warga setempat.",
+          "quote": "同じ広島でも、中区江波地区の皿山公園付近に棲んでいたおさん狐は年齢80歳、500匹の眷属を操り、京参りをしたり、伏見に位をもらいに行ったりと風格のある狐で、決して人を殺めることはなく、地元では愛される存在だったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c12",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Today a small shrine is enshrined at Marukoyama Fudō-in in Eba-higashi 2-chōme, and a statue of a fox in a standing pose stands on the median strip near the tram stop in front of the Eba depot.",
+          "statement_id": "Kini sebuah kuil kecil dipuja di Marukoyama Fudō-in di Eba-higashi 2-chōme, dan sebuah patung rubah yang berdiri tegak ada di pembatas jalan dekat halte trem di depan Depo Eba.",
+          "quote": "現在では江波東2丁目の丸子山不動院に小さな祠が祀られており、江波車庫前の電停近くの中央分離帯に、立ち上がった姿の狐像がある。",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "osan-kitsune-c13",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In Yuki-chō, Saeki District, Hiroshima, the name is written 尾三 because it is said to have three tails.",
+          "statement_id": "Di Yuki-chō, Distrik Saeki, Hiroshima, namanya ditulis 尾三 karena konon ia berekor tiga.",
+          "quote": "広島県広島市佐伯郡湯来町では「尾三」と書かれるが、これは尾が3本あるからだという。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c14",
+          "source_id": "osan-kitsune-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In Kadoma Village, Kita-Kawachi District, Osaka (now Kadoma City), the name is written お三狐 and it is regarded as having a vindictive character.",
+          "statement_id": "Di Desa Kadoma di Distrik Kita-Kawachi, Osaka (sekarang Kota Kadoma), namanya ditulis お三狐 dan ia dianggap berwatak pendendam.",
+          "quote": "大阪府北河内郡門真村（現・門真市）では「お三狐」という表記を当てており、執念深い性格とされている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c15",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "In the tale \"Razor Fox\" (かみそり狐) on the Tottori Prefectural Museum site, collected at Hata, Chizu, on 15 August 1985, the Osan kitsune is introduced as a fox that deceives people very well.",
+          "statement_id": "Dalam dongeng \"Rubah pencukur\" (かみそり狐) di situs Museum Prefektur Tottori, yang dikumpulkan di Hata, Chizu, pada 15 Agustus 1985, Osan kitsune diperkenalkan sebagai rubah yang sangat pandai menipu orang.",
+          "quote": "昭和60年(1985)8月15日、智頭町波多で採集 ... 昔、あるところになあ、おさん狐といってたいへんに人をよくだます狐がおったそうな。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c16",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "In that tale the Osan kitsune turns into a pretty girl with green algae (aomidoro) on her head and walks past a young man.",
+          "statement_id": "Dalam dongeng itu, Osan kitsune menjelma menjadi gadis cantik dengan ganggang hijau (aomidoro) di kepalanya dan berjalan melewati seorang pemuda.",
+          "quote": "おさん狐は頭にアオミドロを被ってよい娘になって、そうしてしゃあしゃあしゃあしゃあやって来て、その青年の前をとっととっととっととっと通って行った。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c17",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "In that tale the girl puts horse dung into a tiered box (jūbako) and wraps it in a cloth, then takes out the contents saying she brought them as ohagi (rice cakes).",
+          "statement_id": "Dalam dongeng itu, si gadis memasukkan kotoran kuda ke dalam kotak bersusun (jūbako) dan membungkusnya dengan kain, lalu mengeluarkan isi kotak itu sambil berkata bahwa ia membawanya sebagai ohagi (kue beras).",
+          "quote": "その娘はちょっと重箱を出して、それの中へ馬糞をちょっと入れて、そうしてそれを風呂敷に包んで ... 「たいしたもんじゃないけど、おはぎにして持ってきたけえ。」と言って重箱のものを出すそうな。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c18",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "At the end of that tale the young man’s hair has been bitten off by the fox until his head bleeds, and the narrator says that the Osan kitsune is said to often turn people into monks, and that this time too the young man was made a monk.",
+          "statement_id": "Di akhir dongeng itu rambut si pemuda terkoyak digigit rubah sampai kepalanya berdarah, dan narator mengatakan bahwa Osan kitsune konon sering membuat orang menjadi biksu (gundul), dan kali ini pun si pemuda dijadikan biksu.",
+          "quote": "若者は頭の毛を狐がずっと食いちぎって食いちぎって、めちゃくちゃに髪の毛を食いちぎられて、もう頭から血が出ているそうな。 おさん狐は人をよく坊主にするいうことだけれど、やっぱり今回も若者が坊主にされてしまったという話。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c19",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "In that tale the young man finds that the place is not a temple but an open field where he has been sleeping, and realises he has been deceived after all.",
+          "statement_id": "Dalam dongeng itu, si pemuda mendapati bahwa tempat itu bukan kuil melainkan padang rumput tempat ia tidur, dan sadar bahwa ia tetap tertipu.",
+          "quote": "「こりゃあまあ、お寺じゃあない、野原じゃ。野原へ寝とる。こりゃかなわん、はーあ、だまされん言うて来たけど、やっぱりだまされたじゃなあ。」と若者は思って",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "osan-kitsune-c20",
+          "source_id": "osan-kitsune-s3",
+          "host": "www.pref.tottori.lg.jp",
+          "statement": "According to Seki Keigo’s Nihon Mukashibanashi Taisei, this tale is classified under the \"Man and Fox\" type of true folktales as \"Razor Fox\" (剃刀狐).",
+          "statement_id": "Menurut Nihon Mukashibanashi Taisei karya Seki Keigo, kisah ini digolongkan sebagai dongeng \"Manusia dan rubah\" dengan nama \"Rubah pencukur\" (剃刀狐).",
+          "quote": "関敬吾『日本昔話大成』によると、この話は本格昔話の「人と狐」の中に「剃刀狐」として位置づけられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d09b9ec10f2c5107ef1ecd7f4174e57d7646d673a562add0cac6804c48c8f158"
+      "images": []
     },
     {
       "slug": "oseichu",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "bea75c6d8c630d7cd2ffd5b09cd779a80ad5dafb15d504ddb6006f3a32045e1d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "oseichu-c01",
           "source_id": "oseichu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Oseichū denotes a speech-answering creature and a legendary affliction in China and Japan.",
-          "statement_id": "Oseichū menunjuk makhluk penjawab ucapan dan penyakit legendaris di Tiongkok serta Jepang.",
+          "statement": "Ōseichū (応声虫), or Ōsei (応声), is a strange illness found in Chinese and Japanese story collections and essays, and also the strange insect that causes it.",
+          "statement_id": "Ōseichū (応声虫) atau Ōsei (応声) adalah penyakit aneh yang tercatat dalam kumpulan kisah dan esai Tiongkok dan Jepang, sekaligus serangga ajaib penyebab penyakit itu.",
           "quote": "応声虫（おうせいちゅう）または応声（おうせい）は、中国や日本の説話集・随筆集に見られる奇病、およびその病気を引き起こす怪虫。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1693,8 +1925,8 @@
           "id": "oseichu-c02",
           "source_id": "oseichu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Chinese accounts describe an internal insect answering speech without its host speaking.",
-          "statement_id": "Kisah Tiongkok menggambarkan serangga dalam tubuh yang menjawab ucapan tanpa inangnya berbicara.",
+          "statement": "Accounts of people afflicted with it are recorded in Chinese texts such as the Chaoye Qianzai (朝野僉載), Wenchang zalu (文昌雑録) and Dunzhai xianlan (遯斎間覧), and the Bencao gangmu (本草綱目) mentions it in its entries on raigan (雷丸) and ai (藍). Once the insect enters the body, replies to questions come from the belly although the person is not speaking.",
+          "statement_id": "Kisah orang yang terkena penyakit ini tercatat dalam teks Tiongkok seperti Chaoye Qianzai (朝野僉載), Wenchang zalu (文昌雑録) dan Dunzhai xianlan (遯斎間覧), dan Bencao gangmu (本草綱目) menyebutnya dalam uraian tentang raigan (雷丸) dan ai (藍). Setelah serangga itu masuk ke tubuh, dari dalam perut terdengar jawaban atas pertanyaan padahal penderitanya tidak berbicara.",
           "quote": "応声虫による症状（応声虫病）があらわれた人物の説話は、中国の『朝野僉載』や『文昌雑録』、『遯斎間覧』などに記述がみられ、本草書である『本草綱目』には応声虫に効果があったとされる雷丸（らいがん）や藍（あい）の解説文中にもその存在が言及されている。 応声虫が人体の中に入り込むと、本人は何もしゃべっていないのに腹の中から問いかけに応じた返事がかえって来るとされる。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1703,8 +1935,8 @@
           "id": "oseichu-c03",
           "source_id": "oseichu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Chinese usage turns its imitative voice into a metaphor for an uncritical follower.",
-          "statement_id": "Pemakaian Tionghoa menjadikan suara penirunya kiasan bagi pengikut tanpa sikap kritis.",
+          "statement": "Because of the symptom of an insect voicing from inside the belly, in China a person with no opinion of their own who merely echoes others was mockingly called an Ōseichū.",
+          "statement_id": "Karena gejala suara serangga dari dalam perut, di Tiongkok orang yang tidak punya pendapat sendiri dan hanya ikut-ikutan juga diejek dengan sebutan Ōseichū.",
           "quote": "腹の中から虫が声を出すという症状を受け、中国では「自分の意見をもたず付和雷同した意見のみを言う者」を応声虫と揶揄して呼んだともいう。",
           "context": "etymology",
           "status": "exact"
@@ -1713,39 +1945,103 @@
           "id": "oseichu-c04",
           "source_id": "oseichu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "A Japanese account gives it a mouthlike growth on a sick person’s belly.",
-          "statement_id": "Kisah Jepang memberinya pertumbuhan mirip mulut pada perut orang sakit.",
+          "statement": "In Japan too it was regarded as a disease caused by a strange insect living inside the body like a roundworm. The sufferer has a high fever for about ten days, then a boil appears on the belly and gradually takes the shape of a mouth; the mouth mimics what the sick person says, hence the name Ōseichū.",
+          "statement_id": "Di Jepang pun ia dianggap penyakit akibat serangga ajaib yang hidup dalam tubuh seperti cacing gelang. Penderita demam tinggi sekitar sepuluh hari, lalu perutnya muncul bisul yang lama-kelamaan berbentuk seperti mulut; mulut itu menirukan ucapan si sakit, sehingga ada nama Ōseichū.",
           "quote": "日本においても、回虫などの寄生虫のように人間の体内に棲む怪虫によって引き起こされる病気であるとされ、人間がこの病気に冒されると、高熱が10日間ほど続いて苦しんだ後、腹に出来物ができ、次第にそれが口のような形になる。この口は病気になった者の喋ったことを口真似するため、応声虫の名がある。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "oseichu-c05",
+          "source_id": "oseichu-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Kaii-Yōkai Densho Database of Nichibunken (International Research Center for Japanese Studies) summarises a tale from the Shiojiri (塩尻): in the first month of Genroku 16 the son of a craftsman in the capital suddenly ran a fever and, after recovering within a few days, a voice speaking could be heard from inside his belly; medicine and prayers had no effect at all.",
+          "statement_id": "Basis data Kaii-Yōkai Densho Nichibunken (International Research Center for Japanese Studies) meringkas kisah dari Shiojiri (塩尻): pada bulan pertama tahun Genroku 16, putra seorang perajin di ibu kota demam mendadak dan, setelah pulih beberapa hari, terdengar suara berbicara dari dalam perutnya; obat dan doa sama sekali tidak berhasil.",
+          "quote": "元禄16年正月、京師の工人の息子が急に発熱し、数日して立ち直ったものの、腹の中から物を言う声がする。薬や祈祷をしてもまったく効果がなかった。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c06",
+          "source_id": "oseichu-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "In the summary, the physician 菅玄際 concluded from various books that the illness was the work of an Ōseichū. When he tried to give a decoction containing raigan (雷丸), the voice in the belly strongly refused, but the day after it was drunk the voice grew hoarse, and when it was given again the voice ceased. When the boy went to the toilet an insect came down through the anus, shaped like a lizard with a small horn on its forehead, and his parent killed it; the boy fully recovered at the end of the sixth month.",
+          "statement_id": "Dalam ringkasan itu, dokter 菅玄際 menyimpulkan dari berbagai buku bahwa penyakit tersebut ulah Ōseichū. Ketika ia hendak memberi ramuan berisi raigan (雷丸), suara dari perut menolak keras, tetapi sehari setelah diminum suaranya agak serak, dan setelah diminum lagi suara itu lenyap. Saat anak itu ke toilet, seekor serangga keluar dari anusnya, berbentuk seperti kadal dengan tanduk kecil di dahi, dan orang tuanya membunuhnya; anak itu pulih sepenuhnya pada akhir bulan keenam.",
+          "quote": "その後、医者の菅玄際が様々な書物からこの病は応声虫の仕業と見立てた。そこで雷丸の入った薬湯を飲ませようとしたところ、腹の声は大いに拒んでいたが、飲んだ次の日は声がやや涸れた。そしてさらに飲ませると声は絶えた。便所に行くと肛門から虫が下った。形はトカゲのようで、額に小さい角があり、親は殺した。息子は6月末に本復したという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c07",
+          "source_id": "oseichu-s4",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Nichibunken database summarises a tale from the Kanden jihitsu (閑田次筆): a showman heard of a farmer’s wife of about fifty in a mountain village of Oku-Tanba who spoke with a voice from her belly, and went to negotiate with her. Her husband said that the voice began coming from her belly when they were resting at a teahouse after visiting Rokujō in the eleventh month of the previous year.",
+          "statement_id": "Basis data Nichibunken meringkas kisah dari Kanden jihitsu (閑田次筆): seorang pengelola pertunjukan keliling mendengar kabar tentang istri seorang petani berusia sekitar 50 tahun di sebuah desa pegunungan Oku-Tanba yang mengeluarkan suara dari dalam perutnya, lalu pergi menawarnya. Sang suami mengatakan bahwa suara itu mulai terdengar dari perutnya ketika mereka beristirahat di kedai teh setelah berziarah ke Rokujō pada bulan kesebelas tahun sebelumnya.",
+          "quote": "四条坊門油小路の東にいた見世物を業とする者が、奥丹波の何とか言う山里に、農人の妻で50歳ばかり者が腹中から声を出すというのを聞きつけ交渉に向かった。夫が言うには、先年の霜月に六条に詣で、茶屋で休んでいたところ、腹中から声がするようになったと語った。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c08",
+          "source_id": "oseichu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Chaoye Qianzai (朝野僉載), a scholar of Luozhou (洛州) suffers from an \"echoing illness\" (應病): his speech is answered from his throat. The physician Zhang Wenzhong (張文仲) has the Bencao read out; the voice answers all of it until it reaches the drug it fears, and then falls silent. Zhang records that drug, makes pills, and the sufferer recovers at once after taking them.",
+          "statement_id": "Dalam Chaoye Qianzai (朝野僉載), seorang terpelajar dari Luozhou (洛州) menderita \"penyakit menjawab\" (應病): ucapannya dijawab dari tenggorokannya. Tabib Zhang Wenzhong (張文仲) menyuruh Bencao dibacakan; suara itu menjawab semuanya sampai ke obat yang ditakutinya, lalu ia diam. Zhang mencatat obat itu, membuatnya menjadi pil, dan penderitanya sembuh seketika setelah meminumnya.",
+          "quote": "洛州有士人患應病，語即喉中應之。以問善醫張文仲，經夜思之，乃得一法。即取《本草》令讀之，皆應；至其所畏者，即不言。仲乃錄取藥，合和為丸，服之應時而愈。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c09",
+          "source_id": "oseichu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, raigan (雷丸), a member of the Polyporaceae that parasitises bamboo and is one of the Kampō medicines, is said to be effective when taken, and the insect also leaves the body.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, raigan (雷丸), jamur dari keluarga Polyporaceae yang hidup parasit pada bambu dan merupakan salah satu obat Kanpō, dikatakan manjur jika diminum, dan serangganya pun keluar dari tubuh.",
+          "quote": "雷丸（竹に寄生するサルノコシカケ科の一種で漢方薬の一つ）を服用すれば効果があり、虫も体外に出るという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c10",
+          "source_id": "oseichu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Japanese Wikipedia, the mouth not only talks but also eats; it demands food itself, and if refused it torments the patient with a high fever or shouts abuse at the top of its voice.",
+          "statement_id": "Menurut Wikipedia bahasa Jepang, mulut itu tidak hanya berbicara tetapi juga makan; ia meminta makanan sendiri, dan jika ditolak ia menyiksa penderita dengan demam tinggi atau berteriak memaki dengan suara keras.",
+          "quote": "喋るだけでなく食べ物も食べる。自ら食べ物を要求し、これを拒むと患者を高熱で苦しめたり、大声で悪口を叫んだりもする。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oseichu-c11",
+          "source_id": "oseichu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia records two interpretations of the Japanese tales: that they describe the real roundworm (回虫), with its abnormal hunger and the dead worm passed through the anus after taking a vermifuge; or, since the Ōseichū was originally a Chinese tale and the Shinchomonjū (新著聞集) version adds the jinmensō (人面瘡) element of a mouth-like boil, that they are merely a rewriting and adaptation of Chinese texts.",
+          "statement_id": "Wikipedia bahasa Jepang mencatat dua tafsiran atas kisah-kisah Jepang itu: sebagai gambaran cacing gelang (回虫) yang nyata, dengan rasa lapar yang tidak wajar dan bangkai cacing yang keluar dari anus setelah minum obat cacing; atau, karena Ōseichū aslinya kisah Tiongkok dan versi Shinchomonjū (新著聞集) menambahkan unsur jinmensō (人面瘡, bisul berbentuk mulut), sebagai sekadar adaptasi dan penggubahan teks Tiongkok.",
+          "quote": "これらの話は、実在の寄生虫である回虫を綴ったものであり、回虫が腹にいることによる異常な空腹感や、虫下しを飲んで肛門から排泄された回虫の死骸を描写したものであるとも考えられているが、前述のように応声虫はもともと中国に存在する説話であり、また『新著聞集』にあるものなどは中国に伝わるものに人面瘡の要素（口のようなできものが発症する点）が加わっており、中国の文献を単純に換骨奪胎し脚色しただけのものであるとする説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d0cb349cec8d61179743a35b1db1a7b54b29ddf9d27c59063c9bf140e57351ef"
+      "images": []
     },
     {
       "slug": "otora-kitsune",
-      "file": "batch-058-fix-3.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "670d8ab9b312d24aecafb249a4e6a0a793977aa6ebca59d2c42638dce6e1e557",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "otora-kitsune-c01",
           "source_id": "otora-kitsune-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Otora Kitsune is a possessing fox-spirit associated with a neglected Nagashino Inari shrine.",
-          "statement_id": "Otora Kitsune adalah roh rubah perasuk yang terkait dengan Kuil Inari Nagashino yang terabaikan.",
+          "statement": "The Otora kitsune is said to possess people because the fox, originally the messenger of the Inari shrine at Nagashino Castle, resents the shrine being neglected after the Battle of Nagashino; it was later enshrined at Jōyabu Inari at Nagashino Castle to pacify it.",
+          "statement_id": "Otora kitsune disebut merasuki orang karena rubah itu, yang semula utusan kuil Inari di Benteng Nagashino, mendendam atas kuil yang ditelantarkan setelah Pertempuran Nagashino; belakangan ia dipuja di Jōyabu Inari di Benteng Nagashino untuk menenangkannya.",
           "quote": "おとら狐が人に憑くのは、本来長篠城の稲荷社の使いであったおとら狐が、長篠の合戦後に社を放置されたことを恨んでいるためといい、後にそれを鎮めるために長篠城の城藪稲荷におとら狐が祀られたと伝えられる。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1754,8 +2050,8 @@
           "id": "otora-kitsune-c02",
           "source_id": "otora-kitsune-s1",
           "host": "ja.wikipedia.org",
-          "statement": "The tradition links left-eye discharge and leg pain to the fox’s battle injuries.",
-          "statement_id": "Tradisi mengaitkan cairan mata kiri dan nyeri kaki dengan luka pertempuran rubah.",
+          "statement": "A possessed person is said to discharge from the left eye and suffer in the left leg, which is said to be because the fox once took a stray gun bullet in the Battle of Nagashino.",
+          "statement_id": "Orang yang dirasuki konon mengeluarkan kotoran dari mata kiri dan sakit di kaki kiri, yang dikatakan karena rubah itu pernah terkena peluru nyasar senapan dalam Pertempuran Nagashino.",
           "quote": "取り憑かれた者は左眼から眼脂を流し、左足が病むという。これは、かつて長篠の戦いにおいて鉄砲の流れ弾を受けた為と言い伝えられている。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1764,8 +2060,8 @@
           "id": "otora-kitsune-c03",
           "source_id": "otora-kitsune-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Possessed people are said to recount the Battle of Nagashino as personal memories.",
-          "statement_id": "Orang yang dirasuki konon menceritakan Pertempuran Nagashino sebagai ingatan pribadi.",
+          "statement": "Most of those possessed are sick people, and once possessed they are said to often talk about the Battle of Nagashino and their own life stories.",
+          "statement_id": "Sebagian besar orang yang dirasuki adalah orang sakit, dan setelah dirasuki mereka konon sering bercerita tentang Pertempuran Nagashino dan kisah hidup mereka.",
           "quote": "取り憑かれた者は左眼から眼脂を流し、左足が病むという。これは、かつて長篠の戦いにおいて鉄砲の流れ弾を受けた為と言い伝えられている。憑かれる者の多くは病人であり、憑かれると長篠の合戦のことや身の上話をよく語るようになるともいう。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1774,39 +2070,103 @@
           "id": "otora-kitsune-c04",
           "source_id": "otora-kitsune-s1",
           "host": "ja.wikipedia.org",
-          "statement": "A 1916 collection records cases from several nearby districts.",
-          "statement_id": "Kumpulan tahun 1916 mencatat kasus dari beberapa daerah sekitar.",
+          "statement": "Kyōdo Kenkyū (郷土研究), published in 1916 by the Kyōdo Kenkyūsha of Aichi Prefecture, records various states of people possessed by the Otora kitsune as folk tradition.",
+          "statement_id": "Kyōdo Kenkyū (郷土研究), terbitan Kyōdo Kenkyūsha dari Prefektur Aichi pada 1916, mencatat berbagai keadaan orang yang dirasuki Otora kitsune sebagai cerita rakyat.",
           "quote": "愛知県の郷土研究社が1916年に出版した『郷土研究』にはおとら狐に取り憑かれた人間のさまざまな様子が伝承として記録されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c05",
+          "source_id": "otora-kitsune-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Otora kitsune (おとら狐) is a fox yōkai handed down in Aichi Prefecture; it possesses people and plays various pranks, so that a possessed person speaks and acts unlike their usual self.",
+          "statement_id": "Otora kitsune (おとら狐) adalah yōkai rubah yang diwariskan di Prefektur Aichi; ia merasuki manusia dan melakukan berbagai keusilan, sehingga orang yang dirasuki berbicara dan bertindak tidak seperti biasanya.",
+          "quote": "おとら狐（おとらぎつね）とは、愛知県に伝わる狐の妖怪。 ... おとら狐は人間に取り憑き、様々な悪戯する妖怪で、取り憑かれた人間は常時では考えられない言動を行う。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c06",
+          "source_id": "otora-kitsune-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Otora kitsune possesses people and plays various pranks, and a possessed person speaks and acts in ways unthinkable in ordinary times; the name \"Otora kitsune\" comes from a fox possessing a girl called Otora.",
+          "statement_id": "Otora kitsune merasuki manusia dan melakukan berbagai keusilan, sehingga orang yang dirasuki berbicara dan bertindak tidak seperti biasanya; nama \"Otora kitsune\" berasal dari seekor rubah yang merasuki seorang gadis bernama Otora.",
+          "quote": "おとら狐は人間に取り憑き、様々な悪戯する妖怪で、取り憑かれた人間は常時では考えられない言動を行う。「おとら狐」の語源はおとらという娘に狐が取り憑いたことから。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c07",
+          "source_id": "otora-kitsune-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is said that it was later enshrined at Jōyabu Inari at Nagashino Castle to pacify it; the shrine was afterwards moved to Daitsūji in Shinshiro City, Aichi Prefecture.",
+          "statement_id": "Dikatakan bahwa kemudian, untuk menenangkannya, Otora kitsune dipuja di Jōyabu Inari di Benteng Nagashino; kuil itu belakangan dipindahkan ke Daitsūji di Kota Shinshiro, Prefektur Aichi.",
+          "quote": "後にそれを鎮めるために長篠城の城藪稲荷におとら狐が祀られたと伝えられる。後に社は、愛知県新城市の大通寺に移されている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c08",
+          "source_id": "otora-kitsune-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The same book records ways to remove the Otora kitsune: first asking onmyōji or shugenja for prayers, and if that fails, bringing Yamazumi-sama (Oinu-sama) who lives deep in Mount Akiba. It also says an inugami will eat only the Otora kitsune part, but when asking an inugami one must name every family member and household animal, since anyone not named will suffer harm from the Otora kitsune.",
+          "statement_id": "Buku yang sama mencatat cara menyingkirkan Otora kitsune: pertama meminta doa dari onmyōji atau shugenja, dan bila tidak berhasil, mendatangkan Yamazumi-sama (Oinu-sama) yang tinggal di pedalaman Gunung Akiba. Ada pula catatan bahwa inugami hanya memakan bagian Otora kitsune, tetapi saat memohon kepada inugami semua nama anggota keluarga dan makhluk piaraan harus disebut, karena yang tidak disebut akan terkena celaka dari Otora kitsune.",
+          "quote": "同書にはおとら狐を取り除く方法として、まず陰陽師や修験者に祈祷を依頼し、それでも効果がないときには秋葉山の奥に住む山住様（御犬様）を迎えてくると良いと記されている。犬神によっておとら狐の部分のみを食ってくれるという記述もある。ただし犬神に頼む際には、家族や家で飼っている生き物の名前をすべて挙げてお願いしなければ、名前の挙げられなかった者はおとら狐による害を被ってしまうという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c09",
+          "source_id": "otora-kitsune-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Kaii-Yōkai Densho Database of Nichibunken (International Research Center for Japanese Studies) summarises a 1916 record that at the Battle of Nagashino the Otora kitsune hurt its left eye with a stray bullet, and while napping at the Sai River it was shot and hurt its left leg; hence those possessed discharge from the left eye and have pain in the left leg.",
+          "statement_id": "Basis data Kaii-Yōkai Densho Nichibunken (International Research Center for Japanese Studies) meringkas catatan 1916 bahwa pada Pertempuran Nagashino mata kiri Otora kitsune terluka oleh peluru nyasar, dan ketika ia tidur siang di Sungai Sai ia ditembak hingga kaki kirinya terluka; karena itu orang yang dirasuki mengeluarkan kotoran mata dari mata kiri dan kaki kirinya sakit.",
+          "quote": "おとら狐は長篠の合戦のとき、流弾で左の目を傷つけ、犀川で昼寝をしているとき、狙撃されて左の足を傷つけたので、取り憑かれた者は左眼から目脂を出し、左足が痛むという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c10",
+          "source_id": "otora-kitsune-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Nichibunken database summarises that when the Otora kitsune possesses someone, onmyōji or shugenja are first invited to pray; if it still does not leave, Yamazumi-sama from deep in Mount Akiba is brought and it leaves. Yamazumi-sama is the mountain dog (yamainu), also called Oinu-sama.",
+          "statement_id": "Basis data Nichibunken meringkas bahwa bila Otora kitsune merasuki seseorang, mula-mula onmyōji atau shugenja diundang untuk berdoa; bila ia tidak juga pergi, Yamazumi-sama dari pedalaman Gunung Akiba didatangkan dan ia pun pergi. Yamazumi-sama adalah anjing gunung (yamainu), juga disebut Oinu-sama.",
+          "quote": "おとら狐が憑いたときは、まず陰陽師や修験者を招いて祈祷をするが、それでも離れないときは、秋葉山の奥の山住様を迎えてくると離れる。山住様は山犬のことで御犬様ともいう。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "otora-kitsune-c11",
+          "source_id": "otora-kitsune-s4",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Nichibunken database summarises a case of an old woman possessed by the Otora kitsune: she was afraid because a male dog came to her every night, and on the day before she died, although she had been in bed for over a year, she made a riotous commotion and danced all night.",
+          "statement_id": "Basis data Nichibunken meringkas kasus seorang nenek yang dirasuki Otora kitsune: ia ketakutan karena seekor anjing jantan datang setiap malam, dan sehari sebelum meninggal, padahal sudah lebih dari setahun terbaring, ia membuat keributan dan menari semalaman.",
+          "quote": "婆さんにおとら狐が憑いた。牡犬が毎夜婆さんのところにくるといって恐れていた。亡くなる前日には一年余りも寝ていたのに、乱痴気騒ぎをして一晩踊りまわったという。",
           "context": "historical-record",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "023b9b7af35133a6f2fd6a0b83a3b46014d920eb68a3c092c8a6033fe2fc83a6"
+      "images": []
     },
     {
       "slug": "ratoshikamuy",
-      "file": "batch-058-fix-3.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "eea2ceeeff47a671d3dbf2345b16a0b3c7c9743a8448f599d3a33882af773398",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ratoshikamuy-c01",
           "source_id": "ratoshikamuy-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Ratoshikamuy is a giant octopus in Ainu folktales.",
-          "statement_id": "Ratoshikamuy adalah gurita raksasa dalam dongeng Ainu.",
+          "statement": "Ratoshikamuy (Rātoshikamuy, also written Rādoshikamuy) is a giant octopus in Ainu folktales.",
+          "statement_id": "Ratoshikamuy (Rātoshikamuy, juga Rātoshikamuy/Rādoshikamuy) adalah kamuy berupa gurita raksasa dalam cerita rakyat Ainu.",
           "quote": "ラートシカムイ（ラードシカムイ）は、アイヌ民話に伝わる巨大な蛸。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1815,8 +2175,8 @@
           "id": "ratoshikamuy-c02",
           "source_id": "ratoshikamuy-s1",
           "host": "ja.wikipedia.org",
-          "statement": "The giant octopus and the strongest land bird meet at the Ishikari river mouth.",
-          "statement_id": "Gurita raksasa dan burung darat terkuat bertemu di muara Sungai Ishikari.",
+          "statement": "According to the tale, the strongest in the sea was Ratoshikamuy and the strongest on land was the giant bird Huri (Furi), one of whose wings is seven ri long; each prided itself on its strength and they were at odds, and they once met at the mouth of the Ishikari River.",
+          "statement_id": "Menurut kisah itu, yang terkuat di laut adalah Ratoshikamuy dan yang terkuat di darat adalah burung raksasa Huri (Furi) yang satu sayapnya sepanjang tujuh ri; keduanya saling membanggakan kekuatan dan berseteru, lalu bertemu di muara Sungai Ishikari.",
           "quote": "説話によれば、海で一番力の強いのはラードシカムイ〔ママ〕、そして\"陸での力もちは片翼が七里もあるという巨鳥フリー\"とされていた。互いに怪力を自負して対立していたが、あるとき石狩川の河口で二頭（一羽と一杯？）が遭遇した。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1825,8 +2185,8 @@
           "id": "ratoshikamuy-c03",
           "source_id": "ratoshikamuy-s1",
           "host": "ja.wikipedia.org",
-          "statement": "It emits ink while Huri attacks its tentacles and tries to pull it from the sea.",
-          "statement_id": "Ia mengeluarkan tinta ketika Huri menyerang tentakelnya dan mencoba menariknya dari laut.",
+          "statement": "The octopus spits ink, pouts its mouth and glares in anger; Huri spreads its wings, pecks at the tentacles above the water and tries to haul it up, but the octopus’s head never surfaces.",
+          "statement_id": "Gurita itu menyemburkan tinta, memonyongkan mulut, dan melotot marah; Huri membentangkan sayapnya, mematuk tentakel yang muncul di atas air, dan mencoba menariknya dari laut, tetapi kepala gurita itu tidak sampai muncul.",
           "quote": "蛸は墨を吐き、口を尖らせ、目を怒らせると、フリーは鋼鉄のような翼を広げて身構えると、水面上に出ていた触手をついばみ攻撃を開始し、ずるずると蛸を引き揚げにかかったが、頭までは水面現れなかった。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1835,32 +2195,86 @@
           "id": "ratoshikamuy-c04",
           "source_id": "ratoshikamuy-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Their contest ends without either contestant prevailing.",
-          "statement_id": "Pertandingan mereka berakhir tanpa pemenang.",
+          "statement": "Then the octopus pulled back by bending its tentacles, but the bird held its ground; the two were evenly matched and the contest was never settled.",
+          "statement_id": "Kemudian gurita itu menarik balik dengan menekuk tentakelnya, tetapi burung itu bertahan; kekuatan keduanya seimbang dan pertandingan tidak berakhir dengan pemenang.",
           "quote": "こんどは蛸が押収して、触手を折り曲げて引っ張ったが、鳥はふんばって耐えた（詳細は、「石狩」地名由来とまとめて後述）。けっきょく力は両者とも互角で、決着がつくことはなかったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c05",
+          "source_id": "ratoshikamuy-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A contest of strength between Ratoshikamuy and the giant bird Huri Kamuy (written \"Furi\" in the original text) is told as a place-name legend connected with Ishikari.",
+          "statement_id": "Adu kekuatan antara Ratoshikamuy dan burung raksasa Huri Kamuy (dalam teks aslinya \"Furi\") diceritakan sebagai legenda asal nama tempat yang berkaitan dengan Ishikari.",
+          "quote": "石狩にまつわる地名伝説として、ラートシカムイと巨鳥フリカムイ（原文では「フリー」）の力比べ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c06",
+          "source_id": "ratoshikamuy-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Ratoshikamuy (also written Radoshikamuy / ラードシカムイ) is a giant octopus in Ainu folktales, and its name means \"the god with many tails\" (尾がたくさんある神).",
+          "statement_id": "Ratoshikamuy (juga ditulis Radoshikamuy / ラードシカムイ) adalah gurita raksasa dalam kisah rakyat Ainu, dan namanya berarti \"dewa yang memiliki banyak ekor\" (尾がたくさんある神).",
+          "quote": "ラートシカムイ（ラードシカムイ）は、アイヌ民話に伝わる巨大な蛸。 ... ラートシカムイは「尾がたくさんある神」の意。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c07",
+          "source_id": "ratoshikamuy-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is handed down that when Huri Kamuy was pulled into the sea it braced itself by moving its tail feathers (ishi in Ainu) left and right (kari), and so the sea in that area came to be called Ishikari (石狩).",
+          "statement_id": "Dikatakan bahwa ketika Huri Kamuy hampir tertarik ke dalam laut, ia menggerakkan bulu ekornya (isi dalam bahasa Ainu) ke kiri dan kanan (kari) untuk bertahan, sehingga laut di sekitar situ disebut Ishikari (石狩).",
+          "quote": "フリカムイが海中に引き込まれた際、尾羽（アイヌ語でイシ）を左右に動かして（アイヌ語でカリ）ふんばったため、その付近の海を石狩（いしかり）と呼ぶようになったと言い伝わる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c08",
+          "source_id": "ratoshikamuy-s2",
+          "host": "en.wikipedia.org",
+          "statement": "English Wikipedia, in its Akkorokamui article, notes that a giant octopus also occurs in Ainu lore under the name Rātoshikamui, meaning \"many-tailed god\" in Ainu (the Ainu romanization is unverified).",
+          "statement_id": "Wikipedia bahasa Inggris, dalam artikel Akkorokamui, mencatat bahwa seekor gurita raksasa juga muncul dalam tradisi Ainu dengan nama Rātoshikamui, yang berarti \"dewa berekor banyak\" dalam bahasa Ainu (romanisasi Ainu-nya belum diverifikasi).",
+          "quote": "A giant octopus also occurs in Ainu lore under the name of Rātoshikamui (ラートシカムイ, Ainu romanization unverified, but meaning \"many-tailed god\" in Ainu).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c09",
+          "source_id": "ratoshikamuy-s2",
+          "host": "en.wikipedia.org",
+          "statement": "English Wikipedia records the variant pronunciation Rādoshikamui (ラードシカムイ), which claimed to be the strongest being of the sea, while the land champion was the huri bird measuring 7 ri (27.5 km), and the two were at odds over their boasts.",
+          "statement_id": "Wikipedia bahasa Inggris mencatat ucapan varian Rādoshikamui (ラードシカムイ) sebagai makhluk yang mengaku terkuat di laut, sedangkan juara di darat adalah burung huri yang lebarnya 7 ri (27,5 km), dan keduanya berseteru karena saling membanggakan diri.",
+          "quote": "The Rādoshikamui (ラードシカムイ, variant pronunciation) purported to be the strongest being of the sea, while the land champion, the  huri bird measured 7 ri (27.5km), and they were at odds with each other over their boast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratoshikamuy-c10",
+          "source_id": "ratoshikamuy-s3",
+          "host": "en.wikipedia.org",
+          "statement": "English Wikipedia, in its Huri article, records an onomastic tale of Ishikari explaining that the name derived from the effort the huri put out with its tail-feathers in a match of strength against the giant octopus Rātoshikamui.",
+          "statement_id": "Wikipedia bahasa Inggris, dalam artikel Huri, mencatat kisah asal nama Ishikari: nama itu berasal dari usaha huri mengerahkan bulu ekornya dalam adu kekuatan melawan gurita raksasa Rātoshikamui.",
+          "quote": "An onomastic tale concerning Ishikari explains that the name derived from the effort the huri put out with its tail-feathers in a match of strength against the giant octopus monster Rātoshikamui (ラートシカムイ; Ainu romanization unverified).",
+          "context": "traditional-belief",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "f41b0fa74f555451eee6779635bb5782b7db50c7188bdfdd860f3c1ae8905ba8"
+      "images": []
     },
     {
       "slug": "rep-un-kamuy",
-      "file": "batch-058-fix-3.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "e4bb8b3f6158c24904c9d703a9a1a4b0bed2c13a6e9907d18f7ee3cfe3c4165b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rep-un-kamuy-c01",
@@ -1921,34 +2335,108 @@
           "quote": "Moved by this display of piety, Rep-un-Kamuy assures the humans that the bounty of the sea will keep them from famine.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c07",
+          "source_id": "rep-un-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "English Wikipedia states that Rep-un-kamuy is an important figure in Ainu mythology because the sea offers opportunities for harvests not found on land: fishing, whale hunting, and maritime trading expeditions.",
+          "statement_id": "Wikipedia bahasa Inggris menyatakan Rep-un-kamuy adalah tokoh penting dalam mitologi Ainu karena laut menyediakan kesempatan panen yang tidak ada di darat: menangkap ikan, berburu paus, dan pelayaran dagang.",
+          "quote": "Rep-un-Kamuy is an important figure in Ainu mythology because the sea represents opportunities for harvests that could not be found on land:  fishing, the hunting of whales, and maritime trading expeditions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c08",
+          "source_id": "rep-un-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to English Wikipedia, Rep-un-kamuy is also credited with saving a village on Hokkaido from the giant spider Yaushikep by pulling it into the sea from Uchiura Bay and transforming it into the octopus-like Akkorokamui.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, Rep-un-kamuy juga dianggap menyelamatkan sebuah desa di Hokkaido dari laba-laba raksasa Yaushikep dengan menariknya ke laut dari Teluk Uchiura dan mengubahnya menjadi makhluk mirip gurita, Akkorokamui.",
+          "quote": "Rep-un-Kamuy is also credited with saving a village on Hokkaido from a giant spider, Yaushikep, by pulling it into the sea from Uchiura Bay and transforming it into the octopus-like creature Akkorokamui.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c09",
+          "source_id": "rep-un-kamuy-s2",
+          "host": "archive.org",
+          "statement": "John Batchelor’s Ainu-English-Japanese dictionary (1905) glosses Rep-un-kamui as \"the sea gods\".",
+          "statement_id": "Kamus Ainu-Inggris-Jepang karya John Batchelor (1905) memberi arti Rep-un-kamui sebagai \"para dewa laut\".",
+          "quote": "Rep-un-kamui, ... n. The sea gods.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c10",
+          "source_id": "rep-un-kamuy-s2",
+          "host": "archive.org",
+          "statement": "The same dictionary records Rep-un-riri-kata-inao-uk-kamui as the name of the chief of the sea-gods in the Ainu pantheon.",
+          "statement_id": "Kamus yang sama mencatat Rep-un-riri-kata-inao-uk-kamui sebagai nama pemimpin para dewa laut dalam jajaran dewa Ainu.",
+          "quote": "Rep-un-riri-kata-inao-uk-kamui, ... n. The name of the chief of the sea-gods in the Ainu pantheon.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c11",
+          "source_id": "rep-un-kamuy-s3",
+          "host": "archive.org",
+          "statement": "John Batchelor (1901) writes that the god he calls Repun-riri-kata inao uk kamui is the very greatest and most highly esteemed of all the gods of the sea, to whom every other owes allegiance and is subject.",
+          "statement_id": "John Batchelor (1901) menulis bahwa dewa yang ia sebut Repun-riri-kata inao uk kamui adalah yang terbesar dan paling dihormati di antara semua dewa laut, dan setiap dewa lain tunduk kepadanya.",
+          "quote": "Repun-riri-kata inao uk kamui, ... This is the very greatest and most highly esteemed of all the gods of the sea, and to him every other owes allegiance, and is necessarily subject.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c12",
+          "source_id": "rep-un-kamuy-s3",
+          "host": "archive.org",
+          "statement": "According to Batchelor, whenever he allows himself to be seen by man it is always in the bodily form of the largest of large whales; he is said to be well disposed towards mankind, so he is very frequently worshipped by Ainu living on the sea-coast.",
+          "statement_id": "Menurut Batchelor, bila ia membiarkan dirinya terlihat manusia, wujudnya selalu paus terbesar dari yang besar; ia dikatakan berniat baik kepada manusia, sehingga sangat sering dipuja oleh orang Ainu yang tinggal di pesisir.",
+          "quote": "Whenever he allows himself to be seen by man, it is always in the bodily form of the largest of large whales. As he is said to be well disposed towards mankind, he is very frequently worshipped by those Ainu who dwell upon the sea-coast.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c13",
+          "source_id": "rep-un-kamuy-s3",
+          "host": "archive.org",
+          "statement": "Batchelor records that while the young men are away in their boats, the old men are often seen sitting by the seaside making inao and praying to this god for fair weather and a large catch of fish.",
+          "statement_id": "Batchelor mencatat bahwa ketika para pemuda pergi dengan perahu, para lelaki tua sering terlihat duduk di tepi laut membuat inao (persembahan serut kayu) dan berdoa kepada dewa ini untuk cuaca baik dan hasil tangkapan ikan yang banyak.",
+          "quote": "While the young men are away in their boats pursuing their occupations, the old men may often be seen sitting by the seaside making inao, and praying to this god for fair weather and a large catch of fish.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rep-un-kamuy-c14",
+          "source_id": "rep-un-kamuy-s3",
+          "host": "archive.org",
+          "statement": "Batchelor writes that this god is said to have two special servants who act as messengers between himself and mankind; the first is called Rep-un-kontukai, who always appears in the form of a tortoise and is frequently worshipped.",
+          "statement_id": "Batchelor menulis bahwa dewa ini dikatakan memiliki dua pelayan khusus yang bertindak sebagai pembawa pesan antara dirinya dan manusia; yang pertama bernama Rep-un-kontukai, yang selalu tampil dalam wujud kura-kura dan sering dipuja.",
+          "quote": "This god is said to have two special servants, who are supposed to act as messengers or angels between himself and ... The first of these is called Rep-un-kontukai, ... He always appears in the form of a tortoise, and is frequently worshipped.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1e3c87ba946d512d8341cedee707fec15678899145e11ee9eb89fc2e5b17b754"
+      "images": []
     },
     {
       "slug": "saho-hime",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "fca086354e95fed49fc9d6fd4c82fa033a98c2a0c231a396bd0abb76f0364091",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "saho-hime-c01",
           "source_id": "saho-hime-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Saho-hime is a spring goddess paired with the autumn goddess Tatsuta-hime.",
-          "statement_id": "Saho-hime adalah dewi musim semi yang dipasangkan dengan dewi musim gugur Tatsuta-hime.",
+          "statement": "Saho-hime (佐保姫) is the goddess who presides over spring, set against Tatsuta-hime (龍田姫), the goddess of autumn.",
+          "statement_id": "Saho-hime (佐保姫) adalah dewi pengatur musim semi, yang dipasangkan dengan Tatsuta-hime (龍田姫), dewi musim gugur.",
           "quote": "佐保姫（さほひめ）は、春をつかさどる女神である。秋の女神である龍田姫（立田姫、たつた姫）と対置される。",
           "context": "religious-tradition",
           "status": "exact"
@@ -1957,8 +2445,8 @@
           "id": "saho-hime-c02",
           "source_id": "saho-hime-s1",
           "host": "ja.wikipedia.org",
-          "statement": "An earlier poem associates her with Mount Saho and autumn foliage.",
-          "statement_id": "Puisi lebih awal mengaitkannya dengan Gunung Saho dan dedaunan musim gugur.",
+          "statement": "She was originally the divine spirit of Mount Saho (佐保山), and in the 948 Yōzei-in Ichinomiya Himegimi Utaawase (陽成院一宮姫君歌合) she appears in an autumn poem.",
+          "statement_id": "Semula ia adalah roh ilahi Gunung Saho (佐保山), dan dalam Yōzei-in Ichinomiya Himegimi Utaawase (陽成院一宮姫君歌合) tahun 948 ia muncul dalam sebuah puisi musim gugur.",
           "quote": "元は佐保山の神霊であり、948年の『陽成院一宮姫君歌合』では秋の歌に登場している。",
           "context": "religious-tradition",
           "status": "exact"
@@ -1967,9 +2455,9 @@
           "id": "saho-hime-c03",
           "source_id": "saho-hime-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Her spring association draws on the eastern location of Mount Saho and Five Elements symbolism.",
-          "statement_id": "Hubungan musim seminya mengacu pada letak timur Gunung Saho dan simbolisme Lima Unsur.",
-          "quote": "五行説では春は東の方角にあたり、平城京の東に佐保山（現在の奈良県法華寺町法華町）があるためにそこに宿る神霊佐保姫を春の女神と呼ぶようになった。",
+          "statement": "In Five Elements theory spring corresponds to the east, and because Mount Saho lies east of Heijō-kyō, the divine spirit dwelling there came to be called Saho-hime, the goddess of spring; she is imagined as a youthful woman wearing a robe of soft white spring mist.",
+          "statement_id": "Menurut teori Lima Unsur, musim semi sesuai dengan arah timur, dan karena Gunung Saho terletak di timur Heijō-kyō, roh ilahi yang bersemayam di sana disebut dewi musim semi Saho-hime; ia dibayangkan sebagai perempuan muda yang mengenakan jubah kabut musim semi yang putih dan lembut.",
+          "quote": "五行説では春は東の方角にあたり、平城京の東に佐保山（現在の奈良県法華寺町法華町）があるためにそこに宿る神霊佐保姫を春の女神と呼ぶようになった。白く柔らかな春霞の衣をまとう若々しい女性と考えられる。",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -1977,15 +2465,84 @@
           "id": "saho-hime-c04",
           "source_id": "saho-hime-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Poetry makes her a weaver of spring mist, contrasted with Tatsuta’s autumn dyeing.",
-          "statement_id": "Puisi menjadikannya penenun kabut musim semi, dibandingkan dengan pewarnaan musim gugur Tatsuta.",
+          "statement": "Because Tatsuta-hime is skilled at sewing and dyeing, her counterpart Saho-hime is positioned as a goddess of dyeing and weaving and has been worshipped since antiquity; in waka, the autumn leaves of Mount Tatsuta are dyed by Tatsuta-hime while the gauze-like spring mist around Mount Saho is woven by Saho-hime.",
+          "statement_id": "Karena Tatsuta-hime ahli menjahit dan mencelup kain, Saho-hime sebagai pasangannya ditempatkan sebagai dewi pencelupan dan penenunan dan dipuja sejak lama; dalam waka, daun musim gugur Gunung Tatsuta dicelup oleh Tatsuta-hime, sedangkan kabut musim semi setipis kain yang melingkari Gunung Saho ditenun oleh Saho-hime.",
           "quote": "竜田姫が裁縫や染めものを得意とする神であるため、対となる佐保姫も染めものや機織を司る女神と位置づけられ古くから信仰を集めている。古来その絶景で名高い竜田山の紅葉は竜田姫が染め、佐保山を取り巻く薄衣のような春霞は佐保姫が織り出すものと和歌に歌われる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "saho-hime-c05",
+          "source_id": "saho-hime-s2",
+          "host": "kotobank.jp",
+          "statement": "The Daijisen (Shogakukan) explains Saho-hime as the deity who presides over spring; the name comes from Mount Saho lying east of the capital at Nara, and when directions are matched to the seasons, east corresponds to spring. She is also called Saho-gami (佐保神) and Saohime (さおひめ).",
+          "statement_id": "Daijisen (Shogakukan) menerangkan Saho-hime sebagai dewa yang mengatur musim semi; sebutan itu berasal dari letak Gunung Saho di sebelah timur ibu kota Nara, dan bila arah dicocokkan dengan musim, timur sesuai dengan musim semi. Ia disebut juga Saho-gami (佐保神) dan Saohime (さおひめ).",
+          "quote": "春をつかさどる神。佐保山は奈良の都の東方にあり、方角を四季に配すれば春にあたるところからいう。春の女神。佐保神。さおひめ。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c06",
+          "source_id": "saho-hime-s2",
+          "host": "kotobank.jp",
+          "statement": "The Nihon Kokugo Daijiten (selected edition) records Saho-hime as the goddess who presides over spring, also called Saho-gami (佐保神), and as a spring season word (kigo).",
+          "statement_id": "Nihon Kokugo Daijiten (edisi pilihan) mencatat Saho-hime sebagai dewi pengatur musim semi, juga disebut Saho-gami (佐保神), dan sebagai kata musim (kigo) musim semi.",
+          "quote": "〘 名詞 〙 ① 春をつかさどる女神。春の女神。佐保神。《 季語・春 》",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c07",
+          "source_id": "saho-hime-s2",
+          "host": "kotobank.jp",
+          "statement": "The usage note of the Nihon Kokugo Daijiten calls Saho-hime a word that deifies Mount Saho, a poetic place-name (utamakura) of Yamato Province, set against the autumn goddess Tatsuta-hime; since Mount Tatsuta lies west of Heijō-kyō and Mount Saho east, she became established as a spring goddess by Yin-Yang and Five Elements theory, and is often mentioned with green willows and mist.",
+          "statement_id": "Catatan kebahasaan Nihon Kokugo Daijiten menyebut Saho-hime sebagai kata yang mendewakan Gunung Saho, utamakura (tempat puisi) di Provinsi Yamato, yang berpasangan dengan dewi musim gugur Tatsuta-hime; karena Gunung Tatsuta di barat Heijō-kyō dan Gunung Saho di timur, ia mapan sebagai dewi musim semi menurut teori Yin-Yang dan Lima Unsur, dan sering disebut bersama willow hijau dan kabut.",
+          "quote": "大和国の歌枕、佐保山を神格化した語。秋の女神である龍田姫に対する。龍田山が平城京の西にあるのに対して佐保山は東にあるため、陰陽五行説から春の女神として定着し、青柳や霞などとともに詠まれることが多い。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c08",
+          "source_id": "saho-hime-s2",
+          "host": "kotobank.jp",
+          "statement": "The earliest example (初出の実例) cited by the Nihon Kokugo Daijiten for the spring-goddess sense is a poem in the Utsuho Monogatari (宇津保物語), around 970–999, in the chapter 春日詣.",
+          "statement_id": "Contoh tertua (初出の実例) untuk arti dewi musim semi yang dikutip Nihon Kokugo Daijiten adalah sebuah syair dalam Utsuho Monogatari (宇津保物語), sekitar tahun 970–999, bab 春日詣.",
+          "quote": "「さほひめはいくらの春を惜しめばか染めいだす花の八重に咲くらん」(出典：宇津保物語（970‐999頃）春日詣)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c09",
+          "source_id": "saho-hime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia says that the spring utamakura \"Saho\" is thought to have been set up in contrast to the autumn utamakura \"Tatsuta\".",
+          "statement_id": "Wikipedia bahasa Jepang menyebut bahwa utamakura musim semi \"Saho\" dianggap ditetapkan sebagai pasangan utamakura musim gugur \"Tatsuta\".",
+          "quote": "秋の歌枕「たつた」に対比する形で春の歌枕「さほ」は設定されたと考えられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c10",
+          "source_id": "saho-hime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Regarding her relation to 狭穂姫命 in the Kojiki, the Kojiki-den (古事記伝) entry on 沙本毘賣命 (Sahobime no Mikoto) in the Izakawa palace (Kaika Tennō) section includes notes such as \"in later poems there is something called Saho-hime\" and points out a connection with the Saho-hime said to preside over spring.",
+          "statement_id": "Mengenai hubungannya dengan 狭穂姫命 dalam Kojiki, uraian tentang 沙本毘賣命 (Sahobime no Mikoto) pada bagian istana Izakawa (Kaika Tennō) dalam Kojiki-den (古事記伝) memuat catatan seperti \"dalam puisi zaman kemudian ada yang disebut Saho-hime\" dan menunjuk keterkaitannya dengan Saho-hime yang mengatur musim semi.",
+          "quote": "『古事記』の狭穂姫命との関係について、『古事記伝』の伊邪河宮（開化天皇）の条にある沙本毘賣命の記述には「後世の歌に、佐保姫と云ことあり」等の記述があり、春をつかさどるとされる佐保姫との関連性を指摘している。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saho-hime-c11",
+          "source_id": "saho-hime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Taira no Kanemori’s poem from the Shika Wakashū (詞花集), the fresh young leaves of the willow are likened to thread dyed by Saho-hime.",
+          "statement_id": "Dalam syair Taira no Kanemori dari Shika Wakashū (詞花集), daun muda willow yang segar dibandingkan dengan benang yang dicelup Saho-hime.",
+          "quote": "佐保姫の糸染め掛くる青柳を吹きな乱りそ春の山風　平兼盛『詞花集』 （佐保姫が染めた糸を掛けた柳の枝を吹き乱さないでおくれ春の山風よ）ここでは柳の瑞々しい若葉を佐保姫の染めた糸にたとえている。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "84ef8efbd4cebe871d08dea655d467072d4ee9c7d2d97aacb5a4fdccd891cb36"
+      "images": []
     },
     {
       "slug": "samebito",
@@ -2072,27 +2629,22 @@
     },
     {
       "slug": "sanmoto-gorozaemon",
-      "file": "batch-058-fix-3.md",
+      "file": "batch-058-fix-5.md",
+      "entry_sha256": "f2a0f14528d8de9466a59c8354d0a6414eb2075f180b71b55cf8c63452817ef0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sanmoto-gorozaemon-c01",
           "source_id": "sanmoto-gorozaemon-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Sanmoto Gorōzaemon is a yōkai in the Edo narrative Inō Mononokeroku.",
-          "statement_id": "Sanmoto Gorōzaemon adalah yōkai dalam narasi Edo Inō Mononokeroku.",
+          "statement": "Sanmoto Gorōzaemon (山本五郎左衛門) is a yōkai who appears in the mid-Edo yōkai tale Inō Mononoke-roku (稲生物怪録).",
+          "statement_id": "Sanmoto Gorōzaemon (山本五郎左衛門) adalah yōkai yang muncul dalam kisah yōkai zaman Edo tengah, Inō Mononoke-roku (稲生物怪録).",
           "quote": "山本五郎左衛門（さんもと ごろうざえもん）は、江戸時代中期の日本の妖怪物語『稲生物怪録』に登場する妖怪。",
           "context": "traditional-belief",
           "status": "exact"
@@ -2101,8 +2653,8 @@
           "id": "sanmoto-gorozaemon-c02",
           "source_id": "sanmoto-gorozaemon-s1",
           "host": "ja.wikipedia.org",
-          "statement": "An illustration gives him a crow-tengu appearance, although his speech rejects a fox or tengu identity.",
-          "statement_id": "Ilustrasi memberinya penampilan tengu gagak, meskipun ucapannya menolak identitas rubah atau tengu.",
+          "statement": "In the yōkai painting owned by Hirata Shrine he is drawn as a three-eyed crow tengu, but according to the Inatei Mononoke-roku (稲亭物怪録) published in Tenmei 3 (held by the Keio University Mita Media Center) he says he is neither a kind of tengu nor of fox or tanuki.",
+          "statement_id": "Dalam lukisan yōkai milik Kuil Hirata ia digambarkan sebagai tengu gagak bermata tiga, tetapi menurut Inatei Mononoke-roku (稲亭物怪録) terbitan tahun Tenmei 3 (koleksi Keio University Mita Media Center) ia mengatakan dirinya bukan golongan tengu maupun rubah atau tanuki.",
           "quote": "平田神社所蔵の妖怪画では、三つの目を持つ烏天狗の姿として描かれているが、天明3年刊『稲亭物怪録』（慶應義塾大学三田メディアセンター所蔵）によれば、自分は天狗の類でも狐狸の類でもないと語っている。",
           "context": "traditional-belief",
           "status": "exact"
@@ -2111,8 +2663,8 @@
           "id": "sanmoto-gorozaemon-c03",
           "source_id": "sanmoto-gorozaemon-s1",
           "host": "ja.wikipedia.org",
-          "statement": "He reveals a contest requiring frightened young men and identifies Heitarō as a prospective victim.",
-          "statement_id": "Ia mengungkap pertandingan yang memerlukan pemuda ketakutan dan menyebut Heitarō sebagai calon korban.",
+          "statement": "On 30 July, closing a month of strange events, he appears to Heitarō as a samurai of about forty in kamishimo dress, gives his name, and says he had a bet with Shin'no Akugorō (神野悪五郎) over the headship of the demon kings by frightening one hundred brave boys.",
+          "statement_id": "Pada 30 Juli, sebagai penutup sebulan keanehan, ia menampakkan diri kepada Heitarō sebagai samurai berusia sekitar 40 tahun berpakaian kamishimo, menyebut namanya, dan mengaku bertaruh dengan Shin'no Akugorō (神野悪五郎) untuk kedudukan pemimpin raja iblis dengan cara membuat takut 100 anak pemberani.",
           "quote": "そして7月30日に1ヶ月間の怪異の締めくくりとして、裃を着た40歳ほどの武士の姿で平太郎の前に姿を現して名を名乗り、自分は神野悪五郎（しんの あくごろう）と魔王の頭（かしら）の座をかけて勇気ある少年を100人驚かせるという賭けをしていたことを語った。",
           "context": "traditional-belief",
           "status": "exact"
@@ -2121,15 +2673,94 @@
           "id": "sanmoto-gorozaemon-c04",
           "source_id": "sanmoto-gorozaemon-s1",
           "host": "ja.wikipedia.org",
-          "statement": "After failing to frighten Heitarō, he leaves a mallet and promises assistance.",
-          "statement_id": "Setelah gagal menakuti Heitarō, ia meninggalkan palu dan menjanjikan bantuan.",
+          "statement": "He says he will cause no more strange events, but that if Heitarō is later attacked by Akugorō, striking the wooden mallet will make him appear and lend his help; he gives the mallet to Heitarō and leaves with the yōkai.",
+          "statement_id": "Ia mengatakan tidak akan menimbulkan keanehan lagi, tetapi bila kelak Heitarō diserang Akugorō, memukul palu kayu itu akan memunculkannya untuk membantu; ia memberikan palu itu kepada Heitarō dan pergi bersama para yōkai.",
           "quote": "そして、自分はもう怪異を起こすことはないが、今後、平太郎が悪五郎に襲われた場合には、これを打ち鳴らせば自分が現れて力を貸すと言って、木槌を平太郎に与え、妖怪たちを引き連れて去って行った。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c05",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Inatei Mononoke-roku (稲亭物怪録) held by the Hiroshima Prefectural Museum of History and Folklore the name is written 山ン本五郎左衛門, and in the Miyoshi Jitsuroku Monogatari (三次実録物語), said to have been left by the protagonist Inō Heitarō himself, he is called 山本太郎左衛門.",
+          "statement_id": "Dalam Inatei Mononoke-roku (稲亭物怪録) koleksi Hiroshima Prefectural Museum of History and Folklore namanya tertulis 山ン本五郎左衛門, dan dalam Miyoshi Jitsuroku Monogatari (三次実録物語), yang dikatakan ditinggalkan sendiri oleh tokoh utama Inō Heitarō, ia disebut 山本太郎左衛門.",
+          "quote": "広島県立歴史民俗資料館所蔵『稲亭物怪録』には「山ン本五郎左衛門」とある。また、『稲生物怪録』の主人公・稲生平太郎自身が遺したとされる『三次実録物語』では「山本太郎左衛門」とされる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c06",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Kan'en 2 (1749) at Miyoshi in Bingo Province (now Miyoshi City, Hiroshima Prefecture), he kept frightening Inō Heitarō (the childhood name of Inō Butayū, a real retainer of the Miyoshi domain) for thirty days with various strange events, but Heitarō endured.",
+          "statement_id": "Pada tahun Kan'en 2 (1749) di Miyoshi, Provinsi Bingo (kini Kota Miyoshi, Prefektur Hiroshima), ia terus menakut-nakuti Inō Heitarō (nama kecil Inō Butayū, samurai nyata Domain Miyoshi) selama 30 hari dengan berbagai keanehan, tetapi Heitarō bertahan.",
+          "quote": "寛延2年（1749年）、備後国三次（現在の広島県三次市）において、稲生平太郎（三次藩の実在の藩士・稲生武太夫の幼名）を、30日間におよび様々な怪異を起こして脅し続けたが、平太郎は耐え続けた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c07",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He says he travelled through India, China and Japan and tried to frighten Heitarō as the 86th person, but because Heitarō would not be startled he lost and would have to start again from the beginning, and he praised Heitarō’s strength of spirit.",
+          "statement_id": "Ia menceritakan bahwa ia berkelana ke India, Tiongkok, dan Jepang dan mencoba menakuti Heitarō sebagai orang ke-86, tetapi karena Heitarō sama sekali tidak terkejut ia kalah dan harus mengulang dari awal, lalu memuji keteguhan hati Heitarō.",
+          "quote": "そしてインド、中国、日本と渡り歩いて、86人目に平太郎を驚かそうとしたが、平太郎がどうしても驚かなかったため自分の負けとなり、自分はまた最初からやり直しをせねばならないと言って、平太郎の気丈さを褒めたたえた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c08",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "He gave a wooden mallet to Heitarō and left with the yōkai; the mallet was later handed down as a temple treasure at Kokuzen-ji in Higashi Ward, Hiroshima City.",
+          "statement_id": "Ia memberikan palu kayu kepada Heitarō dan pergi bersama para yōkai; palu itu kemudian diwariskan sebagai harta kuil di Kokuzen-ji, Distrik Higashi, Kota Hiroshima.",
+          "quote": "木槌を平太郎に与え、妖怪たちを引き連れて去って行った。この木槌は広島市東区の國前寺に寺宝として後に伝えられている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c09",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Hirata edition of the Inatei Mononoke-roku reprinted by Hirata Atsutane in 1806 (Bunka 3), when he appears Yamamoto introduces himself saying that he first came to Japan at the time of the Genpei War and that in Japan he is called Yamamoto Gorōzaemon.",
+          "statement_id": "Dalam edisi Hirata dari Inatei Mononoke-roku yang diterbitkan ulang oleh Hirata Atsutane pada tahun 1806 (Bunka 3), saat menampakkan diri Yamamoto memperkenalkan diri dengan mengatakan bahwa ia pertama kali datang ke Jepang pada masa Perang Genpei dan di Jepang dikenal sebagai Yamamoto Gorōzaemon.",
+          "quote": "1806年（文化3年）に平田篤胤が翻刻した『稲亭物怪録』平田版での山本は姿を現した際に「我日本へ初めて渡しは源平合戦の時なり」と「我は日本にては山本五郎左衛門という」と自身を紹介している。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c10",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Kaidan Inō Buyūden (怪談稲生武勇伝) published in 1886 (Meiji 19) and similar editions, before leaving he hands over not a wooden mallet but a scroll called \"Sōsei shinkyōjutsu\" (蒼生心経術), a spell for saving the sick, but says that Heitarō’s elder brother’s illness, a short life from birth, cannot be cured.",
+          "statement_id": "Dalam Kaidan Inō Buyūden (怪談稲生武勇伝) terbitan 1886 (Meiji 19) dan sejenisnya, sebelum pergi ia menyerahkan bukan palu kayu melainkan gulungan bernama \"Sōsei shinkyōjutsu\" (蒼生心経術), berisi mantra penyelamat orang sakit, tetapi ia mengatakan penyakit kakak Heitarō, yang berumur pendek sejak lahir, tidak dapat disembuhkan.",
+          "quote": "1886年（明治19年）に発行された『怪談稲生武勇伝』などでは去る前に木槌ではなく「蒼生心経術」と称する巻物を手渡した。これは病人を救う呪法を書いたものであったが、平太郎の兄の病気は生まれつき短命で救うことができないと伝えた。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c11",
+          "source_id": "sanmoto-gorozaemon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Negishi Yasumori’s essay Mimibukuro (耳嚢), there was a yōkai called Sanbon Gorōzaemon (三本五郎左衛門) on the mountain 比熊山 in Geishū (now western Hiroshima). After Inō Butayū spent a night on the mountain 引馬山 and returned home, various yōkai began to appear in his house, but Butayū never flinched; sixteen days later Gorōzaemon appeared, praised his boldness, and the strange events ceased.",
+          "statement_id": "Menurut esai Mimibukuro (耳嚢) karya Negishi Yasumori, di gunung 比熊山 di Provinsi Geishū (kini Hiroshima barat) ada yōkai bernama Sanbon Gorōzaemon (三本五郎左衛門). Setelah Inō Butayū bermalam di gunung 引馬山 dan pulang, berbagai yōkai muncul di rumahnya, tetapi Butayū tidak gentar; 16 hari kemudian Gorōzaemon muncul, memuji keberaniannya, dan keanehan pun berhenti.",
+          "quote": "根岸鎮衛の随筆『耳嚢』によれば、芸州（現・広島県西部）の比熊山に「三本五郎左衛門（さんぼんごろうざえもん）」という妖怪がいたとある。それによれば、稲生武太夫が引馬山で一晩を過ごして帰宅した後、家に様々な妖怪が現れるようになったが、武太夫は決して動じなかった。16日後、彼のもとに五郎左衛門が現れて彼の豪胆さを称え、その後は怪異もなくなったという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sanmoto-gorozaemon-c12",
+          "source_id": "sanmoto-gorozaemon-s2",
+          "host": "kotobank.jp",
+          "statement": "The Digital Daijisen Plus (Shogakukan) describes him as a yōkai who appears in the Edo-period yōkai tale \"Inō Mononoke-roku\" as the leader of the monsters; spellings such as 山ン本五郎左衛門 also exist, and the Edo-period essay \"Mimibukuro\" (耳袋) records a similar yōkai called 三本五郎左衛門.",
+          "statement_id": "Digital Daijisen Plus (Shogakukan) menerangkannya sebagai yōkai yang muncul dalam kisah yōkai zaman Edo \"Inō Mononoke-roku\" sebagai pemimpin para makhluk gaib; ada pula penulisan seperti 山ン本五郎左衛門, dan esai zaman Edo \"Mimibukuro\" (耳袋) memuat catatan tentang yōkai serupa bernama 三本五郎左衛門.",
+          "quote": "江戸時代の妖怪物語「稲生物怪録」に魔物たちの頭領として登場する妖怪。「山ン本五郎左衛門」などの表記もある。江戸時代の随筆「耳袋」にも類似の妖怪として「三本五郎左衛門」に関する記述がある。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3ce8961875c0911bf8d62f0b6d157ad4f43104f669dd2cec1b38e4061cf63354"
+      "images": []
     },
     {
       "slug": "sashikuni-okami",
