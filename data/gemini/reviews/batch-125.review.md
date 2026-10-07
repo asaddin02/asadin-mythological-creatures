@@ -1,6 +1,6 @@
 # Review batch-125
 
-Diperiksa 2026-10-02T16:06:15.050Z. Berkas: batch-125.md.
+Diperiksa 2026-10-07T05:08:37.786Z. Berkas: batch-125.md, batch-125-fix-1.md, batch-125-fix-2.md.
 
 ## gyes — lulus-otomatis
 
@@ -60,10 +60,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## kitovras — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -73,20 +70,24 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | kitovras-c04 | exact | ru.wikipedia.org | Kitovras is a prophetic being: captured by King Solomon, he astonishes him with his wisdom; in later tales Kitovras reigns "in the city of Lukorye", king of men by day and of beasts by night, and sometimes he abducts Solomon's wife and dies fighting him. | Китоврас является существом вещим: изловленный царём Соломоном, он удивляет его своей мудростью. В позднейших сказаниях Китоврас царствует «в граде Лукорье», где днём он царь над людьми, ночью — над зверями. Он иногда является похитителем жены у Соломона и гибнет в бою с ним. |
 | kitovras-c05 | exact | ru.wikipedia.org | King Solomon and Kitovras are depicted on a panel of the Vasilievsky Gates (1335–1336) of the Cathedral of St Sophia in Novgorod. | Царь Соломон и Китоврас. Клеймо Васильевских врат. 1335—1336 гг. Софийского собора в Новгороде. |
 | kitovras-c06 | exact | ru.wikipedia.org | Kitovras is a mythical being mentioned in Russian apocrypha. | мифическое существо, упоминаемое в русских апокрифах |
+| kitovras-c07 | exact | ru.wikisource.org | Kitovras is a fabulous being in Old Russian apocrypha. | Китоврас — баснословное существо в древнерусских апокрифах. |
+| kitovras-c08 | exact | ru.wikisource.org | His name is held to derive from the Greek kentauros ("centaur"). | Название его считают происшедшим от греческого κένταυρος — «кентавр». |
+| kitovras-c09 | exact | ru.wikisource.org | In the Jewish tales corresponding to the Russian apocrypha about Solomon and Kitovras, the demon Asmodeus appears in his place. | В еврейских сказаниях, соответствующих русским апокрифам о Соломоне и К., вместо него является демон Асмодей |
 
 
 ## lakanica — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lakanica-c01 | exact | en.wikipedia.org | Lakanica is a type of supernatural being from traditional Polish folklore, a spirit of fields or meadows; they are reputed to be shy, elusive creatures able to appear in human female form. | Lakanica is type of supernatural being from traditional Polish folklore who is a spirit of the fields or meadows. These are reputed to be shy and elusive creatures who can appear in human female form. |
 | lakanica-c02 | exact | en.wikipedia.org | The scholar Alanna Muniz notes the range of such creatures in stories from West Slavic cultures sharing a common non-hierarchical religion, and the lakanica was similar to other kinds of vily/rusalki. | Scholar Alanna Muniz notes the range of such creatures in stories from western Slavic cultures that share a common non-hierarchical religion. A Lakanica was similar to other types ovily/rusalki |
 | lakanica-c03 | exact | en.wikipedia.org | A lakanica and other mythological characters play a part in the 21st-century novel The Dollmaker of Kraków, set before and during World War II. | A Lakanica and other mythological characters play a role in the 21st century novel The Dollmaker of Kraków, set before and during World War II. |
+| lakanica-c04 | exact | en.wikipedia.org | According to the article, vily/rusalki are spirits "believed to reside in or near lakes, springs, rivers, and marshes, although they are also connected to fields, trees, and woods in some locations." | spirits who “are believed to reside in or near lakes, springs, rivers, and marshes, although they are also connected to fields, trees, and woods in some locations.” |
+| lakanica-c05 | exact | en.wikipedia.org | The novel The Dollmaker of Kraków by R. M. Romero was published by Delacorte Press in 2017. | R. M. Romero, The Dollmaker of Kraków. Delacorte Press. 2017. |
+| lakanica-c06 | exact | ematerials.ulethbridge.ca | According to Alanna Muniz's thesis, in Poland the rusalki are female spirits that reside in the forests, lakes and rivers and cause mischief or harm to people. | In Poland, the rusalki are female spirits that reside in the forests, lakes, and rivers and cause mischief or harm to people |
+| lakanica-c07 | exact | ematerials.ulethbridge.ca | The same thesis names the wilas as a popular type of rusalki in Poland: beautiful incarnations of dead maidens who lead boys and shepherds astray. | A popular type of rusalki in Poland are the wilas, beautiful incarnations of dead maidens who lead boys and shepherds astray |
 
 
 ## leiger — lulus-otomatis
@@ -156,16 +157,16 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## menninkainen — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | menninkainen-c01 | exact | en.wikipedia.org | In Finnish mythology and lore the menninkäinen were originally described as spirits living in isolated places and generally friendly to humans; over time the term evolved and the menninkäinen came to be described as goblin-like creatures. | In Finnish mythology and lore, the menninkäinen ... were originally described as spirits that lived in isolated places and were considered generally friendly to humans. Over time the mythology of the term evolved with the menninkäinen described as goblin-like creatures. |
 | menninkainen-c02 | exact | en.wikipedia.org | These creatures are believed to resemble leprechauns, guarding treasures and enjoying riddles and games of dominance. | These creatures are believed to be similar to leprechauns as they guard treasures and enjoy riddles and games of dominance. |
 | menninkainen-c03 | exact | en.wikipedia.org | Sources disagree on where menninkäinen live: some call them "industrial workers" in urban settings, others forest dwellers. | Sources disagree over where menninkäinen reside with some sources calling them "industrial workers" in urban environments, and others as forest dwellers. |
+| menninkainen-c04 | exact | en.wiktionary.org | According to Wiktionary, the word comes from Proto-Finnic *mendinkä(inen), borrowed from early Proto-Germanic *menþingō (later *minþingō); compare Icelandic minning ("memory (of the deceased)"). | From Proto-Finnic *mendinkä(inen), borrowed from early Proto-Germanic *menþingō (later *minþingō), compare Icelandic minning (“memory (of the deceased)”). |
+| menninkainen-c05 | exact | en.wiktionary.org | Wiktionary defines the menninkäinen (mythology) as a leprechaun-like creature that is friendly to humans and prefers darkness. | (mythology) a leprechaun-like creature that is friendly to humans and prefers darkness |
+| menninkainen-c06 | exact | en.wiktionary.org | Wiktionary also gives a second sense: goblin or bugbear (an imaginary evil personality). | goblin, bugbear (imaginary evil personality) |
 
 
 ## muroni — lulus-otomatis
@@ -229,10 +230,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## sexual-vampire — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -241,14 +239,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | sexual-vampire-c03 | exact | en.wikipedia.org | Myths about Chinese gods and immortals tell of sexual vampires who allegedly became xian; for instance, the legendary Yellow Emperor reached transcendence and ascended to heaven after intercourse with 1,200 young women. | Myths about Chinese gods and immortals recount sexual vampires who allegedly became xian transcendents. For instance, after having sexual intercourse with 1,200 young women, the legendary Yellow Emperor achieved spiritual transcendence and ascended into heaven. |
 | sexual-vampire-c04 | exact | en.wikipedia.org | Two Chinese mythological creatures are comparable to sex vampires; one is the jiangshi, which kills people to absorb their qi. | Two Chinese mythological creatures are comparable to sex vampires. A jiangshi ... kills people to absorb their qi |
 | sexual-vampire-c05 | exact | en.wikipedia.org | A Chinese sexual vampire is analogous to English terms such as psychic vampire, energy vampire, succubus or incubus, mythical beings that feed on human vital force, like traditional vampires that supposedly feed on blood. | A Chinese sexual vampire is analogous to English terms like psychic vampire, energy vampire, succubus, or incubus. These mythical beings feed on human vital forces, similar to traditional vampires (sanguinarians or hematophages) who purportedly feed on blood. |
+| sexual-vampire-c06 | exact | zh.wikisource.org | In the Sunü jing text, Sunü says that in "engaging the enemy" one should regard the enemy as tile or stone and oneself as gold or jade, and withdraw quickly when one's jing is stirred; one should mount a woman as if riding a galloping horse with a rotten rope, and if one treasures jing, one's life will have no limit. | 素女曰：「禦敵，當視敵如瓦石，自視如金玉，若其精動，當疾去其鄉。御女當如朽索御奔馬，如臨深坑下有刃，恐墜其中。若能愛精，命亦不窮也。」 |
 
 
 ## siuru — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -256,6 +252,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | siuru-c02 | exact | ru.wikipedia.org | The name Siuru is linked with the Finnish word kiuru, meaning "lark". | связывают с финским словом kiuru, которое означает «жаворонок». |
 | siuru-c03 | exact | ru.wikipedia.org | Whether Siuru is a person or a bird has been much debated by Estonians; those who think Siuru is a person point out that Kreutzwald calls her "the daughter of Taara". | Человек Сиуру или птица — этот вопрос много обсуждался эстонцами. Те, кто считает, что Сиуру — человек, ссылаются на то, что Крейцвальд называет её «дочкой Таары». |
 | siuru-c04 | exact | ru.wikipedia.org | In the Kalevipoeg canto: "The bird Siuru, daughter of Taara, blue-winged flier with silken feathers, hatched without a mother, grew up without brothers or kind sisters"; old Uku saw this and gave her wings lighter than the wind so the child could glide and fly. | Птица Сиуру, дочка Таары, Синекрылая летунья, С шёлковыми пёрышками, Проклевалась без родимой, Выросла без милых братев И без ласковых сестричек ... Это видел старый Уку, Подарил тебе он крылья, Сделал крылья легче ветра, Чтоб на них дитя скользило, Чтоб на крылышках летало |
+| siuru-c05 | exact | et.wikisource.org | According to Eisen, just as Vanemuine, Ilmarine and others were received from Fählmann, so Siuru was received from Kreutzwald. | Nagu Vanemuine, Ilmarine jne. Fählmannilt saadud, nii Siuru Kreutzwaldilt. |
+| siuru-c06 | exact | et.wikisource.org | According to Eisen, Siuru had no nest, and in this predicament Uku comes to her aid, makes her wings and thereby gives her the chance to fly far. | Siurul pesa puudunud, kuid selles kimbatuses tuleb talle Uku appi, kes talle tiivad valmistab ja sedaviisi võimaluse annab kaugele lennata. |
+| siuru-c07 | exact | et.wikisource.org | Eisen argues that Kreutzwald calls Siuru "Taara's daughter" just as a girl is called a "house hen"; in his view Siuru cannot be counted among humans and must remain a member of the bird family. | Nagu tütarlast kodukanaks nimetatakse, samuti nimetab Kreutzwald Siurut Taara tütreks. Kõigiti ei saa me Siurut arvata inimeste kilda, vaid peame teda jätma lindude suguvõsa liikmeks. |
+| siuru-c08 | exact | et.wikisource.org | According to Eisen, the material itself does exist in folk song, but everything connected with Siuru is absent there; everything else Kreutzwald added from his own poetic store. | Aine ise leidub küll, aga kõik, mis Siuruga ühenduses, puudub seal. Kõik muu on Kreutzwald oma luulepajast juurde lisanud. |
+| siuru-c09 | exact | et.wikisource.org | In canto XIX of the Kalevipoeg the grandfather prepares wind-wings for the daughter so that she may glide. | Vanaisa valmisteli Tütterelle tuuletiivad, Tuuletiivad, pilveviivad, Miska lapsi liugunekse |
+| siuru-c10 | exact | et.wikisource.org | In canto XIX of the Kalevipoeg the bird Siuru flies far, glides south, turns north, and flies over three worlds. | Siuru-lindu, sinisiiba, Lendas palju, liugles palju, Lendas, liugles lõuna alla, Pööras põiki põhja poole, Lendas üle kolme ilma. |
 
 
 ## stolems — lulus-otomatis
@@ -276,10 +278,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## stricha — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -288,6 +287,8 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | stricha-c03 | exact | uk.wikipedia.org | Dolya must always be propitiated with gifts; offerings to her were porridge, wool, thread, wine, kerchiefs, dishes, ribbons, bread, honey and milk, and literally dolya means "part, share". | Долю завжди треба умилостивлювати принесенням їй подарунків. В пожертву Долі приносилася: каша, вовна, нитки, вино, хустки, посуд, стрічки, хліб, мед, молоко. Дослівно доля означає «частина, частка». |
 | stricha-c04 | exact | uk.wikipedia.org | The goddess of good fate is imagined as a beautiful young woman spinning the strong, even golden thread of human fate; her symbols are the spindle, the spindle whorl and the ball of thread. | Богиня доброї долі уявляється в образі вродливої молодої жінки, яка пряде міцну рівну золоту нитку людської долі. Символами Долі є веретено, прясельце, клубок ниток. |
 | stricha-c05 | exact | uk.wikipedia.org | The day of Stritennia (1–2 February by the restored pagan calendar) is dedicated to Dolya-Stricha. | Долі-Стрічі присвячений день Стрітення (1-2 лютого за відновленим язичницьким календарем). |
+| stricha-c06 | exact | uk.wikipedia.org | According to the article, Stricha's rival is Nestricha, that is, evil fate (nedolia); there is a belief that Nestricha must be driven away and sent to one's enemies. | Суперниця Стрічі — Нестріча, тобто зла доля (недоля). Існує повір'я, що Нестрічу треба відганяти й посилати її ворогам. |
+| stricha-c07 | exact | uk.wikipedia.org | According to the article, Srecha (Ukrainian: happiness, luck) is a Serbian goddess of fate who spins the thread of life as a helper of the great goddess Mokosh. | Среча (укр. щастя, удача) — сербська богиня долі. Вона пряде нитку життя, як помічниця великої богині Мокош. |
 
 
 ## superstitions-of-russians — lulus-otomatis
@@ -306,10 +307,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## suur-harg — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -317,6 +315,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | suur-harg-c02 | exact | et.wikipedia.org | Variants of the song may describe how much meat and blood the ox had, what was made from it and which everyday or wondrous things came from it. | Laulu teisendites võib olla kirjeldatud, kui palju oli härjal liha ning verd, mida sellest tehti, milliseid tarbe- või imeasju härjast sai. |
 | suur-harg-c03 | exact | et.wikipedia.org | Elias Lönnrot placed motifs of the great-ox song at the start of the 20th runo of the Kalevala, where the ox is slaughtered in preparation for the wedding at Pohjola before the beer-making. | Elias Lönnrot paigutas suure härja laulu motiive eepose "Kalevala" 20. runo algusse, kus härg tapetakse Põhjala pulma ette valmistades enne õlletegu. |
 | suur-harg-c04 | exact | et.wikipedia.org | The band Oort recorded an arrangement of one variant of the song and named their album "Suur härg" after it. | Ansambel Oort on laulu ühe variandi töötlusena lindistanud ja selle järgi nimetanud oma plaadi "Suur härg". |
+| suur-harg-c05 | exact | www.gutenberg.org | In the Kalevala (Crawford translation), it took a weasel seven days to encircle the ox's neck and shoulders, and a swallow journeyed one whole day from one horn-tip to the other without stopping to rest. | Seven days it took a weasel To encircle neck and shoulders; One whole day a swallow journeyed From one horn-tip to the other, Did not stop between for resting. |
+| suur-harg-c06 | exact | www.gutenberg.org | In all of Sariola no butcher could be found who could kill the ox for Louhi. | Not in all of Sariola Could a butcher be discovered That could kill the ox for Louhi |
+| suur-harg-c07 | exact | www.gutenberg.org | At last a butcher was found, a slayer for the magic ox; nothing has been found so mighty that it has not found a master. | Thus at last they found a butcher, Found the magic ox a slayer. Nothing has been found so mighty That it has not found a master. |
+| suur-harg-c08 | exact | www.gutenberg.org | The ox furnished meat bountifully; his blood filled at least a thousand hogsheads, seven boatfuls, with a thousand weight of suet, for the banquet of Pohyola and the marriage-feast of Northland. | Bountifully meat was furnished; Filled at least a thousand hogsheads Of his blood were seven boatfuls, And a thousand weight of suet, For the banquet of Pohyola, For the marriage-feast of Northland. |
 
 
 ## syojatar — lulus-otomatis
@@ -353,10 +355,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ved-mythology — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -366,6 +365,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | ved-mythology-c04 | exact | en.wikipedia.org | The good vedi visited people and helped with daily work or troubles; each household had its own ved, so devoted that it often harmed other households and their vedi. | The good vedi visited people and helped them in their everyday work or troubles. Each household had its own ved who was very devoted to it, often to the extent that he did harm to other households and their vedi. |
 | ved-mythology-c05 | exact | en.wikipedia.org | Facing a flood, storm or other calamity, people prayed that God would let their vedi help them and others' vedi do them no harm; stories say the vedi then came quickly to the rescue. | If people expected a flood, storm, or other calamity, they would pray, "Grant, Oh God, that our vedi help us!" or "Dear God, grant that our vedi help us, and that their vedi do no harm to us!" Stories have it that after such prayers the vedi would quickly come to rescue. |
 | ved-mythology-c06 | exact | en.wikipedia.org | The last accounts of vedi visiting people date from the mid-19th century, and in the end only certain individuals could supposedly see them. | Last accounts of vedi visiting people date from the mid 19th century. In the end only certain individuals were allegedly able to see them. |
+| ved-mythology-c07 | exact | sv.wikipedia.org | The Swedish Wikipedia article says that the vedi are said to have been souls of old grandparents. | Det sägs att det var själar från gamla farföräldrar. |
 
 
 ## vitore — lulus-otomatis
@@ -384,10 +384,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q110202710 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -396,6 +393,7 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q110202710-c03 | exact | pl.wikipedia.org | It also frightened children by hissing in their ears and tickling the soles of their feet, groped women in their sleep, and hair grew wherever it touched. | Straszył też dzieci, sycząc im do ucha i łaskocząc je w podeszwy stóp, a kobiety obmacywał podczas snu. W miejscach przez niego dotkniętych wyrastały włosy. |
 | wd-q110202710-c04 | exact | be.wikipedia.org | In folk belief Valasen is a house spirit that disturbs and frightens people in their sleep at night; its behaviour resembles the Domovik and other sleep-terrifying beings such as Mara or Nachnitsa. | Валасень — у народных павер’ях хатні дух які па начах трывожіць і пужае людзей у сне. У сваіх паводзінах ён нагадвае Дамавіка, а таксама тых міфічных істот, якія пужаюць людзей у сне. Напрыклад Мара ці Начніца. |
 | wd-q110202710-c05 | exact | be.wikipedia.org | Valasen is imagined as a small ugly creature covered in thick, long dark fur, with seven-fingered hands and long claw-like nails, walking upright like a person. | Валасень уяўляецца невялікай пачварнай істотай, парослай густой і доўгай цёмнай поўсцю. Ён таксама мае сяміпалыя далоні і доўгія пазногці-кіпцюры. Ходзіць Валасень, як і людзі, выпрастаўшыся. |
+| wd-q110202710-c06 | exact | be.wikipedia.org | According to the Belarusian Wikipedia article, the Valasen tickles men's noses and scratches their faces with his claws, and tangles the hair of women and girls. | Мужчынам Валасень казыча насы і драпае кіпцюрамі па твары. Жанчынам і дзяўчатам ён кудлаціць валасы |
 
 
 ## wd-q17047430 — lulus-otomatis
@@ -429,16 +427,18 @@ Klaim 3 (exact 3), sumber 2, gambar 0.
 
 ## wd-q17167092 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q17167092-c01 | exact | be.wikipedia.org | In Belarusian mythology Pyachurnik is a spirit living in or behind the stove; it looks like a cat but walks on its hind legs and avoids being seen, and like the domovik it is the guardian of the house it lives in; as a mark of respect the housewife set out supper leftovers or milk on the stove at night. | Пячурнік — у беларускай міфалогіі дух, які жыве ў печы ці за печчу. Абліччам нагадвае ката, толькі ходзіць на задніх лапах, чалавеку стараецца не паказвацца. З’яўляўся, як і дамавік, апекуном таго дома, дзе жыў. У знак пашаны гаспадыня выстаўляла ноччу на печы пачастунак пячурніку — рэшткі вячэры альбо малако. |
 | wd-q17167092-c02 | exact | uk.wikipedia.org | In the Ukrainian article, the Pichnyk (like the domovyk) is the guardian of the household hearth, always in, on or behind the stove. | Пічник (як і домовик) — охоронець домашнього вогнища. Він постійно перебуває в печі, на печі чи за нею. |
 | wd-q17167092-c03 | exact | be.wikipedia.org | If not treated with due attention, the pyachurnik, from sorrow, revenge or offence, will howl and shout in the chimney and rattle the damper for several nights in a row. | Калі ж да яго паставяцца без належнай увагі, пячурнік ад суму, помсты ці крыўды будзе некалькі начэй запар выць і крычаць у коміне, грукатаць уюшкаю. |
+| wd-q17167092-c04 | exact | be.wikipedia.org | Having the ability to foresee trouble and unpleasantness, he starts moving furniture and knocking down and breaking dishes to warn the householders. | Маючы здольнасць прадбачыць бяду і непрыемнасці, пачынае пасоўваць мэблю, скідваць і разбіваць посуд — каб папярэдзіць гаспадароў. |
+| wd-q17167092-c05 | exact | be.wikipedia.org | But the pyachurnik is also inclined to joke: he carries a needed item away from its usual place and hides it. | Але пячурнік схільны і пажартаваць: зносіць патрэбную рэч са звычнага месца і хавае яе. |
+| wd-q17167092-c06 | exact | be.wikipedia.org | Folklorists recorded belief in the pyachurnik in the Maladzechna area. | Фалькларысты зафіксавалі веру ў пячурніка на Маладзечаншчыне. |
+| wd-q17167092-c07 | exact | uk.wikipedia.org | According to the Ukrainian article on his counterpart, the pichnyk, when the family goes to sleep he is busy with sweeping the stove, the hearth ledge and the floor carefully. | Коли родина лягає спати, тоді для нього безліч клопотів: дбайливо замести піч, припічок і долівку |
+| wd-q17167092-c08 | exact | uk.wikipedia.org | According to the same article, if the housewife is tidy the pichnyk helps her with housework; for a careless woman he can make the soot in the stove begin to smolder, or even cause a fire. | Якщо господиня охайна, пічник допомагає їй у хатній роботі. Непутящій жінці може зробити так, що сажа в печі почне тліти, а то й спричинить пожежу. |
 
 
 ## wd-q18407856 — lulus-otomatis
@@ -471,10 +471,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q32361104 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -483,14 +480,13 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q32361104-c03 | exact | ru.wikipedia.org | When building a house, horse, cow, sheep or goat hair was laid under the first logs on the posts sunk into the ground so the house would last, and a table was set with bread, salt and wine. | При строительстве жилища под первые брёвна на столбах, вкапываемых в землю, клали шерсть лошади, коровы, овцы или козы, чтобы дом был долговечным. При этом накрывали стол, ставили на него хлеб, соль, вино. |
 | wd-q32361104-c04 | exact | ru.wikipedia.org | The custom of putting animal hair and money in a house's foundation shows that in the past there were real, not symbolic, sacrifices to the house deity. | Обычай класть в основание дома шерсть животного и деньги говорит о том, что в старину были не символические, а реальные жертвоприношения божеству дома. |
 | wd-q32361104-c05 | exact | myv.wikipedia.org | In Erzya: Kudava is the guardian of the house, and the word Kudava is formed from two words, "kudo" and "ava". | Кудава — кудонь ванстыця. Кудава валось теевсь кавто валтнэнь эйстэ — «кудо» ды «ава». |
+| wd-q32361104-c06 | exact | ru.wikipedia.org | According to the article, people believed that in such a case Kudava would assist them in all their affairs and their home would prosper. | Люди верили, что Кудава в таком случае окажет им содействие во всех делах и в их доме будет благополучие. |
+| wd-q32361104-c07 | exact | ru.wikipedia.org | According to the article, Kudava is mentioned in spells, prayers, wedding songs and laments. | Кудаву упоминают в заговорах, молитвах, свадебных песнях и причитаниях. |
 
 
 ## wd-q4154464 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -499,14 +495,14 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q4154464-c03 | exact | ru.wikipedia.org | Kostomarov wrote of Dana: "like water, the beginning of things, eternally beautiful, eternally fresh, she was a maiden and at the same time a wife, that is, the consort of the sun." | О Дане Костомаров пишет: «как вода, начало вещей, вечно прекрасная, вечно свежая, она была дева и вместе жена, то есть супруга солнца». |
 | wd-q4154464-c04 | exact | uk.wikipedia.org | The Ukrainian article calls Dana a hypothetical water goddess of Slavic mythology, patroness of rivers, streams and waters, possibly also named Divanna, Divoniya or Diva. | — гіпотетична богиня води в слов'янській міфології, покровителька річок, струмків і водойм. Також її іменами можуть бути Діванна, Дівонія, Діва. |
 | wd-q4154464-c05 | exact | uk.wikipedia.org | Danylo Lepky, in his study of spring customs and beliefs in Rus, wrote that all the rusalkas obey one eldest lady, whom the common people in their tales simply call "Diva", "Divka", "Divchyna" or "Dana". | Данило Лепкий у розвідці «Весняні звичаї, обряди та віруваня на Руси» писав ... Всї Русалки слухають одної найстаршої панї, котру простий люд в своїх оповіданях називає просто «Діва», «Дівка», «Дівчина» або «Дана». |
+| wd-q4154464-c06 | exact | ru.wikisource.org | In Kostomarov's own text, the most important names for the female water being among the Slavs were Devoniya, Dzevanna and Dana. | Но важнейшею из номинаций женско-водного существа у славян была Девония, Дзеванна и Дана. |
+| wd-q4154464-c07 | exact | ru.wikisource.org | Kostomarov wrote that among the Eastern Slavs she probably bore, besides Mokosh, the name Dana and simply Deva, as shown by some place and water names, for example "devyi gory", "devichye pole" and the river "Devitsa". | у нас она, вероятно, кроме Мокошь, имела еще название Дана, и просто Дева, как это показывают некоторые урочища и названия вод, напр., девьи горы, девичье поле, река девица. |
+| wd-q4154464-c08 | exact | ru.wikipedia.org | According to the modern view in the article, the names Deva and Devoniya on which Kostomarov relies are not names of some separate female deity but epithets of Mokosh. | Имена Дева, Девония, к которым апеллирует Костомаров, стремясь обосновать свои построения, не являются именами какого-то отдельного женского божества, в действительности это эпитеты Мокоши. |
 
 
 ## wd-q45112940 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -514,6 +510,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | wd-q45112940-c02 | exact | be.wikipedia.org | She lives in the garden or field, a wicked short old woman with iron breasts; children who go into the garden or field without their parents' permission she catches with an iron hook, throws into her iron mortar, pounds and then eats. | Жыве ў агародзе ці ў полі. Злая старая бабка нізенькага росту, з жалезнымі грудзямі. Дзяцей, якія без дазволу бацькоў ходзяць у агарод ці ў поле, яна хапае жалезным круком, кідае ў сваю жалезную ступу, таўчэ там, а потым з'ядае. |
 | wd-q45112940-c03 | exact | be.wikipedia.org | According to the ethnographer Shakhovich, in other parts of Belarus she was believed to live in a well and to pull in children who peered into it. | Паводле звестак этнографа Шаховіча, у іншых мясцінах Беларусі верылі, быццам Жалезная баба жыве ў студні. Дзяцей, якія заглядаюць у студню, яна ўцягвае да сябе. |
 | wd-q45112940-c04 | exact | uk.wikipedia.org | The Ukrainian article notes that she bears some resemblance to the Rusalka and Baba Yaga. | Вона, також, має певну схожість з Русалкою та Бабоюю-Ягою. |
+| wd-q45112940-c05 | exact | uk.wikipedia.org | According to the Ukrainian article, she most often appears as a repulsive little old woman with shaggy, disheveled hair and huge iron breasts. | Найчастіше постає у вигляді огидної бабки невеликого зросту, з кошлатими розпатланим волоссям й величезними залізними грудьми. |
+| wd-q45112940-c06 | exact | uk.wikipedia.org | The article says she always carries an iron hook, a mortar and a pestle, with which she catches and pounds any disobedient children she has caught. | Завжди носить з собою залізний гак, ступку й товкач, якими вона ловить та дробить всіх спійманих неслухняних дітей. |
+| wd-q45112940-c07 | exact | uk.wikipedia.org | According to the article, she sometimes torments children before killing them, by strangling, drowning and other means; besides killing, she may also simply frighten them. | Часом, вона мучить дітей перед вбивством — душить їх, топить, і знущається іншими способами. Однак, крім вбивства дітей — може й просто налякати їх. |
 
 
 ## zwodziasz — lulus-otomatis
@@ -531,10 +530,7 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## afruvva — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -542,15 +538,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | afruvva-c02 | exact | fi.wikipedia.org | Afruvvá is a typical mermaid, a beautiful long-haired, fish-tailed woman who appears at sea. | Afruvvá on tyypillinen merenneito, kaunis, pitkätukkainen ja kalanpyrstöinen nainen, joka näyttäytyy merellä. |
 | afruvva-c03 | exact | fi.wikipedia.org | Originally afruvvá was probably a guardian spirit of seafarers who, by appearing to them, urged them to return to shore in time. | Alun perin afruvvá lienee esiintynyt merenkävijöitä suojelevana haltijana, joka näille näyttäytymällä kehottaa heitä palaamaan ajoissa rantaan. |
 | afruvva-c04 | exact | fi.wikipedia.org | Sometimes she is also said to capsize boats and cause other trouble, but this seafarer-harassing afruvvá has probably taken on traits of another water spirit of Scandinavian origin, the rávgá, classed among the dead. | Toisinaan hänen kylläkin mainitaan myös kaatavan veneitä ja tuottavan muuta häiriötä, mutta tämä merenkävijöitä ahdisteleva avruvvá lienee saanut toisen skandinaavisperäisen vedenhaltijan, vainajaolentoihin luokiteltavan rávgán piirteitä. |
+| afruvva-c05 | exact | web.archive.org | The Saami Cultural Encyclopedia, which the Wikipedia article cites, gives the same description: the afruvvá is a typical mermaid, a beautiful, long-haired, fish-tailed woman who shows herself at sea. | Afruvvá on tyypillinen merenneito, kaunis, pitkätukkainen ja kalanpyrstöinen nainen, joka näyttäytyy merellä. |
+| afruvva-c06 | exact | web.archive.org | The encyclopedia supposes that the afruvvá originally appeared as a guardian spirit of seafarers who, by showing itself to them, urged them to return to shore in good time. | Alun perin afruvvá lienee esiintynyt merenkävijöitä suojeleva haltijana, joka näille näyttäytymällä kehottaa heitä palaamaan ajoissa rantaa. |
 
 
 ## anki-kiele — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "mitologi Chukchi dan Eskimo".
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -559,19 +556,23 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | anki-kiele-c03 | exact | ru.wikipedia.org | According to a drawing by the Chukchi artist Onno (1912–1953), Anki-Kiele lives on the sea bed and has a huge shaggy head with two eyes and a large toothy maw. | Согласно рисунку чукчи Онно (1912—1953), Анки-Киеле живёт на дне моря, имеет огромную мохнатую голову с двумя глазами и большой зубастой пастью. |
 | anki-kiele-c04 | exact | ru.wikipedia.org | A drawing from V. G. Bogoraz's collection shows Anki-Kiele with the body of a fish. | Рисунок из собрания В. Г. Богораза ... изображает Анки-Киеле с телом рыбы. |
 | anki-kiele-c05 | exact | ru.wikipedia.org | Anki-Kiele could grant a good catch of fish or success in hunting other sea creatures, which could be obtained by sending a shaman's soul to him. | Анки-Киеле мог послать хороший улов рыбы или успех в добыче прочих морских обитателей. Этого можно было добиться, послав к нему душу шамана. |
+| anki-kiele-c06 | exact | archive.org | Bogoras records a "spirit" living in the sea (a'nqa-kal), pictured with the body of a fish and a very large shaggy head. | a “spirit” living in the sea (a'nqa-kal), has the body of a fish, with a very large shaggy head. |
+| anki-kiele-c07 | exact | archive.org | On another sketch Bogoras describes a large sea-spirit with very long hair on both his head and his buttocks. | On another sketch is represented a large sea-spirit, who has very long hair on both his head and his buttocks. |
 
 
 ## babaroga — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | babaroga-c01 | exact | sr.wikipedia.org | Babaroga is a being of South Slavic mythology once used to frighten children; she is often confused with the witch, although they are different mythological beings. | Бабарога је биће из митологије Јужних Словена. Њом су се некада плашила дјеца. Бабарога се често мијеша са вјештицом, иако су то различита митолошка бића. |
 | babaroga-c02 | exact | sr.wikipedia.org | In folk tradition she is described only as a frightening female being, a hunched, ugly, toothless old woman with a deformed face and a horn on her head (from which she takes her name), who hides in dark places and comes out only at night, frightening and snatching naughty children away to her lair. | У народним предањима се описује искључиво као застрашујуће женско биће у облику погрбљене, ружне, крезубе старице наказног лица са рогом на глави (по коме је и добила име), које се крије на тамним местима и излази само ноћу. Према народним предањима бабарога плаши и отима неваљалу дјецу, и одводи их у свој брлог. |
+| babaroga-c03 | exact | en.wikipedia.org | The Baba Yaga article lists Baba Roga among related figures, used to scare children in Bosnia, Croatia, Montenegro, North Macedonia and Serbia. | Baba Roga (used to scare children in Bosnia, Croatia, Montenegro, North Macedonia and Serbia) |
+| babaroga-c04 | exact | en.wikipedia.org | In Serbian, Croatian, Macedonian, Romanian and Bulgarian, baba means "grandmother" or "old woman". | In Serbian, Croatian, Macedonian, Romanian and Bulgarian, baba means 'grandmother' or 'old woman'. |
+| babaroga-c05 | exact | sr.wikipedia.org | The Serbian Wikipedia article on Baba Yaga says witches are also considered successors of the Slavic goddess Morana, who was portrayed with a horn, flew on a broom and sailed on an eggshell. | Такође се сматра да су вештице наследнице словенске богиње Моране, која је представљана са рогом, летела на метли и пловила на љусци од јајета |
+| babaroga-c06 | exact | sr.wikipedia.org | The article adds that Baba Roga, Baba Ruga, Baba Kozma and Baba Yaga could have arisen from her description. | Из њеног описа могле су произаћи Баба Рога, Баба Руга, Баба Козма и Баба Јага. |
+| babaroga-c07 | exact | hr.wikipedia.org | The Croatian Wikipedia article on Baba Jaga lists Baba Roga among the names of a figure who in Slavic mythology is a witch, sorceress or forest spirit. | Baba Jaga, Baba Roga, Ježi-babo ili Baba Zima u slavenskoj mitologiji vještica je, čarobnica ili šumski duh. |
 
 
 ## bohucovicky-fenomen — skip
@@ -587,10 +588,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## bozalosc — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -600,6 +598,8 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | bozalosc-c04 | exact | en.wikipedia.org | Biren Bonnerjea describes it as a little long-haired woman who weeps under the window of someone about to die. | Biren Bonnerjea describes it as a little woman with long hair, who cries under the window of someone who is about to die. |
 | bozalosc-c05 | exact | en.wikipedia.org | A parallel creature is the bože sedleško, described as a child in white clothes. | A parallel creature is bože sedleško, described as a child in white clothes. |
 | bozalosc-c06 | exact | en.wikipedia.org | The appearance of a bože sedleško signals coming misfortune: death, fire, epidemics, flood and so on. | An appearance of a bože sedleško manifests a coming misfortune: death, fire, epidemics, flood, etc. |
+| bozalosc-c07 | exact | archive.org | According to Bonnerjea's dictionary, among the Wends she is a messenger of death: a little woman with long hair who cries like a child beneath the window of a house where someone is about to die. | among the Wends she is a messenger of death. She is a little woman with long hair, who cries like a child, beneath the window of a house where someone is about to die. |
+| bozalosc-c08 | exact | en.wikipedia.org | Opinions on the etymology differ: some see it as a contraction of "Boža žaloć" ("God's Pity"); others note that the word "Glosc" meaning "lament" appears in manuscripts as early as the 17th century and that the attribute "Boža" ("God's") was added later in folklore. | In some opinions it is the contraction of "Boža žaloć", i.e., "God's Pity". Another opinion is that the word "Glosc" in the meaning of "lament" can be found in manuscripts of as early as the 17th century, and the attribute 'Boža' i.e., "God's" was added in folklore later |
 
 
 ## brodarica — lulus-otomatis

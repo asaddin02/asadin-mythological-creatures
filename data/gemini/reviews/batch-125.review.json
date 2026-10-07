@@ -1,8 +1,10 @@
 {
   "batch_id": "batch-125",
-  "checked_at": "2026-10-02T16:06:15.050Z",
+  "checked_at": "2026-10-07T05:08:37.786Z",
   "files": [
-    "batch-125.md"
+    "batch-125.md",
+    "batch-125-fix-1.md",
+    "batch-125-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -79,7 +81,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "559f4f0476ea63e47329367e24fce68aa4c396ca7a076e84363d21537b89fe4d"
     },
     {
       "slug": "hongatar",
@@ -183,7 +186,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "efc0aaaab6954585329177d84fe6f343cd8a4dd38685d5ffab8fdd4b40cfc270"
     },
     {
       "slug": "karakura",
@@ -257,7 +261,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0fd7dced8686f4b6690400e1e223f3ff3300d9bd229181c5ea4bcae991f97cfb"
     },
     {
       "slug": "kazan-the-cat",
@@ -276,24 +281,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b08eeac8ee71e1d8cf74be6dcbcc18ff47e64ef0a60eb0ea70fa4932752d361"
     },
     {
       "slug": "kitovras",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "e8c7c25687443bf2f122809c9e8586c0b98c033c65465e0186682b5b59a71e00",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kitovras-c01",
@@ -354,26 +355,51 @@
           "quote": "мифическое существо, упоминаемое в русских апокрифах",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kitovras-c07",
+          "source_id": "kitovras-s2",
+          "host": "ru.wikisource.org",
+          "statement": "Kitovras is a fabulous being in Old Russian apocrypha.",
+          "statement_id": "Kitovras adalah makhluk fantastis dalam apokrif Rusia Kuno.",
+          "quote": "Китоврас — баснословное существо в древнерусских апокрифах.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kitovras-c08",
+          "source_id": "kitovras-s2",
+          "host": "ru.wikisource.org",
+          "statement": "His name is held to derive from the Greek kentauros (\"centaur\").",
+          "statement_id": "Nama itu dianggap berasal dari kata Yunani kentauros (\"kentaur\").",
+          "quote": "Название его считают происшедшим от греческого κένταυρος — «кентавр».",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kitovras-c09",
+          "source_id": "kitovras-s2",
+          "host": "ru.wikisource.org",
+          "statement": "In the Jewish tales corresponding to the Russian apocrypha about Solomon and Kitovras, the demon Asmodeus appears in his place.",
+          "statement_id": "Dalam kisah-kisah Yahudi yang sepadan dengan apokrif Rusia tentang Salomo dan Kitovras, yang muncul menggantikannya adalah iblis Asmodeus.",
+          "quote": "В еврейских сказаниях, соответствующих русским апокрифам о Соломоне и К., вместо него является демон Асмодей",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "lakanica",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "4d698a9b6206c5365f164781a3768893917c466c4b0d2edac27a3b1d41c8e60f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lakanica-c01",
@@ -403,6 +429,46 @@
           "statement_id": "Lakanica dan tokoh mitologis lain berperan dalam novel abad ke-21 The Dollmaker of Kraków yang berlatar sebelum dan selama Perang Dunia II.",
           "quote": "A Lakanica and other mythological characters play a role in the 21st century novel The Dollmaker of Kraków, set before and during World War II.",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lakanica-c04",
+          "source_id": "lakanica-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, vily/rusalki are spirits \"believed to reside in or near lakes, springs, rivers, and marshes, although they are also connected to fields, trees, and woods in some locations.\"",
+          "statement_id": "Menurut artikel itu, vily/rusalki adalah roh yang dipercaya berdiam di dalam atau dekat danau, mata air, sungai, dan rawa, meski di beberapa tempat juga dikaitkan dengan ladang, pohon, dan hutan.",
+          "quote": "spirits who “are believed to reside in or near lakes, springs, rivers, and marshes, although they are also connected to fields, trees, and woods in some locations.”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lakanica-c05",
+          "source_id": "lakanica-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The novel The Dollmaker of Kraków by R. M. Romero was published by Delacorte Press in 2017.",
+          "statement_id": "Novel The Dollmaker of Kraków karya R. M. Romero diterbitkan oleh Delacorte Press pada 2017.",
+          "quote": "R. M. Romero, The Dollmaker of Kraków. Delacorte Press. 2017.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lakanica-c06",
+          "source_id": "lakanica-s2",
+          "host": "ematerials.ulethbridge.ca",
+          "statement": "According to Alanna Muniz's thesis, in Poland the rusalki are female spirits that reside in the forests, lakes and rivers and cause mischief or harm to people.",
+          "statement_id": "Menurut tesis Alanna Muniz, di Polandia rusalki adalah roh perempuan yang berdiam di hutan, danau, dan sungai serta menimbulkan kejahilan atau kerugian bagi manusia.",
+          "quote": "In Poland, the rusalki are female spirits that reside in the forests, lakes, and rivers and cause mischief or harm to people",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lakanica-c07",
+          "source_id": "lakanica-s2",
+          "host": "ematerials.ulethbridge.ca",
+          "statement": "The same thesis names the wilas as a popular type of rusalki in Poland: beautiful incarnations of dead maidens who lead boys and shepherds astray.",
+          "statement_id": "Tesis yang sama menyebut wila sebagai jenis rusalki yang populer di Polandia: penjelmaan indah gadis-gadis yang telah meninggal yang menyesatkan anak laki-laki dan gembala.",
+          "quote": "A popular type of rusalki in Poland are the wilas, beautiful incarnations of dead maidens who lead boys and shepherds astray",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -510,7 +576,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aef16e80a19b952436f9bbd5058d0bbac19bff57a7a9139975df35c00173d67f"
     },
     {
       "slug": "linchetto",
@@ -624,7 +691,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5c303876a978f1310b2b1d2121b095676aabc2a2c138d254b6eec2e183c07a96"
     },
     {
       "slug": "lugat",
@@ -718,7 +786,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6856bf10a4d5087ea6adcd959cb0cf5578cb0448eaa179773819fa31aac4e051"
     },
     {
       "slug": "maruda-slavic-demon",
@@ -792,24 +861,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "18f333e43ebe4872372eb3a5696adfcfba3859af7db05916b23d8ffbe3e64dc8"
     },
     {
       "slug": "menninkainen",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "5ec110e52314d5b97093230ba2585033658391a1e3ba7d983eb997f52e0843ad",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "menninkainen-c01",
@@ -838,6 +903,36 @@
           "statement": "Sources disagree on where menninkäinen live: some call them \"industrial workers\" in urban settings, others forest dwellers.",
           "statement_id": "Sumber-sumber berbeda pendapat tentang tempat tinggal menninkäinen: sebagian menyebut mereka \"pekerja industri\" di lingkungan kota, yang lain menyebut mereka penghuni hutan.",
           "quote": "Sources disagree over where menninkäinen reside with some sources calling them \"industrial workers\" in urban environments, and others as forest dwellers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menninkainen-c04",
+          "source_id": "menninkainen-s2",
+          "host": "en.wiktionary.org",
+          "statement": "According to Wiktionary, the word comes from Proto-Finnic *mendinkä(inen), borrowed from early Proto-Germanic *menþingō (later *minþingō); compare Icelandic minning (\"memory (of the deceased)\").",
+          "statement_id": "Menurut Wiktionary, kata ini berasal dari Proto-Finnik *mendinkä(inen), yang dipinjam dari Proto-Jermanik awal *menþingō (kemudian *minþingō); bandingkan bahasa Islandia minning (\"kenangan (tentang orang yang meninggal)\").",
+          "quote": "From Proto-Finnic *mendinkä(inen), borrowed from early Proto-Germanic *menþingō (later *minþingō), compare Icelandic minning (“memory (of the deceased)”).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "menninkainen-c05",
+          "source_id": "menninkainen-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary defines the menninkäinen (mythology) as a leprechaun-like creature that is friendly to humans and prefers darkness.",
+          "statement_id": "Wiktionary mendefinisikan menninkäinen (mitologi) sebagai makhluk mirip leprechaun yang ramah kepada manusia dan lebih menyukai kegelapan.",
+          "quote": "(mythology) a leprechaun-like creature that is friendly to humans and prefers darkness",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menninkainen-c06",
+          "source_id": "menninkainen-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary also gives a second sense: goblin or bugbear (an imaginary evil personality).",
+          "statement_id": "Wiktionary juga memberi arti kedua: goblin atau momok (sosok jahat dalam bayangan).",
+          "quote": "goblin, bugbear (imaginary evil personality)",
           "context": "scholarly-interpretation",
           "status": "exact"
         }
@@ -916,7 +1011,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6b77b75272628765fb6ea1ba195bc440757119335a4280b01a06c4a60266dbb8"
     },
     {
       "slug": "obyda",
@@ -990,7 +1086,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f8505a92287ffa9befdfae476bc7c389b63cb38f26d46605245ac349fdc78cbc"
     },
     {
       "slug": "otso",
@@ -1094,7 +1191,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5368217512fb4ff87eac446fddb6cdc3932f55118ba06f4023a4c05ddfd069e3"
     },
     {
       "slug": "pustecki",
@@ -1168,24 +1266,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f2f59e38a8e4706a4eef818ae5df31268447d553ae42ed35e269d8999e20dd2"
     },
     {
       "slug": "sexual-vampire",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "4b86d6c98a7410d7fade88f9e4e0a70ef2889b160add2b8da4d0d837f25f81b1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sexual-vampire-c01",
@@ -1236,26 +1330,31 @@
           "quote": "A Chinese sexual vampire is analogous to English terms like psychic vampire, energy vampire, succubus, or incubus. These mythical beings feed on human vital forces, similar to traditional vampires (sanguinarians or hematophages) who purportedly feed on blood.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "sexual-vampire-c06",
+          "source_id": "sexual-vampire-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Sunü jing text, Sunü says that in \"engaging the enemy\" one should regard the enemy as tile or stone and oneself as gold or jade, and withdraw quickly when one's jing is stirred; one should mount a woman as if riding a galloping horse with a rotten rope, and if one treasures jing, one's life will have no limit.",
+          "statement_id": "Dalam teks Sunü jing, Sunü berkata bahwa dalam \"menghadapi lawan\" orang hendaknya memandang lawan seperti genteng atau batu dan dirinya seperti emas atau giok, dan jika jing-nya tergerak segera menarik diri; menunggang perempuan hendaknya seperti menunggang kuda yang berlari kencang dengan tali lapuk, dan jika orang menghargai jing, hidupnya tidak berbatas.",
+          "quote": "素女曰：「禦敵，當視敵如瓦石，自視如金玉，若其精動，當疾去其鄉。御女當如朽索御奔馬，如臨深坑下有刃，恐墜其中。若能愛精，命亦不窮也。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "siuru",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "40e5cf5b685f4c091c2277001a85287a0884c574f3128b5fffdaaf6698307594",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "siuru-c01",
@@ -1294,6 +1393,66 @@
           "statement": "In the Kalevipoeg canto: \"The bird Siuru, daughter of Taara, blue-winged flier with silken feathers, hatched without a mother, grew up without brothers or kind sisters\"; old Uku saw this and gave her wings lighter than the wind so the child could glide and fly.",
           "statement_id": "Dalam nyanyian Kalevipoeg: \"Burung Siuru, putri Taara, si penerbang bersayap biru berbulu sutra, menetas tanpa ibu, tumbuh tanpa saudara dan saudari\"; Uku tua melihatnya dan memberinya sayap yang lebih ringan dari angin agar sang anak melayang dan terbang.",
           "quote": "Птица Сиуру, дочка Таары, Синекрылая летунья, С шёлковыми пёрышками, Проклевалась без родимой, Выросла без милых братев И без ласковых сестричек ... Это видел старый Уку, Подарил тебе он крылья, Сделал крылья легче ветра, Чтоб на них дитя скользило, Чтоб на крылышках летало",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c05",
+          "source_id": "siuru-s2",
+          "host": "et.wikisource.org",
+          "statement": "According to Eisen, just as Vanemuine, Ilmarine and others were received from Fählmann, so Siuru was received from Kreutzwald.",
+          "statement_id": "Menurut Eisen, seperti Vanemuine, Ilmarine dan lainnya yang berasal dari Fählmann, Siuru berasal dari Kreutzwald.",
+          "quote": "Nagu Vanemuine, Ilmarine jne. Fählmannilt saadud, nii Siuru Kreutzwaldilt.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c06",
+          "source_id": "siuru-s2",
+          "host": "et.wikisource.org",
+          "statement": "According to Eisen, Siuru had no nest, and in this predicament Uku comes to her aid, makes her wings and thereby gives her the chance to fly far.",
+          "statement_id": "Menurut Eisen, Siuru tidak punya sarang; dalam kesulitan itu Uku datang menolongnya, membuatkan sayap dan dengan begitu memberinya kesempatan terbang jauh.",
+          "quote": "Siurul pesa puudunud, kuid selles kimbatuses tuleb talle Uku appi, kes talle tiivad valmistab ja sedaviisi võimaluse annab kaugele lennata.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c07",
+          "source_id": "siuru-s2",
+          "host": "et.wikisource.org",
+          "statement": "Eisen argues that Kreutzwald calls Siuru \"Taara's daughter\" just as a girl is called a \"house hen\"; in his view Siuru cannot be counted among humans and must remain a member of the bird family.",
+          "statement_id": "Eisen berpendapat bahwa Kreutzwald menyebut Siuru \"putri Taara\" seperti seorang gadis disebut \"ayam rumah\"; menurutnya Siuru tidak dapat digolongkan sebagai manusia dan harus tetap dianggap anggota keluarga burung.",
+          "quote": "Nagu tütarlast kodukanaks nimetatakse, samuti nimetab Kreutzwald Siurut Taara tütreks. Kõigiti ei saa me Siurut arvata inimeste kilda, vaid peame teda jätma lindude suguvõsa liikmeks.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c08",
+          "source_id": "siuru-s2",
+          "host": "et.wikisource.org",
+          "statement": "According to Eisen, the material itself does exist in folk song, but everything connected with Siuru is absent there; everything else Kreutzwald added from his own poetic store.",
+          "statement_id": "Menurut Eisen, bahannya memang ada dalam lagu rakyat, tetapi semua yang berkaitan dengan Siuru tidak ada di sana; selebihnya ditambahkan Kreutzwald dari kantong puisinya sendiri.",
+          "quote": "Aine ise leidub küll, aga kõik, mis Siuruga ühenduses, puudub seal. Kõik muu on Kreutzwald oma luulepajast juurde lisanud.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c09",
+          "source_id": "siuru-s3",
+          "host": "et.wikisource.org",
+          "statement": "In canto XIX of the Kalevipoeg the grandfather prepares wind-wings for the daughter so that she may glide.",
+          "statement_id": "Dalam nyanyian kesembilan belas Kalevipoeg, sang kakek menyiapkan sayap angin bagi si anak perempuan agar ia dapat meluncur.",
+          "quote": "Vanaisa valmisteli Tütterelle tuuletiivad, Tuuletiivad, pilveviivad, Miska lapsi liugunekse",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siuru-c10",
+          "source_id": "siuru-s3",
+          "host": "et.wikisource.org",
+          "statement": "In canto XIX of the Kalevipoeg the bird Siuru flies far, glides south, turns north, and flies over three worlds.",
+          "statement_id": "Dalam nyanyian kesembilan belas Kalevipoeg, burung Siuru terbang jauh, meluncur ke selatan, berbelok ke utara, dan terbang melintasi tiga dunia.",
+          "quote": "Siuru-lindu, sinisiiba, Lendas palju, liugles palju, Lendas, liugles lõuna alla, Pööras põiki põhja poole, Lendas üle kolme ilma.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1392,24 +1551,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c8c0759af4792a4de661e4e9a8e0003c14076565b7aab7d0362e1e6effe76cfc"
     },
     {
       "slug": "stricha",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "7bb711b20746e4c5b93f6c704c5db632e287a787069a419c0df4f5ea4dde6008",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "stricha-c01",
@@ -1458,6 +1613,26 @@
           "statement": "The day of Stritennia (1–2 February by the restored pagan calendar) is dedicated to Dolya-Stricha.",
           "statement_id": "Hari Strітення (1–2 Februari menurut kalender pagan yang direkonstruksi) dipersembahkan untuk Dolya-Stricha.",
           "quote": "Долі-Стрічі присвячений день Стрітення (1-2 лютого за відновленим язичницьким календарем).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "stricha-c06",
+          "source_id": "stricha-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the article, Stricha's rival is Nestricha, that is, evil fate (nedolia); there is a belief that Nestricha must be driven away and sent to one's enemies.",
+          "statement_id": "Menurut artikel itu, lawan Stricha adalah Nestricha, yaitu nasib buruk (nedolia); ada kepercayaan bahwa Nestricha harus diusir dan dikirim kepada musuh.",
+          "quote": "Суперниця Стрічі — Нестріча, тобто зла доля (недоля). Існує повір'я, що Нестрічу треба відганяти й посилати її ворогам.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "stricha-c07",
+          "source_id": "stricha-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the article, Srecha (Ukrainian: happiness, luck) is a Serbian goddess of fate who spins the thread of life as a helper of the great goddess Mokosh.",
+          "statement_id": "Menurut artikel itu, Srecha (bahasa Ukraina: keberuntungan, kemujuran) adalah dewi nasib Serbia yang memintal benang kehidupan sebagai pembantu dewi besar Mokosh.",
+          "quote": "Среча (укр. щастя, удача) — сербська богиня долі. Вона пряде нитку життя, як помічниця великої богині Мокош.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -1536,24 +1711,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "67763edeb4175ca0c3dd6d872ba5638cf0b7e45ba40ef4a84de7fe24380c893c"
     },
     {
       "slug": "suur-harg",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "0dad70e4bdf53468254274816973b449aac4e593c0e57d5f2d648e9585bf0c12",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "suur-harg-c01",
@@ -1593,6 +1764,46 @@
           "statement_id": "Grup musik Oort merekam aransemen salah satu varian lagu ini dan menamai albumnya \"Suur härg\".",
           "quote": "Ansambel Oort on laulu ühe variandi töötlusena lindistanud ja selle järgi nimetanud oma plaadi \"Suur härg\".",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "suur-harg-c05",
+          "source_id": "suur-harg-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the Kalevala (Crawford translation), it took a weasel seven days to encircle the ox's neck and shoulders, and a swallow journeyed one whole day from one horn-tip to the other without stopping to rest.",
+          "statement_id": "Dalam Kalevala (terjemahan Crawford), seekor cerpelai memerlukan tujuh hari untuk mengitari leher dan bahu lembu itu, dan seekor burung layang-layang terbang sehari penuh dari ujung tanduk yang satu ke yang lain tanpa berhenti beristirahat.",
+          "quote": "Seven days it took a weasel To encircle neck and shoulders; One whole day a swallow journeyed From one horn-tip to the other, Did not stop between for resting.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suur-harg-c06",
+          "source_id": "suur-harg-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In all of Sariola no butcher could be found who could kill the ox for Louhi.",
+          "statement_id": "Di seluruh Sariola tidak ditemukan seorang penjagal yang sanggup membunuh lembu itu untuk Louhi.",
+          "quote": "Not in all of Sariola Could a butcher be discovered That could kill the ox for Louhi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suur-harg-c07",
+          "source_id": "suur-harg-s2",
+          "host": "www.gutenberg.org",
+          "statement": "At last a butcher was found, a slayer for the magic ox; nothing has been found so mighty that it has not found a master.",
+          "statement_id": "Akhirnya ditemukan seorang penjagal, pembunuh bagi lembu ajaib itu; tak ada yang begitu perkasa sehingga tidak menemukan tuannya.",
+          "quote": "Thus at last they found a butcher, Found the magic ox a slayer. Nothing has been found so mighty That it has not found a master.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suur-harg-c08",
+          "source_id": "suur-harg-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The ox furnished meat bountifully; his blood filled at least a thousand hogsheads, seven boatfuls, with a thousand weight of suet, for the banquet of Pohyola and the marriage-feast of Northland.",
+          "statement_id": "Daging lembu itu melimpah; darahnya memenuhi paling sedikit seribu tong besar, tujuh perahu penuh, ditambah seribu bobot lemak, untuk perjamuan Pohyola dan pesta pernikahan di Utara.",
+          "quote": "Bountifully meat was furnished; Filled at least a thousand hogsheads Of his blood were seven boatfuls, And a thousand weight of suet, For the banquet of Pohyola, For the marriage-feast of Northland.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1710,7 +1921,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6eaef34c5a18a7570498f1ea79cc6d6c3039d457dfdf48f0b1d712428ce34fd8"
     },
     {
       "slug": "urias",
@@ -1784,24 +1996,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84ccd613cfaa7f33c770ddb56b39890375ab0483853723a275fba1a55b3b5e29"
     },
     {
       "slug": "ved-mythology",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "d46d46731d45cb7004fe0b6d8ddee7823fe8c4e817eeb5c6c61a552c2ca86751",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ved-mythology-c01",
@@ -1861,6 +2069,16 @@
           "statement_id": "Kisah terakhir tentang vedi yang mengunjungi manusia berasal dari pertengahan abad ke-19, dan pada akhirnya konon hanya orang tertentu yang bisa melihat mereka.",
           "quote": "Last accounts of vedi visiting people date from the mid 19th century. In the end only certain individuals were allegedly able to see them.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ved-mythology-c07",
+          "source_id": "ved-mythology-s2",
+          "host": "sv.wikipedia.org",
+          "statement": "The Swedish Wikipedia article says that the vedi are said to have been souls of old grandparents.",
+          "statement_id": "Artikel Wikipedia berbahasa Swedia menyebut bahwa konon vedi adalah jiwa para kakek-nenek yang telah lama meninggal.",
+          "quote": "Det sägs att det var själar från gamla farföräldrar.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1938,24 +2156,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f0b72355f0a2a3307d52215c6ecbc52d32eaef6d87b343518f18521d0d74573c"
     },
     {
       "slug": "wd-q110202710",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "98dcd66a0b47de01f9bf18c8bc106a1426613b769864772a2e000f6cfa1d804e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q110202710-c01",
@@ -2004,6 +2218,16 @@
           "statement": "Valasen is imagined as a small ugly creature covered in thick, long dark fur, with seven-fingered hands and long claw-like nails, walking upright like a person.",
           "statement_id": "Valasen dibayangkan sebagai makhluk kecil buruk rupa berbulu gelap yang lebat dan panjang, bertelapak tangan tujuh jari dengan kuku panjang seperti cakar, dan berjalan tegak seperti manusia.",
           "quote": "Валасень уяўляецца невялікай пачварнай істотай, парослай густой і доўгай цёмнай поўсцю. Ён таксама мае сяміпалыя далоні і доўгія пазногці-кіпцюры. Ходзіць Валасень, як і людзі, выпрастаўшыся.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q110202710-c06",
+          "source_id": "wd-q110202710-s2",
+          "host": "be.wikipedia.org",
+          "statement": "According to the Belarusian Wikipedia article, the Valasen tickles men's noses and scratches their faces with his claws, and tangles the hair of women and girls.",
+          "statement_id": "Menurut artikel Wikipedia berbahasa Belarus, Valasen menggelitik hidung laki-laki dan mencakar wajah mereka dengan cakarnya, serta mengusutkan rambut perempuan dan gadis.",
+          "quote": "Мужчынам Валасень казыча насы і драпае кіпцюрамі па твары. Жанчынам і дзяўчатам ён кудлаціць валасы",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2092,11 +2316,13 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ca7e5549bb2f21fa365337a73742fee5566351cf971286be08fe6ca0a6eee9ef"
     },
     {
       "slug": "wd-q17116414",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "b1a13595260f07f63f98ff390b348235ad46da686527459bfef434efdbd452a9",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 3,
@@ -2146,20 +2372,15 @@
     },
     {
       "slug": "wd-q17167092",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "c6c26ce83783ba797cecfa03e86625b39f7a095a0de22fecff9c4d4b8e247c72",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 8,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q17167092-c01",
@@ -2188,6 +2409,56 @@
           "statement": "If not treated with due attention, the pyachurnik, from sorrow, revenge or offence, will howl and shout in the chimney and rattle the damper for several nights in a row.",
           "statement_id": "Bila tidak diperlakukan dengan perhatian semestinya, pyachurnik karena sedih, dendam, atau tersinggung akan melolong dan berteriak di cerobong serta menggerakkan penutup cerobong dengan berisik selama beberapa malam berturut-turut.",
           "quote": "Калі ж да яго паставяцца без належнай увагі, пячурнік ад суму, помсты ці крыўды будзе некалькі начэй запар выць і крычаць у коміне, грукатаць уюшкаю.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17167092-c04",
+          "source_id": "wd-q17167092-s1",
+          "host": "be.wikipedia.org",
+          "statement": "Having the ability to foresee trouble and unpleasantness, he starts moving furniture and knocking down and breaking dishes to warn the householders.",
+          "statement_id": "Karena mampu meramalkan bencana dan kesulitan, ia mulai menggeser perabot serta menjatuhkan dan memecahkan peralatan makan untuk memperingatkan para pemilik rumah.",
+          "quote": "Маючы здольнасць прадбачыць бяду і непрыемнасці, пачынае пасоўваць мэблю, скідваць і разбіваць посуд — каб папярэдзіць гаспадароў.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17167092-c05",
+          "source_id": "wd-q17167092-s1",
+          "host": "be.wikipedia.org",
+          "statement": "But the pyachurnik is also inclined to joke: he carries a needed item away from its usual place and hides it.",
+          "statement_id": "Namun pyachurnik juga suka bercanda: ia memindahkan barang yang diperlukan dari tempat biasanya dan menyembunyikannya.",
+          "quote": "Але пячурнік схільны і пажартаваць: зносіць патрэбную рэч са звычнага месца і хавае яе.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17167092-c06",
+          "source_id": "wd-q17167092-s1",
+          "host": "be.wikipedia.org",
+          "statement": "Folklorists recorded belief in the pyachurnik in the Maladzechna area.",
+          "statement_id": "Para ahli folklor mencatat kepercayaan pada pyachurnik di wilayah Maladzechna.",
+          "quote": "Фалькларысты зафіксавалі веру ў пячурніка на Маладзечаншчыне.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17167092-c07",
+          "source_id": "wd-q17167092-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the Ukrainian article on his counterpart, the pichnyk, when the family goes to sleep he is busy with sweeping the stove, the hearth ledge and the floor carefully.",
+          "statement_id": "Menurut artikel Ukraina tentang padanannya, pichnyk, ketika keluarga tidur ia sibuk menyapu tungku, tepi tungku, dan lantai dengan cermat.",
+          "quote": "Коли родина лягає спати, тоді для нього безліч клопотів: дбайливо замести піч, припічок і долівку",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17167092-c08",
+          "source_id": "wd-q17167092-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the same article, if the housewife is tidy the pichnyk helps her with housework; for a careless woman he can make the soot in the stove begin to smolder, or even cause a fire.",
+          "statement_id": "Menurut artikel yang sama, jika nyonya rumah rapi, pichnyk membantunya dalam pekerjaan rumah; pada perempuan yang ceroboh ia bisa membuat jelaga dalam tungku mulai membara, bahkan menyebabkan kebakaran.",
+          "quote": "Якщо господиня охайна, пічник допомагає їй у хатній роботі. Непутящій жінці може зробити так, що сажа в печі почне тліти, а то й спричинить пожежу.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2266,7 +2537,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0cec01605ce3973898ff3d512b262a76abd02943cbd5778c3e4eb53c7e51265c"
     },
     {
       "slug": "wd-q31817365",
@@ -2340,24 +2612,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dc2af1687671f2cff4ddb777fd7f22bbb1674c20064fa6a71757575a7d58848c"
     },
     {
       "slug": "wd-q32361104",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "6794f11b3f9fd85db7b39affb389a6f95967e28c16371bfdd40562e0dfd9b33e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q32361104-c01",
@@ -2408,26 +2676,41 @@
           "quote": "Кудава — кудонь ванстыця. Кудава валось теевсь кавто валтнэнь эйстэ — «кудо» ды «ава».",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "wd-q32361104-c06",
+          "source_id": "wd-q32361104-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the article, people believed that in such a case Kudava would assist them in all their affairs and their home would prosper.",
+          "statement_id": "Menurut artikel itu, orang percaya bahwa dalam kasus demikian Kudava akan membantu mereka dalam segala urusan dan rumah mereka akan sejahtera.",
+          "quote": "Люди верили, что Кудава в таком случае окажет им содействие во всех делах и в их доме будет благополучие.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q32361104-c07",
+          "source_id": "wd-q32361104-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the article, Kudava is mentioned in spells, prayers, wedding songs and laments.",
+          "statement_id": "Menurut artikel itu, Kudava disebut dalam mantra, doa, lagu pernikahan, dan ratapan.",
+          "quote": "Кудаву упоминают в заговорах, молитвах, свадебных песнях и причитаниях.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q4154464",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "aefd52e0a206cf6b9476cf063452ce0219984a77b6c87ef878dc989ad19233a2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q4154464-c01",
@@ -2478,26 +2761,51 @@
           "quote": "Данило Лепкий у розвідці «Весняні звичаї, обряди та віруваня на Руси» писав ... Всї Русалки слухають одної найстаршої панї, котру простий люд в своїх оповіданях називає просто «Діва», «Дівка», «Дівчина» або «Дана».",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q4154464-c06",
+          "source_id": "wd-q4154464-s3",
+          "host": "ru.wikisource.org",
+          "statement": "In Kostomarov's own text, the most important names for the female water being among the Slavs were Devoniya, Dzevanna and Dana.",
+          "statement_id": "Dalam tulisan Kostomarov sendiri, penamaan terpenting bagi makhluk perempuan-air di kalangan bangsa Slavia adalah Devoniya, Dzevanna, dan Dana.",
+          "quote": "Но важнейшею из номинаций женско-водного существа у славян была Девония, Дзеванна и Дана.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4154464-c07",
+          "source_id": "wd-q4154464-s3",
+          "host": "ru.wikisource.org",
+          "statement": "Kostomarov wrote that among the Eastern Slavs she probably bore, besides Mokosh, the name Dana and simply Deva, as shown by some place and water names, for example \"devyi gory\", \"devichye pole\" and the river \"Devitsa\".",
+          "statement_id": "Kostomarov menulis bahwa di kalangan Slavia Timur ia mungkin, selain Mokosh, juga bernama Dana dan sekadar Deva, seperti ditunjukkan beberapa nama tempat dan perairan, misalnya \"devyi gory\", \"devichye pole\", dan sungai \"Devitsa\".",
+          "quote": "у нас она, вероятно, кроме Мокошь, имела еще название Дана, и просто Дева, как это показывают некоторые урочища и названия вод, напр., девьи горы, девичье поле, река девица.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q4154464-c08",
+          "source_id": "wd-q4154464-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the modern view in the article, the names Deva and Devoniya on which Kostomarov relies are not names of some separate female deity but epithets of Mokosh.",
+          "statement_id": "Menurut pandangan modern dalam artikel itu, nama Deva dan Devoniya yang dijadikan dasar oleh Kostomarov bukan nama dewi perempuan yang terpisah, melainkan julukan Mokosh.",
+          "quote": "Имена Дева, Девония, к которым апеллирует Костомаров, стремясь обосновать свои построения, не являются именами какого-то отдельного женского божества, в действительности это эпитеты Мокоши.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q45112940",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "463f064b1612b6ee72546bb25b8944886ebb2b23124c5ab06e2ca09abed9f9b8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q45112940-c01",
@@ -2538,13 +2846,44 @@
           "quote": "Вона, також, має певну схожість з Русалкою та Бабоюю-Ягою.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q45112940-c05",
+          "source_id": "wd-q45112940-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the Ukrainian article, she most often appears as a repulsive little old woman with shaggy, disheveled hair and huge iron breasts.",
+          "statement_id": "Menurut artikel Ukraina, ia paling sering tampil sebagai nenek buruk rupa bertubuh kecil dengan rambut kusut dan dada besi yang besar.",
+          "quote": "Найчастіше постає у вигляді огидної бабки невеликого зросту, з кошлатими розпатланим волоссям й величезними залізними грудьми.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q45112940-c06",
+          "source_id": "wd-q45112940-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "The article says she always carries an iron hook, a mortar and a pestle, with which she catches and pounds any disobedient children she has caught.",
+          "statement_id": "Artikel itu menyebut ia selalu membawa kait besi, lumpang, dan alu yang dipakainya untuk menangkap dan menumbuk anak-anak nakal yang tertangkap.",
+          "quote": "Завжди носить з собою залізний гак, ступку й товкач, якими вона ловить та дробить всіх спійманих неслухняних дітей.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q45112940-c07",
+          "source_id": "wd-q45112940-s2",
+          "host": "uk.wikipedia.org",
+          "statement": "According to the article, she sometimes torments children before killing them, by strangling, drowning and other means; besides killing, she may also simply frighten them.",
+          "statement_id": "Menurut artikel itu, kadang ia menyiksa anak-anak sebelum membunuh mereka, dengan mencekik, menenggelamkan, dan cara lain; selain membunuh, ia juga bisa sekadar menakut-nakuti mereka.",
+          "quote": "Часом, вона мучить дітей перед вбивством — душить їх, топить, і знущається іншими способами. Однак, крім вбивства дітей — може й просто налякати їх.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "zwodziasz",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "72d66fcdc1e79854ee04cb05b2340e31d056e5899c3c991f7d0fa60fb2b3a746",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -2584,20 +2923,15 @@
     },
     {
       "slug": "afruvva",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "91ab2630c9994eaffa59d4cfb0799bb0a63a692d5282d1574806114699dc2657",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "afruvva-c01",
@@ -2638,17 +2972,38 @@
           "quote": "Toisinaan hänen kylläkin mainitaan myös kaatavan veneitä ja tuottavan muuta häiriötä, mutta tämä merenkävijöitä ahdisteleva avruvvá lienee saanut toisen skandinaavisperäisen vedenhaltijan, vainajaolentoihin luokiteltavan rávgán piirteitä.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "afruvva-c05",
+          "source_id": "afruvva-s2",
+          "host": "web.archive.org",
+          "statement": "The Saami Cultural Encyclopedia, which the Wikipedia article cites, gives the same description: the afruvvá is a typical mermaid, a beautiful, long-haired, fish-tailed woman who shows herself at sea.",
+          "statement_id": "Ensiklopedia Kebudayaan Sami (yang dirujuk artikel Wikipedia) memuat uraian yang sama: afruvvá adalah putri duyung tipikal, perempuan cantik berambut panjang dan berekor ikan yang menampakkan diri di laut.",
+          "quote": "Afruvvá on tyypillinen merenneito, kaunis, pitkätukkainen ja kalanpyrstöinen nainen, joka näyttäytyy merellä.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "afruvva-c06",
+          "source_id": "afruvva-s2",
+          "host": "web.archive.org",
+          "statement": "The encyclopedia supposes that the afruvvá originally appeared as a guardian spirit of seafarers who, by showing itself to them, urged them to return to shore in good time.",
+          "statement_id": "Ensiklopedia itu menduga afruvvá semula tampil sebagai roh pelindung para pelaut yang, dengan menampakkan diri kepada mereka, mendesak mereka kembali ke pantai tepat waktu.",
+          "quote": "Alun perin afruvvá lienee esiintynyt merenkävijöitä suojeleva haltijana, joka näille näyttäytymällä kehottaa heitä palaamaan ajoissa rantaa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "anki-kiele",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "3a7b601150ed6633b32c7213253622dcae9af1efdf3e42213886331e1d77b2ea",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -2656,11 +3011,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"mitologi Chukchi dan Eskimo\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2713,26 +3063,41 @@
           "quote": "Анки-Киеле мог послать хороший улов рыбы или успех в добыче прочих морских обитателей. Этого можно было добиться, послав к нему душу шамана.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "anki-kiele-c06",
+          "source_id": "anki-kiele-s2",
+          "host": "archive.org",
+          "statement": "Bogoras records a \"spirit\" living in the sea (a'nqa-kal), pictured with the body of a fish and a very large shaggy head.",
+          "statement_id": "Bogoras mencatat sebuah \"roh\" yang hidup di laut (a'nqa-kal) yang digambarkan bertubuh ikan dengan kepala berbulu yang sangat besar.",
+          "quote": "a “spirit” living in the sea (a'nqa-kal), has the body of a fish, with a very large shaggy head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anki-kiele-c07",
+          "source_id": "anki-kiele-s2",
+          "host": "archive.org",
+          "statement": "On another sketch Bogoras describes a large sea-spirit with very long hair on both his head and his buttocks.",
+          "statement_id": "Pada sketsa lain, Bogoras menyebut roh laut besar yang berambut sangat panjang di kepala dan pantatnya.",
+          "quote": "On another sketch is represented a large sea-spirit, who has very long hair on both his head and his buttocks.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "babaroga",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "50cc56301cbfeea8c152dd41b0b1302da5b5d4540d5b4a3e07804605006e9ba4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "babaroga-c01",
@@ -2752,6 +3117,56 @@
           "statement_id": "Dalam tradisi rakyat ia digambarkan semata-mata sebagai makhluk perempuan menakutkan berupa nenek bungkuk, buruk rupa, ompong, berwajah cacat, dengan tanduk di kepala (asal namanya), yang bersembunyi di tempat gelap dan hanya keluar malam hari, serta menakuti dan menculik anak-anak nakal ke sarangnya.",
           "quote": "У народним предањима се описује искључиво као застрашујуће женско биће у облику погрбљене, ружне, крезубе старице наказног лица са рогом на глави (по коме је и добила име), које се крије на тамним местима и излази само ноћу. Према народним предањима бабарога плаши и отима неваљалу дјецу, и одводи их у свој брлог.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "babaroga-c03",
+          "source_id": "babaroga-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Baba Yaga article lists Baba Roga among related figures, used to scare children in Bosnia, Croatia, Montenegro, North Macedonia and Serbia.",
+          "statement_id": "Artikel tentang Baba Yaga menyebut Baba Roga sebagai tokoh Serbia yang dipakai untuk menakut-nakuti anak-anak di Bosnia, Kroasia, Montenegro, Makedonia Utara, dan Serbia.",
+          "quote": "Baba Roga (used to scare children in Bosnia, Croatia, Montenegro, North Macedonia and Serbia)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "babaroga-c04",
+          "source_id": "babaroga-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In Serbian, Croatian, Macedonian, Romanian and Bulgarian, baba means \"grandmother\" or \"old woman\".",
+          "statement_id": "Dalam bahasa Serbia, Kroasia, Makedonia, Rumania, dan Bulgaria, baba berarti \"nenek\" atau \"perempuan tua\".",
+          "quote": "In Serbian, Croatian, Macedonian, Romanian and Bulgarian, baba means 'grandmother' or 'old woman'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "babaroga-c05",
+          "source_id": "babaroga-s3",
+          "host": "sr.wikipedia.org",
+          "statement": "The Serbian Wikipedia article on Baba Yaga says witches are also considered successors of the Slavic goddess Morana, who was portrayed with a horn, flew on a broom and sailed on an eggshell.",
+          "statement_id": "Artikel Wikipedia berbahasa Serbia tentang Baba Yaga menyebut bahwa penyihir dianggap pewaris dewi Slavia Morana, yang digambarkan dengan tanduk, terbang dengan sapu, dan berlayar di cangkang telur.",
+          "quote": "Такође се сматра да су вештице наследнице словенске богиње Моране, која је представљана са рогом, летела на метли и пловила на љусци од јајета",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "babaroga-c06",
+          "source_id": "babaroga-s3",
+          "host": "sr.wikipedia.org",
+          "statement": "The article adds that Baba Roga, Baba Ruga, Baba Kozma and Baba Yaga could have arisen from her description.",
+          "statement_id": "Artikel itu menambahkan bahwa dari penggambaran Morana itu mungkin muncul Baba Roga, Baba Ruga, Baba Kozma, dan Baba Yaga.",
+          "quote": "Из њеног описа могле су произаћи Баба Рога, Баба Руга, Баба Козма и Баба Јага.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "babaroga-c07",
+          "source_id": "babaroga-s4",
+          "host": "hr.wikipedia.org",
+          "statement": "The Croatian Wikipedia article on Baba Jaga lists Baba Roga among the names of a figure who in Slavic mythology is a witch, sorceress or forest spirit.",
+          "statement_id": "Artikel Wikipedia berbahasa Kroasia tentang Baba Jaga memasukkan Baba Roga sebagai salah satu nama tokoh yang dalam mitologi Slavia disebut penyihir, tukang sihir, atau roh hutan.",
+          "quote": "Baba Jaga, Baba Roga, Ježi-babo ili Baba Zima u slavenskoj mitologiji vještica je, čarobnica ili šumski duh.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -2774,24 +3189,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "16a128fe09511728263ca958ef4ef76ce8db0637821af4984d826d5916607212"
     },
     {
       "slug": "bozalosc",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-1.md",
+      "entry_sha256": "1814efba56dc7d351c90e076bfaebb879252d1ced041f4796d071876365d64c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bozalosc-c01",
@@ -2852,13 +3263,34 @@
           "quote": "An appearance of a bože sedleško manifests a coming misfortune: death, fire, epidemics, flood, etc.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bozalosc-c07",
+          "source_id": "bozalosc-s2",
+          "host": "archive.org",
+          "statement": "According to Bonnerjea's dictionary, among the Wends she is a messenger of death: a little woman with long hair who cries like a child beneath the window of a house where someone is about to die.",
+          "statement_id": "Menurut kamus Bonnerjea, di kalangan bangsa Wend ia adalah pembawa kabar kematian: perempuan kecil berambut panjang yang menangis seperti anak kecil di bawah jendela rumah tempat seseorang akan meninggal.",
+          "quote": "among the Wends she is a messenger of death. She is a little woman with long hair, who cries like a child, beneath the window of a house where someone is about to die.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bozalosc-c08",
+          "source_id": "bozalosc-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Opinions on the etymology differ: some see it as a contraction of \"Boža žaloć\" (\"God's Pity\"); others note that the word \"Glosc\" meaning \"lament\" appears in manuscripts as early as the 17th century and that the attribute \"Boža\" (\"God's\") was added later in folklore.",
+          "statement_id": "Pendapat tentang asal kata berbeda: ada yang melihatnya sebagai kontraksi \"Boža žaloć\" (\"Belas Kasih Tuhan\"); pendapat lain menyatakan kata \"Glosc\" yang berarti \"ratapan\" sudah ada dalam naskah abad ke-17 dan sifat \"Boža\" (\"milik Tuhan\") ditambahkan kemudian dalam cerita rakyat.",
+          "quote": "In some opinions it is the contraction of \"Boža žaloć\", i.e., \"God's Pity\". Another opinion is that the word \"Glosc\" in the meaning of \"lament\" can be found in manuscripts of as early as the 17th century, and the attribute 'Boža' i.e., \"God's\" was added in folklore later",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "brodarica",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-2.md",
+      "entry_sha256": "177c7d87ce605fe16a08538f8da3143c7a6884019809e2cd2ca9c181bf341e67",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 2,
@@ -2934,7 +3366,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "13dd90b90963b83ddbdbffec6dbdcea531caa59694f4706a3239711d5de2aed4"
     },
     {
       "slug": "cahkalakkis",
@@ -3014,7 +3447,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cf941aac6944e4214c81a6c10eeae6ee20204239eab00c1124c6998bb2dba3a5"
     }
   ]
 }
