@@ -791,8 +791,10 @@ for (const [slug, { entry, file }] of submission.entries) {
   const ctx = checkEntry(entry, expected.get(slug));
   const { issues } = ctx;
   if (entry.task === 'new') {
+    // A catalogue record published from this batch's own research is this creature, not a duplicate.
+    const own = creatures.find(c => c.slug === slug && c.research_batch === batchId);
     const dup = existingNames.get(looseNorm(entry.identity?.canonical_name));
-    if (creatures.some(c => c.slug === slug) || dup) issues.push({ level: 'error', where: 'slug', message: `Makhluk ini sudah ada di Mythics (${dup || slug}).` });
+    if (own ? dup && dup !== slug : creatures.some(c => c.slug === slug) || dup) issues.push({ level: 'error', where: 'slug', message: `Makhluk ini sudah ada di Mythics (${dup || slug}).` });
   }
   checkDetails(entry, issues);
   const claims = await checkQuotes(entry, ctx, issues);

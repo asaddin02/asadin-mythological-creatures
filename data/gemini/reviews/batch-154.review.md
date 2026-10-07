@@ -1,6 +1,6 @@
 # Review batch-154
 
-Diperiksa 2026-10-06T13:05:55.688Z. Berkas: batch-154-fix-1.md, batch-154-fix-2.md, batch-154-fix-3.md, batch-154-fix-4.md.
+Diperiksa 2026-10-07T04:13:17.312Z. Berkas: batch-154-fix-1.md, batch-154-fix-2.md, batch-154-fix-3.md, batch-154-fix-4.md, batch-154-fix-5.md.
 
 ## sun-wukong — lulus-otomatis
 
@@ -521,9 +521,6 @@ Klaim 49 (loose 3, exact 46), sumber 9, gambar 2.
 
 Klaim 47 (exact 47), sumber 3, gambar 0.
 
-**manual**
-- `culture` Mengusulkan tradisi baru: "Gothic literature".
-
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | count-dracula-c01 | exact | www.gutenberg.org | In the novel, when Jonathan Harker addresses him as Count Dracula, the Count replies that he is Dracula and welcomes Harker to his house. | “Count Dracula?” He bowed in a courtly way as he replied:— “I am Dracula; and I bid you welcome, Mr. Harker, to my house. |
@@ -579,9 +576,6 @@ Klaim 47 (exact 47), sumber 3, gambar 0.
 
 Klaim 42 (exact 42), sumber 3, gambar 0.
 
-**manual**
-- `culture` Mengusulkan tradisi baru: "Cthulhu Mythos (Lovecraftian fiction)".
-
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cthulhu-c01 | exact | en.wikisource.org | The small statue represented a monster of vaguely anthropoid outline, with an octopus-like head whose face was a mass of feelers, a scaly, rubbery-looking body, prodigious claws on hind and fore feet, and long, narrow wings behind. | It represented a monster of vaguely anthropoid outline, but with an octopus-like head whose face was a mass of feelers, a scaly, rubbery-looking body, prodigious claws on hind and fore feet, and long, narrow wings behind. |
@@ -633,7 +627,6 @@ Klaim 42 (exact 42), sumber 3, gambar 0.
 Klaim 48 (exact 48), sumber 3, gambar 1.
 
 **manual**
-- `culture` Mengusulkan tradisi baru: "Gothic literature".
 - `images[0] (File:Frankenstein, or the Modern Prometheus (Revised Edition, 1831) Creature.jpg)` Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori "Frankenstein's monster", dipakai di ast.wikipedia.org: Bisarma de Frankenstein. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -692,4 +685,4 @@ Klaim 48 (exact 48), sumber 3, gambar 1.
   - kategori: 1831 book illustrations; CC-PD-Mark; Extracted images; Frankenstein's monster; Frankenstein (book) illustrations; PD-old-70-expired; PD-old missing SDC copyright status; Theodor von Holst
   - dipakai di: ar.wikipedia.org: وحش فرانكنشتاين; ast.wikipedia.org: Bisarma de Frankenstein; ca.wikipedia.org: Monstre de Frankenstein; cy.wikipedia.org: Anghenfil Frankenstein; en.wikipedia.org: Horror film; en.wikipedia.org: Frankenstein's monster; en.wikipedia.org: Baragon; en.wikipedia.org: Vegetarianism in the Romantic era; en.wikibooks.org: 19th Century Literature/Frankenstein; en.wikibooks.org: 19th Century Literature/Printable version; et.wikipedia.org: Unenäopõhine loome; eu.wikipedia.org: Frankensteinen munstro; it.wikiquote.org: Mostro di Frankenstein; uk.wikipedia.org: Потвора Франкенштайна; vi.wikipedia.org: Phim kinh dị
   - bukti dari Gemini: Berkas masuk Category:Frankenstein's monster dan Category:Frankenstein (book) illustrations di Commons; artikel Wikipedia Frankenstein's monster memakai gambar edisi 1831 ini dan menyebut bahwa sebuah gambar sang makhluk muncul dalam edisi 1831.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-154/frankensteins-monster-1.jpg
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-154/frankensteins-monster-1.jpg

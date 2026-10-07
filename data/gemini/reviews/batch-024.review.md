@@ -1,6 +1,6 @@
 # Review batch-024
 
-Diperiksa 2026-10-06T13:01:01.770Z. Berkas: batch-024.md, batch-024-fix-1.md.
+Diperiksa 2026-10-07T04:12:01.113Z. Berkas: batch-024.md, batch-024-fix-1.md, batch-024-fix-2.md.
 
 ## shiva — lulus-otomatis
 
@@ -41,7 +41,7 @@ Klaim 33 (exact 33), sumber 3, gambar 1.
 | shiva-c28 | exact | www.gutenberg.org | In the Mahabharata, Arjuna addresses the god as god of gods, Mahadeva, of blue throat and matted locks, and says he is Siva in the form of Vishnu and Vishnu in the form of Siva, who of old destroyed the great sacrifice of Daksha. | O god of gods, O Mahadeva, O thou of blue throat, O thou of matted locks ... Thou art Siva in the form of Vishnu, and Vishnu in the form of Siva. Thou destroyedest of old the great sacrifice of Daksha. |
 | shiva-c29 | exact | www.gutenberg.org | In the Mahabharata, Mahadeva is described as the wielder of the Pinaka who had his abode on the mountains (of Kailasa), accompanied by Uma. | that wielder of the Pinaka-that one who had his abode on the mountains (of Kailasa)—accompanied by Uma |
 | shiva-c30 | exact | www.worldhistory.org | According to the World History Encyclopedia, Sati was eventually reincarnated as Parvati in her next life and re-married Shiva. | Sati was eventually reincarnated as Parvati in her next life and she re-married Shiva. |
-| shiva-c31 | exact | www.worldhistory.org | According to the World History Encyclopedia, when Vasuki, king of the serpents, threatened to vomit snake venom across the seas, Shiva, assuming the form of a giant tortoise or turtle, collected the venom in his palm and drank it. | self-sacrifice is emphasised when Vasuki, the king of Serpents, threatened to vomit snake venom across the seas. Shiva, assuming the form of a giant tortoise or turtle, collected the venom in his palm and drank it. |
+| shiva-c31 | exact | www.worldhistory.org | According to the World History Encyclopedia, Vasuki, king of the serpents, threatened to vomit snake venom across the seas. | Vasuki, the king of Serpents, threatened to vomit snake venom across the seas. |
 | shiva-c32 | exact | www.gutenberg.org | In the Mahabharata, Hara, beholding the wonder of Arjuna whose body was emaciated by ascetic austerities, says he is pleased and will grant him an irresistible weapon of his that Arjuna will soon be able to wield. | And Hara, beholding the wonder of Arjuna and seeing that his body had been emaciated with ascetic austerities, spake unto him ... I will as I have been pleased with thee, grant thee an irresistible weapon. Soon shall thou be able to wield that weapon of mine. |
 | shiva-c33 | exact | www.gutenberg.org | In a summary passage of the Mahabharata, Arjuna, having pleased in combat the god of gods Tryambaka (the three-eyed) in the disguise of a hunter, obtained the great weapon Pasupata. | Arjuna, having, in combat, pleased the god of gods, Tryambaka (the three-eyed) in the disguise of a hunter, obtained the great weapon Pasupata |
 
@@ -50,7 +50,7 @@ Klaim 33 (exact 33), sumber 3, gambar 1.
   - kategori: Black and white photographs of Indonesia in the 1860s; CC-BY-SA-3.0; Dieng sculptures; Images from KIT, Voorstelling Object - nissen; Images from the Tropenmuseum; Lotus position in art; Photographs by Isidore van Kinsbergen; Shiva in Indonesia; Statues in Indonesia
   - dipakai di: ca.wikipedia.org: Xiva (hinduisme); en.wikipedia.org: Shiva; ko.wikipedia.org: 시바
   - bukti dari Gemini: Judul dan deskripsi berkas menyebut Shiva ("Shiva sculpture, Dieng Plateau"); kategori Shiva in Indonesia; dipakai di artikel Wikipedia en Shiva.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/shiva-1.jpg
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/shiva-1.jpg
 
 ## zeus — lulus-otomatis
 
@@ -95,7 +95,7 @@ Klaim 28 (exact 28), sumber 3, gambar 1.
   - kategori: Artworks with known accession number; Artworks without Wikidata item; Bust of Otricoli Zeus (Pio Clementino Museum); DDBstudio Kleine Bilder Große Geschichten; PD-self; Self-published work; Template Unknown (artist)
   - dipakai di: als.wikipedia.org: Griechische Kultur; ar.wikipedia.org: موريطنية; arz.wikipedia.org: ميثولوجيا يونانيه; az.wikipedia.org: Yunan tanrılarının siyahısı; bar.wikipedia.org: Zeus; bcl.wikipedia.org: Mitolohiyang Griyego; be.wikipedia.org: Музей Пія-Клімента; bg.wikipedia.org: Зевс; bg.wikipedia.org: Древна Гърция; br.wikipedia.org: Gwengelouriezh Hellaz; ca.wikipedia.org: Antiga Grècia; ca.wikipedia.org: Zeus; ca.wikipedia.org: Religió de l'antiga Grècia; ceb.wikipedia.org: Zeus; cs.wikipedia.org: Perseus
   - bukti dari Gemini: Nama dan deskripsi berkas menyebut Zeus ("So-called 'Zeus of Otricoli'"); gambar utama artikel Wikipedia en Zeus.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/zeus-1.jpg
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/zeus-1.jpg
 
 ## dragon — lulus-otomatis
 
@@ -135,7 +135,7 @@ Klaim 23 (exact 22, loose 1), sumber 3, gambar 1.
   - kategori: CC-PD-Mark; Content made available through Wikimedia Sverige partnerships; Extracted images; Images from the Nationalmuseum Stockholm; Licensed-PD-Art missing SDC copyright license; Licensed-PD-Art missing SDC digital representation of; Media contributed by Nationalmuseum Stockholm: 2017-11; PD-Art (PD-old-auto); PD-old-100; Religious paintings in the Nationalmuseum Stockholm; Unknown date
   - dipakai di: en.wikipedia.org: Dragon; sv.wikipedia.org: Drake; sv.wikipedia.org: Monster; te.wikipedia.org: డ్రాగన్
   - bukti dari Gemini: Nama dan deskripsi berkas menyebut the Dragon ("St Catherine / St George and the Dragon"); gambar utama artikel Wikipedia en Dragon.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/dragon-1.png
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/dragon-1.png
 
 ## vishnu — lulus-otomatis
 
@@ -178,7 +178,7 @@ Klaim 26 (exact 25, loose 1), sumber 3, gambar 1.
   - kategori: CC-PD-Mark; Gita Govinda; PD-Art (PD-old-100-expired); PD-old-100-expired; Vishnu
   - dipakai di: ar.wikipedia.org: فيشنو; arz.wikipedia.org: فشنو; ast.wikipedia.org: Visnú; ba.wikipedia.org: Вишну; be.wikipedia.org: Бог; bg.wikipedia.org: Вишну; bn.wikipedia.org: হিন্দু দেবদেবী; ca.wikipedia.org: Vixnu; cdo.wikipedia.org: Vishnu; cy.wikipedia.org: Vishnu; en.wikipedia.org: Hindu deities; en.wikipedia.org: Bhagavan; en.wikipedia.org: Hindu mythological wars; en.wikipedia.org: God; en.wikipedia.org: Vishnu
   - bukti dari Gemini: Nama dan deskripsi berkas menyebut Vishnu; gambar utama artikel Wikipedia en Vishnu.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/vishnu-1.jpg
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/vishnu-1.jpg
 
 ## krishna — lulus-otomatis
 
@@ -230,4 +230,4 @@ Klaim 35 (exact 35), sumber 4, gambar 1.
   - kategori: CC-Zero; Extracted images; Hindu gods; Mughal art
   - dipakai di: en.wikipedia.org: Krishna; en.wikiquote.org: Krishna; ne.wikipedia.org: कृष्ण; tcy.wikipedia.org: ಕೃಷ್ಣ; tr.wikipedia.org: Krişna
   - bukti dari Gemini: Nama dan deskripsi berkas menyebut Krishna ("Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj"); gambar utama artikel Wikipedia en Krishna.
-  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/krishna-1.png
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/krishna-1.png

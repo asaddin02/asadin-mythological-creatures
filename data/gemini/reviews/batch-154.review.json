@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-154",
-  "checked_at": "2026-10-06T13:05:55.688Z",
+  "checked_at": "2026-10-07T04:13:17.312Z",
   "files": [
     "batch-154-fix-1.md",
     "batch-154-fix-2.md",
     "batch-154-fix-3.md",
-    "batch-154-fix-4.md"
+    "batch-154-fix-4.md",
+    "batch-154-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3942,21 +3943,15 @@
     },
     {
       "slug": "count-dracula",
-      "file": "batch-154-fix-4.md",
-      "entry_sha256": "fd3b63df465b98133851768f7c009ac40ceab8e9431467e780ba501a86369119",
+      "file": "batch-154-fix-5.md",
+      "entry_sha256": "8d1bdf7b88e0e0f88ca2e6633411c164cc9aeb12404a349325b964b62bbb805b",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 47,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Gothic literature\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "count-dracula-c01",
@@ -4433,21 +4428,15 @@
     },
     {
       "slug": "cthulhu",
-      "file": "batch-154-fix-4.md",
-      "entry_sha256": "44916a822e9fcca83974ae6ee9ac4aa139a3433caa07edb711d4326719fb6a12",
+      "file": "batch-154-fix-5.md",
+      "entry_sha256": "2b69f13900289170be23fefaf52f412028b447ecd8de84a980da82adcd64df77",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 42,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Cthulhu Mythos (Lovecraftian fiction)\"."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cthulhu-c01",
@@ -4874,8 +4863,8 @@
     },
     {
       "slug": "frankensteins-monster",
-      "file": "batch-154-fix-4.md",
-      "entry_sha256": "083bfb74018b583cdd405fdb52cb451370ca2454d984dc4cb5e257ff70a78860",
+      "file": "batch-154-fix-5.md",
+      "entry_sha256": "19035be342331d8cfb6b5394a869ccc9443687061b2cd8cc4fe3306781bc3841",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 48,
@@ -4883,11 +4872,6 @@
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Gothic literature\"."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Frankenstein, or the Modern Prometheus (Revised Edition, 1831) Creature.jpg)",
@@ -5421,7 +5405,7 @@
             "kategori \"Frankenstein's monster\"",
             "dipakai di ast.wikipedia.org: Bisarma de Frankenstein"
           ],
-          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-154/frankensteins-monster-1.jpg"
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-154/frankensteins-monster-1.jpg"
         }
       ]
     }

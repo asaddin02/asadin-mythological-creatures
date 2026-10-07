@@ -7,7 +7,8 @@
  *                        has not been accepted, or the verifier did not pass it
  *   tidak-lengkap        has a research entry below its tier target (`valid` says whether it passed)
  *   belum-ada-entri      no research entry yet, including manual additions (manual-additions.json)
- *   bukan-makhluk        skipped as not a creature
+ *   bukan-makhluk        skipped as not a creature: a new-research skip passed by the verifier, or an existing
+ *                        entry an enriching agent logged as "bukan-makhluk" in data/gemini/enrich/<batch>.json
  *
  * Complete: meets the tier target (tier.mjs). Valid: passed the automatic verifier in an accepted batch;
  * it does not mean a person has reviewed it.
@@ -74,13 +75,14 @@ export async function computeFillStatus(creatures) {
     const review = await read(`data/gemini/reviews/${batch}.review.json`, null);
     const verdicts = new Map((review?.entries || []).map(e => [e.slug, e]));
     const entries = await entriesOf(batch, inbox, review);
+    const enrichLog = await read(`data/gemini/enrich/${batch}.json`, {});
     for (const { slug } of manifest.entries) {
       const rev = verdicts.get(slug);
       const entry = entries.get(slug);
       const valid = accepted && rev?.verdict === 'lulus-otomatis' && !!entry;
       const image = !excludedArtwork.has(slug) && ((entry?.images || []).length > 0 || illustrated.has(slug));
       const record = { batch };
-      if (accepted && rev?.verdict === 'skip') record.status = 'bukan-makhluk';
+      if (accepted && (rev?.verdict === 'skip' || enrichLog[slug]?.hasil === 'bukan-makhluk')) record.status = 'bukan-makhluk';
       else if (!entry) record.status = 'belum-ada-entri';
       else {
         const short = tierShortfall(entry);
