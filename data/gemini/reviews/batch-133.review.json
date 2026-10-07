@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-133",
-  "checked_at": "2026-10-02T05:13:43.547Z",
+  "checked_at": "2026-10-07T05:45:06.903Z",
   "files": [
-    "batch-133.md"
+    "batch-133.md",
+    "batch-133-fix-1.md",
+    "batch-133-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "bitru",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "33ce0576ad4bcb59e3b612475c55e713fa73e0d51ffadbdb30c014141584a10f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bitru-c01",
@@ -53,26 +50,61 @@
           "quote": "es el encargado de inflamar de lujuria al hombre hacia la mujer y viceversa. Descubre, cuando le parece, los secretos de las mujeres, a quienes siempre pone en ridículo.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "bitru-c04",
+          "source_id": "bitru-s2",
+          "host": "fr.wikisource.org",
+          "statement": "\"Sytry ou Bitru\" is a great prince in hell who appears in the form of a leopard with griffin's wings.",
+          "statement_id": "\"Sytry ou Bitru\" adalah pangeran agung di neraka yang tampil berupa macan tutul bersayap griffon.",
+          "quote": "Sytry ou Bitru, grand prince aux enfers ; il apparaît sous la forme d’un léopard, avec des ailes de griffon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bitru-c05",
+          "source_id": "bitru-s2",
+          "host": "fr.wikisource.org",
+          "statement": "When he takes human form he is of great beauty; it is he who inflames the passions.",
+          "statement_id": "Ketika ia mengambil rupa manusia, ia sangat rupawan; dialah yang mengobarkan nafsu.",
+          "quote": "Mais lorsqu’il prend la forme humaine, il est d’une grande beauté. C’est lui qui enflamme les passions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bitru-c06",
+          "source_id": "bitru-s2",
+          "host": "fr.wikisource.org",
+          "statement": "He reveals women's secrets when commanded, which he gladly turns to ridicule; seventy legions obey him.",
+          "statement_id": "Ia membuka rahasia para perempuan bila diperintah, dan senang menjadikannya bahan olok-olok; tujuh puluh legiun menaatinya.",
+          "quote": "Il découvre, quand on le lui commande, les secrets des femmes, qu’il tourne volontiers en ridicule. Soixante-dix légions lui obéissent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bitru-c07",
+          "source_id": "bitru-s1",
+          "host": "es.wikipedia.org",
+          "statement": "He also likes to excite women into showing themselves naked and inspires them to despise modesty.",
+          "statement_id": "Ia juga suka membangkitkan hasrat perempuan agar menampakkan diri tanpa busana dan mengilhami mereka untuk meremehkan rasa malu.",
+          "quote": "También le gusta excitarlas para que se muestren desnudas y les inspira a despreciar el pudor.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bocarrot",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "f5155cb7e4542e39394072fc974dd1d786056eb85970e2e3b8de8622a7d391c1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bocarrot-c01",
@@ -123,26 +155,41 @@
           "quote": "A Gósol, Berguedà, els antics segadors creien en un geni del blat que anomenaven \"el boc\", l'esperit del darrer blat. Qui agafava el \"bocarrot\" s'assegurava el rendiment del camp, riquesa i prosperitat.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bocarrot-c06",
+          "source_id": "bocarrot-s2",
+          "host": "www.isaacbaley.com",
+          "statement": "A modern illustrated calendar of Catalan mythology describes the bocarrot as descended from the genies of the Stone Age.",
+          "statement_id": "Sebuah kalender bergambar modern tentang mitologi Katalan menggambarkan bocarrot sebagai keturunan para genius Zaman Batu.",
+          "quote": "Descendent dels genis de l'Edat de Pedra",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bocarrot-c07",
+          "source_id": "bocarrot-s2",
+          "host": "www.isaacbaley.com",
+          "statement": "Among reaping crews it was said that a bocarrot lived in every wheat field and stimulated the plants so that they gave good-sized, abundant grain.",
+          "statement_id": "Di kalangan rombongan penuai dikatakan bahwa tiap ladang gandum dihuni seekor bocarrot yang merangsang tanaman sehingga bijinya berukuran baik dan melimpah.",
+          "quote": "Entre les colles de segadors es deia que a cada bladar hi vivia un bocarrot, que estimulava la ... de les plantes i que donessin gra de bona mida i abundant.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "caacrinolaas",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "89545bf148035b1d52c8b430a300b73df68d137a72c88603362ab90621f74b97",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "caacrinolaas-c01",
@@ -193,26 +240,61 @@
           "quote": "Ele é retratado como um cão com as asas de um Grifo.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "caacrinolaas-c06",
+          "source_id": "caacrinolaas-s2",
+          "host": "fr.wikisource.org",
+          "statement": "\"Caacrinolaas\", also called Caassimolar and Glassialabolas, is a great president in hell who appears as a dog, with a dog's gait, with griffin's wings.",
+          "statement_id": "\"Caacrinolaas\", juga disebut Caassimolar dan Glassialabolas, adalah presiden agung di neraka yang tampil sebagai anjing, berjalan seperti anjing, dengan sayap griffon.",
+          "quote": "Caacrinolaas, nommé aussi Caassimolar et Glassialabolas, grand président aux enfers, il se présente sous la forme d’un chien, et il en a la démarche, avec des ailes de griffon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caacrinolaas-c07",
+          "source_id": "caacrinolaas-s2",
+          "host": "fr.wikisource.org",
+          "statement": "He gives knowledge of the liberal arts and, by a strange contrast, inspires homicides; it is said that he predicts the future well.",
+          "statement_id": "Ia memberi pengetahuan tentang seni-seni liberal dan, secara kontras aneh, mengilhami pembunuhan; dikatakan ia meramalkan masa depan dengan baik.",
+          "quote": "Il donne la connaissance des arts libéraux, et, par un bizarre contraste, il inspire les homicides. On y dit qu’il prédit bien l’avenir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caacrinolaas-c08",
+          "source_id": "caacrinolaas-s2",
+          "host": "fr.wikisource.org",
+          "statement": "This demon makes a man invisible and commands thirty-six legions.",
+          "statement_id": "Iblis ini membuat manusia tak terlihat dan memimpin tiga puluh enam legiun.",
+          "quote": "Ce démon rend l’homme invisible et commande trente-six légions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caacrinolaas-c09",
+          "source_id": "caacrinolaas-s2",
+          "host": "fr.wikisource.org",
+          "statement": "The Grand Grimoire calls him Classyalabolas and makes him only a kind of sergeant who sometimes serves as a mount for Nébiros or Naberus.",
+          "statement_id": "Le Grand Grimoire menyebutnya Classyalabolas dan hanya menjadikannya semacam sersan yang kadang menjadi tunggangan Nébiros atau Naberus.",
+          "quote": "Le Grand Grimoire le nomme Classyalabolas, et n’en fait qu’une espèce de sergent qui sert quelquefois de monture à Nébiros ou Naberus.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cabicanca",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "4c8b359bbb4c51bb7c797c29f991ae35330e5b3ab35d9d60e65c5b58f946c141",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cabicanca-c01",
@@ -263,26 +345,41 @@
           "quote": "A história perdura e o nome \"cabicanca\" ficou para sempre ligado aos aguiarenses que, carinhosamente, o adoptaram como seu.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "cabicanca-c06",
+          "source_id": "cabicanca-s2",
+          "host": "www.allaboutportugal.pt",
+          "statement": "A tower is also known as the Torre da Cabicanca because of its connection with the legend of a cursed stork that terrorised the inhabitants.",
+          "statement_id": "Sebuah menara juga dikenal sebagai Torre da Cabicanca karena kaitannya dengan legenda seekor bangau terkutuk yang meneror penduduk.",
+          "quote": "É também conhecida por Torre da Cabicanca, por se relacionar com a lenda de uma cegonha amaldiçoada que aterrorizava os habitantes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabicanca-c07",
+          "source_id": "cabicanca-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the 17th century gargoyles were installed on the tower, which was then also designated the Torre da Cabicanca, relating it to the legend of a stork that terrorized the inhabitants.",
+          "statement_id": "Pada abad ke-17 sejumlah gargoyle dipasang pada menara itu, yang saat itu juga disebut Torre da Cabicanca, mengaitkannya dengan legenda seekor bangau yang meneror penduduk.",
+          "quote": "In the 17th century, gargoyles were installed on the tower, also designated at the time as the Torre da Cabicanca, which related it to the legend of a stork that terrorized the inhabitants.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cabraboc",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "a71e8ad2f06ad7884e037ccade293ced21d8e8441c22b6205dd25e6a35d5ad8d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cabraboc-c01",
@@ -343,26 +440,61 @@
           "quote": "Les Bruixes de Ripollet n'escenifiquen la llegenda durant el carnaval infantil, i els Diables de Ripollet el treuen al capdavant de la rua de Carnaval de dissabte.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "cabraboc-c07",
+          "source_id": "cabraboc-s2",
+          "host": "cpnl.cat",
+          "statement": "The Cabraboc is a being half person on the upper part and half goat and billy goat on the lower part.",
+          "statement_id": "Cabraboc adalah makhluk setengah manusia di bagian atas dan setengah kambing betina dan kambing jantan di bagian bawah.",
+          "quote": "El Cabraboc és un ésser mig persona per la part de dalt i mig cabra i boc per la part de sota.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabraboc-c08",
+          "source_id": "cabraboc-s2",
+          "host": "cpnl.cat",
+          "statement": "The legend says that in Ripollet on Carnival day an old man and an old woman went out for a walk; the old woman carried a basket with a pot inside, and everything suggested it held their lunch.",
+          "statement_id": "Legenda mengatakan bahwa di Ripollet pada hari Karnaval seorang kakek dan nenek keluar berjalan-jalan; sang nenek membawa keranjang berisi panci, dan segalanya menunjukkan bahwa itu bekal makan siang.",
+          "quote": "Explica la llegenda que a Ripollet la diada de Carnestoltes van sortir a passejar un vell i una vella. La vella portava un cistell amb una olla dins, tot feia pensar que hi portava el dinar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabraboc-c09",
+          "source_id": "cabraboc-s2",
+          "host": "cpnl.cat",
+          "statement": "One of the little devils saw the old woman and her basket and struck the pot with a stick; instead of stew a cat came out of it, which by magic in no time turned into a cabraboc.",
+          "statement_id": "Salah satu iblis kecil melihat si nenek dan keranjangnya lalu memukul panci dengan tongkat; alih-alih sup, keluar seekor kucing yang secara ajaib seketika berubah menjadi cabraboc.",
+          "quote": "Un dels diablots va veure la vella i el cistell i va pensar: “Ara és la meva”, i amb un bastó que portava va donar un cop a l’olla. Tothom es va quedar parat, perquè de l’olla, en lloc d’escudella, en va sortir un gat, que per art de màgia i en un tres i no res es va convertir en cabraboc.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabraboc-c10",
+          "source_id": "cabraboc-s2",
+          "host": "cpnl.cat",
+          "statement": "The event was talked about so much that from then on, every year at Carnival, the comparsa groups portray it.",
+          "statement_id": "Peristiwa itu begitu banyak dibicarakan sehingga sejak itu setiap tahun saat Karnaval kelompok-kelompok comparsa menampilkannya.",
+          "quote": "Se’n va parlar tant, del fet, que des de llavors cada any per Carnaval les colles de comparses el representen.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cagrino",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "9f1595a81bd2a31d2435690912e4a0a99a424792b9fab9015ff4694ba8751a73",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cagrino-c01",
@@ -413,26 +545,51 @@
           "quote": "i cavalli vengono legati a un bastone su cui è stato precedentemente strofinato dell'aglio, ai piedi del quale viene posto un filo rosso formante una croce",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cagrino-c06",
+          "source_id": "cagrino-s2",
+          "host": "archive.org",
+          "statement": "It has the form of a hedgehog, is yellow in colour, and is a foot and a half in length and a span in breadth.",
+          "statement_id": "Ia berbentuk landak, berwarna kuning, panjangnya satu setengah kaki dan lebarnya sejengkal.",
+          "quote": "It has the form of a hedgehog, is yellow- in colour, and is a foot and a half in length and a span in breadth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cagrino-c07",
+          "source_id": "cagrino-s2",
+          "host": "archive.org",
+          "statement": "Horses are the special prey of the Chagrin, who rides them into a state of exhaustion, as does the Guecubu of Chili; the next day they appear sick and weary, with tangled manes and bathed in sweat.",
+          "statement_id": "Kuda adalah mangsa khusus Chagrin, yang menungganginya sampai kelelahan, seperti halnya Guecubu dari Chili; keesokan harinya kuda tampak sakit dan lesu, dengan surai kusut dan bersimbah keringat.",
+          "quote": "Horses are the special prey of the Chagrin, who rides them into a state of exhaustion, as does the Guecubu (q.v.) of Chili. The next day they appear sick and weary, with tangled manes and bathed in sweat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cagrino-c08",
+          "source_id": "cagrino-s2",
+          "host": "archive.org",
+          "statement": "When this is observed the horses are tethered to a stake rubbed with garlic juice and a red thread is laid on the ground in the form of a cross, or some of the animal's hair is mixed with salt, meal and bat's blood, cooked to bread and smeared on the hoof.",
+          "statement_id": "Bila hal ini terlihat, kuda diikat pada tiang yang digosok sari bawang putih dan benang merah dibentangkan di tanah membentuk salib, atau sebagian bulu hewan itu dicampur garam, tepung, dan darah kelelawar, dimasak menjadi roti lalu dioleskan pada kukunya.",
+          "quote": "When this is observed they are tethered to a stake which has been rubbed with garlic juice, then a red thread is laid on the ground in the form of a cross, or else some of the hair of the animal is mixed with salt, meal and the blood of a bat and cooked to bread, with which the hoof of the horse is smeared.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "calygreyhound",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "b60b3adddfb6411efc6a41172c61ca5cd4722ed43930f788ec3db50ca4af0eb8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "calygreyhound-c01",
@@ -483,26 +640,41 @@
           "quote": "It is generally accepted that the calygreyhound is simply a figment of the artist's imagination, but some parts of it are based on reality.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "calygreyhound-c06",
+          "source_id": "calygreyhound-s2",
+          "host": "web.archive.org",
+          "statement": "An article on Tudor heraldic monsters presents the calygreyhound as one of the Tudor oddities and a favourite with the de Vere family, Earls of Oxford.",
+          "statement_id": "Sebuah artikel tentang monster heraldik zaman Tudor menampilkan calygreyhound sebagai salah satu keanehan Tudor dan favorit keluarga de Vere, para Earl of Oxford.",
+          "quote": "Finally, here is perhaps the most extraordinary of all these Tudor oddities, a favourite with the de Vere family, Earls of Oxford",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "calygreyhound-c07",
+          "source_id": "calygreyhound-s2",
+          "host": "web.archive.org",
+          "statement": "The calygreyhound is shown in a drawing by Colin Cole made from the de Vere family's contemporary seal.",
+          "statement_id": "Calygreyhound ditampilkan dalam gambar karya Colin Cole yang dibuat dari segel sezaman milik keluarga de Vere.",
+          "quote": "Calygreyhound, drawn here by Colin Cole from their contemporary seal (from Dennys 1975).",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "camunyes",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "d83a5a0d811b681bd52863b79e9192a9cb0e7eba93cf33741acee7ba0487f858",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "camunyes-c01",
@@ -523,26 +695,61 @@
           "quote": "Personatge especialment conegut a la Terra Alta, segons la llegenda era un home de carn i ossos que es va convertir en un ésser monstruós en veure com mataven el seu germà.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "camunyes-c03",
+          "source_id": "camunyes-s2",
+          "host": "www.recercacerdanya.org",
+          "statement": "En Camunyes is a big beast with a large mouth and long fangs that used to swallow children.",
+          "statement_id": "En Camunyes adalah binatang buas bermulut besar dan bertaring panjang yang dulu menelan anak-anak.",
+          "quote": "En Camunyes és una bestiota de boca gran i llargs ullals que engolia els nens.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camunyes-c04",
+          "source_id": "camunyes-s2",
+          "host": "www.recercacerdanya.org",
+          "statement": "It is said to live on the roofs and in the attics, from which it comes down to carry off children.",
+          "statement_id": "Konon ia tinggal di atap dan loteng, dan dari sana turun untuk membawa pergi anak-anak.",
+          "quote": "Es diu que viu als terrats i a les golfes, de les quals baixa per emportar-se els nens.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camunyes-c05",
+          "source_id": "camunyes-s3",
+          "host": "pideconflent.free.fr",
+          "statement": "A list of child-scaring figures records Camunyes in the Terra Alta as a small animal-like ogre with big teeth that swallows naughty children as if they were \"marenga\".",
+          "statement_id": "Sebuah daftar tokoh penakut-nakut anak mencatat Camunyes di Terra Alta sebagai raksasa pemakan manusia seperti binatang, kecil dan bergigi besar, yang menelan anak nakal seolah-olah mereka \"marenga\".",
+          "quote": "CAMUNYES Terra Alta Ogre animal, menut i amb grans dents. Engoleix els nens dolents com si fossin marenga",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "camunyes-c06",
+          "source_id": "camunyes-s4",
+          "host": "ca.wikipedia.org",
+          "statement": "Among Catalan child-scaring figures, some have world counterparts such as the Papu, the Home del sac and witches, while others are quite their own and genuine, such as lo Marraco, en Camunyes and en Rosegacebes.",
+          "statement_id": "Di antara tokoh penakut-nakut anak Katalan, sebagian punya padanan dunia seperti Papu, Home del sac, dan para penyihir, sedangkan yang lain sepenuhnya khas dan asli, seperti lo Marraco, en Camunyes, dan en Rosegacebes.",
+          "quote": "Hi ha figures mundials que tenen el seu referent a Catalunya com ara el Papu, l'Home del sac i les bruixes i d'altres de ben propis i genuïns com ara lo Marraco, en Camunyes o en Rosegacebes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "caquesseitao",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "877d20be7811b40a35b54141dbb7375d3483378c1472e0b7718320bd86c35a90",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "caquesseitao-c01",
@@ -593,24 +800,55 @@
           "quote": "Tornou-se presença frequente na arte indo-portuguesa.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "caquesseitao-c06",
+          "source_id": "caquesseitao-s2",
+          "host": "artsandculture.google.com",
+          "statement": "An animal of fantastic nature, the Caquesseitão was described by Fernão Mendes Pinto in the book \"Peregrinação\" [1614]; with characteristics of different species, the mysterious creature entered the exotic imagination of the time.",
+          "statement_id": "Hewan berwatak fantastis, Caquesseitão dilukiskan oleh Fernão Mendes Pinto dalam buku \"Peregrinação\" [1614]; dengan ciri-ciri berbagai spesies, makhluk misterius ini memasuki imajinasi eksotis zamannya.",
+          "quote": "An animal of fantastic nature, the Caquesseitão was described by Fernão Mendes Pinto in the book \"Peregrinação\" [1614]. With characteristics of different species, the mysterious creature entered the exotic imagination of the time.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "caquesseitao-c07",
+          "source_id": "caquesseitao-s2",
+          "host": "artsandculture.google.com",
+          "statement": "A Caquesseitão aquamanile dating back to the 17th century would have been manufactured in South China or Southeast Asia; it is excellently executed in repoussé, engraved and chiseled silver.",
+          "statement_id": "Sebuah aquamanile Caquesseitão dari abad ke-17 diperkirakan dibuat di Tiongkok Selatan atau Asia Tenggara; ia dikerjakan dengan sangat baik dalam perak repoussé, ukiran, dan pahatan.",
+          "quote": "Dating back to the 17th century, Caquesseitão aquamanil would have been manufactured in South China or Southeast Asia. The piece is excellently executed, using repoussé, engraved and chiseled silver working techniques.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "caquesseitao-c08",
+          "source_id": "caquesseitao-s3",
+          "host": "pt.wikisource.org",
+          "statement": "In the old-spelling text of the Peregrinação the narrator says that here they also saw a very new manner and strange shape of beasts that the natives of the land call Caquesseitão, the size of a large duck and very black, with humped backs.",
+          "statement_id": "Dalam teks berejaan lama Peregrinação sang pencerita mengatakan bahwa di sana mereka juga melihat jenis binatang yang sangat baru dan berbentuk aneh, yang oleh penduduk setempat disebut Caquesseitão, sebesar bebek besar dan sangat hitam, berpunggung bongkok.",
+          "quote": "Vimos aquy tambem hũa muyto noua maneyra, & eﬅranha feyção de bichos, aque os naturaes da terra chamão Caqueſſeitão, do tamanho de hũa grande pata, muyto pretos, conchados pelas coﬅas",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "caragot",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "46e57b0a81ed8b3416e8aa08de89a37b91d8213acd0c629257feeb854cca58af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 5,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -623,26 +861,61 @@
           "quote": "El Caragot és un espantamainades propi de l'imaginari popular català. Se'l descriu com un homenot alt, quasi un gegant, una mena d'home del sac que entra a les cases per la xemeneia i se n'enduu els nens entremaliats en un gran sac per a menjar-se'ls amb sopes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "caragot-c02",
+          "source_id": "caragot-s2",
+          "host": "www.recercacerdanya.org",
+          "statement": "El Caragot is a tall, giant-like man who comes down the chimney with an enormous sack on his back full of mischievous children, with whom he makes soups on the hearth fire; he is similar to the Home del Sac.",
+          "statement_id": "El Caragot adalah lelaki tinggi dan besar seperti raksasa yang turun lewat cerobong asap membawa karung besar di punggungnya penuh anak-anak nakal, yang ia jadikan sup di atas api perapian; ia mirip dengan Home del Sac.",
+          "quote": "El Caragot és un homenot alt i agegantat que baixa per la xemeneia amb un enorme sac a l’esquena ple de nens entremaliats, amb els quals es fa unes sopes al foc de la llar. Similar a l’Home del Sac.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caragot-c03",
+          "source_id": "caragot-s3",
+          "host": "pideconflent.free.fr",
+          "statement": "A list of child-scaring figures records Caragot, also written Caragol, noted as \"com. de Tarragona\", as coming down chimneys and making soups of bad children, related to the home del sac.",
+          "statement_id": "Sebuah daftar tokoh penakut-nakut anak mencatat Caragot, juga ditulis Caragol, dengan keterangan \"com. de Tarragona\", yang turun lewat cerobong dan menjadikan anak nakal sebagai sup, berkerabat dengan home del sac.",
+          "quote": "CARAGOT/ CARAGOL com. de Tarragona ... que baixa per les xemeneies i dels nens dolents en fa sopes. Emparentat amb l'home del sac.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caragot-c04",
+          "source_id": "caragot-s4",
+          "host": "surtdecasa.cat",
+          "statement": "A magazine article on the espantanens of the Nit d'Ànimes describes the Caragot as a tall giant-like man who comes down the chimney with an enormous sack full of mischievous children, with whom he makes soups at the hearth fire; similar to the Home del Sac.",
+          "statement_id": "Sebuah artikel majalah tentang espantanens pada Nit d'Ànimes menggambarkan Caragot sebagai lelaki tinggi seperti raksasa yang turun lewat cerobong dengan karung besar penuh anak nakal, yang ia jadikan sup di perapian; mirip dengan Home del Sac.",
+          "quote": "El Caragot és un homenot alt i agegantat que baixa per la xemeneia amb un enorme sac a l'esquena ple d'infants entremaliats, amb els quals es fa unes sopes al foc de la llar. Similar a l'Home del Sac.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "caragot-c05",
+          "source_id": "caragot-s5",
+          "host": "ca.wikipedia.org",
+          "statement": "Catalan Wikipedia lists El Caragot among the espantamainades of Catalonia.",
+          "statement_id": "Wikipedia berbahasa Katalan mencantumkan El Caragot di antara espantamainades di Katalunya.",
+          "quote": "A Catalunya: L'Ànima de Cantiret En Banya Verda Els Batonis En Camunyes El Caragot La Cardapeçols La Fou",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cardapecols",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "a5b680fb4d831c6c06cbf318da215566298a86547b05f6746107275837d17c8d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cardapecols-c01",
@@ -683,26 +956,41 @@
           "quote": "Segons va recollir Joan Amades en un article a la Revista de Dialectología y Tradiciones Populares el 1957, la Cardapeçols és coneguda al Bruc, Esparraguera i Piera.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "cardapecols-c05",
+          "source_id": "cardapecols-s2",
+          "host": "pideconflent.free.fr",
+          "statement": "She is a strange little woman who combs mischievous girls who do not want to be combed, using wool-carding thorns as a comb.",
+          "statement_id": "Ia perempuan kecil yang aneh yang menyisir anak perempuan nakal yang tidak mau disisir, memakai duri pengurai wol sebagai sisir.",
+          "quote": "Doneta estranya que pentina les nenes entremaliades que no volen pentinar-se. Fa servir com a pinta espines de cardar llana.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cardapecols-c06",
+          "source_id": "cardapecols-s3",
+          "host": "ca.wikipedia.org",
+          "statement": "Catalan Wikipedia lists La Cardapeçols among the espantamainades of Catalonia.",
+          "statement_id": "Wikipedia berbahasa Katalan mencantumkan La Cardapeçols di antara espantamainades di Katalunya.",
+          "quote": "A Catalunya: L'Ànima de Cantiret En Banya Verda Els Batonis En Camunyes El Caragot La Cardapeçols La Fou",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "carro-da-condeceira",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "8287cd8897014edec801c23a232d8d3f7b8eb005435da9b15d88fa942bee45c2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "carro-da-condeceira-c01",
@@ -733,26 +1021,51 @@
           "quote": "despertado pela grande chiadeira que o carro fazia: imediatamente levou uma bofetada monumental.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "carro-da-condeceira-c04",
+          "source_id": "carro-da-condeceira-s2",
+          "host": "lendarium.org",
+          "statement": "The \"Carro da Condesseira\" goes about the villages and carries the witches and the devil.",
+          "statement_id": "\"Carro da Condesseira\" berkeliling desa dan membawa para penyihir serta iblis.",
+          "quote": "Carro da Condesseira ... anda pelas aldeias. Conduz as bruxas e o diabo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carro-da-condeceira-c05",
+          "source_id": "carro-da-condeceira-s2",
+          "host": "lendarium.org",
+          "statement": "The witches are inside the cart, and passing houses where people peep out at the cart, they throw their rake at them.",
+          "statement_id": "Para penyihir berada di dalam kereta, dan ketika melewati rumah tempat orang mengintip kereta itu, mereka melempar garu mereka ke arah orang-orang itu.",
+          "quote": "mesmo dentro do carro, e passando por casas, onde espreitem o carro, atiram-lhes com o restelo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carro-da-condeceira-c06",
+          "source_id": "carro-da-condeceira-s2",
+          "host": "lendarium.org",
+          "statement": "The record cites as its source \"Antígua, Tradições e Contos Populares\" by Francisco Martins Sarmento, published in Guimaraes by the Sociedade Martins Sarmento in 1998.",
+          "statement_id": "Catatan itu menyebut sumbernya \"Antígua, Tradições e Contos Populares\" karya Francisco Martins Sarmento, terbitan Sociedade Martins Sarmento di Guimaraes tahun 1998.",
+          "quote": "SARMENTO, Francisco Martins Antígua, Tradições e Contos Populares Guimaraes, Sociedade Martins Sarmento, 1998",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cavalli-di-elio",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "6983dd4b38c5b3060652deabe291e35a9c3261c22c1485d0b517bb9605893a77",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cavalli-di-elio-c01",
@@ -773,26 +1086,71 @@
           "quote": "Essi erano i 4 velocissimi destrieri del carro di fuoco che, aggiogati dal dio, percorrevano rapidissimi la volta celeste diffondendo la luce del giorno: Eòo Etone Flegone Piroide",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "cavalli-di-elio-c03",
+          "source_id": "cavalli-di-elio-s2",
+          "host": "www.theoi.com",
+          "statement": "The golden chariot of the sun was drawn across the sky by a team of four white, winged horses.",
+          "statement_id": "Kereta emas matahari ditarik melintasi langit oleh empat kuda putih bersayap.",
+          "quote": "The golden chariot of the sun was drawn across the sky drawn by a team of four white, winged horses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalli-di-elio-c04",
+          "source_id": "cavalli-di-elio-s2",
+          "host": "www.theoi.com",
+          "statement": "In a translation of Ovid, the four swift horses of Sol, Aethon (Blaze), Eous (Dawn), Pyrois (Fire) and Phlegon (Flame), kick at the gates, neighing and snorting fire.",
+          "statement_id": "Dalam terjemahan Ovid, keempat kuda cepat Sol, yaitu Aethon (Nyala), Eous (Fajar), Pyrois (Api), dan Phlegon (Lidah Api), menendang gerbang sambil meringkik dan mendengus api.",
+          "quote": "Meanwhile the four swift horses of Sol, Aethon (Blaze), Eous (Dawn), Pyrois (Fire) and Phlegon (Flame), kick at the gates, neighing and snorting fire",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalli-di-elio-c05",
+          "source_id": "cavalli-di-elio-s2",
+          "host": "www.theoi.com",
+          "statement": "In the same translation the horses go forth, cleaving the clouds with beating hooves and outriding on wings the winds that blow westwards from the morning.",
+          "statement_id": "Dalam terjemahan yang sama kuda-kuda itu melesat keluar, membelah awan dengan derap kuku dan mendahului dengan sayap angin yang bertiup ke barat dari pagi hari.",
+          "quote": "Forth they go, tearing away, and cleave with beating hooves the clouds before them, and on wings outride the winds that westwards from the morning blow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalli-di-elio-c06",
+          "source_id": "cavalli-di-elio-s2",
+          "host": "www.theoi.com",
+          "statement": "A Roman mythographer gives other names for the horses of Sol: Eous and Aethiops among the male trace-horses, and Bronte (thunder) and Sterope (lightning) as the female yoke-bearers.",
+          "statement_id": "Seorang penulis mitologi Romawi memberi nama lain bagi kuda-kuda Sol: Eous dan Aethiops di antara kuda tarik jantan, serta Bronte (guntur) dan Sterope (kilat) sebagai kuda pemikul kuk betina.",
+          "quote": "Names of the Horses of Sol (the Sun) [Helios]. Eous, by him the sky is turned. Aethiops, as if faming, parches the grain. These trace-horses are male. The female are yoke-bearers : Bronte, whom we call thunder (tonitrua), Sterope, whom we call lightning (fulgitrua).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalli-di-elio-c07",
+          "source_id": "cavalli-di-elio-s2",
+          "host": "www.theoi.com",
+          "statement": "The goddesses of the four seasons fed the solar horses ambrosia at dawn and yoked them to the heavenly chariot.",
+          "statement_id": "Dewi empat musim memberi kuda-kuda matahari ambrosia saat fajar dan memasangkan mereka pada kereta langit.",
+          "quote": "The goddesses of the four seasons fed the solar horses ambrosia at dawn and yoked them to the heavenly chariot.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cavalo-do-pensamento",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "c8e3573a3836bbfe0d0037d7d63f40c4bc2a4888e60722bd4e34d5e260fab2e5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cavalo-do-pensamento-c01",
@@ -803,26 +1161,71 @@
           "quote": "O cavalo do pensamento é um ser mítico das lendas portuguesas.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cavalo-do-pensamento-c02",
+          "source_id": "cavalo-do-pensamento-s2",
+          "host": "www.csarmento.uminho.pt",
+          "statement": "In a tale a youth is asked to choose whether to go on the horse of the wind or the horse of thought; he chooses the horse of thought, and a horse appears that spits fire from its eyes and mouth.",
+          "statement_id": "Dalam sebuah kisah, seorang pemuda diminta memilih pergi dengan kuda angin atau kuda pikiran; ia memilih kuda pikiran, dan muncullah seekor kuda yang menyemburkan api dari mata dan mulutnya.",
+          "quote": "Bem, agora escolhe: em qual queres ir, no cavalo do vento ou no do pensamento? –O rapaz escolheu o do pensamento, e apareceu-lhe logo um cavalo que deitava fogo pelos olhos e pela boca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalo-do-pensamento-c03",
+          "source_id": "cavalo-do-pensamento-s2",
+          "host": "www.csarmento.uminho.pt",
+          "statement": "As soon as the youth mounted the horse, it was a flight so fast that he did not know where he was going or not going.",
+          "statement_id": "Begitu pemuda itu menunggangi kuda itu, ia melesat sedemikian cepat sehingga ia tak tahu ke mana ia pergi dan ke mana tidak.",
+          "quote": "Mal o rapaz montou em cima do cavalo... aquilo era fugir que nem sabia por onde ia nem por onde não ia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalo-do-pensamento-c04",
+          "source_id": "cavalo-do-pensamento-s2",
+          "host": "www.csarmento.uminho.pt",
+          "statement": "In the blink of an eye he found himself at his front door; when he spoke the words he had been told, the horse burst with a bang and disappeared, like an evil thing.",
+          "statement_id": "Dalam sekejap ia sudah berada di depan pintu rumahnya; ketika ia mengucapkan kata-kata yang dipesankan, kuda itu meledak dengan dentuman dan lenyap, seperti sesuatu yang jahat.",
+          "quote": "Enquanto o diabo esfrega um olho, viu-se à porta de casa. Pendurou-se como o Mouro tinha mandado, num dos ramos da figueira e disse: arre burro com todos os diabos! O cavalo deu um estoiro e desapareceu, como coisa má",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalo-do-pensamento-c05",
+          "source_id": "cavalo-do-pensamento-s3",
+          "host": "www.csarmento.uminho.pt",
+          "statement": "The man of Donim was taken to the mourama and, to return to earth, had to come on the \"horse of thought\", which he preferred to the one \"of the wind\".",
+          "statement_id": "Lelaki dari Donim dibawa ke mourama dan, untuk kembali ke bumi, harus datang dengan \"kuda pikiran\", yang ia pilih daripada kuda \"angin\".",
+          "quote": "Assim, o homem de Donim foi levado para a mourama, e, para voltar à terra, teve de vir no «cavalo do pensamento», que preferiu ao «do vento».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cavalo-do-pensamento-c06",
+          "source_id": "cavalo-do-pensamento-s3",
+          "host": "www.csarmento.uminho.pt",
+          "statement": "Among the places listed, \"cavalo do pensamento\" is counted as one of 25 places in \"our concelho\" that are important for the mouros.",
+          "statement_id": "Dalam daftar tempat itu, \"cavalo do pensamento\" dihitung sebagai salah satu dari 25 tempat di \"concelho kita\" yang penting bagi para mouro.",
+          "quote": "Donim - pedra flutuante (23); cavalo do pensamento (24); Airão, moura em pedra flutuante (25). Aqui temos 25 lugares do nosso concelho importantes pelos mouros",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cavalum",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "d6f1572d05b83d56d0679c74e02556f146e067fd4b2dbceaffbe19d4b763f2a0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cavalum-c01",
@@ -873,26 +1276,31 @@
           "quote": "Para que o monstro não voltasse a causar estragos, Deus resolveu prender o Cavalum nas Furnas, onde ainda hoje de tempos a tempos se ouve o seu relhinchar zangado contra Deus, durante as tempestades fortes.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cavalum-c06",
+          "source_id": "cavalum-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The Furnas do Cavalum caves are named after a local legend about a demon called Cavalum, who was imprisoned in the cave.",
+          "statement_id": "Gua Furnas do Cavalum dinamai menurut legenda setempat tentang iblis bernama Cavalum yang dipenjara di dalam gua.",
+          "quote": "Named after a local legend about a demon called Cavalum, who was imprisoned in the cave.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cenocroca",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "41fd739531a90ca0596eebf66ff8d5db0be23da2b35080a1dc5a4062c434c446",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cenocroca-c01",
@@ -943,26 +1351,41 @@
           "quote": "La creatura viene descritta anche all'interno de Il nome della rosa di Umberto Eco dal monaco benedettino Adso da Melk.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "cenocroca-c06",
+          "source_id": "cenocroca-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Pliny describes the crocotta as an animal that looks as though it had been produced by the union of the wolf and the dog, able to break anything with its teeth and digest it at once on swallowing.",
+          "statement_id": "Pliny melukiskan crocotta sebagai hewan yang tampak seolah lahir dari perkawinan serigala dan anjing, mampu mematahkan apa pun dengan giginya dan langsung mencernanya setelah menelan.",
+          "quote": "the crocotta, an animal which looks as though it had been produced by the union of the wolf and the dog ... for it can break any thing with its teeth, and instantly on swallowing it digest it with the stomach",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cenocroca-c07",
+          "source_id": "cenocroca-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Pliny describes the leucrocotta as a wild beast of extraordinary swiftness, the size of the wild ass, with a mouth slit up as far as the ears and one continuous bone instead of teeth, and says it is said to imitate the human voice.",
+          "statement_id": "Pliny melukiskan leucrocotta sebagai binatang buas yang luar biasa cepat, sebesar keledai liar, bermulut terbelah sampai ke telinga dan bergigi satu tulang menerus, dan menyebut makhluk itu konon dapat menirukan suara manusia.",
+          "quote": "the leucrocotta, a wild beast of extraordinary swiftness, the size of the wild ass, with the legs of a stag, the neck, tail, and breast of a lion, the head of a badger, a cloven hoof, the mouth slit up as far as the ears, and one continuous bone instead of teeth ... it is said, too, that this animal can imitate the human voice.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chipique",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "d8fc5fb6500faae38b1884a339cb5c66d59496449d384a8fe1debc332f7fcb6b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chipique-c01",
@@ -1003,26 +1426,61 @@
           "quote": "Dans la littérature européenne, l'animal est cité pour la première fois par Carl Hagenbeck en 1909.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "chipique-c05",
+          "source_id": "chipique-s2",
+          "host": "abookofcreatures.com",
+          "statement": "A serpent is said to live at the foot of Victoria Falls, as Dr. Livingstone presumed; Barotse folklore holds that this monster, the Chipique, came from the ocean, traveling over a thousand miles to rest at the falls.",
+          "statement_id": "Seekor ular dikatakan hidup di kaki Air Terjun Victoria, seperti dugaan Dr. Livingstone; folklor Barotse menyatakan monster ini, Chipique, datang dari samudra, menempuh lebih dari seribu mil untuk beristirahat di air terjun.",
+          "quote": "A serpent lives at the foot of Victoria Falls – at least, that’s what Dr. Livingstone presumed. Barotse folklore holds that this monster, the Chipique, came from the ocean, traveling over a thousand miles to rest at the falls.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chipique-c06",
+          "source_id": "chipique-s2",
+          "host": "abookofcreatures.com",
+          "statement": "The chipique rules the river by night and it is unsafe to approach Victoria Falls then; thirty feet long, it can easily grab a canoe and immobilize it.",
+          "statement_id": "Chipique menguasai sungai pada malam hari dan tidak aman mendekati Air Terjun Victoria saat itu; panjangnya tiga puluh kaki, dan ia dapat dengan mudah mencengkeram sampan dan melumpuhkannya.",
+          "quote": "The chipique rules the river by night, and it is unsafe to approach Victoria Falls during that time. Thirty feet in length, the chipique can easily grab a canoe and immobilize it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chipique-c07",
+          "source_id": "chipique-s2",
+          "host": "abookofcreatures.com",
+          "statement": "Its head is small and slate-grey, while its serpentine, heavy body winds in black coils.",
+          "statement_id": "Kepalanya kecil dan berwarna abu-abu batu tulis, sedangkan tubuhnya yang seperti ular dan berat melingkar dalam gulungan hitam.",
+          "quote": "Its head is small and slate-grey, while its serpentine, heavy body winds in black coils.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chipique-c08",
+          "source_id": "chipique-s2",
+          "host": "abookofcreatures.com",
+          "statement": "Eyewitnesses include Mr. V. Pare, who saw the chipique in 1925; it reared and disappeared into a cave.",
+          "statement_id": "Saksi mata termasuk Mr. V. Pare, yang melihat chipique pada 1925; ia menegakkan tubuh lalu menghilang ke dalam gua.",
+          "quote": "Eyewitnesses include Mr. V. Pare, who saw the chipique in 1925. It reared and disappeared into a cave.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "coga",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "983c3b747e9aae8d7dac736ebad4aaad46938874991cf2f1899cd869bc4c6292",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "coga-c01",
@@ -1113,26 +1571,61 @@
           "quote": "La figura delle Cogas può essere associata a quella di Lilith antica divinità sumera, che per la cultura ebraica è un demone femminile",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "coga-c10",
+          "source_id": "coga-s2",
+          "host": "www.contusu.it",
+          "statement": "In ancient times there existed is cogas, the coghe (witches): women who lived normal lives but on particular occasions could transform into animals, especially flies and cats, by anointing their bodies with certain unguents.",
+          "statement_id": "Pada zaman dahulu ada is cogas, para coghe (penyihir): perempuan yang hidup biasa tetapi pada kesempatan tertentu dapat berubah menjadi hewan, terutama lalat dan kucing, dengan mengolesi tubuh mereka dengan salep tertentu.",
+          "quote": "In ancient times, there existed is cogas, the coghe (witches). They were women who lived normal lives but who, on particular occasions, could transform into animals, especially flies and cats, by anointing their bodies with certain unguents.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "coga-c11",
+          "source_id": "coga-s2",
+          "host": "www.contusu.it",
+          "statement": "Once transformed, they would enter the rooms where infants slept, sucking their blood and leaving them exhausted and sometimes dead.",
+          "statement_id": "Setelah berubah, mereka masuk ke kamar tempat bayi tidur, menghisap darahnya dan membuat mereka kelelahan dan kadang mati.",
+          "quote": "Once transformed, they would enter the rooms where infants slept, sucking their blood, leaving them exhausted and sometimes dead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "coga-c12",
+          "source_id": "coga-s2",
+          "host": "www.contusu.it",
+          "statement": "The most common remedies included placing an inverted tripod in front of the door, leaning an upside-down broom against it, or leaving an old, toothless sickle so that the coga would stop to count the teeth; since she could only count to seven, she always had to start over until the night passed.",
+          "statement_id": "Penangkal yang paling umum antara lain meletakkan tripod terbalik di depan pintu, menyandarkan sapu terbalik padanya, atau meninggalkan sabit tua tak bergigi agar coga berhenti menghitung giginya; karena ia hanya bisa menghitung sampai tujuh, ia selalu harus mengulang sampai malam berlalu.",
+          "quote": "The most common remedies included placing an inverted tripod in front of the door, leaning an upside-down broom against it, or leaving an old, toothless sickle so that the coga would stop to count the teeth. However, since she could only count to seven, she always had to start over until the night passed",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "coga-c13",
+          "source_id": "coga-s2",
+          "host": "www.contusu.it",
+          "statement": "The most powerful defense was the invocation to San Sisinnio.",
+          "statement_id": "Perlindungan yang paling ampuh adalah doa kepada San Sisinnio.",
+          "quote": "But the most powerful defense was the invocation to San Sisinnio.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "confinati",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-2.md",
+      "entry_sha256": "b59c06e01d45e75b2849dd792a5c83439e080e7c7c86c646bd7d8908c6f3fcb3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "confinati-c01",
@@ -1162,6 +1655,56 @@
           "statement_id": "Dalam bahasa Lombard mereka disebut cunfinàcc (timur) atau cunfinàa (barat).",
           "quote": "In lombardo sono chiamati cunfinàcc (orientale) cunfinàa (occidentale).",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "confinati-c04",
+          "source_id": "confinati-s2",
+          "host": "web.archive.org",
+          "statement": "In Valtellina there is a belief in the \"confined\" souls, relegated to anything but welcoming places to serve there the eternal penalty they deserve.",
+          "statement_id": "Di Valtellina ada kepercayaan pada jiwa-jiwa \"terkurung\", yang dibuang ke tempat yang sama sekali tidak ramah untuk menjalani hukuman abadi yang pantas mereka terima.",
+          "quote": "interessante di tale elaborazione ... in Valtellina, la credenza nei ... nelle anima “confinate”, relegate in luoghi tutt’altro che accoglienti, per scontare ... l’eterna pena meritata.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "confinati-c05",
+          "source_id": "confinati-s2",
+          "host": "web.archive.org",
+          "statement": "In one variant the spirit, often a \"colony\" of spirits, is nailed to a wearying and desperate penalty: often digging gold or metals, splitting stones, striking boulders with mallets, or carrying enormous rocks on their shoulders.",
+          "statement_id": "Dalam satu varian roh itu, sering berupa \"koloni\" roh, terpaku pada hukuman yang melelahkan dan putus asa: sering menggali emas atau logam, memecah batu, memukul bongkahan dengan palu besar, atau memikul batu raksasa di bahu.",
+          "quote": "lo presenta (o li presenta, ... spesso si tratta di una “colonia” di spiriti) inchiodato ad una pena faticosa e disperata (spesso cavare oro o metalli, spaccare pietre, battere con mazze contro macigni, portare enormi massi sulle spalle",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "confinati-c06",
+          "source_id": "confinati-s2",
+          "host": "web.archive.org",
+          "statement": "According to other variants these spirits go on acting to the harm of people, frightening them with noises or screams, turning huts upside down (\"a soqquadro le baite\") and hindering their passage in certain places, generally by hurling rocks on them.",
+          "statement_id": "Menurut varian lain, roh-roh ini terus bertindak merugikan manusia, menakut-nakuti mereka dengan bunyi atau jeritan, mengobrak-abrik pondok (\"a soqquadro le baite\"), dan menghalangi jalan mereka di tempat tertentu, umumnya dengan menjatuhkan batu ke atas mereka.",
+          "quote": "Secondo altre ancora, infine, questi spiriti conservano una certa ... e continuano a manifestare la loro ... a danno degli uomini, spaventandoli con rumori od urla, mettendo a soqquadro le baite, ostacolando in vario modo il loro transito in certi luoghi o le loro ... (in genere, rovesciando loro addosso massi).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "confinati-c07",
+          "source_id": "confinati-s2",
+          "host": "web.archive.org",
+          "statement": "The only but sure way to defend oneself is prayer, even in the extremely concise form of the sign of the cross.",
+          "statement_id": "Satu-satunya cara yang pasti untuk membela diri adalah doa, bahkan dalam bentuk paling ringkas berupa tanda salib.",
+          "quote": "Unico, ma sicuro modo per difendersi, ... la preghiera, anche nella forma estremamente sintetica del segno di croce.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "confinati-c08",
+          "source_id": "confinati-s2",
+          "host": "web.archive.org",
+          "statement": "A hidden plateau called Piana dei Dannati or Piana di Zana hosts the cunfinàa of the Corni Rossi; anyone passing there at night might hear them beating their mallets endlessly on the countless stones.",
+          "statement_id": "Sebuah dataran tersembunyi bernama Piana dei Dannati atau Piana di Zana menampung para cunfinàa dari Corni Rossi; siapa pun yang lewat di sana pada malam hari mungkin mendengar mereka memukulkan palu tanpa henti pada batu yang tak terhitung.",
+          "quote": "si trova un pianoro nascosto, detto Piana dei Dannati o Piana di Zana, che ospita i ... dei Corni Rossi. Chi passasse di qui nottetempo potrebbe udirli battere senza sosta le loro mazze sulle innumerevoli pietre",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1215,7 +1758,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4941f3e33f046875662da6efa03705a3e645a6a9de21afbefaec49eeda22bacd"
     },
     {
       "slug": "crieur",
@@ -1325,7 +1869,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eb7df5254fda0d6e178dd55e30bb17fbf31f146b3412f0b887c35408ab547354"
     },
     {
       "slug": "cucala",
@@ -1375,7 +1920,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "03efd52b1609dacf38b74a55cc7e24f49276e471e2bad49101238d4a465ba16a"
     },
     {
       "slug": "dames-blanches",
@@ -1485,7 +2031,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3f33635bb7962a65d906209e6188a7348ce1a3f3485f0837e34bae73ef2d04d"
     },
     {
       "slug": "demone-dal-dito-di-ferro",
@@ -1565,7 +2112,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a03541a1cf38732ef80ca4eb4c7db6aa903745c99bacd156d7dc239e9d2d2c4f"
     },
     {
       "slug": "dianho",
@@ -1615,7 +2163,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0a9497eabba6c9ca611b1621d43ee15262e615acf6c4b0331fa416bf7da22ddf"
     },
     {
       "slug": "dimoni-cucarell",
@@ -1665,7 +2214,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ba1bdfdee49882ab180c82a17d63bab4797519d87b4d0210a1a4b826ed164cdd"
     },
     {
       "slug": "drac-de-banyoles",
@@ -1684,7 +2234,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "93ddb7b127ab7d4429899621734f115d9acfc8eb572df73e390cf091c729d1df"
     },
     {
       "slug": "drac-de-beaucaire",
@@ -1774,7 +2325,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4e51bcb647622eac640da57e228951df61b908225d6064c2f809b973b496b346"
     },
     {
       "slug": "drac-de-sant-llorenc-del-munt",
@@ -1864,7 +2416,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1dfc7fbf83b18e2e2a4016542c40a7cc9850b6c2beecb82129b2505b55747e6"
     },
     {
       "slug": "duende-de-zaragoza",
@@ -1883,7 +2436,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "77445cad390caa11a6a6c90276e28e963f99a93921054806898cc13557c5defa"
     },
     {
       "slug": "dzee-dzee-bon-da",
@@ -1923,7 +2477,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ff620f4965f3e463841c937c872135e644880bc9601f754c898cded56d01770c"
     },
     {
       "slug": "encanto",
@@ -2018,7 +2573,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9ef719a9b2ab37d3bffeb8104344f8026943697770c8a1d5da7112c061520d1f"
     },
     {
       "slug": "esclafamuntanyes",
@@ -2068,7 +2624,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "74964869f4250674d7d5ec188abf490b90f7a90f6892016e36fa9b6668aa2444"
     },
     {
       "slug": "eth-hulet",
@@ -2128,7 +2685,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a596c3e9e9321827bc87bbed136ed977b3111bb6ec20edbfce3b2ee73c56b57c"
     },
     {
       "slug": "fakrou",
@@ -2198,7 +2756,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1aaa6a1d6a51419d7b208da94d040331731756b0705cd8e31ad259f9a9c0460e"
     },
     {
       "slug": "farronca",
@@ -2258,7 +2817,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "661548763f3e580b1d86f59d7148fb14995ea97e72bcf8ef91a1f38adf2b8ff2"
     },
     {
       "slug": "firedrake-folklore",
@@ -2368,7 +2928,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c8a0b76a34c536c7b6edbbb73155d1660e2fcc53678473bc126d1dbceabd0805"
     },
     {
       "slug": "flare-flairon",
@@ -2418,7 +2979,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "60e352fb5d3348cdcb83150b87762f2064a888ef2513c9e3d0025e4e32528da5"
     },
     {
       "slug": "fogacho",
@@ -2468,7 +3030,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b41a036f07458d42ffe1a3743d4d55b7738336a075d4cb13cc3cddb0460a4346"
     },
     {
       "slug": "forcut-de-xixona",
@@ -2538,7 +3101,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4acc80d052bd41ef7d6ac800427b8a6e040ff1a064d05cc0ea4aaf875a9b1f18"
     },
     {
       "slug": "fort-farell",
@@ -2618,7 +3182,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1ac97baf291ebbbb7a0fa902b60327ebd8f5232838aa06d792058e73043f701f"
     },
     {
       "slug": "fradinho-da-mao-furada",
@@ -2658,7 +3223,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "688f1d87c74d1811ccb5d5ddffb32302e92607ebca1e4ebcf0d77be98ffd3e47"
     },
     {
       "slug": "fraret",
@@ -2718,7 +3284,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3b979310efc48ff3409e87029d5b19756a1860251535700c9edeb347a6376e9f"
     },
     {
       "slug": "friars-of-les-barcelles",
@@ -2788,7 +3355,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b523ac56648ff10330ef794c11f986f4c321efd2442b268dec7a6e432d3f1757"
     },
     {
       "slug": "fumera",
@@ -2848,7 +3416,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f25ac4b8814049b5f3db6d35b3a56ba7de281f97b9fdb1966733b288bd2f3691"
     },
     {
       "slug": "galina-dos-pitos-de-ouro",
@@ -2933,24 +3502,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "296949a7cbbad4cea9621f22249d2c2c7c869865d10e06a9b387753d44eb6883"
     },
     {
       "slug": "galtxagorriak",
-      "file": "batch-133.md",
+      "file": "batch-133-fix-1.md",
+      "entry_sha256": "7ad97847c6481dd2a5c9705b06eba72dfdb46f6c8b66d60e16b1881b789d789d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "galtxagorriak-c01",
@@ -2958,9 +3523,9 @@
           "host": "en.wikipedia.org",
           "statement": "Galtxagorriak (singular Galtxagorrii), also called Galtzagorrii or Prakagorris, are a kind of iratxoak (imp) or house spirit in Basque folklore; the name means \"red pants\".",
           "statement_id": "Galtxagorriak (tunggal Galtxagorrii), disebut juga Galtzagorrii atau Prakagorris, adalah sejenis iratxoak (makhluk kecil) atau roh rumah dalam cerita rakyat Basque; namanya berarti \"celana merah\".",
-          "quote": "Galtxagorriak (singular Galtxagorrii, Basque pronunciation: [ɡaltʃagoriak]), also called Galtzagorrii or Prakagorris, are a type of iratxoak (imp) or house spirit in Basque folklore. The name \"Galtxagorriak\" translates to \"red-pants\".",
+          "quote": "Galtxagorriak (singular Galtxagorrii, Basque pronunciation: ... also called Galtzagorrii or Prakagorris, are a type of iratxoak (imp) or house spirit in Basque folklore. The name \"Galtxagorriak\" translates to \"red-pants\".",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "galtxagorriak-c02",
@@ -3031,6 +3596,56 @@
           "quote": "The 2016 animated film Teresa eta Galtzagorri (English title: Elf on the Run) by Basque film company Dibulitoon Studio features a young galtzagorri named Tim as a main character.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "galtxagorriak-c09",
+          "source_id": "galtxagorriak-s2",
+          "host": "www.labayru.eus",
+          "statement": "They are occasionally described as tiny, almost imperceptible men dressed in red pants, known in several places as galtzagorriak or prakagorriak, from galtza or praka \"pants\" and gorriak \"red\".",
+          "statement_id": "Mereka kadang digambarkan sebagai lelaki mungil yang nyaris tak kasatmata dan bercelana merah, di beberapa tempat disebut galtzagorriak atau prakagorriak, dari galtza atau praka \"celana\" dan gorriak \"merah\".",
+          "quote": "They are occasionally described as tiny, almost imperceptible men, dressed in red pants, known in several places as galtzagorriak or prakagorriak —from galtza or praka ‘pants’ and gorriak ‘red’—.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galtxagorriak-c10",
+          "source_id": "galtxagorriak-s2",
+          "host": "www.labayru.eus",
+          "statement": "Their owner usually carries them in a needle case; as soon as they are set free they rush out at full speed and do as they are told, however far-fetched the task, and wait impatiently for the next command.",
+          "statement_id": "Pemiliknya biasanya membawa mereka dalam wadah jarum; begitu dilepas mereka melesat keluar dan menjalankan perintah, seaneh apa pun tugasnya, lalu menunggu perintah berikutnya dengan tidak sabar.",
+          "quote": "Their owner usually carries them in a needle case. They rush out at full speed, as soon as they are set free, do as they are told, no matter how far-fetched or fanciful tasks you might ask of them, and wait impatiently for the next command.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galtxagorriak-c11",
+          "source_id": "galtxagorriak-s2",
+          "host": "www.labayru.eus",
+          "statement": "They are good workers, extremely strong and fast as lightning but hard to control; they must be kept busy, so they are sometimes given impossible commands such as carrying water in sieves or whitening dark sheep fleeces.",
+          "statement_id": "Mereka pekerja yang baik, sangat kuat dan secepat kilat tetapi sulit dikendalikan; mereka harus terus diberi pekerjaan, sehingga kadang diberi perintah mustahil seperti membawa air dalam saringan atau memutihkan bulu domba gelap.",
+          "quote": "They are good workers, extremely strong and fast as lightning, but can be difficult to control. You ought to keep them busy, and since they do everything so quickly, it is sometimes necessary to give them impossible commands, such as carrying water in sieves or whitening dark sheep fleeces.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galtxagorriak-c12",
+          "source_id": "galtxagorriak-s2",
+          "host": "www.labayru.eus",
+          "statement": "People say they are collected in the mountains: an open needle case is placed at midnight upon a bed of brambles, among ferns and gorse, or in a cave.",
+          "statement_id": "Konon mereka dikumpulkan di pegunungan: sebuah wadah jarum yang terbuka diletakkan tengah malam di atas hamparan semak berduri, di antara pakis dan semak gorse, atau di dalam gua.",
+          "quote": "Folks say that they are collected in the mountains. All you need to do is place an open needle case upon a bed of brambles, among ferns and gorse, or in a cave, at midnight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "galtxagorriak-c13",
+          "source_id": "galtxagorriak-s2",
+          "host": "www.labayru.eus",
+          "statement": "People who make wonders or accomplish extraordinary things, namely fortune tellers, healers, contractors, and even the devil and some witches, are suspected of possessing their own personal genies.",
+          "statement_id": "Orang yang berbuat keajaiban atau hal luar biasa, yakni peramal, tabib, kontraktor, bahkan iblis dan sebagian penyihir, dicurigai memiliki genie pribadi.",
+          "quote": "Those who make wonders or accomplish extraordinary things —namely fortune tellers, healers, contractors, and even the devil and some witches— are suspected of possessing their own personal genies.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -3073,7 +3688,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4c5793469a8136c80bb8964b6bb3f13df16b23b3bead7cd0ab1a1b0c4f8c421c"
     }
   ]
 }

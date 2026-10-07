@@ -1,27 +1,25 @@
 # Review batch-133
 
-Diperiksa 2026-10-02T05:13:43.547Z. Berkas: batch-133.md.
+Diperiksa 2026-10-07T05:45:06.903Z. Berkas: batch-133.md, batch-133-fix-1.md, batch-133-fix-2.md.
 
 ## bitru — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bitru-c01 | exact | es.wikipedia.org | Bitru is a figure of demonology also known as Sidragaso, Sytry or Sitri. | Bitru es un personaje perteneciente a la demonología. También es conocido como Sidragaso, Sytry o Sitri |
 | bitru-c02 | exact | es.wikipedia.org | A great prince of hell, he has the form of a leopard with griffin's wings but can also appear as a very handsome human, and commands 70 legions. | Gran príncipe de los infiernos, tiene la forma de un leopardo con alas de grifo, pero también puede aparecer bajo una forma humana muy hermosa. Comanda 70 legiones |
 | bitru-c03 | exact | es.wikipedia.org | His task is to inflame men with lust for women and vice versa; when he pleases he reveals women's secrets, always making them look ridiculous. | es el encargado de inflamar de lujuria al hombre hacia la mujer y viceversa. Descubre, cuando le parece, los secretos de las mujeres, a quienes siempre pone en ridículo. |
+| bitru-c04 | exact | fr.wikisource.org | "Sytry ou Bitru" is a great prince in hell who appears in the form of a leopard with griffin's wings. | Sytry ou Bitru, grand prince aux enfers ; il apparaît sous la forme d’un léopard, avec des ailes de griffon. |
+| bitru-c05 | exact | fr.wikisource.org | When he takes human form he is of great beauty; it is he who inflames the passions. | Mais lorsqu’il prend la forme humaine, il est d’une grande beauté. C’est lui qui enflamme les passions. |
+| bitru-c06 | exact | fr.wikisource.org | He reveals women's secrets when commanded, which he gladly turns to ridicule; seventy legions obey him. | Il découvre, quand on le lui commande, les secrets des femmes, qu’il tourne volontiers en ridicule. Soixante-dix légions lui obéissent. |
+| bitru-c07 | exact | es.wikipedia.org | He also likes to excite women into showing themselves naked and inspires them to despise modesty. | También le gusta excitarlas para que se muestren desnudas y les inspira a despreciar el pudor. |
 
 
 ## bocarrot — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -30,14 +28,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | bocarrot-c03 | exact | ca.wikipedia.org | The bocarrot is invisible and can grow larger or smaller at will. | El bocarrot és invisible i es pot fer més gran o més petit a voluntat. |
 | bocarrot-c04 | exact | ca.wikipedia.org | In Samalús, Vallès Oriental, the last wheat was called the bocarrot, and the last clump left to reap was called the boc (billy goat) or cabra (nanny goat). | A Samalús, Vallès Oriental, es coneixia com a "bocarrot" el darrer blat, mentre que de la darrera mota de blat que quedava per segar se'n deia "boc" o "cabra". |
 | bocarrot-c05 | exact | ca.wikipedia.org | In Gósol, Berguedà, reapers believed in a wheat spirit called el boc, the spirit of the last wheat; whoever caught the bocarrot secured the field's yield, wealth and prosperity. | A Gósol, Berguedà, els antics segadors creien en un geni del blat que anomenaven "el boc", l'esperit del darrer blat. Qui agafava el "bocarrot" s'assegurava el rendiment del camp, riquesa i prosperitat. |
+| bocarrot-c06 | exact | www.isaacbaley.com | A modern illustrated calendar of Catalan mythology describes the bocarrot as descended from the genies of the Stone Age. | Descendent dels genis de l'Edat de Pedra |
+| bocarrot-c07 | exact | www.isaacbaley.com | Among reaping crews it was said that a bocarrot lived in every wheat field and stimulated the plants so that they gave good-sized, abundant grain. | Entre les colles de segadors es deia que a cada bladar hi vivia un bocarrot, que estimulava la ... de les plantes i que donessin gra de bona mida i abundant. |
 
 
 ## caacrinolaas — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -46,14 +43,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | caacrinolaas-c03 | exact | pt.wikipedia.org | He is the captain and author of murders and bloodshed, and tells of things past and to come. | Ele é o capitão e autor, no que diz respeito aos homicídios e derramamento de sangue, diz a todos, as coisas sobre o passado e no que há de acontecer |
 | caacrinolaas-c04 | exact | pt.wikipedia.org | He can cause love between friends and foes, incite murder, and make a man invisible. | causando-lhes o amor entre eles, e se o desejar, incita a cometer homicídios e pode fazer de um homem invisível. |
 | caacrinolaas-c05 | exact | pt.wikipedia.org | He is depicted as a dog with the wings of a griffin. | Ele é retratado como um cão com as asas de um Grifo. |
+| caacrinolaas-c06 | exact | fr.wikisource.org | "Caacrinolaas", also called Caassimolar and Glassialabolas, is a great president in hell who appears as a dog, with a dog's gait, with griffin's wings. | Caacrinolaas, nommé aussi Caassimolar et Glassialabolas, grand président aux enfers, il se présente sous la forme d’un chien, et il en a la démarche, avec des ailes de griffon. |
+| caacrinolaas-c07 | exact | fr.wikisource.org | He gives knowledge of the liberal arts and, by a strange contrast, inspires homicides; it is said that he predicts the future well. | Il donne la connaissance des arts libéraux, et, par un bizarre contraste, il inspire les homicides. On y dit qu’il prédit bien l’avenir. |
+| caacrinolaas-c08 | exact | fr.wikisource.org | This demon makes a man invisible and commands thirty-six legions. | Ce démon rend l’homme invisible et commande trente-six légions. |
+| caacrinolaas-c09 | exact | fr.wikisource.org | The Grand Grimoire calls him Classyalabolas and makes him only a kind of sergeant who sometimes serves as a mount for Nébiros or Naberus. | Le Grand Grimoire le nomme Classyalabolas, et n’en fait qu’une espèce de sergent qui sert quelquefois de monture à Nébiros ou Naberus. |
 
 
 ## cabicanca — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -62,14 +60,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | cabicanca-c03 | exact | pt.wikipedia.org | People exclaimed "Que bicanca!" ("What a beak!"), the source of the name cabicanca. | Que bicanca, Santo Deus, que bicanca! |
 | cabicanca-c04 | exact | pt.wikipedia.org | A muleteer named Martinho Afonso shot it; one accurate shot brought down the stork, and Afonso was carried shoulder-high. | Bastou um tiro certeiro, que ecoou por toda a região, para que a cegonha sucumbisse e Afonso fosse erguido em ombros. |
 | cabicanca-c05 | exact | pt.wikipedia.org | The story endures, and the name cabicanca has stuck to the people of Aguiar, who fondly adopted it as their own. | A história perdura e o nome "cabicanca" ficou para sempre ligado aos aguiarenses que, carinhosamente, o adoptaram como seu. |
+| cabicanca-c06 | exact | www.allaboutportugal.pt | A tower is also known as the Torre da Cabicanca because of its connection with the legend of a cursed stork that terrorised the inhabitants. | É também conhecida por Torre da Cabicanca, por se relacionar com a lenda de uma cegonha amaldiçoada que aterrorizava os habitantes. |
+| cabicanca-c07 | exact | en.wikipedia.org | In the 17th century gargoyles were installed on the tower, which was then also designated the Torre da Cabicanca, relating it to the legend of a stork that terrorized the inhabitants. | In the 17th century, gargoyles were installed on the tower, also designated at the time as the Torre da Cabicanca, which related it to the legend of a stork that terrorized the inhabitants. |
 
 
 ## cabraboc — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -79,14 +76,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | cabraboc-c04 | exact | ca.wikipedia.org | In the Ripollet legend El vell i la vella, a cat came out of an old couple's basket and turned into one more devil, the Cabraboc. | Aleshores, del cistell en sortí un gat que es convertí en un diable més, el Cabraboc. |
 | cabraboc-c05 | exact | ca.wikipedia.org | The Diables de Caldes de Montbui give the name cabraboc to the helmet worn by their main devil, Llucifer. | Els Diables de Caldes de Montbui donen el nom de cabraboc al casc que porta el diable principal, que anomenen Llucifer. |
 | cabraboc-c06 | exact | ca.wikipedia.org | Les Bruixes de Ripollet stage the legend at the children's carnival, and the Diables de Ripollet carry it at the head of Saturday's carnival parade. | Les Bruixes de Ripollet n'escenifiquen la llegenda durant el carnaval infantil, i els Diables de Ripollet el treuen al capdavant de la rua de Carnaval de dissabte. |
+| cabraboc-c07 | exact | cpnl.cat | The Cabraboc is a being half person on the upper part and half goat and billy goat on the lower part. | El Cabraboc és un ésser mig persona per la part de dalt i mig cabra i boc per la part de sota. |
+| cabraboc-c08 | exact | cpnl.cat | The legend says that in Ripollet on Carnival day an old man and an old woman went out for a walk; the old woman carried a basket with a pot inside, and everything suggested it held their lunch. | Explica la llegenda que a Ripollet la diada de Carnestoltes van sortir a passejar un vell i una vella. La vella portava un cistell amb una olla dins, tot feia pensar que hi portava el dinar. |
+| cabraboc-c09 | exact | cpnl.cat | One of the little devils saw the old woman and her basket and struck the pot with a stick; instead of stew a cat came out of it, which by magic in no time turned into a cabraboc. | Un dels diablots va veure la vella i el cistell i va pensar: “Ara és la meva”, i amb un bastó que portava va donar un cop a l’olla. Tothom es va quedar parat, perquè de l’olla, en lloc d’escudella, en va sortir un gat, que per art de màgia i en un tres i no res es va convertir en cabraboc. |
+| cabraboc-c10 | exact | cpnl.cat | The event was talked about so much that from then on, every year at Carnival, the comparsa groups portray it. | Se’n va parlar tant, del fet, que des de llavors cada any per Carnaval les colles de comparses el representen. |
 
 
 ## cagrino — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -95,14 +93,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | cagrino-c03 | exact | it.wikipedia.org | It has the form of a yellow hedgehog about 50 cm long and 20 wide, and rides horses to exhaustion at night. | Ha la forma di un riccio giallo, lungo circa 50 cm, largo 20. Cavalca i cavalli fino allo sfinimento nella notte |
 | cagrino-c04 | exact | it.wikipedia.org | The next day the horses look sick and exhausted, with tangled manes and drenched in sweat. | il giorno dopo appaiono malati ed esausti, con la criniera arruffata e in un bagno di sudore. |
 | cagrino-c05 | exact | it.wikipedia.org | As a remedy, the horses are tied to a stake rubbed with garlic, with a red thread forming a cross at its foot. | i cavalli vengono legati a un bastone su cui è stato precedentemente strofinato dell'aglio, ai piedi del quale viene posto un filo rosso formante una croce |
+| cagrino-c06 | exact | archive.org | It has the form of a hedgehog, is yellow in colour, and is a foot and a half in length and a span in breadth. | It has the form of a hedgehog, is yellow- in colour, and is a foot and a half in length and a span in breadth. |
+| cagrino-c07 | exact | archive.org | Horses are the special prey of the Chagrin, who rides them into a state of exhaustion, as does the Guecubu of Chili; the next day they appear sick and weary, with tangled manes and bathed in sweat. | Horses are the special prey of the Chagrin, who rides them into a state of exhaustion, as does the Guecubu (q.v.) of Chili. The next day they appear sick and weary, with tangled manes and bathed in sweat. |
+| cagrino-c08 | exact | archive.org | When this is observed the horses are tethered to a stake rubbed with garlic juice and a red thread is laid on the ground in the form of a cross, or some of the animal's hair is mixed with salt, meal and bat's blood, cooked to bread and smeared on the hoof. | When this is observed they are tethered to a stake which has been rubbed with garlic juice, then a red thread is laid on the ground in the form of a cross, or else some of the hair of the animal is mixed with salt, meal and the blood of a bat and cooked to bread, with which the hoof of the horse is smeared. |
 
 
 ## calygreyhound — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -111,27 +109,27 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | calygreyhound-c03 | exact | en.wikipedia.org | It is consistently described with a wildcat's head, a deer's or antelope's body, eagle's claws on the forefeet, ox hooves, antlers or horns, a lion's or ox's hind legs, and a tail like a lion's or poodle's. | The calygreyhound is described consistently as having the head of a wildcat, the torso of a deer or antelope, the claws of an eagle on its forefeet, ox hooves, antlers or horns, the hind legs of a lion or ox, and its tail like a lion or poodle. |
 | calygreyhound-c04 | exact | en.wikipedia.org | Occasionally it is shown with eagle's wings, and it is said to represent speed or swiftness. | On some rare occasions, the Calygreyhound may be seen as depicted with the wings of an eagle. It is said to represent speed or swiftness. |
 | calygreyhound-c05 | exact | en.wikipedia.org | The calygreyhound is generally thought to be the artist's invention, though some of its parts are based on reality. | It is generally accepted that the calygreyhound is simply a figment of the artist's imagination, but some parts of it are based on reality. |
+| calygreyhound-c06 | exact | web.archive.org | An article on Tudor heraldic monsters presents the calygreyhound as one of the Tudor oddities and a favourite with the de Vere family, Earls of Oxford. | Finally, here is perhaps the most extraordinary of all these Tudor oddities, a favourite with the de Vere family, Earls of Oxford |
+| calygreyhound-c07 | exact | web.archive.org | The calygreyhound is shown in a drawing by Colin Cole made from the de Vere family's contemporary seal. | Calygreyhound, drawn here by Colin Cole from their contemporary seal (from Dennys 1975). |
 
 
 ## camunyes — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | camunyes-c01 | exact | ca.wikipedia.org | Camunyes is a child-scaring bogey of Catalan folk imagination, an evil being with a big mouth and long fangs that eats the children it carries off when it comes down from the roofs and attics where it lives. | En Camunyes és un espantamainades propi de l'imaginari popular català. Es tracta d'un ésser malèfic que té una boca grossa i llargs ullals amb què es menja els nens que s'enduu quan baixa dels terrats i les golfes, on viu. |
 | camunyes-c02 | exact | ca.wikipedia.org | The figure is especially known in the Terra Alta; legend says he was a flesh-and-blood man who became a monster after seeing his brother killed. | Personatge especialment conegut a la Terra Alta, segons la llegenda era un home de carn i ossos que es va convertir en un ésser monstruós en veure com mataven el seu germà. |
+| camunyes-c03 | exact | www.recercacerdanya.org | En Camunyes is a big beast with a large mouth and long fangs that used to swallow children. | En Camunyes és una bestiota de boca gran i llargs ullals que engolia els nens. |
+| camunyes-c04 | exact | www.recercacerdanya.org | It is said to live on the roofs and in the attics, from which it comes down to carry off children. | Es diu que viu als terrats i a les golfes, de les quals baixa per emportar-se els nens. |
+| camunyes-c05 | exact | pideconflent.free.fr | A list of child-scaring figures records Camunyes in the Terra Alta as a small animal-like ogre with big teeth that swallows naughty children as if they were "marenga". | CAMUNYES Terra Alta Ogre animal, menut i amb grans dents. Engoleix els nens dolents com si fossin marenga |
+| camunyes-c06 | exact | ca.wikipedia.org | Among Catalan child-scaring figures, some have world counterparts such as the Papu, the Home del sac and witches, while others are quite their own and genuine, such as lo Marraco, en Camunyes and en Rosegacebes. | Hi ha figures mundials que tenen el seu referent a Catalunya com ara el Papu, l'Home del sac i les bruixes i d'altres de ben propis i genuïns com ara lo Marraco, en Camunyes o en Rosegacebes. |
 
 
 ## caquesseitao — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -140,26 +138,30 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | caquesseitao-c03 | exact | pt.wikipedia.org | It has a snake's neck, a cockspur-like claw on its forehead, and a very long green-and-black tail like the lizards of that land. | com pescoço de cobra e uma unha, a modo de esporão de galo na testa, com rabo muito comprido pintado de verde e preto, como são os lagartos desta terra. |
 | caquesseitao-c04 | exact | pt.wikipedia.org | These creatures fly in leaps and hunt monkeys and other animals in the treetops for food. | Estes bichos de voo, a modo de salto, caçam os bugios e bichos por cima das árvores, dos quais se mantêm. |
 | caquesseitao-c05 | exact | pt.wikipedia.org | The Caquesseitão became a frequent presence in Indo-Portuguese art. | Tornou-se presença frequente na arte indo-portuguesa. |
+| caquesseitao-c06 | exact | artsandculture.google.com | An animal of fantastic nature, the Caquesseitão was described by Fernão Mendes Pinto in the book "Peregrinação" [1614]; with characteristics of different species, the mysterious creature entered the exotic imagination of the time. | An animal of fantastic nature, the Caquesseitão was described by Fernão Mendes Pinto in the book "Peregrinação" [1614]. With characteristics of different species, the mysterious creature entered the exotic imagination of the time. |
+| caquesseitao-c07 | exact | artsandculture.google.com | A Caquesseitão aquamanile dating back to the 17th century would have been manufactured in South China or Southeast Asia; it is excellently executed in repoussé, engraved and chiseled silver. | Dating back to the 17th century, Caquesseitão aquamanil would have been manufactured in South China or Southeast Asia. The piece is excellently executed, using repoussé, engraved and chiseled silver working techniques. |
+| caquesseitao-c08 | exact | pt.wikisource.org | In the old-spelling text of the Peregrinação the narrator says that here they also saw a very new manner and strange shape of beasts that the natives of the land call Caquesseitão, the size of a large duck and very black, with humped backs. | Vimos aquy tambem hũa muyto noua maneyra, & eﬅranha feyção de bichos, aque os naturaes da terra chamão Caqueſſeitão, do tamanho de hũa grande pata, muyto pretos, conchados pelas coﬅas |
 
 
 ## caragot — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 5, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | caragot-c01 | exact | ca.wikipedia.org | The Caragot is a child-scaring bogey of Catalan folk imagination, a huge, almost giant man, a kind of sack man who comes down the chimney and carries off naughty children in a big sack to eat them in soup. | El Caragot és un espantamainades propi de l'imaginari popular català. Se'l descriu com un homenot alt, quasi un gegant, una mena d'home del sac que entra a les cases per la xemeneia i se n'enduu els nens entremaliats en un gran sac per a menjar-se'ls amb sopes. |
+| caragot-c02 | exact | www.recercacerdanya.org | El Caragot is a tall, giant-like man who comes down the chimney with an enormous sack on his back full of mischievous children, with whom he makes soups on the hearth fire; he is similar to the Home del Sac. | El Caragot és un homenot alt i agegantat que baixa per la xemeneia amb un enorme sac a l’esquena ple de nens entremaliats, amb els quals es fa unes sopes al foc de la llar. Similar a l’Home del Sac. |
+| caragot-c03 | exact | pideconflent.free.fr | A list of child-scaring figures records Caragot, also written Caragol, noted as "com. de Tarragona", as coming down chimneys and making soups of bad children, related to the home del sac. | CARAGOT/ CARAGOL com. de Tarragona ... que baixa per les xemeneies i dels nens dolents en fa sopes. Emparentat amb l'home del sac. |
+| caragot-c04 | exact | surtdecasa.cat | A magazine article on the espantanens of the Nit d'Ànimes describes the Caragot as a tall giant-like man who comes down the chimney with an enormous sack full of mischievous children, with whom he makes soups at the hearth fire; similar to the Home del Sac. | El Caragot és un homenot alt i agegantat que baixa per la xemeneia amb un enorme sac a l'esquena ple d'infants entremaliats, amb els quals es fa unes sopes al foc de la llar. Similar a l'Home del Sac. |
+| caragot-c05 | exact | ca.wikipedia.org | Catalan Wikipedia lists El Caragot among the espantamainades of Catalonia. | A Catalunya: L'Ànima de Cantiret En Banya Verda Els Batonis En Camunyes El Caragot La Cardapeçols La Fou |
 
 
 ## cardapecols — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -167,53 +169,56 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | cardapecols-c02 | exact | ca.wikipedia.org | She is a scowling ogress who punishes girls who will not let their hair be combed, like the Moixina, tugging so hard she tears their hair out. | Es tracta d'una ogressa malcarada que castiga les nenes que no es deixen pentinar (tal com fa també la Moixina, una altra espantamainades semblant) i els fa unes estrebades tan fortes que els arrenca els cabells |
 | cardapecols-c03 | exact | ca.wikipedia.org | Her name comes from the wool cards she uses to comb her victims. | El nom li ve del fet que per a pentinar les seves víctimes se serveix de cards i aurons per cardar llana d'ovella |
 | cardapecols-c04 | exact | ca.wikipedia.org | According to Joan Amades in the Revista de Dialectología y Tradiciones Populares in 1957, the Cardapeçols is known in El Bruc, Esparraguera and Piera. | Segons va recollir Joan Amades en un article a la Revista de Dialectología y Tradiciones Populares el 1957, la Cardapeçols és coneguda al Bruc, Esparraguera i Piera. |
+| cardapecols-c05 | exact | pideconflent.free.fr | She is a strange little woman who combs mischievous girls who do not want to be combed, using wool-carding thorns as a comb. | Doneta estranya que pentina les nenes entremaliades que no volen pentinar-se. Fa servir com a pinta espines de cardar llana. |
+| cardapecols-c06 | exact | ca.wikipedia.org | Catalan Wikipedia lists La Cardapeçols among the espantamainades of Catalonia. | A Catalunya: L'Ànima de Cantiret En Banya Verda Els Batonis En Camunyes El Caragot La Cardapeçols La Fou |
 
 
 ## carro-da-condeceira — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | carro-da-condeceira-c01 | exact | pt.wikipedia.org | The carro da condeceira is the witches' cart, carrying the devil and the witches dancing inside, and creaking loudly as it passes through villages. | O carro da condeceira é o carro das bruxas. O carro conduz o diabo e as bruxas que vão dentro a dançar. O carro faz uma grande chiadeira ao passar pelas aldeias. |
 | carro-da-condeceira-c02 | exact | pt.wikipedia.org | The cart travels only at night; once, as it passed along the Rua dos Gatos in Guimarães, a curious man came to the window to look. | O carro da condeceira é o carro das Bruxas, que anda só de noite. Uma vez ia ele a passar pela Rua-dos-gatos (Guimarães), e um curioso veio à janela ver o que era |
 | carro-da-condeceira-c03 | exact | pt.wikipedia.org | Woken by the cart's loud creaking, he immediately received a tremendous slap. | despertado pela grande chiadeira que o carro fazia: imediatamente levou uma bofetada monumental. |
+| carro-da-condeceira-c04 | exact | lendarium.org | The "Carro da Condesseira" goes about the villages and carries the witches and the devil. | Carro da Condesseira ... anda pelas aldeias. Conduz as bruxas e o diabo. |
+| carro-da-condeceira-c05 | exact | lendarium.org | The witches are inside the cart, and passing houses where people peep out at the cart, they throw their rake at them. | mesmo dentro do carro, e passando por casas, onde espreitem o carro, atiram-lhes com o restelo |
+| carro-da-condeceira-c06 | exact | lendarium.org | The record cites as its source "Antígua, Tradições e Contos Populares" by Francisco Martins Sarmento, published in Guimaraes by the Sociedade Martins Sarmento in 1998. | SARMENTO, Francisco Martins Antígua, Tradições e Contos Populares Guimaraes, Sociedade Martins Sarmento, 1998 |
 
 
 ## cavalli-di-elio — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cavalli-di-elio-c01 | exact | it.wikipedia.org | In Greek mythology Helios, son of Hyperion, was the Sun god and owned a chariot made entirely of fire drawn by four horses. | Nella mitologia greca, Elio, figlio di Iperione era il dio del Sole e possedeva un carro fatto completamente di fuoco e trainato da quattro cavalli. |
 | cavalli-di-elio-c02 | exact | it.wikipedia.org | These four swift steeds of the fiery chariot, once yoked by the god, raced across the sky spreading daylight; their names were Eous (Eòo), Aethon (Etone), Phlegon (Flegone) and Pyrois (Piroide). | Essi erano i 4 velocissimi destrieri del carro di fuoco che, aggiogati dal dio, percorrevano rapidissimi la volta celeste diffondendo la luce del giorno: Eòo Etone Flegone Piroide |
+| cavalli-di-elio-c03 | exact | www.theoi.com | The golden chariot of the sun was drawn across the sky by a team of four white, winged horses. | The golden chariot of the sun was drawn across the sky drawn by a team of four white, winged horses. |
+| cavalli-di-elio-c04 | exact | www.theoi.com | In a translation of Ovid, the four swift horses of Sol, Aethon (Blaze), Eous (Dawn), Pyrois (Fire) and Phlegon (Flame), kick at the gates, neighing and snorting fire. | Meanwhile the four swift horses of Sol, Aethon (Blaze), Eous (Dawn), Pyrois (Fire) and Phlegon (Flame), kick at the gates, neighing and snorting fire |
+| cavalli-di-elio-c05 | exact | www.theoi.com | In the same translation the horses go forth, cleaving the clouds with beating hooves and outriding on wings the winds that blow westwards from the morning. | Forth they go, tearing away, and cleave with beating hooves the clouds before them, and on wings outride the winds that westwards from the morning blow. |
+| cavalli-di-elio-c06 | exact | www.theoi.com | A Roman mythographer gives other names for the horses of Sol: Eous and Aethiops among the male trace-horses, and Bronte (thunder) and Sterope (lightning) as the female yoke-bearers. | Names of the Horses of Sol (the Sun) [Helios]. Eous, by him the sky is turned. Aethiops, as if faming, parches the grain. These trace-horses are male. The female are yoke-bearers : Bronte, whom we call thunder (tonitrua), Sterope, whom we call lightning (fulgitrua). |
+| cavalli-di-elio-c07 | exact | www.theoi.com | The goddesses of the four seasons fed the solar horses ambrosia at dawn and yoked them to the heavenly chariot. | The goddesses of the four seasons fed the solar horses ambrosia at dawn and yoked them to the heavenly chariot. |
 
 
 ## cavalo-do-pensamento — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | cavalo-do-pensamento-c01 | exact | pt.wikipedia.org | The cavalo do pensamento ("horse of thought") is a mythical being of Portuguese legend. | O cavalo do pensamento é um ser mítico das lendas portuguesas. |
+| cavalo-do-pensamento-c02 | exact | www.csarmento.uminho.pt | In a tale a youth is asked to choose whether to go on the horse of the wind or the horse of thought; he chooses the horse of thought, and a horse appears that spits fire from its eyes and mouth. | Bem, agora escolhe: em qual queres ir, no cavalo do vento ou no do pensamento? –O rapaz escolheu o do pensamento, e apareceu-lhe logo um cavalo que deitava fogo pelos olhos e pela boca. |
+| cavalo-do-pensamento-c03 | exact | www.csarmento.uminho.pt | As soon as the youth mounted the horse, it was a flight so fast that he did not know where he was going or not going. | Mal o rapaz montou em cima do cavalo... aquilo era fugir que nem sabia por onde ia nem por onde não ia. |
+| cavalo-do-pensamento-c04 | exact | www.csarmento.uminho.pt | In the blink of an eye he found himself at his front door; when he spoke the words he had been told, the horse burst with a bang and disappeared, like an evil thing. | Enquanto o diabo esfrega um olho, viu-se à porta de casa. Pendurou-se como o Mouro tinha mandado, num dos ramos da figueira e disse: arre burro com todos os diabos! O cavalo deu um estoiro e desapareceu, como coisa má |
+| cavalo-do-pensamento-c05 | exact | www.csarmento.uminho.pt | The man of Donim was taken to the mourama and, to return to earth, had to come on the "horse of thought", which he preferred to the one "of the wind". | Assim, o homem de Donim foi levado para a mourama, e, para voltar à terra, teve de vir no «cavalo do pensamento», que preferiu ao «do vento». |
+| cavalo-do-pensamento-c06 | exact | www.csarmento.uminho.pt | Among the places listed, "cavalo do pensamento" is counted as one of 25 places in "our concelho" that are important for the mouros. | Donim - pedra flutuante (23); cavalo do pensamento (24); Airão, moura em pedra flutuante (25). Aqui temos 25 lugares do nosso concelho importantes pelos mouros |
 
 
 ## cavalum — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -222,14 +227,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | cavalum-c03 | exact | pt.wikipedia.org | The Cavalum told God he wanted to destroy the whole village, daring Him to thwart it. | foi bater à porta duma igreja para falar com Deus. No momento que Deus lhe inquiriu o porquê dele ter ido falar com ele, o Cavalum respondeu que queria destruir toda a povoação e espicaçou-O a frustá-lo. |
 | cavalum-c04 | exact | pt.wikipedia.org | The Cavalum gathered darkness against the village, causing a great storm, and neighed with glee from the clifftop at the villagers' despair. | O Cavalum reuniu então as trevas contra a povoação resultando numa grande tempestade. Do alto do penhasco, o Cavalum relinchava com regozijo defronte do desespero dos moradores. |
 | cavalum-c05 | exact | pt.wikipedia.org | So the monster would do no more harm, God imprisoned the Cavalum in the Furnas, where its angry neighing is still heard during strong storms. | Para que o monstro não voltasse a causar estragos, Deus resolveu prender o Cavalum nas Furnas, onde ainda hoje de tempos a tempos se ouve o seu relhinchar zangado contra Deus, durante as tempestades fortes. |
+| cavalum-c06 | exact | en.wikipedia.org | The Furnas do Cavalum caves are named after a local legend about a demon called Cavalum, who was imprisoned in the cave. | Named after a local legend about a demon called Cavalum, who was imprisoned in the cave. |
 
 
 ## cenocroca — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -238,14 +241,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | cenocroca-c03 | exact | it.wikipedia.org | It never moved its pupils and always stared straight ahead, and with its human voice it imitated people's calls or animal cries to lure prey and devour it. | Possedeva la bizzarra caratteristica di non muovere mai le pupille e di guardare sempre dinanzi a sé; con la propria voce umana imitava i richiami degli uomini o i versi degli animali per attrarre le prede e divorarle. |
 | cenocroca-c04 | exact | it.wikipedia.org | The oldest mention of a creature called Krokottas is in Strabo's Geography, describing it as a dog-wolf cross native to Ethiopia. | La più antica menzione di una creatura chiamata Κροκόττας si trova all'interno della Geografia di Strabone, dove l'animale è descritto come un incrocio fra un cane e un lupo nativo dell'Etiopia. |
 | cenocroca-c05 | exact | it.wikipedia.org | The creature is also described in Umberto Eco's Il nome della rosa by the Benedictine monk Adso of Melk. | La creatura viene descritta anche all'interno de Il nome della rosa di Umberto Eco dal monaco benedettino Adso da Melk. |
+| cenocroca-c06 | exact | www.perseus.tufts.edu | Pliny describes the crocotta as an animal that looks as though it had been produced by the union of the wolf and the dog, able to break anything with its teeth and digest it at once on swallowing. | the crocotta, an animal which looks as though it had been produced by the union of the wolf and the dog ... for it can break any thing with its teeth, and instantly on swallowing it digest it with the stomach |
+| cenocroca-c07 | exact | www.perseus.tufts.edu | Pliny describes the leucrocotta as a wild beast of extraordinary swiftness, the size of the wild ass, with a mouth slit up as far as the ears and one continuous bone instead of teeth, and says it is said to imitate the human voice. | the leucrocotta, a wild beast of extraordinary swiftness, the size of the wild ass, with the legs of a stag, the neck, tail, and breast of a lion, the head of a badger, a cloven hoof, the mouth slit up as far as the ears, and one continuous bone instead of teeth ... it is said, too, that this animal can imitate the human voice. |
 
 
 ## chipique — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -253,14 +255,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | chipique-c02 | exact | fr.wikipedia.org | Its habit of overturning canoes and dragging their occupants to the bottom makes it feared by locals. | Son habitude de retourner les pirogues et d'entraîner leurs occupants par le fond fait qu'il est redouté des habitants locaux. |
 | chipique-c03 | exact | fr.wikipedia.org | Despite the locals' accounts, 19th-century explorers remained sceptical of its existence. | Malgré leurs dires, les explorateurs du XIXe siècle sont restés sceptiques quant à son existence. |
 | chipique-c04 | exact | fr.wikipedia.org | In European literature the animal was first mentioned by Carl Hagenbeck in 1909. | Dans la littérature européenne, l'animal est cité pour la première fois par Carl Hagenbeck en 1909. |
+| chipique-c05 | exact | abookofcreatures.com | A serpent is said to live at the foot of Victoria Falls, as Dr. Livingstone presumed; Barotse folklore holds that this monster, the Chipique, came from the ocean, traveling over a thousand miles to rest at the falls. | A serpent lives at the foot of Victoria Falls – at least, that’s what Dr. Livingstone presumed. Barotse folklore holds that this monster, the Chipique, came from the ocean, traveling over a thousand miles to rest at the falls. |
+| chipique-c06 | exact | abookofcreatures.com | The chipique rules the river by night and it is unsafe to approach Victoria Falls then; thirty feet long, it can easily grab a canoe and immobilize it. | The chipique rules the river by night, and it is unsafe to approach Victoria Falls during that time. Thirty feet in length, the chipique can easily grab a canoe and immobilize it. |
+| chipique-c07 | exact | abookofcreatures.com | Its head is small and slate-grey, while its serpentine, heavy body winds in black coils. | Its head is small and slate-grey, while its serpentine, heavy body winds in black coils. |
+| chipique-c08 | exact | abookofcreatures.com | Eyewitnesses include Mr. V. Pare, who saw the chipique in 1925; it reared and disappeared into a cave. | Eyewitnesses include Mr. V. Pare, who saw the chipique in 1925. It reared and disappeared into a cave. |
 
 
 ## coga — lulus-otomatis
 
-Klaim 9 (exact 9), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -273,20 +276,26 @@ Klaim 9 (exact 9), sumber 1, gambar 0.
 | coga-c07 | exact | it.wikipedia.org | According to Marcialis, they anointed their joints with melted lard to turn into animals, cats or flies. | si ungevano le giunture del corpo per trasformarsi in animali, gatti o mosche. |
 | coga-c08 | exact | it.wikipedia.org | Objects placed upside down in the house, such as a broom or trivet, drove off the coga, which disliked disorder and might even die at the sight. | Si diceva che la coga, non essendo amante del disordine, alla vista di questi oggetti si sarebbe allontanata o addirittura sarebbe morta. |
 | coga-c09 | exact | it.wikipedia.org | The Cogas can be linked with Lilith, an ancient Sumerian deity who in Jewish culture is a female demon. | La figura delle Cogas può essere associata a quella di Lilith antica divinità sumera, che per la cultura ebraica è un demone femminile |
+| coga-c10 | exact | www.contusu.it | In ancient times there existed is cogas, the coghe (witches): women who lived normal lives but on particular occasions could transform into animals, especially flies and cats, by anointing their bodies with certain unguents. | In ancient times, there existed is cogas, the coghe (witches). They were women who lived normal lives but who, on particular occasions, could transform into animals, especially flies and cats, by anointing their bodies with certain unguents. |
+| coga-c11 | exact | www.contusu.it | Once transformed, they would enter the rooms where infants slept, sucking their blood and leaving them exhausted and sometimes dead. | Once transformed, they would enter the rooms where infants slept, sucking their blood, leaving them exhausted and sometimes dead. |
+| coga-c12 | exact | www.contusu.it | The most common remedies included placing an inverted tripod in front of the door, leaning an upside-down broom against it, or leaving an old, toothless sickle so that the coga would stop to count the teeth; since she could only count to seven, she always had to start over until the night passed. | The most common remedies included placing an inverted tripod in front of the door, leaning an upside-down broom against it, or leaving an old, toothless sickle so that the coga would stop to count the teeth. However, since she could only count to seven, she always had to start over until the night passed |
+| coga-c13 | exact | www.contusu.it | The most powerful defense was the invocation to San Sisinnio. | But the most powerful defense was the invocation to San Sisinnio. |
 
 
 ## confinati — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | confinati-c01 | exact | it.wikipedia.org | The confinati or anime confinate ("confined souls") are mythical figures of the folk traditions of north-eastern Lombardy, especially the Bergamo valleys, Val Camonica and Valtellina. | Confinati oppure le anime confinate sono delle figure mitiche diffuse nelle tradizioni popolari della Lombardia nord-orientale, soprattutto nelle Valli Bergamasche, Val Camonica e Valtellina. |
 | confinati-c02 | exact | it.wikipedia.org | They were the souls of dissatisfied dead, banished by exorcism to remote, inhospitable side valleys so they could not harm the living. | Essi erano delle anime di persone morte insoddisfatte, che erano state mandate al confino tramite un esorcismo in vallate laterali ed inospitali, in modo tale da non poter nuocere ai vivi. |
 | confinati-c03 | exact | it.wikipedia.org | In Lombard they are called cunfinàcc (eastern) or cunfinàa (western). | In lombardo sono chiamati cunfinàcc (orientale) cunfinàa (occidentale). |
+| confinati-c04 | exact | web.archive.org | In Valtellina there is a belief in the "confined" souls, relegated to anything but welcoming places to serve there the eternal penalty they deserve. | interessante di tale elaborazione ... in Valtellina, la credenza nei ... nelle anima “confinate”, relegate in luoghi tutt’altro che accoglienti, per scontare ... l’eterna pena meritata. |
+| confinati-c05 | exact | web.archive.org | In one variant the spirit, often a "colony" of spirits, is nailed to a wearying and desperate penalty: often digging gold or metals, splitting stones, striking boulders with mallets, or carrying enormous rocks on their shoulders. | lo presenta (o li presenta, ... spesso si tratta di una “colonia” di spiriti) inchiodato ad una pena faticosa e disperata (spesso cavare oro o metalli, spaccare pietre, battere con mazze contro macigni, portare enormi massi sulle spalle |
+| confinati-c06 | exact | web.archive.org | According to other variants these spirits go on acting to the harm of people, frightening them with noises or screams, turning huts upside down ("a soqquadro le baite") and hindering their passage in certain places, generally by hurling rocks on them. | Secondo altre ancora, infine, questi spiriti conservano una certa ... e continuano a manifestare la loro ... a danno degli uomini, spaventandoli con rumori od urla, mettendo a soqquadro le baite, ostacolando in vario modo il loro transito in certi luoghi o le loro ... (in genere, rovesciando loro addosso massi). |
+| confinati-c07 | exact | web.archive.org | The only but sure way to defend oneself is prayer, even in the extremely concise form of the sign of the cross. | Unico, ma sicuro modo per difendersi, ... la preghiera, anche nella forma estremamente sintetica del segno di croce. |
+| confinati-c08 | exact | web.archive.org | A hidden plateau called Piana dei Dannati or Piana di Zana hosts the cunfinàa of the Corni Rossi; anyone passing there at night might hear them beating their mallets endlessly on the countless stones. | si trova un pianoro nascosto, detto Piana dei Dannati o Piana di Zana, che ospita i ... dei Corni Rossi. Chi passasse di qui nottetempo potrebbe udirli battere senza sosta le loro mazze sulle innumerevoli pietre |
 
 
 ## crespell — lulus-otomatis
@@ -712,14 +721,11 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## galtxagorriak — lulus-otomatis
 
-Klaim 8 (loose 1, exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| galtxagorriak-c01 | loose | en.wikipedia.org | Galtxagorriak (singular Galtxagorrii), also called Galtzagorrii or Prakagorris, are a kind of iratxoak (imp) or house spirit in Basque folklore; the name means "red pants". | Galtxagorriak (singular Galtxagorrii, Basque pronunciation: [ɡaltʃagoriak]), also called Galtzagorrii or Prakagorris, are a type of iratxoak (imp) or house spirit in Basque folklore. The name "Galtxagorriak" translates to "red-pants". |
+| galtxagorriak-c01 | exact | en.wikipedia.org | Galtxagorriak (singular Galtxagorrii), also called Galtzagorrii or Prakagorris, are a kind of iratxoak (imp) or house spirit in Basque folklore; the name means "red pants". | Galtxagorriak (singular Galtxagorrii, Basque pronunciation: ... also called Galtzagorrii or Prakagorris, are a type of iratxoak (imp) or house spirit in Basque folklore. The name "Galtxagorriak" translates to "red-pants". |
 | galtxagorriak-c02 | exact | en.wikipedia.org | They are described as tiny, sometimes winged humanoids wearing red pants that can be kept in boxes, pincushions and other containers. | Galtxagorriak are described as tiny, sometimes winged, humanoids wearing red pants. In folklore, they can be kept in boxes, pincushions, and other containers. |
 | galtxagorriak-c03 | exact | en.wikipedia.org | If someone places a container on a bush on Saint John's Eve, they will enter it and that person becomes their master. | If a person places a container on top of a bush on Saint John's Eve, then they will enter the box and the person who placed it will become their master. |
 | galtxagorriak-c04 | exact | en.wikipedia.org | They complete tasks extremely quickly but get angry if they run out of chores or are given a truly impossible task. | They can complete tasks extremely quickly, and can become angry if they run out of chores or are given a truly impossible task. |
@@ -727,6 +733,11 @@ Klaim 8 (loose 1, exact 7), sumber 1, gambar 0.
 | galtxagorriak-c06 | exact | en.wikipedia.org | Another story tells of a farmer from Zarautz losing an ox race; his galtxagorriak helped carry the stones his ox had to drag, and he won. | Another story tells of a farmer from Zarautz who was losing a ox-race. He asked his galtxagorriak to help carry the stones his ox had to drag, and they helped him win the race. |
 | galtxagorriak-c07 | exact | en.wikipedia.org | They are also considered assistants of sorcerers and wizards and are used to explain extraordinary feats. | also considered to be assistants of sorcerers and wizards, and are used to explain extraordinary feats. |
 | galtxagorriak-c08 | exact | en.wikipedia.org | The 2016 animated film Teresa eta Galtzagorri by the Basque studio Dibulitoon features a young galtzagorri named Tim as a main character. | The 2016 animated film Teresa eta Galtzagorri (English title: Elf on the Run) by Basque film company Dibulitoon Studio features a young galtzagorri named Tim as a main character. |
+| galtxagorriak-c09 | exact | www.labayru.eus | They are occasionally described as tiny, almost imperceptible men dressed in red pants, known in several places as galtzagorriak or prakagorriak, from galtza or praka "pants" and gorriak "red". | They are occasionally described as tiny, almost imperceptible men, dressed in red pants, known in several places as galtzagorriak or prakagorriak —from galtza or praka ‘pants’ and gorriak ‘red’—. |
+| galtxagorriak-c10 | exact | www.labayru.eus | Their owner usually carries them in a needle case; as soon as they are set free they rush out at full speed and do as they are told, however far-fetched the task, and wait impatiently for the next command. | Their owner usually carries them in a needle case. They rush out at full speed, as soon as they are set free, do as they are told, no matter how far-fetched or fanciful tasks you might ask of them, and wait impatiently for the next command. |
+| galtxagorriak-c11 | exact | www.labayru.eus | They are good workers, extremely strong and fast as lightning but hard to control; they must be kept busy, so they are sometimes given impossible commands such as carrying water in sieves or whitening dark sheep fleeces. | They are good workers, extremely strong and fast as lightning, but can be difficult to control. You ought to keep them busy, and since they do everything so quickly, it is sometimes necessary to give them impossible commands, such as carrying water in sieves or whitening dark sheep fleeces. |
+| galtxagorriak-c12 | exact | www.labayru.eus | People say they are collected in the mountains: an open needle case is placed at midnight upon a bed of brambles, among ferns and gorse, or in a cave. | Folks say that they are collected in the mountains. All you need to do is place an open needle case upon a bed of brambles, among ferns and gorse, or in a cave, at midnight. |
+| galtxagorriak-c13 | exact | www.labayru.eus | People who make wonders or accomplish extraordinary things, namely fortune tellers, healers, contractors, and even the devil and some witches, are suspected of possessing their own personal genies. | Those who make wonders or accomplish extraordinary things —namely fortune tellers, healers, contractors, and even the devil and some witches— are suspected of possessing their own personal genies. |
 
 
 ## gata-carogna — lulus-otomatis
