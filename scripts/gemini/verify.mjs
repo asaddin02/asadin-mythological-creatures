@@ -78,7 +78,11 @@ const decodeEntities = s => s.replace(/&(#\d+|#x[0-9a-f]+|[a-z]+);/gi, (m, e) =>
     const code = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
     return Number.isFinite(code) ? String.fromCodePoint(code) : ' ';
   }
-  return ENTITIES[e.toLowerCase()] ?? m;
+  // Accented Latin letters (&eacute; &Ccedil; &ntilde; …), case kept.
+  const accent = /^([a-z])(acute|grave|circ|uml|tilde|cedil|ring)$/i.exec(e);
+  if (accent) return (accent[1] + { acute: '́', grave: '̀', circ: '̂', uml: '̈', tilde: '̃', cedil: '̧', ring: '̊' }[accent[2].toLowerCase()]).normalize('NFC');
+  const letters = { szlig: 'ß', aelig: 'æ', AElig: 'Æ', oelig: 'œ', OElig: 'Œ', oslash: 'ø', Oslash: 'Ø', eth: 'ð', ETH: 'Ð', thorn: 'þ', THORN: 'Þ', ordm: 'º', ordf: 'ª', middot: '·' };
+  return letters[e] ?? ENTITIES[e.toLowerCase()] ?? m;
 });
 function htmlToText(html) {
   return decodeEntities(html
