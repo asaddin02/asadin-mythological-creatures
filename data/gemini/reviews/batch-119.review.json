@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-119",
-  "checked_at": "2026-10-03T01:32:26.009Z",
+  "checked_at": "2026-10-07T05:08:22.217Z",
   "files": [
-    "batch-119.md"
+    "batch-119.md",
+    "batch-119-fix-1.md",
+    "batch-119-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "aderyn-y-corff",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "31ddfb565ae1082b42416cefac26165fefb8ac5d5fe83c6635bac927cccd1135",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "aderyn-y-corff-c01",
@@ -73,26 +70,71 @@
           "quote": "Una de las fuentes más importantes que la menciona es British Goblins (1881), obra de Wirt Sikes, recopilador de mitología y supersticiones galesas.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "aderyn-y-corff-c06",
+          "source_id": "aderyn-y-corff-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the ancient tradition recorded by Sikes, the bird had no feathers or wings, soared without support high in the heavens, and, when not engaged on an earthly message, dwelt in the land of illusion and phantasy.",
+          "statement_id": "Menurut tradisi kuno yang dicatat Sikes, burung ini tidak berbulu dan tidak bersayap, melayang tanpa tumpuan tinggi di langit, dan ketika tidak mengemban pesan duniawi ia tinggal di negeri ilusi dan khayal.",
+          "quote": "In ancient tradition, it had no feathers nor wings, soaring without support high in the heavens, and, when not engaged upon some earthly message, dwelling in the land of illusion and phantasy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aderyn-y-corff-c07",
+          "source_id": "aderyn-y-corff-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Sikes says this corpse-bird may properly be associated with the superstition about the screech-owl, whose cry near a sick-bed is held to portend death.",
+          "statement_id": "Sikes menyatakan burung mayat ini dapat dikaitkan dengan takhayul tentang burung hantu pekik, yang tangisannya di dekat ranjang orang sakit dipercaya pasti menandakan kematian.",
+          "quote": "This corpse-bird may properly be associated with the superstition regarding the screech-owl, whose cry near a sick-bed inevitably portends death.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aderyn-y-corff-c08",
+          "source_id": "aderyn-y-corff-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Sikes notes that death portents exist in every country in endless variety, and that in Wales they take distinct and striking individualities.",
+          "statement_id": "Sikes mencatat bahwa pertanda kematian ada di setiap negeri dengan ragam tak terbatas, dan di Wales pertanda itu berwujud sosok-sosok yang khas dan mencolok.",
+          "quote": "There are death portents in every country, and in endless variety; in Wales these portents assume distinct and striking individualities",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aderyn-y-corff-c09",
+          "source_id": "aderyn-y-corff-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to Owen, this was a bird that came flapping its wings against the window of a sick person's room, and its visit was considered a certain omen of that person's death.",
+          "statement_id": "Menurut Owen, burung ini datang mengepakkan sayap ke jendela kamar orang sakit, dan kedatangannya dianggap pertanda pasti kematian orang itu.",
+          "quote": "This was a bird that came flapping its wings against the window of the room in which lay a sick person, and this visit was considered a certain omen of that person's death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aderyn-y-corff-c10",
+          "source_id": "aderyn-y-corff-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Owen writes that the bird singled out for the dismal honour of being a death prognosticator was the tawny, or screech owl.",
+          "statement_id": "Owen menulis bahwa burung yang dipilih untuk tugas muram sebagai peramal kematian itu adalah burung hantu cokelat atau burung hantu pekik.",
+          "quote": "The bird, singled out for the dismal honour of being a death prognosticator, was the tawny, or screech owl.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "basty",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "6c5204d05a2c8a2da59331c1f56b3773b099c91b06a6bd95d1c17c2a97295389",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "basty-c01",
@@ -152,6 +194,26 @@
           "statement_id": "Karabastı: jin mimpi buruk yang menindih dada orang malam hari hingga napas terhenti.",
           "quote": "Karabastı: Kâbus, kötü rüya. Kâbus cini olarak da bilinir. Geceleri insanların göğüslerine çökerek soluklarını keser.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "basty-c07",
+          "source_id": "basty-s2",
+          "host": "ceeol.com",
+          "statement": "According to this journal article's abstract, the albastı is known to haunt women postpartum and newborn babies and is a female spirit designed with an evil spirit.",
+          "statement_id": "Menurut abstrak artikel jurnal ini, albastı dikenal menghantui perempuan yang baru melahirkan dan bayi baru lahir, dan digambarkan sebagai roh perempuan yang berkaitan dengan roh jahat.",
+          "quote": "Known to haunt women postpartum and newborn babies, \"albastı\" is a female spirit designed with an evil spirit.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "basty-c08",
+          "source_id": "basty-s2",
+          "host": "ceeol.com",
+          "statement": "The same abstract says the dangerous creature is found in barns, haystacks, ruins, desolate places and water sources, and is feared to rip out the liver of the puerperal woman and her baby.",
+          "statement_id": "Abstrak yang sama menyebut makhluk berbahaya ini ditemukan di kandang, tumpukan jerami, reruntuhan, tempat sepi, dan sumber air, serta ditakuti karena dapat merobek hati perempuan nifas dan bayinya.",
+          "quote": "The person who catches the dangerous creature found in barns, haystacks, ruins, desolate places, and water sources, which is feared to rip out the liver of the puerperal and her baby",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -239,7 +301,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5bced3f605e6d4e35e2488ec69984e97f77e01c8c568028973c721e63ad24312"
     },
     {
       "slug": "blunderbore",
@@ -313,7 +376,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "24ac0ea0fb6fe27c9dbe67877ad2f1a6570ebcd71b97672255b145233eb63302"
     },
     {
       "slug": "bodach",
@@ -387,7 +451,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "683391b4b5093a60281412d4a03e0918c2db887bf24d625370c955522984a2d6"
     },
     {
       "slug": "bran-and-sceolang",
@@ -461,24 +526,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7bb621104105dd04856288d7ea0f3b1cec5b782811dfe39397f5bd81e4d04a0c"
     },
     {
       "slug": "buwch-frech",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "2f53d08575437cc3751400af55e752f0e08eac03724caf81717078b97bdd9b1c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "buwch-frech-c01",
@@ -528,6 +589,56 @@
           "statement_id": "Artikel cy: Buwch Fraith Hiraethog, Mynydd Hiraethog; putih dengan bintik merah muda; susu tak habis; Ychen Bannog.",
           "quote": "Yn ei draethawd ar lên gwerin, ar gyfer Eisteddfod Genedlaethol 1887, disgrifia Elias Owen stori am fuwch hudol o ardal Mynydd Hiraethog. Roedd yn wyn pur gyda brychni pinc ac roedd ganddi gyflwenwad diddiwedd o lefrith.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "buwch-frech-c06",
+          "source_id": "buwch-frech-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale Owen records, whoever was in want of milk came with a vessel, and however big it was they always left with the pail filled with rich milk.",
+          "statement_id": "Menurut kisah yang dicatat Owen, siapa pun yang butuh susu datang membawa wadah, dan sebesar apa pun wadah itu mereka selalu pulang dengan ember penuh susu kental.",
+          "quote": "Whenever any one was in want of milk they went to this cow, taking with them a vessel into which they milked the cow, and, however big this vessel was, they always departed with the pail filled with rich milk",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "buwch-frech-c07",
+          "source_id": "buwch-frech-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Owen's version, a wicked hag, filled with envy at the people's prosperity, determined to milk the cow dry.",
+          "statement_id": "Dalam versi Owen, seorang perempuan tua jahat yang iri pada kemakmuran orang-orang bertekad memerah sapi itu sampai kering.",
+          "quote": "At last a wicked hag, filled with envy at the people's prosperity, determined to milk the cow dry",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "buwch-frech-c08",
+          "source_id": "buwch-frech-s3",
+          "host": "www.gutenberg.org",
+          "statement": "After this treatment the cow immediately left the country and was never seen again.",
+          "statement_id": "Setelah diperlakukan demikian, sapi itu segera meninggalkan negeri itu dan tidak pernah terlihat lagi.",
+          "quote": "the cow immediately, upon this treatment, left the country, and was never more seen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "buwch-frech-c09",
+          "source_id": "buwch-frech-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Owen notes that the site of the cow house is still pointed out and keeps the name Preseb y Fuwch Frech.",
+          "statement_id": "Owen mencatat bahwa lokasi kandang sapi itu masih ditunjukkan dan tetap bernama Preseb y Fuwch Frech.",
+          "quote": "The site of the cow house is still pointed out, and retains its name, Preseb y Fuwch Frech",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "buwch-frech-c10",
+          "source_id": "buwch-frech-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In a book Owen cites, vulgar opinion held that a large bone at Gwydir was the rib of the Dun Cow (y Fuwch Frech), killed by the Earl of Warwick.",
+          "statement_id": "Dalam buku yang dikutip Owen, menurut pendapat awam sebuah tulang besar di Gwydir adalah tulang rusuk Dun Cow (y Fuwch Frech) yang dibunuh Earl of Warwick.",
+          "quote": "it is the rib of the Dun Cow (y Fuwch Frech), killed by the Earl of Warwick.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -605,24 +716,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9749176c7fcb6f18639fd4eb8d87589cec4b46f5c87393af76e2ead9c5e2e6d1"
     },
     {
       "slug": "cofgod",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "aaf72743cee6691db4f35563670d8b469210415ecc9e6cf948b4312143320232",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cofgod-c01",
@@ -672,6 +779,16 @@
           "statement_id": "Artikel ko: istilah Inggris Kuno untuk dewa rumah dalam paganisme Anglo-Saxon.",
           "quote": "코프갓(Cofgod)은 앵글로색슨 이교에서 가택신을 가리키던 고대 영어 용어이다.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cofgod-c06",
+          "source_id": "cofgod-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The plural Cofgodas, glossed 'cove-gods', was an Old English term for a household god.",
+          "statement_id": "Bentuk jamaknya Cofgodas, yang diberi arti \"dewa-ruang\" (cove-gods), adalah istilah bahasa Inggris Kuno untuk dewa rumah tangga.",
+          "quote": "(plural Cofgodas (\"cove-gods\")) was an Old English term for a household god",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -759,7 +876,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d21d055c858b3f257a12efa8132bb1d3b15c6beb9f957b7162edc1acfa11048a"
     },
     {
       "slug": "drummer-of-cortachy",
@@ -833,7 +951,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aee44d32de282e93d6e6a6add56fc4e3f1247b1fba0c4523e5c6a567afb0081e"
     },
     {
       "slug": "drummer-of-tedworth",
@@ -852,24 +971,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec1b8e3d97cb4854d2deb3044758e72a41a7b651e93b1003a5e7528e703b8ea9"
     },
     {
       "slug": "ellen-trechend",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "2e3fc9227ec40995efd5988e595c70c534a8ecc1abb71bf81d7b5c32e7a41b2e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ellen-trechend-c01",
@@ -910,26 +1025,51 @@
           "quote": "Is arracht i miotaseolaíocht na nGael é Eilléan Trícheann (Sean-Ghaeilge: Ellén Trechend).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ellen-trechend-c05",
+          "source_id": "ellen-trechend-s3",
+          "host": "www.maryjones.us",
+          "statement": "In the translation of Cath Maige Mucrama, the swarm of three-headed creatures came out of that cave and laid Ireland waste until Amairgene, father of Conall Cernach, destroyed it in the presence of all the Ulaid.",
+          "statement_id": "Dalam terjemahan Cath Maige Mucrama, kawanan makhluk berkepala tiga keluar dari gua itu dan menghancurkan Irlandia sampai Amairgene, ayah Conall Cernach, membinasakannya di hadapan seluruh Ulaid.",
+          "quote": "Out of it too came the swarm of three-headed creatures that laid Ireland waste until Amairgene father of Conall Cernach, fighting alone (?), destroyed it in the presence of all the Ulaid.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ellen-trechend-c06",
+          "source_id": "ellen-trechend-s3",
+          "host": "www.maryjones.us",
+          "statement": "The same text says Mag Mucrima was named for magic pigs that had come out of a cave.",
+          "statement_id": "Teks yang sama menyebut Mag Mucrima dinamai dari babi-babi ajaib yang keluar dari sebuah gua.",
+          "quote": "Now Mag Mucrima [was so called from] magic pigs that had come out of the cave of",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ellen-trechend-c07",
+          "source_id": "ellen-trechend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its name is difficult to interpret: trechend means 'three-headed', but ellén is an obscure word.",
+          "statement_id": "Namanya sulit ditafsirkan: trechend berarti \"berkepala tiga\", sedangkan ellén adalah kata yang kabur.",
+          "quote": "Its name is difficult to interpret: trechend means \"three-headed\", but ellén is an obscure word.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "fions",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "180078c51149ae2f17da3f701338dd79123f08079f1c0d384c4297a517ac8b6c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fions-c01",
@@ -980,26 +1120,41 @@
           "quote": "Les Fions sont des créatures du petit peuple surtout mentionnées dans le folklore maritime de la Haute-Bretagne, de type lutin et peut-être d'origine anglaise.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "fions-c06",
+          "source_id": "fions-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In Sébillot's tale \"La fée de la Corbière\", as the thread was spun, a regiment of little fions took it, wound it and wove it, and it took them little time to make a piece of cloth.",
+          "statement_id": "Dalam kisah \"La fée de la Corbière\" karya Sébillot, seiring benang dipintal, sepasukan fions kecil mengambil benang itu, menggulung dan menenunnya, dan hanya sebentar mereka membuat selembar kain.",
+          "quote": "À mesure que le fil se faisait et se déroulait, un régiment de petits fions prenaient le fil, le dévidaient, le tissaient et ils n’étaient guère de temps à faire une pièce de toile.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fions-c07",
+          "source_id": "fions-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In the same tale, when the meal was over, one of the little fions began to sing and the others repeated it.",
+          "statement_id": "Dalam kisah yang sama, setelah santap selesai, seorang fion kecil mulai bernyanyi dan yang lain mengulanginya.",
+          "quote": "Quand le repas fut fini, un des petits fions se mit à chanter ; les autres répétaient",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "firedrakes-in-english-folklore",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "00f509b1a3d4a5d706a2de1c9fd642a41cbd3b8c1a59fc763adb85c3280970c2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "firedrakes-in-english-folklore-c01",
@@ -1050,26 +1205,51 @@
           "quote": "英雄詩『ベーオウルフ』の主人公が対峙する「火竜」（古英語: fyr draca）も、現代語でいえばファイアー・ドレイクであり、広義的にはゲルマン（チュートン人）全般のの火竜のことである",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "firedrakes-in-english-folklore-c06",
+          "source_id": "firedrakes-in-english-folklore-s3",
+          "host": "wehd.com",
+          "statement": "Murray's dictionary defines the fire-drake as a mythical creature belonging to Germanic superstition.",
+          "statement_id": "Kamus Murray mendefinisikan fire-drake sebagai makhluk mitos yang termasuk dalam takhayul Jermanik.",
+          "quote": "a mythical creature belonging to Germanic superstition.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "firedrakes-in-english-folklore-c07",
+          "source_id": "firedrakes-in-english-folklore-s3",
+          "host": "wehd.com",
+          "statement": "The same dictionary lists a sense of fire-drake as a fiery meteor, citing W. Fulke, Meteors, on flying dragons that Englishmen call fire-drakes.",
+          "statement_id": "Kamus yang sama mencantumkan arti fire-drake sebagai meteor berapi, dengan kutipan W. Fulke, Meteors, tentang naga terbang yang oleh orang Inggris disebut fire-drake.",
+          "quote": "A fiery meteor. ... Flying Dragons, or as Englishmen call them, fire-Drakes, be caused in this manor.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "firedrakes-in-english-folklore-c08",
+          "source_id": "firedrakes-in-english-folklore-s3",
+          "host": "wehd.com",
+          "statement": "The dictionary cites Gower, Conf., which says that sometimes it seems the fire-drake, and so the lewd people judge it.",
+          "statement_id": "Kamus itu mengutip Gower, Conf., yang menulis bahwa kadang-kadang tampak sebagai fire-drake dan demikianlah orang awam menilainya.",
+          "quote": "Somtime the fire-drake it semeth, And so the lewde people it demeth.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gaillimh-inion-breasail",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "794317b753f98eb8e703bf9a0a9f25e56999fcc6e439aaf3cd2370d98830c599",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gaillimh-inion-breasail-c01",
@@ -1120,26 +1300,41 @@
           "quote": "Bean mhiotasach ab ea Gaillimh iníon Breasail as a ainmníodh cathair agus abhainn na Gaillimhe. Dúradh gurbh iníon cheannaire na bhFear Bolg, Breasail, í.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "gaillimh-inion-breasail-c06",
+          "source_id": "gaillimh-inion-breasail-s3",
+          "host": "archive.org",
+          "statement": "Hardiman writes that the old map of Galway states that a woman named Galva was drowned near a great rock in the river, and that from this circumstance the town originally took its name.",
+          "statement_id": "Hardiman menulis bahwa menurut peta lama Galway, seorang perempuan bernama Galva tenggelam di dekat sebuah batu besar di sungai, dan dari peristiwa itu kota tersebut mula-mula mendapat namanya.",
+          "quote": "a woman, named Galva, was drowned, near a great rock, in the river, (which is delineated on the map,) and that from this circumstance the town originally took its name.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gaillimh-inion-breasail-c07",
+          "source_id": "gaillimh-inion-breasail-s3",
+          "host": "archive.org",
+          "statement": "Hardiman himself regards the traditional report as weakly founded and the story attributing the name to the woman Gaillimh, or Galva, as fabulous in complexion.",
+          "statement_id": "Hardiman sendiri menilai laporan tradisional itu berdasar lemah dan kisah yang menisbahkan nama kota kepada perempuan bernama Gaillimh atau Galva itu bercorak dongeng.",
+          "quote": "we consider the weak foundation of traditional report, and the fabulous complexion of the story, attributing the name to the woman, Gaillimh, or Galva",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "galloway-puma",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "c5a9a8dca58bcbcfa1f98026c219f8d15239f4e4c91512dfebba6f4cb76c3392",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "galloway-puma-c01",
@@ -1189,6 +1384,26 @@
           "statement_id": "Artikel zh: Desember 2012, Alan Dalton dan istrinya Mandy melihat kucing hitam sebesar labrador di Newton Stewart.",
           "quote": "2012年12月，阿伦·多尔顿（Alan Dalton ）与妻子曼蒂（Mandy ）于牛顿斯图尔特看见一只拉布拉多般大小的黑色大猫。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "galloway-puma-c06",
+          "source_id": "galloway-puma-s3",
+          "host": "www.mysteriousbritain.co.uk",
+          "statement": "According to a 2013 Galloway Gazette report, holidaymakers staying at Kirroughtee Hotel outside Newton Stewart had a close encounter with an elusive big cat, described as one of Galloway's best kept secrets.",
+          "statement_id": "Menurut laporan The Galloway Gazette (2013), wisatawan yang menginap di Kirroughtee Hotel di luar Newton Stewart berjumpa dekat dengan kucing besar yang sukar ditangkap, yang disebut sebagai salah satu rahasia Galloway yang paling tersembunyi.",
+          "quote": "Holidaymakers staying at Kirroughtee Hotel outside Newton Stewart had a close encounter with one of Galloway’s best kept secrets last Saturday morning – an elusive big cat.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "galloway-puma-c07",
+          "source_id": "galloway-puma-s3",
+          "host": "www.mysteriousbritain.co.uk",
+          "statement": "The same report says that in the past four years 20 big cat sightings had been reported to The Galloway Gazette.",
+          "statement_id": "Laporan yang sama menyebut dalam empat tahun terakhir ada 20 laporan penampakan kucing besar yang masuk ke The Galloway Gazette.",
+          "quote": "In the past four years 20 big cat sightings have been reported to The Galloway Gazette. ... [The Galloway Gazette, 14/08/2013]",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -1266,7 +1481,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ad9a21c50dd7ac09985f9a93b45d258c474ab273e3e7d436753c4e9fabb07ab6"
     },
     {
       "slug": "gwragedd-annwn",
@@ -1340,7 +1556,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c180f6401a82a7c55a15fa28e690e1d279520ed4ebfcc58fad45aabc2240a5e"
     },
     {
       "slug": "hob-folklore",
@@ -1424,24 +1641,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "29fee64a5bee23e73beb3a6ad243ca3099a8b09976a3c140e3cf856835e36073"
     },
     {
       "slug": "lantern-man",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "c7f7f41dd14e123a609e6f556fd29f3bd5a43fbb8e3c5e34153f76f5aa1e4624",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lantern-man-c01",
@@ -1491,6 +1704,16 @@
           "statement_id": "Artikel zh: menurut L. F. Newman, cahaya itu roh jahat yang menarik korban ke alang-alang.",
           "quote": "根据民俗学家 l.f. 纽曼收集的故事中， 这些怪火被认为是邪灵作祟，以试图吸引受害者前往芦苇丛。",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lantern-man-c06",
+          "source_id": "lantern-man-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A man who had taken shelter at a friend's home was helped when the friend hung out a horn on a long pole to distract the spirit, and the following morning the horn was found burnt up.",
+          "statement_id": "Seorang lelaki yang berlindung di rumah temannya diselamatkan ketika sang teman menggantungkan sebuah tanduk pada tiang panjang untuk mengalihkan roh itu, dan keesokan paginya tanduk itu ditemukan hangus terbakar.",
+          "quote": "The man had taken shelter at the home of a friend, who hung out a horn on a long pole to distract the spirit. The following morning the horn was found to have been burnt up.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1568,7 +1791,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5adf79c823c06cceaabfe504ca03d356eea2d43754d61a40bd27ba8e4d8a60f4"
     },
     {
       "slug": "maggy-moulach",
@@ -1642,7 +1866,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4f74df3b622d15a3ff9f1dd70f3a2b19f5c506b9bdbd423b7119455b5fc7777d"
     },
     {
       "slug": "mooinjer-veggey",
@@ -1716,24 +1941,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "92a9a48a4922988563b06113c572e579fb7180ddb71a1211b67c4fe1b753611d"
     },
     {
       "slug": "muc-sheilche",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "f9b6e906fba44b8b7ebf47870230202d7bdcd7be5350f5ef7614528a71825562",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "muc-sheilche-c01",
@@ -1753,6 +1974,46 @@
           "statement_id": "Artikel ga (muc thurtair, Irlandia): tinggal di Loch Ma-Ruibhe dan danau sekitarnya.",
           "quote": "Deirtear go bhfuil sí ina cónaí i Loch Ma-Ruibhe, agus sna lochanna sa cheantar máguaird.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "muc-sheilche-c03",
+          "source_id": "muc-sheilche-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Like Loch Ness and Loch Morar, Loch Maree is said to have its own monster in the form of the muc-sheilch.",
+          "statement_id": "Seperti Loch Ness dan Loch Morar, Loch Maree disebut memiliki monsternya sendiri berupa muc-sheilch.",
+          "quote": "Like Loch Ness and Loch Morar, Loch Maree has its own monster in the form of the muc-sheilch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muc-sheilche-c04",
+          "source_id": "muc-sheilche-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Loch Maree is a loch in Wester Ross in the Northwest Highlands of Scotland.",
+          "statement_id": "Loch Maree adalah sebuah loch di Wester Ross, Dataran Tinggi Barat Laut Skotlandia.",
+          "quote": "is a loch in Wester Ross in the Northwest Highlands of Scotland.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "muc-sheilche-c05",
+          "source_id": "muc-sheilche-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Loch Maree is the fourth-largest freshwater loch in Scotland and the largest north of Loch Ness.",
+          "statement_id": "Loch Maree adalah loch air tawar terbesar keempat di Skotlandia dan yang terbesar di sebelah utara Loch Ness.",
+          "quote": "it is the fourth-largest freshwater loch in Scotland; it is the largest north of Loch Ness.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "muc-sheilche-c06",
+          "source_id": "muc-sheilche-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Thomas Pennant, writing in 1772, recorded that the loch was considered a holy well whose waters were thought to have curative effects.",
+          "statement_id": "Thomas Pennant, menulis pada 1772, mencatat bahwa loch itu dianggap sumur suci yang airnya diyakini berkhasiat menyembuhkan.",
+          "quote": "Thomas Pennant, writing in 1772, recorded that the loch was considered a holy well whose waters were thought to have curative effects",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1830,7 +2091,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b8bf99e4a6f28a43af8d183175aa1e1aead17619bd9e63f49046cab56e196625"
     },
     {
       "slug": "seelie",
@@ -1904,7 +2166,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a4da43e475c9b6b5be2c3acf38b18a879be039939b2088b63565d5be226c1e31"
     },
     {
       "slug": "shellycoat",
@@ -1988,7 +2251,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ae3f08ee547db615fba642e90398213b40c1febe9f1af2fa40a3c3f660e41883"
     },
     {
       "slug": "stoor-worm",
@@ -2062,7 +2326,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f800b3e53739c3175ed73e2e20cdc8a43ff8ab449b1a283695e3873bfc0aaef7"
     },
     {
       "slug": "the-laidly-worm-of-spindleston-heugh",
@@ -2136,7 +2401,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b18583ca34fa37ab5a7191ec3d6d39bc7514d8adf49c569bda56f37376015a27"
     },
     {
       "slug": "the-ratman-of-southend",
@@ -2210,24 +2476,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31ca5e3aa0366403eb0493b1871976fcd5d49775656a3bc0d8305626f2c7c27a"
     },
     {
       "slug": "treo-fall",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "abdbefd643acb71e9071c11cba9eb91b86b14b26f2ec019cfdd29bf621cc0d5e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "treo-fall-c01",
@@ -2277,6 +2539,36 @@
           "statement_id": "Artikel fr: Tréo-Fall (danserien-noz), mirip lutin, Basse-Bretagne.",
           "quote": "Les Tréo-Fall, également connus sous le nom de danserien-noz, sont des créatures du folklore populaire de la Basse-Bretagne, de type lutin.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "treo-fall-c06",
+          "source_id": "treo-fall-s3",
+          "host": "fr.wikisource.org",
+          "statement": "Luzel writes that there are also the treo-fall, or evil spirits, called elsewhere ann danserienn noz, the night dancers.",
+          "statement_id": "Luzel menulis bahwa ada pula treo-fall, atau roh jahat, yang di tempat lain juga disebut ann danserienn noz, para penari malam.",
+          "quote": "Il y a encore les treo-fall ou mauvais esprits, appelés aussi ailleurs ann danserienn noz, les danseurs de nuit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "treo-fall-c07",
+          "source_id": "treo-fall-s3",
+          "host": "fr.wikisource.org",
+          "statement": "According to Luzel, they lead their fantastic rounds by moonlight on the seashore or atop the cliffs and invite passers-by to join in by promising treasures.",
+          "statement_id": "Menurut Luzel, mereka menari dalam lingkaran fantastis di bawah cahaya bulan, di tepi laut atau di puncak tebing, dan mengajak para pejalan kaki ikut serta dengan menjanjikan harta.",
+          "quote": "Ils mènent leurs rondes fantastiques, au clair de la lune, sur le rivage de la mer ou au haut des falaises, et invitent les passants à y prendre part en leur promettant des trésors.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "treo-fall-c08",
+          "source_id": "treo-fall-s3",
+          "host": "fr.wikisource.org",
+          "statement": "The man who accepts must plant his knife in the ground, then follow the round, spinning as fast as a whirlwind, and graze the knife on each turn without ever passing it; otherwise his back is broken and he is left dying on the spot.",
+          "statement_id": "Orang yang menerima harus menancapkan pisaunya di tanah, lalu mengikuti lingkaran dengan putaran secepat pusaran dan menyentuh pisau itu setiap putaran tanpa pernah melewatinya; bila tidak, punggungnya dipatahkan dan ia ditinggalkan sekarat di tempat.",
+          "quote": "L’homme qui accepte doit planter son couteau en terre, puis, en suivant la ronde et en tournant avec la rapidité d’un tourbillon, il faut qu’il le rase à chaque tour, sans jamais le dépasser, autrement on lui rompt les reins et on le laisse mourant sur la place.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -2366,7 +2658,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5cd556c957269167caa6a15317da70c18766757626b9509cf4d9042e4cd3b2d5"
     },
     {
       "slug": "adar-rhiannon",
@@ -2444,24 +2737,20 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "824712750bf67615b01a0dbff2e5d366594d96c46f2bbe6f6fb680ffa14faf5f"
     },
     {
       "slug": "adhene",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "a381d6b22b2349f6b426db89f02b3c4d8aab843d6e6c6acbb54803bc9c1d2c33",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "adhene-c01",
@@ -2492,26 +2781,61 @@
           "quote": "About the size of a small child when visible, they fished at sea and herded their cattle on the hills. The Manx people knew there would be good fishing or harvests when they heard the fairies making storage barrels in the caves.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "adhene-c04",
+          "source_id": "adhene-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Moore, some Manx fairies are benevolent, curing men of diseases and delivering them from misfortune, while others are malevolent, stealing children, even abducting grown people, and bringing misfortune.",
+          "statement_id": "Menurut Moore, sebagian peri Manx baik hati, menyembuhkan penyakit dan melepaskan orang dari kemalangan, sedangkan yang lain jahat, mencuri anak, bahkan menculik orang dewasa, dan mendatangkan kemalangan.",
+          "quote": "Some of them are benevolent, curing men of diseases and delivering them from misfortune. Others are malevolent, stealing children, even abducting grown people, and bringing misfortune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adhene-c05",
+          "source_id": "adhene-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Moore writes that they are partly human and partly spiritual in nature and are visible to men only when they choose.",
+          "statement_id": "Moore menulis bahwa peri-peri itu sebagian manusiawi dan sebagian rohani dalam wataknya, dan hanya tampak oleh manusia bila mereka mau.",
+          "quote": "They are partly human and partly spiritual in their nature, and are visible to men only when they choose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adhene-c06",
+          "source_id": "adhene-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Moore says they are called 'the little people' or 'the good people', the word Fairy never being mentioned because they are supposed not to like it.",
+          "statement_id": "Menurut Moore, mereka disebut \"orang-orang kecil\" atau \"orang-orang baik\", dan kata Fairy tidak pernah disebut karena dianggap tidak mereka sukai.",
+          "quote": "they are called “the little people”, or “the good people”, the word Fairy being never mentioned, as they are supposed not to like it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "adhene-c07",
+          "source_id": "adhene-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Moore, they live in green hill sides, especially favouring the ancient tumuli.",
+          "statement_id": "Menurut Moore, mereka tinggal di lereng bukit hijau, terutama menyukai gundukan makam kuno.",
+          "quote": "They live in green hill sides, more especially affecting the ancient tumuli.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ascapart",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "7460342253d4568861fcebe48718e36818a74ec2a99f1044655a40f26fa976e8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ascapart-c01",
@@ -2562,26 +2886,61 @@
           "quote": "Alongside the story of Bevis of Hampton, the giant appears in the local folklore of Hampshire and the New Forest; large medieval painted oak panels of Sir Bevis and Ascupart can be found in the Southampton Bargate Monument Gallery",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "ascapart-c06",
+          "source_id": "ascapart-s2",
+          "host": "www.southdowns.gov.uk",
+          "statement": "According to the South Downs National Park page, Ascapart was small compared with the giants of his day and stood a mere 30 feet tall.",
+          "statement_id": "Menurut halaman Taman Nasional South Downs, Ascapart tergolong kecil dibanding raksasa-raksasa zamannya dan tingginya hanya sekitar 30 kaki.",
+          "quote": "Ascapart was a small giants compared to those of his day and stood a mere 30 foot tall.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ascapart-c07",
+          "source_id": "ascapart-s2",
+          "host": "www.southdowns.gov.uk",
+          "statement": "The same page says Ascapart was more than capable of terrifying the local villages around Southampton.",
+          "statement_id": "Halaman yang sama menyebut Ascapart sangat mampu menakut-nakuti desa-desa di sekitar Southampton.",
+          "quote": "Nevertheless, Ascapart was more than capable of terrifying the local villages around Southampton.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ascapart-c08",
+          "source_id": "ascapart-s2",
+          "host": "www.southdowns.gov.uk",
+          "statement": "Some say Ascapart lived only because Josain, Bevis's wife, persuaded Bevis to spare his life.",
+          "statement_id": "Menurut sebagian penutur, Ascapart tetap hidup hanya karena Josain, istri Bevis, membujuk Bevis agar mengampuni nyawanya.",
+          "quote": "The only reason Ascapart lived, some say, was because Josain, Bevis’ wife persuaded Bevis to spare Ascapart’s life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ascapart-c09",
+          "source_id": "ascapart-s2",
+          "host": "www.southdowns.gov.uk",
+          "statement": "Some records recall that Ascapart did betray Bevis and kidnapped his wife, holding her prisoner; for that he met his death at the hands of Bevis's supporters, and where he fell his body became part of the Downs.",
+          "statement_id": "Beberapa catatan menyebut Ascapart memang mengkhianati Bevis dan menculik istrinya, menahannya; karena itu ia tewas di tangan para pendukung Bevis, dan di tempat ia jatuh tubuhnya menjadi bagian dari Downs.",
+          "quote": "In a twist to the tale, some records recall that Ascapart did indeed betray Bevis and kidnapped Bevis’ wife holding her prisoner. For that Ascapart met his death at the hands of Bevis’ supporters and where he fell, his body became a part of the Downs.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bananach",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "98a2e15bebf34803d821f6a1bfd705ccee2b5e8f274f13f9336621158e93bb26",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bananach-c01",
@@ -2612,26 +2971,51 @@
           "quote": "They are linked with (and sometimes considered personifications of) the sounds of battle, being used as a way to describe the sound of weapons clashing. All three of these beings are warded off by the Dond Cúalnge, a legendary bull mentioned in the Táin Bó Cúalnge.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "bananach-c04",
+          "source_id": "bananach-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Faraday's translation of the Táin Bó Cúailnge, when the hero uttered his shout, goblins, sprites, spectres of the glen and demons of the air answered for terror of the shout.",
+          "statement_id": "Dalam terjemahan Faraday atas Táin Bó Cúailnge, ketika sang pahlawan menyerukan teriakannya, goblin, sprite, hantu lembah, dan iblis udara menjawab karena ngeri akan teriakan itu.",
+          "quote": "and he uttered his hero's shout from his throat, so that goblins and sprites and spectres of the glen and demons of the air answered, for the terror of the shout which they uttered on high.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bananach-c05",
+          "source_id": "bananach-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The same translation says goblins, sprites, ghosts of the glen and demons of the air cried from something he wore, before, above and around him, wherever he went before shedding the blood of warriors and enemies.",
+          "statement_id": "Terjemahan yang sama menyebut goblin, sprite, hantu lembah, dan iblis udara berseru dari benda yang dikenakan sang pahlawan, di depan, di atas, dan di sekelilingnya, ke mana pun ia pergi sebelum menumpahkan darah para prajurit dan musuh.",
+          "quote": "For there used to cry from it equally goblins and sprites and ghosts of the glen and demons of the air, before and above and around, wherever he used to go before shedding the blood of warriors and enemies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bananach-c06",
+          "source_id": "bananach-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that the bánánach are mentioned alongside the bócanach ('goat-like battle spectre'), the geniti glinne ('female battle-spectre of the glen') and the demna aeóir ('demons of the air') in the Táin Bó Cúailnge.",
+          "statement_id": "Wikipedia mencatat bánánach disebut bersama bócanach (\"hantu perang mirip kambing\"), geniti glinne (\"hantu perang perempuan dari lembah\"), dan demna aeóir (\"setan udara\") dalam Táin Bó Cúailnge.",
+          "quote": "They are mentioned alongside the bócanach, ... \"goat-like battle spectre\") the geniti glinne ... \"female battle-spectre of the glen\") , and the demna aeóir ... ,\"demons of the air\") in the Táin Bó Cúalnge.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "beast-of-bont",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "09face005570c347c2465ae6d9ad4ac0ab9f98f9b1ee097c5182d103878f6c8c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "beast-of-bont-c01",
@@ -2672,26 +3056,41 @@
           "quote": "Fodd bynnag, parhau i gysgu oedd gweddill y praidd.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "beast-of-bont-c05",
+          "source_id": "beast-of-bont-s2",
+          "host": "cambrian-news.co.uk",
+          "statement": "According to the Cambrian News, in June 1981 twelve sheep were slaughtered by an unknown creature in the tiny village of Pontrhydfendigaid, known locally as Bont, west of the Cambrian Mountains range stretching across Ceredigion and Powys.",
+          "statement_id": "Menurut Cambrian News, pada Juni 1981 dua belas domba disembelih oleh makhluk tak dikenal di desa kecil Pontrhydfendigaid, yang di daerah itu disebut Bont, di sebelah barat Pegunungan Cambrian yang membentang melintasi Ceredigion dan Powys.",
+          "quote": "In June 1981, 12 sheep were slaughtered by an unknown creature in the tiny village of Pontrhydfendigaid - known locally as Bont - which sits to the west of the Cambrian Mountains range stretching across Ceredigion and Powys.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "beast-of-bont-c06",
+          "source_id": "beast-of-bont-s2",
+          "host": "cambrian-news.co.uk",
+          "statement": "Veterinarians from the UK Ministry of Agriculture, as it was then, are said to have concluded that whatever had killed the livestock must have been a 'great deal more powerful than a fox or a dog'.",
+          "statement_id": "Dokter hewan dari Kementerian Pertanian Inggris saat itu disebut telah menyimpulkan bahwa apa pun yang membunuh ternak itu pasti \"jauh lebih kuat daripada rubah atau anjing\".",
+          "quote": "Veterinarians from the UK Ministry of Agriculture, as it was then, are said to have released findings that whatever had killed the livestock must have been a ‘great deal more powerful than a fox or a dog’.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "biast-bhealach-odail",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "445575c1ca81add6090c344fe5c4ae9818cc52d9be420d4b87237a97b0cf762e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "biast-bhealach-odail-c01",
@@ -2732,26 +3131,51 @@
           "quote": "He further mentions that the attacks ceased after the victim's body was found, which led the folklorist Katharine Briggs to suggest that the monster may have been the ghost of a murdered man looking for revenge.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "biast-bhealach-odail-c05",
+          "source_id": "biast-bhealach-odail-s2",
+          "host": "archive.org",
+          "statement": "Campbell writes that at the time the road was being made, the Pass was haunted by 'something' awful, the more awful because its character was not distinctly known.",
+          "statement_id": "Campbell menulis bahwa pada saat jalan dibangun, celah itu dihantui \"sesuatu\" yang mengerikan, terlebih karena sifatnya tidak diketahui dengan jelas.",
+          "quote": "At the time it was being made, the Pass was haunted by \" something \" awful — the more awful that its character was not distinctly known",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biast-bhealach-odail-c06",
+          "source_id": "biast-bhealach-odail-s2",
+          "host": "archive.org",
+          "statement": "According to Campbell, travellers through the Pass at night were often thrown down and hurt by it and with difficulty made their way to a place of safety.",
+          "statement_id": "Menurut Campbell, para pelancong yang melewati celah itu pada malam hari sering dilempar jatuh dan terluka olehnya, lalu dengan susah payah mencapai tempat aman.",
+          "quote": "Travellers through the Pass at night were often thrown down and hurt by it, and with difficulty made their way to a place of safety.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biast-bhealach-odail-c07",
+          "source_id": "biast-bhealach-odail-s2",
+          "host": "archive.org",
+          "statement": "Campbell records that it ceased when a man was found dead at the roadside, pierced with two wounds.",
+          "statement_id": "Campbell mencatat bahwa gangguan itu berhenti ketika seorang lelaki ditemukan tewas di tepi jalan dengan dua luka tusuk.",
+          "quote": "It ceased when a man was found dead at the roadside, pierced with two wounds",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "brag-folklore",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "fd92d5acca2835adb57fb52276f394a425456f6575f46489269e3f989257ed02",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "brag-folklore-c01",
@@ -2782,26 +3206,51 @@
           "quote": "A brag at Humbleknowe was never seen but made hideous noises in the night.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "brag-folklore-c04",
+          "source_id": "brag-folklore-s2",
+          "host": "archive.org",
+          "statement": "According to Henderson, the Picktree Brag also appeared as a 'dick-ass', as four men holding up a white sheet, or as a naked man without a head.",
+          "statement_id": "Menurut Henderson, Picktree Brag juga pernah tampil sebagai \"dick-ass\" (keledai), sebagai empat orang yang mengangkat selembar kain putih, atau sebagai lelaki telanjang tanpa kepala.",
+          "quote": "Again it appeared as a \" dick-ass,\" as four men holding up a white sheet, or as a naked man without a head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brag-folklore-c05",
+          "source_id": "brag-folklore-s2",
+          "host": "archive.org",
+          "statement": "In the tale Henderson records, a bold man returning from a christening met the Brag and leapt upon its back.",
+          "statement_id": "Dalam kisah yang dicatat Henderson, seorang lelaki pemberani yang pulang dari pembaptisan bertemu Brag dan melompat ke punggungnya.",
+          "quote": "Once, in that very suit, returning from a christening, he encountered the Brag, and being a bold man, he leapt upon its back",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brag-folklore-c06",
+          "source_id": "brag-folklore-s2",
+          "host": "archive.org",
+          "statement": "In the same tale, at last the Brag threw him into the middle of the pond and ran away, setting up a great nicker and laugh, just like a Christian.",
+          "statement_id": "Dalam kisah yang sama, pada akhirnya Brag melemparkannya ke tengah kolam dan lari sambil meringkik dan tertawa seperti orang Kristen.",
+          "quote": "at last it threw him into the middle o' the pond, and ran away, setting up a great nicker and laugh, just for all the world like a Christian.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "brown-man-of-the-muirs",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-1.md",
+      "entry_sha256": "d91fb6649bb6d7582a2265033d7da63112b4e7bd9c2ac56c60163ab047ca32f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "brown-man-of-the-muirs-c01",
@@ -2852,26 +3301,51 @@
           "quote": "Walter Scott in a return letter to Surtees suggested that the Brown Man may be related to the duergar (dwarfs) of Northumberland.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "brown-man-of-the-muirs-c06",
+          "source_id": "brown-man-of-the-muirs-s2",
+          "host": "archive.org",
+          "statement": "Henderson says the Brown Man of the Muirs tale comes from a letter from Surtees to Sir W. Scott, given in the memoir in vol. iv of Surtees's History of Durham, on the authority of an old dame named Elizabeth Cockburn.",
+          "statement_id": "Menurut Henderson, kisah Brown Man of the Muirs dimuat dalam surat Surtees kepada Sir W. Scott, yang tercantum dalam memoar di jilid keempat History of Durham karya Surtees, dan disampaikan atas keterangan seorang perempuan tua bernama Elizabeth Cockburn.",
+          "quote": "In a letter from Mr. Surtees to Sir W. Scott, given in the memoir prefixed to vol. iv. of Surtees's History of Durham, we read, on the authority of an old dame named Elizabeth Cockburn",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brown-man-of-the-muirs-c07",
+          "source_id": "brown-man-of-the-muirs-s2",
+          "host": "archive.org",
+          "statement": "Henderson presents the Brown Man of the Muirs as a mysterious denizen of the wild moorlands, set beside the attendant sprites of Scottish homesteads.",
+          "statement_id": "Henderson menempatkan Brown Man of the Muirs sebagai penghuni misterius padang rawa liar, berpasangan dengan roh-roh pendamping rumah-rumah pertanian Skotlandia.",
+          "quote": "If the Scottish homesteads have their attendant sprites, the wild moorlands are not without their mysterious denizens.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brown-man-of-the-muirs-c08",
+          "source_id": "brown-man-of-the-muirs-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In folklore the Brown Man appears as a solitary fairy, but in fairy tale literature he is a member of a tribe of similar beings.",
+          "statement_id": "Dalam folklor Brown Man muncul sebagai peri penyendiri, tetapi dalam sastra dongeng ia anggota suku makhluk serupa.",
+          "quote": "In folklore the Brown Man appears as a solitary fairy, but in fairy tale literature he is a member of a tribe of similar beings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bucca-mythological-creature",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-2.md",
+      "entry_sha256": "6cf9d9ac53c72762c9646746e7441bd7d4166db87c8ea14f51892e991439118c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bucca-mythological-creature-c01",
@@ -2921,6 +3395,26 @@
           "statement_id": "Bucca Widn (putih) dan Bucca Dhu (hitam); Penzance: badai barat daya disebut Bucca calling.",
           "quote": "Bucca also seems to associated with the wind, in Penzance it was customary to refer to storms that emanated from a southwesterly direction as \"Bucca calling\"; sailors and fishermen also believe that Bucca's voice carried on the wind.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bucca-mythological-creature-c06",
+          "source_id": "bucca-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "Robert Hunt writes that the Buccas or Knockers are the sprites of the mines and correspond to the Kobals of the German mines, the Duergars and the Trolls.",
+          "statement_id": "Robert Hunt menulis bahwa Buccas atau Knockers adalah roh-roh tambang yang padanannya adalah Kobal dari tambang Jerman, Duergar, dan Troll.",
+          "quote": "These are the sprites of the mines, and correspond to the Kobals of the German mines, the Duergars, and the Trolls.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bucca-mythological-creature-c07",
+          "source_id": "bucca-mythological-creature-s2",
+          "host": "archive.org",
+          "statement": "According to Hunt, the buccas or knockers are believed to inhabit the rocks, caves, adits and wells of Cornwall.",
+          "statement_id": "Menurut Hunt, buccas atau knockers dipercaya mendiami batu karang, gua, terowongan tambang, dan sumur di Cornwall.",
+          "quote": "THE buccas or knockers are believed to inhabit the rocks, caves, adits, and wells of Cornwall.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -2994,7 +3488,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "863380653f051d35919327337e9a5fb2c25821fa62f1a30392a8bd10f3f2a4c4"
     },
     {
       "slug": "christchurch-dragon",
@@ -3064,7 +3559,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22558eb9f5102ed3b650ac3f21aec4e0cba6ae0098b5a8bc8cff0479b3e80625"
     },
     {
       "slug": "cirein-croin",
@@ -3134,7 +3630,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0fe26c7e6411b76f440165e9c418f238e8c218d1e4b2380da72b5a8237f6eb78"
     },
     {
       "slug": "clud",
@@ -3214,7 +3711,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e4322bc41766f4f048f8a8459106bd8daed1fd5b81a4438218e4704958e8e9fc"
     },
     {
       "slug": "colt-pixie",
@@ -3274,7 +3772,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "da1ab0596255c5519339ddfec4e99735342bd104d477bfb7ebda486d50188671"
     },
     {
       "slug": "dando-s-dogs",
@@ -3334,7 +3833,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b8805c826cbe059e892587c56cc7d264b755fac24cf5b37c98ec7932f91e1520"
     },
     {
       "slug": "der-elfstier",
@@ -3353,7 +3853,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "7e9dcc2b4d65bddabb66b8a2f6be01c39861c80eced8c90f2d3228413fb7cb1c"
     }
   ]
 }

@@ -1,13 +1,10 @@
 # Review batch-119
 
-Diperiksa 2026-10-03T01:32:26.009Z. Berkas: batch-119.md.
+Diperiksa 2026-10-07T05:08:22.217Z. Berkas: batch-119.md, batch-119-fix-1.md, batch-119-fix-2.md.
 
 ## aderyn-y-corff — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -16,14 +13,16 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | aderyn-y-corff-c03 | exact | en.wikipedia.org | Referenced twice in the Welsh-language Bible. | The Aderyn y Corff is referenced twice in the Welsh-language version of the bible, which some authors have claimed is the origin of the superstition. |
 | aderyn-y-corff-c04 | exact | en.wikipedia.org | Possibly a screech owl drawn by a patient's room light. | Many contemporary accounts of the corpse bird have suggested that it is actually a screech owl, drawn to lights coming from the room of a patient. |
 | aderyn-y-corff-c05 | exact | es.wikipedia.org | es article: British Goblins (1881) by Wirt Sikes. | Una de las fuentes más importantes que la menciona es British Goblins (1881), obra de Wirt Sikes, recopilador de mitología y supersticiones galesas. |
+| aderyn-y-corff-c06 | exact | www.gutenberg.org | In the ancient tradition recorded by Sikes, the bird had no feathers or wings, soared without support high in the heavens, and, when not engaged on an earthly message, dwelt in the land of illusion and phantasy. | In ancient tradition, it had no feathers nor wings, soaring without support high in the heavens, and, when not engaged upon some earthly message, dwelling in the land of illusion and phantasy. |
+| aderyn-y-corff-c07 | exact | www.gutenberg.org | Sikes says this corpse-bird may properly be associated with the superstition about the screech-owl, whose cry near a sick-bed is held to portend death. | This corpse-bird may properly be associated with the superstition regarding the screech-owl, whose cry near a sick-bed inevitably portends death. |
+| aderyn-y-corff-c08 | exact | www.gutenberg.org | Sikes notes that death portents exist in every country in endless variety, and that in Wales they take distinct and striking individualities. | There are death portents in every country, and in endless variety; in Wales these portents assume distinct and striking individualities |
+| aderyn-y-corff-c09 | exact | www.gutenberg.org | According to Owen, this was a bird that came flapping its wings against the window of a sick person's room, and its visit was considered a certain omen of that person's death. | This was a bird that came flapping its wings against the window of the room in which lay a sick person, and this visit was considered a certain omen of that person's death. |
+| aderyn-y-corff-c10 | exact | www.gutenberg.org | Owen writes that the bird singled out for the dismal honour of being a death prognosticator was the tawny, or screech owl. | The bird, singled out for the dismal honour of being a death prognosticator, was the tawny, or screech owl. |
 
 
 ## basty — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -33,6 +32,8 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | basty-c04 | exact | tr.wikipedia.org | Kulbastı: sleeps in the grave by day, rises at night; hairy, huge, smelly. | Kulbastı: "Kuleybanı, Gulyabani." Gündüzleri mezarda uyuyup geceleri kalktığına inanılır. Tüylü, çok büyük ve pis kokulu olarak betimlenir. |
 | basty-c05 | exact | tr.wikipedia.org | From the root bas- (to press); also prison and weight. | (Bas) kökünden türemiştir. Basmak anlamını içerir. Hapishane anlamına da gelir. Ayrıca ağırlık demektir. |
 | basty-c06 | exact | tr.wikipedia.org | Karabastı: nightmare jinn sitting on chests at night, stopping breath. | Karabastı: Kâbus, kötü rüya. Kâbus cini olarak da bilinir. Geceleri insanların göğüslerine çökerek soluklarını keser. |
+| basty-c07 | exact | ceeol.com | According to this journal article's abstract, the albastı is known to haunt women postpartum and newborn babies and is a female spirit designed with an evil spirit. | Known to haunt women postpartum and newborn babies, "albastı" is a female spirit designed with an evil spirit. |
+| basty-c08 | exact | ceeol.com | The same abstract says the dangerous creature is found in barns, haystacks, ruins, desolate places and water sources, and is feared to rip out the liver of the puerperal woman and her baby. | The person who catches the dangerous creature found in barns, haystacks, ruins, desolate places, and water sources, which is feared to rip out the liver of the puerperal and her baby |
 
 
 ## billy-blind — lulus-otomatis
@@ -94,10 +95,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## buwch-frech — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -106,6 +104,11 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | buwch-frech-c03 | exact | en.wikipedia.org | Fairy cows of abundant milk from and back to lakes across Wales. | The idea of fairy cows with abundant milk which came from and returned to lakes occurs across Wales |
 | buwch-frech-c04 | exact | en.wikipedia.org | A similar cow in Shropshire: The White Cow of Mitchell's Fold. | Owen likewise linked his Freckled Cow with a number of similar cows such as one over the border in Shropshire: "There she is known as The White Cow of Mitchell's Fold". |
 | buwch-frech-c05 | exact | cy.wikipedia.org | cy article: Buwch Fraith Hiraethog, Mynydd Hiraethog; white with pink speckles; endless milk; Ychen Bannog. | Yn ei draethawd ar lên gwerin, ar gyfer Eisteddfod Genedlaethol 1887, disgrifia Elias Owen stori am fuwch hudol o ardal Mynydd Hiraethog. Roedd yn wyn pur gyda brychni pinc ac roedd ganddi gyflwenwad diddiwedd o lefrith. |
+| buwch-frech-c06 | exact | www.gutenberg.org | In the tale Owen records, whoever was in want of milk came with a vessel, and however big it was they always left with the pail filled with rich milk. | Whenever any one was in want of milk they went to this cow, taking with them a vessel into which they milked the cow, and, however big this vessel was, they always departed with the pail filled with rich milk |
+| buwch-frech-c07 | exact | www.gutenberg.org | In Owen's version, a wicked hag, filled with envy at the people's prosperity, determined to milk the cow dry. | At last a wicked hag, filled with envy at the people's prosperity, determined to milk the cow dry |
+| buwch-frech-c08 | exact | www.gutenberg.org | After this treatment the cow immediately left the country and was never seen again. | the cow immediately, upon this treatment, left the country, and was never more seen. |
+| buwch-frech-c09 | exact | www.gutenberg.org | Owen notes that the site of the cow house is still pointed out and keeps the name Preseb y Fuwch Frech. | The site of the cow house is still pointed out, and retains its name, Preseb y Fuwch Frech |
+| buwch-frech-c10 | exact | www.gutenberg.org | In a book Owen cites, vulgar opinion held that a large bone at Gwydir was the rib of the Dun Cow (y Fuwch Frech), killed by the Earl of Warwick. | it is the rib of the Dun Cow (y Fuwch Frech), killed by the Earl of Warwick. |
 
 
 ## cauld-lad-of-hylton — lulus-otomatis
@@ -124,10 +127,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## cofgod — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -136,6 +136,7 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | cofgod-c03 | exact | en.wikipedia.org | The English hob and Anglo-Celtic brownie may be modern survivals of the cofgod. | If it is true that such beings were known to the early English, later legendary beings such as the English hob and Anglo-Celtic brownie would be the modern survival of the cofgod. |
 | cofgod-c04 | exact | en.wikipedia.org | Only instance: a gloss on Latin penates. | However, the only instance of the word cofgodas in Old English is as a gloss (an explanatory definition) to the Latin word penates. |
 | cofgod-c05 | exact | ko.wikipedia.org | ko article: Old English term for a household god in Anglo-Saxon paganism. | 코프갓(Cofgod)은 앵글로색슨 이교에서 가택신을 가리키던 고대 영어 용어이다. |
+| cofgod-c06 | exact | en.wikipedia.org | The plural Cofgodas, glossed 'cove-gods', was an Old English term for a household god. | (plural Cofgodas ("cove-gods")) was an Old English term for a household god |
 
 
 ## dragon-of-mordiford — lulus-otomatis
@@ -180,10 +181,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## ellen-trechend — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -191,14 +189,14 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | ellen-trechend-c02 | exact | en.wikipedia.org | Interpretations: swarm of three-headed creatures; Whitley Stokes: monstrous bird; T. F. O'Rahilly: Aillén, foe of Fionn mac Cumhaill. | One translator interprets it as a "swarm of three-headed creatures"; Whitley Stokes offered a "monstrous triple-headed bird" (Old Irish én, "bird"); while T. F. O'Rahilly identifies it with Aillén, the fire-breathing monster fought by Fionn mac Cumhaill. |
 | ellen-trechend-c03 | exact | en.wikipedia.org | P. W. Joyce: the Sidhe of Cruachan opened at Samhain; goblins and copper-red birds led by a three-headed vulture. | he tells how the Sidhe of Cruachan opened on Samhain and a crowd of horrible goblins rushed out, along with a flock of copper-red birds who were led by a monstrous three-headed vulture. |
 | ellen-trechend-c04 | exact | ga.wikipedia.org | ga article: Eilléan Trícheann, a monster of Gaelic myth; Ráth Cruachan; Amergin. | Is arracht i miotaseolaíocht na nGael é Eilléan Trícheann (Sean-Ghaeilge: Ellén Trechend). |
+| ellen-trechend-c05 | exact | www.maryjones.us | In the translation of Cath Maige Mucrama, the swarm of three-headed creatures came out of that cave and laid Ireland waste until Amairgene, father of Conall Cernach, destroyed it in the presence of all the Ulaid. | Out of it too came the swarm of three-headed creatures that laid Ireland waste until Amairgene father of Conall Cernach, fighting alone (?), destroyed it in the presence of all the Ulaid. |
+| ellen-trechend-c06 | exact | www.maryjones.us | The same text says Mag Mucrima was named for magic pigs that had come out of a cave. | Now Mag Mucrima [was so called from] magic pigs that had come out of the cave of |
+| ellen-trechend-c07 | exact | en.wikipedia.org | Its name is difficult to interpret: trechend means 'three-headed', but ellén is an obscure word. | Its name is difficult to interpret: trechend means "three-headed", but ellén is an obscure word. |
 
 
 ## fions — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -207,14 +205,13 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | fions-c03 | exact | en.wikipedia.org | Graze livestock, give enchanted objects or food. | According to tales, they own and graze livestock, and sometimes give enchanted objects or food to humans. |
 | fions-c04 | exact | en.wikipedia.org | Paul Sébillot: no female Fions; Pierre Dubois: hermaphrodite; Françoise Morvan: kin of Anglo-Saxon fairies, Jetins. | Opinions differ on this point, for while Paul Sébillot says "there were no female Fions, at least in the houles", Pierre Dubois believes they are hermaphroditic creatures. |
 | fions-c05 | exact | fr.wikipedia.org | fr article: little people of Haute-Bretagne maritime folklore, lutin-like, maybe English. | Les Fions sont des créatures du petit peuple surtout mentionnées dans le folklore maritime de la Haute-Bretagne, de type lutin et peut-être d'origine anglaise. |
+| fions-c06 | exact | fr.wikisource.org | In Sébillot's tale "La fée de la Corbière", as the thread was spun, a regiment of little fions took it, wound it and wove it, and it took them little time to make a piece of cloth. | À mesure que le fil se faisait et se déroulait, un régiment de petits fions prenaient le fil, le dévidaient, le tissaient et ils n’étaient guère de temps à faire une pièce de toile. |
+| fions-c07 | exact | fr.wikisource.org | In the same tale, when the meal was over, one of the little fions began to sing and the others repeated it. | Quand le repas fut fini, un des petits fions se mit à chanter ; les autres répétaient |
 
 
 ## firedrakes-in-english-folklore — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -223,14 +220,14 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | firedrakes-in-english-folklore-c03 | exact | en.wikipedia.org | Native drake (Old English draca), not French dragon; Beowulf, 8th–9th century. | The term firedrake utilizes the inherited indigenous form drake (Old English: draca ), instead of the more common French borrowing dragon (Old French: dragon ). The construction appears as early as Beowulf from the 8th to the 9th century |
 | firedrakes-in-english-folklore-c04 | exact | en.wikipedia.org | Shakespeare, Henry VIII: a red-nosed brazier called a firedrake. | Shakespeare in Henry VIII comically describes a tinker or brazier (who works with fire) as a red-nosed "firedrake" |
 | firedrakes-in-english-folklore-c05 | exact | ja.wikipedia.org | ja article: Beowulf's fire dragon (fyr draca) is a fire drake, a Germanic fire dragon. | 英雄詩『ベーオウルフ』の主人公が対峙する「火竜」（古英語: fyr draca）も、現代語でいえばファイアー・ドレイクであり、広義的にはゲルマン（チュートン人）全般のの火竜のことである |
+| firedrakes-in-english-folklore-c06 | exact | wehd.com | Murray's dictionary defines the fire-drake as a mythical creature belonging to Germanic superstition. | a mythical creature belonging to Germanic superstition. |
+| firedrakes-in-english-folklore-c07 | exact | wehd.com | The same dictionary lists a sense of fire-drake as a fiery meteor, citing W. Fulke, Meteors, on flying dragons that Englishmen call fire-drakes. | A fiery meteor. ... Flying Dragons, or as Englishmen call them, fire-Drakes, be caused in this manor. |
+| firedrakes-in-english-folklore-c08 | exact | wehd.com | The dictionary cites Gower, Conf., which says that sometimes it seems the fire-drake, and so the lewd people judge it. | Somtime the fire-drake it semeth, And so the lewde people it demeth. |
 
 
 ## gaillimh-inion-breasail — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -239,14 +236,13 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | gaillimh-inion-breasail-c03 | exact | en.wikipedia.org | Daughter of Breasail, a Fir Bolg chief; local river goddess like Boann (Gaelic). | She was said to be the daughter of a chief of the Fir Bolg, Breasail. It is now generally held that she was a tribal or local goddess of the river, much like other Gaelic deities such as Boann. |
 | gaillimh-inion-breasail-c04 | exact | en.wikipedia.org | Name means stony river; late Irish prehistory. | The etymology of the name is thought to translate, roughly, as stony river, and probably dates back to at least the late Irish pre-historic era. |
 | gaillimh-inion-breasail-c05 | exact | ga.wikipedia.org | ga article: mythical woman who named Galway city and river; daughter of Breasail, Fir Bolg chief. | Bean mhiotasach ab ea Gaillimh iníon Breasail as a ainmníodh cathair agus abhainn na Gaillimhe. Dúradh gurbh iníon cheannaire na bhFear Bolg, Breasail, í. |
+| gaillimh-inion-breasail-c06 | exact | archive.org | Hardiman writes that the old map of Galway states that a woman named Galva was drowned near a great rock in the river, and that from this circumstance the town originally took its name. | a woman, named Galva, was drowned, near a great rock, in the river, (which is delineated on the map,) and that from this circumstance the town originally took its name. |
+| gaillimh-inion-breasail-c07 | exact | archive.org | Hardiman himself regards the traditional report as weakly founded and the story attributing the name to the woman Gaillimh, or Galva, as fabulous in complexion. | we consider the weak foundation of traditional report, and the fabulous complexion of the story, attributing the name to the woman, Gaillimh, or Galva |
 
 
 ## galloway-puma — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -255,6 +251,8 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | galloway-puma-c03 | exact | en.wikipedia.org | Farmers and Forestry Commission workers saw a big black cat, mainly in the Machars. | After this, many people, specifically farmers and Forestry Commission workers, claimed to have seen a big black cat throughout the region, but mainly in the Machars area. |
 | galloway-puma-c04 | exact | en.wikipedia.org | June 2001, a woman near Newton Stewart golf course; a black cat bigger than an alsatian; fled when the dog barked. | In June 2001, a young lady walking her dog near Newton Stewart golf course, which lies on the edge of Galloway Forest, was left startled and shaken when what she described as a "large black cat, bigger than an alsatian", sprung out at her |
 | galloway-puma-c05 | exact | zh.wikipedia.org | zh article: December 2012, Alan Dalton and his wife Mandy saw a labrador-sized black cat at Newton Stewart. | 2012年12月，阿伦·多尔顿（Alan Dalton ）与妻子曼蒂（Mandy ）于牛顿斯图尔特看见一只拉布拉多般大小的黑色大猫。 |
+| galloway-puma-c06 | exact | www.mysteriousbritain.co.uk | According to a 2013 Galloway Gazette report, holidaymakers staying at Kirroughtee Hotel outside Newton Stewart had a close encounter with an elusive big cat, described as one of Galloway's best kept secrets. | Holidaymakers staying at Kirroughtee Hotel outside Newton Stewart had a close encounter with one of Galloway’s best kept secrets last Saturday morning – an elusive big cat. |
+| galloway-puma-c07 | exact | www.mysteriousbritain.co.uk | The same report says that in the past four years 20 big cat sightings had been reported to The Galloway Gazette. | In the past four years 20 big cat sightings have been reported to The Galloway Gazette. ... [The Galloway Gazette, 14/08/2013] |
 
 
 ## giants-welsh-folklore — lulus-otomatis
@@ -302,10 +300,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## lantern-man — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -314,6 +309,7 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | lantern-man-c03 | exact | en.wikipedia.org | A will-o'-the-wisp variant; now dismissed as marsh gas. | The phenomenon, which seems to be a variation of will-o'-the-wisp folklore, is now dismissed as sightings of combustible marsh gas. |
 | lantern-man-c04 | exact | en.wikipedia.org | A fisherman to Peter Underwood; a horn on a pole burnt up. | A local fisherman recounted to parapsychologist Peter Underwood how he had once thrown himself to the floor to escape the attention of a lantern man which had been drawn to his whistling. |
 | lantern-man-c05 | exact | zh.wikipedia.org | zh article: per L. F. Newman, the lights are evil spirits luring victims to the reeds. | 根据民俗学家 l.f. 纽曼收集的故事中， 这些怪火被认为是邪灵作祟，以试图吸引受害者前往芦苇丛。 |
+| lantern-man-c06 | exact | en.wikipedia.org | A man who had taken shelter at a friend's home was helped when the friend hung out a horn on a long pole to distract the spirit, and the following morning the horn was found burnt up. | The man had taken shelter at the home of a friend, who hung out a horn on a long pole to distract the spirit. The following morning the horn was found to have been burnt up. |
 
 
 ## li-ban-mermaid — lulus-otomatis
@@ -360,15 +356,16 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## muc-sheilche — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | muc-sheilche-c01 | exact | en.wikipedia.org | Muc-sheilche (Muc-sheilch), a lake monster of Scottish folklore in Loch Maree; means turtle-pig. | is a lake monster said to live in Loch Maree, and its neighbouring lochs. The term loosely translates as "turtle-pig." |
 | muc-sheilche-c02 | exact | ga.wikipedia.org | ga article (Irish muc thurtair): lives in Loch Ma-Ruibhe and nearby lochs. | Deirtear go bhfuil sí ina cónaí i Loch Ma-Ruibhe, agus sna lochanna sa cheantar máguaird. |
+| muc-sheilche-c03 | exact | en.wikipedia.org | Like Loch Ness and Loch Morar, Loch Maree is said to have its own monster in the form of the muc-sheilch. | Like Loch Ness and Loch Morar, Loch Maree has its own monster in the form of the muc-sheilch. |
+| muc-sheilche-c04 | exact | en.wikipedia.org | Loch Maree is a loch in Wester Ross in the Northwest Highlands of Scotland. | is a loch in Wester Ross in the Northwest Highlands of Scotland. |
+| muc-sheilche-c05 | exact | en.wikipedia.org | Loch Maree is the fourth-largest freshwater loch in Scotland and the largest north of Loch Ness. | it is the fourth-largest freshwater loch in Scotland; it is the largest north of Loch Ness. |
+| muc-sheilche-c06 | exact | en.wikipedia.org | Thomas Pennant, writing in 1772, recorded that the loch was considered a holy well whose waters were thought to have curative effects. | Thomas Pennant, writing in 1772, recorded that the loch was considered a holy well whose waters were thought to have curative effects |
 
 
 ## pillywiggin — lulus-otomatis
@@ -458,10 +455,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## treo-fall — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -470,6 +464,9 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | treo-fall-c03 | exact | en.wikipedia.org | A knife in the ground touched each round; wish granted; dancers often break kidneys; Paul Sébillot: small size. | The only way to escape is to stick a knife in the ground, then graze it at each dance circle. If the dancer succeeds in fulfilling this condition, the Tréo-Fall will grant his or her request, whatever it may be. |
 | treo-fall-c04 | exact | en.wikipedia.org | François-Marie Luzel and Françoise Morvan: a kind of Korrigan; the knife on Ouessant; night dancer (danseur de nuit); reward and punishment. | François-Marie Luzel and Françoise Morvan see the Tréo-Fall as a particular variety of Korrigans, linked to a local use of the knife on the island of Ouessant. |
 | treo-fall-c05 | exact | fr.wikipedia.org | fr article: Tréo-Fall (danserien-noz), lutin-like, Basse-Bretagne. | Les Tréo-Fall, également connus sous le nom de danserien-noz, sont des créatures du folklore populaire de la Basse-Bretagne, de type lutin. |
+| treo-fall-c06 | exact | fr.wikisource.org | Luzel writes that there are also the treo-fall, or evil spirits, called elsewhere ann danserienn noz, the night dancers. | Il y a encore les treo-fall ou mauvais esprits, appelés aussi ailleurs ann danserienn noz, les danseurs de nuit. |
+| treo-fall-c07 | exact | fr.wikisource.org | According to Luzel, they lead their fantastic rounds by moonlight on the seashore or atop the cliffs and invite passers-by to join in by promising treasures. | Ils mènent leurs rondes fantastiques, au clair de la lune, sur le rivage de la mer ou au haut des falaises, et invitent les passants à y prendre part en leur promettant des trésors. |
+| treo-fall-c08 | exact | fr.wikisource.org | The man who accepts must plant his knife in the ground, then follow the round, spinning as fast as a whirlwind, and graze the knife on each turn without ever passing it; otherwise his back is broken and he is left dying on the spot. | L’homme qui accepte doit planter son couteau en terre, puis, en suivant la ronde et en tournant avec la rapidité d’un tourbillon, il faut qu’il le rase à chaque tour, sans jamais le dépasser, autrement on lui rompt les reins et on le laisse mourant sur la place. |
 
 
 ## ysgithyrwyn — lulus-otomatis
@@ -503,24 +500,22 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## adhene — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | adhene-c01 | exact | en.wikipedia.org | Adhene, fairies of Manx tradition, Isle of Man; Cloan ny moyrn (Children of Pride); fallen angels. | In Manx tradition, fairies were called Adhene and known as Cloan ny moyrn , which means the Children of Pride/Ambition, because they were regarded as having been fallen angels cast from heaven but too good for hell. |
 | adhene-c02 | exact | en.wikipedia.org | Sometimes kind, mostly mischievous; take babies or wives; powerless over errands of mercy. | They could be benevolent but were mostly mischievous in association with humans, taking babies or wives when they wished, although it was believed that their powers were not effective over any human on an errand of mercy. |
 | adhene-c03 | exact | en.wikipedia.org | Child-sized; fish, herd cattle on hills; barrel-making in caves foretells good harvests. | About the size of a small child when visible, they fished at sea and herded their cattle on the hills. The Manx people knew there would be good fishing or harvests when they heard the fairies making storage barrels in the caves. |
+| adhene-c04 | exact | www.gutenberg.org | According to Moore, some Manx fairies are benevolent, curing men of diseases and delivering them from misfortune, while others are malevolent, stealing children, even abducting grown people, and bringing misfortune. | Some of them are benevolent, curing men of diseases and delivering them from misfortune. Others are malevolent, stealing children, even abducting grown people, and bringing misfortune. |
+| adhene-c05 | exact | www.gutenberg.org | Moore writes that they are partly human and partly spiritual in nature and are visible to men only when they choose. | They are partly human and partly spiritual in their nature, and are visible to men only when they choose. |
+| adhene-c06 | exact | www.gutenberg.org | Moore says they are called 'the little people' or 'the good people', the word Fairy never being mentioned because they are supposed not to like it. | they are called “the little people”, or “the good people”, the word Fairy being never mentioned, as they are supposed not to like it. |
+| adhene-c07 | exact | www.gutenberg.org | According to Moore, they live in green hill sides, especially favouring the ancient tumuli. | They live in green hill sides, more especially affecting the ancient tumuli. |
 
 
 ## ascapart — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -529,28 +524,29 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ascapart-c03 | exact | en.wikipedia.org | Betrayed Bevis, took Josiane; killed by Bevis's friends. | Later Ascapart betrayed Bevis and took his wife Josiane, who was imprisoned with Ascapart as her jailer. For this Ascapart was killed by Bevis' friends when they freed Josiane. |
 | ascapart-c04 | exact | en.wikipedia.org | Buried under Bevis Mount or became part of the South Downs. | Ascapart was supposedly buried under Bevis Mount, or his body became a part of the South Downs when he fell. |
 | ascapart-c05 | exact | en.wikipedia.org | Folklore of Hampshire and the New Forest; painted panels of Sir Bevis and Ascupart in the Southampton Bargate Monument Gallery. | Alongside the story of Bevis of Hampton, the giant appears in the local folklore of Hampshire and the New Forest; large medieval painted oak panels of Sir Bevis and Ascupart can be found in the Southampton Bargate Monument Gallery |
+| ascapart-c06 | exact | www.southdowns.gov.uk | According to the South Downs National Park page, Ascapart was small compared with the giants of his day and stood a mere 30 feet tall. | Ascapart was a small giants compared to those of his day and stood a mere 30 foot tall. |
+| ascapart-c07 | exact | www.southdowns.gov.uk | The same page says Ascapart was more than capable of terrifying the local villages around Southampton. | Nevertheless, Ascapart was more than capable of terrifying the local villages around Southampton. |
+| ascapart-c08 | exact | www.southdowns.gov.uk | Some say Ascapart lived only because Josain, Bevis's wife, persuaded Bevis to spare his life. | The only reason Ascapart lived, some say, was because Josain, Bevis’ wife persuaded Bevis to spare Ascapart’s life. |
+| ascapart-c09 | exact | www.southdowns.gov.uk | Some records recall that Ascapart did betray Bevis and kidnapped his wife, holding her prisoner; for that he met his death at the hands of Bevis's supporters, and where he fell his body became part of the Downs. | In a twist to the tale, some records recall that Ascapart did indeed betray Bevis and kidnapped Bevis’ wife holding her prisoner. For that Ascapart met his death at the hands of Bevis’ supporters and where he fell, his body became a part of the Downs. |
 
 
 ## bananach — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bananach-c01 | exact | en.wikipedia.org | Bánánach, preternatural beings of early Irish folklore, battlefield spectres; with the bócanach, geniti glinne, demna aeóir in the Táin Bó Cúalnge. | In early Irish folklore, the bánánach (Irish: [ˈbˠaːnˠaːnˠax], English: /ˈbɑːn.ɑːn.əx/) were preternatural beings, described as spectres which haunted battlefields. |
 | bananach-c02 | exact | en.wikipedia.org | Sent by the Tuatha Dé Danann to terrify Cú Chulainn's enemies. | In the Táin Bó Cúalnge, the bánánach, bócanach, and geniti glinne are sent by the Tuatha Dé Danann strike fear into Cú Chulainn's enimies, answering to his battle cry. |
 | bananach-c03 | exact | en.wikipedia.org | Personify battle sounds; warded off by the Dond Cúalnge. | They are linked with (and sometimes considered personifications of) the sounds of battle, being used as a way to describe the sound of weapons clashing. All three of these beings are warded off by the Dond Cúalnge, a legendary bull mentioned in the Táin Bó Cúalnge. |
+| bananach-c04 | exact | www.gutenberg.org | In Faraday's translation of the Táin Bó Cúailnge, when the hero uttered his shout, goblins, sprites, spectres of the glen and demons of the air answered for terror of the shout. | and he uttered his hero's shout from his throat, so that goblins and sprites and spectres of the glen and demons of the air answered, for the terror of the shout which they uttered on high. |
+| bananach-c05 | exact | www.gutenberg.org | The same translation says goblins, sprites, ghosts of the glen and demons of the air cried from something he wore, before, above and around him, wherever he went before shedding the blood of warriors and enemies. | For there used to cry from it equally goblins and sprites and ghosts of the glen and demons of the air, before and above and around, wherever he used to go before shedding the blood of warriors and enemies. |
+| bananach-c06 | exact | en.wikipedia.org | Wikipedia notes that the bánánach are mentioned alongside the bócanach ('goat-like battle spectre'), the geniti glinne ('female battle-spectre of the glen') and the demna aeóir ('demons of the air') in the Táin Bó Cúailnge. | They are mentioned alongside the bócanach, ... "goat-like battle spectre") the geniti glinne ... "female battle-spectre of the glen") , and the demna aeóir ... ,"demons of the air") in the Táin Bó Cúalnge. |
 
 
 ## beast-of-bont — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -558,14 +554,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | beast-of-bont-c02 | exact | cy.wikipedia.org | For 30 years police received reports of big cats like puma, panther, leopard, lynx; claw marks on sheep. | Ers 30 mlynedd mae’r heddlu wedi derbyn galwadau niferus yn son am olwg o gathod enfawr tebyg i bwma, panther, llewpard neu lyncs. |
 | beast-of-bont-c03 | exact | cy.wikipedia.org | An American, Tom Brown, came to Wales to investigate the Bwystfil. | Daeth Americanwr o’r enw Tom Brown i Gymru i astudio a chwilio am drywydd y 'Bwystfil'. |
 | beast-of-bont-c04 | exact | cy.wikipedia.org | A sheep's shoulder and leg torn off, the rest of the flock slept on. | Fodd bynnag, parhau i gysgu oedd gweddill y praidd. |
+| beast-of-bont-c05 | exact | cambrian-news.co.uk | According to the Cambrian News, in June 1981 twelve sheep were slaughtered by an unknown creature in the tiny village of Pontrhydfendigaid, known locally as Bont, west of the Cambrian Mountains range stretching across Ceredigion and Powys. | In June 1981, 12 sheep were slaughtered by an unknown creature in the tiny village of Pontrhydfendigaid - known locally as Bont - which sits to the west of the Cambrian Mountains range stretching across Ceredigion and Powys. |
+| beast-of-bont-c06 | exact | cambrian-news.co.uk | Veterinarians from the UK Ministry of Agriculture, as it was then, are said to have concluded that whatever had killed the livestock must have been a 'great deal more powerful than a fox or a dog'. | Veterinarians from the UK Ministry of Agriculture, as it was then, are said to have released findings that whatever had killed the livestock must have been a ‘great deal more powerful than a fox or a dog’. |
 
 
 ## biast-bhealach-odail — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -573,28 +568,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | biast-bhealach-odail-c02 | exact | en.wikipedia.org | Campbell (1902): sometimes the form of a man, a man with only one leg, a greyhound or beast prowling about; shrieks; at night. | Sometimes it bore the form of a man, sometimes of a man with only one leg. At other times it appeared like a greyhound or beast prowling about |
 | biast-bhealach-odail-c03 | exact | en.wikipedia.org | A victim dead with two wounds, side and leg; night travellers attacked. | One of its victims, according to legend, was found dead on the roadside pierced with two wounds, one on his side and one on his leg with a hand pressed on each wound. |
 | biast-bhealach-odail-c04 | exact | en.wikipedia.org | Attacks ceased; Katharine Briggs: ghost of a murdered man seeking revenge; Campbell. | He further mentions that the attacks ceased after the victim's body was found, which led the folklorist Katharine Briggs to suggest that the monster may have been the ghost of a murdered man looking for revenge. |
+| biast-bhealach-odail-c05 | exact | archive.org | Campbell writes that at the time the road was being made, the Pass was haunted by 'something' awful, the more awful because its character was not distinctly known. | At the time it was being made, the Pass was haunted by " something " awful — the more awful that its character was not distinctly known |
+| biast-bhealach-odail-c06 | exact | archive.org | According to Campbell, travellers through the Pass at night were often thrown down and hurt by it and with difficulty made their way to a place of safety. | Travellers through the Pass at night were often thrown down and hurt by it, and with difficulty made their way to a place of safety. |
+| biast-bhealach-odail-c07 | exact | archive.org | Campbell records that it ceased when a man was found dead at the roadside, pierced with two wounds. | It ceased when a man was found dead at the roadside, pierced with two wounds |
 
 
 ## brag-folklore — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | brag-folklore-c01 | exact | en.wikipedia.org | Brag, a shapeshifting goblin of Northumbrian folklore (Northumberland, Durham); horse or donkey; bucks riders into ponds. | A brag is a mischievous shapeshifting goblin in the folklore of Northumbria (Northumberland and Durham) and often takes the form of a horse or donkey. It is fond of letting unsuspecting humans ride on its back before bucking them off into a pond or bush and running away laughing. |
 | brag-folklore-c02 | exact | en.wikipedia.org | Picktree Brag: calf with white handkerchief, headless man, four men with a white sheet. | One notable example is the Picktree Brag that was said to take other unusual forms such as a calf with a white handkerchief around its neck, a naked headless man, and even four men holding a white sheet. |
 | brag-folklore-c03 | exact | en.wikipedia.org | The Humbleknowe brag unseen, hideous noises at night. | A brag at Humbleknowe was never seen but made hideous noises in the night. |
+| brag-folklore-c04 | exact | archive.org | According to Henderson, the Picktree Brag also appeared as a 'dick-ass', as four men holding up a white sheet, or as a naked man without a head. | Again it appeared as a " dick-ass," as four men holding up a white sheet, or as a naked man without a head. |
+| brag-folklore-c05 | exact | archive.org | In the tale Henderson records, a bold man returning from a christening met the Brag and leapt upon its back. | Once, in that very suit, returning from a christening, he encountered the Brag, and being a bold man, he leapt upon its back |
+| brag-folklore-c06 | exact | archive.org | In the same tale, at last the Brag threw him into the middle of the pond and ran away, setting up a great nicker and laugh, just like a Christian. | at last it threw him into the middle o' the pond, and ran away, setting up a great nicker and laugh, just for all the world like a Christian. |
 
 
 ## brown-man-of-the-muirs — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -603,14 +598,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | brown-man-of-the-muirs-c03 | exact | en.wikipedia.org | Rebuked the hunter; eats berries, nuts, apples; invited him home. | the stranger reproved the hunter for trespassing on his demesnes and slaying the creatures who were his subjects, and informed him how he himself lived only on whortleberries, nuts, and apples, he invited him home. |
 | brown-man-of-the-muirs-c04 | exact | en.wikipedia.org | Would have been torn apart if he crossed; died within the year. | It was thought that had the young man crossed the water the dwarf would have torn him to pieces. As it was he died within the year |
 | brown-man-of-the-muirs-c05 | exact | en.wikipedia.org | Walter Scott: related to the duergar of Northumberland. | Walter Scott in a return letter to Surtees suggested that the Brown Man may be related to the duergar (dwarfs) of Northumberland. |
+| brown-man-of-the-muirs-c06 | exact | archive.org | Henderson says the Brown Man of the Muirs tale comes from a letter from Surtees to Sir W. Scott, given in the memoir in vol. iv of Surtees's History of Durham, on the authority of an old dame named Elizabeth Cockburn. | In a letter from Mr. Surtees to Sir W. Scott, given in the memoir prefixed to vol. iv. of Surtees's History of Durham, we read, on the authority of an old dame named Elizabeth Cockburn |
+| brown-man-of-the-muirs-c07 | exact | archive.org | Henderson presents the Brown Man of the Muirs as a mysterious denizen of the wild moorlands, set beside the attendant sprites of Scottish homesteads. | If the Scottish homesteads have their attendant sprites, the wild moorlands are not without their mysterious denizens. |
+| brown-man-of-the-muirs-c08 | exact | en.wikipedia.org | In folklore the Brown Man appears as a solitary fairy, but in fairy tale literature he is a member of a tribe of similar beings. | In folklore the Brown Man appears as a solitary fairy, but in fairy tale literature he is a member of a tribe of similar beings. |
 
 
 ## bucca-mythological-creature — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -619,6 +614,8 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | bucca-mythological-creature-c03 | exact | en.wikipedia.org | Mentioned in Gwreans an bys (1611). | In 1611, in the Cornish language book Gwreans an bys known in English as The Creation of the World the Bucca is mentioned |
 | bucca-mythological-creature-c04 | exact | en.wikipedia.org | William Bottrell (1890): Bucka Gwidden (good), Bucka Dhu (evil); Newlyn and Mousehole fishermen left catch for Bucka. | I have been told, by persons of credit, that within the last forty years it was a usual practice with Newlyn and Mousehole fishermen to leave on the sand at night a portion of their catch for Bucka. |
 | bucca-mythological-creature-c05 | exact | en.wikipedia.org | Bucca Widn (white) and Bucca Dhu (black); Penzance: south-westerly storms called Bucca calling. | Bucca also seems to associated with the wind, in Penzance it was customary to refer to storms that emanated from a southwesterly direction as "Bucca calling"; sailors and fishermen also believe that Bucca's voice carried on the wind. |
+| bucca-mythological-creature-c06 | exact | archive.org | Robert Hunt writes that the Buccas or Knockers are the sprites of the mines and correspond to the Kobals of the German mines, the Duergars and the Trolls. | These are the sprites of the mines, and correspond to the Kobals of the German mines, the Duergars, and the Trolls. |
+| bucca-mythological-creature-c07 | exact | archive.org | According to Hunt, the buccas or knockers are believed to inhabit the rocks, caves, adits and wells of Cornwall. | THE buccas or knockers are believed to inhabit the rocks, caves, adits, and wells of Cornwall. |
 
 
 ## caoranach — lulus-otomatis
