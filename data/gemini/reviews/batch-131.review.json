@@ -1,8 +1,10 @@
 {
   "batch_id": "batch-131",
-  "checked_at": "2026-10-02T09:13:36.105Z",
+  "checked_at": "2026-10-07T04:29:59.408Z",
   "files": [
-    "batch-131.md"
+    "batch-131.md",
+    "batch-131-fix-1.md",
+    "batch-131-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -79,7 +81,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee930af94c739e0e738aca9e9d1c3176ed96e7ab90c1cbd5156e205c7019fbff"
     },
     {
       "slug": "ojancanu",
@@ -173,24 +176,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1936d5bae28e0cca6ff32d6bd4e3ee3b0ba7aa86f10e9557ddc1e41f54cc170f"
     },
     {
       "slug": "olanoiko-zakurra",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "c31a7f3874a221eab15ceb89dec512d0d9399f9915e04b0e0ad7296e9e2db002",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 7,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "olanoiko-zakurra-c01",
@@ -229,6 +228,36 @@
           "statement": "Zuzidun Txakurra, Olanoiko zakurra and Mirokutana are spirits of Basque mythology that look like dogs.",
           "statement_id": "Zuzidun Txakurra, Olanoiko zakurra, dan Mirokutana adalah roh mitologi Basque yang berwujud anjing.",
           "quote": "Zuzidun Txakurra, Olanoiko zakurra et Mirokutana sont des génies de la mythologie basque qui ont l'aspect d'un chien.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olanoiko-zakurra-c05",
+          "source_id": "olanoiko-zakurra-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to the French Wikipedia article, Olanoiko zakurra means 'the dog of Olanoi'.",
+          "statement_id": "Menurut artikel Wikipedia berbahasa Prancis, Olanoiko zakurra berarti \"anjing Olanoi\".",
+          "quote": "Olanoiko zakurra signifie « le chien d'Olanoi ».",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "olanoiko-zakurra-c06",
+          "source_id": "olanoiko-zakurra-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Besides appearing as dogs, the powers of these dog spirits (Zuzidun Txakurra, Olanoiko zakurra, Mirokutana) differ by place and legend; dogs entered Basque mythology especially since the advent of Christianity.",
+          "statement_id": "Selain tampil sebagai anjing, kekuatan roh-roh anjing ini (Zuzidun Txakurra, Olanoiko zakurra, Mirokutana) berbeda menurut tempat dan legenda; anjing masuk ke dalam mitologi Basque terutama sejak datangnya agama Kristen.",
+          "quote": "Outre le fait d'apparaitre comme des chiens, leurs pouvoirs diffèrent selon les lieux et les légendes. Les chiens ont été incorporés dans la mythologie basque, surtout depuis l'avènement du christianisme.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "olanoiko-zakurra-c07",
+          "source_id": "olanoiko-zakurra-s3",
+          "host": "eu.wikipedia.org",
+          "statement": "Olanoiko zakurra is one of the irelu (spirits) of Basque mythology and, like many others, is linked to caves.",
+          "statement_id": "Olanoiko zakurra adalah salah satu irelu (roh) dalam mitologi Basque yang, seperti banyak lainnya, terkait dengan gua.",
+          "quote": "Olanoiko zakurra Euskal Herriko mitologiaren irelu bat da, beste asko bezala leizezuloei lotuta.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -307,24 +336,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e98525bf6218e356e90669203e37d47b1d5a7f63f800ff4127411698f5f3bc34"
     },
     {
       "slug": "picolaton",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "31b9987823e029e179dbef289692f5dbbb7f55215dadaf9b0448e93a4aa7f0b4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "picolaton-c01",
@@ -340,9 +365,9 @@
           "id": "picolaton-c02",
           "source_id": "picolaton-s1",
           "host": "en.wikipedia.org",
-          "statement": "It is best known as a creature used to threaten lazy children, who are told the picolaton will nip their heels and buttocks if they do not hurry; it is thus akin to the bogeyman.",
-          "statement_id": "Ia terutama dikenal sebagai makhluk untuk menakuti anak malas: picolaton akan mematuk tumit dan bokong mereka bila tidak bergegas, sehingga ia mirip momok penakut anak.",
-          "quote": "It is best known as a creature used to threaten lazy children, by saying that the picolaton would nip their heels and buttocks if they did not hurry. It is thus akin to the bogeyman.",
+          "statement": "The picolaton is best known as a creature used to threaten lazy children, by saying it would nip their heels and buttocks if they did not hurry.",
+          "statement_id": "Picolaton paling dikenal sebagai makhluk untuk menakut-nakuti anak malas, dengan mengatakan bahwa picolaton akan mematuk tumit dan bokong mereka bila tidak bergegas.",
+          "quote": "It is best known as a creature used to threaten lazy children, by saying that the picolaton would nip their heels and buttocks if they did not hurry.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -350,9 +375,9 @@
           "id": "picolaton-c03",
           "source_id": "picolaton-s1",
           "host": "en.wikipedia.org",
-          "statement": "Especially irritating children are promised a visit to the bird's incredible nest around April Fool's Day if they are very good; it supposedly nests in thorn bushes.",
-          "statement_id": "Anak yang menjengkelkan dijanjikan kunjungan ke sarang luar biasa burung itu sekitar 1 April bila mereka sangat baik dan patuh; burung itu konon bersarang di semak berduri.",
-          "quote": "Particularly irritating children are promised a visit to the incredible nest of the fabulous bird around April Fool's Day, provided they are very good and obedient. It supposedly nests in thorn bushes.",
+          "statement": "Particularly irritating children are promised a visit to the fabulous bird's incredible nest around April Fool's Day, provided they are very good and obedient.",
+          "statement_id": "Anak yang sangat menjengkelkan dijanjikan kunjungan ke sarang luar biasa burung dongeng itu sekitar Hari April Mop, asalkan mereka sangat baik dan patuh.",
+          "quote": "Particularly irritating children are promised a visit to the incredible nest of the fabulous bird around April Fool's Day, provided they are very good and obedient.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -365,26 +390,41 @@
           "quote": "পিকোলাটন (এটি পিক-ও-মলে, কুইপারলিব্রেসন এবং কাকালাম্ব্রি নামেও পরিচিত) ফ্রঁশ-কমতে অঞ্চলের লোকবিশ্বাসে বিদ্যমান একটি কাল্পনিক পাখি।",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "picolaton-c05",
+          "source_id": "picolaton-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of this use, the picolaton is described as akin to the bogeyman.",
+          "statement_id": "Karena fungsi itu, picolaton disebut mirip dengan momok penakut anak (bogeyman).",
+          "quote": "It is thus akin to the bogeyman.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "picolaton-c06",
+          "source_id": "picolaton-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The picolaton supposedly nests in thorn bushes.",
+          "statement_id": "Konon picolaton bersarang di semak berduri.",
+          "quote": "It supposedly nests in thorn bushes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "rodea",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "62ee11021eb7afa10c16bd1d8636cb12484eb76b42f5c534b42a3070fcfc00ce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rodea-c01",
@@ -434,6 +474,46 @@
           "statement_id": "Artikel bahasa Basque juga menyebutnya teman bermain Persefone, putri dewi Demeter.",
           "quote": "Aldi berean, Demeter jainkosaren alaba zen Persefoneren jolas laguna ere bazen.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rodea-c06",
+          "source_id": "rodea-s4",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony (line 346 ff.), Rhodeia appears in the list of the daughters of Tethys and Okeanos, among Hippo, Klymene, Kallirhoe and Zeuxo.",
+          "statement_id": "Dalam Theogony Hesiodos (baris 346 dst.), Rhodeia termasuk dalam daftar putri Tethys dan Okeanos, di antara Hippo, Klymene, Kallirhoe, dan Zeuxo.",
+          "quote": "They are Peitho, Admete, Ianthe and Elektra, Doris and Prymno and Ourania like a goddess, Hippo and Klymene, Rhodeia and Kallirhoe, Zeuxo and Klytia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rodea-c07",
+          "source_id": "rodea-s4",
+          "host": "www.theoi.com",
+          "statement": "Hesiod says there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses.",
+          "statement_id": "Hesiodos menyebut ada tiga ribu putri Okeanos yang melangkah ringan, tersebar luas, anak-anak cemerlang di antara para dewi.",
+          "quote": "there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rodea-c08",
+          "source_id": "rodea-s4",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 2 to Demeter (line 415 ff.), Rhodea is named among the daughters of Okeanos who were playing in a lovely meadow.",
+          "statement_id": "Dalam Himne Homerik kedua untuk Demeter (baris 415 dst.), Rhodea disebut di antara putri-putri Okeanos yang bermain di padang rumput yang indah bersama Persefone.",
+          "quote": "were playing in a lovely meadow, Leukippe and Phaino and Elektra and Ianthe, Melita also and Iakhe with Rhodea and Kallirhoe",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rodea-c09",
+          "source_id": "rodea-s4",
+          "host": "www.theoi.com",
+          "statement": "According to the Theoi Project, the Okeanis Rhodeia is named 'of the roses' or 'rose-coloured' and was either an Anthousa flower-nymph, a Naias of a rose-draped spring, or a Nephele of the rose-tinged clouds of dawn.",
+          "statement_id": "Menurut Theoi Project, Okeanis Rhodeia bernama \"dari mawar\" atau \"berwarna mawar\" dan mungkin nimfa bunga (Anthousa), Naias dari mata air berselimut mawar, atau Nephele dari awan fajar berwarna kemerahan.",
+          "quote": "RHODEIA The Okeanis named \"of the roses\" or \"rose-coloured\" was either an Anthousa flower-nymphe, Naias of a rose-draped spring, or Nephele of the rose-tinged clouds of dawn.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -517,7 +597,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "db1970df9bae2f1b31873f9219688e1d3ca137b3dd626e852f3a0ae664ff5596"
     },
     {
       "slug": "rodos-jdahas",
@@ -601,24 +682,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d5d1dafd455e8e58eebaf00eaba1ef706696b235378d529c2460f2b3c8ec09be"
     },
     {
       "slug": "rompo",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "9b0e8dd3c5f74dafb2df98d36e05ccc4b041f8951e296101b913d93fc261efd6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rompo-c01",
@@ -668,6 +745,46 @@
           "statement_id": "Menurut artikel bahasa Hungaria, tubuh Rompo seperti kerangka, berkepala kelinci dan bertelinga manusia.",
           "quote": "Rompo egy mitológiai bestia, teste csontvázszerű, feje egy nyúlé, emberi fülekkel.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rompo-c06",
+          "source_id": "rompo-s4",
+          "host": "archive.org",
+          "statement": "In Boreman's book (1794 edition), the Rompo or Man-Eater is so called because he feeds upon dead men.",
+          "statement_id": "Dalam buku Boreman (edisi 1794), Rompo atau Pemakan Manusia dinamai demikian karena ia memakan orang mati.",
+          "quote": "A ROMPO, or Man-Eater, is so called, because he feeds upon dead men",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rompo-c07",
+          "source_id": "rompo-s4",
+          "host": "archive.org",
+          "statement": "Boreman writes that the Rompo keeps in the woods.",
+          "statement_id": "Boreman menulis bahwa Rompo berdiam di hutan.",
+          "quote": "He keeps in the woods. His body is long and",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rompo-c08",
+          "source_id": "rompo-s4",
+          "host": "archive.org",
+          "statement": "Boreman records that the Negroes say it does not fall on a body immediately upon finding it, but goes round it several times as if afraid to.",
+          "statement_id": "Boreman mencatat bahwa orang kulit hitam (\"the Negroes\") berkata ia tidak langsung menerkam begitu menemukan mayat, melainkan mengitarinya beberapa kali seolah takut.",
+          "quote": "that he does not immediately fall on, as soon as he has found the body, but goes round it several times, as if afraid to",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rompo-c09",
+          "source_id": "rompo-s4",
+          "host": "archive.org",
+          "statement": "According to Boreman, this creature is bred in India and Africa.",
+          "statement_id": "Menurut Boreman, makhluk ini berasal dari India dan Afrika.",
+          "quote": "This creature is bred in India and Africa.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -765,7 +882,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c2a4267aeebfb1459bce18dacd2264ced9069f76a6e528b0d3a6d03c27955d3"
     },
     {
       "slug": "scitalis",
@@ -849,7 +967,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7d1d6343d07a9000dde5b5ab6c7aa5ba80159796288131e0df228369a4252fa8"
     },
     {
       "slug": "trenti",
@@ -923,7 +1042,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8bbf047670c13495e1b793c5377b2fe5f36ee320ffa352696b1e1bb29e0522cd"
     },
     {
       "slug": "zuzidun-txakurra",
@@ -1017,7 +1137,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1e00cfb80e6d5bd513519ec1da11e195b13bcdf4794b64f229697bae00f3711"
     },
     {
       "slug": "ama-itsaso",
@@ -1036,7 +1157,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "c2052e73670beb871a9132850c80d420876ea41f89958c011f76f5191afd39ed"
     },
     {
       "slug": "ammuntadore",
@@ -1110,7 +1232,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "703dc21cdcf05d9a441da58edf71653b6defe9f63139da5d184be44d8fef34aa"
     },
     {
       "slug": "apennine-sibyl",
@@ -1184,24 +1307,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5ad3e0cde53091ab4d12aed7b3d2800cabe2c49417080bf9036159a53e407daf"
     },
     {
       "slug": "arganao",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "11d42a6b29891e0515e65296e2bcacb5c5497ffccdf2bfdbdedcea4254f8e677",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "arganao-c01",
@@ -1242,6 +1361,56 @@
           "quote": "Os arganões fazem parte da tradição oral regional, sendo que não existem documentos que registem as suas histórias antes do início do século XX.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "arganao-c05",
+          "source_id": "arganao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "There have been several cultural projects to revive the old tradition, which is presumed to be of pagan origin.",
+          "statement_id": "Ada berbagai proyek budaya untuk menghidupkan kembali tradisi lama ini, yang diduga berasal dari tradisi pagan.",
+          "quote": "Têm existido vários projectos culturais para a revitalização da antiga tradição, que se pressupõe ser de origem pagã",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "arganao-c06",
+          "source_id": "arganao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "According to the Portuguese article, a version wrongly spread that the four-legged figure in high relief on the tympanum of the Igreja Matriz de Melgaço represents an arganão.",
+          "statement_id": "Menurut artikel berbahasa Portugis, tersebar secara keliru anggapan bahwa sosok berkaki empat dalam relief tinggi di timpanon Igreja Matriz de Melgaço adalah gambaran arganão.",
+          "quote": "Dissiminou-se erroneamente a versão de que a figura quadrípede representada em alto-relevo no tímpano da Igreja Matriz de Melgaço seria a representação de um arganão",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "arganao-c07",
+          "source_id": "arganao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "According to Carlos Alberto Ferreira de Almeida's interpretation, the figure on the church relief is a 'fierce guard canid' or a wolf, not an arganão.",
+          "statement_id": "Menurut tafsiran Carlos Alberto Ferreira de Almeida, sosok pada relief gereja itu adalah \"canid penjaga yang garang\" atau serigala, bukan arganão.",
+          "quote": "Segundo a interpretação de Carlos Alberto Ferreira de Almeida, seria um \"feroz canídio de guarda\" ou um lobo",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "arganao-c08",
+          "source_id": "arganao-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "The arganões were the central figure of the ethnographic parade of the 'Melgaço em Festa' event in 2017.",
+          "statement_id": "Arganão menjadi tokoh utama arak-arakan etnografis pada acara \"Melgaço em Festa\" tahun 2017.",
+          "quote": "Os arganões foram a figura central do cortejo etnográfico do evento \"Melgaço em Festa\" em 2017.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "arganao-c09",
+          "source_id": "arganao-s3",
+          "host": "www.radiovaledominho.com",
+          "statement": "In April 2013 Rádio Vale do Minho reported that the theatre company 'Comédias do Minho' was presenting its latest work, 'Arganão', a street performance, in Monção to more than 730 pupils.",
+          "statement_id": "Pada April 2013 Rádio Vale do Minho melaporkan bahwa kelompok teater \"Comédias do Minho\" membawakan karya terbarunya, \"Arganão\", sebuah pertunjukan jalanan, di Monção untuk lebih dari 730 siswa.",
+          "quote": "Performance de rua “Arganão” apresentada para mais de 730 alunos 9 Abril, 2013 ... A companhia de teatro “Comédias do Minho” está em Monção para apresentar o seu mais recente trabalho – “Arganão” – uma performance de rua",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1263,24 +1432,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ef89a067d7950e2ab67600830ad1e2c607cde14dab9eb16872279488cd6947fc"
     },
     {
       "slug": "balaha",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "3061aa35d427475891157f56238bcb7490402a96676c204b692501f50ec518a7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "balaha-c01",
@@ -1331,26 +1496,91 @@
           "quote": "ពលាហ គឺជាសេះហោះក្នុងរឿងព្រេងនិទានព្រះពុទ្ធសាសនា និង រឿងព្រេងនិទាន ។",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "balaha-c06",
+          "source_id": "balaha-s3",
+          "host": "ancient-buddhist-texts.net",
+          "statement": "In the Valāhassajātaka (Ja 196) the Bodhisatta had come into the world as a flying horse, white all over, beaked like a crow, with hair like muñja grass, possessed of supernormal powers and able to fly through the air.",
+          "statement_id": "Dalam Valāhassajātaka (Ja 196) Bodhisatta lahir sebagai kuda terbang, putih seluruhnya, berparuh seperti gagak, berambut seperti rumput muñja, memiliki kekuatan adiduniawi dan mampu terbang di udara.",
+          "quote": "Now at that time, the Bodhisatta had come into the world as a flying horse ... white all over, and beaked like a crow, with hair like muñja grass ... possessed of Supernormal Powers, able to fly through the air.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c07",
+          "source_id": "balaha-s3",
+          "host": "ancient-buddhist-texts.net",
+          "statement": "According to the Jātaka, in the island of Ceylon there was a Yakkha town called Sirīsavatthu, peopled by Yakkhinis.",
+          "statement_id": "Menurut Jātaka ini, di pulau Ceylon ada kota Yakkha bernama Sirīsavatthu yang dihuni para Yakkhini.",
+          "quote": "In the past, there was in the island of Ceylon a Yakkha town called Sirīsavatthu, peopled by Yakkhinis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c08",
+          "source_id": "balaha-s3",
+          "host": "ancient-buddhist-texts.net",
+          "statement": "As he flew over Ceylon the horse thrice uttered human speech filled with mercy: 'Who wants to go home? Who wants to go home?'",
+          "statement_id": "Saat terbang melintasi Ceylon, kuda itu tiga kali berucap dengan suara manusia penuh welas asih: \"Siapa yang ingin pulang? Siapa yang ingin pulang?\"",
+          "quote": "As he passed on thus, he thrice uttered human speech filled with mercy, saying: “Who wants to go home? Who wants to go home?”",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c09",
+          "source_id": "balaha-s3",
+          "host": "ancient-buddhist-texts.net",
+          "statement": "The Bodhisatta conveyed all two hundred and fifty merchants, even those who stood saluting him, to their own country.",
+          "statement_id": "Bodhisatta membawa seluruh dua ratus lima puluh pedagang, termasuk yang berdiri memberi hormat, kembali ke negeri mereka sendiri.",
+          "quote": "Then the Bodhisatta took up even those who stood still saluting him, and conveyed all of them, even two hundred and fifty, to their own country",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c10",
+          "source_id": "balaha-s3",
+          "host": "ancient-buddhist-texts.net",
+          "statement": "At the close of the Jātaka the Teacher declares that the two hundred and fifty merchants who followed the horse's advice were the Buddha's followers, and that he himself was the horse.",
+          "statement_id": "Pada penutup Jātaka, sang Guru menyatakan bahwa dua ratus lima puluh pedagang itu adalah para pengikut Buddha, dan bahwa ia sendiri adalah kuda itu.",
+          "quote": "The Buddha’s followers were the two hundred and fifty who followed the advice of the horse, and I was the horse myself.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c11",
+          "source_id": "balaha-s4",
+          "host": "www.persee.fr",
+          "statement": "Victor Goloubew (1927) calls the flying-horse group Balâha the most remarkable of the sculptures found in the excavations at Nâk Pân, east of Práh Khan at Angkor.",
+          "statement_id": "Victor Goloubew (1927) menyebut kelompok arca kuda terbang Balâha sebagai yang paling mengesankan di antara arca yang ditemukan dalam penggalian Nâk Pân, di timur Práh Khan di Angkor.",
+          "quote": "Nâk Pân, à l'Est du Práh Khan d'Ankor, la plus remarquable est le groupe du cheval volant Balâha",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "balaha-c12",
+          "source_id": "balaha-s4",
+          "host": "www.persee.fr",
+          "statement": "According to Goloubew, the stone horse hastened toward the image in the temple cella, a material symbol of every being who, through multiple rebirths, aspires to deliverance.",
+          "statement_id": "Menurut Goloubew, kuda batu itu bergegas menuju arca di sel kuil, sebagai lambang material setiap makhluk yang, melalui kelahiran kembali yang berulang, mendambakan pembebasan.",
+          "quote": "C'est vers elle que le cheval de pierre hâtait sa course, symbole matériel de tout être qui, à travers ses renaissances multiples, aspire à la délivrance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bildur-aize",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "0b8fe5849352213cf62def05d9f1cd154fcf27dc330bc330badc9f0848b13e69",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bildur-aize-c01",
@@ -1391,26 +1621,51 @@
           "quote": "és un esperit o geni malèfic de la mitologia basca que causa malsons i de vegades oprimeix el pit dels dorments, semblantment a allò que fa Inguma.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bildur-aize-c05",
+          "source_id": "bildur-aize-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to the French article, Beldur aize means 'frightening wind' in Basque, from beldur 'fear', 'dread' and haize 'wind'.",
+          "statement_id": "Menurut artikel berbahasa Prancis, Beldur aize berarti \"angin yang menakutkan\" dalam bahasa Basque, dari beldur \"ketakutan\", \"kecemasan\" dan haize \"angin\".",
+          "quote": "Beldur aize signifie \"vent effrayant\" en basque. De beldur \"peur\", \"crainte\" et haize \"vent\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bildur-aize-c06",
+          "source_id": "bildur-aize-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to the French article, people also consider it useful to recite a certain prayer three times before going to bed.",
+          "statement_id": "Menurut artikel berbahasa Prancis, orang juga menganggap berguna untuk membacakan suatu doa tiga kali sebelum tidur.",
+          "quote": "De la même façon, les gens considèrent aussi qu'il est utile avant de se coucher de réciter cette prière à trois reprises",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bildur-aize-c07",
+          "source_id": "bildur-aize-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "According to the Catalan article, Bildur aize ('air of fear, terrifying wind' in Basque, from bildur 'fear' and haize 'wind, air') has variants such as Beldur aize.",
+          "statement_id": "Menurut artikel berbahasa Katalan, Bildur aize (\"udara ketakutan, angin yang menakutkan\" dalam bahasa Basque, dari bildur \"takut\" dan haize \"angin, udara\") memiliki varian seperti Beldur aize.",
+          "quote": "Bildur aize ('aire de por, vent terrorífic' en basc, de bildur 'por' i haize 'vent, aire'), amb variants del tipus Beldur aize",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "birao",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "46dc95d74b875dcdad6548f57b8548a3c836640651a753a96b21a5678edb0dfd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 9,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "birao-c01",
@@ -1459,6 +1714,46 @@
           "statement": "In Sara (Lapurdi) this kind of anathema is called birao and otoitzgaxto ('evil prayer'); by the magic power of adur it brings illness or misfortune on whoever is named, and only the one who cursed can cure it.",
           "statement_id": "Di Sara (Lapurdi) kutukan semacam ini disebut birao dan otoitzgaxto (\"doa jahat\"); berkat kekuatan magis adur, ia membawa penyakit atau celaka bagi yang namanya disebut, dan hanya orang yang mengutuk yang dapat menyembuhkannya.",
           "quote": "A Sara (Lapurdi), anomenen birao i otoitzgaxto ('prec, oració dolenta') aquesta mena d'anatema que, en virtut del poder màgic o adur, porta malaltia o desgràcia a la persona o animal anomenat en la maledicció. Només qui els ha maleït els pot guarir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "birao-c06",
+          "source_id": "birao-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "It was commonly said that the Birao caused people's deaths.",
+          "statement_id": "Dulu lazim dikatakan bahwa Birao menyebabkan kematian orang.",
+          "quote": "Il était courant de dire que le Birao entrainait la mort des personnes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "birao-c07",
+          "source_id": "birao-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "It is generally believed that curses cast by spirits always end up being fulfilled.",
+          "statement_id": "Pada umumnya dipercaya bahwa kutukan yang dilontarkan oleh para genius pada akhirnya selalu terwujud.",
+          "quote": "Les malédictions jetées par des génies finissent toujours par s'accomplir, c'est ce que l'on croit de façon générale.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "birao-c08",
+          "source_id": "birao-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to the French article, it is natural that in circles where the magical conception of the world is accepted, people believe that by acting on names one can influence the things themselves.",
+          "statement_id": "Menurut artikel berbahasa Prancis, wajar bila di kalangan yang menerima pandangan dunia magis orang percaya bahwa dengan memengaruhi nama, benda itu sendiri dapat dipengaruhi.",
+          "quote": "Il est naturel que dans les cercles où la conception magique du monde est acceptée, on croit qu'en agissant sur les noms il est possible d'influencer les choses elles-mêmes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "birao-c09",
+          "source_id": "birao-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The article tells of a young man from Andoain who quarrelled with a farmer from Ataun; on learning the farmer had lumbago, he told him he suffered from it because of the curse he had cast on him several times in those days.",
+          "statement_id": "Artikel itu menceritakan seorang pemuda dari Andoain yang bertengkar dengan petani dari Ataun; ketika mengetahui sang petani menderita lumbago, ia berkata bahwa itu akibat kutukan yang ia lontarkan beberapa kali pada hari-hari itu.",
+          "quote": "Un jeune homme venu d'Andoain s'est récemment disputé avec un fermier d'Ataun. Lorsqu'il a découvert qu'il souffrait d'un lumbago, il lui a dit: \"Tu en souffres à cause de la malédiction que je t'ai jetée à plusieurs reprises ces jours-ci.\"",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1557,24 +1852,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6e8deb1a49660e7e5cc8da4e0cc598748bd2f66d747a63c93ca4d467953247e4"
     },
     {
       "slug": "bubota",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "2fb432e73329f882c3033bf3668b81e4050377d5e55699809137e9dc955e694f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bubota-c01",
@@ -1625,17 +1916,68 @@
           "quote": "Mossèn Alcover recollí rondalles a les quals apareixen bubotes, com ara La bubota blanca de Consell, en la qual un llaurador poruc i ingenu és enganat per tres joves un dels quals es disfressa de bubota amb una camisa blanca de dona",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "bubota-c06",
+          "source_id": "bubota-s3",
+          "host": "dcvb.iec.cat",
+          "statement": "The Diccionari català-valencià-balear (DCVB) defines one sense of bubota as a ghost, a heavily covered figure that appears to frighten (marked Mall., Men.).",
+          "statement_id": "Diccionari català-valencià-balear (DCVB) mendefinisikan salah satu arti bubota sebagai hantu, sosok yang sangat tertutup yang muncul untuk menakut-nakuti (ditandai Mall., Men.).",
+          "quote": "Fantasma, figura molt tapada que s'apareix per fer por (Mall., Men.)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bubota-c07",
+          "source_id": "bubota-s3",
+          "host": "dcvb.iec.cat",
+          "statement": "The DCVB also records a sense of bubota as a dummy, a dressed figure imitating a man that is set upright or hung up to frighten animals or people (marked Val., Bal.).",
+          "statement_id": "DCVB juga mencatat arti bubota sebagai boneka, sosok berpakaian menyerupai laki-laki yang didirikan atau digantung untuk menakuti hewan atau orang (ditandai Val., Bal.).",
+          "quote": "Ninot, figura vestida imitant un home, que posen dreta o penjada per fer por als animals o a les persones (Val., Bal.)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bubota-c08",
+          "source_id": "bubota-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "According to the Catalan article, it is said in Andratx that there are many kinds of bubotes, though the best known and most feared are those that walk through the cemeteries.",
+          "statement_id": "Menurut artikel berbahasa Katalan, di Andratx dikatakan ada bubota dari banyak jenis, tetapi yang paling dikenal dan ditakuti adalah yang berjalan-jalan di pemakaman.",
+          "quote": "Diuen a Andratx que hi ha bubotes de molts tipus, encara que les més conegudes i temudes són les que passegen pels cementiris.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bubota-c09",
+          "source_id": "bubota-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "The article also mentions stories of smugglers who, in the Spanish post-war period, made pacts with bubotes so that they would drive off possible guards.",
+          "statement_id": "Artikel itu juga menyebut cerita tentang penyelundup pada masa pascaperang Spanyol yang membuat perjanjian dengan bubota agar mengusir kemungkinan penjaga.",
+          "quote": "També es contaven històries de contrabandistes que durant el temps de la postguerra espanyola feien pactes amb les bubotes per tal que foragitassin possibles guàrdies",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bubota-c10",
+          "source_id": "bubota-s2",
+          "host": "ca.wikipedia.org",
+          "statement": "According to the article, the Bubú, elsewhere in the Balearic Islands also known as Bubota Negra, is presented to children as an all-black doll to frighten them.",
+          "statement_id": "Menurut artikel itu, Bubú, di tempat lain di Kepulauan Balears juga dikenal sebagai Bubota Negra, digambarkan kepada anak-anak sebagai boneka serba hitam untuk menakuti mereka.",
+          "quote": "El Bubú, també conegut a altres indrets de les Balears com a Bubota Negra, és representat als infants com un ninot tot negre per tal de fer-los por.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "carcaman",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "e923d6cfa290511b27a79ddf3ce29a747213a3bc27e8b0014fe27bc87eb3aa39",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [
@@ -1643,11 +1985,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1700,34 +2037,79 @@
           "quote": "Outra hipótese sugere que o termo foi usado para descrever os contrabandistas da Arousa, especialmente durante os períodos de guerra e pós-guerra",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "carcaman-c06",
+          "source_id": "carcaman-s3",
+          "host": "ilg.usc.gal",
+          "statement": "The Real Academia Galega dictionary (1913-1928) records that sailors in Galicia call smugglers carcamáns.",
+          "statement_id": "Kamus Real Academia Galega (1913-1928) mencatat bahwa para pelaut di Galisia menyebut penyelundup dengan nama carcamán.",
+          "quote": "Los marineros, en Galicia , llaman así a los contrabandistas.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "carcaman-c07",
+          "source_id": "carcaman-s3",
+          "host": "ilg.usc.gal",
+          "statement": "The same dictionary, quoting Murguía, says the name is used in the Rías Bajas for those of the island of Arosa, because in 1826 Italian smugglers were masters of the place.",
+          "statement_id": "Kamus yang sama, mengutip Murguía, mengatakan bahwa di Rías Baixas nama itu dipakai untuk penduduk pulau Arosa, karena pada tahun 1826 penyelundup Italia menguasai pulau itu.",
+          "quote": "Llaman así en las Rías Bajas a los de la isla de Arosa . Viene esto de que el año 1826 estuvieron los contrabandistas italianos siendo dueños de aquello.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "carcaman-c08",
+          "source_id": "carcaman-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "According to the Portuguese article, Alfredo García Alén's catalogue records at the Museu de Pontevedra on the Arousa archaeological digs mention the Carcamáns as a race of giants usually linked in Galician mythology to the castro culture.",
+          "statement_id": "Menurut artikel berbahasa Portugis, dalam catatan katalog Alfredo García Alén dari Museu de Pontevedra tentang penggalian arkeologi Arousa, para Carcamáns disebut ras raksasa yang dalam mitologi Galisia biasanya dikaitkan dengan budaya castro.",
+          "quote": "menciona que os Carcamáns são uma raça de gigantes, geralmente ligados na mitologia galega à cultura castreja.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "carcaman-c09",
+          "source_id": "carcaman-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Dicionário de seres míticos galegos (Cuba, Reigosa, Miranda) says only that they are a 'race of mythical pirates of the island of Arousa'.",
+          "statement_id": "Dicionário dos seres míticos galegos (Cuba, Reigosa, Miranda) hanya menyebut mereka \"ras bajak laut mitis dari pulau Arousa\".",
+          "quote": "O Dicionário dos seres míticos galegos de Cuba, Reigosa e Miranda apenas diz que são uma “raça de piratas míticos da ilha de Arousa”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "carcaman-c10",
+          "source_id": "carcaman-s4",
+          "host": "www.manuelrivas.com",
+          "statement": "In Castelao's short piece, a woman under an enchantment is said to live in the 'cova dos carcamáns' (cave of the carcamáns) and to come and comb her hair early in the morning on the rocks by the shore.",
+          "statement_id": "Dalam kisah pendek Castelao, di \"cova dos carcamáns\" (gua para carcamán) konon tinggal seorang perempuan terpesona yang datang menyisir rambut pagi-pagi di batu-batu tepi laut.",
+          "quote": "vive —según contan— unha dona encantada que vén a peitearse de mañán cedo nas pedras da beiramar",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "carmenco",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "a6039a8cefab56b6e86f9420f6d351f8c0921064522f22741004d1f0f1c3365b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "carmenco-c01",
           "source_id": "carmenco-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The carmençó is a spirit of Catalan mythology that roams mountain meadows, black as soot and woolly from head to toe; it settles in shepherds' huts when they are unused, mainly in winter, keeping them from collapsing.",
-          "statement_id": "Carmençó adalah roh mitologi Katalan yang berkeliaran di padang gunung, hitam seperti jelaga dan berbulu dari kepala sampai kaki; ia menempati pondok gembala saat tidak dipakai, terutama di musim dingin, dan menjaganya agar tidak roboh.",
-          "quote": "El carmençó és un geni de la mitologia catalana, que ronda pels prats de muntanya, negre com el sutge i llanut de cap a peus. S'instal·la a les cabanes dels pastors quan aquests no les fan servir, principalment a l'hivern, evitant que s'esfondrin.",
+          "statement": "The carmençó is a spirit (geni) of Catalan mythology that roams mountain meadows, black as soot and woolly from head to toe.",
+          "statement_id": "Carmençó adalah roh (geni) mitologi Katalan yang berkeliaran di padang rumput gunung, hitam seperti jelaga dan berbulu wol dari kepala sampai kaki.",
+          "quote": "El carmençó és un geni de la mitologia catalana, que ronda pels prats de muntanya, negre com el sutge i llanut de cap a peus.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1735,9 +2117,9 @@
           "id": "carmenco-c02",
           "source_id": "carmenco-s1",
           "host": "ca.wikipedia.org",
-          "statement": "It is both feared and respected by the old shepherds of the Empordà, since seeing it brings many years of misfortune; so when they come up from the lowlands they sling seven stones to drive it from the hut.",
-          "statement_id": "Ia ditakuti sekaligus dihormati para gembala tua Empordà, karena melihatnya membawa bertahun-tahun kemalangan; karena itu saat naik dari dataran rendah mereka melempar tujuh batu dengan ketapel untuk mengusirnya dari pondok.",
-          "quote": "És un ésser temut i respectat alhora pels vells pastors empordanesos, perquè veure'l comporta molts anys de desgràcia. És per aquest motiu que, quan pugen de terra baixa, llencen set pedrades amb la fona per foragitar-lo de la cabana.",
+          "statement": "It is both feared and respected by the old shepherds of the Empordà, since seeing it brings many years of misfortune.",
+          "statement_id": "Ia ditakuti sekaligus dihormati para gembala tua Empordà, karena melihatnya membawa bertahun-tahun kemalangan.",
+          "quote": "És un ésser temut i respectat alhora pels vells pastors empordanesos, perquè veure'l comporta molts anys de desgràcia.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1748,6 +2130,36 @@
           "statement": "The Basque article also notes it is feared and respected by the old shepherds of the Empordà because it brings years of misfortune.",
           "statement_id": "Artikel bahasa Basque juga mencatat bahwa ia ditakuti dan dihormati para gembala tua Empordà karena membawa bertahun-tahun kemalangan.",
           "quote": "Empordàko artzain zaharrek aldi berean beldurtzen eta errespetatzen duten izaki bat da, urte askotako zorigaitza baitakar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carmenco-c04",
+          "source_id": "carmenco-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "It settles in the shepherds' huts when they are not in use, mainly in winter, keeping them from collapsing.",
+          "statement_id": "Ia menempati pondok-pondok gembala saat tidak dipakai, terutama di musim dingin, sehingga pondok itu tidak roboh.",
+          "quote": "S'instal·la a les cabanes dels pastors quan aquests no les fan servir, principalment a l'hivern, evitant que s'esfondrin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carmenco-c05",
+          "source_id": "carmenco-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "For this reason, when they come up from the lowlands, the shepherds sling seven stones to drive it out of the hut.",
+          "statement_id": "Karena itu, ketika naik dari dataran rendah, para gembala melemparkan tujuh batu dengan ketapel untuk mengusirnya dari pondok.",
+          "quote": "És per aquest motiu que, quan pugen de terra baixa, llencen set pedrades amb la fona per foragitar-lo de la cabana.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carmenco-c06",
+          "source_id": "carmenco-s2",
+          "host": "eu.wikipedia.org",
+          "statement": "According to the Basque article, Carmenço is a genius of Catalan mythology that roams mountain meadows, black as soot and hairy from foot to head.",
+          "statement_id": "Menurut artikel berbahasa Basque, Carmenço adalah genius mitologi Katalan yang berkeliaran di padang rumput gunung, hitam seperti jelaga dan berbulu dari kaki sampai kepala.",
+          "quote": "Carmenço mitologia katalaneko jenio bat da, mendiko belardietan ibiltzen dena, kedarra bezain beltza eta iletsua, oinetik burura.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1826,7 +2238,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee307f17668de073722d70fbdd08ca55ce0ebc7466325e3f21f019e23531effa"
     },
     {
       "slug": "coulobre",
@@ -1910,24 +2323,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8e92bce794a91ef37ad093e39f22559c63fe0c22147127b5ee62ddfa89373efd"
     },
     {
       "slug": "dipsa",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "e4dcc2a7ca71ca89e5f1c4884d8f7d5687e760107fccc2c98982998ac6459fc2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dipsa-c01",
@@ -1948,26 +2357,71 @@
           "quote": "La dipsa è un minuscolo serpente estremamente velenoso diffuso nei bestiari medievali.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "dipsa-c03",
+          "source_id": "dipsa-s3",
+          "host": "bestiary.ca",
+          "statement": "Isidore of Seville (Etymologies 12.4.13) calls the dipsas a kind of asp, called situla in Latin because anyone bitten by it dies of thirst.",
+          "statement_id": "Isidorus dari Sevilla (Etymologies 12.4.13) menyebut dipsas sebagai sejenis ular asp yang dalam bahasa Latin disebut situla karena siapa pun yang digigitnya mati kehausan.",
+          "quote": "Isidore of Seville [7th century CE] (Etymologies, Book 12, 4.13; 12, 4.32): [Book 12, 4.13] The dipsas is a kind of asp, called situla in Latin because anyone bitten by it dies of thirst.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dipsa-c04",
+          "source_id": "dipsa-s3",
+          "host": "bestiary.ca",
+          "statement": "Isidore (Etymologies 12.4.32) writes that the dipsas is said to be a snake so tiny that it is not noticed when stepped on; its venom kills before it is felt, so the face of one about to die shows no horror of his impending death.",
+          "statement_id": "Isidorus (Etymologies 12.4.32) menulis bahwa dipsas konon ular yang begitu kecil sehingga tak terlihat saat terinjak; bisanya membunuh sebelum terasa, sehingga wajah orang yang akan mati tidak memperlihatkan kengerian akan kematiannya.",
+          "quote": "Isidore of Seville [7th century CE] ... [Book 12, 4:32] The dipsas is said to be a snake so tiny that when it is stepped on it is not observed. Its venom kills before it is felt, so that the face of one about to die displays no horror of his impending death.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dipsa-c05",
+          "source_id": "dipsa-s3",
+          "host": "bestiary.ca",
+          "statement": "Aelian (On the Characteristics of Animals 6.51) writes that the name Dipsas [thirst-provoker] declares what it does: it is smaller than the viper but kills more swiftly, for persons who chance to be bitten burn with thirst.",
+          "statement_id": "Aelianus (On the Characteristics of Animals 6.51) menulis bahwa nama Dipsas [pemicu rasa haus] menyatakan sifatnya: ia lebih kecil daripada ular beludak tetapi membunuh lebih cepat, karena orang yang kebetulan digigit terbakar oleh rasa haus.",
+          "quote": "Aelianus [170-230 CE] (On the Characteristics of Animals, Book 6, 51): The name of the Dipsas [thirst-provoker] declares to us what it does. It is smaller than the viper, but kills more swiftly, for persons who chance to be bitten burn with thirst",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dipsa-c06",
+          "source_id": "dipsa-s3",
+          "host": "bestiary.ca",
+          "statement": "Gerald of Wales (Topographia Hibernica, distinction 1, chapter 26) mentions the dipsa as a small species of snake whose venom destroys life before it is perceived and is so powerful that its bite causes death before any pain is felt.",
+          "statement_id": "Gerald dari Wales (Topographia Hibernica, distinctio 1, bab 26) menyebut dipsa sebagai ular kecil yang bisanya menghancurkan nyawa sebelum disadari dan begitu kuat sehingga gigitannya menyebabkan kematian sebelum rasa sakit terasa.",
+          "quote": "Gerald of Wales [c. 1146 – c. 1223] (Topographia Hibernica, Distinction 1, chapter 26): There is also the dipsa, a small species of snake, whose venom destroys life before it is even perceived, and is so powerful that its bite occasions death before any pain is felt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "dipsa-c07",
+          "source_id": "dipsa-s3",
+          "host": "bestiary.ca",
+          "statement": "In Lucan's Pharsalia (book 9), Aulus of Tyrrhenia, a standard-bearer, trod on a dipsas; the serpent struck with its head reversed, and no pang betrayed the tooth.",
+          "statement_id": "Dalam Pharsalia karya Lucan (buku 9), Aulus dari Tyrrhenia, pembawa panji, menginjak seekor dipsas; ular itu menyambar dengan kepala terbalik dan tak ada rasa sakit yang mengkhianati gigitan itu.",
+          "quote": "Lucan [1st century CE] (Pharsalia, book 9, verse 821-841): Tyrrhenian Aulus, bearer of a flag, / Trod on a dipsas ; quick with head reversed / The serpent struck ; no pang betrayed the tooth",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "europa-q3060724",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "e2e7ea4b4c1ee4a705eb233e3f04acba0df5555d17c4273193ed0ada664f51a8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "europa-q3060724-c01",
@@ -2008,26 +2462,51 @@
           "quote": "Hervez Theogonia Hesiodos eo ganti e vez degaset glav war zouar Europa, ar c'hevandir.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "europa-q3060724-c05",
+          "source_id": "europa-q3060724-s3",
+          "host": "www.theoi.com",
+          "statement": "The Theoi Project describes Europe (Europa) as the Okeanis nymph of the continent of Europe, with a sister named Asia.",
+          "statement_id": "Theoi Project menyebut Europe (Europa) sebagai nimfa Okeanis dari benua Eropa, dengan saudarinya bernama Asia.",
+          "quote": "EUROPE (Europa) The Okeanis Nymphe of the continent of Europe. Her sister was Asia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "europa-q3060724-c06",
+          "source_id": "europa-q3060724-s3",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony (line 346 ff.), Europa is named in the list of the daughters of Tethys and Okeanos, among Menestho, Metis, Eurynome and Asia.",
+          "statement_id": "Dalam Theogony Hesiodos (baris 346 dst.), Europa disebut dalam daftar putri Tethys dan Okeanos, di antara Menestho, Metis, Eurynome, dan Asia.",
+          "quote": "Perseis and Ianeira, Petraie the lovely, and Menestho, and Europa, Metis and Eurynome, Telesto robed in saffron, Khryseis, and Asia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "europa-q3060724-c07",
+          "source_id": "europa-q3060724-s3",
+          "host": "www.theoi.com",
+          "statement": "Hesiod says there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses.",
+          "statement_id": "Hesiodos menyebut ada tiga ribu putri Okeanos yang melangkah ringan, tersebar luas, anak-anak cemerlang di antara para dewi.",
+          "quote": "there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "facanito",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "b801d2ed02c748a49ee831bc8fbc3a50769aa4eb3b73f2eed86bbfeda9d97c03",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "facanito-c01",
@@ -2066,6 +2545,36 @@
           "statement": "The careto tradition is thought to have Celtic, pre-Roman roots.",
           "statement_id": "Tradisi careto diduga berakar pada budaya Kelt pra-Romawi.",
           "quote": "Pensa-se que la tradiçon de ls caretos tenga raízes célticas, de la era pré-romana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "facanito-c05",
+          "source_id": "facanito-s2",
+          "host": "mwl.wikipedia.org",
+          "statement": "According to the Mirandese article, the facanito or facanico is a child masked as a careto who tries to imitate the caretos at their festivals.",
+          "statement_id": "Menurut artikel berbahasa Mirandés, facanito atau facanico adalah seorang anak yang mengenakan topeng careto dan berusaha meniru para careto dalam pesta mereka.",
+          "quote": "L facanito ó facanico ye un nino maçcarado de careto, que tenta eimitar ls caretos nas sues fiestas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "facanito-c06",
+          "source_id": "facanito-s3",
+          "host": "www.rtp.pt",
+          "statement": "According to the Lusa/RTP report, the procession is completed by the 'facanitos', the smallest children of the village, masked as mafarricos (little devils), accompanying the adults, performing their own initiation ritual and ensuring the continuity of the tradition.",
+          "statement_id": "Menurut laporan Lusa/RTP, arak-arakan dilengkapi \"facanitos\", yaitu anak-anak terkecil di desa yang bertopeng mafarrico (iblis kecil), menyertai orang dewasa, menjalani ritual inisiasi mereka sendiri dan menjamin kesinambungan tradisi.",
+          "quote": "O cortejo completa-se com os \"facanitos\", ou seja os mais pequenos da aldeia que, mascarados de mafarricos, acompanham os adultos, cumprindo o seu próprio ritual de iniciação e garantindo a continuidade da tradição.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "facanito-c07",
+          "source_id": "facanito-s3",
+          "host": "www.rtp.pt",
+          "statement": "According to oral-literature researcher Alexandre Parafita, speaking to Lusa, the 'diabolical' parades of caretos, matrafonas and facanitos are among the most genuine Entrudo (carnival) traditions in Trás-os-Montes.",
+          "statement_id": "Menurut peneliti sastra lisan Alexandre Parafita kepada Lusa, arak-arakan \"diabolis\" para caretos, matrafonas, dan facanitos termasuk tradisi Entrudo (karnaval) yang paling asli di Trás-os-Montes.",
+          "quote": "Os desfiles diabólicos de \"caretos\", \"matrafonas\" e \"facanitos\", as \"pulhas casamenteiras\" e as \"leituras de testamentos\" ou \"papeladas\", representam o mais genuíno das tradições do Entrudo em Trás-os-Montes, disse hoje à Lusa o investigador de literatura oral Alexandre Parafita.",
           "context": "scholarly-interpretation",
           "status": "exact"
         }
@@ -2154,24 +2663,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f592263abcf3f55f23743a6f3025ebc96a501296939dd687504378be8ba08775"
     },
     {
       "slug": "forest-bull",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-1.md",
+      "entry_sha256": "789d0c340d09ec89a7dd5250b1411d0d7692e6ac0b41a00b35f139a9ed7041b5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "forest-bull-c01",
@@ -2222,26 +2727,81 @@
           "quote": "Mogelijk is dit dier gebaseerd op reisverslagen die de Afrikaanse buffel beschreven.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "forest-bull-c06",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "According to the Theoi Project, the Tauros Aithiopikos (Ethiopian Bull) was a ferocious breed of carnivorous bull native to Aithiopia (Ethiopia) in sub-Saharan Africa, with a thick red hide impervious to weapons.",
+          "statement_id": "Menurut Theoi Project, Tauros Aithiopikos (Banteng Etiopia) adalah jenis banteng buas pemakan daging asal Aithiopia (Etiopia) di Afrika sub-Sahara, dengan kulit merah tebal yang kebal senjata.",
+          "quote": "THE TAUROS AITHIOPIKOS (Ethiopian Bull) was a ferocious breed of carnivorous bull native to Aithiopia (Ethiopia) in sub-Saharan Africa. Its thick, red hide was impervious to weapons.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "forest-bull-c07",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "Pliny the Elder (Natural History 8.74) calls the Forest Bulls (Tauri Silvestres) the fiercest animals of Ethiopia: larger than field bulls, surpassing all in speed, tawny, blue-eyed, with backward-turned hair, mouth gaping to the ears and mobile horns, their hide as hard as flint and rejecting every wound.",
+          "statement_id": "Plinius Tua (Natural History 8.74) menyebut Banteng Hutan (Tauri Silvestres) sebagai hewan paling buas di Etiopia: lebih besar daripada banteng ladang, melampaui semua dalam kecepatan, berwarna cokelat kekuningan, bermata biru, berbulu mengarah ke belakang, bermulut menganga sampai telinga dan bertanduk yang dapat digerakkan; kulitnya sekeras batu api dan menolak setiap luka.",
+          "quote": "But its fiercest animals are the Forest Bulls (Tauri Silvestres), larger than the bulls of the field, surpassing all in speed, of a tawny colour, with blue eyes, hair turned backward, mouth gaping open to the ears, along with mobile horns; the hide has the hardness of flint, rejecting every wound.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "forest-bull-c08",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Pliny the Elder, they hunt all wild animals but can themselves only be caught in pits, and when caught always die game.",
+          "statement_id": "Menurut Plinius Tua, banteng-banteng itu memburu semua hewan liar, tetapi sendiri hanya dapat ditangkap dalam lubang jebakan, dan bila tertangkap selalu mati dengan gagah.",
+          "quote": "They hunt all wild animals, but themselves can only be caught in pits, and when caught always die game.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "forest-bull-c09",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Aelian (On Animals 17.45), their hair is red and their eyes blue-grey, more so than the eyes of lions.",
+          "statement_id": "Menurut Aelianus (On Animals 17.45), bulu mereka merah dan mata mereka abu-abu kebiruan, lebih daripada mata singa.",
+          "quote": "Their hair is red, their eyes blue-grey, more so than the eyes of lions.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "forest-bull-c10",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Aelian, among the Troglodytoi (cave-dwellers) this animal is judged the king of beasts, for it has the courage of a lion, the speed of a horse, the strength of a bull and is stronger than iron.",
+          "statement_id": "Menurut Aelianus, di kalangan Troglodytoi (penghuni gua) hewan ini dianggap raja binatang, karena memiliki keberanian singa, kecepatan kuda, kekuatan banteng, dan lebih kuat daripada besi.",
+          "quote": "Among the Troglodytoi (Troglodytes, Cave-Dwellers) this is judged to be the king of beasts, and rightly so, for it possesses the courage of a lion, the speed of a horse, the strength of a bull, and is stronger than iron.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "forest-bull-c11",
+          "source_id": "forest-bull-s3",
+          "host": "www.theoi.com",
+          "statement": "According to the Theoi Project, the bull was probably derived from ancient travellers' accounts of the African buffalo.",
+          "statement_id": "Menurut Theoi Project, banteng ini kemungkinan besar berasal dari catatan para pelancong kuno tentang kerbau Afrika.",
+          "quote": "The bull was probably derived from ancient travellers' accounts of the African buffalo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ga-gorib",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "d2ace046cc2141d4a5b7301fe83b0c320e200bd2592047bf34c792fb84945a75",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ga-gorib-c01",
@@ -2280,6 +2840,36 @@
           "statement": "According to the Finnish article, Heitsi-Eibib waited until the monster looked away, then threw a stone that hit it under the ear and pushed it into the pit.",
           "statement_id": "Menurut artikel bahasa Finlandia, Heitsi-Eibib menunggu sampai monster itu memalingkan pandangan, lalu melempar batu yang mengenai bawah telinganya dan mendorongnya ke dalam lubang.",
           "quote": "Ga-goribin kukisti lopulta sankari Heitsi-Ebib, joka malttoi odottaa ja heittää kiven vasta sitten, kun hirviö oli kääntänyt katseensa pois. Hän osui Ga-goribia korvan alle ja työnsi hänet alas kuoppaan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ga-gorib-c05",
+          "source_id": "ga-gorib-s3",
+          "host": "archive.org",
+          "statement": "In the version recorded by Theophilus Hahn, all the people who passed ǂGama-ǂgorib's place were thrown by him into the hole and so perished.",
+          "statement_id": "Dalam versi yang dicatat Theophilus Hahn, semua orang yang melewati tempat ǂGama-ǂgorib dilemparkannya ke dalam lubang dan binasa.",
+          "quote": "all the people who passed this place were thrown by ... into this hole, and so they perished.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ga-gorib-c06",
+          "source_id": "ga-gorib-s3",
+          "host": "archive.org",
+          "statement": "According to Hahn, Heitsi-eibib was first thrown into the hole, but spoke to it, 'Hole of my ancestors, heave up your bottom a little, and give me a lift, that I can jump out'; the hole obeyed and he jumped out.",
+          "statement_id": "Menurut Hahn, Heitsi-eibib pertama-tama dilemparkan ke dalam lubang, tetapi berkata kepada lubang itu, \"Lubang leluhurku, angkatlah dasarmu sedikit dan beri aku dorongan agar aku dapat melompat keluar\"; lubang itu menurut dan ia melompat keluar.",
+          "quote": "And first Heitsi-eibib was thrown into the hole. But he spoke to the hole, and said : \" Hole of my ancestors, heave up your bottom a little, and give me a lift, that I can jump out.\" The hole obeyed, and Heitsi-eibib jumped out",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ga-gorib-c07",
+          "source_id": "ga-gorib-s3",
+          "host": "archive.org",
+          "statement": "In the third match, according to Hahn, Heitsi-eibib pitched his opponent into the hole by giving him a dead blow behind the ear.",
+          "statement_id": "Dalam pertandingan ketiga, menurut Hahn, Heitsi-eibib melemparkan lawannya ke dalam lubang dengan pukulan mematikan di belakang telinga.",
+          "quote": "And they played a third match, and Heitsi-eibib pitched ... into the hole, by giving him a dead blow behind the ear",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2368,7 +2958,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ca4341ce04158fa2a573c5e71c61e4a17167b939b0e8aa3f94eefab46ca4bea5"
     },
     {
       "slug": "gigiatt",
@@ -2442,7 +3033,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31591b84a9be41841108efceb43fac50024149d0a102fdb9133c03cb9819304d"
     },
     {
       "slug": "hada",
@@ -2516,24 +3108,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "74a4eebc5eb9f0e45ccbf29df3d37be8d34a2ebf3f4b93fa5c12793c754fa4e0"
     },
     {
       "slug": "hypnalis",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "e37d217c09f0f5ab88a8ace9c6c02cd901f9dbdb6cd81c112c95683aec0a22dd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hypnalis-c01",
@@ -2582,6 +3170,36 @@
           "statement": "Boccaccio too names the ipnale explicitly in his commentary on the Divine Comedy when discussing this episode.",
           "statement_id": "Boccaccio juga menyebut ipnale secara eksplisit dalam komentarnya tentang Divina Commedia saat membahas peristiwa itu.",
           "quote": "Anche Boccaccio, nel suo commento alla Divina commedia, richiama esplicitamente l'ipnale nel riferirsi a questo episodio.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hypnalis-c06",
+          "source_id": "hypnalis-s2",
+          "host": "bestiary.ca",
+          "statement": "The Medieval Bestiary lists the hypnalis or ypnalis as a variety of asp that kills by sending its victim to sleep; it was this snake that Cleopatra applied to herself.",
+          "statement_id": "The Medieval Bestiary mendaftar hypnalis atau ypnalis sebagai salah satu jenis asp yang membunuh dengan menidurkan korbannya; inilah ular yang dipakai Cleopatra pada dirinya sendiri.",
+          "quote": "Hypnalis or ypnalis: kills by sending its victim to sleep. It was this snake that Cleopatra applied to herself",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hypnalis-c07",
+          "source_id": "hypnalis-s3",
+          "host": "bestiary.ca",
+          "statement": "Isidore of Seville (Etymologies 12.4:14) writes that the hypnalis, a type of asp, is so called because it kills by means of sleep; Cleopatra held this snake to herself and was overcome by death as if by sleep.",
+          "statement_id": "Isidorus dari Sevilla (Etymologies 12.4:14) menulis bahwa hypnalis, sejenis asp, dinamai demikian karena membunuh melalui tidur; Cleopatra memegang ular ini pada dirinya dan mati seolah-olah dalam tidur.",
+          "quote": "Isidore of Seville [7th century CE] (Etymologies, Book 12, 4:12-16) ... [Book 12, 4:14] The hypnalis, a type of asp, is so called because it kills by means of sleep. Cleopatra held this snake to herself and thus was overcome by death as if by sleep.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hypnalis-c08",
+          "source_id": "hypnalis-s3",
+          "host": "bestiary.ca",
+          "statement": "Solinus (De mirabilibus mundi 27.31) writes that the hypnale kills with sleep, and that this last, as Cleopatra may bear witness, was purchased for death.",
+          "statement_id": "Solinus (De mirabilibus mundi 27.31) menulis bahwa hypnale membunuh dengan tidur, dan bahwa ular ini, sebagaimana dapat disaksikan Cleopatra, dibeli untuk kematian.",
+          "quote": "Gaius Julius Solinus [3rd century CE] (De mirabilibus mundi / Polyhistor, Chapter 27.31-32, 34) ... the hypnale kills with sleep. This last is even -- as Cleopatra may bear witness -- purchased for death.",
           "context": "historical-record",
           "status": "exact"
         }
@@ -2670,7 +3288,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4166ef71b07ec8c94b7c8b0061991ab1fc1e20a5a2a6ec06731d9e82b6928a7e"
     },
     {
       "slug": "karnabo",
@@ -2744,24 +3363,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "223711a99dae7c6313b1de9a589f1cfc56a97a21596da54ae84f3cd512a68ff0"
     },
     {
       "slug": "kuusu",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-2.md",
+      "entry_sha256": "43d828d4c49a59861b3145bbcb2fdc10e266e11b5d5c01baad4bdd04bf8df858",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kuusu-c01",
@@ -2791,6 +3406,36 @@
           "statement_id": "Kamus Etimologi Basque karya Manuel Agud dan Antonio Tovar mengartikan Khuso sebagai \"orang-orangan sawah, hantu\", pinjaman dari bahasa Béarn gusot.",
           "quote": "Al Diccionario Etimológico Vasco de Manuel Agud i Antonio Tovar, el mot Khuso hi apareix definit com a «espantaocells, fantasma [..] manlleu del bearnès gusot».",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kuusu-c04",
+          "source_id": "kuusu-s2",
+          "host": "www.labayru.eus",
+          "statement": "According to Labayru Fundazioa, common names for 'bird scarers' in Basque include txorimaloak, txori-jagoleak and kusoak.",
+          "statement_id": "Menurut Labayru Fundazioa, nama umum untuk \"penakut burung\" dalam bahasa Basque antara lain txorimaloak, txori-jagoleak, atau kusoak.",
+          "quote": "Common names for ‘bird scarers’ are espantapájaros, in Spanish, and txorimaloak, txori-jagoleak or kusoak, among others, in Basque.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuusu-c05",
+          "source_id": "kuusu-s2",
+          "host": "www.labayru.eus",
+          "statement": "According to Labayru Fundazioa, homemade humanoid scarecrows placed in open cultivated fields, vineyards and fruit groves have been a common way to protect seed, growing crops and fruit harvests from birds.",
+          "statement_id": "Menurut Labayru Fundazioa, orang-orangan sawah buatan sendiri berbentuk manusia, ditempatkan di ladang, kebun anggur, dan kebun buah, lazim dipakai untuk melindungi benih, tanaman, dan panen buah dari burung.",
+          "quote": "Placed in open cultivated fields, vineyards and fruit groves, homemade humanoid scarecrows have been a common way to protect freshly broadcast seed, growing crops and fruit harvests from birds",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuusu-c06",
+          "source_id": "kuusu-s2",
+          "host": "www.labayru.eus",
+          "statement": "According to Labayru Fundazioa, scarecrows are traditionally built out of old clothes stuffed with grass or straw and attached to a vertical post driven into the ground.",
+          "statement_id": "Menurut Labayru Fundazioa, orang-orangan sawah secara tradisional dibuat dari pakaian lama yang diisi rumput atau jerami dan dipasang pada tiang tegak yang ditancapkan ke tanah.",
+          "quote": "Scarecrows are traditionally built out of old clothes stuffed with grass or straw and attached to a vertical post driven into the ground.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -2888,7 +3533,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b43177a60ea34802cd04cc301398af7aeaf07bc3f38dba98415ff21bdfe6dfdb"
     },
     {
       "slug": "longana",
@@ -2982,7 +3628,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dbc74afbf42e1785776f15a43e4506b229b5d108a2bd8cc5d050453418b36490"
     },
     {
       "slug": "macrale",
@@ -3072,7 +3719,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "24457ddb38154f08fb611ccfd4b27a73ed93f07440b39b07fa97c55f62cd3e38"
     },
     {
       "slug": "mama-e-su-sole",
@@ -3166,7 +3814,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c6050227e74ec8a11131a9a571223a56e8e7a73194025dfdd1e32ac4d8a707e0"
     },
     {
       "slug": "mandronius",
@@ -3250,7 +3899,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0d2dad146384e53704ce1d75a9fa06f9d18953ea6f09cf9f8f37215af7136d94"
     },
     {
       "slug": "mommotti",
@@ -3344,7 +3994,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c2669ab14554c763a97cfc0ed4c12f947d14a9a01195c2de33c590f8bca0cef"
     },
     {
       "slug": "mullo-vampire",
@@ -3448,7 +4099,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d8dd80456b932ab0c824422505cc3c34ed236659e0902083d55017aaee43738b"
     },
     {
       "slug": "nappateuctli",
@@ -3532,7 +4184,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b2ecfc742cee40544e9c41d2a2edd18a63cfd274e105d96bd561356a7792a087"
     }
   ]
 }

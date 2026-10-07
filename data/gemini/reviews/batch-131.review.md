@@ -1,6 +1,6 @@
 # Review batch-131
 
-Diperiksa 2026-10-02T09:13:36.105Z. Berkas: batch-131.md.
+Diperiksa 2026-10-07T04:29:59.408Z. Berkas: batch-131.md, batch-131-fix-1.md, batch-131-fix-2.md.
 
 ## nefeles — lulus-otomatis
 
@@ -34,10 +34,7 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 ## olanoiko-zakurra — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -45,6 +42,9 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | olanoiko-zakurra-c02 | exact | ca.wikipedia.org | It is one of the many animal-shaped spirits of Basque mythology, like Aatxe, Zezengorri and Akerbeltz, that live in caves and often attack anyone who approaches. | És un més dels nombrosos genis de la mitologia basca zoomorfs (Aatxe, Zezengorri, Akerbeltz, etc.) que viuen en coves i que, sovint, ataquen a qualsevol que s'hi acosti. |
 | olanoiko-zakurra-c03 | exact | eu.wikipedia.org | This great dog spirit guards the Olanoi cave at Beizama and attacks those who come near. | Beizamako Olanoi kobazuloko zaindaria da txakur irelu handi hau, eta bertara hurbiltzen diren lagunei eraso egiten die. |
 | olanoiko-zakurra-c04 | exact | fr.wikipedia.org | Zuzidun Txakurra, Olanoiko zakurra and Mirokutana are spirits of Basque mythology that look like dogs. | Zuzidun Txakurra, Olanoiko zakurra et Mirokutana sont des génies de la mythologie basque qui ont l'aspect d'un chien. |
+| olanoiko-zakurra-c05 | exact | fr.wikipedia.org | According to the French Wikipedia article, Olanoiko zakurra means 'the dog of Olanoi'. | Olanoiko zakurra signifie « le chien d'Olanoi ». |
+| olanoiko-zakurra-c06 | exact | fr.wikipedia.org | Besides appearing as dogs, the powers of these dog spirits (Zuzidun Txakurra, Olanoiko zakurra, Mirokutana) differ by place and legend; dogs entered Basque mythology especially since the advent of Christianity. | Outre le fait d'apparaitre comme des chiens, leurs pouvoirs diffèrent selon les lieux et les légendes. Les chiens ont été incorporés dans la mythologie basque, surtout depuis l'avènement du christianisme. |
+| olanoiko-zakurra-c07 | exact | eu.wikipedia.org | Olanoiko zakurra is one of the irelu (spirits) of Basque mythology and, like many others, is linked to caves. | Olanoiko zakurra Euskal Herriko mitologiaren irelu bat da, beste asko bezala leizezuloei lotuta. |
 
 
 ## pard — lulus-otomatis
@@ -63,25 +63,21 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## picolaton — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | picolaton-c01 | exact | en.wikipedia.org | The picolaton (also called pique-au-mollet, quiperlibresson and cacalambri) is an imaginary bird of the folklore of Franche-Comté. | The picolaton (also known as the pique-au-mollet, quiperlibresson and cacalambri) is an imaginary bird present in the folklore of Franche-Comté. |
-| picolaton-c02 | exact | en.wikipedia.org | It is best known as a creature used to threaten lazy children, who are told the picolaton will nip their heels and buttocks if they do not hurry; it is thus akin to the bogeyman. | It is best known as a creature used to threaten lazy children, by saying that the picolaton would nip their heels and buttocks if they did not hurry. It is thus akin to the bogeyman. |
-| picolaton-c03 | exact | en.wikipedia.org | Especially irritating children are promised a visit to the bird's incredible nest around April Fool's Day if they are very good; it supposedly nests in thorn bushes. | Particularly irritating children are promised a visit to the incredible nest of the fabulous bird around April Fool's Day, provided they are very good and obedient. It supposedly nests in thorn bushes. |
+| picolaton-c02 | exact | en.wikipedia.org | The picolaton is best known as a creature used to threaten lazy children, by saying it would nip their heels and buttocks if they did not hurry. | It is best known as a creature used to threaten lazy children, by saying that the picolaton would nip their heels and buttocks if they did not hurry. |
+| picolaton-c03 | exact | en.wikipedia.org | Particularly irritating children are promised a visit to the fabulous bird's incredible nest around April Fool's Day, provided they are very good and obedient. | Particularly irritating children are promised a visit to the incredible nest of the fabulous bird around April Fool's Day, provided they are very good and obedient. |
 | picolaton-c04 | exact | bn.wikipedia.org | The Bengali article likewise calls the picolaton an imaginary bird of Franche-Comté folk belief. | পিকোলাটন (এটি পিক-ও-মলে, কুইপারলিব্রেসন এবং কাকালাম্ব্রি নামেও পরিচিত) ফ্রঁশ-কমতে অঞ্চলের লোকবিশ্বাসে বিদ্যমান একটি কাল্পনিক পাখি। |
+| picolaton-c05 | exact | en.wikipedia.org | Because of this use, the picolaton is described as akin to the bogeyman. | It is thus akin to the bogeyman. |
+| picolaton-c06 | exact | en.wikipedia.org | The picolaton supposedly nests in thorn bushes. | It supposedly nests in thorn bushes. |
 
 
 ## rodea — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -90,6 +86,10 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | rodea-c03 | exact | ca.wikipedia.org | According to the Catalan article, Rodea is named by Hesiod in his list of Oceanids. | En la mitologia grega, Rodea (en grec antic Ρόδεια) era la major de les oceànides, una nimfa, filla d'Oceà i de Tetis, que Hesíode cita a la seva llista d'oceànides. |
 | rodea-c04 | exact | ca.wikipedia.org | Her parents were the Titans Oceanus and Tethys, and according to Hesiod she had up to 3,000 sisters. | Els seus pares van ser els titans Oceà i Tetis, i va tenir moltes germanes, segons Hesíode fins a 3.000 |
 | rodea-c05 | exact | eu.wikipedia.org | The Basque article also calls her a playmate of Persephone, daughter of the goddess Demeter. | Aldi berean, Demeter jainkosaren alaba zen Persefoneren jolas laguna ere bazen. |
+| rodea-c06 | exact | www.theoi.com | In Hesiod's Theogony (line 346 ff.), Rhodeia appears in the list of the daughters of Tethys and Okeanos, among Hippo, Klymene, Kallirhoe and Zeuxo. | They are Peitho, Admete, Ianthe and Elektra, Doris and Prymno and Ourania like a goddess, Hippo and Klymene, Rhodeia and Kallirhoe, Zeuxo and Klytia |
+| rodea-c07 | exact | www.theoi.com | Hesiod says there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses. | there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses |
+| rodea-c08 | exact | www.theoi.com | In Homeric Hymn 2 to Demeter (line 415 ff.), Rhodea is named among the daughters of Okeanos who were playing in a lovely meadow. | were playing in a lovely meadow, Leukippe and Phaino and Elektra and Ianthe, Melita also and Iakhe with Rhodea and Kallirhoe |
+| rodea-c09 | exact | www.theoi.com | According to the Theoi Project, the Okeanis Rhodeia is named 'of the roses' or 'rose-coloured' and was either an Anthousa flower-nymph, a Naias of a rose-draped spring, or a Nephele of the rose-tinged clouds of dawn. | RHODEIA The Okeanis named "of the roses" or "rose-coloured" was either an Anthousa flower-nymphe, Naias of a rose-draped spring, or Nephele of the rose-tinged clouds of dawn. |
 
 
 ## rodon — lulus-otomatis
@@ -126,10 +126,7 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 
 ## rompo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -138,6 +135,10 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | rompo-c03 | exact | en.wikipedia.org | On finding a body it does not devour it at once but circles it several times as if afraid; the legend may have been inspired by hyenas' behaviour. | After discovering a body, instead of immediately devouring it, it circles around it several times as if afraid to seize it. The legend of the Rompo may have been inspired by the ecology and behavior of hyenas. |
 | rompo-c04 | exact | es.wikipedia.org | It feeds only on human corpses and is said to hum softly while eating. | Sólo se alimenta de cadáveres humanos y se dice que canturrea en voz baja mientras come. |
 | rompo-c05 | exact | hu.wikipedia.org | According to the Hungarian article, the Rompo has a skeletal body and a hare's head with human ears. | Rompo egy mitológiai bestia, teste csontvázszerű, feje egy nyúlé, emberi fülekkel. |
+| rompo-c06 | exact | archive.org | In Boreman's book (1794 edition), the Rompo or Man-Eater is so called because he feeds upon dead men. | A ROMPO, or Man-Eater, is so called, because he feeds upon dead men |
+| rompo-c07 | exact | archive.org | Boreman writes that the Rompo keeps in the woods. | He keeps in the woods. His body is long and |
+| rompo-c08 | exact | archive.org | Boreman records that the Negroes say it does not fall on a body immediately upon finding it, but goes round it several times as if afraid to. | that he does not immediately fall on, as soon as he has found the body, but goes round it several times, as if afraid to |
+| rompo-c09 | exact | archive.org | According to Boreman, this creature is bred in India and Africa. | This creature is bred in India and Africa. |
 
 
 ## sarac — lulus-otomatis
@@ -242,10 +243,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## arganao — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -253,6 +251,11 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | arganao-c02 | exact | en.wikipedia.org | According to popular tales he lives in the fields but is intensely curious about people's daily lives, spending his days secretly watching them. | According to popular tales, he lives in the fields, though he can't hide his intense curiosity about people's daily lives. It is said that he spends his days secretly observing them, always attentive to their activities. |
 | arganao-c03 | exact | pt.wikipedia.org | He is usually described as very elusive, almost invisible, amused by human behaviour and occasionally playing tricks and giving small frights, without ever being caught or seen. | Geralmente é caracterizado como um ser muito esquivo, quase invisível, que se diverte com as atitudes dos humanos, ocasionalmente pregando-lhes algumas partidas e pequenos sustos, sem no entanto ser alguma vez apanhado ou visto por estes. |
 | arganao-c04 | exact | pt.wikipedia.org | The arganões are part of regional oral tradition, with no documents recording their stories before the early 20th century. | Os arganões fazem parte da tradição oral regional, sendo que não existem documentos que registem as suas histórias antes do início do século XX. |
+| arganao-c05 | exact | pt.wikipedia.org | There have been several cultural projects to revive the old tradition, which is presumed to be of pagan origin. | Têm existido vários projectos culturais para a revitalização da antiga tradição, que se pressupõe ser de origem pagã |
+| arganao-c06 | exact | pt.wikipedia.org | According to the Portuguese article, a version wrongly spread that the four-legged figure in high relief on the tympanum of the Igreja Matriz de Melgaço represents an arganão. | Dissiminou-se erroneamente a versão de que a figura quadrípede representada em alto-relevo no tímpano da Igreja Matriz de Melgaço seria a representação de um arganão |
+| arganao-c07 | exact | pt.wikipedia.org | According to Carlos Alberto Ferreira de Almeida's interpretation, the figure on the church relief is a 'fierce guard canid' or a wolf, not an arganão. | Segundo a interpretação de Carlos Alberto Ferreira de Almeida, seria um "feroz canídio de guarda" ou um lobo |
+| arganao-c08 | exact | pt.wikipedia.org | The arganões were the central figure of the ethnographic parade of the 'Melgaço em Festa' event in 2017. | Os arganões foram a figura central do cortejo etnográfico do evento "Melgaço em Festa" em 2017. |
+| arganao-c09 | exact | www.radiovaledominho.com | In April 2013 Rádio Vale do Minho reported that the theatre company 'Comédias do Minho' was presenting its latest work, 'Arganão', a street performance, in Monção to more than 730 pupils. | Performance de rua “Arganão” apresentada para mais de 730 alunos 9 Abril, 2013 ... A companhia de teatro “Comédias do Minho” está em Monção para apresentar o seu mais recente trabalho – “Arganão” – uma performance de rua |
 
 
 ## babe-tisje — skip
@@ -268,10 +271,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## balaha — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -280,14 +280,18 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | balaha-c03 | exact | fr.wikipedia.org | In the Valāhassa Jātaka the horse is the future Buddha himself in a previous birth; a later version ascribes the transformation to Avalokiteshvara, and the island becomes the future Ceylon. | Dans les Jātaka Valāhassa, ce cheval est le futur Bouddha lui-même, dans l'une de ses précédentes incarnations. Une version plus récente attribue cette métamorphose à Avalokiteshvara, et l'île devient la future Ceylan . |
 | balaha-c04 | exact | fr.wikipedia.org | All the merchants cling to the horse's flanks as if to a ship to escape across the sea. | Tous les marchands s'accrochent aux flancs du cheval comme à ceux d'un navire pour s'échapper et traverser la mer. |
 | balaha-c05 | exact | km.wikipedia.org | The Khmer article likewise calls Balāha a flying horse of Buddhist legend. | ពលាហ គឺជាសេះហោះក្នុងរឿងព្រេងនិទានព្រះពុទ្ធសាសនា និង រឿងព្រេងនិទាន ។ |
+| balaha-c06 | exact | ancient-buddhist-texts.net | In the Valāhassajātaka (Ja 196) the Bodhisatta had come into the world as a flying horse, white all over, beaked like a crow, with hair like muñja grass, possessed of supernormal powers and able to fly through the air. | Now at that time, the Bodhisatta had come into the world as a flying horse ... white all over, and beaked like a crow, with hair like muñja grass ... possessed of Supernormal Powers, able to fly through the air. |
+| balaha-c07 | exact | ancient-buddhist-texts.net | According to the Jātaka, in the island of Ceylon there was a Yakkha town called Sirīsavatthu, peopled by Yakkhinis. | In the past, there was in the island of Ceylon a Yakkha town called Sirīsavatthu, peopled by Yakkhinis. |
+| balaha-c08 | exact | ancient-buddhist-texts.net | As he flew over Ceylon the horse thrice uttered human speech filled with mercy: 'Who wants to go home? Who wants to go home?' | As he passed on thus, he thrice uttered human speech filled with mercy, saying: “Who wants to go home? Who wants to go home?” |
+| balaha-c09 | exact | ancient-buddhist-texts.net | The Bodhisatta conveyed all two hundred and fifty merchants, even those who stood saluting him, to their own country. | Then the Bodhisatta took up even those who stood still saluting him, and conveyed all of them, even two hundred and fifty, to their own country |
+| balaha-c10 | exact | ancient-buddhist-texts.net | At the close of the Jātaka the Teacher declares that the two hundred and fifty merchants who followed the horse's advice were the Buddha's followers, and that he himself was the horse. | The Buddha’s followers were the two hundred and fifty who followed the advice of the horse, and I was the horse myself. |
+| balaha-c11 | exact | www.persee.fr | Victor Goloubew (1927) calls the flying-horse group Balâha the most remarkable of the sculptures found in the excavations at Nâk Pân, east of Práh Khan at Angkor. | Nâk Pân, à l'Est du Práh Khan d'Ankor, la plus remarquable est le groupe du cheval volant Balâha |
+| balaha-c12 | exact | www.persee.fr | According to Goloubew, the stone horse hastened toward the image in the temple cella, a material symbol of every being who, through multiple rebirths, aspires to deliverance. | C'est vers elle que le cheval de pierre hâtait sa course, symbole matériel de tout être qui, à travers ses renaissances multiples, aspire à la délivrance. |
 
 
 ## bildur-aize — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -295,14 +299,14 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | bildur-aize-c02 | exact | fr.wikipedia.org | It is a demon or spirit that enters dreams and causes nightmares, and is said to foretell future events in dreams. | C'est un démon, ou esprit, qui entre dans les rêves et provoque des cauchemars. On dit que cet être fantastique prédit des événements futurs dans les rêves |
 | bildur-aize-c03 | exact | fr.wikipedia.org | To be rid of it, people of the Goierri in Gipuzkoa go to certain churches, such as those of Olaberria, Arriaran and Mutiloa, to ask the priests there to pray for them. | Pour s'en délivrer, les gens de la région de Goiherri au Guipuscoa se rendent dans certaines églises comme celles d'Olaberria, d'Arriaran et de Mutiloa afin de demander aux les prêtres de ces lieux une prière à leur intention. |
 | bildur-aize-c04 | exact | ca.wikipedia.org | It is an evil spirit of Basque mythology that causes nightmares and sometimes oppresses sleepers' chests, much as Inguma does. | és un esperit o geni malèfic de la mitologia basca que causa malsons i de vegades oprimeix el pit dels dorments, semblantment a allò que fa Inguma. |
+| bildur-aize-c05 | exact | fr.wikipedia.org | According to the French article, Beldur aize means 'frightening wind' in Basque, from beldur 'fear', 'dread' and haize 'wind'. | Beldur aize signifie "vent effrayant" en basque. De beldur "peur", "crainte" et haize "vent". |
+| bildur-aize-c06 | exact | fr.wikipedia.org | According to the French article, people also consider it useful to recite a certain prayer three times before going to bed. | De la même façon, les gens considèrent aussi qu'il est utile avant de se coucher de réciter cette prière à trois reprises |
+| bildur-aize-c07 | exact | ca.wikipedia.org | According to the Catalan article, Bildur aize ('air of fear, terrifying wind' in Basque, from bildur 'fear' and haize 'wind, air') has variants such as Beldur aize. | Bildur aize ('aire de por, vent terrorífic' en basc, de bildur 'por' i haize 'vent, aire'), amb variants del tipus Beldur aize |
 
 
 ## birao — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -311,6 +315,10 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | birao-c03 | exact | fr.wikipedia.org | Sometimes the curse relies on an object: offering a bent coin to a saint is a concrete way of wishing someone harm. | Parfois, pour l'imprécation, on s'en remet a un objet. Ainsi, en offrant une pièce de monnaie tordue à un saint on exprime de façon concrète que l'on souhaite le mal pour quelqu'un. |
 | birao-c04 | exact | fr.wikipedia.org | Hence the widespread Basque belief that a curse (Birao, Birau) laid on a name strikes the thing it names. | C'est pourquoi il est répandu au Pays basque la croyance que la malédiction (Birao, Birau) jetée sur un nom atteint par conséquent l'objet qu'il désigne. |
 | birao-c05 | exact | ca.wikipedia.org | In Sara (Lapurdi) this kind of anathema is called birao and otoitzgaxto ('evil prayer'); by the magic power of adur it brings illness or misfortune on whoever is named, and only the one who cursed can cure it. | A Sara (Lapurdi), anomenen birao i otoitzgaxto ('prec, oració dolenta') aquesta mena d'anatema que, en virtut del poder màgic o adur, porta malaltia o desgràcia a la persona o animal anomenat en la maledicció. Només qui els ha maleït els pot guarir. |
+| birao-c06 | exact | fr.wikipedia.org | It was commonly said that the Birao caused people's deaths. | Il était courant de dire que le Birao entrainait la mort des personnes. |
+| birao-c07 | exact | fr.wikipedia.org | It is generally believed that curses cast by spirits always end up being fulfilled. | Les malédictions jetées par des génies finissent toujours par s'accomplir, c'est ce que l'on croit de façon générale. |
+| birao-c08 | exact | fr.wikipedia.org | According to the French article, it is natural that in circles where the magical conception of the world is accepted, people believe that by acting on names one can influence the things themselves. | Il est naturel que dans les cercles où la conception magique du monde est acceptée, on croit qu'en agissant sur les noms il est possible d'influencer les choses elles-mêmes. |
+| birao-c09 | exact | fr.wikipedia.org | The article tells of a young man from Andoain who quarrelled with a farmer from Ataun; on learning the farmer had lumbago, he told him he suffered from it because of the curse he had cast on him several times in those days. | Un jeune homme venu d'Andoain s'est récemment disputé avec un fermier d'Ataun. Lorsqu'il a découvert qu'il souffrait d'un lumbago, il lui a dit: "Tu en souffres à cause de la malédiction que je t'ai jetée à plusieurs reprises ces jours-ci." |
 
 
 ## borda-legendary-creature — lulus-otomatis
@@ -331,10 +339,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## bubota — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -343,15 +348,19 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | bubota-c03 | exact | es.wikipedia.org | They usually remain invisible, standing still at certain spots; when they move to scare someone, they float through the air, leaving a trail that gives the living deadly chills. | Normalmente permanecen invisibles, paradas en puntos concretos. Cuando se mueven, lo hacen para asustar a alguien y lo hacen levitando por el aire, dejando un rastro que produce escalofríos mortales a los seres vivos. |
 | bubota-c04 | exact | ca.wikipedia.org | In Valencia these beings have many local names besides bubota, such as bumbota, bumberota, mumorota, marmota and muserota. | Al País Valencià, aquests éssers reben un gran nombre de denominacions locals a més de bubota: bumbota, bumberota, mumorota, marmota, muserota, mumaranta, etc. |
 | bubota-c05 | exact | ca.wikipedia.org | Mossèn Alcover collected tales featuring bubotes, such as La bubota blanca de Consell, in which a timid farmer is tricked by three youths, one disguised as a bubota in a woman's white shirt. | Mossèn Alcover recollí rondalles a les quals apareixen bubotes, com ara La bubota blanca de Consell, en la qual un llaurador poruc i ingenu és enganat per tres joves un dels quals es disfressa de bubota amb una camisa blanca de dona |
+| bubota-c06 | exact | dcvb.iec.cat | The Diccionari català-valencià-balear (DCVB) defines one sense of bubota as a ghost, a heavily covered figure that appears to frighten (marked Mall., Men.). | Fantasma, figura molt tapada que s'apareix per fer por (Mall., Men.) |
+| bubota-c07 | exact | dcvb.iec.cat | The DCVB also records a sense of bubota as a dummy, a dressed figure imitating a man that is set upright or hung up to frighten animals or people (marked Val., Bal.). | Ninot, figura vestida imitant un home, que posen dreta o penjada per fer por als animals o a les persones (Val., Bal.) |
+| bubota-c08 | exact | ca.wikipedia.org | According to the Catalan article, it is said in Andratx that there are many kinds of bubotes, though the best known and most feared are those that walk through the cemeteries. | Diuen a Andratx que hi ha bubotes de molts tipus, encara que les més conegudes i temudes són les que passegen pels cementiris. |
+| bubota-c09 | exact | ca.wikipedia.org | The article also mentions stories of smugglers who, in the Spanish post-war period, made pacts with bubotes so that they would drive off possible guards. | També es contaven històries de contrabandistes que durant el temps de la postguerra espanyola feien pactes amb les bubotes per tal que foragitassin possibles guàrdies |
+| bubota-c10 | exact | ca.wikipedia.org | According to the article, the Bubú, elsewhere in the Balearic Islands also known as Bubota Negra, is presented to children as an all-black doll to frighten them. | El Bubú, també conegut a altres indrets de les Balears com a Bubota Negra, és representat als infants com un ninot tot negre per tal de fer-los por. |
 
 
 ## carcaman — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Mitologi Galisia".
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -360,20 +369,25 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | carcaman-c03 | exact | gl.wikipedia.org | Carcamán also means a big, heavy boat and, by extension, a lazy man or a frail old man. | Baixo o termo de carcamán tamén se designa un barco grande e pesado e, por extensión, un home lacazán que non quere facer esforzos ou ben un home vello e achacoso. |
 | carcaman-c04 | exact | pt.wikipedia.org | Some historians believe the term originally meant Italian merchants sailing from Italy to Flanders and stopping in Galicia in the 17th and 18th centuries. | Alguns historiadores acreditam que o termo se referia originalmente aos comerciantes italianos que navegavam da Península Itálica até à Flandres, parando na Galiza durante os séculos XVII e XVIII. |
 | carcaman-c05 | exact | pt.wikipedia.org | Another hypothesis holds the term described the smugglers of Arousa, especially in wartime and after. | Outra hipótese sugere que o termo foi usado para descrever os contrabandistas da Arousa, especialmente durante os períodos de guerra e pós-guerra |
+| carcaman-c06 | exact | ilg.usc.gal | The Real Academia Galega dictionary (1913-1928) records that sailors in Galicia call smugglers carcamáns. | Los marineros, en Galicia , llaman así a los contrabandistas. |
+| carcaman-c07 | exact | ilg.usc.gal | The same dictionary, quoting Murguía, says the name is used in the Rías Bajas for those of the island of Arosa, because in 1826 Italian smugglers were masters of the place. | Llaman así en las Rías Bajas a los de la isla de Arosa . Viene esto de que el año 1826 estuvieron los contrabandistas italianos siendo dueños de aquello. |
+| carcaman-c08 | exact | pt.wikipedia.org | According to the Portuguese article, Alfredo García Alén's catalogue records at the Museu de Pontevedra on the Arousa archaeological digs mention the Carcamáns as a race of giants usually linked in Galician mythology to the castro culture. | menciona que os Carcamáns são uma raça de gigantes, geralmente ligados na mitologia galega à cultura castreja. |
+| carcaman-c09 | exact | pt.wikipedia.org | The Dicionário de seres míticos galegos (Cuba, Reigosa, Miranda) says only that they are a 'race of mythical pirates of the island of Arousa'. | O Dicionário dos seres míticos galegos de Cuba, Reigosa e Miranda apenas diz que são uma “raça de piratas míticos da ilha de Arousa”. |
+| carcaman-c10 | exact | www.manuelrivas.com | In Castelao's short piece, a woman under an enchantment is said to live in the 'cova dos carcamáns' (cave of the carcamáns) and to come and comb her hair early in the morning on the rocks by the shore. | vive —según contan— unha dona encantada que vén a peitearse de mañán cedo nas pedras da beiramar |
 
 
 ## carmenco — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| carmenco-c01 | exact | ca.wikipedia.org | The carmençó is a spirit of Catalan mythology that roams mountain meadows, black as soot and woolly from head to toe; it settles in shepherds' huts when they are unused, mainly in winter, keeping them from collapsing. | El carmençó és un geni de la mitologia catalana, que ronda pels prats de muntanya, negre com el sutge i llanut de cap a peus. S'instal·la a les cabanes dels pastors quan aquests no les fan servir, principalment a l'hivern, evitant que s'esfondrin. |
-| carmenco-c02 | exact | ca.wikipedia.org | It is both feared and respected by the old shepherds of the Empordà, since seeing it brings many years of misfortune; so when they come up from the lowlands they sling seven stones to drive it from the hut. | És un ésser temut i respectat alhora pels vells pastors empordanesos, perquè veure'l comporta molts anys de desgràcia. És per aquest motiu que, quan pugen de terra baixa, llencen set pedrades amb la fona per foragitar-lo de la cabana. |
+| carmenco-c01 | exact | ca.wikipedia.org | The carmençó is a spirit (geni) of Catalan mythology that roams mountain meadows, black as soot and woolly from head to toe. | El carmençó és un geni de la mitologia catalana, que ronda pels prats de muntanya, negre com el sutge i llanut de cap a peus. |
+| carmenco-c02 | exact | ca.wikipedia.org | It is both feared and respected by the old shepherds of the Empordà, since seeing it brings many years of misfortune. | És un ésser temut i respectat alhora pels vells pastors empordanesos, perquè veure'l comporta molts anys de desgràcia. |
 | carmenco-c03 | exact | eu.wikipedia.org | The Basque article also notes it is feared and respected by the old shepherds of the Empordà because it brings years of misfortune. | Empordàko artzain zaharrek aldi berean beldurtzen eta errespetatzen duten izaki bat da, urte askotako zorigaitza baitakar. |
+| carmenco-c04 | exact | ca.wikipedia.org | It settles in the shepherds' huts when they are not in use, mainly in winter, keeping them from collapsing. | S'instal·la a les cabanes dels pastors quan aquests no les fan servir, principalment a l'hivern, evitant que s'esfondrin. |
+| carmenco-c05 | exact | ca.wikipedia.org | For this reason, when they come up from the lowlands, the shepherds sling seven stones to drive it out of the hut. | És per aquest motiu que, quan pugen de terra baixa, llencen set pedrades amb la fona per foragitar-lo de la cabana. |
+| carmenco-c06 | exact | eu.wikipedia.org | According to the Basque article, Carmenço is a genius of Catalan mythology that roams mountain meadows, black as soot and hairy from foot to head. | Carmenço mitologia katalaneko jenio bat da, mendiko belardietan ibiltzen dena, kedarra bezain beltza eta iletsua, oinetik burura. |
 
 
 ## cegua — lulus-otomatis
@@ -407,23 +421,22 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## dipsa — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | dipsa-c01 | exact | en.wikipedia.org | The dipsa is a tiny, mucus-like, extremely venomous snake of medieval bestiaries, so venomous that its victim died before realising he had been bitten. | Dipsa is a tiny, mucus-like, extremely venomous snake from Medieval bestiaries. They were so venomous that their victim would die before becoming aware he had been bitten. |
 | dipsa-c02 | exact | it.wikipedia.org | The Italian article likewise calls the dipsa a tiny, extremely venomous snake of medieval bestiaries. | La dipsa è un minuscolo serpente estremamente velenoso diffuso nei bestiari medievali. |
+| dipsa-c03 | exact | bestiary.ca | Isidore of Seville (Etymologies 12.4.13) calls the dipsas a kind of asp, called situla in Latin because anyone bitten by it dies of thirst. | Isidore of Seville [7th century CE] (Etymologies, Book 12, 4.13; 12, 4.32): [Book 12, 4.13] The dipsas is a kind of asp, called situla in Latin because anyone bitten by it dies of thirst. |
+| dipsa-c04 | exact | bestiary.ca | Isidore (Etymologies 12.4.32) writes that the dipsas is said to be a snake so tiny that it is not noticed when stepped on; its venom kills before it is felt, so the face of one about to die shows no horror of his impending death. | Isidore of Seville [7th century CE] ... [Book 12, 4:32] The dipsas is said to be a snake so tiny that when it is stepped on it is not observed. Its venom kills before it is felt, so that the face of one about to die displays no horror of his impending death. |
+| dipsa-c05 | exact | bestiary.ca | Aelian (On the Characteristics of Animals 6.51) writes that the name Dipsas [thirst-provoker] declares what it does: it is smaller than the viper but kills more swiftly, for persons who chance to be bitten burn with thirst. | Aelianus [170-230 CE] (On the Characteristics of Animals, Book 6, 51): The name of the Dipsas [thirst-provoker] declares to us what it does. It is smaller than the viper, but kills more swiftly, for persons who chance to be bitten burn with thirst |
+| dipsa-c06 | exact | bestiary.ca | Gerald of Wales (Topographia Hibernica, distinction 1, chapter 26) mentions the dipsa as a small species of snake whose venom destroys life before it is perceived and is so powerful that its bite causes death before any pain is felt. | Gerald of Wales [c. 1146 – c. 1223] (Topographia Hibernica, Distinction 1, chapter 26): There is also the dipsa, a small species of snake, whose venom destroys life before it is even perceived, and is so powerful that its bite occasions death before any pain is felt. |
+| dipsa-c07 | exact | bestiary.ca | In Lucan's Pharsalia (book 9), Aulus of Tyrrhenia, a standard-bearer, trod on a dipsas; the serpent struck with its head reversed, and no pang betrayed the tooth. | Lucan [1st century CE] (Pharsalia, book 9, verse 821-841): Tyrrhenian Aulus, bearer of a flag, / Trod on a dipsas ; quick with head reversed / The serpent struck ; no pang betrayed the tooth |
 
 
 ## europa-q3060724 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -431,14 +444,14 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | europa-q3060724-c02 | exact | fr.wikipedia.org | According to Hesiod's Theogony she brings rain to the European continent, whose name she may have inspired, though this is debated. | Selon la Théogonie d'Hésiode, elle apporte la pluie sur le continent européen, dont elle pourrait être à l'origine du nom (ce point est débattu). |
 | europa-q3060724-c03 | exact | fr.wikipedia.org | She is one of the many daughters of Oceanus and Tethys, usually three thousand, with three thousand brothers, the river gods. | Elle est l'une de leur multiples filles, les Océanides, généralement au nombre de trois mille, et a pour frères les Dieux-fleuve, eux aussi au nombre de trois mille. |
 | europa-q3060724-c04 | exact | br.wikipedia.org | The Breton article likewise says that according to Hesiod's Theogony she brings rain to the continent of Europe. | Hervez Theogonia Hesiodos eo ganti e vez degaset glav war zouar Europa, ar c'hevandir. |
+| europa-q3060724-c05 | exact | www.theoi.com | The Theoi Project describes Europe (Europa) as the Okeanis nymph of the continent of Europe, with a sister named Asia. | EUROPE (Europa) The Okeanis Nymphe of the continent of Europe. Her sister was Asia. |
+| europa-q3060724-c06 | exact | www.theoi.com | In Hesiod's Theogony (line 346 ff.), Europa is named in the list of the daughters of Tethys and Okeanos, among Menestho, Metis, Eurynome and Asia. | Perseis and Ianeira, Petraie the lovely, and Menestho, and Europa, Metis and Eurynome, Telesto robed in saffron, Khryseis, and Asia |
+| europa-q3060724-c07 | exact | www.theoi.com | Hesiod says there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses. | there are three thousand light-stepping daughters of Okeanos scattered far and wide, bright children among the goddesses |
 
 
 ## facanito — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -446,6 +459,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | facanito-c02 | exact | pt.wikipedia.org | In the Middle Ages in Trás-os-Montes it was called 'a little devil that feeds on ground steel'; in Miranda do Douro the name is given to a small, provocative man, and also to a mythological being, very small and restless. | Na Idade Média em Trás-os-Montes era referido como um "diabinho que se alimenta de aço moído". Em Miranda do Douro é o nome que se dá a um homem de pequena estatura com jeito de provocador e é também como se designa um ser mitológico, muito pequeno e irrequieto. |
 | facanito-c03 | exact | mwl.wikipedia.org | The careto is a masked figure of the carnival (Entrudo) of Trás-os-Montes and Alto Douro in Portugal. | L careto ye ua figura maçcarada de l Antruido de Trás ls Montes i Alto Douro, an Pertual. |
 | facanito-c04 | exact | mwl.wikipedia.org | The careto tradition is thought to have Celtic, pre-Roman roots. | Pensa-se que la tradiçon de ls caretos tenga raízes célticas, de la era pré-romana. |
+| facanito-c05 | exact | mwl.wikipedia.org | According to the Mirandese article, the facanito or facanico is a child masked as a careto who tries to imitate the caretos at their festivals. | L facanito ó facanico ye un nino maçcarado de careto, que tenta eimitar ls caretos nas sues fiestas |
+| facanito-c06 | exact | www.rtp.pt | According to the Lusa/RTP report, the procession is completed by the 'facanitos', the smallest children of the village, masked as mafarricos (little devils), accompanying the adults, performing their own initiation ritual and ensuring the continuity of the tradition. | O cortejo completa-se com os "facanitos", ou seja os mais pequenos da aldeia que, mascarados de mafarricos, acompanham os adultos, cumprindo o seu próprio ritual de iniciação e garantindo a continuidade da tradição. |
+| facanito-c07 | exact | www.rtp.pt | According to oral-literature researcher Alexandre Parafita, speaking to Lusa, the 'diabolical' parades of caretos, matrafonas and facanitos are among the most genuine Entrudo (carnival) traditions in Trás-os-Montes. | Os desfiles diabólicos de "caretos", "matrafonas" e "facanitos", as "pulhas casamenteiras" e as "leituras de testamentos" ou "papeladas", representam o mais genuíno das tradições do Entrudo em Trás-os-Montes, disse hoje à Lusa o investigador de literatura oral Alexandre Parafita. |
 
 
 ## farfadet — lulus-otomatis
@@ -465,10 +481,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## forest-bull — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -477,14 +490,17 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | forest-bull-c03 | exact | en.wikipedia.org | No weapon could hurt them, as spears, arrows and even iron glanced off their hide. | No weapon could physically hurt the bulls, be it spears or arrows because even iron deflected from their skin. |
 | forest-bull-c04 | exact | en.wikipedia.org | To protect their flocks, local herdsmen dug deep ditches into which the bulls fell and choked on their own rage. | To protect their flocks, herdsmen who lived in the area dug deep ditches, in which the bulls would fall and consequently choke on their rage. |
 | forest-bull-c05 | exact | nl.wikipedia.org | According to the Dutch article, the animal may be based on travellers' accounts of the African buffalo. | Mogelijk is dit dier gebaseerd op reisverslagen die de Afrikaanse buffel beschreven. |
+| forest-bull-c06 | exact | www.theoi.com | According to the Theoi Project, the Tauros Aithiopikos (Ethiopian Bull) was a ferocious breed of carnivorous bull native to Aithiopia (Ethiopia) in sub-Saharan Africa, with a thick red hide impervious to weapons. | THE TAUROS AITHIOPIKOS (Ethiopian Bull) was a ferocious breed of carnivorous bull native to Aithiopia (Ethiopia) in sub-Saharan Africa. Its thick, red hide was impervious to weapons. |
+| forest-bull-c07 | exact | www.theoi.com | Pliny the Elder (Natural History 8.74) calls the Forest Bulls (Tauri Silvestres) the fiercest animals of Ethiopia: larger than field bulls, surpassing all in speed, tawny, blue-eyed, with backward-turned hair, mouth gaping to the ears and mobile horns, their hide as hard as flint and rejecting every wound. | But its fiercest animals are the Forest Bulls (Tauri Silvestres), larger than the bulls of the field, surpassing all in speed, of a tawny colour, with blue eyes, hair turned backward, mouth gaping open to the ears, along with mobile horns; the hide has the hardness of flint, rejecting every wound. |
+| forest-bull-c08 | exact | www.theoi.com | According to Pliny the Elder, they hunt all wild animals but can themselves only be caught in pits, and when caught always die game. | They hunt all wild animals, but themselves can only be caught in pits, and when caught always die game. |
+| forest-bull-c09 | exact | www.theoi.com | According to Aelian (On Animals 17.45), their hair is red and their eyes blue-grey, more so than the eyes of lions. | Their hair is red, their eyes blue-grey, more so than the eyes of lions. |
+| forest-bull-c10 | exact | www.theoi.com | According to Aelian, among the Troglodytoi (cave-dwellers) this animal is judged the king of beasts, for it has the courage of a lion, the speed of a horse, the strength of a bull and is stronger than iron. | Among the Troglodytoi (Troglodytes, Cave-Dwellers) this is judged to be the king of beasts, and rightly so, for it possesses the courage of a lion, the speed of a horse, the strength of a bull, and is stronger than iron. |
+| forest-bull-c11 | exact | www.theoi.com | According to the Theoi Project, the bull was probably derived from ancient travellers' accounts of the African buffalo. | The bull was probably derived from ancient travellers' accounts of the African buffalo. |
 
 
 ## ga-gorib — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -492,6 +508,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | ga-gorib-c02 | exact | it.wikipedia.org | It lived on the edge of a huge pit and challenged everyone who came to throw stones at it, but the stones bounced back, struck the thrower and knocked him into the pit. | Di lui si racconta che viveva sull'orlo di un pozzo enorme, chiunque giungeva veniva sfidato da lui: dovevano gettragli contro delle pietre, solo che contro il mostro le pietre gettate tornavano indietro e colpiti cadevano nel pozzo. |
 | ga-gorib-c03 | exact | it.wikipedia.org | The hero Heitsi-Eibib came to kill it. | L'eroe Heitsi-Eibib giunse per ucciderlo |
 | ga-gorib-c04 | exact | fi.wikipedia.org | According to the Finnish article, Heitsi-Eibib waited until the monster looked away, then threw a stone that hit it under the ear and pushed it into the pit. | Ga-goribin kukisti lopulta sankari Heitsi-Ebib, joka malttoi odottaa ja heittää kiven vasta sitten, kun hirviö oli kääntänyt katseensa pois. Hän osui Ga-goribia korvan alle ja työnsi hänet alas kuoppaan. |
+| ga-gorib-c05 | exact | archive.org | In the version recorded by Theophilus Hahn, all the people who passed ǂGama-ǂgorib's place were thrown by him into the hole and so perished. | all the people who passed this place were thrown by ... into this hole, and so they perished. |
+| ga-gorib-c06 | exact | archive.org | According to Hahn, Heitsi-eibib was first thrown into the hole, but spoke to it, 'Hole of my ancestors, heave up your bottom a little, and give me a lift, that I can jump out'; the hole obeyed and he jumped out. | And first Heitsi-eibib was thrown into the hole. But he spoke to the hole, and said : " Hole of my ancestors, heave up your bottom a little, and give me a lift, that I can jump out." The hole obeyed, and Heitsi-eibib jumped out |
+| ga-gorib-c07 | exact | archive.org | In the third match, according to Hahn, Heitsi-eibib pitched his opponent into the hole by giving him a dead blow behind the ear. | And they played a third match, and Heitsi-eibib pitched ... into the hole, by giving him a dead blow behind the ear |
 
 
 ## ganipota — lulus-otomatis
@@ -539,10 +558,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hypnalis — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -551,6 +567,9 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | hypnalis-c03 | exact | it.wikipedia.org | In other versions sleep is not the venom's effect but the moment it chooses to strike, since it moves silently. | Secondo altre versioni, il sonno non sarebbe l'effetto del veleno del serpente, bensì il momento che questo sceglie per attaccare le sue vittime: l'ipnale si muove infatti silenziosamente. |
 | hypnalis-c04 | exact | it.wikipedia.org | Tradition holds that Cleopatra's famous asp, by which she had herself bitten to die, was a hypnalis. | Secondo la tradizione il famoso aspide di Cleopatra, dal quale ella si fece mordere per suicidarsi, era proprio un ipnale. |
 | hypnalis-c05 | exact | it.wikipedia.org | Boccaccio too names the ipnale explicitly in his commentary on the Divine Comedy when discussing this episode. | Anche Boccaccio, nel suo commento alla Divina commedia, richiama esplicitamente l'ipnale nel riferirsi a questo episodio. |
+| hypnalis-c06 | exact | bestiary.ca | The Medieval Bestiary lists the hypnalis or ypnalis as a variety of asp that kills by sending its victim to sleep; it was this snake that Cleopatra applied to herself. | Hypnalis or ypnalis: kills by sending its victim to sleep. It was this snake that Cleopatra applied to herself |
+| hypnalis-c07 | exact | bestiary.ca | Isidore of Seville (Etymologies 12.4:14) writes that the hypnalis, a type of asp, is so called because it kills by means of sleep; Cleopatra held this snake to herself and was overcome by death as if by sleep. | Isidore of Seville [7th century CE] (Etymologies, Book 12, 4:12-16) ... [Book 12, 4:14] The hypnalis, a type of asp, is so called because it kills by means of sleep. Cleopatra held this snake to herself and thus was overcome by death as if by sleep. |
+| hypnalis-c08 | exact | bestiary.ca | Solinus (De mirabilibus mundi 27.31) writes that the hypnale kills with sleep, and that this last, as Cleopatra may bear witness, was purchased for death. | Gaius Julius Solinus [3rd century CE] (De mirabilibus mundi / Polyhistor, Chapter 27.31-32, 34) ... the hypnale kills with sleep. This last is even -- as Cleopatra may bear witness -- purchased for death. |
 
 
 ## kaka — lulus-otomatis
@@ -584,16 +603,16 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## kuusu — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kuusu-c01 | exact | ca.wikipedia.org | The Kuusu was a kind of scarecrow formerly used in the Basque Country to fight evil spirits. | El Kuusu era una mena d'espantaocells que es feia servir antigament al País Basc per a combatre els mals esperits. |
 | kuusu-c02 | exact | ca.wikipedia.org | Basque mythology also has a spirit called Khuso which, according to Julio Caro Baroja, equals the iratxo, also called idittu or etxejaun, a kind of mischievous night sprite. | D'altra banda, en la mitologia basca hi ha un geni anomenat Khuso que, segons Julio Caro Baroja, és equiparable a l'iratxo, altrament dit idittu o etxejaun, una mena de follet entremaliat nocturn. |
 | kuusu-c03 | exact | ca.wikipedia.org | Manuel Agud and Antonio Tovar's Basque Etymological Dictionary defines Khuso as 'scarecrow, ghost', a loan from Béarnese gusot. | Al Diccionario Etimológico Vasco de Manuel Agud i Antonio Tovar, el mot Khuso hi apareix definit com a «espantaocells, fantasma [..] manlleu del bearnès gusot». |
+| kuusu-c04 | exact | www.labayru.eus | According to Labayru Fundazioa, common names for 'bird scarers' in Basque include txorimaloak, txori-jagoleak and kusoak. | Common names for ‘bird scarers’ are espantapájaros, in Spanish, and txorimaloak, txori-jagoleak or kusoak, among others, in Basque. |
+| kuusu-c05 | exact | www.labayru.eus | According to Labayru Fundazioa, homemade humanoid scarecrows placed in open cultivated fields, vineyards and fruit groves have been a common way to protect seed, growing crops and fruit harvests from birds. | Placed in open cultivated fields, vineyards and fruit groves, homemade humanoid scarecrows have been a common way to protect freshly broadcast seed, growing crops and fruit harvests from birds |
+| kuusu-c06 | exact | www.labayru.eus | According to Labayru Fundazioa, scarecrows are traditionally built out of old clothes stuffed with grass or straw and attached to a vertical post driven into the ground. | Scarecrows are traditionally built out of old clothes stuffed with grass or straw and attached to a vertical post driven into the ground. |
 
 
 ## leontophone — lulus-otomatis
