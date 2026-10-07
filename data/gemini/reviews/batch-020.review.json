@@ -1,27 +1,24 @@
 {
   "batch_id": "batch-020",
-  "checked_at": "2026-09-29T13:01:01.177Z",
+  "checked_at": "2026-10-07T05:52:43.167Z",
   "files": [
-    "batch-020.md"
+    "batch-020.md",
+    "batch-020-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "mrenh-kongveal",
-      "file": "batch-020.md",
+      "file": "batch-020-fix-1.md",
+      "entry_sha256": "0ea7d6e90d6933bbab6154a930b17ad411bf02189d878e3ebcdd6df69207b958",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Mrenh Gongveal house.jpg)",
@@ -33,8 +30,8 @@
           "id": "mrenh-kongveal-c01",
           "source_id": "mrenh-kongveal-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mrenh kongveal (ម្រេញគង្វាល) are beings of Cambodian folk mythology like Western elves, associated with guarding animals; their roots seem uniquely Khmer; child-sized and mischievous, they are often given offerings when asked for help.",
-          "statement_id": "Mrenh kongveal (ម្រេញគង្វាល) adalah makhluk mitologi rakyat Kamboja yang mirip peri Barat dan dikaitkan dengan penjagaan hewan; akarnya tampak khas Khmer; bertubuh kecil sebesar anak-anak, suka usil, dan sering diberi persembahan saat dimintai pertolongan.",
+          "statement": "Mrenh kongveal are beings of Cambodian folk mythology resembling Western elves, particularly associated with guarding animals; their roots seem uniquely Khmer; child-sized and fond of mischief, they are often given offerings when asked for help.",
+          "statement_id": "Mrenh kongveal adalah makhluk dalam mitologi rakyat Kamboja yang mirip peri Barat dan terutama dikaitkan dengan penjagaan hewan; akarnya tampak khas Khmer; bertubuh kecil sebesar anak-anak, suka usil, dan sering diberi persembahan saat dimintai pertolongan.",
           "quote": "are beings in Cambodian folk mythology resembling elves of western folklore; they are particularly associated with guarding animals. By anecdotal accounts the roots of Mrenh kongveal appear to be uniquely Khmer. The mrenh kongveal are small in stature with bodies comparable in size to human children, and are fond of mischief. Offerings are often left to them when seeking their help.",
           "context": "traditional-belief",
           "status": "exact"
@@ -53,8 +50,8 @@
           "id": "mrenh-kongveal-c03",
           "source_id": "mrenh-kongveal-s1",
           "host": "en.wikipedia.org",
-          "statement": "Originally they were seen as nomadic jungle beings herding wild herd animals like elephants; hunters, farmers and mahouts made offering baskets for them.",
-          "statement_id": "Semula mereka dianggap makhluk pengembara di hutan yang menggembalakan hewan liar berkelompok seperti gajah; pemburu, petani, dan pawang gajah membuat keranjang persembahan untuk mereka.",
+          "statement": "Originally they were seen as nomadic beings in the jungle, herdsmen of wild animals, especially herd animals such as elephants; hunters, farmers and mahouts made baskets to leave offerings for them.",
+          "statement_id": "Semula mereka dianggap makhluk pengembara di hutan, penggembala hewan liar, terutama hewan berkelompok seperti gajah; pemburu, petani, dan pawang gajah membuat keranjang untuk meninggalkan persembahan bagi mereka.",
           "quote": "Originally they were perceived to be nomadic beings in the jungle, where they were the guardian herdsmen of wild animals, especially social animals that travel in herds, such as elephants. Hunters, farmers and mahouts (elephant trappers), would make baskets to leave offerings for mrenh kongveal",
           "context": "traditional-belief",
           "status": "exact"
@@ -63,9 +60,119 @@
           "id": "mrenh-kongveal-c04",
           "source_id": "mrenh-kongveal-s1",
           "host": "en.wikipedia.org",
-          "statement": "Today mrenh kongveal are supernatural guardians of a person, place or institution, protecting and guiding via whispers or dreams; unseen by adults, they can appear to pure-hearted children aged 6–14, and many in Cambodia claim to have seen them.",
-          "statement_id": "Kini mrenh kongveal dianggap penjaga gaib seseorang, tempat, atau lembaga, yang melindungi dan membimbing lewat bisikan atau mimpi; mereka tak terlihat orang dewasa, tetapi dapat menampakkan diri kepada anak 6–14 tahun yang berhati bersih.",
+          "statement": "Today mrenh kongveal are thought of as akin to supernatural guardians associated with a person, place or institution; they protect or guide their benefactors, usually through telepathy (heard as whispers) or by influencing dreams; adults cannot see them, but they are believed able to appear to children between 6 and 14.",
+          "statement_id": "Kini mrenh kongveal dianggap setara penjaga gaib yang terkait dengan seseorang, tempat, atau lembaga; mereka melindungi atau membimbing penolongnya, biasanya lewat telepati (terdengar sebagai bisikan) atau memengaruhi mimpi; orang dewasa tak dapat melihatnya, tetapi diyakini mereka dapat menampakkan diri kepada anak-anak berusia 6 hingga 14 tahun.",
           "quote": "Today mrenh kongveal are thought of as akin to supernatural guardians, associated with a person, place, or institution. They protect or offer guidance to their benefactors, usually through telepathy (heard as whispers) or influencing dreams. They cannot be seen by adults but belief holds that they can make themselves appear to children between the ages of 6 and 14",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c05",
+          "source_id": "mrenh-kongveal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name is written ម្រេញគង្វាល in Khmer script, transliterated M'rénh Kóngvéal.",
+          "statement_id": "Nama ini ditulis ម្រេញគង្វាល dalam aksara Khmer, dengan transliterasi M'rénh Kóngvéal.",
+          "quote": "(Khmer: ម្រេញគង្វាល, M’rénh Kóngvéal",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "mrenh-kongveal-c06",
+          "source_id": "mrenh-kongveal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Romanization variants include m'ring kung veal, mereng kung veal, merang keng veal, mreñ ganval and mrén kongvial.",
+          "statement_id": "Varian ejaan romanisasinya antara lain m'ring kung veal, mereng kung veal, merang keng veal, mreñ ganval, dan mrén kongvial.",
+          "quote": "Variants include m'ring kung veal, mereng kung veal, merang keng veal, mreñ ganval and mrén kongvial.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c07",
+          "source_id": "mrenh-kongveal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Children who are \"pure of heart\" may see mrenh kongveal, and many Cambodians claim to have seen them as children.",
+          "statement_id": "Anak-anak yang \"berhati bersih\" dapat melihat mrenh kongveal, dan banyak orang Kamboja mengaku pernah melihatnya semasa kecil.",
+          "quote": "who are \"pure of heart\", and many Cambodians claim to have seen mrenh kongveal as children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c08",
+          "source_id": "mrenh-kongveal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The offerings were left to bring luck in the hunt, to help capture young elephants and buffalo, or to keep wild animals away from crops.",
+          "statement_id": "Persembahan itu ditinggalkan untuk membawa keberuntungan dalam berburu, membantu menangkap anak gajah dan kerbau, atau menjauhkan hewan liar dari tanaman.",
+          "quote": "to bring luck in the hunt, to help them capture young elephants and buffalo, or to ward wild animals away from their crops.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c09",
+          "source_id": "mrenh-kongveal-s2",
+          "host": "archive.org",
+          "statement": "This country study lists the mrenh kongveal, \"elf-like guardians of animals\", among the supernatural entities believed to exist, together with the mneang phteah (guardians of the house) and meba (ancestral spirits).",
+          "statement_id": "Studi negara ini mendaftar mrenh kongveal, \"penjaga hewan yang mirip peri\", di antara makhluk gaib yang dipercaya ada, bersama mneang phteah (penjaga rumah) dan meba (roh leluhur).",
+          "quote": "mneang phteah (guardians of the house), meba (ancestral spirits), and mrenh kongveal (elf-like guardians of animals).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c10",
+          "source_id": "mrenh-kongveal-s2",
+          "host": "archive.org",
+          "statement": "All spirits must be shown proper respect; unlike the other spirits, which can cause trouble ranging from mischief, the mneang phteah and mrenh kongveal are excepted.",
+          "statement_id": "Semua roh harus dihormati; berbeda dari roh lain, yang dapat menimbulkan kesulitan mulai dari keusilan, mneang phteah dan mrenh kongveal dikecualikan.",
+          "quote": "All spirits must be shown proper respect, and, with the exception of the mneang phteah and mrenh kongveal, they can cause trouble ranging from mischief",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c11",
+          "source_id": "mrenh-kongveal-s3",
+          "host": "careysincambodia.substack.com",
+          "statement": "According to this blog's authors, mrenh kongveal are juvenile male spirits typically associated with the forest that, according to folklore, care for animals, particularly elephants.",
+          "statement_id": "Menurut penulis blog ini, mrenh kongveal adalah roh lelaki muda yang biasanya dikaitkan dengan hutan dan, menurut cerita rakyat, merawat hewan, terutama gajah.",
+          "quote": "Juvenile male spirits typically associated with the forest, Mrenh Kongveal care for animals, particularly elephants, according to folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c12",
+          "source_id": "mrenh-kongveal-s3",
+          "host": "careysincambodia.substack.com",
+          "statement": "Other stories depict the mrenh kongveal as benevolent, slightly mischievous wish-granting spirits; offerings of candy and toys keep them content and incline them to grant wishes.",
+          "statement_id": "Cerita lain menggambarkan mrenh kongveal sebagai roh baik hati, agak usil, yang mengabulkan permintaan; persembahan permen dan mainan membuat mereka puas dan condong mengabulkan permintaan.",
+          "quote": "Other stories about Mrenh Kongveal depict them as benevolent, slightly mischievous wish-granting spirits. Offerings of candy and toys keep them content and incline them to grant wishes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c13",
+          "source_id": "mrenh-kongveal-s3",
+          "host": "careysincambodia.substack.com",
+          "statement": "Individuals or shopkeepers may hang a playhouse-style shrine to entice a mrenh kongveal to stay and bring prosperity to the home or business.",
+          "statement_id": "Perorangan atau pemilik toko dapat menggantung kuil seperti rumah-rumahan untuk membujuk mrenh kongveal agar tinggal dan membawa kemakmuran bagi rumah atau usaha.",
+          "quote": "Individuals or shopkeepers may hang a playhouse shrine to try and entice a Mrenh Kongveal to stick around and bring prosperity to the home or business.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c14",
+          "source_id": "mrenh-kongveal-s3",
+          "host": "careysincambodia.substack.com",
+          "statement": "Supposedly, very young human children can see the mrenh kongveal and even play with them.",
+          "statement_id": "Konon anak manusia yang sangat kecil dapat melihat mrenh kongveal dan bahkan bermain dengannya.",
+          "quote": "Supposedly, very young human children can see the Mrenh Kongveal and even play with them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mrenh-kongveal-c15",
+          "source_id": "mrenh-kongveal-s3",
+          "host": "careysincambodia.substack.com",
+          "statement": "According to the blog's authors, mrenh kongveal normally wear no clothing; the little boy spirits run wild through the jungle as they keep the herds in line.",
+          "statement_id": "Menurut penulis blog ini, mrenh kongveal biasanya tidak berpakaian; roh-roh lelaki kecil itu berlarian liar di hutan sambil menjaga kawanan tetap teratur.",
+          "quote": "Mrenh Kongveal normally don’t wear clothing. The little boy spirits run wild through the jungle as they keep the herds in line.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -102,18 +209,19 @@
     },
     {
       "slug": "o-tokata",
-      "file": "batch-020.md",
+      "file": "batch-020-fix-1.md",
+      "entry_sha256": "a4dfdde2bc486893c9879f4533be280acbd61f6ebde2ab8fdad2a91ace671f07",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 14 klaim (target 15), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -166,33 +274,122 @@
           "quote": "Following the sectarian conflict that took place in Tobelo in 1999–2000 between the Christians and the Muslims, a vengeful female spirit that appeared four years later in the area was named Suanggi and was identified with O Tokata.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "o-tokata-c06",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The spirit manifested itself in February 2004 as a young woman, haunting the Tobelo area for about two months; it was said to be an unconventional form of Suanggi identified with O Tokata, a local malevolent spirit.",
+          "statement_id": "Roh itu menampakkan diri pada Februari 2004 dalam wujud seorang perempuan muda dan menghantui daerah Tobelo sekitar dua bulan; ia disebut bentuk tak lazim suanggi yang disamakan dengan O Tokata, roh jahat setempat.",
+          "quote": "The spirit manifested itself in February 2004 in the form of a young woman, haunting the Tobelo area for about two months. It was an allegedly unconventional form of Suanggi that was identified with O Tokata, a local malevolent spirit.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c07",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The suanggi appeared as a beautiful woman who enticed young men, particularly teachers.",
+          "statement_id": "Suanggi itu tampil sebagai perempuan cantik yang menggoda pemuda, khususnya para guru.",
+          "quote": "Suanggi appeared as a beautiful woman that enticed young men, particularly teachers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c08",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "When the man agreed to have sex with her, she would attack him and devour his genitals.",
+          "statement_id": "Bila si lelaki setuju bersetubuh dengannya, ia akan menyerang dan melahap alat kelamin lelaki itu.",
+          "quote": "When the man agreed to have sex with her she would attack him and devour his genitals.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c09",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "The spirit's presence created an atmosphere of fear not only in Tobelo but elsewhere in North Maluku; villagers, especially children, were forbidden to go outside at night.",
+          "statement_id": "Kehadiran roh itu menimbulkan suasana takut tidak hanya di Tobelo tetapi juga di tempat lain di Maluku Utara; warga desa, terutama anak-anak, dilarang keluar rumah pada malam hari.",
+          "quote": "The presence of the spirit created an atmosphere of fear not only in Tobelo but at other places of North Maluku as well. Villagers, particularly the children, were forbidden to go outside their homes in the night.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c10",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "It was claimed that this suanggi was the vengeful ghost of a Muslim girl seeking retribution against her attackers.",
+          "statement_id": "Konon suanggi ini adalah hantu pendendam seorang gadis Muslim yang mencari balas terhadap para penyerangnya.",
+          "quote": "It was claimed that this Suanggi was the vengeful ghost of a Muslim girl seeking retribution against her attackers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c11",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "After her death her whereabouts were unknown, but six months later the location of her body in a ravine was revealed to a diviner in a dream; when her remains were found, a formal burial ceremony was performed.",
+          "statement_id": "Setelah ia meninggal, keberadaannya tidak diketahui, tetapi enam bulan kemudian lokasi jasadnya di sebuah jurang diungkapkan kepada seorang peramal lewat mimpi; setelah jasadnya ditemukan, upacara pemakaman resmi dilakukan.",
+          "quote": "After her death her whereabouts were unknown, but six months later the location of her body lying in a ravine was revealed to a diviner in a dream. When her mortal remains were found in that location, a formal burial ceremony was performed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c12",
+          "source_id": "o-tokata-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Later in 2004, during the first national election in Eastern Indonesia, a local Christian farmer heard the loud wailing of a woman near his plantation.",
+          "statement_id": "Kemudian pada 2004, saat pemilu nasional pertama di Indonesia timur, seorang petani Kristen setempat mendengar tangisan keras seorang perempuan di dekat kebunnya.",
+          "quote": "Later in 2004, during the first national election in Eastern Indonesia, a local Christian farmer heard the loud wailing cries of a woman near his plantation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "o-tokata-c13",
+          "source_id": "o-tokata-s3",
+          "host": "minpaku.repo.nii.ac.jp",
+          "statement": "According to Yoshida, in the Tobelo area there is an evil spirit named o tokata of two types: one that comes from the forest, and o tokata o tonakino, which comes from the ground.",
+          "statement_id": "Menurut Yoshida, di wilayah Tobelo ada roh jahat bernama o tokata yang terdiri atas dua jenis: yang datang dari hutan, dan o tokata o tonakino yang datang dari tanah.",
+          "quote": "In the Tobelo area, there is an evil spirit named o tokata, which is of two types: ... which comes from the forest, and o tokata o tonakino which comes from the ground.",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260804184130id_/https://minpaku.repo.nii.ac.jp/record/3420/files/SES07_005.pdf",
+          "detail": "HTTP 406; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "o-tokata-c14",
+          "source_id": "o-tokata-s3",
+          "host": "minpaku.repo.nii.ac.jp",
+          "statement": "The nighttime visit of o tokata o honganino is said to affect people's legs in bizarre ways, so people sleep with their heads in the land direction, toward the wall of the house, to protect themselves from the spirit.",
+          "statement_id": "Kunjungan malam o tokata o honganino konon memengaruhi kaki orang secara aneh; karena itu orang tidur dengan kepala ke arah darat, menghadap dinding rumah, untuk melindungi diri dari roh itu.",
+          "quote": "The nighttime visit of o tokata o honganino is said to affect people's legs in bizarre ways. So, the people sleep with their heads in a land‑direction, toward the wall of the house, in order to protect themselves from the spirit",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260804184130id_/https://minpaku.repo.nii.ac.jp/record/3420/files/SES07_005.pdf",
+          "detail": "HTTP 406; dicek lewat arsip Wayback"
         }
       ],
       "images": []
     },
     {
       "slug": "phong-ghost",
-      "file": "batch-020.md",
+      "file": "batch-020-fix-1.md",
+      "entry_sha256": "c151c5bfbad297d76e4825233089a516dc03aeea4fcbcc3fdbaed2e3c336482c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "phong-ghost-c01",
           "source_id": "phong-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "Phi Phong (ผีโพง), called Phi Pao in northeastern Thailand, is a ghost of northern Thai folklore resulting from black magic gone awry in those unable to control their power.",
-          "statement_id": "Phi Phong (ผีโพง), di timur laut Thailand disebut Phi Pao, adalah hantu cerita rakyat Thailand utara, akibat ilmu hitam yang gagal dari orang yang tak mampu mengendalikan kekuatan sihirnya.",
+          "statement": "Phi Phong, called Phi Pao (ผีเป้า) in northeastern Thailand, is a ghost found in northern Thai folklore, said to result from black magic gone awry in those who practise dark sorcery but fail to control the power within themselves.",
+          "statement_id": "Phi Phong, di timur laut Thailand disebut Phi Pao (ผีเป้า), adalah hantu dalam cerita rakyat Thailand utara; ia dikatakan akibat ilmu hitam yang gagal, dari orang yang berlatih sihir gelap tetapi tak mampu mengendalikan kekuatan di dalam dirinya.",
           "quote": "also known as Phi Pao (ผีเป้า, pronounced [pʰīː pǎw]) in northeastern Thailand) or simply Phong is a ghost found in northern Thai folklore. It is said to be the result of black magic gone awry—specifically from those who practice dark sorcery but fail to control the power within themselves.",
           "context": "traditional-belief",
           "status": "loose"
@@ -201,8 +398,8 @@
           "id": "phong-ghost-c02",
           "source_id": "phong-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "The condition comes from raising the glowing white-leaved magical plant wan phi phong; as it matures its leaves resemble the grower's face, who eventually becomes Phi Phong.",
-          "statement_id": "Keadaan ini berasal dari memelihara tanaman gaib wan phi phong berdaun putih yang bercahaya; saat dewasa daunnya menyerupai wajah pemeliharanya, dan akhirnya ia berubah menjadi Phi Phong.",
+          "statement": "As the plant matures, its leaves are said to change shape to resemble the face of the person raising it; eventually the cultivator transforms into Phi Phong.",
+          "statement_id": "Seiring tanaman itu matang, daunnya konon berubah bentuk menyerupai wajah orang yang memeliharanya; akhirnya si pemelihara berubah menjadi Phi Phong.",
           "quote": "As the plant matures, its leaves are said to change shape to resemble the face of the person raising it. Eventually, the cultivator transforms into Phi Phong.",
           "context": "traditional-belief",
           "status": "exact"
@@ -211,8 +408,8 @@
           "id": "phong-ghost-c03",
           "source_id": "phong-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "By day Phi Phong looks ordinary; by night a soft flame glows in its nose; like the krasue, krahang and pop it eats frogs, dung, corpses and afterbirth and avoids humans.",
-          "statement_id": "Siang hari Phi Phong tampak seperti orang biasa, malam hari api lembut menyala dari hidungnya; seperti krasue, krahang, dan pop, ia memakan katak, kotoran, bangkai, dan ari-ari, serta menghindari manusia.",
+          "statement": "By day Phi Phong looks just like an ordinary person, but by night it reveals its true form; a soft, flickering flame glows from within its nose.",
+          "statement_id": "Pada siang hari Phi Phong tampak seperti orang biasa, tetapi pada malam hari ia menunjukkan wujud aslinya; api kecil yang berkelip lembut menyala dari dalam hidungnya.",
           "quote": "By day, Phi Phong appears just like any ordinary person. But by night, it reveals its true form. A soft, flickering flame glows from within its nose",
           "context": "traditional-belief",
           "status": "exact"
@@ -231,9 +428,149 @@
           "id": "phong-ghost-c05",
           "source_id": "phong-ghost-s1",
           "host": "en.wikipedia.org",
-          "statement": "One way to destroy a Phi Phong is to correctly name a person aloud as one; the curse also spreads through saliva.",
-          "statement_id": "Satu cara membinasakan Phi Phong adalah menyebut dengan tepat dan lantang bahwa orang tertentu adalah Phi Phong; kutukannya juga menular lewat air liur.",
+          "statement": "There is one way to destroy a Phi Phong: if someone correctly identifies and speaks aloud that a particular person is a Phi Phong, the spirit loses its power and dies.",
+          "statement_id": "Ada satu cara membinasakan Phi Phong: bila seseorang dengan tepat mengenali dan menyebut lantang bahwa orang tertentu adalah Phi Phong, roh itu kehilangan kekuatan dan mati.",
           "quote": "There is one way to destroy a Phi Phong: if someone correctly identifies and speaks aloud that a particular person is a Phi Phong, the spirit loses its power and dies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c06",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Phi Phong is written ผีโพง in Thai script.",
+          "statement_id": "Nama Phi Phong ditulis ผีโพง dalam aksara Thai.",
+          "quote": "Phi Phong (Thai: ผีโพง, pronounced",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "phong-ghost-c07",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A resin-like substance resembling dripping torch wax oozes down.",
+          "statement_id": "Zat seperti damar yang menyerupai lilin obor menetes dari hidungnya.",
+          "quote": "and a resin-like substance resembling dripping torch wax oozes down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c08",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Like other Thai spirits such as Phi Krasue, Phi Krahang or Phi Pop, Phi Phong seeks out filth to feed on: frogs, animal dung, rotting corpses and afterbirth.",
+          "statement_id": "Seperti hantu Thai lain seperti Phi Krasue, Phi Krahang, atau Phi Pop, Phi Phong mencari kotoran untuk dimakan: katak, tinja hewan, mayat membusuk, dan ari-ari.",
+          "quote": "Much like other Thai spirits such as Phi Krasue, Phi Krahang, or Phi Pop, Phi Phong seeks out filth to feed on—frogs, animal dung, rotting corpses, and afterbirth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c09",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It avoids humans, retreating into darkness whenever someone comes too close, making it almost impossible to follow or catch.",
+          "statement_id": "Ia menghindari manusia dan mundur ke kegelapan bila seseorang mendekat, sehingga hampir mustahil diikuti atau ditangkap.",
+          "quote": "It avoids humans, retreating into darkness whenever someone comes too close, making it almost impossible to follow or catch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c10",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wan phi phong is a ghostly plant with white leaves, a fiery taste and a glow that shines in the dark like a luminous woodlouse.",
+          "statement_id": "Wan phi phong adalah tanaman hantu berdaun putih, berasa pedas membakar, dan bercahaya dalam gelap seperti kutu kayu yang berpendar.",
+          "quote": "a ghostly plant with white leaves, a fiery taste, and a glow that shines in the dark like a luminous woodlouse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c11",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As in the lore of Phi Krasue, Phi Phong can pass its spirit on through its saliva; if someone unknowingly ingests it, by drinking contaminated water or sharing utensils, the curse is passed on.",
+          "statement_id": "Seperti dalam kisah Phi Krasue, Phi Phong dapat menularkan rohnya lewat air liurnya; bila seseorang tanpa sadar menelannya, misalnya lewat air tercemar atau berbagi alat makan, kutukan itu berpindah.",
+          "quote": "Much like the lore surrounding Phi Krasue, Phi Phong can pass its spirit to another through its saliva. If someone unknowingly ingests it—by drinking contaminated water or sharing utensils—the curse is passed on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c12",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the village of Ban Nong Phi Lok, locals claim Phi Phong frequently appeared near the marsh at night, so people avoided the area after dark.",
+          "statement_id": "Di desa Ban Nong Phi Lok, warga setempat mengaku Phi Phong sering muncul di dekat rawa pada malam hari, sehingga orang menghindari daerah itu setelah gelap.",
+          "quote": "In the village of Ban Nong Phi Lok (บ้านหนองผีหลอก ... Locals claim that Phi Phong frequently appeared near the marsh at night, causing people to avoid traveling the area after dark.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c13",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to an informant, the practice is rooted in Khmer occult traditions, and the spirit is said to be kept inside a small container resembling a balm jar or a wax box.",
+          "statement_id": "Menurut seorang informan, praktik ini berakar pada tradisi okultisme Khmer, dan rohnya konon disimpan dalam wadah kecil seperti kotak balsam atau kotak lilin.",
+          "quote": "the practice is rooted in Khmer occult traditions. The spirit is said to be kept inside a small container resembling a balm jar or a wax box",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c14",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Phi Phong is believed to grant its keeper supernatural protection, such as invulnerability to weapons or physical harm.",
+          "statement_id": "Phi Phong dipercaya memberi pemeliharanya perlindungan gaib, seperti kekebalan terhadap senjata atau cedera fisik.",
+          "quote": "The Phi Phong is believed to grant its keeper supernatural protection, such as invulnerability to weapons or physical harm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c15",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If the keeper fails to uphold these practices, the spirit may break free and attack people instead.",
+          "statement_id": "Bila pemelihara gagal menjalankan ritual itu, roh dapat lepas dan menyerang orang.",
+          "quote": "If the keeper fails to uphold these practices, the spirit may break free and attack people instead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c16",
+          "source_id": "phong-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Phi Phong appeared as one of the regional ghosts in Lhorn (หลอน), a 2003 Thai horror anthology film on supernatural beliefs across Thailand's four regions, representing the north.",
+          "statement_id": "Phi Phong tampil sebagai salah satu hantu daerah dalam Lhorn (หลอน), film antologi horor Thai tahun 2003 tentang kepercayaan gaib di empat wilayah Thailand, dengan Phi Phong mewakili utara.",
+          "quote": "It was featured as one of the regional ghosts in Lhorn (หลอน), a 2003 Thai horror anthology film exploring supernatural beliefs across Thailand's four regions, with Phi Phong representing the north.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c17",
+          "source_id": "phong-ghost-s2",
+          "host": "rsujournals.rsu.ac.th",
+          "statement": "According to this journal article, evil spirits usually come from people who broke the customs of society, for example the phi pao or phi phong, which arise from people who like to eat raw food.",
+          "statement_id": "Menurut artikel jurnal ini, hantu jahat umumnya berasal dari orang yang melanggar adat masyarakat, misalnya phi pao atau phi phong yang berasal dari orang yang suka makan makanan mentah.",
+          "quote": "ส่วนผีร้าย มักจะมีที่มาจากผู้ที่ กระทาผิดจากจารีตประเพณีของสังคม เช่น ผีเป้าหรือผีโพงเกิดจากผู้ที่ชอบกินของดิบ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c18",
+          "source_id": "phong-ghost-s3",
+          "host": "www.naewna.com",
+          "statement": "In this news report, some neighbouring villagers said the mysterious light might be the fire of a phi phong out feeding at night, mostly from people who dabble in occult objects.",
+          "statement_id": "Dalam laporan berita ini, sebagian warga sekitar mengatakan cahaya misterius itu mungkin api phi phong yang keluar mencari makan pada malam hari, dan biasanya berasal dari orang yang bermain benda gaib.",
+          "quote": "แต่ชาวบ้านในระแวกบ้างก็ว่า น่าเป็นดวงไฟของผีโพงออกหากินยามค่ำคืน ส่วนมากจะเป็นคนที่เล่นของสิ่งลี้ลับ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phong-ghost-c19",
+          "source_id": "phong-ghost-s3",
+          "host": "www.naewna.com",
+          "statement": "A witness in the report said the night of the event was wan kon, when people who keep such occult objects usually release them to feed.",
+          "statement_id": "Seorang saksi dalam laporan itu menyebut bahwa malam kejadian adalah wan kon, saat orang yang bermain benda gaib biasanya melepas benda itu keluar mencari makan.",
+          "quote": "ซึ่งในละแวกหมู่บ้านตนนั้นก็ยังมีคนเล่นของหรือเล่นคุณไสยอยู่ และคืนวันที่เกิดเหตุก็คือวันโกน ซึ่งจะเป็นปกติของคนที่เล่นของจะปล่อยของออกมาหากิน",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -242,27 +579,22 @@
     },
     {
       "slug": "pu-som-fao-sap",
-      "file": "batch-020.md",
+      "file": "batch-020-fix-1.md",
+      "entry_sha256": "c8209784e87486506b9f771849db2a98c42ac0c683892a521799ac935d00279a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 23,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pu-som-fao-sap-c01",
           "source_id": "pu-som-fao-sap-s1",
           "host": "en.wikipedia.org",
-          "statement": "Pu Som Fao Sap (ปู่โสมเฝ้าทรัพย์, 'Grandfather Som who guards treasures') is a Thai ghost believed to guard treasures or national wealth, such as hidden Ayutthaya riches, like a guardian of sacred possessions.",
-          "statement_id": "Pu Som Fao Sap (ปู่โสมเฝ้าทรัพย์, 'Kakek Som penjaga harta') adalah hantu Thailand yang dipercaya menjaga harta berharga atau kekayaan bangsa, seperti harta tersembunyi Kerajaan Ayutthaya, mirip roh penjaga benda sakral.",
+          "statement": "Pu Som Fao Sap is a type of Thai ghost believed to guard precious treasures or national wealth, such as hidden riches from the Ayutthaya Kingdom; its role resembles that of guardian spirits or tutelary deities protecting sacred possessions.",
+          "statement_id": "Pu Som Fao Sap (ปู่โสมเฝ้าทรัพย์) adalah jenis hantu Thailand yang dipercaya menjaga harta berharga atau kekayaan bangsa, seperti harta tersembunyi dari Kerajaan Ayutthaya; perannya mirip roh penjaga atau dewa pelindung benda-benda sakral.",
           "quote": "is a type of Thai ghost believed to guard precious treasures or national wealth, such as hidden riches from the Ayutthaya Kingdom. Its role resembles that of guardian spirits or tutelary deities who protect sacred possessions.",
           "context": "traditional-belief",
           "status": "exact"
@@ -271,8 +603,8 @@
           "id": "pu-som-fao-sap-c02",
           "source_id": "pu-som-fao-sap-s1",
           "host": "en.wikipedia.org",
-          "statement": "The best-known account was around 1957–1958 at Wat Ratchaburana, Ayutthaya, when thieves looted the temple hoard; strange events followed, only about 20 percent was recovered, now at the Chao Sam Phraya National Museum, and many blamed the guardian ghost.",
-          "statement_id": "Kisah paling terkenal terjadi sekitar 1957–1958 di Wat Ratchaburana, Ayutthaya, saat pencuri menjarah harta kuil; setelahnya terjadi kejadian aneh, hanya sekitar 20 persen harta kembali dan kini di Museum Nasional Chao Sam Phraya, dan banyak orang menganggapnya ulah hantu penjaga.",
+          "statement": "The most well-known account took place around 1957–1958 at Wat Ratchaburana in Ayutthaya, when a group of thieves secretly looted the temple's treasure hoard over three days because of its vast abundance.",
+          "statement_id": "Kisah paling terkenal terjadi sekitar 1957–1958 di Wat Ratchaburana, Ayutthaya, ketika sekelompok pencuri diam-diam menjarah timbunan harta kuil selama tiga hari karena begitu melimpahnya.",
           "quote": "The most well-known account took place around 1957–1958 at Wat Ratchaburana in Ayutthaya, when a group of thieves secretly looted the temple's treasure hoard over the course of three days because of its vast abundance.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -281,10 +613,210 @@
           "id": "pu-som-fao-sap-c03",
           "source_id": "pu-som-fao-sap-s1",
           "host": "en.wikipedia.org",
-          "statement": "Other accounts give a mundane explanation: one looter was a police officer whose dispute over the loot led to the gang's arrest, and the market sword dance seems a separate event.",
-          "statement_id": "Catatan lain menawarkan penjelasan yang lebih biasa: salah satu penjarah adalah polisi yang bersengketa soal pembagian harta hingga komplotannya ditangkap, dan kisah tarian pedang di pasar tampaknya peristiwa terpisah.",
+          "statement": "Further details suggest a much more mundane explanation: one of the looters was himself a police officer.",
+          "statement_id": "Rincian lebih lanjut mengarah pada penjelasan yang jauh lebih biasa: salah satu penjarah ternyata seorang polisi.",
           "quote": "However, further details suggest a much more mundane explanation. According to accounts, one of the looters was himself a police officer.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c04",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Phra Saeng Khan Chai Si, one of the royal regalia swords, was said to have emitted a dazzling light, while the sky turned ominously unsettled.",
+          "statement_id": "Pedang Phra Saeng Khan Chai Si, salah satu pedang pusaka kerajaan, konon memancarkan cahaya menyilaukan, sementara langit menjadi tidak tenang.",
+          "quote": "The Phra Saeng Khan Chai Si, one of the royal regalia swords, was said to have emitted a dazzling light, while the sky turned ominously unsettled.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c05",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many believe these events were the work of the spectral guardian who watches over the ancient hoard.",
+          "statement_id": "Banyak orang percaya peristiwa itu ulah penjaga gaib yang mengawasi timbunan harta kuno.",
+          "quote": "Many believe these events were the work of the spectral guardian who watches over the ancient hoard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c06",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Observers later conflated this with the earlier looting case, interpreting it as evidence of a curse tied to the ancient treasure.",
+          "statement_id": "Para pengamat kemudian mencampuradukkannya dengan kasus penjarahan sebelumnya dan menafsirkannya sebagai bukti kutukan yang terkait harta kuno itu.",
+          "quote": "Observers later conflated this with the earlier looting case, interpreting it as evidence of a curse tied to the ancient treasure.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c07",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the account told by Prince Bira, he saw a towering headless figure near the chapel ruins; the apparition resembled an ancient warrior in dark blue garments, muscular and imposing.",
+          "statement_id": "Dalam kisah yang dituturkan Pangeran Bira, ia melihat sosok menjulang tanpa kepala di dekat reruntuhan kapel; penampakan itu menyerupai prajurit kuno berpakaian biru tua, kekar dan gagah.",
+          "quote": "he looked up and saw a towering headless figure near the chapel ruins. The apparition resembled an ancient warrior in dark blue garments, muscular and imposing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c08",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When he told the villagers, they insisted it had been the spirit of Pu Som Fao Sap, appearing as a sign that he was close to uncovering hidden wealth.",
+          "statement_id": "Ketika ia menceritakannya kepada penduduk desa, mereka berkeras bahwa itu roh Pu Som Fao Sap, yang muncul sebagai tanda ia hampir menemukan harta tersembunyi.",
+          "quote": "When he told the villagers, they insisted that it had been the spirit of Pu Som Fao Sap, appearing as a sign that he was close to uncovering hidden wealth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c09",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A monk explained that the apparition was Phat, an aide-de-camp of King U-Thong, the founder of Ayutthaya, cursed to guard the treasures and punish intruders.",
+          "statement_id": "Seorang biksu menjelaskan bahwa penampakan itu adalah Phat, ajudan Raja U-Thong, pendiri Ayutthaya, yang dikutuk menjaga harta dan menghukum penyusup.",
+          "quote": "the monk explained that the apparition was Phat, an aide-de-camp of King U-Thong, the founder of Ayutthaya, cursed to guard the treasures and punish intruders.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c10",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Villagers explained this was because he had failed to perform rituals or seek permission from the spirits, so the treasures were supernaturally moved away.",
+          "statement_id": "Penduduk desa menjelaskan bahwa hal itu karena ia tidak melakukan ritual atau meminta izin kepada para roh, sehingga harta itu dipindahkan secara gaib.",
+          "quote": "Villagers explained that this was because he had failed to perform rituals or seek permission from the spirits, so the treasures were supernaturally moved away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c11",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the same account, he heard the sound of digging, \"chuk chuk\", around his bedroom; when he went to look nothing could be seen, yet the noise continued.",
+          "statement_id": "Dalam kisah yang sama, ia mendengar bunyi menggali \"chuk chuk\" di sekitar kamar tidurnya; ketika diperiksa tak tampak apa pun, tetapi bunyinya terus berlanjut.",
+          "quote": "he heard the sound of digging, \"chuk chuk,\" around his bedroom. When he went to investigate nothing could be seen, yet the noise continued",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c12",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Historian Rungroj Piromanukul of Ramkhamhaeng University suggests such beliefs were unlikely to originate in the Ayutthaya period; his argument rests on the absence of treasure-guarding spirits in the Three Seals Law Code.",
+          "statement_id": "Sejarawan Rungroj Piromanukul dari Universitas Ramkhamhaeng menduga kepercayaan semacam ini kecil kemungkinan berasal dari masa Ayutthaya; alasannya, tidak ada roh penjaga harta dalam Undang-Undang Tiga Stempel.",
+          "quote": "historian Rungroj Piromanukul of Ramkhamhaeng University (RU) suggests that such beliefs were unlikely to originate in the Ayutthaya period itself. His argument rests on the absence of treasure-guarding spirits in the Three Seals Law Code",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c13",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, neither historical records nor archaeological evidence in Thailand indicate that individuals were ever executed to become guardian spirits of hidden treasures.",
+          "statement_id": "Menurut artikel ini, baik catatan sejarah maupun bukti arkeologi di Thailand tidak menunjukkan bahwa orang pernah dieksekusi agar menjadi roh penjaga harta tersembunyi.",
+          "quote": "neither historical records nor archaeological evidence in Thailand indicate that individuals were ever executed in order to become guardian spirits of hidden treasures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c14",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story of Pu Som Fao Sap was adapted into a television drama of the same name on Channel 7 in 2007, starring Suvanant Punnakant.",
+          "statement_id": "Kisah Pu Som Fao Sap diadaptasi menjadi drama televisi bernama sama di Channel 7 pada 2007, dibintangi Suvanant Punnakant.",
+          "quote": "The story of Pu Som Fao Sap was adapted into a television drama of the same name on Channel 7 in 2007, starring Suvanant Punnakant.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c15",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story was further adapted into the television drama Pitsawat on One 31 in 2016, based on a work by Thommayanti and starring Woranuch Bhirombhakdi; in it the treasure-guarding spirit was reimagined as a female ghost who had been executed by decapitation.",
+          "statement_id": "Kisah itu juga diadaptasi menjadi drama televisi Pitsawat di One 31 pada 2016, berdasarkan karya Thommayanti dan dibintangi Woranuch Bhirombhakdi; di dalamnya roh penjaga harta digambarkan ulang sebagai hantu perempuan yang dieksekusi dengan pemenggalan.",
+          "quote": "the television drama Pitsawat on One 31 in 2016, based on a work by Thommayanti, starring Woranuch Bhirombhakdi. In this adaptation, the treasure-guarding spirit was reimagined as a female ghost who had been executed by decapitation.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c16",
+          "source_id": "pu-som-fao-sap-s2",
+          "host": "web.archive.org",
+          "statement": "It is told that once Nai Som, chief confidant of a high nobleman, hid a great quantity of valuable treasure in a cave and killed all his companions, leaving himself alone.",
+          "statement_id": "Konon pada suatu ketika Nai Som, kepala orang kepercayaan seorang bangsawan tinggi, menyembunyikan harta amat berharga di sebuah gua dan membunuh semua rekannya hingga ia tinggal sendirian.",
+          "quote": "เล่ากันว่าครั้งหนึ่ง นายโสม หัวหน้าคนสนิทของขุนนางผู้ใหญ่นำทรัพย์สมบัติมีค่าเป็นอันมากไปซ่อนไว้ในถ้ำ นายโสมฆ่าพวกพ้องของตนจนตายหมด เหลือนายโสมคนเดียว",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c17",
+          "source_id": "pu-som-fao-sap-s2",
+          "host": "web.archive.org",
+          "statement": "When the city fell and people scattered, no one came back for the treasure; Nai Som died with it, and his spirit has guarded the treasure ever since.",
+          "statement_id": "Ketika kota jatuh dan orang-orang berpencar, tak seorang pun datang mengambil harta itu; Nai Som mati bersama harta tersebut, dan rohnya terus menjaganya sejak itu.",
+          "quote": "เมื่อกรุงแตกสูญหายกันไป ไม่มีใครมารับของกลับคืน นายโสมก็ตายอยู่กับสมบัติเหล่านั้น วิญญาณนายโสมเฝ้าทรัพย์อยู่ตลอดมา",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c18",
+          "source_id": "pu-som-fao-sap-s2",
+          "host": "web.archive.org",
+          "statement": "At Wat Ratchaburana in Ayutthaya, it is said the people who dug went mad and the gold shops that bought the goods all went bust.",
+          "statement_id": "Di Wat Ratchaburana, Ayutthaya, dikisahkan orang yang menggali menjadi gila dan toko emas yang membeli barang itu ikut bangkrut.",
+          "quote": "ที่วัดราชบูรณะ จังหวัดพระนครศรีอยุธยา คนที่ขุดก็เป็นบ้า ร้านทองที่รับซื้อไว้ก็เจ๊งไปตามๆ กัน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c19",
+          "source_id": "pu-som-fao-sap-s2",
+          "host": "web.archive.org",
+          "statement": "The author recalls a Thai ghost film titled \"ปู่โสมเฝ้าทรัพย์\" that impressed him; he does not remember the story but remembers its background music played on Thai instruments.",
+          "statement_id": "Penulis mengenang sebuah film hantu Thai berjudul \"ปู่โสมเฝ้าทรัพย์\" yang membuatnya terkesan; ia tak ingat ceritanya tetapi ingat musik latarnya yang dimainkan dengan alat musik Thai.",
+          "quote": "ภาพยนตร์ไทยเรื่องผีที่ประทับใจข้าพเจ้ามากคือ “ ปู่โสมเฝ้าทรัพย์ ” แม้ข้าพเจ้าจำเรื่องไม่ได้ แต่จำเพลงที่บรรเลงเป็นภูมิหลังได้ เขาใช้เครื่องดนตรีไทย",
+          "context": "modern-popular-culture",
+          "status": "loose"
+        },
+        {
+          "id": "pu-som-fao-sap-c20",
+          "source_id": "pu-som-fao-sap-s3",
+          "host": "www.onep.go.th",
+          "statement": "According to the article, finding a ghost to watch over treasure seems to be a widespread belief; the ancient Koreans also had similar legends, though without firm evidence.",
+          "statement_id": "Menurut artikel ini, mencari hantu untuk menjaga harta tampaknya kepercayaan yang tersebar luas; orang Korea kuno pun punya legenda serupa, tetapi tanpa bukti pasti.",
+          "quote": "การหาผีไว้คอยเฝ้าระวังทรัพย์สมบัติดูจะเป็นความเชื่อที่แพร่หลายไปทั่ว ชาวเกาหลีโบราณก็มีตำนานความเชื่อในทำนองนี้เช่นกัน แต่ไม่มีหลักฐานแน่ชัด",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c21",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Prince Bira's account, in December 1960 he used a mine detector, then considered advanced technology, to search for buried treasures at the ruins of Wat Kudi Dao in Ayutthaya.",
+          "statement_id": "Dalam kisah Pangeran Bira, pada Desember 1960 ia memakai detektor ranjau, teknologi canggih saat itu, untuk mencari harta terpendam di reruntuhan Wat Kudi Dao, Ayutthaya.",
+          "quote": "in December 1960 he had used a mine detector, then considered advanced technology, to search for buried treasures at the ruins of Wat Kudi Dao in Ayutthaya.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pu-som-fao-sap-c22",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name is written ปู่โสมเฝ้าทรัพย์ in Thai, with the RTGS romanization Pu Som Fao Sap.",
+          "statement_id": "Nama ini ditulis ปู่โสมเฝ้าทรัพย์ dalam aksara Thai, dengan romanisasi RTGS Pu Som Fao Sap.",
+          "quote": "Thai: ปู่โสมเฝ้าทรัพย์, RTGS: Pu Som Fao Sap, pronounced",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "pu-som-fao-sap-c23",
+          "source_id": "pu-som-fao-sap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name literally means \"Grandfather Som who guards treasures\".",
+          "statement_id": "Arti harfiah namanya adalah \"Kakek Som yang menjaga harta\".",
+          "quote": "lit. 'Grandfather Som who guards treasures')",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -292,18 +824,19 @@
     },
     {
       "slug": "sarangay",
-      "file": "batch-020.md",
+      "file": "batch-020-fix-1.md",
+      "entry_sha256": "4db75c634320e18c24d4995b43a5520e8f5ba3be9f29bc343f2d3cdc55f54233",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 12 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
           "level": "warn",
@@ -346,6 +879,96 @@
           "statement": "In the mobile game EverWing, the sarangay is an unlockable creature.",
           "statement_id": "Dalam gim ponsel EverWing, sarangay adalah makhluk yang dapat dibuka.",
           "quote": "In the mobile game EverWing, Sarangay is an unlockable creature.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c04",
+          "source_id": "sarangay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tabletop roleplaying game Pathfinder, sarangay appear as a playable race in the 2nd edition's Tian Xia character guide.",
+          "statement_id": "Dalam gim peran meja Pathfinder, sarangay muncul sebagai ras yang dapat dimainkan dalam panduan karakter Tian Xia edisi kedua.",
+          "quote": "In the table-top roleplaying game Pathfinder, Sarangay appear as a playable race in the 2nd edition's Tian Xia character guide.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c05",
+          "source_id": "sarangay-s2",
+          "host": "aswangproject.com",
+          "statement": "In the compendium, citing Maximo Ramos's The Creatures of Midnight (1990), the sarangay (Ibanag) is described like other demons: tall and dark, with a large body and long, coarse, black hair.",
+          "statement_id": "Dalam kompendium itu, yang mengutip The Creatures of Midnight karya Maximo Ramos (1990), sarangay (Ibanag) digambarkan seperti iblis lain: tinggi dan gelap, bertubuh besar, berambut panjang, kasar, dan hitam.",
+          "quote": "SARANGAY – (Ibanags) Like other demons he is tall and dark. He has a large body, too. His hair is long, coarse, and black. ... (source: The Creatures of Midnight , Maximo Ramos, Phoenix Publishing, 1990)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c06",
+          "source_id": "sarangay-s2",
+          "host": "aswangproject.com",
+          "statement": "He wears big wooden rings on his ears.",
+          "statement_id": "Ia mengenakan cincin kayu besar di telinganya.",
+          "quote": "He wears big wooden rings on his ears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c07",
+          "source_id": "sarangay-s2",
+          "host": "aswangproject.com",
+          "statement": "He lows like a bull and runs after boys and girls.",
+          "statement_id": "Ia melenguh seperti banteng dan mengejar anak laki-laki dan perempuan.",
+          "quote": "He lows like a bull and runs after boys and girls",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c08",
+          "source_id": "sarangay-s2",
+          "host": "aswangproject.com",
+          "statement": "He owns a magic jewel that glows like an ember in the dark.",
+          "statement_id": "Ia memiliki permata ajaib yang berpendar seperti bara dalam gelap.",
+          "quote": "He owns a magic jewel. His jewel glows like an ember in the dark.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c09",
+          "source_id": "sarangay-s3",
+          "host": "2e.aonprd.com",
+          "statement": "In Pathfinder, sarangay are powerful carabao-headed warriors who live on the isles of Minata, known for the magical gems in their foreheads that are said to contain their souls.",
+          "statement_id": "Dalam Pathfinder, sarangay adalah prajurit berkepala kerbau yang kuat dan tinggal di Kepulauan Minata, dikenal karena permata ajaib di dahi mereka yang konon berisi jiwa mereka.",
+          "quote": "Powerful carabao-headed warriors who live on the isles of Minata. Known for the magical gems in their foreheads that are said to contain their souls.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c10",
+          "source_id": "sarangay-s3",
+          "host": "2e.aonprd.com",
+          "statement": "In Pathfinder, sarangay are carabao-headed people who have long survived deep in the forests across Tian Xia.",
+          "statement_id": "Dalam Pathfinder, sarangay adalah makhluk berkepala kerbau yang telah lama bertahan hidup di dalam hutan-hutan di seantero Tian Xia.",
+          "quote": "Sarangay are carabao-headed people who have long survived deep in the forests across Tian Xia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c11",
+          "source_id": "sarangay-s3",
+          "host": "2e.aonprd.com",
+          "statement": "In Pathfinder, their horns are said to be a crescent moon, and their towering stature is said to come from their ancestors being stretched up to reach their Father Moon while Mother Earth kept them close.",
+          "statement_id": "Dalam Pathfinder, tanduk mereka konon berbentuk bulan sabit, dan perawakan menjulang mereka konon berasal dari nenek moyang yang meregang tinggi untuk menjangkau Bapa Bulan sementara Ibu Bumi mendekap mereka.",
+          "quote": "Their horns are said to be a crescent moon, and their towering statures are said to have come from their ancestors being stretched so far up to reach their Father Moon while their Mother Earth kept them close to her bosom.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarangay-c12",
+          "source_id": "sarangay-s3",
+          "host": "2e.aonprd.com",
+          "statement": "In Pathfinder, they revere the great Father Moon, their First Ancestor, and endeavor to protect and exalt nature above all else.",
+          "statement_id": "Dalam Pathfinder, mereka memuliakan Bapa Bulan, Leluhur Pertama mereka, dan berusaha melindungi serta menjunjung alam di atas segalanya.",
+          "quote": "They revere the great Father Moon, their First Ancestor, and endeavor to protect and exalt nature above all else",
           "context": "modern-popular-culture",
           "status": "exact"
         }

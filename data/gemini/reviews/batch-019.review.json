@@ -1,26 +1,28 @@
 {
   "batch_id": "batch-019",
-  "checked_at": "2026-09-29T12:58:15.726Z",
+  "checked_at": "2026-10-07T05:52:28.024Z",
   "files": [
-    "batch-019.md"
+    "batch-019.md",
+    "batch-019-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "hantu-tinggi",
-      "file": "batch-019.md",
+      "file": "batch-019-fix-1.md",
+      "entry_sha256": "f3c363a4ebf0c1d7b45a99a008973cc02f1f4d81387585c78f874020cc312332",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 11 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
           "level": "warn",
@@ -81,25 +83,91 @@
           "context": "religious-tradition",
           "status": "exact",
           "wiki_flag": "bagian tanpa sumber"
+        },
+        {
+          "id": "hantu-tinggi-c05",
+          "source_id": "hantu-tinggi-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Skeat records that giants are called Bota, Raksasa and Gargasi, or sometimes Hantu Tinggi (\"Tall Demons\"); the first two names are clearly derived from Sanskrit.",
+          "statement_id": "Skeat mencatat bahwa raksasa disebut Bota, Raksasa, dan Gargasi, atau kadang Hantu Tinggi (\"Setan Tinggi\"); dua nama pertama jelas berasal dari bahasa Sanskerta.",
+          "quote": "Giants are called Bota (Bhuta), Raksasa, and Gargasi ... or sometimes Hantu Tinggi (“Tall Demons”), the first two of these names being clearly derivable from a Sanskrit origin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c06",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "According to the Aswang Project author, Hantu Tinggi are tall ghosts that live deep in the forest, shaped much like a palm or coconut tree and said to be so tall that their head touches the sky.",
+          "statement_id": "Menurut penulis Aswang Project, hantu tinggi adalah hantu jangkung yang tinggal jauh di dalam hutan, berbentuk seperti pohon palem atau kelapa, dan konon begitu tinggi hingga kepalanya menyentuh langit.",
+          "quote": "Hantu Tinggi are tall ghosts that reside deep within the forest. Formed much like a palm tree or a coconut tree, they are said to be so tall that their head touches the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c07",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "At this height, humans can only see the Hantu Tinggi from the waist down.",
+          "statement_id": "Pada ketinggian itu, manusia hanya dapat melihat hantu tinggi dari pinggang ke bawah.",
+          "quote": "At this height, humans are only able to see the Hantu Tinggi from the waist down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c08",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "The Hantu Tinggi grows taller as a person approaches it, and direct eye contact with it may cause severe illness.",
+          "statement_id": "Hantu tinggi menjadi makin tinggi ketika seseorang mendekatinya, dan bertatapan mata langsung dengannya dapat menyebabkan sakit parah.",
+          "quote": "The Hantu Tinggi grows taller as a person approaches it. Direct eye contact with the being may cause severe illness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c09",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "If threatened, the Hantu Tinggi grabs the person and immediately teleports them to another nearby place, where the person lands disoriented.",
+          "statement_id": "Jika merasa terancam, hantu tinggi menangkap orang itu dan seketika memindahkannya ke tempat lain di dekat situ, tempat orang itu mendarat dalam keadaan bingung.",
+          "quote": "If threatened by someone, the Hantu Tinggi grabs the person and immediately teleports them to some other nearby place where the person will land disoriented.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c10",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "Stories about the Hantu Tinggi are often told to children, among other things to keep them from climbing tall trees at night.",
+          "statement_id": "Kisah tentang hantu tinggi sering diceritakan kepada anak-anak, antara lain agar mereka tidak memanjat pohon tinggi pada malam hari.",
+          "quote": "Stories about Hantu Tinggi are often told to children ... but also to prevent them from climbing tall trees at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c11",
+          "source_id": "hantu-tinggi-s3",
+          "host": "aswangproject.com",
+          "statement": "The Aswang Project author names the Hantu Tinggi of Malaysian folklore as a very similar being to the Mantiw of Philippine folklore, though he finds no firm connection.",
+          "statement_id": "Penulis Aswang Project menyebut Hantu Tinggi dari cerita rakyat Malaysia sebagai makhluk yang sangat mirip dengan Mantiw di cerita rakyat Filipina, meskipun ia tidak menemukan hubungan yang pasti.",
+          "quote": "there isn’t really anything like the Mantiw in the rest of Philippine folklore. There are plenty of tall forest spirits, but nothing concrete enough to solidify a connection to the Mantiw. There is however a very similar being in Malaysian folklore. Hantu Tinggi are tall ghosts",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ho-ly-tinh",
-      "file": "batch-019.md",
+      "file": "batch-019-fix-1.md",
+      "entry_sha256": "eb8d82867d3c77654c812ade3de418414ea9878226f15fac99e71b8a2df26e20",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 4,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Cáo chín đuôi trong sách Kỹ thuật của người An Nam.jpg)",
@@ -156,6 +224,116 @@
           "quote": "West Lake is the tomb where the nine-tailed fox is buried.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c06",
+          "source_id": "ho-ly-tinh-s2",
+          "host": "www.rajraf.org",
+          "statement": "According to the translator's summary, the \"Truyện Hồ Tinh\" tale in the Lĩnh Nam chích quái tells how Lạc Long Quân rescues people from a nine-tailed fox demon who takes human form and lures young men and women into its cave by singing.",
+          "statement_id": "Menurut ringkasan penerjemah, kisah \"Truyện Hồ Tinh\" dalam Lĩnh Nam chích quái menceritakan Lạc Long Quân menyelamatkan orang dari siluman rubah bertubuh sembilan ekor yang menjelma manusia dan memikat pemuda-pemudi ke guanya dengan nyanyian.",
+          "quote": "This tells how Lạc Long Quân rescues people from a Fox Demon with nine tails who assumes human form and inveigles young men and women into his cave by singing.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c07",
+          "source_id": "ho-ly-tinh-s2",
+          "host": "www.rajraf.org",
+          "statement": "In Henry's translation, a Fox with Nine Tails lived in a cave at the bottom of a stone mountain for more than a thousand years and turned into a demon; it appeared in many thousands of forms, sometimes as a person, sometimes as a monkey, and roamed through all inhabited places.",
+          "statement_id": "Dalam terjemahan Henry, di dasar sebuah gunung batu ada gua tempat tinggal rubah berekor sembilan yang hidup lebih dari seribu tahun dan menjadi siluman; ia muncul dalam ribuan wujud, kadang sebagai manusia, kadang sebagai monyet, dan berkeliaran di semua tempat berpenghuni.",
+          "quote": "a cave, where lived a Fox with Nine Tails that lived more than a thousand years and turned into a demon. It appeared in many thousands of different forms, assuming sometimes the aspect of a person, and sometimes that of a monkey, and roamed through all inhabited places.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c08",
+          "source_id": "ho-ly-tinh-s2",
+          "host": "www.rajraf.org",
+          "statement": "The nine-tailed fox transformed itself into a \"Savage\" dressed in white, mingled with them and joined their singing groups, and so lured some boys and girls back to the cave, where it imprisoned them.",
+          "statement_id": "Rubah berekor sembilan menjelma menjadi \"Savage\" berpakaian putih, berbaur dengan mereka dan ikut kelompok nyanyian mereka, lalu memikat beberapa pemuda dan pemudi ke guanya dan menahan mereka di sana.",
+          "quote": "The Fox with Nine Tails transformed itself into a Savage Dressed in White and mingled with them, participating in their singing groups. It was, thus, able to lure some boys and girls to return with him to the cave, where it imprisoned them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c09",
+          "source_id": "ho-ly-tinh-s2",
+          "host": "www.rajraf.org",
+          "statement": "This caused Long Quân to order his subordinates in the Sea Kingdom to make the water rise and destroy Mount Tiểu-Thạch-Sơn.",
+          "statement_id": "Karena hal itu, Long Quân memerintahkan bawahannya di Kerajaan Laut menaikkan air dan menghancurkan Gunung Tiểu-Thạch-Sơn.",
+          "quote": "This caused Long Quân to order the subordinates in his Sea Kingdom to make the water rise up and destroy Mount Tiểu-Thạch-Sơn",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c10",
+          "source_id": "ho-ly-tinh-s2",
+          "host": "www.rajraf.org",
+          "statement": "In its place was dug a deep abyss called Thi-Hà-Trạch (\"Fox-Corpse Swamp\"), now called Hồ Tây or West Lake.",
+          "statement_id": "Di tempat itu terbentuk jurang dalam bernama Thi-Hà-Trạch (\"Rawa Bangkai Rubah\"), yang kini disebut Hồ Tây atau Danau Barat.",
+          "quote": "a deep abyss called “Thi-Hà-Trạch 尸狐澤 (“Fox-Corpse Swamp,” now called “Hồ Tây” or West Lake)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c11",
+          "source_id": "ho-ly-tinh-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the cave at the foot of the small rocky mountain west of the city lived a white nine-tailed fox over a thousand years old, able to become a demon and change into endless forms, sometimes a person or a ghost, roaming among the people.",
+          "statement_id": "Di gua di kaki gunung batu kecil di sebelah barat kota ada rubah putih berekor sembilan yang berumur lebih dari seribu tahun, dapat menjadi siluman dan berubah dalam berbagai rupa, kadang menjadi manusia atau hantu, berkeliaran di antara permukiman.",
+          "quote": "初，城之西有小石山，東枕蘇瀝江，山下之穴，有白狐九尾，壽千餘年，能化為妖怪，變化萬端。或為人為鬼，遍行民間。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c12",
+          "source_id": "ho-ly-tinh-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The nine-tailed fox turned into a person in white, entered the midst of the Man people and sang with them, then lured Man men and women to eat them and hid them in the small rock cave.",
+          "statement_id": "Rubah berekor sembilan menjelma menjadi orang berpakaian putih, masuk ke tengah suku Man dan ikut bernyanyi, lalu memikat laki-laki dan perempuan Man untuk dimakan dan menyembunyikan mereka di gua batu kecil.",
+          "quote": "九尾狐化為白衣人，入蠻泉〔眾〕中，與同歌唱，誘取蠻人男女為食，藏於小石岩穴。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c13",
+          "source_id": "ho-ly-tinh-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Long Quân sent the water palace forces to raise the water and break the cave; the fox fled, was pursued, caught and devoured; the broken place became a deep abyss called the Fox-Corpse Pool, which is West Lake; a shrine and hermitage were then built to suppress the demon.",
+          "statement_id": "Long Quân mengutus pasukan istana air untuk menaikkan air dan menghancurkan gua itu; rubah itu lari, dikejar, ditangkap, dan dimakan; tempat gua yang hancur menjadi jurang dalam bernama kolam Bangkai Rubah, yaitu Danau Barat; kemudian didirikan kuil dan biara untuk menindas siluman itu.",
+          "quote": "龍君遂遣水府之部眾引水而上，攻破小石岩穴。九尾狐走之，水府部逐之，破穴，獲狐啗之。其破處成深淵，今呼為狐尸潭（今西湖是也）。遂立祠觀（今金牛寺），以鎮壓其妖。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c14",
+          "source_id": "ho-ly-tinh-s4",
+          "host": "vi.wikisource.org",
+          "statement": "The author recalls that as a child he often saw, in the courtyard, a statue of Hộ Quốc Phu nhân placed beside the military officials' rank.",
+          "statement_id": "Penulis mengenang bahwa ketika kecil ia sering melihat di halaman istana sebuah arca Hộ Quốc Phu nhân di sisi barisan pejabat militer.",
+          "quote": "Ta khi nhỏ thường vào xem ở trong sân rồng, thấy bên võ ban có đặt pho tượng vị Hộ Quốc Phu nhân.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c15",
+          "source_id": "ho-ly-tinh-s4",
+          "host": "vi.wikisource.org",
+          "statement": "In the story told in this text, the pursuing troops suddenly saw something with a human head and a fox body dash out of the bushes beyond their encirclement.",
+          "statement_id": "Menurut cerita yang dituturkan dalam teks ini, pasukan pengejar tiba-tiba melihat dari semak sesuatu berkepala manusia dan bertubuh rubah berlari keluar dari kepungan, sehingga anjing mengejarnya dan buruan lolos.",
+          "quote": "Quân giặc đang hồ nghi không biết ra sao, thì chợt thấy trong bụi rậm có một vật đầu người, thân hồ ly, chạy vụt ra ngoài vòng vây.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c16",
+          "source_id": "ho-ly-tinh-s4",
+          "host": "vi.wikisource.org",
+          "statement": "After the Lê king won the realm, he built a temple at that spot and conferred the title Hộ Quốc Phu nhân on the girl.",
+          "statement_id": "Setelah raja Lê menguasai negeri, ia mendirikan sebuah kuil di tempat itu dan menganugerahkan gelar Hộ Quốc Phu nhân kepada si gadis.",
+          "quote": "Về sau, vua Lê lấy được thiên hạ, mới lập một ngôi đền ở chỗ ấy, sắc phong cho người con gái ấy là Hộ Quốc Phu nhân.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": [
@@ -191,27 +369,22 @@
     },
     {
       "slug": "lembuswana",
-      "file": "batch-019.md",
+      "file": "batch-019-fix-1.md",
+      "entry_sha256": "df574c689a8bce8add24172713c0851420fc9c9eec7150939c0f4a15906adfac",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 29,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lembuswana-c01",
           "source_id": "lembuswana-s1",
           "host": "id.wikipedia.org",
-          "statement": "The lembuswana is a creature of ancient Kutai mythology, emblem from the Kutai kingdom, the oldest Hindu kingdom, to the Sultanate of Kutai Kartanegara Ing Martadipura; sacred as Vishnu's mount, its name is from Sanskrit lembu ('cow') and svarna ('gold').",
-          "statement_id": "Lembuswana adalah satwa mitologi kuno rakyat Kutai yang menjadi lambang sejak Kerajaan Kutai, kerajaan Hindu tertua, hingga Kesultanan Kutai Kartanegara Ing Martadipura; ia dianggap suci sebagai tunggangan Dewa Wisnu, dan namanya dari Sanskerta lembu ('sapi') dan svarna ('emas').",
+          "statement": "The lembuswana is a creature of the ancient mythology of the Kutai people, an emblem from the Kutai kingdom, the oldest Hindu kingdom, to the Sultanate of Kutai Kartanegara Ing Martadipura; it is considered sacred because it is believed to be the mount of the god Vishnu.",
+          "statement_id": "Lembuswana adalah satwa dalam mitologi kuno rakyat Kutai yang menjadi lambang sejak Kerajaan Kutai, kerajaan Hindu tertua, hingga Kesultanan Kutai Kartanegara Ing Martadipura; ia dianggap suci karena dipercaya sebagai tunggangan Dewa Wishnu.",
           "quote": "Lembuswana merupakan satwa yang ada dalam mitologi kuno rakyat Kutai yang telah ada sejak zaman dahulu, yang kemudian menjadi lambang pada zaman Kerajaan Hindu tertua yaitu Kerajaan Kutai sampai dengan masa Kesultanan Kutai Kartanegara Ing Martadipura. Lembuswana merupakan sosok yang dianggap suci oleh masyarakat setempat karena dipercaya sebagai tunggangan Dewa Wishnu.",
           "context": "traditional-belief",
           "status": "exact"
@@ -220,8 +393,8 @@
           "id": "lembuswana-c02",
           "source_id": "lembuswana-s1",
           "host": "id.wikipedia.org",
-          "statement": "The lembuswana is golden, a crowned bull with an elephant's trunk and tusks, garuda wings, rooster claws and spurs and dragon scales; it is the mount of Batara Guru and the spiritual mount of King Mulawarman (around the 5th century CE).",
-          "statement_id": "Lembuswana berwarna keemasan, berwujud lembu bermahkota, berbelalai dan bergading gajah, bersayap garuda, berkuku dan bertaji ayam jantan, bersisik naga; ia kendaraan Batara Guru dan kendaraan spiritual Raja Mulawarman (sekitar abad ke-5 Masehi).",
+          "statement": "The lembuswana is golden, a crowned bull or cow with an elephant's trunk and tusks, garuda-like wings, a rooster's claws and spurs and dragon-like scales.",
+          "statement_id": "Lembuswana berwarna keemasan, berwujud lembu atau sapi bermahkota, berbelalai dan bergading seperti gajah, bersayap seperti garuda, berkuku dan bertaji seperti ayam jantan, dan bersisik seperti naga.",
           "quote": "Lembuswana merupakan sosok berwana keemasan berwujud binatang lembu atau sapi yang mengenakan mahkota di atas kepalanya, memiliki belalai dan gading seperti gajah, sayap yang mengepak seperti garuda, kuku dan taji yang menyerupai ayam jantan dengan bagian badan yang bersisik seperti naga.",
           "context": "traditional-belief",
           "status": "exact"
@@ -240,8 +413,8 @@
           "id": "lembuswana-c04",
           "source_id": "lembuswana-s1",
           "host": "id.wikipedia.org",
-          "statement": "The legend of the lembuswana's emergence from the Mahakam is tied to the birth of Princess Karang Melenuyang, who married King Aji Batara Agung Dewa Sakti and founded the Kutai Kartanegara royal line.",
-          "statement_id": "Legenda kemunculan lembuswana dari dasar Sungai Mahakam dihubungkan dengan kelahiran Putri Karang Melenuyang, yang kelak menikah dengan Raja Aji Batara Agung Dewa Sakti dan menurunkan raja-raja Kutai Kartanegara.",
+          "statement": "The legend of the lembuswana's emergence, as the ruler believed to dwell in the Mahakam River, is widely tied to the birth of Princess Karang Melenuyang.",
+          "statement_id": "Legenda kemunculan lembuswana, yang dipercaya sebagai penguasa yang berdiam di dalam Sungai Mahakam, banyak dihubungkan dengan kelahiran Putri Karang Melenuyang.",
           "quote": "Legenda kemunculan sosok Lembuswana yang dipercaya sebagai penguasa yang berdiam di dalam Sungai Mahakam banyak dihubungkan dengan kelahiran Putri Karang Melenuyang",
           "context": "traditional-belief",
           "status": "exact"
@@ -250,8 +423,8 @@
           "id": "lembuswana-c05",
           "source_id": "lembuswana-s1",
           "host": "id.wikipedia.org",
-          "statement": "A lembuswana statue, emblem of Kutai Kartanegara, stands in front of the Mulawarman Museum in Tenggarong, East Kalimantan.",
-          "statement_id": "Patung lembuswana, lambang Kutai Kartanegara, antara lain berdiri di halaman depan Museum Mulawarman, Tenggarong, Kalimantan Timur.",
+          "statement": "A lembuswana statue stands in the front yard of the Mulawarman Museum, Tenggarong, Kutai Kartanegara, East Kalimantan.",
+          "statement_id": "Patung lembuswana, lambang Kutai Kartanegara, berdiri di halaman depan Museum Mulawarman, Tenggarong, Kutai Kartanegara, Kalimantan Timur.",
           "quote": "di halaman depan Museum Mulawarman, Tenggarong, Kutai Kartanegara, Kalimantan Timur.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -260,31 +433,262 @@
           "id": "lembuswana-c06",
           "source_id": "lembuswana-s1",
           "host": "id.wikipedia.org",
-          "statement": "The lembuswana embodies Paksi Liman Jonggo Yokso: one should have noble qualities as protector of the people; its crown symbolizes royal power and its trunk Ganesha, god of intelligence.",
-          "statement_id": "Lembuswana mengandung falsafah Paksi Liman Jonggo Yokso: seseorang seharusnya bersifat mulia sebagai pengayom rakyat; mahkotanya lambang kekuasaan raja dan belalainya lambang Dewa Ganesha, dewa kecerdasan.",
+          "statement": "The lembuswana carries the philosophy Paksi Liman Jonggo Yokso: one should have noble qualities as protector of the people.",
+          "statement_id": "Lembuswana memiliki falsafah Paksi Liman Jonggo Yokso, yaitu bahwa seseorang seharusnya memiliki sifat-sifat mulia sebagai pengayom rakyat.",
           "quote": "Lembuswana memiliki falsafah Paksi Liman Jonggo Yokso yang dimaksudkan bahwa seseorang seharusnya memiliki sifat-sifat mulia sebagai pengayom rakyat.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "lembuswana-c07",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "According to this article, the name Lembuswana is taken from Sanskrit: lembu means cow and svarna means gold.",
+          "statement_id": "Menurut artikel ini, nama Lembuswana diambil dari bahasa Sansekerta: lembu berarti sapi dan svarna berarti emas.",
+          "quote": "Lembuswana diambil dari bahasa Sansekerta yaitu Lembu yang berarti sapi dan Svarna yang berarti Emas.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c08",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "People believe the lembuswana is the mount of Batara Guru when giving his counsel and guidance, and also the spiritual mount of King Mulawarman, who ruled the Kutai kingdom about 1,500 years ago.",
+          "statement_id": "Masyarakat mempercayai lembuswana sebagai kendaraan Batara Guru dalam memberikan petuah dan petunjuknya, sekaligus kendaraan spiritual Raja Mulawarman yang memerintah Kerajaan Kutai sekitar 1.500 tahun silam.",
+          "quote": "Lembuswana dipercaya oleh masyarakat sebagai kendaraan bagi Batara Guru dalam memberikan petuah dan petunjuknya sekaligus kendaraan spiritual bagi Raja Mulawarman yang memerintah Kerajaan Kutai sekitar 1.500 tahun silam",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c09",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The animal is believed to have extraordinary power and to be able to live on land, in water and in the air.",
+          "statement_id": "Hewan ini diyakini memiliki kekuatan luar biasa dan dapat hidup di darat, air, maupun udara.",
+          "quote": "Hewan ini diyakini memiliki kekuatan luar biasa yang dapat hidup di darat, air, maupun udara.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c10",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The crown on its head, a sign of a king's might, can be read as power, while its trunk represents the god Ganesha, the god of intelligence.",
+          "statement_id": "Mahkota di kepalanya, tanda keperkasaan seorang raja, dapat diartikan sebagai kekuasaan, sedangkan belalainya menggambarkan Dewa Ganesha, dewa kecerdasan.",
+          "quote": "Mahkota yang ada di kepalanya sebagai tanda keperkasaan seorang raja yang merupakan seorang penguasa dapat diartikan sebagai suatu kekuasaan, sedangkan belalai yang dimiliki menggambarkan Dewa Ganesha yang merupakan dewa kecerdasan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c11",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "A giant lembuswana statue also stands on Pulau Kumala, a tourist destination in the Kutai Kertanegara area, made by the Balinese-born Indonesian sculptor I Nyoman Nuarta.",
+          "statement_id": "Sebuah patung lembuswana raksasa juga berdiri di Pulau Kumala, salah satu destinasi wisata di daerah Kutai Kertanegara, dibuat oleh pematung Indonesia asal Bali, I Nyoman Nuarta.",
+          "quote": "patung Lembuswana raksasa juga terdapat di Pulau Kumala yang merupakan salah satu destinasi wisata di daerah Kutai Kertanegara ... Patung ini dibuat oleh seniman patung Indonesia asal Bali, I Nyoman Nuarta.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c12",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to this journal article, Lembusuana (a variant spelling of Lembuswana), a creature in the myths of the Salasilah Kutai, is a symbol of the might and power of the King of Kutai.",
+          "statement_id": "Menurut artikel jurnal ini, Lembusuana (ejaan lain Lembuswana), makhluk dalam mitos Salasilah Kutai, merupakan simbol keperkasaan dan kekuasaan Raja Kutai.",
+          "quote": "Lembusuana makhluk didalam mitos Salasilah Kutai merupakan simbol keperkasaan dan kekuasaan Raja Kutai.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c13",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "In Constantin Alting Mees's De Kroniek van Koetai, a child lies on a gong carried on the head of a dragon, which is carried on the head of a bull, Lembusuana, standing on a rock.",
+          "statement_id": "Dalam De Kroniek van Koetai karya Constantin Alting Mees, seorang anak berbaring di atas gong, gong itu dijunjung di kepala seekor naga, dan naga itu dijunjung di kepala seekor lembu, Lembusuana, yang berdiri di atas batu.",
+          "quote": "Diceritakan oleh Constantin Alting Mees dalam De Kroniek van Koetai, seorang anak berbaring di atas sebuah gong yang datar dan gong tersebut dibawa di atas kepala seekor naga dan naga tersebut dibawa di atas kepala seekor Lembu yakni Lembusuana yang berdiri diatas batu.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c14",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "Lembusuana is described as having tusks and a trunk like an elephant, fangs like a tiger, a body like a horse, wings and spurs like a Garuda, and a tail and scales over its whole body like a dragon.",
+          "statement_id": "Lembusuana digambarkan bergading dan berbelalai seperti gajah, bertaring seperti harimau, bertubuh seperti kuda, bersayap dan bertaji seperti Garuda, serta berekor dan bersisik di seluruh tubuh seperti naga.",
+          "quote": "Dia mempunyai gading dan belalai seperti gajah, bertaring seperti harimau, badannya seperti kuda, bersayap dan bertaji seperti Garuda, berekor dan bersisik seluruh tubuhnya seperti naga.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c15",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to Dr. W. Kern in Commentar op de Salasilah van Koetai, Lembusuana was carved in colour on buffalo hide kept in the Kutai palace, preserved as a heirloom in a sacred place called Kelambu Kuning together with other objects.",
+          "statement_id": "Menurut Dr. W. Kern dalam Commentar op de Salasilah van Koetai, Lembusuana diukir berwarna di atas kulit kerbau yang disimpan di keraton Kutai, dipelihara sebagai pusaka di tempat sakral bernama Kelambu Kuning bersama benda-benda lain.",
+          "quote": "Menurut Dr. W. Kern dalam Commentar op de Salasilah van Koetai , Lembusuana diukir di atas kulit Kerbau (buffelleer) yang disimpan di keraton Kutai. Diukir dengan warna dan sebagai pusaka disimpan dan dipelihara di tempat yang sakral disebut Kelambu Kuning bersama benda-benda lainnya.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c16",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "A pair of Lembusuana statues of golden bronze were placed to the left and right of the Setinggil, the throne left by Sultan Aji Mohammad Parikesit of Kutai, and can still be seen in the Mulawarman Museum in Tenggarong.",
+          "statement_id": "Sepasang arca Lembusuana dari gangsa keemasan diletakkan di kiri dan kanan Setinggil atau singgasana peninggalan Sultan Kutai Aji Mohammad Parikesit, dan masih dapat dilihat di Museum Mulawarman di Tenggarong.",
+          "quote": "Sepasang arca Lembusuana ini yang terbuat dari gangsa keemasan diletakkan disebelah kirikanan Setinggil atau Singgasana peninggalan Sultan Kutai Aji Mohammad Parikesit dan masih dapat kita lihat di Museum Mulawarman di Tenggarong",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c17",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to this article, the original Lembusuana statue was made of gold and was no more than 30 cm tall.",
+          "statement_id": "Menurut artikel ini, patung Lembusuana yang asli terbuat dari emas dan tingginya tidak lebih dari 30 cm.",
+          "quote": "Patung Lembusuana yang asli terbuat dari emas dan hanya berukuran tinggi tidak lebih dari 30 cm saja.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c19",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to a family archive cited in this article, \"lembu\" means the principal treasury of the natural wealth of the Kutai Kartanegara kingdom, which comes from nograha mahadewa.",
+          "statement_id": "Menurut arsip keluarga yang dikutip artikel ini, \"lembu\" bermakna pokok perbendaharaan kekayaan alam Kerajaan Kutai Kartanegara yang bersumber dari nograha mahadewa.",
+          "quote": "Lembu bermakna pokok perbendaharaan kekayaan alam kerajaan Kutai Kartanegara yang tersedia adanya dari nograha mahadewa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c20",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to the same family archive, \"suwana\" means the very strong bond between the king and the customary people of the land.",
+          "statement_id": "Menurut arsip keluarga yang sama, \"suwana\" bermakna ikatan yang sangat kuat antara raja dan rakyat adat negeri.",
+          "quote": "Suwana bermakna hubungan ikatan sangat kuat antara raja dengan rakyat adat negeri",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c21",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to the cited family archive, the elephant trunk and tusks on the golden Lembusuana mean that every king must have authority and be respected by all his people.",
+          "statement_id": "Menurut arsip keluarga yang dikutip, belalai dan gading gajah pada Lembusuana emas bermakna bahwa setiap raja harus berwibawa dan disegani seluruh rakyat.",
+          "quote": "Berbelalai dan gading gajah, bermakna bahwa setiap raja harus punya wibawa disegani oleh semua rakyat",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c22",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "In Kutai folk tales the dragon figure is called Ular Lembu.",
+          "statement_id": "Dalam cerita rakyat Kutai, sosok naga disebut Ular Lembu.",
+          "quote": "Sosok Naga dalam cerita rakyat Kutai disebut dengan nama Ular Lembu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c23",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "The event of the dragon and Princess Karang Melenu is re-enacted every year at the Erau ceremony called mengulur naga at Kutai Lama.",
+          "statement_id": "Peristiwa kemunculan naga dan Putri Karang Melenu digelar kembali setiap tahun pada upacara Erau yang disebut mengulur naga di Kutai Lama.",
+          "quote": "Peristiwa tersebut digelar kembali setiap tahun pada upacara Erau disebut mengulur naga di Kutai Lama.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c24",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "According to this article, the lembuswana statues were made in Burma in 1850 and arrived at the Kutai Kartanegara palace in 1900.",
+          "statement_id": "Menurut artikel ini, patung Lembuswana dibuat di Birma pada tahun 1850 dan tiba di Istana Kutai Kartanegara pada tahun 1900.",
+          "quote": "Lembuswana dibuat di Birma pada tahun 1850 dan tiba di Istana Kutai Kartanegara pada tahun1900.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c25",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "It is said that building a seated Lembusuana statue at the tail of Kumala island broke a taboo and was seen as damaging the philosophy of Lembusuana, who stands bravely.",
+          "statement_id": "Konon membangun patung Lembusuana dalam keadaan duduk di ujung pulau Kumala melanggar pantangan dan dianggap merusak filosofi Lembusuana yang berdiri gagah berani.",
+          "quote": "Konon masa-masa pemerintahan di era otonomi banyak melanggar tuhing (pantangan) beberapa diantaranya adalah membangun patung Lembusuana di buntut pulau kumala dalam keadaan duduk. Ini dianggap merusak filosofi Lembusuana yang berdiri gagah berani.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c26",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "Lembusuana is recounted as a mighty creature philosophically depicted as the mount of Puteri Karang Melenu and Aji Batara Agung Dewa Sakti, progenitors of the Kutai Kartanegara kings, able to fly as fast as lightning through the sky.",
+          "statement_id": "Lembusuana diriwayatkan sebagai makhluk perkasa yang digambarkan secara filosofis sebagai tunggangan Puteri Karang Melenu dan Aji Batara Agung Dewa Sakti, cikal bakal raja-raja Kutai Kartanegara, dan dapat terbang secepat kilat di angkasa.",
+          "quote": "Lembusuana diriwayatkan sebagai makhluk perkasa yang digambarkan secara filosofis sebagai tunggangan Puteri Karang Melenu dan Aji Batara Agung Dewa Sakti cikal bakal rajaraja Kutai Kartanegara yang dapat terbang secepat kilat di angkasa",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c27",
+          "source_id": "lembuswana-s2",
+          "host": "ejurnal.unikarta.ac.id",
+          "statement": "The article concludes that Lembusuana is an extraordinary creature that emerged from the river bed at Tepian Batu, Kutai Lama.",
+          "statement_id": "Artikel ini menyimpulkan bahwa Lembusuana adalah makhluk luar biasa yang muncul dari dasar sungai di Tepian Batu, Kutai Lama.",
+          "quote": "Dengan demikian dapat disimpulkan bahwa Lembusuana adalah makhluk yang luar biasa yang muncul dari dasar sungai di Tepian Batu, Kutai Lama.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c28",
+          "source_id": "lembuswana-s3",
+          "host": "digilib.isi.ac.id",
+          "statement": "According to this final-project paper, the lembuswana is an animal with a trunk and tusks, tiger fangs, a horse's body, the wings and spurs of a garuda, a dragon's tail, and a whole body that is scaled and golden.",
+          "statement_id": "Menurut karya tugas akhir ini, lembuswana adalah binatang berbelalai dan bergading, bertaring macan, berbadan kuda, bersayap dan bertaji burung garuda, berekor naga, dengan seluruh badan bersisik dan berwarna keemasan.",
+          "quote": "Lembuswana adalah seekor binatang yang berbelalai dan mempunyai gading, bertaring macan, berbadan kuda, bersayap dan bertaji burung garuda, berekor naga, dan seluruh badannya bersisik dan berwarna keemasan.",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240801134446id_/http://digilib.isi.ac.id/3687/7/JURNAL.pdf",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lembuswana-c29",
+          "source_id": "lembuswana-s3",
+          "host": "digilib.isi.ac.id",
+          "statement": "The author of this final-project paper concludes that the lembuswana has the character of a sacred mount of the gods: obedient, a loyal servant, strong and mighty.",
+          "statement_id": "Penulis karya tugas akhir ini menyimpulkan bahwa lembuswana berkarakter sebagai kendaraan suci para dewa yang penurut, pengabdi yang setia, kuat, dan perkasa.",
+          "quote": "Lembuswana memiliki karakter sebagai kendaraan suci para dewa yang penurut, pengabdi yang setia, kuat, dan perkasa.",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240801134446id_/http://digilib.isi.ac.id/3687/7/JURNAL.pdf",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
+        },
+        {
+          "id": "lembuswana-c30",
+          "source_id": "lembuswana-s3",
+          "host": "digilib.isi.ac.id",
+          "statement": "The lembuswana is the theme of a craft-art final project titled Lembuswana Kombinasi Motif Sulur Dayak Kenyah pada Selendang Batik.",
+          "statement_id": "Lembuswana dijadikan tema karya tugas akhir seni kriya berjudul Lembuswana Kombinasi Motif Sulur Dayak Kenyah pada Selendang Batik.",
+          "quote": "Penciptaan Karya Tugas Akhir ini berjudul Lembuswana Kombinasi Motif Sulur Dayak Kenyah Pada Selendang Batik.",
+          "context": "modern-popular-culture",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20240801134446id_/http://digilib.isi.ac.id/3687/7/JURNAL.pdf",
+          "detail": "tidak bisa dibuka (timeout); dicek lewat arsip Wayback"
         }
       ],
       "images": []
     },
     {
       "slug": "limokon",
-      "file": "batch-019.md",
+      "file": "batch-019-fix-1.md",
+      "entry_sha256": "52125c53acbd6acf614331f2eddd9ff189262d1c71f13afdd78c721abb3160e7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 23,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "limokon-c01",
@@ -301,7 +705,7 @@
           "source_id": "limokon-s1",
           "host": "en.wikipedia.org",
           "statement": "Francisco Combes (1667) recorded that the people firmly believed in omens, including from birds like the limocon.",
-          "statement_id": "Francisco Combes (1667) mencatat bahwa masyarakat Mindanao sangat memercayai pertanda, antara lain dari burung seperti limocon.",
+          "statement_id": "Francisco Combes (1667) mencatat bahwa orang-orang sangat memercayai pertanda, antara lain dari burung seperti limocon.",
           "quote": "What they believe in thoroughly are omens, which are almost general in all the islands. There are many of them: of birds, like the limocon",
           "context": "historical-record",
           "status": "exact"
@@ -325,26 +729,211 @@
           "quote": "A common method used by the spirits to communicate with mortals is through the call of the limokon. All the people know the meaning of its calls and all respect its warnings. If a man is starting to buy or trade for an article and this bird gives its warning the sale is stopped.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "limokon-c05",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "If the limokon calls when a person is on the trail, he at once doubles his fist and thrusts it in the direction from which the warning comes.",
+          "statement_id": "Jika limokon berbunyi ketika seseorang berada di jalan setapak, ia segera mengepalkan tinju dan mengacungkannya ke arah datangnya peringatan itu.",
+          "quote": "Should the limokon call when a person is on the trail he at ones doubles his fist and thrusts it in the direction from which the warning comes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c06",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "When it is not clear where the note came from, the traveler looks to the right side; if he sees strong, sturdy trees there, all is well, but if they are cut or weak, he should take great care to avoid impending danger.",
+          "statement_id": "Bila tidak jelas dari mana bunyinya datang, pelancong menoleh ke sisi kanan; jika di sana ada pohon yang kuat dan kokoh, semuanya baik, tetapi jika pohon itu ditebang atau lemah, ia harus sangat berhati-hati terhadap bahaya yang mengancam.",
+          "quote": "When it is not clear from whence the note came, the traveler looks toward the right side. If he sees there strong, sturdy trees, he knows that all is well, but if they are cut or weaklings, he should use great care to avoid impending danger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c07",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Asked why one should look only to the right, an old man replied that the right side belongs to you, while the left side is bad and belongs to someone else.",
+          "statement_id": "Ketika ditanya mengapa orang hanya melihat ke kanan, seorang lelaki tua menjawab bahwa sisi kanan milik si pelancong, sedangkan sisi kiri buruk dan milik orang lain.",
+          "quote": "When questioned as to why one should look only to the right, an old man quickly replied: \"The right side belongs to you; the left side is bad and belongs to someone else.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c08",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "If the dove limokan (a variant spelling of limokon) calls on the left side of the trail, the party will refuse to proceed unless another limokan answers from the right side of the path.",
+          "statement_id": "Jika merpati limokan (ejaan lain limokon) berbunyi di sisi kiri jalan, rombongan menolak melanjutkan perjalanan, kecuali limokan lain menjawab dari sisi kanan jalan.",
+          "quote": "Likewise, if the dove limokan calls on the left side of the trail the party will refuse to proceed, unless another limokan answers the call from the right side of the path.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c09",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The close relationship of the limokon to the Mandaya is given as the reason its calls are heeded so closely; a traveler hearing the cooing of this bird at once doubles his fist and points it toward the sound.",
+          "statement_id": "Hubungan dekat limokon dengan orang Mandaya disebut sebagai alasan mengapa bunyinya begitu diindahkan; pelancong yang mendengar kicau burung ini segera mengepalkan tinju dan mengarahkannya ke arah suara itu.",
+          "quote": "This close relationship of the limokon to the Mandaya is given as the reason why its calls are given such heed. A traveler on the trail hearing the cooing of this bird at once doubles his fist and points it in the direction from whence the sound came.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c10",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "If the fist points to the left, in front or behind, the Mandaya knows the omen bird is warning him of danger or failure, and he delays or gives up his mission.",
+          "statement_id": "Jika tinjunya menunjuk ke kiri, depan, atau belakang, orang Mandaya tahu bahwa burung pertanda itu memperingatkannya tentang bahaya atau kegagalan, lalu ia menunda atau membatalkan tugasnya.",
+          "quote": "If, however, it points to the left, in front, or in back, the Mandaya knows that the omen bird is warning him of danger or failure, and he delays or gives up his mission.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c11",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "After about two hours of work, the call of the limokon was heard to the left of the owner; the men at once gathered their tools and left, explaining it was useless to plant there because the limokon had warned that rats would eat any crop grown on that spot.",
+          "statement_id": "Setelah bekerja sekitar dua jam, bunyi limokon terdengar di sebelah kiri pemilik lahan; para lelaki itu segera mengemasi perkakas dan pergi, dengan alasan percuma menanam di sana karena limokon telah memperingatkan bahwa tikus akan memakan tanaman apa pun di tempat itu.",
+          "quote": "They had labored about two hours when the call of the limokon was heard to the left of the owner. Without hesitation the men gathered up their tools and left the plot, explaining that it was useless for them to plant there for the limokon had warned them that rats would eat any crop they might try to grow in that spot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c12",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The people make no offerings to this bird and do not regard it as a spirit but as a messenger from the spirit world; the old men were certain that anyone who molested one of these birds would die.",
+          "statement_id": "Orang-orang tidak memberi sesaji kepada burung ini dan tidak menganggapnya roh, melainkan utusan dari dunia roh; para tetua yakin siapa pun yang mengganggu burung ini akan mati.",
+          "quote": "The people do not make offerings to this bird, neither do they regard it as a spirit, but rather as a messenger from the spirit world. The old men were certain that anyone who molested one of these birds would die.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c13",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Some informants stated that this is the name given to the first man and woman, who emerged from the limokon eggs.",
+          "statement_id": "Beberapa informan menyatakan bahwa Magbabaya adalah nama bagi lelaki dan perempuan pertama, yang keluar dari telur limokon.",
+          "quote": "Some informants stated that this is the name given to the first man and woman, who emerged from the limokon eggs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c14",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The limokon warns or encourages the traveler, while certain acts of the individual, such as sneezing, are seen as warnings from unseen beings.",
+          "statement_id": "Limokon memperingatkan atau menyemangati pelancong, sedangkan perbuatan tertentu seperti bersin dipandang sebagai peringatan dari makhluk tak kasatmata.",
+          "quote": "The limokon warns or encourages the traveler, while certain acts of the individual, such as sneezing, are looked upon as warnings from unseen beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c15",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Similar beliefs held by the Tagalog were mentioned by Juan de Plasencia in 1589.",
+          "statement_id": "Kepercayaan serupa pada orang Tagalog disebut oleh Juan de Plasencia pada 1589.",
+          "quote": "Similar beliefs held by the Tagalog were mentioned by Juan de Plasencia in 1589.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c16",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "A footnote in this book gives the name Li-mo-kon with the scientific name Phabitreron brevirostris Tweedale, generally called fruit dove.",
+          "statement_id": "Catatan kaki dalam buku ini mencantumkan nama Li-mo-kon dengan nama ilmiah Phabitreron brevirostris Tweedale, yang umumnya disebut merpati buah.",
+          "quote": "Li-mo-kon. (Phabitreron brevirostris Tweedale). Generally called fruit dove.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c17",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "This homely, inert bird is considered the harbinger of good and evil, and is consulted at the start of every journey and undertaking where its prophetic voice can be heard.",
+          "statement_id": "Burung yang sederhana dan pendiam ini dianggap pembawa pertanda baik dan buruk, dan dimintai petunjuk pada awal setiap perjalanan dan setiap usaha di tempat suaranya yang bernubuat dapat terdengar.",
+          "quote": "This homely inert creature is considered the harbinger of good and evil, and is consulted at the beginning of every journey and of every undertaking where its prophetic voice can be heard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c18",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "If its cry forebodes ill, the undertaking is discontinued however urgent it may be; if the cry presages good, the project is taken up or continued with renewed assurance and a glad heart.",
+          "statement_id": "Jika bunyinya menandakan celaka, usaha dihentikan seberapa pun mendesaknya; jika menandakan baik, usaha dimulai atau dilanjutkan dengan keyakinan baru dan hati gembira.",
+          "quote": "Should its cry forebode ill, the undertaking is discontinued no matter how urgent it may be. But should the cry presage good, then the project is taken up or continued with renewed assurance and a glad heart",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c19",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "The bird is regarded as the envoy of the deities and its voice as a divine message.",
+          "statement_id": "Burung ini dipandang sebagai utusan para dewa, dan suaranya sebagai pesan ilahi.",
+          "quote": "for is not this bird the envoy of the deities and its voice a divine message?",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c20",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "The omen bird is never killed, because killing it would bring down great misfortune.",
+          "statement_id": "Burung pertanda tidak pernah dibunuh, karena membunuhnya akan mendatangkan kemalangan besar.",
+          "quote": "The omen bird is never killed, for to kill it would draw down unmitigated misfortune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c21",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "The cage is usually hung from the roof under the eaves outside the wall, and the turtledove is kept for religious purposes.",
+          "statement_id": "Sangkar biasanya digantung pada atap di bawah cucuran atap di luar dinding, dan merpati tekukur dipelihara untuk tujuan keagamaan.",
+          "quote": "The cage is usually hung from the roof under the eaves outside the wall. The turtledove is kept for religious purposes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c22",
+          "source_id": "limokon-s3",
+          "host": "archive.org",
+          "statement": "The prospective traveler places a little sweet potato or banana in the cage and asks the captive bird to sing to its companions in the woods so that they in turn may sing to him the song of success and safe return.",
+          "statement_id": "Calon pelancong menaruh sedikit ubi jalar atau pisang di sangkar dan meminta burung tangkapan itu bernyanyi kepada kawan-kawannya di hutan agar mereka pun menyanyikan lagu keberhasilan dan keselamatan pulang baginya.",
+          "quote": "The prospective traveler takes a little camote or banana and, placing it in the cage, addresses the captive bird and asks it to sing to its companions of the woods that they too in turn may sing to him the song of success and safe return.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c23",
+          "source_id": "limokon-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Maxey states exactly the opposite for the Mandaya of Cateel: the right side is bad and the left good.",
+          "statement_id": "Maxey menyatakan hal yang persis berlawanan bagi orang Mandaya di Cateel: sisi kanan buruk dan sisi kiri baik.",
+          "quote": "Maxey states exactly the opposite, for the Mandaya of Cateel, i. e., the right side is bad, the left good.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ma-bong",
-      "file": "batch-019.md",
+      "file": "batch-019-fix-1.md",
+      "entry_sha256": "1fa60d07b5671dac9ff7f3eee861cfc106057a40757267e9b638f0b65b0af62d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 23,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ma-bong-c01",
@@ -370,8 +959,8 @@
           "id": "ma-bong-c03",
           "source_id": "ma-bong-s1",
           "host": "en.wikipedia.org",
-          "statement": "Despite variations, ma bong is always associated with horses; its presence brings neighing and galloping, and it vanishes leaving only horse tracks.",
-          "statement_id": "Meski beragam, ma bong selalu dikaitkan dengan kuda; kehadirannya disertai suara ringkikan dan derap kuda, dan ia lenyap meninggalkan jejak tapal kuda saja.",
+          "statement": "Despite the variations, ma bong is consistently associated with horses; its presence is often accompanied by neighing and galloping, and it disappears mysteriously, leaving only horse tracks.",
+          "statement_id": "Terlepas dari variasinya, ma bong selalu dikaitkan dengan kuda; kehadirannya sering disertai suara ringkik dan derap kuda, dan ia menghilang secara misterius hanya menyisakan jejak kuda.",
           "quote": "Despite these variations, one consistent detail is Ma bong's association with horses. Its presence is often accompanied by sounds of neighing and galloping, and it mysteriously disappears, leaving behind only horse tracks.",
           "context": "traditional-belief",
           "status": "exact"
@@ -380,8 +969,8 @@
           "id": "ma-bong-c04",
           "source_id": "ma-bong-s1",
           "host": "en.wikipedia.org",
-          "statement": "In the Lanna tale, a young man follows his friend and sees him hungrily licking a buffalo's head; a Buddhist monk advises him to smear it with chilli.",
-          "statement_id": "Dalam kisah Lanna, seorang pemuda membuntuti sahabatnya dan melihatnya menjilati kepala kerbau mati karena lapar; seorang biksu menasihatinya melumuri kepala itu dengan cabai.",
+          "statement": "In the Lanna tale, a young man secretly follows his friend and sees him hungrily licking a buffalo's head carcass; he seeks help from a Buddhist monk who advises smearing chilli on the buffalo's head.",
+          "statement_id": "Dalam kisah Lanna, seorang pemuda diam-diam membuntuti sahabatnya dan melihatnya menjilati bangkai kepala kerbau karena lapar; ia meminta bantuan seorang biksu Buddha yang menyarankan agar cabai dioleskan pada kepala kerbau itu.",
           "quote": "One night, the other friend decided to secretly follow him and saw a horrifying sight: his friend desperately licking the carcass of a buffalo's head in hunger, a gruesome and unsettling image. Seeking help, he consulted a Buddhist monk who advised him to smear chili peppers on the buffalo's head.",
           "context": "traditional-belief",
           "status": "exact"
@@ -390,8 +979,8 @@
           "id": "ma-bong-c05",
           "source_id": "ma-bong-s1",
           "host": "en.wikipedia.org",
-          "statement": "Chased by his friend, now a red-eyed spirit, the man throws raw eggs that the hungry spirit stops to eat, then turns his staircase upside down; the spirit cannot climb, and he sees his friend has become a horse-bodied ma bong.",
-          "statement_id": "Dikejar sahabatnya yang telah menjadi roh bermata merah, pemuda itu melempar telur mentah yang dipungut roh itu karena lapar, lalu membalik tangga rumahnya; roh itu tak bisa naik, dan ia melihat sahabatnya telah menjadi ma bong bertubuh bawah kuda.",
+          "statement": "The fleeing man threw raw eggs behind him as advised; the spirit friend bent down to eat them out of hunger; on reaching his house he ran up the stairs and turned the staircase upside down to confuse the spirit.",
+          "statement_id": "Orang yang melarikan diri melemparkan telur mentah ke belakang sesuai nasihat; roh sahabatnya membungkuk memakan telur itu karena lapar; setibanya di rumah ia masuk, naik tangga, dan membalik tangga itu untuk mengelabui roh.",
           "quote": "The fleeing man threw raw eggs behind him along the way, following the monk's advice. The spirit friend bent down to eat the eggs, driven by hunger. When the man reached his house, he hurried inside, ran up the stairs, and turned the staircase upside down to confuse the spirit.",
           "context": "traditional-belief",
           "status": "exact"
@@ -404,6 +993,176 @@
           "statement_id": "Versi lain menyebut ma bong bertubuh bawah kuda dan bertubuh atas perempuan cantik yang memikat pemuda lalu membunuhnya.",
           "quote": "Others tell of it having the lower body of a horse and the upper body of a beautiful woman, who lures young men into intimate encounters before killing them.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c07",
+          "source_id": "ma-bong-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "According to this journal article, the phi ma bong is a ghost with a horse's form that goes out at night for savoury food (ของคาว); when it is sexually aroused, the \"bong\", or reproductive organ, stiffens and runs back and forth along the village road.",
+          "statement_id": "Menurut artikel jurnal ini, phi ma bong adalah hantu yang berwujud kuda dan keluar pada malam hari mencari makanan berlauk amis (ของคาว); bila ia terangsang secara seksual, organ reproduksi yang disebut \"bong\" menegang dan berlari ke sana kemari di jalan desa.",
+          "quote": "ผีมา้ บ้องเป็ นผีทีม่ ี รูปร่ างเป็ นม้าจะออกหากิ น ... ของคาวตอนกลางคืน หากผีมา้ บ้องเกิ ดอารมณ์ทางเพศ บ้องหรื ออวัยวะสืบพันธุ์จะแข็งตัวและวิ่ งไปมาตาม ถนนในหมู่บา้ น",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c08",
+          "source_id": "ma-bong-s2",
+          "host": "so03.tci-thaijo.org",
+          "statement": "The article classes the origin of the term \"ม้าบ้อง\" as two elements: an animal (ม้า, horse) and an organ (บ้อง, reproductive organ).",
+          "statement_id": "Artikel ini menggolongkan asal istilah \"ม้าบ้อง\" dari dua unsur: hewan (ม้า, kuda) dan organ (บ้อง, organ reproduksi).",
+          "quote": "ประเภทที่มาของค�ำเรี ยกผี คือ 1) สัตว์: ม้ า 2) อวัยวะ: บ้ อง [อวัยวะสืบพันธุ์]",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c09",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "In northern storytelling the legend of \"phi ma bong\" has many versions; the most popular tells of two men who were close friends.",
+          "statement_id": "Dalam tuturan orang utara, legenda \"phi ma bong\" punya banyak versi; yang paling populer berkisah tentang dua lelaki yang bersahabat karib.",
+          "quote": "ในเรื่องเล่าของชาวเหนือ ตำนาน \"ผีม้าบ้อง\" มีด้วยกันหลายสำนวน เรื่องที่สุดฮิตก็คือ มีชาย 2 คนเป็นเพื่อนรักกัน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c10",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "In this telling the story's setting is the northern custom of \"แอ่วสาว-อู้สาว\", a way of building friendly ties between men and women.",
+          "statement_id": "Dalam tuturan ini, latar kisahnya adalah tradisi utara \"แอ่วสาว-อู้สาว\", yaitu cara memupuk hubungan baik antara laki-laki dan perempuan.",
+          "quote": "ทางเหนือนั้นมีประเพณี \"แอ่วสาว-อู้สาว\" ซึ่งเป็นการสานสัมพันธ์ไมตรีระหว่างชายหญิง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c11",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "In the tale, the friend who was followed is seen sticking out his tongue to lick blood and pus from a buffalo's skull carcass; on seeing this, the one following was greatly shocked.",
+          "statement_id": "Dalam kisah itu, sahabat yang diikuti terlihat sedang menjulurkan lidah menjilati darah dan nanah dari bangkai tengkorak kepala kerbau; melihat itu, pengikutnya sangat terkejut.",
+          "quote": "อ้ายคำกำลังแลบลิ้นเลียกินน้ำเลือดน้ำหนองจากซากกะโหลกหัวควายอยู่ เมื่อเห็นดังนั้น อ้ายแก้วก็ตกใจมาก",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c12",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "An elder (ปู่จารย์) advises smearing chilli on the buffalo skull, carrying a charmed hen's egg, throwing the eggs one at a time if chased, and on reaching the house turning the house ladder upside down.",
+          "statement_id": "Seorang ปู่จารย์ (tetua pembimbing) menasihati agar cabai dioleskan pada tengkorak kepala kerbau, telur ayam yang telah dimantrai dibawa, dilemparkan satu per satu bila dikejar, lalu setiba di rumah tangga rumah dibalik.",
+          "quote": "ปู่จารย์กลับแนะนำว่า ถ้าอยากจะว่าอะไรเป็นอะไร ให้เอาพริกไปทากะโหลกหัวควายไว้ แล้วให้เอาไข่ไก่เสกติดตัวไป หากถูกใครไล่ ให้โยนไข่ให้เขาทีละฟอง แล้วรีบเข้าเรือน เมื่อถึงเรือน ให้ยกกะไดบ้านเปลี่ยนสลับหัวล่างเสีย",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c13",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "The friend seemed to have become someone else, with eyes red like firelight, and chased close behind.",
+          "statement_id": "Sahabat itu seolah telah menjadi orang lain, bermata merah seperti cahaya api, dan mengejar dari dekat.",
+          "quote": "ราวอ้ายคำเป็นอีกคนหนึ่งไปแล้ว ตาแดงเป็นแสงไฟ วิ่งไล่ตามมาติดๆ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c14",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "The friend circles the house in a rage, repeating that the house is right but the ladder is not; his face and head are still the friend's, but his body is a horse's.",
+          "statement_id": "Sahabat itu berjalan mengitari rumah dengan marah sambil mengulang bahwa rumahnya benar tetapi tangganya bukan; wajah dan kepalanya masih milik sahabat itu, tetapi tubuhnya tubuh kuda.",
+          "quote": "เห็นอ้ายคำงุ่นง่านโกรธจัด เดินวนรอบเรือน พลางพูดซ้ำๆ ว่า “บ้านใช่ บันไดไม่ใช่” “บ้านใช่ บันไดไม่ใช่” ทว่า ใบหน้าและหัวเป็นของอ้ายคำ แต่ลำตัวเป็นม้า",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c15",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "The next morning, on the dirt yard around the house, what looked like horse hoofprints were found all around it.",
+          "statement_id": "Keesokan paginya, di tanah halaman sekeliling rumah tampak seperti jejak kaki kuda yang mengitarinya.",
+          "quote": "ตกรุ่งเช้า ที่ลานดินรอบบ้าน ก็ปรากฏเป็นดั่งรอยตีนม้าย่ำแวดล้อม",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c16",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "Some versions say the friend was found dead as a corpse on his bed, foaming at the mouth from the charmed eggs; others say a small horse was seen lying dead in the house.",
+          "statement_id": "Sebagian versi menyebut sahabat itu ditemukan mati sebagai mayat di tempat tidur dengan mulut berbusa karena memakan telur bermantra; versi lain menyebut ia terlihat sebagai kuda kecil yang mati di dalam rumah itu.",
+          "quote": "บางสำนวนก็เล่าว่า ได้พบอ้ายคำนอนตายกลายเป็นศพอยู่บนที่นอน น้ำลายฟูมปากจากการกินไข่คาถาเข้าไป แต่บางสำนวนก็ว่า เห็นเป็นม้าตัวย่อมๆ นอนตายอยู่ในเรือนนั้น",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c17",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "It is said the phi ma bong often comes out to roam on new-moon and full-moon nights, and anyone who meets it must not greet or speak to it, or they may be harmed.",
+          "statement_id": "Konon phi ma bong sering keluar berkeliaran pada malam bulan mati dan bulan purnama, dan bila bertemu dengannya orang tidak boleh menyapa atau berbicara kepadanya, jika tidak akan dicelakai.",
+          "quote": "ผีม้าบ้องยังมักจะออกมาเที่ยวเล่นในคืนเดือนดับและเดือนออก (เดือนเพ็ญ) และถ้าได้พบเห็นอย่าได้ทักถามพูดจา ไม่เช่นนั้นจะถูกทำร้ายได้",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c18",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "At night, even after ladders came to be fixed permanently, there was still a warning to take care not to go down and meet a phi ma bong lying in wait.",
+          "statement_id": "Pada malam hari, bahkan setelah tangga rumah dipasang permanen, masih ada nasihat agar berhati-hati jangan sampai turun dan bertemu phi ma bong yang bersembunyi.",
+          "quote": "เวลาตกกลางค่ำกลางคืน สมัยที่บันไดยึดติดถาวรแล้ว ก็ยังมีคำสอนว่า ระวังจะลงไปเจอผีม้าบ้องซุ่มอยู่",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c19",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "In an experience the author relates, her mother heard hoofbeats as if a horse were galloping up from behind, but saw nothing when she looked back.",
+          "statement_id": "Dalam pengalaman yang dituturkan penulis, ibunya mendengar derap kaki kuda seolah ada kuda berlari dari belakang, tetapi saat menoleh tak tampak apa pun.",
+          "quote": "ได้ยินเสียงฝีเท้าม้า เหมือนมีม้ากำลังควบมาทางข้างหลัง แต่พอเหลียวหลัง ก็ไม่เห็นอะไรสักอย่าง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c20",
+          "source_id": "ma-bong-s3",
+          "host": "www.sanook.com",
+          "statement": "A grandmother described what she saw as a smallish horse that sometimes walked about in the middle of the house yard.",
+          "statement_id": "Seorang nenek menuturkan bahwa yang ia lihat adalah kuda kecil yang kadang berjalan di tengah pekarangan rumah.",
+          "quote": "ยายเห็นผีม้าบ้องแบบไหน ยายบอกว่า มันเป็นม้าตัวย่อมๆ บางครั้งก็จะมาเดินอยู่กลางข่วงบ้าน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c21",
+          "source_id": "ma-bong-s4",
+          "host": "www.nationthailand.com",
+          "statement": "An exhibition of Thai local-ghost illustrations features Phi Ma Bong from the North, known for its large horse-like form, fierce red eyes and menacing grin.",
+          "statement_id": "Pameran ilustrasi hantu lokal Thailand menampilkan Phi Ma Bong dari utara, yang dikenal berwujud besar mirip kuda, bermata merah garang, dan menyeringai mengancam.",
+          "quote": "Phi Ma Bong from the North, known for its large horse-like form, fierce red eyes, and menacing grin.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c22",
+          "source_id": "ma-bong-s4",
+          "host": "www.nationthailand.com",
+          "statement": "According to the exhibition notes, it sometimes appears half-human, half-horse, rumoured to abduct wandering children or lure people into the spirit world.",
+          "statement_id": "Menurut keterangan pameran itu, kadang ia tampil setengah manusia setengah kuda, dan konon menculik anak-anak yang berkeliaran atau memikat orang ke dunia roh.",
+          "quote": "Sometimes it appears as half-human, half-horse, rumoured to abduct wandering children or lure people into the spirit world.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c23",
+          "source_id": "ma-bong-s4",
+          "host": "www.nationthailand.com",
+          "statement": "The exhibition \"The Untold Story: Unspoken Local Ghosts\" was organised by the Creative Economy Agency (CEA) and ran at TCDC Bangkok in the Central Post Office Building.",
+          "statement_id": "Pameran \"The Untold Story: Unspoken Local Ghosts\" diselenggarakan oleh Creative Economy Agency (CEA) dan digelar di TCDC Bangkok di Gedung Kantor Pos Pusat.",
+          "quote": "the exhibition “The Untold Story: Unspoken Local Ghosts”. Organised by the Creative Economy Agency (CEA) and running at TCDC Bangkok in the Central Post Office Building",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
