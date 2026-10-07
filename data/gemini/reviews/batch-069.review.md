@@ -1,13 +1,10 @@
 # Review batch-069
 
-Diperiksa 2026-10-01T13:41:27.940Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md.
+Diperiksa 2026-10-07T06:17:26.782Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
-Klaim 6 (loose 5, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 5, exact 4), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,14 +14,14 @@ Klaim 6 (loose 5, exact 1), sumber 1, gambar 0.
 | mo-chinese-zoology-c04 | loose | en.wikipedia.org | The Japanese baku develops the protective image motif into dream devouring to prevent nightmares. | The Japanese baku (獏) changed the Chinese myth about the mò image preventing illness to dream-devouring in order to prevent nightmares. |
 | mo-chinese-zoology-c05 | exact | en.wikipedia.org | The metal eating description comes from Guo Pu's commentary rather than the early Shan Hai Jing text itself. | Bai's "eats iron and copper, and eats nothing else" reference comes from Guo Pu's 4th century commentary to the Shanhai jing and not the pre-Han classic text. The Shanhai jing proper mentions the mengbao "ferocious leopard" on South Mountain, which Guo notes as a metal-eating beast similar to the mò, and mentions Lai Mountain, which he glosses as a mò habitat. |
 | mo-chinese-zoology-c06 | loose | en.wikipedia.org | Until the late Qing, Mo could refer to both the panda and the composite creature, before a mistaken identification associated it with the tapir. | Up until the late Qing dynasty (1644–1912), the Chinese name mo (貘) continued referring to both "giant panda" and "chimera with an elephant trunk, rhinoceros eyes, cow tail, and tiger paws", and owing to Jean-Pierre Abel-Rémusat's mix-up in the 1820s, mò was misidentified as the recently discovered "Malayan tapir". |
+| mo-chinese-zoology-c07 | exact | zh.wikisource.org | In Bai Juyi's preface the mo has an elephant's nose, rhinoceros eyes, an ox tail and tiger feet, and lives in the mountain valleys of the south; sleeping on its skin averts pestilence and drawing its form averts evil. | 貘者，象鼻犀目，牛尾虎足，生南方山谷中。寢其皮辟瘟，圖其形辟邪。 |
+| mo-chinese-zoology-c08 | exact | zh.wikisource.org | Bai Juyi writes that, according to the Shanhaijing, this beast eats iron and copper and nothing else. | 寢其皮辟瘟，圖其形辟邪。予舊病頭風，每寢息，常以小屏衛其首，適遇畫工，偶令寫之。按《山海經》，此獸食鐵與銅，不食他物。 |
+| mo-chinese-zoology-c09 | exact | zh.wikisource.org | In the hymn itself, Bai Juyi calls the mo a marvellous beast born in the southern land that eats nothing but iron. | 邈哉奇獸，生於南國。其名曰貘，非鐵不食。昔在上古，人心忠質。 |
 
 
 ## nine-eared-hound — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -34,14 +31,16 @@ Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
 | nine-eared-hound-c04 | loose | en.wikipedia.org | The dog belongs to a hunter named Chen and predicts the number of prey through its quivering ears. | One version of the myth is found in Chapter 12 of Yuan Mei's What the Master Would Not Discuss (1788). The Nine-Eared Hound belonged to a hunter surnamed Chen (陳). Before each hunting trip, the number of its ears that quivered accurately predicted the number of prey. One time, all its nine ears quivered but they did not catch anything all morning. |
 | nine-eared-hound-c05 | exact | en.wikipedia.org | The dog leads Chen to a large egg that later opens during a thunderstorm to reveal a baby. | Chen found a huge egg and brought it home. The next day, during a thunderstorm, the egg cracked open, revealing a lovely baby. |
 | nine-eared-hound-c06 | exact | en.wikipedia.org | In another version the child is named Chen Wenyu, associated with the God of Thunder in Leizhou. | In another version, the baby had the characters "Leizhou" written in one palm and the characters "Chen Wenyu" written in the other, and Chen Wenyu became his name. Even today, the God of Thunder is known as Chen Wenyu in Leizhou, where local people of the Chen surname claimed descent from him. In another local legend, the dog became the companion for the God of Thunder. |
+| nine-eared-hound-c07 | exact | zh.wikisource.org | The Taiping Guangji records a man of the Lei region who kept a hunting dog with twelve ears; before a hunt, the number of ears that moved was taken as the number of animals to be caught. | 又云：「嘗有雷民，畜畋犬，其耳十二。每將獵，必笞犬，以耳動為獲數。 |
+| nine-eared-hound-c08 | exact | zh.wikisource.org | One day all of the dog's ears moved; afterwards it no longer chased game and howled by the sea. | 以耳動為獲數。 ... 一日，諸耳畢動。既獵，不復逐獸。至海旁測中嗥鳴。郡人視之 |
+| nine-eared-hound-c09 | exact | zh.wikisource.org | In this version the eggs brought home broke open after a storm and left their shells; the people of the commandery divided the shells and made offerings to them at set times, and holding a shell marked a prominent clan. | 後忽風雨，若出自室。既霽就視，卵破而遺甲存焉。後郡人分其卵甲，歲時祀奠，至今以獲得遺甲為豪族。 |
+| nine-eared-hound-c10 | exact | zh.wikisource.org | The Guangdong Xinyu says that Chen Kun of Leizhou, who had no son and made his living by hunting, kept a very efficacious nine-eared dog; each ear that moved meant one animal caught. | 陳時雷州人陳鉷無子，其業捕獵，家有九耳犬甚靈。凡將獵，卜諸犬耳。一耳動，則獲一獸，動多則三四耳，少則一二耳。 |
+| nine-eared-hound-c11 | exact | zh.wikisource.org | One day all nine ears moved and the dog kept circling a thicket; Chen Kun found a huge egg and took it home, and in a thunderstorm it opened to reveal a boy with the characters for Lei and Zhou written on his hands. | 一日出獵，而九耳俱動，鉷大喜，以為必多得獸矣。既之野，有叢棘一區，九耳犬圍繞不去。異之，得一巨卵徑尺，攜以歸，雷雨暴作，卵開，乃一男子，其手有文，左曰雷，右曰州 |
 
 
 ## scorpion-demoness — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 8, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -51,14 +50,15 @@ Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
 | scorpion-demoness-c04 | loose | en.wikipedia.org | She lives in Pipa Cave on Venom Mountain near the Women's Kingdom. | The Scorpion Demoness resides in Pipa Cave (琵琶洞) on Venom Mountain (毒敵山), near the Women's Kingdom. When Tang Sanzang and his disciples are about to leave the Women's Kingdom, the scorpion demoness suddenly appears, abducting Sanzang to her cave. There, she attempts to seduce and persuade him into marriage, leading him into the bridal suite she has prepared. |
 | scorpion-demoness-c05 | loose | en.wikipedia.org | She abducts Tang Sanzang and tries to persuade him to marry her. | The Scorpion Demoness resides in Pipa Cave (琵琶洞) on Venom Mountain (毒敵山), near the Women's Kingdom. When Tang Sanzang and his disciples are about to leave the Women's Kingdom, the scorpion demoness suddenly appears, abducting Sanzang to her cave. There, she attempts to seduce and persuade him into marriage, leading him into the bridal suite she has prepared. |
 | scorpion-demoness-c06 | exact | en.wikipedia.org | Maori Xingguan defeats her by becoming a giant rooster with two combs. | Eventually, Maori Xingguan subdues the demoness by transforming into a giant rooster with two combs. |
+| scorpion-demoness-c07 | exact | zh.wikisource.org | In the novel, the Bodhisattva explains that the demoness's three-pronged fork is really a pair of pincers, that the painful sting comes from a hook on her tail called "daoma du" (horse-felling venom), and that her true body is a scorpion spirit. | 菩薩道：「這妖精十分利害。他那三股叉是生成的兩隻鉗腳。扎人痛者，是尾上一個鉤子，喚做倒馬毒。本身是個蝎子精。 |
+| scorpion-demoness-c08 | exact | zh.wikisource.org | According to the Bodhisattva in the novel, the demoness once listened to the Buddha discuss the sutras at the Temple 雷音寺 (Leiyin); when Rulai (如來) pushed her, she turned her hook and stung the middle thumb of Rulai's left hand, causing him unbearable pain. | 他前者在雷音寺聽佛談經，如來見了，不合用手推他一把，他就轉過鉤子，把如來左手中拇指上扎了一下。如來也疼難禁，即著金剛拿他。 |
+| scorpion-demoness-c09 | exact | zh.wikisource.org | Sun Wukong (行者) tells the star official that his master is in trouble in the cave 琵琶洞 on the mountain 毒敵山 in the country 西梁國. | 那星官斂雲霧整束朝衣，停執事分開左右，上前作禮道：「大聖何來？」行者道：「專來拜煩救師父一難。」星官道：「何難？在何地方？」行者道：「在西梁國毒敵山琵琶洞。」 |
+| scorpion-demoness-c10 | exact | zh.wikisource.org | In the novel the star official appears as a great double-crested rooster about six or seven chi (尺) tall; when it crows, the demoness reveals her true form, a scorpion as big as a pipa, and after a second crow her body goes limp and she dies. | 原來是一隻雙冠子大公雞，昂起頭來，約有六七尺高，對著妖怪叫了一聲。那怪即時就現了本相，原來是個琵琶來大小的一個蝎子精。這星官再叫一聲，那怪渾身酥軟，死在坡前。 |
 
 
 ## shuzi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -68,14 +68,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | shuzi-c04 | exact | ja.wikipedia.org | Versions differ over whether it eats the animals it kills. | 見た目は虎のようで体はとても大きく尾もとても長いが、決して生きた獣を捕食しないという。ただし、虎や豹を目にすると態度は変わり必ず襲ってそれを殺すと伝えられていた。狩り捕った虎や豹は食べるとされる場合もあるが、酋耳は狩るのみでその肉を食べたりはしないとも語られる。 |
 | shuzi-c05 | exact | ja.wikipedia.org | The Sancai Tuhui connects its appearance with a ruler's authority extending to the surrounding peoples. | 『三才図会』では、王者の威勢が四夷に及んだ際に世に出現する獣であるとされている。『逸周書』「王会」の解では各地から贈られて来ためずらしい禽獣魚介のうちのひとつとして贈られていることが記されているが、これを献上している央林（『三才図会』では「英林山」とされている）については西の方角に属する地である以外にはあまり詳しく分かっていない。 |
 | shuzi-c06 | exact | ja.wikipedia.org | Shuzi is sometimes identified with Zouyu, allowing their attributes to overlap. | 同様に獣を捕食しないとされる中国に伝わる霊獣には騶虞（すうぐ）というものもあり、そちらは仁獣とされている。性質が似通っていることから同じ霊獣と見られたり、混同が行われて来ており「虎や豹を見ると狩るが、食べない」と言われたりする点や「長い尾が特徴である」とされる点など互いの属性がまじりつつ伝わっている面もある。 |
+| shuzi-c07 | exact | zh.wikisource.org | The 《三才圖會》 passage in the Gujin tushu jicheng says the 酋耳 lives on Mount 英林山, was once presented in the time of King Cheng of Zhou, has a tail longer than its body, eats tigers and leopards, and appears when a ruler's might reaches the four barbarian quarters. | 英林山有酋耳，周成王時曾獻之。尾長於身，食虎豹。 王者威及四夷，則此獸至。 |
+| shuzi-c08 | exact | zh.wikisource.org | The 《汲冢周書》, chapter 王會解, as quoted, says the 酋耳 has a body like a tiger or leopard, a tail of three chi, and eats tigers and leopards. | 《汲冢周書》王會解：「史林以酋耳。」酋耳者，身若虎豹，尾 長三尺，其身食虎豹。 |
+| shuzi-c09 | exact | zh.wikisource.org | According to 《朝野僉載》, in the time of the Empress (天后) a huge tiger-like beast chased and killed a tiger without eating its flesh; when checked against the 瑞圖 (auspicious omen illustrations), it was identified as a 酋耳. | 天后時，涪州龍虎界多虎暴。有一獸似虎 而絕大，日正午，逐一虎直入人家，噬殺之，不食其肉。 自是縣界不復有虎矣。錄奏檢瑞圖，乃酋耳。 |
+| shuzi-c10 | exact | zh.wikisource.org | A passage from the 《冊府元龜》 records that in the third month of the 24th year of Kaiyuan (開元二十四年) an auspicious beast was captured; the 酋耳 was tiger-like, had a tail longer than its body, leopard markings, and could eat tigers. | 《冊府元龜》：「開元二十四年三月，獲瑞獸，酋耳形類虎， 尾長於身，有豹文，能食虎。」 |
 
 
 ## tenghuang — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -84,14 +85,15 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | tenghuang-c03 | exact | en.wikipedia.org | One version describes a foxlike beast with wings and dragonlike horns on its back. | There are two versions of what Tenghuang looked like. It is said to be a beast like a fox, with wings and horns like a dragon on its back. The life span of those who ride it can grow to two thousand years. Another claim states that it has the appearance of a horse. |
 | tenghuang-c04 | exact | en.wikipedia.org | Another version gives Tenghuang a horse's appearance; its rider is said to gain a lifespan of two thousand years. | There are two versions of what Tenghuang looked like. It is said to be a beast like a fox, with wings and horns like a dragon on its back. The life span of those who ride it can grow to two thousand years. Another claim states that it has the appearance of a horse. |
 | tenghuang-c05 | loose | en.wikipedia.org | Expressions referring to riding Tenghuang describe rising in status or reputation. | There is an idiom in Chinese, "Flying the Yellow Tengda" (飛黃騰達) or "Riding on the Tenghuang". It is used to describe a person ascending and gaining a high position or reputation. |
+| tenghuang-c06 | exact | zh.wikisource.org | The Shanhaijing (Overseas West section) names the 乘黃 (Chenghuang) in the land of the 白民: it looks like a fox, has horns on its back, and whoever rides it lives two thousand years. | 白民之國在龍魚北，白身披髮。有乘黃，其狀如狐，其背上有角，乘之壽二千歲。 |
+| tenghuang-c07 | exact | zh.wikisource.org | The compilation 名馬記 quotes the 《淮南子》 and Gao You's commentary: the 飛黃 (Feihuang) is like a fox with horns on its back, covers ten thousand li a day, and its rider lives three thousand years. | 《淮南子》曰：黃帝治天下，飛黃服皂。高誘曰：飛黃如狐，背有角，日行萬里，乘之壽三千歲。 |
+| tenghuang-c08 | exact | zh.wikisource.org | A passage from the 《瑞應圖》 in the 名馬記 calls the 騰黃 a divine yellow horse that arrives when a ruler governs the four quarters through virtue, also named 吉光, whose rider lives three thousand years and which never dies. | 《瑞應圖》曰：騰黃者，神馬也，其色黃，王者德御四方則至。一名吉光，乘之壽三千歲，此馬無死時。 |
+| tenghuang-c09 | exact | zh.wikisource.org | According to Ying Shao (應劭), quoted in the 名馬記, the 乘黃 has dragon wings and a horse's body, and the Yellow Emperor (黃帝) rode it and became an immortal; the 《瑞應圖》 adds that the 乘黃 appears when a ruler's carriage and dress follow proper rules. | 應劭曰：乘黃，龍翼馬身，黃帝乘而仙。 《瑞應圖》曰：乘黃者，王者輿服有度則出。 |
 
 
 ## the-nine-tailed-turtle — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -101,14 +103,15 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 | the-nine-tailed-turtle-c04 | exact | en.wikipedia.org | Two stories from imperial China are interpreted as encouraging the release of living turtles. | Two extant stories from imperial China both appear to advocate for the life release of nine-tailed turtles. |
 | the-nine-tailed-turtle-c05 | exact | en.wikipedia.org | Hong Mai's Yijian Zhi includes a turtle appearing during the siege of Yingtian in 1126. | According to a story compiled by Hong Mai (1123–1202) in his Yijian Zhi, during the Jin–Song Wars of 1126, when the Song "southern capital" Yingtian Prefecture (modern Shangqiu) was under siege, a huge nine-tailed turtle appeared in the city. It was described as being three chi tall, "as big as a wheel", with nine bony tails and a yellow, waxy carapace. |
 | the-nine-tailed-turtle-c06 | exact | en.wikipedia.org | The turtle in that story is wheel sized, with nine bony tails and a yellow waxy carapace. | According to a story compiled by Hong Mai (1123–1202) in his Yijian Zhi, during the Jin–Song Wars of 1126, when the Song "southern capital" Yingtian Prefecture (modern Shangqiu) was under siege, a huge nine-tailed turtle appeared in the city. It was described as being three chi tall, "as big as a wheel", with nine bony tails and a yellow, waxy carapace. |
+| the-nine-tailed-turtle-c07 | exact | zh.wikisource.org | The chapter on turtles and divination in the 《史記》 lists eight named turtles, the seventh being the 九州龜 (Turtle of Nine Provinces), and says that whoever obtains a named turtle will gain wealth and a very rich household. | 記曰：「能得名龜者，財物歸之，家必大富至千萬。」一曰「北斗龜」，二曰「南辰龜」，三曰「五星龜」，四曰「八風龜」，五曰「二十八宿龜」，六曰「日月龜」，七曰「九州龜」，八曰「玉龜」：凡八名龜。 |
+| the-nine-tailed-turtle-c08 | exact | zh.wikisource.org | In the 《庚巳編》, a butcher surnamed Wang of Haining and his son buy a large turtle from a fisherman and tie it under a pillar to make soup of it; a merchant from Jiangyou staying nearby asks his landlord to redeem it for a thousand coins. | 海寧百姓王屠與其子出行，遇漁父持巨龜，徑可尺餘，買歸係著柱下，將羹之。鄰居有江右商人見之，告其邸翁，請以千錢贖焉。 |
+| the-nine-tailed-turtle-c09 | exact | zh.wikisource.org | The merchant calls it a 九尾龜, a divine creature he wants to buy and release; when he steps on its shell, four small tails appear on each side of the large tail. Wang refuses to sell it and cooks it into soup that he and his son eat. | 商曰：「此九尾龜，神物也，欲買放去。 ... 商踏龜背，其尾之兩旁露小尾各四，便持錢乞王，王不肯，遂烹作羹，父子共啖。 |
+| the-nine-tailed-turtle-c10 | exact | zh.wikisource.org | That evening a flood came in from the sea and floated the beds; next day the landlord broke open their door and found only clothes and bedding on the bed, the father and son gone. Some said they were taken and killed by the water palace for harming a divine turtle. | 是夕，大水自海中來，平地高三尺許，牀榻盡浮，十餘刻始退。及明午，翁怪王屠父子不起，坏戶入視之，但見衣衾在牀，父子都不知去向。人或云：害神龜，為水府攝去殺卻也。 |
 
 
 ## three-legged-turtle — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -116,6 +119,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | three-legged-turtle-c02 | exact | en.wikipedia.org | The Erya names the hard shelled turtle Fen and the softshell turtle Nai. | According to the ancient dictionary Erya, the former (pertaining to hardshell turtles including tortoises) is properly called Fen (simplified Chinese: 贲; traditional Chinese: 賁; pinyin: Fén), and the latter, Nai (Chinese: 能; pinyin: Nái). |
 | three-legged-turtle-c03 | exact | en.wikipedia.org | A translation of the Shan Hai Jing places three-footed turtles in River Mad on Mount Bigbitter. | ...On the south face of Mount Bigbitter the River Mad rises and flows southwest to empty into the River Person. Three-footed turtles are numerous in the River Mad. Those who eat it won't have a serious illness, and it can be taken to cure a swelling. |
 | three-legged-turtle-c04 | exact | en.wikipedia.org | Another passage places three-footed softshell turtles with branching tails in River Trailer. | ...The River Trailer rises on its summit and runs a hidden course to its base. This river contains many three-footed [softshell] turtles with a branching tail. If you eat it, you won't succumb to the plague of the malign force. |
+| three-legged-turtle-c05 | exact | zh.wikisource.org | The annotation to the Erya quotes the 《山海經》: three-legged softshell turtles are plentiful on Mount 從山 and three-legged turtles on Mount 大苦山; it adds that a pond on Mount 君山 in Yangxian County (吳興郡陽羨縣) yields three-legged softshell turtles and also six-eyed turtles. | 《山海經》曰：從山多三足鱉，大苦山多三足龜。今吳興郡陽羨縣君山上有池，池中出三足鱉，又有六眼龜。 |
+| three-legged-turtle-c06 | exact | zh.wikisource.org | The commentary to the Erya explains that softshell turtles and turtles ordinarily have four feet, so the three-footed ones are given different names: 能 for the softshell turtle and 賁 for the turtle. | 鱉、龜皆四足，三足者異，故異其名。鱉之三足者名能，龜之三足者名賁也。 |
+| three-legged-turtle-c07 | exact | zh.wikisource.org | The 《庚巳編》 tells of a commoner of 太倉州 who bought a three-legged softshell turtle from a fisherman and had his wife cook it; after he ate it, his wife found only a lock of hair and his clothes on the ground, as if he had shed his form. | 庚午夏，太倉州有百姓道見漁者，持一鱉而三足，買歸令婦炰之。既熟，呼婦共餐，婦不欲食，出坐門外。久之不聞其夫聲，入視已失所在，地上止存發一縷，衣服冠履，事事皆在，如蛻形者。 |
+| three-legged-turtle-c08 | exact | zh.wikisource.org | The fishermen in the tale say that when ordered to catch a three-legged softshell turtle they first netted something very heavy, a lump of flesh shaped like a person with all facial features but no hands or feet, wriggling with closed eyes, and threw it back into the water. | 群漁云：初被命，網於川，舉網驚其太重，及岸視之，乃一肉塊如人形，五官俱具而無手足，閉目蠢動。漁大驚怕，擲之水中 |
 
 
 ## wd-q10309898 — lulus-otomatis
@@ -162,10 +169,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q10478981 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -174,6 +178,7 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q10478981-c03 | exact | zh.wikipedia.org | The name Luoluo is also used for a bluish tigerlike beast elsewhere in the text. | 罗罗也於《山海经·海外北经》載是一種青色似虎的猛兽，如郝懿行說：「海外北經有青獸，狀如虎，名曰羅羅，此鳥與之同名。」罗罗或就是形容這種鳥似虎凶猛，但《山海经》中未有詳述，如郭璞說：「羅羅之鳥，所未詳也。」 |
 | wd-q10478981-c04 | exact | zh.wikipedia.org | Guo Pu notes that the Luoluo bird's characteristics are not explained in detail. | 罗罗也於《山海经·海外北经》載是一種青色似虎的猛兽，如郝懿行說：「海外北經有青獸，狀如虎，名曰羅羅，此鳥與之同名。」罗罗或就是形容這種鳥似虎凶猛，但《山海经》中未有詳述，如郭璞說：「羅羅之鳥，所未詳也。」 |
 | wd-q10478981-c05 | exact | zh.wikisource.org | The classical text mentions sandalwood and mulberry trees on Mount Lai, where Luoluo are numerous. | 又西三百裏五十里，曰萊山，其木多檀楮，其鳥多羅羅〈羅羅之鳥所未詳也。〉，是食人。 |
+| wd-q10478981-c06 | exact | zh.wikisource.org | In the Overseas North section of the Shanhaijing, 羅羅 is also named as a blue-green (青) beast shaped like a tiger, among several animals within the North Sea. | 北海內有獸，其狀如馬，名曰騊駼。有獸焉，其名曰駮，狀如白馬，鋸牙，食虎豹。有素獸焉，狀如馬，名曰蛩蛩。有青獸焉，狀如虎，名曰羅羅。 |
 
 
 ## wd-q10563786 — lulus-otomatis
@@ -206,10 +211,7 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## wd-q15925221 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -219,14 +221,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q15925221-c04 | exact | zh.wikipedia.org | His eyes emit light that frightens the other children. | 永安三年（260年）二月某日，孩子如常玩耍時，突然出現一個陌生的小朋友，年紀大约六、七歲。身高四尺多，身穿綠衣。孩子都覺得很奇怪，七嘴八舌地問：「這個傢伙從沒看過耶，你是哪家的小孩？」這個小孩回答：「我看你們玩得很高興，就過來啦！」大家定神一瞧，只見這個小孩兩眼閃爍著強烈光芒，好像要射殺人一般。孩子們感到非常害怕，又再問：「你從那里來的？」他回答：「你們怕我嗎？我不是人，是熒惑星（火星）。其實，我有事要告訴你們；三國終將歸司馬氏。」此話一出，孩子們都嚇破膽，其中一人急忙跑去叫大人來。大人一看到這個小孩，那孩子就说：「各位，再會了！」隨之便蜷曲身體飛向天際。孩子的身體瞬間變成了一塊白布，緩緩地朝天空飛去。大家仰頭望去，只見白布拖著長長的尾巴輕輕地飄走，不一會兒就消失不見。 |
 | wd-q15925221-c05 | exact | zh.wikipedia.org | The child identifies himself as Mars and predicts that the Three Kingdoms will belong to the Sima family. | 他回答：「你們怕我嗎？我不是人，是熒惑星（火星）。其實，我有事要告訴你們；三國終將歸司馬氏。」 |
 | wd-q15925221-c06 | exact | zh.wikipedia.org | When adults arrive, he rises into the sky and becomes a white cloth with a long trailing tail. | 大人一看到這個小孩，那孩子就说：「各位，再會了！」隨之便蜷曲身體飛向天際。孩子的身體瞬間變成了一塊白布，緩緩地朝天空飛去。大家仰頭望去，只見白布拖著長長的尾巴輕輕地飄走，不一會兒就消失不見。 |
+| wd-q15925221-c07 | exact | zh.wikisource.org | In the 《宋書》, in the year 永安二 of Sun Xiu (孫休), as hostage children gathered to play, a strange child suddenly came, said "三公鋤，司馬如", claimed "I am not human, I am the star 熒惑", and rose into the sky looking like a length of silk being drawn along. | 孫休永安二年，將守質子羣聚嬉戲，有異小子忽來，言曰：「三公鋤，司馬如。」又曰：「我非人，熒惑星也。」言畢上升，仰視若曳一匹練，有頃沒。 |
+| wd-q15925221-c08 | exact | zh.wikisource.org | According to Gan Bao (干寶) as quoted, four years later Shu fell, six years later Wei was deposed and twenty-one years later Wu was pacified, so that all realms came under Jin; that is what the child's words meant. | 干寶曰，後四年而蜀亡，六年而魏廢，二十一年而吳平，於是九服歸晉。魏與吳、蜀，並為戰國，「三公鋤，司馬如」之謂也。 |
 
 
 ## wd-q17060695 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 9, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -236,6 +237,10 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | wd-q17060695-c04 | exact | zh.wikipedia.org | When he watches secretly, he sees a woman emerge from the snail's container and attend to his house. | 有一天他假装出门，躲在門缝後，看見水缸裡冒出来一個漂亮女子，為他煮好飯菜並把家裡打掃乾淨。 |
 | wd-q17060695-c05 | exact | zh.wikipedia.org | People on the Fujian coast venerate the Snail Girl as a protector of safety at sea. | 福建沿海一带的居民认为螺女是他们的守护神，能保佑他们出海时平安无事，所以他们相信螺女的传说，并且供奉螺女。螺女也是福州疍民的重要信仰之一。今福州仓山区有地名螺洲镇，闽侯县境内有地名螺江。 |
 | wd-q17060695-c06 | exact | zh.wikipedia.org | The story spreads to several coastal regions in differing versions. | 田螺姑娘的故事后来从福建省传到了江苏、浙江、上海、广东的沿海一带。另外，四川省射洪县的螺湖也存在着类似的神话传说。各地传说的版本内容都不大一样。 |
+| wd-q17060695-c07 | exact | zh.wikisource.org | In the 《搜神後記》 text, Xie Duan (謝端) finds a big snail the size of a three-sheng jar, takes it home and keeps it in an urn; after some days, every time he returns from the fields he finds food, drink, soup and a fire ready as if someone had prepared them. | 後於邑下得一大螺，如三升壺，以為異物，取以歸，貯甕中。畜之十數日。端每早至野，還，見其戶中有飯飲湯火，如有人為者 |
+| wd-q17060695-c08 | exact | zh.wikisource.org | Xie Duan leaves at cockcrow, sneaks back early and peeks from outside the fence; he sees a young woman come out of the urn and light the fire at the stove, and when he goes in to the urn he sees only the snail's shell. | 後以雞鳴出去，平早潛歸，於籬外竊窺其家中。見一少女，從甕中出，至灶下燃火。端便入門，逕至甕所，視螺，但見殼。 |
+| wd-q17060695-c09 | exact | zh.wikisource.org | She answers that she is the 白水素女 of the Heavenly River; the Celestial Emperor (天帝) pitied Xie Duan, orphaned young yet self-disciplined, and sent her to keep his house and cook for a time, to leave once ten years had made him rich and married. | 答曰：「我天漢中白水素女也。天帝哀卿少孤，恭慎自守，故使我權相為守舍炊烹。十年之中，使卿居富得婦，自當還去。 |
+| wd-q17060695-c10 | loose | zh.wikisource.org | She leaves her shell for storing rice so he would never lack, refuses to stay and departs with sudden wind and rain; Xie Duan sets up a spirit seat and offers sacrifices in season, lives in comfort, is married to a local girl and later holds office; the text says the shrine 素女祠 on the road is that shrine. | 留此殼去，以貯米穀，常可不乏。端請留，終不肯。時天忽風雨，翕然而去。端為立神座，時節祭祀。居常饒足，不致大富耳。於是鄉人以女妻之，後仕至令長云。今道中素女祠是也。 |
 
 
 ## wd-q17060952 — lulus-otomatis
@@ -282,10 +287,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q22100555 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -294,6 +296,7 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q22100555-c03 | exact | zh.wikipedia.org | Its voice is said to call its own name. | 瞿如為記載於《山海经》中的一種鳥，样子像鵁，头却是白的，有三只脚，脸像人。叫声是自己的名字。 |
 | wd-q22100555-c04 | exact | zh-classical.wikipedia.org | The southern section of the Shan Hai Jing places Quru on Mount Daoguo. | 瞿如，古譚異獸也，據《山海經》：「東五百里，曰禱過之山，其上多金玉，其下多犀、兕，多象。有鳥焉，其狀如鵁而白首，三足，人面，其名曰瞿如，其鳴自號也。」 |
 | wd-q22100555-c05 | exact | zh-classical.wikipedia.org | The text with commentary compares Quru's form with the Jiao bird. | 瞿如，古譚異獸也，據《山海經》：「東五百里，曰禱過之山，其上多金玉，其下多犀、兕，多象。有鳥焉，其狀如鵁而白首，三足，人面，其名曰瞿如，其鳴自號也。」 |
+| wd-q22100555-c06 | exact | zh.wikisource.org | The Southern section of the Shanhaijing says that on Mount 禱過之山 there is a bird shaped like a 鵁 with a white head (one version writes 手 for 首), three feet and a human face, named 瞿如, whose cry calls its own name; an annotation says the 鵁 resembles a duck but is smaller, with its legs near the tail. | 有鳥焉，其狀如鵁〈鵁似鳧而小腳近尾。音骹箭之骹〉，而白 首一作「手」、三足、人面，其名曰瞿如〈音劬〉，其鳴自號也。 |
 
 
 ## wd-q22100628 — skip
@@ -309,10 +312,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q33113858 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -321,14 +321,12 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q33113858-c03 | exact | zh.wikipedia.org | Its voice resembles a mandarin duck. | 赤鱬是中国传说的一种人面鱼身的异鱼，栖息在翼之泽，人的脸，叫声像鸳鸯，吃了可以治疥疮。记载于《山海经.南山经》 |
 | wd-q33113858-c04 | exact | zh.wikipedia.org | The article connects Chiru's account with the southern section of the Shan Hai Jing. | 赤鱬是中国传说的一种人面鱼身的异鱼，栖息在翼之泽，人的脸，叫声像鸳鸯，吃了可以治疥疮。记载于《山海经.南山经》 |
 | wd-q33113858-c05 | exact | zh.wikisource.org | The classical text places Chiru in the Ying water flowing into the Jiyi marsh. | 英水出焉，南流注于即翼之澤。其中多赤鱬，其狀如魚而人面，其音如鴛鴦 |
+| wd-q33113858-c06 | exact | zh.wikisource.org | The Shanhaijing text also says that eating the 赤鱬 protects against 疥 (scabies); one version writes 疾 (illness) instead of 疥. | 其中多赤鱬，其狀如魚而人面，其音如鴛鴦，食之不 疥一作「疾」。 |
 
 
 ## wd-q9602528 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -336,14 +334,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q9602528-c02 | exact | zh.wikipedia.org | One description gives it the form of a patterned white horse with a red mane, born in a great marsh. | 吉光被認為是一種馬，出生在大澤中，身體是白的，帶著花紋，但是鬃毛是紅的。 |
 | wd-q9602528-c03 | exact | zh.wikipedia.org | Jiguang is often confused with Tenghuang, while fox and horse forms differ between versions. | 有人認為它就是騰黃。一種說法認為，騰黃長得像狐狸，是一種野獸，而吉光長得像馬；然而有些說法是反過來的。 |
 | wd-q9602528-c04 | exact | zh.wikipedia.org | The expression Jiguang pianyu uses a strand of its fur as a metaphor for rare relics or documents. | 因為吉光是極難得一見的神獸，因此民間有成語「吉光片羽」，以吉光的一絲獸毛，來形容某種極難得一見的文獻或是文物。 |
+| wd-q9602528-c05 | exact | zh.wikisource.org | The compilation 名馬記 says the 澤馬 is also called 吉良 and quotes the 《山海經》: in the country 大封國 there is a patterned horse with a white body and red mane named 吉良, whose rider lives a thousand years. | 澤馬，一曰吉良。《山海經》曰：大封國有文馬，縞身朱鬛，名曰吉良，乘之壽千歲。 |
+| wd-q9602528-c06 | exact | zh.wikisource.org | A passage from the 《瑞應圖》 calls the 騰黃 a divine yellow horse that is also named 吉光, and whose rider lives three thousand years. | 《瑞應圖》曰：騰黃者，神馬也，其色黃，王者德御四方則至。一名吉光，乘之壽三千歲，此馬無死時。 |
+| wd-q9602528-c07 | exact | zh.wikisource.org | The Baopuzi says that both the 騰黃 horse and the 吉光 beast live three thousand years, listed alongside the toad (蟾蜍) and the 騏驎, which live shorter lives. | 蟾蜍壽三千歲，騏驎壽二千歲。騰黃之馬，吉光之獸，皆壽三千歲。 |
+| wd-q9602528-c08 | exact | zh.wikisource.org | In the 《海內十洲記》 a 吉光 fur coat is presented to Emperor Wu (武帝) and stored in the outer treasury; the coat is yellow and said to belong to the divine-horse kind; it does not sink after days in water and does not scorch in fire. | 献此膠四兩，吉光毛裘，武帝受以付外庫 ... 吉光毛裘黃色，盖神馬之類也。裘入水数日不沉，入火不焦。 |
 
 
 ## xiao-mythology — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 6, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -353,14 +352,13 @@ Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
 | xiao-mythology-c04 | exact | en.wikipedia.org | One Xiao resembles an ape, has long arms, and is skilled at throwing things. | Seventy leagues further west is a mountain called Mount Ewenext. … There is an animal on this mountain which looks like an ape, but it has longer arms and it is good at throwing things. Its name is the hubbub. |
 | xiao-mythology-c05 | exact | en.wikipedia.org | Another Xiao is described as a bird with four wings, one eye, and a dog's tail. | Three hundred and fifty leagues further north is a mountain called Mount Bridgedrain. … There is a bird here which looks like the boastfather; it has four wings, one eye, and a dog's tail. Its name is the hubbub. It makes a noise like a magpie. If you eat it, it will cure a bellyache, and it is effective for indigestion. |
 | xiao-mythology-c06 | loose | en.wikipedia.org | Guo Pu's commentary records the variant Jufu in the passage comparing the Xiao bird with Kuafu. | Although this passage compares the Xiao bird with the humanoid Kuafu, the Shanhaijing commentary of Guo Pu (276–324) says an early textual version writes the Jufu (舉父), who is also described as yu "monkey; ape". The sub-commentary of Hao Yixing (郝懿行; 1757–1825) notes the association may be owing to the similar sounding names Kuafu and Jufu. |
+| xiao-mythology-c07 | exact | zh.wikisource.org | The Western section of the Shanhaijing describes a beast shaped like a 禺 (a kind of ape) with long arms, good at throwing, named 嚻; an annotation adds that it also appears in paintings of dreaded beasts and resembles a macaque throwing things. | 有獸焉，其狀如禺而長臂，善投，其名曰嚻〈亦在畏獸畫中，似獼猴投擲也〉。 |
+| xiao-mythology-c08 | exact | zh.wikisource.org | The Northern section of the Shanhaijing describes a bird shaped like 夸父 with four wings, one eye and a dog's tail, named 嚻, with a cry like a magpie's; eating it cures bellyache and stops 衕. | 有鳥焉，其狀如夸父，四翼、一目、犬尾，名曰嚻，其音如鵲，食之已腹痛，可以止衕。 |
 
 
 ## chisongzi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -370,14 +368,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | chisongzi-c04 | exact | zh.wikipedia.org | He is depicted as enduring fire and moving with rain and wind. | 刘向的《列仙传》记载赤松子本是神农时人，为雨师，他服食水玉，把它教给神农，能够在烈火中任火烧烤。赤松子常常去昆仑山上，在西王母的石室之中歇息，随风雨自由上下。炎帝的小女儿曾跟随他，亦成仙飞升而去。又据《韩诗外传》载，赤松子曾为帝喾之师。 |
 | chisongzi-c05 | exact | zh.wikipedia.org | In the account he often visits Kunlun, staying in Xi Wangmu's stone chamber. | 刘向的《列仙传》记载赤松子本是神农时人，为雨师，他服食水玉，把它教给神农，能够在烈火中任火烧烤。赤松子常常去昆仑山上，在西王母的石室之中歇息，随风雨自由上下。炎帝的小女儿曾跟随他，亦成仙飞升而去。又据《韩诗外传》载，赤松子曾为帝喾之师。 |
 | chisongzi-c06 | exact | zh.wikipedia.org | Sources give differing accounts of the substance he consumes for immortality. | 关于赤松子服水玉一事，文献中记载中多有不同。《山海经·南山经》注中说赤松子所服食的水玉就是水精（水晶），干宝的《搜神记》则称为冰玉散，葛洪的《抱朴子》则说赤松子服食的是神丹，并有赤松子丹法传世。相传也是葛洪所著的《神仙传》中则称黃初平（皇初平）为赤松子，服松腊茯苓。《丹台录》则称赤松子为昆林仙伯，辖牿南岳山，可化玉为水而服。 |
+| chisongzi-c07 | exact | zh.wikisource.org | In the text 《列仙傳》, 赤松子 is the rain master (雨師) of Shennong's time; he took 水玉 and taught it to Shennong, could enter fire and burn himself, often went to Mount Kunlun, stayed in Xi Wangmu's stone chamber, and went up and down with wind and rain. | 赤松子者，神農時雨師也。服水玉以教神農，能入火自燒。往往至崑崙山上，常止西王母石室中，隨風雨上下。 |
+| chisongzi-c08 | exact | zh.wikisource.org | The text adds that the youngest daughter of Emperor Yan (炎帝) followed him, also became an immortal, and they left together; in the time of Gaoxin (高辛) he again served as rain master, and the rain master of later times derives from him. | 炎帝少女追之，亦得仙，俱去。至高辛時，復為雨師。今之雨師本是焉。 |
+| chisongzi-c09 | exact | zh.wikisource.org | The eulogy verse in the text pictures 赤松子 and the girl flying hand in hand, leaping onto the long wind toward the 玄圃, and setting the pattern for governing rain. | 眇眇赤松，飄飄少女。接手翻飛，泠然雙舉。縱身長風，俄翼玄圃。妙達巽坎，作範司雨。 |
 
 
 ## hairen — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -387,6 +385,7 @@ Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
 | hairen-c04 | loose | en.wikipedia.org | Giulio Aleni and Ferdinand Verbiest publish descriptions of hairen in Chinese language works. | Books written by Europeans and published in the Chinese language during the Ming and Qing dynasties mention the hairen. Italian Jesuit Giulio Aleni (Chinese name: Airulüe 艾儒略) wrote in his Zhifang waiji (simplified Chinese: 职方外纪; traditional Chinese: 職方外紀, "Records of Regions beyond the Jurisdiction of the Imperial Geographer", 1623) that there are two types of hairen. |
 | hairen-c05 | exact | en.wikipedia.org | One story describes a creature captured and presented to a king, then released because it could not be tamed. | The first type was overall human-like, with both beards and eyebrows, but having hands and feet which were webbed, like those of wild ducks. An individual was captured in the Western (European) sea, and presented to a certain king, but ate nothing, and having failed to tame it, the king was forced to release it back to sea, and the liberated creature clapped its hands and laughed loudly. |
 | hairen-c06 | exact | en.wikipedia.org | The scholarship summarised in the article connects the female hairen with the reported capture in Holland in 1403. | This female hairen has been determined to be the one captured in Holland in 1403 |
+| hairen-c07 | exact | zh.wikisource.org | In the 海和尚 section of the 《海語》, which describes a human-headed, turtle-bodied creature that climbs onto a ship's prow, an annotation quotes the 《草木子》 on the 海人: Shao Zi (邵子) holds that every land creature must have a counterpart in water, and sea merchants say a 海人 appears shaped like a monk, rather small, boards the boat and sits; the crew must stay silent until it dives back, otherwise a great wind will capsize the boat. | 物怪 海和尚 海和尚人首鼈身足差長而無甲舟行遇者率虞不利𢎞治初吾廣督學大僉淮陽韋彦質先生將視學瓊州陸至徐聞方登海舟此物升鷁首而蹲舉舟皆泣謂有魚腹之憂議將禳之先生方嚴人不敢白也詰旦抵瓊留十許日試士都畢泛海而還若履平地後遷福建憲都考終于家語曰妖不勝徳〈草木子邵子曰陸生之物水中必具計必有海人嘗聞之海賈云有海人出形如僧人頗小登舟而坐至則戒舟人寂然不動少頃復沉水否則大風翻舟 |
 
 
 ## hua-po — lulus-otomatis
@@ -407,10 +406,7 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## kaimingshou — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -420,15 +416,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | kaimingshou-c04 | exact | ja.wikipedia.org | Its nine heads each have a human face. | 天帝の下界の都である崑崙の丘にある九つの門を守っている。その姿は大きな体で虎に似て、九つある首は全て人間の顔だという。 |
 | kaimingshou-c05 | exact | ja.wikipedia.org | The description of a single principal eastern gate is identified as absent from the Shan Hai Jing. | 「崑崙山の宮殿で、9ある門の内、東側の正門である『開明門』の門番をしている」等と紹介している書籍も存在するが、山海経にそのような記述はない。 |
 | kaimingshou-c06 | exact | ja.wikipedia.org | Kaimingshou is sometimes identified with Lu Wu because of their similar characteristics. | 性質が開明獣と似通っていることから、両者は同一視されることがある。 脚注 |
+| kaimingshou-c07 | exact | zh.wikisource.org | The Overseas-West-within section of the Shanhaijing calls the 昆侖之虛 the lower capital of the Emperor (帝之下都), with nine gates each guarded by the 開明獸, where the hundred spirits dwell. | 海內昆侖之虛，在西北，帝之下都。昆侖之虛，方八百里，高萬仞。上有木禾，長五尋，大五圍。面有九井，以玉為檻。面有九門，門有開明獸守之，百神之所在。 |
+| kaimingshou-c08 | exact | zh.wikisource.org | The same text says the 開明獸 has a large tiger-like body and nine heads, all with human faces, and stands on Kunlun facing east. | 昆侖南淵深三百仞。開明獸身大類虎而九首，皆人面，東嚮立昆侖上。 |
 
 
 ## kanas-lake-monster — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 **manual**
 - `culture` Mengusulkan tradisi baru: "Cerita kriptid Xinjiang".
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -436,20 +433,27 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | kanas-lake-monster-c02 | exact | www.cernet.edu.cn | The CERNET report presents giant taimen as a proposed explanation for the monster. | The "lake monster" is thought to be giant taimen. |
 | kanas-lake-monster-c03 | exact | www.cernet.edu.cn | The report states that the sighted objects require further investigation before being identified as lake monsters. | Whether the two objects are legendary "lake monsters" requires further investigation. |
 | kanas-lake-monster-c04 | exact | www.chinatoday.com.cn | China Today also lists a giant red fish, the Siberian taimen, among the hypotheses discussed. | first, it is a giant red fish, called Siberian taimen. |
+| kanas-lake-monster-c05 | exact | www.chinatoday.com.cn | China Today notes that since some claimed to have discovered and photographed a "giant lake monster" in Kanas Lake in 1980, the Kanas Lake monster has remained a well-known, unsolved "mystery". | Since some claimed that they had discovered and photographed a “giant lake monster” in the Kanas Lake in 1980, Kanas Lake monster has remained a well-known, unsolved “mystery.” |
+| kanas-lake-monster-c06 | exact | www.cernet.edu.cn | The CERNET report mentions bulls, horses and sheep that disappeared along the lake and asks whether they were really swallowed up by the "monsters". | For those bulls, horses and sheep disappeared along the lake, were they really swallowed up by the "monsters"? |
+| kanas-lake-monster-c07 | exact | www.cernet.edu.cn | In 1985 the Xinjiang Daily carried a headline announcing the discovery of giant "Red Fish" in the lake, said to be 10 to 15 metres long, weighing over 4 tons, with heads over a metre wide. | In 1985, Xinjiang Daily carried a headline announcing discovery of giant Red Fish in the lake, saying they were 10 to 15 meters long, weighing more than 4 tons and each having a head over one meter wide. |
+| kanas-lake-monster-c08 | exact | www.cernet.edu.cn | In 1987 a research team found a sizeable school of Giant Red Fish, each three or four metres long, and announced the mystery solved: the "lake monsters" were giant taimen, locally called Giant Red Fish. | In 1987, a well-equipped scientific research team formed by local and domestic experts discovered a sizeable school of Giant Red Fish, each of them three or four meters long. The team thus announced that the mystery was solved--the "lake monsters" were giant taimen, called Giant Red Fish locally. |
+| kanas-lake-monster-c09 | exact | www.cernet.edu.cn | According to the 2005 CERNET report, seven Beijing tourists sailing on the lake suddenly saw two very large dark objects spring out of the water, breaking a one-metre wave, rush toward the middle of the lake and vanish within about two minutes. | they suddenly spotted two dark objects, very large in size, springing out of the water, breaking a wave one meter high. They leapt forward one following the other, headed swiftly towards the middle of the lake and disappeared from sight in about two minutes. |
+| kanas-lake-monster-c10 | exact | www.chinatoday.com.cn | China Today lists two further hypotheses about the monster: a new species not yet catalogued and studied, or a huge reptilian creature that survived from very ancient times. | The second explanation is that it is a new species that has not yet been catalogued and studied. Third, it is a huge reptilian creature that survived from very ancient times. |
 
 
 ## khyab-pa — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | khyab-pa-c01 | exact | sv.wikipedia.org | Khyab-Pa is a demon in pre-Buddhist Tibetan mythology. | Khyab-Pa var i den förbuddhistiska tibetanska mytologin en demon som motverkade den religiöse ledaren Gshen-Rab. Denne senare lyckades dock omvända Khyab-Pa genom att imponera med sina asketiska klosterregler. Detta blev ett föredöme för Gshen-Rabs efterföljare. |
 | khyab-pa-c02 | exact | sv.wikipedia.org | He opposes the religious leader Gshen-Rab. | Khyab-Pa var i den förbuddhistiska tibetanska mytologin en demon som motverkade den religiöse ledaren Gshen-Rab. Denne senare lyckades dock omvända Khyab-Pa genom att imponera med sina asketiska klosterregler. Detta blev ett föredöme för Gshen-Rabs efterföljare. |
 | khyab-pa-c03 | exact | sv.wikipedia.org | In the story, Gshen-Rab converts him through ascetic monastic rules, providing an example for his followers. | Khyab-Pa var i den förbuddhistiska tibetanska mytologin en demon som motverkade den religiöse ledaren Gshen-Rab. Denne senare lyckades dock omvända Khyab-Pa genom att imponera med sina asketiska klosterregler. Detta blev ett föredöme för Gshen-Rabs efterföljare. |
+| khyab-pa-c04 | exact | yungdrungbon.co.uk | In the account of the Foundation for the Preservation of Yungdrung Bön, Düd Khyabpa Lagring (Bdud Khyab-pa lag-ring), "Pervasive Demon with Long Arms", is the chief of the demons who tried to deceive Tönpa Shenrab and his followers with various magical displays. | The chief among the demons was Düd Khyabpa Lagring (Tib. Bdud Khyab-pa lag-ring), Pervasive Demon with Long Arms. The demons tried to deceive Tönpa Shenrab and his followers by resorting to various magical displays. |
+| khyab-pa-c05 | exact | yungdrungbon.co.uk | According to that account, Khyabpa Lagring succeeded in seducing Tönpa Shenrab's younger daughter Shenza Nechung and whisked her away to his realm of Radiant Darkness, Münpa Zerden, while her father was away in the realm of the Chya gods. | However, Khyabpa Lagring did succeed in seducing Tönpa Shenrab’s younger daughter Shenza Nechung and, when her father was away in the realm of the Chya gods, he whisked her away to his realm of Radiant Darkness, Münpa Zerden (Tib. Mun-pa zer-ldan). |
+| khyab-pa-c06 | exact | yungdrungbon.co.uk | Later Khyabpa sent seven of his sons to steal seven horses of Shen and bring them to Kongpo in Tibet, where his demon father ruled. | Later, Khyabpa sent seven of his sons to steal seven horses of Shen and fetch them to Kongpo (Tib. Kong-po) in Tibet, where his demon father ruled. |
+| khyab-pa-c07 | exact | yungdrungbon.co.uk | The account says Khyabpa Lagring grew even angrier and kept creating problems through magic but could not harm the Buddha; frustrated, he set fire to the treasury housing the scriptures of Yungdrung Bön. | This made Khyabpa Lagring even angrier. Although he continued creating problems through magic, he was unable to harm the Buddha. Frustrated, he set fire to the treasury that housed the scriptures of Yungdrung Bön. |
 
 
 ## klu — lulus-otomatis

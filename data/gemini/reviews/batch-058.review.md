@@ -1,13 +1,10 @@
 # Review batch-058
 
-Diperiksa 2026-10-01T07:56:17.912Z. Berkas: batch-058.md, batch-058-fix-1.md, batch-058-fix-2.md, batch-058-fix-3.md.
+Diperiksa 2026-10-07T06:18:29.916Z. Berkas: batch-058.md, batch-058-fix-1.md, batch-058-fix-2.md, batch-058-fix-3.md, batch-058-fix-4.md.
 
 ## konseijin — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,6 +12,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | konseijin-c02 | exact | ja.wikipedia.org | He is distinct from Dōsojin but the worships merge in some regions. | 同じく男根の形をした御神体を祀った道祖神（塞の神）と混同されることが多いが、基本的に男根形の道祖神（塞の神）と金精神は異なる神である。しかし、栃木県などの一部の地域では金精神と道祖神が習合してしまっている例が多い。 |
 | konseijin-c03 | exact | ja.wikipedia.org | The worship links fertility with childbirth, relationships and prosperity. | 金精神は、豊穣や生産に結びつく性器崇拝の信仰によるものから始まったとされている。子宝、安産、縁結び、下の病や性病などに霊験があるとされるが、他に豊穣や生産に結びつくことから商売繁盛にも霊験があるとされている。 |
 | konseijin-c04 | exact | ja.wikipedia.org | Examples of his shrines include sites in Morioka and at Konsei Pass. | 金精神を祀る神社としては、金属製の男根を御神体としていた岩手県盛岡市巻堀の巻堀神社や、巨根として知られる道鏡の男根を御神体として祀ったのが始まりとされる栃木県日光市と群馬県利根郡片品村との境の金精峠に鎮座する金精神社などが有名である。 |
+| konseijin-c05 | exact | ja.wikipedia.org | Konseijin is also believed efficacious for business prosperity, and petitioners dedicate phalluses of stone, wood or metal. | 下の病や性病などに霊験があるとされるが、他に豊穣や生産に結びつくことから商売繁盛にも霊験があるとされている。祈願者は石や木や金属製の男根を奉納して祈願する。 |
+| konseijin-c06 | exact | ja.wikipedia.org | Shrines to Konseijin exist throughout Japan and are especially numerous from the Tōhoku region to the Kantō region in eastern Japan; one example is Makihori Shrine in Morioka, which formerly used a metal phallus as its sacred object. | 金精神を祀った神社は全国各地にあるが、特に東日本の東北地方から関東地方にかけての地域に多くみられる。 金精神を祀る神社としては、金属製の男根を御神体としていた岩手県盛岡市巻堀の巻堀神社や、 |
+| konseijin-c07 | exact | ja.wikipedia.org | Many hot springs enshrine Konseijin so that the water keeps flowing, since hot springs have long been regarded as female genitalia; known examples are Ōsawa Onsen in Hanamaki and Mushinoyu Onsen in Kazuno. | なお、古来より温泉は女陰であるとされていることから、温泉が枯れずに湧き続けるように男根である金精神を祀っているという温泉も多い。金精神を祀っている温泉としては、岩手県花巻市の大沢温泉や秋田県鹿角市の蒸ノ湯温泉などが知られている。 |
+| konseijin-c08 | exact | kotobank.jp | The Daijisen dictionary defines Konseijin as a deity enshrined through a phallus-shaped object of metal, stone or wood, or a natural stone resembling one. | 金属・石・木などで男根にかたどったものや、それに形の似た自然石を神体として祭った神。 |
+| konseijin-c09 | exact | kotobank.jp | The Nihon Kokugo Daijiten records that the belief was found throughout the country and became hugely popular in the entertainment quarters of Tokyo in the early Meiji period. | 全国各地に分布し、特に明治初期、東京の色町などで、その信仰が大流行した。 |
+| konseijin-c10 | exact | kotobank.jp | According to Nipponica, he is believed to be efficacious for matchmaking, childbirth and women's ailments, and petitioners dedicate wooden phallic objects. | 男女の縁結び、出産、婦人病などに効験があるとされており、木製の陽物などを奉納して祈願する。 |
 
 
 ## kotobuki-folklore — lulus-otomatis
@@ -33,10 +36,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## kumano-gongen — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 7, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -44,6 +44,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | kumano-gongen-c02 | exact | ja.wikipedia.org | The group can refer to three chief deities or the broader twelve-deity set. | 熊野権現とは熊野三山の祭神である神々をいい、特に主祭神である家津美御子（けつみみこ）（スサノオ）・速玉（イザナギ）・牟須美（ふすび、むすび、または「結」とも表記）（イザナミ）のみを指して熊野三所権現、熊野三所権現以外の神々も含めて熊野十二所権現ともいう。 |
 | kumano-gongen-c03 | exact | ja.wikipedia.org | The three shrine centers integrate by mutually enshrining their deities. | 以上のように、12世紀末までに三山が互いの祭神を祀りあうことにより、三山は一体化を遂げたのである。 |
 | kumano-gongen-c04 | exact | ja.wikipedia.org | The deities’ Buddhist counterparts include Amitabha, Yakushi and thousand-armed Kannon. | 熊野本宮大社の主祭神の家都御子神（けつみこのかみ）または家都美御子神（けつみみこのかみ）は阿弥陀如来、新宮の熊野速玉大社の熊野速玉男神（くまのはやたまおのかみ）または速玉神（はやたまのかみ）は薬師如来、熊野那智大社の熊野牟須美神（くまのむすみのかみ）または夫須美神（ふすみのかみ）は千手観音とされる。 |
+| kumano-gongen-c05 | exact | ja.wikipedia.org | Kumano deities have been enshrined at shrines in many places, and there are about three thousand Kumano and Jūnisho shrines that worship them across Japan. | 熊野神は各地の神社に勧請されており、熊野神を祀る熊野神社・十二所神社は日本全国に約3千社ある。 |
+| kumano-gongen-c06 | exact | ja.wikipedia.org | The three mountains were each regarded as a pure land: Hongū as the Western Pure Land, Shingū as the Eastern Pure Land of Lapis Lazuli, and Nachi as the southern Fudaraku land. From the Heian period all of Kumano was seen as a pure land. | 三山はそれぞれ、本宮は西方極楽浄土、新宮は東方浄瑠璃浄土、那智は南方補陀落浄土の地であると考えられ、平安時代以降には熊野全体が浄土の地であるとみなされるようになった。 |
+| kumano-gongen-c07 | exact | kotobank.jp | According to the Sekai Daihyakka Jiten, the Hayatama and Musubi shrines together were called Ryōsho Gongen, with Ketsumiko added the Kumano Sansho Gongen, and with the attendant deities the Jūnisho Gongen. | 熊野は早玉宮･結宮を合して両所権現，家津御子を入れて熊野三所権現と称し，眷属神である五所王子･四所宮を合して十二所権現とも呼んだ。 |
+| kumano-gongen-c08 | loose | kotobank.jp | Nyakuōji (Wakaōji) is also called Wakamiya and Wakaichi-ōji; he is an Ōji deity who appears as a girl or a young child and was often enshrined alongside wherever the Kumano Gongen were invited. | 若王子（にやくおうじ）は，若宮王子(《中右記》)，若宮(《長秋記》)，若一王子(《寺社元要記》)，若女一王子(《壒囊抄》)とも呼ばれ，少女または幼童の姿で現れる王子神で，熊野権現の勧請された所に随伴してまつられた例が多い。 |
 
 
 ## kuramitsuha — lulus-otomatis
@@ -76,10 +80,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## majimun — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -87,14 +88,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | majimun-c02 | exact | ja.wikipedia.org | Tradition warns that an animal-shaped majimun passing between a person’s legs brings death. | 動物の姿をしたマジムンに股をくぐられると死んでしまうことから、決して股をくぐられてはいけないといわれる。また奄美群島の一部ではハブのことをマジムンと呼び、伝承では神の使いであるともされ、マジムンの中では唯一実在する生物である。 |
 | majimun-c03 | exact | ja.wikipedia.org | A duck-shaped version is driven away but becomes fireflies before disappearing at a rooster’s call. | 動物のマジムンと同じく、股をくぐられると死んでしまうといわれる。 アフィラーマジムン アヒルの姿をしたマジムン。 沖縄県立読谷高等学校では、かつて運動場の前が谷底のようになっており、そこにアフィラーマジムンが現れたという。また、ある農民が夜中にアフィラーマジムンに出遭い、マジムンがしきりに股をくぐろうとするので、石を投げつけたところ、無数のホタルとなって農民の周りを飛び回り、ニワトリの声とともに消え去ったという。 |
 | majimun-c04 | exact | ja.wikipedia.org | The duck version can be interpreted as the living spirit of a seriously ill person. | また、ある農民が夜中にアフィラーマジムンに出遭い、マジムンがしきりに股をくぐろうとするので、石を投げつけたところ、無数のホタルとなって農民の周りを飛び回り、ニワトリの声とともに消え去ったという。片脚のないアヒルの姿であり、重病人の生霊が化けたものともいう。 |
+| majimun-c05 | exact | ja.wikipedia.org | The Akangwā-majimun is the spirit of a dead infant that crawls on all fours and tries to pass between a person's legs; being passed under is said to cause death. | 赤ん坊の死霊。四つんばいで人間の股をくぐろうとする。動物のマジムンと同じく、股をくぐられると死んでしまうといわれる。 |
+| majimun-c06 | exact | ja.wikipedia.org | Besides the Mishigē-majimun (rice-scoop majimun) there are others such as the Nabigē-majimun (ladle majimun), and old tableware is said to become such majimun. | 他にナビゲー・マジムン（杓子のマジムン）などがいる。古くなった食器などがこのようなマジムンになるとされる。 |
+| majimun-c07 | exact | ja.wikipedia.org | The Hichi-majimun is a kind of ghost, also simply called "Hichi", that stays at crossroads and leads people astray. | 幽霊の一種。単に「ヒチ」ともいう。道の辻にいて人を迷わせる。 |
+| majimun-c08 | exact | ja.wikipedia.org | The cow majimun takes the form of a cow; in Yomitan it is said to be like a jet-black cow, and in Shimajiri District it is said to be a gan (a bier for carrying coffins) transformed into a cow. | 牛の姿をしたマジムン。沖縄県読谷村では真っ黒な牛のようなものといい、同県島尻郡では龕（がん。棺桶を担ぐ葬具）が牛に化けたものといわれる。 |
+| majimun-c09 | exact | www.nichibun.ac.jp | The Nichibunken database summary says majimun mostly take the form of a dog and are said to be spirits of the dead who, with no one to enshrine them, cannot rest, wander and appear transformed. | 要約 マジムンはほとんど犬の形をしており、死後の霊を祀る人がいないために成仏できずに迷って化けて出る死人の霊といわれる。 |
 
 
 ## mami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -102,28 +105,29 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | mami-c02 | exact | ja.wikipedia.org | The name also denotes tanuki, badgers and sometimes other animals. | 猯、魔魅（まみ）は、タヌキまたはニホンアナグマのこと。ただし、イノシシなど他の動物を指すこともあり、ムササビ、モモンガも「猯」と呼ばれたことがある。 |
 | mami-c03 | exact | ja.wikipedia.org | An Edo encyclopedia distinguishes it from tanuki as a brown-haired mountain animal. | 一方で江戸時代の百科事典『和漢三才図会』では、「猯」は「狸」とは別種の動物として別々に掲載されている。同書では中国の本草学研究書『本草綱目』からの引用として、山中の穴に住んでいる肥えた獣で、褐色の短い毛に体を覆われ、耳が聞こえず、人の姿を見ると逃げようとするが行動は鈍いとある。 |
 | mami-c04 | exact | ja.wikipedia.org | An Edo account describes a gray creature with eyes like the sun or moon. | 同じく江戸時代の随筆『耳嚢』3巻では、江戸の番町に猯が現れたとあり、体色は鼠色、目は太陽か月のようで、杖で叩くとガマガエルの背のような感触だったという。 |
+| mami-c05 | exact | ja.wikipedia.org | According to the folklorist Hino Iwao's Nihon Yōkai Henge Goi, the mami is a kind of tanuki, and reading the character for tanuki as "mami" in the Tokyo place name Azabu Mamianachō shows the two were identified. | 民俗学者・日野巌による『日本妖怪変化語彙』によれば、マミはタヌキの一種とある。東京都の麻布狸穴町の「狸」を「まみ」と読むことからも、猯が狸と同一視されていたことが解る。 |
+| mami-c06 | exact | ja.wikipedia.org | Because the pronunciation is similar, "mami" is sometimes written with the characters 魔魅, a general term for demons that deceive people. | 「まみ」の発音が似ていることから、人をたぶらかす妖魔、魔物の総称である「魔魅」の字があてられることもある。 |
+| mami-c07 | exact | kotobank.jp | According to the Sekai Daihyakka Jiten, "mami" is one of the alternative names of the Japanese badger, along with Sasaguma and Atsuguma. | 日本産の亜種ニホンアナグマM.m.anakumaは本州，四国，九州に分布する。別名マミ，ササグマ，アツグマ。 |
+| mami-c08 | exact | kotobank.jp | It is said that in the past the tanuki was called Muji or Mujina, while the badger was called Mami or Sasaguma, but this is not necessarily certain, and in some regions both are called Mujina. | 東京以西では動物学上のタヌキを正しく〈タヌキ〉と呼ぶが，これは比較的新しいことばであり，古くはタヌキを指してムジあるいはムジナと呼び，アナグマをマミあるいはササグマと呼んだという。しかし，これは必ずしも確かではなく，タヌキとアナグマの双方をムジナと呼ぶ地方もある。 |
 
 
 ## mihotsuhime — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mihotsuhime-c01 | exact | ja.wikipedia.org | Mihotsuhime is a Japanese goddess, daughter of Takamimusubi and consort of a land deity. | 三穂津姫（ミホツヒメ）は、日本神話に登場する女神。高皇産霊尊の娘で、大物主神あるいは大国主神の后。 |
 | mihotsuhime-c02 | exact | ja.wikipedia.org | A Nihon Shoki variant has her marriage secure protection of the heavenly descendant. | 大己貴神（大国主神）が国譲りを決め、幽界に隠れた後、高皇産霊尊が大物主神（大己貴神の幸魂奇魂）に対し「もしお前が国津神を妻とするなら、まだお前は心を許していないのだろう。私の娘の三穂津姫を妻とし、八十万神を率いて永遠に皇孫のために護られよ」と詔した。 |
 | mihotsuhime-c03 | exact | ja.wikipedia.org | Her name is interpreted as goddess of Miho. | 「ミホツヒメ」の「ツ」は「の」を表す格助詞で、「ミホ」の女神という意味になる。 |
+| mihotsuhime-c04 | exact | ja.wikipedia.org | She is the main deity of shrines including Miho Shrine in Shizuoka, Izumo Daijingū in Kyoto and Miho Shrine in Shimane. | 御穂神社（静岡県静岡市清水区三保） - 主祭神 ... 出雲大神宮（京都府亀岡市千歳町出雲無番地） - 主祭神 ... 美保神社（島根県松江市美保関町美保関） - 主祭神 |
+| mihotsuhime-c05 | exact | kotobank.jp | The Japanese biographical dictionary says that when Ōkuninushi submitted she was assigned as his wife by imperial command, and that she is enshrined at places including Izumo Daijingū and Miho Shrine in Shizuoka. | 大国主(おおくにぬしの)神が帰順したとき,勅によりその妻に配された。京都府出雲(いずも)大神宮,静岡県御穂神社などの祭神。 |
+| mihotsuhime-c06 | exact | archive.org | In Aston's translation of the Nihongi, Taka-mi-musubi no Mikoto says he will give his daughter Mi-ho-tsu hime as a wife and that the eighty myriads of Deities are to guard his August Grandchild. | Then Taka-mi-musubi no Mikoto ... I will therefore now give thee my daughter Mi-ho-tsu hime to be thy wife. Take with thee the eighty myriads of Deities to be the guards of my August Grandchild to all ages. |
 
 
 ## mikahayahi-no-mikoto — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -132,6 +136,8 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | mikahayahi-no-mikoto-c03 | exact | ja.wikipedia.org | An Edo gazetteer describes him as an ancestral star deity at Matsuzaki Shrine. | 江戸時代に松江藩で編纂された地誌『雲陽誌』の松崎神社の項において「当社の祖神を甕速日といふ星の神と名つく」と記されている。 |
 | mikahayahi-no-mikoto-c04 | exact | kojiki.kokugakuin.ac.jp | The university translation groups Mikahayahi with Hihayahi and Takemikazuchi. | The deity that thereupon came into existence was named Mikahayahi no kami 甕 速 日 神 . Next [appeared] Hihayahi no kami 樋 速 日 神 . Next Takemikazuchinoo no kami 建御雷之男神. |
 | mikahayahi-no-mikoto-c05 | exact | kojiki.kokugakuin.ac.jp | The commentary interprets his name through august, mighty, impetuous and spirit. | The name Mikahayahi no kami 甕速日神 can be thought of as a composite of mi (“august”), ika (“mighty”), haya (“impetuous”), and hi (“spirit”). |
+| mikahayahi-no-mikoto-c06 | exact | kojiki.kokugakuin.ac.jp | In the Nihon Shoki variant quoted in this study, blood that dripped from the sword's handguard spouted forth and formed a deity given the name Mikahayahi no kami. | Then, the blood that dripped from the handguard of his sword spouted forth and formed a deity. The deity was given the name Mikahayahi no kami 甕速日神. |
+| mikahayahi-no-mikoto-c07 | exact | kojiki.kokugakuin.ac.jp | That Nihon Shoki variant states that Mikahayahi no kami was the progenitor of Takemikazuchi no kami. | This Mikahayahi no kami was the progenitor of Takemikazuchi no kami 武甕槌神. |
 
 
 ## mino-bi — lulus-otomatis
@@ -165,38 +171,40 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## miyazu-hime — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (loose 1, exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | miyazu-hime-c01 | loose | en.wikipedia.org | Miyazu-hime is a Japanese legendary woman and kami associated with Yamato Takeru. | Miyazu-hime (宮簀媛) is a figure of Japanese legend and kami said to have been married to Yamato Takeru. |
 | miyazu-hime-c02 | exact | en.wikipedia.org | Yamato Takeru entrusts the Kusanagi sword to her before his final mountain journey. | According to legend, Yamato Takeru entrusted the Kusanagi no Tsurugi to her before departing to the mountains where he was killed. |
 | miyazu-hime-c03 | exact | en.wikipedia.org | The legend credits her with enshrining the sword at the origin of Atsuta Shrine. | Grieving his death, she built a shrine in Atsuta and enshrined the blade there, which became the origin of Atsuta Shrine. |
+| miyazu-hime-c04 | exact | ja.wikipedia.org | Miyazu-hime was a woman of the Owari no Kuni no Miyatsuko house, the last consort of Yamato Takeru, and a legendary figure who appears only in stories and is not recorded in the genealogies of the Kojiki and Nihon Shoki. | 宮簀媛（みやずひめ、生没年不詳）は、古墳時代の豪族であった尾張国造の女性。ヤマトタケルの最後の配偶者であり、熱田神宮の創祀に関わる重要人物と伝えられるが子は無く、記紀ともに系譜には記されず、物語にのみ現れる伝説的人物。 |
+| miyazu-hime-c05 | exact | ja.wikipedia.org | Her name is written 宮簀媛 in the Nihon Shoki, 美夜受比売 in the Kojiki and 宮酢姫命 in the surviving fragment of the Owari no Kuni Fudoki. | 『日本書紀』は宮簀媛、『古事記』は美夜受比売、『尾張国風土記』逸文は宮酢姫命とする。 |
+| miyazu-hime-c06 | exact | ja.wikipedia.org | According to the Fudoki fragment, when the sword shone divinely during Yamato Takeru's stay he ordered Miyazu-hime to enshrine it, and the shrine built there is said to be Atsuta Jingū. | 日本武尊が尾張連らの遠祖である宮酢媛命を娶って宿泊した時、剣が神々しく光り輝いたため、宮酢媛命にその剣を奉斎することを命じ、そこで建てたのが熱田神宮であるとされる。 |
+| miyazu-hime-c07 | exact | archive.org | In Aston's translation of the Nihongi, Yamato-dake returned to Ohari, took as wife a daughter of the Ohari House named Miyazu-hime, and stayed there until the next month. | Yamato-dake no Mikoto, having returned back again to Ohari, straightway took to wife a daughter of the Ohari House, by name Miyazu-hime, and tarried there until the next month. |
+| miyazu-hime-c08 | exact | archive.org | The Nihongi records that Yamato-dake took off his sword, left it in Miyazu-hime's house and went on foot. | So he took off his sword, and leaving it in the house of Miyazu-hime, went on afoot. |
 
 
 ## nai-no-kami — lulus-otomatis
 
-Klaim 3 (exact 2, loose 1), sumber 1, gambar 0.
+Klaim 6 (exact 4, loose 2), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `claims (nai-no-kami-c05)` Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nai-no-kami-c01 | exact | ja.wikipedia.org | Nai no Kami is an earthquake deity in Japanese tradition. | ないの神（ないのかみ、なゐの神）は、日本神話に登場する地震の神である。 |
 | nai-no-kami-c02 | loose | ja.wikipedia.org | The Nihon Shoki records worship after an earthquake in 599. | 『日本書紀』の「推古天皇紀」に、推古天皇7年（599年）夏に大和地方を中心とする大地震（推古地震）があり、その後、諸国に「地震神（なゐのかみ）」を祀らせたとある。 |
 | nai-no-kami-c04 | exact | ja.wikipedia.org | Nai Shrine in Nabari is linked to the former earthquake-deity worship of Iga. | 三重県の名張市には式内社の名居神社があり、これが伊賀国における「なゐの神」を祀る神社であった。現在は大己貴命を主祭神としている。 |
+| nai-no-kami-c05 | exact | ja.wikipedia.org | From a tradition that something holds down earthquakes, Takemikazuchi, the deity of Kashima Jingū, later came to be regarded as a god who prevents earthquakes, though the Kojiki and Nihon Shoki contain no passage linking him with earthquakes. | が地震をおさえているとの伝承から、鹿島神宮の祭神であるタケミカヅチが地震を防ぐ神とされるようになったが、『記紀』にはタケミカヅチと地震を関連づけるような記述はない。 |
+| nai-no-kami-c06 | loose | ja.wikipedia.org | It is noted that "na" in the deity's name means earth or ground, and the ancients called earthquakes "naifuri". | 備考として、神名における「な」は「大地・地」を意味し、国造りをした「オオナムチ（大国主の別名）」や「スクナヒコナ」の「ナ」も地を意味する。古代人は地震を「なゐふり」と呼んだ。 |
+| nai-no-kami-c07 | exact | archive.org | In Aston's translation of the Nihongi, an earthquake destroyed all the houses, so orders were given to all quarters to sacrifice to the God of Earthquakes. | There was an earthquake which destroyed all the houses. So orders were given to all quarters to sacrifice to the God’ of Earthquakes. |
 
 
 ## noteppo — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -204,6 +212,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | noteppo-c02 | exact | ja.wikipedia.org | It resembles several small mammals and inhabits northern mountain valleys and forests. | 外見はタヌキ、リス、ムササビのようで、北国の山中の谷間や森の奥に棲んでいるという。 |
 | noteppo-c03 | exact | ja.wikipedia.org | The book’s text covers a victim’s face, while its illustration sends out batlike creatures. | 人を襲うときにはその人の視界を奪うというが、『絵本百物語』の本文によると自ら人の顔に覆いかぶさって目をふさぐとあり、同書の挿絵中の文章では、口からコウモリのようなものを放って人の顔にかぶせるとある（画像参照）。 |
 | noteppo-c04 | exact | ja.wikipedia.org | The account associates its origin with an aged mami. | 『絵本百物語』の本文によれば、猯（まみ）という獣が老いて妖怪化したものが野鉄砲であり、コウモリが老いて妖怪化した野衾と同一であるともいう。 |
+| noteppo-c05 | exact | ja.wikipedia.org | According to the text of the Ehon Hyakumonogatari, it attacks people at dusk and sucks their blood. | 『絵本百物語』の本文によると、夕暮れになると人を襲って生き血を吸うという。 |
+| noteppo-c06 | exact | ja.wikipedia.org | To guard against this, keeping 巻耳 (makimimi) in one's bosom is said to keep one from being robbed of sight. | 口からコウモリのようなものを放って人の顔にかぶせるとある（画像参照）。これらを防ぐためには、懐に巻耳を入れておくと視界を奪われずに済むという。 |
+| noteppo-c07 | exact | ja.wikipedia.org | The yōkai researcher Tada Katsumi proposes that, as a result of such confusion, the more yōkai-like tradition arose that the noteppō releases bat-like things from its mouth instead of covering people's faces itself. | 妖怪研究家・多田克己は、これらが混同された結果、野鉄砲は人を襲う際に自ら人にかぶさるのではなく、口からコウモリ状のものを放つという妖怪めいた伝承が生まれたとの説を唱えている。 |
+| noteppo-c08 | exact | ja.wikipedia.org | Tada Katsumi also gives another view that the noteppō is of the same kind as the ittan-momen and takes victims' food while their sight is taken. | また多田克己は一方で、野鉄砲は一反木綿の同種であり、人を襲う際には視界を奪った隙に持ち物の食料を奪い取るとの別説も述べている。 |
+| noteppo-c09 | exact | yokai.com | Yokai.com states that the nodeppō can spit a stream of bats from its mouth toward victims' faces, blinding them in a cloud of angry bats. | The nodeppō is able to spit a stream of bats out of its mouth towards the faces of its victims, blinding them in a cloud of angry bats. |
+| noteppo-c10 | exact | kotobank.jp | The Daijisen Plus entry for the nobusuma describes it as looking like a flying squirrel and said to suck animals' blood. | 日本の妖怪。ムササビやモモンガのような姿で動物の生き血を吸うとされる。「飛倉(とびくら)」とも。 |
 
 
 ## nyubachi-bo — lulus-otomatis

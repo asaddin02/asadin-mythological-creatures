@@ -1,31 +1,27 @@
 {
   "batch_id": "batch-058",
-  "checked_at": "2026-10-01T07:56:17.912Z",
+  "checked_at": "2026-10-07T06:18:29.916Z",
   "files": [
     "batch-058.md",
     "batch-058-fix-1.md",
     "batch-058-fix-2.md",
-    "batch-058-fix-3.md"
+    "batch-058-fix-3.md",
+    "batch-058-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "konseijin",
-      "file": "batch-058-fix-1.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "201988065011a5bbb5381d6bee26084e9022602970075e6444670cb9f6a87436",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "konseijin-c01",
@@ -64,6 +60,66 @@
           "statement": "Examples of his shrines include sites in Morioka and at Konsei Pass.",
           "statement_id": "Contoh kuilnya mencakup lokasi di Morioka dan Celah Konsei.",
           "quote": "金精神を祀る神社としては、金属製の男根を御神体としていた岩手県盛岡市巻堀の巻堀神社や、巨根として知られる道鏡の男根を御神体として祀ったのが始まりとされる栃木県日光市と群馬県利根郡片品村との境の金精峠に鎮座する金精神社などが有名である。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c05",
+          "source_id": "konseijin-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Konseijin is also believed efficacious for business prosperity, and petitioners dedicate phalluses of stone, wood or metal.",
+          "statement_id": "Konseijin dipercaya juga manjur untuk kemakmuran usaha, dan para pemohon mempersembahkan alat kelamin laki-laki dari batu, kayu, atau logam.",
+          "quote": "下の病や性病などに霊験があるとされるが、他に豊穣や生産に結びつくことから商売繁盛にも霊験があるとされている。祈願者は石や木や金属製の男根を奉納して祈願する。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c06",
+          "source_id": "konseijin-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Shrines to Konseijin exist throughout Japan and are especially numerous from the Tōhoku region to the Kantō region in eastern Japan; one example is Makihori Shrine in Morioka, which formerly used a metal phallus as its sacred object.",
+          "statement_id": "Kuil Konseijin tersebar di seluruh Jepang dan terutama banyak di wilayah Tōhoku hingga Kantō di Jepang timur; salah satu contohnya Kuil Makihori di Morioka, yang dahulu memakai falus logam sebagai objek suci.",
+          "quote": "金精神を祀った神社は全国各地にあるが、特に東日本の東北地方から関東地方にかけての地域に多くみられる。 金精神を祀る神社としては、金属製の男根を御神体としていた岩手県盛岡市巻堀の巻堀神社や、",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c07",
+          "source_id": "konseijin-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Many hot springs enshrine Konseijin so that the water keeps flowing, since hot springs have long been regarded as female genitalia; known examples are Ōsawa Onsen in Hanamaki and Mushinoyu Onsen in Kazuno.",
+          "statement_id": "Banyak pemandian air panas memuja Konseijin agar mata air terus mengalir, karena sejak lama mata air panas dianggap sebagai alat kelamin perempuan; contohnya Ōsawa Onsen di Hanamaki dan Mushinoyu Onsen di Kazuno.",
+          "quote": "なお、古来より温泉は女陰であるとされていることから、温泉が枯れずに湧き続けるように男根である金精神を祀っているという温泉も多い。金精神を祀っている温泉としては、岩手県花巻市の大沢温泉や秋田県鹿角市の蒸ノ湯温泉などが知られている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c08",
+          "source_id": "konseijin-s2",
+          "host": "kotobank.jp",
+          "statement": "The Daijisen dictionary defines Konseijin as a deity enshrined through a phallus-shaped object of metal, stone or wood, or a natural stone resembling one.",
+          "statement_id": "Kamus Daijisen mendefinisikan Konseijin sebagai dewa yang dipuja dengan objek suci berupa tiruan alat kelamin laki-laki dari logam, batu, atau kayu, atau batu alami yang mirip bentuknya.",
+          "quote": "金属・石・木などで男根にかたどったものや、それに形の似た自然石を神体として祭った神。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c09",
+          "source_id": "konseijin-s2",
+          "host": "kotobank.jp",
+          "statement": "The Nihon Kokugo Daijiten records that the belief was found throughout the country and became hugely popular in the entertainment quarters of Tokyo in the early Meiji period.",
+          "statement_id": "Kamus Nihon Kokugo Daijiten mencatat bahwa kepercayaan ini tersebar di seluruh negeri dan sangat populer pada awal zaman Meiji di kawasan hiburan Tokyo.",
+          "quote": "全国各地に分布し、特に明治初期、東京の色町などで、その信仰が大流行した。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "konseijin-c10",
+          "source_id": "konseijin-s3",
+          "host": "kotobank.jp",
+          "statement": "According to Nipponica, he is believed to be efficacious for matchmaking, childbirth and women's ailments, and petitioners dedicate wooden phallic objects.",
+          "statement_id": "Menurut Nipponica, ia dipercaya manjur untuk jodoh, kelahiran, dan penyakit perempuan, dan pemohon mempersembahkan benda kayu berbentuk falus.",
+          "quote": "男女の縁結び、出産、婦人病などに効験があるとされており、木製の陽物などを奉納して祈願する。",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -142,24 +198,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d56a9bdeb1bf9c2c76cff08abf4640c905024149d9ee67c3f13fba9f1c5d8b43"
     },
     {
       "slug": "kumano-gongen",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "3c3a01fa34d5f6f054ead6ee80fe1940dd37764389a8ece1e5b9294a0832ed11",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kumano-gongen-c01",
@@ -200,6 +252,46 @@
           "quote": "熊野本宮大社の主祭神の家都御子神（けつみこのかみ）または家都美御子神（けつみみこのかみ）は阿弥陀如来、新宮の熊野速玉大社の熊野速玉男神（くまのはやたまおのかみ）または速玉神（はやたまのかみ）は薬師如来、熊野那智大社の熊野牟須美神（くまのむすみのかみ）または夫須美神（ふすみのかみ）は千手観音とされる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kumano-gongen-c05",
+          "source_id": "kumano-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Kumano deities have been enshrined at shrines in many places, and there are about three thousand Kumano and Jūnisho shrines that worship them across Japan.",
+          "statement_id": "Dewa Kumano telah dipindahkan pemujaannya ke berbagai kuil, dan kuil Kumano serta Jūnisho yang memujanya berjumlah sekitar 3.000 di seluruh Jepang.",
+          "quote": "熊野神は各地の神社に勧請されており、熊野神を祀る熊野神社・十二所神社は日本全国に約3千社ある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumano-gongen-c06",
+          "source_id": "kumano-gongen-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The three mountains were each regarded as a pure land: Hongū as the Western Pure Land, Shingū as the Eastern Pure Land of Lapis Lazuli, and Nachi as the southern Fudaraku land. From the Heian period all of Kumano was seen as a pure land.",
+          "statement_id": "Ketiga gunung dianggap masing-masing sebagai tanah suci Buddha: Hongū sebagai Surga Barat, Shingū sebagai Tanah Murni Timur Jōruri, dan Nachi sebagai Tanah Fudaraku selatan. Sejak zaman Heian seluruh Kumano dipandang sebagai tanah suci.",
+          "quote": "三山はそれぞれ、本宮は西方極楽浄土、新宮は東方浄瑠璃浄土、那智は南方補陀落浄土の地であると考えられ、平安時代以降には熊野全体が浄土の地であるとみなされるようになった。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumano-gongen-c07",
+          "source_id": "kumano-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Sekai Daihyakka Jiten, the Hayatama and Musubi shrines together were called Ryōsho Gongen, with Ketsumiko added the Kumano Sansho Gongen, and with the attendant deities the Jūnisho Gongen.",
+          "statement_id": "Menurut Sekai Daihyakka Jiten, gabungan kuil Hayatama dan Musubi disebut Ryōsho Gongen, dengan Ketsumiko menjadi Kumano Sansho Gongen, dan dengan para dewa pengiring disebut Jūnisho Gongen.",
+          "quote": "熊野は早玉宮･結宮を合して両所権現，家津御子を入れて熊野三所権現と称し，眷属神である五所王子･四所宮を合して十二所権現とも呼んだ。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumano-gongen-c08",
+          "source_id": "kumano-gongen-s2",
+          "host": "kotobank.jp",
+          "statement": "Nyakuōji (Wakaōji) is also called Wakamiya and Wakaichi-ōji; he is an Ōji deity who appears as a girl or a young child and was often enshrined alongside wherever the Kumano Gongen were invited.",
+          "statement_id": "Wakaōji (Nyakuōji) juga disebut Wakamiya dan Wakaichi-ōji; ia dewa Ōji yang tampil sebagai gadis atau anak kecil dan sering dipuja bersama di tempat Kumano Gongen diundang.",
+          "quote": "若王子（にやくおうじ）は，若宮王子(《中右記》)，若宮(《長秋記》)，若一王子(《寺社元要記》)，若女一王子(《壒囊抄》)とも呼ばれ，少女または幼童の姿で現れる王子神で，熊野権現の勧請された所に随伴してまつられた例が多い。",
+          "context": "religious-tradition",
+          "status": "loose"
         }
       ],
       "images": []
@@ -276,7 +368,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4bfe45674356c539bb2263254a70493974250d49885659344f5745ff48d0aeb4"
     },
     {
       "slug": "kurayaro",
@@ -350,24 +443,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0c8dce08db52cec3686b709cb0efcfdc9002c12ad249b039cf76455e7eac1ca0"
     },
     {
       "slug": "majimun",
-      "file": "batch-058-fix-1.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "40c49a57b37de4fbfb33a0d192047c9f9a507a7ba7d31746d51c9c310a6fa664",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "majimun-c01",
@@ -408,26 +497,71 @@
           "quote": "また、ある農民が夜中にアフィラーマジムンに出遭い、マジムンがしきりに股をくぐろうとするので、石を投げつけたところ、無数のホタルとなって農民の周りを飛び回り、ニワトリの声とともに消え去ったという。片脚のないアヒルの姿であり、重病人の生霊が化けたものともいう。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "majimun-c05",
+          "source_id": "majimun-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Akangwā-majimun is the spirit of a dead infant that crawls on all fours and tries to pass between a person's legs; being passed under is said to cause death.",
+          "statement_id": "Akangwā-majimun adalah arwah bayi yang meninggal; ia merangkak dan mencoba melewati sela kaki manusia, dan orang yang dilewati dikatakan akan mati.",
+          "quote": "赤ん坊の死霊。四つんばいで人間の股をくぐろうとする。動物のマジムンと同じく、股をくぐられると死んでしまうといわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "majimun-c06",
+          "source_id": "majimun-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Besides the Mishigē-majimun (rice-scoop majimun) there are others such as the Nabigē-majimun (ladle majimun), and old tableware is said to become such majimun.",
+          "statement_id": "Selain Mishigē-majimun (majimun sendok nasi) ada pula majimun sendok lain, dan peralatan makan yang sudah tua dipercaya menjadi majimun semacam ini.",
+          "quote": "他にナビゲー・マジムン（杓子のマジムン）などがいる。古くなった食器などがこのようなマジムンになるとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "majimun-c07",
+          "source_id": "majimun-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Hichi-majimun is a kind of ghost, also simply called \"Hichi\", that stays at crossroads and leads people astray.",
+          "statement_id": "Hichi-majimun adalah sejenis hantu yang juga disebut \"Hichi\", berada di persimpangan jalan dan menyesatkan orang.",
+          "quote": "幽霊の一種。単に「ヒチ」ともいう。道の辻にいて人を迷わせる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "majimun-c08",
+          "source_id": "majimun-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The cow majimun takes the form of a cow; in Yomitan it is said to be like a jet-black cow, and in Shimajiri District it is said to be a gan (a bier for carrying coffins) transformed into a cow.",
+          "statement_id": "Ushi-majimun berwujud sapi; di Yomitan disebut seperti sapi hitam pekat, dan di distrik Shimajiri dikatakan sebagai gan (perlengkapan pengusung peti mati) yang menjelma menjadi sapi.",
+          "quote": "牛の姿をしたマジムン。沖縄県読谷村では真っ黒な牛のようなものといい、同県島尻郡では龕（がん。棺桶を担ぐ葬具）が牛に化けたものといわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "majimun-c09",
+          "source_id": "majimun-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "The Nichibunken database summary says majimun mostly take the form of a dog and are said to be spirits of the dead who, with no one to enshrine them, cannot rest, wander and appear transformed.",
+          "statement_id": "Ringkasan basis data Nichibunken menyebut majimun kebanyakan berbentuk anjing dan dikatakan sebagai arwah orang mati yang tidak ada yang memujanya sehingga tidak bisa tenang, tersesat, dan menjelma.",
+          "quote": "要約 マジムンはほとんど犬の形をしており、死後の霊を祀る人がいないために成仏できずに迷って化けて出る死人の霊といわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mami",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "7736d4ec5e2409e61ded7db2681d98f8355b9cac4e9d0b56672bd0ba47d57279",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mami-c01",
@@ -468,26 +602,61 @@
           "quote": "同じく江戸時代の随筆『耳嚢』3巻では、江戸の番町に猯が現れたとあり、体色は鼠色、目は太陽か月のようで、杖で叩くとガマガエルの背のような感触だったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mami-c05",
+          "source_id": "mami-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the folklorist Hino Iwao's Nihon Yōkai Henge Goi, the mami is a kind of tanuki, and reading the character for tanuki as \"mami\" in the Tokyo place name Azabu Mamianachō shows the two were identified.",
+          "statement_id": "Menurut Nihon Yōkai Henge Goi karya folkloris Hino Iwao, mami adalah sejenis tanuki, dan bacaan \"mami\" untuk karakter \"tanuki\" pada nama Azabu Mamianachō di Tokyo menunjukkan keduanya pernah disamakan.",
+          "quote": "民俗学者・日野巌による『日本妖怪変化語彙』によれば、マミはタヌキの一種とある。東京都の麻布狸穴町の「狸」を「まみ」と読むことからも、猯が狸と同一視されていたことが解る。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mami-c06",
+          "source_id": "mami-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Because the pronunciation is similar, \"mami\" is sometimes written with the characters 魔魅, a general term for demons that deceive people.",
+          "statement_id": "Karena pelafalannya mirip, kata \"mami\" kadang ditulis dengan karakter 魔魅, sebutan umum bagi makhluk jahat yang menipu orang.",
+          "quote": "「まみ」の発音が似ていることから、人をたぶらかす妖魔、魔物の総称である「魔魅」の字があてられることもある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mami-c07",
+          "source_id": "mami-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Sekai Daihyakka Jiten, \"mami\" is one of the alternative names of the Japanese badger, along with Sasaguma and Atsuguma.",
+          "statement_id": "Menurut Sekai Daihyakka Jiten, mami adalah salah satu nama lain luak Jepang, selain Sasaguma dan Atsuguma.",
+          "quote": "日本産の亜種ニホンアナグマM.m.anakumaは本州，四国，九州に分布する。別名マミ，ササグマ，アツグマ。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mami-c08",
+          "source_id": "mami-s2",
+          "host": "kotobank.jp",
+          "statement": "It is said that in the past the tanuki was called Muji or Mujina, while the badger was called Mami or Sasaguma, but this is not necessarily certain, and in some regions both are called Mujina.",
+          "statement_id": "Disebutkan bahwa pada masa lalu tanuki disebut Muji atau Mujina, sedangkan luak disebut Mami atau Sasaguma, tetapi hal itu tidak selalu pasti dan di sebagian daerah keduanya sama-sama disebut Mujina.",
+          "quote": "東京以西では動物学上のタヌキを正しく〈タヌキ〉と呼ぶが，これは比較的新しいことばであり，古くはタヌキを指してムジあるいはムジナと呼び，アナグマをマミあるいはササグマと呼んだという。しかし，これは必ずしも確かではなく，タヌキとアナグマの双方をムジナと呼ぶ地方もある。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mihotsuhime",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "6b16d2ee6d7ac9a6310e3dd35f831b3489aace99b4aa29f920751c34bf34b939",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mihotsuhime-c01",
@@ -518,26 +687,51 @@
           "quote": "「ミホツヒメ」の「ツ」は「の」を表す格助詞で、「ミホ」の女神という意味になる。",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "mihotsuhime-c04",
+          "source_id": "mihotsuhime-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "She is the main deity of shrines including Miho Shrine in Shizuoka, Izumo Daijingū in Kyoto and Miho Shrine in Shimane.",
+          "statement_id": "Ia menjadi dewa utama di antara lain Kuil Miho di Shizuoka, Izumo Daijingū di Kyoto, dan Kuil Miho di Shimane.",
+          "quote": "御穂神社（静岡県静岡市清水区三保） - 主祭神 ... 出雲大神宮（京都府亀岡市千歳町出雲無番地） - 主祭神 ... 美保神社（島根県松江市美保関町美保関） - 主祭神",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mihotsuhime-c05",
+          "source_id": "mihotsuhime-s2",
+          "host": "kotobank.jp",
+          "statement": "The Japanese biographical dictionary says that when Ōkuninushi submitted she was assigned as his wife by imperial command, and that she is enshrined at places including Izumo Daijingū and Miho Shrine in Shizuoka.",
+          "statement_id": "Kamus nama orang Jepang menyebut bahwa ketika Ōkuninushi tunduk, ia dijodohkan sebagai istrinya atas titah, dan ia menjadi dewa kuil di antaranya Izumo Daijingū dan Kuil Miho di Shizuoka.",
+          "quote": "大国主(おおくにぬしの)神が帰順したとき,勅によりその妻に配された。京都府出雲(いずも)大神宮,静岡県御穂神社などの祭神。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mihotsuhime-c06",
+          "source_id": "mihotsuhime-s3",
+          "host": "archive.org",
+          "statement": "In Aston's translation of the Nihongi, Taka-mi-musubi no Mikoto says he will give his daughter Mi-ho-tsu hime as a wife and that the eighty myriads of Deities are to guard his August Grandchild.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, Taka-mi-musubi no Mikoto berkata akan memberikan putrinya Mi-ho-tsu hime sebagai istri dan agar delapan juta dewa menjaga Cucu Agungnya.",
+          "quote": "Then Taka-mi-musubi no Mikoto ... I will therefore now give thee my daughter Mi-ho-tsu hime to be thy wife. Take with thee the eighty myriads of Deities to be the guards of my August Grandchild to all ages.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mikahayahi-no-mikoto",
-      "file": "batch-058-fix-1.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "eaf888c370019fe0f3db14125fb348181f4a00d4864d96317585719a658741dc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mikahayahi-no-mikoto-c01",
@@ -587,6 +781,26 @@
           "statement_id": "Komentar menafsirkan namanya melalui luhur, perkasa, tergesa, dan roh.",
           "quote": "The name Mikahayahi no kami 甕速日神 can be thought of as a composite of mi (“august”), ika (“mighty”), haya (“impetuous”), and hi (“spirit”).",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mikahayahi-no-mikoto-c06",
+          "source_id": "mikahayahi-no-mikoto-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the Nihon Shoki variant quoted in this study, blood that dripped from the sword's handguard spouted forth and formed a deity given the name Mikahayahi no kami.",
+          "statement_id": "Dalam varian keenam Nihon Shoki yang dikutip dalam kajian ini, darah yang menetes dari pelindung tangan pedang menyembur dan membentuk dewa bernama Mikahayahi no kami.",
+          "quote": "Then, the blood that dripped from the handguard of his sword spouted forth and formed a deity. The deity was given the name Mikahayahi no kami 甕速日神.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mikahayahi-no-mikoto-c07",
+          "source_id": "mikahayahi-no-mikoto-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "That Nihon Shoki variant states that Mikahayahi no kami was the progenitor of Takemikazuchi no kami.",
+          "statement_id": "Varian Nihon Shoki itu menyatakan Mikahayahi no kami adalah leluhur Takemikazuchi no kami.",
+          "quote": "This Mikahayahi no kami was the progenitor of Takemikazuchi no kami 武甕槌神.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -664,7 +878,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bf359992ca10abf7538d5ac9f3b266ae726f18cb1bbd921cdefb5dd098303995"
     },
     {
       "slug": "mino-waraji",
@@ -724,24 +939,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "53a36b4e586cecaeb0be1baa11f9a1fe87df4c4e21c9d7379174be0df54de6ec"
     },
     {
       "slug": "miyazu-hime",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "7aad946281ca262dd7db0b02ae3ec55021a418a890db1e967ea76404471816c9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "miyazu-hime-c01",
@@ -772,24 +983,75 @@
           "quote": "Grieving his death, she built a shrine in Atsuta and enshrined the blade there, which became the origin of Atsuta Shrine.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "miyazu-hime-c04",
+          "source_id": "miyazu-hime-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Miyazu-hime was a woman of the Owari no Kuni no Miyatsuko house, the last consort of Yamato Takeru, and a legendary figure who appears only in stories and is not recorded in the genealogies of the Kojiki and Nihon Shoki.",
+          "statement_id": "Miyazu-hime adalah perempuan dari keluarga Owari no Kuni no Miyatsuko, istri terakhir Yamato Takeru, dan tokoh legendaris yang hanya muncul dalam kisah serta tidak tercatat dalam silsilah Kojiki dan Nihon Shoki.",
+          "quote": "宮簀媛（みやずひめ、生没年不詳）は、古墳時代の豪族であった尾張国造の女性。ヤマトタケルの最後の配偶者であり、熱田神宮の創祀に関わる重要人物と伝えられるが子は無く、記紀ともに系譜には記されず、物語にのみ現れる伝説的人物。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "miyazu-hime-c05",
+          "source_id": "miyazu-hime-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Her name is written 宮簀媛 in the Nihon Shoki, 美夜受比売 in the Kojiki and 宮酢姫命 in the surviving fragment of the Owari no Kuni Fudoki.",
+          "statement_id": "Namanya ditulis 宮簀媛 dalam Nihon Shoki, 美夜受比売 dalam Kojiki, dan 宮酢姫命 dalam kutipan Owari no Kuni Fudoki.",
+          "quote": "『日本書紀』は宮簀媛、『古事記』は美夜受比売、『尾張国風土記』逸文は宮酢姫命とする。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "miyazu-hime-c06",
+          "source_id": "miyazu-hime-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Fudoki fragment, when the sword shone divinely during Yamato Takeru's stay he ordered Miyazu-hime to enshrine it, and the shrine built there is said to be Atsuta Jingū.",
+          "statement_id": "Menurut kutipan Fudoki dan Atsuta Daijingū Engi, ketika pedang itu bersinar saat Yamato Takeru menginap, ia memerintahkan Miyazu-hime memuja pedang itu, dan kuil yang didirikan di sana disebut Atsuta Jingū.",
+          "quote": "日本武尊が尾張連らの遠祖である宮酢媛命を娶って宿泊した時、剣が神々しく光り輝いたため、宮酢媛命にその剣を奉斎することを命じ、そこで建てたのが熱田神宮であるとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miyazu-hime-c07",
+          "source_id": "miyazu-hime-s3",
+          "host": "archive.org",
+          "statement": "In Aston's translation of the Nihongi, Yamato-dake returned to Ohari, took as wife a daughter of the Ohari House named Miyazu-hime, and stayed there until the next month.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, Yamato-dake kembali ke Ohari, mengambil putri keluarga Ohari bernama Miyazu-hime sebagai istri, dan tinggal di sana sampai bulan berikutnya.",
+          "quote": "Yamato-dake no Mikoto, having returned back again to Ohari, straightway took to wife a daughter of the Ohari House, by name Miyazu-hime, and tarried there until the next month.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "miyazu-hime-c08",
+          "source_id": "miyazu-hime-s3",
+          "host": "archive.org",
+          "statement": "The Nihongi records that Yamato-dake took off his sword, left it in Miyazu-hime's house and went on foot.",
+          "statement_id": "Nihongi mencatat Yamato-dake melepas pedangnya, meninggalkannya di rumah Miyazu-hime, dan pergi berjalan kaki.",
+          "quote": "So he took off his sword, and leaving it in the house of Miyazu-hime, went on afoot.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nai-no-kami",
-      "file": "batch-058-fix-2.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "e168c3ac007c1b236073f7bd6852de32bc803122c798acf9f81e6a02c9bb9123",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "claims (nai-no-kami-c05)",
+          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
         }
       ],
       "claims": [
@@ -822,26 +1084,52 @@
           "quote": "三重県の名張市には式内社の名居神社があり、これが伊賀国における「なゐの神」を祀る神社であった。現在は大己貴命を主祭神としている。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "nai-no-kami-c05",
+          "source_id": "nai-no-kami-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "From a tradition that something holds down earthquakes, Takemikazuchi, the deity of Kashima Jingū, later came to be regarded as a god who prevents earthquakes, though the Kojiki and Nihon Shoki contain no passage linking him with earthquakes.",
+          "statement_id": "Dari tradisi yang menyatakan sesuatu menahan gempa, Takemikazuchi, dewa Kashima Jingū, kemudian dianggap dewa pencegah gempa, tetapi Kojiki dan Nihon Shoki tidak mengaitkannya dengan gempa.",
+          "quote": "が地震をおさえているとの伝承から、鹿島神宮の祭神であるタケミカヅチが地震を防ぐ神とされるようになったが、『記紀』にはタケミカヅチと地震を関連づけるような記述はない。",
+          "context": "scholarly-interpretation",
+          "status": "exact",
+          "wiki_flag": "citation needed"
+        },
+        {
+          "id": "nai-no-kami-c06",
+          "source_id": "nai-no-kami-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is noted that \"na\" in the deity's name means earth or ground, and the ancients called earthquakes \"naifuri\".",
+          "statement_id": "Disebutkan bahwa \"na\" dalam nama dewa berarti tanah atau bumi, dan orang zaman kuno menyebut gempa \"naifuri\".",
+          "quote": "備考として、神名における「な」は「大地・地」を意味し、国造りをした「オオナムチ（大国主の別名）」や「スクナヒコナ」の「ナ」も地を意味する。古代人は地震を「なゐふり」と呼んだ。",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "nai-no-kami-c07",
+          "source_id": "nai-no-kami-s2",
+          "host": "archive.org",
+          "statement": "In Aston's translation of the Nihongi, an earthquake destroyed all the houses, so orders were given to all quarters to sacrifice to the God of Earthquakes.",
+          "statement_id": "Dalam terjemahan Aston atas Nihongi, gempa menghancurkan semua rumah sehingga diperintahkan agar di semua penjuru dipersembahkan kurban kepada Dewa Gempa.",
+          "quote": "There was an earthquake which destroyed all the houses. So orders were given to all quarters to sacrifice to the God’ of Earthquakes.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "noteppo",
-      "file": "batch-058.md",
+      "file": "batch-058-fix-4.md",
+      "entry_sha256": "d72865ee873dc322b216ff12694be1c1177facfee7a45d94da482f3bf05264aa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "noteppo-c01",
@@ -880,6 +1168,66 @@
           "statement": "The account associates its origin with an aged mami.",
           "statement_id": "Kisah menghubungkan asalnya dengan mami yang tua.",
           "quote": "『絵本百物語』の本文によれば、猯（まみ）という獣が老いて妖怪化したものが野鉄砲であり、コウモリが老いて妖怪化した野衾と同一であるともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c05",
+          "source_id": "noteppo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the text of the Ehon Hyakumonogatari, it attacks people at dusk and sucks their blood.",
+          "statement_id": "Menurut teks Ehon Hyakumonogatari, ia menyerang orang pada senja dan menghisap darah hidup mereka.",
+          "quote": "『絵本百物語』の本文によると、夕暮れになると人を襲って生き血を吸うという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c06",
+          "source_id": "noteppo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "To guard against this, keeping 巻耳 (makimimi) in one's bosom is said to keep one from being robbed of sight.",
+          "statement_id": "Untuk mencegahnya, dikatakan menyimpan makimimi (巻耳) di dalam pakaian membuat penglihatan tidak dirampas.",
+          "quote": "口からコウモリのようなものを放って人の顔にかぶせるとある（画像参照）。これらを防ぐためには、懐に巻耳を入れておくと視界を奪われずに済むという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c07",
+          "source_id": "noteppo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The yōkai researcher Tada Katsumi proposes that, as a result of such confusion, the more yōkai-like tradition arose that the noteppō releases bat-like things from its mouth instead of covering people's faces itself.",
+          "statement_id": "Peneliti yōkai Tada Katsumi mengusulkan bahwa akibat kekeliruan penyamaan itu lahir tradisi bahwa Noteppō melepaskan benda mirip kelelawar dari mulutnya, bukan menutupi wajah sendiri.",
+          "quote": "妖怪研究家・多田克己は、これらが混同された結果、野鉄砲は人を襲う際に自ら人にかぶさるのではなく、口からコウモリ状のものを放つという妖怪めいた伝承が生まれたとの説を唱えている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c08",
+          "source_id": "noteppo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Tada Katsumi also gives another view that the noteppō is of the same kind as the ittan-momen and takes victims' food while their sight is taken.",
+          "statement_id": "Tada Katsumi juga mengajukan pendapat lain bahwa Noteppō sejenis dengan Ittan-momen dan merampas bekal korban saat penglihatannya terenggut.",
+          "quote": "また多田克己は一方で、野鉄砲は一反木綿の同種であり、人を襲う際には視界を奪った隙に持ち物の食料を奪い取るとの別説も述べている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c09",
+          "source_id": "noteppo-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com states that the nodeppō can spit a stream of bats from its mouth toward victims' faces, blinding them in a cloud of angry bats.",
+          "statement_id": "Yokai.com menyatakan Nodeppō mampu menyemburkan arus kelelawar dari mulutnya ke wajah korban sehingga mereka dibutakan oleh kawanan kelelawar.",
+          "quote": "The nodeppō is able to spit a stream of bats out of its mouth towards the faces of its victims, blinding them in a cloud of angry bats.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "noteppo-c10",
+          "source_id": "noteppo-s3",
+          "host": "kotobank.jp",
+          "statement": "The Daijisen Plus entry for the nobusuma describes it as looking like a flying squirrel and said to suck animals' blood.",
+          "statement_id": "Kamus Daijisen Plus menggambarkan Nobusuma sebagai makhluk berwujud tupai terbang yang dikatakan menghisap darah hewan.",
+          "quote": "日本の妖怪。ムササビやモモンガのような姿で動物の生き血を吸うとされる。「飛倉(とびくら)」とも。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -944,7 +1292,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cc515d4caae53bba26ce2b92c5237d4ecf3b787b60e37c2f900244d2df0d351c"
     },
     {
       "slug": "ogotooshio",
@@ -1004,7 +1353,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "64a4406e6d0722b99aa1b765d34783ae85d920e7e7c8fb0d26899eaec47d09d3"
     },
     {
       "slug": "okaburo",
@@ -1078,7 +1428,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3445c7bb4c1691640da50b87f4a234bbe9a28a11595507e0d48db01f38af4d3"
     },
     {
       "slug": "okamuzumi-no-mikoto",
@@ -1152,7 +1503,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cd826cffb5b7f653c712f7e45fd6520b00192d14506e22e251e8040e8a04df64"
     },
     {
       "slug": "omiyanome",
@@ -1226,7 +1578,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ea51077f5416cd908074f999bff73eafe74d60f6cf6403147527b87c50e8bd7f"
     },
     {
       "slug": "osan-kitsune",
@@ -1306,7 +1659,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d09b9ec10f2c5107ef1ecd7f4174e57d7646d673a562add0cac6804c48c8f158"
     },
     {
       "slug": "oseichu",
@@ -1366,7 +1720,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d0cb349cec8d61179743a35b1db1a7b54b29ddf9d27c59063c9bf140e57351ef"
     },
     {
       "slug": "otora-kitsune",
@@ -1426,7 +1781,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "023b9b7af35133a6f2fd6a0b83a3b46014d920eb68a3c092c8a6033fe2fc83a6"
     },
     {
       "slug": "ratoshikamuy",
@@ -1486,7 +1842,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f41b0fa74f555451eee6779635bb5782b7db50c7188bdfdd860f3c1ae8905ba8"
     },
     {
       "slug": "rep-un-kamuy",
@@ -1566,7 +1923,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1e3c87ba946d512d8341cedee707fec15678899145e11ee9eb89fc2e5b17b754"
     },
     {
       "slug": "saho-hime",
@@ -1626,7 +1984,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84ef8efbd4cebe871d08dea655d467072d4ee9c7d2d97aacb5a4fdccd891cb36"
     },
     {
       "slug": "samebito",
@@ -1708,7 +2067,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "26c2cbe1d2750fe5f98213d96eb2005683aa9217416a5fb6d281457acf621d2a"
     },
     {
       "slug": "sanmoto-gorozaemon",
@@ -1768,7 +2128,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3ce8961875c0911bf8d62f0b6d157ad4f43104f669dd2cec1b38e4061cf63354"
     },
     {
       "slug": "sashikuni-okami",
@@ -1828,7 +2189,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ac716442df621d0c4f135705c6d2b1bad911bce6204829baa34ccabcb79573c"
     },
     {
       "slug": "seiryu-gongen",
@@ -1888,7 +2250,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8cdf64745fc20ef658d57e129fc04bbb0907f0c4c8d2f8959fea9f42120a1c2e"
     },
     {
       "slug": "seoritsuhime",
@@ -1962,7 +2325,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "94d67bc10d3f4d8ee6234c6da838788c7d1cf0ef379f539daac6ad3dabbd7cfa"
     },
     {
       "slug": "shamisen-choro",
@@ -2036,7 +2400,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aa457bfcb275ddf15d1e630c276011fe795e7811c1fc11b2113832ba7544efc1"
     },
     {
       "slug": "shichimen-tennyo",
@@ -2096,7 +2461,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2230b1b9a7c2e15cffe24912adf57edbcbef94688d08bd07beff69274b1a87b9"
     },
     {
       "slug": "shii-yokai",
@@ -2156,7 +2522,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "916f7aa9f16f3bc66231c0476cafb441898c3d9baadce3e8b89ad62461d3063a"
     },
     {
       "slug": "shiotsuchi",
@@ -2216,7 +2583,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "23ab8e7d21e1c8097fcf62fd19abea0e3b0400c92bb417f7bbd9f96460468122"
     },
     {
       "slug": "shirachigo",
@@ -2276,7 +2644,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2abe26f173a5f47d9b4b799fa3b0f8f1630c765adf1d9eb32c142d5022e8f50e"
     },
     {
       "slug": "soroban-bozu",
@@ -2336,7 +2705,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02368bf212320c5baf6550605b4e7e844f643e769eac88deb6bc08869aa5e580"
     },
     {
       "slug": "tahiriki-shimarumi-no-kami",
@@ -2376,7 +2746,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ca0bc65e8a2c2a61ed27d0ea3bbc0a64eccedae405bbe7456c63cd86f8220ce4"
     },
     {
       "slug": "takamen",
@@ -2436,7 +2807,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dccb4a808a41a03cc695dfd40603bb2e53c2f7cd77dfb98289cd62f8d85cb1ed"
     },
     {
       "slug": "taniguku",
@@ -2496,7 +2868,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a98f6219fd925b837aa756e9b6e1485a53571fe3343470729c9136edfd1c2d43"
     },
     {
       "slug": "tenaga-ashinaga",
@@ -2556,7 +2929,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d03f3738ede06b117e04b12931a6ab1e3906f1e64a0eb73149a36ac8f0eaf7eb"
     },
     {
       "slug": "tenjokudari",
@@ -2630,7 +3004,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f2f742895c77170f3ed4242fcfbec225a103e057f3d6b86067288f1b184fed6a"
     },
     {
       "slug": "tenpaku-faith",
@@ -2649,7 +3024,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "dc1b8b2b045833d6f447322e848e397586a30c16142e3161269af8ecc1700984"
     },
     {
       "slug": "tentoki-and-ryutoki",
@@ -2699,7 +3075,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f4cb7974efda3e2ca730c0e694431c2f159f00ed7e1dcb7a40caecb9226b5bd"
     },
     {
       "slug": "the-lake-inba-monster",
@@ -2769,7 +3146,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "685498cce997dd1cd3bd926f565634a77677c4f468ec0329217644f8b2e2a8db"
     },
     {
       "slug": "toyohiwake-no-mikoto",
@@ -2819,7 +3197,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "20a8be34417d4c0e1fa850234e54a5ed7accbc64af240e2a2f774cfa70ce63d7"
     },
     {
       "slug": "tsuki-no-usagi",
@@ -2879,7 +3258,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "44ff908494b81a60133746437f76a2b0cb2d621337c6f60e2a862ec7ada3dfaa"
     },
     {
       "slug": "umi-nyobo",
@@ -2953,7 +3333,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f9292520d6415618d62f3222dabed9fb6fc0bce5a5edd6ac371d778167bbf99c"
     },
     {
       "slug": "ura",
@@ -3013,7 +3394,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "498cc8749cf6a91bd201571220700609c38d1366e5286c6b4fe3eaba7bb799c9"
     },
     {
       "slug": "ushirogami",
@@ -3087,7 +3469,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "53c0678f047e5b8953fe0e82ceb69f1b7f0a27724e7a8aa9c837a677cad26c6b"
     }
   ]
 }

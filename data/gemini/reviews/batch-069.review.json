@@ -1,30 +1,27 @@
 {
   "batch_id": "batch-069",
-  "checked_at": "2026-10-01T13:41:27.940Z",
+  "checked_at": "2026-10-07T06:17:26.782Z",
   "files": [
     "batch-069.md",
     "batch-069-fix-1.md",
-    "batch-069-fix-2.md"
+    "batch-069-fix-2.md",
+    "batch-069-fix-3.md",
+    "batch-069-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "mo-chinese-zoology",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "d5c301a1b379c2f96a22560aa7c90ca0b28662b34ebbb60fec873e5ea6c2bb9f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mo-chinese-zoology-c01",
@@ -85,26 +82,51 @@
           "quote": "Up until the late Qing dynasty (1644–1912), the Chinese name mo (貘) continued referring to both \"giant panda\" and \"chimera with an elephant trunk, rhinoceros eyes, cow tail, and tiger paws\", and owing to Jean-Pierre Abel-Rémusat's mix-up in the 1820s, mò was misidentified as the recently discovered \"Malayan tapir\".",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "mo-chinese-zoology-c07",
+          "source_id": "mo-chinese-zoology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In Bai Juyi's preface the mo has an elephant's nose, rhinoceros eyes, an ox tail and tiger feet, and lives in the mountain valleys of the south; sleeping on its skin averts pestilence and drawing its form averts evil.",
+          "statement_id": "Dalam pengantar Bai Juyi, Mo digambarkan berbelalai gajah, bermata badak, berekor sapi, dan berkaki harimau, hidup di lembah-lembah pegunungan di selatan; tidur di atas kulitnya menolak wabah dan menggambar rupanya menolak kejahatan.",
+          "quote": "貘者，象鼻犀目，牛尾虎足，生南方山谷中。寢其皮辟瘟，圖其形辟邪。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mo-chinese-zoology-c08",
+          "source_id": "mo-chinese-zoology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Bai Juyi writes that, according to the Shanhaijing, this beast eats iron and copper and nothing else.",
+          "statement_id": "Bai Juyi menulis bahwa menurut Shanhaijing binatang ini memakan besi dan tembaga dan tidak makan hal lain.",
+          "quote": "寢其皮辟瘟，圖其形辟邪。予舊病頭風，每寢息，常以小屏衛其首，適遇畫工，偶令寫之。按《山海經》，此獸食鐵與銅，不食他物。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mo-chinese-zoology-c09",
+          "source_id": "mo-chinese-zoology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the hymn itself, Bai Juyi calls the mo a marvellous beast born in the southern land that eats nothing but iron.",
+          "statement_id": "Dalam baris pujiannya, Bai Juyi menyebut Mo sebagai binatang ajaib dari negeri selatan yang tidak makan selain besi.",
+          "quote": "邈哉奇獸，生於南國。其名曰貘，非鐵不食。昔在上古，人心忠質。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nine-eared-hound",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "d55cebd35051b6f11e43b7afa91aa4eec1faaff5e150e0ed16a323d7c6bb05bd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nine-eared-hound-c01",
@@ -165,26 +187,71 @@
           "quote": "In another version, the baby had the characters \"Leizhou\" written in one palm and the characters \"Chen Wenyu\" written in the other, and Chen Wenyu became his name. Even today, the God of Thunder is known as Chen Wenyu in Leizhou, where local people of the Chen surname claimed descent from him. In another local legend, the dog became the companion for the God of Thunder.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nine-eared-hound-c07",
+          "source_id": "nine-eared-hound-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Guangji records a man of the Lei region who kept a hunting dog with twelve ears; before a hunt, the number of ears that moved was taken as the number of animals to be caught.",
+          "statement_id": "Taiping Guangji mencatat seorang penduduk daerah Lei yang memelihara anjing pemburu berdua belas telinga; sebelum berburu, jumlah telinga yang bergerak dibaca sebagai jumlah buruan.",
+          "quote": "又云：「嘗有雷民，畜畋犬，其耳十二。每將獵，必笞犬，以耳動為獲數。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-eared-hound-c08",
+          "source_id": "nine-eared-hound-s2",
+          "host": "zh.wikisource.org",
+          "statement": "One day all of the dog's ears moved; afterwards it no longer chased game and howled by the sea.",
+          "statement_id": "Pada suatu hari semua telinga anjing itu bergerak; setelah itu ia tidak lagi mengejar binatang buruan dan menggonggong di tepi laut.",
+          "quote": "以耳動為獲數。 ... 一日，諸耳畢動。既獵，不復逐獸。至海旁測中嗥鳴。郡人視之",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-eared-hound-c09",
+          "source_id": "nine-eared-hound-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this version the eggs brought home broke open after a storm and left their shells; the people of the commandery divided the shells and made offerings to them at set times, and holding a shell marked a prominent clan.",
+          "statement_id": "Dalam versi ini, telur-telur yang dibawa pulang pecah setelah badai dan meninggalkan cangkangnya; penduduk setempat membagi cangkang itu, memujanya pada waktu-waktu tertentu, dan memiliki cangkang dianggap tanda keluarga terpandang.",
+          "quote": "後忽風雨，若出自室。既霽就視，卵破而遺甲存焉。後郡人分其卵甲，歲時祀奠，至今以獲得遺甲為豪族。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-eared-hound-c10",
+          "source_id": "nine-eared-hound-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Guangdong Xinyu says that Chen Kun of Leizhou, who had no son and made his living by hunting, kept a very efficacious nine-eared dog; each ear that moved meant one animal caught.",
+          "statement_id": "Guangdong Xinyu menulis bahwa Chen Kun dari Leizhou, yang tidak punya anak dan berprofesi pemburu, memiliki anjing bertelinga sembilan yang sangat sakti; satu telinga yang bergerak berarti satu buruan.",
+          "quote": "陳時雷州人陳鉷無子，其業捕獵，家有九耳犬甚靈。凡將獵，卜諸犬耳。一耳動，則獲一獸，動多則三四耳，少則一二耳。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-eared-hound-c11",
+          "source_id": "nine-eared-hound-s3",
+          "host": "zh.wikisource.org",
+          "statement": "One day all nine ears moved and the dog kept circling a thicket; Chen Kun found a huge egg and took it home, and in a thunderstorm it opened to reveal a boy with the characters for Lei and Zhou written on his hands.",
+          "statement_id": "Pada suatu hari kesembilan telinga bergerak dan anjing itu terus mengitari semak berduri; Chen Kun menemukan telur besar, membawanya pulang, dan ketika badai petir datang telur itu terbuka menjadi seorang laki-laki yang di telapak tangannya tertulis aksara untuk Lei dan Zhou.",
+          "quote": "一日出獵，而九耳俱動，鉷大喜，以為必多得獸矣。既之野，有叢棘一區，九耳犬圍繞不去。異之，得一巨卵徑尺，攜以歸，雷雨暴作，卵開，乃一男子，其手有文，左曰雷，右曰州",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "scorpion-demoness",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "055709d09b7d9dbb328a1738d8205552fe5243d9d180bceb08352fdc60c4ab23",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "scorpion-demoness-c01",
@@ -245,26 +312,61 @@
           "quote": "Eventually, Maori Xingguan subdues the demoness by transforming into a giant rooster with two combs.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "scorpion-demoness-c07",
+          "source_id": "scorpion-demoness-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel, the Bodhisattva explains that the demoness's three-pronged fork is really a pair of pincers, that the painful sting comes from a hook on her tail called \"daoma du\" (horse-felling venom), and that her true body is a scorpion spirit.",
+          "statement_id": "Dalam novel, sang Bodhisattva menjelaskan bahwa garpu bermata tiga milik siluman itu sebenarnya sepasang capit, bahwa tusukan yang menyakitkan berasal dari kait di ujung ekor yang disebut \"daoma du\", dan bahwa wujud aslinya adalah siluman kalajengking.",
+          "quote": "菩薩道：「這妖精十分利害。他那三股叉是生成的兩隻鉗腳。扎人痛者，是尾上一個鉤子，喚做倒馬毒。本身是個蝎子精。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "scorpion-demoness-c08",
+          "source_id": "scorpion-demoness-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Bodhisattva in the novel, the demoness once listened to the Buddha discuss the sutras at the Temple 雷音寺 (Leiyin); when Rulai (如來) pushed her, she turned her hook and stung the middle thumb of Rulai's left hand, causing him unbearable pain.",
+          "statement_id": "Menurut sang Bodhisattva dalam novel, siluman itu pernah mendengarkan Buddha berbicara tentang sutra di Kuil 雷音寺 (Leiyin); ketika Rulai (如來) mendorongnya, ia memutar kaitnya dan menusuk ibu jari tengah tangan kiri Rulai hingga sakit tak tertahankan.",
+          "quote": "他前者在雷音寺聽佛談經，如來見了，不合用手推他一把，他就轉過鉤子，把如來左手中拇指上扎了一下。如來也疼難禁，即著金剛拿他。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "scorpion-demoness-c09",
+          "source_id": "scorpion-demoness-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Sun Wukong (行者) tells the star official that his master is in trouble in the cave 琵琶洞 on the mountain 毒敵山 in the country 西梁國.",
+          "statement_id": "Sun Wukong (行者) memberi tahu sang penguasa bintang bahwa gurunya sedang dalam kesulitan di Gua 琵琶洞 di Gunung 毒敵山 di negeri 西梁國.",
+          "quote": "那星官斂雲霧整束朝衣，停執事分開左右，上前作禮道：「大聖何來？」行者道：「專來拜煩救師父一難。」星官道：「何難？在何地方？」行者道：「在西梁國毒敵山琵琶洞。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "scorpion-demoness-c10",
+          "source_id": "scorpion-demoness-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel the star official appears as a great double-crested rooster about six or seven chi (尺) tall; when it crows, the demoness reveals her true form, a scorpion as big as a pipa, and after a second crow her body goes limp and she dies.",
+          "statement_id": "Di novel itu, sang penguasa bintang tampil sebagai ayam jantan besar berjengger ganda setinggi sekitar enam atau tujuh chi (尺); ketika ia berkokok, siluman itu menampakkan wujud aslinya, kalajengking sebesar pipa, lalu lemas dan mati setelah kokokan kedua.",
+          "quote": "原來是一隻雙冠子大公雞，昂起頭來，約有六七尺高，對著妖怪叫了一聲。那怪即時就現了本相，原來是個琵琶來大小的一個蝎子精。這星官再叫一聲，那怪渾身酥軟，死在坡前。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "shuzi",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "397fc7c7947521c9c8780bc110c2cf9cb044935ee58e64b79b166e75b4214667",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shuzi-c01",
@@ -325,26 +427,61 @@
           "quote": "同様に獣を捕食しないとされる中国に伝わる霊獣には騶虞（すうぐ）というものもあり、そちらは仁獣とされている。性質が似通っていることから同じ霊獣と見られたり、混同が行われて来ており「虎や豹を見ると狩るが、食べない」と言われたりする点や「長い尾が特徴である」とされる点など互いの属性がまじりつつ伝わっている面もある。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "shuzi-c07",
+          "source_id": "shuzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The 《三才圖會》 passage in the Gujin tushu jicheng says the 酋耳 lives on Mount 英林山, was once presented in the time of King Cheng of Zhou, has a tail longer than its body, eats tigers and leopards, and appears when a ruler's might reaches the four barbarian quarters.",
+          "statement_id": "Kutipan dari 《三才圖會》 dalam Gujin Tushu Jicheng menyebut 酋耳 ada di gunung 英林山, pernah dipersembahkan pada masa Raja Cheng dari Zhou, berekor lebih panjang dari tubuhnya, memakan harimau dan macan tutul, dan muncul ketika wibawa raja menjangkau empat penjuru bangsa asing.",
+          "quote": "英林山有酋耳，周成王時曾獻之。尾長於身，食虎豹。 王者威及四夷，則此獸至。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shuzi-c08",
+          "source_id": "shuzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The 《汲冢周書》, chapter 王會解, as quoted, says the 酋耳 has a body like a tiger or leopard, a tail of three chi, and eats tigers and leopards.",
+          "statement_id": "Kitab 《汲冢周書》 bab 王會解, sebagaimana dikutip, menyebut 酋耳 berbadan seperti harimau atau macan tutul, berekor tiga chi, dan memakan harimau serta macan tutul.",
+          "quote": "《汲冢周書》王會解：「史林以酋耳。」酋耳者，身若虎豹，尾 長三尺，其身食虎豹。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shuzi-c09",
+          "source_id": "shuzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to 《朝野僉載》, in the time of the Empress (天后) a huge tiger-like beast chased and killed a tiger without eating its flesh; when checked against the 瑞圖 (auspicious omen illustrations), it was identified as a 酋耳.",
+          "statement_id": "Menurut 《朝野僉載》, pada masa Permaisuri (天后) seekor binatang sangat besar mirip harimau mengejar dan membunuh seekor harimau tanpa memakan dagingnya; setelah dicocokkan dengan 瑞圖 (gambar pertanda baik), binatang itu dinyatakan sebagai 酋耳.",
+          "quote": "天后時，涪州龍虎界多虎暴。有一獸似虎 而絕大，日正午，逐一虎直入人家，噬殺之，不食其肉。 自是縣界不復有虎矣。錄奏檢瑞圖，乃酋耳。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shuzi-c10",
+          "source_id": "shuzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A passage from the 《冊府元龜》 records that in the third month of the 24th year of Kaiyuan (開元二十四年) an auspicious beast was captured; the 酋耳 was tiger-like, had a tail longer than its body, leopard markings, and could eat tigers.",
+          "statement_id": "Kutipan dari 《冊府元龜》 mencatat bahwa pada bulan ketiga tahun 開元二十四 seekor binatang pertanda baik ditangkap; 酋耳 itu berbentuk seperti harimau, berekor lebih panjang dari tubuh, bercorak macan tutul, dan mampu memakan harimau.",
+          "quote": "《冊府元龜》：「開元二十四年三月，獲瑞獸，酋耳形類虎， 尾長於身，有豹文，能食虎。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tenghuang",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "4fce98992f9577be9d7da2fc2227212bfa384afe4d67ea5fd8d42eee07effe81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tenghuang-c01",
@@ -395,26 +532,61 @@
           "quote": "There is an idiom in Chinese, \"Flying the Yellow Tengda\" (飛黃騰達) or \"Riding on the Tenghuang\". It is used to describe a person ascending and gaining a high position or reputation.",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "tenghuang-c06",
+          "source_id": "tenghuang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing (Overseas West section) names the 乘黃 (Chenghuang) in the land of the 白民: it looks like a fox, has horns on its back, and whoever rides it lives two thousand years.",
+          "statement_id": "Shanhaijing (Haiwai Xi Jing) menyebut 乘黃 (Chenghuang) di Negeri 白民: bentuknya seperti rubah, di punggungnya ada tanduk, dan yang menungganginya berumur dua ribu tahun.",
+          "quote": "白民之國在龍魚北，白身披髮。有乘黃，其狀如狐，其背上有角，乘之壽二千歲。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tenghuang-c07",
+          "source_id": "tenghuang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The compilation 名馬記 quotes the 《淮南子》 and Gao You's commentary: the 飛黃 (Feihuang) is like a fox with horns on its back, covers ten thousand li a day, and its rider lives three thousand years.",
+          "statement_id": "Himpunan 名馬記 mengutip 《淮南子》 dan komentar Gao You: 飛黃 (Feihuang) seperti rubah dengan tanduk di punggung, berlari sepuluh ribu li sehari, dan penunggangnya berumur tiga ribu tahun.",
+          "quote": "《淮南子》曰：黃帝治天下，飛黃服皂。高誘曰：飛黃如狐，背有角，日行萬里，乘之壽三千歲。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tenghuang-c08",
+          "source_id": "tenghuang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "A passage from the 《瑞應圖》 in the 名馬記 calls the 騰黃 a divine yellow horse that arrives when a ruler governs the four quarters through virtue, also named 吉光, whose rider lives three thousand years and which never dies.",
+          "statement_id": "Kutipan dari 《瑞應圖》 dalam 名馬記 menyebut 騰黃 sebagai kuda ajaib berwarna kuning yang datang ketika penguasa memerintah keempat penjuru dengan kebajikan, juga dinamai 吉光, yang penunggangnya berumur tiga ribu tahun dan kuda itu tak punya masa mati.",
+          "quote": "《瑞應圖》曰：騰黃者，神馬也，其色黃，王者德御四方則至。一名吉光，乘之壽三千歲，此馬無死時。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tenghuang-c09",
+          "source_id": "tenghuang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to Ying Shao (應劭), quoted in the 名馬記, the 乘黃 has dragon wings and a horse's body, and the Yellow Emperor (黃帝) rode it and became an immortal; the 《瑞應圖》 adds that the 乘黃 appears when a ruler's carriage and dress follow proper rules.",
+          "statement_id": "Menurut Ying Shao (應劭) yang dikutip dalam 名馬記, 乘黃 bersayap naga dan bertubuh kuda, dan Kaisar Kuning (黃帝) menungganginya lalu menjadi dewa; 《瑞應圖》 menambahkan bahwa 乘黃 muncul ketika kereta dan busana penguasa sesuai aturan.",
+          "quote": "應劭曰：乘黃，龍翼馬身，黃帝乘而仙。 《瑞應圖》曰：乘黃者，王者輿服有度則出。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "the-nine-tailed-turtle",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "579ae45b2536ced7db1dbbf708f45660d9c981ea873461046159f7db5392f7af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "the-nine-tailed-turtle-c01",
@@ -475,26 +647,61 @@
           "quote": "According to a story compiled by Hong Mai (1123–1202) in his Yijian Zhi, during the Jin–Song Wars of 1126, when the Song \"southern capital\" Yingtian Prefecture (modern Shangqiu) was under siege, a huge nine-tailed turtle appeared in the city. It was described as being three chi tall, \"as big as a wheel\", with nine bony tails and a yellow, waxy carapace.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "the-nine-tailed-turtle-c07",
+          "source_id": "the-nine-tailed-turtle-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The chapter on turtles and divination in the 《史記》 lists eight named turtles, the seventh being the 九州龜 (Turtle of Nine Provinces), and says that whoever obtains a named turtle will gain wealth and a very rich household.",
+          "statement_id": "Bab tentang kura-kura dan ramalan dalam 《史記》 mendaftar delapan kura-kura bernama, yang ketujuh adalah 九州龜 (kura-kura Sembilan Provinsi), dan menyebut bahwa orang yang mendapatkan kura-kura bernama akan memperoleh harta dan menjadi sangat kaya.",
+          "quote": "記曰：「能得名龜者，財物歸之，家必大富至千萬。」一曰「北斗龜」，二曰「南辰龜」，三曰「五星龜」，四曰「八風龜」，五曰「二十八宿龜」，六曰「日月龜」，七曰「九州龜」，八曰「玉龜」：凡八名龜。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-nine-tailed-turtle-c08",
+          "source_id": "the-nine-tailed-turtle-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the 《庚巳編》, a butcher surnamed Wang of Haining and his son buy a large turtle from a fisherman and tie it under a pillar to make soup of it; a merchant from Jiangyou staying nearby asks his landlord to redeem it for a thousand coins.",
+          "statement_id": "Dalam 《庚巳編》, seorang penjagal bermarga Wang di Haining dan putranya membeli kura-kura besar dari nelayan dan mengikatnya di bawah tiang untuk dijadikan sup; seorang pedagang dari Jiangyou yang tinggal di dekat situ meminta penginapnya menebusnya dengan seribu uang.",
+          "quote": "海寧百姓王屠與其子出行，遇漁父持巨龜，徑可尺餘，買歸係著柱下，將羹之。鄰居有江右商人見之，告其邸翁，請以千錢贖焉。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-nine-tailed-turtle-c09",
+          "source_id": "the-nine-tailed-turtle-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The merchant calls it a 九尾龜, a divine creature he wants to buy and release; when he steps on its shell, four small tails appear on each side of the large tail. Wang refuses to sell it and cooks it into soup that he and his son eat.",
+          "statement_id": "Pedagang itu menyebut kura-kura tersebut 九尾龜, makhluk gaib yang ingin ia beli untuk dilepas; ketika ia menginjak cangkangnya, tampak empat ekor kecil di tiap sisi ekor besar. Wang menolak menjualnya dan memasaknya menjadi sup untuk dimakan bersama putranya.",
+          "quote": "商曰：「此九尾龜，神物也，欲買放去。 ... 商踏龜背，其尾之兩旁露小尾各四，便持錢乞王，王不肯，遂烹作羹，父子共啖。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "the-nine-tailed-turtle-c10",
+          "source_id": "the-nine-tailed-turtle-s3",
+          "host": "zh.wikisource.org",
+          "statement": "That evening a flood came in from the sea and floated the beds; next day the landlord broke open their door and found only clothes and bedding on the bed, the father and son gone. Some said they were taken and killed by the water palace for harming a divine turtle.",
+          "statement_id": "Malam itu air bah datang dari laut hingga tempat tidur mengapung; keesokan harinya sang penginap membongkar pintu dan hanya menemukan pakaian dan selimut di ranjang, sementara ayah dan anak itu hilang. Orang berkata mereka dibawa dan dibunuh penguasa air karena mencelakai kura-kura ajaib.",
+          "quote": "是夕，大水自海中來，平地高三尺許，牀榻盡浮，十餘刻始退。及明午，翁怪王屠父子不起，坏戶入視之，但見衣衾在牀，父子都不知去向。人或云：害神龜，為水府攝去殺卻也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "three-legged-turtle",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "d3b97e7f0596ce404f4a4decec66c573e7813e36db4fbefbb48dbda5ff341fc0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "three-legged-turtle-c01",
@@ -533,6 +740,46 @@
           "statement": "Another passage places three-footed softshell turtles with branching tails in River Trailer.",
           "statement_id": "Kisah lain menempatkan labi-labi berkaki tiga dengan ekor bercabang di River Trailer.",
           "quote": "...The River Trailer rises on its summit and runs a hidden course to its base. This river contains many three-footed [softshell] turtles with a branching tail. If you eat it, you won't succumb to the plague of the malign force.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "three-legged-turtle-c05",
+          "source_id": "three-legged-turtle-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The annotation to the Erya quotes the 《山海經》: three-legged softshell turtles are plentiful on Mount 從山 and three-legged turtles on Mount 大苦山; it adds that a pond on Mount 君山 in Yangxian County (吳興郡陽羨縣) yields three-legged softshell turtles and also six-eyed turtles.",
+          "statement_id": "Catatan pada Erya mengutip 《山海經》: banyak labi-labi berkaki tiga di gunung 從山 dan kura-kura berkaki tiga di gunung 大苦山; catatan itu menambahkan bahwa di kolam di gunung 君山 di Kabupaten 陽羨 (Wuxing) muncul labi-labi berkaki tiga dan juga kura-kura bermata enam.",
+          "quote": "《山海經》曰：從山多三足鱉，大苦山多三足龜。今吳興郡陽羨縣君山上有池，池中出三足鱉，又有六眼龜。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "three-legged-turtle-c06",
+          "source_id": "three-legged-turtle-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The commentary to the Erya explains that softshell turtles and turtles ordinarily have four feet, so the three-footed ones are given different names: 能 for the softshell turtle and 賁 for the turtle.",
+          "statement_id": "Komentar pada Erya menjelaskan bahwa labi-labi dan kura-kura umumnya berkaki empat, sehingga yang berkaki tiga diberi nama berbeda: 能 untuk labi-labi dan 賁 untuk kura-kura.",
+          "quote": "鱉、龜皆四足，三足者異，故異其名。鱉之三足者名能，龜之三足者名賁也。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "three-legged-turtle-c07",
+          "source_id": "three-legged-turtle-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The 《庚巳編》 tells of a commoner of 太倉州 who bought a three-legged softshell turtle from a fisherman and had his wife cook it; after he ate it, his wife found only a lock of hair and his clothes on the ground, as if he had shed his form.",
+          "statement_id": "Dalam 《庚巳編》 diceritakan seorang warga 太倉州 membeli labi-labi berkaki tiga dari nelayan dan istrinya memasaknya; setelah ia memakannya sendiri, sang istri masuk dan hanya menemukan seuntai rambut serta pakaian suaminya di lantai, seolah ia telah meluruhkan wujudnya.",
+          "quote": "庚午夏，太倉州有百姓道見漁者，持一鱉而三足，買歸令婦炰之。既熟，呼婦共餐，婦不欲食，出坐門外。久之不聞其夫聲，入視已失所在，地上止存發一縷，衣服冠履，事事皆在，如蛻形者。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "three-legged-turtle-c08",
+          "source_id": "three-legged-turtle-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The fishermen in the tale say that when ordered to catch a three-legged softshell turtle they first netted something very heavy, a lump of flesh shaped like a person with all facial features but no hands or feet, wriggling with closed eyes, and threw it back into the water.",
+          "statement_id": "Para nelayan dalam kisah itu mengatakan bahwa ketika diperintahkan menangkap labi-labi berkaki tiga, mereka lebih dulu menjaring benda yang sangat berat berupa gumpalan daging berbentuk manusia, berwajah lengkap tetapi tanpa tangan dan kaki, bergerak-gerak dengan mata terpejam, lalu melemparnya kembali ke air.",
+          "quote": "群漁云：初被命，網於川，舉網驚其太重，及岸視之，乃一肉塊如人形，五官俱具而無手足，閉目蠢動。漁大驚怕，擲之水中",
           "context": "historical-record",
           "status": "exact"
         }
@@ -611,7 +858,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5bc0105fc0c6ba99f0d31c8818061cec8df98b4869bdc211743d7d15c2daeb92"
     },
     {
       "slug": "wd-q10409490",
@@ -685,7 +933,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d20714f4b04fde1aed7a71d1c5366111cd46c861489b6b0231002876053711f7"
     },
     {
       "slug": "wd-q10410143",
@@ -759,24 +1008,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "af71c6c1659f780777bcb3590b5424f39e6277fdc45fdfd7ae0a736f059947bc"
     },
     {
       "slug": "wd-q10478981",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "dac2edbc0ff47ccca58384b36c45e1ef566ab5219c6cb24595ae71d79abfe762",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10478981-c01",
@@ -826,6 +1071,16 @@
           "statement_id": "Teks klasik menyebut pepohonan cendana dan murbei di Gunung Lai, tempat banyak Luoluo.",
           "quote": "又西三百裏五十里，曰萊山，其木多檀楮，其鳥多羅羅〈羅羅之鳥所未詳也。〉，是食人。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10478981-c06",
+          "source_id": "wd-q10478981-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Overseas North section of the Shanhaijing, 羅羅 is also named as a blue-green (青) beast shaped like a tiger, among several animals within the North Sea.",
+          "statement_id": "Dalam bagian Haiwai Bei Jing dari Shanhaijing, 羅羅 juga disebut sebagai binatang berwarna hijau kebiruan (青) yang berbentuk seperti harimau, di antara beberapa binatang di dalam Laut Utara.",
+          "quote": "北海內有獸，其狀如馬，名曰騊駼。有獸焉，其名曰駮，狀如白馬，鋸牙，食虎豹。有素獸焉，狀如馬，名曰蛩蛩。有青獸焉，狀如虎，名曰羅羅。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -903,7 +1158,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c0fbaabd675ebbc21c9e7d9b6717dda11ad93681100528bdd421732aee212a15"
     },
     {
       "slug": "wd-q10927868",
@@ -977,24 +1233,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22df2ad07bfe146037059de9230d650a20f17a9b825b5e9363e3fb85755a37c8"
     },
     {
       "slug": "wd-q15925221",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "6d3fc1a456788dbcc3d44d0a92c26e21e4a4baa8bd05123131ad31625537ae8b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q15925221-c01",
@@ -1055,26 +1307,41 @@
           "quote": "大人一看到這個小孩，那孩子就说：「各位，再會了！」隨之便蜷曲身體飛向天際。孩子的身體瞬間變成了一塊白布，緩緩地朝天空飛去。大家仰頭望去，只見白布拖著長長的尾巴輕輕地飄走，不一會兒就消失不見。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q15925221-c07",
+          "source_id": "wd-q15925221-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the 《宋書》, in the year 永安二 of Sun Xiu (孫休), as hostage children gathered to play, a strange child suddenly came, said \"三公鋤，司馬如\", claimed \"I am not human, I am the star 熒惑\", and rose into the sky looking like a length of silk being drawn along.",
+          "statement_id": "Dalam 《宋書》, pada tahun 永安二 masa Sun Xiu (孫休), ketika anak-anak sandera berkumpul bermain, seorang anak aneh datang tiba-tiba, mengucapkan \"三公鋤，司馬如\", mengaku \"bukan manusia, melainkan bintang 熒惑\", lalu naik ke langit tampak seperti selembar kain putih yang ditarik.",
+          "quote": "孫休永安二年，將守質子羣聚嬉戲，有異小子忽來，言曰：「三公鋤，司馬如。」又曰：「我非人，熒惑星也。」言畢上升，仰視若曳一匹練，有頃沒。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15925221-c08",
+          "source_id": "wd-q15925221-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to Gan Bao (干寶) as quoted, four years later Shu fell, six years later Wei was deposed and twenty-one years later Wu was pacified, so that all realms came under Jin; that is what the child's words meant.",
+          "statement_id": "Menurut Gan Bao (干寶) yang dikutip, empat tahun kemudian Shu runtuh, enam tahun kemudian Wei dilengserkan, dan dua puluh satu tahun kemudian Wu ditaklukkan, sehingga seluruh wilayah kembali ke Jin; itulah arti ucapan anak itu.",
+          "quote": "干寶曰，後四年而蜀亡，六年而魏廢，二十一年而吳平，於是九服歸晉。魏與吳、蜀，並為戰國，「三公鋤，司馬如」之謂也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q17060695",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-3.md",
+      "entry_sha256": "c3397bcaa6a92cdc0b4deb18b380914bb58dd3bfb35c43a2f28ef00a930b89cd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q17060695-c01",
@@ -1135,6 +1402,46 @@
           "quote": "田螺姑娘的故事后来从福建省传到了江苏、浙江、上海、广东的沿海一带。另外，四川省射洪县的螺湖也存在着类似的神话传说。各地传说的版本内容都不大一样。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q17060695-c07",
+          "source_id": "wd-q17060695-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the 《搜神後記》 text, Xie Duan (謝端) finds a big snail the size of a three-sheng jar, takes it home and keeps it in an urn; after some days, every time he returns from the fields he finds food, drink, soup and a fire ready as if someone had prepared them.",
+          "statement_id": "Dalam teks 《搜神後記》, Xie Duan (謝端) menemukan siput besar sebesar kendi tiga sheng, membawanya pulang dan menyimpannya dalam guci; setelah beberapa hari, tiap pulang dari ladang ia mendapati makanan, minuman, sup dan api sudah tersedia seolah ada yang mengurusnya.",
+          "quote": "後於邑下得一大螺，如三升壺，以為異物，取以歸，貯甕中。畜之十數日。端每早至野，還，見其戶中有飯飲湯火，如有人為者",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17060695-c08",
+          "source_id": "wd-q17060695-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Xie Duan leaves at cockcrow, sneaks back early and peeks from outside the fence; he sees a young woman come out of the urn and light the fire at the stove, and when he goes in to the urn he sees only the snail's shell.",
+          "statement_id": "Xie Duan pergi saat ayam berkokok lalu diam-diam pulang pagi-pagi dan mengintip dari balik pagar; ia melihat seorang gadis keluar dari guci dan menyalakan api di tungku, dan ketika ia masuk ke dekat guci, ia hanya menemukan cangkang siput.",
+          "quote": "後以雞鳴出去，平早潛歸，於籬外竊窺其家中。見一少女，從甕中出，至灶下燃火。端便入門，逕至甕所，視螺，但見殼。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17060695-c09",
+          "source_id": "wd-q17060695-s2",
+          "host": "zh.wikisource.org",
+          "statement": "She answers that she is the 白水素女 of the Heavenly River; the Celestial Emperor (天帝) pitied Xie Duan, orphaned young yet self-disciplined, and sent her to keep his house and cook for a time, to leave once ten years had made him rich and married.",
+          "statement_id": "Gadis itu menjawab bahwa ia adalah 白水素女 dari Sungai Langit; Kaisar Langit (天帝) iba pada Xie Duan yang yatim dan menjaga diri, sehingga mengutusnya sementara menjaga rumah dan memasak, dan setelah sepuluh tahun yang membuatnya kaya dan beristri, ia akan pergi.",
+          "quote": "答曰：「我天漢中白水素女也。天帝哀卿少孤，恭慎自守，故使我權相為守舍炊烹。十年之中，使卿居富得婦，自當還去。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17060695-c10",
+          "source_id": "wd-q17060695-s2",
+          "host": "zh.wikisource.org",
+          "statement": "She leaves her shell for storing rice so he would never lack, refuses to stay and departs with sudden wind and rain; Xie Duan sets up a spirit seat and offers sacrifices in season, lives in comfort, is married to a local girl and later holds office; the text says the shrine 素女祠 on the road is that shrine.",
+          "statement_id": "Ia meninggalkan cangkangnya untuk menyimpan beras agar tidak pernah kekurangan, menolak tetap tinggal, dan pergi bersama angin dan hujan; Xie Duan mendirikan altar dan memberi persembahan pada waktunya, hidup berkecukupan, menikah dengan gadis desa, dan kemudian menjabat; teks itu menyebut kuil 素女祠 di jalan sebagai kuil tersebut.",
+          "quote": "留此殼去，以貯米穀，常可不乏。端請留，終不肯。時天忽風雨，翕然而去。端為立神座，時節祭祀。居常饒足，不致大富耳。於是鄉人以女妻之，後仕至令長云。今道中素女祠是也。",
+          "context": "traditional-belief",
+          "status": "loose"
         }
       ],
       "images": []
@@ -1211,7 +1518,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c112064733a228b0227d7e65c709d06fa508f1041ad2a390ecb9368b51599c75"
     },
     {
       "slug": "wd-q22099589",
@@ -1285,7 +1593,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84f651894ed6ae1ecc3e65d63b0057ca7ecedf5b15e165dfc87a456e61660f71"
     },
     {
       "slug": "wd-q22099946",
@@ -1359,24 +1668,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df704d764eaf399d8c2dee5ed59e45a48fe50a38cf243fd3e15db8558da0d283"
     },
     {
       "slug": "wd-q22100555",
-      "file": "batch-069-fix-2.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "309718f70f2f5873f16b1f1c931ee20adfb9c6e1c4f5aa4fac2594d650494134",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22100555-c01",
@@ -1427,6 +1732,16 @@
           "quote": "瞿如，古譚異獸也，據《山海經》：「東五百里，曰禱過之山，其上多金玉，其下多犀、兕，多象。有鳥焉，其狀如鵁而白首，三足，人面，其名曰瞿如，其鳴自號也。」",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22100555-c06",
+          "source_id": "wd-q22100555-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Southern section of the Shanhaijing says that on Mount 禱過之山 there is a bird shaped like a 鵁 with a white head (one version writes 手 for 首), three feet and a human face, named 瞿如, whose cry calls its own name; an annotation says the 鵁 resembles a duck but is smaller, with its legs near the tail.",
+          "statement_id": "Teks Shanhaijing bagian Selatan menyebut di gunung 禱過之山 ada burung berbentuk seperti 鵁 dengan kepala putih (satu naskah memakai aksara 手 untuk 首), berkaki tiga, berwajah manusia, bernama 瞿如, dan berbunyi menyebut namanya sendiri; catatan menyebut 鵁 mirip bebek tetapi lebih kecil dengan kaki dekat ekor.",
+          "quote": "有鳥焉，其狀如鵁〈鵁似鳧而小腳近尾。音骹箭之骹〉，而白 首一作「手」、三足、人面，其名曰瞿如〈音劬〉，其鳴自號也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1448,24 +1763,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "cfb6ea08269810e5e476ae4897cd09f361c75bcdf59e27ef1c79eaa3b2875010"
     },
     {
       "slug": "wd-q33113858",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "d35515a621e205b84fca82a6a8f13ec6ef694ba6fea71c6c3b54ba36aed43a4d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 6,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q33113858-c01",
@@ -1516,26 +1827,31 @@
           "quote": "英水出焉，南流注于即翼之澤。其中多赤鱬，其狀如魚而人面，其音如鴛鴦",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q33113858-c06",
+          "source_id": "wd-q33113858-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text also says that eating the 赤鱬 protects against 疥 (scabies); one version writes 疾 (illness) instead of 疥.",
+          "statement_id": "Teks Shanhaijing juga menyebut bahwa orang yang memakan 赤鱬 tidak terkena 疥 (kudis); satu versi memakai aksara 疾 (penyakit) sebagai ganti 疥.",
+          "quote": "其中多赤鱬，其狀如魚而人面，其音如鴛鴦，食之不 疥一作「疾」。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q9602528",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "bb30da2446814efee8eeffc9e0786bbee23b807acb2bd5d57015caffcef8bd8a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9602528-c01",
@@ -1576,26 +1892,61 @@
           "quote": "因為吉光是極難得一見的神獸，因此民間有成語「吉光片羽」，以吉光的一絲獸毛，來形容某種極難得一見的文獻或是文物。",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9602528-c05",
+          "source_id": "wd-q9602528-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The compilation 名馬記 says the 澤馬 is also called 吉良 and quotes the 《山海經》: in the country 大封國 there is a patterned horse with a white body and red mane named 吉良, whose rider lives a thousand years.",
+          "statement_id": "Himpunan 名馬記 menyebut 澤馬 juga bernama 吉良 dan mengutip 《山海經》: di negeri 大封國 ada kuda berpola bertubuh putih dan bersurai merah bernama 吉良, yang penunggangnya berumur seribu tahun.",
+          "quote": "澤馬，一曰吉良。《山海經》曰：大封國有文馬，縞身朱鬛，名曰吉良，乘之壽千歲。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9602528-c06",
+          "source_id": "wd-q9602528-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A passage from the 《瑞應圖》 calls the 騰黃 a divine yellow horse that is also named 吉光, and whose rider lives three thousand years.",
+          "statement_id": "Kutipan dari 《瑞應圖》 menyebut 騰黃 sebagai kuda ajaib berwarna kuning yang juga bernama 吉光, dan penunggangnya berumur tiga ribu tahun.",
+          "quote": "《瑞應圖》曰：騰黃者，神馬也，其色黃，王者德御四方則至。一名吉光，乘之壽三千歲，此馬無死時。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9602528-c07",
+          "source_id": "wd-q9602528-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Baopuzi says that both the 騰黃 horse and the 吉光 beast live three thousand years, listed alongside the toad (蟾蜍) and the 騏驎, which live shorter lives.",
+          "statement_id": "Baopuzi menulis bahwa 騰黃之馬 dan 吉光之獸 sama-sama berumur tiga ribu tahun, disebut bersama katak (蟾蜍) dan 騏驎 yang berumur lebih pendek.",
+          "quote": "蟾蜍壽三千歲，騏驎壽二千歲。騰黃之馬，吉光之獸，皆壽三千歲。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9602528-c08",
+          "source_id": "wd-q9602528-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the 《海內十洲記》 a 吉光 fur coat is presented to Emperor Wu (武帝) and stored in the outer treasury; the coat is yellow and said to belong to the divine-horse kind; it does not sink after days in water and does not scorch in fire.",
+          "statement_id": "Dalam 《海內十洲記》, 吉光毛裘 dipersembahkan kepada Kaisar Wu (武帝) dan disimpan di gudang luar; mantel bulu itu berwarna kuning dan dikatakan termasuk golongan kuda ajaib; mantel itu tidak tenggelam selama berhari-hari di air dan tidak hangus di api.",
+          "quote": "献此膠四兩，吉光毛裘，武帝受以付外庫 ... 吉光毛裘黃色，盖神馬之類也。裘入水数日不沉，入火不焦。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "xiao-mythology",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "91a762309ce393682c2255ea699130e04fb514f61cb3a38d07b373878db3b8f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xiao-mythology-c01",
@@ -1656,26 +2007,41 @@
           "quote": "Although this passage compares the Xiao bird with the humanoid Kuafu, the Shanhaijing commentary of Guo Pu (276–324) says an early textual version writes the Jufu (舉父), who is also described as yu \"monkey; ape\". The sub-commentary of Hao Yixing (郝懿行; 1757–1825) notes the association may be owing to the similar sounding names Kuafu and Jufu.",
           "context": "scholarly-interpretation",
           "status": "loose"
+        },
+        {
+          "id": "xiao-mythology-c07",
+          "source_id": "xiao-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Western section of the Shanhaijing describes a beast shaped like a 禺 (a kind of ape) with long arms, good at throwing, named 嚻; an annotation adds that it also appears in paintings of dreaded beasts and resembles a macaque throwing things.",
+          "statement_id": "Teks Shanhaijing bagian Barat menyebut binatang berbentuk seperti 禺 (sejenis kera) berlengan panjang yang pandai melempar bernama 嚻; catatan menambahkan bahwa ia juga ada dalam lukisan binatang menakutkan dan mirip monyet yang melempar benda.",
+          "quote": "有獸焉，其狀如禺而長臂，善投，其名曰嚻〈亦在畏獸畫中，似獼猴投擲也〉。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xiao-mythology-c08",
+          "source_id": "xiao-mythology-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Northern section of the Shanhaijing describes a bird shaped like 夸父 with four wings, one eye and a dog's tail, named 嚻, with a cry like a magpie's; eating it cures bellyache and stops 衕.",
+          "statement_id": "Teks Shanhaijing bagian Utara menyebut burung berbentuk seperti 夸父 dengan empat sayap, satu mata, dan ekor anjing bernama 嚻, bersuara seperti burung magpie, dan memakannya menyembuhkan sakit perut serta menghentikan 衕.",
+          "quote": "有鳥焉，其狀如夸父，四翼、一目、犬尾，名曰嚻，其音如鵲，食之已腹痛，可以止衕。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chisongzi",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "0377360e76f22056e185aa00e821ca94e0c6921af7d76c509ff351c7c89ce485",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chisongzi-c01",
@@ -1736,26 +2102,51 @@
           "quote": "关于赤松子服水玉一事，文献中记载中多有不同。《山海经·南山经》注中说赤松子所服食的水玉就是水精（水晶），干宝的《搜神记》则称为冰玉散，葛洪的《抱朴子》则说赤松子服食的是神丹，并有赤松子丹法传世。相传也是葛洪所著的《神仙传》中则称黃初平（皇初平）为赤松子，服松腊茯苓。《丹台录》则称赤松子为昆林仙伯，辖牿南岳山，可化玉为水而服。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "chisongzi-c07",
+          "source_id": "chisongzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the text 《列仙傳》, 赤松子 is the rain master (雨師) of Shennong's time; he took 水玉 and taught it to Shennong, could enter fire and burn himself, often went to Mount Kunlun, stayed in Xi Wangmu's stone chamber, and went up and down with wind and rain.",
+          "statement_id": "Dalam teks 《列仙傳》, 赤松子 adalah ahli hujan (雨師) pada zaman Shennong; ia makan 水玉 dan mengajarkannya kepada Shennong, mampu masuk api dan membakar dirinya, sering ke Gunung Kunlun, tinggal di ruang batu Xi Wangmu, dan naik turun mengikuti angin dan hujan.",
+          "quote": "赤松子者，神農時雨師也。服水玉以教神農，能入火自燒。往往至崑崙山上，常止西王母石室中，隨風雨上下。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chisongzi-c08",
+          "source_id": "chisongzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text adds that the youngest daughter of Emperor Yan (炎帝) followed him, also became an immortal, and they left together; in the time of Gaoxin (高辛) he again served as rain master, and the rain master of later times derives from him.",
+          "statement_id": "Teks itu menambahkan bahwa putri bungsu Kaisar Yan (炎帝) mengikutinya, juga menjadi abadi, dan mereka pergi bersama; pada masa Gaoxin (高辛) ia kembali menjadi ahli hujan, dan ahli hujan zaman itu bersumber darinya.",
+          "quote": "炎帝少女追之，亦得仙，俱去。至高辛時，復為雨師。今之雨師本是焉。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chisongzi-c09",
+          "source_id": "chisongzi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The eulogy verse in the text pictures 赤松子 and the girl flying hand in hand, leaping onto the long wind toward the 玄圃, and setting the pattern for governing rain.",
+          "statement_id": "Bait pujian dalam teks itu menggambarkan 赤松子 dan sang gadis terbang bergandengan tangan, melompat ke angin panjang menuju 玄圃, dan menjadi teladan yang mengatur hujan.",
+          "quote": "眇眇赤松，飄飄少女。接手翻飛，泠然雙舉。縱身長風，俄翼玄圃。妙達巽坎，作範司雨。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hairen",
-      "file": "batch-069-fix-2.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "6a781fe8ccf6e0eb38af7becbc3a1b401e734f5e9f58299df3cc6530096b7726",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hairen-c01",
@@ -1816,13 +2207,24 @@
           "quote": "This female hairen has been determined to be the one captured in Holland in 1403",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "hairen-c07",
+          "source_id": "hairen-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the 海和尚 section of the 《海語》, which describes a human-headed, turtle-bodied creature that climbs onto a ship's prow, an annotation quotes the 《草木子》 on the 海人: Shao Zi (邵子) holds that every land creature must have a counterpart in water, and sea merchants say a 海人 appears shaped like a monk, rather small, boards the boat and sits; the crew must stay silent until it dives back, otherwise a great wind will capsize the boat.",
+          "statement_id": "Dalam bagian 海和尚 pada 《海語》, yang menggambarkan makhluk berkepala manusia dan bertubuh kura-kura yang naik ke haluan kapal, sebuah catatan mengutip 《草木子》 tentang 海人: Shao Zi (邵子) berpendapat makhluk darat pasti punya padanan di air, dan menurut pedagang laut 海人 muncul berbentuk seperti biksu, agak kecil, naik ke perahu dan duduk; awak harus diam sampai ia menyelam kembali, kalau tidak angin besar akan membalikkan perahu.",
+          "quote": "物怪 海和尚 海和尚人首鼈身足差長而無甲舟行遇者率虞不利𢎞治初吾廣督學大僉淮陽韋彦質先生將視學瓊州陸至徐聞方登海舟此物升鷁首而蹲舉舟皆泣謂有魚腹之憂議將禳之先生方嚴人不敢白也詰旦抵瓊留十許日試士都畢泛海而還若履平地後遷福建憲都考終于家語曰妖不勝徳〈草木子邵子曰陸生之物水中必具計必有海人嘗聞之海賈云有海人出形如僧人頗小登舟而坐至則戒舟人寂然不動少頃復沉水否則大風翻舟",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hua-po",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "bba7f67920ce7872f62a8e0193c8ec357fba01a42ac87d1a6a4d5887cfcc0760",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
@@ -1892,20 +2294,15 @@
     },
     {
       "slug": "kaimingshou",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "d12460490480f08993e1b4150f7b0a9a2386bcf460b6a974ea2dab4d2bbfa92d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kaimingshou-c01",
@@ -1966,16 +2363,37 @@
           "quote": "性質が開明獣と似通っていることから、両者は同一視されることがある。 脚注",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "kaimingshou-c07",
+          "source_id": "kaimingshou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Overseas-West-within section of the Shanhaijing calls the 昆侖之虛 the lower capital of the Emperor (帝之下都), with nine gates each guarded by the 開明獸, where the hundred spirits dwell.",
+          "statement_id": "Shanhaijing bagian Haineixi Jing menyebut 昆侖之虛 sebagai kota bawah milik Kaisar (帝之下都) dengan sembilan gerbang yang masing-masing dijaga 開明獸, tempat berkumpul seratus dewa.",
+          "quote": "海內昆侖之虛，在西北，帝之下都。昆侖之虛，方八百里，高萬仞。上有木禾，長五尋，大五圍。面有九井，以玉為檻。面有九門，門有開明獸守之，百神之所在。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaimingshou-c08",
+          "source_id": "kaimingshou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same text says the 開明獸 has a large tiger-like body and nine heads, all with human faces, and stands on Kunlun facing east.",
+          "statement_id": "Teks yang sama menyebut 開明獸 bertubuh besar mirip harimau dengan sembilan kepala yang semuanya berwajah manusia, berdiri di atas Kunlun menghadap ke timur.",
+          "quote": "昆侖南淵深三百仞。開明獸身大類虎而九首，皆人面，東嚮立昆侖上。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kanas-lake-monster",
-      "file": "batch-069-fix-1.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "e9f84a48a3ba182172fec601f741a90a07f398e714726dcae23f6b68a30366a6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 10,
         "sources": 3,
         "images": 0
       },
@@ -1984,11 +2402,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"Cerita kriptid Xinjiang\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2031,26 +2444,81 @@
           "quote": "first, it is a giant red fish, called Siberian taimen.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c05",
+          "source_id": "kanas-lake-monster-s3",
+          "host": "www.chinatoday.com.cn",
+          "statement": "China Today notes that since some claimed to have discovered and photographed a \"giant lake monster\" in Kanas Lake in 1980, the Kanas Lake monster has remained a well-known, unsolved \"mystery\".",
+          "statement_id": "China Today mencatat bahwa sejak sebagian orang mengaku menemukan dan memotret \"monster danau raksasa\" di Danau Kanas pada 1980, monster Danau Kanas tetap menjadi \"misteri\" terkenal yang belum terpecahkan.",
+          "quote": "Since some claimed that they had discovered and photographed a “giant lake monster” in the Kanas Lake in 1980, Kanas Lake monster has remained a well-known, unsolved “mystery.”",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c06",
+          "source_id": "kanas-lake-monster-s2",
+          "host": "www.cernet.edu.cn",
+          "statement": "The CERNET report mentions bulls, horses and sheep that disappeared along the lake and asks whether they were really swallowed up by the \"monsters\".",
+          "statement_id": "Laporan CERNET menyinggung sapi, kuda, dan domba yang hilang di sekitar danau dan mempertanyakan apakah hewan-hewan itu benar-benar ditelan \"monster\" tersebut.",
+          "quote": "For those bulls, horses and sheep disappeared along the lake, were they really swallowed up by the \"monsters\"?",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c07",
+          "source_id": "kanas-lake-monster-s2",
+          "host": "www.cernet.edu.cn",
+          "statement": "In 1985 the Xinjiang Daily carried a headline announcing the discovery of giant \"Red Fish\" in the lake, said to be 10 to 15 metres long, weighing over 4 tons, with heads over a metre wide.",
+          "statement_id": "Pada 1985 harian Xinjiang Daily memuat berita penemuan \"Ikan Merah\" raksasa di danau itu, yang disebut panjangnya 10 sampai 15 meter, berbobot lebih dari 4 ton, dengan kepala selebar lebih dari satu meter.",
+          "quote": "In 1985, Xinjiang Daily carried a headline announcing discovery of giant Red Fish in the lake, saying they were 10 to 15 meters long, weighing more than 4 tons and each having a head over one meter wide.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c08",
+          "source_id": "kanas-lake-monster-s2",
+          "host": "www.cernet.edu.cn",
+          "statement": "In 1987 a research team found a sizeable school of Giant Red Fish, each three or four metres long, and announced the mystery solved: the \"lake monsters\" were giant taimen, locally called Giant Red Fish.",
+          "statement_id": "Pada 1987 sebuah tim peneliti menemukan kawanan besar Ikan Merah Raksasa yang masing-masing panjangnya tiga atau empat meter, dan tim itu mengumumkan bahwa misteri terpecahkan: \"monster danau\" adalah taimen raksasa yang disebut Ikan Merah Raksasa oleh warga setempat.",
+          "quote": "In 1987, a well-equipped scientific research team formed by local and domestic experts discovered a sizeable school of Giant Red Fish, each of them three or four meters long. The team thus announced that the mystery was solved--the \"lake monsters\" were giant taimen, called Giant Red Fish locally.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c09",
+          "source_id": "kanas-lake-monster-s2",
+          "host": "www.cernet.edu.cn",
+          "statement": "According to the 2005 CERNET report, seven Beijing tourists sailing on the lake suddenly saw two very large dark objects spring out of the water, breaking a one-metre wave, rush toward the middle of the lake and vanish within about two minutes.",
+          "statement_id": "Menurut laporan CERNET tahun 2005, tujuh wisatawan dari Beijing yang berperahu di danau tiba-tiba melihat dua objek gelap yang sangat besar melompat dari air dan memecah ombak setinggi satu meter, melaju ke tengah danau, dan menghilang dalam sekitar dua menit.",
+          "quote": "they suddenly spotted two dark objects, very large in size, springing out of the water, breaking a wave one meter high. They leapt forward one following the other, headed swiftly towards the middle of the lake and disappeared from sight in about two minutes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kanas-lake-monster-c10",
+          "source_id": "kanas-lake-monster-s3",
+          "host": "www.chinatoday.com.cn",
+          "statement": "China Today lists two further hypotheses about the monster: a new species not yet catalogued and studied, or a huge reptilian creature that survived from very ancient times.",
+          "statement_id": "China Today menyebut dua hipotesis lain tentang monster itu: spesies baru yang belum dikatalogkan dan diteliti, atau makhluk reptil raksasa yang bertahan sejak zaman purba.",
+          "quote": "The second explanation is that it is a new species that has not yet been catalogued and studied. Third, it is a huge reptilian creature that survived from very ancient times.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "khyab-pa",
-      "file": "batch-069.md",
+      "file": "batch-069-fix-4.md",
+      "entry_sha256": "facbc8ae0426ee3d45439aa02f70dc12e601ce5f61388f0af41556b0047e7cf9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khyab-pa-c01",
@@ -2080,6 +2548,46 @@
           "statement_id": "Dalam cerita, Gshen-Rab berhasil mengubah sikapnya melalui aturan monastik yang asketis, menjadi teladan bagi pengikutnya.",
           "quote": "Khyab-Pa var i den förbuddhistiska tibetanska mytologin en demon som motverkade den religiöse ledaren Gshen-Rab. Denne senare lyckades dock omvända Khyab-Pa genom att imponera med sina asketiska klosterregler. Detta blev ett föredöme för Gshen-Rabs efterföljare.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c04",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "In the account of the Foundation for the Preservation of Yungdrung Bön, Düd Khyabpa Lagring (Bdud Khyab-pa lag-ring), \"Pervasive Demon with Long Arms\", is the chief of the demons who tried to deceive Tönpa Shenrab and his followers with various magical displays.",
+          "statement_id": "Dalam uraian Yayasan Pelestarian Yungdrung Bön, Düd Khyabpa Lagring (Bdud Khyab-pa lag-ring), \"Iblis Berlengan Panjang yang Meliputi Segala\", adalah pemimpin para iblis yang berusaha menipu Tönpa Shenrab dan para pengikutnya dengan berbagai pertunjukan sihir.",
+          "quote": "The chief among the demons was Düd Khyabpa Lagring (Tib. Bdud Khyab-pa lag-ring), Pervasive Demon with Long Arms. The demons tried to deceive Tönpa Shenrab and his followers by resorting to various magical displays.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c05",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "According to that account, Khyabpa Lagring succeeded in seducing Tönpa Shenrab's younger daughter Shenza Nechung and whisked her away to his realm of Radiant Darkness, Münpa Zerden, while her father was away in the realm of the Chya gods.",
+          "statement_id": "Menurut uraian itu, Khyabpa Lagring berhasil memikat putri bungsu Tönpa Shenrab, Shenza Nechung, dan membawanya ke alamnya, Kegelapan Bercahaya Münpa Zerden, ketika sang ayah sedang berada di alam dewa Chya.",
+          "quote": "However, Khyabpa Lagring did succeed in seducing Tönpa Shenrab’s younger daughter Shenza Nechung and, when her father was away in the realm of the Chya gods, he whisked her away to his realm of Radiant Darkness, Münpa Zerden (Tib. Mun-pa zer-ldan).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c06",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "Later Khyabpa sent seven of his sons to steal seven horses of Shen and bring them to Kongpo in Tibet, where his demon father ruled.",
+          "statement_id": "Kemudian Khyabpa mengirim tujuh putranya untuk mencuri tujuh kuda milik Shen dan membawanya ke Kongpo di Tibet, tempat ayahnya yang juga iblis berkuasa.",
+          "quote": "Later, Khyabpa sent seven of his sons to steal seven horses of Shen and fetch them to Kongpo (Tib. Kong-po) in Tibet, where his demon father ruled.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "khyab-pa-c07",
+          "source_id": "khyab-pa-s2",
+          "host": "yungdrungbon.co.uk",
+          "statement": "The account says Khyabpa Lagring grew even angrier and kept creating problems through magic but could not harm the Buddha; frustrated, he set fire to the treasury housing the scriptures of Yungdrung Bön.",
+          "statement_id": "Uraian itu menyebut Khyabpa Lagring makin murka dan terus membuat masalah lewat sihir tetapi tak mampu mencelakai sang Buddha; karena frustrasi ia membakar perbendaharaan yang menyimpan kitab-kitab Yungdrung Bön.",
+          "quote": "This made Khyabpa Lagring even angrier. Although he continued creating problems through magic, he was unable to harm the Buddha. Frustrated, he set fire to the treasury that housed the scriptures of Yungdrung Bön.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -2143,7 +2651,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aa2cb447b6341a4525e2d80c1298b157271959fa928b3eaa6f1d1aea761f6039"
     },
     {
       "slug": "lankeswari",
@@ -2193,7 +2702,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7dbd246e9af32c54ab7c1a0f6e85eb5e077dd939c27155b1ce912f2e5627fbaf"
     },
     {
       "slug": "merperson-in-southsea",
@@ -2253,7 +2763,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dbf304da866fc7a4465fc08c8a710774f8abc1315a925ef1e299baa5aa101fc8"
     },
     {
       "slug": "pihi",
@@ -2293,7 +2804,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d410a4fd8d720025095976c6aab6a65a212605de9b607da5d98d046a8d217afb"
     },
     {
       "slug": "prespa-lake-monster",
@@ -2368,7 +2880,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2401cd8e63a12a3b5cebade5b40e9cd8f89f3022c1c6b0b5d4d5704f85bad13a"
     },
     {
       "slug": "qianlima",
@@ -2418,7 +2931,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "359b75229475ad0cebd9b2a7ed9213452bcfd795526fb09387612a3743e29cf2"
     },
     {
       "slug": "qingniao",
@@ -2498,7 +3012,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "97a46d0087119fff9b3f0afdca0c0ea0568ceefefe12613a4a02b405b4c54957"
     },
     {
       "slug": "ro-langs",
@@ -2578,7 +3093,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bd52dfcb8f5bc1cf4778ed7009e9740367edf3fb57fc5e8540cc82e8d726771d"
     },
     {
       "slug": "schytinglitto",
@@ -2663,7 +3179,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "06ecac6c1fa43c058991fbd3a9f0312f0bea532d1008b4eaafe4e62d349b2fe5"
     },
     {
       "slug": "seven-legs-spiders",
@@ -2743,7 +3260,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "97ec24e5fb86e410db34f687f3ac76b5d0377c7d542864d4d7efc68959c650e0"
     },
     {
       "slug": "si",
@@ -2823,7 +3341,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d93b94df33ff6304c775d9b17adc826248f13483d33cd6ee071842884ca0f15b"
     },
     {
       "slug": "the-great-deer",
@@ -2908,7 +3427,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4b3716bbd26e028ce4fb78dd98b671efe1ea75b80034430b88c9c5972bffc629"
     },
     {
       "slug": "water-monkey",
@@ -2988,7 +3508,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8e6e0607f48555b2228c7e9f9b3b707be59403c83a79931fcbf94ad7db72e469"
     },
     {
       "slug": "wd-q10297137",
@@ -3038,7 +3559,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e15a1b86a30ae1397c001742bef5d85c8ebede782b888cd85bb590e9e3a25b5e"
     },
     {
       "slug": "wd-q10311105",
@@ -3088,7 +3610,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a335334c0ac3b2abd92654a3a72a67f6efede639bf3e3edcbb5faab6adf0b745"
     }
   ]
 }
