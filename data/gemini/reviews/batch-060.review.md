@@ -1,13 +1,10 @@
 # Review batch-060
 
-Diperiksa 2026-10-01T08:19:57.084Z. Berkas: batch-060.md, batch-060-fix-1.md, batch-060-fix-2.md, batch-060-fix-3.md.
+Diperiksa 2026-10-07T06:05:15.282Z. Berkas: batch-060.md, batch-060-fix-1.md, batch-060-fix-2.md, batch-060-fix-3.md, batch-060-fix-4.md, batch-060-fix-5.md.
 
 ## wd-q119097296 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,19 +12,22 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q119097296-c02 | exact | ja.wikipedia.org | It bears long chisellike tusks and is defeated by Yi after attacking people. | 長さ5、6尺の鑿（のみ）のように長い牙を持っている。寿華の地で次々に人を襲っていたが、堯の命を受けた羿（げい）によって退治された。 |
 | wd-q119097296-c03 | exact | ja.wikipedia.org | The Classic of Mountains and Seas gives it a shield and spear in battle. | 『山海経』の海外南経によると、闘いの際に鑿歯は盾と矛を持っていたともいう。 |
 | wd-q119097296-c04 | exact | ja.wikipedia.org | Guo Pu’s commentary also describes a legendary people called Zaochi with long teeth. | 郭璞による『山海経』海外南経の寿華の野に付けられている注によると、鑿歯人（さくしじん）と称される伝説上の人種がいたとされている。鑿歯人の歯は鑿のように長いという。 |
+| wd-q119097296-c05 | exact | zh.wikisource.org | In the Huainanzi, Zaochi is among the creatures that harmed the people in Yao's time, and Yao sent Yi to kill Zaochi in the Chouhua field. | 猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。堯乃使羿誅鑿齒于疇華之野 |
+| wd-q119097296-c06 | exact | zh.wikisource.org | According to the Classic of Mountains and Seas, Yi fought Zaochi in the Shouhua field and shot him dead; Yi held a bow and arrows, Zaochi a shield. | 羿與鑿齒戰于壽華之野，羿射殺之。在昆侖虛東。羿持弓矢，鑿齒持盾。 |
 
 
 ## wd-q119984387 — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q119984387-c01 | exact | ja.wikipedia.org | Bibi is a winged foxlike Chinese creature in the Classic of Mountains and Seas. | 獙獙（へいへい）は『山海経』に記載された古代中国の妖怪。 有翼の狐のような姿をした獣であり、鳴き声は大きな雁のようでその姿を見ることは旱魃の兆しであると言われている。 |
 | wd-q119984387-c02 | exact | ja.wikipedia.org | Its goose-like cry and appearance are associated with drought. | 獙獙（へいへい）は『山海経』に記載された古代中国の妖怪。 有翼の狐のような姿をした獣であり、鳴き声は大きな雁のようでその姿を見ることは旱魃の兆しであると言われている。 |
+| wd-q119984387-c03 | exact | zh.wikisource.org | In the Classic of Mountains and Seas, on Mount Gufeng, which has no grass or trees and abundant gold and jade, there is a beast shaped like a fox with wings. | 又南三百里，曰姑逢之山，無草木，多金玉。有獸焉，其狀如狐而有翼 |
+| wd-q119984387-c04 | exact | zh.wikisource.org | The Classic of Mountains and Seas names the beast Bibi, with a voice like a wild goose, and says that when it appears the land suffers a great drought. | 有獸焉，其狀如狐而有翼，其音如鴻鴈，其名曰獙獙，見則天下大旱。 |
+| wd-q119984387-c05 | exact | zh.wikisource.org | The Siku Quanshu edition has the same sentence about the beast Bibi and adds an annotation that its name is pronounced like 斃. | 有獸焉其狀如狐而有翼其音如鴻鴈其名曰獙獙〈音斃〉見則天下大旱 |
+| wd-q119984387-c06 | exact | zh.wikipedia.org | Chinese Wikipedia notes that Bibi also appears in the late Qing long novel Hushan ji. | 记载于《山海经·山经·东次二经》，清末長篇小說《笏山记》也有獙獙。 |
 
 
 ## wd-q13579750 — lulus-otomatis
@@ -46,10 +46,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q17024925 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -57,14 +54,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q17024925-c02 | exact | ja.wikipedia.org | The Chinese Shenyijing describes a mountain being that eats cooked shellfish and dislikes loud sounds. | 中国の古書『神異経』には、西方の深い山の中に住んでおり、身長は約1丈余り、エビやカニを捕らえて焼いて食べ、爆竹などの大きな音を嫌うとある。また、これを害した者は病気にかかるという。 |
 | wd-q17024925-c03 | exact | ja.wikipedia.org | Kiso tradition associates it with enormous sandals found in the mountains. | 山𤢖（やまわろ）は、木曽（長野県南西部）の深い山の中に住んでいる大男で、「やまおとこ」とも呼ばれる。 江戸時代の文政年間（1818年–1830年）初頭、木曽の山の中で1メートルほどの大きさもある藤のつるで編んだ草鞋（わらじ）が見つかり、山𤢖のものに違いないといわれたが、山𤢖を見たという木こりもおらず、結局どこに住んでいるのか、存在していたのは分からなかったという。 |
 | wd-q17024925-c04 | exact | ja.wikipedia.org | An Edo account describes a black giant with a reddish face and luminous eyes terrifying a woodcutter. | また、江戸時代後期の随筆『想山著聞奇集』に記されている「山𤢖（やまおとこ）の事」によれば、同じく木曽で、ある木こりが早朝に山に入り、物を割るような音が響いたので振り返ると、真っ黒い大きな体で薄赤い顔に茶碗ほどの大きさの目が白く光るものが立っていた。木こりは山小屋へ逃げ込んだが、そのまま3日間寝込んでしまったという。 |
+| wd-q17024925-c05 | exact | zh.wikisource.org | The Shenyijing records a human-shaped being in the deep western mountains that goes bare-bodied, catches shrimp and crabs, does not fear people, and roasts its catch at the fire of people who camp there. | 西方深山中有人焉，身長尺餘，袒身，捕蝦蟹。性不畏人，見人止宿，暮依其火以炙蝦蟹。 |
+| wd-q17024925-c06 | exact | zh.wikisource.org | In the same text the being is named Shansao (山臊); bamboo thrown on a fire so that it bursts frightens it, and offending it gives a person chills and fever. | 名曰山臊。其音自叫。人嘗以竹著火中，爆烞而出，臊皆驚憚。犯之令人寒熱。 |
 
 
 ## wd-q17030967 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -72,6 +68,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q17030967-c02 | exact | ja.wikipedia.org | The Classic of Mountains and Seas gives the original deity a serpent body and human face before being killed. | 『山海経』海内西経によると、もともとは蛇身人面の天神であったが、危（き）と弐負（じふ）という神によって殺された。 |
 | wd-q17030967-c03 | exact | ja.wikipedia.org | After revival it becomes a red beast with a human face, horselike feet and an infantlike cry. | 黄帝によって崑崙山で薬をほどこされ蘇生したが、川に身を投げて怪物に変じたという。 姿は赤い貔貅のようで人面、足は馬のようで赤ん坊のような声で鳴く。 |
 | wd-q17030967-c04 | exact | ja.wikipedia.org | Yi defeats the man-eating monster on Yao’s orders. | 人を襲っては喰い、堯の命を受けた弓の名手の羿（げい）によって退治された。 |
+| wd-q17030967-c05 | exact | zh.wikisource.org | In the Classic of Mountains and Seas (Northern Mountains), Yayu is a beast shaped like an ox with a red body, human face and horse feet; its cry is like an infant's and it eats people. | 有獸焉，其狀如牛，而赤身、人面、馬足，名曰窫窳，其音如嬰兒，是食人。 |
+| wd-q17030967-c06 | exact | zh.wikisource.org | In the Western Interior section, the shamans Wupeng, Wudi, Wuyang, Wulü, Wufan and Wuxiang flank Yayu's corpse holding medicine of immortality; the text says Yayu has a serpent body and human face and was killed by Erfu's minister. | 開明東有巫彭、巫抵、巫陽、巫履、巫凡、巫相，夾窫窳之尸，皆操不死之藥以距之。窫窳者，蛇身人面，貳負臣所殺也。 |
+| wd-q17030967-c07 | exact | zh.wikisource.org | The Huainanzi lists Yayu (written 猰貐) among the creatures that harmed the people in Yao's time, and says Yi shot the ten suns and then killed Yayu. | 猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。堯乃使羿誅鑿齒于疇華之野，殺九嬰于凶水之上，繳大風於青丘之澤，上射十日而下殺猰貐 |
 
 
 ## wd-q17193315 — lulus-otomatis
@@ -90,10 +89,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q20043329 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -101,57 +97,57 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q20043329-c02 | exact | ja.wikipedia.org | Origin tales connect them with children of Zhuanxu or Gonggong. | 古代中国の帝のひとりである顓頊（せんぎょく）の子供たちが、3人の疫鬼になったとされている。また、古代中国の王の1人共工（きょうこう）の子供は冬至に死んで疫鬼になったとされており、その日に小豆粥をつくりこれを祓うという。 |
 | wd-q20043329-c03 | exact | ja.wikipedia.org | Great Exorcism rites are described as rituals to drive them away. | 中国の歴史書『後漢書』礼儀志中には「大儺、謂之逐疫。」という文があり、大儺・驅儺・追儺（ついな）の行事は疫鬼たちを祓う儀式として行われた。 |
 | wd-q20043329-c04 | exact | ja.wikipedia.org | Offerings, charms and seasonal Buddhist rites seek to calm or prevent their actions. | 疫鬼のような病をもたらす存在には、山野に棲んでいる精霊や死後に冥界と現世の中間あたりをさまよっている野鬼たちがなると考えられており、供物や儀式で回復を願ったり、呪物やお札を使用することで予防をする年中行事などが伝承されていた。仏教的な行事である盂蘭盆会（うらぼんえ）や水陸会（すいりくえ）でも、数々の鬼（霊）たちに疫鬼たちも含まれ、その行動を鎮めるための季節ごとの儀式などが行われていた。 |
+| wd-q20043329-c05 | exact | kotobank.jp | The Digital Daijisen dictionary defines ekiki (疫鬼) as an evil deity said to spread epidemics, a plague god. | えき‐き【疫鬼】 疫病をはやらせるという悪神。疫病神。 出典 小学館デジタル大辞泉 |
+| wd-q20043329-c06 | exact | kotobank.jp | The Nihon Kokugo Daijiten (selected edition) gives a similar definition: an evil deity said to make epidemics spread. | えき‐き【疫鬼】 〘 名詞 〙 疫病を流行させるという悪神。やくびょうがみ。 |
+| wd-q20043329-c07 | exact | zh.wikisource.org | The Lunheng quotes the Li (Rites): the three sons of Zhuanxu who were lost at birth became plague demons (yigui); one dwelt in the Jiang river as the Nue demon, one in the Ruo river as the Wangliang demon, and one in the corners of people's houses, fond of frightening small children. | 《禮》曰：「顓頊氏有三子，生而亡去為疫鬼：一居江水，是為虐鬼；一居若水，是為魍魎鬼；一居人宮室區隅漚庫，善驚人小兒。」 |
 
 
 ## wd-q22098758 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q22098758-c01 | exact | ja.wikipedia.org | Yegouzi is a corpse-brain-eating creature in a Liaozhai Zhiyi tale. | 野狗子（やくし）とは『聊斎志異』の第1巻に収録された「野狗」に登場する妖怪であり、獣頭人身で死人の脳を吸うという。 |
 | wd-q22098758-c02 | exact | ja.wikipedia.org | It finds a fugitive hiding among corpses and has a beast’s head on a human body. | 官兵に処刑されるのをおそれ、無数の死体に紛れて死んだふりをした。やがて、獣の頭部と人間の胴体を持つ怪物が死体の上にやってきて、頭をかじり、脳味噌を吸った。 |
 | wd-q22098758-c03 | exact | ja.wikipedia.org | The man strikes its mouth with a stone and later finds a large fang in its blood. | 李化竜は石を持って化け物の口を割り、化け物は逃げ、路上に大量の血を流した。その血のなかから見つかったのは、長さ四寸ばかりの怪物の歯で、中間はわずかに曲がっており、一方の歯は鋭くとがっていた。 |
+| wd-q22098758-c04 | exact | zh.wikisource.org | In Pu Songling's tale Yegou, headless and armless corpses suddenly stand up; one says 'The Yegouzi is coming, what shall we do?' and the other corpses answer in kind. | 忽見闕頭斷臂之尸，起立如林。內一尸斷首猶連肩上，口中作語曰：「野狗子來，奈何？」群尸參差而應曰：「奈何！」 |
+| wd-q22098758-c05 | exact | zh.wikisource.org | Then something with a beast's head and a human body arrives, gnaws the corpses' heads and sucks out their brains. | 俄頃，蹶然盡倒，遂寂無聲。李方驚顫欲起，有一物來，獸首人身，伏嚙人首，遍吸其腦。 |
+| wd-q22098758-c06 | exact | zh.wikisource.org | The creature howls like an owl, covers its mouth in pain and flees; the two teeth found in its blood are curved in the middle and sharp at the tip, and the people shown them did not know what it was. | 物嗥如鴟，掩口負痛而奔，吐血道上。就視之，于血中得二齒，中曲而端銳，長四寸余。懷歸以示人，皆不知其何物也。 |
 
 
 ## wd-q22098849 — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q22098849-c01 | loose | ja.wikipedia.org | Kinkabyō is a cat yōkai associated with Jinhua in Zhejiang. | 「金華の猫」とも呼ばれるこの妖怪は、浙江省金華の猫に纏わるものである。水木しげるは著書『水木しげるの中国妖怪事典』で、「金華の猫」名義で、これを紹介する際に、特徴その他から「憑き物」である可能性を示唆している。 |
+| wd-q22098849-c01 | exact | ja.wikipedia.org | Kinkabyō is a cat yōkai associated with Jinhua in Zhejiang. | 「金華の猫」とも呼ばれるこの妖怪は、浙江省金華の猫に纏わるものである。 |
 | wd-q22098849-c02 | exact | ja.wikipedia.org | Mizuki suggests interpreting the Chinese cat as a possessing entity. | 水木しげるは著書『水木しげるの中国妖怪事典』で、「金華の猫」名義で、これを紹介する際に、特徴その他から「憑き物」である可能性を示唆している。 |
 | wd-q22098849-c03 | exact | ja.wikipedia.org | A quoted tradition describes moon-fed transformation and assuming attractive human forms. | (金華猫は、生後3年で、夜中になると屋根の上にしゃがみこみ、月に対して口を開き、月のエッセンスを取り込み、そうして段々と妖怪になる。出会ったすべての人を魅惑し、女性と遭遇したときは美男に、男性と遭遇したときは美女に変化する。 |
 | wd-q22098849-c04 | exact | ja.wikipedia.org | An anecdote has a young woman harmed by a cat spirit and then recover. | 金華府の学府に通う張広文の18才の娘は、猫の妖怪に襲われて、頭髪が抜け落ちてしまったが、オスを捕まえて彼女自身を治させ、病を克服した。 |
+| wd-q22098849-c05 | exact | zh.wikisource.org | In the tale Zhoushi mai hua, a flour seller named Yu names the cause of a girl's haunting a 'maoxiao' (貓魈, cat xiao), then performs a rite and cuts off its head with a sword. | 羽曰：「此貓魈也，明日當奉為行誅。」至期，周備酒殽香楮延致，羽布氣步罡。少時女已振恐，羽運法，劍斬其首 |
+| wd-q22098849-c06 | exact | zh.wikisource.org | The girl described her visitor as a young man of extraordinary appearance, in a fur robe and riding a horse, who at once supplied all the food and drink needed and sang and laughed like an ordinary person. | 一少年，狀貌奇偉，著裘乘馬而來。兩絳蠟導前，笙簫隨後，凡飲食所須，應聲卽辦。謳吟笑語，與人不殊。 |
+| wd-q22098849-c07 | exact | zh.wikisource.org | Yuan Mei's Xu Zibuyu likens the 'lulang' and 'hongniang' spirits that bring incurable illness to the maoxiao of Jinhua, calling them a kind of demon-spirit. | 有犯者須齋醮禱祀驅之。倘男犯綠郎，女犯紅娘，其病不救，蓋亦妖鬼，猶金華之貓魈。 |
 
 
 ## wd-q28415958 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q28415958-c01 | exact | zh.wikipedia.org | Diniu is an underground land-bearing bull in Fuzhou folklore whose shifting shoulders cause earthquakes. | 在福州的民間普遍說法認為：「地下有一隻地牛擔著土地，這邊肩膀挑累了，換一邊肩膀」，因此地震在福州被稱作「地牛轉肩」。 |
 | wd-q28415958-c02 | exact | zh.wikipedia.org | A Taiwanese version makes earthquakes result from the sleeping bull turning or scratching. | 但在台灣比較普遍的說法認為，地牛在地底下睡覺，每當牠翻身或是因為身體發癢而搔癢時，就會引發地震。 |
 | wd-q28415958-c03 | exact | zh.wikipedia.org | Green Island tradition instead has several bulls fighting, with metal basins beaten to separate them. | 而在綠島另有說法認為地牛不止一隻，而地震是因為地牛互相打鬥而引起的，所以居民會拿金屬製的臉盆敲打以分開牠們。 |
+| wd-q28415958-c04 | exact | ihc.cip.gov.tw | In earthquake-prone Taiwan, the common earthquake myth says a giant earth ox lives underground and shakes the ground when it turns over. | 在地震頻繁的臺灣地區，普遍的地震神話述說在地底下住著一頭巨大的地牛，當牠翻身的時候，就會引起地面的震動。 |
+| wd-q28415958-c05 | exact | ihc.cip.gov.tw | Earthquake myths among Taiwan's Indigenous peoples are highly varied; the most common has the earth-bearer shaking its body or shifting shoulders when tired, for example animals in the ground such as bear, deer, eel (crab), snake and ox. | 在臺灣原住民地區流傳的地震神話則有非常多樣的情節，最常見的是大地支撐者身體搖動或是累了換肩時會引發地震，如地中有熊、鹿、鰻（蟹）、蛇、牛等動物 |
+| wd-q28415958-c06 | exact | pweb.cwa.gov.tw | In a popular-science article by Taiwan's Central Weather Administration, a character recalls her grandmother saying a great earth ox lives underground; when it occasionally stretches, small quakes are felt, and when it turns over a large earthquake is coming. | 「我小的時候，阿嬤跟我說地底下住著一頭大地牛，地牛偶爾伸個懶腰，住在上面的人們就會感受到有小地震，如果地牛一翻身，就是要發生大地震了。」 |
 
 
 ## wd-q30926111 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -159,28 +155,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q30926111-c02 | exact | ja.wikipedia.org | The mother hides her visiting father from the oni and blames the human smell on their child. | おじいさん(父親)は娘を探し、鬼ヶ島で再会するも鬼が帰って来たため、娘に隠される。鬼は「人のにおいがする」と疑うが、娘は小綱がいるためと嘘を吐く。 |
 | wd-q30926111-c03 | exact | ja.wikipedia.org | She makes the pursuing oni laugh so that it releases the water pulling their escape boat back. | 気づいた鬼が川の水を吸い込んで舟を引き寄せるが、娘が自分のお尻をたたくと鬼は笑い出し、水を吐き出したため、逃げ切ることに成功。 |
 | wd-q30926111-c04 | exact | ja.wikipedia.org | The growing child cannot suppress cannibalistic urges and is driven from the village. | しかし鬼の子である小綱は成長に従い、諸々の問題から（食人衝動を抑えられないことを自覚し）人と暮らせず、里を追われた。 |
+| wd-q30926111-c05 | exact | crd.ndl.go.jp | A library reference record describes the folktale 'Oni no ko Kozuna' as containing a 'flower' that signals the number of humans present. | 日本の昔話「鬼の子小綱」に出てくる、そこにいる人間の数を知らせる“花”が、椿の花となっている話がみたい。 |
+| wd-q30926111-c06 | exact | crd.ndl.go.jp | The library notes that in the versions it consulted the flower was always a chrysanthemum, while the 'camellia' entry in the Nihon mukashibanashi jiten says a camellia appears in Oni no ko Kozuna. | どれも花＝菊であった。 参考資料４『日本昔話事典』の「椿」「人花（ひとばな）」の項目を紹介した。 「椿」には鬼の子小綱に椿が出てくる旨が書かれている。 |
+| wd-q30926111-c07 | exact | kotobank.jp | The Heibonsha encyclopedia classes 'Oni no ko Kozuna' as a tale type in which the girl's father or his helper goes to rescue her, sometimes attached to 'snake bridegroom' water-begging tales. | 娘の父やその援助者が娘を救出しに行く〈鬼の子小綱（こづな）〉型の昔話をともなっているものもある。 |
 
 
 ## wd-q9384719 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q9384719-c01 | exact | ja.wikipedia.org | Jiuying is a Chinese monster said to dwell in the northern Xiongshui river. | 九嬰（きゅうえい）は、中国に伝わる伝説上の怪物。凶水という北方にある川に棲んでいた。 |
 | wd-q9384719-c02 | exact | ja.wikipedia.org | It cries like an infant and attacks with water and fire before Yi defeats it for Yao. | 鳴く声は赤ん坊のような声をしており、水と火の両方を噴き出し、人々を苦しめていたが、堯の命を受けた羿（げい）によって退治された。 |
 | wd-q9384719-c03 | exact | ja.wikipedia.org | After its defeat, Yi finds a jade archer’s ring that increases his bow’s power. | 羿は九嬰を退治した帰路、奚禄山という山が自然に崩れて、その中から美しい玉扳指（玉で出来た弓懸）が現われた。これを入手後、羿の弓の威力は更に高まったとされる。 |
+| wd-q9384719-c04 | exact | zh.wikisource.org | The Huainanzi lists Jiuying among the creatures that harmed the people in Yao's time, when ten suns rose together and the people had no food. | 逮至堯之時，十日並出，焦禾稼，殺草木，而民無所食。猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。 |
+| wd-q9384719-c05 | exact | zh.wikisource.org | According to the Huainanzi, Yao sent Yi to kill Jiuying above the Xiong river. | 堯乃使羿誅鑿齒于疇華之野，殺九嬰于凶水之上，繳大風於青丘之澤 |
+| wd-q9384719-c06 | exact | kotobank.jp | The Jitsū dictionary defines Jiuying (九嬰) as a demon of water and fire. | 「九嬰」の読み・字形・画数・意味 【九嬰】きゆうえい 水火の妖。 字通「九」の項目を見る。 |
 
 
 ## wd-q9393861 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -188,6 +184,9 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q9393861-c02 | exact | ja.wikipedia.org | It wrecks boats with huge waves until Yi kills it on Yao’s orders. | 巨大なヘビで、大きな波を発生させたり、湖水を行き交う船を破壊したりして人々を苦しめていたが、堯の命を受けた羿（げい）によって退治された。 |
 | wd-q9393861-c03 | exact | ja.wikipedia.org | A Huainanzi expression pairs it with Fengxi as a metaphor for violent people or invaders. | 『淮南子』修務訓には「封豨修蛇」という字句があり、乱暴者や侵略者を示す熟語としても使われている。これは羿によって成敗された怪物であるこの修蛇と封豨とを並称したものである。 |
 | wd-q9393861-c04 | exact | ja.wikipedia.org | The name also occurs as a literary term for a great snake. | また、巨大な蛇（大蛇）を示す単語としても使われており、「猛虎修蛇」などの字句が見られる。 |
+| wd-q9393861-c05 | exact | zh.wikisource.org | The Huainanzi lists Xiushe (修蛇) among the creatures that harmed the people in Yao's time. | 逮至堯之時，十日並出，焦禾稼，殺草木，而民無所食。猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。 |
+| wd-q9393861-c06 | exact | zh.wikisource.org | According to the Huainanzi, Yi cut down Xiushe at Dongting, and all the people rejoiced. | 上射十日而下殺猰貐，斷修蛇於洞庭，禽封豨于桑林，萬民皆喜，置堯以為天子。 |
+| wd-q9393861-c07 | exact | zh.wikisource.org | In the Classic of Mountains and Seas, the Ba snake eats an elephant and passes its bones after three years; a gentleman who takes them is free of heart and stomach ailments, and the snake is blue, yellow, red and black. | 巴蛇食象，三歲而出其骨，君子服之，無心腹之疾。其為蛇青黃赤黑。 |
 
 
 ## yamachichi — lulus-otomatis
@@ -264,10 +263,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## adakayanushitakikihime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -275,14 +271,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | adakayanushitakikihime-c02 | exact | ja.wikipedia.org | The Izumo Fudoki places her in Taki and names Ōnamochi as her parent. | 『出雲国風土記』神門郡の多伎郷条に登場し、親神にオオナモチが伝わる。他には見られない。 |
 | adakayanushitakikihime-c03 | exact | ja.wikipedia.org | Her name is interpreted as an Adakaya guardian who later settles in Taki. | 神名は意宇郡にある出雲郷の守護神だった後、多伎に来て鎮座された神の意であるとされ、阿陀加夜の努志（主）・多伎吉の比売（姫）と区分できることから、主を称する阿陀加夜の方が本拠地であると考えられている。 |
 | adakayanushitakikihime-c04 | exact | ja.wikipedia.org | Scholarly hypotheses identify her with Kayanarumi or Shitateruhime. | カヤの語から『延喜式』巻八に収録されている祝詞「出雲国造神賀詞」に見えるカヤナルミ（賀夜奈流美命）と同一神とする説があり、さらに阿陀加夜努志をカムヤタテヒメ（神屋楯比売）の名から取った大高屋主の意、多伎吉比売を高比売と同義と見て、シタテルヒメとも同一神であるとする説も提示されている。 |
+| adakayanushitakikihime-c05 | exact | zh.wikisource.org | The Izumo no kuni fudoki records that Adakayanushi Takikihime no Mikoto, child of the great deity who fashioned the world, resides in Taki village, and that the place was therefore called Taki. | 多伎郷 郡家南西二十里 所造天下大神之御子 阿陀加夜努志 多伎吉比売命坐之 故云多吉神亀三年改字多伎 |
+| adakayanushitakikihime-c06 | exact | www.shimane-jinjacho.or.jp | According to the Shimane Prefecture Shrine Agency, a shrine's origin account in Izumo says the place where Princess Takiki resides is called Taki. | 同社縁起によれば、多伎伎姫の鎮座所を多伎と云うとあり、現町名田儀の由来もこれにちなむとみられる。 |
+| adakayanushitakikihime-c07 | exact | www.shimane-jinjacho.or.jp | Takigi Shrine in Izumo city enshrines Takikihime no Mikoto as its chief deity, with the blessing of protection from lightning. | 主祭神 多伎吉比賣命 ふりがな たききひめのみこと 例祭日 10/19 鎮座地 出雲市多伎町口田儀1365番地 御神徳 雷除 |
 
 
 ## aizu-hime-no-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -290,14 +289,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | aizu-hime-no-kami-c02 | exact | ja.wikipedia.org | Matsushiro town history presents her as Izuhayao’s daughter and Takeiotatsu’s wife. | 『日本三代実録』にも見える式外社「會津比賣神」に比定される会津比売神社の祭神で、『松代町史』では建御名方神の子・出速雄命の御子で、初代科野国造の建五百建命（森将軍塚古墳の被葬者の伝承あり）の妻とされる。 |
 | aizu-hime-no-kami-c03 | exact | ja.wikipedia.org | An Aso genealogy instead places that wife as a daughter of Achihayao. | しかし、「阿蘇」系図では「武五百建命」の妻を建御名方神の五世孫・会知早雄命の娘としており、会知早雄命は伊豆早雄命の四世孫となる。 |
 | aizu-hime-no-kami-c04 | exact | ja.wikipedia.org | Other genealogies make her a daughter of Mutsuoohiko rather than Izuhayao. | 会津比売神社では建御名方神の子出早雄命の娘とされ、初代科野国造の妻と伝えるが、建御名方神の孫・六老彦神の娘で、兄妹に鴨羽神と草奈井比売神がいるとする系図もある。 |
+| aizu-hime-no-kami-c05 | exact | zh.wikisource.org | The Nihon Sandai Jitsuroku records that on the first day of the sixth month the unranked goddess Aizuhime (會津比賣神) of Shinano and Kusanaihime were both granted the Junior Fourth Rank, Lower, together with an award to the god Takemizuwake. | 六月甲戌朔。授信濃國无位武水別神從二位。无位會津比賣神。草奈井比賣神並從四位下。 |
 
 
 ## akagashira — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -305,6 +302,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | akagashira-c02 | exact | ja.wikipedia.org | His name occurs in the Azuma Kagami account of Yoritomo’s 1189 visit to Takkoku. | 『吾妻鏡』文治5年（1189年）9月28日の条で、源頼朝が鎌倉へと帰還する途中に平泉の達谷窟を通ったときのことが記されているが、そこに赤頭の名前が登場する。 |
 | akagashira-c03 | exact | ja.wikipedia.org | The conquest tale pairs Tamuramaro and Toshihito despite their different historical periods. | 『吾妻鏡』では、蝦夷の長である悪路王と赤頭が坂上田村麻呂と藤原利仁によって征伐され、田村麻呂が鞍馬寺を模し多聞天像を安置して西光寺を建てたとある。「田村麿」は田村麻呂の別表記だが、その100年ほど後の人物である藤原利仁が同輩のように語られており、伝承に混乱が見られる。 |
 | akagashira-c04 | exact | ja.wikipedia.org | An Ōfunato tradition uses Akagashira as a collective name. | 岩手県大船渡市の伝承では、「赤頭」が個人名ではなく集団名とされている。 |
+| akagashira-c05 | exact | kotobank.jp | The Heibonsha encyclopedia notes that the Azuma Kagami, discussing the Tatsukoku cave, says that during the subjugation of the Emishi by the generals Tamuramaro and Toshihito, the enemy leaders Akuroō, Akagashira and their companions built a stockade in that cave. | 《吾妻鏡》は田谷窟（たつこくのいわや）（現，達谷窟）について述べる中に〈田村麿・利仁等の将軍〉が蝦夷征伐のとき，敵主悪路王（あくろおう）・赤頭（あかがしら）たちがこの窟に柵を構えたとし |
+| akagashira-c06 | exact | www.tohokukanko.jp | The Tohoku Tourism Promotion Organization says the cave where Takkoku no Iwaya Bishamondō stands is said to have been the stronghold of the Emishi Akuroō, Akagashira and Takamaru, who repeatedly behaved violently there. | 「達谷窟毘沙門堂」の建つ窟は、かつてこの地で乱暴なふるまいをくり返していた悪路王、赤頭、高丸らの蝦夷が砦を構えていた場所と言われています。 |
 
 
 ## akagashira-q20042895 — lulus-otomatis
@@ -326,10 +325,7 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## akura-o — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -337,14 +333,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | akura-o-c02 | exact | ja.wikipedia.org | He and three followers ravage villages, steal and abduct women. | 吉備国喩伽山の阿久良王は東郷太郎、加茂二郎、稗田三郎という三人の家来を率いて村に出ては田畑を荒らし、物を盗み、女を拐うなどの悪事を働いて人々を苦しめた。 |
 | akura-o-c03 | exact | ja.wikipedia.org | A mysterious white-bearded elder aids Tamuramaro’s approach to the oni stronghold. | 田村麻呂はわずかな家来と喩伽山へ進むと断崖に阻まれたが、神へ祈願すると白ひげの老人が現れて綱を降ろし、食料が尽きると再び現れて食べ物を出された。 |
 | akura-o-c04 | exact | ja.wikipedia.org | After defeat and repentance, Akuraō becomes seventy-five white fox messengers of Yuga Gongen. | 七日七夜に渡る激しい戦いの末に阿久良王は田村麻呂に敗れ、その死の間際にこれまでの悪事を悔い、罪滅ぼしとして瑜伽大権現の神使となり人々を助けたいと改心した。息を引き取った阿久良王は田村麻呂に首を斬られると、金色の光を放って飛び散り、七十五匹の白狐になって瑜伽大権現のお使いとして人々を助けるようになった。 |
+| akura-o-c05 | exact | www.okayama-kanko.jp | The Okayama tourism site relates the story that the spirit of an oni subdued by Sakanoue no Tamuramaro turned into seventy-five white foxes that became attendants of Yuga Daigongen and helped common people. | 時の征夷大将軍・坂上田村麻呂が討伐した鬼の霊が七十五匹の白狐に変わり、由加大権現の眷属として庶民を助ける神様となったとの言い伝えにより |
+| akura-o-c06 | exact | www.okayama-kanko.jp | Because of that story, the Setsubun bean-throwing at Yugasan today does not shout 'demons out' but 'fortune in'. | 現在でも節分豆まき式では『鬼は外』とは言わず、『福は内』の掛け声で豆まきが行われます。 |
 
 
 ## akuro-o — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -352,28 +347,31 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | akuro-o-c02 | exact | ja.wikipedia.org | Eastern accounts name either Yoritsune or the Tamuramaro–Toshihito pair as his conquerors. | 鎌倉時代以降、鹿島神宮や鎌倉幕府など東国社会の文献にその名前が登場し、『鹿島神宮文書』では「悪来王」が藤原頼経によって討たれたとあり、『吾妻鏡』では「悪路王」は蝦夷（えみし）の賊首で赤頭とともに坂上田村麻呂と藤原利仁によって征伐されたとある。 |
 | akuro-o-c03 | exact | ja.wikipedia.org | Otogizōshi tales recast him as an oni defeated by Fujiwara Toshihito. | これら東国社会の伝承が平安京に持ち込まれると室町物語（御伽草子）の成立に多大な影響を与え、特に『吾妻鏡』での記述は室町時代に成立した『鈴鹿の物語』など田村語りの世界へと引き継がれ、悪路王は御伽草子の登場人物である藤原俊仁によって討たれる鬼として描かれた。 |
 | akuro-o-c04 | exact | ja.wikipedia.org | Folklore and historical scholarship disagree over associating him with the historical Aterui. | また、民俗学からは歴史上の人物であるアテルイと悪路王を同一視する論説やモチーフとなって悪路王伝説が生まれたとする論説がある一方で、歴史学からは後世に創出された伝説であるため史料とは認められず俗説にすぎないとする論説もあり、見解が分かれている。 |
+| akuro-o-c05 | exact | www.nichibun.ac.jp | A Nichibunken summary of a Kashima tradition in Fukushima describes a great chieftain of the eastern barbarians called Daiokuten Daimaō (Akuroō) who feigned surrender to Ame no Tarashiwake no Mikoto and tried to burn him on a sandbar in Chigo-numa. | 昔、この地に大六天大魔王（悪路王）と呼ばれる東夷の巨魁がいた。天足別命が東下したとき、その勢力に押され、降伏と見せかけ大川（真野川）の中州にある稚児沼に天足別命をおびきだし、四方から火をかけて殺そうとした。 |
+| akuro-o-c06 | exact | www.nichibun.ac.jp | A Nichibunken summary of a Fukushima prefectural history says Sakanoue no Tamuramaro subdued Akuroō at the Tatsukoku cave, then made a Buddha image from a sacred tree that glowed every night in the Shinobu mountains and enshrined it there. | 坂上田村麻呂が田谷窟の悪路王を征討し、その際に信夫山中の毎夜光る霊木をもって仏像を造り、その地に祀った。 |
+| akuro-o-c07 | exact | www.town.shirosato.lg.jp | The Shirosato Town Board of Education records a tradition that the carved 'Akuroō mask' at a Kashima shrine is a wooden copy of the head of an Emishi chieftain (called Aterui (Akuroō), or also Takamaru) killed by Tamuramaro, the original having been a mummy. | 延暦年間坂上田村麻呂が蝦夷討伐の折、陸奥国平泉の達谷の窟（一説に下野達谷窟）で 蝦夷の首領アテルイ（悪路王）または高丸ともいわれている者を誅し、凱旋の途中、携えてきた首級を納めた。最初はミイラであったが、これを模して作った木製の首がこの面形であると伝えられている。 |
+| akuro-o-c08 | exact | kotobank.jp | A Japanese biographical dictionary classes Akuroō as an Emishi chieftain of the early Heian period based at the Tatsukoku cave in Mutsu, said to have been defeated by Sakanoue no Tamuramaro in the year 801, and said by some to be a legendary form of Aterui. | 平安時代前期の蝦夷(えみし)の族長。 陸奥(むつ)平泉(岩手県)田谷窟(達谷窟)(たつこくのいわや)を拠点とする。延暦(えんりゃく)20年(801)征夷大将軍坂上田村麻呂とたたかい,敗れたという。阿弖流為(あてるい)が伝説化された人物ともいわれる。 |
 
 
 ## akuruo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | akuruo-c01 | exact | ja.wikipedia.org | Akuruō is a legendary Emishi chief or oni of Mount Kano, defeated by Yamato Takeru. | 阿久留王（あくるおう）は、上総国の鹿野山を拠点とした蝦夷の首長、もしくは鬼。ヤマトタケルによって討たれたと伝わる。 |
 | akuruo-c03 | exact | ja.wikipedia.org | A Jinyaji tradition worships him through Gundari Myōō to avert his posthumous curse. | 『房総志料 続編』 鹿野山神野寺の本尊薬師如来の左に並ぶ軍荼利明王は、討たれた悪褸王が後世に祟りをなさぬように祀ったものである。 |
 | akuruo-c04 | exact | ja.wikipedia.org | Stories connect his six-handed alias and his retreat with local village and mountain names. | 悪褸王は別名を六手王といい、生まれたところは「六手村」と名づけられた。 鹿野から木村に下る西の方の山は「鬼泪山」といい、ヤマトタケルに追い立てられた賊鬼が泣く泣く立ち退いたことに由来する。 |
+| akuruo-c05 | exact | www.city.kimitsu.lg.jp | The official Kimitsu City site says Akuruō is considered a local chieftain who lost a battle with Yamato Takeru and whose torso is said to have been buried at that spot. | 阿久留王 かつてこの地方一帯を治めていた豪族であるとされ、 日本武尊との戦いに敗れ、この地にその胴を埋められたと伝わっています。 |
+| akuruo-c06 | exact | www.city.kimitsu.lg.jp | According to the same site, Gundari Myōō, one of the principal images of Jinnoji temple on Mount Kano, is regarded as a manifestation (suijaku) of Akuruō, with a service held on the 13th of each month at 9:30. | 聖徳太子により建寺された鹿野山神野寺では軍荼利明王（ぐんだりみょうおう）と薬師如来を本尊としており、 軍荼利明王はこの阿久留王が垂迹（すいじゃく）したものとして、毎月十三日の九時三十分より法要が行われています。 |
 
 
 ## ama-no-kantama-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -381,27 +379,27 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ama-no-kantama-no-mikoto-c02 | exact | ja.wikipedia.org | He is one of Nigihayahi’s thirty-two accompanying guardians and an ancestor of the Mishima chiefs. | 『先代旧事本紀』天神本紀によれば、饒速日命の防衛（ふせぎまもり）として随伴して天降った三十二人のうちの一柱とされ、三嶋県主らの祖とされる。 |
 | ama-no-kantama-no-mikoto-c03 | exact | ja.wikipedia.org | Another section names Kamimusubi as his parent and the Kadono Kamo chiefs as descendants. | 『先代旧事本紀』神代本紀（神代系紀）においては神皇産霊尊の子、葛野鴨県主らの祖とされている。 |
 | ama-no-kantama-no-mikoto-c04 | exact | ja.wikipedia.org | The text also includes a similarly named Amanokamitama with a separate alias and shared clan ancestry. | 饒速日命の防衛（ふせぎまもり）として随伴して天降った三十二人には他に天神魂命という神もいて、別名は三統彦命とされる。天神玉命と同じく葛野鴨県主らの祖とされている。 |
+| ama-no-kantama-no-mikoto-c05 | exact | zh.wikisource.org | In the Divine Age section of the Sendai Kuji Hongi, Ame no Kantama is listed among the offspring of Kamimusubi with a note that he is ancestor of the Kazuno Kamo agatanushi. | 次，神皇產靈尊。〈亦云，神魂尊。〉 兒，天御食持命。〈紀伊直等祖。〉 次，天道根命。〈川瀨造等祖。〉 次，天神玉命。〈葛野鴨縣主等祖。〉 |
+| ama-no-kantama-no-mikoto-c06 | exact | zh.wikisource.org | In the Sendai Kuji Hongi's list of thirty-two who descended to serve as guards, Ame no Kantama is named ancestor of the Mishima agatanushi. | 令三十二人並為防衛，天降供奉矣。 天香語山命，尾張連等祖。 天鈿女命，猿女君等祖。 天太玉命，忌部首等祖。 天兒屋命，中臣連等祖。屋，此下前本有根字。 天櫛玉命，鴨縣主等祖。 天道根命，川瀨造等祖。 天神玉命，三嶋縣主等祖。 |
 
 
 ## amatsukunitama — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | amatsukunitama-c01 | exact | ja.wikipedia.org | Amatsukunitama is a Japanese deity and father of Ame no Wakahiko. | 天津国玉神（あまつくにたまのかみ）は、日本神話に登場する神。天若日子の父神である。 |
 | amatsukunitama-c02 | exact | ja.wikipedia.org | His son is sent from Takamagahara to pacify Ashihara no Nakatsukuni. | 葦原中国平定において、地上世界である葦原中国を天津神の御子が治めるに当たり、これを平定するために高天原から遣わされた天若日子の父神として登場する。 |
+| amatsukunitama-c03 | exact | kojiki.kokugakuin.ac.jp | The Kokugakuin University Kojiki database of deity names summarises Amatsukunitama as Ame no Wakahiko's father, who came down from heaven to hold the funeral when his son died. | 梗概 天若日子の父。天若日子の死に際して、天から降ってきて葬儀を行った。 |
+| amatsukunitama-c04 | exact | kojiki.kokugakuin.ac.jp | The same database records an interpretation that the name means a spirit-deity of heaven, the counterpart of Utsushikunitama, another name of Ōkuninushi. | 諸説 天上の精霊たる神の意で、大国主神の亦名である宇都志国玉神に対する神であるという。 |
+| amatsukunitama-c05 | exact | zh.wikisource.org | In the Kojiki, when the gods ask whom to send to Ashihara no Nakatsukuni, Omoikane answers that the son of Amatsukunitama, Ame no Wakahiko, should be sent. | 亦使何神之吉？」尒思金神答白：「可遣天津國玉神之子，天若日子。」 |
+| amatsukunitama-c06 | exact | zh.wikisource.org | In the Kojiki, Amatsukunitama, Ame no Wakahiko's father, and his wife and children hear the weeping from heaven, come down in grief, and build a mourning house on the spot. | 於是在天，天若日子之父天津國玉神，及其妻子聞而降來哭悲。乃於其處作喪屋 |
 
 
 ## ame-no-hi-no-mitama-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -409,6 +407,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-hi-no-mitama-no-mikoto-c02 | exact | ja.wikipedia.org | The Sendai Kuji Hongi makes him Nigihayahi’s attendant and ancestor of Tsushima chiefs. | 『先代旧事本紀』「天神本紀」によれば、饒速日命に従って天降った32人のうちの1人とされ、対馬県主らの祖であるとされる。 |
 | ame-no-hi-no-mitama-no-mikoto-c03 | exact | ja.wikipedia.org | A Nihon Shoki sun-god oracle through Abe no Kotoshiro is interpreted as his manifestation. | 『日本書紀』顕宗天皇紀では、阿閉事代に「日神」が憑依し、「磐余（現在の奈良県）の田を高皇産霊に献上しろ」と宣託をし、後に対馬下県直に祀らせたというが、この話に登場する「日神」は天日神命のことであるとされる。 |
 | ame-no-hi-no-mitama-no-mikoto-c04 | exact | ja.wikipedia.org | Interpretations connect his worship with Amateru and Konoshima shrines. | そして、対馬県主が天日神命を対馬において祀ったのが阿麻氐留神社、畿内において祀ったのが木嶋坐天照御魂神社、天日神命の祖・高皇産霊を祀ったのが目原坐高御魂神社であると考えられている。 |
+| ame-no-hi-no-mitama-no-mikoto-c05 | exact | zh.wikisource.org | In the Sendai Kuji Hongi list, Ame no Hi no Mikoto is named ancestor of the Tsushima agatanushi, with an annotation that this deity is not the great deity of Ise but a descendant of Takamimusubi. | 天神魂命，葛野鴨縣主等祖。亦云，三統彥命。 天三降命，豐國宇佐國造等祖。 天日神命，對馬縣主等祖。淡島社司紀如尚云天日神命者，非伊勢大神，蓋是高皇產靈裔神也。 |
+| ame-no-hi-no-mitama-no-mikoto-c06 | exact | zh.wikisource.org | In the Nihon Shoki, the sun god (Hi no Kami) possessed a person and asked Abe no Omi Kotoshiro to give the Iware field to his ancestor Takamimusubi; after it was reported, fourteen chō of field were offered and Tsushima Shimoagata no Atai served at the rite. | 夏四月丙辰朔庚申。日神著人。謂阿閇臣事代曰。以磐余田獻我祖高皇産靈。事代便奏。依神乞獻田十四町。對馬下縣直侍祠。 |
 
 
 ## ame-no-hibaraooshinadomi-no-kami — lulus-otomatis

@@ -1,31 +1,28 @@
 {
   "batch_id": "batch-060",
-  "checked_at": "2026-10-01T08:19:57.084Z",
+  "checked_at": "2026-10-07T06:05:15.282Z",
   "files": [
     "batch-060.md",
     "batch-060-fix-1.md",
     "batch-060-fix-2.md",
-    "batch-060-fix-3.md"
+    "batch-060-fix-3.md",
+    "batch-060-fix-4.md",
+    "batch-060-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "wd-q119097296",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "fe9f2d2581152f1b05fbf8313a4ebd569f07584f0cd79b7cc3abec105a735ec3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q119097296-c01",
@@ -66,26 +63,41 @@
           "quote": "郭璞による『山海経』海外南経の寿華の野に付けられている注によると、鑿歯人（さくしじん）と称される伝説上の人種がいたとされている。鑿歯人の歯は鑿のように長いという。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q119097296-c05",
+          "source_id": "wd-q119097296-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Huainanzi, Zaochi is among the creatures that harmed the people in Yao's time, and Yao sent Yi to kill Zaochi in the Chouhua field.",
+          "statement_id": "Dalam Huainanzi, Zaochi termasuk makhluk yang mencelakai rakyat pada masa Yao, dan Yao menyuruh Yi membunuh Zaochi di ladang Chouhua.",
+          "quote": "猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。堯乃使羿誅鑿齒于疇華之野",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q119097296-c06",
+          "source_id": "wd-q119097296-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Classic of Mountains and Seas, Yi fought Zaochi in the Shouhua field and shot him dead; Yi held a bow and arrows, Zaochi a shield.",
+          "statement_id": "Menurut Kitab Gunung dan Laut (Shanhaijing), Yi bertempur dengan Zaochi di ladang Shouhua dan memanahnya hingga mati; Yi membawa busur dan anak panah, Zaochi membawa perisai.",
+          "quote": "羿與鑿齒戰于壽華之野，羿射殺之。在昆侖虛東。羿持弓矢，鑿齒持盾。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q119984387",
-      "file": "batch-060-fix-1.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "e0807ffae6d26c1cdd183f6fb687866033de38b55cdcabe39e59604a14964ba8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q119984387-c01",
@@ -105,6 +117,46 @@
           "statement_id": "Suara mirip angsa dan kemunculannya terkait dengan kekeringan.",
           "quote": "獙獙（へいへい）は『山海経』に記載された古代中国の妖怪。 有翼の狐のような姿をした獣であり、鳴き声は大きな雁のようでその姿を見ることは旱魃の兆しであると言われている。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q119984387-c03",
+          "source_id": "wd-q119984387-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Classic of Mountains and Seas, on Mount Gufeng, which has no grass or trees and abundant gold and jade, there is a beast shaped like a fox with wings.",
+          "statement_id": "Dalam Kitab Gunung dan Laut, di Gunung Gufeng yang tanpa rumput dan pohon serta kaya emas dan batu giok terdapat binatang berbentuk seperti rubah yang bersayap.",
+          "quote": "又南三百里，曰姑逢之山，無草木，多金玉。有獸焉，其狀如狐而有翼",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q119984387-c04",
+          "source_id": "wd-q119984387-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Classic of Mountains and Seas names the beast Bibi, with a voice like a wild goose, and says that when it appears the land suffers a great drought.",
+          "statement_id": "Kitab Gunung dan Laut menyebut binatang itu bernama Bibi, bersuara seperti angsa liar besar, dan kemunculannya membuat seluruh negeri dilanda kekeringan besar.",
+          "quote": "有獸焉，其狀如狐而有翼，其音如鴻鴈，其名曰獙獙，見則天下大旱。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q119984387-c05",
+          "source_id": "wd-q119984387-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Siku Quanshu edition has the same sentence about the beast Bibi and adds an annotation that its name is pronounced like 斃.",
+          "statement_id": "Edisi Siku Quanshu memuat kalimat yang sama tentang binatang Bibi dan menambahkan catatan bahwa namanya dilafalkan seperti 斃.",
+          "quote": "有獸焉其狀如狐而有翼其音如鴻鴈其名曰獙獙〈音斃〉見則天下大旱",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q119984387-c06",
+          "source_id": "wd-q119984387-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia notes that Bibi also appears in the late Qing long novel Hushan ji.",
+          "statement_id": "Wikipedia Mandarin mencatat bahwa Bibi juga muncul dalam novel panjang akhir Dinasti Qing berjudul Hushan ji.",
+          "quote": "记载于《山海经·山经·东次二经》，清末長篇小說《笏山记》也有獙獙。",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -182,24 +234,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bbc829b6a2c1e1bfc285828ecc253791a2dcfa87d312316388cdb734bf25f5e9"
     },
     {
       "slug": "wd-q17024925",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "bc6838a035fcbe711a1226aa0c7690a93b608d020557ef15d5af5311e099d6e5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q17024925-c01",
@@ -240,26 +288,41 @@
           "quote": "また、江戸時代後期の随筆『想山著聞奇集』に記されている「山𤢖（やまおとこ）の事」によれば、同じく木曽で、ある木こりが早朝に山に入り、物を割るような音が響いたので振り返ると、真っ黒い大きな体で薄赤い顔に茶碗ほどの大きさの目が白く光るものが立っていた。木こりは山小屋へ逃げ込んだが、そのまま3日間寝込んでしまったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q17024925-c05",
+          "source_id": "wd-q17024925-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shenyijing records a human-shaped being in the deep western mountains that goes bare-bodied, catches shrimp and crabs, does not fear people, and roasts its catch at the fire of people who camp there.",
+          "statement_id": "Kitab Shenyijing mencatat makhluk berwujud manusia di pegunungan dalam di barat; ia bertubuh telanjang, menangkap udang dan kepiting, tidak takut manusia, dan memanggang tangkapannya di dekat api orang yang bermalam.",
+          "quote": "西方深山中有人焉，身長尺餘，袒身，捕蝦蟹。性不畏人，見人止宿，暮依其火以炙蝦蟹。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17024925-c06",
+          "source_id": "wd-q17024925-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the same text the being is named Shansao (山臊); bamboo thrown on a fire so that it bursts frightens it, and offending it gives a person chills and fever.",
+          "statement_id": "Dalam teks yang sama makhluk itu bernama Shansao (山臊); bambu yang dibakar hingga meletus membuatnya terkejut dan takut, dan menyinggungnya membuat orang menderita demam dan menggigil.",
+          "quote": "名曰山臊。其音自叫。人嘗以竹著火中，爆烞而出，臊皆驚憚。犯之令人寒熱。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q17030967",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "0b345642cb97701c10d17d6e78cb7450b843fdd938504dd8c2e2639025663519",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q17030967-c01",
@@ -299,6 +362,36 @@
           "statement_id": "Yi mengalahkan monster pemakan manusia atas perintah Yao.",
           "quote": "人を襲っては喰い、堯の命を受けた弓の名手の羿（げい）によって退治された。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17030967-c05",
+          "source_id": "wd-q17030967-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Classic of Mountains and Seas (Northern Mountains), Yayu is a beast shaped like an ox with a red body, human face and horse feet; its cry is like an infant's and it eats people.",
+          "statement_id": "Dalam Kitab Gunung dan Laut (bagian Gunung Utara), Yayu adalah binatang berbentuk seperti sapi dengan tubuh merah, wajah manusia, dan kaki kuda; suaranya seperti bayi dan ia memakan manusia.",
+          "quote": "有獸焉，其狀如牛，而赤身、人面、馬足，名曰窫窳，其音如嬰兒，是食人。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17030967-c06",
+          "source_id": "wd-q17030967-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Western Interior section, the shamans Wupeng, Wudi, Wuyang, Wulü, Wufan and Wuxiang flank Yayu's corpse holding medicine of immortality; the text says Yayu has a serpent body and human face and was killed by Erfu's minister.",
+          "statement_id": "Dalam bagian Laut Dalam Barat, para dukun Wupeng, Wudi, Wuyang, Wulü, Wufan, dan Wuxiang mengapit jasad Yayu sambil memegang obat tak-mati; teks itu menyebut Yayu bertubuh ular dan berwajah manusia, dibunuh oleh menteri Erfu.",
+          "quote": "開明東有巫彭、巫抵、巫陽、巫履、巫凡、巫相，夾窫窳之尸，皆操不死之藥以距之。窫窳者，蛇身人面，貳負臣所殺也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17030967-c07",
+          "source_id": "wd-q17030967-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi lists Yayu (written 猰貐) among the creatures that harmed the people in Yao's time, and says Yi shot the ten suns and then killed Yayu.",
+          "statement_id": "Huainanzi memasukkan Yayu (ditulis 猰貐) di antara makhluk yang mencelakai rakyat pada masa Yao, dan mengatakan bahwa Yi memanah sepuluh matahari lalu membunuh Yayu.",
+          "quote": "猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。堯乃使羿誅鑿齒于疇華之野，殺九嬰于凶水之上，繳大風於青丘之澤，上射十日而下殺猰貐",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -376,24 +469,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ce1079308f0a1fdbeb10e1e8839f7fad1e999107d439bd732ceb8764bb06c8b2"
     },
     {
       "slug": "wd-q20043329",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "3d5d1eeeabe85aa132b890fbfac0e4b69bd11a1ccab8f29fa200ac9c3815985e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q20043329-c01",
@@ -434,26 +523,51 @@
           "quote": "疫鬼のような病をもたらす存在には、山野に棲んでいる精霊や死後に冥界と現世の中間あたりをさまよっている野鬼たちがなると考えられており、供物や儀式で回復を願ったり、呪物やお札を使用することで予防をする年中行事などが伝承されていた。仏教的な行事である盂蘭盆会（うらぼんえ）や水陸会（すいりくえ）でも、数々の鬼（霊）たちに疫鬼たちも含まれ、その行動を鎮めるための季節ごとの儀式などが行われていた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q20043329-c05",
+          "source_id": "wd-q20043329-s2",
+          "host": "kotobank.jp",
+          "statement": "The Digital Daijisen dictionary defines ekiki (疫鬼) as an evil deity said to spread epidemics, a plague god.",
+          "statement_id": "Kamus Digital Daijisen mendefinisikan yakki (疫鬼) sebagai dewa jahat yang konon menyebarkan wabah penyakit, yaitu dewa wabah.",
+          "quote": "えき‐き【疫鬼】 疫病をはやらせるという悪神。疫病神。 出典 小学館デジタル大辞泉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q20043329-c06",
+          "source_id": "wd-q20043329-s2",
+          "host": "kotobank.jp",
+          "statement": "The Nihon Kokugo Daijiten (selected edition) gives a similar definition: an evil deity said to make epidemics spread.",
+          "statement_id": "Kamus Nihon Kokugo Daijiten (edisi pilihan) memberi definisi serupa: dewa jahat yang konon membuat wabah merebak.",
+          "quote": "えき‐き【疫鬼】 〘 名詞 〙 疫病を流行させるという悪神。やくびょうがみ。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q20043329-c07",
+          "source_id": "wd-q20043329-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Lunheng quotes the Li (Rites): the three sons of Zhuanxu who were lost at birth became plague demons (yigui); one dwelt in the Jiang river as the Nue demon, one in the Ruo river as the Wangliang demon, and one in the corners of people's houses, fond of frightening small children.",
+          "statement_id": "Lunheng mengutip kitab Li: tiga putra Zhuanxu yang meninggal sejak lahir menjadi hantu wabah (yigui); satu tinggal di Sungai Jiang menjadi hantu Nue, satu di Sungai Ruo menjadi hantu Wangliang, dan satu di sudut ruang rumah orang dan suka mengagetkan anak kecil.",
+          "quote": "《禮》曰：「顓頊氏有三子，生而亡去為疫鬼：一居江水，是為虐鬼；一居若水，是為魍魎鬼；一居人宮室區隅漚庫，善驚人小兒。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q22098758",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "64f82a55d024978852e8676bc41c7168b4cc6a7368d1862bc734aefd9e0d1c93",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22098758-c01",
@@ -484,26 +598,51 @@
           "quote": "李化竜は石を持って化け物の口を割り、化け物は逃げ、路上に大量の血を流した。その血のなかから見つかったのは、長さ四寸ばかりの怪物の歯で、中間はわずかに曲がっており、一方の歯は鋭くとがっていた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22098758-c04",
+          "source_id": "wd-q22098758-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In Pu Songling's tale Yegou, headless and armless corpses suddenly stand up; one says 'The Yegouzi is coming, what shall we do?' and the other corpses answer in kind.",
+          "statement_id": "Dalam kisah Yegou karya Pu Songling, mayat-mayat tanpa kepala atau lengan tiba-tiba berdiri; salah satunya berkata, 'Yegouzi datang, bagaimana?', dan mayat-mayat lain menyahut dengan kata yang sama.",
+          "quote": "忽見闕頭斷臂之尸，起立如林。內一尸斷首猶連肩上，口中作語曰：「野狗子來，奈何？」群尸參差而應曰：「奈何！」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22098758-c05",
+          "source_id": "wd-q22098758-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Then something with a beast's head and a human body arrives, gnaws the corpses' heads and sucks out their brains.",
+          "statement_id": "Kemudian datang sesuatu berkepala binatang dan bertubuh manusia yang menggigit kepala-kepala mayat dan menghisap otaknya.",
+          "quote": "俄頃，蹶然盡倒，遂寂無聲。李方驚顫欲起，有一物來，獸首人身，伏嚙人首，遍吸其腦。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22098758-c06",
+          "source_id": "wd-q22098758-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The creature howls like an owl, covers its mouth in pain and flees; the two teeth found in its blood are curved in the middle and sharp at the tip, and the people shown them did not know what it was.",
+          "statement_id": "Makhluk itu melolong seperti burung hantu, menutup mulutnya karena sakit dan lari; dua gigi yang ditemukan dalam darahnya melengkung di tengah dan runcing di ujung, dan orang-orang yang melihatnya tidak tahu makhluk apa itu.",
+          "quote": "物嗥如鴟，掩口負痛而奔，吐血道上。就視之，于血中得二齒，中曲而端銳，長四寸余。懷歸以示人，皆不知其何物也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q22098849",
-      "file": "batch-060-fix-1.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "7f8c4334002f79fa0dc4a1ad3813ea9c97663f30cad3906c4b89b35271f6937b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q22098849-c01",
@@ -511,9 +650,9 @@
           "host": "ja.wikipedia.org",
           "statement": "Kinkabyō is a cat yōkai associated with Jinhua in Zhejiang.",
           "statement_id": "Kinkabyō adalah yōkai kucing yang terkait dengan Jinhua di Zhejiang.",
-          "quote": "「金華の猫」とも呼ばれるこの妖怪は、浙江省金華の猫に纏わるものである。水木しげるは著書『水木しげるの中国妖怪事典』で、「金華の猫」名義で、これを紹介する際に、特徴その他から「憑き物」である可能性を示唆している。",
+          "quote": "「金華の猫」とも呼ばれるこの妖怪は、浙江省金華の猫に纏わるものである。",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "wd-q22098849-c02",
@@ -544,26 +683,51 @@
           "quote": "金華府の学府に通う張広文の18才の娘は、猫の妖怪に襲われて、頭髪が抜け落ちてしまったが、オスを捕まえて彼女自身を治させ、病を克服した。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q22098849-c05",
+          "source_id": "wd-q22098849-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the tale Zhoushi mai hua, a flour seller named Yu names the cause of a girl's haunting a 'maoxiao' (貓魈, cat xiao), then performs a rite and cuts off its head with a sword.",
+          "statement_id": "Dalam kisah Zhoushi mai hua, seorang penjual tepung bernama Yu menyebut penyebab gangguan terhadap seorang gadis sebagai 'maoxiao' (貓魈, kucing xiao), lalu melakukan ritual dan memenggal kepalanya dengan pedang.",
+          "quote": "羽曰：「此貓魈也，明日當奉為行誅。」至期，周備酒殽香楮延致，羽布氣步罡。少時女已振恐，羽運法，劍斬其首",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22098849-c06",
+          "source_id": "wd-q22098849-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The girl described her visitor as a young man of extraordinary appearance, in a fur robe and riding a horse, who at once supplied all the food and drink needed and sang and laughed like an ordinary person.",
+          "statement_id": "Gadis itu menceritakan bahwa yang mendatanginya adalah seorang pemuda berwajah luar biasa, berjubah bulu dan menunggang kuda, yang segera menyediakan segala makanan dan minuman yang diperlukan serta bernyanyi dan tertawa seperti manusia biasa.",
+          "quote": "一少年，狀貌奇偉，著裘乘馬而來。兩絳蠟導前，笙簫隨後，凡飲食所須，應聲卽辦。謳吟笑語，與人不殊。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22098849-c07",
+          "source_id": "wd-q22098849-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Yuan Mei's Xu Zibuyu likens the 'lulang' and 'hongniang' spirits that bring incurable illness to the maoxiao of Jinhua, calling them a kind of demon-spirit.",
+          "statement_id": "Xu Zibuyu karya Yuan Mei menyamakan arwah 'lulang' dan 'hongniang' yang membawa penyakit tak tersembuhkan dengan maoxiao dari Jinhua, dan menyebutnya sejenis roh siluman.",
+          "quote": "有犯者須齋醮禱祀驅之。倘男犯綠郎，女犯紅娘，其病不救，蓋亦妖鬼，猶金華之貓魈。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q28415958",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "57267ea88aca9fbf8f245644fbfffa69b4c87bc62d262c416466294b5d6d20a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q28415958-c01",
@@ -594,26 +758,51 @@
           "quote": "而在綠島另有說法認為地牛不止一隻，而地震是因為地牛互相打鬥而引起的，所以居民會拿金屬製的臉盆敲打以分開牠們。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q28415958-c04",
+          "source_id": "wd-q28415958-s2",
+          "host": "ihc.cip.gov.tw",
+          "statement": "In earthquake-prone Taiwan, the common earthquake myth says a giant earth ox lives underground and shakes the ground when it turns over.",
+          "statement_id": "Di Taiwan yang sering gempa, mitos gempa yang umum menceritakan bahwa di bawah tanah hidup seekor sapi tanah raksasa yang menggoyangkan permukaan bumi ketika berbalik badan.",
+          "quote": "在地震頻繁的臺灣地區，普遍的地震神話述說在地底下住著一頭巨大的地牛，當牠翻身的時候，就會引起地面的震動。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28415958-c05",
+          "source_id": "wd-q28415958-s2",
+          "host": "ihc.cip.gov.tw",
+          "statement": "Earthquake myths among Taiwan's Indigenous peoples are highly varied; the most common has the earth-bearer shaking its body or shifting shoulders when tired, for example animals in the ground such as bear, deer, eel (crab), snake and ox.",
+          "statement_id": "Mitos gempa di kalangan masyarakat adat Taiwan sangat beragam; yang paling umum ialah penopang bumi yang menggerakkan tubuh atau berganti bahu karena lelah, misalnya hewan di dalam tanah seperti beruang, rusa, belut (kepiting), ular, dan sapi.",
+          "quote": "在臺灣原住民地區流傳的地震神話則有非常多樣的情節，最常見的是大地支撐者身體搖動或是累了換肩時會引發地震，如地中有熊、鹿、鰻（蟹）、蛇、牛等動物",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q28415958-c06",
+          "source_id": "wd-q28415958-s3",
+          "host": "pweb.cwa.gov.tw",
+          "statement": "In a popular-science article by Taiwan's Central Weather Administration, a character recalls her grandmother saying a great earth ox lives underground; when it occasionally stretches, small quakes are felt, and when it turns over a large earthquake is coming.",
+          "statement_id": "Dalam artikel sains populer Badan Cuaca Pusat Taiwan, seorang tokoh mengingat neneknya berkata bahwa seekor sapi tanah besar hidup di bawah tanah; bila ia sesekali meregangkan badan terasa gempa kecil, dan bila ia berbalik badan akan terjadi gempa besar.",
+          "quote": "「我小的時候，阿嬤跟我說地底下住著一頭大地牛，地牛偶爾伸個懶腰，住在上面的人們就會感受到有小地震，如果地牛一翻身，就是要發生大地震了。」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q30926111",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "0d07e2cbdeea1f020482c80d0f8aa819759b7251275b10177789cbfaefbaae2c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q30926111-c01",
@@ -654,26 +843,51 @@
           "quote": "しかし鬼の子である小綱は成長に従い、諸々の問題から（食人衝動を抑えられないことを自覚し）人と暮らせず、里を追われた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q30926111-c05",
+          "source_id": "wd-q30926111-s2",
+          "host": "crd.ndl.go.jp",
+          "statement": "A library reference record describes the folktale 'Oni no ko Kozuna' as containing a 'flower' that signals the number of humans present.",
+          "statement_id": "Catatan rujukan perpustakaan menggambarkan dongeng 'Oni no ko Kozuna' sebagai memuat sebuah 'bunga' yang memberi tahu jumlah manusia yang ada di tempat itu.",
+          "quote": "日本の昔話「鬼の子小綱」に出てくる、そこにいる人間の数を知らせる“花”が、椿の花となっている話がみたい。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q30926111-c06",
+          "source_id": "wd-q30926111-s2",
+          "host": "crd.ndl.go.jp",
+          "statement": "The library notes that in the versions it consulted the flower was always a chrysanthemum, while the 'camellia' entry in the Nihon mukashibanashi jiten says a camellia appears in Oni no ko Kozuna.",
+          "statement_id": "Perpustakaan itu mencatat bahwa dalam versi-versi yang ditinjau bunganya selalu krisan, sementara entri 'camellia' dalam Nihon mukashibanashi jiten menyebut kamelia muncul dalam Oni no ko Kozuna.",
+          "quote": "どれも花＝菊であった。 参考資料４『日本昔話事典』の「椿」「人花（ひとばな）」の項目を紹介した。 「椿」には鬼の子小綱に椿が出てくる旨が書かれている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q30926111-c07",
+          "source_id": "wd-q30926111-s3",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia classes 'Oni no ko Kozuna' as a tale type in which the girl's father or his helper goes to rescue her, sometimes attached to 'snake bridegroom' water-begging tales.",
+          "statement_id": "Ensiklopedia Heibonsha menggolongkan 'Oni no ko Kozuna' sebagai tipe dongeng tempat ayah gadis itu atau penolongnya pergi menyelamatkannya, yang kadang menyertai dongeng 'pengantin ular' bertipe permohonan air.",
+          "quote": "娘の父やその援助者が娘を救出しに行く〈鬼の子小綱（こづな）〉型の昔話をともなっているものもある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q9384719",
-      "file": "batch-060-fix-2.md",
+      "file": "batch-060-fix-4.md",
+      "entry_sha256": "12dfe3918dc16a9bc74761cd9bc609e439928e7c599671293c5f7f49409dc501",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9384719-c01",
@@ -704,26 +918,51 @@
           "quote": "羿は九嬰を退治した帰路、奚禄山という山が自然に崩れて、その中から美しい玉扳指（玉で出来た弓懸）が現われた。これを入手後、羿の弓の威力は更に高まったとされる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q9384719-c04",
+          "source_id": "wd-q9384719-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi lists Jiuying among the creatures that harmed the people in Yao's time, when ten suns rose together and the people had no food.",
+          "statement_id": "Huainanzi menyebut Jiuying termasuk makhluk yang mencelakai rakyat pada masa Yao, ketika sepuluh matahari terbit bersamaan dan rakyat kekurangan makanan.",
+          "quote": "逮至堯之時，十日並出，焦禾稼，殺草木，而民無所食。猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384719-c05",
+          "source_id": "wd-q9384719-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Huainanzi, Yao sent Yi to kill Jiuying above the Xiong river.",
+          "statement_id": "Menurut Huainanzi, Yao menyuruh Yi membunuh Jiuying di tepi Sungai Xiong.",
+          "quote": "堯乃使羿誅鑿齒于疇華之野，殺九嬰于凶水之上，繳大風於青丘之澤",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9384719-c06",
+          "source_id": "wd-q9384719-s3",
+          "host": "kotobank.jp",
+          "statement": "The Jitsū dictionary defines Jiuying (九嬰) as a demon of water and fire.",
+          "statement_id": "Kamus Jitsū mendefinisikan Jiuying (九嬰) sebagai siluman air dan api.",
+          "quote": "「九嬰」の読み・字形・画数・意味 【九嬰】きゆうえい 水火の妖。 字通「九」の項目を見る。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q9393861",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "8decdfff72e6b237bc8ed65019b835711749eba6ac00240a3d0936fcbf6e16c9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q9393861-c01",
@@ -763,6 +1002,36 @@
           "statement_id": "Namanya juga muncul sebagai istilah sastra untuk ular besar.",
           "quote": "また、巨大な蛇（大蛇）を示す単語としても使われており、「猛虎修蛇」などの字句が見られる。",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9393861-c05",
+          "source_id": "wd-q9393861-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi lists Xiushe (修蛇) among the creatures that harmed the people in Yao's time.",
+          "statement_id": "Huainanzi menyebut Xiushe (修蛇) termasuk makhluk yang mencelakai rakyat pada masa Yao.",
+          "quote": "逮至堯之時，十日並出，焦禾稼，殺草木，而民無所食。猰貐、鑿齒、九嬰、大風、封豨、修蛇皆為民害。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9393861-c06",
+          "source_id": "wd-q9393861-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Huainanzi, Yi cut down Xiushe at Dongting, and all the people rejoiced.",
+          "statement_id": "Menurut Huainanzi, Yi memotong Xiushe di Dongting, dan seluruh rakyat bergembira.",
+          "quote": "上射十日而下殺猰貐，斷修蛇於洞庭，禽封豨于桑林，萬民皆喜，置堯以為天子。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9393861-c07",
+          "source_id": "wd-q9393861-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Classic of Mountains and Seas, the Ba snake eats an elephant and passes its bones after three years; a gentleman who takes them is free of heart and stomach ailments, and the snake is blue, yellow, red and black.",
+          "statement_id": "Dalam Kitab Gunung dan Laut, ular Ba memakan gajah dan baru mengeluarkan tulangnya setelah tiga tahun; orang berbudi yang memakai tulang itu bebas dari penyakit perut dan dada, dan ular itu berwarna biru, kuning, merah, dan hitam.",
+          "quote": "巴蛇食象，三歲而出其骨，君子服之，無心腹之疾。其為蛇青黃赤黑。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -840,7 +1109,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "96af86565e7e0c29a7df3f1d8a782590eed8f17ac5c2e3e0fe560ae6426a99da"
     },
     {
       "slug": "yashimajinumi-no-kami",
@@ -914,7 +1184,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9839282a64a18811b5de7f31bec972c179a0c50ed5d8cc18489a43a6bda7b825"
     },
     {
       "slug": "yasomagatsuhi-and-omagatsuhi",
@@ -988,7 +1259,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "acce5b29e3458026c922bbf83afe2809fd68125cbe6411b1456ba6dd4802281b"
     },
     {
       "slug": "yume-no-seirei",
@@ -1072,7 +1344,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "44bcdaab7cbc8a0e8a606ab17d168554dd2f6aa968b3a19eaacff9347cf9d804"
     },
     {
       "slug": "zenki-and-goki",
@@ -1156,24 +1429,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8ccd0b0b5e4aa33a10c5dd49017c850a44337430d5ddb8e1adc8f57ef71e135b"
     },
     {
       "slug": "adakayanushitakikihime",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "f5f1c2b6ebb1fd3b6763ea7b25239229436f761be8f81a3f6610baf54bd6cbf3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "adakayanushitakikihime-c01",
@@ -1214,24 +1483,55 @@
           "quote": "カヤの語から『延喜式』巻八に収録されている祝詞「出雲国造神賀詞」に見えるカヤナルミ（賀夜奈流美命）と同一神とする説があり、さらに阿陀加夜努志をカムヤタテヒメ（神屋楯比売）の名から取った大高屋主の意、多伎吉比売を高比売と同義と見て、シタテルヒメとも同一神であるとする説も提示されている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "adakayanushitakikihime-c05",
+          "source_id": "adakayanushitakikihime-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Izumo no kuni fudoki records that Adakayanushi Takikihime no Mikoto, child of the great deity who fashioned the world, resides in Taki village, and that the place was therefore called Taki.",
+          "statement_id": "Fudoki Provinsi Izumo mencatat bahwa di Desa Taki bersemayam Adakayanushi Takikihime no Mikoto, anak dewa agung pembentuk dunia, dan karena itu tempat itu disebut Taki.",
+          "quote": "多伎郷 郡家南西二十里 所造天下大神之御子 阿陀加夜努志 多伎吉比売命坐之 故云多吉神亀三年改字多伎",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "adakayanushitakikihime-c06",
+          "source_id": "adakayanushitakikihime-s3",
+          "host": "www.shimane-jinjacho.or.jp",
+          "statement": "According to the Shimane Prefecture Shrine Agency, a shrine's origin account in Izumo says the place where Princess Takiki resides is called Taki.",
+          "statement_id": "Menurut Badan Kuil Prefektur Shimane, legenda sebuah kuil di Izumo menyatakan bahwa tempat bersemayamnya Putri Takiki disebut Taki.",
+          "quote": "同社縁起によれば、多伎伎姫の鎮座所を多伎と云うとあり、現町名田儀の由来もこれにちなむとみられる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "adakayanushitakikihime-c07",
+          "source_id": "adakayanushitakikihime-s3",
+          "host": "www.shimane-jinjacho.or.jp",
+          "statement": "Takigi Shrine in Izumo city enshrines Takikihime no Mikoto as its chief deity, with the blessing of protection from lightning.",
+          "statement_id": "Kuil Takigi di Kota Izumo memuja Takikihime no Mikoto sebagai dewa utamanya, dengan berkah penolak petir.",
+          "quote": "主祭神 多伎吉比賣命 ふりがな たききひめのみこと 例祭日 10/19 鎮座地 出雲市多伎町口田儀1365番地 御神徳 雷除",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "aizu-hime-no-kami",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "84224df8b742883f15a3462aa96f7887f9a73b6f8a89b6df12d636c2b51b1c92",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1274,26 +1574,31 @@
           "quote": "会津比売神社では建御名方神の子出早雄命の娘とされ、初代科野国造の妻と伝えるが、建御名方神の孫・六老彦神の娘で、兄妹に鴨羽神と草奈井比売神がいるとする系図もある。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "aizu-hime-no-kami-c05",
+          "source_id": "aizu-hime-no-kami-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Nihon Sandai Jitsuroku records that on the first day of the sixth month the unranked goddess Aizuhime (會津比賣神) of Shinano and Kusanaihime were both granted the Junior Fourth Rank, Lower, together with an award to the god Takemizuwake.",
+          "statement_id": "Nihon Sandai Jitsuroku mencatat bahwa pada hari pertama bulan keenam, dewi Aizuhime (會津比賣神) dari Shinano yang belum berpangkat dan Kusanaihime dianugerahi pangkat Juyonmi Ge, bersama anugerah kepada dewa Takemizuwake.",
+          "quote": "六月甲戌朔。授信濃國无位武水別神從二位。无位會津比賣神。草奈井比賣神並從四位下。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "akagashira",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "ebcb59c2528e8b105d3c70b4420eff0f0fa663e11cccab2945377f9fdbd249f6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akagashira-c01",
@@ -1332,6 +1637,26 @@
           "statement": "An Ōfunato tradition uses Akagashira as a collective name.",
           "statement_id": "Tradisi Ōfunato memakai Akagashira sebagai nama kelompok.",
           "quote": "岩手県大船渡市の伝承では、「赤頭」が個人名ではなく集団名とされている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akagashira-c05",
+          "source_id": "akagashira-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia notes that the Azuma Kagami, discussing the Tatsukoku cave, says that during the subjugation of the Emishi by the generals Tamuramaro and Toshihito, the enemy leaders Akuroō, Akagashira and their companions built a stockade in that cave.",
+          "statement_id": "Ensiklopedia Heibonsha mencatat bahwa Azuma Kagami, ketika membahas gua Tatsukoku, menyebut bahwa pada saat penaklukan Emishi oleh jenderal Tamuramaro dan Toshihito, musuh utama Akuroō dan Akagashira dan kawan-kawannya membangun pagar pertahanan di gua itu.",
+          "quote": "《吾妻鏡》は田谷窟（たつこくのいわや）（現，達谷窟）について述べる中に〈田村麿・利仁等の将軍〉が蝦夷征伐のとき，敵主悪路王（あくろおう）・赤頭（あかがしら）たちがこの窟に柵を構えたとし",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akagashira-c06",
+          "source_id": "akagashira-s3",
+          "host": "www.tohokukanko.jp",
+          "statement": "The Tohoku Tourism Promotion Organization says the cave where Takkoku no Iwaya Bishamondō stands is said to have been the stronghold of the Emishi Akuroō, Akagashira and Takamaru, who repeatedly behaved violently there.",
+          "statement_id": "Organisasi Promosi Pariwisata Tohoku menyebut gua tempat Takkoku no Iwaya Bishamondō berdiri konon dahulu merupakan benteng orang Emishi bernama Akuroō, Akagashira, dan Takamaru, yang berulang kali berbuat kekerasan di sana.",
+          "quote": "「達谷窟毘沙門堂」の建つ窟は、かつてこの地で乱暴なふるまいをくり返していた悪路王、赤頭、高丸らの蝦夷が砦を構えていた場所と言われています。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1416,24 +1741,20 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bf6761ca8a0a4177f1cd67ac00935ae8b9ae71e392aef0058286a64fe12412db"
     },
     {
       "slug": "akura-o",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "adbded5eec96f15cc99cb9c6e1e00127d6becf32139957a47193149f0818bdee",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akura-o-c01",
@@ -1474,26 +1795,41 @@
           "quote": "七日七夜に渡る激しい戦いの末に阿久良王は田村麻呂に敗れ、その死の間際にこれまでの悪事を悔い、罪滅ぼしとして瑜伽大権現の神使となり人々を助けたいと改心した。息を引き取った阿久良王は田村麻呂に首を斬られると、金色の光を放って飛び散り、七十五匹の白狐になって瑜伽大権現のお使いとして人々を助けるようになった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akura-o-c05",
+          "source_id": "akura-o-s2",
+          "host": "www.okayama-kanko.jp",
+          "statement": "The Okayama tourism site relates the story that the spirit of an oni subdued by Sakanoue no Tamuramaro turned into seventy-five white foxes that became attendants of Yuga Daigongen and helped common people.",
+          "statement_id": "Situs pariwisata Okayama menyebut kisah bahwa roh oni yang ditumpas Sakanoue no Tamuramaro berubah menjadi tujuh puluh lima rubah putih yang menjadi utusan Yuga Daigongen dan menolong rakyat.",
+          "quote": "時の征夷大将軍・坂上田村麻呂が討伐した鬼の霊が七十五匹の白狐に変わり、由加大権現の眷属として庶民を助ける神様となったとの言い伝えにより",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akura-o-c06",
+          "source_id": "akura-o-s2",
+          "host": "www.okayama-kanko.jp",
+          "statement": "Because of that story, the Setsubun bean-throwing at Yugasan today does not shout 'demons out' but 'fortune in'.",
+          "statement_id": "Karena kisah itu, upacara melempar kacang Setsubun di Yugasan sampai kini tidak berseru 'oni keluar' melainkan 'keberuntungan masuk'.",
+          "quote": "現在でも節分豆まき式では『鬼は外』とは言わず、『福は内』の掛け声で豆まきが行われます。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "akuro-o",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "494765f60f786ce30c6d142b7c693bbf5d652123e81fd65c896231cfa6c743c2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akuro-o-c01",
@@ -1534,24 +1870,65 @@
           "quote": "また、民俗学からは歴史上の人物であるアテルイと悪路王を同一視する論説やモチーフとなって悪路王伝説が生まれたとする論説がある一方で、歴史学からは後世に創出された伝説であるため史料とは認められず俗説にすぎないとする論説もあり、見解が分かれている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "akuro-o-c05",
+          "source_id": "akuro-o-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A Nichibunken summary of a Kashima tradition in Fukushima describes a great chieftain of the eastern barbarians called Daiokuten Daimaō (Akuroō) who feigned surrender to Ame no Tarashiwake no Mikoto and tried to burn him on a sandbar in Chigo-numa.",
+          "statement_id": "Ringkasan Nichibunken tentang tradisi Kashima di Fukushima menyebut seorang pemimpin besar bangsa timur yang disebut Daiokuten Daimaō (Akuroō); ia berpura-pura menyerah kepada Amatarashiwake no Mikoto lalu mencoba membakarnya di pulau pasir Chigo-numa.",
+          "quote": "昔、この地に大六天大魔王（悪路王）と呼ばれる東夷の巨魁がいた。天足別命が東下したとき、その勢力に押され、降伏と見せかけ大川（真野川）の中州にある稚児沼に天足別命をおびきだし、四方から火をかけて殺そうとした。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akuro-o-c06",
+          "source_id": "akuro-o-s3",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A Nichibunken summary of a Fukushima prefectural history says Sakanoue no Tamuramaro subdued Akuroō at the Tatsukoku cave, then made a Buddha image from a sacred tree that glowed every night in the Shinobu mountains and enshrined it there.",
+          "statement_id": "Ringkasan Nichibunken dari sejarah daerah Fukushima menyebut Sakanoue no Tamuramaro menaklukkan Akuroō di gua Tatsukoku, lalu membuat arca Buddha dari kayu suci bercahaya setiap malam di gunung Shinobu dan memujanya di sana.",
+          "quote": "坂上田村麻呂が田谷窟の悪路王を征討し、その際に信夫山中の毎夜光る霊木をもって仏像を造り、その地に祀った。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akuro-o-c07",
+          "source_id": "akuro-o-s4",
+          "host": "www.town.shirosato.lg.jp",
+          "statement": "The Shirosato Town Board of Education records a tradition that the carved 'Akuroō mask' at a Kashima shrine is a wooden copy of the head of an Emishi chieftain (called Aterui (Akuroō), or also Takamaru) killed by Tamuramaro, the original having been a mummy.",
+          "statement_id": "Dewan Pendidikan Kota Shirosato mencatat bahwa menurut tradisi, topeng ukir 'wajah Akuroō' di Kuil Kashima adalah tiruan kayu dari kepala pemimpin Emishi (disebut Aterui atau Akuroō, atau juga Takamaru) yang dibunuh Tamuramaro, yang semula berupa mumi.",
+          "quote": "延暦年間坂上田村麻呂が蝦夷討伐の折、陸奥国平泉の達谷の窟（一説に下野達谷窟）で 蝦夷の首領アテルイ（悪路王）または高丸ともいわれている者を誅し、凱旋の途中、携えてきた首級を納めた。最初はミイラであったが、これを模して作った木製の首がこの面形であると伝えられている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akuro-o-c08",
+          "source_id": "akuro-o-s5",
+          "host": "kotobank.jp",
+          "statement": "A Japanese biographical dictionary classes Akuroō as an Emishi chieftain of the early Heian period based at the Tatsukoku cave in Mutsu, said to have been defeated by Sakanoue no Tamuramaro in the year 801, and said by some to be a legendary form of Aterui.",
+          "statement_id": "Kamus nama orang Jepang menggolongkan Akuroō sebagai kepala suku Emishi awal zaman Heian yang berbasis di gua Tatsukoku di Mutsu dan konon dikalahkan Sakanoue no Tamuramaro pada tahun 801, serta disebut-sebut sebagai bentuk legenda Aterui.",
+          "quote": "平安時代前期の蝦夷(えみし)の族長。 陸奥(むつ)平泉(岩手県)田谷窟(達谷窟)(たつこくのいわや)を拠点とする。延暦(えんりゃく)20年(801)征夷大将軍坂上田村麻呂とたたかい,敗れたという。阿弖流為(あてるい)が伝説化された人物ともいわれる。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "akuruo",
-      "file": "batch-060-fix-3.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "e82533c86adc3ec963aeee79629f8f089fff58a86156fe1974966d3cc5d6646e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 5,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1584,26 +1961,41 @@
           "quote": "悪褸王は別名を六手王といい、生まれたところは「六手村」と名づけられた。 鹿野から木村に下る西の方の山は「鬼泪山」といい、ヤマトタケルに追い立てられた賊鬼が泣く泣く立ち退いたことに由来する。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akuruo-c05",
+          "source_id": "akuruo-s2",
+          "host": "www.city.kimitsu.lg.jp",
+          "statement": "The official Kimitsu City site says Akuruō is considered a local chieftain who lost a battle with Yamato Takeru and whose torso is said to have been buried at that spot.",
+          "statement_id": "Situs resmi Kota Kimitsu menyebut Akuruō konon adalah penguasa daerah itu yang kalah dalam pertempuran melawan Yamato Takeru, dan tubuhnya dikatakan dikuburkan di tempat tersebut.",
+          "quote": "阿久留王 かつてこの地方一帯を治めていた豪族であるとされ、 日本武尊との戦いに敗れ、この地にその胴を埋められたと伝わっています。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akuruo-c06",
+          "source_id": "akuruo-s2",
+          "host": "www.city.kimitsu.lg.jp",
+          "statement": "According to the same site, Gundari Myōō, one of the principal images of Jinnoji temple on Mount Kano, is regarded as a manifestation (suijaku) of Akuruō, with a service held on the 13th of each month at 9:30.",
+          "statement_id": "Menurut situs yang sama, Gundari Myōō, salah satu arca utama kuil Jinnoji di Gunung Kano, dipandang sebagai manifestasi (suijaku) Akuruō, dan upacara dilakukan setiap tanggal 13 pukul 09.30.",
+          "quote": "聖徳太子により建寺された鹿野山神野寺では軍荼利明王（ぐんだりみょうおう）と薬師如来を本尊としており、 軍荼利明王はこの阿久留王が垂迹（すいじゃく）したものとして、毎月十三日の九時三十分より法要が行われています。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ama-no-kantama-no-mikoto",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "26d2f51f5e5c8a399445d63adce3e09598959d7171d7fb5997ecd6dc79372c01",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ama-no-kantama-no-mikoto-c01",
@@ -1644,26 +2036,41 @@
           "quote": "饒速日命の防衛（ふせぎまもり）として随伴して天降った三十二人には他に天神魂命という神もいて、別名は三統彦命とされる。天神玉命と同じく葛野鴨県主らの祖とされている。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ama-no-kantama-no-mikoto-c05",
+          "source_id": "ama-no-kantama-no-mikoto-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Divine Age section of the Sendai Kuji Hongi, Ame no Kantama is listed among the offspring of Kamimusubi with a note that he is ancestor of the Kazuno Kamo agatanushi.",
+          "statement_id": "Dalam bagian zaman dewa Sendai Kuji Hongi, Ame no Kantama tercantum dalam daftar keturunan Kamimusubi dengan catatan sebagai leluhur para Kazuno Kamo agatanushi.",
+          "quote": "次，神皇產靈尊。〈亦云，神魂尊。〉 兒，天御食持命。〈紀伊直等祖。〉 次，天道根命。〈川瀨造等祖。〉 次，天神玉命。〈葛野鴨縣主等祖。〉",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ama-no-kantama-no-mikoto-c06",
+          "source_id": "ama-no-kantama-no-mikoto-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Sendai Kuji Hongi's list of thirty-two who descended to serve as guards, Ame no Kantama is named ancestor of the Mishima agatanushi.",
+          "statement_id": "Dalam daftar Sendai Kuji Hongi tentang tiga puluh dua dewa yang turun untuk mengabdi sebagai pengawal, Ame no Kantama disebut sebagai leluhur para Mishima agatanushi.",
+          "quote": "令三十二人並為防衛，天降供奉矣。 天香語山命，尾張連等祖。 天鈿女命，猿女君等祖。 天太玉命，忌部首等祖。 天兒屋命，中臣連等祖。屋，此下前本有根字。 天櫛玉命，鴨縣主等祖。 天道根命，川瀨造等祖。 天神玉命，三嶋縣主等祖。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amatsukunitama",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "f43b16df4770ee9e53a1ce95773fc779c3a3b7759a5f7c37ef27bf16983373a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amatsukunitama-c01",
@@ -1684,26 +2091,61 @@
           "quote": "葦原中国平定において、地上世界である葦原中国を天津神の御子が治めるに当たり、これを平定するために高天原から遣わされた天若日子の父神として登場する。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "amatsukunitama-c03",
+          "source_id": "amatsukunitama-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kokugakuin University Kojiki database of deity names summarises Amatsukunitama as Ame no Wakahiko's father, who came down from heaven to hold the funeral when his son died.",
+          "statement_id": "Basis data nama dewa Kojiki Universitas Kokugakuin meringkas Amatsukunitama sebagai ayah Ame no Wakahiko yang turun dari langit untuk mengadakan pemakaman ketika putranya wafat.",
+          "quote": "梗概 天若日子の父。天若日子の死に際して、天から降ってきて葬儀を行った。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukunitama-c04",
+          "source_id": "amatsukunitama-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The same database records an interpretation that the name means a spirit-deity of heaven, the counterpart of Utsushikunitama, another name of Ōkuninushi.",
+          "statement_id": "Basis data yang sama mencatat tafsiran bahwa namanya berarti dewa roh langit, yang berpasangan dengan Utsushikunitama, nama lain Ōkuninushi.",
+          "quote": "諸説 天上の精霊たる神の意で、大国主神の亦名である宇都志国玉神に対する神であるという。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukunitama-c05",
+          "source_id": "amatsukunitama-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Kojiki, when the gods ask whom to send to Ashihara no Nakatsukuni, Omoikane answers that the son of Amatsukunitama, Ame no Wakahiko, should be sent.",
+          "statement_id": "Dalam Kojiki, ketika para dewa bertanya siapa yang harus diutus ke Ashihara no Nakatsukuni, Omoikane menjawab agar diutus putra Amatsukunitama, Ame no Wakahiko.",
+          "quote": "亦使何神之吉？」尒思金神答白：「可遣天津國玉神之子，天若日子。」",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsukunitama-c06",
+          "source_id": "amatsukunitama-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Kojiki, Amatsukunitama, Ame no Wakahiko's father, and his wife and children hear the weeping from heaven, come down in grief, and build a mourning house on the spot.",
+          "statement_id": "Dalam Kojiki, Amatsukunitama, ayah Ame no Wakahiko, bersama istri dan anak-anaknya mendengar tangisan dari langit, turun dengan berduka, dan mendirikan rumah duka di tempat itu.",
+          "quote": "於是在天，天若日子之父天津國玉神，及其妻子聞而降來哭悲。乃於其處作喪屋",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ame-no-hi-no-mitama-no-mikoto",
-      "file": "batch-060.md",
+      "file": "batch-060-fix-5.md",
+      "entry_sha256": "3dc091a0b1a6161fd16958c39534f563d01d0365b512b3f63c751f8a44d950cf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ame-no-hi-no-mitama-no-mikoto-c01",
@@ -1742,6 +2184,26 @@
           "statement": "Interpretations connect his worship with Amateru and Konoshima shrines.",
           "statement_id": "Penafsiran menghubungkan pemujaannya dengan kuil Amateru dan Konoshima.",
           "quote": "そして、対馬県主が天日神命を対馬において祀ったのが阿麻氐留神社、畿内において祀ったのが木嶋坐天照御魂神社、天日神命の祖・高皇産霊を祀ったのが目原坐高御魂神社であると考えられている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hi-no-mitama-no-mikoto-c05",
+          "source_id": "ame-no-hi-no-mitama-no-mikoto-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Sendai Kuji Hongi list, Ame no Hi no Mikoto is named ancestor of the Tsushima agatanushi, with an annotation that this deity is not the great deity of Ise but a descendant of Takamimusubi.",
+          "statement_id": "Dalam daftar Sendai Kuji Hongi, Ame no Hi no Mikoto disebut leluhur para Tsushima agatanushi, disertai catatan bahwa dewa ini bukan dewa agung Ise melainkan keturunan Takamimusubi.",
+          "quote": "天神魂命，葛野鴨縣主等祖。亦云，三統彥命。 天三降命，豐國宇佐國造等祖。 天日神命，對馬縣主等祖。淡島社司紀如尚云天日神命者，非伊勢大神，蓋是高皇產靈裔神也。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-hi-no-mitama-no-mikoto-c06",
+          "source_id": "ame-no-hi-no-mitama-no-mikoto-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Nihon Shoki, the sun god (Hi no Kami) possessed a person and asked Abe no Omi Kotoshiro to give the Iware field to his ancestor Takamimusubi; after it was reported, fourteen chō of field were offered and Tsushima Shimoagata no Atai served at the rite.",
+          "statement_id": "Dalam Nihon Shoki, dewa matahari (Hi no Kami) merasuki seseorang dan meminta Abe no Omi Kotoshiro menyerahkan ladang Iware kepada leluhurnya Takamimusubi; setelah dilaporkan, empat belas cho ladang dipersembahkan dan Tsushima Shimoagata no Atai melayani upacara.",
+          "quote": "夏四月丙辰朔庚申。日神著人。謂阿閇臣事代曰。以磐余田獻我祖高皇産靈。事代便奏。依神乞獻田十四町。對馬下縣直侍祠。",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -1796,7 +2258,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a8cd1d551fc97f783f93dd52fac6fb9a43b00fdf085f153a25ee82977fb5b9bb"
     },
     {
       "slug": "ame-no-hiritome",
@@ -1856,7 +2319,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ffc67d8c4a7935a4937c33dfeeb8e8ee871c72ce398c5cb057c5c4ba90627a3f"
     },
     {
       "slug": "ame-no-ikutama",
@@ -1916,7 +2380,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d0fb6fb264cb003e136fb691f73256b0e475fbd2be54c5d4caeead5b278a1531"
     },
     {
       "slug": "ame-no-mikage-no-kami",
@@ -1976,7 +2441,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0ae385d497c84738a2a1ae49f8e1467dd112f026900b4cb54d5b6125f3b54a51"
     },
     {
       "slug": "ame-no-tomi",
@@ -2036,7 +2502,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1d400a7413860efe02a22fb014274ed43d9383ddc484f555d398cf302d103a2d"
     },
     {
       "slug": "ame-no-tsudoechine",
@@ -2096,7 +2563,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8053c865bbf5a0202ac98f12c64702a6c7be326202e43f3caf53d37bee0b8dc8"
     },
     {
       "slug": "ame-no-tsuki-no-mitama-no-mikoto",
@@ -2156,7 +2624,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f61186ebb22fe3992d2afee263fc032de0e5079abd2691adbfabb9b348631649"
     },
     {
       "slug": "apeyaki",
@@ -2230,7 +2699,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "094969869c9e5e20e820107623912de15c6b2dfeca7fee04b27a3502e322b891"
     },
     {
       "slug": "ashinaga",
@@ -2270,7 +2740,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cf6d8b1db8730be44883c79fb13d0479e32e7780df3e945390baf64005f144e5"
     },
     {
       "slug": "ashinataka-no-kami",
@@ -2320,7 +2791,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e1bf9086299758e7c0b948c1e781ce92287136612755f4ba21ad8f12e47ea777"
     },
     {
       "slug": "bakebi",
@@ -2380,7 +2852,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "822232c61f3f9f30b690b450af5cb52eaaf514428ca342035d168cad5cd74bf7"
     },
     {
       "slug": "chikato-no-kami",
@@ -2440,7 +2913,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "061af2b84ca92b85111bba7f265950434ac9c627eacbfadd7f9a26789a2bab19"
     },
     {
       "slug": "chimata-no-kami",
@@ -2514,7 +2988,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a5539ec39fef709c97295b4fb5a9c706a9aabf5f27226c1d92b2e602d1bc27eb"
     },
     {
       "slug": "chimyo-gongen",
@@ -2574,7 +3049,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "374e1b874e3328d4d3393e39a9cfea1da73624a111521fcfa884de4774ec7417"
     },
     {
       "slug": "eighty-gods",
@@ -2644,7 +3120,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d067bcbccbfb5b56060172303462e95df134720d6fcfe18fc9bc346c1e88d6dc"
     },
     {
       "slug": "fuha-no-mojikunusunu",
@@ -2714,7 +3191,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "40aafb6cbb23bf81b8e864a049db96b2c5a7adefc951caa880c35e2f8e5fc467"
     },
     {
       "slug": "fukabuchi-no-mizuyarehana",
@@ -2774,7 +3252,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1411e16c99f018de744cb94b80bebe1269bf4c4f74694df7f8817cb3624e65e8"
     },
     {
       "slug": "funozuno",
@@ -2824,7 +3303,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31eab5f12f85cefffae5dc06bd000783dc01903005b1263401f31de09aacab39"
     },
     {
       "slug": "futemimi",
@@ -2884,7 +3364,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b694d9a5a4eb153314547e719d5c36a07d7ba7f052eb1263650393ec43604d64"
     },
     {
       "slug": "gishiki-hachimen-daio",
@@ -2944,7 +3425,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eb029576bcdb97de707ab6bae41c1cb040f7b8beb25c18b34ce3ff4a19671289"
     },
     {
       "slug": "hachioji-gongen",
@@ -3004,7 +3486,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b21868f1773e5071f40ffcfe2f6b68fca01c55363474d2ed472ce47848ca5718"
     }
   ]
 }
