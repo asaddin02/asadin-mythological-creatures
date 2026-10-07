@@ -1,13 +1,10 @@
 # Review batch-076
 
-Diperiksa 2026-10-02T00:23:31.002Z. Berkas: batch-076.md, batch-076-fix-1.md, batch-076-fix-2.md.
+Diperiksa 2026-10-07T05:54:15.230Z. Berkas: batch-076.md, batch-076-fix-1.md, batch-076-fix-2.md, batch-076-fix-3.md, batch-076-fix-4.md.
 
 ## kimpurushas — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,14 +14,16 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | kimpurushas-c04 | exact | en.wikipedia.org | Brahma is said to create kimpurushas and kinnaras from his reflected image. | Brahma is described to have created the kimpurushas and the kinnaras from his own reflected image. |
 | kimpurushas-c05 | exact | en.wikipedia.org | They praise Narasimha after he kills Hiranyakashipu. | The kimpurushas, along with a number of other beings, praise the glory of the Narasimha avatar of Vishnu after he slays Hiranyakashipu. |
 | kimpurushas-c06 | exact | en.wikipedia.org | Budha changes women into kimpurushis and instructs them to dwell on a mountain. | Budha transforms a number of women into kimpurushis (female kimpurushas) and instructs them to make a mountain their abode and take kimpurushas for their consorts. |
+| kimpurushas-c07 | exact | www.wisdomlib.org | They guard Kubera's lotus ponds. | They guard the lotus ponds kept by Kubera to sport with his beloved ones. |
+| kimpurushas-c08 | exact | www.wisdomlib.org | Yaksha women are said to be their mothers. | Yakṣa women were their mothers. |
+| kimpurushas-c09 | exact | www.wisdomlib.org | Kimpurushas are called sons of Pulaha Prajapati. | Kimpuruṣas were the sons of Pulaha Prajāpati. |
+| kimpurushas-c10 | exact | www.wisdomlib.org | In both the Digambara and Svetambara Jain traditions, kimpurushas are a class of kinnara deities. | Kimpuruṣa (किम्पुरुष) refers to a class of kinnara deities according to both the Digambara and Śvetāmbara traditions. |
+| kimpurushas-c11 | exact | www.wisdomlib.org | According to the Tiloyapannatti, all kimpurushas are golden in appearance. | All the Kimpuruṣas are golden in appearance. |
 
 
 ## maha-sona — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -34,27 +33,29 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | maha-sona-c04 | exact | en.wikipedia.org | In that version a deity attaches a bear's head to revive him. | the deity attaches a bear’s head in its place before reviving him. Due to the urgency, the head is fitted backwards. |
 | maha-sona-c05 | exact | en.wikipedia.org | Folk songs contain origins not always connecting him with Jayasena. | However, folk songs across the country offer alternative origins for Maha Sona, sometimes not linking him to the figure of Jayasena. Depending on the song, he may be depicted as either a demon or a deity. Maha Sona is perhaps the most deeply ingrained supernatural being in the Sri Lankan psyche, unmatched in the fear his name evokes. |
 | maha-sona-c06 | exact | en.wikipedia.org | He is believed to haunt graveyards, large rocks, hills and three-road junctions. | Maha Sona is believed to haunt graveyards, searching for human prey. He also haunts large rocks and hills, surrounded by human corpses. Junctions where three roads meet are other haunting grounds of this demon |
+| maha-sona-c07 | exact | ignca.gov.in | The IGNCA mask catalogue describes Mahasohana as a ritual mask: a demon of the graveyard who feeds on corpses and takes the form of a Bear in the Sanniya Yakuma exorcism. | Ritual Mask, Demon of the graveyard who feeds on corpses and takes the form of a Bear in the Sanniya Yakuma excorcism. |
 
 
 ## mande-barung — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mande-barung-c01 | exact | en.wikipedia.org | Mande Barung is an alleged apelike creature said to inhabit Meghalaya forests in the Garo Hills. | In Indian folklore, the Mande Burung is an alleged ape-like creature said to inhabit the Meghalaya subtropical forests in the remote Garo Hills of the Northeast India. |
 | mande-barung-c02 | exact | en.wikipedia.org | It is generally described as a large, hairy, bipedal hominoid. | Generally described as a large, hairy bipedal hominoid |
+| mande-barung-c03 | exact | news.mongabay.com | Mongabay says it is known locally as the Mande Burung ("jungle man"). | Known locally as the Mande Burung (jungle man) |
+| mande-barung-c04 | exact | news.mongabay.com | A witness quoted in the 2007 report describes them as huge and bulky, furry, with heads that looked as if they wore caps, and somewhat blackish brown in colour. | huge and bulky, furry, heads looked as if they were wearing caps, and their colour was somewhat blackish brown |
+| mande-barung-c05 | exact | news.mongabay.com | A local tourism society official is quoted as saying the footprints they photographed were as big as 13 to 15 inches long. | The footprints we shot were as big as 13 to 15 inches long |
+| mande-barung-c06 | exact | news.mongabay.com | The Achik Tourism Society says the creature feeds on wild berries, bananas, plantain tree shoots, barks and roots. | Achik Tourism Society says the “mystical monster” feeds on “wild berries, bananas, plantain tree shoots, barks and roots” |
+| mande-barung-c07 | exact | news.mongabay.com | According to Mongabay, most scientists dismiss such reported sightings, saying such a creature could hardly avoid wider detection. | While most scientists dismiss reported sightings, saying that it would be nearly impossible for such a such creature to avoid wider detection |
+| mande-barung-c08 | exact | archive.thedailystar.net | The 2007 AFP report says the creatures have apparently been spoken of, and occasionally spotted, for years. | The creatures have apparently been spoken of, and occasionally spotted, for years |
+| mande-barung-c09 | exact | archive.thedailystar.net | Villagers dubbed the mysterious creatures "Mande Burung", or Jungle Man. | Villagers have dubbed the mysterious creatures "Mande Burung" -- or Jungle Man. |
 
 
 ## murkatta — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -62,14 +63,14 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | murkatta-c02 | loose | en.wikipedia.org | It is portrayed carrying its head under its arm. | Murkatta (Nepali: मुर्कट्टा) is a headless ghost with eyes and mouth in chest and carrying its head tucked under its arm. |
 | murkatta-c03 | exact | en.wikipedia.org | The source regards them as spirits of the dead. | They are considered as the spirits from the dead. |
 | murkatta-c04 | exact | en.wikipedia.org | Murkatta is also interpreted as symbolising defeat or loss of intellect. | The Murkatta is also interpreted as a person whose head has been cut down, symbolizing the defeat or a loss of intellect. |
+| murkatta-c05 | exact | en.wikipedia.org | In Kathmandu, a festival on the day of Ghode Jatra is celebrated to scare away the Murkatta and keep its evil eyes from children. | In Kathmandu, Nepal, a festival is celebrated on the day of Ghode Jatra to scare away the Murkatta and prevent its evil eyes from the children. |
+| murkatta-c06 | exact | www.wilson-howarth.com | The blog author says there is a word, murkatta, in the Nepali language for a headless ghost. | There is even a word, murkatta, in the Nepali language for a headless ghost |
+| murkatta-c07 | exact | www.wilson-howarth.com | The author writes that people say ghosts carrying their heads under their arms roamed a hamlet named murkatta in the lowlands of Nepal. | murkatta, in the Nepali language for a headless ghost: that was the name of a hamlet close to where we lived in the lowlands of Nepal. People say ghosts that carried their heads under their arms roamed there. |
 
 
 ## paranimmitavasavatti — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -78,14 +79,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | paranimmitavasavatti-c03 | exact | ja.wikipedia.org | The Nirvana Sutra recounts Tenma impersonating Buddha or followers to spread contradictory teachings. | 涅槃経においては天魔が釈迦の教えを破壊するために釈迦や比丘（僧侶）や優婆塞、聖者や阿羅漢のふりをして矛盾する教えを説く事が説かれている。 |
 | paranimmitavasavatti-c04 | exact | ja.wikipedia.org | Tenma is understood as one personal form of the wider concept of mara. | そのため天魔は、「魔」という広い概念の中で、人格をもった存在として捉えられた一類型と位置づけることができる。 |
 | paranimmitavasavatti-c05 | exact | ja.wikipedia.org | The source cautions against simply equating Indian Buddhist Mara with Japan's sixth-heaven demon king. | インド仏教におけるマーラの観念と、日本で後世に広まった「第六天魔王」の観念は、関連しながらも同じものとして単純に扱うことはできない。 |
+| paranimmitavasavatti-c06 | exact | www.wisdomlib.org | Edgerton gives paranirmitavasavartin as the name of the highest class of kamavacara gods, literally "controlling (enjoyments) magically created by others". | name of the highest class of kāmāvacara gods, see deva; lit. controlling (enjoyments) magically created by others |
+| paranimmitavasavatti-c07 | exact | www.wisdomlib.org | They rank higher than the nirmanarati, who create their own magical enjoyments. | they rank higher than the nirmāṇarati, who create their own magical enjoyments |
+| paranimmitavasavatti-c08 | exact | www.wisdomlib.org | According to the Mahaprajnaparamitashastra, the paranirmitavasavartin are one of the six groups of gods inhabiting the Kamadhatu. | Paranirmitavaśavartin (परनिर्मितवशवर्तिन्) is part of the six groups of Gods inhabiting the Kāmadhātu (the first of the three worlds) |
 
 
 ## sihuhata — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -95,14 +96,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | sihuhata-c04 | exact | en.wikipedia.org | Its story is preserved in the palm-leaf manuscript Tham Sihuhata from Wat Chae Chang. | Sihuhata's story is preserved in a Lanna palm-leaf manuscript entitled Tham Sihuhata (ธัมม์สี่หูห้าตา), from Wat Chae Chang in San Kamphaeng District, Chiang Mai. The manuscript consists of 61 palm-leaf pages and was written in Lanna script by Phimmasan Bhikkhu in 1914. |
 | sihuhata-c05 | exact | en.wikipedia.org | A boy catches the creature and brings it home; it refuses grass and leaves. | He brings the animal home and tries to feed it grass and leaves, but it refuses them. |
 | sihuhata-c06 | exact | en.wikipedia.org | The gold enables the boy to build a golden water channel and marry the king's daughter. | The poor boy hires a group of Chinese merchants to build the channel, which is completed in one night. He subsequently marries Simma and becomes the king's son-in-law. |
+| sihuhata-c07 | exact | so06.tci-thaijo.org | In the legend as retold in this journal article, after three days a boy caught a strange animal like a bear, with black hair, four ears and five eyes. | After three days he caught a strange animal that was like a bear, with black hair, and had got four ears and five eyes. |
+| sihuhata-c08 | exact | so06.tci-thaijo.org | The next day the boy was very surprised to see the strange beast had digested the coals into gold. | The next day the boy was very surprised to see that the strange beast had digested the coals into gold. |
+| sihuhata-c09 | exact | so06.tci-thaijo.org | With the help of Indra, the young boy was able to build the gold water gutter and marry the princess. | With the help of Indra, the young boy was able to build the gold water gutter and marry the princess. |
+| sihuhata-c10 | exact | so06.tci-thaijo.org | The king asked for the creature to be brought, but the beast was frightened and ran away. | The king asked further to bring Mang Si Hu Ha Ta, but the beast was frightening and ran away. |
 
 
 ## ten-raksasis — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -112,14 +114,15 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | ten-raksasis-c04 | exact | en.wikipedia.org | They appear in the Dharani chapter of the Lotus Sutra. | The Ten Rākṣasīs appear in the Dhāraṇī chapter of the Lotus Sutra. Some of these figures are found sporadically in texts throughout the Buddhist canon, most notably the Mahāmayūrī Vidyarājñī Sutra. |
 | ten-raksasis-c05 | exact | en.wikipedia.org | They are known as Samantabhadra's attendants in East Asian Buddhist art. | They are also recognized as attendants of the bodhisattva Samantabhadra, which has become a popular theme in East Asian Buddhist painting and statuary. |
 | ten-raksasis-c06 | exact | en.wikipedia.org | Esoteric traditions connect them with manifestations of Buddhas and bodhisattvas, with versions varying between texts. | Esoteric tradition recognizes the rākṣasīs as avatars of respective Buddhas and bodhisattvas from whom they are believed to have manifested. Accounts vary among texts and school of thought. In Japan, a common account is derived from the ‘’Esoteric Samaya Sutra of the Samādhi Samaya of the Lotus Sutra’’ (妙法蓮華経三昧三昧耶秘密三摩耶経). |
+| ten-raksasis-c07 | exact | www.nichirenlibrary.org | The Lotus Sutra chapter 26 names ten rakshasa daughters: Lamba, Vilamba, Crooked Teeth, Flowery Teeth, Black Teeth, Much Hair, Insatiable, Necklace Bearer, Kunti, and Stealer of the Vital Spirit of All Living Beings. | the first named Lamba, the second named Vilamba, the third named Crooked Teeth, the fourth named Flowery Teeth, the fifth named Black Teeth, the sixth named Much Hair, the seventh named Insatiable, the eighth named Necklace Bearer, the ninth named Kunti, and the tenth named Stealer of the Vital Spirit of All Living Beings. |
+| ten-raksasis-c08 | exact | www.nichirenlibrary.org | The ten rakshasa daughters, together with Mother of Demon Children, her offspring and her attendants, went to the place where the Buddha was. | These ten rakshasa daughters, along with Mother of Demon Children, her offspring, and her attendants, all proceeded to the place where the Buddha was |
+| ten-raksasis-c09 | exact | www.nichirenlibrary.org | The rakshasa daughters vow to use their own bodies to shield and guard those who accept, uphold, read and recite this sutra. | World-Honored One, we will use our own bodies to shield and guard those who accept, uphold, read, recite, |
+| ten-raksasis-c10 | exact | www.nichirenlibrary.org | The Buddha praises the rakshasa daughters and says their merit will be immeasurable if they shield and guard those who accept and uphold even the mere name of the Lotus Sutra. | The Buddha said to the rakshasa daughters, “Excellent, excellent! If you can shield and guard those who accept and uphold the mere name of the Lotus Sutra, your merit will be immeasurable. |
 
 
 ## wd-q31324788 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -127,14 +130,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | wd-q31324788-c02 | exact | zh.wikipedia.org | He requests Mekhala's jewel, but she refuses. | 媚卡拉喜歡拿著一顆如意寶珠拋在各個雲朵之間上玩，有一個叫拉瑪遜的夜叉用斧頭作為武器，看到寶珠請求媚卡拉索要，但是不願意。這時拉瑪遜很生氣，扔著斧頭追逐，媚卡拉每次都會及時閃避。 |
 | wd-q31324788-c03 | exact | zh.wikipedia.org | He pursues Mekhala by throwing his axe. | 這時拉瑪遜很生氣，扔著斧頭追逐，媚卡拉每次都會及時閃避。 媚卡拉的寶珠發出的光明是閃電，而拉瑪遜斧頭劈開天空的聲音是雷聲，因此就有了雷電 |
 | wd-q31324788-c04 | exact | zh.wikipedia.org | Mekhala's jewel produces lightning while Ramasun's axe causes thunder. | 媚卡拉的寶珠發出的光明是閃電，而拉瑪遜斧頭劈開天空的聲音是雷聲，因此就有了雷電。 |
+| wd-q31324788-c05 | exact | www.thaifolk.com | In the account summarized by Thaifolk.com, Ramasura was a demon angel possessing a diamond axe. | Ramasura was a demon angel possessing a diamond axe. |
+| wd-q31324788-c06 | exact | www.thaifolk.com | In one Thai literary account, Rahu asks his friend Ramasura to go with him to catch Mekla in order to favour Shiva, and Ramasura is the one who throws the axe that causes thunder. | Rahu wanted to catch Mekla in order to favour Shiva. He then asked his friend, Ramasura, to go with him. Ramasura was the one who threw the axe that caused thunders. |
+| wd-q31324788-c07 | exact | www.thaifolk.com | Some say Ramasura originates from Porasurama in the Ten Episodes of Narayana. | Some say Ramasura originates from Porasurama in the Ten Episodes of Narayana. |
+| wd-q31324788-c08 | exact | www.thaifolk.com | Thaifolk.com describes Ramasura as a demon who uses an axe as his weapon. | is a demon who uses an axe as his weapon. |
 
 
 ## alambala — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -143,27 +147,29 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | alambala-c03 | exact | ja.wikipedia.org | He joins Duryodhana to avenge his father's killing by Bhima. | かつてパーンダヴァ5王子の1人ビーマはアラムバラの父ジャタースラを退治していた。そのためアラムバラはパーンダヴァとカウラヴァの間に大戦争が勃発すると、アラムバラはドゥルヨーダナのもとに現れ、父の仇を取るため参戦することを伝えた。 |
 | alambala-c04 | exact | ja.wikipedia.org | Duryodhana assigns him to fight Ghatotkacha. | そこでドゥルヨーダナはアラムバラに、カルナと戦っているガトートカチャを討つことを命じた。カルナの軍勢に助勢したアラムバラは種々の武器でガトートカチャと戦ったが |
 | alambala-c05 | exact | ja.wikipedia.org | Ghatotkacha eventually kills him by lifting and smashing his body to the ground. | 最後にガトートカチャはアラムバラの巨体を持ち上げ、地面に叩きつけて殺した。その後 |
+| alambala-c06 | exact | www.wisdomlib.org | Wisdom Library describes Alambala as a giant who used to eat human flesh, the son of Jatasura. | A giant who used to eat human flesh. This cannibal was the son of Jaṭāsura. |
+| alambala-c07 | exact | www.wisdomlib.org | Alambala fought on the side of the Kauravas in the Kurukshetra battle because Bhimasena had killed his father, Jatasura. | This asura (Alambala) fought on the side of the Kauravas in the Kurukṣetra battle because Bhīmasena had killed his father, Jaṭāsura. |
+| alambala-c08 | exact | www.wisdomlib.org | According to Wisdom Library, in the battle Ghatotkacha cut off the head of this mighty warrior and magician and threw it into Duryodhana's war-chariot. | In the battle, Ghaṭotkaca cut off the head of this mighty warrior and magician and threw his head into the war-chariot of Duryodhana. |
 
 
 ## bhaia — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bhaia-c01 | exact | ro.wikipedia.org | Bhaia or Bhaya is a demon personifying fear in Vedic mythology. | Bhaia (sau Bhaya) este un Demon personificând frica, în mitologia vedică, fratele zeului groazei Mahābhaia. |
 | bhaia-c02 | exact | ro.wikipedia.org | He is called the brother of Mahabhaia, the god of terror. | Bhaia (sau Bhaya) este un Demon personificând frica, în mitologia vedică, fratele zeului groazei Mahābhaia. |
+| bhaia-c03 | exact | www.wisdomlib.org | According to the Mahabharata Adi Parva, Adharma married Nirriti and they had three sons of demoniac disposition: Bhaya, Mahabhaya and Mrityu. | Adharma married Nirṛtī and to them were born Bhaya, Mahābhaya and Mṛtyu, three sons of demoniac disposition. |
+| bhaia-c04 | exact | www.wisdomlib.org | These three sons led a sinful life. | These three sons led a sinful life. |
+| bhaia-c05 | exact | www.wisdomlib.org | According to the Agni Purana, Himsa is the wife of Adharma; they had a son Anrita and a daughter Nikriti, from whom were born Bhaya, Naraka, Maya and Vedana. | Hiṃsā is the wife of Adharma. They got a son named Anṛta and a daughter named Nikṛti. From them were born Bhaya, Naraka, Māyā and Vedanā. |
+| bhaia-c06 | exact | www.wisdomlib.org | In Vedic Hinduism he is one of the three sons of Adharma ("sin") and his wife Nirriti ("misery"). | In Vedic hinduism, he is one of the three sons of Adharma (‘sin’) and his wife Nirṛti (‘misery’). |
+| bhaia-c07 | exact | www.wisdomlib.org | Mahabhaya is called a Rakshasa born to Adharma and Nirriti, with two brothers named Bhaya and Mrityu. | A Rākṣasa. He was born to Adharma by his wife Nirṛti. Mahābhaya had two brothers named Bhaya and Mṛtyu. |
 
 
 ## burha-dangoria — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -173,20 +179,25 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | burha-dangoria-c04 | exact | as.wikipedia.org | In depictions he wears white clothing and rides a horse. | বুঢ়া ডাঙৰীয়াই বগা ধুতী, কামিজ পিন্ধি গাত চেলেং চাদৰ লয় আৰু মূৰত মথুৰা পাগ মাৰি ঘোঁৰাত উঠি ফুৰে৷ |
 | burha-dangoria-c05 | exact | as.wikipedia.org | Cutting his dwelling tree or belittling him is believed to provoke his anger. | বুঢ়া ডাঙৰীয়া থকা বুলি বিশ্বাস কৰা গছ কাটিলে বা তেওঁৰ প্ৰভাৱ সম্পৰ্কে তুচ্ছ তাচ্ছিল্য কৰিলে বুঢ়া ডাঙৰীয়াৰ ৰোষত পৰে৷ |
 | burha-dangoria-c06 | exact | as.wikipedia.org | People hold religious singing beneath the tree and keep it clean. | বহুতে সেই গছৰ গুৰিত বৃহস্পতিবাৰে নাম-কীৰ্তন কৰে, আৰু সদায় গছৰ গুৰি পৰিস্কাৰ কৰি ৰাখে৷ |
+| burha-dangoria-c07 | exact | archive.org | Rajkhowa writes that bura-dangaria is a title of respect applied to an elderly Assamese gentleman. | Bura-dangaria is a title of respect applied to an elderly Assamese gentleman. |
+| burha-dangoria-c08 | exact | archive.org | The spirit is described as tall in stature, strongly built, and looking like a full-blossomed rose. | He is tall in stature, strongly built and looks like a full-blossomed rose. |
+| burha-dangoria-c09 | exact | archive.org | Of all the spirits, bura-dangaria is said to be the most religiously disposed. | Of all the spirits it is bura-dangaria who is most religiously disposed. |
+| burha-dangoria-c10 | exact | archive.org | According to Rajkhowa, those who fell a tree haunted by bura-dangaria without propitiating him are scourged with bodily ailments. | a tree haunted by bura-dangaria without propitiating him. The offenders are scourged with bodily ailments. |
 
 
 ## chakor — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chakor-c01 | exact | es.wikipedia.org | Chakor is an Indian mythological bird captivated by the full moon. | El ave mitológica chakor de la India queda cautivado cuando sale la luna llena. El chakor permanece quieto toda la noche, mientras su cabeza sigue lentamente a la Luna a través del cielo nocturno, hasta que se tuerce y finalmente descansa en el suelo. Se identifica con la perdiz de Chukar (Alectoris chukar). Es el equivalente al búho de occidente. |
 | chakor-c02 | exact | es.wikipedia.org | It is portrayed remaining still all night while following the moon's movement with its head. | El chakor permanece quieto toda la noche, mientras su cabeza sigue lentamente a la Luna a través del cielo nocturno |
 | chakor-c03 | exact | es.wikipedia.org | The article connects it with the chukar partridge. | Se identifica con la perdiz de Chukar (Alectoris chukar). |
+| chakor-c04 | exact | www.wisdomlib.org | A glossary entry describes the cakora as a bird that lives solely on moonlight. | A bird that lives solely on moonlight. |
+| chakor-c05 | exact | www.wisdomlib.org | A Hindi-English dictionary describes the chakor as the Indian red-legged partridge, fabled to subsist upon moon-beams and to eat embers. | the Indian red-legged partridge (fabled to subsist upon moon-beams and to eat embers) |
+| chakor-c06 | exact | www.wisdomlib.org | Another glossary entry describes the cakora as a bird that drinks only water from the Svati Nakshatra. | A bird that drinks only water from the Śvāti Nakṣatra. |
+| chakor-c07 | exact | www.wisdomlib.org | In a Jain text, the cakora is a kind of partridge said to live on moon-beams. | Cakora (चकोर) refers to a kind of partridge (said to live on moon-beams) |
 
 
 ## deuta-bhoot — lulus-otomatis
@@ -208,10 +219,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 
 ## devantaka — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -220,14 +228,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | devantaka-c03 | exact | ja.wikipedia.org | In the war against Rama he fights Angada and Hanuman. | アヨーディヤーの王子ラーマとの戦争ではアンガダおよびハヌマーンと戦った。 神話 [編集] |
 | devantaka-c04 | exact | ja.wikipedia.org | He uses a large gold-covered iron bar in battle. | デーヴァーンタカは戦場では金箔を張った巨大な鉄棒で戦った。しかし兄弟のナラーンタカがアンガダに討たれると、デーヴァーンタカをはじめトリシラス |
 | devantaka-c05 | exact | ja.wikipedia.org | Hanuman kills him with a blow to the head. | ハヌマーンが怒号とともにデーヴァーンタカの頭を殴ると、顔から眼球と舌が飛び出し、絶命した。 |
+| devantaka-c06 | exact | valmikiramayan.net | In the Ramayana's Yuddha Kanda, Devantaka marches ahead holding a gilded iron bar, resembling an incarnation of Vishnu holding Mount Mandara in his arms. | Devantaka, holding a glided iron-bar, marched ahead, resembling an incarnation of Vishnu holding Mandara-mountain in his arms. |
+| devantaka-c07 | exact | valmikiramayan.net | Devantaka, tormented at his brother's calamity, takes a terrific iron rod and runs towards Angada. | The strong Devantaka, tormented at his brother's calamity, then taking a terrific iron rod, ran towards Angada. |
+| devantaka-c08 | exact | valmikiramayan.net | Seeing Hanuma rushing with enthusiasm at the battle front, Devantaka ran towards him with his iron rod. | Seeing Hanuma rushing with enthusiasm in the battle-front, that strong Devantaka ran towards him with his iron rod. |
+| devantaka-c09 | exact | valmikiramayan.net | Devantaka, the son of Ravana, falls dead with his head crushed by the blow of a fist, his teeth and eyes coming out and his tongue hanging down. | That Devantaka, the son of Ravana, with his head crushed and broken by the blow of the fist, with his teeth and eyes coming out and with his tongue hanging down, swiftly fell down dead on the earth. |
 
 
 ## devavati — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -235,14 +244,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | devavati-c02 | exact | as.wikipedia.org | The text compares her beauty with Lakshmi. | উল্লেখ আছে যে- তেওঁ দেখাত সাক্ষাৎ লক্ষ্মীদেৱীৰ দৰে আছিল৷ |
 | devavati-c03 | exact | as.wikipedia.org | Her children with Sukesha are Sumali, Malyavan and Mali. | দেৱৱতী আৰু সুকেশৰ ঔৰসত তিনি পুত্ৰ সুমালী, মাল্যবান আৰু মালীৰ জন্ম হয় |
 | devavati-c04 | exact | as.wikipedia.org | Sumali has a daughter Kaikesi who becomes Ravana's mother. | তেওঁৰ পুত্ৰ সুমালী আৰু কেতুমতীৰ কন্যা কৈকেষীৰ ঋষি বিশ্ৰবাৰ সৈতে বিবাহ হয় যাৰ ঔৰসত তিনি পুত্ৰ যথাক্ৰমে ৰাৱণ, কুম্ভকৰ্ণ, বিভীষণ আৰু এগৰাকী কন্যা শূৰ্পনখাৰ জন্ম হয়৷ |
+| devavati-c05 | exact | gutenberg.org | In the Uttara Kanda translation, a virtuous Gandharva named Gramani had a daughter called Devavati, like a second Sri herself. | a virtuous Gandharva, named Grāmani, of the effulgence of fire, who had a daughter, called Devavati, like unto a second Sri herself |
+| devavati-c06 | exact | gutenberg.org | Devavati is famed over the three worlds and endowed with beauty and youth. | famed over the three worlds, and endowed with beauty and youth |
+| devavati-c07 | exact | gutenberg.org | That lord of the Rakshasas begot on her three sons: Malyavan, Sumali and Mali. | And that lord of Rākshasas begot (on her) three sons, resembling his three eyes—the Rākshasas Malyavān, Sumāli and that foremost of the strong—Māli |
+| devavati-c08 | exact | www.wisdomlib.org | Wisdom Library lists one Devavati as the daughter of the Gandharva called Manimaya. | Daughter of the Gandharva called Maṇimaya. |
 
 
 ## dot — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -251,14 +261,16 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | dot-c03 | exact | as.wikipedia.org | It may appear as a familiar person and lead a victim toward a pond. | ৰাতি দোকমোকালিতে আন্ধাৰ সময়ত ই কোনো বন্ধুস্থানীয় লোকৰ ৰূপত দেখা দি মানুহক পুখুৰীৰ ফাললৈ লৈ যায়। |
 | dot-c04 | exact | as.wikipedia.org | Its dwelling is said to lie in channels, ponds or marshes. | পানী থকা জান, পুখুৰী বা জলাহৰ পানী যুঁৱলীত দ'ত থাকে বুলি কোৱা হয়। |
 | dot-c05 | exact | as.wikipedia.org | It has a bag or net which, if controlled by a person, makes it obey commands. | দৈত্যৰ লগত এটা জলমোনা থাকে। এই জলমোনাটো কোনো মানুহে বশ কৰি ল'ব পাৰিলে সি তেওঁৰ আদেশ মানি চলে। |
+| dot-c06 | exact | archive.org | Rajkhowa says the word dot is derived from the Sanskrit daitya, "a demon". | The word is derived from Sanskrit daitya, a demon. |
+| dot-c07 | exact | archive.org | The dot is said to live in channels, tanks, morasses and shaded out-of-the-way places overgrown with watery plants. | He lives in channels, tanks, morasses, shaded out-of-the-way places overgrown with watery plants. |
+| dot-c08 | exact | archive.org | The dot is described as a slender but tall figure, about 18 feet, with long fingers like spikes. | The dot is a slender but tall figure, measuring about 18 feet, with long fingers like spikes. |
+| dot-c09 | exact | archive.org | The dot neighs like a horse and is powerless to approach a righteous man, much less injure him. | The dot neighs like a horse. He is powerless to approach a righteous man, much less do him any injury. |
+| dot-c10 | exact | archive.org | Bereft of his wonderful talisman, the dot loses all powers and becomes a bound servant to the man. | Bereft of his wonderful talisman, the dot loses all powers and becomes a bound servant to the man. |
 
 
 ## four-yasha — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -266,14 +278,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | four-yasha-c02 | exact | ja.wikipedia.org | Their names are Bidara, Abatsumara, Kendara and Umarokya. | 4人の夜叉の名はそれぞれ毘陀羅（びだら）、阿跋摩羅（あばつまら）、犍陀羅（けんだら）、烏摩勒伽（うまろきゃ）。 |
 | four-yasha-c03 | exact | ja.wikipedia.org | In hanging-scroll paintings they flank Shomen Kongo on the left and right. | 掛軸画で四夜叉が登場する場合は通常二童子が後ろにいる。その前に四夜叉が2体ずつ左右に青面金剛を囲むように登場する。一番前に登場するのは日光東照宮でもおなじみの「三猿」である。なお、左上の白いものが月、右上の赤いものが大陽でこれを「日月」と呼ぶ。 |
 | four-yasha-c04 | exact | ja.wikipedia.org | Two children usually stand behind them. | 掛軸画で四夜叉が登場する場合は通常二童子が後ろにいる。その前に四夜叉が2体ずつ左右に青面金剛を囲むように登場する。一番前に登場するのは日光東照宮でもおなじみの「三猿」である |
+| four-yasha-c05 | exact | www.mlit.go.jp | At the Yashamon Gate, four yasha stand guard, one in each bay. | Four yasha stand guard, one in each bay. |
+| four-yasha-c06 | exact | www.mlit.go.jp | Yasha are the attendants of Shomen Kongo, a deity who protects against disease. | Yasha are the attendants of Shōmen Kongō, a deity who protects against disease. |
+| four-yasha-c07 | exact | projects.mcah.columbia.edu | In iconography, Shomen Kongo may be accompanied by two boys (doji) or by four demons. | He may be accompanied by two boys *dōji 童子 or by four demons. |
 
 
 ## hadala — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -282,19 +294,21 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | hadala-c03 | exact | mr.wikipedia.org | Another depiction describes a skeletal form. | स्त्री पिशाच्च प्रकारामध्ये हडळ हे नाव जरी घेतले तरी एक अशी जरब असते की नुसत्या उच्चारानेही कापरे भरते. हडळीचे दर्शन होते ते अनेकदा सांगाडयाच्या रूपात. प्रयोगशाळेत मानवी सांगाडा असतो त्याला नुसते हिरवे किंवा पांढरे लुगडे गुंडाळले की जसे ते दिसेल तसे हा प्रकार दिसतो. हा प्रकार बऱ्याच जणांना दिसतो असा आजपर्यंतचा अनुभव आहे. |
 | hadala-c04 | exact | mr.wikipedia.org | She is said to inhabit ruined wells or mansions. | एखादी पडकी विहीर किंवा पडका वाडा यात हिचे वास्तव्य असते. बांगड्यांचा आवाज, बाळ रडण्याचा आवाज येणे असे प्रकार इथे दिसतात. बऱ्याच वेळा केस जळल्याचा वास येतो. हा प्रकार इतका भयानक आहे की मी मी म्हणणाऱ्यांची पंचाईत होते. धिटात धीट असणाऱ्याची पाचावर धारण बसते. सर्वसाधारण बाळंतपणात मृत्यू झालेल्या स्त्रीचा हा प्रकार असतो. |
 | hadala-c05 | exact | mr.wikipedia.org | This ghost type is associated with women who die during childbirth. | सर्वसाधारण बाळंतपणात मृत्यू झालेल्या स्त्रीचा हा प्रकार असतो. |
+| hadala-c06 | exact | www.wisdomlib.org | The Molesworth Marathi-English dictionary defines hadala (also hadali) as a female goblin or ghost. | haḍaḷa (हडळ) [or हडळी, haḍaḷī].—f A female goblin or ghost. |
 
 
 ## hantu-dor-dong — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hantu-dor-dong-c01 | exact | sv.wikipedia.org | Hantu-Dor-Dong is described by the article as a vampire in Indian horror stories and mythology. | Hántu-Dor-Dong är en vampyr inom indiska skräckhistorier och mytologi. Hántu-Dor-Dong var av den lägsta kasten och fick nöja sig med att suga blod från råttor och vildsvin. |
 | hantu-dor-dong-c02 | exact | sv.wikipedia.org | The account describes it sucking the blood of rats and wild boar. | Hántu-Dor-Dong var av den lägsta kasten och fick nöja sig med att suga blod från råttor och vildsvin. |
+| hantu-dor-dong-c03 | exact | archive.org | Skeat and Blagden record that the Hantu Dondong resides in caves and the crevices of rocks and kills dogs and wild hogs with the blowpipe in order to drink their blood. | The Hantu Dondong resides in caves and the crevices of rocks, and kills dogs and wild hogs with the blowpipe, in order to drink their blood. |
+| hantu-dor-dong-c04 | exact | occult-world.com | Theresa Bane writes that the hantu dodong of India feeds off the blood of wild pigs as well as the blood of humans, like many vampires do. | The hantu dodong of India feeds off the blood of wild pigs as well as the blood of humans, like many vampires do. |
+| hantu-dor-dong-c05 | exact | occult-world.com | According to Bane, this vampire comes into being in a unique way: the evils of humanity give it form and allow it to manifest physically. | this vampire comes into existence in a rather unique way—the evils of humanity give it form and allow it to physically manifest. |
+| hantu-dor-dong-c06 | exact | occult-world.com | According to Bane, once it has a form, it hunts for its prey when not living in its cave. | Once it has a form, when not living in its cave, it hunts for its prey. |
 
 
 ## jara — lulus-otomatis
@@ -317,10 +331,7 @@ Klaim 7 (exact 6, unreachable 1), sumber 2, gambar 0.
 
 ## khambrangchak — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (loose 2, exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -328,6 +339,10 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | khambrangchak-c02 | exact | en.wikipedia.org | Lady Khambrangchak's tale concerns a series of mishaps while preparing to visit her birth family. | The folktale of Lady Khambrangchak shows a series of mishaps she causes while preparing to visit her family of birth. She is later forgiven by the judging king, declaring it as a nature of women to be emotional during such preparation. |
 | khambrangchak-c03 | loose | en.wikipedia.org | Alternative names include Khambrangchak Pidonnu and Khambrangchak Tonsenu. | Khambrangchak is often known as "Khambrangchak Pidonnu" (Meitei: ꯈꯝꯕ꯭ꯔꯥꯡꯆꯥꯛ ꯄꯤꯗꯣꯟꯅꯨ) or "Khambrangchak Tonsenu" (Meitei: ꯈꯝꯕ꯭ꯔꯥꯡꯆꯥꯛ ꯇꯣꯟꯁꯦꯅꯨ). |
 | khambrangchak-c04 | exact | en.wikipedia.org | Scholars differ in identifying the bird as a yellow wagtail or white pied wagtail. | Some scholars identity Khambrangchak as yellow wagtail. Some scholars identify Khambrangchak as white pied wagtail. |
+| khambrangchak-c05 | exact | archive.org | In this collected Manipuri folktale, Khambraangchak Tonsenu is a bird who loved to be always neat and tidy, washing her plumes often and applying make-up on her face. | Khambraangchak Tonsenu. She was a bird. She loved to be always neat and tidy. She would wash her plumes often and apply make-up on her face. |
+| khambrangchak-c06 | exact | archive.org | One day she was getting ready to visit her parents and went to the river to wash her feet. | One day she was getting ready to visit her parents. She wanted to wash her feet, so she went to the river. |
+| khambrangchak-c07 | exact | archive.org | A crab that had earlier been stepped on by a pair of cows from a brahmin family bit Khambraangchak's foot the second time it was stepped on. | Earlier, a pair of cows from a brahmin family had stepped on him while they were crossing the river. A second time was unbearable. So he bit the foot of Khambraangchak. |
+| khambrangchak-c08 | exact | archive.org | In this version the king declares the root cause of the incident to be the couple who owned the cows, who should have kept them bound. | The root cause of the whole incident is you two. You should have kept your cows bound and not loose. |
 
 
 ## khetor — lulus-otomatis

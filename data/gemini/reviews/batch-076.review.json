@@ -1,30 +1,27 @@
 {
   "batch_id": "batch-076",
-  "checked_at": "2026-10-02T00:23:31.002Z",
+  "checked_at": "2026-10-07T05:54:15.230Z",
   "files": [
     "batch-076.md",
     "batch-076-fix-1.md",
-    "batch-076-fix-2.md"
+    "batch-076-fix-2.md",
+    "batch-076-fix-3.md",
+    "batch-076-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "kimpurushas",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "e2e26d812771c29ac29a7c9a18cba1c376c905d4590351972e5cba88515a96e9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kimpurushas-c01",
@@ -85,26 +82,71 @@
           "quote": "Budha transforms a number of women into kimpurushis (female kimpurushas) and instructs them to make a mountain their abode and take kimpurushas for their consorts.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kimpurushas-c07",
+          "source_id": "kimpurushas-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "They guard Kubera's lotus ponds.",
+          "statement_id": "Kimpurusha menjaga kolam teratai milik Kubera.",
+          "quote": "They guard the lotus ponds kept by Kubera to sport with his beloved ones.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kimpurushas-c08",
+          "source_id": "kimpurushas-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Yaksha women are said to be their mothers.",
+          "statement_id": "Perempuan yaksa disebut sebagai ibu mereka.",
+          "quote": "Yakṣa women were their mothers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kimpurushas-c09",
+          "source_id": "kimpurushas-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Kimpurushas are called sons of Pulaha Prajapati.",
+          "statement_id": "Kimpurusa disebut sebagai putra Pulaha Prajapati.",
+          "quote": "Kimpuruṣas were the sons of Pulaha Prajāpati.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kimpurushas-c10",
+          "source_id": "kimpurushas-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In both the Digambara and Svetambara Jain traditions, kimpurushas are a class of kinnara deities.",
+          "statement_id": "Dalam tradisi Digambara dan Svetambara, kimpurusa adalah golongan dewa kinnara.",
+          "quote": "Kimpuruṣa (किम्पुरुष) refers to a class of kinnara deities according to both the Digambara and Śvetāmbara traditions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kimpurushas-c11",
+          "source_id": "kimpurushas-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the Tiloyapannatti, all kimpurushas are golden in appearance.",
+          "statement_id": "Menurut Tiloyapannatti, semua kimpurusa berwarna keemasan.",
+          "quote": "All the Kimpuruṣas are golden in appearance.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "maha-sona",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "75316e424287d6a71215a7fb704db1486c30dec38a21177441d47211ed4779f1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maha-sona-c01",
@@ -165,26 +207,31 @@
           "quote": "Maha Sona is believed to haunt graveyards, searching for human prey. He also haunts large rocks and hills, surrounded by human corpses. Junctions where three roads meet are other haunting grounds of this demon",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "maha-sona-c07",
+          "source_id": "maha-sona-s2",
+          "host": "ignca.gov.in",
+          "statement": "The IGNCA mask catalogue describes Mahasohana as a ritual mask: a demon of the graveyard who feeds on corpses and takes the form of a Bear in the Sanniya Yakuma exorcism.",
+          "statement_id": "Katalog topeng IGNCA menyebut Mahasohana sebagai topeng ritual, iblis kuburan yang memakan mayat dan berwujud beruang dalam pengusiran Sanniya Yakuma.",
+          "quote": "Ritual Mask, Demon of the graveyard who feeds on corpses and takes the form of a Bear in the Sanniya Yakuma excorcism.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mande-barung",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "9fcb10cc4eca044f3a6c06f57c2503933e94483c82582a9daf7b8def2c009f89",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mande-barung-c01",
@@ -205,26 +252,91 @@
           "quote": "Generally described as a large, hairy bipedal hominoid",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mande-barung-c03",
+          "source_id": "mande-barung-s2",
+          "host": "news.mongabay.com",
+          "statement": "Mongabay says it is known locally as the Mande Burung (\"jungle man\").",
+          "statement_id": "Mongabay menyebut makhluk ini dikenal setempat sebagai Mande Burung (\"manusia hutan\").",
+          "quote": "Known locally as the Mande Burung (jungle man)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c04",
+          "source_id": "mande-barung-s2",
+          "host": "news.mongabay.com",
+          "statement": "A witness quoted in the 2007 report describes them as huge and bulky, furry, with heads that looked as if they wore caps, and somewhat blackish brown in colour.",
+          "statement_id": "Seorang saksi dalam laporan 2007 menggambarkannya besar dan tambun, berbulu, kepalanya tampak seperti memakai topi, dan warnanya kecokelatan kehitaman.",
+          "quote": "huge and bulky, furry, heads looked as if they were wearing caps, and their colour was somewhat blackish brown",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c05",
+          "source_id": "mande-barung-s2",
+          "host": "news.mongabay.com",
+          "statement": "A local tourism society official is quoted as saying the footprints they photographed were as big as 13 to 15 inches long.",
+          "statement_id": "Seorang pejabat masyarakat wisata setempat dikutip menyebut jejak kaki yang difoto berukuran 13 hingga 15 inci.",
+          "quote": "The footprints we shot were as big as 13 to 15 inches long",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c06",
+          "source_id": "mande-barung-s2",
+          "host": "news.mongabay.com",
+          "statement": "The Achik Tourism Society says the creature feeds on wild berries, bananas, plantain tree shoots, barks and roots.",
+          "statement_id": "Achik Tourism Society menyebut makhluk ini memakan buah beri liar, pisang, pucuk pohon pisang, kulit kayu, dan akar.",
+          "quote": "Achik Tourism Society says the “mystical monster” feeds on “wild berries, bananas, plantain tree shoots, barks and roots”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c07",
+          "source_id": "mande-barung-s2",
+          "host": "news.mongabay.com",
+          "statement": "According to Mongabay, most scientists dismiss such reported sightings, saying such a creature could hardly avoid wider detection.",
+          "statement_id": "Menurut Mongabay, sebagian besar ilmuwan menolak laporan penampakan semacam ini dengan alasan makhluk seperti itu hampir mustahil luput dari pengamatan yang lebih luas.",
+          "quote": "While most scientists dismiss reported sightings, saying that it would be nearly impossible for such a such creature to avoid wider detection",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c08",
+          "source_id": "mande-barung-s3",
+          "host": "archive.thedailystar.net",
+          "statement": "The 2007 AFP report says the creatures have apparently been spoken of, and occasionally spotted, for years.",
+          "statement_id": "Laporan AFP 2007 menyebut makhluk ini tampaknya sudah lama dibicarakan dan sesekali terlihat.",
+          "quote": "The creatures have apparently been spoken of, and occasionally spotted, for years",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mande-barung-c09",
+          "source_id": "mande-barung-s3",
+          "host": "archive.thedailystar.net",
+          "statement": "Villagers dubbed the mysterious creatures \"Mande Burung\", or Jungle Man.",
+          "statement_id": "Warga desa menamai makhluk misterius ini \"Mande Burung\" atau \"Manusia Hutan\".",
+          "quote": "Villagers have dubbed the mysterious creatures \"Mande Burung\" -- or Jungle Man.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "murkatta",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "b85549d247560daaff2c2b624df5c713b69f80ecb68d601ef93a1194dd74b6e4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "murkatta-c01",
@@ -265,26 +377,51 @@
           "quote": "The  Murkatta is also interpreted as a person whose  head  has  been  cut  down, symbolizing the  defeat or a loss  of  intellect.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "murkatta-c05",
+          "source_id": "murkatta-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Kathmandu, a festival on the day of Ghode Jatra is celebrated to scare away the Murkatta and keep its evil eyes from children.",
+          "statement_id": "Di Kathmandu, festival pada hari Ghode Jatra dirayakan untuk menakut-nakuti Murkatta dan mencegah mata jahatnya mengenai anak-anak.",
+          "quote": "In Kathmandu, Nepal, a festival is celebrated on the day of Ghode Jatra to scare away the Murkatta and prevent its evil eyes from the children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "murkatta-c06",
+          "source_id": "murkatta-s2",
+          "host": "www.wilson-howarth.com",
+          "statement": "The blog author says there is a word, murkatta, in the Nepali language for a headless ghost.",
+          "statement_id": "Penulis blog menyebut ada kata murkatta dalam bahasa Nepal untuk hantu tanpa kepala.",
+          "quote": "There is even a word, murkatta, in the Nepali language for a headless ghost",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "murkatta-c07",
+          "source_id": "murkatta-s2",
+          "host": "www.wilson-howarth.com",
+          "statement": "The author writes that people say ghosts carrying their heads under their arms roamed a hamlet named murkatta in the lowlands of Nepal.",
+          "statement_id": "Penulis menuliskan bahwa orang berkata hantu yang membawa kepala di bawah lengan berkeliaran di sebuah dusun bernama murkatta di dataran rendah Nepal.",
+          "quote": "murkatta, in the Nepali language for a headless ghost: that was the name of a hamlet close to where we lived in the lowlands of Nepal. People say ghosts that carried their heads under their arms roamed there.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "paranimmitavasavatti",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "081e741d6c2b3b8e180d5c0c1a362595d9fb48143b9861a4907f49ca33e4844e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "paranimmitavasavatti-c01",
@@ -335,26 +472,51 @@
           "quote": "インド仏教におけるマーラの観念と、日本で後世に広まった「第六天魔王」の観念は、関連しながらも同じものとして単純に扱うことはできない。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "paranimmitavasavatti-c06",
+          "source_id": "paranimmitavasavatti-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Edgerton gives paranirmitavasavartin as the name of the highest class of kamavacara gods, literally \"controlling (enjoyments) magically created by others\".",
+          "statement_id": "Edgerton menyebut paranirmitavasavartin sebagai nama golongan tertinggi dewa kamavacara, secara harfiah \"mengendalikan (kenikmatan) yang dicipta secara gaib oleh pihak lain\".",
+          "quote": "name of the highest class of kāmāvacara gods, see deva; lit. controlling (enjoyments) magically created by others",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "paranimmitavasavatti-c07",
+          "source_id": "paranimmitavasavatti-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "They rank higher than the nirmanarati, who create their own magical enjoyments.",
+          "statement_id": "Mereka berkedudukan lebih tinggi daripada nirmanarati, yang menciptakan sendiri kenikmatan gaibnya.",
+          "quote": "they rank higher than the nirmāṇarati, who create their own magical enjoyments",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "paranimmitavasavatti-c08",
+          "source_id": "paranimmitavasavatti-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the Mahaprajnaparamitashastra, the paranirmitavasavartin are one of the six groups of gods inhabiting the Kamadhatu.",
+          "statement_id": "Menurut Mahaprajnaparamitasastra, paranirmitavasavartin termasuk enam kelompok dewa yang mendiami Kamadhatu.",
+          "quote": "Paranirmitavaśavartin (परनिर्मितवशवर्तिन्) is part of the six groups of Gods inhabiting the Kāmadhātu (the first of the three worlds)",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sihuhata",
-      "file": "batch-076-fix-1.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "5e22715288889effa7a2151c8a7f0d8ed33c0babf90e1b8c8f24e2a8eafbbe7a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sihuhata-c01",
@@ -415,26 +577,61 @@
           "quote": "The poor boy hires a group of Chinese merchants to build the channel, which is completed in one night. He subsequently marries Simma and becomes the king's son-in-law.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "sihuhata-c07",
+          "source_id": "sihuhata-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "In the legend as retold in this journal article, after three days a boy caught a strange animal like a bear, with black hair, four ears and five eyes.",
+          "statement_id": "Dalam penceritaan ulang legenda di jurnal ini, setelah tiga hari seorang anak laki-laki menangkap hewan aneh seperti beruang berbulu hitam dengan empat telinga dan lima mata.",
+          "quote": "After three days he caught a strange animal that was like a bear, with black hair, and had got four ears and five eyes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sihuhata-c08",
+          "source_id": "sihuhata-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "The next day the boy was very surprised to see the strange beast had digested the coals into gold.",
+          "statement_id": "Keesokan harinya anak itu terkejut melihat hewan aneh itu telah mencerna bara menjadi emas.",
+          "quote": "The next day the boy was very surprised to see that the strange beast had digested the coals into gold.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sihuhata-c09",
+          "source_id": "sihuhata-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "With the help of Indra, the young boy was able to build the gold water gutter and marry the princess.",
+          "statement_id": "Dengan bantuan Indra, anak muda itu mampu membangun talang air emas dan menikahi sang putri.",
+          "quote": "With the help of Indra, the young boy was able to build the gold water gutter and marry the princess.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sihuhata-c10",
+          "source_id": "sihuhata-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "The king asked for the creature to be brought, but the beast was frightened and ran away.",
+          "statement_id": "Raja meminta agar makhluk itu dibawa kepadanya, tetapi makhluk itu ketakutan dan lari.",
+          "quote": "The king asked further to bring Mang Si Hu Ha Ta, but the beast was frightening and ran away.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ten-raksasis",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "a25d9b944ea86c55ea7b2e7190155f8c1aa80ec108a776aa1241f07523063b87",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ten-raksasis-c01",
@@ -495,26 +692,61 @@
           "quote": "Esoteric tradition recognizes the rākṣasīs as avatars of respective Buddhas and bodhisattvas from whom they are believed to have manifested. Accounts vary among texts and school of thought. In Japan, a common account is derived from the ‘’Esoteric Samaya Sutra of the Samādhi Samaya of the Lotus Sutra’’ (妙法蓮華経三昧三昧耶秘密三摩耶経).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ten-raksasis-c07",
+          "source_id": "ten-raksasis-s2",
+          "host": "www.nichirenlibrary.org",
+          "statement": "The Lotus Sutra chapter 26 names ten rakshasa daughters: Lamba, Vilamba, Crooked Teeth, Flowery Teeth, Black Teeth, Much Hair, Insatiable, Necklace Bearer, Kunti, and Stealer of the Vital Spirit of All Living Beings.",
+          "statement_id": "Teks Lotus Sutra bab 26 menyebut sepuluh putri raksasa: Lamba, Vilamba, Gigi Bengkok, Gigi Berbunga, Gigi Hitam, Banyak Rambut, Tak Terpuaskan, Pembawa Kalung, Kunti, dan Pencuri Daya Hidup Semua Makhluk.",
+          "quote": "the first named Lamba, the second named Vilamba, the third named Crooked Teeth, the fourth named Flowery Teeth, the fifth named Black Teeth, the sixth named Much Hair, the seventh named Insatiable, the eighth named Necklace Bearer, the ninth named Kunti, and the tenth named Stealer of the Vital Spirit of All Living Beings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ten-raksasis-c08",
+          "source_id": "ten-raksasis-s2",
+          "host": "www.nichirenlibrary.org",
+          "statement": "The ten rakshasa daughters, together with Mother of Demon Children, her offspring and her attendants, went to the place where the Buddha was.",
+          "statement_id": "Sepuluh putri raksasa itu, bersama Ibu Anak-anak Iblis, anak-anaknya, dan para pengiringnya, menghadap Buddha.",
+          "quote": "These ten rakshasa daughters, along with Mother of Demon Children, her offspring, and her attendants, all proceeded to the place where the Buddha was",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ten-raksasis-c09",
+          "source_id": "ten-raksasis-s2",
+          "host": "www.nichirenlibrary.org",
+          "statement": "The rakshasa daughters vow to use their own bodies to shield and guard those who accept, uphold, read and recite this sutra.",
+          "statement_id": "Para putri raksasa berikrar memakai tubuh mereka sendiri untuk melindungi dan menjaga orang yang menerima, memegang, membaca, dan melafalkan sutra ini.",
+          "quote": "World-Honored One, we will use our own bodies to shield and guard those who accept, uphold, read, recite,",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ten-raksasis-c10",
+          "source_id": "ten-raksasis-s2",
+          "host": "www.nichirenlibrary.org",
+          "statement": "The Buddha praises the rakshasa daughters and says their merit will be immeasurable if they shield and guard those who accept and uphold even the mere name of the Lotus Sutra.",
+          "statement_id": "Buddha memuji para putri raksasa dan menyatakan jasa mereka tak terukur bila mereka melindungi orang yang menerima dan memegang bahkan sekadar nama Lotus Sutra.",
+          "quote": "The Buddha said to the rakshasa daughters, “Excellent, excellent! If you can shield and guard those who accept and uphold the mere name of the Lotus Sutra, your merit will be immeasurable.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "wd-q31324788",
-      "file": "batch-076-fix-1.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "126b043ac5aaa1cc1f68a2de9e24d57f449d89595a1d8416b2dbf89ccbcaa61c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q31324788-c01",
@@ -555,26 +787,61 @@
           "quote": "媚卡拉的寶珠發出的光明是閃電，而拉瑪遜斧頭劈開天空的聲音是雷聲，因此就有了雷電。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "wd-q31324788-c05",
+          "source_id": "wd-q31324788-s2",
+          "host": "www.thaifolk.com",
+          "statement": "In the account summarized by Thaifolk.com, Ramasura was a demon angel possessing a diamond axe.",
+          "statement_id": "Dalam kisah yang dirangkum Thaifolk.com, Ramasura adalah malaikat iblis yang memiliki kapak berlian.",
+          "quote": "Ramasura was a demon angel possessing a diamond axe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q31324788-c06",
+          "source_id": "wd-q31324788-s2",
+          "host": "www.thaifolk.com",
+          "statement": "In one Thai literary account, Rahu asks his friend Ramasura to go with him to catch Mekla in order to favour Shiva, and Ramasura is the one who throws the axe that causes thunder.",
+          "statement_id": "Dalam salah satu karya sastra Thai, Rahu mengajak sahabatnya Ramasura untuk menangkap Mekhala demi menyenangkan Siwa, dan Ramasura yang melempar kapak penyebab guntur.",
+          "quote": "Rahu wanted to catch Mekla in order to favour Shiva. He then asked his friend, Ramasura, to go with him. Ramasura was the one who threw the axe that caused thunders.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q31324788-c07",
+          "source_id": "wd-q31324788-s2",
+          "host": "www.thaifolk.com",
+          "statement": "Some say Ramasura originates from Porasurama in the Ten Episodes of Narayana.",
+          "statement_id": "Sebagian orang berpendapat Ramasura berasal dari Porasurama dalam Sepuluh Episode Narayana.",
+          "quote": "Some say Ramasura originates from Porasurama in the Ten Episodes of Narayana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q31324788-c08",
+          "source_id": "wd-q31324788-s2",
+          "host": "www.thaifolk.com",
+          "statement": "Thaifolk.com describes Ramasura as a demon who uses an axe as his weapon.",
+          "statement_id": "Thaifolk.com menyebut Ramasura sebagai iblis yang memakai kapak sebagai senjatanya.",
+          "quote": "is a demon who uses an axe as his weapon.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "alambala",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "f4fc6a677389e187096938b8e82535326e7c061964da687634e92181f31cd9b5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "alambala-c01",
@@ -625,26 +892,51 @@
           "quote": "最後にガトートカチャはアラムバラの巨体を持ち上げ、地面に叩きつけて殺した。その後",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "alambala-c06",
+          "source_id": "alambala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Wisdom Library describes Alambala as a giant who used to eat human flesh, the son of Jatasura.",
+          "statement_id": "Wisdom Library menyebut Alambala sebagai raksasa pemakan daging manusia, putra Jatasura.",
+          "quote": "A giant who used to eat human flesh. This cannibal was the son of Jaṭāsura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alambala-c07",
+          "source_id": "alambala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Alambala fought on the side of the Kauravas in the Kurukshetra battle because Bhimasena had killed his father, Jatasura.",
+          "statement_id": "Alambala berperang di pihak Kaurava dalam pertempuran Kurukshetra karena Bhimasena telah membunuh ayahnya, Jatasura.",
+          "quote": "This asura (Alambala) fought on the side of the Kauravas in the Kurukṣetra battle because Bhīmasena had killed his father, Jaṭāsura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alambala-c08",
+          "source_id": "alambala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to Wisdom Library, in the battle Ghatotkacha cut off the head of this mighty warrior and magician and threw it into Duryodhana's war-chariot.",
+          "statement_id": "Menurut Wisdom Library, dalam pertempuran itu Ghatotkacha memenggal kepala prajurit perkasa dan pesulap ini lalu melemparkannya ke kereta perang Duryodhana.",
+          "quote": "In the battle, Ghaṭotkaca cut off the head of this mighty warrior and magician and threw his head into the war-chariot of Duryodhana.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bhaia",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-3.md",
+      "entry_sha256": "5401b37332b1e6e98f6d17416acbd3e3e00e9d87c9d0a7d82a2c6e6aa0254c66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bhaia-c01",
@@ -665,26 +957,71 @@
           "quote": "Bhaia (sau Bhaya) este un Demon personificând frica, în mitologia vedică, fratele zeului groazei Mahābhaia.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bhaia-c03",
+          "source_id": "bhaia-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the Mahabharata Adi Parva, Adharma married Nirriti and they had three sons of demoniac disposition: Bhaya, Mahabhaya and Mrityu.",
+          "statement_id": "Menurut Mahabharata Adi Parva, Adharma menikahi Nirriti, dan dari mereka lahir Bhaya, Mahabhaya, dan Mrityu, tiga putra yang berwatak iblis.",
+          "quote": "Adharma married Nirṛtī and to them were born Bhaya, Mahābhaya and Mṛtyu, three sons of demoniac disposition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bhaia-c04",
+          "source_id": "bhaia-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "These three sons led a sinful life.",
+          "statement_id": "Ketiga putra itu menjalani hidup penuh dosa.",
+          "quote": "These three sons led a sinful life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bhaia-c05",
+          "source_id": "bhaia-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the Agni Purana, Himsa is the wife of Adharma; they had a son Anrita and a daughter Nikriti, from whom were born Bhaya, Naraka, Maya and Vedana.",
+          "statement_id": "Menurut Agni Purana, Himsa istri Adharma; mereka punya putra Anrita dan putri Nikriti, dan dari keduanya lahir Bhaya, Naraka, Maya, dan Vedana.",
+          "quote": "Hiṃsā is the wife of Adharma. They got a son named Anṛta and a daughter named Nikṛti. From them were born Bhaya, Naraka, Māyā and Vedanā.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bhaia-c06",
+          "source_id": "bhaia-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In Vedic Hinduism he is one of the three sons of Adharma (\"sin\") and his wife Nirriti (\"misery\").",
+          "statement_id": "Dalam Hinduisme Veda, ia salah satu dari tiga putra Adharma (\"dosa\") dan istrinya Nirriti (\"kesengsaraan\").",
+          "quote": "In Vedic hinduism, he is one of the three sons of Adharma (‘sin’) and his wife Nirṛti (‘misery’).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bhaia-c07",
+          "source_id": "bhaia-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "Mahabhaya is called a Rakshasa born to Adharma and Nirriti, with two brothers named Bhaya and Mrityu.",
+          "statement_id": "Mahabhaya disebut raksasa putra Adharma dan Nirriti, dengan dua saudara bernama Bhaya dan Mrityu.",
+          "quote": "A Rākṣasa. He was born to Adharma by his wife Nirṛti. Mahābhaya had two brothers named Bhaya and Mṛtyu.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "burha-dangoria",
-      "file": "batch-076-fix-1.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "1330e8376321c224f19b1691970a381bd07a96d04031302d5497396388c0ac5a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "burha-dangoria-c01",
@@ -745,26 +1082,61 @@
           "quote": "বহুতে সেই গছৰ গুৰিত বৃহস্পতিবাৰে নাম-কীৰ্তন কৰে, আৰু সদায় গছৰ গুৰি পৰিস্কাৰ কৰি ৰাখে৷",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "burha-dangoria-c07",
+          "source_id": "burha-dangoria-s2",
+          "host": "archive.org",
+          "statement": "Rajkhowa writes that bura-dangaria is a title of respect applied to an elderly Assamese gentleman.",
+          "statement_id": "Rajkhowa menulis bahwa bura-dangaria adalah gelar hormat yang dikenakan pada seorang pria Assam lanjut usia.",
+          "quote": "Bura-dangaria is a title of respect applied to an elderly Assamese gentleman.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burha-dangoria-c08",
+          "source_id": "burha-dangoria-s2",
+          "host": "archive.org",
+          "statement": "The spirit is described as tall in stature, strongly built, and looking like a full-blossomed rose.",
+          "statement_id": "Roh ini digambarkan bertubuh tinggi, kekar, dan tampak seperti mawar yang mekar penuh.",
+          "quote": "He is tall in stature, strongly built and looks like a full-blossomed rose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burha-dangoria-c09",
+          "source_id": "burha-dangoria-s2",
+          "host": "archive.org",
+          "statement": "Of all the spirits, bura-dangaria is said to be the most religiously disposed.",
+          "statement_id": "Dari semua roh, bura-dangaria disebut yang paling religius wataknya.",
+          "quote": "Of all the spirits it is bura-dangaria who is most religiously disposed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "burha-dangoria-c10",
+          "source_id": "burha-dangoria-s2",
+          "host": "archive.org",
+          "statement": "According to Rajkhowa, those who fell a tree haunted by bura-dangaria without propitiating him are scourged with bodily ailments.",
+          "statement_id": "Menurut Rajkhowa, orang yang menebang pohon yang dihuni bura-dangaria tanpa menenangkannya dihukum dengan penyakit badan.",
+          "quote": "a tree haunted by bura-dangaria without propitiating him. The offenders are scourged with bodily ailments.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chakor",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "9b92edbea70190b44b247f863a78128da087fe8d2804decec008d3e3d5df0367",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chakor-c01",
@@ -795,13 +1167,54 @@
           "quote": "Se identifica con la perdiz de Chukar (Alectoris chukar).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chakor-c04",
+          "source_id": "chakor-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "A glossary entry describes the cakora as a bird that lives solely on moonlight.",
+          "statement_id": "Sebuah entri glosarium menyebut cakora sebagai burung yang hidup semata-mata dari cahaya bulan.",
+          "quote": "A bird that lives solely on moonlight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chakor-c05",
+          "source_id": "chakor-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "A Hindi-English dictionary describes the chakor as the Indian red-legged partridge, fabled to subsist upon moon-beams and to eat embers.",
+          "statement_id": "Kamus Hindi-Inggris menyebut cakor sebagai ayam hutan berkaki merah India yang konon hidup dari sinar bulan dan memakan bara.",
+          "quote": "the Indian red-legged partridge (fabled to subsist upon moon-beams and to eat embers)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chakor-c06",
+          "source_id": "chakor-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Another glossary entry describes the cakora as a bird that drinks only water from the Svati Nakshatra.",
+          "statement_id": "Entri glosarium lain menyebut cakora sebagai burung yang hanya minum air dari Svati Naksatra.",
+          "quote": "A bird that drinks only water from the Śvāti Nakṣatra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chakor-c07",
+          "source_id": "chakor-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In a Jain text, the cakora is a kind of partridge said to live on moon-beams.",
+          "statement_id": "Dalam sebuah teks Jain, cakora adalah sejenis ayam hutan yang konon hidup dari sinar bulan.",
+          "quote": "Cakora (चकोर) refers to a kind of partridge (said to live on moon-beams)",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "deuta-bhoot",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "bf15da64053b290306cab4f99a046bce26055d4309ea40414e3c33f074bbf9ac",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -881,20 +1294,15 @@
     },
     {
       "slug": "devantaka",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "3391cd47fef416725e07fb312ebd2052209b358342cde606e28031511beaceeb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "devantaka-c01",
@@ -945,26 +1353,61 @@
           "quote": "ハヌマーンが怒号とともにデーヴァーンタカの頭を殴ると、顔から眼球と舌が飛び出し、絶命した。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "devantaka-c06",
+          "source_id": "devantaka-s2",
+          "host": "valmikiramayan.net",
+          "statement": "In the Ramayana's Yuddha Kanda, Devantaka marches ahead holding a gilded iron bar, resembling an incarnation of Vishnu holding Mount Mandara in his arms.",
+          "statement_id": "Dalam Yuddha Kanda Ramayana, Devantaka maju sambil memegang tongkat besi berlapis emas, tampak seperti penjelmaan Wisnu yang memegang gunung Mandara.",
+          "quote": "Devantaka, holding a glided iron-bar, marched ahead, resembling an incarnation of Vishnu holding Mandara-mountain in his arms.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devantaka-c07",
+          "source_id": "devantaka-s3",
+          "host": "valmikiramayan.net",
+          "statement": "Devantaka, tormented at his brother's calamity, takes a terrific iron rod and runs towards Angada.",
+          "statement_id": "Devantaka, yang menderita karena nasib saudaranya, mengambil tongkat besi yang dahsyat dan berlari menuju Angada.",
+          "quote": "The strong Devantaka, tormented at his brother's calamity, then taking a terrific iron rod, ran towards Angada.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devantaka-c08",
+          "source_id": "devantaka-s3",
+          "host": "valmikiramayan.net",
+          "statement": "Seeing Hanuma rushing with enthusiasm at the battle front, Devantaka ran towards him with his iron rod.",
+          "statement_id": "Melihat Hanuma menyerbu dengan semangat di garis depan, Devantaka berlari ke arahnya dengan tongkat besinya.",
+          "quote": "Seeing Hanuma rushing with enthusiasm in the battle-front, that strong Devantaka ran towards him with his iron rod.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devantaka-c09",
+          "source_id": "devantaka-s3",
+          "host": "valmikiramayan.net",
+          "statement": "Devantaka, the son of Ravana, falls dead with his head crushed by the blow of a fist, his teeth and eyes coming out and his tongue hanging down.",
+          "statement_id": "Devantaka, putra Rahwana, tewas dengan kepala remuk oleh pukulan tinju, gigi dan matanya keluar, dan lidahnya terjulur.",
+          "quote": "That Devantaka, the son of Ravana, with his head crushed and broken by the blow of the fist, with his teeth and eyes coming out and with his tongue hanging down, swiftly fell down dead on the earth.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "devavati",
-      "file": "batch-076-fix-1.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "fba6571e64561ad125d8c2c60e5b0910ef7a67068e32f1d128f67395dd30e237",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "devavati-c01",
@@ -1005,26 +1448,61 @@
           "quote": "তেওঁৰ পুত্ৰ সুমালী আৰু কেতুমতীৰ কন্যা কৈকেষীৰ ঋষি বিশ্ৰবাৰ সৈতে বিবাহ হয় যাৰ ঔৰসত তিনি পুত্ৰ যথাক্ৰমে ৰাৱণ, কুম্ভকৰ্ণ, বিভীষণ আৰু এগৰাকী কন্যা শূৰ্পনখাৰ জন্ম হয়৷",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "devavati-c05",
+          "source_id": "devavati-s2",
+          "host": "gutenberg.org",
+          "statement": "In the Uttara Kanda translation, a virtuous Gandharva named Gramani had a daughter called Devavati, like a second Sri herself.",
+          "statement_id": "Dalam terjemahan Uttara Kanda, seorang gandharwa saleh bernama Grāmani memiliki putri bernama Devavati, seperti Sri kedua.",
+          "quote": "a virtuous Gandharva, named Grāmani, of the effulgence of fire, who had a daughter, called Devavati, like unto a second Sri herself",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devavati-c06",
+          "source_id": "devavati-s2",
+          "host": "gutenberg.org",
+          "statement": "Devavati is famed over the three worlds and endowed with beauty and youth.",
+          "statement_id": "Devavati dikenal di tiga dunia dan dianugerahi kecantikan dan keremajaan.",
+          "quote": "famed over the three worlds, and endowed with beauty and youth",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devavati-c07",
+          "source_id": "devavati-s2",
+          "host": "gutenberg.org",
+          "statement": "That lord of the Rakshasas begot on her three sons: Malyavan, Sumali and Mali.",
+          "statement_id": "Penguasa raksasa itu memperoleh darinya tiga putra: Malyavan, Sumali, dan Mali.",
+          "quote": "And that lord of Rākshasas begot (on her) three sons, resembling his three eyes—the Rākshasas Malyavān, Sumāli and that foremost of the strong—Māli",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devavati-c08",
+          "source_id": "devavati-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "Wisdom Library lists one Devavati as the daughter of the Gandharva called Manimaya.",
+          "statement_id": "Wisdom Library menyebut satu Devavati sebagai putri gandharwa bernama Manimaya.",
+          "quote": "Daughter of the Gandharva called Maṇimaya.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dot",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "9b3f08a784f4b2deb7e233f4c4caeab1ac4b178b541e7aca5ab7d517d7a06d5e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dot-c01",
@@ -1075,26 +1553,71 @@
           "quote": "দৈত্যৰ লগত এটা জলমোনা থাকে। এই জলমোনাটো কোনো মানুহে বশ কৰি ল'ব পাৰিলে সি তেওঁৰ আদেশ মানি চলে।",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dot-c06",
+          "source_id": "dot-s2",
+          "host": "archive.org",
+          "statement": "Rajkhowa says the word dot is derived from the Sanskrit daitya, \"a demon\".",
+          "statement_id": "Rajkhowa menyebut kata dot berasal dari kata Sanskerta daitya, \"iblis\".",
+          "quote": "The word is derived from Sanskrit daitya, a demon.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "dot-c07",
+          "source_id": "dot-s2",
+          "host": "archive.org",
+          "statement": "The dot is said to live in channels, tanks, morasses and shaded out-of-the-way places overgrown with watery plants.",
+          "statement_id": "Dot disebut tinggal di parit, kolam, rawa, dan tempat terpencil yang teduh dan ditumbuhi tanaman air.",
+          "quote": "He lives in channels, tanks, morasses, shaded out-of-the-way places overgrown with watery plants.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dot-c08",
+          "source_id": "dot-s2",
+          "host": "archive.org",
+          "statement": "The dot is described as a slender but tall figure, about 18 feet, with long fingers like spikes.",
+          "statement_id": "Dot digambarkan sebagai sosok ramping tetapi tinggi, sekitar 18 kaki, dengan jari panjang seperti paku.",
+          "quote": "The dot is a slender but tall figure, measuring about 18 feet, with long fingers like spikes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dot-c09",
+          "source_id": "dot-s2",
+          "host": "archive.org",
+          "statement": "The dot neighs like a horse and is powerless to approach a righteous man, much less injure him.",
+          "statement_id": "Dot meringkik seperti kuda, dan tidak berdaya mendekati orang saleh, apalagi mencelakainya.",
+          "quote": "The dot neighs like a horse. He is powerless to approach a righteous man, much less do him any injury.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dot-c10",
+          "source_id": "dot-s2",
+          "host": "archive.org",
+          "statement": "Bereft of his wonderful talisman, the dot loses all powers and becomes a bound servant to the man.",
+          "statement_id": "Bila kehilangan jimat ajaibnya, dot kehilangan semua kekuatan dan menjadi pelayan terikat bagi manusia.",
+          "quote": "Bereft of his wonderful talisman, the dot loses all powers and becomes a bound servant to the man.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "four-yasha",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "6462543c32f6d3d412e088be3d15a0be5458260afa7b892cbd6f0ac2f045922f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "four-yasha-c01",
@@ -1135,26 +1658,51 @@
           "quote": "掛軸画で四夜叉が登場する場合は通常二童子が後ろにいる。その前に四夜叉が2体ずつ左右に青面金剛を囲むように登場する。一番前に登場するのは日光東照宮でもおなじみの「三猿」である",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "four-yasha-c05",
+          "source_id": "four-yasha-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "At the Yashamon Gate, four yasha stand guard, one in each bay.",
+          "statement_id": "Pada Gerbang Yashamon, empat yasha berjaga, satu di tiap ruang.",
+          "quote": "Four yasha stand guard, one in each bay.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-yasha-c06",
+          "source_id": "four-yasha-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Yasha are the attendants of Shomen Kongo, a deity who protects against disease.",
+          "statement_id": "Yasha adalah pengiring Shomen Kongo, dewa pelindung dari penyakit.",
+          "quote": "Yasha are the attendants of Shōmen Kongō, a deity who protects against disease.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-yasha-c07",
+          "source_id": "four-yasha-s3",
+          "host": "projects.mcah.columbia.edu",
+          "statement": "In iconography, Shomen Kongo may be accompanied by two boys (doji) or by four demons.",
+          "statement_id": "Dalam ikonografi, Shomen Kongo dapat ditemani dua anak (doji) atau empat iblis.",
+          "quote": "He may be accompanied by two boys *dōji 童子 or by four demons.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hadala",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "6e90d66be55375df08cda8441feca3f60937a39c070975458a550855ca8910ce",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hadala-c01",
@@ -1205,26 +1753,31 @@
           "quote": "सर्वसाधारण बाळंतपणात मृत्यू झालेल्या स्त्रीचा हा प्रकार असतो.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hadala-c06",
+          "source_id": "hadala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The Molesworth Marathi-English dictionary defines hadala (also hadali) as a female goblin or ghost.",
+          "statement_id": "Kamus Molesworth Marathi-Inggris mendefinisikan hadala (juga hadali) sebagai hantu atau goblin perempuan.",
+          "quote": "haḍaḷa (हडळ) [or हडळी, haḍaḷī].—f A female goblin or ghost.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hantu-dor-dong",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "6613ada37feb0e136ad3b07e1f250f065e4b73ed1e808a676cf4c00774fd0294",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hantu-dor-dong-c01",
@@ -1244,6 +1797,46 @@
           "statement_id": "Cerita itu menyebutnya mengisap darah tikus dan babi hutan.",
           "quote": "Hántu-Dor-Dong var av den lägsta kasten och fick nöja sig med att suga blod från råttor och vildsvin.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-dor-dong-c03",
+          "source_id": "hantu-dor-dong-s2",
+          "host": "archive.org",
+          "statement": "Skeat and Blagden record that the Hantu Dondong resides in caves and the crevices of rocks and kills dogs and wild hogs with the blowpipe in order to drink their blood.",
+          "statement_id": "Skeat dan Blagden mencatat bahwa Hantu Dondong tinggal di gua dan celah batu, dan membunuh anjing serta babi hutan dengan sumpit untuk meminum darahnya.",
+          "quote": "The Hantu Dondong resides in caves and the crevices of rocks, and kills dogs and wild hogs with the blowpipe, in order to drink their blood.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-dor-dong-c04",
+          "source_id": "hantu-dor-dong-s3",
+          "host": "occult-world.com",
+          "statement": "Theresa Bane writes that the hantu dodong of India feeds off the blood of wild pigs as well as the blood of humans, like many vampires do.",
+          "statement_id": "Theresa Bane menyebut hantu dodong dari India memakan darah babi hutan dan darah manusia, seperti banyak vampir.",
+          "quote": "The hantu dodong of India feeds off the blood of wild pigs as well as the blood of humans, like many vampires do.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-dor-dong-c05",
+          "source_id": "hantu-dor-dong-s3",
+          "host": "occult-world.com",
+          "statement": "According to Bane, this vampire comes into being in a unique way: the evils of humanity give it form and allow it to manifest physically.",
+          "statement_id": "Menurut Bane, vampir ini muncul dengan cara unik: kejahatan manusia memberinya wujud dan memungkinkannya menjelma secara fisik.",
+          "quote": "this vampire comes into existence in a rather unique way—the evils of humanity give it form and allow it to physically manifest.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-dor-dong-c06",
+          "source_id": "hantu-dor-dong-s3",
+          "host": "occult-world.com",
+          "statement": "According to Bane, once it has a form, it hunts for its prey when not living in its cave.",
+          "statement_id": "Menurut Bane, setelah memiliki wujud, ia berburu mangsa bila tidak sedang tinggal di guanya.",
+          "quote": "Once it has a form, when not living in its cave, it hunts for its prey.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1338,24 +1931,20 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fb45cd7f85ed977505b897cce2bbad337c86edc36b5fd2436462db5928b05c71"
     },
     {
       "slug": "khambrangchak",
-      "file": "batch-076.md",
+      "file": "batch-076-fix-4.md",
+      "entry_sha256": "ca30f4eadf2186226bd2f031a6921fbfe801399cb510308f0680ba29bb5edb92",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "khambrangchak-c01",
@@ -1395,6 +1984,46 @@
           "statement_id": "Para sarjana berbeda dalam identifikasi burung, antara yellow wagtail dan white pied wagtail.",
           "quote": "Some scholars identity Khambrangchak as yellow wagtail. Some scholars identify Khambrangchak as white pied wagtail.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "khambrangchak-c05",
+          "source_id": "khambrangchak-s2",
+          "host": "archive.org",
+          "statement": "In this collected Manipuri folktale, Khambraangchak Tonsenu is a bird who loved to be always neat and tidy, washing her plumes often and applying make-up on her face.",
+          "statement_id": "Dalam kisah rakyat Manipur yang dikumpulkan ini, Khambraangchak Tonsenu adalah seekor burung yang suka selalu rapi dan bersih, sering mencuci bulunya dan berdandan di wajahnya.",
+          "quote": "Khambraangchak Tonsenu. She was a bird. She loved to be always neat and tidy. She would wash her plumes often and apply make-up on her face.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khambrangchak-c06",
+          "source_id": "khambrangchak-s2",
+          "host": "archive.org",
+          "statement": "One day she was getting ready to visit her parents and went to the river to wash her feet.",
+          "statement_id": "Suatu hari ia bersiap mengunjungi orang tuanya dan pergi ke sungai untuk mencuci kakinya.",
+          "quote": "One day she was getting ready to visit her parents. She wanted to wash her feet, so she went to the river.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khambrangchak-c07",
+          "source_id": "khambrangchak-s2",
+          "host": "archive.org",
+          "statement": "A crab that had earlier been stepped on by a pair of cows from a brahmin family bit Khambraangchak's foot the second time it was stepped on.",
+          "statement_id": "Seekor kepiting yang sudah pernah diinjak sepasang sapi dari keluarga brahmana menggigit kaki Khambraangchak ketika ia menginjaknya untuk kedua kalinya.",
+          "quote": "Earlier, a pair of cows from a brahmin family had stepped on him while they were crossing the river. A second time was unbearable. So he bit the foot of Khambraangchak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khambrangchak-c08",
+          "source_id": "khambrangchak-s2",
+          "host": "archive.org",
+          "statement": "In this version the king declares the root cause of the incident to be the couple who owned the cows, who should have kept them bound.",
+          "statement_id": "Dalam versi ini, raja menyatakan akar masalahnya adalah pasangan pemilik sapi, yang seharusnya mengikat sapi mereka.",
+          "quote": "The root cause of the whole incident is you two. You should have kept your cows bound and not loose.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1478,7 +2107,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "21b127af0db9b80613cda51e0fb98a92645c23940a1d8c3fdc84915e48ff24a5"
     },
     {
       "slug": "kumbha",
@@ -1548,7 +2178,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1d2ba110a311af2fc0fbbb1911d613df855f71b388c29dbf0d3f22af269db238"
     },
     {
       "slug": "lai-phattaba",
@@ -1598,7 +2229,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "893457bdddd666b566035ea07741aafd5887dce3521a53f71fd6f5cf04e6f99b"
     },
     {
       "slug": "lungta",
@@ -1648,7 +2280,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "098852712c7017ccb1a48fa2bf092fbe0b7d1f0460c705161fd07e1996742e40"
     },
     {
       "slug": "masan",
@@ -1698,7 +2331,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f2414d4bf735a3f0452d12bca594ea3db28abbca0ad5269d05c3d70036b67eb0"
     },
     {
       "slug": "mayil-ravanan",
@@ -1778,7 +2412,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b30deb46beeb67aefbed7ce8210a5eb1fc5c28654ee0ea2200108099afcebe1f"
     },
     {
       "slug": "nagakanya",
@@ -1858,7 +2493,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0b2db3b33b7dfd790033914f4c97f87089fe37926e6db865ff170b0133ea973f"
     },
     {
       "slug": "ngi-ngao-kham",
@@ -1918,7 +2554,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ecabdf25b0a0ef7529d09ccdc7b79185197d56adf39e990f020fc66c243ef7ef"
     },
     {
       "slug": "parua",
@@ -1978,7 +2615,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8460058770fa9bcda3a3aff4ada653f87b34e0a762ac2fd9ac30695635df5947"
     },
     {
       "slug": "pebet-bird",
@@ -2048,7 +2686,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "369375d78353869dea1d4d8a862ba7e76b167897750751fe6cd8389fae260a40"
     },
     {
       "slug": "purnabhadra",
@@ -2108,7 +2747,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9a7969448467d7587ca59afa0f9e029bc9a99d259145216e880d1af6429b080b"
     },
     {
       "slug": "reeri-yakseya",
@@ -2188,7 +2828,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "07a2ca49bbd4703199d0af506c837086091b911c1238d87360cd10e518b0c1d5"
     },
     {
       "slug": "sagara",
@@ -2268,7 +2909,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "14dab26383a6b8eb7ad6509d5aee54966f4f0dfbc6591b07478bd28a449de453"
     },
     {
       "slug": "tejimola",
@@ -2328,7 +2970,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ee8f76d5033e2ca5dcf0628e71aee145427f71a0be10f8f1086f8b625c63cc2c"
     },
     {
       "slug": "tenawa",
@@ -2408,7 +3051,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "72193970cf6c6ef02476570022f4a151f39f0fc91b1631a21ace61e4fdb3fe3b"
     },
     {
       "slug": "twenty-eight-messengers-of-vaisravana",
@@ -2458,7 +3102,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0b64082ba3a50f277b0af7020cd424a8bf6950815a78ef846072276d232df8c7"
     },
     {
       "slug": "vinayakas",
@@ -2528,7 +3173,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "79a45f0c878420f367ad92db582077f247e6ad30d9ff58f66a8f1c5676ef25d2"
     },
     {
       "slug": "wd-q109600279",
@@ -2604,7 +3250,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d9aadc7d90f797ca6fbc4b02571ef80aaa1b237017168cb360c0583e9c487010"
     },
     {
       "slug": "wd-q12555853",
@@ -2644,7 +3291,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f1520e608525d1ca4ed0d564f3ffd021ce595d5f7fa98cc398a3da438db1f5d2"
     },
     {
       "slug": "wd-q12973316",
@@ -2714,7 +3362,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a9d974c36d39623ba2c957a37ddbec7375623905eb64e084ba7cf732fa54fe82"
     },
     {
       "slug": "wd-q16311611",
@@ -2754,7 +3403,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f4ff10cc4ddf714a7bab449f04c53b2161b6977521d46f015fa729eb00875cb"
     }
   ]
 }
