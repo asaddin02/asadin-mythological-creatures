@@ -1,18 +1,25 @@
 # Review batch-059
 
-Diperiksa 2026-10-01T08:08:38.031Z. Berkas: batch-059.md, batch-059-fix-1.md, batch-059-fix-2.md, batch-059-fix-3.md.
+Diperiksa 2026-10-07T07:39:06.614Z. Berkas: batch-059.md, batch-059-fix-1.md, batch-059-fix-2.md, batch-059-fix-3.md, batch-059-fix-4.md.
 
 ## utsushihikanasaku — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| utsushihikanasaku-c01 | exact | ja.wikipedia.org | Utsushihikanasaku is a Japanese deity. | 宇都志日金拆命（うつしひかなさくのみこと）は、日本神話に登場する神。 |
-| utsushihikanasaku-c02 | exact | ja.wikipedia.org | Other records call him Hotakami. | 『古事記』では宇都志日金拆命と表記し、その他の史料では穂高見命（ほだかみのみこと）の名で伝わる。 |
+| utsushihikanasaku-c01 | exact | ja.wikipedia.org | Utsushihikanasaku-no-mikoto is a deity who appears in Japanese mythology. | 宇都志日金拆命（うつしひかなさくのみこと）は、日本神話に登場する神。 |
+| utsushihikanasaku-c02 | exact | ja.wikipedia.org | The Kojiki writes his name as Utsushihikanasaku-no-mikoto, while other records know him as Hotakami-no-mikoto. | 『古事記』では宇都志日金拆命と表記し、その他の史料では穂高見命（ほだかみのみこと）の名で伝わる。 |
+| utsushihikanasaku-c03 | exact | ja.wikipedia.org | Toyotama-bime-no-mikoto, consort of Hoori-no-mikoto, and Tamayori-bime-no-mikoto, mother of Emperor Jinmu, are said to be his siblings; he is also said to be the ancestral deity of the Azumi and Umi-inukai clans. | 火遠理命の后である豊玉毘売命、神武天皇の母である玉依毘売命が兄弟姉妹とされる。 また、安曇氏や海犬養氏などの祖神であるという。 |
+| utsushihikanasaku-c04 | exact | kojiki.kokugakuin.ac.jp | The Kojiki divine-name database of Kokugakuin University lists this deity as Utsushihikanasaku-no-mikoto, written 宇都志日金析命. | 宇都志日金析命 読み うつしひかなさくのみこと ローマ字表記 Utsushihikanasakunomikoto |
+| utsushihikanasaku-c05 | exact | kojiki.kokugakuin.ac.jp | According to the database summary, he is a child of the three Watatsumi deities born from Izanagi's purification, and his name is given as the ancestor of the Azumi no Muraji. | 梗概 伊耶那岐神の禊ぎで生まれた三柱の綿津見神の子で、阿曇連等の祖神として名が上がる。 |
+| utsushihikanasaku-c06 | exact | kojiki.kokugakuin.ac.jp | The "utsushi" in his name is read either as an invisible spirit appearing in human form or as "real", and "hi" is taken to mean a divine spirit. | 「宇都志」は顕で不可視の神霊が人の姿となって現れた意かとする説や「現実の」の意とする説がある。「日」は神霊の意とされる。 |
+| utsushihikanasaku-c07 | exact | kojiki.kokugakuin.ac.jp | For "kanasaku", one view links it to swords, and another reads it as net-binding, since the ancestors of the Azumi were sea people who used nets. | 「金析」は、刀剣にまつわる石析神・根析神の名から推すと刀剣に縁のあるものかとして、また海神が蛇体であることにも通じるかとする説や、『類聚名義抄』の「縋」にカナサクの和訓があることから、網かがりの意とし、阿曇連が海人で網を用いる人であると捉えて、その祖がすなわち網をかがる人、編む人でこの神名になったとする説がある。 |
+| utsushihikanasaku-c08 | exact | kojiki.kokugakuin.ac.jp | The Shinsen Shōjiroku records the Azumi no Muraji of Kawachi as descended from 于都斯奈賀命, whom one theory identifies with this deity; its Kawachi section on divine lineages names Hotakami, child of Watatsumi, as the ancestor, and the Kujiki (旧事紀) names Ama-tsukuri-hime. | 『新撰姓氏録』未定雑姓・河内国の安曇連が「于都斯奈賀命」の後裔とあるのを、「奈賀」を「賀奈」と考えるなどして、同じ安曇連の祖神であるこの神と同神と見る説がある。なお、同書河内国神別の安曇連の祖神は、「綿積神命の児、穂高見命」とされている。旧事紀では「天造日女命」が阿曇連らの祖とある。 |
+| utsushihikanasaku-c09 | exact | hotakajinja.com | Hotakami-no-mikoto is the chief deity of Hotaka Shrine at Hotaka in Azumino; its Okumiya (inner shrine) stands at Kamikochi and its Minemiya on Mount Okuhotaka. | 穂高見命を御祭神に仰ぐ穗髙神社は、信州の中心ともいうべき 安曇野市穂高にあります。 そして奥宮は穂高連峰の麓の上高地に祀られており、嶺宮は北アルプスの主峰奥穂高岳に祀られています。 |
+| utsushihikanasaku-c10 | exact | hotakajinja.com | According to the official site of Hotaka Shrine, Hotakami is the ancestral deity of the Watatsumi (sea-god) people, whose descendants, the Azumi, flourished in northern Kyushu and mainly managed sea transport. | 穂高見命は 海神 わたつみ 族の 祖神 おやがみ であり、その 後裔 こうえい である安曇族は北九州方面に栄え主として海運を司り |
+| utsushihikanasaku-c11 | exact | hotakajinja.com | The shrine site describes Hotakami as the chief guardian of the Japan Alps and a deity protecting travel by sea and land. | 御祭神は穂高見命で、日本アルプスの総鎮守、海陸交通守護の神です。 |
+| utsushihikanasaku-c12 | exact | kotobank.jp | According to the Maypedia entry, the enshrined deities of Hotaka Shrine include Hotakami-no-mikoto, who is said to have been enshrined on Mount Hotaka and to have opened up the Azusa River basin. | 旧国幣小社。祭神は穂高見命などで，穂高岳に鎮座して梓川流域を開拓したと伝える。 |
 
 
 ## vuver — lulus-otomatis
@@ -31,19 +38,25 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wakka-us-kamuy — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wakka-us-kamuy-c01 | exact | en.wikipedia.org | Wakka-us Kamuy is the Ainu goddess of freshwater. | Wakka-us Kamuy (Ainu ワッカウシカムイ) is the Ainu kamuy (goddess) of fresh water. |
-| wakka-us-kamuy-c02 | exact | en.wikipedia.org | Petorush Mat is another name, glossed as Watering-place Woman. | She is also known as Petorush Mat (Watering-place Woman). |
-| wakka-us-kamuy-c03 | exact | en.wikipedia.org | She is depicted with long hair and skill in dancing and singing. | Wakka-us Kamuy is portrayed as a long-haired woman who is a skilled dancer and singer. |
-| wakka-us-kamuy-c04 | exact | en.wikipedia.org | People ask her to intercede with other kamuy. | She is sympathetic to humanity, and is sometimes petitioned to intercede with other kamuy on their behalf. |
-| wakka-us-kamuy-c05 | exact | en.wikipedia.org | In a famine story she and Hasinaw-uk Kamuy release the withheld deer and salmon. | Wakka-us Kamuy and the sympathetic Hasinaw-uk Kamuy, while continuing to dance, send their souls to the storehouses and let the deer and salmon loose; in order to avoid making a scene, the other kamuy had no choice but to continue the feast. |
-| wakka-us-kamuy-c06 | exact | en.wikipedia.org | She warns Okikurmi in a dream to uphold the proper rituals. | Afterward, Wakka-us Kamuy sends a dream to Okikurmi, telling him what had happened and why, and warning him to see that the rituals were carried out in proper fashion. |
+| wakka-us-kamuy-c01 | exact | en.wikipedia.org | Wakka-us Kamuy (ワッカウシカムイ) is the Ainu kamuy (goddess) of fresh water. | Wakka-us Kamuy (Ainu ワッカウシカムイ) is the Ainu kamuy (goddess) of fresh water. |
+| wakka-us-kamuy-c02 | exact | en.wikipedia.org | She is also known as Petorush Mat, glossed as "Watering-place Woman". | She is also known as Petorush Mat (Watering-place Woman). |
+| wakka-us-kamuy-c03 | exact | en.wikipedia.org | She is portrayed as a long-haired woman who is a skilled dancer and singer. | Wakka-us Kamuy is portrayed as a long-haired woman who is a skilled dancer and singer. |
+| wakka-us-kamuy-c04 | exact | en.wikipedia.org | She is sympathetic to humanity and is sometimes petitioned to intercede with other kamuy on their behalf. | She is sympathetic to humanity, and is sometimes petitioned to intercede with other kamuy on their behalf. |
+| wakka-us-kamuy-c05 | exact | en.wikipedia.org | In the famine story she and the sympathetic Hasinaw-uk Kamuy, still dancing, send their souls to the storehouses and let the deer and salmon loose, and the other kamuy have no choice but to continue the feast. | Wakka-us Kamuy and the sympathetic Hasinaw-uk Kamuy, while continuing to dance, send their souls to the storehouses and let the deer and salmon loose; in order to avoid making a scene, the other kamuy had no choice but to continue the feast. |
+| wakka-us-kamuy-c06 | exact | en.wikipedia.org | Afterward she sends Okikurmi a dream telling him what had happened and why, and warning him to see that the rituals are carried out properly. | Afterward, Wakka-us Kamuy sends a dream to Okikurmi, telling him what had happened and why, and warning him to see that the rituals were carried out in proper fashion. |
+| wakka-us-kamuy-c07 | exact | en.wikipedia.org | In Ainu mythology she is a benevolent goddess who oversees the river valleys around which Ainu communities centered and is responsible for all fresh water. | In Ainu mythology, Wakka-us Kamuy is a benevolent goddess who oversees the river valleys around which Ainu communities centered and is responsible for all fresh water. |
+| wakka-us-kamuy-c08 | exact | en.wikipedia.org | One myth tells how she ended a famine: petitioned by Okikurmi, the culture hero and sorcerer, she invites the kamuy of the rapids, of fish, of game, the goddess of the hunt Hasinaw-uk Kamuy and the overseer of the land Kotan-kor Kamuy to a feast. | One such myth tells how Wakka-us Kamuy ended a famine that had broken out. Petitioned by Okikurmi, the culture hero and sorcerer, she invites the kamuy of the rapids, the kamuy of fish, the kamuy of game, the goddess of the hunt Hasinaw-uk Kamuy, and the overseer of the land Kotan-kor Kamuy to a feast. |
+| wakka-us-kamuy-c09 | exact | en.wikipedia.org | At the feast the fish kamuy tells her the humans were not killing fish in the proper ritual manner, so he has locked the salmon in his storehouse, and the game kamuy says the same of the deer. | The fish kamuy informs her that the humans were not killing fish in the proper ritual manner, so he has locked the salmon in his storehouse; the game kamuy says the same of the deer. |
+| wakka-us-kamuy-c10 | exact | archive.org | Batchelor writes that Wakka-ush kamui is thus supposed to be essentially good, and is worshipped with offerings of inao and sake and especially prayed to in time of sickness. | As Wakka-ush kamui is thus supposed to be essentially good, she is worshipped by having both inao and sake offered her, and is especially prayed to in time of sickness. |
+| wakka-us-kamuy-c11 | exact | archive.org | Batchelor records that the Ainu recognise one chief deity of all rivers, lakes, ponds, waterfalls and springs, called "the water god" and said to be of the feminine gender. | so there is supposed to be one chief deity of all the rivers, lakes, ponds, waterfalls and springs. ... the water god,’ and is said to be of the feminine gender. |
+| wakka-us-kamuy-c12 | exact | archive.org | Batchelor first supposed the name applied to all the river deities, but was assured it is the name of the chief river god only. | I formerly supposed this was a name for all the river deities, but am assured that it is not so, but the name of the chief river god only. |
+| wakka-us-kamuy-c13 | exact | archive.org | According to Batchelor, she and the goddess of fire are said to be the very chief and best deities upon the earth, and all others are subject to them as mere servants. | In fact, she and the goddess of fire are said to be the very chief and best deities upon the earth, and all others are subject to them as mere servants. |
+| wakka-us-kamuy-c14 | exact | archive.org | According to Batchelor, all small streams and river branches are said to be her offspring and are called kamui-poteke, "god's little hands". | All small streams and river branches are said to be her offspring, and are called kamui-poteke , ‘god’s little hands,’ |
+| wakka-us-kamuy-c15 | exact | archive.org | Batchelor names the deity supposed to stand next in order to her as Pet-otokmat, "the female of the source of rivers". | The deity supposed to stand next in order to her is named Pet-otokmat , ‘ the female of the source of rivers.’ |
 
 
 ## warai-onna — lulus-otomatis
@@ -62,17 +75,17 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## wd-q10282467 — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q10282467-c01 | exact | ja.wikipedia.org | Yūrei-danuki is a transforming tanuki of Inoshiri in Tokushima. | 幽霊狸（ゆうれいだぬき）は、阿波国美馬郡脇町の猪尻村（現・徳島県美馬市）に伝わる化け狸。 |
-| wd-q10282467-c02 | exact | ja.wikipedia.org | It occupies a cemetery tree where the brave Hyōhachi waits to expose it. | 猪尻村の樽井という地の墓場にエノキの大木があり、幽霊狸はこの木の根元を巣としていた。あるときに猪尻村に住む兵八という豪胆者が狸の正体を見抜いてやろうと、斧を手にして出かけ、誰も近寄らなかった大木に登って夜を待った。 |
-| wd-q10282467-c03 | exact | ja.wikipedia.org | It produces an apparition of Hyōhachi’s mother, which he strikes with an axe. | 兵八はさすがに心細くなり、母は本当に死んでしまったのかと下を見下ろすと、棺桶を埋めた地面が盛り上がって母親の幽霊が飛び出し、「親不孝者め、殺してやる!」と襲って来た。兵八は咄嗟に斧を振り上げ、幽霊の頭目掛けて叩きつけた。悲鳴が響き、幽霊は地面へと消えた。 |
-| wd-q10282467-c04 | exact | ja.wikipedia.org | At dawn the tale reveals the corpse of an extremely old tanuki. | やがて夜が明け、地面には数百歳か想像もつかなほどの古狸、幽霊狸の死体が転がっていた。 |
+| wd-q10282467-c01 | exact | ja.wikipedia.org | Yūrei-danuki is a transforming tanuki (bake-danuki) told of in Inoshiri Village, Wakimachi, Mima District, Awa Province (now Mima City, Tokushima Prefecture). | 幽霊狸（ゆうれいだぬき）は、阿波国美馬郡脇町の猪尻村（現・徳島県美馬市）に伝わる化け狸。 |
+| wd-q10282467-c02 | exact | ja.wikipedia.org | In a cemetery at a place called Tarui in Inoshiri Village stood a large enoki tree, and Yūrei-danuki made its nest at its roots. A bold man named Hyōhachi went out with an axe to see through the tanuki's true form and climbed the tree to wait for night. | 猪尻村の樽井という地の墓場にエノキの大木があり、幽霊狸はこの木の根元を巣としていた。あるときに猪尻村に住む兵八という豪胆者が狸の正体を見抜いてやろうと、斧を手にして出かけ、誰も近寄らなかった大木に登って夜を待った。 |
+| wd-q10282467-c03 | exact | ja.wikipedia.org | Hyōhachi grew uneasy and looked down wondering whether his mother had really died; the ground where the coffin was buried swelled up and a ghost of his mother leaped out and attacked him, shouting at him, and Hyōhachi struck the ghost's head with his axe, and it screamed and vanished into the ground. | 兵八はさすがに心細くなり、母は本当に死んでしまったのかと下を見下ろすと、棺桶を埋めた地面が盛り上がって母親の幽霊が飛び出し、「親不孝者め、殺してやる!」と襲って来た。兵八は咄嗟に斧を振り上げ、幽霊の頭目掛けて叩きつけた。悲鳴が響き、幽霊は地面へと消えた。 |
+| wd-q10282467-c04 | exact | ja.wikipedia.org | When dawn came, the corpse of Yūrei-danuki lay on the ground, a very old tanuki whose age was hard to imagine, perhaps hundreds of years. The other villagers who came to look were all impressed by Hyōhachi's courage. | やがて夜が明け、地面には数百歳か想像もつかなほどの古狸、幽霊狸の死体が転がっていた。兵八のこの豪胆さに、様子を見に来た他の村人たち皆が感心したという。 |
+| wd-q10282467-c05 | exact | ja.wikipedia.org | Around midnight a neighbour from Hyōhachi's household came and told him to go home at once because his mother was gravely ill; Hyōhachi was shocked but held back his wish to go home, and the neighbour left. | そろそろ化け物が出るかという真夜中の頃、兵八の家の隣人がやって来た。母親が重病なのですぐに帰れということだった。兵八は驚いたが、辛抱して帰りたい気持ちを堪えたので、隣人は帰って行った。 |
+| wd-q10282467-c06 | exact | ja.wikipedia.org | Soon lantern lights from many houses were seen gathering at Hyōhachi's house, and a funeral procession came to the foot of the great tree, buried a coffin, and left. | すると間もなく、方々の家から提灯の灯りが現れ、兵八の家へ集まって行くのが見えた。やがて葬式の行列が現れ、兵八のいる大木のもとへやって来て、棺桶を埋めて帰って行った。 |
+| wd-q10282467-c07 | exact | zh.wikipedia.org | Chinese Wikipedia describes Yūrei-danuki as a tanuki of legend at Tarui in Inoshiri Village, Wakimachi, Mima District, Awa Province (now Mima City, Tokushima Prefecture). | 幽霊狸（ゆうれいだぬき）是在阿波国美馬郡脇町的猪尻村樽井（現日本德岛县美馬市）传说中的狸猫。 |
 
 
 ## wd-q10301256 — lulus-otomatis

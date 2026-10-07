@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-132",
-  "checked_at": "2026-10-02T05:13:30.285Z",
+  "checked_at": "2026-10-07T07:39:51.861Z",
   "files": [
-    "batch-132.md"
+    "batch-132.md",
+    "batch-132-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -89,7 +90,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d23d862e9832f65016ea6c37a75fa53aa2544ed1f38176babe21f634fa14686d"
     },
     {
       "slug": "petermannchen",
@@ -183,24 +185,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a58483056615f2f720c0c3fe81fa77a352a3d681c3396a5160ac8ad0f96c257"
     },
     {
       "slug": "piztia",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "69c8242c065ca481c193b4786569882884605637ea1cc1bc754c8abb1b9e0b4f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "piztia-c01",
@@ -249,6 +247,56 @@
           "statement": "The song opens by begging the Virgin of Oro to deliver them from the Pistia of Carrascal.",
           "statement_id": "Lagu itu dibuka dengan permohonan kepada Perawan dari Oro agar melindungi mereka dari Pistia di Carrascal.",
           "quote": "Soberana Virgen de Oro, líbranos de todo mal, te lo pedimos a coro, de la Pistia del Carrascal",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piztia-c06",
+          "source_id": "piztia-s3",
+          "host": "www.naiz.eus",
+          "statement": "According to the newspaper, nobody knows for certain what this mythological being looks like; some say it had a single eye, others that it was a giant, others that it might be a dragon.",
+          "statement_id": "Menurut surat kabar itu, tidak ada yang tahu pasti rupa makhluk mitologis ini; sebagian orang menyebutnya bermata satu, ada yang menyebutnya raksasa, dan ada yang mengira ia naga.",
+          "quote": "nadie sabe a ciencia cierta cuál es el aspecto de este ser mitológico. «Algunos dicen que tenía un solo ojo, otro que era un gigante, otros decían que podía ser un dragón",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piztia-c07",
+          "source_id": "piztia-s3",
+          "host": "www.naiz.eus",
+          "statement": "Domaikia's residents stage a theatrical 'hunt for Piztia' to keep alive the legend of a beast that for centuries has frightened Zuia; the newspaper presents it as one more sign of the mythological wealth of Euskal Herria.",
+          "statement_id": "Warga Domaikia mementaskan sandiwara \"perburuan Piztia\" untuk menjaga legenda tentang makhluk yang selama berabad-abad menakuti Zuia ini tetap hidup; pertunjukan itu dinilai surat kabar sebagai satu lagi bukti kekayaan mitologi Euskal Herria.",
+          "quote": "los vecinos de Domaikia abandonaron el pueblo para dar caza a Piztia, una bestia que durante siglos ha atemorizado a Zuia. Esta representación teatral, organizada para mantener viva la leyenda sobre este ser, es una muestra más de la riqueza mitológica de Euskal Herria.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "piztia-c08",
+          "source_id": "piztia-s4",
+          "host": "web.archive.org",
+          "statement": "According to the journalist who wrote this blog post, \"pistia\" is a term widespread in the Basque Country for animals that were not known.",
+          "statement_id": "Menurut penulis blog jurnalistik ini, \"pistia\" adalah istilah yang tersebar di Tanah Basque untuk menyebut binatang yang tidak dikenal.",
+          "quote": "«Pistia» es un término extendido en el País Vasco que se usaba para identificar a aquellos animales que no eran conocidos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piztia-c09",
+          "source_id": "piztia-s4",
+          "host": "web.archive.org",
+          "statement": "According to the tales, during storms or snowfalls the Pistia would leave its lair on Mount Iruratxi at night to attack and devour the livestock grazing nearby and the people crossing the valley that links Domaikia with Jugo and Murguia.",
+          "statement_id": "Menurut kisah-kisah itu, saat badai atau salju turun Pistia keluar malam hari dari sarangnya di gunung Iruratxi untuk menyerang dan memakan ternak yang merumput di sekitarnya serta orang yang melintasi lembah penghubung Domaikia dengan Jugo dan Murguia.",
+          "quote": "Los relatos narran que La Pistia, cuando había tormentas o nevadas, no dudaba en salir por las noches de su escondrijo en el monte Iruratxi y atacar y devorar al ganado que pastaba por los terrenos colindantes, así como a las personas que cruzaban el valle que comunicaba Domaikia con Jugo y Murguia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piztia-c10",
+          "source_id": "piztia-s4",
+          "host": "web.archive.org",
+          "statement": "As Julián de Olabarría relates, the priest of Domaikia himself would leave Murguia before nightfall so that the Pistia of Carrascal would not come out at him.",
+          "statement_id": "Menurut Julián de Olabarría, pastor desa Domaikia sendiri meninggalkan Murguia sebelum malam tiba agar tidak berpapasan dengan Pistia dari Carrascal.",
+          "quote": "El propio cura de Domaikia, como cuenta Julián de Olabarría, abandonaba Murguia antes de que cayera la noche «no sea que me salga la Pistia del Carrascal».",
           "context": "historical-record",
           "status": "exact"
         }
@@ -347,7 +395,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "680ec9044469e3cbc48fd8d1eb40519c0c87e3133adb2ea3589723cb8eadc19f"
     },
     {
       "slug": "pop-corn",
@@ -366,24 +415,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "527e934420f5bcaf038dd5d133f7f662abc794dd49e664dc36237234870074be"
     },
     {
       "slug": "portumno",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "3dbc7e40957e79d8dec49322c1b1ead8821f728b1736d060aa486b33971f1c87",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "portumno-c01",
@@ -424,31 +469,71 @@
           "quote": "Esta divindade mariña pertence á mitoloxía da antiga Italia e no porto do Tíber tiña un templo",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "portumno-c05",
+          "source_id": "portumno-s3",
+          "host": "en.wikisource.org",
+          "statement": "Portunus, or Portumnus, was originally in Roman mythology the god of gates and doors; as such he was identified with Ianus and shown with a key in his hand.",
+          "statement_id": "Portunus, atau Portumnus, pada mulanya dalam mitologi Romawi adalah dewa gerbang dan pintu; dalam peran itu ia disamakan dengan Ianus dan digambarkan memegang kunci.",
+          "quote": "PORTUNUS, or Portumnus, in Roman mythology, originally the god of gates and doors (Lat. porta), and as such identified with Ianus and represented with a key in his hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "portumno-c06",
+          "source_id": "portumno-s3",
+          "host": "en.wikisource.org",
+          "statement": "Gradually he came to be recognised as a separate deity who protected harbours and ensured a safe return to seafarers.",
+          "statement_id": "Lambat laun ia dikenal sebagai dewa tersendiri yang melindungi pelabuhan dan menjamin para pelaut pulang dengan selamat.",
+          "quote": "Gradually he came to be recognized as a separate deity, who protected the harbours (portus) and ensured a safe return to seafarers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "portumno-c07",
+          "source_id": "portumno-s3",
+          "host": "en.wikisource.org",
+          "statement": "With the introduction of the Greek gods he was merged with Palaemon-Melicertes. He had a special priest (flamen portunalis) and temples on the Tiber near the Aemilian bridge and near Ostia, where a festival in his honour was held on 17 August.",
+          "statement_id": "Setelah dewa-dewa Yunani diperkenalkan, ia menyatu dengan Palaemon-Melicertes. Ia memiliki imam khusus (flamen portunalis) serta kuil di tepi Tiber dekat Jembatan Aemilius dan dekat Ostia, tempat perayaan untuknya diadakan pada 17 Agustus.",
+          "quote": "With the introduction of the Greek gods, he became merged in Palaemon-Melicertes. He had a special priest (flamen portunalis) and temples on the Tiber near the Aemilian bridge and near Ostia, where a festival was celebrated in his honour on the 17th of August.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "portumno-c08",
+          "source_id": "portumno-s3",
+          "host": "en.wikisource.org",
+          "statement": "Mommsen unhesitatingly identifies Portunus with the river-god Tiberinus, because the festival is also called Tiberinalia in the fasti of Philocalus; Marquardt instead regards him as the tutelary deity of warehouses.",
+          "statement_id": "Mommsen tanpa ragu menyamakan Portunus dengan dewa sungai Tiberinus, karena perayaannya dalam fasti Philocalus juga disebut Tiberinalia; Marquardt justru menganggapnya dewa pelindung gudang.",
+          "quote": "Mommsen unhesitatingly identifies Portunus with the river-god Tiberinus, from the fact that the festival is also called Tiberinalia in the fasti of Philocalus; Marquardt regards him rather as the tutelary deity of warehouses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "portumno-c09",
+          "source_id": "portumno-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In this ship-race episode the nymphs, Phorcus and Panopea heard a sailor's vow, and old Portunus pushed the galley on and sped it to the land.",
+          "statement_id": "Dalam kisah balapan kapal ini, para nimfa, Phorcus, dan Panopea mendengar sumpah seorang pelaut, dan Portunus yang tua mendorong kapalnya hingga mencapai daratan.",
+          "quote": "The choir of nymphs, and Phorcus, from below, With virgin Panopea, heard his vow; And old Portunus, with his breadth of hand, Push’d on, and sped the galley to the land.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "rahovart",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "ce12ca4c70502ea0abfc2586c4082437c77fdbfeafc297bddaa576e9b9734a59",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "culture",
-          "message": "Mengusulkan tradisi baru: \"Demonologi Eropa\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rahovart-c01",
@@ -464,8 +549,8 @@
           "id": "rahovart-c02",
           "source_id": "rahovart-s1",
           "host": "en.wikipedia.org",
-          "statement": "Rahovart is assigned to torment the wicked, rich misers and old curmudgeons, and is also charged with avalanches and ghostly torment.",
-          "statement_id": "Rahovart bertugas menyiksa orang jahat, orang kaya yang kikir, dan orang tua pemarah, juga bertanggung jawab atas longsoran dan siksaan gaib.",
+          "statement": "According to the English Wikipedia article, Rahovart is assigned to torment the wicked, rich misers and old curmudgeons, and is also charged with avalanches and ghostly torment.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Inggris, Rahovart ditugaskan menyiksa orang jahat, orang kaya yang kikir, dan orang tua pemarah, serta bertanggung jawab atas longsoran dan siksaan hantu.",
           "quote": "Rahovart is attributed to the torment of evil, rich misers and old curmudgeons. He is also charged with avalanches and ghostly torment.",
           "context": "religious-tradition",
           "status": "exact"
@@ -474,8 +559,8 @@
           "id": "rahovart-c03",
           "source_id": "rahovart-s1",
           "host": "en.wikipedia.org",
-          "statement": "The elderly are reportedly most easily possessed by this demon, and if they die under its influence their souls go into Rahovart's basket until Judgement Day.",
-          "statement_id": "Orang tua konon paling mudah dirasuki iblis ini, dan bila mereka mati di bawah pengaruhnya, jiwa mereka dikumpulkan dalam keranjang Rahovart sampai hari kiamat.",
+          "statement": "According to the English Wikipedia article, the elderly are reportedly most easily possessed by this demon, and if a person dies under its influence the soul is collected into Rahovart's basket until the day of judgment.",
+          "statement_id": "Menurut artikel Wikipedia bahasa Inggris, orang tua dikabarkan paling mudah dirasuki iblis ini, dan jika seseorang mati di bawah pengaruhnya, jiwanya dikumpulkan dalam keranjang Rahovart sampai hari kiamat.",
           "quote": "Reportedly, the elderly are most easily subject to possession by this demon, and if the person should die under the demonic effect, their souls are collected into Rahovart's basket until the day of judgment.",
           "context": "religious-tradition",
           "status": "exact"
@@ -488,6 +573,26 @@
           "statement_id": "Rahovart atau \"Tuan Rahovart\" adalah iblis pendamping Setan yang disebut dalam Moralité karya Durzel, buku Renaisans yang dicetak di Rouen.",
           "quote": "Rahovart, ou \"Senhor Rahovart\", é um demônio e companheiro de Satanás. Ele é referenciado no Moralidade de Durzel, um livro do Renascimento impresso em Rouen.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "rahovart-c05",
+          "source_id": "rahovart-s3",
+          "host": "fr.wikisource.org",
+          "statement": "Collin de Plancy writes that Rahouart is a demon he does not know; in the Moralité du mauvais riche et du ladre, printed undated at Rouen by Durzel and performed at the end of the fifteenth century, Satan has the demon Rahouart as a companion.",
+          "statement_id": "Menurut Collin de Plancy, Rahouart adalah iblis yang tidak ia kenal; dalam Moralité du mauvais riche et du ladre, yang dicetak di Rouen tanpa tahun oleh Durzel dan dimainkan pada akhir abad ke-15, Setan memiliki iblis Rahouart sebagai pendamping.",
+          "quote": "Rahouart, démon que nous ne connaissons pas. Dans la Moralité du mauvais riche et du ladre, imprimée à Rouen, sans date, chez Durzel, et jouée à la fin du quinzième siècle, Satan a pour compagnon le démon Rahouart.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rahovart-c06",
+          "source_id": "rahovart-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In that play, Rahouart carries off the soul of the wicked rich man in his basket when the man is dead.",
+          "statement_id": "Dalam lakon itu, Rahouart membawa pergi jiwa si orang kaya jahat dalam keranjangnya ketika orang itu mati.",
+          "quote": "C’est dans sa hotte que Rahouart emporte l’âme du mauvais riche quand il est mort.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -565,7 +670,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "41fb6462227caa9850f83694d9799e25f3d289ac735a3d084bc8ad0a157bfcc8"
     },
     {
       "slug": "sienese-she-wolf",
@@ -584,7 +690,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "fca2136a0cdd59974ef654b09a0bea085d57737f9b9e2b4d1844437ecdba0cd5"
     },
     {
       "slug": "specter-of-newby-church",
@@ -603,7 +710,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "e168562a890e244943f9ab041eebec0dfeadc520fbeb312418957ef8861c4b8f"
     },
     {
       "slug": "tac",
@@ -687,7 +795,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "109fd23bfdee640e3fae67e0f028e6022b30f5d9dfb9c8421b4dd631d627118a"
     },
     {
       "slug": "tinilau",
@@ -781,22 +890,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "10fb290c5c667275e2c05c51ed7081f88b32bd4da9db7a74e3f5886c9ae65e02"
     },
     {
       "slug": "tomiyauhtecuhtli",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "c8ade9891ce9d3025ef634612a3d2336bed6eb1b891fadae2af5f401cddcac94",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: revistas.inah.gob.mx (tidak bisa dibuka (fetch failed))."
         }
       ],
       "claims": [
@@ -814,8 +925,8 @@
           "id": "tomiyauhtecuhtli-c02",
           "source_id": "tomiyauhtecuhtli-s1",
           "host": "es.wikipedia.org",
-          "statement": "In Acaxochitlán, Tomiyauhtecuhtli is the tlaloque of the south, owner of black maize, now revered as the Christ \"Manuelito\", Señor de Tlamimilolpa.",
-          "statement_id": "Di Acaxochitlán, Tomiyauhtecuhtli adalah tlaloque arah selatan, pemilik jagung hitam, yang kini dihormati sebagai Kristus \"Manuelito\", Señor de Tlamimilolpa.",
+          "statement": "In the south, Tomiyauhtecuhtli (\"lord of the maize flower\" or \"lord of our ears of maize\") is represented as the tlaloque owner of black maize, reinterpreted in the Christ \"Manuelito\", \"Lord of Tlamimilolpa\".",
+          "statement_id": "Di selatan, Tomiyauhtecuhtli (\"tuan bunga jagung\" atau \"tuan bulir jagung kami\") diwujudkan sebagai tlaloque pemilik jagung hitam, yang dinilai ulang dalam diri Kristus \"Manuelito\", \"Tuan Tlamimilolpa\".",
           "quote": "Al sur, Tomiyauhtecuhtli (señor de la flor del maíz o señor de nuestras espigas de maíz), en la representación del tlaloque dueño del maíz negro, revalorado en el Cristo “Manuelito”, “Señor de Tlamimilolpa”.",
           "context": "religious-tradition",
           "status": "exact"
@@ -849,26 +960,73 @@
           "quote": "Його ім'я пов'язане із однойменною горою, поблизу озер Халко та Сохімілько.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "tomiyauhtecuhtli-c06",
+          "source_id": "tomiyauhtecuhtli-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The online Nahuatl dictionary glosses Tomiyauhtecuhtli as a divine or sacred force, \"Our Maize Tassel Lord\", related to the rain and fertility sacred forces called the Tlaloque; he is possibly associated with a mountain and with the neighbourhood of the lakes of Chalco and Xochimilco.",
+          "statement_id": "Kamus Nahuatl daring menerjemahkan Tomiyauhtecuhtli sebagai kekuatan ilahi atau sakral, \"Tuan Jumbai Jagung Kami\", yang berkaitan dengan kekuatan sakral hujan dan kesuburan bernama Tlaloque; ia mungkin dikaitkan dengan sebuah gunung dan dengan kawasan danau Chalco dan Xochimilco.",
+          "quote": "a divine or sacred force; \"Our Maize Tassel Lord\" was related to the rain and fertility sacred forces called the Tlaloque; possibly associated with a mountain and with the neighborhood of the lakes of Chalco and Xochimilco",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tomiyauhtecuhtli-c07",
+          "source_id": "tomiyauhtecuhtli-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Along with Nappatecuhtli and Opochtli, Tomiyauhtecuhtli is counted among the tlaloque; he is also described as one of the four hundred rabbits, the divine forces of pulque.",
+          "statement_id": "Selain Nappatecuhtli dan Opochtli, Tomiyauhtecuhtli termasuk tlaloque; ia juga disebut salah satu dari empat ratus kelinci, kekuatan ilahi pulque.",
+          "quote": "Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were divine forces of pulque), and the tepictoton, small legless figures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tomiyauhtecuhtli-c08",
+          "source_id": "tomiyauhtecuhtli-s4",
+          "host": "revistas.inah.gob.mx",
+          "statement": "According to this article, each Tlaloque is in charge of one direction: Opochtli the north, Nappatecuhtli the east, Yauhqueme the west and Tomiyauhtecutli the south.",
+          "statement_id": "Menurut artikel ini, setiap Tlaloque menangani satu arah mata angin: Opochtli utara, Nappatecuhtli timur, Yauhqueme barat, dan Tomiyauhtecutli selatan.",
+          "quote": "Como hemos visto anteriormente cada Tlaloque se encarga de un rumbo, Opochtli se encarga del norte, Nappatecuhtli dios del este, Yauhqueme del oeste y por ultimo Tomiyauhtecutli del sur.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
+        },
+        {
+          "id": "tomiyauhtecuhtli-c09",
+          "source_id": "tomiyauhtecuhtli-s4",
+          "host": "revistas.inah.gob.mx",
+          "statement": "According to this article, each god looked after an ear of maize: Opochtli the white, Nappatecuhtli the red, Yauhqueme the yellow and Tomiyauhtecutli the black.",
+          "statement_id": "Menurut artikel ini, setiap dewa menjaga satu tongkol jagung: Opochtli yang putih, Nappatecuhtli yang merah, Yauhqueme yang kuning, dan Tomiyauhtecutli yang hitam.",
+          "quote": "También cada dios cuidaba una mazorca, Opochtli cuidaba la mazorca blanca, Nappatecuhtli cuidaba la mazorca roja, Yauhqueme cuidaba la amarilla y Tomiyauhtecutli la negra.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
+        },
+        {
+          "id": "tomiyauhtecuhtli-c10",
+          "source_id": "tomiyauhtecuhtli-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to the origin myth, the \"Collateral Christ\", whose feast falls from 2 to 11 May, is made of maize paste and was found beside the 16th-century open chapel among flowering maize canes, a toponymic emblem of Acaxochitlán.",
+          "statement_id": "Menurut mitos asal-usulnya, \"Kristus Kolateral\", yang pestanya jatuh pada 2 sampai 11 Mei, terbuat dari adonan jagung dan ditemukan di samping kapel terbuka abad ke-16 di antara batang jagung berbunga, lambang nama tempat Acaxochitlán.",
+          "quote": "De acuerdo al mito de origen, el “Cristo Colateral”, en quién recae la fiesta del 2 al 11 de mayo, está hecho de pasta de maíz, y fue hallado a un costado de la capilla abierta del siglo XVI, entre cañas de maíz floreando, distintivo toponímico de Acaxochitlán",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "u-scultone",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "ff42945edae2776c86c25207a44bf5bf91e7f9dffa8d32336627f7037dfb50f6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "u-scultone-c01",
@@ -904,10 +1062,70 @@
           "id": "u-scultone-c04",
           "source_id": "u-scultone-s2",
           "host": "co.wikipedia.org",
-          "statement": "In the Corsican version U Scultone is a reptile-like, dragon-like animal that killed people and animals, lived among the shrubs and was immortal.",
-          "statement_id": "Dalam versi Korsika, U Scultone adalah hewan mirip reptil seperti naga yang membunuh manusia dan hewan, hidup di semak-semak, dan abadi.",
+          "statement": "According to the Corsican-language Wikipedia article, U Scultone is a reptile-like, dragon-like animal that killed people and animals, lived among the shrubs and was immortal.",
+          "statement_id": "Menurut artikel Wikipedia berbahasa Korsika, U Scultone adalah hewan mirip reptil seperti naga yang membunuh manusia dan hewan, hidup di antara semak-semak, dan abadi.",
           "quote": "U Scultone ghjè un animale rettiliforme simile à un dracone chì uccidìa omi è animali, vivìa trà l'arbusti è era immortale.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c05",
+          "source_id": "u-scultone-s4",
+          "host": "turismobaunei.eu",
+          "statement": "Legend has it that the whole plateau was once at the mercy of a vicious monster, \"Sa Serpente\", a sort of evil dragon that sometimes came out of the Golgo chasm (\"Su Sterru\") demanding human sacrifices.",
+          "statement_id": "Menurut legenda, dahulu seluruh dataran tinggi berada di bawah ancaman monster ganas, \"Sa Serpente\", sejenis naga jahat yang kadang keluar dari jurang Golgo (\"Su Sterru\") dan menuntut korban manusia.",
+          "quote": "Legend has it that once upon a time the entire plateau was at the mercy of a vicious monster, “Sa Serpente”, a sort of evil dragon who would sometimes come out of the chasm of Golgo (“Su Sterru”) demanding human sacrifices.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c06",
+          "source_id": "u-scultone-s4",
+          "host": "turismobaunei.eu",
+          "statement": "Saint Peter prevailed in the clash with the evil reptile and has since been the most beloved saint of the Baunesis, who are grateful to have been freed from the Golgo monster.",
+          "statement_id": "Santo Petrus menang dalam pertarungan melawan reptil jahat itu, dan sejak itu menjadi santo yang paling dicintai orang Baunei yang berterima kasih karena dibebaskan dari monster Golgo.",
+          "quote": "St. Peter prevailed in the clash with the evil reptile and has been the most beloved saint of the Baunesis, eternally grateful for being freed from the Golgo monster, ever since.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c07",
+          "source_id": "u-scultone-s4",
+          "host": "turismobaunei.eu",
+          "statement": "According to another version of the legend, \"Su Sterru\" opened up the ground of Golgo and swallowed \"Sa Serpente\" when Saint Peter threw the evil monster to the ground.",
+          "statement_id": "Menurut versi lain legenda itu, \"Su Sterru\" membuka tanah Golgo dan menelan \"Sa Serpente\" ketika Santo Petrus melemparkan monster jahat itu ke tanah.",
+          "quote": "According to another version of the legend, however, “Su Sterru” opened up the ground of Golgo, swallowing “Sa Serpente”, when St. Peter threw the evil monster to the ground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c08",
+          "source_id": "u-scultone-s3",
+          "host": "www.sardegnaturismo.it",
+          "statement": "Su Sterru, the chasm on the Golgo plateau, was said to be the lair of a serpent (su scultone), whose threat was averted by building the nearby church of Saint Peter in the 17th century.",
+          "statement_id": "Su Sterru, jurang di dataran tinggi Golgo, konon adalah sarang seekor ular (su scultone), yang ancamannya dijauhkan dengan pembangunan gereja Santo Petrus di dekatnya pada abad ke-17.",
+          "quote": "si diceva fosse tana di un serpente (su scultone), la cui minaccia fu allontanata con la costruzione (XVII secolo) della vicina chiesa di san Pietro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c09",
+          "source_id": "u-scultone-s1",
+          "host": "it.wikipedia.org",
+          "statement": "According to the \"see also\" note in the article, the scultone, like the basilisk, can kill with its gaze and is fought with a mirror.",
+          "statement_id": "Menurut catatan \"lihat pula\" pada artikel itu, scultone, seperti basilisk, dapat membunuh dengan tatapan dan dilawan dengan cermin.",
+          "quote": "lo scultone, come il basilisco, può uccidere con lo sguardo e viene combattuto con uno specchio",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "u-scultone-c10",
+          "source_id": "u-scultone-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The Scultone is one of the protagonists of La Dottoressa Heja e il Drago dei Nuraghi (Edizioni A.Car, 2024), together with various other creatures of Sardinian folklore who unite to face it.",
+          "statement_id": "Scultone adalah salah satu tokoh utama La Dottoressa Heja e il Drago dei Nuraghi (Edizioni A.Car, 2024), bersama beberapa makhluk folklor Sardinia lain yang bersatu untuk menghadapinya.",
+          "quote": "Lo Scultone è uno dei protagonisti de La Dottoressa Heja e il Drago dei Nuraghi (Edizioni A.Car, 2024), insieme a varie altre creature del folklore sardo che si uniranno per affrontarlo.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -985,24 +1203,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0b23bd11fc1a55f7117af07f2f92a5d4310033d98b5b1b5828b41f9b5089855c"
     },
     {
       "slug": "wd-q3607226",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "a965d5715e61a353dbb21b75bf75d2f0db053894f2dd1f8404c3d1bf9fb35f11",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q3607226-c01",
@@ -1051,6 +1265,36 @@
           "statement": "According to the Greek article, Aithe was the reddish-blonde mare that King Echepolus of Sicyon gave to Agamemnon.",
           "statement_id": "Menurut artikel bahasa Yunani, Aithe adalah kuda betina berwarna pirang kemerahan yang dihadiahkan raja Sikyon, Echepolos, kepada Agamemnon.",
           "quote": "Στην ελληνική μυθολογία Αίθη ήταν το όνομα της κοκκινόξανθης φοράδας που χάρισε ο βασιλέας της Σικυώνας Εχέπωλος στον Αγαμέμνονα",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q3607226-c06",
+          "source_id": "wd-q3607226-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Menelaus rose and yoked his fleet horses, Agamemnon's mare Aethe and his own horse Podargus. The mare had been given to Agamemnon by Echepolus son of Anchises so that he need not follow him to Ilius but might stay at home.",
+          "statement_id": "Menelaos bangkit dan memasang kuda-kudanya yang cepat, yaitu kuda betina Agamemnon, Aithe, dan kudanya sendiri, Podargos. Kuda betina itu diberikan kepada Agamemnon oleh Echepolos putra Anchises agar ia tidak perlu mengikutinya ke Ilios dan boleh tinggal di rumah.",
+          "quote": "Next to him, yellow-haired Menelaus son of Atreus rose and yoked his fleet horses, Agamemnon’s mare Aethe, and his own horse Podargus. The mare had been given to Agamemnon by Echepolus son of Anchises, that he might not have to follow him to Ilius, but might stay at home and take his ease",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q3607226-c07",
+          "source_id": "wd-q3607226-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Menelaus was no further behind Antilochus than that and soon caught up again, because Agamemnon's mare Aethe kept pulling stronger and stronger, so that on a longer course he would have passed him with no dead heat.",
+          "statement_id": "Menelaos hanya sejauh itu di belakang Antilokhos; ia segera menyusul lagi karena Aithe, kuda betina Agamemnon, menarik makin kuat, sehingga jika lintasan lebih panjang ia akan melewati Antilokhos tanpa hasil seri.",
+          "quote": "Menelaus was no further than this behind Antilochus, though at first he had been a full disc’s throw behind him. He had soon caught him up again, for Agamemnon’s mare Aethe kept pulling stronger and stronger, so that if the course had been longer he would have passed him, and there would not even have been a dead heat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q3607226-c08",
+          "source_id": "wd-q3607226-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Antilochus urges his horses to overtake the horses of the son of Atreus, or Aethe, who is so fleet, will taunt them.",
+          "statement_id": "Antilokhos mendesak kuda-kudanya agar menyusul kuda-kuda putra Atreus, jika tidak Aithe yang begitu cepat akan mengejek mereka.",
+          "quote": "you must overtake the horses of the son of Atreus and not be left behind, or Aethe who is so fleet will taunt you.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1139,22 +1383,24 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4ce3f6dd557e2178f851ff19f5f628f523b37e644ec79b50a70bddad82f9363b"
     },
     {
       "slug": "yauhqueme",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "2e4f0c429a5520fb05229fc4d7f53d33d7d4c44748e51e7d23101f543864a9f8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: revistas.inah.gob.mx (tidak bisa dibuka (fetch failed))."
         }
       ],
       "claims": [
@@ -1172,8 +1418,8 @@
           "id": "yauhqueme-c02",
           "source_id": "yauhqueme-s1",
           "host": "es.wikipedia.org",
-          "statement": "In Acaxochitlán, Yauhqueme is the tlaloque of the west, owner of yellow maize, now revered as the Christ of Huayotenco, \"Señor de Tlacpac\".",
-          "statement_id": "Di Acaxochitlán, Yauhqueme adalah tlaloque arah barat, pemilik jagung kuning, yang kini dihormati sebagai Kristus dari Huayotenco, \"Señor de Tlacpac\".",
+          "statement": "In the west, Yauhqueme (\"the one dressed in Yauhtli or pericón\") is venerated as the tlaloque owner of yellow maize, reinterpreted in the figure of the Christ of Huayotenco or \"lord of the good road\", as \"Lord of Tlacpac\".",
+          "statement_id": "Di barat, Yauhqueme (\"yang berpakaian Yauhtli atau pericón\") dipuja sebagai tlaloque pemilik jagung kuning, yang dinilai ulang dalam sosok Kristus dari Huayotenco atau \"tuan jalan yang baik\", sebagai \"Tuan Tlacpac\".",
           "quote": "Y al oeste, Yauhqueme (el vestido de Yauhtli o pericón), en veneración del tlaloque dueño del maíz amarillo, resignificado en la figura del Cristo de Huayotenco o “señor del buen camino”, como “Señor de Tlacpac”.",
           "context": "religious-tradition",
           "status": "exact"
@@ -1207,6 +1453,47 @@
           "quote": "Його одяг складався з паперового капелюха, шлейфа із пір'я, смужки паперу на грудях, сандалів. Однією рукою він тримав брязкальце, а іншою — щит.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yauhqueme-c06",
+          "source_id": "yauhqueme-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The online Nahuatl dictionary glosses Yauhqueme as a deity, \"Owner of the Sweet-Scented Marigold Vestment\", one of the deities associated with rain and fertility, the Tlaloque.",
+          "statement_id": "Kamus Nahuatl daring menerjemahkan Yauhqueme sebagai dewa, \"Pemilik Jubah Marigold Beraroma Manis\", salah satu dewa yang berkaitan dengan hujan dan kesuburan, yakni Tlaloque.",
+          "quote": "a deity: \"Owner of the Sweet-Scented Marigold Vestment;\" this was one of the deities associated with rain and fertility, the Tlaloque",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yauhqueme-c07",
+          "source_id": "yauhqueme-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "A hill west of Mexico Tenochtitlan, near Tacubaya, bore the name Yauhqueme.",
+          "statement_id": "Sebuah bukit di sebelah barat Mexico Tenochtitlan, dekat Tacubaya, bernama Yauhqueme.",
+          "quote": "A hill west of Mexico Tenochtitlan, near Tacubaya, had the name Yauhqueme.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yauhqueme-c08",
+          "source_id": "yauhqueme-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "According to the dictionary, Yauhqueme means 'the one dressed in yauhtli' (a fragrant plant); to ensure rain, the god's vestment was applied both to one of these hills and to the child to be sacrificed on its summit.",
+          "statement_id": "Menurut kamus itu, Yauhqueme berarti yang berpakaian yauhtli (tumbuhan harum); untuk menjamin turunnya hujan, pakaian sang dewa dikenakan baik pada salah satu bukit itu maupun pada anak yang akan dikorbankan di puncaknya.",
+          "quote": "Yauhqueme = el vestido de yauhtli [una planta fragante]; para asegurar la lluvia, se aplicaba el vestido del dios tanto a uno de estos cerros como al niño que iba a ser sacrificado en su cima.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yauhqueme-c09",
+          "source_id": "yauhqueme-s4",
+          "host": "revistas.inah.gob.mx",
+          "statement": "According to this article, he dressed in yauhtli, was owner and possessor of water, and wore a paper hat painted the colour of yauhtli with a headdress of quetzal feathers.",
+          "statement_id": "Menurut artikel ini, ia berpakaian yauhtli, pemilik dan penguasa air, mengenakan topi kertas yang dicat warna yauhtli dan hiasan kepala bulu quetzal.",
+          "quote": "El vestía de yauhtli, era dueño y poseedor del agua, vestía con un gorro de papel pintado de color yauhtli , su tocado de plumas de quetzal.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
       "images": []
@@ -1283,24 +1570,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "275cb3ebe7af20bbcca15d33eb1d19fe3b4dccdfd7695d9e20261380ea4ce3cf"
     },
     {
       "slug": "abaste",
-      "file": "batch-132.md",
+      "file": "batch-132-fix-1.md",
+      "entry_sha256": "8340459a5f23b67692a1f48bf3f0fa7e22b4304543f39ff6bcad16410364f1bd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abaste-c01",
@@ -1330,6 +1613,46 @@
           "statement_id": "Menurut sebagian mitografer, Abaste adalah salah satu kuda pemakan manusia milik Diomedes.",
           "quote": "Secondo alcuni mitografi Abaste era uno dei cavalli cannibali di Diomede.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abaste-c04",
+          "source_id": "abaste-s2",
+          "host": "fr.wikisource.org",
+          "statement": "According to Boccaccio (Bocace in French spelling), Abaster is the name of one of the three horses drawing Pluto's chariot; the word means \"black\", the second is called Metheus (\"obscure\") and the third Nonius (\"lukewarm\").",
+          "statement_id": "Menurut Boccaccio (Bocace dalam ejaan Prancis), Abaster adalah nama salah satu dari tiga kuda yang menarik kereta Pluton; kata itu berarti \"hitam\", kuda kedua bernama Metheus (\"gelap\") dan yang ketiga Nonius (\"suam\").",
+          "quote": "C’est, selon Bocace, le nom d’un des trois chevaux qui tiroient le char de Pluton. Ce mot signifie noir ; le second s’appelle metheus, obscur, & le troisième nonius, tiède.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abaste-c05",
+          "source_id": "abaste-s3",
+          "host": "fr.wikisource.org",
+          "statement": "According to the first edition of the Encyclopédie, Abaster is one of the three horses of Pluto's chariot, the black one.",
+          "statement_id": "Menurut Encyclopédie edisi pertama, Abaster adalah salah satu dari tiga kuda kereta Pluton, yaitu yang hitam.",
+          "quote": "l’un des trois chevaux du char de Pluton. C’est le noir.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abaste-c06",
+          "source_id": "abaste-s4",
+          "host": "la.wikisource.org",
+          "statement": "The text says the horses drawing the chariot are three in number; the first is called Metheus, interpreted as \"obscure\".",
+          "statement_id": "Teks ini menyatakan kuda yang menarik kereta itu berjumlah tiga; yang pertama disebut Metheus, yang ditafsirkan sebagai \"gelap\".",
+          "quote": "Sic et equi trahentes tres esse dicuntur. Quorum primus Metheus dicitur, qui interpretatur obscurus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abaste-c07",
+          "source_id": "abaste-s4",
+          "host": "la.wikisource.org",
+          "statement": "The second horse is called Abaster, meaning \"black\", and the text interprets the horse as showing the grief and sadness of one who runs about amid the dangers and fears that almost always loom.",
+          "statement_id": "Kuda kedua disebut Abaster, yang berarti \"hitam\", dan teks itu menafsirkannya sebagai lambang duka dan kesedihan orang yang berlari-lari di tengah bahaya dan ketakutan yang hampir selalu mengancam.",
+          "quote": "Secundus Abaster dictus est, qui idem quod niger sonat, ut appareat discurrentis meror et tristitia circa incumbentia fere semper pericula et pavores.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1423,7 +1746,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "49cf9029b78ae8a18e0857573615d3beb09e6746e39b66f89cebc3402615517f"
     },
     {
       "slug": "alicornio",
@@ -1453,7 +1777,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "65297f9953a4ccd575c78def02c2c94b8c76bb4ef5188092aec8859ed0ba8c5a"
     },
     {
       "slug": "alma-de-mestre",
@@ -1513,7 +1838,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d5da5427a3338c9d09d28cf9460afb7fe326f63d8a456cebdddaf8fcf5862554"
     },
     {
       "slug": "almajonas",
@@ -1543,7 +1869,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eada36309600a6ee7ad003318f4db41ed4b8b3fff8aeb6499695b490bc4681ca"
     },
     {
       "slug": "andresito",
@@ -1562,7 +1889,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "64079bada4261bee16eda7d1d277eb7bde46d82f58fb4dec37b2002a8be75c49"
     },
     {
       "slug": "anxo",
@@ -1581,7 +1909,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "822e96d72b3849091db7e4d89c2a53656b69d08becfa1169be75818846f25987"
     },
     {
       "slug": "avurie",
@@ -1671,7 +2000,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f97a8fd14423c5909eb9e24d4a5d3ad9ac803ba0ea7d9ebe14035035219ec8dd"
     },
     {
       "slug": "babau",
@@ -1741,7 +2071,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9baa3bbec71f21fbb384ed80ae1f624f2b52657aa58775edf75c2f9f2d00d01c"
     },
     {
       "slug": "babieca",
@@ -1771,7 +2102,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1011a4919e1ef9b972b7121385e249e78ad963a4f05010a949bcfcc58c80699a"
     },
     {
       "slug": "badalischio",
@@ -1841,7 +2173,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3b28ba36b00d961ae4b08b2405f4b1d4b6098ab4119fcfa00c6edae7a913daa"
     },
     {
       "slug": "balborinho",
@@ -1921,7 +2254,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "46302f2c823ee2be260a983fe46b40dd8cdb326b5dcc3ed3a0c1236a83246f16"
     },
     {
       "slug": "baldemora",
@@ -1961,7 +2295,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e2502b502cc351aba35ea399d52680669ce9a22105c79130f89d92a09a2fa44b"
     },
     {
       "slug": "banya-verda",
@@ -2001,7 +2336,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f1707822f0fdad7b3ed5be3cd679a2358df7698e71f3fe98adde41e8ab64cb61"
     },
     {
       "slug": "banyoles-monster",
@@ -2105,7 +2441,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7031c5f4247825fe792539989f91a2f265b6ac2493ae25dbab8ea637bdc6e4fe"
     },
     {
       "slug": "basilisc",
@@ -2165,7 +2502,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4ed9cfacad05e9506cf3476c8b28d471b51df438d73b63f94aed3de4f5736b2b"
     },
     {
       "slug": "beerwolf",
@@ -2225,7 +2563,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1fa1d19814613ebd03af94a429bb2ba9e5df4169e5f1c044beea041da6a576b8"
     },
     {
       "slug": "belsam",
@@ -2265,7 +2604,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9132f24dd3d5d9e7975a17468f66e7e94604a5f2e46870fc0e831688f80faeda"
     },
     {
       "slug": "benthameleon",
@@ -2295,7 +2635,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d333e910af454edd8fb926f6a5c2f9fe30ed25f832ceb8e330af7bace96f407a"
     },
     {
       "slug": "bep-kororoti",
@@ -2385,7 +2726,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d9796c5936c9ca13f917134592d35ca06e4c750e23dd9a3d2710aea851fa6328"
     },
     {
       "slug": "berberoka",
@@ -2445,7 +2787,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d82a5cb2756857a71e02202aadff62fed5f626c5384a27c469aa3b385bfb40dd"
     },
     {
       "slug": "bete-a-sept-tetes",
@@ -2525,7 +2868,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "88e650a1e0d1d0d388e19714922f75e1b4785ef19a87a9cd04b1993dad17252d"
     },
     {
       "slug": "bicho-cidrao",
@@ -2565,7 +2909,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d0175d5d01b543509fbf101015e782810a8bbf9fe6dfc38d6e7b28f52b1fd36c"
     },
     {
       "slug": "bicorn",
@@ -2584,7 +2929,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "11bbf6af4dfb2b3101ad0df3bff32111f10aa3fd67626c324fa6921e8a85111f"
     },
     {
       "slug": "bida",
@@ -2674,7 +3020,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6621f0b7f9af166b7245c25e6e9a5028dba4f17310ce7f9b3308f2bf3df38045"
     },
     {
       "slug": "biddrina",
@@ -2764,7 +3111,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1cb9d8783a2b7f2470616e544ec5eed24e66ee7978eee9cfa25b2710950c3b68"
     },
     {
       "slug": "biliku",
@@ -2814,7 +3162,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3da5baea24ed9e2c95db79b4151935baa2c9128f23a41011ec21fec9ad6eb45c"
     },
     {
       "slug": "bisarma",
@@ -2854,7 +3203,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e3b0f0537a380459d8b027946840ea55dab39144bf041502136e364cd20a4e1c"
     },
     {
       "slug": "bisso-galeto",
@@ -2944,7 +3294,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2dd7f1226848ce05af83484f72e6ab72d50067a6883f5c7d52459c8e679fd52e"
     }
   ]
 }

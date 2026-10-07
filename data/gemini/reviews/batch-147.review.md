@@ -1,6 +1,6 @@
 # Review batch-147
 
-Diperiksa 2026-10-07T06:54:41.828Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md, batch-147-fix-4.md, batch-147-fix-5.md, batch-147-fix-6.md.
+Diperiksa 2026-10-07T07:39:04.997Z. Berkas: batch-147.md, batch-147-fix-1.md, batch-147-fix-2.md, batch-147-fix-3.md, batch-147-fix-4.md, batch-147-fix-5.md, batch-147-fix-6.md, batch-147-fix-7.md.
 
 ## basilisco-chilote — lulus-otomatis
 
@@ -493,13 +493,6 @@ Klaim 14 (exact 14), sumber 3, gambar 0.
 
 Klaim 16 (exact 16), sumber 3, gambar 0.
 
-**warn**
-- `claims (jumbee-c15)` Klaim ini tidak dirujuk bagian teks mana pun.
-- `long_description[1]` Tidak muncul di kutipan mana pun: Britain. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[3]` Tidak muncul di kutipan mana pun: Congolese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[2].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("a jumbie is a ghost or spirit of the dead jumbies are…"). Tulis ulang dengan kata-kata sendiri.
-- `stories[0].summary.en` Ada rangkaian 12 kata yang sama persis dengan sumber ("was killed by her husband for trying to free his slaves and…"). Tulis ulang dengan kata-kata sendiri.
-
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | jumbee-c01 | exact | en.wikipedia.org | A jumbee or jumbie is a type of spirit or demon in folklore across Caribbean nations, Colombia, and Venezuela. | A jumbee or jumbie, also known as mendo or chongo in Colombia and Venezuela, is a type of mythological spirit or demon in the folklore of some Caribbean countries. |
@@ -522,128 +515,190 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## ka-a-pora — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ka-a-pora-c01 | exact | es.wikipedia.org | Ka'a Póra or Caapóra is a creature from the mythology of the Tupi tribes. | La Ka'a Póra (en guaraní), Caapóra o Caá Póra es una criatura de la mitología de las tribus tupíes. |
-| ka-a-pora-c02 | exact | es.wikipedia.org | Manifested as a ghostly woman in Rio Grande do Sul and Paraguay, or an enormous man in northeastern Argentina. | Es una mujer fantasma en el estado de Rio Grande do Sul (Brasil), y en el sur del Paraguay o un hombre enorme en el Nordeste argentino. |
-| ka-a-pora-c03 | exact | es.wikipedia.org | Among non-Guaraní indigenous groups, it receives the designation Kripandufuá. | Entre los grupos no guaraníes, recibe el nombre de Kripandufuá. |
+| ka-a-pora-c02 | exact | es.wikipedia.org | It is a ghost woman in the state of Rio Grande do Sul (Brazil) and in southern Paraguay, or an enormous man in northeastern Argentina. | Es una mujer fantasma en el estado de Rio Grande do Sul (Brasil), y en el sur del Paraguay o un hombre enorme en el Nordeste argentino. |
+| ka-a-pora-c03 | exact | es.wikipedia.org | Among non-Guaraní groups it is called Kripandufuá. | Entre los grupos no guaraníes, recibe el nombre de Kripandufuá. |
+| ka-a-pora-c04 | exact | es.wikipedia.org | Ka'a is translated as leaf, plant, forest or vegetation in general, and póra as ghost, so the name would mean ghost of the forest or forest spirit. | ka'a se traduce al español como: hoja, planta, selva, vegetal en general; y póra (nombre de una leyenda paraguaya) se traduce como fantasma por lo que el nombre se significaría fantasma de la selva o espíritu del bosque. |
+| ka-a-pora-c05 | exact | es.wikipedia.org | The Ka'a Póra is portrayed as a woman, owner and protector of the forest animals. If she is on good terms with a hunter she can help him; if not, she will beat his dogs until they writhe in pain, using her invisibility, so that the prey escapes. | La Ka'a Póra es representada como una mujer, dueña y protectora de los animales del monte. Si está en buenas relaciones con un cazador, puede ayudarlo. Si no lo está, apaleará sus perros hasta hacerlos revolcarse de dolor aprovechando su invisibilidad, y permitiendo así que la presa huya. |
+| ka-a-pora-c06 | exact | archive.org | According to Ambrosetti, in the province of Río Grande del Sur the Caá-Porá is also a woman: the owner of all the forest animals, a kind of Diana, who gives a hunter she favours the means to find prey. | En la provincia de Río Grande del Sur, la Caá ... Porá es también una mujer: la dueña de todos los animales del monte, una especie de Diana que, cuando el cazador le cae en gracia, le facilita los medios de encontrar la presa |
+| ka-a-pora-c07 | exact | archive.org | In the province of Paraná, according to Ambrosetti, the Caá-Porá is a hairy, gigantic man with a large head. | la provincia del Paraná, la Caá-Porá es un hombre velludo, gigantesco, de gran cabeza |
+| ka-a-pora-c08 | exact | archive.org | In a legend recorded by Ambrosetti, when people find a herd of wild pigs and wipe it out, the Caá-Porá appears to them riding the last pig, and at the sight the killers are left dazed for life. | Cuando encuentran una piara de cerdos silvestres ... se les aparece, montado en el último cerdo, el Caá-Porá ... a cuya vista los matadores quedan idiotizados para toda la vida |
+| ka-a-pora-c09 | exact | archive.org | For others the Caá-Porá is also a hairy man who smokes a pipe made from a human skull and a tibia, and devours people. | Para otros el Caá-Porá es también un hombre velludo que fuma en una pipa formada por un cráneo humano y una tibia, y devora a la gente |
+| ka-a-pora-c10 | exact | archive.org | In other accounts it becomes simply Porá, a ghost that appears in the shape of a pig or a dog and spits flames from its mouth, frightening the animals. | simple Porá, o fantasma que se aparece en el ... ya sea en forma de cerdo o perro, y lanzando llamas por la boca, asustando así a los animales. |
+| ka-a-pora-c11 | exact | archive.org | Ambrosetti also recorded a legend that refers to the Caá-Porá but under the name Petey, that is, "One". | se refiere a la Caá-Porá; pero bajo el nombre de Petey, es decir, Uno. |
+| ka-a-pora-c12 | exact | archive.org | Ambrosetti writes that the Caá Yarí is one of many genius loci that, like the Caá-Porá, could belong to the same group as the Pacha-Mama. | La Caá Yarí es uno de tantos genius loci que, como la Caá-Porá, podrían pertenecer al mismo grupo que la Pacha-Mama |
+| ka-a-pora-c13 | exact | archive.org | Ambrosetti suggests that the overexcited imagination of woodsmen must give human forms to tree trunks. | La imaginación exaltada de los montaraces ha de dar formas humanas a troncos de árboles |
 
 
 ## kasogonaga — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kasogonaga-c01 | exact | en.wikipedia.org | Kasogonagá is a weather goddess in Toba indigenous cosmology. | Kasogonagá (also spelled as Gasogonaga, Qasoxonaxa, and many other variations) is a Toba weather goddess. |
-| kasogonaga-c02 | exact | en.wikipedia.org | She manifests to shamans (pio'oxonak) during visions induced by psychoactive plants. | She appears to shamans, or pio’oxonak, in visions induced by psychoactive plants |
-| kasogonaga-c03 | exact | en.wikipedia.org | She is described as a colorful animal with a mouth that discharges lightning. | described as a colorful animal with a mouth that shoots lightning. |
+| kasogonaga-c01 | exact | en.wikipedia.org | Kasogonagá (also spelled Gasogonaga, Qasoxonaxa and many other variations) is a Toba weather goddess. | Kasogonagá (also spelled as Gasogonaga, Qasoxonaxa, and many other variations) is a Toba weather goddess. |
+| kasogonaga-c02 | exact | en.wikipedia.org | She appears to shamans (pio’oxonak) in visions induced by psychoactive plants. | She appears to shamans, or pio’oxonak, in visions induced by psychoactive plants |
+| kasogonaga-c03 | exact | en.wikipedia.org | She is described as a colorful animal with a mouth that shoots lightning. | described as a colorful animal with a mouth that shoots lightning. |
+| kasogonaga-c04 | exact | en.wikipedia.org | According to some Toba people, Kasogonagá appears as a multicolored elephant that throws lightning from her mouth; these attributes are related to rain and rainbows. | According to some members of the Toba people, Kasogonagá appears as a multicolored elephant that throws lightning from her mouth. These attributes are related to the rain and rainbows. |
+| kasogonaga-c05 | exact | en.wikipedia.org | Kasogonagá is also described as an anteater that lives in the sky, and sometimes she is said to be a pig. | Alternatively, Kasogonagá is also described as an anteater that lives in the sky. Sometimes she is even said to be a pig. |
+| kasogonaga-c06 | exact | en.wikipedia.org | In one myth Kasogonagá asks a man to build a bonfire so that she can ride its smoke back to the sky; in gratitude she makes it rain and tells the man he can ask her for anything he needs. | She asked the man to build a bonfire so that she could ride the smoke and return to the sky. The man did as she asked, and placed her on top of the bonfire. In her gratitude, she made it rain, and told the man that if he needed anything, he could just ask her. |
+| kasogonaga-c07 | exact | www.redalyc.org | In an account recorded by Terán, Kasogonaga is the lightning but also a small animal; it takes the form of a four-legged little animal and is the owner of the lightning. | Kasogonaga es el rayo, pero también es un animalito. Toma la forma de un animalito de cuatro patas. Es el dueño del rayo. |
+| kasogonaga-c08 | exact | www.redalyc.org | The Toba say that a man in the bush heard someone calling him and found Kasogonaga in the form of a small pig that had fallen from a cloud. | Los Toba dicen que un día un hombre estaba afuera en el monte y escuchó alguien que lo llamaba. Miró quién era y allí estaba Kasogonaga bajo la forma de un pequeño cerdo que se había caído de una nube. |
+| kasogonaga-c09 | exact | www.redalyc.org | In those accounts this celestial being is associated with rain, thunder and lightning; as owner of these atmospheric phenomena, qasoxonaxa can help people in droughts and floods. | En ellos, se observa también una asociación entre dicho ser celestial y la lluvia, los truenos y relámpagos; como dueño de tales fenómenos atmosféricos, qasoxonaxa puede ayudar a los seres humanos ante situaciones de sequía e inundaciones. |
+| kasogonaga-c10 | exact | www.redalyc.org | In Sarra's records from the qom neighbourhood of Derqui, the being is conceived as a sky elephant, a small animal or an anteater, owner of rain and thunder, that lives in the sky above the clouds. | En los relatos, situaciones fragmentarias y dibujos que registré en el barrio qom de Derqui, dicho ser es conceptualizado como un elefante del cielo, como un pequeño animalito o como un oso hormiguero, dueño o dueña de la lluvia y los truenos, que habita en el cielo sobre las nubes |
+| kasogonaga-c11 | exact | www.redalyc.org | The differing descriptions may be due to the metamorphic logic of the qom conception of person and body, which allows different states of one and the same being. | Las diversas descripciones pueden deberse a la lógica metamórfica de la concepción qom de la persona y el cuerpo, que permite diferentes estados de un mismo ser |
+| kasogonaga-c12 | exact | www.redalyc.org | In brief, in those accounts the being has its dwelling in the heavens but can occasionally fall to the earth, and then needs human help to return. | Sintéticamente, en dichos relatos se describe que dicho ser tiene su morada en los cielos pero eventualmente puede caer al plano terrestre, y entonces necesita de la ayuda de los seres humanos para regresar. |
+| kasogonaga-c13 | exact | www.redalyc.org | In the first two accounts people helped it up to the sky by building a large fire; in return qasoxonaxa will help them in droughts or floods. | éstos lo ayudaron a subir al cielo mediante la construcción de un gran fuego; a cambio, qasoxonaxa les ofrecerá ayuda ante sequías o inundaciones |
+| kasogonaga-c14 | exact | www.redalyc.org | A girl in Derqui told Sarra that her grandmother, an elephant in the sky, cures warts, and that when it rains one must put out a hand so that the rain water, together with the appropriate prayers, takes effect. | mi abuela que es un elefante que está en el cielo cura verrugas ... cuando llueve hay que sacar la mano para que el contacto con el agua de la lluvia, junto con los rezos correspondientes, haga su efecto. |
+| kasogonaga-c15 | exact | www.redalyc.org | The mountain qasoxonaxa is situated in the west. | La montaña qasoxonaxa se sitúa al oeste |
 
 
 ## la-condena — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| la-condena-c01 | exact | es.wikipedia.org | La Condená is the name describing an evil female entity in Chilota mythology. | La Condená es el nombre con el cual se describe a un ser maligno femenino de la mitología chilota |
-| la-condena-c02 | exact | es.wikipedia.org | Described as a middle-aged woman around forty to fifty years old. | La Condená se describe como una mujer de mediana edad de alrededor de cuarenta a cincuenta años |
-| la-condena-c03 | exact | es.wikipedia.org | Though beautiful in youth, her lifestyle doomed her to bear a grotesque physical form. | que durante su juventud fue muy hermosa, pero por causa de su mala vida está condenada a llevar una forma humana que representa una mezcla grotesca |
+| la-condena-c01 | exact | es.wikipedia.org | La Condená is the name by which a female malevolent being of Chilote mythology in Chile is described. | La Condená es el nombre con el cual se describe a un ser maligno femenino de la mitología chilota en Chile. |
+| la-condena-c02 | exact | es.wikipedia.org | La Condená is described as a middle-aged woman of about forty to fifty who was very beautiful in her youth but, because of her bad life, is condemned to bear a human form that is a grotesque mixture. | La Condená se describe como una mujer de mediana edad de alrededor de cuarenta a cincuenta años; que durante su juventud fue muy hermosa, pero por causa de su mala vida está condenada a llevar una forma humana que representa una mezcla grotesca |
+| la-condena-c03 | exact | es.wikipedia.org | She was condemned to wander all the roads, dragging along the guilt of a licentious and immoral existence. | se le condenó a vagar por todos los caminos, arrastrando consigo las culpas de haber tenido una existencia licenciosa e inmoral. |
+| la-condena-c04 | exact | es.wikipedia.org | She managed to attract the attention of the Trauco to have relations with him; she is better known as the mother of the Fiura, who is the wife of her own father, the Trauco. | ella logró atraer la atención del Trauco para tener relaciones con él. De esta forma, la Condená logró que germinara en ella la semilla de la perversión de sus actos; y se le conozca más como la madre de la Fiura la cual es esposa de su padre el Trauco. |
+| la-condena-c05 | exact | es.wikipedia.org | The word condená is a synonym of condenada and is used for people who stray from moral conduct and a proper life. | La palabra condená, es un sinónimo de la palabra condenada, que es usada para referirse a personas, que se apartan de una conducta moral y vida adecuada |
+| la-condena-c06 | exact | chiloemitologico.cl | According to Quintana Mansilla, unrestrained pleasures and vices, which bring moral degradation and the disintegration of the human personality, have their genuine representative in Chilote mythology. | Los placeres desenfrenados y los vicios, que traen consigo la degradación moral y la desintegración de la personalidad humana, tienen también su genuino representante en la mitología chilota |
+| la-condena-c07 | exact | chiloemitologico.cl | The myth describes her as a middle-aged woman who was very beautiful in adolescence and youth but, in the maturity of her wretched existence, shows a grotesque mixture of the alluring, the withered and the disfigured by the deep, indelible marks of a dissipated life. | El mito, la describe como una mujer de mediana edad, que fue muy hermosa en su adolescencia y juventud, pero en la madurez de su lamentable existencia, muestra una mezcla grotesca de una insinuante, con lo mustio, y lo desfigurado por las huellas profundas e indelebles, que imprime la vida disipada |
+| la-condena-c08 | exact | chiloemitologico.cl | In her withered womb this spirit of evil took root, giving rise to a deformed and highly perverse creature who at birth was named Fiura. | En las entrañas marchitas de esta eximia inventora y cultora de todos los vicios, de múltiples placeres exóticos, perversiones y excesos de toda índole, germinó este espíritu del mal, dando origen a una criatura deforme y altamente perversa, digna descendiente de una madre depravada y que a su nacimiento recibió el nombre de Fiura. |
+| la-condena-c09 | exact | chiloemitologico.cl | Although the myth has faded, the word "condená" is still used fairly often for people who stray from the clear and straight line of proper moral conduct. | la palabra “condená”, continúa usándose con cierta frecuencia y precisamente, para referirse a personas, que se apartan de la línea clara y recta de una conducta moral adecuada |
+| la-condena-c10 | exact | chiloemitologico.cl | Quintana Mansilla says the personality of La Condená has certain points of contact with the goddess Aphrodite of European mythology. | La personalidad de la Condená, tiene ciertos puntos de contacto, con la diosa Afrodita, de la mitología europea |
+| la-condena-c11 | exact | chiloemitologico.cl | Quintana Mansilla writes that this myth now lies erased by the patina of time. | Si bien este mito, yace en la actualidad, borrado por la pátina del tiempo |
 
 
 ## lang-bobi-suzi — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | lang-bobi-suzi-c01 | exact | en.wikipedia.org | Lang Bobi Suzi is a legend from the Kriol folklore of Belize. | Lang Bobi Suzi is a legend from the Kriol folklore of Belize. |
-| lang-bobi-suzi-c02 | exact | en.wikipedia.org | According to legend, Lang Bobi Suzi is a female monster. | According to the legend, Lang Bobi Suzi is a female monster |
-| lang-bobi-suzi-c03 | exact | en.wikipedia.org | She whips naughty children with giant breasts if they refuse her orders. | whips naughty children with her giant breasts if they refuse to do her bidding. |
+| lang-bobi-suzi-c02 | exact | en.wikipedia.org | According to the legend, Lang Bobi Suzi is a female monster. | According to the legend, Lang Bobi Suzi is a female monster |
+| lang-bobi-suzi-c03 | exact | en.wikipedia.org | She whips naughty children with her giant breasts if they refuse to do her bidding. | whips naughty children with her giant breasts if they refuse to do her bidding. |
+| lang-bobi-suzi-c04 | exact | ja.wikipedia.org | Japanese Wikipedia writes the creature's name in katakana (ラング・ボビ・スジ) and gives the English form Long-Bubby Suzie; it describes a female monster of Belizean Creole tradition. | ラング・ボビ・スジ（Lang Bobi Suzi, 英: Long-Bubby Suzie）は、ベリーズのクレオール伝承で語られる女性の怪物。 |
 
 
 ## mama-d-leau — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mama-d-leau-c01 | exact | en.wikipedia.org | Mama D'Leau derives from French meaning Mother of the River, known also as Mama Dlo and Mama Glo. | Mama D'Leau (derived from the French Maman de l'eau or "Mother of the River"), also known as Mama Dlo and Mama Glo |
-| mama-d-leau-c02 | exact | en.wikipedia.org | She protects and heals river animals in Saint Lucia, Trinidad and Tobago, and Dominica. | is the protector and healer of all river animals, according to the folklore of islands such as Saint Lucia, Trinidad and Tobago and Dominica. |
-| mama-d-leau-c03 | exact | en.wikipedia.org | Depicted as a beautiful woman whose body twists into coils below the waist. | She is usually depicted as a beautiful woman with long hair, who sits on upper body and arms and from her waist downwards twists into coils. |
+| mama-d-leau-c01 | exact | en.wikipedia.org | Mama D'Leau derives from the French Maman de l'eau, "Mother of the River", and is also known as Mama Dlo and Mama Glo. | Mama D'Leau (derived from the French Maman de l'eau or "Mother of the River"), also known as Mama Dlo and Mama Glo |
+| mama-d-leau-c02 | exact | en.wikipedia.org | According to the folklore of islands such as Saint Lucia, Trinidad and Tobago and Dominica, she is the protector and healer of all river animals. | is the protector and healer of all river animals, according to the folklore of islands such as Saint Lucia, Trinidad and Tobago and Dominica. |
+| mama-d-leau-c03 | exact | en.wikipedia.org | She is usually depicted as a beautiful woman with long hair whose body twists into coils from the waist downwards. | She is usually depicted as a beautiful woman with long hair, who sits on upper body and arms and from her waist downwards twists into coils. |
+| mama-d-leau-c04 | exact | en.wikipedia.org | Her tongue becomes forked and she holds a golden comb that she passes through her snaky hair. | Her tongue becomes forked and she holds a golden comb which she passes through her snaky hair. |
+| mama-d-leau-c05 | exact | nowgrenada.com | According to Martin, the French Patwa term Mama-Glo/Mama-Dlo derives from maman de l'eau, "water mother", but is a derivative of Mami-Wata, a river goddess or spirit found throughout West Africa, and also incorporates similar Amerindian beliefs. | The French Patwa term Mama-Glo/Mama-Dlo is derived from the French maman de l’eau: “water mother,” but is a derivative of the Mami-Wata, a river goddess/spirit found throughout Western Africa, and also incorporates similar Amerindian beliefs. |
+| mama-d-leau-c06 | exact | nowgrenada.com | The spirit is described variously as a beautiful woman, a mermaid or an unattractive old woman who can be generous yet deadly if ignored or disobeyed. | The spirit has been variously described as a beautiful woman, a mermaid, or an unattractive old woman who can be generous, yet deadly if ignored or disobeyed. |
+| mama-d-leau-c07 | exact | nowgrenada.com | She has a human head, but her lower half can be fish-like or a large snake, which she can use to strangle her victims. | She has a human head, but her lower half can be fish-like (similar to the European mermaid), or a large snake (derived from its West African progenitor), which she can use to strangle her victims. |
+| mama-d-leau-c08 | exact | nowgrenada.com | The Mama-Glo has been blamed for people disappearing by drowning, usually men who may have spurned her love; she is believed to force anyone who looks at her to do menial tasks such as scratching her back or collecting fallen leaves. | The Mama-Glo has been blamed for the disappearance by drowning of individuals, usually men who may have spurned her love. It is believed that she will force anyone who looks at her to perform menial tasks like scratching her back or collecting fallen leaves. |
+| mama-d-leau-c09 | exact | nowgrenada.com | As the mother of the water, Shango worshippers and certain Spiritual Baptist sects revere(d) her and make/made offerings to her at lakes, rivers and hot springs. | As the mother of the water, Shango worshippers and certain Spiritual Baptist sects regard(ed) her with reverence and made/make offerings to her at lakes, rivers and hot springs. |
+| mama-d-leau-c10 | exact | nowgrenada.com | Martin writes that the Mama Glo combines the European mermaid with the African river goddess, as its diverse characteristics illustrate. | The Mama Glo combines the European mermaid with the African river goddess as illustrated by its diverse characteristics. |
+| mama-d-leau-c11 | exact | nowgrenada.com | Martin calls the Mama Glo a syncretic or Creole creation, like La Diablesse, Soucouyant, Dwenn, Mama Maladie and Papa Bwa, that is unique to Grenadian (and Caribbean) folk culture. | it is a syncretic/Creole creation like La diablesse, Soucouyant, Dwenn, Mama Maladie and Papa Bwa that’s unique to Grenadian (and Caribbean) folk culture |
+| mama-d-leau-c12 | exact | nljdigital.nlj.gov.jm | A National Library of Jamaica record catalogues a print from the series "The Spirit of Trinidad - folklore" describing Mama d'glo as a legendary Trinidad character. | The Spirit of Trinidad - folklore series No. 5. Mama d'glo, legendary Trinidad character. |
 
 
 ## maushop — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| maushop-c01 | exact | en.wikipedia.org | Maushop is a mythical hero and giant in Wampanoag folklore. | is a mythical hero and giant from Wampanoag folklore. |
-| maushop-c02 | exact | en.wikipedia.org | Legend recounts he came from Aquinnah on Martha's Vineyard before the tribe's arrival. | According to legend, he came from Aquinnah on Martha's Vineyard and lived there from before the Wampanoag. |
-| maushop-c03 | exact | en.wikipedia.org | Maushop was considered a tribal provider who taught hunting and fishing. | Maushop was seen as a provider for the Wampanoag, teaching them how to hunt and fish. |
+| maushop-c01 | exact | en.wikipedia.org | Maushop or Moshup is a mythical hero and giant from Wampanoag folklore. | Maushop or Moshup ... is a mythical hero and giant from Wampanoag folklore. |
+| maushop-c02 | exact | en.wikipedia.org | According to legend, he came from Aquinnah on Martha's Vineyard and lived there from before the Wampanoag. | According to legend, he came from Aquinnah on Martha's Vineyard and lived there from before the Wampanoag. |
+| maushop-c03 | exact | en.wikipedia.org | Maushop was seen as a provider for the Wampanoag, teaching them how to hunt and fish. | Maushop was seen as a provider for the Wampanoag, teaching them how to hunt and fish. |
+| maushop-c04 | exact | en.wikipedia.org | Maushop was so large that his diet consisted mainly of whales; to catch them he threw boulders into the water as stepping stones, and the ashes he emptied from his pipe into the ocean at a celebration became Nantucket. | Maushop was so large that his diet consisted mainly of whales. To catch them, he threw boulders into the water to make stepping stones. During a celebration, he emptied his pipe ashes into the ocean, and they became Nantucket. |
+| maushop-c05 | exact | en.wikipedia.org | In one story a crab bites his toe, making him stomp around and leave large footprints in the ground. | At one point, a crab bites his toe causing him to stomp around, leaving large footprints in the ground. |
+| maushop-c06 | exact | en.wikipedia.org | The Wampanoag apparently became too reliant on him, so he left so that they would learn to survive on their own. | The Wampanoag apparently became too reliant on him, so he left so they would learn how to survive on their own. |
+| maushop-c07 | exact | en.wikipedia.org | He is said to have several companions, including a giant frog and his wife Granny Squannit. | He is said to have several companions, including a giant frog and his wife Granny Squannit. |
+| maushop-c08 | exact | wampanoagtribe-nsn.gov | The tribe believes Moshup is responsible for the present shapes of Martha's Vineyard, the Elizabeth Islands, Noman's Land and Nantucket; he is a benevolent being of gigantic frame and supernatural power, sometimes thought of as the devil by those who did not understand him. | Moshup is believed by our tribe to be responsible for the present shapes of Martha's Vineyard, the Elizabeth Islands, Noman's Land, and Nantucket. He is a benevolent being of gigantic frame and supernatural power. He was sometimes thought of as the devil by those who did not understand him. |
+| maushop-c09 | exact | wampanoagtribe-nsn.gov | Moshup's favorite daily food was a broiled whale, usually eaten whole at one meal; he also threw many whales onto the coast for the Wampanoag's supper. | Moshup's favorite daily food was a broiled whale, which he usually ate whole at a meal. He also threw many whales on the coast for the supper of the Wampanoag. |
+| maushop-c10 | exact | wampanoagtribe-nsn.gov | From near the entrance to his den on the Aquinnah Cliffs, Moshup would wade into the ocean, pick up a whale, fling it against the Cliffs to kill it and cook it over the fire that burned continually. | From near the entrance to his den on the Aquinnah Cliffs, Moshup would wade into the ocean, pick up a whale, fling it against the Cliffs to kill it, and then cook it over the fire that burned continually. |
+| maushop-c11 | exact | wampanoagtribe-nsn.gov | The coals of the largest trees he plucked up by the roots, the whale bones, shark's teeth and petrified quahogs still found in the Cliffs are the refuse from Moshup's table. | The coals of the largest trees (which Moshup plucked up by the roots), the bones of the whales, shark's teeth, and petrified quahogs that are still found today in the Cliffs are the refuse from Moshup's table. |
+| maushop-c12 | exact | wampanoagtribe-nsn.gov | A tribal member quoted on the tribe's official site says Moshup was the first schoolmaster, who from his home on the Cliffs taught the people respect. | Moshup was the first schoolmaster. From his home on the Cliffs he taught the people respect |
+| maushop-c13 | exact | wampanoagtribe-nsn.gov | It is said that a benevolent being named Moshup roamed the land; one day, crossing the mainland to the headlands of the Aquinnah Cliffs, he dragged his weary foot and left a deep track in the mud. | There, it is said, a benevolent being named Moshup roamed the land. One day, Moshup was making his way across the mainland to the headlands of the Aquinnah Cliffs. Weary from his journey, Moshup dragged his foot heavily, leaving a deep track in the mud. |
+| maushop-c14 | exact | wampanoagtribe-nsn.gov | Gradually the force of wind and tides broadened and deepened the opening, creating an island named Noepe. | But gradually, the ocean's force of wind and tides broadened and deepened the opening, creating an island named Noepe. |
+| maushop-c15 | exact | wampanoagtribe-nsn.gov | The Aquinnah Wampanoag share the belief that the giant Moshup created Noepe and the neighboring islands, taught their people to fish and catch whales, and still presides over their destinies. | The Aquinnah Wampanoag share the belief that the giant Moshup created Noepe and the neighboring islands, taught our people how to fish and to catch whales, and still presides over our destinies. |
 
 
 ## millalobo — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| millalobo-c01 | exact | en.wikipedia.org | Millalobo is an important being in Chilote mythology whose name combines gold and sea lion. | Millalobo (from the mapudungun milla: "gold" and the Spanish lobo: wolf in allusion to the sea lion) is an important being in Chilote mythology |
-| millalobo-c02 | exact | en.wikipedia.org | The Millalobo resembles a triton, lower half sea lion and upper half human. | The Millalobo is a being like a Triton, lower half sea lion and upper half human, his face a mixture of both. |
-| millalobo-c03 | exact | en.wikipedia.org | He was born from a woman and a sea lion during the conflict of Tenten Vilu and Caicai Vilu. | He was born from the mating between a woman and a sea lion who saved her from drowning, at the time of the mythical battle between Tenten Vilu and Caicai Vilu. |
+| millalobo-c01 | exact | en.wikipedia.org | Millalobo is an important being in Chilote mythology; his name comes from Mapudungun milla ("gold") and Spanish lobo, alluding to the sea lion. | Millalobo (from the mapudungun milla: "gold" and the Spanish lobo: wolf in allusion to the sea lion) is an important being in Chilote mythology |
+| millalobo-c02 | exact | en.wikipedia.org | The Millalobo is a being like a Triton, with the lower half a sea lion and the upper half human, and a face that mixes both. | The Millalobo is a being like a Triton, lower half sea lion and upper half human, his face a mixture of both. |
+| millalobo-c03 | exact | en.wikipedia.org | He was born from the mating of a woman and a sea lion that saved her from drowning, at the time of the mythical battle between Tenten Vilu and Caicai Vilu. | He was born from the mating between a woman and a sea lion who saved her from drowning, at the time of the mythical battle between Tenten Vilu and Caicai Vilu. |
+| millalobo-c04 | exact | en.wikipedia.org | He is the most powerful being of the sea after Caicai and was chosen by Caicai as his representative to govern all that lived in the sea. | He is the most powerful being of the sea after Caicai and was chosen by Caicai to be his representative and govern all that resided in the sea. |
+| millalobo-c05 | exact | en.wikipedia.org | His fur is golden, hence his name; he is said to be unable to talk and to communicate only through a bleat like a sea lion's, whose meaning human beings can understand. | The Millalobo's fur is golden, hence his name. It is said that this mythical being cannot talk and he can only communicate through a bleat similar to the sea lion's, even though, the meaning of his bleat is understandable to human beings. |
+| millalobo-c06 | exact | en.wikipedia.org | The Millalobo lives at the bottom of the sea with his wife Huenchula and their three children, the Pincoya, the Pincoy and La Sirena Chilota, who help him manage the seas. | The Millalobo lives at the bottom of the sea, together with his wife Huenchula and their three children, The Pincoya, The Pincoy and La Sirena Chilota, who help him in his task of managing the seas. |
+| millalobo-c07 | exact | en.wikipedia.org | The Millalobo is the creator of the ghost ship known as the Caleuche, and evil as well as benevolent sea creatures are said to pay him respect. | The Millalobo is the creator of the ghost ship known as Caleuche. It is said that evil sea creatures must pay respect to the Millalobo as well as benevolent ones. |
+| millalobo-c08 | exact | chiloemitologico.cl | According to Quintana Mansilla, the Millalobo lives in the depths of the sea and was conceived by a beautiful woman in love with a sea lion. | El Millalobo, es un destacado personaje que habita en lo más profundo del mar; fue concebido por una hermosa mujer en amores con un lobo marino |
+| millalobo-c09 | exact | chiloemitologico.cl | Quintana Mansilla writes that the Millalobo was invested by Coicoi-vilu as absolute owner of the seas and everything in them. | El Millalobo, fue investido por Coicoi-vilu, como dueño absoluto de los mares y de todo lo en ellos está comprendido. |
+| millalobo-c10 | exact | chiloemitologico.cl | He is described as a strange being the size of a large seal, with a face resembling both a man's and a fish's; the chest looks human and the rest of the body has unmistakable sea-lion forms. | Se le describe como un extraño ser, del tamaño de una foca grande, con el rostro parecido al de un hombre y al de un pez al mismo tiempo. La parte del tórax tiene aspecto humano, el resto de su cuerpo, tiene inconfundibles formas de lobo marino. |
+| millalobo-c11 | exact | chiloemitologico.cl | He is covered in short, shiny, gold-yellow fur, hence his name Millalobo (milla = gold) or "golden wolf". | Está cubierto de un corto y brillante pelaje, color amarillo oro, de ahí su nombre de Millalobo (de milla=oro) o lobo de oro. |
+| millalobo-c12 | exact | chiloemitologico.cl | He is the absolute master of all the seas and the supreme chief of the real or imaginary beings that inhabit them. | Es el amo absoluto de todos los mares y el jefe supremo de los seres reales o imaginarios que en ellos habitan. |
+| millalobo-c13 | exact | chiloemitologico.cl | He shares his life with the beautiful Huenchula, daughter of an old sorceress called "la Huenchur"; three children were born of this union: the Pincoya, the Sirena and the Pincoy. | Comparte su vida con la bella Huenchula, la hija de una vieja hechicera, llamada “la Huenchur”. De esta unión nacieron tres hijos: la Pincoya, la Sirena y el Pincoy. |
+| millalobo-c14 | exact | chiloemitologico.cl | As lord and master he delegates his important functions to several subordinates, from seeding fish and shellfish and tending their growth and multiplication to directing the tides or controlling calms and storms. | Como dueño y señor, de gran poderío, delega sus importantes funciones, en varios miembros subalternos, encargados de hacer cumplir sus mandatos y voluntad: desde sembrar peces y mariscos, cuidar su desarrollo y multiplicación; hasta dirigir las mareas o controlar las calmas y tempestades. |
+| millalobo-c15 | exact | chiloemitologico.cl | Quintana Mansilla equates the Millalobo with Neptune or Poseidon of Greco-Roman mythology. | El Millalobo, equivale a Neptuno o Poseidón, de la mitología grecorromana. |
+| millalobo-c16 | exact | chiloemitologico.cl | On special occasions he goes out with his beloved Huenchula to lonely beaches to enjoy the sun's rays. | En ocasiones especiales, sale con su amada, la Huenchula, a las playas solitarias a disfrutar de los rayos del sol. |
+| millalobo-c17 | exact | www.memoriachilena.gob.cl | Memoria Chilena lists the Millalobo, along with the Pincoya, among the divinities of the ever-present sea in Chilote mythology. | por la otra, las divinidades del mar omnipresente, como el Millalobo o la Pincoya. |
 
 
 ## milton-lizard — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| milton-lizard-c01 | exact | en.wikipedia.org | The Milton Lizard is described as a 15-foot monitor lizard sighted in Cable Creek near Milton. | In Kentucky folklore, the Milton Lizard is a creature described as resembling a 15-foot monitor lizard that purportedly sighted in Cable Creek, near the town of Milton |
-| milton-lizard-c02 | exact | en.wikipedia.org | First sighted in July by Clarence Cable in a wrecking yard north of Milton. | The creature was first seen in July by Clarence "Tuffy" Cable, co-manager of the Blue Grass Body Shop, a junk and wrecking yard located north of Milton. |
-| milton-lizard-c03 | exact | en.wikipedia.org | He watched the lizard crawl from behind vehicle wrecks, hissing repeatedly. | he saw the lizard emerge from behind the wrecked vehicles and it hissed at him several times. |
+| milton-lizard-c01 | exact | en.wikipedia.org | In Kentucky folklore, the Milton Lizard is a creature described as resembling a 15-foot monitor lizard that was purportedly sighted in Cable Creek near the town of Milton. | In Kentucky folklore, the Milton Lizard is a creature described as resembling a 15-foot monitor lizard that purportedly sighted in Cable Creek, near the town of Milton |
+| milton-lizard-c02 | exact | en.wikipedia.org | The creature was first seen in July by Clarence "Tuffy" Cable, co-manager of the Blue Grass Body Shop, a junk and wrecking yard north of Milton. | The creature was first seen in July by Clarence "Tuffy" Cable, co-manager of the Blue Grass Body Shop, a junk and wrecking yard located north of Milton. |
+| milton-lizard-c03 | exact | en.wikipedia.org | He saw the lizard emerge from behind the wrecked vehicles and it hissed at him several times. | he saw the lizard emerge from behind the wrecked vehicles and it hissed at him several times. |
+| milton-lizard-c04 | exact | en.wikipedia.org | The creature was reported near the town of Milton, in Trimble County, Kentucky, in the summer of 1975. | near the town of Milton, in Trimble County, Kentucky, in the summer of 1975. |
+| milton-lizard-c05 | exact | ufologie.patrickgross.org | The catalog records the entity as having a lizard body with black and white stripes and speckles, white beneath the mouth, and large eyes similar to a frog's. | Entities skin color: Black and white stripes and speckles. Entities body: Lizard body. Entities head: White beneath the mouth. Entities eyes: Large, similar to a frog's eyes. |
+| milton-lizard-c06 | exact | en.wikipedia.org | Cable's brother Garrett was the next to see it, on July 27: he saw a pile of old car hoods begin to vibrate and move as the lizard's head and shoulders emerged from beneath the debris. | Cable's brother Garrett was the next to see the creature on July 27. While working in the junkyard, he saw a pile of old car hoods begin to vibrate and move as the lizard's head and shoulders emerged from underneath the debris. |
+| milton-lizard-c07 | exact | en.wikipedia.org | The next day Cable saw the lizard (or one like it) again, this time apparently larger, nearly 15 feet long; after he threw a rock at it, it hissed and fled into some brush. | The next day, Cable saw the lizard (or one similar to it) again, except this time it appeared to be larger—nearly 15 feet in length. After throwing a rock at it, the diminishing beast hissed at him and fled into some brush. |
+| milton-lizard-c08 | exact | en.wikipedia.org | In early August a search party combed the area around the Blue Grass Body Shop for any sign of the lizard, but no evidence was found. | In early August, a search party scoured the area surrounding the Blue Grass Body Shop for any sign of the lizard, but no evidence was found. |
+| milton-lizard-c09 | exact | en.wikipedia.org | Cable theorized that one of the wrecked vehicles they had acquired from one of the western states contained eggs that hatched in the heat of the junkyard. | He theorized that one of the wrecked vehicles they had acquired in the past from one of the western states contained eggs that hatched in the heat of the junkyard. |
+| milton-lizard-c10 | exact | ufologie.patrickgross.org | According to the compiler of this catalog, the story in the local newspaper took place in summer, not October, and involved two junkyard-worker brothers, Clarence and Garrett Cable, who several times glimpsed a big lizard; they tried to shoot it, but it was never found. | It took place in the summer, not October, and involved two brothers, Clarence and Garrett Cable, junkyard workers, who on several occasions glimpsed at a big lizard; they tried to shoot it, but the beast was never found. |
+| milton-lizard-c11 | exact | ufologie.patrickgross.org | The catalog notes that cryptozoologists, Fortean researchers and others report witnesses seeing a giant biped "lizard man" roaming the woods near an automobile junkyard. | Cryptozoologist, mystery mongers, Fortean researchers, and even ufologist, report that ... witnesses reported seeing a giant biped lizard man roaming the woods near an automobile junkyard |
+| milton-lizard-c14 | exact | en.wikipedia.org | Cable fetched a rifle from his house and fired into the brush, but could not be certain he killed the creature. | Cable retrieved a rifle from his house and fired into the brush, but couldn't be certain he killed the creature. |
+| milton-lizard-c12 | exact | wkdq.com | A 2025 radio station article names the place as Canip Creek. | It takes us back 50 years and to a place called Canip Creek. |
+| milton-lizard-c13 | exact | wkdq.com | The same article says other accounts put the cryptid at 12 feet. | Other accounts put the cryptid (if that's what it was) at 12 feet. |
 
 
 ## minnie-quay — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| minnie-quay-c01 | exact | en.wikipedia.org | Minnie Quay is an apparition of notable interest in Michigan paranormal lore. | Mary Jane "Minnie" Quay (1860 - 1876) is an apparition who has been of keen interest to the paranormal circles of Michigan. |
-| minnie-quay-c02 | exact | en.wikipedia.org | Lore dictates that one must leave something on her tombstone or she will follow them home. | The stories from old people in the area say you must leave something on her headstone or she will follow you home. |
-| minnie-quay-c03 | exact | en.wikipedia.org | Her ghost has been reported roaming the beaches of Forester. | Her ghost has been said to roam the beaches of Forester. |
+| minnie-quay-c01 | exact | en.wikipedia.org | Mary Jane "Minnie" Quay (1860-1876) is an apparition of keen interest to the paranormal circles of Michigan. | Mary Jane "Minnie" Quay (1860 - 1876) is an apparition who has been of keen interest to the paranormal circles of Michigan. |
+| minnie-quay-c02 | exact | en.wikipedia.org | Stories from old people in the area say one must leave something on her headstone or she will follow you home; most people leave coins. | The stories from old people in the area say you must leave something on her headstone or she will follow you home. Most people leave coins. |
+| minnie-quay-c03 | exact | en.wikipedia.org | Her ghost is said to roam the beaches of Forester. | Her ghost has been said to roam the beaches of Forester. |
+| minnie-quay-c04 | exact | en.wikipedia.org | The legend stems from a small lumbering town in the eastern part of Michigan known as The Thumb, called Forester, in present-day Forester Township. | The legend stems from a small foresting town in the eastern region of Michigan, known as The Thumb, called Forester, in present-day Forester Township. |
+| minnie-quay-c05 | exact | en.wikipedia.org | In the legend she had given her heart to a young sailor whose ship often docked in Forester for shipping or trade. | She had given her heart to a young sailor whose ship would dock in Forester often for either shipping or merchant reasons. |
+| minnie-quay-c06 | exact | en.wikipedia.org | In the early spring of 1876 word came back to Forester that his ship had gone down in the Great Lakes of Michigan. | In the early spring of 1876, word came back to Forester that his ship had gone down in the Great Lakes of Michigan. |
+| minnie-quay-c07 | exact | en.wikipedia.org | Some say she simply walks, waiting for her lover to dock, while others say she has tried to beckon young girls into the waters to their deaths. | Some have said that she just walks, waiting for her lover to dock, while others have stated that she has tried to beckon young girls into the waters to their deaths. |
+| minnie-quay-c08 | exact | 99wfmk.com | Her ghost is said to have been seen walking the shoreline, and her mournful cries to be heard from the cemetery late at night as she still waits for her lover who will never come back. | Her ghost has been seen walking the shoreline ... her mournful cries of sorrow have been heard coming from the cemetery late at night as she still waits for her lover who will never come back |
+| minnie-quay-c09 | exact | 99wfmk.com | Some young women from Forester claim to have seen Minnie's apparition beckoning them to the waters as if inviting them to join her at the bottom. | young women from Forester claim that they've seen the apparition of Minnie beckoning them to the waters as if inviting them to join her at the bottom |
+| minnie-quay-c10 | exact | 99wfmk.com | The article quotes an 1876 newspaper report of the death of a girl named Minnie Quay, about fifteen, who threw herself into the lake from Smith's dock at Forester. | A young girl named Minnie Quay, about fifteen years of age, committed suicide by throwing herself into the lake from Smith's dock, at Forester |
+| minnie-quay-c11 | exact | 99wfmk.com | The hauntings of Minnie Quay are famous throughout Michigan's Thumb area and are among the favorite sites of paranormal investigators. | The Hauntings of Minnie Quay are famous throughout Michigan's thumb area and is one of the more well-known & favorite spots of paranormal investigators. |
+| minnie-quay-c12 | exact | 99wfmk.com | The radio station article says Minnie was born in May 1861. | Minnie was born in May 1861. The Quays lived in Forester, a Michigan port town that hosted many sailors who put ashore. |
 
 
 ## mohan-legendary — lulus-otomatis

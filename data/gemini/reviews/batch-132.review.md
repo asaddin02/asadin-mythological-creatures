@@ -1,6 +1,6 @@
 # Review batch-132
 
-Diperiksa 2026-10-02T05:13:30.285Z. Berkas: batch-132.md.
+Diperiksa 2026-10-07T07:39:51.861Z. Berkas: batch-132.md, batch-132-fix-1.md.
 
 ## orc-of-ebuda — lulus-otomatis
 
@@ -35,10 +35,7 @@ Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 ## piztia — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -47,6 +44,11 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | piztia-c03 | exact | ca.wikipedia.org | Some speculate a real wild animal, such as a bear, gave rise to the legend, or that it is a local variant of the Tartalo or Anxo myth. | S'ha especulat que podria tractar-se d'un animal salvatge real (un ós, per exemple) que hauria donat lloc a la llegenda, però també que podria ser una variant local del mite del Tartalo o Anxo. |
 | piztia-c04 | exact | ca.wikipedia.org | In the 18th century, when Domaikia's turn came to lead the Mass at the Sanctuary of Our Lady of Oro, its prayers centred on ending the Pistia nightmare, and the surviving "Song of the Pistia" dates from that occasion. | Quan li va tocar a Domaikia, les seves rogatives a la Mare de Déu es van centrar a demanar la fi del malson de la Pistia. És d'aquella ocasió que data el «Cant de la Pistia» que ha arribat als nostres dies. |
 | piztia-c05 | exact | eu.wikipedia.org | The song opens by begging the Virgin of Oro to deliver them from the Pistia of Carrascal. | Soberana Virgen de Oro, líbranos de todo mal, te lo pedimos a coro, de la Pistia del Carrascal |
+| piztia-c06 | exact | www.naiz.eus | According to the newspaper, nobody knows for certain what this mythological being looks like; some say it had a single eye, others that it was a giant, others that it might be a dragon. | nadie sabe a ciencia cierta cuál es el aspecto de este ser mitológico. «Algunos dicen que tenía un solo ojo, otro que era un gigante, otros decían que podía ser un dragón |
+| piztia-c07 | exact | www.naiz.eus | Domaikia's residents stage a theatrical 'hunt for Piztia' to keep alive the legend of a beast that for centuries has frightened Zuia; the newspaper presents it as one more sign of the mythological wealth of Euskal Herria. | los vecinos de Domaikia abandonaron el pueblo para dar caza a Piztia, una bestia que durante siglos ha atemorizado a Zuia. Esta representación teatral, organizada para mantener viva la leyenda sobre este ser, es una muestra más de la riqueza mitológica de Euskal Herria. |
+| piztia-c08 | exact | web.archive.org | According to the journalist who wrote this blog post, "pistia" is a term widespread in the Basque Country for animals that were not known. | «Pistia» es un término extendido en el País Vasco que se usaba para identificar a aquellos animales que no eran conocidos. |
+| piztia-c09 | exact | web.archive.org | According to the tales, during storms or snowfalls the Pistia would leave its lair on Mount Iruratxi at night to attack and devour the livestock grazing nearby and the people crossing the valley that links Domaikia with Jugo and Murguia. | Los relatos narran que La Pistia, cuando había tormentas o nevadas, no dudaba en salir por las noches de su escondrijo en el monte Iruratxi y atacar y devorar al ganado que pastaba por los terrenos colindantes, así como a las personas que cruzaban el valle que comunicaba Domaikia con Jugo y Murguia. |
+| piztia-c10 | exact | web.archive.org | As Julián de Olabarría relates, the priest of Domaikia himself would leave Murguia before nightfall so that the Pistia of Carrascal would not come out at him. | El propio cura de Domaikia, como cuenta Julián de Olabarría, abandonaba Murguia antes de que cayera la noche «no sea que me salga la Pistia del Carrascal». |
 
 
 ## plafalgas — lulus-otomatis
@@ -78,10 +80,7 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## portumno — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -89,22 +88,25 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | portumno-c02 | exact | es.wikipedia.org | He was identified with Palaemon or Melicertes and sometimes with Neptune; he presided over entrances, especially harbours, and so was shown holding a key. | Se le identificaba con Palemón o Melicertes y algunas veces con Neptuno. Presidía las entradas principalmente de los puertos y por eso se le representaba empuñando una llave. |
 | portumno-c03 | exact | es.wikipedia.org | He had a temple at the Tiber port where the festival called the Portumnalia was held every 17 August. | en el puerto del Tíber tenía un templo en el cual el 17 de agosto de cada año se celebraban las fiestas llamadas Portumnalia. |
 | portumno-c04 | exact | gl.wikipedia.org | This sea deity belongs to the mythology of ancient Italy and had a temple at the Tiber port. | Esta divindade mariña pertence á mitoloxía da antiga Italia e no porto do Tíber tiña un templo |
+| portumno-c05 | exact | en.wikisource.org | Portunus, or Portumnus, was originally in Roman mythology the god of gates and doors; as such he was identified with Ianus and shown with a key in his hand. | PORTUNUS, or Portumnus, in Roman mythology, originally the god of gates and doors (Lat. porta), and as such identified with Ianus and represented with a key in his hand. |
+| portumno-c06 | exact | en.wikisource.org | Gradually he came to be recognised as a separate deity who protected harbours and ensured a safe return to seafarers. | Gradually he came to be recognized as a separate deity, who protected the harbours (portus) and ensured a safe return to seafarers. |
+| portumno-c07 | exact | en.wikisource.org | With the introduction of the Greek gods he was merged with Palaemon-Melicertes. He had a special priest (flamen portunalis) and temples on the Tiber near the Aemilian bridge and near Ostia, where a festival in his honour was held on 17 August. | With the introduction of the Greek gods, he became merged in Palaemon-Melicertes. He had a special priest (flamen portunalis) and temples on the Tiber near the Aemilian bridge and near Ostia, where a festival was celebrated in his honour on the 17th of August. |
+| portumno-c08 | exact | en.wikisource.org | Mommsen unhesitatingly identifies Portunus with the river-god Tiberinus, because the festival is also called Tiberinalia in the fasti of Philocalus; Marquardt instead regards him as the tutelary deity of warehouses. | Mommsen unhesitatingly identifies Portunus with the river-god Tiberinus, from the fact that the festival is also called Tiberinalia in the fasti of Philocalus; Marquardt regards him rather as the tutelary deity of warehouses. |
+| portumno-c09 | exact | www.gutenberg.org | In this ship-race episode the nymphs, Phorcus and Panopea heard a sailor's vow, and old Portunus pushed the galley on and sped it to the land. | The choir of nymphs, and Phorcus, from below, With virgin Panopea, heard his vow; And old Portunus, with his breadth of hand, Push’d on, and sped the galley to the land. |
 
 
 ## rahovart — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Demonologi Eropa".
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | rahovart-c01 | exact | en.wikipedia.org | Rahovart (or Rahouart) is a demon named in Collin de Plancy's Dictionnaire Infernal (1818), which cites Durzel's Renaissance book Moralité; he is a companion of Satan and little is known about him. | Rahovart (or Rahouart) is a demon identified in Collin de Plancy's Dictionnaire Infernal (1818), according to which he is referenced in Durzel's Moralité, a Renaissance book. Rahovart is a companion of Satan; little is known about the demon himself. |
-| rahovart-c02 | exact | en.wikipedia.org | Rahovart is assigned to torment the wicked, rich misers and old curmudgeons, and is also charged with avalanches and ghostly torment. | Rahovart is attributed to the torment of evil, rich misers and old curmudgeons. He is also charged with avalanches and ghostly torment. |
-| rahovart-c03 | exact | en.wikipedia.org | The elderly are reportedly most easily possessed by this demon, and if they die under its influence their souls go into Rahovart's basket until Judgement Day. | Reportedly, the elderly are most easily subject to possession by this demon, and if the person should die under the demonic effect, their souls are collected into Rahovart's basket until the day of judgment. |
+| rahovart-c02 | exact | en.wikipedia.org | According to the English Wikipedia article, Rahovart is assigned to torment the wicked, rich misers and old curmudgeons, and is also charged with avalanches and ghostly torment. | Rahovart is attributed to the torment of evil, rich misers and old curmudgeons. He is also charged with avalanches and ghostly torment. |
+| rahovart-c03 | exact | en.wikipedia.org | According to the English Wikipedia article, the elderly are reportedly most easily possessed by this demon, and if a person dies under its influence the soul is collected into Rahovart's basket until the day of judgment. | Reportedly, the elderly are most easily subject to possession by this demon, and if the person should die under the demonic effect, their souls are collected into Rahovart's basket until the day of judgment. |
 | rahovart-c04 | exact | pt.wikipedia.org | Rahovart, or "Lord Rahovart", is a demon and companion of Satan mentioned in Durzel's Moralité, a Renaissance book printed in Rouen. | Rahovart, ou "Senhor Rahovart", é um demônio e companheiro de Satanás. Ele é referenciado no Moralidade de Durzel, um livro do Renascimento impresso em Rouen. |
+| rahovart-c05 | exact | fr.wikisource.org | Collin de Plancy writes that Rahouart is a demon he does not know; in the Moralité du mauvais riche et du ladre, printed undated at Rouen by Durzel and performed at the end of the fifteenth century, Satan has the demon Rahouart as a companion. | Rahouart, démon que nous ne connaissons pas. Dans la Moralité du mauvais riche et du ladre, imprimée à Rouen, sans date, chez Durzel, et jouée à la fin du quinzième siècle, Satan a pour compagnon le démon Rahouart. |
+| rahovart-c06 | exact | fr.wikisource.org | In that play, Rahouart carries off the soul of the wicked rich man in his basket when the man is dead. | C’est dans sa hotte que Rahouart emporte l’âme du mauvais riche quand il est mort. |
 
 
 ## ryangombe — lulus-otomatis
@@ -176,33 +178,41 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## tomiyauhtecuhtli — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
+Klaim 10 (exact 8, unreachable 2), sumber 4, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 2 kutipan tidak bisa dicek otomatis: revistas.inah.gob.mx (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tomiyauhtecuhtli-c01 | exact | es.wikipedia.org | Tomiyauhtecuhtli (Nahuatl, "lord of our ears of grain") in Mexica mythology is the god of grasses and sedges, one of the four Tlaloque. | Tomiyauhtecuhtli (del náhuatl: tomiyauhtecuhtli ‘el señor de nuestras espigas’‘to, nuestro; miyauh, espigas; cuatro veces; tecuhtli, señor’) en la mitología mexica es el dios de las gramíneas y de las ciperáceas, identificado como uno de los cuatro Tlaloque. |
-| tomiyauhtecuhtli-c02 | exact | es.wikipedia.org | In Acaxochitlán, Tomiyauhtecuhtli is the tlaloque of the south, owner of black maize, now revered as the Christ "Manuelito", Señor de Tlamimilolpa. | Al sur, Tomiyauhtecuhtli (señor de la flor del maíz o señor de nuestras espigas de maíz), en la representación del tlaloque dueño del maíz negro, revalorado en el Cristo “Manuelito”, “Señor de Tlamimilolpa”. |
+| tomiyauhtecuhtli-c02 | exact | es.wikipedia.org | In the south, Tomiyauhtecuhtli ("lord of the maize flower" or "lord of our ears of maize") is represented as the tlaloque owner of black maize, reinterpreted in the Christ "Manuelito", "Lord of Tlamimilolpa". | Al sur, Tomiyauhtecuhtli (señor de la flor del maíz o señor de nuestras espigas de maíz), en la representación del tlaloque dueño del maíz negro, revalorado en el Cristo “Manuelito”, “Señor de Tlamimilolpa”. |
 | tomiyauhtecuhtli-c03 | exact | es.wikipedia.org | Today the cult of the "Lord of the four directions of Tlalocan" is still alive, its festival gathering the nine barrios of the area. | En la actualidad, el culto al “Señor de los cuatro rumbos del Tlalocan”, se mantiene vigente, su festividad congrega a los nueve barrios que conforman su actual geografía política |
 | tomiyauhtecuhtli-c04 | exact | uk.wikipedia.org | In Aztec mythology he is a helper of Tlaloc, one of the four tlaloque responsible for distributing rain on earth. | в ацтекській міфології, помічник Тлалока; один із чотирьох тлалоке, відповідальних за розподіл дощу на землі. |
 | tomiyauhtecuhtli-c05 | exact | uk.wikipedia.org | His name is linked to the mountain of the same name near lakes Chalco and Xochimilco. | Його ім'я пов'язане із однойменною горою, поблизу озер Халко та Сохімілько. |
+| tomiyauhtecuhtli-c06 | exact | nahuatl.wired-humanities.org | The online Nahuatl dictionary glosses Tomiyauhtecuhtli as a divine or sacred force, "Our Maize Tassel Lord", related to the rain and fertility sacred forces called the Tlaloque; he is possibly associated with a mountain and with the neighbourhood of the lakes of Chalco and Xochimilco. | a divine or sacred force; "Our Maize Tassel Lord" was related to the rain and fertility sacred forces called the Tlaloque; possibly associated with a mountain and with the neighborhood of the lakes of Chalco and Xochimilco |
+| tomiyauhtecuhtli-c07 | exact | nahuatl.wired-humanities.org | Along with Nappatecuhtli and Opochtli, Tomiyauhtecuhtli is counted among the tlaloque; he is also described as one of the four hundred rabbits, the divine forces of pulque. | Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were divine forces of pulque), and the tepictoton, small legless figures. |
+| tomiyauhtecuhtli-c08 | unreachable (tidak bisa dibuka (fetch failed)) | revistas.inah.gob.mx | According to this article, each Tlaloque is in charge of one direction: Opochtli the north, Nappatecuhtli the east, Yauhqueme the west and Tomiyauhtecutli the south. | Como hemos visto anteriormente cada Tlaloque se encarga de un rumbo, Opochtli se encarga del norte, Nappatecuhtli dios del este, Yauhqueme del oeste y por ultimo Tomiyauhtecutli del sur. |
+| tomiyauhtecuhtli-c09 | unreachable (tidak bisa dibuka (fetch failed)) | revistas.inah.gob.mx | According to this article, each god looked after an ear of maize: Opochtli the white, Nappatecuhtli the red, Yauhqueme the yellow and Tomiyauhtecutli the black. | También cada dios cuidaba una mazorca, Opochtli cuidaba la mazorca blanca, Nappatecuhtli cuidaba la mazorca roja, Yauhqueme cuidaba la amarilla y Tomiyauhtecutli la negra. |
+| tomiyauhtecuhtli-c10 | exact | es.wikipedia.org | According to the origin myth, the "Collateral Christ", whose feast falls from 2 to 11 May, is made of maize paste and was found beside the 16th-century open chapel among flowering maize canes, a toponymic emblem of Acaxochitlán. | De acuerdo al mito de origen, el “Cristo Colateral”, en quién recae la fiesta del 2 al 11 de mayo, está hecho de pasta de maíz, y fue hallado a un costado de la capilla abierta del siglo XVI, entre cañas de maíz floreando, distintivo toponímico de Acaxochitlán |
 
 
 ## u-scultone — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | u-scultone-c01 | exact | it.wikipedia.org | Sardinian folk legends tell of the Scultone, a reptile-like, dragon-like animal that killed people and animals; near Baunei the dragon's flight is said to have opened the Golgo chasm. | Le leggende folcloristiche sarde riferiscono dell'esistenza dello Scultone, un animale rettiliforme simile ad un drago che uccideva uomini e animali: presso Baunei (NU), la fuga di un drago chiamato Scultone avrebbe aperto la voragine del Golgo. |
 | u-scultone-c02 | exact | it.wikipedia.org | Because the Scultone's gaze could kill, the apostle Peter looked at it through a small mirror, neutralising that power and sinking the dragon into the bowels of the earth. | poiché lo sguardo dello Scultone aveva il potere di uccidere, Pietro lo avrebbe guardato per mezzo di un piccolo specchio, neutralizzando tale potere e facendo sprofondare il Drago nelle viscere della Terra. |
 | u-scultone-c03 | exact | it.wikipedia.org | The Scultone appears as a basilisk, the main antagonist of the Martin Mystère comic story "Il Mistero del Nuraghe". | Lo Scultone compare sotto forma di Basilisco all'interno dei fumetti di Martin Mystère, come principale antagonista della storia "Il Mistero del Nuraghe" |
-| u-scultone-c04 | exact | co.wikipedia.org | In the Corsican version U Scultone is a reptile-like, dragon-like animal that killed people and animals, lived among the shrubs and was immortal. | U Scultone ghjè un animale rettiliforme simile à un dracone chì uccidìa omi è animali, vivìa trà l'arbusti è era immortale. |
+| u-scultone-c04 | exact | co.wikipedia.org | According to the Corsican-language Wikipedia article, U Scultone is a reptile-like, dragon-like animal that killed people and animals, lived among the shrubs and was immortal. | U Scultone ghjè un animale rettiliforme simile à un dracone chì uccidìa omi è animali, vivìa trà l'arbusti è era immortale. |
+| u-scultone-c05 | exact | turismobaunei.eu | Legend has it that the whole plateau was once at the mercy of a vicious monster, "Sa Serpente", a sort of evil dragon that sometimes came out of the Golgo chasm ("Su Sterru") demanding human sacrifices. | Legend has it that once upon a time the entire plateau was at the mercy of a vicious monster, “Sa Serpente”, a sort of evil dragon who would sometimes come out of the chasm of Golgo (“Su Sterru”) demanding human sacrifices. |
+| u-scultone-c06 | exact | turismobaunei.eu | Saint Peter prevailed in the clash with the evil reptile and has since been the most beloved saint of the Baunesis, who are grateful to have been freed from the Golgo monster. | St. Peter prevailed in the clash with the evil reptile and has been the most beloved saint of the Baunesis, eternally grateful for being freed from the Golgo monster, ever since. |
+| u-scultone-c07 | exact | turismobaunei.eu | According to another version of the legend, "Su Sterru" opened up the ground of Golgo and swallowed "Sa Serpente" when Saint Peter threw the evil monster to the ground. | According to another version of the legend, however, “Su Sterru” opened up the ground of Golgo, swallowing “Sa Serpente”, when St. Peter threw the evil monster to the ground. |
+| u-scultone-c08 | exact | www.sardegnaturismo.it | Su Sterru, the chasm on the Golgo plateau, was said to be the lair of a serpent (su scultone), whose threat was averted by building the nearby church of Saint Peter in the 17th century. | si diceva fosse tana di un serpente (su scultone), la cui minaccia fu allontanata con la costruzione (XVII secolo) della vicina chiesa di san Pietro. |
+| u-scultone-c09 | exact | it.wikipedia.org | According to the "see also" note in the article, the scultone, like the basilisk, can kill with its gaze and is fought with a mirror. | lo scultone, come il basilisco, può uccidere con lo sguardo e viene combattuto con uno specchio |
+| u-scultone-c10 | exact | it.wikipedia.org | The Scultone is one of the protagonists of La Dottoressa Heja e il Drago dei Nuraghi (Edizioni A.Car, 2024), together with various other creatures of Sardinian folklore who unite to face it. | Lo Scultone è uno dei protagonisti de La Dottoressa Heja e il Drago dei Nuraghi (Edizioni A.Car, 2024), insieme a varie altre creature del folklore sardo che si uniranno per affrontarlo. |
 
 
 ## valais-monster — lulus-otomatis
@@ -221,10 +231,7 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## wd-q3607226 — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -233,6 +240,9 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wd-q3607226-c03 | exact | it.wikipedia.org | Aite was the mare of the pair, with a beautiful mane and swift in the race. | Aite era il cavallo femmina della coppia, aveva una bella criniera ed era veloce nella corsa. |
 | wd-q3607226-c04 | exact | it.wikipedia.org | The horses ran in the funeral games for Patroclus, friend of Achilles; in the race, driven by Menelaus, Aite nearly overtook Antilochus. | I cavalli parteciparono ai giochi funebri tenuti per onorare la morte di Patroclo, grande amico dell'invincibile Achille. Durante la corsa, guidata dal fratello del proprietario, Menelao, Aite per poco non riuscì a superare Antiloco. |
 | wd-q3607226-c05 | exact | el.wikipedia.org | According to the Greek article, Aithe was the reddish-blonde mare that King Echepolus of Sicyon gave to Agamemnon. | Στην ελληνική μυθολογία Αίθη ήταν το όνομα της κοκκινόξανθης φοράδας που χάρισε ο βασιλέας της Σικυώνας Εχέπωλος στον Αγαμέμνονα |
+| wd-q3607226-c06 | exact | www.gutenberg.org | Menelaus rose and yoked his fleet horses, Agamemnon's mare Aethe and his own horse Podargus. The mare had been given to Agamemnon by Echepolus son of Anchises so that he need not follow him to Ilius but might stay at home. | Next to him, yellow-haired Menelaus son of Atreus rose and yoked his fleet horses, Agamemnon’s mare Aethe, and his own horse Podargus. The mare had been given to Agamemnon by Echepolus son of Anchises, that he might not have to follow him to Ilius, but might stay at home and take his ease |
+| wd-q3607226-c07 | exact | www.gutenberg.org | Menelaus was no further behind Antilochus than that and soon caught up again, because Agamemnon's mare Aethe kept pulling stronger and stronger, so that on a longer course he would have passed him with no dead heat. | Menelaus was no further than this behind Antilochus, though at first he had been a full disc’s throw behind him. He had soon caught him up again, for Agamemnon’s mare Aethe kept pulling stronger and stronger, so that if the course had been longer he would have passed him, and there would not even have been a dead heat. |
+| wd-q3607226-c08 | exact | www.gutenberg.org | Antilochus urges his horses to overtake the horses of the son of Atreus, or Aethe, who is so fleet, will taunt them. | you must overtake the horses of the son of Atreus and not be left behind, or Aethe who is so fleet will taunt you. |
 
 
 ## wollunqua — lulus-otomatis
@@ -252,18 +262,22 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## yauhqueme — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
+Klaim 9 (exact 8, unreachable 1), sumber 4, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: revistas.inah.gob.mx (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yauhqueme-c01 | exact | es.wikipedia.org | Yauhqueme (Nahuatl, "dressed in pericón") in Mexica mythology is the god of plants such as asclepias and asters, one of the four Tlaloque. | Yauhqueme (del náhuatl: yauhqueme ‘vestido de pericón’‘yauhque, pericón; me, vestido’) en la mitología mexica es el dios de las asclepias, asteráceas, rosáceas, gutíferas y hipericáceas, identificado como uno de los cuatro Tlaloque. |
-| yauhqueme-c02 | exact | es.wikipedia.org | In Acaxochitlán, Yauhqueme is the tlaloque of the west, owner of yellow maize, now revered as the Christ of Huayotenco, "Señor de Tlacpac". | Y al oeste, Yauhqueme (el vestido de Yauhtli o pericón), en veneración del tlaloque dueño del maíz amarillo, resignificado en la figura del Cristo de Huayotenco o “señor del buen camino”, como “Señor de Tlacpac”. |
+| yauhqueme-c02 | exact | es.wikipedia.org | In the west, Yauhqueme ("the one dressed in Yauhtli or pericón") is venerated as the tlaloque owner of yellow maize, reinterpreted in the figure of the Christ of Huayotenco or "lord of the good road", as "Lord of Tlacpac". | Y al oeste, Yauhqueme (el vestido de Yauhtli o pericón), en veneración del tlaloque dueño del maíz amarillo, resignificado en la figura del Cristo de Huayotenco o “señor del buen camino”, como “Señor de Tlacpac”. |
 | yauhqueme-c03 | exact | uk.wikipedia.org | In Aztec mythology he is a helper of Tlaloc, one of the four tlaloque who distribute rain on earth. | в ацтекській міфології — помічник Тлалока; один із чотирьох тлалоке, відповідальних за розподіл дощу на землі. |
 | yauhqueme-c04 | exact | uk.wikipedia.org | His name is linked to a hill of the same name near Atlacuihuayan (now Tacubaya), where children were sacrificed to the rain gods; he was also a deity of the Otomi. | Його ім'я пов'язане з однойменним пагорбом поблизу Атлакуїхуая (теперішня Такубая), де богам дощу приносили в жертву дітей. Був також божеством Отомі. |
 | yauhqueme-c05 | exact | uk.wikipedia.org | His attire was a paper hat, a feather train, a paper strip on the chest and sandals; in one hand he held a rattle and in the other a shield. | Його одяг складався з паперового капелюха, шлейфа із пір'я, смужки паперу на грудях, сандалів. Однією рукою він тримав брязкальце, а іншою — щит. |
+| yauhqueme-c06 | exact | nahuatl.wired-humanities.org | The online Nahuatl dictionary glosses Yauhqueme as a deity, "Owner of the Sweet-Scented Marigold Vestment", one of the deities associated with rain and fertility, the Tlaloque. | a deity: "Owner of the Sweet-Scented Marigold Vestment;" this was one of the deities associated with rain and fertility, the Tlaloque |
+| yauhqueme-c07 | exact | nahuatl.wired-humanities.org | A hill west of Mexico Tenochtitlan, near Tacubaya, bore the name Yauhqueme. | A hill west of Mexico Tenochtitlan, near Tacubaya, had the name Yauhqueme. |
+| yauhqueme-c08 | exact | nahuatl.wired-humanities.org | According to the dictionary, Yauhqueme means 'the one dressed in yauhtli' (a fragrant plant); to ensure rain, the god's vestment was applied both to one of these hills and to the child to be sacrificed on its summit. | Yauhqueme = el vestido de yauhtli [una planta fragante]; para asegurar la lluvia, se aplicaba el vestido del dios tanto a uno de estos cerros como al niño que iba a ser sacrificado en su cima. |
+| yauhqueme-c09 | unreachable (tidak bisa dibuka (fetch failed)) | revistas.inah.gob.mx | According to this article, he dressed in yauhtli, was owner and possessor of water, and wore a paper hat painted the colour of yauhtli with a headdress of quetzal feathers. | El vestía de yauhtli, era dueño y poseedor del agua, vestía con un gorro de papel pintado de color yauhtli , su tocado de plumas de quetzal. |
 
 
 ## zezengorri — lulus-otomatis
@@ -282,16 +296,17 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## abaste — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | abaste-c01 | exact | it.wikipedia.org | In Greek mythology Abaste was the name of one of Hades's horses. | Nella mitologia greca, Abaste era il nome di uno dei cavalli di Ade. |
 | abaste-c02 | exact | it.wikipedia.org | The dreadful chariot of Hades, god of the underworld, was drawn by four black horses: Aetone, Meteo, Nonio and Abaste. | Lo spaventoso cocchio di Ade, dio degli inferi, era fatto muovere da quattro cavalli neri: Aetone, Meteo, Nonio e appunto Abaste. |
 | abaste-c03 | exact | it.wikipedia.org | According to some mythographers Abaste was one of the man-eating horses of Diomedes. | Secondo alcuni mitografi Abaste era uno dei cavalli cannibali di Diomede. |
+| abaste-c04 | exact | fr.wikisource.org | According to Boccaccio (Bocace in French spelling), Abaster is the name of one of the three horses drawing Pluto's chariot; the word means "black", the second is called Metheus ("obscure") and the third Nonius ("lukewarm"). | C’est, selon Bocace, le nom d’un des trois chevaux qui tiroient le char de Pluton. Ce mot signifie noir ; le second s’appelle metheus, obscur, & le troisième nonius, tiède. |
+| abaste-c05 | exact | fr.wikisource.org | According to the first edition of the Encyclopédie, Abaster is one of the three horses of Pluto's chariot, the black one. | l’un des trois chevaux du char de Pluton. C’est le noir. |
+| abaste-c06 | exact | la.wikisource.org | The text says the horses drawing the chariot are three in number; the first is called Metheus, interpreted as "obscure". | Sic et equi trahentes tres esse dicuntur. Quorum primus Metheus dicitur, qui interpretatur obscurus |
+| abaste-c07 | exact | la.wikisource.org | The second horse is called Abaster, meaning "black", and the text interprets the horse as showing the grief and sadness of one who runs about amid the dangers and fears that almost always loom. | Secundus Abaster dictus est, qui idem quod niger sonat, ut appareat discurrentis meror et tristitia circa incumbentia fere semper pericula et pavores. |
 
 
 ## abhartach — lulus-otomatis

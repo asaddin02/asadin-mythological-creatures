@@ -1,6 +1,6 @@
 # Review batch-057
 
-Diperiksa 2026-10-06T19:38:10.641Z. Berkas: batch-057.md, batch-057-fix-1.md, batch-057-fix-2.md, batch-057-fix-3.md, batch-057-fix-4.md.
+Diperiksa 2026-10-07T07:38:53.787Z. Berkas: batch-057.md, batch-057-fix-1.md, batch-057-fix-2.md, batch-057-fix-3.md, batch-057-fix-4.md, batch-057-fix-5.md.
 
 ## xecotcovach — lulus-otomatis
 
@@ -265,70 +265,83 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ame-no-nagashiraha — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ame-no-nagashiraha-c01 | exact | ja.wikipedia.org | Nagashiraha is a deity in the Kogo Shūi’s heavenly-cave episode and an ancestor of weaving specialists. | 長白羽神（ながしらはのかみ）は『古語拾遺』の天岩戸に登場する神。思兼神に命じられ、麻を育て青和幣（あおにぎて）を織ったという。神麻続機殿神社で伊勢神宮に奉納する荒妙（あらたえ）を織った神麻続部（かんおみべ、神麻績部とも）の祖神とされ、白い衣類を白羽と呼んだのは長白羽神に由来するとされる。 |
 | ame-no-nagashiraha-c02 | exact | ja.wikipedia.org | Omoikane instructs him to grow hemp and weave offerings. | 思兼神に命じられ、麻を育て青和幣（あおにぎて）を織ったという。神麻続機殿神社で伊勢神宮に奉納する荒妙（あらたえ）を織った神麻続部（かんおみべ、神麻績部とも）の祖神とされ、白い衣類を白羽と呼んだのは長白羽神に由来するとされる。 |
 | ame-no-nagashiraha-c03 | exact | ja.wikipedia.org | Ame no Shiraha is another name linked by some interpretations with Tenpaku worship. | 別名を天白羽神（あめのしらはのかみ）といい、天白信仰を長白羽神由来とする説がある。 |
-| ame-no-nagashiraha-c04 | exact | ja.wikipedia.org | He is enshrined in Hitachi and Ise. | 常陸国久慈郡（現茨城県常陸太田市）の式内社・天志良波神社、及び伊勢国多気郡（現三重県多気郡明和町）の竹神社の祭神として祀られている。 |
+| ame-no-nagashiraha-c04 | exact | ja.wikipedia.org | He is enshrined as the principal deity of the shrines 天志良波神社 (Hitachi) and 竹神社 (Ise). | 常陸国久慈郡（現茨城県常陸太田市）の式内社・天志良波神社、及び伊勢国多気郡（現三重県多気郡明和町）の竹神社の祭神として祀られている。 |
+| ame-no-nagashiraha-c05 | exact | kotobank.jp | He is described as a deity who appears in the Kogo Shūi and as an ancestor of the Ise no Umi. | 「古語拾遺(しゅうい)」にみえる神。 伊勢麻績(いせのうみ)の祖。 |
+| ame-no-nagashiraha-c06 | exact | kotobank.jp | When Amaterasu shut herself in the heavenly rock cave, he made aonikite, offerings (nusa) of hemp. | 天照大神(あまてらすおおみかみ)が天の岩屋にこもったとき青和幣(あおにきて)(麻製の幣(ぬさ))をつくった。 |
+| ame-no-nagashiraha-c07 | exact | ja.wikipedia.org | The article infobox lists the other names 長白羽命, 天白羽鳥命, 天白羽神 and 天之志良波神, and gives weaving (機織) as his divine function. | 別名 長白羽命、天白羽鳥命、天白羽神、天之志良波神 など 神階 なし 神格 機織 |
 
 
 ## ame-no-oshihi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ame-no-oshihi-c01 | exact | ja.wikipedia.org | Ame no Oshihi is a Japanese deity named in the chronicles. | アメノオシヒ（アマノオシヒ）は、記紀等に伝わる日本神話の神。 『古事記』・『日本書紀』では「天忍日命（あめのおしひのみこと）」、他文献では「天押日命」や「神狭日命」とも表記される。 |
 | ame-no-oshihi-c02 | exact | ja.wikipedia.org | He is the Ōtomo clan’s ancestor and accompanies Ninigi’s descent. | 大伴氏（大伴連/大伴宿禰）の祖神で、天孫降臨の際にニニギ（瓊瓊杵尊/邇邇芸命）に随伴したと伝わる。 |
-| ame-no-oshihi-c03 | exact | ja.wikipedia.org | Traditions make him Takamimusubi’s child or a later descendant. | 『古語拾遺』や『先代旧事本紀』「神代本紀」では、高皇産霊尊の子とする。なお「神代本紀」では、別名に「神狭日命」の名称を挙げる。 また『新撰姓氏録』では、高皇産霊尊の五世孫または六世孫とする（後述）。 |
+| ame-no-oshihi-c03 | exact | ja.wikipedia.org | The Kogo Shūi and the Sendai Kuji Hongi (Jindai Hongi chapter) call him a child of Takamimusuhi; the Shinsen Shōjiroku makes him a fifth- or sixth-generation descendant of Takamimusuhi. | 『古語拾遺』や『先代旧事本紀』「神代本紀」では、高皇産霊尊の子とする。なお「神代本紀」では、別名に「神狭日命」の名称を挙げる。 また『新撰姓氏録』では、高皇産霊尊の五世孫または六世孫とする（後述）。 |
 | ame-no-oshihi-c04 | exact | ja.wikipedia.org | The Kojiki equips him and Amatsukume with swords, bows and arrows. | 『古事記』の天孫降臨（ニニギの降臨）の場面では、天忍日命・天津久米命（久米直の祖）の2人が、背に強固な靫を負い、腰に頭椎の大刀を佩き、手に天のはじ弓を持ち、 天の真鹿児矢をたばさんで、天孫の先導をしたとする。 |
+| ame-no-oshihi-c05 | exact | kotobank.jp | He is a deity of Japanese mythology who, with Amatsukume, served as the forerunner when the Heavenly Grandchild descended (tenson kōrin), and the ancestral deity of the Ōtomo clan. | 日本神話の神。天孫降臨に際し、 天津久米命 あまつくめのみこと とともに先駆けを務めた。大伴氏の祖神。 |
+| ame-no-oshihi-c06 | exact | kotobank.jp | He is called a martial deity of Takamagahara and the ancestral deity of the Ōtomo clan, which handled the Yamato court’s military affairs; at the descent of the Heavenly Grandchild he and Amatsukume carried bow, arrows and sword to lead Ninigi. | 高天原の武神。大和朝廷の軍事を担当した大伴氏の祖神。天孫降臨の時、天津久米命(あまつくめのみこと)とともに弓、矢、剣を携えて瓊瓊杵尊(ににぎのみこと)を先導した。 |
+| ame-no-oshihi-c07 | exact | kotobank.jp | He is called a child of Takamimusuhi and ancestor of the Ōtomo clan; at the descent he led with bow and arrows, and in the Nihon Shoki he is said to have had Ame no Kushitsu no Ōkume (Amatsukume), ancestor of the Kume clan, under him. | 高皇産霊尊(たかみむすびのみこと)の子。大伴氏の祖先神。天孫降臨の際,天津久米命(あまつくめのみこと)とともに,弓矢をもって先導した。「日本書紀」では久米氏の祖先神である天槵津大来目(あめのくしつのおおくめ)(天津久米命)をしたがえたとしている。 |
+| ame-no-oshihi-c08 | exact | d-museum.kokugakuin.ac.jp | He is one of the kami accompanying the Heavenly Grandchild on his descent from heaven (tenson kōrin) and an ancestral kami (sojin) of lineages descending from the Ōtomo and Saeki clans. | One of the kami accompanying the Heavenly Grandchild on his descent from heaven (tenson kōrin). Ancestral kami (sojin) of lineages descending from the Ōtomo and Saeki clans. |
+| ame-no-oshihi-c09 | exact | d-museum.kokugakuin.ac.jp | In the Kojiki he took up arms and accompanied Amatsukume as guard to Ninigi; the Kogo Shūi and an "alternate writing" in the Nihongi state that he put on arms and led Ametsukushitsu ōkume (ancestor of the Kume-Be) as far as Takachiho in Hyūga of Tsukushi. | In Kojiki, he took up arms and accompanied Amatsukume no mikoto to act as guard to Ninigi. Kogo shūi and an "alternate writing" transmitted by Nihongi state that he put on arms and led Ametsukushitsu ōkume (ancestor of the Kume-Be), proceeding as far as Takachiho in Hyūga of Tsukushi. |
+| ame-no-oshihi-c10 | exact | kojiki.kokugakuin.ac.jp | The Kokugakuin database summarises: at the descent of the Heavenly Grandchild he armed himself with Amatsukume to lead Ninigi, and he is the ancestral deity of the Ōtomo no Muraji and related lineages. | 天孫降臨の際、天津久米命とともに武装して邇々芸命を先導した。大伴連等の祖神。 |
+| ame-no-oshihi-c11 | exact | kojiki.kokugakuin.ac.jp | The Kokugakuin database explains "oshi" as meaning to subdue by force and "hi" as spiritual power; in the fourth alternate version of section nine of the Nihon Shoki, Ame no Oshihi leads Ame no Kushitsu no Ōkume. | 「忍」は力をもって制圧する意。「日」は霊力。紀九段一書四では天忍日命が天槵津大来目を率いたことになっている。 |
+| ame-no-oshihi-c12 | exact | ja.wikipedia.org | The stories of Ame no Oshihi and other Ōtomo figures are interpreted as explaining the origin of the Ōtomo clan’s duties, historically guarding the court and pacifying regions. | 大伴氏は歴史的に天皇・宮門の警護や地方平定などに携わった氏族であり、天忍日命の上記説話のほか道臣命や大伴武日・大伴室屋らの説話は、そうした大伴氏の職掌の起源を説明するのが目的とされる。 |
+| ame-no-oshihi-c13 | exact | ja.wikipedia.org | In the Kojiki Ame no Oshihi and Amatsukume lead as equals, whereas in the Nihon Shoki and Kogo Shūi they are not equals because he leads Ōkume. | また『古事記』の伝承では天忍日命・天津久米命が同格で先導を行うが、『日本書紀』・『古語拾遺』の伝承では同格でなく大来目を従えるという異同が存在する。 |
+| ame-no-oshihi-c14 | exact | ja.wikipedia.org | The name "Oshihi" is explained by two theories: as a combination of 大し (oshi) and 霊 (hi), or as "Ohoshihi", meaning valiant. | 「オシヒ」の名称については、「大し（おし）霊（ひ）」の意とする説や、「オホシヒ」と見て勇壮な意とする説が挙げられている。 |
 
 
 ## ame-no-oshikumone — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ame-no-oshikumone-c01 | exact | ja.wikipedia.org | Ame no Oshikumone is a deity in Japanese mythology. | 天押雲根命（あめのおしくもねのみこと）または天押雲命（あめのおしくものみこと）は、日本神話に登場する神。 |
-| ame-no-oshikumone-c02 | exact | ja.wikipedia.org | He brings heavenly water to the imperial descendant during the descent. | 「中臣寿詞」の伝承や摩氣神社の社伝、『大同本紀』などの史料の記述を総合すると、天孫降臨のとき地上には未熟で荒い水しか存在せず、父の命によって天押雲根命が高天原より天津水（天忍石長井水）を持ち還り、この水を皇孫に奉ったとされる。これらの伝承では天牟羅雲命の神名で登場する。 |
-| ame-no-oshikumone-c03 | exact | ja.wikipedia.org | These traditions also call him Ame no Murakumo. | 「中臣寿詞」の伝承や摩氣神社の社伝、『大同本紀』などの史料の記述を総合すると、天孫降臨のとき地上には未熟で荒い水しか存在せず、父の命によって天押雲根命が高天原より天津水（天忍石長井水）を持ち還り、この水を皇孫に奉ったとされる。これらの伝承では天牟羅雲命の神名で登場する。 |
-| ame-no-oshikumone-c04 | exact | ja.wikipedia.org | A Tamura shrine tradition associates him with ruling a land alongside Takakuraji. | また旧事大成経神社本紀によると讃岐国一宮名神大社田村神社は綏靖天皇の御代(BC580年頃)、当社祭神である天隠山大神（高倉下命）と、その子の天五田根大神（天村雲命）がこの国に至り、この地の祠（現在の田村神社）の場所で国を治めた、と書かれている。 |
+| ame-no-oshikumone-c01 | exact | ja.wikipedia.org | Ame no Oshikumone (天押雲根命), also written Ame no Oshikumo (天押雲命), is a deity in Japanese mythology. | 天押雲根命（あめのおしくもねのみこと）または天押雲命（あめのおしくものみこと）は、日本神話に登場する神。 |
+| ame-no-oshikumone-c02 | exact | ja.wikipedia.org | According to the Nakatomi no Yogoto, the shrine records of 摩氣神社 (Maki) and the Daidō Hongi (大同本紀) combined, when the Heavenly Grandchild descended the earth had only immature, rough water; at his father’s command Ame no Oshikumone brought 天津水 back from Takamagahara and offered it to the kōson (imperial grandchild). | 「中臣寿詞」の伝承や摩氣神社の社伝、『大同本紀』などの史料の記述を総合すると、天孫降臨のとき地上には未熟で荒い水しか存在せず、父の命によって天押雲根命が高天原より天津水（天忍石長井水）を持ち還り、この水を皇孫に奉ったとされる。これらの伝承では天牟羅雲命の神名で登場する。 |
+| ame-no-oshikumone-c03 | exact | ja.wikipedia.org | In these traditions he appears under the name Ame no Murakumo (天牟羅雲命). | 「中臣寿詞」の伝承や摩氣神社の社伝、『大同本紀』などの史料の記述を総合すると、天孫降臨のとき地上には未熟で荒い水しか存在せず、父の命によって天押雲根命が高天原より天津水（天忍石長井水）を持ち還り、この水を皇孫に奉ったとされる。これらの伝承では天牟羅雲命の神名で登場する。 |
+| ame-no-oshikumone-c04 | exact | ja.wikipedia.org | According to the Kuji Taiseikyō (Jinja Hongi), Tamura Shrine in Sanuki records that its deity 天隠山大神 (Takakuraji) and his son 天五田根大神 (天村雲命) came to the land and ruled it in the reign of Emperor Suizei. | また旧事大成経神社本紀によると讃岐国一宮名神大社田村神社は綏靖天皇の御代(BC580年頃)、当社祭神である天隠山大神（高倉下命）と、その子の天五田根大神（天村雲命）がこの国に至り、この地の祠（現在の田村神社）の場所で国を治めた、と書かれている。 |
+| ame-no-oshikumone-c05 | exact | onmatsuri.kasugataisha.or.jp | The deity of Wakamiya, an auxiliary shrine of Kasuga Taisha, is the child of Ame no Koyane (third hall of the Ōmiya) and Himegami (fourth hall), named Ame no Oshikumone. | 春日大社の摂社である若宮の御祭神は、大宮（本社）の第三殿 天児屋根命 あめのこやねのみこと と第四殿 比売神 ひめがみ の御子神であり、その御名を 天押雲根命 あめのおしくもねのみこと と申し上げます。 |
+| ame-no-oshikumone-c06 | exact | onmatsuri.kasugataisha.or.jp | In the middle of the Heian period, in 1003 (the third day of the third lunar month), he appeared in a mysterious form at the fourth hall, was first enshrined in his mother’s hall and then between the second and third halls, and was revered as a god of the virtue of water. | 平安時代の中頃、長保5年（1003）旧暦3月3日、第四殿に神秘的な御姿で御出現になり、当初は母神の御殿内に、その後は暫らく第二殿と第三殿の間の獅子の間に祀られ、水徳の神と仰がれていました。 |
+| ame-no-oshikumone-c07 | exact | onmatsuri.kasugataisha.or.jp | During the Chōshō era (1132–1135) long floods from heavy rain brought famine and epidemics; in 1135, after nobles prayed for Wakamiya’s protection, a splendid hall of the same scale as the Ōmiya was built at the present site. | 長承年間（1132〜1135）には、長年にわたる大雨洪水により飢饉が相次ぎ、天下に疫病が蔓延しました。人々を救うために、白河上皇、鳥羽上皇、関白藤原忠通、関白の父親であり実力者の前関白藤原忠実、関白の弟である左大臣藤原頼長が若宮様へ強い御加護を願われ、長承4年（1135）の旧暦2月27日、現在の地に大宮(本社)と同じ規模の壮麗な御殿を造営なされました。 |
+| ame-no-oshikumone-c08 | exact | onmatsuri.kasugataisha.or.jp | The following year (1136), on the seventeenth day of the ninth lunar month, his divine spirit was received at Kasugano with a respectful festival; this was the beginning of the On-matsuri. | それから、若宮様の御神助を願い、翌年（1136）の旧暦9月17日、春日野に御神霊をお迎えして丁重なる祭礼を奉仕したのが、おん祭の始まりです。 |
+| ame-no-oshikumone-c09 | exact | www.kasugataisha.or.jp | In the Wakamiya Jūgosha Meguri list, Wakamiya enshrines Ame no Oshikumone, with an annual festival on 12/17, and he is believed to grant right wisdom. | 第1番納札社 ｜ 若宮（わかみや） 御祭神 天押雲根命（あめのおしくもねのみこと）様 御例祭 12/17 御神徳 正しい知恵をお授けくださる神様 |
+| ame-no-oshikumone-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A museum description of a hanging scroll shows Ame no oshikumone, the deity of Wakamiya Shrine at Kasuga, seated on a pink and white lotus blossom and enclosed in a golden disc. | Seated on a pink and white lotus blossom and enclosed in a golden disc, Ame no oshikumone, the deity of Wakamiya Shrine at Kasuga, floats ethereally through space. |
+| ame-no-oshikumone-c11 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | He is shown dressed as a noble youth holding a sword in his right hand, an allusion to his Buddhist counterpart Monju (Manjushri), the bodhisattva of wisdom. | Placed within the visual framework of a Buddhist deity and attired in the clothing of a noble youth, he holds a sword with his right hand, an allusion to his Buddhist counterpart Monju (Sanskrit: Manjushri), the bodhisattva of wisdom, whose attributes include a sword with which to cut through the illusions of the unenlightened mind. |
 
 
 ## ashite-kojin — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ashite-kojin-c01 | exact | ja.wikipedia.org | Ashite Kōjin is a hand-and-foot deity worshipped for recovery from injury and illness. | 足手荒神（あしてこうじん）は、手足の神である。民間信仰を起源とし、手足の病気や怪我に悩む者がその快癒を祈願するもので、信仰の特徴として手型や足型を奉納することが見られる。 |
 | ashite-kojin-c02 | exact | ja.wikipedia.org | Worshippers offer hand or foot models, and sometimes casts or crutches. | 民間信仰を起源とし、手足の病気や怪我に悩む者がその快癒を祈願するもので、信仰の特徴として手型や足型を奉納することが見られる。中にはギプスや松葉杖などを奉納するものもある。 |
-| ashite-kojin-c03 | exact | ja.wikipedia.org | The worship is reported in several prefectures, with Kai Shrine in Kumamoto among its sites. | 信仰される地域は、秋田県、福岡県、熊本県、大分県などで、四国に及んでいるとの報告もある。熊本県嘉島町の甲斐神社（中郡甲斐神社）、熊本県大津町の西鶴甲斐神社や、熊本県八代市の医王寺は、「足手荒神」と通称されている。 |
+| ashite-kojin-c03 | exact | ja.wikipedia.org | The belief is reported in Akita, Fukuoka, Kumamoto and Ōita, even Shikoku; Kai Shrine in Kashima, 西鶴甲斐神社 in Ōtsu and 医王寺 in Yatsushiro (Kumamoto) are commonly called "Ashite Kōjin". | 信仰される地域は、秋田県、福岡県、熊本県、大分県などで、四国に及んでいるとの報告もある。熊本県嘉島町の甲斐神社（中郡甲斐神社）、熊本県大津町の西鶴甲斐神社や、熊本県八代市の医王寺は、「足手荒神」と通称されている。 |
 | ashite-kojin-c04 | exact | ja.wikipedia.org | Some temples identify the deity with Shōmen Kongō. | 熊本県八代市の医王寺や、熊本県阿蘇市の西巌殿寺には、足手荒神として青面金剛が祀られているという。青面金剛は、庚申信仰の本尊であり、病魔退散の力を有するとされているものである。 |
+| ashite-kojin-c05 | exact | ja.wikipedia.org | At 西巌殿寺 (Kumamoto) the object of veneration of Ashite Kōjin is a round sacred stone called Okagami-ishi; the Ashite Kōjin of Taketa (Ōita) and Oguni (Kumamoto) are said to be branch spirits from it, and its sphere of belief is reported to reach Shikoku. | 西巌殿寺の足手荒神はお鏡石という丸い霊石が信仰の対象で、大分県竹田市飛田川や熊本県小国町の足手荒神などはこの分霊で、信仰圏は大野郡、直入郡、さらに宇和海を渡り四国にまで及ぶとの報告もある。 |
+| ashite-kojin-c06 | exact | ja.wikipedia.org | Kai Shrine in Kashima (Kumamoto), which enshrines the warlord 甲斐親英 (宗立) said to have died of injuries to his hands and feet, calls itself the head shrine of Ashite Kōjin; other Ashite Kōjin in Kumamoto are said to be branch spirits (kanjō) from it. | 手足を負傷して死んだという武将・甲斐親英（宗立）を祀る熊本県嘉島町の甲斐神社は足手荒神の総本社と称し、熊本県和水町や菊池市下古閑集落の足手荒神、熊本県大津町の西鶴甲斐神社、荒尾市の府本甲斐神社、熊本県美里町の砥用甲斐神社（現在廃社）などは、この分霊を勧請したものという。 |
+| ashite-kojin-c07 | exact | ja.wikipedia.org | In Beppu, an origin story says that in 1600, the night before the Battle of Ishigakibaru, a Kuroda-side samurai who fell from a cliff while scouting and broke his hands and feet was captured by Ōtomo soldiers; before being beheaded he said his spirit would remain in this world for a hundred years to help those who sprain their hands and feet. | 慶長5年（1600年）、九州の関ヶ原と言われる石垣原の戦い（黒田如水 対 大友義統）の前日の夜半、斥候中に崖から落ち、手足を骨折した黒田方の侍が大友の兵に捕らえられた。侍は、『手を挫かずば、お前共の手に掛かる者ではない。切って手柄にせよ。死して百年の後まで、魂はこの世にとどまり、手足を挫いた者を救うであろう』と言い残し斬首された。 |
+| ashite-kojin-c08 | exact | ja.wikipedia.org | In that legend the Ōtomo commander 吉弘統幸, moved to pity, buried him with care; because people who had sprained their hands or feet were wondrously healed after visiting, a shrine was built and worshipped as "手足荒神". | 哀れんだ大友の将・吉弘統幸が侍を手厚く埋葬したとの伝説、この合戦で傷を負った兵がこの地で傷を癒したとの伝説があり、手足を挫いた者がここを参詣すると不思議に治ることから、祠を建て「手足荒神」として信仰されるようになったのだという。 |
+| ashite-kojin-c09 | exact | ja.wikipedia.org | The Ashite Kōjin at Fukukawa, Oga (Akita) is a stone shrine beside prefectural road 304 and is called "Seiryū-sama" (青竜さま) by locals. | 秋田県道304号払戸琴川線沿いにある石祠で、地元民からは「青竜さま」と呼ばれている。 |
+| ashite-kojin-c10 | exact | ja.wikipedia.org | After seeing its photograph in the "Nihon Minzoku Zuroku", the manga artist Mizuki Shigeru visited the place and introduced it several times as a "god of hands and feet"; this made it famous. | 『日本民俗図録』の写真を見た漫画家の水木しげるがここを訪れ、数度にわたり「手足の神」として紹介したことで有名である。 |
+| ashite-kojin-c11 | exact | ja.wikipedia.org | In Tamana (Kumamoto) and in Ōita and Beppu, the belief is called "手足荒神". | 熊本の玉名市、大分の大分市、別府市などでは「手足荒神」と言う。 |
+| ashite-kojin-c12 | exact | kumanichi.com | A regional newspaper reports that at the annual festival of Kai Shrine in Kashima, known as the hand-and-foot deity "Ashite Kōjin-san", visitors came to pray for recovery from hand and foot ailments and injuries and for improvement in sports. | 手足の神様「足手荒神さん」として親しまれる嘉島町上六嘉の甲斐神社の例祭が15日あり、手足の病気やけがの回復、スポーツの上達を願う参拝客が訪れた。 |
 
 
 ## ato-oi-kozo — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -336,21 +349,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ato-oi-kozo-c02 | exact | ja.wikipedia.org | It resembles a child wearing ragged mats, patterned clothing or fur. | 姿は4歳から10歳程度の子供のようで、ときには15歳ほどのこともある。服装はぼろぼろのむしろや、絣（かすり）の着物、毛皮などを纏っている。 |
 | ato-oi-kozo-c03 | exact | ja.wikipedia.org | It silently follows walkers and hides when they turn around. | 山中を人間が歩いていると、後追い小僧は無言でその者の後をつけて歩く。つけられた者が気配を感じて後ろを振り向くと、木や岩の陰に隠れ、姿を消してしまう。 |
 | ato-oi-kozo-c04 | exact | ja.wikipedia.org | Accounts call it harmless and describe leaving food for it. | 声を出すことも物音を立てることもなく、人間に対して危害を加えることもないが、何度も後追い小僧に遭った人は、食べ物（握り飯、芋、菓子、干し柿など）を辺りの岩や切り株の上に置いて行ったという。 |
+| ato-oi-kozo-c05 | exact | ja.wikipedia.org | It not only follows but sometimes walks ahead as if showing the way; according to local elders it often appears in the afternoon, and when it appears at night it carries a lantern-like light. | 後を追うだけでなく、ときには道案内のように前を歩くときもある。土地の古老によれば、日中の午後に現れることが多いというが、夜に現れる場合は提灯のような火を灯している。 |
+| ato-oi-kozo-c06 | exact | ja.wikipedia.org | According to some accounts it vanishes on its own when the person being followed leaves the mountain and nears the village, and when it appears at night it disappears if spoken to. | 後をつけられている者が山を抜けて里に近づくと自然に消えるという説や、夜に現れた場合は声をかければ消える、などの説もある。 |
+| ato-oi-kozo-c07 | exact | ja.wikipedia.org | Because mountains have long been regarded as close to the world after death and a gathering place for the spirits of the dead, one view holds that it is such a spirit appearing out of attachment to living people; people leave food for it as if it were the spirit of a child they lost. | 古来より山は死後の世界に近い場所とされ、死者の霊が集まってくると考えられていたことから、後追い小僧は、そうした霊が生きている人間になついて現れた者という説があり、実際に前述のように、後追い小僧のために食べ物を残すのは、後追い小僧が自分の亡くした子供の霊ならばと思っての行動とされている。 |
+| ato-oi-kozo-c08 | exact | fr.wikipedia.org | French Wikipedia describes Ato-oi-kozō (後追い小僧) as a spirit of Japanese folklore found in the Tanzawa mountains of Kanagawa Prefecture. | Ato-oi-kozō (後追い小僧?) est un esprit du folklore japonais présent dans les monts Tanzawa de la préfecture de Kanagawa. |
 
 
 ## bakeichonosei — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| bakeichonosei-c01 | exact | ja.wikipedia.org | Bakeichōnosei is a Japanese yōkai in Shigeru Mizuki’s books. | 化け銀杏の精（ばけいちょうのせい）または化け銀杏の霊（ばけいちょうのれい）は、妖怪漫画家・水木しげるの著書にある日本の妖怪。 |
+| bakeichonosei-c01 | exact | ja.wikipedia.org | Bakeichōnosei (化け銀杏の精), also called Bake-ichō no Rei (化け銀杏の霊), is a Japanese yōkai in the books of the yōkai manga artist Shigeru Mizuki. | 化け銀杏の精（ばけいちょうのせい）または化け銀杏の霊（ばけいちょうのれい）は、妖怪漫画家・水木しげるの著書にある日本の妖怪。 |
 | bakeichonosei-c02 | exact | ja.wikipedia.org | Mizuki’s figure has yellow limbs and a face, ink-dyed clothing and a gong. | 手足や顔が黄色で、墨で染められた着物を着て、鉦をたたいて現れるとされる。イチョウの木は昔から不吉とされ、家に植えると不吉なことが起きるといわれる。 |
-| bakeichonosei-c03 | exact | ja.wikipedia.org | Mizuki bases the image on Buson’s ginkgo-tree monster. | 水木は、与謝蕪村による『蕪村妖怪絵巻』にある「鎌倉若宮八幡いてう（銀杏）の木のばけ者」をもとにしてこの妖怪画を描いている。 |
+| bakeichonosei-c03 | exact | ja.wikipedia.org | Mizuki drew this yōkai picture on the basis of "the monster of the ginkgo tree at Wakamiya Hachiman, Kamakura" in Yosa Buson’s Buson Yōkai Emaki. | 水木は、与謝蕪村による『蕪村妖怪絵巻』にある「鎌倉若宮八幡いてう（銀杏）の木のばけ者」をもとにしてこの妖怪画を描いている。 |
 | bakeichonosei-c04 | exact | ja.wikipedia.org | Kōichi Yumoto interprets Buson’s image as an old tree spirit. | 蕪村のものは、妖怪研究家・湯本豪一によれば老木の精霊を図像化したものとされる。 |
+| bakeichonosei-c05 | exact | www.yurindo.co.jp | Yosa Buson painted the Buson Yōkai Emaki in Miyazu from Hōreki 4 to 7; the scroll presents eight strange tales from various regions in pictures and short texts, including one creature captioned only "the monster of the ginkgo tree at Wakamiya Hachiman, Kamakura", shown sitting and striking a gong. | 俳人の与謝蕪村は画家としても卓越した才を発揮したが、宮津（現在の京都府宮津市）において画業に専念していた宝暦4年から7年にかけて描いた作品に蕪村妖怪絵巻がある。各地に伝わる8つの怪異譚を絵と短い文章で紹介しているが、そのなかに「鎌倉若宮八幡の銀杏の木の化物」とだけ書き添えられた妖怪が描かれている。座って鉦を叩く不気味な姿だ。 |
+| bakeichonosei-c06 | exact | www.yurindo.co.jp | Yumoto Kōichi judges that tales of old-tree spirits appearing exist in many places, but the spirit of the great ginkgo of the Hachimangū, over a thousand years old, would have been believed as a convincing legend. | 座って鉦を叩く不気味な姿だ。古木の精が出現したという話は各地にあるが、千年をこえる八幡宮の大銀杏の精は説得力ある言い伝えとして信じられていたであろう。 |
 
 
 ## buruburu — lulus-otomatis
@@ -369,19 +385,21 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## chiu-sing — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| chiu-sing-c01 | exact | de.wikipedia.org | Chiū-sìng, called Hahakigami in the cited account, is a being of Japanese folk belief. | ist der Name eines fiktiven Wesens des japanischen Volksglaubens. |
+| chiu-sing-c01 | exact | de.wikipedia.org | Hahakigami is a being of Japanese folk belief. | ist der Name eines fiktiven Wesens des japanischen Volksglaubens. |
 | chiu-sing-c02 | exact | de.wikipedia.org | The account calls it a tsukumogami friendly to humans. | Es ist einer der wenigen Tsukumogami, die dem Menschen wohlgesinnt sind. |
 | chiu-sing-c03 | exact | de.wikipedia.org | A well-treated ritual broom gains a soul after a century. | Der Hahakigami wird als Reisigbesen beschrieben, der nach Ablauf von mindestens 100 Jahren eine eigene Seele erlangt – allerdings nur, wenn er gut behandelt und nur zur rituellen Reinigung in Tempeln und Schreinen verwendet wurde. |
 | chiu-sing-c04 | exact | de.wikipedia.org | It sweeps consecrated halls and stairs on its own. | Dann erwacht er zum Leben und beginnt, von selbst die geweihten Hallen und Treppen zu fegen. |
 | chiu-sing-c05 | exact | de.wikipedia.org | It works only when nobody is watching. | Er tut dies aber nur, wenn niemand hinschaut. |
 | chiu-sing-c06 | exact | de.wikipedia.org | Sekien says he dreamed of the spirit after an autumn storm. | Sekien merkt an, dass er nach einem heftigen Herbststurm von einem Hahakigami geträumt habe. |
+| chiu-sing-c07 | exact | de.wikipedia.org | Hahakigami (箒神) literally means "broom god" ("Reisigbesen-Gott") and is also called Hōkigami; the article calls it a fictional being of Japanese folk belief. | Hahakigami (箒神; wörtlich „Reisigbesen-Gott“), auch Hōkigami genannt, ist der Name eines fiktiven Wesens des japanischen Volksglaubens. |
+| chiu-sing-c08 | exact | de.wikipedia.org | One of the earliest depictions and descriptions of a Hahakigami appears in Toriyama Sekien’s work Gazu Hyakki Tsuretsure Bukuro of 1784. | Eine der frühesten Abbildungen und Beschreibungen eines Hahakigami erscheint in Toriyama Sekiens Werk Gazu Hyakki Tsuretsure Bukuro (画図百鬼徒然袋; 100 Geister im Handgepäck) aus dem Jahr 1784. |
+| chiu-sing-c09 | exact | kotobank.jp | The dictionary defines 箒神 (hōkigami) as a deity who dwells in a broom and is regarded as a guardian of safe childbirth; a broom is used to stroke the belly of the woman in labour or stood upside down at her feet. | 箒に宿る神。安産の守り神とされ、産婦の腹を箒でなでたり、足許に箒を逆さに立てたりする。 |
+| chiu-sing-c10 | exact | kotobank.jp | Another dictionary calls it a kind of birth deity (ubugami) who attends and watches over a delivery, and explains that the broom’s shape resembles a yorishiro (vessel for a deity), so it turned into the name of a deity. | 出産の場に立ち会って見守ってくれるという産神(うぶがみ)の一種。箒の形が依代(よりしろ)に類似しているため神名に転じたもの。 |
+| chiu-sing-c11 | exact | kotobank.jp | According to the encyclopedia, 箒神 is regarded as a birth deity: in the Aso region the broom god is said to come first at a birth; in Iwate a birth cannot happen until three deities (broom, mountain, privy) have come; throwing away an old broom without untying its knot is said to cause a difficult birth. | また箒神は産神とされ，阿蘇地方ではお産のときに真っ先に来るのは箒神だといい，岩手県では箒神，山の神，厠（かわや）神の3神が来ないと出産できないという。古箒の結び目を解かずに捨てると難産するともいわれる。 |
 
 
 ## cikap-kamuy — lulus-otomatis

@@ -1,38 +1,34 @@
 {
   "batch_id": "batch-059",
-  "checked_at": "2026-10-01T08:08:38.031Z",
+  "checked_at": "2026-10-07T07:39:06.614Z",
   "files": [
     "batch-059.md",
     "batch-059-fix-1.md",
     "batch-059-fix-2.md",
-    "batch-059-fix-3.md"
+    "batch-059-fix-3.md",
+    "batch-059-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "utsushihikanasaku",
-      "file": "batch-059-fix-1.md",
+      "file": "batch-059-fix-4.md",
+      "entry_sha256": "535d4de2baafc52221b17e516073139e9a30d01937e3230fb55a0c9385de7d55",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 12,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "utsushihikanasaku-c01",
           "source_id": "utsushihikanasaku-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Utsushihikanasaku is a Japanese deity.",
-          "statement_id": "Utsushihikanasaku adalah dewa Jepang.",
+          "statement": "Utsushihikanasaku-no-mikoto is a deity who appears in Japanese mythology.",
+          "statement_id": "Utsushihikanasaku-no-mikoto adalah dewa yang muncul dalam mitologi Jepang.",
           "quote": "宇都志日金拆命（うつしひかなさくのみこと）は、日本神話に登場する神。",
           "context": "religious-tradition",
           "status": "exact"
@@ -41,9 +37,109 @@
           "id": "utsushihikanasaku-c02",
           "source_id": "utsushihikanasaku-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Other records call him Hotakami.",
-          "statement_id": "Catatan lain menyebutnya Hotakami.",
+          "statement": "The Kojiki writes his name as Utsushihikanasaku-no-mikoto, while other records know him as Hotakami-no-mikoto.",
+          "statement_id": "Kojiki menuliskan namanya Utsushihikanasaku-no-mikoto, sedangkan sumber-sumber lain mengenalnya dengan nama Hotakami-no-mikoto.",
           "quote": "『古事記』では宇都志日金拆命と表記し、その他の史料では穂高見命（ほだかみのみこと）の名で伝わる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c03",
+          "source_id": "utsushihikanasaku-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Toyotama-bime-no-mikoto, consort of Hoori-no-mikoto, and Tamayori-bime-no-mikoto, mother of Emperor Jinmu, are said to be his siblings; he is also said to be the ancestral deity of the Azumi and Umi-inukai clans.",
+          "statement_id": "Toyotama-bime-no-mikoto, permaisuri Hoori-no-mikoto, dan Tamayori-bime-no-mikoto, ibu Kaisar Jinmu, disebut sebagai saudara-saudarinya; ia juga dikatakan leluhur klan Azumi dan Umi-inukai.",
+          "quote": "火遠理命の后である豊玉毘売命、神武天皇の母である玉依毘売命が兄弟姉妹とされる。 また、安曇氏や海犬養氏などの祖神であるという。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c04",
+          "source_id": "utsushihikanasaku-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kojiki divine-name database of Kokugakuin University lists this deity as Utsushihikanasaku-no-mikoto, written 宇都志日金析命.",
+          "statement_id": "Basis data nama dewa Kojiki di Universitas Kokugakuin mencatat dewa ini sebagai Utsushihikanasaku-no-mikoto dengan tulisan 宇都志日金析命.",
+          "quote": "宇都志日金析命 読み うつしひかなさくのみこと ローマ字表記 Utsushihikanasakunomikoto",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c05",
+          "source_id": "utsushihikanasaku-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "According to the database summary, he is a child of the three Watatsumi deities born from Izanagi's purification, and his name is given as the ancestor of the Azumi no Muraji.",
+          "statement_id": "Menurut ringkasan basis data itu, ia anak tiga dewa Watatsumi yang lahir dari pemurnian Izanagi, dan namanya disebut sebagai leluhur Azumi no Muraji.",
+          "quote": "梗概 伊耶那岐神の禊ぎで生まれた三柱の綿津見神の子で、阿曇連等の祖神として名が上がる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c06",
+          "source_id": "utsushihikanasaku-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The \"utsushi\" in his name is read either as an invisible spirit appearing in human form or as \"real\", and \"hi\" is taken to mean a divine spirit.",
+          "statement_id": "Bagian \"utsushi\" pada namanya ditafsirkan sebagai roh tak kasatmata yang menampakkan diri dalam rupa manusia, atau sebagai \"nyata\"; bagian \"hi\" dianggap bermakna roh dewa.",
+          "quote": "「宇都志」は顕で不可視の神霊が人の姿となって現れた意かとする説や「現実の」の意とする説がある。「日」は神霊の意とされる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c07",
+          "source_id": "utsushihikanasaku-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "For \"kanasaku\", one view links it to swords, and another reads it as net-binding, since the ancestors of the Azumi were sea people who used nets.",
+          "statement_id": "Untuk bagian \"kanasaku\", ada pendapat bahwa ia berkaitan dengan pedang, dan ada pula yang membacanya sebagai pengikat jala karena leluhur Azumi adalah orang laut yang memakai jala.",
+          "quote": "「金析」は、刀剣にまつわる石析神・根析神の名から推すと刀剣に縁のあるものかとして、また海神が蛇体であることにも通じるかとする説や、『類聚名義抄』の「縋」にカナサクの和訓があることから、網かがりの意とし、阿曇連が海人で網を用いる人であると捉えて、その祖がすなわち網をかがる人、編む人でこの神名になったとする説がある。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c08",
+          "source_id": "utsushihikanasaku-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Shinsen Shōjiroku records the Azumi no Muraji of Kawachi as descended from 于都斯奈賀命, whom one theory identifies with this deity; its Kawachi section on divine lineages names Hotakami, child of Watatsumi, as the ancestor, and the Kujiki (旧事紀) names Ama-tsukuri-hime.",
+          "statement_id": "Shinsen Shōjiroku mencatat Azumi no Muraji di Kawachi sebagai keturunan 于都斯奈賀命, yang menurut satu teori sama dengan dewa ini; bagian Kawachi lain dari kitab itu menyebut leluhurnya Hotakami, anak Watatsumi, dan Kujiki (旧事紀) menyebut Ama-tsukuri-hime.",
+          "quote": "『新撰姓氏録』未定雑姓・河内国の安曇連が「于都斯奈賀命」の後裔とあるのを、「奈賀」を「賀奈」と考えるなどして、同じ安曇連の祖神であるこの神と同神と見る説がある。なお、同書河内国神別の安曇連の祖神は、「綿積神命の児、穂高見命」とされている。旧事紀では「天造日女命」が阿曇連らの祖とある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c09",
+          "source_id": "utsushihikanasaku-s3",
+          "host": "hotakajinja.com",
+          "statement": "Hotakami-no-mikoto is the chief deity of Hotaka Shrine at Hotaka in Azumino; its Okumiya (inner shrine) stands at Kamikochi and its Minemiya on Mount Okuhotaka.",
+          "statement_id": "Hotakami-no-mikoto adalah dewa utama Hotaka Jinja di Hotaka, Azumino; Okumiya (kuil dalam) berada di Kamikochi dan Minemiya di Gunung Okuhotaka.",
+          "quote": "穂高見命を御祭神に仰ぐ穗髙神社は、信州の中心ともいうべき 安曇野市穂高にあります。 そして奥宮は穂高連峰の麓の上高地に祀られており、嶺宮は北アルプスの主峰奥穂高岳に祀られています。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c10",
+          "source_id": "utsushihikanasaku-s3",
+          "host": "hotakajinja.com",
+          "statement": "According to the official site of Hotaka Shrine, Hotakami is the ancestral deity of the Watatsumi (sea-god) people, whose descendants, the Azumi, flourished in northern Kyushu and mainly managed sea transport.",
+          "statement_id": "Menurut situs resmi Hotaka Jinja, Hotakami adalah leluhur kaum Watatsumi (dewa laut), dan keturunannya, bangsa Azumi, berkembang di Kyushu utara dengan mengurus pelayaran.",
+          "quote": "穂高見命は 海神 わたつみ 族の 祖神 おやがみ であり、その 後裔 こうえい である安曇族は北九州方面に栄え主として海運を司り",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c11",
+          "source_id": "utsushihikanasaku-s3",
+          "host": "hotakajinja.com",
+          "statement": "The shrine site describes Hotakami as the chief guardian of the Japan Alps and a deity protecting travel by sea and land.",
+          "statement_id": "Situs kuil menyebut Hotakami sebagai pelindung utama Pegunungan Alpen Jepang dan dewa penjaga lalu lintas darat dan laut.",
+          "quote": "御祭神は穂高見命で、日本アルプスの総鎮守、海陸交通守護の神です。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "utsushihikanasaku-c12",
+          "source_id": "utsushihikanasaku-s4",
+          "host": "kotobank.jp",
+          "statement": "According to the Maypedia entry, the enshrined deities of Hotaka Shrine include Hotakami-no-mikoto, who is said to have been enshrined on Mount Hotaka and to have opened up the Azusa River basin.",
+          "statement_id": "Menurut Maypedia, dewa utama Hotaka Jinja adalah Hotakami-no-mikoto dan dewa-dewa lain; ia dikatakan bersemayam di Gunung Hotaka dan membuka daerah aliran Sungai Azusa.",
+          "quote": "旧国幣小社。祭神は穂高見命などで，穂高岳に鎮座して梓川流域を開拓したと伝える。",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -122,31 +218,27 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5aa0988492dedc7d2c7f3cc926892149d5566504418ff1931477867d549d9bc5"
     },
     {
       "slug": "wakka-us-kamuy",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-4.md",
+      "entry_sha256": "1afd2a3f0f74e91d73d81d56720c4ba115b6f505aa949452a38e4b1c491b5552",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wakka-us-kamuy-c01",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "Wakka-us Kamuy is the Ainu goddess of freshwater.",
-          "statement_id": "Wakka-us Kamuy adalah dewi air tawar Ainu.",
+          "statement": "Wakka-us Kamuy (ワッカウシカムイ) is the Ainu kamuy (goddess) of fresh water.",
+          "statement_id": "Wakka-us Kamuy (ワッカウシカムイ) adalah kamuy (dewi) air tawar dalam tradisi Ainu.",
           "quote": "Wakka-us Kamuy (Ainu ワッカウシカムイ) is the Ainu kamuy (goddess) of fresh water.",
           "context": "religious-tradition",
           "status": "exact"
@@ -155,8 +247,8 @@
           "id": "wakka-us-kamuy-c02",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "Petorush Mat is another name, glossed as Watering-place Woman.",
-          "statement_id": "Petorush Mat adalah nama lain, dimaknai sebagai perempuan tempat air.",
+          "statement": "She is also known as Petorush Mat, glossed as \"Watering-place Woman\".",
+          "statement_id": "Ia juga dikenal dengan nama Petorush Mat, yang diartikan \"Perempuan Tempat Air\".",
           "quote": "She is also known as Petorush Mat (Watering-place Woman).",
           "context": "religious-tradition",
           "status": "exact"
@@ -165,8 +257,8 @@
           "id": "wakka-us-kamuy-c03",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "She is depicted with long hair and skill in dancing and singing.",
-          "statement_id": "Ia digambarkan berambut panjang serta mahir menari dan menyanyi.",
+          "statement": "She is portrayed as a long-haired woman who is a skilled dancer and singer.",
+          "statement_id": "Ia digambarkan sebagai perempuan berambut panjang yang pandai menari dan menyanyi.",
           "quote": "Wakka-us Kamuy is portrayed as a long-haired woman who is a skilled dancer and singer.",
           "context": "religious-tradition",
           "status": "exact"
@@ -175,8 +267,8 @@
           "id": "wakka-us-kamuy-c04",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "People ask her to intercede with other kamuy.",
-          "statement_id": "Manusia meminta perantaraannya kepada kami lain.",
+          "statement": "She is sympathetic to humanity and is sometimes petitioned to intercede with other kamuy on their behalf.",
+          "statement_id": "Ia berbelas kasih kepada manusia dan kadang dimohon menjadi perantara bagi manusia kepada kamuy lain.",
           "quote": "She is sympathetic to humanity, and is sometimes petitioned to intercede with other kamuy on their behalf.",
           "context": "religious-tradition",
           "status": "exact"
@@ -185,8 +277,8 @@
           "id": "wakka-us-kamuy-c05",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "In a famine story she and Hasinaw-uk Kamuy release the withheld deer and salmon.",
-          "statement_id": "Dalam kisah kelaparan ia dan Hasinaw-uk Kamuy melepaskan rusa serta salmon yang ditahan.",
+          "statement": "In the famine story she and the sympathetic Hasinaw-uk Kamuy, still dancing, send their souls to the storehouses and let the deer and salmon loose, and the other kamuy have no choice but to continue the feast.",
+          "statement_id": "Dalam kisah kelaparan, ia dan Hasinaw-uk Kamuy yang berbelas kasih melepaskan rusa dan salmon dari lumbung para kamuy dengan mengirim jiwa mereka ke sana sambil terus menari, dan kamuy lain terpaksa melanjutkan pesta.",
           "quote": "Wakka-us Kamuy and the sympathetic Hasinaw-uk Kamuy, while continuing to dance, send their souls to the storehouses and let the deer and salmon loose; in order to avoid making a scene, the other kamuy had no choice but to continue the feast.",
           "context": "religious-tradition",
           "status": "exact"
@@ -195,10 +287,100 @@
           "id": "wakka-us-kamuy-c06",
           "source_id": "wakka-us-kamuy-s1",
           "host": "en.wikipedia.org",
-          "statement": "She warns Okikurmi in a dream to uphold the proper rituals.",
-          "statement_id": "Ia memperingatkan Okikurmi dalam mimpi untuk menjaga ritual yang tepat.",
+          "statement": "Afterward she sends Okikurmi a dream telling him what had happened and why, and warning him to see that the rituals are carried out properly.",
+          "statement_id": "Setelah itu ia mengirim mimpi kepada Okikurmi untuk menjelaskan apa yang terjadi dan memperingatkannya agar ritual dijalankan dengan benar.",
           "quote": "Afterward, Wakka-us Kamuy sends a dream to Okikurmi, telling him what had happened and why, and warning him to see that the rituals were carried out in proper fashion.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c07",
+          "source_id": "wakka-us-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ainu mythology she is a benevolent goddess who oversees the river valleys around which Ainu communities centered and is responsible for all fresh water.",
+          "statement_id": "Dalam mitologi Ainu ia adalah dewi yang murah hati, yang mengawasi lembah-lembah sungai tempat permukiman Ainu berpusat dan bertanggung jawab atas semua air tawar.",
+          "quote": "In Ainu mythology, Wakka-us Kamuy is a benevolent goddess who oversees the river valleys around which Ainu communities centered and is responsible for all fresh water.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c08",
+          "source_id": "wakka-us-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One myth tells how she ended a famine: petitioned by Okikurmi, the culture hero and sorcerer, she invites the kamuy of the rapids, of fish, of game, the goddess of the hunt Hasinaw-uk Kamuy and the overseer of the land Kotan-kor Kamuy to a feast.",
+          "statement_id": "Satu mitos menceritakan bagaimana ia mengakhiri kelaparan: atas permohonan Okikurmi, sang pahlawan budaya dan dukun, ia mengundang kamuy jeram, ikan, binatang buruan, dewi perburuan Hasinaw-uk Kamuy, dan pengawas tanah Kotan-kor Kamuy ke sebuah pesta.",
+          "quote": "One such myth tells how Wakka-us Kamuy ended a famine that had broken out. Petitioned by Okikurmi, the culture hero and sorcerer, she invites the kamuy of the rapids, the kamuy of fish, the kamuy of game, the goddess of the hunt Hasinaw-uk Kamuy, and the overseer of the land Kotan-kor Kamuy to a feast.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c09",
+          "source_id": "wakka-us-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At the feast the fish kamuy tells her the humans were not killing fish in the proper ritual manner, so he has locked the salmon in his storehouse, and the game kamuy says the same of the deer.",
+          "statement_id": "Dalam pesta itu kamuy ikan memberitahunya bahwa manusia tidak membunuh ikan menurut cara ritual yang benar sehingga ia mengunci salmon di lumbungnya, dan kamuy binatang buruan berkata hal yang sama tentang rusa.",
+          "quote": "The fish kamuy informs her that the humans were not killing fish in the proper ritual manner, so he has locked the salmon in his storehouse; the game kamuy says the same of the deer.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c10",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "Batchelor writes that Wakka-ush kamui is thus supposed to be essentially good, and is worshipped with offerings of inao and sake and especially prayed to in time of sickness.",
+          "statement_id": "Batchelor menulis bahwa Wakka-ush kamui dianggap pada dasarnya baik, sehingga ia dipuja dengan persembahan inao dan sake dan terutama didoakan pada waktu sakit.",
+          "quote": "As Wakka-ush kamui is thus supposed to be essentially good, she is worshipped by having both inao and sake offered her, and is especially prayed to in time of sickness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c11",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "Batchelor records that the Ainu recognise one chief deity of all rivers, lakes, ponds, waterfalls and springs, called \"the water god\" and said to be of the feminine gender.",
+          "statement_id": "Batchelor mencatat bahwa orang Ainu mengenal satu dewa utama atas semua sungai, danau, kolam, air terjun, dan mata air, yang disebut \"dewa air\" dan dikatakan berjenis kelamin perempuan.",
+          "quote": "so there is supposed to be one chief deity of all the rivers, lakes, ponds, waterfalls and springs. ... the water god,’ and is said to be of the feminine gender.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c12",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "Batchelor first supposed the name applied to all the river deities, but was assured it is the name of the chief river god only.",
+          "statement_id": "Batchelor semula mengira nama itu dipakai untuk semua dewa sungai, tetapi diberi tahu bahwa nama itu hanya untuk dewa sungai yang utama.",
+          "quote": "I formerly supposed this was a name for all the river deities, but am assured that it is not so, but the name of the chief river god only.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c13",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "According to Batchelor, she and the goddess of fire are said to be the very chief and best deities upon the earth, and all others are subject to them as mere servants.",
+          "statement_id": "Menurut Batchelor, ia dan dewi api dikatakan sebagai dewa terutama dan terbaik di bumi, dan semua dewa lain tunduk kepada mereka sebagai pelayan.",
+          "quote": "In fact, she and the goddess of fire are said to be the very chief and best deities upon the earth, and all others are subject to them as mere servants.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c14",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "According to Batchelor, all small streams and river branches are said to be her offspring and are called kamui-poteke, \"god's little hands\".",
+          "statement_id": "Menurut Batchelor, semua anak sungai dan cabang sungai kecil dikatakan sebagai keturunannya dan disebut kamui-poteke, \"tangan-tangan kecil dewa\".",
+          "quote": "All small streams and river branches are said to be her offspring, and are called kamui-poteke , ‘god’s little hands,’",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakka-us-kamuy-c15",
+          "source_id": "wakka-us-kamuy-s2",
+          "host": "archive.org",
+          "statement": "Batchelor names the deity supposed to stand next in order to her as Pet-otokmat, \"the female of the source of rivers\".",
+          "statement_id": "Batchelor menyebut dewa yang dianggap berikutnya setelah dia sebagai Pet-otokmat, \"perempuan sumber sungai\".",
+          "quote": "The deity supposed to stand next in order to her is named Pet-otokmat , ‘ the female of the source of rivers.’",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -276,31 +458,27 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bb5122a2ca28f496e2d86c245dadd7b1f7f83d404c0caf2924ea57fe27be6c46"
     },
     {
       "slug": "wd-q10282467",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-4.md",
+      "entry_sha256": "eb6579478853a5f7defd416b3c06f8de2f8201640b09fd6f79eb2e39dfd23136",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10282467-c01",
           "source_id": "wd-q10282467-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Yūrei-danuki is a transforming tanuki of Inoshiri in Tokushima.",
-          "statement_id": "Yūrei-danuki adalah tanuki pengubah wujud dari Inoshiri di Tokushima.",
+          "statement": "Yūrei-danuki is a transforming tanuki (bake-danuki) told of in Inoshiri Village, Wakimachi, Mima District, Awa Province (now Mima City, Tokushima Prefecture).",
+          "statement_id": "Yūrei-danuki adalah tanuki penjelma (化け狸) yang dikisahkan di Desa Inoshiri, Wakimachi, Distrik Mima, Provinsi Awa (kini Kota Mima, Prefektur Tokushima).",
           "quote": "幽霊狸（ゆうれいだぬき）は、阿波国美馬郡脇町の猪尻村（現・徳島県美馬市）に伝わる化け狸。",
           "context": "traditional-belief",
           "status": "exact"
@@ -309,8 +487,8 @@
           "id": "wd-q10282467-c02",
           "source_id": "wd-q10282467-s1",
           "host": "ja.wikipedia.org",
-          "statement": "It occupies a cemetery tree where the brave Hyōhachi waits to expose it.",
-          "statement_id": "Ia menempati pohon pemakaman tempat Hyōhachi yang pemberani menunggu untuk mengungkapnya.",
+          "statement": "In a cemetery at a place called Tarui in Inoshiri Village stood a large enoki tree, and Yūrei-danuki made its nest at its roots. A bold man named Hyōhachi went out with an axe to see through the tanuki's true form and climbed the tree to wait for night.",
+          "statement_id": "Di pemakaman di tempat bernama Tarui di Desa Inoshiri ada pohon enoki besar, dan Yūrei-danuki bersarang di akarnya. Seorang pemberani bernama Hyōhachi pergi membawa kapak untuk melihat wujud asli tanuki itu dan memanjat pohon untuk menunggu malam.",
           "quote": "猪尻村の樽井という地の墓場にエノキの大木があり、幽霊狸はこの木の根元を巣としていた。あるときに猪尻村に住む兵八という豪胆者が狸の正体を見抜いてやろうと、斧を手にして出かけ、誰も近寄らなかった大木に登って夜を待った。",
           "context": "traditional-belief",
           "status": "exact"
@@ -319,8 +497,8 @@
           "id": "wd-q10282467-c03",
           "source_id": "wd-q10282467-s1",
           "host": "ja.wikipedia.org",
-          "statement": "It produces an apparition of Hyōhachi’s mother, which he strikes with an axe.",
-          "statement_id": "Ia menghasilkan penampakan ibu Hyōhachi yang dipukulnya dengan kapak.",
+          "statement": "Hyōhachi grew uneasy and looked down wondering whether his mother had really died; the ground where the coffin was buried swelled up and a ghost of his mother leaped out and attacked him, shouting at him, and Hyōhachi struck the ghost's head with his axe, and it screamed and vanished into the ground.",
+          "statement_id": "Hyōhachi mulai merasa cemas dan menunduk bertanya-tanya apakah ibunya benar-benar sudah meninggal; tanah tempat peti mati dikubur menggembung dan hantu ibunya melompat keluar menyerangnya sambil berteriak, lalu Hyōhachi memukul kepala hantu itu dengan kapak, dan hantu itu menjerit dan menghilang ke dalam tanah.",
           "quote": "兵八はさすがに心細くなり、母は本当に死んでしまったのかと下を見下ろすと、棺桶を埋めた地面が盛り上がって母親の幽霊が飛び出し、「親不孝者め、殺してやる!」と襲って来た。兵八は咄嗟に斧を振り上げ、幽霊の頭目掛けて叩きつけた。悲鳴が響き、幽霊は地面へと消えた。",
           "context": "traditional-belief",
           "status": "exact"
@@ -329,9 +507,39 @@
           "id": "wd-q10282467-c04",
           "source_id": "wd-q10282467-s1",
           "host": "ja.wikipedia.org",
-          "statement": "At dawn the tale reveals the corpse of an extremely old tanuki.",
-          "statement_id": "Pada fajar dongeng memperlihatkan bangkai tanuki sangat tua.",
-          "quote": "やがて夜が明け、地面には数百歳か想像もつかなほどの古狸、幽霊狸の死体が転がっていた。",
+          "statement": "When dawn came, the corpse of Yūrei-danuki lay on the ground, a very old tanuki whose age was hard to imagine, perhaps hundreds of years. The other villagers who came to look were all impressed by Hyōhachi's courage.",
+          "statement_id": "Ketika fajar tiba, yang tergeletak di tanah adalah bangkai Yūrei-danuki, seekor tanuki tua yang umurnya sulit dibayangkan, mungkin ratusan tahun. Para penduduk desa lain yang datang melihat semuanya kagum akan keberanian Hyōhachi.",
+          "quote": "やがて夜が明け、地面には数百歳か想像もつかなほどの古狸、幽霊狸の死体が転がっていた。兵八のこの豪胆さに、様子を見に来た他の村人たち皆が感心したという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10282467-c05",
+          "source_id": "wd-q10282467-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Around midnight a neighbour from Hyōhachi's household came and told him to go home at once because his mother was gravely ill; Hyōhachi was shocked but held back his wish to go home, and the neighbour left.",
+          "statement_id": "Menjelang tengah malam seorang tetangga datang dan menyuruh Hyōhachi segera pulang karena ibunya sakit parah; Hyōhachi terkejut tetapi menahan keinginan untuk pulang, lalu tetangga itu pergi.",
+          "quote": "そろそろ化け物が出るかという真夜中の頃、兵八の家の隣人がやって来た。母親が重病なのですぐに帰れということだった。兵八は驚いたが、辛抱して帰りたい気持ちを堪えたので、隣人は帰って行った。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10282467-c06",
+          "source_id": "wd-q10282467-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Soon lantern lights from many houses were seen gathering at Hyōhachi's house, and a funeral procession came to the foot of the great tree, buried a coffin, and left.",
+          "statement_id": "Tak lama kemudian terlihat lampu lentera dari berbagai rumah berkumpul menuju rumah Hyōhachi, lalu arak-arakan pemakaman datang ke bawah pohon besar itu, menguburkan sebuah peti mati, dan pergi.",
+          "quote": "すると間もなく、方々の家から提灯の灯りが現れ、兵八の家へ集まって行くのが見えた。やがて葬式の行列が現れ、兵八のいる大木のもとへやって来て、棺桶を埋めて帰って行った。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10282467-c07",
+          "source_id": "wd-q10282467-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia describes Yūrei-danuki as a tanuki of legend at Tarui in Inoshiri Village, Wakimachi, Mima District, Awa Province (now Mima City, Tokushima Prefecture).",
+          "statement_id": "Wikipedia bahasa Mandarin menyebut Yūrei-danuki sebagai tanuki dalam legenda di Tarui, Desa Inoshiri, Wakimachi, Distrik Mima, Provinsi Awa (kini Kota Mima, Prefektur Tokushima).",
+          "quote": "幽霊狸（ゆうれいだぬき）是在阿波国美馬郡脇町的猪尻村樽井（現日本德岛县美馬市）传说中的狸猫。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -410,7 +618,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8a0a593ae3a8550fcf2fe8da4ec076dffe14d1c83b37293d2276a1942fe65ac7"
     },
     {
       "slug": "wd-q10329896",
@@ -460,7 +669,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "af2ee2f9ff4948e4e32ccc7c4529294ee75f9c73f0a1555b7606a58b594b04ad"
     },
     {
       "slug": "wd-q10542923",
@@ -520,7 +730,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2ac61760764b91ba7ccb9e5202c404799b791bf4eb53ec52c27ef69419018a56"
     },
     {
       "slug": "wd-q10565813",
@@ -560,7 +771,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "924992982a76debef76d9718d9c38b92beb0a17702ff545c4badb4171438064d"
     },
     {
       "slug": "wd-q10566254",
@@ -620,7 +832,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31884416aed9c32e0026d2b45d76802a13421b024a229e726f07ab33299f83af"
     },
     {
       "slug": "wd-q10913525",
@@ -670,7 +883,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b0b0befa9a38e3413e74d5b84c777f16a35f84d267317fd080d7591cadbd867c"
     },
     {
       "slug": "wd-q10917486",
@@ -730,7 +944,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1c447d97a0d2cd185ed523ff196a860f1f65157bc9f60a7f3481edf4920eb9ce"
     },
     {
       "slug": "wd-q10918482",
@@ -790,7 +1005,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31e8142df1370fd1929232b2c2abdf0eec4884422ceb1b5addc3116a0bfbe0d6"
     },
     {
       "slug": "wd-q10931176",
@@ -864,7 +1080,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b521b8141ee07afc9ebd646d035b743e3c6371b0ddc61b20461b221d2b36731f"
     },
     {
       "slug": "wd-q10939056",
@@ -938,7 +1155,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "41f53186c92f13f6fcc1a693aa8bab179bae91542d457b47e4b1194ca9c4ae8c"
     },
     {
       "slug": "wd-q10955404",
@@ -1012,7 +1230,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "50b4e8b2b409fbab85a24e7f4e611846e5782d5ae023676e42820bb2b6df76bc"
     },
     {
       "slug": "wd-q11093248",
@@ -1086,7 +1305,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d651607cdbfa81398d2ea18d88e42505aebd95a12ce44832c958ecc6d90e0ac3"
     },
     {
       "slug": "wd-q11139313",
@@ -1160,7 +1380,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f4e34d20f055074eb45cc2686f7e2eae62cd19f4557e12e7b2788d28cb93906c"
     },
     {
       "slug": "wd-q11173930",
@@ -1220,7 +1441,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c040d7923e036c79c6979754d889019891b3fcf459efc0efb481cc446e97de65"
     },
     {
       "slug": "wd-q11244093",
@@ -1280,7 +1502,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8452054de59edb5650e20a19e8e7ba02d26a8cf8b98418e22dbac3a0a3107f1e"
     },
     {
       "slug": "wd-q11255764",
@@ -1340,7 +1563,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "48498c67d7c93804d0f4a8f4f72b8b0eff4a7ade2c91a209b07fa80d6c46b565"
     },
     {
       "slug": "wd-q11267633",
@@ -1414,7 +1638,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c16bdc8c669b144457ed1a31e2ebf9e5202c7f96bfcbeb41092cb390a734cc82"
     },
     {
       "slug": "wd-q11275142",
@@ -1464,7 +1689,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "db0a7d1ccf3ada885ff0d2c7379de2212ce6941b5d98ed35439e4a381c857e50"
     },
     {
       "slug": "wd-q11282679",
@@ -1524,7 +1750,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b1d8452185a107bee2e7af14544482af902a13e969ee9e99b0966ac18c5c249d"
     },
     {
       "slug": "wd-q11321489",
@@ -1598,7 +1825,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "da9d6f372b7ba485bb5e87590ad7f43045d84bf9c9e1f02a99c2027ff81fd897"
     },
     {
       "slug": "wd-q11327799",
@@ -1617,7 +1845,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "c6d42c79c3213fc61b815062ad3be0c79b60d2b05be22ddc2e0813067843f770"
     },
     {
       "slug": "wd-q11353466",
@@ -1677,7 +1906,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "501c37440c8b7ed34cb9865e6dfcd9dc92ee93040dcf5cca76e56a7e3427a7bb"
     },
     {
       "slug": "wd-q11376261",
@@ -1727,7 +1957,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7cba0a22edc40941013dcf88c05cb00379657dc0de3c78b8560e86499643359a"
     },
     {
       "slug": "wd-q11410474",
@@ -1777,7 +2008,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3d31c5b7dd51c257c0afd460abbf09ad49046f4dab8e21a098562f0e227565e"
     },
     {
       "slug": "wd-q11417222",
@@ -1837,7 +2069,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "53afc11b3edc08c601d7c77c9ba86bf403980d084acd6cd412c44a781812861e"
     },
     {
       "slug": "wd-q11420315",
@@ -1897,7 +2130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5ef2aa82abe8a5832b95c9b35bd053d4b6cc661bb38e9241694c137962b050ae"
     },
     {
       "slug": "wd-q11433719",
@@ -1957,7 +2191,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9322d09ce8007f44f109abba9b766387000034beccec9fa9aa56d9c21a5b9a2a"
     },
     {
       "slug": "wd-q11437730",
@@ -2007,7 +2242,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "604bcf601ebbc9de09d19ed8378903d26859ecb54314c46718ff017fb077484a"
     },
     {
       "slug": "wd-q11532738",
@@ -2067,7 +2303,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bfa68ed13a71bc2f7f7b07092e53b69860ac847e9cd6eb6255fde089d47ffa12"
     },
     {
       "slug": "wd-q11558956",
@@ -2127,7 +2364,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "57e20b1c95355bd88a16b0b6e9136151b09ef5af89f4bf84ca8ec12231b49309"
     },
     {
       "slug": "wd-q11571386",
@@ -2201,7 +2439,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cb86db8ae9098d0e6ed5927ce39e30121aa24dd13cf400f98c02846c79a193a7"
     },
     {
       "slug": "wd-q11578835",
@@ -2261,7 +2500,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c097fc26ca1586f25a8fac0764803418fb51c46565c4036335bed054819eed21"
     },
     {
       "slug": "wd-q11579484",
@@ -2321,7 +2561,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "36e9de5e960d972eb550203b64cfd28edd64b62d0c4bbd609a2d683cbc6cf153"
     },
     {
       "slug": "wd-q11587956",
@@ -2395,7 +2636,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6bfaf50f489fcbf816d85fc651367b42a860f0e1162e75813b71ed043cf0b837"
     },
     {
       "slug": "wd-q11606989",
@@ -2469,7 +2711,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d5269d4d2f33db4606f3b650285397586df017c1bb624977c45f3951c95cd12"
     },
     {
       "slug": "wd-q11625862",
@@ -2543,7 +2786,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8c25584466e70769b51efff4de01ce91beea77470b0d3264dc270f437affe90e"
     },
     {
       "slug": "wd-q11635241",
@@ -2617,7 +2861,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f183844541ba39f4e31e108d414df409b770da45c647d256baa41b3733d42ed"
     },
     {
       "slug": "wd-q11635443",
@@ -2677,7 +2922,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "de06bf921217ed1694c31b6bb24f696c49ebc3bb6dd3d04febc9f9b2780a28fd"
     },
     {
       "slug": "wd-q11642626",
@@ -2737,7 +2983,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "468d38804a7761edf61a0f5fe4b50b3c8c24010939b2b175d2384f216f523aeb"
     },
     {
       "slug": "wd-q11644370",
@@ -2797,7 +3044,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cf1605af337c4473a169d30f3cc775ed1ce3021ca6d05cfd97134d31e6f1a6d2"
     },
     {
       "slug": "wd-q11647082",
@@ -2816,7 +3064,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "73a3d4f0fc2afbe500e31a7939ae0a694ebf739acfc7f3bdb7f20edf8052a4b8"
     },
     {
       "slug": "wd-q11651537",
@@ -2876,7 +3125,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "57b79be6a9a10857640c694dd60825f22df9d5a75e585e44e8b8bf5b12f02255"
     },
     {
       "slug": "wd-q11659013",
@@ -2936,7 +3186,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "93c0f8292f01d9d6033654847d17fb584222ce2c63a0ee0a829bc2efb60f6bdd"
     },
     {
       "slug": "wd-q11665816",
@@ -3010,7 +3261,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b272082bc8e021d97e2b43cd2212072904094dfc298aa35de6c3da17a150dab7"
     }
   ]
 }

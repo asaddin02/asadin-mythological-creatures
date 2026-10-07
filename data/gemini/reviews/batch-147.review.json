@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-147",
-  "checked_at": "2026-10-07T06:54:41.828Z",
+  "checked_at": "2026-10-07T07:39:04.997Z",
   "files": [
     "batch-147.md",
     "batch-147-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-147-fix-3.md",
     "batch-147-fix-4.md",
     "batch-147-fix-5.md",
-    "batch-147-fix-6.md"
+    "batch-147-fix-6.md",
+    "batch-147-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3375,41 +3376,15 @@
     },
     {
       "slug": "jumbee",
-      "file": "batch-147-fix-6.md",
-      "entry_sha256": "93d18ebc7ffe9bb5b7928483233196cba5685c1d871c6aa60d2df877059ca861",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "515dc0f1e5e71020003c7678242f1e403591b0b5a6706162aef74f7b1201d202",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 16,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (jumbee-c15)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1]",
-          "message": "Tidak muncul di kutipan mana pun: Britain. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[3]",
-          "message": "Tidak muncul di kutipan mana pun: Congolese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[2].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"a jumbie is a ghost or spirit of the dead jumbies are…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "stories[0].summary.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"was killed by her husband for trying to free his slaves and…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jumbee-c01",
@@ -3576,27 +3551,22 @@
     },
     {
       "slug": "ka-a-pora",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "f0002f172d6ddea1b4855b2d0a7d329f2d47a6fe61839fe8d4a9b11e8cdd1525",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ka-a-pora-c01",
           "source_id": "ka-a-pora-s1",
           "host": "es.wikipedia.org",
           "statement": "Ka'a Póra or Caapóra is a creature from the mythology of the Tupi tribes.",
-          "statement_id": "Ka'a Póra (Caapóra) adalah makhluk mitologi suku-suku Tupi.",
+          "statement_id": "Ka'a Póra atau Caapóra adalah makhluk dari mitologi suku-suku Tupi.",
           "quote": "La Ka'a Póra (en guaraní), Caapóra o Caá Póra es una criatura de la mitología de las tribus tupíes.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3605,8 +3575,8 @@
           "id": "ka-a-pora-c02",
           "source_id": "ka-a-pora-s1",
           "host": "es.wikipedia.org",
-          "statement": "Manifested as a ghostly woman in Rio Grande do Sul and Paraguay, or an enormous man in northeastern Argentina.",
-          "statement_id": "Berwujud wanita hantu di Rio Grande do Sul dan Paraguay, atau pria raksasa di timur laut Argentina.",
+          "statement": "It is a ghost woman in the state of Rio Grande do Sul (Brazil) and in southern Paraguay, or an enormous man in northeastern Argentina.",
+          "statement_id": "Ia berwujud wanita hantu di negara bagian Rio Grande do Sul (Brasil) dan di selatan Paraguay, atau pria raksasa di timur laut Argentina.",
           "quote": "Es una mujer fantasma en el estado de Rio Grande do Sul (Brasil), y en el sur del Paraguay o un hombre enorme en el Nordeste argentino.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3615,39 +3585,133 @@
           "id": "ka-a-pora-c03",
           "source_id": "ka-a-pora-s1",
           "host": "es.wikipedia.org",
-          "statement": "Among non-Guaraní indigenous groups, it receives the designation Kripandufuá.",
-          "statement_id": "Di antara kelompok suku non-Guarani, ia dinamai Kripandufuá.",
+          "statement": "Among non-Guaraní groups it is called Kripandufuá.",
+          "statement_id": "Di antara kelompok non-Guaraní, makhluk ini disebut Kripandufuá.",
           "quote": "Entre los grupos no guaraníes, recibe el nombre de Kripandufuá.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c04",
+          "source_id": "ka-a-pora-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Ka'a is translated as leaf, plant, forest or vegetation in general, and póra as ghost, so the name would mean ghost of the forest or forest spirit.",
+          "statement_id": "Ka'a diterjemahkan sebagai daun, tumbuhan, hutan, atau tetumbuhan pada umumnya, dan póra diterjemahkan sebagai hantu, sehingga nama itu berarti hantu hutan atau roh hutan.",
+          "quote": "ka'a se traduce al español como: hoja, planta, selva, vegetal en general; y póra (nombre de una leyenda paraguaya) se traduce como fantasma por lo que el nombre se significaría fantasma de la selva o espíritu del bosque.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c05",
+          "source_id": "ka-a-pora-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Ka'a Póra is portrayed as a woman, owner and protector of the forest animals. If she is on good terms with a hunter she can help him; if not, she will beat his dogs until they writhe in pain, using her invisibility, so that the prey escapes.",
+          "statement_id": "Ka'a Póra digambarkan sebagai wanita, pemilik dan pelindung hewan-hewan hutan. Jika berhubungan baik dengan seorang pemburu, ia dapat membantunya; jika tidak, ia akan memukuli anjing-anjing pemburu itu sampai menggeliat kesakitan dengan memanfaatkan ketakkasatmataannya, sehingga buruan lolos.",
+          "quote": "La Ka'a Póra es representada como una mujer, dueña y protectora de los animales del monte. Si está en buenas relaciones con un cazador, puede ayudarlo. Si no lo está, apaleará sus perros hasta hacerlos revolcarse de dolor aprovechando su invisibilidad, y permitiendo así que la presa huya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c06",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "According to Ambrosetti, in the province of Río Grande del Sur the Caá-Porá is also a woman: the owner of all the forest animals, a kind of Diana, who gives a hunter she favours the means to find prey.",
+          "statement_id": "Menurut Ambrosetti, di provinsi Río Grande del Sur, Caá-Porá juga seorang wanita: pemilik semua hewan hutan, sejenis Diana, yang memudahkan pemburu yang disukainya menemukan buruan.",
+          "quote": "En la provincia de Río Grande del Sur, la Caá ... Porá es también una mujer: la dueña de todos los animales del monte, una especie de Diana que, cuando el cazador le cae en gracia, le facilita los medios de encontrar la presa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c07",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "In the province of Paraná, according to Ambrosetti, the Caá-Porá is a hairy, gigantic man with a large head.",
+          "statement_id": "Di provinsi Paraná, menurut Ambrosetti, Caá-Porá adalah pria berbulu lebat, bertubuh raksasa, dan berkepala besar.",
+          "quote": "la provincia del Paraná, la Caá-Porá es un hombre velludo, gigantesco, de gran cabeza",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c08",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "In a legend recorded by Ambrosetti, when people find a herd of wild pigs and wipe it out, the Caá-Porá appears to them riding the last pig, and at the sight the killers are left dazed for life.",
+          "statement_id": "Dalam legenda yang dicatat Ambrosetti, ketika orang menemukan sekawanan babi hutan dan membasminya, Caá-Porá menampakkan diri menunggangi babi terakhir, dan melihatnya membuat para pembunuh itu linglung seumur hidup.",
+          "quote": "Cuando encuentran una piara de cerdos silvestres ... se les aparece, montado en el último cerdo, el Caá-Porá ... a cuya vista los matadores quedan idiotizados para toda la vida",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c09",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "For others the Caá-Porá is also a hairy man who smokes a pipe made from a human skull and a tibia, and devours people.",
+          "statement_id": "Bagi sebagian orang lain, Caá-Porá adalah pria berbulu lebat yang mengisap pipa dari tengkorak manusia dan tulang kering, dan melahap orang.",
+          "quote": "Para otros el Caá-Porá es también un hombre velludo que fuma en una pipa formada por un cráneo humano y una tibia, y devora a la gente",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c10",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "In other accounts it becomes simply Porá, a ghost that appears in the shape of a pig or a dog and spits flames from its mouth, frightening the animals.",
+          "statement_id": "Dalam penuturan lain, ia menjadi sekadar Porá, hantu yang menampakkan diri dalam wujud babi atau anjing dan menyemburkan api dari mulutnya sehingga menakuti hewan-hewan.",
+          "quote": "simple Porá, o fantasma que se aparece en el ... ya sea en forma de cerdo o perro, y lanzando llamas por la boca, asustando así a los animales.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c11",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "Ambrosetti also recorded a legend that refers to the Caá-Porá but under the name Petey, that is, \"One\".",
+          "statement_id": "Ambrosetti juga mencatat sebuah legenda yang merujuk pada Caá-Porá tetapi dengan nama Petey, yaitu \"Satu\".",
+          "quote": "se refiere a la Caá-Porá; pero bajo el nombre de Petey, es decir, Uno.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c12",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "Ambrosetti writes that the Caá Yarí is one of many genius loci that, like the Caá-Porá, could belong to the same group as the Pacha-Mama.",
+          "statement_id": "Menurut Ambrosetti, Caá Yarí adalah salah satu dari banyak genius loci yang, seperti Caá-Porá, mungkin termasuk dalam kelompok yang sama dengan Pacha-Mama.",
+          "quote": "La Caá Yarí es uno de tantos genius loci que, como la Caá-Porá, podrían pertenecer al mismo grupo que la Pacha-Mama",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ka-a-pora-c13",
+          "source_id": "ka-a-pora-s2",
+          "host": "archive.org",
+          "statement": "Ambrosetti suggests that the overexcited imagination of woodsmen must give human forms to tree trunks.",
+          "statement_id": "Ambrosetti berpendapat bahwa imajinasi para penghuni hutan yang terlalu bersemangat memberi bentuk manusia pada batang-batang pohon.",
+          "quote": "La imaginación exaltada de los montaraces ha de dar formas humanas a troncos de árboles",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "66efca0945f90b55422ca35300474ebbd109e744cfa8cec8c02a0687c8033be4"
+      "images": []
     },
     {
       "slug": "kasogonaga",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "f1dc6168424894ef7809b39475d015555dada6a8aaee6a04a1d69dd03e918426",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kasogonaga-c01",
           "source_id": "kasogonaga-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kasogonagá is a weather goddess in Toba indigenous cosmology.",
-          "statement_id": "Kasogonagá adalah dewi cuaca dalam kepercayaan masyarakat adat Toba.",
+          "statement": "Kasogonagá (also spelled Gasogonaga, Qasoxonaxa and many other variations) is a Toba weather goddess.",
+          "statement_id": "Kasogonagá (juga dieja Gasogonaga, Qasoxonaxa, dan banyak variasi lain) adalah dewi cuaca suku Toba.",
           "quote": "Kasogonagá (also spelled as Gasogonaga, Qasoxonaxa, and many other variations) is a Toba weather goddess.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3656,8 +3720,8 @@
           "id": "kasogonaga-c02",
           "source_id": "kasogonaga-s1",
           "host": "en.wikipedia.org",
-          "statement": "She manifests to shamans (pio'oxonak) during visions induced by psychoactive plants.",
-          "statement_id": "Dewi ini menampakkan diri kepada dukun (pio'oxonak) dalam penglihatan melalui tanaman psikoaktif.",
+          "statement": "She appears to shamans (pio’oxonak) in visions induced by psychoactive plants.",
+          "statement_id": "Ia menampakkan diri kepada dukun (pio’oxonak) dalam penglihatan yang dipicu tumbuhan psikoaktif.",
           "quote": "She appears to shamans, or pio’oxonak, in visions induced by psychoactive plants",
           "context": "traditional-belief",
           "status": "exact"
@@ -3666,40 +3730,154 @@
           "id": "kasogonaga-c03",
           "source_id": "kasogonaga-s1",
           "host": "en.wikipedia.org",
-          "statement": "She is described as a colorful animal with a mouth that discharges lightning.",
-          "statement_id": "Digambarkan sebagai hewan penuh warna dengan mulut yang menembakkan petir.",
+          "statement": "She is described as a colorful animal with a mouth that shoots lightning.",
+          "statement_id": "Ia digambarkan sebagai hewan berwarna-warni dengan mulut yang memancarkan petir.",
           "quote": "described as a colorful animal with a mouth that shoots lightning.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c04",
+          "source_id": "kasogonaga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to some Toba people, Kasogonagá appears as a multicolored elephant that throws lightning from her mouth; these attributes are related to rain and rainbows.",
+          "statement_id": "Menurut sebagian orang Toba, Kasogonagá tampil sebagai gajah berwarna-warni yang melontarkan petir dari mulutnya; ciri-ciri ini dikaitkan dengan hujan dan pelangi.",
+          "quote": "According to some members of the Toba people, Kasogonagá appears as a multicolored elephant that throws lightning from her mouth. These attributes are related to the rain and rainbows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c05",
+          "source_id": "kasogonaga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kasogonagá is also described as an anteater that lives in the sky, and sometimes she is said to be a pig.",
+          "statement_id": "Kasogonagá juga digambarkan sebagai beruang semut (anteater) yang hidup di langit, dan kadang dikatakan seekor babi.",
+          "quote": "Alternatively, Kasogonagá is also described as an anteater that lives in the sky. Sometimes she is even said to be a pig.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c06",
+          "source_id": "kasogonaga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one myth Kasogonagá asks a man to build a bonfire so that she can ride its smoke back to the sky; in gratitude she makes it rain and tells the man he can ask her for anything he needs.",
+          "statement_id": "Dalam satu mitos, Kasogonagá meminta seorang pria membuat api unggun agar ia dapat menunggangi asapnya kembali ke langit; sebagai tanda terima kasih ia menurunkan hujan dan berkata kepada pria itu bahwa ia boleh meminta apa pun.",
+          "quote": "She asked the man to build a bonfire so that she could ride the smoke and return to the sky. The man did as she asked, and placed her on top of the bonfire. In her gratitude, she made it rain, and told the man that if he needed anything, he could just ask her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c07",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "In an account recorded by Terán, Kasogonaga is the lightning but also a small animal; it takes the form of a four-legged little animal and is the owner of the lightning.",
+          "statement_id": "Dalam penuturan yang dicatat Terán, Kasogonaga adalah petir sekaligus hewan kecil; ia berwujud hewan kecil berkaki empat dan pemilik petir.",
+          "quote": "Kasogonaga es el rayo, pero también es un animalito. Toma la forma de un animalito de cuatro patas. Es el dueño del rayo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c08",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "The Toba say that a man in the bush heard someone calling him and found Kasogonaga in the form of a small pig that had fallen from a cloud.",
+          "statement_id": "Orang Toba menuturkan bahwa seorang pria di hutan mendengar panggilan dan mendapati Kasogonaga berwujud babi kecil yang jatuh dari awan.",
+          "quote": "Los Toba dicen que un día un hombre estaba afuera en el monte y escuchó alguien que lo llamaba. Miró quién era y allí estaba Kasogonaga bajo la forma de un pequeño cerdo que se había caído de una nube.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c09",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "In those accounts this celestial being is associated with rain, thunder and lightning; as owner of these atmospheric phenomena, qasoxonaxa can help people in droughts and floods.",
+          "statement_id": "Dalam kisah-kisah itu, makhluk langit tersebut dikaitkan dengan hujan, guntur, dan kilat; sebagai pemilik gejala cuaca itu, qasoxonaxa dapat menolong manusia ketika kemarau dan banjir.",
+          "quote": "En ellos, se observa también una asociación entre dicho ser celestial y la lluvia, los truenos y relámpagos; como dueño de tales fenómenos atmosféricos, qasoxonaxa puede ayudar a los seres humanos ante situaciones de sequía e inundaciones.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c10",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "In Sarra's records from the qom neighbourhood of Derqui, the being is conceived as a sky elephant, a small animal or an anteater, owner of rain and thunder, that lives in the sky above the clouds.",
+          "statement_id": "Dalam catatan Sarra di lingkungan qom di Derqui, makhluk ini dibayangkan sebagai gajah langit, hewan kecil, atau beruang semut, pemilik atau penguasa hujan dan guntur yang tinggal di langit di atas awan.",
+          "quote": "En los relatos, situaciones fragmentarias y dibujos que registré en el barrio qom de Derqui, dicho ser es conceptualizado como un elefante del cielo, como un pequeño animalito o como un oso hormiguero, dueño o dueña de la lluvia y los truenos, que habita en el cielo sobre las nubes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c11",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "The differing descriptions may be due to the metamorphic logic of the qom conception of person and body, which allows different states of one and the same being.",
+          "statement_id": "Beragam deskripsi itu mungkin disebabkan oleh logika metamorfik dalam pandangan qom tentang pribadi dan tubuh, yang mengizinkan beberapa keadaan bagi satu makhluk yang sama.",
+          "quote": "Las diversas descripciones pueden deberse a la lógica metamórfica de la concepción qom de la persona y el cuerpo, que permite diferentes estados de un mismo ser",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c12",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "In brief, in those accounts the being has its dwelling in the heavens but can occasionally fall to the earth, and then needs human help to return.",
+          "statement_id": "Secara ringkas, dalam kisah-kisah itu makhluk ini bertempat tinggal di langit tetapi sewaktu-waktu dapat jatuh ke bumi, lalu memerlukan bantuan manusia untuk kembali.",
+          "quote": "Sintéticamente, en dichos relatos se describe que dicho ser tiene su morada en los cielos pero eventualmente puede caer al plano terrestre, y entonces necesita de la ayuda de los seres humanos para regresar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c13",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "In the first two accounts people helped it up to the sky by building a large fire; in return qasoxonaxa will help them in droughts or floods.",
+          "statement_id": "Dalam dua kisah pertama, manusia menolongnya naik ke langit dengan membuat api besar; sebagai balasan, qasoxonaxa akan menolong mereka ketika kemarau atau banjir.",
+          "quote": "éstos lo ayudaron a subir al cielo mediante la construcción de un gran fuego; a cambio, qasoxonaxa les ofrecerá ayuda ante sequías o inundaciones",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c14",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "A girl in Derqui told Sarra that her grandmother, an elephant in the sky, cures warts, and that when it rains one must put out a hand so that the rain water, together with the appropriate prayers, takes effect.",
+          "statement_id": "Seorang anak di Derqui berkata kepada Sarra bahwa neneknya, seekor gajah di langit, menyembuhkan kutil, dan bahwa saat hujan tangan harus dijulurkan agar air hujan bersama doa-doa yang sesuai bekerja.",
+          "quote": "mi abuela que es un elefante que está en el cielo cura verrugas ... cuando llueve hay que sacar la mano para que el contacto con el agua de la lluvia, junto con los rezos correspondientes, haga su efecto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kasogonaga-c15",
+          "source_id": "kasogonaga-s2",
+          "host": "www.redalyc.org",
+          "statement": "The mountain qasoxonaxa is situated in the west.",
+          "statement_id": "Gunung qasoxonaxa terletak di barat.",
+          "quote": "La montaña qasoxonaxa se sitúa al oeste",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "88d960e6bb2d84ef65fb0f0ad5b3d69c17e9af69210a8cb535a84f61a4fc1999"
+      "images": []
     },
     {
       "slug": "la-condena",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "735ab48a151b71019c61506caf55d3d93f87cf38fd861a8887b5a0d95c2f7059",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "la-condena-c01",
           "source_id": "la-condena-s1",
           "host": "es.wikipedia.org",
-          "statement": "La Condená is the name describing an evil female entity in Chilota mythology.",
-          "statement_id": "La Condená adalah sebutan bagi entitas jahat perempuan dalam mitologi Chiloé.",
-          "quote": "La Condená es el nombre con el cual se describe a un ser maligno femenino de la mitología chilota",
+          "statement": "La Condená is the name by which a female malevolent being of Chilote mythology in Chile is described.",
+          "statement_id": "La Condená adalah nama untuk makhluk jahat perempuan dalam mitologi Chiloé di Chile.",
+          "quote": "La Condená es el nombre con el cual se describe a un ser maligno femenino de la mitología chilota en Chile.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3707,9 +3885,9 @@
           "id": "la-condena-c02",
           "source_id": "la-condena-s1",
           "host": "es.wikipedia.org",
-          "statement": "Described as a middle-aged woman around forty to fifty years old.",
-          "statement_id": "Digambarkan sebagai wanita paruh baya berusia antara empat puluh hingga lima puluh tahun.",
-          "quote": "La Condená se describe como una mujer de mediana edad de alrededor de cuarenta a cincuenta años",
+          "statement": "La Condená is described as a middle-aged woman of about forty to fifty who was very beautiful in her youth but, because of her bad life, is condemned to bear a human form that is a grotesque mixture.",
+          "statement_id": "La Condená digambarkan sebagai wanita paruh baya sekitar empat puluh hingga lima puluh tahun yang semasa muda sangat cantik, tetapi karena hidupnya yang buruk terkutuk membawa wujud manusia yang merupakan campuran ganjil.",
+          "quote": "La Condená se describe como una mujer de mediana edad de alrededor de cuarenta a cincuenta años; que durante su juventud fue muy hermosa, pero por causa de su mala vida está condenada a llevar una forma humana que representa una mezcla grotesca",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3717,30 +3895,110 @@
           "id": "la-condena-c03",
           "source_id": "la-condena-s1",
           "host": "es.wikipedia.org",
-          "statement": "Though beautiful in youth, her lifestyle doomed her to bear a grotesque physical form.",
-          "statement_id": "Di masa mudanya cantik jelita, namun karena perbuatannya ia terkutuk menanggung wujud yang mengerikan.",
-          "quote": "que durante su juventud fue muy hermosa, pero por causa de su mala vida está condenada a llevar una forma humana que representa una mezcla grotesca",
+          "statement": "She was condemned to wander all the roads, dragging along the guilt of a licentious and immoral existence.",
+          "statement_id": "Ia dihukum mengembara di semua jalan sambil menanggung kesalahan karena hidup yang bejat dan tak bermoral.",
+          "quote": "se le condenó a vagar por todos los caminos, arrastrando consigo las culpas de haber tenido una existencia licenciosa e inmoral.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c04",
+          "source_id": "la-condena-s1",
+          "host": "es.wikipedia.org",
+          "statement": "She managed to attract the attention of the Trauco to have relations with him; she is better known as the mother of the Fiura, who is the wife of her own father, the Trauco.",
+          "statement_id": "Ia berhasil menarik perhatian Trauco untuk berhubungan dengannya; ia lebih dikenal sebagai ibu Fiura, yang adalah istri ayahnya sendiri, Trauco.",
+          "quote": "ella logró atraer la atención del Trauco para tener relaciones con él. De esta forma, la Condená logró que germinara en ella la semilla de la perversión de sus actos; y se le conozca más como la madre de la Fiura la cual es esposa de su padre el Trauco.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c05",
+          "source_id": "la-condena-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The word condená is a synonym of condenada and is used for people who stray from moral conduct and a proper life.",
+          "statement_id": "Kata condená bersinonim dengan condenada dan dipakai untuk menyebut orang yang menyimpang dari perilaku moral dan kehidupan yang pantas.",
+          "quote": "La palabra condená, es un sinónimo de la palabra condenada, que es usada para referirse a personas, que se apartan de una conducta moral y vida adecuada",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c06",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Quintana Mansilla, unrestrained pleasures and vices, which bring moral degradation and the disintegration of the human personality, have their genuine representative in Chilote mythology.",
+          "statement_id": "Menurut Quintana Mansilla, kenikmatan tanpa batas dan kebejatan, yang membawa kemerosotan moral dan runtuhnya kepribadian manusia, mempunyai wakil sejatinya dalam mitologi Chiloé.",
+          "quote": "Los placeres desenfrenados y los vicios, que traen consigo la degradación moral y la desintegración de la personalidad humana, tienen también su genuino representante en la mitología chilota",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c07",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "The myth describes her as a middle-aged woman who was very beautiful in adolescence and youth but, in the maturity of her wretched existence, shows a grotesque mixture of the alluring, the withered and the disfigured by the deep, indelible marks of a dissipated life.",
+          "statement_id": "Mitos menggambarkannya sebagai wanita paruh baya yang sangat cantik di masa remaja dan mudanya, tetapi pada usia matang hidupnya yang malang menunjukkan campuran ganjil antara yang memikat, yang layu, dan yang rusak oleh bekas-bekas mendalam kehidupan yang bejat.",
+          "quote": "El mito, la describe como una mujer de mediana edad, que fue muy hermosa en su adolescencia y juventud, pero en la madurez de su lamentable existencia, muestra una mezcla grotesca de una insinuante, con lo mustio, y lo desfigurado por las huellas profundas e indelebles, que imprime la vida disipada",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c08",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "In her withered womb this spirit of evil took root, giving rise to a deformed and highly perverse creature who at birth was named Fiura.",
+          "statement_id": "Dalam rahimnya yang layu tumbuh roh jahat itu, melahirkan makhluk cacat dan sangat jahat yang saat lahir diberi nama Fiura.",
+          "quote": "En las entrañas marchitas de esta eximia inventora y cultora de todos los vicios, de múltiples placeres exóticos, perversiones y excesos de toda índole, germinó este espíritu del mal, dando origen a una criatura deforme y altamente perversa, digna descendiente de una madre depravada y que a su nacimiento recibió el nombre de Fiura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c09",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Although the myth has faded, the word \"condená\" is still used fairly often for people who stray from the clear and straight line of proper moral conduct.",
+          "statement_id": "Meskipun mitosnya kini memudar, kata \"condená\" masih cukup sering dipakai untuk menyebut orang yang menyimpang dari garis perilaku moral yang lurus.",
+          "quote": "la palabra “condená”, continúa usándose con cierta frecuencia y precisamente, para referirse a personas, que se apartan de la línea clara y recta de una conducta moral adecuada",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c10",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana Mansilla says the personality of La Condená has certain points of contact with the goddess Aphrodite of European mythology.",
+          "statement_id": "Quintana Mansilla menilai kepribadian La Condená memiliki beberapa kesamaan dengan dewi Afrodita dari mitologi Eropa.",
+          "quote": "La personalidad de la Condená, tiene ciertos puntos de contacto, con la diosa Afrodita, de la mitología europea",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "la-condena-c11",
+          "source_id": "la-condena-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana Mansilla writes that this myth now lies erased by the patina of time.",
+          "statement_id": "Quintana Mansilla menulis bahwa mitos ini kini terkubur, terhapus oleh patina waktu.",
+          "quote": "Si bien este mito, yace en la actualidad, borrado por la pátina del tiempo",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ddf8eb38b9b693792fddb7da8d3b38841f77a80edc1a8dc9d686f917fcbe08ad"
+      "images": []
     },
     {
       "slug": "lang-bobi-suzi",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "91fa609df2d07736f4983b25b41d22826e9e26a8a48636c00f27d99721f998a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 4,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -3758,8 +4016,8 @@
           "id": "lang-bobi-suzi-c02",
           "source_id": "lang-bobi-suzi-s1",
           "host": "en.wikipedia.org",
-          "statement": "According to legend, Lang Bobi Suzi is a female monster.",
-          "statement_id": "Menurut legenda, Lang Bobi Suzi adalah monster wanita.",
+          "statement": "According to the legend, Lang Bobi Suzi is a female monster.",
+          "statement_id": "Menurut legenda, Lang Bobi Suzi adalah monster perempuan.",
           "quote": "According to the legend, Lang Bobi Suzi is a female monster",
           "context": "traditional-belief",
           "status": "exact"
@@ -3768,39 +4026,43 @@
           "id": "lang-bobi-suzi-c03",
           "source_id": "lang-bobi-suzi-s1",
           "host": "en.wikipedia.org",
-          "statement": "She whips naughty children with giant breasts if they refuse her orders.",
-          "statement_id": "Ia mencambuk anak-anak nakal dengan payudaranya yang besar bila membangkang.",
+          "statement": "She whips naughty children with her giant breasts if they refuse to do her bidding.",
+          "statement_id": "Ia mencambuk anak-anak nakal dengan payudaranya yang raksasa jika mereka menolak menuruti perintahnya.",
           "quote": "whips naughty children with her giant breasts if they refuse to do her bidding.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lang-bobi-suzi-c04",
+          "source_id": "lang-bobi-suzi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Japanese Wikipedia writes the creature's name in katakana (ラング・ボビ・スジ) and gives the English form Long-Bubby Suzie; it describes a female monster of Belizean Creole tradition.",
+          "statement_id": "Wikipedia bahasa Jepang menulis nama makhluk ini dalam katakana (ラング・ボビ・スジ) dan memberi padanan Inggris Long-Bubby Suzie; ia disebut monster perempuan dalam tradisi kreol Belize.",
+          "quote": "ラング・ボビ・スジ（Lang Bobi Suzi, 英: Long-Bubby Suzie）は、ベリーズのクレオール伝承で語られる女性の怪物。",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7e64acd5564b079d933185ec8abd5fc7f2c37f9087d929ee2f201b3f7e13245f"
+      "images": []
     },
     {
       "slug": "mama-d-leau",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "3c9d27f103076321ed0cecb171bba4bb55d6c04675c5235a6aa8545c0ed6781c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mama-d-leau-c01",
           "source_id": "mama-d-leau-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mama D'Leau derives from French meaning Mother of the River, known also as Mama Dlo and Mama Glo.",
-          "statement_id": "Mama D'Leau berarti Ibu Sungai dan dikenal juga sebagai Mama Dlo atau Mama Glo.",
+          "statement": "Mama D'Leau derives from the French Maman de l'eau, \"Mother of the River\", and is also known as Mama Dlo and Mama Glo.",
+          "statement_id": "Mama D'Leau berasal dari bahasa Prancis Maman de l'eau, \"Ibu Sungai\", dan dikenal juga sebagai Mama Dlo dan Mama Glo.",
           "quote": "Mama D'Leau (derived from the French Maman de l'eau or \"Mother of the River\"), also known as Mama Dlo and Mama Glo",
           "context": "traditional-belief",
           "status": "exact"
@@ -3809,8 +4071,8 @@
           "id": "mama-d-leau-c02",
           "source_id": "mama-d-leau-s1",
           "host": "en.wikipedia.org",
-          "statement": "She protects and heals river animals in Saint Lucia, Trinidad and Tobago, and Dominica.",
-          "statement_id": "Ia adalah pelindung dan penyembuh satwa sungai di Saint Lucia, Trinidad and Tobago, dan Dominica.",
+          "statement": "According to the folklore of islands such as Saint Lucia, Trinidad and Tobago and Dominica, she is the protector and healer of all river animals.",
+          "statement_id": "Menurut cerita rakyat pulau-pulau seperti Saint Lucia, Trinidad dan Tobago, dan Dominica, ia pelindung dan penyembuh semua hewan sungai.",
           "quote": "is the protector and healer of all river animals, according to the folklore of islands such as Saint Lucia, Trinidad and Tobago and Dominica.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3819,40 +4081,124 @@
           "id": "mama-d-leau-c03",
           "source_id": "mama-d-leau-s1",
           "host": "en.wikipedia.org",
-          "statement": "Depicted as a beautiful woman whose body twists into coils below the waist.",
-          "statement_id": "Digambarkan sebagai wanita jelita berambut panjang dengan tubuh bagian bawah melingkar seperti ular.",
+          "statement": "She is usually depicted as a beautiful woman with long hair whose body twists into coils from the waist downwards.",
+          "statement_id": "Ia biasanya digambarkan sebagai wanita cantik berambut panjang yang dari pinggang ke bawah melingkar seperti ular.",
           "quote": "She is usually depicted as a beautiful woman with long hair, who sits on upper body and arms and from her waist downwards twists into coils.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c04",
+          "source_id": "mama-d-leau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her tongue becomes forked and she holds a golden comb that she passes through her snaky hair.",
+          "statement_id": "Lidahnya menjadi bercabang dan ia memegang sisir emas yang ia sisirkan pada rambutnya yang seperti ular.",
+          "quote": "Her tongue becomes forked and she holds a golden comb which she passes through her snaky hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c05",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "According to Martin, the French Patwa term Mama-Glo/Mama-Dlo derives from maman de l'eau, \"water mother\", but is a derivative of Mami-Wata, a river goddess or spirit found throughout West Africa, and also incorporates similar Amerindian beliefs.",
+          "statement_id": "Menurut Martin, istilah Patwa Prancis Mama-Glo/Mama-Dlo berasal dari maman de l'eau, \"ibu air\", tetapi merupakan turunan Mami-Wata, dewi atau roh sungai di seluruh Afrika Barat, dan juga memuat kepercayaan Amerindian yang serupa.",
+          "quote": "The French Patwa term Mama-Glo/Mama-Dlo is derived from the French maman de l’eau: “water mother,” but is a derivative of the Mami-Wata, a river goddess/spirit found throughout Western Africa, and also incorporates similar Amerindian beliefs.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c06",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "The spirit is described variously as a beautiful woman, a mermaid or an unattractive old woman who can be generous yet deadly if ignored or disobeyed.",
+          "statement_id": "Roh ini digambarkan beragam: wanita cantik, putri duyung, atau perempuan tua yang tidak menarik, yang bisa murah hati tetapi mematikan jika diabaikan atau tidak dituruti.",
+          "quote": "The spirit has been variously described as a beautiful woman, a mermaid, or an unattractive old woman who can be generous, yet deadly if ignored or disobeyed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c07",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "She has a human head, but her lower half can be fish-like or a large snake, which she can use to strangle her victims.",
+          "statement_id": "Kepalanya manusia, tetapi tubuh bagian bawahnya dapat menyerupai ikan atau ular besar yang bisa ia pakai untuk mencekik korbannya.",
+          "quote": "She has a human head, but her lower half can be fish-like (similar to the European mermaid), or a large snake (derived from its West African progenitor), which she can use to strangle her victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c08",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "The Mama-Glo has been blamed for people disappearing by drowning, usually men who may have spurned her love; she is believed to force anyone who looks at her to do menial tasks such as scratching her back or collecting fallen leaves.",
+          "statement_id": "Mama-Glo dipersalahkan atas hilangnya orang karena tenggelam, biasanya pria yang mungkin menolak cintanya; diyakini ia memaksa siapa pun yang menatapnya mengerjakan tugas-tugas remeh seperti menggaruk punggungnya atau memungut daun gugur.",
+          "quote": "The Mama-Glo has been blamed for the disappearance by drowning of individuals, usually men who may have spurned her love. It is believed that she will force anyone who looks at her to perform menial tasks like scratching her back or collecting fallen leaves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c09",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "As the mother of the water, Shango worshippers and certain Spiritual Baptist sects revere(d) her and make/made offerings to her at lakes, rivers and hot springs.",
+          "statement_id": "Sebagai ibu air, para penyembah Shango dan sejumlah sekte Spiritual Baptist menghormatinya dan mempersembahkan sesaji kepadanya di danau, sungai, dan mata air panas.",
+          "quote": "As the mother of the water, Shango worshippers and certain Spiritual Baptist sects regard(ed) her with reverence and made/make offerings to her at lakes, rivers and hot springs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c10",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "Martin writes that the Mama Glo combines the European mermaid with the African river goddess, as its diverse characteristics illustrate.",
+          "statement_id": "Martin menulis bahwa Mama Glo memadukan putri duyung Eropa dengan dewi sungai Afrika, seperti tampak dari beragam cirinya.",
+          "quote": "The Mama Glo combines the European mermaid with the African river goddess as illustrated by its diverse characteristics.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c11",
+          "source_id": "mama-d-leau-s2",
+          "host": "nowgrenada.com",
+          "statement": "Martin calls the Mama Glo a syncretic or Creole creation, like La Diablesse, Soucouyant, Dwenn, Mama Maladie and Papa Bwa, that is unique to Grenadian (and Caribbean) folk culture.",
+          "statement_id": "Martin menyebut Mama Glo sebagai ciptaan sinkretis atau Kreol, seperti La Diablesse, Soucouyant, Dwenn, Mama Maladie, dan Papa Bwa, yang khas bagi budaya rakyat Grenada (dan Karibia).",
+          "quote": "it is a syncretic/Creole creation like La diablesse, Soucouyant, Dwenn, Mama Maladie and Papa Bwa that’s unique to Grenadian (and Caribbean) folk culture",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mama-d-leau-c12",
+          "source_id": "mama-d-leau-s3",
+          "host": "nljdigital.nlj.gov.jm",
+          "statement": "A National Library of Jamaica record catalogues a print from the series \"The Spirit of Trinidad - folklore\" describing Mama d'glo as a legendary Trinidad character.",
+          "statement_id": "Katalog Perpustakaan Nasional Jamaika memuat cetakan dari seri \"The Spirit of Trinidad - folklore\" yang menyebut Mama d'glo sebagai tokoh legenda Trinidad.",
+          "quote": "The Spirit of Trinidad - folklore series No. 5. Mama d'glo, legendary Trinidad character.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e82fa8bba762083c9d348dd371f7260599cc8c2449372aa78e0319ba67c1c4bc"
+      "images": []
     },
     {
       "slug": "maushop",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "f4bb97220fe7a46d1500eec427fcd706b66351afad79d85ac961959df279adb1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maushop-c01",
           "source_id": "maushop-s1",
           "host": "en.wikipedia.org",
-          "statement": "Maushop is a mythical hero and giant in Wampanoag folklore.",
-          "statement_id": "Maushop adalah pahlawan mitos dan raksasa dalam cerita rakyat Wampanoag.",
-          "quote": "is a mythical hero and giant from Wampanoag folklore.",
+          "statement": "Maushop or Moshup is a mythical hero and giant from Wampanoag folklore.",
+          "statement_id": "Maushop atau Moshup adalah pahlawan mitos dan raksasa dalam cerita rakyat Wampanoag.",
+          "quote": "Maushop or Moshup ... is a mythical hero and giant from Wampanoag folklore.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3860,8 +4206,8 @@
           "id": "maushop-c02",
           "source_id": "maushop-s1",
           "host": "en.wikipedia.org",
-          "statement": "Legend recounts he came from Aquinnah on Martha's Vineyard before the tribe's arrival.",
-          "statement_id": "Dikisahkan ia berasal dari Aquinnah di Martha's Vineyard dan bermukim di sana sejak sebelum kedatangan suku Wampanoag.",
+          "statement": "According to legend, he came from Aquinnah on Martha's Vineyard and lived there from before the Wampanoag.",
+          "statement_id": "Menurut legenda, ia berasal dari Aquinnah di Martha's Vineyard dan tinggal di sana sejak sebelum orang Wampanoag.",
           "quote": "According to legend, he came from Aquinnah on Martha's Vineyard and lived there from before the Wampanoag.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3870,39 +4216,153 @@
           "id": "maushop-c03",
           "source_id": "maushop-s1",
           "host": "en.wikipedia.org",
-          "statement": "Maushop was considered a tribal provider who taught hunting and fishing.",
-          "statement_id": "Maushop dipandang sebagai penyedia rezeki yang mengajari mereka cara berburu dan menangkap ikan.",
+          "statement": "Maushop was seen as a provider for the Wampanoag, teaching them how to hunt and fish.",
+          "statement_id": "Maushop dipandang sebagai penyedia kebutuhan orang Wampanoag, mengajari mereka berburu dan memancing.",
           "quote": "Maushop was seen as a provider for the Wampanoag, teaching them how to hunt and fish.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "maushop-c04",
+          "source_id": "maushop-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Maushop was so large that his diet consisted mainly of whales; to catch them he threw boulders into the water as stepping stones, and the ashes he emptied from his pipe into the ocean at a celebration became Nantucket.",
+          "statement_id": "Maushop begitu besar sehingga makanannya sebagian besar paus; untuk menangkapnya ia melempar batu besar ke air sebagai pijakan, dan abu pipanya yang ia buang ke laut saat perayaan menjadi Nantucket.",
+          "quote": "Maushop was so large that his diet consisted mainly of whales. To catch them, he threw boulders into the water to make stepping stones. During a celebration, he emptied his pipe ashes into the ocean, and they became Nantucket.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c05",
+          "source_id": "maushop-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one story a crab bites his toe, making him stomp around and leave large footprints in the ground.",
+          "statement_id": "Dalam satu cerita, seekor kepiting menggigit jempol kakinya sehingga ia menghentak-hentak dan meninggalkan jejak kaki besar di tanah.",
+          "quote": "At one point, a crab bites his toe causing him to stomp around, leaving large footprints in the ground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c06",
+          "source_id": "maushop-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Wampanoag apparently became too reliant on him, so he left so that they would learn to survive on their own.",
+          "statement_id": "Orang Wampanoag konon terlalu bergantung padanya, sehingga ia pergi agar mereka belajar bertahan hidup sendiri.",
+          "quote": "The Wampanoag apparently became too reliant on him, so he left so they would learn how to survive on their own.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c07",
+          "source_id": "maushop-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is said to have several companions, including a giant frog and his wife Granny Squannit.",
+          "statement_id": "Ia dikatakan memiliki beberapa pendamping, termasuk katak raksasa dan istrinya, Granny Squannit.",
+          "quote": "He is said to have several companions, including a giant frog and his wife Granny Squannit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c08",
+          "source_id": "maushop-s2",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "The tribe believes Moshup is responsible for the present shapes of Martha's Vineyard, the Elizabeth Islands, Noman's Land and Nantucket; he is a benevolent being of gigantic frame and supernatural power, sometimes thought of as the devil by those who did not understand him.",
+          "statement_id": "Suku Wampanoag Aquinnah percaya Moshup bertanggung jawab atas bentuk Martha's Vineyard, Kepulauan Elizabeth, Noman's Land, dan Nantucket; ia makhluk baik hati bertubuh raksasa dan berkekuatan gaib, yang kadang dianggap iblis oleh orang yang tidak memahaminya.",
+          "quote": "Moshup is believed by our tribe to be responsible for the present shapes of Martha's Vineyard, the Elizabeth Islands, Noman's Land, and Nantucket. He is a benevolent being of gigantic frame and supernatural power. He was sometimes thought of as the devil by those who did not understand him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c09",
+          "source_id": "maushop-s2",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "Moshup's favorite daily food was a broiled whale, usually eaten whole at one meal; he also threw many whales onto the coast for the Wampanoag's supper.",
+          "statement_id": "Makanan harian kesukaan Moshup adalah paus panggang yang biasanya ia habiskan utuh dalam sekali makan; ia juga melemparkan banyak paus ke pantai untuk santapan orang Wampanoag.",
+          "quote": "Moshup's favorite daily food was a broiled whale, which he usually ate whole at a meal. He also threw many whales on the coast for the supper of the Wampanoag.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c10",
+          "source_id": "maushop-s2",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "From near the entrance to his den on the Aquinnah Cliffs, Moshup would wade into the ocean, pick up a whale, fling it against the Cliffs to kill it and cook it over the fire that burned continually.",
+          "statement_id": "Dari dekat pintu sarangnya di Tebing Aquinnah, Moshup berjalan ke laut, mengangkat seekor paus, membantingnya ke tebing hingga mati, lalu memasaknya di atas api yang tak pernah padam.",
+          "quote": "From near the entrance to his den on the Aquinnah Cliffs, Moshup would wade into the ocean, pick up a whale, fling it against the Cliffs to kill it, and then cook it over the fire that burned continually.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c11",
+          "source_id": "maushop-s2",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "The coals of the largest trees he plucked up by the roots, the whale bones, shark's teeth and petrified quahogs still found in the Cliffs are the refuse from Moshup's table.",
+          "statement_id": "Bara dari pohon-pohon terbesar yang ia cabut hingga akarnya, tulang paus, gigi hiu, dan kerang quahog yang membatu yang masih ditemukan di tebing itu adalah sisa dari meja makan Moshup.",
+          "quote": "The coals of the largest trees (which Moshup plucked up by the roots), the bones of the whales, shark's teeth, and petrified quahogs that are still found today in the Cliffs are the refuse from Moshup's table.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c12",
+          "source_id": "maushop-s2",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "A tribal member quoted on the tribe's official site says Moshup was the first schoolmaster, who from his home on the Cliffs taught the people respect.",
+          "statement_id": "Seorang anggota suku, yang dikutip situs resmi suku, mengatakan bahwa Moshup adalah guru sekolah pertama yang dari rumahnya di tebing mengajarkan rasa hormat kepada orang-orang.",
+          "quote": "Moshup was the first schoolmaster. From his home on the Cliffs he taught the people respect",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c13",
+          "source_id": "maushop-s3",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "It is said that a benevolent being named Moshup roamed the land; one day, crossing the mainland to the headlands of the Aquinnah Cliffs, he dragged his weary foot and left a deep track in the mud.",
+          "statement_id": "Dikatakan, makhluk baik hati bernama Moshup berkelana di tanah itu; suatu hari ia menyeberangi daratan menuju tanjung Tebing Aquinnah dan, karena lelah, menyeret kakinya hingga meninggalkan jejak dalam di lumpur.",
+          "quote": "There, it is said, a benevolent being named Moshup roamed the land. One day, Moshup was making his way across the mainland to the headlands of the Aquinnah Cliffs. Weary from his journey, Moshup dragged his foot heavily, leaving a deep track in the mud.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c14",
+          "source_id": "maushop-s3",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "Gradually the force of wind and tides broadened and deepened the opening, creating an island named Noepe.",
+          "statement_id": "Perlahan, kekuatan angin dan pasang laut melebarkan dan memperdalam alur jejak itu sehingga terbentuk pulau bernama Noepe.",
+          "quote": "But gradually, the ocean's force of wind and tides broadened and deepened the opening, creating an island named Noepe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maushop-c15",
+          "source_id": "maushop-s3",
+          "host": "wampanoagtribe-nsn.gov",
+          "statement": "The Aquinnah Wampanoag share the belief that the giant Moshup created Noepe and the neighboring islands, taught their people to fish and catch whales, and still presides over their destinies.",
+          "statement_id": "Orang Wampanoag Aquinnah bersama-sama meyakini bahwa raksasa Moshup menciptakan Noepe dan pulau-pulau di sekitarnya, mengajari mereka menangkap ikan dan paus, dan masih menjaga nasib mereka.",
+          "quote": "The Aquinnah Wampanoag share the belief that the giant Moshup created Noepe and the neighboring islands, taught our people how to fish and to catch whales, and still presides over our destinies.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "66c7019ba2425817345e6fc492efab15ac99ab1bad8f7b9af0cab662e1623280"
+      "images": []
     },
     {
       "slug": "millalobo",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "ac8fa9effa57a7228e633c73ea9245acdf9bc964ff17a58c5a7f020d73715d78",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "millalobo-c01",
           "source_id": "millalobo-s1",
           "host": "en.wikipedia.org",
-          "statement": "Millalobo is an important being in Chilote mythology whose name combines gold and sea lion.",
-          "statement_id": "Millalobo adalah makhluk agung dalam mitologi Chiloé dengan nama bermakna singa laut emas.",
+          "statement": "Millalobo is an important being in Chilote mythology; his name comes from Mapudungun milla (\"gold\") and Spanish lobo, alluding to the sea lion.",
+          "statement_id": "Millalobo adalah makhluk penting dalam mitologi Chiloé; namanya berasal dari milla (\"emas\") dalam bahasa Mapudungun dan lobo dalam bahasa Spanyol, yang menyinggung singa laut.",
           "quote": "Millalobo (from the mapudungun milla: \"gold\" and the Spanish lobo: wolf in allusion to the sea lion) is an important being in Chilote mythology",
           "context": "traditional-belief",
           "status": "exact"
@@ -3911,8 +4371,8 @@
           "id": "millalobo-c02",
           "source_id": "millalobo-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Millalobo resembles a triton, lower half sea lion and upper half human.",
-          "statement_id": "Millalobo berwujud mirip Triton dengan tubuh bawah singa laut dan atas manusia.",
+          "statement": "The Millalobo is a being like a Triton, with the lower half a sea lion and the upper half human, and a face that mixes both.",
+          "statement_id": "Millalobo adalah makhluk mirip Triton: separuh bawah singa laut dan separuh atas manusia, dengan wajah campuran keduanya.",
           "quote": "The Millalobo is a being like a Triton, lower half sea lion and upper half human, his face a mixture of both.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3921,39 +4381,173 @@
           "id": "millalobo-c03",
           "source_id": "millalobo-s1",
           "host": "en.wikipedia.org",
-          "statement": "He was born from a woman and a sea lion during the conflict of Tenten Vilu and Caicai Vilu.",
-          "statement_id": "Ia lahir dari persatuan seorang wanita dan singa laut saat pertempuran Tenten Vilu dan Caicai Vilu.",
+          "statement": "He was born from the mating of a woman and a sea lion that saved her from drowning, at the time of the mythical battle between Tenten Vilu and Caicai Vilu.",
+          "statement_id": "Ia lahir dari perkawinan seorang wanita dengan singa laut yang menyelamatkannya dari tenggelam, pada masa pertempuran mitos antara Tenten Vilu dan Caicai Vilu.",
           "quote": "He was born from the mating between a woman and a sea lion who saved her from drowning, at the time of the mythical battle between Tenten Vilu and Caicai Vilu.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "millalobo-c04",
+          "source_id": "millalobo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is the most powerful being of the sea after Caicai and was chosen by Caicai as his representative to govern all that lived in the sea.",
+          "statement_id": "Ia makhluk laut paling berkuasa setelah Caicai dan dipilih Caicai sebagai wakilnya untuk memerintah semua yang tinggal di laut.",
+          "quote": "He is the most powerful being of the sea after Caicai and was chosen by Caicai to be his representative and govern all that resided in the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c05",
+          "source_id": "millalobo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His fur is golden, hence his name; he is said to be unable to talk and to communicate only through a bleat like a sea lion's, whose meaning human beings can understand.",
+          "statement_id": "Bulunya keemasan, sehingga ia dinamai demikian; konon ia tidak dapat bicara dan hanya berkomunikasi lewat embikan mirip singa laut, yang artinya dapat dipahami manusia.",
+          "quote": "The Millalobo's fur is golden, hence his name. It is said that this mythical being cannot talk and he can only communicate through a bleat similar to the sea lion's, even though, the meaning of his bleat is understandable to human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c06",
+          "source_id": "millalobo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Millalobo lives at the bottom of the sea with his wife Huenchula and their three children, the Pincoya, the Pincoy and La Sirena Chilota, who help him manage the seas.",
+          "statement_id": "Millalobo tinggal di dasar laut bersama istrinya, Huenchula, dan ketiga anak mereka, La Pincoya, El Pincoy, dan La Sirena Chilota, yang membantunya mengelola laut.",
+          "quote": "The Millalobo lives at the bottom of the sea, together with his wife Huenchula and their three children, The Pincoya, The Pincoy and La Sirena Chilota, who help him in his task of managing the seas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c07",
+          "source_id": "millalobo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Millalobo is the creator of the ghost ship known as the Caleuche, and evil as well as benevolent sea creatures are said to pay him respect.",
+          "statement_id": "Millalobo disebut pencipta kapal hantu Caleuche, dan makhluk laut jahat maupun baik konon harus menghormatinya.",
+          "quote": "The Millalobo is the creator of the ghost ship known as Caleuche. It is said that evil sea creatures must pay respect to the Millalobo as well as benevolent ones.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c08",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "According to Quintana Mansilla, the Millalobo lives in the depths of the sea and was conceived by a beautiful woman in love with a sea lion.",
+          "statement_id": "Menurut Quintana Mansilla, Millalobo tinggal di kedalaman laut dan dikandung oleh seorang wanita cantik yang berhubungan dengan seekor singa laut.",
+          "quote": "El Millalobo, es un destacado personaje que habita en lo más profundo del mar; fue concebido por una hermosa mujer en amores con un lobo marino",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c09",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana Mansilla writes that the Millalobo was invested by Coicoi-vilu as absolute owner of the seas and everything in them.",
+          "statement_id": "Quintana Mansilla menulis bahwa Millalobo diangkat oleh Coicoi-vilu sebagai pemilik mutlak lautan dan segala isinya.",
+          "quote": "El Millalobo, fue investido por Coicoi-vilu, como dueño absoluto de los mares y de todo lo en ellos está comprendido.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c10",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "He is described as a strange being the size of a large seal, with a face resembling both a man's and a fish's; the chest looks human and the rest of the body has unmistakable sea-lion forms.",
+          "statement_id": "Ia digambarkan sebagai makhluk aneh seukuran anjing laut besar, berwajah mirip manusia sekaligus ikan; bagian dada tampak manusia dan sisa tubuhnya berbentuk singa laut yang tak salah lagi.",
+          "quote": "Se le describe como un extraño ser, del tamaño de una foca grande, con el rostro parecido al de un hombre y al de un pez al mismo tiempo. La parte del tórax tiene aspecto humano, el resto de su cuerpo, tiene inconfundibles formas de lobo marino.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c11",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "He is covered in short, shiny, gold-yellow fur, hence his name Millalobo (milla = gold) or \"golden wolf\".",
+          "statement_id": "Tubuhnya tertutup bulu pendek mengilap berwarna kuning emas, dan dari situlah namanya, Millalobo (milla = emas) atau \"serigala emas\".",
+          "quote": "Está cubierto de un corto y brillante pelaje, color amarillo oro, de ahí su nombre de Millalobo (de milla=oro) o lobo de oro.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c12",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "He is the absolute master of all the seas and the supreme chief of the real or imaginary beings that inhabit them.",
+          "statement_id": "Ia pemilik mutlak semua lautan dan pemimpin tertinggi makhluk nyata maupun khayalan yang mendiaminya.",
+          "quote": "Es el amo absoluto de todos los mares y el jefe supremo de los seres reales o imaginarios que en ellos habitan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c13",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "He shares his life with the beautiful Huenchula, daughter of an old sorceress called \"la Huenchur\"; three children were born of this union: the Pincoya, the Sirena and the Pincoy.",
+          "statement_id": "Ia hidup bersama Huenchula yang cantik, putri seorang penyihir tua bernama \"la Huenchur\"; dari ikatan itu lahir tiga anak: la Pincoya, la Sirena, dan el Pincoy.",
+          "quote": "Comparte su vida con la bella Huenchula, la hija de una vieja hechicera, llamada “la Huenchur”. De esta unión nacieron tres hijos: la Pincoya, la Sirena y el Pincoy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c14",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "As lord and master he delegates his important functions to several subordinates, from seeding fish and shellfish and tending their growth and multiplication to directing the tides or controlling calms and storms.",
+          "statement_id": "Sebagai penguasa, ia mendelegasikan tugas-tugas pentingnya kepada bawahan, dari menyebar ikan dan kerang serta merawat perkembangbiakannya hingga mengarahkan pasang surut dan mengendalikan laut tenang dan badai.",
+          "quote": "Como dueño y señor, de gran poderío, delega sus importantes funciones, en varios miembros subalternos, encargados de hacer cumplir sus mandatos y voluntad: desde sembrar peces y mariscos, cuidar su desarrollo y multiplicación; hasta dirigir las mareas o controlar las calmas y tempestades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c15",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "Quintana Mansilla equates the Millalobo with Neptune or Poseidon of Greco-Roman mythology.",
+          "statement_id": "Quintana Mansilla menyamakan Millalobo dengan Neptunus atau Poseidon dari mitologi Yunani-Romawi.",
+          "quote": "El Millalobo, equivale a Neptuno o Poseidón, de la mitología grecorromana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c16",
+          "source_id": "millalobo-s2",
+          "host": "chiloemitologico.cl",
+          "statement": "On special occasions he goes out with his beloved Huenchula to lonely beaches to enjoy the sun's rays.",
+          "statement_id": "Pada kesempatan istimewa, ia keluar bersama kekasihnya, Huenchula, ke pantai-pantai sepi untuk menikmati sinar matahari.",
+          "quote": "En ocasiones especiales, sale con su amada, la Huenchula, a las playas solitarias a disfrutar de los rayos del sol.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "millalobo-c17",
+          "source_id": "millalobo-s3",
+          "host": "www.memoriachilena.gob.cl",
+          "statement": "Memoria Chilena lists the Millalobo, along with the Pincoya, among the divinities of the ever-present sea in Chilote mythology.",
+          "statement_id": "Memoria Chilena menyebut Millalobo, bersama La Pincoya, sebagai salah satu dewa laut dalam mitologi Chiloé.",
+          "quote": "por la otra, las divinidades del mar omnipresente, como el Millalobo o la Pincoya.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6ef3b1706dd5297f8013e18fe44175f1bcc05f8ab7f63bfca3a626ba2915a0ed"
+      "images": []
     },
     {
       "slug": "milton-lizard",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "29eb21b85d6009b6305e5e18653e98f5676445fa2f693441dd2b85356012cac6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "milton-lizard-c01",
           "source_id": "milton-lizard-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Milton Lizard is described as a 15-foot monitor lizard sighted in Cable Creek near Milton.",
-          "statement_id": "Kadal Milton adalah makhluk kriptid mirip kadal monitor 15 kaki yang dilaporkan di Cable Creek dekat Milton.",
+          "statement": "In Kentucky folklore, the Milton Lizard is a creature described as resembling a 15-foot monitor lizard that was purportedly sighted in Cable Creek near the town of Milton.",
+          "statement_id": "Dalam cerita rakyat Kentucky, Kadal Milton adalah makhluk yang digambarkan menyerupai biawak sepanjang 15 kaki yang konon terlihat di Cable Creek, dekat kota Milton.",
           "quote": "In Kentucky folklore, the Milton Lizard is a creature described as resembling a 15-foot monitor lizard that purportedly sighted in Cable Creek, near the town of Milton",
           "context": "traditional-belief",
           "status": "exact"
@@ -3962,8 +4556,8 @@
           "id": "milton-lizard-c02",
           "source_id": "milton-lizard-s1",
           "host": "en.wikipedia.org",
-          "statement": "First sighted in July by Clarence Cable in a wrecking yard north of Milton.",
-          "statement_id": "Pertama kali dilihat pada bulan Juli oleh Clarence Cable di lokasi barang rongsokan di utara Milton.",
+          "statement": "The creature was first seen in July by Clarence \"Tuffy\" Cable, co-manager of the Blue Grass Body Shop, a junk and wrecking yard north of Milton.",
+          "statement_id": "Makhluk itu pertama kali terlihat pada Juli oleh Clarence \"Tuffy\" Cable, salah satu pengelola Blue Grass Body Shop, tempat rongsokan dan pembongkaran mobil di utara Milton.",
           "quote": "The creature was first seen in July by Clarence \"Tuffy\" Cable, co-manager of the Blue Grass Body Shop, a junk and wrecking yard located north of Milton.",
           "context": "traditional-belief",
           "status": "exact"
@@ -3972,39 +4566,143 @@
           "id": "milton-lizard-c03",
           "source_id": "milton-lizard-s1",
           "host": "en.wikipedia.org",
-          "statement": "He watched the lizard crawl from behind vehicle wrecks, hissing repeatedly.",
-          "statement_id": "Ia melihat kadal tersebut muncul dari balik mobil rongsokan dan mendesis ke arahnya beberapa kali.",
+          "statement": "He saw the lizard emerge from behind the wrecked vehicles and it hissed at him several times.",
+          "statement_id": "Ia melihat kadal itu keluar dari balik bangkai kendaraan dan mendesis kepadanya beberapa kali.",
           "quote": "he saw the lizard emerge from behind the wrecked vehicles and it hissed at him several times.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c04",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature was reported near the town of Milton, in Trimble County, Kentucky, in the summer of 1975.",
+          "statement_id": "Makhluk itu dilaporkan terlihat dekat kota Milton, di Trimble County, Kentucky, pada musim panas 1975.",
+          "quote": "near the town of Milton, in Trimble County, Kentucky, in the summer of 1975.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c05",
+          "source_id": "milton-lizard-s2",
+          "host": "ufologie.patrickgross.org",
+          "statement": "The catalog records the entity as having a lizard body with black and white stripes and speckles, white beneath the mouth, and large eyes similar to a frog's.",
+          "statement_id": "Katalog itu mencatat makhluk tersebut berbadan kadal dengan garis dan bintik hitam putih, bagian bawah mulut berwarna putih, dan mata besar mirip mata katak.",
+          "quote": "Entities skin color: Black and white stripes and speckles. Entities body: Lizard body. Entities head: White beneath the mouth. Entities eyes: Large, similar to a frog's eyes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c06",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cable's brother Garrett was the next to see it, on July 27: he saw a pile of old car hoods begin to vibrate and move as the lizard's head and shoulders emerged from beneath the debris.",
+          "statement_id": "Garrett, saudara Cable, orang berikutnya yang melihatnya pada 27 Juli: ia melihat tumpukan kap mobil tua bergetar dan bergerak ketika kepala dan bahu kadal itu muncul dari bawah puing.",
+          "quote": "Cable's brother Garrett was the next to see the creature on July 27. While working in the junkyard, he saw a pile of old car hoods begin to vibrate and move as the lizard's head and shoulders emerged from underneath the debris.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c07",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The next day Cable saw the lizard (or one like it) again, this time apparently larger, nearly 15 feet long; after he threw a rock at it, it hissed and fled into some brush.",
+          "statement_id": "Keesokan harinya Cable melihat kadal itu lagi (atau yang mirip), kali ini tampak lebih besar, hampir 15 kaki; setelah ia melempar batu, makhluk itu mendesis dan lari ke semak-semak.",
+          "quote": "The next day, Cable saw the lizard (or one similar to it) again, except this time it appeared to be larger—nearly 15 feet in length. After throwing a rock at it, the diminishing beast hissed at him and fled into some brush.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c08",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In early August a search party combed the area around the Blue Grass Body Shop for any sign of the lizard, but no evidence was found.",
+          "statement_id": "Pada awal Agustus, regu pencari menyisir sekitar Blue Grass Body Shop mencari tanda kadal itu, tetapi tidak ditemukan bukti.",
+          "quote": "In early August, a search party scoured the area surrounding the Blue Grass Body Shop for any sign of the lizard, but no evidence was found.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c09",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cable theorized that one of the wrecked vehicles they had acquired from one of the western states contained eggs that hatched in the heat of the junkyard.",
+          "statement_id": "Cable berteori bahwa salah satu kendaraan rongsok yang mereka beli dari salah satu negara bagian barat mengandung telur yang menetas oleh panas tempat rongsokan itu.",
+          "quote": "He theorized that one of the wrecked vehicles they had acquired in the past from one of the western states contained eggs that hatched in the heat of the junkyard.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c10",
+          "source_id": "milton-lizard-s2",
+          "host": "ufologie.patrickgross.org",
+          "statement": "According to the compiler of this catalog, the story in the local newspaper took place in summer, not October, and involved two junkyard-worker brothers, Clarence and Garrett Cable, who several times glimpsed a big lizard; they tried to shoot it, but it was never found.",
+          "statement_id": "Menurut penyusun katalog ini, kisah yang dimuat koran lokal terjadi pada musim panas, bukan Oktober, dan melibatkan dua bersaudara pekerja tempat rongsokan, Clarence dan Garrett Cable, yang beberapa kali melihat kadal besar; mereka mencoba menembaknya tetapi makhluk itu tidak pernah ditemukan.",
+          "quote": "It took place in the summer, not October, and involved two brothers, Clarence and Garrett Cable, junkyard workers, who on several occasions glimpsed at a big lizard; they tried to shoot it, but the beast was never found.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c11",
+          "source_id": "milton-lizard-s2",
+          "host": "ufologie.patrickgross.org",
+          "statement": "The catalog notes that cryptozoologists, Fortean researchers and others report witnesses seeing a giant biped \"lizard man\" roaming the woods near an automobile junkyard.",
+          "statement_id": "Katalog itu mencatat bahwa kriptozoolog, peneliti Fortean, dan lainnya melaporkan saksi melihat \"manusia kadal\" raksasa berkaki dua yang berkeliaran di hutan dekat tempat rongsokan mobil.",
+          "quote": "Cryptozoologist, mystery mongers, Fortean researchers, and even ufologist, report that ... witnesses reported seeing a giant biped lizard man roaming the woods near an automobile junkyard",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c14",
+          "source_id": "milton-lizard-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cable fetched a rifle from his house and fired into the brush, but could not be certain he killed the creature.",
+          "statement_id": "Cable mengambil senapan dari rumahnya dan menembak ke semak-semak, tetapi tidak dapat memastikan apakah ia membunuh makhluk itu.",
+          "quote": "Cable retrieved a rifle from his house and fired into the brush, but couldn't be certain he killed the creature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c12",
+          "source_id": "milton-lizard-s3",
+          "host": "wkdq.com",
+          "statement": "A 2025 radio station article names the place as Canip Creek.",
+          "statement_id": "Sebuah artikel stasiun radio (2025) menyebut tempat itu bernama Canip Creek.",
+          "quote": "It takes us back 50 years and to a place called Canip Creek.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "milton-lizard-c13",
+          "source_id": "milton-lizard-s3",
+          "host": "wkdq.com",
+          "statement": "The same article says other accounts put the cryptid at 12 feet.",
+          "statement_id": "Artikel yang sama menyebut bahwa penuturan lain menaksir panjang kriptid itu 12 kaki.",
+          "quote": "Other accounts put the cryptid (if that's what it was) at 12 feet.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c47a8d64a8ee2627f55f0e8342932ec383306210df423b38ab59b350f296cc1f"
+      "images": []
     },
     {
       "slug": "minnie-quay",
-      "file": "batch-147-fix-3.md",
+      "file": "batch-147-fix-7.md",
+      "entry_sha256": "c10250bbda43f6254addd2ff63fcde579895ca82e5fe351b997c4c15fc1eb258",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "minnie-quay-c01",
           "source_id": "minnie-quay-s1",
           "host": "en.wikipedia.org",
-          "statement": "Minnie Quay is an apparition of notable interest in Michigan paranormal lore.",
-          "statement_id": "Minnie Quay adalah sosok penampakan hantu yang menarik minat pemerhati paranormal di Michigan.",
+          "statement": "Mary Jane \"Minnie\" Quay (1860-1876) is an apparition of keen interest to the paranormal circles of Michigan.",
+          "statement_id": "Mary Jane \"Minnie\" Quay (1860-1876) adalah sosok penampakan yang sangat menarik bagi kalangan paranormal Michigan.",
           "quote": "Mary Jane \"Minnie\" Quay (1860 - 1876) is an apparition who has been of keen interest to the paranormal circles of Michigan.",
           "context": "traditional-belief",
           "status": "exact"
@@ -4013,9 +4711,9 @@
           "id": "minnie-quay-c02",
           "source_id": "minnie-quay-s1",
           "host": "en.wikipedia.org",
-          "statement": "Lore dictates that one must leave something on her tombstone or she will follow them home.",
-          "statement_id": "Penuturan warga menyebutkan seseorang harus meninggalkan benda di atas nisannya agar tidak diikuti pulang.",
-          "quote": "The stories from old people in the area say you must leave something on her headstone or she will follow you home.",
+          "statement": "Stories from old people in the area say one must leave something on her headstone or she will follow you home; most people leave coins.",
+          "statement_id": "Menurut cerita orang tua di daerah itu, orang harus meninggalkan sesuatu di batu nisannya atau ia akan mengikuti sampai ke rumah; kebanyakan orang meninggalkan koin.",
+          "quote": "The stories from old people in the area say you must leave something on her headstone or she will follow you home. Most people leave coins.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4023,15 +4721,104 @@
           "id": "minnie-quay-c03",
           "source_id": "minnie-quay-s1",
           "host": "en.wikipedia.org",
-          "statement": "Her ghost has been reported roaming the beaches of Forester.",
-          "statement_id": "Hantunya konon berkeliaran di sepanjang pantai Forester.",
+          "statement": "Her ghost is said to roam the beaches of Forester.",
+          "statement_id": "Hantunya konon berkeliaran di pantai-pantai Forester.",
           "quote": "Her ghost has been said to roam the beaches of Forester.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c04",
+          "source_id": "minnie-quay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend stems from a small lumbering town in the eastern part of Michigan known as The Thumb, called Forester, in present-day Forester Township.",
+          "statement_id": "Legenda ini berasal dari sebuah kota penebangan kecil di bagian timur Michigan, yang dikenal sebagai The Thumb, bernama Forester, di Forester Township sekarang.",
+          "quote": "The legend stems from a small foresting town in the eastern region of Michigan, known as The Thumb, called Forester, in present-day Forester Township.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c05",
+          "source_id": "minnie-quay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the legend she had given her heart to a young sailor whose ship often docked in Forester for shipping or trade.",
+          "statement_id": "Dalam legenda, ia jatuh hati pada seorang pelaut muda yang kapalnya sering bersandar di Forester untuk urusan pengiriman atau dagang.",
+          "quote": "She had given her heart to a young sailor whose ship would dock in Forester often for either shipping or merchant reasons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c06",
+          "source_id": "minnie-quay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the early spring of 1876 word came back to Forester that his ship had gone down in the Great Lakes of Michigan.",
+          "statement_id": "Pada awal musim semi 1876, kabar sampai ke Forester bahwa kapal pelaut itu tenggelam di Danau-Danau Besar Michigan.",
+          "quote": "In the early spring of 1876, word came back to Forester that his ship had gone down in the Great Lakes of Michigan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c07",
+          "source_id": "minnie-quay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some say she simply walks, waiting for her lover to dock, while others say she has tried to beckon young girls into the waters to their deaths.",
+          "statement_id": "Sebagian orang berkata ia hanya berjalan menunggu kekasihnya merapat, sedangkan yang lain menyatakan ia pernah mencoba memanggil gadis-gadis muda ke dalam air hingga tewas.",
+          "quote": "Some have said that she just walks, waiting for her lover to dock, while others have stated that she has tried to beckon young girls into the waters to their deaths.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c08",
+          "source_id": "minnie-quay-s2",
+          "host": "99wfmk.com",
+          "statement": "Her ghost is said to have been seen walking the shoreline, and her mournful cries to be heard from the cemetery late at night as she still waits for her lover who will never come back.",
+          "statement_id": "Hantunya konon terlihat berjalan di pantai, dan tangisannya yang pilu terdengar dari pemakaman larut malam saat ia masih menunggu kekasih yang tak akan kembali.",
+          "quote": "Her ghost has been seen walking the shoreline ... her mournful cries of sorrow have been heard coming from the cemetery late at night as she still waits for her lover who will never come back",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c09",
+          "source_id": "minnie-quay-s2",
+          "host": "99wfmk.com",
+          "statement": "Some young women from Forester claim to have seen Minnie's apparition beckoning them to the waters as if inviting them to join her at the bottom.",
+          "statement_id": "Beberapa perempuan muda dari Forester mengaku melihat penampakan Minnie memanggil mereka ke air seakan mengajak bergabung di dasarnya.",
+          "quote": "young women from Forester claim that they've seen the apparition of Minnie beckoning them to the waters as if inviting them to join her at the bottom",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c10",
+          "source_id": "minnie-quay-s2",
+          "host": "99wfmk.com",
+          "statement": "The article quotes an 1876 newspaper report of the death of a girl named Minnie Quay, about fifteen, who threw herself into the lake from Smith's dock at Forester.",
+          "statement_id": "Artikel ini mengutip sebuah koran tahun 1876 yang melaporkan kematian seorang gadis bernama Minnie Quay, sekitar lima belas tahun, yang menceburkan diri ke danau dari dermaga Smith di Forester.",
+          "quote": "A young girl named Minnie Quay, about fifteen years of age, committed suicide by throwing herself into the lake from Smith's dock, at Forester",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c11",
+          "source_id": "minnie-quay-s2",
+          "host": "99wfmk.com",
+          "statement": "The hauntings of Minnie Quay are famous throughout Michigan's Thumb area and are among the favorite sites of paranormal investigators.",
+          "statement_id": "Penghantuan Minnie Quay terkenal di seluruh kawasan Thumb Michigan dan menjadi salah satu tempat favorit para penyelidik paranormal.",
+          "quote": "The Hauntings of Minnie Quay are famous throughout Michigan's thumb area and is one of the more well-known & favorite spots of paranormal investigators.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "minnie-quay-c12",
+          "source_id": "minnie-quay-s2",
+          "host": "99wfmk.com",
+          "statement": "The radio station article says Minnie was born in May 1861.",
+          "statement_id": "Artikel stasiun radio ini menyebut Minnie lahir pada Mei 1861.",
+          "quote": "Minnie was born in May 1861. The Quays lived in Forester, a Michigan port town that hosted many sailors who put ashore.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5829bba604afcefd3c7ec6ef7ce7d87445a4fcda7cfb4e9916512bfd6c87193d"
+      "images": []
     },
     {
       "slug": "mohan-legendary",

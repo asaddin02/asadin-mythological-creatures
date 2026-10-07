@@ -1,6 +1,6 @@
 # Review batch-112
 
-Diperiksa 2026-10-03T01:28:46.282Z. Berkas: batch-112.md.
+Diperiksa 2026-10-07T07:39:05.293Z. Berkas: batch-112.md, batch-112-fix-1.md.
 
 ## lorelei — lulus-otomatis
 
@@ -310,16 +310,18 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## falhofnir — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | falhofnir-c01 | exact | en.wikipedia.org | In Norse mythology Falhófnir is a horse listed in Grímnismál and Gylfaginning among the mounts the gods ride daily to give judgements at Yggdrasil, not tied to any specific god. | In Norse mythology, Falhófnir (Old Norse: [ˈfɑlˌhoːvnez̠] ) is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. However, in both stanzas Falhófnir is not assigned to any specific deity. |
 | falhofnir-c02 | exact | da.wikipedia.org | The Danish article glosses Falhófnir as 'hairy hoof' or 'hidden hoof'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Falhófnir (norrønt for "behåret hov" eller "skjult hov") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
 | falhofnir-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
+| falhofnir-c04 | exact | heimskringla.no | In Grímnismál Falhófnir is named, together with Glaðr, Gyllir, Glær, Skeiðbrimir, Silfrintoppr, Sinir, Gísl, Gulltoppr and Léttfeti, as one of the steeds the Æsir (æsir) ride each day when they go to judge at the ash of Yggdrasil (aski Yggdrasils). | Glaðr ok Gyllir, Glær ok Skeiðbrimir, Silfrintoppr ok Sinir, Gísl ok Falhófnir, Gulltoppr ok Léttfeti, þeim ríða æsir jóm dag hvern, er þeir dæma fara at aski Yggdrasils. |
+| falhofnir-c05 | exact | heimskringla.no | In Skáldskaparmál the horse-name list of Þorgrímsþula includes Falhófnir together with Gísl; the list also names Glær, Skeiðbrimir and Gyllir (Gyllis). | Þessi eru hesta heiti talið í Þorgrímsþulu: ... Gísl ok Falhófnir, Glær ok Skeiðbrimir, þar var ok Gyllis getit. |
+| falhofnir-c06 | exact | en.wikisource.org | Bellows's note to his translation of Grímnismál glosses the name Falhofnir as "Hollow-Hoofed". | Gisl: the meaning is doubtful; Gering suggests "Gleaming." Falhofnir: "Hollow-Hoofed." |
+| falhofnir-c07 | exact | www.germanic-lexicon-project.org | The Cleasby-Vigfusson dictionary lists Fal-hófnir as a mythological horse of the Edda, glossed "barrel-hoof, hollow-hoof". | Fal-hófnir, m. barrel-hoof, hollow-hoof, a mythol. horse, Edda. |
+| falhofnir-c08 | exact | en.wikipedia.org | English Wikipedia's article on the Horses of the Æsir glosses the name Falhófnir as "Hairy-hoof" or "Hidden-hoof", i.e. whose hoofs are covered with hair, or "Pale-hoof". | Falhófnir: "Hairy-hoof" or "Hidden-hoof", i.e. whose hoofs are covered with hair, or "Pale-hoof"; |
 
 
 ## fanggen — lulus-otomatis
@@ -493,10 +495,7 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 
 ## gisl — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -505,28 +504,29 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | gisl-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
 | gisl-c04 | exact | en.wikipedia.org | The name Gísl is related to 'beam' or 'ray'. | Gísl: related to "beam", "ray"; |
 | gisl-c05 | exact | en.wikipedia.org | Apart from Odin's Sleipnir and Heimdallr's Gulltoppr, nothing is known of these horses, including their owners, except that the Æsir ride them; the names are absent from the þulur. | Apart from Odin's eight-legged horse Sleipnir, and Gulltoppr, who belongs to Heimdallr according to the Prose Edda, nothing is known about these horses, especially their owner other than that they are ridden by the Æsir. These names aren't listed in the þulur. |
+| gisl-c06 | exact | heimskringla.no | In Grímnismál Gísl is named, together with Glaðr, Gyllir, Glær, Skeiðbrimir, Silfrintoppr, Sinir, Falhófnir, Gulltoppr and Léttfeti, as one of the steeds the Æsir (æsir) ride each day when they go to judge at the ash of Yggdrasil (aski Yggdrasils). | Glaðr ok Gyllir, Glær ok Skeiðbrimir, Silfrintoppr ok Sinir, Gísl ok Falhófnir, Gulltoppr ok Léttfeti, þeim ríða æsir jóm dag hvern, er þeir dæma fara at aski Yggdrasils. |
+| gisl-c07 | exact | heimskringla.no | In Skáldskaparmál the horse-name list of Þorgrímsþula includes Gísl together with Falhófnir; the list also names Glær, Skeiðbrimir and Gyllir (Gyllis). | Þessi eru hesta heiti talið í Þorgrímsþulu: ... Gísl ok Falhófnir, Glær ok Skeiðbrimir, þar var ok Gyllis getit. |
+| gisl-c08 | exact | en.wikisource.org | Bellows's note to his translation of Grímnismál says the meaning of the name Gisl is doubtful and that Gering suggests "Gleaming". | Gisl: the meaning is doubtful; Gering suggests "Gleaming." |
 
 
 ## gl-r — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | gl-r-c01 | exact | en.wikipedia.org | In Norse mythology Glær is a horse listed in Grímnismál and Gylfaginning among the mounts the gods ride daily to give judgements at Yggdrasil, not tied to any specific god. | In Norse mythology, Glær (transparent) or Glenr is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. However, in both poems Glær is not assigned to any specific deity. |
 | gl-r-c02 | exact | da.wikipedia.org | The Danish article glosses Glær as 'clear' or 'glassy'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Glær (norrønt for "klar" eller "glasagtig") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
 | gl-r-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
+| gl-r-c04 | exact | heimskringla.no | In Grímnismál Glær is named, together with Glaðr, Gyllir, Skeiðbrimir, Silfrintoppr, Sinir, Gísl, Falhófnir, Gulltoppr and Léttfeti, as one of the steeds the Æsir (æsir) ride each day when they go to judge at the ash of Yggdrasil (aski Yggdrasils). | Glaðr ok Gyllir, Glær ok Skeiðbrimir, Silfrintoppr ok Sinir, Gísl ok Falhófnir, Gulltoppr ok Léttfeti, þeim ríða æsir jóm dag hvern, er þeir dæma fara at aski Yggdrasils. |
+| gl-r-c05 | exact | heimskringla.no | In Skáldskaparmál the horse-name list of Þorgrímsþula includes Glær together with Skeiðbrimir; the list also names Gísl, Falhófnir and Gyllir (Gyllis). | Þessi eru hesta heiti talið í Þorgrímsþulu: ... Gísl ok Falhófnir, Glær ok Skeiðbrimir, þar var ok Gyllis getit. |
+| gl-r-c06 | exact | en.wikisource.org | Bellows's note to his translation of Grímnismál, which writes the name as Gler, glosses it as "Shining". | Gler: "Shining." Skeithbrimir: "Swift-Going." Silfrintopp: "Silver-Topped." |
+| gl-r-c07 | exact | heimskringla.no | In the Gylfaginning list of the Æsir's horses (Old Norse text) the fourth horse is named Glenr; the list begins with Óðinn's eight-footed Sleipnir. | Hestar ásanna heita svá: Sleipnir er baztr, hann á Óðinn. Hann hefir átta fætr. Annar er Glaðr, þriði Gyllir, fjórði Glenr, fimmti Skeiðbrimir, sétti Silfrintoppr, sjaundi Sinir, átti Gísl, níundi Falhófnir, tíundi Gulltoppr, ellifti Léttfeti. |
 
 
 ## glad — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -534,14 +534,17 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | glad-c02 | exact | da.wikipedia.org | The Danish article glosses Glaðr as 'glad one', 'shining one' or 'bright one'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Glad (norrønt Glaðr, "glad" eller "lys") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
 | glad-c03 | exact | en.wikipedia.org | Old Norse Glaðr means 'glad one', 'shining one' or 'bright one', from Proto-Germanic *gladaz ('bright, shining, cheerful'), cognate with English 'glad'. | The Old Norse word Glaðr translates to English as "glad one", "shining one", or "bright one". It is derived from the adjective Proto-Germanic: *gladaz , meaning "bright", "shining" or "cheerful", and is cognate with modern English "glad". |
 | glad-c04 | exact | en.wikipedia.org | In Háttatal Glaðr is used as a heiti for horse in a kenning for a ship. | In Háttatal, Glaðr is used as a heiti for a horse in a kenning for a ship. |
+| glad-c05 | exact | heimskringla.no | In Grímnismál Glaðr is named, together with Gyllir, Glær, Skeiðbrimir, Silfrintoppr, Sinir, Gísl, Falhófnir, Gulltoppr and Léttfeti, as one of the steeds the Æsir (æsir) ride each day when they go to judge at the ash of Yggdrasil (aski Yggdrasils). | Glaðr ok Gyllir, Glær ok Skeiðbrimir, Silfrintoppr ok Sinir, Gísl ok Falhófnir, Gulltoppr ok Léttfeti, þeim ríða æsir jóm dag hvern, er þeir dæma fara at aski Yggdrasils. |
+| glad-c06 | exact | heimskringla.no | In the Gylfaginning list of the Æsir's horses (Old Norse text) Glaðr is the second horse, after Óðinn's eight-footed Sleipnir. | Hestar ásanna heita svá: Sleipnir er baztr, hann á Óðinn. Hann hefir átta fætr. Annar er Glaðr, þriði Gyllir, fjórði Glenr, fimmti Skeiðbrimir, sétti Silfrintoppr, sjaundi Sinir, átti Gísl, níundi Falhófnir, tíundi Gulltoppr, ellifti Léttfeti. |
+| glad-c07 | exact | en.wikisource.org | In Skáldskaparmál (Brodeur's translation) Arvakr and Alsvidr draw the Sun, Hrímfaxi or Fjörsvartnir draw the Night, and Skinfaxi and Gladr are the Day's horses. | Arvakr and Alsvidr draw the Sun, as is written before; Hrímfaxi or Fjörsvartnir draw the Night; Skinfaxi and Gladr are the Day's horses. |
+| glad-c08 | exact | heimskringla.no | In the Old Norse text of Skáldskaparmál the sentence reads "Skinfaxi eða Glaðr fylgja deginum" (Skinfaxi or Glaðr follow the day). | Skinfaxi eða Glaðr fylgja deginum. |
+| glad-c09 | exact | en.wikisource.org | Bellows's note to his translation of Grímnismál glosses the name Glath as "Joyous" and says it is identified in Skáldskaparmál (Skaldskaparmal) with Skinfaxi, the horse of the day. | Glath ("Joyous"): identified in the Skaldskaparmal with Skinfaxi, the horse of the day; cf. Vafthruthnismol, 12. |
+| glad-c10 | exact | www.germanic-lexicon-project.org | The Cleasby-Vigfusson dictionary lists GLAÐR (masculine, poetic) as the name of a horse, citing the Edda glossary and "Gm. 30". | GLAÐR, m., poët. a horse, Edda (Gl.), Gm. 30, vide Lex. Poët. |
 
 
 ## gyllir — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -549,6 +552,10 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | gyllir-c02 | exact | da.wikipedia.org | The Danish article glosses Gyllir as 'golden'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Gyllir (norrønt for "gylden") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
 | gyllir-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
 | gyllir-c04 | exact | en.wikipedia.org | Gyllir also appears in the þulur as a jötunn name. | Gyllir is also found in the thulur as a jötunn name. |
+| gyllir-c05 | exact | heimskringla.no | In Grímnismál Gyllir is named, together with Glaðr, Glær, Skeiðbrimir, Silfrintoppr, Sinir, Gísl, Falhófnir, Gulltoppr and Léttfeti, as one of the steeds the Æsir (æsir) ride each day when they go to judge at the ash of Yggdrasil (aski Yggdrasils). | Glaðr ok Gyllir, Glær ok Skeiðbrimir, Silfrintoppr ok Sinir, Gísl ok Falhófnir, Gulltoppr ok Léttfeti, þeim ríða æsir jóm dag hvern, er þeir dæma fara at aski Yggdrasils. |
+| gyllir-c06 | exact | heimskringla.no | In Skáldskaparmál the horse-name list of Þorgrímsþula mentions Gyllir (in the form Gyllis) after Gísl, Falhófnir, Glær and Skeiðbrimir. | Þessi eru hesta heiti talið í Þorgrímsþulu: ... Gísl ok Falhófnir, Glær ok Skeiðbrimir, þar var ok Gyllis getit. |
+| gyllir-c07 | exact | heimskringla.no | In the Nafnaþulur the second list of jötunn names ("Enn eru eftir jötna heiti") includes Gyllir among the jötunn names. | Enn eru eftir jötna heiti: Eimgeitir, Verr, Ímr, Hringvölnir, Viddi, Víðgrípr, Vandill, Gyllir, Grímnir, Glaumarr, Glámr, Sámendill. |
+| gyllir-c08 | exact | en.wikisource.org | Bellows's note to his translation of Grímnismál glosses the name Gyllir as "Golden". | Gyllir: "Golden." Gler: "Shining." Skeithbrimir: "Swift-Going." |
 
 
 ## haymon — lulus-otomatis

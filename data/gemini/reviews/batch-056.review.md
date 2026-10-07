@@ -1,6 +1,6 @@
 # Review batch-056
 
-Diperiksa 2026-10-07T05:32:36.372Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md.
+Diperiksa 2026-10-07T07:37:11.932Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md, batch-056-fix-6.md.
 
 ## ichikishimahime — lulus-otomatis
 
@@ -586,10 +586,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## tagitsuhime — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -597,14 +594,20 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tagitsuhime-c02 | exact | ja.wikipedia.org | She is born from mist produced during Amaterasu and Susanoo’s oath. | アマテラスとスサノオの誓約の段で、アマテラスがスサノオの十束剣を口に含み、三つにかみ砕き吐き出した霧から宗像三女神を生み、スサノオの物実から生まれたのでスサノオの子であると宣言された。 |
 | tagitsuhime-c03 | exact | ja.wikipedia.org | The Kojiki assigns her the third birth and Hetsumiya shrine. | 『古事記』・『日本書紀』第二の一書では、3番目に化生し、辺津宮に祀られる。 |
 | tagitsuhime-c04 | exact | ja.wikipedia.org | Nihon Shoki versions and current Munakata worship place her at Nakatsumiya. | 『日本書紀』本文・第一の一書・第三の一書では、2番目に化生し、中津宮に祀られる。 宗像大社では『日本書紀』本文の通り「湍津姫神」として宗像市大島の中津宮に祀られている。 |
+| tagitsuhime-c05 | exact | d-museum.kokugakuin.ac.jp | Tagitsuhime is one of the three female kami produced by the trial by oath (ukei) between Amaterasu and Susanoo. | One of the three female kami produced as a result of the trial by oath (ukei) between Amaterasu and Susanoo. |
+| tagitsuhime-c06 | exact | d-museum.kokugakuin.ac.jp | That the three kami produced were female was taken as evidence of Susanoo's sincerity, and Amaterasu commanded the three to descend to the earth. | The fact that the three kami thus produced were females was taken as evidence of Susanoo's sincerity, and Amaterasu commanded the three to descend to the earth. |
+| tagitsuhime-c07 | exact | d-museum.kokugakuin.ac.jp | There the three were enshrined by the Munakata and Minuma clans in Tsukushi (Kyushu) and came to be called the "three goddesses of Munakata". | There, they were enshrined by the Munakata and Minuma clans in Tsukushi (Kyushu) and came to be called the "three goddesses of Munakata." |
+| tagitsuhime-c08 | exact | d-museum.kokugakuin.ac.jp | All three goddesses are believed to have been sea kami responsible for protecting ocean traffic on the Genkai Sea. | All three goddesses are believed to have been sea kami responsible for protecting ocean traffic on the Genkai Sea. |
+| tagitsuhime-c09 | exact | d-museum.kokugakuin.ac.jp | At present Tagitsuhime is enshrined at the Nakatsugū, one of three individual shrines making up the shrine complex Munakata Taisha. | At present, Tagitsuhime is enshrined at the Nakatsugū, one of three individual shrines making up the shrine complex Munakata Taisha. |
+| tagitsuhime-c10 | exact | kojiki.kokugakuin.ac.jp | One theory takes 多岐 to mean 湍, that is a rapid or torrential current; 都 is a connective particle, so the name is understood as "woman of the torrent". Her divine character is interpreted as a goddess governing sea rapids, a goddess connected with the rapids of the Genkai Sea (玄界灘), or a representation of a violently flowing tidal current. | 「多岐」は「湍」すなわち早瀬・急流の意とする説がある。「都」は連体助詞で、激流の女性といった意味に解され、その神格は、海の早瀬を掌る女神、あるいは玄界灘の瀬にまつわる女神とする説や、潮流の激しく流れる様子の表象とする説がある。 |
+| tagitsuhime-c11 | exact | kojiki.kokugakuin.ac.jp | The corresponding names in the Nihon Shoki are all written 湍津姫（命）, nearly the same as in the Kojiki, but opinion is divided on whether 湍 is read taki or tagi, so the name can be read Takitsuhime or Tagitsuhime. | 多岐都比売命に対応する紀の神名は、いずれも「湍津姫（命）」とあって、記とほぼ同名であるが、「湍」をタキと読むかタギと読むかは見解が分かれる。 |
+| tagitsuhime-c12 | exact | kojiki.kokugakuin.ac.jp | In the Kojiki she is the third of three goddesses (Tagirihime 多紀理毘売命, Ichikishimahime 市寸島比売命, Tagitsuhime 多岐都比売命) born from Susanoo's ten-hand-breadth sword through the oath between Amaterasu and Susanoo, became Susanoo's child, and is enshrined at the Hetsumiya at Munakata. | 天照大御神と須佐之男命とのうけい（誓約）において、天照大御神によって須佐之男命の身につけていた十拳剣から生まれ、須佐之男命の子となった三女神（多紀理毘売命・市寸島比売命・多岐都比売命）の第三。胸形の辺津宮に鎮座する。 |
+| tagitsuhime-c13 | exact | kojiki.kokugakuin.ac.jp | The seat is given as Hetsumiya in the Kojiki and as the "seashore" (Hetsumiya) in the second variant of the Nihon Shoki; if the order of birth is taken to reflect the order of enshrinement, the Nihon Shoki main text and its first and third variants point to Nakatsumiya. | 鎮座地は、記に辺津宮、紀の一書二に「海浜」（辺津宮）とある。他の伝には鎮座地の記載が無いが、誕生の順序が鎮座の配列を反映していると解すると、紀の本書・一書一・一書三は中津宮となる。 |
 
 
 ## taka-nyudo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -614,14 +617,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | taka-nyudo-c04 | exact | en.wikipedia.org | It is compared with mikoshi-nyūdō and Takabōzu. | It is a yōkai belonging to the same category as the Mikoshi-nyūdō, which possesses similar characteristics, and there is a theory that it is the same yōkai as the similarly named Takabōzu. |
 | taka-nyudo-c05 | exact | en.wikipedia.org | A Kagawa tradition uses a bow and a saying to make it disappear. | In Nawa, Kagawa Prefecture, it is said that if one bows without looking up and chants "I lost, I saw past you" (Maketa, mikoshita), it will disappear. |
 | taka-nyudo-c06 | exact | en.wikipedia.org | Hyōgo accounts identify it as a transformed tanuki or fox. | Regarding its true identity, in Hyōgo, it is said to be a shapeshifted Tanuki (raccoon dog) or Kitsune (fox). |
+| taka-nyudo-c07 | exact | kotobank.jp | The dictionary 精選版 日本国語大辞典 defines 高入道 as a tall, shaven-headed bakemono, also called ōnyūdō (大入道); the earliest example of use it quotes comes from a jōruri (浄瑠璃) text of around 1710. | 背の高い坊主頭の化物。大入道。 [初出の実例]「見上見おろす高入道、しゃならしゃならの八もんじは二王をゆるがすごとく也」(出典：浄瑠璃・吉野都女楠（1710頃か）一) |
+| taka-nyudo-c08 | exact | www.nichibun.ac.jp | Nichibunken database record: at 正夫谷 a 高入道 is reported to have appeared. Seen from below it grows steadily taller, but seen from above it gradually becomes smaller. | 正夫谷に高入道が出現していた。下から見上げれば段々背が高くなるが、上から見下ろせば、次第に小さくなるという。 |
+| taka-nyudo-c09 | exact | www.nichibun.ac.jp | The same record: it is also said that it stopped appearing after a yamabushi (山伏) performed a thousand-scroll offering rite (千巻供養) before the Dainichi Nyorai (大日如来) of 練石 at 字大日. | 上から見下ろせば、次第に小さくなるという。字大日にある練石の大日如来の前で、山伏が千巻供養をおこなってから出なくなったともいう。 |
+| taka-nyudo-c10 | exact | www.nichibun.ac.jp | Nichibunken database record: in the Meiji (明治) era a rumour once spread that a 高入道 appeared at night and startled passers-by. It was long held to be the work of an old tanuki, and it is said that sweeping a stick or staff sideways near its feet reveals its true form. | 明治の頃、夜、高入道が出て通行人を驚かせると評判になったことがあった。古来、それは古狸の仕業であるとされ、棒や杖で高入道の足元の付近を横薙ぎすれば正体を現すと伝えられている。 |
+| taka-nyudo-c11 | exact | www.nichibun.ac.jp | Nichibunken database record: what is called takabōzu (高坊主) in Sanuki (讃岐) is called 高入道 in Awa (阿波), for example in 山城谷. It is an enormously tall monster and is said to shrink when looked down on at a place called 正夫谷. | 讃岐でいう高坊主のことを、阿波の山城谷などでは高入道と呼ぶ。途轍もなく背が高い怪物で、正夫谷という場所に出て見下ろすと、小さくなるという。 |
 
 
 ## takehazuchi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -629,6 +634,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | takehazuchi-c02 | exact | ja.wikipedia.org | He weaves cloth to entice Amaterasu out of the heavenly cave. | 天照大神を天の岩戸から誘い出すために、文布（あや）を織ったとされる。文布は倭文布とも倭文とも書き、「シドリ」また「シヅリ」という織物である。 |
 | takehazuchi-c03 | exact | ja.wikipedia.org | He is regarded as an ancestral deity of weaving. | 同じ織物の神では栲幡千々姫命、天棚機姫命が挙げられるが、天羽槌雄神は機織りの祖神とされている。 |
 | takehazuchi-c04 | exact | ja.wikipedia.org | The Nihon Shoki associates him with subduing the star god Kagaseo. | 天羽槌雄神は建葉槌命の名で『日本書紀』に登場した倭文神で、経津主神・武甕槌命では服従しなかった星神の香香背男（かがせお）を服従させた神とされる。 |
+| takehazuchi-c05 | exact | d-museum.kokugakuin.ac.jp | Takehazuchi (also Shizuri no kami or Shidori no kami Takehazuchi no mikoto) is described in the Nihongi as the kami who completed the pacification of the "central land of reed plains" by subduing the last rebel, the "star kami" Kakaseo, thus preparing the way for the Descent of the Heavenly Grandchild (tenson kōrin). | [Shizuri no kami takehazuchi no mikoto](Nihongi) Other names: Shidori no kami takehazuchi no mikoto (Nihongi) According to Nihongi, the kami who completed the process of pacifying the "central land of reed plains" by subduing the final rebellious kami, the "star kami" Kakaseo, thus preparing the way for the Descent of the Heavenly Grandchild (tenson kōrin). |
+| takehazuchi-c06 | exact | d-museum.kokugakuin.ac.jp | Since Shizuri is the name of a weaver clan, the Kogo shūi identifies the kami with Amenohatsuchio, distant ancestor of the Shizuri, who, led by Futodama, wove "coarse cloth" (shizu) when Amaterasu hid away in the rock cave of heaven. | Since Shizuri is the name of a weaver clan, the Kogo shūi identifies the kami with Amenohatsuchio, distant ancestor of the Shizuri and who, led by Futodama, wove "coarse cloth" (shizu) at the time Amaterasu hid away in the rock cave of heaven. |
+| takehazuchi-c07 | exact | d-museum.kokugakuin.ac.jp | Together with Tanabatatsuhime, Takehazuchi is enshrined as the patron kami of weavers at Shitori Jinja and numerous other shrines. | Together with Tanabatatsuhime, Takehazuchi is enshrined as the patron kami of weavers at Shitori Jinja and numerous other shrines. |
+| takehazuchi-c08 | exact | d-museum.kokugakuin.ac.jp | In the Nihongi, after Futsunushi and Takemikazuchi had subdued the noxious indigenous kami together with the kami of grass, trees and rocks, the only rebel left was an evil kami named Kakaseo, who resisted the imperial forces until the kami Takehazuchi brought him into subjection. | Ordered by the heavenly kami to pacify the Central Land of Reed Plains, the two kami Futsunushi and Takemikazuchi descended to the Central Land and subdued the noxious indigenous kami together with the kami of grass, trees and rocks. The only rebel that remained was an evil kami named Kakaseo, who resisted the imperial forces until brought under subjection by the kami Takehazuchi. |
+| takehazuchi-c09 | exact | en.wikisource.org | In one version of the Nihongi (Aston's translation), the only one who refused submission was the Star-God Kagase-wo, so the Weaver-God Take-ha-dzuchi no Mikoto was also sent, upon which he submitted. | the only one who refused submission was the Star-God Kagase-wo ... Therefore they sent the Weaver-God Take-ha-dzuchi no Mikoto also, upon which he rendered submission. |
+| takehazuchi-c10 | exact | en.wikisource.org | Aston's note: the interlinear kana gives Shidzuri or Shidori, from shidzu (cloth) and ori (weave), and Take-ha-dzuchi is glossed as "brave-leaf-elder". | The interlinear "Kana" gives Shidzuri or Shidori, from shidzu, cloth, and ori, weave, which is doubtless correct. Take-ha-dzuchi is brave-leaf-elder. |
 
 
 ## takehiratori — lulus-otomatis
@@ -661,17 +672,19 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## three-pioneer-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| three-pioneer-kami-c01 | exact | ja.wikipedia.org | The Three Pioneer Kami are a collective name for deities enshrined in Hokkaidō and other territories of Japanese expansion. | 開拓三神（かいたくさんじん）は、北海道神宮など、日本本土ではなく近世や近代以降に大和民族が進出したアジアの地域、いわゆる「外地」に新たに建立された神社に祀られている三柱の神の総称である。 |
+| three-pioneer-kami-c01 | exact | ja.wikipedia.org | The Three Pioneer Kami are a collective name for three deities enshrined at new shrines such as Hokkaidō Jingū, in regions the Yamato people entered from the early modern and modern periods rather than on the Japanese mainland. | 開拓三神（かいたくさんじん）は、北海道神宮など、日本本土ではなく近世や近代以降に大和民族が進出したアジアの地域、いわゆる「外地」に新たに建立された神社に祀られている三柱の神の総称である。 |
 | three-pioneer-kami-c02 | exact | ja.wikipedia.org | The trio consists of Ōkunitama, Ōnamuchi and Sukunahikona. | 大国魂命 - 国土そのものの神霊 大己貴命 - 国造りの神 少彦名命 - 国造りの協力神 |
 | three-pioneer-kami-c03 | exact | ja.wikipedia.org | Ōkunitama is described as the spirit of the land itself. | 大国魂命 - 国土そのものの神霊 大己貴命 - 国造りの神 少彦名命 - 国造りの協力神 |
 | three-pioneer-kami-c04 | exact | ja.wikipedia.org | Ōnamuchi is described as the land-making deity and Sukunahikona as his helper. | 大国魂命 - 国土そのものの神霊 大己貴命 - 国造りの神 少彦名命 - 国造りの協力神 |
+| three-pioneer-kami-c05 | exact | nirc.nanzan-u.ac.jp | According to Suga Kōji's journal article, all earlier Sō Chinju shrines had enshrined the same set of three deities, the so-called kaitaku-sanshin (開拓三神): Ōnamuchi (大己貴神), Sukunahikona (少彦名神) and Ōkunitama (大国魂神; literally the "deity of the great land soul"). | All prior Sō Chinju shrines had enshrined the same set of three deities, the so-called kaitaku-sanshin 開拓三神: namely Ōnamuchi-no-kami 大己貴神, Sukunahikona-no-kami 少彦名神, and Ōkunitama-no-kami 大国魂神 (literally the “deity of the great land soul”). |
+| three-pioneer-kami-c06 | exact | nirc.nanzan-u.ac.jp | They were selected from the group of "terrestrial deities" (kunitsu-kami, 地祇) in Japanese classical mythology and invoked as guardians of pioneering (kaitaku, 開拓) in each region. | They were selected from the group of “terrestrial deities” (kunitsu-kami 地祇) in Japanese classical mythology and invoked to serve as the guardians of pioneering ... (kaitaku 開拓) in each region. |
+| three-pioneer-kami-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, Sukunahikona is a kami who assisted Ōnamuchi in the "forming of the land". According to the Kojiki he was a tiny kami who fell from between the fingers of his parent (oyakami) Kamimusuhi (according to the Nihongi, Takamimusuhi). | A kami who assisted Ōnamuchi in the "forming of the land." According to Kojiki, Sukunahikona was a tiny kami who fell from between the fingers of its parent (oyakami) Kamimusuhi (according to Nihongi, Takamimusuhi). |
+| three-pioneer-kami-c08 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, in almost all versions of the story Sukunahikona appears as one half of a pair with Ōnamuchi, and the two kami cooperate toward the development of the land and the invention of medicines. | In almost all versions of the story, the kami appears as one half of a pair with Ōnamuchi, and the two kami cooperate toward the development of the land and the invention of medicines. |
+| three-pioneer-kami-c09 | exact | d-museum.kokugakuin.ac.jp | According to the Encyclopedia of Shinto, Ōnamuchi is usually considered an alternate name for the kami Ōkuninushi, although works like the Izumo fudoki and the Izumo no kuni no miyatsuko kan'yogoto describe him as a "land-forming kami". | Usually considered an alternate name for the kami Ōkuninushi, although works like Izumo fudoki and Izumo no kuni no miyatsuko kan'yogoto describe Ōnamuchi as a "land-forming kami." |
 
 
 ## tsunuga-arashito — lulus-otomatis
@@ -691,70 +704,77 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## wd-q11182043 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11182043-c01 | exact | ja.wikipedia.org | Baxia is counted among the nine offspring of the dragon. | 𧈢𧏡（はか、拼音：Bāxià）は、竜生九子の一つ。覇下とも書かれる。 |
 | wd-q11182043-c02 | exact | ja.wikipedia.org | It is associated with water and carved on pillars, gutters, bridges and outlets. | 水を好み、柱や雨樋、橋や、水路の出口の意匠として彫られる。中国の故宮などの建物の欄干からたくさん頭を突き出した龍に似た動物がこれである。 |
 | wd-q11182043-c03 | exact | ja.wikipedia.org | Dragonlike heads projecting from Forbidden City railings exemplify the motif. | 水を好み、柱や雨樋、橋や、水路の出口の意匠として彫られる。中国の故宮などの建物の欄干からたくさん頭を突き出した龍に似た動物がこれである。 |
+| wd-q11182043-c04 | exact | zh.wikisource.org | The Yŏrha ilgi (熱河日記) quotes a list from 楊用修's 丹鉛錄: the dragon's nine sons did not become dragons; the first is 贔屭, and the sixth is 𧈢𧏡, which by nature likes water (性好水) and stands on bridge pillars (立橋柱). | 楊用修丹鉛錄曰。龍產九子不成龍。一曰贔屭。 ... 六曰𧈢𧏡。性好水。立橋柱。 |
+| wd-q11182043-c05 | exact | zh.wikisource.org | In the same list the first son is 贔屭, shaped like a turtle and good at bearing heavy loads; its likeness is the turtle base of steles (碑龜趺). | 楊用修丹鉛錄曰。龍產九子不成龍。一曰贔屭。形似龜。善負重。今碑龜趺是也。 |
+| wd-q11182043-c06 | exact | zh.wikisource.org | The same text cites the Zonggui (總龜): one of the dragon's sons, 覇夏, likes bearing heavy loads and so serves as a stele base, and 贔屭 likes literature and is found at the sides of the inscription. The author concludes that the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 又總龜云。龍之九子。一名覇夏。好負重。故爲碑座。贔屭。好文故在碑文兩旁。諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |
+| wd-q11182043-c07 | exact | zh.wikisource.org | The Kangxi Dictionary, in its entry 贔, quotes the Bencao (本草): 贔屭 (Bixi) is a large turtle of the 蟕蠵 kind that likes bearing heavy loads, "or named 𧈢𧏡". | 《本草》贔屭，大龜，蟕蠵之屬，好負重。或名𧈢𧏡。今石𥓓下龜跌象其形。 |
+| wd-q11182043-c08 | exact | zh.wikipedia.org | Chinese Wikipedia says that 𧈢𧏡 (bā xià) is often wrongly written 蚣蝮 (gōng fù); it is one of the dragon's sons, fond of water, carved as bridge pillars and as drain-spout beasts on buildings. | 常被误写作 蚣 （ gōng ） 蝮 （ fù ） ，传说中龙生九子之一，性喜水，被雕成桥柱、建筑上滴水的兽形。 |
 
 
 ## wd-q11298280 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q11298280-c01 | exact | ja.wikipedia.org | Yong is a Chinese owl-like bird with a human face, ears and four eyes, associated with drought. | 顒（ぎょう、ぐ）は、中国に伝わるフクロウに似た、四つ目で耳のある人面鳥。その目撃は旱魃の予兆とされる。 |
 | wd-q11298280-c02 | exact | ja.wikipedia.org | The Shan Hai Jing places it in a valley south of Lingqiu mountain. | 古代中国の地理書「山海経」の南山経によると、令丘（れいきゅう）山という火炎の多く草木が育たない山の南にある中谷（ちゅうこく）と呼ばれる谷に住んでいるという。 |
 | wd-q11298280-c03 | exact | ja.wikipedia.org | Its name imitates the cry of the human-faced, four-eyed bird. | 梟（ふくろう）に似た姿だが、顔は人間のようで、耳と四つの目を持っている。「顒」という名称は、その鳴き声から来ている。 |
+| wd-q11298280-c04 | exact | zh.wikisource.org | In the Shan Hai Jing (南山經), a further 400 li to the east lies Lingqiu mountain (令丘之山), without plants or trees and with much fire; to its south is a valley called Zhonggu (中谷), from which the tiao wind (條風) comes out. | 又東四百里，曰令丘之山，無草木，多火。其南有谷焉，曰中谷，條風自是出 |
+| wd-q11298280-c05 | exact | zh.wikisource.org | There is a bird there shaped like an owl (梟), with a human face, four eyes and ears, named 顒 (the commentary glosses its pronunciation as 娛). | 有鳥焉，其狀如梟，人面四目而有耳，其名曰顒〈音娛〉，其鳴自號也 |
+| wd-q11298280-c06 | exact | zh.wikisource.org | The bird named 顒 cries out its own name, and when it is seen the whole land suffers a great drought. | 其狀如梟，人面四目而有耳，其名曰顒〈音娛〉，其鳴自號也，見則天下大旱。 |
+| wd-q11298280-c07 | exact | ja.wikipedia.org | Japanese dictionaries give the reading グ (ゴ) for 顒. The note on the original text (Guo Pu) gives 娛 as the sound of 顒, and its modern Chinese reading is yú (ユウ). | 顒は「グ」（「ゴ」）と読むと日本の字引にみえる。 また原文注釈で「顒」の音には「娛」が当てられている（郭璞注）。 現代中国読みは「ユウ」（拼音: yú;ウェード式: yü）である。 |
 
 
 ## wd-q757964 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q757964-c01 | exact | ja.wikipedia.org | Chaofeng is a dragon offspring in Li Dongyang’s account, depicted as a phoenix-like bird. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
-| wd-q757964-c02 | exact | ja.wikipedia.org | It is said to favor steep places and distant views. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
-| wd-q757964-c03 | exact | ja.wikipedia.org | This preference explains its placement on roof eaves. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c01 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Chaofeng is a dragon offspring in Li Dongyang’s account in the Huailutang ji (懐麓堂集), depicted as a phoenix-like bird. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c02 | exact | ja.wikipedia.org | According to Japanese Wikipedia, it is said to favor steep places and distant views. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c03 | exact | ja.wikipedia.org | According to Japanese Wikipedia, this preference explains its placement on the eaves of roofs. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c04 | exact | zh.wikisource.org | In the Shuo Lüe (說略, by Gu Qiyuan, Ming), the list of the dragon's nine sons that "did not become dragons, each with its own fondness" includes 嘲風, which likes danger (好險) and is at palace corners (在殿角). The text adds that in the Hongzhi (弘治) period the emperor (泰陵) had a eunuch ask Li Dongyang (李東陽) for the names of the nine sons; Li could not give them all, asked Liu Ji (劉績), and obtained the account from an old register whose origin was also unknown. | 龍生九子，不成龍，各有所好。囚牛，好音樂，以飾胡琴。睚眦，好殺，以飾刀柄。嘲風，好險，在殿角。蒲牢，好鳴，取為鐘紐。狻猊，好座，取為佛座。霸下，好負重，為碑座。狴犴，好訟，為獄門。屓屭，好文，在碑兩傍。蚩吻，好吞，在殿脊。弘治間，泰陵令中官問龍生九子名目於李少師東陽，李不能悉，詢於吏部劉員外績，乃得其說，於故冊面上所錄，然亦不知所從出，因據以復。 |
+| wd-q757964-c05 | exact | zh.wikisource.org | The author of the Shuo Lüe recalls seeing the theory in the Duilei zonggui (對類總龜) when he was eleven or twelve, but after examining records he concluded that it was not canonical (不經). Of the names he discusses, he found none in records described as a dragon's son; 囚牛, 嘲風 (Chaofeng) and 霸下 he left as "to be examined" (俟考). | 余憶十一、二時，曾見其說於《對類總龜》中，近因歴考傳記，乃知其說為不經。 ... 已上都不見有龍子之說，囚牛、嘲風、霸下，俟考。 |
+| wd-q757964-c06 | exact | zh.wikisource.org | In the Yŏrha ilgi (熱河日記): the Duilei zonggui (對類總龜) names one of the dragon's sons 嘲風, which likes danger (好險) and stands at palace corners, and another, 蚩吻, which likes swallowing; the Bowuzhi yipian (博物志逸篇) instead says that 螭吻 (Chiwen), which likes to look out, stands at the palace corner. The author says the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 對類總龜謂龍產九子。一名嘲風。好險。立殿角。一名蚩吻。好呑。立殿脊。博物志逸篇云。螭吻。形似獸。性好望。故立殿角。 ... 諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |
+| wd-q757964-c07 | exact | zh.wikisource.org | In the Yangsheng fuyu (養生膚語, by Chen Jiru, Ming), 嘲風 is said to have liked danger all its life (平生好險), and the running beasts on palace corners are its likeness (今殿角走獸是). | 嘲風，平生好險，今殿角走獸是。蒲牢，平生好鳴，今鐘上獸紐是。狻猊，平生好坐，今佛座獅子是。 |
 
 
 ## wd-q757989 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q757989-c01 | exact | ja.wikipedia.org | Fuxi is a dragon offspring in Li Dongyang’s account that enjoys reading and writing. | 負屓（ふき、拼音：Fùxì）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。文章の読み書きを好み、故に石碑の頂に絡み付いているという。 |
-| wd-q757989-c02 | exact | ja.wikipedia.org | It is depicted coiling around the tops of stone steles. | 負屓（ふき、拼音：Fùxì）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。文章の読み書きを好み、故に石碑の頂に絡み付いているという。 |
-| wd-q757989-c03 | exact | ja.wikipedia.org | A literal interpretation of its characters refers to bearing a heavy load. | 『贔』の字は財貨が多い様を表し、『屓』の字は『贔』に『尸』を付けたし、財宝を抱え込んでしまう意がある。つまり、『負屓』を字義通りに解釈すると『重たい荷物を背負う』という意味になる。 |
+| wd-q757989-c01 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Fuxi (負屓) is a dragon offspring in Li Dongyang’s account in the Huailutang ji (懐麓堂集) that enjoys reading and writing. | 負屓（ふき、拼音：Fùxì）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。文章の読み書きを好み、故に石碑の頂に絡み付いているという。 |
+| wd-q757989-c02 | exact | ja.wikipedia.org | According to Japanese Wikipedia, it is depicted coiling around the tops of stone steles. | 負屓（ふき、拼音：Fùxì）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。文章の読み書きを好み、故に石碑の頂に絡み付いているという。 |
+| wd-q757989-c03 | exact | ja.wikipedia.org | According to Japanese Wikipedia, a literal interpretation of the characters of its name refers to bearing a heavy load. | 『贔』の字は財貨が多い様を表し、『屓』の字は『贔』に『尸』を付けたし、財宝を抱え込んでしまう意がある。つまり、『負屓』を字義通りに解釈すると『重たい荷物を背負う』という意味になる。 |
+| wd-q757989-c04 | exact | zh.wikisource.org | In the Shuo Lüe (說略, by Gu Qiyuan, Ming), the list of the dragon's nine sons that "did not become dragons, each with its own fondness" includes 屓屭, which likes literature (好文) and is at the sides of steles (在碑兩傍). The text adds that in the Hongzhi (弘治) period the emperor (泰陵) had a eunuch ask Li Dongyang (李東陽) for the names of the nine sons; Li could not give them all, asked Liu Ji (劉績), and obtained the account from an old register whose origin was also unknown. | 龍生九子，不成龍，各有所好。囚牛，好音樂，以飾胡琴。睚眦，好殺，以飾刀柄。嘲風，好險，在殿角。蒲牢，好鳴，取為鐘紐。狻猊，好座，取為佛座。霸下，好負重，為碑座。狴犴，好訟，為獄門。屓屭，好文，在碑兩傍。蚩吻，好吞，在殿脊。弘治間，泰陵令中官問龍生九子名目於李少師東陽，李不能悉，詢於吏部劉員外績，乃得其說，於故冊面上所錄，然亦不知所從出，因據以復。 |
+| wd-q757989-c05 | exact | zh.wikisource.org | The author of the Shuo Lüe glosses 屓屭: the characters 屓 and 屭 have variant forms (including 贔); according to the dictionary Yunhui (韻會) it means a huge appearance, also the 鼇 (giant sea turtle), and according to the Guangyun (廣韻) "a strong man exerting strength"; he cites the Xijing fu (西京賦) and the Wu du fu (吳都賦) on 贔屓. He found none of the names he discusses described in records as a dragon's son, and left 囚牛, 嘲風 and 霸下 for further examination. | 屓屭，屓一作𤣂，一作贔。屭，一作㞒。《韻會》狀大貌。又鼇也。一曰雌鼇為屓。《廣韻》壯士作力貌。〈西京賦〉巨靈贔屓。〈吳都賦〉巨鼇贔屓。 ... 已上都不見有龍子之說，囚牛、嘲風、霸下，俟考。 |
+| wd-q757989-c06 | exact | zh.wikisource.org | In the Yŏrha ilgi (熱河日記): the Bowuzhi yipian (博物志逸篇) says 贔屭 likes heavy things and so carries steles, while 螭虎, which likes literary ornament, stands on the inscription; the Zonggui (總龜) says 覇夏 likes bearing loads and so serves as a stele base, and 贔屭 likes literature and so is found at both sides of the inscription. The author says the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 又博物逸篇云。贔屭。性好重。故載碑。螭虎。形似龍。性好文釆。故立于碑文上。又總龜云。龍之九子。一名覇夏。好負重。故爲碑座。贔屭。好文故在碑文兩旁。諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |
+| wd-q757989-c07 | exact | zh.wikipedia.org | A note in Chinese Wikipedia calls 负屃 (Fùxì) the eighth son of the dragon in Chinese mythology, dragon-shaped, fond of literature (平生好文), with the literary dragons at both sides of steles as its likeness. | 负屃是中国神话中龙的第八个儿子。似龙形，排行老八，平生好文，石碑两旁的文龙是其遗像。 |
 
 
 ## wd-q8320871 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q8320871-c01 | exact | ja.wikipedia.org | Huan is a legendary Chinese animal born from imprisoned people’s distress. | 䍺（かん）は、中国に伝わる伝説上の動物。監獄に閉じ込められた罪人達の憂いの気より誕生したとされる。 |
-| wd-q8320871-c02 | exact | ja.wikipedia.org | The account gives it a huge goatlike body, blue eyes and feet fixed in the ground. | 山羊をあわせた身体に青い目を持ち、身長は小さいもので7から8メートル、大きいものでは10mを超える。また足が地面にめり込んでおり、人間の力では動かせないとされる。 |
-| wd-q8320871-c03 | exact | ja.wikipedia.org | Dongfang Shuo dispels the creature with wine when it blocks Emperor Wu’s journey. | 漢代に武帝が巡幸した際、一行の前に巨大な山羊が現れ行く手を阻んだ。武帝の側近で博識で知られた東方朔（とうほうさく）は、それが䍺であることに気付き、䍺の憂いを晴らすために大量の酒をかけたところ䍺は消滅したという。 |
+| wd-q8320871-c01 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Huan is a legendary Chinese animal said to be born from imprisoned people’s distress. | 䍺（かん）は、中国に伝わる伝説上の動物。監獄に閉じ込められた罪人達の憂いの気より誕生したとされる。 |
+| wd-q8320871-c02 | exact | ja.wikipedia.org | According to Japanese Wikipedia, the account gives it a huge goatlike body, blue eyes and feet fixed in the ground. | 山羊をあわせた身体に青い目を持ち、身長は小さいもので7から8メートル、大きいものでは10mを超える。また足が地面にめり込んでおり、人間の力では動かせないとされる。 |
+| wd-q8320871-c03 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Dongfang Shuo dispels the creature with wine when it blocks Emperor Wu’s journey. | 漢代に武帝が巡幸した際、一行の前に巨大な山羊が現れ行く手を阻んだ。武帝の側近で博識で知られた東方朔（とうほうさく）は、それが䍺であることに気付き、䍺の憂いを晴らすために大量の酒をかけたところ䍺は消滅したという。 |
+| wd-q8320871-c04 | exact | zh.wikisource.org | In the Shan Hai Jing (南山經), on Xun mountain (洵) there is a beast shaped like a sheep but without a mouth, which cannot be killed (commentary: 稟氣自然); it is named 䍺. | 洵一作「旬」山，其陽多金，其陰多玉。有獸焉，其狀如羊而無口，不可殺也，〈稟氣自然〉其名曰䍺。 |
+| wd-q8320871-c05 | exact | zh.wikisource.org | The commentary on the text gives the sound of the name 䍺 as 還, or 患. | 有獸焉，其狀如羊而無口，不可殺也，〈稟氣自然〉其名曰䍺。〈音還，或音患〉 |
+| wd-q8320871-c06 | exact | zh.wikisource.org | In a tale quoted in the Taiping guangji from the Soushenji (搜神記): when Emperor Wu of Han travelled east and reached Hangu Pass (函谷關), something blocked the road; its body was several zhang long, it was shaped like an ox, with gleaming blue eyes, and its four feet were sunk into the earth; it moved but did not shift. | 漢武帝東遊，至函谷關，有物當道，其身長數丈，其狀象牛。青眼而曜精，四足入土，動而不徙。 |
+| wd-q8320871-c07 | exact | zh.wikisource.org | The officials were frightened; Dongfang Shuo asked for wine to be poured on it, and after several dozen hu it vanished. He explained that it is named 憂 (worry), something produced by 患 (affliction); the place must be a Qin prison site, and since wine makes one forget worry, wine could dispel it. | 百官驚懼，東方朔乃請酒灌之，灌之數十斛而消。帝問其故，答曰：「此名憂，患之所生也。此必是秦之獄地。不然，罪人徙作地聚。夫酒忘憂，故能消之也。」 |
+| wd-q8320871-c08 | exact | zh.wikipedia.org | Chinese Wikipedia calls 患 (羊患) a legendary creature of ancient China recorded in the Shan Hai Jing, and quotes the 南山經 line about the sheep-like beast without a mouth named 䍺. | 患（羊患）是中國古代的傳說生物，於《山海经》有记载。 ... 《山海經·南山經》：「又東四百里，曰洵山，其陽多金，其陰多玉。有獸焉，其狀如羊而無口，不可殺也，其名曰䍺。」 |
 

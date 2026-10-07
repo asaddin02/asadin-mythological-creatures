@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-07T06:55:10.035Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md.
+Diperiksa 2026-10-07T07:40:29.997Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -516,15 +516,17 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## pihi — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | pihi-c01 | exact | nl.wikipedia.org | Pihi is a one winged mythological bird associated with Chinese lore. | De Pihi is een mythologische vogel met maar één vleugel; in het westen gepopulariseerd door de Franse dichter Guillaume Apollinaire, die een beschrijving vond in een obscuur boek over Chinese mythologie. Omdat de vogel maar één vleugel heeft, kan het dier alleen als stelletje vliegen. |
 | pihi-c02 | exact | nl.wikipedia.org | Because it has only one wing, Pihi is said to fly only as a pair. | De Pihi is een mythologische vogel met maar één vleugel; in het westen gepopulariseerd door de Franse dichter Guillaume Apollinaire, die een beschrijving vond in een obscuur boek over Chinese mythologie. Omdat de vogel maar één vleugel heeft, kan het dier alleen als stelletje vliegen. |
+| pihi-c03 | exact | fr.wikipedia.org | The word Pihi was created by Guillaume Apollinaire and first appears in the collection Alcools, naming imaginary birds from China that have only one wing and are therefore forced to fly as a pair. | Le mot Pihi, créé par Guillaume Apollinaire, apparaît pour la première fois dans le recueil Alcools. Il désigne des oiseaux imaginaires venus « De Chine », ne possédant qu'une aile et étant ainsi forcés de voler en couple. |
+| pihi-c04 | exact | fr.wikipedia.org | According to this source, Chinese mythology has similar birds called 比翼鸟 (biyi niao), and it is very probable that Apollinaire, after reading an issue of the Revue asiatique of 1896 according to Claude Debon, simply transcribed the word biyi in a Romance language, giving Pihi. | Or il existe dans la mythologie chinoise des oiseaux similaires, nommés 比翼鸟, en pinyin biyi niao ... il est donc très probable que Apollinaire, à la suite selon Claude Debon de la lecture d'un numéro de la Revue asiatique de 1896, ait simplement transcrit le mot biyi en langue romane, ce qui aurait donné Pihi. |
+| pihi-c05 | exact | fr.wikisource.org | In Apollinaire's poem Zone, the pihis are described as coming from China, long and supple, having only one wing and flying in pairs. | De Chine sont venus les pihis longs et souples Qui n’ont qu’une seule aile et qui volent par couples |
+| pihi-c06 | exact | fr.wikisource.org | In Apollinaire's Calligrammes, one line reads "Abatis de pihis" and the next says there is a poem to be made about the bird that has only one wing, which will be sent as a telephone message. | Abatis de pihis Il y a un poème à faire sur l’oiseau qui n’a qu’une aile Nous l’enverrons en message téléphonique |
+| pihi-c07 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the Erya: in the south there is a 比翼鳥 that cannot fly unless paired, named 鶼鶼; Guo's note says it resembles a duck, is blue-red, has one eye and one wing, and flies only when together. | 《爾雅·釋鳥》南方有比翼鳥焉，不比不飛，其名謂之鶼鶼。《郭註》似鳧，靑赤色，一目一翼，相得乃飛。 |
 
 
 ## prespa-lake-monster — lulus-otomatis
