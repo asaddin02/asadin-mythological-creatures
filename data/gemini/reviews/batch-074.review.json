@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-074",
-  "checked_at": "2026-10-06T14:41:35.956Z",
+  "checked_at": "2026-10-07T09:29:54.620Z",
   "files": [
     "batch-074.md",
     "batch-074-fix-1.md",
     "batch-074-fix-2.md",
-    "batch-074-fix-3.md"
+    "batch-074-fix-3.md",
+    "batch-074-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1190,20 +1191,15 @@
     },
     {
       "slug": "mahoraga",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-4.md",
+      "entry_sha256": "bf6998011a2517b1e958cfb3947261cc7f7f7652d7e4b5a3cc7468fba0e38f11",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mahoraga-c01",
@@ -1231,7 +1227,7 @@
           "host": "en.wikipedia.org",
           "statement": "They belong to eight classes of deities protecting the Dharma.",
           "statement_id": "Mereka termasuk delapan golongan dewa pelindung Dharma.",
-          "quote": "The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma. They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes.",
+          "quote": "The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1241,7 +1237,7 @@
           "host": "en.wikipedia.org",
           "statement": "They are described as huge underground serpents rotating the earth and sometimes causing earthquakes.",
           "statement_id": "Mereka dikisahkan sebagai ular besar di bawah tanah yang memutar bumi dan kadang menyebabkan gempa.",
-          "quote": "The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma. They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes.",
+          "quote": "They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1263,12 +1259,110 @@
           "statement_id": "Dalam terjemahan Lotus Sutra Soothill, mahoraga hadir bersama makhluk lain dan menghormati Buddha.",
           "quote": "Then the monks and nuns, male and female disciples, gods, nagas,\r\nyakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, and others,\r\nall the great assembly of beings, human and not human, rejoice greatly,\r\neach doffing his robe and offering it in homage to the Buddha.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c07",
+          "source_id": "mahoraga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name is also pronounced Maha-Uraga, which Wikipedia renders as \"Greater Reptilians\".",
+          "statement_id": "Nama itu juga diucapkan Maha-Uraga, yang diterjemahkan Wikipedia sebagai \"Greater Reptilians\" (reptil yang lebih besar).",
+          "quote": "also pronounced as Maha-Uraga (\"Greater Reptilians\"),",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c08",
+          "source_id": "mahoraga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mahoraga are the exalted ones among the Uragas, a race of primordial reptilian beings who are cousins to the nāga.",
+          "statement_id": "Mahoraga adalah yang terluhur di antara para Uraga, ras makhluk reptil purba yang bersepupu dengan naga.",
+          "quote": "They are the exalted ones among the Uragas, a race of primordial reptilian beings who are cousins to the nāga.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c09",
+          "source_id": "mahoraga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their appearance can differ by artistic tradition, sometimes with serpent skin and humanoid bodies, or a serpent head on the body of a muscular divine human.",
+          "statement_id": "Penampilan mereka dapat berbeda menurut tradisi seni: kadang berkulit ular dengan tubuh humanoid, atau berkepala ular dengan tubuh manusia ilahi yang berotot.",
+          "quote": "However, their appearance can differ depending on artistic tradition, sometimes having serpent skin with humanoid bodies, or having a serpent head with the body of a muscular divine human.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c10",
+          "source_id": "mahoraga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An illustration from an 1866 Japanese book shows a mahoraga, in this scene an incarnation of Bodhisattva Kannon, giving a sermon to folk.",
+          "statement_id": "Sebuah ilustrasi dari buku Jepang tahun 1866 menampilkan mahoraga, dalam adegan itu penjelmaan Bodhisattva Kannon, yang berkhotbah kepada orang-orang.",
+          "quote": "An illustration from an 1866 Japanese book. Mahoraga, who is an incarnation of Bodhisattva Kannon in this scene, gives a sermon to folks.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c11",
+          "source_id": "mahoraga-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Buddhism glossary on Wisdom Library records the mahoraga as a deity with the head of a snake who protects Buddhists.",
+          "statement_id": "Glosarium Buddhisme di Wisdom Library mencatat mahoraga sebagai dewa berkepala ular yang melindungi umat Buddha.",
+          "quote": "Mahoraga:—A deity with the head of a snake who protects Buddhists.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c12",
+          "source_id": "mahoraga-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "In Jainism, according to Wisdom Library, the mahoragas are a group of deities of the vyantara class, eight groups of deities that wander about the three worlds (adhaloka, madhyaloka and ūrdhvaloka).",
+          "statement_id": "Dalam tradisi Jain, menurut Wisdom Library, mahoraga adalah kelompok dewa dari golongan vyantara, delapan kelompok dewa yang mengembara di tiga dunia (adhaloka, madhyaloka, dan ūrdhvaloka).",
+          "quote": "The mahoragas are a group of deities categorised as belonging to the vyantara class of Gods (devas). The vyantaras represent a class of Gods (devas) comprising eight groups of deities that wander about the three worlds (adhaloka, madhyaloka and ūrdhvaloka).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c13",
+          "source_id": "mahoraga-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "According to a Jain source quoted on Wisdom Library, the Mahoragas have a dark complexion and the Naga-tree is their Caitya-tree.",
+          "statement_id": "Menurut sumber Jain yang dikutip Wisdom Library, para mahoraga berkulit gelap dan pohon Naga adalah pohon Caitya mereka.",
+          "quote": "The Mahoragas have dark complexion. The Nāga-tree is their Caitya-tree.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c14",
+          "source_id": "mahoraga-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "Mahoraga (महोरग) refers to the \"great serpent\" class of \"peripatetic celestial beings\" (vyantara), a category of devas, according to the 2nd-century Tattvarthasutra.",
+          "statement_id": "Mahoraga (महोरग) merujuk pada golongan \"ular besar\" dari \"makhluk langit pengembara\" (vyantara), kategori dewa, menurut Tattvarthasutra abad ke-2.",
+          "quote": "Mahoraga (महोरग) refers to the “great serpent” class of “peripatetic celestial beings” (vyantara), itself a category of devas (celestial beings), according to the 2nd-century Tattvārthasūtra 4.10.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c15",
+          "source_id": "mahoraga-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "In Tibetan Buddhism, according to Wisdom Library, mahoraga also refers to a group of deities summoned by the Yamantaka mantra and mentioned as attending the teachings in the 6th-century Manjusrimulakalpa.",
+          "statement_id": "Dalam Buddhisme Tibet, menurut Wisdom Library, mahoraga juga merujuk pada kelompok dewa yang dipanggil mantra Yamantaka dan disebut hadir pada ajaran dalam Manjusrimulakalpa abad ke-6.",
+          "quote": "Mahoraga (महोरग) also refers to a group of deities summoned by the Yamāntaka-mantra and mentioned as attending the teachings in the 6th century Mañjuśrīmūlakalpa.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mahoraga-c16",
+          "source_id": "mahoraga-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Soothill's Lotus Sutra translation contains a question to King of Healing asking whether he sees in the assembly gods, dragon-kings, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, and human and non-human beings.",
+          "statement_id": "Lotus Sutra terjemahan Soothill memuat pertanyaan kepada Raja Penyembuhan apakah ia melihat di majelis itu para dewa, raja naga, yaksha, gandharva, asura, garuda, kinnara, mahoraga, makhluk manusia dan bukan manusia.",
+          "quote": "King of Healing! Do you see in this assembly innumerable gods, dragon-kings, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, human and non-human beings, as well as monks, nuns, male and female lay devotees",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5c60942a653b9c8e1054883805ab85de215a1f10813350810251ed76ca3efc55"
+      "images": []
     },
     {
       "slug": "manibhadra",
@@ -1773,11 +1867,12 @@
     },
     {
       "slug": "kumbhanda",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-4.md",
+      "entry_sha256": "9f4cd4aff73e8bce106b852889ad7016761598d08c82e0d25e8fedb2964321c1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -1818,7 +1913,7 @@
           "host": "en.wikipedia.org",
           "statement": "They belong to the Caturmaharajika deities under Virudhaka, guardian of the south.",
           "statement_id": "Mereka termasuk dewa Caturmaharajika dan tunduk kepada Virudhaka, penjaga selatan.",
-          "quote": "The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South. One of their chiefs is called Kumbhīra.",
+          "quote": "The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1828,7 +1923,7 @@
           "host": "en.wikipedia.org",
           "statement": "One of their chiefs is named Kumbhira.",
           "statement_id": "Salah satu pemimpin mereka bernama Kumbhira.",
-          "quote": "The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South. One of their chiefs is called Kumbhīra.",
+          "quote": "One of their chiefs is called Kumbhīra.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1841,10 +1936,99 @@
           "quote": "a great king named Virulha who has a retinue of attendants, and is the sovereign lord of Kumbhandas. Attended by the Kumbhandas he enjoys their song and dance.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c07",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A note in the Mahayana glossary on Wisdom Library says they are so called because their genitals (anda) are as large as pots (kumbha).",
+          "statement_id": "Catatan pada glosarium Mahayana di Wisdom Library menyatakan mereka disebut demikian karena alat kelamin (anda) mereka sebesar periuk (kumbha).",
+          "quote": "They are so called because their genitals (aṇḍa) are as large as pots (kumbha) (cf. Sumaṅgala III, p. 964).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c08",
+          "source_id": "kumbhanda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Da zhidu lun, greedy officers are reborn as kumbhandas.",
+          "statement_id": "Menurut Da zhidu lun, para pejabat yang serakah terlahir kembali sebagai kumbhanda.",
+          "quote": "According to the Dà zhìdù lùn, greedy officers are reborn as kumbhāṇḍhas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c09",
+          "source_id": "kumbhanda-s2",
+          "host": "www.accesstoinsight.org",
+          "statement": "The Atanatiya Sutta says the four great kings placed a guard over the four quarters with a large army of yakkhas, gandhabbas, kumbhandas and nagas.",
+          "statement_id": "Atanatiya Sutta menyebut empat raja besar menempatkan penjaga di empat penjuru dengan pasukan besar yakkha, gandhabba, kumbhanda, dan naga.",
+          "quote": "having placed a guard over the four quarters, with a large army of Yakkhas, of Gandhabbas, of Kumbhandas, of Nagas;",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c10",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Dictionary of Pali Proper Names on Wisdom Library records the kumbhandas as a class of spirits mentioned with yakkhas, asuras and nagas, living in the south with Virulha as their king.",
+          "statement_id": "Kamus Nama-nama Pali di Wisdom Library mencatat kumbhanda sebagai golongan roh yang disebut bersama yakkha, asura, dan naga, tinggal di selatan dengan Virulha sebagai raja mereka.",
+          "quote": "A class of spirits mentioned with Yakkhas, Asuras and Nagas. They live in the South and Virulha is their king (D.ii.257; D.iii.198).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c11",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "According to the same dictionary, they had huge stomachs and genital organs as big as pots, hence their name.",
+          "statement_id": "Menurut kamus yang sama, mereka berperut besar dan alat kelamin mereka sebesar periuk, itulah sebab nama mereka.",
+          "quote": "They had huge stomachs, and their genital organs were as big as pots, hence their name.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c12",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The same dictionary mentions Kumbhira in the Vidhurapandita Jataka as one of their chiefs.",
+          "statement_id": "Kamus yang sama menyebut Kumbhira dalam Vidhurapandita Jataka sebagai salah satu pemimpin mereka.",
+          "quote": "In the Vidhurapandita Jataka (J.vi.272), Kumbhira (q.v.) is mentioned as one of their chiefs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c13",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A Wisdom Library glossary records the kumbhanda (कुम्भाण्ड) as a class of evil spirits who, as their name indicates, had testicles as big as pots, with Virudhaka, one of the four great kings, as their lord.",
+          "statement_id": "Glosarium Wisdom Library mencatat kumbhanda (कुम्भाण्ड) sebagai golongan roh jahat yang, sesuai namanya, berbuah zakar sebesar periuk, dengan Virudhaka, salah satu dari empat raja besar, sebagai tuan mereka.",
+          "quote": "Kumbhāṇḍa (कुम्भाण्ड).—One of a class of evil spirits who, as their name would indicate, had “testicles” (aṇḍa) as big as “pots” (kumbha). Virūḍhaka, one of the four great kings, is their lord.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c14",
+          "source_id": "kumbhanda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A note in the Mahayana glossary on Wisdom Library calls the kumbhandas a class of demons listed with yakshas, asuras and nagas, living in the south with a king named Virudha.",
+          "statement_id": "Catatan pada glosarium Mahayana di Wisdom Library menyebut kumbhanda sebagai golongan iblis yang didaftar bersama yaksha, asura, dan naga, tinggal di selatan dengan raja bernama Virudha.",
+          "quote": "Kumbhāṇḍa refers to a class of demons listed along with the Yakṣas, Asuras and Nāgas. They live in the south and their king is Virūdha (Dīgha II, p. 257; III, p. 198).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kumbhanda-c15",
+          "source_id": "kumbhanda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Wikipedia image caption shows a male kumbhanda and a female Kumbhandaka.",
+          "statement_id": "Keterangan gambar di Wikipedia menampilkan kumbhanda jantan dan Kumbhandaka betina.",
+          "quote": "A male kumbhāṇḍa (left) and female Kumbhāṇḍakā (right).",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6912082666d280a95ea2d1bb6ac9df786bb61d042438b76e15c9011006080072"
+      "images": []
     },
     {
       "slug": "lai-khutshangbi",

@@ -1,6 +1,6 @@
 # Review batch-074
 
-Diperiksa 2026-10-06T14:41:35.956Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md, batch-074-fix-3.md.
+Diperiksa 2026-10-07T09:29:54.620Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md, batch-074-fix-3.md, batch-074-fix-4.md.
 
 ## hamsa-bird — lulus-otomatis
 
@@ -221,19 +221,26 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## mahoraga — lulus-otomatis
 
-Klaim 6 (exact 5, unreachable 1), sumber 2, gambar 0.
-
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mahoraga-c01 | exact | en.wikipedia.org | Mahoraga are a group of reptilian deities in Hindu, Buddhist, and Jain traditions. | are a race of deities in Hinduism, Buddhism, and Jainism. ... a race of primordial reptilian beings |
 | mahoraga-c02 | exact | en.wikipedia.org | Depictions can have reptilian bodies from the waist down. | Like the nāga, they are often depicted as anthropomorphic beings with reptilian bodies from the waist down. |
-| mahoraga-c03 | exact | en.wikipedia.org | They belong to eight classes of deities protecting the Dharma. | The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma. They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes. |
-| mahoraga-c04 | exact | en.wikipedia.org | They are described as huge underground serpents rotating the earth and sometimes causing earthquakes. | The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma. They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes. |
+| mahoraga-c03 | exact | en.wikipedia.org | They belong to eight classes of deities protecting the Dharma. | The Mahoraga are one of the eight classes of deities (aṣṭasenā) that are said to protect the Dharma. |
+| mahoraga-c04 | exact | en.wikipedia.org | They are described as huge underground serpents rotating the earth and sometimes causing earthquakes. | They are described as huge subterranean serpents who lie on their sides and rotate the earth, which occasionally causes earthquakes. |
 | mahoraga-c05 | exact | en.wikipedia.org | They are also associated with instrumental music. | Like the kinnara, the Mahoraga are also associated with instrumental music. They are understood as being associated with large serpents such as pythons, while the nāgas are more closely related to the cobra. |
-| mahoraga-c06 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In Soothill's Lotus Sutra translation mahoragas join other beings in honoring the Buddha. | Then the monks and nuns, male and female disciples, gods, nagas, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, and others, all the great assembly of beings, human and not human, rejoice greatly, each doffing his robe and offering it in homage to the Buddha. |
+| mahoraga-c06 | exact | www.gutenberg.org | In Soothill's Lotus Sutra translation mahoragas join other beings in honoring the Buddha. | Then the monks and nuns, male and female disciples, gods, nagas, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, and others, all the great assembly of beings, human and not human, rejoice greatly, each doffing his robe and offering it in homage to the Buddha. |
+| mahoraga-c07 | exact | en.wikipedia.org | The name is also pronounced Maha-Uraga, which Wikipedia renders as "Greater Reptilians". | also pronounced as Maha-Uraga ("Greater Reptilians"), |
+| mahoraga-c08 | exact | en.wikipedia.org | The Mahoraga are the exalted ones among the Uragas, a race of primordial reptilian beings who are cousins to the nāga. | They are the exalted ones among the Uragas, a race of primordial reptilian beings who are cousins to the nāga. |
+| mahoraga-c09 | exact | en.wikipedia.org | Their appearance can differ by artistic tradition, sometimes with serpent skin and humanoid bodies, or a serpent head on the body of a muscular divine human. | However, their appearance can differ depending on artistic tradition, sometimes having serpent skin with humanoid bodies, or having a serpent head with the body of a muscular divine human. |
+| mahoraga-c10 | exact | en.wikipedia.org | An illustration from an 1866 Japanese book shows a mahoraga, in this scene an incarnation of Bodhisattva Kannon, giving a sermon to folk. | An illustration from an 1866 Japanese book. Mahoraga, who is an incarnation of Bodhisattva Kannon in this scene, gives a sermon to folks. |
+| mahoraga-c11 | exact | www.wisdomlib.org | The Buddhism glossary on Wisdom Library records the mahoraga as a deity with the head of a snake who protects Buddhists. | Mahoraga:—A deity with the head of a snake who protects Buddhists. |
+| mahoraga-c12 | exact | www.wisdomlib.org | In Jainism, according to Wisdom Library, the mahoragas are a group of deities of the vyantara class, eight groups of deities that wander about the three worlds (adhaloka, madhyaloka and ūrdhvaloka). | The mahoragas are a group of deities categorised as belonging to the vyantara class of Gods (devas). The vyantaras represent a class of Gods (devas) comprising eight groups of deities that wander about the three worlds (adhaloka, madhyaloka and ūrdhvaloka). |
+| mahoraga-c13 | exact | www.wisdomlib.org | According to a Jain source quoted on Wisdom Library, the Mahoragas have a dark complexion and the Naga-tree is their Caitya-tree. | The Mahoragas have dark complexion. The Nāga-tree is their Caitya-tree. |
+| mahoraga-c14 | exact | www.wisdomlib.org | Mahoraga (महोरग) refers to the "great serpent" class of "peripatetic celestial beings" (vyantara), a category of devas, according to the 2nd-century Tattvarthasutra. | Mahoraga (महोरग) refers to the “great serpent” class of “peripatetic celestial beings” (vyantara), itself a category of devas (celestial beings), according to the 2nd-century Tattvārthasūtra 4.10. |
+| mahoraga-c15 | exact | www.wisdomlib.org | In Tibetan Buddhism, according to Wisdom Library, mahoraga also refers to a group of deities summoned by the Yamantaka mantra and mentioned as attending the teachings in the 6th-century Manjusrimulakalpa. | Mahoraga (महोरग) also refers to a group of deities summoned by the Yamāntaka-mantra and mentioned as attending the teachings in the 6th century Mañjuśrīmūlakalpa. |
+| mahoraga-c16 | exact | www.gutenberg.org | Soothill's Lotus Sutra translation contains a question to King of Healing asking whether he sees in the assembly gods, dragon-kings, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, and human and non-human beings. | King of Healing! Do you see in this assembly innumerable gods, dragon-kings, yakshas, gandharvas, asuras, garudas, kinnaras, mahoragas, human and non-human beings, as well as monks, nuns, male and female lay devotees |
 
 
 ## manibhadra — lulus-otomatis
@@ -329,16 +336,25 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 
 ## kumbhanda — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kumbhanda-c01 | exact | en.wikipedia.org | Kumbhandas are a group of dwarfish misshapen spirits among lesser Buddhist deities. | A kumbhāṇḍa (Sanskrit) or kumbhaṇḍa (Pāli) is one of a group of dwarfish, misshapen spirits among the lesser deities of Buddhist mythology. |
 | kumbhanda-c02 | exact | en.wikipedia.org | Their name is associated with gourds and gourd like large bellies. | Kumbhāṇḍa was a dialectal form for "gourd", so they may get their name from being thought to resemble gourds in some way, e.g. in having big stomachs. |
 | kumbhanda-c03 | exact | en.wikipedia.org | The term sometimes overlaps with yaksha, a more general term. | The terms kumbhāṇḍa and yakṣa are sometimes used for the same creature; yakṣa in these cases is the more general term, including a variety of lower deities. |
-| kumbhanda-c04 | exact | en.wikipedia.org | They belong to the Caturmaharajika deities under Virudhaka, guardian of the south. | The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South. One of their chiefs is called Kumbhīra. |
-| kumbhanda-c05 | exact | en.wikipedia.org | One of their chiefs is named Kumbhira. | The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South. One of their chiefs is called Kumbhīra. |
+| kumbhanda-c04 | exact | en.wikipedia.org | They belong to the Caturmaharajika deities under Virudhaka, guardian of the south. | The kumbhāṇḍas are classed among the Cāturmahārājika deities, and are subject to the Great King Virūḍhaka, Guardian of the South. |
+| kumbhanda-c05 | exact | en.wikipedia.org | One of their chiefs is named Kumbhira. | One of their chiefs is called Kumbhīra. |
 | kumbhanda-c06 | exact | www.accesstoinsight.org | In the Atanatiya Sutta Virulha rules the kumbhandas who sing and dance with him. | a great king named Virulha who has a retinue of attendants, and is the sovereign lord of Kumbhandas. Attended by the Kumbhandas he enjoys their song and dance. |
+| kumbhanda-c07 | exact | www.wisdomlib.org | A note in the Mahayana glossary on Wisdom Library says they are so called because their genitals (anda) are as large as pots (kumbha). | They are so called because their genitals (aṇḍa) are as large as pots (kumbha) (cf. Sumaṅgala III, p. 964). |
+| kumbhanda-c08 | exact | en.wikipedia.org | According to the Da zhidu lun, greedy officers are reborn as kumbhandas. | According to the Dà zhìdù lùn, greedy officers are reborn as kumbhāṇḍhas. |
+| kumbhanda-c09 | exact | www.accesstoinsight.org | The Atanatiya Sutta says the four great kings placed a guard over the four quarters with a large army of yakkhas, gandhabbas, kumbhandas and nagas. | having placed a guard over the four quarters, with a large army of Yakkhas, of Gandhabbas, of Kumbhandas, of Nagas; |
+| kumbhanda-c10 | exact | www.wisdomlib.org | The Dictionary of Pali Proper Names on Wisdom Library records the kumbhandas as a class of spirits mentioned with yakkhas, asuras and nagas, living in the south with Virulha as their king. | A class of spirits mentioned with Yakkhas, Asuras and Nagas. They live in the South and Virulha is their king (D.ii.257; D.iii.198). |
+| kumbhanda-c11 | exact | www.wisdomlib.org | According to the same dictionary, they had huge stomachs and genital organs as big as pots, hence their name. | They had huge stomachs, and their genital organs were as big as pots, hence their name. |
+| kumbhanda-c12 | exact | www.wisdomlib.org | The same dictionary mentions Kumbhira in the Vidhurapandita Jataka as one of their chiefs. | In the Vidhurapandita Jataka (J.vi.272), Kumbhira (q.v.) is mentioned as one of their chiefs. |
+| kumbhanda-c13 | exact | www.wisdomlib.org | A Wisdom Library glossary records the kumbhanda (कुम्भाण्ड) as a class of evil spirits who, as their name indicates, had testicles as big as pots, with Virudhaka, one of the four great kings, as their lord. | Kumbhāṇḍa (कुम्भाण्ड).—One of a class of evil spirits who, as their name would indicate, had “testicles” (aṇḍa) as big as “pots” (kumbha). Virūḍhaka, one of the four great kings, is their lord. |
+| kumbhanda-c14 | exact | www.wisdomlib.org | A note in the Mahayana glossary on Wisdom Library calls the kumbhandas a class of demons listed with yakshas, asuras and nagas, living in the south with a king named Virudha. | Kumbhāṇḍa refers to a class of demons listed along with the Yakṣas, Asuras and Nāgas. They live in the south and their king is Virūdha (Dīgha II, p. 257; III, p. 198). |
+| kumbhanda-c15 | exact | en.wikipedia.org | A Wikipedia image caption shows a male kumbhanda and a female Kumbhandaka. | A male kumbhāṇḍa (left) and female Kumbhāṇḍakā (right). |
 
 
 ## lai-khutshangbi — lulus-otomatis

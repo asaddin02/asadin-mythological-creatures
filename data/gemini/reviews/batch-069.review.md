@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-07T07:57:52.314Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md.
+Diperiksa 2026-10-07T09:26:54.771Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md, batch-069-fix-8.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -183,30 +183,42 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## wd-q10563786 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q10563786-c01 | exact | zh.wikipedia.org | Suanyu is a bird in the Shan Hai Jing with a snakelike appearance. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
-| wd-q10563786-c02 | exact | zh.wikipedia.org | The creature has four wings. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
-| wd-q10563786-c03 | exact | zh.wikipedia.org | It also has six eyes and three feet. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
-| wd-q10563786-c04 | exact | zh.wikipedia.org | Its cry is understood as calling its own name. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
-| wd-q10563786-c05 | exact | zh.wikipedia.org | Its appearance is regarded as an omen of fear in a locality. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
+| wd-q10563786-c01 | exact | zh.wikipedia.org | Suanyu is a bird in the Shan Hai Jing with a snakelike appearance. | 酸與，是《山海经》的鸟类，长得像蛇，却有四只翅膀、六只眼睛和三只脚。 |
+| wd-q10563786-c02 | exact | zh.wikipedia.org | The creature has four wings. | 《山海经·北次二经》有鸟焉，其状如蛇，而四翼、六目、三足，名曰酸与。 |
+| wd-q10563786-c03 | exact | zh.wikipedia.org | It also has six eyes and three feet. | 《山海经·北次二经》有鸟焉，其状如蛇，而四翼、六目、三足，名曰酸与。 |
+| wd-q10563786-c04 | exact | zh.wikipedia.org | Its cry is described as sounding like it is calling itself. | 叫声像是在叫自己，此鸟一旦出现，就会有恐怖的事。 象徵『災噩』。 |
+| wd-q10563786-c05 | exact | zh.wikipedia.org | Its appearance is regarded as an omen of fear in a locality. | 有鸟焉，其状如蛇，而四翼、六目、三足，名曰酸与。其鸣自叫，见则其邑有恐。 |
 | wd-q10563786-c06 | exact | zh.wikisource.org | The classical text places Suanyu on Mount Jing. | 又南三百里，曰景山，南望鹽販之澤，北望少澤。 ... 有鳥焉，其狀如蛇，而四翼、六目、三足，名曰酸與，其鳴自詨，見則其邑有恐。 |
+| wd-q10563786-c07 | exact | zh.wikisource.org | In the Gujin Tushu Jicheng a note headed “Guo says” records that some say eating it prevents drunkenness, and Renchen cites the Pianya as saying that Suanyu has three feet. | 其鳴「自詨」，見則其邑有恐。 郭曰：「或云食之不醉 。」任臣按《駢雅》曰：「酸與三足。」 |
+| wd-q10563786-c08 | exact | zh.wikisource.org | The Shiwu Ganzhu describes Suanyu as snake-like with four wings, six eyes and three feet, and Cheng Liangru says that Suanyu keeps people from getting drunk. | 《事物紺珠》云：「酸與如蛇，四翼，六目，三足。」程良孺曰：「善芳令人不寐，酸與令人不醉。」 |
+| wd-q10563786-c09 | exact | zh.wikisource.org | The Picture Eulogy (圖贊) quoted in the Gujin Tushu Jicheng describes the bird of Mount Jing as snake-shaped with three feet and four wings; its appearance makes the town (邑) fearful, and eating it prevents drunkenness. | 《圖贊》曰：「景山有鳥，稟形殊類。厥狀如蛇，腳三翼四。見則邑恐，食之不醉。」 |
+| wd-q10563786-c10 | exact | zh.wikisource.org | The Kangxi Dictionary lists 酸與 as the name of a bird and cites the Shan Hai Jing for the bird of Mount Jing that resembles a snake, with four heads (四首), six eyes and three feet. | 又鳥名。《山海經》景山有鳥焉，其狀如蛇而四首、六目、三足，名曰酸與。 |
 
 
 ## wd-q10927868 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 3, gambar 0.
+Klaim 11 (exact 10, loose 1), sumber 5, gambar 0.
+
+**warn**
+- `claims[10] (wd-q10927868-c11)` Panjang quote 27 karakter; aturannya 30–400.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q10927868-c01 | exact | zh-classical.wikipedia.org | Tulou, also called Lou, is a beast in Chinese mythology. | 土螻者，乃古譚之異獸焉，據《山海經》所載，其狀如羊而四角，是食人。居於西南四百里，曰昆侖之丘，是實惟帝之下都，神陸吾司之。 |
-| wd-q10927868-c02 | exact | zh.wikipedia.org | Its body resembles a sheep with four horns. | 最初出现于《山海經》中，文中提到昆仑山是天帝在下界的都邑，土蝼就生活在这里。它的形状像羊，却长着四只角，这种凶恶的野兽见人就吃。还有一种记载，把“蝼”字写作“褛”，说它的四只角非常尖锐，触到什么东西，那就难以活命。 |
-| wd-q10927868-c03 | exact | zh.wikipedia.org | Tulou is described as eating humans. | 最初出现于《山海經》中，文中提到昆仑山是天帝在下界的都邑，土蝼就生活在这里。它的形状像羊，却长着四只角，这种凶恶的野兽见人就吃。还有一种记载，把“蝼”字写作“褛”，说它的四只角非常尖锐，触到什么东西，那就难以活命。 |
-| wd-q10927868-c04 | exact | zh.wikipedia.org | The Shan Hai Jing places it on Kunlun, the heavenly ruler's dwelling in the lower world. | 最初出现于《山海經》中，文中提到昆仑山是天帝在下界的都邑，土蝼就生活在这里。它的形状像羊，却长着四只角，这种凶恶的野兽见人就吃。还有一种记载，把“蝼”字写作“褛”，说它的四只角非常尖锐，触到什么东西，那就难以活命。 |
-| wd-q10927868-c05 | exact | zh.wikipedia.org | Tulou is also mentioned in the Bamboo Annals commentary and Wei Gongqing Shang Zunhao Zou. | 此外在《竹書紀年註》与《魏公卿上尊號奏》也有记载。 参考 [编辑] |
+| wd-q10927868-c01 | exact | zh-classical.wikipedia.org | Tulou is a strange beast of ancient tales, recorded in the Shan Hai Jing. | 土螻者，乃古譚之異獸焉，據《山海經》所載，其狀如羊而四角，是食人。居於西南四百里，曰昆侖之丘，是實惟帝之下都，神陸吾司之。 |
+| wd-q10927868-c02 | exact | zh.wikipedia.org | Its body resembles a sheep with four horns. | 土蝼就生活在这里。它的形状像羊，却长着四只角，这种凶恶的野兽见人就吃。 |
+| wd-q10927868-c03 | exact | zh.wikipedia.org | Tulou is described as eating humans. | 是神也，司天之九部及帝之囿時。有獸焉，其狀如羊而四角，名曰土螻，是食人。 |
+| wd-q10927868-c04 | exact | zh.wikipedia.org | The Shan Hai Jing places it on Kunlun, the heavenly ruler's dwelling in the lower world. | 最初出现于《山海經》中，文中提到昆仑山是天帝在下界的都邑，土蝼就生活在这里。 |
+| wd-q10927868-c05 | loose | zh.wikipedia.org | Tulou is also mentioned in the Bamboo Annals commentary and Wei Gongqing Shang Zunhao Zou. | 那就难以活命。此外在《竹書紀年註》与《魏公卿上尊號奏》也有记载。 |
 | wd-q10927868-c06 | exact | zh.wikisource.org | In that Kunlun passage, Lu Wu is named as overseeing the heavenly ruler's dwelling. | 西南四百里，曰昆侖之丘，是實惟帝之下都 ... 神陸吾司之 ... 有獸焉，其狀如羊而四角，名曰土螻，是食人。 |
+| wd-q10927868-c07 | exact | zh.wikipedia.org | Another record writes the character lou (蝼) as 褛 and says its four horns are extremely sharp, so that whatever it touches can hardly survive. | 还有一种记载，把“蝼”字写作“褛”，说它的四只角非常尖锐，触到什么东西，那就难以活命。 |
+| wd-q10927868-c08 | exact | zh.wikisource.org | The Kangxi Dictionary lists 土螻 as the name of a beast and cites the Shan Hai Jing for the animal on the Kunlun hill that is shaped like a sheep with four horns and eats people. | 又土螻，獸名。《山海經》崑崙之丘有獸焉，其狀如羊而四角，名曰土螻，是食人。 |
+| wd-q10927868-c09 | exact | zh.wikisource.org | The Kangxi Dictionary adds that the Bamboo Annals commentary has “a great lou like a sheep”, and that the Wei Gongqing Shang Zunhao Zou says that when 有熊 rose, a great lou emerged from the earth. | 《竹書紀年註》有大螻如羊。《魏公卿上尊號奏》有熊之興，地出大螻。 |
+| wd-q10927868-c10 | exact | zh.wikisource.org | Under the entry for 𥝈, the Kangxi Dictionary quotes the Shuowen: in the time of 周成王 the state of 州靡 presented a 𥝈 with a human body and backward heels that laughs, its upper lip covering its eyes as it laughs, and eats people; in the north it is called 土螻. | 《說文》周成王時，州靡國獻𥝈，人身，反踵自笑，笑卽上脣揜其目，食人。北方謂之土螻。 |
+| wd-q10927868-c11 | exact | zh.wikipedia.org | Lou (蝼), also called Tulou (土蝼), is a beast of Chinese mythology. | 蝼 （ lóu ） ，又称土蝼，是一个中国神话的野兽。 |
 
 
 ## wd-q15925221 — lulus-otomatis
@@ -245,7 +257,7 @@ Klaim 10 (exact 9, loose 1), sumber 2, gambar 0.
 
 ## wd-q17060952 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -255,34 +267,53 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | wd-q17060952-c04 | exact | zh-classical.wikipedia.org | Longzhi is described as a human eater. | 蠪姪，乃古譚之異獸也，據《山海經》所載，其狀如狐，而九尾、九首、虎爪，其音如嬰兒，是食人，食之不眯，居於鳧麗之山。 |
 | wd-q17060952-c05 | exact | zh.wikisource.org | The eastern section of the Shan Hai Jing places Longzhi on Mount Fuli. | 又南五百里，曰鳧麗之山，其上多金玉，其下多箴石，有獸焉，其狀如狐，而九尾、九首、虎爪，名曰蠪姪，其音如嬰兒，是食人。 |
 | wd-q17060952-c06 | exact | zh.wikisource.org | Mount Fuli in that passage has abundant gold and jade above and Zhen stones below. | 又南五百里，曰鳧麗之山，其上多金玉，其下多箴石，有獸焉，其狀如狐，而九尾、九首、虎爪，名曰蠪姪，其音如嬰兒，是食人。 |
+| wd-q17060952-c07 | exact | zh.wikipedia.org | 蠪蛭 (lóng zhì) is described as a mythical fox-shaped creature with nine heads and nine tails, tiger-like claws and a baby-like cry, and it eats people. | 蠪 （ lóng ） 蛭，是神话中有九头九尾的狐形生物，爪子像老虎，叫声像婴儿，且会吃人。 |
+| wd-q17060952-c08 | exact | zh.wikipedia.org | A footnote cites the Zhongshan Jing for an animal named 蠪蚳 on Mount Kunwu (昆吾之山): shaped like a pig and horned, its cry like a howl, and eating it is said to guard against 眯; Hao Yixing suspects that 蚳 should read 蛭. | 《山海经·中山经》：“又西二百里，曰昆吾之山，其上多赤铜。有兽焉，其状如彘而有角，其音如号，名曰蠪蚳，食之不眯。”郝懿行笺疏：“蚳，疑当为蛭。” |
+| wd-q17060952-c09 | exact | zh.wikipedia.org | A footnote gives Guo Pu's gloss “龙蛭二音” and Yuan Ke's note that the scripture text reads 蠪侄 and the gloss 龙蛭, which Wang Niansun and Hao Yixing both emended to 蠪蛭 and 龙侄. | 郭璞注：“龙蛭二音。”袁珂校注：“经文蠪侄、注文龙蛭，王念孙、郝懿行并校作蠪蛭、龙侄。” |
+| wd-q17060952-c10 | exact | zh.wikisource.org | The Kangxi Dictionary writes the name as 蠪蛭, lists it as the name of a beast, and cites the Shan Hai Jing for the animal on Mount Fuli shaped like a fox with nine tails, nine heads and tiger claws, with a cry like a baby's, that eats people. | 又蠪蛭，獸名。《山海經》鳧麗之山有獸焉，其狀如狐而九尾、九首，虎爪，名曰蠪蛭。其音如嬰兒，是食人。 |
+| wd-q17060952-c11 | exact | zh.wikisource.org | Renchen's note in the Gujin Tushu Jicheng quotes the Pianya: 灌灌 is a nine-tailed fox and 蠪姪 a nine-headed fox, and both eat people. | 任臣按：《駢雅》云：「灌灌，九尾狐也，蠪姪，九首狐也，皆食人。」 |
+| wd-q17060952-c12 | exact | zh.wikisource.org | The note says the name is also written 蠪蛭 and quotes the Tangyun describing 蠪蛭 as like a fox with nine tails and tiger claws, with a call like a small child's, and eating people. | 或作「蠪蛭。」《唐韻》云：「蠪蛭如狐，九尾虎爪，呼如小兒，食人 |
+| wd-q17060952-c13 | exact | zh.wikisource.org | Under the entry for 蠪蚳, Renchen cites the Wuhouzhen saying that 蠪蚳 resembles a nine-tailed fox whose sighting brings a good harvest year, and the Shiwu Ganzhu saying that it is a fox-like beast with nine heads and nine tails whose sighting brings ten years of plenty; he judges it a mistake to merge 蠪蚳 with 蠪姪 as one creature, and notes that the Pianya calls 蠪蚳 a horned pig. | 任臣按：《五侯鯖》云：「蠪蚳似九尾狐，見而年豐。」 《事物紺珠》云：「蠪蚳獸，似狐，九首九尾，見則豐稔十年。」 是合蠪姪為一物也，誤矣。《駢雅》曰：「蠪蚳，角彘也。」 |
 
 
 ## wd-q22099589 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 11 (exact 10, loose 1), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q22099589-c01 | exact | zh.wikipedia.org | Jiliang is a fabulous horse in Chinese legend. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。別名「雞斯之乘」。也叫吉良，记载于《海内北经》。 |
-| wd-q22099589-c02 | exact | zh.wikipedia.org | Its body is white or patterned white, with golden eyes. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。別名「雞斯之乘」。也叫吉良，记载于《海内北经》。手游《山海镜花》中的镜灵也有吉良。 |
-| wd-q22099589-c03 | exact | zh.wikipedia.org | Its mane is described as red. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。別名「雞斯之乘」。也叫吉良，记载于《海内北经》。手游《山海镜花》中的镜灵也有吉良。 |
+| wd-q22099589-c01 | exact | zh.wikipedia.org | Jiliang is a fabulous horse in Chinese legend. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。 |
+| wd-q22099589-c02 | exact | zh.wikipedia.org | Its body is white or patterned white, with golden eyes. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。 |
+| wd-q22099589-c03 | exact | zh.wikipedia.org | Its mane is described as red. | 吉量是中国传说的奇馬，外型為純白或帶有斑紋的白馬,雙眼金黃,鬃毛赤紅,頸部似雞尾。 |
 | wd-q22099589-c04 | exact | zh.wikipedia.org | The Shan Hai Jing places this horse in its description of the land of Quanfeng. | 《山海经·海内北经》：“（犬封国）有文马，缟身朱鬣，目若黄金，名曰吉量，乘之寿千岁。” |
 | wd-q22099589-c05 | exact | zh.wikipedia.org | In that text, riding Jiliang is said to grant a lifespan of a thousand years. | 《山海经·海内北经》：“（犬封国）有文马，缟身朱鬣，目若黄金，名曰吉量，乘之寿千岁。” |
 | wd-q22099589-c06 | exact | zh.wikisource.org | In the classical text, Jiliang has a white body, red mane, and eyes like gold. | 犬封國曰犬戎國，狀如犬。有一女子，方跪進柸食。有文馬，縞身朱鬛，目若黃金，名曰吉量，乘之壽千歲。 |
+| wd-q22099589-c07 | exact | zh.wikipedia.org | Its neck resembles a chicken's tail; it has the alternative name 「雞斯之乘」 and is also called 吉良, recorded in the Haineibei Jing. | 頸部似雞尾。別名「雞斯之乘」。也叫吉良，记载于《海内北经》。 |
+| wd-q22099589-c08 | exact | zh.wikisource.org | The Huainanzi, quoted in the Gujin Tushu Jicheng, says that when 紂 (Zhou) held 文王 (Wen) at 羑里 (Youli), 散宜生 (San Yisheng) sought rare treasures for a thousand gold, obtained a 雞斯之乘 and presented it to Zhou; Zhou was pleased and let Wen go free. A note glosses 雞斯 as a divine horse. | 《淮南子道應訓》：「紂拘文王于羑里，于是散宜生乃以 千金求天下之珍怪，得雞斯之乘，以獻于紂。紂見而 說之，乃免其身。」〈注〉《雞斯》，神馬也。 |
+| wd-q22099589-c09 | loose | zh.wikisource.org | The Wang Hui Jie chapter of the Jizhong Zhoushu, quoted in the Gujin Tushu Jicheng, records a patterned horse of the Quanrong (犬戎) with a red mane and a silk-white body and eyes like gold, named 古黃之乘. | 《汲冢周書王會解》：「犬戎文馬，而赤鬣縞身，目若黃金，名古黃之乘。」 |
+| wd-q22099589-c10 | exact | zh.wikisource.org | The Shuowen defines 馼 as a horse with a red mane and a silk-white body and eyes like gold, named 𩢌 or 吉皇之乘, presented by the Quanrong (犬戎) in the time of 周文王 (King Wen of Zhou). | 馼：馬赤鬣縞身，目若黃金，名曰𩢌。吉皇之乘，周文王時，犬戎獻之。 |
+| wd-q22099589-c11 | exact | zh.wikisource.org | The Taiping Yulan quotes that the country of the Quanrong (犬戎) has a patterned horse with a white body and red mane and eyes like gold, with notes that 縞 means plain and that the Dazhuan writes 駁身朱鬣 (dappled body, red mane). | 犬戎之國有文馬，縞身朱鬣，〈縞猶素也。《大傳》云：駁身朱鬣。〉目若黃金 |
 
 
 ## wd-q22099946 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 12, loose 1), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | wd-q22099946-c01 | exact | zh-classical.wikipedia.org | Xixi is a fabulous fish whose form resembles a magpie. | 鰼鰼，乃古譚之異獸也，據《山海經》所載：「涿光之山，嚻水出焉，而西流注於河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，可以御火。」 |
 | wd-q22099946-c02 | exact | zh-classical.wikipedia.org | Its scales lie at the ends of its feathers. | 鰼鰼，乃古譚之異獸也，據《山海經》所載：「涿光之山，嚻水出焉，而西流注於河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，可以御火。」 |
-| wd-q22099946-c03 | exact | zh.wikisource.org | The classical text describes Xixi as having ten wings. | 又北三百五十里，曰涿光之山。嚻水出焉，而西流注于河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。其上多松柏，其下多椶枏，其獸多麢羊，其鳥多蕃。 |
-| wd-q22099946-c04 | exact | zh.wikisource.org | The classical text places this fish in the Xiao water arising from Mount Zhuoguang. | 又北三百五十里，曰涿光之山。嚻水出焉，而西流注于河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。其上多松柏，其下多椶枏，其獸多麢羊，其鳥多蕃。 |
-| wd-q22099946-c05 | exact | zh.wikisource.org | Its cry resembles a magpie in the classical description. | 又北三百五十里，曰涿光之山。嚻水出焉，而西流注于河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。其上多松柏，其下多椶枏，其獸多麢羊，其鳥多蕃。 |
-| wd-q22099946-c06 | exact | zh.wikisource.org | Within the narrative, Xixi is associated with warding off fire. | 又北三百五十里，曰涿光之山。嚻水出焉，而西流注于河。其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。其上多松柏，其下多椶枏，其獸多麢羊，其鳥多蕃。 |
+| wd-q22099946-c03 | exact | zh.wikisource.org | The classical text describes Xixi as having ten wings. | 其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。 |
+| wd-q22099946-c04 | exact | zh.wikisource.org | The classical text places this fish in the Xiao water arising from Mount Zhuoguang. | 又北三百五十里，曰涿光之山。嚻水出焉，而西流注于河。其中多鰼鰼之魚， |
+| wd-q22099946-c05 | exact | zh.wikisource.org | Its cry resembles a magpie in the classical description. | 其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。 |
+| wd-q22099946-c06 | exact | zh.wikisource.org | Within the narrative, Xixi is associated with warding off fire. | 其中多鰼鰼之魚，其狀如鵲而十翼，鱗皆在羽端，其音如鵲，可以禦火，食之不癉。 |
+| wd-q22099946-c07 | exact | zh.wikipedia.org | Wikipedia describes 鰼 as a strange fish of Chinese myth shaped like a magpie but with ten pairs of wings, with scales at the ends of its feathers, able to guard against fire. | 鰼是中国神话里的一种异鱼，形状像鹊但十对翅膀，鳞片在羽毛末端，可以防火。 |
+| wd-q22099946-c08 | exact | zh.wikisource.org | The Kangxi Dictionary cites the Shan Hai Jing: in the Xiao water (囂水) flowing west into the river (河) there are many 鰼鰼 fish shaped like a magpie with ten wings, scales at the ends of the feathers, a cry like a magpie, able to ward off fire. | 又《山海經》囂水西流注于河，其中多鰼鰼之魚，其狀如鵲而十翼，鱗在羽端。其音如鵲，可以禦火。 |
+| wd-q22099946-c09 | loose | zh.wikisource.org | A note in the Gujin Tushu Jicheng quotes the Shenyijing that the 鰼鰼 fish is like a magpie with ten wings and can ward off fire, and the Shuyiji that the Xiao water (囂水) below Mount Zhuoguang (涿光山) holds many 鰼鰼 fish. | 《神異經》云：「鰼鰼之魚，如鵲而十翼，可以禦火。」《述異記》云：「涿光山下囂水，多鰼鰼之魚。」 |
+| wd-q22099946-c10 | exact | zh.wikisource.org | The Shiyi Tuzan (十翼圖贊) eulogy in the Gujin Tushu Jicheng pictures ten wings beating, a cry like a magpie and scales at the feather tips; the fish is called a strange fish, and eating it wards off 燔 (burning). | 《十翼圖贊》曰：「鼓翮一揮，十翼翩翻。」 厥鳴如鵲，鱗在羽端。是謂怪魚，食之辟燔。 |
+| wd-q22099946-c11 | exact | zh.wikisource.org | The Luoshu Lingzhunting (洛書靈准聽), quoted in the Gujin Tushu Jicheng, says the 鰼鰼 fish is shaped like a magpie, eating it prevents 癉, and it comes from Mount Zhuoguang (涿光之山). | 《洛書靈准聽》云：「鰼鰼魚，狀如鵲，食之不癉，出涿光之山。」 |
+| wd-q22099946-c12 | exact | zh.wikisource.org | Wang (王氏) says in the Shiyi that the 鰼 fish wards off fire, presumably because it has mostly water qi, and qi restrain one another. | 王氏《釋義》曰：「鰼魚禦火。意其得水氣居多，氣有相制故也。」 |
+| wd-q22099946-c13 | exact | zh.wikisource.org | The Taiping Yulan quotes the Jing Tuzan (經圖贊) on ten wings beating, a cry like a magpie and scales at the feather tips, and the Luoshu (雒書) that the 鰼鰼 fish is shaped like a magpie, eating it prevents 瘴, and it comes from Mount Zhuoguang (涿光山). | 又《經圖贊》曰：鼓翮一運，十翼翩翻，厥鳴如鵲，鱗在羽端。 《雒書》曰：鰼鰼魚，狀如鵲，食之不瘴，出涿光山。 |
 
 
 ## wd-q22100555 — lulus-otomatis

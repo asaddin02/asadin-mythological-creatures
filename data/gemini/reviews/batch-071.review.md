@@ -1,6 +1,6 @@
 # Review batch-071
 
-Diperiksa 2026-10-01T17:34:34.212Z. Berkas: batch-071.md, batch-071-fix-1.md.
+Diperiksa 2026-10-07T09:26:00.774Z. Berkas: batch-071.md, batch-071-fix-1.md, batch-071-fix-2.md.
 
 ## wd-q15890299 — skip
 
@@ -46,16 +46,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## wd-q15893916 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q15893916-c01 | exact | zh.wikipedia.org | Fei is a calamity bringing animal in the Shan Hai Jing with an ox's body and a snake's tail. | 蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。 |
-| wd-q15893916-c02 | exact | zh.wikipedia.org | Its head is white and it has only one eye. | 蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。 |
-| wd-q15893916-c03 | exact | zh.wikipedia.org | Its passage is said to dry up water and kill vegetation. | 蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。 |
-| wd-q15893916-c04 | exact | zh.wikisource.org | The classical text places Fei on Mount Tai. | 又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。 |
-| wd-q15893916-c05 | exact | zh.wikisource.org | Fei's appearance is treated as an omen of a great epidemic. | 又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。 |
-| wd-q15893916-c06 | exact | zh.wikisource.org | Mount Tai in that narrative contains gold, jade, and zhen trees. | 又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。 |
+| wd-q15893916-c01 | exact | zh.wikipedia.org | Fei is a calamity bringing animal in the Shan Hai Jing with an ox's body and a snake's tail. | 蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。 |
+| wd-q15893916-c02 | exact | zh.wikipedia.org | Its head is white and it has only one eye. | 太山上多金玉桢木。有兽焉，其状如牛而白首，一目而蛇尾，其名曰蜚。 |
+| wd-q15893916-c03 | exact | zh.wikipedia.org | Its passage is said to dry up water and kill vegetation. | 蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。 |
+| wd-q15893916-c04 | exact | zh.wikisource.org | The classical text places Fei on Mount Tai. | 又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。 |
+| wd-q15893916-c05 | exact | zh.wikisource.org | Fei's appearance is treated as an omen of a great epidemic. | 有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。 |
+| wd-q15893916-c06 | exact | zh.wikisource.org | Mount Tai in that narrative contains gold, jade, and zhen trees. | 又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首 |
+| wd-q15893916-c07 | exact | zh.wikisource.org | The Kangxi Dictionary also lists 蜚 as the name of a beast: according to the Shan Hai Jing, on Mount Tai there is a beast like an ox, with a white head, one eye and a snake's tail, named Fei; what it passes through dries up, and its appearance brings a great epidemic under heaven. | 又獸名。《山海經》太山有獸，狀如牛，白首，一目，蛇尾，名曰蜚。所經枯竭，甚于鴆厲，見則天下大疫。 |
+| wd-q15893916-c08 | exact | zh.wikisource.org | A eulogy for Fei in the Quan Jin Wen collection calls it a calamity beast (灾兽); where it passes, water is exhausted and the woods wither. | 蜚则灾兽，跂踵厉深。会所经涉，竭水槁林。禀气自然，体此殃淫。 |
+| wd-q15893916-c09 | exact | zh.wikisource.org | The Gujin Tushu Jicheng quotes a comment introduced by 郭曰 (Guo said) that this means Fei's body holds calamitous qi (災氣), followed by a verse saying that Fei seems harmless by name, yet what it passes through dries up and all creatures fear it. | 郭曰：「言其體含災氣也。」其銘曰：「蜚之為名，體似無害，所經枯竭，甚於鴆厲，萬物斯懼，思爾遐逝 |
 
 
 ## wd-q15895052 — skip
@@ -182,16 +185,23 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## wd-q17041429 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q17041429-c01 | exact | zh.wikipedia.org | Feiyi is a mythical serpent recorded in the western and northern sections of the Shan Hai Jing. | 肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。亦有聲韻學專家認為「肥遺」跟「巴蛇」其實是同一種妖蛇。 |
-| wd-q17041429-c02 | exact | zh.wikipedia.org | The northern version gives it one head and two bodies. | 《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。 |
-| wd-q17041429-c03 | exact | zh.wikipedia.org | The western version gives it six feet and four wings. | 《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。 |
-| wd-q17041429-c04 | exact | zh.wikipedia.org | Both versions associate its appearance with great drought. | 《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。 |
+| wd-q17041429-c01 | exact | zh.wikipedia.org | Feiyi is a mythical serpent recorded in the western and northern sections of the Shan Hai Jing. | 肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。 |
+| wd-q17041429-c02 | exact | zh.wikipedia.org | The northern version gives it one head and two bodies. | 有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。 |
+| wd-q17041429-c03 | exact | zh.wikipedia.org | The western version gives it six feet and four wings. | 有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。 |
+| wd-q17041429-c04 | exact | zh.wikipedia.org | Both versions associate its appearance with great drought. | 然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。 |
 | wd-q17041429-c05 | exact | zh.wikisource.org | The northern version places Feiyi on Mount Hunxi. | 又北百八十里，曰渾夕之山，無草木，多銅玉。嚻水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。 |
-| wd-q17041429-c06 | exact | zh.wikisource.org | Mount Hunxi in the text has copper and jade but no vegetation. | 又北百八十里，曰渾夕之山，無草木，多銅玉。嚻水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。 |
+| wd-q17041429-c06 | exact | zh.wikisource.org | Mount Hunxi in the text has copper and jade but no vegetation. | 又北百八十里，曰渾夕之山，無草木，多銅玉。嚻水出焉，而西北流注于海。 |
+| wd-q17041429-c07 | exact | zh.wikipedia.org | Wikipedia notes that some historical-phonology (聲韻學) specialists consider 肥遺 and 巴蛇 (Bashe) to be in fact the same kind of serpent monster (妖蛇). | 肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。亦有聲韻學專家認為「肥遺」跟「巴蛇」其實是同一種妖蛇。 |
+| wd-q17041429-c08 | exact | zh.wikipedia.org | Wikipedia states that among the mythical animals that form the most common decorative motif on Shang-period (商代) bronzes, one representative example is Feiyi. | 商代青銅器上最常見的花紋母題，是神話動物，其中具有代表性的一種就是肥遺。 |
+| wd-q17041429-c09 | exact | zh.wikisource.org | The western section of the Shan Hai Jing on Wikisource writes the name as 肥𧔥 and records a serpent with six feet and four wings whose appearance brings great drought under heaven; an annotation says this serpent appeared below Mount Yang in the time of Tang (湯) and that there is also another 肥遺 serpent, perhaps of the same name. | 鳥獸莫居。有蛇焉，名曰肥𧔥，六足四翼，見則天下大旱〈湯時此蛇見於陽山下。復有肥遺蛇，疑是同名〉。 |
+| wd-q17041429-c10 | exact | zh.wikisource.org | The Taiping Yulan quotes the Shan Hai Jing: on Mount Taihua (泰華山) there is a serpent named Feiyi, with six feet and four wings, whose appearance brings great drought under heaven. | 《山海經》曰：泰華山有虵，名曰肥遺，六足四翼，見則天下大旱。 |
+| wd-q17041429-c11 | exact | zh.wikisource.org | The Shu Taowu (蜀檮杌) records that 幸寅遜 of the Later Shu (後蜀), compiling 《王氏開國紀》, took Feiyi to be a 旱魃 (hanba); 唐英 (Tang Ying) adds a note that Feiyi is the name of a serpent with fire on its horn, that its appearance brings great drought, that it is not a 魃, and that this comes from the 《山海經外傳》; this serpent is also found on Mount Hua (華山). | 後蜀幸寅遜修《王氏開國紀》，以肥遺為旱魃。唐英按：肥遺，蛇名，角上有火，見則大旱，非魃也，出《山海經外傳》。華山亦有此蛇。 |
+| wd-q17041429-c12 | exact | zh.wikisource.org | The Shu Taowu records that after no rain from the fifth month to the ninth, with trees withering, bare ground stretching a thousand li, and bandits rising everywhere, Feiyi appeared at the Red Tower (紅樓). | 自五月不雨，至九月，林木皆枯，赤地千里，所在盜起，肥遺見紅樓。 |
+| wd-q17041429-c13 | exact | zh.wikisource.org | A eulogy for the Feiyi serpent in the Quan Jin Wen collection calls it a creature in accord with calamity, beating its wings on Mount Yang as a sign of severe calamity (亢厉), and after the prayer at Sanglin (桑林) it suddenly vanished. | 肥遗为物，与灾合契。鼓翼阳山，以表亢厉。桑林既祷，倏忽潜逝。 |
 
 
 ## wd-q17060549 — lulus-otomatis
@@ -345,16 +355,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 ## wd-q22099914 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q22099914-c01 | exact | zh.wikipedia.org | Zhujian is a Chinese creature with a leopardlike body and a long tail. | 诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。” |
-| wd-q22099914-c02 | exact | zh.wikipedia.org | Its head resembles a human's, its ears a cow's, and it has one eye. | 诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。” |
-| wd-q22099914-c03 | exact | zh.wikisource.org | The Shan Hai Jing places Zhujian on vegetationless Mount Danzhang. | 又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。 |
-| wd-q22099914-c04 | exact | zh.wikisource.org | The creature is described as frequently crying out loudly. | 又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。 |
-| wd-q22099914-c05 | exact | zh.wikisource.org | When walking it carries its tail in its mouth. | 又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。 |
-| wd-q22099914-c06 | exact | zh.wikisource.org | At rest it coils its tail. | 又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。 |
+| wd-q22099914-c01 | exact | zh.wikipedia.org | Zhujian is a Chinese creature with a leopardlike body and a long tail. | 诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。 |
+| wd-q22099914-c02 | exact | zh.wikipedia.org | Its head resembles a human's, its ears a cow's, and it has one eye. | 记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。” |
+| wd-q22099914-c03 | exact | zh.wikisource.org | The Shan Hai Jing places Zhujian on vegetationless Mount Danzhang. | 又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍 |
+| wd-q22099914-c04 | exact | zh.wikisource.org | The creature is described as frequently crying out loudly. | 其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。 |
+| wd-q22099914-c05 | exact | zh.wikisource.org | When walking it carries its tail in its mouth. | 其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。 |
+| wd-q22099914-c06 | exact | zh.wikisource.org | At rest it coils its tail. | 其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。 |
+| wd-q22099914-c07 | exact | zh.wikisource.org | The Kangxi Dictionary cites the Yupian (《玉篇》) that 犍 is a beast resembling a leopard, with a human head and one eye, then cites the Shan Hai Jing: on Mount Danzhang (單張之山) there is a beast shaped like a leopard with a long tail, a human head with ox ears and one eye, named Zhujian. | 又《玉篇》獸似豹。人首，一目。《山海經》單張之山有獸，狀如豹而長尾，人首而牛耳，一目，名曰諸犍。 |
+| wd-q22099914-c08 | exact | zh.wikisource.org | The Kangxi Dictionary quotes the continuation of the same passage (written 善叱): when walking the beast holds its tail in its mouth and at rest it coils its tail; it also records a note by Guo Pu (郭璞) that the name is read like 犍 in 犍牛. | 名曰諸犍。善叱行則銜其尾，居則蟠其尾。《註》郭璞曰：音如犍牛之犍。 |
+| wd-q22099914-c09 | exact | zh.wikisource.org | A eulogy in the Quan Jin Wen collection repeats that Zhujian is apt to shout (善吒) and holds its tail in its mouth when walking. | 诸犍善吒，行则衔尾，白鵺竦斯，厥状如雉。见人则跳，头文如绣。 |
 
 
 ## wd-q22100560 — lulus-otomatis
@@ -404,16 +417,22 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## wd-q22101018 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 12 (exact 12), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q22101018-c01 | exact | zh.wikipedia.org | Wenyaoyu is a mythical fish with a carplike body and bird wings. | 文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀，身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》 |
-| wd-q22101018-c02 | exact | zh.wikipedia.org | Its body has blue patterns, its head is white, and its mouth is red. | 文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀，身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》 |
-| wd-q22101018-c03 | exact | zh.wikisource.org | Mount Taiqi and the Guan water are the location of Wenyaoyu in the text. | 又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。 |
-| wd-q22101018-c04 | exact | zh.wikisource.org | The fish is described as travelling from the Western Sea to the Eastern Sea. | 又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。 |
-| wd-q22101018-c05 | exact | zh.wikisource.org | It is said to fly at night. | 又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。 |
-| wd-q22101018-c06 | exact | zh.wikisource.org | Its appearance is an omen of abundant harvests in the narrative. | 又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。 |
+| wd-q22101018-c01 | exact | zh.wikipedia.org | Wenyaoyu is a mythical fish with a carplike body and bird wings. | 文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀， |
+| wd-q22101018-c02 | exact | zh.wikipedia.org | Its body has blue patterns, its head is white, and its mouth is red. | 身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》 |
+| wd-q22101018-c03 | exact | zh.wikisource.org | Mount Taiqi and the Guan water are the location of Wenyaoyu in the text. | 又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚 |
+| wd-q22101018-c04 | exact | zh.wikisource.org | The fish is described as travelling from the Western Sea to the Eastern Sea. | 狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。 |
+| wd-q22101018-c05 | exact | zh.wikisource.org | It is said to fly at night. | 狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。 |
+| wd-q22101018-c06 | exact | zh.wikisource.org | Its appearance is an omen of abundant harvests in the narrative. | 食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。 |
+| wd-q22101018-c07 | exact | zh.wikisource.org | According to the text, its voice is like that of the luanji (鸞雞, a bird name), its taste is sour-sweet, and eating it cures madness (狂). | 其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂 |
+| wd-q22101018-c08 | exact | zh.wikisource.org | The Lüshi Chunqiu, in its list of fine fish (魚之美者), records a fish named Yao (鰩) in the Guan water (雚水), shaped like a carp and winged, which often flies at night from the Western Sea to swim in the Eastern Sea. | 魚之美者：洞庭之鱄，東海之鮞。 ... 雚水之魚，名曰鰩，其狀若鯉而有翼，常從西海夜飛，游於東海。 |
+| wd-q22101018-c09 | exact | zh.wikisource.org | The Taiping Yulan, citing the Lüshi Chunqiu, lists a winged, carp-shaped fish named Yao (鰩) in the Guan water (灌水), and quotes Zuo Si's Wu Du Fu (左思《吳都賦》): the wenyao flies at night and strikes the line (文鰩夜飛而觸綸). | 《呂氏春秋》曰：灌水之魚名曰鰩，狀如鯉，有翼。 ... 左思《吳都賦》曰：文鰩夜飛而觸綸。 |
+| wd-q22101018-c10 | exact | zh.wikisource.org | A eulogy for the yao fish (鳐鱼) in the Quan Jin Wen collection says its appearance brings abundant harvests to the town (邑穰), that it ranges between two seas with raised wings in the sky, and that its extraordinary flavour is admired by the cook. | 见则邑穰，厥名曰鳐。经营二海，矫翼闲霄。唯味之奇，见叹伊庖。 |
+| wd-q22101018-c11 | exact | zh.wikisource.org | The Kangxi Dictionary, citing the Bencao, records that 文鰩 comes from Hainan (海南), the large ones about a chi long, with wings as long as the tail, also called flying fish (飛魚); when they fly in flocks over the water, the sea people link it with a great wind coming (當有大風). | 《本草》文鰩出海南，大者長尺許，有翅，與尾齊，一名飛魚。羣飛水上，海人𠋫之，當有大風。 |
+| wd-q22101018-c12 | exact | zh.wikipedia.org | Wikipedia states that the Lüshi Chunqiu describes the flesh of this fish as delicious, sour mixed with sweet, and that the Bencao Shiyi records that it can be used as medicine, replenishing qi and blood and treating madness (疯癫). | 《吕氏春秋》另描写此鱼肉鲜美，酸中带甜。《本草拾遗》记载，此鱼能入药，有补气血、治疯癫病的作用。 |
 
 
 ## wd-q22101025 — lulus-otomatis
@@ -491,16 +510,20 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## wd-q9428574 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q9428574-c01 | exact | zh.wikipedia.org | Ranyiyu is a mythical fish with a fish's body, a snake's head, and six feet. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
-| wd-q9428574-c02 | exact | zh.wikipedia.org | The narrative places it in the Wan water at Mount Yingdi. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
-| wd-q9428574-c03 | exact | zh.wikipedia.org | The mountain is described as full of lacquer trees with metals and jade below. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
-| wd-q9428574-c04 | exact | zh.wikipedia.org | The birds and animals on the mountain are described as all white. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
-| wd-q9428574-c05 | exact | zh.wikipedia.org | The Wan water flows north into Lingyang marsh. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
-| wd-q9428574-c06 | exact | zh.wikisource.org | The text describes Ranyiyu's eyes as resembling horse ears. | 又西三百五十里，曰英鞮之山，上多漆木，下多金玉，鳥獸盡白。涴〈涴或作𣹠音寃枉之寃〉水出焉，而北流注于陵羊之澤。是多冉遺之魚，魚身蛇首六足，其目如馬耳，食之使人不眯，可以禦凶。 |
+| wd-q9428574-c01 | exact | zh.wikipedia.org | Ranyiyu is a mythical fish with a fish's body, a snake's head, and six feet. | 涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。 |
+| wd-q9428574-c02 | exact | zh.wikipedia.org | The narrative places it in the Wan water at Mount Yingdi. | 冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。 |
+| wd-q9428574-c03 | exact | zh.wikipedia.org | The mountain is described as full of lacquer trees with metals and jade below. | 《山海经·西山经》：“英鞮之山，上多漆木，下多金玉，鸟兽尽白。 |
+| wd-q9428574-c04 | exact | zh.wikipedia.org | The birds and animals on the mountain are described as all white. | 《山海经·西山经》：“英鞮之山，上多漆木，下多金玉，鸟兽尽白。 |
+| wd-q9428574-c05 | exact | zh.wikipedia.org | The Wan water flows north into Lingyang marsh. | 涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。 |
+| wd-q9428574-c06 | exact | zh.wikisource.org | The text describes Ranyiyu's eyes as resembling horse ears. | 涴〈涴或作𣹠音寃枉之寃〉水出焉，而北流注于陵羊之澤。是多冉遺之魚，魚身蛇首六足，其目如馬耳 |
+| wd-q9428574-c07 | exact | zh.wikipedia.org | According to Wikipedia, a person who eats this fish does not suffer nightmares (夢魘), and the fish can ward off misfortune (禁凶). | 吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》 |
+| wd-q9428574-c08 | exact | zh.wikisource.org | The Taiping Yulan quotes the Shan Hai Jing on Mount Yingdi (英鞮之山) with the fish's name written 無遺之魚 (the Wuyi fish): a fish's body, a snake's head, six feet, and eyes like horse ears. | 《山海經》曰：英鞮之山，𣹠水出焉。是多無遺之魚，魚身虵首，六足，目如馬耳。 |
+| wd-q9428574-c09 | exact | zh.wikisource.org | The Gujin Tushu Jicheng quotes 游氏《臆見》 (Youshi's Yijian), which lists Ranyi with six feet among strange fish, together with 建同 (four feet), 章舉 (eight feet), 鰼鰼 (ten wings) and 何羅 (one head, ten bodies). | 游氏《臆見》云：「冉遺六足，建同四足，章舉八足，鰼鰼十翼，何羅一首十身，皆異魚也。」 |
+| wd-q9428574-c10 | exact | zh.wikisource.org | The text says that eating the fish keeps a person from 眯 (mi) and can ward off misfortune (禦凶). | 是多冉遺之魚，魚身蛇首六足，其目如馬耳，食之使人不眯，可以禦凶。 |
 
 
 ## wd-q9433134 — lulus-otomatis

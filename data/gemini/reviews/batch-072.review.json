@@ -1,11 +1,13 @@
 {
   "batch_id": "batch-072",
-  "checked_at": "2026-10-06T14:25:45.978Z",
+  "checked_at": "2026-10-07T09:32:47.374Z",
   "files": [
     "batch-072.md",
     "batch-072-fix-1.md",
     "batch-072-fix-2.md",
-    "batch-072-fix-3.md"
+    "batch-072-fix-3.md",
+    "batch-072-fix-4.md",
+    "batch-072-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -179,11 +181,12 @@
     },
     {
       "slug": "varuna",
-      "file": "batch-072-fix-2.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "0b729515f05fb3d63338cfc8a71fe03d7710126153cb92f691ee4fc698d4c0c6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 33,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -244,7 +247,7 @@
           "host": "en.wikipedia.org",
           "statement": "His depictions include a youthful figure riding the creature Makara.",
           "statement_id": "Penggambarannya mencakup sosok muda yang menunggang makhluk Makara.",
-          "quote": "He is depicted as a youthful man, mounted on Makara (crocodile-like creature) and holding a Pasha (noose, rope loop) and a pitcher in his hands.",
+          "quote": "He is depicted as a youthful man, mounted on Makara (crocodile-like creature)",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -252,9 +255,9 @@
           "id": "varuna-c07",
           "source_id": "varuna-s1",
           "host": "en.wikipedia.org",
-          "statement": "He carries a pasha noose and pitcher.",
-          "statement_id": "Ia membawa jerat pasha dan kendi.",
-          "quote": "He is depicted as a youthful man, mounted on Makara (crocodile-like creature) and holding a Pasha (noose, rope loop) and a pitcher in his hands.",
+          "statement": "In depictions he holds a pasha (noose) and a pitcher.",
+          "statement_id": "Dalam penggambarannya ia memegang pasha (jerat) dan sebuah kendi.",
+          "quote": "and holding a Pasha (noose, rope loop) and a pitcher in his hands.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -337,18 +340,198 @@
           "quote": "Physical description\n\t\tFigure of Varuna, red sandstone. Standing in columned arch, flanked by guardians and leogryphs.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "varuna-c16",
+          "source_id": "varuna-s2",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica calls Varuna, together with Indra, the greatest of the gods of the Rig Veda, and says he is invoked with Mitra in some dozen hymns.",
+          "statement_id": "Britannica 1911 menyebut Varuna, bersama Indra, sebagai dewa terbesar dalam Rigveda, dan ia dipanggil bersama Mitra dalam sekitar selusin himne.",
+          "quote": "VARUNA, in early Hindu mythology, the greatest, with Indra, of the gods of the Rig Veda. He is invoked with his double Mitra in some dozen hymns.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c17",
+          "source_id": "varuna-s2",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica says Varuna's power is limitless, his anger at wrongdoing unassuageable, and that he is omniscient; he makes the sunshine, the wind is his breath, and river valleys are hollowed out at his command.",
+          "statement_id": "Menurut Britannica 1911, kekuasaan Varuna tak terbatas, murkanya pada kejahatan tak dapat diredakan, dan ia mahatahu; ia membuat sinar matahari, angin adalah napasnya, dan lembah sungai digali atas perintahnya.",
+          "quote": "His power is limitless, his anger at wrong-doing unassuageable, and he is omniscient. He makes the sunshine; the wind is his breath; river valleys are hollowed out at his command.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c18",
+          "source_id": "varuna-s2",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica notes that, unlike Indra, no myths are related of Varuna; in the later Vedic period he is connected with the nocturnal heavens, and in post-Vedic mythology he becomes the Hindu Neptune.",
+          "statement_id": "Britannica 1911 mencatat bahwa, berbeda dari Indra, tidak ada mitos yang dikisahkan tentang Varuna; pada masa Weda akhir ia dikaitkan dengan langit malam, dan dalam mitologi pasca-Weda ia menjadi Neptunus Hindu.",
+          "quote": "Unlike Indra, Varuna has no myths related of him. In the later Vedic period he is specially connected with the nocturnal heavens. Ultimately in post-Vedic mythology he becomes the Hindu Neptune.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c19",
+          "source_id": "varuna-s2",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica refers the name to a root var, \"to cover,\" so that Varuna means \"the Encompasser.\"",
+          "statement_id": "Britannica 1911 mengaitkan nama Varuna dengan akar kata var yang berarti menutupi, sehingga Varuna berarti Sang Peliput (the Encompasser).",
+          "quote": "and ultimately referable to a root var, \"to cover,\" Varuna thus meaning \"the Encompasser.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c20",
+          "source_id": "varuna-s4",
+          "host": "en.wikisource.org",
+          "statement": "In Griffith's translation of Rigveda 1.25, Varuna is said to know the path of birds that fly through heaven and, as sovereign of the sea, the ships that are on it.",
+          "statement_id": "Dalam terjemahan Griffith atas Rigveda 1.25, Varuna dikatakan mengetahui jalan burung yang terbang di langit dan, sebagai penguasa laut, mengetahui kapal-kapal di atasnya.",
+          "quote": "He knows the path of birds that fly through heaven, and, Sovran of the sea, He knows the ships that are thereon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c21",
+          "source_id": "varuna-s4",
+          "host": "en.wikisource.org",
+          "statement": "Rigveda 1.25 closes with a plea to release the upper bond, untie the bond between, and loose the bonds below, that the worshipper may live.",
+          "statement_id": "Himne Rigveda 1.25 menutup dengan permohonan agar ikatan atas dilepaskan, ikatan di tengah diurai, dan ikatan di bawah dibebaskan supaya pemuja dapat hidup.",
+          "quote": "Release us from the upper bond, untie the bond between, and loose The bonds below, that I may live.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c22",
+          "source_id": "varuna-s5",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie calls Varuna Indra's great rival, who symbolized the investing sky and was \"the all-enveloping one.\"",
+          "statement_id": "Mackenzie menyebut Varuna sebagai saingan besar Indra, yang melambangkan langit yang meliputi segalanya (\"the all-enveloping one\").",
+          "quote": "Indra's great rival, however, was Varuna, who symbolized the investing sky: he was “the all-enveloping one”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c23",
+          "source_id": "varuna-s5",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie says the hymns give Varuna a character of Hebraic grandeur: he was the sustainer of the universe, the lawgiver, the god of moral rectitude, and the sublime sovereign of gods and men.",
+          "statement_id": "Menurut Mackenzie, himne-himne memberi Varuna keagungan Ibrani (Hebraic grandeur): ia penopang alam semesta, pemberi hukum, dewa kelurusan moral, dan penguasa agung para dewa dan manusia.",
+          "quote": "The hymns impart to him a character of Hebraic grandeur. He was the sustainer of the universe, the lawgiver, the god of moral rectitude, and the sublime sovereign of gods and men.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c24",
+          "source_id": "varuna-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the account Mackenzie quotes, the heaven of Varuna was built by Vishwakarman (Twashtri) within the sea; its walls are pure white and surrounded by celestial trees of sparkling jewels that always blossom and bear fruit.",
+          "statement_id": "Dalam uraian yang dikutip Mackenzie, surga Varuna dibangun oleh Vishwakarman (Twashtri) di dalam laut; dindingnya putih murni dan dikelilingi pohon-pohon langit dari permata yang selalu berbunga dan berbuah.",
+          "quote": "The heaven of Varuna was constructed by Vishwakarman (Twashtri) within the sea. Its walls and arches are of pure white, and they are surrounded by celestial trees, made of sparkling jewels, which always blossom and always bear fruit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c25",
+          "source_id": "varuna-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the same account, Varuna is enthroned with his queen, richly decked with jewels, golden ornaments, and flowers.",
+          "statement_id": "Dalam uraian yang sama, Varuna bertakhta bersama ratunya, berhias permata, ornamen emas, dan bunga.",
+          "quote": "Varuna, richly decked with jewels and golden ornaments and flowers, is throned there with his queen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c26",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Varuna is also mentioned as the king of the asuras who gained the status of a deva and served as chief of the Adityas, a group of celestial deities.",
+          "statement_id": "Varuna juga disebut sebagai raja para asura yang memperoleh kedudukan deva dan menjadi pemimpin para Aditya, kelompok dewa langit.",
+          "quote": "He is also mentioned as the king of asuras, who gained the status of a deva, serving as the chief of the Adityas, a group of celestial deities.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c27",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Ramayana Varuna is depicted primarily as a dikpala and a water deity appointed by Brahma, weaker than in earlier portrayals, overpowered or sidelined by both Rama, an avatar of Vishnu, and Ravana, the demon king.",
+          "statement_id": "Menurut Wikipedia, dalam Ramayana Varuna digambarkan terutama sebagai dikpala dan dewa air yang ditunjuk Brahma, lebih lemah daripada penggambaran awalnya karena dikalahkan atau dikesampingkan oleh Rama, awatara Vishnu, maupun oleh Ravana, raja iblis.",
+          "quote": "As in the Mahabharata, in the other major epic, the Ramayana (300 BCE - 300 CE), Varuna is depicted primarily as a Dikpala and as a water deity appointed by chief-god Brahma. Varuna appears weaker than in his earlier portrayals, being overpowered or sidelined by both the protagonist Rama—an avatar of Vishnu—and the antagonist Ravana, the demon king.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c28",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Yuddha Kanda, as Rama prepares to invade the island Lanka to rescue his abducted wife Sita, he seeks passage across the ocean and performs a three-day penance to Varuna, lord of the oceans, but receives no reply.",
+          "statement_id": "Dalam Yuddha Kanda, ketika Rama bersiap menyerbu pulau Lanka untuk menyelamatkan istrinya Sita yang diculik, ia mencari jalan melintasi samudra dan bertapa tiga hari kepada Varuna, penguasa samudra, tetapi tidak dijawab.",
+          "quote": "One of the most well-known episodes involving Varuna occurs in the Yuddha Kanda when Rama, preparing to invade the island Lanka to rescue his abducted wife Sita, seeks passage across the ocean. Rama performs a three-day penance to Varuna, the lord of oceans, but receives no reply.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c29",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Varuna initially stays silent, an enraged Rama threatens to evaporate the sea with his divine weapons, including the Brahmastra; Varuna then appears, recognizing Rama's authority and righteousness.",
+          "statement_id": "Ketika Varuna tetap diam, Rama yang murka mengancam menguapkan laut dengan senjata ilahi, termasuk Brahmastra; Varuna lalu muncul dan mengakui kewenangan serta kebenaran Rama.",
+          "quote": "When Varuna initially remains silent, Rama, enraged, threatens to unleash his divine weapons, including the Brahmastra, to evaporate the sea. Varuna then appears, recognizing Rama’s authority and righteousness.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c30",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Varuna explains that his role as guardian of natural order prevents him from parting the ocean, since that would disrupt natural balance; he suggests building a bridge and pledges to stabilize the waters.",
+          "statement_id": "Varuna menjelaskan bahwa perannya menjaga tatanan alam melarangnya membelah samudra karena akan mengganggu keseimbangan alam; ia menyarankan pembangunan jembatan dan berjanji menenangkan air.",
+          "quote": "He explains that his role as a guardian of natural order prevents him from parting the ocean, as it would disrupt natural balance. Instead, Varuna suggests constructing a bridge and pledges to stabilize the waters to aid the effort.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c31",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that many sources claim it was Samudra, the personification of the oceans, who met Rama and not the water god Varuna.",
+          "statement_id": "Wikipedia mencatat bahwa banyak sumber menyatakan yang menemui Rama adalah Samudra, personifikasi samudra, dan bukan dewa air Varuna.",
+          "quote": "Many sources claim it was Samudra, the personification of the oceans, who met Rama not the water god Varuna.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c32",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Mahabharata Varuna undergoes a notable transformation from his Vedic portrayal: he is no longer depicted as the supreme sky god or an omnipotent sovereign over cosmic and moral order, though his pairing with Mitra remains.",
+          "statement_id": "Menurut Wikipedia, dalam Mahabharata Varuna mengalami perubahan besar dari penggambaran Weda: ia tidak lagi digambarkan sebagai dewa langit tertinggi atau penguasa mahakuasa atas tatanan kosmis dan moral, meski pasangannya dengan Mitra tetap ada.",
+          "quote": "In the epic Mahabharata (c. 400 BCE - 400 CE), Varuna undergoes a notable transformation from his earlier Vedic portrayal. He is no longer depicted as the supreme sky god or an omnipotent sovereign administering cosmic order and morality, though his pairing with Mitra remains.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "varuna-c33",
+          "source_id": "varuna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Adi Parva, during the burning of the Khandava forest Varuna gave Arjuna the celestial bow Gandiva, an inexhaustible quiver, and a monkey-bannered chariot, and gave Krishna the mace Kaumodaki.",
+          "statement_id": "Menurut Adi Parva, saat hutan Khandava terbakar Varuna menghadiahkan busur langit Gandiva, tabung panah tak habis, dan kereta berpanji kera kepada Arjuna, serta gada Kaumodaki kepada Krishna.",
+          "quote": "The Adi Parva recounts that during the burning of the Khandava forest, Varuna gifted Arjuna the celestial bow Gandiva, an inexhaustible quiver, and a monkey-bannered chariot, as well as the mace Kaumodaki to Krishna.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6e28ba5930a2369652eb30e99cb9696746f74c9b8bd704e332112d6cc614ac44"
+      "images": []
     },
     {
       "slug": "kartikeya",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "047b95afbe853f9db6bba4e1ca4d4782c125d053ae878e3c2501a8b5568f18a9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 29,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -409,7 +592,7 @@
           "host": "en.wikipedia.org",
           "statement": "He is commonly depicted as a young man with a peacock named Paravani.",
           "statement_id": "Ia lazim digambarkan sebagai pemuda dengan merak bernama Paravani.",
-          "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+          "quote": "He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -419,7 +602,7 @@
           "host": "en.wikipedia.org",
           "statement": "He carries the vel spear associated with Parvati's gift.",
           "statement_id": "Ia membawa tombak vel yang dikaitkan dengan pemberian Parvati.",
-          "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+          "quote": "He wields a spear called the vel, supposedly given to him by his mother Parvati.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -501,21 +684,159 @@
           "statement_id": "Mackenzie merangkum versi yang menghubungkan Kartikeya dengan Agni dan Gangga.",
           "quote": "Another son of Shiva and Parvati is Kartikeya, the\r\nCelestial general and slayer of demons. He is also\r\nregarded as the son of Agni and the Ganges.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c16",
+          "source_id": "kartikeya-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica calls Kartikeya the god of war in Hindu mythology and notes that there are various legends of his birth.",
+          "statement_id": "Britannica 1911 menyebut Kartikeya sebagai dewa perang dalam mitologi Hindu dan mencatat bahwa ada berbagai legenda tentang kelahirannya.",
+          "quote": "KARTIKEYA, in Hindu mythology, the god of war. Of his birth there are various legends.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c17",
+          "source_id": "kartikeya-s4",
+          "host": "en.wikisource.org",
+          "statement": "One legend in the 1911 Britannica says he had no mother but was produced by Siva alone, was suckled by six nymphs of the Ganges, and was miraculously given six faces so he could take nourishment from each at once.",
+          "statement_id": "Menurut satu legenda dalam Britannica 1911, Kartikeya tidak beribu dan dihasilkan oleh Siva sendiri, disusui enam bidadari Sungai Gangga, dan secara ajaib diberi enam wajah agar dapat menyusu dari masing-masing sekaligus.",
+          "quote": "One relates that he had no mother but was produced by Siva alone, and was suckled by six nymphs of the Ganges, being miraculously endowed with six faces that he might simultaneously obtain nourishment from each.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c18",
+          "source_id": "kartikeya-s4",
+          "host": "en.wikisource.org",
+          "statement": "Another story in the 1911 Britannica says six miraculously conceived babes were born of the six nymphs and that Parvati, wife of Siva, embraced them so closely that they became one while keeping six faces, twelve arms, and feet and eyes to match.",
+          "statement_id": "Menurut cerita lain dalam Britannica 1911, enam bayi yang dikandung secara ajaib lahir dari keenam bidadari itu, dan Parvati, istri Siva, memeluk mereka begitu erat hingga menyatu, tetapi tetap berenam wajah, berdua belas lengan, serta berkaki dan bermata sebanyak itu.",
+          "quote": "Another story is that six babes, miraculously conceived, were born of the six nymphs, and that Parvati, the wife of Siva, in her great affection for them, embraced the infants so closely that they became one, but preserved six faces, twelve arms, feet, eyes, &c.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c19",
+          "source_id": "kartikeya-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica records that Kartikeya became the victor of giants and leader of the armies of the gods, is represented riding a peacock, and is known in southern India as Subramanya.",
+          "statement_id": "Britannica 1911 mencatat bahwa Kartikeya menjadi penakluk para raksasa dan pemimpin pasukan para dewa, digambarkan menunggang merak, dan di India selatan dikenal sebagai Subramanya.",
+          "quote": "Kartikeya became the victor of giants and the leader of the armies of the gods. He is represented as riding a peacock. In southern India he is known as Subramanya.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c20",
+          "source_id": "kartikeya-s2",
+          "host": "www.biharmuseum.org",
+          "statement": "The Bihar Museum text says that according to the Shiva Purana he is considered the eldest son of Shiva, and that he is also the god of war and commander of the gods.",
+          "statement_id": "Museum Bihar menulis bahwa menurut Shiva Purana ia dianggap putra sulung Shiva, dan ia juga dewa perang serta panglima para dewa.",
+          "quote": "According to Shiva-Purana, he is considered the eldest son of Shiva. He is also the god of war and the commander of the gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c21",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that Shavite puranas such as the Ganesha Purana, Shiva Purana, and Skanda Purana state that Ganesha is the elder of the two sons of Shiva and Parvati.",
+          "statement_id": "Wikipedia mencatat bahwa Purana Saiwa seperti Ganesha Purana, Shiva Purana, dan Skanda Purana menyatakan bahwa Ganesha adalah yang lebih tua di antara kedua putra Shiva dan Parvati.",
+          "quote": "Indian religious literature describes Kartikeya and Ganesha as sons of Shiva and Parvati. Shavite puranas such as Ganesha Purana, Shiva Purana and Skanda Purana state that Ganesha is the elder of the two.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c22",
+          "source_id": "kartikeya-s2",
+          "host": "www.biharmuseum.org",
+          "statement": "The Bihar Museum describes the sculpture as seated on the peacock and wearing a necklace with a tiger's nail and an amulet.",
+          "statement_id": "Museum Bihar menggambarkan arca itu duduk di atas merak dengan kalung berhias kuku harimau dan jimat.",
+          "quote": "Kartikey is seated on the peacock, wearing a necklace with a Tigher's nail and amulet.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c23",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Valmiki's Ramayana (seventh to fourth century BCE), he is described as the child of Rudra and Parvati, with his birth aided by Agni and Ganga.",
+          "statement_id": "Dalam Ramayana Valmiki (abad ketujuh hingga keempat SM), ia digambarkan sebagai anak Rudra dan Parvati, dengan kelahiran yang dibantu Agni dan Ganga.",
+          "quote": "In Valmiki's Ramayana (seventh to fourth century BCE), he is described as the child of deities Rudra and Parvati, with his birth aided by Agni and Ganga.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c24",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Shiva Purana, the asura Tarakasura performed tapas to Brahma and received two boons: none would be his equal in the three worlds, and only a son of Shiva could slay him.",
+          "statement_id": "Menurut Shiva Purana, asura Tarakasura bertapa kepada Brahma dan memperoleh dua anugerah: tak seorang pun setara dengannya di tiga dunia, dan hanya putra Shiva yang dapat membunuhnya.",
+          "quote": "According to Shiva Purana, asura Tarakasura performed tapas to propitiate the creator god Brahma. Brahma granted him two boons: one, that none shall be his equal in all of the three worlds, and two, that only a son of Shiva could slay him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c25",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Kartikeya threw his vel, Surapadma escaped to the sea as a large mango tree; Kartikeya split it with the vel and the halves became a peacock and a rooster. After Surapadma was killed, he took the peacock as his vahana and the rooster as his pennant.",
+          "statement_id": "Ketika Kartikeya melempar vel, Surapadma lari ke laut dan menjelma pohon mangga besar; Kartikeya membelahnya dengan vel, dan kedua belahannya menjadi merak dan ayam jantan. Setelah Surapadma tewas, ia menjadikan merak sebagai wahana dan ayam jantan sebagai panjinya.",
+          "quote": "When Kartikeya threw his vel, Surapadma escaped to the sea and took the form of a large mango tree, which spread across the three worlds. Kartikeya used his vel to split the tree in half, with each half transforming into a peacock and a rooster, respectively. After Surapadma was killed, Kartikeya took the peacock as his vahana and the rooster as his pennant.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c26",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story of the fruit of knowledge, Kartikeya sets off around the globe on his peacock, but Ganesha, reasoning that the world is no more than his parents Shiva and Shakti combined, circles them and wins the fruit.",
+          "statement_id": "Dalam kisah buah pengetahuan, Kartikeya mengelilingi dunia dengan merak, tetapi Ganesha, yang menganggap dunia tidak lebih dari orang tuanya Shiva dan Shakti, mengelilingi mereka dan memenangkan buah itu.",
+          "quote": "Accepting the challenge, Kartikeya started his journey around the globe atop his peacock mount. However, Ganesha surmised that the world was no more than his parents Shiva and Shakti combined, circumambulated them, and won the fruit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c27",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Kartikeya returned he was furious that his efforts had been in vain and felt cheated; he discarded all his belongings, left Kailasha, and took up abode in the Palani Hills as a hermit.",
+          "statement_id": "Ketika Kartikeya kembali, ia murka karena jerih payahnya sia-sia dan merasa dicurangi; ia membuang semua harta bendanya, meninggalkan Kailasha, dan menetap di Bukit Palani sebagai pertapa.",
+          "quote": "When Kartikeya returned, he was furious to learn that his efforts had been in vain, and felt cheated. He discarded all his material belongings and left Kailasha to take up abode in the Palani Hills as a hermit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c28",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ancient Tamil text Tolkappiyam, from the second century BCE, mentions Ceyon (\"the red one\") and Murukan (\"the youth\"), identified with Murugan, as the god of the hilly regions.",
+          "statement_id": "Teks Tamil kuno Tolkappiyam dari abad kedua SM menyebut Ceyon (\"si merah\") dan Murukan (\"si pemuda\"), yang diidentifikasi dengan Murugan, sebagai dewa daerah perbukitan.",
+          "quote": "Ancient Tamil text Tolkappiyam from the second century BCE mentions Ceyon (\"the red one\"), and Murukan (\"the youth\"), identified with Murugan, as the god of the hilly regions.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kartikeya-c29",
+          "source_id": "kartikeya-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Thaipusam is celebrated on the full moon day of the Tamil month of Thai to commemorate Murugan's victory over the asuras, and includes the ritual practice of Kavadi Aattam.",
+          "statement_id": "Thaipusam dirayakan pada hari bulan purnama di bulan Thai dalam penanggalan Tamil, untuk memperingati kemenangan Murugan atas para asura, dan mencakup praktik ritual Kavadi Aattam.",
+          "quote": "Thaipusam is celebrated on the full moon day in the Tamil month of Thai on the confluence of star Pusam. The festival is celebrated to commemorate the victory of Murugan over the asuras, and includes ritualistic practices of Kavadi Aattam.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5787325e6e93e20e9fa62e062d18c0ea3d3a3304092dfa4fa85e8479441e346b"
+      "images": []
     },
     {
       "slug": "ravana",
-      "file": "batch-072-fix-1.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "06cf69b7569e688007e4ae44cf4a32e052bef5491f3e72070ab7cdba62c0e699",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 29,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -536,9 +857,9 @@
           "host": "en.wikipedia.org",
           "statement": "He is described as the son of Vishrava and Kaikasi.",
           "statement_id": "Ia disebut putra Vishrava dan Kaikasi.",
-          "quote": "Ravana (Sanskrit: रावण, romanized: Rāvaṇa, lit. 'roaring') is the principal antagonist of the ancient Hindu epic Ramayana and its several other versions. He is traditionally depicted as a ten-headed rakshasa (demon) king of Lanka. In the Ramayana, Ravana is described as the eldest son of sage Vishrava and Kaikasi.",
+          "quote": "In the Ramayana, Ravana is described as the eldest son of sage Vishrava and Kaikasi.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "ravana-c03",
@@ -576,7 +897,7 @@
           "host": "en.wikipedia.org",
           "statement": "Ravana is regarded as a devotee of Shiva.",
           "statement_id": "Ravana dipandang sebagai pemuja Shiva.",
-          "quote": "Ravana was well-versed in the six shastras and the four Vedas, including the Shiva Tandava Stotra. Ravana is also considered to be an ardent devotee of Shiva. Images of Ravana are often seen associated with Shiva at temples. He also appears in the Buddhist Mahayana text Laṅkāvatāra Sūtra, in Buddhist Jatakas, as well as in Jain Ramayanas.",
+          "quote": "Ravana is also considered to be an ardent devotee of Shiva.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -586,7 +907,7 @@
           "host": "en.wikipedia.org",
           "statement": "He also appears in the Lankavatara Sutra, Buddhist Jatakas, and Jain Ramayanas.",
           "statement_id": "Ia juga hadir dalam Lankavatara Sutra, Jataka Buddha, dan Ramayana Jain.",
-          "quote": "Ravana was well-versed in the six shastras and the four Vedas, including the Shiva Tandava Stotra. Ravana is also considered to be an ardent devotee of Shiva. Images of Ravana are often seen associated with Shiva at temples. He also appears in the Buddhist Mahayana text Laṅkāvatāra Sūtra, in Buddhist Jatakas, as well as in Jain Ramayanas.",
+          "quote": "He also appears in the Buddhist Mahayana text Laṅkāvatāra Sūtra, in Buddhist Jatakas, as well as in Jain Ramayanas.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -626,7 +947,7 @@
           "host": "en.wikipedia.org",
           "statement": "Brahma grants him immunity against his creations except humans in the story.",
           "statement_id": "Brahma memberinya anugerah kebal terhadap ciptaannya kecuali manusia dalam cerita.",
-          "quote": "Ravana and his two brothers, Kumbhakarna and Vibhishana, performed penance on Mount Gokarna for 10,000 years and won boons from Brahma. Ravana was blessed with a boon that would make him invincible to all the creations of Brahma, except for humans. He also received weapons, a chariot, as well as the ability to shapeshift from Brahma.",
+          "quote": "Ravana and his two brothers, Kumbhakarna and Vibhishana, performed penance on Mount Gokarna for 10,000 years and won boons from Brahma. Ravana was blessed with a boon that would make him invincible to all the creations of Brahma, except for humans.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -658,9 +979,7 @@
           "statement_id": "Mackenzie menggambarkan Rama sebagai pembunuh Ravana yang menindas manusia dalam Ramayana.",
           "quote": "Rama Chandra is the hero of the Ramáyana epic,\r\nwhich is summarized in our closing chapters; he is the\r\nhuman ideal of devotion, righteousness, and manliness,\r\nthe slayer of the demon Ravana, who oppressed and\r\npersecuted mankind.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "ravana-c15",
@@ -671,18 +990,158 @@
           "quote": "Ravana carries Sita away from her opulent hermitage in the highly stylized forest",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ravana-c16",
+          "source_id": "ravana-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Griffith's verse translation of the Ramayana, the assembled Immortals pray to Brahma: Ravan (Rávaṇ), who rules the giant race, torments them and the penance-loving saints in his senseless pride, and the boon given long ago, that neither god nor demon should kill his charmed life, makes him bold.",
+          "statement_id": "Dalam terjemahan syair Ramayana oleh Griffith, para dewa (the Immortals) berdoa kepada Brahma: Ravan (Rávaṇ), penguasa kaum raksasa, menyiksa mereka dan para resi pencinta tapa dalam kesombongannya, dan anugerah yang Brahma berikan pada masa lampau, bahwa dewa maupun iblis tidak akan membunuh nyawanya yang terlindung, membuatnya berani.",
+          "quote": "The Immortals all assembled prayed: “O Brahmá, mighty by thy grace, Rávaṇ, who rules the giant race, Torments us in his senseless pride, And penance-loving saints beside. For thou well pleased in days of old Gavest the boon that makes him bold, That God nor demon e'er should kill His charmed life, for so thy will.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c17",
+          "source_id": "ravana-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the reply to that prayer, the speaker says the giant once asked that his life be guarded from demon, god, heavenly bard, and spirits of earth and air, and that request was granted; but in his scorn he took no account of man born of woman, so only a man may slay the fiend.",
+          "statement_id": "Dalam jawaban atas doa itu, pembicara berkata bahwa si raksasa pernah meminta nyawanya dijaga dari iblis, dewa, penyanyi surgawi, serta roh bumi dan udara, dan permintaan itu dikabulkan; tetapi dalam kesombongannya ia tidak memedulikan manusia yang terlahir dari perempuan, sehingga hanya manusia yang dapat membunuhnya.",
+          "quote": "He prayed me once his life to guard From demon, God, and heavenly bard, And spirits of the earth and air, And I consenting heard his prayer. But the proud giant in his scorn Recked not of man of woman born. None else may take his life away, But only man the fiend may slay.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c18",
+          "source_id": "ravana-s3",
+          "host": "digitalprojects.carlos.emory.edu",
+          "statement": "The Carlos Museum description says that after his sister is mutilated Ravana plots revenge in the form of an elaborate scheme to kidnap Sita.",
+          "statement_id": "Menurut keterangan Museum Carlos, setelah saudarinya dilukai Ravana merancang balas dendam berupa skema rumit untuk menculik Sita.",
+          "quote": "After his sister is mutilated, Ravana plots revenge in the form an elaborate scheme to kidnap Sita.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c19",
+          "source_id": "ravana-s3",
+          "host": "digitalprojects.carlos.emory.edu",
+          "statement": "According to the Carlos Museum, Ravana's brother Maricha takes the form of a golden deer and bounds past Rama's hermitage; Sita asks Rama to kill the deer, so Rama tells Lakshmana to watch over Sita while he hunts.",
+          "statement_id": "Menurut Museum Carlos, Maricha, saudara Ravana, menjelma kijang emas dan melompat melewati pertapaan Rama; Sita meminta Rama membunuh kijang itu, sehingga Rama menyuruh Lakshmana menjaga Sita selagi ia berburu.",
+          "quote": "Ravana’s brother Maricha takes the form of a golden deer and bounds past Rama’s hermitage. Sita requests her prince to kill the deer, so Rama instructs Lakshmana to watch over Sita while he goes hunting.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c20",
+          "source_id": "ravana-s3",
+          "host": "digitalprojects.carlos.emory.edu",
+          "statement": "According to the Carlos Museum, when Lakshmana hears the dying Maricha call for help in Rama's voice he is fooled into leaving his post, and Ravana seizes the opportunity to abduct Sita.",
+          "statement_id": "Menurut Museum Carlos, ketika Lakshmana mendengar Maricha yang sekarat meminta tolong dengan suara Rama, ia tertipu dan meninggalkan posnya; Ravana memanfaatkan kesempatan itu untuk menculik Sita.",
+          "quote": "When Rama is gone, Lakshmana hears Maricha, dying from Rama’s arrow, call for help in Rama’s voice, and is fooled into abandoning his post to search for Rama. Ravana seizes the opportunity to abduct Sita.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c21",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ravana is depicted with ten heads, though sometimes with nine because he cut one off to convince Shiva; he is described as a devout follower of Shiva, a great scholar, a capable ruler, and a maestro of the veena.",
+          "statement_id": "Ravana digambarkan berkepala sepuluh, tetapi kadang hanya sembilan karena ia memotong satu kepala untuk meyakinkan Shiva; ia dilukiskan sebagai pengikut Shiva yang taat, sarjana besar, penguasa cakap, dan ahli veena.",
+          "quote": "Ravana is depicted and described as having ten heads, although he is sometimes shown with only nine heads since he cut one off to convince Shiva. He is described as a devout follower of Shiva, a great scholar, a capable ruler, and a maestro of the Veena.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c22",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A popular image of Shiva called Ravananugraha, popular in the Gupta era, depicts Ravana beneath Mount Kailash playing a veena made from his head and hands with strings of his tendons, while Shiva and Parvati sit on top of the mountain.",
+          "statement_id": "Citra Shiva bernama Ravananugraha, yang populer pada masa Gupta, menggambarkan Ravana di bawah Gunung Kailash memainkan veena dari kepala dan tangannya dengan dawai dari uratnya, sementara Shiva dan Parvati duduk di puncak gunung.",
+          "quote": "One of the most popular images of Shiva is called \"Ravananugraha\", which was popular in the Gupta era. It depicts Ravana beneath Mount Kailash playing a veena made out of his head and hands, and strings made out of his tendons, while Shiva and Parvati sit on top of the mountain.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c23",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to scriptures, Ravana once tried to lift Mount Kailash but Shiva pushed it back and trapped him beneath it; for a thousand years he sang the Shiva Tandava Stotra until Shiva blessed him and gave him an invincible sword and a powerful linga to worship.",
+          "statement_id": "Menurut kitab-kitab, Ravana pernah mencoba mengangkat Gunung Kailash tetapi Shiva menekan gunung itu dan menjepit Ravana; selama seribu tahun ia menyanyikan Shiva Tandava Stotra hingga Shiva memberkatinya dengan pedang tak terkalahkan dan sebuah linga untuk dipuja.",
+          "quote": "According to scriptures, Ravana once tried to lift Mount Kailash, but Shiva pushed the mountain into place and trapped Ravana beneath it. For a thousand years, the imprisoned Ravana sang Shiva Tandava Stotra, a hymn in praise of Shiva, who finally blessed him and granted him an invincible sword and a powerful linga (Shiva's iconic symbol, Atmalinga) to worship.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c24",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that this incident has little to no evidence in the Valmiki Ramayana.",
+          "statement_id": "Wikipedia mencatat bahwa kisah itu nyaris tidak punya bukti dalam Ramayana Valmiki.",
+          "quote": "But this incident has little to no evidence in Valmiki Ramayana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c25",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Bhagavata Purana, Ravana and his brother Kumbhakarna are said to be reincarnations of Jaya and Vijaya, gatekeepers at Vaikuntha, the abode of Vishnu, cursed to be born on Earth for their insolence.",
+          "statement_id": "Dalam Bhagavata Purana, Ravana dan saudaranya Kumbhakarna dikatakan penjelmaan Jaya dan Vijaya, penjaga gerbang Vaikuntha kediaman Vishnu, yang dikutuk lahir di bumi karena kelancangan mereka.",
+          "quote": "In the Bhagavata Purana, Ravana and his brother Kumbhakarna are said to be reincarnations of Jaya and Vijaya, gatekeepers at Vaikuntha (the abode of Vishnu), and were cursed to be born on Earth for their insolence.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c26",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Jainism, Rama and Ravana were both devout Jains; Ravana was a Vidyadhara king with magical powers, and it was Lakshmana, not Rama, who ultimately killed him.",
+          "statement_id": "Dalam Jainisme, Rama dan Ravana sama-sama penganut Jain yang taat; Ravana adalah raja Vidyadhara yang bersaktikan sihir, dan yang akhirnya membunuhnya adalah Lakshmana, bukan Rama.",
+          "quote": "In Jainism, both Rama and Ravana were devout Jains. Ravana was a Vidyadhara king who had magical powers, and Lakshmana, not Rama, was the one who ultimately killed Ravana.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c27",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ravana is worshipped as one of Shiva's most revered followers and is even worshipped in some Shiva temples.",
+          "statement_id": "Ravana dipuja sebagai salah satu pengikut Shiva yang paling dihormati, bahkan dipuja di beberapa kuil Shiva.",
+          "quote": "Ravana is worshipped as one of Shiva's most revered followers, and he is even worshipped in some Shiva temples.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c28",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Gondi people of central India claim descent from Ravana and have temples for him, his wife Mandodari, and their son Meghnad.",
+          "statement_id": "Suku Gondi di India tengah mengaku keturunan Ravana dan memiliki kuil untuknya, istrinya Mandodari, dan putra mereka Meghnad.",
+          "quote": "The Gondi people of central India claim to be descendants of Ravana, and have temples for him, his wife Mandodari, and their son Meghnad.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ravana-c29",
+          "source_id": "ravana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ravana wrestled his brother Kubera and vanquished him for the Pushpaka Vimana.",
+          "statement_id": "Ravana bergulat dengan saudaranya Kubera dan menaklukkannya demi Pushpaka Vimana.",
+          "quote": "Ravana had wrestled his brother Kubera and vanquished him for the Pushpaka Vimana.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "64761124810205b52880b237c770b2153638532a655d9672332e7f83383d3f43"
+      "images": []
     },
     {
       "slug": "yama",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "e40ceddb2fb49318a1a3bcf4347952467edfe32dcbb95985b7f1d7155e57aff1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 29,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -693,9 +1152,9 @@
           "host": "en.wikipedia.org",
           "statement": "Yama is the Hindu god of death and justice associated with punishment in Naraka.",
           "statement_id": "Yama adalah dewa kematian dan keadilan Hindu yang dikaitkan dengan hukuman di Naraka.",
-          "quote": "Yama (Sanskrit: यम, lit. 'twin'), also known as Kāla and Dharmarāja, is the Hindu god of death and justice, responsible for the dispensation of law and punishment of sinners in his abode, Naraka. He is often identified with Dharmadeva, the personification of Dharma, though the two deities have different origins and myths.",
+          "quote": "Yama ... is the Hindu god of death and justice, responsible for the dispensation of law and punishment of sinners in his abode, Naraka.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "yama-c02",
@@ -703,9 +1162,9 @@
           "host": "en.wikipedia.org",
           "statement": "Kala and Dharmaraja are other names of Yama.",
           "statement_id": "Kala dan Dharmaraja merupakan nama lain Yama.",
-          "quote": "Yama (Sanskrit: यम, lit. 'twin'), also known as Kāla and Dharmarāja, is the Hindu god of death and justice, responsible for the dispensation of law and punishment of sinners in his abode, Naraka. He is often identified with Dharmadeva, the personification of Dharma, though the two deities have different origins and myths.",
+          "quote": "also known as Kāla and Dharmarāja",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "yama-c03",
@@ -723,7 +1182,7 @@
           "host": "en.wikipedia.org",
           "statement": "He is described as Yami's twin and the son of Surya and Sanjna.",
           "statement_id": "Ia disebut saudara kembar Yami serta putra Surya dan Sanjna.",
-          "quote": "Yama is described as the twin of the goddess Yami, and the son of the god Surya (sun) (in earlier traditions Vivasvat) and Sanjna. He judges the souls of the dead and, depending on their deeds, assigns them to the realm of the Pitris (forefathers), Naraka (hell), or to be reborn on the earth.",
+          "quote": "Yama is described as the twin of the goddess Yami, and the son of the god Surya (sun) (in earlier traditions Vivasvat) and Sanjna.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -733,7 +1192,7 @@
           "host": "en.wikipedia.org",
           "statement": "He judges souls and assigns them according to their deeds to the ancestors' realm, Naraka, or rebirth.",
           "statement_id": "Ia menilai jiwa dan menempatkannya menurut perbuatan ke alam leluhur, Naraka, atau kelahiran kembali.",
-          "quote": "Yama is described as the twin of the goddess Yami, and the son of the god Surya (sun) (in earlier traditions Vivasvat) and Sanjna. He judges the souls of the dead and, depending on their deeds, assigns them to the realm of the Pitris (forefathers), Naraka (hell), or to be reborn on the earth.",
+          "quote": "He judges the souls of the dead and, depending on their deeds, assigns them to the realm of the Pitris (forefathers), Naraka (hell), or to be reborn on the earth.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -743,7 +1202,7 @@
           "host": "en.wikipedia.org",
           "statement": "Yama guards the south as one of the Lokapalas.",
           "statement_id": "Yama menjaga arah selatan sebagai salah satu Lokapala.",
-          "quote": "Yama is one of the Lokapalas (guardians of the realms), appointed as the protector of the south direction. He is often depicted as a dark-complexioned man riding a buffalo and carrying a noose or mace to capture souls.",
+          "quote": "Yama is one of the Lokapalas (guardians of the realms), appointed as the protector of the south direction.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -753,7 +1212,7 @@
           "host": "en.wikipedia.org",
           "statement": "He is often depicted with dark skin and riding a buffalo.",
           "statement_id": "Ia sering digambarkan berkulit gelap dan menunggang kerbau.",
-          "quote": "Yama is one of the Lokapalas (guardians of the realms), appointed as the protector of the south direction. He is often depicted as a dark-complexioned man riding a buffalo and carrying a noose or mace to capture souls.",
+          "quote": "He is often depicted as a dark-complexioned man riding a buffalo",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -761,9 +1220,9 @@
           "id": "yama-c08",
           "source_id": "yama-s1",
           "host": "en.wikipedia.org",
-          "statement": "A noose or mace is equipment for capturing souls in his depictions.",
-          "statement_id": "Jerat atau gada menjadi perlengkapan untuk menangkap jiwa dalam penggambarannya.",
-          "quote": "Yama is one of the Lokapalas (guardians of the realms), appointed as the protector of the south direction. He is often depicted as a dark-complexioned man riding a buffalo and carrying a noose or mace to capture souls.",
+          "statement": "In his depictions he carries a noose or mace to capture souls.",
+          "statement_id": "Dalam penggambarannya ia membawa jerat atau gada untuk menangkap jiwa.",
+          "quote": "and carrying a noose or mace to capture souls.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -825,9 +1284,7 @@
           "statement_id": "Dalam kisah Savitri yang diceritakan Mackenzie, Yama melepaskan Satyavan dan menjanjikan hidup panjang bagi pasangan itu.",
           "quote": "Said Yama: “So be it. With cheerful heart I now\r\nunbind thy husband. He is free.... Disease cannot\r\nafflict him again and he will prosper. Together you will\r\nboth have long life; you will live four hundred years;\r\nyou will have a century of sons and they will be kings,\r\nand their sons will be kings also.”",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "yama-c15",
@@ -838,10 +1295,149 @@
           "quote": "​YAMA (Sanskrit \"twin,\" in allusion to his being twin with his sister Yami, traditionally the first human pair), in Hindu mythology, judge of men and king of the unseen world. He was the first mortal to die, and having discovered the way to the other world is the guide of the dead. Three hymns in the Rig Veda are addressed to him.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "yama-c16",
+          "source_id": "yama-s4",
+          "host": "en.wikisource.org",
+          "statement": "In Griffith's translation of Rigveda 10.14, Yama is called the King, Vivasvan's son, who gathers men together, travelled to the lofty heights above, and searches out and shows the path to many.",
+          "statement_id": "Dalam terjemahan Griffith atas Rigveda 10.14, Yama disebut Raja, putra Vivasvan, yang mengumpulkan manusia, menempuh ketinggian di atas kita, serta mencari dan menunjukkan jalan bagi banyak orang.",
+          "quote": "HONOUR the King with thine oblations, Yama, Vivasvan's Son, who gathers men together, Who travelled to the lofty heights above us, who searches out and shows the path to many.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c17",
+          "source_id": "yama-s4",
+          "host": "en.wikisource.org",
+          "statement": "Rigveda 10.14 speaks of Yama's two dogs as watchers, four-eyed, who look on men and guard the pathway.",
+          "statement_id": "Rigveda 10.14 menyebut dua anjing Yama sebagai penjaga berempat mata yang mengawasi manusia dan menjaga jalan.",
+          "quote": "And those two dogs of thine, Yama, the watchers, four-eyed, who look on men and guard the pathway",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c18",
+          "source_id": "yama-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the translation Mackenzie quotes, Yama was the first of men that died, the first to brave Death's rapid rushing stream, and the first to point the road to heaven and welcome others to that abode.",
+          "statement_id": "Dalam terjemahan yang dikutip Mackenzie, Yama adalah manusia pertama yang mati, yang pertama menerjang arus deras kematian, dan yang pertama menunjukkan jalan ke surga serta menyambut orang lain di sana.",
+          "quote": "To Yama, mighty king, be gifts and homage paid. He was the first of men that died, the first to brave Death's rapid rushing stream, the first to point the road To heaven, and welcome others to that bright abode.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c19",
+          "source_id": "yama-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mackenzie, Yama judged men as Dharma-rajah, \"King of righteousness,\" and was called Pitripati, \"lord of the fathers,\" Samavurti, \"the impartial judge,\" Kritana, \"the finisher,\" Antaka, \"he who ends life,\" and Samana, \"the leveller.\"",
+          "statement_id": "Menurut Mackenzie, Yama menghakimi manusia sebagai Dharma-rajah (\"Raja Kebenaran\"), dan ia disebut Pitripati (\"penguasa para leluhur\"), Samavurti (\"hakim yang adil\"), Kritana (\"sang penyelesai\"), Antaka (\"yang mengakhiri hidup\"), dan Samana (\"sang perata\").",
+          "quote": "Yama judged men as Dharma-rajah, “King of righteousness”; he was Pitripati, “lord of the fathers”; Samavurti, “the impartial judge”; Kritana, “the finisher”; Antaka, “he who ends life”; Samana, “the leveller”, &c.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c20",
+          "source_id": "yama-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mackenzie, in post-Vedic times Yama presided over a complicated system of Hells as Dandadhara, \"the wielder of the rod or mace,\" had a noose to bind souls, and carried out the decrees of the gods by taking souls at their appointed time.",
+          "statement_id": "Menurut Mackenzie, pada masa pasca-Weda Yama memimpin sistem neraka yang rumit sebagai Dandadhara (\"pemegang tongkat atau gada\"), memiliki jerat untuk mengikat jiwa, dan melaksanakan keputusan para dewa dengan mengambil jiwa pada waktunya.",
+          "quote": "In post-Vedic times he presided over a complicated system of Hells; he was Dandadhara, “the wielder of the rod or mace”. He had a noose with which to bind souls; he carried out the decrees of the gods, taking possession of souls at their appointed time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c21",
+          "source_id": "yama-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie writes that Yama gathers his people to him as a shepherd gathers his flock, so that he is called the \"Noble Shepherd.\"",
+          "statement_id": "Mackenzie menulis bahwa Yama mengumpulkan umatnya seperti gembala mengumpulkan kawanan dombanya, sehingga ia disebut Gembala Mulia (Noble Shepherd).",
+          "quote": "He gathers his people to him as a shepherd gathers his flock: indeed he is called the “Noble Shepherd”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c22",
+          "source_id": "yama-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mackenzie, Yama might prolong the life of one whose days had run out if another gave up part of his own life, and might even restore a soul he had bound, at the appeal of a mortal of great piety.",
+          "statement_id": "Menurut Mackenzie, Yama dapat memperpanjang umur orang yang waktunya habis bila orang lain merelakan sebagian umurnya, bahkan mengembalikan jiwa yang telah ia ikat atas permohonan manusia yang sangat saleh.",
+          "quote": "Yama might consent to prolong the life of one whose days had run out, on condition that another individual gave up part of his own life in compensation; he might even agree to restore a soul which he had bound to carry away, in response to the appeal of a mortal who had attained to great piety.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c23",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Katha Upanishad, Yama is portrayed as a teacher to the Brahmin boy Nachiketa; after granting three boons, their conversation turns to the nature of being, knowledge, the Atman, and moksha.",
+          "statement_id": "Dalam Katha Upanishad, Yama digambarkan sebagai guru bagi Nachiketa, anak Brahmana; setelah mengabulkan tiga permintaan, percakapan mereka berkembang menjadi pembahasan hakikat keberadaan, pengetahuan, Atman, dan moksha.",
+          "quote": "In the Katha Upanishad, Yama is portrayed as a teacher to the Brahmin boy Nachiketa. Having granted three boons to Nachiketa, their conversation evolves to a discussion of the nature of being, knowledge, the Atman (i.e. the soul, self) and moksha (liberation).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c24",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Yaksha Prashna Dharmadeva (Yama) appears as a yaksha in the form of a crane to test Yudhishthira; impressed by his answers, Yama reveals himself as his father, blesses him, and revives his younger Pandava brothers.",
+          "statement_id": "Menurut Wikipedia, dalam Yaksha Prashna Dharmadeva (Yama) menjelma yaksha berupa bangau untuk menguji Yudhishthira; terkesan oleh jawabannya, Yama menyatakan diri sebagai ayahnya, memberkatinya, dan menghidupkan kembali saudara-saudara Pandawa.",
+          "quote": "In the Yaksha Prashna, Dharmadeva (Yama) appears as a yaksha (nature spirit) in the form of a crane to question Yudhishthira and test his righteousness. Impressed by Yudhishthira's strict adherence to dharma and his answers to the riddles posed, Yama reveals himself as his father, blesses him, and brings his younger Pandava brothers back to life.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c25",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the Vana Parva the story of Savitri and Satyavan is told: after Savitri's husband Satyavan died, Yama came to carry away his soul but was so impressed by Savitri's purity and dedication to dharma and her husband that he brought Satyavan back to life.",
+          "statement_id": "Menurut Wikipedia, dalam Vana Parva diceritakan kisah Savitri dan Satyavan: setelah Satyavan, suami Savitri, meninggal, Yama datang mengambil jiwanya tetapi terkesan oleh kesucian dan pengabdian Savitri pada dharma dan suaminya, sehingga menghidupkan Satyavan kembali.",
+          "quote": "In the Vana Parva, ... the sage replied by relating the story of Savitri and Satyavan. After Savitri's husband Satyavan died, Yama arrived to carry away his soul. However, Yama was so impressed with Savitri's purity and dedication to dharma and to her husband, he was convinced to instead bring Satyavan back to life.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c26",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Puranas, Yama is described with four arms, protruding fangs, the complexion of storm clouds, a wrathful expression, a garland of flames, red, yellow, or blue garments, a noose and a mace or sword, riding a water-buffalo.",
+          "statement_id": "Dalam Purana, Yama dilukiskan berlengan empat, bertaring mencuat, berkulit seperti awan badai, berwajah murka, dikelilingi karangan api, berpakaian merah, kuning, atau biru, memegang jerat serta gada atau pedang, dan menunggang kerbau air.",
+          "quote": "In Puranas, Yama is described as having four arms, protruding fangs, and complexion of storm clouds, with a wrathful expression; surrounded by a garland of flames; dressed in red, yellow, or blue garments; holding a noose and a mace or sword; and riding a water-buffalo.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c27",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that throughout Vedic literature Yama becomes more and more associated with the negative aspects of death and eventually becomes the god of death.",
+          "statement_id": "Wikipedia mencatat bahwa sepanjang sastra Weda Yama makin lekat dengan sisi gelap kematian hingga akhirnya menjadi dewa kematian.",
+          "quote": "Throughout the course of Vedic literature, Yama becomes more and more associated with the negative aspects of death and eventually becomes the god of death.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c28",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Yama has two four-eyed, broad-nosed, reddish-brown dogs, Sharvara and Shyama, sons of Sarama; in the Atharvaveda one is brindled and the other dark.",
+          "statement_id": "Menurut Wikipedia, Yama memiliki dua anjing berempat mata berhidung lebar berwarna cokelat kemerahan, Sharvara dan Shyama, putra Sarama; dalam Atharwaweda salah satunya belang dan yang lain gelap.",
+          "quote": "Yama has two four-eyed, broad nosed, brindled, reddish-brown dogs, Sharvara and Shyama, who are the sons of Saramā. However, in the Atharvaveda, one of dogs is brindled and the other is dark.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yama-c29",
+          "source_id": "yama-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that Yama is revered in Tibet as the Lord of Death and as a guardian of spiritual practice.",
+          "statement_id": "Wikipedia mencatat bahwa Yama dihormati di Tibet sebagai Penguasa Kematian dan pelindung latihan spiritual.",
+          "quote": "Yama is revered in Tibet as the Lord of Death and as a guardian of spiritual practice.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "42b4000f18eae61183d977f9a4cc4c44e509c0d09225772498994f905180e21f"
+      "images": []
     },
     {
       "slug": "radha",
@@ -1012,10 +1608,11 @@
     },
     {
       "slug": "naga",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "4379b2e3d5b1f64af5739edb7cfeec8caf217250808e23586539687190736a20",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 29,
         "sources": 3,
         "images": 0
       },
@@ -1027,9 +1624,9 @@
           "host": "en.wikipedia.org",
           "statement": "Nagas are a class of divine or semidivine human and serpent beings in Asian traditions.",
           "statement_id": "Naga adalah kelompok makhluk ilahi atau setengah ilahi berbentuk manusia dan ular dalam tradisi Asia.",
-          "quote": "In various Asian religious traditions, the Nāgas (Sanskrit: नाग, romanized: Nāga) are a divine, or semi-divine, race of half-human, half-serpent beings that reside in the netherworld (Patala), and can occasionally take human or part-human form, or are so depicted in art. Furthermore, nāgas are also known as dragons and water spirits.",
+          "quote": "In various Asian religious traditions, the Nāgas ... are a divine, or semi-divine, race of half-human, half-serpent beings",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "naga-c02",
@@ -1037,9 +1634,9 @@
           "host": "en.wikipedia.org",
           "statement": "Their dwelling is called Patala, the netherworld.",
           "statement_id": "Tempat tinggalnya disebut Patala, alam bawah.",
-          "quote": "In various Asian religious traditions, the Nāgas (Sanskrit: नाग, romanized: Nāga) are a divine, or semi-divine, race of half-human, half-serpent beings that reside in the netherworld (Patala), and can occasionally take human or part-human form, or are so depicted in art. Furthermore, nāgas are also known as dragons and water spirits.",
+          "quote": "that reside in the netherworld (Patala), and can occasionally take human or part-human form, or are so depicted in art.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "naga-c03",
@@ -1057,9 +1654,9 @@
           "host": "en.wikipedia.org",
           "statement": "A female naga is called Nagini.",
           "statement_id": "Naga perempuan disebut Nagini.",
-          "quote": "In various Asian religious traditions, the Nāgas (Sanskrit: नाग, romanized: Nāga) are a divine, or semi-divine, race of half-human, half-serpent beings that reside in the netherworld (Patala), and can occasionally take human or part-human form, or are so depicted in art. Furthermore, nāgas are also known as dragons and water spirits.",
+          "quote": "A female nāga is called a Nagini",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "naga-c05",
@@ -1077,7 +1674,7 @@
           "host": "en.wikipedia.org",
           "statement": "Nagaraja is the title of the king of nagas.",
           "statement_id": "Nagaraja adalah gelar raja para naga.",
-          "quote": "Nagaraja is the title given to the king of the nāgas. Narratives of these beings hold cultural significance in the mythological traditions of many South Asian and Southeast Asian cultures, and within Hinduism and Buddhism. Communities such as the Nagavamshi, Khmer and Sri Lankan Tamils claim descent from this race.",
+          "quote": "Nagaraja is the title given to the king of the nāgas.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1087,7 +1684,7 @@
           "host": "en.wikipedia.org",
           "statement": "Their narratives are important in Hindu and Buddhist traditions in South and Southeast Asia.",
           "statement_id": "Kisah mereka penting dalam tradisi Hindu dan Buddha di Asia Selatan serta Tenggara.",
-          "quote": "Nagaraja is the title given to the king of the nāgas. Narratives of these beings hold cultural significance in the mythological traditions of many South Asian and Southeast Asian cultures, and within Hinduism and Buddhism. Communities such as the Nagavamshi, Khmer and Sri Lankan Tamils claim descent from this race.",
+          "quote": "Narratives of these beings hold cultural significance in the mythological traditions of many South Asian and Southeast Asian cultures, and within Hinduism and Buddhism.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1097,9 +1694,9 @@
           "host": "en.wikipedia.org",
           "statement": "Naga in Sanskrit primarily means snake, often the Indian cobra.",
           "statement_id": "Naga dalam Sanskerta terutama berarti ular, sering kali kobra India.",
-          "quote": "In Sanskrit, a nāga (नाग) primarily refers to a snake, most often specifically the Indian cobra (Naja naja). However, the term is also used generically to denote any snake, sharing this broader meaning with other common Sanskrit synonyms such as sarpa (सर्प) and phaṇin (फणिन्).",
+          "quote": "In Sanskrit, a nāga ... primarily refers to a snake, most often specifically the Indian cobra (Naja naja).",
           "context": "etymology",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "naga-c09",
@@ -1159,9 +1756,7 @@
           "statement_id": "Mackenzie membahas naga sebagai setengah dewa yang kadang membantu manusia dan memberi minuman penambah kekuatan dalam cerita.",
           "quote": "When serpent worship became prevalent among the\r\nAryans, the Nagas were regarded as demigods. They\r\nwere occasionally “the friends of man”, and to those\r\nthey favoured they gave draughts of their nectar, which\r\nendowed them with great strength. Their city was the\r\nParadise of serpent worshippers. The female Nagas\r\nwere beautiful nymphs, who were sometimes wooed by\r\nmortals.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "naga-c15",
@@ -1172,17 +1767,157 @@
           "quote": "Nagas continue to be important divinities in local piety, for they control the forces of water, essential for prosperity.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "naga-c16",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia adds that nāgas are also known as dragons and water spirits.",
+          "statement_id": "Wikipedia menambahkan bahwa naga juga dikenal sebagai dragon dan roh air.",
+          "quote": "Furthermore, nāgas are also known as dragons and water spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c17",
+          "source_id": "naga-s3",
+          "host": "www.clevelandart.org",
+          "statement": "The Cleveland Museum of Art reads the coils of a serpent's body and the bottle of water in the figure's hand as confirming it as a water serpent divinity called a naga.",
+          "statement_id": "Museum Seni Cleveland membaca lilitan tubuh ular dan botol air di tangan arca itu sebagai tanda bahwa tokohnya adalah dewa ular air yang disebut naga.",
+          "quote": "The coils of a serpent's body and the bottle of water in his hand confirm the identity of this figure as a water serpent divinity called a naga.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c18",
+          "source_id": "naga-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie describes the Nagas as demoniac cobras dwelling in the Underworld, human to the waist and serpent below; their king is Shesha, also named Vasuki and Karkotaka, sometimes shown with a thousand heads.",
+          "statement_id": "Mackenzie menyebut para Naga sebagai kobra setan yang menghuni dunia bawah, berwujud manusia hingga pinggang dan seperti ular di bawahnya; rajanya Shesha, yang juga disebut Vasuki dan Karkotaka, kadang digambarkan berkepala seribu.",
+          "quote": "In the Underworld dwell also the Nagas, the demoniac Cobras; they are of human form to the waist, the rest of their bodies being like those of serpents. Their king is Shesha, who is also named Vasuki and Karkotáka; he is sometimes represented with a thousand heads",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c19",
+          "source_id": "naga-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the account of the heaven of Varuna that Mackenzie quotes, hooded snakes (Nagas) with human heads and arms wait upon the lord of the waters, together with Daityas and Danavas.",
+          "statement_id": "Dalam uraian surga Varuna yang dikutip Mackenzie, ular berkerudung (Naga) berkepala dan berlengan manusia melayani penguasa perairan, bersama para Daitya dan Danava.",
+          "quote": "Varuna, richly decked with jewels and golden ornaments and flowers, is throned there with his queen. ... wait upon the lord of the waters, as also do hooded snakes (Nagas) with human heads and arms, and Daityas and Danavas (giants and demons) who have taken vows and have been rewarded with immortality.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c20",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, ancient Sanskrit texts such as the Mahabharata, Ramayana, and Puranas describe the nāgas as a powerful, splendid, and proud semi-divine species that can appear as human (often with a halo of cobra hoods), as a partially human serpent, or as a whole serpent.",
+          "statement_id": "Menurut Wikipedia, teks Sanskerta kuno seperti Mahabharata, Ramayana, dan Purana menggambarkan naga sebagai spesies semi-ilahi yang perkasa, megah, dan angkuh, yang dapat tampil sebagai manusia (sering dengan lingkaran tudung kobra di belakang kepala), ular setengah manusia, atau ular utuh.",
+          "quote": "Ancient Sanskrit texts such as the Mahabharata, the Ramayana, and the Puranas describe the nāgas as a powerful, splendid and proud semi-divine species that can assume their physical form either as human (often with a halo of cobra hoods behind their head), as a partially human serpent, or as a whole serpent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c21",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, their power and venom make nāgas potentially dangerous to humans, but in Hindu mythology they often play benevolent roles; in the Samudra Manthana, Vasuki, a nagaraja who abides on Shiva's neck, becomes the churning rope for the Ocean of Milk.",
+          "statement_id": "Menurut Wikipedia, kekuatan dan bisa naga berpotensi membahayakan manusia, tetapi dalam mitologi Hindu mereka sering menjadi tokoh yang baik hati; dalam Samudra Manthana, Vasuki, nagaraja yang bersemayam di leher Shiva, menjadi tali untuk mengaduk Lautan Susu.",
+          "quote": "Their power and venom make them potentially dangerous to humans. However, in Hindu mythology, they often take the role of benevolent protagonists: in the Samudra Manthana, Vasuki, a nagaraja who abides on Shiva's neck, became the churning rope for churning of the Ocean of Milk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c22",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that the eternal archrival of the nāgas is Garuda, the legendary semi-divine bird-like deity.",
+          "statement_id": "Wikipedia mencatat bahwa musuh bebuyutan abadi para naga adalah Garuda, dewa mirip burung yang legendaris dan semi-ilahi.",
+          "quote": "Their eternal archrival is the Garuḍa, the legendary semi-divine bird-like deity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c23",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Mahabharata is the first text to introduce nāgas; the cosmic snake Shesha, the nagarajas Vasuki, Takshaka, Airavata, and Karkotaka, and the princess Ulupi all appear in it.",
+          "statement_id": "Menurut Wikipedia, Mahabharata adalah teks pertama yang memperkenalkan naga; di dalamnya tampil ular kosmik Shesha, para nagaraja Vasuki, Takshaka, Airavata, dan Karkotaka, serta putri Ulupi.",
+          "quote": "The Mahabharata epic is the first text that introduces nāgas; it describes them in detail and narrates their stories. The cosmic snake Shesha, the nagarajas (nāga kings) Vasuki, Takshaka, Airavata and Karkotaka, and the princess Ulupi, are all depicted in the Mahabharata.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c24",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Buddhist tradition, Mucalinda, nagaraja and protector of the Buddha, shelters the meditating Buddha from a great storm by covering his head with his seven snake heads.",
+          "statement_id": "Dalam tradisi Buddha, Mucalinda, nagaraja pelindung Buddha, menaungi Buddha yang bermeditasi di hutan dari badai besar dengan menutupi kepala Buddha dengan tujuh kepala ularnya.",
+          "quote": "Among the notable nāgas of Buddhist tradition is Mucalinda, nagaraja and protector of the Buddha. In the Vinaya Sutra (I, 3), shortly after his enlightenment, the Buddha is meditating in a forest when a great storm arises, but graciously, King Mucalinda gives shelter to the Buddha from the storm by covering the Buddha's head with his seven snake heads.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c25",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the Khmer people regard themselves as descendants of the nāgas, and many still believe the nāgas exist today and are destined to return and restore prosperity to their people.",
+          "statement_id": "Menurut Wikipedia, orang Khmer menganggap diri keturunan para naga dan banyak yang masih percaya bahwa naga ada hingga kini dan ditakdirkan kembali untuk memulihkan kemakmuran rakyat mereka.",
+          "quote": "The Khmer people regard themselves as descendants of the nāgas and many still believe the nāga exist today, destined to one day return and restore prosperity to their people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c26",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to a popular legend, the Mekong River in north-eastern Thailand and Laos was created by two Nāga kings slithering through the area, which also created the nearby Nan River.",
+          "statement_id": "Menurut legenda populer, Sungai Mekong di timur laut Thailand dan Laos tercipta oleh dua raja Naga yang menggeliat di kawasan itu, sehingga terbentuk pula Sungai Nan di dekatnya.",
+          "quote": "According to a popular legend, the Mekong River in north-eastern Thailand and Laos was said to be created by two Nāga kings slithering through the area, thus creating the Mekong and the nearby Nan River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c27",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Tibetan Buddhism, nāgas are known as klu or klu-mo and are associated with water and cleanliness; they live in oceans, rivers, lakes, and springs and do not want their environments disturbed or polluted.",
+          "statement_id": "Dalam Buddhisme Tibet, naga dikenal sebagai klu atau klu-mo dan dikaitkan dengan air serta kebersihan; mereka hidup di samudra, sungai, danau, dan mata air, dan tidak ingin lingkungannya diganggu atau dicemari.",
+          "quote": "In Tibetan Buddhism, nāgas are known as klu or klu-mo and they are associated with water and cleanliness, as they live in oceans, rivers, lakes, and springs, and do not want their environments to be disturbed or polluted.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c28",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Javanese, Sundanese, and Balinese culture in Indonesia, a nāga is depicted as a crowned, giant, magical serpent, sometimes winged.",
+          "statement_id": "Dalam budaya Jawa, Sunda, dan Bali di Indonesia, naga digambarkan sebagai ular raksasa bermahkota yang berdaya sihir dan kadang bersayap.",
+          "quote": "In Javanese, Sundanese, and Balinese culture, Indonesia, a nāga is depicted as a crowned, giant, magical serpent, sometimes winged.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "naga-c29",
+          "source_id": "naga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Balinese tradition, nāgas are often depicted battling garuḍas.",
+          "statement_id": "Dalam tradisi Bali, naga sering digambarkan bertarung melawan garuda.",
+          "quote": "In Balinese tradition, nāgas are often depicted battling garuḍas.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f72c418d88549af5571265c2ca7b4c8eb443e99790ffbc29880ae3bb3a980310"
+      "images": []
     },
     {
       "slug": "deva-hinduism",
-      "file": "batch-072-fix-1.md",
+      "file": "batch-072-fix-4.md",
+      "entry_sha256": "04cc27f3b1bcbd1e1f78f55929d9ede05d25a7f6b9963e13574da5e92b93c138",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 26,
         "sources": 3,
         "images": 0
       },
@@ -1194,9 +1929,9 @@
           "host": "en.wikipedia.org",
           "statement": "Deva is a Sanskrit term for a god or divine being in Hinduism.",
           "statement_id": "Deva adalah istilah Sanskerta untuk dewa atau makhluk ilahi dalam agama Hindu.",
-          "quote": "Deva (Sanskrit: देव, Sanskrit pronunciation: [de:ʋɐ]) means 'god', 'shiny', 'exalted', 'heavenly being', 'divine being', 'anything of excellence', and is also one of the Sanskrit terms used to indicate a deity in Hinduism. Deva is a masculine term; the feminine equivalent is Devi. The word is a cognate with Latin deus ('god') and Greek Zeus.",
+          "quote": "Deva ... and is also one of the Sanskrit terms used to indicate a deity in Hinduism.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "deva-hinduism-c02",
@@ -1204,9 +1939,9 @@
           "host": "en.wikipedia.org",
           "statement": "Deva is masculine, with the feminine form Devi.",
           "statement_id": "Deva bersifat maskulin, dengan bentuk feminin Devi.",
-          "quote": "Deva (Sanskrit: देव, Sanskrit pronunciation: [de:ʋɐ]) means 'god', 'shiny', 'exalted', 'heavenly being', 'divine being', 'anything of excellence', and is also one of the Sanskrit terms used to indicate a deity in Hinduism. Deva is a masculine term; the feminine equivalent is Devi. The word is a cognate with Latin deus ('god') and Greek Zeus.",
+          "quote": "Deva is a masculine term; the feminine equivalent is Devi.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "deva-hinduism-c03",
@@ -1214,9 +1949,9 @@
           "host": "en.wikipedia.org",
           "statement": "Its meanings include shining, exalted, and heavenly being.",
           "statement_id": "Maknanya mencakup bersinar, luhur, dan makhluk surgawi.",
-          "quote": "Deva (Sanskrit: देव, Sanskrit pronunciation: [de:ʋɐ]) means 'god', 'shiny', 'exalted', 'heavenly being', 'divine being', 'anything of excellence', and is also one of the Sanskrit terms used to indicate a deity in Hinduism. Deva is a masculine term; the feminine equivalent is Devi. The word is a cognate with Latin deus ('god') and Greek Zeus.",
+          "quote": "Deva ... means 'god', 'shiny', 'exalted', 'heavenly being', 'divine being', 'anything of excellence'",
           "context": "etymology",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "deva-hinduism-c04",
@@ -1224,7 +1959,7 @@
           "host": "en.wikipedia.org",
           "statement": "Early Vedic literature uses Deva and Asura for supernatural beings, with meanings that later change.",
           "statement_id": "Literatur Weda awal menggunakan Deva dan Asura untuk makhluk gaib, dengan pemaknaan yang berubah kemudian.",
-          "quote": "In the earliest Vedic literature, all supernatural beings are called Devas and Asuras. The concepts and legends evolved in ancient Indian literature, and by the late Vedic period, benevolent supernatural beings are referred to as Deva-Asuras. In post-Vedic Hindu texts, such as the Puranas and the Itihasas of Hinduism, the Devas represent the good, and the Asuras the bad.",
+          "quote": "In the earliest Vedic literature, all supernatural beings are called Devas and Asuras. The concepts and legends evolved in ancient Indian literature, and by the late Vedic period, benevolent supernatural beings are referred to as Deva-Asuras.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1234,7 +1969,7 @@
           "host": "en.wikipedia.org",
           "statement": "In post Vedic texts, devas represent good and asuras evil.",
           "statement_id": "Dalam teks pasca-Weda, deva mewakili kebaikan dan asura keburukan.",
-          "quote": "In the earliest Vedic literature, all supernatural beings are called Devas and Asuras. The concepts and legends evolved in ancient Indian literature, and by the late Vedic period, benevolent supernatural beings are referred to as Deva-Asuras. In post-Vedic Hindu texts, such as the Puranas and the Itihasas of Hinduism, the Devas represent the good, and the Asuras the bad.",
+          "quote": "In post-Vedic Hindu texts, such as the Puranas and the Itihasas of Hinduism, the Devas represent the good, and the Asuras the bad.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1244,7 +1979,7 @@
           "host": "en.wikipedia.org",
           "statement": "Some medieval works also use Sura as a name for devas.",
           "statement_id": "Sebagian karya abad pertengahan juga memakai nama Sura untuk deva.",
-          "quote": "In the earliest Vedic literature, all supernatural beings are called Devas and Asuras. The concepts and legends evolved in ancient Indian literature, and by the late Vedic period, benevolent supernatural beings are referred to as Deva-Asuras. In post-Vedic Hindu texts, such as the Puranas and the Itihasas of Hinduism, the Devas represent the good, and the Asuras the bad.",
+          "quote": "In some medieval works of Indian literature, Devas are also referred to as Suras and contrasted with their equally powerful but malevolent half-brothers, referred to as the Asuras.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1264,7 +1999,7 @@
           "host": "en.wikipedia.org",
           "statement": "The Samhitas describe 33 devas divided into eleven in each of three worlds.",
           "statement_id": "Samhita menyebut 33 deva dengan pembagian sebelas pada masing-masing dari tiga dunia.",
-          "quote": "The Samhitas, which are the oldest layer of text in Vedas, enumerate 33 devas, either 11 each for the three worlds, or as 12 Adityas, 11 Rudras, 8 Vasus and 2 Asvins in the Brahmanas layer of Vedic texts. The Rigveda states in hymn 1.139.11,",
+          "quote": "The Samhitas, which are the oldest layer of text in Vedas, enumerate 33 devas, either 11 each for the three worlds",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1274,7 +2009,7 @@
           "host": "en.wikipedia.org",
           "statement": "The Brahmana layer uses a division of 12 Adityas, 11 Rudras, 8 Vasus, and 2 Asvins.",
           "statement_id": "Lapisan Brahmana memakai pembagian 12 Aditya, 11 Rudra, 8 Vasu, dan 2 Aswin.",
-          "quote": "The Samhitas, which are the oldest layer of text in Vedas, enumerate 33 devas, either 11 each for the three worlds, or as 12 Adityas, 11 Rudras, 8 Vasus and 2 Asvins in the Brahmanas layer of Vedic texts. The Rigveda states in hymn 1.139.11,",
+          "quote": "or as 12 Adityas, 11 Rudras, 8 Vasus and 2 Asvins in the Brahmanas layer of Vedic texts.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1326,9 +2061,7 @@
           "statement_id": "Mackenzie mengutip kisah yang membedakan deva memilih kebenaran dan asura memilih kebohongan.",
           "quote": "This explanation is but an echo of the Indra-Vritra\r\ncombat. Another statement is to the effect that “the\r\nDevas gave up falsehood and adopted truth, while the\r\nAsuras gave up truth and adopted falsehood”. Further,\r\nwe learn that when a sacrifice was performed the Asuras\r\nput the offerings into their own mouths, while the Suras\r\n(gods) gave the offerings they received to one another.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "deva-hinduism-c15",
@@ -1339,17 +2072,127 @@
           "quote": "O ye Eleven Gods whose home is heaven, O ye Eleven who make earth your dwelling,\n     Ye who with might, Eleven, live in waters, accept this sacrifice, O Gods, with pleasure.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c16",
+          "source_id": "deva-hinduism-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie writes that the gods are the Suras and the demons the Asuras or \"non-gods,\" but that this distinction did not hold in the early Vedic period.",
+          "statement_id": "Mackenzie menulis bahwa para dewa adalah Sura dan para iblis adalah Asura atau \"bukan-dewa\", tetapi pembedaan ini belum berlaku pada masa Weda awal.",
+          "quote": "The gods are the Suras and the demons the Asuras or “non-gods”. This distinction, however, did not obtain in the early Vedic period.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c17",
+          "source_id": "deva-hinduism-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mackenzie, the deities, especially Varuna and Mitra, were originally called Asuras, but in the later part of the Rigveda the term is applied chiefly to the enemies of the gods.",
+          "statement_id": "Menurut Mackenzie, pada mulanya para dewa, terutama Varuna dan Mitra, disebut Asura, tetapi pada bagian akhir Rigveda istilah itu dipakai terutama untuk musuh para dewa.",
+          "quote": "Originally the deities, and especially Varuna and Mitra, were called Asuras, but in the later part of the Rigveda the term is applied chiefly to the enemies of the gods.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c18",
+          "source_id": "deva-hinduism-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie notes that \"daeva\" in the Iranian dialect, cognate with Sanskrit \"deva\" (\"god\"), came to mean \"demon.\"",
+          "statement_id": "Mackenzie mencatat bahwa \"daeva\" dalam dialek Iran, yang sekerabat dengan \"deva\" Sanskerta (\"dewa\"), akhirnya berarti \"iblis\".",
+          "quote": "On the other hand “daeva” in the Iranian dialect, which is cognate with Sanskrit “deva”, “god”, came to mean “demon”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c19",
+          "source_id": "deva-hinduism-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Mackenzie, \"asura\" derives from the root \"asu,\" which signifies \"the air of life,\" and \"deva\" from \"div,\" \"to shine,\" or \"deiwo,\" \"heavenly.\"",
+          "statement_id": "Menurut Mackenzie, \"asura\" berasal dari akar \"asu\" yang berarti \"napas kehidupan\", sedangkan \"deva\" berasal dari \"div\" (\"bersinar\") atau \"deiwo\" (\"surgawi\").",
+          "quote": "“Asura” is derived from the root “asu”, which signifies “the air of life”, and “deva” from “div”, “to shine”, or “deiwo”, “heavenly”.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c20",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia states that deva is a Sanskrit word found in Vedic literature of the 2nd millennium BCE.",
+          "statement_id": "Wikipedia menyatakan bahwa deva adalah kata Sanskerta yang dijumpai dalam sastra Weda milenium ke-2 SM.",
+          "quote": "Deva is a Sanskrit word found in Vedic literature of the 2nd millennium BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c21",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in Vedic literature Deva is not a monotheistic God but a \"supernatural, divine\" concept that combines excellence in some aspects with weakness and questions in others, heroic in outlook and action, yet tied to emotions and desires.",
+          "statement_id": "Menurut Wikipedia, dalam sastra Weda Deva bukanlah Tuhan monoteistik, melainkan konsep \"adikodrati dan ilahi\" yang memadukan keunggulan di satu sisi dengan kelemahan dan pertanyaan di sisi lain, heroik dalam sikap dan tindakan, tetapi terikat pada emosi dan keinginan.",
+          "quote": "In Vedic literature, Deva is not a monotheistic God; rather a \"supernatural, divine\" concept manifesting in various ideas and knowledge, in a form that combines excellence in some aspects, wrestling with weakness and questions in other aspects, heroic in their outlook and actions, yet tied up with emotions and desires.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c22",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in the oldest layer of Vedic texts all-powerful beings, good or evil, are called Devas and Asuras; they are born from the same father, Prajapati, the primordial progenitor, and his sons are envisioned as the Asuras and Devas.",
+          "statement_id": "Menurut Wikipedia, pada lapisan tertua teks Weda makhluk perkasa, baik atau jahat, disebut Deva dan Asura; mereka lahir dari ayah yang sama, Prajapati, sang pencipta awal, dan putra-putranya dibayangkan sebagai para Asura dan Deva.",
+          "quote": "All-powerful beings, good or evil, are called Devas and Asuras in the oldest layer of Vedic texts. ... They are born from the same father, Prajapati, the primordial progenitor; his sons are envisioned as the Asuras and Devas.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c23",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Mantra 5.2.1 of the Brihadaranyaka Upanishad describes Devas, men, and Asuras as sons of Prajapati; Prajapati tells the Devas to observe temperance (Dama), men charity (Dana), and Asuras compassion (Daya).",
+          "statement_id": "Menurut Wikipedia, Mantra 5.2.1 Brihadaranyaka Upanishad menyebut Deva, manusia, dan Asura sebagai putra Prajapati; Prajapati menasihati Deva untuk menjaga pengendalian diri (Dama), manusia untuk bersedekah (Dana), dan Asura untuk berwelas asih (Daya).",
+          "quote": "Mantra 5.2.1 of the Brihadaranyaka Upanishad describes Devas, Men, and Asuras as sons of Prajapati, the primordial father. Each asks for a lesson on ethics. Prajapati tells the Devas to observe the virtue of temperance (self-restraint, Dama), the Men to observe the virtue of charity (Dana), and Asuras to observe the virtue of compassion (Daya).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c24",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Bhagavad Gita (16.6-16.7), as Wikipedia records, all beings in the universe have both divine qualities (daivi sampad) and demonic qualities (asuri sampad) within each.",
+          "statement_id": "Menurut Bhagavad Gita (16.6-16.7), sebagaimana dicatat Wikipedia, semua makhluk di alam semesta memiliki sifat ilahi (daivi sampad) sekaligus sifat iblis (asuri sampad) dalam dirinya.",
+          "quote": "According to the Bhagavad Gita (16.6-16.7), all beings in the universe have both the divine qualities (daivi sampad) and the demonic qualities (asuri sampad) within each.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c25",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Ananda Coomaraswamy states that Devas and Asuras in Vedic lore are similar to the Olympian gods and Titans of Greek mythology.",
+          "statement_id": "Menurut Wikipedia, Ananda Coomaraswamy menyatakan bahwa Deva dan Asura dalam tradisi Weda mirip dengan para dewa Olympus (Olympian) dan para Titan dalam mitologi Yunani.",
+          "quote": "Ananda Coomaraswamy states that Devas and Asuras in the Vedic lore are similar to the Olympian gods and Titans of Greek mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "deva-hinduism-c26",
+          "source_id": "deva-hinduism-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Edelmann suggests that the Deva-Asura dichotomies in Hindu mythology may be seen as \"narrative depictions of tendencies within our selves.\"",
+          "statement_id": "Menurut Wikipedia, Edelmann menyarankan bahwa pertentangan Deva dan Asura dalam mitologi Hindu dapat dilihat sebagai \"gambaran naratif kecenderungan dalam diri kita\".",
+          "quote": "Edelmann suggests that the Deva-Asura dichotomies in Hindu mythology may be seen as \"narrative depictions of tendencies within our selves\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "68fd6243afba21ab2fd4b1ca5c7bfcee788337f824f5f30c674d3c7b5a5cd436"
+      "images": []
     },
     {
       "slug": "apsara",
-      "file": "batch-072-fix-1.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "96b65baa9cc4772430e709fb313bc6f6b08592b5c1e615419698b444fc397c3d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 21,
         "sources": 3,
         "images": 0
       },
@@ -1371,7 +2214,7 @@
           "host": "en.wikipedia.org",
           "statement": "They are known as dancers at Indra's court.",
           "statement_id": "Mereka dikenal sebagai penari istana Indra.",
-          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "quote": "Later Hindu scriptures allow for the existence of numerous apsaras, who act as the handmaidens of Indra or as dancers at his celestial court serving as musicians alongside the gandharvas",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1381,7 +2224,7 @@
           "host": "en.wikipedia.org",
           "statement": "Gandharvas are associated with them as musicians and partners.",
           "statement_id": "Gandharva berhubungan dengan mereka sebagai musisi dan pasangan.",
-          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "quote": "They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1389,9 +2232,9 @@
           "id": "apsara-c04",
           "source_id": "apsara-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some accounts give them the ability to change shape.",
-          "statement_id": "Sebagian kisah memberi mereka kemampuan mengubah wujud.",
-          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "statement": "Apsaras are described as able to change their shape at will.",
+          "statement_id": "Apsara digambarkan dapat mengubah wujud sesuka hati.",
+          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1399,9 +2242,9 @@
           "id": "apsara-c05",
           "source_id": "apsara-s1",
           "host": "en.wikipedia.org",
-          "statement": "Indra sends apsaras to tempt ascetic sages in several stories.",
-          "statement_id": "Indra mengirim apsara menggoda resi yang bertapa dalam sejumlah cerita.",
-          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "statement": "Apsaras are well known for a special task: being sent to earth by Indra to seduce ascetics whose severe practices may make them more powerful than the gods.",
+          "statement_id": "Apsara dikenal dengan tugas khusus: dikirim Indra ke bumi untuk menggoda para pertapa yang karena tapa kerasnya bisa menjadi lebih kuat daripada para dewa.",
+          "quote": "They are well known for their special task: being sent to earth by Indra to seduce ascetics who by their severe practices may become more powerful than the gods.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1493,9 +2336,7 @@
           "statement_id": "Mackenzie menuturkan apsara menari ketika Gandharva memainkan alat musik ilahi.",
           "quote": "When they play on their divine instruments the fairy-like\r\nApsaras, who are all females, dance merrily.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "apsara-c15",
@@ -1506,17 +2347,77 @@
           "quote": "Apsaras c. 1920 France or Cambodia ... This sculpture has been carved in the style of the reliefs depicting celestial maidens at the \"Terrace of the Leper King\" in Angkor Thom.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "apsara-c16",
+          "source_id": "apsara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Two types of apsaras are distinguished: laukika (worldly) and daivika (divine).",
+          "statement_id": "Dibedakan dua jenis apsara: laukika (duniawi) dan daivika (ilahi).",
+          "quote": "There are two types of apsaras—laukika (worldly) and daivika (divine).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsara-c17",
+          "source_id": "apsara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Of the 26 apsaras at Indra's court, each is said to stand for a separate aspect of the performing arts, and the group is compared to the Muses of Ancient Greece.",
+          "statement_id": "Dari 26 apsara di istana Indra, masing-masing dikatakan melambangkan satu segi seni pertunjukan, sehingga dibandingkan dengan Muse Yunani Kuno.",
+          "quote": "The 26 apsaras of Indra's court are each said to symbolise a different facet of the performing arts, drawing comparisons to the Muses of Ancient Greece.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsara-c18",
+          "source_id": "apsara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A recurring theme in the Mahabharata is an apsara sent to distract a sage from his ascetic practices.",
+          "statement_id": "Dalam Mahabharata, tema yang berulang adalah apsara yang diutus untuk mengalihkan seorang resi dari tapanya.",
+          "quote": "A recurring theme in the Mahabharata is that of an apsara sent to distract a sage from his ascetic practices.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apsara-c19",
+          "source_id": "apsara-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie states that in the Rigveda there is a water-nymph named Apsaras, the \"spouse\" of Gandharva, an atmospheric deity.",
+          "statement_id": "Mackenzie menyebut bahwa dalam Rigveda ada seorang nimfa air bernama Apsaras, yang menjadi \"pasangan\" Gandharva, dewa atmosfer.",
+          "quote": "In the Rigveda there is a water-nymph, named Apsaras; she is the “spouse” of Gandharva, an atmospheric deity who prepares Soma for the gods and reveals divine truths to mortals.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apsara-c20",
+          "source_id": "apsara-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie describes the Apsara dancing girls as \"voluptuous and beautiful\", inspiring love in Paradise and on earth; their lovers include gods, Gandharvas, and mortals.",
+          "statement_id": "Mackenzie menggambarkan para penari Apsara sebagai \"menggairahkan dan cantik\", yang membangkitkan cinta di surga maupun di bumi; kekasih mereka meliputi dewa, Gandharva, dan manusia.",
+          "quote": "The Apsara dancing girls are “voluptuous and beautiful”, and inspire love in Paradise as well as upon earth. Their lovers include gods, Gandharvas, and mortals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsara-c21",
+          "source_id": "apsara-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Mackenzie's retelling, the Apsaras arose from the ocean after the moon and became nymphs in Indra's heaven.",
+          "statement_id": "Dalam penuturan Mackenzie, apsara muncul dari lautan setelah bulan muncul dan menjadi nimfa di surga Indra.",
+          "quote": "At length the moon emerged from the ocean; then arose the Apsaras, who became nymphs in Indra's heaven",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a4daf04bbc81e6a92bb6141a89581827e80e764bc18c38d7cd14aef5f045e637"
+      "images": []
     },
     {
       "slug": "devi",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "7ed130ce09be532ee426f1b8fda88f58220956f42eacc4e4dec779da5c0816de",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 23,
         "sources": 3,
         "images": 0
       },
@@ -1526,9 +2427,9 @@
           "id": "devi-c01",
           "source_id": "devi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Devi is the Sanskrit term for a goddess in Indian religions.",
-          "statement_id": "Devi adalah istilah Sanskerta untuk dewi dalam agama India.",
-          "quote": "Devī (/ˈdeɪvi/; Sanskrit: देवी) is the Sanskrit word for 'goddess'; the masculine form is Deva. Devi and Deva mean 'heavenly, divine, anything of excellence', and are gender-specific terms for deity in Indian religions.",
+          "statement": "Devi is the Sanskrit word for 'goddess'; the masculine form is Deva.",
+          "statement_id": "Devi adalah kata Sanskerta untuk 'dewi'; bentuk maskulinnya adalah Deva.",
+          "quote": "Devī (/ˈdeɪvi/; Sanskrit: देवी) is the Sanskrit word for 'goddess'; the masculine form is Deva.",
           "context": "religious-tradition",
           "status": "loose"
         },
@@ -1536,11 +2437,11 @@
           "id": "devi-c02",
           "source_id": "devi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its masculine counterpart is Deva.",
-          "statement_id": "Pasangan istilah maskulinnya adalah Deva.",
-          "quote": "Devī (/ˈdeɪvi/; Sanskrit: देवी) is the Sanskrit word for 'goddess'; the masculine form is Deva. Devi and Deva mean 'heavenly, divine, anything of excellence', and are gender-specific terms for deity in Indian religions.",
+          "statement": "Devi and Deva mean 'heavenly, divine, anything of excellence' and are gender-specific terms for deity in Indian religions.",
+          "statement_id": "Devi dan Deva berarti 'surgawi, ilahi, segala yang unggul' dan merupakan istilah khusus gender untuk dewa dalam agama-agama India.",
+          "quote": "Devi and Deva mean 'heavenly, divine, anything of excellence', and are gender-specific terms for deity in Indian religions.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "devi-c03",
@@ -1618,7 +2519,7 @@
           "host": "en.wikipedia.org",
           "statement": "In Shakta tradition Devi is supreme; Smarta tradition includes her among five primary forms of Brahman.",
           "statement_id": "Dalam tradisi Shakta Devi adalah sosok tertinggi; tradisi Smarta memasukkannya dalam lima bentuk utama Brahman.",
-          "quote": "Devi is the supreme being in the Shakta tradition of Hinduism; in the Smarta tradition, she is one of the five primary forms of Brahman that is revered. In other Hindu traditions, Devi embodies the active energy and power of Deva, and they always appear together complementing each other.",
+          "quote": "Devi is the supreme being in the Shakta tradition of Hinduism; in the Smarta tradition, she is one of the five primary forms of Brahman that is revered.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1628,7 +2529,7 @@
           "host": "en.wikipedia.org",
           "statement": "Other traditions emphasise the goddess's active power complementing her divine partner.",
           "statement_id": "Tradisi lain menekankan daya aktif dewi yang melengkapi dewa pasangan.",
-          "quote": "Devi is the supreme being in the Shakta tradition of Hinduism; in the Smarta tradition, she is one of the five primary forms of Brahman that is revered. In other Hindu traditions, Devi embodies the active energy and power of Deva, and they always appear together complementing each other.",
+          "quote": "In other Hindu traditions, Devi embodies the active energy and power of Deva, and they always appear together complementing each other.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1671,17 +2572,97 @@
           "quote": "I am the Queen, the gatherer-up of treasures, most thoughtful, first of those who merit worship.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "devi-c16",
+          "source_id": "devi-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Devi, also known as Mahadevi or 'Great Goddess', is an all-embracing Mother Goddess first worshipped in India in Prehistoric times.",
+          "statement_id": "Menurut World History Encyclopedia, Devi, yang juga dikenal sebagai Mahadevi atau 'Dewi Agung', adalah Dewi Ibu yang merangkul segalanya dan pertama kali dipuja di India pada zaman prasejarah.",
+          "quote": "Devi, also known as Mahadevi or 'Great Goddess', is an all-embracing Mother Goddess first worshipped in India in Prehistoric times.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c17",
+          "source_id": "devi-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In the Vedic period she was assimilated into the Hindu pantheon and came to represent the female energy or Sakti (Power) of her husband Shiva.",
+          "statement_id": "Pada masa Weda ia diserap ke dalam jajaran dewa Hindu dan mewakili energi perempuan atau Sakti (Daya) suaminya, Shiva.",
+          "quote": "In the Vedic period, she was assimilated into the Hindu pantheon and so came to represent the female energy or Sakti (Power) of her husband Shiva.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c18",
+          "source_id": "devi-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Devi is most often manifested as the fearsome female warriors Durga and Kali, both of whom killed a number of terrible demons in Hindu mythology.",
+          "statement_id": "Devi paling sering mewujud sebagai pejuang perempuan yang menakutkan, Durga dan Kali, yang keduanya dikenal membunuh sejumlah iblis dalam mitologi Hindu.",
+          "quote": "Devi is most often manifested as the fearsome female warriors Durga and Kali, both of whom famously killed a number of terrible demons in Hindu mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c19",
+          "source_id": "devi-s2",
+          "host": "www.worldhistory.org",
+          "statement": "One of Devi's most famous mythological episodes is her slaying of Mahisa, the demon with a man's body and a buffalo's head, as told in the epic poem the Candipat (or Candi-mahatmya), part of the Skanda Purana.",
+          "statement_id": "Salah satu kisah mitologis Devi yang paling terkenal adalah pembunuhannya atas Mahisa, iblis bertubuh manusia dan berkepala kerbau, sebagaimana dituturkan dalam puisi epik Candipat (atau Candi-mahatmya), bagian dari Skanda Purana.",
+          "quote": "One of Devi's most famous mythological escapades is her slaying of Mahisa, the demon who had the body of a man and the head of a buffalo, as told in the epic poem the Candipat (or Candi-mahatmya), which is part of the Skanda Purana.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c20",
+          "source_id": "devi-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Devi's more benevolent side is worshipped as Uma, and this facet of her character is represented as both beauty and light.",
+          "statement_id": "Sisi Devi yang lebih ramah dipuja sebagai Uma, dan segi wataknya ini digambarkan sebagai keindahan sekaligus cahaya.",
+          "quote": "Devi's more benevolent side is worshipped as Uma, and this facet of her character is represented as both beauty and light.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c21",
+          "source_id": "devi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In Rigveda 10.125 the speaker says she travels with the Rudras and the Vasus and wanders with the Adityas and All-Gods.",
+          "statement_id": "Dalam Rigveda 10.125, si pembicara berkata bahwa ia bepergian bersama para Rudra dan Vasu serta mengembara bersama para Aditya dan Semua-Dewa.",
+          "quote": "I TRAVEL with the Rudras and the Vasus, with the Adityas and All-Gods I wander.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c22",
+          "source_id": "devi-s3",
+          "host": "en.wikisource.org",
+          "statement": "In Rigveda 10.125 the speaker says she makes the man she loves exceedingly mighty, a sage, a Rsi, and a Brahman.",
+          "statement_id": "Dalam Rigveda 10.125, si pembicara berkata bahwa ia membuat orang yang dicintainya sangat perkasa, seorang bijak, seorang Rsi, dan seorang Brahmana.",
+          "quote": "I make the man I love exceeding mighty, make him a sage, a Rsi, and a Brahman.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "devi-c23",
+          "source_id": "devi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Vedic times gods and goddesses are distinguished, but in post-Vedic texts, particularly early medieval literature, they are ultimately seen as aspects or manifestations of one Devi, the Supreme Power.",
+          "statement_id": "Pada masa Weda dewa dan dewi dibedakan, tetapi dalam teks pasca-Weda, terutama sastra awal abad pertengahan, semuanya akhirnya dipandang sebagai aspek atau perwujudan satu Devi, Daya Tertinggi.",
+          "quote": "All gods and goddesses are distinguished in Vedic times, but in post-Vedic texts, particularly in the early medieval era literature, they are ultimately seen as aspects or manifestations of one Devi, the Supreme Power.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cfc4cf3ca22f09ecb72c2b34060bee0b4322ff2cdc93be8cb9171c9687a6c67d"
+      "images": []
     },
     {
       "slug": "aditi",
-      "file": "batch-072-fix-1.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "d21c2228a3c85d4dd622632d3318003257fb1e01ec5dc0294ceac5df3a4456a3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 22,
         "sources": 3,
         "images": 0
       },
@@ -1703,7 +2684,7 @@
           "host": "en.wikipedia.org",
           "statement": "She personifies the vastness of the cosmos.",
           "statement_id": "Ia mempersonifikasikan keluasan kosmos.",
-          "quote": "She is the personification of the sprawling infinite and vast cosmos. She is the goddess of motherhood, consciousness, unconsciousness, the past, the future, and fertility. She is the mother of the celestial deities known as the Adityas, and is referred to as the mother of many deities.",
+          "quote": "She is the personification of the sprawling infinite and vast cosmos.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1713,7 +2694,7 @@
           "host": "en.wikipedia.org",
           "statement": "She is associated with motherhood and fertility.",
           "statement_id": "Ia dikaitkan dengan keibuan dan kesuburan.",
-          "quote": "She is the personification of the sprawling infinite and vast cosmos. She is the goddess of motherhood, consciousness, unconsciousness, the past, the future, and fertility. She is the mother of the celestial deities known as the Adityas, and is referred to as the mother of many deities.",
+          "quote": "She is the goddess of motherhood, consciousness, unconsciousness, the past, the future, and fertility.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1723,7 +2704,7 @@
           "host": "en.wikipedia.org",
           "statement": "Aditi is called the mother of the Aditya gods.",
           "statement_id": "Aditi disebut ibu kelompok dewa Aditya.",
-          "quote": "She is the personification of the sprawling infinite and vast cosmos. She is the goddess of motherhood, consciousness, unconsciousness, the past, the future, and fertility. She is the mother of the celestial deities known as the Adityas, and is referred to as the mother of many deities.",
+          "quote": "She is the mother of the celestial deities known as the Adityas, and is referred to as the mother of many deities.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1825,9 +2806,7 @@
           "statement_id": "Versi yang dibahas Mackenzie memberi Aditi delapan putra dan menyebut putra kedelapan yang dibuang lalu dibentuk menjadi Vivasvat.",
           "quote": "Aditi, the mother of the Adityas, who is\r\nbelieved to be of later origin than her children, had eight\r\nsons. She cherished seven of them; the eighth, which\r\nwas a shapeless lump, was thrown away, but was afterwards\r\nmoulded into Vivasvat, the sun;",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "aditi-c15",
@@ -1838,17 +2817,87 @@
           "quote": "Aditi is the heaven, Aditi is mid-air, Aditi is the Mother and the Sire and Son.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "aditi-c16",
+          "source_id": "aditi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As celestial mother of numerous beings, the synthesis of all things, she is associated with space (akasha) and with mystic speech (Vac).",
+          "statement_id": "Sebagai ibu surgawi bagi banyak makhluk, sintesis segala sesuatu, ia dikaitkan dengan ruang (akasha) dan ucapan mistis (Vac).",
+          "quote": "As celestial mother of numerous beings, the synthesis of all things, she is associated with space (akasha) and with mystic speech (Vāc).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c17",
+          "source_id": "aditi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is portrayed as the mother of the Adityas, a group of societal Rigvedic deities, including Varuna, Mitra, Aryaman, Daksha, Bhaga, Amsha, and sometimes Surya and Savitar.",
+          "statement_id": "Ia digambarkan sebagai ibu para Aditya, kelompok dewa Rigveda yang bersifat kemasyarakatan, termasuk Varuna, Mitra, Aryaman, Daksha, Bhaga, Amsha, dan kadang-kadang Surya dan Savitar.",
+          "quote": "She is portrayed as the mother of the Adityas, a group of societal Rigvedic deities, including Varuna, Mitra, Aryaman, Daksha, Bhaga, Amsha, and sometimes Surya and Savitar.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c18",
+          "source_id": "aditi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aditi is said to be the mother of the great god Indra, the mother of kings (Mandala 2.27) and the mother of gods (Mandala 1.113.19).",
+          "statement_id": "Aditi dikatakan sebagai ibu dewa agung Indra, ibu para raja (Mandala 2.27), dan ibu para dewa (Mandala 1.113.19).",
+          "quote": "Aditi is said to be the mother of the great god Indra, the mother of kings (Mandala 2.27) and the mother of gods (Mandala 1.113.19).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c19",
+          "source_id": "aditi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aditi is usually mentioned in the Rigveda along with other gods and goddesses; no single hymn is addressed exclusively to her, unlike other Vedic gods.",
+          "statement_id": "Aditi biasanya disebut dalam Rigveda bersama dewa dan dewi lain; tidak ada satu himne pun yang ditujukan khusus kepadanya, tidak seperti dewa Weda lainnya.",
+          "quote": "Aditi is usually mentioned in the Rigveda along with other gods and goddesses. There is no one hymn addressed exclusively to her, unlike other Vedic gods.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c20",
+          "source_id": "aditi-s2",
+          "host": "en.wikisource.org",
+          "statement": "In Rigveda 1.89.3, Aditi is named among the gods called hither with a hymn of olden time: Bhaga, the friendly Daksa, Mitra, Aditi, Aryaman, Varuna, Soma, and the Asvins.",
+          "statement_id": "Dalam Rigveda 1.89.3, Aditi disebut di antara dewa-dewa yang diundang dengan himne kuno: Bhaga, Daksa yang bersahabat, Mitra, Aditi, Aryaman, Varuna, Soma, dan Asvins.",
+          "quote": "We call them hither with a hymn of olden time, Bhaga, the friendly Daksa, Mitra, Aditi, Aryaman, Varuna, Soma, the Asvins.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c21",
+          "source_id": "aditi-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie writes that Aditi, mother of the Adityas, is believed to be of more recent origin than her sons.",
+          "statement_id": "Mackenzie menulis bahwa Aditi, ibu para Aditya, diyakini berasal dari masa yang lebih baru daripada putra-putranya.",
+          "quote": "Aditi, mother of the Adityas, is believed to be of more recent origin than her sons.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aditi-c22",
+          "source_id": "aditi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aditi and the sage Kashyapa are said to have had 33 sons, twelve of whom are called Adityas including Surya, eleven Rudras, and eight Vasus.",
+          "statement_id": "Aditi dan resi Kashyapa disebut memiliki 33 putra; dua belas di antaranya disebut Aditya termasuk Surya, sebelas disebut Rudra, dan delapan disebut Vasu.",
+          "quote": "Aditi and the sage Kashyapa had 33 sons, out of whom twelve are called Ādityas including Surya, eleven are called Rudras, and eight are called Vasus.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8f5285c417cbb2532c71330cfb9082ad3e96b8e84165ba35334a3456ef6efe7b"
+      "images": []
     },
     {
       "slug": "vayu",
-      "file": "batch-072-fix-1.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "e95ab228fccdef39e4f289442932074d32814932dde7f831804f5f4670ee3be8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
+        "claims": 24,
         "sources": 3,
         "images": 0
       },
@@ -1860,7 +2909,7 @@
           "host": "en.wikipedia.org",
           "statement": "Vayu is the Hindu wind god and divine messenger of the gods.",
           "statement_id": "Vayu adalah dewa angin Hindu dan utusan ilahi para dewa.",
-          "quote": "is the Hindu god of the winds as well as the divine messenger of the gods. In the Vedic scriptures, Vayu is an important deity and is closely associated with Indra, the king of gods.",
+          "quote": "is the Hindu god of the winds as well as the divine messenger of the gods.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1870,7 +2919,7 @@
           "host": "en.wikipedia.org",
           "statement": "His other names include Vata and Pavana.",
           "statement_id": "Nama lainnya termasuk Vata dan Pavana.",
-          "quote": "Vayu (Sanskrit: वायु, romanised: Vāyu, lit. 'Wind/Air'; Sanskrit pronunciation: [ʋaːju]), also known as Vata (Sanskrit: वात, romanised: Vāta, lit. 'Wind/Air') and Pavana (Sanskrit: पवन, romanised: Pávana, lit. 'Purifier'), is the Hindu god of the winds as well as the divine messenger of the gods.",
+          "quote": "also known as Vata (Sanskrit: वात, romanised: Vāta, lit. 'Wind/Air') and Pavana (Sanskrit: पवन, romanised: Pávana, lit. 'Purifier')",
           "context": "religious-tradition",
           "status": "loose"
         },
@@ -1890,7 +2939,7 @@
           "host": "en.wikipedia.org",
           "statement": "He is described as born from Vishvapurusha's breath.",
           "statement_id": "Ia disebut lahir dari napas Vishvapurusha.",
-          "quote": "He is mentioned to be born from the breath of Supreme Being Vishvapurusha and also the first one to drink Soma.",
+          "quote": "He is mentioned to be born from the breath of Supreme Being Vishvapurusha",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1898,9 +2947,9 @@
           "id": "vayu-c05",
           "source_id": "vayu-s1",
           "host": "en.wikipedia.org",
-          "statement": "He is the first god to drink Soma in Vedic accounts.",
-          "statement_id": "Ia menjadi dewa pertama yang minum Soma dalam uraian Weda.",
-          "quote": "He is mentioned to be born from the breath of Supreme Being Vishvapurusha and also the first one to drink Soma.",
+          "statement": "Vayu is the first god to receive soma in the ritual; he and Indra then share their first drink.",
+          "statement_id": "Vayu adalah dewa pertama yang menerima soma dalam ritual, lalu ia dan Indra berbagi tegukan pertama mereka.",
+          "quote": "Vayu is also the first god to receive soma in the ritual, and then he and Indra share their first drink.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1992,9 +3041,7 @@
           "statement_id": "Mackenzie mengutip himne yang menghubungkan Vayu dengan dua kuda merah pada kereta serta kawanan rusa.",
           "quote": "The Indian Vata is invoked, as Vayu, in a beautiful\r\npassage in one of the hymns which refers to his “two\r\nred horses yoked to the chariot”: he had also, like the\r\nMaruts, a team of deer. The poet calls to the wind:",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "vayu-c15",
@@ -2005,10 +3052,99 @@
           "quote": "BEAUTIFUL Vayu, come, for thee these Soma drops have been prepared:\n     Drink of them, hearken to our call.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "vayu-c16",
+          "source_id": "vayu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Rigveda, Vayu is associated with the winds, and the Maruts are described as born from Vayu's belly.",
+          "statement_id": "Dalam Rigveda, Vayu dikaitkan dengan angin, dan para Marut digambarkan lahir dari perut Vayu.",
+          "quote": "In the Rigveda, Vayu is associated with the winds, with the Maruts being described as being born from Vayu's belly.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c17",
+          "source_id": "vayu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Brihadaranyaka Upanishad the gods who control bodily functions once contest which of them is greatest, and the other deities come to realise that they can function only when empowered by Vayu and can easily be overpowered by him.",
+          "statement_id": "Menurut Brihadaranyaka Upanishad, para dewa yang mengatur fungsi tubuh pernah berlomba untuk menentukan siapa yang terbesar; hasilnya para dewa menyadari bahwa mereka hanya dapat berfungsi bila diberdayakan oleh Vayu dan dapat dengan mudah ditaklukkan olehnya.",
+          "quote": "The Brihadaranyaka Upanishad says that the gods who control bodily functions once engaged in a contest to determine who among them is the greatest. ... This caused the other deities to realise that they can function only when empowered by Vayu, and can be overpowered by him easily.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c18",
+          "source_id": "vayu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Chandogya Upanishad says that one cannot know Brahman except by knowing Vayu as the udgitha (the mantric syllable om).",
+          "statement_id": "Chandogya Upanishad menyatakan bahwa orang tidak dapat mengenal Brahman kecuali dengan mengenal Vayu sebagai udgitha (suku kata mantra om).",
+          "quote": "The Chandogya Upanishad says that one cannot know Brahman except by knowing Vayu as the udgitha (the mantric syllable om).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c19",
+          "source_id": "vayu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mahabharata, Bhima was the spiritual son of Vayu and played a major role in the Kurukshetra War.",
+          "statement_id": "Dalam Mahabharata, Bhima adalah putra spiritual Vayu dan berperan besar dalam Perang Kurukshetra.",
+          "quote": "In the Mahabharata, Bhima was the spiritual son of Vayu and played a major role in the Kurukshetra War.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c20",
+          "source_id": "vayu-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie writes that Indra absorbed, and was absorbed by, the wind god Vayu or Vata, who is also called the father of the Maruts and the son-in-law of the artisan god Twashtri.",
+          "statement_id": "Mackenzie menulis bahwa Indra menyerap dan diserap oleh dewa angin Vayu atau Vata, yang juga disebut ayah para Marut dan menantu dewa pengrajin Twashtri.",
+          "quote": "Indra similarly absorbed, and was absorbed by, the wind god Vayu or Vata, who is also referred to as the father of the Maruts and the son-in-law of the artisan god Twashtri.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c21",
+          "source_id": "vayu-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Mackenzie's retelling about Purusha, Indra and Agni came from his mouth and Vayu from his breath.",
+          "statement_id": "Dalam penuturan Mackenzie tentang Purusha, Indra dan Agni muncul dari mulutnya, sedangkan Vayu dari napasnya.",
+          "quote": "The Brahman rose from Purusha's mouth, the Rajanya (Kshatriya) from his arms, the Vaisya from his thighs, and the Sudra sprang from his feet. Indra and Agni came from his mouth, and Vayu from his breath.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c22",
+          "source_id": "vayu-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Mackenzie's retelling, a serpent noose binds two brothers so that they cannot move; Vayu, god of wind, sends the Celestial bird Garuda, the serpent killer, to their aid and the snakes forming the noose flee.",
+          "statement_id": "Dalam penuturan Mackenzie, jerat ular mengikat dua bersaudara sehingga tak dapat bergerak; Vayu, dewa angin, mengirim burung surgawi Garuda, pembunuh ular, untuk menolong mereka, dan ular-ular pembentuk jerat itu lari.",
+          "quote": "Then he threw a serpent noose, which bound the two brothers so that they were unable to move. Great was their peril, but Vayu, god of wind, sent to their aid the great Celestial bird Garuda, the serpent killer, and the snakes which formed the noose fled from before it",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c23",
+          "source_id": "vayu-s3",
+          "host": "en.wikisource.org",
+          "statement": "Rigveda 1.2.3 says that Vayu's penetrating stream goes forth to the worshipper, spreading far for the Soma draught.",
+          "statement_id": "Rigveda 1.2.3 berkata bahwa aliran Vayu yang menembus mengalir menuju pemuja, menyebar jauh untuk minuman Soma.",
+          "quote": "Vayu, thy penetrating stream goes forth unto the worshipper, Far-spreading for the Soma draught.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vayu-c24",
+          "source_id": "vayu-s3",
+          "host": "en.wikisource.org",
+          "statement": "Rigveda 1.2.4 addresses Indra and Vayu together and invites both to come for the offerings.",
+          "statement_id": "Rigveda 1.2.4 menyapa Indra dan Vayu bersama dan mengundang keduanya datang demi persembahan.",
+          "quote": "These, Indra-Vayu, have been shed; come for our offered dainties' sake: The drops are yearning for you both.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c6fb0b3d94d4abdd5ecd8a9e34f0d66165447eb2a5ad0da37d9cc7f5c5a6761d"
+      "images": []
     },
     {
       "slug": "sati",
@@ -2166,10 +3302,11 @@
     },
     {
       "slug": "kamadeva",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "238b6a89232819b280fb3a1f45a3b96ba2fa795ff19ff705b9546569e844bab4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
@@ -2211,7 +3348,7 @@
           "host": "en.wikipedia.org",
           "statement": "Puranic accounts generally call him Brahma's mind born son.",
           "statement_id": "Versi Purana umumnya menyebutnya putra Brahma yang lahir dari pikiran.",
-          "quote": "In the Puranas, Kamadeva is generally mentioned as a manasaputra (mind-born son) of the creator god Brahma. His most popular myth is his incineration by the god Shiva's third eye and rebirth on earth as Pradyumna, the eldest son of Krishna and his chief consort Rukmini.",
+          "quote": "In the Puranas, Kamadeva is generally mentioned as a manasaputra (mind-born son) of the creator god Brahma.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -2221,7 +3358,7 @@
           "host": "en.wikipedia.org",
           "statement": "His story includes incineration by Shiva's third eye and rebirth as Pradyumna.",
           "statement_id": "Kisahnya mencakup pembakaran oleh mata ketiga Shiva dan kelahiran kembali sebagai Pradyumna.",
-          "quote": "In the Puranas, Kamadeva is generally mentioned as a manasaputra (mind-born son) of the creator god Brahma. His most popular myth is his incineration by the god Shiva's third eye and rebirth on earth as Pradyumna, the eldest son of Krishna and his chief consort Rukmini.",
+          "quote": "His most popular myth is his incineration by the god Shiva's third eye and rebirth on earth as Pradyumna, the eldest son of Krishna and his chief consort Rukmini.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -2233,13 +3370,60 @@
           "statement_id": "Versi Mackenzie menyebut Kamadeva sebagai putra Vishnu dan Lakshmi.",
           "quote": "This god is the son of Vishnu and Lakshmi.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "kamadeva-c07",
+          "source_id": "kamadeva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kamadeva is also known as Kama, Manmatha, and Madana.",
+          "statement_id": "Kamadeva juga dikenal sebagai Kama, Manmatha, dan Madana.",
+          "quote": "also known as Kama, Manmatha, and Madana",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kamadeva-c08",
+          "source_id": "kamadeva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kamadeva's origins are traced to the verses of the Rig Veda and Atharva Veda, although he is better known from the stories of the Puranas.",
+          "statement_id": "Asal-usul Kamadeva ditelusuri hingga ayat-ayat Rig Veda dan Atharva Veda, meskipun ia lebih dikenal dari kisah-kisah Purana.",
+          "quote": "Kamadeva's origins are traced to the verses of the Rig Veda and Atharva Veda, although he is better known from the stories of the Puranas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kamadeva-c09",
+          "source_id": "kamadeva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shiva Purana describes Kamadeva being resurrected by Shiva on the occasion of his marriage to Parvati.",
+          "statement_id": "Shiva Purana menggambarkan Kamadeva dihidupkan kembali oleh Shiva pada peristiwa pernikahannya dengan Parvati.",
+          "quote": "Shiva Purana describes Kamadeva being resurrected by Shiva on the event of his marriage to Parvati.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kamadeva-c10",
+          "source_id": "kamadeva-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie writes that after Sati burned herself, the sorrowing Shiva was wounded by Kamadeva, the love god, whom he slew by sending a flame of fire from his third eye.",
+          "statement_id": "Mackenzie menulis bahwa setelah Sati membakar dirinya, Shiva yang berduka dilukai oleh Kamadeva, dewa cinta, yang kemudian dibunuhnya dengan memancarkan nyala api dari mata ketiganya.",
+          "quote": "It was after Sati burned herself that the sorrowing Shiva was wounded by Kamadeva, the love god, whom he slew by causing a flame of fire to dart from his third eye.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kamadeva-c11",
+          "source_id": "kamadeva-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie lists several epithets and glosses them: Manmatha, the \"mind-disturber\"; Mara, \"the wounder\"; Madan, \"he who makes one love-drunk\"; and Pradyumna, the \"all-conqueror\".",
+          "statement_id": "Menurut Mackenzie, sebagai Manmatha ia adalah \"pengganggu pikiran\", sebagai Mara \"sang pelukai\", sebagai Madan \"yang membuat orang mabuk cinta\", dan sebagai Pradyumna \"sang penakluk segalanya\".",
+          "quote": "As Manmatha he is the “mind-disturber”; as Mara, “the wounder”; as Madan, “he who makes one love-drunk”; and as Pradyumna he is the “all-conqueror”.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "60a8caa9ab70acf5b5862cb2a613216707233e948f2e8da12778bf3a3204457b"
+      "images": []
     },
     {
       "slug": "kubera",
@@ -2397,10 +3581,11 @@
     },
     {
       "slug": "ganga",
-      "file": "batch-072.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "86613bf992c22c9591febfefc100cdf957ac26aec3263200e46eb5031ca9d0ec",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
@@ -2412,7 +3597,7 @@
           "host": "en.wikipedia.org",
           "statement": "Ganga personifies the Ganges and is worshipped as goddess of purification and forgiveness.",
           "statement_id": "Ganga adalah personifikasi Sungai Gangga yang dipuja sebagai dewi pemurnian dan pengampunan.",
-          "quote": "Ganga (Sanskrit: गङ्गा, IAST: Gaṅgā) is the personification of the river Ganges, who is worshipped by Hindus as the goddess of purification and forgiveness. She is often depicted as a fair, beautiful ornate woman, riding a divine crocodile-like creature called the makara.",
+          "quote": "Ganga (Sanskrit: गङ्गा, IAST: Gaṅgā) is the personification of the river Ganges, who is worshipped by Hindus as the goddess of purification and forgiveness.",
           "context": "religious-tradition",
           "status": "loose"
         },
@@ -2422,9 +3607,9 @@
           "host": "en.wikipedia.org",
           "statement": "She is commonly depicted riding a makara, a divine crocodile like creature.",
           "statement_id": "Ia lazim digambarkan mengendarai makara, makhluk ilahi yang menyerupai buaya.",
-          "quote": "Ganga (Sanskrit: गङ्गा, IAST: Gaṅgā) is the personification of the river Ganges, who is worshipped by Hindus as the goddess of purification and forgiveness. She is often depicted as a fair, beautiful ornate woman, riding a divine crocodile-like creature called the makara.",
+          "quote": "She is often depicted as a fair, beautiful ornate woman, riding a divine crocodile-like creature called the makara.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "ganga-c03",
@@ -2464,13 +3649,60 @@
           "statement_id": "Dalam retelling Mackenzie, Ganga menjadi istri Shantanu dan menjanjikan kelahiran manusia bagi delapan Vasu yang terkena kutukan.",
           "quote": "His first wife was the goddess\r\nGanga of the Ganges river, and she was divinely\r\nbeautiful like to her kind. ... So they hastened to Ganga, and\r\nshe consented to become their human mother, promising\r\nthat she would cast them one by one into the Ganges\r\nsoon after birth, so that they might return speedily to\r\ntheir celestial state.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "ganga-c07",
+          "source_id": "ganga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her most famous story is her descent to Earth, granted as a boon to the royal sage Bhagiratha so that she could purify the souls of his ancestors.",
+          "statement_id": "Kisahnya yang paling terkenal adalah turunnya ke bumi, yang dianugerahkan sebagai anugerah kepada resi kerajaan Bhagiratha agar ia dapat menyucikan roh leluhurnya.",
+          "quote": "Her most famous story is her descent to Earth, which was granted as a boon to the royal sage Bhagiratha so that she could purify the souls of his ancestors.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganga-c08",
+          "source_id": "ganga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mahabharata, Ganga is also portrayed as the mother of the warrior Bhishma through her union with the Kuru king Shantanu.",
+          "statement_id": "Dalam Mahabharata, Ganga juga digambarkan sebagai ibu prajurit Bhishma melalui persatuannya dengan raja Kuru, Shantanu.",
+          "quote": "In the Mahabharata, Ganga is also portrayed as the mother of the warrior Bhishma through her union with the Kuru king Shantanu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganga-c09",
+          "source_id": "ganga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ganga is represented as a fair-complexioned woman wearing a white crown and sitting on a crocodile, holding a water lily in her right hand and a flute in her left.",
+          "statement_id": "Ganga digambarkan sebagai perempuan berkulit cerah yang bermahkota putih dan duduk di atas buaya; tangan kanannya memegang teratai air dan tangan kirinya seruling.",
+          "quote": "Ganga is represented as a fair-complexioned woman, wearing a white crown and sitting on a crocodile. She holds a water lily in her right hand and a flute in her left.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganga-c10",
+          "source_id": "ganga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of Bhagiratha's efforts the river is also known as Bhagirathi, and she is also known as Tripathaga because she flows in the three worlds: heaven, earth, and the netherworld.",
+          "statement_id": "Karena upaya Bhagiratha, sungai itu juga dikenal sebagai Bhagirathi; ia juga dikenal sebagai Tripathaga karena mengalir di tiga dunia: surga, bumi, dan dunia bawah.",
+          "quote": "Because of Bhagiratha's efforts, the river is also known as Bhagirathi. She is also known as Tripathaga because she flows in the three worlds, heaven, earth, and the netherworld.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganga-c11",
+          "source_id": "ganga-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Mackenzie's retelling, as King Shantanu walks beside the Ganges, Ganga appears before him in human form as a maiden of surpassing beauty, her celestial garments splendid as lotus blooms, adorned with rare ornaments, her teeth radiant as pearls.",
+          "statement_id": "Dalam penuturan Mackenzie, ketika Raja Shantanu berjalan di tepi sungai Gangga, Ganga muncul di hadapannya dalam rupa manusia sebagai gadis berkecantikan luar biasa, berpakaian surgawi yang bersinar seperti bunga teratai, berhias perhiasan langka, dengan gigi secemerlang mutiara.",
+          "quote": "A day came thereafter when King Shantanu walked beside the Ganges. Suddenly there appeared before him a maiden of surpassing beauty. She was Ganga in human form. Her celestial garments had the splendour of lotus blooms; she was adorned with rare ornaments, and her teeth were radiant as pearls.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "76b9dbaa20378870ece971b61183f1e95876a29a9684c776a3b1dc3ee13b36d2"
+      "images": []
     },
     {
       "slug": "balarama",
@@ -2705,10 +3937,11 @@
     },
     {
       "slug": "mara-papiyan",
-      "file": "batch-072-fix-2.md",
+      "file": "batch-072-fix-5.md",
+      "entry_sha256": "2158e718dfb138e39288748ae84c8938ddf33849ca6557d857360e1e32c32ce3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 14,
         "sources": 2,
         "images": 0
       },
@@ -2773,10 +4006,89 @@
           "quote": "Maara as \"the personification of Death, the Evil One, the Tempter",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c07",
+          "source_id": "mara-papiyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Buddhism, Mara refers to any form of malicious force hindering enlightenment.",
+          "statement_id": "Dalam Buddhisme, Mara merujuk pada segala bentuk kekuatan jahat yang menghalangi pencerahan.",
+          "quote": "Mara, in Buddhism, refers to any form of malicious force hindering enlightenment.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c08",
+          "source_id": "mara-papiyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In traditional Buddhism, Devaputra-mara is the deva of the sensuous realm who tried to prevent Gautama Buddha from attaining liberation from the cycle of rebirth on the night of his enlightenment.",
+          "statement_id": "Dalam Buddhisme tradisional, Devaputra-mara adalah dewa alam indriawi yang berusaha mencegah Gautama Buddha mencapai pembebasan dari lingkaran kelahiran kembali pada malam pencerahannya.",
+          "quote": "Devaputra-māra – the deva of the sensuous realm, who tried to prevent Gautama Buddha from attaining liberation from the cycle of rebirth on the night of the Buddha's enlightenment.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c09",
+          "source_id": "mara-papiyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mara's three daughters are identified as Taṇhā (Thirst), Arati (Aversion, Discontentment), and Rāga (Attachment, Desire, Greed, Passion).",
+          "statement_id": "Tiga putri Mara disebut Taṇhā (Dahaga), Arati (Keengganan, Ketidakpuasan), dan Rāga (Kemelekatan, Hasrat, Keserakahan, Nafsu).",
+          "quote": "Mara's three daughters are identified as Taṇhā (Thirst), Arati (Aversion, Discontentment), and Rāga (Attachment, Desire, Greed, Passion).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c10",
+          "source_id": "mara-papiyan-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Guruge writes that this Maara, or Maaradevaputta, is not only a very powerful deity but is also bent on making life difficult for holy persons.",
+          "statement_id": "Guruge menulis bahwa Maara, atau Maaradevaputta, bukan hanya dewa yang sangat kuat tetapi juga bertekad mempersulit hidup orang-orang suci.",
+          "quote": "This Maara, or Maaradevaputta, is not only a very powerful deity but is also bent on making life difficult for holy persons.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c11",
+          "source_id": "mara-papiyan-s2",
+          "host": "accesstoinsight.org",
+          "statement": "According to Guruge, a personification of Death is also called the lord of death (Maccuraaja), the exterminator (Antaka), the great king (mahaaraaja), and the inescapable (Namuci).",
+          "statement_id": "Menurut Guruge, personifikasi Kematian juga disebut penguasa kematian (Maccuraaja), pembinasa (Antaka), raja agung (mahaaraaja), dan yang tak terelakkan (Namuci).",
+          "quote": "A personification of Death is called also the lord of death (Maccuraaja), the exterminator (Antaka), the great king (mahaaraaja), and the inescapable (Namuci).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c12",
+          "source_id": "mara-papiyan-s2",
+          "host": "accesstoinsight.org",
+          "statement": "According to Guruge, the Buddha recognizes the speaker of the \"kind\" words, is aware of Maara's hidden agenda, and rebukes him as Pamattabandhu (the Friend of Heedlessness), Paapimaa (the Evil One), and Ka.nha (the Black One).",
+          "statement_id": "Menurut Guruge, sang Buddha mengenali pembicara kata-kata \"ramah\" itu, menyadari maksud tersembunyi Maara, lalu menegurnya sebagai Pamattabandhu (Sahabat Kelalaian), Paapimaa (Sang Jahat), dan Ka.nha (Sang Hitam).",
+          "quote": "The Buddha recognizes the speaker of these \"kind\" words and is conscious of Maara's hidden agenda. So he rebukes him as Pamattabandhu (the Friend of Heedlessness), Paapimaa (the Evil One), and Ka.nha (the Black One).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c13",
+          "source_id": "mara-papiyan-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Guruge quotes a verse naming the hosts of Maara; the first four squadrons are Sense-Desires, Boredom, Hunger and Thirst, and Craving.",
+          "statement_id": "Guruge mengutip sebuah bait yang menyebut pasukan Maara; empat pasukan pertama adalah Nafsu Indriawi, Kebosanan, Rasa Lapar dan Haus, serta Keinginan.",
+          "quote": "The hosts of Maara are also identified: ... Your first squadron is Sense-Desires, Your second is called Boredom, then Hunger and Thirst compose the third, And Craving is the fourth in rank,",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mara-papiyan-c14",
+          "source_id": "mara-papiyan-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Guruge quotes a verse in which Maara says that for seven years he pursued the Buddha at every step but got no chance against the wakeful Buddha.",
+          "statement_id": "Guruge mengutip bait tempat Maara berkata bahwa selama tujuh tahun ia mengikuti sang Buddha di setiap langkah, tetapi tidak mendapat kesempatan terhadap sang Buddha yang waspada.",
+          "quote": "Here, Maara says: ... For seven years I pursued the Buddha at every step Yet with the wakeful Buddha I got no chance.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "66466c932374713f33a01529b6e1d512cb43504a2fbb147c566830c73a629058"
+      "images": []
     },
     {
       "slug": "nandi-hinduism",

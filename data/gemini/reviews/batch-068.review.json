@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-07T05:23:48.459Z",
+  "checked_at": "2026-10-07T09:26:54.474Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
     "batch-068-fix-2.md",
     "batch-068-fix-3.md",
     "batch-068-fix-4.md",
-    "batch-068-fix-5.md"
+    "batch-068-fix-5.md",
+    "batch-068-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2889,10 +2890,11 @@
     },
     {
       "slug": "imugi",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-6.md",
+      "entry_sha256": "de42beb1f024e1c9cc45c1d66aa419c8bfadd779d67979b03d8b9ffe5c44bc50",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 17,
         "sources": 2,
         "images": 0
       },
@@ -2904,7 +2906,7 @@
           "host": "en.wikipedia.org",
           "statement": "Imugi is a Korean legendary giant-serpent-like being preceding a fully developed dragon.",
           "statement_id": "Imugi adalah makhluk legenda Korea menyerupai ular raksasa sebelum menjadi naga sempurna.",
-          "quote": "Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents. There are a few different versions of Korean folklore that describe both what imugis are and how they aspire to become full-fledged dragons.",
+          "quote": "Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents.",
           "context": "traditional-belief",
           "status": "loose"
         },
@@ -2914,9 +2916,9 @@
           "host": "en.wikipedia.org",
           "statement": "One version says an imugi becomes a dragon after obtaining a Yeouiju from heaven.",
           "statement_id": "Sebuah versi mengatakan Imugi dapat menjadi naga setelah memperoleh Yeouiju dari langit.",
-          "quote": "Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents. There are a few different versions of Korean folklore that describe both what imugis are and how they aspire to become full-fledged dragons.",
+          "quote": "Koreans thought that an imugi could become a true dragon, or yong or mireu, if it caught a Yeouiju which had fallen from heaven.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "imugi-c03",
@@ -2952,15 +2954,124 @@
           "id": "imugi-c06",
           "source_id": "imugi-s2",
           "host": "encykorea.aks.ac.kr",
-          "statement": "AKS explains ishimi as a dialect name for Imugi.",
-          "statement_id": "AKS menjelaskan ishimi sebagai nama dialek Imugi.",
+          "statement": "AKS explains ishimi as a dialect name for Imugi, and says that in the Kkoktu Gaksi script ishimi appears as a monster that devours people and animals indiscriminately.",
+          "statement_id": "AKS menjelaskan ishimi sebagai nama dialek Imugi, dan menyebut bahwa dalam naskah Kkoktu Gaksi ishimi tampil sebagai monster yang memangsa manusia atau hewan sembarangan.",
           "quote": "‘이시미’는 이무기의 방언으로서 「꼭두각시」각본(金在喆, 『朝鮮演劇史』)에서 보면 이시미가 사람이나 짐승을 함부로 잡아먹는 괴물로 등장한다.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "imugi-c07",
+          "source_id": "imugi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another explanation says imugi are hornless, dragon-like creatures that were cursed and so could not become dragons.",
+          "statement_id": "Penjelasan lain menyebut imugi sebagai makhluk tanpa tanduk yang menyerupai naga dan terkena kutukan sehingga tidak dapat menjadi naga.",
+          "quote": "Another explanation states they are hornless creatures resembling dragons who have been cursed and thus were unable to become dragons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c08",
+          "source_id": "imugi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "By other accounts, an imugi is a proto-dragon that must survive one thousand years to become a fully developed dragon.",
+          "statement_id": "Menurut kisah lain, imugi adalah calon naga yang harus bertahan selama seribu tahun untuk menjadi naga seutuhnya.",
+          "quote": "By other accounts, an imugi is a proto-dragon that must survive one thousand years in order to become a fully-fledged dragon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c09",
+          "source_id": "imugi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Imugi are said to be large, benevolent, python-like creatures that live in water or caves, and sighting one is associated with good luck.",
+          "statement_id": "Imugi dikatakan besar, bersifat baik, menyerupai piton, hidup di air atau gua, dan kemunculannya dikaitkan dengan keberuntungan.",
+          "quote": "In either case, they are said to be large, benevolent, python-like creatures that live in water or caves, and their sighting is associated with good luck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c10",
+          "source_id": "imugi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 2007 South Korean film D-War, two imugi, one benevolent and one evil, compete for a source of power called the Yeouiju, by which one of them could become a dragon.",
+          "statement_id": "Dalam film Korea Selatan D-War (2007), dua imugi, satu baik dan satu jahat, bersaing memperebutkan sumber kekuatan bernama Yeouiju yang dapat membuat salah satunya menjadi naga.",
+          "quote": "In the 2007 South Korean film D-War, two imugi, one benevolent and the other evil, are seen competing for possession of a source of power called the Yeouiju (여의주), by which one of them could become a dragon.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c11",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "AKS lists imugi, ishimi, yeongno, kkwangcheori, and bari as words that refer to the dragon or relate to it.",
+          "statement_id": "AKS menyebut imugi, ishimi, yeongno, kkwangcheori, dan bari sebagai kata yang menunjuk naga atau berkaitan dengan naga.",
+          "quote": "한편, 미르, 즉 용을 지칭하거나 용과 관련된 말에 이무기 · 이시미 · 영노 · 꽝철이 · 바리라는 말이 있다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c12",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "AKS records that proverbs such as “용 못 된 이무기 심술만 남더라” and “용 못 된 이무기 방천 낸다” (both about an imugi that failed to become a dragon) arose from this idea.",
+          "statement_id": "AKS mencatat bahwa dari gagasan tentang imugi yang gagal menjadi naga ini lahir peribahasa seperti ‘용 못 된 이무기 심술만 남더라’ dan ‘용 못 된 이무기 방천 낸다’.",
+          "quote": "여기서 ‘용 못 된 이무기 심술만 남더라.’, ‘용 못 된 이무기 방천(防川:둑) 낸다.’는 등의 속담이 생겨나게 되었다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c13",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "AKS describes kkwangcheori, a word heard around the Gyeongsang region, as a snake that has not quite become a dragon; it can fly, and when it flies the sky fills with fire, so that no rain falls and drought follows.",
+          "statement_id": "AKS menjelaskan kkwangcheori, kata yang terdengar di wilayah Gyeongsang, sebagai ular yang belum sepenuhnya menjadi naga; ia dapat terbang, dan saat terbang langit dipenuhi api sehingga hujan tidak turun dan terjadi kemarau.",
+          "quote": "‘꽝철이’는 경상도일대에서 들어볼 수 있는 말로서 용이 채 못 된 뱀을 지칭한다. 그것은 하늘을 날 수 있는 능력을 지니고 있으며, 하늘을 날 때는 하늘에 불이 가득해지고, 그 때문에 비가 오지 않아 가물게 된다고도 한다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c14",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "AKS says Korea has the distinctive name imugi, which means a dragon's young, so that hweryong and eoryong (fish dragons) are all interpreted as imugi, with abundant surviving artworks that support this.",
+          "statement_id": "AKS menyebut bahwa di Korea ada nama khas imugi yang berarti anak naga, sehingga hweryong dan eoryong (naga ikan) sama-sama ditafsirkan sebagai imugi, dan karya rupa yang mendukungnya masih banyak tersisa.",
+          "quote": "우리 나라에는 이무기라는 특이한 이름이 있으며, 이것은 용의 새끼를 뜻한다. 그래서 훼룡이나 어룡이 다 이무기로 해석되고 그러한 것을 뒷받침할만한 조형물도 풍부하게 남아 있다.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c15",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "AKS says a hweryong is said to become a gyoryong (蛟龍) after growing for 500 years, and the sculpting of dragons follows this process.",
+          "statement_id": "AKS menyebut bahwa hweryong dikatakan menjadi gyoryong (蛟龍) setelah tumbuh selama 500 tahun, dan penggambaran naga mengikuti proses ini.",
+          "quote": "훼룡이 자라서 500년이 지나면 교룡(蛟龍) ... 이 된다 하고, 용의 조형도 이 과정을 따르고 있다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c16",
+          "source_id": "imugi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Judging from Korean materials, AKS interprets the hweryong as an imugi shaped like an eared tadpole, and the gyoryong as an imugi at the stage of an eared tadpole with four feet.",
+          "statement_id": "Berdasarkan bahan dari Korea, AKS menafsirkan hweryong sebagai imugi berbentuk berudu bertelinga, dan gyoryong sebagai imugi pada tahap berudu bertelinga yang berkaki empat.",
+          "quote": "우리 나라 자료로 보완하여 판단하면 훼룡은 올챙이 꼴에 귀가 달린 이무기며, 교룡은 귀 달린 올챙이에 네 발이 달린 과정의 이무기로 보인다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "imugi-c17",
+          "source_id": "imugi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 2020 South Korean drama Tale of the Nine-tailed, an imugi is the main antagonist, portrayed as a serpent in human form that can possess humans, spread deadly contagious diseases, and read minds.",
+          "statement_id": "Dalam drama Korea Selatan Tale of the Nine-tailed (2020), imugi menjadi antagonis utama, digambarkan sebagai ular berwujud manusia yang dapat merasuki manusia, menularkan penyakit mematikan, dan membaca pikiran.",
+          "quote": "An imugi is the main antagonist in the 2020 South Korean drama Tale of the Nine-tailed. In the series, the imugi is portrayed as a serpent in human form with the ability to possess humans, infect people with deadly, contagious diseases, and read people's minds.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "356d1cac2e0c834a50ad30e2afc92a43736c23bfb1c0d59e4ef8a52857745193"
+      "images": []
     },
     {
       "slug": "inmyeonjo",

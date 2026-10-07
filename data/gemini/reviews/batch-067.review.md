@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-07T04:32:08.687Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md.
+Diperiksa 2026-10-07T09:26:54.178Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md, batch-067-fix-8.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -520,13 +520,13 @@ Klaim 9 (loose 1, exact 8), sumber 2, gambar 0.
 
 ## egg-ghost — lulus-otomatis
 
-Klaim 7 (loose 4, exact 3), sumber 2, gambar 0.
+Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| egg-ghost-c01 | loose | en.wikipedia.org | Egg ghost, or dalgyal gwisin, is a Korean ghost resembling an egg. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant. |
-| egg-ghost-c02 | loose | en.wikipedia.org | Its portrayal lacks arms, legs, head, eyes, nose, and mouth. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant. |
-| egg-ghost-c03 | loose | en.wikipedia.org | The legend says that a person who sees it will die. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant. |
+| egg-ghost-c01 | loose | en.wikipedia.org | Egg ghost, or dalgyal gwisin, is a Korean ghost resembling an egg. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. |
+| egg-ghost-c02 | exact | en.wikipedia.org | Its portrayal lacks arms, legs, head, eyes, nose, and mouth. | It does not have arms, legs, nor a head, not even eyes, nose, or mouth. |
+| egg-ghost-c03 | exact | en.wikipedia.org | The legend says that a person who sees it will die. | Legend says that when a person sees an egg ghost, they will die. |
 | egg-ghost-c04 | loose | en.wikipedia.org | Some scholars connect it with childless ghosts lacking descendants to perform ancestor rites. | Some scholars interpret that egg ghosts are a kind of mujagui (Korean: 무자귀, hanja: 無子鬼) (literally, a "childless ghost"), which have no descendants or relatives to hold an ancestor memorial service for them. |
 | egg-ghost-c05 | exact | krdict.korean.go.kr | The Basic Korean Dictionary defines 달걀귀신 (egg ghost) as an egg-like ghost with no eyes, nose, and mouth. | 달걀귀신 ... Noun egg ghost 눈, 코, 입이 없는 달걀 모양의 귀신. An egg-like ghost with no eyes, nose, and mouth. |
 | egg-ghost-c06 | exact | en.wikipedia.org | According to the article, its origin and personality are not significant, and rumor has it that some egg ghosts' personalities do not stay incorruptible as time goes by. | Its origin and personality are not significant. Rumor has it that some of egg ghosts' personalities are not incorruptible as time goes by. |

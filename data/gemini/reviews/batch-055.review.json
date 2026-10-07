@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-055",
-  "checked_at": "2026-10-07T05:45:37.638Z",
+  "checked_at": "2026-10-07T09:21:04.569Z",
   "files": [
     "batch-055.md",
     "batch-055-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-055-fix-3.md",
     "batch-055-fix-4.md",
     "batch-055-fix-5.md",
-    "batch-055-fix-6.md"
+    "batch-055-fix-6.md",
+    "batch-055-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -690,20 +691,15 @@
     },
     {
       "slug": "narigama",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-7.md",
+      "entry_sha256": "55e88ac07a0590a3ebd7bbdd4dbeaa4adfe1b8c9c3c6f04b739bfac09a439e94",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (narigama-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "narigama-c01",
@@ -739,8 +735,8 @@
           "id": "narigama-c04",
           "source_id": "narigama-s2",
           "host": "yokai.com",
-          "statement": "Illustrations show it together with other animated household objects.",
-          "statement_id": "Ilustrasi menunjukkannya bersama benda rumah tangga hidup lainnya.",
+          "statement": "Illustrations of the night parade of one hundred demons show it cavorting with other tsukumogami.",
+          "statement_id": "Ilustrasi parade malam seratus iblis menunjukkannya bersenang-senang bersama tsukumogami lain.",
           "quote": "They are often depicted cavorting with other tsukumogami in illustrations of the night parade of one hundred demons.",
           "context": "historical-record",
           "status": "exact"
@@ -764,10 +760,49 @@
           "quote": "A famous actual example is the Narukama Shinji (Ritual of the Sounding Pot) passed down at Kibitsu Shrine in Okayama Prefecture.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "narigama-c07",
+          "source_id": "narigama-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary records it as a yōkai that is a monster of a kama (kettle), a kind of tsukumogami, considered to derive from the Narukama Shinji divination ritual of fortune handed down since long ago at Kibitsu Shrine in Okayama Prefecture; it is also called Kamanari (釜鳴).",
+          "statement_id": "Sebuah kamus Jepang mencatatnya sebagai yōkai berupa makhluk jelmaan kama (ketel), sejenis tsukumogami, yang dianggap berasal dari ritual ramalan untung-rugi \"Narukama Shinji\" yang sejak lama diwariskan di Kuil Kibitsu, Prefektur Okayama; ia juga disebut Kamanari (釜鳴).",
+          "quote": "日本の妖怪。釜の化け物で、付喪神(つくもがみ)の一種。岡山県の吉備津神社に古くから伝わる吉凶占い「鳴釜神事(なるかましんじ)」に由来するものとされる。「釜鳴(かまなり)」とも。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "narigama-c08",
+          "source_id": "narigama-s2",
+          "host": "yokai.com",
+          "statement": "One description presents narigama as tsukumogami of kama, iron kettles or cauldrons used to cook rice in old Japanese kitchens, with long arms and legs.",
+          "statement_id": "Satu uraian menggambarkan narigama sebagai tsukumogami dari kama, ketel atau kuali besi yang dipakai menanak nasi di dapur Jepang lama, dengan lengan dan tungkai panjang.",
+          "quote": "Narigama are a tsukumogami of kama, iron kettles or cauldrons used to cook rice in old Japanese kitchens. They have long arms and legs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "narigama-c09",
+          "source_id": "narigama-s2",
+          "host": "yokai.com",
+          "statement": "According to that account, when the water inside begins to boil, a narigama starts to ring or cry like an animal, and the sound shows whether the weather will be rainy or fair.",
+          "statement_id": "Menurut uraian itu, saat air di dalamnya mulai mendidih, narigama mulai berdering atau meraung seperti hewan, dan dari bunyinya orang dapat mengetahui apakah cuaca akan hujan atau cerah.",
+          "quote": "When the water inside begins to boil, a narigama will begin to ring or cry like an animal. Depending on the sound that it emits, it is possible to know whether the weather will be rainy or fair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "narigama-c10",
+          "source_id": "narigama-s2",
+          "host": "yokai.com",
+          "statement": "According to Sekien, the narigama was first described in the Hakutaku zu, a record of all the supernatural creatures in the world describing their strengths and weaknesses.",
+          "statement_id": "Menurut Sekien, narigama pertama kali diuraikan dalam Hakutaku zu, catatan semua makhluk gaib di dunia yang menguraikan kekuatan dan kelemahan mereka.",
+          "quote": "According to Sekien, the narigama was first described in the Hakutaku zu, a record of all the supernatural creatures in the world describing their strengths and weaknesses.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5a921a14354b5083e8d491fd7b7cc9f9b57e4ef6e1b32c6d0d3f277004934178"
+      "images": []
     },
     {
       "slug": "nigihayahi",
@@ -5402,20 +5437,15 @@
     },
     {
       "slug": "gotoku-neko",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-7.md",
+      "entry_sha256": "8625e364d95415138cbe6e095caed62f41ce9adf538e706d6845ca3cb221241b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (gotoku-neko-c05)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gotoku-neko-c01",
@@ -5461,8 +5491,8 @@
           "id": "gotoku-neko-c05",
           "source_id": "gotoku-neko-s2",
           "host": "yokai.com",
-          "statement": "A later account gives its tail tips flames.",
-          "statement_id": "Kisah belakangan memberi ujung ekornya nyala api.",
+          "statement": "The tips of its twin tails are said to burn like torches.",
+          "statement_id": "Ujung kedua ekornya konon menyala seperti obor.",
           "quote": "The tips of their twin tails burn like torches.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -5476,10 +5506,59 @@
           "quote": "Its name comes from the gotoku–or trivet–that this yōkai wears like a hat.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "gotoku-neko-c07",
+          "source_id": "gotoku-neko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Sekien’s commentary mentions the precedent of someone called 五徳の官者 after forgetting two parts of the \"seven virtues\" dance, and says he wondered in a dream what this cat too might have forgotten; Shinano no Zenji Yukinaga is brought up as a reference.",
+          "statement_id": "Keterangan Sekien menyebut contoh orang yang dijuluki 五徳の官者 setelah melupakan dua bagian dari tarian \"tujuh kebajikan\", dan ia bermimpi bertanya-tanya hal apa yang juga dilupakan kucing ini; Shinano no Zenji Yukinaga dijadikan acuan.",
+          "quote": "石燕による解説には、「七とくの舞をふたつわすれて五徳の官者と言ひしためしもあればこの猫もいかなることをか忘れけんと夢の中におもひぬ」とあり、信濃前司行長（しなののぜんじ ゆきなが）が引き合いに出されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gotoku-neko-c08",
+          "source_id": "gotoku-neko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Tsurezuregusa (section 226) records that Yukinaga was originally a learned man but was nicknamed 五徳の冠者 for forgetting two of the virtues in the \"Shichitoku no mai\" dance; Sekien’s commentary is seen as a pun between the utensil gotoku (trivet) and 五徳の冠者.",
+          "statement_id": "Tsurezuregusa (bagian 226) mencatat bahwa Yukinaga pada dasarnya orang berilmu tetapi dijuluki 五徳の冠者 karena melupakan dua dari tujuh kebajikan dalam tarian \"Shichitoku no mai\"; keterangan Sekien dipandang sebagai permainan kata antara gotoku (tatakan panci) dan 五徳の冠者.",
+          "quote": "『徒然草』（第226段）には、行長は本来は学識ある人物だったが、舞曲「七徳の舞」の内の二つの徳を忘れたことから「五徳の冠者」と渾名されたという話が記されている。これは器物の五徳と、五徳の冠者との語呂あわせを石燕がして解説したものであると見られている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gotoku-neko-c09",
+          "source_id": "gotoku-neko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Muromachi-period Hyakki Yagyō scroll also depicts a creature with a trivet (gotoku) on its head, and Gotoku-neko is thought to have been created by Sekien using that creature’s appearance as a model.",
+          "statement_id": "Gulungan Hyakki Yagyō zaman Muromachi juga menggambarkan makhluk dengan tatakan panci (gotoku) di kepala, dan Gotoku-neko dianggap diciptakan Sekien dengan meniru rupa makhluk itu.",
+          "quote": "室町時代の『百鬼夜行絵巻』にも同様に五徳を頭に乗せた姿の妖怪が描かれており、五徳猫はこの妖怪の姿をモデルにして石燕が創作して描いたものであると考えられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gotoku-neko-c10",
+          "source_id": "gotoku-neko-s2",
+          "host": "yokai.com",
+          "statement": "According to that source, Gotoku-neko was invented by Toriyama Sekien in his book Hyakki tsurezure bukuro (“An Idle Bag of One Hundred Vessels”).",
+          "statement_id": "Menurut sumber itu, Gotoku-neko diciptakan Toriyama Sekien dalam bukunya Hyakki tsurezure bukuro (\"An Idle Bag of One Hundred Vessels\").",
+          "quote": "Gotoku neko was invented by Toriyama Sekien in his book Hyakki tsurezure bukuro (“An Idle Bag of One Hundred Vessels”).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gotoku-neko-c11",
+          "source_id": "gotoku-neko-s2",
+          "host": "yokai.com",
+          "statement": "Just as ordinary cats like warmth, gotoku neko are said to hang around fireplaces.",
+          "statement_id": "Seperti kucing biasa yang menyukai kehangatan, gotoku neko disebut berkeliaran di sekitar perapian.",
+          "quote": "Just as ordinary cats like warmth, gotoku neko hang around fireplaces.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cb5faf18ea3955cf8e4a8972b10d7916cddb250ee44caae1575e9f9e7fa911fe"
+      "images": []
     },
     {
       "slug": "hikeshibaba",

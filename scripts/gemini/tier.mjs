@@ -1,6 +1,7 @@
 /**
  * Tier targets for a research entry, shared by the verifier and the fill status.
  * core: 6 claims, 2 sources. rich: 15 claims, 3 sources, 2 publishers besides Wikipedia.
+ * Claims count by distinct quote (owner's decision, 7 October 2026): one quote split into several claims counts once.
  */
 export const TIER_MIN = { rich: { claims: 15, sources: 3, nonWiki: 2 }, core: { claims: 6, sources: 2, nonWiki: 0 } };
 
@@ -23,8 +24,9 @@ export function tierShortfall(entry) {
   const claims = Array.isArray(entry.claims) ? entry.claims : [];
   const sources = Array.isArray(entry.sources) ? entry.sources : [];
   const nonWiki = new Set(sources.map(s => familyOf(s?.url)).filter(f => f && f !== 'wikipedia.org')).size;
+  const quotes = new Set(claims.map(c => `${c?.source_id}\u0000${String(c?.quote ?? '').replace(/\s+/g, ' ').trim()}`)).size;
   const short = [];
-  if (claims.length < min.claims) short.push(`${claims.length} klaim (target ${min.claims})`);
+  if (quotes < min.claims) short.push(quotes < claims.length ? `${quotes} kutipan berbeda dari ${claims.length} klaim (target ${min.claims})` : `${claims.length} klaim (target ${min.claims})`);
   if (sources.length < min.sources) short.push(`${sources.length} sumber (target ${min.sources})`);
   if (nonWiki < min.nonWiki) short.push(`${nonWiki} penerbit selain Wikipedia (target ${min.nonWiki}; Wikipedia semua bahasa dihitung satu)`);
   return short;

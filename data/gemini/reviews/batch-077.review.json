@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-077",
-  "checked_at": "2026-10-02T00:36:14.519Z",
+  "checked_at": "2026-10-07T09:36:21.734Z",
   "files": [
     "batch-077.md",
-    "batch-077-fix-1.md"
+    "batch-077-fix-1.md",
+    "batch-077-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "ptah",
-      "file": "batch-077-fix-1.md",
+      "file": "batch-077-fix-2.md",
+      "entry_sha256": "98e4f95161b38a3f6001f1635651ab2edc3800a596b72a2f887d877fcdbd0d00",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 32,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "10 kutipan tidak bisa dicek otomatis: en.wikipedia.org (tidak bisa dibuka (fetch failed))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ptah-c01",
@@ -33,8 +29,7 @@
           "statement_id": "Ptah adalah dewa pencipta Mesir dan pelindung perajin serta arsitek.",
           "quote": "is an ancient Egyptian deity, a creator god, and a patron deity of craftsmen and architects.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c02",
@@ -44,8 +39,7 @@
           "statement_id": "Dalam triad Memphis, ia menjadi suami Sekhmet.",
           "quote": "In the triad of Memphis, he is the husband of Sekhmet and the father of Nefertem.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c03",
@@ -55,8 +49,7 @@
           "statement_id": "Nefertem dianggap sebagai putranya.",
           "quote": "In the triad of Memphis, he is the husband of Sekhmet and the father of Nefertem.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c04",
@@ -66,8 +59,7 @@
           "statement_id": "Ptah menciptakan dunia melalui gagasan dan ucapan.",
           "quote": "Ptah is an Egyptian creator God who conceived the world and brought it into being through the creative power of speech.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c05",
@@ -77,8 +69,7 @@
           "statement_id": "Batu Shabaka menghubungkan pemberian kehidupan dengan hati dan lidahnya.",
           "quote": "the Shabaka Stone, from the Twenty-Fifth Dynasty, says Ptah \"gave life to all the gods and their kas as well, through this heart and this tongue.\"",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c06",
@@ -88,8 +79,7 @@
           "statement_id": "Bentuknya kadang digambarkan sebagai sosok kerdil.",
           "quote": "Sometimes represented as a dwarf, naked and deformed, his popularity would continue to grow during the Late Period.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c07",
@@ -99,8 +89,7 @@
           "statement_id": "Pemujaannya menyebar ke kawasan Mediterania timur.",
           "quote": "his worship then moved beyond the borders of Egypt and was exported throughout the Eastern Mediterranean.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c08",
@@ -110,8 +99,7 @@
           "statement_id": "Penggambaran umum memperlihatkan laki-laki berkulit hijau dalam kain pembungkus.",
           "quote": "Ptah is generally represented in the guise of a man with green skin, contained in a shroud sticking to the skin, wearing the divine beard, and holding a sceptre combining three powerful symbols of ancient Egyptian religion:",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c09",
@@ -121,8 +109,7 @@
           "statement_id": "Simbol tongkatnya menggabungkan kuasa, kehidupan, dan kestabilan.",
           "quote": "These three combined symbols indicate the three creative powers of the god: power (was), life (ankh) and stability (djed).",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c10",
@@ -132,8 +119,7 @@
           "statement_id": "Sinkretisme menghasilkan Ptah-Sokar-Osiris.",
           "quote": "Gradually he formed with Osiris a new deity called Ptah-Sokar-Osiris.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
         },
         {
           "id": "ptah-c11",
@@ -183,9 +169,177 @@
           "statement_id": "Budge mengaitkan Ptah dengan pembukaan mulut para dewa dalam Kitab Orang Mati.",
           "quote": "From certain allusions in the Book of the Dead he is known to have \"opened the mouth\"",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c16",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ptah was also regarded as the father of the sage Imhotep.",
+          "statement_id": "Ptah juga dianggap sebagai ayah dari bijak Imhotep.",
+          "quote": "He was also regarded as the father of the sage Imhotep.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c17",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A hymn to Ptah from the Twenty-second Dynasty of Egypt says that Ptah crafted the world in the design of his heart.",
+          "statement_id": "Sebuah himne untuk Ptah dari masa Dinasti Kedua Puluh Dua Mesir menyebut bahwa Ptah membentuk dunia sesuai rancangan hatinya.",
+          "quote": "A hymn to Ptah dating to the Twenty-second Dynasty of Egypt says Ptah \"crafted the world in the design of his heart,\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c18",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Through dissemination by the Phoenicians, figures of Ptah are found in Carthage.",
+          "statement_id": "Melalui penyebaran oleh bangsa Fenisia, figur Ptah ditemukan di Kartago.",
+          "quote": "Through dissemination by the Phoenicians, we find figures of Ptah in Carthage.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c19",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From the Old Kingdom, Ptah quickly absorbs the appearance of Sokar and Tatenen, ancient deities of the Memphite region.",
+          "statement_id": "Sejak Kerajaan Lama, Ptah dengan cepat menyerap rupa Sokar dan Tatenen, dua dewa kuno kawasan Memphis.",
+          "quote": "From the Old Kingdom, he quickly absorbs the appearance of Sokar and Tatenen, ancient deities of the Memphite region.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c20",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In his Sokar form Ptah is found in a white shroud wearing the Atef crown, an attribute of Osiris; in this capacity he is the patron deity of the necropolis of Saqqara and other famous sites where the royal pyramids were built.",
+          "statement_id": "Dalam wujud Sokar, Ptah ditemukan terbungkus kain putih dan bermahkota Atef, atribut Osiris; dalam peran itu ia menjadi dewa pelindung nekropolis Saqqara dan situs-situs terkenal lain tempat piramida kerajaan dibangun.",
+          "quote": "His form of Sokar is found contained in its white shroud wearing the Atef crown, an attribute of Osiris. In this capacity, he represents the patron deity of the necropolis of Saqqara and other famous sites where the royal pyramids were built.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c21",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In his Tatenen form Ptah is shown as a young, vigorous man in a crown with two tall plumes around the solar disk. He embodies the underground fire that rumbles and raises the earth; metalworkers and blacksmiths particularly revered him, but he was equally feared because he caused earthquakes and tremors of the Earth's crust.",
+          "statement_id": "Dalam wujud Tatenen, Ptah digambarkan sebagai lelaki muda yang kuat dengan mahkota berhias dua bulu tinggi yang mengelilingi cakram matahari. Ia melambangkan api bawah tanah yang bergemuruh dan menaikkan bumi; para pandai logam sangat menghormatinya, tetapi ia juga ditakuti karena dialah yang menyebabkan gempa bumi dan getaran kerak bumi.",
+          "quote": "His Tatenen form is represented by a young and vigorous man wearing a crown with two tall plumes that surround the solar disk. He thus embodies the underground fire that rumbles and raises the earth. As such, he was particularly revered by metalworkers and blacksmiths, but he was equally feared because it was he who caused earthquakes and tremors of the Earth's crust.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c22",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ptah is also embodied in the sacred bull Apis.",
+          "statement_id": "Ptah juga menjelma dalam diri banteng suci Apis.",
+          "quote": "Finally, Ptah is embodied in the sacred bull, Apis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c23",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "With the major royal projects of the Old Kingdom, the high priests of Ptah were particularly sought after and worked with the vizier as chief architects and master craftsmen, responsible for the decoration of the royal funerary complexes.",
+          "statement_id": "Pada proyek-proyek kerajaan besar masa Kerajaan Lama, para imam agung Ptah sangat dicari dan bekerja bersama wazir sebagai arsitek kepala dan perajin ulung yang bertanggung jawab atas dekorasi kompleks pemakaman kerajaan.",
+          "quote": "With the major royal projects of the Old Kingdom, the high priests of Ptah were particularly sought after and worked in concert with the vizier, filling the role of chief architects and master craftsmen, responsible for the decoration of the royal funerary complexes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c24",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Memphis, the god's role as intercessor with humans was particularly visible in the enclosure that protected his sanctuary; large ears carved on the walls symbolized his role as the god who listens to prayers.",
+          "statement_id": "Di Memphis, peran dewa sebagai perantara bagi manusia tampak jelas pada tembok pagar yang melindungi tempat sucinya; telinga-telinga besar dipahat pada dinding sebagai lambang perannya sebagai dewa yang mendengarkan doa.",
+          "quote": "At Memphis, the role of intercessor with humans was particularly visible in the appearance of the enclosure that protected the sanctuary of the god. Large ears were carved on the walls, symbolizing his role as god who listens to prayers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c25",
+          "source_id": "ptah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Memphis was believed to be under the protection of Ptah, the patron of craftsmen; its great temple, Hut-ka-Ptah (meaning \"Enclosure of the ka of Ptah\"), was one of the most prominent structures in the city.",
+          "statement_id": "Memphis dipercaya berada di bawah perlindungan Ptah, pelindung para perajin; kuil besarnya, Hut-ka-Ptah (berarti \"Pelataran ka Ptah\"), termasuk bangunan paling menonjol di kota itu.",
+          "quote": "Memphis was believed to be under the protection of the god Ptah, the patron of craftsmen. Its great temple, Hut-ka-Ptah (meaning \"Enclosure of the ka of Ptah\"), was one of the most prominent structures in the city.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c26",
+          "source_id": "ptah-s2",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia calls Ptah the great god of Memphis, creator of the world, lord of truth, and chief god of the city of Memphis and its surrounding area around 3000 BCE.",
+          "statement_id": "World History Encyclopedia menyebut Ptah sebagai dewa agung Memphis, pencipta dunia, penguasa kebenaran, dan dewa utama kota Memphis serta wilayah sekitarnya sekitar 3000 SM.",
+          "quote": "Ptah was the great god of Memphis, creator of the world, lord of truth, and chief god of the city of Memphis and its surrounding area c. 3000 BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c27",
+          "source_id": "ptah-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Ptah was originally the figure who stood on the primordial mound of the ben-ben at the creation of the world.",
+          "statement_id": "Menurut World History Encyclopedia, pada mulanya Ptah adalah sosok yang berdiri di atas gundukan purba benben ketika dunia diciptakan.",
+          "quote": "Ptah was originally the figure who stood on the primordial mound of the ben-ben at the creation of the world.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c28",
+          "source_id": "ptah-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Ptah was the patron god of sculptors, craftsmen and builders of monuments because he was thought to have sculpted the earth.",
+          "statement_id": "Menurut World History Encyclopedia, Ptah adalah dewa pelindung para pemahat, perajin, dan pembangun monumen karena ia dianggap telah memahat bumi.",
+          "quote": "He was the patron god of sculptors and craftsmen as well as builders of monuments as he was thought to have sculpted the earth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c29",
+          "source_id": "ptah-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that Ptah was one of the most active of the three great gods who carried out the commands of Thoth, that he was self-created, and that he was a form of the Sun-god Ra as the \"Opener\" of the day.",
+          "statement_id": "Budge menulis bahwa Ptah adalah salah satu dari tiga dewa agung yang paling aktif menjalankan perintah Thoth, bahwa ia tercipta dengan sendirinya, dan bahwa ia adalah wujud dewa matahari Ra sebagai \"Pembuka\" hari.",
+          "quote": "PTAH was one of the most active of the three great gods who carried out the commands of Thoth, who gave expression in words to the will of the primeval, creative Power; he was self-created, and was a form of the Sun-god Rā as the \"Opener\" of the day.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c30",
+          "source_id": "ptah-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Budge, Ptah's feminine counterpart was the goddess Sekhet, and the third member of the triad of which he was the chief was Nefer-Temu.",
+          "statement_id": "Menurut Budge, pasangan perempuan Ptah adalah dewi Sekhet, dan anggota ketiga dari triad yang dipimpinnya adalah Nefer-Temu.",
+          "quote": "His feminine counterpart was the goddess SEKHET, and the third member of the triad of which he was the chief was NEFER-TEMU.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c31",
+          "source_id": "ptah-s4",
+          "host": "en.wikisource.org",
+          "statement": "The Book of the Dead contains a chapter \"of making the transformation into Ptah, of eating cakes, and of drinking ale, and of unfettering the steps, and of becoming a living being in Annu (Heliopolis)\".",
+          "statement_id": "Kitab Orang Mati memuat satu pasal \"untuk melakukan perubahan wujud menjadi Ptah, memakan kue, meminum bir, melepaskan langkah yang terbelenggu, dan menjadi makhluk hidup di Annu (Heliopolis)\".",
+          "quote": "The Chapter of making the transformation into Ptah, of eating cakes, and of drinking ale, and of unfettering the steps, and of becoming a living being in Annu (Heliopolis).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ptah-c32",
+          "source_id": "ptah-s5",
+          "host": "en.wikisource.org",
+          "statement": "In the Book of the Dead chapter of opening the mouth, the speaker asks that the good Ptah open his mouth and that the god of his city loose the swathings which are over his mouth.",
+          "statement_id": "Dalam pasal Kitab Orang Mati tentang pembukaan mulut, sang penutur memohon agar Ptah yang baik membuka mulutnya dan agar dewa kotanya melepaskan lilitan kain yang ada di atas mulutnya.",
+          "quote": "May the good Ptah open my mouth, and may the god of my city loose the swathings, even the swathings which are over my mouth.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
@@ -354,7 +508,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "00cff811ee74d53c73e9c9b7d4a7f79cfb5ce43351676383056d7f1b0641ceb8"
     },
     {
       "slug": "nephthys",
@@ -520,7 +675,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "342d9cb0304cb036c592282ad478842713d587a1e70f15529c338521c6ce5b54"
     },
     {
       "slug": "nut",
@@ -686,15 +842,17 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5978569e7baf819f6c4b6362c303005e8d1c017b660c1eca5ca07b7de400151e"
     },
     {
       "slug": "atum",
-      "file": "batch-077-fix-1.md",
+      "file": "batch-077-fix-2.md",
+      "entry_sha256": "385c3079d027a4ed62df593f03ecca8264790e2365afcd594831895ce9b1552e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 35,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -837,9 +995,7 @@
           "statement_id": "Budge membedakan Atum sebagai penutup hari dari Ptah sebagai pembuka hari.",
           "quote": "TEMU or ATMU, i.e., the \"closer\" of the day, just as Ptah was the \"opener\" of the day.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "atum-c15",
@@ -849,9 +1005,207 @@
           "statement_id": "Budge menyatakan bentuk manusia Atum dikenal pada masa raja Dinasti Kelima.",
           "quote": "at the time of the kings of the Vth dynasty, for his traditional form is that of a man at that time.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "atum-c16",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atum was relevant to the ancient Egyptians throughout most of Egypt's history. He is believed to have been present in ideology as early as predynastic times, becoming more prevalent in the Old Kingdom and still worshiped through the Middle and New Kingdom, though overshadowed by Ra by then.",
+          "statement_id": "Atum penting bagi bangsa Mesir kuno hampir sepanjang sejarah Mesir. Ia dipercaya sudah hadir dalam gagasan keagamaan sejak masa pradinasti, makin menonjol pada masa Kerajaan Lama, dan terus dipuja pada masa Kerajaan Tengah dan Kerajaan Baru, walaupun saat itu ia tertutup oleh Ra.",
+          "quote": "Atum was relevant to the ancient Egyptians throughout most of Egypt's history. He is believed to have been present in ideology as early as predynastic times, becoming even more prevalent during the Old Kingdom and continuing to be worshiped through the Middle and New Kingdom, though he becomes overshadowed by Ra around this time.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c17",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Heliopolitan view, Atum originally existed in his egg within the primeval waters, was born during the primordial flood, and became the source of everything created after him.",
+          "statement_id": "Menurut pandangan Heliopolis, Atum semula ada di dalam telurnya di perairan purba, lahir pada banjir purba, dan menjadi sumber segala sesuatu yang tercipta sesudahnya.",
+          "quote": "According to the Heliopolitan view, Atum originally existed in his egg within the primeval waters, being born during the primordial flood, becoming the source of everything that was created after him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c18",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One text argues that Atum did not create Shu and Tefnut by spitting them out of his mouth by means of saliva and semen, but rather by Atum's lips.",
+          "statement_id": "Satu teks menyatakan bahwa Atum tidak menciptakan Shu dan Tefnut dengan meludahkan mereka dari mulutnya lewat air liur dan air mani, melainkan lewat bibir Atum.",
+          "quote": "One text debates that Atum did not create Shu and Tefnut by spitting them out of his mouth by means of saliva and semen, but rather by Atum's lips.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c19",
+          "source_id": "atum-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Shu and Tefnut were the first two gods Atum created, either by mating with his shadow or by spitting.",
+          "statement_id": "Menurut World History Encyclopedia, Shu dan Tefnut adalah dua dewa pertama yang diciptakan Atum, entah dengan bersatu dengan bayangannya atau dengan meludah.",
+          "quote": "Shu and Tefnut were the first two gods Atum created either by mating with his shadow or by spitting.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c20",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Coffin Texts, Atum claims that he will destroy everything he created in the beginning of existence and bring it back to Nu, the primeval waters, describing the belief that the gods and goddesses would one day cease to exist outside the primeval waters.",
+          "statement_id": "Dalam Teks Peti Mati, Atum menyatakan bahwa ia akan menghancurkan semua yang ia ciptakan pada awal keberadaan dan mengembalikannya ke Nu, perairan purba; ini menggambarkan kepercayaan bahwa para dewa suatu hari akan berhenti ada di luar perairan purba.",
+          "quote": "He claims that he will destroy everything he created in the beginning of existence and bring it back to Nu, the primeval waters, thus describing the belief that the gods and goddesses would one day cease to exist outside of the primeval waters.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c21",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Book of the Dead, which was still current in the Graeco-Roman period, the sun god Atum is said to have ascended from the chaos-waters in the appearance of a snake, the animal that renews itself every morning.",
+          "statement_id": "Dalam Kitab Orang Mati, yang masih dipakai pada masa Yunani-Romawi, dewa matahari Atum disebut telah naik dari air kekacauan dalam rupa ular, hewan yang memperbarui dirinya setiap pagi.",
+          "quote": "In the Book of the Dead, which was still current in the Graeco-Roman period, the sun god Atum is said to have ascended from chaos-waters with the appearance of a snake, the animal renewing itself every morning.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c22",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atum is usually depicted in human form, wearing either the divine Tripartite wig or the dual white and red crown of Upper and Lower Egypt, known as the Double Crown, reinforcing his connection with kingship.",
+          "statement_id": "Atum biasanya digambarkan berwujud manusia, memakai wig Tripartit ilahi atau mahkota ganda putih dan merah Mesir Hulu dan Hilir, yang dikenal sebagai Mahkota Ganda, sehingga menegaskan kaitannya dengan kerajaan.",
+          "quote": "Atum is usually depicted in anthropomorphic form, wearing either the divine Tripartite wig or the dual white and red crown of Upper and Lower Egypt, known as the Double Crown, reinforcing his connection with kingship.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c23",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atum is sometimes also shown as a serpent, the form he returns to at the end of the creative cycle, and occasionally as a mongoose, lion, bull, lizard, or ape.",
+          "statement_id": "Atum kadang juga ditampilkan sebagai ular, wujud yang akan ia kembalikan pada akhir siklus penciptaan, dan sesekali sebagai luwak, singa, banteng, kadal, atau kera.",
+          "quote": "Sometimes he is also shown as a serpent, the form he returns to at the end of the creative cycle, and also occasionally as a mongoose, lion, bull, lizard, or ape.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c24",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atum was worshiped throughout Egypt's history; the center of his worship was the city of Heliopolis (Egyptian: Annu or Iunu).",
+          "statement_id": "Atum dipuja sepanjang sejarah Mesir; pusat pemujaannya berada di kota Heliopolis (bahasa Mesir: Annu atau Iunu).",
+          "quote": "Atum was worshiped throughout Egypt's history; the center of his worship centered on the city of Heliopolis (Egyptian: Annu or Iunu).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c25",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only surviving remnant of Heliopolis is the obelisk of the Temple of Ra-Atum in Al-Masalla, Al-Matariyyah, Cairo. It was erected by Senusret I of the Twelfth Dynasty and still stands in its original position.",
+          "statement_id": "Satu-satunya sisa Heliopolis yang masih ada adalah obelisk Kuil Ra-Atum di Al-Masalla, Al-Matariyyah, Kairo. Obelisk itu didirikan oleh Senusret I dari Dinasti Kedua Belas dan masih berdiri di posisi aslinya.",
+          "quote": "The only surviving remnant of Heliopolis is the Temple of Ra-Atum obelisk located in Al-Masalla of Al-Matariyyah, Cairo. It was erected by Senusret I of the Twelfth Dynasty, and still stands in its original position.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c26",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unable to bear his loss, Atum sent a fiery messenger, the Eye of Ra, to find his children. The tears of joy he shed on their return became the first human beings.",
+          "statement_id": "Karena tak sanggup menanggung kehilangan, Atum mengirim utusan berapi, Mata Ra, untuk mencari anak-anaknya. Air mata gembira yang ia tumpahkan saat mereka kembali menjadi manusia pertama.",
+          "quote": "Unable to bear his loss, Atum sent a fiery messenger, the Eye of Ra, to find his children. The tears of joy he shed upon their return were the first human beings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c27",
+          "source_id": "atum-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in the story of the creation of the world Atum is angered by the intimate relationship between Geb (earth) and Nut (sky) and so separates them, declaring that Nut may not give birth to her children on any day of the year.",
+          "statement_id": "Menurut World History Encyclopedia, dalam kisah penciptaan dunia Atum marah oleh kedekatan Geb (bumi) dan Nut (langit) sehingga memisahkan mereka dan menetapkan bahwa Nut tidak boleh melahirkan anak-anaknya pada hari mana pun dalam setahun.",
+          "quote": "In the story of the creation of the world, Atum is angered by the intimate relationship between Geb (earth) and Nut (sky) and so separates them, declaring that Nut may not give birth to her children on any day of the year.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c28",
+          "source_id": "atum-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Nefertum (Nefertem), the god of perfume and sweet aromas, was born from the bud of the blue lotus flower at the dawn of creation and was originally an aspect of Atum; his name means \"Beautiful Atum\".",
+          "statement_id": "Menurut World History Encyclopedia, Nefertum (Nefertem), dewa wewangian dan aroma harum, lahir dari kuncup bunga teratai biru pada fajar penciptaan dan pada mulanya merupakan salah satu aspek Atum; namanya berarti \"Atum yang Indah\".",
+          "quote": "Nefertum (Nefertem) - God of perfume and sweet aromas. Nefertum was born from the bud of the blue lotus flower at the dawn of creation and was originally an aspect of Atum. His name means \"Beautiful Atum\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c29",
+          "source_id": "atum-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that the great god of Heliopolis was Temu or Atmu, the setting sun, and that the priests of that place ascribed to him the attributes which rightly belong to Ra, the Sun-god of the day-time.",
+          "statement_id": "Budge menulis bahwa dewa agung Heliopolis adalah Temu atau Atmu, matahari terbenam, dan bahwa para imam di sana menyematkan kepadanya sifat-sifat yang sebenarnya milik Ra, dewa matahari siang hari.",
+          "quote": "At the outset we see that the great god of Heliopolis was Temu or Atmu, the setting sun, and to him the priests of that place ascribed the attributes which rightly belong to Rā, the Sun-god of the day-time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c30",
+          "source_id": "atum-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to Budge, the priests of Heliopolis formulated the idea of a company of nine gods called the \"great company (paut) of the gods\", and placed the god Temu at its head.",
+          "statement_id": "Menurut Budge, para imam Heliopolis merumuskan gagasan kelompok sembilan dewa yang disebut \"kelompok agung (paut) para dewa\", dan di kepala kelompok itu mereka menempatkan dewa Temu.",
+          "quote": "For some reason or other they formulated the idea of a company of the gods, nine in number, which was called the \"great company (paut) of the gods,\" and at the head of this company they placed the god Temu.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c31",
+          "source_id": "atum-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that the setting sun, called Temu or Atmu, the rising sun, called Khepera, and the mid-day sun, called Ra, were three forms of the same god.",
+          "statement_id": "Budge menulis bahwa matahari terbenam yang disebut Temu atau Atmu, matahari terbit yang disebut Khepera, dan matahari tengah hari yang disebut Ra adalah tiga wujud dari dewa yang sama.",
+          "quote": "Thus the setting sun, called Temu or Atmu, and the rising sun, called Khepera, and the mid-day sun, called Rā, were three forms of the same god",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c32",
+          "source_id": "atum-s4",
+          "host": "en.wikisource.org",
+          "statement": "In the Book of the Dead chapter of opening the mouth, the speaker asks that Thoth loose the bandages of Set which fetter his mouth and that the god Tem hurl them at those who would fetter him with them and drive them back.",
+          "statement_id": "Dalam pasal Kitab Orang Mati tentang pembukaan mulut, sang penutur memohon agar Thoth melepaskan perban Set yang membelenggu mulutnya dan agar dewa Tem melemparkannya kepada mereka yang hendak membelenggunya dengan perban itu, lalu menghalau mereka.",
+          "quote": "Moreover, may Thoth, being filled and furnished with charms, come and loose the bandages, even the bandages of Set which fetter my mouth; and may the god Tem hurl them at those who would fetter [me] with them, and drive them back.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c33",
+          "source_id": "atum-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the text translated by Budge, the word of power of Tem, the Father of the gods, who is in heaven, maketh to live.",
+          "statement_id": "Dalam teks terjemahan Budge, kata kuasa Tem, Bapa para dewa, yang ada di surga, memberi hidup.",
+          "quote": "The word of power of Tem, the Father of the gods, who is in heaven, maketh to live.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c34",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atum is the god of pre-existence and post-existence.",
+          "statement_id": "Atum adalah dewa pra-keberadaan dan pasca-keberadaan.",
+          "quote": "Atum is the god of pre-existence and post-existence.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atum-c35",
+          "source_id": "atum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khepri-Atum encompassed sunrise and sunset, thus reflecting the entire cycle of morning and evening.",
+          "statement_id": "Khepri-Atum mencakup matahari terbit dan matahari terbenam, sehingga mencerminkan seluruh siklus pagi dan petang.",
+          "quote": "Khepri-Atum encompassed sunrise and sunset, thus reflecting the entire cycle of morning and evening.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1018,7 +1372,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c5ef65a809fd19b7b0af56044ded77550ce31e1ce61abb57f095eafd90b0062"
     },
     {
       "slug": "sekhmet",
@@ -1184,15 +1539,17 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7279205e99474c5585413de030ca8e6ff005d6da6f3d1df13a3a3c9d6b9beddd"
     },
     {
       "slug": "geb",
-      "file": "batch-077-fix-1.md",
+      "file": "batch-077-fix-2.md",
+      "entry_sha256": "cc8368624be7537439448c1646e7785a108146bd024387fb70ac8e84d9d156a6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 31,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -1255,9 +1612,7 @@
           "statement_id": "Budge mengisahkan Geb dan Nut bersatu setiap malam, lalu Shu memisahkan mereka pada pagi hari.",
           "quote": "These deities were supposed to unite every evening, and to remain embraced until the morning, when the god Shu separated them",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "geb-c07",
@@ -1317,9 +1672,7 @@
           "statement_id": "Budge mencatat gelar kepala turun-temurun para dewa bagi Geb.",
           "quote": "He is called the \"Erpā,\" i.e., the \"hereditary chief\" of the gods",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "geb-c13",
@@ -1329,9 +1682,7 @@
           "statement_id": "Menurut Budge, peran Geb berkembang menjadi dewa orang mati karena mereka dimakamkan di bumi.",
           "quote": "later he became a god of the dead as representing the earth wherein the deceased was laid.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "geb-c14",
@@ -1341,9 +1692,7 @@
           "statement_id": "Budge menghubungkan Geb dan Nut dengan pemberian makanan bagi orang mati.",
           "quote": "she and her husband Seb were considered to be the givers of food, not only to the living but also to the dead.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "geb-c15",
@@ -1353,9 +1702,167 @@
           "statement_id": "Budge juga mencatat gelar ayah para dewa untuk Geb.",
           "quote": "the \"father of the gods,\" these being, of course, Osiris, Isis, Set, and Nephthys.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "geb-c16",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Geb could also be considered a father of snakes.",
+          "statement_id": "Geb juga dapat dianggap sebagai ayah ular-ular.",
+          "quote": "He could also be considered a father of snakes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c17",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Geb also often occurs as a primeval divine king of Egypt from whom his son Osiris and his grandson Horus inherited the land after many conflicts with the disruptive god Set, brother and killer of Osiris.",
+          "statement_id": "Geb juga sering muncul sebagai raja ilahi purba Mesir; putranya Osiris dan cucunya Horus mewarisi negeri itu darinya setelah banyak pertikaian dengan dewa pengacau Set, saudara dan pembunuh Osiris.",
+          "quote": "Geb also often occurs as a primeval divine king of Egypt from whom his son Osiris and his grandson Horus inherited the land after many conflicts with the disruptive god Set, brother and killer of Osiris.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c18",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Geb could also be regarded as personified fertile earth and barren desert, the latter containing the dead or setting them free from their tombs, metaphorically described as \"Geb opening his jaws\".",
+          "statement_id": "Geb juga dapat dipandang sebagai perwujudan tanah subur dan gurun tandus; gurun itu menampung orang mati atau membebaskan mereka dari makamnya, yang secara kiasan disebut \"Geb membuka rahangnya\".",
+          "quote": "Geb could also be regarded as personified fertile earth and barren desert, the latter containing the dead or setting them free from their tombs, metaphorically described as \"Geb opening his jaws\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c19",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Geb and Nut together formed the permanent boundary between the primeval waters and the newly created world.",
+          "statement_id": "Geb dan Nut bersama-sama membentuk batas tetap antara perairan purba dan dunia yang baru tercipta.",
+          "quote": "Geb and Nut together formed the permanent boundary between the primeval waters and the newly created world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c20",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a chthonic deity Geb became naturally associated with the underworld, fresh waters and vegetation; barley is said to grow upon his ribs.",
+          "statement_id": "Sebagai dewa bawah tanah (chthonic), Geb secara alami dikaitkan dengan dunia bawah, air tawar, dan tumbuh-tumbuhan; jelai dikatakan tumbuh di rusuknya.",
+          "quote": "As a chthonic deity he (like Min) became naturally associated with the underworld, fresh waters and with vegetation – barley being said to grow upon his ribs",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c21",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Greco-Roman Egypt, Geb was equated with the Greek titan Cronus, because Cronus held a quite similar position in the Greek pantheon, as the father of the gods Zeus, Hades and Poseidon, as Geb did in Egyptian mythology.",
+          "statement_id": "Di Mesir masa Yunani-Romawi, Geb disamakan dengan Titan Yunani Cronus karena Cronus memegang kedudukan yang cukup mirip dalam panteon Yunani, sebagai ayah para dewa Zeus, Hades, dan Poseidon, sebagaimana Geb dalam mitologi Mesir.",
+          "quote": "In Greco-Roman Egypt, Geb was equated with the Greek titan Cronus, because he held a quite similar position in the Greek pantheon, as the father of the gods Zeus, Hades, and Poseidon, as Geb did in Egyptian mythology.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c22",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This equation of Geb with Cronus is particularly well attested in Tebtunis in the southern Fayyum, where the two were part of a local version of the cult of Sobek, the crocodile god.",
+          "statement_id": "Persamaan Geb dengan Cronus ini terutama terbukti di Tebtunis, Fayum selatan: di sana keduanya menjadi bagian dari versi lokal pemujaan Sobek, dewa buaya.",
+          "quote": "This equation is particularly well attested in Tebtunis in the southern Fayyum: Geb and Cronus were here part of a local version of the cult of Sobek, the crocodile god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c23",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Book of the Heavenly Cow, it is implied that Geb is the heir of the departing sun god. After Geb passed the throne to his son Osiris, he took on the role of a judge in the Divine Tribunal of the gods.",
+          "statement_id": "Dalam Kitab Sapi Surgawi, tersirat bahwa Geb adalah pewaris dewa matahari yang pergi. Setelah menyerahkan takhta kepada putranya Osiris, Geb berperan sebagai hakim dalam Pengadilan Ilahi para dewa.",
+          "quote": "In the Book of the Heavenly Cow, it is implied that Geb is the heir of the departing sun god. After Geb passed on the throne to Osiris, his son, he then took on a role of a judge in the Divine Tribunal of the gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c24",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some Egyptologists have stated that Geb was associated with a mythological divine creator goose, who had laid a world egg from which the sun and/or the world had sprung.",
+          "statement_id": "Beberapa Egiptolog menyatakan bahwa Geb dikaitkan dengan angsa pencipta ilahi mitologis yang telah bertelur sebuah telur dunia, tempat matahari dan/atau dunia berasal.",
+          "quote": "Some Egyptologists (specifically Jan Bergman, Terence Duquesne and Richard H. Wilkinson) have stated that Geb was associated with a mythological divine creator goose, who had laid a world egg from which the sun and/or the world had sprung.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c25",
+          "source_id": "geb-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This theory is assumed to be incorrect and to result from confusing the divine name \"Geb\" with that of a Whitefronted Goose.",
+          "statement_id": "Teori itu diasumsikan keliru dan merupakan hasil dari keliru menyamakan nama ilahi \"Geb\" dengan nama angsa dahi putih.",
+          "quote": "This theory is assumed to be incorrect and to be a result of confusing the divine name \"Geb\" with that of a Whitefronted Goose",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c26",
+          "source_id": "geb-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, after the primordial mound rose from the waters of chaos Atum (Ra) sent his children Shu and Tefnut out to create the world; when they returned, his tears of joy became human beings. These creatures had nowhere to live, so Shu and Tefnut mated to give birth to Geb (earth) and Nut (sky).",
+          "statement_id": "Menurut World History Encyclopedia, setelah gundukan purba muncul dari air kekacauan, Atum (Ra) mengutus anak-anaknya Shu dan Tefnut menciptakan dunia; ketika mereka kembali, air mata gembira Atum menjadi manusia. Manusia itu tidak punya tempat tinggal, maka Shu dan Tefnut kawin dan melahirkan Geb (bumi) dan Nut (langit).",
+          "quote": "After the primordial mound rose from the waters of chaos at creation, Atum (Ra) sent his children Shu and Tefnut out to create the world. When they returned, he was so happy he shed tears of joy which became human beings. These creatures had nowhere to live and so Shu and Tefnut mated to give birth to Geb (earth) and Nut (sky).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c27",
+          "source_id": "geb-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, in the story of the creation of the world Atum is angered by the intimate relationship between Geb (earth) and Nut (sky) and so separates them, declaring that Nut may not give birth to her children on any day of the year.",
+          "statement_id": "Menurut World History Encyclopedia, dalam kisah penciptaan dunia Atum marah oleh kedekatan Geb (bumi) dan Nut (langit) sehingga memisahkan mereka dan menetapkan bahwa Nut tidak boleh melahirkan anak-anaknya pada hari mana pun dalam setahun.",
+          "quote": "In the story of the creation of the world, Atum is angered by the intimate relationship between Geb (earth) and Nut (sky) and so separates them, declaring that Nut may not give birth to her children on any day of the year.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c28",
+          "source_id": "geb-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that, according to an old view, Seb and Nut existed in the primeval watery abyss side by side with Shu and Tefnut, and later Seb became the earth and Nut the sky.",
+          "statement_id": "Budge menulis bahwa menurut pandangan lama, Seb dan Nut berada di jurang perairan purba berdampingan dengan Shu dan Tefnut, dan kemudian Seb menjadi bumi serta Nut menjadi langit.",
+          "quote": "According to an old view, Seb and Nut existed in the primeval watery abyss side by side with Shu and Tefnut; and later Seb became the earth and Nut the sky.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c29",
+          "source_id": "geb-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In a hymn to Ra quoted by Budge, Ra, who brings forth green things in their season, is told that his body is Seb.",
+          "statement_id": "Dalam sebuah himne untuk Ra yang dikutip Budge, Ra, yang menumbuhkan tanaman hijau pada musimnya, disapa dengan kata bahwa tubuhnya adalah Seb.",
+          "quote": "Praise be unto thee, O Rā, thou exalted Power, who bringest forth, green things in their season, behold [thy] body is Seb.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c30",
+          "source_id": "geb-s4",
+          "host": "en.wikisource.org",
+          "statement": "In the Book of the Dead chapter on transformation into Ptah, the speaker declares that he is decreed to be the divine heir of Seb, the lord of the earth, and to be the protector therein.",
+          "statement_id": "Dalam pasal Kitab Orang Mati tentang perubahan wujud menjadi Ptah, sang penutur menyatakan bahwa ia ditetapkan sebagai pewaris ilahi Seb, penguasa bumi, dan pelindung di dalamnya.",
+          "quote": "I am decreed to be the divine Heir of Seb, the lord of the earth and to be the protector therein.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "geb-c31",
+          "source_id": "geb-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the text translated by Budge, when Seb had come, the god who is speaking said to him, \"Let war be made against thy worms (or, serpents) which are in thee\".",
+          "statement_id": "Dalam teks terjemahan Budge, ketika Seb datang, sang dewa yang berbicara berkata kepadanya, \"Biarlah perang dilancarkan terhadap cacing-cacingmu (atau ular-ularmu) yang ada di dalam dirimu\".",
+          "quote": "And when the Majesty of Seb had come, the Majesty of this god said unto him, \"Let war be made against thy worms (or, serpents) which are in thee",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1524,7 +2031,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "313ee7d42b2eda44df0eafda4e0a6890a064781731b15dfe9c2b48db3d16bb7b"
     },
     {
       "slug": "apophis",
@@ -1694,7 +2202,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "80278c2b0619c4872841e9b68c6fc0f09a7793e83710857198b03b6092746c44"
     },
     {
       "slug": "khonsu",
@@ -1866,7 +2375,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0ea422ee7f848295dabb524321c235051c8ae9b59cd97549e569783f3c0338f5"
     },
     {
       "slug": "neith",
@@ -2030,7 +2540,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "01e7eff0df1ea4f2ae10ee9d36a59f84a12693f9e6756896e4f1a5c09dfd297e"
     },
     {
       "slug": "anuket",
@@ -2196,7 +2707,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "985134de8e1c9a264af058c0f07659f5be7f1bcf59b112b2636964b4907caeb4"
     },
     {
       "slug": "khnum",
@@ -2364,7 +2876,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3b1d90d3077c59fd5c3328cc11945be372bc2b784f54b0058efc291c91707b5b"
     },
     {
       "slug": "khepri",
@@ -2536,7 +3049,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e7fc1fd7c2a206ae43733aea907ffb380f1aa15c2eec1e4ba51e97577433fccc"
     },
     {
       "slug": "apis",
@@ -2700,7 +3214,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "492feac115cd679c5b1f462c8ef7fcd71e920e3400f182d9b347072ad7e3369d"
     },
     {
       "slug": "bes",
@@ -2864,7 +3379,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ea92488bef8345db6f93f67ab28694892d5eb5a4fa7eecfaab1e698a8649c12f"
     },
     {
       "slug": "hapi",
@@ -3036,7 +3552,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e0246389fe58b7c90cd65d4f2a868b0e9ca3ebe4fa59ce9516ada6cee5fedd95"
     },
     {
       "slug": "min",
@@ -3200,7 +3717,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cbf853f1233b3b58ebd3c69b5003afb7add2cf63f79865b9a6b8977375f06b14"
     },
     {
       "slug": "amunet",
@@ -3364,7 +3882,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f8e1f41daeef1078a2906515ac81ba7ffc78418f5fd60c0e2ac5eed483a2a7ae"
     },
     {
       "slug": "serapis",
@@ -3528,15 +4047,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2de73a897c7c913b499ee263f614d0483891671d479f372bd8120ca6e2dccc50"
     },
     {
       "slug": "tefnut",
-      "file": "batch-077-fix-1.md",
+      "file": "batch-077-fix-2.md",
+      "entry_sha256": "fdacd7b28e8d8086a2cf9ab79355296fc36b4a7300906c13537c24666b32753c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 37,
+        "sources": 6,
         "images": 0
       },
       "issues": [],
@@ -3669,9 +4190,7 @@
           "statement_id": "Budge menghubungkan Tefnut sebagai dewi orang mati dengan minuman bagi almarhum.",
           "quote": "as a god of the dead she seems to have been, in some way, connected with the supply of drink to the deceased.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "tefnut-c14",
@@ -3681,9 +4200,7 @@
           "statement_id": "Dalam uraian Budge, Tefnut adalah mata kiri Temu, dibandingkan dengan bulan.",
           "quote": "she was the left, i.e., Shu represented an aspect of the Sun, and Tefnut of the Moon.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "tefnut-c15",
@@ -3693,9 +4210,227 @@
           "statement_id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
           "quote": "The gods Temu, Shu, and Tefnut thus formed a trinity",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c16",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut is a deity in Ancient Egyptian religion, the feminine counterpart of the air god Shu.",
+          "statement_id": "Tefnut adalah dewa dalam agama Mesir kuno, padanan perempuan dewa udara Shu.",
+          "quote": "is a deity in Ancient Egyptian religion, the feminine counterpart of the air god Shu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c17",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Her mythological function is less clear than that of Shu, but Egyptologists have suggested she is connected with moisture, based on a Pyramid Texts passage in which she produces water and on parallelism with Shu's connection with dry air.",
+          "statement_id": "Fungsi mitologis Tefnut kurang jelas dibanding Shu, tetapi para Egiptolog mengusulkan bahwa ia berkaitan dengan kelembapan, berdasarkan satu bagian Pyramid Texts tempat ia menghasilkan air dan berdasarkan kesejajaran dengan kaitan Shu pada udara kering.",
+          "quote": "Her mythological function is less clear than that of Shu, but Egyptologists have suggested she is connected with moisture, based on a passage in the Pyramid Texts in which she produces water, and on parallelism with Shu's connection with dry air.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c18",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut was also one of the goddesses who could function as the fiery Eye of Ra.",
+          "statement_id": "Tefnut juga salah satu dewi yang dapat berfungsi sebagai Mata Ra yang berapi.",
+          "quote": "She was also one of the goddesses who could function as the fiery Eye of Ra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c19",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The name Tefnut has no certain etymology but may be an onomatopoeia of the sound of spitting, as Atum spits her out in some versions of the creation myth; in addition, her name was written as a mouth spitting in late texts.",
+          "statement_id": "Nama Tefnut tidak memiliki etimologi yang pasti, tetapi mungkin tiruan bunyi meludah, karena dalam beberapa versi mitos penciptaan Atum meludahkannya; selain itu, dalam teks-teks akhir namanya ditulis sebagai mulut yang meludah.",
+          "quote": "The name Tefnut has no certain etymology but it may be an onomatopoeia of the sound of spitting, as Atum spits her out in some versions of the creation myth. Additionally, her name was written as a mouth spitting in late texts.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c20",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut's grandchildren were Osiris, Isis, Set, Nephthys and, in some versions, Horus the Elder.",
+          "statement_id": "Cucu-cucu Tefnut adalah Osiris, Isis, Set, Nephthys, dan, dalam sebagian versi, Horus yang Tua.",
+          "quote": "Tefnut's grandchildren were Osiris, Isis, Set, Nephthys, and, in some versions, Horus the Elder.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c21",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Pyramid Text 527 says that Atum was creative in that he sneezed in Heliopolis, and that brother and sister were born, that is Shu and Tefnut.",
+          "statement_id": "Pyramid Text 527 menyatakan bahwa Atum bersifat kreatif karena ia bersin di Heliopolis, lalu kakak-beradik itu lahir, yaitu Shu dan Tefnut.",
+          "quote": "Pyramid Text 527 says, \"Atum was creative in that he proceeded to sneeze while in Heliopolis. And brother and sister were born - that is Shu and Tefnut.\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c22",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The Coffin Texts contain references to Shu being sneezed out by Atum from his nose and Tefnut being spat out like saliva.",
+          "statement_id": "Teks Peti Mati memuat rujukan bahwa Shu dibersinkan oleh Atum dari hidungnya, dan Tefnut diludahkan seperti air liur.",
+          "quote": "The Coffin Texts contain references to Shu being sneezed out by Atum from his nose, and Tefnut being spat out like saliva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c23",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut is a leonine deity and appears as a human with a lioness head when depicted as part of the Great Ennead of Heliopolis. The other frequent depiction is as a lioness, but she can also be depicted as fully human.",
+          "statement_id": "Tefnut adalah dewi berwujud singa: ia tampil sebagai manusia berkepala singa betina ketika digambarkan sebagai bagian dari Ennead Agung Heliopolis. Penggambaran lain yang sering adalah sebagai singa betina, tetapi ia juga dapat digambarkan sepenuhnya sebagai manusia.",
+          "quote": "Tefnut is a leonine deity, and appears as human with a lioness head when depicted as part of the Great Ennead of Heliopolis. The other frequent depiction is as a lioness, but Tefnut can also be depicted as fully human.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c24",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut even assumes the role of the mistress of the flame, adorned with a flame to represent protection against enemies.",
+          "statement_id": "Tefnut bahkan berperan sebagai nyonya api, dihiasi nyala api sebagai lambang perlindungan terhadap musuh.",
+          "quote": "She even assumes the role of the mistress of the flame, where she is adorned with a flame to represent protection against enemies.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c25",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Heliopolis and Leontopolis were the primary cult centres of Tefnut.",
+          "statement_id": "Heliopolis dan Leontopolis adalah pusat pemujaan utama Tefnut.",
+          "quote": "Heliopolis and Leontopolis (now ell el-Muqdam) were the primary cult centres.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c26",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut was worshiped with Shu as a pair of lions in Leontopolis in the Nile Delta.",
+          "statement_id": "Tefnut dipuja bersama Shu sebagai sepasang singa di Leontopolis, di Delta Nil.",
+          "quote": "She was worshiped with Shu as a pair of lions in Leontopolis in the Nile Delta.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c27",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "At Karnak, Tefnut formed part of the Ennead and was invoked in prayers for the health and wellbeing of the pharaoh.",
+          "statement_id": "Di Karnak, Tefnut menjadi bagian dari Ennead dan diseru dalam doa untuk kesehatan dan kesejahteraan firaun.",
+          "quote": "At Karnak, Tefnut formed part of the Ennead and was invoked in prayers for the health and wellbeing of the pharaoh.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c28",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "As a lioness Tefnut could display a wrathful aspect and is said to have escaped to Nubia in a rage, jealous of her grandchildren's higher worship; she returned only after receiving the title \"honorable\" from Thoth.",
+          "statement_id": "Sebagai singa betina, Tefnut dapat menunjukkan sisi murka dan dikatakan melarikan diri ke Nubia dalam kemarahan karena cemburu pada pemujaan yang lebih tinggi bagi cucu-cucunya; ia baru kembali setelah menerima gelar \"terhormat\" dari Thoth.",
+          "quote": "As a lioness she could display a wrathful aspect and is said to have escaped to Nubia in a rage, jealous of her grandchildren's higher worship. Only after receiving the title \"honorable\" from Thoth, did she return.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c29",
+          "source_id": "tefnut-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Tefnut is the mother of Geb (earth) and Nut (sky), who were born so human beings could have somewhere to live.",
+          "statement_id": "Menurut World History Encyclopedia, Tefnut adalah ibu Geb (bumi) dan Nut (langit), yang lahir agar manusia punya tempat tinggal.",
+          "quote": "Tefnut is the mother of Geb (earth) and Nut (sky) who were born so human beings could have somewhere to live.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c30",
+          "source_id": "tefnut-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Shu, the god of the air, was born of Atum (Ra) at the beginning of creation and sent to create the world with his sister Tefnut, goddess of moisture. The two were gone so long that Atum came to miss them and sent his eye (the Eye of Ra) to find them; when the eye returned with them Atum was so happy he cried, and his tears created human beings.",
+          "statement_id": "Menurut World History Encyclopedia, Shu, dewa udara, dilahirkan Atum (Ra) pada awal penciptaan dan diutus menciptakan dunia bersama saudarinya Tefnut, dewi kelembapan. Keduanya pergi begitu lama sampai Atum merindukan mereka dan mengirim matanya (Mata Ra) untuk mencari; ketika mata itu kembali bersama mereka, Atum begitu bahagia hingga menangis, dan air matanya menciptakan manusia.",
+          "quote": "Shu - The primordial god of the air whose name means \"Emptiness\". He was born at the beginning of creation of Atum (Ra) and sent to create the world with his sister Tefnut (goddess of moisture). The two were gone so long that Atum came to miss them and sent his eye (the Eye of Ra) in search of them. When the eye returned with them, Atum was so happy he cried and his tears created human beings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c31",
+          "source_id": "tefnut-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Ruty, the twin lion gods who represented the eastern and western horizons, were originally associated with Shu and Tefnut as sky deities and eventually became linked with Ra and the solar barge.",
+          "statement_id": "Menurut World History Encyclopedia, Ruty, dewa kembar berwujud singa yang mewakili cakrawala timur dan barat, pada mulanya dikaitkan dengan Shu dan Tefnut sebagai dewa langit, lalu akhirnya dikaitkan dengan Ra dan perahu matahari.",
+          "quote": "Ruty - The twin lion gods who represented the eastern and western horizons. The name means \"Pair of Lions\". They were originally associated with Shu and Tefnut as sky deities and eventually became linked with Ra and the solar barge.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c32",
+          "source_id": "tefnut-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that Tefnut was the twin sister of Shu and, as a power of nature, typified moisture or some aspect of the sun's heat.",
+          "statement_id": "Budge menulis bahwa Tefnut adalah saudari kembar Shu dan sebagai kekuatan alam ia melambangkan kelembapan atau salah satu aspek panas matahari.",
+          "quote": "TEFNUT was the twin-sister of Shu; as a power of nature she typified moisture or some aspect of the sun's heat",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c33",
+          "source_id": "tefnut-s6",
+          "host": "en.wikisource.org",
+          "statement": "In a Book of the Dead chapter, the speaker declares that he knows the Souls of Annu, namely Ra, Shu and Tefnut.",
+          "statement_id": "Dalam sebuah pasal Kitab Orang Mati, sang penutur menyatakan bahwa ia mengenal Jiwa-jiwa Annu, yaitu Ra, Shu, dan Tefnut.",
+          "quote": "I know the Souls of Annu, namely, Rā, Shu, and Tefnut.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c34",
+          "source_id": "tefnut-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the creation legend translated by Budge, the god who speaks says that he was then alone, for he had not yet emitted Shu from himself nor spit out Tefnut, and no other existed who could work with him.",
+          "statement_id": "Dalam legenda penciptaan terjemahan Budge, dewa yang berbicara mengatakan bahwa pada waktu itu ia sendirian karena belum mengeluarkan Shu dari dirinya dan belum meludahkan Tefnut, dan tidak ada yang lain yang dapat bekerja bersamanya.",
+          "quote": "I was [then] one by myself, for I had not emitted from myself the god Shu, and I had not spit out from myself the goddess Tefnut; and there existed no other who could work with me.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c35",
+          "source_id": "tefnut-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In a spell translated by Budge, the person addressed is told that his right eye is like Shu and his left eye like Tefnut, who are the children of Ra.",
+          "statement_id": "Dalam sebuah mantra terjemahan Budge, yang dituju diberi tahu bahwa mata kanannya seperti Shu dan mata kirinya seperti Tefnut, yang adalah anak-anak Ra.",
+          "quote": "Thy right eye is like Shu, and thy left eye like Tefnut, who are the children of Ra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c36",
+          "source_id": "tefnut-s5",
+          "host": "www.gutenberg.org",
+          "statement": "Budge writes that Temu transferred the magical power of his life to Shu and Tefnut by embracing them.",
+          "statement_id": "Budge menulis bahwa Temu memindahkan daya magis hidupnya kepada Shu dan Tefnut dengan memeluk mereka.",
+          "quote": "Thus Temu transferred the magical power of his life to Shu and Tefnut by embracing them",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c37",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress topped with sprouting plants.",
+          "statement_id": "Pada masa Dinasti ke-18 dan ke-19, terutama pada Periode Amarna, Tefnut digambarkan berwujud manusia dengan penutup kepala datar rendah yang dihiasi tanaman bertunas.",
+          "quote": "During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress, topped with sprouting plants.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
@@ -3772,7 +4507,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1099ba26305c017a8aec93025a89a43130da23d8ac2f879ca506675cbfc64a25"
     },
     {
       "slug": "serket",
@@ -3846,7 +4582,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "396b6d6cc1706ab64b7904a3309a9ce8aba15e82fb18e72f31018b3289b3e74f"
     },
     {
       "slug": "taweret",
@@ -3920,7 +4657,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f57f55c846a313ef50100d3a1c95f513651f9173fbee6e38add91a5a43047a39"
     },
     {
       "slug": "nun-q276563",
@@ -3996,7 +4734,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bb3624d3df5b4a7357f2526a77bc6b632a04529907411e38263be4febc9cae7d"
     },
     {
       "slug": "wadjet",
@@ -4070,7 +4809,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a25f76dc26198198203f159f625fc8ceb8d65adf3b091e0f3152c17fa503defe"
     },
     {
       "slug": "nekhbet",
@@ -4144,7 +4884,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3c8252c962bc259298baf7fb828c38c5742725b209c10e568980a4a973d31e88"
     },
     {
       "slug": "ennead",
@@ -4218,7 +4959,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "897a512b6171df0097acb4ff9e250ba5ba27489589470ee5712537563d7fcd1d"
     },
     {
       "slug": "monthu",
@@ -4292,7 +5034,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fc801a82a2d349416df8e73d6959efdd88bca29d523b34f403b021180a6cce58"
     },
     {
       "slug": "nefertem",
@@ -4366,7 +5109,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1283e68376dcba0c7e61b6611877d37fc1ee831d51214b339ae49553af90d4d"
     },
     {
       "slug": "heqet",
@@ -4440,7 +5184,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4be48eb6743bdeec5ada824aa65cdf3543087feb3ed37072cec380fa7c80a15d"
     },
     {
       "slug": "seshat",
@@ -4514,7 +5259,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2374dbad4f0e980c4811e30fefb5aef8a5a27e75430c7b20e4341dc83181a424"
     },
     {
       "slug": "sokar",
@@ -4588,7 +5334,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d2fc1b7781c75f84b3bb1600db0bbc9f4515edeec95061ec2b23bdfd4977ec5e"
     },
     {
       "slug": "wepwawet",
@@ -4662,7 +5409,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8f01055ed14a9e580a7626374dafdcd1e5c84ae0762bc07b27500d7fa9a1fecd"
     },
     {
       "slug": "anat",
@@ -4736,7 +5484,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8eb6fda00c8bb7156d5c11d56926b9a9899721a25bdbd152869d318d125dca06"
     }
   ]
 }

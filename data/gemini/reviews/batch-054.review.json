@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-054",
-  "checked_at": "2026-10-07T04:32:09.035Z",
+  "checked_at": "2026-10-07T09:23:12.821Z",
   "files": [
     "batch-054.md",
     "batch-054-fix-1.md",
     "batch-054-fix-2.md",
     "batch-054-fix-3.md",
     "batch-054-fix-4.md",
-    "batch-054-fix-5.md"
+    "batch-054-fix-5.md",
+    "batch-054-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -899,11 +900,12 @@
     },
     {
       "slug": "nozuchi",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-6.md",
+      "entry_sha256": "c2d888334008e7e0ce336e6f0c18ebf3e35dbc0cfb7447c95177ecb179a7cb7f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -967,27 +969,61 @@
           "quote": "In Nara, they are known to feed on deer.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nozuchi-c07",
+          "source_id": "nozuchi-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes it as a yōkai shaped like a snake with only a mouth on the top of its head, regarded as a spirit of plants living deep in the mountains and sometimes identified with the Tsuchinoko.",
+          "statement_id": "Sebuah kamus Jepang menyebutnya yōkai berwujud seperti ular dengan hanya mulut di puncak kepala, dianggap roh tumbuhan yang tinggal jauh di pegunungan, dan kadang disamakan dengan Tsuchinoko.",
+          "quote": "日本の妖怪。蛇のような姿で頭頂部に口だけがあり、山奥に住む草木の霊とされる。ツチノコと同一視されることもある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nozuchi-c08",
+          "source_id": "nozuchi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The Edo-period encyclopedia Wakan Sansai Zue says it is often seen at the Natsumi River and Seimei Falls in the Yoshino mountains of Yamato Province (now Nara), and that the name Nozuchi comes from its resemblance to a mallet.",
+          "statement_id": "Ensiklopedia zaman Edo Wakan Sansai Zue menyebut bahwa makhluk ini sering terlihat di Sungai Natsumi dan Air Terjun Seimei di pegunungan Yoshino, Provinsi Yamato (kini Nara), dan bahwa nama Nozuchi berasal dari kemiripannya dengan palu.",
+          "quote": "江戸時代の百科事典『和漢三才図会』には、大和国（現・奈良県）吉野山中の菜摘川（夏実川）や清明滝（蜻螟滝）でよく見かけるもので、野槌の名は槌に似ていることが由来とある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nozuchi-c09",
+          "source_id": "nozuchi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is said to live in tree hollows deep in the mountains, the larger ones about 3 shaku (about 90 cm) long and 5 sun (about 15 cm) across. On seeing a person it rolls down the slope and bites the foot, but since it climbs slowly, fleeing to higher ground is advised when meeting one.",
+          "statement_id": "Ia konon tinggal di lubang pohon jauh di pegunungan; yang besar panjangnya sekitar 3 shaku (sekitar 90 sentimeter) dan berdiameter 5 sun (sekitar 15 sentimeter). Saat melihat orang, ia berguling menuruni lereng dan menggigit kaki orang itu, tetapi karena lambat saat mendaki, orang yang bertemu dengannya disarankan lari ke tempat yang lebih tinggi.",
+          "quote": "深山の木の穴に住み、大きいものでは体長3尺（約90センチメートル）、直径5寸（約15センチメートル）、人を見ると坂を転がり下って人の足に噛みつくが、坂を登るのは遅いので、出くわしたときには高いところへ逃げると良いという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nozuchi-c10",
+          "source_id": "nozuchi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name nozuchi also appears in Buddhist tales; the Kamakura-period Buddhist tale collection Shasekishū says a monk without virtue is reborn as a mallet-shaped snake living deep in the mountains.",
+          "statement_id": "Nama 野槌 juga muncul dalam kisah Buddhis; kumpulan kisah Buddhis zaman Kamakura Shasekishū menyebut bahwa biksu yang tak berbudi terlahir kembali sebagai ular berbentuk palu yang tinggal jauh di pegunungan.",
+          "quote": "仏教説話の中にも「野槌」という名は見られ、鎌倉時代の仏教説話集『沙石集』には、徳のない僧侶は深山に住む槌型の蛇に生まれ変わるとされている。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9758e5d29a769ef03bbe60a25b66f951390b306ec7cc840eeba6b61b8f2451af"
+      "images": []
     },
     {
       "slug": "nuribotoke",
-      "file": "batch-054.md",
+      "file": "batch-054-fix-6.md",
+      "entry_sha256": "8ff70f0c6360e52fdfe2705f38b65303d03a527f8f7748410fe7b3b868a5609d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (nuribotoke-c06)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nuribotoke-c01",
@@ -1043,15 +1079,64 @@
           "id": "nuribotoke-c06",
           "source_id": "nuribotoke-s2",
           "host": "yokai.com",
-          "statement": "That account says it returns to the household altar before dawn.",
-          "statement_id": "Kisah itu menyebut ia kembali ke altar rumah sebelum fajar.",
+          "statement": "That account says Nuribotoke must return to the butsudan, or family altar, before sunrise.",
+          "statement_id": "Uraian itu menyebut Nuribotoke harus kembali ke butsudan (altar keluarga) sebelum matahari terbit.",
           "quote": "Nuribotoke must return to the butsudan before sunrise, and they vanish altogether during the day.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nuribotoke-c07",
+          "source_id": "nuribotoke-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary records it as a yōkai found in Edo-period yōkai picture scrolls, drawn as a monk with a pitch-black body and both eyeballs protruding and hanging down; it is also called びろーん.",
+          "statement_id": "Sebuah kamus Jepang mencatatnya sebagai yōkai yang tercatat dalam gulungan bergambar makhluk gaib zaman Edo, digambarkan berbentuk biksu bertubuh hitam pekat dengan kedua bola mata menonjol dan menjuntai; ia juga disebut びろーん.",
+          "quote": "日本の妖怪。江戸時代の妖怪絵巻などに記述がみられ、真黒な体で両目玉が飛び出し垂れ下がった坊主姿で描かれる。「びろーん」とも。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuribotoke-c08",
+          "source_id": "nuribotoke-s2",
+          "host": "yokai.com",
+          "statement": "One description calls Nuribotoke a grotesque zombie-like spirit that creeps out of a butsudan, or family altar, that has been accidentally left open at night.",
+          "statement_id": "Satu uraian menyebut Nuribotoke sebagai roh seperti zombi yang menyeramkan, merayap keluar dari butsudan (altar keluarga) yang tanpa sengaja dibiarkan terbuka pada malam hari.",
+          "quote": "Nuribotoke is a grotesque zombie-like spirit which creeps out of a butsudan, or family altar, that has been accidentally left open at night.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nuribotoke-c09",
+          "source_id": "nuribotoke-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its name literally means “Lacquered Buddha”, referring to its black lacquered color and its resemblance to Buddha, although the term for Buddha can also mean any deceased spirit.",
+          "statement_id": "Namanya secara harfiah berarti \"Buddha berlapis pernis\", merujuk pada warna hitam pernisnya dan kemiripannya dengan Buddha, meski kata \"Buddha\" juga dapat berarti arwah orang mati mana pun.",
+          "quote": "Their name literally means \"Lacquered Buddha\" which references their black lacquered color and their resemblance to Buddha, although the term for Buddha can also be used to mean any deceased spirit.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nuribotoke-c10",
+          "source_id": "nuribotoke-s2",
+          "host": "yokai.com",
+          "statement": "According to that account, Nuribotoke can be kept at bay by sprinkling salt on the floor, which they will avoid crossing.",
+          "statement_id": "Menurut uraian itu, Nuribotoke dapat dijauhkan dengan menabur garam di lantai, yang tidak akan mereka seberangi.",
+          "quote": "They can be kept at bay by sprinkling salt on the floor, which they will avoid crossing.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nuribotoke-c11",
+          "source_id": "nuribotoke-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has also sometimes been called Kurobō (黒坊).",
+          "statement_id": "Makhluk ini kadang juga disebut Kurobō (黒坊).",
+          "quote": "It has also sometimes been referred to as Kurobō (黒坊).",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dac9fd4ca13a8cbc4a465355ee6422d298aeb14747ebaf34023ca33792ef0897"
+      "images": []
     },
     {
       "slug": "oboroguruma",
@@ -3777,11 +3862,12 @@
     },
     {
       "slug": "arikura-no-baba",
-      "file": "batch-054-fix-1.md",
+      "file": "batch-054-fix-6.md",
+      "entry_sha256": "3f8b798a9de757d84d73491d42b1bbee70ae8c2cf61fd517f174e9f6aef6f234",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -3845,10 +3931,39 @@
           "quote": "昔小鳥山の南の方が鳴動した時、老婆が７日目の夜に神に祈り門口に錐を立てたら音は止んだ。また、温泉があったが若者の為にならないと老婆が馬の爪を湯の中に入れたところ温泉が冷たくなった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "arikura-no-baba-c07",
+          "source_id": "arikura-no-baba-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Japanese Wikipedia article describes Arikura-no-baba as a strange tale (kaidan) about an old woman said to have lived in a place called Arikura in Takayama, Gifu Prefecture.",
+          "statement_id": "Artikel Wikipedia bahasa Jepang menyebut Arikura-no-baba sebagai kisah aneh (kaidan) tentang perempuan tua yang konon tinggal di tempat bernama Arikura di Takayama, Prefektur Gifu.",
+          "quote": "蟻鞍の婆（ありくらのばば）とは、岐阜県高山市の蟻鞍という地に住んでいたといわれる老婆についての怪異譚。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arikura-no-baba-c08",
+          "source_id": "arikura-no-baba-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "She is handed down as an old woman who used mysterious arts; the journal Hidabito, published in 1935 by the Hida Society of Archaeology and Folklore, records in \"Iwataki no mukashibanashi\" episodes in which she stopped a mountain’s rumbling by prayer on the seventh day and turned a hot spring to plain water by throwing in a horse’s hoof.",
+          "statement_id": "Ia diwariskan sebagai perempuan tua yang memakai ilmu ajaib; majalah Hidabito, terbitan Hida Archaeological Folklore Society tahun 1935, memuat dalam \"Iwataki no mukashibanashi\" kisah ia menghentikan gemuruh gunung dengan doa pada hari ketujuh dan mengubah air panas menjadi air biasa dengan melempar kuku kuda.",
+          "quote": "不思議な術を使う老婆として伝承されており、飛騨考古土俗学会が1935年に発刊した『ひだびと』には、「岩瀧の昔話」として小烏山が噴火の予兆を示した際、7日目に祈りを捧げ山の鳴動を止めたり、温泉に馬の爪を投げ入れ、ただの水に変えてしまったりした、というような逸話が残されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "arikura-no-baba-c10",
+          "source_id": "arikura-no-baba-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "Card no. 1830007 records the name 蟻鞍の婆 with the reading アリクラノババ (Arikura no baba).",
+          "statement_id": "Kartu nomor 1830007 itu mencatat nama 蟻鞍の婆 dengan bacaan アリクラノババ (Arikura no baba).",
+          "quote": "番号 1830007 ■ 呼称（ヨミ） アリクラノババ ■ 呼称（漢字） 蟻鞍の婆",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2e124b1c0ce0cff7e9c2e4d29a25e11e94de054a0ff5b022692303040ec68569"
+      "images": []
     },
     {
       "slug": "bakotsu",

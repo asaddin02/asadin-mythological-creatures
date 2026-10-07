@@ -1,6 +1,6 @@
 # Review batch-054
 
-Diperiksa 2026-10-07T04:32:09.035Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md, batch-054-fix-5.md.
+Diperiksa 2026-10-07T09:23:12.821Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md, batch-054-fix-5.md, batch-054-fix-6.md.
 
 ## kumanokusubi — lulus-otomatis
 
@@ -125,7 +125,7 @@ Klaim 21 (exact 21), sumber 2, gambar 0.
 
 ## nozuchi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -135,14 +135,15 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | nozuchi-c04 | exact | yokai.com | It is said to roll down slopes and slowly climb back. | They are slow movers, and get about by rolling and tumbling down slopes, then slowly inching their way back up. |
 | nozuchi-c05 | exact | yokai.com | A description gives it bristly hair resembling a caterpillar’s covering. | Their bodies are covered in a bristly fur, much like a hairy caterpillar. |
 | nozuchi-c06 | exact | yokai.com | One regional account in Nara describes it eating deer. | In Nara, they are known to feed on deer. |
+| nozuchi-c07 | exact | kotobank.jp | A Japanese dictionary describes it as a yōkai shaped like a snake with only a mouth on the top of its head, regarded as a spirit of plants living deep in the mountains and sometimes identified with the Tsuchinoko. | 日本の妖怪。蛇のような姿で頭頂部に口だけがあり、山奥に住む草木の霊とされる。ツチノコと同一視されることもある。 |
+| nozuchi-c08 | exact | ja.wikipedia.org | The Edo-period encyclopedia Wakan Sansai Zue says it is often seen at the Natsumi River and Seimei Falls in the Yoshino mountains of Yamato Province (now Nara), and that the name Nozuchi comes from its resemblance to a mallet. | 江戸時代の百科事典『和漢三才図会』には、大和国（現・奈良県）吉野山中の菜摘川（夏実川）や清明滝（蜻螟滝）でよく見かけるもので、野槌の名は槌に似ていることが由来とある。 |
+| nozuchi-c09 | exact | ja.wikipedia.org | It is said to live in tree hollows deep in the mountains, the larger ones about 3 shaku (about 90 cm) long and 5 sun (about 15 cm) across. On seeing a person it rolls down the slope and bites the foot, but since it climbs slowly, fleeing to higher ground is advised when meeting one. | 深山の木の穴に住み、大きいものでは体長3尺（約90センチメートル）、直径5寸（約15センチメートル）、人を見ると坂を転がり下って人の足に噛みつくが、坂を登るのは遅いので、出くわしたときには高いところへ逃げると良いという。 |
+| nozuchi-c10 | exact | ja.wikipedia.org | The name nozuchi also appears in Buddhist tales; the Kamakura-period Buddhist tale collection Shasekishū says a monk without virtue is reborn as a mallet-shaped snake living deep in the mountains. | 仏教説話の中にも「野槌」という名は見られ、鎌倉時代の仏教説話集『沙石集』には、徳のない僧侶は深山に住む槌型の蛇に生まれ変わるとされている。 |
 
 
 ## nuribotoke — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
-
-**warn**
-- `claims (nuribotoke-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+Klaim 11 (loose 1, exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -151,7 +152,12 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 | nuribotoke-c03 | exact | en.wikipedia.org | Its image resembles a dark-skinned animated corpse. | They are depicted as an animated corpse with darkened skin and dangling eyeballs. |
 | nuribotoke-c04 | exact | en.wikipedia.org | The eyes are shown hanging from their sockets. | They are depicted as an animated corpse with darkened skin and dangling eyeballs. |
 | nuribotoke-c05 | exact | yokai.com | A later account gives it deceptive predictions. | Occasionally they try to trick foolish humans by giving false prophecies. |
-| nuribotoke-c06 | exact | yokai.com | That account says it returns to the household altar before dawn. | Nuribotoke must return to the butsudan before sunrise, and they vanish altogether during the day. |
+| nuribotoke-c06 | exact | yokai.com | That account says Nuribotoke must return to the butsudan, or family altar, before sunrise. | Nuribotoke must return to the butsudan before sunrise, and they vanish altogether during the day. |
+| nuribotoke-c07 | exact | kotobank.jp | A Japanese dictionary records it as a yōkai found in Edo-period yōkai picture scrolls, drawn as a monk with a pitch-black body and both eyeballs protruding and hanging down; it is also called びろーん. | 日本の妖怪。江戸時代の妖怪絵巻などに記述がみられ、真黒な体で両目玉が飛び出し垂れ下がった坊主姿で描かれる。「びろーん」とも。 |
+| nuribotoke-c08 | exact | yokai.com | One description calls Nuribotoke a grotesque zombie-like spirit that creeps out of a butsudan, or family altar, that has been accidentally left open at night. | Nuribotoke is a grotesque zombie-like spirit which creeps out of a butsudan, or family altar, that has been accidentally left open at night. |
+| nuribotoke-c09 | exact | en.wikipedia.org | Its name literally means “Lacquered Buddha”, referring to its black lacquered color and its resemblance to Buddha, although the term for Buddha can also mean any deceased spirit. | Their name literally means "Lacquered Buddha" which references their black lacquered color and their resemblance to Buddha, although the term for Buddha can also be used to mean any deceased spirit. |
+| nuribotoke-c10 | exact | yokai.com | According to that account, Nuribotoke can be kept at bay by sprinkling salt on the floor, which they will avoid crossing. | They can be kept at bay by sprinkling salt on the floor, which they will avoid crossing. |
+| nuribotoke-c11 | exact | en.wikipedia.org | It has also sometimes been called Kurobō (黒坊). | It has also sometimes been referred to as Kurobō (黒坊). |
 
 
 ## oboroguruma — lulus-otomatis
@@ -572,7 +578,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## arikura-no-baba — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+Klaim 9 (loose 1, exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -582,6 +588,9 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 | arikura-no-baba-c04 | exact | www.nichibun.ac.jp | Another feat involves cooling a hot spring with a horse’s hoof. | 昔小鳥山の南の方が鳴動した時、老婆が７日目の夜に神に祈り門口に錐を立てたら音は止んだ。また、温泉があったが若者の為にならないと老婆が馬の爪を湯の中に入れたところ温泉が冷たくなった。 |
 | arikura-no-baba-c05 | exact | www.nichibun.ac.jp | She prays on the seventh night of the disturbance. | 昔小鳥山の南の方が鳴動した時、老婆が７日目の夜に神に祈り門口に錐を立てたら音は止んだ。また、温泉があったが若者の為にならないと老婆が馬の爪を湯の中に入れたところ温泉が冷たくなった。 |
 | arikura-no-baba-c06 | exact | www.nichibun.ac.jp | Her rite includes placing an awl upright at the entrance. | 昔小鳥山の南の方が鳴動した時、老婆が７日目の夜に神に祈り門口に錐を立てたら音は止んだ。また、温泉があったが若者の為にならないと老婆が馬の爪を湯の中に入れたところ温泉が冷たくなった。 |
+| arikura-no-baba-c07 | exact | ja.wikipedia.org | The Japanese Wikipedia article describes Arikura-no-baba as a strange tale (kaidan) about an old woman said to have lived in a place called Arikura in Takayama, Gifu Prefecture. | 蟻鞍の婆（ありくらのばば）とは、岐阜県高山市の蟻鞍という地に住んでいたといわれる老婆についての怪異譚。 |
+| arikura-no-baba-c08 | exact | ja.wikipedia.org | She is handed down as an old woman who used mysterious arts; the journal Hidabito, published in 1935 by the Hida Society of Archaeology and Folklore, records in "Iwataki no mukashibanashi" episodes in which she stopped a mountain’s rumbling by prayer on the seventh day and turned a hot spring to plain water by throwing in a horse’s hoof. | 不思議な術を使う老婆として伝承されており、飛騨考古土俗学会が1935年に発刊した『ひだびと』には、「岩瀧の昔話」として小烏山が噴火の予兆を示した際、7日目に祈りを捧げ山の鳴動を止めたり、温泉に馬の爪を投げ入れ、ただの水に変えてしまったりした、というような逸話が残されている。 |
+| arikura-no-baba-c10 | exact | www.nichibun.ac.jp | Card no. 1830007 records the name 蟻鞍の婆 with the reading アリクラノババ (Arikura no baba). | 番号 1830007 ■ 呼称（ヨミ） アリクラノババ ■ 呼称（漢字） 蟻鞍の婆 |
 
 
 ## bakotsu — lulus-otomatis

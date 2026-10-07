@@ -1,6 +1,6 @@
 # Review batch-043
 
-Diperiksa 2026-09-30T02:35:29.686Z. Berkas: batch-043.md, batch-043-fix-1.md.
+Diperiksa 2026-10-07T09:34:02.920Z. Berkas: batch-043.md, batch-043-fix-1.md, batch-043-fix-2.md.
 
 ## lucifer — lulus-otomatis
 
@@ -27,12 +27,12 @@ Klaim 15 (exact 13, loose 2), sumber 3, gambar 0.
 
 ## nyx — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 3, gambar 0.
+Klaim 31 (exact 31), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nyx-c01 | exact | www.theoi.com | Nyx was a primordial goddess of night in Greek mythology. | NYX was the goddess of the night, one of the primordial gods (protogenoi) who emerged as the dawn of creation. |
-| nyx-c02 | exact | www.worldhistory.org | Nyx personifies night in Greek mythology. | Nyx (also known as Nox or the Night) is the personification of the night in Greek mythology |
+| nyx-c02 | exact | www.worldhistory.org | Nyx personifies night in Greek mythology. | is the personification of the night in Greek mythology |
 | nyx-c03 | exact | www.theoi.com | Hesiod says Erebus and Night came from Chaos. | From Chaos came forth Erebus and black Night |
 | nyx-c04 | exact | www.theoi.com | Night and Erebus produced Aether and Day. | and coupling with Erebos (Darkness) she produced Aither (Aether, Light) and Hemera (Day). |
 | nyx-c05 | exact | www.theoi.com | Nyx alone bore spirits including Sleep, Death, Strife and Pain. | Alone she spawned a brood of dark spirits including the three Fates, Sleep, Death, Strife and Pain. |
@@ -45,7 +45,23 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 | nyx-c12 | exact | www.worldhistory.org | Pausanias mentions an Oracle of Night at Megara. | mentions an Oracle of the Night in Megara |
 | nyx-c13 | exact | www.theoi.com | One Orphic genealogy gives Phanes as Nyx's parent. | [2.1] PHANES (Orphic Argonautica 12, Orphic Fragment 101) |
 | nyx-c14 | exact | www.theoi.com | Hesiodic genealogy gives Khaos as Nyx's parent. | [1.1] KHAOS (Hesiod Theogony 123, Nonnus Dionysiaca 31.115) |
-| nyx-c15 | exact | www.worldhistory.org | The Roman name of Nyx is Nox. | Nyx (also known as Nox or the Night) is the personification of the night in Greek mythology |
+| nyx-c15 | exact | www.worldhistory.org | Nyx is also known as Nox. | Nyx (also known as Nox or the Night) |
+| nyx-c16 | exact | www.theoi.com | A classical dictionary entry reproduced on Theoi says Homer calls Nyx the subduer of gods and men and that Zeus himself stood in awe of her. | NYX (Nux), Nox or Night personified. Homer (Il. xiv. 259, &c.) calls her the subduer of gods and men, and relates that Zeus himself stood in awe of her. |
+| nyx-c17 | exact | www.theoi.com | In Hesiod's Theogony, Night bears Doom, Fate, Death, Sleep and the tribe of Dreams, and, though she lay with none, Blame, Woe and the Hesperides. | And Night bare hateful Doom and black Fate and Death, and she bare Sleep and the tribe of Dreams. And again the goddess murky Night, though she lay with none, bare Blame and painful Woe, and the Hesperides who guard the rich, golden apples and the trees bearing fruit beyond glorious Ocean. |
+| nyx-c18 | exact | www.theoi.com | In Hesiod's Theogony, Aether and Day were born of Night, who conceived and bore them from union in love with Erebus. | but of Night were born Aether ... and Day, whom she conceived and bare from union in love with Erebus. |
+| nyx-c19 | exact | www.theoi.com | Hesiod describes the awful home of murky Night wrapped in dark clouds, where Night and Day draw near and greet one another at the great bronze threshold, and while one is about to enter the house the other comes out at the door. | There stands the awful home of murky Night wrapped in dark clouds. ... where Night and Day draw near and greet one another as they pass the great threshold of bronze: and while the one is about to go down into the house, the other comes out at the door. |
+| nyx-c20 | exact | www.theoi.com | Hesiod says the children of dark Night, Sleep and Death, awful gods, have their dwellings there. | And there the children of dark Night have their dwellings, Sleep and Death, awful gods. |
+| nyx-c21 | exact | www.theoi.com | In Aristophanes' Birds (as quoted on Theoi), black-winged Nyx lays a germless egg in the deeps of Erebos, and after long ages the graceful Eros springs from it. | Firstly, black-winged Nyx (Night) laid a germless egg in the bosom of the infinite deeps of Erebos (Darkness), and from this, after the revolution of long ages, sprang the graceful Eros |
+| nyx-c22 | exact | www.theoi.com | In Aeschylus' Eumenides (as quoted on Theoi), the Erinyes call themselves the eternal children of Nyx and say they are called Arai (Curses) in their homes beneath the earth. | We [the Erinyes] are the eternal children of Nyx (Night). We are called Arai (Arae, Curses) in our homes beneath the earth. |
+| nyx-c23 | exact | www.theoi.com | Pausanias writes that the inscriptions identify the figures as Thanatos (Death) and Hypnos (Sleep), with Nyx (Night) the nurse of both. | The inscriptions declare, as one could infer without inscriptions, that the figures are Thanatos (Death) and Hypnos (Sleep), with Nyx (Night) the nurse of both. |
+| nyx-c24 | exact | www.theoi.com | Pausanias records that the people of Smyrna believe in two Nemeses instead of one and say Nyx was their mother. | They [the people of Smyrna] believe in two Nemeses instead of one; they say Nyx was their mother. |
+| nyx-c25 | exact | www.theoi.com | In an Orphic fragment (as quoted on Theoi), Phanes places his distinguished sceptre, the rulership of the universe, in the hands of the goddess Nyx so that she holds royalty. | [Phanes] placed his distinguished sceptre [the rulership of the universe] in the hands of goddess Nyx (Night), that she hold royalty |
+| nyx-c26 | exact | www.worldhistory.org | In one Orphic creation story, Phanes gives birth to Nyx, and Phanes and Nyx then conceive Uranus (Heaven). | Phanes gives birth to Nyx, and Phanes and Nyx then go on to conceive Uranus (Heaven). |
+| nyx-c27 | exact | www.worldhistory.org | Black animals, especially black cocks, which announced the coming of morning, were said to be sacrificed to her. | However, black animals were said to be sacrificed to her, especially black cocks, as they announced the coming of morning, even in the presence of Night. |
+| nyx-c28 | exact | www.worldhistory.org | Some scholars believe Nyx could have been a supreme deity in early Orphic belief. | Some scholars believe that Nyx could have been a supreme deity in early Orphic belief. |
+| nyx-c29 | exact | www.worldhistory.org | In other sources, Nyx is described as a floating figure in a long black robe who carries her sons Thanatos (Death) and Hypnos (Sleep) in her arms. | In other sources, she is described as a floating figure clad in a long black robe who carries her sons Thanatos (Death) and Hypnos (Sleep) in her arms. |
+| nyx-c30 | exact | www.perseus.tufts.edu | In Samuel Butler's translation of the Iliad on Perseus, Hypnos says that Night, who cows both men and gods, protected him; he fled to her and Zeus left off looking for him, not daring to do anything to displease Night. | had not Night who cows both men and gods protected me. I fled to her and Zeus left off looking for me in spite of his being so angry, for he did not dare do anything to displease Night. |
+| nyx-c31 | exact | www.theoi.com | Theoi lists the Roman name of Nyx as Nox and the translation of the name as Night (nyx, nyktos). | Transliteration Nyx Roman Name Nox Translation Night (nyx, nyktos) |
 
 
 ## thoth — lulus-otomatis

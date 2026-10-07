@@ -1,6 +1,6 @@
 # Review batch-055
 
-Diperiksa 2026-10-07T05:45:37.638Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md.
+Diperiksa 2026-10-07T09:21:04.569Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md, batch-055-fix-7.md.
 
 ## koromodako — lulus-otomatis
 
@@ -117,19 +117,20 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## narigama — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
-
-**warn**
-- `claims (narigama-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+Klaim 10 (loose 1, exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | narigama-c01 | loose | en.wikipedia.org | Narigama is a yōkai illustrated by Toriyama Sekien. | Narigama (鳴釜; or Narikama, Narukama) or Kamanari (釜鳴) is a Japanese yōkai depicted in Toriyama Sekien's yōkai art collection Gazu Hyakki Tsurezure Bukuro. |
 | narigama-c02 | exact | en.wikipedia.org | Its image wears an iron cooking pot on its head. | It is depicted as a hairy figure wearing a kama (iron pot) on its head and holding an ema (votive tablet) in its hand. |
 | narigama-c03 | exact | en.wikipedia.org | The figure holds a votive tablet. | It is depicted as a hairy figure wearing a kama (iron pot) on its head and holding an ema (votive tablet) in its hand. |
-| narigama-c04 | exact | yokai.com | Illustrations show it together with other animated household objects. | They are often depicted cavorting with other tsukumogami in illustrations of the night parade of one hundred demons. |
+| narigama-c04 | exact | yokai.com | Illustrations of the night parade of one hundred demons show it cavorting with other tsukumogami. | They are often depicted cavorting with other tsukumogami in illustrations of the night parade of one hundred demons. |
 | narigama-c05 | exact | en.wikipedia.org | Its name also refers to divination through the sound of a heated pot. | The terms Narigama and Kamanari themselves refer to Shinto rituals in which fortune (good or bad luck) is judged based on the sound produced when a pot is heated with fire, or to folk beliefs that view a pot making unexpected sounds as an omen of good or bad luck. |
 | narigama-c06 | exact | en.wikipedia.org | Kibitsu Shrine preserves a sounding-pot ritual. | A famous actual example is the Narukama Shinji (Ritual of the Sounding Pot) passed down at Kibitsu Shrine in Okayama Prefecture. |
+| narigama-c07 | exact | kotobank.jp | A Japanese dictionary records it as a yōkai that is a monster of a kama (kettle), a kind of tsukumogami, considered to derive from the Narukama Shinji divination ritual of fortune handed down since long ago at Kibitsu Shrine in Okayama Prefecture; it is also called Kamanari (釜鳴). | 日本の妖怪。釜の化け物で、付喪神(つくもがみ)の一種。岡山県の吉備津神社に古くから伝わる吉凶占い「鳴釜神事(なるかましんじ)」に由来するものとされる。「釜鳴(かまなり)」とも。 |
+| narigama-c08 | exact | yokai.com | One description presents narigama as tsukumogami of kama, iron kettles or cauldrons used to cook rice in old Japanese kitchens, with long arms and legs. | Narigama are a tsukumogami of kama, iron kettles or cauldrons used to cook rice in old Japanese kitchens. They have long arms and legs. |
+| narigama-c09 | exact | yokai.com | According to that account, when the water inside begins to boil, a narigama starts to ring or cry like an animal, and the sound shows whether the weather will be rainy or fair. | When the water inside begins to boil, a narigama will begin to ring or cry like an animal. Depending on the sound that it emits, it is possible to know whether the weather will be rainy or fair. |
+| narigama-c10 | exact | yokai.com | According to Sekien, the narigama was first described in the Hakutaku zu, a record of all the supernatural creatures in the world describing their strengths and weaknesses. | According to Sekien, the narigama was first described in the Hakutaku zu, a record of all the supernatural creatures in the world describing their strengths and weaknesses. |
 
 
 ## nigihayahi — lulus-otomatis
@@ -814,10 +815,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## gotoku-neko — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
-
-**warn**
-- `claims (gotoku-neko-c05)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+Klaim 11 (exact 10, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -825,8 +823,13 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 | gotoku-neko-c02 | exact | ja.wikipedia.org | Its image has two tails and a trivet on its head. | 2本の尻尾を持つ猫が、五徳（囲炉裏で鍋・やかんなどを乗せる台足）を冠のように頭に頂き、火吹き竹を持って囲炉裏で火を起こしている姿で描かれている。 |
 | gotoku-neko-c03 | exact | ja.wikipedia.org | It uses a bamboo tube to stoke a hearth. | 2本の尻尾を持つ猫が、五徳（囲炉裏で鍋・やかんなどを乗せる台足）を冠のように頭に頂き、火吹き竹を持って囲炉裏で火を起こしている姿で描かれている。 |
 | gotoku-neko-c04 | loose | yokai.com | A reference classifies it as a type of nekomata. | Appearance : Gotoku neko are a kind of nekomata–large yōkai cats with two tails. |
-| gotoku-neko-c05 | exact | yokai.com | A later account gives its tail tips flames. | The tips of their twin tails burn like torches. |
+| gotoku-neko-c05 | exact | yokai.com | The tips of its twin tails are said to burn like torches. | The tips of their twin tails burn like torches. |
 | gotoku-neko-c06 | exact | yokai.com | Its name refers to the trivet worn on its head. | Its name comes from the gotoku–or trivet–that this yōkai wears like a hat. |
+| gotoku-neko-c07 | exact | ja.wikipedia.org | Sekien’s commentary mentions the precedent of someone called 五徳の官者 after forgetting two parts of the "seven virtues" dance, and says he wondered in a dream what this cat too might have forgotten; Shinano no Zenji Yukinaga is brought up as a reference. | 石燕による解説には、「七とくの舞をふたつわすれて五徳の官者と言ひしためしもあればこの猫もいかなることをか忘れけんと夢の中におもひぬ」とあり、信濃前司行長（しなののぜんじ ゆきなが）が引き合いに出されている。 |
+| gotoku-neko-c08 | exact | ja.wikipedia.org | The Tsurezuregusa (section 226) records that Yukinaga was originally a learned man but was nicknamed 五徳の冠者 for forgetting two of the virtues in the "Shichitoku no mai" dance; Sekien’s commentary is seen as a pun between the utensil gotoku (trivet) and 五徳の冠者. | 『徒然草』（第226段）には、行長は本来は学識ある人物だったが、舞曲「七徳の舞」の内の二つの徳を忘れたことから「五徳の冠者」と渾名されたという話が記されている。これは器物の五徳と、五徳の冠者との語呂あわせを石燕がして解説したものであると見られている。 |
+| gotoku-neko-c09 | exact | ja.wikipedia.org | The Muromachi-period Hyakki Yagyō scroll also depicts a creature with a trivet (gotoku) on its head, and Gotoku-neko is thought to have been created by Sekien using that creature’s appearance as a model. | 室町時代の『百鬼夜行絵巻』にも同様に五徳を頭に乗せた姿の妖怪が描かれており、五徳猫はこの妖怪の姿をモデルにして石燕が創作して描いたものであると考えられている。 |
+| gotoku-neko-c10 | exact | yokai.com | According to that source, Gotoku-neko was invented by Toriyama Sekien in his book Hyakki tsurezure bukuro (“An Idle Bag of One Hundred Vessels”). | Gotoku neko was invented by Toriyama Sekien in his book Hyakki tsurezure bukuro (“An Idle Bag of One Hundred Vessels”). |
+| gotoku-neko-c11 | exact | yokai.com | Just as ordinary cats like warmth, gotoku neko are said to hang around fireplaces. | Just as ordinary cats like warmth, gotoku neko hang around fireplaces. |
 
 
 ## hikeshibaba — lulus-otomatis

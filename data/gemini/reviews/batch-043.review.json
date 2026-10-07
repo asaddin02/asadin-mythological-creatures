@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-043",
-  "checked_at": "2026-09-30T02:35:29.686Z",
+  "checked_at": "2026-10-07T09:34:02.920Z",
   "files": [
     "batch-043.md",
-    "batch-043-fix-1.md"
+    "batch-043-fix-1.md",
+    "batch-043-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -170,15 +171,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f387206fdec22d186833300580f9f2241770c01787db334d2da0dab77605f564"
     },
     {
       "slug": "nyx",
-      "file": "batch-043-fix-1.md",
+      "file": "batch-043-fix-2.md",
+      "entry_sha256": "4cf8c5e5b703cef73b07b6eb72ede61add066d7de66202f3dfd1e1c32f856ca4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 31,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -199,7 +202,7 @@
           "host": "www.worldhistory.org",
           "statement": "Nyx personifies night in Greek mythology.",
           "statement_id": "Nyx adalah personifikasi malam dalam mitologi Yunani.",
-          "quote": "Nyx (also known as Nox or the Night) is the personification of the night in Greek mythology",
+          "quote": "is the personification of the night in Greek mythology",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -327,9 +330,169 @@
           "id": "nyx-c15",
           "source_id": "nyx-s2",
           "host": "www.worldhistory.org",
-          "statement": "The Roman name of Nyx is Nox.",
-          "statement_id": "Nama Romawi Nyx ialah Nox.",
-          "quote": "Nyx (also known as Nox or the Night) is the personification of the night in Greek mythology",
+          "statement": "Nyx is also known as Nox.",
+          "statement_id": "Nyx juga dikenal sebagai Nox.",
+          "quote": "Nyx (also known as Nox or the Night)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c16",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "A classical dictionary entry reproduced on Theoi says Homer calls Nyx the subduer of gods and men and that Zeus himself stood in awe of her.",
+          "statement_id": "Entri kamus klasik yang dimuat Theoi menyebut bahwa Homer menjuluki Nyx penakluk dewa dan manusia, dan bahwa Zeus sendiri segan kepadanya.",
+          "quote": "NYX (Nux), Nox or Night personified. Homer (Il. xiv. 259, &c.) calls her the subduer of gods and men, and relates that Zeus himself stood in awe of her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c17",
+          "source_id": "nyx-s3",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony, Night bears Doom, Fate, Death, Sleep and the tribe of Dreams, and, though she lay with none, Blame, Woe and the Hesperides.",
+          "statement_id": "Dalam Theogony Hesiod, Night melahirkan Doom, Fate, Death, Sleep, dan suku Dreams; dan tanpa berbaring dengan siapa pun ia melahirkan Blame, Woe, dan para Hesperides.",
+          "quote": "And Night bare hateful Doom and black Fate and Death, and she bare Sleep and the tribe of Dreams. And again the goddess murky Night, though she lay with none, bare Blame and painful Woe, and the Hesperides who guard the rich, golden apples and the trees bearing fruit beyond glorious Ocean.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c18",
+          "source_id": "nyx-s3",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony, Aether and Day were born of Night, who conceived and bore them from union in love with Erebus.",
+          "statement_id": "Dalam Theogony Hesiod, Aether dan Day lahir dari Night, yang mengandung dan melahirkan mereka dari persatuan cinta dengan Erebus.",
+          "quote": "but of Night were born Aether ... and Day, whom she conceived and bare from union in love with Erebus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c19",
+          "source_id": "nyx-s3",
+          "host": "www.theoi.com",
+          "statement": "Hesiod describes the awful home of murky Night wrapped in dark clouds, where Night and Day draw near and greet one another at the great bronze threshold, and while one is about to enter the house the other comes out at the door.",
+          "statement_id": "Hesiod menggambarkan rumah Night yang mengerikan, terbungkus awan gelap; di ambang pintu perunggu yang besar, Night dan Day saling mendekat dan menyapa, dan ketika yang satu hendak masuk ke rumah, yang lain keluar lewat pintu.",
+          "quote": "There stands the awful home of murky Night wrapped in dark clouds. ... where Night and Day draw near and greet one another as they pass the great threshold of bronze: and while the one is about to go down into the house, the other comes out at the door.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c20",
+          "source_id": "nyx-s3",
+          "host": "www.theoi.com",
+          "statement": "Hesiod says the children of dark Night, Sleep and Death, awful gods, have their dwellings there.",
+          "statement_id": "Hesiod menyebut anak-anak Night yang gelap, Sleep dan Death, para dewa yang mengerikan, bertempat tinggal di sana.",
+          "quote": "And there the children of dark Night have their dwellings, Sleep and Death, awful gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c21",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "In Aristophanes' Birds (as quoted on Theoi), black-winged Nyx lays a germless egg in the deeps of Erebos, and after long ages the graceful Eros springs from it.",
+          "statement_id": "Dalam Birds karya Aristophanes (kutipan di Theoi), Nyx bersayap hitam bertelur tanpa benih di kedalaman Erebos, dan setelah masa yang panjang dari telur itu lahir Eros yang anggun.",
+          "quote": "Firstly, black-winged Nyx (Night) laid a germless egg in the bosom of the infinite deeps of Erebos (Darkness), and from this, after the revolution of long ages, sprang the graceful Eros",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c22",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "In Aeschylus' Eumenides (as quoted on Theoi), the Erinyes call themselves the eternal children of Nyx and say they are called Arai (Curses) in their homes beneath the earth.",
+          "statement_id": "Dalam Eumenides karya Aeschylus (kutipan di Theoi), para Erinyes menyebut diri mereka anak-anak abadi Nyx dan disebut Arai (Curses) di rumah mereka di bawah bumi.",
+          "quote": "We [the Erinyes] are the eternal children of Nyx (Night). We are called Arai (Arae, Curses) in our homes beneath the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c23",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "Pausanias writes that the inscriptions identify the figures as Thanatos (Death) and Hypnos (Sleep), with Nyx (Night) the nurse of both.",
+          "statement_id": "Pausanias menulis bahwa prasasti mengidentifikasi sosok-sosok itu sebagai Thanatos (Death) dan Hypnos (Sleep), dengan Nyx (Night) sebagai pengasuh keduanya.",
+          "quote": "The inscriptions declare, as one could infer without inscriptions, that the figures are Thanatos (Death) and Hypnos (Sleep), with Nyx (Night) the nurse of both.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c24",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "Pausanias records that the people of Smyrna believe in two Nemeses instead of one and say Nyx was their mother.",
+          "statement_id": "Pausanias mencatat bahwa orang Smyrna percaya pada dua Nemesis, bukan satu, dan mengatakan Nyx adalah ibu mereka.",
+          "quote": "They [the people of Smyrna] believe in two Nemeses instead of one; they say Nyx was their mother.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c25",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "In an Orphic fragment (as quoted on Theoi), Phanes places his distinguished sceptre, the rulership of the universe, in the hands of the goddess Nyx so that she holds royalty.",
+          "statement_id": "Dalam fragmen Orfik (kutipan di Theoi), Phanes menaruh tongkat kerajaannya yang mulia, yakni kekuasaan atas alam semesta, di tangan dewi Nyx agar ia memegang kerajaan.",
+          "quote": "[Phanes] placed his distinguished sceptre [the rulership of the universe] in the hands of goddess Nyx (Night), that she hold royalty",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c26",
+          "source_id": "nyx-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In one Orphic creation story, Phanes gives birth to Nyx, and Phanes and Nyx then conceive Uranus (Heaven).",
+          "statement_id": "Dalam salah satu kisah penciptaan Orfik, Phanes melahirkan Nyx, lalu Phanes dan Nyx bersama-sama memperanakkan Uranus (Heaven).",
+          "quote": "Phanes gives birth to Nyx, and Phanes and Nyx then go on to conceive Uranus (Heaven).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c27",
+          "source_id": "nyx-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Black animals, especially black cocks, which announced the coming of morning, were said to be sacrificed to her.",
+          "statement_id": "Hewan-hewan hitam, terutama ayam jantan hitam yang mengumumkan datangnya pagi, dikatakan dikurbankan kepadanya.",
+          "quote": "However, black animals were said to be sacrificed to her, especially black cocks, as they announced the coming of morning, even in the presence of Night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c28",
+          "source_id": "nyx-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Some scholars believe Nyx could have been a supreme deity in early Orphic belief.",
+          "statement_id": "Sebagian sarjana percaya Nyx mungkin pernah menjadi dewa tertinggi dalam kepercayaan Orfik awal.",
+          "quote": "Some scholars believe that Nyx could have been a supreme deity in early Orphic belief.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c29",
+          "source_id": "nyx-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In other sources, Nyx is described as a floating figure in a long black robe who carries her sons Thanatos (Death) and Hypnos (Sleep) in her arms.",
+          "statement_id": "Dalam sumber lain, Nyx digambarkan sebagai sosok melayang berjubah hitam panjang yang menggendong putra-putranya, Thanatos (Death) dan Hypnos (Sleep).",
+          "quote": "In other sources, she is described as a floating figure clad in a long black robe who carries her sons Thanatos (Death) and Hypnos (Sleep) in her arms.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c30",
+          "source_id": "nyx-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Samuel Butler's translation of the Iliad on Perseus, Hypnos says that Night, who cows both men and gods, protected him; he fled to her and Zeus left off looking for him, not daring to do anything to displease Night.",
+          "statement_id": "Dalam terjemahan Iliad karya Samuel Butler di Perseus, Hypnos mengatakan bahwa Night, yang menakutkan manusia dan dewa, melindunginya; ia lari kepadanya dan Zeus berhenti mencarinya karena tidak berani berbuat apa pun yang menyinggung Night.",
+          "quote": "had not Night who cows both men and gods protected me. I fled to her and Zeus left off looking for me in spite of his being so angry, for he did not dare do anything to displease Night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyx-c31",
+          "source_id": "nyx-s1",
+          "host": "www.theoi.com",
+          "statement": "Theoi lists the Roman name of Nyx as Nox and the translation of the name as Night (nyx, nyktos).",
+          "statement_id": "Theoi mencantumkan nama Romawi Nyx sebagai Nox dan terjemahan namanya sebagai Night (nyx, nyktos).",
+          "quote": "Transliteration Nyx Roman Name Nox Translation Night (nyx, nyktos)",
           "context": "etymology",
           "status": "exact"
         }
@@ -512,7 +675,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9f24b65076cb760a0598aa97f8674c1af1779506b19a74fdf5be8ecfd3dbbbec"
     },
     {
       "slug": "chimera-mythology",
@@ -676,7 +840,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f5d38c88cefa33d639b8baf8e4f61b68fdf8acefa869087c1d9d5d8fbef699df"
     },
     {
       "slug": "loch-ness-monster",
@@ -850,7 +1015,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "58ea4a16c3a4b5466b238ea3176a764ef3d7c77032c297fd8d97d995fa42ca39"
     }
   ]
 }

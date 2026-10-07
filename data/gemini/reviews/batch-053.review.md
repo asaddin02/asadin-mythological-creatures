@@ -1,6 +1,6 @@
 # Review batch-053
 
-Diperiksa 2026-10-06T19:11:44.222Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md.
+Diperiksa 2026-10-07T09:21:02.961Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md, batch-053-fix-7.md.
 
 ## shiranui-optical-phenomenon — lulus-otomatis
 
@@ -21,7 +21,7 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## tesso — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -31,6 +31,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | tesso-c04 | exact | en.wikipedia.org | Some written versions turn his resentment into a giant rat that destroys sacred books. | In the yomihon versions of the Heike Monogatari such as Enkyōhon (延慶本, alternatively read Enkeihon) and Nagatohon (長門本) and in the different book Genpei Jōsuiki, among other sources, the grudges of Raigō became a giant rat and ate away at the sacred books in Enryaku-ji. |
 | tesso-c05 | exact | yokai.com | The monstrous rat is described as having a stone-hard body. | Its body was as hard as stone and its teeth and claws as strong as iron. |
 | tesso-c06 | exact | yokai.com | Its teeth and claws are compared with iron. | Its body was as hard as stone and its teeth and claws as strong as iron. |
+| tesso-c07 | exact | yokai.com | The monstrous spirit, later called Tesso, summoned a massive army of rats that poured through Kyoto and up Mt. Hiei to Enryaku-ji. | The monstrous spirit, Tesso as it came to be called, summoned a massive army of rats which poured through Kyoto, up Mt. Hiei, and arrived at Enryaku-ji. |
+| tesso-c08 | exact | yokai.com | In this telling, nothing stopped Tesso and the army of rats until a shrine was built to appease Raigō’s spirit, and that shrine still stands today. | Nothing could stop Tesso and the army of rats until finally a shrine was built to appease Raigō’s spirit, and Raigō’s shrine still stands today. |
+| tesso-c09 | exact | kotobank.jp | A Japanese dictionary describes it as a Japanese yōkai: the vengeful spirit of Raigō, a high priest of the Heian period, changed into a rat; it is also called 頼豪鼠 and 三井寺鼠. | 日本の妖怪。平安時代の高僧、頼豪(らいごう)の怨霊がネズミに変化したもの。「頼豪鼠」、「三井寺鼠」などともいう。 |
+| tesso-c10 | exact | en.wikipedia.org | According to the military chronicle Taiheiki, Raigō’s grudges turned into 84,000 rats with stone bodies and metal teeth that climbed Mount Hiei and ate away not only the sacred texts but also the Buddha statues. | According to the military chronicle (Gunki monogatari) Taiheiki, the grudges of Raigō turned into 84,000 rats with stone bodies and metal teeth and climbed up Mount Hiei and ate away at not just the sacred texts, but also the Buddha statues. |
 
 
 ## ungaikyo — lulus-otomatis
@@ -346,7 +350,7 @@ Klaim 12 (exact 12), sumber 3, gambar 0.
 
 ## kuraokami — lulus-otomatis
 
-Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
+Klaim 11 (loose 2, exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -357,6 +361,10 @@ Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 | kuraokami-c05 | exact | en.wikipedia.org | The first element of the name is associated with darkness. | The name Kuraokami combines kura 闇 "dark; darkness; closed" and okami 龗 "dragon tutelary of water". |
 | kuraokami-c06 | exact | en.wikipedia.org | The second element refers to a dragon linked with water. | The name Kuraokami combines kura 闇 "dark; darkness; closed" and okami 龗 "dragon tutelary of water". |
 | kuraokami-c07 | exact | kojiki.kokugakuin.ac.jp | The Kojiki version traces Kuraokami to blood dripping through Izanaki’s fingers. | Then, the blood pooling on the hilt of Izanaki’s sword oozed from between his fingers. The deity that thereupon came into existence was named Kura okami no kami 闇淤加美 神. Next [appeared] Kura mitsuha no kami 闇御津羽神 (8). |
+| kuraokami-c08 | exact | kojiki.kokugakuin.ac.jp | The morpheme kura means a valley or a ravine, and okami is a deity who governs the waters. | The morpheme kura means a valley or a ravine; okami is a deity who governs the waters. |
+| kuraokami-c09 | exact | kojiki.kokugakuin.ac.jp | In the Nihon Shoki, the deity comes into being from blood dripping from the sword’s head together with Kura-yamatsumi and Kura-mitsuha, written 闇龗, with a reading note 於箇美 (okami) attached to the character 龗. | 書紀では剣の頭から滴る血から闇山祇（くらやまつみ）・闇罔象（くらみつは）と共に成り、「闇龗」と書いて、「龗」字に「於箇美（オカミ）」の訓注がある。 |
+| kuraokami-c10 | exact | kojiki.kokugakuin.ac.jp | The Kojiki deity-name database notes that the Bungo no kuni Fudoki writes the word as 蛇龗 and reads it okami, and calls it a dragon-serpent deity living in springs. | 『豊後国風土記』直入郡・球覃郷条では「蛇龗」と書いてオカミと読んでおり、泉に棲む竜蛇神である。 |
+| kuraokami-c11 | exact | kojiki.kokugakuin.ac.jp | The Kojiki deity-name database reads Man’yōshū poem 2:104, which mentions the okami of the poet’s hill in a poem about snowfall, as showing that it was a water deity in charge of rain and snow. | また、『万葉集』（2・104）に「我が岡の龗に言ひて降らしめし雪の摧けしそこに散りけむ」とあり、水の神として雨や雪を掌ったことがわかる。 |
 
 
 ## menreiki — lulus-otomatis
@@ -437,7 +445,7 @@ Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 ## noderabo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -447,6 +455,11 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | noderabo-c04 | exact | en.wikipedia.org | One later interpretation treats it as satire of monks who broke their rules. | As it is not clear what Sekien drew here, starting from the Heisei period, several hypotheses have been put forth, and one of them supposes that this is an original creation from Sekien that was made to satirize the Edo Period monks who broke their precepts. |
 | noderabo-c05 | exact | yokai.com | Later accounts place it in ruined temples at night. | They appear late at night in abandoned, overgrown, ruined temples, forlornly haunting the temple grounds and occasionally ringing the large temple bells. |
 | noderabo-c06 | exact | yokai.com | In those accounts it sometimes rings the temple bell. | They appear late at night in abandoned, overgrown, ruined temples, forlornly haunting the temple grounds and occasionally ringing the large temple bells. |
+| noderabo-c07 | exact | kotobank.jp | A Japanese dictionary describes it as a yōkai drawn in the picture collection 画図百鬼夜行 by the Edo-period painter Toriyama Sekien: a monk in a dirty old kesa, with one view that it satirizes the precept-breaking monks of the time. | 江戸時代の画家、鳥山石燕(せきえん)の画集「画図百鬼夜行」に描かれた妖怪。汚れた古い袈裟を着た坊主の姿をしており、当時の破戒僧の風刺画との説もある。 |
+| noderabo-c08 | exact | yokai.com | One description portrays noderabō as forlorn, grotesque ghosts of fallen priests dressed in tattered rags. | Noderabō are forlorn, grotesque ghosts of fallen priests dressed in tattered rags. |
+| noderabo-c09 | exact | yokai.com | The same account says noderabō were once priests who committed some kind of sin and died in dishonor, most often by falling to vices forbidden to priests, such as attachment to women or money. | Noderabō were once priests who committed some kind of sin and died in dishonor. Most often they are those who fell to vices forbidden to priests, such as attachment to women or money. |
+| noderabo-c10 | exact | en.wikipedia.org | From the Shōwa period on, yōkai literature often explained the noderabō as appearing at deserted, dilapidated temples, or as the grudge of a chief priest whose temple fell into ruin for lack of villagers’ donations, appearing in the evening to ring the bell alone. | Beginning in the Shōwa period, literature about yōkai often explained that they are a yōkai that appear at deserted dilapidated temples or that they are resulting the grudges turned yōkai of a chief priest whose temple became dilapidated from lack of donations from villagers, which would then appear at evenings at the dilapidated temple and ring the bell alone at the deserted temple. |
+| noderabo-c11 | exact | en.wikipedia.org | In the writings of the comic artist Mizuki Shigeru, children who heard a bell in the mountains though there was no temple were told it was the noderabō, but it was actually the mountain, a phenomenon like yamabiko. | In the writings of the comic artist Mizuki Shigeru, there is a statement about the noderabō that when children would hear the sound of a bell in the mountains despite there being no temple, they were told that "it's because of the noderabō," but actually it was because of the mountain, and a phenomenon like yamabiko had occurred. |
 
 
 ## onikuma — lulus-otomatis

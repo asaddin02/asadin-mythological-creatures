@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-073",
-  "checked_at": "2026-10-06T14:12:00.558Z",
+  "checked_at": "2026-10-07T09:31:01.636Z",
   "files": [
     "batch-073.md",
     "batch-073-fix-1.md",
     "batch-073-fix-2.md",
     "batch-073-fix-3.md",
-    "batch-073-fix-4.md"
+    "batch-073-fix-4.md",
+    "batch-073-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1571,11 +1572,12 @@
     },
     {
       "slug": "vritra",
-      "file": "batch-073.md",
+      "file": "batch-073-fix-5.md",
+      "entry_sha256": "64a91706ad34a51720b0872df4d773b7accb4894d40263931b6b5648461d6f63",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 17,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -1596,7 +1598,7 @@
           "host": "en.wikipedia.org",
           "statement": "He appears as a human like serpent blocking Rigvedic rivers.",
           "statement_id": "Ia tampil sebagai ular menyerupai manusia yang menghalangi aliran sungai Rigveda.",
-          "quote": "He appears as a human-like serpent blocking the course of the Rigvedic rivers, and is slain by Indra with his newly forged vajra.",
+          "quote": "He appears as a human-like serpent blocking the course of the Rigvedic rivers",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1606,7 +1608,7 @@
           "host": "en.wikipedia.org",
           "statement": "Indra kills him with a newly forged vajra.",
           "statement_id": "Ia dibunuh Indra dengan vajra yang baru dibuat.",
-          "quote": "He appears as a human-like serpent blocking the course of the Rigvedic rivers, and is slain by Indra with his newly forged vajra.",
+          "quote": "and is slain by Indra with his newly forged vajra.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1638,13 +1640,120 @@
           "statement_id": "Retelling Mackenzie menggambarkan Vritra menahan ternak awan dalam benteng gunungnya.",
           "quote": "According to Vedic myth, Indra achieved his first\r\ngreat victory immediately after birth. Vritra, “the encompasser”,\r\nthe Demon of Drought, was holding captive\r\nin his mountain fortress the cloud-cattle which he had\r\nharried in the approved manner of the Aryan raiders.[43]\r\nMankind entreated the aid of the gods, “the shining\r\nones, the world guardians”:",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c07",
+          "source_id": "vritra-s3",
+          "host": "en.wikisource.org",
+          "statement": "A Rigveda hymn to Indra says Indra slew the Dragon, then disclosed the waters and cleft the channels of the mountain torrents.",
+          "statement_id": "Himne Rigveda untuk Indra menyebut Indra membunuh Sang Naga, lalu menyingkapkan air dan membelah saluran arus deras pegunungan.",
+          "quote": "I will declare the manly deeds of Indra, the first that he achieved, the Thunder-wielder. He slew the Dragon, then disclosed the waters, and cleft the channels of the mountain torrents.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c08",
+          "source_id": "vritra-s3",
+          "host": "en.wikisource.org",
+          "statement": "The same hymn says Indra smote Vritra into pieces with his thunder, and the Dragon lies prostrate on the earth like felled tree trunks.",
+          "statement_id": "Himne yang sama menyebut Indra menghancurkan Vritra dengan petirnya; Sang Naga rebah di tanah seperti batang pohon yang ditebang.",
+          "quote": "Indra with his own great and deadly thunder smote into pieces Vṛitra, worst of Vṛitras. As trunks of trees, what time the axe hath felled them, low on the earth so lies the prostrate Dragon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c09",
+          "source_id": "vritra-s3",
+          "host": "en.wikisource.org",
+          "statement": "Vritra is described as footless and handless yet still challenging Indra, who struck him with a bolt between the shoulders, leaving him with scattered limbs.",
+          "statement_id": "Vritra digambarkan tanpa kaki dan tangan namun tetap menantang Indra, yang menghantamnya dengan petir di antara kedua bahu hingga anggota tubuhnya tercerai-berai.",
+          "quote": "Footless and handless still he challenged Indra, who smote him with his bolt between the shoulders. Emasculate yet claiming manly vigour, thus Vṛitra lay with scattered limbs dissevered.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c10",
+          "source_id": "vritra-s3",
+          "host": "en.wikisource.org",
+          "statement": "A footnote to the hymn translation says Vritra is sometimes also named Ahi and interprets him as vapour shut up in a cloud, which Indra divides with his thunderbolt so that rain descends.",
+          "statement_id": "Sebuah catatan kaki pada terjemahan himne itu menyebut Vritra kadang juga dinamai Ahi dan menafsirkannya sebagai kumpulan uap yang terkurung awan, yang dibelah Indra dengan petirnya sehingga hujan turun.",
+          "quote": "Vṛitra, sometimes also named Ahi, is nothing more than the accumulation of vapour, condensed or figuratively shut up in, or obstructed by, a cloud. Indra, with his thunderbolt, or atmospheric or electrical influence, divides the aggregated mass, and vent is given to the rain which then descends upon the earth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c11",
+          "source_id": "vritra-s3",
+          "host": "en.wikisource.org",
+          "statement": "The translation notes that the Dragon of the hymn is Ahi, literally a serpent.",
+          "statement_id": "Catatan terjemahan menjelaskan bahwa Sang Naga dalam himne itu adalah Ahi, yang secara harfiah berarti ular.",
+          "quote": "The Dragon: Ahi, literally a serpent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c12",
+          "source_id": "vritra-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Mackenzie's retelling, the dragon Vritra roared when Indra drew nigh, whereat heaven shook and the gods retreated.",
+          "statement_id": "Dalam penceritaan ulang Mackenzie, naga Vritra mengaum ketika Indra mendekat, sehingga langit bergetar dan para dewa mundur.",
+          "quote": "The dragon Vritra roared when Indra drew nigh; whereat heaven shook and the gods retreated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c13",
+          "source_id": "vritra-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Mackenzie relates the Mahabharata version: in the Krita Age a host of danavas, so strongly armed that they were invincible, selected the dragon Vritra as their leader and waged war on the gods, scattering them.",
+          "statement_id": "Mackenzie menuturkan versi Mahabharata: pada Zaman Krita sekelompok danava yang bersenjata kuat memilih naga Vritra sebagai pemimpin dan memerangi para dewa, yang mereka cerai-beraikan.",
+          "quote": "It is related that in the Krita Age (the first Age of the Universe) a host of Dānāvas (giants and demons) were so strongly armed that they were invincible in battle. They selected the dragon Vritra as their leader, and waged war against the gods, whom they scattered in all directions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c14",
+          "source_id": "vritra-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mahabharata narration given to King Yudhishthira, Vritra was an asura created by the artisan god Tvashtri to avenge Indra's killing of his son, known as Triśiras or Viśvarūpa.",
+          "statement_id": "Dalam kisah Mahabharata yang dituturkan kepada Raja Yudhishthira, Vritra adalah asura yang diciptakan dewa pengrajin Tvashtri untuk membalas terbunuhnya putranya, Trishiras atau Vishvarupa, oleh Indra.",
+          "quote": "As told in the narration given to King Yudhishthira in the Mahabharata, Vritra was an asura created by the artisan god Tvashtri to avenge the killing of his son known as Triśiras or Viśvarūpa by Indra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c15",
+          "source_id": "vritra-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Vedic account Vritra's mother Danu, who was also the mother of the danava race of asuras, was attacked and defeated by Indra with his thunderbolt.",
+          "statement_id": "Menurut Rigveda, ibu Vritra bernama Danu, yang juga ibu ras asura danava, diserang dan dikalahkan Indra dengan petirnya.",
+          "quote": "Vritra's mother, Danu, who was also the mother of the danava race of asuras, was then attacked and defeated by Indra with his thunderbolt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c16",
+          "source_id": "vritra-s4",
+          "host": "vedabase.io",
+          "statement": "Bhagavata Purana 6.9.18 says this very fearful demon, the son of Tvashta, covered all the planetary systems by austerity and was therefore named Vritra, one who covers everything.",
+          "statement_id": "Bhagavata Purana 6.9.18 menyebut iblis yang sangat menakutkan itu putra Tvashta yang menutupi semua dunia dengan tapa, sehingga dinamai Vritra, yaitu yang menutupi segalanya.",
+          "quote": "That very fearful demon, who was actually the son of Tvaṣṭā, covered all the planetary systems by dint of austerity. Therefore he was named Vṛtra, or one who covers everything.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vritra-c17",
+          "source_id": "vritra-s5",
+          "host": "www.wisdomlib.org",
+          "statement": "A Puranic encyclopaedia entry records Vritra, written वृत्र in Devanagari, as a mighty and fierce asura.",
+          "statement_id": "Ensiklopedia Purana mencatat Vritra, juga ditulis dalam aksara Dewanagari sebagai वृत्र, sebagai asura yang perkasa dan garang.",
+          "quote": "Vṛtra (वृत्र).—(VṚTRĀSURA). A mighty and fierce asura.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e23de775cab0bf22b03544765e17e19333070e662b49837834d237aaaf9530db"
+      "images": []
     },
     {
       "slug": "yamuna",
@@ -2431,11 +2540,12 @@
     },
     {
       "slug": "mucilinda",
-      "file": "batch-073.md",
+      "file": "batch-073-fix-5.md",
+      "entry_sha256": "7607ea63c153740b4da9058f929145bfcd06c4f5e0e48bef6b9f19b5e56b9ab6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2446,9 +2556,9 @@
           "host": "en.wikipedia.org",
           "statement": "Mucilinda is a naga protecting Shakyamuni Buddha from the elements after his awakening.",
           "statement_id": "Mucilinda adalah naga yang melindungi Buddha Shakyamuni dari cuaca setelah pencerahannya.",
-          "quote": "Mucilinda (Sanskrit: मुचिलिन्द; Pali: Mucalinda) is a nāga who protected Śākyamuni Buddha from the elements after his enlightenment.",
+          "quote": "Mucilinda (Sanskrit: मुचिलिन्द ; Pali: Mucalinda) is a nāga who protected Śākyamuni Buddha from the elements after his enlightenment.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "mucilinda-c02",
@@ -2456,7 +2566,7 @@
           "host": "en.wikipedia.org",
           "statement": "His narrative recounts heavy rain and dark skies for seven days.",
           "statement_id": "Kisahnya menuturkan hujan deras dan langit gelap selama tujuh hari.",
-          "quote": "It is said that six weeks after Gautama Buddha began meditating under the Bodhi Tree, the heavens darkened for seven days, and a prodigious rain descended. However, the mighty King of Serpents, Mucilinda, came from beneath the earth and protected with his hood the One who is the source of all protection.",
+          "quote": "It is said that six weeks after Gautama Buddha began meditating under the Bodhi Tree, the heavens darkened for seven days, and a prodigious rain descended.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2466,7 +2576,7 @@
           "host": "en.wikipedia.org",
           "statement": "He emerges from beneath the earth and shields Buddha with his hood.",
           "statement_id": "Ia muncul dari bawah tanah dan melindungi Buddha dengan tudungnya.",
-          "quote": "It is said that six weeks after Gautama Buddha began meditating under the Bodhi Tree, the heavens darkened for seven days, and a prodigious rain descended. However, the mighty King of Serpents, Mucilinda, came from beneath the earth and protected with his hood the One who is the source of all protection.",
+          "quote": "However, the mighty King of Serpents, Mucilinda, came from beneath the earth and protected with his hood the One who is the source of all protection.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2476,7 +2586,7 @@
           "host": "en.wikipedia.org",
           "statement": "The Mucalinda Sutta depicts the naga coiling around Buddha seven times.",
           "statement_id": "Mucalinda Sutta menggambarkan naga melilit tubuh Buddha tujuh kali.",
-          "quote": "Mucalinda first appears in the Mucalinda Sutta, where it is described that the naga king protected Buddha from the elements by encircling Buddha's body seven times with his coils and standing with his hood spread over. After Buddha finished meditating and the sky cleared, Mucalinda adopted the form of a youth and bowed before him.",
+          "quote": "Mucalinda first appears in the Mucalinda Sutta, where it is described that the naga king protected Buddha from the elements by encircling Buddha's body seven times with his coils and standing with his hood spread over.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2486,7 +2596,7 @@
           "host": "en.wikipedia.org",
           "statement": "After the sky clears he becomes a youth and bows before Buddha.",
           "statement_id": "Setelah langit cerah, ia menjadi pemuda dan bersujud di hadapan Buddha.",
-          "quote": "Mucalinda first appears in the Mucalinda Sutta, where it is described that the naga king protected Buddha from the elements by encircling Buddha's body seven times with his coils and standing with his hood spread over. After Buddha finished meditating and the sky cleared, Mucalinda adopted the form of a youth and bowed before him.",
+          "quote": "After Buddha finished meditating and the sky cleared, Mucalinda adopted the form of a youth and bowed before him.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2499,10 +2609,119 @@
           "quote": "encircling the Blessed One's body seven times with his coils — stood with his great hood spread over the Blessed One",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "mucilinda-c07",
+          "source_id": "mucilinda-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Udana 2.1 says a great, out-of-season storm-cloud rose up, with seven days of rainy weather, cold winds and intense darkness.",
+          "statement_id": "Udana 2.1 menyebut awan badai besar di luar musim muncul, dengan tujuh hari cuaca hujan, angin dingin, dan kegelapan pekat.",
+          "quote": "And on that occasion a great, out-of-season storm-cloud rose up, with seven days of rainy weather, cold winds, & intense darkness.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c08",
+          "source_id": "mucilinda-s2",
+          "host": "accesstoinsight.org",
+          "statement": "In Udana 2.1 the naga king Muccalinda thinks that the Blessed One should not be disturbed by cold, by heat, or by the touch of flies, mosquitoes, wind, sun and creeping things.",
+          "statement_id": "Dalam Udana 2.1, raja naga Muccalinda berpikir agar Sang Bhagava tidak terganggu oleh dingin, panas, atau sentuhan lalat, nyamuk, angin, matahari, dan makhluk melata.",
+          "quote": "Don't let the Blessed One be disturbed by cold. Don't let the Blessed One be disturbed by heat. Don't let the Blessed One be disturbed by the touch of flies, mosquitoes, wind, sun, & creeping things.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c09",
+          "source_id": "mucilinda-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Once the sky had cleared, Muccalinda unraveled his coils from the Blessed One's body, dropped his own appearance and stood before him as a young man with hands before his heart, paying homage.",
+          "statement_id": "Setelah langit cerah, Muccalinda melepaskan lilitannya dari tubuh Sang Bhagava, meninggalkan wujudnya, dan berdiri di depannya sebagai pemuda dengan tangan di depan dada untuk memberi hormat.",
+          "quote": "Muccalinda the nāga king, realizing that the sky had cleared and was free of clouds, unraveled his coils from the body of the Blessed One, dropped his own appearance and, assuming the appearance of a young man, stood in front of the Blessed One with hands before his heart, paying homage.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c10",
+          "source_id": "mucilinda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first existent artwork depicting Mucalinda comes from a 2nd-century BC stupa in Pauni, Maharashtra, where the naga has five heads and guards the Buddha's empty seat.",
+          "statement_id": "Karya seni tertua yang masih ada yang menggambarkan Mucalinda berasal dari stupa abad ke-2 SM di Pauni, Maharashtra, tempat naga itu digambarkan berkepala lima dan menjaga tempat duduk kosong Buddha.",
+          "quote": "The first existent artwork depicting Mucalinda comes from a 2nd-century BC stupa in Pauni, Maharashtra, where the naga is portrayed as having five heads and guarding Buddha's empty seat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c11",
+          "source_id": "mucilinda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Contemporaneous artwork from Sanchi portrays him in zoo-anthropomorphic form, attended by a retinue of nagini.",
+          "statement_id": "Karya seni sezaman dari Sanchi menampilkannya berwujud setengah hewan dan manusia, dengan pengiring para nagini.",
+          "quote": "Contemporaneous artwork from Sanchi has him portrayed in zoo-anthropomorphic form and attended by a retinue of nagini.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c12",
+          "source_id": "mucilinda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Lalitavistara Sutra, five weeks after his enlightenment the Buddha was in Mucilinda's domain; Mucilinda and nagas from the four cardinal directions coiled around his body seven times to shelter him from the bad weather for seven days and nights.",
+          "statement_id": "Menurut Lalitavistara Sutra, lima minggu setelah pencerahan, Buddha berada di wilayah Mucilinda; Mucilinda bersama naga dari empat penjuru melilit tubuhnya tujuh kali untuk melindunginya dari cuaca buruk selama tujuh hari tujuh malam.",
+          "quote": "According to the Lalitavistara Sutra, the Buddha found himself in the domain of Mucilinda five weeks after his enlightenment. Mucilinda, along with nāgas from the four cardinal directions, approached him and coiled around his body seven times to shelter him from the inclement weather. They did so for seven days and seven nights.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c13",
+          "source_id": "mucilinda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Art showing the Buddha with Mucalinda's hood over him might have been influenced by Jain art of Parshvanatha, himself shown as a man with a cobra-like hood.",
+          "statement_id": "Seni yang menggambarkan Buddha dengan tudung Mucalinda di atasnya mungkin dipengaruhi seni Jain tentang Parshvanatha, yang digambarkan sebagai manusia dengan tudung seperti kobra.",
+          "quote": "Art depicting the Buddha with Mucalinda's hood over him might have been influenced by Jain art of Parshvanatha, himself depicted as a man with a cobra-like hood.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c14",
+          "source_id": "mucilinda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Dictionary of Pali Proper Names says the Buddha spent the third week after the Enlightenment at the tree; in a great shower of rain the Naga king Mucalinda of the tree sheltered him by winding his coils seven times around him and holding his hood over his head.",
+          "statement_id": "Kamus Nama-nama Pali menyebut Buddha menghabiskan minggu ketiga setelah pencerahan di pohon itu; saat hujan lebat, raja naga Mucalinda dari pohon itu melindunginya dengan melilitkan tubuhnya tujuh kali dan membentangkan tudung di atas kepala Buddha.",
+          "quote": "The Buddha spent there the third week after the Enlightenment. There was a great shower of rain, and the Naga king, Mucalinda, of the tree, sheltered the Buddha by winding his coils seven times round the Buddhas body and holding his hood over the Buddhas head",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c15",
+          "source_id": "mucilinda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Udana Commentary, according to the same dictionary, adds that the space provided by the Naga's coils was as large as the floor space of the Lohapasada and that the Naga king lived in a pond near the tree.",
+          "statement_id": "Komentar Udana, menurut kamus yang sama, menambahkan bahwa ruang yang dibentuk lilitan sang naga seluas lantai Lohapasada dan bahwa raja naga itu tinggal di kolam dekat pohon.",
+          "quote": "the space provided by the Nagas coils was as large as the floor space of the Lohapasada and that the Naga king lived in a pond near the tree.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c16",
+          "source_id": "mucilinda-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "A Sanskrit dictionary records Mucilinda as the name of a Naga who sheltered the Buddha from a violent storm by coiling himself round him.",
+          "statement_id": "Kamus Sansekerta mencatat Mucilinda sebagai nama seorang Naga yang melindungi Buddha dari badai dahsyat dengan melilitkan dirinya mengelilingi Buddha.",
+          "quote": "Name of a Nāga (who sheltered the Buddha from a violent storm by coiling himself round him)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mucilinda-c17",
+          "source_id": "mucilinda-s2",
+          "host": "accesstoinsight.org",
+          "statement": "Udana 2.1 sets the story at Uruvelā, on the bank of the Nerañjarā River at the root of the Muccalinda tree, when the Blessed One was newly awakened.",
+          "statement_id": "Udana 2.1 menempatkan kisah ini di Uruvela, di tepi Sungai Neranjara, di akar pohon Muccalinda, ketika Sang Bhagava baru saja tercerahkan.",
+          "quote": "I have heard that on one occasion, the Blessed One was staying at Uruvelā on the bank of the Nerañjarā River at the root of the Muccalinda tree, newly awakened.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b901b26dbcb819c9af3f7130d115bbb00f963dc86e663c9fd802c6681846098d"
+      "images": []
     },
     {
       "slug": "taksaka",
@@ -2670,11 +2889,12 @@
     },
     {
       "slug": "gana",
-      "file": "batch-073-fix-3.md",
+      "file": "batch-073-fix-5.md",
+      "entry_sha256": "87e4c22f501e7481ed5b6a9d1faf7483059ac4749d4eee582b327e5d06610950",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 15,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2685,7 +2905,7 @@
           "host": "en.wikipedia.org",
           "statement": "Ganas in Hindu mythological context are Shiva's attendants living on Kailash.",
           "statement_id": "Gana dalam konteks mitologi Hindu adalah para pengiring Shiva yang tinggal di Kailash.",
-          "quote": "In Hinduism, the Gaṇas are attendants of Shiva and live on Mount Kailash. Ganesha was chosen as their leader by Shiva; the deity's title is gaṇeśa or gaṇapati, meaning, \"lord or leader of the ganas\". They are referred to as Shivaganas or Rudraganas and Rudraganikas are considered the female equivalents.",
+          "quote": "In Hinduism, the Gaṇas are attendants of Shiva and live on Mount Kailash.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2695,7 +2915,7 @@
           "host": "en.wikipedia.org",
           "statement": "Shiva chooses Ganesha as their leader.",
           "statement_id": "Shiva memilih Ganesha sebagai pemimpin mereka.",
-          "quote": "In Hinduism, the Gaṇas are attendants of Shiva and live on Mount Kailash. Ganesha was chosen as their leader by Shiva; the deity's title is gaṇeśa or gaṇapati, meaning, \"lord or leader of the ganas\". They are referred to as Shivaganas or Rudraganas and Rudraganikas are considered the female equivalents.",
+          "quote": "Ganesha was chosen as their leader by Shiva",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2705,7 +2925,7 @@
           "host": "en.wikipedia.org",
           "statement": "Ganesha and Ganapati mean lord or leader of the ganas.",
           "statement_id": "Ganesha dan Ganapati berarti penguasa atau pemimpin para gana.",
-          "quote": "In Hinduism, the Gaṇas are attendants of Shiva and live on Mount Kailash. Ganesha was chosen as their leader by Shiva; the deity's title is gaṇeśa or gaṇapati, meaning, \"lord or leader of the ganas\". They are referred to as Shivaganas or Rudraganas and Rudraganikas are considered the female equivalents.",
+          "quote": "the deity's title is gaṇeśa or gaṇapati, meaning, \"lord or leader of the ganas\".",
           "context": "etymology",
           "status": "exact"
         },
@@ -2715,7 +2935,7 @@
           "host": "en.wikipedia.org",
           "statement": "They are called Shivaganas or Rudraganas and female equivalents Rudraganikas.",
           "statement_id": "Mereka disebut Shivagana atau Rudragana dan padanan perempuan disebut Rudraganika.",
-          "quote": "In Hinduism, the Gaṇas are attendants of Shiva and live on Mount Kailash. Ganesha was chosen as their leader by Shiva; the deity's title is gaṇeśa or gaṇapati, meaning, \"lord or leader of the ganas\". They are referred to as Shivaganas or Rudraganas and Rudraganikas are considered the female equivalents.",
+          "quote": "They are referred to as Shivaganas or Rudraganas and Rudraganikas are considered the female equivalents.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2738,10 +2958,105 @@
           "quote": "They are envisioned as rotund gnomes, often rambunctious and full of zest. They dance and play music for Shiva and his wife Parvati.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "gana-c07",
+          "source_id": "gana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word gana in Sanskrit and Pali means flock, troop, multitude, number, tribe, category, series or clan, and can also refer to a body of attendants.",
+          "statement_id": "Kata gana dalam bahasa Sanskerta dan Pali berarti kawanan, pasukan, banyak, jumlah, suku, kategori, deret, atau klan, dan juga dapat dipakai untuk merujuk pada rombongan pengiring.",
+          "quote": "in Sanskrit and Pali means \"flock, troop, multitude, number, tribe, category, series, or clan\". It can also be used to refer to a \"body of attendants\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c09",
+          "source_id": "gana-s2",
+          "host": "collections.lacma.org",
+          "statement": "LACMA describes ganas (troop or multitude) as types of demigods who serve as attendants for the Hindu god Shiva.",
+          "statement_id": "LACMA menyebut gana (kawanan atau banyak) sebagai jenis dewa setengah yang melayani dewa Hindu Shiva sebagai pengiring.",
+          "quote": "Ganas (troop or multitude) are types of demigods who serve as attendants for the Hindu god Shiva.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c10",
+          "source_id": "gana-s2",
+          "host": "collections.lacma.org",
+          "statement": "According to the LACMA curatorial notes, hosts of ganas are often depicted accompanying Shiva and Parvati in later group representations of their Holy Family.",
+          "statement_id": "Menurut catatan kurator LACMA, rombongan gana sering digambarkan menyertai Shiva dan Parvati dalam penggambaran kelompok keluarga suci mereka yang lebih belakangan.",
+          "quote": "Hosts of ganas are often depicted accompanying Shiva and Parvati in later group representations of their Holy Family.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c11",
+          "source_id": "gana-s2",
+          "host": "collections.lacma.org",
+          "statement": "The LACMA sculpture shows a gana who uses percussion mallets to play an hourglass-shaped drum tied to his ample girth while he dances to its beat.",
+          "statement_id": "Arca gana di LACMA menampilkan sosok yang memukul genderang berbentuk jam pasir yang diikat pada perutnya yang besar sambil menari mengikuti iramanya.",
+          "quote": "This gana uses percussion mallets to play an hourglass-shaped drum tied to his ample girth while he dances to its beat.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c12",
+          "source_id": "gana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Shiva Purana says that, to gratify Parvati, Ganesha was proclaimed the presiding officer by all, including Brahma, Vishnu and Shiva.",
+          "statement_id": "Shiva Purana menyebut Ganesha dinyatakan sebagai pejabat ketua oleh semua, termasuk Brahma, Wisnu, dan Shiva, demi menyenangkan Parvati.",
+          "quote": "In order to gratify Pārvatī, Gaṇeśa was proclaimed as the presiding officer by all, Brahmā, Viṣṇu, Śiva and others.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260115212215id_/https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226138.html",
+          "detail": "HTTP 522; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "gana-c13",
+          "source_id": "gana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "In the Shiva Purana Shiva tells Ganesha to be the presiding officer of all his ganas and worthy of worship.",
+          "statement_id": "Dalam Shiva Purana, Shiva berkata kepada Ganesha agar menjadi pejabat ketua atas semua gananya dan layak dipuja.",
+          "quote": "Let your name be the most auspicious in the matter of quelling obstacles. Be the presiding officer of all my Gaṇas and worthy of worship now.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260115212215id_/https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226138.html",
+          "detail": "HTTP 522; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "gana-c14",
+          "source_id": "gana-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Shiva Purana says the gods, the ganas and the celestial damsels sang songs joyously, danced and played on instruments.",
+          "statement_id": "Shiva Purana menyebut para dewa, para gana, dan bidadari menyanyikan lagu dengan gembira, menari, dan memainkan alat musik.",
+          "quote": "The gods, the Gaṇas and the celestial damsels sang songs joyously, danced and played on instruments.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260115212215id_/https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226138.html",
+          "detail": "HTTP 522; dicek lewat arsip Wayback"
+        },
+        {
+          "id": "gana-c15",
+          "source_id": "gana-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "According to a study of the Saura Purana quoted by Wisdom Library, the form of Shiva's ganas is like that of Shiva himself: nilakantha, trinetra, with the moon on their heads, wearing tiger skin and decorated with all ornaments.",
+          "statement_id": "Menurut kajian Saura Purana yang dikutip Wisdom Library, wujud para gana Shiva seperti wujud Shiva sendiri: nilakantha, trinetra, berbulan di kepala, berpakaian kulit harimau, dan dihiasi segala perhiasan.",
+          "quote": "Gaṇa (गण) refers to the “associates of Śiva” and their form is described in the Saurapurāṇa as follows:—The svarūpa of the Gaṇas of Śiva are like the form of Śiva himself. They are nīlakaṇṭha, trinetra and having moon on their heads, and wearing the skin of tiger, decorated with all the Ornaments.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c16",
+          "source_id": "gana-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "A Wisdom Library glossary entry says ganas are troops that generally appear in classes, nine classes being mentioned in the Puranas, attached to Shiva and serving under Ganesha, dwelling on Ganaparvata identified with Kailasa.",
+          "statement_id": "Glosarium Wisdom Library menyebut gana sebagai pasukan yang umumnya muncul dalam golongan, sembilan golongan disebut dalam Purana, yang terikat pada Shiva dan berada di bawah komando Ganesha, bermukim di Ganaparvata yang diidentifikasi dengan Kailasa.",
+          "quote": "Gaṇas are troops who generally appear in classes. Nine such classes are mentioned in the Purāṇas: ... These are attached to Lord Śiva and serve under the command of Gaṇeśa, dwelling on Gaṇaparvata identified with Kailāsa—a peak of the Himālaya mountain.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7fa41eee55caff53d9aa73f2df014e0884d37c49311bf3d5d0b9bb2ca68f60bf"
+      "images": []
     },
     {
       "slug": "trijata",
@@ -3138,11 +3453,12 @@
     },
     {
       "slug": "apasmara",
-      "file": "batch-073-fix-3.md",
+      "file": "batch-073-fix-5.md",
+      "entry_sha256": "ca6653135352685debfeb1b72d34ef7682ab2fa9b7c479de4054debcdc437241",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -3153,9 +3469,9 @@
           "host": "en.wikipedia.org",
           "statement": "Apasmara is a diminutive man symbolizing spiritual ignorance and ahamkara in Hindu mythology.",
           "statement_id": "Apasmara adalah manusia kerdil yang melambangkan ketidaktahuan rohani dan ahamkara dalam mitologi Hindu.",
-          "quote": "Apasmara (Sanskrit: अपस्मार, IAST: Apasmāra) is a diminutive man who represents spiritual ignorance and ahamkara in Hindu mythology. He is also known as Muyalaka or Muyalakan.",
+          "quote": "Apasmara (Sanskrit: अपस्मार , IAST: Apasmāra) is a diminutive man who represents spiritual ignorance and ahamkara in Hindu mythology.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "apasmara-c02",
@@ -3163,9 +3479,9 @@
           "host": "en.wikipedia.org",
           "statement": "His other names are Muyalaka or Muyalakan.",
           "statement_id": "Nama lainnya adalah Muyalaka atau Muyalakan.",
-          "quote": "Apasmara (Sanskrit: अपस्मार, IAST: Apasmāra) is a diminutive man who represents spiritual ignorance and ahamkara in Hindu mythology. He is also known as Muyalaka or Muyalakan.",
+          "quote": "He is also known as Muyalaka or Muyalakan.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "apasmara-c03",
@@ -3206,10 +3522,119 @@
           "quote": "With every step in his dance, he lands on a dwarfish figure personifying ignorance.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "apasmara-c07",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says Apasmara symbolizes the ignorance of selfhood (ahamkara), a universal, cosmic form of ignorance essential for jivas to function in samsara by forgetting past lives and identifying with a new body each time.",
+          "statement_id": "Wikipedia menyebut Apasmara melambangkan ketidaktahuan akan jati diri (ahamkara), bentuk ketidaktahuan kosmis yang diperlukan agar jiwa (jiva) berfungsi dalam samsara dengan melupakan kehidupan lampau dan mengidentifikasi diri dengan tubuh baru setiap kali.",
+          "quote": "Apasmara symbolizes the ignorance of selfhood (ahamkara), a universal, cosmic form of ignorance essential for jivas to function in samsara across their countless rebirths by forgetting past lives and identifying with a new body each time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c08",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To enable moksha (transcendence) while preserving the cosmic balance between spiritual knowledge and the ignorance inherent in samsara, Apasmara must be subdued rather than killed.",
+          "statement_id": "Agar moksha (transendensi) dimungkinkan sambil menjaga keseimbangan kosmis antara pengetahuan rohani dan ketidaktahuan dalam samsara, Apasmara harus ditundukkan, bukan dibunuh.",
+          "quote": "To enable moksha (transcendence) while preserving the cosmic balance between spiritual knowledge and ignorance inherent in samsara, Apasmara must be subdued rather than killed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c09",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Apasmara is believed to remain eternally subdued beneath Nataraja's foot, with Shiva perpetually maintaining this balance through his cosmic dance.",
+          "statement_id": "Apasmara dipercaya tetap tertundukkan selamanya di bawah kaki Nataraja, dengan Shiva terus menjaga keseimbangan itu lewat tarian kosmisnya.",
+          "quote": "Apasmara is believed to remain eternally subdued beneath Nataraja's foot, with Shiva perpetually maintaining this balance through his cosmic dance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c10",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Similar symbolism appears in representations of Dakshinamurti, another form of Shiva as a guru, where Apasmara is subdued under Shiva's right foot.",
+          "statement_id": "Simbolisme serupa terlihat pada penggambaran Dakshinamurti, wujud lain Shiva sebagai guru, tempat Apasmara ditundukkan di bawah kaki kanan Shiva.",
+          "quote": "Similar symbolism is seen in representations of Dakshinamurti, another form of Shiva as a guru, where Apasmara is subdued under Shiva’s right foot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c11",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that Aldous Huxley, in his utopian novel Island, describes Nataraja's right foot planted on a horrible little subhuman creature, the demon Muyalaka.",
+          "statement_id": "Wikipedia mencatat bahwa Aldous Huxley, dalam novel utopianya Island, melukiskan kaki kanan Nataraja bertumpu pada makhluk kecil mengerikan yang kurang dari manusia, iblis Muyalaka.",
+          "quote": "Aldous Huxley has described and summarized the symbolism of Nataraja and Apasmara, also known as Muyalaka in his utopian novel, Island: Nataraja's right foot is planted squarely on a horrible little subhuman creature - the demon, Muyalaka.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c12",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the novel's passage Muyalaka is a dwarf immensely powerful in his malignity, the embodiment of ignorance and of greedy, possessive selfhood.",
+          "statement_id": "Dalam kutipan dari novel itu, Muyalaka adalah sosok kerdil yang sangat kuat dalam kejahatannya, perwujudan ketidaktahuan dan diri yang tamak dan posesif.",
+          "quote": "A dwarf, but immensely powerful in his malignity, Muyalaka is the embodiment of ignorance, the manifestation of greedy, possessive selfhood.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c13",
+          "source_id": "apasmara-s2",
+          "host": "www.clevelandart.org",
+          "statement": "The Cleveland Museum of Art notes that the trampled figure holds a serpent in his left hand and with his right points up to Shiva.",
+          "statement_id": "Museum Cleveland mencatat bahwa sosok yang diinjak itu memegang ular di tangan kirinya dan dengan tangan kanannya menunjuk ke atas kepada Shiva.",
+          "quote": "The trampled figure holds a serpent in his left hand and with his right points up to Shiva.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c14",
+          "source_id": "apasmara-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "As described in the Kalikakhanda of the Skanda Purana, Apasmara should be black, with three heads and three eyes, six protruding canine teeth, three legs and six hands.",
+          "statement_id": "Menurut deskripsi Apasmara dalam Kalikakhanda dari Skanda Purana, ia seharusnya hitam, berkepala tiga dan bermata tiga, bertaring enam yang menonjol, berkaki tiga, dan bertangan enam.",
+          "quote": "As per the description of Apasmāra in Kālikākhaṇḍa of Skandapurāṇa, he should be black in color, have three heads and three eyes, six protruding canine teeth, three legs and six hands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c15",
+          "source_id": "apasmara-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The study notes that, except for the protruding canine teeth, no other feature of that description can be traced in any image of Apasmarapurusha, in sculptures or paintings.",
+          "statement_id": "Kajian itu mencatat bahwa, kecuali taring yang menonjol, tidak ada ciri lain dari uraian tersebut yang dapat ditemukan pada gambar Apasmarapurusha, baik pada arca maupun lukisan.",
+          "quote": "Except the protruding canine teeth no other feature can be traced in any of the images of Apasmārapuruṣa either in sculptures or in paintings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c16",
+          "source_id": "apasmara-s4",
+          "host": "www.wisdomlib.org",
+          "statement": "A Wisdom Library glossary describes Apasmarapurusha as epilepsy or loss of memory personified; according to the Skanda Purana he is black with three heads and should be playing with a snake.",
+          "statement_id": "Glosarium Wisdom Library menyebut Apasmarapurusha sebagai epilepsi atau kehilangan ingatan yang dipersonifikasikan; menurut Skanda Purana ia hitam berkepala tiga dan seharusnya bermain dengan ular.",
+          "quote": "Apasmārapuruṣa (अपस्मारपुरुष) refers to epilepsy, loss of memory personified.—Apasmārapuruṣa, according to Skandapurāṇa is black with three heads etc. (Lakkaṇṇa, Śivatattvacintāmaṇi, p.137 ff). Apasmārapuruṣa should be playing with a snake.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c17",
+          "source_id": "apasmara-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "On the Nataraja sculpture at the temple of Lokeshvara, according to a study quoted by Wisdom Library, Apasmara wears a dhoti, his face is lifted up to the left of Shiva, and he has a small horn.",
+          "statement_id": "Pada arca Nataraja di pura Lokeshvara, menurut kajian yang dikutip Wisdom Library, Apasmara berpakaian dhoti, wajahnya terangkat di sebelah kiri Shiva, dan ia bertanduk kecil.",
+          "quote": "Apasmāra is clad with a dhotī with kacce clearly traceable. His face is to the left of Śiva, lifted up, and he has a small horn.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8ba54a4689699431962214bf44559de61f90d879832b8ca42da83ac670a65359"
+      "images": []
     },
     {
       "slug": "vidyadhara",
@@ -3445,11 +3870,12 @@
     },
     {
       "slug": "gandabherunda",
-      "file": "batch-073-fix-3.md",
+      "file": "batch-073-fix-5.md",
+      "entry_sha256": "a63be7da1a81fb6f67ad4bf9b4f84913bc3ad19b4811a60211c6c529a3bdaa50",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -3470,7 +3896,7 @@
           "host": "en.wikipedia.org",
           "statement": "In the legend Narasimha takes this form to subdue Sharabha, Shiva's form.",
           "statement_id": "Dalam legenda, Narasimha mengambil wujud ini untuk menundukkan Sharabha, wujud Shiva.",
-          "quote": "Gandabherunda (IAST: Gaṇḍabheruṇḍa) is a form of Vishnu in Hindu mythology. According to legend, Narasimha, an avatar of Vishnu, assumes this form of a double-headed eagle to subdue Sharabha, a form of Shiva.  Gandabherunda is worshipped along with his consort Narasimhi, a fierce form of Lakshmi, also revered as Simhamukhi Lakshmi.",
+          "quote": "According to legend, Narasimha, an avatar of Vishnu, assumes this form of a double-headed eagle to subdue Sharabha, a form of Shiva.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3480,7 +3906,7 @@
           "host": "en.wikipedia.org",
           "statement": "He is worshipped with Narasimhi, a fierce form of Lakshmi.",
           "statement_id": "Ia dipuja bersama Narasimhi, wujud ganas Lakshmi.",
-          "quote": "Gandabherunda (IAST: Gaṇḍabheruṇḍa) is a form of Vishnu in Hindu mythology. According to legend, Narasimha, an avatar of Vishnu, assumes this form of a double-headed eagle to subdue Sharabha, a form of Shiva.  Gandabherunda is worshipped along with his consort Narasimhi, a fierce form of Lakshmi, also revered as Simhamukhi Lakshmi.",
+          "quote": "Gandabherunda is worshipped along with his consort Narasimhi, a fierce form of Lakshmi, also revered as Simhamukhi Lakshmi.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3513,10 +3939,119 @@
           "quote": "the Gandabherunda, a mythic double headed bird, the royal insignia of the Wodeyar rulers (1399 -1947) of Mysore.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c07",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On a coin found in Madurai, he is shown holding a snake in his beak.",
+          "statement_id": "Pada sebuah koin yang ditemukan di Madurai, ia digambarkan memegang ular dengan paruhnya.",
+          "quote": "In a coin found in Madurai, he is holding a snake in his beak.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c08",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "All 2-dimensional depictions show a symmetrical image of a double-headed eagle, while other images show his long tail feathers like a peafowl.",
+          "statement_id": "Semua penggambaran dua dimensi menampilkan citra simetris sebagai elang berkepala dua, sedangkan gambar lain menunjukkan bulu ekor panjangnya seperti merak.",
+          "quote": "All 2-dimensional depictions show a symmetrical image in which he is a double-headed eagle while other images show his long tail feathers like a peafowl.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c09",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story Wikipedia records, Vishnu took the form of Gandabherunda as an alternative form of Narasimha, a two-headed eagle animal, and Shiva took the form of Sharabha, a part-lion and part-eagle animal.",
+          "statement_id": "Dalam kisah yang dicatat Wikipedia, Vishnu mengambil wujud Gandabherunda sebagai wujud lain Narasimha, hewan elang berkepala dua, dan Shiva mengambil wujud Sharabha, hewan setengah singa setengah elang.",
+          "quote": "Vishnu took the form of Gandabherunda as an alternative form of Narasimha, a two-headed eagle animal, and Shiva took the form of Sharabha, a part-lion and part-eagle animal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c10",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that story the battle between Narasimha as Gandabherunda and Sharabha and Hiranyakashipu lasted 18 days; on the 18th day he disemboweled and killed both Sharabha and Hiranyakashipu at the same time.",
+          "statement_id": "Menurut kisah itu, pertempuran Narasimha sebagai Gandabherunda melawan Sharabha dan Hiranyakashipu berlangsung 18 hari; pada hari ke-18 ia membelah perut dan membunuh Sharabha dan Hiranyakashipu sekaligus.",
+          "quote": "Narasimha as Gandabherunda with Sharabha and Hiranyakashipu fought an 18-day battle. On the 18th day, Narasimha as Gandabherunda disemboweled and killed both Sharabha and Hiranyakashipu at the same time.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c11",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a mark of respect, Sharabha removed the skin of his body and gave it to Narasimha as Gandabherunda, who wore it as a hide and gave it back to Sharabha, who attached it to his body and grew it back fully as his skin.",
+          "statement_id": "Sebagai tanda hormat, Sharabha menanggalkan kulit tubuhnya dan memberikannya kepada Narasimha sebagai Gandabherunda, yang mengenakannya sebagai kulit lalu memberikannya kembali kepada Sharabha, yang menempelkannya hingga tumbuh penuh sebagai kulitnya lagi.",
+          "quote": "As a mark of respect, Sharabha removed the skin of his body and gave it to Narasimha as Gandabherunda and Narasimha as Gandabherunda wore it as a hide and gave the hide to Sharabha, who attached the hide to his body and grew it as his skin back fully.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c12",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gandabherunda is used by the Kingdom of Mysore as a royal emblem of the Wodeyar rulers under the Vijayanagaram Empire.",
+          "statement_id": "Gandabherunda dipakai Kerajaan Mysore sebagai lambang kerajaan para penguasa Wodeyar di bawah Kekaisaran Vijayanagaram.",
+          "quote": "Gandabherunda is used by the Kingdom of Mysore as a royal emblem of Wodeyar rulers under Vijayanagaram Empire.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c13",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Government of Karnataka has Gandabherunda as a state symbol, found on bus terminals and tickets issued by the Karnataka State Road Transport Corporation.",
+          "statement_id": "Pemerintah Karnataka memakai Gandabherunda sebagai lambang negara bagian, dan lambang itu terlihat pada terminal bus dan tiket yang diterbitkan Karnataka State Road Transport Corporation.",
+          "quote": "Government of Karnataka has Gandabherunda as a state symbol and is found on bus terminals and tickets issued by Karnataka State Road Transport Corporation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c14",
+          "source_id": "gandabherunda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A Wisdom Library glossary (Hindupedia entry) says Gandabherunda, a double-headed eagle, has been the state symbol of many royal dynasties, especially in South India; archaeologists and historians say the bird signifies peace, progress and power.",
+          "statement_id": "Glosarium Wisdom Library (entri Hindupedia) menyebut Gandabherunda, elang berkepala dua, telah menjadi lambang negara banyak dinasti kerajaan, terutama di India Selatan; menurut arkeolog dan sejarawan burung ini menandakan perdamaian, kemajuan, dan kekuasaan.",
+          "quote": "The Gaṇḍabheruṇḍa (गण्डभेरुण्ड), a double-headed eagle, has been the State symbol of many royal dynasties especially in South India. According to the archaeologists and historians, the bird signifies peace, progress and power.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c15",
+          "source_id": "gandabherunda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "The Wisdom Library glossary says the Puranas indicate that Vishnu as Gandabherunda subdued Shiva as Sharabha after Narasimha was conquered by Sharabha.",
+          "statement_id": "Glosarium Wisdom Library menyebut Purana menunjukkan bahwa Vishnu sebagai Gandabherunda menundukkan Shiva sebagai Sharabha setelah Narasimha dikalahkan oleh Sharabha.",
+          "quote": "The Purāṇas indicate that Viṣṇu as Gaṇḍabheruṇḍa subdued Śiva as Śarabha after Narasiṃha was conquered by Śarabha.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c16",
+          "source_id": "gandabherunda-s3",
+          "host": "www.wisdomlib.org",
+          "statement": "A Kannada-English dictionary entry on Wisdom Library defines the word as a fabulous, mythical bird with two heads, believed to be stronger than lions and elephants, a griffin-like bird.",
+          "statement_id": "Sebuah kamus Kannada-Inggris dalam Wisdom Library memerikan kata itu sebagai burung dongeng dan mitos berkepala dua yang dipercaya lebih kuat daripada singa dan gajah, burung mirip griffin.",
+          "quote": "[noun] a fabulous, mythical bird having two heads, believed to be stronger than lions and elephants; a griffin-like bird.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gandabherunda-c17",
+          "source_id": "gandabherunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The same article relates that Narasimha first disemboweled and killed the asura king Hiranyakashipu, then burned and killed all the other asuras and won over them.",
+          "statement_id": "Artikel yang sama mengisahkan bahwa Narasimha lebih dulu membelah perut dan membunuh raja asura Hiranyakashipu, lalu membakar dan membunuh semua asura lain dan menaklukkan mereka.",
+          "quote": "After Narasimha disemboweled and killed the asura king Hiranyakashipu, he burned and killed all other asuras and won over them.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5a0c7efec2ccf8792869d9cfc39f9dc9e14fd63632b13972c8de6b22e4cebb19"
+      "images": []
     },
     {
       "slug": "hungry-ghost",

@@ -1,6 +1,6 @@
 # Review batch-075
 
-Diperiksa 2026-10-06T19:40:23.887Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md.
+Diperiksa 2026-10-07T09:35:16.119Z. Berkas: batch-075.md, batch-075-fix-1.md, batch-075-fix-2.md, batch-075-fix-3.md, batch-075-fix-4.md, batch-075-fix-5.md, batch-075-fix-6.md, batch-075-fix-7.md, batch-075-fix-8.md.
 
 ## keibu-keioiba — lulus-otomatis
 
@@ -32,16 +32,22 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## mahishi-demoness — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mahishi-demoness-c01 | exact | en.wikipedia.org | Mahishi is a demoness in Hindu mythology whose story concerns Ayyappa and Sabarimala. | In Hindu mythology, Mahishi is a powerful demoness whose narrative is central to the origin of Lord Ayyappa and the traditions of the Sabarimala temple. She was the sister of the buffalo-demon Mahishasura. |
-| mahishi-demoness-c02 | exact | en.wikipedia.org | This source calls her the sister of the buffalo demon Mahishasura. | In Hindu mythology, Mahishi is a powerful demoness whose narrative is central to the origin of Lord Ayyappa and the traditions of the Sabarimala temple. She was the sister of the buffalo-demon Mahishasura. |
+| mahishi-demoness-c01 | exact | en.wikipedia.org | Mahishi is a demoness in Hindu mythology whose story concerns Ayyappa and Sabarimala. | In Hindu mythology, Mahishi is a powerful demoness whose narrative is central to the origin of Lord Ayyappa and the traditions of the Sabarimala temple. |
+| mahishi-demoness-c02 | exact | en.wikipedia.org | This source calls her the sister of the buffalo demon Mahishasura. | She was the sister of the buffalo-demon Mahishasura. |
 | mahishi-demoness-c03 | exact | en.wikipedia.org | She receives a boon that only a child of Shiva and Vishnu's union can kill her. | From Brahma, she secured a specific boon: that she could only be slain by a child born of the union of Lord Shiva and Lord Vishnu. Believing such a birth to be biologically impossible, she unleashed a reign of terror, conquering the Svarga and ousting Indra from his throne. |
 | mahishi-demoness-c04 | exact | en.wikipedia.org | Ayyappan's birth satisfies that condition through Shiva's union with Mohini, Vishnu's female manifestation. | To counter Mahishi's invincibility, the deities sought a solution. Following the Samudra Manthana , Shiva was captivated by the beauty of Mohini, the female avatar of Vishnu. Their union led to the birth of Ayyappan (also known as Manikandan or Dharma Sastha), the divine child born of two male deities, thereby fulfilling the technical requirements of Mahishi’s boon. |
 | mahishi-demoness-c05 | exact | en.wikipedia.org | Ayyappan seizes her horns and casts her to Earth during their battle. | When Mahishi attempted to storm heaven once more, Ayyappan, then a young prince, ascended to the celestial realms. He engaged the demoness in a fierce battle, eventually catching her by her horns and hurling her down to Earth. She landed on the banks of the Azhuthayar River near Sabarimala, where Ayyappan performed a divine dance on her body as she died. |
 | mahishi-demoness-c06 | exact | www.keralatourism.org | Kerala Tourism explains Ayyappa's birth mission as eliminating the threat posed by Mahishi. | The birth mission of Ayyappa was to eliminate the threat caused by Mahishi, a demoness. |
+| mahishi-demoness-c07 | exact | en.wikipedia.org | According to the Sree Bhoothanaathopakhyaanam, Mahishi was the reincarnation of Leela, the wife of the sage Dattatreya; after a divine dispute and a curse, Leela was reborn as a she-buffalo. | According to the Sree Bhoothanaathopakhyaanam , Mahishi was the reincarnation of Leela, the wife of the sage Dattatreya. Following a divine dispute and a subsequent curse, Leela was reborn as a she-buffalo. |
+| mahishi-demoness-c08 | exact | en.wikipedia.org | As Mahishi died, the curse was lifted and Leela was freed from her demonic form; legend says she asked to marry Ayyappan, who declined because he was an eternal celibate and instead granted her a place of worship at his shrine, where she is venerated as Maalikapurathamma. | As she drew her final breath, the curse was lifted, and Leela was released from her demonic form. Legend states she requested to marry Ayyappan, however, as he was an eternal celibate, he declined. Instead, he granted her a place of worship at his shrine, where she is venerated as Maalikapurathamma. |
+| mahishi-demoness-c09 | exact | www.keralatourism.org | Kerala Tourism relates that Mahishi, the demoness and sister of Mahishasura, sought revenge when her brother was killed by Goddess Durga, and after severe penance Brahma granted her a boon that only the child of Vishnu and Shiva could kill her. | Mahishi, a demoness and sister of Mahishasura sought revenge when her brother was killed by Goddess Durga. She undertook severe penance and finally Lord Brahma appeared before her, granting her a boon that only the child of Lord Vishnu and Lord Shiva could kill her. |
+| mahishi-demoness-c10 | exact | www.keralatourism.org | After receiving the boon, Mahishi went on a violent spree causing severe destruction, and the Devas, worried by her atrocities, sought Vishnu's intervention. | After receiving the boon, Mahishi went on a violent spree, unleashing severe destruction. The Devas, worried by her atrocities, sought the intervention of Lord Vishnu. |
+| mahishi-demoness-c11 | exact | www.keralatourism.org | According to Kerala Tourism, Manikandan confronted Mahishi in Devaloka and hurled her back to earth; after a ferocious battle he mounted her chest and danced thunderously, and Mahishi then realized the child was the son of Shiva and Vishnu and soon after died. | Manikandan confronted Mahishi in Devaloka and hurled her back to earth. A ferocious battle followed, at the end of which Manikandan mounted Mahishi’s chest and began a thunderous dance that shook all of earth and the Devaloka. Mahishi then realized that this was no ordinary child but the son of Shiva and Vishnu. Soon after, she died. |
+| mahishi-demoness-c12 | exact | www.keralatourism.org | Some devotees believe that a girl named Poonkodi of the Chirappanchira household loved Ayyappa and later became Malikappurathamma. | There are devotees who believe that a girl named Poonkodi of the Chirappanchira household loved Lord Ayyappa, and it was she who later became Malikappurathamma. |
 
 
 ## meitei-dragons — lulus-otomatis
@@ -70,16 +76,26 @@ Klaim 16 (exact 14, loose 2), sumber 3, gambar 0.
 
 ## munjya — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | munjya-c01 | exact | en.wikipedia.org | Munjya are ghosts of boys who, in Maharashtra and Konkan folklore, died after the sacred-thread ceremony but before marriage. | According to folklore in Maharashtra and the Konkan coast, Munjya is believed to be the ghosts of boys who died after this ceremony but before marriage, inhabiting peepal trees. |
 | munjya-c02 | exact | en.wikipedia.org | They are believed to inhabit peepal trees. | Munjya is believed to be the ghosts of boys who died after this ceremony but before marriage, inhabiting peepal trees. |
 | munjya-c03 | exact | en.wikipedia.org | Some tales describe restless bachelor ghosts with cleverness and multilingual abilities. | Munjya's are described as restless bachelor ghosts who roam trees at night, possessing cleverness and multilingual abilities. |
-| munjya-c04 | exact | en.wikipedia.org | Although usually harmless, they may retaliate against people who defile their tree homes. | While most Munjya's are not harmful, they may retaliate against those who defile their tree homes, potentially pelting offenders with stones or causing accidents. |
-| munjya-c05 | exact | en.wikipedia.org | Some tales describe stone throwing or accidents as retaliation. | While most Munjya's are not harmful, they may retaliate against those who defile their tree homes, potentially pelting offenders with stones or causing accidents. |
+| munjya-c04 | exact | en.wikipedia.org | Although usually harmless, they may retaliate against people who defile their tree homes. | While most Munjya's are not harmful, they may retaliate against those who defile their tree homes |
+| munjya-c05 | exact | en.wikipedia.org | Offenders may be pelted with stones or suffer accidents. | potentially pelting offenders with stones or causing accidents. |
 | munjya-c06 | exact | www.mid-day.com | The filmmakers adapt Konkan coastal folklore into the horror comedy Munjya. | Writer Niren Bhatt and director-writer Amar Kaushik, who made Stree 2 and Bhediya, decided to fashion a folklore into a classic horror comedy—a medium they ace. And thus, Munjya came into being. |
+| munjya-c07 | exact | en.wikipedia.org | In Hindu and Jain traditions the muṇḍana ceremony marks a boy's entry into formal education, with a sacred thread tied around the torso and a munja-grass girdle around the waist; the boy is known as Munjya when he puts on the munja grass girdle. | In Hindu and Jain traditions, the muṇḍana ceremony marks a boy's entry into formal education, involving the tying of a sacred thread around the torso and a girdle made of munja grass around the waist, typically at the age of seven. He is known as Munjya when he puts on the munja grass girdle. |
+| munjya-c08 | exact | en.wikipedia.org | Some stories depict more malevolent Munjya harming humans, for example by causing accidents or possessing living beings with dangerous intentions, including forcing them to commit acts of violence. | Some stories depict more malevolent Munjya's causing harm to humans, such as causing accidents or possessing living beings with dangerous intentions, including forcing them to commit acts of violence. |
+| munjya-c09 | exact | en.wikipedia.org | Vikram Aur Munja is an animated TV show on Big Magic. | Vikram Aur Munja, an animated TV show on Big Magic. |
+| munjya-c10 | exact | en.wikipedia.org | The Hindi-language horror-thriller Munjya is based on this legend. | The Hindi-language horror-thriller Munjya is based on this legend. |
+| munjya-c12 | exact | archive.org | In The Folklore of Bombay (1924), Enthoven records Munja as the spirit of a Brahman boy who dies; it does not greatly affect its victim but simply frightens, and it is difficult to drive out when it attacks. | Munja is the spirit of a Brahman boy who dies ... It does not greatly affect its victim, but simply frightens. When it attacks, it is difficult to drive out. |
+| munjya-c13 | exact | archive.org | According to Enthoven, the spirit is cast out only when the patient makes a pilgrimage to a holy shrine. | It is cast out only when the patient makes a pilgrimage to a holy shrine. |
+| munjya-c14 | exact | archive.org | Enthoven says Munja wears small bells round the waist and is generally seen performing a Sandhya. | wears small bells round the waist and is generally seen performing a Sandhya. |
+| munjya-c15 | exact | archive.org | According to Enthoven, the spirits Munja and Sambandh are said to reside near houses and old trees that produce sweet-smelling flowers. | The spirits Munja and Sambandh are said to reside near houses and old trees that produce sweet-smelling flowers. |
+| munjya-c16 | exact | archive.org | Enthoven notes that in some parts it is held that Vishnu and Munja live in the Pipal tree. | In other parts it is held that Vishnu and Munja live in the Pipal |
+| munjya-c17 | exact | archive.org | Enthoven records that in the Deccan, Munja is worshipped together with Biroba, Salvai and Mhasoba during the monthly periods to cure barrenness. | In the Deccan Biroba, Munja, Salvai, and Mhasoba are worshipped during the monthly periods to cure barrenness. |
 
 
 ## poubi-lai — lulus-otomatis
@@ -241,16 +257,23 @@ Klaim 13 (exact 13), sumber 2, gambar 0.
 
 ## samaton — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| samaton-c01 | exact | en.wikipedia.org | Samaton is a winged divine horse of Meitei mythology. | Samaton (/saa-ma-ton/) or Samadon (/saa-ma-don/) is a mythical winged divine horse in Meitei mythology. He is one of the most recognised creatures in Meitei folklore. Legend says that Samaton is the ancestor of the present day Manipuri pony (Meitei horse). The Leithak Leikharol describes Samaton as a primordial horse associated with Meitei cosmology. |
-| samaton-c02 | exact | en.wikipedia.org | Legend identifies him as the ancestor of the Manipuri pony. | Samaton (/saa-ma-ton/) or Samadon (/saa-ma-don/) is a mythical winged divine horse in Meitei mythology. He is one of the most recognised creatures in Meitei folklore. Legend says that Samaton is the ancestor of the present day Manipuri pony (Meitei horse). The Leithak Leikharol describes Samaton as a primordial horse associated with Meitei cosmology. |
+| samaton-c01 | exact | en.wikipedia.org | Samaton is a winged divine horse of Meitei mythology. | Samaton (/saa-ma-ton/) or Samadon (/saa-ma-don/) is a mythical winged divine horse in Meitei mythology. |
+| samaton-c02 | exact | en.wikipedia.org | Legend identifies him as the ancestor of the Manipuri pony. | Legend says that Samaton is the ancestor of the present day Manipuri pony (Meitei horse). |
 | samaton-c03 | exact | en.wikipedia.org | The Leithak Leikharol describes him as a primordial horse created by Sanamahi to attack Pakhangba. | The Leithak Leikharol describes Samaton as a primordial horse associated with Meitei cosmology. It is created by Sanamahi to attack on Pakhangba. |
 | samaton-c04 | exact | en.wikipedia.org | He later becomes the mount of the god Marjing. | Later, it became the mounting creature of God Marjing. |
-| samaton-c05 | exact | en.wikipedia.org | Samaton is praised in the Ougri ritual song sung during Lai Haraoba. | Samaton is praised in the ritual song of Ougri sung during the Lai Haraoba festival. Samaton is considered very important to Meitei culture because it is created from the body of God Sanamahi. During the deification of Meitei kings, Samaton became associated with kings as it was a divine being. So, Samaton became the insignia of royalty. |
-| samaton-c06 | exact | e-pao.net | Ranjit Singh records Hada Samaton Ayangba as a theme song for a Manipur polo tournament. | a musical sensation was created in the Manipuri music world by Mangka with her solo song "Hada Samaton Ayangba" The song specially composed as Theme Song of the 8th Manipur Polo International 2014 |
+| samaton-c05 | exact | en.wikipedia.org | Samaton is praised in the Ougri ritual song sung during Lai Haraoba. | Samaton is praised in the ritual song of Ougri sung during the Lai Haraoba festival. |
+| samaton-c06 | exact | e-pao.net | E-Pao records Hada Samaton Ayangba as the theme song of the 2014 Manipur Polo International. | a musical sensation was created in the Manipuri music world by Mangka with her solo song "Hada Samaton Ayangba" The song specially composed as Theme Song of the 8th Manipur Polo International 2014 |
+| samaton-c07 | exact | en.wikipedia.org | The article calls Samaton one of the most recognised creatures in Meitei folklore. | He is one of the most recognised creatures in Meitei folklore. |
+| samaton-c08 | exact | en.wikipedia.org | Samaton is considered very important to Meitei culture because it was created from the body of the god Sanamahi. | Samaton is considered very important to Meitei culture because it is created from the body of God Sanamahi. |
+| samaton-c09 | exact | en.wikipedia.org | During the deification of Meitei kings, Samaton became associated with kings as a divine being and so became the insignia of royalty. | During the deification of Meitei kings, Samaton became associated with kings as it was a divine being. So, Samaton became the insignia of royalty. |
+| samaton-c10 | exact | en.wikipedia.org | Samaton is also called "Shamadon Ayangba" or "Shamaton Ayangpa" because of free variation of words in the Meitei language (Manipuri language). | It is also called "Shamadon Ayangba" ... or "Shamaton Ayangpa" ... due to free variation of words in Meitei language (Manipuri language). |
+| samaton-c11 | exact | manipur.gov.in | A draft policy of the Government of Manipur states that in Manipuri mythology the Manipuri pony was regarded as descended from "Samadon Ayangba", the winged steed of Lord Margjing, one of the guardian deities of Manipur. | In Manipuri mythology, the Manipuri pony was regarded to have descended from “Samadon Ayangba” the winged steed of Lord Margjing, one of the guardian deities of Manipur. |
+| samaton-c12 | exact | en.wikipedia.org | According to the Leithak Leikharol PuYa, God Marjing was created to control Samadon Ayangba, the divine horse, and the horse was created from the foot of Ashiba (Sanamahi). | According to the Leithak Leikharol PuYa, God Marjing (mentioned as "Maraching") originated from the intestines of Atiya Sidaba. He was created to control Samadon Ayangba, the divine horse ... The horse was created from the foot of Ashiba (Sanamahi). |
+| samaton-c13 | exact | en.wikipedia.org | Marjing and his divine creature Samadon Ayangba reside on top of the Heingang Ching (Marjing hills). | He and his divine creature, Samadon Ayangba, reside in the top of the Heingang Ching (Marjing hills). |
 
 
 ## sanbo-kojin — lulus-otomatis
@@ -345,16 +368,27 @@ Klaim 17 (loose 3, exact 14), sumber 2, gambar 0.
 
 ## susna — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
+Klaim 17 (exact 17), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| susna-c01 | loose | en.wikipedia.org | Susna is an asura in Hindu texts associated with drought and hostility to Indra. | Susna (Sanskrit: शुष्ण, romanized: Śuṣṇa) is an asura described in Hindu texts. Normally associated with drought, Susna is often described as possessing a snake-like form with horns. He is an enemy of the deity Indra. |
-| susna-c02 | loose | en.wikipedia.org | He is often described as having a horned, snakelike form. | Susna (Sanskrit: शुष्ण, romanized: Śuṣṇa) is an asura described in Hindu texts. Normally associated with drought, Susna is often described as possessing a snake-like form with horns. He is an enemy of the deity Indra. |
+| susna-c01 | exact | en.wikipedia.org | Susna is an asura in Hindu texts associated with drought and hostility to Indra. | is an asura described in Hindu texts. Normally associated with drought, ... He is an enemy of the deity Indra. |
+| susna-c02 | exact | en.wikipedia.org | He is often described as having a horned, snakelike form. | Susna is often described as possessing a snake-like form with horns. |
 | susna-c03 | exact | en.wikipedia.org | The name Susna is connected with drought and the root Sus meaning to dry up. | Susna means "drought" from the root Sus, which translates to "dry up". The similar "sosna" is an old Slavic word for the pine tree. |
 | susna-c04 | exact | en.wikipedia.org | He is associated with Vritra, another asura obstructing rivers. | In Hinduism, Susna is an asura commonly associated with drought, famine, and hoarding. An enemy of Indra, the asura makes multiple appearances across a number of Vedic texts. He is often associated with Vritra, another asura which obstructs the rivers of the world. |
 | susna-c05 | exact | en.wikipedia.org | In the Rigveda account Indra destroys Susna's fortress and sends rain at Kutsa's request. | To defeat the asura, Indra destroys Susna's fortress, and, at the request of his follower Kutsa, sends rains to end the drought, defeating the asura. |
 | susna-c06 | exact | en.wikisource.org | The Rigveda hymn describes breaking Susna's brood and winning heavenly streams. | He brake in pieces Susna's brood who still expected not the stroke, and won for us the heavenly streams. |
+| susna-c07 | exact | en.wikipedia.org | In the Rigveda, Susna is described as a "child of mists" similar to Vritra, a massive dragon who blocks the rivers of the world. | In the Rigveda, Susna is described as being a "child of mists" similar to Vritra, a massive dragon who blocks the rivers of the world. |
+| susna-c08 | exact | en.wikipedia.org | Like Vritra, Susna is seen as a cause of drought and a foe of Indra; but while Indra can kill Vritra with a thunderbolt, Susna must be destroyed by returning water to the land. | Like Vritra, Susna is seen as a causer of drought and as a foe of Indra. However, while Indra is able to kill Vritra with a thunderbolt, Susna must be destroyed by returning water to the land. |
+| susna-c09 | exact | en.wikipedia.org | One passage of the Rigveda notes that Indra "made flow the springs restrained by the season through killing Susna, the child of mists." | One passage from the text notes Indra "made flow the springs restrained by the season through killing Susna, the child of mists." |
+| susna-c10 | exact | en.wikipedia.org | In the Brahmana and Yajurveda texts Susna is described as a bitter enemy (dasa) of the god Indra; described as a horned serpent-asura, he aids the Asuras in their war against Indra and the devas. | In the Brahmana and Yajurveda texts within the Vedas, Susna is described as being a bitter enemy (dasa) of the god Indra. Susna, who is described as a horned serpent-asura, aids the Asuras in their war against Indra and his fellow devas. |
+| susna-c11 | exact | en.wikipedia.org | Whenever an asura is killed in battle, Susna uses his mystical breath, which contains the essence of the amrta, to restore the fallen warrior to life. | Whenever an asura is killed in battle, Susna uses his mystical breath (which contains the essence of the amrta, the elixir of immortality) to restore the fallen warrior to life. |
+| susna-c12 | exact | en.wikipedia.org | Indra discovers the resurrections and plots to steal the amrta; he turns into a globule of honey that the asura swallows, then inside Susna's stomach becomes a falcon (or eagle), snatches the amrta from the asura's mouth and delivers it to the devas. | Indra discovers these resurrections and plots to steal the amrta for himself and his fellow devas. Thus, Indra turns himself into a globule of honey and allows the asura to consume him. Once inside of Susna's stomach, Indra turns into a falcon (or eagle), snatches the amrta from the asura's mouth, and escapes to deliver the prize to the other devas. |
+| susna-c13 | exact | www.wisdomlib.org | The Puranic Encyclopedia entry on Wisdomlib calls Susna an asura and says that in the Rigveda Indra once bound the magician Susna in chains and put him in prison. | Śuṣṇa (शुष्ण).—An asura. In Ṛgveda we find that once Indra bound the magician Śuṣṇa in chains and put him in prison. |
+| susna-c14 | exact | www.wisdomlib.org | A Sanskrit-English dictionary entry reproduced on Wisdomlib glosses Śuṣṇa as ‘Hisser’, the name of a demon slain by Indra, according to some a drought demon. | ‘Hisser’, Name of a demon slain by Indra, [Ṛg-veda] ([according to] to some a drought demon |
+| susna-c15 | exact | en.wikisource.org | Rigveda hymn 6.31 says Indra conquered Susna with Kutsa in the fight for cattle, and calls Susna voracious, a bane of crops. | With Kutsa, Indra! thou didst conquer Susna, voracious, bane of crops, in fight for cattle. |
+| susna-c16 | exact | en.wikisource.org | Rigveda hymn 1.54 describes Indra, with a roar that fills the woods, forcing down the stores which Susna kept confined. | When with a roar that fills the woods, thou forcest down on wind's head the stores which Susna kept confined, |
+| susna-c17 | exact | www.wisdomlib.org | Wisdomlib notes that the Sanskrit term Śuṣṇa can be transliterated into English as Susna or Shushna using the IAST scheme. | The Sanskrit term Śuṣṇa can be transliterated into English as Susna or Shushna, using the IAST transliteration scheme |
 
 
 ## ucchusma — lulus-otomatis

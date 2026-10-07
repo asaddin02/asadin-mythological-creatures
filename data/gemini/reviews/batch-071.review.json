@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-071",
-  "checked_at": "2026-10-01T17:34:34.212Z",
+  "checked_at": "2026-10-07T09:26:00.774Z",
   "files": [
     "batch-071.md",
-    "batch-071-fix-1.md"
+    "batch-071-fix-1.md",
+    "batch-071-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -25,7 +26,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "fc2bdd08881f366f2f3b572e17bc797ae8e9b884a653812df6383d7e3647d27a"
     },
     {
       "slug": "wd-q15890876",
@@ -85,7 +87,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6fe81d3e46299f9fb0114a453e6b915814a3243be55084a35367baabe53172da"
     },
     {
       "slug": "wd-q15892530",
@@ -155,15 +158,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "361f433d99f88373cf000dd93429941efe7ea8dde2df33189e963534ecadeebe"
     },
     {
       "slug": "wd-q15893916",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-2.md",
+      "entry_sha256": "87a2ba9966790ac0fd9353814d8cf2650e0b9549cff1cf906d4b11521355b640",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 9,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -174,7 +179,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Fei is a calamity bringing animal in the Shan Hai Jing with an ox's body and a snake's tail.",
           "statement_id": "Fei adalah hewan pembawa bencana dalam Shan Hai Jing dengan tubuh sapi dan ekor ular.",
-          "quote": "蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。",
+          "quote": "蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -184,7 +189,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Its head is white and it has only one eye.",
           "statement_id": "Kepalanya putih dan matanya hanya satu.",
-          "quote": "蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。",
+          "quote": "太山上多金玉桢木。有兽焉，其状如牛而白首，一目而蛇尾，其名曰蜚。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -194,7 +199,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Its passage is said to dry up water and kill vegetation.",
           "statement_id": "Pergerakannya dikatakan mengeringkan air dan mematikan tumbuhan.",
-          "quote": "蜚是一種記載於《山海经·東山經》的灾兽。居住於太山，具有牛的外形，蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。",
+          "quote": "蛇的尾巴，白色頭部，但只有一個眼睛。會造成周邊水源乾枯、草木枯死。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -204,7 +209,7 @@
           "host": "zh.wikisource.org",
           "statement": "The classical text places Fei on Mount Tai.",
           "statement_id": "Teks klasik menempatkan Fei pada Gunung Tai.",
-          "quote": "又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。",
+          "quote": "又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -214,7 +219,7 @@
           "host": "zh.wikisource.org",
           "statement": "Fei's appearance is treated as an omen of a great epidemic.",
           "statement_id": "Kemunculan Fei dianggap sebagai pertanda wabah besar.",
-          "quote": "又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。",
+          "quote": "有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -224,7 +229,37 @@
           "host": "zh.wikisource.org",
           "statement": "Mount Tai in that narrative contains gold, jade, and zhen trees.",
           "statement_id": "Gunung Tai dalam kisah itu mengandung emas, giok, dan pohon zhen.",
-          "quote": "又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首，一目而蛇尾，其名曰蜚，行水則竭，行草則死，見則天下大疫。鉤水出焉，而北流注于勞水，其中的鱃魚。",
+          "quote": "又東北二百里，曰太山，上多金玉、楨木。有獸焉，其狀如牛而白首",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15893916-c07",
+          "source_id": "wd-q15893916-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary also lists 蜚 as the name of a beast: according to the Shan Hai Jing, on Mount Tai there is a beast like an ox, with a white head, one eye and a snake's tail, named Fei; what it passes through dries up, and its appearance brings a great epidemic under heaven.",
+          "statement_id": "Kamus Kangxi mencatat 蜚 juga sebagai nama hewan: menurut Shan Hai Jing, di Gunung Tai ada hewan seperti sapi, berkepala putih, bermata satu, dan berekor ular bernama Fei; tempat yang dilaluinya mengering, dan kemunculannya membawa wabah besar di bawah langit.",
+          "quote": "又獸名。《山海經》太山有獸，狀如牛，白首，一目，蛇尾，名曰蜚。所經枯竭，甚于鴆厲，見則天下大疫。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15893916-c08",
+          "source_id": "wd-q15893916-s4",
+          "host": "zh.wikisource.org",
+          "statement": "A eulogy for Fei in the Quan Jin Wen collection calls it a calamity beast (灾兽); where it passes, water is exhausted and the woods wither.",
+          "statement_id": "Bait pujian untuk Fei dalam himpunan Quan Jin Wen menyebutnya hewan pembawa bencana (灾兽); di tempat yang dilaluinya air habis dan hutan layu.",
+          "quote": "蜚则灾兽，跂踵厉深。会所经涉，竭水槁林。禀气自然，体此殃淫。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q15893916-c09",
+          "source_id": "wd-q15893916-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Tushu Jicheng quotes a comment introduced by 郭曰 (Guo said) that this means Fei's body holds calamitous qi (災氣), followed by a verse saying that Fei seems harmless by name, yet what it passes through dries up and all creatures fear it.",
+          "statement_id": "Gujin Tushu Jicheng mengutip komentar berawalan 郭曰 (Guo berkata) bahwa yang dimaksud ialah tubuh Fei mengandung hawa bencana (災氣), disusul bait yang menyebut Fei tampak tidak berbahaya tetapi tempat yang dilaluinya mengering dan segala makhluk takut kepadanya.",
+          "quote": "郭曰：「言其體含災氣也。」其銘曰：「蜚之為名，體似無害，所經枯竭，甚於鴆厲，萬物斯懼，思爾遐逝",
           "context": "historical-record",
           "status": "exact"
         }
@@ -248,7 +283,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "a53cd89e44a293b4d2636d4a7bc304e5c7704cbfcf009e3fb4a9ae0ae44a3536"
     },
     {
       "slug": "wd-q15897734",
@@ -318,7 +354,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "224fab1e0b4ece617f886b3908508c252ba43bd024afcadb9aa4e7232d22bcbb"
     },
     {
       "slug": "wd-q15923632",
@@ -388,7 +425,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "882ebdff7c0a7b24416d85311f65074501826281d1ac660ba16f9c9e8f2f0ea1"
     },
     {
       "slug": "wd-q15932999",
@@ -458,7 +496,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "27904f7ef26b7d1ea87b1af41de5c196a39b41c488c3efe7763907a0d1d5331a"
     },
     {
       "slug": "wd-q15940964",
@@ -528,7 +567,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "14f7fa78f43995b5b04726c5e6bbf06b60ef821f3ec4999a41af002f49f01de0"
     },
     {
       "slug": "wd-q15955445",
@@ -588,7 +628,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c9c3bf7809620c92659a6af188686cc847184a5b5391f9aa30c9d53deed83251"
     },
     {
       "slug": "wd-q17015307",
@@ -657,7 +698,8 @@
           "detail": "tidak bisa dibuka (timeout)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "36a98dab6c8f3708910f2eda8189f8a1e3db95da904d2fb0e15414221ecce991"
     },
     {
       "slug": "wd-q17040385",
@@ -727,15 +769,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e817185f1d3014fd61fc4928734af9734e1949d6592b5b621e7cf1714942187d"
     },
     {
       "slug": "wd-q17041429",
-      "file": "batch-071-fix-1.md",
+      "file": "batch-071-fix-2.md",
+      "entry_sha256": "e32f9100f58b45a844b06bd83753de44fdeab11f3b8fd2f2eed3adac46b5900e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 13,
+        "sources": 6,
         "images": 0
       },
       "issues": [],
@@ -746,7 +790,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Feiyi is a mythical serpent recorded in the western and northern sections of the Shan Hai Jing.",
           "statement_id": "Feiyi adalah ular mitos yang tercatat dalam bagian barat dan utara Shan Hai Jing.",
-          "quote": "肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。亦有聲韻學專家認為「肥遺」跟「巴蛇」其實是同一種妖蛇。",
+          "quote": "肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -756,7 +800,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The northern version gives it one head and two bodies.",
           "statement_id": "Versi utara memberinya satu kepala dengan dua tubuh.",
-          "quote": "《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。",
+          "quote": "有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -766,7 +810,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The western version gives it six feet and four wings.",
           "statement_id": "Versi barat memberinya enam kaki dan empat sayap.",
-          "quote": "《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。",
+          "quote": "有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -776,7 +820,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Both versions associate its appearance with great drought.",
           "statement_id": "Kedua versi mengaitkan kemunculannya dengan kekeringan besar.",
-          "quote": "《山海經·北山經》載：「又北百八十里，曰渾夕之山，無草木，多銅玉。囂水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。」肥遺外貌如蛇，但同一個頭部下卻有兩條身軀。可是這形象卻與《山海經·西山經》中的近似生物不同，在《西山經》中的記載為：「又西六十里，曰太華之山，削成而四方，其高五千仞，其廣十里，鳥獸莫居。有蛇焉，名曰肥遺，六足四翼，見則天下大旱。」此處的肥遺蛇卻並非一首兩身，而是六足四翼。然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。",
+          "quote": "然而兩者相同之處是，每當此蛇出現時，附近封國（甚至全國）都會出現大旱災。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -796,7 +840,77 @@
           "host": "zh.wikisource.org",
           "statement": "Mount Hunxi in the text has copper and jade but no vegetation.",
           "statement_id": "Gunung Hunxi dalam teks memiliki tembaga dan giok tetapi tidak bertumbuhan.",
-          "quote": "又北百八十里，曰渾夕之山，無草木，多銅玉。嚻水出焉，而西北流注于海。有蛇一首兩身，名曰肥遺，見則其國大旱。",
+          "quote": "又北百八十里，曰渾夕之山，無草木，多銅玉。嚻水出焉，而西北流注于海。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c07",
+          "source_id": "wd-q17041429-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia notes that some historical-phonology (聲韻學) specialists consider 肥遺 and 巴蛇 (Bashe) to be in fact the same kind of serpent monster (妖蛇).",
+          "statement_id": "Wikipedia mencatat bahwa ada pakar fonologi sejarah (聲韻學) yang berpendapat 肥遺 dan 巴蛇 (Bashe) sebenarnya adalah jenis ular siluman (妖蛇) yang sama.",
+          "quote": "肥遺，是中國古代傳說中的蛇妖，見載於《山海經》中的《西山經》和《北山經》。亦有聲韻學專家認為「肥遺」跟「巴蛇」其實是同一種妖蛇。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c08",
+          "source_id": "wd-q17041429-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia states that among the mythical animals that form the most common decorative motif on Shang-period (商代) bronzes, one representative example is Feiyi.",
+          "statement_id": "Wikipedia menyebut bahwa di antara hewan mitos yang menjadi motif hias paling umum pada perunggu masa Shang (商代), salah satu yang mewakili ialah Feiyi.",
+          "quote": "商代青銅器上最常見的花紋母題，是神話動物，其中具有代表性的一種就是肥遺。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c09",
+          "source_id": "wd-q17041429-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The western section of the Shan Hai Jing on Wikisource writes the name as 肥𧔥 and records a serpent with six feet and four wings whose appearance brings great drought under heaven; an annotation says this serpent appeared below Mount Yang in the time of Tang (湯) and that there is also another 肥遺 serpent, perhaps of the same name.",
+          "statement_id": "Teks Shan Hai Jing bagian Barat pada Wikisource menulis nama itu 肥𧔥 dan mencatat ular berkaki enam dan bersayap empat yang kemunculannya mendatangkan kekeringan besar di bawah langit; sebuah catatan pada teks menyebut ular ini muncul di bawah Gunung Yang pada zaman Tang (湯) dan ada pula ular 肥遺 lain yang mungkin bernama sama.",
+          "quote": "鳥獸莫居。有蛇焉，名曰肥𧔥，六足四翼，見則天下大旱〈湯時此蛇見於陽山下。復有肥遺蛇，疑是同名〉。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c10",
+          "source_id": "wd-q17041429-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Yulan quotes the Shan Hai Jing: on Mount Taihua (泰華山) there is a serpent named Feiyi, with six feet and four wings, whose appearance brings great drought under heaven.",
+          "statement_id": "Taiping Yulan memuat kutipan Shan Hai Jing bahwa di Gunung Taihua (泰華山) ada ular bernama Feiyi, berkaki enam dan bersayap empat, yang kemunculannya mendatangkan kekeringan besar di bawah langit.",
+          "quote": "《山海經》曰：泰華山有虵，名曰肥遺，六足四翼，見則天下大旱。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c11",
+          "source_id": "wd-q17041429-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Shu Taowu (蜀檮杌) records that 幸寅遜 of the Later Shu (後蜀), compiling 《王氏開國紀》, took Feiyi to be a 旱魃 (hanba); 唐英 (Tang Ying) adds a note that Feiyi is the name of a serpent with fire on its horn, that its appearance brings great drought, that it is not a 魃, and that this comes from the 《山海經外傳》; this serpent is also found on Mount Hua (華山).",
+          "statement_id": "Shu Taowu (蜀檮杌) mencatat bahwa 幸寅遜 dari Shu Akhir (後蜀), saat menyusun 《王氏開國紀》, menganggap Feiyi sebagai 旱魃 (hanba); 唐英 (Tang Ying) menambahkan catatan bahwa Feiyi adalah nama ular dengan api di atas tanduknya, kemunculannya mendatangkan kekeringan besar, ia bukan 魃, dan keterangan itu berasal dari 《山海經外傳》; ular itu juga ada di Gunung Hua (華山).",
+          "quote": "後蜀幸寅遜修《王氏開國紀》，以肥遺為旱魃。唐英按：肥遺，蛇名，角上有火，見則大旱，非魃也，出《山海經外傳》。華山亦有此蛇。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c12",
+          "source_id": "wd-q17041429-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Shu Taowu records that after no rain from the fifth month to the ninth, with trees withering, bare ground stretching a thousand li, and bandits rising everywhere, Feiyi appeared at the Red Tower (紅樓).",
+          "statement_id": "Dalam Shu Taowu disebutkan bahwa setelah tidak turun hujan dari bulan kelima hingga bulan kesembilan, pepohonan mengering, tanah gersang membentang seribu li, dan perampok bermunculan di mana-mana, Feiyi muncul di Menara Merah (紅樓).",
+          "quote": "自五月不雨，至九月，林木皆枯，赤地千里，所在盜起，肥遺見紅樓。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q17041429-c13",
+          "source_id": "wd-q17041429-s6",
+          "host": "zh.wikisource.org",
+          "statement": "A eulogy for the Feiyi serpent in the Quan Jin Wen collection calls it a creature in accord with calamity, beating its wings on Mount Yang as a sign of severe calamity (亢厉), and after the prayer at Sanglin (桑林) it suddenly vanished.",
+          "statement_id": "Bait pujian untuk ular Feiyi dalam himpunan Quan Jin Wen menyebutnya makhluk yang sejalan dengan bencana, mengepakkan sayap di Gunung Yang sebagai tanda bencana yang parah (亢厉), lalu setelah doa di Sanglin (桑林) ia tiba-tiba lenyap.",
+          "quote": "肥遗为物，与灾合契。鼓翼阳山，以表亢厉。桑林既祷，倏忽潜逝。",
           "context": "historical-record",
           "status": "exact"
         }
@@ -881,7 +995,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "65ae1b7a86576682ffa1542b5e15e9fe912d7bb5bd5bbd3cc84727e705363dec"
     },
     {
       "slug": "wd-q17060601",
@@ -961,7 +1076,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5250f0d719b43250dc6e216497b70b7d5ae99fbcf67c45ef1984bea8242df8f5"
     },
     {
       "slug": "wd-q17065939",
@@ -1031,7 +1147,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "042dcd8f8320fb02f0d92f5a4c41c4c13b1b28d8c63182aaedf00beb0e36ff23"
     },
     {
       "slug": "wd-q18654534",
@@ -1101,7 +1218,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "871ca6438f0ddf263303b225266da9fab8997ac00e62eab24b4b47c872aa6b1f"
     },
     {
       "slug": "wd-q20062601",
@@ -1120,7 +1238,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "0913a03e1572afebf1a397d780e4f8c26dc42404d5226d462201e23bf0057b18"
     },
     {
       "slug": "wd-q22098972",
@@ -1170,7 +1289,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59eeb8abcf1b127fe2460549cd1d27918f651e3e36b1dc873d85bd171c036309"
     },
     {
       "slug": "wd-q22099088",
@@ -1210,7 +1330,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3857fa3daf86e870a6cc1bbb7586086776e678d4466c237b30ee373d9c5557fa"
     },
     {
       "slug": "wd-q22099405",
@@ -1270,7 +1391,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "201e5bb389c807c78ed931857cafc3d5a398ce6bb3d3e383070941e85aa7c7f3"
     },
     {
       "slug": "wd-q22099495",
@@ -1320,7 +1442,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c202491d85963b4ee758225a9f6ed093045cdb1d48ba75250b45130427d3f062"
     },
     {
       "slug": "wd-q22099672",
@@ -1390,15 +1513,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e1977faebedd4bbe6fe9aa7e4402bcfb10fee64800540bd8f02f089bcecc2869"
     },
     {
       "slug": "wd-q22099914",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-2.md",
+      "entry_sha256": "bd747770a144950bdf03e179f136372c27dfa0da82b506cf245eab436ffa3649",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 9,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -1409,7 +1534,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Zhujian is a Chinese creature with a leopardlike body and a long tail.",
           "statement_id": "Zhujian adalah makhluk Tiongkok berbadan seperti macan tutul dengan ekor panjang.",
-          "quote": "诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。”",
+          "quote": "诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1419,7 +1544,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Its head resembles a human's, its ears a cow's, and it has one eye.",
           "statement_id": "Kepalanya menyerupai manusia, telinganya seperti sapi, dan hanya bermata satu.",
-          "quote": "诸犍是中国神话里的一个妖怪，样子像豹但尾巴长，人的头但牛的耳朵，一只眼睛。记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。”",
+          "quote": "记载在《山海经·北山经》：“有首焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍。”",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1429,7 +1554,7 @@
           "host": "zh.wikisource.org",
           "statement": "The Shan Hai Jing places Zhujian on vegetationless Mount Danzhang.",
           "statement_id": "Shan Hai Jing menempatkan Zhujian pada Gunung Danzhang yang tidak bertumbuhan.",
-          "quote": "又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。",
+          "quote": "又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1439,7 +1564,7 @@
           "host": "zh.wikisource.org",
           "statement": "The creature is described as frequently crying out loudly.",
           "statement_id": "Makhluk itu digambarkan sering berseru keras.",
-          "quote": "又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。",
+          "quote": "其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1449,7 +1574,7 @@
           "host": "zh.wikisource.org",
           "statement": "When walking it carries its tail in its mouth.",
           "statement_id": "Saat berjalan ia membawa ekornya di mulut.",
-          "quote": "又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。",
+          "quote": "其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1459,7 +1584,37 @@
           "host": "zh.wikisource.org",
           "statement": "At rest it coils its tail.",
           "statement_id": "Saat diam ia melingkarkan ekornya.",
-          "quote": "又北百八十里，曰單張之山，其上無草木。有獸焉，其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。有鳥焉，其狀如雉，而文首、白翼、黃足，名曰白鵺，食之已嗌痛，可以已痸。櫟水出焉，在而南流注于杠水。",
+          "quote": "其狀如豹而長尾，人首而牛耳，一目，名曰諸犍，善吒，行則銜其尾。居則蟠其尾。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22099914-c07",
+          "source_id": "wd-q22099914-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary cites the Yupian (《玉篇》) that 犍 is a beast resembling a leopard, with a human head and one eye, then cites the Shan Hai Jing: on Mount Danzhang (單張之山) there is a beast shaped like a leopard with a long tail, a human head with ox ears and one eye, named Zhujian.",
+          "statement_id": "Kamus Kangxi mengutip Yupian (《玉篇》) bahwa 犍 adalah hewan mirip macan tutul berkepala manusia dan bermata satu, lalu mengutip Shan Hai Jing: di Gunung Danzhang (單張之山) ada hewan berbentuk seperti macan tutul berekor panjang, berkepala manusia bertelinga sapi, bermata satu, bernama Zhujian.",
+          "quote": "又《玉篇》獸似豹。人首，一目。《山海經》單張之山有獸，狀如豹而長尾，人首而牛耳，一目，名曰諸犍。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22099914-c08",
+          "source_id": "wd-q22099914-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary quotes the continuation of the same passage (written 善叱): when walking the beast holds its tail in its mouth and at rest it coils its tail; it also records a note by Guo Pu (郭璞) that the name is read like 犍 in 犍牛.",
+          "statement_id": "Kamus Kangxi mengutip kelanjutan kalimat yang sama (ditulis 善叱): saat berjalan hewan itu membawa ekornya di mulut dan saat diam melingkarkan ekornya; kamus itu juga mencatat keterangan Guo Pu (郭璞) bahwa nama 諸犍 dibaca seperti 犍 dalam 犍牛.",
+          "quote": "名曰諸犍。善叱行則銜其尾，居則蟠其尾。《註》郭璞曰：音如犍牛之犍。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22099914-c09",
+          "source_id": "wd-q22099914-s4",
+          "host": "zh.wikisource.org",
+          "statement": "A eulogy in the Quan Jin Wen collection repeats that Zhujian is apt to shout (善吒) and holds its tail in its mouth when walking.",
+          "statement_id": "Bait pujian dalam himpunan Quan Jin Wen mengulang bahwa Zhujian pandai menggertak (善吒) dan saat berjalan membawa ekornya di mulut.",
+          "quote": "诸犍善吒，行则衔尾，白鵺竦斯，厥状如雉。见人则跳，头文如绣。",
           "context": "historical-record",
           "status": "exact"
         }
@@ -1544,7 +1699,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c0e9c67cf5832c2632c4036bb3fa6332af94e7ee7a40bcb22dfb089b39efd7f2"
     },
     {
       "slug": "wd-q22100653",
@@ -1624,7 +1780,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "894309e0a9453a6eca1802996f9b4ee7e136f02ae4a55bbeeebc951d9a4015c1"
     },
     {
       "slug": "wd-q22100741",
@@ -1643,15 +1800,17 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "92eff98df713cb836b405b795201fe8bc9be877847c5f182ad7a4940e6f54150"
     },
     {
       "slug": "wd-q22101018",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-2.md",
+      "entry_sha256": "5519a5a429c9c43239a62cb2e09536513476084a2fcc70e7668e5df6cdb2e73d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 12,
+        "sources": 6,
         "images": 0
       },
       "issues": [],
@@ -1662,7 +1821,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Wenyaoyu is a mythical fish with a carplike body and bird wings.",
           "statement_id": "Wenyaoyu adalah ikan mitos berbadan seperti ikan mas dengan sayap burung.",
-          "quote": "文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀，身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》",
+          "quote": "文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀，",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1672,7 +1831,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Its body has blue patterns, its head is white, and its mouth is red.",
           "statement_id": "Tubuhnya berpola kebiruan, kepalanya putih, dan mulutnya merah.",
-          "quote": "文鳐鱼是中国神话里的妖怪，样子像鲤鱼，鱼的身体上有鸟的翅膀，身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》",
+          "quote": "身上有苍色花纹，头是白的，嘴是红的。记载于《山海经·西次三经》",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1682,7 +1841,7 @@
           "host": "zh.wikisource.org",
           "statement": "Mount Taiqi and the Guan water are the location of Wenyaoyu in the text.",
           "statement_id": "Gunung Taiqi dan Sungai Guan menjadi lokasi Wenyaoyu dalam teks.",
-          "quote": "又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。",
+          "quote": "又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1692,7 +1851,7 @@
           "host": "zh.wikisource.org",
           "statement": "The fish is described as travelling from the Western Sea to the Eastern Sea.",
           "statement_id": "Ikan itu digambarkan berpindah dari Laut Barat ke Laut Timur.",
-          "quote": "又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。",
+          "quote": "狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1702,7 +1861,7 @@
           "host": "zh.wikisource.org",
           "statement": "It is said to fly at night.",
           "statement_id": "Ia dikatakan terbang pada malam hari.",
-          "quote": "又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。",
+          "quote": "狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。",
           "context": "historical-record",
           "status": "exact"
         },
@@ -1712,8 +1871,68 @@
           "host": "zh.wikisource.org",
           "statement": "Its appearance is an omen of abundant harvests in the narrative.",
           "statement_id": "Kemunculannya merupakan pertanda panen berlimpah dalam cerita.",
-          "quote": "又西百八十里，曰泰器之山。觀水出焉，西流注于流沙。是多文鰩〈音遥。〉魚，狀如鯉魚，魚身而鳥翼，蒼文而白首，赤喙，常從西海遊于東海，以夜飛。其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。",
+          "quote": "食之已狂，見則天下大穰〈豐穰，收熟也，韓子曰，穰嵗之秋。〉。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c07",
+          "source_id": "wd-q22101018-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the text, its voice is like that of the luanji (鸞雞, a bird name), its taste is sour-sweet, and eating it cures madness (狂).",
+          "statement_id": "Menurut teks itu, suaranya seperti suara luanji (鸞雞, nama burung), rasanya asam-manis, dan memakannya menyembuhkan kegilaan (狂).",
+          "quote": "其音如鸞雞〈鸞雞，鳥名，未詳，也或作欒。〉，其味酸甘，食之已狂",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c08",
+          "source_id": "wd-q22101018-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Lüshi Chunqiu, in its list of fine fish (魚之美者), records a fish named Yao (鰩) in the Guan water (雚水), shaped like a carp and winged, which often flies at night from the Western Sea to swim in the Eastern Sea.",
+          "statement_id": "Lüshi Chunqiu, dalam daftar ikan yang lezat (魚之美者), mencatat ikan di perairan Guan (雚水) bernama Yao (鰩) yang berbentuk seperti ikan mas dan bersayap, sering terbang malam hari dari Laut Barat untuk berenang di Laut Timur.",
+          "quote": "魚之美者：洞庭之鱄，東海之鮞。 ... 雚水之魚，名曰鰩，其狀若鯉而有翼，常從西海夜飛，游於東海。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c09",
+          "source_id": "wd-q22101018-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Yulan, citing the Lüshi Chunqiu, lists a winged, carp-shaped fish named Yao (鰩) in the Guan water (灌水), and quotes Zuo Si's Wu Du Fu (左思《吳都賦》): the wenyao flies at night and strikes the line (文鰩夜飛而觸綸).",
+          "statement_id": "Taiping Yulan, dengan mengutip Lüshi Chunqiu, memuat ikan bernama Yao (鰩) di perairan Guan (灌水) yang berbentuk seperti ikan mas dan bersayap, serta mengutip Wu Du Fu karya Zuo Si (左思《吳都賦》): wenyao terbang malam hari dan mengenai tali pancing (文鰩夜飛而觸綸).",
+          "quote": "《呂氏春秋》曰：灌水之魚名曰鰩，狀如鯉，有翼。 ... 左思《吳都賦》曰：文鰩夜飛而觸綸。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c10",
+          "source_id": "wd-q22101018-s5",
+          "host": "zh.wikisource.org",
+          "statement": "A eulogy for the yao fish (鳐鱼) in the Quan Jin Wen collection says its appearance brings abundant harvests to the town (邑穰), that it ranges between two seas with raised wings in the sky, and that its extraordinary flavour is admired by the cook.",
+          "statement_id": "Bait pujian untuk ikan yao (鳐鱼) dalam himpunan Quan Jin Wen menyebut bahwa kemunculannya membawa panen melimpah di kota (邑穰), ia berkelana di antara dua laut dengan sayap terentang di angkasa, dan rasanya yang luar biasa dikagumi juru masak.",
+          "quote": "见则邑穰，厥名曰鳐。经营二海，矫翼闲霄。唯味之奇，见叹伊庖。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c11",
+          "source_id": "wd-q22101018-s6",
+          "host": "zh.wikisource.org",
+          "statement": "The Kangxi Dictionary, citing the Bencao, records that 文鰩 comes from Hainan (海南), the large ones about a chi long, with wings as long as the tail, also called flying fish (飛魚); when they fly in flocks over the water, the sea people link it with a great wind coming (當有大風).",
+          "statement_id": "Kamus Kangxi, mengutip Bencao, mencatat bahwa 文鰩 berasal dari Hainan (海南), yang besar sepanjang kira-kira satu chi, bersayap yang sepanjang ekornya, juga disebut ikan terbang (飛魚); ketika kawanan terbang di atas air, orang laut mengaitkannya dengan datangnya angin besar (當有大風).",
+          "quote": "《本草》文鰩出海南，大者長尺許，有翅，與尾齊，一名飛魚。羣飛水上，海人𠋫之，當有大風。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q22101018-c12",
+          "source_id": "wd-q22101018-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "Wikipedia states that the Lüshi Chunqiu describes the flesh of this fish as delicious, sour mixed with sweet, and that the Bencao Shiyi records that it can be used as medicine, replenishing qi and blood and treating madness (疯癫).",
+          "statement_id": "Wikipedia menyebut bahwa Lüshi Chunqiu menggambarkan daging ikan ini lezat dengan rasa asam bercampur manis, dan Bencao Shiyi mencatat ikan ini dapat dijadikan obat untuk menambah qi dan darah serta mengobati penyakit kegilaan (疯癫).",
+          "quote": "《吕氏春秋》另描写此鱼肉鲜美，酸中带甜。《本草拾遗》记载，此鱼能入药，有补气血、治疯癫病的作用。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1797,7 +2016,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "32e6d5638722cc5250a3313253273bbb65bb3f45ea8bb00a7575033dc2b5e1a0"
     },
     {
       "slug": "wd-q22101134",
@@ -1871,7 +2091,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9a5a601937657ff5ae4f023c015f88958d6cfc6b42f166f892089ba5bf3f739a"
     },
     {
       "slug": "wd-q22101290",
@@ -1890,7 +2111,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "3a341b566ba15e80b32f35d9e51f1f720a95f39d5a8f637f44c77573bb455267"
     },
     {
       "slug": "wd-q9382976",
@@ -1970,7 +2192,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1420917f9651978fb04b9a984903f85260fb57032719b89277245c8885734f85"
     },
     {
       "slug": "wd-q9384676",
@@ -2020,15 +2243,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "01325fd6d6c64a23a47d3fb6b230ce96646afa3ae8bdab8228e2e90d28b9788a"
     },
     {
       "slug": "wd-q9428574",
-      "file": "batch-071.md",
+      "file": "batch-071-fix-2.md",
+      "entry_sha256": "804bbc59f8f5e76a5a01398de20b6f1c4b02adb5d205d79e184253a50cc63712",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2039,7 +2264,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Ranyiyu is a mythical fish with a fish's body, a snake's head, and six feet.",
           "statement_id": "Ranyiyu adalah ikan mitos bertubuh ikan, berkepala ular, dan berkaki enam.",
-          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "quote": "涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2049,7 +2274,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The narrative places it in the Wan water at Mount Yingdi.",
           "statement_id": "Kisah menempatkannya di Sungai Wan pada Gunung Yingdi.",
-          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2059,7 +2284,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The mountain is described as full of lacquer trees with metals and jade below.",
           "statement_id": "Gunung itu digambarkan penuh pohon lak dan mempunyai logam serta giok di bawahnya.",
-          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "quote": "《山海经·西山经》：“英鞮之山，上多漆木，下多金玉，鸟兽尽白。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2069,7 +2294,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The birds and animals on the mountain are described as all white.",
           "statement_id": "Burung dan hewan di gunung tersebut digambarkan semuanya putih.",
-          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "quote": "《山海经·西山经》：“英鞮之山，上多漆木，下多金玉，鸟兽尽白。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2079,7 +2304,7 @@
           "host": "zh.wikipedia.org",
           "statement": "The Wan water flows north into Lingyang marsh.",
           "statement_id": "Sungai Wan mengalir ke utara menuju rawa Lingyang.",
-          "quote": "冉（ran）遗鱼是传说中异鱼名，生活在英鞮之山的涴水里。该山长很多漆树，山下则很多金属矿物和玉石，山中的鸟兽都是白色的。涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "quote": "涴水则从此地发源，然后向北流注到陵羊泽。冉遗鱼本身鱼的身体，但是蛇的头，有六只脚。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2089,7 +2314,47 @@
           "host": "zh.wikisource.org",
           "statement": "The text describes Ranyiyu's eyes as resembling horse ears.",
           "statement_id": "Teks menggambarkan mata Ranyiyu seperti telinga kuda.",
-          "quote": "又西三百五十里，曰英鞮之山，上多漆木，下多金玉，鳥獸盡白。涴〈涴或作𣹠音寃枉之寃〉水出焉，而北流注于陵羊之澤。是多冉遺之魚，魚身蛇首六足，其目如馬耳，食之使人不眯，可以禦凶。",
+          "quote": "涴〈涴或作𣹠音寃枉之寃〉水出焉，而北流注于陵羊之澤。是多冉遺之魚，魚身蛇首六足，其目如馬耳",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9428574-c07",
+          "source_id": "wd-q9428574-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "According to Wikipedia, a person who eats this fish does not suffer nightmares (夢魘), and the fish can ward off misfortune (禁凶).",
+          "statement_id": "Menurut Wikipedia, orang yang memakan ikan ini tidak mengalami mimpi buruk (夢魘), dan ikan itu dapat menangkal kesialan (禁凶).",
+          "quote": "吃了這種魚以後人不會夢魘，以及可以禁凶。记载于《山海经·西次四经》",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9428574-c08",
+          "source_id": "wd-q9428574-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Taiping Yulan quotes the Shan Hai Jing on Mount Yingdi (英鞮之山) with the fish's name written 無遺之魚 (the Wuyi fish): a fish's body, a snake's head, six feet, and eyes like horse ears.",
+          "statement_id": "Taiping Yulan memuat kutipan Shan Hai Jing tentang Gunung Yingdi (英鞮之山) dengan nama ikan itu ditulis 無遺之魚 (ikan Wuyi): tubuh ikan, kepala ular, enam kaki, dan mata seperti telinga kuda.",
+          "quote": "《山海經》曰：英鞮之山，𣹠水出焉。是多無遺之魚，魚身虵首，六足，目如馬耳。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9428574-c09",
+          "source_id": "wd-q9428574-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Gujin Tushu Jicheng quotes 游氏《臆見》 (Youshi's Yijian), which lists Ranyi with six feet among strange fish, together with 建同 (four feet), 章舉 (eight feet), 鰼鰼 (ten wings) and 何羅 (one head, ten bodies).",
+          "statement_id": "Gujin Tushu Jicheng mengutip 游氏《臆見》 (Youshi, Yijian) yang mencatat Ranyi berkaki enam di antara ikan-ikan aneh, bersama 建同 (empat kaki), 章舉 (delapan kaki), 鰼鰼 (sepuluh sayap), dan 何羅 (satu kepala sepuluh tubuh).",
+          "quote": "游氏《臆見》云：「冉遺六足，建同四足，章舉八足，鰼鰼十翼，何羅一首十身，皆異魚也。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q9428574-c10",
+          "source_id": "wd-q9428574-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says that eating the fish keeps a person from 眯 (mi) and can ward off misfortune (禦凶).",
+          "statement_id": "Teks Xi Shan Jing menyebut bahwa memakan ikan itu membuat orang tidak 眯 (mi) dan dapat menangkal kesialan (禦凶).",
+          "quote": "是多冉遺之魚，魚身蛇首六足，其目如馬耳，食之使人不眯，可以禦凶。",
           "context": "historical-record",
           "status": "exact"
         }
@@ -2174,7 +2439,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c90c27da2e3d707d12d42b84f9cd21f48549e43847001acb042d7e70ec599280"
     },
     {
       "slug": "wd-q9441475",
@@ -2254,7 +2520,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "78c15b41543e3fbe8213fa393f6fc6801a6ef4cf5994b00bb83d7a9ab2809e44"
     },
     {
       "slug": "wd-q9547028",
@@ -2314,7 +2581,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "72d406232d44240f9485c47bf5ed6e25591a810a0dc3048dc910bedfd599921e"
     },
     {
       "slug": "wd-q9547118",
@@ -2374,7 +2642,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6b0dfb8b3335b7c5ae2966400d2d37a228be769509fb7bb4ad5b1ba460a9d007"
     },
     {
       "slug": "wd-q97299884",
@@ -2454,7 +2723,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "16c9cc6945a77df970fccda9ff7138c7e4c9b754330354bcaf51b411ca290581"
     },
     {
       "slug": "wugui",
@@ -2514,7 +2784,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "03816c8ddaab535ec9eccfcdc5dd2c26f86c8a45b8acc0461e5b4169a578d236"
     },
     {
       "slug": "yangong",
@@ -2614,7 +2885,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b01afa67cc03d79ed004df6065ed63599401b9dc13530d282bbbd4d2e78607ab"
     },
     {
       "slug": "wd-q28418194",
@@ -2688,7 +2960,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ac9ee036bc5cf1c596908db0674689db17de9db2db818daecdf32444581d029c"
     },
     {
       "slug": "wd-q33113816",
@@ -2707,7 +2980,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "20136beab3079b07884ea53d5c25c4660bc85e9e141186f7aab50f422768ecf5"
     },
     {
       "slug": "wd-q22101447",
@@ -2767,7 +3041,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec6b29822944eeb9941d040855d8c8a28147192414f2b65a692019f65a9e2ac9"
     }
   ]
 }

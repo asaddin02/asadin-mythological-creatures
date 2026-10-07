@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-07T05:23:48.459Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md.
+Diperiksa 2026-10-07T09:26:54.474Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -450,16 +450,27 @@ Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 ## imugi — lulus-otomatis
 
-Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
+Klaim 17 (loose 2, exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| imugi-c01 | loose | en.wikipedia.org | Imugi is a Korean legendary giant-serpent-like being preceding a fully developed dragon. | Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents. There are a few different versions of Korean folklore that describe both what imugis are and how they aspire to become full-fledged dragons. |
-| imugi-c02 | loose | en.wikipedia.org | One version says an imugi becomes a dragon after obtaining a Yeouiju from heaven. | Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents. There are a few different versions of Korean folklore that describe both what imugis are and how they aspire to become full-fledged dragons. |
+| imugi-c01 | loose | en.wikipedia.org | Imugi is a Korean legendary giant-serpent-like being preceding a fully developed dragon. | Korean folk mythology states that most dragons were originally imugis (이무기; Imugi), or lesser dragons, which were said to resemble gigantic serpents. |
+| imugi-c02 | exact | en.wikipedia.org | One version says an imugi becomes a dragon after obtaining a Yeouiju from heaven. | Koreans thought that an imugi could become a true dragon, or yong or mireu, if it caught a Yeouiju which had fallen from heaven. |
 | imugi-c03 | loose | en.wikipedia.org | Other listed names include ishimi, miri, and yeongno. | The imugi is also called ishimi (이시미), miri (미리), yeongno (영노), gangcheori (강철이), kkwangcheori (꽝철이), kkangcheori (깡철이), bari (바리), hweryong (훼룡; 虺龍), or iryong (이룡; 螭龍). |
 | imugi-c04 | exact | encykorea.aks.ac.kr | The AKS encyclopedia describes Imugi as a specially powered serpent that has not become a dragon and dwells in deep water. | ‘이무기’는 일반적으로 용이 되려다 못 된 특별한 능력을 가진 뱀으로서, 그것은 깊은 물 속에 사는 큰 구렁이로 상상되어왔다. |
 | imugi-c05 | exact | encykorea.aks.ac.kr | The version recorded by AKS says a thousand-year-old Imugi can become a dragon and ascend to heaven. | 그런데 이무기가 1,000년을 묵으면 용이 되어 하늘에 오른다고도 한다. |
-| imugi-c06 | exact | encykorea.aks.ac.kr | AKS explains ishimi as a dialect name for Imugi. | ‘이시미’는 이무기의 방언으로서 「꼭두각시」각본(金在喆, 『朝鮮演劇史』)에서 보면 이시미가 사람이나 짐승을 함부로 잡아먹는 괴물로 등장한다. |
+| imugi-c06 | exact | encykorea.aks.ac.kr | AKS explains ishimi as a dialect name for Imugi, and says that in the Kkoktu Gaksi script ishimi appears as a monster that devours people and animals indiscriminately. | ‘이시미’는 이무기의 방언으로서 「꼭두각시」각본(金在喆, 『朝鮮演劇史』)에서 보면 이시미가 사람이나 짐승을 함부로 잡아먹는 괴물로 등장한다. |
+| imugi-c07 | exact | en.wikipedia.org | Another explanation says imugi are hornless, dragon-like creatures that were cursed and so could not become dragons. | Another explanation states they are hornless creatures resembling dragons who have been cursed and thus were unable to become dragons. |
+| imugi-c08 | exact | en.wikipedia.org | By other accounts, an imugi is a proto-dragon that must survive one thousand years to become a fully developed dragon. | By other accounts, an imugi is a proto-dragon that must survive one thousand years in order to become a fully-fledged dragon. |
+| imugi-c09 | exact | en.wikipedia.org | Imugi are said to be large, benevolent, python-like creatures that live in water or caves, and sighting one is associated with good luck. | In either case, they are said to be large, benevolent, python-like creatures that live in water or caves, and their sighting is associated with good luck. |
+| imugi-c10 | exact | en.wikipedia.org | In the 2007 South Korean film D-War, two imugi, one benevolent and one evil, compete for a source of power called the Yeouiju, by which one of them could become a dragon. | In the 2007 South Korean film D-War, two imugi, one benevolent and the other evil, are seen competing for possession of a source of power called the Yeouiju (여의주), by which one of them could become a dragon. |
+| imugi-c11 | exact | encykorea.aks.ac.kr | AKS lists imugi, ishimi, yeongno, kkwangcheori, and bari as words that refer to the dragon or relate to it. | 한편, 미르, 즉 용을 지칭하거나 용과 관련된 말에 이무기 · 이시미 · 영노 · 꽝철이 · 바리라는 말이 있다. |
+| imugi-c12 | exact | encykorea.aks.ac.kr | AKS records that proverbs such as “용 못 된 이무기 심술만 남더라” and “용 못 된 이무기 방천 낸다” (both about an imugi that failed to become a dragon) arose from this idea. | 여기서 ‘용 못 된 이무기 심술만 남더라.’, ‘용 못 된 이무기 방천(防川:둑) 낸다.’는 등의 속담이 생겨나게 되었다. |
+| imugi-c13 | exact | encykorea.aks.ac.kr | AKS describes kkwangcheori, a word heard around the Gyeongsang region, as a snake that has not quite become a dragon; it can fly, and when it flies the sky fills with fire, so that no rain falls and drought follows. | ‘꽝철이’는 경상도일대에서 들어볼 수 있는 말로서 용이 채 못 된 뱀을 지칭한다. 그것은 하늘을 날 수 있는 능력을 지니고 있으며, 하늘을 날 때는 하늘에 불이 가득해지고, 그 때문에 비가 오지 않아 가물게 된다고도 한다. |
+| imugi-c14 | exact | encykorea.aks.ac.kr | AKS says Korea has the distinctive name imugi, which means a dragon's young, so that hweryong and eoryong (fish dragons) are all interpreted as imugi, with abundant surviving artworks that support this. | 우리 나라에는 이무기라는 특이한 이름이 있으며, 이것은 용의 새끼를 뜻한다. 그래서 훼룡이나 어룡이 다 이무기로 해석되고 그러한 것을 뒷받침할만한 조형물도 풍부하게 남아 있다. |
+| imugi-c15 | exact | encykorea.aks.ac.kr | AKS says a hweryong is said to become a gyoryong (蛟龍) after growing for 500 years, and the sculpting of dragons follows this process. | 훼룡이 자라서 500년이 지나면 교룡(蛟龍) ... 이 된다 하고, 용의 조형도 이 과정을 따르고 있다. |
+| imugi-c16 | exact | encykorea.aks.ac.kr | Judging from Korean materials, AKS interprets the hweryong as an imugi shaped like an eared tadpole, and the gyoryong as an imugi at the stage of an eared tadpole with four feet. | 우리 나라 자료로 보완하여 판단하면 훼룡은 올챙이 꼴에 귀가 달린 이무기며, 교룡은 귀 달린 올챙이에 네 발이 달린 과정의 이무기로 보인다. |
+| imugi-c17 | exact | en.wikipedia.org | In the 2020 South Korean drama Tale of the Nine-tailed, an imugi is the main antagonist, portrayed as a serpent in human form that can possess humans, spread deadly contagious diseases, and read minds. | An imugi is the main antagonist in the 2020 South Korean drama Tale of the Nine-tailed. In the series, the imugi is portrayed as a serpent in human form with the ability to possess humans, infect people with deadly, contagious diseases, and read people's minds. |
 
 
 ## inmyeonjo — lulus-otomatis

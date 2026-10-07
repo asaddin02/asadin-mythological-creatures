@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-053",
-  "checked_at": "2026-10-06T19:11:44.222Z",
+  "checked_at": "2026-10-07T09:21:02.961Z",
   "files": [
     "batch-053.md",
     "batch-053-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-053-fix-3.md",
     "batch-053-fix-4.md",
     "batch-053-fix-5.md",
-    "batch-053-fix-6.md"
+    "batch-053-fix-6.md",
+    "batch-053-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -96,11 +97,12 @@
     },
     {
       "slug": "tesso",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-7.md",
+      "entry_sha256": "39c1dcdac12fac3ccfb61f0431f37db8e7555372531d3f7876d93c99330e1bd0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -164,10 +166,49 @@
           "quote": "Its body was as hard as stone and its teeth and claws as strong as iron.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tesso-c07",
+          "source_id": "tesso-s2",
+          "host": "yokai.com",
+          "statement": "The monstrous spirit, later called Tesso, summoned a massive army of rats that poured through Kyoto and up Mt. Hiei to Enryaku-ji.",
+          "statement_id": "Roh yang mengerikan itu, yang kemudian disebut Tesso, memanggil pasukan besar tikus yang menyerbu Kyoto, naik ke Gunung Hiei, dan tiba di Enryaku-ji.",
+          "quote": "The monstrous spirit, Tesso as it came to be called, summoned a massive army of rats which poured through Kyoto, up Mt. Hiei, and arrived at Enryaku-ji.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tesso-c08",
+          "source_id": "tesso-s2",
+          "host": "yokai.com",
+          "statement": "In this telling, nothing stopped Tesso and the army of rats until a shrine was built to appease Raigō’s spirit, and that shrine still stands today.",
+          "statement_id": "Menurut kisah ini, Tesso dan pasukan tikusnya baru berhenti setelah sebuah kuil dibangun untuk menenangkan arwah Raigō, dan kuil itu masih berdiri hingga kini.",
+          "quote": "Nothing could stop Tesso and the army of rats until finally a shrine was built to appease Raigō’s spirit, and Raigō’s shrine still stands today.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tesso-c09",
+          "source_id": "tesso-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes it as a Japanese yōkai: the vengeful spirit of Raigō, a high priest of the Heian period, changed into a rat; it is also called 頼豪鼠 and 三井寺鼠.",
+          "statement_id": "Sebuah kamus Jepang mencatatnya sebagai yōkai Jepang berupa arwah pendendam Raigō, pendeta tinggi zaman Heian, yang berubah menjadi tikus; ia juga disebut 頼豪鼠 dan 三井寺鼠.",
+          "quote": "日本の妖怪。平安時代の高僧、頼豪(らいごう)の怨霊がネズミに変化したもの。「頼豪鼠」、「三井寺鼠」などともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tesso-c10",
+          "source_id": "tesso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the military chronicle Taiheiki, Raigō’s grudges turned into 84,000 rats with stone bodies and metal teeth that climbed Mount Hiei and ate away not only the sacred texts but also the Buddha statues.",
+          "statement_id": "Menurut kronik militer Taiheiki, dendam Raigō menjadi 84.000 tikus bertubuh batu dan bergigi logam yang naik ke Gunung Hiei dan menggerogoti bukan hanya naskah suci, tetapi juga arca Buddha.",
+          "quote": "According to the military chronicle (Gunki monogatari) Taiheiki, the grudges of Raigō turned into 84,000 rats with stone bodies and metal teeth and climbed up Mount Hiei and ate away at not just the sacred texts, but also the Buddha statues.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f89fc3b0e437b27bc4f222886d19cde333f135b6536de0b48f79148224f7cb6a"
+      "images": []
     },
     {
       "slug": "ungaikyo",
@@ -2212,11 +2253,12 @@
     },
     {
       "slug": "kuraokami",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-7.md",
+      "entry_sha256": "0d6fcc5e87054324c45c0066c992cbded4dd640deb8d5ba4cbbbd47db95d979e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -2290,10 +2332,49 @@
           "quote": "Then, the blood pooling on the hilt of Izanaki’s sword oozed from between his fingers. The deity that thereupon came into existence was named Kura okami no kami 闇淤加美 神. Next [appeared] Kura mitsuha no kami 闇御津羽神 (8).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kuraokami-c08",
+          "source_id": "kuraokami-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The morpheme kura means a valley or a ravine, and okami is a deity who governs the waters.",
+          "statement_id": "Unsur kura berarti lembah atau jurang, sedangkan okami adalah dewa yang menguasai air.",
+          "quote": "The morpheme kura means a valley or a ravine; okami is a deity who governs the waters.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kuraokami-c09",
+          "source_id": "kuraokami-s3",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "In the Nihon Shoki, the deity comes into being from blood dripping from the sword’s head together with Kura-yamatsumi and Kura-mitsuha, written 闇龗, with a reading note 於箇美 (okami) attached to the character 龗.",
+          "statement_id": "Dalam Nihon Shoki, dewa ini lahir dari darah yang menetes dari kepala pedang bersama Kura-yamatsumi dan Kura-mitsuha, ditulis 闇龗 dengan catatan bacaan 於箇美 (okami) pada aksara 龗.",
+          "quote": "書紀では剣の頭から滴る血から闇山祇（くらやまつみ）・闇罔象（くらみつは）と共に成り、「闇龗」と書いて、「龗」字に「於箇美（オカミ）」の訓注がある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kuraokami-c10",
+          "source_id": "kuraokami-s3",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kojiki deity-name database notes that the Bungo no kuni Fudoki writes the word as 蛇龗 and reads it okami, and calls it a dragon-serpent deity living in springs.",
+          "statement_id": "Basis data nama dewa Kojiki mencatat bahwa Bungo no kuni Fudoki menulis kata ini sebagai 蛇龗 dan membacanya okami, serta menyebutnya dewa naga-ular yang berdiam di mata air.",
+          "quote": "『豊後国風土記』直入郡・球覃郷条では「蛇龗」と書いてオカミと読んでおり、泉に棲む竜蛇神である。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuraokami-c11",
+          "source_id": "kuraokami-s3",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "The Kojiki deity-name database reads Man’yōshū poem 2:104, which mentions the okami of the poet’s hill in a poem about snowfall, as showing that it was a water deity in charge of rain and snow.",
+          "statement_id": "Basis data nama dewa Kojiki membaca puisi Man’yōshū 2:104, yang menyebut okami di bukit sang penyair dalam puisi tentang salju, sebagai bukti bahwa ia dewa air yang menguasai hujan dan salju.",
+          "quote": "また、『万葉集』（2・104）に「我が岡の龗に言ひて降らしめし雪の摧けしそこに散りけむ」とあり、水の神として雨や雪を掌ったことがわかる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fe52dab3f31f537d38875725495f2df5c6c3a103dd4d31523ce6f85c1b5d586e"
+      "images": []
     },
     {
       "slug": "menreiki",
@@ -2797,11 +2878,12 @@
     },
     {
       "slug": "noderabo",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-7.md",
+      "entry_sha256": "29a394b31268c52b188aefd6313ac3ac99c95610ef259cbfb34e8f04dd6dec81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -2865,10 +2947,59 @@
           "quote": "They appear late at night in abandoned, overgrown, ruined temples, forlornly haunting the temple grounds and occasionally ringing the large temple bells.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "noderabo-c07",
+          "source_id": "noderabo-s3",
+          "host": "kotobank.jp",
+          "statement": "A Japanese dictionary describes it as a yōkai drawn in the picture collection 画図百鬼夜行 by the Edo-period painter Toriyama Sekien: a monk in a dirty old kesa, with one view that it satirizes the precept-breaking monks of the time.",
+          "statement_id": "Sebuah kamus Jepang mencatatnya sebagai yōkai yang digambar dalam kumpulan gambar 画図百鬼夜行 karya Toriyama Sekien, pelukis zaman Edo; wujudnya seorang biksu berjubah tua yang kotor, dan ada pendapat bahwa gambar itu menyindir biksu pelanggar aturan pada masanya.",
+          "quote": "江戸時代の画家、鳥山石燕(せきえん)の画集「画図百鬼夜行」に描かれた妖怪。汚れた古い袈裟を着た坊主の姿をしており、当時の破戒僧の風刺画との説もある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "noderabo-c08",
+          "source_id": "noderabo-s2",
+          "host": "yokai.com",
+          "statement": "One description portrays noderabō as forlorn, grotesque ghosts of fallen priests dressed in tattered rags.",
+          "statement_id": "Satu uraian menggambarkan noderabō sebagai hantu pendeta yang jatuh, menyedihkan dan menyeramkan, berpakaian compang-camping.",
+          "quote": "Noderabō are forlorn, grotesque ghosts of fallen priests dressed in tattered rags.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "noderabo-c09",
+          "source_id": "noderabo-s2",
+          "host": "yokai.com",
+          "statement": "The same account says noderabō were once priests who committed some kind of sin and died in dishonor, most often by falling to vices forbidden to priests, such as attachment to women or money.",
+          "statement_id": "Uraian yang sama menyebut noderabō dulunya pendeta yang berbuat dosa dan meninggal dalam aib, kebanyakan karena terjerumus pada hal yang dilarang bagi pendeta seperti keterikatan pada perempuan atau uang.",
+          "quote": "Noderabō were once priests who committed some kind of sin and died in dishonor. Most often they are those who fell to vices forbidden to priests, such as attachment to women or money.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "noderabo-c10",
+          "source_id": "noderabo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From the Shōwa period on, yōkai literature often explained the noderabō as appearing at deserted, dilapidated temples, or as the grudge of a chief priest whose temple fell into ruin for lack of villagers’ donations, appearing in the evening to ring the bell alone.",
+          "statement_id": "Sejak zaman Shōwa, literatur tentang yōkai sering menjelaskan bahwa noderabō muncul di kuil terbengkalai, atau berasal dari dendam seorang kepala kuil yang kuilnya merana karena kurang sumbangan warga desa, yang lalu muncul pada petang hari dan membunyikan lonceng seorang diri.",
+          "quote": "Beginning in the Shōwa period, literature about yōkai often explained that they are a yōkai that appear at deserted dilapidated temples or that they are resulting the grudges turned yōkai of a chief priest whose temple became dilapidated from lack of donations from villagers, which would then appear at evenings at the dilapidated temple and ring the bell alone at the deserted temple.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "noderabo-c11",
+          "source_id": "noderabo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the writings of the comic artist Mizuki Shigeru, children who heard a bell in the mountains though there was no temple were told it was the noderabō, but it was actually the mountain, a phenomenon like yamabiko.",
+          "statement_id": "Dalam tulisan pelukis komik Mizuki Shigeru, anak-anak yang mendengar bunyi lonceng di pegunungan padahal tidak ada kuil diberi tahu bahwa itu ulah noderabō, tetapi sebenarnya itu karena gunungnya, dengan gejala seperti yamabiko.",
+          "quote": "In the writings of the comic artist Mizuki Shigeru, there is a statement about the noderabō that when children would hear the sound of a bell in the mountains despite there being no temple, they were told that \"it's because of the noderabō,\" but actually it was because of the mountain, and a phenomenon like yamabiko had occurred.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "83ed01ed487ac39a025582d270f86a55d9bae50de610fd701d8f6cda7cf91381"
+      "images": []
     },
     {
       "slug": "onikuma",
