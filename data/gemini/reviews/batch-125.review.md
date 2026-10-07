@@ -1,6 +1,6 @@
 # Review batch-125
 
-Diperiksa 2026-10-07T05:08:37.786Z. Berkas: batch-125.md, batch-125-fix-1.md, batch-125-fix-2.md.
+Diperiksa 2026-10-07T05:45:38.532Z. Berkas: batch-125.md, batch-125-fix-1.md, batch-125-fix-2.md, batch-125-fix-3.md.
 
 ## gyes — lulus-otomatis
 
@@ -617,23 +617,21 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 ## bunis — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | bunis-c01 | exact | pl.wikipedia.org | In Tatar belief, Bunis is a demon subject to Bun, marked by great malice and enormous strength, which attacks together with other Bunises. | Bunis – według wierzeń tatarskich demon podporządkowany Bunowi. Cechuje go wielka złośliwość i olbrzymia siła. Atakuje wraz z innymi Bunisami. |
 | bunis-c02 | exact | pl.wikipedia.org | Only a clear conscience protects against them; yet shamans tame them and believe that with their help they can foretell the future. | Chroni przed nimi jedynie czyste sumienie. Jednakże szamani oswajają je i uważają, że dzięki nim potrafią przepowiadać przyszłość. |
+| bunis-c03 | exact | fr.wikisource.org | The Dictionnaire infernal lists Bunis as "Tartar demons" and refers readers to the entry Bune. | Bunis, démons tartares. Voy. Bune. |
+| bunis-c04 | exact | fr.wikisource.org | The demons subject to Bune, called Bunis, are feared by the Tartars, who call them very malevolent. | Les démons soumis à Bune, et appelés Bunis, sont redoutés des Tartares, qui les disent très-malfaisants. |
+| bunis-c05 | exact | fr.wikisource.org | One must have a clear conscience to be safe from their malice, for their power is great and their number immense. | Il faut avoir la conscience nette pour être à l’abri de leur malice ; car leur puissance est grande et leur nombre est immense. |
+| bunis-c06 | exact | fr.wikisource.org | However, the sorcerers of that country tame them, and it is by means of the Bunis that they boast of discovering the future. | Cependant les sorciers du pays les apprivoisent, et c’est par le moyen des Bunis qu’ils se vantent de découvrir l’avenir. |
 
 
 ## cahkalakkis — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -643,4 +641,9 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | cahkalakkis-c04 | exact | fi.wikipedia.org | To catch the earth-dweller, porridge and a fur shoe with its laces must be set by the hollow as bait. | Saadakseen maahisen kiinni on asetettava onkalon viereen puuroa sekä karvakenkä pauloineen syötiksi. |
 | cahkalakkis-c05 | exact | fi.wikipedia.org | When the earth-dwellers ran out of riches they sent people wooden spoons as a sign that they had nothing more to give; one must not take everything from them, because a greedy person's descendants become poor. | Kun maahisilta loppuivat rikkaudet, ne lähettivät ihmisille puulusikat merkiksi siitä, ettei niillä ole enää mitään annettavaa. Maahisilta ei saanut ottaa kaikkea, koska ahneen ihmisen jälkeläiset köyhtyvät. |
 | cahkalakkis-c06 | exact | fi.wikipedia.org | The gold-and-silver motif in the čáhkalakkis tradition and its role as a treasure-owning spirit are presumably of Old Scandinavian or even Germanic origin. | Kulta-hopea -motiivi čáhkalakkis-perinteessä sekä haltija-aarteenomistaja -ulottuvuus ovat otaksuttavasti muinaisskandinaavista tai jopa germaanista alkuperää. |
+| cahkalakkis-c07 | exact | web.archive.org | In the northern Sámi tradition there is a motif of a čáhkalakkis with gold and silver coins in its belly, of relatively late origin; to obtain money these beings were caught and killed. | Suhteellisen myöhäistä alkuperää on pohjoissaamelaisessa perinteessä esiintyvä aihelma čáhkalakkis-maahisesta, jonka vatsassa on kulta- ja hopearahoja. Rahan saamiseksi näitä maahisia pyydystettiin ja tapettiin. |
+| cahkalakkis-c08 | exact | web.archive.org | In contrast, in the eastern Sámi tradition the čahhkli must not be killed; whoever does so suffers a great misfortune. | Erotuksena näistä käsityksistä itäsaamelaisessa perinteessä čahhkli-maahisia ei saa tappaa. Sille, joka sen tekee, tapahtuu suuri onnettomuus. |
+| cahkalakkis-c09 | exact | web.archive.org | A characteristic of the čáhkalakkis is repeating and imitating human actions. | Čáhkalakkis-maahisille on luonteenomaista ihmisten tekojen toistaminen ja matkiminen. |
+| cahkalakkis-c10 | exact | web.archive.org | In Näätämö it was said that money received from these beings must be divided in two: half given back to them, half kept; if one takes more, one will never become rich. | Näätämössä kerrottiin, että maahisilta saadut rahat pitää jakaa kahteen osaan. Puolet on annettava maahisille takaisin, puolet saa ottaa itselleen. Jos ottaa enemmän, ei tule koskaan rikkaaksi. |
+| cahkalakkis-c11 | exact | web.archive.org | In the areas where eastern and Inari Sámi live there are place names containing the word čahkkli or equivalent words. | Itä- ja inarinsaamelaisten asuma-alueella on paikannimiä, jotka sisältävät čahkkli-sanan tai sitä vastaavia sanoja. |
 

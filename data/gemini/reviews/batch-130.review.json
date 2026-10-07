@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-130",
-  "checked_at": "2026-10-02T09:43:10.703Z",
+  "checked_at": "2026-10-07T05:45:38.247Z",
   "files": [
-    "batch-130.md"
+    "batch-130.md",
+    "batch-130-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -129,7 +130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2d6caf52f2add4de635f3974ade03627a1e1e7f7496ee3f31ed08b2fc60c5cea"
     },
     {
       "slug": "marraco",
@@ -243,7 +245,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0c0ff184b6f0ebc987942583fd755d88f53fc527c2394d7189cb174952b86f70"
     },
     {
       "slug": "monaciello",
@@ -407,7 +410,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "acdaacb886e194609332b4fff77e23624353b82c2e46181c538c13763a5ce2e4"
     },
     {
       "slug": "pesanta",
@@ -491,7 +495,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "21181d18f58647f6689bd4f5a2e973ad1856517aa4d4002307e83e01927c2413"
     },
     {
       "slug": "puigmal",
@@ -575,7 +580,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22b281cb924abbaca4d59dea7112f066b6759cc933710733856348c16e7e4525"
     },
     {
       "slug": "ramidreju",
@@ -659,7 +665,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "de580eff3706cdfc127095f4d1438db715d4f08a4c1a7d36c9be1e4f7f71a71d"
     },
     {
       "slug": "scrofa-semilanuta",
@@ -773,7 +780,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d1fc6e952fc1cc0a124c3be3d53901e2bb297c4b9a41304bba96591b7b3fdf00"
     },
     {
       "slug": "semik",
@@ -887,7 +895,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "de14057f2db136722e7df773d12b6d88680f17c3844395ac1c144ca2fa68951e"
     },
     {
       "slug": "tamarro",
@@ -1011,7 +1020,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bd209526ce0a0f60170414ed703d10ba2b3ada537604b29dc50224318ee60897"
     },
     {
       "slug": "tardo",
@@ -1111,7 +1121,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "39048171fab745a2ef2feac49dd9d7f56251138b0fe9f2c126858531893d4cc6"
     },
     {
       "slug": "werewolf-in-slavic-mythology",
@@ -1255,7 +1266,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c4aac6e289da33d1375b5b3f70011837d86126e14db1afed5cbb65e4cb45f43c"
     },
     {
       "slug": "zaldi",
@@ -1369,7 +1381,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0620f24183b88566fbd8858088cf78e88f170c1748227f3b667c3face36ad8df"
     },
     {
       "slug": "abalam",
@@ -1453,7 +1466,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "98c7f773f3b76f01e1c414c6abf15fd2c7dd3a6b0b94d4901438fedc431f1505"
     },
     {
       "slug": "amilamia",
@@ -1567,24 +1581,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "689bcb145a849c6013d533ed3cb887062c344e54aed712ef9b09a2ace3b63636"
     },
     {
       "slug": "arquetu",
-      "file": "batch-130.md",
+      "file": "batch-130-fix-1.md",
+      "entry_sha256": "75d96de5633d431b02d0e2738b76c6541ec9309f22dd3bfe38f49daf384b2833",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 3,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "arquetu-c01",
@@ -1623,6 +1633,46 @@
           "statement": "The Arabic article also says he lends money to spendthrifts and curses them with eternal poverty if they do it again.",
           "statement_id": "Artikel bahasa Arab juga menyebut ia meminjamkan uang kepada pemboros dan mengutuk mereka dengan kemiskinan abadi bila mengulanginya.",
           "quote": "إنه يقرض المال لهؤلاء الحمقى الذين يبددون ثرواتهم، ولكن إذا فعلوا ذلك مرة أخرى، فإنه يعاقبهم بإلقاء لعنة الفقر الأبدي.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arquetu-c05",
+          "source_id": "arquetu-s4",
+          "host": "www.lashayucas.com",
+          "statement": "The Arquetu is described as an old man with long red hair in a white habit with purple spots, with a green cross surrounded by painted keys and padlocks on his forehead.",
+          "statement_id": "Arquetu digambarkan sebagai orang tua berambut merah panjang berjubah putih dengan bercak ungu, dengan salib hijau yang dikelilingi kunci dan gembok yang dilukis di dahinya.",
+          "quote": "un anciano pelirrojo de largas melenas vestido con un hábito blanco con manchas moradas. Algo muy característico de este personaje es la cruz verde rodeada de llaves y candados pintados que tiene en su frente.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arquetu-c06",
+          "source_id": "arquetu-s4",
+          "host": "www.lashayucas.com",
+          "statement": "From his shoulder hangs a bag the colour of clouds when the sun shines, and under his left arm he carries a golden chest adorned with silver and polished bronze.",
+          "statement_id": "Dari bahunya tergantung kantong berwarna awan saat matahari bersinar, dan di bawah lengan kirinya ia membawa peti emas berhias perak dan perunggu mengilap.",
+          "quote": "Colgado de su hombro lleva una talega del color de las nubes cuando relumbra el sol y debajo del brazo izquierdo un arca de oro con adornos de plata y bronce pulido.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arquetu-c07",
+          "source_id": "arquetu-s4",
+          "host": "www.lashayucas.com",
+          "statement": "He is said to roam the mountains and valleys of Cantabria helping people and advising that neither poor nor rich squander their wealth, since it greatly angers him when people waste their money.",
+          "statement_id": "Konon ia menjelajahi gunung dan lembah Cantabria, menolong orang dan menasihati agar baik miskin maupun kaya tidak memboroskan harta, karena ia sangat murka jika orang memboroskan uang.",
+          "quote": "Se dice que recorre los montes y los valles de Cantabria ayudando a la gente y dando consejos para que, ni pobres ni ricos, malgasten sus caudales, ya que le enfurece mucho que la gente malgaste su dinero.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arquetu-c08",
+          "source_id": "arquetu-s4",
+          "host": "www.lashayucas.com",
+          "statement": "If those people spend the coins on their vices, the Arquetu condemns them to spend the rest of their days begging along the roads.",
+          "statement_id": "Jika orang itu menghabiskan koin tersebut untuk kebiasaan buruknya, Arquetu menghukumnya menghabiskan sisa hidupnya mengemis di jalanan.",
+          "quote": "cuando esta gente gasta dichas monedas en sus vicios, el Arquetu le condena a pasar el resto de sus días pidiendo limosna por los caminos.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1731,7 +1781,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fa8201234a3c8937b1e486d9e01ce7d2624622455f8e0fdd54e5dc2e2fa69ad4"
     },
     {
       "slug": "caballucos-del-diablu",
@@ -1845,7 +1896,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "54d6021136816862d00fa9312e85c2eaa040d6045e87e63b701278806dc81338"
     },
     {
       "slug": "camacruda",
@@ -1959,7 +2011,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "db84fef3b98d146aa5a3e88ec9b21e22002bb0c1277eaff7ebbe7a15c2dd6158"
     },
     {
       "slug": "draconcopedes",
@@ -2083,7 +2136,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0373662c09e160c6b832c296e1937280efa0d155a476b6387321e90ae25e8294"
     },
     {
       "slug": "drape-legend",
@@ -2207,24 +2261,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5905ad13ec79f92137290594cf9058da4a11f6fc83ae909dcca9f88e64e680e4"
     },
     {
       "slug": "ethiopian-pegasus",
-      "file": "batch-130.md",
+      "file": "batch-130-fix-1.md",
+      "entry_sha256": "39dde1ca7485c995bdca33f98e2db30ef3badfd2f4dcb5c6164e496c6f61030f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ethiopian-pegasus-c01",
@@ -2273,6 +2323,36 @@
           "statement": "It appears in medieval bestiaries such as Der Naturen Bloeme (c. 1350) as a horned winged horse.",
           "statement_id": "Ia muncul dalam bestiari abad pertengahan seperti Der Naturen Bloeme (sekitar 1350) sebagai kuda bersayap bertanduk.",
           "quote": "Тварина із середньовічних бестіаріїв, таких як «Der Naturen Bloeme» (бл. 1350 р.), де він постає як крилатий кінь з рогами.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ethiopian-pegasus-c06",
+          "source_id": "ethiopian-pegasus-s4",
+          "host": "www.theoi.com",
+          "statement": "The Pegasos Aithiopikos (Ethiopian Pegasus) was a breed of winged, horned horse native to Aithiopia (Ethiopia) in sub-Saharan Africa.",
+          "statement_id": "Pegasos Aithiopikos (Pegasus Etiopia) adalah jenis kuda bersayap dan bertanduk yang berasal dari Aithiopia (Etiopia) di Afrika sub-Sahara.",
+          "quote": "THE PEGASOS AITHIOPIKOS (Ethiopian Pegasus) was a breed of winged, horned horse native to Aithiopia (Ethiopia) in sub-Saharan Africa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ethiopian-pegasus-c07",
+          "source_id": "ethiopian-pegasus-s4",
+          "host": "www.theoi.com",
+          "statement": "They were derived from Pegasos, the celebrated horse of Greek myth, who was himself said to have been born on the shores of the Red Sea near Aithiopia.",
+          "statement_id": "Mereka berasal dari Pegasos, kuda termasyhur dalam mitos Yunani, yang sendiri dikatakan lahir di tepi Laut Merah dekat Aithiopia.",
+          "quote": "They were derived from Pegasos, the celebrated horse of Greek myth, who was himself said to have been born on the shores of the Red Sea near Aithiopia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ethiopian-pegasus-c08",
+          "source_id": "ethiopian-pegasus-s4",
+          "host": "www.theoi.com",
+          "statement": "Quoted from Pliny, Natural History 8.72: Aethiopia produces many monstrosities, including winged horses armed with horns, called Pegasi.",
+          "statement_id": "Dikutip dari Pliny: Aethiopia menghasilkan banyak keajaiban, termasuk kuda bersayap yang dipersenjatai tanduk, disebut Pegasi.",
+          "quote": "many monstrosities--[including] winged horses armed with horns, called Pegasi.",
           "context": "historical-record",
           "status": "exact"
         }
@@ -2411,7 +2491,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "246f77eadd72a58927666b461e4ddb580d1b6e3049a51cef85ac75ec2151bfb2"
     },
     {
       "slug": "gatipedro",
@@ -2511,7 +2592,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bcaec27be03b4270ddcebf320b12c8dee011a5a266a0e8b5d96489536e897c31"
     },
     {
       "slug": "gerixeti",
@@ -2595,7 +2677,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "856c0561147746e587d578ee4a13fd6b090402175b9e16941a008648bbdb7f14"
     },
     {
       "slug": "grande-goule",
@@ -2719,7 +2802,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "173c9fbd202eabad4de10c742783160ecc997e4b6edf160c8d5ef5f569dd3912"
     },
     {
       "slug": "groac-h",
@@ -2843,7 +2927,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "35a7801939a2853940d19eb7769fbb147c00ac3cf308747e975c94b26ac7d7c4"
     },
     {
       "slug": "guajona",
@@ -2967,7 +3052,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "582476d2acaa4d7c80f48551fc8a0cfa39f54918e77008291b9ad125abfceb4d"
     },
     {
       "slug": "hydrus-legendary-creature",
@@ -3071,7 +3157,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e68b60c5f3ccf431641c6bae16e76cfcab85af0c28685d197eff17bdacdd758b"
     },
     {
       "slug": "ichneumon-medieval-zoology",
@@ -3185,7 +3272,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "088995d7ae3b066221726270f86758fcafdff58df46b2fb78ccf596ef76f1373"
     },
     {
       "slug": "idittu",
@@ -3289,7 +3377,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dfc501e02873c01162738ead00d514209a6a01fdf214fc735f9dbcb4cde0a131"
     },
     {
       "slug": "ihizi",
@@ -3383,7 +3472,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "acb7454741d50af3977d663a24f1170c01cbd0a0985058a58726570b8bf85523"
     },
     {
       "slug": "intxisua",
@@ -3477,7 +3567,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6c5eb4aed271e169a74ffbb79f5b32c121701a3c921dda694e42793295055cc6"
     },
     {
       "slug": "jaunagorri",
@@ -3581,7 +3672,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "114819706a12caa5dc7fadeb518772797a3f5e86ea65003afb006a4bda746bd1"
     },
     {
       "slug": "kurent",
@@ -3695,7 +3787,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4cad6b023eccc6f06d31269a1dc76e548961caa6ddcabdde8f65d0afa1972071"
     },
     {
       "slug": "la-guita-xica",
@@ -3789,7 +3882,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "542c938633fbcae9d2e7b849af33b37bfd7180f0cbd77f98743cb91a2291dc8f"
     },
     {
       "slug": "leberon",
@@ -3903,7 +3997,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "94c94b0b7595f69bdd752ceead3fd38eaabf8646aca772ac4fc11e60e1fcd002"
     },
     {
       "slug": "lehen",
@@ -4007,7 +4102,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31aaceb2313c17a92aa06b112660cce0bd60332c7c4c1dd20f001313affcd863"
     },
     {
       "slug": "maide",
@@ -4091,24 +4187,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9cd241dcaac903387b448fc25842dd48b389e74f4ca1368db126448b87c946bb"
     },
     {
       "slug": "marabbecca",
-      "file": "batch-130.md",
+      "file": "batch-130-fix-1.md",
+      "entry_sha256": "55047c67a87c950c5882e8f26a95aa385a1346abb42beab1f9a2c187263979c7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 3,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "marabbecca-c01",
@@ -4148,6 +4240,36 @@
           "statement_id": "Artikel bahasa Makedonia juga menyebutnya berasal-usul Arab, tinggal di sumur dan waduk, berwujud perempuan, dan hanya bergerak pada malam hari.",
           "quote": "Марабеката е од арапско потекло и живее во бунари и акумулации, има изглед на жена и се движи само ноќе.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "marabbecca-c05",
+          "source_id": "marabbecca-s4",
+          "host": "www.balarm.it",
+          "statement": "A news article says its ideal habitat is the old wells that can still be found in many Sicilian towns.",
+          "statement_id": "Sebuah artikel berita menyebut habitat idealnya adalah sumur-sumur tua yang masih dapat ditemukan di banyak kota di Sisilia.",
+          "quote": "Il suo habitat ideale si trova nei vecchi pozzi che ancora oggi si possono rintracciare in molti paesi della Sicilia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "marabbecca-c06",
+          "source_id": "marabbecca-s4",
+          "host": "www.balarm.it",
+          "statement": "According to the legend as the article tells it, it moves only at night like a shadow among shadows.",
+          "statement_id": "Menurut legenda, seperti diceritakan artikel itu, ia hanya bergerak pada malam hari seperti bayangan di antara bayang-bayang.",
+          "quote": "secondo la leggenda, si muove soltanto di notte come un'ombra tra le ombre.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "marabbecca-c07",
+          "source_id": "marabbecca-s4",
+          "host": "www.balarm.it",
+          "statement": "The article says generations of children grew up afraid to approach wells for fear that some unidentified creature would jump out.",
+          "statement_id": "Artikel itu menyebut generasi anak tumbuh dengan rasa takut mendekati sumur karena khawatir ada makhluk tak jelas yang melompat keluar.",
+          "quote": "Generazioni di bambini sono cresciuti con il terrore di avvicinarsi ai pozzi per paura che ne saltasse fuori una non meglio identificata creatura.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -4265,7 +4387,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "731c317bb3a9fc258be37560536be7e3e1d2cdf86f3ec60a862f1211c533de42"
     },
     {
       "slug": "marra",
@@ -4359,7 +4482,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "180e8775326099b3e0668696e0a494564ddfcf84d59a466a2303ab9c8cdac71e"
     },
     {
       "slug": "matlalcueye",
@@ -4453,7 +4577,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f9bbb5cca7ed956cfcdabf0290a3ae43280a4cce977cb29bde1f624acc8256fb"
     },
     {
       "slug": "mazapegul",
@@ -4587,7 +4712,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "064b8daee11749e09fae4afcda8eba1817702fb598cfaa4fc6324ff5239a973b"
     },
     {
       "slug": "mikelats",
@@ -4691,24 +4817,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9a74bb0b790464e68098723f95dfcaebc98a0ec9b4a86673e3f75caaeb9f264a"
     },
     {
       "slug": "mirokutana",
-      "file": "batch-130.md",
+      "file": "batch-130-fix-1.md",
+      "entry_sha256": "ef34ced8264a6531442ae3102e58b02f9681546777f3589d9375fbaae9adea70",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mirokutana-c01",
@@ -4758,6 +4880,16 @@
           "statement_id": "Lewat sinkretisme dengan agama Kristen, anjing sering dianggap makhluk yang dirasuki roh orang yang mati tanpa pengakuan dosa.",
           "quote": "C'est pourquoi, à partir du syncrétisme qui a généré la nouvelle religion, à de nombreuses reprises, les chiens sont pris pour des êtres possédés par les esprits de ceux qui sont morts sans confession",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mirokutana-c06",
+          "source_id": "mirokutana-s4",
+          "host": "web.archive.org",
+          "statement": "According to the Auñamendi Eusko Entziklopedia, Mirokutana is a nocturnal spirit that takes the form of a dog, according to accounts from the Oiartzun region, Gipuzkoa.",
+          "statement_id": "Menurut Auñamendi Eusko Entziklopedia, Mirokutana adalah roh malam yang berwujud anjing, menurut kisah dari wilayah Oiartzun, Gipuzkoa.",
+          "quote": "Genio nocturno que adopta figura de perro, según relatos de la región de Oiartzun, Gipuzkoa.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -4845,7 +4977,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d61a736515b052bc32aae24998470580570c219aa96894f58a306fb7446c0f93"
     },
     {
       "slug": "monster-of-ravenna",
@@ -4949,7 +5082,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c9b4c1707da8a99dc9d967e9df2820502b3b579d2d8c157c80e4d41ca374fb0b"
     },
     {
       "slug": "muscaliet",
@@ -5023,7 +5157,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6f75f0ddd9f2db1d8f1c18f26910054002fb8970abe2012799e1d32eac80c41b"
     }
   ]
 }

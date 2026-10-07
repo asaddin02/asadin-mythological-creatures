@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-055",
-  "checked_at": "2026-10-06T19:34:33.449Z",
+  "checked_at": "2026-10-07T05:45:37.638Z",
   "files": [
     "batch-055.md",
     "batch-055-fix-1.md",
     "batch-055-fix-2.md",
     "batch-055-fix-3.md",
     "batch-055-fix-4.md",
-    "batch-055-fix-5.md"
+    "batch-055-fix-5.md",
+    "batch-055-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4960,20 +4961,15 @@
     },
     {
       "slug": "black-dragon",
-      "file": "batch-055-fix-2.md",
+      "file": "batch-055-fix-6.md",
+      "entry_sha256": "261f6aebf409d5123c8f25dcb2988a8d6cf9b823935ac7598d1a3668c93ab17c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "black-dragon-c01",
@@ -5014,10 +5010,49 @@
           "quote": "名前通り全身の鱗が黒く、前足が2本しかない東洋の竜として描かれる事が多い。驪竜（りりょう）とも呼ばれ、これは顎の下に貴重な珠を持っているともされる 。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "black-dragon-c05",
+          "source_id": "black-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In some regions the black dragon is worshipped as a sacred being, like other dragons.",
+          "statement_id": "Di sebagian daerah, naga hitam dihormati sebagai makhluk suci seperti naga-naga lain.",
+          "quote": "よって、一部の地域では、黒竜を他の竜同様に、神聖な存在として祀っている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "black-dragon-c06",
+          "source_id": "black-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Huainanzi, Nüwa (女媧) slew a black dragon (黑龍) to save Jizhou (冀州), and piled up reed ashes to stop the flood waters.",
+          "statement_id": "Dalam Huainanzi, Nüwa (女媧) membunuh naga hitam (黑龍) untuk menyelamatkan Jizhou (冀州) dan menimbun abu alang-alang untuk menghentikan banjir.",
+          "quote": "於是女媧煉五色石以補蒼天，斷鼇足以立四極。殺黑龍以濟冀州，積蘆灰以止淫水。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "black-dragon-c07",
+          "source_id": "black-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Takaokami no Ōkami (高龗大神) is sometimes identified as Kokuryū Daimyōjin (黒龍大明神, \"Great Deity Black Dragon\").",
+          "statement_id": "Takaokami no Ōkami (高龗大神) kadang disebut Kokuryū Daimyōjin (黒龍大明神).",
+          "quote": "また高龗大神（たかおかみ）のことを黒龍大明神とすることもある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "black-dragon-c08",
+          "source_id": "black-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "At Hōgon-ji on Chikubu Island, the black dragon is enshrined as one of the Eight Dragon Kings in the Kokuryū-dō (Black Dragon Hall).",
+          "statement_id": "Di Hōgon-ji di Pulau Chikubu, naga hitam dipuja sebagai salah satu dari Delapan Raja Naga di Kokuryū-dō.",
+          "quote": "竹生島の宝厳寺境内にある黒龍堂（黒龍大神・黒龍姫大神）に八大龍王の一尊である黒龍として祀られている。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bfa4dc37d1538afb2696d39c74be2a017b2b707b50a8fefb891cbb640b31780c"
+      "images": []
     },
     {
       "slug": "byobunozoki",
@@ -5102,20 +5137,15 @@
     },
     {
       "slug": "donotsura",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-6.md",
+      "entry_sha256": "622f6b0aebb9a58a36c24fea8cad108f74921809046e626304f3e272b33ea229",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "donotsura-c01",
@@ -5156,10 +5186,69 @@
           "quote": "尾田郷澄『百鬼夜行絵巻』（1832年）にて、この名称が示されているが江戸時代に描かれた絵巻物には名前と絵があるのみで解説文は一切なく、詳細は不明である。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "donotsura-c05",
+          "source_id": "donotsura-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the Hyakumonogatari Bake-e Emaki scroll, a yōkai of a similar design is confirmed to be depicted under the name Akahadaka.",
+          "statement_id": "Dalam gulungan Hyakumonogatari Bake-e Emaki, makhluk dengan rancangan serupa tercatat digambarkan dengan nama Akahadaka.",
+          "quote": "詳細は不明である。『百物語化絵絵巻』にも同様のデザインの妖怪があかはだかという名前で描かれていることが確認できる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "donotsura-c06",
+          "source_id": "donotsura-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Beings with faces on the chest or belly, such as Xingtian, the Blemmyae and Kabandha, are widely distributed across Eurasia, including China, Europe and India.",
+          "statement_id": "Makhluk berwajah di dada atau perut, seperti Xingtian, Blemmyae, dan Kabandha, tersebar luas di berbagai tempat di Eurasia, termasuk Tiongkok, Eropa, dan India.",
+          "quote": "胸や腹にかけて顔のある存在は、刑天、ブレムミュアエ、カバンダなど中国やヨーロッパ・インドをはじめ、ユーラシア大陸各地に広く分布している。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "donotsura-c07",
+          "source_id": "donotsura-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Specifically, Xingtian and similar figures, which came to be drawn in Japan through illustrations of the Shanhaijing, appear to have served as the model for this form.",
+          "statement_id": "Secara khusus, Xingtian dan sejenisnya, yang kadang digambar di Jepang lewat gambar-gambar Shanhaijing, tampaknya menjadi contoh bagi rupa ini.",
+          "quote": "具体的には『山海経』の絵図を通じて日本でも描かれる機会のあった刑天などがその手本となったと見られる。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "donotsura-c08",
+          "source_id": "donotsura-s2",
+          "host": "yokai.com",
+          "statement": "Dōnotsura's body looks much like a human's except that everything from the neck up is missing; its extremely large facial features are prominently displayed on its torso, as its name implies.",
+          "statement_id": "Tubuh Dōnotsura tampak mirip manusia, kecuali tidak ada apa pun dari leher ke atas; fitur wajahnya yang sangat besar tampak jelas di batang tubuhnya, sesuai namanya.",
+          "quote": "Dōnotsura’s body appears much like that of a human’s, except that it is missing everything from the neck up. Its extremely large facial features are prominently displayed on its torso, just as its name implies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "donotsura-c09",
+          "source_id": "donotsura-s2",
+          "host": "yokai.com",
+          "statement": "The name Dōnotsura (胴面) is translated as \"torso face\", with the alternate name akahadaka.",
+          "statement_id": "Nama Dōnotsura (胴面) diterjemahkan sebagai \"wajah batang tubuh\", dengan nama lain akahadaka.",
+          "quote": "Dōnotsura 胴面 どうのつら Translation: torso face Alternate names: akahadaka",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "donotsura-c10",
+          "source_id": "donotsura-s2",
+          "host": "yokai.com",
+          "statement": "According to that source, its most likely origin is a play on words, based on the Japanese expression \"dono tsura sagete\", used to scold a person who looks inappropriately calm when they should be ashamed of something they have done.",
+          "statement_id": "Menurut sumber itu, asal-usulnya kemungkinan besar adalah permainan kata, berdasarkan ungkapan Jepang \"dono tsura sagete\" yang dipakai untuk menegur orang yang tampak tenang padahal seharusnya malu atas perbuatannya.",
+          "quote": "However, its most likely origin is as a play on words. There is an expression in Japanese—”dono tsura sagete“—which is used to scold a person who looks inappropriately calm when they should be ashamed of something they’ve done.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8820ef59dc0dd36911413338f0c8d76e4683b41e9209128900fa0a90f20fa2ba"
+      "images": []
     },
     {
       "slug": "enko",
@@ -5544,20 +5633,15 @@
     },
     {
       "slug": "hoyau",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-6.md",
+      "entry_sha256": "ce7857d0339e824a56286dfef1889ad07054bca54945fc2cc75dd6c039d5c97f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hoyau-c01",
@@ -5618,10 +5702,79 @@
           "quote": "It also has a pointed, chisel-like snout which can slice or rip large trees.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hoyau-c07",
+          "source_id": "hoyau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sak-somo-ayep not only gives off a foul smell; contact with its body odor makes plants shrivel and die, and humans downwind of the dragon may lose their body hair or develop swellings on the skin.",
+          "statement_id": "Sak-somo-ayep tidak hanya mengeluarkan bau busuk; kontak dengan bau badannya membuat tumbuhan layu dan mati, dan manusia di arah angin naga itu dapat kehilangan bulu badan atau kulitnya bengkak.",
+          "quote": "The sak-somo-ayep not only issues a foul smell, but contact with this body odor or musk causes plants to shrivel and die. Humans situated downwind of the dragon may lose their body hair, or develop swells on their skin",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c08",
+          "source_id": "hoyau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to one epic song (yukar), the dragon-god sak-somo-ayep gave off a stench that was noxious and lethal to both humans and gods, so the deity Okikurmi took on the task of slaying it.",
+          "statement_id": "Menurut satu nyanyian epik (yukar), dewa naga sak-somo-ayep mengeluarkan bau busuk yang beracun dan mematikan bagi manusia dan dewa, sehingga dewa Okikurmi mengambil tugas membunuhnya.",
+          "quote": "According to one epic song (yukar), the dragon-god sak-somo-ayep issued a stench that was noxious and lethal to both humans and gods, so that the deity Okikurmi took on the task of slaying it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c09",
+          "source_id": "hoyau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the smallpox deity Hōsōshin descended on Abuta (now Tōyako town) and spread smallpox, the people fled to the shore of Lake Tōya, and the hoyau dispelled the Hōsōshin with its horrible stench, saving the townsfolk.",
+          "statement_id": "Ketika dewa cacar Hōsōshin turun ke Abuta (kini kota Tōyako) dan menyebarkan cacar, orang-orang mengungsi ke tepi Danau Tōya, dan hoyau dengan bau busuknya mengusir Hōsōshin sehingga penduduk selamat.",
+          "quote": "Specifically, when the Hōsōshin (smallpox deity) descended upon Abuta (now Tōyako town) and caused smallpox to spread, the people fled to the shores of Lake Tōya, and the hoyau with its horrible stench dispelled the Hōsōshin, saving the townsfolk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c10",
+          "source_id": "hoyau-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because it abhors the cold, it may spiritually possess a miko (shamaness) and command humans to \"stoke the fire\".",
+          "statement_id": "Karena membenci dingin, ia dapat merasuki miko (dukun perempuan) dan memerintahkan manusia untuk \"mengobarkan api\".",
+          "quote": "As it abhors the cold, it may spiritually possess a miko (shamaness) and command humans to \"stoke the fire\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c11",
+          "source_id": "hoyau-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Hoyau Kamui of Lake Tōya had the character of a demonic deity, yet at times became a guardian deity of humans.",
+          "statement_id": "Hoyau Kamui di Danau Tōya berwatak dewa jahat, tetapi kadang menjadi dewa pelindung manusia.",
+          "quote": "洞爺湖のホヤウカムイは魔神としての性格を持つ反面、時には人間の守り神となることもあった。疱瘡（天然痘）を司る疫病神であるパヨカカムイが虻田（現・洞爺湖町）に疱瘡を流行させたとき、人々が洞爺湖畔へ逃げてくると、",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c12",
+          "source_id": "hoyau-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Hoyau Kamui of Lake Tōya is also said to look like a winged turtle rather than a serpent deity; during epidemics people offered sake to the mountain spirit of Mt. Usu, Ikeeuseguru, and to Hoyau Kamui, praying for recovery.",
+          "statement_id": "Hoyau Kamui di Danau Tōya juga dikatakan berwujud seperti kura-kura bersayap, bukan dewa ular; saat wabah, orang mempersembahkan sake kepada roh gunung Usu, Ikeeuseguru, dan Hoyau Kamui untuk berdoa agar penyakit sembuh.",
+          "quote": "この洞爺湖のホヤウカムイは蛇神ではなく羽の生えた亀のような姿ともいわれ、流行病のあるときには、人々は有珠山の山霊（山の神霊）イケエウセグルとホヤウカムイに酒を捧げ、病気平癒を祈ったと言う。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoyau-c13",
+          "source_id": "hoyau-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Hoyau (hoyaw) is said to mean \"snake\" in the Sakhalin dialect; chatai (catay) is a loanword from Japanese \"jatai\" (\"snake body\").",
+          "statement_id": "Ho yau (hoyaw) dikatakan berarti \"ular\" dalam dialek Karafuto (Sakhalin); chatai (catay) adalah kata serapan dari bahasa Jepang \"jatai\" (tubuh ular).",
+          "quote": "ホヤウ（ホヤゥ / hoyaw \"蛇\"。樺太方言で\"蛇\"を意味する言葉とされる） 、チャタイ（チャタィ / catay 日本語の\"蛇体\"の借用語）",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2884d59dc31e3ee7e41dba348911c8a516e8297b54dba5752a1c6673a1543c17"
+      "images": []
     },
     {
       "slug": "ame-no-hiwashi",
@@ -5790,20 +5943,15 @@
     },
     {
       "slug": "ame-no-mahitotsu-no-kami",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-6.md",
+      "entry_sha256": "23ddf4ea2f2b5af0a11d214e7877fdda487370948a6c7bf14ee5cbbbf910df1b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ame-no-mahitotsu-no-kami-c01",
@@ -5844,10 +5992,69 @@
           "quote": "別名は天之麻比止都禰命（あめのまひとつねのみこと）、天久斯麻比止都命（あめのくしまひとつのみこと）、天津麻羅（あまつまら）、",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c05",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kogo shūi states that at the time of Amaterasu's hiding in the rock cave of heaven, Amenomahitotsu no kami (\"the one-eyed kami of heaven\") was assigned to make metal weapons.",
+          "statement_id": "Kogo shūi menyebut bahwa pada saat Amaterasu bersembunyi di gua batu surga, Amenomahitotsu no kami (\"kami bermata satu dari surga\") ditugaskan membuat senjata logam.",
+          "quote": "Kogo shūi describes Amatsumara as a follower of Futodama; it also states that at the time of Amaterasu's hiding away in the rock cave of heaven, Amenomahitotsu no kami (\"the one-eyed kami of heaven\") was assigned to make metal weapons",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c06",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "During the reign of Emperor Sujin, that kami's descendants, together with the descendants of Ishikoridome, were put in charge of recasting the divine mirror and sword.",
+          "statement_id": "Pada masa pemerintahan Kaisar Sujin, keturunan kami itu bersama keturunan Ishikoridome ditugaskan menempa ulang cermin dan pedang suci.",
+          "quote": "during the reign of Emperor Sujin, the descendants of that kami were, together with the descendants of Ishikoridome, put in charge of recasting the divine mirror and sword.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c07",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to an \"alternate writing\" in the Nihongi, Takamimusuhi designated Amenomahitotsu as a metalworker to serve the kami of Izumo.",
+          "statement_id": "Menurut \"tulisan alternatif\" dalam Nihongi, Amenomahitotsu ditunjuk oleh Takamimusuhi sebagai pandai logam untuk melayani kami Izumo.",
+          "quote": "According to an \"alternate writing\" included in Nihongi, Amenomahitotsu was designated by Takamimusuhi as a metalworker to serve the kami of Izumo.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c08",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "From these incidents, Amenomahitotsu is recognized as the same kami as Amatsumara.",
+          "statement_id": "Dari kejadian-kejadian tersebut, Amenomahitotsu diakui sebagai kami yang sama dengan Amatsumara.",
+          "quote": "From these incidents, Amenomahitotsu is recognized as the same kami as Amatsumara.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c09",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kojiki states that Amatsumara, as the blacksmith of the Plain of High Heaven, was called upon to refine the iron used for making mirrors.",
+          "statement_id": "Kojiki menyatakan bahwa Amatsumara, sebagai pandai besi di Dataran Tinggi Surga, dipanggil untuk menempa besi yang dipakai membuat cermin.",
+          "quote": "Kojiki states that as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ame-no-mahitotsu-no-kami-c10",
+          "source_id": "ame-no-mahitotsu-no-kami-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Together with Ishikoridome, he was said to have assisted in making the mirror used to lure Amaterasu out of her hiding place in the rock cave of heaven.",
+          "statement_id": "Bersama Ishikoridome, ia dikatakan membantu membuat cermin yang dipakai untuk memancing Amaterasu keluar dari tempat persembunyiannya di gua batu surga.",
+          "quote": "Together with Ishikoridome, he was said to have assisted in the making of the mirror used to lure Amaterasu from her hiding place in the rock cave of heaven.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1508593abf3d11cf27b481066fcc7a9093ef552d8df23200e3f81c56766138bd"
+      "images": []
     },
     {
       "slug": "azukibabaa",
@@ -6036,25 +6243,15 @@
     },
     {
       "slug": "azukihakari",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-6.md",
+      "entry_sha256": "13c1ebbfb2f047b5f80621b5600aa0ea8dc1b1e3cacf35b2f28822804a227547",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (azukihakari-c06)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "azukihakari-c01",
@@ -6110,15 +6307,54 @@
           "id": "azukihakari-c06",
           "source_id": "azukihakari-s1",
           "host": "en.wikipedia.org",
-          "statement": "When he opens the screen, nobody is there.",
-          "statement_id": "Ketika ia membuka sekat, tidak ada siapa pun.",
+          "statement": "The man opened the shoji (sliding door) immediately, but no one was in the garden.",
+          "statement_id": "Pria itu segera membuka shoji (pintu geser), tetapi tidak ada seorang pun di kebun.",
           "quote": "The man opened the shoji immediately but said no one was in the garden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukihakari-c07",
+          "source_id": "azukihakari-s2",
+          "host": "yokai.com",
+          "statement": "The azuki hakari is a poltergeist found in some homes and temples, known only by the sounds it makes; it is said to dwell in attics or gardens and to be most active at night.",
+          "statement_id": "Azuki hakari adalah poltergeist yang ditemukan di sebagian rumah dan kuil, hanya dikenal lewat bunyi yang mereka timbulkan; konon mereka tinggal di loteng atau kebun dan paling aktif pada malam hari.",
+          "quote": "A poltergeist found in some homes and temples, these yōkai are known only by the sounds they make. They are said to dwell in attics or gardens, and are most active at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukihakari-c08",
+          "source_id": "azukihakari-s2",
+          "host": "yokai.com",
+          "statement": "The azuki hakari has never been seen directly, only heard.",
+          "statement_id": "Azuki hakari tidak pernah terlihat langsung, hanya terdengar.",
+          "quote": "Azuki hakari have never been seen directly—only heard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukihakari-c09",
+          "source_id": "azukihakari-s2",
+          "host": "yokai.com",
+          "statement": "The sound grows progressively louder, gradually turning into the sound of splashing water and finally the sound of geta (Japanese wooden sandals) walking just outside the room.",
+          "statement_id": "Bunyinya makin keras, perlahan berubah menjadi bunyi air memercik, lalu akhirnya bunyi geta (sandal kayu Jepang) yang berjalan tepat di luar ruangan.",
+          "quote": "The sound grows progressively louder, and gradually changes into the sound of splashing water, then finally to the sound of geta—Japanese wooden sandals—walking just outside the room.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azukihakari-c10",
+          "source_id": "azukihakari-s2",
+          "host": "yokai.com",
+          "statement": "Opening the doors or windows makes the noise stop, revealing no sign of any creature.",
+          "statement_id": "Membuka pintu atau jendela menghentikan bunyi itu, dan tidak tampak tanda makhluk apa pun.",
+          "quote": "Opening the doors or windows causes the noise to stop, revealing no sign of any creature",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4b0e37af9275eb59290c3e90d80a0bf86910a7019ee9c39d7c6fdaae7372f367"
+      "images": []
     }
   ]
 }

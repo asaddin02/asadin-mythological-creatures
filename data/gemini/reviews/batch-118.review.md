@@ -1,6 +1,6 @@
 # Review batch-118
 
-Diperiksa 2026-10-06T19:05:15.188Z. Berkas: batch-118.md, batch-118-fix-1.md.
+Diperiksa 2026-10-07T05:45:37.952Z. Berkas: batch-118.md, batch-118-fix-1.md, batch-118-fix-2.md.
 
 ## cyhyraeth — lulus-otomatis
 
@@ -654,10 +654,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nimerigar — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -666,6 +663,8 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | nimerigar-c03 | exact | en.wikipedia.org | San Pedro Mountains mummy 1932, 14 in, cave 60 miles south of Casper, Wyoming. | the reality of Nimerigar tales was called into question in 1932 with the discovery of the San Pedro Mountains mummy, a 14 in (36 cm)-tall mummy (6.5 in (17 cm) seated) found in a cave 60 miles south of Casper, Wyoming. |
 | nimerigar-c04 | exact | en.wikipedia.org | University of Wyoming: an anencephalic infant; second mummy by George Gill in the 1990s; Native American DNA. | When examined by the University of Wyoming, the body was found to be that of a deceased anencephalic infant "whose cranial deformity gave it the appearance of a miniature adult." |
 | nimerigar-c05 | exact | de.wikipedia.org | de article: a race of small warlike people per Shoshone tales, formerly in Wyoming. | Als Nimerigar wird eine Rasse kleiner kriegerischer Menschen bezeichnet, die nach Erzählungen der Schoschonen früher das Gebiet von Wyoming besiedelt haben sollen. |
+| nimerigar-c06 | exact | www.legendsofamerica.com | To the Shoshone of Wyoming this small race was known as the Nimerigar, and their legends told of the little people attacking them with tiny bows and poisoned arrows. | To the Shoshone Indians of Wyoming, this small race of people was known as the Nimerigar, and their legends told of the little people attacking them with tiny bows and poisoned arrows. |
+| nimerigar-c07 | exact | www.legendsofamerica.com | Native Americans continue to warn their people to beware of the "tiny people eaters" who are still said to live in the mountains and high places of Wyoming. | Native Americans continue to warn their people to be aware of the “tiny people eaters” who are still said to live in the mountains and high places of Wyoming. |
 
 
 ## nuggle — lulus-otomatis
@@ -684,10 +683,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## queen-of-elphame — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -696,14 +692,14 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | queen-of-elphame-c03 | exact | en.wikipedia.org | Parallels with Thomas the Rhymer and Tam Lin. | The character as described in witch trials has many parallels with the legends of Thomas the Rhymer and Tam Lin. |
 | queen-of-elphame-c04 | exact | en.wikipedia.org | Alison Pearson (1588) carried to Elfame, knew the Queen; William Simpson taught her herbs and healing. | Alison was carried off to Elfame on a number of occasions over the years, where she made good acquaintance with the Queen. |
 | queen-of-elphame-c05 | exact | fi.wikipedia.org | fi article: Andro Man (1598) called her Quene of Elphen; Alison Pearson burned as a witch (1588). | Vuonna 1598 noitaoikeudenkäynnissä syytetty skotlantilainen Andro Man käytti haltiakuningattaresta nimimuotoa Quene of Elphen. |
+| queen-of-elphame-c06 | exact | en.wikipedia.org | According to Andro Man's confession, the queen "can be old or young as she pleases"; her shape-shifting magic extends to her own person. | The Queen's shape-shifting magic extends to her own person. Andro Man's confession also noted that "she can be old or young as she pleases". |
+| queen-of-elphame-c07 | exact | en.wikipedia.org | Marion Grant, of the same coven as Andro Man, saw the queen as a "fine woman, clad in a white walicot". | Marion Grant, of the same coven as Andro Man, witnessed the queen as a "fine woman, clad in a white walicot." |
+| queen-of-elphame-c08 | exact | witches.hca.ed.ac.uk | Alison Pierson confessed to knowing the Queene of Elphane for 16 years. | Confessed to knowing the Queene of Elphane for 16 years. |
 
 
 ## rhita-gawr — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -711,6 +707,10 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | rhita-gawr-c02 | exact | cy.wikipedia.org | Listed by Siôn Dafydd Rhys, late 16th century; Meirionnydd; buried on Aran Benllyn near Llyn Tegid. | Mae'n cael ei restru mewn traethawd ar gewri Cymru gan Siôn Dafydd Rhys a ysgrifennodd ar ddiwedd yr 16g. |
 | rhita-gawr-c03 | exact | br.wikipedia.org | br article: Rhita Gawr (Rhudda Gawr), a figure of Welsh legend; cloak of kings' beards. | Rhita Gawr (pe Rhudda Gawr, ar ramz ruz) zo un haroz eus mojennoù Kembre. Graet e vantell gant barvioù rouaned. |
 | rhita-gawr-c04 | exact | ja.wikipedia.org | ja article: Ritho in Geoffrey of Monmouth's Historia Regum Britanniae; cloak of kings' beards; defeated by Arthur. | ジェフリー・オブ・モンマスの『ブリタニア列王史』によると、リトーは自分が殺した王たちのひげで毛皮の外套をつくり、アーサー王にすみやかに自分のひげをはぎ取って自分に差し出すように命じた。 |
+| rhita-gawr-c05 | exact | en.wikisource.org | In Geoffrey of Monmouth, Arthur says he had found none of such strength since he killed the giant Ritho, who had challenged him to fight on the mountain Aravius. | He told them he had found none of so great strength, since he killed the giant Ritho, who had challenged him to fight, upon the mountain Aravius. |
+| rhita-gawr-c06 | exact | en.wikisource.org | The giant had made furs for himself from the beards of kings he had killed, and sent word to Arthur to cut off his beard and send it to him. | This giant had made himself furs of the beards of kings he had killed, and had sent word to Arthur carefully to cut off his beard and send it to him |
+| rhita-gawr-c07 | exact | en.wikisource.org | If Arthur refused, he challenged him to a duel, offering that the conqueror should have the furs and the beard of the vanquished as a trophy of victory. | But if he refused to do it, he challenged him to a duel, with this offer, that the conqueror should have the furs, and also the beard of the vanquished for a trophy of his victory. |
+| rhita-gawr-c08 | exact | en.wikisource.org | In the combat Arthur proved victorious and took the giant's beard and spoils. | In his conflict, therefore, Arthur proved victorious, and took the beard and spoils of the giant |
 
 
 ## simonside-dwarfs — lulus-otomatis
@@ -744,10 +744,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## wirry-cow — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -756,4 +753,8 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | wirry-cow-c03 | exact | en.wikipedia.org | Sir Walter Scott, novel Guy Mannering. | The word was used by Sir Walter Scott in his novel Guy Mannering. |
 | wirry-cow-c04 | exact | en.wikipedia.org | John Jamieson: from worry (Modern Scots wirry), Old English wyrgan; cowe = hobgoblin. | The word is derived by John Jamieson from worry (Modern Scots wirry), in its old sense of harassment in both English and Lowland Scots, from Old English wyrgan |
 | wirry-cow-c05 | exact | it.wikipedia.org | it article: wirry-cow or wirry-carl, a Scottish term for a frightful creature. | Wirry-cow o wirry-carl era un termine scozzese che indicava una creatura spaventosa del folclore scozzese. |
+| wirry-cow-c06 | exact | dsl.ac.uk | According to the Scottish National Dictionary, a worricow is a hobgoblin, bugbear, demon or fearsome monster. | A hobgoblin, bugbear, demon, a fearsome monster |
+| wirry-cow-c07 | exact | dsl.ac.uk | The word is also used for a person of frightening or repulsive appearance. | a person of frightening or repulsive appearance, a 'sight' |
+| wirry-cow-c08 | exact | dsl.ac.uk | A second sense in the dictionary: the Devil himself, an imp of Satan, or a mischievous person. | The Devil himself; an imp of Satan; a mischievous person. |
+| wirry-cow-c09 | exact | dsl.ac.uk | The dictionary cites Scott (1816, The Black Dwarf): people say there are all sorts of worricows and long-nebbed things about the land. | Sc. 1816 Scott B. Dwarf ii.: They do say there's a' sort o' worricows and langnebbit things about the land. |
 

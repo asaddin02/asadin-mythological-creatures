@@ -1,6 +1,6 @@
 # Review batch-055
 
-Diperiksa 2026-10-06T19:34:33.449Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md.
+Diperiksa 2026-10-07T05:45:37.638Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md.
 
 ## koromodako — lulus-otomatis
 
@@ -735,10 +735,7 @@ Klaim 14 (exact 14), sumber 2, gambar 0.
 
 ## black-dragon — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -746,6 +743,10 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | black-dragon-c02 | exact | ja.wikipedia.org | In five-phase thought it is associated with water and the north. | 五行思想においては、黒は北と同じく水に対応するので、黒竜を玄武と同様、「北方を守護する神聖な竜」としている。 |
 | black-dragon-c03 | exact | ja.wikipedia.org | It is interpreted as a sacred guardian of the north. | 五行思想においては、黒は北と同じく水に対応するので、黒竜を玄武と同様、「北方を守護する神聖な竜」としている。 |
 | black-dragon-c04 | exact | ja.wikipedia.org | Its depictions often give an eastern dragon black scales and two forelegs. | 名前通り全身の鱗が黒く、前足が2本しかない東洋の竜として描かれる事が多い。驪竜（りりょう）とも呼ばれ、これは顎の下に貴重な珠を持っているともされる 。 |
+| black-dragon-c05 | exact | ja.wikipedia.org | In some regions the black dragon is worshipped as a sacred being, like other dragons. | よって、一部の地域では、黒竜を他の竜同様に、神聖な存在として祀っている。 |
+| black-dragon-c06 | exact | zh.wikisource.org | In the Huainanzi, Nüwa (女媧) slew a black dragon (黑龍) to save Jizhou (冀州), and piled up reed ashes to stop the flood waters. | 於是女媧煉五色石以補蒼天，斷鼇足以立四極。殺黑龍以濟冀州，積蘆灰以止淫水。 |
+| black-dragon-c07 | exact | ja.wikipedia.org | Takaokami no Ōkami (高龗大神) is sometimes identified as Kokuryū Daimyōjin (黒龍大明神, "Great Deity Black Dragon"). | また高龗大神（たかおかみ）のことを黒龍大明神とすることもある。 |
+| black-dragon-c08 | exact | ja.wikipedia.org | At Hōgon-ji on Chikubu Island, the black dragon is enshrined as one of the Eight Dragon Kings in the Kokuryū-dō (Black Dragon Hall). | 竹生島の宝厳寺境内にある黒龍堂（黒龍大神・黒龍姫大神）に八大龍王の一尊である黒龍として祀られている。 |
 
 
 ## byobunozoki — lulus-otomatis
@@ -767,10 +768,7 @@ Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
 
 ## donotsura — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -778,6 +776,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | donotsura-c02 | exact | ja.wikipedia.org | Its body lacks a head above the neck. | 胴面（どうのつら）は、妖怪絵巻に描かれている日本の妖怪。首から上がなく、代わりに胴体に顔がある姿をしている。 |
 | donotsura-c03 | exact | ja.wikipedia.org | Instead, its face is on its torso. | 胴面（どうのつら）は、妖怪絵巻に描かれている日本の妖怪。首から上がなく、代わりに胴体に顔がある姿をしている。 |
 | donotsura-c04 | exact | ja.wikipedia.org | The old scrolls give names and pictures without explanatory text. | 尾田郷澄『百鬼夜行絵巻』（1832年）にて、この名称が示されているが江戸時代に描かれた絵巻物には名前と絵があるのみで解説文は一切なく、詳細は不明である。 |
+| donotsura-c05 | exact | ja.wikipedia.org | In the Hyakumonogatari Bake-e Emaki scroll, a yōkai of a similar design is confirmed to be depicted under the name Akahadaka. | 詳細は不明である。『百物語化絵絵巻』にも同様のデザインの妖怪があかはだかという名前で描かれていることが確認できる。 |
+| donotsura-c06 | exact | ja.wikipedia.org | Beings with faces on the chest or belly, such as Xingtian, the Blemmyae and Kabandha, are widely distributed across Eurasia, including China, Europe and India. | 胸や腹にかけて顔のある存在は、刑天、ブレムミュアエ、カバンダなど中国やヨーロッパ・インドをはじめ、ユーラシア大陸各地に広く分布している。 |
+| donotsura-c07 | exact | ja.wikipedia.org | Specifically, Xingtian and similar figures, which came to be drawn in Japan through illustrations of the Shanhaijing, appear to have served as the model for this form. | 具体的には『山海経』の絵図を通じて日本でも描かれる機会のあった刑天などがその手本となったと見られる。 |
+| donotsura-c08 | exact | yokai.com | Dōnotsura's body looks much like a human's except that everything from the neck up is missing; its extremely large facial features are prominently displayed on its torso, as its name implies. | Dōnotsura’s body appears much like that of a human’s, except that it is missing everything from the neck up. Its extremely large facial features are prominently displayed on its torso, just as its name implies. |
+| donotsura-c09 | exact | yokai.com | The name Dōnotsura (胴面) is translated as "torso face", with the alternate name akahadaka. | Dōnotsura 胴面 どうのつら Translation: torso face Alternate names: akahadaka |
+| donotsura-c10 | exact | yokai.com | According to that source, its most likely origin is a play on words, based on the Japanese expression "dono tsura sagete", used to scold a person who looks inappropriately calm when they should be ashamed of something they have done. | However, its most likely origin is as a play on words. There is an expression in Japanese—”dono tsura sagete“—which is used to scold a person who looks inappropriately calm when they should be ashamed of something they’ve done. |
 
 
 ## enko — lulus-otomatis
@@ -855,10 +859,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hoyau — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -868,6 +869,13 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | hoyau-c04 | exact | en.wikipedia.org | A regional name associates it with western Hidaka. | The sak-somo-ayep is said to dwell in lakes and swamps of the western parts of the Hidaka Subprefecture region. |
 | hoyau-c05 | exact | en.wikipedia.org | A Hidaka account describes a stout body with a narrow head and tail. | According to lore around this Hidaka region, the sak-somo-ayep possesses a winged, serpent-like body, with torso like a tawara or a bale of rice (i.e. stout and cylindrical), and a narrow head and tail emerging out of this trunk. |
 | hoyau-c06 | exact | en.wikipedia.org | Its pointed snout is said to cut large trees. | It also has a pointed, chisel-like snout which can slice or rip large trees. |
+| hoyau-c07 | exact | en.wikipedia.org | The sak-somo-ayep not only gives off a foul smell; contact with its body odor makes plants shrivel and die, and humans downwind of the dragon may lose their body hair or develop swellings on the skin. | The sak-somo-ayep not only issues a foul smell, but contact with this body odor or musk causes plants to shrivel and die. Humans situated downwind of the dragon may lose their body hair, or develop swells on their skin |
+| hoyau-c08 | exact | en.wikipedia.org | According to one epic song (yukar), the dragon-god sak-somo-ayep gave off a stench that was noxious and lethal to both humans and gods, so the deity Okikurmi took on the task of slaying it. | According to one epic song (yukar), the dragon-god sak-somo-ayep issued a stench that was noxious and lethal to both humans and gods, so that the deity Okikurmi took on the task of slaying it. |
+| hoyau-c09 | exact | en.wikipedia.org | When the smallpox deity Hōsōshin descended on Abuta (now Tōyako town) and spread smallpox, the people fled to the shore of Lake Tōya, and the hoyau dispelled the Hōsōshin with its horrible stench, saving the townsfolk. | Specifically, when the Hōsōshin (smallpox deity) descended upon Abuta (now Tōyako town) and caused smallpox to spread, the people fled to the shores of Lake Tōya, and the hoyau with its horrible stench dispelled the Hōsōshin, saving the townsfolk. |
+| hoyau-c10 | exact | en.wikipedia.org | Because it abhors the cold, it may spiritually possess a miko (shamaness) and command humans to "stoke the fire". | As it abhors the cold, it may spiritually possess a miko (shamaness) and command humans to "stoke the fire". |
+| hoyau-c11 | exact | ja.wikipedia.org | The Hoyau Kamui of Lake Tōya had the character of a demonic deity, yet at times became a guardian deity of humans. | 洞爺湖のホヤウカムイは魔神としての性格を持つ反面、時には人間の守り神となることもあった。疱瘡（天然痘）を司る疫病神であるパヨカカムイが虻田（現・洞爺湖町）に疱瘡を流行させたとき、人々が洞爺湖畔へ逃げてくると、 |
+| hoyau-c12 | exact | ja.wikipedia.org | The Hoyau Kamui of Lake Tōya is also said to look like a winged turtle rather than a serpent deity; during epidemics people offered sake to the mountain spirit of Mt. Usu, Ikeeuseguru, and to Hoyau Kamui, praying for recovery. | この洞爺湖のホヤウカムイは蛇神ではなく羽の生えた亀のような姿ともいわれ、流行病のあるときには、人々は有珠山の山霊（山の神霊）イケエウセグルとホヤウカムイに酒を捧げ、病気平癒を祈ったと言う。 |
+| hoyau-c13 | exact | ja.wikipedia.org | Hoyau (hoyaw) is said to mean "snake" in the Sakhalin dialect; chatai (catay) is a loanword from Japanese "jatai" ("snake body"). | ホヤウ（ホヤゥ / hoyaw "蛇"。樺太方言で"蛇"を意味する言葉とされる） 、チャタイ（チャタィ / catay 日本語の"蛇体"の借用語） |
 
 
 ## ame-no-hiwashi — lulus-otomatis
@@ -895,10 +903,7 @@ Klaim 15 (exact 15), sumber 2, gambar 0.
 
 ## ame-no-mahitotsu-no-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -906,6 +911,12 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-mahitotsu-no-kami-c02 | exact | ja.wikipedia.org | The deity appears in several classical chronicles and provincial records. | 『古語拾遺』、『日本書紀』、『播磨国風土記』に登場する。別名は天之麻比止都禰命（あめのまひとつねのみこと）、 |
 | ame-no-mahitotsu-no-kami-c03 | exact | ja.wikipedia.org | The Shinsen Shōjiroku calls him the child of Amatsuhikone. | 『新撰姓氏録』によれば、天目一箇神は天津彦根命の子である。後裔には、筑紫国・伊勢国の忌部氏、山城国菅田首、山城国山背忌寸、大和国葦田首、山代直（山背国造）がいる。 |
 | ame-no-mahitotsu-no-kami-c04 | exact | ja.wikipedia.org | Amatsumara is among the names associated with this deity. | 別名は天之麻比止都禰命（あめのまひとつねのみこと）、天久斯麻比止都命（あめのくしまひとつのみこと）、天津麻羅（あまつまら）、 |
+| ame-no-mahitotsu-no-kami-c05 | exact | d-museum.kokugakuin.ac.jp | The Kogo shūi states that at the time of Amaterasu's hiding in the rock cave of heaven, Amenomahitotsu no kami ("the one-eyed kami of heaven") was assigned to make metal weapons. | Kogo shūi describes Amatsumara as a follower of Futodama; it also states that at the time of Amaterasu's hiding away in the rock cave of heaven, Amenomahitotsu no kami ("the one-eyed kami of heaven") was assigned to make metal weapons |
+| ame-no-mahitotsu-no-kami-c06 | exact | d-museum.kokugakuin.ac.jp | During the reign of Emperor Sujin, that kami's descendants, together with the descendants of Ishikoridome, were put in charge of recasting the divine mirror and sword. | during the reign of Emperor Sujin, the descendants of that kami were, together with the descendants of Ishikoridome, put in charge of recasting the divine mirror and sword. |
+| ame-no-mahitotsu-no-kami-c07 | exact | d-museum.kokugakuin.ac.jp | According to an "alternate writing" in the Nihongi, Takamimusuhi designated Amenomahitotsu as a metalworker to serve the kami of Izumo. | According to an "alternate writing" included in Nihongi, Amenomahitotsu was designated by Takamimusuhi as a metalworker to serve the kami of Izumo. |
+| ame-no-mahitotsu-no-kami-c08 | exact | d-museum.kokugakuin.ac.jp | From these incidents, Amenomahitotsu is recognized as the same kami as Amatsumara. | From these incidents, Amenomahitotsu is recognized as the same kami as Amatsumara. |
+| ame-no-mahitotsu-no-kami-c09 | exact | d-museum.kokugakuin.ac.jp | The Kojiki states that Amatsumara, as the blacksmith of the Plain of High Heaven, was called upon to refine the iron used for making mirrors. | Kojiki states that as the blacksmith of the Plain of High Heaven, Amatsumara was called upon to refine the iron used for making mirrors |
+| ame-no-mahitotsu-no-kami-c10 | exact | d-museum.kokugakuin.ac.jp | Together with Ishikoridome, he was said to have assisted in making the mirror used to lure Amaterasu out of her hiding place in the rock cave of heaven. | Together with Ishikoridome, he was said to have assisted in the making of the mirror used to lure Amaterasu from her hiding place in the rock cave of heaven. |
 
 
 ## azukibabaa — lulus-otomatis
@@ -935,13 +946,7 @@ Klaim 17 (exact 17), sumber 3, gambar 0.
 
 ## azukihakari — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**warn**
-- `claims (azukihakari-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 1, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -950,5 +955,9 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | azukihakari-c03 | exact | en.wikipedia.org | A visiting man stays at a house to investigate the phenomenon. | The man said: "I want to see it" and stayed at said friend's house. |
 | azukihakari-c04 | exact | en.wikipedia.org | He hears movement above the ceiling followed by scattering-bean sounds. | As mentioned above, when the room was quiet, there was a loud noise as if stepping over the ceiling, followed by the sound of sowing beans. |
 | azukihakari-c05 | exact | en.wikipedia.org | Later sounds come from the garden. | Eventually, the sounds of clogging and watering came from the garden outside of the house, rather than from the ceiling. |
-| azukihakari-c06 | exact | en.wikipedia.org | When he opens the screen, nobody is there. | The man opened the shoji immediately but said no one was in the garden. |
+| azukihakari-c06 | exact | en.wikipedia.org | The man opened the shoji (sliding door) immediately, but no one was in the garden. | The man opened the shoji immediately but said no one was in the garden. |
+| azukihakari-c07 | exact | yokai.com | The azuki hakari is a poltergeist found in some homes and temples, known only by the sounds it makes; it is said to dwell in attics or gardens and to be most active at night. | A poltergeist found in some homes and temples, these yōkai are known only by the sounds they make. They are said to dwell in attics or gardens, and are most active at night. |
+| azukihakari-c08 | exact | yokai.com | The azuki hakari has never been seen directly, only heard. | Azuki hakari have never been seen directly—only heard. |
+| azukihakari-c09 | exact | yokai.com | The sound grows progressively louder, gradually turning into the sound of splashing water and finally the sound of geta (Japanese wooden sandals) walking just outside the room. | The sound grows progressively louder, and gradually changes into the sound of splashing water, then finally to the sound of geta—Japanese wooden sandals—walking just outside the room. |
+| azukihakari-c10 | exact | yokai.com | Opening the doors or windows makes the noise stop, revealing no sign of any creature. | Opening the doors or windows causes the noise to stop, revealing no sign of any creature |
 

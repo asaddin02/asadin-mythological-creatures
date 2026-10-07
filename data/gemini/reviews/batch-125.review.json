@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-125",
-  "checked_at": "2026-10-07T05:08:37.786Z",
+  "checked_at": "2026-10-07T05:45:38.532Z",
   "files": [
     "batch-125.md",
     "batch-125-fix-1.md",
-    "batch-125-fix-2.md"
+    "batch-125-fix-2.md",
+    "batch-125-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3330,20 +3331,15 @@
     },
     {
       "slug": "bunis",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-3.md",
+      "entry_sha256": "e363db871b25c45ea322db13df0d1cd8a34309c86496b4d81769d1cc98c13e47",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bunis-c01",
@@ -3364,27 +3360,61 @@
           "quote": "Chroni przed nimi jedynie czyste sumienie. Jednakże szamani oswajają je i uważają, że dzięki nim potrafią przepowiadać przyszłość.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bunis-c03",
+          "source_id": "bunis-s3",
+          "host": "fr.wikisource.org",
+          "statement": "The Dictionnaire infernal lists Bunis as \"Tartar demons\" and refers readers to the entry Bune.",
+          "statement_id": "Kamus Dictionnaire infernal mencatat Bunis sebagai \"setan-setan Tartar\" dan merujuk ke entri Bune.",
+          "quote": "Bunis, démons tartares. Voy. Bune.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bunis-c04",
+          "source_id": "bunis-s2",
+          "host": "fr.wikisource.org",
+          "statement": "The demons subject to Bune, called Bunis, are feared by the Tartars, who call them very malevolent.",
+          "statement_id": "Setan-setan yang tunduk kepada Bune, disebut Bunis, ditakuti oleh orang Tartar, yang menyebut mereka sangat jahat.",
+          "quote": "Les démons soumis à Bune, et appelés Bunis, sont redoutés des Tartares, qui les disent très-malfaisants.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bunis-c05",
+          "source_id": "bunis-s2",
+          "host": "fr.wikisource.org",
+          "statement": "One must have a clear conscience to be safe from their malice, for their power is great and their number immense.",
+          "statement_id": "Orang harus berhati nurani bersih agar terlindung dari kejahatan mereka, karena kekuatan mereka besar dan jumlah mereka sangat banyak.",
+          "quote": "Il faut avoir la conscience nette pour être à l’abri de leur malice ; car leur puissance est grande et leur nombre est immense.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bunis-c06",
+          "source_id": "bunis-s2",
+          "host": "fr.wikisource.org",
+          "statement": "However, the sorcerers of that country tame them, and it is by means of the Bunis that they boast of discovering the future.",
+          "statement_id": "Namun para dukun di negeri itu menjinakkan mereka, dan lewat Bunis mereka membanggakan diri dapat mengetahui masa depan.",
+          "quote": "Cependant les sorciers du pays les apprivoisent, et c’est par le moyen des Bunis qu’ils se vantent de découvrir l’avenir.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "13dd90b90963b83ddbdbffec6dbdcea531caa59694f4706a3239711d5de2aed4"
+      "images": []
     },
     {
       "slug": "cahkalakkis",
-      "file": "batch-125.md",
+      "file": "batch-125-fix-3.md",
+      "entry_sha256": "50b579f77e7f0eddcb45eae5f656309b6b9c2b2bfe127180af2c6f9721d8d88b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cahkalakkis-c01",
@@ -3445,10 +3475,59 @@
           "quote": "Kulta-hopea -motiivi čáhkalakkis-perinteessä sekä haltija-aarteenomistaja -ulottuvuus ovat otaksuttavasti muinaisskandinaavista tai jopa germaanista alkuperää.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "cahkalakkis-c07",
+          "source_id": "cahkalakkis-s2",
+          "host": "web.archive.org",
+          "statement": "In the northern Sámi tradition there is a motif of a čáhkalakkis with gold and silver coins in its belly, of relatively late origin; to obtain money these beings were caught and killed.",
+          "statement_id": "Dalam tradisi Sami utara, ada motif čáhkalakkis dengan koin emas dan perak di perutnya, yang relatif belakangan asalnya; untuk mendapatkan uang, makhluk-makhluk ini ditangkap dan dibunuh.",
+          "quote": "Suhteellisen myöhäistä alkuperää on pohjoissaamelaisessa perinteessä esiintyvä aihelma čáhkalakkis-maahisesta, jonka vatsassa on kulta- ja hopearahoja. Rahan saamiseksi näitä maahisia pyydystettiin ja tapettiin.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cahkalakkis-c08",
+          "source_id": "cahkalakkis-s2",
+          "host": "web.archive.org",
+          "statement": "In contrast, in the eastern Sámi tradition the čahhkli must not be killed; whoever does so suffers a great misfortune.",
+          "statement_id": "Berbeda dengan itu, dalam tradisi Sami timur čahhkli tidak boleh dibunuh; siapa yang melakukannya akan tertimpa kemalangan besar.",
+          "quote": "Erotuksena näistä käsityksistä itäsaamelaisessa perinteessä čahhkli-maahisia ei saa tappaa. Sille, joka sen tekee, tapahtuu suuri onnettomuus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahkalakkis-c09",
+          "source_id": "cahkalakkis-s2",
+          "host": "web.archive.org",
+          "statement": "A characteristic of the čáhkalakkis is repeating and imitating human actions.",
+          "statement_id": "Ciri khas čáhkalakkis adalah mengulang dan meniru perbuatan manusia.",
+          "quote": "Čáhkalakkis-maahisille on luonteenomaista ihmisten tekojen toistaminen ja matkiminen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahkalakkis-c10",
+          "source_id": "cahkalakkis-s2",
+          "host": "web.archive.org",
+          "statement": "In Näätämö it was said that money received from these beings must be divided in two: half given back to them, half kept; if one takes more, one will never become rich.",
+          "statement_id": "Di Näätämö diceritakan bahwa uang yang diterima dari makhluk ini harus dibagi dua: separuh dikembalikan kepada mereka, separuh boleh diambil sendiri; jika mengambil lebih, orang tidak akan pernah kaya.",
+          "quote": "Näätämössä kerrottiin, että maahisilta saadut rahat pitää jakaa kahteen osaan. Puolet on annettava maahisille takaisin, puolet saa ottaa itselleen. Jos ottaa enemmän, ei tule koskaan rikkaaksi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cahkalakkis-c11",
+          "source_id": "cahkalakkis-s2",
+          "host": "web.archive.org",
+          "statement": "In the areas where eastern and Inari Sámi live there are place names containing the word čahkkli or equivalent words.",
+          "statement_id": "Di wilayah permukiman Sami timur dan Sami Inari terdapat nama tempat yang mengandung kata čahkkli atau kata yang setara.",
+          "quote": "Itä- ja inarinsaamelaisten asuma-alueella on paikannimiä, jotka sisältävät čahkkli-sanan tai sitä vastaavia sanoja.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cf941aac6944e4214c81a6c10eeae6ee20204239eab00c1124c6998bb2dba3a5"
+      "images": []
     }
   ]
 }

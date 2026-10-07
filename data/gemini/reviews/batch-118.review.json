@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-118",
-  "checked_at": "2026-10-06T19:05:15.188Z",
+  "checked_at": "2026-10-07T05:45:37.952Z",
   "files": [
     "batch-118.md",
-    "batch-118-fix-1.md"
+    "batch-118-fix-1.md",
+    "batch-118-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3746,20 +3747,15 @@
     },
     {
       "slug": "nimerigar",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-2.md",
+      "entry_sha256": "a9c9afd9924983dd49c33a7f3359dfbf87a3b5f17f20583d0fa8ef20d1542f15",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nimerigar-c01",
@@ -3810,10 +3806,29 @@
           "quote": "Als Nimerigar wird eine Rasse kleiner kriegerischer Menschen bezeichnet, die nach Erzählungen der Schoschonen früher das Gebiet von Wyoming besiedelt haben sollen.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "nimerigar-c06",
+          "source_id": "nimerigar-s3",
+          "host": "www.legendsofamerica.com",
+          "statement": "To the Shoshone of Wyoming this small race was known as the Nimerigar, and their legends told of the little people attacking them with tiny bows and poisoned arrows.",
+          "statement_id": "Bagi orang Shoshone di Wyoming, ras kecil ini dikenal sebagai Nimerigar, dan legenda mereka menceritakan orang-orang kecil yang menyerang mereka dengan busur mungil dan panah beracun.",
+          "quote": "To the Shoshone Indians of Wyoming, this small race of people was known as the Nimerigar, and their legends told of the little people attacking them with tiny bows and poisoned arrows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nimerigar-c07",
+          "source_id": "nimerigar-s3",
+          "host": "www.legendsofamerica.com",
+          "statement": "Native Americans continue to warn their people to beware of the \"tiny people eaters\" who are still said to live in the mountains and high places of Wyoming.",
+          "statement_id": "Penduduk asli Amerika terus memperingatkan kaumnya agar waspada terhadap \"pemakan orang kecil\" yang konon masih tinggal di pegunungan dan tempat-tempat tinggi di Wyoming.",
+          "quote": "Native Americans continue to warn their people to be aware of the “tiny people eaters” who are still said to live in the mountains and high places of Wyoming.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "75b851087206a2beceb317efcb4d2e720e69f3aa860725f4b818e3ed04bcfd99"
+      "images": []
     },
     {
       "slug": "nuggle",
@@ -3892,20 +3907,15 @@
     },
     {
       "slug": "queen-of-elphame",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-2.md",
+      "entry_sha256": "7e7e9fa3f9612379ac53ed2d9c15dbbe2a2c073dd2677b9fdd527cc671744c77",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "queen-of-elphame-c01",
@@ -3956,27 +3966,51 @@
           "quote": "Vuonna 1598 noitaoikeudenkäynnissä syytetty skotlantilainen Andro Man käytti haltiakuningattaresta nimimuotoa Quene of Elphen.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "queen-of-elphame-c06",
+          "source_id": "queen-of-elphame-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Andro Man's confession, the queen \"can be old or young as she pleases\"; her shape-shifting magic extends to her own person.",
+          "statement_id": "Menurut pengakuan Andro Man, sang ratu \"bisa tua atau muda sesuka hatinya\"; sihir pengubah wujudnya meluas pada dirinya sendiri.",
+          "quote": "The Queen's shape-shifting magic extends to her own person. Andro Man's confession also noted that \"she can be old or young as she pleases\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "queen-of-elphame-c07",
+          "source_id": "queen-of-elphame-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Marion Grant, of the same coven as Andro Man, saw the queen as a \"fine woman, clad in a white walicot\".",
+          "statement_id": "Marion Grant, dari kelompok penyihir yang sama dengan Andro Man, menyaksikan sang ratu sebagai \"wanita cantik berpakaian walicot putih\".",
+          "quote": "Marion Grant, of the same coven as Andro Man, witnessed the queen as a \"fine woman, clad in a white walicot.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "queen-of-elphame-c08",
+          "source_id": "queen-of-elphame-s3",
+          "host": "witches.hca.ed.ac.uk",
+          "statement": "Alison Pierson confessed to knowing the Queene of Elphane for 16 years.",
+          "statement_id": "Alison Pierson mengaku telah mengenal Queene of Elphane selama 16 tahun.",
+          "quote": "Confessed to knowing the Queene of Elphane for 16 years.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f949e0ccbfeb56bfbe9128432a14617035377a695be6ee973450a44a6f56af6f"
+      "images": []
     },
     {
       "slug": "rhita-gawr",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-2.md",
+      "entry_sha256": "f282017e9db622d2d6d5d11be01302a6dff9a90ca3d8ec974cae99f1079ba769",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 3,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rhita-gawr-c01",
@@ -4017,10 +4051,49 @@
           "quote": "ジェフリー・オブ・モンマスの『ブリタニア列王史』によると、リトーは自分が殺した王たちのひげで毛皮の外套をつくり、アーサー王にすみやかに自分のひげをはぎ取って自分に差し出すように命じた。",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "rhita-gawr-c05",
+          "source_id": "rhita-gawr-s4",
+          "host": "en.wikisource.org",
+          "statement": "In Geoffrey of Monmouth, Arthur says he had found none of such strength since he killed the giant Ritho, who had challenged him to fight on the mountain Aravius.",
+          "statement_id": "Dalam Geoffrey of Monmouth, Arthur menyatakan bahwa ia tidak menemukan lawan sekuat itu sejak ia membunuh raksasa Ritho, yang menantangnya bertarung di gunung Aravius.",
+          "quote": "He told them he had found none of so great strength, since he killed the giant Ritho, who had challenged him to fight, upon the mountain Aravius.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rhita-gawr-c06",
+          "source_id": "rhita-gawr-s4",
+          "host": "en.wikisource.org",
+          "statement": "The giant had made furs for himself from the beards of kings he had killed, and sent word to Arthur to cut off his beard and send it to him.",
+          "statement_id": "Raksasa itu membuat bulu pakaian dari janggut raja-raja yang dibunuhnya, dan mengirim pesan kepada Arthur agar memotong janggutnya dan mengirimkannya kepadanya.",
+          "quote": "This giant had made himself furs of the beards of kings he had killed, and had sent word to Arthur carefully to cut off his beard and send it to him",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rhita-gawr-c07",
+          "source_id": "rhita-gawr-s4",
+          "host": "en.wikisource.org",
+          "statement": "If Arthur refused, he challenged him to a duel, offering that the conqueror should have the furs and the beard of the vanquished as a trophy of victory.",
+          "statement_id": "Jika Arthur menolak, ia menantangnya berduel dengan taruhan bahwa pemenang mendapat bulu pakaian itu dan janggut yang dikalahkan sebagai piala kemenangan.",
+          "quote": "But if he refused to do it, he challenged him to a duel, with this offer, that the conqueror should have the furs, and also the beard of the vanquished for a trophy of his victory.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rhita-gawr-c08",
+          "source_id": "rhita-gawr-s4",
+          "host": "en.wikisource.org",
+          "statement": "In the combat Arthur proved victorious and took the giant's beard and spoils.",
+          "statement_id": "Dalam pertarungan itu Arthur menang dan mengambil janggut serta rampasan sang raksasa.",
+          "quote": "In his conflict, therefore, Arthur proved victorious, and took the beard and spoils of the giant",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "22948fbd115d3a98d14bab022d6b5a4f3be503c2ac32d6a87b663c6487d5d345"
+      "images": []
     },
     {
       "slug": "simonside-dwarfs",
@@ -4184,20 +4257,15 @@
     },
     {
       "slug": "wirry-cow",
-      "file": "batch-118.md",
+      "file": "batch-118-fix-2.md",
+      "entry_sha256": "f36887e03cb91b54b337255553a36545311aa60accac06a15f9cca976ab167b3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wirry-cow-c01",
@@ -4248,10 +4316,49 @@
           "quote": "Wirry-cow o wirry-carl era un termine scozzese che indicava una creatura spaventosa del folclore scozzese.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "wirry-cow-c06",
+          "source_id": "wirry-cow-s3",
+          "host": "dsl.ac.uk",
+          "statement": "According to the Scottish National Dictionary, a worricow is a hobgoblin, bugbear, demon or fearsome monster.",
+          "statement_id": "Menurut Scottish National Dictionary, worricow adalah hobgoblin, momok, iblis, atau monster yang menakutkan.",
+          "quote": "A hobgoblin, bugbear, demon, a fearsome monster",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wirry-cow-c07",
+          "source_id": "wirry-cow-s3",
+          "host": "dsl.ac.uk",
+          "statement": "The word is also used for a person of frightening or repulsive appearance.",
+          "statement_id": "Kata itu juga dipakai untuk orang yang berpenampilan menakutkan atau menjijikkan.",
+          "quote": "a person of frightening or repulsive appearance, a 'sight'",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wirry-cow-c08",
+          "source_id": "wirry-cow-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A second sense in the dictionary: the Devil himself, an imp of Satan, or a mischievous person.",
+          "statement_id": "Arti lain dalam kamus itu: Iblis sendiri, anak buah Setan, atau orang yang nakal.",
+          "quote": "The Devil himself; an imp of Satan; a mischievous person.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wirry-cow-c09",
+          "source_id": "wirry-cow-s3",
+          "host": "dsl.ac.uk",
+          "statement": "The dictionary cites Scott (1816, The Black Dwarf): people say there are all sorts of worricows and long-nebbed things about the land.",
+          "statement_id": "Kamus itu mengutip Scott tahun 1816 (The Black Dwarf): orang mengatakan ada berbagai macam worricow dan makhluk berhidung panjang di negeri itu.",
+          "quote": "Sc. 1816 Scott B. Dwarf ii.: They do say there's a' sort o' worricows and langnebbit things about the land.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "59dcd5efe3eec80a7c8525bc0d201023c68cd48d4733a70964507bfa2a32af23"
+      "images": []
     }
   ]
 }

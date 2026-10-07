@@ -1,6 +1,6 @@
 # Review batch-130
 
-Diperiksa 2026-10-02T09:43:10.703Z. Berkas: batch-130.md.
+Diperiksa 2026-10-07T05:45:38.247Z. Berkas: batch-130.md, batch-130-fix-1.md.
 
 ## keteh-meriri — lulus-otomatis
 
@@ -255,10 +255,7 @@ Klaim 10 (exact 10), sumber 3, gambar 0.
 
 ## arquetu — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -266,6 +263,10 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | arquetu-c02 | exact | en.wikipedia.org | He lends money to those foolish enough to squander their fortune, but if they do it again he punishes them with a curse of eternal poverty. | He lends money to those foolish enough to spend their fortune but if they do it again, he punishes them by giving them a curse of eternal poverty. |
 | arquetu-c03 | exact | fr.wikipedia.org | According to the French article, the Arquetu looks like an old man with a green cross and seven dots drawn on his forehead. | L'Arquetu prend les traits d'un vieillard avec le dessin d'une croix verte et de sept points sur le front. |
 | arquetu-c04 | exact | ar.wikipedia.org | The Arabic article also says he lends money to spendthrifts and curses them with eternal poverty if they do it again. | إنه يقرض المال لهؤلاء الحمقى الذين يبددون ثرواتهم، ولكن إذا فعلوا ذلك مرة أخرى، فإنه يعاقبهم بإلقاء لعنة الفقر الأبدي. |
+| arquetu-c05 | exact | www.lashayucas.com | The Arquetu is described as an old man with long red hair in a white habit with purple spots, with a green cross surrounded by painted keys and padlocks on his forehead. | un anciano pelirrojo de largas melenas vestido con un hábito blanco con manchas moradas. Algo muy característico de este personaje es la cruz verde rodeada de llaves y candados pintados que tiene en su frente. |
+| arquetu-c06 | exact | www.lashayucas.com | From his shoulder hangs a bag the colour of clouds when the sun shines, and under his left arm he carries a golden chest adorned with silver and polished bronze. | Colgado de su hombro lleva una talega del color de las nubes cuando relumbra el sol y debajo del brazo izquierdo un arca de oro con adornos de plata y bronce pulido. |
+| arquetu-c07 | exact | www.lashayucas.com | He is said to roam the mountains and valleys of Cantabria helping people and advising that neither poor nor rich squander their wealth, since it greatly angers him when people waste their money. | Se dice que recorre los montes y los valles de Cantabria ayudando a la gente y dando consejos para que, ni pobres ni ricos, malgasten sus caudales, ya que le enfurece mucho que la gente malgaste su dinero. |
+| arquetu-c08 | exact | www.lashayucas.com | If those people spend the coins on their vices, the Arquetu condemns them to spend the rest of their days begging along the roads. | cuando esta gente gasta dichas monedas en sus vicios, el Arquetu le condena a pasar el resto de sus días pidiendo limosna por los caminos. |
 
 
 ## butoni — lulus-otomatis
@@ -361,10 +362,7 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 
 ## ethiopian-pegasus — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -373,6 +371,9 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | ethiopian-pegasus-c03 | exact | fr.wikipedia.org | According to the French article, the winged horses of Ethiopia are mentioned by Pliny the Elder and then taken up by some medieval bestiaries. | Les chevaux ailés d'Éthiopie ou pégases d'Éthiopie sont mentionnés par Pline l'Ancien puis repris par certains bestiaires médiévaux. |
 | ethiopian-pegasus-c04 | exact | uk.wikipedia.org | The Ukrainian article quotes Pliny's Natural History: 'In Ethiopia are born many monsters, among them winged horses armed with horns, called pegasi.' | «В Ефіопії народжуються... багато чудовиськ — [зокрема] крилаті коні, озброєні рогами, звані пегасами». |
 | ethiopian-pegasus-c05 | exact | uk.wikipedia.org | It appears in medieval bestiaries such as Der Naturen Bloeme (c. 1350) as a horned winged horse. | Тварина із середньовічних бестіаріїв, таких як «Der Naturen Bloeme» (бл. 1350 р.), де він постає як крилатий кінь з рогами. |
+| ethiopian-pegasus-c06 | exact | www.theoi.com | The Pegasos Aithiopikos (Ethiopian Pegasus) was a breed of winged, horned horse native to Aithiopia (Ethiopia) in sub-Saharan Africa. | THE PEGASOS AITHIOPIKOS (Ethiopian Pegasus) was a breed of winged, horned horse native to Aithiopia (Ethiopia) in sub-Saharan Africa. |
+| ethiopian-pegasus-c07 | exact | www.theoi.com | They were derived from Pegasos, the celebrated horse of Greek myth, who was himself said to have been born on the shores of the Red Sea near Aithiopia. | They were derived from Pegasos, the celebrated horse of Greek myth, who was himself said to have been born on the shores of the Red Sea near Aithiopia. |
+| ethiopian-pegasus-c08 | exact | www.theoi.com | Quoted from Pliny, Natural History 8.72: Aethiopia produces many monstrosities, including winged horses armed with horns, called Pegasi. | many monstrosities--[including] winged horses armed with horns, called Pegasi. |
 
 
 ## etsai — lulus-otomatis
@@ -673,10 +674,7 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 
 ## marabbecca — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -684,6 +682,9 @@ Klaim 4 (exact 4), sumber 3, gambar 0.
 | marabbecca-c02 | exact | en.wikipedia.org | It is thought to have been invented by Sicilian parents to keep children from playing near wells. | It is believed to have been invented by Sicilian parents to prevent their children from playing near wells. |
 | marabbecca-c03 | exact | it.wikipedia.org | According to the Italian article, the creature lives in wells and cisterns and was invented by Sicilian mothers to scare children away from the dangers of an open well. | Quest'essere (il cui nome ha probabili origini arabe) vive nei pozzi e nelle cisterne ed è stato inventato dalle madri siciliane per spaventare i figli e tenerli lontani dai pericoli che un pozzo scoperto può determinare. |
 | marabbecca-c04 | exact | mk.wikipedia.org | The Macedonian article also says it is of Arabic origin, lives in wells and reservoirs, looks like a woman and moves only at night. | Марабеката е од арапско потекло и живее во бунари и акумулации, има изглед на жена и се движи само ноќе. |
+| marabbecca-c05 | exact | www.balarm.it | A news article says its ideal habitat is the old wells that can still be found in many Sicilian towns. | Il suo habitat ideale si trova nei vecchi pozzi che ancora oggi si possono rintracciare in molti paesi della Sicilia. |
+| marabbecca-c06 | exact | www.balarm.it | According to the legend as the article tells it, it moves only at night like a shadow among shadows. | secondo la leggenda, si muove soltanto di notte come un'ombra tra le ombre. |
+| marabbecca-c07 | exact | www.balarm.it | The article says generations of children grew up afraid to approach wells for fear that some unidentified creature would jump out. | Generazioni di bambini sono cresciuti con il terrore di avvicinarsi ai pozzi per paura che ne saltasse fuori una non meglio identificata creatura. |
 
 
 ## margot-the-fairy — lulus-otomatis
@@ -775,10 +776,7 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## mirokutana — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -787,6 +785,7 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | mirokutana-c03 | exact | eu.wikipedia.org | It belongs to the group of irelu in Basque mythology. | Mirokutana euskal mitologian agertzen diren ireluen multzoan sartzen da. |
 | mirokutana-c04 | exact | fr.wikipedia.org | According to the French article, Zuzidun Txakurra, Olanoiko zakurra and Mirokutana are Basque spirits shaped like dogs, whose powers differ by place and legend. | Zuzidun Txakurra, Olanoiko zakurra et Mirokutana sont des génies de la mythologie basque qui ont l'aspect d'un chien. Outre le fait d'apparaitre comme des chiens, leurs pouvoirs diffèrent selon les lieux et les légendes. |
 | mirokutana-c05 | exact | fr.wikipedia.org | Through syncretism with Christianity, dogs were often taken to be possessed by the spirits of those who died unconfessed. | C'est pourquoi, à partir du syncrétisme qui a généré la nouvelle religion, à de nombreuses reprises, les chiens sont pris pour des êtres possédés par les esprits de ceux qui sont morts sans confession |
+| mirokutana-c06 | exact | web.archive.org | According to the Auñamendi Eusko Entziklopedia, Mirokutana is a nocturnal spirit that takes the form of a dog, according to accounts from the Oiartzun region, Gipuzkoa. | Genio nocturno que adopta figura de perro, según relatos de la región de Oiartzun, Gipuzkoa. |
 
 
 ## monster-of-lake-fagua — lulus-otomatis
