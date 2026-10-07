@@ -1,0 +1,69 @@
+{
+  "slug": "dragon",
+  "prompt": "ONE square premium painterly naturalistic epic Mythics illustration of a WESTERN FIRE-BREATHING DRAGON based on dragon-c01,c03,c19,c20,c21 only. One enormous LONG SERPENTINE smooth-headed scaled reptile, ONE head with powerful long jaws, NO HORNS anywhere, NO SPIKES, NO ANTLERS, NO head crest, ears unornamented. Exactly FOUR CLAWED LEGS, place creature sideways in a broad THREE-QUARTER BODY VIEW so front left/right paws and BOTH rear legs/paws clearly readable and separately grounded; exactly TWO leathery wings physically on shoulder blades, one long smooth scaled tail. Not a two-legged wyvern. Teeth inside jaws and ordinary scales are enough menace. A huge stream of ordinary orange FIRE vomits clearly from mouth (c03,c21); both eyes natural nonluminous. Living dragon advances from rocky ancient barrow with a small gold hoard in its cave (c20), tiny distant wooden manor buildings below for monumental perspective, low camera, dark blue night (c19). Original natural ochre-black scale palette and composition, rich naturalistic painted texture. No Chinese dragon traits, generic energy effects, modern movie/game/anime/comic design, victims, gore, nudity, lettering, logos, border or watermark.",
+  "depicted_variant": "Western hornless four-legged winged fire-dragon before a hoard barrow, based on Beowulf fire and hoard narrative.",
+  "basis_claim_ids": [
+    "dragon-c01",
+    "dragon-c03",
+    "dragon-c19",
+    "dragon-c20",
+    "dragon-c21"
+  ],
+  "visual_requirements": [
+    {
+      "description": "One serpentine dragon with wings and claws; selected four-legged reptilian editorial arrangement; no added horns.",
+      "claim_ids": [
+        "dragon-c01"
+      ]
+    },
+    {
+      "description": "Mouth-breathed fire in Western tradition and Beowulf.",
+      "claim_ids": [
+        "dragon-c03",
+        "dragon-c19",
+        "dragon-c21"
+      ]
+    },
+    {
+      "description": "Night and barrow/hoard setting.",
+      "claim_ids": [
+        "dragon-c19",
+        "dragon-c20"
+      ]
+    }
+  ],
+  "aura": "Imposing living Western dragon lit by its documented mouth fire.",
+  "artistic_choices": [
+    "Four-legged two-wing arrangement, scale palette and exact hoard/barrow composition are editorial interpretation of broad dragon morphology c01. No Chinese horns or traits borrowed from c08.",
+    "Small buildings supply composition scale; no victims or gore."
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Corrected native individually inspected: one hornless smooth-headed dragon with four clearly separate grounded clawed legs, two shoulder wings and long tail. Fire issues from mouth, hoard in stone barrow and night setting clear, natural eye, imposing living creature; no text or watermark.",
+    "native_sha256": "3c8048bc4f01ae26d052e31245385ff9dbda7e2c64aa5b311b896d859bff5558",
+    "reviewed_at": "2026-10-07T00:17:19.817276+00:00"
+  },
+  "reference": {
+    "slug": "dragon",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:St_Catherine,_St_George_and_the_Dragon_(M%C3%A4staren_fr%C3%A5n_Kappenberg)_-_Nationalmuseum_-_18337_(brightened),_draken.png",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "reference_file": "tmp/commons-43/dragon-reference.png",
+    "notes": "Commons image individually inspected before generation; iconography considered, composition original."
+  },
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "original_file": "data/artwork-generated/batch-1080/originals/dragon-commons-43.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-a0016e01-009c-4a0b-b66a-3c457f079e02.png",
+  "native_sha256": "3c8048bc4f01ae26d052e31245385ff9dbda7e2c64aa5b311b896d859bff5558",
+  "generated_at": "2026-10-07T00:17:19.817276+00:00",
+  "review_path": "data/gemini/reviews/batch-024.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T09:30:00+07:00",
+    "native_sha256": "3c8048bc4f01ae26d052e31245385ff9dbda7e2c64aa5b311b896d859bff5558",
+    "notes": "Western fire-breathing winged dragon burning by the barrow hoard at night, matching the Beowulf claims; settlement for scale."
+  }
+}

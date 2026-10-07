@@ -3,8 +3,9 @@
  * Worklist for the next editorial illustration batch: every "lengkap-informasi" creature (complete, valid
  * research without an approved image), with its accepted research embedded unchanged.
  *
- *   node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex [--limit 100] [--slugs a,b,c] [--policy nama-besar]
- *     --slugs        only these creatures (they must still be lengkap-informasi)
+ *   node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex [--limit 100] [--slugs a,b,c] [--policy nama-besar] [--allow-commons]
+ *     --slugs        only these creatures (they must still have complete, valid research)
+ *     --allow-commons  also accept lengkap-bergambar entries without editorial artwork or exclusions
  *     --policy nama-besar  the dramatic style for big names (data/artwork-nama-besar.json → policy)
  *
  * Writes data/artwork-batch-<N>.json, where N = active illustrations + selected items (like 797 and 1000).
@@ -18,10 +19,10 @@ import { computeFillStatus } from './gemini/fill-lib.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, ROOT), 'utf8'));
-const { values: args } = parseArgs({ options: { tool: { type: 'string' }, worker: { type: 'string' }, limit: { type: 'string' }, slugs: { type: 'string' }, policy: { type: 'string' } } });
+const { values: args } = parseArgs({ options: { tool: { type: 'string' }, worker: { type: 'string' }, limit: { type: 'string' }, slugs: { type: 'string' }, policy: { type: 'string' }, 'allow-commons': { type: 'boolean', default: false } } });
 const only = args.slugs ? new Set(args.slugs.split(',').map(s => s.trim()).filter(Boolean)) : null;
 if (!args.tool?.trim() || !/^[a-z0-9-]+$/.test(args.worker || '')) {
-  console.error('Pemakaian: node scripts/prepare-artwork-batch.mjs --tool "<nama alat>" --worker <nama> [--limit N]');
+  console.error('Pemakaian: node scripts/prepare-artwork-batch.mjs --tool "<nama alat>" --worker <nama> [--limit N] [--allow-commons]');
   process.exit(1);
 }
 
@@ -40,7 +41,7 @@ const statement = claim => (typeof claim.statement === 'string' ? claim.statemen
 const appearance = /\b(?:appears? as|appearances?|form of|pictured|portrayed|depicted|described as|body|heads?|hair|eyes?|skin|beards?|wings?|horns?|claws?|feet|foot|tail|serpent|dragon|giant|dwarf|elk|wolf|horse|fish|frog|owl|insect|coat|cloak|shawl|robe|cap|hats?|tunics?|dress|trousers|goat|spider|cobra|eagle|bird|light|fireball|dog|cat|beast)\b/i;
 
 const eligible = Object.entries(status)
-  .filter(([slug, v]) => v.status === 'lengkap-informasi' && !manifest.artworks[slug] && !exclusions[slug] && (!only || only.has(slug)))
+  .filter(([slug, v]) => (v.status === 'lengkap-informasi' || (args['allow-commons'] && v.status === 'lengkap-bergambar')) && !manifest.artworks[slug] && !exclusions[slug] && (!only || only.has(slug)))
   .map(([slug]) => slug);
 const missing = eligible.filter(slug => !entries.has(slug));
 let selected = eligible.filter(slug => entries.has(slug)).map(slug => {
@@ -50,7 +51,7 @@ let selected = eligible.filter(slug => entries.has(slug)).map(slug => {
 // Documented appearance first, then the rest; earlier omissions last.
 selected.sort((a, b) => Number(Boolean(earlier[a.slug])) - Number(Boolean(earlier[b.slug])) || b.visual.length - a.visual.length || a.slug.localeCompare(b.slug, 'en'));
 if (args.limit) selected = selected.slice(0, Number(args.limit));
-if (!selected.length) throw new Error('Tidak ada entri lengkap-informasi yang bisa digambar.');
+if (!selected.length) throw new Error(args['allow-commons'] ? 'Tidak ada entri lengkap-informasi atau lengkap-bergambar tanpa ilustrasi AI yang bisa digambar.' : 'Tidak ada entri lengkap-informasi yang bisa digambar.');
 
 const baseline = Object.keys(manifest.artworks).length;
 const number = baseline + selected.length;
@@ -106,5 +107,18 @@ const batch = {
     omitted: [],
   },
 };
+if (args['allow-commons']) {
+  batch.scope = `${items.length} illustrations for complete, valid research without editorial artwork, including entries already illustrated by Commons; existing Commons images are preserved.`;
+  batch.selection_criteria = {
+    allow_commons: true,
+    commons_only: items.every(i => status[i.slug].status === 'lengkap-bergambar'),
+    commons_slugs: items.filter(i => status[i.slug].status === 'lengkap-bergambar').map(i => i.slug),
+    rules: [
+      'computeFillStatus must be lengkap-informasi or lengkap-bergambar: complete, valid research.',
+      ...batch.selection_criteria.slice(1),
+      'Add editorial AI illustrations alongside existing Commons images; preserve the accepted research and its images unchanged.',
+    ],
+  };
+}
 await writeFile(output, `${JSON.stringify(batch, null, 2)}\n`);
 console.log(JSON.stringify({ output: `data/artwork-batch-${number}.json`, baseline, target: items.length, tool: batch.tool, worker: args.worker, missing: missing.length, needs_catalogue_record: batch.selection_audit.needs_catalogue_record, without_visual_claims: batch.selection_audit.without_visual_claims.length, earlier_omissions: batch.selection_audit.earlier_omissions.length }, null, 2));

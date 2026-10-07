@@ -17,7 +17,7 @@
   "require_root_visual_review": true,
   "screening_complete": true,
   "target": 57,
-  "complete": 46,
+  "complete": 47,
   "catalogue_slugs": [
     "a",
     "aamon",
@@ -21893,7 +21893,7 @@
       "slug": "lucifer",
       "canonical_name": "Lucifer",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -22266,8 +22266,85 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/lucifer.json",
-      "native_sha256": "7ecee9ee78e84c2f68b9348a6e35b0af8568eee86177c446b0a8cc8d9d7b755d",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/lucifer.png"
+      "native_sha256": "d24ad8856750e56eb3f867ffc5b49df76d4003271142811233682e054788c2e9",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/lucifer-commons-43.png",
+      "prompt": "ONE square premium painterly naturalistic Mythics mythology illustration, nama-besar epic source-supported style. LUCIFER as terrifying CHRISTIAN DEVIL AND FALLEN ANGEL (lucifer-c01,c04,c10), towering raging celestial predator diving DIAGONALLY headlong out of a torn dawn heaven, wings and dynamic body dominate entire frame, dark distant world tiny below. ONE head TWO arms TWO legs and TWO huge naturally shoulder-attached black feathered wings, charred feather edges trailing black smoke; wing iconography is explicit permitted artistic interpretation of fallen angel c01. Beautiful but utterly FEROCIOUS proud enraged face, cold white burning eyes, charcoal-blackened skin with cracked remnants of WHITE GOLD MORNING-STAR LIGHT glowing through, the light fades into decaying smoky comet trail (morning star c02, light-bringer c06,c13 and dawn c14), clearly allegorical imagery of fallen light, not researched literal anatomy or fire ability. Modest torn opaque dark cloth covers torso and lower body, no regal robe portrait or calm sitting pose. One morning-star Venus shines LOW on distant horizon before sunrise c02. Epic violent chiaroscuro, original rich painterly realistic texture, more devilish than an ordinary man. Absolutely NO HORNS, TAIL, GOAT LEGS, RED SKIN, PITCHFORK, HELLFIRE, LAVA, ROMAN TORCH, ARMOUR or CROWN. Original composition; coherent readable anatomy. No modern film/game/anime/comic designs, nudity, gore, text, label, logo, border or watermark.",
+      "depicted_variant": "Terrifying Christian Lucifer as a diving winged fallen light-bringer, blackened and enraged against the dawn.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Terrifying Christian Devil and fallen angel: one head, two arms, two legs and two huge shoulder-attached black feathered wings with charred, smoking edges; ferocious proud face with cold burning eyes; modest torn dark cloth. Wings are the permitted fallen-angel iconography. No horns, tail, goat legs, red skin, pitchfork, armour or crown.",
+          "claim_ids": [
+            "lucifer-c01",
+            "lucifer-c04",
+            "lucifer-c10"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Charcoal-blackened skin cracked with fading white-gold morning-star light that decays into a smoky comet trail: allegorical light-bringer imagery, not a literal fire ability. No hellfire or lava.",
+          "claim_ids": [
+            "lucifer-c02",
+            "lucifer-c06",
+            "lucifer-c13"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Diving headlong out of a torn dawn heaven with a dark world tiny below for scale; one morning star (Venus) low on the horizon before sunrise.",
+          "claim_ids": [
+            "lucifer-c02",
+            "lucifer-c14"
+          ]
+        }
+      ],
+      "aura": "Terrifying Christian Lucifer as a diving winged fallen light-bringer, blackened and enraged against the dawn.",
+      "basis_claim_ids": [
+        "lucifer-c01",
+        "lucifer-c02",
+        "lucifer-c04",
+        "lucifer-c06",
+        "lucifer-c10",
+        "lucifer-c13",
+        "lucifer-c14"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native individually inspected: towering enraged blackened fallen angel diving diagonally, two massive shoulder feather wings charred at edges, two arms and two bent legs, cold white eyes and cracked white-gold light; dark world and single low morning star clearly visible. No horns, tail, goat legs, red skin, pitchfork, lava, hellfire, torch, armour or crown. Body clothed, no calm cliff portrait, text or watermark. Light/smoke/charred details are owner-directed allegory, not literal sourced anatomy or added attack powers.",
+        "native_sha256": "d24ad8856750e56eb3f867ffc5b49df76d4003271142811233682e054788c2e9",
+        "reviewed_at": "2026-10-07T00:23:15.375963+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-07T09:30:00+07:00",
+        "native_sha256": "d24ad8856750e56eb3f867ffc5b49df76d4003271142811233682e054788c2e9",
+        "notes": "Now a terrifying fallen angel, not an ordinary man: scorched wings, darkened skin cracked with dying morning-star light, plunging from a torn dawn sky with the morning star on the horizon (c01, c02, c04, c06, c10). No horns, tail or hellfire."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/lucifer.json",
+        "native_sha256": "d24ad8856750e56eb3f867ffc5b49df76d4003271142811233682e054788c2e9",
+        "old_url": "/assets/art/lucifer-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-16d8eb8e-2386-4876-82a2-62e0bfeafa61.png",
+        "old_webp_sha256": "3e030789c629c7c737afd692138e0decbb94af8090fc5ccfeede9b056312b324",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "lucifer-c01",
+          "lucifer-c02",
+          "lucifer-c04",
+          "lucifer-c06",
+          "lucifer-c10",
+          "lucifer-c13",
+          "lucifer-c14"
+        ]
+      },
+      "url": "/assets/art/lucifer-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "066422d3569a48e4f749a2fc14a5331bccc202fc93118b5d4d1e670de08a886f"
     },
     {
       "index": 9,
@@ -44817,5 +44894,6 @@
       "sha256": "2aa35308658326eece6ae96b1241cf1a3ced096a0e54cc30c1f406f125f42c95"
     }
   ],
-  "generated": 57
+  "generated": 57,
+  "keep_rejected_attempts": true
 }

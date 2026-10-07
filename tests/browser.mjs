@@ -549,10 +549,13 @@ try {
     );
     await page.locator("#compare-select-b").selectOption(last.slug);
     await page.locator("#btn-run-compare").click();
-    await page.waitForFunction(() =>
-      document
-        .querySelector(".compare-matrix-table")
-        ?.textContent.match(/Not assessed|Belum dinilai/),
+    // The last catalogue entry changes as artwork batches add records, so check that it compares, not its tier.
+    await page
+      .locator(`.compare-header-row [data-slug="${last.slug}"]`)
+      .waitFor();
+    assert.equal(
+      await page.locator(".compare-matrix-table [data-axis]").count(),
+      3,
     );
     await go("explore?tier=core");
     await page

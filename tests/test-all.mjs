@@ -5,6 +5,7 @@
  */
 
 import assert from 'node:assert/strict';
+import './prepare-artwork-batch.mjs';
 import { calculatePowerProfile } from '../server/power-engine.mjs';
 import { initDb, queryCreatures, getCreatureBySlug, getRandomCreature, compareCreatures, getCultures } from '../server/db.mjs';
 import { extractTraitsAndAbilities, calculateCompleteness, calculateConfidence } from '../server/ingestion.mjs';

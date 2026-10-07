@@ -1,0 +1,57 @@
+{
+  "slug": "krishna",
+  "prompt": "ONE square premium painterly naturalistic mythological education illustration of KRISHNA, respectful Hindu iconography. One radiant dignified youthful living deity with BLUE-BLACK skin, one head exactly two arms, two legs, yellow opaque robe, peacock feather in dark hair (krishna-c24). He holds a whole immense ROCKY GOVARDHAN HILL aloft with ONE raised hand effortlessly like a roof, clearly separated from ground and visibly supported by his palm (c05,c18,c31); other hand open protective gesture. Under the great overhanging hill, tiny distant cowherd villagers and cattle shelter safely from driving torrents of rain outside; seven-day deluge story c31. Low camera, figure dominates foreground with serene compassionate power amid epic storm, dramatic natural light glints on lifted wet rock, painterly rich detail. No generic energy ribbons, emitted fire, extra heads/arms, modern film/game/anime designs, gore, text, labels, logos, border or watermark. Modest opaque drapery covers torso and lower body, original scene rather than copying historical painting.",
+  "depicted_variant": "Blue-black Krishna in yellow robe and peacock feather lifting Govardhan with one hand to shelter villagers and cattle from rain.",
+  "basis_claim_ids": [
+    "krishna-c24",
+    "krishna-c05",
+    "krishna-c18",
+    "krishna-c31"
+  ],
+  "visual_requirements": [
+    {
+      "description": "Blue-black skin, yellow robe and peacock feather",
+      "claim_ids": [
+        "krishna-c24"
+      ]
+    },
+    {
+      "description": "Govardhan upheld effortlessly in one hand during deluge, villagers sheltered",
+      "claim_ids": [
+        "krishna-c05",
+        "krishna-c18",
+        "krishna-c31"
+      ]
+    }
+  ],
+  "aura": "Blue-black Krishna in yellow robe and peacock feather lifting Govardhan with one hand to shelter villagers and cattle from rain.",
+  "artistic_choices": [
+    "Framing, garment arrangement, villagers and cattle in the pastoral Gokula setting and rain composition are editorial staging of c31; no emitted magic effect."
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native individually inspected: two coherent arms, raised hand physically supporting suspended Govardhan, other in protective gesture; blue-black skin, yellow drapery and peacock feather clear. Villagers and cattle shelter beneath hill while rain falls outside; majestic deity with no text or watermark.",
+    "native_sha256": "4e79bd40b6dcadf414907cdc8869873b00ead0c793140ea734a4c238f5448f39",
+    "reviewed_at": "2026-10-07T00:13:10.370508+00:00"
+  },
+  "reference": {
+    "reference_file": "tmp/commons-43/krishna-reference.png",
+    "notes": "Commons source image individually inspected; attributes followed, composition original."
+  },
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "original_file": "data/artwork-generated/batch-1080/originals/krishna-commons-43.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-45fc808b-3ccb-4a94-8f87-413aed8fa5ff.png",
+  "native_sha256": "4e79bd40b6dcadf414907cdc8869873b00ead0c793140ea734a4c238f5448f39",
+  "generated_at": "2026-10-07T00:13:10.370508+00:00",
+  "review_path": "data/gemini/reviews/batch-024.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T09:30:00+07:00",
+    "native_sha256": "4e79bd40b6dcadf414907cdc8869873b00ead0c793140ea734a4c238f5448f39",
+    "notes": "Blue-skinned, yellow-robed Krishna holding up Govardhana with one hand to shelter the people and cattle from the deluge."
+  }
+}

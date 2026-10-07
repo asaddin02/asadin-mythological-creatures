@@ -1,0 +1,59 @@
+{
+  "slug": "vishnu",
+  "prompt": "Edit only the crown of this Vishnu image: REMOVE the PEACOCK FEATHER completely and replace that tiny crown-top area with plain gold jewelwork or unobstructed background. Preserve exactly the same four arms, discus, conch, mace, lotus, blue skin, gold Vaikuntha, solar radiance, clothing, framing, painterly style and every other detail. The source supports four attributes vishnu-c22, blue skin c21, Vaikuntha c13 and solar association c23, but does not support a peacock feather for this Vishnu. No words or watermark.",
+  "depicted_variant": "Four-armed blue Vishnu bearing discus, conch, mace and lotus in Vaikuntha, with solar-domain radiance.",
+  "basis_claim_ids": [
+    "vishnu-c13",
+    "vishnu-c21",
+    "vishnu-c22",
+    "vishnu-c23"
+  ],
+  "visual_requirements": [
+    {
+      "description": "VISHNU, respectful majestic Hindu Preserver, living blue-skinned deity exactly FOUR ARMS and one head. Each separate hand holds one clearly distinct object: Sudarsana discus, conch shell, heavy mace and lotus (c21,c22). Stands protectively on a lotus platform overlooking the magnificent shining gold and jewel city Vaikuntha with lotus lakes on Mount Meru (c13). Crown and modest traditional opaque robes; benevolent commanding gaze. Spectacular warm SOLAR RADIANCE emphasizes his documented solar association Surya Narayana (c23), source-supported illumination rather than invented attack or sci-fi beams. Low-angle monumental form above tiny distant gold palaces, readable hands, all four attributes visible, rich brushwork.",
+      "claim_ids": [
+        "vishnu-c13",
+        "vishnu-c21",
+        "vishnu-c22",
+        "vishnu-c23"
+      ]
+    }
+  ],
+  "aura": "Four-armed blue Vishnu bearing discus, conch, mace and lotus in Vaikuntha, with solar-domain radiance.",
+  "artistic_choices": [
+    "Crown, robe palette, lotus platform and physical pose are editorial traditional presentation. Strong solar illumination interprets c23 without asserting a new offensive ability."
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Four arms with conch, disk, mace and lotus; no peacock feather. Blue skin, golden radiant cosmic scale, living figure.",
+    "native_sha256": "37c5a35a5422073b0b9de872c49a727bdeeb7fb37f66de7237cc03f9a0553bf8",
+    "reviewed_at": "2026-10-07T00:27:17.053996+00:00"
+  },
+  "generation_prompts": [
+    "ONE square premium painterly naturalistic Mythics mythology catalogue illustration, nama-besar epic house style. VISHNU, respectful majestic Hindu Preserver, living blue-skinned deity exactly FOUR ARMS and one head. Each separate hand holds one clearly distinct object: Sudarsana discus, conch shell, heavy mace and lotus (c21,c22). Stands protectively on a lotus platform overlooking the magnificent shining gold and jewel city Vaikuntha with lotus lakes on Mount Meru (c13). Crown and modest traditional opaque robes; benevolent commanding gaze. Spectacular warm SOLAR RADIANCE emphasizes his documented solar association Surya Narayana (c23), source-supported illumination rather than invented attack or sci-fi beams. Low-angle monumental form above tiny distant gold palaces, readable hands, all four attributes visible, rich brushwork. Original composition, not copied from Commons reference. No extra limbs, nudity, gore, modern film/game/anime/comic designs, text, labels, logo, border or watermark.",
+    "Edit only the crown of this Vishnu image: REMOVE the PEACOCK FEATHER completely and replace that tiny crown-top area with plain gold jewelwork or unobstructed background. Preserve exactly the same four arms, discus, conch, mace, lotus, blue skin, gold Vaikuntha, solar radiance, clothing, framing, painterly style and every other detail. The source supports four attributes vishnu-c22, blue skin c21, Vaikuntha c13 and solar association c23, but does not support a peacock feather for this Vishnu. No words or watermark."
+  ],
+  "reference": {
+    "slug": "vishnu",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Vishnu_from_Gita_Govinda.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Vishnu_from_Gita_Govinda.jpg/960px-Vishnu_from_Gita_Govinda.jpg",
+    "reference_file": "tmp/commons-43/vishnu-reference.jpg",
+    "notes": "Commons image individually inspected before generation; iconography considered, composition original."
+  },
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "original_file": "data/artwork-generated/batch-1080/originals/vishnu-commons-43.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-d28a4007-bd1b-4d8c-8d1b-3bc93dfbdad4.png",
+  "native_sha256": "37c5a35a5422073b0b9de872c49a727bdeeb7fb37f66de7237cc03f9a0553bf8",
+  "generated_at": "2026-10-07T00:27:17.053996+00:00",
+  "review_path": "data/gemini/reviews/batch-024.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T09:30:00+07:00",
+    "native_sha256": "37c5a35a5422073b0b9de872c49a727bdeeb7fb37f66de7237cc03f9a0553bf8",
+    "notes": "Four-armed Vishnu with Sudarsana discus, conch, mace and lotus before golden Vaikuntha."
+  }
+}

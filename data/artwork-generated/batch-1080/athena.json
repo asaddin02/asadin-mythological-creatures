@@ -1,0 +1,64 @@
+{
+  "slug": "athena",
+  "prompt": "ONE square premium painterly naturalistic original Greek mythology illustration of ATHENA, living stately bright-eyed woman one head two arms two legs, opaque long classical robe, golden crested helmet, spear in one hand and polished bronze round shield in the other; snake-trimmed aegis cape with ornamental Gorgon face at chest (athena-c05,c26,c37,c40). Looming divine presence high above dark Aegean cliffs, low camera, confident commanding martial action. A furious sea STORM drives enormous waves against tiny distant Greek ships below, expressing her documented attack on Greek ships with storm (c25), dramatic ocean spray and slashing rain and cloud but no lightning wielded from spear or eyes. One owl rests on cliff near her feet (c02,c37). Authentic classical iconography, readable anatomy and attributes; original composition distinct from Louvre sculpture. Rich painterly texture, no film/game/anime design, nudity, gore, text, labels, logos, border or watermark.",
+  "depicted_variant": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+  "basis_claim_ids": [
+    "athena-c05",
+    "athena-c37",
+    "athena-c02",
+    "athena-c26",
+    "athena-c25"
+  ],
+  "visual_requirements": [
+    {
+      "description": "Stately woman in long robe and crested helmet holding shield and spear",
+      "claim_ids": [
+        "athena-c05",
+        "athena-c37"
+      ]
+    },
+    {
+      "description": "Snake-trimmed Gorgon aegis and owl",
+      "claim_ids": [
+        "athena-c02",
+        "athena-c26"
+      ]
+    },
+    {
+      "description": "Storm against Greek ships",
+      "claim_ids": [
+        "athena-c25"
+      ]
+    }
+  ],
+  "aura": "Helmeted Athena with spear, shield, snake-trimmed Gorgon aegis and owl, commanding a sea storm.",
+  "artistic_choices": [
+    "Robe palette, wave scale, lighting and low viewpoint are editorial staging; storm specifically illustrates c25."
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native individually inspected: coherent helmeted woman in opaque long robe with spear and round shield, snake-trimmed Gorgon aegis and owl. Strong monumental presence above Greek ships in rough storm sea; no generic energy, text or watermark.",
+    "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+    "reviewed_at": "2026-10-07T00:13:10.036519+00:00"
+  },
+  "reference": {
+    "reference_file": "tmp/commons-43/athena-reference.jpg",
+    "notes": "Commons source image individually inspected; attributes followed, composition original."
+  },
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "original_file": "data/artwork-generated/batch-1080/originals/athena-commons-43.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a113ac-55ae-7042-8147-27aa2441cfcf/exec-20d070c5-b2f5-43f9-b75e-16b8bb0d1941.png",
+  "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+  "generated_at": "2026-10-07T00:13:10.036519+00:00",
+  "review_path": "data/gemini/reviews/batch-025.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-07T09:30:00+07:00",
+    "native_sha256": "3888f9b5eceb9a250dc5da75c2314daab3fdf7c65e90101a37b4a18309c95347",
+    "notes": "Helmeted goddess with spear, Gorgon aigis, shield and owl, raising the storm against the Greek ships."
+  }
+}
