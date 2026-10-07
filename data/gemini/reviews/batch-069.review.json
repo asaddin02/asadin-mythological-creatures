@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-069",
-  "checked_at": "2026-10-07T07:40:29.997Z",
+  "checked_at": "2026-10-07T07:57:52.314Z",
   "files": [
     "batch-069.md",
     "batch-069-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-069-fix-3.md",
     "batch-069-fix-4.md",
     "batch-069-fix-5.md",
-    "batch-069-fix-6.md"
+    "batch-069-fix-6.md",
+    "batch-069-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2631,26 +2632,15 @@
     },
     {
       "slug": "klu",
-      "file": "batch-069-fix-5.md",
-      "entry_sha256": "840bb019cfa55747c329995f8bc53d3ae423d08c26ca1d1f80ff694e0e0f00ae",
+      "file": "batch-069-fix-7.md",
+      "entry_sha256": "1ae9884a949e93d341a82ef5a508e8595708f8f00566f61f2e809e23ae9484c4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
+        "claims": 9,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Mandarin, Buddha, Chinese, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "relations[0].note",
-          "message": "Tidak muncul di kutipan mana pun: Buddha, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "klu-c01",
@@ -2658,7 +2648,7 @@
           "host": "zh.wikipedia.org",
           "statement": "Klu are dragon deities or water spirits in Tibetan tradition.",
           "statement_id": "Klu adalah dewa naga atau roh air dalam tradisi Tibet.",
-          "quote": "鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；魯龙是重要的水界神靈，传说作为天神之子的吐蕃王赞普，最初皆与龙女或神女婚配；佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。考古認為魯龙文化的起源非常久遠，可能是漢藏民族的共同信仰，在纳西、彝、傈僳等其他民族中都有流传，和汉地的龙文化也可能同源。",
+          "quote": "鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。",
           "context": "religious-tradition",
           "status": "loose"
         },
@@ -2668,9 +2658,9 @@
           "host": "zh.wikipedia.org",
           "statement": "In Bon, some bring harvests and happiness while others bring disease and disaster.",
           "statement_id": "Dalam Bon, sebagian membawa panen dan kebahagiaan, sedangkan sebagian membawa penyakit dan bencana.",
-          "quote": "鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；魯龙是重要的水界神靈，传说作为天神之子的吐蕃王赞普，最初皆与龙女或神女婚配；佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。考古認為魯龙文化的起源非常久遠，可能是漢藏民族的共同信仰，在纳西、彝、傈僳等其他民族中都有流传，和汉地的龙文化也可能同源。",
+          "quote": "在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "klu-c03",
@@ -2731,32 +2721,31 @@
           "quote": "Nagas control water, inhabit aquatic domains, and navigate between realms. In Ladakh, maintaining good relationships with the lu (nagas) is essential for sustaining balance and harmonious in the environment.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "klu-c09",
+          "source_id": "klu-s1",
+          "host": "zh.wikipedia.org",
+          "statement": "After Buddhism (佛教) reached Tibet, klu were equated with the naga of Indian culture.",
+          "statement_id": "Setelah agama Buddha (佛教) masuk ke Tibet, klu disamakan dengan naga dalam budaya India.",
+          "quote": "佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "lankeswari",
-      "file": "batch-069-fix-5.md",
-      "entry_sha256": "7cc77f9b242e1be6856866fe5c625910acecb7697b0f3e288499901ab5f341a9",
+      "file": "batch-069-fix-7.md",
+      "entry_sha256": "fcdc83731e10ec78de089ad0d9043ec88044e510133f27e05e5caae0607ba960",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 10,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "long_description[1]",
-          "message": "Tidak muncul di kutipan mana pun: Wikipedia, Orissa, Review. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[2]",
-          "message": "Tidak muncul di kutipan mana pun: Review, Orissa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lankeswari-c01",

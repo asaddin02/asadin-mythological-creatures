@@ -1,6 +1,6 @@
 # Review batch-069
 
-Diperiksa 2026-10-07T07:40:29.997Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md.
+Diperiksa 2026-10-07T07:57:52.314Z. Berkas: batch-069.md, batch-069-fix-1.md, batch-069-fix-2.md, batch-069-fix-3.md, batch-069-fix-4.md, batch-069-fix-5.md, batch-069-fix-6.md, batch-069-fix-7.md.
 
 ## mo-chinese-zoology — lulus-otomatis
 
@@ -459,31 +459,24 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## klu — lulus-otomatis
 
-Klaim 8 (loose 2, exact 6), sumber 2, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Mandarin, Buddha, Chinese, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `relations[0].note` Tidak muncul di kutipan mana pun: Buddha, Buddhism. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+Klaim 9 (loose 1, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| klu-c01 | loose | zh.wikipedia.org | Klu are dragon deities or water spirits in Tibetan tradition. | 鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；魯龙是重要的水界神靈，传说作为天神之子的吐蕃王赞普，最初皆与龙女或神女婚配；佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。考古認為魯龙文化的起源非常久遠，可能是漢藏民族的共同信仰，在纳西、彝、傈僳等其他民族中都有流传，和汉地的龙文化也可能同源。 |
-| klu-c02 | loose | zh.wikipedia.org | In Bon, some bring harvests and happiness while others bring disease and disaster. | 鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難；魯龙是重要的水界神靈，传说作为天神之子的吐蕃王赞普，最初皆与龙女或神女婚配；佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。考古認為魯龙文化的起源非常久遠，可能是漢藏民族的共同信仰，在纳西、彝、傈僳等其他民族中都有流传，和汉地的龙文化也可能同源。 |
+| klu-c01 | loose | zh.wikipedia.org | Klu are dragon deities or water spirits in Tibetan tradition. | 鲁（藏語：ཀླུ，威利转写：klu，THL：lü），或半音半意译云鲁龙，是藏族文化中的龙神。 |
+| klu-c02 | exact | zh.wikipedia.org | In Bon, some bring harvests and happiness while others bring disease and disaster. | 在苯教传说中，鲁龙居住在五個方向的山林池澤中，其中有善類，帶來豐收和幸福，也有惡類，帶來疾疫和災難； |
 | klu-c03 | exact | zh.wikipedia.org | Early Klu forms are variable and can include different aquatic animals. | 根據對遺跡、壁畫和史料記載等的考古研究，推断“魯”龍神崇拜起源於吐蕃以前的原始社會。早期的鲁龙形象复杂多变，可以附身或化身爲水生動物，沒有固定的形象，甚至可以泛指魚、蝦、蛙、蛇、蝎、蟹等。牠們能帶來420多種疾病，如瘟疫、梅毒、傷寒、天花、麻風等，藏人稱之為“龍病”。在近代的川西南藏区仍流传着“亵渎了水中的神灵，身上就会起水泡、长脓疮”的说法，是“龙病”观点的遗留。 |
 | klu-c04 | exact | zh.wikipedia.org | Bon texts describe composite forms with human bodies, various animal heads, and snake or fish tails. | 在苯教经过辛饶米沃祖师的改革而进入恰苯时期後，鲁龙被作为重要的神祇加以供奉，其形象演變為多種動物的綜合。苯教《大品黑白花濟龍經》（《十万龙经》）記載，龍神有人身、馬頭，或蛇頭、虎頭、熊頭、鼠頭、羊頭、牛頭、豹頭、豕頭、鹿頭、狼頭、孔雀頭等等不同形象，且都有蛇尾或魚尾。這與漢地龍形象的演變頗有相近之處，即“九擬”理論——角似鹿（最初漢地龍沒有角）、頭似駝、眼似兔、項似蛇、腹似蜃、鱗似魚、爪似鷹、掌似虎、身如牛。此時期，魯龍的故事也在原始傳說基礎上豐富而具體起來。如苯教经典《花黑白十万龙经》（简称《十万龙经》，也稱《十二萬龍經》）中寫道，魯龍是世界誕生之母，故稱“龍母”，它們居住在水域中，或山林中，也說住在海底龍宮，守护着无数财宝。藏学家海爾姆特·霍夫曼在《西藏的宗教》一书中写道：“这些龙的最初的住所是河和湖，甚至是些井；他们在水底有家，守卫着秘密的财富。 |
 | klu-c05 | exact | waterstories.fas.harvard.edu | Water spirits known in Ladakh as lu (klu in Tibetan and Ladakhi) are commonly translated as naga, which the essay describes as semi-divine hybrid beings of Indian mythology with human torsos and serpent tails. | These spirits, known locally as lu (klu in Tibetan and Ladakhi)—commonly translated as naga (semi-divine hybrid beings from Indian Mythology who have human torsos with serpent tails), remind us of their contribution to Buddhist practice and role in navigating human relationships with the environment. |
 | klu-c06 | exact | waterstories.fas.harvard.edu | In Ladakh, nagas are described as temperamental shape-shifting water spirits called lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well known for being able both to control water and to bring misfortune when disturbed. | In Ladakh, nagas are temperamental shape-shifting water spirits known as lu, who inhabit various corners of the natural world and can bestow great wealth. From streams and soil to trees and stones, lu are well-known for their abilities to both control water and wreck misfortune when perturbed. |
 | klu-c07 | exact | waterstories.fas.harvard.edu | Lu are known for their affinity for natural springs; contaminating a spring, even washing hands in it, is said to disturb the lu and can bring skin ailments, stomach trouble and joint pain. An unhappy lu can bring illness, hardship and unending tragedy to an individual, family or community. | lu are known for their affinity for natural springs and contaminating a spring, even washing one’s hands in the spring, will disrupt the lu and can result in bodily afflictions, such as skin maladies, gastrointestinal discomfort, and joint pain. An unhappy lu can bring illness, hardship, and unending tragedy to an individual, family, or community. |
 | klu-c08 | exact | waterstories.fas.harvard.edu | Nagas are said to control water, inhabit aquatic domains and move between realms; in Ladakh, keeping good relations with the lu is regarded as essential to sustaining balance and harmony in the environment. | Nagas control water, inhabit aquatic domains, and navigate between realms. In Ladakh, maintaining good relationships with the lu (nagas) is essential for sustaining balance and harmonious in the environment. |
+| klu-c09 | exact | zh.wikipedia.org | After Buddhism (佛教) reached Tibet, klu were equated with the naga of Indian culture. | 佛教傳入藏地後，魯龙和印度文化中的那伽神龍（蛇龍類神獸）等同起來。 |
 
 
 ## lankeswari — lulus-otomatis
 
 Klaim 10 (loose 3, exact 7), sumber 3, gambar 0.
-
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia, Orissa, Review. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[2]` Tidak muncul di kutipan mana pun: Review, Orissa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
