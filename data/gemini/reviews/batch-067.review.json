@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-067",
-  "checked_at": "2026-10-06T19:25:42.520Z",
+  "checked_at": "2026-10-07T04:32:08.687Z",
   "files": [
     "batch-067.md",
     "batch-067-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-067-fix-3.md",
     "batch-067-fix-4.md",
     "batch-067-fix-5.md",
-    "batch-067-fix-6.md"
+    "batch-067-fix-6.md",
+    "batch-067-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4977,20 +4978,15 @@
     },
     {
       "slug": "sansei-folklore",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-7.md",
+      "entry_sha256": "3740ee10d94407593f60cf16e98cd1928c313e909b1b629fe3a68250c78dee44",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sansei-folklore-c01",
@@ -5041,10 +5037,79 @@
           "quote": "Due to its inclusion in Sekien's influential work, some later Japanese yōkai literature, particularly from the Shōwa and Heisei eras onwards, have presented the Sansei as if it were a native Japanese yōkai, rather than one originating in China.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "sansei-folklore-c06",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Wakan Sansai Zue, the Sansei has only one leg, with its heel attached facing backward, a feature mentioned in the Baopuzi.",
+          "statement_id": "Menurut Wakan Sansai Zue, Sansei hanya berkaki satu dengan tumit yang menghadap ke belakang, ciri yang disebut dalam Baopuzi.",
+          "quote": "It possesses only one leg, and its heel is attached facing backward (a feature mentioned in the Baopuzi; see image).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sansei-folklore-c07",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It steals salt from people working in the mountains and frequently eats crabs and frogs.",
+          "statement_id": "Ia mencuri garam dari orang yang bekerja di pegunungan dan sering memakan kepiting dan katak.",
+          "quote": "It steals salt from people working in the mountains and frequently eats crabs and frogs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sansei-folklore-c08",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It appears at night and assaults humans, but if one calls out the name \"Batsu\" (魃, a Chinese drought spirit), the Sansei loses its power to harm them.",
+          "statement_id": "Ia muncul pada malam hari dan menyerang manusia, tetapi jika seseorang menyerukan nama \"Batsu\" (魃, roh kekeringan Tiongkok), Sansei kehilangan kekuatannya untuk mencelakai.",
+          "quote": "It appears at night and assaults humans. However, if one calls out the name 'Batsu' (魃, a Chinese drought spirit), the Sansei loses its power to harm them.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "sansei-folklore-c09",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Conversely, if a human attacks a Sansei, that person may fall ill or their house might catch fire.",
+          "statement_id": "Sebaliknya, jika manusia menyerang Sansei, orang itu dapat jatuh sakit atau rumahnya bisa terbakar.",
+          "quote": "Conversely, if a human attacks a Sansei, that person may fall ill, or their house might catch fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sansei-folklore-c10",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its height is given as one shaku (about 30 cm) according to the Eika Ki, or three to four shaku (about 90-120 cm) according to the Genchū Ki.",
+          "statement_id": "Tingginya disebut satu shaku (sekitar 30 cm) menurut Eika Ki, atau tiga sampai empat shaku (sekitar 90-120 cm) menurut Genchū Ki.",
+          "quote": "Its height is described as one shaku (approx. 30 cm or 1 ft) according to the Eika Ki, or three to four shaku (approx. 90–120 cm or 3–4 ft) according to the Genchū Ki (玄中記).",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "sansei-folklore-c11",
+          "source_id": "sansei-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some of these later derivative descriptions say it appears at mountain huts specifically because it wants salt, while others claim it holds dominion over the animals of the mountains.",
+          "statement_id": "Sebagian deskripsi turunan itu menyebut ia muncul di pondok gunung khusus karena menginginkan garam, sedangkan yang lain mengklaim ia berkuasa atas hewan-hewan gunung.",
+          "quote": "Some of these derivative descriptions mention it appearing at mountain huts specifically because it wants salt, while others claim it holds dominion over the animals of the mountains.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sansei-folklore-c12",
+          "source_id": "sansei-folklore-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Baopuzi says that the mountain sprite (shanjing) is shaped like a small child with a single leg, moving backward, and likes to come and assault people; if one hears a loud voice at night, its name is Qi (蚑), and calling it by name stops it from daring to attack.",
+          "statement_id": "Baopuzi menyebut bahwa 山精 (shanjing, roh gunung) berbentuk seperti anak kecil berkaki satu, bergerak ke belakang, dan suka datang mengganggu orang; jika pada malam hari terdengar suara orang berbicara keras, namanya adalah Qi (蚑), dan memanggilnya dengan nama itu membuatnya tidak berani mengganggu.",
+          "quote": "山中山精之形，如小儿而独足，走向后，喜来犯人。人入山，若夜闻人音声大语，其名曰蚑，知而呼之，即不敢犯人也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f8350cc952f6314b0f9f2a683acf2d6688dca6edad1bb05f2ef90714d49b51ad"
+      "images": []
     },
     {
       "slug": "shuihu",

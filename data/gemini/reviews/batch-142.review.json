@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-142",
-  "checked_at": "2026-10-06T19:43:39.183Z",
+  "checked_at": "2026-10-07T04:32:08.345Z",
   "files": [
     "batch-142.md",
     "batch-142-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-142-fix-3.md",
     "batch-142-fix-4.md",
     "batch-142-fix-5.md",
-    "batch-142-fix-6.md"
+    "batch-142-fix-6.md",
+    "batch-142-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -9814,28 +9815,23 @@
     },
     {
       "slug": "cadborosaurus",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "cf97f12ad48817188a7c68c1c0a3246b454af957c90341882f817fb1e2d152c3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cadborosaurus-c01",
           "source_id": "cadborosaurus-s1",
           "host": "en.wikipedia.org",
-          "statement": "Find sources: 'Cadborosaurus' – news · newspapers · books · scholar · JSTOR (September 2024) (Learn how and when to remove this message) Cadborosaurus, nicknamed Caddy by journalist Archie Wills, is a sea serpent in the folklore of regions of the Pacific Coast of North America.",
-          "statement_id": "Cadborosaurus berjuluk Caddy adalah ular laut dalam folklor pesisir Pasifik North America.",
-          "quote": "Find sources: \"Cadborosaurus\" – news · newspapers · books · scholar · JSTOR (September 2024) (Learn how and when to remove this message) Cadborosaurus, nicknamed Caddy by journalist Archie Wills, is a sea serpent in the folklore of regions of the Pacific Coast of North America.",
+          "statement": "Cadborosaurus, nicknamed Caddy by journalist Archie Wills, is a sea serpent in the regional folklore of the Pacific Coast of North America.",
+          "statement_id": "Cadborosaurus, dijuluki Caddy oleh jurnalis Archie Wills, adalah ular laut dalam cerita rakyat daerah pesisir Pasifik Amerika Utara.",
+          "quote": "Cadborosaurus, nicknamed Caddy by journalist Archie Wills, is a sea serpent in regional folklore of the Pacific Coast of North America.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -9843,8 +9839,8 @@
           "id": "cadborosaurus-c02",
           "source_id": "cadborosaurus-s1",
           "host": "en.wikipedia.org",
-          "statement": "Its name is derived from Cadboro Bay in Victoria, British Columbia, and the Greek word saûros (σαῦρος) meaning lizard or reptile.",
-          "statement_id": "Namanya diambil dari Cadboro Bay di Victoria, British Columbia dan kata saûros.",
+          "statement": "Its name is derived from Cadboro Bay in Victoria, British Columbia, and the Greek word saûros, meaning lizard or reptile.",
+          "statement_id": "Namanya berasal dari Cadboro Bay di Victoria, British Columbia, dan kata Yunani saûros yang berarti kadal atau reptil.",
           "quote": "Its name is derived from Cadboro Bay in Victoria, British Columbia, and the Greek word saûros (σαῦρος) meaning lizard or reptile.",
           "context": "etymology",
           "status": "exact"
@@ -9853,9 +9849,9 @@
           "id": "cadborosaurus-c03",
           "source_id": "cadborosaurus-s1",
           "host": "en.wikipedia.org",
-          "statement": "Edward Blousfield, retired chief zoologist of the Canadian Museum of Nature, state every elongated animal has been put forward as an explanation for Caddy.",
-          "statement_id": "Pakar menyatakan setiap satwa memanjang pernah diajukan sebagai penjelasan untuk Caddy.",
-          "quote": "Edward Blousfield, retired chief zoologist of the Canadian Museum of Nature, state every elongated animal has been put forward as an explanation for Caddy.",
+          "statement": "Paul LeBlond of UBC and Edward Blousfield, retired chief zoologist of the Canadian Museum of Nature, note the diverse array of elongated animals that have been proposed as explanations for Caddy.",
+          "statement_id": "Paul LeBlond dari UBC dan Edward Blousfield, pensiunan kepala zoolog Canadian Museum of Nature, mencatat beragam hewan memanjang yang diajukan sebagai penjelasan untuk Caddy.",
+          "quote": "Paul LeBlond, director of Earth and Ocean Sciences at UBC, and Edward Blousfield, retired chief zoologist of the Canadian Museum of Nature, note the diverse array of elongated animals that have been put forward as an explanation for Caddy",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -9863,40 +9859,154 @@
           "id": "cadborosaurus-c04",
           "source_id": "cadborosaurus-s1",
           "host": "en.wikipedia.org",
-          "statement": "These animals include Conger eels, humpback whales, elephant seals, ribbon or oarfish, basking sharks, and sea lions.",
-          "statement_id": "Hewan tersebut meliputi belut conger, paus bungkuk, anjing laut gajah, dan hiu.",
-          "quote": "These animals include Conger eels, humpback whales, elephant seals, ribbon or oarfish, basking sharks, and sea lions.",
+          "statement": "The proposed animals include Conger eels, humpback whales, elephant seals, ribbon or oarfish, basking sharks, and sea lions.",
+          "statement_id": "Hewan yang diajukan meliputi belut Conger, paus bungkuk, anjing laut gajah, ikan pita atau oarfish, hiu penjemur, dan singa laut.",
+          "quote": "including Conger eels, humpback whales, elephant seals, ribbon or oarfish, basking sharks, and sea lions.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c05",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Witnesses are said to describe Cadborosaurus willsi as a serpent with vertical coils or humps behind a horse-like head and long neck, with a pair of small elevating front flippers.",
+          "statement_id": "Para saksi dikatakan menggambarkan Cadborosaurus willsi sebagai ular dengan lekukan atau punuk vertikal di belakang kepala mirip kuda dan leher panjang, dengan sepasang sirip depan kecil yang dapat terangkat.",
+          "quote": "Cadborosaurus willsi is said by witnesses to resemble a serpent with vertical coils or humps in tandem behind a horse-like head and long neck, with a pair of small elevating front flippers",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c06",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Cadborosaurus is called hiyitl'iik by the Manhousaht people of Sydney Inlet, t'chain-ko in Sechelt mythology, and numkse lee kwala by the K'ómoks band of Vancouver Island.",
+          "statement_id": "Cadborosaurus disebut hiyitl'iik oleh orang Manhousaht di Sydney Inlet, t'chain-ko dalam mitologi Sechelt, dan numkse lee kwala oleh suku K'ómoks di Pulau Vancouver.",
+          "quote": "The Cadborosaurus is called hiyitl'iik by the Manhousaht people who live on Sydney Inlet, t'chain-ko in Sechelt mythology, and numkse lee kwala by the K'ómoks band of Vancouver Island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c07",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has also been argued that these Native stories reflect a diversity of different animals, some mythical and some real, and that conflating them with Cadborosaurus ignores their diverse origins and often independent backgrounds.",
+          "statement_id": "Ada pula yang berpendapat bahwa kisah-kisah pribumi ini mencerminkan beragam hewan, sebagian mitos dan sebagian nyata, dan menyamakannya dengan Cadborosaurus mengabaikan asal-usul mereka yang beragam dan sering berdiri sendiri.",
+          "quote": "However, it has also been argued that these Native stories reflect a diversity of different animals (some mythical, some real) and to prematurely conflate them with Cadborosaurus ignores their diverse origins and often independent backgrounds.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c08",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "There have been more than 300 claimed sightings over the past 200 years, including at Deep Cove in Saanich Inlet, Island View Beach, and San Francisco Bay, California.",
+          "statement_id": "Terdapat lebih dari 300 klaim penampakan dalam 200 tahun terakhir, antara lain di Deep Cove di Saanich Inlet, Island View Beach, dan San Francisco Bay, California.",
+          "quote": "There have been more than 300 claimed sightings during the past 200 years, including Deep Cove in Saanich Inlet, and Island View Beach, both of which are also on the Saanich Peninsula, and at San Francisco Bay, California.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c09",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In October 1937 a purported Cadborosaurus carcass was retrieved from the stomach of a sperm whale in Naden Harbour and photographed; a sample sent to the BC Provincial Museum was tentatively identified by director Francis Kermode as a fetal baleen whale.",
+          "statement_id": "Pada Oktober 1937, bangkai yang disebut-sebut sebagai Cadborosaurus diambil dari perut paus sperma di Naden Harbour dan difoto; sampelnya dikirim ke BC Provincial Museum dan oleh direktur museum, Francis Kermode, diidentifikasi sementara sebagai janin paus balin.",
+          "quote": "1937: In October, a purported Cadborosaurus carcass was retrieved from the stomach of a sperm whale in Naden Harbour and photographed. A sample of this carcass was sent to the BC Provincial Museum, where it was tentatively identified as a fetal baleen whale by museum director Francis Kermode.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c10",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "LeBlond and Blousfield state that no known creature matches the characteristics found in over 200 sightings collected over a century, noting that Caddy is described as having flippers both at the front and at the back.",
+          "statement_id": "LeBlond dan Blousfield menyatakan bahwa tidak ada makhluk yang dikenal cocok dengan ciri-ciri dalam lebih dari 200 penampakan yang dikumpulkan selama satu abad, dengan mencatat bahwa Caddy digambarkan bersirip di depan maupun di belakang.",
+          "quote": "LeBlond and Blousfield state that no known creature matches the characteristics found in over 200 sightings collected over a century, noting that Caddy is described as having flippers both anteriorly and posteriorly.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c11",
+          "source_id": "cadborosaurus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Darren Naish contends that LeBlond and Blousfield are engaging in \"bad science\" and have incorrectly assumed that different, conflicting eyewitness reports all describe one species.",
+          "statement_id": "Darren Naish berpendapat bahwa LeBlond dan Blousfield melakukan \"sains buruk\" dan keliru berasumsi bahwa laporan saksi mata yang berbeda dan saling bertentangan semuanya menggambarkan satu spesies.",
+          "quote": "Darren Naish contends that LeBlond and Blousfield are engaging in \"bad science\" and have incorrectly assumed that different, conflicting eyewitness reports are all descriptions of one species",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c12",
+          "source_id": "cadborosaurus-s2",
+          "host": "www.theguardian.com",
+          "statement": "Samples of the 1937 discovery have long disappeared and all that remains are a handful of black and white images.",
+          "statement_id": "Sampel temuan tersebut sudah lama hilang dan yang tersisa hanyalah beberapa foto hitam putih.",
+          "quote": "Samples of the mysterious discovery have long disappeared and all that remains are a handful of black and white images.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c13",
+          "source_id": "cadborosaurus-s2",
+          "host": "www.theguardian.com",
+          "statement": "Almost 90 years later, many scientists say the images of the 1937 carcass simply show a decomposing basking shark.",
+          "statement_id": "Hampir 90 tahun kemudian, banyak ilmuwan mengatakan foto-foto itu hanya memperlihatkan hiu penjemur yang membusuk.",
+          "quote": "But almost 90 years later, many scientists say the images simply show a decomposing basking shark",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c14",
+          "source_id": "cadborosaurus-s2",
+          "host": "www.theguardian.com",
+          "statement": "A photo of the creature, called the \"Cadborosaurus\" by locals, appeared on the front page of a local newspaper on 31 October 1937.",
+          "statement_id": "Foto makhluk itu, yang oleh warga setempat disebut \"Cadborosaurus\", muncul di halaman depan surat kabar lokal pada 31 Oktober 1937.",
+          "quote": "A photo of the creature, called the “Cadborosaurus”, by locals, appeared on the front page of a local newspaper on 31 October 1937",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c15",
+          "source_id": "cadborosaurus-s3",
+          "host": "blogs.scientificamerican.com",
+          "statement": "Naish argues that the cryptids that Bousfield, LeBlond and like-minded cryptozoologists believe in are composite entities, constructed by combining observations of different species and/or phenomena.",
+          "statement_id": "Naish berpendapat bahwa kriptid yang diyakini Bousfield, LeBlond, dan para kriptozoolog sejalan merupakan entitas gabungan, yang dibentuk dengan menggabungkan pengamatan terhadap spesies dan/atau fenomena yang berbeda.",
+          "quote": "one of the many failings of Bousfield, LeBlond and like-minded cryptozoologists is that they’re unable or unwilling to realise that the cryptids they believe in are composite entities, constructed by combining observations of different species and/or phenomena",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cadborosaurus-c16",
+          "source_id": "cadborosaurus-s3",
+          "host": "blogs.scientificamerican.com",
+          "statement": "Naish describes Cadborosaurus as a marine, horse-headed \"mega-serpent\" supposedly reported by witnesses from the waters off British Columbia and elsewhere in the North Pacific.",
+          "statement_id": "Naish menggambarkan Cadborosaurus sebagai \"ular raksasa\" laut berkepala kuda yang konon dilaporkan saksi dari perairan lepas British Columbia dan tempat lain di Pasifik Utara.",
+          "quote": "a marine, horse-headed ‘mega-serpent’, supposedly reported by witnesses from the waters off British Columbia and elsewhere in the North Pacific",
           "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ea3a55e9eb3e7e2981dc76284307792e256868f546dce79d8e711ef453bbcc09"
+      "images": []
     },
     {
       "slug": "goatman-urban-legend",
-      "file": "batch-142.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "91a7a9280c64101160c18ff3b739358018941a2c9f9b272682e97b367bb09ea1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "goatman-urban-legend-c01",
           "source_id": "goatman-urban-legend-s1",
           "host": "en.wikipedia.org",
-          "statement": "Creature information Grouping Cryptid Origin Region Prince George's County, Maryland According to urban legend, Goatman is a creature resembling a goat-human hybrid often credited with canine deaths and purported to take refuge in the woods of Prince George's County, Maryland, United States.",
-          "statement_id": "Menurut legenda urban Goatman adalah makhluk hibrida manusia kambing di Prince George's County, Maryland, United States.",
-          "quote": "Creature information Grouping Cryptid Origin Region Prince George's County, Maryland According to urban legend, Goatman is a creature resembling a goat-human hybrid often credited with canine deaths and purported to take refuge in the woods of Prince George's County, Maryland, United States.",
+          "statement": "According to urban legend, the Goatman resembles a goat-human hybrid, is often blamed for the deaths of dogs, and is said to take refuge in the woods of Prince George's County, Maryland, United States.",
+          "statement_id": "Menurut legenda urban, Goatman adalah makhluk yang menyerupai hibrida manusia-kambing, kerap dituduh menyebabkan kematian anjing, dan konon berlindung di hutan Prince George's County, Maryland, Amerika Serikat.",
+          "quote": "According to urban legend, Goatman is a creature resembling a goat-human hybrid often credited with canine deaths and purported to take refuge in the woods of Prince George's County, Maryland, United States.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -9914,8 +10024,8 @@
           "id": "goatman-urban-legend-c03",
           "source_id": "goatman-urban-legend-s1",
           "host": "en.wikipedia.org",
-          "statement": "Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland.",
-          "statement_id": "Laporan berita tahun 1971 menempatkan Goatman di dekat Fletchertown Road di Bowie, Maryland.",
+          "statement": "Later the same year, reporter Karen Hosler found Lizama's project in the Maryland Folklife Archives and reported on it in the Prince George's County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland.",
+          "statement_id": "Pada tahun yang sama, reporter Karen Hosler menemukan proyek Lizama di Maryland Folklife Archives dan melaporkannya di Prince George's County News pada Oktober 1971, kali ini menempatkan Goatman di dekat Fletchertown Road di Bowie, Maryland.",
           "quote": "Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland.",
           "context": "historical-record",
           "status": "exact"
@@ -9929,35 +10039,109 @@
           "quote": "Additionally, this report covered the theory that the Goatman’s origins can be traced to the Beltsville Agricultural Research Center.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c05",
+          "source_id": "goatman-urban-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says the Goatman stories originated in the early 1970s, although some legends are set in the late 1930s, after the disappearance or death of several dogs that were later attributed to the creature.",
+          "statement_id": "Wikipedia menyebut cerita Goatman bermula pada awal 1970-an, meski sebagian legendanya berlatar akhir 1930-an, setelah beberapa anjing hilang atau mati dan kematian itu kemudian dikaitkan dengan makhluk ini.",
+          "quote": "While Goatman stories originated in the early 1970s, some of its legends are set in the late 1930s, within Prince George's County, following the disappearances and/or deaths of multiple dogs, which were later attributed to the creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c06",
+          "source_id": "goatman-urban-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature was commonly claimed to have a human face and a hairy body, but descriptions differed on whether it was a hairy humanoid or a human with the lower body of a goat, like the fauns of Roman mythology.",
+          "statement_id": "Makhluk ini umumnya dikatakan berwajah manusia dengan tubuh berbulu, tetapi gambarannya berbeda-beda: sebagai humanoid berbulu atau sebagai manusia dengan bagian bawah tubuh kambing, mirip faun dalam mitologi Romawi.",
+          "quote": "The creature was commonly claimed to have a human face but with a body covered in hair. However, descriptions differed on whether Goatman greatly resembled a hairy humanoid or a human with the lower portion of a goat, similar to the fauns of Roman mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c07",
+          "source_id": "goatman-urban-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some variations of the legend, the Goatman was once a scientist, Dr. Stephen Fletcher, who worked at the Beltsville Agricultural Research Center.",
+          "statement_id": "Dalam sebagian versi legenda, Goatman dahulu adalah seorang ilmuwan bernama Dr. Stephen Fletcher yang bekerja di Beltsville Agricultural Research Center.",
+          "quote": "According to some variations of the legend, Goatman is said to have once been a scientist, Dr. Stephen Fletcher, who worked in the Beltsville Agricultural Research Center.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c08",
+          "source_id": "goatman-urban-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another variation holds that the Goatman was an old hermit who lived in the woods and was often seen walking alone at night along Fletchertown Road.",
+          "statement_id": "Versi lain menyebut Goatman adalah seorang pertapa tua yang tinggal di hutan dan sering terlihat berjalan sendirian pada malam hari di sepanjang Fletchertown Road.",
+          "quote": "Another variation of the legend holds that Goatman himself was an old hermit who lived in the woods and often could be seen walking alone at night along Fletchertown Road.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c09",
+          "source_id": "goatman-urban-legend-s2",
+          "host": "modernfarmer.com",
+          "statement": "Some say the Goatman was a man who kept goats and went mad after teenagers killed his flock, and now seeks revenge against any youngster.",
+          "statement_id": "Sebagian orang mengatakan Goatman adalah pria pemelihara kambing yang menjadi gila setelah para remaja membunuh kawanan kambingnya, dan kini mencari balas dendam terhadap anak muda mana pun.",
+          "quote": "Some say he was a man who kept goats and went mad after teenagers killed his flock, driven to seek revenge against any youngster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c13",
+          "source_id": "goatman-urban-legend-s2",
+          "host": "modernfarmer.com",
+          "statement": "According to folklorist Dr. Barry Pearson of the University of Maryland, the stories began surfacing a very long time ago.",
+          "statement_id": "Menurut folkloris Dr. Barry Pearson dari University of Maryland, cerita ini mulai muncul sejak sangat lama.",
+          "quote": "The stories began surfacing a \"long, long, long\" time ago, according to Dr. Barry Pearson, a folklorist at the University of Maryland.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c11",
+          "source_id": "goatman-urban-legend-s2",
+          "host": "modernfarmer.com",
+          "statement": "The Goatman is also said to frequent Lovers Lanes, where he typically mauls a teenager's car with a rock or axe.",
+          "statement_id": "Goatman juga konon sering muncul di jalan sepi tempat pasangan berpacaran (Lovers Lanes), tempat ia biasanya merusak mobil remaja dengan batu atau kapak.",
+          "quote": "Goatman is also purported to frequent Lovers Lanes, although he's typically mauling a teenager's car with a rock or axe instead of pursuing romance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goatman-urban-legend-c12",
+          "source_id": "goatman-urban-legend-s2",
+          "host": "modernfarmer.com",
+          "statement": "He is also often reported near Fletchertown Road and Lottsford Road in Prince Georges County.",
+          "statement_id": "Ia juga sering dilaporkan terlihat di dekat Fletchertown Road dan Lottsford Road di Prince Georges County.",
+          "quote": "He's also often spotted near Fletchertown Road and Lottsford Road in Prince Georges County.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f48073d6e934036aa34853fdd896e04d6712f5f9040b365eff0e446eec087012"
+      "images": []
     },
     {
       "slug": "huixtocihuatl",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "29161b5a454faba1b250a3f3cc9d996ab8f1d0064b45d7f51ce346db8f9d0710",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huixtocihuatl-c01",
           "source_id": "huixtocihuatl-s1",
           "host": "en.wikipedia.org",
-          "statement": "She holds a reed staff in her hand and wears garments with a water design.",
-          "statement_id": "Ia memegang tongkat buluh di tangannya dan mengenakan pakaian dengan rancangan motif air.",
-          "quote": "She holds a reed staff in her hand and wears garments with a water design.",
+          "statement": "Sahagún describes Huixtocihuatl's shirt and skirt as both embroidered with a design emulating water.",
+          "statement_id": "Sahagún menggambarkan kemeja dan rok Huixtocihuatl yang sama-sama disulam dengan motif yang menyerupai air.",
+          "quote": "Sahagún goes on to describe Huixtocihuatl's other notable characteristics. He points out that her shirt and skirt were both embroidered with a design emulating water.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -9985,32 +10169,126 @@
           "id": "huixtocihuatl-c04",
           "source_id": "huixtocihuatl-s1",
           "host": "en.wikipedia.org",
-          "statement": "It records that Huixtocihuatl angered her younger brothers, the Tlaloques, by mocking them, so they banished her to the salt beds.",
-          "statement_id": "Catatan menyebutkan ia membuat marah saudara-saudaranya para Tlaloques hingga dibuang ke tambak garam.",
-          "quote": "It records that Huixtocihuatl angered her younger brothers, the Tlaloques, by mocking them, so they banished her to the salt beds.",
+          "statement": "Sahagún's Florentine Codex explains how Huixtocihuatl became the salt god: she angered her younger brothers, the Tlaloques, by mocking them, so they banished her to the salt beds.",
+          "statement_id": "Florentine Codex karya Sahagún menjelaskan bagaimana Huixtocihuatl menjadi dewi garam: ia membuat marah adik-adiknya, para Tlaloques, dengan mengejek mereka, sehingga mereka mengusirnya ke hamparan garam.",
+          "quote": "His Florentine Codex explains how Huixtocihuatl became the salt god. It records that Huixtocihuatl angered her younger brothers, the Tlaloques, by mocking them, so they banished her to the salt beds.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c05",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Huixtocihuatl, also written Uixtochihuatl or Uixtociuatl, was a fertility goddess who presided over salt and salt water.",
+          "statement_id": "Huixtocihuatl, juga ditulis Uixtochihuatl atau Uixtociuatl, adalah dewi kesuburan yang menguasai garam dan air asin.",
+          "quote": "or Uixtochihuatl, Uixtociuatl) was a fertility goddess who presided over salt and salt water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c06",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The reed staff had an important role for the ixiptla, who used it to mark the beat of songs during the festival in the goddess's honor.",
+          "statement_id": "Tongkat buluh punya peran penting bagi ixiptla, yang memakainya untuk menandai irama lagu pada festival untuk menghormati sang dewi.",
+          "quote": "The reed staff also held an important role for the ixiptla, as it was what she used to mark the beat of songs during the festival in her honor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c07",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Huixtocihuatl was considered a provider god along with Chicomecoatl and Chalchiuhtlicue; the three were sisters who together provided salt, food, and water.",
+          "statement_id": "Huixtocihuatl dianggap sebagai dewi penyedia bersama Chicomecoatl dan Chalchiuhtlicue; ketiganya bersaudari yang bersama-sama menyediakan garam, makanan, dan air.",
+          "quote": "Huixtocihuatl was considered a provider god along with Chicomecoatl and Chalchiuhtlicue. The three were sisters who together provided people with three life essentials: salt, food, and water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c08",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Codex Telleriano-Remensis, Huixtocihuatl is associated with the goddess Ixcuina, who represented filth and excrement.",
+          "statement_id": "Dalam Codex Telleriano-Remensis, Huixtocihuatl dikaitkan dengan dewi Ixcuina, yang melambangkan kekotoran dan kotoran tubuh.",
+          "quote": "In Codex Telleriano-Remensis, Huixtocihuatl is associated with the goddess Ixcuina, who represented filth and excrement.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c09",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During Tecuilhuitontli, the seventh month of the Aztec calendar, a festival honored her; one woman was considered the ixiptla (embodiment) of Huixtocihuatl and was sacrificed by the end of the festival.",
+          "statement_id": "Pada Tecuilhuitontli, bulan ketujuh kalender Aztec, diadakan festival untuk menghormatinya; seorang perempuan dianggap sebagai ixiptla (perwujudan) Huixtocihuatl dan dikorbankan pada akhir festival.",
+          "quote": "During Tecuilhuitontli, the seventh month of the Aztec calendar which occurred in June, there was a festival in her honor. During the festival, one woman was considered to be the ixiptla, or the embodiment, of Huixtocihuatl. That woman would be sacrificed by the end of the festival.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c10",
+          "source_id": "huixtocihuatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Salt-makers honored the deity with dances that lasted for ten days.",
+          "statement_id": "Para pembuat garam menghormati sang dewi dengan tarian yang berlangsung selama sepuluh hari.",
+          "quote": "Salt-makers would honor the deity with dances that lasted for ten days.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c11",
+          "source_id": "huixtocihuatl-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Tecuilhuitontli was a small festival of the lords, the seventh festival of the year, which honored Huixtocihuatl, the supposed older sister of the rain gods (tlaloque).",
+          "statement_id": "Tecuilhuitontli adalah festival kecil para bangsawan, festival ketujuh dalam setahun, yang menghormati Huixtocihuatl, yang konon kakak perempuan para dewa hujan (tlaloque).",
+          "quote": "This was a small festival of the lords, the seventh festival of the year. This festival honored Huixtocihuatl, the supposed older sister of the rain gods (tlaloque).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c12",
+          "source_id": "huixtocihuatl-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The Nahuatl Dictionary, citing Ortiz de Montellano, defines Huixtocihuatl as the goddess of salt, one of the deities associated with Tlaloc, and the supposed older sister of the tlaloque.",
+          "statement_id": "Kamus Nahuatl, mengutip Ortiz de Montellano, mendefinisikan Huixtocihuatl sebagai dewi garam, salah satu dewa yang dikaitkan dengan Tlaloc, dan konon kakak perempuan para tlaloque.",
+          "quote": "Huixtocihuatl = la diosa de la sal; pertenece al grupo de las deidades asociadas con Tláloc; supuesta hermana mayor de los tlaloque",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c13",
+          "source_id": "huixtocihuatl-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The women who made salt danced to honor the goddess over several days, carrying a cord of flowers (xochimecatl) and wearing a garland of iztauhyatl on their heads.",
+          "statement_id": "Para perempuan pembuat garam menari untuk menghormati sang dewi selama beberapa hari, membawa untaian bunga (xochimecatl) dan mengenakan karangan iztauhyatl di kepala.",
+          "quote": "The women who made salt danced to honor the goddess over a period of several days, carrying a cord of flowers (xochimecatl) and a garland of iztauhyatl on their heads.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "huixtocihuatl-c14",
+          "source_id": "huixtocihuatl-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The Nahuatl Dictionary glosses the name as \"Woman of the Huixtotin\", a divine force associated with salt and with rituals relating to water and fertility, connected with the Popoloca speakers.",
+          "statement_id": "Kamus Nahuatl mengartikan nama ini sebagai \"Perempuan dari Huixtotin\", sebuah daya ilahi yang dikaitkan dengan garam serta ritual yang berkaitan dengan air dan kesuburan, dan terkait dengan penutur Popoloca.",
+          "quote": "a diviniity or a sacred or divine force, associated with salt and with rituals relating to water, fertility; \"Woman of the Huixtotin\" (connected with the Popoloca speakers",
+          "context": "etymology",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3084f98772b80cd246673cd1e2e5dd3a5ba3db6ba05e0c230ef2353003547d8c"
+      "images": []
     },
     {
       "slug": "opochtli",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "dfb3afeadf38d68f5bacb016bd010882030e25c2f922cba1c2b117ca5acf28df",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "opochtli-c01",
@@ -10026,8 +10304,8 @@
           "id": "opochtli-c02",
           "source_id": "opochtli-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Nahuatl, his name means The Left or The Left-Handed.",
-          "statement_id": "Dalam bahasa Nahuatl namanya bermakna The Left atau The Left-Handed.",
+          "statement": "In Nahuatl, his name means \"The Left\" or \"The Left-Handed\".",
+          "statement_id": "Dalam bahasa Nahuatl, namanya berarti \"Sang Kiri\" atau \"Yang Bertangan Kiri\".",
           "quote": "In Nahuatl, his name means The Left or The Left-Handed.",
           "context": "etymology",
           "status": "exact"
@@ -10051,27 +10329,101 @@
           "quote": "He is said to have invented the atlatl, the net, the canoe pole, and the bird snare.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "opochtli-c05",
+          "source_id": "opochtli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Since the Aztecs saw the west as the primary cardinal point, the south lay on the left, so Opochtli was also associated with the south.",
+          "statement_id": "Karena bangsa Aztec memandang barat sebagai arah mata angin utama, selatan berada di sebelah kiri, sehingga Opochtli juga dikaitkan dengan selatan.",
+          "quote": "Since the Aztecs saw the west as the primary cardinal point, the south was on the left according to their orientation. Opochtli was therefore also associated with the south.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c06",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The Nahuatl Dictionary describes Opochtli (\"The Left\") as a deity associated with rain and fertility, one of the Tlaloque (Tlalocs).",
+          "statement_id": "Kamus Nahuatl menggambarkan Opochtli (\"Sang Kiri\") sebagai dewa yang dikaitkan dengan hujan dan kesuburan, salah satu Tlaloque (Tlalocs).",
+          "quote": "a deity; \"The Left\" was one of the deities associated with rain and fertility, one of the the Tlaloque (Tlalocs)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c07",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Opochtli was the patron deity of the Atlaca, who specialized in fishing and other aquatic subsistence activities, and was credited with inventing the fishing net, the atlatl, the minacachalli, the three-pronged fishing harpoon, the canoe pole, and the snare for aquatic birds.",
+          "statement_id": "Opochtli adalah dewa pelindung Atlaca, orang yang berspesialisasi dalam menangkap ikan dan mata pencaharian perairan lain, dan dipercaya menciptakan jaring ikan, atlatl, minacachalli, tombak ikan bermata tiga, galah perahu, dan jerat burung air.",
+          "quote": "Opochtli was the patron deity of the Atlaca, those specializing in fishing and other aquatic subsistence activities, and was credited with the invention of the fishing net, the atlatl (spear-thrower), the minacachalli, the three-pronged fishing harpoon, the pole for propelling canoes, and the snare for catching aquatic birds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c08",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Opochtli, one of the tlaloque, was the patron of the people of the boats and of fishing people; during celebrations of this deity, tobacco, copalli, and yauhtli were offered.",
+          "statement_id": "Opochtli, salah satu tlaloque, adalah pelindung orang-orang perahu dan para nelayan; pada perayaan dewa ini dipersembahkan tembakau, copalli, dan yauhtli.",
+          "quote": "Opochtli, one of the tlaloque, was the patron of the people of the boats and the fishing people. During celebrations of this deity, tobacco, copalli, and yauhtli were made in offerings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c09",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Karttunen's Analytical Dictionary of Nahuatl, cited in the dictionary, gives ōpōchtli as \"left, left-hand side\".",
+          "statement_id": "Analytical Dictionary of Nahuatl karya Karttunen, yang dikutip dalam kamus itu, memberi arti ōpōchtli sebagai \"kiri, sisi kiri\".",
+          "quote": "ŌPŌCH-TLI left, left-hand side / izquierdo",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c10",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Other tlaloque besides Tlaloc include Nappatecuhtli, Opochtli, Tomiyauhtecuhtli, and the tepictoton, small legless figures.",
+          "statement_id": "Tlaloque lainnya mencakup Nappatecuhtli, Opochtli, Tomiyauhtecuhtli, dan tepictoton, sosok kecil tanpa kaki.",
+          "quote": "Other tlaloque are Nappatecuhtli, Opochtli, Tomiyauhtecuhtli (one of the four hundred rabbits that were deities of pulque), and the tepictoton, small legless figures.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c11",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The Nahuatl Dictionary lists Opochtli and Opuchtli as orthographic variants.",
+          "statement_id": "Kamus Nahuatl mencantumkan Opochtli dan Opuchtli sebagai ragam ejaan.",
+          "quote": "Orthographic Variants: Opochtli, Opuchtli",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "opochtli-c12",
+          "source_id": "opochtli-s2",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "Opochtli was the deity of those who lived on the water.",
+          "statement_id": "Opochtli adalah dewa bagi orang-orang yang hidup di atas air.",
+          "quote": "Opochtli was the deity of those who lived on the water.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "613fec10d79dd02bd5358cf4794e05635ff708ec6f08bcd7c2dbe45946e476d9"
+      "images": []
     },
     {
       "slug": "amimitl",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "fbf0e0d7dd5e09df76439c3094e1de6a3638ea62cc143c364c120114f9c82cac",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amimitl-c01",
@@ -10112,27 +10464,121 @@
           "quote": "Su mensaje es críptico, pero se evidenciaba como una canción para danzas.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "amimitl-c11",
+          "source_id": "amimitl-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Amimitl (from Nahuatl: \"water dart\") was a Mexica god of lakes and fishermen who calmed storms and thereby protected fishermen.",
+          "statement_id": "Amimitl (dari bahasa Nahuatl: \"dardo air\") adalah dewa Mexica atas danau dan para nelayan yang menenangkan badai sehingga melindungi para nelayan.",
+          "quote": "Amimitl (del náhuatl: dardo de agua) era un dios mexica de lagos y pescadores que calmaba las tempestades y así protegía a los pescadores.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c05",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "In Sahagún's manuscript, as Seler reports, Amimitl and Atlaua are called gods of the Chinampaneca of Cuitlahuac, the well-known city, modern Tláhuac.",
+          "statement_id": "Seler melaporkan bahwa dalam naskah Sahagún, Amimitl dan Atlaua disebut dewa-dewa Chinampaneca di Cuitlahuac, kota yang terkenal itu, yaitu Tláhuac masa kini.",
+          "quote": "Amimitl y Atlaua son llamados dioses de la Chinampaneca de Cuitlahuac, la bien conocida ciudad, la moderna Tláhuac",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c06",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "According to Torquemada, the name Amimitl means \"a thing of fishing or hunting in water\".",
+          "statement_id": "Menurut Torquemada, nama Amimitl berarti \"perkara memancing atau berburu di air\".",
+          "quote": "El nombre Amimitl, de acuerdo a Torquemada, significa “Cosa de pesca ó Caça en Agua”.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c07",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "Torquemada adds that those who suffered from these illnesses went on pilgrimage to the temple of this god in Cuitláhuac to ask to be healed.",
+          "statement_id": "Torquemada menambahkan bahwa orang yang menderita penyakit-penyakit itu berziarah ke kuil dewa ini di Cuitláhuac untuk memohon kesembuhan.",
+          "quote": "añade que aquellos que padecían de estas enfermedades iban en peregrinación al templo de este dios en Cuitláhuac, para pedir ser sanados",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c08",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "In the Historia de los mexicanos por sus pinturas, Amimitl is explained as a tribal god of Cuitlahuac, a lance or arrow (a staff) of Mixcoatl, the Chichimec god.",
+          "statement_id": "Dalam Historia de los mexicanos por sus pinturas, Amimitl dijelaskan sebagai dewa suku di Cuitlahuac, berupa tombak atau panah (sebatang tongkat) milik Mixcoatl, dewa Chichimeca.",
+          "quote": "Amimitl es explicado como un dios tribal de Cuitlahuac, con el añadido de que allí era una lanza o flecha (una vara) de Mixcoatl, el dios chichimeca",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c09",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "Sahagún knows nothing linking these gods beyond their being considered the cause of dysentery, diarrhea, coughs or colds.",
+          "statement_id": "Sahagún tidak mengetahui apa pun yang mengaitkan dewa-dewa ini selain bahwa mereka dianggap penyebab disentri, diare, batuk, atau pilek.",
+          "quote": "Sahagún, sin embargo, no conoce nada para vincular a estos dioses mas allá de que ellos fueran considerados la causa para tener cualquier disentería, diarrea, tos o catarro.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c10",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "The hymn to Amimitl is explained by the commentator as an old Chichimec song that was no longer very intelligible to the people of his time.",
+          "statement_id": "Himne untuk Amimitl dijelaskan oleh penyalin sebagai nyanyian Chichimeca kuno yang sudah tidak begitu dapat dipahami orang pada zamannya.",
+          "quote": "El himno a Amimitl es explicado por el comentarista como un viejo canto Chichimeca que ya no era muy inteligible a la gente de su tiempo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c12",
+          "source_id": "amimitl-s3",
+          "host": "nahuatl.wired-humanities.org",
+          "statement": "The Nahuatl Dictionary glosses the name as \"Water-gig\" and says that in Classic times this was the god of fishing, according to Ponce and Clavigero.",
+          "statement_id": "Kamus Nahuatl mengartikan nama ini sebagai \"tombak air\" (Water-gig) dan menyebut bahwa pada zaman Klasik ini adalah dewa perikanan, menurut Ponce dan Clavigero.",
+          "quote": "a deity's name; Water-gig; in Classic times, this was the god of fishing, according to Ponce and Clavigero",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c14",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "Seler describes modern Tláhuac as situated on the dike that divides the two freshwater lakes, Chalco and Xochimilco.",
+          "statement_id": "Seler menggambarkan Tláhuac masa kini sebagai terletak di atas bendungan yang memisahkan dua danau air tawar, Chalco dan Xochimilco.",
+          "quote": "la moderna Tláhuac, situada sobre el dique que divide a los dos lagos de agua dulce, Chalco y Xochimilco.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amimitl-c13",
+          "source_id": "amimitl-s2",
+          "host": "historicas.unam.mx",
+          "statement": "Seler concludes that the stanzas of the hymn were an iancatlatol, a hunting spell with which the Indians of ancient times sought good luck in hunting waterfowl.",
+          "statement_id": "Seler menyimpulkan bahwa bait-bait himne itu adalah iancatlatol, mantra berburu yang dipakai orang zaman dahulu untuk memperoleh hasil buruan burung air yang baik.",
+          "quote": "eran un iancatlatol, un hechizo de cacería, con el cual los indios de tiempos antiguos buscaban tener una afortunada caza de aves acuáticas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1289a0e16e683b58c9dd321d5e76ea0ae1894a0b82131c6fbba634d51e060484"
+      "images": []
     },
     {
       "slug": "bell-witch",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-7.md",
+      "entry_sha256": "79a7013fc4458decefdc072d03fab3f95642e5fc4cbc289868a3be28d67c5189",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 22,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bell-witch-c01",
@@ -10158,9 +10604,9 @@
           "id": "bell-witch-c03",
           "source_id": "bell-witch-s1",
           "host": "en.wikipedia.org",
-          "statement": "resided with his family along the Red River in an area currently near the town of Adams.",
-          "statement_id": "Keluarga Bell bermukim di sepanjang Red River dekat kota Adams.",
-          "quote": "resided with his family along the Red River in an area currently near the town of Adams.",
+          "statement": "Farmer John Bell Sr. resided with his family along the Red River in an area currently near the town of Adams.",
+          "statement_id": "Petani John Bell Sr. tinggal bersama keluarganya di tepi Red River di wilayah yang kini berdekatan dengan kota Adams.",
+          "quote": "Farmer John Bell Sr. resided with his family along the Red River in an area currently near the town of Adams.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -10173,10 +10619,189 @@
           "quote": "The book is widely regarded as the first full-length record of the legend and a primary source for subsequent treatments.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "bell-witch-c22",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bell Witch, or Bell Witch Haunting, is a legend from Southern United States folklore centered on the 19th-century Bell family of northwest Robertson County, Tennessee.",
+          "statement_id": "Bell Witch, atau Bell Witch Haunting, adalah legenda dari cerita rakyat Amerika Serikat bagian selatan yang berpusat pada keluarga Bell abad ke-19 di Robertson County barat laut, Tennessee.",
+          "quote": "The Bell Witch or Bell Witch Haunting is a legend from Southern United States folklore, centered on the 19th-century Bell family of northwest Robertson County, Tennessee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c05",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Martin V. Ingram's book An Authenticated History of the Bell Witch, the invisible entity was called Kate, after her voice claimed at one point to be \"Old Kate Batts' witch,\" and she continued to respond favorably to the name.",
+          "statement_id": "Dalam buku Martin V. Ingram, An Authenticated History of the Bell Witch, entitas tak kasatmata itu disebut Kate, karena suaranya pernah mengaku sebagai \"penyihir Old Kate Batts\" dan terus menanggapi nama itu dengan baik.",
+          "quote": "In his book An Authenticated History of the Bell Witch, author Martin V. Ingram published that the invisible entity was called Kate, after her voice claimed at one point to be \"Old Kate Batts' witch,\" and continued to respond favorably to the name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c06",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the legend, the haunting began sometime in 1817 when John Bell witnessed the apparition of a strange creature resembling a dog.",
+          "statement_id": "Menurut legenda, gangguan itu dimulai sekitar tahun 1817 ketika John Bell melihat penampakan makhluk aneh yang menyerupai anjing.",
+          "quote": "The haunting began sometime in 1817 when John Bell witnessed the apparition of a strange creature resembling a dog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c07",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The apparition began to speak aloud; asked who it was and what it wanted, the voice answered feebly, \"I am a spirit; I was once very happy but have been disturbed.\"",
+          "statement_id": "Penampakan itu mulai berbicara dengan lantang; ketika ditanya siapa dirinya dan apa maunya, suara itu menjawab lemah, \"I am a spirit; I was once very happy but have been disturbed\" (\"Aku roh; dahulu aku sangat bahagia tetapi diganggu\").",
+          "quote": "The apparition began to speak out loud and was asked, \"Who are you and what do you want?\" and the voice answered feebly, \"I am a spirit; I was once very happy but have been disturbed.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c08",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story climaxes with the Bell patriarch being poisoned by the witch.",
+          "statement_id": "Kisah ini mencapai puncaknya ketika kepala keluarga Bell diracun oleh sang penyihir.",
+          "quote": "The story climaxes with the Bell patriarch being poisoned by the witch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c09",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The entity then told the family it was going to leave but would return in seven years, in 1828.",
+          "statement_id": "Entitas itu kemudian memberi tahu keluarga bahwa ia akan pergi tetapi kembali tujuh tahun kemudian, pada 1828.",
+          "quote": "Subsequently, the entity told the family it was going to leave, but return in seven years in 1828.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c10",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several accounts say that during his military career Andrew Jackson was intrigued by the story and that his men were frightened away after traveling to investigate.",
+          "statement_id": "Beberapa catatan menyebut bahwa pada masa karier militernya Andrew Jackson tertarik pada kisah ini dan anak buahnya ketakutan setelah datang menyelidiki.",
+          "quote": "Several accounts say that during his military career, Andrew Jackson was intrigued with the story and his men were frightened away after traveling to investigate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c11",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The supernatural powers attributed to the Tennessee spirit have also been compared to those of jinn in mythology.",
+          "statement_id": "Kekuatan gaib yang dikaitkan dengan roh Tennessee itu juga pernah dibandingkan dengan kekuatan jin dalam mitologi.",
+          "quote": "The supernatural powers attributed to the Tennessee spirit have also been compared to that of jinn in mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c12",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At times the spirit displayed a form of kindness, especially toward Lucy, John Bell's wife.",
+          "statement_id": "Pada saat-saat tertentu roh itu menunjukkan semacam kebaikan, terutama kepada Lucy, istri John Bell.",
+          "quote": "At times, the spirit displayed a form of kindness, especially towards Lucy, John Bell's wife, \"the most perfect woman to walk the earth.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c13",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A journal entry of 19 October 1820 records that thousands of people had visited a young woman to hear a voice that would in many instances reply to questions put to it.",
+          "statement_id": "Sebuah catatan jurnal tertanggal 19 Oktober 1820 menyebut bahwa ribuan orang telah mengunjungi seorang gadis untuk mendengar suara yang dalam banyak kesempatan menjawab pertanyaan yang diajukan kepadanya.",
+          "quote": "thousands of persons have visited her to hear this voice, in many instances, it will reply to questions put to it",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c14",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A January 1856 article attributed to the Saturday Evening Post stated that Betsey Bell had fallen in love with Joshua Gardner and had discovered the skill of ventriloquism.",
+          "statement_id": "Sebuah artikel Januari 1856 yang dikaitkan dengan Saturday Evening Post menyatakan bahwa Betsey Bell jatuh cinta pada Joshua Gardner dan menemukan keterampilan ventriloquisme.",
+          "quote": "The author goes on to state that Betsey Bell had fallen in love with Joshua Gardner and had discovered the skill of ventriloquism.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c15",
+          "source_id": "bell-witch-s2",
+          "host": "www.csicop.org",
+          "statement": "Joe Nickell writes that the primary narrative of the Bell Witch is \"Our Family Trouble,\" reportedly compiled in 1846 by Richard Williams Bell (1811-1857).",
+          "statement_id": "Joe Nickell menulis bahwa narasi utama tentang Bell Witch adalah \"Our Family Trouble\", yang konon disusun pada 1846 oleh Richard Williams Bell (1811-1857).",
+          "quote": "The primary narrative of the Bell Witch is “Our Family Trouble,” reportedly compiled by Richard Williams Bell (1811–1857) in 1846.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c16",
+          "source_id": "bell-witch-s2",
+          "host": "www.csicop.org",
+          "statement": "The Bell Witch affair of about 1817-1821, called \"America's best-known poltergeist case,\" has gone unexplained, it is said, for two centuries.",
+          "statement_id": "Peristiwa Bell Witch sekitar 1817-1821, yang disebut \"kasus poltergeist paling terkenal di Amerika\", konon tidak terjelaskan selama dua abad.",
+          "quote": "Called “America’s best-known poltergeist case,” Tennessee’s sensational “Bell Witch” affair of ca. 1817–1821 has gone unexplained, it is said, for two centuries",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c17",
+          "source_id": "bell-witch-s2",
+          "host": "www.csicop.org",
+          "statement": "In the Bell narrative the apparent spirit began to answer questions, first by rapping sounds and then by speaking, first in whispers and then in a feeble voice.",
+          "statement_id": "Dalam narasi keluarga Bell, roh itu mulai menjawab pertanyaan, mula-mula lewat ketukan dan kemudian dengan berbicara, pertama berbisik lalu dengan suara lemah.",
+          "quote": "The apparent spirit began to answer questions, first by means of the rapping sounds; then it began to speak—first in whispers, then in a feeble voice.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c18",
+          "source_id": "bell-witch-s2",
+          "host": "www.csicop.org",
+          "statement": "Nickell argues that the buried-treasure episode takes on real significance if it is seen as representing important tenets of Freemasonry.",
+          "statement_id": "Nickell berpendapat bahwa episode harta karun terpendam itu bermakna nyata jika dilihat sebagai perlambang ajaran penting Freemasonry.",
+          "quote": "this rather implausible, seemingly pointless account takes on real significance if it is seen as representing—with a knowing wink from those in on the meaning—important tenets of Freemasonry.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c19",
+          "source_id": "bell-witch-s2",
+          "host": "www.csicop.org",
+          "statement": "In the Bell narrative, after a skull and other bones were found to have been taken from an old grave nearby, the witch avowed herself the spirit of an early immigrant who had hidden his \"treasure\" for safekeeping.",
+          "statement_id": "Dalam narasi keluarga Bell, setelah ditemukan bahwa sebuah tengkorak dan tulang lain diambil dari makam tua di dekatnya, sang penyihir mengaku sebagai roh seorang imigran awal yang menyembunyikan \"hartanya\" demi keamanan.",
+          "quote": "after a skull and other bones were found to have been taken from an old grave nearby, the witch avowed herself the spirit of an early immigrant who had hidden his “treasure” for safekeeping.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c20",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While not a fundamental element of the original recorded legend, the Bell Witch Cave became in the 20th century a source of continuing interest, belief, and new lore.",
+          "statement_id": "Meski bukan unsur mendasar dari legenda yang tercatat semula, Bell Witch Cave pada abad ke-20 menjadi sumber minat, kepercayaan, dan cerita baru yang terus berlanjut.",
+          "quote": "While not a fundamental element of the original recorded legend, the Bell Witch Cave in the 20th century became a source of continuing interest, belief, and generation of lore.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bell-witch-c21",
+          "source_id": "bell-witch-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1894, newspaper editor Martin V. Ingram published his Authenticated History of the Bell Witch.",
+          "statement_id": "Pada 1894, editor surat kabar Martin V. Ingram menerbitkan An Authenticated History of the Bell Witch.",
+          "quote": "In 1894, newspaper editor Martin V. Ingram published his Authenticated History of the Bell Witch.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c71f0020917fc428fa57da3e529eef3f9334317b7df7d0b78aac22757fd2fcbc"
+      "images": []
     }
   ]
 }

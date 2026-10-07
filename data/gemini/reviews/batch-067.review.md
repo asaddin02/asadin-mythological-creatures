@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-06T19:25:42.520Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md.
+Diperiksa 2026-10-07T04:32:08.687Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -769,10 +769,7 @@ Klaim 13 (loose 3, exact 10), sumber 3, gambar 0.
 
 ## sansei-folklore — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 4, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -781,6 +778,13 @@ Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
 | sansei-folklore-c03 | loose | en.wikipedia.org | The Japanese reading kata-ashi no yama-oni denotes a one-legged mountain oni. | The Wakan Sansai Zue also gives the Japanese kun'yomi reading kata-ashi no yama-oni (片足のやまおに, "one-legged mountain oni") for the characters 山精. |
 | sansei-folklore-c04 | exact | en.wikipedia.org | Sekien portrays it holding a crab and peering into a mountain hut. | The Japanese artist Toriyama Sekien included the Sansei in his yōkai collection Konjaku Gazu Zoku Hyakki (Illustrated Supplement to the Hundred Demons of the Past and Present), depicting it holding a crab and peering into a mountain hut. |
 | sansei-folklore-c05 | exact | en.wikipedia.org | Some later Japanese literature presents it as though native to Japan. | Due to its inclusion in Sekien's influential work, some later Japanese yōkai literature, particularly from the Shōwa and Heisei eras onwards, have presented the Sansei as if it were a native Japanese yōkai, rather than one originating in China. |
+| sansei-folklore-c06 | exact | en.wikipedia.org | According to the Wakan Sansai Zue, the Sansei has only one leg, with its heel attached facing backward, a feature mentioned in the Baopuzi. | It possesses only one leg, and its heel is attached facing backward (a feature mentioned in the Baopuzi; see image). |
+| sansei-folklore-c07 | exact | en.wikipedia.org | It steals salt from people working in the mountains and frequently eats crabs and frogs. | It steals salt from people working in the mountains and frequently eats crabs and frogs. |
+| sansei-folklore-c08 | loose | en.wikipedia.org | It appears at night and assaults humans, but if one calls out the name "Batsu" (魃, a Chinese drought spirit), the Sansei loses its power to harm them. | It appears at night and assaults humans. However, if one calls out the name 'Batsu' (魃, a Chinese drought spirit), the Sansei loses its power to harm them. |
+| sansei-folklore-c09 | exact | en.wikipedia.org | Conversely, if a human attacks a Sansei, that person may fall ill or their house might catch fire. | Conversely, if a human attacks a Sansei, that person may fall ill, or their house might catch fire. |
+| sansei-folklore-c10 | loose | en.wikipedia.org | Its height is given as one shaku (about 30 cm) according to the Eika Ki, or three to four shaku (about 90-120 cm) according to the Genchū Ki. | Its height is described as one shaku (approx. 30 cm or 1 ft) according to the Eika Ki, or three to four shaku (approx. 90–120 cm or 3–4 ft) according to the Genchū Ki (玄中記). |
+| sansei-folklore-c11 | exact | en.wikipedia.org | Some of these later derivative descriptions say it appears at mountain huts specifically because it wants salt, while others claim it holds dominion over the animals of the mountains. | Some of these derivative descriptions mention it appearing at mountain huts specifically because it wants salt, while others claim it holds dominion over the animals of the mountains. |
+| sansei-folklore-c12 | exact | zh.wikisource.org | The Baopuzi says that the mountain sprite (shanjing) is shaped like a small child with a single leg, moving backward, and likes to come and assault people; if one hears a loud voice at night, its name is Qi (蚑), and calling it by name stops it from daring to attack. | 山中山精之形，如小儿而独足，走向后，喜来犯人。人入山，若夜闻人音声大语，其名曰蚑，知而呼之，即不敢犯人也。 |
 
 
 ## shuihu — lulus-otomatis

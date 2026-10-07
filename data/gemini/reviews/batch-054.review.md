@@ -1,6 +1,6 @@
 # Review batch-054
 
-Diperiksa 2026-10-06T19:23:20.184Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md.
+Diperiksa 2026-10-07T04:32:09.035Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md, batch-054-fix-5.md.
 
 ## kumanokusubi — lulus-otomatis
 
@@ -894,10 +894,7 @@ Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
 
 ## kidomaru — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 19 (exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -907,14 +904,24 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | kidomaru-c04 | exact | en.wikipedia.org | He hides inside a slain cow while waiting to ambush Yorimitsu. | Yorimitsu noticed this and told a servant, "tomorrow, I will make a visit to the Kurama temple." Kidōmaru then went ahead to Kurama, killed one free-ranging cattle at the Ichihara field, hid inside its body, and waited for Yorimitsu to come. |
 | kidomaru-c05 | exact | en.wikipedia.org | The encounter ends with Yorimitsu killing him. | It is said that Kidōmaru appeared from inside the cow and tried to slash at Yorimitsu, but Yorimitsu struck down Kidōmaru with a single strike. |
 | kidomaru-c06 | exact | en.wikipedia.org | Sekien depicts him wearing a cow’s hide in the snow. | In the yōkai pictures collection, the Konjaku Hyakki Shūi by Toriyama Sekien, under the title of "Kidō," it depicts Kidōmaru in the snow wearing the skin of a cattle waiting for Yorimitsu to come. |
+| kidomaru-c07 | exact | en.wikipedia.org | According to the oral traditions of Kumohara in Fukuchiyama, Kyoto Prefecture, there is a legend about Kidōmaru as a child of Shuten-dōji. | According to the oral traditions of Kumohara in Fukuchiyama, Kyoto Prefecture, there is the following legend about Kidōmaru as a child of Shuten-dōji. |
+| kidomaru-c08 | exact | en.wikipedia.org | The Zentaiheiki, a collection of war tales, theorizes that this oni was an abandoned child of Shuten-dōji who was originally a young child at Mount Hiei, came to ruin through wicked deeds, was chased away from Mount Hiei, and then moved to a cave in the mountains and became a bandit. | The Zentaiheiki, a collection of war tales, theorizes this oni to instead be an abandoned child of Shuten-dōji, and originally Kidōmaru was a young child at Mount Hiei but came to ruin as a result of wicked deeds, and was therefore chased away from Mount Hiei, and then migrated to a cave in the mountains and became a bandit. |
+| kidomaru-c09 | exact | en.wikipedia.org | According to the Shitennō Shōtō Iroku by Takizawa Bakin, Kidōmaru met Hakamadare, a bandit of the Konjaku Monogatarishū, at a cave in the mountains, where there was a scene of a contest comparing skills. | According to the "Shitennō Shōtō Iroku" (四天王剿盗異録) by Takizawa Bakin, at a cave in the mountains, Kidōmaru met Hakamadare, a bandit of the Konjaku Monogatarishū, where there was a scene of a contest comparing skills. |
+| kidomaru-c10 | exact | www.yatanavi.org | In the Kokon Chomonjū text, while drinking, Raikō looked toward the stable and saw a boy kept bound there. | 盃酌(はいしやく)の間、頼光、厩(うまや)の方を見やりたりければ、童を一人いましめて置きたりけり。 |
+| kidomaru-c11 | exact | www.yatanavi.org | In the Kokon Chomonjū text, when the night had grown quiet, Kidōmaru, a formidable fellow, broke the bonding rope and metal chain and escaped. | 夜の中、静まるほどに、鬼同丸、究竟(くつくやう)の者にて、いましめたる縄・金鏁踏み切りて、逃れ出でぬ。 |
+| kidomaru-c12 | exact | www.yatanavi.org | Among many free-grazing cattle, he killed an especially large one, laid it on the road, tore open its belly, and entered it, showing only his eyes. | 野飼ひの牛のあまたありける中に、ことに大きなるを殺して、路頭に引き伏せて、牛の腹をかき破りて、その中に入りて、目ばかり見出だして侍りけり。 |
+| kidomaru-c13 | exact | www.yatanavi.org | When an arrow was shot at the belly of the dead cow, it stirred, and from inside a large boy ran out with a drawn sword and attacked Raikō; it was Kidōmaru. | 牛の腹のほどを指して矢を放ちたるに、死にたる牛、ゆすゆすとはたらきて、腹の内より大の童、打刀(うちがたな)を抜きて、走り出でて、頼光にかかりけり。見れば鬼同丸なりけり。 |
+| kidomaru-c14 | exact | www.yatanavi.org | Raikō, not at all alarmed, drew his sword and struck off Kidōmaru's head. | 頼光も少しも騒がで、太刀を抜きて、鬼同丸が頸(くび)を打ち落してけり。 |
+| kidomaru-c15 | exact | www.yatanavi.org | It is handed down that he remained fierce and formidable until he died. | 死ぬるまで武(たけ)くいかめしう侍りけるよし、語り伝へたり。 |
+| kidomaru-c16 | exact | www.arc.ritsumei.ac.jp | The Ritsumeikan exhibition note says that, within the Raikō tales, Kidōmaru (also written 鬼同丸) is transmitted as a sequel to the slaying of Shuten-dōji. | 保昌と直接関わるのではないが、頼光説話の中で、酒呑童子退治の後日譚として伝わるのが、鬼童丸（鬼同丸とも）である。 |
+| kidomaru-c17 | exact | www.arc.ritsumei.ac.jp | Kidōmaru was an acolyte of the Daishi-bō on Mount Hiei, superior in strength to others; he killed an acolyte monk, burned scriptures, learned the sorcery of the tengu path, tried to destroy Buddhism, and was driven off the mountain. | 鬼童丸は、比叡山にあって大師坊の稚児であったが、力は人に優れ、稚児法師を殺し、経論を焼き捨て、天狗道の妖術も学んで仏法を破滅させようとして、山を追出された。 |
+| kidomaru-c18 | exact | www.arc.ritsumei.ac.jp | He lived in a cave in Ichihara field, conversed with tengu, and troubled the world until he was captured alive by Raikō's brother Minamoto no Yorinobu and his retainers. | 市原野の洞窟に住み、天狗等と語らい、世間を悩ませていたが、頼光の弟の源頼信とその郎党により生け捕りにされた。 |
+| kidomaru-c19 | exact | www.arc.ritsumei.ac.jp | The note interprets Kidōmaru, through his collusion with tengu and expulsion from Mount Hiei, as an outsider who, though human, had taken a step into the other world. | 鬼童丸は、天狗との結託、比叡山からの追放により、人間でありながら異界に一歩踏出した異人である。 |
 
 
 ## kinoko — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -924,21 +931,27 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | kinoko-c04 | exact | en.wikipedia.org | Their shadow-like appearance makes them difficult to perceive. | It's said that when a human sees one, they look like a shadow, making it hard to tell if one is actually there or not. |
 | kinoko-c05 | exact | en.wikipedia.org | They are said to play together in groups. | They usually play together as a group. |
 | kinoko-c06 | exact | en.wikipedia.org | Woodcutters are said to encounter them from time to time. | It is said that woodcutters and other people who work in the mountains catch sight of them from time to time and so they are not an unusual sight to them. |
+| kinoko-c07 | exact | en.wikipedia.org | If one is not cautious and is caught unprepared, one could be pranked, for example by having one's bentō stolen, and in that case one should use a stick to shoo them away. | However, it is said that if one is not cautious and gets caught unprepared, one could be pranked such as by having one's bentō stolen, so when something like that ever happens, one should use a stick to shoo them away. |
+| kinoko-c09 | exact | ja.wikipedia.org | Japanese Wikipedia describes the kinoko as looking like a child of about two to three up to three to four years old, wearing clothes made of leaves or blue clothes. | 外観は2,3歳から3,4歳ほどの子供のような姿で、木の葉で作った衣服、または青い色の衣服を着ている |
+| kinoko-c10 | exact | ja.wikipedia.org | If one is careless, pranks such as having one's lunch box stolen are played, and in such cases one is said to chase them away with a stick. | しかし油断をしていると、弁当を盗まれるなどの悪戯をされてしまい、そんな時には棒を持って追い払うという |
 
 
 ## kompira — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kompira-c01 | exact | en.wikipedia.org | Konpira Gongen is a Japanese deity associated with Shugendō and Kotohira. | Konpira Gongen (金毘羅権現) is a Japanese god of the Shugendō sect originating in the mountain Kotohira of Kagawa Prefecture. |
 | kompira-c02 | exact | en.wikipedia.org | He is regarded as a deity of merchant sailors. | He is the god of merchant sailors. |
-| kompira-c03 | exact | en.wikipedia.org | A legend connects his origin with the summoning of Kumbhīra at Matsuo Temple. | According to legend Konpira Gongen came into existence when a priest at Matsuo Temple ... summoned the Ganges deity Kumbhīra |
+| kompira-c03 | exact | en.wikipedia.org | According to legend, Konpira Gongen came into existence when a priest at Matsuo Temple summoned the Ganges deity Kumbhīra. | According to legend Konpira Gongen came into existence when a priest at Matsuo Temple ... summoned the Ganges deity Kumbhīra |
 | kompira-c04 | exact | en.wikipedia.org | Kumbhīra is described as a crocodile deity of the Ganges. | He is a Ganges crocodile god. He is identified with the first of the twelve spirit messengers emanating from Bhaisajyaguru. |
 | kompira-c05 | exact | en.wikipedia.org | The figure is associated with the twelve spirit messengers of Bhaisajyaguru. | He is identified with the first of the twelve spirit messengers emanating from Bhaisajyaguru. |
 | kompira-c06 | exact | en.wikipedia.org | Japanese worship came to portray Konpira as a guardian of Buddhism. | As time passed, people in Japan began to see Konpira as a guardian of their Buddhist religion. |
+| kompira-c07 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto says that, as well as being a guardian kami of seafarers and fishermen, Konpira is believed to be a thunder kami (raijin), a water kami (suijin), an agricultural kami (nōkōjin), and a guardian kami who keeps watch while other kami are away (rusugami). | As well as being a guardian kami of seafarers and fishermen, Konpira is believed to be a "thunder kami" (raijin), a water kami (suijin), an agricultural kami (nōkōjin), and a guardian kami who keeps watch while other kami are away (rusugami). |
+| kompira-c08 | exact | d-museum.kokugakuin.ac.jp | The deity of Konpira is a Japanese kami, but there is Buddhist influence on the Konpira faith at Mount Zōzu, and the area was also a site of Shugendō activity. | The deity of Konpira is a Japanese kami, but there is Buddhist influence on the Konpira faith at Mount Zōzu and the area was also a site of Shugendō activity. |
+| kompira-c09 | exact | d-museum.kokugakuin.ac.jp | During the Edo period the Indian deity Kumbhīra, described as a dragon-king sea deity who protected the palace, was conflated with Konpira, and the cult spread along with the development of shipping and transportation networks. | During the Edo Period the Indian deity Kumbhīra (a dragon king sea deity who protected the palace) was conflated with Konpira, and the cult spread along with the development of shipping and the creation of transportation networks. |
+| kompira-c10 | exact | d-museum.kokugakuin.ac.jp | In the countryside Konpira was worshipped as a serpent kami (jashin) and as a rusugami. | In the countryside Konpira was worshipped as a serpent kami (jashin) and as a rusugami. |
+| kompira-c11 | exact | d-museum.kokugakuin.ac.jp | The name of the shrine is thought to derive from kotohiki, a magical practice of countering the sound of thunder with the sound of the koto instrument. | The shrine's name is thought to derive from kotohiki, a magical practice of countering the sound of thunder with the sound of the koto instrument. |
+| kompira-c12 | exact | d-museum.kokugakuin.ac.jp | Fervent belief in Konpira as a guardian of safe sea travel is evident from the many boat ema (funaema) offered to the shrine. | Fervent belief in Konpira as a guardian of safe sea travel is evident from the many boat ema (funaema) offered to the shrine |
 
