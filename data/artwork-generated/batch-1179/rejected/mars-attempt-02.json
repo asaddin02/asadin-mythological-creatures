@@ -1,0 +1,124 @@
+{
+  "slug": "mars",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "rejected-by-codex",
+  "review_path": "data/gemini/reviews/batch-034.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-041dcb05-1e5c-4781-928e-a9f990b1d05f.png",
+  "generated_at": "2026-10-08T10:49:38.459384+00:00",
+  "original_file": "data/artwork-generated/batch-1179/rejected/mars-attempt-02.png",
+  "native_sha256": "3154a237b03c3bba1f15e91cd9333b1dab0a5bb1b9c4a0228dbc7d5c7eea9673",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of mars.\nANATOMY: Older bearded Roman god, Corinthian helmet tipped back above visible face, one head two arms two legs; opaque Roman tunic and full breastplate, no spear or shield invented [mars-c09]\nMOMENT: Mars turns while descending stone steps at city border, hand grips plain gate edge, cape billows as he moves decisively, older bearded face turned to viewer.\nPOWER: Protective march guarding Roman city border, physical wind moves cape and dust from footstep; no supernatural effect [mars-c03, mars-c12]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Roman city gate and frontier road, military civic guardian context [mars-c03, mars-c08]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. No attack/combat/weapons/harmed people. Helmet is specifically tipped back to expose whole face. No additional animals or magical agriculture.",
+  "candidate_variant": "B",
+  "depicted_variant": "Older bearded Roman god, Corinthian helmet tipped back above visible face, one head two arms two legs; opaque Roman tunic and full breastplate, no spear or shield invented",
+  "basis_claim_ids": [
+    "mars-c09",
+    "mars-c03",
+    "mars-c12",
+    "mars-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Older bearded Roman god, Corinthian helmet tipped back above visible face, one head two arms two legs; opaque Roman tunic and full breastplate, no spear or shield invented",
+      "claim_ids": [
+        "mars-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective march guarding Roman city border, physical wind moves cape and dust from footstep; no supernatural effect",
+      "claim_ids": [
+        "mars-c03",
+        "mars-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Roman city gate and frontier road, military civic guardian context",
+      "claim_ids": [
+        "mars-c03",
+        "mars-c08"
+      ]
+    }
+  ],
+  "source_ids": [
+    "mars-s2",
+    "mars-s1",
+    "mars-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "mars-c09",
+      "source_id": "mars-s2",
+      "quote": "Mars is represented in the canonical guise of an older, bearded man wearing a Corinthian helmet tipped back on his head.",
+      "locator": "Object description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Relief Romawi di The Met menggambarkan Mars sebagai pria tua berjanggut dengan helm Korintus.",
+        "en": "A Roman relief at The Met portrays Mars as an older bearded man wearing a Corinthian helmet."
+      }
+    },
+    {
+      "id": "mars-c03",
+      "source_id": "mars-s1",
+      "quote": "Mar was a protector of Rome and the Roman way of life. He defended city borders and frontiers.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Mars dipandang sebagai pelindung Roma dan perbatasannya.",
+        "en": "Mars was seen as protector of Rome and its borders."
+      }
+    },
+    {
+      "id": "mars-c12",
+      "source_id": "mars-s3",
+      "quote": "Unlike Ares, who was viewed primarily as a destructive and destabilizing force, Mars represented military power as a way to secure peace, and was a father (pater) of the Roman people.",
+      "locator": "Lead",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Berbeda dengan Ares yang dipandang terutama sebagai kekuatan perusak dan pengacau, Mars melambangkan kekuatan militer sebagai cara mengamankan perdamaian dan menjadi bapak (pater) bangsa Romawi.",
+        "en": "Unlike Ares, who was seen mainly as a destructive and destabilizing force, Mars represented military power as a way to secure peace and was a father (pater) of the Roman people."
+      }
+    },
+    {
+      "id": "mars-c08",
+      "source_id": "mars-s2",
+      "quote": "Numerous temples, shrines, and altars were dedicated to him in Rome and throughout the Empire.",
+      "locator": "Object description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Kuil dan altar Mars didirikan di Roma dan seluruh kekaisaran.",
+        "en": "Temples and altars to Mars stood in Rome and across the empire."
+      }
+    }
+  ],
+  "aura": "Documented effects and physical action only; no generic aura.",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "No attack/combat/weapons/harmed people. Helmet is specifically tipped back to expose whole face. No additional animals or magical agriculture."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "fail",
+    "notes": "Helmet reduces to a crest/headband with no readable Corinthian eye openings and nose guard tipped back as c09 requires. Pose is active but looks like an ordinary soldier; fails identifying attribute Sangar5/7.",
+    "limitations": [
+      "Helmet reduces to a crest/headband with no readable Corinthian eye openings and nose guard tipped back as c09 requires. Pose is active but looks like an ordinary soldier; fails identifying attribute Sangar5/7."
+    ],
+    "native_sha256": "3154a237b03c3bba1f15e91cd9333b1dab0a5bb1b9c4a0228dbc7d5c7eea9673",
+    "reviewed_at": "2026-10-08T10:49:38.459384+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "receipt_file": "data/artwork-generated/batch-1179/rejected/mars-attempt-02.json",
+  "reason": "Helmet reduces to a crest/headband with no readable Corinthian eye openings and nose guard tipped back as c09 requires. Pose is active but looks like an ordinary soldier; fails identifying attribute Sangar5/7."
+}

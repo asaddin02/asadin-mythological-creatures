@@ -1,0 +1,122 @@
+{
+  "slug": "hestia",
+  "basis_claim_ids": [
+    "hestia-c06",
+    "hestia-c07",
+    "hestia-c19",
+    "hestia-c31",
+    "hestia-c43",
+    "hestia-c45",
+    "hestia-c51"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Young veiled female in modest opaque clothing, kettle attribute.",
+      "claim_ids": [
+        "hestia-c07",
+        "hestia-c19",
+        "hestia-c31"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Feeds and maintains sacred Olympian hearth fire; tangible flames and embers.",
+      "claim_ids": [
+        "hestia-c06",
+        "hestia-c43",
+        "hestia-c45"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hearth of Olympus.",
+      "claim_ids": [
+        "hestia-c43",
+        "hestia-c45"
+      ]
+    }
+  ],
+  "depicted_variant": "Veiled Hestia actively maintaining the Olympian sacred hearth with kettle attribute.",
+  "aura": "Sacrificial flame(c06) at Olympian hearth she feeds(c43), sacred office conveys overwhelming majesty.",
+  "artistic_choices": [
+    "Square-jawed serious youthful face chosen to vary divine female identity.",
+    "Opaque layered charcoal and parchment clothing with fully covered chest and legs.",
+    "Close firelit framing conveys awe without inventing giant size or aggressive nature.",
+    "No generic aura or flaming body; flames remain in the hearth.",
+    "Root Codex viewed both native compositions and selected variant A: Dua PNG native telah dibaca. A dipilih karena tangan memasukkan kayu ke api perapian jelas melakukan tindakan, wajah dekat dan ketel atribut c31 terbaca. Kerudung/jubah menutup tubuh; api nyata dan bara sacred hearth didukung c06/c43/c45. B sah dan api lebih tinggi tetapi lebih menyerupai membawa ketel, bukan merawat api. Percobaan02 sebelumnya gagal Sangar tersimpan. Tujuh syarat Sangar A terpenuhi."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-030.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-0a15b969-4e4a-4319-b5e4-c61286cf2692.png",
+  "generated_at": "2026-10-08T07:10:12.943821+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/hestia.png",
+  "native_sha256": "97be8f71d38e4e01e6b087dfd700c3734f02e99156c3b434dd016a6423ea0c4d",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hestia, revered Greek goddess maintaining the sacred hearth of Olympus.\nANATOMY: young female, one head two eyes two arms two legs; strong square jaw, resolute solemn expression, modest dark opaque full-length clothing and head-covering veil. Large clear bronze kettle beside her hand [hestia-c07,c19,c31].\nPOWER: she feeds and maintains sacrificial flames at Olympian hearth; a surging REAL fire burns wood and offerings inside stone hearth, physically lighting her figure [hestia-c06,c43,c45].\nSCALE & CAMERA: extreme low close angle across fire, goddess fills frame; no giant stature.\nLIGHT & WEATHER: one roaring hearth source, orange rim, deep walnut shadows, sparks and heat shimmer over hearth only.\nSURFACE: woven veil, aged bronze kettle, charred wood, soot-black stone.\nSETTING: royal sacred hearth of Olympus, plain stone without carvings [hestia-c43,c45].\nMOOD: immense protective sacred authority, awe-inspiring resolute, never housewife, decorative portrait, cute or hostile.\nHARD CONSTRAINTS: no letters or pseudo-glyphs on stones/clothing/kettle, no text/logo/border/watermark, no extra anatomy, no modern film/game/comic design, no nudity/gore, no aura/neon/ribbons, fire stays at hearth not in her body.\nMOMENT: She leans toward viewer and lowers a wood offering into the fire with one hand, other hand grips kettle handle, flames leap vertically between foreground and commanding veiled face. Dynamic low diagonal close-up.",
+  "candidate_variant": "A",
+  "candidate_choice_notes": "All seven Sangar yes: veiled divine guardian dominates firelit foreground, purposeful wood-feeding action, kettle clear(c31), Olympian hearth flames(c06,c43,c45), opaque modest clothes(c19), standard anatomy/no text/no aura; direct imposing scrutiny over sacred fire. Preferred frontal action.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/hestia-attempt-02.png",
+      "native_sha256": "dc30e553a8d4042f8d72eaee37eb658e876d2341f775e133f01972d5de5b53ba",
+      "reason": "Fails Sangar7: ordinary woman carrying kettle over fire; too little sacred imposing authority. Retry targeted towering sacrificial hearth fire and fiercely resolute expression.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/hestia-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. A dipilih karena tangan memasukkan kayu ke api perapian jelas melakukan tindakan, wajah dekat dan ketel atribut c31 terbaca. Kerudung/jubah menutup tubuh; api nyata dan bara sacred hearth didukung c06/c43/c45. B sah dan api lebih tinggi tetapi lebih menyerupai membawa ketel, bukan merawat api. Percobaan02 sebelumnya gagal Sangar tersimpan. Tujuh syarat Sangar A terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "97be8f71d38e4e01e6b087dfd700c3734f02e99156c3b434dd016a6423ea0c4d",
+    "reviewed_at": "2026-10-08T07:17:19.477464+00:00"
+  },
+  "selected_variant": "A",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih karena tangan memasukkan kayu ke api perapian jelas melakukan tindakan, wajah dekat dan ketel atribut c31 terbaca. Kerudung/jubah menutup tubuh; api nyata dan bara sacred hearth didukung c06/c43/c45. B sah dan api lebih tinggi tetapi lebih menyerupai membawa ketel, bukan merawat api. Percobaan02 sebelumnya gagal Sangar tersimpan. Tujuh syarat Sangar A terpenuhi.",
+  "selected_at": "2026-10-08T07:17:19.477464+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/hestia/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hestia/A.json",
+      "native_sha256": "97be8f71d38e4e01e6b087dfd700c3734f02e99156c3b434dd016a6423ea0c4d",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/hestia/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hestia/B.json",
+      "native_sha256": "b1bd297995ce0fe8623a99240af40ba3a3e8da70a6ac1ef69f548d5d0111dab3",
+      "selected": false
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "97be8f71d38e4e01e6b087dfd700c3734f02e99156c3b434dd016a6423ea0c4d",
+    "notes": "Veiled Hestia in opaque layered robes feeding a log into the blazing Olympian hearth, bronze kettle at hand; awe through firelight, no aggression."
+  }
+}

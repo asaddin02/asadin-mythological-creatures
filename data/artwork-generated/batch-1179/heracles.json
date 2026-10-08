@@ -1,0 +1,148 @@
+{
+  "slug": "heracles",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-032.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-d6d58cd7-047a-42d8-9005-03c1f125fa02.png",
+  "generated_at": "2026-10-08T07:10:23.923129+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/heracles.png",
+  "native_sha256": "aa208e5144ef2b4059293682c6fd8a290dd5784536921a27a0ad11eb48bc7f3d",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Heracles.\nANATOMY: powerful mature man, one head two arms two legs, lion pelt with lion-head hood over fully opaque robe and golden breastplate, knotted wooden club, quiver [heracles-c06, heracles-c13, heracles-c15]\nMOMENT: Swing the knotted club downward into a broken rock in a wide lunging movement, robe armor and lion pelt all visible; no modern superhero design.\nPOWER: Immense physical strength, club crashes into rock producing chips and dust; no magic emission [heracles-c06, heracles-c13]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: rough Nemean rock terrain, staging of the Nemean club and lion-pelt tradition [heracles-c06, heracles-c15]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Heracles",
+  "basis_claim_ids": [
+    "heracles-c06",
+    "heracles-c13",
+    "heracles-c15"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "powerful mature man, one head two arms two legs, lion pelt with lion-head hood over fully opaque robe and golden breastplate, knotted wooden club, quiver",
+      "claim_ids": [
+        "heracles-c06",
+        "heracles-c13",
+        "heracles-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Immense physical strength, club crashes into rock producing chips and dust; no magic emission",
+      "claim_ids": [
+        "heracles-c06",
+        "heracles-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "rough Nemean rock terrain, staging of the Nemean club and lion-pelt tradition",
+      "claim_ids": [
+        "heracles-c06",
+        "heracles-c15"
+      ]
+    }
+  ],
+  "source_ids": [
+    "heracles-s1",
+    "heracles-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "heracles-c06",
+      "source_id": "heracles-s1",
+      "quote": "Hercules strangled the lion with his bare hands and forever after wore its pelt as a protective cloak.",
+      "locator": "Hercules' 12 Labours",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Herakles mencekik Singa Nemea dan mengenakan kulitnya.",
+        "en": "Heracles strangled the Nemean Lion and wore its pelt."
+      }
+    },
+    {
+      "id": "heracles-c13",
+      "source_id": "heracles-s1",
+      "quote": "In ancient Greek Archaic and Classical pottery art Hercules is often depicted carrying a knotted club, a quiver full of arrows, and wearing a lion's pelt with sometimes also a lion's head helmet.",
+      "locator": "Representation in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni tembikar Yunani Arkais dan Klasik, Herakles sering digambarkan membawa gada berbuku, wadah anak panah, dan mengenakan kulit singa, kadang dengan helm berkepala singa.",
+        "en": "In Archaic and Classical Greek pottery, Heracles is often shown carrying a knotted club and a quiver of arrows and wearing a lion pelt, sometimes with a lion-head helmet."
+      }
+    },
+    {
+      "id": "heracles-c15",
+      "source_id": "heracles-s4",
+      "quote": "Hercules received a sword from Hermes, a bow and arrows from Apollo ... a golden breastplate from Hephaestus, and a robe from Athena; for he had himself cut a club at Nemea.",
+      "locator": "2.4.11",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Apollodorus, Herakles menerima pedang dari Hermes, busur dan anak panah dari Apollo, baju zirah emas dari Hephaestus, dan jubah dari Athena; gadanya ia potong sendiri di Nemea.",
+        "en": "According to Apollodorus, Heracles received a sword from Hermes, a bow and arrows from Apollo, a golden breastplate from Hephaestus, and a robe from Athena; he had cut his club himself at Nemea."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: heracles-c06, heracles-c13, heracles-c15",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; Full lunging downward club strike on rock, two arms and legs coherent, lion pelt hood golden breastplate opaque robe. Strong physical dust without invented magic.",
+    "Root Codex viewed both native compositions and selected variant B: Dua PNG native telah dibaca. B dipilih karena dua tangan memukul batu dengan gada beruas, kaki menapak dan serpihan memperlihatkan kekuatan fisik. Kulit singa berkepala membingkai wajah tanpa menjadi kepala tambahan hidup; jubah dan breastplate menutup torso. Quiver tampak; tanpa glow/rekaan kuasa. A sah tetapi gerak gada kurang lengkap. Tujuh syarat Sangar terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. B dipilih karena dua tangan memukul batu dengan gada beruas, kaki menapak dan serpihan memperlihatkan kekuatan fisik. Kulit singa berkepala membingkai wajah tanpa menjadi kepala tambahan hidup; jubah dan breastplate menutup torso. Quiver tampak; tanpa glow/rekaan kuasa. A sah tetapi gerak gada kurang lengkap. Tujuh syarat Sangar terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "aa208e5144ef2b4059293682c6fd8a290dd5784536921a27a0ad11eb48bc7f3d",
+    "reviewed_at": "2026-10-08T07:14:46.636255+00:00"
+  },
+  "selected_variant": "B",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena dua tangan memukul batu dengan gada beruas, kaki menapak dan serpihan memperlihatkan kekuatan fisik. Kulit singa berkepala membingkai wajah tanpa menjadi kepala tambahan hidup; jubah dan breastplate menutup torso. Quiver tampak; tanpa glow/rekaan kuasa. A sah tetapi gerak gada kurang lengkap. Tujuh syarat Sangar terpenuhi.",
+  "selected_at": "2026-10-08T07:14:46.636255+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/heracles/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/heracles/A.json",
+      "native_sha256": "939f578fcc2bd084af53d5b35581c010fbe7d8d111847b5b0c8b8465ca6ccfe4",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/heracles/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/heracles/B.json",
+      "native_sha256": "aa208e5144ef2b4059293682c6fd8a290dd5784536921a27a0ad11eb48bc7f3d",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "aa208e5144ef2b4059293682c6fd8a290dd5784536921a27a0ad11eb48bc7f3d",
+    "notes": "Lion-pelt-hooded Heracles in opaque robe and breastplate smashing a knotted club into rock, chips and dust; quiver on back."
+  }
+}

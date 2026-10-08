@@ -1,0 +1,111 @@
+{
+  "slug": "demeter",
+  "worker": "codex",
+  "worker_agent": "lane_1179_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-029.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a46-99fb-79b3-9596-a20a0cecf3d3/exec-e49b6a44-4ab6-4ac2-83a6-8c835b7b1e53.png",
+  "generated_at": "2026-10-08T07:04:17.969287+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/demeter.png",
+  "native_sha256": "92a3d6abf2a749b65e252fe9ae845ea1315a52889e4580f27848ebc5b7139f61",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Demeter, mature goddess of harvest.\nANATOMY: mature woman with broad weathered face, crown of grain, sheaf of wheat and flaming torch; fully clothed in heavy opaque Greek robes [demeter-c02, demeter-c13, demeter-c26]\nMOMENT: Turn in a forceful three quarter stride at the sanctuary entrance, lifting the torch above a shoulder while her other hand closes around withered wheat, robes sweeping across the foreground\nPOWER: the drought she causes withers wheat and dries the ground, stalks drooping and dry soil fissures [demeter-c04, demeter-c07, demeter-c29]\nSCALE & CAMERA: extreme low camera, tight framing and strong foreshortening; subject occupies most of square, no invented giant size.\nLIGHT & WEATHER: her one flaming torch against a dark dusk sky; dramatic rim light and deep shadows.\nSURFACE: tangible weathered opaque cloth, tactile skin and stone; dark walnut and antique gold palette.\nSETTING: the sanctuary at Eleusis and its parched agricultural ground [demeter-c05]\nMOOD: overwhelming majestic dignity, determined expression, awe inspiring active divine presence, never ordinary or decorative.\nHARD CONSTRAINTS: no text anywhere including clothing and stone, no pseudo glyphs, no lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes.",
+  "depicted_variant": "Turn in a forceful three quarter stride at the sanctuary entrance, lifting the torch above a shoulder while her other hand closes around withered wheat, robes sweeping across the foreground",
+  "basis_claim_ids": [
+    "demeter-c02",
+    "demeter-c13",
+    "demeter-c26",
+    "demeter-c04",
+    "demeter-c07",
+    "demeter-c29",
+    "demeter-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "mature woman with broad weathered face, crown of grain, sheaf of wheat and flaming torch; fully clothed in heavy opaque Greek robes",
+      "claim_ids": [
+        "demeter-c02",
+        "demeter-c13",
+        "demeter-c26"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "the drought she causes withers wheat and dries the ground, stalks drooping and dry soil fissures",
+      "claim_ids": [
+        "demeter-c04",
+        "demeter-c07",
+        "demeter-c29"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the sanctuary at Eleusis and its parched agricultural ground",
+      "claim_ids": [
+        "demeter-c05"
+      ]
+    }
+  ],
+  "aura": "Kesan kuasa berasal dari aksi fisik: the drought she causes withers wheat and dries the ground, stalks drooping and dry soil fissures (demeter-c04, demeter-c07, demeter-c29), bukan aura.",
+  "artistic_choices": [
+    "Framing rapat dan foreshortening untuk dominasi tanpa mengarang ukuran; pencahayaan sinematik dan pakaian buram editorial.",
+    "Turn in a forceful three quarter stride at the sanctuary entrance, lifting the torch above a shoulder while her other hand closes around withered wheat, robes sweeping across the foreground",
+    "Root Codex viewed both native compositions and selected variant B: Dua PNG native telah dibaca. B dipilih karena putaran badan, obor terangkat dan jubah menyapu menunjukkan pencarian aktif yang lebih kuat. Wajah matang berahang tegas membedakannya dari dewi muda. Mahkota gandum, bulir dan obor ditopang c02/c13/c26; tanah retak dan gandum layu oleh kekeringan c04/c07/c29. A sah tetapi lebih frontal dan tenang. Tujuh syarat Sangar terpenuhi; pakaian tertutup, tanpa teks atau aura."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. B dipilih karena putaran badan, obor terangkat dan jubah menyapu menunjukkan pencarian aktif yang lebih kuat. Wajah matang berahang tegas membedakannya dari dewi muda. Mahkota gandum, bulir dan obor ditopang c02/c13/c26; tanah retak dan gandum layu oleh kekeringan c04/c07/c29. A sah tetapi lebih frontal dan tenang. Tujuh syarat Sangar terpenuhi; pakaian tertutup, tanpa teks atau aura. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "92a3d6abf2a749b65e252fe9ae845ea1315a52889e4580f27848ebc5b7139f61",
+    "reviewed_at": "2026-10-08T07:10:12.007661+00:00"
+  },
+  "candidate_variant": "B",
+  "selected_variant": "B",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena putaran badan, obor terangkat dan jubah menyapu menunjukkan pencarian aktif yang lebih kuat. Wajah matang berahang tegas membedakannya dari dewi muda. Mahkota gandum, bulir dan obor ditopang c02/c13/c26; tanah retak dan gandum layu oleh kekeringan c04/c07/c29. A sah tetapi lebih frontal dan tenang. Tujuh syarat Sangar terpenuhi; pakaian tertutup, tanpa teks atau aura.",
+  "selected_at": "2026-10-08T07:10:12.007661+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/demeter/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/demeter/A.json",
+      "native_sha256": "110bf3f328a1160bed3170a4ca9c5e0462616a2db951b438738d888be8d89312",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/demeter/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/demeter/B.json",
+      "native_sha256": "92a3d6abf2a749b65e252fe9ae845ea1315a52889e4580f27848ebc5b7139f61",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "92a3d6abf2a749b65e252fe9ae845ea1315a52889e4580f27848ebc5b7139f61",
+    "notes": "Grain-crowned Demeter in heavy opaque robes lifting a torch and gripping withered wheat over cracked parched ground at an Eleusis sanctuary."
+  }
+}

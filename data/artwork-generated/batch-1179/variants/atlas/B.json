@@ -1,0 +1,135 @@
+{
+  "slug": "atlas",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-037.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-19cd99b5-6b8b-4031-90e3-e4f90ae1a5dd.png",
+  "generated_at": "2026-10-08T10:42:31.620943+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/atlas/B.png",
+  "native_sha256": "a6e7f05119209141552fa8a2ebd0a77c1d4947770b9447e014efca5e5de4d390",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of atlas.\nANATOMY: Atlas in documented bent-knees/bent-back male human form supporting a celestial globe on shoulders; two arms two legs, beard editorial, fully opaque plain brown tunic and trousers [atlas-c09]\nMOMENT: Atlas shifts weight forward, bent back under celestial sphere, both arms braced overhead with clear physical contact, stone grit moves under foot.\nPOWER: Bears massive weight of heavens, strains and shifts upward; celestial sphere has engraved simple star dots without writing, no Earth map or landmass globe [atlas-c01, atlas-c09, atlas-c13]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Rocky Hesperides terrain and night sky, source region context [atlas-c04, atlas-c24]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. He supports heaven/celestial globe NOT planet Earth. No map/constellation glyphs/text. All torso opaque clothing, no bare chest, no extra arms or spheres.",
+  "candidate_variant": "B",
+  "depicted_variant": "Atlas in documented bent-knees/bent-back male human form supporting a celestial globe on shoulders; two arms two legs, beard editorial, fully opaque plain brown tunic and trousers",
+  "basis_claim_ids": [
+    "atlas-c09",
+    "atlas-c01",
+    "atlas-c13",
+    "atlas-c04",
+    "atlas-c24"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Atlas in documented bent-knees/bent-back male human form supporting a celestial globe on shoulders; two arms two legs, beard editorial, fully opaque plain brown tunic and trousers",
+      "claim_ids": [
+        "atlas-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Bears massive weight of heavens, strains and shifts upward; celestial sphere has engraved simple star dots without writing, no Earth map or landmass globe",
+      "claim_ids": [
+        "atlas-c01",
+        "atlas-c09",
+        "atlas-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky Hesperides terrain and night sky, source region context",
+      "claim_ids": [
+        "atlas-c04",
+        "atlas-c24"
+      ]
+    }
+  ],
+  "source_ids": [
+    "atlas-s1",
+    "atlas-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "atlas-c09",
+      "source_id": "atlas-s1",
+      "quote": "In Hellenistic and Roman times, Atlas is frequently represented in his now familiar position with bent knees and back, straining to hold the globe on his shoulders.",
+      "locator": "Representations in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Seni Helenistik dan Romawi menggambarkan Atlas membungkuk menahan bola di bahunya.",
+        "en": "Hellenistic and Roman art depicts Atlas straining to hold a globe on his shoulders."
+      }
+    },
+    {
+      "id": "atlas-c01",
+      "source_id": "atlas-s1",
+      "quote": "In Greek mythology, the Titan Atlas was responsible for bearing the weight of the heavens on his shoulders, a burden given to him as punishment by Zeus.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Atlas adalah Titan Yunani yang dihukum Zeus untuk menopang langit.",
+        "en": "Atlas is a Greek Titan punished by Zeus to hold up the heavens."
+      }
+    },
+    {
+      "id": "atlas-c13",
+      "source_id": "atlas-s3",
+      "quote": "Atlas, pre-eminent in mighty strength, who moans as he supports the vault of heaven on his back.",
+      "locator": "Classical literature quotes: Aeschylus, Prometheus Bound 407 ff",
+      "context": "historical-record",
+      "statement": {
+        "id": "Prometheus Bound karya Aeschylus menggambarkan Atlas sebagai yang unggul dalam kekuatan besar, mengerang sambil menopang kubah langit di punggungnya.",
+        "en": "Aeschylus's Prometheus Bound describes Atlas as pre-eminent in mighty strength, moaning as he supports the vault of heaven on his back."
+      }
+    },
+    {
+      "id": "atlas-c04",
+      "source_id": "atlas-s1",
+      "quote": "Hesiod in his Theogony also describes Atlas as holding up the heavens and locates him in the land of the Hesperides",
+      "locator": "Atlas' Punishment from Zeus",
+      "context": "historical-record",
+      "statement": {
+        "id": "Hesiod menempatkan Atlas di tanah Hesperides sambil menopang langit.",
+        "en": "Hesiod locates Atlas in the land of the Hesperides holding up the heavens."
+      }
+    },
+    {
+      "id": "atlas-c24",
+      "source_id": "atlas-s1",
+      "quote": "In Greek art, Atlas is, from the 6th century BCE, often featured in depictions of the labours of Hercules, most notably in a metope from the Temple of Zeus at Olympia (c. 460 BCE) where he stands in the gardens of the Hesperides.",
+      "locator": "Representations in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Yunani sejak abad ke-6 SM, Atlas sering muncul dalam penggambaran kerja keras Hercules, terutama pada metope Kuil Zeus di Olympia (sekitar 460 SM) tempat ia berdiri di taman Hesperides.",
+        "en": "In Greek art from the 6th century BCE, Atlas often appears in depictions of the labours of Hercules, most notably on a metope from the Temple of Zeus at Olympia (c. 460 BCE) where he stands in the gardens of the Hesperides."
+      }
+    }
+  ],
+  "aura": "Documented effects and physical action only; no generic aura.",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "He supports heaven/celestial globe NOT planet Earth. No map/constellation glyphs/text. All torso opaque clothing, no bare chest, no extra arms or spheres."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Two arms and two bent legs, bent back and celestial star globe on shoulders; more visible planted foot contact and stoop than A. Full opaque brown tunic/trousers; sphere stars simple decorative shapes, no map, letters or rune. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a6e7f05119209141552fa8a2ebd0a77c1d4947770b9447e014efca5e5de4d390",
+    "reviewed_at": "2026-10-08T10:55:15.442727+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selection_status": "selected",
+  "selection_reason": "B gives a deeper visibly bent back and planted step under the celestial globe, matching c09 more clearly; star globe has no Earth continents or text. A passes but torso is more upright.",
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp."
+}

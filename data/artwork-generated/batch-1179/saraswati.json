@@ -1,0 +1,210 @@
+{
+  "slug": "saraswati",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-031.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-70b1ad60-01f6-42ab-89f9-b5395a2f6160.png",
+  "generated_at": "2026-10-08T07:06:18.725253+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/saraswati.png",
+  "native_sha256": "2ed96a5fcd4530000c1e9988c1287b6a8b173510e743de70fb0b86aa277c1309",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Saraswati.\nANATOMY: graceful young Hindu goddess, white complexion, one head exactly four arms two legs, white fully opaque sari with blue border, two front hands play wooden vina, upper hand holds a small closed blank palm-leaf manuscript and other upper hand a rosary, no writing [saraswati-c05, saraswati-c06, saraswati-c21, saraswati-c22]\nMOMENT: Pluck the large vina with concentrated authority, close low camera shows all four arms clearly and a burst of river spray below.\nPOWER: Strong river waves burst against hill ridges, a documented physical river act; sacred waters move around the plinth [saraswati-c08, saraswati-c25]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: sacred Himalayan river with shadowed hill ridges, conventional swan nearby [saraswati-c07, saraswati-c12]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "A",
+  "depicted_variant": "Saraswati",
+  "basis_claim_ids": [
+    "saraswati-c05",
+    "saraswati-c06",
+    "saraswati-c07",
+    "saraswati-c08",
+    "saraswati-c12",
+    "saraswati-c21",
+    "saraswati-c22",
+    "saraswati-c25"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "graceful young Hindu goddess, white complexion, one head exactly four arms two legs, white fully opaque sari with blue border, two front hands play wooden vina, upper hand holds a small closed blank palm-leaf manuscript and other upper hand a rosary, no writing",
+      "claim_ids": [
+        "saraswati-c05",
+        "saraswati-c06",
+        "saraswati-c21",
+        "saraswati-c22"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strong river waves burst against hill ridges, a documented physical river act; sacred waters move around the plinth",
+      "claim_ids": [
+        "saraswati-c08",
+        "saraswati-c25"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "sacred Himalayan river with shadowed hill ridges, conventional swan nearby",
+      "claim_ids": [
+        "saraswati-c07",
+        "saraswati-c12"
+      ]
+    }
+  ],
+  "source_ids": [
+    "saraswati-s1",
+    "saraswati-s2",
+    "saraswati-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "saraswati-c05",
+      "source_id": "saraswati-s1",
+      "quote": "Another object commonly seen in Saraswati's hands is the vina (the Hindu classical music instrument) which reminds of her gift of music to humanity.",
+      "locator": "Saraswati in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Vina sering digambarkan berada di tangan Saraswati.",
+        "en": "Saraswati is often depicted holding a vina."
+      }
+    },
+    {
+      "id": "saraswati-c06",
+      "source_id": "saraswati-s2",
+      "quote": "Her attributes—the vina (a symbol of music and the arts), palm-sized manuscript (a symbol of learning), and rosary (a symbol of religious rites)—denote her role as a goddess of knowledge.",
+      "locator": "Object description",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Vina, manuskrip, dan tasbih menjadi atributnya yang melambangkan musik, pembelajaran, dan ritus.",
+        "en": "Her vina, manuscript, and rosary symbolize music, learning, and ritual."
+      }
+    },
+    {
+      "id": "saraswati-c07",
+      "source_id": "saraswati-s2",
+      "quote": "Saraswati is conventionally accompanied by a swan, but a peacock stands beside her here, enchanted by the divine music she creates.",
+      "locator": "Object description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Saraswati secara konvensional ditemani angsa, sementara satu cetakan menampilkan merak.",
+        "en": "Saraswati is conventionally accompanied by a swan, though this print shows a peacock."
+      }
+    },
+    {
+      "id": "saraswati-c08",
+      "source_id": "saraswati-s2",
+      "quote": "Originally associated with an ancient lost river that bore her name, Saraswati increasingly came to be celebrated as the goddess of all waters and their life-giving and purifying powers.",
+      "locator": "Object description",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Saraswati awalnya terkait sungai kuno senama, lalu dipuja sebagai dewi seluruh perairan.",
+        "en": "Saraswati was associated with a lost river of the same name and later with all waters."
+      }
+    },
+    {
+      "id": "saraswati-c12",
+      "source_id": "saraswati-s1",
+      "quote": "The Saraswati River (modern name: Sarsuti), just like the Ganges River, flows from the Himalaya and is considered a sacred source of purification, fertility, and good fortune for those who bathe in her waters. The sacred river, again like the Ganges, then developed into a personified deity.",
+      "locator": "Worship & Rituals",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sungai Saraswati (nama modern: Sarsuti), seperti Sungai Gangga, mengalir dari Himalaya dan dianggap sumber suci penyucian, kesuburan, dan keberuntungan bagi mereka yang mandi di airnya; sungai suci itu kemudian berkembang menjadi dewi yang dipersonifikasikan.",
+        "en": "The Saraswati River (modern name Sarsuti), like the Ganges, flows from the Himalaya and is considered a sacred source of purification, fertility, and good fortune for those who bathe in it; the sacred river then developed into a personified deity."
+      }
+    },
+    {
+      "id": "saraswati-c21",
+      "source_id": "saraswati-s1",
+      "quote": "In Hindu art, Saraswati is usually depicted as a graceful youth with white skin. She most often wears a white sari (which symbolises purity) which has a blue border.",
+      "locator": "Saraswati in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Hindu, Saraswati biasanya digambarkan sebagai remaja anggun berkulit putih, paling sering berkain sari putih (lambang kesucian) bertepi biru.",
+        "en": "In Hindu art Saraswati is usually shown as a graceful youth with white skin, most often in a white sari (symbolizing purity) with a blue border."
+      }
+    },
+    {
+      "id": "saraswati-c22",
+      "source_id": "saraswati-s1",
+      "quote": "As with many Hindu deities, Saraswati is often depicted with four arms, each holding a symbolic object. In the left hands she can carry a palm-leaf manuscript and ritual water vessel. In the upper right hand she holds a white lotus flower",
+      "locator": "Saraswati in Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Seperti banyak dewa Hindu, Saraswati sering digambarkan berlengan empat, masing-masing memegang benda lambang; di tangan kiri ia dapat membawa manuskrip daun lontar dan bejana air ritual, dan di tangan kanan atas ia memegang teratai putih.",
+        "en": "Like many Hindu deities, Saraswati is often shown with four arms, each holding a symbolic object; in the left hands she can carry a palm-leaf manuscript and a ritual water vessel, and in the upper right hand she holds a white lotus."
+      }
+    },
+    {
+      "id": "saraswati-c25",
+      "source_id": "saraswati-s3",
+      "quote": "She with her might, like one who digs for lotus-stems, hath burst with her strong waves the ridges of the hills.",
+      "locator": "Verse 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam himne Rigveda (terjemahan Griffith), Sarasvati dengan kekuatannya menjebol punggung bukit dengan ombaknya yang deras, seperti orang yang menggali batang teratai.",
+        "en": "In a Rigveda hymn (Griffith's translation), Sarasvati with her might bursts the ridges of the hills with her strong waves, like one who digs for lotus stems."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: saraswati-c05, saraswati-c06, saraswati-c07, saraswati-c08, saraswati-c12, saraswati-c21, saraswati-c22, saraswati-c25",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Four separate arms: two pluck vina, one raises blank closed palm-leaf manuscript and one rosary. Majestic active music over powerful physical river spray; white opaque sari blue border, swan and no writing.",
+    "Root Codex viewed both native compositions and selected variant A: Dua PNG native telah dibaca. A dipilih karena empat tangan beserta vina, rosario dan manuskrip tertutup terpisah dan besar; aliran sungai menghantam batu ditopang c08/c25. Wajah lebih dekat dan kaki menapak memberi komposisi dominan. B sah tetapi subjek lebih kecil. Sari putih menutup torso, tanpa tulisan manuskrip atau aura. Tujuh syarat Sangar terpenuhi melalui gerak memainkan vina dan tekanan sungai."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. A dipilih karena empat tangan beserta vina, rosario dan manuskrip tertutup terpisah dan besar; aliran sungai menghantam batu ditopang c08/c25. Wajah lebih dekat dan kaki menapak memberi komposisi dominan. B sah tetapi subjek lebih kecil. Sari putih menutup torso, tanpa tulisan manuskrip atau aura. Tujuh syarat Sangar terpenuhi melalui gerak memainkan vina dan tekanan sungai. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "2ed96a5fcd4530000c1e9988c1287b6a8b173510e743de70fb0b86aa277c1309",
+    "reviewed_at": "2026-10-08T07:09:37.284619+00:00"
+  },
+  "selected_variant": "A",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih karena empat tangan beserta vina, rosario dan manuskrip tertutup terpisah dan besar; aliran sungai menghantam batu ditopang c08/c25. Wajah lebih dekat dan kaki menapak memberi komposisi dominan. B sah tetapi subjek lebih kecil. Sari putih menutup torso, tanpa tulisan manuskrip atau aura. Tujuh syarat Sangar terpenuhi melalui gerak memainkan vina dan tekanan sungai.",
+  "selected_at": "2026-10-08T07:09:37.284619+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/saraswati/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/saraswati/A.json",
+      "native_sha256": "2ed96a5fcd4530000c1e9988c1287b6a8b173510e743de70fb0b86aa277c1309",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/saraswati/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/saraswati/B.json",
+      "native_sha256": "2520d6ef1a2892e579b2e2d67f933a46d8a8e1b33ae14eea32152d7039511d39",
+      "selected": false
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "2ed96a5fcd4530000c1e9988c1287b6a8b173510e743de70fb0b86aa277c1309",
+    "notes": "Four-armed white-clad Saraswati with blue border playing a wooden vina, blank manuscript and rosary in upper hands, swan beside, river bursting on ridges; paler and distinct from Parvati."
+  }
+}

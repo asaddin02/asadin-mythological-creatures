@@ -1,0 +1,42 @@
+Status ilustrasi Mythics — 2026-10-08 18:12 WIB
+Ilustrasi aktif terpasang: 1129. Lengkap-bergambar 1129, lengkap-informasi 1551, tidak-lengkap 852, belum-ada-entri 1330.
+Dikecualikan permanen: 0. Gambar ditahan (entri belum lengkap): 5 (anggitay, cha-kla, ekek, alara-fairy, acalica).
+
+Antrean Codex, urut prioritas:
+  1. Perbaikan (needs-correction): 4
+     artwork-batch-1047.json (2, gaya nama-besar):
+       - balarama: Ordinary man ploughing a field.
+       - chandra: Ordinary man standing before the moon at human scale.
+     artwork-batch-1055.json (2, gaya nama-besar):
+       - radha: Ordinary woman in a garden.
+       - sita: Ordinary woman in a landscape.
+  2. Nama besar baru (lengkap, belum berilustrasi): 85
+     hermes (101), thor (101), hades (100), jupiter (99), ganesha (98), vampire (98), ares (97), demeter (97), dionysus (97), mermaid (97), hephaestus (94), indra (94), odin (94), ra-q1252904 (94), hestia (93), isis (93), kali (93), lakshmi (93), saraswati (93), osiris (91), anubis (90), heracles (90), jinn (90), prometheus (90), sphinx (90), cronus (89), horus (89), parvati (89), amun (88), demon (87), … (55 lagi, pakai --semua)
+  3. Entri lengkap lainnya: 1466
+     abalam, abaste, abdu-fisch, abere, abiku, abnoba, abrahel, abura-bo, abyzou, abzar-iyesi, achuhucanac, adad, adakayanushitakikihime, adaro-mythology, aderyn-y-corff, adhene, adityas, adjassou-linguetor, adlivun, adrasteia, … (1446 lagi, pakai --semua)
+
+Batch terbuka (belum semua terpasang): 4
+  artwork-batch-1047.json [gaya nama-besar]: 40/42 terpasang; 2 needs-correction
+  artwork-batch-1055.json [gaya nama-besar]: 48/50 terpasang; 2 needs-correction
+  artwork-batch-1094.json [gaya rumah]: 27/28 terpasang; 1 lolos, tinggal integrasi
+  artwork-batch-1179.json [gaya sangar]: 0/50 terpasang; 50 menunggu tinjauan Claude
+
+Jurnal (6 entri). Entri terakhir:
+  ## 2026-10-08 18:12 WIB — Codex — selesai batch-1179
+  
+  - Hasil: **50/50 ilustrasi baru terpilih**, semua receipt `awaiting-independent-review`; tidak ada receipt belum dibuat dan tidak ada `tidak-digambar`. Ledger `data/artwork-batch-1179.json` menyatakan generation_complete, complete tetap 0 karena belum terpasang.
+  - Menunggu Claude: 50 receipt batch-1179. Tinjauan kedua, integrasi, commit dan push belum dilakukan Codex. Empat koreksi lama balarama/chandra/radha/sita belum dikerjakan dalam batch ini; lihat status riset terkini sebelum sesi berikutnya.
+  - Alat: OpenAI built-in image_gen; image_model persis `tidak dilaporkan alat`. Dua output refusal: Ares attempt01 dan Vampire attempt02, moderation_blocked/violence; metadata/prompt/request_id tersimpan. Semua hasil akhir dibuat dengan built-in image_gen, tidak ada substitusi model.
+  - Tiga sub-agent gpt-6.1-sol/high: lane A 17 tugas, B 17, C 16. Semua berhenti dengan workspace out of credits; hasil yang sudah dibuat dipulihkan, root menyelesaikan 14 slug. Receipt terpilih: lane A 17, lane B 11, lane C 8, root 14. Receipt root tidak mengklaim model sub-agent (null).
+  - Riwayat: **109 PNG native unik**, **111 panggilan dibuktikan artefak** termasuk dua refusal, paling banyak tiga per makhluk; **23 PNG/receipt visual gagal** tersimpan di rejected/, dua varian/receipt per slug dan kandidat C tetap tersimpan. Tidak ada PNG batch lain dipindah/dihapus.
+  - Verifikasi akhir: 50 PNG terpilih 1254x1254, 100 slot A/B, hash file/review/ledger cocok; quote/statement/source sesuai review diterima; 0 errors, 0 warnings, 0 pending. Agen utama melihat PNG native serta 50 thumbnail tepat 200x200. Ini verifikasi teknis dan tinjauan sendiri, bukan persetujuan independen.
+  - `git diff --check` lulus; status git akhir hanya jurnal, ledger-1179 dan folder artwork-generated/batch-1179. Tidak ada diff pada jalur riset/katalog/power/js/manifest/WebP/backups.
+  - `artwork-status` terakhir: 50 menunggu Claude, **0 receipt tidak valid**, aktif tetap **1129**, batch-1179 belum terpasang.
+  - Serah terima: `data/artwork-generated/batch-1179/README.md`, `codex-generation-summary.json`; bukti lokal `tmp/codex-nama-besar-20261008/batch-validation.json`, `root-decisions.json`, `qc-200-1.png`, `qc-200-2.png`. PNG ignored git dan hanya ada di PC ini.
+  - Pelajaran: (1) sepuluh tangan Durga harus dijabarkan posisi/objek satu per satu dan larang objek melayang; (2) telinga Fairy harus normal membulat, jangan elf; (3) nama helm Korintus perlu eye holes/nose guard/cheek plates konkret agar tidak berubah menjadi helm legioner; (4) bentuk serigala penuh sah secara sumber tetapi gagal ordinary-animal, hibrida harus didukung c43; (5) sinar tangan Aten adalah pengecualian ikonografi dari sumber, bukan izin aura generik; (6) lihat disk/crown pada native dan jangan mewariskan pseudo-glyph dari kain; (7) Parvati/Saraswati masih mirip, Claude perlu menilai variasi wajah.
+  - Sesi berikutnya: Claude meninjau 50 receipt dan memasang hanya yang lolos. Codex menjalankan artwork-status dulu, mendahulukan koreksi yang risetnya kini valid, dan tidak menggambar ulang 50 ini tanpa penolakan Claude/permintaan pemilik.
+
+Saran langkah berikutnya:
+  1. Buat ulang 4 gambar berstatus needs-correction; alasan penolakan Claude ada di receipt (correction_notes).
+  2. Siapkan batch nama besar: node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex --policy sangar --slugs hermes,thor,hades,jupiter,ganesha,vampire,ares,demeter,dionysus,mermaid,hephaestus,indra,odin,ra-q1252904,hestia,isis,kali,lakshmi,saraswati,osiris,anubis,heracles,jinn,prometheus,sphinx,cronus,horus,parvati,amun,demon,eros,neptune,phoenix,uranus,hanuman,mars,pegasus,saturn,werewolf,durga,juno,mercury,persephone,asclepius,atlas,fairy,yeti,aten,diana,gaia
+  3. 50 receipt menunggu tinjauan Claude; itu bukan tugas Codex.

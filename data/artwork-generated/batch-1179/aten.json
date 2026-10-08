@@ -1,0 +1,205 @@
+{
+  "slug": "aten",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-038.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-0323da3c-576b-4d64-bc97-f1c22000899a.png",
+  "generated_at": "2026-10-08T10:43:05.733531+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/aten.png",
+  "native_sha256": "219ff6e83bdaf2ad2565a45cc659e28092dce1a1163bbe90723b8db8bdbb5d17",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of aten.\nANATOMY: Aten as a single great sun disk, rays terminating in human hands as documented Amarna iconography; no human or falcon body; each hand five fingers [aten-c01, aten-c02]\nMOMENT: A huge sun disk dominates upper three-quarters above roofless temple; several straight rays extend down and each terminates in a human open hand gently reaching toward tiny opaque-clothed royal family below; disc fully inside frame.\nPOWER: Living disk rises and grants rays that remove darkness; rays ending hands offer life to royal family; source-described rays only, no aura or destruction [aten-c02, aten-c15, aten-c18]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Amarna open-roof temple with plain altars and small fully clothed royal family below for scale [aten-c04, aten-c11, aten-c33]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. The sun-disk itself is the deity and dominant active subject. Do not invent humanoid deity or destruction. No ankh/letters/inscriptions, no glowing ring around disk. Hand-ended straight rays required by claims, not generic energy ribbons.",
+  "candidate_variant": "A",
+  "depicted_variant": "Aten as a single great sun disk, rays terminating in human hands as documented Amarna iconography; no human or falcon body; each hand five fingers",
+  "basis_claim_ids": [
+    "aten-c01",
+    "aten-c02",
+    "aten-c15",
+    "aten-c18",
+    "aten-c04",
+    "aten-c11",
+    "aten-c33"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Aten as a single great sun disk, rays terminating in human hands as documented Amarna iconography; no human or falcon body; each hand five fingers",
+      "claim_ids": [
+        "aten-c01",
+        "aten-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Living disk rises and grants rays that remove darkness; rays ending hands offer life to royal family; source-described rays only, no aura or destruction",
+      "claim_ids": [
+        "aten-c02",
+        "aten-c15",
+        "aten-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Amarna open-roof temple with plain altars and small fully clothed royal family below for scale",
+      "claim_ids": [
+        "aten-c04",
+        "aten-c11",
+        "aten-c33"
+      ]
+    }
+  ],
+  "source_ids": [
+    "aten-s1",
+    "aten-s2",
+    "aten-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "aten-c01",
+      "source_id": "aten-s1",
+      "quote": "At Amarna the sun-god is depicted in radical new style as sun-disk (in Egyptian itn, generally rendered in English as Aten)",
+      "locator": "Belief in one god",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Aten adalah dewa matahari Mesir yang dilambangkan sebagai cakram matahari.",
+        "en": "Aten is an Egyptian sun god represented as the sun disk."
+      }
+    },
+    {
+      "id": "aten-c02",
+      "source_id": "aten-s1",
+      "quote": "with sun-rays terminating in hands offering life to the king and the women nearest to him.",
+      "locator": "Belief in one god",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sinar Aten digambarkan berujung tangan yang menawarkan kehidupan kepada raja dan perempuan terdekatnya.",
+        "en": "Aten's rays end in hands that offer life to the king and women close to him."
+      }
+    },
+    {
+      "id": "aten-c15",
+      "source_id": "aten-s1",
+      "quote": "You rise beautiful from the horizon on heaven, living disk, origin of life.",
+      "locator": "Great Hymn translation",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Himne Agung menyapa Aten yang terbit indah dari cakrawala di langit sebagai cakram yang hidup dan asal kehidupan.",
+        "en": "The Great Hymn addresses Aten as rising beautiful from the horizon on heaven, a living disk and origin of life."
+      }
+    },
+    {
+      "id": "aten-c18",
+      "source_id": "aten-s1",
+      "quote": "you remove the darkness, you grant your rays, and the two lands are in festival,",
+      "locator": "Great Hymn translation",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam Himne Agung, Aten menyingkirkan kegelapan dan memberikan sinarnya sehingga kedua negeri bersuka ria.",
+        "en": "In the Great Hymn Aten removes the darkness and grants his rays, and the two lands are in festival."
+      }
+    },
+    {
+      "id": "aten-c04",
+      "source_id": "aten-s2",
+      "quote": "He founded the palace-city of Amarna as a centre for his religious beliefs.",
+      "locator": "Petrie Museum object",
+      "context": "historical-record",
+      "statement": {
+        "id": "Akhenaten mendirikan Amarna sebagai pusat keyakinannya.",
+        "en": "Akhenaten founded Amarna as a center for his beliefs."
+      }
+    },
+    {
+      "id": "aten-c11",
+      "source_id": "aten-s1",
+      "quote": "The temples at Amarna present vast open spaces with altars for offerings and raised platforms.",
+      "locator": "Belief in one god",
+      "context": "historical-record",
+      "statement": {
+        "id": "Kuil Aten di Amarna memiliki ruang terbuka luas dan altar persembahan.",
+        "en": "The Amarna temples had open spaces and offering altars."
+      }
+    },
+    {
+      "id": "aten-c33",
+      "source_id": "aten-s4",
+      "quote": "Straying significantly from the tradition of ancient Egyptian temples being hidden and more enclosed the further one went into the site, temples of Aten were open and did not have roofs in order to allow the rays of the sun inside.",
+      "locator": "Worship",
+      "context": "historical-record",
+      "statement": {
+        "id": "Berbeda dari tradisi kuil Mesir yang tertutup, kuil Aten terbuka dan tidak beratap agar sinar matahari dapat masuk.",
+        "en": "Unlike the traditional enclosed Egyptian temple, temples of the Aten were open and unroofed so that the sun's rays could enter."
+      }
+    }
+  ],
+  "aura": "Documented effects and physical action only; no generic aura.",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "The sun-disk itself is the deity and dominant active subject. Do not invent humanoid deity or destruction. No ankh/letters/inscriptions, no glowing ring around disk. Hand-ended straight rays required by claims, not generic energy ribbons.",
+    "Root Codex viewed both native compositions and selected variant A: A gives nine straight hand-ended rays and an overwhelming active sun disk above the small fully clothed royal family in roofless Amarna temple. No human/falcon Aten body invented. B rays resemble curved energy ribbons and fail the prepared ray interpretation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/aten-attempt-01.png",
+      "native_sha256": "bc6ef6eeb71604e4de15be067b07cd8b617a58d6ac98b6e1dd954b03405d4738",
+      "reason": "Four hand-ended rays are thick curved ribbon-like bands, contrary the prepared straight light-ray interpretation and no-energy-ribbon direction. A has nine straight ray-hand connections and clearer source iconography; B not selected.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/aten-attempt-01.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "A gives nine straight hand-ended rays and an overwhelming active sun disk above the small fully clothed royal family in roofless Amarna temple. No human/falcon Aten body invented. B rays resemble curved energy ribbons and fail the prepared ray interpretation. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "219ff6e83bdaf2ad2565a45cc659e28092dce1a1163bbe90723b8db8bdbb5d17",
+    "reviewed_at": "2026-10-08T10:55:17.368667+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "A",
+  "selection_reason": "A gives nine straight hand-ended rays and an overwhelming active sun disk above the small fully clothed royal family in roofless Amarna temple. No human/falcon Aten body invented. B rays resemble curved energy ribbons and fail the prepared ray interpretation.",
+  "selected_at": "2026-10-08T10:55:17.368667+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/aten/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/aten/A.json",
+      "native_sha256": "219ff6e83bdaf2ad2565a45cc659e28092dce1a1163bbe90723b8db8bdbb5d17",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/aten/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/aten/B.json",
+      "native_sha256": "bc6ef6eeb71604e4de15be067b07cd8b617a58d6ac98b6e1dd954b03405d4738",
+      "selected": false
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "219ff6e83bdaf2ad2565a45cc659e28092dce1a1163bbe90723b8db8bdbb5d17",
+    "notes": "Aten as a single great sun disk with straight rays ending in human hands over an Amarna temple, small clothed royal family below; no humanoid body, no glyphs."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "kali",
+  "worker": "codex",
+  "worker_agent": "lane_1179_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-030.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a46-99fb-79b3-9596-a20a0cecf3d3/exec-2cf4781e-361c-4997-9356-5d5b0c6b85ef.png",
+  "generated_at": "2026-10-08T07:16:59.808288+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/kali.png",
+  "native_sha256": "512b6926b3a6a7185ccbfe70d5abb450ca3c26fb2018d89d0a1da2c9c87b32d8",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Kali, revered divine mother in battle aspect.\nANATOMY: one dark blue female head, gaunt cheeks, deep eyes; exactly four arms; gilded Bengali clay crown; opaque tiger-skin sari and upper blouse covering entire chest; hands hold sword,trident,cup,shield [kali-c23, kali-c24, kali-c53]\nMOMENT: Three-quarter battle turn, sword cutting upward across foreground, trident and shield frame face, cup clear; all four hands visible\nPOWER: defeat demons with documented sword; physical battle stroke, no visible gore or magic [kali-c06, kali-c32]\nSCALE & CAMERA: extreme low camera; tight framing and strong foreshortening; subject fills most of square, no invented giant size.\nLIGHT & WEATHER: one distant battlefield fire reflected on blade; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: dark battlefield and cremation-ground earth [kali-c16]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "depicted_variant": "Three-quarter battle turn, sword cutting upward across foreground, trident and shield frame face, cup clear; all four hands visible",
+  "basis_claim_ids": [
+    "kali-c23",
+    "kali-c24",
+    "kali-c53",
+    "kali-c06",
+    "kali-c32",
+    "kali-c16"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one dark blue female head, gaunt cheeks, deep eyes; exactly four arms; gilded Bengali clay crown; opaque tiger-skin sari and upper blouse covering entire chest; hands hold sword,trident,cup,shield",
+      "claim_ids": [
+        "kali-c23",
+        "kali-c24",
+        "kali-c53"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "defeat demons with documented sword; physical battle stroke, no visible gore or magic",
+      "claim_ids": [
+        "kali-c06",
+        "kali-c32"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "dark battlefield and cremation-ground earth",
+      "claim_ids": [
+        "kali-c16"
+      ]
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: defeat demons with documented sword; physical battle stroke, no visible gore or magic (kali-c06, kali-c32), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Respectful majestic protector, not monster; omit severed body parts and blood; opaque clothing editorial.",
+    "Three-quarter battle turn, sword cutting upward across foreground, trident and shield frame face, cup clear; all four hands visible",
+    "Root Codex viewed both native compositions and selected variant B: Dua PNG native telah dibaca. B dipilih karena empat tangan dengan pedang/trident/cup/shield jelas terpisah, mahkota utuh, kulit biru dan langkah perlindungan yang berwibawa. Sari motif harimau menutup torso; refleksi api pada pedang bukan darah atau kuasa senjata. Ujung pedang crop tetapi atribut terbaca; no gore dan tulisan. A juga sah namun trident terpotong. Efek/action didukung c06/c32. Tujuh syarat Sangar terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. B dipilih karena empat tangan dengan pedang/trident/cup/shield jelas terpisah, mahkota utuh, kulit biru dan langkah perlindungan yang berwibawa. Sari motif harimau menutup torso; refleksi api pada pedang bukan darah atau kuasa senjata. Ujung pedang crop tetapi atribut terbaca; no gore dan tulisan. A juga sah namun trident terpotong. Efek/action didukung c06/c32. Tujuh syarat Sangar terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "512b6926b3a6a7185ccbfe70d5abb450ca3c26fb2018d89d0a1da2c9c87b32d8",
+    "reviewed_at": "2026-10-08T07:26:03.528674+00:00"
+  },
+  "candidate_variant": "B",
+  "selected_variant": "B",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena empat tangan dengan pedang/trident/cup/shield jelas terpisah, mahkota utuh, kulit biru dan langkah perlindungan yang berwibawa. Sari motif harimau menutup torso; refleksi api pada pedang bukan darah atau kuasa senjata. Ujung pedang crop tetapi atribut terbaca; no gore dan tulisan. A juga sah namun trident terpotong. Efek/action didukung c06/c32. Tujuh syarat Sangar terpenuhi.",
+  "selected_at": "2026-10-08T07:26:03.528674+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/kali/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/kali/A.json",
+      "native_sha256": "da7cc0cbd85c34b07c8e5590d4d61b7970289b5253eaa5204d50e19e53630e14",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/kali/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/kali/B.json",
+      "native_sha256": "512b6926b3a6a7185ccbfe70d5abb450ca3c26fb2018d89d0a1da2c9c87b32d8",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "512b6926b3a6a7185ccbfe70d5abb450ca3c26fb2018d89d0a1da2c9c87b32d8",
+    "notes": "Dark blue four-armed Kali in opaque tiger-skin sari with sword, trident, cup and shield in a battle stroke on a burning field; clay crown; respectful, no gore."
+  }
+}

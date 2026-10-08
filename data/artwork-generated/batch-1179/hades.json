@@ -1,0 +1,110 @@
+{
+  "slug": "hades",
+  "basis_claim_ids": [
+    "hades-c01",
+    "hades-c07",
+    "hades-c13",
+    "hades-c16",
+    "hades-c32",
+    "hades-c33"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Mature dark-bearded regal male with bird-tipped sceptre, standard human anatomy, opaque robe.",
+      "claim_ids": [
+        "hades-c13",
+        "hades-c32"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Closes underworld gate, physically securing the dead; no invented elemental magic.",
+      "claim_ids": [
+        "hades-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dark underground palace; ebony throne.",
+      "claim_ids": [
+        "hades-c07",
+        "hades-c33"
+      ]
+    }
+  ],
+  "depicted_variant": "Aidoneus, dark-bearded king wielding bird-tipped sceptre in his underground palace.",
+  "aura": "Authority over closed underworld gates (hades-c16), visible bird-tipped sceptre and regal darkness (hades-c13).",
+  "artistic_choices": [
+    "Opaque charcoal wool robes and antique gold trim are editorial attire.",
+    "Tight low-angle framing conveys authority without inventing gigantic stature.",
+    "No magical aura; physical gate closure embodies the documented domain.",
+    "Root Codex viewed both native compositions and selected variant B: Variant B chosen after viewing both: visible hand physically closes massive underworld gate (c16), dark-bearded king and bird-tipped sceptre (c13), underground palace and throne. Gate action is clearer than A; full opaque robes, coherent two arms, no invented magic."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-027.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-abba307b-f3be-4c52-85ab-423b55e40bf9.png",
+  "generated_at": "2026-10-08T06:54:49.045599+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/hades.png",
+  "native_sha256": "1c60034a2bfc2d8cbb80f0f481f2edab6820e07091493fa2e80e80e1c9b068ce",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hades, ancient Greek king of the dead.\nANATOMY: one mature dark-bearded regal male, one head, two eyes, two arms and two legs, fully opaque charcoal robes, bird-tipped sceptre held in one hand [hades-c13,hades-c32].\nPOWER: keep the heavy stone gates of the underworld closed so no shade escapes; no elemental magic [hades-c16].\nSCALE & CAMERA: very low camera close to his figure; head and sceptre unmistakable at thumbnail size; no invented giant size.\nLIGHT & WEATHER: one warm oil-lamp source low at the gate, deep shadows, dust falling from physical closing stonework.\nSURFACE: dense woven cloth, rough ancient stone, dark textured beard, worn metal.\nSETTING: dark underground palace and ebony throne [hades-c07,hades-c33].\nMOOD: pitiless commanding authority, dangerous and overwhelming, never ordinary, neutral, decorative or cute.\nHARD CONSTRAINTS: no text or pseudo-lettering ANYWHERE, no glyphs on pillars/clothing/metal, no logo, border, frame, watermark; no extra limbs/fingers, no film/game/anime/comic designs, no nudity or gore, no generic aura, neon or ribbons.\nMOMENT: Side-on dramatic close low angle: he pulls one massive gate leaf shut with his free hand while gripping the tall bird-tipped sceptre; his severe eyes look down toward viewer. Ebony throne recedes behind him. Diagonal action and cloth movement.",
+  "candidate_variant": "B",
+  "candidate_choice_notes": "All seven Sangar checks yes: dominating severe dark-bearded king, bird sceptre readable at thumbnail, stepping/closing gate action and falling dust (hades-c16), standard anatomy, no lettering or aura, regal authority. Preferred: gate-closing action more explicit.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Variant B chosen after viewing both: visible hand physically closes massive underworld gate (c16), dark-bearded king and bird-tipped sceptre (c13), underground palace and throne. Gate action is clearer than A; full opaque robes, coherent two arms, no invented magic. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "1c60034a2bfc2d8cbb80f0f481f2edab6820e07091493fa2e80e80e1c9b068ce",
+    "reviewed_at": "2026-10-08T07:03:10.033745+00:00"
+  },
+  "selected_variant": "B",
+  "selection_reason": "Variant B chosen after viewing both: visible hand physically closes massive underworld gate (c16), dark-bearded king and bird-tipped sceptre (c13), underground palace and throne. Gate action is clearer than A; full opaque robes, coherent two arms, no invented magic.",
+  "selected_at": "2026-10-08T07:03:10.033745+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/hades/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hades/A.json",
+      "native_sha256": "36f00c847a3eb2095b764d5b25827a00c38367283cec2d0809a864af2e9364da",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/hades/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hades/B.json",
+      "native_sha256": "1c60034a2bfc2d8cbb80f0f481f2edab6820e07091493fa2e80e80e1c9b068ce",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "1c60034a2bfc2d8cbb80f0f481f2edab6820e07091493fa2e80e80e1c9b068ce",
+    "notes": "Dark-bearded Hades in opaque black robe with bird-tipped sceptre pushing an iron underworld gate shut; ebony hall behind."
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "hanuman",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-034.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-244489f8-f7e5-4561-85b3-2b48825b361c.png",
+  "generated_at": "2026-10-08T10:22:32.099095+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/hanuman.png",
+  "native_sha256": "ae573c74331a33e1a048ffd2240947969463b0397af60760dfe6397b9694f0a6",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hanuman, revered monkey-bodied mountain carrier.\nANATOMY: one monkey head, two arms,two legs,one tail; one hand holds herb mountain overhead, other mace; opaque tunic and trousers covering entire torso [hanuman-c02, hanuman-c17, hanuman-c30]\nMOMENT: Fly toward viewer from low angle, one palm bears mountain, other grips mace, focused pleasant monkey face, tail streams and ocean heaves\nPOWER: fly carrying uprooted healing mountain; sea below rages and swells [hanuman-c05, hanuman-c06, hanuman-c40, hanuman-c41]\nSCALE & CAMERA: extreme low camera; documented gigantic size c41, small waves beneath vast flying body, mountain large but face dominates.\nLIGHT & WEATHER: one predawn horizon; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: flight over ocean between Himalayas and Lanka [hanuman-c13]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "candidate_variant": "A",
+  "depicted_variant": "Documented form, physical action and attributes; compositions A and B.",
+  "basis_claim_ids": [
+    "hanuman-c02",
+    "hanuman-c17",
+    "hanuman-c30",
+    "hanuman-c05",
+    "hanuman-c06",
+    "hanuman-c40",
+    "hanuman-c41",
+    "hanuman-c13"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one monkey head, two arms,two legs,one tail; one hand holds herb mountain overhead, other mace; opaque tunic and trousers covering entire torso",
+      "claim_ids": [
+        "hanuman-c02",
+        "hanuman-c17",
+        "hanuman-c30"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "fly carrying uprooted healing mountain; sea below rages and swells",
+      "claim_ids": [
+        "hanuman-c05",
+        "hanuman-c06",
+        "hanuman-c40",
+        "hanuman-c41"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "flight over ocean between Himalayas and Lanka",
+      "claim_ids": [
+        "hanuman-c13"
+      ]
+    }
+  ],
+  "source_ids": [
+    "hanuman-s2",
+    "hanuman-s1",
+    "hanuman-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "hanuman-c02",
+      "source_id": "hanuman-s2",
+      "quote": "a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion.",
+      "locator": "Glossary",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hanuman adalah dewa bertubuh kera, pendamping Rama, dan teladan bakti.",
+        "en": "Hanuman is a monkey-bodied deity, Rama's companion, and an exemplar of devotion."
+      }
+    },
+    {
+      "id": "hanuman-c17",
+      "source_id": "hanuman-s1",
+      "quote": "One of the princes in the Mahabharat is also a son of the Wind God and it is to him that Hanuman makes his only appearance in this epic. This prince, named Bhima, was as mighty as the wind ... he could not move even a whisker of the tail. It transpired that the monkey was none other than Hanuman, the mightiest being on earth.",
+      "locator": "Hanuman in the Mahabharat",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam Mahabharata, Bhima tak mampu menggeser sehelai pun ekor seekor kera tua yang ternyata adalah Hanuman, makhluk terkuat di bumi.",
+        "en": "In the Mahabharata, Bhima cannot move even a whisker of an old monkey's tail; the monkey turns out to be Hanuman, the mightiest being on earth."
+      }
+    },
+    {
+      "id": "hanuman-c30",
+      "source_id": "hanuman-s1",
+      "quote": "He is most often depicted with his favourite weapon, the mace. He is also often depicted as flying across the skies, one hand holding aloft the mountain of herbs and the other a mace.",
+      "locator": "Hanuman in the 21st Century",
+      "context": "historical-record",
+      "statement": {
+        "id": "Hanuman paling sering digambarkan dengan senjata kesayangannya, gada, dan juga sering digambarkan terbang di langit dengan satu tangan mengangkat gunung ramuan dan tangan lain memegang gada.",
+        "en": "Hanuman is most often depicted with his favourite weapon, the mace, and often flying across the sky with one hand holding up the mountain of herbs and the other a mace."
+      }
+    },
+    {
+      "id": "hanuman-c05",
+      "source_id": "hanuman-s1",
+      "quote": "He is the one who flies across the oceans (he is Wind's child), locates the exact place where Sita is imprisoned and brings this information back to Rama.",
+      "locator": "Hanuman in the Ramayana",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Hanuman terbang menyeberangi lautan untuk menemukan Sita dan membawa kabar kepada Rama.",
+        "en": "Hanuman flies over the sea to locate Sita and report back to Rama."
+      }
+    },
+    {
+      "id": "hanuman-c06",
+      "source_id": "hanuman-s1",
+      "quote": "Being unable to identify the exact four herbs that the physician had described, Hanuman uproots the entire mountain and carries it back to the battlefield.",
+      "locator": "Hanuman in the Ramayana",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ketika tidak bisa mengenali ramuan penyembuh, Hanuman membawa seluruh gunung ke medan perang.",
+        "en": "Unable to identify the healing herbs, Hanuman carries the whole mountain to the battlefield."
+      }
+    },
+    {
+      "id": "hanuman-c40",
+      "source_id": "hanuman-s4",
+      "quote": "The shadow on the ocean cast By his vast form, as on he passed, Flew like a ship before the gale When the strong breeze has filled the sail, And where his course the Vánar held The sea beneath him raged and swelled.",
+      "locator": "Book V, Canto I (Hanumán's Leap)",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bayangan tubuh raksasa Hanumán di atas samudra meluncur seperti kapal diterpa angin, dan laut di bawah jalurnya bergolak serta menggelembung.",
+        "en": "The shadow of Hanumán's vast form on the ocean flew like a ship before the gale, and the sea beneath his course raged and swelled."
+      }
+    },
+    {
+      "id": "hanuman-c41",
+      "source_id": "hanuman-s4",
+      "quote": "and stood before their joyous eyes Dilated in gigantic size.",
+      "locator": "Book IV, Canto LXVI (Hanumán)",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hanumán, jiwanya terdorong untuk berupaya keras, berdiri di depan mata mereka yang bersukacita dengan tubuh membesar hingga ukuran raksasa.",
+        "en": "Hanumán, his soul stirred to vigorous effort, stood before their joyous eyes dilated in gigantic size."
+      }
+    },
+    {
+      "id": "hanuman-c13",
+      "source_id": "hanuman-s1",
+      "quote": "The catch? The battle is raging on in Lanka, across the southernmost tip of the country, while the Himalayas are far up north, and the herbs are needed within the next few hours, before the new day dawns. Hanuman leaps up into the air, flies northwards at lightning speed, and alights atop the Himalayas.",
+      "locator": "Hanuman in the Ramayana",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pertempuran berkecamuk di Lanka sementara Himalaya jauh di utara, dan ramuan dibutuhkan sebelum fajar; Hanuman melompat ke udara, terbang ke utara secepat kilat, dan mendarat di puncak Himalaya.",
+        "en": "The battle rages in Lanka while the Himalayas are far to the north and the herbs are needed before dawn; Hanuman leaps into the air, flies north at lightning speed and alights atop the Himalayas."
+      }
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: fly carrying uprooted healing mountain; sea below rages and swells (hanuman-c05, hanuman-c06, hanuman-c40, hanuman-c41), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Respect living deity; pleasant determined face c16, not ferocious monster.",
+    "Root Codex viewed both native compositions and selected variant A: A reads the whole mace and two feet clearly while Hanuman carries the mountain above the ocean. Both native variants pass; A has cleaner complete attributes."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "A reads the whole mace and two feet clearly while Hanuman carries the mountain above the ocean. Both native variants pass; A has cleaner complete attributes. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "ae573c74331a33e1a048ffd2240947969463b0397af60760dfe6397b9694f0a6",
+    "reviewed_at": "2026-10-08T10:37:47.788554+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "A",
+  "selection_reason": "A reads the whole mace and two feet clearly while Hanuman carries the mountain above the ocean. Both native variants pass; A has cleaner complete attributes.",
+  "selected_at": "2026-10-08T10:37:47.788554+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/hanuman/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hanuman/A.json",
+      "native_sha256": "ae573c74331a33e1a048ffd2240947969463b0397af60760dfe6397b9694f0a6",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/hanuman/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/hanuman/B.json",
+      "native_sha256": "12b6f09e8a78adad4b5a0ac53811f9492d0bf80cd8023ab13e14a22eec1d6556",
+      "selected": false
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "ae573c74331a33e1a048ffd2240947969463b0397af60760dfe6397b9694f0a6",
+    "notes": "Monkey-headed Hanuman in opaque tunic flying over a raging sea with herb mountain overhead and mace in the other hand; pleasant determined face."
+  }
+}

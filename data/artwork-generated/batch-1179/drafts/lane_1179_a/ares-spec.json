@@ -1,0 +1,123 @@
+{
+  "slug": "ares",
+  "batch": 1179,
+  "basis_claim_ids": [
+    "ares-c03",
+    "ares-c07",
+    "ares-c10",
+    "ares-c26",
+    "ares-c42",
+    "ares-c44"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "mature bearded warrior, one head, two arms and legs, complete opaque bronze armor, peaked golden warrior helmet, spear and shield",
+      "claim_ids": [
+        "ares-c03",
+        "ares-c07",
+        "ares-c26",
+        "ares-c42"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No outward magic or violent event; natural dust from ceremonial marching/chariot arrival conveys war domain.",
+      "claim_ids": [
+        "ares-c10",
+        "ares-c42"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Ancient military assembly staging of documented warfare domain, without violence.",
+      "claim_ids": [
+        "ares-c10",
+        "ares-c44"
+      ]
+    }
+  ],
+  "source_claims": [
+    {
+      "id": "ares-c03",
+      "source_id": "ares-s3",
+      "quote": "In ancient Greek Archaic and Classical art, Ares is most often depicted wearing full armour and helmet and carrying a shield and spear.",
+      "locator": "How is Ares Represented in Art?",
+      "context": "historical-record",
+      "statement": {
+        "id": "Ares digambarkan memakai zirah dan ketopong serta membawa perisai dan tombak.",
+        "en": "Ancient art shows Ares armored with helmet, shield, and spear."
+      }
+    },
+    {
+      "id": "ares-c07",
+      "source_id": "ares-s2",
+      "quote": "In ancient Greek art he was depicted as either a mature, bearded warrior armed for battle, or a nude, beardless youth with a helm and spear.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Penggambaran kuno Ares dapat berupa prajurit dewasa berjanggut atau pemuda berketopong dan tombak.",
+        "en": "Ancient depictions show Ares as a bearded warrior or a helmeted youth with spear."
+      }
+    },
+    {
+      "id": "ares-c10",
+      "source_id": "ares-s1",
+      "quote": "Many Greeks were ambivalent towards him. He embodies the physical valor necessary for success in war but can also personify sheer brutality and bloodlust, in contrast to his sister Athena, whose martial functions include military strategy and generalship.",
+      "locator": "Lead",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Banyak orang Yunani bersikap mendua terhadap Ares: ia mewujudkan keberanian fisik yang diperlukan untuk menang perang, tetapi juga dapat melambangkan kebrutalan dan nafsu darah, berbeda dengan saudarinya Athena yang berfungsi pada strategi dan kepemimpinan militer.",
+        "en": "Many Greeks were ambivalent toward Ares: he embodies the physical valor needed for success in war but can also personify sheer brutality and bloodlust, in contrast to his sister Athena, whose martial functions include strategy and generalship."
+      }
+    },
+    {
+      "id": "ares-c26",
+      "source_id": "ares-s2",
+      "quote": "Ares' main attribute was a peaked warrior's helm. Even in domestic scenes, such as feasts of the gods, he was depicted either wearing or holding his helm. The god's other attributes included a shield, a spear and sometimes a sheathed sword.",
+      "locator": "Symbols & Attributes",
+      "context": "historical-record",
+      "statement": {
+        "id": "Atribut utama Ares adalah ketopong prajurit berpuncak, bahkan dalam adegan rumah tangga seperti pesta para dewa; atribut lainnya perisai, tombak, dan kadang pedang bersarung.",
+        "en": "Ares' main attribute was a peaked warrior's helm, even in domestic scenes such as feasts of the gods; his other attributes included a shield, a spear, and sometimes a sheathed sword."
+      }
+    },
+    {
+      "id": "ares-c42",
+      "source_id": "ares-s2",
+      "quote": "Ares, exceeding in strength, chariot-rider, golden-helmed, doughty in heart, shield-bearer, Saviour of cities, harnessed in bronze, strong of arm, unwearying, mighty with the spear, O defender of Olympos",
+      "locator": "Classical Literature Quotes (Homeric Hymn 8 to Ares)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Himne Homerik 8 menyapa Ares sebagai yang luar biasa kuat, penunggang kereta, berketopong emas, pembawa perisai, penyelamat kota, berbaju perunggu, dan perkasa dengan tombak.",
+        "en": "Homeric Hymn 8 addresses Ares as exceeding in strength, chariot-rider, golden-helmed, shield-bearer, saviour of cities, harnessed in bronze, and mighty with the spear."
+      }
+    },
+    {
+      "id": "ares-c44",
+      "source_id": "ares-s3",
+      "quote": "Described by Hesiod in his Theogony as 'shield-piercing Ares' and 'city-sacking Ares,' the god represented the more brutal and bloody side of battle, which was in contrast to Athena who represented the more strategic elements of warfare.",
+      "locator": "Ares' Family Relations",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam Theogony karya Hesiodos, Ares disebut \"Ares penembus perisai\" dan \"Ares penjarah kota\", mewakili sisi pertempuran yang lebih brutal dan berdarah, berbeda dengan Athena yang mewakili unsur strategis perang.",
+        "en": "Described by Hesiod in the Theogony as \"shield-piercing Ares\" and \"city-sacking Ares\", he represented the more brutal and bloody side of battle, in contrast to Athena, who represented its more strategic elements."
+      }
+    }
+  ],
+  "source_ids": [
+    "ares-s1",
+    "ares-s2",
+    "ares-s3"
+  ],
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded."
+  ],
+  "prompts": {
+    "A": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Ares.\nANATOMY: mature bearded warrior, one head, two arms and legs, complete opaque bronze armor, peaked golden warrior helmet, spear and shield [ares-c03, ares-c07, ares-c26, ares-c42]\nMOMENT: March toward the low camera with shield outward and spear held upright pointing safely away, stern commanding gaze; ceremonial arrival, no violent event.\nPOWER: No supernatural light; natural wind lifts dust around armor; NO spear strike, attack, wounds, harmed people or violent event [ares-c10, ares-c42]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: dusty ancient military assembly ground, unoccupied foreground [ares-c10, ares-c44]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+    "B": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Ares.\nANATOMY: mature bearded warrior, one head, two arms and legs, complete opaque bronze armor, peaked golden warrior helmet, spear and shield [ares-c03, ares-c07, ares-c26, ares-c42]\nMOMENT: Ride slowly forward in a bronze chariot, spear held vertically upright away from people and shield outward, far-off unharmed footmen assemble; wheels lift natural dust.\nPOWER: No supernatural light; natural dust lifts from moving chariot wheels; NO attack, impact, wounds, harmed people or violent event [ares-c10, ares-c42]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: dusty ancient military assembly ground, unoccupied foreground [ares-c10, ares-c44]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image."
+  },
+  "depicted_variant": "Ares"
+}

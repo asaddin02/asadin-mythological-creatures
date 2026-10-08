@@ -1,0 +1,153 @@
+{
+  "slug": "odin",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-030.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-05b5ac49-b841-41f6-92a2-2ae8da607847.png",
+  "generated_at": "2026-10-08T07:00:20.207113+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/odin/A.png",
+  "native_sha256": "a00426bb4daf2207897f486855f14a7a04e0efbb6f9bb9373fa3cbeb29c8684b",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Odin.\nANATOMY: old weathered bearded man, one visible eye and one clearly empty closed scarred socket, broad plain hat and opaque heavy cloak, two arms and two legs, spear Gungnir [odin-c01, odin-c08, odin-c09]\nMOMENT: Lean forward and thrust Gungnir across the foreground, single fierce eye under hat confronts the viewer.\nPOWER: Wild Hunt rides on storms: storm wind and driving rain whip cloak; no lightning powers assigned [odin-c17]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: storm-dark Norse landscape in the Wild Hunt; no invented named site [odin-c17]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "A",
+  "depicted_variant": "Odin",
+  "basis_claim_ids": [
+    "odin-c01",
+    "odin-c08",
+    "odin-c09",
+    "odin-c17",
+    "odin-c03",
+    "odin-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "old weathered bearded man, one visible eye and one clearly empty closed scarred socket, broad plain hat and opaque heavy cloak, two arms and two legs, spear Gungnir",
+      "claim_ids": [
+        "odin-c01",
+        "odin-c08",
+        "odin-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wild Hunt rides on storms: storm wind and driving rain whip cloak; no lightning powers assigned",
+      "claim_ids": [
+        "odin-c17"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "storm-dark Norse landscape in the Wild Hunt; no invented named site",
+      "claim_ids": [
+        "odin-c17"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Two accompanying ravens visible in generated candidate, verified against c03 and c07",
+      "claim_ids": [
+        "odin-c03",
+        "odin-c07"
+      ]
+    }
+  ],
+  "source_ids": [
+    "odin-s1"
+  ],
+  "source_claims": [
+    {
+      "id": "odin-c01",
+      "source_id": "odin-s1",
+      "quote": "Odin (Old Norse: Óðinn) is the main god in Norse mythology. Described as an immensely wise, one-eyed old man",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Odin adalah dewa utama mitologi Nordik yang digambarkan bijak dan bermata satu.",
+        "en": "Odin is a leading Norse god depicted as wise and one-eyed."
+      }
+    },
+    {
+      "id": "odin-c08",
+      "source_id": "odin-s1",
+      "quote": "Odin can be recognised by his hat and cloak, long beard, and only one eye",
+      "locator": "Attributes",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Odin dikenali dari topi dan jubahnya, janggut panjang, dan hanya satu mata.",
+        "en": "Odin is recognised by his hat and cloak, long beard, and only one eye."
+      }
+    },
+    {
+      "id": "odin-c09",
+      "source_id": "odin-s1",
+      "quote": "His spear Gungnir is one of his main attributes",
+      "locator": "Attributes",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tombak Gungnir adalah salah satu atribut utama Odin.",
+        "en": "His spear Gungnir is one of his main attributes."
+      }
+    },
+    {
+      "id": "odin-c17",
+      "source_id": "odin-s1",
+      "quote": "Odin's connection with war flows naturally into a connection with the dead, which is further illustrated by Odin as the leader of the so-called Wild Hunt - a widespread and old Germanic cult centred around a myth of an army of the dead who ride on the storms.",
+      "locator": "Functions",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hubungan Odin dengan perang berlanjut ke hubungannya dengan orang mati, antara lain sebagai pemimpin Perburuan Liar (Wild Hunt), pasukan orang mati yang menunggang badai.",
+        "en": "Odin's link with war extends to a link with the dead, shown in his role as leader of the Wild Hunt, an army of the dead who ride on the storms."
+      }
+    },
+    {
+      "id": "odin-c03",
+      "source_id": "odin-s1",
+      "quote": "Odin's two ravens, Huginn ('thought') and Muninn ('wisdom') are very old mythical elements",
+      "locator": "Attributes",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dua gagak Odin bernama Huginn dan Muninn.",
+        "en": "Odin's two ravens are Huginn and Muninn."
+      }
+    },
+    {
+      "id": "odin-c07",
+      "source_id": "odin-s1",
+      "quote": "They fly around the world gathering news, and when they return, they sit on Odin's shoulder and whisper their tidings into his ear.",
+      "locator": "Attributes",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Huginn dan Muninn terbang mencari kabar bagi Odin.",
+        "en": "The ravens fly to gather news for Odin."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: odin-c01, odin-c08, odin-c09, odin-c17",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Old one-eyed Odin thrusts Gungnir through close foreground; other eye closed and scarred, no second pupil. Hat, cloak, beard and storm hunt action clear. Two ravens present, supported additionally by c03/c07; no magic light."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Old one-eyed Odin thrusts Gungnir through close foreground; other eye closed and scarred, no second pupil. Hat, cloak, beard and storm hunt action clear. Two ravens present, supported additionally by c03/c07; no magic light. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "a00426bb4daf2207897f486855f14a7a04e0efbb6f9bb9373fa3cbeb29c8684b",
+    "reviewed_at": "2026-10-08T07:00:20.207113+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih karena mata tunggal, janggut tua, topi lebar dan dorongan Gungnir ke depan terbaca besar dan tegas; dua gagak didukung c03/c07. B sah namun ekspresi kurang dekat. Hujan, angin, rombongan Wild Hunt berasal dari c17, tanpa menambahkan kuasa kilat. Pakaian tertutup, anatomi wajar, tidak ada tulisan. Tujuh syarat Sangar terpenuhi."
+}

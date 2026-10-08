@@ -1,0 +1,122 @@
+{
+  "slug": "jupiter",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-028.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-c797f5d1-d562-4d8a-85ba-e063804c84db.png",
+  "generated_at": "2026-10-08T06:56:50.458161+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/jupiter/B.png",
+  "native_sha256": "759583a813bea53edfd5cd736e45d967914db4ab5e0fa708344c80ba138b67bd",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Jupiter.\nANATOMY: older broad-jawed man with long white beard, one head, two arms and legs, opaque heavy Roman robe, tall plain scepter with eagle finial [jupiter-c07]\nMOMENT: Advance full length across rain-lashed rocks and throw a thunderbolt into the ground, robe whipped by storm.\nPOWER: A real branching thunderbolt strikes rock beside his scepter, blowing chips and rain outward [jupiter-c01, jupiter-c09, jupiter-c23]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: storm-filled sky above a rocky height; terrain is artistic staging for sky domain [jupiter-c01]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Jupiter",
+  "basis_claim_ids": [
+    "jupiter-c01",
+    "jupiter-c07",
+    "jupiter-c09",
+    "jupiter-c23"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "older broad-jawed man with long white beard, one head, two arms and legs, opaque heavy Roman robe, tall plain scepter with eagle finial",
+      "claim_ids": [
+        "jupiter-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A real branching thunderbolt strikes rock beside his scepter, blowing chips and rain outward",
+      "claim_ids": [
+        "jupiter-c01",
+        "jupiter-c09",
+        "jupiter-c23"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "storm-filled sky above a rocky height; terrain is artistic staging for sky domain",
+      "claim_ids": [
+        "jupiter-c01"
+      ]
+    }
+  ],
+  "source_ids": [
+    "jupiter-s1",
+    "jupiter-s2"
+  ],
+  "source_claims": [
+    {
+      "id": "jupiter-c01",
+      "source_id": "jupiter-s1",
+      "quote": "is the god of the sky and thunder, and king of the gods.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Jupiter adalah dewa langit dan guntur serta pemimpin para dewa.",
+        "en": "Jupiter is god of the sky and thunder and king of the gods."
+      }
+    },
+    {
+      "id": "jupiter-c07",
+      "source_id": "jupiter-s2",
+      "quote": "He was most often portrayed with a long, white beard, and his symbol was the eagle atop a scepter",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Jupiter digambarkan berjanggut putih dan memiliki lambang elang pada tongkat.",
+        "en": "Jupiter is depicted with a white beard and an eagle on his scepter."
+      }
+    },
+    {
+      "id": "jupiter-c09",
+      "source_id": "jupiter-s2",
+      "quote": "Among the many gods of the Romans, Jupiter, the son of Saturn, was the supreme god, associated with thunder, lightning, and storms.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Di antara banyak dewa Romawi, Jupiter, putra Saturnus, adalah dewa tertinggi yang dikaitkan dengan guntur, kilat, dan badai.",
+        "en": "Among the many Roman gods, Jupiter, son of Saturn, was the supreme god, associated with thunder, lightning, and storms."
+      }
+    },
+    {
+      "id": "jupiter-c23",
+      "source_id": "jupiter-s1",
+      "quote": "Jupiter assumed atmospheric qualities; he is the wielder of lightning and the master of weather.",
+      "locator": "Theology, Jovian theology",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Jupiter bersifat atmosferik: ia pemegang kilat dan penguasa cuaca.",
+        "en": "Jupiter took on atmospheric qualities: he is the wielder of lightning and master of weather."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: jupiter-c01, jupiter-c07, jupiter-c09, jupiter-c23",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; Full advancing stance; right hand drives branching lightning into rock, eagle-topped sceptre and white beard distinct; robe entirely opaque, imposing action and physical fragments."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Full advancing stance; right hand drives branching lightning into rock, eagle-topped sceptre and white beard distinct; robe entirely opaque, imposing action and physical fragments. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "759583a813bea53edfd5cd736e45d967914db4ab5e0fa708344c80ba138b67bd",
+    "reviewed_at": "2026-10-08T06:56:50.458161+00:00"
+  },
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected A after comparing both native PNGs: Dua PNG native telah dibaca. A dipilih karena wajah tua berahang lebar, badan dominan, elang pada tongkat dan kilat bercabang memberi identitas Jupiter yang jelas. Dorongan tongkat ke batu dan dampak kilat merupakan aksi langsung; efek ditopang c01/c09/c23. B sah tetapi figur lebih kecil. Semua tujuh syarat Sangar terpenuhi."
+}

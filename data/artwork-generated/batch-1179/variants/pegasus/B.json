@@ -1,0 +1,135 @@
+{
+  "slug": "pegasus",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-035.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-998242b0-2120-4b51-ab5f-e42b5d37cf04.png",
+  "generated_at": "2026-10-08T07:17:01.161393+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/pegasus/B.png",
+  "native_sha256": "f3a93fb4df372dc6ff0008ef2f2f5b74ee3c7874c91d5319aefaf83f3871221f",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Pegasus.\nANATOMY: one living horse head, equine body, exactly four horse legs, two large feather wings, plain mane, no horn [pegasus-c01, pegasus-c02]\nMOMENT: Land hard on Mount Helikon with wings fully spread and all four hooves readable; freshly struck spring surges around front hoof.\nPOWER: Hoof strike brings forth Hippocrene spring, water bursts physically from the ground [pegasus-c22, pegasus-c31]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: Hippocrene spring on Mount Helikon, dark rocky summit [pegasus-c30, pegasus-c31]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Pegasus",
+  "basis_claim_ids": [
+    "pegasus-c01",
+    "pegasus-c02",
+    "pegasus-c22",
+    "pegasus-c30",
+    "pegasus-c31"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one living horse head, equine body, exactly four horse legs, two large feather wings, plain mane, no horn",
+      "claim_ids": [
+        "pegasus-c01",
+        "pegasus-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hoof strike brings forth Hippocrene spring, water bursts physically from the ground",
+      "claim_ids": [
+        "pegasus-c22",
+        "pegasus-c31"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hippocrene spring on Mount Helikon, dark rocky summit",
+      "claim_ids": [
+        "pegasus-c30",
+        "pegasus-c31"
+      ]
+    }
+  ],
+  "source_ids": [
+    "pegasus-s1",
+    "pegasus-s2"
+  ],
+  "source_claims": [
+    {
+      "id": "pegasus-c01",
+      "source_id": "pegasus-s1",
+      "quote": "Pegasus (or Pegasos) is a winged-horse from Greek mythology which was fathered by Poseidon and was born from the severed neck of the gorgon Medusa, slain by Perseus.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pegasus adalah kuda bersayap mitologi Yunani, putra Poseidon yang muncul ketika Perseus memenggal Medusa.",
+        "en": "Pegasus is a winged horse of Greek mythology, fathered by Poseidon and born when Perseus beheaded Medusa."
+      }
+    },
+    {
+      "id": "pegasus-c02",
+      "source_id": "pegasus-s2",
+      "quote": "PEGASOS (Pegasus) was an immortal, winged horse which sprang from the neck of the beheaded Gorgon Medousa (Medusa).",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pegasus adalah kuda bersayap abadi yang muncul dari leher Medusa.",
+        "en": "Pegasus is an immortal winged horse that emerged from Medusa's neck."
+      }
+    },
+    {
+      "id": "pegasus-c22",
+      "source_id": "pegasus-s2",
+      "quote": "Pegasus lastly was also regarded as the horse of the Muses, and in this capacity he is more celebrated in modern times than he ever was in antiquity ; for with the ancients he had no connection with the Muses, except that by his hoof he called forth the inspiring well Hippocrene.",
+      "locator": "Encyclopedia",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Pegasus belakangan juga dianggap kuda para Muse; dalam peran ini ia lebih terkenal di zaman modern daripada di masa kuno, sebab bagi orang kuno hubungannya dengan para Muse hanya lewat hentakan kukunya yang memunculkan mata air Hippocrene.",
+        "en": "Pegasus was also later regarded as the horse of the Muses; in this role he is more celebrated in modern times than in antiquity, since for the ancients his only link to the Muses was that his hoof called forth the Hippocrene well."
+      }
+    },
+    {
+      "id": "pegasus-c30",
+      "source_id": "pegasus-s2",
+      "quote": "When the Mousai (Muses) sang, heaven, the stars, the sea and rivers stood still, while Mount Helikon (Helicon), beguiled by the pleasure of it all, swelled skyward till, by the will of Poseidon, Pegasos checked it by striking the summit with his hoof.",
+      "locator": "Classical literature quotes: Pegasus & the Spring of Hippocrene",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Antoninus Liberalis: Gunung Helikon, terpikat kenikmatan nyanyian para Muse, membengkak ke langit sampai Pegasos, atas kehendak Poseidon, menghentikannya dengan menghentak puncaknya.",
+        "en": "Antoninus Liberalis: Mount Helikon, beguiled by the pleasure of the Muses' song, swelled skyward until Pegasos, by Poseidon's will, checked it by striking the summit with his hoof."
+      }
+    },
+    {
+      "id": "pegasus-c31",
+      "source_id": "pegasus-s2",
+      "quote": "It was made, they say, by [Pegasos] the horse of Bellerophon striking the ground with this hoof.",
+      "locator": "Classical literature quotes: Pegasus & the Spring of Hippocrene",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pausanias: Hippokrene, kata orang, dibuat oleh Pegasos, kuda Bellerophon, yang menghentak tanah dengan kukunya.",
+        "en": "Pausanias: Hippokrene was made, they say, by Pegasos, the horse of Bellerophon, striking the ground with his hoof."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: pegasus-c01, pegasus-c02, pegasus-c22, pegasus-c30, pegasus-c31",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; Full landing composition with two huge feather wings and exactly four horse legs; spring erupts below striking hoof c31, no horn aura or ordinary pasture pose."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Full landing composition with two huge feather wings and exactly four horse legs; spring erupts below striking hoof c31, no horn aura or ordinary pasture pose. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "f3a93fb4df372dc6ff0008ef2f2f5b74ee3c7874c91d5319aefaf83f3871221f",
+    "reviewed_at": "2026-10-08T07:17:01.161393+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena empat tungkai kuda paling jelas, dua sayap berbulu besar, kepala kuda tunggal tanpa tanduk serta kuku menyentuh sumber air. Hippocrene timbul dari hentakan kuku c22/c31 di Helikon c30/c31; tanpa aura atau sumber efek rekaan. A sah tetapi tungkai belakang tertutup percikan/crop. Tujuh syarat Sangar terpenuhi."
+}

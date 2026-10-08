@@ -1,0 +1,136 @@
+{
+  "slug": "diana",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-038.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-cfab459e-4faf-4af6-85ac-c082ccbfe3e7.png",
+  "generated_at": "2026-10-08T07:22:43.993322+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/diana/A.png",
+  "native_sha256": "ef8090fdeda8041dfcd3919099418feb87a62ffa1beb24ccc063a36e7924bb21",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Diana.\nANATOMY: adult Roman hunt goddess, one head two arms two legs, fully opaque dark green wool hunting tunic and leather bracers, plain bow and quiver [diana-c06]\nMOMENT: Turn suddenly toward viewer and draw her bow across close foreground, taut focused face with distinctive strong jaw.\nPOWER: Physical archery and hunt, no magic beams; moonlight is environmental light reflecting lunar domain [diana-c02, diana-c11, diana-c22]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: grove at Aricia beside Lake Nemi, deer in deep background [diana-c02, diana-c25]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.\nFACIAL IDENTITY ART CHOICE: Distinct athletic mature woman in her thirties: broad square jaw, strong straight nose, asymmetric concentrated frown, weathered outdoors skin and chestnut hair; not a youthful doll face.",
+  "candidate_variant": "A",
+  "depicted_variant": "Diana",
+  "basis_claim_ids": [
+    "diana-c02",
+    "diana-c06",
+    "diana-c11",
+    "diana-c22",
+    "diana-c25"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "adult Roman hunt goddess, one head two arms two legs, fully opaque dark green wool hunting tunic and leather bracers, plain bow and quiver",
+      "claim_ids": [
+        "diana-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical archery and hunt, no magic beams; moonlight is environmental light reflecting lunar domain",
+      "claim_ids": [
+        "diana-c02",
+        "diana-c11",
+        "diana-c22"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "grove at Aricia beside Lake Nemi, deer in deep background",
+      "claim_ids": [
+        "diana-c02",
+        "diana-c25"
+      ]
+    }
+  ],
+  "source_ids": [
+    "diana-s1",
+    "diana-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "diana-c02",
+      "source_id": "diana-s1",
+      "quote": "However, she is best known as the goddess of the hunt, with her sacred animal being the deer.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Diana paling dikenal sebagai dewi perburuan dengan rusa sebagai hewan sucinya.",
+        "en": "Diana is best known as a hunt goddess, with the deer as her sacred animal."
+      }
+    },
+    {
+      "id": "diana-c06",
+      "source_id": "diana-s1",
+      "quote": "In most works of Roman art, Diana is depicted armed with a bow and quiver of arrows",
+      "locator": "Niobe & Orion",
+      "context": "historical-record",
+      "statement": {
+        "id": "Seni Romawi sering menggambarkan Diana membawa busur dan tabung panah.",
+        "en": "Roman art commonly portrays Diana with a bow and quiver."
+      }
+    },
+    {
+      "id": "diana-c11",
+      "source_id": "diana-s1",
+      "quote": "according to most accounts, her skill with the bow unquestionably equaled that of her twin brother Apollo.",
+      "locator": "Birth & Family",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut sebagian besar riwayat, keterampilan Diana memanah setara dengan saudara kembarnya, Apollo.",
+        "en": "According to most accounts, Diana's skill with the bow equaled that of her twin brother Apollo."
+      }
+    },
+    {
+      "id": "diana-c22",
+      "source_id": "diana-s3",
+      "quote": "She is essentially the goddess of the moon and light generally, and presides over wood, plain and water, the chase and war.",
+      "locator": "Diana",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Menurut Britannica 1911, Diana pada dasarnya dewi bulan dan cahaya, yang menguasai hutan, dataran, air, perburuan, dan perang.",
+        "en": "According to the 1911 Britannica, Diana is essentially the goddess of the moon and light generally, presiding over wood, plain and water, the chase and war."
+      }
+    },
+    {
+      "id": "diana-c25",
+      "source_id": "diana-s3",
+      "quote": "Her most celebrated shrine was in a grove at Aricia (whence her title of Nemorensis) near the modern lake of Nemi. Here she was worshipped side by side with a male deity Virbius, a god of the forest and the chase.",
+      "locator": "Diana",
+      "context": "historical-record",
+      "statement": {
+        "id": "Tempat sucinya yang paling termasyhur ada di hutan kecil di Aricia dekat Danau Nemi (maka gelar Nemorensis); di sana ia dipuja bersama dewa Virbius, dewa hutan dan perburuan.",
+        "en": "Her most celebrated shrine was in a grove at Aricia near Lake Nemi (hence her title Nemorensis), where she was worshipped alongside Virbius, a god of the forest and the chase."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: diana-c02, diana-c06, diana-c11, diana-c22, diana-c25",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Distinct facial age and morphology are editorial choices to avoid repetitive deity faces.",
+    "Candidate A retained for root choice; Distinct weathered mature hunt goddess draws physical bow close to lens, strong jaw frown, opaque green tunic bow/quiver/deer and moonlit Lake Nemi grove. No generic magic."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Distinct weathered mature hunt goddess draws physical bow close to lens, strong jaw frown, opaque green tunic bow/quiver/deer and moonlit Lake Nemi grove. No generic magic. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "ef8090fdeda8041dfcd3919099418feb87a62ffa1beb24ccc063a36e7924bb21",
+    "reviewed_at": "2026-10-08T07:22:43.993322+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih karena tatapan huntress berahang tegas dan busur-panah tegang paling besar serta jelas; identitas berbeda dari dewi berwajah halus. B sah dengan lompatan penuh namun wajah lebih jauh. Aksi fisik archery c02/c11/c22, moonlight hanya lingkungan, Nemi/Aricia c25. Dua tangan, tunik opaque, no glow/tulisan. Tujuh syarat Sangar terpenuhi."
+}

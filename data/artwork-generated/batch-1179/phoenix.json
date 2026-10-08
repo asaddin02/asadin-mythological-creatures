@@ -1,0 +1,171 @@
+{
+  "slug": "phoenix",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-034.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-3fc9ad7d-ca4f-423f-b594-84348909dc2b.png",
+  "generated_at": "2026-10-08T10:41:21.140675+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/phoenix.png",
+  "native_sha256": "0be48b10bc613148c00619001580363ed7f959c0851ad4095b4190002c9d4841",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of phoenix.\nANATOMY: One red-gold feathered bird with eagle shape and size, one eagle head/beak, two wings, two avian legs, normal feather tail; no horns or human parts [phoenix-c01, phoenix-c10]\nMOMENT: Renewed fully grown phoenix bursts up from ash nest with broad wing downstroke, talons released, eagle face dominates and red-gold feathers read clearly.\nPOWER: Rises renewed from predecessor ashes, tangible nest flames and warm natural rays of sunlight from body; no neon halo or magic ribbons [phoenix-c07, phoenix-c25, phoenix-c01]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Spice nest on lofty palm, burnt nest ash, no additional living bird [phoenix-c12]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. NOT fenghuang/Chinese bird, peacock or Harry Potter design. Natural sunshine and physical fire only; no glowing outline, no gigantic size.",
+  "candidate_variant": "A",
+  "depicted_variant": "One red-gold feathered bird with eagle shape and size, one eagle head/beak, two wings, two avian legs, normal feather tail; no horns or human parts",
+  "basis_claim_ids": [
+    "phoenix-c01",
+    "phoenix-c10",
+    "phoenix-c07",
+    "phoenix-c25",
+    "phoenix-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One red-gold feathered bird with eagle shape and size, one eagle head/beak, two wings, two avian legs, normal feather tail; no horns or human parts",
+      "claim_ids": [
+        "phoenix-c01",
+        "phoenix-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rises renewed from predecessor ashes, tangible nest flames and warm natural rays of sunlight from body; no neon halo or magic ribbons",
+      "claim_ids": [
+        "phoenix-c07",
+        "phoenix-c25",
+        "phoenix-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Spice nest on lofty palm, burnt nest ash, no additional living bird",
+      "claim_ids": [
+        "phoenix-c12"
+      ]
+    }
+  ],
+  "source_ids": [
+    "phoenix-s1",
+    "phoenix-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "phoenix-c01",
+      "source_id": "phoenix-s1",
+      "quote": "THE PHOINIX (Phoenix) was a fabulous, red-gold feathered bird whose body emitted rays of pure sunlight.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Phoenix adalah burung legendaris berbulu merah keemasan dan bercahaya.",
+        "en": "The phoenix is a legendary red-and-gold bird that radiates sunlight."
+      }
+    },
+    {
+      "id": "phoenix-c10",
+      "source_id": "phoenix-s1",
+      "quote": "Herodotus, Histories 2. 73 (trans. Godley) ... If the picture truly shows his size and appearance, his plumage is partly golden and partly red. He is most like an eagle in shape and size.",
+      "locator": "Herodotus, Histories 2.73 (trans. Godley)",
+      "context": "historical-record",
+      "statement": {
+        "id": "Menurut Herodotus, jika gambarnya benar, bulu phoenix sebagian keemasan dan sebagian merah, dan bentuk serta ukurannya paling mirip elang.",
+        "en": "According to Herodotus, if the picture is accurate, the phoenix has partly golden and partly red plumage and is most like an eagle in shape and size."
+      }
+    },
+    {
+      "id": "phoenix-c07",
+      "source_id": "phoenix-s1",
+      "quote": "According to a story which has gained more currency in modern times, Phoenix, when he arrived at a very old age (some say 500 and others 1461 years), committed himself to the flames.",
+      "locator": "Encyclopedia",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Menurut kisah yang lebih populer di zaman modern, phoenix yang mencapai usia sangat tua (ada yang menyebut 500 tahun, ada yang 1461 tahun) menyerahkan dirinya ke api.",
+        "en": "According to a story that has gained more currency in modern times, the phoenix, on reaching a very old age (some say 500 and others 1461 years), committed itself to the flames."
+      }
+    },
+    {
+      "id": "phoenix-c25",
+      "source_id": "phoenix-s3",
+      "quote": "Associated with the Sun, a phoenix obtains new life by rising from the ashes of its predecessor.",
+      "locator": "Lead",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Phoenix dikaitkan dengan Matahari dan memperoleh hidup baru dengan bangkit dari abu pendahulunya.",
+        "en": "The phoenix is associated with the Sun and obtains new life by rising from the ashes of its predecessor."
+      }
+    },
+    {
+      "id": "phoenix-c12",
+      "source_id": "phoenix-s1",
+      "quote": "Ovid, Metamorphoses 15. 385 ff (trans. Melville) ... builds a nest high on a lofty swaying palm; and lines the nest with cassia and spikenard and golden myrrh and shreds of cinnamon",
+      "locator": "Ovid, Metamorphoses 15.385 ff (trans. Melville)",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam uraian Ovidius, phoenix membangun sarang di puncak pohon palem, melapisinya dengan kasia, narwastu, mur, dan serpihan kayu manis, lalu mengakhiri hidupnya di sana.",
+        "en": "In Ovid's account the phoenix builds a nest high on a palm, lines it with cassia, spikenard, myrrh and cinnamon, and ends its life there."
+      }
+    }
+  ],
+  "aura": "Documented effects and physical action only; no generic aura.",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "NOT fenghuang/Chinese bird, peacock or Harry Potter design. Natural sunshine and physical fire only; no glowing outline, no gigantic size.",
+    "Root Codex viewed both native compositions and selected variant A: A shows both feet leaving the burning palm-top spice nest as the renewed red-gold eagle-shaped bird lifts into flight. B passes but is more perched than airborne."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "A shows both feet leaving the burning palm-top spice nest as the renewed red-gold eagle-shaped bird lifts into flight. B passes but is more perched than airborne. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "0be48b10bc613148c00619001580363ed7f959c0851ad4095b4190002c9d4841",
+    "reviewed_at": "2026-10-08T10:49:39.368172+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "A",
+  "selection_reason": "A shows both feet leaving the burning palm-top spice nest as the renewed red-gold eagle-shaped bird lifts into flight. B passes but is more perched than airborne.",
+  "selected_at": "2026-10-08T10:49:39.368172+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/phoenix/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/phoenix/A.json",
+      "native_sha256": "0be48b10bc613148c00619001580363ed7f959c0851ad4095b4190002c9d4841",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/phoenix/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/phoenix/B.json",
+      "native_sha256": "49238cfde630c0479673c89cd60d6b90becda02f89879fa634fcb9ca0cdfea81",
+      "selected": false
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "0be48b10bc613148c00619001580363ed7f959c0851ad4095b4190002c9d4841",
+    "notes": "Red-gold eagle-shaped bird rising from a burning palm nest, two wings, two legs, physical flames only; no horns or human parts."
+  }
+}

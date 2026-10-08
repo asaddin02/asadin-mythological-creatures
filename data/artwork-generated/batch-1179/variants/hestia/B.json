@@ -1,0 +1,86 @@
+{
+  "slug": "hestia",
+  "basis_claim_ids": [
+    "hestia-c06",
+    "hestia-c07",
+    "hestia-c19",
+    "hestia-c31",
+    "hestia-c43",
+    "hestia-c45",
+    "hestia-c51"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Young veiled female in modest opaque clothing, kettle attribute.",
+      "claim_ids": [
+        "hestia-c07",
+        "hestia-c19",
+        "hestia-c31"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Feeds and maintains sacred Olympian hearth fire; tangible flames and embers.",
+      "claim_ids": [
+        "hestia-c06",
+        "hestia-c43",
+        "hestia-c45"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Hearth of Olympus.",
+      "claim_ids": [
+        "hestia-c43",
+        "hestia-c45"
+      ]
+    }
+  ],
+  "depicted_variant": "Veiled Hestia actively maintaining the Olympian sacred hearth with kettle attribute.",
+  "aura": "Sacrificial flame(c06) at Olympian hearth she feeds(c43), sacred office conveys overwhelming majesty.",
+  "artistic_choices": [
+    "Square-jawed serious youthful face chosen to vary divine female identity.",
+    "Opaque layered charcoal and parchment clothing with fully covered chest and legs.",
+    "Close firelit framing conveys awe without inventing giant size or aggressive nature.",
+    "No generic aura or flaming body; flames remain in the hearth."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-030.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-730d7cf1-5b76-470e-acdc-ad514d2a3b9e.png",
+  "generated_at": "2026-10-08T07:13:31.151064+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/hestia/B.png",
+  "native_sha256": "b1bd297995ce0fe8623a99240af40ba3a3e8da70a6ac1ef69f548d5d0111dab3",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Hestia, revered Greek goddess maintaining the sacred hearth of Olympus.\nANATOMY: young female, one head two eyes two arms two legs; strong square jaw, resolute solemn expression, modest dark opaque full-length clothing and head-covering veil. Large clear bronze kettle beside her hand [hestia-c07,c19,c31].\nPOWER: she feeds and maintains sacrificial flames at Olympian hearth; a surging REAL fire burns wood and offerings inside stone hearth, physically lighting her figure [hestia-c06,c43,c45].\nSCALE & CAMERA: extreme low close angle across fire, goddess fills frame; no giant stature.\nLIGHT & WEATHER: one roaring hearth source, orange rim, deep walnut shadows, sparks and heat shimmer over hearth only.\nSURFACE: woven veil, aged bronze kettle, charred wood, soot-black stone.\nSETTING: royal sacred hearth of Olympus, plain stone without carvings [hestia-c43,c45].\nMOOD: immense protective sacred authority, awe-inspiring resolute, never housewife, decorative portrait, cute or hostile.\nHARD CONSTRAINTS: no letters or pseudo-glyphs on stones/clothing/kettle, no text/logo/border/watermark, no extra anatomy, no modern film/game/comic design, no nudity/gore, no aura/neon/ribbons, fire stays at hearth not in her body.\nMOMENT: Side-on view as she lifts the heavy kettle to move it across the sacred hearth, a towering vertical wall of sacrificial fire surging from the ROYAL GREAT HEARTH immediately behind her, visibly fed by her action, flame column rising higher than her veiled head, brows knit with fiercely resolute sacred authority, head turns sharply down toward viewer, not neutral, face close and distinctly commanding. Veil sweeps backward in rising heat. Distinct profile-led composition.",
+  "candidate_variant": "B",
+  "candidate_choice_notes": "All seven Sangar yes: resolute veiled goddess dominates; sacred hearth flame column(c06,c43,c45) physically burns wood behind her, dynamic kettle carrying(c31), standard anatomy, opaque modest clothing, no lettering or aura. Preferred stronger imposing hearth fire than A; native third attempt.",
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/hestia-attempt-02.png",
+      "native_sha256": "dc30e553a8d4042f8d72eaee37eb658e876d2341f775e133f01972d5de5b53ba",
+      "reason": "Fails Sangar7: ordinary woman carrying kettle over fire; too little sacred imposing authority. Retry targeted towering sacrificial hearth fire and fiercely resolute expression.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/hestia-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "All seven Sangar yes: resolute veiled goddess dominates; sacred hearth flame column(c06,c43,c45) physically burns wood behind her, dynamic kettle carrying(c31), standard anatomy, opaque modest clothing, no lettering or aura. Preferred stronger imposing hearth fire than A; native third attempt.",
+    "limitations": [],
+    "native_sha256": "b1bd297995ce0fe8623a99240af40ba3a3e8da70a6ac1ef69f548d5d0111dab3",
+    "reviewed_at": "2026-10-08T07:13:31.151064+00:00"
+  },
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected A after comparing both native PNGs: Dua PNG native telah dibaca. A dipilih karena tangan memasukkan kayu ke api perapian jelas melakukan tindakan, wajah dekat dan ketel atribut c31 terbaca. Kerudung/jubah menutup tubuh; api nyata dan bara sacred hearth didukung c06/c43/c45. B sah dan api lebih tinggi tetapi lebih menyerupai membawa ketel, bukan merawat api. Percobaan02 sebelumnya gagal Sangar tersimpan. Tujuh syarat Sangar A terpenuhi."
+}

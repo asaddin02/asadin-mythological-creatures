@@ -1,0 +1,158 @@
+{
+  "slug": "parvati",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-033.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-0bec430b-6fb9-43d6-af50-0e588535c715.png",
+  "generated_at": "2026-10-08T07:10:24.377985+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/parvati.png",
+  "native_sha256": "2bdd661cdad181abe6c82fa3698373ff2104573cabf4e596aec520bad0dc864c",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Parvati.\nANATOMY: benevolent beautiful Hindu goddess with fair complexion, one head two arms two legs, fully opaque red and walnut sari, a plain trident in one hand and lotus in other [parvati-c24, parvati-c25]\nMOMENT: Rise from knee-deep winter water, stepping against the current, trident anchors her passage and lotus held high; sari fully opaque, gentle majestic strength.\nPOWER: No outward supernatural emission; documented supernatural power earned through austere penance is conveyed by resolve, action, water and light [parvati-c07]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: cold winter mountain water, with Mount Kailash behind as contextual home setting [parvati-c07, parvati-c20]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Parvati",
+  "basis_claim_ids": [
+    "parvati-c07",
+    "parvati-c20",
+    "parvati-c24",
+    "parvati-c25"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "benevolent beautiful Hindu goddess with fair complexion, one head two arms two legs, fully opaque red and walnut sari, a plain trident in one hand and lotus in other",
+      "claim_ids": [
+        "parvati-c24",
+        "parvati-c25"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No outward supernatural emission; documented supernatural power earned through austere penance is conveyed by resolve, action, water and light",
+      "claim_ids": [
+        "parvati-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "cold winter mountain water, with Mount Kailash behind as contextual home setting",
+      "claim_ids": [
+        "parvati-c07",
+        "parvati-c20"
+      ]
+    }
+  ],
+  "source_ids": [
+    "parvati-s2",
+    "parvati-s5"
+  ],
+  "source_claims": [
+    {
+      "id": "parvati-c07",
+      "source_id": "parvati-s2",
+      "quote": "Because Shiva could not easily be distracted from his yogic meditation, Parvati subjected herself to extreme acts of physical deprivation—such as meditating in cold water during the winter—to gain supernatural powers and win over the celibate god.",
+      "locator": "Parvati/Uma, Goddess of the Mountain",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Parvati menjalani tapa berat untuk memperoleh kekuatan dan memikat Siwa yang sedang bertapa.",
+        "en": "Parvati performed severe asceticism to gain power and win over the meditating Shiva."
+      }
+    },
+    {
+      "id": "parvati-c20",
+      "source_id": "parvati-s5",
+      "quote": "After the marriage, Parvati moves to Mount Kailash, the residence of Shiva. To them are born Kartikeya (also known as Skanda and Murugan) – the leader of celestial armies, and Ganesha – the god of wisdom that prevents problems and removes obstacles.",
+      "locator": "Legends",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Setelah menikah, Parvati pindah ke Gunung Kailash, kediaman Siwa; dari mereka lahir Kartikeya (Skanda, Murugan), pemimpin pasukan langit, dan Ganesha, dewa kebijaksanaan penghalau rintangan.",
+        "en": "After the marriage Parvati moves to Mount Kailash, Shiva's residence; to them are born Kartikeya (Skanda, Murugan), leader of celestial armies, and Ganesha, god of wisdom who removes obstacles."
+      }
+    },
+    {
+      "id": "parvati-c24",
+      "source_id": "parvati-s5",
+      "quote": "Parvati, the gentle aspect of Devi Shakti, is usually represented as fair, beautiful, and benevolent.",
+      "locator": "Iconography and symbolism",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Parvati, aspek lembut Dewi Shakti, biasanya digambarkan berkulit cerah, cantik, dan baik hati.",
+        "en": "Parvati, the gentle aspect of Devi Shakti, is usually represented as fair, beautiful, and benevolent."
+      }
+    },
+    {
+      "id": "parvati-c25",
+      "source_id": "parvati-s5",
+      "quote": "These hands may hold a trident, mirror, rosary, bell, dish, goad, sugarcane stalk, or flowers (such as a lotus).",
+      "locator": "Iconography and symbolism",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Tangan Parvati dapat memegang trisula, cermin, tasbih, lonceng, piring, tongkat penggiring gajah, batang tebu, atau bunga seperti teratai.",
+        "en": "Parvati's hands may hold a trident, mirror, rosary, bell, dish, goad, sugarcane stalk, or flowers such as a lotus."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: parvati-c07, parvati-c20, parvati-c24, parvati-c25",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; Full advancing stride through cold water, trident planted for passage and lotus raised. Two arms two legs, opaque sari and gentle determined face; Kailash contextual background, no invented external magic.",
+    "Root Codex viewed both native compositions and selected variant B: Dua PNG native telah dibaca. B dipilih karena langkah penuh menembus air musim dingin, trident dan lotus utuh serta kain tersapu jelas menunjukkan aksi penance c07. Kailash konteks rumah c20; tidak ditambahkan kuasa air atau senjata bercahaya. Dua lengan, sari merah menutup torso, ekspresi berwibawa dan penuh hormat. A sah namun langkah crop. Wajah masih mirip Saraswati dicatat sebagai masukan ke Claude; tujuh syarat Sangar B terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. B dipilih karena langkah penuh menembus air musim dingin, trident dan lotus utuh serta kain tersapu jelas menunjukkan aksi penance c07. Kailash konteks rumah c20; tidak ditambahkan kuasa air atau senjata bercahaya. Dua lengan, sari merah menutup torso, ekspresi berwibawa dan penuh hormat. A sah namun langkah crop. Wajah masih mirip Saraswati dicatat sebagai masukan ke Claude; tujuh syarat Sangar B terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "2bdd661cdad181abe6c82fa3698373ff2104573cabf4e596aec520bad0dc864c",
+    "reviewed_at": "2026-10-08T07:14:47.230116+00:00"
+  },
+  "selected_variant": "B",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena langkah penuh menembus air musim dingin, trident dan lotus utuh serta kain tersapu jelas menunjukkan aksi penance c07. Kailash konteks rumah c20; tidak ditambahkan kuasa air atau senjata bercahaya. Dua lengan, sari merah menutup torso, ekspresi berwibawa dan penuh hormat. A sah namun langkah crop. Wajah masih mirip Saraswati dicatat sebagai masukan ke Claude; tujuh syarat Sangar B terpenuhi.",
+  "selected_at": "2026-10-08T07:14:47.230116+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/parvati/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/parvati/A.json",
+      "native_sha256": "a1495a2fd9587f0226c073ae1fa86b232c049a7b3c2018f80df8f30c3d163d3a",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/parvati/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/parvati/B.json",
+      "native_sha256": "2bdd661cdad181abe6c82fa3698373ff2104573cabf4e596aec520bad0dc864c",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "2bdd661cdad181abe6c82fa3698373ff2104573cabf4e596aec520bad0dc864c",
+    "notes": "Parvati in opaque red sari wading cold mountain water with trident and lotus, Kailash behind; one head, two arms; distinct rounder face from Saraswati."
+  }
+}

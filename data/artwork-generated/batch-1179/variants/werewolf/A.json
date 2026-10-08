@@ -1,0 +1,124 @@
+{
+  "slug": "werewolf",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-035.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-8ee6518d-8079-4195-89ce-839a876d85f3.png",
+  "generated_at": "2026-10-08T10:49:15.037314+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/werewolf/A.png",
+  "native_sha256": "dc3c40fd828fa3f8fb2f5500695706141bbe2102d3702c63b2cce17757f671b4",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Werewolf, the documented wolf-human hybrid form, not a film character.\nANATOMY: ONE therianthropic wolf-human hybrid: one grey-brown WOLF head with long canine muzzle, TWO wolf ears, two humanlike arms with five fingers ending claws on each hand, exactly TWO powerful digitigrade legs, one wolf tail. Entire torso, shoulders and thighs wear fully opaque rough plain dark brown coat and trousers, NO bare chest or nudity. Grey-brown coarse fur on head/hands [werewolf-c43].\nMOMENT: Lunge down toward the low camera while one clawed HUMANLIKE HAND braces a roadside boulder and the other reaches forward; furious wrinkled muzzle snarls, humanlike bent knees unmistakable. NO ordinary four-legged wolf.\nPOWER: Changed hybrid shape physically disturbs roadside dirt; no moon transformation ray, no extra powers [werewolf-c01,werewolf-c43].\nSCALE & CAMERA: Extreme low camera inches below foreground hand, hybrid fills 90 percent of frame, no invented giant size; one hand and face dominate.\nLIGHT & WEATHER: deep walnut shadows, one strong antique-gold dusk rim light, coarse physical dust.\nSURFACE: coarse damp grey-brown fur, heavy woven plain coat, dirty humanlike claws, dusty stone.\nSETTING: Rural roadside among dark trees, editorial broader werewolf-narrative staging [werewolf-c14], not claiming hybrid in Niceros story.\nMOOD: Dangerous stalking confrontation; no ordinary wolf portrait, not cute or calm.\nHARD CONSTRAINTS: NO modern movie/game/comic costume or character imitation; NO text, symbols, pseudo-writing, border, watermark. NO extra heads, arms, legs, tails or fingers. Opaque full clothing, no nudity or explicit gore; no aura, neon, magical ribbons. No full moon trigger or invented giant size.",
+  "candidate_variant": "C",
+  "depicted_variant": "Werewolf, documented therianthropic wolf-human hybrid variant (c43), distinct from wholly wolf-shaped Niceros variants A/B",
+  "basis_claim_ids": [
+    "werewolf-c01",
+    "werewolf-c43",
+    "werewolf-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One wolf-human hybrid with one wolf head, two ears, two humanlike arms with five clawed fingers per hand, two digitigrade legs and one wolf tail; fully opaque dark brown long coat and trousers, no exposed torso",
+      "claim_ids": [
+        "werewolf-c43"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Hybrid lunges and braces hand on roadside stone, disturbing dirt; physical shapeshifted form only, no moon-trigger or supernatural beam",
+      "claim_ids": [
+        "werewolf-c01",
+        "werewolf-c43"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rural road from werewolf narratives, editorial generic staging rather than literal Niceros hybrid episode",
+      "claim_ids": [
+        "werewolf-c14"
+      ]
+    }
+  ],
+  "source_ids": [
+    "werewolf-s1",
+    "werewolf-s5"
+  ],
+  "source_claims": [
+    {
+      "id": "werewolf-c01",
+      "source_id": "werewolf-s1",
+      "quote": "Widespread consensus indicates a werewolf is a man, woman, or child who changes shape into that of a wolf, either voluntarily or involuntarily.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Werewolf adalah manusia yang berubah menjadi serigala, secara sukarela atau tidak.",
+        "en": "A werewolf is a human who changes into a wolf voluntarily or involuntarily."
+      }
+    },
+    {
+      "id": "werewolf-c43",
+      "source_id": "werewolf-s5",
+      "quote": "In folklore, a werewolf (from Old English werwulf 'man-wolf'), or occasionally lycanthrope (from Ancient Greek λυκάνθρωπος 'wolf-human'), is an individual who can shapeshift into a wolf or therianthropic hybrid wolf–humanlike creature, either voluntarily or involuntarily due to a curse or other affliction.",
+      "locator": "Lead",
+      "context": "etymology",
+      "statement": {
+        "id": "Dalam cerita rakyat, werewolf (dari bahasa Inggris Kuno werwulf, 'manusia-serigala'), atau kadang lycanthrope (dari bahasa Yunani Kuno λυκάνθρωπος, 'manusia-serigala'), adalah individu yang dapat berubah wujud menjadi serigala atau makhluk hibrida serigala-manusia, secara sukarela atau tidak karena kutukan atau penderitaan lain.",
+        "en": "In folklore a werewolf (from Old English werwulf 'man-wolf'), or occasionally lycanthrope (from Ancient Greek λυκάνθρωπος 'wolf-human'), is an individual who can shapeshift into a wolf or a wolf-humanlike hybrid, voluntarily or involuntarily due to a curse or other affliction."
+      }
+    },
+    {
+      "id": "werewolf-c14",
+      "source_id": "werewolf-s1",
+      "quote": "In The Satyricon of Patronius, Niceros tells a tale of travelling the road with a brave friend who was a soldier. ... Upon arrival at his destination, Niceros was told that a wolf had recently killed all the sheep, and been speared through the neck. At home the next day, Niceros found his friend in bed, with a doctor tending a neck wound.",
+      "locator": "Werewolves (blog post)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam kisah Satyricon, Niceros mendengar bahwa seekor serigala baru saja membunuh semua domba dan ditombak di leher; keesokan harinya ia menemukan temannya di tempat tidur, lehernya sedang dirawat dokter.",
+        "en": "In the Satyricon story Niceros heard that a wolf had killed all the sheep and been speared through the neck; the next day he found his friend in bed with a doctor tending a neck wound."
+      }
+    }
+  ],
+  "aura": "Imposing menace comes from explicitly documented wolf-human hybrid c43 in physical motion, no added magic",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "No full-moon transformation trope, no gore/attack/prey, no anthropomorphic movie werewolf, no gigantic size or extra canine limbs.",
+    "Attempt03 switches to hybrid form explicitly documented by c43 because wholly wolf-shaped A/B failed ordinary-animal Sangar7. Clothing, facial age and low camera are editorial; scene is not asserted as literal Niceros hybrid transformation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-01.png",
+      "native_sha256": "5e23e5ad8911b66ff3e6601dc454c26efedc3ca4bdf0d7965f3a6ed2277bba74",
+      "reason": "Correct wholly wolf-shaped anatomy, but dominant subject still reads as an ordinary wolf rather than supernatural or distinctly imposing werewolf. Abandoned cloak is insufficient transformation evidence; fails Sangar7.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-02.png",
+      "native_sha256": "df9d5d6b6bca1f76a6c24ea539d03a9b8a9befa5cef805706ad8f0a3f3c6961c",
+      "reason": "Correct wolf form but calm closed muzzle and ordinary wolf imagery fail Sangar2/7. Background fleeing soldier cannot make the main subject clearly mythological; no invented source anatomy accepted.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Explicit wolf-human hybrid c43 now reads unmistakably mythological: one wolf head/two ears, two humanlike clawed arms, two legs beneath opaque coat/trousers and one tail. Forward hand and snarling face dominate, physical dirt only. Left ear tip is marginal crop; two separate ears remain clear. No moon-trigger, nude torso or borrowed film design. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "dc3c40fd828fa3f8fb2f5500695706141bbe2102d3702c63b2cce17757f671b4",
+    "reviewed_at": "2026-10-08T10:58:13.103073+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "recovered_candidate": "C",
+  "selection_status": "selected",
+  "selection_reason": "Corrected attempt03 (C, retained separately and placed in A slot) uses the explicitly documented hybrid c43, fully clothed and lunging with clawed hands. Initial wholly wolf-shaped A/B failed Sangar as ordinary wolves; both remain archived. Generic roadside setting is editorial, not a hybrid claim about Niceros.",
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp."
+}

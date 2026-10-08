@@ -1,0 +1,69 @@
+{
+  "slug": "jinn",
+  "worker": "codex",
+  "worker_agent": "lane_1179_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-032.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a46-99fb-79b3-9596-a20a0cecf3d3/exec-6bee6c4b-1b49-4b0d-924a-eeaedeb710d4.png",
+  "generated_at": "2026-10-08T07:21:54.097643+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/jinn/B.png",
+  "native_sha256": "05d789a5710c13f9c637d9a436f0e11666a6c47ff192ea0f52b0d7fe595d0b3c",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Jinn taking documented snake form.\nANATOMY: one snake head, one continuous snake body, no limbs,wings,horns; physical scales [jinn-c07]\nMOMENT: Coiled snake extends neck down from cave ledge toward low lens, mouth just opening, entire continuous body behind\nPOWER: shapeshifter appearing in documented snake shape, no extra supernatural effects [jinn-c07]\nSCALE & CAMERA: extreme low camera; tight framing and strong foreshortening; subject fills most of square, no invented giant size.\nLIGHT & WEATHER: one moonlit cave opening; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: desolate dark desert cave [jinn-c31, jinn-c34]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "depicted_variant": "Coiled snake extends neck down from cave ledge toward low lens, mouth just opening, entire continuous body behind",
+  "basis_claim_ids": [
+    "jinn-c07",
+    "jinn-c31",
+    "jinn-c34"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one snake head, one continuous snake body, no limbs,wings,horns; physical scales",
+      "claim_ids": [
+        "jinn-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "shapeshifter appearing in documented snake shape, no extra supernatural effects",
+      "claim_ids": [
+        "jinn-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "desolate dark desert cave",
+      "claim_ids": [
+        "jinn-c31",
+        "jinn-c34"
+      ]
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: shapeshifter appearing in documented snake shape, no extra supernatural effects (jinn-c07), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Snake form c07, no blue genie or fire aura, no invented immense size; jinn not inherently evil.",
+    "Coiled snake extends neck down from cave ledge toward low lens, mouth just opening, entire continuous body behind"
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native inspected all7 Sangar yes: one snake head and continuous body,no limbs or wings. Close ominous confrontation emerging in cave A or extending neck from ledge B, not ordinary passive animal. Form and shapeshifting c07; cave c31/c34; no fire aura or invented power, no text.",
+    "limitations": [],
+    "native_sha256": "05d789a5710c13f9c637d9a436f0e11666a6c47ff192ea0f52b0d7fe595d0b3c",
+    "reviewed_at": "2026-10-08T07:21:54.097643+00:00"
+  },
+  "candidate_variant": "B",
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena kepala menurun, mulut dan lidah membuka serta badan berkelok menunjukkan gerak fisik kuat. Wujud seluruh ular dari c07, satu kepala/satu tubuh kontinu tanpa anggota tambahan. Cave/desert c31/c34; tidak diartikan bahwa semua jinn jahat. A sah namun kurang bergerak. Tanpa kabut bercahaya, aura atau teks. Tujuh syarat Sangar terpenuhi."
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "ganesha",
+  "worker": "codex",
+  "worker_agent": "lane_1179_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-028.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a46-99fb-79b3-9596-a20a0cecf3d3/exec-7b61c4bf-7b21-49ba-9ab8-79cb13ab56e2.png",
+  "generated_at": "2026-10-08T06:56:24.582501+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/ganesha.png",
+  "native_sha256": "a1f02fbd6093568911863998f7eeede1195da6fc0a104115f996a02753eda360",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Ganesha, revered elephant-headed remover of obstacles.\nANATOMY: one elephant head on potbellied human body, exactly four arms; upper left holds a lasso, upper right battle axe, lower left a sweet, lower right the broken tusk; one full tusk and the other broken; full opaque ceremonial robes [ganesha-c02, ganesha-c04, ganesha-c07, ganesha-c33]\nMOMENT: Stride through the temple threshold toward the low viewer, trunk pressing aside a fallen plain stone obstruction, four hands separated and each attribute large and readable\nPOWER: removal of obstacles shown as a fallen plain stone obstruction being moved clear of a temple threshold; no magical light or invented weapon power [ganesha-c03, ganesha-c29]\nSCALE & CAMERA: extreme low camera, tight framing and strong foreshortening; subject occupies most of square, no invented giant size.\nLIGHT & WEATHER: one warm temple fire from off frame, reflecting on plain ornaments; dramatic rim light and deep shadows.\nSURFACE: tangible weathered opaque cloth, tactile skin and stone; dark walnut and antique gold palette.\nSETTING: the doorway of a Hindu temple [ganesha-c39]\nMOOD: overwhelming majestic dignity, determined expression, awe inspiring active divine presence, never ordinary or decorative.\nHARD CONSTRAINTS: no text anywhere including clothing and stone, no pseudo glyphs, no lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes.\nCRITICAL CORRECTION: fully cover the whole chest, shoulders and belly with a high-neck opaque woven long tunic, no visible bare torso at all. Forehead entirely plain, NO painted marks, symbols or glyphs. Plain stone threshold without carved signs. Four arms only.",
+  "depicted_variant": "Stride through the temple threshold toward the low viewer, trunk pressing aside a fallen plain stone obstruction, four hands separated and each attribute large and readable",
+  "basis_claim_ids": [
+    "ganesha-c02",
+    "ganesha-c04",
+    "ganesha-c07",
+    "ganesha-c33",
+    "ganesha-c03",
+    "ganesha-c29",
+    "ganesha-c39"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one elephant head on potbellied human body, exactly four arms; upper left holds a lasso, upper right battle axe, lower left a sweet, lower right the broken tusk; one full tusk and the other broken; full opaque ceremonial robes",
+      "claim_ids": [
+        "ganesha-c02",
+        "ganesha-c04",
+        "ganesha-c07",
+        "ganesha-c33"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "removal of obstacles shown as a fallen plain stone obstruction being moved clear of a temple threshold; no magical light or invented weapon power",
+      "claim_ids": [
+        "ganesha-c03",
+        "ganesha-c29"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "the doorway of a Hindu temple",
+      "claim_ids": [
+        "ganesha-c39"
+      ]
+    }
+  ],
+  "aura": "Kesan kuasa berasal dari aksi fisik: removal of obstacles shown as a fallen plain stone obstruction being moved clear of a temple threshold; no magical light or invented weapon power (ganesha-c03, ganesha-c29), bukan aura.",
+  "artistic_choices": [
+    "Framing rapat dan foreshortening untuk dominasi tanpa mengarang ukuran; pencahayaan sinematik dan pakaian buram editorial.",
+    "Hormat tradisi hidup: wajah tenang tetapi bertekad, bukan karikatur monster; batu tersingkir sebagai penerjemahan editorial ranah penghilangan rintangan, bukan kekuatan senjata baru.",
+    "Stride through the temple threshold toward the low viewer, trunk pressing aside a fallen plain stone obstruction, four hands separated and each attribute large and readable",
+    "Tiga panggilan tercapai: hanya kandidat A lolos; B ditolak karena distribusi atribut salah.",
+    "Root Codex viewed both native compositions and selected variant A: Dua PNG native telah dibaca. A dipilih: empat tangan terpisah, kapak/lasso di tangan atas dan pecahan gading/manisan masing-masing pada tangan bawah, satu gading patah. Dada dan perut tertutup tunik krem bermotif tekstil dengan lipatan, kepala dan lengan memakai kulit alami. Belalai secara fisik mendorong batu; identitas dan aksi terbaca kuat. B gagal c07: gading dan manisan digabung dalam satu tangan, tangan lain mendorong batu. Tiga percobaan habis, dua kegagalan dipertahankan. Tujuh syarat Sangar A terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-01.png",
+      "native_sha256": "1f5c0ba15d26fe77fa4cdd75c786fc9639f6ce52b3b46ddeffe862807a67aaca",
+      "reason": "Bare chest despite fully opaque robes; unsupported forehead symbol resembles writing. Retry requires fully covered torso and entirely unmarked forehead.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-03.png",
+      "native_sha256": "3d9d8a1058b6af9321fb797ceb6025831408aef1690e3eca8a907392c54c75a1",
+      "reason": "Lower right attribute missing: empty hand presses stone; broken tusk placed in lower left sweet hand, violating ganesha-c07 anatomical attribute distribution.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-03.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. A dipilih: empat tangan terpisah, kapak/lasso di tangan atas dan pecahan gading/manisan masing-masing pada tangan bawah, satu gading patah. Dada dan perut tertutup tunik krem bermotif tekstil dengan lipatan, kepala dan lengan memakai kulit alami. Belalai secara fisik mendorong batu; identitas dan aksi terbaca kuat. B gagal c07: gading dan manisan digabung dalam satu tangan, tangan lain mendorong batu. Tiga percobaan habis, dua kegagalan dipertahankan. Tujuh syarat Sangar A terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "a1f02fbd6093568911863998f7eeede1195da6fc0a104115f996a02753eda360",
+    "reviewed_at": "2026-10-08T07:08:41.786740+00:00"
+  },
+  "candidate_variant": "A",
+  "selected_variant": "A",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih: empat tangan terpisah, kapak/lasso di tangan atas dan pecahan gading/manisan masing-masing pada tangan bawah, satu gading patah. Dada dan perut tertutup tunik krem bermotif tekstil dengan lipatan, kepala dan lengan memakai kulit alami. Belalai secara fisik mendorong batu; identitas dan aksi terbaca kuat. B gagal c07: gading dan manisan digabung dalam satu tangan, tangan lain mendorong batu. Tiga percobaan habis, dua kegagalan dipertahankan. Tujuh syarat Sangar A terpenuhi.",
+  "selected_at": "2026-10-08T07:08:41.786740+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/ganesha/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/ganesha/A.json",
+      "native_sha256": "a1f02fbd6093568911863998f7eeede1195da6fc0a104115f996a02753eda360",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/ganesha/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/ganesha/B.json",
+      "native_sha256": "3d9d8a1058b6af9321fb797ceb6025831408aef1690e3eca8a907392c54c75a1",
+      "selected": false
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "a1f02fbd6093568911863998f7eeede1195da6fc0a104115f996a02753eda360",
+    "notes": "Elephant-headed four-armed Ganesha in opaque robes at a temple threshold holding axe, noose, sweet and broken tusk, trunk clearing a fallen stone; one tusk broken."
+  }
+}

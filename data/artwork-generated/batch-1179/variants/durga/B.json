@@ -1,0 +1,165 @@
+{
+  "slug": "durga",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "candidate-rejected",
+  "review_path": "data/gemini/reviews/batch-036.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-e6a1cb2e-2ca8-4bc3-891b-d466429bc5bf.png",
+  "generated_at": "2026-10-08T07:22:43.401700+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/durga/B.png",
+  "native_sha256": "5d5b44c7b7e94f71f13bdc50e17b8a71300fcea4ca66bee8f1b30a457498a124",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Durga.\nANATOMY: majestic dignified Hindu warrior goddess, one head two eyes exactly TEN arms (five left five right), two legs, opaque crimson sari and armor, rides ONE lion with four legs; hands hold ten documented objects: discus conch bow arrow sword trident shield mace lotus noose [durga-c04, durga-c09, durga-c21]\nMOMENT: Lion surges diagonally toward a buffalo at lower edge while Durga thrusts trident down, all ten arms visibly separated and every hand legible.\nPOWER: Documented battle against buffalo Mahisha: trident strikes rocky ground near a buffalo silhouette, dust and sparks from impact, no gore [durga-c13, durga-c14, durga-c20]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: shadowed battlefield of Mahisha, rock and dust, no writing [durga-c09, durga-c14]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Durga",
+  "basis_claim_ids": [
+    "durga-c04",
+    "durga-c09",
+    "durga-c13",
+    "durga-c14",
+    "durga-c20",
+    "durga-c21"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "majestic dignified Hindu warrior goddess, one head two eyes exactly TEN arms (five left five right), two legs, opaque crimson sari and armor, rides ONE lion with four legs; hands hold ten documented objects: discus conch bow arrow sword trident shield mace lotus noose",
+      "claim_ids": [
+        "durga-c04",
+        "durga-c09",
+        "durga-c21"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented battle against buffalo Mahisha: trident strikes rocky ground near a buffalo silhouette, dust and sparks from impact, no gore",
+      "claim_ids": [
+        "durga-c13",
+        "durga-c14",
+        "durga-c20"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "shadowed battlefield of Mahisha, rock and dust, no writing",
+      "claim_ids": [
+        "durga-c09",
+        "durga-c14"
+      ]
+    }
+  ],
+  "source_ids": [
+    "durga-s2",
+    "durga-s3",
+    "durga-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "durga-c04",
+      "source_id": "durga-s2",
+      "quote": "Devi's dark side is represented as the terrible Durga (the Inaccessible) who has ten arms, an impressive armoury of weapons, and who rides a magnificent lion or tiger.",
+      "locator": "The Two Sides of Devi: Uma & Durga",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Durga digambarkan berlengan sepuluh, bersenjata, dan menunggangi singa atau harimau.",
+        "en": "Durga is depicted with ten arms and weapons, riding a lion or tiger."
+      }
+    },
+    {
+      "id": "durga-c09",
+      "source_id": "durga-s3",
+      "quote": "The lion, Durga’s divine mount (vahana) on which she is shown riding majestically into battle in manuscript illustrations, is here seen emerging from behind the goddess, mauling the demon-buffalo’s hind quarters.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Singa adalah tunggangan ilahi Durga yang tampil dalam seni pertempurannya melawan Mahisha.",
+        "en": "The lion is Durga's divine mount in battle imagery against Mahisha."
+      }
+    },
+    {
+      "id": "durga-c13",
+      "source_id": "durga-s2",
+      "quote": "The problem for Devi was that whenever she tried to strike Mahisa with a fatal blow he transformed into another creature - from a buffalo to a man to a lion, then to an elephant and back to a buffalo.",
+      "locator": "Devi Slays Mahisa",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Setiap kali Devi hendak menghantam Mahisa dengan pukulan mematikan, Mahisa berubah menjadi makhluk lain: kerbau, manusia, singa, gajah, lalu kerbau lagi.",
+        "en": "Whenever Devi tried to deliver a fatal blow, Mahisa changed into another creature: a buffalo, a man, a lion, an elephant, and then a buffalo again."
+      }
+    },
+    {
+      "id": "durga-c14",
+      "source_id": "durga-s2",
+      "quote": "At this moment, the goddess pounced and, straddling the creature, stabbed him in the neck with her trident. At this, the spirit of Mahisa came out of the mouth of the dying buffalo and Durga finally killed him by lopping off his head.",
+      "locator": "Devi Slays Mahisa",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Devi menerkam, menunggangi makhluk itu, dan menusuk lehernya dengan trisula; ketika roh Mahisa keluar dari mulut kerbau yang sekarat, Durga membunuhnya dengan memenggal kepalanya.",
+        "en": "The goddess pounced, straddled the creature and stabbed its neck with her trident; when Mahisa's spirit came out of the dying buffalo's mouth, Durga killed him by cutting off his head."
+      }
+    },
+    {
+      "id": "durga-c20",
+      "source_id": "durga-s4",
+      "quote": "She is associated with protection, strength, motherhood, destruction, and wars; her legends center around combating evils and demonic forces that threaten peace, dharma and cosmic order, representing the power of good over evil.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Durga dikaitkan dengan perlindungan, kekuatan, keibuan, kehancuran, dan perang; kisahnya berpusat pada perlawanan terhadap kejahatan dan kekuatan iblis yang mengancam perdamaian, dharma, dan tatanan kosmis, melambangkan kemenangan kebaikan atas kejahatan.",
+        "en": "She is associated with protection, strength, motherhood, destruction and war; her legends center on combating evil and demonic forces that threaten peace, dharma and cosmic order, representing the power of good over evil."
+      }
+    },
+    {
+      "id": "durga-c21",
+      "source_id": "durga-s4",
+      "quote": "Durga traditionally holds the weapons of various male gods of Hindu mythology, which they give her to fight the evil forces because they feel that she is shakti (energy, power). These include the chakra (divine discus), conch, bow, arrow, sword, javelin, trishula trident, shield, mace, pink lotus flower, and noose.",
+      "locator": "Attributes and iconography",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Durga secara tradisional memegang senjata berbagai dewa laki-laki yang mereka berikan agar ia melawan kejahatan karena mereka memandangnya sebagai shakti (energi, daya); di antaranya cakra, kerang, busur, anak panah, pedang, lembing, trisula, perisai, gada, bunga teratai merah muda, dan jerat.",
+        "en": "Durga traditionally holds the weapons of various male gods, given to her to fight evil because they regard her as shakti (energy, power); these include the discus, conch, bow, arrow, sword, javelin, trident, shield, mace, pink lotus and noose."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: durga-c04, durga-c09, durga-c13, durga-c14, durga-c20, durga-c21",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; FAIL:11arms counted, source/spec demands10. Five on image-left, four on right plus TWO front trident-holding arms."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-01.png",
+      "native_sha256": "f6714d78cecf35a80e69d50a764d452485d7b53a1d76ea9d0ffd5988ac153e04",
+      "reason": "Floating duplicate mace disconnected from all hands; ungrounded physical artifact.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-02.png",
+      "native_sha256": "5d5b44c7b7e94f71f13bdc50e17b8a71300fcea4ca66bee8f1b30a457498a124",
+      "reason": "Eleven arms instead of exactly ten: two foreground arms grip trident plus nine other visible arms.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "fail",
+    "notes": "Native image inspected; rejected because Eleven arms instead of exactly ten: two foreground arms grip trident plus nine other visible arms.",
+    "limitations": [
+      "Eleven arms instead of exactly ten: two foreground arms grip trident plus nine other visible arms."
+    ],
+    "native_sha256": "5d5b44c7b7e94f71f13bdc50e17b8a71300fcea4ca66bee8f1b30a457498a124",
+    "reviewed_at": "2026-10-08T07:22:43.401700+00:00"
+  },
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected A after comparing both native PNGs: Recovered third native PNG shows exactly ten hands: image-left discus, conch, bow, sword, trident; image-right lotus, mace, shield, arrow, noose. Single securely held mace and one trident hand; one lion, no unsupported anatomy. Buffalo confrontation ground contact is an editorial non-gory reduction of c13/c14. All seven Sangar checks pass. Selected corrected attempt03 (preserved as C and placed in A slot); previous A and B fail and remain archived."
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "isis",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-030.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-b9bcb4dc-f239-457b-aa77-56a3e66e4b32.png",
+  "generated_at": "2026-10-08T07:29:49.649283+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/isis.png",
+  "native_sha256": "bcbe4d102bc3cc93c11bef7cdca3623684bda16a82b53e09f235b83d48fa53e8",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Isis.\nANATOMY: dignified mature Egyptian goddess, human female form, one head two arms two legs, fully opaque heavy linen robe and plain gold collar, brass sistrum held clearly [isis-c06, isis-c10, isis-c33]\nMOMENT: Snap the brass sistrum through the close foreground as wind drives her veil aside, resolute protective expression.\nPOWER: Physical sea winds governed by her will bend spray away from the foreground; protectress of sailors, no generic magic glow [isis-c15, isis-c37]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: stormy sea shoreline, based on her protection of sailors [isis-c15, isis-c52]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.\nTARGETED FIDELITY CORRECTION: Isis is BAREHEADED with only natural black hair. NO crown, horns, sun disc, moon disc, halo, animal headdress or ornate head ornament at all. A simple gold collar is permitted. Her sistrum and protective sea wind are the identifying attributes. Clearly fully opaque densely woven clothing.",
+  "candidate_variant": "A",
+  "depicted_variant": "Isis",
+  "basis_claim_ids": [
+    "isis-c06",
+    "isis-c10",
+    "isis-c15",
+    "isis-c33",
+    "isis-c37",
+    "isis-c52"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "dignified mature Egyptian goddess, human female form, one head two arms two legs, fully opaque heavy linen robe and plain gold collar, brass sistrum held clearly",
+      "claim_ids": [
+        "isis-c06",
+        "isis-c10",
+        "isis-c33"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical sea winds governed by her will bend spray away from the foreground; protectress of sailors, no generic magic glow",
+      "claim_ids": [
+        "isis-c15",
+        "isis-c37"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "stormy sea shoreline, based on her protection of sailors",
+      "claim_ids": [
+        "isis-c15",
+        "isis-c52"
+      ]
+    }
+  ],
+  "source_ids": [
+    "isis-s1",
+    "isis-s2",
+    "isis-s4",
+    "isis-s5"
+  ],
+  "source_claims": [
+    {
+      "id": "isis-c06",
+      "source_id": "isis-s2",
+      "quote": "This statuette shows the goddess in her most beloved pose, nursing her son Horus (known also as the lactans pose).",
+      "locator": "Object description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Sebuah patung kecil menunjukkan Isis menyusui putranya Horus.",
+        "en": "A statuette shows Isis nursing Horus."
+      }
+    },
+    {
+      "id": "isis-c10",
+      "source_id": "isis-s1",
+      "quote": "Her symbols are the scorpion (who kept her safe when she was in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lambang Isis adalah kalajengking (yang menjaganya saat bersembunyi), kite (sejenis elang yang wujudnya ia ambil untuk menghidupkan suaminya), takhta kosong, dan sistrum.",
+        "en": "Isis's symbols are the scorpion (who kept her safe in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum."
+      }
+    },
+    {
+      "id": "isis-c15",
+      "source_id": "isis-s1",
+      "quote": "Eventually, she became associated with the sea and was a protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble (attested to by archaeological evidence).",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Isis akhirnya dikaitkan dengan laut dan menjadi pelindung pelaut dan pedagang yang memakai jimat untuknya dan memohon bantuannya saat bahaya.",
+        "en": "Isis eventually became associated with the sea and was protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble."
+      }
+    },
+    {
+      "id": "isis-c33",
+      "source_id": "isis-s1",
+      "quote": "She is regularly portrayed as the selfless, giving, mother, wife, and protectress, who places other's interests and well-being ahead of her own.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Isis biasanya digambarkan sebagai ibu, istri, dan pelindung yang tanpa pamrih, murah hati, dan mengutamakan kepentingan orang lain.",
+        "en": "Isis is regularly portrayed as a selfless, giving mother, wife, and protectress who puts others' interests and well-being ahead of her own."
+      }
+    },
+    {
+      "id": "isis-c37",
+      "source_id": "isis-s4",
+      "quote": "at my will the planets of the ayre, the wholesome winds of the Seas, and the silences of hell be diposed",
+      "locator": "Book 11, the goddess speaks to Lucius",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sang dewi dalam karya Apuleius menyatakan bahwa atas kehendaknya planet-planet langit, angin laut yang menyehatkan, dan kesunyian neraka diatur.",
+        "en": "In Apuleius's work the goddess declares that at her will the planets of the air, the wholesome winds of the seas, and the silences of hell are disposed."
+      }
+    },
+    {
+      "id": "isis-c52",
+      "source_id": "isis-s5",
+      "quote": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea.",
+      "locator": "Lead",
+      "context": "historical-record",
+      "statement": {
+        "id": "Para pemuja Yunani Isis mengaitkan dengannya sifat dari dewa Yunani, seperti penemuan pernikahan dan perlindungan kapal di laut.",
+        "en": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: isis-c06, isis-c10, isis-c15, isis-c33, isis-c37, isis-c52",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Corrected third generation: completely bare head, black hair and clear brass sistrum; protective sea wind, confident movement and dominant close view. Horns/disc removed; robe opaque.",
+    "Root Codex viewed both native compositions and selected variant A: Native A corrigé attempt03 dan B awal telah dibaca, termasuk kedua gambar awal bertanduk/disk. A dipilih tanpa mahkota yang tidak terdokumentasi: wajah dewasa, dua tangan, sistrum kuningan didorong ke depan dan angin laut/spray di bawah kuasa c15/c37 melindungi kapal. Linen menutup torso; tanpa tulisan atau aura. B gagal mahkota di luar klaim, arsip utuh. Tujuh syarat Sangar A terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-01.png",
+      "native_sha256": "d30492f92a71a6c4c7244e72d215e8607e1213386efe3d2c77798cbae9beb02f",
+      "reason": "Horned sun-disc crown is unsupported by explicit embedded claims; cannot certify iconography.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-02.png",
+      "native_sha256": "32afc0350291a7484b00914e16fdc8d3d23fcfe1b5d91d6d1cd6147c70065ead",
+      "reason": "Horned sun-disc crown is unsupported by explicit embedded claims; cannot certify iconography.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Native A corrigé attempt03 dan B awal telah dibaca, termasuk kedua gambar awal bertanduk/disk. A dipilih tanpa mahkota yang tidak terdokumentasi: wajah dewasa, dua tangan, sistrum kuningan didorong ke depan dan angin laut/spray di bawah kuasa c15/c37 melindungi kapal. Linen menutup torso; tanpa tulisan atau aura. B gagal mahkota di luar klaim, arsip utuh. Tujuh syarat Sangar A terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "bcbe4d102bc3cc93c11bef7cdca3623684bda16a82b53e09f235b83d48fa53e8",
+    "reviewed_at": "2026-10-08T09:53:16.825246+00:00"
+  },
+  "generation_attempt": 3,
+  "selected_variant": "A",
+  "selection_reason": "Native A corrigé attempt03 dan B awal telah dibaca, termasuk kedua gambar awal bertanduk/disk. A dipilih tanpa mahkota yang tidak terdokumentasi: wajah dewasa, dua tangan, sistrum kuningan didorong ke depan dan angin laut/spray di bawah kuasa c15/c37 melindungi kapal. Linen menutup torso; tanpa tulisan atau aura. B gagal mahkota di luar klaim, arsip utuh. Tujuh syarat Sangar A terpenuhi.",
+  "selected_at": "2026-10-08T09:53:16.825246+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/isis/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/isis/A.json",
+      "native_sha256": "bcbe4d102bc3cc93c11bef7cdca3623684bda16a82b53e09f235b83d48fa53e8",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/isis/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/isis/B.json",
+      "native_sha256": "32afc0350291a7484b00914e16fdc8d3d23fcfe1b5d91d6d1cd6147c70065ead",
+      "selected": false
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "bcbe4d102bc3cc93c11bef7cdca3623684bda16a82b53e09f235b83d48fa53e8",
+    "notes": "Isis in opaque heavy linen with gold collar holding a brass sistrum on a storm shore, spray bending away from a ship; no crown."
+  }
+}

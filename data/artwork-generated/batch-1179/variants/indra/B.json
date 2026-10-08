@@ -1,0 +1,78 @@
+{
+  "slug": "indra",
+  "basis_claim_ids": [
+    "indra-c01",
+    "indra-c02",
+    "indra-c25",
+    "indra-c27",
+    "indra-c33",
+    "indra-c36",
+    "indra-c37"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Bearded gigantic male Indra, vajra thunderbolt-mace, human anatomy and opaque royal clothes.",
+      "claim_ids": [
+        "indra-c02",
+        "indra-c25",
+        "indra-c27"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Lightning splits mountain and beneficial rain pours.",
+      "claim_ids": [
+        "indra-c01",
+        "indra-c36",
+        "indra-c37"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Storm clouds of Svarga above mountains.",
+      "claim_ids": [
+        "indra-c33",
+        "indra-c37"
+      ]
+    }
+  ],
+  "depicted_variant": "Bearded Vedic Indra directing vajra-born thunder from Svarga.",
+  "aura": "Thunderbolt visibly splits mountain(c37), beneficial rain(c36), gigantic bearded form(c27).",
+  "artistic_choices": [
+    "Respectful kingly gold crown and opaque woven royal attire, editorial not sourced as specific costume.",
+    "Gigantic size is documented(c27).",
+    "Two compositions with no enemies or violence; overwhelming beneficial elemental action."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-029.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-4438ddf7-d232-4175-8934-6386016dc12d.png",
+  "generated_at": "2026-10-08T07:06:44.962880+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/indra/B.png",
+  "native_sha256": "f7f7e7a6fc7fa450d0060ba1daaa2f04f1093e031b9309ca5b29b911f60d2cc3",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Indra, benevolent Hindu Vedic king of gods, revered and awe-inspiring.\nANATOMY: one bearded gigantic divine male, one head two eyes two arms two legs, fully opaque royal saffron cloth and dark gold patterned armor covering torso/legs, plain gold crown, firmly holding large clear vajra thunderbolt-mace [indra-c02,c25,c27].\nPOWER: natural branching lightning from vajra strikes mountain so rock parts and rain pours beneficially over dry land; no victims [indra-c01,c36,c37].\nSCALE & CAMERA: extreme low angle, documented gigantic king fills frame, small mountain ridges below for scale [indra-c27].\nLIGHT & WEATHER: single lightning flash as key light, warm dark storm clouds, intense rain and rocky dust.\nSURFACE: rain-wet textured beard, woven cloth, aged gold metal and rough stone.\nSETTING: Svarga storm-cloud realm over mountains [indra-c33,c37].\nMOOD: sacred protective majesty, resolute and overwhelming, respectful never monstrous or evil.\nHARD CONSTRAINTS: no writing/glyphs/letters on clothes/crown/weapon/stone, no text/logo/border/watermark, no extra limbs/heads/eyes, no borrowed movie/game/comic designs, no nudity/gore, no aura/neon/ribbons; lightning is real branching discharge.\nMOMENT: Three-quarter side view: Indra lifts his vajra while stepping forward across dense storm clouds, wind and rain pull fully opaque cloak sideways; branching thunder shoots into mountain gap beneath his commanding face. Broad diagonal composition with clear intact limb separation.",
+  "candidate_variant": "B",
+  "candidate_choice_notes": "All seven Sangar yes: bearded gigantic Indra(c27) dominates, vajra(c02,c25) clear, dynamic thunder action physically splits mountain(c37) with beneficial rain(c36). Standard anatomy, opaque clothes, no letters, no generic aura, sacred majestic. Alternate: fuller stepping gesture and raised vajra.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "All seven Sangar yes: bearded gigantic Indra(c27) dominates, vajra(c02,c25) clear, dynamic thunder action physically splits mountain(c37) with beneficial rain(c36). Standard anatomy, opaque clothes, no letters, no generic aura, sacred majestic. Alternate: fuller stepping gesture and raised vajra.",
+    "limitations": [],
+    "native_sha256": "f7f7e7a6fc7fa450d0060ba1daaa2f04f1093e031b9309ca5b29b911f60d2cc3",
+    "reviewed_at": "2026-10-08T07:06:44.962880+00:00"
+  },
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected A after comparing both native PNGs: Dua PNG native telah dibaca. A dipilih karena wajah berjanggut dan vajra besar dalam gerakan turun paling tegas. Ukuran raksasa ditopang c27; sambaran kilat membelah gunung dan hujan menyuburkan berasal dari c36/c37. Dua lengan, baju zirah menutup torso, tanpa korban, aura atau tulisan. B sah dengan langkah penuh tetapi wajah lebih kecil. Tujuh syarat Sangar terpenuhi."
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "sphinx",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-032.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-1c9908fa-76b1-466a-9ef6-8b9948c10f4e.png",
+  "generated_at": "2026-10-08T07:10:24.033392+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/sphinx/A.png",
+  "native_sha256": "5bbce300aefb8a8bf7ba61f623fb29f1c51742da252b87f51283e229f1bb2933",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Sphinx, Greek Apollodorus variant.\nANATOMY: one adult woman face directly joined to lion breast, lion body with four paws, one lion tail, exactly two bird wings, NO human breasts, NO human arms; living creature [sphinx-c03, sphinx-c12]\nMOMENT: Crouch inches from the lens, woman face glares down, one immense lion forepaw extends toward viewer, both folded bird wings readable.\nPOWER: No magic emission; lion claws dislodge stone and eagle wings physically blow dust; predatory menace [sphinx-c09, sphinx-c12]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: rocky approach outside Thebes [sphinx-c09]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "A",
+  "depicted_variant": "Sphinx, Greek Apollodorus variant",
+  "basis_claim_ids": [
+    "sphinx-c03",
+    "sphinx-c09",
+    "sphinx-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one adult woman face directly joined to lion breast, lion body with four paws, one lion tail, exactly two bird wings, NO human breasts, NO human arms; living creature",
+      "claim_ids": [
+        "sphinx-c03",
+        "sphinx-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magic emission; lion claws dislodge stone and eagle wings physically blow dust; predatory menace",
+      "claim_ids": [
+        "sphinx-c09",
+        "sphinx-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "rocky approach outside Thebes",
+      "claim_ids": [
+        "sphinx-c09"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sphinx-s2",
+    "sphinx-s3",
+    "sphinx-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "sphinx-c03",
+      "source_id": "sphinx-s2",
+      "quote": "The Greeks represented the sphinx as a winged lioness with a woman's head.",
+      "locator": "Exhibition gallery",
+      "context": "historical-record",
+      "statement": {
+        "id": "Orang Yunani menggambarkannya sebagai singa betina bersayap dan berkepala perempuan.",
+        "en": "Greek art portrayed the sphinx as a winged lioness with a woman's head."
+      }
+    },
+    {
+      "id": "sphinx-c09",
+      "source_id": "sphinx-s3",
+      "quote": "She was sent by the gods to plague the town of Thebes as punishment for some ancient crime, preying on its youths and devouring all who failed to solve her riddle.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Theoi, para dewa mengirim Sphinx untuk menimpakan bencana pada kota Thebes sebagai hukuman atas kejahatan lama; ia memangsa para pemuda dan melahap semua yang gagal memecahkan teka-tekinya.",
+        "en": "According to Theoi, the gods sent the Sphinx to plague the town of Thebes as punishment for some ancient crime; she preyed on its youths and devoured all who failed to solve her riddle."
+      }
+    },
+    {
+      "id": "sphinx-c12",
+      "source_id": "sphinx-s4",
+      "quote": "For Hera sent the Sphinx, ... whose mother was Echidna and her father Typhon; and she had the face of a woman, the breast and feet and tail of a lion, and the wings of a bird.",
+      "locator": "3.5.8",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Apollodorus, Hera mengirim Sphinx, yang ibunya Echidna dan ayahnya Typhon; ia berwajah perempuan, berdada, berkaki, dan berekor singa, serta bersayap burung.",
+        "en": "According to Apollodorus, Hera sent the Sphinx, whose mother was Echidna and father Typhon; she had a woman's face, a lion's breast, feet, and tail, and a bird's wings."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: sphinx-c03, sphinx-c09, sphinx-c12",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Greek Apollodorus variant: woman face directly joined to furred lion chest, no human arms or breasts. Four lion legs, one lion tail, two feather wings; claws crack ledge through physical predatory motion. Gold jewelry editorial."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/sphinx-attempt-01.png",
+      "native_sha256": "54e93bc88c0d03e662044efb131a2224f489019a769891135db193f423ff0f21",
+      "reason": "Root melihat PNG native: bentuk Sphinx sah, tetapi pylon dan obelisk Mesir keliru untuk Thebes Yunani dalam versi Apollodorus. Kandidat tidak dipilih karena inkonsistensi budaya/lokasi.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/sphinx-attempt-01.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Greek Apollodorus variant: woman face directly joined to furred lion chest, no human arms or breasts. Four lion legs, one lion tail, two feather wings; claws crack ledge through physical predatory motion. Gold jewelry editorial. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "5bbce300aefb8a8bf7ba61f623fb29f1c51742da252b87f51283e229f1bb2933",
+    "reviewed_at": "2026-10-08T07:10:24.033392+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih dengan wajah perempuan langsung pada dada singa berbulu, empat tungkai singa tanpa tangan manusia, dua sayap dan satu ekor. Cakar menggeser batu dan sayap membuka; tanpa kuasa rekaan. B anatomi sah tetapi arsitektur pylon/obelisk Mesir keliru untuk Thebes Yunani c09/c12, sehingga root mark fail. A arsitektur Yunani konsisten. Tujuh syarat Sangar A terpenuhi."
+}

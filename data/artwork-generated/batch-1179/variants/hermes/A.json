@@ -1,0 +1,136 @@
+{
+  "slug": "hermes",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-027.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-bcd616d3-a2e7-4468-9062-7be3c24ce669.png",
+  "generated_at": "2026-10-08T06:54:54.265486+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/hermes/A.png",
+  "native_sha256": "268eb382cebac8a4a7ee5f9a2dbd8b50e9d29240e52a2f900d5e93c40298b8db",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Hermes.\nANATOMY: athletic beardless young man, one head, two arms, two legs, winged sandals, plain fully opaque long walnut tunic, herald wand with simple open figure-eight top [hermes-c04, hermes-c18, hermes-c26]\nMOMENT: Lean urgently over the viewer while driving his herald wand diagonally across the close foreground, face intent and knowing.\nPOWER: No visible supernatural emission; his herald wand and decisive movement convey the messenger and guide of souls [hermes-c02, hermes-c14]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: rocky bank of river Styx, dark underworld waters [hermes-c14]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "A",
+  "depicted_variant": "Hermes",
+  "basis_claim_ids": [
+    "hermes-c02",
+    "hermes-c04",
+    "hermes-c14",
+    "hermes-c18",
+    "hermes-c26"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "athletic beardless young man, one head, two arms, two legs, winged sandals, plain fully opaque long walnut tunic, herald wand with simple open figure-eight top",
+      "claim_ids": [
+        "hermes-c04",
+        "hermes-c18",
+        "hermes-c26"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No visible supernatural emission; his herald wand and decisive movement convey the messenger and guide of souls",
+      "claim_ids": [
+        "hermes-c02",
+        "hermes-c14"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "rocky bank of river Styx, dark underworld waters",
+      "claim_ids": [
+        "hermes-c14"
+      ]
+    }
+  ],
+  "source_ids": [
+    "hermes-s1",
+    "hermes-s2",
+    "hermes-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "hermes-c02",
+      "source_id": "hermes-s1",
+      "quote": "Hermes plays the role of the psychopomp or \"soul guide\"—a conductor of souls into the afterlife.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hermes berperan sebagai pembimbing jiwa menuju alam kematian.",
+        "en": "Hermes serves as a guide of souls to the afterlife."
+      }
+    },
+    {
+      "id": "hermes-c04",
+      "source_id": "hermes-s2",
+      "quote": "Hermes was depicted as either a handsome and athletic, beardless youth or as an older, bearded man, with winged boots and a herald's wand.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Hermes digambarkan sebagai pemuda tanpa janggut atau pria tua berjanggut dengan sepatu bersayap dan tongkat pembawa pesan.",
+        "en": "Hermes is shown as a beardless youth or older bearded man with winged boots and a herald's wand."
+      }
+    },
+    {
+      "id": "hermes-c14",
+      "source_id": "hermes-s3",
+      "quote": "One of his most famous regular roles was as a leader of souls to the river Styx in the underworld, where the boatman Charon would take them to Hades.",
+      "locator": "Hermes & the Gods",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu peran rutinnya yang termasyhur adalah menuntun jiwa ke Sungai Styx di dunia bawah, tempat juru perahu Charon membawa mereka ke Hades.",
+        "en": "One of his most famous regular roles was leading souls to the river Styx in the underworld, where the boatman Charon would take them to Hades."
+      }
+    },
+    {
+      "id": "hermes-c18",
+      "source_id": "hermes-s3",
+      "quote": "In ancient Greek Archaic and Classical art, Hermes is depicted holding the kerykeion or caduceus staff (signifying his role as a herald, the stick is either cleft or with an open figure of 8 at the top), wearing winged sandals (symbolic of his role as a messenger), a long tunic or leopard skin, sometimes also a winged cap (petasos), and occasionally with a lyre.",
+      "locator": "How is Hermes Represented in Art?",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Yunani Arkais dan Klasik, Hermes digambarkan memegang tongkat kerykeion atau kaduseus (tanda perannya sebagai juru warta), bersandal bersayap (lambang perannya sebagai utusan), berjubah panjang atau kulit macan tutul, kadang bertopi bersayap (petasos), dan sesekali membawa lira.",
+        "en": "In Archaic and Classical Greek art Hermes is shown holding the kerykeion or caduceus staff (signifying his role as herald), wearing winged sandals (symbolic of his role as messenger), a long tunic or leopard skin, sometimes a winged cap (petasos), and occasionally a lyre."
+      }
+    },
+    {
+      "id": "hermes-c26",
+      "source_id": "hermes-s2",
+      "quote": "Hermes' most distinctive attribute was the herald's wand (Greek kerykeion, Latin caduceus) but he was sometimes armed instead with a short sword.",
+      "locator": "Symbols & Attributes",
+      "context": "historical-record",
+      "statement": {
+        "id": "Atribut Hermes yang paling khas adalah tongkat juru warta (kerykeion dalam bahasa Yunani, caduceus dalam bahasa Latin), tetapi kadang ia dipersenjatai pedang pendek.",
+        "en": "Hermes' most distinctive attribute was the herald's wand (Greek kerykeion, Latin caduceus), though he was sometimes armed with a short sword instead."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: hermes-c02, hermes-c04, hermes-c14, hermes-c18, hermes-c26",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Forceful close herald-wand sweep; winged sandals and optional winged cap (c18) read clearly; no aura."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Forceful close herald-wand sweep; winged sandals and optional winged cap (c18) read clearly; no aura. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "268eb382cebac8a4a7ee5f9a2dbd8b50e9d29240e52a2f900d5e93c40298b8db",
+    "reviewed_at": "2026-10-08T06:54:54.265486+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Variant A chosen after viewing both: forceful herald-wand sweep, direct youthful gaze, winged headwear and sandal foreground, Styx guidance scene (c14). B has fuller sandals but weaker confrontation. Coherent one head and two arms; no attack emission or writing. Wand loop is editorial herald-staff ornament, not a new supernatural power."
+}

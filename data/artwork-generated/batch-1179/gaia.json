@@ -1,0 +1,154 @@
+{
+  "slug": "gaia",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-038.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-e7c4c59e-246a-4b0b-98e2-7e577f946067.png",
+  "generated_at": "2026-10-08T10:38:58.104758+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/gaia.png",
+  "native_sha256": "0840d04f20c762219b528407649891218b2589204e1c19869dd70480b729945e",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Gaia, primordial Earth mother.\nANATOMY: one matronly human female head,two arms; full opaque heavy Greek robes, great grey flint sickle; human skin not bark or rock [gaia-c11, gaia-c14]\nMOMENT: Surge waist-first from ground, one hand planted on Earth, other raises jagged flint sickle; stern maternal face and falling clods dominate\nPOWER: rise from Earth, inseparable from native element; clods physically part and roll [gaia-c11]\nSCALE & CAMERA: extreme low camera; tight framing and strong foreshortening; subject fills most of square, no invented giant size.\nLIGHT & WEATHER: one dying sunset across earth clods; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: Earth itself on rocky Greek slope [gaia-c01, gaia-c11]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "candidate_variant": "A",
+  "depicted_variant": "Documented form, physical action and attributes; compositions A and B.",
+  "basis_claim_ids": [
+    "gaia-c11",
+    "gaia-c14",
+    "gaia-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one matronly human female head,two arms; full opaque heavy Greek robes, great grey flint sickle; human skin not bark or rock",
+      "claim_ids": [
+        "gaia-c11",
+        "gaia-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "rise from Earth, inseparable from native element; clods physically part and roll",
+      "claim_ids": [
+        "gaia-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Earth itself on rocky Greek slope",
+      "claim_ids": [
+        "gaia-c01",
+        "gaia-c11"
+      ]
+    }
+  ],
+  "source_ids": [
+    "gaia-s2",
+    "gaia-s3",
+    "gaia-s1"
+  ],
+  "source_claims": [
+    {
+      "id": "gaia-c11",
+      "source_id": "gaia-s2",
+      "quote": "In Greek vase painting Gaia was depicted as a buxom, matronly woman rising from the earth, inseparable from her native element.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Pada lukisan vas Yunani, Gaia tampil sebagai perempuan dewasa yang muncul dari Bumi.",
+        "en": "Greek vase painting shows Gaia as a matronly woman rising from Earth."
+      }
+    },
+    {
+      "id": "gaia-c14",
+      "source_id": "gaia-s3",
+      "quote": "But vast Earth groaned within, being straitened, and she made the element of grey flint and shaped a great sickle, and told her plan to her dear sons.",
+      "locator": "Theogony",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Hesiod, Bumi yang terhimpit mengerang, membuat sabit besar dari batu api kelabu, dan menceritakan rencananya kepada putra-putranya.",
+        "en": "In Hesiod, a straitened Earth groaned, made a great sickle from grey flint, and told her plan to her sons."
+      }
+    },
+    {
+      "id": "gaia-c01",
+      "source_id": "gaia-s1",
+      "quote": "Gaia (also Gaea or Ge) is a primordial goddess and the personification of the Earth in Greek mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Gaia adalah dewi purba yang mempersonifikasikan Bumi dalam mitologi Yunani.",
+        "en": "Gaia is the primordial personification of Earth in Greek myth."
+      }
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: rise from Earth, inseparable from native element; clods physically part and roll (gaia-c11), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Emergence c11, mechanical soil movement, no earthquake or magical growth.",
+    "Root Codex viewed both native compositions and selected variant A: A clearly emerges from displaced earth, bracing a hand beside the viewer and holding one recognizable flint sickle. B has a malformed two-handled bow-like attribute and fails."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/gaia-attempt-01.png",
+      "native_sha256": "e480f99a91c26851d9060d7572a6568e992bcf25f23ea27b2505c08348463209",
+      "reason": "Native image makes the flint attribute read as a two-handled stone bow rather than a sickle, with a handle at each end; fails readable documented attribute check. A has clearly recognizable single sickle and stronger ground-contact action.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/gaia-attempt-01.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "A clearly emerges from displaced earth, bracing a hand beside the viewer and holding one recognizable flint sickle. B has a malformed two-handled bow-like attribute and fails. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "0840d04f20c762219b528407649891218b2589204e1c19869dd70480b729945e",
+    "reviewed_at": "2026-10-08T10:42:51.039613+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "A",
+  "selection_reason": "A clearly emerges from displaced earth, bracing a hand beside the viewer and holding one recognizable flint sickle. B has a malformed two-handled bow-like attribute and fails.",
+  "selected_at": "2026-10-08T10:42:51.039613+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/gaia/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/gaia/A.json",
+      "native_sha256": "0840d04f20c762219b528407649891218b2589204e1c19869dd70480b729945e",
+      "selected": true
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/gaia/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/gaia/B.json",
+      "native_sha256": "e480f99a91c26851d9060d7572a6568e992bcf25f23ea27b2505c08348463209",
+      "selected": false
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "0840d04f20c762219b528407649891218b2589204e1c19869dd70480b729945e",
+    "notes": "Matronly Gaia in opaque Greek robes rising out of parting clods with a great grey sickle on a Greek slope; human skin."
+  }
+}

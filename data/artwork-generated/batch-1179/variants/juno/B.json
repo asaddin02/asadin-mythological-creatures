@@ -1,0 +1,109 @@
+{
+  "slug": "juno",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-036.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-70f21541-1ec2-478f-9be9-4c867fc9fd31.png",
+  "generated_at": "2026-10-08T10:38:07.415398+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/juno/B.png",
+  "native_sha256": "f050a259641975a76a845e510822bb2df29b7f7b9b4511b8392ed602150896ef",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Juno Sospita, Roman protectress.\nANATOMY: one mature female head with angular jaw,two arms; goatskin cloak over opaque Roman robe, spear and plain shield [juno-c10, juno-c28]\nMOMENT: Low side view swinging spear down into guard, shield turned across chest, older stern face over crashing sea\nPOWER: create sea storm, physical waves,driving rain,wind [juno-c17]\nSCALE & CAMERA: extreme low camera; tight framing and strong foreshortening; subject fills most of square, no invented giant size.\nLIGHT & WEATHER: one sunset break in storm cloud; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: sea where Juno sends storm against Aeneas [juno-c17]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "candidate_variant": "B",
+  "depicted_variant": "Documented form, physical action and attributes; compositions A and B.",
+  "basis_claim_ids": [
+    "juno-c10",
+    "juno-c28",
+    "juno-c17"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one mature female head with angular jaw,two arms; goatskin cloak over opaque Roman robe, spear and plain shield",
+      "claim_ids": [
+        "juno-c10",
+        "juno-c28"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "create sea storm, physical waves,driving rain,wind",
+      "claim_ids": [
+        "juno-c17"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "sea where Juno sends storm against Aeneas",
+      "claim_ids": [
+        "juno-c17"
+      ]
+    }
+  ],
+  "source_ids": [
+    "juno-s1",
+    "juno-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "juno-c10",
+      "source_id": "juno-s1",
+      "quote": "Among other identities, she was known to many as Juno Sospita, the chief deity of Lanuvium, a city located in Latium southeast of Rome. She was the protector of one in confinement, often pictured wearing a goatskin, carrying a spear and shield.",
+      "locator": "Juno's Origins & Roles",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagai Juno Sospita, ia dewa utama Lanuvium, kota di Latium tenggara Roma; ia pelindung orang yang terkurung dan sering digambarkan mengenakan kulit kambing serta membawa tombak dan perisai.",
+        "en": "As Juno Sospita she was the chief deity of Lanuvium, a city in Latium southeast of Rome; she protected those in confinement and was often pictured wearing a goatskin and carrying a spear and shield."
+      }
+    },
+    {
+      "id": "juno-c28",
+      "source_id": "juno-s4",
+      "quote": "Juno's own warlike aspect among the Romans is apparent in her attire. She was often shown armed and wearing a goatskin cloak.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sisi perangnya di kalangan Romawi tampak pada pakaiannya; ia sering digambarkan bersenjata dan mengenakan jubah kulit kambing.",
+        "en": "Her warlike aspect among the Romans is apparent in her attire; she was often shown armed and wearing a goatskin cloak."
+      }
+    },
+    {
+      "id": "juno-c17",
+      "source_id": "juno-s1",
+      "quote": "Next, a storm at sea, created by Juno, failed when Neptune interfered, not for the love of Aeneas, but owing to his irritation at Juno's interference in his domain.",
+      "locator": "Juno & Carthage",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah Aeneas, badai di laut yang diciptakan Juno gagal ketika Neptunus ikut campur, bukan karena sayang kepada Aeneas melainkan karena kesal pada campur tangan Juno di wilayahnya.",
+        "en": "In the Aeneas story a storm at sea created by Juno failed when Neptune interfered, not out of love for Aeneas but out of irritation at Juno meddling in his domain."
+      }
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: create sea storm, physical waves,driving rain,wind (juno-c17), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Sospita form c10/c28; face age/jaw editorial variation."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Angular older woman turns while lowering a spear and bracing shield; goat-hide cloak over opaque robe, two arms and no extra limbs. Sea storm c17, no invented glow. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "f050a259641975a76a845e510822bb2df29b7f7b9b4511b8392ed602150896ef",
+    "reviewed_at": "2026-10-08T10:40:27.636640+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selection_status": "selected",
+  "selection_reason": "B gives a distinctly older angular face and an active spear-lowering moment with readable goat hide and shield amid the sourced sea storm. A passes but resembles earlier younger goddess faces.",
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp."
+}

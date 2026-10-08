@@ -1,0 +1,118 @@
+{
+  "slug": "horus",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-033.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-50e3a36d-cf4b-4d5e-b6a1-37c2facd6aa7.png",
+  "generated_at": "2026-10-08T10:18:18.447991+00:00",
+  "original_file": "data/artwork-generated/batch-1179/rejected/horus-attempt-01.png",
+  "native_sha256": "24f90b218bf2c8021b4841874f257b8b382bb21bb35ff441897bc4d816cbefbd",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Horus as documented Ra-Harahkhte, falcon-headed sun god and royal defender.\nANATOMY: ONE falcon head with two eyes hooked beak and feathered cheeks, human male body with exactly two arms two legs, fully opaque dark linen tunic and ankle-length wrap, Egyptian DOUBLE CROWN combining white tall crown and red lower crown, large ROUND gold sun disk on crown [horus-c06]. NO wings added to human body.\nPOWER: sun domain embodied through real low sun lighting crown and casting long sharp shadows, NO invented magic [horus-c06].\nSCALE & CAMERA: extreme low CLOSE angle, falcon head doublecrown/disk dominate, no giant size.\nLIGHT: single dying warm sun through doorway, dust, deep black-gold shadows.\nSURFACE: real falcon feathers, weathered metal, rough opaque woven cloth, stone.\nSETTING: Egyptian royal throne and plain unlettered palace stone [horus-c22,c23].\nMOOD: imposing protective royal authority, awe-inspiring and alert, never decorative neutral statue.\nHARD CONSTRAINTS: no hieroglyphs/pseudo-letters or text anywhere on crown/throne/walls/clothes, no logos/borders/watermarks, no extra anatomy, no film/game/anime designs, no nudity/gore, no aura/neon/ribbons.\nMOMENT: Horus surges up from throne, one hand grips stone armrest with visible weight, other adjusts his doublecrown as he turns falcon face down toward viewer. Tight frontal three-quarter view.",
+  "candidate_variant": "A",
+  "depicted_variant": "Documented Ra-Harahkhte fusion: falcon-headed Horus with double crown and sun disk.",
+  "basis_claim_ids": [
+    "horus-c06",
+    "horus-c11",
+    "horus-c22",
+    "horus-c23"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Falcon-headed male Ra-Harahkhte variant with Egyptian double crown and sun disk; opaque clothing.",
+      "claim_ids": [
+        "horus-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sun domain represented by strong actual sunlight and sharp shadows, no invented powers.",
+      "claim_ids": [
+        "horus-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Royal throne of Egypt.",
+      "claim_ids": [
+        "horus-c22",
+        "horus-c23"
+      ]
+    }
+  ],
+  "source_ids": [
+    "horus-s1"
+  ],
+  "source_claims": [
+    {
+      "id": "horus-c06",
+      "source_id": "horus-s1",
+      "quote": "In time, he became combined with the sun god Ra to form a new deity, Ra-Harahkhte, god of the sun who sailed across the sky during the day and was depicted as a falcon-headed man wearing the double crown of Upper and Lower Egypt with the sun disk on it.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Horus kelak berpadu dengan Ra menjadi Ra-Harahkhte, dewa matahari berkepala elang.",
+        "en": "Horus later combined with Ra as Ra-Harahkhte, a falcon-headed sun god."
+      }
+    },
+    {
+      "id": "horus-c11",
+      "source_id": "horus-s1",
+      "quote": "He was the protector of the royalty of Egypt, avenger of wrongs, defender of order, uniter of the two lands and, based on his battles with Set, a god of war regularly invoked by Egyptian rulers before battle and praised afterwards.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Horus Muda adalah pelindung kerajaan Mesir, pembalas kezaliman, pembela ketertiban, pemersatu dua negeri, dan dewa perang yang diseru para penguasa Mesir sebelum pertempuran.",
+        "en": "Horus the Younger was protector of Egypt's royalty, avenger of wrongs, defender of order, uniter of the two lands, and a war god invoked by Egyptian rulers before battle."
+      }
+    },
+    {
+      "id": "horus-c22",
+      "source_id": "horus-s1",
+      "quote": "Set is then banished to the desert lands beyond Egypt's borders while Horus assumes the throne of his father with his mother and aunt Nephthys as consorts.",
+      "locator": "Horus & Isis",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam versi pertama, Set diusir ke gurun di luar perbatasan Mesir, sementara Horus naik takhta ayahnya dengan ibunya dan bibinya, Nephthys, sebagai permaisuri.",
+        "en": "In the first version Set is banished to the deserts beyond Egypt's borders while Horus takes his father's throne with his mother and aunt Nephthys as consorts."
+      }
+    },
+    {
+      "id": "horus-c23",
+      "source_id": "horus-s1",
+      "quote": "Having conquered Set and restored order, Horus became known as Horu-Sema-Tawy, The Horus, Uniter of the Two Lands.",
+      "locator": "Horus & the King",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Setelah menaklukkan Set dan memulihkan ketertiban, Horus dikenal sebagai Horu-Sema-Tawy, Horus Pemersatu Dua Negeri.",
+        "en": "Having conquered Set and restored order, Horus became known as Horu-Sema-Tawy, the Horus who unites the Two Lands."
+      }
+    }
+  ],
+  "aura": "Double crown with sun disk(c06), defender of order(c11) rising from throne(c22).",
+  "artistic_choices": [
+    "Opaque gold-trimmed linen ceremonial attire editorial.",
+    "Sunlight only; no extra wings on human body, invented giant scale or weapon.",
+    "Crown and sun disk enlarged within frame via perspective, not claim of giant physical size."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "fail",
+    "notes": "Native viewed by root. Falcon head/doublecrown/source form correct, but complete sun disk and white crown tip are cropped. Reject framing before selection; no writing, torso opaque.",
+    "limitations": [
+      "Native viewed by root. Falcon head/doublecrown/source form correct, but complete sun disk and white crown tip are cropped. Reject framing before selection; no writing, torso opaque."
+    ],
+    "native_sha256": "24f90b218bf2c8021b4841874f257b8b382bb21bb35ff441897bc4d816cbefbd",
+    "reviewed_at": "2026-10-08T10:18:18.447991+00:00"
+  },
+  "reason": "White crown tip and solar disk cropped."
+}

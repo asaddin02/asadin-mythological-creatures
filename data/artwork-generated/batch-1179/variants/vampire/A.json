@@ -1,0 +1,95 @@
+{
+  "slug": "vampire",
+  "basis_claim_ids": [
+    "vampire-c01",
+    "vampire-c02",
+    "vampire-c07",
+    "vampire-c08",
+    "vampire-c09"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Bloated plump dark ruddy undead human, linen burial shroud, slightly grown hair/nails/teeth without fangs.",
+      "claim_ids": [
+        "vampire-c01",
+        "vampire-c07",
+        "vampire-c08",
+        "vampire-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rising from grave at night, no invented magical powers.",
+      "claim_ids": [
+        "vampire-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Grave at night.",
+      "claim_ids": [
+        "vampire-c02"
+      ]
+    }
+  ],
+  "depicted_variant": "European folkloric plump ruddy shrouded revenant, not modern gaunt fanged aristocrat.",
+  "aura": "Nighttime emergence from grave (vampire-c02) and swollen ruddy revenant anatomy (vampire-c07,c08).",
+  "artistic_choices": [
+    "Dark earthy palette and moon rim lighting are editorial.",
+    "Opaque linen shroud entirely covers torso and legs.",
+    "No fangs, bats, aristocratic costume or magical aura; menace from predatory emergence."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-028.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-79af8caa-119b-46fb-bac4-70428848a94a.png",
+  "generated_at": "2026-10-08T06:56:38.116323+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/vampire/A.png",
+  "native_sha256": "55503881ff14974ecfc84815a282a8e50756fa56c98119f77bfa0346c45a2ad0",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of a European folkloric vampire, undead grave-returning blood drinker.\nANATOMY: one head, two eyes, two arms two legs, distinctly bloated plump human corpse with dark ruddy purple skin, healthier flesh not skeletal, slightly overgrown hair and nails, ordinary somewhat grown teeth NOT FANGS. Fully opaque dirty linen burial shroud wraps torso and legs [vampire-c01,c07,c08,c09].\nPOWER: emerge from the grave at night to hunt the living, no magic effects [vampire-c02].\nSCALE & CAMERA: tight predatory low-angle framing, no giant size, head and swollen face dominate.\nLIGHT & WEATHER: single strong pale moon rim, black-brown shadows and airborne loose grave dirt, no supernatural glow.\nSURFACE: coarse wet linen, earth-crusted fingers, ruddy swollen cheeks, wet soil.\nSETTING: open earthen grave at night, stones entirely blank [vampire-c02].\nMOOD: disturbing dangerous hungry revenant, never suave, cute, calm or ordinary.\nHARD CONSTRAINTS: no lettering/pseudo-glyphs on ANYTHING, no text/signatures/logo/border/watermark, no blood or gore, no extra anatomy, no fangs, no movie/game/comic designs, no tuxedo/cape, no aura/neon/ribbons.\nMOMENT: The vampire hauls its heavy swollen body over the grave edge toward viewer, both muddy hands visibly braced in earth, head thrust forward and mouth snarling with blunt normal teeth, falling clods of soil.",
+  "candidate_variant": "A",
+  "candidate_choice_notes": "Only A passes Sangar. B unavailable: output safety denial attempt2, ordinary calm man failed attempt3. All history preserved.",
+  "generation_failures": [
+    {
+      "slug": "vampire",
+      "variant": "B",
+      "attempt": 2,
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of a European folkloric vampire, undead grave-returning blood drinker.\nANATOMY: one head, two eyes, two arms two legs, distinctly bloated plump human corpse with dark ruddy purple skin, healthier flesh not skeletal, slightly overgrown hair and nails, ordinary somewhat grown teeth NOT FANGS. Fully opaque dirty linen burial shroud wraps torso and legs [vampire-c01,c07,c08,c09].\nPOWER: emerge from the grave at night to hunt the living, no magic effects [vampire-c02].\nSCALE & CAMERA: tight predatory low-angle framing, no giant size, head and swollen face dominate.\nLIGHT & WEATHER: single strong pale moon rim, black-brown shadows and airborne loose grave dirt, no supernatural glow.\nSURFACE: coarse wet linen, earth-crusted fingers, ruddy swollen cheeks, wet soil.\nSETTING: open earthen grave at night, stones entirely blank [vampire-c02].\nMOOD: disturbing dangerous hungry revenant, never suave, cute, calm or ordinary.\nHARD CONSTRAINTS: no lettering/pseudo-glyphs on ANYTHING, no text/signatures/logo/border/watermark, no blood or gore, no extra anatomy, no fangs, no movie/game/comic designs, no tuxedo/cape, no aura/neon/ribbons.\nMOMENT: The vampire rises sideways from a broken coffin in the earthen grave, bracing one hand on wood and reaching with the other toward viewer, broad ruddy face in three-quarter close-up, shroud twists with weight, mouth open in predatory grimace. Strong diagonal composition.",
+      "status": "tool-rejected",
+      "code": "moderation_blocked",
+      "reason": "Output-stage safety_violations=[violence]",
+      "request_id": "32a4cfc2-fcfc-4fc8-95ca-9a0788fec6db",
+      "generated_at": "2026-10-08T06:56:38.187159+00:00",
+      "image_file": null
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/vampire-attempt-03.png",
+      "native_sha256": "b43e65f803d8e09a0a12ae19bd46b902e8c59e695f3ca7e6efc395d085f65097",
+      "reason": "Fails Sangar 2 and 7: ordinary plump man sitting calmly in linen; burial context is clear but no imposing supernatural menace. Three-call cap exhausted; no retry.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/vampire-attempt-03.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "All seven Sangar yes: swollen ruddy vampire dominates; threatening grave-hauling moment, moonlit falling soil from emergence (vampire-c02), shroud/plump anatomy and ordinary teeth without fangs(c07,c08,c09), no text or magic, not ordinary or calm. Only A available: B rejected by image tool at output stage for violence.",
+    "limitations": [],
+    "native_sha256": "55503881ff14974ecfc84815a282a8e50756fa56c98119f77bfa0346c45a2ad0",
+    "reviewed_at": "2026-10-08T06:56:38.116323+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih: tubuh gembung kemerahan, gigi biasa tanpa taring rekaan, kain kafan menutup tubuh dan tangan mencengkeram tanah saat bangkit dari kubur. Tatapan dan aksi sangat terbaca pada kartu. B attempt03 gagal Sangar2/7 karena manusia tenang merapikan kain; attempt02 ditolak alat, tidak ada PNG. Tiga panggilan habis; dua komposisi nyata diperiksa, hanya A layak. Tujuh syarat Sangar A terpenuhi tanpa darah/gore/korban."
+}

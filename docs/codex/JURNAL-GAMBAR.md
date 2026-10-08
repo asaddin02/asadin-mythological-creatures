@@ -73,3 +73,66 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - **4 ditahan** (balarama, chandra, radha, sita): risetnya turun di bawah target tier dan masuk antrean pengayaan Claude.
 - Frankenstein (batch-1094) lolos tinjauan 7 Oktober dan sudah punya catatan katalog, tetapi PNG terpilihnya hanya ada di PC lain; integrasikan di sana dengan `node scripts/integrate-artwork-batch.mjs 1094` setelah mengubah status receipt ke `reviewed`.
 - Audit nama besar diperbarui: kesiapan dinilai dari riset terkini (bukan potret `siap` 7 Oktober), status `tidak-digambar` diterima, dan pergeseran kutipan pada gambar yang sudah terpasang dicatat di laporan, tidak menggagalkan audit. `prepare-reviewed-artwork-records.mjs` punya opsi `--allow-skipped`.
+
+## 2026-10-08 13:47 WIB — Codex — mulai batch nama besar baru
+
+- Pemilik meminta lanjut sekarang: batch 50 nama besar lengkap, dua varian per makhluk, berhenti pada receipt awaiting-independent-review. Empat perbaikan lama masih ditahan riset; pemilik mengizinkan lanjut antrean siap.
+- Status awal: 1129 ilustrasi aktif, 81 nama besar siap, 0 receipt menunggu tinjauan/invalid. Batch lama tanpa receipt tertunda: 0.
+- Slug terpilih dari skrip status: hermes, thor, hades, jupiter, ganesha, vampire, ares, demeter, dionysus, mermaid, hephaestus, indra, odin, ra-q1252904, hestia, isis, kali, lakshmi, saraswati, osiris, anubis, heracles, jinn, prometheus, sphinx, cronus, horus, parvati, amun, demon, eros, neptune, phoenix, uranus, hanuman, mars, pegasus, saturn, werewolf, durga, juno, mercury, persephone, asclepius, atlas, fairy, yeti, aten, diana, gaia.
+- Pembagian tiga sub-agent gpt-6.1-sol/high, masing-masing slug berbeda; agen utama melihat kedua PNG tiap makhluk, memilih varian, menulis ledger/jurnal/laporan.
+- Pelajaran Claude 13:30: variasi usia, rahang, ekspresi untuk wajah dewi; hindari tangan menghentikan penonton berulang. Makhluk melakukan aksi dengan atribut/efek dari klaim; hormat untuk tradisi hidup.
+
+### Progres 14:09 WIB — batch-1179, 10 terpilih
+
+- Sepuluh makhluk selesai dipilih setelah kedua PNG native dibaca: hermes, thor, hades, jupiter, mermaid, dionysus, ganesha, odin, indra, saraswati. Receipt awaiting-independent-review; status 0 invalid, aktif tetap 1129.
+- Ganesha A tepat empat tangan dengan empat atribut terpisah dan torso bertunik; B gagal distribusi gading/manisan c07, percobaan pertama gagal pakaian/tanda dahi. Seluruh kegagalan tetap tersimpan, tidak disamarkan sebagai varian lulus.
+- Alat menolak Ares attempt01 serta Vampire B karena kategori violence. Revisi tanpa serangan dibuat dalam batas tiga panggilan per makhluk; hasil dan penolakan dicatat di receipt. Isis A/B ditolak sendiri karena mahkota yang tidak didukung quote; pengganti tanpa mahkota sedang dikerjakan.
+- Selanjutnya menyelesaikan 40 sisanya, melihat kedua varian dan memverifikasi dukungan klaim sebelum memilih.
+
+### Progres 14:26 WIB — batch-1179, 20 terpilih
+
+- Tambahan 10 setelah milestone pertama: demeter, vampire, hephaestus, heracles, sphinx, parvati, hestia, kali, eros, uranus. Kedua PNG masing-masing dilihat native agen utama; 20 receipt menunggu Claude, status 0 invalid.
+- Sphinx A dipilih karena Thebes Yunani; B ditolak root karena pylon/obelisk Mesir. Vampire A dipilih, B aman tetap gagal Sangar2/7; tiga panggilan termasuk penolakan alat sudah habis. Hestia A dipilih karena tangan aktif merawat sacred hearth; bukan hanya membawa ketel.
+- Ra-Q1252904 awal A/B ditolak karena disk crop/pseudo-glyph, kandidat C polos/disk utuh sudah dilihat root; fixture logam penahan disk dicatat sebagai ornament editorial, bukan tanduk tubuh atau kuasa tambahan. Isis/Durga/Fairy koreksi anatomi/ikonografi masih dikerjakan.
+- Parvati dan Saraswati wajah masih mirip; dicatat untuk tinjauan Claude, arahan variasi wajah diteruskan untuk Persephone/Diana dan dewi berikutnya.
+
+### Progres 16:54 WIB — batch-1179, 32 terpilih; sub-agent terhenti
+
+- Tambahan setelah 20: lakshmi, osiris, jinn, anubis, pegasus, ra-q1252904, cronus, persephone, diana, isis, ares, prometheus. Seluruh pasangan PNG native telah dilihat root dan 32 receipt awaiting-independent-review.
+- Ra/Isis pengganti attempt03 sudah dipilih; mahkota Isis unsupported dihilangkan, pakaian/boat Ra polos dan disk utuh. Ares dua adegan tanpa serangan dipilih setelah output refusal awal.
+- Ketiga sub-agent serentak terhenti dengan pesan persis: Your workspace is out of credits. Add credits to continue. Ini kegagalan eksekusi agen, bukan otomatis kegagalan atau penolakan image_gen. Root meneruskan audit dan penyelamatan artefak yang sudah selesai; tidak mengklaim 50 selesai.
+
+### Progres 17:41 WIB — batch-1179, 40 terpilih
+
+- Kini 40/50 receipt awaiting-independent-review. Tambahan sejak catatan 32: amun, neptune, horus, hanuman, durga, fairy, saturn, juno. Kedua varian native setiap makhluk telah dilihat agen utama.
+- PNG attempt03 Durga/Fairy berhasil ditemukan di keluaran lane setelah agen terhenti: Durga tepat sepuluh tangan tanpa gada lepas, Fairy telinga manusia membulat. Tidak ada panggilan keempat; A/B gagal tetap di rejected/.
+- Horus A gagal karena mahkota/disk terpotong; B menjaga keduanya utuh. Saturn petir dari c35; Juno badai laut dari c17 dan wajah lebih tua/rahang berbeda.
+- Root meneruskan image_gen langsung untuk sepuluh entri terakhir. Receipt root mencatat subagent_model null karena tidak dibuat sub-agent; tidak mengarang model agen ataupun model gambar.
+
+### Progres 18:06 WIB — batch-1179, 50 terpilih
+
+- Tambahan setelah 40: asclepius, yeti, gaia, demon, phoenix, mercury, atlas, aten, mars, werewolf. Semua 50 receipt awaiting-independent-review, tidak ada yang tidak-digambar.
+- Werewolf A/B gagal hewan biasa, attempt03 memakai hibrida yang disebut eksplisit c43; bukan penggambaran hibrida dalam kisah Niceros. Mars A/B gagal helm Korintus, attempt03 menampilkan lubang mata/nose guard/cheek plates terangkat di atas dahi c09.
+- Agen utama telah melihat setiap pasangan PNG native, membandingkan varian, serta memeriksa 50 terpilih pada ukuran tepat 200x200 di dua lembar browser. Efek Aten sinar berujung tangan dari c02, Phoenix sarang terbakar/pembaruan dari c07/c25, Atlas bola langit c09.
+- Semua 50 PNG terpilih 1254x1254; 100 slot varian A/B disimpan beserta kandidat C bila ada, 23 PNG gagal di rejected/. Bukti artefak menunjukkan 109 PNG native unik dan dua penolakan alat, paling banyak tiga panggilan per slug.
+
+## 2026-10-08 18:12 WIB — Codex — selesai batch-1179
+
+- Hasil: **50/50 ilustrasi baru terpilih**, semua receipt `awaiting-independent-review`; tidak ada receipt belum dibuat dan tidak ada `tidak-digambar`. Ledger `data/artwork-batch-1179.json` menyatakan generation_complete, complete tetap 0 karena belum terpasang.
+- Menunggu Claude: 50 receipt batch-1179. Tinjauan kedua, integrasi, commit dan push belum dilakukan Codex. Empat koreksi lama balarama/chandra/radha/sita belum dikerjakan dalam batch ini; lihat status riset terkini sebelum sesi berikutnya.
+- Alat: OpenAI built-in image_gen; image_model persis `tidak dilaporkan alat`. Dua output refusal: Ares attempt01 dan Vampire attempt02, moderation_blocked/violence; metadata/prompt/request_id tersimpan. Semua hasil akhir dibuat dengan built-in image_gen, tidak ada substitusi model.
+- Tiga sub-agent gpt-6.1-sol/high: lane A 17 tugas, B 17, C 16. Semua berhenti dengan workspace out of credits; hasil yang sudah dibuat dipulihkan, root menyelesaikan 14 slug. Receipt terpilih: lane A 17, lane B 11, lane C 8, root 14. Receipt root tidak mengklaim model sub-agent (null).
+- Riwayat: **109 PNG native unik**, **111 panggilan dibuktikan artefak** termasuk dua refusal, paling banyak tiga per makhluk; **23 PNG/receipt visual gagal** tersimpan di rejected/, dua varian/receipt per slug dan kandidat C tetap tersimpan. Tidak ada PNG batch lain dipindah/dihapus.
+- Verifikasi akhir: 50 PNG terpilih 1254x1254, 100 slot A/B, hash file/review/ledger cocok; quote/statement/source sesuai review diterima; 0 errors, 0 warnings, 0 pending. Agen utama melihat PNG native serta 50 thumbnail tepat 200x200. Ini verifikasi teknis dan tinjauan sendiri, bukan persetujuan independen.
+- `git diff --check` lulus; status git akhir hanya jurnal, ledger-1179 dan folder artwork-generated/batch-1179. Tidak ada diff pada jalur riset/katalog/power/js/manifest/WebP/backups.
+- `artwork-status` terakhir: 50 menunggu Claude, **0 receipt tidak valid**, aktif tetap **1129**, batch-1179 belum terpasang.
+- Serah terima: `data/artwork-generated/batch-1179/README.md`, `codex-generation-summary.json`; bukti lokal `tmp/codex-nama-besar-20261008/batch-validation.json`, `root-decisions.json`, `qc-200-1.png`, `qc-200-2.png`. PNG ignored git dan hanya ada di PC ini.
+- Pelajaran: (1) sepuluh tangan Durga harus dijabarkan posisi/objek satu per satu dan larang objek melayang; (2) telinga Fairy harus normal membulat, jangan elf; (3) nama helm Korintus perlu eye holes/nose guard/cheek plates konkret agar tidak berubah menjadi helm legioner; (4) bentuk serigala penuh sah secara sumber tetapi gagal ordinary-animal, hibrida harus didukung c43; (5) sinar tangan Aten adalah pengecualian ikonografi dari sumber, bukan izin aura generik; (6) lihat disk/crown pada native dan jangan mewariskan pseudo-glyph dari kain; (7) Parvati/Saraswati masih mirip, Claude perlu menilai variasi wajah.
+- Sesi berikutnya: Claude meninjau 50 receipt dan memasang hanya yang lolos. Codex menjalankan artwork-status dulu, mendahulukan koreksi yang risetnya kini valid, dan tidak menggambar ulang 50 ini tanpa penolakan Claude/permintaan pemilik.
+
+## 2026-10-08 19:40 WIB — Claude — tinjauan kedua batch-1179: 50/50 lolos, terpasang
+
+- Claude melihat sendiri 50 PNG native (lembar kontak 4 gambar, lalu pemeriksaan anatomi terhadap `visual_requirements` tiap receipt) dan menjalankan Uji Sangar §6.4. Hash berkas, receipt, ledger, dan `visual_review` Codex cocok untuk semua 50. Tidak ada yang ditolak.
+- `root_visual_review` (reviewer claude, verdict pass) ditulis ke 50 receipt; 42 catatan katalog dibuat dengan `prepare-reviewed-artwork-records --apply`; `integrate-artwork-batch 1179` memasang 50/50; `audit-artwork-batch 1179` pass; `npm run check` dan `npm test` lulus. Ilustrasi aktif 1129 → 1179.
+- Catatan tinjauan: Parvati dan Saraswati cukup berbeda (wajah lebih bulat dan kulit lebih gelap pada Parvati, mahkota berbeda); Ares adalah satu-satunya yang nyaris pose frontal, diterima karena kamera rendah, zirah lengkap, dan pasukan berdebu di belakangnya; kaki pincang Hephaestus memang di luar bingkai dan tidak diklaim; sinar bertangan Aten diterima sebagai ikonografi c02.
+- Pelajaran untuk Codex: resep sangar lewat aksi fisik dan kamera rendah bekerja konsisten pada 50 nama besar ini; pertahankan pola "kata kerja dulu" dan jangan menambah aura. Empat koreksi lama (balarama, chandra, radha, sita) kini risetnya lengkap dan valid; kerjakan sebelum nama besar berikutnya.

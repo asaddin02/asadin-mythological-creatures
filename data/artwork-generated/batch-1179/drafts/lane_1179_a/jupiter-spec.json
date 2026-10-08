@@ -1,0 +1,95 @@
+{
+  "slug": "jupiter",
+  "batch": 1179,
+  "basis_claim_ids": [
+    "jupiter-c01",
+    "jupiter-c07",
+    "jupiter-c09",
+    "jupiter-c23"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "older broad-jawed man with long white beard, one head, two arms and legs, opaque heavy Roman robe, tall plain scepter with eagle finial",
+      "claim_ids": [
+        "jupiter-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "A real branching thunderbolt strikes rock beside his scepter, blowing chips and rain outward",
+      "claim_ids": [
+        "jupiter-c01",
+        "jupiter-c09",
+        "jupiter-c23"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "storm-filled sky above a rocky height; terrain is artistic staging for sky domain",
+      "claim_ids": [
+        "jupiter-c01"
+      ]
+    }
+  ],
+  "source_claims": [
+    {
+      "id": "jupiter-c01",
+      "source_id": "jupiter-s1",
+      "quote": "is the god of the sky and thunder, and king of the gods.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Jupiter adalah dewa langit dan guntur serta pemimpin para dewa.",
+        "en": "Jupiter is god of the sky and thunder and king of the gods."
+      }
+    },
+    {
+      "id": "jupiter-c07",
+      "source_id": "jupiter-s2",
+      "quote": "He was most often portrayed with a long, white beard, and his symbol was the eagle atop a scepter",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Jupiter digambarkan berjanggut putih dan memiliki lambang elang pada tongkat.",
+        "en": "Jupiter is depicted with a white beard and an eagle on his scepter."
+      }
+    },
+    {
+      "id": "jupiter-c09",
+      "source_id": "jupiter-s2",
+      "quote": "Among the many gods of the Romans, Jupiter, the son of Saturn, was the supreme god, associated with thunder, lightning, and storms.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Di antara banyak dewa Romawi, Jupiter, putra Saturnus, adalah dewa tertinggi yang dikaitkan dengan guntur, kilat, dan badai.",
+        "en": "Among the many Roman gods, Jupiter, son of Saturn, was the supreme god, associated with thunder, lightning, and storms."
+      }
+    },
+    {
+      "id": "jupiter-c23",
+      "source_id": "jupiter-s1",
+      "quote": "Jupiter assumed atmospheric qualities; he is the wielder of lightning and the master of weather.",
+      "locator": "Theology, Jovian theology",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Jupiter bersifat atmosferik: ia pemegang kilat dan penguasa cuaca.",
+        "en": "Jupiter took on atmospheric qualities: he is the wielder of lightning and master of weather."
+      }
+    }
+  ],
+  "source_ids": [
+    "jupiter-s1",
+    "jupiter-s2"
+  ],
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded."
+  ],
+  "prompts": {
+    "A": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Jupiter.\nANATOMY: older broad-jawed man with long white beard, one head, two arms and legs, opaque heavy Roman robe, tall plain scepter with eagle finial [jupiter-c07]\nMOMENT: Swing the eagle-topped scepter downward across the close foreground, stern face fills upper half as lightning tears past.\nPOWER: A real branching thunderbolt strikes rock beside his scepter, blowing chips and rain outward [jupiter-c01, jupiter-c09, jupiter-c23]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: storm-filled sky above a rocky height; terrain is artistic staging for sky domain [jupiter-c01]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+    "B": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Jupiter.\nANATOMY: older broad-jawed man with long white beard, one head, two arms and legs, opaque heavy Roman robe, tall plain scepter with eagle finial [jupiter-c07]\nMOMENT: Advance full length across rain-lashed rocks and throw a thunderbolt into the ground, robe whipped by storm.\nPOWER: A real branching thunderbolt strikes rock beside his scepter, blowing chips and rain outward [jupiter-c01, jupiter-c09, jupiter-c23]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: storm-filled sky above a rocky height; terrain is artistic staging for sky domain [jupiter-c01]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image."
+  },
+  "depicted_variant": "Jupiter"
+}

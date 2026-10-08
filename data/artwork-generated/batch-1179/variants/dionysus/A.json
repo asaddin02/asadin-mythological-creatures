@@ -1,0 +1,75 @@
+{
+  "slug": "dionysus",
+  "basis_claim_ids": [
+    "dionysus-c04",
+    "dionysus-c28",
+    "dionysus-c34",
+    "dionysus-c38",
+    "dionysus-c39"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Long-haired youthful male, ivy crown and pinecone-tipped thyrsos; opaque robe.",
+      "claim_ids": [
+        "dionysus-c04",
+        "dionysus-c34"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ship mast becomes huge vine; wine runs through ship; restraints fall away.",
+      "claim_ids": [
+        "dionysus-c28",
+        "dionysus-c38",
+        "dionysus-c39"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Pirate ship.",
+      "claim_ids": [
+        "dionysus-c28",
+        "dionysus-c39"
+      ]
+    }
+  ],
+  "depicted_variant": "Long-haired youthful Dionysus with thyrsos and ivy, overthrowing restraint on the pirate ship.",
+  "aura": "Mast transformed into huge vine and ship streaming wine (dionysus-c28,c39), bonds fall away(c38).",
+  "artistic_choices": [
+    "Fully opaque burgundy draped robe, not nude ancient imagery.",
+    "Lighting from sunset, no magic envelope.",
+    "Fore-shortened staff and close framing convey divine authority without unsupported giant anatomy."
+  ],
+  "worker": "codex",
+  "worker_agent": "lane_1179_c",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-029.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a48-22fa-7663-84bd-69ab0020a729/exec-4ee7a57f-6737-4691-b32b-e7b7e057ff7d.png",
+  "generated_at": "2026-10-08T07:01:10.392385+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/dionysus/A.png",
+  "native_sha256": "04950a1cb018553f462a3285204581c993dd4946f376c1b2f9982b59e335c122",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Dionysus, Greek god of wine and vegetation in the pirate ship miracle.\nANATOMY: long-haired youthful male, one head two eyes two arms two legs, ivy wreath, LARGE obvious pinecone-tipped thyrsos staff, fully opaque dark burgundy robe covering torso and legs [dionysus-c04,c34].\nPOWER: ship's mast transforms into a huge tangible vine, sails drip wine, wine streams over deck and restraining cords fall loose from his wrist [dionysus-c28,c38,c39]. Thick woody green vines, NOT glowing ribbons.\nSCALE & CAMERA: extreme low close angle, young angular face and pinecone staff fill foreground; no gigantic human anatomy.\nLIGHT & WEATHER: one dying gold sunset source, deep shadows, sea spray and snapping sail cloth.\nSURFACE: wet splintered wood, rough ivy leaves, wine-dark fabric, real grape vines.\nSETTING: deck of pirate ship with a mast now a huge woody vine [dionysus-c28,c39].\nMOOD: ecstatic fierce divine authority, overwhelming, never ordinary or calm.\nHARD CONSTRAINTS: no text/pseudo-glyphs anywhere on ship/clothes/staff, no logos/watermarks/borders, no extra anatomy, no film/game/anime design, no nudity/gore, no aura/neon/energy ribbons.\nMOMENT: Dionysus drives thyrsos down into the wine-flooded deck, his loose bonds falling as vines engulf mast behind him, sharply intense eyes angled down at viewer; close confrontation with staff and face dominant.",
+  "candidate_variant": "A",
+  "candidate_choice_notes": "All seven Sangar yes: divine youth and oversized pinecone thyrsos dominate; mast vine and wine flooding deck are physical source miracle(c28,c39), falling wrist ropes(c38), correctly clothed standard anatomy, no lettering or aura. Preferred stronger confrontational face and close staff.",
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "All seven Sangar yes: divine youth and oversized pinecone thyrsos dominate; mast vine and wine flooding deck are physical source miracle(c28,c39), falling wrist ropes(c38), correctly clothed standard anatomy, no lettering or aura. Preferred stronger confrontational face and close staff.",
+    "limitations": [],
+    "native_sha256": "04950a1cb018553f462a3285204581c993dd4946f376c1b2f9982b59e335c122",
+    "reviewed_at": "2026-10-08T07:01:10.392385+00:00"
+  },
+  "selection_status": "selected",
+  "selection_reason": "Dua PNG native telah dibaca. A dipilih karena wajah muda berambut panjang, thyrsos berkepala kerucut pinus, dan aksi tangan paling terbaca. Anggur pada tiang serta cairan merah berupa wine berasal dari adegan kapal c28/c39; ikatan yang lepas ditopang c38. Pakaian tertutup, tanpa korban atau gore. B sah tetapi wajah lebih kecil. Semua tujuh syarat Sangar terpenuhi."
+}

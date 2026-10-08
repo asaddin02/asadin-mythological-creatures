@@ -1,0 +1,123 @@
+{
+  "slug": "isis",
+  "batch": 1179,
+  "basis_claim_ids": [
+    "isis-c06",
+    "isis-c10",
+    "isis-c15",
+    "isis-c33",
+    "isis-c37",
+    "isis-c52"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "dignified mature Egyptian goddess, human female form, one head two arms two legs, fully opaque heavy linen robe and plain gold collar, brass sistrum held clearly",
+      "claim_ids": [
+        "isis-c06",
+        "isis-c10",
+        "isis-c33"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical sea winds governed by her will bend spray away from the foreground; protectress of sailors, no generic magic glow",
+      "claim_ids": [
+        "isis-c15",
+        "isis-c37"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "stormy sea shoreline, based on her protection of sailors",
+      "claim_ids": [
+        "isis-c15",
+        "isis-c52"
+      ]
+    }
+  ],
+  "source_claims": [
+    {
+      "id": "isis-c06",
+      "source_id": "isis-s2",
+      "quote": "This statuette shows the goddess in her most beloved pose, nursing her son Horus (known also as the lactans pose).",
+      "locator": "Object description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Sebuah patung kecil menunjukkan Isis menyusui putranya Horus.",
+        "en": "A statuette shows Isis nursing Horus."
+      }
+    },
+    {
+      "id": "isis-c10",
+      "source_id": "isis-s1",
+      "quote": "Her symbols are the scorpion (who kept her safe when she was in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lambang Isis adalah kalajengking (yang menjaganya saat bersembunyi), kite (sejenis elang yang wujudnya ia ambil untuk menghidupkan suaminya), takhta kosong, dan sistrum.",
+        "en": "Isis's symbols are the scorpion (who kept her safe in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum."
+      }
+    },
+    {
+      "id": "isis-c15",
+      "source_id": "isis-s1",
+      "quote": "Eventually, she became associated with the sea and was a protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble (attested to by archaeological evidence).",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Isis akhirnya dikaitkan dengan laut dan menjadi pelindung pelaut dan pedagang yang memakai jimat untuknya dan memohon bantuannya saat bahaya.",
+        "en": "Isis eventually became associated with the sea and was protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble."
+      }
+    },
+    {
+      "id": "isis-c33",
+      "source_id": "isis-s1",
+      "quote": "She is regularly portrayed as the selfless, giving, mother, wife, and protectress, who places other's interests and well-being ahead of her own.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Isis biasanya digambarkan sebagai ibu, istri, dan pelindung yang tanpa pamrih, murah hati, dan mengutamakan kepentingan orang lain.",
+        "en": "Isis is regularly portrayed as a selfless, giving mother, wife, and protectress who puts others' interests and well-being ahead of her own."
+      }
+    },
+    {
+      "id": "isis-c37",
+      "source_id": "isis-s4",
+      "quote": "at my will the planets of the ayre, the wholesome winds of the Seas, and the silences of hell be diposed",
+      "locator": "Book 11, the goddess speaks to Lucius",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sang dewi dalam karya Apuleius menyatakan bahwa atas kehendaknya planet-planet langit, angin laut yang menyehatkan, dan kesunyian neraka diatur.",
+        "en": "In Apuleius's work the goddess declares that at her will the planets of the air, the wholesome winds of the seas, and the silences of hell are disposed."
+      }
+    },
+    {
+      "id": "isis-c52",
+      "source_id": "isis-s5",
+      "quote": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea.",
+      "locator": "Lead",
+      "context": "historical-record",
+      "statement": {
+        "id": "Para pemuja Yunani Isis mengaitkan dengannya sifat dari dewa Yunani, seperti penemuan pernikahan dan perlindungan kapal di laut.",
+        "en": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea."
+      }
+    }
+  ],
+  "source_ids": [
+    "isis-s1",
+    "isis-s2",
+    "isis-s4",
+    "isis-s5"
+  ],
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded."
+  ],
+  "prompts": {
+    "A": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Isis.\nANATOMY: dignified mature Egyptian goddess, human female form, one head two arms two legs, fully opaque heavy linen robe and plain gold collar, brass sistrum held clearly [isis-c06, isis-c10, isis-c33]\nMOMENT: Snap the brass sistrum through the close foreground as wind drives her veil aside, resolute protective expression.\nPOWER: Physical sea winds governed by her will bend spray away from the foreground; protectress of sailors, no generic magic glow [isis-c15, isis-c37]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: stormy sea shoreline, based on her protection of sailors [isis-c15, isis-c52]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.\nTARGETED FIDELITY CORRECTION: Isis is BAREHEADED with only natural black hair. NO crown, horns, sun disc, moon disc, halo, animal headdress or ornate head ornament at all. A simple gold collar is permitted. Her sistrum and protective sea wind are the identifying attributes. Clearly fully opaque densely woven clothing.",
+    "B": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Isis.\nANATOMY: dignified mature Egyptian goddess, human female form, one head two arms two legs, fully opaque heavy linen robe and plain gold collar, brass sistrum held clearly [isis-c06, isis-c10, isis-c33]\nMOMENT: Step down wet shore rocks, shake the sistrum toward rough waters while a distant ship passes behind the sheltering bend of wind-driven spray.\nPOWER: Physical sea winds governed by her will bend spray away from the foreground; protectress of sailors, no generic magic glow [isis-c15, isis-c37]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: stormy sea shoreline, based on her protection of sailors [isis-c15, isis-c52]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image."
+  },
+  "depicted_variant": "Isis"
+}

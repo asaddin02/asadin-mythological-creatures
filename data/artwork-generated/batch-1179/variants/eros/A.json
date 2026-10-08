@@ -1,0 +1,149 @@
+{
+  "slug": "eros",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-033.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-7602a5db-3b93-43ab-b5ce-16f4a2d99d26.png",
+  "generated_at": "2026-10-08T07:16:59.668050+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/eros/A.png",
+  "native_sha256": "7cc02616d7b406cf1bd39dfaa6cb98bf39a6f6d998fb0922342d84fcefb7150b",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Eros, Classical winged youth variant.\nANATOMY: beautiful late-adolescent male deity, one head two arms two legs and exactly two large feather wings, fully opaque heavy Greek tunic, bow arrows and rose wreath [eros-c08, eros-c12, eros-c24, eros-c25]\nMOMENT: Draw a plain bow until the string touches the cheek, arrow aimed past camera, eyes fiercely focused, rose crown and both wings readable.\nPOWER: No energy arrows or glow; his surprise archery creates the threat of reckless passion, bow and arrow physical [eros-c18, eros-c34]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: shadowed Greek grove, editorial staging rather than claimed location [eros-c12]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "A",
+  "depicted_variant": "Eros, Classical winged youth variant",
+  "basis_claim_ids": [
+    "eros-c08",
+    "eros-c12",
+    "eros-c18",
+    "eros-c24",
+    "eros-c25",
+    "eros-c34"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "beautiful late-adolescent male deity, one head two arms two legs and exactly two large feather wings, fully opaque heavy Greek tunic, bow arrows and rose wreath",
+      "claim_ids": [
+        "eros-c08",
+        "eros-c12",
+        "eros-c24",
+        "eros-c25"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No energy arrows or glow; his surprise archery creates the threat of reckless passion, bow and arrow physical",
+      "claim_ids": [
+        "eros-c18",
+        "eros-c34"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "shadowed Greek grove, editorial staging rather than claimed location",
+      "claim_ids": [
+        "eros-c12"
+      ]
+    }
+  ],
+  "source_ids": [
+    "eros-s1",
+    "eros-s3",
+    "eros-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "eros-c08",
+      "source_id": "eros-s3",
+      "quote": "In Classical art he is usually represented as a beautiful winged youth.",
+      "locator": "Exhibition Overview",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Yunani klasik, Eros lazim digambarkan sebagai pemuda bersayap.",
+        "en": "Classical art usually portrays Eros as a winged youth."
+      }
+    },
+    {
+      "id": "eros-c12",
+      "source_id": "eros-s1",
+      "quote": "Eros is most often represented in Greek art as a carefree and beautiful youth, crowned with flowers, especially of roses which were closely associated with the god.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Yunani Eros paling sering digambarkan sebagai pemuda tampan yang riang, bermahkota bunga, terutama mawar yang erat dikaitkan dengan sang dewa.",
+        "en": "In Greek art Eros is most often shown as a carefree, beautiful youth crowned with flowers, especially roses, which were closely associated with him."
+      }
+    },
+    {
+      "id": "eros-c18",
+      "source_id": "eros-s1",
+      "quote": "Sometimes the god is playful and harmlessly mischievous but at other times he is cruel with his surprise attacks that bring only reckless passion and confusion",
+      "locator": "Associations of Eros",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kadang sang dewa bermain-main dan jahil tanpa bahaya, tetapi di waktu lain ia kejam dengan serangan mendadak yang hanya membawa nafsu gegabah dan kebingungan.",
+        "en": "Sometimes the god is playful and harmlessly mischievous, but at other times cruel with surprise attacks that bring only reckless passion and confusion."
+      }
+    },
+    {
+      "id": "eros-c24",
+      "source_id": "eros-s1",
+      "quote": "In ancient Greek art from the 6th century BCE, Eros is usually depicted as an adolescent with wings and he often carries a wreath of victory.",
+      "locator": "How is Eros Represented in Art?",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam seni Yunani kuno sejak abad ke-6 SM, Eros biasanya digambarkan sebagai remaja bersayap yang sering membawa karangan bunga kemenangan.",
+        "en": "In ancient Greek art from the 6th century BCE Eros is usually depicted as a winged adolescent who often carries a victory wreath."
+      }
+    },
+    {
+      "id": "eros-c25",
+      "source_id": "eros-s1",
+      "quote": "Surprisingly, he is only depicted carrying a bow with any great frequency from the 4th century BCE, although the first literary reference is much earlier and found in the tragedian Euripides' Iphigenia in Aulis (c. 406 BCE).",
+      "locator": "How is Eros Represented in Art?",
+      "context": "historical-record",
+      "statement": {
+        "id": "Eros baru sering digambarkan membawa busur sejak abad ke-4 SM, meski rujukan sastra pertamanya jauh lebih awal, dalam Iphigenia in Aulis karya Euripides (sekitar 406 SM).",
+        "en": "Eros is shown carrying a bow with any frequency only from the 4th century BCE, though the first literary reference is much earlier, in Euripides' Iphigenia in Aulis (c. 406 BCE)."
+      }
+    },
+    {
+      "id": "eros-c34",
+      "source_id": "eros-s4",
+      "quote": "It was he who lit the flame of love in the hearts of the gods and men, armed with either a bow and arrows or a flaming torch.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dialah yang menyalakan api cinta di hati para dewa dan manusia, bersenjatakan busur dan panah atau obor menyala.",
+        "en": "It was he who lit the flame of love in the hearts of gods and men, armed with either a bow and arrows or a flaming torch."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: eros-c08, eros-c12, eros-c18, eros-c24, eros-c25, eros-c34",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate A retained for root choice; Classical winged youth aims physical bow past lens, two feather wings rose wreath opaque tunic; no energy effects, decisive taut-string action."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Classical winged youth aims physical bow past lens, two feather wings rose wreath opaque tunic; no energy effects, decisive taut-string action. Native PNG inspected with view_image. Sangar 7/7 yes: dominant subject, imposing thumbnail silhouette, active moment, claim-grounded effects, correct anatomy, no writing or borrowed IP, no ordinary idle portrait.",
+    "limitations": [],
+    "native_sha256": "7cc02616d7b406cf1bd39dfaa6cb98bf39a6f6d998fb0922342d84fcefb7150b",
+    "reviewed_at": "2026-10-08T07:16:59.668050+00:00"
+  },
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected B after comparing both native PNGs: Dua PNG native telah dibaca. B dipilih karena gerakan meloncat sambil menarik busur, dua sayap besar dan bentuk panah utuh terbaca paling kuat. Remaja berselubung tunik, rose wreath dan quiver didukung c08/c12/c24/c25. Tanpa panah energi atau mekanisme passion rekaan; aksi fisik archery c18/c34. A sah namun gerak kaki crop. Tujuh syarat Sangar terpenuhi."
+}

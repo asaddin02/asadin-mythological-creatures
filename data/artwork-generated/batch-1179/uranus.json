@@ -1,0 +1,134 @@
+{
+  "slug": "uranus",
+  "worker": "codex",
+  "worker_agent": "lane_1179_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-034.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11a45-e28d-7050-b34c-a77091c0bb28/exec-685f2ce2-7ac4-4e16-9306-0e1810879c9f.png",
+  "generated_at": "2026-10-08T07:17:00.130443+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/uranus.png",
+  "native_sha256": "c98eabf90f2c9407c667d4f48e64d51f7caf15292cbca47ce97258fe8f3472e5",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Uranus, Pergamon combat iconography.\nANATOMY: bearded male sky god, one head two arms two legs and two feather wings, fully opaque aged-bronze robe and cuirass, plain sword [uranus-c46]\nMOMENT: Dive wing-first into a sword strike at a giant silhouette cropped at frame edge; Uranus dominates fully and action occurs under the starry sky.\nPOWER: Physical sword combat against Giants, no invented cosmic beams; night sky reflects his sky identity [uranus-c01, uranus-c46]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: dark sky above a rocky combat ledge, editorial staging of documented Gigantomachy [uranus-c01, uranus-c46]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+  "candidate_variant": "B",
+  "depicted_variant": "Uranus, Pergamon combat iconography",
+  "basis_claim_ids": [
+    "uranus-c01",
+    "uranus-c46"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "bearded male sky god, one head two arms two legs and two feather wings, fully opaque aged-bronze robe and cuirass, plain sword",
+      "claim_ids": [
+        "uranus-c46"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical sword combat against Giants, no invented cosmic beams; night sky reflects his sky identity",
+      "claim_ids": [
+        "uranus-c01",
+        "uranus-c46"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "dark sky above a rocky combat ledge, editorial staging of documented Gigantomachy",
+      "claim_ids": [
+        "uranus-c01",
+        "uranus-c46"
+      ]
+    }
+  ],
+  "source_ids": [
+    "uranus-s1",
+    "uranus-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "uranus-c01",
+      "source_id": "uranus-s1",
+      "quote": "Uranus (also spelt Ouranos) is the personification of heaven and the sky in Greek mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Uranus atau Ouranos adalah personifikasi langit dalam mitologi Yunani.",
+        "en": "Uranus or Ouranos is the personification of the sky in Greek mythology."
+      }
+    },
+    {
+      "id": "uranus-c46",
+      "source_id": "uranus-s3",
+      "quote": "He is, however, identified on the Gigantomachy frieze on the Pergamon Altar, bearded and winged, fighting against the Giants with a sword",
+      "locator": "Mythology: Castration and overthrow",
+      "context": "historical-record",
+      "statement": {
+        "id": "Uranus diidentifikasi pada relief Gigantomachy di Altar Pergamon, berjenggot dan bersayap, melawan para Raksasa dengan pedang.",
+        "en": "Uranus is identified on the Gigantomachy frieze of the Pergamon Altar, bearded and winged, fighting the Giants with a sword."
+      }
+    }
+  ],
+  "aura": "No generic aura; strength through documented attributes, physical action and source-linked domain: uranus-c01, uranus-c46",
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded.",
+    "Candidate B retained for root choice; Full downward sword-combat movement against giant at cropped edge, explicit source Pergamon c46; two arms legs wings, robe opaque, starry sky natural and no supernatural emission.",
+    "Root Codex viewed both native compositions and selected variant B: Dua PNG native telah dibaca. B dipilih karena gerak pedang, kaki menapak dan dua sayap jelas mendominasi, memakai varian berjanggut bersayap yang eksplisit pada Pergamon c46. Langit malam hanya konteks dewa langit c01; tidak ada cosmic beam atau anatomi kosmis rekaan. Pakaian menutup torso, tanpa gore atau tulisan. A sah tetapi wajah lawan hampir crop. Tujuh syarat Sangar terpenuhi."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "Dua PNG native telah dibaca. B dipilih karena gerak pedang, kaki menapak dan dua sayap jelas mendominasi, memakai varian berjanggut bersayap yang eksplisit pada Pergamon c46. Langit malam hanya konteks dewa langit c01; tidak ada cosmic beam atau anatomi kosmis rekaan. Pakaian menutup torso, tanpa gore atau tulisan. A sah tetapi wajah lawan hampir crop. Tujuh syarat Sangar terpenuhi. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "c98eabf90f2c9407c667d4f48e64d51f7caf15292cbca47ce97258fe8f3472e5",
+    "reviewed_at": "2026-10-08T07:26:04.116299+00:00"
+  },
+  "selected_variant": "B",
+  "selection_reason": "Dua PNG native telah dibaca. B dipilih karena gerak pedang, kaki menapak dan dua sayap jelas mendominasi, memakai varian berjanggut bersayap yang eksplisit pada Pergamon c46. Langit malam hanya konteks dewa langit c01; tidak ada cosmic beam atau anatomi kosmis rekaan. Pakaian menutup torso, tanpa gore atau tulisan. A sah tetapi wajah lawan hampir crop. Tujuh syarat Sangar terpenuhi.",
+  "selected_at": "2026-10-08T07:26:04.116299+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/uranus/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/uranus/A.json",
+      "native_sha256": "1cba26cd7ba627fd8451201511d5eda0f0a3622300fd6662aab641fe5b26b0ff",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/uranus/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/uranus/B.json",
+      "native_sha256": "c98eabf90f2c9407c667d4f48e64d51f7caf15292cbca47ce97258fe8f3472e5",
+      "selected": true
+    }
+  ],
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "c98eabf90f2c9407c667d4f48e64d51f7caf15292cbca47ce97258fe8f3472e5",
+    "notes": "Winged bearded Uranus in opaque bronze cuirass and robe swinging a plain sword above giants on a night ledge; two feather wings."
+  }
+}

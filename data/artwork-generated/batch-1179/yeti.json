@@ -1,0 +1,172 @@
+{
+  "slug": "yeti",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-037.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-b1af71dd-6e50-4ece-a23a-cf98f6f93cee.png",
+  "generated_at": "2026-10-08T10:37:39.429305+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/yeti.png",
+  "native_sha256": "52c6744a22eb5adc859c14c7ffde7f49bfe0a9a51d793d2fdd0f1f144891af7f",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Yeti, large hairy Himalayan wild man.\nANATOMY: one ape-like head,two arms,two legs, muscular body with reddish-brown fur,large sharp teeth; large stone weapon [yeti-c02, yeti-c13, yeti-c20]\nMOMENT: Three-quarter stride from trees, one arm raises stone above shoulder, other knuckles brace wet rock; head close screeching\nPOWER: no magic: menace from advancing anatomy,stone weapon,screech [yeti-c05, yeti-c20]\nSCALE & CAMERA: extreme low camera; over six feet documented c02; low camera tight framing, no invented giant size.\nLIGHT & WEATHER: one moon shaft through trees with light sleet; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: nocturnal alpine Himalayan forest below snow line [yeti-c04, yeti-c05]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "candidate_variant": "B",
+  "depicted_variant": "Documented form, physical action and attributes; compositions A and B.",
+  "basis_claim_ids": [
+    "yeti-c02",
+    "yeti-c13",
+    "yeti-c20",
+    "yeti-c05",
+    "yeti-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one ape-like head,two arms,two legs, muscular body with reddish-brown fur,large sharp teeth; large stone weapon",
+      "claim_ids": [
+        "yeti-c02",
+        "yeti-c13",
+        "yeti-c20"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "no magic: menace from advancing anatomy,stone weapon,screech",
+      "claim_ids": [
+        "yeti-c05",
+        "yeti-c20"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "nocturnal alpine Himalayan forest below snow line",
+      "claim_ids": [
+        "yeti-c04",
+        "yeti-c05"
+      ]
+    }
+  ],
+  "source_ids": [
+    "yeti-s1",
+    "yeti-s4"
+  ],
+  "source_claims": [
+    {
+      "id": "yeti-c02",
+      "source_id": "yeti-s1",
+      "quote": "Also called a \"wild man,\" many accounts describe the creature as an ape-like being, over six feet tall, walking on its back legs, with reddish-brown fur covering its muscular body.",
+      "locator": "Transcript",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sebagian kisah menggambarkan Yeti sebagai sosok mirip kera berbulu cokelat kemerahan yang berjalan dengan dua kaki.",
+        "en": "Some accounts portray the yeti as a reddish-brown-haired, ape-like biped."
+      }
+    },
+    {
+      "id": "yeti-c13",
+      "source_id": "yeti-s4",
+      "quote": "The Yeti is often described as being a large, bipedal human or ape-like creature that is covered with brown, grey, or white hair, and it is sometimes depicted as having large, sharp teeth.",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Yeti sering digambarkan sebagai makhluk besar berkaki dua mirip manusia atau kera, berbulu cokelat, abu-abu, atau putih, dan kadang bergigi besar dan tajam.",
+        "en": "The yeti is often described as a large bipedal human- or ape-like creature covered with brown, grey or white hair, and sometimes with large sharp teeth."
+      }
+    },
+    {
+      "id": "yeti-c20",
+      "source_id": "yeti-s4",
+      "quote": "followers of the Bön religion once believed the blood of the \"Mi rgod\" or \"wild man\" had use in certain spiritual ceremonies. The being was depicted as an ape-like creature who carries a large stone as a weapon and makes a whistling swoosh sound.",
+      "locator": "History and sightings: pre-19th century",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Penganut agama Bön dahulu percaya darah \"Mi rgod\" atau \"manusia liar\" berguna dalam upacara spiritual tertentu; makhluk itu digambarkan mirip kera, membawa batu besar sebagai senjata, dan menimbulkan suara desiran seperti bersiul.",
+        "en": "Followers of the Bön religion once believed the blood of the \"Mi rgod\" or \"wild man\" was used in certain spiritual ceremonies; the being was depicted as ape-like, carrying a large stone as a weapon and making a whistling swoosh."
+      }
+    },
+    {
+      "id": "yeti-c05",
+      "source_id": "yeti-s1",
+      "quote": "In many stories, the Yeti is nocturnal, and emits a high-pitched screech or whistle.",
+      "locator": "Transcript",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam banyak cerita, Yeti aktif pada malam hari dan mengeluarkan siulan atau jeritan bernada tinggi.",
+        "en": "In many stories, the yeti is nocturnal and makes a high-pitched whistle or screech."
+      }
+    },
+    {
+      "id": "yeti-c04",
+      "source_id": "yeti-s1",
+      "quote": "Yeti are believed to live in the alpine forest below the snow line, although they will brave higher altitude for food and shelter.",
+      "locator": "Transcript",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita, Yeti dipercaya menghuni hutan alpin di bawah garis salju.",
+        "en": "In the stories, yetis are believed to inhabit alpine forests below the snow line."
+      }
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: no magic: menace from advancing anatomy,stone weapon,screech (yeti-c05, yeti-c20), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "No invented energy/storm power.",
+    "Root Codex viewed both native compositions and selected variant B: B raises a stone while bracing directly above the low camera; reddish-brown fur, large teeth and forest context read strongly without added magic. A passes but hides the forward contact hand."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "B raises a stone while bracing directly above the low camera; reddish-brown fur, large teeth and forest context read strongly without added magic. A passes but hides the forward contact hand. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "52c6744a22eb5adc859c14c7ffde7f49bfe0a9a51d793d2fdd0f1f144891af7f",
+    "reviewed_at": "2026-10-08T10:42:50.733820+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "B",
+  "selection_reason": "B raises a stone while bracing directly above the low camera; reddish-brown fur, large teeth and forest context read strongly without added magic. A passes but hides the forward contact hand.",
+  "selected_at": "2026-10-08T10:42:50.733820+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/yeti/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/yeti/A.json",
+      "native_sha256": "adcd0dc3f596a55f4d9140fee2144659da96c23432fd9f66c692362b69a70eae",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/yeti/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/yeti/B.json",
+      "native_sha256": "52c6744a22eb5adc859c14c7ffde7f49bfe0a9a51d793d2fdd0f1f144891af7f",
+      "selected": true
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "52c6744a22eb5adc859c14c7ffde7f49bfe0a9a51d793d2fdd0f1f144891af7f",
+    "notes": "Reddish-brown furred ape-like yeti baring large teeth, raising a stone over the low camera in a night alpine forest; one head, two arms, two legs."
+  }
+}

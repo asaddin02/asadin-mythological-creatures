@@ -1,0 +1,149 @@
+{
+  "slug": "mercury",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-036.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-d0e03eac-eda7-4a94-b676-4aadeadb8b07.png",
+  "generated_at": "2026-10-08T10:42:28.894974+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/mercury/A.png",
+  "native_sha256": "ee0245f3258de16ef06d7b650747e3c9b6faf6e7eeef88a0f63eff4f26802929",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of mercury.\nANATOMY: Roman Mercury in human male form, broad-brimmed petasus, winged sandals, caduceus staff with two intertwined snakes, purse; two arms two legs, opaque dark green tunic [mercury-c06, mercury-c09, mercury-c13, mercury-c40]\nMOMENT: Mercury leaps forward down a roadside stone, caduceus across near foreground in one hand and purse firmly in other, sandals wings readable, mature lean face and curled dark beard editorial.\nPOWER: Fast message carrying and protecting travelers expressed through a forceful running leap; no glow or teleportation [mercury-c02, mercury-c06]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Roman road beside Aventine temple, contextual setting [mercury-c11]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. Snakes on caduceus are two physical snakes, not energy. Different face/green costume from Hermes. No additional powers, no writing on coins/purse.",
+  "candidate_variant": "A",
+  "depicted_variant": "Roman Mercury in human male form, broad-brimmed petasus, winged sandals, caduceus staff with two intertwined snakes, purse; two arms two legs, opaque dark green tunic",
+  "basis_claim_ids": [
+    "mercury-c06",
+    "mercury-c09",
+    "mercury-c13",
+    "mercury-c40",
+    "mercury-c02",
+    "mercury-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Roman Mercury in human male form, broad-brimmed petasus, winged sandals, caduceus staff with two intertwined snakes, purse; two arms two legs, opaque dark green tunic",
+      "claim_ids": [
+        "mercury-c06",
+        "mercury-c09",
+        "mercury-c13",
+        "mercury-c40"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fast message carrying and protecting travelers expressed through a forceful running leap; no glow or teleportation",
+      "claim_ids": [
+        "mercury-c02",
+        "mercury-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Roman road beside Aventine temple, contextual setting",
+      "claim_ids": [
+        "mercury-c11"
+      ]
+    }
+  ],
+  "source_ids": [
+    "mercury-s1",
+    "mercury-s2",
+    "mercury-s3"
+  ],
+  "source_claims": [
+    {
+      "id": "mercury-c06",
+      "source_id": "mercury-s1",
+      "quote": "The god is frequently depicted holding the caduceus, a wand used to reconcile conflicts, and winged sandals for quickly carrying messages for the gods.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Mercury digambarkan membawa caduceus dan mengenakan sandal bersayap.",
+        "en": "Mercury is depicted with a caduceus and winged sandals."
+      }
+    },
+    {
+      "id": "mercury-c09",
+      "source_id": "mercury-s2",
+      "quote": "Roman statuettes of bronze, in which Mercury is represented, like the Greek Hermes, standing holding the caduceus or staff in the one hand and a purse in the other",
+      "locator": "Conclusion",
+      "context": "historical-record",
+      "statement": {
+        "id": "Patung Romawi menggambarkan Mercury dengan tongkat dan pundi-pundi.",
+        "en": "Roman statuettes show Mercury holding a staff and purse."
+      }
+    },
+    {
+      "id": "mercury-c13",
+      "source_id": "mercury-s1",
+      "quote": "Besides the wand and sandals, he also wore a broad-brimmed hat, the Petasus, and carried a purse, a symbol of his duties as the god of commerce and profits.",
+      "locator": "Mercury (Deity)",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Selain tongkat dan sandal, ia mengenakan topi lebar bernama Petasus dan membawa pundi-pundi, lambang tugasnya sebagai dewa perdagangan dan keuntungan.",
+        "en": "Besides the wand and sandals, he wore a broad-brimmed hat, the Petasus, and carried a purse, a symbol of his duties as god of commerce and profits."
+      }
+    },
+    {
+      "id": "mercury-c40",
+      "source_id": "mercury-s3",
+      "quote": "Similar to his Greek equivalent Hermes, he was awarded a magic wand by Apollo, which later turned into the caduceus, the staff with intertwined snakes.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Seperti padanannya Hermes, ia diberi tongkat sihir oleh Apollo yang kemudian menjadi caduceus, tongkat dengan ular yang berjalin.",
+        "en": "Like his Greek equivalent Hermes, he was given a magic wand by Apollo, which later became the caduceus, the staff with intertwined snakes."
+      }
+    },
+    {
+      "id": "mercury-c02",
+      "source_id": "mercury-s1",
+      "quote": "Mercury protected both merchants, especially those dealing in grains, and travelers.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Mercury melindungi pedagang dan pelancong.",
+        "en": "Mercury protected merchants and travelers."
+      }
+    },
+    {
+      "id": "mercury-c11",
+      "source_id": "mercury-s1",
+      "quote": "A temple honoring him was built around 495 BCE and stood on the southwest slope of Aventine Hill near the Circus Maximus of Rome.",
+      "locator": "Mercury (Deity)",
+      "context": "historical-record",
+      "statement": {
+        "id": "Kuil untuknya dibangun sekitar 495 SM dan berdiri di lereng barat daya Bukit Aventine dekat Circus Maximus, Roma.",
+        "en": "A temple honoring him was built around 495 BCE on the southwest slope of the Aventine Hill near the Circus Maximus of Rome."
+      }
+    }
+  ],
+  "aura": "Documented effects and physical action only; no generic aura.",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "Snakes on caduceus are two physical snakes, not energy. Different face/green costume from Hermes. No additional powers, no writing on coins/purse."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "One mature human male, two arms and legs, petasus, winged sandals, purse and one caduceus with exactly two snake heads. Running step dominates; green full opaque tunic, Aventine Roman temple staging. No invented magic or writing. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "ee0245f3258de16ef06d7b650747e3c9b6faf6e7eeef88a0f63eff4f26802929",
+    "reviewed_at": "2026-10-08T10:49:38.584644+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selection_status": "selected",
+  "selection_reason": "A gives a mature bearded face distinct from Hermes and a stronger planted running step, with readable purse, two-snake caduceus and winged sandals. B passes but the face is less imposing.",
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp."
+}

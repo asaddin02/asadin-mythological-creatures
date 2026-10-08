@@ -1,0 +1,138 @@
+{
+  "slug": "werewolf",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "awaiting-independent-review",
+  "review_path": "data/gemini/reviews/batch-035.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-46cdc5bd-b102-4109-8ed1-d616a8fefdb7.png",
+  "generated_at": "2026-10-08T10:41:47.217423+00:00",
+  "original_file": "data/artwork-generated/batch-1179/variants/werewolf/B.png",
+  "native_sha256": "df9d5d6b6bca1f76a6c24ea539d03a9b8a9befa5cef805706ad8f0a3f3c6961c",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of werewolf.\nANATOMY: A human transformed wholly into a normal anatomical wolf: one wolf head, exactly four canine legs, two ordinary wolf ears, one wolf tail; brown-grey fur, no humanoid hands or hybrid anatomy [werewolf-c01, werewolf-c04, werewolf-c10]\nMOMENT: The full wolf leaps down from a roadside bank, claws/paws and one tail clearly visible, forward determined eyes, dusk light outlining natural fur.\nPOWER: Transformed wolf runs; no visible transformation beam or moon-trigger. Physical paws scatter roadside dirt [werewolf-c04, werewolf-c10]\nSCALE & CAMERA: extreme low angle, subject dominant at 200px; tight imposing frame but full identifying attributes readable; source scale only, not an invented giant.\nLIGHT & WEATHER: one strong natural sunset or moon key light, antique gold and dark walnut shadows, tangible physical dust or spray only.\nSURFACE: tactile fur or feathers, aged metal, rough stone, fully opaque woven clothing wherever humanoid.\nSETTING: Rural road at dusk, editorial staging of Niceros soldier running away after change [werewolf-c04, werewolf-c14]\nMOOD: overwhelming active mythological presence, solemn courage for divine subjects, never cute, ordinary passive person or decorative statue.\nHARD CONSTRAINTS: no letters, writing, pseudo-glyphs, signs, symbols resembling script on ANY surfaces; NO logo/signature/border/watermark; no borrowed film/game/comic/anime design; no extra anatomy. Full opaque torso covering for humanoids, no nudity or sexualization, no gore, blood, harmed people or victims. No generic aura, neon outlines, runes, energy ribbons or ungrounded magic. Cloth and jewelry plain and unmarked. No full-moon transformation trope, no gore/attack/prey, no anthropomorphic movie werewolf, no gigantic size or extra canine limbs.",
+  "candidate_variant": "B",
+  "depicted_variant": "Werewolf, wholly wolf-shaped Niceros-type folklore form",
+  "basis_claim_ids": [
+    "werewolf-c01",
+    "werewolf-c04",
+    "werewolf-c10",
+    "werewolf-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "A human transformed wholly into a normal anatomical wolf: one wolf head, exactly four canine legs, two ordinary wolf ears, one wolf tail; brown-grey fur, no humanoid hands or hybrid anatomy",
+      "claim_ids": [
+        "werewolf-c01",
+        "werewolf-c04",
+        "werewolf-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Transformed wolf runs; no visible transformation beam or moon-trigger. Physical paws scatter roadside dirt",
+      "claim_ids": [
+        "werewolf-c04",
+        "werewolf-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rural road at dusk, editorial staging of Niceros soldier running away after change",
+      "claim_ids": [
+        "werewolf-c04",
+        "werewolf-c14"
+      ]
+    }
+  ],
+  "source_ids": [
+    "werewolf-s1"
+  ],
+  "source_claims": [
+    {
+      "id": "werewolf-c01",
+      "source_id": "werewolf-s1",
+      "quote": "Widespread consensus indicates a werewolf is a man, woman, or child who changes shape into that of a wolf, either voluntarily or involuntarily.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Werewolf adalah manusia yang berubah menjadi serigala, secara sukarela atau tidak.",
+        "en": "A werewolf is a human who changes into a wolf voluntarily or involuntarily."
+      }
+    },
+    {
+      "id": "werewolf-c04",
+      "source_id": "werewolf-s1",
+      "quote": "The soldier turned into a wolf before Niceros’ eyes, then ran off.",
+      "locator": "The Satyricon",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam kisah Satyricon, seorang prajurit berubah menjadi serigala di depan Niceros.",
+        "en": "In the Satyricon story, a soldier transformed into a wolf before Niceros."
+      }
+    },
+    {
+      "id": "werewolf-c10",
+      "source_id": "werewolf-s1",
+      "quote": "The change is most often temporary, but can sometimes be permanent. They appear to themselves and to others as wolves, in both shape and behavior.",
+      "locator": "Werewolves (blog post)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut sumber ini, werewolf tampak sebagai serigala bagi dirinya sendiri maupun orang lain, baik dalam wujud maupun perilaku.",
+        "en": "According to this source, werewolves appear as wolves both to themselves and to others, in shape and in behavior."
+      }
+    },
+    {
+      "id": "werewolf-c14",
+      "source_id": "werewolf-s1",
+      "quote": "In The Satyricon of Patronius, Niceros tells a tale of travelling the road with a brave friend who was a soldier. ... Upon arrival at his destination, Niceros was told that a wolf had recently killed all the sheep, and been speared through the neck. At home the next day, Niceros found his friend in bed, with a doctor tending a neck wound.",
+      "locator": "Werewolves (blog post)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam kisah Satyricon, Niceros mendengar bahwa seekor serigala baru saja membunuh semua domba dan ditombak di leher; keesokan harinya ia menemukan temannya di tempat tidur, lehernya sedang dirawat dokter.",
+        "en": "In the Satyricon story Niceros heard that a wolf had killed all the sheep and been speared through the neck; the next day he found his friend in bed with a doctor tending a neck wound."
+      }
+    }
+  ],
+  "aura": "Documented transformed wolf in physical motion c04/c10; no moon-trigger or magic light",
+  "artistic_choices": [
+    "Camera, warm color palette, fully opaque wardrobe and detailed surface are editorial, without extra powers.",
+    "No full-moon transformation trope, no gore/attack/prey, no anthropomorphic movie werewolf, no gigantic size or extra canine limbs."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-01.png",
+      "native_sha256": "5e23e5ad8911b66ff3e6601dc454c26efedc3ca4bdf0d7965f3a6ed2277bba74",
+      "reason": "Correct wholly wolf-shaped anatomy, but dominant subject still reads as an ordinary wolf rather than supernatural or distinctly imposing werewolf. Abandoned cloak is insufficient transformation evidence; fails Sangar7.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-01.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-02.png",
+      "native_sha256": "df9d5d6b6bca1f76a6c24ea539d03a9b8a9befa5cef805706ad8f0a3f3c6961c",
+      "reason": "Correct wolf form but calm closed muzzle and ordinary wolf imagery fail Sangar2/7. Background fleeing soldier cannot make the main subject clearly mythological; no invented source anatomy accepted.",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-02.json"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "fail",
+    "notes": "Correct wolf form but calm closed muzzle and ordinary wolf imagery fail Sangar2/7. Background fleeing soldier cannot make the main subject clearly mythological; no invented source anatomy accepted.",
+    "limitations": [
+      "Correct wolf form but calm closed muzzle and ordinary wolf imagery fail Sangar2/7. Background fleeing soldier cannot make the main subject clearly mythological; no invented source anatomy accepted."
+    ],
+    "native_sha256": "df9d5d6b6bca1f76a6c24ea539d03a9b8a9befa5cef805706ad8f0a3f3c6961c",
+    "reviewed_at": "2026-10-08T10:51:30.501735+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selection_status": "not-selected",
+  "selection_reason": "Root Codex selected A after comparing both native PNGs: Corrected attempt03 (C, retained separately and placed in A slot) uses the explicitly documented hybrid c43, fully clothed and lunging with clawed hands. Initial wholly wolf-shaped A/B failed Sangar as ordinary wolves; both remain archived. Generic roadside setting is editorial, not a hybrid claim about Niceros.",
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp."
+}

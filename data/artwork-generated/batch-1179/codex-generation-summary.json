@@ -1,0 +1,536 @@
+{
+  "batch": 1179,
+  "target": 50,
+  "awaiting": [
+    "werewolf",
+    "phoenix",
+    "anubis",
+    "mermaid",
+    "thor",
+    "sphinx",
+    "vampire",
+    "kali",
+    "ra-q1252904",
+    "ganesha",
+    "pegasus",
+    "asclepius",
+    "odin",
+    "osiris",
+    "parvati",
+    "hades",
+    "hephaestus",
+    "diana",
+    "dionysus",
+    "durga",
+    "fairy",
+    "mars",
+    "heracles",
+    "hermes",
+    "indra",
+    "isis",
+    "gaia",
+    "horus",
+    "prometheus",
+    "amun",
+    "demon",
+    "eros",
+    "hanuman",
+    "jinn",
+    "jupiter",
+    "mercury",
+    "saturn",
+    "yeti",
+    "ares",
+    "atlas",
+    "juno",
+    "lakshmi",
+    "neptune",
+    "uranus",
+    "saraswati",
+    "aten",
+    "cronus",
+    "demeter",
+    "hestia",
+    "persephone"
+  ],
+  "declined": [],
+  "pending": [],
+  "errors": [],
+  "warnings": [],
+  "selected_pngs": 50,
+  "variant_pngs": 100,
+  "rejected_refs": 23,
+  "tool_failures": [
+    {
+      "slug": "vampire",
+      "variant": "B",
+      "attempt": 2,
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of a European folkloric vampire, undead grave-returning blood drinker.\nANATOMY: one head, two eyes, two arms two legs, distinctly bloated plump human corpse with dark ruddy purple skin, healthier flesh not skeletal, slightly overgrown hair and nails, ordinary somewhat grown teeth NOT FANGS. Fully opaque dirty linen burial shroud wraps torso and legs [vampire-c01,c07,c08,c09].\nPOWER: emerge from the grave at night to hunt the living, no magic effects [vampire-c02].\nSCALE & CAMERA: tight predatory low-angle framing, no giant size, head and swollen face dominate.\nLIGHT & WEATHER: single strong pale moon rim, black-brown shadows and airborne loose grave dirt, no supernatural glow.\nSURFACE: coarse wet linen, earth-crusted fingers, ruddy swollen cheeks, wet soil.\nSETTING: open earthen grave at night, stones entirely blank [vampire-c02].\nMOOD: disturbing dangerous hungry revenant, never suave, cute, calm or ordinary.\nHARD CONSTRAINTS: no lettering/pseudo-glyphs on ANYTHING, no text/signatures/logo/border/watermark, no blood or gore, no extra anatomy, no fangs, no movie/game/comic designs, no tuxedo/cape, no aura/neon/ribbons.\nMOMENT: The vampire rises sideways from a broken coffin in the earthen grave, bracing one hand on wood and reaching with the other toward viewer, broad ruddy face in three-quarter close-up, shroud twists with weight, mouth open in predatory grimace. Strong diagonal composition.",
+      "status": "tool-rejected",
+      "code": "moderation_blocked",
+      "reason": "Output-stage safety_violations=[violence]",
+      "request_id": "32a4cfc2-fcfc-4fc8-95ca-9a0788fec6db",
+      "generated_at": "2026-10-08T06:56:38.187159+00:00",
+      "image_file": null
+    },
+    {
+      "slug": "ares",
+      "variant": "A",
+      "attempt": 1,
+      "tool": "OpenAI built-in image_gen",
+      "image_model": "tidak dilaporkan alat",
+      "generated_at": "2026-10-08T06:57:32.899098+00:00",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Ares.\nANATOMY: mature bearded warrior, one head, two arms and legs, complete opaque bronze armor, peaked golden warrior helmet, spear and shield [ares-c03, ares-c07, ares-c26, ares-c42]\nMOMENT: Drive a spear past the lens from behind a huge battered shield, teeth clenched in a battle shout.\nPOWER: No supernatural light; physical spear strike chips battlefield stone and dust rises from battle [ares-c10, ares-c42]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: ancient battlefield with broken shields, physical warfare domain [ares-c10, ares-c44]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+      "status": "generation-failed",
+      "http_status": 400,
+      "error_code": "moderation_blocked",
+      "moderation_stage": "output",
+      "categories": [
+        "violence"
+      ],
+      "request_id": "82cb3db7-0fca-4b2d-ab40-d50924bf3a5f",
+      "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 82cb3db7-0fca-4b2d-ab40-d50924bf3a5f. safety_violations=[violence].",
+      "png_produced": false
+    }
+  ],
+  "status": "pass",
+  "active_artwork": 1129,
+  "independent_review": "pending Claude",
+  "validated_at": "2026-10-08T11:03:07.828739+00:00",
+  "native_attempt_counts": {
+    "werewolf": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "phoenix": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "anubis": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "mermaid": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "thor": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "sphinx": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "vampire": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 1,
+      "evidenced_calls": 3
+    },
+    "kali": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "ra-q1252904": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "ganesha": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "pegasus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "asclepius": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "odin": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "osiris": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "parvati": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "hades": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "hephaestus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "diana": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "dionysus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "durga": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "fairy": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "mars": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "heracles": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "hermes": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "indra": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "isis": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "gaia": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "horus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "prometheus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "amun": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "demon": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "eros": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "hanuman": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "jinn": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "jupiter": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "mercury": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "saturn": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "yeti": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "ares": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 1,
+      "evidenced_calls": 3
+    },
+    "atlas": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "juno": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "lakshmi": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "neptune": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "uranus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "saraswati": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "aten": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "cronus": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "demeter": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    },
+    "hestia": {
+      "distinct_native_pngs": 3,
+      "tool_rejections": 0,
+      "evidenced_calls": 3
+    },
+    "persephone": {
+      "distinct_native_pngs": 2,
+      "tool_rejections": 0,
+      "evidenced_calls": 2
+    }
+  },
+  "total_distinct_native_pngs": 109,
+  "total_evidenced_calls": 111,
+  "rejected_attempts": [
+    {
+      "slug": "amun",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/amun-attempt-01.json",
+      "native_sha256": "86d8734ad6a8cd64e173c0e630d6c7245e9834862c64ab584a489076d69f7a03",
+      "reason": "FAIL: dense glyph-like embroidered ornament bands on robe/sash violate no pseudo glyph constraint. Anatomy/action otherwise correct. Retry entirely plain unembroidered linen and smooth jewelry."
+    },
+    {
+      "slug": "amun",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/amun-attempt-02.json",
+      "native_sha256": "2231cfbf17c4528e439c2c6e7d211a138bf44d7adb474fca478ad22dfdb88f19",
+      "reason": "FAIL: dense glyph-like embroidered ornament bands on robe/sash violate no pseudo glyph constraint. Anatomy/action otherwise correct. Retry entirely plain unembroidered linen and smooth jewelry."
+    },
+    {
+      "slug": "aten",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/aten-attempt-01.json",
+      "native_sha256": "bc6ef6eeb71604e4de15be067b07cd8b617a58d6ac98b6e1dd954b03405d4738",
+      "reason": "Four hand-ended rays are thick curved ribbon-like bands, contrary the prepared straight light-ray interpretation and no-energy-ribbon direction. A has nine straight ray-hand connections and clearer source iconography; B not selected."
+    },
+    {
+      "slug": "demon",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/demon-attempt-01.json",
+      "native_sha256": "73400aab2def3fbc303b60e4bcbb1fee0d6562e8fac8eedafceaef6cd65524b8",
+      "reason": "Left horn tip is cut off by the native frame, failing complete readable distinguishing anatomy. Two wings and one pointed tail otherwise sourced c44; B shows both horns fully."
+    },
+    {
+      "slug": "durga",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-01.json",
+      "native_sha256": "f6714d78cecf35a80e69d50a764d452485d7b53a1d76ea9d0ffd5988ac153e04",
+      "reason": "Floating duplicate mace disconnected from all hands; ungrounded physical artifact."
+    },
+    {
+      "slug": "durga",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/durga-attempt-02.json",
+      "native_sha256": "5d5b44c7b7e94f71f13bdc50e17b8a71300fcea4ca66bee8f1b30a457498a124",
+      "reason": "Eleven arms instead of exactly ten: two foreground arms grip trident plus nine other visible arms."
+    },
+    {
+      "slug": "fairy",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/fairy-attempt-01.json",
+      "native_sha256": "53a77a2044092201f5a574e69588091250d296c145064cdbab82f6f97ddc9bd9",
+      "reason": "Pointed ears are not explicitly documented in embedded small wizened male house fairy claims."
+    },
+    {
+      "slug": "fairy",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/fairy-attempt-02.json",
+      "native_sha256": "467618fd0c327234253508fc56fee05eb202e7549561f5ab24de8a564186cba1",
+      "reason": "Pointed ears are not explicitly documented in embedded small wizened male house fairy claims."
+    },
+    {
+      "slug": "gaia",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/gaia-attempt-01.json",
+      "native_sha256": "e480f99a91c26851d9060d7572a6568e992bcf25f23ea27b2505c08348463209",
+      "reason": "Native image makes the flint attribute read as a two-handled stone bow rather than a sickle, with a handle at each end; fails readable documented attribute check. A has clearly recognizable single sickle and stronger ground-contact action."
+    },
+    {
+      "slug": "ganesha",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-01.json",
+      "native_sha256": "1f5c0ba15d26fe77fa4cdd75c786fc9639f6ce52b3b46ddeffe862807a67aaca",
+      "reason": "Bare chest despite fully opaque robes; unsupported forehead symbol resembles writing. Retry requires fully covered torso and entirely unmarked forehead."
+    },
+    {
+      "slug": "ganesha",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ganesha-attempt-03.json",
+      "native_sha256": "3d9d8a1058b6af9321fb797ceb6025831408aef1690e3eca8a907392c54c75a1",
+      "reason": "Lower right attribute missing: empty hand presses stone; broken tusk placed in lower left sweet hand, violating ganesha-c07 anatomical attribute distribution."
+    },
+    {
+      "slug": "hestia",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/hestia-attempt-02.json",
+      "native_sha256": "dc30e553a8d4042f8d72eaee37eb658e876d2341f775e133f01972d5de5b53ba",
+      "reason": "Fails Sangar7: ordinary woman carrying kettle over fire; too little sacred imposing authority. Retry targeted towering sacrificial hearth fire and fiercely resolute expression."
+    },
+    {
+      "slug": "horus",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/horus-attempt-01.json",
+      "native_sha256": "24f90b218bf2c8021b4841874f257b8b382bb21bb35ff441897bc4d816cbefbd",
+      "reason": "White crown tip and solar disk cropped."
+    },
+    {
+      "slug": "isis",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-01.json",
+      "native_sha256": "d30492f92a71a6c4c7244e72d215e8607e1213386efe3d2c77798cbae9beb02f",
+      "reason": "Horned sun-disc crown is unsupported by explicit embedded claims; cannot certify iconography."
+    },
+    {
+      "slug": "isis",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/isis-attempt-02.json",
+      "native_sha256": "32afc0350291a7484b00914e16fdc8d3d23fcfe1b5d91d6d1cd6147c70065ead",
+      "reason": "Horned sun-disc crown is unsupported by explicit embedded claims; cannot certify iconography."
+    },
+    {
+      "slug": "mars",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/mars-attempt-01.json",
+      "native_sha256": "fb47630c819bc052216105c594e3a6480dd55e365c8b41160a69d2c800ff2571",
+      "reason": "Helmet is an ordinary Roman legionary style, rather than the documented Corinthian mask tipped back above the face (c09). Mars reads too much like an ordinary soldier; fails distinguishing-attribute Sangar5/7."
+    },
+    {
+      "slug": "mars",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/mars-attempt-02.json",
+      "native_sha256": "3154a237b03c3bba1f15e91cd9333b1dab0a5bb1b9c4a0228dbc7d5c7eea9673",
+      "reason": "Helmet reduces to a crest/headband with no readable Corinthian eye openings and nose guard tipped back as c09 requires. Pose is active but looks like an ordinary soldier; fails identifying attribute Sangar5/7."
+    },
+    {
+      "slug": "ra-q1252904",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ra-q1252904-attempt-01.json",
+      "native_sha256": "000c26f00e1236f1f27360295bee9054114920ffef5a7abfd0fe83b84f1466c9",
+      "reason": "FAIL: sun disk top cropped, contrary complete disk requirement; ornament bands include dense pseudo glyphs, B barque prow explicitly resembles hieroglyphic writing. Need plain cloth and vessel and smaller complete disk."
+    },
+    {
+      "slug": "ra-q1252904",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/ra-q1252904-attempt-02.json",
+      "native_sha256": "71996c33b5ad0dc00151d61f0fb52868ad14abbff0f2a3b6da33239509f24dbe",
+      "reason": "FAIL: sun disk top cropped, contrary complete disk requirement; ornament bands include dense pseudo glyphs, B barque prow explicitly resembles hieroglyphic writing. Need plain cloth and vessel and smaller complete disk."
+    },
+    {
+      "slug": "sphinx",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/sphinx-attempt-01.json",
+      "native_sha256": "54e93bc88c0d03e662044efb131a2224f489019a769891135db193f423ff0f21",
+      "reason": "Root melihat PNG native: bentuk Sphinx sah, tetapi pylon dan obelisk Mesir keliru untuk Thebes Yunani dalam versi Apollodorus. Kandidat tidak dipilih karena inkonsistensi budaya/lokasi."
+    },
+    {
+      "slug": "vampire",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/vampire-attempt-03.json",
+      "native_sha256": "b43e65f803d8e09a0a12ae19bd46b902e8c59e695f3ca7e6efc395d085f65097",
+      "reason": "Fails Sangar 2 and 7: ordinary plump man sitting calmly in linen; burial context is clear but no imposing supernatural menace. Three-call cap exhausted; no retry."
+    },
+    {
+      "slug": "werewolf",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-01.json",
+      "native_sha256": "5e23e5ad8911b66ff3e6601dc454c26efedc3ca4bdf0d7965f3a6ed2277bba74",
+      "reason": "Correct wholly wolf-shaped anatomy, but dominant subject still reads as an ordinary wolf rather than supernatural or distinctly imposing werewolf. Abandoned cloak is insufficient transformation evidence; fails Sangar7."
+    },
+    {
+      "slug": "werewolf",
+      "receipt_file": "data/artwork-generated/batch-1179/rejected/werewolf-attempt-02.json",
+      "native_sha256": "df9d5d6b6bca1f76a6c24ea539d03a9b8a9befa5cef805706ad8f0a3f3c6961c",
+      "reason": "Correct wolf form but calm closed muzzle and ordinary wolf imagery fail Sangar2/7. Background fleeing soldier cannot make the main subject clearly mythological; no invented source anatomy accepted."
+    }
+  ],
+  "selected_workers": {
+    "root": 14,
+    "lane_1179_c": 8,
+    "lane_1179_a": 17,
+    "lane_1179_b": 11
+  },
+  "selected_dimensions": {
+    "(1254, 1254)": 50
+  },
+  "agent_execution_failures": [
+    {
+      "worker_agent": "lane_1179_a",
+      "message": "Your workspace is out of credits. Add credits to continue.",
+      "classification": "sub-agent execution failure; main agent recovered outputs and completed generation"
+    },
+    {
+      "worker_agent": "lane_1179_b",
+      "message": "Your workspace is out of credits. Add credits to continue.",
+      "classification": "sub-agent execution failure; main agent recovered outputs and completed generation"
+    },
+    {
+      "worker_agent": "lane_1179_c",
+      "message": "Your workspace is out of credits. Add credits to continue.",
+      "classification": "sub-agent execution failure; main agent recovered outputs and completed generation"
+    }
+  ],
+  "image_model": "tidak dilaporkan alat",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "status": "pass",
+    "inspected_selected": 50,
+    "rendered_size": [
+      200,
+      200
+    ],
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ],
+    "notes": "Browser sheets inspected visually at original screenshot size; this is main-agent self-review, independent Claude review still pending."
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "asclepius",
+  "worker": "codex",
+  "worker_agent": "root",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-036.review.json",
+  "batch": 1179,
+  "rationale": "Every illustration must feel 'sangar': dangerous, imposing or awe-inspiring, with the being as the undeniable subject. The owner rejected earlier images that read as an ordinary person, an ordinary animal, an empty landscape, or a calm, cute or decorative portrait. Those outcomes are failures regardless of technical quality.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-74fef0e7-1019-4408-bd11-5aa9952dc85a.png",
+  "generated_at": "2026-10-08T10:36:52.120842+00:00",
+  "original_file": "data/artwork-generated/batch-1179/originals/asclepius.png",
+  "native_sha256": "89be372b9acb710690f95a56565935d3b813cac26c32864891e0f3356e4395aa",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of Asclepius, divine healer with snake staff.\nANATOMY: one kindly bearded male head,two arms; opaque long himation covering chest; one club-like staff with exactly one snake coiled around it [asclepius-c08, asclepius-c23, asclepius-c29]\nMOMENT: Three-quarter stride pulling reclining clothed patient up by forearm, snake staff vertical, snake head clear by beard, god fills frame\nPOWER: restore dead to life shown by clothed patient opening eyes and raising hand, no healing glow [asclepius-c13, asclepius-c28]\nSCALE & CAMERA: extreme low camera; tight framing and strong foreshortening; subject fills most of square, no invented giant size.\nLIGHT & WEATHER: one warm sanctuary oil fire in night; high contrast rim light and deep shadows.\nSURFACE: tangible skin or fur, weathered opaque cloth and stone; dark walnut and antique gold palette with one accent.\nSETTING: columned Epidaurus healing sanctuary [asclepius-c06, asclepius-c07]\nMOOD: overwhelming imposing majesty and determined expression, active awe inspiring presence, never ordinary or decorative; respectful living religious deity if applicable.\nHARD CONSTRAINTS: no text anywhere including clothes and stones, NO pseudo glyphs, painted forehead symbols, lettering, signature, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; fully opaque clothing covering the whole torso whenever clothed, no nudity, no explicit gore, no generic glow aura, neon outline, energy ribbons or runes. Entire head and attributes remain in frame. Cloth ornaments only plain weaving or geometric patterns, no writing.",
+  "candidate_variant": "B",
+  "depicted_variant": "Documented form, physical action and attributes; compositions A and B.",
+  "basis_claim_ids": [
+    "asclepius-c08",
+    "asclepius-c23",
+    "asclepius-c29",
+    "asclepius-c13",
+    "asclepius-c28",
+    "asclepius-c06",
+    "asclepius-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "one kindly bearded male head,two arms; opaque long himation covering chest; one club-like staff with exactly one snake coiled around it",
+      "claim_ids": [
+        "asclepius-c08",
+        "asclepius-c23",
+        "asclepius-c29"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "restore dead to life shown by clothed patient opening eyes and raising hand, no healing glow",
+      "claim_ids": [
+        "asclepius-c13",
+        "asclepius-c28"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "columned Epidaurus healing sanctuary",
+      "claim_ids": [
+        "asclepius-c06",
+        "asclepius-c07"
+      ]
+    }
+  ],
+  "source_ids": [
+    "asclepius-s1",
+    "asclepius-s3",
+    "asclepius-s2"
+  ],
+  "source_claims": [
+    {
+      "id": "asclepius-c08",
+      "source_id": "asclepius-s1",
+      "quote": "Almost always, the god has a full beard, wears a simple himation robe, and holds a staff (the bakteria) with a sacred snake coiled around it, which has become the modern symbol of medicine.",
+      "locator": "Asclepius In Art",
+      "context": "historical-record",
+      "statement": {
+        "id": "Asclepius digambarkan berjanggut dengan tongkat berlilit ular, lambang pengobatan modern.",
+        "en": "Asclepius is depicted bearded with a snake-entwined staff, a modern medical symbol."
+      }
+    },
+    {
+      "id": "asclepius-c23",
+      "source_id": "asclepius-s3",
+      "quote": "Asklepios was depicted as a kindly, bearded man holding a serpent-entwined staff.",
+      "locator": "Asklepios",
+      "context": "historical-record",
+      "statement": {
+        "id": "Asklepios digambarkan sebagai lelaki ramah berjanggut yang memegang tongkat berlilit ular.",
+        "en": "Asklepios was depicted as a kindly, bearded man holding a serpent-entwined staff."
+      }
+    },
+    {
+      "id": "asclepius-c29",
+      "source_id": "asclepius-s2",
+      "quote": "He is commonly represented standing, dressed in a long cloak, with bare breast; his usual attribute is a club-like staff with a serpent (the symbol of renovation) coiled round it. He is often accompanied by Telesphorus, the boy genius of healing, and his daughter Hygieia, the goddess of health.",
+      "locator": "Aesculapius",
+      "context": "historical-record",
+      "statement": {
+        "id": "Ia biasanya digambarkan berdiri berjubah panjang berdada terbuka dengan atribut tongkat bak gada berlilit ular (lambang pembaruan); ia sering ditemani Telesphorus, anak jenius penyembuhan, dan putrinya Hygieia, dewi kesehatan.",
+        "en": "He is commonly shown standing in a long cloak with bare breast, with a club-like staff coiled by a serpent (symbol of renovation) as his usual attribute; he is often accompanied by Telesphorus, the boy genius of healing, and his daughter Hygieia, goddess of health."
+      }
+    },
+    {
+      "id": "asclepius-c13",
+      "source_id": "asclepius-s3",
+      "quote": "He grew so skilled in the craft that he was able to restore the dead to life. This was a crime against the natural order and so Zeus destroyed him with a thunderbolt.",
+      "locator": "Asklepios",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia begitu terampil sehingga mampu menghidupkan orang mati; ini kejahatan terhadap tatanan alam sehingga Zeus menghancurkannya dengan petir.",
+        "en": "He grew so skilled that he could restore the dead to life; this was a crime against the natural order, so Zeus destroyed him with a thunderbolt."
+      }
+    },
+    {
+      "id": "asclepius-c28",
+      "source_id": "asclepius-s2",
+      "quote": "His skill in curing disease and restoring the dead to life aroused the anger of Zeus, who, being afraid that he might render all men immortal, slew him with a thunderbolt",
+      "locator": "Aesculapius",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Keahliannya menyembuhkan penyakit dan menghidupkan orang mati membangkitkan murka Zeus, yang takut ia akan membuat semua manusia abadi, lalu membunuhnya dengan petir.",
+        "en": "His skill in curing disease and restoring the dead to life aroused Zeus's anger; fearing he might make all men immortal, Zeus slew him with a thunderbolt."
+      }
+    },
+    {
+      "id": "asclepius-c06",
+      "source_id": "asclepius-s1",
+      "quote": "The god was particularly worshipped at the sanctuary of Epidaurus (founded in the 6th century BCE), known as the Asklepieion",
+      "locator": "Epidaurus",
+      "context": "historical-record",
+      "statement": {
+        "id": "Asclepius terutama dipuja di tempat suci Epidaurus.",
+        "en": "Asclepius was especially worshipped at Epidaurus."
+      }
+    },
+    {
+      "id": "asclepius-c07",
+      "source_id": "asclepius-s1",
+      "quote": "At Epidaurus, there was also the columned Abato or Enkoimeterion in which patients, after having gone through several purification rituals, slept overnight and awaited dreams where the god would appear and offer cures and remedies.",
+      "locator": "Epidaurus",
+      "context": "historical-record",
+      "statement": {
+        "id": "Di Epidaurus, pasien tidur menunggu mimpi tentang pengobatan dari dewa.",
+        "en": "At Epidaurus, patients slept awaiting dreams offering cures from the god."
+      }
+    }
+  ],
+  "aura": "Kesan kuasa dari aksi fisik/atribut: restore dead to life shown by clothed patient opening eyes and raising hand, no healing glow (asclepius-c13, asclepius-c28), bukan aura generik.",
+  "artistic_choices": [
+    "Framing, foreshortening, warna dan pakaian buram adalah pilihan editorial; tidak menambah anatomi atau kekuatan.",
+    "Patient subordinate; restoration through physical wakefulness, not aura.",
+    "Root Codex viewed both native compositions and selected variant B: B shows the revived patient actively reaching up as Asclepius pulls him from death; single serpent-staff readable, compassionate but imposing. A passes yet patient response is less forceful."
+  ],
+  "generation_failures": [],
+  "rejected_attempts": [],
+  "visual_review": {
+    "reviewer": "codex",
+    "verdict": "pass",
+    "notes": "B shows the revived patient actively reaching up as Asclepius pulls him from death; single serpent-staff readable, compassionate but imposing. A passes yet patient response is less forceful. All seven Sangar checks and anatomy checked against native PNG; this is Codex self-review, independent Claude review pending. Also inspected at exact 200x200 pixels in the final 50-image browser sheets; subject and distinguishing attributes remain imposing and readable.",
+    "limitations": [],
+    "native_sha256": "89be372b9acb710690f95a56565935d3b813cac26c32864891e0f3356e4395aa",
+    "reviewed_at": "2026-10-08T10:42:50.431076+00:00"
+  },
+  "subagent_model": null,
+  "subagent_reasoning_effort": null,
+  "generation_agent_note": "Generated directly by the main Codex agent after the three sub-agents stopped; no sub-agent model claimed.",
+  "selected_variant": "B",
+  "selection_reason": "B shows the revived patient actively reaching up as Asclepius pulls him from death; single serpent-staff readable, compassionate but imposing. A passes yet patient response is less forceful.",
+  "selected_at": "2026-10-08T10:42:50.431076+00:00",
+  "variants": [
+    {
+      "variant": "A",
+      "original_file": "data/artwork-generated/batch-1179/variants/asclepius/A.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/asclepius/A.json",
+      "native_sha256": "63e6cdd91aaac59295eeed71eb87a264c95089d7db1ec39f2f8dfb02d83096bc",
+      "selected": false
+    },
+    {
+      "variant": "B",
+      "original_file": "data/artwork-generated/batch-1179/variants/asclepius/B.png",
+      "receipt_file": "data/artwork-generated/batch-1179/variants/asclepius/B.json",
+      "native_sha256": "89be372b9acb710690f95a56565935d3b813cac26c32864891e0f3356e4395aa",
+      "selected": true
+    }
+  ],
+  "generated_at_basis": "Native output file modification time; tool did not expose generation timestamp.",
+  "small_scale_self_review": {
+    "reviewer": "codex",
+    "width": 200,
+    "height": 200,
+    "verdict": "pass",
+    "reviewed_at": "2026-10-08T11:06:53.352742+00:00",
+    "proof_files": [
+      "tmp/codex-nama-besar-20261008/qc-200-1.png",
+      "tmp/codex-nama-besar-20261008/qc-200-2.png"
+    ]
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T19:15:31.736200+07:00",
+    "native_sha256": "89be372b9acb710690f95a56565935d3b813cac26c32864891e0f3356e4395aa",
+    "notes": "Bearded Asclepius in opaque himation with a single-snake staff raising a waking patient by the arm in a columned sanctuary; awe through low camera, no glow."
+  }
+}

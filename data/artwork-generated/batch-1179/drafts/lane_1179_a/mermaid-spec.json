@@ -1,0 +1,96 @@
+{
+  "slug": "mermaid",
+  "batch": 1179,
+  "basis_claim_ids": [
+    "mermaid-c01",
+    "mermaid-c23",
+    "mermaid-c24",
+    "mermaid-c25"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "beautiful adult woman upper body, one head, two arms, one long fish tail below waist and no human legs, long golden hair, fully opaque dark woven bodice",
+      "claim_ids": [
+        "mermaid-c01",
+        "mermaid-c23",
+        "mermaid-c24"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No claimed storm control: rough waves and incoming storm are environmental omen, tail physically throws sea spray",
+      "claim_ids": [
+        "mermaid-c25"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "sea surface beside wet coastal rocks",
+      "claim_ids": [
+        "mermaid-c01",
+        "mermaid-c24"
+      ]
+    }
+  ],
+  "source_claims": [
+    {
+      "id": "mermaid-c01",
+      "source_id": "mermaid-s1",
+      "quote": "A mermaid is a mythical sea-dwelling creature, often described as having the head and body of a woman and a fish's tail below the waist.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Putri duyung adalah makhluk laut mitis berkepala dan bertubuh atas perempuan serta berekor ikan.",
+        "en": "A mermaid is a mythical sea being with a woman's upper body and a fish tail."
+      }
+    },
+    {
+      "id": "mermaid-c23",
+      "source_id": "mermaid-s4",
+      "quote": "The Havfrue, or Mermaid, is represented in the popular tradition sometimes as a good, at other times as an evil and treacherous being. She is beautiful in her appearance.",
+      "locator": "Denmark (Scandinavian section)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Havfrue, atau putri duyung, dalam tradisi rakyat digambarkan kadang sebagai makhluk baik dan kadang sebagai makhluk jahat dan licik; ia cantik rupanya.",
+        "en": "The Havfrue, or Mermaid, is represented in popular tradition sometimes as good, at other times as an evil and treacherous being; she is beautiful in her appearance."
+      }
+    },
+    {
+      "id": "mermaid-c24",
+      "source_id": "mermaid-s4",
+      "quote": "Fishermen sometimes see her in the bright summer's sun, when a thin mist hangs over the sea, sitting on the surface of the water, and combing her long golden hair with a golden comb, or driving up her snow-white cattle",
+      "locator": "Denmark (Scandinavian section)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nelayan kadang melihatnya di bawah matahari musim panas, duduk di permukaan air menyisir rambut emas panjangnya dengan sisir emas, atau menggiring ternak putih saljunya.",
+        "en": "Fishermen sometimes see her in the bright summer sun, sitting on the surface of the water combing her long golden hair with a golden comb, or driving up her snow-white cattle."
+      }
+    },
+    {
+      "id": "mermaid-c25",
+      "source_id": "mermaid-s4",
+      "quote": "Her appearance prognosticates both storm and ill success in their fishing. People that are drowned, and whose bodies are not found, are believed to be taken into the dwellings of the Mermaids.",
+      "locator": "Denmark (Scandinavian section)",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kemunculannya menandakan badai dan kegagalan menangkap ikan; orang yang tenggelam dan jasadnya tidak ditemukan dipercaya dibawa ke tempat tinggal para putri duyung.",
+        "en": "Her appearance prognosticates both storm and ill success in fishing; drowned people whose bodies are not found are believed to be taken into the dwellings of the Mermaids."
+      }
+    }
+  ],
+  "source_ids": [
+    "mermaid-s1",
+    "mermaid-s4"
+  ],
+  "artistic_choices": [
+    "Palette, camera, age details, opaque clothing embellishment and unspecific staging are editorial choices, not additional source facts.",
+    "Dominance through close framing and foreshortening unless source documents scale.",
+    "No outward power added beyond documented domain; weather, light and debris remain physically grounded."
+  ],
+  "prompts": {
+    "A": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Mermaid, Havfrue variant.\nANATOMY: beautiful adult woman upper body, one head, two arms, one long fish tail below waist and no human legs, long golden hair, fully opaque dark woven bodice [mermaid-c01, mermaid-c23, mermaid-c24]\nMOMENT: Surge from the dark water toward the lens with an unsettling commanding gaze, forearms braced on rock, sweeping fish tail readable in foreground.\nPOWER: No claimed storm control: rough waves and incoming storm are environmental omen, tail physically throws sea spray [mermaid-c25]\nSCALE & CAMERA: extreme low angle; confrontational tight three-quarter close composition, subject fills at least 80 percent of frame. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: sea surface beside wet coastal rocks [mermaid-c01, mermaid-c24]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image.",
+    "B": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of Mermaid, Havfrue variant.\nANATOMY: beautiful adult woman upper body, one head, two arms, one long fish tail below waist and no human legs, long golden hair, fully opaque dark woven bodice [mermaid-c01, mermaid-c23, mermaid-c24]\nMOMENT: Twist her whole long scaled tail around a wet sea rock while pulling herself from a breaking wave, body dominates and tail fully readable.\nPOWER: No claimed storm control: rough waves and incoming storm are environmental omen, tail physically throws sea spray [mermaid-c25]\nSCALE & CAMERA: extreme low angle; physical action with fuller body composition, subject fills at least 75 percent of frame; all distinguishing limbs readable. Natural source scale, no invented giant size.\nLIGHT & WEATHER: one dominant natural storm opening or fire/moon light source in deep walnut and antique-gold palette; strong rim light, deep shadow, physically grounded dust or spray.\nSURFACE: tactile weathered cloth, aged metal, living skin, feathers or scales as applicable.\nSETTING: sea surface beside wet coastal rocks [mermaid-c01, mermaid-c24]\nMOOD: overwhelming, imposing, active, dignified where divine; never cute, placid or decorative. Original mythology art, no borrowed modern character designs.\nHARD CONSTRAINTS: NO text, letters, pseudo-writing, glyphs, runes, logos, signatures or decorative script anywhere including clothing, weapons, architecture. NO border, frame, watermark, extra heads, limbs or fingers. Fully opaque clothing, no nudity, sexualization, explicit gore. No generic aura, neon outline, glowing mist or energy ribbons. Do not print claim IDs on image."
+  },
+  "depicted_variant": "Mermaid, Havfrue variant"
+}
