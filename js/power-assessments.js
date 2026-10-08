@@ -549,6 +549,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "adonis": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa keindahan dan daya tarik yang dipuja di Byblos juga sebagai dewa tanaman biji-bijian, dengan kisah kematian dan kebangkitan tahunan; status dewa menjadi dasar Divine, walau ia mati oleh babi hutan seperti manusia fana.",
+        "en": "God of beauty and attraction, worshipped at Byblos also as a god of grain crops, with a tale of yearly death and return to life; divine status supports Divine, though he dies to a boar like a mortal.",
+        "claim_ids": [
+          "adonis-c01",
+          "adonis-c13",
+          "adonis-c14",
+          "adonis-c02"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Adonis; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Adonis; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Lahir dari pohon mur yang terbelah, dibagi antara Persephone di Hades dan Aphrodite, dan kembali hidup setiap tahun adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Born from a split myrrh tree, divided between Persephone in Hades and Aphrodite, and returning to life each year is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "adonis-c02",
+          "adonis-c04",
+          "adonis-c08"
+        ]
+      }
+    }
+  },
   "adze-folklore": {
     "power": "superhuman",
     "threat": "t1",
@@ -1954,6 +1985,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "amunet": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi purba Ogdoad Hermopolis yang mewakili keberadaan sebelum penciptaan, pasangan Amun sebelum dunia ada; skala prapenciptaan menjadi dasar Cosmic.",
+        "en": "A primordial goddess of the Hermopolitan Ogdoad representing existence before creation, Amun's partner before the world was; the pre-creation scale supports Cosmic.",
+        "claim_ids": [
+          "amunet-c01",
+          "amunet-c03",
+          "amunet-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Amunet; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Amunet; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Amunet pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Amunet inspires in humans, so the type of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "anansi": {
     "power": "superhuman",
     "threat": null,
@@ -2143,6 +2200,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menggambarkan dewa langit yang sering berada di latar mitos, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a sky god who often stays in the background of myths, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "anuket": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi katarak Nil dan Nubia Hilir yang melindungi perbatasan selatan Mesir dan dihubungkan dengan banjir Nil; kuasa atas ranah sungai menjadi dasar Divine.",
+        "en": "Goddess of the Nile cataracts and Lower Nubia who protects Egypt's southern border and is tied to the Nile flood; authority over the river domain supports Divine.",
+        "claim_ids": [
+          "anuket-c01",
+          "anuket-c06",
+          "anuket-c13"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Anuket; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Anuket; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Anuket pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Anuket inspires in humans, so the type of fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -6566,6 +6649,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "cerberus-c16",
           "cerberus-c02"
+        ]
+      }
+    }
+  },
+  "ceres": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewi pertanian dan panen yang perkenannya memberi panen melimpah dan murkanya mendatangkan hawar, kekeringan, dan kelaparan; kuasa atas ranah kesuburan tanah menjadi dasar Divine.",
+        "en": "Goddess of agriculture and the harvest whose favour brings plentiful crops and whose wrath brings blight, drought and famine; authority over the fertility of the land supports Divine.",
+        "claim_ids": [
+          "ceres-c01",
+          "ceres-c02",
+          "ceres-c16"
+        ]
+      },
+      "threat": {
+        "id": "Murkanya mendatangkan hawar, kekeringan, dan kelaparan atas umat manusia; cakupan yang tersirat adalah kelaparan di suatu negeri, ditafsirkan regional karena riset tidak memuat runtuhnya suatu bangsa.",
+        "en": "Her wrath brings blight, drought and famine on humankind; the implied scope is famine over a land, read as regional since the research records no collapse of a nation.",
+        "claim_ids": [
+          "ceres-c02"
+        ]
+      },
+      "fear": {
+        "id": "Hidup manusia bergantung pada perkenan seorang dewi yang murkanya berarti kelaparan; rasa takut itu menyadarkan betapa kecil kendali manusia atas pangannya.",
+        "en": "Human life depends on the favour of a goddess whose wrath means famine; that fear confronts humans with how little control they have over their food.",
+        "claim_ids": [
+          "ceres-c02",
+          "ceres-c16"
         ]
       }
     }
@@ -14892,6 +15006,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "janus": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Dewa permulaan dan akhir yang menguasai setiap pintu masuk dan keberangkatan, disebut sebelum Jupiter dalam doa dan dimohon sebelum dewa lain pada awal setiap usaha penting; kuasa atas ranah peralihan menjadi dasar Divine.",
+        "en": "God of beginnings and ends presiding over every entrance and departure, named before Jupiter in prayers and invoked before any other god at the start of important undertakings; authority over the domain of transitions supports Divine.",
+        "claim_ids": [
+          "janus-c02",
+          "janus-c05",
+          "janus-c10",
+          "janus-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Janus; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Janus; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dewa bermuka dua yang memandang ke dua arah sekaligus, dan pintunya yang terbuka berarti perang, menimbulkan rasa ganjil, bukan ancaman; riset tidak memuat kisah ia menakuti manusia.",
+        "en": "A two-faced god looking both ways at once, whose open doors mean war, evokes the uncanny rather than menace; the research holds no tale of him frightening humans.",
+        "claim_ids": [
+          "janus-c03",
+          "janus-c09",
+          "janus-c12"
+        ]
+      }
+    }
+  },
   "japanese-dragon": {
     "power": "regional",
     "threat": "t3",
@@ -15506,6 +15651,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menggambarkan hewan bertanduk penyembuh, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a horned animal with healing powers, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "karna": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Putra dewa matahari Surya yang lahir dengan anting emas dan menjadi raja Anga serta pejuang besar Mahabharata; keturunan ilahi menempatkannya di atas manusia biasa, tetapi ia gugur di tangan Arjuna.",
+        "en": "Son of the sun god Surya, born with golden earrings, king of Anga and a great warrior of the Mahabharata; divine parentage places him above ordinary men, yet he falls to Arjuna.",
+        "claim_ids": [
+          "karna-c01",
+          "karna-c03",
+          "karna-c04",
+          "karna-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset hanya menyebut ia bertempur di pihak Kaurava tanpa perbuatan berskala tertentu, sehingga ancaman belum dinilai.",
+        "en": "The research only says he fought on the Kaurava side with no deed of a given scale, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Karna pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Karna inspires in humans, so the type of fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -18549,6 +18721,36 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "maat": {
+    "power": "transcendent",
+    "threat": null,
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Personifikasi kebenaran, tatanan, dan keadilan yang mengatur bintang, musim, serta perbuatan manusia dan dewa, dan yang harus dijaga para raja dalam tatanan dunia; ia adalah asas yang mendasari kosmologi Mesir, bukan sekadar dewi dengan satu ranah.",
+        "en": "The personification of truth, order and justice that regulates the stars, the seasons and the actions of mortals and gods, which kings must maintain in the world's order; she is the principle underlying Egyptian cosmology, not merely a goddess of one domain.",
+        "claim_ids": [
+          "maat-c01",
+          "maat-c02",
+          "maat-c10",
+          "maat-c13"
+        ]
+      },
+      "threat": {
+        "id": "Maat menegakkan tatanan dan menimbang, bukan merusak; riset tidak memuat perbuatan menghancurkan, sehingga ancaman belum dinilai.",
+        "en": "Maat upholds order and weighs, she does not destroy; the research holds no destructive deed, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Bulunya menentukan apakah jiwa boleh mencapai akhirat yang diberkati; penimbangan hati menghadapkan setiap manusia pada kerapuhan nasibnya sesudah mati.",
+        "en": "Her feather decides whether a soul may reach the blessed afterlife; the weighing of the heart confronts every human with the fragility of their fate after death.",
+        "claim_ids": [
+          "maat-c06",
+          "maat-c07"
+        ]
+      }
+    }
+  },
   "madam-pigott": {
     "power": "superhuman",
     "threat": "t1",
@@ -19538,6 +19740,33 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "min": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewa kesuburan dari masa pradinasti yang dihormati dalam ritus penobatan, diarak ke ladang pada awal panen, dan melindungi pengelana di gurun timur; kuasa atas kesuburan dan gurun menjadi dasar Divine.",
+        "en": "A fertility god from predynastic times honoured in coronation rites, carried to the fields at the start of harvest and protecting travellers in the eastern desert; authority over fertility and the desert supports Divine.",
+        "claim_ids": [
+          "min-c01",
+          "min-c08",
+          "min-c09",
+          "min-c11"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Min; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Min; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Min pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Min inspires in humans, so the type of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "minairo": {
     "power": "monstrous",
     "threat": "t1",
@@ -20392,6 +20621,38 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mut": {
+    "power": "cosmic",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi ibu yang terhubung dengan air purba Nu dan dalam beberapa kisah melahirkan dunia tanpa pasangan, pelindung raja dan negara dalam triad Thebes; skala penciptaan dunia menjadi dasar Cosmic.",
+        "en": "A mother goddess tied to the primordial waters of Nu who in some accounts gives birth to the world without a partner, protector of king and state in the Theban triad; world-creating scale supports Cosmic.",
+        "claim_ids": [
+          "mut-c03",
+          "mut-c04",
+          "mut-c12"
+        ]
+      },
+      "threat": {
+        "id": "Satu sumber menggambarkannya membakar para pengkhianat dalam anglo yang menyala; perbuatan menghukum itu menimpa sekelompok orang, bukan wilayah.",
+        "en": "One source describes her burning traitors in a flaming brazier; that punishing deed falls on a group of people, not a region.",
+        "claim_ids": [
+          "mut-c13"
+        ]
+      },
+      "fear": {
+        "id": "Dewi berwujud burung nasar atau singa betina yang menyelamatkan jiwa dari para iblis dan membakar pengkhianat adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A goddess in vulture or lioness form who saves souls from demons and burns traitors is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "mut-c11",
+          "mut-c13",
+          "mut-c15"
+        ]
+      }
+    }
+  },
   "muu-shuvuu": {
     "power": "superhuman",
     "threat": "t1",
@@ -20889,6 +21150,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan dewa teratai dan penyembuhan, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a lotus god of healing, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "neith": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi perang dan keibuan yang dalam beberapa mitos menjadi pencipta dunia dan Ibu Agung, ibu Ra dan Sobek, penengah sengketa Horus dan Set; peran pencipta menjadi dasar Cosmic.",
+        "en": "Goddess of warfare and motherhood who in some myths becomes creator of the world and Great Mother, mother of Ra and Sobek and mediator of Horus and Set's dispute; the creator role supports Cosmic.",
+        "claim_ids": [
+          "neith-c01",
+          "neith-c03",
+          "neith-c04",
+          "neith-c12"
+        ]
+      },
+      "threat": {
+        "id": "Lambang busur bersilang dan gelar Penguasa Busur menunjukkan ranah perang, tetapi riset tidak memuat satu pun perbuatan perang atau penghukuman, sehingga ancaman belum dinilai.",
+        "en": "The crossed-bows emblem and the title Mistress of the Bow show the domain of war, yet the research holds not one deed of war or punishment, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Pencipta dunia yang membuka jalan bagi jiwa dan menjaga jeroan orang mati adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A creator of the world who opens the ways for souls and guards the organs of the dead is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "neith-c04",
+          "neith-c05",
+          "neith-c10"
+        ]
       }
     }
   },
@@ -24641,6 +24933,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "sati": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi kebahagiaan perkawinan yang merupakan aspek Shakti, istri pertama Siwa, dan bagian-bagian tubuhnya menjadi Shakti pitha yang suci; status dewi menjadi dasar Divine.",
+        "en": "Goddess of marital felicity who is an aspect of Shakti, Shiva's first wife, whose body parts became the sacred Shakti pithas; divine status supports Divine.",
+        "claim_ids": [
+          "sati-c01",
+          "sati-c02",
+          "sati-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Sati; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Sati; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Sati pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Sati inspires in humans, so the type of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "satis": {
     "power": "divine",
     "threat": null,
@@ -25027,6 +25345,63 @@ export const POWER_ASSESSMENTS = Object.freeze({
       "fear": {
         "id": "Riset menggambarkan dewa pemersatu, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a unifying god, not a source of fear; Fear is not assessed.",
+        "claim_ids": []
+      }
+    }
+  },
+  "serket": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi penyembuhan, sihir, dan perlindungan dari sengatan kalajengking yang menjaga tenda pembalseman dan satu tikungan jalan dunia bawah; kuasa atas ranah racun dan perlindungan menjadi dasar Divine.",
+        "en": "Goddess of healing, magic and protection against scorpion stings who guards the embalming tent and a bend of the underworld path; authority over poison and protection supports Divine.",
+        "claim_ids": [
+          "serket-c01",
+          "serket-c03",
+          "serket-c04",
+          "serket-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Serket; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Serket; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Dewi bermahkota kalajengking yang menjaga jalan dunia bawah adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral atas dewi pelindung.",
+        "en": "A scorpion-crowned goddess guarding the underworld path is an existence beyond natural law; this fear is no moral judgment of a protective goddess.",
+        "claim_ids": [
+          "serket-c02",
+          "serket-c05"
+        ]
+      }
+    }
+  },
+  "seshat": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi tulisan, kebijaksanaan, dan pengukuran yang disebut Penguasa Para Pembangun dan membantu raja dalam ritus merentang tali; kuasa atas ranah pengetahuan menjadi dasar Divine.",
+        "en": "Goddess of writing, wisdom and measurement called Lady of Builders who assists the king in the stretching-the-cord rite; authority over the domain of knowledge supports Divine.",
+        "claim_ids": [
+          "seshat-c01",
+          "seshat-c02",
+          "seshat-c03",
+          "seshat-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Seshat; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Seshat; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Seshat pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Seshat inspires in humans, so the type of fear remains unassessed.",
         "claim_ids": []
       }
     }
@@ -27423,6 +27798,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "themis": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Titan dewi hukum ilahi dan tatanan, ibu para Horae dan Moirai, pemegang orakel Delphi sebelum Apollo, dan penyeru sidang para dewa dan manusia; kuasa atas ranah hukum dan nubuat menjadi dasar Divine.",
+        "en": "Titan goddess of divine law and order, mother of the Horae and the Moirai, holder of the Delphic oracle before Apollo and summoner of assemblies of gods and humans; authority over law and prophecy supports Divine.",
+        "claim_ids": [
+          "themis-c01",
+          "themis-c05",
+          "themis-c06",
+          "themis-c07"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Themis; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Themis; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Nabiah para dewa yang melahirkan para Moirai penentu nasib dan menyuarakan orakel adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral atas dewi keadilan.",
+        "en": "A prophetess of the gods who bore the fate-deciding Moirai and voiced the oracle is an existence beyond natural law; this fear is no moral judgment of the goddess of justice.",
+        "claim_ids": [
+          "themis-c05",
+          "themis-c06",
+          "themis-c13"
+        ]
+      }
+    }
+  },
   "thoth": {
     "power": "divine",
     "threat": "t1",
@@ -29479,6 +29885,32 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "wadjet": {
+    "power": "divine",
+    "threat": null,
+    "fear": null,
+    "reasons": {
+      "power": {
+        "id": "Dewi kobra Buto yang dihubungkan dengan Mata Ra dan Mata Horus dan bersama Nekhbet menjadi pelindung seluruh Mesir; kuasa pelindung ilahi menjadi dasar Divine.",
+        "en": "The cobra goddess of Buto tied to the Eye of Ra and Eye of Horus who with Nekhbet becomes protector of all Egypt; divine protective power supports Divine.",
+        "claim_ids": [
+          "wadjet-c02",
+          "wadjet-c04",
+          "wadjet-c05"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Wadjet; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Wadjet; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Riset tidak memuat gambaran rasa takut yang ditimbulkan Wadjet pada manusia, sehingga jenis ketakutan belum dinilai.",
+        "en": "The research holds no account of the fear Wadjet inspires in humans, so the type of fear remains unassessed.",
+        "claim_ids": []
+      }
+    }
+  },
   "waira": {
     "power": null,
     "threat": null,
@@ -30867,6 +31299,35 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "yelbeghen-c01",
           "yelbeghen-c02"
+        ]
+      }
+    }
+  },
+  "yokai": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Entri kategori: yōkai adalah makhluk dan gejala gaib cerita rakyat Jepang, dari hantu dan monster sampai benda rumah tangga yang hidup; sifat gaib itu melampaui manusia, tetapi kuasa tiap jenis berbeda dan tidak ada satu ukuran untuk semuanya.",
+        "en": "A category entry: yōkai are the supernatural beings and phenomena of Japanese folklore, from ghosts and monsters to animated household objects; that supernatural nature exceeds human limits, but each kind's power differs and no single measure fits them all.",
+        "claim_ids": [
+          "yokai-c01",
+          "yokai-c02",
+          "yokai-c04"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak yōkai tertentu; sebagai istilah payung, ancamannya bergantung pada jenisnya, sehingga belum dinilai.",
+        "en": "The research holds no destructive deed of a particular yōkai; as an umbrella term its threat depends on the kind, so it remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Yōkai dahulu ditakuti sebagai keberadaan gaib yang tak dapat dijelaskan hukum alam, meski kini sering dipandang lebih ramah.",
+        "en": "Yōkai were once feared as supernatural existences beyond natural law, though they are now often viewed as friendlier presences.",
+        "claim_ids": [
+          "yokai-c01",
+          "yokai-c06"
         ]
       }
     }
