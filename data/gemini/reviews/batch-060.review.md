@@ -1,6 +1,6 @@
 # Review batch-060
 
-Diperiksa 2026-10-07T06:05:15.282Z. Berkas: batch-060.md, batch-060-fix-1.md, batch-060-fix-2.md, batch-060-fix-3.md, batch-060-fix-4.md, batch-060-fix-5.md.
+Diperiksa 2026-10-08T15:50:28.630Z. Berkas: batch-060.md, batch-060-fix-1.md, batch-060-fix-2.md, batch-060-fix-3.md, batch-060-fix-4.md, batch-060-fix-5.md, batch-060-fix-6.md.
 
 ## wd-q119097296 — lulus-otomatis
 
@@ -18,7 +18,7 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## wd-q119984387 — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 4, gambar 0.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@ Klaim 6 (exact 6), sumber 4, gambar 0.
 | wd-q119984387-c04 | exact | zh.wikisource.org | The Classic of Mountains and Seas names the beast Bibi, with a voice like a wild goose, and says that when it appears the land suffers a great drought. | 有獸焉，其狀如狐而有翼，其音如鴻鴈，其名曰獙獙，見則天下大旱。 |
 | wd-q119984387-c05 | exact | zh.wikisource.org | The Siku Quanshu edition has the same sentence about the beast Bibi and adds an annotation that its name is pronounced like 斃. | 有獸焉其狀如狐而有翼其音如鴻鴈其名曰獙獙〈音斃〉見則天下大旱 |
 | wd-q119984387-c06 | exact | zh.wikipedia.org | Chinese Wikipedia notes that Bibi also appears in the late Qing long novel Hushan ji. | 记载于《山海经·山经·东次二经》，清末長篇小說《笏山记》也有獙獙。 |
+| wd-q119984387-c07 | exact | zh.wikipedia.org | Chinese Wikipedia calls the bibi (獙獙) a monster beast of Chinese legend living on Mount Gufeng (姑逢之山), like a fox with wings, with a voice like a wild goose, whose sighting brings great drought (大旱). | 獙獙，是中国传说的妖兽，生活在姑逢之山，像狐狸但是有翅膀，声音像鸿雁，见到会天下大旱。 |
 
 
 ## wd-q13579750 — lulus-otomatis
@@ -413,24 +414,21 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## ame-no-hibaraooshinadomi-no-kami — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ame-no-hibaraooshinadomi-no-kami-c01 | exact | ja.wikipedia.org | AmenoHibaraooshinadomi is a Japanese deity with variant readings of a long name. | 天日腹大科度美神（アメノヒバラオオシナドミ／アメノヒハラオオシナドミ、歴史的仮名遣：アメノヒバラオホシナドミ／アメノヒハラオホシナドミ）は、日本神話に登場する神。 |
 | ame-no-hibaraooshinadomi-no-kami-c02 | exact | ja.wikipedia.org | The Kojiki places him eight generations after Ōkuninushi in the earthly deity genealogy. | 『古事記』にのみ登場する大国主神の8世孫の神で、十七世神（とおまりななよのかみ）の一柱である国津神。 |
 | ame-no-hibaraooshinadomi-no-kami-c03 | exact | ja.wikipedia.org | One interpretation gives his name the sense of a great wind spirit from a sacred heavenly plain. | 「天日腹」は「天の霊原」、「大」は「偉大」、「科度」は「し」（「風」の古語）+「な」（「の」を表す上代語の格助詞）+「ど」（処）、「美」は「霊」と解し、名義は「天の神聖な原から吹く偉大な風の神霊」と考えられる。 |
+| ame-no-hibaraooshinadomi-no-kami-c04 | exact | kojiki.kokugakuin.ac.jp | His name appears in the genealogy of Ōkuninushi’s (大国主神) descendants: son of Nunooshitomitorinarumi (布忍富鳥鳴海神) and Wakatsukushime (若尽女神), who with Tōtsumachine (遠津待根神) fathered Tōtsuyamasakitarashi (遠津山岬多良斯神). | 大国主神の子孫の系譜に名が見える。布忍富鳥鳴海神と若尽女神との子で、遠津待根神との間に遠津山岬多良斯神を生む。 |
+| ame-no-hibaraooshinadomi-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | One view reads "hibara" (日腹) as hihara (日原), so that "Ame no hibara" means a sacred plain of heaven. | 天日腹大科度美神の名義について、「日腹」を日原の意として、「天日腹」を天の神聖な原と解する説がある。 |
+| ame-no-hibaraooshinadomi-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | The element "shinado" (科度) has been compared to the wind god Shinatobe (級長戸辺命) in the Nihon shoki (日本書紀). | 「科度」は『日本書紀』に風神の級長戸辺（しなとべ）命が見えて、類似が指摘されている。 |
 
 
 ## ame-no-hiritome — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -438,14 +436,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-hiritome-c02 | exact | ja.wikipedia.org | The Engishiki shrine register writes the name as Hirinome. | 天比理乃咩命（あまのひりのめのみこと） 『延喜式』神名帳による。 |
 | ame-no-hiritome-c03 | exact | ja.wikipedia.org | Older imperial chronicles use the Hiritome spelling. | 天比理刀咩命（あめのひりとめのみこと） 神名帳よりも古い成立の『続日本後紀』、『日本文徳天皇実録』、『日本三代実録』による。 |
 | ame-no-hiritome-c04 | exact | ja.wikipedia.org | One hypothesis attributes the variation to confusion between two written characters. | この相違が起こったのは、元来正史にある天比理刀咩命と記すべきものを神名帳が誤って「刀」を「乃」と記載したためだとする説がある。 |
+| ame-no-hiritome-c05 | exact | zh.wikisource.org | The Engishiki (延喜式) shrine register for Awa District, Awa Province (安房国), lists Awa-ni-imasu-jinja (安房坐神社) and the shrine of its consort goddess, Ame no Hiri…nome (后神天比…理乃咩命神社), a major shrine originally named Sunokami (洲神). | 安房国六座／大二座／小四座∥ 安房郡二座／並／大∥ 安房坐神社／名神大。月／次新甞。∥ 后神天比 ... 理乃咩命神社／大。元名洲神。∥ 朝夷郡四座 |
+| ame-no-hiritome-c06 | exact | maruchiba.jp | The Sunomiya shrine in Tateyama (館山市洲宮) worships Ame no Hiritome (天比理刀咩命) with Ame no Uzume and Ame no Tomi; Ame no Tomi enshrined her on Mount Uoo (魚尾山) by imperial order in the first year of Jinmu, and as the mountain was then by the sea the shrine was called Sunokami (洲神) or Sunomiya (洲宮). | 館山市洲宮 祭 神／天比理刀咩命 天鈿女命 天富命 例祭日／8月10日 ●神武天皇元年に天 富命が勅命を奉じ、魚 尾山に奉祀された。当 時魚尾山は海辺に あったので、洲神また は、洲宮と称された。 |
 
 
 ## ame-no-ikutama — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -453,14 +450,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-ikutama-c02 | exact | ja.wikipedia.org | Texts also call him Ikutama and propose an identification with Ikugui. | 『日本書紀』では生霊神（いくたまのかみ）、『先代旧事本紀』には活玉命の別名で伝わり、八神殿でも重要な神として祀られる。『古事記伝』では活杙神と同神とする説を唱えている。 |
 | ame-no-ikutama-c03 | exact | ja.wikipedia.org | He accompanies Nigihayahi and is named as an ancestor of Nittabe and Onchi lineages. | 『先代旧事本紀』では饒速日命に随行した三十二神の一柱として、新田部直の祖とされているほか、『新撰姓氏録』では恩智神主の祖と伝えている。 |
 | ame-no-ikutama-c04 | exact | ja.wikipedia.org | A Nihon Shoki oracle during the Jinshin War associates Ikutama and Kotoshironushi with guarding the imperial army. | 『日本書紀』によると、壬申の乱の際、高市郡大領の高市県主許梅が突然口を閉ざしてものを言えなくなり、三日後に許梅に神が着いて、「吾は高市社にいる事代主である。また、身狭社にいる生霊神である。」、「神日本磐余彦天皇の陵に馬と種々の兵器を奉れ。」、「吾は皇御孫尊の前後に立って不破まで送り奉ってから還った。今また官軍の中に発ってこれを守護する。」、「西道より軍衆が至ろうとしている。警戒せよ。」と言ったと伝わる。 |
+| ame-no-ikutama-c05 | exact | zh.wikisource.org | Nihon shoki: while the army was at Kanatsunai, Takechi no Agatanushi Kome, head of Takechi District, suddenly could not speak; three days later he was possessed by gods who said, "I am Kotoshironushi (事代主神) of the Takechi shrine, and Ikutama (生靈神) of the Musa shrine (身狹社)." | 先是軍金綱井之時，高市郡大領高市縣主許梅，儵忽口閉，而不能言也。三日之後，方著神以言：「吾者，高市社所居，名事代主神。又身狹社所居，名生靈神者也。」 |
+| ame-no-ikutama-c06 | exact | zh.wikisource.org | The god also said he had stood before and behind the imperial grandson to escort him to Fuwa, and now stood among the imperial army to protect it (守護). | 便亦言：「吾者，立皇御孫命之前後，以送奉于不破而還焉。今且立官軍中而守護之。」 |
+| ame-no-ikutama-c07 | exact | zh.wikisource.org | So Kome was sent to worship at the imperial tomb and offer horses and weapons, and offerings were also made to the gods of the two shrines, Takechi and Musa. | 故是以便遣許梅，而祭拜御陵，因以奉馬及兵器。又捧幣而禮祭高市、身狹二社之神。 |
 
 
 ## ame-no-mikage-no-kami — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -468,14 +465,15 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-mikage-no-kami-c02 | exact | ja.wikipedia.org | He attends Nigihayahi’s descent and is linked to several ancestral lineages. | 饒速日命が降臨した際に供奉した神々のうちの1人で、『先代旧事本紀』や『新撰姓氏録』などによれば、娘に彦坐王の妃となった息長水依媛が、11世孫に山代根子が、末裔に三上氏や凡河内直、額田部湯坐連、山直がいるとされる。 |
 | ame-no-mikage-no-kami-c03 | exact | ja.wikipedia.org | Mikami Shrine in Shiga worships him as the Mikami clan’s ancestor. | 滋賀県の御上神社では三上氏の祖神として祀られている（安国造の氏神）。社伝によると、孝霊天皇6年（BC287年）6月18日に天之御影命が三上山の山頂に降臨し、それを神孫の御上祝（神主）が三上山を神体（神奈備）として祀ったのに始まると伝える。 |
 | ame-no-mikage-no-kami-c04 | exact | ja.wikipedia.org | The shrine tradition recounts his descent onto Mount Mikami and subsequent mountain worship. | 社伝によると、孝霊天皇6年（BC287年）6月18日に天之御影命が三上山の山頂に降臨し、それを神孫の御上祝（神主）が三上山を神体（神奈備）として祀ったのに始まると伝える。 |
+| ame-no-mikage-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | He is the parent deity of Okinaga-no-mizuyorihime (息長水依比売), wife of Prince Hikoimasu (日子坐王), son of Emperor Kaika (開化天皇), and is worshipped by the Mikami priests of Ōmi (近淡海). | 第九代開化天皇の皇子、日子坐王の妻となった息長水依比売の親神。近淡海（＝近江）の御上の祝が奉斎する。 |
+| ame-no-mikage-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | According to Mikami Shrine (御上神社) tradition, Ame-no-mikage descended on Mount Mikami (三上山) in the sixth year of Emperor Kōrei (孝霊天皇), and the Mikami priests have performed his rites on the mountain ever since. | 御上神社の社伝では、第七代孝霊天皇の六年に、天之御影神が三上山に降臨し、以来、御上の祝が三上山でその祭祀を務めてきたといい |
+| ame-no-mikage-no-kami-c07 | exact | kojiki.kokugakuin.ac.jp | Another view, based on the Imibi rite at Mikami Shrine, reads "kage" (影) as light, making him the god of the sacred kindled fire (忌火の神). | この他、御上神社で行われる忌火祭との関連から、「影」を光の意ととって、鑚り出された神聖な浄火の光の神格化で、忌火の神と捉える説もある。 |
+| ame-no-mikage-no-kami-c08 | exact | kojiki.kokugakuin.ac.jp | One view identifies Ame-no-mikage with Amenomahitotsu (天目一箇神), the smith god of the Nihon shoki. | 天之御影神を『日本書紀』などに登場する天目一箇神と同神とする見解もある。 |
 
 
 ## ame-no-tomi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -483,14 +481,14 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-tomi-c02 | exact | ja.wikipedia.org | He leads Imibe descendants in obtaining Kii timber and building the Kashihara palace. | 神武天皇東征においては、手置帆負命・彦狭知命の二神の孫の讃岐忌部・紀伊忌部を率い、紀伊の国の材木を採取し、畝傍山の麓に橿原の御殿を作った。 |
 | ame-no-tomi-c03 | exact | ja.wikipedia.org | He directs clans to produce ritual treasures including mirrors, beads and weapons. | また斎部の諸氏を率いて種々の神宝・鏡・玉・矛・楯・木綿・麻等を作らせ、そのうち櫛明玉命の孫の出雲玉作氏は御祈玉を作った。 |
 | ame-no-tomi-c04 | exact | ja.wikipedia.org | His agricultural migration traditions connect hemp cultivation with Awa and eastern provinces. | そして、天日鷲命の孫の阿波忌部を率いて肥沃な土地を求め、阿波国に遣わして穀・麻種を植え、その郡の名は麻殖となった。続いて更に肥沃な土地を求めて阿波忌部を分けて東国に率いて行き、麻・穀を播き殖え、良い麻が生育した国は総国と言われ、穀の木の生育したところをは結城郡と言われ、阿波忌部が住んだところは安房郡と言われた。 |
+| ame-no-tomi-c05 | exact | zh.wikisource.org | Kogo Shūi (古語拾遺): Ame no Tomi (天富命) led the Inbe (齋部) in carrying the imperial regalia mirror and sword (天璽鏡釼), installing them in the main hall, hanging jewels and laying out offerings. | 其物既備。天富命率諸齋部捧持天璽鏡釼。奉安正殿。并懸瓊玉。陳其幣物。 |
+| ame-no-tomi-c06 | exact | zh.wikisource.org | Then a sacred site (靈畤) was set up on Mount Tomi (鳥見山), and Ame no Tomi laid out the offerings and recited prayers in worship of Heaven (皇天). | 爾乃立靈畤於鳥見山中。天富命陳幣。祝詞禋祀皇天。徧秩羣望以答神祇之恩焉。 |
+| ame-no-tomi-c07 | exact | zh.wikisource.org | Ame no Tomi founded a shrine to Futodama (太玉命社) in that land, now called Awa-no-yashiro (安房社); hence the Inbe clan is among its shrine households. | 阿波忌部所居便名安房郡。〈今安房國是也。〉天富命卽於其地立太玉命社。今謂之安房社。 |
 
 
 ## ame-no-tsudoechine — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -498,14 +496,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-tsudoechine-c02 | exact | ja.wikipedia.org | The Kojiki calls her Fukabuchi’s wife, while the Awaga genealogy pairs her with Fuhanomojikunusunu. | 『古事記』において深淵之水夜礼花神の妻とされる。『日本書紀』には登場せず、粟鹿神社の書物『粟鹿大明神元記』には布波能母知汙那須奴の妻阿麻乃都刀閇乃知尼（アマノツトヘノチネ）と表記され、意弥都奴を生んだと記述されている。 |
 | ame-no-tsudoechine-c03 | exact | ja.wikipedia.org | One name interpretation describes heavenly watercourses gathered by invisible divine power. | 名義未詳とされるが、「天之」は天津神ではなく水源を考慮して冠せられたもの、「都度閇」は「集え」で、目に見えない神力によって集められること、「知」は「道」で、ここでは水路、「泥」は親称で、「天上界の集められた水路」となる。 |
 | ame-no-tsudoechine-c04 | exact | ja.wikipedia.org | The Kojiki genealogy makes her mother of Omizunu through Fukabuchi. | 須佐之男命の孫布波能母遅久奴須奴神と、淤加美神の子日河比売との間の子深淵之水夜礼花神の后神で、淤美豆奴神を生む。 |
+| ame-no-tsudoechine-c05 | exact | kojiki.kokugakuin.ac.jp | Since no father is named, one view suspects this deity is actually the father and the name of his daughter has dropped out of the text. | この神の場合、父神が示されていないことから、この神が父神で下にその娘の神の名が脱落したかと疑う説がある。 |
+| ame-no-tsudoechine-c06 | exact | kojiki.kokugakuin.ac.jp | One view reads "ame no" as a heavenly title tied to water sources, "chi" (知) as a way or watercourse and "ne" (泥) as an affectionate title, so the name means the gathered watercourses of heaven. | 「天之」を水源を考慮して冠せられた天上界にまつわる称とし、「知」を道つまり水路、「泥」を親称とみて、名義を、天上界の、集められた水路の意とする説がある。 |
 
 
 ## ame-no-tsuki-no-mitama-no-mikoto — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[2]` Tidak muncul di kutipan mana pun: Kaisar, Emperor. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -513,11 +513,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ame-no-tsuki-no-mitama-no-mikoto-c02 | exact | ja.wikipedia.org | The Sendai Kuji Hongi names him Takamimusubi’s child, Nigihayahi’s attendant and ancestor of Iki chiefs. | 『先代旧事本紀』「天神本紀」によれば、高御魂命の子で、饒速日命に従って天降った32人のうちの1人とされ、壱岐県主の祖であるとされる。 |
 | ame-no-tsuki-no-mitama-no-mikoto-c03 | exact | ja.wikipedia.org | A Nihon Shoki oracle requests land for a moon deity interpreted as this god. | 『日本書紀』顕宗天皇紀では、遣任那使の阿閉事代に「月神」が憑依し、「我が祖先の高皇産霊命は鎔けあっていた天地を想像した功績がある。民地を私に奉れ。私が請うままに献上するならば、福慶があるだろう」と宣託をし、阿閉事代は京に帰って天皇に詳しく申し上げると、山城国葛野郡の歌荒樔田（うたあらすだ）が月神のために与えられ、壱岐県主の祖の押見宿禰が祭祀を行ったという。この話に登場する「月神」は天月神命であると考えられている。 |
 | ame-no-tsuki-no-mitama-no-mikoto-c04 | exact | ja.wikipedia.org | The granted locality is associated with Kyoto’s Tsukuyomi Shrine. | 「歌荒樔田」は現在、京都市西京区松尾大社の境外摂社の月読神社と考えられる。 |
+| ame-no-tsuki-no-mitama-no-mikoto-c05 | exact | zh.wikisource.org | Nihon shoki: in the second month of the third year (of Kenzō), when Ahe no Omi Kotoshiro was sent to Mimana, the moon god (月神) possessed someone and said his ancestor Takamimusubi (高皇産靈) had helped forge heaven and earth, so people’s land should be offered to him, and if so there would be blessings. | 三年春二月丁巳朔。阿閇臣事代銜命。出使干任那。於是月神著人謂之曰。我祖高皇産靈有預鎔造天地之功。宜以民地奉我月神。若依請獻我。當福慶。 |
+| ame-no-tsuki-no-mitama-no-mikoto-c06 | exact | zh.wikisource.org | Kotoshiro returned to the capital and reported it; land at Utaarasuda in Kadono District, Yamashiro Province (山背國葛野郡), was offered, and Oshimi no Sukune, ancestor of the Iki chieftains (壹伎縣主), served at its shrine. | 若依請獻我。當福慶。事代由是還京具奏。奉以歌荒 ... 在山背國葛野郡。〉壹伎縣主先祖押見宿禰侍祠。 三月上巳。 |
 
 
 ## apeyaki — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -527,33 +529,36 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | apeyaki-c04 | exact | uncannyjapan.com | These fire cicadas were feared by people. | Fire cicada! If one or more landed in a tree it would immediately burn it to a black smoking crisp. They were, as you can guess, feared. |
 | apeyaki-c05 | exact | www.town.erimo.lg.jp | The local museum connects Ape-yaki with Ainu words for fire and cicada. | アイヌ語でアベヤキならば「アペ・ヤ キ」(Ape-yaki 動物や虫たちが、春の到来を感じて土の 火・蝉)といわれていま トビラを開いて地上に出てくる頃、とい すが、火の蝉とはどのような意味・もの う意味である。 を指すのでしょうか。 |
 | apeyaki-c06 | exact | www.town.erimo.lg.jp | The museum quotes Matsuura Takeshirō’s journal about a cicada shining like a large fire. | 松浦武四郎は日誌に「往昔大なる火の 虫(地中で生活する虫)もめっきり減って 如く光炎(こうえん→光かがやく炎)たる いるらしい。 蝉が出しが故(ゆえ)に号く(ごうく→名 ミミズなどは、土の新陳代謝にひと役 づける)」と記しています。 |
+| apeyaki-c07 | exact | www.town.erimo.lg.jp | Because the Nagata place-name dictionary (永田地名解) reads Apeyaki as "red cicada" (赤蝉), one theory identifies it with the Ezo red cicada (エゾアカゼミ). | ヤキ 赤蝉」と解していることから、 ... 「赤い蝉→エゾアカゼミ」という説もあ |
 
 
 ## ashinaga — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ashinaga-c01 | exact | eo.wikipedia.org | Ashinaga is a mythical being with exceptionally long legs. | Ashinaga estas mita estulo kun grandegaj kruroj. |
 | ashinaga-c02 | exact | eo.wikipedia.org | Netsuke pairing Ashinaga with Tenaga symbolizes mutual assistance. | Kiam prezentita kun Tenaga sur ununura netsuke, ili simbolas helpon, kiun oni ŝuldas unu al la alia. |
+| ashinaga-c03 | exact | en.wikipedia.org | Ashinaga-tenaga (足長手長, "long legs, long arms") are a pair of yōkai in Japanese folklore; Ashinaga-jin (足長人) has extremely long legs, while Tenaga-jin (手長人) has extremely long arms. | Ashinaga-tenaga (足長手長 ; "Long Legs Long Arms") are a pair of yōkai in Japanese folklore. One, Ashinaga-jin (足長人 ), has extremely long legs, while the other, Tenaga-jin (手長人 ), has extremely long arms. |
+| ashinaga-c04 | exact | en.wikipedia.org | They were first described in the Japanese encyclopedia Wakan Sansai Zue and are said to be found in Kyūshū. | They were first described in the Japanese encyclopedia Wakan Sansai Zue. They are said to be found in Kyūshū. |
+| ashinaga-c05 | exact | en.wikipedia.org | To catch fish, the tenaga climbs onto the ashinaga’s back; the ashinaga wades into the shore waters on his long legs while the tenaga grabs fish with his long arms from his partner’s back. | In order to do this, the long-armed man, tenaga, climbs onto the back of the long-legged man, ashinaga. The ashinaga then wades out into the shorewaters, staying above water with his long legs, while the tenaga uses his long arms to grab fish from his partner's back. |
+| ashinaga-c06 | exact | en.wikipedia.org | The ashinaga’s legs stretch to two jō, just over six meters. | The ashinaga's legs stretch to two jō, or just slightly over six meters. |
+| ashinaga-c07 | exact | en.wikipedia.org | In Matsura Seizan’s Kasshiyawa essay, a man’s servant tells him they had just seen an ashinaga, and that sightings of this yōkai always brought bad changes in weather. | The man's servant then informs him that they had just seen an ashinaga, and that sightings of this yōkai always brought bad changes in weather. |
 
 
 ## ashinataka-no-kami — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ashinataka-no-kami-c01 | exact | ja.wikipedia.org | Ashinataka, also called Yagawaehime, is Kunioshitomi’s divine consort in the Kojiki. | 『古事記』において国忍富神の妻として登場する。亦の名を八河江比売（ヤガワエヒメ）という。 |
 | ashinataka-no-kami-c02 | exact | ja.wikipedia.org | Her name refers to tall, flourishing reeds and is interpreted as national prosperity. | 名称の「葦那陀迦神」は、「葦」、「那」は「の」を表す上代語の格助詞、「陀迦」は「高」で、名義は「葦の丈が高いこと」。また「邪気払いの力を持つ葦が繁栄すること」も意味し、国力の繁栄を象徴する。 |
 | ashinataka-no-kami-c03 | exact | ja.wikipedia.org | The alternate name is interpreted as a priestess of many river inlets. | また別名の「八河江比売」の名義は「多くの川の江の巫女」で、神や命といった神号がつかないのは巫女性を表すとされる。 |
+| ashinataka-no-kami-c04 | exact | kojiki.kokugakuin.ac.jp | She appears in Ōkuninushi’s (大国主神) genealogy, also called Yagawaehime (八河江比売), and with Kunioshitomi (国忍富神) bore Hayamikanotakesahayajinumi (速甕之多気佐波夜遅奴美神). | 大国主神の系譜中に登場する見える。別名、八河江比売。国忍富神との間に速甕之多気佐波夜遅奴美神をもうける。 |
+| ashinataka-no-kami-c05 | exact | kojiki.kokugakuin.ac.jp | Her name is read as "ashi na taka", tall reeds (葦); another view sees it as reeds with evil-dispelling power growing thick, a symbol of vitality and national prosperity. | 葦那陀迦神の名義は、「葦な高」で葦の丈が高いこととする説がある。また、邪気払いの力を持つ葦が繁茂することを意味し、生命力や国力の繁栄を表象するという説がある。 |
+| ashinataka-no-kami-c06 | exact | kojiki.kokugakuin.ac.jp | Her other name, Yagawaehime, is read as reeds growing thick in river inlets, or linked to the words "yaguhae"/"yagahae" in norito and Kojiki songs. | 別名の八河江比売について、川の入り江に葦が繁ることとする説や、祝詞や記歌謡などに見える「ヤグハエ」「ヤガハエ」の言葉との関連から葦とのつながりを推測する説がある。 |
 
 
 ## bakebi — lulus-otomatis
@@ -617,10 +622,7 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 ## eighty-gods — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -629,14 +631,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | eighty-gods-c03 | exact | ja.wikipedia.org | After Yagamihime chooses Ōnamuji, they retaliate by killing him with a heated boulder. | その後八十神達は次々に八上比売へと求婚するが悉く断られ、逆に八上比売は八十神達の後で兎を助けた大穴牟神と結婚することを宣言する。逆恨みした八十神達は、山の大きな猪を追い落とすから下で受け止めるようにと大穴牟遅神を脅し、真っ赤に焼けた大岩を落として大穴牟遅神を殺してしまう。 |
 | eighty-gods-c04 | exact | ja.wikipedia.org | He eventually returns with Susanoo’s weapons and subdues them as Ōkuninushi. | そこで根之堅洲国へ逃れ、遠つ祖の須佐之男命の試練を受け、その娘の須勢理毘売命と結婚した大穴牟遅神は、再び地上に戻ると須佐之男命の神宝である生大刀、生弓矢を使って八十神達を平定し、地上の主・大国主神となった。 |
 | eighty-gods-c05 | exact | ja.wikipedia.org | The word eighty signifies many rather than an exact number. | 神名の「八十」とは「多くの」という意味であり、八十神とは「多くの神々」という意味で具体的な数ではない。 |
+| eighty-gods-c06 | exact | zh.wikisource.org | The Kojiki text: Ōkuninushi (大國主神) had brothers, the eighty gods (八十神), who all later yielded the land to him; the reason was that each wished to marry Yagamihime (八上比賣) of Inaba (稻羽). | 故，此大國主神之兄弟，八十神坐。然皆國者避於大國主神。所以避者，其八十神各有欲婚稻羽之八上比賣之心 |
+| eighty-gods-c07 | exact | zh.wikisource.org | Seeing Ōnamuji alive again, the gods lured him into the mountains, felled a great tree, inserted a wedge, made him go into the cleft and then knocked out the wedge, crushing him to death. | 於是八十神見，且欺率入山而切伏大樹，茹矢，打立其木，令入其中，即打離其冰目矢而拷殺也。 |
+| eighty-gods-c08 | exact | zh.wikisource.org | When the gods hunted him with arrows nocked, Ōnamuji escaped through the fork of a tree and was told to go to Ne-no-katasu-kuni (根堅州國), where Susanoo (須佐能男命) dwells, who would surely advise him. | 尒八十神覓追臻而矢刺乞時，自木俣漏逃而云：「可參向須佐能男命所坐之根堅州國，必其大神議也。」 |
 
 
 ## fuha-no-mojikunusunu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -645,14 +647,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | fuha-no-mojikunusunu-c03 | exact | ja.wikipedia.org | One interpretation sees his name as anticipating Ōnamuji’s divine kingship. | 「母遅」は大穴牟遅神の「牟遅」、大日孁貴神の「貴」（むち）と同じで「尊貴」の意、「久奴」は「国主」の意とする説があり、須佐之男命の第一世の子、八島士奴美神が大国主神の誕生を予期するのと同様に、この神は大穴牟遅神の誕生の前ぶれに当たるとする説がある。 |
 | fuha-no-mojikunusunu-c04 | exact | ja.wikipedia.org | Another interpretation connects him with supporting primordial land like floating petals. | この説を受けて、また、「布波」をふわふわしたものとし、「母遅」を「持ち」で支える意と取り、母神、木花知流比売とも関連させて、「ふわふわした花びらの如き原初の国土を支える国土の土砂の」神の意として、国土創生に関わらせて解する説がある。 |
 | fuha-no-mojikunusunu-c05 | exact | ja.wikipedia.org | The Kojiki pairs him with Hikawahime and their child Fukabuchi; Awaga instead names AmenoTsudoechine and their child Omizunu. | 八島士奴美神と木花知流比売の子で、淤迦美神の娘日河比売を娶って深淵之水夜礼花神を生んでいる。 粟鹿大明神元記の系図では阿麻乃都刀閇乃知尼を娶って意弥都奴を生んだとある。 |
+| fuha-no-mojikunusunu-c06 | exact | kojiki.kokugakuin.ac.jp | He appears in Susanoo’s (須佐之男命) genealogy as the son of Yashimajinumi (八島士奴美神) and Konohanachiruhime (木花知流比売); he married Hikawahime (日河比売), daughter of Okami (淤迦美神), and fathered Fukabuchinomizuyarehana (深淵之水夜礼花神). | 須佐之男命の系譜中に見える。八島士奴美神が木花知流比売を娶って生んだ子。淤迦美神の娘の日河比売を娶って、深淵之水夜礼花神を生んだ。 |
+| fuha-no-mojikunusunu-c07 | exact | kojiki.kokugakuin.ac.jp | His name is hard to interpret; one view equates "moji" with the "muji" of Ōnamuji (大穴牟遅), meaning noble, and "kunu" with lord of the land (国主). | 布波能母遅久奴須奴神の名義は解しがたい。モヂは大穴牟遅のムヂと同じで尊貴の意、クヌは国主の意とする説があり |
+| fuha-no-mojikunusunu-c08 | exact | kojiki.kokugakuin.ac.jp | The Awaga shrine genealogy Awaga Daimyōjin Genki (粟鹿大明神元記), said to have been submitted in 708, records the name 布波能母知汙那須奴. | 『粟鹿大明神元記』（和銅元年（708）上申とされる粟鹿神社の祭神の系図）に「布波能母知汙那須奴」が見える。 |
 
 
 ## fukabuchi-no-mizuyarehana — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -660,28 +662,28 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | fukabuchi-no-mizuyarehana-c02 | exact | ja.wikipedia.org | The Kojiki preserves his name and genealogy without separate deeds. | 『古事記』にのみ登場する神で、名称や系譜以外特に事績に関する記述はない。十七世神（とおまりななよのかみ）の一柱である国津神。 |
 | fukabuchi-no-mizuyarehana-c03 | exact | ja.wikipedia.org | One interpretation personifies the beginning of invisible movement of deep pool water. | 「深淵」は水が淀んで深い淵をなしているところの意味であり、「夜礼」を四段活用の「遣る」に対する受け身形で下二段活用の連用形とし、深い淵の水が目に見えない力によって送り出され流れてゆく、その始め（ハナ＝端）と解し、「深い淵の水が遣やれ始めること」の意として水の運行の神格化と考えられる。 |
 | fukabuchi-no-mizuyarehana-c04 | exact | ja.wikipedia.org | Another treats the name as associative combinations of relatives’ water and flower names. | また、「深淵」、「水」が淤迦美神・日河比売から、「花」は木花知流比売からの即興的連想で、深い意味はないとする説もある。 |
+| fukabuchi-no-mizuyarehana-c05 | exact | kojiki.kokugakuin.ac.jp | He appears in Susanoo’s (須佐之男命) genealogy as the child of Fuhanomojikunusunu (布波能母遅久奴須奴神) and Hikawahime (日河比売); he married Amenotsudoechine (天之都度閉知泥神) and fathered Omizunu (淤美豆奴神). | 須佐之男命の系譜中に見える。布波能母遅久奴須奴神が淤迦美神の娘の日河比売を娶って生んだ神。天之都度閉知泥神を娶って淤美豆奴神を生んだ。 |
+| fukabuchi-no-mizuyarehana-c06 | exact | kojiki.kokugakuin.ac.jp | From the writing of the name and its links with Okami, Hikawahime and Omizunu, he is thought to be a deity connected with water (水に縁のある神), though details are unknown. | 深淵之水夜礼花神の名義は、字面や、親類の淤迦美神・日河比売・淤美豆奴神とのつながりから、水に縁のある神であると考えられるが、詳細は未詳である。 |
+| fukabuchi-no-mizuyarehana-c07 | exact | kojiki.kokugakuin.ac.jp | Another view holds that "fukabuchi" and "mizu" are spontaneous associations from Okami and Hikawahime, and "hana" (花) from Konohanachiruhime, without deeper meaning. | また、「深淵」「水」が淤迦美神・日河比売から、「花」は木花知流比売からの即興的連想で、深い意味はないとする説もある。 |
 
 
 ## funozuno — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | funozuno-c01 | exact | ja.wikipedia.org | Funozuno is a deity of Japanese mythology. | 布怒豆怒神（フノヅノ、現代仮名遣い：フノズノ）は、日本神話に登場する神。 |
 | funozuno-c02 | exact | ja.wikipedia.org | Awaga’s genealogy uses the alternate spelling Funotsumimi. | 『古事記』では布怒豆怒神、粟鹿神社の書物『粟鹿大明神元記』では布努都弥美（フノツミミ）と表記される。 |
 | funozuno-c03 | exact | ja.wikipedia.org | Name theories connect him with a Funo place-name, textile vines or a divinized cloth rope. | 名義は、備後国三次郡の地名「布努郷」と関連づける説や、「フノ」を「クナ」（曲）の音転、「ヅノ」を葛（つた）の意とみて、「くねくねと這う葛」の類で、水にさらして衣類の繊維をとる材料に基づく命名とみる説、「ヌノヅナ」（布綱）からきた「ヌノヅノ」が誤写されて神名として定着したものが『古事記』に受け継がれたものと考えて、布製の綱の神格化とする説がある。 |
+| funozuno-c04 | exact | kojiki.kokugakuin.ac.jp | One view links his name with the place name Funu-gō (布努郷) in Miyoshi District, Bingo Province (備後国), recorded in the Wamyō Ruijushō (和名類聚抄). | 布怒豆怒神の名義は、備後国三次郡の地名「布努郷」（『和名類聚抄』）と関連づける説や |
+| funozuno-c05 | exact | kojiki.kokugakuin.ac.jp | Another view takes the name as a miscopying of nunozuno, from nunozuna (布綱), "cloth rope", making him the deification of a cloth rope. | ヌノヅナ（布綱）からきたヌノヅノが誤写されて神名として定着したものが『古事記』に受け継がれたものと考えて、布製の綱の神格化とする説がある。 |
+| funozuno-c06 | exact | kojiki.kokugakuin.ac.jp | The Awaga shrine genealogy Awaga Daimyōjin Genki (粟鹿大明神元記), said to have been submitted in 708, records the name 布努都弥美. | 『粟鹿大明神元記』（和銅元年（708）上申とされる粟鹿神社の祭神の系図）に「布努都弥美」が見える。 |
 
 
 ## futemimi — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -689,14 +691,13 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | futemimi-c02 | exact | ja.wikipedia.org | Her motherhood of a clothing deity supports interpretations linking her with garments. | この神は天之冬衣神（衣類の神）の母神であることや、親神の布怒豆怒神を衣類の繊維材料の神と想定する説から、衣に関係のある神と考えられる。 |
 | futemimi-c03 | exact | ja.wikipedia.org | The first part of her name is uncertain, while mimi is interpreted as doubled spirit. | 「フテ」の語義は未詳で、「フノヅノ」の「フノ」からの転かとする説がある。「耳」は神霊の意の「霊」を重ねた語と解される。 |
 | futemimi-c04 | exact | ja.wikipedia.org | Another hypothesis derives the name from a scribal corruption of a divinized cloth sash. | また、誤写による神名と見なし、布の帯を神格化した神で、元は「布帯御霊（ヌノオビミミ）」と呼ばれていたのが漢字表記が誤写されて神名として定着したのが『古事記』に受け継がれたものとする説がある。 |
+| futemimi-c05 | exact | kojiki.kokugakuin.ac.jp | Because she is the mother of Amenofuyukinu (天之冬衣神) and her father Funozuno is thought to be a god of clothing fibres, Futemimi is considered a deity connected with clothing (衣). | 布帝耳神は、天之冬衣神の母神であることや、親神の布奴豆怒神を衣類の繊維材料の神と想定する説から、衣に関係のある神と考えられる。 |
+| futemimi-c06 | exact | kojiki.kokugakuin.ac.jp | The Awaga shrine genealogy Awaga Daimyōjin Genki (粟鹿大明神元記), said to have been submitted in 708, records her name as 布弖弥美. | 『粟鹿大明神元記』（和銅元年（708）上申とされる粟鹿神社の祭神の系図）に「布弖弥美」と見える。 |
 
 
 ## gishiki-hachimen-daio — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -704,6 +705,10 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | gishiki-hachimen-daio-c02 | exact | ja.wikipedia.org | His oni legend spreads through oral and temple traditions and later incorporates Tamuramaro. | 「八面大王伝説」は口碑として民間に伝えられる一方で、地域の寺社縁起の中にも書きとめられてきた。安曇野における農耕の原始開発にともなってこの地域に生成した鬼伝説が周辺地域に広く流布して現在の伝説に成長した。口碑や文献の多くは坂上田村麻呂が有明山の鬼賊を退治したという形を取っているが、田村麻呂の史実に基づかない伝説であることが明らかになっている。 |
 | gishiki-hachimen-daio-c03 | exact | ja.wikipedia.org | The animal gratitude motif and Tamuramaro association belong to later layers of the tale. | 現在の安曇野で伝承されている八面大王伝説は鬼伝説・坂上田村麻呂伝説・動物報恩譚の3要素から構成されており、動物報恩譚は明治時代以降に児童文学者を中心に取り上げられたため、本来の八面大王伝説にはなかった要素である。坂上田村麻呂伝説も江戸時代以降に鬼伝説に付会された要素であり、享保9年（1724年）成立の『信府統記』が次第に八面大王伝説の初出文献、または基本文献と考えられるようになるが、もともと坂上田村麻呂伝説とは無縁な話である。 |
 | gishiki-hachimen-daio-c04 | exact | ja.wikipedia.org | The Shinpū Tōki version makes Toshihito defeat him and his wife Momiji. | 現在は、妻の紅葉鬼神ともども田村利仁によって討伐されたという『信府統記』の記述に基づく伝説が、広く松本盆地一帯に残っている。 |
+| gishiki-hachimen-daio-c05 | exact | www.city.azumino.nagano.jp | According to the Azumino city museum, Hachimen Daiō (八面大王) lived with many followers in the Gishiki (魏石鬼) cave at the foot of Mount Ariake (有明山); he had strange powers to fly, raise clouds and bring rain, and came down to the villages to rampage and torment people. | 有明山の麓、魏石鬼の岩窟に、八面大王は多くの手下とともに住み着いていた。空を飛び、雲を起こし、 雨を降らす不思議な力を持ち、里に下りて乱暴をし人々を苦しめていた。 |
+| gishiki-hachimen-daio-c06 | exact | www.city.azumino.nagano.jp | The court sent Sakanoue no Tamuramaro (坂上田村麻呂) to subdue him; Hachimen Daiō was formidable, but Yasuke of Yamura presented an arrow fletched with a thirteen-jointed copper-pheasant tail feather, and with it Tamuramaro slew him. | 朝廷は、坂上田村麻呂を派遣し て八面大王を退治を命じた。八面大王は手強く、苦戦におちいる。その時、矢村の矢助が十三の節のある 山鳥の尾羽の矢を献上した。田村麻呂がつがえて放つと、八面大王を討ち取ることができた。 |
+| gishiki-hachimen-daio-c07 | exact | www.city.azumino.nagano.jp | The museum stresses that this is only legend, not history; the Hachimen Daiō story keeps evolving as it is told, written and mixed with other legends. | あくまで伝承であり、史実でない。 八面大王は語られ書かれ、他の伝承も加わって、進化を続けている。 |
+| gishiki-hachimen-daio-c08 | exact | www.city.azumino.nagano.jp | He is also told of in the opposite way, as a hero of Azumino (安曇野の英雄): a local leader defeated by Sakanoue no Tamuramaro, general of the state power expanding east. | 東に勢力を伸ばす国家勢力、武将坂 上田村麻呂と戦って敗れた地元の大将。伝説とは真逆の安曇野の英雄として語られる。 |
 
 
 ## hachioji-gongen — lulus-otomatis

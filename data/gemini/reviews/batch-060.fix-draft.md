@@ -6,3 +6,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 
 ## akagashira-q20042895
 - `claims (akagashira-q20042895-c03)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
+## ame-no-tsuki-no-mitama-no-mikoto
+- `long_description[2]`: Tidak muncul di kutipan mana pun: Kaisar, Emperor. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
