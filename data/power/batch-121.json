@@ -1,34 +1,40 @@
 {
   "perun": {
     "power": "divine",
-    "threat": null,
+    "threat": "t4",
     "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Dewa tertinggi pantheon Slavia dengan kuasa atas langit, guntur, petir, badai, hujan, hukum, dan perang, sehingga setingkat Divine.",
-        "en": "The highest god of the Slavic pantheon with authority over sky, thunder, lightning, storms, rain, law, and war, supporting Divine.",
+        "id": "Dewa tertinggi panteon Slavia yang berkuasa atas langit, guruh, petir, badai, hujan, hukum, dan perang, dengan panah batu dan apel emas sebagai senjata; kuasa atas ranah-ranah itu menjadi dasar Divine.",
+        "en": "The highest god of the Slavic pantheon ruling sky, thunder, lightning, storms, rain, law and war, with stone arrows and golden apples as weapons; authority over those domains supports Divine.",
         "claim_ids": [
           "perun-c01",
-          "perun-c19"
+          "perun-c09",
+          "perun-c19",
+          "perun-c37"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak yang terperinci; ancaman belum dinilai dan peran dewa tertinggi bukan bukti ancaman.",
-        "en": "The research holds no detailed destructive deeds; threat remains unassessed, and the role of a supreme god is not evidence of a threat.",
-        "claim_ids": []
-      },
-      "fear": {
-        "id": "Kutukan 'semoga Perun menyambarmu mati' dipandang sebagai kutukan paling mengerikan, menunjukkan rasa takut pada kuasa petir yang gaib.",
-        "en": "The curse 'May Perun strike you dead' is held to be the most terrible curse, showing dread of his supernatural lightning.",
+        "id": "Petirnya menyambar mati, apel emasnya disebut jimat kehancuran pamungkas, dan dalam rekonstruksi ia menyerang Veles dengan petir; daya rusak dewa badai ditafsirkan pada skala wilayah, sebab tidak ada kisah kehancuran suatu bangsa.",
+        "en": "His lightning strikes dead, his golden apples are called a talisman of ultimate destruction, and in the reconstruction he attacks Veles with lightning; a storm god's destructive force read at regional scale, as no tale destroys a nation.",
         "claim_ids": [
           "perun-c23",
-          "perun-c09"
+          "perun-c31",
+          "perun-c37"
+        ]
+      },
+      "fear": {
+        "id": "Kutukan \"semoga Perun menyambarmu mati\" dianggap paling mengerikan, sumpah demi Perun mengikat perjanjian, dan persembahan manusia untuknya dipilih dengan undian; kengerian akan petir yang di luar hukum alam.",
+        "en": "The curse \"may Perun strike you dead\" is held the most terrible, oaths by Perun bind treaties, and human sacrifices to him were chosen by lot; dread of lightning beyond natural law.",
+        "claim_ids": [
+          "perun-c23",
+          "perun-c36",
+          "perun-c38"
         ]
       }
     },
-    "perlu_riset": "Riset tidak memuat kisah pertempuran Perun dengan Veles atau perbuatan yang menunjukkan cakupan kehancurannya; ancaman belum bisa dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
   },
   "rusalka": {
     "power": "superhuman",

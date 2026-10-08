@@ -34,60 +34,78 @@
     "tanggal": "2026-10-06"
   },
   "loch-ness-monster": {
-    "power": null,
-    "threat": null,
-    "fear": "f1",
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f2",
     "reasons": {
       "power": {
-        "id": "Riset hanya mencatat laporan makhluk besar berleher panjang tanpa kemampuan yang terdokumentasi; Power belum dinilai.",
-        "en": "The research records only reports of a large long-necked creature with no documented abilities; Power is not assessed.",
-        "claim_ids": []
+        "id": "Dalam riwayat Columba, binatang air itu menggigit seorang perenang sampai mati dan menyerbu dari dasar sungai sambil mengaum; kekuatan seekor binatang pemangsa besar, bukan monster yang meratakan kawasan.",
+        "en": "In the Columba account the water beast bites a swimmer to death and rushes roaring from the riverbed; the strength of a great predatory beast, not a monster that devastates an area.",
+        "claim_ids": [
+          "loch-ness-monster-c18",
+          "loch-ness-monster-c19",
+          "loch-ness-monster-c22"
+        ]
       },
       "threat": {
-        "id": "Riset tidak memuat korban atau perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research holds no victims or destructive deeds; threat is not assessed.",
-        "claim_ids": []
+        "id": "Korban yang tercatat adalah perenang perorangan di sungai Ness, dan para skeptis menilai kisah itu motif hagiografi yang umum.",
+        "en": "The recorded victims are individual swimmers in the River Ness, and skeptics read the tale as a common hagiographic motif.",
+        "claim_ids": [
+          "loch-ness-monster-c18",
+          "loch-ness-monster-c19",
+          "loch-ness-monster-c24"
+        ]
       },
       "fear": {
-        "id": "Penampakan makhluk besar tak dikenal di danau yang buktinya diperdebatkan menimbulkan rasa ganjil, bukan ketakutan diburu.",
-        "en": "Sightings of a large unknown creature in the loch, with disputed evidence, create an uncanny unease rather than fear of being hunted.",
+        "id": "Rasa takut yang dicatat adalah diterkam dari dalam air: binatang yang belum kenyang terangsang mencari mangsa lagi, dan semua yang hadir tertegun ketakutan.",
+        "en": "The recorded fear is of being seized from the water: a beast not satiated but roused for more prey, with all present stupefied with terror.",
         "claim_ids": [
-          "loch-ness-monster-c02",
-          "loch-ness-monster-c03"
+          "loch-ness-monster-c18",
+          "loch-ness-monster-c19",
+          "loch-ness-monster-c20"
         ]
       }
     },
-    "perlu_riset": "Riset berfokus pada sejarah penampakan dan penyelidikan ilmiah; perilaku, kekuatan, dan kisah serangan binatang air dalam riwayat Columba belum ada.",
     "oleh": "claude-lokal",
-    "tanggal": "2026-10-07"
+    "tanggal": "2026-10-08"
   },
   "lucifer": {
-    "power": null,
-    "threat": null,
-    "fear": "f3",
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f4",
     "reasons": {
       "power": {
-        "id": "Riset belum memuat kuasa atau perbuatan Lucifer; Power belum dinilai.",
-        "en": "The research does not yet hold Lucifer’s powers or deeds; Power is not assessed.",
-        "claim_ids": []
+        "id": "Pemimpin para malaikat jatuh yang memegang kedaulatan atas mereka, kuasa kodratnya tidak rusak, dan ia memperluas kerajaannya atas pikiran orang jahat; ditafsirkan Divine dalam tradisi Kristen, bukan Cosmic, karena tunduk pada hukuman Allah.",
+        "en": "Chief of the fallen angels with sovereignty over them, natural powers unimpaired, extending his empire over the minds of evil men; read as Divine in Christian tradition, not Cosmic, since he remains subject to God's judgment.",
+        "claim_ids": [
+          "lucifer-c17",
+          "lucifer-c23",
+          "lucifer-c24",
+          "lucifer-c25",
+          "lucifer-c28"
+        ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; threat is not assessed.",
-        "claim_ids": []
+        "id": "Wahyu 12 menyebutnya penyesat seluruh dunia, dan Yesaya 14 yang diterapkan padanya berbicara tentang menggoncang kerajaan dan menjadikan dunia padang belantara, dasar ancaman global.",
+        "en": "Revelation 12 calls him the deceiver of the whole world, and Isaiah 14 as applied to him speaks of shaking kingdoms and making the world a wilderness, the basis for a global threat.",
+        "claim_ids": [
+          "lucifer-c19",
+          "lucifer-c30",
+          "lucifer-c31"
+        ]
       },
       "fear": {
-        "id": "Dalam tafsir Kristen ia Iblis atau malaikat yang jatuh, keberadaan yang melampaui hukum alam.",
-        "en": "In Christian interpretation he is the Devil or a fallen angel, an existence beyond natural law.",
+        "id": "Musuh manusia yang tak kenal henti yang mengarahkan segala unsur kejahatan, dengan hukuman abadi bagi yang mengikutinya, menghadapkan manusia pada kerapuhan jiwanya sendiri.",
+        "en": "A relentless enemy of mankind who directs all the elements of evil, with perpetual punishment for those who follow him, confronts humans with the fragility of their own souls.",
         "claim_ids": [
-          "lucifer-c01",
-          "lucifer-c04"
+          "lucifer-c27",
+          "lucifer-c28",
+          "lucifer-c29"
         ]
       }
     },
-    "perlu_riset": "Riset hanya membahas nama Lucifer sebagai bintang fajar, asosiasinya dengan Iblis atau malaikat yang jatuh, dan tafsir Yesaya; kekuatan, pemberontakan, kejatuhan, dan kuasanya atas neraka belum ada.",
     "oleh": "claude-lokal",
-    "tanggal": "2026-10-07"
+    "tanggal": "2026-10-08"
   },
   "nyx": {
     "power": "cosmic",
@@ -120,31 +138,38 @@
   },
   "thoth": {
     "power": "divine",
-    "threat": null,
-    "fear": null,
+    "threat": "t1",
+    "fear": "f3",
     "reasons": {
       "power": {
-        "id": "Dewa tulisan, sihir, kebijaksanaan, dan bulan yang juga mendampingi Osiris dalam penghakiman orang mati menunjukkan kuasa atas ranah, sehingga dinilai Divine.",
-        "en": "A god of writing, magic, wisdom, and the moon who also presided over the judgment of the dead with Osiris shows authority over domains, supporting Divine.",
+        "id": "Penyusun dan penegak hukum ma'at, pencipta lima hari di luar tahun lewat taruhan dengan bulan, pengetahuan atas takdir, dan wakil sang pencipta atas langit malam menjadi dasar Divine.",
+        "en": "Framer and enforcer of the laws of ma'at, maker of five days outside the year by his wager with the moon, knower of fate and the creator's deputy over the night sky support Divine.",
         "claim_ids": [
-          "thoth-c01",
-          "thoth-c07",
-          "thoth-c09"
+          "thoth-c19",
+          "thoth-c22",
+          "thoth-c25",
+          "thoth-c27",
+          "thoth-c28"
         ]
       },
       "threat": {
-        "id": "Riset tidak memuat perbuatan merusak; peran juru tulis dan penghakiman bukan bukti ancaman, sehingga ancaman belum dinilai.",
-        "en": "The research holds no destructive deeds; a scribal and judging role is not evidence of threat, so threat remains unassessed.",
-        "claim_ids": []
+        "id": "Satu-satunya dasar ancaman adalah perannya sebagai algojo tanpa belas kasihan dalam menegakkan ma'at, yang menimpa pelanggar perorangan; perannya yang lain menyembuhkan dan melindungi.",
+        "en": "The only basis for threat is his role as merciless executioner in enforcing ma'at, which falls on individual offenders; his other roles heal and protect.",
+        "claim_ids": [
+          "thoth-c19"
+        ]
       },
       "fear": {
-        "id": "Riset tidak memuat gambaran yang menimbulkan rasa takut; adegan penimbangan jiwa belum cukup untuk menilai jenis ketakutannya.",
-        "en": "The research holds no fear-inducing portrayal; the soul-weighing scene alone is not enough to judge a type of fear.",
-        "claim_ids": []
+        "id": "Mengetahui masa depan, menuliskan nasib seseorang saat lahir, dan mencatat hasil penimbangan hati adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Knowing the future, inscribing a person's fate at birth and recording the weighing of the heart are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "thoth-c19",
+          "thoth-c25",
+          "thoth-c26"
+        ]
       }
     },
-    "perlu_riset": "Riset tidak membahas mitos spesifik Thoth (misalnya perannya dalam kisah Ra, Osiris, atau Horus) maupun sisi menakutkannya, sehingga ancaman dan ketakutan belum bisa dinilai.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
   }
 }

@@ -342,9 +342,39 @@
     "tanggal": "2026-10-06"
   },
   "farfadet": {
-    "perlu_riset": "Riset menggambarkan farfadet sebagai peri kecil penolong tanpa memuat kekuatan, perbuatan merusak, atau skalanya; ketiga sumbu belum bisa dinilai secara adil.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f1",
+    "reasons": {
+      "power": {
+        "id": "Roh rumah yang sebagian besar tak terlihat atau tampil sebagai hewan, menuai dan mengirik gandum dalam semalam, dan menarik kereta besar menaiki lereng dengan kecepatan menakjubkan; kemampuan melampaui manusia tanpa kuasa atas suatu ranah.",
+        "en": "Household spirits mostly invisible or appearing as animals, reaping and threshing wheat in a night and hauling a huge cart up a slope at stupefying speed; abilities beyond human limits without authority over a domain.",
+        "claim_ids": [
+          "farfadet-c08",
+          "farfadet-c13",
+          "farfadet-c14"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan merusak yang tercatat hanya memukul pelayan yang malas dan, menurut seorang penulis, menyiksa dirinya; ancaman pada perorangan, sebab mereka umumnya dianggap menolong.",
+        "en": "The only harmful deeds recorded are beating lazy servants and, by one writer's account, tormenting him; a threat to individuals, as they are generally held to be helpful.",
+        "claim_ids": [
+          "farfadet-c13",
+          "farfadet-c16"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang didengar pada malam hari tanpa terlihat dan lenyap bersama keretanya oleh satu tanda salib menimbulkan rasa ganjil, bukan ancaman; sebagian orang menusuk jantung anak sapi untuk mengusirnya.",
+        "en": "Beings heard at night without being seen, vanishing with their cart at a single sign of the cross, evoke the uncanny rather than menace; some pierce calves' hearts to drive them off.",
+        "claim_ids": [
+          "farfadet-c08",
+          "farfadet-c14",
+          "farfadet-c15"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
   },
   "ganipota": {
     "power": "superhuman",
@@ -412,9 +442,40 @@
     "tanggal": "2026-10-06"
   },
   "hada": {
-    "perlu_riset": "Riset hanya memuat nama, habitat gua dan mata air, serta kekerabatan dengan laminak; kekuatan, perbuatan, dan skala hada belum ada.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Para hada memberi mata air khasiat penyembuh, kejantanan, dan kesuburan, membangun menara dan kincir dalam satu malam, dan bunga bermekaran di bawah langkah mereka; sihir melampaui manusia tanpa kuasa atas suatu ranah.",
+        "en": "The hadas give springs curative virtue, virility and fertility, build a tower and a mill in a single night, and flowers spring up under their steps; magic beyond human limits without authority over a domain.",
+        "claim_ids": [
+          "hada-c07",
+          "hada-c08",
+          "hada-c09",
+          "hada-c10",
+          "hada-c13"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak; dasar satu-satunya adalah kamus yang menyebut sang fée memegang kemalangan di tangan kiri, kemampuan menimpakan nasib buruk pada perorangan.",
+        "en": "The research holds no destructive deed; the only basis is the dictionary saying the fairy holds misfortune in her left hand, a capacity to bring ill fortune on an individual.",
+        "claim_ids": [
+          "hada-c12"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang dikatakan dewi yang jatuh, mengoper perkakas di udara di bawah sinar bulan, dan kehadirannya ditandai kain putih di dekat gua adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Beings said to be fallen divinities, passing tools through the air by moonlight, whose presence is marked by white linen near a cave, are an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "hada-c10",
+          "hada-c14",
+          "hada-c16"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
   },
   "karnabo": {
     "power": "superhuman",

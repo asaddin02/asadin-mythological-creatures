@@ -60,31 +60,41 @@
   },
   "bastet": {
     "power": "divine",
-    "threat": null,
-    "fear": null,
+    "threat": "t4",
+    "fear": "f4",
     "reasons": {
       "power": {
-        "id": "Dewi Mesir dengan kuasa atas ranah rumah, kesuburan, dan persalinan, putri Ra yang dikaitkan dengan Mata Ra; ranah itu menjadi dasar Divine.",
-        "en": "An Egyptian goddess with authority over the home, fertility, and childbirth, daughter of Ra and linked to the Eye of Ra; these domains support Divine.",
+        "id": "Dewi singa betina pejuang matahari, pembela raja dan Ra, dan salah satu Mata Ra; ranah rumah, kesuburan, dan perlindungan serta sisi pembalasnya menjadi dasar Divine.",
+        "en": "A fierce lioness warrior goddess of the sun, defender of the king and of Ra and one of the Eye of Ra goddesses; her domains of home, fertility and protection with her avenging side support Divine.",
         "claim_ids": [
           "bastet-c01",
-          "bastet-c03"
+          "bastet-c26",
+          "bastet-c27",
+          "bastet-c30"
         ]
       },
       "threat": {
-        "id": "Riset menampilkan Bastet sebagai pelindung dan tidak memuat perbuatan merusak; ancaman belum dinilai.",
-        "en": "The research presents Bastet as a protector and holds no destructive deeds; threat remains unassessed.",
-        "claim_ids": []
+        "id": "Para penjagal Bastet dikatakan menimpakan wabah dan bencana lain kepada manusia, dan ia bergelar Penguasa Pembantaian; skalanya tidak dirinci, sehingga ditafsirkan regional, bukan runtuhnya peradaban.",
+        "en": "The slaughterers of Bastet are said to inflict plague and other disasters on humanity and she is titled Lady of Slaughter; the scale is not specified, so it is read as regional rather than civilizational.",
+        "claim_ids": [
+          "bastet-c18",
+          "bastet-c19",
+          "bastet-c21"
+        ]
       },
       "fear": {
-        "id": "Riset menggambarkan peran pelindung dan citra kucing, tanpa kisah yang menimbulkan rasa takut; Fear belum dinilai.",
-        "en": "The research describes a protective role and feline imagery without any account that evokes fear; Fear remains unassessed.",
-        "claim_ids": []
+        "id": "Wabah yang dikirim lewat para penjagalnya dan gelar Penguasa Kengerian menempatkan rasa takutnya pada kerapuhan hidup di hadapan dewi yang menghukum, meski ia juga sangat dipuja.",
+        "en": "Plague sent through her slaughterers and the title Lady of Dread place the fear in life's fragility before a punishing goddess, even though she was also greatly venerated.",
+        "claim_ids": [
+          "bastet-c17",
+          "bastet-c18",
+          "bastet-c19",
+          "bastet-c24"
+        ]
       }
     },
-    "perlu_riset": "Riset hanya membahas ranah, ikonografi, dan pusat pemujaan di Bubastis; sisi garang sebagai singa dan Mata Ra, hubungannya dengan Sekhmet, serta kemampuan konkretnya belum diuraikan, sehingga Threat dan Fear belum bisa dinilai adil.",
-    "oleh": "claude-cloud",
-    "tanggal": "2026-10-06"
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
   },
   "elf": {
     "power": "superhuman",
