@@ -1985,6 +1985,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "amun": {
+    "power": "cosmic",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Yang Mencipta Diri Sendiri dan Raja Para Dewa yang berdiri di tanah kering pertama dan mencipta dunia termasuk dirinya, dewa kosmis universal yang hadir di mana-mana seperti angin; kuasa pencipta berskala kosmos.",
+        "en": "The Self-created One and King of the Gods who stood on the first dry ground and created the world including himself, a universal cosmic god present everywhere like the wind; creative power at cosmic scale.",
+        "claim_ids": [
+          "amun-c06",
+          "amun-c15",
+          "amun-c17",
+          "amun-c20"
+        ]
+      },
+      "threat": {
+        "id": "Setelah menyerap Montu ia menjadi dewa perang yang dimohon di medan laga, dan Ahmose menyandarkan kemenangannya atas Hyksos kepadanya; daya rusak yang tersirat berskala kerajaan, bukan dunia.",
+        "en": "Having absorbed Montu he became a war god invoked in battle, and Ahmose credited his victory over the Hyksos to him; the implied destructive reach is that of a kingdom, not the world.",
+        "claim_ids": [
+          "amun-c14",
+          "amun-c19",
+          "amun-c21"
+        ]
+      },
+      "fear": {
+        "id": "Kehadiran yang tak terlihat tetapi terasa seperti angin, orakel yang menyampaikan kehendak ilahi, dan pencipta yang melahirkan dirinya sendiri adalah keberadaan di luar hukum alam; ia pembela orang kecil.",
+        "en": "An unseen presence felt like the wind, oracles that convey the divine will and a creator who begot himself are an existence beyond natural law; he is the advocate of the humble.",
+        "claim_ids": [
+          "amun-c16",
+          "amun-c20",
+          "amun-c22"
+        ]
+      }
+    }
+  },
   "amunet": {
     "power": "cosmic",
     "threat": null,
@@ -2201,6 +2236,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan dewa langit yang sering berada di latar mitos, bukan sumber rasa takut; Fear belum dinilai.",
         "en": "The research describes a sky god who often stays in the background of myths, not a source of fear; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "anubis": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewa pembalseman dan penjaga makam, Raja Orang Mati sebelum Osiris, Penguasa Tanah Suci dan Tuan Rahasia yang menghakimi dan membimbing jiwa; kuasa atas ranah kematian menjadi dasar Divine.",
+        "en": "God of embalming and tomb protection, King of the Dead before Osiris, Lord of the Sacred Land and Master of Secrets who judges and guides souls; authority over the domain of death supports Divine.",
+        "claim_ids": [
+          "anubis-c01",
+          "anubis-c14",
+          "anubis-c18",
+          "anubis-c19"
+        ]
+      },
+      "threat": {
+        "id": "Ia dan pasukan utusannya menghukum perusak makam, dan pada masa akhir ia disebut memimpin pasukan utusan iblis yang menimpakan penderitaan dan kematian; ancaman berskala pasukan, bukan wilayah.",
+        "en": "He and his army of messengers punish tomb violators, and in later times he is said to command an army of demon messengers who inflict suffering and death; a threat at the scale of a host, not a region.",
+        "claim_ids": [
+          "anubis-c20",
+          "anubis-c22",
+          "anubis-c26"
+        ]
+      },
+      "fear": {
+        "id": "Ia menguliti Set dan mengenakan kulitnya sebagai peringatan, mengetahui apa yang menanti di balik kematian, dan menimbang hati; rasa takut itu menghadapkan manusia pada penghakiman sesudah mati.",
+        "en": "He flayed Set and wore the skin as a warning, knows what waits beyond death and weighs the heart; that fear confronts humans with judgment after death.",
+        "claim_ids": [
+          "anubis-c15",
+          "anubis-c18",
+          "anubis-c22"
+        ]
       }
     }
   },
@@ -2617,6 +2687,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "ares": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa perang Olympus yang berkuasa atas keberanian dan kebrutalan pertempuran, disebut penghancur kota dan penembus perisai, pengendara kereta berkuda penyembur api; kuasa atas ranah perang menjadi dasar Divine.",
+        "en": "Olympian god of war with authority over courage and the brutality of battle, called city-sacking and shield-piercing, rider of a chariot of fire-breathing horses; authority over the domain of war supports Divine.",
+        "claim_ids": [
+          "ares-c01",
+          "ares-c10",
+          "ares-c44",
+          "ares-c50"
+        ]
+      },
+      "threat": {
+        "id": "Hesiod menyebutnya penghancur kota; ia memimpin pasukan Troya dan aumannya seperti sepuluh ribu prajurit menggetarkan kedua pihak; daya rusaknya berskala wilayah, tetapi ia sering dikalahkan.",
+        "en": "Hesiod calls him city-sacking; he leads the Trojan host and his bellow like ten thousand warriors shakes both armies; regional destructive force, though he is often beaten.",
+        "claim_ids": [
+          "ares-c44",
+          "ares-c46",
+          "ares-c55",
+          "ares-c47"
+        ]
+      },
+      "fear": {
+        "id": "Auman yang menggetarkan dua pasukan, berubah menjadi babi hutan untuk membunuh Adonis, dan kerajaan naga penjaga adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A bellow that shakes two armies, turning into a boar to kill Adonis and dragon guardians are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "ares-c29",
+          "ares-c32",
+          "ares-c55"
+        ]
+      }
+    }
+  },
   "arikura-no-baba": {
     "power": "superhuman",
     "threat": null,
@@ -2724,6 +2830,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "artemis-c12",
           "artemis-c11"
+        ]
+      }
+    }
+  },
+  "asclepius": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa pengobatan yang menghidupkan kembali orang mati dengan darah Gorgon, menyembuhkan lewat mimpi di kuil-kuilnya, dan diangkat di antara bintang; kuasa atas ranah penyembuhan menjadi dasar Divine.",
+        "en": "God of medicine who revived the dead with the Gorgon's blood, heals through dreams in his temples and was set among the stars; authority over healing supports Divine.",
+        "claim_ids": [
+          "asclepius-c01",
+          "asclepius-c13",
+          "asclepius-c15",
+          "asclepius-c32"
+        ]
+      },
+      "threat": {
+        "id": "Darah dari sisi kiri Gorgon ia pakai untuk membinasakan orang; satu-satunya daya rusak yang tercatat, pada perorangan, sementara ia terutama penyembuh.",
+        "en": "He used the blood from the Gorgon's left side to destroy people; the only recorded destructive power, on individuals, while he is above all a healer.",
+        "claim_ids": [
+          "asclepius-c15"
+        ]
+      },
+      "fear": {
+        "id": "Menghidupkan orang mati sampai Zeus menyambarnya dengan petir dan menyembuhkan lewat mimpi adalah kuasa di luar hukum alam; ia dewa yang ramah, bukan pemangsa.",
+        "en": "Raising the dead until Zeus struck him with a thunderbolt and healing through dreams are powers beyond natural law; he is a kindly god, not a predator.",
+        "claim_ids": [
+          "asclepius-c13",
+          "asclepius-c28",
+          "asclepius-c32"
         ]
       }
     }
@@ -2894,6 +3033,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "aten": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Cakram matahari sebagai dewa tunggal yang mencipta semua negeri dan manusia, membentuk bumi menurut kehendaknya sendiri, memberi napas kehidupan, dan mengatur musim; kuasa pencipta berskala kosmos.",
+        "en": "The sun disk as sole god who created all countries and peoples, moulds the earth to his wish alone, gives the breath of life and orders the seasons; creative power at cosmic scale.",
+        "claim_ids": [
+          "aten-c07",
+          "aten-c20",
+          "aten-c22",
+          "aten-c31"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Aten; Himne Agung hanya menyebut makhluk mati ketika ia beristirahat sebagai tatanan alam, bukan hukuman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Aten; the Great Hymn only says beings die when he rests, as the natural order rather than punishment, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Cakram hidup yang sinarnya berujung tangan memberi kehidupan, jauh namun hadir di bumi dengan gerak yang tersembunyi, adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A living disk whose hand-tipped rays give life, distant yet present on earth with hidden movements, is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "aten-c02",
+          "aten-c15",
+          "aten-c17"
+        ]
+      }
+    }
+  },
   "athena": {
     "power": "divine",
     "threat": "t3",
@@ -2921,6 +3091,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "athena-c21",
           "athena-c15"
+        ]
+      }
+    }
+  },
+  "atlas": {
+    "power": "cosmic",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Titan yang memikul langit di pundaknya dan menjaga pilar yang memisahkan langit dan bumi, unggul dalam kekuatan dan mengetahui kedalaman semua laut; fungsinya menopang kosmos.",
+        "en": "The Titan who bears the sky on his shoulders and guards the pillars that keep sky and earth apart, pre-eminent in strength and knowing the depths of all seas; his function sustains the cosmos.",
+        "claim_ids": [
+          "atlas-c01",
+          "atlas-c12",
+          "atlas-c13",
+          "atlas-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Atlas; ia memimpin para Titan melawan Olympus tetapi dihukum menopang langit, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Atlas; he led the Titans against Olympus but was punished to bear the sky, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Menopang kubah langit dan diubah menjadi gunung oleh kepala Medusa adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral atas lambang ketahanan.",
+        "en": "Bearing the vault of heaven and being turned into a mountain by Medusa's head are an existence beyond natural law; this fear is no moral judgment of the symbol of endurance.",
+        "claim_ids": [
+          "atlas-c13",
+          "atlas-c18",
+          "atlas-c08"
         ]
       }
     }
@@ -7598,6 +7799,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "cronus": {
+    "power": "cosmic",
+    "threat": "t5",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Raja para Titan dan dewa waktu yang melahap segalanya, yang mengebiri Langit, memerintah Zaman Emas, dan menelan para dewa yang baru lahir; kuasa atas kosmos sebelum Zeus.",
+        "en": "King of the Titans and god of all-devouring time, who castrated Heaven, ruled the Golden Age and swallowed the newborn gods; authority over the cosmos before Zeus.",
+        "claim_ids": [
+          "cronus-c02",
+          "cronus-c03",
+          "cronus-c05",
+          "cronus-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia memutilasi ayahnya Langit, memenjarakan Cyclops dan Hecatonchires di Tartarus, menelan lima dewa, dan memerangi Olympus sepuluh tahun; kehancuran yang tercatat menimpa pemerintahan para dewa, bukan dunia manusia.",
+        "en": "He mutilated his father Heaven, imprisoned the Cyclopes and Hecatonchires in Tartarus, swallowed five gods and fought Olympus for ten years; recorded destruction falls on the regime of the gods, not the human world.",
+        "claim_ids": [
+          "cronus-c13",
+          "cronus-c19",
+          "cronus-c05",
+          "cronus-c20"
+        ]
+      },
+      "fear": {
+        "id": "Bapak yang melahap anak-anaknya saat lahir dan waktu yang melahap segalanya menghadapkan manusia pada ketidakberdayaan di hadapan waktu; sebagian sumber menyebut kurban manusia pada Kronia.",
+        "en": "A father who swallows his children at birth and time that devours all confront humans with helplessness before time; some sources speak of human sacrifice at the Kronia.",
+        "claim_ids": [
+          "cronus-c05",
+          "cronus-c02",
+          "cronus-c39"
+        ]
+      }
+    }
+  },
   "cu-sith": {
     "power": "superhuman",
     "threat": "t1",
@@ -8123,6 +8360,77 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "demeter": {
+    "power": "divine",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dewi Olympus atas panen, pertanian, dan kesuburan bumi yang mengajarkan pertanian kepada manusia dan dapat membuat seluruh bumi berbuah; kuasa atas ranah kesuburan menjadi dasar Divine.",
+        "en": "Olympian goddess of harvest, agriculture and the earth's fertility who taught humankind farming and can make the whole earth bear fruit; authority over the domain of fertility supports Divine.",
+        "claim_ids": [
+          "demeter-c01",
+          "demeter-c10",
+          "demeter-c18",
+          "demeter-c31"
+        ]
+      },
+      "threat": {
+        "id": "Ia mendatangkan tahun yang paling mengerikan bagi umat manusia: tanah tidak membuat benih bertunas sampai putrinya dikembalikan; kelaparan atas seluruh umat manusia adalah ancaman global.",
+        "en": "She brought a most dreadful year on mankind: the ground would not let seed sprout until her daughter was returned; famine over all humanity is a global threat.",
+        "claim_ids": [
+          "demeter-c03",
+          "demeter-c04",
+          "demeter-c29",
+          "demeter-c12"
+        ]
+      },
+      "fear": {
+        "id": "Hidup manusia bergantung pada perkenannya: ia mengutuk Erysichthon dengan lapar tak terpuaskan dan menahan benih seluruh bumi; rasa takut itu menyadarkan betapa kecil kendali manusia.",
+        "en": "Human life hangs on her favour: she cursed Erysichthon with unquenchable hunger and withheld the seed of the whole earth; that fear confronts humans with how little control they have.",
+        "claim_ids": [
+          "demeter-c12",
+          "demeter-c17",
+          "demeter-c29"
+        ]
+      }
+    }
+  },
+  "demon": {
+    "power": "superhuman",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Entri kategori: roh gaib yang dapat merasuki, menyebabkan penyakit dan kegilaan, tak terlihat, abadi, dan dalam sebagian kisah mengubah manusia menjadi batu; kemampuan melampaui manusia dengan kuasa lebih kecil daripada dewa.",
+        "en": "A category entry: supernatural spirits that possess, cause disease and madness, turn invisible, are immortal and in some tales turn humans to stone; abilities beyond human limits with less power than a deity.",
+        "claim_ids": [
+          "demon-c10",
+          "demon-c18",
+          "demon-c28",
+          "demon-c29"
+        ]
+      },
+      "threat": {
+        "id": "Iblis pengembara dikaitkan dengan wabah dan kematian, masing-masing menyebabkan penyakit atau bencana alam tertentu, dan Lamashtu ditugaskan membunuh manusia agar tidak terlalu banyak; ancaman berskala permukiman, berbeda menurut jenisnya.",
+        "en": "Wandering demons are tied to plagues and death, each causing specific diseases or natural disasters, and Lamashtu was tasked with killing humans to curb their numbers; a settlement-scale threat that varies by kind.",
+        "claim_ids": [
+          "demon-c09",
+          "demon-c17",
+          "demon-c20"
+        ]
+      },
+      "fear": {
+        "id": "Iblis ditakuti terutama karena kuasanya merasuki makhluk hidup, yang menuntut pengusiran; keberadaan di luar hukum alam, ditangkal dengan jimat dan lambang suci.",
+        "en": "Demons are feared above all for their power to possess living beings, calling for exorcism; an existence beyond natural law, warded off by amulets and sacred symbols.",
+        "claim_ids": [
+          "demon-c10",
+          "demon-c11",
+          "demon-c27"
+        ]
+      }
+    }
+  },
   "demon-cat": {
     "power": "superhuman",
     "threat": null,
@@ -8367,6 +8675,79 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan mereka sebagai penjaga yang tidak menakutkan; Fear belum dinilai.",
         "en": "The research portrays them as non-frightening guardians; fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "diana": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi bulan dan terang, perburuan, hutan, air, dan kelahiran, pemanah setara Apollo, pelindung budak dan rakyat kecil; kuasa atas ranah bulan dan perburuan menjadi dasar Divine.",
+        "en": "Goddess of the moon and light, the hunt, woods, waters and childbirth, an archer equal to Apollo and protector of slaves and the common people; authority over the moon and the hunt supports Divine.",
+        "claim_ids": [
+          "diana-c01",
+          "diana-c11",
+          "diana-c22",
+          "diana-c27"
+        ]
+      },
+      "threat": {
+        "id": "Bersama Apollo ia membunuh keempat belas anak Niobe, mengubah Actaeon menjadi rusa yang dicabik anjingnya, dan menahan air agar armada Yunani tidak berlayar; daya rusak pada kelompok.",
+        "en": "With Apollo she killed Niobe's fourteen children, turned Actaeon into a stag torn by his hounds and stilled the waters so the Greek fleet could not sail; destructive force on groups.",
+        "claim_ids": [
+          "diana-c12",
+          "diana-c36",
+          "diana-c37",
+          "diana-c17"
+        ]
+      },
+      "fear": {
+        "id": "Mengubah manusia menjadi rusa dan merpati, menidurkan Endymion selamanya, dan menjadi rasi bintang bagi Orion adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Turning humans into a stag and pigeons, putting Endymion to eternal sleep and making Orion a constellation are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "diana-c08",
+          "diana-c14",
+          "diana-c15",
+          "diana-c16"
+        ]
+      }
+    }
+  },
+  "dionysus": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa Olympus atas anggur, tumbuhan, dan perayaan yang juga dewa orakel dan pelindung teater, menaklukkan musuh dengan pasukan Pan dan Satyr; kuasa atas ranah anggur dan kegilaan menjadi dasar Divine.",
+        "en": "Olympian god of wine, vegetation and festivity who is also an oracular god and protector of theatre, conquering his enemies with a host of Pans and Satyrs; authority over wine and frenzy supports Divine.",
+        "claim_ids": [
+          "dionysus-c03",
+          "dionysus-c12",
+          "dionysus-c16",
+          "dionysus-c17"
+        ]
+      },
+      "threat": {
+        "id": "Negeri Edonia berhenti berbuah setelah Lycurgus menawannya, Pentheus dicabik ibunya yang gila, dan para bajak laut berubah menjadi lumba-lumba; murkanya menjangkau satu negeri.",
+        "en": "The land of the Edones ceased to bear fruit after Lycurgus seized him, Pentheus was torn apart by his maddened mother and the pirates became dolphins; his wrath reaches a whole land.",
+        "claim_ids": [
+          "dionysus-c13",
+          "dionysus-c14",
+          "dionysus-c15",
+          "dionysus-c31"
+        ]
+      },
+      "fear": {
+        "id": "Tiang kapal menjadi ular dan anggur, dewa berubah menjadi singa, dan kegilaan yang dikirimnya adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A mast turned to serpents and vine, the god changed into a lion and the madness he sends are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "dionysus-c15",
+          "dionysus-c28",
+          "dionysus-c40"
+        ]
       }
     }
   },
@@ -9111,6 +9492,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan rusa ini sebagai bagian dari hewan pohon dunia tanpa unsur menakutkan; Fear belum dinilai.",
         "en": "The research presents this stag as one of the world tree’s animals with no frightening element; fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "durga": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Perwujudan pejuang Devi yang lahir dari energi gabungan para dewa, memegang senjata mereka di sepuluh tangannya, dan melahirkan para Matrika dan Kali dalam pertempuran; kuasa atas perlindungan dan perang menjadi dasar Divine.",
+        "en": "The warrior manifestation of Devi born of the gods' combined energy, holding their weapons in her ten arms and manifesting the Matrikas and Kali in battle; authority over protection and war supports Divine.",
+        "claim_ids": [
+          "durga-c03",
+          "durga-c11",
+          "durga-c19",
+          "durga-c21"
+        ]
+      },
+      "threat": {
+        "id": "Ia membunuh Mahisa yang telah mengusir sebagian besar dewa dari surga dan memerangi pasukan Shumbha dan Nishumbha; daya rusaknya berskala wilayah dan diarahkan pada iblis.",
+        "en": "She killed Mahisa, who had driven most of the gods from heaven, and fought the hosts of Shumbha and Nishumbha; regional-scale destructive force aimed at demons.",
+        "claim_ids": [
+          "durga-c14",
+          "durga-c19",
+          "durga-c41"
+        ]
+      },
+      "fear": {
+        "id": "Dewi bersepuluh lengan di atas singa yang berubah menjadi api dan memenggal iblis yang berganti wujud adalah keberadaan di luar hukum alam; ia dipuja sebagai penghilang penderitaan.",
+        "en": "A ten-armed goddess on a lion who turns into fire and beheads a shape-changing demon is an existence beyond natural law; she is worshipped as the one who removes suffering.",
+        "claim_ids": [
+          "durga-c13",
+          "durga-c17",
+          "durga-c40"
+        ]
       }
     }
   },
@@ -10020,6 +10436,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "eros": {
+    "power": "cosmic",
+    "threat": "t2",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Dalam Hesiod ia dewa purba yang bersama Chaos dan Gaia bertanggung jawab atas penciptaan, daya pendorong lahirnya kehidupan di kosmos, yang menaklukkan akal semua dewa dan manusia; kuasa berskala kosmos.",
+        "en": "In Hesiod a primeval god responsible with Chaos and Gaia for Creation, the driving force behind new life in the cosmos, who overcomes the mind of all gods and men; power at cosmic scale.",
+        "claim_ids": [
+          "eros-c13",
+          "eros-c30",
+          "eros-c31",
+          "eros-c40"
+        ]
+      },
+      "threat": {
+        "id": "Serangan panahnya yang tiba-tiba membawa nafsu sembrono dan kebingungan pada sasaran perorangan, seperti Apollo dan Medea; ia tidak menghancurkan secara fisik.",
+        "en": "His surprise arrow attacks bring reckless passion and confusion to individual targets such as Apollo and Medea; he does no physical destruction.",
+        "claim_ids": [
+          "eros-c11",
+          "eros-c18",
+          "eros-c21",
+          "eros-c22"
+        ]
+      },
+      "fear": {
+        "id": "Ia melemaskan anggota tubuh dan menaklukkan akal serta pertimbangan semua dewa dan manusia; rasa takut itu adalah hilangnya kendali atas diri sendiri.",
+        "en": "He unnerves the limbs and overcomes the mind and wise counsels of all gods and men; that fear is the loss of control over oneself.",
+        "claim_ids": [
+          "eros-c05",
+          "eros-c31",
+          "eros-c36"
+        ]
+      }
+    }
+  },
   "eryr-gwern-abwy": {
     "power": "superhuman",
     "threat": null,
@@ -10160,6 +10612,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "fachan-c01",
           "fachan-c06"
+        ]
+      }
+    }
+  },
+  "fairy": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Entri kategori: makhluk abadi yang dapat lenyap, berubah wujud, dan membuat ilusi, dari ratu peri seukuran manusia sampai peri rumah kecil; kemampuan melampaui manusia tanpa kuasa atas suatu ranah.",
+        "en": "A category entry: immortal beings that can vanish, shape-shift and create illusions, from full-sized elf-queens to small house fairies; abilities beyond human limits without authority over a domain.",
+        "claim_ids": [
+          "fairy-c03",
+          "fairy-c04",
+          "fairy-c21",
+          "fairy-c30"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang tercatat menimpa perorangan: menculik anak dan menukarnya dengan changeling, melempar batu, dan menahan manusia yang makan di negeri peri untuk selamanya.",
+        "en": "Recorded deeds fall on individuals: abducting children and leaving changelings, throwing stones and keeping forever any human who eats in Fairyland.",
+        "claim_ids": [
+          "fairy-c06",
+          "fairy-c14",
+          "fairy-c15"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang mengganggu urusan manusia dengan sihir, lenyap sesuka hati, dan hidup di benteng tanah kuno adalah keberadaan di luar hukum alam; tergantung perilaku manusia mereka baik atau berbahaya.",
+        "en": "Beings that interfere magically in human affairs, vanish at will and dwell in ancient earth-forts are an existence beyond natural law; benevolent or dangerous according to human conduct.",
+        "claim_ids": [
+          "fairy-c01",
+          "fairy-c04",
+          "fairy-c12"
         ]
       }
     }
@@ -11407,6 +11894,43 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "gaia": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f5",
+    "reasons": {
+      "power": {
+        "id": "Bumi itu sendiri, ibu agung seluruh ciptaan yang melahirkan Langit, Laut, para Titan, Cyclops, Hecatoncheires, para Giant, dan Typhon; keberadaan berskala kosmos.",
+        "en": "The Earth herself, great mother of all creation who bore Heaven, the Sea, the Titans, Cyclopes, Hecatoncheires, the Giants and Typhon; an existence at cosmic scale.",
+        "claim_ids": [
+          "gaia-c01",
+          "gaia-c25",
+          "gaia-c31",
+          "gaia-c45"
+        ]
+      },
+      "threat": {
+        "id": "Ia mempersenjatai Cronus melawan Langit, lalu melahirkan bangsa Giant dan monster terbesar Typhon untuk menggulingkan Zeus; upaya menggulingkan tatanan para dewa itu gagal, tetapi skalanya adalah dunia.",
+        "en": "She armed Cronus against Heaven, then bore the tribe of Giants and the greatest monster Typhon to overthrow Zeus; the attempt to topple the gods' order failed, but its scale was the world.",
+        "claim_ids": [
+          "gaia-c14",
+          "gaia-c26",
+          "gaia-c27",
+          "gaia-c45"
+        ]
+      },
+      "fear": {
+        "id": "Bumi yang hidup, yang dari dagingnya lahir makhluk fana dan yang menelurkan Giant dan Typhon, membuat manusia terasa tidak berarti di hadapan skalanya; ia juga diberi kurban dan sumpah.",
+        "en": "A living Earth from whose flesh mortal creatures were born and who spawned the Giants and Typhon renders humanity insignificant before her scale; she also received sacrifice and oaths.",
+        "claim_ids": [
+          "gaia-c25",
+          "gaia-c28",
+          "gaia-c36",
+          "gaia-c45"
+        ]
+      }
+    }
+  },
   "gallinipper-mythology": {
     "power": "monstrous",
     "threat": "t1",
@@ -11601,6 +12125,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan gandharva sebagai musisi surgawi pendamping apsara, bukan sosok yang menimbulkan rasa takut; Fear belum dinilai.",
         "en": "The research describes gandharvas as celestial musicians accompanying apsaras, not figures that inspire fear; fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "ganesha": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa yang disembah pertama sebelum dewa lain, penghilang sekaligus penempat rintangan, pemimpin para gana dan dewa tertinggi aliran Ganapatya; kuasa atas ranah permulaan menjadi dasar Divine.",
+        "en": "The god worshipped first before any other, remover and placer of obstacles, leader of the ganas and supreme god of the Ganapatya sect; authority over the domain of beginnings supports Divine.",
+        "claim_ids": [
+          "ganesha-c03",
+          "ganesha-c12",
+          "ganesha-c24",
+          "ganesha-c29"
+        ]
+      },
+      "threat": {
+        "id": "Ia menempatkan rintangan di jalan mereka yang perlu dikekang, bertahan melawan para bhutagana, dan melempar patahan gadingnya ke wajah Bulan; dampak yang tercatat pada perorangan.",
+        "en": "He places obstacles before those who need to be checked, held his own against the bhutaganas and hurled his broken tusk at the Moon's face; recorded impact on individuals.",
+        "claim_ids": [
+          "ganesha-c11",
+          "ganesha-c16",
+          "ganesha-c29"
+        ]
+      },
+      "fear": {
+        "id": "Dewa berkepala gajah yang dibangkitkan dengan kepala baru, menulis Mahabharata tanpa henti, dan menjaga pintu kuil dari yang tidak layak adalah keberadaan di luar hukum alam; dihormati sebagai tradisi hidup.",
+        "en": "An elephant-headed god revived with a new head, who writes the Mahabharata without pause and guards temple doorways against the unworthy, is an existence beyond natural law; respected as a living tradition.",
+        "claim_ids": [
+          "ganesha-c05",
+          "ganesha-c21",
+          "ganesha-c39"
+        ]
       }
     }
   },
@@ -12947,6 +13506,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hades": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Raja dunia bawah yang mendapat undian kabut dan kegelapan, dewa kekayaan tersembunyi bumi, pemilik helm yang membuat tak terlihat, dan penjaga gerbang yang tak bisa dilalui bayangan; kuasa atas ranah orang mati menjadi dasar Divine.",
+        "en": "King of the underworld allotted the mists and darkness, god of the earth's hidden wealth, owner of the helmet of invisibility and keeper of gates no shade can pass; authority over the realm of the dead supports Divine.",
+        "claim_ids": [
+          "hades-c01",
+          "hades-c09",
+          "hades-c15",
+          "hades-c16"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang tercatat menimpa perorangan: menculik Persephone, memenjarakan Theseus dan Peirithoos di takhta; ia menahan orang mati, bukan menghancurkan yang hidup.",
+        "en": "His recorded deeds fall on individuals: abducting Persephone and imprisoning Theseus and Peirithoos in thrones; he holds the dead rather than destroying the living.",
+        "claim_ids": [
+          "hades-c11",
+          "hades-c29",
+          "hades-c40"
+        ]
+      },
+      "fear": {
+        "id": "Dewa paling ditakuti yang disebut tanpa belas kasihan dan dibenci manusia, yang namanya pun dihindari, menghadapkan manusia pada kematian yang tak terelakkan.",
+        "en": "The most feared god, called pitiless and hated by mortals, whose very name was avoided, confronts humans with inescapable death.",
+        "claim_ids": [
+          "hades-c17",
+          "hades-c25",
+          "hades-c26"
+        ]
+      }
+    }
+  },
   "hafgufa": {
     "power": "monstrous",
     "threat": "t2",
@@ -13136,6 +13730,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "hannya-c01",
           "hannya-c03"
+        ]
+      }
+    }
+  },
+  "hanuman": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Putra Dewa Angin yang mewarisi kekuatan dan kecepatan, dapat mengubah wujud dan ukuran, terbang membawa gunung, tak terbunuh oleh baja atau petir, dan disebut makhluk terkuat di bumi; kuasa dewa yang masih dipuja.",
+        "en": "Son of the Wind God who inherits might and speed, changes form and size, flies carrying a mountain, cannot be slain by steel or thunderbolt and is called the mightiest being on earth; the power of a god still worshipped.",
+        "claim_ids": [
+          "hanuman-c07",
+          "hanuman-c15",
+          "hanuman-c17",
+          "hanuman-c34",
+          "hanuman-c35"
+        ]
+      },
+      "threat": {
+        "id": "Ia membakar seluruh benteng iblis di Lanka, membunuh beberapa jenderal iblis, dan mengancam mengaduk laut hingga airnya lari; daya rusak berskala kota.",
+        "en": "He set the whole demon fortress of Lanka ablaze, killed several demon generals and claims he could stir the sea until its waters flee; destructive force at settlement scale.",
+        "claim_ids": [
+          "hanuman-c11",
+          "hanuman-c12",
+          "hanuman-c37"
+        ]
+      },
+      "fear": {
+        "id": "Lompatan tiga ratus yojana, bayangannya yang melintasi laut seperti kapal, dan nama yang membuat iblis dan hantu menjauh adalah kuasa di luar hukum alam; ia dihormati sebagai teladan bakti.",
+        "en": "A leap of three hundred leagues, a shadow crossing the sea like a ship and a name that keeps demons and ghosts away are powers beyond natural law; he is honoured as an exemplar of devotion.",
+        "claim_ids": [
+          "hanuman-c28",
+          "hanuman-c33",
+          "hanuman-c40"
         ]
       }
     }
@@ -13490,6 +14120,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hephaestus": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa Olympus atas api, pandai besi, dan kerajinan yang menempa otomaton emas, Talos perunggu, dan senjata para dewa, serta mengajarkan seni kepada manusia; kuasa atas ranah api dan tempa menjadi dasar Divine.",
+        "en": "Olympian god of fire, smiths and crafts who forges golden automatons, bronze Talos and the gods' weapons and taught humankind the arts; authority over fire and the forge supports Divine.",
+        "claim_ids": [
+          "hephaestus-c10",
+          "hephaestus-c28",
+          "hephaestus-c29",
+          "hephaestus-c25"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengalahkan dewa sungai Skamandros dengan api dan menempa kalung terkutuk yang membinasakan keturunan Harmonia; daya rusak yang tercatat berskala sungai dan satu keluarga raja.",
+        "en": "He defeats the river god Scamander with fire and forges the cursed necklace that dooms Harmonia's descendants; recorded destruction at the scale of a river and one royal house.",
+        "claim_ids": [
+          "hephaestus-c16",
+          "hephaestus-c15",
+          "hephaestus-c36"
+        ]
+      },
+      "fear": {
+        "id": "Gadis-gadis emas yang berpikir dan berbicara, tripod yang bergerak sendiri, dan takhta yang menjerat Hera adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Golden maidens that think and speak, tripods that move by themselves and a throne that traps Hera are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "hephaestus-c06",
+          "hephaestus-c46",
+          "hephaestus-c47"
+        ]
+      }
+    }
+  },
   "heqet": {
     "power": "divine",
     "threat": null,
@@ -13547,6 +14212,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "hera-c26",
           "hera-c42",
           "hera-c39"
+        ]
+      }
+    }
+  },
+  "heracles": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pahlawan sekaligus dewa dengan kekuatan adimanusia yang mencekik Singa Nemea, mengangkat Antaeus dari bumi, dan mengalahkan Thanatos dalam gulat; ia diangkat ke Olympus tanpa kuasa atas suatu ranah.",
+        "en": "Hero and god of superhuman strength who strangled the Nemean Lion, lifted Antaeus from the earth and beat Thanatos in wrestling; raised to Olympus without authority over a domain.",
+        "claim_ids": [
+          "heracles-c01",
+          "heracles-c06",
+          "heracles-c16",
+          "heracles-c17",
+          "heracles-c19"
+        ]
+      },
+      "threat": {
+        "id": "Dalam kegilaan yang dikirim Hera ia membunuh istri dan anak-anaknya, dan ia membunuh Hydra dan monster lain; daya rusaknya pada kelompok, bukan permukiman.",
+        "en": "In the madness Hera sent he killed his wife and children, and he slew the Hydra and other monsters; destructive force on groups, not settlements.",
+        "claim_ids": [
+          "heracles-c08",
+          "heracles-c09",
+          "heracles-c11"
+        ]
+      },
+      "fear": {
+        "id": "Manusia yang mencekik ular sejak bayi, menaklukkan Kematian, dan menjadi dewa adalah keberadaan di luar hukum alam; ia pelindung pemuda, bukan pemangsa.",
+        "en": "A man who strangled snakes as an infant, overcame Death and became a god is an existence beyond natural law; he is a patron of youths, not a predator.",
+        "claim_ids": [
+          "heracles-c03",
+          "heracles-c17",
+          "heracles-c12"
         ]
       }
     }
@@ -13634,6 +14335,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "hermes": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pembawa pesan Olympus, pemandu jiwa ke dunia bawah, penguasa burung pertanda, singa, dan kawanan, pencipta huruf dan musik; kuasa atas ranah batas dan perjalanan menjadi dasar Divine.",
+        "en": "Olympian herald, guide of souls to the underworld, lord of birds of omen, lions and flocks, inventor of letters and music; authority over boundaries and journeys supports Divine.",
+        "claim_ids": [
+          "hermes-c01",
+          "hermes-c02",
+          "hermes-c28",
+          "hermes-c29"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan merusaknya tercatat pada perorangan: membunuh Argos bermata banyak, mengubah Battos menjadi batu, dan menutup mata manusia dengan tongkatnya.",
+        "en": "His harmful deeds fall on individuals: killing many-eyed Argos, turning Battos to stone and closing mortal eyes with his staff.",
+        "claim_ids": [
+          "hermes-c13",
+          "hermes-c25",
+          "hermes-c41"
+        ]
+      },
+      "fear": {
+        "id": "Tongkat yang membuka dan menutup mata manusia, kuasa mengirim atau mencabut tidur, dan peran pemandu jiwa ke Styx adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A staff that opens and closes mortal eyes, power to send or withhold sleep and the role of guiding souls to the Styx are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "hermes-c14",
+          "hermes-c41",
+          "hermes-c42"
+        ]
+      }
+    }
+  },
   "herne-the-hunter": {
     "power": "superhuman",
     "threat": "t1",
@@ -13662,6 +14398,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "herne-the-hunter-c03",
           "herne-the-hunter-c04"
+        ]
+      }
+    }
+  },
+  "hestia": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi perapian, rumah, dan api kurban yang menerima bagian setiap persembahan, disumpah atas namanya, dan dijadikan Zeus kepala para dewi di antara manusia; kuasa atas ranah perapian menjadi dasar Divine.",
+        "en": "Goddess of hearth, home and the sacrificial flame who receives a share of every offering, by whom oaths are sworn and whom Zeus made chief of goddesses among mortals; authority over the hearth supports Divine.",
+        "claim_ids": [
+          "hestia-c01",
+          "hestia-c06",
+          "hestia-c27",
+          "hestia-c32"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Hestia; peran pelindung atau pemberi berkah bukan bukti ancaman, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Hestia; a protective or beneficent role is not evidence of threat, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Api perapiannya yang hanya boleh dinyalakan kembali dari matahari dan bagiannya dalam setiap kurban di semua kuil adalah keberadaan di luar hukum alam; ia pelindung yang dikagumi, bukan ditakuti.",
+        "en": "A hearth fire that may only be relit from the sun and her share in every sacrifice in all temples are an existence beyond natural law; she is a protector held in awe, not dread.",
+        "claim_ids": [
+          "hestia-c29",
+          "hestia-c34",
+          "hestia-c43"
         ]
       }
     }
@@ -14179,6 +14946,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "horned-serpent-q1086222-c06",
           "horned-serpent-q1086222-c07"
+        ]
+      }
+    }
+  },
+  "horus": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa langit dan matahari, pelindung kerajaan, pembalas kesalahan dan penjaga tatanan, dewa perang yang dimohon raja sebelum bertempur, dan pencipta dalam satu versi; kuasa atas langit dan kerajaan menjadi dasar Divine.",
+        "en": "God of sky and sun, protector of royalty, avenger of wrongs and defender of order, a war god invoked by kings before battle and in one version a creator; authority over sky and kingship supports Divine.",
+        "claim_ids": [
+          "horus-c01",
+          "horus-c11",
+          "horus-c12",
+          "horus-c15"
+        ]
+      },
+      "threat": {
+        "id": "Ia bertempur melawan Set demi kekuasaan atas dunia, mengebiri atau melukai parah lawannya, dan mengusirnya ke gurun di luar Mesir; daya rusak yang tercatat berskala wilayah.",
+        "en": "He fought Set for control of the world, castrated or gravely damaged his foe and banished him to the deserts beyond Egypt; recorded destructive force at regional scale.",
+        "claim_ids": [
+          "horus-c20",
+          "horus-c22",
+          "horus-c25",
+          "horus-c11"
+        ]
+      },
+      "fear": {
+        "id": "Elang yang terbang jauh dari Ra dan kembali membawa kabar, mata yang hilang dan pulih dalam pertempuran, dan matahari yang bersatu dengannya adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A falcon that flies far from Ra and returns with news, an eye lost and restored in battle and the sun merged with him are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "horus-c16",
+          "horus-c20",
+          "horus-c06"
         ]
       }
     }
@@ -14758,6 +15561,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "indra": {
+    "power": "cosmic",
+    "threat": "t5",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Raja para dewa yang menciptakan alam semesta dengan memisahkan langit dan bumi, menopang langit, menetapkan bumi yang goyah, dan menyeimbangkan bumi di telapaknya; kuasa berskala kosmos.",
+        "en": "King of the gods who created the universe by propping apart heaven and earth, supported the sky, fixed the staggering earth and balances the earth in his palm; power at cosmic scale.",
+        "claim_ids": [
+          "indra-c16",
+          "indra-c35",
+          "indra-c54",
+          "indra-c01"
+        ]
+      },
+      "threat": {
+        "id": "Ia dipuja sebagai penghancur kota dan pasukan, pembunuh musuh dan iblis, yang satu petirnya membelah gunung; daya rusak pada skala bangsa dan kota.",
+        "en": "He is invoked as destroyer of cities and armies, slayer of enemies and demons, whose single thunderbolt splits a mountain; destructive force at the scale of nations and cities.",
+        "claim_ids": [
+          "indra-c18",
+          "indra-c19",
+          "indra-c37",
+          "indra-c49"
+        ]
+      },
+      "fear": {
+        "id": "Petir yang membelah gunung dan membunuh naga, perubahan wujud, dan kuasa atas hujan dan banjir adalah kuasa di luar hukum alam; ia dihormati sebagai pemberi hujan yang murah hati.",
+        "en": "Lightning that splits mountains and slays the dragon, shape-changing and power over rain and floods are powers beyond natural law; he is honoured as a generous rain-giver.",
+        "claim_ids": [
+          "indra-c25",
+          "indra-c46",
+          "indra-c36"
+        ]
+      }
+    }
+  },
   "indrik": {
     "power": "monstrous",
     "threat": null,
@@ -14921,6 +15760,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak menggambarkan rasa takut yang ia timbulkan; Fear belum dinilai.",
         "en": "The research does not describe a fear she causes; Fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "isis": {
+    "power": "cosmic",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Sihir Agung yang lebih besar daripada semua dewa, penguasa alam dan nasib, dipuja Yunani dan Romawi sebagai dewa tertinggi pencipta dunia, dan menyebut dirinya ibu segala sesuatu dan penguasa unsur-unsur; kuasa berskala kosmos.",
+        "en": "The Great Magic greater than all gods, ruler of nature and fate, worshipped by Greeks and Romans as the supreme deity who created the world and calling herself mother of all things and mistress of the elements; power at cosmic scale.",
+        "claim_ids": [
+          "isis-c11",
+          "isis-c16",
+          "isis-c36",
+          "isis-c42"
+        ]
+      },
+      "threat": {
+        "id": "Ia menciptakan ular yang menggigit Ra sampai sakit untuk memeras nama rahasianya dan memakai kuasa perubahannya untuk membinasakan Set dan pengikutnya; ancaman pada satu lawan dan pengikutnya.",
+        "en": "She made a snake that bit Ra ill to extort his secret name and used her transforming powers to destroy Set and his followers; a threat to one foe and his band.",
+        "claim_ids": [
+          "isis-c43",
+          "isis-c44"
+        ]
+      },
+      "fear": {
+        "id": "Menghidupkan Osiris sebagai burung kite, mengusir racun dengan mantra, dan mengatur planet, angin, dan keheningan neraka atas kehendaknya adalah kuasa di luar hukum alam; ia ibu pelindung, bukan pemangsa.",
+        "en": "Reviving Osiris as a kite, driving out poison with spells and disposing the planets, winds and silences of hell at her will are powers beyond natural law; she is a protective mother, not a predator.",
+        "claim_ids": [
+          "isis-c20",
+          "isis-c23",
+          "isis-c37"
+        ]
       }
     }
   },
@@ -15189,6 +16062,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "jinn": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Entri kategori: makhluk dari api tanpa asap yang tak terlihat, berubah wujud menjadi ular atau manusia, dan jenis terkuatnya (ifrit, marid) memiliki kekuatan dan sihir besar; kemampuan melampaui manusia, tetapi seorang manusia pun bisa membunuh jin dalam duel.",
+        "en": "A category entry: beings of smokeless fire, invisible, shape-shifting into snakes or humans, whose strongest kinds (ifrit, marid) have great strength and magic; abilities beyond human limits, yet a man could kill a jinni in single combat.",
+        "claim_ids": [
+          "jinn-c03",
+          "jinn-c07",
+          "jinn-c21",
+          "jinn-c28"
+        ]
+      },
+      "threat": {
+        "id": "Jin membalas gangguan dengan merasuki tubuh penyerang, ditakuti karena menyerang tanpa terlihat, dan Al-Qur'an menyebut mereka menyesatkan manusia dalam jumlah besar; ancaman pada perorangan dan kelompok.",
+        "en": "Jinn retaliate against harm by possessing the assailant, are feared for attacking unseen, and the Quran says they misled humans in great numbers; a threat to individuals and groups.",
+        "claim_ids": [
+          "jinn-c16",
+          "jinn-c20",
+          "jinn-c28"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk tak terlihat dari api yang merasuki, berubah wujud, dan berkumpul di gua-gua gelap adalah keberadaan di luar hukum alam; mereka tidak jahat secara bawaan.",
+        "en": "Invisible beings of fire that possess, shape-shift and gather in dark caves are an existence beyond natural law; they are not inherently evil.",
+        "claim_ids": [
+          "jinn-c06",
+          "jinn-c07",
+          "jinn-c31"
+        ]
+      }
+    }
+  },
   "joan-the-wad": {
     "power": "superhuman",
     "threat": "t1",
@@ -15280,6 +16188,75 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "jorogumo-c11",
           "jorogumo-c12",
           "jorogumo-c08"
+        ]
+      }
+    }
+  },
+  "juno": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Ratu surga dan dewi utama Romawi, pelindung negara dan setiap sisi hidup perempuan, bersenjata dalam wujud Sospita; kuasa atas ranah negara dan kelahiran menjadi dasar Divine.",
+        "en": "Queen of heaven and chief Roman goddess, protector of the state and of every aspect of women's lives, armed in her Sospita form; authority over the state and childbirth supports Divine.",
+        "claim_ids": [
+          "juno-c01",
+          "juno-c19",
+          "juno-c23",
+          "juno-c28"
+        ]
+      },
+      "threat": {
+        "id": "Ia menciptakan badai laut terhadap Aeneas yang digagalkan Neptunus; ancaman pada satu armada, bukan wilayah.",
+        "en": "She raised a sea storm against Aeneas that Neptune undid; a threat to one fleet, not a region.",
+        "claim_ids": [
+          "juno-c17",
+          "juno-c09"
+        ]
+      },
+      "fear": {
+        "id": "Badai yang dibangkitkan atas kehendaknya, angsa suci yang memperingatkan Roma, dan kehadirannya sebagai Juno setiap perempuan adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A storm raised at her will, sacred geese that warned Rome and her presence as every woman's Juno are an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "juno-c13",
+          "juno-c17",
+          "juno-c21"
+        ]
+      }
+    }
+  },
+  "jupiter": {
+    "power": "divine",
+    "threat": "t3",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa langit dan guruh, raja para dewa dan dewa tertinggi negara Romawi, pemegang petir dan penguasa cuaca; kuasa atas langit dan sumpah menjadi dasar Divine.",
+        "en": "God of sky and thunder, king of the gods and supreme deity of the Roman state, wielder of lightning and master of weather; authority over the sky and oaths supports Divine.",
+        "claim_ids": [
+          "jupiter-c01",
+          "jupiter-c05",
+          "jupiter-c23",
+          "jupiter-c24"
+        ]
+      },
+      "threat": {
+        "id": "Ia menghukum dengan petir: membakar Raja Tullus beserta rumahnya dan menghancurkan kediaman Lycaon; kehancuran yang tercatat berskala rumah dan istana.",
+        "en": "He punishes with the thunderbolt: burning King Tullus with his house and destroying Lycaon's dwelling; recorded destruction at the scale of a house or palace.",
+        "claim_ids": [
+          "jupiter-c13",
+          "jupiter-c32",
+          "jupiter-c37"
+        ]
+      },
+      "fear": {
+        "id": "Petir yang dikirim setelah peringatan, suara lewat guntur dan terbang burung, dan hukuman bagi pelanggar sumpah adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "Lightning sent after a warning, speech through thunder and the flight of birds, and punishment of perjurers are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "jupiter-c13",
+          "jupiter-c16",
+          "jupiter-c24"
         ]
       }
     }
@@ -15395,6 +16372,43 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset tidak memuat penggambaran rasa takut yang ditimbulkannya; jenis ketakutan belum dinilai.",
         "en": "The research holds no account of the fear it provokes; the fear type remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "kali": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Perwujudan waktu yang melahap segala sesuatu, dewi kematian dan kiamat, yang lahir dari murka Durga dan menelan para iblis utuh; kuasa atas waktu dan kehancuran berskala kosmos.",
+        "en": "The embodiment of time that devours all things, goddess of death and doomsday, born of Durga's anger and swallowing demons whole; authority over time and destruction at cosmic scale.",
+        "claim_ids": [
+          "kali-c01",
+          "kali-c12",
+          "kali-c34",
+          "kali-c20"
+        ]
+      },
+      "threat": {
+        "id": "Setelah menang ia mabuk kehancuran sehingga amukannya mengancam dunia sampai Siwa menghentikannya; ia memakan semua iblis yang ditemuinya dan memenggal segerombolan pencuri; ancaman global.",
+        "en": "After victory she grew so drunk on destruction that her rampage threatened the world until Shiva stopped her; she ate every demon she met and beheaded a whole gang of thieves; a global threat.",
+        "claim_ids": [
+          "kali-c14",
+          "kali-c15",
+          "kali-c33",
+          "kali-c22"
+        ]
+      },
+      "fear": {
+        "id": "Kalung kepala, rok lengan, lidah terjulur, dan waktu yang melahap semua menghadapkan manusia pada kematiannya sendiri; bagi pemujanya ia ibu yang menghilangkan rasa takut.",
+        "en": "The necklace of heads, skirt of arms, lolling tongue and all-devouring time confront humans with their own death; to her devotees she is the mother who removes fear.",
+        "claim_ids": [
+          "kali-c11",
+          "kali-c12",
+          "kali-c38",
+          "kali-c37"
+        ]
       }
     }
   },
@@ -17149,6 +18163,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "lakhey-c01",
           "lakhey-c03"
+        ]
+      }
+    }
+  },
+  "lakshmi": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi kekayaan, keberuntungan, dan keindahan yang lahir dari pengadukan samudra susu, disebut ibu dunia, dan sumber segala kekayaan; kuasa atas ranah kemakmuran menjadi dasar Divine.",
+        "en": "Goddess of wealth, fortune and beauty born from the churning of the ocean of milk, called mother of the world and the source of all wealth; authority over prosperity supports Divine.",
+        "claim_ids": [
+          "lakshmi-c01",
+          "lakshmi-c03",
+          "lakshmi-c08",
+          "lakshmi-c25"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Lakshmi; julukan Lola hanya menyebut pembagian keberuntungan yang berubah-ubah, bukan kehancuran, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Lakshmi; the epithet Lola only names her fickle dispensation of fortune, not destruction, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Muncul dari samudra susu di atas teratai, dimandikan gajah surgawi, dan lahir kembali sebagai Sita dan Rukmini adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral atas dewi pemberi berkah.",
+        "en": "Rising from the milky ocean on a lotus, bathed by heavenly elephants and reborn as Sita and Rukmini are an existence beyond natural law; this fear is no moral judgment of a goddess of blessings.",
+        "claim_ids": [
+          "lakshmi-c09",
+          "lakshmi-c22",
+          "lakshmi-c24"
         ]
       }
     }
@@ -19388,6 +20433,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "mars": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa perang Romawi kedua setelah Jupiter, pelindung Roma dan perbatasannya, bapak Romulus dan Remus, penjaga pertanian, dan dewa utama legiun; kuasa atas ranah perang menjadi dasar Divine.",
+        "en": "Roman war god second only to Jupiter, protector of Rome and its borders, father of Romulus and Remus, agricultural guardian and chief god of the legions; authority over the domain of war supports Divine.",
+        "claim_ids": [
+          "mars-c01",
+          "mars-c03",
+          "mars-c11",
+          "mars-c12"
+        ]
+      },
+      "threat": {
+        "id": "Riset menggambarkan Mars sebagai kekuatan militer penjaga perdamaian dan pelindung dari bahaya, tanpa perbuatan merusak yang tercatat; kuasa perangnya tidak dibuktikan dengan kehancuran, sehingga ancaman belum dinilai.",
+        "en": "The research presents Mars as military power that secures peace and wards off harm, with no destructive deed recorded; his war domain is not evidenced by destruction, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Serigala dan burung pelatuk yang menjadi pertanda kemenangan, orakel burung pelatuk, dan tombak suci yang digoyang sebelum perang adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "The wolf and woodpecker as omens of victory, a woodpecker oracle and sacred spears shaken before war are an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "mars-c18",
+          "mars-c19",
+          "mars-c47"
+        ]
+      }
+    }
+  },
   "martolea": {
     "power": "superhuman",
     "threat": "t1",
@@ -19592,6 +20668,74 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menceritakan lai tentang pengkhianatan dan pemulihan, bukan rasa takut yang ditimbulkan Melion; Fear belum dinilai.",
         "en": "The research tells a lai of betrayal and restoration, not of fear caused by Melion; fear is not assessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "mercury": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa perdagangan, perbatasan, dan perantara dewa dan manusia, pemandu jiwa ke dunia bawah, pembawa mimpi, dan pelindung pedagang; kuasa atas ranah perdagangan dan perjalanan menjadi dasar Divine.",
+        "en": "God of commerce and boundaries, mediator between gods and mortals, guide of souls to the underworld, bearer of dreams and protector of merchants; authority over commerce and travel supports Divine.",
+        "claim_ids": [
+          "mercury-c01",
+          "mercury-c05",
+          "mercury-c28",
+          "mercury-c41"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan merusaknya menimpa perorangan: mengubah Battus menjadi batu dan memenggal Argus setelah menidurkannya.",
+        "en": "His harmful deeds fall on individuals: turning Battus to stone and beheading Argus after lulling him to sleep.",
+        "claim_ids": [
+          "mercury-c16",
+          "mercury-c17"
+        ]
+      },
+      "fear": {
+        "id": "Tongkat ajaib pemberian Apollo, pengantaran jiwa dan mimpi, dan sandal bersayap adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral atas dewa pelindung pedagang.",
+        "en": "A magic wand from Apollo, the escorting of souls and dreams and winged sandals are powers beyond natural law; this fear is no moral judgment of the merchants' protector.",
+        "claim_ids": [
+          "mercury-c06",
+          "mercury-c40",
+          "mercury-c41"
+        ]
+      }
+    }
+  },
+  "mermaid": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Makhluk laut berbadan perempuan dan berekor ikan yang meramal masa depan dan, dalam kisah Thessalonike, dapat memanggil badai; kemampuan melampaui manusia tanpa kuasa atas ranah laut secara umum.",
+        "en": "A sea being with a woman's body and fish tail who foretells the future and, in the Thessalonike tale, can conjure a storm; abilities beyond human limits without general authority over the sea.",
+        "claim_ids": [
+          "mermaid-c01",
+          "mermaid-c14",
+          "mermaid-c26"
+        ]
+      },
+      "threat": {
+        "id": "Jawaban yang salah membuatnya memanggil badai dan menenggelamkan kapal beserta pelautnya, dan kemunculannya meramalkan badai; ancaman pada satu awak kapal.",
+        "en": "A wrong answer makes her conjure a storm and doom a vessel with its sailors, and her appearance foretells storm; a threat to a ship's crew.",
+        "claim_ids": [
+          "mermaid-c14",
+          "mermaid-c25",
+          "mermaid-c11"
+        ]
+      },
+      "fear": {
+        "id": "Makhluk yang meramal, memanggil badai, dan membawa orang tenggelam ke kediamannya di bawah laut adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A being that prophesies, conjures storms and takes the drowned into her dwellings beneath the sea is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "mermaid-c14",
+          "mermaid-c25",
+          "mermaid-c26"
+        ]
       }
     }
   },
@@ -21276,6 +22420,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "neptune": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa laut Romawi yang mendapat undian lautan, bersemayam di istana emas di dasar laut, dan trisulanya memecah batu, mengangkat ombak, menciptakan air, dan memanggil badai; kuasa atas ranah laut menjadi dasar Divine.",
+        "en": "Roman god of the sea allotted the oceans, dwelling in a golden palace on the seabed, whose trident smashes rocks, raises waves, creates waters and summons storms; authority over the sea supports Divine.",
+        "claim_ids": [
+          "neptune-c01",
+          "neptune-c05",
+          "neptune-c10",
+          "neptune-c11"
+        ]
+      },
+      "threat": {
+        "id": "Ia mengirim banjir yang melanda Troya ketika Laomedon menolak membayar, dan trisulanya memanggil badai; daya rusak berskala wilayah pesisir.",
+        "en": "He sent a flood over Troy when Laomedon refused to pay, and his trident summons storms; destructive force at the scale of a coastal region.",
+        "claim_ids": [
+          "neptune-c16",
+          "neptune-c05",
+          "neptune-c17"
+        ]
+      },
+      "fear": {
+        "id": "Trisula yang menciptakan kuda pertama dan memanggil badai, kereta yang ditarik paus dan kuda laut, dan laut yang tenang atas perintahnya adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A trident that created the first horse and summons storms, a chariot drawn by whales and seahorses and seas calmed at his command are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "neptune-c13",
+          "neptune-c15",
+          "neptune-c28"
+        ]
+      }
+    }
+  },
   "nergal": {
     "power": "divine",
     "threat": null,
@@ -22129,6 +23308,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "odin": {
+    "power": "cosmic",
+    "threat": "t4",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Bersama saudaranya ia membunuh raksasa purba Ymir dan membentuk bumi, langit, gunung, dan laut dari tubuhnya; ia disebut Alfather, bapak semua dewa dan manusia; kuasa pencipta berskala kosmos.",
+        "en": "With his brothers he slew the proto-giant Ymir and made the earth, sky, mountains and sea from its body; he is called Allfather, father of all gods and men; creative power at cosmic scale.",
+        "claim_ids": [
+          "odin-c16",
+          "odin-c31",
+          "odin-c02",
+          "odin-c13"
+        ]
+      },
+      "threat": {
+        "id": "Ia memutuskan siapa yang menang dalam pertempuran, memimpin Perburuan Liar pasukan orang mati, dan menerima kurban pada masa perang; daya rusak yang tersirat berskala wilayah, bukan runtuhnya dunia.",
+        "en": "He decides who wins battles, leads the Wild Hunt of the dead and received sacrifice in wartime; the implied destructive reach is regional, not the fall of a world.",
+        "claim_ids": [
+          "odin-c17",
+          "odin-c19",
+          "odin-c21"
+        ]
+      },
+      "fear": {
+        "id": "Dewa frenzi yang menentukan kematian dalam pertempuran, mengumpulkan prajurit gugur di Valhalla, dan menggantung diri sembilan malam demi rune menghadapkan manusia pada ketiadaan kendali atas nasibnya.",
+        "en": "The lord of frenzy who decides death in battle, gathers the slain in Valhalla and hung nine nights for the runes confronts humans with their lack of control over fate.",
+        "claim_ids": [
+          "odin-c06",
+          "odin-c13",
+          "odin-c19",
+          "odin-c22"
+        ]
+      }
+    }
+  },
   "ogre": {
     "power": "monstrous",
     "threat": "t1",
@@ -22524,6 +23739,39 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "osiris": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Penguasa dunia bawah dan hakim orang mati, raja pertama Mesir yang menetapkan kerajaan dan tatanan alam, yang Nil adalah alirannya; kuasa atas ranah orang mati dan pembaruan bumi menjadi dasar Divine.",
+        "en": "Lord of the underworld and judge of the dead, first king of Egypt who established kingship and the natural order, of whom the Nile is the efflux; authority over the dead and the earth's renewal supports Divine.",
+        "claim_ids": [
+          "osiris-c01",
+          "osiris-c36",
+          "osiris-c46",
+          "osiris-c28"
+        ]
+      },
+      "threat": {
+        "id": "Ada gambaran dirinya sebagai sosok menakutkan yang mengirim utusan iblis untuk menyeret orang hidup ke alam orang mati; ancaman pada perorangan dan kelompok, bukan wilayah.",
+        "en": "There are depictions of him as a terrifying figure who dispatches demon-messengers to drag the living into the realm of the dead; a threat to individuals and groups, not a region.",
+        "claim_ids": [
+          "osiris-c16"
+        ]
+      },
+      "fear": {
+        "id": "Hakim orang mati yang mengawasi hidup seseorang di bumi dan sesudahnya, dan yang utusannya menyeret orang hidup ke dunia bawah, menghadapkan manusia pada kematian dan penghakimannya.",
+        "en": "The judge of the dead who oversees a person's life on earth and after, and whose messengers drag the living below, confronts humans with death and its judgment.",
+        "claim_ids": [
+          "osiris-c16",
+          "osiris-c37",
+          "osiris-c11"
+        ]
+      }
+    }
+  },
   "otoroshi": {
     "power": null,
     "threat": null,
@@ -22806,6 +24054,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "parvati": {
+    "power": "cosmic",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Shakti Siwa dan ibu alam semesta yang memperoleh kuasa adidaya lewat tapa, dan yang berubah menjadi Durga, Kali, dan sepuluh Mahavidya; kuasa ibu alam semesta berskala kosmos.",
+        "en": "Shiva's shakti and mother of the universe who won supernatural power through penance and transforms into Durga, Kali and the ten Mahavidyas; the power of the mother of the universe at cosmic scale.",
+        "claim_ids": [
+          "parvati-c04",
+          "parvati-c07",
+          "parvati-c28",
+          "parvati-c29"
+        ]
+      },
+      "threat": {
+        "id": "Dalam wujud pejuangnya ia mengalahkan iblis Durg dan membinasakan Daruk sebagai Kali, dan murkanya menjadi sepuluh dewi menakutkan yang menutup setiap jalan keluar; ancaman berskala wilayah terhadap para iblis.",
+        "en": "In her warrior forms she defeats the demon Durg and destroys Daruk as Kali, and her rage becomes ten terrifying goddesses blocking every exit; a regional-scale threat aimed at demons.",
+        "claim_ids": [
+          "parvati-c26",
+          "parvati-c27",
+          "parvati-c29"
+        ]
+      },
+      "fear": {
+        "id": "Dewi yang membentuk anak dari pasta kunyit dan memberinya hidup, memenangkan Siwa dengan tapa, dan menjadi Kali adalah keberadaan di luar hukum alam; ia dihormati sebagai sisi lembut Devi.",
+        "en": "A goddess who shapes a boy from turmeric paste and gives him life, wins Shiva by penance and becomes Kali is an existence beyond natural law; she is honoured as Devi's gentle aspect.",
+        "claim_ids": [
+          "parvati-c21",
+          "parvati-c17",
+          "parvati-c24"
+        ]
+      }
+    }
+  },
   "patagons": {
     "power": "superhuman",
     "threat": null,
@@ -22922,6 +24205,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "pegasus": {
+    "power": "superhuman",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Kuda bersayap abadi yang lahir dari darah Medusa, pembawa guruh dan petir bagi Zeus, yang hentakan kakinya memunculkan mata air Hippocrene; kemampuan melampaui hewan biasa tanpa kuasa atas suatu ranah.",
+        "en": "An immortal winged horse born from Medusa's blood, bearer of thunder and lightning for Zeus, whose hoofstamp brings forth the Hippocrene spring; abilities beyond an ordinary animal without authority over a domain.",
+        "claim_ids": [
+          "pegasus-c02",
+          "pegasus-c05",
+          "pegasus-c06",
+          "pegasus-c27"
+        ]
+      },
+      "threat": {
+        "id": "Satu-satunya perbuatan merusak yang tercatat adalah melempar Bellerophon jatuh ke bumi ketika ia mencoba terbang ke langit; ancaman pada perorangan.",
+        "en": "The only harmful deed recorded is throwing Bellerophon back to earth when he tried to fly to heaven; a threat to an individual.",
+        "claim_ids": [
+          "pegasus-c04",
+          "pegasus-c21"
+        ]
+      },
+      "fear": {
+        "id": "Kuda yang terbang tanpa lelah ke mana pun di atas bumi, menahan Gunung Helikon yang membengkak dengan kakinya, dan menjadi rasi bintang adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A horse that flies unwearied everywhere over the earth, checks the swelling Mount Helicon with its hoof and becomes a constellation is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "pegasus-c27",
+          "pegasus-c30",
+          "pegasus-c07"
+        ]
+      }
+    }
+  },
   "peluda": {
     "power": "monstrous",
     "threat": "t3",
@@ -23006,6 +24323,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menyebut tabu nama dan hari larangan kerja, tetapi tidak menjelaskan jenis rasa takut yang ditimbulkannya; Fear belum dinilai.",
         "en": "The research mentions a name taboo and a day of forbidden work but does not describe the kind of fear he evokes; fear remains unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "persephone": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Ratu dunia bawah dan dewi tumbuhan yang memerintah semua yang hidup dan bergerak di bawah, dengan hak terbesar di antara para dewa, dan yang kepulangannya membawa musim semi; kuasa atas ranah orang mati dan tanaman menjadi dasar Divine.",
+        "en": "Queen of the underworld and goddess of vegetation who rules all that lives and moves below with the greatest rights among the gods, and whose return brings spring; authority over the dead and crops supports Divine.",
+        "claim_ids": [
+          "persephone-c03",
+          "persephone-c28",
+          "persephone-c31",
+          "persephone-c34"
+        ]
+      },
+      "threat": {
+        "id": "Mereka yang menipunya dan tidak meredakan kuasanya dengan persembahan dihukum untuk selamanya, dan ia dimohon dalam lempeng kutukan; ancaman pada perorangan.",
+        "en": "Those who defraud her and do not appease her power with offerings are punished for evermore, and she is invoked on curse tablets; a threat to individuals.",
+        "claim_ids": [
+          "persephone-c28",
+          "persephone-c19"
+        ]
+      },
+      "fear": {
+        "id": "Hesiod menyebutnya Persephone yang menakutkan, ratu yang menghukum untuk selamanya dan menerima jiwa pengikut Orphik; rasa takut itu menghadapkan manusia pada nasibnya sesudah mati.",
+        "en": "Hesiod calls her dread Persephone, the queen who punishes for evermore and receives the souls of Orphic followers; that fear confronts humans with their fate after death.",
+        "claim_ids": [
+          "persephone-c19",
+          "persephone-c20",
+          "persephone-c28"
+        ]
       }
     }
   },
@@ -23155,6 +24506,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "id": "Riset menggambarkan tuan lokal pembunuh dalam legenda pendirian Lille, tanpa unsur teror supernatural atau pemangsaan; Fear belum dinilai.",
         "en": "Research describes a murderous local lord in the Lille founding legend, without supernatural terror or predation; fear is unassessed.",
         "claim_ids": []
+      }
+    }
+  },
+  "phoenix": {
+    "power": "superhuman",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Burung abadi yang lahir kembali dari tubuh atau abu pendahulunya, memancarkan sinar matahari, hidup lima ratus tahun, dan tidak membutuhkan makanan; kemampuan melampaui makhluk biasa tanpa kuasa atas suatu ranah.",
+        "en": "An immortal bird reborn from its predecessor's body or ashes, radiating sunlight, living five hundred years and needing no food; abilities beyond an ordinary creature without authority over a domain.",
+        "claim_ids": [
+          "phoenix-c01",
+          "phoenix-c02",
+          "phoenix-c16",
+          "phoenix-c25"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak phoenix; ia hanya membawa jenazah induknya ke kuil matahari, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by the phoenix; it only carries its parent's body to the sun temple, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Burung yang membakar diri lalu bangkit kembali, menjadi bapak sekaligus anaknya sendiri, dan makan dari sinar matahari adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A bird that burns itself and rises again, is its own father and son and feeds on sunbeams is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "phoenix-c07",
+          "phoenix-c17",
+          "phoenix-c20"
+        ]
       }
     }
   },
@@ -23580,6 +24962,37 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "prometheus": {
+    "power": "divine",
+    "threat": null,
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Titan dewa pemikiran ke depan yang membentuk manusia dari tanah liat, memberi mereka api, akal, dan seni, dan peramal mahatahu; kuasa pencipta atas manusia menjadi dasar Divine.",
+        "en": "Titan god of forethought who moulded mankind from clay, gave them fire, reason and the arts, and an omniscient seer; creative power over humankind supports Divine.",
+        "claim_ids": [
+          "prometheus-c16",
+          "prometheus-c18",
+          "prometheus-c29",
+          "prometheus-c10"
+        ]
+      },
+      "threat": {
+        "id": "Riset tidak memuat perbuatan merusak Prometheus; tipuannya terhadap Zeus dan pencurian api adalah perbuatan demi manusia, sehingga ancaman belum dinilai.",
+        "en": "The research holds no destructive deed by Prometheus; his trick on Zeus and theft of fire were done for humankind, so threat remains unassessed.",
+        "claim_ids": []
+      },
+      "fear": {
+        "id": "Hati abadi yang tumbuh kembali setiap malam untuk dimakan elang, pengetahuan akan masa depan, dan penciptaan manusia dari tanah liat adalah keberadaan di luar hukum alam.",
+        "en": "An immortal liver that regrows each night for the eagle, knowledge of the future and the shaping of humans from clay are an existence beyond natural law.",
+        "claim_ids": [
+          "prometheus-c06",
+          "prometheus-c25",
+          "prometheus-c18"
+        ]
+      }
+    }
+  },
   "psoglav": {
     "power": "monstrous",
     "threat": "t2",
@@ -23896,6 +25309,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "ra-c06",
           "ra-c02"
+        ]
+      }
+    }
+  },
+  "ra-q1252904": {
+    "power": "cosmic",
+    "threat": "t6",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Yang Mencipta Diri Sendiri yang berdiri di atas gundukan purba, mencipta heka, para dewa, dan seluruh makhluk hidup, berkuasa atas langit, bumi, dan Duat; kuasa pencipta berskala kosmos.",
+        "en": "The Self-Created who stood on the primordial mound, made heka, the gods and all living things and rules sky, earth and the Duat; creative power at cosmic scale.",
+        "claim_ids": [
+          "ra-q1252904-c13",
+          "ra-q1252904-c24",
+          "ra-q1252904-c33",
+          "ra-q1252904-c34"
+        ]
+      },
+      "threat": {
+        "id": "Ketika manusia memberontak ia memutuskan pemusnahan dan melepaskan Mata-nya yang membunuh ribuan sampai ia menyesal; ia juga membinasakan musuh ciptaan setiap malam; ancaman global.",
+        "en": "When humanity rebelled he decided on extermination and released his Eye, which killed thousands until he repented; nightly he destroys the enemies of creation; a global threat.",
+        "claim_ids": [
+          "ra-q1252904-c27",
+          "ra-q1252904-c41",
+          "ra-q1252904-c25"
+        ]
+      },
+      "fear": {
+        "id": "Manusia adalah ternak Ra yang lahir dari air matanya dan nyaris dimusnahkan oleh Mata-nya; rasa takut itu menyadarkan betapa rapuh hidup di tangan penciptanya.",
+        "en": "Humans are the cattle of Ra, born of his tears and nearly wiped out by his Eye; that fear confronts them with how fragile life is in their creator's hands.",
+        "claim_ids": [
+          "ra-q1252904-c27",
+          "ra-q1252904-c33",
+          "ra-q1252904-c41"
         ]
       }
     }
@@ -24815,6 +26263,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "saraswati": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewi pengetahuan, kebijaksanaan, musik, dan ucapan, ibu para Veda, yang sebagai sungai memecah punggung bukit dengan gelombangnya; kuasa atas ranah pengetahuan dan air menjadi dasar Divine.",
+        "en": "Goddess of learning, wisdom, music and speech, mother of the Vedas, who as a river bursts the ridges of the hills with her waves; authority over knowledge and waters supports Divine.",
+        "claim_ids": [
+          "saraswati-c01",
+          "saraswati-c02",
+          "saraswati-c09",
+          "saraswati-c25"
+        ]
+      },
+      "threat": {
+        "id": "Dalam Rigveda ia menjatuhkan mereka yang mencemooh para dewa, keturunan Brsaya yang mahir sihir, dan mengutuk Brahma agar tidak disembah; ancaman pada satu kelompok.",
+        "en": "In the Rigveda she casts down those who scorned the gods, the brood of Brsaya skilled in magic, and cursed Brahma never to be worshipped; a threat to one group.",
+        "claim_ids": [
+          "saraswati-c27",
+          "saraswati-c19"
+        ]
+      },
+      "fear": {
+        "id": "Sungai yang menjadi dewi, gelombang yang memecah bukit, dan kutukan yang membuat Brahma tidak disembah adalah kuasa di luar hukum alam; ia dihormati sebagai pelindung ilmu.",
+        "en": "A river become goddess, waves that burst hills and a curse that left Brahma unworshipped are powers beyond natural law; she is honoured as patron of learning.",
+        "claim_ids": [
+          "saraswati-c12",
+          "saraswati-c25",
+          "saraswati-c29"
+        ]
+      }
+    }
+  },
   "sarimanok": {
     "power": "superhuman",
     "threat": null,
@@ -25011,6 +26493,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
           "satori-folklore-c01",
           "satori-folklore-c04",
           "satori-folklore-c06"
+        ]
+      }
+    }
+  },
+  "saturn": {
+    "power": "divine",
+    "threat": "t2",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa benih dan penaburan, waktu, kelimpahan, dan pembaruan yang memerintah Latium pada zaman emas, mengajarkan pertanian dan hukum, dan dalam hitungan Romawi pemegang petir; kuasa atas ranah pertanian dan waktu menjadi dasar Divine.",
+        "en": "God of seed and sowing, time, abundance and renewal who ruled Latium in a golden age, taught farming and laws and in Roman reckoning wields lightning; authority over agriculture and time supports Divine.",
+        "claim_ids": [
+          "saturn-c07",
+          "saturn-c28",
+          "saturn-c47",
+          "saturn-c35"
+        ]
+      },
+      "threat": {
+        "id": "Riset menyebut ia pemegang petir dan darah yang ditumpahkan untuknya dalam munera gladiator, tanpa perbuatan merusak tertentu; ancaman ditafsirkan pada kelompok dari daya petir itu saja.",
+        "en": "The research names him a wielder of lightning and notes blood shed for him in gladiatorial munera, with no specific destructive deed; the threat is read at group scale from that lightning alone.",
+        "claim_ids": [
+          "saturn-c35",
+          "saturn-c40"
+        ]
+      },
+      "fear": {
+        "id": "Dewa berkerudung yang diikat wol sepanjang tahun dan dilepaskan pada pestanya, pemegang petir, dan pengasingan dari langit adalah keberadaan di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A veiled god bound in wool all year and released at his festival, a wielder of lightning exiled from heaven, is an existence beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "saturn-c34",
+          "saturn-c35",
+          "saturn-c37",
+          "saturn-c46"
         ]
       }
     }
@@ -26567,6 +28084,40 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "sphinx": {
+    "power": "monstrous",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk berbadan singa, berwajah perempuan, dan bersayap burung, anak Echidna dan Typhon, yang menerkam dan melahap manusia; kekuatan monster besar, bukan kuasa atas suatu ranah.",
+        "en": "A lion-bodied, woman-faced, bird-winged creature, child of Echidna and Typhon, that snatches and devours humans; the might of a great monster, not authority over a domain.",
+        "claim_ids": [
+          "sphinx-c04",
+          "sphinx-c12",
+          "sphinx-c14"
+        ]
+      },
+      "threat": {
+        "id": "Dikirim para dewa untuk menyiksa Thebes, ia memangsa para pemuda kota, melahap siapa pun yang gagal menjawab teka-tekinya, dan membawa kekeringan serta kelaparan; ancaman berskala kota.",
+        "en": "Sent by the gods to plague Thebes, she preyed on the city's youths, devoured all who failed her riddle and brought drought and famine; a settlement-scale threat.",
+        "claim_ids": [
+          "sphinx-c09",
+          "sphinx-c14",
+          "sphinx-c17"
+        ]
+      },
+      "fear": {
+        "id": "Ketakutan yang tercatat adalah diterkam dan dilahap setelah gagal menjawab; ia disebut bencana bagi orang Theba.",
+        "en": "The recorded fear is of being snatched and devoured after failing the riddle; she is called the bane of the Thebans.",
+        "claim_ids": [
+          "sphinx-c06",
+          "sphinx-c11",
+          "sphinx-c14"
+        ]
+      }
+    }
+  },
   "spiridus": {
     "power": "superhuman",
     "threat": null,
@@ -27829,6 +29380,42 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "thor": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa guruh terkuat di antara dewa dan manusia, penguasa langit dari Thrudvang, pemegang Mjolnir, sabuk kekuatan, dan sarung tangan besi; kuasa atas badai, hujan, cuaca, dan panen menjadi dasar Divine.",
+        "en": "Thunder god, strongest of gods and men, ruler of the sky from Thrudvang with Mjolnir, belt of strength and iron gloves; authority over storm, rain, weather and crops supports Divine.",
+        "claim_ids": [
+          "thor-c01",
+          "thor-c27",
+          "thor-c31",
+          "thor-c34"
+        ]
+      },
+      "threat": {
+        "id": "Pukulannya meratakan puncak gunung, ia memelintir kepala lembu dan membelah tengkorak raksasa, dan minumnya menciptakan pasang surut; daya rusaknya berskala wilayah, bukan dunia.",
+        "en": "His blows level mountain tops, he twists off an ox's head and splits giants' skulls, and his drinking creates the tides; destructive power at regional scale, not world scale.",
+        "claim_ids": [
+          "thor-c23",
+          "thor-c24",
+          "thor-c33",
+          "thor-c35"
+        ]
+      },
+      "fear": {
+        "id": "Mjolnir yang ditakuti para raksasa, kambing yang dihidupkan kembali, dan tatapan yang dibalas semburan racun ular dunia adalah kuasa di luar hukum alam; ia terutama pelindung Midgard.",
+        "en": "Mjolnir dreaded by the giants, goats brought back to life and a stare answered by the world serpent's venom are powers beyond natural law; he is above all Midgard's protector.",
+        "claim_ids": [
+          "thor-c13",
+          "thor-c33",
+          "thor-c36"
+        ]
+      }
+    }
+  },
   "thoth": {
     "power": "divine",
     "threat": "t1",
@@ -28911,6 +30498,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "uranus": {
+    "power": "cosmic",
+    "threat": "t2",
+    "fear": "f5",
+    "reasons": {
+      "power": {
+        "id": "Personifikasi langit itu sendiri, kubah perunggu bertabur bintang yang bertumpu pada tepi bumi, dewa purba bapak para Titan, Cyclops, dan Hecatoncheires; keberadaan berskala kosmos.",
+        "en": "The personification of the sky itself, the star-studded brass dome resting on the edges of the earth, a primordial god who fathered the Titans, Cyclopes and Hecatoncheires; an existence at cosmic scale.",
+        "claim_ids": [
+          "uranus-c01",
+          "uranus-c11",
+          "uranus-c04",
+          "uranus-c15"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan merusaknya yang tercatat adalah menyembunyikan dan mengurung anak-anaknya di dalam Bumi, hingga Gaia mempersenjatai Cronus melawannya; ancaman pada satu keluarga ilahi.",
+        "en": "His recorded harmful deed is hiding and locking his children inside the Earth until Gaia armed Cronus against him; a threat to one divine family.",
+        "claim_ids": [
+          "uranus-c05",
+          "uranus-c12",
+          "uranus-c36"
+        ]
+      },
+      "fear": {
+        "id": "Langit yang dibayangkan sebagai manusia raksasa bertabur bintang yang bertumpu di atas bumi, yang landasan jatuhnya butuh sembilan hari mencapai bumi, membuat manusia terasa tidak berarti dalam luasnya kosmos.",
+        "en": "A sky imagined as a gigantic star-spangled man resting over the earth, from whom a falling anvil takes nine days to reach the ground, renders humanity insignificant within the cosmos.",
+        "claim_ids": [
+          "uranus-c11",
+          "uranus-c15",
+          "uranus-c21"
+        ]
+      }
+    }
+  },
   "urias": {
     "power": "monstrous",
     "threat": "t2",
@@ -29267,6 +30889,43 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "en": "Growth from a small brahmin to a being striding over the worlds exceeds natural law; this is a respectful reading of Hindu tradition, not a figure of terror.",
         "claim_ids": [
           "vamana-c07"
+        ]
+      }
+    }
+  },
+  "vampire": {
+    "power": "superhuman",
+    "threat": "t3",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Mayat hidup yang bangkit dari kubur pada malam hari, tampak segar dan kemerahan karena darah yang diisap, dan dalam sebagian tradisi dapat berubah wujud; kemampuan melampaui manusia tanpa kuasa atas suatu ranah.",
+        "en": "An undead corpse that rises from the grave at night, found fresh and ruddy from the blood it drinks and in some traditions able to shape-shift; abilities beyond human limits without authority over a domain.",
+        "claim_ids": [
+          "vampire-c02",
+          "vampire-c09",
+          "vampire-c28",
+          "vampire-c39"
+        ]
+      },
+      "threat": {
+        "id": "Tanda kehadirannya adalah kematian ternak, kerabat, dan tetangga, dan kepanikan vampir menyebar dari satu tempat ke tempat lain; ancaman pada skala desa.",
+        "en": "Its signs are the deaths of cattle, relatives and neighbours, and vampire panics spread from place to place; a settlement-scale threat.",
+        "claim_ids": [
+          "vampire-c05",
+          "vampire-c10",
+          "vampire-c22",
+          "vampire-c29"
+        ]
+      },
+      "fear": {
+        "id": "Ketakutan yang tercatat adalah diisap darahnya saat tidur oleh mayat yang bangkit; ditangkal dengan bawang putih, pasak, dan pemenggalan.",
+        "en": "The recorded fear is of being drained of blood in one's sleep by a risen corpse; warded off with garlic, the stake and decapitation.",
+        "claim_ids": [
+          "vampire-c02",
+          "vampire-c03",
+          "vampire-c11",
+          "vampire-c40"
         ]
       }
     }
@@ -30497,6 +32156,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
       }
     }
   },
+  "werewolf": {
+    "power": "superhuman",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Manusia yang berubah menjadi serigala atau hibrida serigala-manusia, sukarela atau karena kutukan, memakai kulit serigala atau air dari jejak serigala; kemampuan berubah wujud melampaui manusia tanpa kuasa atas suatu ranah.",
+        "en": "A human who changes into a wolf or wolf-human hybrid, voluntarily or by curse, through wolf skins or water from a wolf's footprint; shapeshifting beyond human limits without authority over a domain.",
+        "claim_ids": [
+          "werewolf-c01",
+          "werewolf-c05",
+          "werewolf-c38",
+          "werewolf-c43"
+        ]
+      },
+      "threat": {
+        "id": "Serigala itu membunuh seluruh kawanan domba, menjadi werewolf dikaitkan dengan memakan daging manusia, dan seorang penyihir mengubah seluruh pesta pernikahan menjadi serigala; ancaman pada kelompok.",
+        "en": "The wolf killed a whole flock of sheep, becoming a werewolf is tied to eating human flesh, and a witch turned a whole wedding party into wolves; a group-scale threat.",
+        "claim_ids": [
+          "werewolf-c14",
+          "werewolf-c23",
+          "werewolf-c19"
+        ]
+      },
+      "fear": {
+        "id": "Ketakutan yang tercatat adalah dimangsa oleh manusia yang menjadi serigala dengan selera akan daging manusia; perubahan wujudnya melengkapi rasa takut dimangsa itu.",
+        "en": "The recorded fear is of being preyed on by a human turned wolf with a taste for human flesh; the shapeshifting complements that fear of being prey.",
+        "claim_ids": [
+          "werewolf-c23",
+          "werewolf-c32",
+          "werewolf-c29"
+        ]
+      }
+    }
+  },
   "werewolf-in-slavic-mythology": {
     "power": "superhuman",
     "threat": "t2",
@@ -31299,6 +32993,41 @@ export const POWER_ASSESSMENTS = Object.freeze({
         "claim_ids": [
           "yelbeghen-c01",
           "yelbeghen-c02"
+        ]
+      }
+    }
+  },
+  "yeti": {
+    "power": "monstrous",
+    "threat": "t2",
+    "fear": "f2",
+    "reasons": {
+      "power": {
+        "id": "Makhluk mirip kera besar berbulu dengan gigi tajam, varian terbesarnya nyalmo setinggi sekitar lima belas kaki, membawa batu besar sebagai senjata; kekuatan monster, bukan kuasa gaib.",
+        "en": "A large hairy ape-like creature with sharp teeth, its largest kind the nyalmo about fifteen feet tall, carrying a great stone as a weapon; the might of a monster, not supernatural power.",
+        "claim_ids": [
+          "yeti-c12",
+          "yeti-c13",
+          "yeti-c15",
+          "yeti-c20"
+        ]
+      },
+      "threat": {
+        "id": "Yeti berkaki empat yang lebih besar memangsa ternak, dan legenda setempat berkata siapa pun yang melihatnya mati atau dibunuh; ancaman pada perorangan dan kawanan.",
+        "en": "The larger four-legged yetis prey on livestock, and local legend holds that anyone who sees one dies or is killed; a threat to individuals and herds.",
+        "claim_ids": [
+          "yeti-c03",
+          "yeti-c36"
+        ]
+      },
+      "fear": {
+        "id": "Ketakutan yang tercatat adalah diterkam di hutan malam oleh makhluk yang memekik dan memangsa ternak; melihatnya dianggap pertanda buruk.",
+        "en": "The recorded fear is of being seized in the night forest by a screeching creature that preys on livestock; seeing one is held a bad omen.",
+        "claim_ids": [
+          "yeti-c05",
+          "yeti-c03",
+          "yeti-c23",
+          "yeti-c36"
         ]
       }
     }

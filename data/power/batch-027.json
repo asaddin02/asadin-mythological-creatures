@@ -7,17 +7,27 @@
       "power": {
         "id": "Dewi Olympus atas perburuan, alam liar, dan hewan, disebut nyonya semua hewan liar, yang bersama Apollo membawa kematian mendadak dan penyakit; kuasa atas ranah itu menjadi dasar Divine.",
         "en": "Olympian goddess of hunting, wilderness and animals, called mistress of all wild animals, who with Apollo brings sudden death and disease; authority over these domains supports Divine.",
-        "claim_ids": ["artemis-c01", "artemis-c37", "artemis-c19"]
+        "claim_ids": [
+          "artemis-c01",
+          "artemis-c37",
+          "artemis-c19"
+        ]
       },
       "threat": {
         "id": "Ia mengirim babi hutan raksasa untuk merusak Kalydon karena kota itu melalaikan persembahan dan menahan armada Akhaia dengan ketiadaan angin, dasar skala permukiman.",
         "en": "She sent a huge boar to ravage Kalydon after the city neglected her sacrifices and becalmed the Achaean fleet, supporting a settlement scale.",
-        "claim_ids": ["artemis-c14", "artemis-c07"]
+        "claim_ids": [
+          "artemis-c14",
+          "artemis-c07"
+        ]
       },
       "fear": {
         "id": "Mengubah Aktaion menjadi rusa dan Kallisto menjadi beruang melampaui hukum alam; Fear bukan penilaian moral dan ia juga pelindung serta penyembuh.",
         "en": "Turning Actaion into a stag and Callisto into a bear exceeds natural law; Fear is not a moral judgment and she is also a protector and healer.",
-        "claim_ids": ["artemis-c12", "artemis-c11"]
+        "claim_ids": [
+          "artemis-c12",
+          "artemis-c11"
+        ]
       }
     },
     "oleh": "claude-lokal",
@@ -31,7 +41,11 @@
       "power": {
         "id": "Dewi Romawi atas cinta, kecantikan, kesuburan, kemakmuran, dan kemenangan serta leluhur bangsa Romawi melalui Aeneas; kuasa atas ranah itu menjadi dasar Divine.",
         "en": "Roman goddess of love, beauty, fertility, prosperity and victory and ancestor of the Roman people through Aeneas; authority over these domains supports Divine.",
-        "claim_ids": ["venus-c01", "venus-c02", "venus-c07"]
+        "claim_ids": [
+          "venus-c01",
+          "venus-c02",
+          "venus-c07"
+        ]
       },
       "threat": {
         "id": "Riset tidak memuat perbuatan merusak oleh Venus sendiri; Anchises dilumpuhkan oleh sambaran Jupiter, sehingga ancaman belum dinilai.",
@@ -41,10 +55,125 @@
       "fear": {
         "id": "Penampakan dalam wujud bintang senja dan api pertanda yang menyala tiga kali di hadapan Pygmalion menunjukkan keberadaan di luar hukum alam; riset tidak memuat unsur kengerian, jadi ini penilaian tipis.",
         "en": "Appearing in her celestial form as the evening star and the omen flame kindled three times before Pygmalion show an existence beyond natural law; the research holds no element of horror, so this is a thin assessment.",
-        "claim_ids": ["venus-c19", "venus-c22"]
+        "claim_ids": [
+          "venus-c19",
+          "venus-c22"
+        ]
       }
     },
     "perlu_riset": "Riset Venus berfokus pada kultus dan kisah cinta; tidak memuat perbuatan merusak atau hukuman oleh Venus sendiri maupun gambaran rasa takut yang ditimbulkannya, sehingga Threat tidak dapat dinilai dan Fear dinilai tipis.",
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
+  },
+  "hermes": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Pembawa pesan Olympus, pemandu jiwa ke dunia bawah, penguasa burung pertanda, singa, dan kawanan, pencipta huruf dan musik; kuasa atas ranah batas dan perjalanan menjadi dasar Divine.",
+        "en": "Olympian herald, guide of souls to the underworld, lord of birds of omen, lions and flocks, inventor of letters and music; authority over boundaries and journeys supports Divine.",
+        "claim_ids": [
+          "hermes-c01",
+          "hermes-c02",
+          "hermes-c28",
+          "hermes-c29"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan merusaknya tercatat pada perorangan: membunuh Argos bermata banyak, mengubah Battos menjadi batu, dan menutup mata manusia dengan tongkatnya.",
+        "en": "His harmful deeds fall on individuals: killing many-eyed Argos, turning Battos to stone and closing mortal eyes with his staff.",
+        "claim_ids": [
+          "hermes-c13",
+          "hermes-c25",
+          "hermes-c41"
+        ]
+      },
+      "fear": {
+        "id": "Tongkat yang membuka dan menutup mata manusia, kuasa mengirim atau mencabut tidur, dan peran pemandu jiwa ke Styx adalah kuasa di luar hukum alam; ketakutan ini bukan penilaian moral.",
+        "en": "A staff that opens and closes mortal eyes, power to send or withhold sleep and the role of guiding souls to the Styx are powers beyond natural law; this fear is not a moral judgment.",
+        "claim_ids": [
+          "hermes-c14",
+          "hermes-c41",
+          "hermes-c42"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
+  },
+  "thor": {
+    "power": "divine",
+    "threat": "t4",
+    "fear": "f3",
+    "reasons": {
+      "power": {
+        "id": "Dewa guruh terkuat di antara dewa dan manusia, penguasa langit dari Thrudvang, pemegang Mjolnir, sabuk kekuatan, dan sarung tangan besi; kuasa atas badai, hujan, cuaca, dan panen menjadi dasar Divine.",
+        "en": "Thunder god, strongest of gods and men, ruler of the sky from Thrudvang with Mjolnir, belt of strength and iron gloves; authority over storm, rain, weather and crops supports Divine.",
+        "claim_ids": [
+          "thor-c01",
+          "thor-c27",
+          "thor-c31",
+          "thor-c34"
+        ]
+      },
+      "threat": {
+        "id": "Pukulannya meratakan puncak gunung, ia memelintir kepala lembu dan membelah tengkorak raksasa, dan minumnya menciptakan pasang surut; daya rusaknya berskala wilayah, bukan dunia.",
+        "en": "His blows level mountain tops, he twists off an ox's head and splits giants' skulls, and his drinking creates the tides; destructive power at regional scale, not world scale.",
+        "claim_ids": [
+          "thor-c23",
+          "thor-c24",
+          "thor-c33",
+          "thor-c35"
+        ]
+      },
+      "fear": {
+        "id": "Mjolnir yang ditakuti para raksasa, kambing yang dihidupkan kembali, dan tatapan yang dibalas semburan racun ular dunia adalah kuasa di luar hukum alam; ia terutama pelindung Midgard.",
+        "en": "Mjolnir dreaded by the giants, goats brought back to life and a stare answered by the world serpent's venom are powers beyond natural law; he is above all Midgard's protector.",
+        "claim_ids": [
+          "thor-c13",
+          "thor-c33",
+          "thor-c36"
+        ]
+      }
+    },
+    "oleh": "claude-lokal",
+    "tanggal": "2026-10-08"
+  },
+  "hades": {
+    "power": "divine",
+    "threat": "t1",
+    "fear": "f4",
+    "reasons": {
+      "power": {
+        "id": "Raja dunia bawah yang mendapat undian kabut dan kegelapan, dewa kekayaan tersembunyi bumi, pemilik helm yang membuat tak terlihat, dan penjaga gerbang yang tak bisa dilalui bayangan; kuasa atas ranah orang mati menjadi dasar Divine.",
+        "en": "King of the underworld allotted the mists and darkness, god of the earth's hidden wealth, owner of the helmet of invisibility and keeper of gates no shade can pass; authority over the realm of the dead supports Divine.",
+        "claim_ids": [
+          "hades-c01",
+          "hades-c09",
+          "hades-c15",
+          "hades-c16"
+        ]
+      },
+      "threat": {
+        "id": "Perbuatan yang tercatat menimpa perorangan: menculik Persephone, memenjarakan Theseus dan Peirithoos di takhta; ia menahan orang mati, bukan menghancurkan yang hidup.",
+        "en": "His recorded deeds fall on individuals: abducting Persephone and imprisoning Theseus and Peirithoos in thrones; he holds the dead rather than destroying the living.",
+        "claim_ids": [
+          "hades-c11",
+          "hades-c29",
+          "hades-c40"
+        ]
+      },
+      "fear": {
+        "id": "Dewa paling ditakuti yang disebut tanpa belas kasihan dan dibenci manusia, yang namanya pun dihindari, menghadapkan manusia pada kematian yang tak terelakkan.",
+        "en": "The most feared god, called pitiless and hated by mortals, whose very name was avoided, confronts humans with inescapable death.",
+        "claim_ids": [
+          "hades-c17",
+          "hades-c25",
+          "hades-c26"
+        ]
+      }
+    },
     "oleh": "claude-lokal",
     "tanggal": "2026-10-08"
   }
