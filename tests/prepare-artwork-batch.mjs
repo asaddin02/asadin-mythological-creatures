@@ -34,6 +34,8 @@ try {
   await save('data/artwork-exclusions.json', { items: { excluded: { reason: 'excluded' } } });
   const policy = { name: 'nama-besar', fidelity: 'unchanged approved policy' };
   await save('data/artwork-nama-besar.json', { policy });
+  const sangar = { name: 'sangar', intent: 'dangerous, imposing or awe-inspiring' };
+  await save('data/artwork-policy-sangar.json', sangar);
   const run = (...args) => spawnSync(process.execPath, ['scripts/prepare-artwork-batch.mjs', '--tool', 'OpenAI built-in image_gen', '--worker', 'codex', ...args], { cwd: root, encoding: 'utf8' });
 
   const original = run();
@@ -53,15 +55,26 @@ try {
   assert.equal(batch.selection_criteria.commons_only, true);
   assert.deepEqual(batch.items[0].research, entries.commons, 'Embedded Commons research and images are preserved');
   assert.deepEqual(batch.user_policy, policy, 'Approved policy is copied unchanged');
+  assert.equal(batch.keep_rejected_attempts, true, 'A named policy keeps rejected attempts as history');
+  assert.equal(normal.keep_rejected_attempts, undefined, 'The default policy keeps the earlier ledger format');
   const beforeCollision = await readFile(join(root, 'data/artwork-batch-2.json'), 'utf8');
-  assert.notEqual(run('--allow-commons', '--slugs', 'commons').status, 0, 'Existing batch cannot be overwritten');
-  assert.equal(await readFile(join(root, 'data/artwork-batch-2.json'), 'utf8'), beforeCollision);
+  const again = run('--allow-commons', '--slugs', 'commons');
+  assert.equal(again.status, 0, again.stderr);
+  assert.equal(await readFile(join(root, 'data/artwork-batch-2.json'), 'utf8'), beforeCollision, 'An open batch is never overwritten');
+  assert.deepEqual((await read('data/artwork-batch-3.json')).items.map(i => i.slug), ['commons'], 'A second open batch counts on from the highest batch number');
   assert.equal(run('--allow-commons').status, 0);
-  const mixed = await read('data/artwork-batch-3.json');
+  const mixed = await read('data/artwork-batch-5.json');
   assert.deepEqual(new Set(mixed.items.map(i => i.slug)), new Set(['plain', 'commons']));
   assert.equal(mixed.selection_criteria.commons_only, false);
+  const named = run('--allow-commons', '--slugs', 'commons', '--policy', 'sangar');
+  assert.equal(named.status, 0, named.stderr);
+  const sangarBatch = await read('data/artwork-batch-6.json');
+  assert.deepEqual(sangarBatch.user_policy, sangar, 'A named policy file is copied unchanged');
+  assert.equal(sangarBatch.keep_rejected_attempts, true);
+  assert.notEqual(run('--allow-commons', '--slugs', 'commons', '--policy', 'tidak-ada').status, 0, 'Unknown policy names are refused');
+  assert.notEqual(run('--allow-commons', '--slugs', 'commons', '--policy', '../x').status, 0, 'Policy names cannot be paths');
   assert.deepEqual(await read('data/fixture.json'), fixture, 'Accepted research is never modified');
-  console.log('Artwork batch checks passed: default selection, Commons opt-in, exclusions, active artwork, unchanged research/policy, mixed selection, and overwrite protection.');
+  console.log('Artwork batch checks passed: default selection, Commons opt-in, exclusions, active artwork, unchanged research/policy, named policies, mixed selection, and open-batch numbering.');
 } finally {
   await rm(root, { recursive: true, force: true });
 }

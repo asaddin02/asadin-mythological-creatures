@@ -3,12 +3,16 @@
  * Worklist for the next editorial illustration batch: every "lengkap-informasi" creature (complete, valid
  * research without an approved image), with its accepted research embedded unchanged.
  *
- *   node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex [--limit 100] [--slugs a,b,c] [--policy nama-besar] [--allow-commons]
+ *   node scripts/prepare-artwork-batch.mjs --tool "OpenAI built-in image_gen" --worker codex [--limit 100] [--slugs a,b,c] [--policy sangar] [--allow-commons]
  *     --slugs        only these creatures (they must still have complete, valid research)
  *     --allow-commons  also accept lengkap-bergambar entries without editorial artwork or exclusions
  *     --policy nama-besar  the dramatic style for big names (data/artwork-nama-besar.json → policy)
+ *     --policy <name>      any other named style, read whole from data/artwork-policy-<name>.json (e.g. sangar, 8 October 2026)
  *
- * Writes data/artwork-batch-<N>.json, where N = active illustrations + selected items (like 797 and 1000).
+ * Writes data/artwork-batch-<N>.json, where N = active illustrations + selected items (like 797 and 1000). While an
+ * earlier batch is still open (generated but not yet integrated), N counts from the highest existing batch number
+ * instead, so two open batches never collide and numbers keep growing.
+ * A named policy keeps rejected attempts as history (keep_rejected_attempts), as the big-name batches did.
  * Creatures that an earlier batch left out (no documented bodily form) stay in the list with that reason
  * as `catatan_sebelumnya`; the generator decides again and may decline with status "tidak-digambar".
  * The receipts, the second visual review and registration follow scripts/integrate-artwork-batch.mjs.
@@ -21,10 +25,14 @@ const ROOT = new URL('../', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, ROOT), 'utf8'));
 const { values: args } = parseArgs({ options: { tool: { type: 'string' }, worker: { type: 'string' }, limit: { type: 'string' }, slugs: { type: 'string' }, policy: { type: 'string' }, 'allow-commons': { type: 'boolean', default: false } } });
 const only = args.slugs ? new Set(args.slugs.split(',').map(s => s.trim()).filter(Boolean)) : null;
-if (!args.tool?.trim() || !/^[a-z0-9-]+$/.test(args.worker || '')) {
-  console.error('Pemakaian: node scripts/prepare-artwork-batch.mjs --tool "<nama alat>" --worker <nama> [--limit N] [--allow-commons]');
+if (!args.tool?.trim() || !/^[a-z0-9-]+$/.test(args.worker || '') || (args.policy && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(args.policy))) {
+  console.error('Pemakaian: node scripts/prepare-artwork-batch.mjs --tool "<nama alat>" --worker <nama> [--limit N] [--slugs a,b] [--policy <nama>] [--allow-commons]');
   process.exit(1);
 }
+// A named policy is copied unchanged into the ledger so every receipt of the batch answers to the same written rules.
+const policy = !args.policy ? null
+  : args.policy === 'nama-besar' ? (await read('data/artwork-nama-besar.json')).policy
+  : await read(`data/artwork-policy-${args.policy}.json`).catch(() => { throw new Error(`Policy "${args.policy}" tidak dikenal: data/artwork-policy-${args.policy}.json tidak ada.`); });
 
 const catalogue = await read('data/creatures.json');
 const inCatalogue = new Set(catalogue.map(c => c.slug));
@@ -54,7 +62,8 @@ if (args.limit) selected = selected.slice(0, Number(args.limit));
 if (!selected.length) throw new Error(args['allow-commons'] ? 'Tidak ada entri lengkap-informasi atau lengkap-bergambar tanpa ilustrasi AI yang bisa digambar.' : 'Tidak ada entri lengkap-informasi yang bisa digambar.');
 
 const baseline = Object.keys(manifest.artworks).length;
-const number = baseline + selected.length;
+const highest = Math.max(0, ...ledgers.map(name => parseInt(name.slice(14))));
+const number = Math.max(baseline, highest) + selected.length;
 const output = new URL(`data/artwork-batch-${number}.json`, ROOT);
 if (await readFile(output).then(() => true, () => false)) throw new Error(`data/artwork-batch-${number}.json sudah ada; jangan menimpa progres yang sedang berjalan.`);
 
@@ -89,7 +98,8 @@ const batch = {
     'The accepted research entry is embedded unchanged; the image may only depict what its claims document.',
     'Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar.',
   ],
-  user_policy: args.policy === 'nama-besar' ? (await read('data/artwork-nama-besar.json')).policy : {
+  ...(policy ? { keep_rejected_attempts: true } : {}),
+  user_policy: policy || {
     instruction_date: '2026-10-06',
     only_complete_information: true,
     fidelity: 'Do not invent. Every bodily feature, attribute and the scene must follow the documented claims of this research entry.',

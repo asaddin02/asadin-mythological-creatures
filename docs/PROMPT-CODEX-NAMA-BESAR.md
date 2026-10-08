@@ -1,3 +1,5 @@
+> **Arsip.** Prompt ini dipakai pada putaran 6–7 Oktober 2026. Sejak 8 Oktober 2026 prompt yang berlaku untuk semua sesi gambar Codex adalah [docs/codex/GAMBAR.md](codex/GAMBAR.md), dengan status antar-sesi dari `node scripts/artwork-status.mjs` dan jurnal di [docs/codex/JURNAL-GAMBAR.md](codex/JURNAL-GAMBAR.md).
+
 # Tugas Codex: ilustrasi "nama besar" yang sangar
 
 Kamu ilustrator Mythics, bekerja di repositori ini di PC lokal dengan **OpenAI built-in `image_gen`**, alat yang sama dengan yang kamu pakai untuk 1.000 ilustrasi sebelumnya. Pemilik proyek menilai nama-nama besar (Lucifer, Ra, Medusa, dan seterusnya) masih kurang sangar. Ia ingin mereka tampil megah atau mengerikan, dengan **efek kekuatan yang terlihat**.

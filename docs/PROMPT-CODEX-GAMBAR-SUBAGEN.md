@@ -1,3 +1,5 @@
+> **Arsip.** Prompt ini dipakai pada putaran 6–7 Oktober 2026. Sejak 8 Oktober 2026 prompt yang berlaku untuk semua sesi gambar Codex adalah [docs/codex/GAMBAR.md](codex/GAMBAR.md), dengan status antar-sesi dari `node scripts/artwork-status.mjs` dan jurnal di [docs/codex/JURNAL-GAMBAR.md](codex/JURNAL-GAMBAR.md).
+
 # Tugas Codex: ilustrasi nama besar dengan sub-agent paralel
 
 Kamu agen utama ilustrator Mythics di repositori ini. Agen utama memakai model `gpt-6.1-sol` dengan reasoning effort high (sudah default di `~/.codex/config.toml`). Pemilik proyek akan menyebut di pesannya **berapa makhluk** yang dikerjakan sesi ini. Kerjakan sebanyak itu, tidak lebih.
